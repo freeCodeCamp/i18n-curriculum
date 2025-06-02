@@ -21,7 +21,7 @@ Quale frazione della zona non è coperta da cerchi dopo `n` iterazioni? Dai il t
 `iterativeCirclePacking(10)` dovrebbe restituire un numero.
 
 ```js
-assert(typeof iterativeCirclePacking(10) === 'number');
+assert.isNumber(iterativeCirclePacking(10));
 ```
 
 `iterativeCirclePacking(10)` dovrebbe restituire `0.00396087`.

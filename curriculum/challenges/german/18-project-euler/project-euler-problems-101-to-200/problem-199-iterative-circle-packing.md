@@ -21,7 +21,7 @@ Welcher Anteil der Fläche ist nach `n` Iterationen nicht von Kreisen bedeckt? G
 `iterativeCirclePacking(10)` sollte eine Zahl zurückgeben.
 
 ```js
-assert(typeof iterativeCirclePacking(10) === 'number');
+assert.isNumber(iterativeCirclePacking(10));
 ```
 
 `iterativeCirclePacking(10)` sollte `0.00396087` zurückgeben.

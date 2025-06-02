@@ -28,7 +28,7 @@ Qual è la posizione del cursore dopo ${10}^{12}$ passi in $D_{50}$? Dai la tua 
 `heighwayDragon()` dovrebbe restituire una stringa.
 
 ```js
-assert(typeof heighwayDragon() === 'string');
+assert.isString(heighwayDragon());
 ```
 
 `heighwayDragon()` dovrebbe restituire la stringa `139776,963904`.

@@ -31,7 +31,7 @@ assert.equal(
 );
 ```
 
-Your `h3` element should have a closing tag. Closing tags have a `/` just after the `<` character.
+Елемент `h3` повинен мати кінцевий тег. Кінцеві теги мають `/` одразу після символу `<`.
 
 ```js
 assert.lengthOf(code.match(/<\/h3>/g), 1);

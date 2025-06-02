@@ -28,7 +28,7 @@ const exampleTriangles = [
 `triangleContainment(exampleTriangles)` は数値を返す必要があります。
 
 ```js
-assert(typeof triangleContainment(_exampleTriangles) === 'number');
+assert.isNumber(triangleContainment(_exampleTriangles));
 ```
 
 `triangleContainment(exampleTriangles)` は `1` を返す必要があります。

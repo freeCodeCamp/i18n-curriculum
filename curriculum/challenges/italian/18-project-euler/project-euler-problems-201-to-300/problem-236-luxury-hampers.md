@@ -36,7 +36,7 @@ Qual è il valore più grande possibile di $m$? Dai la tua risposta come una str
 `luxuryHampers()` dovrebbe restituire una stringa.
 
 ```js
-assert(typeof luxuryHampers() === 'string');
+assert.isString(luxuryHampers());
 ```
 
 `luxuryHampers()` dovrebbe restituire la stringa `123/59`.

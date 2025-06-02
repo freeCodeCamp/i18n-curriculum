@@ -21,7 +21,7 @@ dashedName: problem-199-iterative-circle-packing
 `iterativeCirclePacking(10)` は数値を返す必要があります。
 
 ```js
-assert(typeof iterativeCirclePacking(10) === 'number');
+assert.isNumber(iterativeCirclePacking(10));
 ```
 
 `iterativeCirclePacking(10)` は `0.00396087` を返す必要があります。

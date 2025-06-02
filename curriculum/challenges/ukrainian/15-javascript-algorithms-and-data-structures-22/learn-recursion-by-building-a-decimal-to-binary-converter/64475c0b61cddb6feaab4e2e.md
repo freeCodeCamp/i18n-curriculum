@@ -18,7 +18,7 @@ dashedName: step-13
 Викличте метод `alert()` в тілі інструкції `if` у `checkUserInput`.
 
 ```js
-assert.match(String(checkUserInput), /if\s*\(\s*.+\s*\)\s*\{\s*(window\s*.)?\s*alert\(/);
+assert.match(String(checkUserInput), /if\s*\(\s*.+\s*\)\s*\{\s*(?:window\.|globalThis\.)?alert\(/);
 ```
 
 Якщо в елементі `#number-input` є хибне значення та викликається функція `checkUserInput()`, метод `alert()` має відображати текст `"Please provide a decimal number greater than or equal to 0"`.

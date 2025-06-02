@@ -27,7 +27,7 @@ Finde für jedes gegebene `p` und `q` die Summe aller Werte von `e`, `1 < e < φ
 `RSAEncryption` sollte eine Funktion sein.
 
 ```js
-assert(typeof RSAEncryption === 'function')
+assert.isFunction(RSAEncryption);
 ```
 
 `RSAEncryption` sollte eine Zahl zurückgeben.

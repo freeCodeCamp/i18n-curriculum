@@ -11,7 +11,7 @@ Neste ponto, você pode estar se perguntando como pode resolver esses erros.
 
 1. Você pode começar entendendo que a mensagem de erro é sua amiga – não sua inimiga. As mensagens de erro dizem exatamente o que há de errado com o código e quais linhas examinar para encontrar a origem do erro. Sem mensagens de erro seria um pesadelo depurar nosso código, porque ele ainda não funcionaria, você só não saberia por quê!
 
-1. Você deve pesquisar seu erro na web. Na maioria das vezes, você encontrará uma correção ou explicação no StackOverflow ou na documentação. Ao menos, você perceberá com mais clareza o motivo de estar recebendo esse erro.
+1. You should search your error on the web, most of the time you will be able to find a fix or explanation on StackOverflow or in the documentation. Ao menos, você perceberá com mais clareza o motivo de estar recebendo esse erro.
 
 1. Outra maneira é usar `console.log()` — é uma escolha popular para uma depuração rápida. Para uma solução de problemas mais detalhada, usar o depurador pode ser mais apropriado, mas usar `console.log()` é ótimo para obter feedback imediato sem precisar percorrer suas funções. Existem também outros métodos úteis como `console.table()`, `console.trace()` e mais!
 

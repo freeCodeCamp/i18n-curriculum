@@ -28,7 +28,7 @@ const exampleTriangles = [
 `triangleContainment(exampleTriangles)` 應該返回一個數字。
 
 ```js
-assert(typeof triangleContainment(_exampleTriangles) === 'number');
+assert.isNumber(triangleContainment(_exampleTriangles));
 ```
 
 `triangleContainment(exampleTriangles)` 應該返回 `1`。

@@ -29,7 +29,7 @@ Dê sua resposta com um número hexadecimal como uma string.
 `hexadecimalNumbers()` deve retornar uma string.
 
 ```js
-assert(typeof hexadecimalNumbers() === 'string');
+assert.isString(hexadecimalNumbers());
 ```
 
 `hexadecimalNumbers()` deve retornar a string `3D58725572C62302`.

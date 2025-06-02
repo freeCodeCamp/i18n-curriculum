@@ -33,7 +33,7 @@ Gib deine Antwort als String mit durch Kommata getrennten ganzen Zahlen an, ohne
 `shortenedBinaryExpansionOfNumber()` sollte einen String zurückgeben.
 
 ```js
-assert(typeof shortenedBinaryExpansionOfNumber() === 'string');
+assert.isString(shortenedBinaryExpansionOfNumber());
 ```
 
 `shortenedBinaryExpansionOfNumber()` sollte den String `1,13717420,8` zurückgeben.

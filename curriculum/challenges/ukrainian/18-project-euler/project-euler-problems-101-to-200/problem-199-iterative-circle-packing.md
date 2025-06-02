@@ -21,7 +21,7 @@ dashedName: problem-199-iterative-circle-packing
 `iterativeCirclePacking(10)` має повернути число.
 
 ```js
-assert(typeof iterativeCirclePacking(10) === 'number');
+assert.isNumber(iterativeCirclePacking(10));
 ```
 
 `iterativeCirclePacking(10)` має повернути `0.00396087`.

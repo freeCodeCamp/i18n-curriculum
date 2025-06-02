@@ -27,7 +27,7 @@ dashedName: problem-182-rsa-encryption
 `RSAEncryption` має бути функцією.
 
 ```js
-assert(typeof RSAEncryption === 'function')
+assert.isFunction(RSAEncryption);
 ```
 
 `RSAEncryption` має повернути число.
