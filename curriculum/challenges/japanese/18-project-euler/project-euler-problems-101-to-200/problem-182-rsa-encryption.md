@@ -27,7 +27,7 @@ m<sup>e</sup> mod n = m となるような `e` と `m` の値が存在します�
 `RSAEncryption` は関数でなければなりません。
 
 ```js
-assert(typeof RSAEncryption === 'function')
+assert.isFunction(RSAEncryption);
 ```
 
 `RSAEncryption` は数値を返す必要があります。

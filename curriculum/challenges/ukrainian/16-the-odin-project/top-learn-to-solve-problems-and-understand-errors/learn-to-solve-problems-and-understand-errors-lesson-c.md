@@ -7,7 +7,7 @@ dashedName: learn-to-solve-problems-and-understand-errors-lesson-c
 
 # --description--
 
-## Псевдокод
+## Pseudocode
 
 Псевдокод — це запис логіки програми природною мовою, а не кодом. Він допомагає проаналізувати, які кроки має виконати програма, щоб розв’язати проблему.
 

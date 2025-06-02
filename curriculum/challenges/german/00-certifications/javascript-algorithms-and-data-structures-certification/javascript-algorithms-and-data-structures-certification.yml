@@ -6,16 +6,16 @@ isPrivate: true
 tests:
   - 
     id: aaa48de84e1ecc7c742e1124
-    title: Palindrome Checker
+    title: Palindrom-Prüfer
   - 
     id: a7f4d8f2483413a6ce226cac
-    title: Roman Numeral Converter
+    title: Konverter für römische Zahlen
   - 
     id: 56533eb9ac21ba0edf2244e2
-    title: Caesars Cipher
+    title: Cäsar-Chiffrierung
   - 
     id: aff0395860f5d3034dc0bfc9
-    title: Telephone Number Validator
+    title: Telefonnummern-Prüfer
   - 
     id: aa2e6f85cab2ab736c9a9b24
     title: Cash Register

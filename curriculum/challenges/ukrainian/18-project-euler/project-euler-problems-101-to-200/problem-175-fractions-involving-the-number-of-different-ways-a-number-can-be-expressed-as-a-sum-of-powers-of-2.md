@@ -33,7 +33,7 @@ $$\frac{f(n)}{f(n - 1)} = \frac{123456789}{987654321}$$
 `shortenedBinaryExpansionOfNumber()` має повернути рядок.
 
 ```js
-assert(typeof shortenedBinaryExpansionOfNumber() === 'string');
+assert.isString(shortenedBinaryExpansionOfNumber());
 ```
 
 `shortenedBinaryExpansionOfNumber()` має повернути рядок `1,13717420,8`.

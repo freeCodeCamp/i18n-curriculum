@@ -36,7 +36,7 @@ dashedName: problem-236-luxury-hampers
 `luxuryHampers()` は文字列を返す必要があります。
 
 ```js
-assert(typeof luxuryHampers() === 'string');
+assert.isString(luxuryHampers());
 ```
 
 `luxuryHampers()` は文字列 `123/59` を返す必要があります。

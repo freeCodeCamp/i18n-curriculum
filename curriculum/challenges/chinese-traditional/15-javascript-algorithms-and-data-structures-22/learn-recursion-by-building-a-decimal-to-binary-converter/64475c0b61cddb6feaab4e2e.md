@@ -18,7 +18,7 @@ dashedName: step-13
 你應該在 `checkUserInput` 內的 `if` 語句主體中調用 `alert()` 方法。
 
 ```js
-assert.match(String(checkUserInput), /if\s*\(\s*.+\s*\)\s*\{\s*(window\s*.)?\s*alert\(/);
+assert.match(String(checkUserInput), /if\s*\(\s*.+\s*\)\s*\{\s*(?:window\.|globalThis\.)?alert\(/);
 ```
 
 當 `#number-input` 元素中存在假值，並且調用 `checkUserInput()` 函數時，`alert()` 方法應顯示文本 `"Please provide a decimal number greater than or equal to 0"`。

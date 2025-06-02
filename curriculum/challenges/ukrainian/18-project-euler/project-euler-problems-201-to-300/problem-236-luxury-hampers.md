@@ -36,7 +36,7 @@ dashedName: problem-236-luxury-hampers
 `luxuryHampers()` має повернути рядок.
 
 ```js
-assert(typeof luxuryHampers() === 'string');
+assert.isString(luxuryHampers());
 ```
 
 `luxuryHampers()` має повернути рядок `123/59`.

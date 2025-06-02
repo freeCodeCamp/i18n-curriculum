@@ -29,7 +29,7 @@ $$0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F$$
 `hexadecimalNumbers()` は文字列を返す必要があります。
 
 ```js
-assert(typeof hexadecimalNumbers() === 'string');
+assert.isString(hexadecimalNumbers());
 ```
 
 `hexadecimalNumbers()` は文字列 `3D58725572C62302` を返す必要があります。

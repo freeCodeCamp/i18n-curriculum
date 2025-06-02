@@ -21,7 +21,7 @@ dashedName: problem-284-steady-squares
 `steadySquares()` має повернути рядок.
 
 ```js
-assert(typeof steadySquares() === 'string');
+assert.isString(steadySquares());
 ```
 
 `steadySquares()` має повернути рядок `5a411d7b`.

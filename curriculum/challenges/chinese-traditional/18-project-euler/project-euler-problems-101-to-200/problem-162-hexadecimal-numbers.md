@@ -29,7 +29,7 @@ $$0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F$$
 `hexadecimalNumbers()` 應該返回一個字符串。
 
 ```js
-assert(typeof hexadecimalNumbers() === 'string');
+assert.isString(hexadecimalNumbers());
 ```
 
 `hexadecimalNumbers()` should return the string `3D58725572C62302`.

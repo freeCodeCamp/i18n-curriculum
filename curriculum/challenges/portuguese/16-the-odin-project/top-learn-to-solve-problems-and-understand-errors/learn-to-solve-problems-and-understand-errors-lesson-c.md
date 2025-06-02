@@ -7,7 +7,7 @@ dashedName: learn-to-solve-problems-and-understand-errors-lesson-c
 
 # --description--
 
-## Pseudocódigo
+## Pseudocode
 
 Pseudocódigo é escrever a lógica do seu programa em linguagem natural em vez de código. Ele ajuda você a desacelerar e pensar sobre as etapas que seu programa terá que seguir para resolver o problema.
 

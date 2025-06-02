@@ -21,7 +21,7 @@ Finde die Summe der Ziffern aller $n$-stelligen stetigen Quadrate im Zahlensyste
 `steadySquares()` sollte einen String zurückgeben.
 
 ```js
-assert(typeof steadySquares() === 'string');
+assert.isString(steadySquares());
 ```
 
 `steadySquares()` sollte den String `5a411d7b` zurückgeben.

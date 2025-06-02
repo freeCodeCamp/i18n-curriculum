@@ -21,7 +21,7 @@ Trova la somma delle cifre di tutti i quadrati stazionari di $n$ cifre nel siste
 `steadySquares()` dovrebbe restituire una stringa.
 
 ```js
-assert(typeof steadySquares() === 'string');
+assert.isString(steadySquares());
 ```
 
 `steadySquares()` dovrebbe restituire la stringa `5a411d7b`.

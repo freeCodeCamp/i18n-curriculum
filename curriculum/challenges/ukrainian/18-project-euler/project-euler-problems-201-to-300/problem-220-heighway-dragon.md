@@ -28,7 +28,7 @@ dashedName: problem-220-heighway-dragon
 `heighwayDragon()` має повернути рядок.
 
 ```js
-assert(typeof heighwayDragon() === 'string');
+assert.isString(heighwayDragon());
 ```
 
 `heighwayDragon()` має повернути рядок `139776,963904`.

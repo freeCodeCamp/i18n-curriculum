@@ -28,7 +28,7 @@ Utilizzando l'array `triangles` contenente coordinate di triangoli, trova il num
 `triangleContainment(exampleTriangles)` dovrebbe restituire un numero.
 
 ```js
-assert(typeof triangleContainment(_exampleTriangles) === 'number');
+assert.isNumber(triangleContainment(_exampleTriangles));
 ```
 
 `triangleContainment(exampleTriangles)` dovrebbe restituire `1`.

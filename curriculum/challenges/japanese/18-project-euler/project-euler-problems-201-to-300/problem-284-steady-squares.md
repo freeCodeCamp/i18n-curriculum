@@ -21,7 +21,7 @@ $1 ≤ n ≤ 10000$ (10進数) のとき、$n$ 桁の安定平方数 (14 進数)
 `steadySquares()` は文字列を返す必要があります。
 
 ```js
-assert(typeof steadySquares() === 'string');
+assert.isString(steadySquares());
 ```
 
 `steadySquares()` は文字列 `5a411d7b` を返す必要があります。

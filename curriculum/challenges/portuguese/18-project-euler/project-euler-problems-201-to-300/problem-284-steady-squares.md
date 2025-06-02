@@ -21,7 +21,7 @@ Encontre a soma dos algarismos de todos os quadrados estáveis de $n$ algarismos
 `steadySquares()` deve retornar uma string.
 
 ```js
-assert(typeof steadySquares() === 'string');
+assert.isString(steadySquares());
 ```
 
 `steadySquares()` deve retornar a string `5a411d7b`.

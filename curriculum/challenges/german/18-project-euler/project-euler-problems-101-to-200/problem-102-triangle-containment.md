@@ -28,7 +28,7 @@ Finde mit Hilfe des `triangles`-Arrays, welches die Koordinaten der Dreiecke ent
 `triangleContainment(exampleTriangles)` sollte eine Zahl zurückgeben.
 
 ```js
-assert(typeof triangleContainment(_exampleTriangles) === 'number');
+assert.isNumber(triangleContainment(_exampleTriangles));
 ```
 
 `triangleContainment(exampleTriangles)` sollte `1` zurückgeben.

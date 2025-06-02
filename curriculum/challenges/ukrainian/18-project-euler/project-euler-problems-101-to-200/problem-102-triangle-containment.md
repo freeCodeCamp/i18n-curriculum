@@ -28,7 +28,7 @@ const exampleTriangles = [
 `triangleContainment(exampleTriangles)` має повернути число.
 
 ```js
-assert(typeof triangleContainment(_exampleTriangles) === 'number');
+assert.isNumber(triangleContainment(_exampleTriangles));
 ```
 
 `triangleContainment(exampleTriangles)` має повернути `1`.
