@@ -25,7 +25,7 @@ $C(100, 500)$ を求め、有効数字 5 桁に四捨五入された科学的記
 `amazingMazes()` は文字列を返す必要があります。
 
 ```js
-assert(typeof amazingMazes() === 'string');
+asset.isString(amazingMazes());
 ```
 
 `amazingMazes()` は文字列 `6.3202e25093` を返す必要があります。

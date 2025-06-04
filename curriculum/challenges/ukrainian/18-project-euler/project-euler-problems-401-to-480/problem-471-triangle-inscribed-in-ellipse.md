@@ -31,7 +31,7 @@ dashedName: problem-471-triangle-inscribed-in-ellipse
 `triangleInscribedInEllipse()` має повернути рядок.
 
 ```js
-assert(typeof triangleInscribedInEllipse() === 'string');
+assert.isString(triangleInscribedInEllipse());
 ```
 
 `triangleInscribedInEllipse()` має повернути рядок `1.895093981e31`.

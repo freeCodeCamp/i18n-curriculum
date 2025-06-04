@@ -31,7 +31,7 @@ $G(10)$ の場合、回答は `2.059722222e1` となります。
 `triangleInscribedInEllipse()` は文字列を返す必要があります。
 
 ```js
-assert(typeof triangleInscribedInEllipse() === 'string');
+assert.isString(triangleInscribedInEllipse());
 ```
 
 `triangleInscribedInEllipse()` は文字列 `1.895093981e31` を返す必要があります。

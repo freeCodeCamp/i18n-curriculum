@@ -35,7 +35,7 @@ $n = {10}^{12}$ のとき、$A(n)$, $B(n)$, $C(n)$ を求めなさい。 回答�
 `lookAndSaySequence()` は文字列を返す必要があります。
 
 ```js
-assert(typeof lookAndSaySequence() === 'string');
+assert.isString(lookAndSaySequence());
 ```
 
 

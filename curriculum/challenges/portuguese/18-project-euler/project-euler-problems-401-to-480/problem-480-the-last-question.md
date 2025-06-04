@@ -53,7 +53,7 @@ Dê sua resposta usando caracteres em minúsculas (sem pontuação nem espaço).
 `euler480()` deve retornar uma string.
 
 ```js
-assert(typeof euler480() === 'string');
+assert.isString(euler480());
 ```
 
 `euler480()` deve retornar a string `turnthestarson`.

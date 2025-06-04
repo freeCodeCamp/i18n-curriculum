@@ -7,7 +7,7 @@ dashedName: learn-data-types-and-conditionals-lesson-d
 
 # --description--
 
-Дано приклад нижче. Потрібно дізнатись індекс, коли слово `The` зустрічається в рядку востаннє.
+Seeing the example below You want to know the index of the last occurrence of the word `The` in the string.
 
 ```javascript
 let sentence = "freeCodeCamp loves The Odin Project! The Odin Project is great!";
@@ -19,23 +19,23 @@ let sentence = "freeCodeCamp loves The Odin Project! The Odin Project is great!"
 
 ## --text--
 
-Який метод потрібно використати, щоб дізнатись індекс, коли слово `The` зустрічається в рядку востаннє?
+Which method should be used to find the index of the last occurrence of the word `The` in the string?
 
 ## --answers--
 
-Щоб дізнатись індекс, коли слово `The` зустрічається в рядку востаннє, потрібно використати метод `includes()`.
+The `includes()` method should be used to find the index of the last occurrence of the word `The` in the string.
 
 ---
 
-Щоб дізнатись індекс, коли слово `The` зустрічається в рядку востаннє, потрібно використати метод `lastIndexOf()`.
+The `lastIndexOf()` method should be used to find the index of the last occurrence of the word `The` in the string.
 
 ---
 
-Щоб дізнатись індекс, коли слово `The` зустрічається в рядку востаннє, потрібно використати метод `indexOf()`.
+The `indexOf()` method should be used to find the index of the last occurrence of the word `The` in the string.
 
 ---
 
-Щоб дізнатись індекс, коли слово `The` зустрічається в рядку востаннє, потрібно використати метод `search()`.
+The `search()` method should be used to find the index of the last occurrence of the word `The` in the string.
 
 ## --video-solution--
 

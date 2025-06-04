@@ -32,7 +32,7 @@ Encontre $S_{20}({10}^{14})$ e escreva sua resposta como uma string em notação
 `roundtableLottery()` deve retornar uma string.
 
 ```js
-assert(typeof roundtableLottery() === 'string');
+assert.isString(roundtableLottery());
 ```
 
 `roundtableLottery()` deve retornar a string `1.200856722e263`.

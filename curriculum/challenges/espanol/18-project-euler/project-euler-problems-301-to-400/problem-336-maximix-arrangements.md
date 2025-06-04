@@ -29,7 +29,7 @@ Encuentra el ${2011}^{\text{th}}$ arreglo maximix lexicográfico para once vagon
 `maximixArrangements()` debe devolver una cadena.
 
 ```js
-assert(typeof maximixArrangements() === 'string');
+asset.isString(maximixArrangements());
 ```
 
 `maximixArrangements()` debe devolver la cadena `CAGBIHEFJDK`.

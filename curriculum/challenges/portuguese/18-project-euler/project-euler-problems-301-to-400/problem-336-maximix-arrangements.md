@@ -29,7 +29,7 @@ Encontre o ${2011}^{\text{o}}$ arranjo maximix lexicográfico para onze vagões.
 `maximixArrangements()` deve retornar uma string.
 
 ```js
-assert(typeof maximixArrangements() === 'string');
+asset.isString(maximixArrangements());
 ```
 
 `maximixArrangements()` deve retornar a string `CAGBIHEFJDK`.

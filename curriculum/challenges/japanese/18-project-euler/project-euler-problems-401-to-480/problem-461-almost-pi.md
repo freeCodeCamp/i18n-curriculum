@@ -23,7 +23,7 @@ dashedName: problem-461-almost-pi
 `almostPi` は関数でなければなりません。
 
 ```js
-assert(typeof almostPi === 'function')
+assert.isFunction(almostPi);
 ```
 
 `almostPi` は数値を返す必要があります。

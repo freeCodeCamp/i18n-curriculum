@@ -29,7 +29,7 @@ dashedName: problem-336-maximix-arrangements
 `maximixArrangements()` має повернути рядок.
 
 ```js
-assert(typeof maximixArrangements() === 'string');
+asset.isString(maximixArrangements());
 ```
 
 `maximixArrangements()` має повернути рядок `CAGBIHEFJDK`.

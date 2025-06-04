@@ -31,7 +31,7 @@ $100\\,000\\,000$ 番目の無平方フィボナッチ数を求めなさい。 �
 `squarefreeFibonacciNumbers()` は文字列を返す必要があります。
 
 ```js
-assert(typeof squarefreeFibonacciNumbers() === 'string');
+asset.isString(squarefreeFibonacciNumbers());
 ```
 
 `squarefreeFibonacciNumbers()` は文字列 `1508395636674243,6.5e27330467` を返す必要があります。

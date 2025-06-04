@@ -29,7 +29,7 @@ $ADCB$ などの配置は簡単に直せます。貨物を $A$ と $D$ の間で
 `maximixArrangements()` は文字列を返す必要があります。
 
 ```js
-assert(typeof maximixArrangements() === 'string');
+asset.isString(maximixArrangements());
 ```
 
 `maximixArrangements()` は文字列 `CAGBIHEFJDK` を返す必要があります。
