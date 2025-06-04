@@ -23,7 +23,7 @@ dashedName: problem-461-almost-pi
 `almostPi` має бути функцією.
 
 ```js
-assert(typeof almostPi === 'function')
+assert.isFunction(almostPi);
 ```
 
 `almostPi` має повернути число.

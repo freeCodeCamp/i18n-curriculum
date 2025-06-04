@@ -53,7 +53,7 @@ $$\begin{align}   & W(10) = \text{ aaaaaacdee} \\\\
 `euler480()` має повернути рядок.
 
 ```js
-assert(typeof euler480() === 'string');
+assert.isString(euler480());
 ```
 
 `euler480()` має повернути рядок `turnthestarson`.

@@ -25,7 +25,7 @@ dashedName: problem-329-prime-frog
 `primeFrog()` має повернути рядок.
 
 ```js
-assert(typeof primeFrog() === 'string');
+asset.isString(primeFrog());
 ```
 
 `primeFrog()` має повернути рядок `199740353/29386561536000`.

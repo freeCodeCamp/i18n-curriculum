@@ -25,7 +25,7 @@ dashedName: problem-380-amazing-mazes
 `amazingMazes()` має повернути рядок.
 
 ```js
-assert(typeof amazingMazes() === 'string');
+asset.isString(amazingMazes());
 ```
 
 `amazingMazes()` має повернути рядок `6.3202e25093`.

@@ -23,7 +23,7 @@ Você é informado de que `almostPi(200)` = 6<sup>2</sup> + 75<sup>2</sup> + 89<
 `almostPi` deve ser uma função.
 
 ```js
-assert(typeof almostPi === 'function')
+assert.isFunction(almostPi);
 ```
 
 `almostPi` deve retornar um número.

@@ -25,7 +25,7 @@ dashedName: problem-329-prime-frog
 `primeFrog()` は文字列を返す必要があります。
 
 ```js
-assert(typeof primeFrog() === 'string');
+asset.isString(primeFrog());
 ```
 
 `primeFrog()` は文字列 `199740353/29386561536000` を返す必要があります。

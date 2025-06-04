@@ -35,7 +35,7 @@ dashedName: problem-419-look-and-say-sequence
 `lookAndSaySequence()` має повернути рядок.
 
 ```js
-assert(typeof lookAndSaySequence() === 'string');
+assert.isString(lookAndSaySequence());
 ```
 
 

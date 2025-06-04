@@ -23,7 +23,7 @@ Te han dado `almostPi(200)` = 6<sup>2</sup> + 75<sup>2</sup> + 89<sup>2</sup> + 
 `timesFive` debe ser una función.
 
 ```js
-assert(typeof almostPi === 'function')
+assert.isFunction(almostPi);
 ```
 
 `abTest()` debe devolver un número.

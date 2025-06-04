@@ -35,7 +35,7 @@ Calcule $A(n)$, $B(n)$ e $C(n)$ para $n = {10}^{12}$. Dê o modulo $2^{30}$ de s
 `lookAndSaySequence()` deve retornar uma string.
 
 ```js
-assert(typeof lookAndSaySequence() === 'string');
+assert.isString(lookAndSaySequence());
 ```
 
 

@@ -53,7 +53,7 @@ $$W(P(\text{legionary}) + P(\text{calorimeters}) - P(\text{annihilate}) + P(\tex
 `euler480()` は文字列を返す必要があります。
 
 ```js
-assert(typeof euler480() === 'string');
+assert.isString(euler480());
 ```
 
 `euler480()` は文字列 `turnthestarson` を返す必要があります。

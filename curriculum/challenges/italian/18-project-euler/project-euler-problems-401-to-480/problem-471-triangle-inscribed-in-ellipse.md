@@ -31,7 +31,7 @@ Per $G(10)$ il risultato sarebbe `2.059722222e1`
 `triangleInscribedInEllipse()` dovrebbe restituire una stringa.
 
 ```js
-assert(typeof triangleInscribedInEllipse() === 'string');
+assert.isString(triangleInscribedInEllipse());
 ```
 
 `triangleInscribedInEllipse()` dovrebbe restituire la stringa `1.895093981e31`.

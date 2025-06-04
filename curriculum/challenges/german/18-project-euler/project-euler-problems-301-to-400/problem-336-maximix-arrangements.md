@@ -29,7 +29,7 @@ Finde die ${2011}^{\text{th}}$ lexikographische Maximalanordnung für elf Waggon
 `maximixArrangements()` sollte einen String zurückgeben.
 
 ```js
-assert(typeof maximixArrangements() === 'string');
+asset.isString(maximixArrangements());
 ```
 
 `maximixArrangements()` sollte den String `CAGBIHEFJDK` zurückgeben.

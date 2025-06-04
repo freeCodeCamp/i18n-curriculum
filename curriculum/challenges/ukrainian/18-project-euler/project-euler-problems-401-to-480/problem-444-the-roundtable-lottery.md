@@ -32,7 +32,7 @@ dashedName: problem-444-the-roundtable-lottery
 `roundtableLottery()` має повернути рядок.
 
 ```js
-assert(typeof roundtableLottery() === 'string');
+assert.isString(roundtableLottery());
 ```
 
 `roundtableLottery()` має повернути рядок `1.200856722e263`.

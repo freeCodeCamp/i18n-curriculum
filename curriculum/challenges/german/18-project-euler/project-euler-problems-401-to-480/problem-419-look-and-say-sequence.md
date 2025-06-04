@@ -35,7 +35,7 @@ Finde $A(n)$, $B(n)$ und $C(n)$ für $n = {10}^{12}$. Gebe deinen Antwort-Modulo
 `lookAndSaySequence()` sollte einen String zurückgeben.
 
 ```js
-assert(typeof lookAndSaySequence() === 'string');
+assert.isString(lookAndSaySequence());
 ```
 
 

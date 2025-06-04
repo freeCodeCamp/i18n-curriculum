@@ -53,7 +53,7 @@ Find $$W(P(\text{legionary}) + P(\text{calorimeters}) - P(\text{annihilate}) + P
 `euler480()` should return a string.
 
 ```js
-assert(typeof euler480() === 'string');
+assert.isString(euler480());
 ```
 
 `euler480()` should return the string `turnthestarson`.

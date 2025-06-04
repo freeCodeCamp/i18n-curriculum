@@ -25,7 +25,7 @@ Dê sua resposta como uma string de uma fração `p/q` na forma reduzida.
 `primeFrog()` deve retornar uma string.
 
 ```js
-assert(typeof primeFrog() === 'string');
+asset.isString(primeFrog());
 ```
 
 `primeFrog()` deve retornar a string `199740353/29386561536000`.

@@ -31,7 +31,7 @@ Se succede che la congettura è falsa, allora la risposta accettata per questo p
 `squarefreeFibonacciNumbers()` dovrebbe restituire una stringa.
 
 ```js
-assert(typeof squarefreeFibonacciNumbers() === 'string');
+asset.isString(squarefreeFibonacciNumbers());
 ```
 
 `squarefreeFibonacciNumbers()`dovrebbe restituire la stringa `1508395636674243,6.5e27330467`.

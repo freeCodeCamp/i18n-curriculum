@@ -29,7 +29,7 @@ Trova il ${2011}$-simo arrangiamento maximix lessicografico per undici carrozze.
 `maximixArrangements()` dovrebbe restituire una stringa.
 
 ```js
-assert(typeof maximixArrangements() === 'string');
+asset.isString(maximixArrangements());
 ```
 
 `maximixArrangements()` dovrebbe restituire la stringa `CAGBIHEFJDK`.

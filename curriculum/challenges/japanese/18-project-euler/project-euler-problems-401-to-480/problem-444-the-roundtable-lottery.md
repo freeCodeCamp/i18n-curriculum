@@ -32,7 +32,7 @@ $S_{20}({10}^{14})$ を求め、有効数字 10 桁に四捨五入された科�
 `roundtableLottery()` は文字列を返す必要があります。
 
 ```js
-assert(typeof roundtableLottery() === 'string');
+assert.isString(roundtableLottery());
 ```
 
 `roundtableLottery()` は文字列 `1.200856722e263` を返す必要があります。

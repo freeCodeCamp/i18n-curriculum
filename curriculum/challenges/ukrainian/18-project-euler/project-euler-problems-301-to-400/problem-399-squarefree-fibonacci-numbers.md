@@ -31,7 +31,7 @@ $200$-им безквадратним числом Фібоначчі є 9711838
 `squarefreeFibonacciNumbers()` має повернути рядок.
 
 ```js
-assert(typeof squarefreeFibonacciNumbers() === 'string');
+asset.isString(squarefreeFibonacciNumbers());
 ```
 
 `squarefreeFibonacciNumbers()` має повернути рядок `1508395636674243,6.5e27330467`.

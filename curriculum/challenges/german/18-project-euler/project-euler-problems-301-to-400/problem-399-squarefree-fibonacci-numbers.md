@@ -31,7 +31,7 @@ Wenn die Vermutung falsch ist, dann ist die angenommene Antwort auf dieses Probl
 `squarefreeFibonacciNumbers()` sollte einen String zurückgeben.
 
 ```js
-assert(typeof squarefreeFibonacciNumbers() === 'string');
+asset.isString(squarefreeFibonacciNumbers());
 ```
 
 `squarefreeFibonacciNumbers()` sollte den String `1508395636674243,6.5e27330467` zurückgeben.
