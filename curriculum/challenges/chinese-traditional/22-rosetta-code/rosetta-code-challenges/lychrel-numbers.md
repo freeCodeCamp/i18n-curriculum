@@ -18,14 +18,14 @@ The above recurrence relation when applied to most starting numbers `n` = 1, 2, 
 
 例如，如果 `n₀` = 12 我們得到：
 
-```bash
+```md
 12
 12 + 21 = 33,  a palindrome!
 ```
 
 如果 `n₀` = 55 我們得到：
 
-```bash
+```md
 55
 55 + 55 = 110
 110 + 011 = 121,  a palindrome!
@@ -43,7 +43,7 @@ The above recurrence relation when applied to most starting numbers `n` = 1, 2, 
 
 一般來說，來自一個 Lychrel 數的任何序列 *可能* 收斂以加入來自先前 Lychrel 數候選的序列；例如數字 196 和 689 的序列開始：
 
-```bash
+```md
     196
     196 + 691 = 887
     887 + 788 = 1675

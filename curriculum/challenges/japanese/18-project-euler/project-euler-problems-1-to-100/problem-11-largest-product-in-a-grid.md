@@ -42,7 +42,7 @@ dashedName: problem-11-largest-product-in-a-grid
 `largestGridProduct(testGrid)` は数値を返す必要があります。
 
 ```js
-assert(typeof largestGridProduct(testGrid) === 'number');
+assert.isNumber(largestGridProduct(testGrid));
 ```
 
 `largestGridProduct(testGrid)` は 14169081 を返す必要があります。

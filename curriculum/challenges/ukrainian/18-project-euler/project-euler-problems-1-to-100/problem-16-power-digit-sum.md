@@ -17,7 +17,7 @@ dashedName: problem-16-power-digit-sum
 `powerDigitSum(15)` має повернути число.
 
 ```js
-assert(typeof powerDigitSum(15) === 'number');
+assert.isNumber(powerDigitSum(15));
 ```
 
 `powerDigitSum(15)` має повернути 26.

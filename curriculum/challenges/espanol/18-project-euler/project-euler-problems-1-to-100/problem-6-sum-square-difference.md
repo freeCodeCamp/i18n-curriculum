@@ -25,7 +25,7 @@ Encuentra la diferencia entre la suma de los cuadrados y el cuadrado de la suma 
 `sumSquareDifference(10)` debe devolver un número.
 
 ```js
-assert(typeof sumSquareDifference(10) === 'number');
+assert.isNumber(sumSquareDifference(10));
 ```
 
 `sumSquareDifference(10)` debe devolver 2640.

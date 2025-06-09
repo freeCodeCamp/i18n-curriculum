@@ -17,7 +17,7 @@ dashedName: problem-3-largest-prime-factor
 `largestPrimeFactor(2)` 應該返回一個數字。
 
 ```js
-assert(typeof largestPrimeFactor(2) === 'number');
+assert.isNumber(largestPrimeFactor(2));
 ```
 
 `largestPrimeFactor(2)` 應該返回 2。

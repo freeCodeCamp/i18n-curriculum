@@ -19,7 +19,7 @@ If the numbers 1 to 5 are written out in words: one, two, three, four, five, the
 `numberLetterCounts(1000)`應該返回21124。
 
 ```js
-assert(typeof numberLetterCounts(5) === 'number');
+assert.isNumber(numberLetterCounts(5));
 ```
 
 `numberLetterCounts(150)`應該返回1903。

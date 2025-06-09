@@ -44,7 +44,7 @@ dashedName: problem-18-maximum-path-sum-i
 `maximumPathSumI([[3, 0, 0, 0], [7, 4, 0, 0],[2, 4, 6, 0],[8, 5, 9, 3]])` は数値を返す必要があります。
 
 ```js
-assert(typeof maximumPathSumI(_testTriangle) === 'number');
+assert.isNumber(maximumPathSumI(_testTriangle));
 ```
 
 `maximumPathSumI([[3, 0, 0, 0], [7, 4, 0, 0],[2, 4, 6, 0],[8, 5, 9, 3]])` は 23 を返す必要があります。

@@ -17,7 +17,7 @@ Qual é o `n`-ésimo número primo?
 `nthPrime(6)` deve retornar um número.
 
 ```js
-assert(typeof nthPrime(6) === 'number');
+assert.isNumber(nthPrime(6));
 ```
 
 `nthPrime(6)` deve retornar 13.

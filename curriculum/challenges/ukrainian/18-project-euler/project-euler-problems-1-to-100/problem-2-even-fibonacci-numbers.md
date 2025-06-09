@@ -19,7 +19,7 @@ dashedName: problem-2-even-fibonacci-numbers
 `fiboEvenSum(10)` має повернути число.
 
 ```js
-assert(typeof fiboEvenSum(10) === 'number');
+assert.isNumber(fiboEvenSum(10));
 ```
 
 Функція має повернути парне значення.

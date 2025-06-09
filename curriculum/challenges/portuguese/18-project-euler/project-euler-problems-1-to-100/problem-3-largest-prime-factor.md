@@ -17,7 +17,7 @@ Qual é o maior fator primo do parâmetro `number`?
 `largestPrimeFactor(2)` deve retornar um número.
 
 ```js
-assert(typeof largestPrimeFactor(2) === 'number');
+assert.isNumber(largestPrimeFactor(2));
 ```
 
 `largestPrimeFactor(2)` deve retornar 2.

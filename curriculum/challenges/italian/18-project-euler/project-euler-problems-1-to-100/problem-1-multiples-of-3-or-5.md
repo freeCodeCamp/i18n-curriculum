@@ -17,7 +17,7 @@ Trova la somma di tutti i multipli di 3 e 5 sotto al valore del parametro `numbe
 `multiplesOf3Or5(10)` should return a number.
 
 ```js
-assert(typeof multiplesOf3Or5(10) === 'number');
+assert.isNumber(multiplesOf3Or5(10));
 ```
 
 `multiplesOf3Or5(49)` should return 543.

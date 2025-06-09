@@ -19,7 +19,7 @@ dashedName: problem-2-even-fibonacci-numbers
 `fiboEvenSum(10)` は数値を返す必要があります。
 
 ```js
-assert(typeof fiboEvenSum(10) === 'number');
+assert.isNumber(fiboEvenSum(10));
 ```
 
 この関数は偶数の値を 1 つ返す必要があります。

@@ -19,7 +19,7 @@ dashedName: problem-15-lattice-paths
 `latticePaths(4)` має повернути число.
 
 ```js
-assert(typeof latticePaths(4) === 'number');
+assert.isNumber(latticePaths(4));
 ```
 
 `latticePaths(4)` має повернути 70.

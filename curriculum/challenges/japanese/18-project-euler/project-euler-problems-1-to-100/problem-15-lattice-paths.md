@@ -19,7 +19,7 @@ dashedName: problem-15-lattice-paths
 `latticePaths(4)` は数値を返す必要があります。
 
 ```js
-assert(typeof latticePaths(4) === 'number');
+assert.isNumber(latticePaths(4));
 ```
 
 `latticePaths(4)` は 70 を返す必要があります。

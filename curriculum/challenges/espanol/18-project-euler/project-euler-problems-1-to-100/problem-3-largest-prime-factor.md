@@ -17,7 +17,7 @@ Los factores primos de 13195 son 5,7,13 y 29.
 `largestPrimeFactor(2)` debe devolver un número.
 
 ```js
-assert(typeof largestPrimeFactor(2) === 'number');
+assert.isNumber(largestPrimeFactor(2));
 ```
 
 `largestPrimeFactor(2)` debe devolver 2.

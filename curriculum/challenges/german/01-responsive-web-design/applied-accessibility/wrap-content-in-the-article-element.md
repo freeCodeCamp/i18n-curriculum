@@ -9,7 +9,7 @@ dashedName: wrap-content-in-the-article-element
 
 # --description--
 
-`article` is another one of the new HTML5 elements that add semantic meaning to your markup. `article` is a sectioning element and is used to wrap independent, self-contained content. The tag works well with blog entries, forum posts, or news articles.
+`article` ist eines der neuen HTML5-Elemente, die deinem Mark-up semantische Bedeutung verleihen. `article` ist ein Abschnittselement und wird verwendet, um eigenständige, in sich abgeschlossene Inhalte einzufassen. Das Tag funktioniert gut mit Blogeinträgen, Forumsbeiträgen oder Nachrichtenartikeln.
 
 Wann genau Inhalte für sich alleine stehen können, lässt sich nicht pauschal beantworten, aber die folgenden einfachen Tests können dabei helfen. Würde der Inhalt noch Sinn ergeben, wenn man alle umgebenden Kontextinformationen entfernen würde? Ähnlich ausgedrückt - würde der Inhalt bestehen, wenn man ihn isoliert in über einen RSS-Feed verbreiten würde?
 

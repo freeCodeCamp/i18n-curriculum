@@ -21,7 +21,7 @@ Há exatamente um terno pitagórico para o qual `a` + `b` + `c` = 1000. Encontre
 `specialPythagoreanTriplet(24)` deve retornar um número.
 
 ```js
-assert(typeof specialPythagoreanTriplet(24) === 'number');
+assert.isNumber(specialPythagoreanTriplet(24));
 ```
 
 `specialPythagoreanTriplet(24)` deve retornar 480.
@@ -33,7 +33,7 @@ assert.strictEqual(specialPythagoreanTriplet(24), 480);
 `specialPythagoreanTriplet(120)` deve retornar 49920, 55080 ou 60000.
 
 ```js
-assert([49920, 55080, 60000].includes(specialPythagoreanTriplet(120)));
+assert.oneOf(specialPythagoreanTriplet(120), [49920, 55080, 60000]);
 ```
 
 `specialPythagoreanTriplet(1000)` deve retornar 31875000.

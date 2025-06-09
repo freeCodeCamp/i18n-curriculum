@@ -20,7 +20,7 @@ Encontre a soma dos algarismos de `n`!
 `sumFactorialDigits(10)` deve retornar um número.
 
 ```js
-assert(typeof sumFactorialDigits(10) === 'number');
+assert.isNumber(sumFactorialDigits(10));
 ```
 
 `sumFactorialDigits(10)` deve retornar 27.

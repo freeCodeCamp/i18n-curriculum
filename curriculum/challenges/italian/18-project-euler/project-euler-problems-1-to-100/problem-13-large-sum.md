@@ -118,7 +118,7 @@ Ottieni le prime 10 cifre della somma dei seguenti cento numeri a 50 cifre.
 `largeSum(testNums)` dovrebbe restituire un numero.
 
 ```js
-assert(typeof largeSum(testNums) === 'number');
+assert.isNumber(largeSum(testNums));
 ```
 
 `largeSum(testNums)` dovrebbe restituire 8348422521.

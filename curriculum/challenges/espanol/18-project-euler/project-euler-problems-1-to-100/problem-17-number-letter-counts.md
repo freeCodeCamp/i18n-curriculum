@@ -19,7 +19,7 @@ Si se escriben con letras todos los números desde el 1 hasta el `limit` dado in
 `numberLetterCounts(5)` debe devolver un número.
 
 ```js
-assert(typeof numberLetterCounts(5) === 'number');
+assert.isNumber(numberLetterCounts(5));
 ```
 
 `numberLetterCounts(5)` debe devolver 19.

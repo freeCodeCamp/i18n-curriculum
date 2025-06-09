@@ -20,7 +20,7 @@ Trova la somma delle cifre del numero `n`!
 `sumFactorialDigits(10)` dovrebbe restituire un numero.
 
 ```js
-assert(typeof sumFactorialDigits(10) === 'number');
+assert.isNumber(sumFactorialDigits(10));
 ```
 
 `sumFactorialDigits(10)` dovrebbe restituire 27.

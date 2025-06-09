@@ -20,7 +20,7 @@ dashedName: problem-20-factorial-digit-sum
 `sumFactorialDigits(10)` має повернути число.
 
 ```js
-assert(typeof sumFactorialDigits(10) === 'number');
+assert.isNumber(sumFactorialDigits(10));
 ```
 
 `sumFactorialDigits(10)` має повернути 27.

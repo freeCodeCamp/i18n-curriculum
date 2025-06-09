@@ -29,7 +29,7 @@ Qual número inicial, sob o `limit` (limite) definido, produz a sequência mais 
 `longestCollatzSequence(14)` deve retornar um número.
 
 ```js
-assert(typeof longestCollatzSequence(14) === 'number');
+assert.isNumber(longestCollatzSequence(14));
 ```
 
 `longestCollatzSequence(14)` deve retornar 9.

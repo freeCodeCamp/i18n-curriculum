@@ -29,7 +29,7 @@ dashedName: problem-14-longest-collatz-sequence
 `longestCollatzSequence(14)` は数値を返す必要があります。
 
 ```js
-assert(typeof longestCollatzSequence(14) === 'number');
+assert.isNumber(longestCollatzSequence(14));
 ```
 
 `longestCollatzSequence(14)` は 9 を返す必要があります。

@@ -21,7 +21,7 @@ dashedName: problem-9-special-pythagorean-triplet
 `specialPythagoreanTriplet(24)` 應該返回一個數字。
 
 ```js
-assert(typeof specialPythagoreanTriplet(24) === 'number');
+assert.isNumber(specialPythagoreanTriplet(24));
 ```
 
 `specialPythagoreanTriplet(24)` 應該返回480。
@@ -33,7 +33,7 @@ assert.strictEqual(specialPythagoreanTriplet(24), 480);
 `specialPythagoreanTriplet(120)` 應該返回 49920, 55080 或 60000。
 
 ```js
-assert([49920, 55080, 60000].includes(specialPythagoreanTriplet(120)));
+assert.oneOf(specialPythagoreanTriplet(120), [49920, 55080, 60000]);
 ```
 
 `specialPythagoreanTriplet(1000)` 應該返回3187000。

@@ -19,7 +19,7 @@ dashedName: problem-17-number-letter-counts
 `numberLetterCounts(5)` має повернути число.
 
 ```js
-assert(typeof numberLetterCounts(5) === 'number');
+assert.isNumber(numberLetterCounts(5));
 ```
 
 `numberLetterCounts(5)` має повернути 19.

@@ -21,7 +21,7 @@ Es gibt genau ein pythagoreisches Tripel für `a` + `b` + `c` = 1000. Finde das 
 `specialPythagoreanTriplet(24)` sollte eine Zahl zurückgeben.
 
 ```js
-assert(typeof specialPythagoreanTriplet(24) === 'number');
+assert.isNumber(specialPythagoreanTriplet(24));
 ```
 
 `specialPythagoreanTriplet(24)` sollte 480 zurückgeben.
@@ -33,7 +33,7 @@ assert.strictEqual(specialPythagoreanTriplet(24), 480);
 `specialPythagoreanTriplet(120)` sollte 49920, 55080 oder 60000 zurückgeben.
 
 ```js
-assert([49920, 55080, 60000].includes(specialPythagoreanTriplet(120)));
+assert.oneOf(specialPythagoreanTriplet(120), [49920, 55080, 60000]);
 ```
 
 `specialPythagoreanTriplet(1000)` sollte 31875000 zurückgeben.

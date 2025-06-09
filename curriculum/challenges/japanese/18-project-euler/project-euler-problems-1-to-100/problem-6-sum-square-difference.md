@@ -25,7 +25,7 @@ dashedName: problem-6-sum-square-difference
 `sumSquareDifference(10)` は数値を返す必要があります。
 
 ```js
-assert(typeof sumSquareDifference(10) === 'number');
+assert.isNumber(sumSquareDifference(10));
 ```
 
 `sumSquareDifference(10)` は 2640 を返す必要があります。

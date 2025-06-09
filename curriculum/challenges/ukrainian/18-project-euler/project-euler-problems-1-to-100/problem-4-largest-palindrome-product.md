@@ -17,7 +17,7 @@ dashedName: problem-4-largest-palindrome-product
 `largestPalindromeProduct(2)` має повернути число.
 
 ```js
-assert(typeof largestPalindromeProduct(2) === 'number');
+assert.isNumber(largestPalindromeProduct(2));
 ```
 
 `largestPalindromeProduct(2)` має повернути 9009.

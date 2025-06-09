@@ -17,7 +17,7 @@ Was ist die kleinste positive Zahl, die durch alle Zahlen von 1 bis `n` gleichm�
 `smallestMult(5)` sollte eine Zahl zurückgeben.
 
 ```js
-assert(typeof smallestMult(5) === 'number');
+assert.isNumber(smallestMult(5));
 ```
 
 `smallestMult(5)` sollte 60 zurückgeben.

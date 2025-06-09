@@ -118,7 +118,7 @@ Descubra os 10 primeiros algarismos da soma dos 100 números de 50 algarismos a 
 `largeSum(testNums)` deve retornar um número.
 
 ```js
-assert(typeof largeSum(testNums) === 'number');
+assert.isNumber(largeSum(testNums));
 ```
 
 `largeSum(testNums)` deve retornar 8348422521.

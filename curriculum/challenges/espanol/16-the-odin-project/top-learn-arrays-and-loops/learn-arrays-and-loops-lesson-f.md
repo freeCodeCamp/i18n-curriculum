@@ -47,7 +47,7 @@ for (let i = 1; i < items.length; i++) {
 
 ## --answers--
 
-```bash
+```md
 apple
 banana
 cherry
@@ -56,14 +56,14 @@ date
 
 ---
 
-```bash
+```md
 banana
 cherry
 ```
 
 ---
 
-```bash
+```md
 apple
 banana
 cherry
@@ -71,7 +71,7 @@ cherry
 
 ---
 
-```bash
+```md
 banana
 cherry
 date

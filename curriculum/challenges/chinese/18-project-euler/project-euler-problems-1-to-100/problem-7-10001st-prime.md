@@ -17,7 +17,7 @@ dashedName: problem-7-10001st-prime
 `nthPrime(6)` 应返回一个数字。
 
 ```js
-assert(typeof nthPrime(6) === 'number');
+assert.isNumber(nthPrime(6));
 ```
 
 `nthPrime(6)`应当返回13.

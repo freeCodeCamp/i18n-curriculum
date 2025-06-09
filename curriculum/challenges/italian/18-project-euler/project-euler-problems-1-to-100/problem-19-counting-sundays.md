@@ -23,7 +23,7 @@ Quante domeniche sono cadute il primo del mese durante il ventesimo secolo (dal 
 `countingSundays(1943, 1946)` dovrebbe restituire un numero.
 
 ```js
-assert(typeof countingSundays(1943, 1946) === 'number');
+assert.isNumber(countingSundays(1943, 1946));
 ```
 
 `countingSundays(1943, 1946)` dovrebbe restituire 6.

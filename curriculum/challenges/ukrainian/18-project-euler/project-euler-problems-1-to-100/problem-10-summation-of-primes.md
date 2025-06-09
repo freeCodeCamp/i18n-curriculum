@@ -17,7 +17,7 @@ dashedName: problem-10-summation-of-primes
 `primeSummation(17)` має повернути число.
 
 ```js
-assert(typeof primeSummation(17) === 'number');
+assert.isNumber(primeSummation(17));
 ```
 
 `primeSummation(17)` має повернути 41.

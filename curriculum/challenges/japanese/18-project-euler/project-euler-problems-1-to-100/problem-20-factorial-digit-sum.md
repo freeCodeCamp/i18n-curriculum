@@ -20,7 +20,7 @@ dashedName: problem-20-factorial-digit-sum
 `sumFactorialDigits(10)` は数値を返す必要があります。
 
 ```js
-assert(typeof sumFactorialDigits(10) === 'number');
+assert.isNumber(sumFactorialDigits(10));
 ```
 
 `sumFactorialDigits(10)` は 27 を返す必要があります。

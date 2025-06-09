@@ -17,7 +17,7 @@ Finde die Summe aller Multiplikatoren von 3 oder 5 unter dem angegebenen Paramet
 `multiplesOf3Or5(10)` sollte eine Zahl zurückgeben.
 
 ```js
-assert(typeof multiplesOf3Or5(10) === 'number');
+assert.isNumber(multiplesOf3Or5(10));
 ```
 
 `multiplesOf3Or5(49)` sollte 543 zurückgeben.

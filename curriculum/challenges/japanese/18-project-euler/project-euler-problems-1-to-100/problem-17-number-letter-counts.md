@@ -19,7 +19,7 @@ dashedName: problem-17-number-letter-counts
 `numberLetterCounts(5)` は数値を返す必要があります。
 
 ```js
-assert(typeof numberLetterCounts(5) === 'number');
+assert.isNumber(numberLetterCounts(5));
 ```
 
 `numberLetterCounts(5)` は 19 を返す必要があります。

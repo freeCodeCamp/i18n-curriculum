@@ -118,7 +118,7 @@ Calcula los diez primeros dígitos de la suma de los siguientes cíen números d
 `largeSum(testNums)` debe devolver un número.
 
 ```js
-assert(typeof largeSum(testNums) === 'number');
+assert.isNumber(largeSum(testNums));
 ```
 
 `largeSum(testNums)` debe devolver 8348422521.

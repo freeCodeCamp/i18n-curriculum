@@ -31,7 +31,7 @@ dashedName: problem-12-highly-divisible-triangular-number
 `divisibleTriangleNumber(5)` は数値を返す必要があります。
 
 ```js
-assert(typeof divisibleTriangleNumber(5) === 'number');
+assert.isNumber(divisibleTriangleNumber(5));
 ```
 
 `divisibleTriangleNumber(5)` は 28 を返す必要があります。

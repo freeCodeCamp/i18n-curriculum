@@ -13,7 +13,7 @@ dashedName: learn-to-solve-problems-and-understand-errors-lesson-c
 
 Ось приклад псевдокоду програми, яка друкує всі числа, що йдуть перед введеним числом:
 
-```bash
+```md
 When the user inputs a number
 Initialize a counter variable and set its value to zero
 While counter is smaller than user inputted number increment the counter by one

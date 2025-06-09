@@ -42,7 +42,7 @@ dashedName: problem-11-largest-product-in-a-grid
 `largestGridProduct(testGrid)` має повернути число.
 
 ```js
-assert(typeof largestGridProduct(testGrid) === 'number');
+assert.isNumber(largestGridProduct(testGrid));
 ```
 
 `largestGridProduct(testGrid)` має повернути 14169081.

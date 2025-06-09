@@ -9,7 +9,7 @@ dashedName: improve-readability-with-high-contrast-text
 
 # --description--
 
-Low contrast between the foreground and background colors can make text difficult to read. Sufficient contrast improves your content's readability, but what exactly does "sufficient" mean?
+Ein geringer Kontrast zwischen der Vorder- und Hintergrundfarbe kann die Lesbarkeit von Text erschweren. Ein ausreichender Kontrast verbessert die Lesbarkeit deiner Inhalte, aber was genau bedeutet "ausreichend"?
 
 Die Web Content Accessibility Guidelines (WCAG) empfehlen mindestens ein Kontrastverhältnis von 4,5 zu 1 für einen normalen Text. Das Verhältnis wird durch den Vergleich der relativen Leuchtdichtewerte zweier Farben berechnet. Dieser reicht von 1:1 für die gleiche Farbe, also kein Kontrast, bis zu 21:1 für Weiß gegen Schwarz, dem stärksten Kontrast. Im Internet kannst du viele Rechner zum Bestimmen deiner Kontrastverhältnisse finden.
 

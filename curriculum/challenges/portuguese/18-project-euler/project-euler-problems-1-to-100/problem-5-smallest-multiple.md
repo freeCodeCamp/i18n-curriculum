@@ -17,7 +17,7 @@ Qual é o menor número positivo que é igualmente divisível por todos os núme
 `smallestMult(5)` deve retornar um número.
 
 ```js
-assert(typeof smallestMult(5) === 'number');
+assert.isNumber(smallestMult(5));
 ```
 
 `smallestMult(5)` deve retornar 60.

@@ -29,7 +29,7 @@ Welche Startnummer ergibt unter dem gegebenen `limit` die längste Kette?
 `longestCollatzSequence(14)` sollte eine Zahl zurückgeben.
 
 ```js
-assert(typeof longestCollatzSequence(14) === 'number');
+assert.isNumber(longestCollatzSequence(14));
 ```
 
 `longestCollatzSequence(14)` sollte 9 zurückgeben.

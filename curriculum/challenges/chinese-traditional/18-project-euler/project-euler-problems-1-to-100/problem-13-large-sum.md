@@ -118,7 +118,7 @@ Work out the first ten digits of the sum of the following one-hundred 50-digit n
 ` largeSum (testNums) ` 應該返回一個數字。
 
 ```js
-assert(typeof largeSum(testNums) === 'number');
+assert.isNumber(largeSum(testNums));
 ```
 
 `larged Sum(testNums)` 應該返回 8348422521。

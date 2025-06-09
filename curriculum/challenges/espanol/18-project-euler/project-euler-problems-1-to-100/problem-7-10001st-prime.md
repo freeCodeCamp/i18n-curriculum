@@ -17,7 +17,7 @@ Enumerando los seis primeros números primos: 2, 3, 5, 7, 11 y 13, podemos obser
 `nthPrime(6)` debe devolver un número.
 
 ```js
-assert(typeof nthPrime(6) === 'number');
+assert.isNumber(nthPrime(6));
 ```
 
 `nthPrime(6)` debe devolver 13.

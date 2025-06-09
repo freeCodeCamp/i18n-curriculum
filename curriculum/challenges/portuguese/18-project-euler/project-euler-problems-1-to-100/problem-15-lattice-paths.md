@@ -19,7 +19,7 @@ Quantas rotas existem que cruzam uma grade de tamanho `gridSize`?
 `latticePaths(4)` deve retornar um número.
 
 ```js
-assert(typeof latticePaths(4) === 'number');
+assert.isNumber(latticePaths(4));
 ```
 
 `latticePaths(4)` deve retornar 70.

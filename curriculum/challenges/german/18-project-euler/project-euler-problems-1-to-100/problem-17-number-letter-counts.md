@@ -19,7 +19,7 @@ Wenn man alle Zahlen von 1 bis zum angegebenen `limit` in Worte fassen würde, w
 `numberLetterCounts(5)` sollte eine Zahl zurückgeben.
 
 ```js
-assert(typeof numberLetterCounts(5) === 'number');
+assert.isNumber(numberLetterCounts(5));
 ```
 
 `numberLetterCounts(5)` sollte 19 zurückgeben.

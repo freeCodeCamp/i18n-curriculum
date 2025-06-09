@@ -29,7 +29,7 @@ Quale numero iniziale, sotto il dato limite `limit`, produce la catena più lung
 `longestCollatzSequence(14)` dovrebbe restituire un numero.
 
 ```js
-assert(typeof longestCollatzSequence(14) === 'number');
+assert.isNumber(longestCollatzSequence(14));
 ```
 
 `longestCollatzSequence(14)` dovrebbe restituire 9.

@@ -25,7 +25,7 @@ dashedName: problem-6-sum-square-difference
 `sumSquareDifference(10)` 应返回一个数字。
 
 ```js
-assert(typeof sumSquareDifference(10) === 'number');
+assert.isNumber(sumSquareDifference(10));
 ```
 
 `sumSquareDifference(10)` 应该返回 2640。

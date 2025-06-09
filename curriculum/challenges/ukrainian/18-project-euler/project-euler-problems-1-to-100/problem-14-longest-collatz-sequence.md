@@ -29,7 +29,7 @@ dashedName: problem-14-longest-collatz-sequence
 `longestCollatzSequence(14)` має повернути число.
 
 ```js
-assert(typeof longestCollatzSequence(14) === 'number');
+assert.isNumber(longestCollatzSequence(14));
 ```
 
 `longestCollatzSequence(14)` має повернути 9.

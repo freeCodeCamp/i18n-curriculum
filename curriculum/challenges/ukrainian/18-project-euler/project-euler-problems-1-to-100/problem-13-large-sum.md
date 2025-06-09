@@ -118,7 +118,7 @@ dashedName: problem-13-large-sum
 `largeSum(testNums)` має повернути число.
 
 ```js
-assert(typeof largeSum(testNums) === 'number');
+assert.isNumber(largeSum(testNums));
 ```
 
 `largeSum(testNums)` має повернути 8348422521.

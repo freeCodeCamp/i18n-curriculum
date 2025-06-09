@@ -19,7 +19,7 @@ Se tutti i numeri da 1 al dato limite inclusivo `limit` fossero scritti in parol
 `numberLetterCounts(5)` dovrebbe restituire un numero.
 
 ```js
-assert(typeof numberLetterCounts(5) === 'number');
+assert.isNumber(numberLetterCounts(5));
 ```
 
 `numberLetterCounts(5)` dovrebbe restituire 19.

@@ -29,7 +29,7 @@ The following iterative sequence is defined for the set of positive integers:
 `longestCollatzSequence(14)` 应该返回一个数字。
 
 ```js
-assert(typeof longestCollatzSequence(14) === 'number');
+assert.isNumber(longestCollatzSequence(14));
 ```
 
 `longestCollatzSequence(14)` 应该返回 9。
