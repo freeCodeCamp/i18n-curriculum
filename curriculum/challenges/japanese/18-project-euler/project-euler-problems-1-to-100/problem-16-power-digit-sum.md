@@ -17,7 +17,7 @@ dashedName: problem-16-power-digit-sum
 `powerDigitSum(15)` は数値を返す必要があります。
 
 ```js
-assert(typeof powerDigitSum(15) === 'number');
+assert.isNumber(powerDigitSum(15));
 ```
 
 `powerDigitSum(15)` は 26を返す必要があります。

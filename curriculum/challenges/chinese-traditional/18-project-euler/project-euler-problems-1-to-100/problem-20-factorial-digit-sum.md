@@ -20,7 +20,7 @@ For example, 10! = 10×9×...×3×2×1 = 3628800，
 `sumFactorialDigits(50)`應該返回216。
 
 ```js
-assert(typeof sumFactorialDigits(10) === 'number');
+assert.isNumber(sumFactorialDigits(10));
 ```
 
 `sumFactorialDigits(75)`應該返回432。

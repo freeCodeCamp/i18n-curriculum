@@ -25,7 +25,7 @@ dashedName: luhn-test-of-credit-card-numbers
 
 Наприклад, якщо числом для перевірки є 49927398716:
 
-```bash
+```md
 Reverse the digits:
   61789372994
 Sum the odd digits:

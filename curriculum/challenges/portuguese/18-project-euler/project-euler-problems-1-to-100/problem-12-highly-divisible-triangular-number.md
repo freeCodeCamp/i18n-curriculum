@@ -31,7 +31,7 @@ Qual é o valor do primeiro triângulo a ter mais de `n` divisores?
 `divisibleTriangleNumber(5)` deve retornar um número.
 
 ```js
-assert(typeof divisibleTriangleNumber(5) === 'number');
+assert.isNumber(divisibleTriangleNumber(5));
 ```
 
 `divisibleTriangleNumber(5)` deve retornar 28.

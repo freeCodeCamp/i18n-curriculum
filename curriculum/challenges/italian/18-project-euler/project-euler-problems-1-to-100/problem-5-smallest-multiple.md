@@ -17,7 +17,7 @@ Qual è il numero positivo più piccolo che sia uniformemente divisibile per tut
 `smallestMult(5)` dovrebbe restituire un numero.
 
 ```js
-assert(typeof smallestMult(5) === 'number');
+assert.isNumber(smallestMult(5));
 ```
 
 `smallestMult(5)` dovrebbe restituire 60.

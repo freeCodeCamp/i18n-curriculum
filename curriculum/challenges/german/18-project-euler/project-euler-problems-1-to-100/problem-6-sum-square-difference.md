@@ -25,7 +25,7 @@ Finde die Differenz zwischen der Summe der Quadrate der ersten `n` natürlichen 
 `sumSquareDifference(10)` sollte eine Zahl zurückgeben.
 
 ```js
-assert(typeof sumSquareDifference(10) === 'number');
+assert.isNumber(sumSquareDifference(10));
 ```
 
 `sumSquareDifference(10)` sollte 2640 zurückgeben.

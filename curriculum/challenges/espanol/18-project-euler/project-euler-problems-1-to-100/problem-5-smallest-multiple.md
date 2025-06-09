@@ -17,7 +17,7 @@ dashedName: problem-5-smallest-multiple
 `smallestMult(5)`debe devolver un número.
 
 ```js
-assert(typeof smallestMult(5) === 'number');
+assert.isNumber(smallestMult(5));
 ```
 
 `smallestMult(5)` debe devolver 60.

@@ -31,7 +31,7 @@ dashedName: problem-12-highly-divisible-triangular-number
 `divisibleTriangleNumber(5)` 應該返回一個數字。
 
 ```js
-assert(typeof divisibleTriangleNumber(5) === 'number');
+assert.isNumber(divisibleTriangleNumber(5));
 ```
 
 `divisibleTriangleNumber(5)`應該返回28。

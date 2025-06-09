@@ -23,7 +23,7 @@ Wie viele Sonntage fielen im zwanzigsten Jahrhundert (1. Januar 1901 bis 31. Dez
 `countingSundays(1943, 1946)` sollte eine Zahl zurückgeben.
 
 ```js
-assert(typeof countingSundays(1943, 1946) === 'number');
+assert.isNumber(countingSundays(1943, 1946));
 ```
 
 `countingSundays(1943, 1946)` sollte 6 zurückgeben.

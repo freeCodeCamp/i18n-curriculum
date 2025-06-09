@@ -19,7 +19,7 @@ Comenzando en la esquina superior izquierda de una cuadrícula 2x2, y estando pe
 `latticePaths(4)` debe devolver un número.
 
 ```js
-assert(typeof latticePaths(4) === 'number');
+assert.isNumber(latticePaths(4));
 ```
 
 `latticePaths(4)` debe devolver 70.

@@ -19,7 +19,7 @@ Bei der Betrachtung der Begriffe der Fibonacci-Folge, deren Werte `n` nicht übe
 `fiboEvenSum(10)` sollte eine Zahl zurückgeben.
 
 ```js
-assert(typeof fiboEvenSum(10) === 'number');
+assert.isNumber(fiboEvenSum(10));
 ```
 
 Deine Funktion sollte einen geraden Wert zurückgeben.

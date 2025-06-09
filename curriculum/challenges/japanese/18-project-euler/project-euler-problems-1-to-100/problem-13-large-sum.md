@@ -118,7 +118,7 @@ dashedName: problem-13-large-sum
 `largeSum(testNums)` は数値を返す必要があります。
 
 ```js
-assert(typeof largeSum(testNums) === 'number');
+assert.isNumber(largeSum(testNums));
 ```
 
 `largeSum(testNums)` は8348422521 を返す必要があります。

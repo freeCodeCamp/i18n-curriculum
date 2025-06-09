@@ -19,7 +19,7 @@ Starting in the top left corner of a 2×2 grid, and only being able to move to t
 `latticePaths(4)` 应该返回一个数字。
 
 ```js
-assert(typeof latticePaths(4) === 'number');
+assert.isNumber(latticePaths(4));
 ```
 
 `latticePaths(4)` 应该返回 70。

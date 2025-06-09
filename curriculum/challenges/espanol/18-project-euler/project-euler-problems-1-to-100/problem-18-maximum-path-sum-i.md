@@ -44,7 +44,7 @@ Encuentra la máxima suma desde la punta hasta el fondo del siguiente triángulo
 `maximumPathSumI([[3, 0, 0, 0], [7, 4, 0, 0],[2, 4, 6, 0],[8, 5, 9, 3]])` debe volver un número.
 
 ```js
-assert(typeof maximumPathSumI(_testTriangle) === 'number');
+assert.isNumber(maximumPathSumI(_testTriangle));
 ```
 
 `maximumPathSumI([[3, 0, 0, 0], [7, 4, 0, 0],[2, 4, 6, 0],[8, 5, 9, 3]])` debe volver 23.

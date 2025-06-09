@@ -44,7 +44,7 @@ Finde die maximale Summe von oben nach unten des unteren Dreiecks:
 `maximumPathSumI([[3, 0, 0, 0], [7, 4, 0, 0],[2, 4, 6, 0],[8, 5, 9, 3]])` sollte eine Zahl zurückgeben.
 
 ```js
-assert(typeof maximumPathSumI(_testTriangle) === 'number');
+assert.isNumber(maximumPathSumI(_testTriangle));
 ```
 
 `maximumPathSumI([[3, 0, 0, 0], [7, 4, 0, 0],[2, 4, 6, 0],[8, 5, 9, 3]])` sollte 23 zurückgeben.

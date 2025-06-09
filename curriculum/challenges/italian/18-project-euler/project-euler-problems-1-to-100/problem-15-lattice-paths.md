@@ -19,7 +19,7 @@ Quante strade di questo tipo ci sono data la dimensione della griglia `gridSize`
 `latticePaths(4)` dovrebbe restituire un numero.
 
 ```js
-assert(typeof latticePaths(4) === 'number');
+assert.isNumber(latticePaths(4));
 ```
 
 `latticePaths(4)` dovrebbe restituire 70.

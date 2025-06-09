@@ -13,7 +13,7 @@ Pseudocódigo é escrever a lógica do seu programa em linguagem natural em vez 
 
 Aqui está um exemplo de como pode ser o pseudocódigo para um programa que imprime todos os números até um número inserido:
 
-```bash
+```md
 When the user inputs a number
 Initialize a counter variable and set its value to zero
 While counter is smaller than user inputted number increment the counter by one

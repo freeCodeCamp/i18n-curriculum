@@ -9,7 +9,7 @@ dashedName: give-links-meaning-by-using-descriptive-link-text
 
 # --description--
 
-Screen reader users have various options for what type of content their device reads. These options include skipping to (or over) landmark elements, jumping to the main content, or getting a page summary from the headings. Another option is to only hear the links available on a page.
+Benutzer von Screenreadern haben verschiedene Möglichkeiten, welche Art von Inhalten ihr Gerät liest. Zu diesen Optionen gehören das Springen zu (oder über) markante Elemente, das Springen zum Hauptinhalt oder das Abrufen einer Seitenübersicht aus den Überschriften. Eine andere Option ist es, nur die verfügbaren Links einer Seite zu hören.
 
 Screenreader tun dies, indem sie den Linktext lesen, oder das, was zwischen den Anchor-Tags (`a`) steht. Eine Liste mit "Hier klicken"- oder "Mehr lesen"-Links ist nicht hilfreich. Verwende stattdessen kurzen, aber beschreibenden Text innerhalb der `a`-Tags, um diesen Benutzern mehr zu vermitteln.
 

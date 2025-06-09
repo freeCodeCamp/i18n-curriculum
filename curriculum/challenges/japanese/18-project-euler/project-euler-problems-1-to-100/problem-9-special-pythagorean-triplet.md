@@ -21,7 +21,7 @@ dashedName: problem-9-special-pythagorean-triplet
 `specialPythagoreanTriplet(24)` は数値を返す必要があります。
 
 ```js
-assert(typeof specialPythagoreanTriplet(24) === 'number');
+assert.isNumber(specialPythagoreanTriplet(24));
 ```
 
 `specialPythagoreanTriplet(24)` は 480 を返す必要があります。
@@ -33,7 +33,7 @@ assert.strictEqual(specialPythagoreanTriplet(24), 480);
 `specialPythagoreanTriplet(120)` は 49920, 55080, 60000 のいずれかを返す必要があります。
 
 ```js
-assert([49920, 55080, 60000].includes(specialPythagoreanTriplet(120)));
+assert.oneOf(specialPythagoreanTriplet(120), [49920, 55080, 60000]);
 ```
 
 `specialPythagoreanTriplet(1000)` は 31875000 を返す必要があります。

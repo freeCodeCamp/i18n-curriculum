@@ -31,7 +31,7 @@ Was ist der Wert der ersten Dreieckszahl, die über `n` Teiler haben soll?
 `divisibleTriangleNumber(5)` sollte eine Zahl zurückgeben.
 
 ```js
-assert(typeof divisibleTriangleNumber(5) === 'number');
+assert.isNumber(divisibleTriangleNumber(5));
 ```
 
 `divisibleTriangleNumber(5)` sollte 28 zurückgeben.

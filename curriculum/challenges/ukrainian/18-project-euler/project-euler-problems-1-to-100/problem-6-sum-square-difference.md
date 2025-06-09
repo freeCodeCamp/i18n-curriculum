@@ -25,7 +25,7 @@ dashedName: problem-6-sum-square-difference
 `sumSquareDifference(10)` має повернути число.
 
 ```js
-assert(typeof sumSquareDifference(10) === 'number');
+assert.isNumber(sumSquareDifference(10));
 ```
 
 `sumSquareDifference(10)` має повернути 2640.

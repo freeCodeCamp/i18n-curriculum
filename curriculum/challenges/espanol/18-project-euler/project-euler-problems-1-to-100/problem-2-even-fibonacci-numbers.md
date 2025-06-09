@@ -19,7 +19,7 @@ Considerando solamente los números de la sucesión de Fibonacci que no sean may
 `fiboEvenSum(10)` debe devolver un número.
 
 ```js
-assert(typeof fiboEvenSum(10) === 'number');
+assert.isNumber(fiboEvenSum(10));
 ```
 
 Tu función debe devolver un número par.

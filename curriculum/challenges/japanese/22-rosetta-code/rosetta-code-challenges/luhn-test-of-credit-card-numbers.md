@@ -25,7 +25,7 @@ Luhn テストで検証可能なクレジットカード番号を使用してい
 
 たとえば、トライアル番号が 49927398716 の場合:
 
-```bash
+```md
 Reverse the digits:
   61789372994
 Sum the odd digits:

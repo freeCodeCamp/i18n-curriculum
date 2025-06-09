@@ -23,7 +23,7 @@ dashedName: problem-19-counting-sundays
 `countingSundays(1943, 1946)` має повернути число.
 
 ```js
-assert(typeof countingSundays(1943, 1946) === 'number');
+assert.isNumber(countingSundays(1943, 1946));
 ```
 
 `countingSundays(1943, 1946)` має повернути 6.

@@ -38,7 +38,7 @@ dashedName: problem-8-largest-product-in-a-series
 `largestProductinaSeries(4)` は数値を返す必要があります。
 
 ```js
-assert(typeof largestProductinaSeries(4) === 'number');
+assert.isNumber(largestProductinaSeries(4));
 ```
 
 `largestProductinaSeries(4)` は 5832 を返す必要があります。

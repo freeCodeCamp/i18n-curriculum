@@ -17,7 +17,7 @@ dashedName: problem-4-largest-palindrome-product
 `largestPalindromeProduct(2)` は数値を返す必要があります。
 
 ```js
-assert(typeof largestPalindromeProduct(2) === 'number');
+assert.isNumber(largestPalindromeProduct(2));
 ```
 
 `largestPalindromeProduct(2)` は 9009 を返す必要があります。

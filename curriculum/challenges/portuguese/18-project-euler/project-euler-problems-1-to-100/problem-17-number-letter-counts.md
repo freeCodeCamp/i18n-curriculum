@@ -19,7 +19,7 @@ Se todos os números entre 1 e o parâmetro `limit` (inclusive) fossem escritos 
 `numberLetterCounts(5)` deve retornar um número.
 
 ```js
-assert(typeof numberLetterCounts(5) === 'number');
+assert.isNumber(numberLetterCounts(5));
 ```
 
 `numberLetterCounts(5)` deve retornar 19.

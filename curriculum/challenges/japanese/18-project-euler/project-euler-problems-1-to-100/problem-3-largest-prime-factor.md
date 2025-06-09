@@ -17,7 +17,7 @@ dashedName: problem-3-largest-prime-factor
 `largestPrimeFactor(2)` は数値を返す必要があります。
 
 ```js
-assert(typeof largestPrimeFactor(2) === 'number');
+assert.isNumber(largestPrimeFactor(2));
 ```
 
 `largestPrimeFactor(2)` は 2 を返す必要があります。

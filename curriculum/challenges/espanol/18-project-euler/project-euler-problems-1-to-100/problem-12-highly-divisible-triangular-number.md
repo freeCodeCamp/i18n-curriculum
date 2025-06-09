@@ -31,7 +31,7 @@ Podemos ver que 28 es el primer número triangular que tiene más de cinco divis
 `divisibleTriangleNumber(5)` debe devolver un número.
 
 ```js
-assert(typeof divisibleTriangleNumber(5) === 'number');
+assert.isNumber(divisibleTriangleNumber(5));
 ```
 
 `divisibleTriangleNumber(5)` debe devolver 28.

@@ -17,7 +17,7 @@ dashedName: problem-1-multiples-of-3-or-5
 `multiplesOf3Or5(10)` має повернути число.
 
 ```js
-assert(typeof multiplesOf3Or5(10) === 'number');
+assert.isNumber(multiplesOf3Or5(10));
 ```
 
 `multiplesOf3Or5(49)` має повернути 543.

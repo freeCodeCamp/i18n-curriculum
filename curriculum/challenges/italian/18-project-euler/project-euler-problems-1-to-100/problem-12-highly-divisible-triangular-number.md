@@ -31,7 +31,7 @@ Qual è il valore del primo numero triangolare che ha oltre `n` divisori?
 `divisibleTriangleNumber(5)` dovrebbe restituire un numero.
 
 ```js
-assert(typeof divisibleTriangleNumber(5) === 'number');
+assert.isNumber(divisibleTriangleNumber(5));
 ```
 
 `divisibleTriangleNumber(5)` dovrebbe restituire 28.

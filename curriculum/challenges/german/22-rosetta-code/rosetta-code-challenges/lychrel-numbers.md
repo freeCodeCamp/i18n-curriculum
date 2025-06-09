@@ -18,14 +18,14 @@ Die obere Rekursionsrelation endet, wenn sie auf die meisten Ausgangszahlen `n` 
 
 Zum Beispiel, wenn `n₀` = 12 erhalten wir:
 
-```bash
+```md
 12
 12 + 21 = 33,  a palindrome!
 ```
 
 Und wenn `n₀` = 55 erhalten wir:
 
-```bash
+```md
 55
 55 + 55 = 110
 110 + 011 = 121,  a palindrome!
@@ -43,7 +43,7 @@ Jede Ganzzahl, die in der Folge einer Lychrel-Zahl entsteht, ist auch eine Lynch
 
 Im Allgemeinen *kann* jede Sequenz von einer Lychrel-Zahl konvergieren, um der Sequenz von einem vorherigen Lychrel-Zahlen-Kandidaten beizutreten; die Sequenzen für die Zahlen 196 und dann 689 beginnen zum Beispiel wie folgt:
 
-```bash
+```md
     196
     196 + 691 = 887
     887 + 788 = 1675

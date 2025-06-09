@@ -18,14 +18,14 @@ A relação de recorrência acima, quando aplicada à maioria dos números inici
 
 Por exemplo, se `n₀` = 12, temos we get:
 
-```bash
+```md
 12
 12 + 21 = 33,  a palindrome!
 ```
 
 E se `n₀` = 55, temos:
 
-```bash
+```md
 55
 55 + 55 = 110
 110 + 011 = 121,  a palindrome!
@@ -43,7 +43,7 @@ Qualquer inteiro produzido na sequência de um número de Lychrel também é um 
 
 Em geral, qualquer sequência a partir de um número de Lychrel *pode* convergir para se juntar à sequência de um candidato a número de Lychrel anterior. Por exemplo, as sequências para os números 196 e depois 689 começam:
 
-```bash
+```md
     196
     196 + 691 = 887
     887 + 788 = 1675

@@ -17,7 +17,7 @@ Was ist die Summe der Ziffern der Zahl 2<<sup><code>exponent</code></sup>?
 `powerDigitSum(15)` sollte eine Zahl zurückgeben.
 
 ```js
-assert(typeof powerDigitSum(15) === 'number');
+assert.isNumber(powerDigitSum(15));
 ```
 
 `powerDigitSum(15)` sollte 26 zurückgeben.

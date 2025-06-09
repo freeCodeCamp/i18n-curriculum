@@ -19,7 +19,7 @@ Wie viele solcher Pfade gibt es aufgrund einer bestimmten `gridSize`?
 `latticePaths(4)` sollte eine Zahl zurückgeben.
 
 ```js
-assert(typeof latticePaths(4) === 'number');
+assert.isNumber(latticePaths(4));
 ```
 
 `latticePaths(4)` sollte 70 zurückgeben.

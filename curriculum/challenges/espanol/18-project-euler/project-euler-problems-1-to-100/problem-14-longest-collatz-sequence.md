@@ -29,7 +29,7 @@ Se puede ver que esta secuencia (comenzando el 13 y terminando a 1) contiene 10 
 `longestCollatzSequence(14)` debe devolver un número.
 
 ```js
-assert(typeof longestCollatzSequence(14) === 'number');
+assert.isNumber(longestCollatzSequence(14));
 ```
 
 `longestCollatzSequence(14)` debe devolver 9.

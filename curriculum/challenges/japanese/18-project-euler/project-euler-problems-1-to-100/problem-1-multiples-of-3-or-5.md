@@ -17,7 +17,7 @@ dashedName: problem-1-multiples-of-3-or-5
 `multiplesOf3Or5(10)` は数値を返す必要があります。
 
 ```js
-assert(typeof multiplesOf3Or5(10) === 'number');
+assert.isNumber(multiplesOf3Or5(10));
 ```
 
 `multiplesOf3Or5(49)` は 543 を返す必要があります。

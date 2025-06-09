@@ -38,7 +38,7 @@ dashedName: problem-8-largest-product-in-a-series
 `largestProductinaSeries(4)` має повернути число.
 
 ```js
-assert(typeof largestProductinaSeries(4) === 'number');
+assert.isNumber(largestProductinaSeries(4));
 ```
 
 `largestProductinaSeries(4)` має повернути 5832.

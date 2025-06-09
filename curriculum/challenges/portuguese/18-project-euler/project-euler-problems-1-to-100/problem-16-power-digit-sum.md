@@ -17,7 +17,7 @@ Qual é a soma dos algarismos do número 2<sup><code>exponent</code></sup>?
 `powerDigitSum(15)` deve retornar um número.
 
 ```js
-assert(typeof powerDigitSum(15) === 'number');
+assert.isNumber(powerDigitSum(15));
 ```
 
 `powerDigitSum(15)` deve retornar 26.

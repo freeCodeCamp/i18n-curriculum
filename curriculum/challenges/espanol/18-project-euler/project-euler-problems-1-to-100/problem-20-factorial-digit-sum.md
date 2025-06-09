@@ -20,7 +20,7 @@ Encuentra la suma de los dígitos de `n`!
 `sumFactorialDigits(10)` debe devolver un número.
 
 ```js
-assert(typeof sumFactorialDigits(10) === 'number');
+assert.isNumber(sumFactorialDigits(10));
 ```
 
 `sumFactorialDigits(10)` debe devolver 27.

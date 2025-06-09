@@ -38,7 +38,7 @@ Finde die `n` benachbarten Ziffern der 1000-stelligen Zahl, die das größte Pro
 `largestProductinaSeries(4)` sollte eine Zahl zurückgeben.
 
 ```js
-assert(typeof largestProductinaSeries(4) === 'number');
+assert.isNumber(largestProductinaSeries(4));
 ```
 
 `largestProductinaSeries(4)` sollte 5832 zurückgeben.

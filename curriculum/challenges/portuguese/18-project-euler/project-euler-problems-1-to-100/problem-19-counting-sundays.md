@@ -23,7 +23,7 @@ Quantos domingos caíram no primeiro dia do mês durante o século 20 (1 de jane
 `countingSundays(1943, 1946)` deve retornar um número.
 
 ```js
-assert(typeof countingSundays(1943, 1946) === 'number');
+assert.isNumber(countingSundays(1943, 1946));
 ```
 
 `countingSundays(1943, 1946)` deve retornar 6.

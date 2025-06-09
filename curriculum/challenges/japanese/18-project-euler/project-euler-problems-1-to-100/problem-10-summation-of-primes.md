@@ -17,7 +17,7 @@ dashedName: problem-10-summation-of-primes
 `primeSummation(17)` は数値を返す必要があります。
 
 ```js
-assert(typeof primeSummation(17) === 'number');
+assert.isNumber(primeSummation(17));
 ```
 
 `primeSummation(17)` は 41 を返す必要があります。

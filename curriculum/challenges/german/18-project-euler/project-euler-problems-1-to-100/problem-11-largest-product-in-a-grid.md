@@ -42,7 +42,7 @@ Was ist das größte Produkt von vier benachbarten Zahlen in derselben Richtung 
 `largestGridProduct(testGrid)` sollte eine Zahl zurückgeben.
 
 ```js
-assert(typeof largestGridProduct(testGrid) === 'number');
+assert.isNumber(largestGridProduct(testGrid));
 ```
 
 `largestGridProduct(testGrid)` sollte 14169081 zurückgeben.

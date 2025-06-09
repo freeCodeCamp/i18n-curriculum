@@ -17,7 +17,7 @@ Calcule a soma de todos os múltiplos de 3 ou 5 menor que o parâmetro `number`.
 `multiplesOf3Or5(10)` deve retornar um número.
 
 ```js
-assert(typeof multiplesOf3Or5(10) === 'number');
+assert.isNumber(multiplesOf3Or5(10));
 ```
 
 `multiplesOf3Or5(49)` deve retornar 543.

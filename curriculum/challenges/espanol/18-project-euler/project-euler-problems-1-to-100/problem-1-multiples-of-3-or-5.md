@@ -17,7 +17,7 @@ Encuentre la suma de todos los múltiplos de 3 o 5 debajo del valor del parámet
 `multiplesOf3Or5(10)` should return a number.
 
 ```js
-assert(typeof multiplesOf3Or5(10) === 'number');
+assert.isNumber(multiplesOf3Or5(10));
 ```
 
 `multiplesOf3Or5(49)` should return 543.

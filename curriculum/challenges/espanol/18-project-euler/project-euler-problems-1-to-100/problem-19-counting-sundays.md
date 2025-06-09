@@ -23,7 +23,7 @@ You are given the following information, but you may prefer to do some research 
 `countingSundays(1943, 1946)` debe devolver un número.
 
 ```js
-assert(typeof countingSundays(1943, 1946) === 'number');
+assert.isNumber(countingSundays(1943, 1946));
 ```
 
 `countingSundays(1943, 1946)` debe devolver 6.
