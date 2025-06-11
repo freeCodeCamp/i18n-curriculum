@@ -19,7 +19,7 @@ dashedName: problem-22-names-scores
 `namesScores(test1)` має повернути число.
 
 ```js
-assert(typeof namesScores(test1) === 'number');
+assert.isNumber(namesScores(test1));
 ```
 
 `namesScores(test1)` має повернути 791.

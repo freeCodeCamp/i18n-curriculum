@@ -19,7 +19,7 @@ Po ejemplo, una vez que la lista está ordenada alfabéticamente, COLIN, cuyo va
 `namesScores(test1)` debe devolver un número.
 
 ```js
-assert(typeof namesScores(test1) === 'number');
+assert.isNumber(namesScores(test1));
 ```
 
 `namesScores(test1)` debe devolver 791.

@@ -25,7 +25,7 @@ Qual è l'indice del primo termine nella sequenza di Fibonacci contenente `n` ci
 `digitFibonacci(5)` dovrebbe restituire un numero.
 
 ```js
-assert(typeof digitFibonacci(5) === 'number');
+assert.isNumber(digitFibonacci(5));
 ```
 
 `digitFibonacci(5)` dovrebbe restituire 21.

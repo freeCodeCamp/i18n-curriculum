@@ -25,7 +25,7 @@ Was ist der Index des ersten Begriffs in der Fibonacci-Folge, der `n` Ziffern en
 `digitFibonacci(5)` sollte eine Zahl zurückgeben.
 
 ```js
-assert(typeof digitFibonacci(5) === 'number');
+assert.isNumber(digitFibonacci(5));
 ```
 
 `digitFibonacci(5)` sollte 21 zurückgeben.

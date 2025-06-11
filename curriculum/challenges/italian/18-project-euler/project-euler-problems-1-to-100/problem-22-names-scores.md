@@ -19,7 +19,7 @@ Qual è il totale di tutti i punteggi dei nomi nell'array?
 `namesScores(test1)` dovrebbe restituire un numero.
 
 ```js
-assert(typeof namesScores(test1) === 'number');
+assert.isNumber(namesScores(test1));
 ```
 
 `namesScores(test1)` dovrebbe restituire 791.

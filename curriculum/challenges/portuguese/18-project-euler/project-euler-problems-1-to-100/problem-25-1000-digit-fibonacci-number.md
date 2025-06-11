@@ -25,7 +25,7 @@ Qual é o índice do primeiro termo na sequência de Fibonacci a conter `n` alga
 `digitFibonacci(5)` deve retornar um número.
 
 ```js
-assert(typeof digitFibonacci(5) === 'number');
+assert.isNumber(digitFibonacci(5));
 ```
 
 `digitFibonacci(5)` deve retornar 21.
