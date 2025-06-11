@@ -21,7 +21,7 @@ dashedName: problem-21-amicable-numbers
 `sumAmicableNum(1000)` має повернути число.
 
 ```js
-assert(typeof sumAmicableNum(1000) === 'number');
+assert.isNumber(sumAmicableNum(1000));
 ```
 
 `sumAmicableNum(1000)` має повернути 504.

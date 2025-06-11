@@ -26,9 +26,9 @@ assert.lengthOf(document.querySelectorAll('strong'),1);
 `strong` タグは `p` タグの内側にあるようにしてください。
 
 ```js
-const pargraphElement = document.querySelector('p');
-const pargraphChildren = pargraphElement?.querySelectorAll(`:scope ${'strong'}`);
-assert.lengthOf(pargraphChildren, 1);
+const paragraphElement = document.querySelector('p');
+const paragraphChildren = paragraphElement?.querySelectorAll(`:scope ${'strong'}`);
+assert.lengthOf(paragraphChildren, 1);
 ```
 
 `strong` タグが `Stanford University` の語句を囲むようにしてください。

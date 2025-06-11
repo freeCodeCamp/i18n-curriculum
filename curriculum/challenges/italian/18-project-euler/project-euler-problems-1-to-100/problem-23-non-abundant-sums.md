@@ -21,31 +21,31 @@ Trova la somma di tutti i numeri interi positivi &lt;= `n` che non possono esser
 `sumOfNonAbundantNumbers(10000)` dovrebbe restituire un numero.
 
 ```js
-assert(typeof sumOfNonAbundantNumbers(10000) === 'number');
+assert.isNumber(sumOfNonAbundantNumbers(10000));
 ```
 
 `sumOfNonAbundantNumbers(10000)` dovrebbe restituire 3731004.
 
 ```js
-assert(sumOfNonAbundantNumbers(10000) === 3731004);
+assert.strictEqual(sumOfNonAbundantNumbers(10000), 3731004);
 ```
 
 `sumOfNonAbundantNumbers(15000)` dovrebbe restituire 4039939.
 
 ```js
-assert(sumOfNonAbundantNumbers(15000) === 4039939);
+assert.strictEqual(sumOfNonAbundantNumbers(15000), 4039939);
 ```
 
 `sumOfNonAbundantNumbers(20000)` dovrebbe restituire 4159710.
 
 ```js
-assert(sumOfNonAbundantNumbers(20000) === 4159710);
+assert.strictEqual(sumOfNonAbundantNumbers(20000), 4159710);
 ```
 
 `sumOfNonAbundantNumbers(28123)` dovrebbe restituire 4179871.
 
 ```js
-assert(sumOfNonAbundantNumbers(28123) === 4179871);
+assert.strictEqual(sumOfNonAbundantNumbers(28123), 4179871);
 ```
 
 # --seed--

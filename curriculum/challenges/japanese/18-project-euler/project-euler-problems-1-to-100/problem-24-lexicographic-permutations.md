@@ -19,31 +19,31 @@ dashedName: problem-24-lexicographic-permutations
 `lexicographicPermutations(699999)` は数値を返す必要があります。
 
 ```js
-assert(typeof lexicographicPermutations(699999) === 'number');
+assert.isNumber(lexicographicPermutations(699999));
 ```
 
 `lexicographicPermutations(699999)` は 1938246570 を返す必要があります。
 
 ```js
-assert(lexicographicPermutations(699999) == 1938246570);
+assert.strictEqual(lexicographicPermutations(699999), 1938246570);
 ```
 
 `lexicographicPermutations(899999)` は 2536987410 を返す必要があります。
 
 ```js
-assert(lexicographicPermutations(899999) == 2536987410);
+assert.strictEqual(lexicographicPermutations(899999), 2536987410);
 ```
 
 `lexicographicPermutations(900000)` は 2537014689 を返す必要があります。
 
 ```js
-assert(lexicographicPermutations(900000) == 2537014689);
+assert.strictEqual(lexicographicPermutations(900000), 2537014689);
 ```
 
 `lexicographicPermutations(999999)` は 2783915460 を返す必要があります。
 
 ```js
-assert(lexicographicPermutations(999999) == 2783915460);
+assert.strictEqual(lexicographicPermutations(999999), 2783915460);
 ```
 
 # --seed--

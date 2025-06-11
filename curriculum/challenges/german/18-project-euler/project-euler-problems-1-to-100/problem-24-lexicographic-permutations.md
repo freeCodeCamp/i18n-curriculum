@@ -19,31 +19,31 @@ Was ist die `n`-te lexikographische Permutation der Ziffern 0, 1, 2, 3, 4, 5, 6,
 `lexicographicPermutations(699999)` sollte eine Zahl zurückgeben.
 
 ```js
-assert(typeof lexicographicPermutations(699999) === 'number');
+assert.isNumber(lexicographicPermutations(699999));
 ```
 
 `lexicographicPermutations(699999)` sollte 1938246570 zurückgeben.
 
 ```js
-assert(lexicographicPermutations(699999) == 1938246570);
+assert.strictEqual(lexicographicPermutations(699999), 1938246570);
 ```
 
 `lexicographicPermutations(899999)` sollte 2536987410 zurückgeben.
 
 ```js
-assert(lexicographicPermutations(899999) == 2536987410);
+assert.strictEqual(lexicographicPermutations(899999), 2536987410);
 ```
 
 `lexicographicPermutations(900000)` sollte 2537014689 zurückgeben.
 
 ```js
-assert(lexicographicPermutations(900000) == 2537014689);
+assert.strictEqual(lexicographicPermutations(900000), 2537014689);
 ```
 
 `lexicographicPermutations(999999)` sollte 2783915460 zurückgeben.
 
 ```js
-assert(lexicographicPermutations(999999) == 2783915460);
+assert.strictEqual(lexicographicPermutations(999999), 2783915460);
 ```
 
 # --seed--

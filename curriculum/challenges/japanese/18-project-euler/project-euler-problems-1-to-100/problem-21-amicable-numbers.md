@@ -21,7 +21,7 @@ dashedName: problem-21-amicable-numbers
 `sumAmicableNum(1000)` は数値を返す必要があります。
 
 ```js
-assert(typeof sumAmicableNum(1000) === 'number');
+assert.isNumber(sumAmicableNum(1000));
 ```
 
 `sumAmicableNum(1000)` は 504 を返す必要があります。

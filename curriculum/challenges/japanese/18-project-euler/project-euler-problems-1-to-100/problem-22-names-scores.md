@@ -19,7 +19,7 @@ dashedName: problem-22-names-scores
 `namesScores(test1)` は数値を返す必要があります。
 
 ```js
-assert(typeof namesScores(test1) === 'number');
+assert.isNumber(namesScores(test1));
 ```
 
 `namesScores(test1)` は 791 を返す必要があります。

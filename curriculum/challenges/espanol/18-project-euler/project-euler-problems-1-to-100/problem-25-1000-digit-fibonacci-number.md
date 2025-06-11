@@ -25,7 +25,7 @@ El 12º término, F<sub>12</sub>, es el primero que tiene tres dígitos.
 `digitFibonacci(5)` debe devolver un número.
 
 ```js
-assert(typeof digitFibonacci(5) === 'number');
+assert.isNumber(digitFibonacci(5));
 ```
 
 `digitFibonacci(5)` debe devolver 21.

@@ -26,9 +26,9 @@ assert.lengthOf(document.querySelectorAll('strong'),1);
 La etiqueta `strong` debe estar dentro de la etiqueta `p`.
 
 ```js
-const pargraphElement = document.querySelector('p');
-const pargraphChildren = pargraphElement?.querySelectorAll(`:scope ${'strong'}`);
-assert.lengthOf(pargraphChildren, 1);
+const paragraphElement = document.querySelector('p');
+const paragraphChildren = paragraphElement?.querySelectorAll(`:scope ${'strong'}`);
+assert.lengthOf(paragraphChildren, 1);
 ```
 
 La etiqueta `strong` debe envolver el texto `Stanford University`.

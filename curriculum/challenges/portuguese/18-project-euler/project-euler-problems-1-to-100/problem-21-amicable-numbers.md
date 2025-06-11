@@ -21,7 +21,7 @@ Calcule a soma de todos os números amigos abaixo de `n`.
 `sumAmicableNum(1000)` deve retornar um número.
 
 ```js
-assert(typeof sumAmicableNum(1000) === 'number');
+assert.isNumber(sumAmicableNum(1000));
 ```
 
 `sumAmicableNum(1000)` deve retornar 504.

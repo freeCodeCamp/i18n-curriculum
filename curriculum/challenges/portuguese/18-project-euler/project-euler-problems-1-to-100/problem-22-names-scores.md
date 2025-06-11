@@ -19,7 +19,7 @@ Qual é o total de todas as pontuações no array de nomes?
 `namesScores(test1)` deve retornar um número.
 
 ```js
-assert(typeof namesScores(test1) === 'number');
+assert.isNumber(namesScores(test1));
 ```
 
 `namesScores(test1)` deve retornar 791.

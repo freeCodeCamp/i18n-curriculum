@@ -26,9 +26,9 @@ assert.lengthOf(document.querySelectorAll('strong'),1);
 `strong` 태그는 `p` 태그 내부에 위치해야 합니다.
 
 ```js
-const pargraphElement = document.querySelector('p');
-const pargraphChildren = pargraphElement?.querySelectorAll(`:scope ${'strong'}`);
-assert.lengthOf(pargraphChildren, 1);
+const paragraphElement = document.querySelector('p');
+const paragraphChildren = paragraphElement?.querySelectorAll(`:scope ${'strong'}`);
+assert.lengthOf(paragraphChildren, 1);
 ```
 
 `strong` 태그는 `Stanford University`라는 단어를 감싸야 합니다.

@@ -25,7 +25,7 @@ dashedName: problem-25-1000-digit-fibonacci-number
 `digitFibonacci(5)` は数値を返す必要があります。
 
 ```js
-assert(typeof digitFibonacci(5) === 'number');
+assert.isNumber(digitFibonacci(5));
 ```
 
 `digitFibonacci(5)` は 21 を返す必要があります。

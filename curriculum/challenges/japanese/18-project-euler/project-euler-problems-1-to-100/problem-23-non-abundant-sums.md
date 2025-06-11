@@ -21,31 +21,31 @@ dashedName: problem-23-non-abundant-sums
 `sumOfNonAbundantNumbers(10000)` は数値を返す必要があります。
 
 ```js
-assert(typeof sumOfNonAbundantNumbers(10000) === 'number');
+assert.isNumber(sumOfNonAbundantNumbers(10000));
 ```
 
 `sumOfNonAbundantNumbers(10000)` は 3731004 を返す必要があります。
 
 ```js
-assert(sumOfNonAbundantNumbers(10000) === 3731004);
+assert.strictEqual(sumOfNonAbundantNumbers(10000), 3731004);
 ```
 
 `sumOfNonAbundantNumbers(15000)` は 4039939 を返す必要があります。
 
 ```js
-assert(sumOfNonAbundantNumbers(15000) === 4039939);
+assert.strictEqual(sumOfNonAbundantNumbers(15000), 4039939);
 ```
 
 `sumOfNonAbundantNumbers(20000)` は4159710を返す必要があります
 
 ```js
-assert(sumOfNonAbundantNumbers(20000) === 4159710);
+assert.strictEqual(sumOfNonAbundantNumbers(20000), 4159710);
 ```
 
 `sumOfNonAbundantNumbers(28123)` は4179871を返す必要があります。
 
 ```js
-assert(sumOfNonAbundantNumbers(28123) === 4179871);
+assert.strictEqual(sumOfNonAbundantNumbers(28123), 4179871);
 ```
 
 # --seed--
