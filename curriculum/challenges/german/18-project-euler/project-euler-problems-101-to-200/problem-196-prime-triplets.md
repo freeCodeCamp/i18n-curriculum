@@ -18,9 +18,9 @@ $$\begin{array}{rrr}   &  1 \\\\
   & 46 & \color{red}{47} & 48 & 49 & 50 & 51 & 52 & \color{red}{53} & 54 & 55 \\\\   & 56 & 57 & 58 & \color{red}{59} & 60 & \color{red}{61} & 62 & 63 & 64 & 65 & 66 \\\\
   & \cdots \end{array}$$
 
-Jede positive Integer hat bis zu acht Nachbarn im Dreieck.
+Each positive integer has up to eight neighbors in the triangle.
 
-Ein Satz von drei Primzahlen wird als Primzahlentripel bezeichnet, wenn eine der drei Primzahlen die beiden anderen Primzahlen als Nachbarn im Dreieck hat.
+A set of three primes is called a prime triplet if one of the three primes has the other two as neighbors in the triangle.
 
 In der zweiten Reihe beispielsweise sind die Primzahlen 2 und 3 Elemente eines Primzahlentripels.
 

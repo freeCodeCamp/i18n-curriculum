@@ -42,20 +42,20 @@ Produce la producción reducida:
 
 ## Algoritmos
 
-Supongamos que los píxeles negros son uno y los píxeles blancos cero, y que la imagen de entrada es una N rectangular por array M de unos y ceros. El algoritmo funciona en todos los píxeles negros P1 que pueden tener ocho vecinos. Los vecinos están en orden, ordenados como:
+Supongamos que los píxeles negros son uno y los píxeles blancos cero, y que la imagen de entrada es una N rectangular por array M de unos y ceros. The algorithm operates on all black pixels P1 that can have eight neighbors. The neighbors are, in order, arranged as:
 
 $$\begin{array}{|c|c|c|} \\hline P9 & P2              & P3\\\\ \\hline P8 & \boldsymbol{P1} & P4\\\\ \\hline P7 & P6              & P5\\\\ \\hline \end{array}$$
 
-Obviamente, los píxeles límite de la imagen no pueden tener los ocho vecinos completos.
+Obviously the boundary pixels of the image cannot have the full eight neighbors.
 
 - Definir $A(P1)$ = el número de transiciones de blanco a negro, ($0 \to 1$) en la secuencia P2, P3, P4, P5, P6, P7, P8, P9, P2. (Tenga en cuenta el P2 extra al final - es circular).
-- Define $B(P1)$ = el número de vecinos de píxeles negros de P1. ($= \\sum(P2 \ldots P9)$)
+- Define $B(P1)$ = the number of black pixel neighbors of P1. ($= \\sum(P2 \ldots P9)$)
 
 **Paso 1:**
 
 Todos los píxeles son probados y los píxeles que satisfacen las siguientes condiciones (simultáneamente) se acaban de señalar en esta etapa.
 
-1. El píxel es negro y tiene ocho vecinos
+1. The pixel is black and has eight neighbors
 2. $2 \le B(P1) \le 6$
 3. $A(P1) = 1$
 4. Al menos uno de $P2$, $P4$ y $P6$ es blanco
@@ -67,7 +67,7 @@ Después de iterar sobre la imagen y recoger todos los píxeles que satisfagan t
 
 Todos los píxeles están probados de nuevo y los píxeles que satisfacen las siguientes condiciones se acaban de señalar en esta etapa.
 
-1. El píxel es negro y tiene ocho vecinos
+1. The pixel is black and has eight neighbors
 2. $2 \le B(P1) \le 6$
 3. $A(P1) = 1$
 4. Al menos uno de $P2$, $P4$ y $P8$ es blanco

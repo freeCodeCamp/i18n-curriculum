@@ -12,14 +12,14 @@ dashedName: build-the-game-of-life
 
 生命游戏是英国数学家 John Horton Conway 设计的一种细胞自动机。 这是一个 <em>零玩家游戏</em>, 意味着它的进化是由它的初始状态决定的，不需要任何进一步的操作。 生命游戏的一个启动方式是，创建一个初始配置并观察它如何演变。
 
-“生命游戏”的宇宙是一个无限的、二维的正交格点，每个格点可以处于两种状态之一，即“有生命”或“无生命”。 每个细胞与其八个相邻的细胞相互作用，相邻细胞包括水平、垂直或对角线相邻。
+“生命游戏”的宇宙是一个无限的、二维的正交格点，每个格点可以处于两种状态之一，即“有生命”或“无生命”。 Every cell interacts with its eight neighbors, which are the cells that are horizontally, vertically, or diagonally adjacent.
 
 在每个步骤中，都发生以下转换：
 
-- Any live cell with fewer than two live neighbours dies, as if by underpopulation.
-- 当前细胞为存活状态时，当周围有2个或3个存活细胞时，该细胞保持原样，进入下一代。
-- 当前细胞为存活状态时，当周围有超过3个存活细胞时，该细胞变成死亡状态。（模拟生命数量过多）
-- 当前细胞为死亡状态时，当周围有3个存活细胞时，该细胞变成存活状态。（模拟繁殖）
+- Any live cell with fewer than two live neighbors dies, as if by underpopulation.
+- Any live cell with two or three live neighbors lives on to the next generation.
+- Any live cell with more than three live neighbors dies, as if by overpopulation.
+- Any dead cell with exactly three live neighbors becomes a live cell, as if by reproduction.
 
 完成以下需求，并且通过所有测试。 如有必要，可以引入第三方库或使用第三方 API。 赋予它你的个人风格。
 

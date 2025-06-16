@@ -18,9 +18,9 @@ $$\begin{array}{rrr}   &  1 \\\\
   & 46 & \color{red}{47} & 48 & 49 & 50 & 51 & 52 & \color{red}{53} & 54 & 55 \\\\   & 56 & 57 & 58 & \color{red}{59} & 60 & \color{red}{61} & 62 & 63 & 64 & 65 & 66 \\\\
   & \cdots \end{array}$$
 
-Cada número inteiro positivo tem até oito vizinhos no triângulo.
+Each positive integer has up to eight neighbors in the triangle.
 
-Um conjunto de três números primos é chamado de trio de números primos se um dos três primos tiver outros dois números primos como vizinhos do triângulo.
+A set of three primes is called a prime triplet if one of the three primes has the other two as neighbors in the triangle.
 
 Por exemplo, na segunda linha, os números primos 2 e 3 são elementos de um trio de números primos.
 

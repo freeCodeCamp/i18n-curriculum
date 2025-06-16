@@ -18,9 +18,9 @@ $$\begin{array}{rrr}   &  1 \\\\
   & 46 & \color{red}{47} & 48 & 49 & 50 & 51 & 52 & \color{red}{53} & 54 & 55 \\\\   & 56 & 57 & 58 & \color{red}{59} & 60 & \color{red}{61} & 62 & 63 & 64 & 65 & 66 \\\\
   & \cdots \end{array}$$
 
-Ogni numero intero positivo ha fino a otto vicini nel triangolo.
+Each positive integer has up to eight neighbors in the triangle.
 
-Un insieme di tre primi è detto terna prima se uno dei tre primi ha gli altri due come vicini nel triangolo.
+A set of three primes is called a prime triplet if one of the three primes has the other two as neighbors in the triangle.
 
 Ad esempio, nella seconda fila, i numeri primi 2 e 3 sono elementi di una terna prima.
 

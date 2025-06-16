@@ -18,9 +18,9 @@ $$\begin{array}{rrr}   &  1 \\\\
   & 46 & \color{red}{47} & 48 & 49 & 50 & 51 & 52 & \color{red}{53} & 54 & 55 \\\\   & 56 & 57 & 58 & \color{red}{59} & 60 & \color{red}{61} & 62 & 63 & 64 & 65 & 66 \\\\
   & \cdots \end{array}$$
 
-Each positive integer has up to eight neighbours in the triangle.
+Each positive integer has up to eight neighbors in the triangle.
 
-A set of three primes is called a prime triplet if one of the three primes has the other two as neighbours in the triangle.
+A set of three primes is called a prime triplet if one of the three primes has the other two as neighbors in the triangle.
 
 For example, in the second row, the prime numbers 2 and 3 are elements of some prime triplet.
 

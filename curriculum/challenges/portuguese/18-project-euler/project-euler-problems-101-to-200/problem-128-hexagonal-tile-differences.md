@@ -14,7 +14,7 @@ Novos anéis são adicionados da mesma forma, com os próximos anéis sendo nume
 
 <img alt="três primeiros anéis de blocos hexagonais dispostos com números de 1 a 37 e com os blocos 8 e 17 destacados" src="https://cdn.freecodecamp.org/curriculum/project-euler/hexagonal-tile-differences.png" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
 
-Ao calcular a diferença entre o bloco $n$ e cada um de seus seis vizinhos, definiremos $PD(n)$ como o número dessas diferenças primas, que são primos.
+By finding the difference between tile $n$ and each of its six neighbors we shall define $PD(n)$ to be the number of those differences which are prime.
 
 Por exemplo, trabalhando no sentido horário em torno do bloco 8, as diferenças são 12, 29, 11, 6, 1 e 13. Portanto, $PD(8) = 3$.
 

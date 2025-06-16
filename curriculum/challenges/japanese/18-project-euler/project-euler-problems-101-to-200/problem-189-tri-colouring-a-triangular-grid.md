@@ -12,7 +12,7 @@ dashedName: problem-189-tri-colouring-a-triangular-grid
 
 <img alt="64 個の三角形を並べて作られた、辺長 8 の大きな三角形" src="https://cdn.freecodecamp.org/curriculum/project-euler/tri-colouring-a-triangular-grid-1.gif" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
 
-隣接する三角形が同じ色にならないように、それぞれの三角形の中を赤、緑、青のいずれかの色で塗ります。 このような色の塗り方を、「有効な塗り方」と呼ぶことにします。 ここでは、辺を共有している三角形を「隣接する三角形」と呼びます。 注: 頂点のみを共有している場合は「隣接する三角形」ではありません。
+We wish to colour the interior of each triangle with one of three colours: red, green or blue, so that no two neighboring triangles have the same colour. このような色の塗り方を、「有効な塗り方」と呼ぶことにします。 Here, two triangles are said to be neighboring if they share an edge. Note: if they only share a vertex, then they are not neighbors.
 
 例えば、下図は上の三角形の有効な塗り方です。
 

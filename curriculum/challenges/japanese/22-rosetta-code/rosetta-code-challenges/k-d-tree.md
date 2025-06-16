@@ -12,7 +12,7 @@ k-d ツリー (*k*-次元ツリーの略称) は、k 次元空間の点を整理
 
 # --instructions--
 
-k-d ツリーを使って最近傍探索を実行する関数を記述してください。 関数は次の 2 つのパラメータをとります。k 次元ポイントの配列と、関数が返す最近傍を求めるための単一の k 次元ポイントです。 k 次元ポイントは、k 要素の配列として与えられます。
+Write a function to perform a nearest neighbor search using k-d tree. The function takes two parameters: an array of k-dimensional points, and a single k-dimensional point whose nearest neighbor should be returned by the function. k 次元ポイントは、k 要素の配列として与えられます。
 
 # --hints--
 

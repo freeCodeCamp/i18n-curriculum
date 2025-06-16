@@ -42,20 +42,20 @@ Produce il seguente output semplificato:
 
 ## Algorithm
 
-Supponiamo che i pixel neri siano 1 e i pixel bianchi 0, e che l'immagine in ingresso sia una matrice rettangolare N x M di 1 e 0. L'algoritmo opera su tutti i pixel P1 neri che possono avere otto vicini. I vicini sono, in ordine, disposti come:
+Supponiamo che i pixel neri siano 1 e i pixel bianchi 0, e che l'immagine in ingresso sia una matrice rettangolare N x M di 1 e 0. The algorithm operates on all black pixels P1 that can have eight neighbors. The neighbors are, in order, arranged as:
 
 $$\begin{array}{|c|c|c|} \\hline P9 & P2              & P3\\\\ \\hline P8 & \boldsymbol{P1} & P4\\\\ \\hline P7 & P6              & P5\\\\ \\hline \end{array}$$
 
-Ovviamente i pixel ai margini dell'immagine non possono avere gli otto vicini.
+Obviously the boundary pixels of the image cannot have the full eight neighbors.
 
 - Define $A(P1)$ = the number of transitions from white to black, ($0 \to 1$) in the sequence P2, P3, P4, P5, P6, P7, P8, P9, P2. (Note the extra P2 at the end - it is circular).
-- Sia $B(P1)$ = il numero di pixel neri vicini a P1. ($= \\sum(P2 \ldots P9)$)
+- Define $B(P1)$ = the number of black pixel neighbors of P1. ($= \\sum(P2 \ldots P9)$)
 
 **Step 1:**
 
 Tutti i pixel sono testati e i pixel che soddisfano tutte le condizioni seguenti (contemporaneamente) sono solo annotati in questa fase.
 
-1. The pixel is black and has eight neighbours
+1. The pixel is black and has eight neighbors
 2. $2 \le B(P1) \le 6$
 3. $A(P1) = 1$
 4. At least one of $P2$, $P4$ and $P6$ is white
@@ -67,7 +67,7 @@ Dopo aver iterato sull'immagine e aver raccolto tutti i pixel che soddisfano tut
 
 Tutti i pixel sono di nuovo testati e i pixel che soddisfano tutte le condizioni seguenti sono solo annotati in questa fase.
 
-1. The pixel is black and has eight neighbours
+1. The pixel is black and has eight neighbors
 2. $2 \le B(P1) \le 6$
 3. $A(P1) = 1$
 4. Almeno uno tra $P2$, $P4$ e $P8$ è bianco

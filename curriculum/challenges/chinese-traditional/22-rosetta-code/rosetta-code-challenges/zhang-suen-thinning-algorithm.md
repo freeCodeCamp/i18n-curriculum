@@ -42,20 +42,20 @@ const testImage1 = [
 
 ## Algorithm
 
-假設黑色像素爲 1，白色像素爲 0，並且輸入圖像是一個由 1 和 0 組成的 N×M 矩形陣列。 該算法對可以有八個鄰居的所有黑色像素 P1 進行操作。 鄰居按順序排列爲：
+假設黑色像素爲 1，白色像素爲 0，並且輸入圖像是一個由 1 和 0 組成的 N×M 矩形陣列。 The algorithm operates on all black pixels P1 that can have eight neighbors. The neighbors are, in order, arranged as:
 
 $$\begin{array}{|c|c|c|} \\hline P9 & P2              & P3\\\\ \\hline P8 & \boldsymbol{P1} & P4\\\\ \\hline P7 & P6              & P5\\\\ \\hline \end{array}$$
 
-顯然，圖像的邊界像素不可能有完整的八個鄰域。
+Obviously the boundary pixels of the image cannot have the full eight neighbors.
 
 - Define $A(P1)$ = the number of transitions from white to black, ($0 \to 1$) in the sequence P2, P3, P4, P5, P6, P7, P8, P9, P2. (Note the extra P2 at the end - it is circular).
-- 定義 $B(P1)$ = P1 的黑色像素鄰居的數量。 ($= \\sum(P2 \ldots P9)$)
+- Define $B(P1)$ = the number of black pixel neighbors of P1. ($= \\sum(P2 \ldots P9)$)
 
 **步驟 1：**
 
 測試所有像素，並且在此階段僅記錄滿足以下所有條件（同時）的像素。
 
-1. The pixel is black and has eight neighbours
+1. The pixel is black and has eight neighbors
 2. $2 \le B(P1) \le 6$
 3. $A(P1) = 1$
 4. At least one of $P2$, $P4$ and $P6$ is white
@@ -67,7 +67,7 @@ $$\begin{array}{|c|c|c|} \\hline P9 & P2              & P3\\\\ \\hline P8 & \bol
 
 再次測試所有像素，並在此階段僅記錄滿足以下所有條件的像素。
 
-1. The pixel is black and has eight neighbours
+1. The pixel is black and has eight neighbors
 2. $2 \le B(P1) \le 6$
 3. $A(P1) = 1$
 4. $P2$、$P4$ 和 $P8$ 中的至少一個是白色的

@@ -18,9 +18,9 @@ $$\begin{array}{rrr}   &  1 \\\\
   & 46 & \color{red}{47} & 48 & 49 & 50 & 51 & 52 & \color{red}{53} & 54 & 55 \\\\   & 56 & 57 & 58 & \color{red}{59} & 60 & \color{red}{61} & 62 & 63 & 64 & 65 & 66 \\\\
   & \cdots \end{array}$$
 
-Кожне натуральне число в трикутнику має до восьми сусідів.
+Each positive integer has up to eight neighbors in the triangle.
 
-Множина з трьох простих чисел називається простою трійкою, якщо два числа в трикутнику є сусідами третього.
+A set of three primes is called a prime triplet if one of the three primes has the other two as neighbors in the triangle.
 
 Наприклад, у другому ряді прості числа 2 і 3 є елементами простої трійки.
 

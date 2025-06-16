@@ -42,20 +42,20 @@ const testImage1 = [
 
 ## アルゴリズム
 
-黒のピクセルを 1、白のピクセルを 0 とし、入力画像は 1 と 0 の N×M の長方形配列とします。 このアルゴリズムは、8つの近傍を持つ黒のピクセル P1 全体に処理を行います。 近傍は以下のように並んでいます:
+黒のピクセルを 1、白のピクセルを 0 とし、入力画像は 1 と 0 の N×M の長方形配列とします。 The algorithm operates on all black pixels P1 that can have eight neighbors. The neighbors are, in order, arranged as:
 
 $$\begin{array}{|c|c|c|} \\hline P9 & P2              & P3\\\\ \\hline P8 & \boldsymbol{P1} & P4\\\\ \\hline P7 & P6              & P5\\\\ \\hline \end{array}$$
 
-当然、画像の境界ピクセルは 8 つすべての近傍を持つことはできません。
+Obviously the boundary pixels of the image cannot have the full eight neighbors.
 
 - 数列 P2, P3, P4, P5, P6, P7, P8, P9, P2 において、$A(P1)$ = 白から黒 ($0 \to 1$) になっている場所の数として定義します。 (最後に追加の P2 が来て、環状になります)
-- $B(P1)$ = P1 の近傍の黒のピクセル数として定義します。 ($= \\sum(P2 \ldots P9)$)
+- Define $B(P1)$ = the number of black pixel neighbors of P1. ($= \\sum(P2 \ldots P9)$)
 
 **ステップ 1:**
 
 すべてのピクセルをテストし、この段階では次のすべての条件を (同時に) 満たすピクセルに注目します。
 
-1. ピクセルは黒で 8 つの近傍を持ちます
+1. The pixel is black and has eight neighbors
 2. $2 \le B(P1) \le 6$
 3. $A(P1) = 1$
 4. $P2$、$P4$、$P6$ のうち、少なくとも 1 つは白です
@@ -67,7 +67,7 @@ $$\begin{array}{|c|c|c|} \\hline P9 & P2              & P3\\\\ \\hline P8 & \bol
 
 すべてのピクセルを再度テストし、この段階では次のすべての条件を満たすピクセルに注目します。
 
-1. ピクセルは黒で 8 つの近傍を持ちます
+1. The pixel is black and has eight neighbors
 2. $2 \le B(P1) \le 6$
 3. $A(P1) = 1$
 4. $P2$、$P4$、$P8$ のうち、少なくとも1つは白です

@@ -12,9 +12,9 @@ dashedName: problem-227-the-chase
 
 球员坐在桌子旁;游戏开始于两个相对的玩家，每个玩家有一个骰子。 在每个回合中，两个玩家都会掷骰子。
 
-If the player rolls a 1, he passes the die to his neighbour on the left.
+If the player rolls a 1, he passes the die to his neighbor on the left.
 
-If the player rolls a 6, he passes the die to his neighbour on the right.
+If the player rolls a 6, he passes the die to his neighbor on the right.
 
 Otherwise, he keeps the die for the next turn.
 

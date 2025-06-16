@@ -12,9 +12,9 @@ dashedName: problem-227-the-chase
 
 I giocatori si siedono intorno a un tavolo; il gioco inizia con due giocatori opposti che hanno un dado ciascuno. A ogni turno, i due giocatori con un dado lanciano.
 
-Se il giocatore lancia un 1, passa il dado al suo vicino a sinistra.
+If the player rolls a 1, he passes the die to his neighbor on the left.
 
-Se il giocatore lancia un 6, passa il dado al suo vicino sulla destra.
+If the player rolls a 6, he passes the die to his neighbor on the right.
 
 Altrimenti, mantiene il dado per il prossimo turno.
 

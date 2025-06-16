@@ -18,9 +18,9 @@ $$\begin{array}{rrr}   &  1 \\\\
   & 46 & \color{red}{47} & 48 & 49 & 50 & 51 & 52 & \color{red}{53} & 54 & 55 \\\\   & 56 & 57 & 58 & \color{red}{59} & 60 & \color{red}{61} & 62 & 63 & 64 & 65 & 66 \\\\
   & \cdots \end{array}$$
 
-Cada entero positivo tiene hasta ocho vecinos en el triángulo.
+Each positive integer has up to eight neighbors in the triangle.
 
-Un conjunto de tres primos se llama triplete si uno de los tres primos tiene los otros dos como vecinos en el triángulo.
+A set of three primes is called a prime triplet if one of the three primes has the other two as neighbors in the triangle.
 
 Por ejemplo, en la segunda fila, los números primos 2 y 3 son elementos de algún triplete primo.
 

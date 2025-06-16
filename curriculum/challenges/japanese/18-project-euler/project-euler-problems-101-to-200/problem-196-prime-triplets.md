@@ -18,9 +18,9 @@ $$\begin{array}{rrr}   &  1 \\\\
   & 46 & \color{red}{47} & 48 & 49 & 50 & 51 & 52 & \color{red}{53} & 54 & 55 \\\\   & 56 & 57 & 58 & \color{red}{59} & 60 & \color{red}{61} & 62 & 63 & 64 & 65 & 66 \\\\
   & \cdots \end{array}$$
 
-それぞれの正の整数は、三角形の中で最大 8 つの整数と隣接しています。
+Each positive integer has up to eight neighbors in the triangle.
 
-3 つの素数のいずれかが他の 2 つと三角形の中で隣接する場合、その 3 つの素数の組は三つ子素数と呼ばれます。
+A set of three primes is called a prime triplet if one of the three primes has the other two as neighbors in the triangle.
 
 例えば、2 行目では 素数 2 と 3 が三つ子素数の要素です。
 

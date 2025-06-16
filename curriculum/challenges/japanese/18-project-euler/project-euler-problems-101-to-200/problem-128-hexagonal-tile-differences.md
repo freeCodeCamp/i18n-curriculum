@@ -14,7 +14,7 @@ dashedName: problem-128-hexagonal-tile-differences
 
 <img alt="1 ～ 37 番の六角形タイルを並べて作られた最初の 3 つの輪。タイル 8 番と 17 番は色付き" src="https://cdn.freecodecamp.org/curriculum/project-euler/hexagonal-tile-differences.png" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
 
-タイル $n$ 番と、それに隣接する 6 枚の各タイルとの差を求め、差が素数となるタイルの枚数を $PD(n) とします。
+By finding the difference between tile $n$ and each of its six neighbors we shall define $PD(n)$ to be the number of those differences which are prime.
 
 例えば、タイル 8 番の周りを時計回りに差を求めると、12, 29, 11, 6, 1, 13 となります。 したがって、$PD(8) = 3$ です。
 

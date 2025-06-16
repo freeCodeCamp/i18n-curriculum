@@ -12,7 +12,7 @@ Consider the following configuration of 64 triangles:
 
 <img alt="由64個小三角形組成的邊長爲8個小三角形的大三角形" src="https://cdn.freecodecamp.org/curriculum/project-euler/tri-colouring-a-triangular-grid-1.gif" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
 
-使用三種不同的顏色爲每個三角形進行着色，例如：紅綠藍，使得相鄰的三角形着不同的顏色。 這樣的着色稱之爲有效着色。 如果兩個三角形共享同一條邊，則稱它們爲相鄰的三角形。 注意：如果它們只共享一個頂點，那麼它們不相鄰。
+We wish to colour the interior of each triangle with one of three colours: red, green or blue, so that no two neighboring triangles have the same colour. 這樣的着色稱之爲有效着色。 Here, two triangles are said to be neighboring if they share an edge. Note: if they only share a vertex, then they are not neighbors.
 
 例如，以下是上面網格的有效着色：
 

@@ -14,7 +14,7 @@ Neue Ringe werden auf die gleiche Weise hinzugefügt, wobei die nächsten Ringe 
 
 <img alt="drei erste Ringe aus angeordneten sechseckigen Steinen mit den Nummern 1 bis 37 und den hervorgehobenen Steinen 8 und 17" src="https://cdn.freecodecamp.org/curriculum/project-euler/hexagonal-tile-differences.png" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
 
-Indem wir die Differenz zwischen dem Stein $n$ und jedem seiner sechs Nachbarn ermitteln, definieren wir $PD(n)$ als die Anzahl der Differenzen, die Primzahlen sind.
+By finding the difference between tile $n$ and each of its six neighbors we shall define $PD(n)$ to be the number of those differences which are prime.
 
 Wenn man zum Beispiel im Uhrzeigersinn um den Stein 8 herum arbeitet, sind die Unterschiede 12, 29, 11, 6, 1 und 13. Somit ist $PD(8) = 3$.
 

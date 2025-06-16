@@ -12,9 +12,9 @@ dashedName: problem-227-the-chase
 
 Die Spieler sitzen an einem Tisch – das Spiel beginnt mit zwei gegenübersitzenden Spielern, die jeweils einen Würfel haben. In jedem Zug würfeln die beiden Spieler mit einem Würfel.
 
-Wirft der Spieler eine 1, gibt er den Würfel an seinen Nachbarn auf der linken Seite weiter.
+If the player rolls a 1, he passes the die to his neighbor on the left.
 
-Wirft der Spieler eine 6, gibt er den Würfel an seinen Nachbarn auf der rechten Seite weiter.
+If the player rolls a 6, he passes the die to his neighbor on the right.
 
 Ansonsten behält er den Würfel bis zum nächsten Zug.
 

@@ -12,14 +12,14 @@ dashedName: build-the-game-of-life
 
 Il Gioco della Vita è un automaton cellulare creato dal matematico inglese John Horton Conway. È un <em>gioco a zero-giocatori</em>, cioè la sua evoluzione è determinata dal suo stato iniziale, senza richiedere input ulteriori. Si interagisce con il Gioco della Vita creando una configurazione iniziale e osservando come evolve.
 
-L'universo del Gioco della Vita è una griglia infinita bidimensionale ortogonale di celle quadrate, ognuna con due stati possibili: popolato e non-popolato. Ogni cella interagisce con i suoi otto vicini, che sono le celle che sono adiacenti in orizzontale, verticale o diagonale.
+L'universo del Gioco della Vita è una griglia infinita bidimensionale ortogonale di celle quadrate, ognuna con due stati possibili: popolato e non-popolato. Every cell interacts with its eight neighbors, which are the cells that are horizontally, vertically, or diagonally adjacent.
 
 A ogni step nel tempo, avviene la seguente transizione:
 
-- Any live cell with fewer than two live neighbours dies, as if by underpopulation.
-- Ogni cella viva con due o tre vicine vive, vive fino alla generazione successiva.
-- Ogni cella viva con più di tre celle vive vicine muore, per sovrappopolazione.
-- Qualsiasi cella morta con esattamente tre vicini vivi diventa una cella viva, come per riproduzione.
+- Any live cell with fewer than two live neighbors dies, as if by underpopulation.
+- Any live cell with two or three live neighbors lives on to the next generation.
+- Any live cell with more than three live neighbors dies, as if by overpopulation.
+- Any dead cell with exactly three live neighbors becomes a live cell, as if by reproduction.
 
 Soddisfa le user story qui sotto e supera tutti i test. Utilizza le librerie o le API di cui hai bisogno. Usa il tuo stile personale.
 
