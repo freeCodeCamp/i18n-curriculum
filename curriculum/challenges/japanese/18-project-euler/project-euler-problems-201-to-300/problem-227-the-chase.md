@@ -12,9 +12,9 @@ dashedName: problem-227-the-chase
 
 プレイヤーはテーブルの周りに座ります。ゲームの開始時、互いに対面に座っている 2 人がサイコロを 1 つずつ持っています。 それぞれのターンで、サイコロを持っている 2 人がそれを振ります。
 
-1 の目が出たら、左隣の人にサイコロを渡します。
+If the player rolls a 1, he passes the die to his neighbor on the left.
 
-6 の目が出たら、右隣の人にサイコロを渡します。
+If the player rolls a 6, he passes the die to his neighbor on the right.
 
 それ以外の場合、次のターンまでサイコロをそのまま持っています。
 

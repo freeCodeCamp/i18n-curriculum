@@ -1,6 +1,6 @@
 ---
 id: 5900f40c1000cf542c50ff1e
-title: '問題159：因子的數字根和'
+title: 'Problem 159: Digital root sums of factorizations'
 challengeType: 1
 forumTopicId: 301790
 dashedName: problem-159-digital-root-sums-of-factorisations
@@ -21,7 +21,7 @@ $$\begin{align}   & 24 = 2 \times 2 \times 2 \times 3\\\\
 
 We shall call a Digital Root Sum (DRS) the sum of the digital roots of the individual factors of our number. 下面的圖表展示了24的所有DRS值。
 
-| Factorisation | 數字根和 |
+| Factorization | 數字根和 |
 | ------------- | ---- |
 | 2x2x2x3       | 9    |
 | 2x3x4         | 9    |

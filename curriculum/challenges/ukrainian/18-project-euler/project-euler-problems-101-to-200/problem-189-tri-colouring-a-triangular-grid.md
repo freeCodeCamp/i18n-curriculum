@@ -12,7 +12,7 @@ dashedName: problem-189-tri-colouring-a-triangular-grid
 
 <img alt="64 трикутники, розміщені таким чином, що утворюють більший трикутник зі сторонами довжиною у 8 трикутників" src="https://cdn.freecodecamp.org/curriculum/project-euler/tri-colouring-a-triangular-grid-1.gif" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
 
-Ми хочемо заповнити внутрішню область кожного трикутника одним із трьох кольорів (червоним, зеленим чи синім) таким чином, щоб жодні два сусідні трикутники не були однакового кольору. Таке забарвлення вважається допустимим. Два трикутники вважаються сусідніми, якщо вони мають спільне ребро. Примітка: якщо вони мають лише спільну вершину, вони не сусідні.
+We wish to colour the interior of each triangle with one of three colours: red, green or blue, so that no two neighboring triangles have the same colour. Таке забарвлення вважається допустимим. Here, two triangles are said to be neighboring if they share an edge. Note: if they only share a vertex, then they are not neighbors.
 
 Наприклад, ось допустиме забарвлення наведеної вище розмітки:
 

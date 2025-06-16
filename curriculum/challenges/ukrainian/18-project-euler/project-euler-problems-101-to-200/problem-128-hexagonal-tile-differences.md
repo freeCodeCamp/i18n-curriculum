@@ -14,7 +14,7 @@ dashedName: problem-128-hexagonal-tile-differences
 
 <img alt="перші три кільця упорядкованих шестикутних плиток з числами від 1 до 37 і з виділеними плитками 8 та 17" src="https://cdn.freecodecamp.org/curriculum/project-euler/hexagonal-tile-differences.png" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
 
-Знайшовши різницю між плиткою $n$ та кожним із її шести сусідів, визначимо $PD(n)$ як кількість різниць, які є простими числами.
+By finding the difference between tile $n$ and each of its six neighbors we shall define $PD(n)$ to be the number of those differences which are prime.
 
 Наприклад, працюючи за годинниковою стрілкою навколо клітинки 8, різницями є 12, 29, 11, 6, 1 та 13. Отже, $PD(8) = 3$.
 

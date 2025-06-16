@@ -12,7 +12,7 @@ Betrachte die folgende Konfiguration von 64 Dreiecken:
 
 <img alt="64 Dreiecke, die so angeordnet sind, dass sie ein größeres Dreieck mit einer Seitenlänge von 8 Dreiecken bilden" src="https://cdn.freecodecamp.org/curriculum/project-euler/tri-colouring-a-triangular-grid-1.gif" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
 
-Wir möchten das Innere jedes Dreiecks mit einer von drei Farben einfärben: rot, grün oder blau, sodass keine zwei benachbarten Dreiecke die gleiche Farbe haben. Eine solche Einfärbung wird als gültig bezeichnet. Dabei gelten zwei Dreiecke als benachbart, wenn sie eine gemeinsame Kante haben. Hinweis: Wenn sie nur einen Scheitelpunkt gemeinsam haben, sind sie nicht benachbart.
+We wish to colour the interior of each triangle with one of three colours: red, green or blue, so that no two neighboring triangles have the same colour. Eine solche Einfärbung wird als gültig bezeichnet. Here, two triangles are said to be neighboring if they share an edge. Note: if they only share a vertex, then they are not neighbors.
 
 Hier ist zum Beispiel eine gültige Färbung des obigen Gitters:
 

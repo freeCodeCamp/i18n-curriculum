@@ -14,7 +14,7 @@ Nuovi anelli sono aggiungi nello stesso modo, con i nuovi anelli numerati da 8 a
 
 <img alt="i primi tre anelli delle mattonelle esagonali ordinate con numeri da 1 a 37 e con evidenziate le mattonelle 8 e 17" src="https://cdn.freecodecamp.org/curriculum/project-euler/hexagonal-tile-differences.png" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
 
-Trovando la differenza tra la mattonella $n$ e ognuna delle sei mattonelle vicine, definiamo $PD(n)$ come il numero delle differenze che sono numeri primi.
+By finding the difference between tile $n$ and each of its six neighbors we shall define $PD(n)$ to be the number of those differences which are prime.
 
 Per esempio, lavorando in senso orario attorno alla mattonella 8 le differenze sono 12, 29, 11, 6, 1 e 13. Quindi $PD(8) = 3$.
 

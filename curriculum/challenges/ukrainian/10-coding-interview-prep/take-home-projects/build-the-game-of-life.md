@@ -12,14 +12,14 @@ dashedName: build-the-game-of-life
 
 Гра життя — це клітинний автомат, розроблений британським математиком Джоном Хортоном Конвеєм. Це <em>гра з нульовим гравцем</em>, тобто її розвиток визначається початковим станом та не потребує подальших вводів. Людина взаємодіє з грою, створюючи початкову конфігурацію та спостерігаючи за розвитком.
 
-Всесвіт гри — це нескінченна двовимірна ортогональна сітка квадратних клітинок, кожна з яких перебуває в одному з двох можливих станів: заселеному та незаселеному. Кожна клітинка взаємодіє зі своїми вісьмома сусідами, які є клітинками, розташованими по горизонталі, вертикалі або діагоналі.
+Всесвіт гри — це нескінченна двовимірна ортогональна сітка квадратних клітинок, кожна з яких перебуває в одному з двох можливих станів: заселеному та незаселеному. Every cell interacts with its eight neighbors, which are the cells that are horizontally, vertically, or diagonally adjacent.
 
 На кожному кроці в часі відбуваються такі переходи:
 
-- Any live cell with fewer than two live neighbours dies, as if by underpopulation.
-- Будь-яка жива клітинка з двома чи трьома живими сусідами живе до наступного покоління.
-- Будь-яка жива клітинка з більше ніж трьома живими сусідами гине від перенаселення.
-- Будь-яка мертва клітинка з трьома живими сусідами стає живою клітинкою шляхом репродукції.
+- Any live cell with fewer than two live neighbors dies, as if by underpopulation.
+- Any live cell with two or three live neighbors lives on to the next generation.
+- Any live cell with more than three live neighbors dies, as if by overpopulation.
+- Any dead cell with exactly three live neighbors becomes a live cell, as if by reproduction.
 
 Виконайте історію користувача та пройдіть тести. Використовуйте необхідні вам бібліотеки або API. Оформте за власним стилем.
 

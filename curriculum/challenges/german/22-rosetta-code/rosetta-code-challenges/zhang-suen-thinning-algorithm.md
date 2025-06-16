@@ -42,20 +42,20 @@ Es erzeugt die verdünnte Ausgabe:
 
 ## Algorithm
 
-Nehmen wir an, dass schwarze Pixel eine Eins und weiße Pixel eine Null sind, und dass das Eingabebild eine rechteckige N x M-Matrix aus Einsen und Nullen ist. Der Algorithmus arbeitet mit allen schwarzen Pixeln P1, die acht Nachbarn haben können. Die Nachbarn sind der Reihe nach wie folgt angeordnet:
+Nehmen wir an, dass schwarze Pixel eine Eins und weiße Pixel eine Null sind, und dass das Eingabebild eine rechteckige N x M-Matrix aus Einsen und Nullen ist. The algorithm operates on all black pixels P1 that can have eight neighbors. The neighbors are, in order, arranged as:
 
 $$\begin{array}{|c|c|c|} \\hline P9 & P2              & P3\\\\ \\hline P8 & \boldsymbol{P1} & P4\\\\ \\hline P7 & P6              & P5\\\\ \\hline \end{array}$$
 
-Es ist offensichtlich, dass die Randpixel des Bildes nicht alle acht Nachbarn haben können.
+Obviously the boundary pixels of the image cannot have the full eight neighbors.
 
 - Definiere $A(P1)$ = die Anzahl der Übergänge von Weiß nach Schwarz ($0 \to 1$) in der Folge P2, P3, P4, P5, P6, P7, P8, P9, P2. (Beachte das zusätzliche P2 am Ende - es ist kreisförmig).
-- Definiere $B(P1)$ = die Anzahl der schwarzen Pixel-Nachbarn von P1. ($= \\sum(P2 \ldots P9)$)
+- Define $B(P1)$ = the number of black pixel neighbors of P1. ($= \\sum(P2 \ldots P9)$)
 
 **Schritt 1:**
 
 Alle Pixel werden getestet, und Pixel, die alle folgenden Bedingungen (gleichzeitig) erfüllen, werden in diesem Stadium lediglich vermerkt.
 
-1. Das Pixel ist schwarz und hat acht Nachbarn
+1. The pixel is black and has eight neighbors
 2. $2 \le B(P1) \le 6$
 3. $A(P1) = 1$
 4. Mindestens eines von $P2$, $P4$ und $P6$ ist weiß
@@ -67,7 +67,7 @@ Nach der Iteration über das Bild und dem Sammeln aller Pixel, die alle Bedingun
 
 Alle Pixel werden erneut getestet, und Pixel, die alle folgenden Bedingungen erfüllen, werden in diesem Stadium einfach vermerkt.
 
-1. Das Pixel ist schwarz und hat acht Nachbarn
+1. The pixel is black and has eight neighbors
 2. $2 \le B(P1) \le 6$
 3. $A(P1) = 1$
 4. Mindestens eines von $P2$, $P4$ und $P8$ ist weiß

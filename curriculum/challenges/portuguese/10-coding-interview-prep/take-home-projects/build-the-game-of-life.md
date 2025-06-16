@@ -12,14 +12,14 @@ dashedName: build-the-game-of-life
 
 O Jogo da Vida é um autômato celular concebido pelo matemático britânico John Horton Conway. É um <em>jogo sem jogadores</em>, o que significa que sua evolução é determinada pelo seu estado inicial, não exigindo mais nenhuma entrada. Uma pessoa interage com o Jogo da Vida criando uma configuração inicial e observando como ela evolui.
 
-O universo do Jogo da Vida é uma grade infinita e bidimensional ortogonal de células quadradas. Cada uma dessas células se encontra em um de dois estados possíveis, preenchida ou não preechida. Toda célula interage com seus oito vizinhos, que são as células que estão horizontalmente, verticalmente ou diagonalmente adjacentes.
+O universo do Jogo da Vida é uma grade infinita e bidimensional ortogonal de células quadradas. Cada uma dessas células se encontra em um de dois estados possíveis, preenchida ou não preechida. Every cell interacts with its eight neighbors, which are the cells that are horizontally, vertically, or diagonally adjacent.
 
 Em cada etapa no tempo, ocorrem as seguintes transições:
 
-- Any live cell with fewer than two live neighbours dies, as if by underpopulation.
-- Qualquer célula viva com dois ou três vizinhos vivos sobrevive para a próxima geração.
-- Qualquer célula viva com mais de três vizinhos vivos morre, como se fosse uma superpopulação.
-- Qualquer célula morta com exatamente três vizinhos vivos torna-se uma célula viva, como se fosse uma reprodução.
+- Any live cell with fewer than two live neighbors dies, as if by underpopulation.
+- Any live cell with two or three live neighbors lives on to the next generation.
+- Any live cell with more than three live neighbors dies, as if by overpopulation.
+- Any dead cell with exactly three live neighbors becomes a live cell, as if by reproduction.
 
 Atenda às histórias de usuário abaixo e faça com que todos os testes passem. Use quaisquer bibliotecas ou APIs de que você precisar. Dê ao projeto o seu próprio estilo pessoal.
 

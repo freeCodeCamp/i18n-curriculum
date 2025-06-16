@@ -42,20 +42,20 @@ Ele produz a saída fina:
 
 ## Algoritmo
 
-Suponha que os pixels pretos são um e os pixels brancos são zeros. Leve em conta também que a imagem de entrada é um array retangular, de N por M, de uns e zeros. O algoritmo opera em todos os pixels pretos P1 que podem ter oito vizinhos. Os vizinhos estão, por ordem, organizados como:
+Suponha que os pixels pretos são um e os pixels brancos são zeros. Leve em conta também que a imagem de entrada é um array retangular, de N por M, de uns e zeros. The algorithm operates on all black pixels P1 that can have eight neighbors. The neighbors are, in order, arranged as:
 
 $$\begin{array}{|c|c|c|} \\hline P9 & P2              & P3\\\\ \\hline P8 & \boldsymbol{P1} & P4\\\\ \\hline P7 & P6              & P5\\\\ \\hline \end{array}$$
 
-Obviamente que os pixels da borda da imagem não podem ter todos os oito vizinhos.
+Obviously the boundary pixels of the image cannot have the full eight neighbors.
 
 - Defina $A(P1)$ = o número de transições de branco para preto, ($0 \to 1$) na sequência P2, P3, P4, P5, P6, P7, P8, P9, P2. (Observe o P2 adicional no final - é circular).
-- Defina $B(P1)$ = o número de vizinhos de P1 que são pixels pretos. ($= \\sum(P2 \ldots P9)$)
+- Define $B(P1)$ = the number of black pixel neighbors of P1. ($= \\sum(P2 \ldots P9)$)
 
 **Passo 1:**
 
 Todos os pixels são testados e pixels satisfazendo todas as seguintes condições (simultaneamente) são apenas anotados nesta fase.
 
-1. O pixel é preto e tem oito vizinhos
+1. The pixel is black and has eight neighbors
 2. $2 \le B(P1) \le 6$
 3. $A(P1) = 1$
 4. Pelo menos um dos pixels, entre $P2$, $P4$ e $P6$, é branco
@@ -67,7 +67,7 @@ Depois de iterar sobre a imagem e coletar todos os pixels satisfazendo todas as 
 
 Todos os pixels são testados novamente e pixels satisfazendo todas as seguintes condições (simultaneamente) são apenas anotados nesta fase.
 
-1. O pixel é preto e tem oito vizinhos
+1. The pixel is black and has eight neighbors
 2. $2 \le B(P1) \le 6$
 3. $A(P1) = 1$
 4. Pelo menos um dos pixels, entre $P2$, $P4$ e $P8$, é branco

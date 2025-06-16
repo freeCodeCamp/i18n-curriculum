@@ -12,9 +12,9 @@ dashedName: problem-227-the-chase
 
 Гравці сидять за столом; гра починається з того, що два гравці навпроти один одного отримують по гральному кубику. За кожен хід два гравці кидають кубики.
 
-Якщо гравцю випаде 1, він передає кубик сусіду зліва.
+If the player rolls a 1, he passes the die to his neighbor on the left.
 
-Якщо гравцю випаде 6, він передає кубик сусіду справа.
+If the player rolls a 6, he passes the die to his neighbor on the right.
 
 За інших умов гравець тримає кубик до наступного ходу.
 

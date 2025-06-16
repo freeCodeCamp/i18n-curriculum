@@ -1,6 +1,6 @@
 ---
 id: 5900f40c1000cf542c50ff1e
-title: 'Problema 159: Somas das raízes dos algarismos de fatorações'
+title: 'Problem 159: Digital root sums of factorizations'
 challengeType: 1
 forumTopicId: 301790
 dashedName: problem-159-digital-root-sums-of-factorisations
@@ -21,15 +21,15 @@ Lembre-se de que a raiz de algarismos de um número, na base 10, é encontrada a
 
 Vamos chamar a um soma da raiz dos algarismos (DRS) a soma das raízes dos algarismos dos fatores individuais do nosso número. A tabela abaixo demonstra todos os valores de DRS para 24.
 
-| Fatoração | Soma da raiz dos algarismos |
-| --------- | --------------------------- |
-| 2x2x2x3   | 9                           |
-| 2x3x4     | 9                           |
-| 2x2x6     | 10                          |
-| 4x6       | 10                          |
-| 3x8       | 11                          |
-| 2x12      | 5                           |
-| 24        | 6                           |
+| Factorization | Soma da raiz dos algarismos |
+| ------------- | --------------------------- |
+| 2x2x2x3       | 9                           |
+| 2x3x4         | 9                           |
+| 2x2x6         | 10                          |
+| 4x6           | 10                          |
+| 3x8           | 11                          |
+| 2x12          | 5                           |
+| 24            | 6                           |
 
 A soma da raiz dos algarismos máxima de 24 é 11. A função $mdrs(n)$ fornece a soma da raiz dos algarismos máxima de $n$. Portanto, $mdrs(24) = 11$.
 

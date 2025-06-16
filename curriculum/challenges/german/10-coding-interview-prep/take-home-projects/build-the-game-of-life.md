@@ -12,14 +12,14 @@ dashedName: build-the-game-of-life
 
 Das Spiel des Lebens ist ein zellulärer Automat, der vom britischen Mathematiker John Horton Conway entwickelt wurde. Es ist ein <em>zero-player game</em>, was bedeutet, dass seine Entwicklung durch seinen Anfangszustand bestimmt wird, ohne dass weitere Eingaben erforderlich sind. Man interagiert mit dem Spiel des Lebens, indem man eine erste Konfiguration erstellt und beobachtet, wie sich diese entwickelt.
 
-Das Universum des Spiels des Lebens ist ein unendliches, zweidimensionales orthogonales Raster quadratischer Zellen, bei dem sich jede von ihnen in einem von zwei möglichen Zuständen, bevölkert und unbevölkert, befindet. Jede Zelle interagiert mit ihren acht Nachbarn, den horizontalen, vertikalen oder diagonalen Zellen.
+Das Universum des Spiels des Lebens ist ein unendliches, zweidimensionales orthogonales Raster quadratischer Zellen, bei dem sich jede von ihnen in einem von zwei möglichen Zuständen, bevölkert und unbevölkert, befindet. Every cell interacts with its eight neighbors, which are the cells that are horizontally, vertically, or diagonally adjacent.
 
 Bei jedem Schritt finden folgende Übergänge statt:
 
-- Any live cell with fewer than two live neighbours dies, as if by underpopulation.
-- Jede lebende Zelle mit zwei oder drei lebenden Nachbarn lebt bis zur nächsten Generation.
-- Jede lebende Zelle mit mehr als drei lebenden Nachbarn stirbt durch Überbevölkerung.
-- Jede tote Zelle mit genau drei lebenden Nachbarn wird zu einer lebendigen Zelle durch Reproduktion.
+- Any live cell with fewer than two live neighbors dies, as if by underpopulation.
+- Any live cell with two or three live neighbors lives on to the next generation.
+- Any live cell with more than three live neighbors dies, as if by overpopulation.
+- Any dead cell with exactly three live neighbors becomes a live cell, as if by reproduction.
 
 Erfülle die folgenden User Stories und bestehe alle Tests. Verwende Bibliotheken und APIs deiner Wahl. Gib dem Ganzen deinen persönlichen Stil.
 

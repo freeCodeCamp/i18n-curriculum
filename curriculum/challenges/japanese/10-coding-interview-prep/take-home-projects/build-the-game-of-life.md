@@ -12,14 +12,14 @@ dashedName: build-the-game-of-life
 
 「ライフゲーム (Game of Life)」は、イギリスの数学者ジョン・ホートン・コンウェイが考案したセルオートマトンです。 これは<em>プレイヤーのいないゲーム</em>です。つまり、その進化は初期状態によって決定され、それ以上の入力は必要ありません。 初期構成を作成して、それがどのように進化するかを眺めるのが、このライフゲームの楽しみ方です。
 
-ライフゲームを構成する宇宙は、四角いセルからなる無限の二次元の直交格子で、それぞれのセルは「生」か「死」の 2 つの状態のいずれかになることができます。 すべてのセルは、縦、横、または斜めに隣接する 8 つのセルと互いに作用します。
+ライフゲームを構成する宇宙は、四角いセルからなる無限の二次元の直交格子で、それぞれのセルは「生」か「死」の 2 つの状態のいずれかになることができます。 Every cell interacts with its eight neighbors, which are the cells that are horizontally, vertically, or diagonally adjacent.
 
 各ステップ時間で、次の遷移が起こります:
 
-- 生きたセルのうち、隣接する生きたセルの数が 2 つ未満になったものはすべて、人口過疎が原因であるかのように死んでしまいます。
-- 生きたセルのうち、隣接する生きたセルの数が 2 つまたは 3 つになったものはすべて、次の世代まで生き続けます。
-- 生きたセルのうち、隣接する生きたセルの数が 3 つを超えたものはすべて、人口過密が原因であるかのように死んでしまいます。
-- 死んだセルのうち、隣接する生きたセルの数がちょうど 3 つになったものはすべて、生殖が原因であるかのように、生きたセルになります。
+- Any live cell with fewer than two live neighbors dies, as if by underpopulation.
+- Any live cell with two or three live neighbors lives on to the next generation.
+- Any live cell with more than three live neighbors dies, as if by overpopulation.
+- Any dead cell with exactly three live neighbors becomes a live cell, as if by reproduction.
 
 以下のユーザーストーリーを満たし、すべてのテストが成功するようにしてください。 必要に応じて、どのようなライブラリあるいは API を使用してもかまいません。 あなた独自のアレンジを加えましょう。
 

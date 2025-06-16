@@ -18,9 +18,9 @@ $$\begin{array}{rrr}   &  1 \\\\
   & 46 & \color{red}{47} & 48 & 49 & 50 & 51 & 52 & \color{red}{53} & 54 & 55 \\\\   & 56 & 57 & 58 & \color{red}{59} & 60 & \color{red}{61} & 62 & 63 & 64 & 65 & 66 \\\\
   & \cdots \end{array}$$
 
-每個正整數在三角形中最多有八個鄰居。
+Each positive integer has up to eight neighbors in the triangle.
 
-如果三個素數中的一個具有另外兩個作爲三角形中的鄰居，則一組三個素數被稱爲素數三元組。
+A set of three primes is called a prime triplet if one of the three primes has the other two as neighbors in the triangle.
 
 例如，在第二行中，素數2和3是某些素數三元組的元素。
 

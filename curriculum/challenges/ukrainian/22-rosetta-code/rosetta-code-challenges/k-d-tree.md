@@ -12,7 +12,7 @@ dashedName: k-d-tree
 
 # --instructions--
 
-Напишіть функцію, щоб виконати пошук найближчого сусіда за допомогою k-вимірного дерева. Функція приймає два параметри: масив k-вимірних точок і одну k-вимірну точку, найближчого сусіда якої має повернути функція. K-вимірна точка буде надана як масив з k елементів.
+Write a function to perform a nearest neighbor search using k-d tree. The function takes two parameters: an array of k-dimensional points, and a single k-dimensional point whose nearest neighbor should be returned by the function. K-вимірна точка буде надана як масив з k елементів.
 
 # --hints--
 

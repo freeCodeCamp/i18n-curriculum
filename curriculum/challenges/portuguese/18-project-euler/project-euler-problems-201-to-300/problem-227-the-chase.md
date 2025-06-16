@@ -12,9 +12,9 @@ dashedName: problem-227-the-chase
 
 Os jogadores sentam-se ao redor de uma mesa. O jogo começa com dois jogadores opostos tendo um dado cada. A cada turno, os dois jogadores que têm o dado o rolam.
 
-Se o jogador rolar um 1, ele passa o dado ao vizinho à esquerda.
+If the player rolls a 1, he passes the die to his neighbor on the left.
 
-Se o jogador rolar um 6, ele passa o dado ao vizinho à direita.
+If the player rolls a 6, he passes the die to his neighbor on the right.
 
 Caso contrário, ele mantém o dado no próximo turno.
 

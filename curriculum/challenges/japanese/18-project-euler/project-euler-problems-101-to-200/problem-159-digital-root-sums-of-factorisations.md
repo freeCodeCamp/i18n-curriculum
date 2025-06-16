@@ -1,6 +1,6 @@
 ---
 id: 5900f40c1000cf542c50ff1e
-title: '問題 159: 因数分解の数字根和'
+title: 'Problem 159: Digital root sums of factorizations'
 challengeType: 1
 forumTopicId: 301790
 dashedName: problem-159-digital-root-sums-of-factorisations
@@ -21,15 +21,15 @@ $$\begin{align}   & 24 = 2 \times 2 \times 2 \times 3\\\\
 
 ここでは、ある数の各因数の数字根の和を「数字根和」 (DRS: Digital Root Sum) と呼ぶことにします。 下表に、24 の DRS 値をすべて示します。
 
-| 因数分解    | 数字根和 |
-| ------- | ---- |
-| 2x2x2x3 | 9    |
-| 2x3x4   | 9    |
-| 2x2x6   | 10   |
-| 4x6     | 10   |
-| 3x8     | 11   |
-| 2x12    | 5    |
-| 24      | 6    |
+| Factorization | 数字根和 |
+| ------------- | ---- |
+| 2x2x2x3       | 9    |
+| 2x3x4         | 9    |
+| 2x2x6         | 10   |
+| 4x6           | 10   |
+| 3x8           | 11   |
+| 2x12          | 5    |
+| 24            | 6    |
 
 24 の最大の数字根和は 11 です。 $n$ の最大の数字根和を関数 $mdrs(n)$ と定義します。 したがって、$mdrs(24) = 11$ です。
 

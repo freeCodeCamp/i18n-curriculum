@@ -1,6 +1,6 @@
 ---
 id: 5900f40c1000cf542c50ff1e
-title: 'Problem 159: Digitale Wurzelsummen von Faktorisierungen'
+title: 'Problem 159: Digital root sums of factorizations'
 challengeType: 1
 forumTopicId: 301790
 dashedName: problem-159-digital-root-sums-of-factorisations
@@ -21,15 +21,15 @@ Erinnere dich daran, dass die digitale Wurzel einer Zahl zur Basis 10 gefunden w
 
 Wir nennen eine digitale Wurzelsumme (DWS) die Summe der digitalen Wurzeln der einzelnen Faktoren unserer Zahl. In der nachstehenden Tabelle sind alle DRS-Werte für 24 aufgeführt.
 
-| Faktorisierung | Digitale Wurzelsumme |
-| -------------- | -------------------- |
-| 2x2x2x3        | 9                    |
-| 2x3x4          | 9                    |
-| 2x2x6          | 10                   |
-| 4x6            | 10                   |
-| 3x8            | 11                   |
-| 2x12           | 5                    |
-| 24             | 6                    |
+| Factorization | Digitale Wurzelsumme |
+| ------------- | -------------------- |
+| 2x2x2x3       | 9                    |
+| 2x3x4         | 9                    |
+| 2x2x6         | 10                   |
+| 4x6           | 10                   |
+| 3x8           | 11                   |
+| 2x12          | 5                    |
+| 24            | 6                    |
 
 Die maximale digitale Wurzelsumme von 24 ist 11. Die Funktion $mdrs(n)$ gibt die maximale digitale Wurzelsumme von $n$ an. Somit ist $mdrs(24) = 11$.
 

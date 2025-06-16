@@ -14,7 +14,7 @@ A hexagonal tile with number 1 is surrounded by a ring of six hexagonal tiles, s
 
 <img alt="前三圈排列好的六角磚，數字編號爲 1 到 37，其中磚 8 和磚 17高亮" src="https://cdn.freecodecamp.org/curriculum/project-euler/hexagonal-tile-differences.png" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
 
-通過計算磚 $n$ 和它周圍 6 塊磚的數字差，我們定位 $PD(n)$ 爲數字差中素數的個數。
+By finding the difference between tile $n$ and each of its six neighbors we shall define $PD(n)$ to be the number of those differences which are prime.
 
 例如，圍繞磚 8 順時針方向的差額分別爲 12、29、11、6、1 和 13。 則 $PD(8) = 3$。
 
