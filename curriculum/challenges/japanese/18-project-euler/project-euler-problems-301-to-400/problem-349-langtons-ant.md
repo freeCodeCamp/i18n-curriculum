@@ -8,7 +8,7 @@ dashedName: problem-349-langtons-ant
 
 # --description--
 
-黒または白に塗られた規則的な格子の上を、アリが歩きます。
+An ant moves on a regular grid of squares that are colored either black or white.
 
 アリは常に基本方向 (上下左右) のいずれかを向き、次のルールに従って隣のマスへ移動します。
 

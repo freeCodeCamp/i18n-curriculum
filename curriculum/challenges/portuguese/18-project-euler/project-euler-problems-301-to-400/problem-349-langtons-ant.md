@@ -8,7 +8,7 @@ dashedName: problem-349-langtons-ant
 
 # --description--
 
-Uma formiga se move em uma grade regular de quadrados coloridos em preto ou branco.
+An ant moves on a regular grid of squares that are colored either black or white.
 
 A formiga está sempre orientada em uma das direções cardeais (esquerda, direita, para cima ou para baixo) e se move do quadrado para um quadrado adjacente de acordo com as seguintes regras:
 

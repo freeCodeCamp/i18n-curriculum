@@ -10,7 +10,7 @@ dashedName: problem-246-tangents-to-an-ellipse
 
 A definition for an ellipse is:
 
-Given a circle $c$ with centre $M$ and radius $r$ and a point $G$ such that $d(G, M) < r$, the locus of the points that are equidistant from $c$ and $G$ form an ellipse.
+Given a circle $c$ with center $M$ and radius $r$ and a point $G$ such that $d(G, M) < r$, the locus of the points that are equidistant from $c$ and $G$ form an ellipse.
 
 The construction of the points of the ellipse is shown below.
 
@@ -18,7 +18,7 @@ The construction of the points of the ellipse is shown below.
 
 Dado están los puntos $M(-2000, 1500)$ y $G(8000, 1500)$.
 
-Dado también está el círculo $c$ con centro $M$ y radio $15\\,000$.
+Given is also the circle $c$ with center $M$ and radius $15\\,000$.
 
 El lugar geométrico de los puntos que son equidistantes de $G$ y $c$ forman una elipse $e$.
 
@@ -26,7 +26,7 @@ Desde un punto $P$ fuera de $e$ se trazan las dos tangentes $t_1$ y $t_2$ a la e
 
 Sean los puntos donde $t_1$ y $t_2$ tocan la elipse $R$ y $S$.
 
-<img alt="círculo c con el centro M, radio 15000, y punto P fuera de la elipse e; desde el punto P se dibujan dos tangentes t_1 y t_2 a la elipse, con los puntos tocando la elipse que son R y S" src="https://cdn.freecodecamp.org/curriculum/project-euler/tangents-to-an-ellipse-2.gif" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
+<img alt="circle c with the center M, radius 15000, and point P outside of ellipse e; from point P two tangents t_1 and t_2 are drawn to the ellipse, with points touching ellipse are R and S" src="https://cdn.freecodecamp.org/curriculum/project-euler/tangents-to-an-ellipse-2.gif" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
 
 ¿Para cuántos puntos de rejilla $P$ es el ángulo $RPS$ mayor que 45°?
 

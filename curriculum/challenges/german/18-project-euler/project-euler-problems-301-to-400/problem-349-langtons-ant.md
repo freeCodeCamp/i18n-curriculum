@@ -8,7 +8,7 @@ dashedName: problem-349-langtons-ant
 
 # --description--
 
-Eine Ameise bewegt sich auf einem regelmäßigen Gitter aus schwarz oder weiß gefärbten Quadraten.
+An ant moves on a regular grid of squares that are colored either black or white.
 
 Die Ameise ist immer in eine der Kardinalrichtungen (links, rechts, oben oder unten) ausgerichtet und bewegt sich nach den folgenden Regeln von Feld zu Feld:
 

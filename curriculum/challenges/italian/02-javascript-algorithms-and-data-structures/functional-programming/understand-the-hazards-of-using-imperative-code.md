@@ -26,7 +26,7 @@ L'editor di codice mostra un'implementazione di questa funzionalità con funzion
 
 # --instructions--
 
-Esamina il codice nell'editor. Viene usato un metodo che ha effetti collaterali sul programma, causando un comportamento scorretto. L'elenco finale delle schede aperte, memorizzato in `finalTabs.tabs`, dovrebbe essere `['FB', 'Gitter', 'Reddit', 'Twitter', 'Medium', 'new tab', 'Netflix', 'YouTube', 'Vine', 'GMail', 'Work mail', 'Docs', 'freeCodeCamp', 'new tab']` ma la lista prodotta dal codice è leggermente differente.
+Esamina il codice nell'editor. It's using a method that has side effects in the program, causing incorrect behavior. L'elenco finale delle schede aperte, memorizzato in `finalTabs.tabs`, dovrebbe essere `['FB', 'Gitter', 'Reddit', 'Twitter', 'Medium', 'new tab', 'Netflix', 'YouTube', 'Vine', 'GMail', 'Work mail', 'Docs', 'freeCodeCamp', 'new tab']` ma la lista prodotta dal codice è leggermente differente.
 
 Cambia `Window.prototype.tabClose` in modo che rimuova la scheda corretta.
 

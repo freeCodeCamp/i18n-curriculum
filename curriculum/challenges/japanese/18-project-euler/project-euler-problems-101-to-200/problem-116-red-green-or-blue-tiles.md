@@ -8,7 +8,7 @@ dashedName: problem-116-red-green-or-blue-tiles
 
 # --description--
 
-黒の正方形タイルを 5 枚並べた列を、赤 (長さ 2)、緑 (長さ 3)、または青 (長さ 4) のいずれか 1 色の長方形タイルで置き換えます。
+A row of five black square tiles is to have a number of its tiles replaced with colored oblong tiles chosen from red (length two), green (length three), or blue (length four).
 
 赤のタイルを選んだ場合、それを行う方法はちょうど 7 通りあります。
 

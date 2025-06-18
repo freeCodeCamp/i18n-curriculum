@@ -1,6 +1,6 @@
 ---
 id: 5900f4291000cf542c50ff3c
-title: '問題 189: 三角格子を 3 色で塗る'
+title: 'Problem 189: Tri-coloring a triangular grid'
 challengeType: 1
 forumTopicId: 301825
 dashedName: problem-189-tri-colouring-a-triangular-grid
@@ -12,15 +12,15 @@ dashedName: problem-189-tri-colouring-a-triangular-grid
 
 <img alt="64 個の三角形を並べて作られた、辺長 8 の大きな三角形" src="https://cdn.freecodecamp.org/curriculum/project-euler/tri-colouring-a-triangular-grid-1.gif" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
 
-We wish to colour the interior of each triangle with one of three colours: red, green or blue, so that no two neighboring triangles have the same colour. このような色の塗り方を、「有効な塗り方」と呼ぶことにします。 Here, two triangles are said to be neighboring if they share an edge. Note: if they only share a vertex, then they are not neighbors.
+We wish to color the interior of each triangle with one of three colors: red, green or blue, so that no two neighboring triangles have the same color. Such a coloring shall be called valid. Here, two triangles are said to be neighboring if they share an edge. Note: if they only share a vertex, then they are not neighbors.
 
-例えば、下図は上の三角形の有効な塗り方です。
+For example, here is a valid coloring of the above grid:
 
 <img alt="64 個の三角形からなる色付き格子" src="https://cdn.freecodecamp.org/curriculum/project-euler/tri-colouring-a-triangular-grid-2.gif" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
 
-C の回転または反転によって得られる塗り方 C' は、C と同一でない限り C とは異なるものとみなされます。
+A coloring C' which is obtained from a coloring C by rotation or reflection is considered distinct from C unless the two are identical.
 
-上の構成の場合、相異なる有効な塗り方は何通りありますか。
+How many distinct valid colorings are there for the above configuration?
 
 # --hints--
 

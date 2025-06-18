@@ -10,7 +10,7 @@ dashedName: problem-431-square-space-silo
 
 Fred the farmer arranges to have a new storage silo installed on his farm and having an obsession for all things square he is absolutely devastated when he discovers that it is circular. Quentin, the representative from the company that installed the silo, explains that they only manufacture cylindrical silos, but he points out that it is resting on a square base. Fred is not amused and insists that it is removed from his property.
 
-快速思考Quentin解释说，当从上方输送粒状材料时，形成锥形斜面，与水平面形成的自然角度称为休止角。 For example if the angle of repose, $\alpha = 30°$, and grain is delivered at the centre of the silo then a perfect cone will form towards the top of the cylinder. In the case of this silo, which has a diameter of 6m, the amount of space wasted would be approximately 32.648388556 m<sup>3</sup>. 然而，如果谷物在顶部的一个点处被输送，该点与中心的水平距离为$ x $ m，则形成具有奇怪弯曲和倾斜的基部的锥体。 他向弗雷德展示了一张照片
+快速思考Quentin解释说，当从上方输送粒状材料时，形成锥形斜面，与水平面形成的自然角度称为休止角。 For example if the angle of repose, $\alpha = 30°$, and grain is delivered at the center of the silo then a perfect cone will form towards the top of the cylinder. In the case of this silo, which has a diameter of 6m, the amount of space wasted would be approximately 32.648388556 m<sup>3</sup>. However, if grain is delivered at a point on the top which has a horizontal distance of $x$ metres from the center then a cone with a strangely curved and sloping base is formed. 他向弗雷德展示了一张照片
 
 <img alt="image presenting forming of the perfect cone towards the top of the cylinder" src="https://cdn.freecodecamp.org/curriculum/project-euler/square-space-silo.png" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
 

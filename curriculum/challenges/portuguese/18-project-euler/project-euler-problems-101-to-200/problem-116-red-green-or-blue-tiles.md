@@ -8,7 +8,7 @@ dashedName: problem-116-red-green-or-blue-tiles
 
 # --description--
 
-Uma fileira de cinco blocos quadrados pretos deve ser substituída por blocos oblongos coloridos, escolhidos entre vermelhos (comprimento dois), verdes (comprimento três) ou azuis (comprimento quatro).
+A row of five black square tiles is to have a number of its tiles replaced with colored oblong tiles chosen from red (length two), green (length three), or blue (length four).
 
 Se forem escolhidos os blocos vermelhos, haverá exatamente sete maneiras de fazer isso.
 

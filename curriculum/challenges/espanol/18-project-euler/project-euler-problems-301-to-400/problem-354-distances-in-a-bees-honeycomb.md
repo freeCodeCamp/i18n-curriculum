@@ -12,7 +12,7 @@ Considera un panal de una abeja donde cada celda es un hexágono regular perfect
 
 <img alt="panal con lados de hexágonos de longitud 1" src="https://cdn.freecodecamp.org/curriculum/project-euler/distances-in-a-bees-honeycomb.png" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
 
-Una celda particular está ocupada por la abeja reina. Para un número real positivo $L$, sea $B(L)$ el conteo de las celdas con distancia $L$ desde la celda de la abeja reina (todas las distancias se miden de centro a centro); puedes asumir que el panal es lo suficientemente grande para acomodar cualquier distancia que deseemos considerar.
+Una celda particular está ocupada por la abeja reina. For a positive real number $L$, let $B(L)$ count the cells with distance $L$ from the queen bee cell (all distances are measured from center to center); you may assume that the honeycomb is large enough to accommodate for any distance we wish to consider.
 
 Por ejemplo, $B(\sqrt{3}) = 6$, $B(\sqrt{21}) = 12$ y $B(111\\,111\\,111) = 54$.
 

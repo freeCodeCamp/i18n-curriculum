@@ -8,7 +8,7 @@ dashedName: problem-353-risky-moon
 
 # --description--
 
-月は、中心 (0, 0, 0)、半径 $r$ の球 $C(r)$ で表すことができます。
+A moon could be described by the sphere $C(r)$ with center (0, 0, 0) and radius $r$.
 
 $C(r)$ の月面の整数座標地点に駅があります。 (0, 0, $r$) にある駅は北極駅、(0, 0, $-r$) にある駅は南極駅と呼ばれます。
 

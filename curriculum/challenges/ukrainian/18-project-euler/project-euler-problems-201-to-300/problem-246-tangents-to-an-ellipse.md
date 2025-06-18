@@ -10,7 +10,7 @@ dashedName: problem-246-tangents-to-an-ellipse
 
 Визначення еліпса таке:
 
-Якщо дано коло $c$ з центром $M$ і радіусом $r$ та точку $G$, за якої $d(G, M) < r$, то геометричне місце точок, рівновіддалених від $c$ та $G$, формує еліпс.
+Given a circle $c$ with center $M$ and radius $r$ and a point $G$ such that $d(G, M) < r$, the locus of the points that are equidistant from $c$ and $G$ form an ellipse.
 
 Побудову точок еліпса зображено нижче.
 
@@ -18,7 +18,7 @@ dashedName: problem-246-tangents-to-an-ellipse
 
 Дано точки $M(-2000, 1500)$ та $G(8000, 1500)$.
 
-Також дано коло $c$ із центром $M$ та радіусом $15\\,000$.
+Given is also the circle $c$ with center $M$ and radius $15\\,000$.
 
 Геометричне місце точок, рівновіддалених від $G$ та $c$, формують еліпс $e$.
 
@@ -26,7 +26,7 @@ dashedName: problem-246-tangents-to-an-ellipse
 
 Нехай точками, де $t_1$ та $t_2$ торкаються до еліпса, будуть $R$ та $S$.
 
-<img alt="коло с із центром М, радіусом 15000 та точкою Р поза еліпсом е; від точки Р проведено дві дотичні t_1 та t_2 до еліпса, а R та S є точками дотику до еліпса" src="https://cdn.freecodecamp.org/curriculum/project-euler/tangents-to-an-ellipse-2.gif" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
+<img alt="circle c with the center M, radius 15000, and point P outside of ellipse e; from point P two tangents t_1 and t_2 are drawn to the ellipse, with points touching ellipse are R and S" src="https://cdn.freecodecamp.org/curriculum/project-euler/tangents-to-an-ellipse-2.gif" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
 
 Для скількох точок $P$ значення кута $RPS$ є більшим за 45°?
 

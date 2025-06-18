@@ -8,7 +8,7 @@ dashedName: problem-349-langtons-ant
 
 # --description--
 
-An ant moves on a regular grid of squares that are coloured either black or white.
+An ant moves on a regular grid of squares that are colored either black or white.
 
 從一個完全是白色的網格開始，在螞蟻1018次移動後，有多少個方塊是黑色的？
 

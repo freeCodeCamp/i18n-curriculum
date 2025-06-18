@@ -1,6 +1,6 @@
 ---
 id: 5900f4751000cf542c50ff87
-title: 'Problem 264: Dreieckszentren'
+title: 'Problem 264: Triangle Centers'
 challengeType: 1
 forumTopicId: 301913
 dashedName: problem-264-triangle-centres
@@ -11,8 +11,8 @@ dashedName: problem-264-triangle-centres
 Betrachte alle Dreiecke mit:
 
 - All ihren Scheitelpunkten auf Gitterpunkten.
-- Kreismittelpunkt am Ursprung O.
-- Orthozentrisches Zentrum im Punkt H(5, 0).
+- Circumcenter at the origin O.
+- Orthocenter at the point H(5, 0).
 
 Es gibt neun solcher Dreiecke mit einem $\text{perimeter} ≤ 50$.
 
@@ -45,10 +45,10 @@ Finde alle solchen Dreiecke mit einem $\text{perimeter} ≤ {10}^5$. Gib als Ant
 
 # --hints--
 
-`triangleCentres()` sollte `2816417.1055` zurückgeben.
+`triangleCenters()` should return `2816417.1055`.
 
 ```js
-assert.strictEqual(triangleCentres(), 2816417.1055);
+assert.strictEqual(triangleCenters(), 2816417.1055);
 ```
 
 # --seed--
@@ -56,12 +56,12 @@ assert.strictEqual(triangleCentres(), 2816417.1055);
 ## --seed-contents--
 
 ```js
-function triangleCentres() {
+function triangleCenters() {
 
   return true;
 }
 
-triangleCentres();
+triangleCenters();
 ```
 
 # --solutions--

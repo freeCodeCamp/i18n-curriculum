@@ -1,6 +1,6 @@
 ---
 id: 5900f42f1000cf542c50ff40
-title: '問題 194: 色付きの構成'
+title: 'Problem 194: Colored Configurations'
 challengeType: 1
 forumTopicId: 301832
 dashedName: problem-194-coloured-configurations
@@ -10,7 +10,7 @@ dashedName: problem-194-coloured-configurations
 
 ユニット A: <img alt="graph unit A" src="https://cdn.freecodecamp.org/curriculum/project-euler/coloured-configurations-1.png" style="display: inline-block; background-color: white; padding: 10px;" /> と B: <img  alt="graph unit B" src="https://cdn.freecodecamp.org/curriculum/project-euler/coloured-configurations-2.png" style="display: inline-block; background-color: white; padding: 10px;" /> からなる図形を考えます。このユニットを次の図のように、垂直方向の辺に沿って接着します。<img alt="graph with four units glued along the vertical edges" src="https://cdn.freecodecamp.org/curriculum/project-euler/coloured-configurations-3.png" style="display: inline-block; background-color: white; padding: 10px;" />
 
-$(a,b,c)$ 型の構成は、$a$ 個のユニット A と $b$ 個のユニット B からなり、図の頂点は、隣接する 2 つの頂点が同色にならない形で最大 $c$ 種類の色が付けられています。 上図の連結ユニットは (2,2,6) 型の構成の例です。実は、これはすべての $c ≥ 4 に対する (2,2,c) 型の構成です。
+A configuration of type $(a,b,c)$ is a graph thus built of $a$ units A and $b$ units B, where the graph's vertices are colored using up to $c$ colors, so that no two adjacent vertices have the same color. 上図の連結ユニットは (2,2,6) 型の構成の例です。実は、これはすべての $c ≥ 4 に対する (2,2,c) 型の構成です。
 
 $(a,b,c)$ 型の構成の数を $N(a,b,c)$ とします。 例えば、$N(1,0,3) = 24$, $N(0,2,4) = 92928$, $N(2,2,3) = 20736$ です。
 

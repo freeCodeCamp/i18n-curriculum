@@ -8,7 +8,7 @@ dashedName: problem-151-paper-sheets-of-standard-sizes-an-expected-value-problem
 
 # --description--
 
-Щотижня типографія друкує 16 партій, а для кожної партії потрібен аркуш спеціального паперу формату A5.
+A printing shop runs 16 batches (jobs) every week and each batch requires a sheet of special color-proofing paper of size A5.
 
 Щоранку в понеділок майстер відкриває новий конверт, який містить великий аркуш спеціального паперу формату A1.
 

@@ -8,7 +8,7 @@ dashedName: problem-151-paper-sheets-of-standard-sizes-an-expected-value-problem
 
 # --description--
 
-Uma gráfica executa 16 lotes (tarefas) toda semana e cada lote requer uma folha de papel especial de tamanho A5 para a prova de cores.
+A printing shop runs 16 batches (jobs) every week and each batch requires a sheet of special color-proofing paper of size A5.
 
 Todas as segundas de manhã, o coordenador abre um novo envelope, contendo uma grande folha do papel especial com tamanho A1.
 

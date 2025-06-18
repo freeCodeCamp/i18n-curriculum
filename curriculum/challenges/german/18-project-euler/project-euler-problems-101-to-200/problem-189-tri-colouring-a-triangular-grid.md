@@ -1,6 +1,6 @@
 ---
 id: 5900f4291000cf542c50ff3c
-title: 'Problem 189: Dreifarbige Gestaltung eines Dreiecksgitters'
+title: 'Problem 189: Tri-coloring a triangular grid'
 challengeType: 1
 forumTopicId: 301825
 dashedName: problem-189-tri-colouring-a-triangular-grid
@@ -12,15 +12,15 @@ Betrachte die folgende Konfiguration von 64 Dreiecken:
 
 <img alt="64 Dreiecke, die so angeordnet sind, dass sie ein größeres Dreieck mit einer Seitenlänge von 8 Dreiecken bilden" src="https://cdn.freecodecamp.org/curriculum/project-euler/tri-colouring-a-triangular-grid-1.gif" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
 
-We wish to colour the interior of each triangle with one of three colours: red, green or blue, so that no two neighboring triangles have the same colour. Eine solche Einfärbung wird als gültig bezeichnet. Here, two triangles are said to be neighboring if they share an edge. Note: if they only share a vertex, then they are not neighbors.
+We wish to color the interior of each triangle with one of three colors: red, green or blue, so that no two neighboring triangles have the same color. Such a coloring shall be called valid. Here, two triangles are said to be neighboring if they share an edge. Note: if they only share a vertex, then they are not neighbors.
 
-Hier ist zum Beispiel eine gültige Färbung des obigen Gitters:
+For example, here is a valid coloring of the above grid:
 
 <img alt="farbiges Gitter aus 64 Dreiecken" src="https://cdn.freecodecamp.org/curriculum/project-euler/tri-colouring-a-triangular-grid-2.gif" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
 
-Eine Färbung C', die durch Drehung oder Spiegelung aus einer Färbung C gewonnen wird, unterscheidet sich von C, sofern die beiden nicht identisch sind.
+A coloring C' which is obtained from a coloring C by rotation or reflection is considered distinct from C unless the two are identical.
 
-Wie viele verschiedene gültige Farbgebungen gibt es für die obige Konfiguration?
+How many distinct valid colorings are there for the above configuration?
 
 # --hints--
 

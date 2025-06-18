@@ -10,7 +10,7 @@ dashedName: problem-246-tangents-to-an-ellipse
 
 ある楕円が次のように定義されています。
 
-中心点 $M$ と半径 $r$ を持つ円 $c$、および $d(G, M) < r$ となる点 $G$ が与えられるとき、$c$ と $G$ から等距離にある点の軌跡が楕円を描きます。
+Given a circle $c$ with center $M$ and radius $r$ and a point $G$ such that $d(G, M) < r$, the locus of the points that are equidistant from $c$ and $G$ form an ellipse.
 
 下図は、点が楕円を描く様子を示しています。
 
@@ -18,7 +18,7 @@ dashedName: problem-246-tangents-to-an-ellipse
 
 点 $M(-2000, 1500)$ と $G(8000, 1500)$ が与えられます。
 
-中心点 $M$ と半径 $15\\,000$ を持つ円 $c$ も与えられます。
+Given is also the circle $c$ with center $M$ and radius $15\\,000$.
 
 $G$ と $c$ から等距離にある点の軌跡が楕円 $e$ を描きます。
 
@@ -26,7 +26,7 @@ $e$ の外側の点 $P$ から、楕円に対する 2 本の接線 $t_1$ と $t_
 
 $t_1$ と $t_2$ が楕円に接する点を $R$, $S$ とします。
 
-<img alt="中心点 M と半径 15000 の円の中で、楕円 e の外側に点 P がある。点 P から楕円まで 2 本の接線 t_1 と t_2 が引かれ、点 R と 点 S で楕円に接している" src="https://cdn.freecodecamp.org/curriculum/project-euler/tangents-to-an-ellipse-2.gif" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
+<img alt="circle c with the center M, radius 15000, and point P outside of ellipse e; from point P two tangents t_1 and t_2 are drawn to the ellipse, with points touching ellipse are R and S" src="https://cdn.freecodecamp.org/curriculum/project-euler/tangents-to-an-ellipse-2.gif" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
 
 角 $RPS$ が 45 度を超えるような格子点 $P$ はいくつありますか。
 

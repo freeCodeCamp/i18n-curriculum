@@ -26,7 +26,7 @@ JavaScript 提供了許多處理常見任務的方法，所以你無需寫出計
 
 # --instructions--
 
-在編輯器中運行代碼。 它使用了有副作用的方法，導致輸出錯誤。 存儲在 `finalTabs.tabs` 中的打開標籤的最終列表應該是 `['FB', 'Gitter', 'Reddit', 'Twitter', 'Medium', 'new tab', 'Netflix', 'YouTube', 'Vine', 'GMail', 'Work mail', 'Docs', 'freeCodeCamp', 'new tab']`，但輸出會略有不同。
+在編輯器中運行代碼。 It's using a method that has side effects in the program, causing incorrect behavior. 存儲在 `finalTabs.tabs` 中的打開標籤的最終列表應該是 `['FB', 'Gitter', 'Reddit', 'Twitter', 'Medium', 'new tab', 'Netflix', 'YouTube', 'Vine', 'GMail', 'Work mail', 'Docs', 'freeCodeCamp', 'new tab']`，但輸出會略有不同。
 
 修改 `Window.prototype.tabClose` 使其刪除正確的標籤。
 

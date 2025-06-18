@@ -26,7 +26,7 @@ JavaScript пропонує багато попередньо визначени
 
 # --instructions--
 
-Перевірте код у редакторі. Він використовує метод, який має побічні ефекти у програмі та спричиняє некоректну поведінку. Кінцевим списком відкритих вкладок, збережених у `finalTabs.tabs`, має бути `['FB', 'Gitter', 'Reddit', 'Twitter', 'Medium', 'new tab', 'Netflix', 'YouTube', 'Vine', 'GMail', 'Work mail', 'Docs', 'freeCodeCamp', 'new tab']`, але список, який надав код, трішки відрізняється.
+Перевірте код у редакторі. It's using a method that has side effects in the program, causing incorrect behavior. Кінцевим списком відкритих вкладок, збережених у `finalTabs.tabs`, має бути `['FB', 'Gitter', 'Reddit', 'Twitter', 'Medium', 'new tab', 'Netflix', 'YouTube', 'Vine', 'GMail', 'Work mail', 'Docs', 'freeCodeCamp', 'new tab']`, але список, який надав код, трішки відрізняється.
 
 Змініть `Window.prototype.tabClose` так, щоб видалялась правильна вкладка.
 

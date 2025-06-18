@@ -8,7 +8,7 @@ dashedName: problem-151-paper-sheets-of-standard-sizes-an-expected-value-problem
 
 # --description--
 
-ある印刷所は毎週 16 回の印刷を行っており、毎回、A5 サイズの特殊な色校正紙が必要です。
+A printing shop runs 16 batches (jobs) every week and each batch requires a sheet of special color-proofing paper of size A5.
 
 毎週月曜日の朝、班長は A1 サイズの特殊な大判用紙が入った新しい封筒を開封します。
 

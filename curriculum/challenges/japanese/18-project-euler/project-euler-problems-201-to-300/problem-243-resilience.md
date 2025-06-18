@@ -14,7 +14,7 @@ dashedName: problem-243-resilience
 
 $$\frac{1}{12}, \frac{2}{12}, \frac{3}{12}, \frac{4}{12}, \frac{5}{12}, \frac{6}{12}, \frac{7}{12}, \frac{8}{12}, \frac{9}{12}, \frac{10}{12}, \frac{11}{12}$$
 
-約分できない分数を「抵抗分数」 (resilient fraction) と呼ぶことにします。
+We shall call a fraction that cannot be canceled down a resilient fraction.
 
 さらに、分母の抵抗性 (resilience) を、その分母の真分数に対する抵抗分数の比率と定義して $R(d) と表します。例えば、$R(12) = \frac{4}{11}$ です。
 

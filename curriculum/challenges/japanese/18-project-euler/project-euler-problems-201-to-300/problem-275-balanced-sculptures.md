@@ -11,9 +11,9 @@ dashedName: problem-275-balanced-sculptures
 位数 $n$ の平衡な彫像を次のように定義します。
 
 - ブロック ($n$ 枚のタイル) と台座 (残りのタイル) として知られる $n + 1$ 枚のタイルで構成されたポリオミノである。
-- 台座の中心は ($x = 0$, $y = 0$) に位置する。
+- the plinth has its center at position ($x = 0$, $y = 0$);
 - ブロックの $y$ 座標は 0 より大きい (したがって台座は唯一の一番下のタイル)。
-- すべてのブロックを合わせたときの重心の $x$ 座標は 0 に等しい。
+- the center of mass of all the blocks, combined, has $x$-coordinate equal to zero.
 
 彫像を数えるとき、単に $y$ 軸で反転させた配置は区別<u>されません</u>。 例えば、位数 6 の平衡な彫像 18 個を下に示します。($y$ 軸で反転して) 鏡像となる各ペアが 1 つの彫像としてカウントされることに注意してください。
 

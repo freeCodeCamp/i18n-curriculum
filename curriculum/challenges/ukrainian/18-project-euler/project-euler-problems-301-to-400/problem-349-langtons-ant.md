@@ -8,7 +8,7 @@ dashedName: problem-349-langtons-ant
 
 # --description--
 
-Мураха рухається по звичайній сітці квадратів, забарвлених у чорний або білий колір.
+An ant moves on a regular grid of squares that are colored either black or white.
 
 Мураха завжди орієнтується на один з основних напрямів (вліво, вправо, вгору або вниз) і рухається від квадрата до сусіднього квадрата за такими правилами:
 

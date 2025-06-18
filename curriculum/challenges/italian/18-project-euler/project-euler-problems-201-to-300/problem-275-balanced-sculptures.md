@@ -11,9 +11,9 @@ dashedName: problem-275-balanced-sculptures
 Definiamo una scultura bilanciata di ordine $n$ come segue:
 
 - Un polimino fatto di $n + 1$ mattonelle noti come i blocchi ($n$ mattonelle) e il plinto (la mattonella rimanente);
-- il plinto ha il suo centro in posizione ($x = 0$, $y = 0$);
+- the plinth has its center at position ($x = 0$, $y = 0$);
 - i blocchi hanno coordinate $y$ maggiori di zero (quindi il plinto è l'unica piastrella più in basso);
-- il centro di massa di tutti i blocchi, combinati, ha una coordinata $x$ pari a zero.
+- the center of mass of all the blocks, combined, has $x$-coordinate equal to zero.
 
 Quando si contano le strutture, qualsiasi arrangiamento che è una semplice riflessione lungo l'asse $y$, <u>non</u> viene contato come distinto. Per esempio, le 18 sculture bilanciate di ordine 6 sono mostrate di seguito; nota che ogni coppia d'immagini specchiate (intorno all'asse $y$) è contata come una sola scultura:
 

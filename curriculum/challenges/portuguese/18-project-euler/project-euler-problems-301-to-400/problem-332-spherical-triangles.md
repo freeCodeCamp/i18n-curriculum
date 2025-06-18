@@ -12,7 +12,7 @@ Um triângulo esférico é uma figura formada na superfície de uma esfera por t
 
 <img alt="triângulo esférico formado na superfície de uma esfera" src="https://cdn.freecodecamp.org/curriculum/project-euler/spherical-triangles.jpg" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
 
-Considere $C(r)$ como a esfera com o centro (0,0,0) e raio $r$.
+Let $C(r)$ be the sphere with the center (0,0,0) and radius $r$.
 
 Considere $Z(r)$ como o conjunto de pontos na superfície de $C(r)$ com coordenadas em números inteiros.
 

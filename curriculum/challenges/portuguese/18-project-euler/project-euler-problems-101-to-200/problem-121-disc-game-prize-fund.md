@@ -8,7 +8,7 @@ dashedName: problem-121-disc-game-prize-fund
 
 # --description--
 
-Uma bolsa contém um disco vermelho e um disco azul. Em um jogo de azar, um jogador recebe um disco aleatório e sua cor é anotada. Após cada turno, o disco é devolvido à sacola, um disco vermelho extra é adicionado e outro disco é retirado aleatoriamente.
+Uma bolsa contém um disco vermelho e um disco azul. In a game of chance a player takes a disc at random and its color is noted. Após cada turno, o disco é devolvido à sacola, um disco vermelho extra é adicionado e outro disco é retirado aleatoriamente.
 
 O jogador paga £1 para jogar e ganha se tiver recebido mais discos azuis do que discos vermelhos no final do jogo.
 

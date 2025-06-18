@@ -12,7 +12,7 @@ Betrachten wir eine Bienenwabe, bei der jede Zelle ein perfektes regelmäßiges 
 
 <img alt="Bienenwabe mit sechseckigen Seiten der Länge 1" src="https://cdn.freecodecamp.org/curriculum/project-euler/distances-in-a-bees-honeycomb.png" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
 
-Eine bestimmte Zelle wird von der Bienenkönigin bewohnt. Für eine positive reelle Zahl $L$ zähle $B(L)$ die Zellen, die $L$ von der Bienenkönigin entfernt sind (alle Abstände werden von Mitte zu Mitte gemessen); man kann davon ausgehen, dass die Wabe groß genug ist, um jeden beliebigen Abstand zu berücksichtigen.
+Eine bestimmte Zelle wird von der Bienenkönigin bewohnt. For a positive real number $L$, let $B(L)$ count the cells with distance $L$ from the queen bee cell (all distances are measured from center to center); you may assume that the honeycomb is large enough to accommodate for any distance we wish to consider.
 
 Zum Beispiel ist $B(\sqrt{3}) = 6$, $B(\sqrt{21}) = 12$ und $B(111\\,111\\,111) = 54$.
 

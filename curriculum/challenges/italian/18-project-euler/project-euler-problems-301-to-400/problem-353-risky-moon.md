@@ -8,7 +8,7 @@ dashedName: problem-353-risky-moon
 
 # --description--
 
-Una luna potrebbe essere descritta dalla sfera $C(r)$ con centro (0, 0, 0) e raggio $r$.
+A moon could be described by the sphere $C(r)$ with center (0, 0, 0) and radius $r$.
 
 Ci sono stazioni sulla luna nei punti della superficie di $C(r)$ con coordinate intere. La stazione a (0, 0, $r$) si chiama Stazione Polo Nord, la stazione a (0, 0, $-r$) si chiama Stazione Polo Sud.
 

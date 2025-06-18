@@ -12,7 +12,7 @@ dashedName: problem-332-spherical-triangles
 
 <img alt="球面に形成された球面三角形" src="https://cdn.freecodecamp.org/curriculum/project-euler/spherical-triangles.jpg" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
 
-中心 (0,0,0) と半径 $r$ を持つ球を $C(r)$ とします。
+Let $C(r)$ be the sphere with the center (0,0,0) and radius $r$.
 
 整数座標を持つ $C(r)$ の球面上にある点の集合を $Z(r)$ とします。
 

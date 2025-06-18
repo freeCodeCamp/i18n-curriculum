@@ -14,7 +14,7 @@ dashedName: problem-226-a-scoop-of-blancmange
 
 <img alt="円 C が示されたブラマンジェ曲線の図" src="https://cdn.freecodecamp.org/curriculum/project-euler/a-scoop-of-blancmange.gif" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
 
-($\frac{1}{4}$,$\frac{1}{2}$) を円心とする半径 $\frac{1}{4}$ の円 (図の黒い線) を $C$ とします。
+Let $C$ be the circle with center ($\frac{1}{4}$,$\frac{1}{2}$) and radius $\frac{1}{4}$, shown in black in the diagram.
 
 $C$ に囲まれ、かつブラマンジェ曲線より下の部分の面積を求めなさい。 回答は、四捨五入して小数第 8 位まで求め、0.abcdefgh の形式にすること。
 
