@@ -8,9 +8,9 @@ dashedName: problem-449-chocolate-covered-candy
 
 # --description--
 
-Phil, der Konditor, stellt eine neue Ladung schokoladenüberzogener Süßigkeiten her. Jedes Herzstück der Süßigkeiten hat die Form eines Ellipsoids, das durch die folgende Gleichung definiert ist: $b^2x^2 + b^2y^2 + a^2z^2 = a^2b^2$.
+Phil, der Konditor, stellt eine neue Ladung schokoladenüberzogener Süßigkeiten her. Each candy center is shaped like an ellipsoid of revolution defined by the equation: $b^2x^2 + b^2y^2 + a^2z^2 = a^2b^2$.
 
-Phil möchte wissen, wie viel Schokolade benötigt wird, um das Herzstück mit einer gleichmäßigen Schokoladenschicht von einem Millimeter Dicke zu überziehen.
+Phil wants to know how much chocolate is needed to cover one candy center with a uniform coat of chocolate one millimeter thick.
 
 Wenn $a = 1$ mm und $b = 1$ mm ist, beträgt die benötigte Menge an Schokolade $\frac{28}{3} \pi$ mm<sup>3</sup>
 

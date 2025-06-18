@@ -10,7 +10,7 @@ dashedName: problem-185-number-mind
 
 Il gioco Number Mind è una variante del ben noto gioco Master Mind.
 
-Invece di chiodini colorati, devi indovinare una sequenza segreta di cifre. Dopo ogni ipotesi ti viene detto solo in quanti posti hai indovinato la cifra corretta. Quindi, se la sequenza fosse 1234, tentando 2036 ti verrebbe detto che c'è una cifra corretta; tuttavia, NON sapresti di avere anche un'altra cifra ma nel posto sbagliato.
+Instead of colored pegs, you have to guess a secret sequence of digits. Dopo ogni ipotesi ti viene detto solo in quanti posti hai indovinato la cifra corretta. Quindi, se la sequenza fosse 1234, tentando 2036 ti verrebbe detto che c'è una cifra corretta; tuttavia, NON sapresti di avere anche un'altra cifra ma nel posto sbagliato.
 
 Per esempio, date le seguenti ipotesi per una sequenza segreta di 5 cifre,
 

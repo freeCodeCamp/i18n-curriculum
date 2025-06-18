@@ -8,7 +8,7 @@ dashedName: problem-121-disc-game-prize-fund
 
 # --description--
 
-Una sacca contiene un disco rosso e un disco blu. In un gioco di probabilità un giocatore prende un disco a caso e il suo colore viene annotato. Dopo ogni giro il disco viene rimesso nel sacchetto, viene aggiunto un disco rosso in più e un altro disco viene prelevato a caso.
+Una sacca contiene un disco rosso e un disco blu. In a game of chance a player takes a disc at random and its color is noted. Dopo ogni giro il disco viene rimesso nel sacchetto, viene aggiunto un disco rosso in più e un altro disco viene prelevato a caso.
 
 Il giocatore paga £1 per giocare e vince se ha preso più dischi blu rispetto ai dischi rossi alla fine del gioco.
 

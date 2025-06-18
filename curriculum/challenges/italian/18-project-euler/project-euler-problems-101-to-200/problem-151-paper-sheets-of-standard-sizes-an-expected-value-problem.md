@@ -8,7 +8,7 @@ dashedName: problem-151-paper-sheets-of-standard-sizes-an-expected-value-problem
 
 # --description--
 
-Una tipografia esegue 16 lotti (lavori) ogni settimana e ogni lotto richiede un foglio di carta speciale per la prova del colore di dimensione A5.
+A printing shop runs 16 batches (jobs) every week and each batch requires a sheet of special color-proofing paper of size A5.
 
 Ogni lunedì mattina, il caposquadra apre una nuova busta, contenente un grande foglio di carta speciale di formato A1.
 

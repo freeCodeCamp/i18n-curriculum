@@ -14,7 +14,7 @@ La torta è circolare. Comincia con un taglio iniziale della torta lungo il ragg
 
 Finché c'è almeno una data frazione $F$ di torta sinistra, esegue la seguente procedura:
 
-- Fa due fette dal centro della torta a qualsiasi punto di ciò che rimane del bordo della torta, qualsiasi punto sul bordo rimanente della torta è ugualmente probabile. Questo dividerà la torta rimanente in tre parti.
+- He makes two slices from the pie center to any point of what is remaining of the pie border, any point on the remaining pie border equally likely. Questo dividerà la torta rimanente in tre parti.
 - Andando in senso antiorario dal taglio iniziale, prende i primi due pezzi di torta e li mangia.
 
 Quando rimane meno di una frazione $F$ di torta, non ripete questa procedura. Invece mangia tutta la torta rimanente.

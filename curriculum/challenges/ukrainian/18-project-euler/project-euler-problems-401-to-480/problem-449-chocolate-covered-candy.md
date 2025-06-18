@@ -8,9 +8,9 @@ dashedName: problem-449-chocolate-covered-candy
 
 # --description--
 
-Кондитер Філ створює нову партію цукерок, покритих шоколадом. Середина кожної цукерки має форму еліпсоїда обертання, визначеного рівнянням $b^2x^2 + b^2y^2 + a^2z^2 = a^2b^2$.
+Кондитер Філ створює нову партію цукерок, покритих шоколадом. Each candy center is shaped like an ellipsoid of revolution defined by the equation: $b^2x^2 + b^2y^2 + a^2z^2 = a^2b^2$.
 
-Філ хоче знати, скільки шоколаду потрібно, щоб покрити один центр цукерки однорідним шаром шоколаду, товщиною в один міліметр.
+Phil wants to know how much chocolate is needed to cover one candy center with a uniform coat of chocolate one millimeter thick.
 
 Якщо $a = 1$ мм та $b = 1$ мм, потрібно $\frac{28}{3} \pi$ мм<sup>3</sup> шоколаду.
 

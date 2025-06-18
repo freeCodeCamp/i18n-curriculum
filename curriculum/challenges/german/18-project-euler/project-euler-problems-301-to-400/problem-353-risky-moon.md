@@ -8,7 +8,7 @@ dashedName: problem-353-risky-moon
 
 # --description--
 
-Ein Mond könnte durch die Kugel $C(r)$ mit Mittelpunkt (0, 0, 0) und Radius $r$ beschrieben werden.
+A moon could be described by the sphere $C(r)$ with center (0, 0, 0) and radius $r$.
 
 An den Punkten auf der Oberfläche von $C(r)$ mit ganzzahligen Koordinaten befinden sich Stationen auf dem Mond. Die Station bei (0, 0, $r$) heißt Nordpolstation, die Station bei (0, 0, $-r$) heißt Südpolstation.
 

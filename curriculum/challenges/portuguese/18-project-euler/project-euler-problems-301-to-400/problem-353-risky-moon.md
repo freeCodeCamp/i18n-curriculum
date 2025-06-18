@@ -8,7 +8,7 @@ dashedName: problem-353-risky-moon
 
 # --description--
 
-Uma lua poderia ser descrita pela esfera $C(r)$ com centro (0, 0, 0) e raio $r$.
+A moon could be described by the sphere $C(r)$ with center (0, 0, 0) and radius $r$.
 
 Há estações na lua em pontos na superfície de $C(r)$ com coordenadas em números inteiros. A estação em (0, 0, $r$) é chamada de estação do Polo Norte, enquanto a estação em (0, 0, $-r$) é chamada de estação do Polo Sul.
 

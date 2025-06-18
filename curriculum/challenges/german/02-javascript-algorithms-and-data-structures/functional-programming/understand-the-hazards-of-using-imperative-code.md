@@ -26,7 +26,7 @@ Der Code-Editor zeigt eine Implementierung dieser Funktionalität mit Funktionen
 
 # --instructions--
 
-Überprüfe den Code im Editor. Es wird eine Methode verwendet, die Nebenwirkungen im Programm hat und ein falsches Verhalten verursacht. Die endgültige Liste der geöffneten Tabs, die in `finalTabs.tabs` gespeichert wird, sollte `['FB', 'Gitter', 'Reddit', 'Twitter', 'Medium', 'new tab', 'Netflix', 'YouTube', 'Vine', 'GMail', 'Work mail', 'Docs', 'freeCodeCamp', 'new tab']` sein, aber die Liste, die der Code erzeugt, ist etwas anders.
+Überprüfe den Code im Editor. It's using a method that has side effects in the program, causing incorrect behavior. Die endgültige Liste der geöffneten Tabs, die in `finalTabs.tabs` gespeichert wird, sollte `['FB', 'Gitter', 'Reddit', 'Twitter', 'Medium', 'new tab', 'Netflix', 'YouTube', 'Vine', 'GMail', 'Work mail', 'Docs', 'freeCodeCamp', 'new tab']` sein, aber die Liste, die der Code erzeugt, ist etwas anders.
 
 Ändere `Window.prototype.tabClose` so, dass es die richtige Registerkarte entfernt.
 

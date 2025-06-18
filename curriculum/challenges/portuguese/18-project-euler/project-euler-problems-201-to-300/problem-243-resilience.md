@@ -14,7 +14,7 @@ Para qualquer denominador, $d$, haverá $d−1$ frações adequadas; por exemplo
 
 $$\frac{1}{12}, \frac{2}{12}, \frac{3}{12}, \frac{4}{12}, \frac{5}{12}, \frac{6}{12}, \frac{7}{12}, \frac{8}{12}, \frac{9}{12}, \frac{10}{12}, \frac{11}{12}$$
 
-Chamaremos uma fração que não pode ser anulada de uma fração resiliente.
+We shall call a fraction that cannot be canceled down a resilient fraction.
 
 Além disso, definiremos a resiliência de um denominador, $R(d)$, como a razão entre suas frações adequadas que são resilientes; por exemplo, $R(12) = \frac{4}{11}$.
 

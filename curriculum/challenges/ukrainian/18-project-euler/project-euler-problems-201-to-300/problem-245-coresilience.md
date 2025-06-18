@@ -8,7 +8,7 @@ dashedName: problem-245-coresilience
 
 # --description--
 
-Назвемо дріб, який неможливо скоротити, стійким дробом.
+We shall call a fraction that cannot be canceled down a resilient fraction.
 
 Також визначимо стійкість знаменника $R(d)$ як відношення стійких правильних дробів до загальної кількості правильних дробів із цим знаменником. Наприклад, $R(12) = \frac{4}{11}$.
 

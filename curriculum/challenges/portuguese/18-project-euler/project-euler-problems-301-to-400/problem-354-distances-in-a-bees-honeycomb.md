@@ -12,7 +12,7 @@ Considere uma colmeia de abelhas onde cada célula é um hexágono regular perfe
 
 <img alt="colmeia de hexágonos com comprimento de lado 1" src="https://cdn.freecodecamp.org/curriculum/project-euler/distances-in-a-bees-honeycomb.png" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
 
-Uma célula específica é ocupada pela abelha rainha. Para um número positivo real $L$, considere $B(L)$ como a contagem das células com distância $L$ da célula da abelha rainha (todas as distâncias são medidas do centro ao centro); você pode presumir que a colmeia é suficientemente grande para acomodar qualquer distância que queiramos considerar.
+Uma célula específica é ocupada pela abelha rainha. For a positive real number $L$, let $B(L)$ count the cells with distance $L$ from the queen bee cell (all distances are measured from center to center); you may assume that the honeycomb is large enough to accommodate for any distance we wish to consider.
 
 Por exemplo, $B(\sqrt{3}) = 6$, $B(\sqrt{21}) = 12$ e $B(111.111.111) = 54$.
 

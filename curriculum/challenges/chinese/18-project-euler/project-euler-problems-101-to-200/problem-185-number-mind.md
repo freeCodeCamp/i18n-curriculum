@@ -10,7 +10,7 @@ dashedName: problem-185-number-mind
 
 The game Number Mind is a variant of the well known game Master Mind.
 
-而不是彩色钉，你必须猜测一个秘密的数字序列。 在每次猜测之后，你只会告诉你猜对了多少个正确的数字。 所以，如果序列是1234并且你猜到了2036，那么你会被告知你有一个正确的数字;但是，你不会被告知你在错误的地方也有另一个数字。
+Instead of colored pegs, you have to guess a secret sequence of digits. 在每次猜测之后，你只会告诉你猜对了多少个正确的数字。 所以，如果序列是1234并且你猜到了2036，那么你会被告知你有一个正确的数字;但是，你不会被告知你在错误的地方也有另一个数字。
 
 For instance, given the following guesses for a 5-digit secret sequence,
 

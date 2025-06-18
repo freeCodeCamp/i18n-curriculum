@@ -8,7 +8,7 @@ dashedName: problem-116-red-green-or-blue-tiles
 
 # --description--
 
-Ряд із п’яти чорних квадратних комірок повинен бути замінений на кольорові довгасті комірки: червоні (2 одиниці), зелені (3 одиниці) або ж сині (4 одиниці).
+A row of five black square tiles is to have a number of its tiles replaced with colored oblong tiles chosen from red (length two), green (length three), or blue (length four).
 
 Якщо вибрати червоні комірки, існує сім способів.
 

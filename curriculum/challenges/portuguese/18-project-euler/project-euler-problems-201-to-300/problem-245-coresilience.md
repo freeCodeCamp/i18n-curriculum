@@ -8,7 +8,7 @@ dashedName: problem-245-coresilience
 
 # --description--
 
-Chamaremos uma fração que não pode ser anulada de uma fração resiliente.
+We shall call a fraction that cannot be canceled down a resilient fraction.
 
 Além disso, definiremos a resiliência de um denominador, $R(d)$, como a razão entre suas frações adequadas que são resilientes; por exemplo, $R(12) = \frac{4}{11}$.
 

@@ -1,6 +1,6 @@
 ---
 id: 5900f4751000cf542c50ff87
-title: '問題 264: 三角形の中心'
+title: 'Problem 264: Triangle Centers'
 challengeType: 1
 forumTopicId: 301913
 dashedName: problem-264-triangle-centres
@@ -11,8 +11,8 @@ dashedName: problem-264-triangle-centres
 以下が当てはまるすべての三角形について考えてます。
 
 - すべての頂点が格子点上にある。
-- 外心が原点 O にある。
-- 垂心が点 H (5, 0) にある。
+- Circumcenter at the origin O.
+- Orthocenter at the point H(5, 0).
 
 $\text{周長} ≤ 50$ に対してこのような三角形は 9 つあります。
 
@@ -45,10 +45,10 @@ $\text{周長} ≤ {10}^5$ を満たすこのような三角形をすべて求�
 
 # --hints--
 
-`triangleCentres()` は `2816417.1055` を返す必要があります。
+`triangleCenters()` should return `2816417.1055`.
 
 ```js
-assert.strictEqual(triangleCentres(), 2816417.1055);
+assert.strictEqual(triangleCenters(), 2816417.1055);
 ```
 
 # --seed--
@@ -56,12 +56,12 @@ assert.strictEqual(triangleCentres(), 2816417.1055);
 ## --seed-contents--
 
 ```js
-function triangleCentres() {
+function triangleCenters() {
 
   return true;
 }
 
-triangleCentres();
+triangleCenters();
 ```
 
 # --solutions--

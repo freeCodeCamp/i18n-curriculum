@@ -14,7 +14,7 @@ Der Bereich unter der Takagi-Funktion ist gleich $\frac{1}{2}$, im folgenden Dia
 
 <img alt="diagramm der Takagi-Funktion, wobei der Kreis C im Diagramm dargestellt ist" src="https://cdn.freecodecamp.org/curriculum/project-euler/a-scoop-of-blancmange.gif" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
 
-Lass $C$ den Kreis mit dem Mittelpunkt ($\frac{1}{4}$,$\frac{1}{2}$) und dem Radius $\frac{1}{4}$ sein, der im Diagramm in schwarz dargestellt ist.
+Let $C$ be the circle with center ($\frac{1}{4}$,$\frac{1}{2}$) and radius $\frac{1}{4}$, shown in black in the diagram.
 
 Welcher Bereich unter der Takagi-Funktion ist von $C$ eingeschlossen? Gib deine Antwort gerundet auf acht Dezimalstellen in Form 0.abcdefgh an
 

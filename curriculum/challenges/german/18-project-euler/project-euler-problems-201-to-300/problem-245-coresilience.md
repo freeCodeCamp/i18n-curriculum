@@ -8,7 +8,7 @@ dashedName: problem-245-coresilience
 
 # --description--
 
-Wir nennen einen Bruch, der nicht aufgehoben werden kann, einen resilienten Bruch.
+We shall call a fraction that cannot be canceled down a resilient fraction.
 
 Außerdem definieren wir die Resilienz eines Nenners, $R(d)$, als das Verhältnis seiner Eigenbrüche, die resilient sind; zum Beispiel $R(12) = \frac{4}{11}$.
 

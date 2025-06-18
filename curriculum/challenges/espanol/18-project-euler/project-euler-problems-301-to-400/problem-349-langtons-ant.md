@@ -8,7 +8,7 @@ dashedName: problem-349-langtons-ant
 
 # --description--
 
-Una hormiga se mueve en una cuadrícula regular de cuadrados que están coloreados en negro o blanco.
+An ant moves on a regular grid of squares that are colored either black or white.
 
 La hormiga siempre está orientada en una de las direcciones cardinales (izquierda, derecha, arriba o abajo) y se mueve de un cuadrado a uno adyacente siguiendo las siguientes reglas:
 

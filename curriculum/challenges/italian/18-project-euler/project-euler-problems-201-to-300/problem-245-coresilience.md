@@ -8,7 +8,7 @@ dashedName: problem-245-coresilience
 
 # --description--
 
-Chiameremo frazione resiliente una frazione che non può essere semplificata.
+We shall call a fraction that cannot be canceled down a resilient fraction.
 
 Inoltre definiremo la resilienza di un denominatore, $R(d)$, come il rapporto delle sue frazioni proprie che sono resilienti; per esempio, $R(12) = \frac{4}{11}$.
 

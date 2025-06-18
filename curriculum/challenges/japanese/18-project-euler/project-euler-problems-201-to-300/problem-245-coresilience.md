@@ -8,7 +8,7 @@ dashedName: problem-245-coresilience
 
 # --description--
 
-約分できない分数を「抵抗分数」 (resilient fraction) と呼ぶことにします。
+We shall call a fraction that cannot be canceled down a resilient fraction.
 
 さらに、分母の抵抗性 (resilience) を、その分母の真分数に対する抵抗分数の比率と定義して $R(d) と表します。例えば、$R(12) = \frac{4}{11}$ です。
 

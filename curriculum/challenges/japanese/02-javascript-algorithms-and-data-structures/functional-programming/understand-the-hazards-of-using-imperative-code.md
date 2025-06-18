@@ -26,7 +26,7 @@ Window オブジェクトはタブで構成されており、通常は複数の 
 
 # --instructions--
 
-エディターでコードの内容を調べてみてください。 この中ではプログラムに副作用をもたらすメソッドを使用しており、不正な動作を引き起こします。 `finalTabs.tabs` に格納される、開いているタブの最終的なリストは、`['FB', 'Gitter', 'Reddit', 'Twitter', 'Medium', 'new tab', 'Netflix', 'YouTube', 'Vine', 'GMail', 'Work mail', 'Docs', 'freeCodeCamp', 'new tab']` となるはずですが、コードによって生成されるリストは少し異なります。
+エディターでコードの内容を調べてみてください。 It's using a method that has side effects in the program, causing incorrect behavior. `finalTabs.tabs` に格納される、開いているタブの最終的なリストは、`['FB', 'Gitter', 'Reddit', 'Twitter', 'Medium', 'new tab', 'Netflix', 'YouTube', 'Vine', 'GMail', 'Work mail', 'Docs', 'freeCodeCamp', 'new tab']` となるはずですが、コードによって生成されるリストは少し異なります。
 
 正しいタブが削除されるように `Window.prototype.tabClose` を変更してください。
 

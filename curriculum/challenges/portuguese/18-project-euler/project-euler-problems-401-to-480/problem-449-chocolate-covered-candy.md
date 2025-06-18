@@ -8,9 +8,9 @@ dashedName: problem-449-chocolate-covered-candy
 
 # --description--
 
-Phil, o doceiro, está fazendo um novo lote de doce coberto de chocolate. Cada centro dos doces tem o formato de um elipsoide de revolução definido pela equação: $b^2x^2 + b^2y^2 + a^2z^2 = a^2b^2$.
+Phil, o doceiro, está fazendo um novo lote de doce coberto de chocolate. Each candy center is shaped like an ellipsoid of revolution defined by the equation: $b^2x^2 + b^2y^2 + a^2z^2 = a^2b^2$.
 
-Phil quer saber quanto chocolate é necessário para cobrir um centro de doces com uma cobertura uniforme de chocolate com um milímetro de espessura.
+Phil wants to know how much chocolate is needed to cover one candy center with a uniform coat of chocolate one millimeter thick.
 
 Se $a = 1$ mm e $b = 1$ mm, a quantidade de chocolate necessária é $\frac{28}{3} \pi$ mm<sup>3</sup>
 

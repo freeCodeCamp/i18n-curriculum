@@ -12,7 +12,7 @@ dashedName: problem-332-spherical-triangles
 
 <img alt="сферичний трикутник, утворений на поверхні сфери" src="https://cdn.freecodecamp.org/curriculum/project-euler/spherical-triangles.jpg" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
 
-Нехай $C(r)$ буде сферою з центром в точці (0,0,0) та радіусом $r$.
+Let $C(r)$ be the sphere with the center (0,0,0) and radius $r$.
 
 Нехай $Z(r)$ буде набором точок з цілими координатами на поверхні $C(r)$.
 

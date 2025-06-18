@@ -26,7 +26,7 @@ El editor de código muestra una implementación de esta funcionalidad con funci
 
 # --instructions--
 
-Examine el código en el editor. Está utilizando un método que tiene efectos secundarios en el programa, causando un comportamiento incorrecto. La lista final de pestañas abiertas, almacenadas en `finalTabs.tabs` deberia ser `['FB', 'Gitter', 'Reddit', 'Twitter', 'Medium', 'new tab', 'Netflix', 'YouTube', 'Vine', 'GMail', 'Work mail', 'Docs', 'freeCodeCamp', 'new tab']` pero la lista producida por el código es un poco diferente.
+Examine el código en el editor. It's using a method that has side effects in the program, causing incorrect behavior. La lista final de pestañas abiertas, almacenadas en `finalTabs.tabs` deberia ser `['FB', 'Gitter', 'Reddit', 'Twitter', 'Medium', 'new tab', 'Netflix', 'YouTube', 'Vine', 'GMail', 'Work mail', 'Docs', 'freeCodeCamp', 'new tab']` pero la lista producida por el código es un poco diferente.
 
 Cambia `Window.prototype.tabClose` para que elimine la pestaña correcta.
 

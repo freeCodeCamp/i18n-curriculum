@@ -8,7 +8,7 @@ dashedName: problem-116-red-green-or-blue-tiles
 
 # --description--
 
-Bei einer Reihe von fünf schwarzen quadratischen Steinen wird eine bestimmte Anzahl von Spielsteinen durch farbige längliche Spielsteine ersetzt, die entweder rot (Länge zwei), grün (Länge drei) oder blau (Länge vier) sind.
+A row of five black square tiles is to have a number of its tiles replaced with colored oblong tiles chosen from red (length two), green (length three), or blue (length four).
 
 Wenn rote Steine gewählt werden, gibt es genau sieben Möglichkeiten, dies zu tun.
 

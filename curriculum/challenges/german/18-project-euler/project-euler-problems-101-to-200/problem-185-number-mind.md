@@ -10,7 +10,7 @@ dashedName: problem-185-number-mind
 
 Das Spiel Number Mind ist eine Variante des bekannten Spiels Master Mind.
 
-Statt farbiger Stifte musst du eine geheime Ziffernfolge erraten. Nach jedem Raten wird dir nur mitgeteilt, an wie vielen Stellen du die richtige Ziffer erraten hast. Wenn also die Zahlenfolge 1234 lautet und du 2036 erraten hast, wird dir gesagt, dass du eine richtige Ziffer hast, aber NICHT, dass du auch eine andere Ziffer an der falschen Stelle hast.
+Instead of colored pegs, you have to guess a secret sequence of digits. Nach jedem Raten wird dir nur mitgeteilt, an wie vielen Stellen du die richtige Ziffer erraten hast. Wenn also die Zahlenfolge 1234 lautet und du 2036 erraten hast, wird dir gesagt, dass du eine richtige Ziffer hast, aber NICHT, dass du auch eine andere Ziffer an der falschen Stelle hast.
 
 Nehmen wir zum Beispiel an, dass du eine 5-stellige geheime Sequenz erraten musst,
 

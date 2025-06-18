@@ -14,7 +14,7 @@ dashedName: problem-394-eating-pie
 
 少なくとも与えられた割合 $F$ のパイが残っている間、彼は以下の手順に従います。
 
-- パイの中心から、残っているパイの縁の任意の点 (点の位置は縁全体から等確率で選ばれます) まで切れ目を入れ切ることにより、2 枚のスライスを作ります。 これによって、残っているパイは 3 つの部分に分割されます。
+- He makes two slices from the pie center to any point of what is remaining of the pie border, any point on the remaining pie border equally likely. これによって、残っているパイは 3 つの部分に分割されます。
 - 最初の切れ目から反時計回りに、最初の 2 枚のスライスを取って食べます。
 
 パイの残りの割合が $F$ 未満になったら、もうこの手順を繰り返しません。 代わりに、残ったパイを全部食べます。

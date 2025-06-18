@@ -14,7 +14,7 @@ Per qualsiasi denominatore, $d$, ci saranno $d−1$ frazioni proprie; per esempi
 
 $$\frac{1}{12}, \frac{2}{12}, \frac{3}{12}, \frac{4}{12}, \frac{5}{12}, \frac{6}{12}, \frac{7}{12}, \frac{8}{12}, \frac{9}{12}, \frac{10}{12}, \frac{11}{12}$$
 
-Chiameremo frazione resiliente una frazione che non può essere semplificata.
+We shall call a fraction that cannot be canceled down a resilient fraction.
 
 Inoltre definiremo la resilienza di un denominatore, $R(d)$, come il rapporto delle sue frazioni proprie che sono resilienti; per esempio, $R(12) = \frac{4}{11}$.
 

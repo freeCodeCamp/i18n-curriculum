@@ -1,6 +1,6 @@
 ---
 id: 5900f4751000cf542c50ff87
-title: 'Problema 264: centri dei triangoli'
+title: 'Problem 264: Triangle Centers'
 challengeType: 1
 forumTopicId: 301913
 dashedName: problem-264-triangle-centres
@@ -11,8 +11,8 @@ dashedName: problem-264-triangle-centres
 Considera tutti i triangoli che hanno:
 
 - Tutti i vertici su punti del reticolo.
-- Circocentro all'origine O.
-- Ortocentro al punto H(5, 0).
+- Circumcenter at the origin O.
+- Orthocenter at the point H(5, 0).
 
 Ci sono nove di questi triangoli che hanno un $\text{perimetro} ≤ 50$.
 
@@ -45,10 +45,10 @@ Trova tutti questi triangoli con un $\text{perimetro} ≤ {10}^5$. Inserisci com
 
 # --hints--
 
-`triangleCentres()` dovrebbe restituire `2816417.1055`.
+`triangleCenters()` should return `2816417.1055`.
 
 ```js
-assert.strictEqual(triangleCentres(), 2816417.1055);
+assert.strictEqual(triangleCenters(), 2816417.1055);
 ```
 
 # --seed--
@@ -56,12 +56,12 @@ assert.strictEqual(triangleCentres(), 2816417.1055);
 ## --seed-contents--
 
 ```js
-function triangleCentres() {
+function triangleCenters() {
 
   return true;
 }
 
-triangleCentres();
+triangleCenters();
 ```
 
 # --solutions--

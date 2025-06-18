@@ -10,7 +10,7 @@ dashedName: problem-431-square-space-silo
 
 農場主のフレッドは、農場にサイロを新設するための手配をしました。彼は四角い物への執着が強く、丸い物を見つけるとひどく落ち込みます。 サイロを新設した会社の代表者クエンティンは、円柱状のサイロしか製造していないと説明しましたが、ただしサイロは四角い土台の上に載っていると指摘しました。 それでもフレッドは不快感を抱き、サイロを農場から撤去するよう求めました。
 
-クエンティンは機転を利かせて次のことを説明しました。サイロの上から粒状のものが投入されるとき、円錐状の斜面ができ、その際に斜面と水平な線によって自然にできる角度は安息角と呼ばれます。 例えば、安息角が $\alpha = 30°$ で、サイロの中央に穀物を投入する場合、円柱の最上部に向けて完全な円錐が形作られます。 直径 6 m のこのサイロの場合、無駄になる空間の体積は約 32.648388556 m<sup>3</sup> です。 一方で、最上面の中心から水平に $x$ メートル離れた点から穀物を投入すると、円錐の底面は奇妙に曲がり傾斜します。 クエンティンはフレッドに図を見せました。
+クエンティンは機転を利かせて次のことを説明しました。サイロの上から粒状のものが投入されるとき、円錐状の斜面ができ、その際に斜面と水平な線によって自然にできる角度は安息角と呼ばれます。 For example if the angle of repose, $\alpha = 30°$, and grain is delivered at the center of the silo then a perfect cone will form towards the top of the cylinder. 直径 6 m のこのサイロの場合、無駄になる空間の体積は約 32.648388556 m<sup>3</sup> です。 However, if grain is delivered at a point on the top which has a horizontal distance of $x$ metres from the center then a cone with a strangely curved and sloping base is formed. クエンティンはフレッドに図を見せました。
 
 <img alt="円柱の最上部に向けて完全な円錐が作られることを示す図" src="https://cdn.freecodecamp.org/curriculum/project-euler/square-space-silo.png" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
 

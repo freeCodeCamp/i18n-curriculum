@@ -26,7 +26,7 @@ No editor de texto há uma implementação dessa funcionalidade com as funções
 
 # --instructions--
 
-Examine o código no editor. Nele é usado um método que possui efeitos colaterais no programa e causa comportamento incorreto. A lista final de abas abertas armazenada em `finalTabs.tabs` deveria ser `['FB', 'Gitter', 'Reddit', 'Twitter', 'Medium', 'new tab', 'Netflix', 'YouTube', 'Vine', 'GMail', 'Work mail', 'Docs', 'freeCodeCamp', 'new tab']` mas a lista produzida pelo código é ligeiramente diferente.
+Examine o código no editor. It's using a method that has side effects in the program, causing incorrect behavior. A lista final de abas abertas armazenada em `finalTabs.tabs` deveria ser `['FB', 'Gitter', 'Reddit', 'Twitter', 'Medium', 'new tab', 'Netflix', 'YouTube', 'Vine', 'GMail', 'Work mail', 'Docs', 'freeCodeCamp', 'new tab']` mas a lista produzida pelo código é ligeiramente diferente.
 
 Modifique `Window.prototype.tabClose` de forma que ele remova a aba correta.
 

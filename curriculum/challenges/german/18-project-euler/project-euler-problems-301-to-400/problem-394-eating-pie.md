@@ -14,7 +14,7 @@ Der Kuchen ist kreisförmig. Er beginnt damit, einen ersten Schnitt entlang des 
 
 Solange noch mindestens ein bestimmter Bruchteil $F$ an Kuchen übrig ist, führt er das folgende Verfahren durch:
 
-- Er schneidet zwei Scheiben von der Tortenmitte zu einem beliebigen Punkt des verbleibenden Tortenrandes, wobei jeder Punkt des verbleibenden Tortenrandes gleich wahrscheinlich ist. Dadurch wird der verbleibende Kuchen in drei Stücke geteilt.
+- He makes two slices from the pie center to any point of what is remaining of the pie border, any point on the remaining pie border equally likely. Dadurch wird der verbleibende Kuchen in drei Stücke geteilt.
 - Gegen den Uhrzeigersinn nimmt er die ersten beiden Kuchenstücke und isst sie.
 
 Wenn weniger als ein Bruchteil $F$ des Kuchens übrig bleibt, wiederholt er diesen Vorgang nicht. Stattdessen isst er den ganzen restlichen Kuchen auf.

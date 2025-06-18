@@ -8,7 +8,7 @@ dashedName: problem-116-red-green-or-blue-tiles
 
 # --description--
 
-In una fila di cinque piastrelle quadrate nere un certo numero di piastrelle deve essere sostituito con piastrelle oblunghe colorate scelte tra rosso (lunghezza due), verde (lunghezza tre) o blu (lunghezza quattro).
+A row of five black square tiles is to have a number of its tiles replaced with colored oblong tiles chosen from red (length two), green (length three), or blue (length four).
 
 Se si scelgono piastrelle rosse ci sono esattamente sette modi per farlo.
 

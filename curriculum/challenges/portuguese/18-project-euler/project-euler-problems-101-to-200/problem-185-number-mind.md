@@ -10,7 +10,7 @@ dashedName: problem-185-number-mind
 
 O jogo da Senha de números é uma variante do conhecido jogo Senha.
 
-Em vez de peças coloridas, você tem que adivinhar uma sequência secreta de algarismos. Depois de cada palpite você é informado apenas em quantos lugares você adivinhou o algarismo correto. Então, se a sequência for 1234 e seu palpite for 2036, você será informado de que tem um algarismo correto. No entanto, NÃO será informado se você tem outro algarismo correto, mas no lugar errado.
+Instead of colored pegs, you have to guess a secret sequence of digits. Depois de cada palpite você é informado apenas em quantos lugares você adivinhou o algarismo correto. Então, se a sequência for 1234 e seu palpite for 2036, você será informado de que tem um algarismo correto. No entanto, NÃO será informado se você tem outro algarismo correto, mas no lugar errado.
 
 Por exemplo, dados os seguintes palpites para uma sequência secreta de 5 algarismos
 

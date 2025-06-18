@@ -14,7 +14,7 @@ A área abaixo da curva de manjar branco é igual a$\frac{1}{2}$, que aparece em
 
 <img alt="diagrama da curva de manjar branco, com o círculo C mostrado no diagrama" src="https://cdn.freecodecamp.org/curriculum/project-euler/a-scoop-of-blancmange.gif" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
 
-Considere $C$ como sendo o círculo com o centro ($\frac{1}{4}$,$\frac{1}{2}$) e raio $\frac{1}{4}$, que aparece em preto no diagrama.
+Let $C$ be the circle with center ($\frac{1}{4}$,$\frac{1}{2}$) and radius $\frac{1}{4}$, shown in black in the diagram.
 
 Qual área sob a curva de manjar branco está delimitada por $C$? Arredonde sua resposta para até oito casas decimais usando o formato 0.abcdefgh
 

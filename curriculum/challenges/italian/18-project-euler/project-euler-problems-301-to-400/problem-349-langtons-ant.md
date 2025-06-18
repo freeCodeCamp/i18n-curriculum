@@ -8,7 +8,7 @@ dashedName: problem-349-langtons-ant
 
 # --description--
 
-Una formica si muove su una griglia regolare di quadrati colorati neri o bianchi.
+An ant moves on a regular grid of squares that are colored either black or white.
 
 La formica è sempre orientata in una delle direzioni cardinali (sinistra, destra, su o giù) e si sposta da un quadrato al quadrato adiacente secondo le seguenti regole:
 

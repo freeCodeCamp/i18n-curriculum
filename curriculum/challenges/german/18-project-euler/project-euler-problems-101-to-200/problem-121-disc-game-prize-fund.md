@@ -8,7 +8,7 @@ dashedName: problem-121-disc-game-prize-fund
 
 # --description--
 
-Ein Beutel enthält eine rote Scheibe und eine blaue Scheibe. In einem Glücksspiel zieht ein Spieler eine zufällige Scheibe und deren Farbe wird notiert. Nach jeder Runde wird die Scheibe zurück in den Beutel gelegt, eine zusätzliche rote Scheibe wird hinzugefügt, und eine andere Scheibe wird zufällig entnommen.
+Ein Beutel enthält eine rote Scheibe und eine blaue Scheibe. In a game of chance a player takes a disc at random and its color is noted. Nach jeder Runde wird die Scheibe zurück in den Beutel gelegt, eine zusätzliche rote Scheibe wird hinzugefügt, und eine andere Scheibe wird zufällig entnommen.
 
 Der Spieler zahlt £1, um zu spielen und gewinnt, wenn am Ende des Spiels mehr blaue als rote Scheiben entnommen wurden.
 

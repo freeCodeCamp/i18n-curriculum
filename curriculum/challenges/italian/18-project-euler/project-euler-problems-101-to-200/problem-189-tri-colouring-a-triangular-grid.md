@@ -1,6 +1,6 @@
 ---
 id: 5900f4291000cf542c50ff3c
-title: 'Problema 189: tri-colorare una griglia triangolare'
+title: 'Problem 189: Tri-coloring a triangular grid'
 challengeType: 1
 forumTopicId: 301825
 dashedName: problem-189-tri-colouring-a-triangular-grid
@@ -12,15 +12,15 @@ Considera la seguente configurazione di 64 triangoli:
 
 <img alt="64 triangoli disposti in modo da creare un triangolo più grande con lunghezza del lato di 8 triangoli" src="https://cdn.freecodecamp.org/curriculum/project-euler/tri-colouring-a-triangular-grid-1.gif" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
 
-We wish to colour the interior of each triangle with one of three colours: red, green or blue, so that no two neighboring triangles have the same colour. Tale colorazione è detta valida. Here, two triangles are said to be neighboring if they share an edge. Note: if they only share a vertex, then they are not neighbors.
+We wish to color the interior of each triangle with one of three colors: red, green or blue, so that no two neighboring triangles have the same color. Such a coloring shall be called valid. Here, two triangles are said to be neighboring if they share an edge. Note: if they only share a vertex, then they are not neighbors.
 
-Per esempio, ecco una colorazione valida della griglia di cui sopra:
+For example, here is a valid coloring of the above grid:
 
 <img alt="griglia colorata di 64 triangoli" src="https://cdn.freecodecamp.org/curriculum/project-euler/tri-colouring-a-triangular-grid-2.gif" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
 
-Una colorazione C' ottenuta da una colorazione C per rotazione o riflessione è considerata distinta da C a meno che le due non siano identiche.
+A coloring C' which is obtained from a coloring C by rotation or reflection is considered distinct from C unless the two are identical.
 
-Quante distinte colorazioni valide esistono per la configurazione di cui sopra?
+How many distinct valid colorings are there for the above configuration?
 
 # --hints--
 

@@ -14,7 +14,7 @@ A torta é circular. Ele começa cortando uma fatia inicial da torta ao longo de
 
 Enquanto houver ao menos uma fração $F$ determinada da torta restando, ele realiza o seguinte procedimento:
 
-- Ele faz duas fatias a partir do centro da torta até qualquer ponto do que resta da borda, qualquer ponto na borda restante da torta sendo igualmente provável. Isso dividirá o restante da torta em três pedaços.
+- He makes two slices from the pie center to any point of what is remaining of the pie border, any point on the remaining pie border equally likely. Isso dividirá o restante da torta em três pedaços.
 - Indo no sentido anti-horário a partir do corte inicial, ele pega os dois primeiros pedaços da torta e os come.
 
 Quando menos que uma fração $F$ da torta restar, ele para de repetir esse procedimento. Em vez disso, ele come toda a torta que resta.

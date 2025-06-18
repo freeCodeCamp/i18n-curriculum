@@ -8,7 +8,7 @@ dashedName: problem-151-paper-sheets-of-standard-sizes-an-expected-value-problem
 
 # --description--
 
-In einer Druckerei werden wöchentlich 16 Chargen (Jobs) ausgeführt, und jede Charge benötigt ein spezielles Farbpapier der Größe A5.
+A printing shop runs 16 batches (jobs) every week and each batch requires a sheet of special color-proofing paper of size A5.
 
 Jeden Montagmorgen öffnet der Vorarbeiter einen neuen Umschlag, der ein großes Blatt des Spezialpapiers im Format A1 enthält.
 

@@ -14,7 +14,7 @@ dashedName: problem-226-a-scoop-of-blancmange
 
 <img alt="рисунок кривої бланманже з колом С" src="https://cdn.freecodecamp.org/curriculum/project-euler/a-scoop-of-blancmange.gif" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
 
-Нехай $C$ буде колом з центром ($\frac{1}{4}$,$\frac{1}{2}$) та радіусом $\frac{1}{4}$, як показано на рисунку чорним.
+Let $C$ be the circle with center ($\frac{1}{4}$,$\frac{1}{2}$) and radius $\frac{1}{4}$, shown in black in the diagram.
 
 Яка площа під кривою бланманже обмежена колом $C$? Дайте відповідь, заокруглену до восьми знаків після коми у форматі 0.abcdefgh
 

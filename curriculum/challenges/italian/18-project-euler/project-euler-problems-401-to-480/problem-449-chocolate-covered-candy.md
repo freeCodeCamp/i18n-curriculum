@@ -8,9 +8,9 @@ dashedName: problem-449-chocolate-covered-candy
 
 # --description--
 
-Phil il pasticciere sta facendo una nuova partita di caramelle ricoperte di cioccolato. Il centro di ogni caramella ha la forma di un ellissoide di rivoluzione definito dall'equazione: $b^2x^2 + b^2y^2 + a^2z^2 = a^2b^2$.
+Phil il pasticciere sta facendo una nuova partita di caramelle ricoperte di cioccolato. Each candy center is shaped like an ellipsoid of revolution defined by the equation: $b^2x^2 + b^2y^2 + a^2z^2 = a^2b^2$.
 
-Phil vuole sapere quanto cioccolato è necessario per ricoprire il centro di una caramella con uno strato di cioccolato uniforme spesso un millimetro.
+Phil wants to know how much chocolate is needed to cover one candy center with a uniform coat of chocolate one millimeter thick.
 
 Se $a = 1$ mm e $b = 1$ mm, la quantità di cioccolato necessaria è $\frac{28}{3} \pi$ mm<sup>3</sup>
 

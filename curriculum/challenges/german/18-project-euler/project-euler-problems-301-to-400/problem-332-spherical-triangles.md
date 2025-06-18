@@ -12,7 +12,7 @@ Ein sphärisches Dreieck ist eine Figur, die auf der Oberfläche einer Kugel dur
 
 <img alt="sphärisches Dreieck, das auf der Oberfläche einer Kugel gebildet wird" src="https://cdn.freecodecamp.org/curriculum/project-euler/spherical-triangles.jpg" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
 
-Lasse $C(r)$ die Kugel mit dem Mittelpunkt (0,0,0) und dem Radius $r$ sein.
+Let $C(r)$ be the sphere with the center (0,0,0) and radius $r$.
 
 Lasse $Z(r)$ die Menge der Punkte auf der Oberfläche von $C(r)$ mit ganzzahligen Koordinaten sein.
 

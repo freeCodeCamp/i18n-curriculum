@@ -10,7 +10,7 @@ dashedName: problem-295-lenticular-holes
 
 2 つの円に囲まれた凸状の領域が次の条件を満たす場合、その領域を「レンズ状の穴」と呼びます。
 
-- 両方の円心が格子点上にある。
+- The centers of both circles are on lattice points.
 - 2 つの円が 2 つの相異なる格子点で交差する
 - 両方の円に囲まれた凸状の領域が格子点を内包しない。
 

@@ -11,9 +11,9 @@ dashedName: problem-275-balanced-sculptures
 Vamos definir uma escultura balanceada de ordem $n$ da seguinte forma:
 
 - Um poliminó composto por $n + 1$ blocos, sendo que $n$ são os "blocos" e o bloco restante (+1) é o "pedestal";
-- o pedestal tem seu centro na posição ($x = 0$, $y = 0$);
+- the plinth has its center at position ($x = 0$, $y = 0$);
 - os blocos têm coordenadas $y$ maiores que zero (portanto o pedestal é o único bloco inferior);
-- o centro de massa de todos os blocos, combinados, tem a coordenada $x$ igual a zero.
+- the center of mass of all the blocks, combined, has $x$-coordinate equal to zero.
 
 Ao contar as esculturas, todos os arranjos que são simplesmente reflexões sobre o eixo $y$, <u>não</u> são contados como distintos. Por exemplo, as 18 esculturas equilibradas de ordem 6 são mostradas abaixo. Observe que cada par de imagens espelhadas (sobre o eixo $y$) é contado como uma escultura:
 

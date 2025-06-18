@@ -1,6 +1,6 @@
 ---
 id: 5900f4751000cf542c50ff87
-title: 'Завдання 264: центри трикутників'
+title: 'Problem 264: Triangle Centers'
 challengeType: 1
 forumTopicId: 301913
 dashedName: problem-264-triangle-centres
@@ -11,8 +11,8 @@ dashedName: problem-264-triangle-centres
 Розглянемо всі трикутники, які задовільняють такі умови:
 
 - Усі вершини розташовані на точках сітки.
-- Центр описаного кола знаходиться на початку координат O.
-- Центр вписаного кола знаходиться на точці H(5, 0).
+- Circumcenter at the origin O.
+- Orthocenter at the point H(5, 0).
 
 Існує дев’ять таких трикутників, які мають $\text{периметр} ≤ 50$.
 
@@ -45,10 +45,10 @@ A(9, 2), B(2, -9), C(-6, 7)<br>
 
 # --hints--
 
-`triangleCentres()` має повернути `2816417.1055`.
+`triangleCenters()` should return `2816417.1055`.
 
 ```js
-assert.strictEqual(triangleCentres(), 2816417.1055);
+assert.strictEqual(triangleCenters(), 2816417.1055);
 ```
 
 # --seed--
@@ -56,12 +56,12 @@ assert.strictEqual(triangleCentres(), 2816417.1055);
 ## --seed-contents--
 
 ```js
-function triangleCentres() {
+function triangleCenters() {
 
   return true;
 }
 
-triangleCentres();
+triangleCenters();
 ```
 
 # --solutions--

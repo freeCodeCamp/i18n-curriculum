@@ -11,9 +11,9 @@ dashedName: problem-275-balanced-sculptures
 Definieren wir eine balancierte Skulptur der Ordnung $n$ wie folgt:
 
 - Ein Polyomino besteht aus $n + 1$ Spielsteinen, den sogenannten Blöcken ($n$ Spielsteine) und dem Sockel (restlicher Spielstein);
-- der Sockel hat seinen Mittelpunkt an der Position ($x = 0$, $y = 0$);
+- the plinth has its center at position ($x = 0$, $y = 0$);
 - die Blöcke haben $y$-Koordinaten größer als Null (daher ist der Sockel die einzigartige niedrigste Kachel);
-- der Massenschwerpunkt aller Blöcke zusammen hat die $x$-Koordinate gleich Null.
+- the center of mass of all the blocks, combined, has $x$-coordinate equal to zero.
 
 Bei der Zählung der Skulpturen werden alle Anordnungen, die lediglich Spiegelungen um die $y$-Achse sind, <u>nicht</u> als eindeutig gezählt. Zum Beispiel werden die 18 ausgewogenen Skulpturen der Reihenfolge 6 unten gezeigt; Beachten Sie, dass jedes Paar von Spiegelbildern (etwa die $y$-Achse) als eine Skulptur gezählt wird:
 

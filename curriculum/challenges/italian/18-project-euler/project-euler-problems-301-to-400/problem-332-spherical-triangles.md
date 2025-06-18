@@ -12,7 +12,7 @@ Un triangolo sferico è una figura formata sulla superficie di una sfera da tre 
 
 <img alt="triangolo sferico formato sulla superficie di una sfera" src="https://cdn.freecodecamp.org/curriculum/project-euler/spherical-triangles.jpg" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
 
-Sia $C(r)$ la sfera di centro (0,0,0) e raggio $r$.
+Let $C(r)$ be the sphere with the center (0,0,0) and radius $r$.
 
 Sia $Z(r)$ il set di punti sulla superficie di $C(r)$ con coordinate intere.
 

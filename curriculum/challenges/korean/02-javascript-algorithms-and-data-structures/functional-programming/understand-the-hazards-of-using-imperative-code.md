@@ -26,7 +26,7 @@ Functional programming is a good habit. It keeps your code easy to manage, and s
 
 # --instructions--
 
-편집기에서 코드를 시험해보시오. 이 코드는 프로그램에서 잘못된 동작을 일으키는 부작용을 가진 메소드를 사용합니다. `finalTabs.tabs`에 저장된 열린 탭의 마지막 목록은 `['FB', 'Gitter', 'Reddit', 'Twitter', 'Medium', 'new tab', 'Netflix', 'YouTube', 'Vine', 'GMail', 'Work mail', 'Docs', 'freeCodeCamp', 'new tab']`이어야 하지만 코드에 의해 생성된 목록은 조금 다릅니다.
+편집기에서 코드를 시험해보시오. It's using a method that has side effects in the program, causing incorrect behavior. `finalTabs.tabs`에 저장된 열린 탭의 마지막 목록은 `['FB', 'Gitter', 'Reddit', 'Twitter', 'Medium', 'new tab', 'Netflix', 'YouTube', 'Vine', 'GMail', 'Work mail', 'Docs', 'freeCodeCamp', 'new tab']`이어야 하지만 코드에 의해 생성된 목록은 조금 다릅니다.
 
 `Window.prototype.tabClose`를 변화시켜 올바른 탭을 삭제할 수 있도록 만드시오.
 

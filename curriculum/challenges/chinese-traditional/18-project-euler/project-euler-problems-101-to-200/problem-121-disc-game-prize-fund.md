@@ -8,7 +8,7 @@ dashedName: problem-121-disc-game-prize-fund
 
 # --description--
 
-A bag contains one red disc and one blue disc. In a game of chance a player takes a disc at random and its colour is noted. After each turn the disc is returned to the bag, an extra red disc is added, and another disc is taken at random.
+A bag contains one red disc and one blue disc. In a game of chance a player takes a disc at random and its color is noted. After each turn the disc is returned to the bag, an extra red disc is added, and another disc is taken at random.
 
 玩家支付 1 英鎊來參加遊戲，如果他在遊戲結束時獲得的藍盤比紅盤多則獲得勝利。
 
