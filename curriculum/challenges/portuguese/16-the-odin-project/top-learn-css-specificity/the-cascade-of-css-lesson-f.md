@@ -42,7 +42,7 @@ When comparing selectors, you may come across special symbols for the universal 
 
 ## --text--
 
-Com base no código CSS dado, qual tamanho de fonte seria aplicado aos elementos com as classes "class second-class"?
+Based on the given CSS code, which font size would be applied to an element that has both the `class` and `second-class` classes?
 
 ## --answers--
 
@@ -62,4 +62,4 @@ Com base no código CSS dado, qual tamanho de fonte seria aplicado aos elementos
 
 ## --video-solution--
 
-3
+1

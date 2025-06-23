@@ -11,10 +11,10 @@ Partiamo dall'esercizio precedente, in cui hai aggiunto più classi a un singolo
 
 1. Dovresti vedere uno sfondo nero con del testo bianco nel primo elemento `button`.
 1. Dovresti vedere uno sfondo giallo nel secondo elemento `button`.
-1. Dovresti impostare la dimensione del carattere a `28px` usando un selettore di raggruppamento.
-1. Dovresti vedere una lista di caratteri contenente `Helvetica` e `Times New Roman` con `sans-serif` come valore di ripiego.
+1. You should set a font size of `28px` using a selector list.
+1. You should have a list of fonts containing `Helvetica` and `Times New Roman` with `sans-serif` as a fallback in the selector list.
 1. Dovresti vedere un nome di classe unico per ogni elemento.
-1. Dovresti avere un selettore di raggruppamento per gli stili condivisi da entrambi gli elementi.
+1. You should have a selector list for styles that both elements share.
 
 # --hints--
 
@@ -41,7 +41,7 @@ assert.equal(style?.color, 'white');
 
 ```
 
-Dovresti impostare `font-size` per entrambi gli elementi su `28px` usando un selettore di raggruppamento.
+You should set the `font-size` for both elements to `28px` using a selector list.
 
 ```js
 const classOne = document.querySelectorAll('button')?.[0].classList?.[0];
@@ -54,7 +54,7 @@ function eitherOr() {
 assert.equal(eitherOr()?.fontSize, '28px');
 ```
 
-Dovresti avere un nome di classe univoco per ogni elemento.
+You should have a unique class name on each element.
 
 ```js
 const elementOneClasses = document.querySelectorAll('button')?.[0].classList;
@@ -66,7 +66,7 @@ for(let i = 0; i < elementOneClasses.length; i++){
 
 ```
 
-Dovresti avere un selettore di raggruppamento per gli stili condivisi da entrambi gli elementi.
+You should have a selector list for styles that both elements share.
 
 ```js
 const classOne = document.querySelectorAll('button')?.[0].classList?.[0];
@@ -79,7 +79,7 @@ function eitherOr() {
 assert.exists(eitherOr());
 ```
 
-Dovresti vedere una lista di caratteri contenente `Helvetica` e `Times New Roman` con `sans-serif` come valore di ripiego.
+You should have a list of fonts containing `Helvetica` and `Times New Roman` with `sans-serif` as a fallback in the selector list.
 
 ```js
 const classOne = document.querySelectorAll('button')?.[0].classList?.[0];

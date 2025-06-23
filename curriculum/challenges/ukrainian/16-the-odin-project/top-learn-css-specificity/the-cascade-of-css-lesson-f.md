@@ -42,7 +42,7 @@ dashedName: the-cascade-of-css-lesson-f
 
 ## --text--
 
-На основі наданого коду CSS, який розмір шрифту буде застосовано до елементів з класом `class second-class`?
+Based on the given CSS code, which font size would be applied to an element that has both the `class` and `second-class` classes?
 
 ## --answers--
 
@@ -62,4 +62,4 @@ dashedName: the-cascade-of-css-lesson-f
 
 ## --video-solution--
 
-3
+1
