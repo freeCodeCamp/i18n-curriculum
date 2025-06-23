@@ -11,10 +11,10 @@ dashedName: css-foundations-exercise-c
 
 1. Ви повинні бачити чорний фон та білий текст на першому елементі `button`.
 1. Ви повинні бачити жовтий фон на другому елементі `button`.
-1. Використайте селектор групування, щоб налаштувати розмір шрифту на `28px`.
-1. Ви повинні мати список шрифтів, який містить `Helvetica` та `Times New Roman`, а також `sans-serif` як запасний.
+1. You should set a font size of `28px` using a selector list.
+1. You should have a list of fonts containing `Helvetica` and `Times New Roman` with `sans-serif` as a fallback in the selector list.
 1. Ви повинні бачити унікальну назву класу для кожного елемента.
-1. Ви повинні мати селектор групування для стилів, які мають обидва елементи.
+1. You should have a selector list for styles that both elements share.
 
 # --hints--
 
@@ -41,7 +41,7 @@ assert.equal(style?.color, 'white');
 
 ```
 
-Використайте селектор групування, щоб налаштувати `font-size` обох елементів на `28px`.
+You should set the `font-size` for both elements to `28px` using a selector list.
 
 ```js
 const classOne = document.querySelectorAll('button')?.[0].classList?.[0];
@@ -54,7 +54,7 @@ function eitherOr() {
 assert.equal(eitherOr()?.fontSize, '28px');
 ```
 
-Кожен елемент повинен мати унікальний клас.
+You should have a unique class name on each element.
 
 ```js
 const elementOneClasses = document.querySelectorAll('button')?.[0].classList;
@@ -66,7 +66,7 @@ for(let i = 0; i < elementOneClasses.length; i++){
 
 ```
 
-Ви повинні мати селектор групування для стилів, які мають обидва елементи.
+You should have a selector list for styles that both elements share.
 
 ```js
 const classOne = document.querySelectorAll('button')?.[0].classList?.[0];
@@ -79,7 +79,7 @@ function eitherOr() {
 assert.exists(eitherOr());
 ```
 
-Ви повинні мати список шрифтів, який містить `Helvetica` та `Times New Roman`, а також `sans-serif` як запасний.
+You should have a list of fonts containing `Helvetica` and `Times New Roman` with `sans-serif` as a fallback in the selector list.
 
 ```js
 const classOne = document.querySelectorAll('button')?.[0].classList?.[0];
