@@ -1,6 +1,6 @@
 ---
 id: 5900f42b1000cf542c50ff3d
-title: 'Problema 190: massimizzare un prodotto pesato'
+title: 'Problem 190: Maximizing a weighted product'
 challengeType: 1
 forumTopicId: 301828
 dashedName: problem-190-maximising-a-weighted-product
@@ -8,7 +8,7 @@ dashedName: problem-190-maximising-a-weighted-product
 
 # --description--
 
-Sia $S_m = (x_1, x_2, \ldots, x_m)$ la $m$-upla di numeri reali poisitivi con $x_1 + x_2 + \cdots + x_m = m$ per i quali$P_m = x_1 \times {x_2}^2 \times \cdots \times {x_m}^m$ è massimizzato.
+Let $S_m = (x_1, x_2, \ldots, x_m)$ be the $m$-tuple of positive real numbers with $x_1 + x_2 + \cdots + x_m = m$ for which $P_m = x_1 \times {x_2}^2 \times \cdots \times {x_m}^m$ is maximized.
 
 Ad esempio, si può verificare che $[P_{10}] = 4112$ ([ ] è la funzione parte intera).
 
@@ -16,10 +16,10 @@ Trova $\sum {[P_m]}$ per $2 ≤ m ≤ 15$.
 
 # --hints--
 
-`maximisingWeightedProduct()` dovrebbe restituire `371048281`.
+`maximizingWeightedProduct()` should return `371048281`.
 
 ```js
-assert.strictEqual(maximisingWeightedProduct(), 371048281);
+assert.strictEqual(maximizingWeightedProduct(), 371048281);
 ```
 
 # --seed--
@@ -27,12 +27,12 @@ assert.strictEqual(maximisingWeightedProduct(), 371048281);
 ## --seed-contents--
 
 ```js
-function maximisingWeightedProduct() {
+function maximizingWeightedProduct() {
 
   return true;
 }
 
-maximisingWeightedProduct();
+maximizingWeightedProduct();
 ```
 
 # --solutions--

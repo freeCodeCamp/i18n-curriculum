@@ -16,7 +16,7 @@ Il giocatore 2 nel suo turno sceglie un numero intero $T$ e lancia la moneta $T$
 
 Il giocatore 1 va per primo. Il vincitore è chi guadagna per primo 100 o più punti.
 
-A ogni turno il Giocatore 2 seleziona il numero, $T$, di lanci di moneta che massimizza la probabilità della sua vincita.
+On each turn Player 2 selects the number, $T$, of coin tosses that maximizes the probability of her winning.
 
 Qual è la probabilità che il giocatore 2 vinca?
 
