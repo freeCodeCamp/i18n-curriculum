@@ -16,7 +16,7 @@ dashedName: problem-232-the-race
 
 最初に投げるのはプレイヤー 1 です。 勝者は、先に 100 点以上に達したプレイヤーです。
 
-プレイヤー 2 は自分のターンになるたびに、自分が勝つ確率が最も高くなるようなコイン投げの回数 $T$ を選びます。
+On each turn Player 2 selects the number, $T$, of coin tosses that maximizes the probability of her winning.
 
 プレイヤー 2 が勝つ確率を求めなさい。
 

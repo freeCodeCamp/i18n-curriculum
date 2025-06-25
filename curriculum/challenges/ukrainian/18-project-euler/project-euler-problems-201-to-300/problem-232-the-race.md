@@ -16,7 +16,7 @@ dashedName: problem-232-the-race
 
 Гравець 1 ходить першим. Переможе той, хто першим набере 100 або більше балів.
 
-Кожного разу гравець 2 обирає число спроб підкинути монету $T$, що збільшують ймовірність виграшу.
+On each turn Player 2 selects the number, $T$, of coin tosses that maximizes the probability of her winning.
 
 Яка ймовірність того, що виграє гравець 2?
 

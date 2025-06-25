@@ -16,7 +16,7 @@ Wenn Spieler 2 an der Reihe ist, wählt er eine positive Integer $T$ und wirft d
 
 Spieler 1 fängt an. Der Gewinner ist der erste, der 100 oder mehr Punkte erreicht.
 
-In jedem Zug wählt Spieler 2 die Anzahl $T$ der Münzwürfe, die seine Gewinnwahrscheinlichkeit maximiert.
+On each turn Player 2 selects the number, $T$, of coin tosses that maximizes the probability of her winning.
 
 Wie hoch ist die Wahrscheinlichkeit, dass Spieler 2 gewinnt?
 

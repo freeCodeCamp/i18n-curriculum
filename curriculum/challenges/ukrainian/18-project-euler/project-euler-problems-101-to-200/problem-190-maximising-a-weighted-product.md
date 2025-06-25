@@ -1,6 +1,6 @@
 ---
 id: 5900f42b1000cf542c50ff3d
-title: 'Завдання 190: максимізація зваженого добутку'
+title: 'Problem 190: Maximizing a weighted product'
 challengeType: 1
 forumTopicId: 301828
 dashedName: problem-190-maximising-a-weighted-product
@@ -8,7 +8,7 @@ dashedName: problem-190-maximising-a-weighted-product
 
 # --description--
 
-Нехай $S_m = (x_1, x_2, \ldots, x_m)$ буде $m$-кортежем натуральних чисел з властивістю $x_1 + x_2 + \cdots + x_m = m$, за яких $P_m = x_1 \times {x_2}^2 \times \cdots \times {x_m}^m$ є максимізованим.
+Let $S_m = (x_1, x_2, \ldots, x_m)$ be the $m$-tuple of positive real numbers with $x_1 + x_2 + \cdots + x_m = m$ for which $P_m = x_1 \times {x_2}^2 \times \cdots \times {x_m}^m$ is maximized.
 
 Наприклад, можна довести, що $[P_{10}] = 4112$ ([ ] є функцією цілої частини числа).
 
@@ -16,10 +16,10 @@ dashedName: problem-190-maximising-a-weighted-product
 
 # --hints--
 
-`maximisingWeightedProduct()` має повернути `371048281`.
+`maximizingWeightedProduct()` should return `371048281`.
 
 ```js
-assert.strictEqual(maximisingWeightedProduct(), 371048281);
+assert.strictEqual(maximizingWeightedProduct(), 371048281);
 ```
 
 # --seed--
@@ -27,12 +27,12 @@ assert.strictEqual(maximisingWeightedProduct(), 371048281);
 ## --seed-contents--
 
 ```js
-function maximisingWeightedProduct() {
+function maximizingWeightedProduct() {
 
   return true;
 }
 
-maximisingWeightedProduct();
+maximizingWeightedProduct();
 ```
 
 # --solutions--

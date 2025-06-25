@@ -16,7 +16,7 @@ Na vez do Jogador 2, ela escolhe um número inteiro positivo $T$ e joga a moeda 
 
 O jogador 1 joga primeiro. O vencedor é o primeiro a chegar a 100 pontos ou mais.
 
-Em cada turno, o Jogador 2 seleciona o número, $T$, de lançamentos da moeda que maximizam a probabilidade de sua vitória.
+On each turn Player 2 selects the number, $T$, of coin tosses that maximizes the probability of her winning.
 
 Qual é a probabilidade de o Jogador 2 vencer?
 
