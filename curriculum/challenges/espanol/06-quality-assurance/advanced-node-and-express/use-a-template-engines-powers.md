@@ -50,7 +50,7 @@ Debería verse así:
 res.render('index', { title: 'Hello', message: 'Please log in' });
 ```
 
-Ahora actualiza la página, y deberías ver esos valores renderizados en el lugar correcto, tal y como se indica en el archivo `index.pug`!
+Ahora actualiza la página, y Debes ver esos valores renderizados en el lugar correcto, tal y como se indica en el archivo `index.pug`!
 
 Envía tu página cuando creas que lo has hecho bien. Si te encuentras con errores, puedes revisar el <a href="https://forum.freecodecamp.org/t/advanced-node-and-express/567135#use-a-template-engines-power-2" target="_blank" rel="noopener noreferrer nofollow">proyecto completado hasta este punto</a>.
 

@@ -43,7 +43,7 @@ Estás son algunas contraseñas cifradas para probar la función cuando el valor
 - `da5a4e8cf89539e66097acd2f8af128acae2f8ae` debe retornar "q1w2e3r4t5"
 - `ea3f62d498e3b98557f9f9cd0d905028b3b019e1` debe retornar "bubbles1"
 
-La librería `hashlib` ya viene importada. Deberías considerar usarla en tu código. <a href="https://docs.python.org/3/library/hashlib.html" target="_blank" rel="noopener noreferrer nofollow">Aprende más sobre "hashlib" aquí</a>.
+La librería `hashlib` ya viene importada. Debes considerar usarla en tu código. <a href="https://docs.python.org/3/library/hashlib.html" target="_blank" rel="noopener noreferrer nofollow">Aprende más sobre "hashlib" aquí</a>.
 
 ## Dessarrollo
 

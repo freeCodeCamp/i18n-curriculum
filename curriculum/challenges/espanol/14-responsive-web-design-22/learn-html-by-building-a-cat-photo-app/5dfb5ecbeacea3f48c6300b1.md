@@ -28,7 +28,7 @@ Dentro del elemento ul se anidan 3 elementos de la lista para mostrar tres cosas
 
 # --hints--
 
-Deberías tener tres elementos `li`. Cada elemento `li` debe tener su propia etiqueta de apertura y cierre.
+Debes tener tres elementos `li`. Cada elemento `li` debe tener su propia etiqueta de apertura y cierre.
 
 ```js
 assert.lengthOf(document.querySelectorAll('li'),3)

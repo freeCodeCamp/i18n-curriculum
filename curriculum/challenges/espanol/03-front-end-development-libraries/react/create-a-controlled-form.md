@@ -18,7 +18,7 @@ Hemos añadido un botón que envía el formulario. Puedes ver que tiene el `type
 
 **Nota:** También debes llamar a `event.preventDefault()` en el controlador de envío, para evitar el comportamiento predeterminado de envío de formulario que actualizará la página web. Para la comodidad de los campistas, el comportamiento predeterminado se ha desactivado aquí para evitar que las actualizaciones restablezcan el código de desafío.
 
-Por último, crea una etiqueta `h1` después del `form` que renderiza el valor de `submit` del `state` del componente. A continuación, puedes escribir en el formulario y hacer clic en el botón (o pulsar intro), y deberías ver tu entrada renderizada en la página.
+Por último, crea una etiqueta `h1` después del `form` que renderiza el valor de `submit` del `state` del componente. A continuación, puedes escribir en el formulario y hacer clic en el botón (o pulsar intro), y Debes ver tu entrada renderizada en la página.
 
 # --hints--
 
