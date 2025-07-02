@@ -62,7 +62,7 @@ Envía tu página cuando creas que lo has hecho bien. Si tu ejecución lleva a e
 
 # --hints--
 
-Deberías tener una ruta a `/register` y mostrar un formulario en la página de inicio.
+Debes tener una ruta a `/register` y mostrar un formulario en la página de inicio.
 
 ```js
 async () => {

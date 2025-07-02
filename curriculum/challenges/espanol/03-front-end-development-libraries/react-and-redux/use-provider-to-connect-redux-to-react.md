@@ -20,7 +20,7 @@ React Redux ofrece si API con dos características clave: `Provider` y `connect`
 
 # --instructions--
 
-El editor de código ahora muestra todo tu código Redux y React de los últimos desafíos. Incluye el almacén Redux, las acciones y el componente `DisplayMessages`. La única pieza nueva es el componente `AppWrapper` de la parte inferior. Usa este componente de nivel superior para renderizar el `Provider` de `ReactRedux`, y pasa el almacén Redux como prop. Luego, renderiza el componente `DisplayMessages` como hijo. Una vez que hayas terminado, deberías ver tu componente React renderizado en la página.
+El editor de código ahora muestra todo tu código Redux y React de los últimos desafíos. Incluye el almacén Redux, las acciones y el componente `DisplayMessages`. La única pieza nueva es el componente `AppWrapper` de la parte inferior. Usa este componente de nivel superior para renderizar el `Provider` de `ReactRedux`, y pasa el almacén Redux como prop. Luego, renderiza el componente `DisplayMessages` como hijo. Una vez que hayas terminado, Debes ver tu componente React renderizado en la página.
 
 **Nota:** React Redux está disponible como una variable global aquí, por lo que puedes acceder al "Provider" con notación de puntos. El código del editor aprovecha esto y lo establece en una constante `Provider` para que lo uses en el método de renderizado `AppWrapper`.
 

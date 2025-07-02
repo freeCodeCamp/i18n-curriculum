@@ -10,7 +10,7 @@ dashedName: how-to-use-passport-strategies
 
 En el archivo `index.pug` proporcionado, hay un formulario de inicio de sesion. Esta oculto debido al JavaScript en línea `if showLogin` con el formulatio indentado luego de este.
 
-En el `res.render` para esa página, agrega una nueva variable para el objeto `showLogin: true`. Cuando actualices tu página, entonces deberas ver el formulario! Este formulario est configurado para **POST** en `/login`. Así que, aquí es donde tu deberías configurar para aceptar la petición POST y autenticar al usuario.
+En el `res.render` para esa página, agrega una nueva variable para el objeto `showLogin: true`. Cuando actualices tu página, entonces deberas ver el formulario! Este formulario est configurado para **POST** en `/login`. Así que, aquí es donde tu Debes configurar para aceptar la petición POST y autenticar al usuario.
 
 Para este desafío, tu debes agregar la ruta `/login` para aceptar una petición POST. Para autenticarse en esta ruta, se necesita agregar un middleware para hacer eso antes de enviar una respuesta. Esto se hace pasando otro argumento con el middleware antes que tu respuesta. El middleware para usar es `passport.authenticate('local')`.
 

@@ -14,21 +14,21 @@ El sitio web constará de una página de índice principal que tendrá enlaces a
 1. La página de tu receta debe contener una etiqueta `DOCTYPE`.
 1. Tu página de receta debe incluir un elemento `html` con un elemento `head` y `body` como hijos.
 1. Debes tener un elemento `title` dentro del elemento `head` con el texto <codeThe Odin Recipes</code>.
-1. Deberías ver un elemento `h1` que tiene el texto `Creamy Chocolate Fudge`.
+1. Debes ver un elemento `h1` que tiene el texto `Creamy Chocolate Fudge`.
 1. Debes ver una imagen relacionada con un atributo `alt`.
 1. Debes tener un elemento `h2` con el texto `Description` debajo de la imagen.
 1. Debes ver algunos párrafos debajo de,`Description` que describan la receta.
 1. Debes tener un elemento `h2` con el texto `Ingredients`.
 1. Debajo del título `Ingredients` debe haber una lista desordenada con los ingredientes necesarios para la receta.
 1. Debajo de la lista de ingredientes añade otro título llamado `Steps`.
-1. Deberías ver una lista ordenada con algunos de los pasos necesarios para completar la receta.
+1. Debes ver una lista ordenada con algunos de los pasos necesarios para completar la receta.
 1. Debajo de los pasos, debe haber un elemento `h2` con el texto `More Recipes`.
-1. Deberías ver algunos enlaces a otras recetas, dentro de una lista desordenada que con elementos anchor dentro de los elementos de lista.
+1. Debes ver algunos enlaces a otras recetas, dentro de una lista desordenada que con elementos anchor dentro de los elementos de lista.
 1. Estos elementos ancla deberían tener un atributo `href` con el valor `#`.
 
 # --hints--
 
-Deberías tener una etiqueta `DOCTYPE`.
+Debes tener una etiqueta `DOCTYPE`.
 
 ```js
 assert(code.match(/<!DOCTYPE\s+?html\s*?>/gi));
@@ -44,7 +44,7 @@ const body = document.querySelectorAll('html > body')[0];
 assert(html && head && body);
 ```
 
-Deberías tener un elemento `title` dentro del elemento `head` con el texto `The Odin Recipes`.
+Debes tener un elemento `title` dentro del elemento `head` con el texto `The Odin Recipes`.
 
 ```js
 assert(document.querySelectorAll('HEAD > TITLE')[0]?.innerText == 'The Odin Recipes');

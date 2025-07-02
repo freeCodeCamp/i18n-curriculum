@@ -39,7 +39,7 @@ assert(/sentence\. This/.test(myStr));
 assert(myStr === 'This is the first sentence. This is the second sentence.');
 ```
 
-Deberías usar el operador `+=` para construir `myStr`.
+Debes usar el operador `+=` para construir `myStr`.
 
 ```js
 assert(__helpers.removeJSComments(code).match(/myStr\s*\+=\s*(["']).*\1/g));

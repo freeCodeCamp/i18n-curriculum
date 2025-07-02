@@ -82,42 +82,42 @@ function _randomNumber(max) {
 
 # --hints--
 
-Deberías tener el enlace del archivo HTML al archivo JavasCript.
+Debes tener el enlace del archivo HTML al archivo JavasCript.
 
 ```js
 const script = document.querySelector('script[data-src$="script.js"]');
 assert.isNotNull(script); 
 ```
 
-Deberías tener una variable global llamada `price`.
+Debes tener una variable global llamada `price`.
 
 ```js
 price = 10;
 assert.strictEqual(price, 10);
 ```
 
-Deberías tener una variable global llamada `cid`.
+Debes tener una variable global llamada `cid`.
 
 ```js
 cid = []; 
 assert.isDefined(cid); 
 ```
 
-Deberías tener un elemento `input` con un `id` = `"cash"`.
+Debes tener un elemento `input` con un `id` = `"cash"`.
 
 ```js
 const el = document.getElementById('cash');
 assert.strictEqual(el?.nodeName?.toLowerCase(), 'input');
 ```
 
-Deberías tener un elemento `div`, `span`, o `p` con un `id` = `"change-due"`.
+Debes tener un elemento `div`, `span`, o `p` con un `id` = `"change-due"`.
 
 ```js
 const el = document.getElementById('change-due');
 assert(['div', 'span', 'p'].includes(el?.nodeName?.toLowerCase()));
 ```
 
-Deberías tener un elemento `button` con un `id` = `"purchase-btn"`.
+Debes tener un elemento `button` con un `id` = `"purchase-btn"`.
 
 ```js
 const el = document.getElementById('purchase-btn');
