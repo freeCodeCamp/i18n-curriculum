@@ -39,7 +39,7 @@ Si lo deseas, puedes ajustar los epochs y el tamaño por lotes, pero no es neces
 
 Las siguientes instrucciones corresponden a números de celda específicos, indicados con un comentario en la parte superior de la celda (como `# 3`).
 
-## Cell 3
+## Celda 3
 
 ¡Ahora es tu turno! Establecer correctamente cada una de las variables de esta celda. (Ya no deberían ser iguales a `None`.)
 

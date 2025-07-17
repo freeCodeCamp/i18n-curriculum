@@ -1,6 +1,6 @@
 ---
 id: 657e1fd7b5ffaebc0ff4bd9f
-title: Task 26
+title: Tarea 26
 challengeType: 19
 dashedName: task-26
 ---
@@ -9,41 +9,41 @@ dashedName: task-26
 
 # --description--
 
-Listen to the audio and answer the question below.
+Escucha el audio y responde a la pregunta.
 
 # --questions--
 
 ## --text--
 
-Why is Tom thanking Sophie?
+¿Por qué está agradeciendo Tom a Sophie?
 
 ## --answers--
 
-For giving him a time management app.
+Por darle una app de gestión del tiempo.
 
 ### --feedback--
 
-Tom is thanking Sophie for tips, not for giving her an app.
+Tom está agradeciendo a Sophie por los consejos, no por darle una app.
 
 ---
 
-Because he finds Sophie's tips helpful.
+Porque encuentra útiles los consejos de Sophie.
 
 ---
 
-For inviting him to lunch.
+Por invitarlo a almorzar.
 
 ### --feedback--
 
-The thank you is for the advice, not for a lunch invitation.
+El agradecimiento es por el consejo, no por una invitación a almorzar.
 
 ---
 
-For helping him with a project.
+Por ayudarlo con un proyecto.
 
 ### --feedback--
 
-Tom's gratitude is related to the tips about organization, not specific project help.
+La gratitud de Tom está relacionada con los consejos sobre organización, no con ayuda específica en un proyecto.
 
 ## --video-solution--
 

@@ -9,7 +9,7 @@ dashedName: task-105
 
 # --description--
 
-Listen to the audio to complete the sentence below.
+Escucha el audio para completar la oración de abajo.
 
 # --fillInTheBlank--
 
@@ -23,7 +23,7 @@ Listen to the audio to complete the sentence below.
 
 ### --feedback--
 
-Shows a requirement.
+Muestra un requisito.
 
 ---
 
@@ -31,7 +31,7 @@ Shows a requirement.
 
 ### --feedback--
 
-Used with the previous word to express obligation.
+Usado con la palabra anterior para expresar obligación.
 
 ---
 
@@ -39,7 +39,7 @@ Used with the previous word to express obligation.
 
 ### --feedback--
 
-Means right away, without delay.
+Significa de inmediato, sin demora.
 
 # --scene--
 

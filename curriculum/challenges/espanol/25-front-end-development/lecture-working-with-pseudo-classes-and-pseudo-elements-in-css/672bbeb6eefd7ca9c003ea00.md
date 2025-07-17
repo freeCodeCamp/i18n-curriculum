@@ -1,6 +1,6 @@
 ---
 id: 672bbeb6eefd7ca9c003ea00
-title: What Are Examples of Tree-structural Pseudo-classes?
+title: '¿Cuáles son ejemplos de pseudo-clases estructurales de árbol?'
 challengeType: 11
 videoId: 7lQACnY4opw
 dashedName: what-are-examples-of-tree-structural-pseudo-classes
@@ -8,15 +8,15 @@ dashedName: what-are-examples-of-tree-structural-pseudo-classes
 
 # --description--
 
-Watch the video or read the transcript and answer the questions below.
+Mira el video o lee la transcripción y responde las preguntas a continuación.
 
 # --transcript--
 
-What are examples of tree-structural pseudo-classes?
+¿Cuáles son ejemplos de pseudo-clases estructurales de árbol?
 
-Tree-structural pseudo-classes allow you to target and style elements based on their position within the document tree. The document tree refers to the hierarchical structure of elements in an HTML document.
+Las pseudo-clases estructurales de árbol te permiten apuntar y estilizar elementos basados en su posición dentro del árbol del documento. El árbol del documento se refiere a la estructura jerárquica de elementos en un documento HTML.
 
-Here is a list of tree-structural pseudo-classes:
+Aquí hay una lista de pseudo-clases estructurales de árbol:
 
 - `:root`
 - `:empty`
@@ -30,9 +30,9 @@ Here is a list of tree-structural pseudo-classes:
 - `:last-of-type`
 - `:only-of-type`
 
-Let's take a closer look at each of the tree-structural pseudo-classes, accompanied by examples.
+Echemos un vistazo más de cerca a cada una de las pseudo-clases estructurales de árbol, acompañadas de ejemplos.
 
-​​The `:root` pseudo-class is usually the root `html` element. It helps you target the highest level in the document so you can apply a common style to the entire document.
+La pseudo-clase ​​`:root` es usualmente el elemento raíz `html`. Te ayuda a apuntar al nivel más alto en el documento para que puedas aplicar un estilo común a todo el documento.
 
 ```css
 :root {
@@ -41,7 +41,7 @@ Let's take a closer look at each of the tree-structural pseudo-classes, accompan
 }
 ```
 
-The `:root` pseudo-class is also commonly used in setting CSS variables:
+La pseudo-clase `:root` se usa comúnmente también en la configuración de variables CSS:
 
 ```css
 :root {
@@ -51,9 +51,9 @@ The `:root` pseudo-class is also commonly used in setting CSS variables:
 }
 ```
 
-With CSS variables, you get to store values and reuse them in your stylesheet. You will learn more about these later on.
+Con variables CSS, puedes almacenar valores y reutilizarlos en tu hoja de estilo. Aprenderás más sobre esto más adelante.
 
-Empty elements, that is, elements with no children other than white space, are also included in the document tree. That's why there's an `:empty` pseudo-class to target empty elements. For example, this HTML code has two empty list items:
+Los elementos vacíos, es decir, elementos sin hijos distintos del espacio en blanco, también se incluyen en el árbol del documento. Por eso existe una pseudo-clase `:empty` para apuntar a elementos vacíos. Por ejemplo, este código HTML tiene dos elementos de lista vacíos:
 
 ```html
 <ul>
@@ -65,7 +65,7 @@ Empty elements, that is, elements with no children other than white space, are a
 </ul>
 ```
 
-With the `:empty` pseudo-class, you can style the empty list items differently:
+Con la pseudo-clase `:empty`, puedes estilizar los elementos de lista vacíos de manera diferente:
 
 ```css
 :empty {
@@ -73,7 +73,7 @@ With the `:empty` pseudo-class, you can style the empty list items differently:
 }
 ```
 
-The most practical thing to do with the empty list items is probably not displaying them at all:
+Lo más práctico con los elementos de lista vacíos es probablemente no mostrarlos en absoluto:
 
 ```css
 :empty {
@@ -81,9 +81,9 @@ The most practical thing to do with the empty list items is probably not display
 }
 ```
 
-`:nth-child(n)` allows you to select elements based on their position within a parent, while `:nth-last-child(n)` enables you to select elements by counting from the end. The `n` can be a specific number or a keyword like `odd` or `even`. This is incredibly useful in styling table cells based on position: even and odd.
+`:nth-child(n)` te permite seleccionar elementos basados en su posición dentro de un padre, mientras `:nth-last-child(n)` te permite seleccionar elementos contando desde el final. El `n` puede ser un número específico o una palabra clave como `odd` o `even`. Esto es increíblemente útil en el estilizado de celdas de tabla basadas en su posición: par e impar.
 
-Here's an HTML example of a fruit price list table:
+Aquí hay un ejemplo en HTML de una tabla de precios de frutas:
 
 ```html
 <table>
@@ -106,7 +106,7 @@ Here's an HTML example of a fruit price list table:
 </table>
 ```
 
-Here's the CSS using the `:nth-child` pseudo-class to target the table cells based on odd and even positions:
+Aquí está el CSS utilizando la pseudo-clase `:nth-child` para apuntar a las celdas de la tabla basadas en posiciones pares e impares:
 
 ```css
 th,
@@ -124,13 +124,13 @@ tr:nth-child(odd) {
 }
 ```
 
-The `:first-child`, `:last-child`, and `:only-child` pseudo-classes all act on items within a parent container or the entire document.
+Las pseudo-clases `:first-child`, `:last-child` y `:only-child` actúan sobre elementos dentro de un contenedor padre o todo el documento.
 
-- `:first-child` selects the first element in a parent element or the document.
-- `:last-child` selects the last element in a parent element or the document.
-- `:only-child` selects the only element in a parent element or the document.
+- `:first-child` selecciona el primer elemento en un elemento padre o el documento.
+- `:last-child` selecciona el último elemento en un elemento padre o el documento.
+- `:only-child` selecciona el único elemento en un elemento padre o el documento.
 
-Using the `:first-child` and `:last-child` pseudo-classes will select both `Item 1` and `Item 3` in this HTML:
+Usando las pseudo-clases `:first-child` y `:last-child` se seleccionarán ambos `Item 1` y `Item 3` en este HTML:
 
 ```html
 <ul>
@@ -140,7 +140,7 @@ Using the `:first-child` and `:last-child` pseudo-classes will select both `Item
 </ul>
 ```
 
-Here's the CSS:
+Aquí está el CSS:
 
 ```css
 li:first-child {
@@ -152,7 +152,7 @@ li:last-child {
 }
 ```
 
-If you have more unordered lists on the page, you have to be more specific with the selection:
+Si tienes más listas desordenadas en la página, debes ser más específico con la selección:
 
 ```css
 ul li:first-child {
@@ -164,7 +164,7 @@ ul li:last-child {
 }
 ```
 
-To show you how the `:only-child` pseudo-class works, here's an HTML example with two separate `div` elements:
+Para mostrarte cómo funciona la pseudo-clase `:only-child`, aquí hay un ejemplo en HTML con dos elementos `div` por separado:
 
 ```html
 <div class="container">
@@ -177,7 +177,7 @@ To show you how the `:only-child` pseudo-class works, here's an HTML example wit
 </div>
 ```
 
-Using the `:only-child` pseudo-class ensures only the `div` element with a single child is selected:
+Usar la pseudo-clase `:only-child` asegura que solo se seleccione el elemento `div` con un solo hijo:
 
 ```css
 .container div:only-child {
@@ -187,9 +187,9 @@ Using the `:only-child` pseudo-class ensures only the `div` element with a singl
 }
 ```
 
-The `:first-of-type` and `:last-of-type` pseudo-classes select the first and last occurrence of a specific element type within its parent. They are useful for applying unique styles to the first or last instance of that element type among its siblings.
+Las pseudo-clases `:first-of-type` y `:last-of-type` seleccionan la primera y última aparición de un tipo de elemento específico dentro de su padre. Son útiles para aplicar estilos únicos a la primera o última instancia de ese tipo de elemento entre sus hermanos.
 
-In the HTML below, `:first-of-type` and `:last-of-type` applies to the first element and last element within the `section` element:
+En el HTML a continuación, `:first-of-type` y `:last-of-type` se aplican al primer elemento y al último elemento dentro del elemento `section`:
 
 ```html
 <section>
@@ -204,7 +204,7 @@ In the HTML below, `:first-of-type` and `:last-of-type` applies to the first ele
 </section>
 ```
 
-Here's the CSS:
+Aquí está el CSS:
 
 ```css
 section p:first-of-type {
@@ -216,7 +216,7 @@ section p:last-of-type {
 }
 ```
 
-`:nth-of-type(n)` allows you to select a specific element within its parent based on its position among siblings of the same type. For instance, in the HTML below, `:nth-of-type(2)` targets the second element in the container:
+`:nth-of-type(n)` te permite seleccionar un elemento específico dentro de su padre basado en su posición entre hermanos del mismo tipo. Por ejemplo, en el HTML a continuación, `:nth-of-type(2)` apunta al segundo elemento en el contenedor:
 
 ```html
 <div class="container">
@@ -228,7 +228,7 @@ section p:last-of-type {
 </div>
 ```
 
-Here's the CSS:
+Aquí está el CSS:
 
 ```css
 p:nth-of-type(2) {
@@ -237,9 +237,9 @@ p:nth-of-type(2) {
 }
 ```
 
-`:only-of-type` selects an element if it's the only one of its type within its parent. This can be useful for emphasizing single items or ensuring that they are styled differently when they’re not part of a group.
+`:only-of-type` selecciona un elemento si es el único de su tipo dentro de su padre. Esto puede ser útil para enfatizar elementos únicos o asegurarse de que se resalten de manera diferente cuando no forman parte de un grupo.
 
-In the HTML below, there are two `div` elements with one having a single element:
+En el HTML a continuación, hay dos elementos `div` con uno teniendo un solo elemento:
 
 ```html
 <div class="container">
@@ -252,7 +252,7 @@ In the HTML below, there are two `div` elements with one having a single element
 </div>
 ```
 
-Here's the CSS that only applies to the first container:
+Aquí está el CSS que solo se aplica al primer contenedor:
 
 ```css
 p:only-of-type {
@@ -264,35 +264,35 @@ p:only-of-type {
 
 ## --text--
 
-What is the difference between the `:first-of-type` and `:last-of-type` pseudo-classes?
+¿Cuál es la diferencia entre la `:first-of-type` y la `:last-of-type` pseudo-clases?
 
 ## --answers--
 
-`:first-of-type` targets the first element of a specific type within its parent, while `:last-of-type` targets the last element of a different type.
+`:first-of-type` apunta al primer elemento de un tipo específico dentro de su padre, mientras `:last-of-type` apunta al último elemento de un tipo diferente.
 
 ### --feedback--
 
-Consider how these pseudo-classes help you style the first and last instances of a particular tag, like `p` or `h1`.
+Considera cómo estas pseudo-clases te ayudan a estilizar las primeras y últimas instancias de una etiqueta específica, como `p` o `h1`.
 
 ---
 
-`:first-of-type` and `:last-of-type` both target the first occurrence of an element but in different sections of the document.
+`:first-of-type` y `:last-of-type` ambos apuntan a la primera aparición de un elemento pero en secciones diferentes del documento.
 
 ### --feedback--
 
-Consider how these pseudo-classes help you style the first and last instances of a particular tag, like `p` or `h1`.
+Considera cómo estas pseudo-clases te ayudan a estilizar las primeras y últimas instancias de una etiqueta específica, como `p` o `h1`.
 
 ---
 
-`:first-of-type` selects the first occurrence of a specific element type within its parent, while `:last-of-type` selects the last occurrence of that same element type within its parent.
+`:first-of-type` selecciona la primera aparición de un tipo de elemento específico dentro de su padre, mientras `:last-of-type` selecciona la última aparición de ese mismo tipo de elemento dentro de su padre.
 
 ---
 
-`:last-of-type` applies styles to the first and last elements within the document, while `:last-of-type` applies styles to all elements of a specific type.
+`:last-of-type` aplica estilos a los primeros y últimos elementos dentro del documento, mientras `:last-of-type` aplica estilos a todos los elementos de un tipo específico.
 
 ### --feedback--
 
-Consider how these pseudo-classes help you style the first and last instances of a particular tag, like `p` or `h1`.
+Considera cómo estas pseudo-clases te ayudan a estilizar las primeras y últimas instancias de una etiqueta específica, como `p` o `h1`.
 
 ## --video-solution--
 
@@ -300,35 +300,35 @@ Consider how these pseudo-classes help you style the first and last instances of
 
 ## --text--
 
-What is the difference between the `:first-child` and `:last-child` pseudo-classes?
+¿Cuál es la diferencia entre la `:first-child` y la `:last-child` pseudo-clases?
 
 ## --answers--
 
-`:first-child` targets the first element within its parent, while `:last-child` targets the last element within a different parent.
+`:first-child` apunta al primer elemento dentro de su padre, mientras `:last-child` apunta al último elemento dentro de un padre diferente.
 
 ### --feedback--
 
-Think about how the two pseudo-classes help you style the first and last elements within the same parent container.
+Piensa en cómo las dos pseudo-clases te ayudan a estilizar los primeros y últimos elementos dentro del mismo contenedor padre.
 
 ---
 
-`:first-child` targets the first element within its parent, while `:last-child` targets the last element within the same parent.
+`:first-child` apunta al primer elemento dentro de su padre, mientras `:last-child` apunta al último elemento dentro del mismo padre.
 
 ---
 
-`:first-child` targets the first element of a specific type within its parent, while `:last-child` targets the last element of a different type within its parent.
+`:first-child` apunta al primer elemento de un tipo específico dentro de su padre, mientras `:last-child` apunta al último elemento de un tipo diferente dentro de su padre.
 
 ### --feedback--
 
-Think about how the two pseudo-classes help you style the first and last elements within the same parent container.
+Piensa en cómo las dos pseudo-clases te ayudan a estilizar los primeros y últimos elementos dentro del mismo contenedor padre.
 
 ---
 
-`:first-child` targets the first and last elements within a parent, while `:last-child` targets all other elements.
+`:first-child` apunta a los primeros y últimos elementos dentro de un padre, mientras `:last-child` apunta a todos los demás elementos.
 
 ### --feedback--
 
-Think about how the two pseudo-classes help you style the first and last elements within the same parent container.
+Piensa en cómo las dos pseudo-clases te ayudan a estilizar los primeros y últimos elementos dentro del mismo contenedor padre.
 
 ## --video-solution--
 
@@ -336,7 +336,7 @@ Think about how the two pseudo-classes help you style the first and last element
 
 ## --text--
 
-Which pseudo-class allows you to target elements that have no children, including those that contain only whitespace?
+¿Cuál pseudo-clase te permite apuntar a elementos que no tienen hijos, incluidos aquellos que contienen solo espacios en blanco?
 
 ## --answers--
 
@@ -348,7 +348,7 @@ Which pseudo-class allows you to target elements that have no children, includin
 
 ### --feedback--
 
-Think about how you can style elements that do not have content.
+Piensa en cómo puedes estilizar elementos que no tienen contenido.
 
 ---
 
@@ -356,7 +356,7 @@ Think about how you can style elements that do not have content.
 
 ### --feedback--
 
-Think about how you can style elements that do not have content.
+Piensa en cómo puedes estilizar elementos que no tienen contenido.
 
 ---
 
@@ -364,7 +364,7 @@ Think about how you can style elements that do not have content.
 
 ### --feedback--
 
-Think about how you can style elements that do not have content.
+Piensa en cómo puedes estilizar elementos que no tienen contenido.
 
 ## --video-solution--
 

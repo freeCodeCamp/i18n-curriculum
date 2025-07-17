@@ -7,19 +7,19 @@ dashedName: task-149
 
 # --description--
 
-Just like when you learned about the pronoun `he`, pronouns like `she` are used to refer to female individuals. They help avoid repetition in conversation. Look at this part of the dialogue:
+Así como cuando aprendiste sobre el pronombre `he`, pronombres como `she` se utilizan para referirse a individuos femeninos. Ayudan a evitar la repetición en la conversación. Mira esta parte del diálogo:
 
 Sophie: `Oh, come on, Brian!`
 
-Brian: `But it is true. She's the person to go to if you need help!`
+Brian: `Pero es verdad. Ella es la persona a la que acudir si necesitas ayuda!`
 
-Here, `She` is used by Brian to refer to Sophie. Instead of repeating Sophie's name, Brian uses the pronoun `she` to make the conversation smoother and avoid redundancy.
+Here, `She` is used by Brian to refer to Sophie. En lugar de repetir el nombre de Sophie, Brian usa el pronombre `she` para hacer la conversación más fluida y evitar redundancias.
 
 # --questions--
 
 ## --text--
 
-In the dialogue, which word does Brian use to refer to Sophie without repeating her name?
+En el diálogo, ¿qué palabra usa Brian para referirse a Sophie sin repetir su nombre?
 
 ## --answers--
 
@@ -27,7 +27,7 @@ In the dialogue, which word does Brian use to refer to Sophie without repeating 
 
 ### --feedback--
 
-`He` refers to a male.
+`He` se refiere a un masculino.
 
 ---
 
@@ -35,7 +35,7 @@ In the dialogue, which word does Brian use to refer to Sophie without repeating 
 
 ### --feedback--
 
-`They` is plural and refers to more than one person.
+`They` es plural y se refiere a más de una persona.
 
 ---
 
@@ -43,7 +43,7 @@ In the dialogue, which word does Brian use to refer to Sophie without repeating 
 
 ### --feedback--
 
-`It` is usually used for things or animals.
+`It` generalmente se usa para cosas o animales.
 
 ---
 
@@ -51,7 +51,7 @@ In the dialogue, which word does Brian use to refer to Sophie without repeating 
 
 ### --feedback--
 
-`She` refers to a female person.
+`She` se refiere a una persona femenina.
 
 ## --video-solution--
 

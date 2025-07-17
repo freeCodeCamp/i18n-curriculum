@@ -1,26 +1,26 @@
 ---
 id: 618a16d21bd3dad1bb3aa8ef
-title: Step 36
+title: Paso 36
 challengeType: 0
 dashedName: step-36
 ---
 
 # --description--
 
-Now it's time to add other details to the markers, starting with the first one.
+Ahora es el momento de añadir otros detalles a los marcadores, comenzando con el primero.
 
-In the first marker `div` element, change the class `one` to `red`.
+En el primer elemento de marcador `div`, cambia la clase `one` a `red`.
 
 # --hints--
 
-Your first marker `div` should not have the class `one`.
+Tu primer marcador `div` no debe tener la clase `one`.
 
 ```js
 const containerFirstChild = [...document.querySelector('.container')?.children][0];
 assert.isFalse(containerFirstChild?.classList?.contains('one'));
 ```
 
-Your first marker `div` should have the classes `marker` and `red`.
+Tu primer marcador `div` debe tener las clases `marker` y `red`.
 
 ```js
 const containerFirstChild = [...document.querySelector('.container')?.children][0];

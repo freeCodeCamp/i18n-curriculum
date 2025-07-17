@@ -1,6 +1,6 @@
 ---
 id: 65f6f9e9cfbda7f9c04e8af7
-title: Task 41
+title: Tarea 41
 challengeType: 19
 dashedName: task-41
 ---
@@ -9,41 +9,41 @@ dashedName: task-41
 
 # --description--
 
-The phrase `by the end of it` is commonly used in English to refer to the conclusion or final part of a process or period of time. It implies that at the completion of a certain activity, a specific result or understanding will be achieved.
+La frase `by the end of it` se usa comúnmente en inglés para referirse a la conclusión o parte final de un proceso o período de tiempo. Implica que al completar una cierta actividad, se logrará un resultado o comprensión específica.
 
 # --questions--
 
 ## --text--
 
-In the dialogue, what does Brian mean by `by the end of it`?
+En el diálogo, ¿qué significa Brian con `by the end of it`?
 
 ## --answers--
 
-They will stop the investigation.
+Detendrán la investigación.
 
 ### --feedback--
 
-This phrase is about reaching a conclusion, not necessarily stopping the activity.
+Esta frase trata sobre llegar a una conclusión, no necesariamente detener la actividad.
 
 ---
 
-They will start another activity.
+Comenzarán otra actividad.
 
 ### --feedback--
 
-Brian is referring to the end of the current investigation, not starting something new.
+Brian se refiere al final de la investigación actual, no a comenzar algo nuevo.
 
 ---
 
-They will take a break.
+Tomarán un descanso.
 
 ### --feedback--
 
-The phrase focuses on reaching an understanding at the end of the process, not taking a break.
+La frase se enfoca en lograr una comprensión al final del proceso, no en tomar un descanso.
 
 ---
 
-They will have a clearer understanding of the situation after the investigation.
+Tendrán una comprensión más clara de la situación después de la investigación.
 
 ## --video-solution--
 

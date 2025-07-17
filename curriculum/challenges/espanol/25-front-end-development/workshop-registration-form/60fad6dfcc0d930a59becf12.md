@@ -1,31 +1,31 @@
 ---
 id: 60fad6dfcc0d930a59becf12
-title: Step 38
+title: Paso 38
 challengeType: 0
 dashedName: step-38
 ---
 
 # --description--
 
-The HTML for the registration form is finished. Now, you can spruce it up a bit.
+El HTML para el formulario de registro está terminado. Ahora, puedes embellecerlo un poco.
 
-Start by changing the font to `Tahoma`, and the font size to `16px` in the `body`.
+Empieza cambiando la fuente a `Tahoma` y el tamaño de la fuente a `16px` en el `body`.
 
 # --hints--
 
-You should use the `font-family` property to change the font.
+Debes usar la propiedad `font-family` para cambiar la fuente.
 
 ```js
 assert.isNotEmpty(new __helpers.CSSHelp(document).getStyle('body')?.fontFamily);
 ```
 
-You should set the `font-family` property to `Tahoma`.
+Debes establecer la propiedad `font-family` a `Tahoma`.
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('body')?.fontFamily, 'Tahoma');
 ```
 
-You should set the `font-size` property to `16px`.
+Debes establecer la propiedad `font-size` a `16px`.
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('body')?.fontSize, '16px');

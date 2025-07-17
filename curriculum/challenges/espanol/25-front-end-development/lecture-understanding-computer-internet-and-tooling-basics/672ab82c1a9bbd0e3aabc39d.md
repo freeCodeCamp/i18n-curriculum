@@ -1,6 +1,6 @@
 ---
 id: 672ab82c1a9bbd0e3aabc39d
-title: How Can You Effectively Work With Your Keyboard, Mouse, and Other Pointing Devices
+title: '¿Cómo puedes trabajar de manera efectiva con tu teclado, ratón y otros dispositivos de puntero?'
 challengeType: 11
 videoId: AcTxNEVccxc
 dashedName: how-to-effectively-work-with-your-keyboard-mouse-and-other-pointing-devices
@@ -8,65 +8,65 @@ dashedName: how-to-effectively-work-with-your-keyboard-mouse-and-other-pointing-
 
 # --description--
 
-Watch the video or read the transcript and answer the questions below.
+Mira el video o lee la transcripción y responde a las preguntas abajo.
 
 # --transcript--
 
-How can you effectively work with your keyboard, mouse, and other pointing devices?
+¿Cómo puedes trabajar eficazmente con tu teclado, ratón y otros dispositivos de señalización?
 
-Many of you have been used to working with your keyboard and mouse for years on end for a variety of activities like gaming, performing tasks for work, or surfing the web.
+Muchos de vosotros habéis estado acostumbrados a trabajar con vuestro teclado y ratón durante años para una variedad de actividades como jugar, realizar tareas para el trabajo o navegar por la web.
 
-But prolonged misuse of these devices can lead to serious health problems down the road.
+Pero el uso prolongado incorrecto de estos dispositivos puede llevar a serios problemas de salud a largo plazo.
 
-In this lecture video, we will cover ways to work with your computer’s keyboard and mouse in healthy ways.
+En este video de conferencias, cubriremos formas de trabajar con el teclado y ratón de tu computadora de manera saludable.
 
-The first tip is to be mindful of the mouse grip. When working on serious tasks for work or during intense gaming moments, you may tend to grip the mouse too hard. However, this can lead to serious hand and wrist issues. To prevent this, you want to make sure to hold the mouse gently and keep your fingers nice and relaxed.
+El primer consejo es prestar atención al agarre del ratón. Al trabajar en tareas serias para el trabajo o durante momentos intensos de juego, puedes tender a sujetar el ratón con demasiada fuerza. Sin embargo, esto puede ocasionar serios problemas en las manos y muñecas. Para prevenir esto, debes asegurarte de coger el ratón con suavidad y mantener tus dedos relajados.
 
-The second tip is to consider using an ergonomic keyboard and mouse. These tools are designed to reduce wrist strain by keeping your hands in a more natural position.
+El segundo consejo es considerar el uso de un teclado y ratón ergonómicos. Estas herramientas están diseñadas para reducir la tensión de la muñeca al mantener tus manos en una posición más natural.
 
-While prices for these devices can vary and may be a costly purchase for your current budget, they can be a good investment in your overall long-term health. So, you might consider starting to research an ergonomic keyboard and mouse to use.
+Si bien los precios de estos dispositivos pueden variar y pueden ser una compra costosa para tu presupuesto actual, pueden ser una buena inversión para tu salud a largo plazo. Por lo tanto, podrías considerar empezar a investigar sobre un teclado y ratón ergonómicos para usarlos.
 
-Another tip is to keep your mouse the same height as your keyboard. You don't want to have to reach up or down to use the mouse, as this can strain your wrist and arm muscles over time.
+Otro consejo es mantener tu ratón a la misma altura que tu teclado. No querrás tener que alcanzar hacia arriba o hacia abajo para usar el ratón, ya que esto puede tensar los músculos de tu muñeca y brazo con el tiempo.
 
-You also want to be mindful of your overall posture when sitting at the computer for hours on end. Being slouched over your computer and putting your wrist in an unnatural position at the keyboard will lead to long-term health issues. So, you want to make sure to sit up straight when working at your computer and maintain a healthy and natural wrist position.
+También debes estar atento a tu postura general cuando te sientas en la computadora durante horas. Estar encorvado sobre tu computadora y poner tu muñeca en una posición antinatural en el teclado llevará a problemas de salud a largo plazo. Por lo tanto, debes asegurarte de sentarte derecho cuando trabajas en tu computadora y mantener una posición de muñeca saludable y natural.
 
-The last tip would be to use keyboard shortcuts whenever possible to help minimize typing. There are dozens of shortcuts available for tasks such as navigating the web, navigating around your operating system, working within a code editor, and more. So, it’s best to research some of these keyboard shortcuts and and start incorporating them into your daily computer usage.
+El último consejo sería usar atajos de teclado siempre que sea posible para ayudar a minimizar la escritura. Hay docenas de atajos disponibles para tareas como navegar por la web, moverse por tu sistema operativo, trabajar dentro de un editor de código, y más. Por lo tanto, es mejor investigar algunos de estos atajos de teclado y comenzar a incorporarlos en el uso diario de tu computadora.
 
-As you continue using your mouse and keyboard for upcoming coding projects and other activities, remember to keep these health tips in mind.
+A medida que continúas utilizando tu ratón y teclado para próximos proyectos de codificación y otras actividades, recuerda tener en cuenta estos consejos de salud.
 
 # --questions--
 
 ## --text--
 
-What is one of the risks of gripping the mouse too tightly?
+¿Cuál es uno de los riesgos de sujetar el ratón demasiado fuerte?
 
 ## --answers--
 
-It can improve your accuracy in gaming.
+Puede mejorar tu precisión en los juegos.
 
 ### --feedback--
 
-Pay attention to the advice about mouse grip in the video.
+Presta atención al consejo sobre el agarre del ratón en el video.
 
 ---
 
-It helps you complete tasks faster.
+Te ayuda a completar tareas más rápido.
 
 ### --feedback--
 
-Pay attention to the advice about mouse grip in the video.
+Presta atención al consejo sobre el agarre del ratón en el video.
 
 ---
 
-It can cause hand and wrist issues.
+Puede causar problemas en las manos y muñecas.
 
 ---
 
-It improves your overall performance.
+Mejora tu rendimiento global.
 
 ### --feedback--
 
-Pay attention to the advice about mouse grip in the video.
+Presta atención al consejo sobre el agarre del ratón en el video.
 
 ## --video-solution--
 
@@ -74,35 +74,35 @@ Pay attention to the advice about mouse grip in the video.
 
 ## --text--
 
-What is the benefit of using an ergonomic keyboard and mouse?
+¿Cuál es el beneficio de usar un teclado y ratón ergonómicos?
 
 ## --answers--
 
-They help you type faster.
+Te ayudan a teclear más rápido.
 
 ### --feedback--
 
-The video mentions ergonomic devices as a way to protect your hands and wrists.
+El video menciona dispositivos ergonómicos como una forma de proteger tus manos y muñecas.
 
 ---
 
-They are designed for gaming performance.
+Están diseñados para rendimiento de juegos.
 
 ### --feedback--
 
-The video mentions ergonomic devices as a way to protect your hands and wrists.
+El video menciona dispositivos ergonómicos como una forma de proteger tus manos y muñecas.
 
 ---
 
-They reduce wrist strain by keeping your hands in a more natural position.
+Reducen la tensión en la muñeca al mantener tus manos en una posición más natural.
 
 ---
 
-They increase screen resolution.
+Aumentan la resolución de pantalla.
 
 ### --feedback--
 
-The video mentions ergonomic devices as a way to protect your hands and wrists.
+El video menciona dispositivos ergonómicos como una forma de proteger tus manos y muñecas.
 
 ## --video-solution--
 
@@ -110,35 +110,35 @@ The video mentions ergonomic devices as a way to protect your hands and wrists.
 
 ## --text--
 
-What is the recommendation for the height of your mouse in relation to your keyboard?
+¿Cuál es la recomendación para la altura de tu ratón en relación con tu teclado?
 
 ## --answers--
 
-The mouse should be far above the keyboard.
+El ratón debería estar muy por encima del teclado.
 
 ### --feedback--
 
-Think about how to position your mouse to avoid wrist and arm strain.
+Piensa en cómo posicionar tu ratón para evitar la tensión en la muñeca y el brazo.
 
 ---
 
-The mouse should be at the same height as the keyboard.
+El ratón debería estar a la misma altura que el teclado.
 
 ---
 
-The mouse should be lower than the keyboard.
+El ratón debería estar más bajo que el teclado.
 
 ### --feedback--
 
-Think about how to position your mouse to avoid wrist and arm strain.
+Piensa en cómo posicionar tu ratón para evitar la tensión en la muñeca y el brazo.
 
 ---
 
-The mouse should be higher than the keyboard.
+El ratón debería estar más alto que el teclado.
 
 ### --feedback--
 
-Think about how to position your mouse to avoid wrist and arm strain.
+Piensa en cómo posicionar tu ratón para evitar la tensión en la muñeca y el brazo.
 
 ## --video-solution--
 

@@ -1,6 +1,6 @@
 ---
 id: 67329fbcfaf5ff5cdaa38a42
-title: What Is the var Keyword, and Why Is It No Longer Suggested to Use It?
+title: '¿Qué es la palabra clave var y por qué ya no se sugiere su uso?'
 challengeType: 11
 videoId: Ae4bq5IcDfI
 dashedName: what-is-the-var-keyword-and-why-is-it-no-longer-suggested-to-use-it
@@ -8,17 +8,17 @@ dashedName: what-is-the-var-keyword-and-why-is-it-no-longer-suggested-to-use-it
 
 # --description--
 
-Watch the video or read the transcript and answer the questions below.
+Mira el video o lee la transcripción y responde las preguntas a continuación.
 
 # --transcript--
 
-What is the `var` keyword and why is it no longer suggested to use it?
+¿Qué es la palabra clave `var` y por qué ya no se sugiere su uso?
 
-The `var` keyword in JavaScript is one of the original ways to declare variables. It has been part of the language since its inception and for many years it remained the primary method for creating variables. However as JavaScript evolved and developers gained more experience with the language, certain drawbacks of using `var` became apparent leading to the introduction of `let` and `const` in 2015.
+La palabra clave `var` en JavaScript es una de las formas originales de declarar variables. Ha sido parte del lenguaje desde su inicio y durante muchos años siguió siendo el método principal para crear variables. Sin embargo, a medida que JavaScript evolucionó y los desarrolladores ganaron más experiencia con el lenguaje, ciertos inconvenientes de usar `var` se hicieron evidentes, lo que llevó a la introducción de `let` y `const` en 2015.
 
-When you declare a variable with `var`, it becomes function-scoped or globally-scoped. This means that if you declare a variable inside a function using `var` it's only accessible within that function. However if you declare it outside any function, it becomes a global variable accessible throughout your entire script. This behavior can sometimes lead to unexpected results and make your code harder to reason about.
+Cuando declaras una variable con `var`, se vuelve de alcance funcional o global. Esto significa que si declaras una variable dentro de una función usando `var`, solo es accesible dentro de esa función. Sin embargo, si la declaras fuera de cualquier función, se convierte en una variable global accesible a lo largo de todo tu script. Este comportamiento a veces puede llevar a resultados inesperados y hacer que tu código sea más difícil de entender.
 
-A problem with `var` is that it allows you to redeclare the same variable multiple times without throwing an error. This can lead to accidental overwrites and make debugging more difficult.
+Un problema con `var` es que te permite redeclarar la misma variable varias veces sin lanzar un error. Esto puede llevar a sobrescrituras accidentales y hacer que la depuración sea más difícil.
 
 ```js
 var num = 5;
@@ -27,7 +27,7 @@ var num = 5;
 var num = 10;
 ```
 
-The most significant issue with `var` is its lack of block scoping. Variables declared with `var` inside a block like an `if` statement or a `for` loop are still accessible outside that block.
+El problema más significativo con `var` es su falta de alcance en bloque. Las variables declaradas con `var` dentro de un bloque como una declaración `if` o un bucle `for` siguen siendo accesibles fuera de ese bloque.
 
 ```js
 if (true){
@@ -36,47 +36,47 @@ if (true){
 console.log(num); // 5
 ```
 
-This behavior can lead to unintended variable leaks and make your code more prone to bugs.
+Este comportamiento puede llevar a fugas de variables no intencionadas y hacer que tu código sea más propenso a errores.
 
-Due to this issues, modern JavaScript development has largely moved away from `var` in favor of `let` and `const`. These keywords provide block scoping which aligns more closely with how scoping works in many other programming languages.
+Debido a estos problemas, el desarrollo moderno de JavaScript se ha alejado en gran medida de `var` en favor de `let` y `const`. Estas palabras clave proporcionan alcances en bloque que se alinean más estrechamente con cómo funciona el alcance en muchos otros lenguajes de programación.
 
-They also don't allow redeclaration within the same scope helping to prevent accidental overrides.
+Tampoco permiten la redeclaración dentro del mismo ámbito, ayudando a prevenir sobrescrituras accidentales.
 
-While `var` is still part of JavaScript and works in all browsers, it's generally recommended to use `let` and `const` in modern JavaScript development. They provide clear scoping rules help prevent common pitfalls and make your code's behavior more predictable.
+Si bien `var` sigue siendo parte de JavaScript y funciona en todos los navegadores, en general se recomienda usar `let` y `const` en el desarrollo moderno de JavaScript. Proporcionan reglas claras de alcance, ayudan a prevenir errores comunes y hacen que el comportamiento de tu código sea más predecible.
 
 # --questions--
 
 ## --text--
 
-What is the scope of a variable declared with `var` outside of any function?
+¿Cuál es el alcance de una variable declarada con `var` fuera de cualquier función?
 
 ## --answers--
 
-Block scope.
+Alcance de bloque.
 
 ### --feedback--
 
-Think about where a `var` variable declared outside a function can be accessed.
+Piensa en dónde se puede acceder a una variable `var` declarada fuera de una función.
 
 ---
 
-Function scope.
+Alcance funcional.
 
 ### --feedback--
 
-Think about where a `var` variable declared outside a function can be accessed.
+Piensa en dónde se puede acceder a una variable `var` declarada fuera de una función.
 
 ---
 
-Global scope.
+Alcance global.
 
 ---
 
-Module scope.
+Alcance del módulo.
 
 ### --feedback--
 
-Think about where a `var` variable declared outside a function can be accessed.
+Piensa en dónde se puede acceder a una variable `var` declarada fuera de una función.
 
 ## --video-solution--
 
@@ -84,7 +84,7 @@ Think about where a `var` variable declared outside a function can be accessed.
 
 ## --text--
 
-What will be the output of the following code?
+¿Cuál será la salida del siguiente código?
 
 ```js
 var x = 10;
@@ -106,7 +106,7 @@ console.log(x);
 
 ### --feedback--
 
-Remember that `var` is function-scoped or globally-scoped, and it allows redeclaration within the same scope.
+Recuerda que `var` tiene alcance de función o global, y permite la redeclaración dentro del mismo ámbito.
 
 ---
 
@@ -124,7 +124,7 @@ Remember that `var` is function-scoped or globally-scoped, and it allows redecla
 
 ### --feedback--
 
-Remember that `var` is function-scoped or globally-scoped, and it allows redeclaration within the same scope.
+Recuerda que `var` tiene alcance de función o global, y permite la redeclaración dentro del mismo ámbito.
 
 ---
 
@@ -135,7 +135,7 @@ Remember that `var` is function-scoped or globally-scoped, and it allows redecla
 
 ### --feedback--
 
-Remember that `var` is function-scoped or globally-scoped, and it allows redeclaration within the same scope.
+Recuerda que `var` tiene alcance de función o global, y permite la redeclaración dentro del mismo ámbito.
 
 ## --video-solution--
 
@@ -143,35 +143,35 @@ Remember that `var` is function-scoped or globally-scoped, and it allows redecla
 
 ## --text--
 
-Which of the following is NOT a reason to avoid using `var` in modern JavaScript?
+¿Cuál de las siguientes no es una razón para evitar el uso de `var` en JavaScript moderno?
 
 ## --answers--
 
-`var` allows redeclaration of variables in the same scope.
+`var` permite la redeclaración de variables en el mismo ámbito.
 
 ### --feedback--
 
-Consider which statement is false about `var`'s behavior or support.
+Considera qué afirmación es falsa sobre el comportamiento o soporte de `var`.
 
 ---
 
-`var` is not supported in modern browsers.
+`var` no está soportado en navegadores modernos.
 
 ---
 
-`var` variables are function-scoped, not block-scoped.
+Las variables `var` tienen alcance funcional, no alcance de bloque.
 
 ### --feedback--
 
-Consider which statement is false about `var`'s behavior or support.
+Considera qué afirmación es falsa sobre el comportamiento o soporte de `var`.
 
 ---
 
-`var` variables are hoisted.
+Las variables `var` son elevadas (hoisted).
 
 ### --feedback--
 
-Consider which statement is false about `var`'s behavior or support.
+Considera qué afirmación es falsa sobre el comportamiento o soporte de `var`.
 
 ## --video-solution--
 

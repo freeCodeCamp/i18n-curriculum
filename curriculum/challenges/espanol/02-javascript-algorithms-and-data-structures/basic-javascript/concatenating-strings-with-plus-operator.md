@@ -43,7 +43,7 @@ assert(/start\. This/.test(myStr));
 assert(myStr === 'This is the start. This is the end.');
 ```
 
-Deberías usar el operador `+` para construir `myStr`.
+Debes usar el operador `+` para construir `myStr`.
 
 ```js
 assert(__helpers.removeJSComments(code).match(/(["']).*\1\s*\+\s*(["']).*\2/g));

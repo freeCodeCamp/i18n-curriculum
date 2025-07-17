@@ -10,7 +10,7 @@ Sophie: On Sunday, I have a lazy morning. I just stay at home and play some vide
 
 # --description--
 
-In this challenge, focus on identifying the adjectives Sophie uses to describe her Sunday routine.
+En este desafío, enfócate en identificar los adjetivos que Sophie usa para describir su rutina dominical.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ In this challenge, focus on identifying the adjectives Sophie uses to describe h
 
 ### --feedback--
 
-Describes the relaxed nature of Sophie's Sunday morning.
+Describe la naturaleza relajada de la mañana de domingo de Sophie.
 
 ---
 
@@ -32,7 +32,7 @@ Describes the relaxed nature of Sophie's Sunday morning.
 
 ### --feedback--
 
-Indicates the time Sophie chooses to go to sleep on Sunday evening.
+Indica el momento en que Sophie decide irse a dormir el domingo por la noche.
 
 # --scene--
 

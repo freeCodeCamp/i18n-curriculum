@@ -9,41 +9,41 @@ dashedName: task-81
 
 # --description--
 
-Sometimes people invite their friends to events or activities they enjoy. How you respond to these invitations shows you interest or lack of interest in the event.
+A veces las personas invitan a sus amigos a eventos o actividades que disfrutan. Cómo respondes a estas invitaciones muestra tu interés o falta de interés en el evento.
 
 # --questions--
 
 ## --text--
 
-How does Tom respond to Sarah's invitation to the sci-fi convention?
+¿Cómo responde Tom a la invitación de Sarah para la convención de ciencia ficción?
 
 ## --answers--
 
-Accepts immediately
+Acepta inmediatamente
 
 ### --feedback--
 
-Tom does not accept the invitation. He mentions his lack of interest in sci-fi.
+Tom no acepta la invitación. Él menciona su falta de interés en la ciencia ficción.
 
 ---
 
-Declines politely
+Declina amablemente
 
 ---
 
-Shows disinterest
+Muestra desinterés
 
 ### --feedback--
 
-While Tom expresses a lack of interest, his response is more about declining the invitation politely rather than just showing disinterest.
+Aunque Tom expresa falta de interés, su respuesta es más sobre declinar la invitación amablemente que simplemente mostrar desinterés.
 
 ---
 
-Ignores the invitation
+Ignora la invitación
 
 ### --feedback--
 
-Tom acknowledges the invitation and responds, so he does not ignore it.
+Tom reconoce la invitación y responde, por lo que no la ignora.
 
 ## --video-solution--
 

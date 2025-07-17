@@ -43,7 +43,7 @@ assert.lengthOf(code.match(/<\/h3>/g), 1);
 assert.equal(
   document
     .querySelectorAll('main > section')[1]
-    ?.lastElementChild.innerText.toLowerCase()
+    ?.lastElementChild.innerText?.trim().toLowerCase()
     .replace(/\s+/g, ' '), 'things cats love:'
 );
 ```
@@ -55,7 +55,7 @@ const secondSectionLastElemNode = document.querySelectorAll('main > section')[1]
   ?.lastElementChild;
 assert.equal( secondSectionLastElemNode?.nodeName, 'H3');
 assert.equal(
- secondSectionLastElemNode?.previousElementSibling.innerText
+ secondSectionLastElemNode?.previousElementSibling.innerText?.trim()
       .toLowerCase()
       .replace(/\s+/g, ' '), 'cat lists'
 );

@@ -9,41 +9,41 @@ dashedName: task-41
 
 # --description--
 
-Listen to the audio and answer the question.
+Escucha el audio y responde a la pregunta.
 
 # --questions--
 
 ## --text--
 
-What collaboration tools does Alice mention?
+¿Qué herramientas de colaboración menciona Alice?
 
 ## --answers--
 
-`Project management tools` and `cloud storage services`
+`Project management tools` y `cloud storage services`
 
 ---
 
-`The internet` and `computer networks`
+`The internet` y `computer networks`
 
 ### --feedback--
 
-Although these are important tools in today's world, they are not the tools Alice mentions.
+Aunque estas son herramientas importantes en el mundo actual, no son las herramientas que menciona Alice.
 
 ---
 
-`Screwdrivers` and `hammers`
+`Screwdrivers` y `hammers`
 
 ### --feedback--
 
-These are manual tools, not collaboration tools.
+Estas son herramientas manuales, no herramientas de colaboración.
 
 ---
 
-`Chat apps` and `email`
+`Chat apps` y `email`
 
 ### --feedback--
 
-These can be considered collaboration tools in a virtual environment, but Alice does not mention them.
+Estas pueden considerarse herramientas de colaboración en un entorno virtual, pero Alice no las menciona.
 
 ## --video-solution--
 

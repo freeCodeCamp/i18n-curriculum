@@ -9,9 +9,9 @@ dashedName: task-70
 
 # --description--
 
-`Follow security procedures` means to act according to rules or steps designed to keep a place or people safe. It's important in many areas, especially in workplaces, to prevent problems or dangers.
+`Follow security procedures` significa actuar según reglas o pasos diseñados para mantener un lugar o a las personas seguras. Es importante en muchas áreas, especialmente en los lugares de trabajo, para prevenir problemas o peligros.
 
-You learned that after `everyone`, you should use the third-party singular form of the verb because `everyone` is considered as each person in a group, treated individually.
+Aprendiste que después de `everyone`, debes usar la forma singular de tercera persona del verbo porque `everyone` se considera como cada persona en un grupo, tratada individualmente.
 
 # --fillInTheBlank--
 
@@ -25,7 +25,7 @@ You learned that after `everyone`, you should use the third-party singular form 
 
 ### --feedback--
 
-This is the singular form of the verb meaning each person does the action.
+Esta es la forma singular del verbo que significa que cada persona realiza la acción.
 
 ---
 
@@ -33,7 +33,7 @@ This is the singular form of the verb meaning each person does the action.
 
 ### --feedback--
 
-This word means keeping people, places, or things safe from danger or harm.
+Esta palabra significa mantener a las personas, lugares o cosas a salvo de peligro o daño.
 
 ---
 
@@ -41,7 +41,7 @@ This word means keeping people, places, or things safe from danger or harm.
 
 ### --feedback--
 
-These are the steps or rules that need to be followed for safety.
+Estos son los pasos o reglas que deben seguirse para la seguridad.
 
 # --scene--
 

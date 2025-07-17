@@ -1,13 +1,13 @@
 ---
 id: 66ed8fb9f45ce3ece4053eac
-title: Computer Basics Quiz
+title: Prueba de computadores básicas
 challengeType: 8
 dashedName: quiz-computer-basics
 ---
 
 # --description--
 
-To pass the quiz, you must correctly answer at least 18 of the 20 questions below.
+Para pasar el cuestionario, debe responder correctamente al menos 18 de las 20 preguntas a continuación.
 
 # --quizzes--
 
@@ -17,51 +17,51 @@ To pass the quiz, you must correctly answer at least 18 of the 20 questions belo
 
 #### --text--
 
-What part of a computer is used to connect the other internal components together?
+¿Qué parte de una computadora se utiliza para conectar los otros componentes internos juntos?
 
 #### --distractors--
 
-Processor
+Procesador
 
 ---
 
-Graphics Card.
+Tarjeta gráfica.
 
 ---
 
-Memory
+Memoria
 
 #### --answer--
 
-Motherboard
+Placa madre
 
 ### --question--
 
 #### --text--
 
-What are browser developer tools?
+¿Qué son las herramientas de desarrollo del navegador?
 
 #### --distractors--
 
-Tools for editing browser settings and managing user profiles.
+Herramientas para editar configuraciones del navegador y gestionar perfiles de usuario.
 
 ---
 
-Utilities for blocking ads and improving web page performance.
+Utilidades para bloquear anuncios y mejorar el rendimiento de la página web.
 
 ---
 
-Software for managing browser extensions and plug-ins.
+Software para gestionar extensiones y complementos del navegador.
 
 #### --answer--
 
-Built-in features in browsers that help developers debug and inspect websites.
+Características incorporadas en los navegadores que ayudan a los desarrolladores a depurar e inspeccionar sitios web.
 
 ### --question--
 
 #### --text--
 
-Which of the following ISP connections are typically the fastest?
+¿Cuál de las siguientes conexiones de ISP son típicamente las más rápidas?
 
 #### --distractors--
 
@@ -69,7 +69,7 @@ DSL
 
 ---
 
-Satellite
+Satélite
 
 ---
 
@@ -77,35 +77,35 @@ Cable
 
 #### --answer--
 
-Fiber Optic.
+Fibra óptica.
 
 ### --question--
 
 #### --text--
 
-Which of the following is NOT a safe practice when signing in?
+¿Cuál de las siguientes NO es una práctica segura al iniciar sesión?
 
 #### --distractors--
 
-Using a fingerprint or face scanner.
+Usar un escáner de huellas o facial.
 
 ---
 
-Making a long and complex password like `@ppl3_+B@nana34823`.
+Hacer una contraseña larga y compleja como `@ppl3_+B@nana34823`.
 
 ---
 
-Setting up two-factor authentication (2FA).
+Configurar una autenticación de dos factores (2FA).
 
 #### --answer--
 
-Using passwords based on personal information like your birthday.
+Usar contraseñas basadas en información personal como tu cumpleaños.
 
 ### --question--
 
 #### --text--
 
-Which of the following is NOT a Web Browser?
+¿Cuál de los siguientes NO es un Navegador Web?
 
 #### --distractors--
 
@@ -127,11 +127,11 @@ Google Drive.
 
 #### --text--
 
-When you need to edit a piece of code, which of the following are you most likely going to use?
+Cuando necesitas editar un fragmento de código, ¿cuál de los siguientes es más probable que uses?
 
 #### --distractors--
 
-Node Package Manager.
+Nodo Package Manager.
 
 ---
 
@@ -149,7 +149,7 @@ Visual Studio Code.
 
 #### --text--
 
-Which of the following is used primarily for managing files stored on a local hard drive?
+¿Qué se utiliza principalmente para gestionar archivos almacenados en un disco duro local?
 
 #### --distractors--
 
@@ -165,101 +165,101 @@ Google Drive.
 
 #### --answer--
 
-Windows File Explorer.
+Explorador de archivos de Windows.
 
 ### --question--
 
 #### --text--
 
-What is NOT a good practice when naming files?
+¿Cuál NO es una buena práctica al nombrar archivos?
 
 #### --distractors--
 
-Putting an underscore or hyphen between words.
+Poner un guion bajo o un guion entre palabras.
 
 ---
 
-Use a casing style such as camelCase and sticking with it.
+Utilizar un estilo de mayúsculas y seguir con él.
 
 ---
 
-Putting a version number at the end of a document like `summaryReport_v2.docx`.
+Poner un número de versión al final de un documento como `summaryReport_v2.docx`.
 
 #### --answer--
 
-Using non-descriptive names like `file1.txt`.
+Usar nombres no descriptivos como `file1.txt`.
 
 ### --question--
 
 #### --text--
 
-What does the term "domain name" refer to?
+¿A qué se refiere el término "nombre de dominio"?
 
 #### --distractors--
 
-A type of software that manages website files and databases.
+Un tipo de software que gestiona archivos y bases de datos de un sitio web.
 
 ---
 
-The physical location of a web server in a data center.
+La ubicación física de un servidor web en un centro de datos.
 
 ---
 
-None of the other choices.
+Ninguna de las otras opciones.
 
 #### --answer--
 
-The address used to identify websites on the internet.
+La dirección utilizada para identificar sitios web en internet.
 
 ### --question--
 
 #### --text--
 
-Which of the following is a way to send a file to the Recycle Bin/Trash?
+¿Cuál de las siguientes es una forma de enviar un archivo a la Papelera de reciclaje/Trash?
 
 #### --distractors--
 
-All of the other choices.
+Todas las otras opciones.
 
 ---
 
-Pressing the `Backspace` key on the keyboard.
+Presionando la tecla `Backspace` en el teclado.
 
 ---
 
-Moving it to an Archived folder.
+Moverlo a una carpeta Archivada.
 
 #### --answer--
 
-Right-click on it and select the Delete/Move to trash option.
+Hacer clic derecho sobre él y seleccionar la opción Eliminar/Mover a la papelera.
 
 ### --question--
 
 #### --text--
 
-What is a RAM?
+¿Qué es una RAM?
 
 #### --distractors--
 
-A network protocol used for transferring files between devices.
+Un protocolo de red utilizado para transferir archivos entre dispositivos.
 
 ---
 
-A permanent storage device used for saving files and applications.
+Un dispositivo de almacenamiento permanente utilizado para guardar archivos y aplicaciones.
 
 ---
 
-A component in a computer responsible for generating graphics and rendering images.
+Un componente de una computadora responsable de generar gráficos y renderizar imágenes.
 
 #### --answer--
 
-A temporary memory for fast data access by the processor.
+Una memoria temporal para un acceso rápido a los datos por parte del procesador.
 
 ### --question--
 
 #### --text--
 
-What file type will be best suited for writing a `README` file?
+¿Qué tipo de archivo será más adecuado para escribir un archivo `README`?
 
 #### --distractors--
 
@@ -281,143 +281,143 @@ What file type will be best suited for writing a `README` file?
 
 #### --text--
 
-What is an Integrated Development Environment (IDE)?
+¿Qué es un entorno de desarrollo integrado (IDE)?
 
 #### --distractors--
 
-A platform designed for deploying and hosting web applications.
+Una plataforma diseñada para desplegar y alojar aplicaciones web.
 
 ---
 
-A type of hardware device used for testing and debugging electronic circuits.
+Un tipo de dispositivo de hardware utilizado para probar y depurar circuitos electrónicos.
 
 ---
 
-A version control system that helps developers track changes in source code during software development.
+Un sistema de control de versiones que ayuda a los desarrolladores a rastrear cambios en el código fuente durante el desarrollo de software.
 
 #### --answer--
 
-A program that integrates tools for writing, debugging, and running code.
+Un programa que integra herramientas para escribir, depurar y ejecutar código.
 
 ### --question--
 
 #### --text--
 
-What is a piece of software that allows you to look at online content called?
+¿Cómo se llama la pieza de software que te permite ver contenido en línea?
 
 #### --distractors--
 
-Internet Content Displayer.
+Mostrador de contenido de Internet.
 
 ---
 
-Search Engine.
+Motor de búsqueda.
 
 ---
 
-Website
+Sitio web
 
 #### --answer--
 
-Web Browser.
+Navegador Web.
 
 ### --question--
 
 #### --text--
 
-What is a piece of software that lists web pages related to a user's query called?
+¿Cómo se llama el software que lista páginas web relacionadas con la consulta de un usuario?
 
 #### --distractors--
 
-Page Finder.
+Buscador de páginas.
 
 ---
 
-Web Browser.
+Navegador Web.
 
 ---
 
-Website
+Sitio web
 
 #### --answer--
 
-Search Engine.
+Motor de búsqueda.
 
 ### --question--
 
 #### --text--
 
-What is a set of one or more web pages under one domain name called?
+¿Cómo se llama un conjunto de una o más páginas web bajo un mismo nombre de dominio?
 
 #### --distractors--
 
-Web Browser.
+Navegador Web.
 
 ---
 
-Hyperlink
+Hipervínculo
 
 ---
 
-Search Engine.
+Motor de búsqueda.
 
 #### --answer--
 
-Website
+Sitio web
 
 ### --question--
 
 #### --text--
 
-To search for an exact phrase, what should you enclose your search query with?
+Para buscar una frase exacta, ¿con qué debes encerrar tu consulta de búsqueda?
 
 #### --distractors--
 
-Backticks
+Comillas invertidas
 
 ---
 
-Parentheses
+Paréntesis
 
 ---
 
-Brackets
+Corchetes
 
 #### --answer--
 
-Quotation marks.
+Comillas.
 
 ### --question--
 
 #### --text--
 
-Which is NOT a way to install a Web Browser?
+¿Cuál NO es una forma de instalar un Navegador Web?
 
 #### --distractors--
 
-Using a Package Manager.
+Utilizando un gestor de paquetes.
 
 ---
 
-Directly downloading from the website.
+Descargar directamente desde el sitio web.
 
 ---
 
-Using an App Store like Microsoft Store.
+Usar una tienda de aplicaciones como Microsoft Store.
 
 #### --answer--
 
-Pressing the Network/Internet button in Settings.
+Presionando el botón de Red/Internet en Configuración.
 
 ### --question--
 
 #### --text--
 
-Which of the following formats does NOT preserve image quality after compression?
+¿Cuál de los siguientes formatos NO conserva la calidad de imagen después de la compresión?
 
 #### --distractors--
 
-All of the other choices.
+Todas las demás opciones.
 
 ---
 
@@ -435,23 +435,23 @@ JPEG
 
 #### --text--
 
-Which of the following parts is located in a socket on the motherboard?
+¿Cuál de las siguientes partes se encuentra en un zócalo de la placa madre?
 
 #### --distractors--
 
-The Router.
+El enrutador.
 
 ---
 
-The Keyboard.
+El teclado.
 
 ---
 
-The Hard Drive (HDD).
+El disco duro (HDD).
 
 #### --answer--
 
-The CPU.
+La CPU.
 
 ## --quiz--
 
@@ -459,95 +459,95 @@ The CPU.
 
 #### --text--
 
-Which of the following is a basic part of the computer?
+¿Cuál de los siguientes es una parte básica de la computadora?
 
 #### --distractors--
 
-The word processor.
+El procesador de textos.
 
 ---
 
-The task manager.
+El administrador de tareas.
 
 ---
 
-The memory manager.
+El administrador de memoria.
 
 #### --answer--
 
-The central processing unit.
+La unidad central de procesamiento.
 
 ### --question--
 
 #### --text--
 
-What is a pointing device for a computer?
+¿Qué es un dispositivo señalador para una computadora?
 
 #### --distractors--
 
-A stick for pointing at computers.
+Un palo para señalar computadoras.
 
 ---
 
-A retractable device used in PowerPoint presentations.
+Un dispositivo retráctil utilizado en presentaciones de PowerPoint.
 
 ---
 
-A laser pointer.
+Un puntero láser.
 
 #### --answer--
 
-A mouse or touchpad.
+Un ratón o panel táctil.
 
 ### --question--
 
 #### --text--
 
-What is a type of ISP provider?
+¿Cuál es un tipo de proveedor de ISP?
 
 #### --distractors--
 
-Satellite.
+Satélite.
 
 ---
 
-Fiber optic.
+Fibra óptica.
 
 ---
 
-Dial up.
+Conexión telefónica.
 
 #### --answer--
 
-Tier 1.
+Nivel 1.
 
 ### --question--
 
 #### --text--
 
-What is a best practice when naming files for a web application?
+¿Cuál es la mejor práctica al nombrar archivos para una aplicación web?
 
 #### --distractors--
 
-Using special characters.
+Usar caracteres especiales.
 
 ---
 
-Using spaces to separate the words.
+Usar espacios para separar las palabras.
 
 ---
 
-Using generic words.
+Usar palabras genéricas.
 
 #### --answer--
 
-Using hyphens instead of spaces.
+Usar guiones en lugar de espacios.
 
 ### --question--
 
 #### --text--
 
-Which of the following is a common file type when working with web applications?
+¿Cuál de los siguientes es un tipo común de archivo al trabajar con aplicaciones web?
 
 #### --distractors--
 
@@ -569,7 +569,7 @@ Which of the following is a common file type when working with web applications?
 
 #### --text--
 
-What is a common file type for a video file?
+¿Cuál es un tipo común de archivo de vídeo?
 
 #### --distractors--
 
@@ -591,7 +591,7 @@ What is a common file type for a video file?
 
 #### --text--
 
-Which of the following types is commonly used for image files?
+¿Cuál de los siguientes tipos se utiliza comúnmente para archivos de imagen?
 
 #### --distractors--
 
@@ -613,7 +613,7 @@ Which of the following types is commonly used for image files?
 
 #### --text--
 
-Microsoft Edge is supported by which operating system?
+¿Qué sistema operativo soporta Microsoft Edge?
 
 #### --distractors--
 
@@ -635,29 +635,29 @@ Windows
 
 #### --text--
 
-What is a search engine?
+¿Qué es un motor de búsqueda?
 
 #### --distractors--
 
-A part of the hard drive of a computer.
+Una parte del disco duro de una computadora.
 
 ---
 
-Advanced software that is only used by academic researchers.
+Software avanzado que solo es utilizado por investigadores académicos.
 
 ---
 
-A tool for finding web components.
+Una herramienta para encontrar componentes web.
 
 #### --answer--
 
-A web based tool for searching information on the internet.
+Una herramienta basada en la web para buscar información en internet.
 
 ### --question--
 
 #### --text--
 
-Which of the following is NOT a type of browser?
+¿Cuál de los siguientes NO es un tipo de navegador?
 
 #### --distractors--
 
@@ -679,7 +679,7 @@ GitHub
 
 #### --text--
 
-Which of the following is NOT a cloud-based hosting service for repositories?
+¿Cuál de los siguientes NO es un servicio de alojamiento basado en la nube para repositorios?
 
 #### --distractors--
 
@@ -701,59 +701,59 @@ Gitpod
 
 #### --text--
 
-Which of the following is not primarily a part of an integrated development environment?
+¿Cuál de los siguientes no forma parte principal de un entorno de desarrollo integrado?
 
 #### --distractors--
 
-A tool for writing.
+Una herramienta para escribir.
 
 ---
 
-A tool for testing code.
+Una herramienta para probar código.
 
 ---
 
-A tool for debugging code.
+Una herramienta para depurar código.
 
 #### --answer--
 
-A tool for storing code.
+Una herramienta para almacenar código.
 
 ### --question--
 
 #### --text--
 
-What is a best practice for naming files?
+¿Cuál es la mejor práctica para nombrar archivos?
 
 #### --distractors--
 
-Creating a script that uses the same file names for all your projects.
+Crear un script que use los mismos nombres de archivo para todos tus proyectos.
 
 ---
 
-Naming the main file with the same name as the folder it is in.
+Nombrar el archivo principal con el mismo nombre que la carpeta en la que está.
 
 ---
 
-Using a unique sequence of numbers at the end of the file name.
+Usar una secuencia única de números al final del nombre del archivo.
 
 #### --answer--
 
-Using a descriptive name for each file.
+Usar un nombre descriptivo para cada archivo.
 
 ### --question--
 
 #### --text--
 
-What is the built-in way you can use to search for files on your computer?
+¿Cuál es la forma incorporada que puedes usar para buscar archivos en tu computadora?
 
 #### --distractors--
 
-Google or Firefox.
+Google o Firefox.
 
 ---
 
-A search engine.
+Un motor de búsqueda.
 
 ---
 
@@ -761,13 +761,13 @@ GitHub.
 
 #### --answer--
 
-The file explorer.
+El explorador de archivos.
 
 ### --question--
 
 #### --text--
 
-What is a common search strategy to search for file types?
+¿Cuál es una estrategia común de búsqueda para buscar tipos de archivos?
 
 #### --distractors--
 
@@ -789,7 +789,7 @@ What is a common search strategy to search for file types?
 
 #### --text--
 
-What is the default page for a website?
+¿Cuál es la página predeterminada para un sitio web?
 
 #### --distractors--
 
@@ -811,73 +811,73 @@ What is the default page for a website?
 
 #### --text--
 
-Which file managers can you use to create, move, and delete files?
+¿Qué gestores de archivos puedes usar para crear, mover y eliminar archivos?
 
 #### --distractors--
 
-Google or Bing.
+Google o Bing.
 
 ---
 
-Windows or MacOS.
+Windows o MacOS.
 
 ---
 
-Findex or Firefox.
+Findex o Firefox.
 
 #### --answer--
 
-Explorer or Finder.
+Explorador o Buscador.
 
 ### --question--
 
 #### --text--
 
-What is Git?
+¿Qué es Git?
 
 #### --distractors--
 
-A centralized storage location for code repositories.
+Una ubicación de almacenamiento centralizada para repositorios de código.
 
 ---
 
-A tool for adding, updating, and removing libraries and project dependencies.
+Una herramienta para agregar, actualizar y eliminar bibliotecas y dependencias de proyectos.
 
 ---
 
-A cloud-based hosting service for repositories.
+Un servicio de alojamiento basado en la nube para repositorios.
 
 #### --answer--
 
-A version control system for tracking changes and collaborating with others.
+Un sistema de control de versiones para rastrear cambios y colaborar con otros.
 
 ### --question--
 
 #### --text--
 
-What is random access memory?
+¿Qué es la memoria de acceso aleatorio?
 
 #### --distractors--
 
-A permanent storage location that is used to store data.
+Una ubicación de almacenamiento permanente que se usa para almacenar datos.
 
 ---
 
-A volatile way to access data in a sequential manner.
+Una forma volátil de acceder a los datos de manera secuencial.
 
 ---
 
-A processor used for generating passwords.
+Un procesador utilizado para generar contraseñas.
 
 #### --answer--
 
-A temporary storage location for the computer's central processing unit.
+Una ubicación de almacenamiento temporal para la unidad central de procesamiento de la computadora.
 
 ### --question--
 
 #### --text--
 
-Which file format is used to compress files?
+¿Qué formato de archivo se usa para comprimir archivos?
 
 #### --distractors--
 

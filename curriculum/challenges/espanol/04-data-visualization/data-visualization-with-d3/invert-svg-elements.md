@@ -8,7 +8,7 @@ dashedName: invert-svg-elements
 
 # --description--
 
-You may have noticed the bar chart looked like it's upside-down, or inverted. This is because of how SVG uses (x, y) coordinates.
+Habrás notado que el gráfico de barras parecía estar al revés, o invertido. Esto se debe a cómo SVG utiliza las coordenadas (x, y).
 
 En SVG, el punto de origen de coordenadas está en la esquina superior izquierda. Una coordenada `x` de 0 coloca la forma en el borde izquierdo del área SVG. Una coordenada `y` de 0 coloca la forma en el borde superior del área SVG. Valores más altos de `x` empujan el rectángulo a la derecha. Valores más altos de `y` empujan el rectángulo hacia abajo.
 

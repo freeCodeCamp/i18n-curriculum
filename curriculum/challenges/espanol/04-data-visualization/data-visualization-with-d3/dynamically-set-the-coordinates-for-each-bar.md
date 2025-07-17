@@ -8,7 +8,7 @@ dashedName: dynamically-set-the-coordinates-for-each-bar
 
 # --description--
 
-The last challenge created and appended a rectangle to the `svg` element for each point in `dataset` to represent a bar. Unfortunately, they were all stacked on top of each other.
+El último desafío crea un rectángulo adjunto al elemento `svg` por cada punto en `dataset` para representar una barra. Desafortunadamente, todas estaban apiladas una arriba de la otra.
 
 La posición de un rectángulo es manejada por los atributos `x` e `y`. Le dicen a D3 dónde empezar a dibujar la figura en el área de `svg`. El último desafío los puso cada uno a 0, por lo que cada barra se colocó en la esquina superior izquierda.
 

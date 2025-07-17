@@ -14,7 +14,7 @@ dashedName: natural-language-processing-with-rnns-recurring-neural-networks
 
 ## --text--
 
-What is true about Recurrent Neural Networks?
+¿Qué es cierto acerca de las Redes Neuronales Recurrentes?
 
 ## --answers--
 

@@ -9,13 +9,13 @@ dashedName: task-108
 
 # --description--
 
-The phrase `search for` means to look for something or try to find something through exploration. For example, `I need to search for my lost keys` means looking for the keys.
+La frase `search for` significa buscar algo o intentar encontrar algo a través de la exploración. Por ejemplo, `I need to search for my lost keys` significa buscar las llaves.
 
-The word `expensive` describes something that costs a lot of money. For example, `That car is too expensive for me` means the car costs a lot.
+La palabra `expensive` describe algo que cuesta mucho dinero. Por ejemplo, `That car is too expensive for me` significa que el coche cuesta mucho.
 
-A `solution` is an answer to a problem or a way to fix an issue.
+Una `solution` es una respuesta a un problema o una forma de resolver un problema.
 
-`Doesn't/don't have to` is used to express that there is no need or requirement to do something.
+`Doesn't/don't have to` se utiliza para expresar que no hay necesidad ni obligación de hacer algo.
 
 # --fillInTheBlank--
 
@@ -29,7 +29,7 @@ A `solution` is an answer to a problem or a way to fix an issue.
 
 ### --feedback--
 
-This word means to look for something carefully.
+Esta palabra significa buscar algo cuidadosamente.
 
 ---
 
@@ -37,7 +37,7 @@ This word means to look for something carefully.
 
 ### --feedback--
 
-This preposition is used with `search` to indicate what you are trying to find.
+Esta preposición se usa con `search` para indicar lo que estás intentando encontrar.
 
 ---
 
@@ -45,7 +45,7 @@ This preposition is used with `search` to indicate what you are trying to find.
 
 ### --feedback--
 
-This word describes something that costs a lot of money.
+Esta palabra describe algo que cuesta mucho dinero.
 
 ---
 
@@ -53,7 +53,7 @@ This word describes something that costs a lot of money.
 
 ### --feedback--
 
-These are answers or ways to solve a problem.
+Estas son respuestas o formas de resolver un problema.
 
 # --scene--
 

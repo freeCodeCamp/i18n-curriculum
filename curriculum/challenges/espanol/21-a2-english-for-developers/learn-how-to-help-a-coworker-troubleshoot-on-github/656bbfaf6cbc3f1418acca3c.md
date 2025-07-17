@@ -1,6 +1,6 @@
 ---
 id: 656bbfaf6cbc3f1418acca3c
-title: Task 6
+title: Tarea 6
 challengeType: 22
 dashedName: task-6
 ---
@@ -9,7 +9,7 @@ dashedName: task-6
 
 # --description--
 
-Listen to the audio and complete the sentence.
+Escucha el audio para completar la oración.
 
 # --fillInTheBlank--
 
@@ -23,7 +23,7 @@ Listen to the audio and complete the sentence.
 
 ### --feedback--
 
-`What` and `is` are in abbreviated form. Remember to capitalize `What`.
+`What` y `is` están en formulario abreviado. Recuerda capitalizar `What`.
 
 # --scene--
 

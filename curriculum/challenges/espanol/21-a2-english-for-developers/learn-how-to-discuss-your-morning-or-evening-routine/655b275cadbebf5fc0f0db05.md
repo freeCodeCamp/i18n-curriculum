@@ -9,7 +9,7 @@ dashedName: task-82
 
 # --description--
 
-Focus on the specific actions and timing of Maria's activities on Tuesdays.
+Enfocarse en las acciones específicas y el momento de las actividades de María los martes.
 
 # --fillInTheBlank--
 
@@ -23,7 +23,7 @@ Focus on the specific actions and timing of Maria's activities on Tuesdays.
 
 ### --feedback--
 
-Used here to describe the action of participating in her lessons.
+Utilizado aquí para describir la acción de participar en sus lecciones.
 
 ---
 
@@ -31,7 +31,7 @@ Used here to describe the action of participating in her lessons.
 
 ### --feedback--
 
-Specifies how her lessons occur - in her case, in a virtual environment.
+Especifica cómo se dan sus lecciones - en su caso, en un entorno virtual.
 
 # --scene--
 

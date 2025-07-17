@@ -10,7 +10,7 @@ dashedName: rock-paper-scissors
 
 For this challenge, you will create a program to play Rock, Paper, Scissors. A program that picks at random will usually win 50% of the time. To pass this challenge your program must play matches against four different bots, winning at least 60% of the games in each match.
 
-You will be <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-rock-paper-scissors/" target="_blank" rel="noopener noreferrer nofollow">working on this project with our Gitpod starter code</a>.
+Estarás <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-rock-paper-scissors/" target="_blank" rel="noopener noreferrer nofollow">trabajando en este proyecto con nuestro código inicial en Gitpod</a>.
 
 We are still developing the interactive instructional part of the machine learning curriculum. For now, you will have to use other resources to learn how to pass this challenge.
 
@@ -26,7 +26,7 @@ The file `RPS.py` shows an example function that you will need to update. The ex
 
 ## Desarrollo
 
-Do not modify `RPS_game.py`. Write all your code in `RPS.py`. For development, you can use `main.py` to test your code.
+Do not modify `RPS_game.py`. Write all your code in `RPS.py`. Para el desarrollo, puedes utilizar `main.py` para probar tu código.
 
 `main.py` imports the game function and bots from `RPS_game.py`.
 
