@@ -7,34 +7,34 @@ dashedName: step-99
 
 # --description--
 
-With everything set in place, call the `pauseSong()`, `setPlayerDisplay()`, `highlightCurrentSong()`, and `setPlayButtonAccessibleText()` functions to correctly update the player.
+Con todo en su lugar, llama a las funciones `pauseSong()`, `setPlayerDisplay()`, `highlightCurrentSong()` y `setPlayButtonAccessibleText()` para actualizar correctamente el reproductor.
 
-Congratulations on completing your music player! Now that we've finished testing and using the shorter songs, we've replaced them with the original tracks specially selected by Quincy for you to enjoy.
+¡Felicidades por completar tu reproductor de música! Ahora que hemos terminado de probar y utilizar las canciones más cortas, las hemos reemplazado con las pistas originales especialmente seleccionadas por Quincy para que las disfrutes.
 
 # --hints--
 
-You should call the `pauseSong` function.
+Debes llamar a la función `pauseSong`.
 
 ```js
 const splitter = code.split('audio.addEventListener("ended", () => {')
 assert.match(splitter[1], /pauseSong\(\s*\)\s*;?/)
 ```
 
-You should call the `setPlayerDisplay` function.
+Debes llamar a la función `setPlayerDisplay`.
 
 ```js
 const splitter = code.split('audio.addEventListener("ended", () => {')
 assert.match(splitter[1], /setPlayerDisplay\(\s*\)\s*;?/)
 ```
 
-You should call the `highlightCurrentSong` function.
+Debes llamar a la función `highlightCurrentSong`.
 
 ```js
 const splitter = code.split('audio.addEventListener("ended", () => {')
 assert.match(splitter[1], /highlightCurrentSong\(\s*\)\s*;?/)
 ```
 
-You should call the `setPlayButtonAccessibleText` function.
+Debes llamar a la función `setPlayButtonAccessibleText`.
 
 ```js
 const splitter = code.split('audio.addEventListener("ended", () => {')

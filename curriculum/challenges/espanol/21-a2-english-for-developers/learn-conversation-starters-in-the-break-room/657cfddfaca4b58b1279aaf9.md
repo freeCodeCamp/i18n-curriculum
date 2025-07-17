@@ -9,7 +9,7 @@ dashedName: task-74
 
 # --description--
 
-To `encourage` means to give support, confidence, or hope to someone. It's what a good coach does to motivate their team to do their best.
+To `encourage` means to give support, confidence, o esperanza a alguien. Es lo que hace un buen entrenador para motivar a su equipo a dar lo mejor de sí.
 
 # --instructions--
 
@@ -27,7 +27,7 @@ Escucha el audio para completar la oración de abajo.
 
 ### --feedback--
 
-Remember to conjugate the verb. The verb you need is about motivating or inspiring someone to do something. It's similar to cheering someone on.
+Recuerda conjugar el verbo. El verbo que necesitas es acerca de motivar o inspirar a alguien a hacer algo. Es semejante a animar a alguien.
 
 # --scene--
 

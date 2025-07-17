@@ -7,25 +7,25 @@ dashedName: step-10
 
 # --description--
 
-As you are designing the game, you will need to make sure that the size of the elements in the game are responsive and adapt to different screen sizes.
+Mientras diseñes el juego, necesitarás asegurarte de que el tamaño de los elementos en el juego sea adaptable y se ajuste a diferentes tamaños de pantalla.
 
-Start by creating an arrow function called `proportionalSize` that takes in a `size` parameter.
+Comienza creando una función flecha llamada `proportionalSize` que tome un parámetro `size`.
 
 # --hints--
 
-`proportionalSize` should be a function.
+`proportionalSize` debe ser una función.
 
 ```js
 assert.isFunction(proportionalSize);
 ```
 
-Your `proportionalSize` function should use arrow syntax.
+Tu función `proportionalSize` debe utilizar la sintaxis de flecha.
 
 ```js
 assert.match(code, /const\s+proportionalSize\s*=\s*\(?\s*.*\s*\)?\s*=>/);
 ```
 
-Your `proportionalSize` function should have a `size` parameter.
+Tu función `proportionalSize` debería tener un parámetro `size`.
 
 ```js
 assert.match(code, /const\s+proportionalSize\s*=\s*\(?\s*size\s*\)?\s*=>/);

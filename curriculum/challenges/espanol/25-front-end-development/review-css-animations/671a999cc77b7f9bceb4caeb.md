@@ -1,16 +1,16 @@
 ---
 id: 671a999cc77b7f9bceb4caeb
-title: CSS Animations Review
+title: Revisión de Animaciones CSS
 challengeType: 24
 dashedName: review-css-animations
 ---
 
 # --description--
 
-## CSS Animation Basics
+## Conceptos básicos de Animación CSS
 
-- **Definition**: CSS animations allow you to create dynamic, visually engaging effects on web pages without the need for JavaScript or complex programming. They provide a way to smoothly transition elements between different styles over a specified duration.
-- **The `@keyframes` Rule**: This rule defines the stages and styles of the animation. It specifies what styles the element should have at various points during the animation.
+- **Definición**: Las animaciones CSS te permiten crear efectos dinámicos y visualmente atractivos en páginas web sin necesidad de JavaScript o programación compleja. Proporcionan una manera de transitar suavemente los elementos entre diferentes estilos durante una duración especificada.
+- **La Regla `@keyframes`**: Esta regla define las etapas y estilos de la animación. Especifica qué estilos debe tener el elemento en varios puntos durante la animación.
 
 ```css
 @keyframes slide-in {
@@ -23,19 +23,19 @@ dashedName: review-css-animations
 }
 ```
 
-- **`animation` Property**: This is the shorthand property used to apply animations.
-- **`animation-name`**: This specifies the name for the `@keyframes` rule to use.
-- **`animation-duration`**: This sets how long the animation should take to complete.
-- **`animation-timing-function`**: This defines how the animation progresses over time (such as ease, linear, ease-in-out).
-- **`animation-delay`**: This specifies a delay before the animation starts.
-- **`animation-iteration-count`**: This sets how many times the animation should repeat.
-- **`animation-direction`**: This determines whether the animation should play forwards, backwards, or alternate.
-- **`animation-fill-mode`**: This specifies how the element should be styled before and after the animation.
-- **`animation-play-state`**: This allows you to pause and resume the animation.
+- **`Propiedad de Animación`**: Esta es la propiedad abreviada utilizada para aplicar animaciones.
+- **`Nombre de Animación`**: Esto especifica el nombre de la regla `@keyframes` que se va a usar.
+- **`Duración de Animación`**: Esto establece cuánto tiempo debe durar la animación.
+- **`Función de Tiempo de Animación`**: Esto define cómo avanza la animación a lo largo del tiempo (como ease, linear, ease-in-out).
+- **`Retraso de Animación`**: Esto especifica un retraso antes de que comience la animación.
+- **`Conteo de Iteración de Animación`**: Esto establece cuántas veces debe repetirse la animación.
+- **`Dirección de Animación`**: Esto determina si la animación debería reproducirse hacia adelante, hacia atrás o alternar.
+- **`Modo de Relleno de Animación`**: Esto especifica cómo debe estar estilizado el elemento antes y después de la animación.
+- **`Estado de Reproducción de Animación`**: Esto te permite pausar y reanudar la animación.
 
-## Accessibility and the `prefers-reduced-motion` Media Query
+## Accesibilidad y la Consulta de Medios `prefers-reduced-motion`
 
-- **The `prefers-reduced-motion` Media Query**: One of the primary accessibility concerns with animations is that they can cause discomfort or even physical harm to some users. People with vestibular disorders or motion sensitivity may experience dizziness, nausea, or headaches when exposed to certain types of movement on screen. The `prefers-reduced-motion` media query allows web developers to detect if the user has requested minimal animations or motion effects at the system level.
+- **La Consulta de Medios `prefers-reduced-motion`**: Una de las preocupaciones principales de accesibilidad con las animaciones es que pueden causar incomodidad o incluso daño físico a algunos usuarios. Las personas con trastornos vestibulares o sensibilidad al movimiento pueden experimentar mareos, náuseas o dolores de cabeza cuando se exponen a ciertos tipos de movimiento en la pantalla. La consulta de medios `prefers-reduced-motion` permite a los desarrolladores web detectar si el usuario ha solicitado animaciones mínimas o efectos de movimiento a nivel de sistema.
 
 ```css
 .animated-element {
@@ -51,4 +51,4 @@ dashedName: review-css-animations
 
 # --assignment--
 
-Review the CSS Animations topics and concepts.
+Revisa los temas y conceptos de Animaciones CSS.

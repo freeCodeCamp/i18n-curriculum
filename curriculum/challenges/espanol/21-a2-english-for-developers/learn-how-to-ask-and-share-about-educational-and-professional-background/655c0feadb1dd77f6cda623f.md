@@ -1,13 +1,13 @@
 ---
 id: 655c0feadb1dd77f6cda623f
-title: "Dialogue 1: A Job Interview"
+title: "Diálogo 1: Una Entrevista de Trabajo"
 challengeType: 21
 dashedName: dialogue-1-a-job-interview
 ---
 
 # --description--
 
-Watch the video below to understand the context of the upcoming lessons.
+Mira el video a continuación para entender el contexto de las próximas lecciones.
 
 # --assignment--
 

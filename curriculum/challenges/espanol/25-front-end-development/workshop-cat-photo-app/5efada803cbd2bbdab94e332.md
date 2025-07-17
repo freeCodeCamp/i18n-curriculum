@@ -1,35 +1,35 @@
 ---
 id: 5efada803cbd2bbdab94e332
-title: Step 31
+title: Paso 31
 challengeType: 0
 dashedName: step-31
 ---
 
 # --description--
 
-Inside the `figure` element you just added, nest an `img` element with a `src` attribute set to `https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg`.
+Dentro del elemento `figure` que acabas de agregar, anida un elemento `img` con un atributo `src` establecido en `https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg`.
 
 # --hints--
 
-Your second `figure` element should have an opening tag. Opening tags have this syntax: `<elementName>`.
+Tu segundo elemento `figure` debe tener una etiqueta de apertura. Las etiquetas de apertura tienen esta sintaxis: `<elementName>`.
 
 ```js
 assert.isAtLeast(document.querySelectorAll('figure').length, 2);
 ```
 
-Your second `figure` element should have a closing tag. Closing tags have a `/` just after the `<` character.
+Tu segundo elemento `figure` debe tener una etiqueta de cierre. Las etiquetas de cierre tienen un `/` justo después del carácter `<`.
 
 ```js
 assert.isAtLeast(code.match(/<\/figure>/g)?.length, 2);
 ```
 
-There should be a second `figure` element right above the second `section` element's closing tag. You have them in the wrong order.
+Debe haber un segundo elemento `figure` justo antes de la etiqueta de cierre del segundo elemento `section`. Los tienes en el orden incorrecto.
 
 ```js
 assert.equal(document.querySelectorAll('main > section')[1]?.lastElementChild.nodeName, 'FIGURE');
 ```
 
-You should have a third `img` element nested in the `figure` element.
+Debes tener un tercer elemento `img` anidado en el elemento `figure`.
 
 ```js
 const catsImg = document.querySelectorAll('figure > img')[1];
@@ -38,7 +38,7 @@ assert.exists(
 );
 ```
 
-The third image should have a `src` attribute set to `https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg`.
+La tercera imagen debe tener un atributo `src` establecido en `https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg`.
 
 ```js
 const catsImg = document.querySelectorAll('figure > img')[1];
@@ -47,7 +47,7 @@ assert.equal(
 );
 ```
 
-Although you have set the new image's `src` to the correct URL, it is recommended to always surround the value of an attribute with quotation marks.
+Aunque has establecido el `src` de la nueva imagen al URL correcto, se recomienda siempre rodear el valor de un atributo con comillas.
 
 ```js
 assert.notMatch(code, /\<img\s+.+\s+src\s*=\s*https:\/\/cdn\.freecodecamp\.org\/curriculum\/cat-photo-app\/cats\.jpg/);

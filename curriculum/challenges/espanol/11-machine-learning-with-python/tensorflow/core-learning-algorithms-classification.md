@@ -1,6 +1,6 @@
 ---
 id: 5e8f2f13c4cdbe86b5c72d8d
-title: 'Core Learning Algorithms: Classification'
+title: 'Algoritmos de aprendizaje básico: Clasificación'
 challengeType: 11
 videoId: qFF7ZQNvK9E
 bilibiliIds:
@@ -14,15 +14,15 @@ dashedName: core-learning-algorithms-classification
 
 ## --text--
 
-What is classification?
+¿Qué es la clasificación?
 
 ## --answers--
 
-The process of separating data points into different classes.
+El proceso de separación de puntos de datos en diferentes clases.
 
 ---
 
-Predicting a numeric value or forecast based on independent and dependent variables.
+Predecir un valor numérico o predicción basado en variables independientes y dependientes.
 
 ---
 

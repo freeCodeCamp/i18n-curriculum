@@ -1,35 +1,35 @@
 ---
 id: 5efae16e3cbd2bbdab94e334
-title: Step 33
+title: Paso 33
 challengeType: 0
 dashedName: step-33
 ---
 
 # --description--
 
-After the last `img` element, add a `figcaption` element with the text `Cats hate other cats.`
+Después del último elemento `img`, añade un elemento `figcaption` con el texto `Cats hate other cats.`
 
 # --hints--
 
-Your `figcaption` element should have an opening tag. Opening tags have the following syntax: `<elementName>`.
+Tu elemento `figcaption` debe tener una etiqueta de apertura. Las etiquetas de apertura tienen la siguiente sintaxis: `<elementName>`.
 
 ```js
 assert.lengthOf(document.querySelectorAll('figcaption'), 2);
 ```
 
-Your `figcaption` element should have a closing tag. Closing tags have a `/` just after the `<` character.
+Tu elemento `figcaption` debe tener una etiqueta de cierre. Las etiquetas de cierre tienen un `/` justo después del carácter `<`.
 
 ```js
 assert.lengthOf(code.match(/<\/figcaption\>/g), 2);
 ```
 
-There should be a `figure` element right above the second `section` element's closing tag.
+Debe haber un elemento `figure` justo encima de la etiqueta de cierre del segundo elemento `section`.
 
 ```js
 assert.equal(document.querySelectorAll('main > section')[1]?.lastElementChild.nodeName, 'FIGURE');
 ```
 
-The last `img` element should be nested in the `figure` element.
+El último elemento `img` debe estar anidado en el elemento `figure`.
 
 ```js
 const catsImg = document.querySelectorAll('figure > img')[1];
@@ -38,25 +38,25 @@ assert.equal(
 );
 ```
 
-Your `figure` element should have an opening tag. Opening tags have the following syntax: `<elementName>`.
+Tu elemento `figure` debe tener una etiqueta de apertura. Las etiquetas de apertura tienen la siguiente sintaxis: `<elementName>`.
 
 ```js
 assert.lengthOf(document.querySelectorAll('figure'), 2);
 ```
 
-Your `figure` element should have a closing tag. Closing tags have a `/` just after the `<` character.
+Tu elemento `figure` debe tener una etiqueta de cierre. Las etiquetas de cierre tienen un `/` justo después del carácter `<`.
 
 ```js
 assert.lengthOf(code.match(/<\/figure\>/g), 2);
 ```
 
-The `figcaption` element should be nested in the `figure` element.
+El elemento `figcaption` debe estar anidado en el elemento `figure`.
 
 ```js
 assert.lengthOf(document.querySelectorAll('figure > figcaption'), 2);
 ```
 
-The `figcaption` element nested in the `figure` element should be below the `img` element. You have the `img` element and the `figcaption` element in the wrong order.
+El elemento `figcaption` anidado en el elemento `figure` debe estar debajo del elemento `img`. Tienes el elemento `img` y el elemento `figcaption` en el orden incorrecto.
 
 ```js
 assert.equal(
@@ -65,14 +65,14 @@ assert.equal(
 );
 ```
 
-The `figcaption` element should have the text `Cats hate other cats.` You have omitted a word or have a typo.
+El elemento `figcaption` debe tener el texto `Cats hate other cats.` Se ha omitido una palabra o existe un error tipográfico.
 
 ```js
 assert.match(
   document
     .querySelectorAll('figcaption')[1]
-    ?.innerText.toLowerCase(),
-    /Cats hate other cats\.?$/i
+    ?.innerText?.trim().replace(/\s+/g, ' ').toLowerCase(),
+    /^Cats hate other cats\.?$/i
 );
 ```
 

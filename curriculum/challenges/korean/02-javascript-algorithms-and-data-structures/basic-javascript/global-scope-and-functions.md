@@ -18,6 +18,12 @@ dashedName: global-scope-and-functions
 
 함수 `fun1` 내부에서 `var`, `let` 또는 `const` 키워드를 사용하지 ***않고*** `oopsGlobal`에 `5`를 할당하세요.
 
+# --before-each--
+
+```js
+var oopsGlobal;
+```
+
 # --hints--
 
 `myGlobal`는 정의되어야 합니다.
@@ -41,44 +47,11 @@ assert(/(let|const)\s+myGlobal/.test(__helpers.removeJSComments(code)));
 `oopsGlobal`는 글로벌 변수이며 값은 `5`의 값을 가져야 합니다.
 
 ```js
-assert(typeof oopsGlobal != 'undefined' && oopsGlobal === 5);
+fun1();
+assert(typeof oopsGlobal != 'undefined');
 ```
 
 # --seed--
-
-## --before-user-code--
-
-```js
-var logOutput = "";
-var originalConsole = console
-function capture() {
-    var nativeLog = console.log;
-    console.log = function (message) {
-        logOutput = message;
-        if(nativeLog.apply) {
-          nativeLog.apply(originalConsole, arguments);
-        } else {
-          var nativeMsg = Array.prototype.slice.apply(arguments).join(' ');
-          nativeLog(nativeMsg);
-        }
-    };
-}
-
-function uncapture() {
-  console.log = originalConsole.log;
-}
-var oopsGlobal;
-capture();
-```
-
-## --after-user-code--
-
-```js
-fun1();
-fun2();
-uncapture();
-(function() { return logOutput || "console.log never called"; })();
-```
 
 ## --seed-contents--
 

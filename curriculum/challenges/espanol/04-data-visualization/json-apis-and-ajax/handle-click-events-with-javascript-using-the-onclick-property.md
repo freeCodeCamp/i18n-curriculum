@@ -8,7 +8,7 @@ dashedName: handle-click-events-with-javascript-using-the-onclick-property
 
 # --description--
 
-You want your code to execute only once your page has finished loading. For that purpose, you can attach a JavaScript event to the document called `DOMContentLoaded`. Here's the code that does this:
+Quieres que tu código se ejecute solo una vez que la página haya terminado de cargar. Para eso, puedes adjuntar un evento JavaScript al documento llamado `DOMContentLoaded`. Este es el código que hace esto:
 
 ```js
 document.addEventListener('DOMContentLoaded', function () {});

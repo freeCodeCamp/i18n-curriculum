@@ -1,15 +1,15 @@
 ---
 id: 5dfb5ecbeacea3f48c6300b1
-title: Step 23
+title: Paso 23
 challengeType: 0
 dashedName: step-23
 ---
 
 # --description--
 
-The `li` element is used to create a list item in an ordered or unordered list.
+El elemento `li` se utiliza para crear un elemento de lista en una lista ordenada o desordenada.
 
-Here is an example of list items in an unordered list:
+Aquí hay un ejemplo de elementos de lista en una lista desordenada:
 
 ```html
 <ul>
@@ -18,7 +18,7 @@ Here is an example of list items in an unordered list:
 </ul>
 ```
 
-Within the `ul` element nest three list items to display three things cats love:
+Dentro del elemento `ul` anida tres elementos de lista para mostrar tres cosas que aman los gatos:
 
 `catnip`
 
@@ -28,25 +28,25 @@ Within the `ul` element nest three list items to display three things cats love:
 
 # --hints--
 
-You should have three `li` elements. Each `li` element should have its own opening and closing tag.
+Debes tener tres elementos `li`. Cada elemento `li` debe tener su propia etiqueta de apertura y cierre.
 
 ```js
 assert.lengthOf(document.querySelectorAll('li'), 3);
 assert.lengthOf(code.match(/<\/li\>/g), 3);
 ```
 
-You should have three `li` elements with the text `catnip`, `laser pointers` and `lasagna` in any order. You have either omitted some text or have a typo.
+Debes tener tres elementos `li` con el texto `catnip`, `laser pointers` y `lasagna` en cualquier orden. Has omitido algún texto o tienes un error tipográfico.
 
 ```js
 assert.deepStrictEqual(
   [...document.querySelectorAll('li')]
-    .map((item) => item.innerText.toLowerCase())
+    .map((item) => item.innerText?.trim().replace(/\s+/g, ' ').toLowerCase())
     .sort((a, b) => a.localeCompare(b)),
   ['catnip', 'lasagna', 'laser pointers']
 );
 ```
 
-The three `li` elements should be located between the `ul` element's opening and closing tags.
+Los tres elementos `li` deben estar ubicados entre las etiquetas de apertura y cierre del elemento `ul`.
 
 ```js
 assert.lengthOf(

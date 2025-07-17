@@ -7,39 +7,39 @@ dashedName: step-108
 
 # --description--
 
-Create an `if` statement that checks if `isCheckpointCollisionDetectionActive` is true.
+Crea una declaración `if` que verifique si `isCheckpointCollisionDetectionActive` es verdadero.
 
-Inside the `if` statement, add a `setTimeout()` that takes in a callback function and a delay of 2000 milliseconds.
+Dentro de la declaración `if`, agrega un `setTimeout()` que tome una función de devolución de llamada y un retraso de 2000 milisegundos.
 
-For the callback function, it should set the `checkpointScreen` `style.display` property to `"none"`.
+Para la función de devolución de llamada, debe establecer la propiedad `style.display` de `checkpointScreen` a `"none"`.
 
 # --hints--
 
-You should have an `if` statement that checks if `isCheckpointCollisionDetectionActive` is true.
+Debe tener una declaración `if` que verifique si `isCheckpointCollisionDetectionActive` es verdadero.
 
 ```js
 assert.match(code, /\s*if\s*\(\s*isCheckpointCollisionDetectionActive\s*\)\s*{/s);
 ```
 
-You should have a `setTimeout()` function inside the `if` statement.
+Debe tener una función `setTimeout()` dentro de la declaración `if`.
 
 ```js
 assert.match(code, /\s*if\s*\(\s*isCheckpointCollisionDetectionActive\s*\)\s*{\s*setTimeout\s*\(/s);
 ```
 
-Your `setTimeout()` function should have a callback function as the first argument.
+Su función `setTimeout()` debe tener una función de devolución de llamada como primer argumento.
 
 ```js
 assert.match(code, /\s*setTimeout\s*\(\s*\(\s*\)\s*=>/s);
 ```
 
-Your `setTimeout()` function should have a delay of 2000 milliseconds as the second argument.
+Su función `setTimeout()` debe tener un retraso de 2000 milisegundos como segundo argumento.
 
 ```js
 assert.match(code, /\s*setTimeout\s*\(\s*\(\s*\)\s*=>[^,]*,\s*2000\s*\)/s);
 ```
 
-Your callback function should set the `checkpointScreen` `style.display` property to `"none"`.
+Su función de devolución de llamada debe establecer la propiedad `style.display` de `checkpointScreen` en `"none"`.
 
 ```js
 assert.match(code, /\s*if\s*\(\s*isCheckpointCollisionDetectionActive\s*\)\s*{\s*setTimeout\s*\(\s*\(\s*\)\s*=>\s*(\(\s*checkpointScreen\.style\.display\s*=\s*("|')none\2\s*\)|\{\s*checkpointScreen\.style\.display\s*=\s*("|')none\3\s*;?\s*\}|\s*checkpointScreen\.style\.display\s*=\s*("|')none\4\s*)\s*,\s*2000\s*\)\s*;?\s*}/s);

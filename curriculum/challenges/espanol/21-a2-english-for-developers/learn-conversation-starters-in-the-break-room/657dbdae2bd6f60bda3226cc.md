@@ -11,7 +11,7 @@ dashedName: task-81
 
 # --description--
 
-When you want to know how often something happens, you can use `every` followed by a time period like `day,` `week,` or `year.` In this dialogue, Tom is asking about the frequency of the team meetings.
+Cuando quieres saber con qué frecuencia sucede algo, puedes usar `every` seguido de un período de tiempo como `day,` `week,` o `year.` En este diálogo, Tom está preguntando sobre la frecuencia de las reuniones del equipo.
 
 # --instructions--
 
@@ -29,7 +29,7 @@ Presta atención al audio para completar la oración abajo.
 
 ### --feedback--
 
-Tom is asking if the meetings happen every week.
+Tom está preguntando si las reuniones ocurren cada semana.
 
 
 # --scene--

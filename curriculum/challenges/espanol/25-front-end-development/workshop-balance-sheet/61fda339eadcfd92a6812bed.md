@@ -1,21 +1,21 @@
 ---
 id: 61fda339eadcfd92a6812bed
-title: Step 30
+title: Paso 30
 challengeType: 0
 dashedName: step-30
 ---
 
 # --description--
 
-Before you get too far into your styling, you should make use of the `sr-only` class. You can use CSS to make elements with this class completely hidden from the visual page, but still be announced by screen readers.
+Antes de adentrarte demasiado en tu diseño, debes hacer uso de la clase `sr-only`. Puedes usar CSS para hacer que los elementos con esta clase estén completamente ocultos en la página visual, pero aún se anuncien por los lectores de pantalla.
 
-The CSS you are about to write is a common set of properties used to ensure elements are completely hidden visually.
+El CSS que estás a punto de escribir es un conjunto común de propiedades usadas para asegurar que los elementos estén completamente ocultos visualmente.
 
-The `span[class~="sr-only"]` selector will select any `span` element whose `class` _includes_ `sr-only`. Create that selector, and give it a `border` property set to `0`.
+El selector `span[class~="sr-only"]` seleccionará cualquier elemento `span` que _incluya_ la clase `sr-only`. Crea ese selector y dale una propiedad `border` configurada a `0`.
 
 # --hints--
 
-You should have an `span[class~="sr-only"]` selector.
+Debes tener un selector `span[class~="sr-only"]`.
 
 ```js
 assert.isNotNull(
@@ -23,7 +23,7 @@ assert.isNotNull(
 );
 ```
 
-Your `span[class~="sr-only"]` selector should have a `border` property set to `0`.
+Tu selector `span[class~="sr-only"]` debe tener una propiedad `border` configurada a `0`.
 
 ```js
 assert.strictEqual(

@@ -7,13 +7,13 @@ dashedName: step-43
 
 # --description--
 
-The next step is to update the player's position as it moves throughout the game.
+El paso siguiente es actualizar la posición del jugador a medida que se mueve por el juego.
 
-Below your `ctx.clearRect()`, call the `update()` method on the player.
+Debajo de `ctx.clearRect()`, llama al método `update()` en el jugador.
 
 # --hints--
 
-You should call the `update()` method on the player.
+Deberías llamar al método `update()` en el jugador.
 
 ```js
 assert.match(code, /\s*player\s*\.\s*update\s*\(\s*\)\s*;?/);

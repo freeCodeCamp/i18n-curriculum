@@ -1,17 +1,17 @@
 ---
 id: 67f8eeab71f4f24ba1a3a7eb
-title: Step 11
+title: Paso 11
 challengeType: 0
 dashedName: step-11
 ---
 
 # --description--
 
-After the form, add a `div` element with an `id` of `results` that will display the search results.
+Después del formulario, agrega un elemento `div` con un `id` de `results` que mostrará los resultados de búsqueda.
 
 # --hints--
 
-You should have a `div` element with the `id` of `results` after the form.
+Debes tener un elemento `div` con el `id` de `results` después del formulario.
 
 ```js
 const searchContainer = document.getElementById("search-container");

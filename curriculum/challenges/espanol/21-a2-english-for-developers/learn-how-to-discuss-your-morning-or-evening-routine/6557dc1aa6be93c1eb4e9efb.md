@@ -9,44 +9,44 @@ dashedName: task-29
 
 # --description--
 
-The word `if` is often used in conditional statements to talk about a possible situation and its consequences. Por ejemplo:
+La palabra `if` se usa a menudo en sentencias condicionales para hablar de una posible situación y sus consecuencias. Por ejemplo:
 
-* `If it rains, I will bring an umbrella.` (The action of bringing an umbrella depends on the possibility of rain.)
-* `If you need help, just ask.` (The offer to help is conditional on the other person needing it.)
+* `If it rains, I will bring an umbrella.` (La acción de llevar un paraguas depende de la posibilidad de lluvia.)
+* `If you need help, just ask.` (La oferta de ayuda es condicional a que la otra persona la necesite.)
 
 # --questions--
 
 ## --text--
 
-What does Sarah imply by using `if` in her statement about checking emails and messages?
+¿Qué insinúa Sarah al usar `if` en su sentencia sobre revisar correos electrónicos y mensajes?
 
 ## --answers--
 
-She always finds urgent updates from her team
+Ella siempre encuentra actualizaciones urgentes de su equipo
 
 ### --feedback--
 
-`If` doesn't suggest certainty of finding urgent updates.
+`If` no sugiere certeza de encontrar actualizaciones urgentes.
 
 ---
 
-Sometimes there are urgent updates, sometimes not
+A veces hay actualizaciones urgentes, a veces no
 
 ---
 
-She never checks her emails and messages
+Ella nunca revisa sus correos electrónicos y mensajes
 
 ### --feedback--
 
-Sarah actually states that she does check her emails and messages.
+Sarah de hecho afirma que sí revisa sus correos electrónicos y mensajes.
 
 ---
 
-Checking emails is not part of her routine
+Revisar correos electrónicos no es parte de su rutina
 
 ### --feedback--
 
-Sarah mentions that checking emails and messages is part of her routine.
+Sarah menciona que revisar correos electrónicos y mensajes es parte de su rutina.
 
 ## --video-solution--
 

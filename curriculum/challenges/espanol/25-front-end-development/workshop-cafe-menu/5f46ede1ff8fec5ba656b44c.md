@@ -1,13 +1,13 @@
 ---
 id: 5f46ede1ff8fec5ba656b44c
-title: Step 78
+title: Paso 78
 challengeType: 0
 dashedName: step-78
 ---
 
 # --description--
 
-Next, you are going to be styling the `footer` element. To keep the CSS organized, add a comment at the end of `styles.css` with the text `FOOTER`.
+A continuación, vas a estilizar el elemento `footer`. Para mantener el código CSS organizado, añade un comentario al final de `styles.css` con el texto `FOOTER`.
 
 # --hints--
 

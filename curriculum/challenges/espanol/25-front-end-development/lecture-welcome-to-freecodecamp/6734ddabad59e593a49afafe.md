@@ -1,6 +1,6 @@
 ---
 id: 6734ddabad59e593a49afafe
-title: Welcome Message from Quincy
+title: Mensaje de Bienvenida de Quincy
 challengeType: 24
 videoId: KwZkXwDUc1o
 dashedName: welcome-message-from-quincy
@@ -8,26 +8,26 @@ dashedName: welcome-message-from-quincy
 
 # --description--
 
-Watch the video or read the transcript and complete the assignment below.
+Mira el video o lee la transcripción y completa la tarea a continuación.
 
 # --transcript--
 
-I'm Quincy Larson, teacher and founder of freeCodeCamp.org.
+Soy Quincy Larson, profesor y fundador de freeCodeCamp.org.
 
-Our charity's mission is to create free learning resources to help people learn math, programming, and computer science. And that's precisely what we've done for you here.
+La misión de nuestra organización benéfica es crear recursos de aprendizaje gratuitos para ayudar a las personas a aprender matemáticas, programación y ciencias de la computación. Y eso es precisamente lo que hemos hecho para ti aquí.
 
-This free, verified certification includes thousands of hours of lectures, interactive labs, and projects. You're going to build dozens of apps from scratch.
+Esta certificación gratuita y verificada incluye miles de horas de conferencias, laboratorios interactivos y proyectos. Vas a construir docenas de aplicaciones desde cero.
 
-This is real coding. Everything's fully interactive. You'll immediately apply concepts as you learn them. And you'll get plenty of practice and spaced repetition along the way.
+Esto es codificación real. Todo es completamente interactivo. Aplicarás conceptos de inmediato mientras los aprendes. Y recibirás mucha práctica y repetición espaciada a lo largo del camino.
 
-Over the past decade, tens of thousands of people who've learned to code using freeCodeCamp have gotten their first developer jobs. Many of these people don't even have a university degree.
+Durante la última década, decenas de miles de personas que han aprendido a programar usando freeCodeCamp han conseguido sus primeros trabajos de desarrollador. Muchas de estas personas ni siquiera tienen un título universitario.
 
-But I'm not going to sugarcoat it: learning to code is hard. You're going to spend many nights and weekends sharpening your skills by building projects.
+Pero no lo voy a endulzar: aprender a programar es difícil. Vas a pasar muchas noches y fines de semana perfeccionando tus habilidades construyendo proyectos.
 
-The good news is that the freeCodeCamp community is with you all the way. You can get help anytime you get stuck. Just use the freeCodeCamp forum or the freeCodeCamp Discord. Or you can use the search bar and search through thousands of reference articles created by the community.
+La buena noticia es que la comunidad de freeCodeCamp está contigo en todo momento. Puedes obtener ayuda en cualquier momento si te quedas atascado. Simplemente usa el foro de freeCodeCamp o el Discord de freeCodeCamp. O puedes usar la barra de búsqueda y buscar entre miles de artículos de referencia creados por la comunidad.
 
-In the next lecture, I'll explain how the freeCodeCamp curriculum and how the certifications work.
+En la próxima conferencia, explicaré cómo funciona el plan de estudios de freeCodeCamp y cómo funcionan las certificaciones.
 
 # --assignment--
 
-Check this box to indicate you have watched the video.
+Marca esta casilla para indicar que has visto el video.

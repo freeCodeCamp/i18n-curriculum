@@ -14,7 +14,7 @@ dashedName: convolutional-neural-networks-evaluating-the-model
 
 ## --text--
 
-What is **not** a good way to increase the accuracy of a convolutional neural network?
+¿Qué **no** es una buena manera de incrementar la precisión de una red neuronal convolucional?
 
 ## --answers--
 

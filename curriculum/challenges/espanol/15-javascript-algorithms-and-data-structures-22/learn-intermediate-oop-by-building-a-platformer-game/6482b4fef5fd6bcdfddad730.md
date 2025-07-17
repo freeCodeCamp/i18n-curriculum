@@ -7,13 +7,13 @@ dashedName: step-12
 
 # --description--
 
-The next step is to define some characteristics for the main player of the game.
+El siguiente paso es definir algunas características para el jugador principal del juego.
 
-Start by creating a new `class` called `Player`.
+Comienza creando una nueva `class` llamada `Player`.
 
 # --hints--
 
-`Player` should be a class.
+`Player` debería ser una class.
 
 ```js
 assert(
@@ -21,13 +21,13 @@ assert(
 );
 ```
 
-The `class` keyword should be used.
+Se debe usar la palabra clave `class`.
 
 ```js
 assert.match(code, /^\s*class/m);
 ```
 
-You should create a new class called `Player`
+Deberías crear una nueva class llamada `Player`
 
 ```js
 assert.match(code, /class\s+Player\s*{\s*}\s*/);

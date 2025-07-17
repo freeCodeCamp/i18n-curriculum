@@ -7,19 +7,19 @@ dashedName: task-63
 
 # --description--
 
-There are some words you can use in your sentence to express how often something happens. They are called `adverbs of frequency`.
+Hay algunas palabras que puedes usar en tu oración para expresar con qué frecuencia sucede algo. Se llaman `adverbs of frequency`.
 
-`Usually` is a word that suggests that something happens more often than not but is not constant.
+`Usually` es una palabra que sugiere que algo sucede con más frecuencia que no, pero no es constante.
 
-When `usually` is used with the verb `to be,` it is placed after the verb. `She is usually on time for meetings.`
+Cuando `usually` se usa con el verbo `to be,` se coloca después del verbo. `She is usually on time for meetings.`
 
-With other verbs, `usually` comes before the main verb, for example: `He usually works late.`
+Con otros verbos, `usually` viene antes del verbo principal, por ejemplo: `He usually works late.`
 
 # --questions--
 
 ## --text--
 
-Choose the sentence that correctly uses the adverb `usually.`
+Elige la oración que usa correctamente el adverbio `usually.`
 
 ## --answers--
 
@@ -27,7 +27,7 @@ Choose the sentence that correctly uses the adverb `usually.`
 
 ### --feedback--
 
-`Usually` should come before the main verb when not using `to be.` The correct sentence is `She is usually very careful with her work.`
+`Usually` debe venir antes del verbo principal cuando no se usa `to be.` La oración correcta es `She is usually very careful with her work.`
 
 ---
 
@@ -39,7 +39,7 @@ Choose the sentence that correctly uses the adverb `usually.`
 
 ### --feedback--
 
-`Usually` should come before the main verb in standard sentences. The correct sentence is `They usually play together on weekends.`
+`Usually` debe venir antes del verbo principal en oraciones estándar. La oración correcta es `They usually play together on weekends.`
 
 ---
 
@@ -47,7 +47,7 @@ Choose the sentence that correctly uses the adverb `usually.`
 
 ### --feedback--
 
-With the verb `to be,` `usually` comes after. The correct sentence is `We are usually happy to help out with new projects.`
+Con el verbo `to be,` `usually` viene después. La oración correcta es `We are usually happy to help out with new projects.`
 
 ## --video-solution--
 

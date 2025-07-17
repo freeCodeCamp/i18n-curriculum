@@ -8,7 +8,7 @@ dashedName: change-the-presentation-of-a-bar-chart
 
 # --description--
 
-The last challenge created a bar chart, but there are a couple of formatting changes that could improve it:
+El último desafío creó un gráfico de barras, pero hay algunos cambios en el formateo que podrían mejorarlo:
 
 1. Add space between each bar to visually separate them, which is done by adding a margin to the CSS for the `bar` class
 

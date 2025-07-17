@@ -51,7 +51,7 @@ _person.setFullName('John', 'Smith');
 assert.lengthOf(Object.keys(_person), 6);
 ```
 
-Deberías poder instanciar un objeto `Person`.
+Debes poder instanciar un objeto `Person`.
 
 ```js
 const _person = new Person('Bob', 'Ross');

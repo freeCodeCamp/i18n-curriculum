@@ -1,44 +1,44 @@
 ---
 id: 5efae0543cbd2bbdab94e333
-title: Step 32
+title: Paso 32
 challengeType: 0
 dashedName: step-32
 ---
 
 # --description--
 
-To improve the accessibility of the image you added, add an `alt` attribute with the text:
+Para mejorar la accesibilidad de la imagen que agregaste, añade un atributo `alt` con el texto:
 
 `Five cats looking around a field.`
 
 # --hints--
 
-Your `figure` element should have an opening tag. Opening tags have this syntax: `<elementName>`.
+El elemento `figure` debe tener una etiqueta de apertura. Las etiquetas de apertura tienen esta sintaxis: `<elementName>`.
 
 ```js
 assert.lengthOf(document.querySelectorAll('figure'), 2);
 ```
 
-Your `figure` element should have a closing tag. Closing tags have a `/` just after the `<` character.
+El elemento `figure` debe tener una etiqueta de cierre. Las etiquetas de cierre tienen un `/` justo después del carácter `<`.
 
 ```js
 assert.lengthOf(code.match(/<\/figure>/g), 2);
 ```
 
-There should be a `figure` element right above the last `section` element's closing tag.
+Debe haber un elemento `figure` justo encima de la última etiqueta de cierre del elemento `section`.
 
 ```js
 assert.equal(document.querySelectorAll('main > section')[1]?.lastElementChild.nodeName, 'FIGURE');
 ```
 
-The Cats `img` element should be nested in the `figure` element.
+El elemento `img` de Cats debe estar anidado en el elemento `figure`.
 
 ```js
 const catsImg = document.querySelectorAll('figure > img')[1];
 assert.exists(catsImg);
 ```
 
-The third image should have a `src` attribute set to `https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg`.
+La tercera imagen debe tener un atributo `src` establecido en `https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg`.
 
 ```js
 const catsImg = document.querySelectorAll('figure > img')[1];
@@ -47,7 +47,7 @@ assert.strictEqual(
 );
 ```
 
-The Cats `img` element should have an `alt` attribute with the value `Five cats looking around a field.`
+El elemento `img` de Cats debe tener un atributo `alt` con el valor `Five cats looking around a field.`
 
 ```js
 const catsImg = document.querySelectorAll('figure > img')[1];

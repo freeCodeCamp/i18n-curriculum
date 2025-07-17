@@ -9,13 +9,13 @@ dashedName: task-5
 
 # --description--
 
-When describing the color of a person's eyes, you normally identify them first by their color. Common eye colors are `black`, `brown`, `blue`, and `green`. Depending on the color if can have a tendency to `white` or to `black` (the color itself is stronger or weaker). In this case, you can add the words `light` (tending to `white`) and `dark` (tending to `black`) before the color to express it. Another characteristic that you normally use to identify another person's eyes is the shape - `round` when it is more like a circle and `narrow` when it is more similar to a line. Finally, you can refer to them in terms of their size, `large` (when they are big) or `small` (when they are not). Tom also expresses an opinion, saying Lisa's eyes are full of energy and vitality. In this case, you say one's eyes is `bright`.
+Cuando describes el color de los ojos de una persona, normalmente los identificas primero por su color. Los colores de ojos comunes son `black`, `brown`, `blue` y `green`. Dependiendo del color, puede tender a `white` o a `black` (el color en sí mismo es más fuerte o más débil). En este caso, puedes agregar las palabras `light` (tendiendo a `white`) y `dark` (tendiendo a `black`) antes del color para expresarlo. Otra característica que normalmente usas para identificar los ojos de otra persona es la figura - `round` cuando es más como un círculo y `narrow` cuando es más similar a una línea. Finalmente, puedes referirte a ellos en términos de su tamaño, `large` (cuando son grandes) o `small` (cuando no lo son). Tom también expresa una opinión, diciendo que los ojos de Lisa están llenos de energía y vitalidad. En este caso, dices que los ojos de alguien son `bright`.
 
-As you do with `hair`, the adjectives to identify a person's eyes also follow an order in English. First, you express this opinion, then move on to the size, then the shape and finally the color (preceded or not by `light` or `dark`).
+Como haces con el `hair`, los adjetivos para identificar los ojos de una persona también siguen un orden en inglés. Primero, expresas esta opinión, luego pasas al tamaño, luego a la figura y finalmente al color (precedido o no por `light` o `dark`).
 
-Example: `Tom has beautiful, small, narrow, light green eyes.`
+Ejemplo: `Tom has beautiful, small, narrow, light green eyes.`
 
-Now listen and fill in the blanks with Tom's description of Lisa's eyes.
+Ahora escucha y completa los espacios en blanco con la descripción de Tom sobre los ojos de Lisa.
 
 # --fillInTheBlank--
 
@@ -29,7 +29,7 @@ Now listen and fill in the blanks with Tom's description of Lisa's eyes.
 
 ### --feedback--
 
-Tom expresses an opinion first. He says Lisa's eyes are full of energy.
+Tom expresa una opinión primero. Él dice que los ojos de Lisa están llenos de energía.
 
 ---
 
@@ -37,7 +37,7 @@ Tom expresses an opinion first. He says Lisa's eyes are full of energy.
 
 ### --feedback--
 
-Tom finally talks about Lisa's eye color. It is a shade close to `black`, and neither `blue` nor `green`.
+Tom finalmente habla sobre el color de los ojos de Lisa. Es una sombra cercana a `black`, y ni `blue` ni `green`.
 
 # --scene--
 

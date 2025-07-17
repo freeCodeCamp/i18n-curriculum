@@ -12,7 +12,7 @@ dashedName: introduction-to-tensorflow
 
 # --description--
 
-The next few video lessons will reference [this Colab notebook](https://colab.research.google.com/drive/1F_EWVKa8rbMXi3_fG0w7AtcscFq7Hi7B#forceEdit=true&sandboxMode=true).
+Las próximas videolecciones referenciarán [este cuaderno de Colab](https://colab.research.google.com/drive/1F_EWVKa8rbMXi3_fG0w7AtcscFq7Hi7B#forceEdit=true&sandboxMode=true).
 
 # --questions--
 
@@ -30,7 +30,7 @@ Flowing
 
 ---
 
-Placeholder
+Marcador de posición
 
 ---
 

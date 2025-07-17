@@ -1,6 +1,6 @@
 ---
 id: 66bf6bacf178eac7b96d4f5e
-title: Build a Favorite Icon Toggler
+title: Construir un conmutador de íconos favoritos
 challengeType: 25
 dashedName: build-a-favorite-icon-toggler
 demoType: onClick
@@ -8,55 +8,55 @@ demoType: onClick
 
 # --description--
 
-In this lab you will use JavaScript click events to toggle the appearance of a favorite icon. When the heart icon is clicked, the appearance of the heart changes from empty to filled, and vice versa.
+En este laboratorio, utilizarás eventos de clic de JavaScript para alternar la apariencia de un ícono favorito. Cuando se hace clic en el ícono de corazón, la apariencia del corazón cambia de vacío a lleno, y viceversa.
 
-Fulfill the user stories below and get all the tests to pass to complete the lab.
+Cumpla las historias de usuario a continuación y haga que pasen todas las pruebas para completar el laboratorio.
 
 **Historia de usuario:**
 
-1. You should have an unordered list with three items.
-2. The unordered list should have the class `item-list`.
-3. The three list items should contain the item name followed by a `button` element with the class `favorite-icon`.
-4. The `button` element should contain the code `&#9825;` initially to represent an empty heart.
-5. When a `button` element containing a heart is clicked, you should add a class named `filled` to the clicked `button` if it's not already present, and remove it, if it is.
-6. You should have a class selector that targets the `filled` class and sets some CSS properties.
-7. When a `button` element containing a heart is clicked, the heart symbol should toggle between `&#9825;` (empty heart) and `&#10084;` (filled heart), depending on its current state.
+1. Debe tener una lista desordenada con tres elementos.
+2. La lista desordenada debe tener la clase `item-list`.
+3. Los tres elementos de la lista deben contener el nombre del artículo seguido de un elemento `button` con la clase `favorite-icon`.
+4. El elemento `button` debe contener el código `&#9825;` inicialmente para representar un corazón vacío.
+5. Cuando se hace clic en un elemento `button` que contiene un corazón, debe agregar una clase llamada `filled` al `button` clicado si no está presente, y eliminarla, si lo está.
+6. Debe tener un selector de clase que apunte a la clase `filled` y establezca algunas propiedades de CSS.
+7. Cuando se hace clic en un elemento `button` que contiene un corazón, el símbolo del corazón debe alternar entre `&#9825;` (corazón vacío) y `&#10084;` (corazón lleno), dependiendo de su estado actual.
 
-**Note:** Be sure to link your JavaScript file in your HTML. (Ex. `<script src="script.js"></script>`)
+**Nota:** Asegúrese de vincular su archivo JavaScript en su HTML. (Ej. `<script src="script.js"></script>`)
 
 # --hints--
 
-You should have an unordered list.
+Debe tener una lista desordenada.
 
 ```js
 assert.exists(document.querySelector('ul'));
 ```
 
-Your unordered list should have 3 items.
+Su lista desordenada debe tener 3 elementos.
 
 ```js
 assert.lengthOf(document.querySelectorAll('ul li'), 3);
 ```
 
-Your unordered list should have the class `item-list`.
+Su lista desordenada debe tener la clase `item-list`.
 
 ```js
 assert.exists(document.querySelector('ul.item-list'));
 ```
 
-Your individual list items should contain the item name.
+Sus elementos de lista individuales deben contener el nombre del artículo.
 
 ```js
 assert.exists(document.querySelector('ul li').textContent);
 ```
 
-Your individual list item should contain a `button` element with the class `favorite-icon`.
+Su elemento de lista individual debe contener un elemento `button` con la clase `favorite-icon`.
 
 ```js
 assert.exists(document.querySelector('ul li button.favorite-icon'));
 ```
 
-Initially, the `button` elements should contain the code `&#9825;` to represent an empty heart.
+Inicialmente, los elementos `button` deben contener el código `&#9825;` para representar un corazón vacío.
 
 ```js
 const inputs = document.querySelectorAll('ul li button.favorite-icon');
@@ -67,7 +67,7 @@ for (let input of inputs) {
 }
 ```
 
-You should have a `.filled` selector that sets some CSS properties.
+Debe tener un selector `.filled` que establezca algunas propiedades de CSS.
 
 ```js
 const filled = new __helpers.CSSHelp(document).getStyle('.filled');
@@ -75,7 +75,7 @@ assert.exists(filled);
 assert.isNotEmpty([...filled]); 
 ```
 
-When the `button` element is clicked, and it contains the class `filled`, you should remove the class `filled` from the `button` element and change the innerHTML of the `button` element to `&#9825;`.
+Cuando se hace clic en el elemento `button`, y contiene la clase `filled`, debe eliminar la clase `filled` del elemento `button` y cambiar el innerHTML del elemento `button` a `&#9825;`.
 
 ```js
 const buttonElements = document.querySelectorAll('.favorite-icon');
@@ -90,7 +90,7 @@ buttonElements.forEach(button => {
 });
 ```
 
-When the `button` element is clicked, and it doesn't contain the class `filled`, you should add the class `filled` to the `button` element and change the `innerHTML` of the `button` element to `&#10084;`.
+Cuando se hace clic en el elemento `button`, y no contiene la clase `filled`, debe agregar la clase `filled` al elemento `button` y cambiar el `innerHTML` del elemento `button` a `&#10084;`.
 
 ```js
 const buttonElements = document.querySelectorAll('.favorite-icon');

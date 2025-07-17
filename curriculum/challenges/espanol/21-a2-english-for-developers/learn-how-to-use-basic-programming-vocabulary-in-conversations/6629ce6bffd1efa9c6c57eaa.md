@@ -1,6 +1,6 @@
 ---
 id: 6629ce6bffd1efa9c6c57eaa
-title: Task 1
+title: Tarea 1
 challengeType: 22
 dashedName: task-1
 ---
@@ -9,9 +9,9 @@ dashedName: task-1
 
 # --description--
 
-The phrase `how's it going?` is a common way to ask someone how they are or what's happening in their life. It's often used as a friendly greeting.
+La frase `how's it going?` es una manera común de preguntar a alguien cómo está o qué está sucediendo en su vida. A menudo se usa como un saludo amistoso.
 
-For example, when you see an old friend, you may say `Hey, how's it going? I haven't seen you for a while!` This is a casual way to ask them about their life. If you want to ask them about a specific thing, like their new job, you can say `How's it going with your new job?`
+Por ejemplo, cuando ves a un viejo amigo, puedes decir `Hey, how's it going? ¡No te he visto desde hace tiempo!` Esta es una manera informal de preguntarles sobre su vida. Si quieres preguntarles sobre algo específico, como su nuevo trabajo, puedes decir `How's it going with your new job?`
 
 # --fillInTheBlank--
 
@@ -25,7 +25,7 @@ For example, when you see an old friend, you may say `Hey, how's it going? I hav
 
 ### --feedback--
 
-This contraction is commonly used in informal greetings. Capitalize the first word.
+Esta contracción se usa comúnmente en saludos informales. Capitaliza la primer palabra.
 
 ---
 
@@ -33,7 +33,7 @@ This contraction is commonly used in informal greetings. Capitalize the first wo
 
 ### --feedback--
 
-This word completes the common informal greeting asking about someone's general state.
+Esta palabra completa el saludo informal común que pregunta sobre el estado general de alguien.
 
 # --scene--
 

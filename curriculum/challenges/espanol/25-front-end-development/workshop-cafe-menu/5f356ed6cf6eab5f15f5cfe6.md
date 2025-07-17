@@ -7,7 +7,7 @@ dashedName: step-20
 
 # --description--
 
-The `div` element is used mainly for design layout purposes, unlike the other content elements you have used so far. Add a `div` element inside the `body` element and then move all the other elements inside the new `div`.
+El elemento `div` se usa principalmente para fines de diseño de diseño, a diferencia de los otros elementos de contenido que ha utilizado hasta ahora. Añade un elemento `div` dentro del elemento `body` y luego mueve todos los demás elementos dentro del nuevo `div`.
 
 Dentro de la etiqueta `div` de apertura, añade el atributo `id` con un valor de `menu`.
 
@@ -31,13 +31,13 @@ No debes cambiar tu elemento `body` existente. Asegúrate de no haber eliminado 
 assert.lengthOf(document.querySelectorAll('body'), 1);
 ```
 
-Your `div` element should be nested in the `body`.
+Su elemento `div` debe estar anidado en el `body`.
 
 ```js
 assert.equal(document.querySelector('div')?.parentElement?.tagName, 'BODY');
 ```
 
-You should move all the other elements inside the new `div`.
+Debe mover todos los demás elementos dentro del nuevo `div`.
 
 ```js
 assert.lengthOf(document.querySelector('body > div#menu > main')?.children, 3);

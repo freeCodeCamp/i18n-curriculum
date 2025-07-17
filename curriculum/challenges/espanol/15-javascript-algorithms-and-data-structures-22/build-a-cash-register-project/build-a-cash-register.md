@@ -51,7 +51,7 @@ Tu aplicación debería mostrar diferentes mensajes dependiendo del precio del a
 
 Cumpla las historias de usuario y supere todas las pruebas que se indican a continuación para completar este proyecto. Dale tu propio estilo. Feliz codificación!
 
-# --before-all--
+# --antes-de-todo--
 
 ```js
 const _money = [
@@ -124,7 +124,7 @@ const el = document.getElementById('purchase-btn');
 assert.strictEqual(el?.nodeName?.toLowerCase(), 'button');
 ```
 
-When `price` is `20`, the value in the `#cash` element is `10`, and the `#purchase-btn` element is clicked, an alert should appear with the text `"Customer does not have enough money to purchase the item"`.
+Cuando `price` es `20` el valor del elemento `#cash` es `10`, y el elemento `#purchase-btn` es cliqueado, debe aparecer un alerta con el texto `"Customer does not have enough money to purchase the item"`.
 
 ```js
 const cashInput = document.getElementById('cash');
@@ -147,7 +147,7 @@ assert.strictEqual(
 );
 ```
 
-When the value in the `#cash` element is less than `price`, and the `#purchase-btn` element is clicked, an alert should appear with the text `"Customer does not have enough money to purchase the item"`.
+Cuando el valor del elemento `#cash` es menor que `price` y se hace clic en el elemento `#purchase-btn`, debe aparecer una alerta con el texto `"Customer does not have enough money to purchase the item"`.
 
 ```js
 const cashInput = document.getElementById('cash');
@@ -184,7 +184,7 @@ assert.strictEqual(
 );
 ```
 
-When `price` is `11.95`, the value in the `#cash` element is `11.95`, and the `#purchase-btn` element is clicked, the value in the `#change-due` element should be `"No change due - customer paid with exact cash"`.
+Cuando `price` es `11.95`, el valor en el elemento `#cash` es `11.95`, y se hace clic en el elemento `#purchase-btn` entonces el valor del elemento `#change-due` debe ser `"No change due - customer paid with exact cash"`.
 
 ```js
 const cashInput = document.getElementById('cash');
@@ -206,7 +206,7 @@ assert.strictEqual(
 );
 ```
 
-When the value in the `#cash` element is equal to `price`, and the `#purchase-btn` element is clicked, the value in the `#change-due` element should be `"No change due - customer paid with exact cash"`.
+Cuando el valor en el elemento `#cash` es igual a `price`, y se hace clic en el elemento `#purchase-btn` el valor en el elemento `#change-due` debe ser `"No change due - customer paid with exact cash"`.
 
 ```js
 const cashInput = document.getElementById('cash');

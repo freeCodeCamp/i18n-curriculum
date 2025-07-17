@@ -7,7 +7,7 @@ dashedName: step-167
 
 # --description--
 
-In the previous project, you learned how to work with `for` loops like this:
+En el proyecto anterior, aprendiste cómo trabajar con ciclos `for` como este:
 
 ```js
 for (let i = 0; i < 5; i++) {
@@ -15,26 +15,26 @@ for (let i = 0; i < 5; i++) {
 }
 ```
 
-`for` loops are declared with three expressions separated by semicolons: `for (a; b; c)`, where `a` is the initialization expression, `b` is the condition, and `c` is the final expression.
+Los ciclos `for` se declaran con tres expresiones separadas por punto y coma: `for (a; b; c)`, donde `a` es la expresión de inicialización, `b` es la condición y `c` es la expresión final.
 
-In this step, create a `for` loop where `i` is initialized to `0`, the loop runs as long as `i` is less than `10`, and `i` is incremented by `1` after each iteration using the increment operator `++`.
+En este paso, crea un ciclo `for` donde `i` se inicializa a `0`, el ciclo se ejecuta mientras `i` sea menor que `10` y `i` se incremente en `1` después de cada iteración usando el operador de incremento `++`.
 
 
 # --hints--
 
-Your `for` loop initialization should have `i` initialized to `0`.
+La inicialización de tu ciclo `for` debe tener `i` inicializada a `0`.
 
 ```js
 assert.match(pick.toString(), /for\s*\(\s*(let|var)\s+i\s*=\s*0\s*;/)
 ```
 
-Your loop condition should run as long as `i` is less than `10`.
+Tu condición del ciclo debe ejecutarse mientras `i` sea menor que `10`.
 
 ```js
 assert.match(pick.toString(), /for\s*\(\s*(let|var)\s+i\s*=\s*0\s*;\s*i\s*<\s*10\s*;/)
 ```
 
-Your loop should increment `i` by `1` after each iteration. Remember to use the increment operator `++`.
+Tu ciclo debe incrementar `i` en `1` después de cada iteración. Recuerda usar el operador de incremento `++`.
 
 ```js
 assert.match(pick.toString(), /for\s*\(\s*(let|var)\s+i\s*=\s*0\s*;\s*i\s*<\s*10\s*;\s*i\+\+\s*\)/)

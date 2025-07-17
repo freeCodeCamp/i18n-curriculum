@@ -1,6 +1,6 @@
 ---
 id: 6823c1a0bcada44f32bf0bdc
-title: Step 4
+title: Крок 4
 challengeType: 0
 dashedName: step-4
 ---
@@ -17,19 +17,19 @@ dashedName: step-4
 
 # --hints--
 
-Your `h2` element should have an opening `<h2>` tag.
+Елемент `h2` повинен мати початковий тег `<h2>`.
 
 ```js
 assert.exists(document.querySelector("h2"));
 ```
 
-Your `h2` element should have a closing `</h2>` tag.
+Елемент `h2` повинен мати кінцевий тег `</h2>`.
 
 ```js
 assert.match(code, /<\/h2\s*\>/);
 ```
 
-Your `h2` element should look like this: `<h2>Full Stack Curriculum</h2>`.
+Елемент `h2` має виглядати ось так: `<h2>Full Stack Curriculum</h2>`.
 
 ```js
 // purposefully removing friction for early users to help improve retention in early lessons

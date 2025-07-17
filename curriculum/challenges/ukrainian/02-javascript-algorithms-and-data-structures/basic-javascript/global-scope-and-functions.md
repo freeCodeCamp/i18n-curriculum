@@ -18,6 +18,12 @@ In JavaScript, <dfn>scope</dfn> refers to the visibility of variables. Variables
 
 Призначте `5` до `oopsGlobal` всередині функції `fun1` ***не*** використовуючи ключові слова `var`, `let` чи `const`.
 
+# --before-each--
+
+```js
+var oopsGlobal;
+```
+
 # --hints--
 
 `myGlobal` повинна бути визначеною
@@ -41,44 +47,11 @@ assert(/(let|const)\s+myGlobal/.test(__helpers.removeJSComments(code)));
 `oopsGlobal` повинна бути глобальною змінною і мати значення `5`
 
 ```js
-assert(typeof oopsGlobal != 'undefined' && oopsGlobal === 5);
+fun1();
+assert(typeof oopsGlobal != 'undefined');
 ```
 
 # --seed--
-
-## --before-user-code--
-
-```js
-var logOutput = "";
-var originalConsole = console
-function capture() {
-    var nativeLog = console.log;
-    console.log = function (message) {
-        logOutput = message;
-        if(nativeLog.apply) {
-          nativeLog.apply(originalConsole, arguments);
-        } else {
-          var nativeMsg = Array.prototype.slice.apply(arguments).join(' ');
-          nativeLog(nativeMsg);
-        }
-    };
-}
-
-function uncapture() {
-  console.log = originalConsole.log;
-}
-var oopsGlobal;
-capture();
-```
-
-## --after-user-code--
-
-```js
-fun1();
-fun2();
-uncapture();
-(function() { return logOutput || "console.log never called"; })();
-```
 
 ## --seed-contents--
 

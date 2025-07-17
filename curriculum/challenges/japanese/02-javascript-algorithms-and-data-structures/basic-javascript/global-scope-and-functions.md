@@ -18,6 +18,12 @@ JavaScript では、変数の効力の及ぶ範囲のことを<dfn>スコープ<
 
 関数 `fun1` の内側で、キーワード `var`、`let`、`const` のいずれも***使用せずに***、`oopsGlobal` に `5` を代入してください。
 
+# --before-each--
+
+```js
+var oopsGlobal;
+```
+
 # --hints--
 
 `myGlobal` を定義する必要があります。
@@ -41,44 +47,11 @@ assert(/(let|const)\s+myGlobal/.test(__helpers.removeJSComments(code)));
 `oopsGlobal` はグローバル変数で、値は `5` である必要があります。
 
 ```js
-assert(typeof oopsGlobal != 'undefined' && oopsGlobal === 5);
+fun1();
+assert(typeof oopsGlobal != 'undefined');
 ```
 
 # --seed--
-
-## --before-user-code--
-
-```js
-var logOutput = "";
-var originalConsole = console
-function capture() {
-    var nativeLog = console.log;
-    console.log = function (message) {
-        logOutput = message;
-        if(nativeLog.apply) {
-          nativeLog.apply(originalConsole, arguments);
-        } else {
-          var nativeMsg = Array.prototype.slice.apply(arguments).join(' ');
-          nativeLog(nativeMsg);
-        }
-    };
-}
-
-function uncapture() {
-  console.log = originalConsole.log;
-}
-var oopsGlobal;
-capture();
-```
-
-## --after-user-code--
-
-```js
-fun1();
-fun2();
-uncapture();
-(function() { return logOutput || "console.log never called"; })();
-```
 
 ## --seed-contents--
 

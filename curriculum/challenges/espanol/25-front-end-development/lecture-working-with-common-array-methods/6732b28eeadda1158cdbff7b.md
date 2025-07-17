@@ -1,6 +1,6 @@
 ---
 id: 6732b28eeadda1158cdbff7b
-title: How Can You Check if an Array Contains a Certain Value?
+title: '¿Cómo puedes verificar si un arreglo contiene un cierto valor?'
 challengeType: 11
 videoId: NjZI_TlIiXk
 dashedName: how-can-you-check-if-an-array-contains-a-certain-value
@@ -8,15 +8,15 @@ dashedName: how-can-you-check-if-an-array-contains-a-certain-value
 
 # --description--
 
-Watch the video or read the transcript and answer the questions below.
+Mire el video o lea la transcripción y responda las preguntas a continuación.
 
 # --transcript--
 
-How can you check if an array contains a certain value?
+¿Cómo puedes verificar si un arreglo contiene un cierto valor?
 
-In JavaScript, the `includes()` method is a simple and efficient way to check if an array contains a specific value. This method returns a boolean value: `true` if the array contains the specified element, and `false` otherwise.
+En JavaScript, el método `includes()` es una forma simple y eficiente de verificar si un arreglo contiene un valor específico. Este método devuelve un valor booleano: `true` si el arreglo contiene el elemento especificado, y `false` en caso contrario.
 
-The `includes()` method is particularly useful when you need to quickly verify the presence of an element in an array without needing to know its exact position. Let's start with an example of how to use the `includes()` method:
+El método `includes()` es particularmente útil cuando necesitas verificar rápidamente la presencia de un elemento en un arreglo sin necesidad de conocer su posición exacta. Comencemos con un ejemplo de cómo usar el método `includes()`:
 
 ```js
 let fruits = ["apple", "banana", "orange", "mango"];
@@ -24,9 +24,9 @@ console.log(fruits.includes("banana")); // true
 console.log(fruits.includes("grape"));  // false
 ```
 
-In this example, we have an array of fruits. We use the `includes()` method to check if `banana` is in the array. It returns `true` because `banana` is indeed present. We then check for `grape`, which returns `false` because it's not in the array.
+En este ejemplo, tenemos un arreglo de frutas. Usamos el método `includes()` para verificar si `banana` está en el arreglo. Devuelve `true` porque `banana` está presente. Luego comprobamos `grape`, lo que devuelve `false` porque no está en el arreglo.
 
-The `includes()` method is case-sensitive when dealing with strings. This means that `Banana` with a capital B and `banana` with all lowercase letters are considered different values. Here's an example that illustrates this:
+El método `includes()` distingue entre mayúsculas y minúsculas cuando se trata de cadenas. Esto significa que `Banana` con una B mayúscula y `banana` con todas las letras en minúscula se consideran valores diferentes. Aquí tienes un ejemplo que ilustra esto:
 
 ```js
 let fruits = ["apple", "banana", "orange"];
@@ -34,9 +34,9 @@ console.log(fruits.includes("banana")); // true
 console.log(fruits.includes("Banana")); // false
 ```
 
-In this case, `banana` (all in lowercase) is found in the array, but `Banana` (with the first letter capitalized) is not, so the second `includes()` call returns `false`.
+En este caso, `banana` (todas en minúsculas) se encuentra en el arreglo, pero `Banana` (con la primera letra en mayúscula) no, por lo que la segunda llamada a `includes()` devuelve `false`.
 
-The `includes()` method can also accept an optional second parameter that specifies the position in the array to start the search. This is useful if you want to check for an element's presence in a specific part of the array. Here's how you can use this feature:
+El método `includes()` también puede aceptar un segundo parámetro opcional que especifica la posición en el arreglo para iniciar la búsqueda. Esto es útil si quieres verificar la presencia de un elemento en una parte específica del arreglo. Así es como puedes usar esta característica:
 
 ```js
 let numbers = [10, 20, 30, 40, 50, 30, 60];
@@ -44,11 +44,11 @@ console.log(numbers.includes(30, 3)); // true
 console.log(numbers.includes(30, 4)); // true
 ```
 
-For the first `console.log`, we are looking for the number `30` starting at index `3`. In this case, there is a number `30` that appears after index `3`, so the `includes()` method returns `true`.
+Para el primer `console.log`, estamos buscando el número `30` comenzando en el índice `3`. En este caso, hay un número `30` que aparece después del índice `3`, por lo que el método `includes()` devuelve `true`.
 
-The same is true for the second `console.log`. We are looking for the number `30` starting at index `4`. Since the number `30` does appear after that index, then it will return `true`.
+Lo mismo sucede con el segundo `console.log`. Estamos buscando el número `30` comenzando en el índice `4`. Dado que el número `30` aparece después de ese índice, retornará `true`.
 
-It's worth noting that `includes()` uses the strict equality comparison (`===`), which means it can distinguish between different types. For example:
+Vale la pena señalar que `includes()` usa la comparación de igualdad estricta (`===`), lo que significa que puede distinguir entre diferentes tipos. Por ejemplo:
 
 ```js
 let mixedArray = [1, "2", 3, "4", 5];
@@ -56,15 +56,15 @@ console.log(mixedArray.includes(2));  // false
 console.log(mixedArray.includes("2")); // true
 ```
 
-In this case, the number `2` and the string `"2"` are considered different data types. So, the first `console.log` will return `false`, while the second `console.log` will return `true`.
+En este caso, el número `2` y la cadena `"2"` se consideran diferentes tipos de datos. Por lo tanto, el primer `console.log` devolverá `false`, mientras que el segundo `console.log` devolverá `true`.
 
-The `includes()` method is a powerful tool for checking the presence of elements in arrays. It's simple to use, efficient, and can save you from writing more complex loops or conditions to search through arrays. Whether you're working with strings, numbers, or mixed data types, `includes()` provides a straightforward way to verify if a value exists in your array.
+El método `includes()` es una herramienta poderosa para verificar la presencia de elementos en arreglos. Es simple de usar, eficiente y puede ahorrarte de escribir bucles más complejos o condiciones para buscar en los arreglos. Ya sea que estés trabajando con cadenas, números o tipos de datos mixtos, `includes()` proporciona una manera directa de verificar si un valor existe en tu arreglo.
 
 # --questions--
 
 ## --text--
 
-What will be the output of the following code?
+¿Cuál será el resultado del siguiente código?
 
 ```js
 let arr = [1, 2, 3, 4, 5];
@@ -77,7 +77,7 @@ console.log(arr.includes(3, 3));
 
 ### --feedback--
 
-The second parameter of `includes()` specifies the starting position for the search.
+El segundo parámetro de `includes()` especifica la posición de inicio para la búsqueda.
 
 ---
 
@@ -89,15 +89,15 @@ The second parameter of `includes()` specifies the starting position for the sea
 
 ### --feedback--
 
-The second parameter of `includes()` specifies the starting position for the search.
+El segundo parámetro de `includes()` especifica la posición de inicio para la búsqueda.
 
 ---
 
-This will throw an error.
+Esto generará un error.
 
 ### --feedback--
 
-The second parameter of `includes()` specifies the starting position for the search.
+El segundo parámetro de `includes()` especifica la posición de inicio para la búsqueda.
 
 ## --video-solution--
 
@@ -105,7 +105,7 @@ The second parameter of `includes()` specifies the starting position for the sea
 
 ## --text--
 
-What will be the output of the following code?
+¿Cuál será el resultado del siguiente código?
 
 ```js
 let arr = ["a", "b", "c", "d", "e"];
@@ -118,7 +118,7 @@ console.log(arr.includes("C"));
 
 ### --feedback--
 
-Remember that `includes()` is case-sensitive when dealing with strings.
+Recuerda que `includes()` distingue entre mayúsculas y minúsculas cuando se trata de cadenas.
 
 ---
 
@@ -130,15 +130,15 @@ Remember that `includes()` is case-sensitive when dealing with strings.
 
 ### --feedback--
 
-Remember that `includes()` is case-sensitive when dealing with strings.
+Recuerda que `includes()` distingue entre mayúsculas y minúsculas cuando se trata de cadenas.
 
 ---
 
-This will throw an error.
+Esto generará un error.
 
 ### --feedback--
 
-Remember that `includes()` is case-sensitive when dealing with strings.
+Recuerda que `includes()` distingue entre mayúsculas y minúsculas cuando se trata de cadenas.
 
 ## --video-solution--
 
@@ -146,7 +146,7 @@ Remember that `includes()` is case-sensitive when dealing with strings.
 
 ## --text--
 
-What will be the output of the following code?
+¿Cuál será el resultado del siguiente código?
 
 ```js
 let arr = [1, "2", 3, "4", 5];
@@ -159,7 +159,7 @@ console.log(arr.includes("3"));
 
 ### --feedback--
 
-The `includes()` method uses strict equality (`===`) for comparison.
+El método `includes()` utiliza igualdad estricta (`===`) para la comparación.
 
 ---
 
@@ -171,15 +171,15 @@ The `includes()` method uses strict equality (`===`) for comparison.
 
 ### --feedback--
 
-The `includes()` method uses strict equality (`===`) for comparison.
+El método `includes()` utiliza igualdad estricta (`===`) para la comparación.
 
 ---
 
-This will throw an error.
+Esto generará un error.
 
 ### --feedback--
 
-The `includes()` method uses strict equality (`===`) for comparison.
+El método `includes()` utiliza igualdad estricta (`===`) para la comparación.
 
 ## --video-solution--
 
