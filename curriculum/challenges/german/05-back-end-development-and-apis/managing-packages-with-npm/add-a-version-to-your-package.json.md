@@ -23,14 +23,14 @@ Füge der package.json-Datei deines Projekts eine `version` hinzu.
 package.json sollte einen gültigen "version"-Schlüssel haben
 
 ```js
-  $.get(code + '/_api/package.json').then(
-    (data) => {
-      var packJson = JSON.parse(data);
-      assert(packJson.version, '"version" is missing');
+fetch(code + '/_api/package.json')
+  .then(response => response.json())
+  .then(
+    data => {
+      assert.exists(data.version, '"version" is missing');
     },
-    (xhr) => {
-      throw new Error(xhr.responseText);
+    error => {
+      throw new Error(error.message || error.responseText);
     }
   );
 ```
-

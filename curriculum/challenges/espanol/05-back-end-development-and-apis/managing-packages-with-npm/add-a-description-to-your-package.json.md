@@ -29,14 +29,14 @@ Añade una `description` al archivo package.json de tu proyecto.
 el archivo package.json debe tener una clave de "description" válida
 
 ```js
-  $.get(code + '/_api/package.json').then(
-    (data) => {
-      var packJson = JSON.parse(data);
-      assert(packJson.description, '"description" is missing');
+fetch(code + '/_api/package.json')
+  .then(response => response.json())
+  .then(
+    data => {
+      assert.exists(data.description, '"description" is missing');
     },
-    (xhr) => {
-      throw new Error(xhr.responseText);
+    error => {
+      throw new Error(error.message || error.responseText);
     }
   );
 ```
-

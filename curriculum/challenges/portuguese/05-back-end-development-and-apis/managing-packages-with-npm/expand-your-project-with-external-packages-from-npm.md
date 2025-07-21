@@ -31,17 +31,18 @@ Adicione a versão `1.1.0` do pacote `@freecodecamp/example` ao campo `dependenc
 `"dependencies"` deve incluir `"@freecodecamp/example"`.
 
 ```js
-  $.get(code + '/_api/package.json').then(
-    (data) => {
-      var packJson = JSON.parse(data);
+fetch(code + '/_api/package.json')
+  .then(response => response.json())
+  .then(
+    data => {
       assert.property(
-        packJson.dependencies,
+        data.dependencies,
         '@freecodecamp/example',
         '"dependencies" does not include "@freecodecamp/example"'
       );
     },
-    (xhr) => {
-      throw new Error(xhr.responseText);
+    error => {
+      throw new Error(error.message || error.responseText);
     }
   );
 ```
@@ -49,18 +50,18 @@ Adicione a versão `1.1.0` do pacote `@freecodecamp/example` ao campo `dependenc
 A versão de `"@freecodecamp/example"` deve ser a `"1.1.0"`.
 
 ```js
-  $.get(code + '/_api/package.json').then(
-    (data) => {
-      var packJson = JSON.parse(data);
+fetch(code + '/_api/package.json')
+  .then(response => response.json())
+  .then(
+    data => {
       assert.match(
-        packJson.dependencies["@freecodecamp/example"],
+        data.dependencies['@freecodecamp/example'],
         /^[\^\~]?1\.1\.0/,
         'Wrong version of "@freecodecamp/example" installed. It should be 1.1.0'
       );
     },
-    (xhr) => {
-      throw new Error(xhr.responseText);
+    error => {
+      throw new Error(error.message || error.responseText);
     }
   );
 ```
-

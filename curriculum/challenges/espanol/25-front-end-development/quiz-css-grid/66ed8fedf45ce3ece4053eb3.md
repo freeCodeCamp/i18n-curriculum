@@ -690,7 +690,7 @@ Mapear visualmente elementos a áreas de cuadrícula nombradas.
 
 #### --distractors--
 
-`grid-column: 2 / span 2;`
+`grid-column: 2 / span 4;`
 
 ---
 

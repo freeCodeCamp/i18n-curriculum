@@ -31,17 +31,18 @@ One of the biggest reasons to use a package manager, is their powerful dependenc
 `"dependencies"` 應包括 `"@freecodecamp/example"`。
 
 ```js
-  $.get(code + '/_api/package.json').then(
-    (data) => {
-      var packJson = JSON.parse(data);
+fetch(code + '/_api/package.json')
+  .then(response => response.json())
+  .then(
+    data => {
       assert.property(
-        packJson.dependencies,
+        data.dependencies,
         '@freecodecamp/example',
         '"dependencies" does not include "@freecodecamp/example"'
       );
     },
-    (xhr) => {
-      throw new Error(xhr.responseText);
+    error => {
+      throw new Error(error.message || error.responseText);
     }
   );
 ```
@@ -49,18 +50,18 @@ One of the biggest reasons to use a package manager, is their powerful dependenc
 `"@freecodecamp/example"` 版本應爲 `"1.1.0"`。
 
 ```js
-  $.get(code + '/_api/package.json').then(
-    (data) => {
-      var packJson = JSON.parse(data);
+fetch(code + '/_api/package.json')
+  .then(response => response.json())
+  .then(
+    data => {
       assert.match(
-        packJson.dependencies["@freecodecamp/example"],
+        data.dependencies['@freecodecamp/example'],
         /^[\^\~]?1\.1\.0/,
         'Wrong version of "@freecodecamp/example" installed. It should be 1.1.0'
       );
     },
-    (xhr) => {
-      throw new Error(xhr.responseText);
+    error => {
+      throw new Error(error.message || error.responseText);
     }
   );
 ```
-

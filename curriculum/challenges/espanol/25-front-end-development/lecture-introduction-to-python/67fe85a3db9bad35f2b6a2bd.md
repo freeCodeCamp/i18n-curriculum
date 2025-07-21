@@ -9,10 +9,6 @@ dashedName: how-do-conditional-statements-and-logical-operators-work
 
 # --description--
 
-El video para esta clase no está disponible todavía, uno estará disponible pronto. Aquí hay una transcripción de la clase por ahora:
-
-# --transcript--
-
 Las declaraciones condicionales, o condicionales, te permiten controlar el flujo de tu programa  basándote en si ciertas condiciones son verdaderas o falsas.
 
 Pero, antes de entrar en todo eso, repasemos los bloques de construcción básicos de las declaraciones condicionales, comenzando con los operadores de comparación. Los operadores de comparación son operadores que te permiten comparar dos o más valores y devolver un valor booleano.
@@ -163,7 +159,7 @@ Convertir cadenas a valores booleanos.
 
 ### --feedback--
 
-Estos operadores verifican cosas como la igualdad o qué valor es mayor, y el resultado es `True` o `False`.
+These operators check things like equality or which value is greater, and the result is either `True` or `False`.
 
 ---
 
@@ -210,7 +206,7 @@ Revise la última parte de la clase para obtener la respuesta correcta.
 
 ### --feedback--
 
-Revise la última parte de la clase para obtener la respuesta correcta.
+Review the last part of the lecture for the correct answer.
 
 ---
 
@@ -246,7 +242,7 @@ Revise la última parte de la clase para obtener la respuesta correcta.
 
 ### --feedback--
 
-3 no es mayor ni igual a 4.
+3 is not greater than or equal to 4.
 
 ---
 
@@ -254,7 +250,7 @@ Revise la última parte de la clase para obtener la respuesta correcta.
 
 ### --feedback--
 
-3 no es mayor ni igual a 4.
+3 is not greater than or equal to 4.
 
 ---
 
