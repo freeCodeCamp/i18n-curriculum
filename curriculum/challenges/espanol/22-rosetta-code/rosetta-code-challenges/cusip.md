@@ -8,15 +8,15 @@ dashedName: cusip
 
 # --description--
 
-A **CUSIP** is a nine-character alphanumeric code that identifies a North American financial security for the purposes of facilitating clearing and settlement of trades. The CUSIP was adopted as an American National Standard under Accredited Standards X9.6.
+Un **CUSIP** es un código alfanumérico de nueve caracteres que identifica una seguridad financiera norteamericana para facilitar la compensación y liquidación de operaciones. El CUSIP fue adoptado como un Norma Nacional Americana bajo Estándares Acreditados X9.6.
 
 # --instructions--
 
-Write a function that takes a string as a parameter and checks if the string is valid CUSIP.
+Escriba una función que tome una cadena como parámetro y compruebe si la cadena es válida CUSIP.
 
 # --hints--
 
-`isCusip` should be a function.
+`isCusip` debe ser una función.
 
 ```js
 assert(typeof isCusip == 'function');

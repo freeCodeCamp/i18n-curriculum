@@ -25,18 +25,18 @@ Retire el paquete `@freecodecamp/example` de sus dependencias.
 `"dependencies"` no debe incluir `"@freecodecamp/example"`.
 
 ```js
-  $.get(code + '/_api/package.json').then(
-    (data) => {
-      var packJson = JSON.parse(data);
+fetch(code + '/_api/package.json')
+  .then(response => response.json())
+  .then(
+    data => {
       assert.notProperty(
-        packJson.dependencies,
+        data.dependencies,
         '@freecodecamp/example',
         '"dependencies" still includes "@freecodecamp/example"'
       );
     },
-    (xhr) => {
-      throw new Error(xhr.responseText);
+    error => {
+      throw new Error(error.message || error.responseText);
     }
   );
 ```
-

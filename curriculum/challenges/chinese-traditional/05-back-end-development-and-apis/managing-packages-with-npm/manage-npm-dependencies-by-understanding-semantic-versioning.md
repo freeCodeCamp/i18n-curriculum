@@ -27,17 +27,18 @@ dashedName: manage-npm-dependencies-by-understanding-semantic-versioning
 `"dependencies"` 應包括 `"@freecodecamp/example"`。
 
 ```js
-  $.get(code + '/_api/package.json').then(
-    (data) => {
-      var packJson = JSON.parse(data);
+fetch(code + '/_api/package.json')
+  .then(response => response.json())
+  .then(
+    data => {
       assert.property(
-        packJson.dependencies,
+        data.dependencies,
         '@freecodecamp/example',
         '"dependencies" does not include "@freecodecamp/example"'
       );
     },
-    (xhr) => {
-      throw new Error(xhr.responseText);
+    error => {
+      throw new Error(error.message || error.responseText);
     }
   );
 ```
@@ -45,18 +46,18 @@ dashedName: manage-npm-dependencies-by-understanding-semantic-versioning
 `"@freecodecamp/example"` 版本應爲 `"1.2.13"`。
 
 ```js
-  $.get(code + '/_api/package.json').then(
-    (data) => {
-      var packJson = JSON.parse(data);
+fetch(code + '/_api/package.json')
+  .then(response => response.json())
+  .then(
+    data => {
       assert.equal(
-        packJson.dependencies["@freecodecamp/example"],
+        data.dependencies['@freecodecamp/example'],
         '1.2.13',
         'Wrong version of "@freecodecamp/example". It should be 1.2.13'
       );
     },
-    (xhr) => {
-      throw new Error(xhr.responseText);
+    error => {
+      throw new Error(error.message || error.responseText);
     }
   );
 ```
-

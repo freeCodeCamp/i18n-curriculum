@@ -27,17 +27,18 @@ Die MAJOR-Version sollte erhöht werden, wenn du inkompatible API-Änderungen vo
 `"dependencies"` sollte `"@freecodecamp/example"` enthalten.
 
 ```js
-  $.get(code + '/_api/package.json').then(
-    (data) => {
-      var packJson = JSON.parse(data);
+fetch(code + '/_api/package.json')
+  .then(response => response.json())
+  .then(
+    data => {
       assert.property(
-        packJson.dependencies,
+        data.dependencies,
         '@freecodecamp/example',
         '"dependencies" does not include "@freecodecamp/example"'
       );
     },
-    (xhr) => {
-      throw new Error(xhr.responseText);
+    error => {
+      throw new Error(error.message || error.responseText);
     }
   );
 ```
@@ -45,18 +46,18 @@ Die MAJOR-Version sollte erhöht werden, wenn du inkompatible API-Änderungen vo
 Die `"@freecodecamp/example"`-Version sollte `"1.2.13"` sein.
 
 ```js
-  $.get(code + '/_api/package.json').then(
-    (data) => {
-      var packJson = JSON.parse(data);
+fetch(code + '/_api/package.json')
+  .then(response => response.json())
+  .then(
+    data => {
       assert.equal(
-        packJson.dependencies["@freecodecamp/example"],
+        data.dependencies['@freecodecamp/example'],
         '1.2.13',
         'Wrong version of "@freecodecamp/example". It should be 1.2.13'
       );
     },
-    (xhr) => {
-      throw new Error(xhr.responseText);
+    error => {
+      throw new Error(error.message || error.responseText);
     }
   );
 ```
-

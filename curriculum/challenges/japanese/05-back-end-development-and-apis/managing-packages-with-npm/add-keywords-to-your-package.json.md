@@ -27,13 +27,14 @@ dashedName: add-keywords-to-your-package-json
 package.json で、有効な 「keywords」キーを記述する必要があります。
 
 ```js
-  $.get(code + '/_api/package.json').then(
-    (data) => {
-      var packJson = JSON.parse(data);
-      assert(packJson.keywords, '"keywords" is missing');
+fetch(code + '/_api/package.json')
+  .then(response => response.json())
+  .then(
+    data => {
+      assert.exists(data.keywords, '"keywords" is missing');
     },
-    (xhr) => {
-      throw new Error(xhr.responseText);
+    error => {
+      throw new Error(error.message || error.responseText);
     }
   );
 ```
@@ -41,13 +42,14 @@ package.json で、有効な 「keywords」キーを記述する必要があり�
 「keywords」フィールドは、配列である必要があります。
 
 ```js
-  $.get(code + '/_api/package.json').then(
-    (data) => {
-      var packJson = JSON.parse(data);
-      assert.isArray(packJson.keywords, '"keywords" is not an array');
+fetch(code + '/_api/package.json')
+  .then(response => response.json())
+  .then(
+    data => {
+      assert.isArray(data.keywords, '"keywords" is not an array');
     },
-    (xhr) => {
-      throw new Error(xhr.responseText);
+    error => {
+      throw new Error(error.message || error.responseText);
     }
   );
 ```
@@ -55,18 +57,18 @@ package.json で、有効な 「keywords」キーを記述する必要があり�
 「keywords」に「freecodecamp」を含める必要があります。
 
 ```js
-  $.get(code + '/_api/package.json').then(
-    (data) => {
-      var packJson = JSON.parse(data);
+fetch(code + '/_api/package.json')
+  .then(response => response.json())
+  .then(
+    data => {
       assert.include(
-        packJson.keywords,
+        data.keywords,
         'freecodecamp',
         '"keywords" does not include "freecodecamp"'
       );
     },
-    (xhr) => {
-      throw new Error(xhr.responseText);
+    error => {
+      throw new Error(error.message || error.responseText);
     }
   );
 ```
-

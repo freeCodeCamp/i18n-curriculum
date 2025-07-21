@@ -29,17 +29,18 @@ Verwende das (`~`) Tilde-Zeichen, um die Version von `@freecodecamp/example` in 
 `"dependencies"` sollte `"@freecodecamp/example"` enthalten.
 
 ```js
-  $.get(code + '/_api/package.json').then(
-    (data) => {
-      var packJson = JSON.parse(data);
+fetch(code + '/_api/package.json')
+  .then(response => response.json())
+  .then(
+    data => {
       assert.property(
-        packJson.dependencies,
+        data.dependencies,
         '@freecodecamp/example',
         '"dependencies" does not include "@freecodecamp/example"'
       );
     },
-    (xhr) => {
-      throw new Error(xhr.responseText);
+    error => {
+      throw new Error(error.message || error.responseText);
     }
   );
 ```
@@ -47,18 +48,18 @@ Verwende das (`~`) Tilde-Zeichen, um die Version von `@freecodecamp/example` in 
 `"@freecodecamp/example"` Version sollte `"~1.2.13"` entsprechen.
 
 ```js
-  $.get(code + '/_api/package.json').then(
-    (data) => {
-      var packJson = JSON.parse(data);
+fetch(code + '/_api/package.json')
+  .then(response => response.json())
+  .then(
+    data => {
       assert.match(
-        packJson.dependencies["@freecodecamp/example"],
+        data.dependencies['@freecodecamp/example'],
         /^\~1\.2\.13/,
         'Wrong version of "@freecodecamp/example". It should be ~1.2.13'
       );
     },
-    (xhr) => {
-      throw new Error(xhr.responseText);
+    error => {
+      throw new Error(error.message || error.responseText);
     }
   );
 ```
-

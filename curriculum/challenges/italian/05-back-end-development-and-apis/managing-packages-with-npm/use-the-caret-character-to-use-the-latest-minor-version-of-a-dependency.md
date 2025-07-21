@@ -29,17 +29,18 @@ Usa l'accento circonflesso (`^`) come prefisso di versione per `@freecodecamp/ex
 `"dependencies"` dovrebbe includere `"@freecodecamp/example"`.
 
 ```js
-  $.get(code + '/_api/package.json').then(
-    (data) => {
-      var packJson = JSON.parse(data);
+fetch(code + '/_api/package.json')
+  .then(response => response.json())
+  .then(
+    data => {
       assert.property(
-        packJson.dependencies,
+        data.dependencies,
         '@freecodecamp/example',
         '"dependencies" does not include "@freecodecamp/example"'
       );
     },
-    (xhr) => {
-      throw new Error(xhr.responseText);
+    error => {
+      throw new Error(error.message || error.responseText);
     }
   );
 ```
@@ -47,18 +48,18 @@ Usa l'accento circonflesso (`^`) come prefisso di versione per `@freecodecamp/ex
 La versione di `"@freecodecamp/example"` deve corrispondere a `"^1.x.x"`.
 
 ```js
-  $.get(code + '/_api/package.json').then(
-    (data) => {
-      var packJson = JSON.parse(data);
+fetch(code + '/_api/package.json')
+  .then(response => response.json())
+  .then(
+    data => {
       assert.match(
-        packJson.dependencies["@freecodecamp/example"],
+        data.dependencies['@freecodecamp/example'],
         /^\^1\./,
         'Wrong version of "@freecodecamp/example". It should be ^1.2.13'
       );
     },
-    (xhr) => {
-      throw new Error(xhr.responseText);
+    error => {
+      throw new Error(error.message || error.responseText);
     }
   );
 ```
-

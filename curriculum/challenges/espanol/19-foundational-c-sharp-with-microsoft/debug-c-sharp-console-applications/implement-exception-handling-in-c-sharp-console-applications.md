@@ -1,6 +1,6 @@
 ---
 id: 647e22a08acb466c97ccbef5
-title: 'Implement Exception Handling in C# Console Applications'
+title: 'Implementar Manejo de Excepciones en Aplicaciones de Consola C#'
 challengeType: 19
 dashedName: implement-exception-handling-in-c-sharp-console-applications
 ---
@@ -9,30 +9,30 @@ dashedName: implement-exception-handling-in-c-sharp-console-applications
 
 Este desafío se completará parcialmente en la plataforma de aprendizaje de Microsoft. Sigue estas instrucciones para completar el desafío:
 
-1. Go to <a href="https://learn.microsoft.com/training/modules/implement-exception-handling-c-sharp/" target="_blank" rel="noreferrer">https://learn.microsoft.com/training/modules/implement-exception-handling-c-sharp/</a> and complete all the tasks for the "Implement Exception Handling in C# Console Applications" module. This is **required** to earn the "Debug C# Console Applications" trophy on Microsoft Learn, and qualify for the certification exam.
+1. Vaya a <a href="https://learn.microsoft.com/training/modules/implement-exception-handling-c-sharp/" target="_blank" rel="noreferrer">https://learn.microsoft.com/training/modules/implement-exception-handling-c-sharp/</a> y complete todas las tareas para el "Manejo de Excepciones de Implementación en el módulo C# Consola de Aplicaciones". Esto es **requerido** para ganar el trofeo "Depuración de aplicaciones de consola de C#" en Microsoft Learn, y calificar para el examen de certificación.
 1. Cuando haya terminado, vuelva y responda correctamente a la siguiente pregunta.
 
 # --assignment--
 
-Complete the <a href="https://learn.microsoft.com/training/modules/implement-exception-handling-c-sharp/" target="_blank" rel="noreferrer">Implement Exception Handling in C# Console Applications</a> module on Microsoft Learn. Luego, responda a la siguiente pregunta.
+Completa el módulo <a href="https://learn.microsoft.com/training/modules/implement-exception-handling-c-sharp/" target="_blank" rel="noreferrer">Implementación del control de excepciones en aplicaciones de consola de C#</a> en Microsoft Learn. Luego, responda a la siguiente pregunta.
 
 # --questions--
 
 ## --text--
 
-When is an `ArrayTypeMismatchException` exception thrown?
+¿Cuándo es un excepción `ArrayTypeMismatchException` se arroja?
 
 ## --answers--
 
-An `ArrayTypeMismatchException` exception is thrown when an attempt is made to store a value of one type in an array of another type.
+Una excepción `ArrayTypeMismatchException` es generada cuando se intenta almacenar un valor de un tipo en un arreglo de otro tipo de valor.
 
 ---
 
-An `ArrayTypeMismatchException` exception is thrown when attempting to access a member on a type whose value is null.
+Se genera una excepción `ArrayTypeMismatchException` al intentar acceder a un miembro en un tipo cuyo valor es nulo.
 
 ---
 
-An `ArrayTypeMismatchException` exception is thrown when an attempt is made to index an array outside the bounds of the array.
+Una excepción `ArrayTypeMismatchException` es generada cuando se intenta indexar un arreglo fuera de sus límites.
 
 ## --video-solution--
 
