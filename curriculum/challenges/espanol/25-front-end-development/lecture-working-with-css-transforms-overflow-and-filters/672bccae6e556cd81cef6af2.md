@@ -1,18 +1,11 @@
 ---
 id: 672bccae6e556cd81cef6af2
 title: '¿Qué es el colapso de márgenes y cómo funciona?'
-challengeType: 11
-videoId: MMWBC8duT_0
+challengeType: 19
 dashedName: what-is-margin-collapsing
 ---
 
 # --description--
-
-Mira el video o lee la transcripción y responde las preguntas a continuación.
-
-# --transcript--
-
-¿Qué es el colapso de márgenes y cómo funciona?
 
 El colapso de márgenes es un concepto fundamental en CSS que a menudo confunde a los nuevos en desarrollo web.
 
@@ -131,7 +124,7 @@ Tanto márgenes horizontales como verticales.
 
 ### --feedback--
 
-Piensa en qué márgenes (superior, inferior, izquierdo, derecho) se ven afectados por este comportamiento.
+Think about which margins (top, bottom, left, right) are affected by this behavior.
 
 ---
 
@@ -175,7 +168,7 @@ Se utiliza el promedio de los dos márgenes.
 
 ### --feedback--
 
-Considera qué margen "gana" cuando ocurre el colapso.
+Consider which margin "wins" when collapsing occurs.
 
 ## --video-solution--
 

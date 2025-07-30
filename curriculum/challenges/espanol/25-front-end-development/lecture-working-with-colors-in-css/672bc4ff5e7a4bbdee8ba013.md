@@ -1,18 +1,11 @@
 ---
 id: 672bc4ff5e7a4bbdee8ba013
 title: '¿Cuáles son los colores nombrados en CSS y cuándo usarlos?'
-challengeType: 11
-videoId: YD7ndioXOyM
+challengeType: 19
 dashedName: what-are-named-colors-in-css
 ---
 
 # --description--
-
-Mira el video o lee la transcripción y responde las preguntas a continuación.
-
-# --transcript--
-
-¿Qué son los colores nombrados en CSS y cuándo usarlos?
 
 En CSS, los colores desempeñan un papel crucial en el diseño de páginas web, mejorando la legibilidad, estableciendo el ambiente y mejorando la experiencia del usuario. Una de las formas más simples de definir colores en CSS es usando colores nombrados. Los colores nombrados son nombres de colores predefinidos reconocidos por los navegadores. Aquí hay un ejemplo de uso de un color nombrado para un elemento de párrafo:
 
@@ -41,7 +34,7 @@ Los colores nombrados en CSS son convenientes pero limitados, con solo 140 opcio
 
 Los colores nombrados en CSS son una gran forma de aplicar colores de manera rápida y descriptiva. Si bien son útiles para diseños básicos, prototipos y mejorar la legibilidad del código, su rango limitado los hace menos adecuados para diseños complejos que requieren control preciso del color.
 
-Al comprender las fortalezas y limitaciones de los colores nombrados, puedes determinar cuándo es mejor usarlos sobre modelos de color más detallados como RGB o HSL, sobre los cuales aprenderás en futuros videos.
+By understanding the strengths and limitations of named colors, you can determine when it’s best to use them over more detailed color models like RGB or HSL, which you will learn about in future lectures.
 
 # --questions--
 
@@ -67,7 +60,7 @@ Los colores nombrados proporcionan una gama más amplia de opciones de color que
 
 ### --feedback--
 
-Piensa en la simplicidad y la legibilidad de los colores nombrados.
+Think about the simplicity and readability aspect of named colors.
 
 ---
 
@@ -103,7 +96,7 @@ Cuando tu diseño solo involucra colores primarios.
 
 ### --feedback--
 
-Piensa en las limitaciones de los colores nombrados en diseños más complejos.
+Think about the limitations of named colors in more complex designs.
 
 ---
 
@@ -147,7 +140,7 @@ Los colores nombrados son palabras descriptivas, no códigos numéricos.
 
 ### --feedback--
 
-Los colores nombrados son palabras descriptivas, no códigos numéricos.
+Named colors are descriptive words, not numerical codes.
 
 ## --video-solution--
 

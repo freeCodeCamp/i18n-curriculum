@@ -1,18 +1,11 @@
 ---
 id: 672bbeb6eefd7ca9c003ea00
 title: '¿Cuáles son ejemplos de pseudo-clases estructurales de árbol?'
-challengeType: 11
-videoId: 7lQACnY4opw
+challengeType: 19
 dashedName: what-are-examples-of-tree-structural-pseudo-classes
 ---
 
 # --description--
-
-Mira el video o lee la transcripción y responde las preguntas a continuación.
-
-# --transcript--
-
-¿Cuáles son ejemplos de pseudo-clases estructurales de árbol?
 
 Las pseudo-clases estructurales de árbol te permiten apuntar y estilizar elementos basados en su posición dentro del árbol del documento. El árbol del documento se refiere a la estructura jerárquica de elementos en un documento HTML.
 
@@ -292,7 +285,7 @@ Considera cómo estas pseudo-clases te ayudan a estilizar las primeras y última
 
 ### --feedback--
 
-Considera cómo estas pseudo-clases te ayudan a estilizar las primeras y últimas instancias de una etiqueta específica, como `p` o `h1`.
+Consider how these pseudo-classes help you style the first and last instances of a particular tag, like `p` or `h1`.
 
 ## --video-solution--
 
@@ -320,7 +313,7 @@ Piensa en cómo las dos pseudo-clases te ayudan a estilizar los primeros y últi
 
 ### --feedback--
 
-Piensa en cómo las dos pseudo-clases te ayudan a estilizar los primeros y últimos elementos dentro del mismo contenedor padre.
+Think about how the two pseudo-classes help you style the first and last elements within the same parent container.
 
 ---
 

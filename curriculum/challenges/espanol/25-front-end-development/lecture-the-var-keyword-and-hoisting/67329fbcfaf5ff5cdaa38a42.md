@@ -1,18 +1,11 @@
 ---
 id: 67329fbcfaf5ff5cdaa38a42
 title: '¿Qué es la palabra clave var y por qué ya no se sugiere su uso?'
-challengeType: 11
-videoId: Ae4bq5IcDfI
+challengeType: 19
 dashedName: what-is-the-var-keyword-and-why-is-it-no-longer-suggested-to-use-it
 ---
 
 # --description--
-
-Mira el video o lee la transcripción y responde las preguntas a continuación.
-
-# --transcript--
-
-¿Qué es la palabra clave `var` y por qué ya no se sugiere su uso?
 
 La palabra clave `var` en JavaScript es una de las formas originales de declarar variables. Ha sido parte del lenguaje desde su inicio y durante muchos años siguió siendo el método principal para crear variables. Sin embargo, a medida que JavaScript evolucionó y los desarrolladores ganaron más experiencia con el lenguaje, ciertos inconvenientes de usar `var` se hicieron evidentes, lo que llevó a la introducción de `let` y `const` en 2015.
 
@@ -30,7 +23,7 @@ var num = 10;
 El problema más significativo con `var` es su falta de alcance en bloque. Las variables declaradas con `var` dentro de un bloque como una declaración `if` o un bucle `for` siguen siendo accesibles fuera de ese bloque.
 
 ```js
-if (true){
+if (true) {
   var num = 5;
 }
 console.log(num); // 5
@@ -76,7 +69,7 @@ Alcance del módulo.
 
 ### --feedback--
 
-Piensa en dónde se puede acceder a una variable `var` declarada fuera de una función.
+Think about where a `var` variable declared outside a function can be accessed.
 
 ## --video-solution--
 
@@ -124,7 +117,7 @@ Recuerda que `var` tiene alcance de función o global, y permite la redeclaraci�
 
 ### --feedback--
 
-Recuerda que `var` tiene alcance de función o global, y permite la redeclaración dentro del mismo ámbito.
+Remember that `var` is function-scoped or globally-scoped, and it allows redeclaration within the same scope.
 
 ---
 
@@ -163,7 +156,7 @@ Las variables `var` tienen alcance funcional, no alcance de bloque.
 
 ### --feedback--
 
-Considera qué afirmación es falsa sobre el comportamiento o soporte de `var`.
+Consider which statement is false about `var`'s behavior or support.
 
 ---
 

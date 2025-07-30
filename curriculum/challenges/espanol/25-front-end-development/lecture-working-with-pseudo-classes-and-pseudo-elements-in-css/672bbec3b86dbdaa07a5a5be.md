@@ -1,18 +1,11 @@
 ---
 id: 672bbec3b86dbdaa07a5a5be
 title: '¿Cuáles son ejemplos de pseudo-clases funcionales?'
-challengeType: 11
-videoId: eQwf6Y3N_kY
+challengeType: 19
 dashedName: what-are-examples-of-functional-pseudo-classes
 ---
 
 # --description--
-
-Mira el video o lee la transcripción y responde las preguntas a continuación.
-
-# --transcript--
-
-¿Cuáles son ejemplos de pseudo-clases funcionales?
 
 Las pseudo-clases funcionales te permiten seleccionar elementos basados en condiciones o relaciones más complejas. A diferencia de las pseudo-clases regulares que seleccionan elementos basados en un estado, por ejemplo, `:hover`, `:focus`, las pseudo-clases funcionales aceptan argumentos dentro de paréntesis, de ahí el nombre "pseudo-clases funcionales".
 
@@ -191,7 +184,7 @@ Esta pseudo-clase es ideal para aplicar estilos amplios y no invasivos.
 
 ### --feedback--
 
-Esta pseudo-clase es ideal para aplicar estilos amplios y no invasivos.
+This pseudo-class is great for applying broad, non-invasive styles.
 
 ## --video-solution--
 
@@ -267,7 +260,7 @@ Piensa en cómo puedes excluir elementos específicos de ser estilizados.
 
 ### --feedback--
 
-Piensa en cómo puedes excluir elementos específicos de ser estilizados.
+Think about how you can exclude specific elements from being styled.
 
 ## --video-solution--
 

@@ -1,18 +1,11 @@
 ---
 id: 672bbeaa5afdc5a98d5ab8ff
 title: '¿Cuáles son ejemplos de pseudo-clases de ubicación?'
-challengeType: 11
-videoId: i-J4xVUGY5c
+challengeType: 19
 dashedName: what-are-examples-of-location-pseudo-classes
 ---
 
 # --description--
-
-Mira el video o lee la transcripción y responde las preguntas abajo.
-
-# --transcript--
-
-¿Cuáles son ejemplos de pseudo-clases de ubicación?
 
 Las pseudo-clases de ubicación se utilizan para estilizar enlaces y elementos que se direccionan dentro del documento actual. Ofrecen una forma de aplicar estilos dependiendo de si un enlace está visitado o si un elemento está actualmente enfocado.
 
@@ -126,7 +119,7 @@ Piensa en cómo puedes resaltar una sección específica al navegar por enlaces 
 
 ### --feedback--
 
-Piensa en cómo puedes resaltar una sección específica al navegar por enlaces internos de la página.
+Think about how you can highlight a specific section when navigating through in-page links.
 
 ## --video-solution--
 
@@ -154,7 +147,7 @@ Al estilizar elementos basados en los atributos de su elemento padre.
 
 ### --feedback--
 
-Piensa en cómo puedes estilizar enlaces y elementos especificados dependiendo de la interacción del usuario.
+Think about how you can style links and targeted elements depending on user interaction.
 
 ---
 
@@ -190,7 +183,7 @@ Considera la pseudo-clase destinada a distinguir enlaces internos de externos, a
 
 ### --feedback--
 
-Considera la pseudo-clase destinada a distinguir enlaces internos de externos, aun cuando no esté soportada todavía.
+Consider the pseudo-class intended for distinguishing internal links from external ones, even though it's not yet supported.
 
 ---
 

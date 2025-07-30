@@ -1,18 +1,11 @@
 ---
 id: 672bbe9171a5cca90f2edeea
 title: '¿Cuáles son ejemplos de pseudoclases de acción del usuario en elementos?'
-challengeType: 11
-videoId: M80PYgBglmY
+challengeType: 19
 dashedName: what-are-examples-of-element-user-action-pseudo-classes
 ---
 
 # --description--
-
-Mira el video o lee la transcripciónresponde las preguntas siguientes.
-
-# --transcript--
-
-¿Cuáles son ejemplos de las pseudoclases de acción del usuario en elementos?
 
 La retroalimentación del usuario es un elemento crucial del diseño web. Por ejemplo, es importante que los usuarios reciban señales visuales cuando interactúan con elementos en un sitio web, como al pasar el ratón por encima de un botón o al hacer clic en un enlace. Esta retroalimentación ayuda a los usuarios a entender el estado de los elementos interactivos, como indicar si un enlace ha sido visitado o no.
 
@@ -135,7 +128,7 @@ Te permiten dar estilo al último elemento de una lista.
 
 ### --feedback--
 
-Piensa en cómo puedes interactuar con los usuarios únicamente con CSS.
+Think about how you can interact with users purely with CSS.
 
 ## --video-solution--
 
@@ -171,7 +164,7 @@ Aplica estilos a un elemento cuando gana enfoque.
 
 ### --feedback--
 
-Piensa en cómo los formularios manejan las selecciones del usuario.
+Think about how forms handle user selections.
 
 ## --video-solution--
 
@@ -199,7 +192,7 @@ Selecciona un elemento después de enviar un formulario.
 
 ### --feedback--
 
-Piensa en cómo los usuarios navegan por formularios usando un teclado.
+Think about how users navigate forms using a keyboard.
 
 ---
 

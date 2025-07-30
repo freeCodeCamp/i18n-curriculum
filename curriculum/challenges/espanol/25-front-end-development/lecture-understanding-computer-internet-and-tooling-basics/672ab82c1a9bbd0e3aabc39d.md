@@ -1,24 +1,17 @@
 ---
 id: 672ab82c1a9bbd0e3aabc39d
 title: '¿Cómo puedes trabajar de manera efectiva con tu teclado, ratón y otros dispositivos de puntero?'
-challengeType: 11
-videoId: AcTxNEVccxc
+challengeType: 19
 dashedName: how-to-effectively-work-with-your-keyboard-mouse-and-other-pointing-devices
 ---
 
 # --description--
 
-Mira el video o lee la transcripción y responde a las preguntas abajo.
-
-# --transcript--
-
-¿Cómo puedes trabajar eficazmente con tu teclado, ratón y otros dispositivos de señalización?
-
 Muchos de vosotros habéis estado acostumbrados a trabajar con vuestro teclado y ratón durante años para una variedad de actividades como jugar, realizar tareas para el trabajo o navegar por la web.
 
 Pero el uso prolongado incorrecto de estos dispositivos puede llevar a serios problemas de salud a largo plazo.
 
-En este video de conferencias, cubriremos formas de trabajar con el teclado y ratón de tu computadora de manera saludable.
+In this lecture, we will cover ways to work with your computer’s keyboard and mouse in healthy ways.
 
 El primer consejo es prestar atención al agarre del ratón. Al trabajar en tareas serias para el trabajo o durante momentos intensos de juego, puedes tender a sujetar el ratón con demasiada fuerza. Sin embargo, esto puede ocasionar serios problemas en las manos y muñecas. Para prevenir esto, debes asegurarte de coger el ratón con suavidad y mantener tus dedos relajados.
 
@@ -46,7 +39,7 @@ Puede mejorar tu precisión en los juegos.
 
 ### --feedback--
 
-Presta atención al consejo sobre el agarre del ratón en el video.
+Pay attention to the advice about mouse grip at the beginning of the lecture.
 
 ---
 
@@ -54,7 +47,7 @@ Te ayuda a completar tareas más rápido.
 
 ### --feedback--
 
-Presta atención al consejo sobre el agarre del ratón en el video.
+Pay attention to the advice about mouse grip at the beginning of the lecture.
 
 ---
 
@@ -66,7 +59,7 @@ Mejora tu rendimiento global.
 
 ### --feedback--
 
-Presta atención al consejo sobre el agarre del ratón en el video.
+Pay attention to the advice about mouse grip at the beginning of the lecture.
 
 ## --video-solution--
 
@@ -82,7 +75,7 @@ Te ayudan a teclear más rápido.
 
 ### --feedback--
 
-El video menciona dispositivos ergonómicos como una forma de proteger tus manos y muñecas.
+The second tip in the lecture mentions ergonomic devices as a way to protect your hands and wrists.
 
 ---
 
@@ -90,7 +83,7 @@ Están diseñados para rendimiento de juegos.
 
 ### --feedback--
 
-El video menciona dispositivos ergonómicos como una forma de proteger tus manos y muñecas.
+The second tip in the lecture mentions ergonomic devices as a way to protect your hands and wrists.
 
 ---
 
@@ -102,7 +95,7 @@ Aumentan la resolución de pantalla.
 
 ### --feedback--
 
-El video menciona dispositivos ergonómicos como una forma de proteger tus manos y muñecas.
+The second tip in the lecture mentions ergonomic devices as a way to protect your hands and wrists.
 
 ## --video-solution--
 
@@ -130,7 +123,7 @@ El ratón debería estar más bajo que el teclado.
 
 ### --feedback--
 
-Piensa en cómo posicionar tu ratón para evitar la tensión en la muñeca y el brazo.
+Think about how to position your mouse to avoid wrist and arm strain.
 
 ---
 
