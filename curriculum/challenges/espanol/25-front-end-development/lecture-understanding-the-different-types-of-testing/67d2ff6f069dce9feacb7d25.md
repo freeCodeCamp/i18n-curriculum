@@ -1,18 +1,11 @@
 ---
 id: 67d2ff6f069dce9feacb7d25
 title: '¿Qué es la Prueba de Compatibilidad?'
-challengeType: 11
-videoId: 583-W-c4WNI
+challengeType: 19
 dashedName: what-is-compatibility-testing
 ---
 
 # --description--
-
-Mira el video o lee la transcripción y responde a las preguntas a continuación.
-
-# --transcript--
-
-¿Qué es la prueba de compatibilidad?
 
 Cuando creas aplicaciones web a gran escala, necesitarás pensar más allá de tu entorno informático personal. ¿Cómo funcionarán estas aplicaciones en una variedad de dispositivos, sistemas operativos y navegadores? Bueno, aquí es donde entra la prueba de compatibilidad.
 
@@ -46,7 +39,7 @@ Asegurarte de que tus aplicaciones no tengan errores de accesibilidad.
 
 ### --feedback--
 
-Consulta el inicio del video donde se discutió esto.
+Refer to the beginning of the lecture where this was discussed.
 
 ---
 
@@ -54,7 +47,7 @@ Asegúrate de que tus aplicaciones estén libres de errores en el formato y las 
 
 ### --feedback--
 
-Consulta el inicio del video donde se discutió esto.
+Refer to the beginning of the lecture where this was discussed.
 
 ---
 
@@ -66,7 +59,7 @@ Asegúrate de que tus aplicaciones solo funcionen para diferentes distribuciones
 
 ### --feedback--
 
-Consulta el inicio del video donde se discutió esto.
+Refer to the beginning of the lecture where this was discussed.
 
 ## --video-solution--
 
@@ -130,7 +123,7 @@ Configuración de hardware
 
 ### --feedback--
 
-Una de estas opciones se refiere a la memoria de la computadora.
+One of these options refers to computer memory.
 
 ---
 

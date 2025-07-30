@@ -1,18 +1,11 @@
 ---
 id: 6732b28eeadda1158cdbff7b
 title: '¿Cómo puedes verificar si un arreglo contiene un cierto valor?'
-challengeType: 11
-videoId: NjZI_TlIiXk
+challengeType: 19
 dashedName: how-can-you-check-if-an-array-contains-a-certain-value
 ---
 
 # --description--
-
-Mire el video o lea la transcripción y responda las preguntas a continuación.
-
-# --transcript--
-
-¿Cómo puedes verificar si un arreglo contiene un cierto valor?
 
 En JavaScript, el método `includes()` es una forma simple y eficiente de verificar si un arreglo contiene un valor específico. Este método devuelve un valor booleano: `true` si el arreglo contiene el elemento especificado, y `false` en caso contrario.
 
@@ -89,7 +82,7 @@ El segundo parámetro de `includes()` especifica la posición de inicio para la 
 
 ### --feedback--
 
-El segundo parámetro de `includes()` especifica la posición de inicio para la búsqueda.
+The second parameter of `includes()` specifies the starting position for the search.
 
 ---
 
@@ -130,7 +123,7 @@ Recuerda que `includes()` distingue entre mayúsculas y minúsculas cuando se tr
 
 ### --feedback--
 
-Recuerda que `includes()` distingue entre mayúsculas y minúsculas cuando se trata de cadenas.
+Remember that `includes()` is case-sensitive when dealing with strings.
 
 ---
 
@@ -171,7 +164,7 @@ El método `includes()` utiliza igualdad estricta (`===`) para la comparación.
 
 ### --feedback--
 
-El método `includes()` utiliza igualdad estricta (`===`) para la comparación.
+The `includes()` method uses strict equality (`===`) for comparison.
 
 ---
 
