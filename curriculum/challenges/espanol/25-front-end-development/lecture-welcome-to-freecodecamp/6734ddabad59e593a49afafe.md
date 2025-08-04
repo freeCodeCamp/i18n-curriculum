@@ -1,16 +1,13 @@
 ---
 id: 6734ddabad59e593a49afafe
 title: Mensaje de Bienvenida de Quincy
-challengeType: 24
-videoId: KwZkXwDUc1o
+challengeType: 19
 dashedName: welcome-message-from-quincy
 ---
 
 # --description--
 
-Mira el video o lee la transcripción y completa la tarea a continuación.
-
-# --transcript--
+<img src="https://cdn.freecodecamp.org/curriculum/lecture-transcripts/freeCodeCamp_team.jpeg" alt="the freeCodeCamp team" />
 
 Soy Quincy Larson, profesor y fundador de freeCodeCamp.org.
 
@@ -28,6 +25,112 @@ La buena noticia es que la comunidad de freeCodeCamp está contigo en todo momen
 
 En la próxima conferencia, explicaré cómo funciona el plan de estudios de freeCodeCamp y cómo funcionan las certificaciones.
 
-# --assignment--
+# --questions--
 
-Marca esta casilla para indicar que has visto el video.
+## --text--
+
+What is the mission of freeCodeCamp.org?
+
+## --answers--
+
+To create paid premium courses for computer science students.
+
+### --feedback--
+
+Refer back to the beginning of the lecture for the organization's mission.
+
+---
+
+To help university graduates get their first developer jobs.
+
+### --feedback--
+
+Refer back to the beginning of the lecture for the organization's mission.
+
+---
+
+To create free learning resources to help people learn math, programming, and computer science.
+
+---
+
+To provide certification programs for experienced developers.
+
+### --feedback--
+
+Refer back to the beginning of the lecture for the organization's mission.
+
+## --video-solution--
+
+3
+
+## --text--
+
+According to the lecture, what should you expect when learning to code?
+
+## --answers--
+
+It will be easy and you'll master it quickly.
+
+### --feedback--
+
+The lecture emphasizes hands-on practice and building projects.
+
+---
+
+It will be hard and require many nights and weekends of practice.
+
+---
+
+You need a university degree to be successful.
+
+### --feedback--
+
+The lecture emphasizes hands-on practice and building projects.
+
+---
+
+You can learn it all from lectures without building projects.
+
+### --feedback--
+
+The lecture emphasizes hands-on practice and building projects.
+
+## --video-solution--
+
+2
+
+## --text--
+
+Where can you get help when you get stuck while learning on freeCodeCamp?
+
+## --answers--
+
+Only through the freeCodeCamp forum.
+
+### --feedback--
+
+There are multiple ways to get help according to the lecture.
+
+---
+
+Only through the freeCodeCamp Discord.
+
+### --feedback--
+
+There are multiple ways to get help according to the lecture.
+
+---
+
+The freeCodeCamp forum, Discord, or by searching through reference articles.
+
+---
+
+You have to figure it out on your own.
+
+### --feedback--
+
+There are multiple ways to get help according to the lecture.
+
+## --video-solution--
+
+3

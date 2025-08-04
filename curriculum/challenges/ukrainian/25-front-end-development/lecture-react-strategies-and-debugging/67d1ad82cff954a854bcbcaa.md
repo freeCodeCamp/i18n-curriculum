@@ -1,18 +1,11 @@
 ---
 id: 67d1ad82cff954a854bcbcaa
 title: What Is Prop Drilling?
-challengeType: 11
-videoId: 83LkOesFkWI
+challengeType: 19
 dashedName: what-is-prop-drilling
 ---
 
 # --description--
-
-Перегляньте відео або прочитайте його текстову версію. Дайте відповіді на запитання нижче.
-
-# --transcript--
-
-What is prop drilling?
 
 Prop drilling is the most basic approach to state management in React applications. It looks simple, but can get messy quickly, and is very hard to scale.
 

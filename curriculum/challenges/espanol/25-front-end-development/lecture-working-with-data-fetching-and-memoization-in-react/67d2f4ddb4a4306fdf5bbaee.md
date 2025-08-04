@@ -1,18 +1,11 @@
 ---
 id: 67d2f4ddb4a4306fdf5bbaee
 title: '¿Qué es la memoización y cómo funciona el hook useMemo?'
-challengeType: 11
-videoId: 2X7LD_6P4eI
+challengeType: 19
 dashedName: what-is-memoization-and-how-does-the-usememo-hook-work
 ---
 
 # --description--
-
-Mira el video o lee la transcripción y responde las preguntas a continuación.
-
-# --transcript--
-
-¿Qué es la memoización y cómo funciona el hook `useMemo`?
 
 A medida que tu aplicación React se hace más grande, los renders innecesarios y los cálculos costosos pueden ralentizar el rendimiento, lo que lleva a actualizaciones de interfaz lenta y un mayor uso de recursos.
 
@@ -195,7 +188,7 @@ Los valores calculados y las referencias de función son la misma cosa.
 
 ### --feedback--
 
-Uno es la salida de una función, mientras que el otro es solo un puntero a ella.
+One is the output of a function, while the other is just a pointer to it.
 
 ---
 

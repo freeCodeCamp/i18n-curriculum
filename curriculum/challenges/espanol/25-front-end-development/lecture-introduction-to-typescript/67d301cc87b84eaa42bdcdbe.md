@@ -1,20 +1,11 @@
 ---
 id: 67d301cc87b84eaa42bdcdbe
 title: '¿Qué es un archivo tsconfig y por qué es importante incluirlo en los proyectos TypeScript?'
-challengeType: 11
-videoId: H-n6N7zmNCg
+challengeType: 19
 dashedName: what-is-a-tsconfig-file-and-why-is-it-important-to-include-in-your-typescript-projects
 ---
 
 # --description--
-
-Mira el video o lee la transcripción y responde las preguntas a continuación.
-
-# --transcript--
-
-¿Qué es un archivo tsconfig, y por qué es importante incluirlo en los proyectos TypeScript?
-
-¡Aprendamos acerca del archivo tsconfig!
 
 La configuración del compilador de TypeScript puede ajustarse para satisfacer las necesidades de tu proyecto. Esa configuración se encuentra en un archivo `tsconfig.json` en el directorio raíz del proyecto. De hecho, sin él, el compilador no se ejecutará a menos que le pases las banderas de comando directamente. Pero, ¿qué hace exactamente este archivo? Bueno, echemos un vistazo a un archivo de ejemplo:
 

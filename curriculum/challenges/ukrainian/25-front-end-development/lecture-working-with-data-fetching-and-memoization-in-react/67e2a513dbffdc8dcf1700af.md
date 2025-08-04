@@ -1,18 +1,11 @@
 ---
 id: 67e2a513dbffdc8dcf1700af
 title: What Is the useOptimistic Hook, and How Does It Work?
-challengeType: 11
-videoId: ZmjYqlrU4g0
+challengeType: 19
 dashedName: what-is-the-useoptimistic-hook-and-how-does-it-work
 ---
 
 # --description--
-
-Перегляньте відео або прочитайте його текстову версію. Дайте відповіді на запитання нижче.
-
-# --transcript--
-
-What is the `useOptimistic` hook and how does it work?
 
 Recent versions of React introduced server components and server actions to shift some of the rendering and logic responsibilities to the server.
 
