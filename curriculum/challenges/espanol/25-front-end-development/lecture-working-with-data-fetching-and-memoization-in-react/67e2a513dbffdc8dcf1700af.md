@@ -1,18 +1,11 @@
 ---
 id: 67e2a513dbffdc8dcf1700af
 title: '¿Cuál es el uso del gancho useOptimistic y cómo funciona?'
-challengeType: 11
-videoId: ZmjYqlrU4g0
+challengeType: 19
 dashedName: what-is-the-useoptimistic-hook-and-how-does-it-work
 ---
 
 # --description--
-
-Mira el video o lee la transcripción y responde las preguntas abajo.
-
-# --transcript--
-
-¿Qué es el `useOptimistic` hook y cómo funciona?
 
 Las versiones recientes de React introdujeron componentes y acciones de servidor para transferir algunas de las responsabilidades de renderizado y lógica al servidor.
 
@@ -238,7 +231,7 @@ Permite el manejo de errores automático y retroceso para solicitudes API fallid
 
 ### --feedback--
 
-Este hook asegura que la UI refleje los cambios esperados antes de que una operación asíncrona termine.
+This hook ensures the UI reflects expected changes before an async operation completes.
 
 ---
 

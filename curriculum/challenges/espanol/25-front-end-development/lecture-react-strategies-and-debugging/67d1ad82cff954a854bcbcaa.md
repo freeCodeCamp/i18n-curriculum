@@ -1,18 +1,11 @@
 ---
 id: 67d1ad82cff954a854bcbcaa
 title: '¿Qué es Prop Drilling?'
-challengeType: 11
-videoId: 83LkOesFkWI
+challengeType: 19
 dashedName: what-is-prop-drilling
 ---
 
 # --description--
-
-Mira el video o lee la transcripción y responde las preguntas a continuación.
-
-# --transcript--
-
-¿Qué es prop drilling?
 
 Prop drilling es el enfoque más básico para la gestión de estado en aplicaciones de React. Parece simple, pero puede volverse desordenado rápidamente y es muy difícil de escalar.
 
@@ -183,7 +176,7 @@ Perforar el estado del componente usando hooks.
 
 ### --feedback--
 
-Ocurre cuando los props se pasan a través de varios niveles innecesariamente.
+It happens when props are passed through multiple levels unnecessarily.
 
 ## --video-solution--
 
@@ -219,7 +212,7 @@ Elimina la necesidad de bibliotecas de gestión de estado.
 
 ### --feedback--
 
-Demasiados props pasando por múltiples componentes pueden hacer que el código se vuelva desordenado.
+Too many props passing through multiple components can make the code messy.
 
 ## --video-solution--
 

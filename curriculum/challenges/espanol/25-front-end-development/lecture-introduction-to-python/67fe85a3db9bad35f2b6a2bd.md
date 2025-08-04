@@ -1,9 +1,7 @@
 ---
 id: 67fe85a3db9bad35f2b6a2bd
 title: '¿Cómo funcionan las declaraciones condicionales y los operadores lógicos?'
-#change back to 11 when video is updated
 challengeType: 19
-#videoId: new-id-goes-here-when-ready
 dashedName: how-do-conditional-statements-and-logical-operators-work
 ---
 

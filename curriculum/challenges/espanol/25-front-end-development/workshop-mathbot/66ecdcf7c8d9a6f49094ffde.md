@@ -7,7 +7,7 @@ dashedName: step-11
 
 # --description--
 
-En los videos de la conferencia, aprendiste que el método `Math.round()` redondea el valor al entero más cercano.
+In the lectures, you learned that the `Math.round()` method rounds the value to the nearest whole integer.
 
 Aquí hay un par de ejemplos:
 
