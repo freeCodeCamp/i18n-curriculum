@@ -8,7 +8,7 @@ demoType: onClick
 
 # --description--
 
-Виконайте історію користувача, щоб завершити лабораторну роботу. Усі тести мають бути успішними.
+**Objective:** Fulfill the user stories below and get all the tests to pass to complete the lab.
 
 **Історія користувача:**
 

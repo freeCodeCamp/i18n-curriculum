@@ -1,7 +1,7 @@
 ---
 id: 63ee3fe4381756f9716727f0
 title: Exercício B sobre a Introdução ao CSS
-challengeType: 14
+challengeType: 25
 dashedName: css-foundations-exercise-b
 ---
 

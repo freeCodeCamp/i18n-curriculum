@@ -1,7 +1,7 @@
 ---
 id: 6391d1a4f7ac71efd0621380
 title: 創建一個食譜頁面項目
-challengeType: 14
+challengeType: 25
 dashedName: top-build-a-recipe-project
 ---
 

@@ -8,7 +8,7 @@ dashedName: build-a-tribute-page
 
 # --description--
 
-Cumple las historias de usuario a continuación y haz que pasen todas las pruebas para completar el laboratorio.
+**Objective:** Fulfill the user stories below and get all the tests to pass to complete the lab.
 
 **Instrucciones:**
 
