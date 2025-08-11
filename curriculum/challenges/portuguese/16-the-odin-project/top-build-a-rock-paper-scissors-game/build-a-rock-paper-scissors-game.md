@@ -1,7 +1,7 @@
 ---
 id: 66629f407d679d3105e8317f
 title: Crie um jogo de pedra, papel e tesoura
-challengeType: 14
+challengeType: 25
 dashedName: top-build-a-rock-paper-scissors-game
 ---
 

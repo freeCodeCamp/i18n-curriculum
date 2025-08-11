@@ -7,7 +7,7 @@ dashedName: implement-the-quicksort-algorithm
 
 # --description--
 
-Cumplir las historias de usuario a continuación y pasar todas las pruebas para completar el laboratorio.
+**Objective:** Fulfill the user stories below and get all the tests to pass to complete the lab.
 
 **Historias de Usuario:**
 

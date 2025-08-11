@@ -1,7 +1,7 @@
 ---
 id: 63ee3f71381756f9716727ef
 title: Ejercicio A de Fundamentos de CSS
-challengeType: 14
+challengeType: 25
 dashedName: css-foundations-exercise-a
 ---
 

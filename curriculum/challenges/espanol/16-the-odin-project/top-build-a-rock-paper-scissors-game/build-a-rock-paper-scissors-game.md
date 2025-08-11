@@ -1,7 +1,7 @@
 ---
 id: 66629f407d679d3105e8317f
 title: Construye un juego de piedra, papel o tijera
-challengeType: 14
+challengeType: 25
 dashedName: top-build-a-rock-paper-scissors-game
 ---
 

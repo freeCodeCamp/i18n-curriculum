@@ -1,7 +1,7 @@
 ---
 id: 63ee3fe9381756f9716727f1
 title: Основи CSS. Вправа №3
-challengeType: 14
+challengeType: 25
 dashedName: css-foundations-exercise-c
 ---
 

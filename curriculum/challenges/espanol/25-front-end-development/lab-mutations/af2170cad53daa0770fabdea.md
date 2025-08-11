@@ -7,7 +7,7 @@ dashedName: implement-the-mutations-algorithm
 
 # --description--
 
-Cumple las historias de usuario a continuación y pasa todas las pruebas para completar el laboratorio.
+**Objective:** Fulfill the user stories below and get all the tests to pass to complete the lab.
 
 **Historias de Usuario:**
 
