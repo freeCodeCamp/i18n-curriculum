@@ -1,6 +1,6 @@
 ---
 id: 587d778b367417b2b2512aa8
-title: Add an Accessible Date Picker
+title: Füge eine barrierefreie Datumsauswahl hinzu
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cR3bRbCV'
 forumTopicId: 301008
@@ -9,13 +9,13 @@ dashedName: add-an-accessible-date-picker
 
 # --description--
 
-Forms often include the `input` field, which can be used to create several different form controls. The `type` attribute on this element indicates what kind of `input` element will be created.
+Formulare enthalten oft das `input`-Feld mit dem verschiedene Formularsteuerelemente erstellt werden können. Das `type`-Attribut dieses Elements gibt an, welche Art von `input`-Element erstellt wird.
 
-You may have noticed the `text` and `submit` input types in prior challenges, and HTML5 introduced an option to specify a `date` field. Depending on browser support, a date picker shows up in the `input` field when it's in focus, which makes filling in a form easier for all users.
+Möglicherweise hast Du die `text`- und `submit`-Input-Arten in vorherigen Aufgaben schon gesehen. Und mit HTML5 wurde eine Option eingeführt, um ein `date`-Feld für Datumsangaben zu nutzen. Abhängig von der Browserunterstützung wird eine Datumsauswahl im `input`-Feld angezeigt, wenn es im Fokus ist, was das Ausfüllen eines Formulars für alle Benutzer erleichtert.
 
 For older browsers, the type will default to `text`, so it helps to show users the expected date format in the `label` or `placeholder` text just in case.
 
-Here's an example:
+Hier ist ein Beispiel:
 
 ```html
 <label for="input1">Enter a date:</label>
@@ -24,7 +24,7 @@ Here's an example:
 
 # --instructions--
 
-Camper Cat is setting up a Mortal Kombat tournament and wants to ask his competitors to see what date works best. Add an `input` tag with a `type` attribute of `date`, an `id` attribute of `pickdate`, and a `name` attribute of `date`.
+Camper Cat stellt ein Mortal Kombat-Turnier auf die Beine und möchte seine Teilnehmer fragen, welches Datum dafür in Frage kommt. Add an `input` tag with a `type` attribute of `date`, an `id` attribute of `pickdate`, and a `name` attribute of `date`.
 
 # --hints--
 

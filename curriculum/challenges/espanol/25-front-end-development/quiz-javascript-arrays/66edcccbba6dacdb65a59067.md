@@ -44,7 +44,7 @@ console.log(numbers[10]);
 
 #### --text--
 
-¿Cuál de las siguientes es la forma correcta de acceder a la cadena `"Jessica"` del array `developers`?
+Which of the following is the correct way to access the string `"Jessica"` from the `developers` array?
 
 #### --distractors--
 
