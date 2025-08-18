@@ -613,7 +613,7 @@ Usar guiones en lugar de espacios.
 
 #### --text--
 
-¿Qué sistema operativo soporta Microsoft Edge?
+Microsoft Edge is the default web browser of which operating system?
 
 #### --distractors--
 

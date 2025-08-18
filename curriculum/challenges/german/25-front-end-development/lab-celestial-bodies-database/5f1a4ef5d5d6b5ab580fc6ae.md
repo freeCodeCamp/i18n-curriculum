@@ -12,7 +12,7 @@ In diesem Projekt wirst du mit PostgreSQL eine Datenbank mit Himmelskörpern ers
 
 # --instructions--
 
-**Wichtig:** Nachdem du alle Projekttests bestanden hast, speichere einen Auszug deiner Datenbank in einer `universe.sql`-Datei, damit du Schritt 2 abschließen kannst. In der virtuellen Anwendung findest du Anweisungen, wie du das tun kannst.
+**Wichtig:** Nachdem du alle Projekttests bestanden hast, speichere einen Auszug deiner Datenbank in einer `universe.sql`-Datei, damit du Schritt 2 abschließen kannst. There will be instructions on how to do that within the virtual machine.
 
 # --notes--
 

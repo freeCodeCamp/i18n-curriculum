@@ -434,7 +434,7 @@ Devuelve `-1` si el elemento no se encuentra.
 
 #### --answer--
 
-`keys()`
+`trim()`
 
 ### --question--
 
