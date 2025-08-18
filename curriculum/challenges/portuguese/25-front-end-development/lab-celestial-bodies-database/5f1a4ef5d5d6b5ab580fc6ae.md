@@ -12,7 +12,7 @@ Para este projeto, você vai construir um banco de dados de corpos celestiais us
 
 # --instructions--
 
-**Importante:** depois de passar em todos os testes de projetos, salve um dump (cópia) de seu banco de dados em um arquivo `universe.sql` para poder completar a etapa 2. Haverá instruções sobre como fazer isso dentro da máquina virtual.
+**Importante:** depois de passar em todos os testes de projetos, salve um dump (cópia) de seu banco de dados em um arquivo `universe.sql` para poder completar a etapa 2. There will be instructions on how to do that within the virtual machine.
 
 # --notes--
 
