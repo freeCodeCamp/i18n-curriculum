@@ -9,7 +9,7 @@ dashedName: step-32
 
 Füg, um die Barrierefreiheit des Bildes, das du gerade hinzugefügt hast, zu verbessern, ein `alt`-Attribut mit dem folgenden Text hinzu:
 
-`Five cats looking around a field.`
+`Two tabby kittens sleeping together on a couch.`
 
 # --hints--
 
@@ -47,11 +47,11 @@ assert.strictEqual(
 );
 ```
 
-Das `img`-Cats-Element sollte ein `alt`-Attribut mit dem Wert `Five cats looking around a field.` haben
+The Cats `img` element should have an `alt` attribute with the value `Two tabby kittens sleeping together on a couch.`
 
 ```js
 const catsImg = document.querySelectorAll('figure > img')[1];
-assert.match(catsImg?.getAttribute('alt')?.replace(/\s+/g, ' '), /^Five cats looking around a field\.?$/i);
+assert.match(catsImg?.getAttribute('alt')?.replace(/\s+/g, ' '), /^Two tabby kittens sleeping together on a couch..?$/i);
 ```
 
 # --seed--

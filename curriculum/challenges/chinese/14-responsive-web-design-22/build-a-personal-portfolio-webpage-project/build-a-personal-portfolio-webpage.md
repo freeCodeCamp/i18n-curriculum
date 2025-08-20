@@ -8,7 +8,7 @@ dashedName: build-a-personal-portfolio-webpage
 
 # --description--
 
-**目标：** 构建一个功能类似于 <a href="https: personal-portfolio.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://personal-portfolio.freecodecamp.rocks</a> 的应用程序。 **请勿复制此演示项目**。
+**目标：** 构建一个功能类似于 <a href="https://personal-portfolio.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://personal-portfolio.freecodecamp.rocks</a> 的应用程序。 **请勿复制此演示项目**。
 
 **用户需求:**
 

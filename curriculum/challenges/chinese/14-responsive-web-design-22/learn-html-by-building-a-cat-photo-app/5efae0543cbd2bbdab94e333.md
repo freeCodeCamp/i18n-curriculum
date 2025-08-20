@@ -9,7 +9,7 @@ dashedName: step-32
 
 为了提高你刚刚添加的图像的可访问性，添加具有以下文本的 `alt` 属性。
 
-`Five cats looking around a field.`
+`Two tabby kittens sleeping together on a couch.`
 
 # --hints--
 
@@ -47,11 +47,11 @@ assert.strictEqual(
 );
 ```
 
-猫咪的 `img` 元素应该有一个 `alt` 属性，其值为 `Five cats looking around a field.`。
+The Cats `img` element should have an `alt` attribute with the value `Two tabby kittens sleeping together on a couch.`
 
 ```js
 const catsImg = document.querySelectorAll('figure > img')[1];
-assert.match(catsImg?.getAttribute('alt')?.replace(/\s+/g, ' '), /^Five cats looking around a field\.?$/i);
+assert.match(catsImg?.getAttribute('alt')?.replace(/\s+/g, ' '), /^Two tabby kittens sleeping together on a couch..?$/i);
 ```
 
 # --seed--

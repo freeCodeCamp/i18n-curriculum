@@ -14,7 +14,7 @@ dashedName: turn-an-image-into-a-link
 画像を `a` 要素内にネストしてみましょう。 以下が例です:
 
 ```html
-<a href="#"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="Three kittens running towards the camera."></a>
+<a href="#"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
 ```
 
 デッドリンクにするには `a` 要素の `href` プロパティとして `#` を使うことを忘れないでください。

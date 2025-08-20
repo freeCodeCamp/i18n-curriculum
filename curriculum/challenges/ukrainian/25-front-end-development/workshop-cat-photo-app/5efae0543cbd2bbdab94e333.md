@@ -9,7 +9,7 @@ dashedName: step-32
 
 Щоб покращити доступність доданого зображення, додайте атрибут `alt` з таким текстом:
 
-`Five cats looking around a field.`
+`Two tabby kittens sleeping together on a couch.`
 
 # --hints--
 
@@ -47,7 +47,7 @@ assert.strictEqual(
 );
 ```
 
-Елемент `img` «cats» повинен мати атрибут `alt` зі значенням `Five cats looking around a field.`
+The Cats `img` element should have an `alt` attribute with the value `Two tabby kittens sleeping together on a couch.`
 
 ```js
 const catsImg = document.querySelectorAll('figure > img')[1];
@@ -55,7 +55,7 @@ assert.match(
   catsImg
     ?.getAttribute('alt')
     ?.replace(/\s+/g, ' '),
-    /^Five cats looking around a field\.?$/i
+    /^Two tabby kittens sleeping together on a couch..?$/i
 );
 ```
 

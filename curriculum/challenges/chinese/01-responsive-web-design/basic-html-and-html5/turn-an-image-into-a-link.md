@@ -14,7 +14,7 @@ You can make elements into links by nesting them within an `a` element.
 如果我们要把图片嵌套进 `a` 元素， 这是一个示例：
 
 ```html
-<a href="#"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="Three kittens running towards the camera."></a>
+<a href="#"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
 ```
 
 如果把 `a` 的 `href` 属性值设置为 `#`，创建的是一个死链接（不跳转到其他画面）。
