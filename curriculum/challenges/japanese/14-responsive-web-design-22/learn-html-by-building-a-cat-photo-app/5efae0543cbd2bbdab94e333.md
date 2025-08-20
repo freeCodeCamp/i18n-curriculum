@@ -9,7 +9,7 @@ dashedName: step-32
 
 先ほど追加した画像のアクセシビリティを向上させるために、`alt` 属性に下記テキストを追加してください:
 
-`Five cats looking around a field.`
+`Two tabby kittens sleeping together on a couch.`
 
 # --hints--
 
@@ -47,11 +47,11 @@ assert.strictEqual(
 );
 ```
 
-5 匹の猫の `img` 要素には `alt` 属性があり、値が `Five cats looking around a field.` に設定されている必要があります。
+The Cats `img` element should have an `alt` attribute with the value `Two tabby kittens sleeping together on a couch.`
 
 ```js
 const catsImg = document.querySelectorAll('figure > img')[1];
-assert.match(catsImg?.getAttribute('alt')?.replace(/\s+/g, ' '), /^Five cats looking around a field\.?$/i);
+assert.match(catsImg?.getAttribute('alt')?.replace(/\s+/g, ' '), /^Two tabby kittens sleeping together on a couch..?$/i);
 ```
 
 # --seed--

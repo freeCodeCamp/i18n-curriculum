@@ -14,7 +14,7 @@ You can make elements into links by nesting them within an `a` element.
 Bette dein Bild in ein `a`-Element ein. Hier ein Beispiel:
 
 ```html
-<a href="#"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="Three kittens running towards the camera."></a>
+<a href="#"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
 ```
 
 Denke daran, `#` als `a`-Eigenschaft des Elements `href` zu verwenden, um es in einen toten Link zu verwandeln.

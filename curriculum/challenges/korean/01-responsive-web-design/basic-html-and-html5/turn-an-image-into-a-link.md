@@ -14,7 +14,7 @@ dashedName: turn-an-image-into-a-link
 `a` 요소 내에서 이미지를 중첩합니다. 여기 예시가 있습니다.
 
 ```html
-<a href="#"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="Three kittens running towards the camera."></a>
+<a href="#"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
 ```
 
 `a` 요소에 없는 링크를 사용하려면 `href` 속성에 `#`를 지정해야 합니다.
