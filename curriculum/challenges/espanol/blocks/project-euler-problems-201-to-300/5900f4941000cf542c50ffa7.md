@@ -1,0 +1,44 @@
+---
+id: 5900f4941000cf542c50ffa7
+title: 'Problema 296: Bisectriz Angular y Tangente'
+challengeType: 1
+forumTopicId: 301948
+dashedName: problem-296-angular-bisector-and-tangent
+---
+
+# --description--
+
+Se da un triángulo de lados enteros $ABC$ con $BC ≤ AC ≤ AB$. $k$ es la bisectriz angular del ángulo $ACB$. $m$ es la tangente en $C$ al círculo circunscrito de $ABC$. $n$ es una línea paralela a $m$ a través de $B$.
+
+La intersección de $n$ y $k$ se llama $E$.
+
+<img alt="triángulo ABC, con k - la bisectriz angular del ángulo ACB, m - tangente en el punto C, n - línea paralela a m a través de B, y el punto E - intersección de k y n" src="https://cdn.freecodecamp.org/curriculum/project-euler/angular-bisector-and-tangent.gif" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
+
+¿Cuántos triángulos $ABC$ con un perímetro que no exceda $100\\,000$ existen tales que $BE$ tiene longitud entera?
+
+# --hints--
+
+`angularBisectorAndTangent()` debe volver `1137208419`.
+
+```js
+assert.strictEqual(angularBisectorAndTangent(), 1137208419);
+```
+
+# --seed--
+
+## --seed-contents--
+
+```js
+function angularBisectorAndTangent() {
+
+  return true;
+}
+
+angularBisectorAndTangent();
+```
+
+# --solutions--
+
+```js
+// solution required
+```
