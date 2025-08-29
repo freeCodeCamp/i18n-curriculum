@@ -1,0 +1,44 @@
+---
+id: 5900f45f1000cf542c50ff71
+title: 'Problema 242: Impares Triples'
+challengeType: 1
+forumTopicId: 301889
+dashedName: problem-242-odd-triplets
+---
+
+# --description--
+
+Dado el conjunto {1,2,..., $n$}, definimos $f(n, k)$ como número de sus $k$-element subconjuntos con una suma impar de elementos. Por ejemplo, $f(5,3) = 4$, ya que el conjunto {1,2,3,4,5} tiene cuatro subconjuntos de 3-elementos con una suma impar de elementos, p. ej.: {1,2,4}, {1,3,5}, {2,3,4} y {2,4,5}.
+
+Cuando los tres valores $n$, $k$ y $f(n, k)$ son impares, decimos que hacen un triple impar $[n, k, f(n, k)]$.
+
+Hay exactamente cinco impares triples con $n ≤ 10$, concretamente: $[1, 1, f(1, 1) = 1]$, $[5, 1, f(5, 1) = 3]$, $[5, 5, f(5, 5) = 1]$, $[9, 1, f(9, 1) = 5]$ and $[9, 9, f(9, 9) = 1]$.
+
+Cuantos impares triples hay con $n ≤ {10}^{12}$?
+
+# --hints--
+
+`oddTriplets()` debería devolver `997104142249036700`.
+
+```js
+assert.strictEqual(oddTriplets(), 997104142249036700);
+```
+
+# --seed--
+
+## --seed-contents--
+
+```js
+function oddTriplets() {
+
+  return true;
+}
+
+oddTriplets();
+```
+
+# --solutions--
+
+```js
+// solution required
+```
