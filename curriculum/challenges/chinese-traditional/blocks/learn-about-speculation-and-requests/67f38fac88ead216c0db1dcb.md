@@ -11,7 +11,7 @@ dashedName: task-81
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+聽音頻，回答下面的問題。
 
 # --questions--
 

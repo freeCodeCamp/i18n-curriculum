@@ -12,7 +12,7 @@ Linda: Yes. The navigation bar and footer adjustments have already made a big di
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+听音频，回答下面的问题。
 
 # --questions--
 

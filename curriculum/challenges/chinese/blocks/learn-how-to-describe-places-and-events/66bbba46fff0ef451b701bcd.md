@@ -11,7 +11,7 @@ Sarah: Sure, I'm not busy. What's the problem? -->
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+听音频，回答下面的问题。
 
 # --questions--
 

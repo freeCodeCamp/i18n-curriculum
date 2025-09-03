@@ -1,35 +1,35 @@
 ---
 id: 6823c1a0bcada44f32bf0bdc
-title: Step 4
+title: 步骤 4
 challengeType: 0
 dashedName: step-4
 ---
 
 # --description--
 
-An `h1` element is the main heading of a webpage and you should only use one per page. `h2` elements represent subheadings. You can have multiple per page and they look like this:
+`h1` 元素是网页的主标题，每个页面只能有一个。 `h2` 元素代表子标题。 每个页面可以有多个，它们看起来就像这样：
 
 ```html
 <h2>This is a subheading.</h2>
 ```
 
-Turn the `Full Stack Curriculum` text into an `h2` element by surrounding it with opening and closing `h2` tags.
+用 `h2` 开始标签和结束标签把 `Full Stack Curriculum` 括起来，将其转化为一个 `h2` 元素。
 
 # --hints--
 
-Your `h2` element should have an opening `<h2>` tag.
+你的 `h2` 元素应该有一个开始标签 `<h2>`。
 
 ```js
 assert.exists(document.querySelector("h2"));
 ```
 
-Your `h2` element should have a closing `</h2>` tag.
+你的 `h2` 元素应该有一个结束标签 `</h2>`。
 
 ```js
 assert.match(code, /<\/h2\s*\>/);
 ```
 
-Your `h2` element should look like this: `<h2>Full Stack Curriculum</h2>`.
+你的 `h2` 元素看起来应该像这样：`<h2>Full Stack Curriculum</h2>`。
 
 ```js
 // purposefully removing friction for early users to help improve retention in early lessons

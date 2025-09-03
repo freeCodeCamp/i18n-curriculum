@@ -10,9 +10,9 @@ demoType: onClick
 
 In this lab, you'll practice using CSS colors by designing boxes.
 
-**Objective:** Fulfill the user stories below and get all the tests to pass to complete the lab.
+**目标：**实现以下用户需求并通过所有测试以完成实验。
 
-**User Stories:**
+**用户需求：**
 
 1. You should set the background color for `body` to `#f4f4f4`.
 2. You should have a `div` with a class of `color-grid` to hold all your color elements.

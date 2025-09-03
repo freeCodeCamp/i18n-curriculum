@@ -10,7 +10,7 @@ dashedName: build-a-tribute-page
 
 **Objective:** Build an app that is functionally similar to <a href="https://tribute-page.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://tribute-page.freecodecamp.rocks</a>. **Do not copy this demo project**.
 
-**User Stories:**
+**用戶需求：**
 
 1. Your tribute page should have a `main` element with a corresponding `id` of `main`, which contains all other elements
 1. You should see an element with an `id` of `title`, which contains a string (i.e. text), that describes the subject of the tribute page (e.g. "Dr. Norman Borlaug")
