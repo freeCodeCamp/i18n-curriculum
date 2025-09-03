@@ -8,9 +8,9 @@ demoType: onClick
 
 # --description--
 
-**Objective:** Fulfill the user stories below and get all the tests to pass to complete the lab.
+**目标：**实现以下用户需求并通过所有测试以完成实验。
 
-**User Stories:**
+**用户需求：**
 
 1. Your portfolio should have a welcome section with an `id` of `welcome-section`.
 2. The welcome section should have an `h1` element that contains text.

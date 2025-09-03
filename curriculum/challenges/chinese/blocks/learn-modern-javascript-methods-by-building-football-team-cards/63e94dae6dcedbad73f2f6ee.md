@@ -9,7 +9,7 @@ dashedName: step-24
 
 `arr` contains a series of objects that each contains a `name`, `position`, `number`, `isCaptain` and `nickname` property. In order to access each of those properties inside the callback function, you will need to use object destructuring to unpack them into variables.
 
-Here is an example:
+这是一个示例：
 
 ```js
 function myExampleFunction({ name, age, job, city }) {

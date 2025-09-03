@@ -7,9 +7,9 @@ dashedName: implement-the-mutations-algorithm
 
 # --description--
 
-**Objective:** Fulfill the user stories below and get all the tests to pass to complete the lab.
+**目標：**實現以下用戶需求並通過所有測試以完成實驗。
 
-**User Stories:**
+**用戶需求：**
 
 1. Create a function named `mutation` that takes an array as its argument.
 1. `mutation` should return `true` if the string in the first element of the array contains all of the letters of the string in the second element of the array, and `false` otherwise. For example:

@@ -1,63 +1,63 @@
 ---
 id: 6734ddabad59e593a49afafe
-title: Welcome Message from Quincy
+title: 來自 Quincy 的歡迎致辭
 challengeType: 19
 dashedName: welcome-message-from-quincy
 ---
 
 # --description--
 
-<img src="https://cdn.freecodecamp.org/curriculum/lecture-transcripts/freeCodeCamp_team.jpeg" alt="the freeCodeCamp team" />
+<img src="https://cdn.freecodecamp.org/curriculum/lecture-transcripts/freeCodeCamp_team.jpeg" alt="freeCodeCamp 團隊" />
 
-I'm Quincy Larson, teacher and founder of freeCodeCamp.org.
+我是 Quincy Larson，freeCodeCamp.org 的教師兼創始人。
 
-Our charity's mission is to create free learning resources to help people learn math, programming, and computer science. And that's precisely what we've done for you here.
+我們慈善機構的使命是創建免費的學習資源，幫助人們學習數學、編程和計算機科學。 而我們正是爲此而爲你準備了這些內容。
 
-This free, verified certification includes thousands of hours of lectures, interactive labs, and projects. You're going to build dozens of apps from scratch.
+這個免費且經過認證的證書包括數千小時的講座、互動實驗室和項目。 你將從零開始構建數十個應用程序。
 
-This is real coding. Everything's fully interactive. You'll immediately apply concepts as you learn them. And you'll get plenty of practice and spaced repetition along the way.
+這是真正的編程。 一切都是完全互動的。 你將在學習概念的同時立即應用它們。 並且在學習過程中會得到大量的練習和間隔重複。
 
-Over the past decade, tens of thousands of people who've learned to code using freeCodeCamp have gotten their first developer jobs. Many of these people don't even have a university degree.
+在過去十年中，數以萬計的人通過使用 freeCodeCamp 學習編程，獲得了他們的第一份開發工作。 其中許多人甚至沒有大學學位。
 
-But I'm not going to sugarcoat it: learning to code is hard. You're going to spend many nights and weekends sharpening your skills by building projects.
+但我不會粉飾太平：學習編程是困難的。 你將花費許多夜晚和週末通過構建項目來磨練你的技能。
 
-The good news is that the freeCodeCamp community is with you all the way. You can get help anytime you get stuck. Just use the freeCodeCamp forum or the freeCodeCamp Discord. Or you can use the search bar and search through thousands of reference articles created by the community.
+好消息是，freeCodeCamp 社區將一路陪伴你。 當你遇到困難時，隨時可以獲得幫助。 只需使用 freeCodeCamp 論壇或 freeCodeCamp Discord。 或者你可以使用搜索欄，搜索社區創建的數千篇參考文章。
 
-In the next lecture, I'll explain how the freeCodeCamp curriculum and how the certifications work.
+下一講，我將解釋 freeCodeCamp 課程的構成以及認證是如何運作的。
 
 # --questions--
 
 ## --text--
 
-What is the mission of freeCodeCamp.org?
+freeCodeCamp.org 的使命是什麼？
 
 ## --answers--
 
-To create paid premium courses for computer science students.
+創建面向計算機科學學生的付費高級課程。
 
 ### --feedback--
 
-Refer back to the beginning of the lecture for the organization's mission.
+請參閱講座的開頭，瞭解該組織的使命。
 
 ---
 
-To help university graduates get their first developer jobs.
+幫助大學畢業生獲得他們的第一份開發工作。
 
 ### --feedback--
 
-Refer back to the beginning of the lecture for the organization's mission.
+請參閱講座的開頭，瞭解該組織的使命。
 
 ---
 
-To create free learning resources to help people learn math, programming, and computer science.
+創建免費學習資源，幫助人們學習數學、編程和計算機科學。
 
 ---
 
-To provide certification programs for experienced developers.
+爲經驗豐富的開發人員提供認證項目。
 
 ### --feedback--
 
-Refer back to the beginning of the lecture for the organization's mission.
+請參閱講座的開頭，瞭解該組織的使命。
 
 ## --video-solution--
 
@@ -65,35 +65,35 @@ Refer back to the beginning of the lecture for the organization's mission.
 
 ## --text--
 
-According to the lecture, what should you expect when learning to code?
+根據講座內容，學習編程時你應該期待什麼？
 
 ## --answers--
 
-It will be easy and you'll master it quickly.
+這將很容易，你會很快掌握它。
 
 ### --feedback--
 
-The lecture emphasizes hands-on practice and building projects.
+講座強調動手實踐和構建項目。
 
 ---
 
-It will be hard and require many nights and weekends of practice.
+這將很困難，需要許多夜晚和週末的練習。
 
 ---
 
-You need a university degree to be successful.
+你需要一個大學學位才能成功。
 
 ### --feedback--
 
-The lecture emphasizes hands-on practice and building projects.
+講座強調動手實踐和構建項目。
 
 ---
 
-You can learn it all from lectures without building projects.
+你可以通過講座學習一切，而無需構建項目。
 
 ### --feedback--
 
-The lecture emphasizes hands-on practice and building projects.
+講座強調動手實踐和構建項目。
 
 ## --video-solution--
 
@@ -101,35 +101,35 @@ The lecture emphasizes hands-on practice and building projects.
 
 ## --text--
 
-Where can you get help when you get stuck while learning on freeCodeCamp?
+當你在 freeCodeCamp 學習時遇到困難，你可以在哪裏獲得幫助？
 
 ## --answers--
 
-Only through the freeCodeCamp forum.
+只能通過 freeCodeCamp 論壇。
 
 ### --feedback--
 
-There are multiple ways to get help according to the lecture.
+根據講座內容，有多種方式可以獲得幫助。
 
 ---
 
-Only through the freeCodeCamp Discord.
+只能通過 freeCodeCamp Discord。
 
 ### --feedback--
 
-There are multiple ways to get help according to the lecture.
+根據講座內容，有多種方式可以獲得幫助。
 
 ---
 
-The freeCodeCamp forum, Discord, or by searching through reference articles.
+通過 freeCodeCamp 論壇、Discord 或搜索參考文章。
 
 ---
 
-You have to figure it out on your own.
+你必須自己想辦法解決。
 
 ### --feedback--
 
-There are multiple ways to get help according to the lecture.
+根據講座內容，有多種方式可以獲得幫助。
 
 ## --video-solution--
 

@@ -11,7 +11,7 @@ Watch the video below to understand the context of the upcoming lessons.
 
 # --assignment--
 
-Watch the video
+观看视频
 
 # --scene--
 
