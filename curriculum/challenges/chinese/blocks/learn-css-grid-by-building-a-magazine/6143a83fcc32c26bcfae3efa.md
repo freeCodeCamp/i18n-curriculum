@@ -1,6 +1,6 @@
 ---
 id: 6143a83fcc32c26bcfae3efa
-title: Step 18
+title: 步骤 18
 challengeType: 0
 dashedName: step-18
 ---

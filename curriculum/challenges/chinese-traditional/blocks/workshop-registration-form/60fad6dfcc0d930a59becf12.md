@@ -1,6 +1,6 @@
 ---
 id: 60fad6dfcc0d930a59becf12
-title: Step 39
+title: 步驟 39
 challengeType: 0
 dashedName: step-39
 ---

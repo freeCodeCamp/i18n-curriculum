@@ -1,15 +1,15 @@
 ---
 id: 647e1f4e8acb466c97ccbedf
-title: 'Add Looping Logic to Your Code Using the do-while and while Statements in C#'
+title: '使用 C# 中的 do-while 和 while 語句在代碼中添加循環邏輯'
 challengeType: 19
 dashedName: add-looping-logic-to-your-code-using-the-do-while-and-while-statements-in-c-sharp
 ---
 
 # --description--
 
-This challenge will be partially completed on the Microsoft Learn platform. 按照以下說明完成挑戰：
+這個挑戰將有一部分在 Microsoft Learn 平臺上完成。 按照以下說明完成挑戰：
 
-1. Go to <a href="https://learn.microsoft.com/training/modules/csharp-do-while/" target="_blank" rel="noreferrer">https://learn.microsoft.com/training/modules/csharp-do-while/</a> and complete all the tasks for the "Add Looping Logic to Your Code Using the do-while and while Statements in C#" module. This is **required** to earn the "Add Logic to C# Console Applications" trophy on Microsoft Learn, and qualify for the certification exam.
+1. 跳轉到 <a href="https://learn.microsoft.com/training/modules/csharp-do-while/" target="_blank" rel="noreferrer">https://learn.microsoft.com/training/modules/csharp-do-while/</a>，然後完成“使用 C# 中的 do-while 和 while 語句爲代碼添加循環邏輯”模塊的所有任務。 This is **required** to earn the "Add Logic to C# Console Applications" trophy on Microsoft Learn, and qualify for the certification exam.
 1. When you are finished, come back and correctly answer the question below.
 
 # --assignment--

@@ -27,7 +27,7 @@ You should create an `h2` element.
 assert.lengthOf(document.querySelectorAll('h2'),1);
 ```
 
-Your `h2` element should have a closing tag.
+你的 `h2` 元素应该有一个结束标签。
 
 ```js
 assert.match(code,/<\/h2>/g);

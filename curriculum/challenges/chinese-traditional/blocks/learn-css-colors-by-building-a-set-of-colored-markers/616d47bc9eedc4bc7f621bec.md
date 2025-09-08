@@ -11,13 +11,13 @@ Next, within the `div` element, add another `div` element and give it a class of
 
 # --hints--
 
-Your new `div` element should have an opening tag.
+你的新 `div` 元素應該有一個開始標籤。
 
 ```js
 assert([...code.matchAll(/<div.*?>/gi)][1]);
 ```
 
-Your new `div` element should have a closing tag.
+你的新 `div` 元素應該有一個結束標籤。
 
 ```js
 assert([...code.matchAll(/<\/div\s*>/gi)][1]);

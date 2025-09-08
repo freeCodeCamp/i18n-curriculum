@@ -1,7 +1,7 @@
 ---
 id: 671a98fbaabfba994e3d9a7c
 title: CSS 變量複習
-challengeType: 24
+challengeType: 31
 dashedName: review-css-variables
 ---
 

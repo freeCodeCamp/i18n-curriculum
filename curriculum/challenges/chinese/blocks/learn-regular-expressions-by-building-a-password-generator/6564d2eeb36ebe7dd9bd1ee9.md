@@ -1,6 +1,6 @@
 ---
 id: 6564d2eeb36ebe7dd9bd1ee9
-title: Step 40
+title: 步骤 40
 challengeType: 20
 dashedName: step-40
 ---

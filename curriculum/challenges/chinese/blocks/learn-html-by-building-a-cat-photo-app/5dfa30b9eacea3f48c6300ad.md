@@ -85,7 +85,7 @@ assert.equal(
 );
 ```
 
-Your `img` element should be nested within the anchor (`a`) element. The entire `img` element should be inside the opening and closing tags of the anchor (`a`) element.
+你的 `img` 元素应该被嵌套在锚元素（`a`）之中。 整个 `img` 元素应该位于锚元素（`a`）的开始和结束标签内。
 
 ```js
 assert(document.querySelector('img').parentNode.nodeName === 'A');
