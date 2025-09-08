@@ -1,15 +1,15 @@
 ---
 id: 5dfa30b9eacea3f48c6300ad
-title: Step 17
+title: 步驟 17
 challengeType: 0
 dashedName: step-17
 ---
 
 # --description--
 
-In previous steps, you used an anchor element to turn text into a link. Other types of content can also be turned into a link by wrapping it in anchor tags.
+在之前的步驟中，你使用錨元素將文本轉換爲鏈接。 其他類型的內容也可以通過將其包裹在錨標籤中來轉換爲鏈接。
 
-Here is an example of turning an image into a link:
+這是一個將圖像轉換爲鏈接的示例：
 
 ```html
 <a href="example-link">
@@ -17,11 +17,11 @@ Here is an example of turning an image into a link:
 </a>
 ```
 
-Turn the image into a link by surrounding it with necessary element tags. Use `https://freecatphotoapp.com` as the anchor's `href` attribute value.
+通過使用必要的元素標籤將圖像轉換爲鏈接。 使用 `https://freecatphotoapp.com` 作爲錨元素的 `href` 屬性的值。
 
 # --hints--
 
-You should have an `img` element with a `src` value of `https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg`. You may have accidentally deleted it.
+你應該有一個 `img` 元素，其 `src` 值爲 `https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg`。 你可能不小心刪除了它。
 
 ```js
 assert.equal(
@@ -30,37 +30,37 @@ assert.equal(
 );
 ```
 
-Your anchor (`a`) element should have an opening tag. Opening tags have this syntax: `<elementName>`.
+你的錨元素（`a`）應該有一個開始標籤。 開始標籤的語法爲：`<elementName>`。
 
 ```js
 assert.isAtLeast(document.querySelectorAll('a').length, 3);
 ```
 
-You are missing a closing (`a`) tag after the image.
+你在圖像之後缺少一個結束（`a`）標籤。
 
 ```js
 assert.lengthOf(document.querySelectorAll('a'), 3);
 ```
 
-Your anchor (`a`) element should have a closing tag. Closing tags have a `/` just after the `<` character.
+你的錨元素（`a`）應該有一個結束標籤。 結束標籤在 `<` 字符之後有一個 `/`。
 
 ```js
 assert.isAtLeast(code.match(/<\/a>/g)?.length, 3);
 ```
 
-You should only add one closing anchor (`a`) tag. Please remove any extras.
+你應該只添加一個結束錨（`a`）標籤。 請刪除任何多餘的。
 
 ```js
 assert.lengthOf(code.match(/<\/a>/g), 3);
 ```
 
-Your anchor (`a`) element does not have an `href` attribute. Check that there is a space after the opening tag's name and/or there are spaces before all attribute names.
+你的錨元素（`a`）缺少 `href` 屬性。 檢查開始標籤的名稱後面是否有空格和/或所有屬性名稱之前是否有空格。
 
 ```js
 assert.isTrue(document.querySelectorAll('a')[2]?.hasAttribute('href'));
 ```
 
-Your anchor (`a`) element should link to `https://freecatphotoapp.com`. You have either omitted the URL or have a typo.
+你的錨元素（`a`）應該鏈接到 `https://freecatphotoapp.com`。 你要麼遺漏了 URL，要麼拼寫有誤。
 
 ```js
 assert.equal(
@@ -69,7 +69,7 @@ assert.equal(
 );
 ```
 
-Your `img` element should be nested within the anchor (`a`) element. The entire `img` element should be inside the opening and closing tags of the anchor (`a`) element.
+你的 `img` 元素應該被嵌套在錨元素（`a`）之中。 整個 `img` 元素應該位於錨元素（`a`）的開始和結束標籤內。
 
 ```js
 assert.equal(document.querySelector('img')?.parentNode.nodeName, 'A');

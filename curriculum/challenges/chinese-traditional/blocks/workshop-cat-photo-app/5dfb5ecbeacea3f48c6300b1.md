@@ -1,15 +1,15 @@
 ---
 id: 5dfb5ecbeacea3f48c6300b1
-title: Step 23
+title: 步驟 23
 challengeType: 0
 dashedName: step-23
 ---
 
 # --description--
 
-The `li` element is used to create a list item in an ordered or unordered list.
+`li` 元素用於在有序或無序列表中創建列表項。
 
-Here is an example of list items in an unordered list:
+這是一個無序列表中列表項的示例：
 
 ```html
 <ul>
@@ -18,7 +18,7 @@ Here is an example of list items in an unordered list:
 </ul>
 ```
 
-Within the `ul` element nest three list items to display three things cats love:
+在 `ul` 元素中嵌套三個列表項來顯示貓喜歡的三樣東西：
 
 `catnip`
 
@@ -28,14 +28,14 @@ Within the `ul` element nest three list items to display three things cats love:
 
 # --hints--
 
-You should have three `li` elements. Each `li` element should have its own opening and closing tag.
+你應該有三個 `li` 元素。 每個 `li` 元素都應該有自己的開始和結束標籤。
 
 ```js
 assert.lengthOf(document.querySelectorAll('li'), 3);
 assert.lengthOf(code.match(/<\/li\>/g), 3);
 ```
 
-You should have three `li` elements with the text `catnip`, `laser pointers` and `lasagna` in any order. You have either omitted some text or have a typo.
+你應該有三個 `li` 元素，可按任意順序包含文本 `catnip`、`laser pointers` 和 `lasagna`。 你要麼遺漏了某些文本，要麼拼寫有誤。
 
 ```js
 assert.deepStrictEqual(
@@ -46,7 +46,7 @@ assert.deepStrictEqual(
 );
 ```
 
-The three `li` elements should be located between the `ul` element's opening and closing tags.
+三個 `li` 元素應位於 `ul` 元素的開始和結束標籤之間。
 
 ```js
 assert.lengthOf(

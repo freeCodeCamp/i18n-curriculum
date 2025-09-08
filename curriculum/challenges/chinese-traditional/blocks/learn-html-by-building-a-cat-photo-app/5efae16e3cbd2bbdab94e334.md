@@ -11,13 +11,13 @@ After the last `img` element, add a `figcaption` element with the text `Cats hat
 
 # --hints--
 
-Your `figcaption` element should have an opening tag. Opening tags have the following syntax: `<elementName>`.
+你的 `figcaption` 元素應該有一個開始標籤。 開始標籤的語法爲：`<elementName>`。
 
 ```js
 assert(document.querySelectorAll('figcaption').length === 2);
 ```
 
-Your `figcaption` element should have a closing tag. Closing tags have a `/` just after the `<` character.
+你的 `figcaption` 元素應該有一個結束標籤。 結束標籤在 `<` 字符之後有一個 `/`。
 
 ```js
 assert(code.match(/<\/figcaption\>/g).length === 2);
@@ -39,25 +39,25 @@ assert(
 );
 ```
 
-Your `figure` element should have an opening tag. Opening tags have the following syntax: `<elementName>`.
+你的 `figure` 元素應該有一個開始標籤。 開始標籤的語法爲：`<elementName>`。
 
 ```js
 assert(document.querySelectorAll('figure').length === 2);
 ```
 
-Your `figure` element should have a closing tag. Closing tags have a `/` just after the `<` character.
+你的 `figure` 元素應該有一個結束標籤。 結束標籤在 `<` 字符之後有一個 `/`。
 
 ```js
 assert(code.match(/<\/figure\>/g).length === 2);
 ```
 
-The `figcaption` element should be nested in the `figure` element.
+`figcaption` 元素應該嵌套在 `figure` 元素中。
 
 ```js
 assert(document.querySelectorAll('figure > figcaption').length === 2);
 ```
 
-The `figcaption` element nested in the `figure` element should be below the `img` element. You have the `img` element and the `figcaption` element in the wrong order.
+嵌套在 `figure` 元素中的 `figcaption` 元素應位於 `img` 元素下方。 You have the `img` element and the `figcaption` element in the wrong order.
 
 ```js
 assert(

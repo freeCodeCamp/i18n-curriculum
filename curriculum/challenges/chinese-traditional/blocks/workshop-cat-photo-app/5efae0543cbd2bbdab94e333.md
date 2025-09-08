@@ -1,44 +1,44 @@
 ---
 id: 5efae0543cbd2bbdab94e333
-title: Step 32
+title: 步驟 32
 challengeType: 0
 dashedName: step-32
 ---
 
 # --description--
 
-To improve the accessibility of the image you added, add an `alt` attribute with the text:
+爲了提高你剛剛添加的圖像的可訪問性，添加具有以下文本的 `alt` 屬性：
 
 `Two tabby kittens sleeping together on a couch.`
 
 # --hints--
 
-Your `figure` element should have an opening tag. Opening tags have this syntax: `<elementName>`.
+你的 `figure` 元素應該有一個開始標籤。 開始標籤的語法爲：`<elementName>`。
 
 ```js
 assert.lengthOf(document.querySelectorAll('figure'), 2);
 ```
 
-Your `figure` element should have a closing tag. Closing tags have a `/` just after the `<` character.
+你的 `figure` 元素應該有一個結束標籤。 結束標籤在 `<` 字符之後有一個 `/`。
 
 ```js
 assert.lengthOf(code.match(/<\/figure>/g), 2);
 ```
 
-There should be a `figure` element right above the last `section` element's closing tag.
+最後一個 `section` 元素的結束標籤的上方應該有一個 `figure` 元素。
 
 ```js
 assert.equal(document.querySelectorAll('main > section')[1]?.lastElementChild.nodeName, 'FIGURE');
 ```
 
-The Cats `img` element should be nested in the `figure` element.
+貓 `img` 元素應該嵌套在 `figure` 元素中。
 
 ```js
 const catsImg = document.querySelectorAll('figure > img')[1];
 assert.exists(catsImg);
 ```
 
-The third image should have a `src` attribute set to `https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg`.
+第三張圖像應該有一個設置爲 `https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg` 的 `src` 屬性。
 
 ```js
 const catsImg = document.querySelectorAll('figure > img')[1];
@@ -47,7 +47,7 @@ assert.strictEqual(
 );
 ```
 
-The Cats `img` element should have an `alt` attribute with the value `Two tabby kittens sleeping together on a couch.`
+貓 `img` 元素應該有一個 `alt` 屬性，值爲 `Five cats looking around a field.`
 
 ```js
 const catsImg = document.querySelectorAll('figure > img')[1];

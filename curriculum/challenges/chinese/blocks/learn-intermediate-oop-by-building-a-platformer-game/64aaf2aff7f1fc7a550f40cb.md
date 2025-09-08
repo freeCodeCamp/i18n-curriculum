@@ -1,6 +1,6 @@
 ---
 id: 64aaf2aff7f1fc7a550f40cb
-title: Step 36
+title: 步骤 36
 challengeType: 0
 dashedName: step-36
 ---

@@ -1,28 +1,28 @@
 ---
 id: 5dfa371beacea3f48c6300af
-title: Step 21
+title: 步骤 21
 challengeType: 0
 dashedName: step-21
 ---
 
 # --description--
 
-When you add a lower-rank heading element to the page, it's implied that you're starting a new subsection.
+当你向页面添加较低级别标题元素时，这意味着你正在开始一个新的子部分。
 
-After the last `h2` element of the second `section` element, add an `h3` element with this text:
+在第二个 `section` 元素的最后一个 `h2` 元素之后，添加一个 `h3` 元素，文本为：
 
 `Things cats love:`
 
 # --hints--
 
-The second `section` element appears to be missing or does not have both an opening and closing tag.
+第二个 `section` 元素缺失或没有开始和结束标签。
 
 ```js
 assert.exists(document.querySelectorAll('main > section')[1]);
 assert.lengthOf(code.match(/\<\/section>/g), 2);
 ```
 
-There should be an `h3` element right above the second `section` element's closing tag.
+在第二个 `section` 元素的结束标签上方应该有一个 `h3` 元素。
 
 ```js
 assert.equal(
@@ -31,13 +31,13 @@ assert.equal(
 );
 ```
 
-Your `h3` element should have a closing tag. Closing tags have a `/` just after the `<` character.
+你的 `h3` 元素应该有一个结束标签。 结束标签在 `<` 字符之后有一个 `/`。
 
 ```js
 assert.lengthOf(code.match(/<\/h3>/g), 1);
 ```
 
-The `h3` element right above the second `section` element's closing tag should have the text `Things cats love:`. Make sure to include the colon at the end of the text.
+第二个 `section` 元素的结束标签上方的 `h3` 元素应该包含文本 `Things cats love:`。 确保在文本末尾包含冒号。
 
 ```js
 assert.equal(
@@ -48,7 +48,7 @@ assert.equal(
 );
 ```
 
-There should be an `h2` element with the text `Cat Lists` above the last `h3` element that is nested in the last `section` element'. You may have accidentally deleted the `h2` element.
+嵌套在最后一个 `section` 元素中的最后一个 `h3` 元素之上，应该有一个 `h2` 元素，其文本为 `Cat Lists`。 你可能不小心删除了 `h2` 元素。
 
 ```js
 const secondSectionLastElemNode = document.querySelectorAll('main > section')[1]
