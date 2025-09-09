@@ -1,19 +1,19 @@
 ---
 id: 686daa7ed79ceacd0b264e7f
-title: 步驟4
+title: 步驟 4
 challengeType: 0
 dashedName: step-4
 ---
 
 # --description--
 
-Before you begin coloring the image in, you should nest one `path` element inside your `svg` element to give the image shape.
+在開始爲圖像上色之前，你應該在 `svg` 元素內部嵌套一個 `path` 元素，以賦予圖像形狀。
 
-Create a `path` element.
+創建一個 `path` 元素。
 
 # --hints--
 
-You should have a `path` element nested inside of your `svg` element.
+你應該在 `svg` 元素內部嵌套一個 `path` 元素。
 
 ```js
 const path = document.querySelector('svg path');

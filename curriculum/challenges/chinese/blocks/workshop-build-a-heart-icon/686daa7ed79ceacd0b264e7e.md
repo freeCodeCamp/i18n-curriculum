@@ -7,15 +7,15 @@ dashedName: step-3
 
 # --description--
 
-You are getting closer. The next thing to do is to set the `viewBox` attribute of the `svg` element. This will control how much of the image is visible. The first two numbers set the center of the image.
+你越来越接近了。 下一步是设置 `svg` 元素的 `viewBox` 属性。 这将控制图像的可见范围。 前两个数字设定图像的中心位置。
 
-The following two numbers set the size of the image we can see: width followed by height.
+后两个数字决定了我们所能看到的图像尺寸：宽度后跟高度。
 
-Since here the entirety of the icon should be visible, you should set the `viewBox` attribute to `0 0 24 24`.
+由于此处图标应完整可见，你应将 `viewBox` 属性设置为 `0 0 24 24`。
 
 # --hints--
 
-You should have a `viewBox` attribute.
+你应该有一个 `viewBox` 属性。
 
 ```js
 const svg = document.querySelector('svg');
@@ -23,7 +23,7 @@ const viewBox = svg.getAttribute('viewBox');
 assert.exists(viewBox);
 ```
 
-You should set the `viewBox` x position to 0.
+你应将 `viewBox` 的 x 坐标设置为 0。
 
 ```js
 const svg = document.querySelector('svg');
@@ -32,7 +32,7 @@ const x = viewBox?.trim().split(' ')[0];
 assert.strictEqual(x, '0');
 ```
 
-You should set the `viewBox` y position to 0.
+你应将 `viewBox` 的 y 坐标设置为 0。
 
 ```js
 const svg = document.querySelector('svg');
@@ -41,7 +41,7 @@ const y = viewBox?.trim().split(' ')[1];
 assert.strictEqual(y, '0');
 ```
 
-You should set the `viewBox` width to 24.
+你应将 `viewBox` 的宽度设置为 24。
 
 ```js
 const svg = document.querySelector('svg');
@@ -50,7 +50,7 @@ const width = viewBox?.trim().split(' ')[2];
 assert.strictEqual(width, '24');
 ```
 
-You should set the `viewBox` height to 24.
+你应将 `viewBox` 的高度设置为 24。
 
 ```js
 const svg = document.querySelector('svg');
