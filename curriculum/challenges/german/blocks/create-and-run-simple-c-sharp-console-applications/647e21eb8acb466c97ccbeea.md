@@ -34,6 +34,6 @@ An der `foreach`-Schleife sind keine Änderungen erforderlich.
 
 Platziere die originale `foreach`-Schleife in den Code-Block einer zweiten `foreach`-Schleife, die zweimal iteriert wird.
 
-## --video-Lösung--
+## --video-solution--
 
 2

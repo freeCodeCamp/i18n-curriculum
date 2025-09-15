@@ -120,7 +120,6 @@ assert.isTrue(cssCheck.length > 0 || htmlSourceAttr.length > 0);
 L'elemento `#navbar` dovrebbe sempre essere in cima al viewport.
 
 ```js
-(async () => {
   const timeout = milliseconds =>
     new Promise(resolve => setTimeout(resolve, milliseconds));
 
@@ -144,7 +143,6 @@ L'elemento `#navbar` dovrebbe sempre essere in cima al viewport.
     'Navbar should be at the top of the viewport even after ' + 'scrolling '
   );
   window.scroll(0, 0);
-})();
 ```
 
 # --seed--

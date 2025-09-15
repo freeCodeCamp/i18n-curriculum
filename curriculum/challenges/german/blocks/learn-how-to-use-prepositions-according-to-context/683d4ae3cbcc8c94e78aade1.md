@@ -45,7 +45,7 @@ There is no mention of cleaning in Bob's sentence.
 
 That something is located near the emergency exit.
 
-## --video-Lösung--
+## --video-solution--
 
 4
 

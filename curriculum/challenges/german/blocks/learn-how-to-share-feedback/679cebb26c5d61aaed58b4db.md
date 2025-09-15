@@ -45,7 +45,7 @@ He received an email about the issue.
 
 James states that he didn't hear anything.
 
-## --video-Lösung--
+## --video-solution--
 
 2
 

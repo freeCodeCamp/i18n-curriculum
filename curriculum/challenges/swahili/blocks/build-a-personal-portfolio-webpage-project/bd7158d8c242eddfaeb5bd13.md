@@ -120,7 +120,6 @@ assert.isTrue(cssCheck.length > 0 || htmlSourceAttr.length > 0);
 Kipengele chako cha `#navbar` kinapaswa kuwa juu ya viewport kila wakati.
 
 ```js
-(async () => {
   const timeout = milliseconds =>
     new Promise(resolve => setTimeout(resolve, milliseconds));
 
@@ -144,7 +143,6 @@ Kipengele chako cha `#navbar` kinapaswa kuwa juu ya viewport kila wakati.
     'Navbar should be at the top of the viewport even after ' + 'scrolling '
   );
   window.scroll(0, 0);
-})();
 ```
 
 # --seed--

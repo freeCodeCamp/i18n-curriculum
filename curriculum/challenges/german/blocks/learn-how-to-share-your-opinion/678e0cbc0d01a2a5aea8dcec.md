@@ -45,7 +45,7 @@ Jake describes Visual Studio Code positively, with no mention of it being diffic
 
 Because it's lightweight and has excellent security features.
 
-## --video-Lösung--
+## --video-solution--
 
 4
 

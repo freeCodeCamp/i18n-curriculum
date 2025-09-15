@@ -45,7 +45,7 @@ These are manual tools, not collaboration tools.
 
 These can be considered collaboration tools in a virtual environment, but Alice does not mention them.
 
-## --video-Lösung--
+## --video-solution--
 
 1
 

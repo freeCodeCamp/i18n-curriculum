@@ -73,7 +73,6 @@ dashedName: american-british-translator
 Ви можете надіслати запит `POST` до `/api/translate` із тілом, що містить `text` з текстом для перекладу та `locale` з `american-to-british` або `british-to-american`. Повернений об’єкт міститиме наданий `text` та `translation` з перекладеним текстом.
 
 ```js
-async () => {
   try {
     const text = 'Mangoes are my favorite fruit.';
     const locale = 'american-to-british';
@@ -95,13 +94,11 @@ async () => {
   } catch (err) {
     throw new Error(err.responseText || err.message);
   }
-};
 ```
 
 Маршрут `/api/translate` повинен обробляти те, як написаний час американською та британською англійською. Наприклад, пів на десяту пишеться «10.30» британською та «10:30» американською. Елемент `span` повинен повністю обгорнути рядок часу, тобто `<span class="highlight">10:30</span>`.
 
 ```js
-async () => {
   try {
     const text = 'Lunch is at 12:15 today.';
     const locale = 'american-to-british';
@@ -122,13 +119,11 @@ async () => {
   } catch (err) {
     throw new Error(err.responseText || err.message);
   }
-};
 ```
 
 Маршрут `/api/translate` також повинен обробляти скорочення титулів та гоноративів американською та британською. Наприклад, Доктор Райт пишеться «Dr Wright» британською та «Dr. Wright» американською. Перегляньте `/components/american-to-british-titles.js` для різних титулів, які повинен обробляти ваш застосунок.
 
 ```js
-async () => {
   try {
     const text = 'Dr. Grosh will see you now.';
     const locale = 'american-to-british';
@@ -149,13 +144,11 @@ async () => {
   } catch (err) {
     throw new Error(err.responseText || err.message);
   }
-};
 ```
 
 Обгорніть будь-які перекладені правописи чи терміни тегами `<span class="highlight">...</span>`, щоб вони були зеленими.
 
 ```js
-async () => {
   try {
     const text = 'Mangoes are my favorite fruit.';
     const locale = 'american-to-british';
@@ -177,13 +170,11 @@ async () => {
   } catch (err) {
     throw new Error(err.responseText || err.message);
   }
-};
 ```
 
 Якщо одне чи більше необхідних полів відсутні, поверніть `{ error: 'Required field(s) missing' }`.
 
 ```js
-async () => {
   try {
     const locale = 'american-to-british';
     let data = await fetch(code + '/api/translate', {
@@ -198,13 +189,11 @@ async () => {
   } catch (err) {
     throw new Error(err.responseText || err.message);
   }
-};
 ```
 
 Якщо `text` порожній, поверніть `{ error: 'No text to translate' }`
 
 ```js
-async () => {
   try {
     const locale = 'american-to-british';
     let data = await fetch(code + '/api/translate', {
@@ -219,13 +208,11 @@ async () => {
   } catch (err) {
     throw new Error(err.responseText || err.message);
   }
-};
 ```
 
 Якщо `locale` не відповідає одній із вказаних локалей, поверніть `{ error: 'Invalid value for locale field' }`.
 
 ```js
-async () => {
   try {
     const text = "Ceci n'est pas une pipe";
     const locale = 'french-to-american';
@@ -241,13 +228,11 @@ async () => {
   } catch (err) {
     throw new Error(err.responseText || err.message);
   }
-};
 ```
 
 Якщо `text` не потрібен переклад, поверніть `"Everything looks good to me!"` для значення `translation`.
 
 ```js
-async () => {
   try {
     const locale = 'british-to-american';
     const output = {
@@ -268,13 +253,11 @@ async () => {
   } catch (err) {
     throw new Error(err.responseText || err.message);
   }
-};
 ```
 
 Усі 24 модульних тестів завершено та успішно пройдено.
 
 ```js
-async () => {
   try {
     const getTests = await $.get(code + '/_api/get-tests');
     assert.isArray(getTests);
@@ -293,13 +276,11 @@ async () => {
   } catch (err) {
     throw new Error(err.responseText || err.message);
   }
-};
 ```
 
 Усі 6 функціональних тестів завершено та успішно пройдено.
 
 ```js
-async () => {
   try {
     const getTests = await $.get(code + '/_api/get-tests');
     assert.isArray(getTests);
@@ -318,5 +299,4 @@ async () => {
   } catch (err) {
     throw new Error(err.responseText || err.message);
   }
-};
 ```

@@ -31,7 +31,7 @@ How could Alice answer briefly that there is no decision concerning the deadline
 
 This doesn't relate to the question about setting the deadline.
 
-## --video-Lösung--
+## --video-solution--
 
 1
 

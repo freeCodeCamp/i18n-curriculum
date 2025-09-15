@@ -70,7 +70,7 @@ Named colors are the most precise way to define colors in web design.
 
 Think about the simplicity and readability aspect of named colors.
 
-## --video-Lösung--
+## --video-solution--
 
 2
 

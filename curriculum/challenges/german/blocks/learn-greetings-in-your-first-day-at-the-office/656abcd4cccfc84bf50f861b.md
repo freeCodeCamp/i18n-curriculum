@@ -43,6 +43,6 @@ Look for a sentence that uses `these` for multiple items nearby and `those` for 
 
 Look for a sentence that uses `these` for multiple items nearby and `those` for multiple items at a distance or not being directly addressed.
 
-## --video-Lösung--
+## --video-solution--
 
 3

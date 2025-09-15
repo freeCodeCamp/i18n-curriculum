@@ -1,6 +1,6 @@
 ---
 id: 63e94dae6dcedbad73f2f6ee
-title: Step 24
+title: 步驟 24
 challengeType: 0
 dashedName: step-24
 ---

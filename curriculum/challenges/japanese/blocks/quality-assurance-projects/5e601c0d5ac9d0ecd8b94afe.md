@@ -73,7 +73,6 @@ dashedName: american-british-translator
 `text` に変換するテキスト、`locale` に `american-to-british` または `british-to-american` のいずれかを含むボディを使用して、`/api/translate` へ `POST` できます。 返されるオブジェクトには、送信した `text` と、変換後のテキストを含む `translation` が含まれている必要があります。
 
 ```js
-async () => {
   try {
     const text = 'Mangoes are my favorite fruit.';
     const locale = 'american-to-british';
@@ -95,13 +94,11 @@ async () => {
   } catch (err) {
     throw new Error(err.responseText || err.message);
   }
-};
 ```
 
 `/api/translate` ルートでは、アメリカ英語とイギリス英語の時間の記述方法を扱えるようにしてください。 たとえば、10 時 30 分は、イギリス英語では「10.30」、アメリカ英語では「10:30」と記述します。 `span` 要素に時間の文字列全体を含める必要があります。 たとえば、`<span class="highlight">10:30</span>` などとします。
 
 ```js
-async () => {
   try {
     const text = 'Lunch is at 12:15 today.';
     const locale = 'american-to-british';
@@ -122,13 +119,11 @@ async () => {
   } catch (err) {
     throw new Error(err.responseText || err.message);
   }
-};
 ```
 
 `/api/translate` ルートでは、アメリカ英語とイギリス英語の肩書や敬称の略記を扱えるようにしてください。 たとえば、Doctor Wright は、イギリス英語では「Dr Wright」、アメリカ英語では「Dr. Wright」と 略記します。 アプリが変換できるようにすべき肩書については、`/components/american-to-british-titles.js` を参照してください。
 
 ```js
-async () => {
   try {
     const text = 'Dr. Grosh will see you now.';
     const locale = 'american-to-british';
@@ -149,13 +144,11 @@ async () => {
   } catch (err) {
     throw new Error(err.responseText || err.message);
   }
-};
 ```
 
 変換されたスペルや用語が緑色で表示されるように、`<span class="highlight">...</span>` タグで囲んでください。
 
 ```js
-async () => {
   try {
     const text = 'Mangoes are my favorite fruit.';
     const locale = 'american-to-british';
@@ -177,13 +170,11 @@ async () => {
   } catch (err) {
     throw new Error(err.responseText || err.message);
   }
-};
 ```
 
 1 つ以上の必須フィールドが不足している場合は、`{ error: 'Required field(s) missing' }` を返します。
 
 ```js
-async () => {
   try {
     const locale = 'american-to-british';
     let data = await fetch(code + '/api/translate', {
@@ -198,13 +189,11 @@ async () => {
   } catch (err) {
     throw new Error(err.responseText || err.message);
   }
-};
 ```
 
 `text` が空の場合は、`{ error: 'No text to translate' }` を返します。
 
 ```js
-async () => {
   try {
     const locale = 'american-to-british';
     let data = await fetch(code + '/api/translate', {
@@ -219,13 +208,11 @@ async () => {
   } catch (err) {
     throw new Error(err.responseText || err.message);
   }
-};
 ```
 
 `locale` が指定のロケール 2 種類のいずれとも一致しない場合は、`{ error: 'Invalid value for locale field' }` を返します。
 
 ```js
-async () => {
   try {
     const text = "Ceci n'est pas une pipe";
     const locale = 'french-to-american';
@@ -241,13 +228,11 @@ async () => {
   } catch (err) {
     throw new Error(err.responseText || err.message);
   }
-};
 ```
 
 `text` が変換を必要としない場合は、`translation` の値として `"Everything looks good to me!"` を返します。
 
 ```js
-async () => {
   try {
     const locale = 'british-to-american';
     const output = {
@@ -268,13 +253,11 @@ async () => {
   } catch (err) {
     throw new Error(err.responseText || err.message);
   }
-};
 ```
 
 24 件のユニットテストがすべて記述され、成功する状態になっています。
 
 ```js
-async () => {
   try {
     const getTests = await $.get(code + '/_api/get-tests');
     assert.isArray(getTests);
@@ -293,13 +276,11 @@ async () => {
   } catch (err) {
     throw new Error(err.responseText || err.message);
   }
-};
 ```
 
 6 件の機能テストがすべて記述され、成功する状態になっています。
 
 ```js
-async () => {
   try {
     const getTests = await $.get(code + '/_api/get-tests');
     assert.isArray(getTests);
@@ -318,5 +299,4 @@ async () => {
   } catch (err) {
     throw new Error(err.responseText || err.message);
   }
-};
 ```

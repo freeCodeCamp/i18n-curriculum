@@ -73,7 +73,6 @@ Debes proporcionar tu propio proyecto, no la URL del ejemplo.
 Puedes `POST` a `/api/translate` con un cuerpo conteniendo `text` con el texto para traducir y `locale` con cualquiera `american-to-british` o `british-to-american`. El objeto devuelto debería contener el `text` y `translation` con el texto traducido.
 
 ```js
-async () => {
   try {
     const text = 'Mangoes are my favorite fruit.';
     const locale = 'american-to-british';
@@ -95,13 +94,11 @@ async () => {
   } catch (err) {
     throw new Error(err.responseText || err.message);
   }
-};
 ```
 
 La ruta `/api/translate` debería manejar la forma de escritura de hora en inglés Americano y Británico. Por ejemplo, diez y treinta es escrito como "10.30" en Inglés Británico y "10:30" en Inglés Americano. The `span` element should wrap the entire time string, i.e. `<span class="highlight">10:30</span>`.
 
 ```js
-async () => {
   try {
     const text = 'Lunch is at 12:15 today.';
     const locale = 'american-to-british';
@@ -122,13 +119,11 @@ async () => {
   } catch (err) {
     throw new Error(err.responseText || err.message);
   }
-};
 ```
 
 La ruta `/api/translate` debería manejar la manera en que los titulares/honoríficos son abreviados en Inglés Americano y Británico. Por ejemplo, Doctor Wright es abreviado como "Dr Wright" en Inglés Británico y "Dr. Wright" en Inglés Americano. Consulta `/components/american-to-british-titles.js` para los diferentes titulares que tu aplicación debería manejar.
 
 ```js
-async () => {
   try {
     const text = 'Dr. Grosh will see you now.';
     const locale = 'american-to-british';
@@ -149,13 +144,11 @@ async () => {
   } catch (err) {
     throw new Error(err.responseText || err.message);
   }
-};
 ```
 
 Wrap any translated spelling or terms with `<span class="highlight">...</span>` tags so they appear in green.
 
 ```js
-async () => {
   try {
     const text = 'Mangoes are my favorite fruit.';
     const locale = 'american-to-british';
@@ -177,13 +170,11 @@ async () => {
   } catch (err) {
     throw new Error(err.responseText || err.message);
   }
-};
 ```
 
 Si falta uno o más campos requeridos, devuelve `{ error: 'Required field(s) missing' }`.
 
 ```js
-async () => {
   try {
     const locale = 'american-to-british';
     let data = await fetch(code + '/api/translate', {
@@ -198,13 +189,11 @@ async () => {
   } catch (err) {
     throw new Error(err.responseText || err.message);
   }
-};
 ```
 
 Si `text` esta vació, devuelve `{ error: 'No text to translate' }`
 
 ```js
-async () => {
   try {
     const locale = 'american-to-british';
     let data = await fetch(code + '/api/translate', {
@@ -219,13 +208,11 @@ async () => {
   } catch (err) {
     throw new Error(err.responseText || err.message);
   }
-};
 ```
 
 Si `locale` no coincide con uno de los dos locales especificados, devuelve `{ error: 'Invalid value for locale field' }`.
 
 ```js
-async () => {
   try {
     const text = "Ceci n'est pas une pipe";
     const locale = 'french-to-american';
@@ -241,13 +228,11 @@ async () => {
   } catch (err) {
     throw new Error(err.responseText || err.message);
   }
-};
 ```
 
 Si `text` no requiere traduciión, devuelve `"Everything looks good to me!"` para el valor `translation`.
 
 ```js
-async () => {
   try {
     const locale = 'british-to-american';
     const output = {
@@ -268,13 +253,11 @@ async () => {
   } catch (err) {
     throw new Error(err.responseText || err.message);
   }
-};
 ```
 
 Todas las 24 pruebas unitarias están completas y pasan.
 
 ```js
-async () => {
   try {
     const getTests = await $.get(code + '/_api/get-tests');
     assert.isArray(getTests);
@@ -293,13 +276,11 @@ async () => {
   } catch (err) {
     throw new Error(err.responseText || err.message);
   }
-};
 ```
 
 Todas las 6 pruebas funcionales están completas y pasan.
 
 ```js
-async () => {
   try {
     const getTests = await $.get(code + '/_api/get-tests');
     assert.isArray(getTests);
@@ -318,5 +299,4 @@ async () => {
   } catch (err) {
     throw new Error(err.responseText || err.message);
   }
-};
 ```

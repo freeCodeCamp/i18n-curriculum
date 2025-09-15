@@ -45,7 +45,7 @@ How security updates work.
 
 Jake assumes Jessica knows about security updates.
 
-## --video-Lösung--
+## --video-solution--
 
 1
 

@@ -45,7 +45,7 @@ She thinks James' ideas are unnecessary and suggests stopping the project.
 
 Anna doesn't suggest stopping; she supports James' ideas and wants to stay updated.
 
-## --video-Lösung--
+## --video-solution--
 
 3
 

@@ -59,7 +59,7 @@ To impress their coworkers.
 
 The reason given in the article isn't appearances.
 
-## --video-Lösung--
+## --video-solution--
 
 2
 

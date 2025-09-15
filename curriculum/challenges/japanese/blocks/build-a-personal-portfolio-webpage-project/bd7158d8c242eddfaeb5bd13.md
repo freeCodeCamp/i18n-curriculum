@@ -120,7 +120,6 @@ assert.isTrue(cssCheck.length > 0 || htmlSourceAttr.length > 0);
 `#navbar` 要素は常にビューポートの上部にある必要があります。
 
 ```js
-(async () => {
   const timeout = milliseconds =>
     new Promise(resolve => setTimeout(resolve, milliseconds));
 
@@ -144,7 +143,6 @@ assert.isTrue(cssCheck.length > 0 || htmlSourceAttr.length > 0);
     'Navbar should be at the top of the viewport even after ' + 'scrolling '
   );
   window.scroll(0, 0);
-})();
 ```
 
 # --seed--
