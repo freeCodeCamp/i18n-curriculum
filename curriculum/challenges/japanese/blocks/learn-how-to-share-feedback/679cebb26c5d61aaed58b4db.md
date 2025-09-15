@@ -33,7 +33,7 @@ He doesn't know anything about it.
 
 He already talked to the client.
 
-### --フィードバック--
+### --feedback--
 
 James does not mention speaking to the client.
 

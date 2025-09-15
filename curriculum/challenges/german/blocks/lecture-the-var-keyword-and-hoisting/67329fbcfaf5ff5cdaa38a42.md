@@ -71,7 +71,7 @@ Module scope.
 
 Think about where a `var` variable declared outside a function can be accessed.
 
-## --video-Lösung--
+## --video-solution--
 
 3
 

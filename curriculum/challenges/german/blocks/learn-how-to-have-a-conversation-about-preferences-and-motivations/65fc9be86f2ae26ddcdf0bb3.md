@@ -46,7 +46,7 @@ Solving problems quickly
 
 Reflect on whether the speed of solving problems is what Maria highlights as motivating.
 
-## --video-Lösung--
+## --video-solution--
 
 3
 

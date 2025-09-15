@@ -7,7 +7,7 @@ dashedName: step-21
 
 # --description--
 
-When you add a lower rank heading element to the page, it's implied that you're starting a new subsection.
+当你向页面添加较低级别的标题元素时，这意味着你正在开始一个新的小节。
 
 在第二个 `section` 元素的最后一个 `h2` 元素之后，添加一个 `h3` 元素，文本为：
 

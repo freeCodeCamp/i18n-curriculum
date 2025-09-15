@@ -45,7 +45,7 @@ For helping him with a project.
 
 Tom's gratitude is related to the tips about organization, not specific project help.
 
-## --video-Lösung--
+## --video-solution--
 
 2
 

@@ -31,7 +31,7 @@ This word is a preposition commonly used in expressions indicating a minimum amo
 
 `least`
 
-### --フィードバック--
+### --feedback--
 
 This word often follows the previous word to form a phrase meaning "the minimum amount or degree".
 

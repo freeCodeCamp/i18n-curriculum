@@ -92,7 +92,7 @@ This will throw an error.
 
 The second parameter of `includes()` specifies the starting position for the search.
 
-## --video-Lösung--
+## --video-solution--
 
 2
 

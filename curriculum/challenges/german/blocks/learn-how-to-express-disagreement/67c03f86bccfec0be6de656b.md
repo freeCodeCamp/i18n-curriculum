@@ -45,7 +45,7 @@ She agrees with Bob and changes her mind.
 
 Anna does not fully agree with Bob.
 
-## --video-Lösung--
+## --video-solution--
 
 2
 

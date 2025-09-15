@@ -45,7 +45,7 @@ Because she doesn't think the bug is important.
 
 Jessica thinks the issue is important, but she also wants to respect the meeting agenda.
 
-## --video-Lösung--
+## --video-solution--
 
 1
 

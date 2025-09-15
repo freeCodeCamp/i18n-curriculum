@@ -130,7 +130,7 @@ They let you style the last element in a list.
 
 Think about how you can interact with users purely with CSS.
 
-## --video-Lösung--
+## --video-solution--
 
 3
 

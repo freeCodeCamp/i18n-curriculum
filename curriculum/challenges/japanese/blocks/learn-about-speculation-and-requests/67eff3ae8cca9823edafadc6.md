@@ -33,7 +33,7 @@ Jake is not asking if new updates exist.
 
 Who is responsible for security updates.
 
-### --フィードバック--
+### --feedback--
 
 Jake is not asking about a specific person.
 

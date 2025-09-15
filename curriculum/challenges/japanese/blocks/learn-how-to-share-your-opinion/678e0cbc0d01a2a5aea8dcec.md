@@ -29,7 +29,7 @@ Jake doesn't mention price or cost in his reason for preferring Visual Studio Co
 
 Because it's slow and not secure.
 
-### --フィードバック--
+### --feedback--
 
 Jake's reason for preferring Visual Studio Code is not related to speed or security issues.
 

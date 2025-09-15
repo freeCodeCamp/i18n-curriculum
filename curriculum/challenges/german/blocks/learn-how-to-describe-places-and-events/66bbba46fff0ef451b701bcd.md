@@ -47,7 +47,7 @@ Yes, but only for a moment because she has her own problems.
 
 Sarah doesn't limit the time; she simply states that she is not busy.
 
-## --video-Lösung--
+## --video-solution--
 
 2
 
