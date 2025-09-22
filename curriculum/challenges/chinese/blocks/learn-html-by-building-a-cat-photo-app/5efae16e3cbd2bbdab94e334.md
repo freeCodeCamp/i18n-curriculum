@@ -1,6 +1,6 @@
 ---
 id: 5efae16e3cbd2bbdab94e334
-title: Step 33
+title: 步骤 33
 challengeType: 0
 dashedName: step-33
 ---

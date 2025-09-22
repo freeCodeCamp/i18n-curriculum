@@ -7,7 +7,7 @@ dashedName: quiz-css-grid
 
 # --description--
 
-To pass the quiz, you must correctly answer at least 18 of the 20 questions below.
+要通過測驗，你必須正確回答以下 20 道題中的至少 18 題。
 
 # --quizzes--
 
