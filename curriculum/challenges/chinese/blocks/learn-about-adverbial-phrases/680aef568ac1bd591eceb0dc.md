@@ -27,7 +27,7 @@ This is a short form for something that means messages or content created to pro
 
 # --explanation--
 
-An `ad` (short for `advertisement`) is a piece of content designed to get people's attention and encourage them to buy something, use a service, or take action. Ads can appear on social media, websites, TV, radio, and more. For example:
+An `ad` (short for `advertisement`) is a piece of content designed to get people's attention and encourage them to buy something, use a service, or take action. Ads can appear on social media, websites, TV, radio, and more. 例如：
 
 - `They launched a new ad campaign for their latest product.` – This means the company created and shared promotional content to raise interest in a product.
 

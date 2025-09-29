@@ -27,7 +27,7 @@ This refers to a person who is present at an event or meeting.
 
 # --explanation--
 
-An `attendee` is someone who attends or is present at an event, such as a meeting, seminar, or conference. For example:
+An `attendee` is someone who attends or is present at an event, such as a meeting, seminar, or conference. 例如：
 
 `Each attendee received a welcome packet when they arrived.` – This means every person who came to the event got a packet.
 
