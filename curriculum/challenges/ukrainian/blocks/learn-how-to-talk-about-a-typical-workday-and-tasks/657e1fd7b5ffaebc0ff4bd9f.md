@@ -23,7 +23,7 @@ dashedName: task-26
 
 ### --feedback--
 
-Том дякує Софі за поради, а не за те, що порадила програму.
+Tom is thanking Sophie for tips, not for giving him an app.
 
 ---
 
@@ -35,7 +35,7 @@ dashedName: task-26
 
 ### --feedback--
 
-Він дякує за поради, а не запрошення на обід.
+He is thanking her for the advice, not for a lunch invitation.
 
 ---
 

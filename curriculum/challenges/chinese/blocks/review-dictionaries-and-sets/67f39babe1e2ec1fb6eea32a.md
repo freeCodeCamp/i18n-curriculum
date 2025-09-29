@@ -334,7 +334,7 @@ m.sqrt(36)
 from module_name import name1, name2
 ```
 
-Then, you can use these names without the module prefix in your Python script. For example:
+Then, you can use these names without the module prefix in your Python script. 例如：
 
 ```python
 from math import radians, sin, cos

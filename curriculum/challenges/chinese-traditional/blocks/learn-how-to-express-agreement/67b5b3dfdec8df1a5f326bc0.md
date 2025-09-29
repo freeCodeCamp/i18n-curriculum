@@ -35,11 +35,11 @@ This refers to the range of colors used in a design or artwork. In this case, a 
 
 # --explanation--
 
-`Subtle` refers to something that is delicate or not obvious. For example:
+`Subtle` refers to something that is delicate or not obvious. 例如：
 
 `The artist used subtle shades of blue in the painting.` - This means the artist used light or soft shades of blue that are not very strong or attention-grabbing.
 
-`Palette` refers to the range of colors or materials an artist or designer uses. For example:
+`Palette` refers to the range of colors or materials an artist or designer uses. 例如：
 
 `The designer chose a warm palette for the website, using reds, oranges, and yellows.` - This means the designer selected a set of warm colors, such as red, orange, and yellow, for the website's design.
 

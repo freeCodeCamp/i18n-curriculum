@@ -23,7 +23,7 @@ Por darle una app de gestión del tiempo.
 
 ### --feedback--
 
-Tom está agradeciendo a Sophie por los consejos, no por darle una app.
+Tom is thanking Sophie for tips, not for giving him an app.
 
 ---
 
@@ -35,7 +35,7 @@ Por invitarlo a almorzar.
 
 ### --feedback--
 
-El agradecimiento es por el consejo, no por una invitación a almorzar.
+He is thanking her for the advice, not for a lunch invitation.
 
 ---
 
