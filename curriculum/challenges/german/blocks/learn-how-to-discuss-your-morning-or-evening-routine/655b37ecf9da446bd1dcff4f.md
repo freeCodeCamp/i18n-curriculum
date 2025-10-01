@@ -5,18 +5,17 @@ challengeType: 22
 dashedName: task-96
 ---
 
-<!-- (Audio)
-Sophie: On Sunday, I have a lazy morning. I just stay at home and play some video games on my console. In the evening, I make dinner and go to sleep early, because, on Monday, it is back to work again. -->
+<!-- (Audio) Sophie: On Sunday, I have a lazy morning. I just stay at home and play some video games on my console. In the evening, I make dinner and go to sleep early because on Monday it's back to work again. -->
 
 # --description--
 
-Konzentriere dich in dieser Herausforderung auf die Indentifizierung der Adjektive, die Sophie verwendet um ihre Sonntagsroutine zu beschreiben.
+Listen to the audio and complete the sentence below.
 
 # --fillInTheBlank--
 
 ## --sentence--
 
-`On Sunday, I have a BLANK morning. I just stay at home and play some video games on my console. In the evening, I make dinner and go to sleep BLANK, because, on Monday, it is back to work again`
+`On Sunday, I have a BLANK morning. I just stay at home and play some video games on my console. In the evening, I make dinner and go to sleep BLANK because on Monday it's back to work again.`
 
 ## --blanks--
 
@@ -24,7 +23,7 @@ Konzentriere dich in dieser Herausforderung auf die Indentifizierung der Adjekti
 
 ### --feedback--
 
-Beschreibt die entspannte Natur von Sophies Sonntagmorgen.
+This adjective describes the relaxed nature of Sophie's Sunday morning.
 
 ---
 
@@ -32,7 +31,7 @@ Beschreibt die entspannte Natur von Sophies Sonntagmorgen.
 
 ### --feedback--
 
-Gibt die Zeit an, zu der Sophie am Sonntagabend schlafen gehen möchte.
+This word indicates the time Sophie chooses to go to sleep on Sunday evening.
 
 # --scene--
 
@@ -74,7 +73,7 @@ Gibt die Zeit an, zu der Sophie am Sonntagabend schlafen gehen möchte.
       "startTime": 6.14,
       "finishTime": 10.66,
       "dialogue": {
-        "text": "In the evening, I make dinner and go to sleep early because on Monday, it's back to work again.",
+        "text": "In the evening, I make dinner and go to sleep early because on Monday it's back to work again.",
         "align": "center"
       }
     },
