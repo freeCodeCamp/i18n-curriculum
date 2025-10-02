@@ -1,25 +1,25 @@
 ---
 id: 60ffe7d8aae62c05bcc9e7eb
-title: Step 54
+title: Passo 54
 challengeType: 0
 dashedName: step-54
 ---
 
 # --description--
 
-With a `display` of `block` the submit button sits flush against the left edge of its parent.
+Com um `display` de `block` o botão de enviar fica na borda esquerda do elemento pai.
 
-Use the same technique used to center the `form` to center the submit button.
+Use a mesma técnica usada para centralizar o `form` para centralizar o botão de enviar.
 
 # --hints--
 
-You should give the submit button a `margin` of `0 auto`.
+Você deve dar ao botão de enviar uma `margin` de `0 auto`.
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('input[type="submit"]')?.margin, '0px auto');
 ```
 
-You should not give the submit button a `min-width` or `max-width`.
+Você não deve dar ao botão enviar uma `min-width` ou uma `max-width`.
 
 ```js
 assert.isEmpty(new __helpers.CSSHelp(document).getStyle('input[type="submit"]')?.minWidth);
@@ -69,8 +69,10 @@ assert.isEmpty(new __helpers.CSSHelp(document).getStyle('input[type="submit"]')?
           <textarea id="bio" name="bio" rows="3" cols="30" placeholder="I like coding on the beach..."></textarea>
         </label>
       </fieldset>
+      <a href="https://www.freecodecamp.org/news/terms-of-service">Read our terms and conditions</a>
       <label for="terms-and-conditions">
-        <input id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" /> I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a>
+        <input name="terms" id="terms-and-conditions" type="checkbox" required />
+        I accept the terms and conditions
       </label>
       <input type="submit" value="Submit" />
     </form>

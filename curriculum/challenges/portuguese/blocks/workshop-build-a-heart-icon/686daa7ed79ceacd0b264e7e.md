@@ -1,21 +1,21 @@
 ---
 id: 686daa7ed79ceacd0b264e7e
-title: Step 3
+title: Passo 3
 challengeType: 0
 dashedName: step-3
 ---
 
 # --description--
 
-You are getting closer. The next thing to do is to set the `viewBox` attribute of the `svg` element. This will control how much of the image is visible. The first two numbers set the center of the image.
+Você está chegando mais perto.A próxima coisa a fazer é definir o atributo `viewBox` do elemento `svg`.Isto controlará quanto da imagem está visível.Os dois primeiros números definem o centro da imagem.
 
-The following two numbers set the size of the image we can see: width followed by height.
+Os dois números a seguir definem o tamanho da imagem que podemos ver: largura seguida de altura.
 
-Since here the entirety of the icon should be visible, you should set the `viewBox` attribute to `0 0 24 24`.
+Como aqui a totalidade do ícone deve estar visível, você deve definir o atributo `viewBox` para `0 0 24 24`.
 
 # --hints--
 
-You should have a `viewBox` attribute.
+Você deve ter um atributo `viewBox`.
 
 ```js
 const svg = document.querySelector('svg');
@@ -23,7 +23,7 @@ const viewBox = svg.getAttribute('viewBox');
 assert.exists(viewBox);
 ```
 
-You should set the `viewBox` x position to 0.
+Você deve definir a posição x do `viewBox` para 0.
 
 ```js
 const svg = document.querySelector('svg');
@@ -32,7 +32,7 @@ const x = viewBox?.trim().split(' ')[0];
 assert.strictEqual(x, '0');
 ```
 
-You should set the `viewBox` y position to 0.
+Você deve definir a posição y do `viewBox` para 0.
 
 ```js
 const svg = document.querySelector('svg');
@@ -41,7 +41,7 @@ const y = viewBox?.trim().split(' ')[1];
 assert.strictEqual(y, '0');
 ```
 
-You should set the `viewBox` width to 24.
+Você deve definir a largura do `viewBox` para 24.
 
 ```js
 const svg = document.querySelector('svg');
@@ -50,7 +50,7 @@ const width = viewBox?.trim().split(' ')[2];
 assert.strictEqual(width, '24');
 ```
 
-You should set the `viewBox` height to 24.
+Você deve definir a altura do `viewBox` para 24.
 
 ```js
 const svg = document.querySelector('svg');

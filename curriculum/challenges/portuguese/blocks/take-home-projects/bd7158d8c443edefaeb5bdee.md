@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c443edefaeb5bdee
-title: Build an Image Search Abstraction Layer
+title: Criar uma camada de abstração de pesquisa de imagens
 challengeType: 4
 forumTopicId: 302361
 dashedName: build-an-image-search-abstraction-layer
@@ -8,17 +8,17 @@ dashedName: build-an-image-search-abstraction-layer
 
 # --description--
 
-Build a full stack JavaScript app that allows you to search for images like this: <a href="https://image-search-abstraction-layer.freecodecamp.rocks/query/lolcats%20funny?page=10" target="_blank" rel="noopener noreferrer nofollow">https://image-search-abstraction-layer.freecodecamp.rocks/query/lolcats%20funny?page=10</a> and browse recent search queries like this: <a href="https://image-search-abstraction-layer.freecodecamp.rocks/recent/" target="_blank" rel="noopener noreferrer nofollow">https://image-search-abstraction-layer.freecodecamp.rocks/recent/</a>. Use a site builder of your choice to complete the project.
+Construa um aplicativo JavaScript full stack que permita pesquisar imagens assim: <a href="https://image-search-abstraction-layer.freecodecamp.rocks/query/lolcats%20funny?page=10" target="_blank" rel="noopener noreferrer nofollow">https://image-search-abstraction-layer.freecodecamp.rocks/query/lolcats%20funny?page=10</a> e navegar por consultas de pesquisa recentes assim: <a href="https://image-search-abstraction-layer.freecodecamp.rocks/recent/" target="_blank" rel="noopener noreferrer nofollow">https://image-search-abstraction-layer.freecodecamp.rocks/recent/</a>.Use um criador de sites de sua escolha para completar o projeto.
 
-Here are the specific user stories you should implement for this project:
+Aqui estão as histórias de usuário que você deve implementar para este projeto:
 
-**User Story:** You can get the image URLs, description and page URLs for a set of images relating to a given search string.
+**História do Usuário:** Você pode obter as URLs das imagens, descrição e URLs das páginas para um conjunto de imagens relacionadas a uma determinada string de busca.
 
-**User Story:** You can paginate through the responses by adding a `?page=2` parameter to the URL.
+**História do Usuário:** Você pode paginar pelas respostas adicionando um parâmetro `?page=2` à URL.
 
-**User Story:** You can get a list of the most recently submitted search strings.
+**História do Usuário:** Você pode obter uma lista das strings de busca enviadas mais recentemente.
 
-When you are done, make sure a working demo of your project is hosted somewhere public. Then submit the URL to it in the Solution Link field. Optionally, also submit a link to your project's source code in the GitHub Link field.
+Quando terminar, certifique-se de que uma demonstração funcional do seu projeto está hospedada em algum lugar público.Em seguida, envie o URL para a solução no campo Solution Link.Como opção, envie também um link para o código-fonte do projeto no campo GitHub Link.
 
 # --solutions--
 

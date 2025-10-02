@@ -8,23 +8,23 @@ dashedName: american-british-translator
 
 # --description--
 
-Build a full stack JavaScript app that is functionally similar to this: <a href="https://american-british-translator.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://american-british-translator.freecodecamp.rocks/</a>. Trabalhar nesse projeto vai fazer com que você escreva o código usando um dos seguintes métodos:
+Construa um aplicativo JavaScript full stack que seja funcionalmente semelhante a este: <a href="https://american-british-translator.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://american-british-translator.freecodecamp.rocks/</a>. Trabalhar neste projeto envolverá você escrever seu código usando um dos seguintes métodos:
 
--   Clone <a href="https://github.com/freeCodeCamp/boilerplate-project-american-british-english-translator/" target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete your project locally.
--   Use a site builder of your choice to complete the project. Be sure to incorporate all the files from our GitHub repo.
+-   Clone <a href="https://github.com/freeCodeCamp/boilerplate-project-american-british-english-translator/" target="_blank" rel="noopener noreferrer nofollow">este repositório do GitHub</a> e complete seu projeto localmente.
+-   Use um construtor de sites de sua escolha para completar o projeto. Certifique-se de incorporar todos os arquivos do nosso repositório no GitHub.
 
 # --instructions--
 
--   All logic can go into `/components/translator.js`
+-   Toda lógica pode ir em `/components/translator.js`
 -   Complete a rota `/api/translate` em `/routes/api.js`
 -   Crie todos os testes unitários/funcionais em `tests/1_unit-tests.js` e `tests/2_functional-tests.js`
 -   Veja os arquivos JavaScript em `/components` para diferentes ortografias e termos que sua aplicação deve traduzir
 -   Para executar os testes automaticamente, defina `NODE_ENV` como `test` sem aspas no arquivo `.env`
--   To run the tests in the console, use the command `npm run test`.
+-   Para executar os testes no console, use o comando `npm run test`.
 
-Write the following tests in `tests/1_unit-tests.js`:
+Escreva os testes a seguir em `tests/1_unit-tests.js`:
 
--   Translate `Mangoes are my favorite fruit.` to British English
+-   Traduza `Mangoes are my favorite fruit.` para o inglês britânico
 -   Traduza `I ate yogurt for breakfast.` para o inglês britânico
 -   Traduza `We had a party at my friend's condo.` para o inglês britânico
 -   Traduza `Can you toss this in the trashcan for me?` para o inglês britânico
@@ -51,7 +51,7 @@ Write the following tests in `tests/1_unit-tests.js`:
 
 Escreva os testes a seguir em `tests/2_functional-tests.js`:
 
--   Translation with text and locale fields: POST request to `/api/translate`
+-   A tradução com os campos de texto e de localização: solicitação de POST para `/api/translate`
 -   A tradução com o campo de texto e o campo de localização inválida: solicitação de POST para `/api/translate`
 -   A tradução com o campos de texto ausente: solicitação de POST para `/api/translate`
 -   A tradução com o campo de localização ausente: solicitação de POST para `/api/translate`
@@ -70,7 +70,7 @@ Você deve fornecer seu próprio projeto, não o exemplo de URL.
   );
 ```
 
-You can `POST` to `/api/translate` with a body containing `text` with the text to translate and `locale` with either `american-to-british` or `british-to-american`. The returned object should contain the submitted `text` and `translation` with the translated text.
+Você pode `POST` para `/api/translate` com um corpo contendo `text` com o texto a ser traduzido e `locale` com `american-to-british` ou `british-to-american`. O objeto retornado deve conter o `text` enviado e `translation` com o texto traduzido.
 
 ```js
   try {
@@ -96,7 +96,7 @@ You can `POST` to `/api/translate` with a body containing `text` with the text t
   }
 ```
 
-The `/api/translate` route should handle the way time is written in American and British English. For example, ten thirty is written as "10.30" in British English and "10:30" in American English. O elemento `span` deve envolver a string de tempo inteira, ou seja, `<span class="highlight">10:30</span>`.
+A rota `/api/translate` deve lidar com a forma como o tempo é escrito no inglês americano e britânico. Por exemplo, dez e trinta é escrito como "10.30" no inglês britânico e "10:30" no inglês americano. O elemento `span` deve envolver toda a string de tempo, ou seja, `<span class="highlight">10:30</span>`.
 
 ```js
   try {
@@ -121,7 +121,7 @@ The `/api/translate` route should handle the way time is written in American and
   }
 ```
 
-The `/api/translate` route should also handle the way titles/honorifics are abbreviated in American and British English. For example, Doctor Wright is abbreviated as "Dr Wright" in British English and "Dr. Wright" in American English. See `/components/american-to-british-titles.js` for the different titles your application should handle.
+A rota `/api/translate` também deve lidar com a forma como títulos/honoríficos são abreviados no inglês americano e britânico. Por exemplo, Doctor Wright é abreviado como "Dr Wright" no inglês britânico e "Dr. Wright" no inglês americano. Veja `/components/american-to-british-titles.js` para os diferentes títulos que sua aplicação deve tratar.
 
 ```js
   try {
@@ -146,7 +146,7 @@ The `/api/translate` route should also handle the way titles/honorifics are abbr
   }
 ```
 
-Envolva qualquer ortografia ou termos traduzidos com as tags `<span class="highlight">...</span>` para que elas apareçam em verde.
+Envolva toda a escrita ou termos traduzidos com tags `<span class="highlight">...</span>` para que apareçam na cor verde.
 
 ```js
   try {
@@ -172,7 +172,7 @@ Envolva qualquer ortografia ou termos traduzidos com as tags `<span class="highl
   }
 ```
 
-If one or more of the required fields is missing, return `{ error: 'Required field(s) missing' }`.
+Se um ou mais campos requeridos estiver faltando, retorne `{ error: 'Required field(s) missing' }`.
 
 ```js
   try {
@@ -191,7 +191,7 @@ If one or more of the required fields is missing, return `{ error: 'Required fie
   }
 ```
 
-If `text` is empty, return `{ error: 'No text to translate' }`
+Se `text` estiver vazio, retorne `{ error: 'No text to translate' }`
 
 ```js
   try {
@@ -210,7 +210,7 @@ If `text` is empty, return `{ error: 'No text to translate' }`
   }
 ```
 
-If `locale` does not match one of the two specified locales, return `{ error: 'Invalid value for locale field' }`.
+Se `locale` não corresponder a uma das duas localidades especificadas, retorne `{ error: 'Invalid value for locale field' }`.
 
 ```js
   try {
@@ -230,7 +230,7 @@ If `locale` does not match one of the two specified locales, return `{ error: 'I
   }
 ```
 
-If `text` requires no translation, return `"Everything looks good to me!"` for the `translation` value.
+Se `text` não precisar de tradução, retorne `"Everything looks good to me!"` para o valor `translation`.
 
 ```js
   try {
@@ -255,7 +255,7 @@ If `text` requires no translation, return `"Everything looks good to me!"` for t
   }
 ```
 
-All 24 unit tests are complete and passing.
+Todos os 24 testes de unidade foram concluídos e deram aprovação.
 
 ```js
   try {
@@ -282,7 +282,7 @@ All 24 unit tests are complete and passing.
   }
 ```
 
-All 6 functional tests are complete and passing.
+Todos os 6 testes funcionais foram concluídos e deram aprovação.
 
 ```js
   try {

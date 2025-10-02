@@ -1,17 +1,17 @@
 ---
 id: 60fadce90f85c50d0bb0dd4f
-title: Step 43
+title: Passo 43
 challengeType: 0
 dashedName: step-43
 ---
 
 # --description--
 
-To give the `fieldset` elements a bit of separation, select them and give them a `border-bottom` of `3px solid #3b3b4f`.
+Para dar aos elementos `fieldset` um pouco de separação, selecioná-los e dar a eles o atributo `border-bottom` de `3px solid #3b3b4f`.
 
 # --hints--
 
-You should give the `fieldset` elements a `border-bottom` of `3px solid #3b3b4f`.
+Você deve dar ao `fieldset` uma `border-bottom` de `3px solid #3b3b4f`.
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('fieldset')?.borderBottom, '3px solid rgb(59, 59, 79)');
@@ -60,8 +60,10 @@ assert.equal(new __helpers.CSSHelp(document).getStyle('fieldset')?.borderBottom,
           <textarea id="bio" name="bio" rows="3" cols="30" placeholder="I like coding on the beach..."></textarea>
         </label>
       </fieldset>
+      <a href="https://www.freecodecamp.org/news/terms-of-service">Read our terms and conditions</a>
       <label for="terms-and-conditions">
-        <input id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" /> I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a>
+        <input name="terms" id="terms-and-conditions" type="checkbox" required />
+        I accept the terms and conditions
       </label>
       <input type="submit" value="Submit" />
     </form>

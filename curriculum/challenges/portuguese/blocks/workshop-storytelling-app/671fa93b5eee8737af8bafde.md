@@ -1,23 +1,23 @@
 ---
 id: 671fa93b5eee8737af8bafde
-title: Step 10
+title: Passo 10
 challengeType: 0
 dashedName: step-10
 ---
 
 # --description--
 
-Create a function called `displayStory`. Inside the function, log `"You clicked the button"` to the console.
+Crie uma função chamada `displayStory`.Dentro da função, registre `"You clicked the button"` no console.
 
 # --hints--
 
-You should have a function called `displayStory`.
+Você deve ter uma função chamada `displayStory`.
 
 ```js
 assert.isFunction(displayStory);
 ```
 
-You should log `"You clicked the button"` to the console inside the `displayStory` function.
+Você deve registrar `"You clicked the button"` no console dentro da função `displayStory`.
 
 ```js
 assert.match(displayStory.toString(), /console\.log\(["']You clicked the button["']\)/);

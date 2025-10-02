@@ -1,13 +1,13 @@
 ---
 id: 66edc31c44f1b9c1d5c5ebca
-title: JavaScript Strings Quiz
+title: Questionário sobre strings em JavaScript
 challengeType: 8
 dashedName: quiz-javascript-strings
 ---
 
 # --description--
 
-To pass the quiz, you must correctly answer at least 18 of the 20 questions below.
+Para passar no quiz, você deve responder corretamente pelo menos 18 das 20 perguntas abaixo.
 
 # --quizzes--
 
@@ -17,29 +17,29 @@ To pass the quiz, you must correctly answer at least 18 of the 20 questions belo
 
 #### --text--
 
-What is the return value for the `includes()` method?
+Qual é o valor de retorno do método `includes()`?
 
 #### --distractors--
 
-If the substring is found within the string, the method returns the string. Otherwise, it returns `undefined`.
+Se a substring for encontrada dentro da string, o método retorna a string. Caso contrário, ele retorna `undefined`.
 
 ---
 
-If the substring is found within the string, the method returns `true`. Otherwise, it returns an empty string.
+Se a substring for encontrada dentro da string, o método retorna `true`. Caso contrário, ele retorna uma string vazia.
 
 ---
 
-If the substring is found within the string, the method returns the string. Otherwise, it returns `null`.
+Se a substring for encontrada dentro da string, o método retorna a string. Caso contrário, ele retorna `null`.
 
 #### --answer--
 
-If the substring is found within the string, the method returns `true`. Otherwise, it returns `false`.
+Se a substring for encontrada dentro da string, o método retorna `true`. Caso contrário, retorna `false`.
 
 ### --question--
 
 #### --text--
 
-Which option demonstrates string interpolation?
+Qual opção demonstra interpolação de string?
 
 #### --distractors--
 
@@ -61,7 +61,7 @@ Which option demonstrates string interpolation?
 
 #### --text--
 
-Which of the following options is the newline character?
+Qual das seguintes opções é o caractere de nova linha?
 
 #### --distractors--
 
@@ -83,51 +83,51 @@ Which of the following options is the newline character?
 
 #### --text--
 
-Which of the following statements is correct about strings?
+Qual das seguintes afirmações está correta sobre strings?
 
 #### --distractors--
 
-Strings are mutable and can be changed after they are created.
+Strings são mutáveis e podem ser alteradas depois de serem criadas.
 
 ---
 
-Strings are non primitive data types.
+Strings são tipos de dados não primitivos.
 
 ---
 
-Strings can only be created using single quotes.
+Strings só podem ser criadas usando aspas simples.
 
 #### --answer--
 
-Strings are immutable.
+Strings são imutáveis.
 
 ### --question--
 
 #### --text--
 
-What does ASCII stand for?
+O que significa ASCII?
 
 #### --distractors--
 
-American Standard Code for Internet Information
+Código Padrão Americano para Informação na Internet
 
 ---
 
-Advanced Systematic Code for Internal Interchange
+Código Sistemático Avançado para Intercâmbio Interno
 
 ---
 
-Automatic Standard Code for Internal Information
+Código Padrão Automático para Informação Interna
 
 #### --answer--
 
-American Standard Code for Information Interchange
+Código Padrão Americano para o Intercâmbio de Informação
 
 ### --question--
 
 #### --text--
 
-Which of the following methods extracts a portion of a string and returns a new string?
+Qual dos seguintes métodos extrai uma parte de uma string e retorna uma nova string?
 
 #### --distractors--
 
@@ -149,29 +149,29 @@ Which of the following methods extracts a portion of a string and returns a new 
 
 #### --text--
 
-What is the purpose of the `prompt()` method?
+Qual é o propósito do método `prompt()`?
 
 #### --distractors--
 
-It displays a message in the console.
+Ele exibe uma mensagem no console.
 
 ---
 
-It displays an alert box with a message.
+Ele exibe uma caixa de alerta com uma mensagem.
 
 ---
 
-It displays a confirmation box with a message.
+Ele exibe uma caixa de confirmação com uma mensagem.
 
 #### --answer--
 
-It displays a dialog box that waits for the user input.
+Ele exibe uma caixa de diálogo que aguarda a entrada do usuário.
 
 ### --question--
 
 #### --text--
 
-Which of the following is the correct way to access the third character of a string?
+Qual das seguintes é a maneira correta de acessar o terceiro caractere de uma string?
 
 #### --distractors--
 
@@ -205,7 +205,7 @@ developer[2];
 
 #### --text--
 
-How can you obtain the ASCII value of the first character in the string `"hello"`?
+Como você pode obter o valor ASCII do primeiro caractere na string `"hello"`?
 
 #### --distractors--
 
@@ -227,7 +227,7 @@ How can you obtain the ASCII value of the first character in the string `"hello"
 
 #### --text--
 
-Which method can you use to obtain the character corresponding to an ASCII value?
+Qual método você pode usar para obter o caractere correspondente a um valor ASCII?
 
 #### --distractors--
 
@@ -249,7 +249,7 @@ Which method can you use to obtain the character corresponding to an ASCII value
 
 #### --text--
 
-Which of the following `indexOf` examples will log `-1` to the console?
+Qual dos seguintes exemplos de `indexOf` exibirá `-1` no console?
 
 #### --distractors--
 
@@ -283,7 +283,7 @@ console.log(organization.indexOf("c"));
 
 #### --text--
 
-How can you check if the string `"JavaScript"` contains `"Script"`?
+Como você pode verificar se a string `"JavaScript"` contém `"Script"`?
 
 #### --distractors--
 
@@ -305,7 +305,7 @@ How can you check if the string `"JavaScript"` contains `"Script"`?
 
 #### --text--
 
-Which of the following extracts the substring `"Script"` from the string `"JavaScript"`?
+Qual dos seguintes extrai a substring `"Script"` da string `"JavaScript"`?
 
 #### --distractors--
 
@@ -327,7 +327,7 @@ Which of the following extracts the substring `"Script"` from the string `"JavaS
 
 #### --text--
 
-How do you convert the string `"JavaScript"` to uppercase?
+Como você converte a string `"JavaScript"` para maiúsculas?
 
 #### --distractors--
 
@@ -349,7 +349,7 @@ How do you convert the string `"JavaScript"` to uppercase?
 
 #### --text--
 
-How do you convert the string `"JavaScript"` to lowercase?
+Como você converte a string `"JavaScript"` para letras minúsculas?
 
 #### --distractors--
 
@@ -371,7 +371,7 @@ How do you convert the string `"JavaScript"` to lowercase?
 
 #### --text--
 
-Which of the following will replace `"dogs"` with `"cats"` in the string `"I love dogs"`.
+Qual dos seguintes substituirá `"dogs"` por `"cats"` na string `"I love dogs"`.
 
 #### --distractors--
 
@@ -393,7 +393,7 @@ Which of the following will replace `"dogs"` with `"cats"` in the string `"I lov
 
 #### --text--
 
-Which method is used to repeat a string a specified number of times?
+Qual método é usado para repetir uma string um número especificado de vezes?
 
 #### --distractors--
 
@@ -415,7 +415,7 @@ Which method is used to repeat a string a specified number of times?
 
 #### --text--
 
-What will the following code return: `"abc".repeat(3)`?
+O que o seguinte código retornará: `"abc".repeat(3)`?
 
 #### --distractors--
 
@@ -427,7 +427,7 @@ What will the following code return: `"abc".repeat(3)`?
 
 ---
 
-It will throw an error.
+Ele lançará um erro.
 
 #### --answer--
 
@@ -437,7 +437,7 @@ It will throw an error.
 
 #### --text--
 
-Which method will remove whitespace from the beginning and end of a string?
+Qual método remove espaços em branco do início e do fim de uma string?
 
 #### --distractors--
 
@@ -459,7 +459,7 @@ Which method will remove whitespace from the beginning and end of a string?
 
 #### --text--
 
-Which of the following is the correct syntax for escaping quotes?
+Qual das seguintes é a sintaxe correta para escapar aspas?
 
 #### --distractors--
 

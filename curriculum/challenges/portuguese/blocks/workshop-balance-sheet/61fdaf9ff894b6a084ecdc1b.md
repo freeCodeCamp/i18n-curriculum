@@ -7,7 +7,7 @@ dashedName: step-33
 
 # --description--
 
-To prevent the text content from overflowing, give your `span[class~="sr-only"]` selector an `overflow` property set to `hidden` and a `white-space` property set to `nowrap`.
+Para evitar que o conteúdo do texto exceda os limites, dê ao seletor `span[class~="sr-only"]` uma propriedade `overflow` definida como `hidden` e uma propriedade `white-space` definida como `nowrap`.
 
 # --hints--
 
@@ -175,7 +175,7 @@ span[class~="sr-only"] {
   clip-path: inset(50%);
   height: 1px;
   width: 1px;
-
+  
 }
 --fcc-editable-region--
 

@@ -1,25 +1,25 @@
 ---
 id: 6723cc7a8e7aa3b9befd4bac
-title: DOM Manipulation and Click Events with JavaScript Review
+title: Manipulação do DOM e Eventos de Clique com Revisão de JavaScript
 challengeType: 31
 dashedName: review-dom-manipulation-and-click-events-with-javascript
 ---
 
 # --description--
 
-## Working with the DOM and Web APIs
+## Trabalhando com o DOM e as Web APIs
 
-- **API**: An API (Application Programming Interface) is a set of rules and protocols that allow software applications to communicate with each other and exchange data efficiently.
-- **Web API**: Web APIs are specifically designed for web applications. These types of APIs are often divided into two main categories: browser APIs and third-party APIs.
-- **Browser APIs**: These APIs expose data from the browser. As a web developer, you can access and manipulate this data using JavaScript.
-- **Third-Party APIs**: These are not built into the browser by default. You have to retrieve their code in some way. Usually, they will have detailed documentation explaining how to use their services. An example is the Google Maps API, which you can use to display interactive maps on your website.
-- **DOM**: The DOM stands for Document Object Model. It's a programming interface that lets you interact with HTML documents. With the DOM, you can add, modify, or delete elements on a webpage. The root of the DOM tree is the `html` element. It's the top-level container for all the content of an HTML document. All other nodes are descendants of this root node. Then, below the root node, we find other nodes in the hierarchy. A parent node is an element that contains other elements. A child node is an element that is contained within another element.
-- **`navigator` Interface**: This provides information about the browser environment, such as the user agent string, the platform, and the version of the browser. A user agent string is a text string that identifies the browser and operating system being used.
-- **`window` Interface**: This represents the browser window that contains the DOM document. It provides methods and properties for interacting with the browser window, such as resizing the window, opening new windows, and navigating to different URLs.
+- **API**: Uma API (Application Programming Interface) é um conjunto de regras e protocolos que permitem que aplicações de software se comuniquem entre si e troquem dados de forma eficiente.
+- **Web API**: Web APIs são projetadas especificamente para aplicações web. Esses tipos de APIs são frequentemente divididos em duas categorias principais: browser APIs e third-party APIs.
+- **Browser APIs**: Essas APIs expõem dados do navegador. Como desenvolvedor web, você pode acessar e manipular esses dados usando JavaScript.
+- **APIs de Terceiros**: Elas não são incorporadas ao navegador por padrão. Você precisa obter o código delas de alguma forma. Normalmente, elas terão documentação detalhada explicando como usar seus serviços. Um exemplo é a `Google Maps API`, que você pode usar para exibir mapas interativos no seu site.
+- **DOM**: O DOM significa Document Object Model. É uma interface de programação que permite interagir com documentos HTML. Com o DOM, você pode adicionar, modificar ou excluir elementos em uma página web. A raiz da árvore DOM é o elemento `html`. É o contêiner de nível superior para todo o conteúdo de um documento HTML. Todos os outros nós são descendentes desse nó raiz. Em seguida, abaixo do nó raiz, encontramos outros nós na hierarquia. Um nó pai é um elemento que contém outros elementos. Um nó filho é um elemento que está contido dentro de outro elemento.
+- **Interface `navigator`**: Isso fornece informações sobre o ambiente do navegador, como a string do agente do usuário, a plataforma e a versão do navegador. Uma string do agente do usuário é uma string de texto que identifica o navegador e o sistema operacional em uso.
+- **Interface `window`**: Isso representa a janela do navegador que contém o documento DOM. Ela fornece métodos e propriedades para interagir com a janela do navegador, como redimensionar a janela, abrir novas janelas e navegar para diferentes URLs.
 
-## Working with the `querySelector()`, `querySelectorAll()` and `getElementById()` Methods
+## Trabalhando com os métodos `querySelector()`, `querySelectorAll()` e `getElementById()`
 
-- **`getElementById()` Method**: This method is used to get an object that represents the HTML element with the specified `id`. Remember that ids must be unique in every HTML document, so this method will only return one Element object.
+- **Método `getElementById()`**: Este método é usado para obter um objeto que representa o elemento HTML com o `id` especificado. Lembre-se que os ids devem ser únicos em cada documento HTML, então este método retornará apenas um objeto Element.
 
 ```html
 <div id="container"></div>
@@ -29,7 +29,7 @@ dashedName: review-dom-manipulation-and-click-events-with-javascript
 const container = document.getElementById("container");
 ```
 
-- **`querySelector()` Method**: This method is used to get the first element in the HTML document that matches the CSS selector passed as an argument.
+- **Método `querySelector()`**: Este método é usado para obter o primeiro elemento no documento HTML que corresponde ao seletor CSS passado como argumento.
 
 ```html
 <section class="section"></section>
@@ -39,7 +39,7 @@ const container = document.getElementById("container");
 const section = document.querySelector(".section");
 ```
 
-- **`querySelectorAll()` Method**: You can use this method to get a list of all the DOM elements that match a specific CSS selector.
+- **Método `querySelectorAll()`**: Você pode usar este método para obter uma lista de todos os elementos DOM que correspondem a um seletor CSS específico.
 
 ```html
 <ul class="ingredients">
@@ -53,9 +53,9 @@ const section = document.querySelector(".section");
 const ingredients = document.querySelectorAll('ul.ingredients li');
 ```
 
-## Working with the `innerText()`, `innerHTML()`, `createElement()` and `textContent()` Methods
+## Trabalhando com os métodos `innerText()`, `innerHTML()`, `createElement()` e `textContent()`
 
-- **`innerHTML` Property**: This is a property of the `Element` that is used to set or update parts of the HTML markup.
+- **Propriedade `innerHTML`**: Esta é uma propriedade do `Element` que é usada para definir ou atualizar partes da marcação HTML.
 
 ```html
 <div id="container">
@@ -68,13 +68,13 @@ const container = document.getElementById("container");
 container.innerHTML = '<ul><li>Cheese</li><li>Tomato</li></ul>';
 ```
 
-- **`createElement` Method**: This is used to create an HTML element.
+- **Método `createElement`**: Isso é usado para criar um elemento HTML. 
 
 ```js
 const img = document.createElement("img");
 ```
 
-- **`innerText`**: This represents the visible text content of the HTML element and its descendants.
+- **`innerText`**: Isso representa o conteúdo de texto visível do elemento HTML e seus descendentes. 
 
 ```html
 <div id="container">
@@ -88,7 +88,7 @@ const container = document.getElementById("container");
 console.log(container.innerText);
 ```
 
-- **`textContent`**: This returns the plain text content of an element, including all the text within its descendants.
+- **`textContent`**: Isso retorna o conteúdo de texto simples de um elemento, incluindo todo o texto dentro de seus descendentes.
 
 ```html
 <div id="container">
@@ -102,9 +102,9 @@ const container = document.getElementById("container");
 console.log(container.textContent);
 ```
 
-## Working with the `appendChild()` and `removeChild()` Methods
+## Trabalhando com os Métodos `appendChild()` e `removeChild()`
 
-- **`appendChild()` Method**: This method is used to add a node to the end of the list of children of a specified parent node.
+- **Método `appendChild()`**: Este método é usado para adicionar um nó ao final da lista de filhos de um nó pai especificado.
 
 ```html
 <ul id="desserts">
@@ -121,7 +121,7 @@ listItem.textContent = "Cookies";
 dessertsList.appendChild(listItem);
 ```
 
-- **`removeChild()` Method**: This method is used to remove a node from the DOM.
+- **Método `removeChild()`**: Este método é usado para remover um nó do DOM.
 
 ```html
 <section id="example-section">
@@ -138,9 +138,9 @@ const lastParagraph = document.querySelector("#example-section p:last-of-type");
 sectionEl.removeChild(lastParagraph);
 ```
 
-## Work with the `setAttribute()` Method
+## Trabalhe com o Método `setAttribute()`
 
-- **Definition**: This method is used to set the attribute for a given element. If the attribute already exists, then the value is updated. Otherwise, a new attribute is added with a value.
+- **Definição**: Este método é usado para definir o atributo para um determinado elemento. Se o atributo já existir, o valor é atualizado. Caso contrário, um novo atributo é adicionado com um valor.
 
 ```html
 <p id="para">I am a paragraph</p>
@@ -151,13 +151,13 @@ const para = document.getElementById("para");
 para.setAttribute("class", "my-class");
 ```
 
-## Event Object
+## Objeto de Evento
 
-- **Definition**: The `Event` object is a payload that triggers when a user interacts with your web page in some way. These interactions can be anything from clicking on a button or focusing an input to shaking their mobile device. All `Event` objects will have the `type` property. This property reveals the type of event that triggered the payload, such as keydown or click. These values will correspond to the same values you might pass to `addEventListener`(), where you can capture and utilize the `Event` object.
+- **Definição**: O objeto `Event` é uma carga útil que é acionada quando um usuário interage com sua página web de alguma forma. Essas interações podem ser qualquer coisa, desde clicar em um botão ou focar em um input até sacudir o dispositivo móvel. Todos os objetos `Event` terão a propriedade `type`. Essa propriedade revela o tipo de evento que acionou a carga útil, como keydown ou click. Esses valores corresponderão aos mesmos valores que você pode passar para `addEventListener`(), onde você pode capturar e utilizar o objeto `Event`.
 
-## `addEventListener()` and `removeEventListener()` Methods
+## Métodos `addEventListener()` e `removeEventListener()`
 
-- **`addEventListener` Method**: This method is used to listen for events. It takes two arguments: the event you want to listen for and a function that will be called when the event occurs. Some common examples of events would be click events, input events, and change events.
+- **Método `addEventListener`**: Este método é usado para escutar eventos. Ele recebe dois argumentos: o evento que você quer escutar e uma função que será chamada quando o evento ocorrer. Alguns exemplos comuns de eventos seriam eventos de clique, eventos de entrada e eventos de alteração.
 
 ```js
 const btn = document.getElementById("btn");
@@ -165,7 +165,7 @@ const btn = document.getElementById("btn");
 btn.addEventListener("click", () => alert("You clicked the button"));
 ```
 
-- **`removeEventListener()` Method**: This method is used to remove an event listener that was previously added to an element using the `addEventListener()` method. This is useful when you want to stop listening for a particular event on an element.
+- **Método `removeEventListener()`**: Este método é usado para remover um event listener que foi previamente adicionado a um elemento usando o método `addEventListener()`. Isso é útil quando você quer parar de escutar um evento específico em um elemento.
 
 ```js
 const bodyEl = document.querySelector("body");
@@ -186,15 +186,15 @@ para.addEventListener("mouseover", () => {
 });
 ```
 
-- **Inline Event Handlers**: Inline event handlers are special attributes on an HTML element that are used to execute JavaScript code when an event occurs. In modern JavaScript, inline event handlers are not considered best practice. It is preferred to use the `addEventListener` method instead.
+- **Manipuladores de Eventos Inline**: Manipuladores de eventos inline são atributos especiais em um elemento HTML usados para executar código JavaScript quando um evento ocorre. No JavaScript moderno, manipuladores de eventos inline não são considerados uma boa prática. É preferível usar o método `addEventListener`.
 
 ```html
 <button onclick="alert('Hello World!')">Show alert</button>
 ```
 
-## The Change Event
+## O Evento de Mudança
 
-- **Definition**: The change event is a special event which is fired when the user modifies the value of certain input elements. Examples would include when a checkbox or a radio button is ticked. Or when the user makes a selection from something like a date picker or dropdown menu.
+- **Definição**: O evento change é um evento especial que é disparado quando o usuário modifica o valor de certos elementos de entrada. Exemplos incluem quando uma caixa de seleção ou um botão de opção é marcado. Ou quando o usuário faz uma seleção em algo como um seletor de data ou menu suspenso.
 
 ```html
 <label>
@@ -219,29 +219,29 @@ selectEl.addEventListener("change", (e) => {
 });
 ```
 
-## Event Bubbling
+## Propagação de Eventos
 
-- **Definition**: Event bubbling, or propagation, refers to how an event "bubbles up" to parent objects when triggered.
-- **`stopPropagation()` Method**: This method prevents further propagation for an event.
+- **Definição**: Event bubbling, ou propagação, refere-se a como um evento "bubbles up" para objetos pai quando acionado.
+- **Método `stopPropagation()`**: Este método impede a propagação adicional de um evento.
 
-## Event Delegation
+## Delegação de Eventos
 
-- **Definition**: Event delegation is the process of listening to events that have bubbled up to a parent, rather than handling them directly on the element that triggered them.
+- **Definição**: Delegação de eventos é o processo de escutar eventos que subiram para um elemento pai, em vez de tratá-los diretamente no elemento que os disparou. 
 
 ## DOMContentLoaded
 
-- **Definition**: The `DOMContentLoaded` event is fired when everything in the HTML document has been loaded and parsed. If you have external stylesheets, or images, the `DOMContentLoaded` event will not wait for those to be loaded. It will only wait for the HTML to be loaded.
+- **Definição**: O evento `DOMContentLoaded` é disparado quando tudo no documento HTML foi carregado e analisado. Se você tiver folhas de estilo externas ou imagens, o evento `DOMContentLoaded` não esperará que elas sejam carregadas. Ele aguardará apenas o carregamento do HTML.
 
-## Working with `style` and `classList`
+## Trabalhando com `style` e `classList`
 
-- **`Element.style` Property**: This property is a read-only property that represents the inline style of an element. You can use this property to get or set the style of an element.
+- **Propriedade `Element.style`**: Esta propriedade é uma propriedade somente leitura que representa o estilo inline de um elemento. Você pode usar esta propriedade para obter ou definir o estilo de um elemento.
 
 ```js
 const paraEl = document.getElementById("para");
 paraEl.style.color = "red";
 ```
 
-- **`Element.classList` Property**: This property is a read-only property that can be used to add, remove, or toggle classes on an element.
+- **Propriedade `Element.classList`**: Esta propriedade é somente leitura e pode ser usada para adicionar, remover ou alternar classes em um elemento.
 
 ```js
 // Example adding a class
@@ -259,9 +259,9 @@ toggleBtn.addEventListener("click", () => menu.classList.toggle("show"));
 ```
 
 
-## Working with the `setTimeout()` and `setInterval()` Methods
+## Trabalhando com os métodos `setTimeout()` e `setInterval()`
 
-- **`setTimeout()` Method**: This method lets you delay an action for a specified time.
+- **Método `setTimeout()`**: Este método permite atrasar uma ação por um tempo especificado. 
 
 ```js
 setTimeout(() => {
@@ -269,7 +269,7 @@ setTimeout(() => {
 }, 3000);
 ```
 
-- **`setInterval()` Method**: This method keeps runs a piece of code repeatedly at a set interval. Since `setInterval()` keeps executing the provided function at the specified interval, you might want to stop it. For this, you have to use the `clearInterval()` method.
+- **Método `setInterval()`**: Este método executa repetidamente um trecho de código em um intervalo definido. Como o `setInterval()` continua executando a função fornecida no intervalo especificado, você pode querer pará-lo. Para isso, você deve usar o método `clearInterval()`.
 
 ```js
 setInterval(() => {
@@ -286,9 +286,9 @@ setTimeout(() => {
 }, 5000);
 ```
 
-## The `requestAnimationFrame()` Method
+## O Método `requestAnimationFrame()`
 
-- **Definition**: This method allows you to schedule the next step of your animation before the next screen repaint, resulting in a fluid and visually appealing experience. The next screen repaint refers to the moment when the browser refreshes the visual display of the web page. This happens multiple times per second, typically around 60 times (or 60 frames per second) on most displays.
+- **Definição**: Este método permite que você agende a próxima etapa da sua animação antes da próxima repintura da tela, resultando em uma experiência fluida e visualmente atraente. A próxima repintura da tela refere-se ao momento em que o navegador atualiza a exibição visual da página web. Isso acontece várias vezes por segundo, tipicamente cerca de 60 vezes (ou 60 quadros por segundo) na maioria dos monitores.
 
 ```js
 function animate() {
@@ -300,9 +300,9 @@ function animate() {
 }
 ```
 
-## Web Animations API
+## API de Animações Web
 
-- **Definition**: The Web Animations API lets you create and control animations directly inside JavaScript. 
+- **Definição**: A Web Animations API permite que você crie e controle animações diretamente dentro do JavaScript. 
 
 ```js
 const square = document.querySelector('#square');
@@ -318,9 +318,9 @@ const animation = square.animate(
 );
 ```
 
-## The Canvas API
+## A API Canvas
 
-- **Definition**: The Canvas API is a powerful tool that lets you manipulate graphics right inside your JavaScript file. To work with the Canvas API, you first need to provide a `canvas` element in HTML. This element acts as a drawing surface you can manipulate with the instance methods and properties of the interfaces in the Canvas API. This API has interfaces like `HTMLCanvasElement`, `CanvasRenderingContext2D`, `CanvasGradient`, `CanvasPattern`, and `TextMetrics` which contain methods and properties you can use to create graphics in your JavaScript file.
+- **Definição**: A Canvas API é uma ferramenta poderosa que permite manipular gráficos diretamente dentro do seu arquivo JavaScript. Para trabalhar com a Canvas API, você primeiro precisa fornecer um elemento `canvas` no HTML. Esse elemento atua como uma superfície de desenho que você pode manipular com os métodos de instância e propriedades das interfaces da Canvas API. Essa API possui interfaces como `HTMLCanvasElement`, `CanvasRenderingContext2D`, `CanvasGradient`, `CanvasPattern` e `TextMetrics` que contêm métodos e propriedades que você pode usar para criar gráficos no seu arquivo JavaScript.
 
 ```html
 <canvas id="my-canvas" width="400" height="400"></canvas>
@@ -340,10 +340,10 @@ ctx.fillStyle = 'crimson';
 ctx.fillRect(1, 1, 150, 100);
 ```
 
-## Opening and Closing Dialogs and Modals with JavaScript
+## Abrindo e Fechando Diálogos e Modais com JavaScript
 
-- **Modal and Dialog Definitions**: Dialogs let you display important information or actions to users. With the HTML built-in dialog element, you can easily create these dialogs (both modal and non-modal dialogs) in your web apps. A modal dialog is a type of dialog that forces the user to interact with it before they can access the rest of the application or webpage. In contrast, a non-modal dialog allows the user to continue interacting with other parts of the page or application even when the dialog is open. It doesn't prevent access to the rest of the content.
-- **`showModal()` Method**: This method is used to open a modal.
+- **Definições de Modal e Diálogo**: Diálogos permitem que você exiba informações importantes ou ações para os usuários. Com o elemento de diálogo embutido no HTML, você pode facilmente criar esses diálogos (tanto modais quanto não modais) em suas aplicações web. Um diálogo modal é um tipo de diálogo que obriga o usuário a interagir com ele antes de poder acessar o restante da aplicação ou página web. Em contraste, um diálogo não modal permite que o usuário continue interagindo com outras partes da página ou aplicação mesmo quando o diálogo está aberto. Ele não impede o acesso ao restante do conteúdo.
+- **Método `showModal()`**: Este método é usado para abrir um modal.
 
 ```html
 <dialog id="my-modal">
@@ -361,7 +361,7 @@ openButton.addEventListener('click', () => {
 });
 ```
 
-- **`close()` Method**: This method is used to close the modal.
+- **Método `close()`**: Este método é usado para fechar o modal.
 
 ```html
 <dialog id="my-modal">
@@ -387,4 +387,4 @@ closeButton.addEventListener('click', () => {
 
 # --assignment--
 
-Review the DOM Manipulation and Click Events with JavaScript topics and concepts.
+Revise os tópicos e conceitos de Manipulação do DOM e Eventos de Clique com JavaScript.

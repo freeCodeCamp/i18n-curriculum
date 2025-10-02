@@ -1,31 +1,31 @@
 ---
 id: 60fad6dfcc0d930a59becf12
-title: Step 39
+title: Passo 39
 challengeType: 0
 dashedName: step-39
 ---
 
 # --description--
 
-The HTML for the registration form is finished. Now, you can spruce it up a bit.
+O HTML para o formulário de registro foi finalizado. Agora, você pode arrumá-lo um pouco.
 
-Start by changing the font to `Tahoma`, and the font size to `16px` in the `body`.
+Comece mudando a fonte para `Tahoma` e o tamanho da fonte para `16px` no `body`.
 
 # --hints--
 
-You should use the `font-family` property to change the font.
+Você deve definir a propriedade `font-family` para alterar a fonte.
 
 ```js
 assert.isNotEmpty(new __helpers.CSSHelp(document).getStyle('body')?.fontFamily);
 ```
 
-You should set the `font-family` property to `Tahoma`.
+Você deve definir a propriedade `font-family` como `Tahoma`.
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('body')?.fontFamily, 'Tahoma');
 ```
 
-You should set the `font-size` property to `16px`.
+Você deve definir a propriedade `font-size` como `16px`.
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('body')?.fontSize, '16px');
@@ -74,8 +74,10 @@ assert.equal(new __helpers.CSSHelp(document).getStyle('body')?.fontSize, '16px')
           <textarea id="bio" name="bio" rows="3" cols="30" placeholder="I like coding on the beach..."></textarea>
         </label>
       </fieldset>
+      <a href="https://www.freecodecamp.org/news/terms-of-service">Read our terms and conditions</a>
       <label for="terms-and-conditions">
-        <input id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" /> I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a>
+        <input name="terms" id="terms-and-conditions" type="checkbox" required />
+        I accept the terms and conditions
       </label>
       <input type="submit" value="Submit" />
     </form>

@@ -1,6 +1,6 @@
 ---
 id: bd7156d8c242eddfaeb5bd13
-title: Build a freeCodeCamp Forum Homepage
+title: Criar uma página inicial do fórum do freeCodeCamp
 challengeType: 3
 forumTopicId: 302349
 dashedName: build-a-freecodecamp-forum-homepage
@@ -10,19 +10,19 @@ dashedName: build-a-freecodecamp-forum-homepage
 
 **Objective:** Build an app that is functionally similar to this: <https://codepen.io/freeCodeCamp/full/JqdoMV>.
 
-Fulfill the below user stories and get all of the tests to pass. Use whichever libraries or APIs you need. Give it your own personal style.
+Atenda às histórias de usuário abaixo e faça com que todos os testes passem.Use quaisquer bibliotecas ou APIs de que você precisar.Dê ao projeto o seu próprio estilo pessoal.
 
-**User Story:** I can see a list of the most recent posts on the freeCodeCamp forum.
+**História do Usuário:** Posso ver uma lista das postagens mais recentes no fórum freeCodeCamp.
 
-**User Story:** For each topic, I can see the title and a list of links to users who have recently posted in it.
+**História do Usuário:** Para cada tópico, posso ver o título e uma lista de links para usuários que postaram recentemente nele.
 
-**User Story:** I can see the number of replies and views that each topic has had, and a timestamp of when the topic was last active.
+**História do Usuário:** Posso ver o número de respostas e visualizações que cada tópico teve e um carimbo de data/hora de quando o tópico esteve ativo pela última vez.
 
 **Hint:** To get the 30 most recent forum posts: <https://forum-proxy.freecodecamp.rocks/latest>.
 
-When you are finished, include a link to your project on CodePen and click the "I've completed this challenge" button.
+Quando terminar, inclua um link para o seu projeto no CodePen e clique no botão "Eu completei esse desafio".
 
-You can get feedback on your project by sharing it on the <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp forum</a>.
+Você pode obter feedback sobre seu projeto compartilhando-o no <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">fórum freeCodeCamp</a>.
 
 # --solutions--
 

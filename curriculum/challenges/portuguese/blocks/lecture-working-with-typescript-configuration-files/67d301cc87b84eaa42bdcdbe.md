@@ -1,13 +1,13 @@
 ---
 id: 67d301cc87b84eaa42bdcdbe
-title: What Is a tsconfig File, and Why Is It Important to Include in Your TypeScript Projects?
+title: O que é um arquivo tsconfig e por que é importante incluí-lo em seus projetos TypeScript?
 challengeType: 19
 dashedName: what-is-a-tsconfig-file-and-why-is-it-important-to-include-in-your-typescript-projects
 ---
 
 # --description--
 
-TypeScript's compiler settings can be configured to meet your project's needs. That configuration lives in a `tsconfig.json` file in the root directory of your project. In fact, without it, the compiler will not run unless you pass it command flags directly. But what exactly does this file do? Well, let's take a look at an example file:
+As configurações do compilador do TypeScript podem ser configuradas para atender às necessidades do seu projeto.Essa configuração fica em um arquivo `tsconfig.json` no diretório raiz do seu projeto.De fato, sem ele, o compilador não será executado a menos que você passe diretamente as flags de comando.Mas o que exatamente este arquivo faz?Bem, vamos dar uma olhada em um arquivo de exemplo:
 
 ```json
 {
@@ -26,27 +26,27 @@ TypeScript's compiler settings can be configured to meet your project's needs. T
 }
 ```
 
-This seems like a lot! So let's break it down. The `compilerOptions` property is going to contain the "meat" of your configuration - this is where you control how the TypeScript compiler behaves. Looking at that nested object…
+Isso parece muito!Então vamos analisar.A propriedade `compilerOptions` vai conter o "núcleo" da sua configuração - é aqui que você controla como o compilador TypeScript se comporta.Olhando para aquele objeto aninhado…
 
-The `rootDir` and `outDir` tell TypeScript which directory holds your source files, and which directory should contain the transpiled JavaScript code.
+O `rootDir` e `outDir` informam ao TypeScript qual diretório contém seus arquivos fonte e qual diretório deve conter o código JavaScript transpilado.
 
-The `lib` property determines which type definitions the compiler uses, and allows you to include support for specific ES releases, the DOM, and more.
+A propriedade `lib` determina quais definições de tipo o compilador usa e permite que você inclua suporte para versões específicas do ES, o DOM e mais.
 
-`module` and `moduleResolution` effectively work in tandem to manage how your package uses modules - either CommonJS or ECMAScript.
+`module` e `moduleResolution` funcionam efetivamente em conjunto para gerenciar como seu pacote usa módulos - seja CommonJS ou ECMAScript.
 
-`esModuleInterop` allows for smoother interoperability between CommonJS and ES modules by automatically creating namespace objects for imports, making it easier to use modules from different systems together in your TypeScript projects, and the `skipLibCheck` option skips validating `.d.ts` files that aren't referenced by imports in your code.
+`esModuleInterop` permite uma interoperabilidade mais suave entre CommonJS e módulos ES ao criar automaticamente objetos de namespace para importações, facilitando o uso de módulos de sistemas diferentes juntos em seus projetos TypeScript, e a opção `skipLibCheck` pula a validação de arquivos `.d.ts` que não são referenciados por importações no seu código.
 
-And finally we reach the `strict` mode. One might argue that TypeScript isn't truly helpful without this flag enabled, as it toggles quite a few other checks, such as requiring you to properly handle nullable types, or warn when TypeScript can't infer a type and falls back to any.
+E finalmente chegamos ao modo `strict`.Pode-se argumentar que o TypeScript não é realmente útil sem essa flag ativada, pois ela ativa várias outras verificações, como exigir que você trate corretamente tipos anuláveis ou avisar quando o TypeScript não consegue inferir um tipo e recorre ao any.
 
-Before we finish, a quick note about the top-level `exclude` property - when you've defined a source directory, you may have TypeScript code outside of that directory which you don't want compiled as part of your production code. For example, your test code. The `exclude` array tells the compiler to ignore these TypeScript files during compilation, but still allows tooling like Intellisense to expose potential issues.
+Antes de terminarmos, uma rápida observação sobre a propriedade `exclude` de nível superior - quando você definiu um diretório de origem, pode haver código TypeScript fora desse diretório que você não quer que seja compilado como parte do seu código de produção.Por exemplo, seu código de teste.O array `exclude` informa ao compilador para ignorar esses arquivos TypeScript durante a compilação, mas ainda permite que ferramentas como Intellisense exponham possíveis problemas.
 
-There are a ton of other compiler options you can explore - over 50! I encourage you to explore the documentation and experiment to find the configuration that works for your project's needs.
+Existem muitas outras opções de compilador que você pode explorar - mais de 50!Eu incentivo você a explorar a documentação e experimentar para encontrar a configuração que funciona para as necessidades do seu projeto.
 
 # --questions--
 
 ## --text--
 
-Which property in the `tsconfig.json` file affects how the compiler behaves?
+Qual propriedade no arquivo `tsconfig.json` afeta como o compilador se comporta?
 
 ## --answers--
 
@@ -54,7 +54,7 @@ Which property in the `tsconfig.json` file affects how the compiler behaves?
 
 ### --feedback--
 
-This property is an object containing options for the compiler.
+Esta propriedade é um objeto contendo opções para o compilador.
 
 ---
 
@@ -66,7 +66,7 @@ This property is an object containing options for the compiler.
 
 ### --feedback--
 
-This property is an object containing options for the compiler.
+Esta propriedade é um objeto contendo opções para o compilador.
 
 ---
 
@@ -74,7 +74,7 @@ This property is an object containing options for the compiler.
 
 ### --feedback--
 
-This property is an object containing options for the compiler.
+Esta propriedade é um objeto contendo opções para o compilador.
 
 ## --video-solution--
 
@@ -82,35 +82,35 @@ This property is an object containing options for the compiler.
 
 ## --text--
 
-What does the `strict` option in the `tsconfig.json` file do?
+O que a opção `strict` no arquivo `tsconfig.json` faz?
 
 ## --answers--
 
-It only checks for nullable types.
+Ele verifica apenas tipos anuláveis.
 
 ### --feedback--
 
-This option enables various checks, including handling of nullable types.
+Esta opção habilita várias verificações, incluindo o tratamento de tipos anuláveis.
 
 ---
 
-It enforces the use of CommonJS modules.
+Ele aplica o uso de módulos CommonJS.
 
 ### --feedback--
 
-This option enables various checks, including handling of nullable types.
+Esta opção habilita várias verificações, incluindo o tratamento de tipos anuláveis.
 
 ---
 
-It toggles several type-checking options.
+Ele alterna várias opções de verificação de tipo.
 
 ---
 
-It excludes test files from compilation.
+Ele exclui arquivos de teste da compilação.
 
 ### --feedback--
 
-This option enables various checks, including handling of nullable types.
+Esta opção habilita várias verificações, incluindo o tratamento de tipos anuláveis.
 
 ## --video-solution--
 
@@ -118,35 +118,35 @@ This option enables various checks, including handling of nullable types.
 
 ## --text--
 
-What is the purpose of the `exclude` array in the `tsconfig.json` file?
+Qual é o propósito do array `exclude` no arquivo `tsconfig.json`?
 
 ## --answers--
 
-To specify which files to compile.
+Para especificar quais arquivos compilar.
 
 ### --feedback--
 
-You can use this to exclude test code from compilation.
+Você pode usar isso para excluir código de teste da compilação.
 
 ---
 
-To list additional libraries to include.
+Para listar bibliotecas adicionais para incluir.
 
 ### --feedback--
 
-You can use this to exclude test code from compilation.
+Você pode usar isso para excluir código de teste da compilação.
 
 ---
 
-To ignore certain files during compilation.
+Para ignorar certos arquivos durante a compilação.
 
 ---
 
-To define output directories for compiled files.
+Para definir diretórios de saída para arquivos compilados.
 
 ### --feedback--
 
-You can use this to exclude test code from compilation.
+Você pode usar isso para excluir código de teste da compilação.
 
 ## --video-solution--
 
