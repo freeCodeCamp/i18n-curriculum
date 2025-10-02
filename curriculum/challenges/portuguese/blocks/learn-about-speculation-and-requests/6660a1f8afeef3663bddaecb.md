@@ -1,17 +1,17 @@
 ---
 id: 6660a1f8afeef3663bddaecb
-title: "Dialogue 1: Should Have Noticed That"
+title: "Diálogo 1: Deveria Ter Percebido Isso"
 challengeType: 21
 dashedName: dialogue-1-should-have-noticed-that
 ---
 
 # --description--
 
-Watch the video below to understand the context of the upcoming lessons.
+Assista ao vídeo para entender o contexto das próximas lições.
 
 # --assignment--
 
-Watch the video.
+Assista ao vídeo.
 
 # --scene--
 

@@ -1,6 +1,6 @@
 ---
 id: 65dabf5eb13aae9ff91c40a2
-title: Task 108
+title: Tarefa 108
 challengeType: 22
 dashedName: task-108
 ---
@@ -9,13 +9,13 @@ dashedName: task-108
 
 # --description--
 
-The phrase `search for` means to look for something or try to find something through exploration. For example, `I need to search for my lost keys` means looking for the keys.
+A frase `search for` significa procurar algo ou tentar encontrar algo por meio da exploração.Por exemplo, `I need to search for my lost keys` significa procurar as chaves.
 
-The word `expensive` describes something that costs a lot of money. For example, `That car is too expensive for me` means the car costs a lot.
+A palavra `expensive` descreve algo que custa muito dinheiro.Por exemplo, `That car is too expensive for me` significa que o carro custa muito.
 
-A `solution` is an answer to a problem or a way to fix an issue.
+Uma `solution` é uma resposta para um problema ou uma forma de resolver uma questão.
 
-`Doesn't/don't have to` is used to express that there is no need or requirement to do something.
+`Doesn't/don't have to` é usado para expressar que não há necessidade ou obrigação de fazer algo.
 
 # --fillInTheBlank--
 
@@ -29,7 +29,7 @@ A `solution` is an answer to a problem or a way to fix an issue.
 
 ### --feedback--
 
-This word means to look for something carefully.
+Esta palavra significa procurar algo cuidadosamente.
 
 ---
 
@@ -37,7 +37,7 @@ This word means to look for something carefully.
 
 ### --feedback--
 
-This preposition is used with `search` to indicate what you are trying to find.
+Esta preposição é usada com `search` para indicar o que você está tentando encontrar.
 
 ---
 
@@ -45,7 +45,7 @@ This preposition is used with `search` to indicate what you are trying to find.
 
 ### --feedback--
 
-This word describes something that costs a lot of money.
+Esta palavra descreve algo que custa muito dinheiro.
 
 ---
 
@@ -53,7 +53,7 @@ This word describes something that costs a lot of money.
 
 ### --feedback--
 
-These are answers or ways to solve a problem.
+Estas são respostas ou maneiras de resolver um problema.
 
 # --scene--
 

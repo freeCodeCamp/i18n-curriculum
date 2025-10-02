@@ -1,6 +1,6 @@
 ---
 id: 657b1a27dc6daf6ffd52ff1f
-title: Task 30
+title: Tarefa 30
 challengeType: 19
 dashedName: task-30
 ---
@@ -10,41 +10,41 @@ Second Candidate: I have a master's degree in computer science. -->
 
 # --description--
 
-In English, the noun suffixed with `'s` followed by a second noun structure is used to show possession or belonging. If the first noun is singular, as in `Sarah's laptop`, it indicates that the laptop belongs to Sarah. However, if the first noun is plural, the structure changes to noun suffixed with `'`, as in `teachers' office`, indicating an office for teachers.
+Em inglês, o substantivo com o sufixo `'s` seguido por uma segunda estrutura de substantivo é usado para mostrar posse ou pertencimento.Se o primeiro substantivo estiver no singular, como em `Sarah's laptop`, isso indica que o laptop pertence a Sarah.No entanto, se o primeiro substantivo estiver no plural, a estrutura muda para o substantivo seguido de `'`, como em `teachers' office`, indicando um escritório para professores.
 
 # --questions--
 
 ## --text--
 
-What does `master's degree` in the context of the dialogue refer to?
+A que se refere `master's degree` no contexto do diálogo?
 
 ## --answers--
 
-A degree for school teachers
+Um diploma para professores escolares
 
 ### --feedback--
 
-`Master's degree` refers to an advanced academic degree, not specifically for teachers.
+`Master's degree` refere-se a um grau acadêmico avançado, não especificamente para professores.
 
 ---
 
-A primary level educational degree
+Um grau educacional de nível primário
 
 ### --feedback--
 
-`Master's degree` is a higher education qualification, beyond the primary level.
+`Master's degree` é uma qualificação de ensino superior, além do nível primário.
 
 ---
 
-A degree in mastering skills
+Um grau em domínio de habilidades
 
 ### --feedback--
 
-While it implies expertise, `master's degree` specifically refers to an academic qualification.
+Embora implique especialização, `master's degree` refere-se especificamente a uma qualificação acadêmica.
 
 ---
 
-An advanced academic degree
+Um grau acadêmico avançado
 
 ## --video-solution--
 

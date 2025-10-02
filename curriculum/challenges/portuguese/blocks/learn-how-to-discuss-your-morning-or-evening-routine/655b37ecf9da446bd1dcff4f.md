@@ -9,7 +9,7 @@ dashedName: task-96
 
 # --description--
 
-Listen to the audio and complete the sentence below.
+Ouça o áudio para completar a frase abaixo.
 
 # --fillInTheBlank--
 
@@ -23,7 +23,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This adjective describes the relaxed nature of Sophie's Sunday morning.
+Este adjetivo descreve a natureza relaxada da manhã de domingo de Sophie.
 
 ---
 
@@ -31,7 +31,7 @@ This adjective describes the relaxed nature of Sophie's Sunday morning.
 
 ### --feedback--
 
-This word indicates the time Sophie chooses to go to sleep on Sunday evening.
+Esta palavra indica o horário que Sophie escolhe para ir dormir na noite de domingo.
 
 # --scene--
 

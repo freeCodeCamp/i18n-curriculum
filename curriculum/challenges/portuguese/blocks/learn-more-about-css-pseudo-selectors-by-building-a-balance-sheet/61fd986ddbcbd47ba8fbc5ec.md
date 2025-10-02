@@ -1,67 +1,67 @@
 ---
 id: 61fd986ddbcbd47ba8fbc5ec
-title: Step 23
+title: Passo 23
 challengeType: 0
 dashedName: step-23
 ---
 
 # --description--
 
-Within the third `tr`, add a `th` element with the text `Credit The outstanding balance on our credit card.`. Wrap that text, except for `Credit`, within a `span` element with the `class` set to `description`.
+Dentro do terceiro `tr`, adicione um elemento `th` com o texto `Credit The outstanding balance on our credit card.`.Envolva esse texto, exceto `Credit `, dentro de um elemento `span` com a `class` definida como `description`.
 
-Add three `td` elements below that, and give them the following text, in order: `$50`, `$50`, and `$75`. Give the third `td` element a `class` set to `current`.
+Adicione três elementos `td` abaixo disso e insira neles os seguintes textos, respectivamente: `$50`, `$50` e `$75`.No terceiro elemento `td`, adicione uma `class` com o valor `current`.
 
 # --hints--
 
-Your third `tr` should have a `th` element.
+O terceiro `tr` deve ter um elemento `th`.
 
 ```js
 assert(document.querySelectorAll('table')?.[1]?.querySelector('tbody')?.querySelectorAll('tr')?.[2]?.querySelector('th'));
 ```
 
-Your `th` element should have the text `Credit The outstanding balance on our credit card.`.
+O elemento `th` deve ter o texto `Credit The outstanding balance on our credit card.`.
 
 ```js
 assert(document.querySelectorAll('table')?.[1]?.querySelector('tbody')?.querySelectorAll('tr')?.[2]?.querySelector('th')?.innerText === 'Credit The outstanding balance on our credit card.');
 ```
 
-You should wrap the text `The outstanding balance on our credit card.` in a `span` element.
+Você deve envolver o texto `The outstanding balance on our credit card.` dentro de um elemento `span`.
 
 ```js
 assert(document.querySelectorAll('table')?.[1]?.querySelector('tbody')?.querySelectorAll('tr')?.[2]?.querySelector('th > span')?.textContent === 'The outstanding balance on our credit card.');
 ```
 
-Your `span` element should have the `class` attribute set to `description`.
+O elemento `span` deve ter o atributo `class` com o valor `description`.
 
 ```js
 assert(document.querySelectorAll('table')?.[1]?.querySelector('tbody')?.querySelectorAll('tr')?.[2]?.querySelector('th > span')?.classList?.contains('description'));
 ```
 
-You should have three `td` elements.
+Você deve ter três elementos `td`.
 
 ```js
 assert(document.querySelectorAll('table')?.[1]?.querySelector('tbody')?.querySelectorAll('tr')?.[2]?.querySelectorAll('td').length === 3);
 ```
 
-Your first `td` element should have the text `$50`.
+O primeiro elemento `td` deve ter o texto `$50`.
 
 ```js
 assert(document.querySelectorAll('table')?.[1]?.querySelector('tbody')?.querySelectorAll('tr')?.[2]?.querySelectorAll('td')?.[0]?.textContent === '$50');
 ```
 
-Your second `td` element should have the text `$50`.
+O segundo elemento `td` deve ter o texto `$50`.
 
 ```js
 assert(document.querySelectorAll('table')?.[1]?.querySelector('tbody')?.querySelectorAll('tr')?.[2]?.querySelectorAll('td')?.[1]?.textContent === '$50');
 ```
 
-Your third `td` element should have the text `$75`.
+O terceiro elemento `td` deve ter o texto `$75`.
 
 ```js
 assert(document.querySelectorAll('table')?.[1]?.querySelector('tbody')?.querySelectorAll('tr')?.[2]?.querySelectorAll('td')?.[2]?.textContent === '$75');
 ```
 
-Your third `td` element should have the `class` set to `current`.
+O terceiro elemento `td` deve ter o atributo `class` com o valor `current`.
 
 ```js
 assert(document.querySelectorAll('table')?.[1]?.querySelector('tbody')?.querySelectorAll('tr')?.[2]?.querySelectorAll('td')?.[2]?.classList?.contains('current'));

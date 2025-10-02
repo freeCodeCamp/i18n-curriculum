@@ -7,7 +7,7 @@ dashedName: step-167
 
 # --description--
 
-In the previous project, you learned how to work with `for` loops like this:
+No projeto anterior, você aprendeu como trabalhar com loops `for` assim:
 
 ```js
 for (let i = 0; i < 5; i++) {
@@ -15,26 +15,26 @@ for (let i = 0; i < 5; i++) {
 }
 ```
 
-`for` loops are declared with three expressions separated by semicolons: `for (a; b; c)`, where `a` is the initialization expression, `b` is the condition, and `c` is the final expression.
+Loops `for` são declarados com três expressões separadas por ponto e vírgula: `for (a; b; c)`, onde `a` é a expressão de inicialização, `b` é a condição e `c` é a expressão final.
 
-In this step, create a `for` loop where `i` is initialized to `0`, the loop runs as long as `i` is less than `10`, and `i` is incremented by `1` after each iteration using the increment operator `++`.
+Nesta etapa, crie um loop `for` onde `i` é inicializado em `0`, o loop executa enquanto `i` for menor que `10` e `i` é incrementado em `1` após cada iteração usando o operador de incremento `++`.
 
 
 # --hints--
 
-Your `for` loop initialization should have `i` initialized to `0`.
+A inicialização do seu loop `for` deve ter `i` inicializado em `0`.
 
 ```js
 assert.match(pick.toString(), /for\s*\(\s*(let|var)\s+i\s*=\s*0\s*;/)
 ```
 
-Your loop condition should run as long as `i` is less than `10`.
+Sua condição de loop deve executar enquanto `i` for menor que `10`.
 
 ```js
 assert.match(pick.toString(), /for\s*\(\s*(let|var)\s+i\s*=\s*0\s*;\s*i\s*<\s*10\s*;/)
 ```
 
-Your loop should increment `i` by `1` after each iteration. Remember to use the increment operator `++`.
+Seu loop deve incrementar `i` em `1` após cada iteração.Lembre-se de usar o operador de incremento `++`.
 
 ```js
 assert.match(pick.toString(), /for\s*\(\s*(let|var)\s+i\s*=\s*0\s*;\s*i\s*<\s*10\s*;\s*i\+\+\s*\)/)
@@ -50,26 +50,26 @@ assert.match(pick.toString(), /for\s*\(\s*(let|var)\s+i\s*=\s*0\s*;\s*i\s*<\s*10
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="./styles.css">
-    <title>RPG - Repelente de Dragões</title>
+    <title>RPG - Dragon Repeller</title>
   </head>
   <body>
     <div id="game">
       <div id="stats">
         <span class="stat">XP: <strong><span id="xpText">0</span></strong></span>
-        <span class="stat">Vida: <strong><span id="healthText">100</span></strong></span>
-        <span class="stat">Ouro: <strong><span id="goldText">50</span></strong></span>
+        <span class="stat">Health: <strong><span id="healthText">100</span></strong></span>
+        <span class="stat">Gold: <strong><span id="goldText">50</span></strong></span>
       </div>
       <div id="controls">
-        <button id="button1">Ir para a loja</button>
-        <button id="button2">Ir para a caverna</button>
-        <button id="button3">Lutar contra o dragão</button>
+        <button id="button1">Go to store</button>
+        <button id="button2">Go to cave</button>
+        <button id="button3">Fight dragon</button>
       </div>
       <div id="monsterStats">
-        <span class="stat">Nome do Monstro<strong><span id="monsterName"></span></strong></span>
-        <span class="stat">Vida: <strong><span id="monsterHealth"></span></strong></span>
+        <span class="stat">Monster Name: <strong><span id="monsterName"></span></strong></span>
+        <span class="stat">Health: <strong><span id="monsterHealth"></span></strong></span>
       </div>
       <div id="text">
-         Bem-vindo ao Repelente de Dragões. You must defeat the dragon that is preventing people from leaving the town. You are in the town square. Where do you want to go? Use the buttons above.
+        Welcome to Dragon Repeller. You must defeat the dragon that is preventing people from leaving the town. You are in the town square. Where do you want to go? Use the buttons above.
       </div>
     </div>
     <script src="./script.js"></script>
@@ -172,19 +172,19 @@ const locations = [
     name: "town square",
     "button text": ["Go to store", "Go to cave", "Fight dragon"],
     "button functions": [goStore, goCave, fightDragon],
-    text: "You are in the town square. "Você vê uma placa que diz \"Loja\"."
+    text: "You are in the town square. You see a sign that says \"Store\"."
   },
   {
-    name: "Loja",
-    "button text": ["Comprar 10 de vida (10 de ouro)", "Comprar arma (30 de ouro)", "Ir para a praça da cidade"],
+    name: "store",
+    "button text": ["Buy 10 health (10 gold)", "Buy weapon (30 gold)", "Go to town square"],
     "button functions": [buyHealth, buyWeapon, goTown],
-    text: "Você entrou na loja."
+    text: "You enter the store."
   },
   {
-    name: "caverna",
-    "button text": ["Lutar contra a lesma", "Lutar contra a besta dentada", "Ir para a praça da cidade"],
+    name: "cave",
+    "button text": ["Fight slime", "Fight fanged beast", "Go to town square"],
     "button functions": [fightSlime, fightBeast, goTown],
-    text: "Você entra na caverna. You see some monsters."
+    text: "You enter the cave. You see some monsters."
   },
   {
     name: "fight",
@@ -399,7 +399,7 @@ function pick(guess) {
     numbers.push(Math.floor(Math.random() * 11));
   }
   text.innerText = "You picked " + guess + ". Here are the random numbers:\n";
-
+  
 }
 --fcc-editable-region--
 ```

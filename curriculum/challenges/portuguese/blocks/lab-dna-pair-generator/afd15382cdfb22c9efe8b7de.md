@@ -1,47 +1,47 @@
 ---
 id: afd15382cdfb22c9efe8b7de
-title: Implement a DNA Pair Generator
+title: Implemente um Gerador de Pares de DNA
 challengeType: 26
 dashedName: implement-a-dna-pair-generator
 ---
 
 # --description--
 
-Pairs of DNA strands consist of nucleobase pairs. Base pairs are represented by the characters <em>AT</em> and <em>CG</em>, which form building blocks of the DNA double helix.
+Os pares de fileiras de DNA são constituídos por pares de bases nitrogenadas.As bases pareadas são representadas pelos caracteres <em>AT</em> e <em>CG</em>, que formam os blocos de construção da dupla hélice do DNA.
 
-In this lab, you will write a function to match the missing base pairs for the provided DNA strand. For each character in the provided string, find the base pair character.
+Neste laboratório, você escreverá uma função para corresponder aos pares de bases ausentes da cadeia de DNA fornecida. Para cada caractere na string fornecida, encontre o caractere do par de base.
 
-For example, for the input `GCG`, return `[["G", "C"], ["C", "G"], ["G", "C"]]`
+Por exemplo, para a entrada `GCG`, retorne `[["G", "C"], ["C", "G"], ["G", "C"]]`
 
-The character and its pair are paired up in an array, and all the arrays are grouped into one encapsulating array.
+O caractere e seu par estão emparelhados em um array, e todos os arrays estão agrupados em um array encapsulador.
 
-**Objective**: Fulfill the user stories below and get all the tests to pass to complete the lab.
+**Objetivo**: Cumprir as user stories abaixo e fazer com que todos os testes passem para completar o laboratório.
 
-**User Stories:**
+**Histórias de Usuário:**
 
-1. You should have a `pairElement` function that takes a string as an argument.
-1. The `pairElement` function should return a 2d array.
-1. When given `A`, the function should pair it with `T`.
-1. When given `T`, the function should pair it with `A`.
-1. When given `C`, the function should pair it with `G`.
-1. When given `G`, the function should pair it with `C`.
-1. Each pair should be returned as an array with the original character first and its complement second.
+1. Você deve ter uma função `pairElement` que recebe uma string como argumento.
+1. A função `pairElement` deve retornar um array 2d.
+1. Quando dado `A`, a função deve emparelhá-lo com `T`.
+1. Quando dado `T`, a função deve emparelhá-lo com `A`.
+1. Quando receber `C`, a função deve emparelhá-lo com `G`.
+1. Quando dado `G`, a função deve emparelhá-lo com `C`.
+1. Cada par deve ser retornado como um array com o caractere original primeiro e seu complemento segundo.
 
 # --hints--
 
-You should create a function named `pairElement`.
+Você deve criar uma função chamada `pairElement`.
 
 ```js
 assert.isFunction(pairElement);
 ```
 
-`pairElement` should take a single argument.
+`pairElement` deve receber um único argumento.
 
 ```js
 assert.lengthOf(pairElement, 1);
 ```
 
-`pairElement("ATCGA")` should return `[["A","T"],["T","A"],["C","G"],["G","C"],["A","T"]]`.
+`pairElement("ATCGA")` deve retornar `[["A","T"],["T","A"],["C","G"],["G","C"],["A","T"]]`.
 
 ```js
 assert.deepEqual(pairElement('ATCGA'), [
@@ -53,7 +53,7 @@ assert.deepEqual(pairElement('ATCGA'), [
 ]);
 ```
 
-`pairElement("TTGAG")` should return `[["T","A"],["T","A"],["G","C"],["A","T"],["G","C"]]`.
+`pairElement("TTGAG")` deve retornar `[["T","A"],["T","A"],["G","C"],["A","T"],["G","C"]]`.
 
 ```js
 assert.deepEqual(pairElement('TTGAG'), [
@@ -65,7 +65,7 @@ assert.deepEqual(pairElement('TTGAG'), [
 ]);
 ```
 
-`pairElement("CTCTA")` should return `[["C","G"],["T","A"],["C","G"],["T","A"],["A","T"]]`.
+`pairElement("CTCTA")` deve retornar `[["C","G"],["T","A"],["C","G"],["T","A"],["A","T"]]`.
 
 ```js
 assert.deepEqual(pairElement('CTCTA'), [

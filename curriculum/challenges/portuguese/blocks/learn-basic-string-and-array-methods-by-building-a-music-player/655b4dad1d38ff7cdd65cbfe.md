@@ -7,34 +7,34 @@ dashedName: step-99
 
 # --description--
 
-With everything set in place, call the `pauseSong()`, `setPlayerDisplay()`, `highlightCurrentSong()`, and `setPlayButtonAccessibleText()` functions to correctly update the player.
+Com tudo configurado, chame as funções `pauseSong()`, `setPlayerDisplay()`, `highlightCurrentSong()` e `setPlayButtonAccessibleText()` para atualizar corretamente o player.
 
-Congratulations on completing your music player! Now that we've finished testing and using the shorter songs, we've replaced them with the original tracks specially selected by Quincy for you to enjoy.
+Parabéns por completar seu player de música!Agora que terminamos de testar e usar as músicas mais curtas, substituímos elas pelas faixas originais especialmente selecionadas por Quincy para você aproveitar.
 
 # --hints--
 
-You should call the `pauseSong` function.
+Você deve chamar a função `pauseSong`.
 
 ```js
 const splitter = code.split('audio.addEventListener("ended", () => {')
 assert.match(splitter[1], /pauseSong\(\s*\)\s*;?/)
 ```
 
-You should call the `setPlayerDisplay` function.
+Você deve chamar a função `setPlayerDisplay`.
 
 ```js
 const splitter = code.split('audio.addEventListener("ended", () => {')
 assert.match(splitter[1], /setPlayerDisplay\(\s*\)\s*;?/)
 ```
 
-You should call the `highlightCurrentSong` function.
+Você deve chamar a função `highlightCurrentSong`.
 
 ```js
 const splitter = code.split('audio.addEventListener("ended", () => {')
 assert.match(splitter[1], /highlightCurrentSong\(\s*\)\s*;?/)
 ```
 
-You should call the `setPlayButtonAccessibleText` function.
+Você deve chamar a função `setPlayButtonAccessibleText`.
 
 ```js
 const splitter = code.split('audio.addEventListener("ended", () => {')
@@ -649,7 +649,7 @@ const playSong = (id) => {
 
 const pauseSong = () => {
   userData.songCurrentTime = audio.currentTime;
-
+  
   playButton.classList.remove("playing");
   audio.pause();
 };
@@ -1436,7 +1436,7 @@ const playSong = (id) => {
 
 const pauseSong = () => {
   userData.songCurrentTime = audio.currentTime;
-
+  
   playButton.classList.remove("playing");
   audio.pause();
 };

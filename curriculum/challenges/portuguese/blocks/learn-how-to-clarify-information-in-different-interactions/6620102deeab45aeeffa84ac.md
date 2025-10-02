@@ -1,6 +1,6 @@
 ---
 id: 6620102deeab45aeeffa84ac
-title: Task 5
+title: Tarefa 5
 challengeType: 22
 dashedName: task-5
 ---
@@ -9,13 +9,13 @@ dashedName: task-5
 
 # --description--
 
-When describing the color of a person's eyes, you normally identify them first by their color. Common eye colors are `black`, `brown`, `blue`, and `green`. Depending on the color if can have a tendency to `white` or to `black` (the color itself is stronger or weaker). In this case, you can add the words `light` (tending to `white`) and `dark` (tending to `black`) before the color to express it. Another characteristic that you normally use to identify another person's eyes is the shape - `round` when it is more like a circle and `narrow` when it is more similar to a line. Finally, you can refer to them in terms of their size, `large` (when they are big) or `small` (when they are not). Tom also expresses an opinion, saying Lisa's eyes are full of energy and vitality. In this case, you say one's eyes is `bright`.
+Ao descrever a cor dos olhos de uma pessoa, você normalmente os identifica primeiro pela sua cor.As cores comuns dos olhos são `black`, `brown`, `blue` e `green`.Dependendo da cor, pode haver uma tendência para `white` ou para `black` (a própria cor é mais forte ou mais fraca).Neste caso, você pode adicionar as palavras `light` (tendendo a `white`) e `dark` (tendendo a `black`) antes da cor para expressá-la.Outra característica que você normalmente usa para identificar os olhos de outra pessoa é o formato - `round` quando é mais parecido com um círculo e `narrow` quando é mais semelhante a uma linha.Finalmente, você pode se referir a eles em termos de seu tamanho, `large` (quando são grandes) ou `small` (quando não são).Tom também expressa uma opinião, dizendo que os olhos de Lisa estão cheios de energia e vitalidade.Neste caso, você diz que os olhos de alguém estão `bright`.
 
-As you do with `hair`, the adjectives to identify a person's eyes also follow an order in English. First, you express this opinion, then move on to the size, then the shape and finally the color (preceded or not by `light` or `dark`).
+Assim como você faz com `hair`, os adjetivos para identificar os olhos de uma pessoa também seguem uma ordem em inglês.Primeiro, você expressa essa opinião, depois passa para o tamanho, depois a forma e finalmente a cor (precedida ou não por `light` ou `dark`).
 
-Example: `Tom has beautiful, small, narrow, light green eyes.`
+Exemplo: `Tom has beautiful, small, narrow, light green eyes.`
 
-Now listen and fill in the blanks with Tom's description of Lisa's eyes.
+Agora ouça e preencha as lacunas com a descrição de Tom sobre os olhos de Lisa.
 
 # --fillInTheBlank--
 
@@ -29,7 +29,7 @@ Now listen and fill in the blanks with Tom's description of Lisa's eyes.
 
 ### --feedback--
 
-Tom expresses an opinion first. He says Lisa's eyes are full of energy.
+Tom expressa uma opinião primeiro.Ele diz que os olhos de Lisa estão cheios de energia.
 
 ---
 
@@ -37,7 +37,7 @@ Tom expresses an opinion first. He says Lisa's eyes are full of energy.
 
 ### --feedback--
 
-Tom finally talks about Lisa's eye color. It is a shade close to `black`, and neither `blue` nor `green`.
+Tom finalmente fala sobre a cor dos olhos de Lisa.É um tom próximo de `black` e nem `blue` nem `green`.
 
 # --scene--
 

@@ -1,6 +1,6 @@
 ---
 id: 657fbde9a43e35ec1ebafe56
-title: Task 77
+title: Tarefa 77
 challengeType: 19
 dashedName: task-77
 ---
@@ -9,41 +9,41 @@ dashedName: task-77
 
 # --description--
 
-Listen to the audio and answer the question.
+Ouça o áudio e responda à pergunta.
 
 # --questions--
 
 ## --text--
 
-What does the phrase `Would you like to come?` convey in this context?
+O que a frase `Would you like to come?` transmite neste contexto?
 
 ## --answers--
 
-Declining an invitation
+Recusando um convite
 
 ### --feedback--
 
-The phrase is not a response indicating refusal; instead, it is an invitation being extended.
+A frase não é uma resposta indicando recusa; em vez disso, é um convite sendo feito.
 
 ---
 
-Extending an invitation
+Estendendo um convite
 
 ---
 
-Expressing gratitude
+Expressando gratidão
 
 ### --feedback--
 
-The phrase is more about offering an invitation than expressing thanks.
+A frase é mais sobre fazer um convite do que expressar agradecimento.
 
 ---
 
-Asking for information
+Solicitando informações
 
 ### --feedback--
 
-The phrase is not seeking information; rather, it is an invitation to join an event.
+A frase não está buscando informação; na verdade, é um convite para participar de um evento.
 
 ## --video-solution--
 

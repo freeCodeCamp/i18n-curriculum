@@ -23,7 +23,7 @@ Ouça o áudio para completar a frase abaixo.
 
 ### --feedback--
 
-This means very serious or important. It is often used when something needs immediate attention.
+Isso significa muito sério ou importante.É frequentemente usado quando algo precisa de atenção imediata.
 
 ---
 
@@ -31,17 +31,17 @@ This means very serious or important. It is often used when something needs imme
 
 ### --feedback--
 
-This means to change or influence something. It often describes how one thing causes a change in another.
+Isso significa mudar ou influenciar algo.Frequentemente descreve como uma coisa causa uma mudança em outra.
 
 # --explanation--
 
-`Critical` means extremely important or serious. Por exemplo:
+`Critical` significa extremamente importante ou sério.Por exemplo:
 
-`We have a critical deadline tomorrow.` – This means the deadline is very important and cannot be missed.
+`We have a critical deadline tomorrow.` – Isso significa que o prazo é muito importante e não pode ser perdido.
 
-`To affect` means to have an influence on something or cause a change. For example:
+`To affect` significa ter influência sobre algo ou causar uma mudança.Por exemplo:
 
-`The new policy may affect employee performance.` – This means the policy might change how employees perform.
+`The new policy may affect employee performance.` – Isso significa que a política pode mudar como os funcionários desempenham suas funções.
 
 # --scene--
 

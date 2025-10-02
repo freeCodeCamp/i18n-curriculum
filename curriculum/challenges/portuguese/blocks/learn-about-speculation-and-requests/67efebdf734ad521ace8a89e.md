@@ -1,6 +1,6 @@
 ---
 id: 67efebdf734ad521ace8a89e
-title: Task 57
+title: Tarefa 57
 challengeType: 22
 dashedName: task-57
 ---
@@ -9,7 +9,7 @@ dashedName: task-57
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Ouça o áudio para completar a frase abaixo.
 
 # --fillInTheBlank--
 
@@ -23,17 +23,17 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This two-word phrase refers to a security flaw in a system that lacks a fix or update to address it and can be exploited.
+Esta frase de duas palavras refere-se a uma falha de segurança em um sistema que não possui uma correção ou atualização para resolvê-la e que pode ser explorada.
 
 # --explanation--
 
-`Unpatched` means that something has not been updated or fixed.
+`Unpatched` significa que algo não foi atualizado ou corrigido.
 
-`Vulnerability` refers to a weakness in a system that can be exploited.
+`Vulnerability` refere-se a uma vulnerabilidade em um sistema que pode ser explorada.
 
-Together, an `unpatched vulnerability` is a security weakness that has not been fixed or updated. Hackers can exploit these weaknesses to attack a system. For example:
+Juntos, uma `unpatched vulnerability` é uma falha de segurança que não foi corrigida ou atualizada.Hackers podem explorar essas vulnerabilidades para atacar um sistema.Por exemplo:
 
-`We need to fix the unpatched vulnerability now.` - The team knows about security problem but it hasn't been repaired yet.
+`We need to fix the unpatched vulnerability now.` - A equipe sabe sobre o problema de segurança mas ele ainda não foi reparado.
 
 # --scene--
 

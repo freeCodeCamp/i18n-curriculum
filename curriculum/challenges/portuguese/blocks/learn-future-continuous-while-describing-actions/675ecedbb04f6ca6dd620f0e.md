@@ -23,7 +23,7 @@ Ouça o áudio para completar a frase abaixo.
 
 ### --feedback--
 
-This is a type of cyberattack where a hacker secretly gets in the middle of two people or systems talking to each other. The hacker can see, change, or steal information being shared without anyone knowing. This is a compound word, remember to use `-`. The first letters of the first and the forth word are capitalized.
+Este é um tipo de ciberataque onde um hacker secretamente se coloca no meio de duas pessoas ou sistemas que estão se comunicando.O hacker pode ver, alterar ou roubar informações que estão sendo compartilhadas sem que ninguém saiba.Esta é uma palavra composta, lembre-se de usar `-`.As primeiras letras da primeira e da quarta palavra estão capitalizadas.
 
 ---
 
@@ -31,17 +31,17 @@ This is a type of cyberattack where a hacker secretly gets in the middle of two 
 
 ### --feedback--
 
-This word in the plural form means actions by hackers or criminals to harm a computer system, steal information, or cause problems.
+Esta palavra no plural significa ações de hackers ou criminosos para prejudicar um sistema de computador, roubar informações ou causar problemas.
 
 # --explanation--
 
-`Man-in-the-Middle` (or `MITM`) is a type of attack where a hacker secretly gets between two people or systems that are communicating. The hacker listens to or changes the information being shared without anyone knowing. Por exemplo:
+`Man-in-the-Middle` (ou `MITM`) é um tipo de ataque onde um hacker se posiciona secretamente entre duas pessoas ou sistemas que estão se comunicando.O hacker escuta ou altera as informações que estão sendo compartilhadas sem que ninguém saiba.Por exemplo:
 
-`A Man-in-the-Middle attack (MITM) happened when a hacker intercepted the data sent between a user's computer and their bank.` - The hacker pretended to be the bank, intercepted the information, and stole the user's login credentials. This allowed the hacker to access the bank account without the user knowing.
+`A Man-in-the-Middle attack (MITM) happened when a hacker intercepted the data sent between a user's computer and their bank.` - O hacker fingiu ser o banco, interceptou as informações e roubou as credenciais de login do usuário.Isso permitiu que o hacker acessasse a conta bancária sem que o usuário soubesse.
 
-`Attacks` are actions by hackers to harm computer systems, steal information, or cause problems. For example:
+`Attacks` são ações de hackers para prejudicar sistemas de computador, roubar informações ou causar problemas.Por exemplo:
 
-`The website was unavailable for hours because of a cyber attack that overloaded its server.` - It indicates the hacker sent too much fake traffic to the website, making it crash or slow down. This stopped real users from accessing it, causing disruption.
+`The website was unavailable for hours because of a cyber attack that overloaded its server.` - Isso indica que o hacker enviou muito tráfego falso para o site, fazendo com que ele travasse ou ficasse lento.Isso impediu usuários reais de acessá-lo, causando interrupção.
 
 # --scene--
 

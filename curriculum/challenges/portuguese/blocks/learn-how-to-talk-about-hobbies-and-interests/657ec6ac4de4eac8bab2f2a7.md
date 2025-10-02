@@ -1,6 +1,6 @@
 ---
 id: 657ec6ac4de4eac8bab2f2a7
-title: Task 39
+title: Tarefa 39
 challengeType: 22
 dashedName: task-39
 ---
@@ -9,7 +9,7 @@ dashedName: task-39
 
 # --description--
 
-The word `date` can be used in different contexts. While it often refers to a romantic meeting between two people, it can also simply mean an appointment or a planned event between friends or colleagues. For example, saying `Let's set a date for our next meeting` uses `date` in a non-romantic way, referring to choosing a day for a meeting.
+A palavra `date` pode ser usada em diferentes contextos.Embora muitas vezes se refira a um encontro romântico entre duas pessoas, também pode simplesmente significar um compromisso ou um evento planejado entre amigos ou colegas.Por exemplo, dizer `Let's set a date for our next meeting` usa `date` de uma forma não romântica, referindo-se a escolher um dia para uma reunião.
 
 # --fillInTheBlank--
 
@@ -23,7 +23,7 @@ The word `date` can be used in different contexts. While it often refers to a ro
 
 ### --feedback--
 
-This word specifies the type of activity planned, indicating it's an outing involving bicycles.
+Esta palavra especifica o tipo de atividade planejada, indicando que é um passeio envolvendo bicicletas.
 
 ---
 
@@ -31,7 +31,7 @@ This word specifies the type of activity planned, indicating it's an outing invo
 
 ### --feedback--
 
-This word refers to a scheduled meeting or event.
+Esta palavra se refere a uma reunião ou evento agendado.
 
 # --scene--
 

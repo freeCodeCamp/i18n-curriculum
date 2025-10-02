@@ -1,35 +1,35 @@
 ---
 id: 612e8eebe3a6dc3fcc33a66f
-title: Step 11
+title: Passo 11
 challengeType: 0
 dashedName: step-11
 ---
 
 # --description--
 
-Now target your `#piano` element with an `id` selector. Set `background-color` property to `#00471b`, the `width` property to `992px` and the `height` property to `290px`.
+Agora dê ao elemento `#piano` um seletor `id`.Defina a propriedade `background-color` como `#00471b`, uma propriedade `width` de `992px` e uma propriedade `height` de `290px`.
 
 # --hints--
 
-You should have a `#piano` selector.
+Você deve ter um seletor `#piano`.
 
 ```js
 assert(new __helpers.CSSHelp(document).getStyle('#piano'));
 ```
 
-Your `#piano` selector should have the `background-color` property set to `#00471b`.
+O seletor `#piano` deve ter a propriedade `background-color` definida como `#00471b`.
 
 ```js
 assert(new __helpers.CSSHelp(document).getStyle('#piano')?.backgroundColor === 'rgb(0, 71, 27)');
 ```
 
-Your `#piano` selector should have a `width` property set to `992px`.
+O seletor `#piano` deve ter a propriedade `width` definida como `992px`.
 
 ```js
 assert(new __helpers.CSSHelp(document).getStyle('#piano')?.width === '992px');
 ```
 
-Your `#piano` selector should have the `height` set to `290px`.
+O seletor `#piano` deve ter a propriedade `height` definida como `290px`.
 
 ```js
 assert(new __helpers.CSSHelp(document).getStyle('#piano')?.height === '290px');

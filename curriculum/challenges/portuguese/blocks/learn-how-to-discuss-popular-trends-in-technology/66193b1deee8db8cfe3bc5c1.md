@@ -15,35 +15,35 @@ Ouça o áudio e responda à pergunta.
 
 ## --text--
 
-What collaboration tools does Alice mention?
+Quais ferramentas de colaboração Alice menciona?
 
 ## --answers--
 
-`Project management tools` and `cloud storage services`
+`Project management tools` e `cloud storage services`
 
 ---
 
-`The internet` and `computer networks`
+`The internet` e `computer networks`
 
 ### --feedback--
 
-Although these are important tools in today's world, they are not the tools Alice mentions.
+Embora essas sejam ferramentas importantes no mundo de hoje, elas não são as ferramentas que Alice menciona.
 
 ---
 
-`Screwdrivers` and `hammers`
+`Screwdrivers` e `hammers`
 
 ### --feedback--
 
-These are manual tools, not collaboration tools.
+Estas são ferramentas manuais, não ferramentas de colaboração.
 
 ---
 
-`Chat apps` and `email`
+`Chat apps` e `email`
 
 ### --feedback--
 
-These can be considered collaboration tools in a virtual environment, but Alice does not mention them.
+Estes podem ser considerados ferramentas de colaboração em um ambiente virtual, mas Alice não as menciona.
 
 ## --video-solution--
 

@@ -23,15 +23,15 @@ Ouça o áudio para completar a frase abaixo.
 
 ### --feedback--
 
-This is used to show that something happens earlier in time than something else.
+Isto é usado para mostrar que algo acontece antes no tempo do que outra coisa.
 
 # --explanation--
 
-`Before` is used to show that one action happens earlier than another. Por exemplo:
+`Before` é usado para mostrar que uma ação acontece antes de outra.Por exemplo:
 
-- `Please save your work before you close the program.` – This means saving should happen earlier than closing the program.
+- `Please save your work before you close the program.` – Isso significa que a gravação deve acontecer antes de fechar o programa.
 
-- `He always checks his code carefully before submitting it.` – This means checking happens first, before the action of submitting.
+- `He always checks his code carefully before submitting it.` – Isso significa que a verificação acontece primeiro, antes da ação de enviar.
 
 # --scene--
 

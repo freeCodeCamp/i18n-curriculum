@@ -1,6 +1,6 @@
 ---
 id: 67a9efcabf0dac0baa0ec536
-title: Task 4
+title: Tarefa 4
 challengeType: 22
 dashedName: task-4
 ---
@@ -9,7 +9,7 @@ dashedName: task-4
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Ouça o áudio para completar a frase abaixo.
 
 # --fillInTheBlank--
 
@@ -23,13 +23,13 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-Think about what people need to improve their home workspace. This includes desks, chairs, and shelves.
+Pense no que as pessoas precisam para melhorar seu espaço de trabalho em casa.Isso inclui mesas, cadeiras e prateleiras.
 
 # --explanation--
 
-`Office furniture` refers to desks, chairs, shelves, and other items used in a workspace.
+`Office furniture` refere-se a mesas, cadeiras, prateleiras e outros itens usados em um espaço de trabalho.
 
-In this dialogue, Bob is talking about how employees are choosing to spend their remote work stipend. Since working from home requires a comfortable and productive setup, many people use the stipend to buy office furniture such as ergonomic chairs or spacious desks.
+Neste diálogo, Bob está falando sobre como os funcionários estão escolhendo gastar seu subsídio para trabalho remoto.Como trabalhar de casa requer um ambiente confortável e produtivo, muitas pessoas usam o auxílio para comprar móveis de escritório como cadeiras ergonômicas ou mesas espaçosas.
 
 # --scene--
 

@@ -1,6 +1,6 @@
 ---
 id: 68bb001c22f3bcbd1fdf38fa
-title: "Task 1"
+title: "Tarefa 1"
 challengeType: 19
 dashedName: task-1
 ---
@@ -12,21 +12,22 @@ dashedName: task-1
 `¡Bienvenidos!`  
 Welcome to the A1 Professional Spanish course!
 
-This is an **elementary course** focused on teaching you the very basics of the Spanish language.
+Este é um **curso elementar** focado em ensinar a você o básico da língua espanhola. 
 
-The section you're in now is called `warm-up`. This is where you'll be introduced to new words before they appear in longer sentences or conversations.
+A seção em que você está agora é chamada `warm-up`. É aqui que você será apresentado a novas palavras antes que elas apareçam em sentenças ou conversas mais longas.
 
-Let's start by practicing your first word in Spanish.
+Vamos começar praticando sua primeira palavra em espanhol.
 
 # --instructions--
 
-Listen to the audio and answer the question below. There's just **one** correct answer. If you need help, click on the `explanation` at the bottom of the lesson.
+Ouça o áudio e responda à pergunta abaixo.  
+Há apenas **uma** resposta correta. Se precisar de ajuda, clique na `explanation` no final da lição.
 
 # --questions--
 
 ## --text--
 
-What does the speaker say?
+O que o orador diz?
 
 ## --answers--
 
@@ -38,7 +39,7 @@ What does the speaker say?
 
 ### --feedback--
 
-This means the opposite of what the speaker says. Open the explanation section if you need further help.
+Isso significa o oposto do que o locutor diz. Abra a seção de explicação se precisar de mais ajuda.
 
 ---
 
@@ -46,7 +47,7 @@ This means the opposite of what the speaker says. Open the explanation section i
 
 ### --feedback--
 
-This means the opposite of what the speaker says. Open the explanation section if you need further help.
+Isso significa o oposto do que o falante diz. Abra a seção de explicação se precisar de mais ajuda.
 
 ---
 
@@ -54,7 +55,7 @@ This means the opposite of what the speaker says. Open the explanation section i
 
 ### --feedback--
 
-This is a polite word, but it's not what you hear in the audio.
+Esta é uma palavra educada, mas não é o que você ouve no áudio.
 
 ## --video-solution--
 
@@ -62,9 +63,9 @@ This is a polite word, but it's not what you hear in the audio.
 
 # --explanation--
 
-The word `Hola` is a greeting. It is used when you meet someone, similar to "Hello" or "Hi" in English. For example:
+A palavra `Hola` é uma saudação. É usada quando você encontra alguém, semelhante a "Hello" ou "Hi" em inglês. Por exemplo:
 
-`Hola, Buenos Días` – Hi, Good morning!
+`Hola, Buenos Días` – Olá, bom dia!  
 
 # --scene--
 
