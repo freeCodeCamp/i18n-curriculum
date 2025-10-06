@@ -9,31 +9,23 @@ dashedName: task-61
 
 # --description--
 
-La expresión `at least` se utiliza cuando quieres decir que la cantidad más pequeña o número de algo está bien o es suficiente. Es como decir "no menos de esta cantidad".
+`At least` is used when you want to say the smallest amount or number of something is okay or enough. Es como decir "no menos de esta cantidad". For example:
 
-Por ejemplo, si dices, `I study English for at least 30 minutes every day`, significa que dedicas 30 minutos o más a estudiar inglés diariamente, pero nunca menos de 30 minutos.
+`I study English for at least 30 minutes every day.` - This means you spend 30 minutes or more studying English daily, but never less than 30 minutes.
 
 # --fillInTheBlank--
 
 ## --sentence--
 
-`I go to BLANK BLANK one convention every year. It's the best moment of the year for me.`
+`I go to BLANK one convention every year. It's the best moment of the year for me.`
 
 ## --blanks--
 
-`at`
+`at least`
 
 ### --feedback--
 
-Esta palabra es una preposición comúnmente usada en expresiones que indican una cantidad mínima.
-
----
-
-`least`
-
-### --feedback--
-
-Esta palabra a menudo sigue a la palabra anterior para formar una frase que significa "la cantidad o grado mínimo".
+These two words form an expression indicating a minimum amount.
 
 # --scene--
 
