@@ -47,7 +47,7 @@ To improve comfort and prevent back pain.
 
 To buy decorations for their home office.
 
-### --反饋--
+### --feedback--
 
 The article doesn't discuss furniture that improves decorations.
 
@@ -55,7 +55,7 @@ The article doesn't discuss furniture that improves decorations.
 
 To impress their coworkers.
 
-### --反饋--
+### --feedback--
 
 The reason given in the article isn't appearances.
 

@@ -80,7 +80,7 @@ The second parameter of `includes()` specifies the starting position for the sea
 
 `undefined`
 
-### --フィードバック--
+### --feedback--
 
 The second parameter of `includes()` specifies the starting position for the search.
 

@@ -30,7 +30,7 @@ Think about what specifically makes the team more motivated, not just the size o
 
 Taking a long break
 
-### --反饋--
+### --feedback--
 
 Consider if breaks are mentioned as a way to increase motivation.
 
@@ -42,7 +42,7 @@ Seeing the team inspired
 
 Solving problems quickly
 
-### --反饋--
+### --feedback--
 
 Reflect on whether the speed of solving problems is what Maria highlights as motivating.
 

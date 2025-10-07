@@ -33,7 +33,7 @@ Jessica doesn't mention leaving the meeting.
 
 Because the team already knows about the bug.
 
-### --反馈--
+### --feedback--
 
 Jessica is explaining the bug because it might affect the team.
 
@@ -41,7 +41,7 @@ Jessica is explaining the bug because it might affect the team.
 
 Because she doesn't think the bug is important.
 
-### --反馈--
+### --feedback--
 
 Jessica thinks the issue is important, but she also wants to respect the meeting agenda.
 

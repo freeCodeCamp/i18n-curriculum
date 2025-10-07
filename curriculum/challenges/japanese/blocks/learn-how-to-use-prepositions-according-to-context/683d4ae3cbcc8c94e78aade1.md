@@ -29,7 +29,7 @@ Bob doesn't say the exit is blocked - he just mentions its location.
 
 That the back door needs a new lock.
 
-### --フィードバック--
+### --feedback--
 
 Bob doesn't mention anything about locks or a back door needing repairs.
 

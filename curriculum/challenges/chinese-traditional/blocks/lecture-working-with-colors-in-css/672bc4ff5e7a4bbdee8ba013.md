@@ -58,7 +58,7 @@ Named colors are simpler to write and make code more readable.
 
 Named colors provide a wider range of color options than hex codes.
 
-### --反饋--
+### --feedback--
 
 Think about the simplicity and readability aspect of named colors.
 
@@ -66,7 +66,7 @@ Think about the simplicity and readability aspect of named colors.
 
 Named colors are the most precise way to define colors in web design.
 
-### --反饋--
+### --feedback--
 
 考慮一下命名顏色的簡潔性和可讀性。
 
@@ -94,7 +94,7 @@ When your design requires very specific or nuanced shades of color.
 
 When your design involves only primary colors.
 
-### --反饋--
+### --feedback--
 
 Think about the limitations of named colors in more complex designs.
 
@@ -102,7 +102,7 @@ Think about the limitations of named colors in more complex designs.
 
 When collaborating with others on a simple project.
 
-### --反饋--
+### --feedback--
 
 思考在更復雜的設計中命名顏色的侷限性。
 
@@ -126,7 +126,7 @@ Named colors are descriptive words, not numerical codes.
 
 `rgb(255, 99, 71)`
 
-### --反饋--
+### --feedback--
 
 命名顏色是描述性詞語，而不是數字代碼。
 
@@ -138,7 +138,7 @@ Named colors are descriptive words, not numerical codes.
 
 `hsl(120, 100%, 50%)`
 
-### --反饋--
+### --feedback--
 
 Named colors are descriptive words, not numerical codes.
 

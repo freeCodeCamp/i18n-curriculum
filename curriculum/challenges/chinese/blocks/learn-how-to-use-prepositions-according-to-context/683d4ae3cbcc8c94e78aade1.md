@@ -29,7 +29,7 @@ Bob doesn't say the exit is blocked - he just mentions its location.
 
 That the back door needs a new lock.
 
-### --反馈--
+### --feedback--
 
 Bob doesn't mention anything about locks or a back door needing repairs.
 
@@ -37,7 +37,7 @@ Bob doesn't mention anything about locks or a back door needing repairs.
 
 That the server room needs to be cleaned.
 
-### --反馈--
+### --feedback--
 
 There is no mention of cleaning in Bob's sentence.
 

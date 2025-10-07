@@ -29,7 +29,7 @@ This word is used to specify the module that is currently being discussed.
 
 `new`
 
-### --反饋--
+### --feedback--
 
 Something recent.
 
@@ -37,7 +37,7 @@ Something recent.
 
 `module`
 
-### --反饋--
+### --feedback--
 
 A specific part or section of the training program.
 

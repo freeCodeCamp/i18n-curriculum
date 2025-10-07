@@ -33,7 +33,7 @@ Although these are important tools in today's world, they are not the tools Alic
 
 `Screwdrivers` and `hammers`
 
-### --反饋--
+### --feedback--
 
 These are manual tools, not collaboration tools.
 
@@ -41,7 +41,7 @@ These are manual tools, not collaboration tools.
 
 `Chat apps` and `email`
 
-### --反饋--
+### --feedback--
 
 These can be considered collaboration tools in a virtual environment, but Alice does not mention them.
 

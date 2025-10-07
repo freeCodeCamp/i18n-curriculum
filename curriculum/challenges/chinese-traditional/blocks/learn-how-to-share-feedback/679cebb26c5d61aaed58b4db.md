@@ -33,7 +33,7 @@ He doesn't know anything about it.
 
 He already talked to the client.
 
-### --反饋--
+### --feedback--
 
 James does not mention speaking to the client.
 
@@ -41,7 +41,7 @@ James does not mention speaking to the client.
 
 He received an email about the issue.
 
-### --反饋--
+### --feedback--
 
 James states that he didn't hear anything.
 

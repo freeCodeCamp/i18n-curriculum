@@ -35,7 +35,7 @@ Yes, she is available and wants know what's the problem.
 
 No, she cannot talk right now she has her own problems.
 
-### --反饋--
+### --feedback--
 
 Sarah mentions that she is not busy.
 
@@ -43,7 +43,7 @@ Sarah mentions that she is not busy.
 
 Yes, but only for a moment because she has her own problems.
 
-### --反饋--
+### --feedback--
 
 Sarah doesn't limit the time; she simply states that she is not busy.
 

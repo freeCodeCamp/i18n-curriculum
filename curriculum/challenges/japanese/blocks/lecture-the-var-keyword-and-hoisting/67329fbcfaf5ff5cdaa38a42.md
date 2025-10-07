@@ -55,7 +55,7 @@ Think about where a `var` variable declared outside a function can be accessed.
 
 Function scope.
 
-### --フィードバック--
+### --feedback--
 
 Think about where a `var` variable declared outside a function can be accessed.
 

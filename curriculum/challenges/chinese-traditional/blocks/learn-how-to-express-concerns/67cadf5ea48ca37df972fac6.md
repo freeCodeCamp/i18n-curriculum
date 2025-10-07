@@ -33,7 +33,7 @@ Maria does not mention extending the deadline.
 
 They would like to reduce the number of tasks.
 
-### --反饋--
+### --feedback--
 
 Maria does not mention reducing the number of tasks.
 
@@ -41,7 +41,7 @@ Maria does not mention reducing the number of tasks.
 
 They are asking for more meetings.
 
-### --反饋--
+### --feedback--
 
 Maria does not mention additional meetings.
 

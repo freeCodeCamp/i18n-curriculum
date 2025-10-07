@@ -35,7 +35,7 @@ Yes, she is available and wants know what's the problem.
 
 No, she cannot talk right now she has her own problems.
 
-### --フィードバック--
+### --feedback--
 
 Sarah mentions that she is not busy.
 

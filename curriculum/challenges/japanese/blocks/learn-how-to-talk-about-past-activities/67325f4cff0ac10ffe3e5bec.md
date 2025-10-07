@@ -33,7 +33,7 @@ James isn't talking about future plans; he is reflecting on something he did bef
 
 A habit he continues now.
 
-### --フィードバック--
+### --feedback--
 
 James uses the phrase `used to`, which shows he is describing something he did in the past, not currently.
 

@@ -114,7 +114,7 @@ Think about how you can interact with users purely with CSS.
 
 They allow you to modify the DOM structure dynamically.
 
-### --フィードバック--
+### --feedback--
 
 Think about how you can interact with users purely with CSS.
 

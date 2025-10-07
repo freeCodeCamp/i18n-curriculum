@@ -27,7 +27,7 @@ Look for a sentence that uses `these` for multiple items nearby and `those` for 
 
 `Those are my papers on the table, and these is my stapler.`
 
-### --反馈--
+### --feedback--
 
 Look for a sentence that uses `these` for multiple items nearby and `those` for multiple items at a distance or not being directly addressed.
 
@@ -39,7 +39,7 @@ Look for a sentence that uses `these` for multiple items nearby and `those` for 
 
 `Those are my phone, and these are my charger on the shelf.`
 
-### --反馈--
+### --feedback--
 
 Look for a sentence that uses `these` for multiple items nearby and `those` for multiple items at a distance or not being directly addressed.
 

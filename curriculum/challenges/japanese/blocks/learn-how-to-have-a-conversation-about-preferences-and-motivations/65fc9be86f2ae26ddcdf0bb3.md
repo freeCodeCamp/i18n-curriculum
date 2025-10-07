@@ -30,7 +30,7 @@ Think about what specifically makes the team more motivated, not just the size o
 
 Taking a long break
 
-### --フィードバック--
+### --feedback--
 
 Consider if breaks are mentioned as a way to increase motivation.
 

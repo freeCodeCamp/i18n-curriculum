@@ -80,7 +80,7 @@ The second parameter of `includes()` specifies the starting position for the sea
 
 `undefined`
 
-### --反饋--
+### --feedback--
 
 The second parameter of `includes()` specifies the starting position for the search.
 
@@ -88,7 +88,7 @@ The second parameter of `includes()` specifies the starting position for the sea
 
 會報錯。
 
-### --反饋--
+### --feedback--
 
 The second parameter of `includes()` specifies the starting position for the search.
 
@@ -121,7 +121,7 @@ Remember that `includes()` is case-sensitive when dealing with strings.
 
 `undefined`
 
-### --反饋--
+### --feedback--
 
 Remember that `includes()` is case-sensitive when dealing with strings.
 
@@ -129,7 +129,7 @@ Remember that `includes()` is case-sensitive when dealing with strings.
 
 會報錯。
 
-### --反饋--
+### --feedback--
 
 Remember that `includes()` is case-sensitive when dealing with strings.
 
@@ -162,7 +162,7 @@ The `includes()` method uses strict equality (`===`) for comparison.
 
 `undefined`
 
-### --反饋--
+### --feedback--
 
 The `includes()` method uses strict equality (`===`) for comparison.
 
@@ -170,7 +170,7 @@ The `includes()` method uses strict equality (`===`) for comparison.
 
 會報錯。
 
-### --反饋--
+### --feedback--
 
 The `includes()` method uses strict equality (`===`) for comparison.
 

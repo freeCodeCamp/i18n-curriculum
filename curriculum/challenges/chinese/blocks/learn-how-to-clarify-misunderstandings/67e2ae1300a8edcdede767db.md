@@ -29,7 +29,7 @@ This verb is used when someone wants to get information or permission.
 
 `about`
 
-### --反馈--
+### --feedback--
 
 This preposition connects related topic or subject.
 

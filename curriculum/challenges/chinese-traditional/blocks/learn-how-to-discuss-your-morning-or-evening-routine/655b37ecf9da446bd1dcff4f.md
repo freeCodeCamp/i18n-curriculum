@@ -29,7 +29,7 @@ This adjective describes the relaxed nature of Sophie's Sunday morning.
 
 `early`
 
-### --反饋--
+### --feedback--
 
 This word indicates the time Sophie chooses to go to sleep on Sunday evening.
 

@@ -229,7 +229,7 @@ It helps manage optimistic updates by updating the UI immediately while waiting 
 
 It enables automatic error handling and rollback for failed API requests in React applications.
 
-### --フィードバック--
+### --feedback--
 
 This hook ensures the UI reflects expected changes before an async operation completes.
 

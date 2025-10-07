@@ -33,7 +33,7 @@ Jessica doesn't mention leaving the meeting.
 
 Because the team already knows about the bug.
 
-### --フィードバック--
+### --feedback--
 
 Jessica is explaining the bug because it might affect the team.
 

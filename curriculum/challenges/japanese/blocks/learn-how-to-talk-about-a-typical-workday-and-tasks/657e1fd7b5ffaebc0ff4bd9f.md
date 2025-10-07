@@ -33,7 +33,7 @@ Because he finds Sophie's tips helpful.
 
 For inviting him to lunch.
 
-### --フィードバック--
+### --feedback--
 
 He is thanking her for the advice, not for a lunch invitation.
 
