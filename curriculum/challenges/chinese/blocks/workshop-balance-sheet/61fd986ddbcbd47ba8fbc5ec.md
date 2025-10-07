@@ -2,7 +2,7 @@
 id: 61fd986ddbcbd47ba8fbc5ec
 title: 步骤-23
 challengeType: 0
-dashedName: 步骤-23
+dashedName: step-23
 ---
 
 # --description--

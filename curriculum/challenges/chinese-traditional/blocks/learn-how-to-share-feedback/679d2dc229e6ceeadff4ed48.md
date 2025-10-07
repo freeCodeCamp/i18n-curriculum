@@ -29,7 +29,7 @@ This word is used to avoid repeating the verb `update` from the previous sentenc
 
 `delay`
 
-### --反饋--
+### --feedback--
 
 This word means to postpone or make something happen later than planned.
 

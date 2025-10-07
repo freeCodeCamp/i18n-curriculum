@@ -32,7 +32,7 @@ A word that shows two actions happening at the same time or one action depending
 
 `more`
 
-### --反馈--
+### --feedback--
 
 A word that indicates a greater quantity or number.
 
@@ -40,7 +40,7 @@ A word that indicates a greater quantity or number.
 
 `users`
 
-### --反馈--
+### --feedback--
 
 A word that refers to the people navigating the updated interface.
 

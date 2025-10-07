@@ -31,7 +31,7 @@ This word is often used to show thankfulness or gratitude.
 
 `but`
 
-### --フィードバック--
+### --feedback--
 
 This word is used to introduce a phrase or clause contrasting with what has already been mentioned.
 

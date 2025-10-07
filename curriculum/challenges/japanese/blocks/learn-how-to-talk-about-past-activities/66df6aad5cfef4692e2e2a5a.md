@@ -32,7 +32,7 @@ A word that shows two actions happening at the same time or one action depending
 
 `more`
 
-### --フィードバック--
+### --feedback--
 
 A word that indicates a greater quantity or number.
 

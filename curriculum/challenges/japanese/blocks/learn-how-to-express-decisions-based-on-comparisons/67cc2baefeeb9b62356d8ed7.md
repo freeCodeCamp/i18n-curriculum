@@ -53,7 +53,7 @@ This comparative adjective describes something that surpasses another in quality
 
 `more`
 
-### --フィードバック--
+### --feedback--
 
 This word is used to form the comparative of adjectives. It comes before an adjective and indicates a higher degree.
 

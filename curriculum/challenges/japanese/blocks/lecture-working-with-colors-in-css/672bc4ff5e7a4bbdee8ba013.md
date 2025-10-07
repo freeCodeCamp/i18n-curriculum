@@ -58,7 +58,7 @@ Named colors are simpler to write and make code more readable.
 
 Named colors provide a wider range of color options than hex codes.
 
-### --フィードバック--
+### --feedback--
 
 Think about the simplicity and readability aspect of named colors.
 

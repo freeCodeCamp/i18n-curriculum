@@ -29,7 +29,7 @@ This word is used to specify the module that is currently being discussed.
 
 `new`
 
-### --フィードバック--
+### --feedback--
 
 Something recent.
 

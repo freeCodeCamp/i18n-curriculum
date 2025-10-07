@@ -2,7 +2,7 @@
 id: 67efdfa59ffafb1f2a56381e
 title: Aufgabe 55
 challengeType: 19
-dashedName: aufgabe-55
+dashedName: task-55
 ---
 
 <!-- (audio) Jessica: Hey Jake, we had a security breach reported last night. I wanted to discuss what might have caused it. Do you have any ideas? -->

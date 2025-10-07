@@ -114,7 +114,7 @@ Think about how you can interact with users purely with CSS.
 
 They allow you to modify the DOM structure dynamically.
 
-### --反饋--
+### --feedback--
 
 Think about how you can interact with users purely with CSS.
 
@@ -126,7 +126,7 @@ They let you provide feedback to the user without relying on JavaScript.
 
 They let you style the last element in a list.
 
-### --反饋--
+### --feedback--
 
 Think about how you can interact with users purely with CSS.
 
@@ -150,7 +150,7 @@ Think about how forms handle user selections.
 
 It selects an element when it is being hovered over.
 
-### --反饋--
+### --feedback--
 
 Think about how forms handle user selections.
 
@@ -162,7 +162,7 @@ It styles elements like checkboxes or radio buttons that are checked.
 
 It styles an element when it gains focus.
 
-### --反饋--
+### --feedback--
 
 Think about how forms handle user selections.
 
@@ -190,7 +190,7 @@ It applies styles when an element gains focus, usually through keyboard navigati
 
 It selects an element after a form is submitted.
 
-### --反饋--
+### --feedback--
 
 Think about how users navigate forms using a keyboard.
 
@@ -198,7 +198,7 @@ Think about how users navigate forms using a keyboard.
 
 It applies styles to an element when it is disabled.
 
-### --反饋--
+### --feedback--
 
 Think about how users navigate forms using a keyboard.
 

@@ -33,7 +33,7 @@ She understands Bob's concern but still thinks flexibility is a better option.
 
 She does not understand Bob's concern.
 
-### --フィードバック--
+### --feedback--
 
 Anna understands Bob's argument.
 

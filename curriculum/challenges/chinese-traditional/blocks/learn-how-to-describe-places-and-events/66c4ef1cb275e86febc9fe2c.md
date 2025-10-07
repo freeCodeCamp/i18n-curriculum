@@ -34,7 +34,7 @@ The action of showing or rendering something. This word ends in `-ing`.
 
 `running`
 
-### --反饋--
+### --feedback--
 
 Indicates the extension is active and functioning. This word ends in `-ing`.
 

@@ -2,7 +2,7 @@
 id: 63eff98ffb1d5a0d24ec79cb
 title: 步驟 26
 challengeType: 0
-dashedName: 步驟-26
+dashedName: step-26
 ---
 
 # --description--

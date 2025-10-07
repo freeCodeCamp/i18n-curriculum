@@ -29,7 +29,7 @@ This means very serious or important. It is often used when something needs imme
 
 `affect`
 
-### --反馈--
+### --feedback--
 
 This means to change or influence something. It often describes how one thing causes a change in another.
 

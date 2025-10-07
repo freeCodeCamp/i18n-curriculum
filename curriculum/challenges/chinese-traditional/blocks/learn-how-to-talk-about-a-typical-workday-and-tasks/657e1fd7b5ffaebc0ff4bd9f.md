@@ -33,7 +33,7 @@ Because he finds Sophie's tips helpful.
 
 For inviting him to lunch.
 
-### --反饋--
+### --feedback--
 
 He is thanking her for the advice, not for a lunch invitation.
 
@@ -41,7 +41,7 @@ He is thanking her for the advice, not for a lunch invitation.
 
 For helping him with a project.
 
-### --反饋--
+### --feedback--
 
 Tom's gratitude is related to the tips about organization, not specific project help.
 

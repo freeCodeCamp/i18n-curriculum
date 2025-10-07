@@ -229,7 +229,7 @@ It helps manage optimistic updates by updating the UI immediately while waiting 
 
 It enables automatic error handling and rollback for failed API requests in React applications.
 
-### --反馈--
+### --feedback--
 
 This hook ensures the UI reflects expected changes before an async operation completes.
 
@@ -237,7 +237,7 @@ This hook ensures the UI reflects expected changes before an async operation com
 
 It optimizes state updates by batching them together to improve performance.
 
-### --反馈--
+### --feedback--
 
 This hook ensures the UI reflects expected changes before an async operation completes.
 
@@ -265,7 +265,7 @@ One updates the UI before the server even knows about the request.
 
 The `useOptimistic` hook is used for handling errors, whereas a loading state is only for showing spinners.
 
-### --反馈--
+### --feedback--
 
 One updates the UI before the server even knows about the request.
 
@@ -273,7 +273,7 @@ One updates the UI before the server even knows about the request.
 
 Both are the same, but `useOptimistic` provides automatic retries for failed requests.
 
-### --反馈--
+### --feedback--
 
 One updates the UI before the server even knows about the request.
 
@@ -305,7 +305,7 @@ This function updates the UI before the actual state changes.
 
 It replaces the actual state with a temporary state after receiving a server response.
 
-### --反馈--
+### --feedback--
 
 This function updates the UI before the actual state changes.
 
@@ -313,7 +313,7 @@ This function updates the UI before the actual state changes.
 
 It validates server data before applying the optimistic update to the UI.
 
-### --反馈--
+### --feedback--
 
 This function updates the UI before the actual state changes.
 

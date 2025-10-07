@@ -33,7 +33,7 @@ Her most recent meeting with Bob.
 
 A future project deadline.
 
-### --反馈--
+### --feedback--
 
 Maria does not mention a deadline, only her meeting with Bob.
 
@@ -41,7 +41,7 @@ Maria does not mention a deadline, only her meeting with Bob.
 
 The client's budget request.
 
-### --反馈--
+### --feedback--
 
 Maria does not refer to a client request in this sentence.
 

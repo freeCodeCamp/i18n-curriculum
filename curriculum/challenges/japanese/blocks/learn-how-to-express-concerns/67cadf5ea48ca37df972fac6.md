@@ -33,7 +33,7 @@ Maria does not mention extending the deadline.
 
 They would like to reduce the number of tasks.
 
-### --フィードバック--
+### --feedback--
 
 Maria does not mention reducing the number of tasks.
 

@@ -55,7 +55,7 @@ Think about where a `var` variable declared outside a function can be accessed.
 
 Function scope.
 
-### --反馈--
+### --feedback--
 
 Think about where a `var` variable declared outside a function can be accessed.
 
@@ -67,7 +67,7 @@ Global scope.
 
 Module scope.
 
-### --反馈--
+### --feedback--
 
 Think about where a `var` variable declared outside a function can be accessed.
 
@@ -115,7 +115,7 @@ Remember that `var` is function-scoped or globally-scoped, and it allows redecla
 20
 ```
 
-### --反馈--
+### --feedback--
 
 Remember that `var` is function-scoped or globally-scoped, and it allows redeclaration within the same scope.
 
@@ -126,7 +126,7 @@ Remember that `var` is function-scoped or globally-scoped, and it allows redecla
 10
 ```
 
-### --反馈--
+### --feedback--
 
 Remember that `var` is function-scoped or globally-scoped, and it allows redeclaration within the same scope.
 
@@ -154,7 +154,7 @@ Consider which statement is false about `var`'s behavior or support.
 
 `var` variables are function-scoped, not block-scoped.
 
-### --反馈--
+### --feedback--
 
 Consider which statement is false about `var`'s behavior or support.
 
@@ -162,7 +162,7 @@ Consider which statement is false about `var`'s behavior or support.
 
 `var` variables are hoisted.
 
-### --反馈--
+### --feedback--
 
 Consider which statement is false about `var`'s behavior or support.
 

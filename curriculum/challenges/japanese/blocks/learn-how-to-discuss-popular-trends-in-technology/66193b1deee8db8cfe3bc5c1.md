@@ -33,7 +33,7 @@ Although these are important tools in today's world, they are not the tools Alic
 
 `Screwdrivers` and `hammers`
 
-### --フィードバック--
+### --feedback--
 
 These are manual tools, not collaboration tools.
 

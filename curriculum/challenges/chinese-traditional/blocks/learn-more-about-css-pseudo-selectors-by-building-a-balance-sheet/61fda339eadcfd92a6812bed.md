@@ -2,7 +2,7 @@
 id: 61fda339eadcfd92a6812bed
 title: 第 30 步
 challengeType: 0
-dashedName: 步驟-30
+dashedName: step-30
 ---
 
 # --description--

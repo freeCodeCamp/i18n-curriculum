@@ -29,7 +29,7 @@ This two-word phrase means introduced or caused something to appear or become an
 
 `unexpected`
 
-### --反馈--
+### --feedback--
 
 This word means something happened that was not planned or predicted. It ends with `-ed`.
 
