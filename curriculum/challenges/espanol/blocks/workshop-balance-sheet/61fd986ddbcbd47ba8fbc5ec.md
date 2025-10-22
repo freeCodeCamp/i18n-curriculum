@@ -29,7 +29,7 @@ const table = document.querySelectorAll('table')?.[1];
 const tbody = table?.querySelector('tbody');
 const tableRow = tbody?.querySelectorAll('tr')?.[2];
 assert.strictEqual(
-  tableRow?.querySelector('th')?.innerText,
+  tableRow?.querySelector('th')?.innerText.trim(),
   'Credit The outstanding balance on our credit card.'
 );
 ```
@@ -41,7 +41,7 @@ const table = document.querySelectorAll('table')?.[1];
 const tbody = table?.querySelector('tbody');
 const tableRow = tbody?.querySelectorAll('tr')?.[2];
 assert.strictEqual(
-  tableRow?.querySelector('th > span')?.textContent,
+  tableRow?.querySelector('th > span')?.textContent.trim(),
   'The outstanding balance on our credit card.'
 );
 ```
@@ -72,7 +72,7 @@ Tu primer elemento `td` debe tener el texto `$50`.
 const table = document.querySelectorAll('table')?.[1];
 const tbody = table?.querySelector('tbody');
 const tableRow = tbody?.querySelectorAll('tr')?.[2];
-assert.strictEqual(tableRow?.querySelectorAll('td')?.[0]?.textContent, '$50');
+assert.strictEqual(tableRow?.querySelectorAll('td')?.[0]?.textContent.trim(), '$50');
 ```
 
 Tu segundo elemento `td` debe tener el texto `$50`.
@@ -81,7 +81,7 @@ Tu segundo elemento `td` debe tener el texto `$50`.
 const table = document.querySelectorAll('table')?.[1];
 const tbody = table?.querySelector('tbody');
 const tableRow = tbody?.querySelectorAll('tr')?.[2];
-assert.strictEqual(tableRow?.querySelectorAll('td')?.[1]?.textContent, '$50');
+assert.strictEqual(tableRow?.querySelectorAll('td')?.[1]?.textContent.trim(), '$50');
 ```
 
 Tu tercer elemento `td` debe tener el texto `$75`.
@@ -90,7 +90,7 @@ Tu tercer elemento `td` debe tener el texto `$75`.
 const table = document.querySelectorAll('table')?.[1];
 const tbody = table?.querySelector('tbody');
 const tableRow = tbody?.querySelectorAll('tr')?.[2];
-assert.strictEqual(tableRow?.querySelectorAll('td')?.[2]?.textContent, '$75');
+assert.strictEqual(tableRow?.querySelectorAll('td')?.[2]?.textContent.trim(), '$75');
 ```
 
 Su tercer elemento `td` debe tener el `class` configurado a `current`.
