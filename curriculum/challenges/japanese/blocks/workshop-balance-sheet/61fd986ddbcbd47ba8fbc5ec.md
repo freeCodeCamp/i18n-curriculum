@@ -29,7 +29,7 @@ const table = document.querySelectorAll('table')?.[1];
 const tbody = table?.querySelector('tbody');
 const tableRow = tbody?.querySelectorAll('tr')?.[2];
 assert.strictEqual(
-  tableRow?.querySelector('th')?.innerText,
+  tableRow?.querySelector('th')?.innerText.trim(),
   'Credit The outstanding balance on our credit card.'
 );
 ```
@@ -41,7 +41,7 @@ const table = document.querySelectorAll('table')?.[1];
 const tbody = table?.querySelector('tbody');
 const tableRow = tbody?.querySelectorAll('tr')?.[2];
 assert.strictEqual(
-  tableRow?.querySelector('th > span')?.textContent,
+  tableRow?.querySelector('th > span')?.textContent.trim(),
   'The outstanding balance on our credit card.'
 );
 ```
@@ -72,7 +72,7 @@ assert.lengthOf(tableRow?.querySelectorAll('td'), 3);
 const table = document.querySelectorAll('table')?.[1];
 const tbody = table?.querySelector('tbody');
 const tableRow = tbody?.querySelectorAll('tr')?.[2];
-assert.strictEqual(tableRow?.querySelectorAll('td')?.[0]?.textContent, '$50');
+assert.strictEqual(tableRow?.querySelectorAll('td')?.[0]?.textContent.trim(), '$50');
 ```
 
 2 つ目の `td` 要素には `$50` というテキストが必要です。
@@ -81,7 +81,7 @@ assert.strictEqual(tableRow?.querySelectorAll('td')?.[0]?.textContent, '$50');
 const table = document.querySelectorAll('table')?.[1];
 const tbody = table?.querySelector('tbody');
 const tableRow = tbody?.querySelectorAll('tr')?.[2];
-assert.strictEqual(tableRow?.querySelectorAll('td')?.[1]?.textContent, '$50');
+assert.strictEqual(tableRow?.querySelectorAll('td')?.[1]?.textContent.trim(), '$50');
 ```
 
 3 つ目の `td` 要素には `$75` というテキストが必要です。
@@ -90,7 +90,7 @@ assert.strictEqual(tableRow?.querySelectorAll('td')?.[1]?.textContent, '$50');
 const table = document.querySelectorAll('table')?.[1];
 const tbody = table?.querySelector('tbody');
 const tableRow = tbody?.querySelectorAll('tr')?.[2];
-assert.strictEqual(tableRow?.querySelectorAll('td')?.[2]?.textContent, '$75');
+assert.strictEqual(tableRow?.querySelectorAll('td')?.[2]?.textContent.trim(), '$75');
 ```
 
 3 つ目の `td` 要素の `class` を `current` に設定する必要があります。
