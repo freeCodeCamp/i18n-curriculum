@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c443eddfaeb5bdff
-title: Build a Nightlife Coordination App
+title: Criar um aplicativo de coordenação da vida noturna
 challengeType: 4
 forumTopicId: 302351
 dashedName: build-a-nightlife-coordination-app
@@ -8,21 +8,21 @@ dashedName: build-a-nightlife-coordination-app
 
 # --description--
 
-Build a full stack JavaScript app that is functionally similar to this: <a href="https://yoyo44.herokuapp.com/" target="_blank" rel="noopener noreferrer nofollow">https://yoyo44.herokuapp.com/</a>. Use a site builder of your choice to complete the project.
+Construa um aplicativo JavaScript full stack que seja funcionalmente semelhante a este: <a href="https://yoyo44.herokuapp.com/" target="_blank" rel="noopener noreferrer nofollow">https://yoyo44.herokuapp.com/</a>.Use um criador de sites de sua escolha para completar o projeto.
 
-Here are the specific user stories you should implement for this project:
+Aqui estão as histórias de usuário que você deve implementar para este projeto:
 
-**User Story:** As an unauthenticated user, you can view all bars in your area.
+**História do Usuário:** Como um usuário não autenticado, você pode visualizar todos os bares na sua área.
 
-**User Story:** As an authenticated user, you can add yourself to a bar to indicate you are going there tonight.
+**História do Usuário:** Como um usuário autenticado, você pode se adicionar a um bar para indicar que vai lá esta noite.
 
-**User Story:** As an authenticated user, you can remove yourself from a bar if you no longer want to go there.
+**História do Usuário:** Como um usuário autenticado, você pode se remover de um bar se não quiser mais ir lá.
 
-**User Story:** As an unauthenticated user, when you login you should not have to search again.
+**História do Usuário:** Como um usuário não autenticado, quando você fizer login não deverá precisar buscar novamente.
 
-**Hint:** Try using the Yelp API to find venues in the cities your users search for. If you use Yelp's API, be sure to mention so in your app.
+**Dica:** Tente usar a API do Yelp para encontrar locais nas cidades que seus usuários pesquisam.Se você usar a API da Yelp, certifique-se de mencionar isso na aplicação.
 
-When you are done, make sure a working demo of your project is hosted somewhere public. Then submit the URL to it in the Solution Link field. Optionally, also submit a link to your project's source code in the GitHub Link field.
+Quando terminar, certifique-se de que uma demonstração funcional do seu projeto está hospedada em algum lugar público.Em seguida, envie o URL para a solução no campo Solution Link.Como opção, envie também um link para o código-fonte do projeto no campo GitHub Link.
 
 # --solutions--
 

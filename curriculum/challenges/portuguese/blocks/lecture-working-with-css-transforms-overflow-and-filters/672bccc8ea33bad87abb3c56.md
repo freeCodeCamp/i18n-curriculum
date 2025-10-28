@@ -1,13 +1,13 @@
 ---
 id: 672bccc8ea33bad87abb3c56
-title: What Is the Difference Between content-box and border-box?
+title: Qual é a diferença entre content-box e border-box?
 challengeType: 19
 dashedName: what-is-the-difference-between-content-box-and-border-box
 ---
 
-# --description--
+# --interactive--
 
-The `box-sizing` property can be set to either `content-box` or `border-box` to control how the width and height of elements are calculated. Here you can see the `box-sizing` property and the two possible values:
+A propriedade `box-sizing` pode ser definida como `content-box` ou `border-box` para controlar como a largura e a altura dos elementos são calculadas. Aqui você pode ver a propriedade `box-sizing` e os dois valores possíveis: 
 
 ```css
 box-sizing: content-box;
@@ -17,7 +17,7 @@ box-sizing: content-box;
 box-sizing: border-box;
 ```
 
-This property can be set on the universal selector (`*`) to apply to all the elements in the document:
+Esta propriedade pode ser definida no seletor universal (`*`) para aplicar a todos os elementos do documento:
 
 ```css
 * {
@@ -25,88 +25,108 @@ This property can be set on the universal selector (`*`) to apply to all the ele
 }
 ```
 
-The value of the `box-sizing` property is `content-box` by default, but you can choose `border-box` if you need to. We will explore `content-box` first and then we will go into `border-box`.
+O valor da propriedade `box-sizing` é `content-box` por padrão, mas você pode escolher `border-box` se precisar. Exploraremos primeiro `content-box` e depois entraremos em `border-box`.
 
-To understand how this models work, you need to be familiar with the four core concepts from the CSS box model. Let's review them quickly. The content area is the space occupied by the element's content. The padding is the space between the content area and the border. The border is the outline that surrounds the content area and the padding. The margin is the space outside the border that separates the element from other elements.
+Para entender como esses modelos funcionam, você precisa estar familiarizado com os quatro conceitos principais do modelo de caixa do CSS. Vamos revisá-los rapidamente. A área de conteúdo é o espaço ocupado pelo conteúdo do elemento. O padding é o espaço entre a área de conteúdo e a borda. A borda é o contorno que envolve a área de conteúdo e o padding. A margem é o espaço fora da borda que separa o elemento de outros elementos.
 
-In the `content-box` model, the width and height that you set for an element determines the dimensions of the content area but they don't include the padding, border or margin. You should use `content-box` when you need to have precise control over the dimensions of the content area. So, when you set the width and height of an element with `width` and `height` properties, you are only setting the dimensions of the content area. `width` is the width of the content, `height` is the height of the content.
+No modelo `content-box`, a largura e a altura que você define para um elemento determinam as dimensões da área de conteúdo mas não incluem o padding, border ou margin. Você deve usar `content-box` quando precisar ter controle preciso sobre as dimensões da área de conteúdo. Então, quando você define a largura e a altura de um elemento com as propriedades `width` e `height`, você está definindo apenas as dimensões da área de conteúdo. `width` é a largura do conteúdo, `height` é a altura do conteúdo. 
 
-To find the total width of the element, what you will really see on the screen, you will still need to add the left and right padding, and the left and right borders. So, the total width equals the total width plus the padding left, plus padding right, plus border left, plus border right.
+Para encontrar a largura total do elemento, o que você realmente verá na tela, você ainda precisará adicionar o padding esquerdo e direito e as bordas esquerda e direita. Então, a largura total é igual à largura total mais o padding left, mais o padding right, mais o border left, mais o border right. 
 
-Likewise, the total height of an element can be found by adding the content height, the top and bottom border padding, and the top and bottom borders. So, the total height equals the content height plus padding top, plus padding bottom, plus border top, plus border bottom.
+Da mesma forma, a altura total de um elemento pode ser encontrada somando a altura do conteúdo, o padding da borda superior e inferior e as bordas superior e inferior. Então, a altura total é igual à altura do conteúdo mais o padding top, mais o padding bottom, mais o border top, mais o border bottom. 
 
-For example, here we have a CSS type selector for all the `div` elements.
+Por exemplo, aqui temos um seletor de tipo CSS para todos os elementos `div`. 
 
-```css
-div {
-  width: 300px;
-  height: 200px;
-  padding: 20px;
-  border: 4px solid black;
-}
-```
-
-In this case, if `content-box` is used the content area will have a width of 300 pixels and a height of 200 pixels. However, the total width, what you will see on the screen, will be the result of adding the width of the content area, which is 300 pixels, plus the padding on both sides (40 pixels), and the borders on both sides (8 pixels).
-
-Likewise, the total height will be the result of adding the height of the content area (200 pixels), plus the top and bottom padding (40 pixels), plus the top and bottom borders (8 pixels).
-
-Great! Now let's explore `border-box`. They are a bit different, with `border-box` the width and height of an element include the content area, the padding, and the border, but they don't include the margin. You should use `border-box` when you need to keep a fixed element size regardless of changes in padding or borders. It's also helpful for responsive web design since the content area will adjust automatically to fit the dimensions.
-
-The padding and border are inside the box, so when you set the `width` and `height` properties of an element, you're really setting the width and height of the inner part of the box. Here's our `div` example with the same properties and values that we had before:
-
-```css
-div {
-  width: 300px;
-  height: 200px;
-  padding: 20px;
-  border: 4px solid black;
-}
-```
-
-With `border-box` the value of the `width` property will be the result of adding the width of the content area, the left and right padding, and the left and right border. So, the width equals the width of the content, plus the left padding, plus the right padding, plus the left border, plus the right border.
-
-Likewise, the value of the `height` property is the result of adding the height of the content area, the top and bottom padding, and the top and bottom border. Height equals the height of the content, plus top padding, plus bottom padding, plus top border, plus bottom border. The margin is not included in the width or height.
-
-If you check the size of the `div` in the browser using the `content-box` and `border-box` you will notice that there's a very important difference. These are the two `div`s in HTML:
+:::interactive_editor
 
 ```html
-<div id="red-div"></div>
-<div id="blue-div"></div>
+<link rel="stylesheet" href="styles.css">
+<div></div>
 ```
 
-We assign them `id`s to select them individually in CSS. These are the CSS rules for the `#red-div` and the `#blue-div`:
+```css
+div {
+  width: 300px;
+  height: 200px;
+  padding: 20px;
+  border: 4px solid black;
+}
+```
+
+:::
+
+Neste caso, se `content-box` for usado a área de conteúdo terá uma largura de 300 pixels e uma altura de 200 pixels. No entanto, a largura total, o que você verá na tela, será o resultado da soma da largura da área de conteúdo, que é 300 pixels, mais o padding em ambos os lados (40 pixels) e as bordas em ambos os lados (8 pixels). 
+
+Da mesma forma, a altura total será o resultado da soma da altura da área de conteúdo (200 pixels), mais o padding superior e inferior (40 pixels), mais as bordas superior e inferior (8 pixels).
+
+Ótimo! Agora vamos explorar `border-box`. Eles são um pouco diferentes, com `border-box` a largura e a altura de um elemento incluem a área de conteúdo, o padding e a borda, mas não incluem a margem. Você deve usar `border-box` quando precisar manter um tamanho fixo do elemento independentemente das mudanças em padding ou bordas. Também é útil para design web responsivo, já que a área de conteúdo se ajustará automaticamente para caber nas dimensões.
+
+O padding e a borda estão dentro da caixa, então quando você define as propriedades `width` e `height` de um elemento, você está realmente definindo a largura e a altura da parte interna da caixa. Aqui está nosso exemplo de `div` com as mesmas propriedades e valores que tínhamos antes: 
+
+:::interactive_editor
+
+```html
+<link rel="stylesheet" href="styles.css">
+<div></div>
+```
 
 ```css
-#red-div {
-  box-sizing: content-box;
+div {
+  width: 300px;
+  height: 200px;
+  padding: 20px;
+  border: 4px solid black;
+}
+```
+
+:::
+
+Com `border-box` o valor da propriedade `width` será o resultado da soma da largura da área de conteúdo, do padding esquerdo e direito e da borda esquerda e direita. Então, a largura é igual à largura do conteúdo, mais o padding esquerdo, mais o padding direito, mais a borda esquerda, mais a borda direita.
+
+Da mesma forma, o valor da propriedade `height` é o resultado da soma da altura da área de conteúdo, do padding superior e inferior e da borda superior e inferior. A altura é igual à altura do conteúdo, mais o padding superior, mais o padding inferior, mais a borda superior, mais a borda inferior. A margem não está incluída na largura ou altura.
+
+Se você verificar o tamanho do `div` no navegador usando o `content-box` e o `border-box` você notará que há uma diferença muito importante. Aqui estão dois elementos `div` cada um com as mesmas dimensões mas valores diferentes de `box-sizing`:
+
+:::interactive_editor
+
+```html
+<link rel="stylesheet" href="styles.css">
+<div class="box" id="red-div"></div>
+<div class="box" id="blue-div"></div>
+```
+
+
+```css
+.box {
   width: 300px;
   height: 200px;
   padding: 20px;
   border: 4px solid black;
   margin: 10px;
+}
+
+#red-div {
+  box-sizing: content-box;
   background-color: red;
 }
 
 #blue-div {
   box-sizing: border-box;
-  width: 300px;
-  height: 200px;
-  padding: 20px;
-  border: 4px solid black;
-  margin: 10px;
   background-color: blue;
 }
 ```
 
-You can see that they both have the same `width`, `height`, `padding`, `border` and `margin`. The only differences are the colors and the value of the `box-sizing` property. This small difference has a very important impact on the final dimensions.
+:::
 
-Choosing between `content-box` and `border-box` really depends on the specific needs of your project. While `border-box` is becoming increasingly popular for its simplicity and flexibility, understanding both models is important for implementing effective CSS layouts.
+Você pode ver que ambos têm o mesmo `width`, `height`, `padding`, `border` e `margin`. As únicas diferenças são as cores e o valor da propriedade `box-sizing`. Essa pequena diferença tem um impacto muito importante nas dimensões finais. 
+
+Escolher entre `content-box` e `border-box` realmente depende das necessidades específicas do seu projeto. Embora `border-box` esteja se tornando cada vez mais popular por sua simplicidade e flexibilidade, entender ambos os modelos é importante para implementar layouts CSS eficazes.
 
 # --questions--
 
 ## --text--
 
-Which of the following is the default value for the `box-sizing` property in most browsers?
+Qual dos seguintes é o valor padrão para a propriedade `box-sizing` na maioria dos navegadores?
 
 ## --answers--
 
@@ -118,7 +138,7 @@ Which of the following is the default value for the `box-sizing` property in mos
 
 ### --feedback--
 
-Think about the default behavior for element sizing.
+Pense no comportamento padrão para dimensionamento de elementos.
 
 ---
 
@@ -126,7 +146,7 @@ Think about the default behavior for element sizing.
 
 ### --feedback--
 
-Think about the default behavior for element sizing.
+Pense no comportamento padrão para dimensionamento de elementos.
 
 ---
 
@@ -134,7 +154,7 @@ Think about the default behavior for element sizing.
 
 ### --feedback--
 
-Think about the default behavior for element sizing.
+Pense no comportamento padrão para dimensionamento de elementos.
 
 ## --video-solution--
 
@@ -142,35 +162,35 @@ Think about the default behavior for element sizing.
 
 ## --text--
 
-What is the primary advantage of using `border-box` for creating responsive layouts?
+Qual é a principal vantagem de usar `border-box` para criar layouts responsivos?
 
 ## --answers--
 
-It makes the calculations more complicated.
+Isso torna os cálculos mais complicados.
 
 ### --feedback--
 
-Think about how the `border-box` model handles `padding` and `border` within the specified `width` and `height`.
+Pense em como o modelo `border-box` lida com `padding` e `border` dentro da `width` e `height` especificadas.
 
 ---
 
-It allows for more precise control over element dimensions.
+Ele permite um controle mais preciso sobre as dimensões do elemento.
 
 ### --feedback--
 
-Think about how the `border-box` model handles `padding` and `border` within the specified `width` and `height`.
+Pense em como o modelo `border-box` lida com `padding` e `border` dentro da `width` e `height` especificadas.
 
 ---
 
-It ensures that elements maintain their specified dimensions regardless of changes in `padding` or `border`.
+Ele garante que os elementos mantenham suas dimensões especificadas independentemente das alterações em `padding` ou `border`.
 
 ---
 
-It improves browser compatibility.
+Ele melhora a compatibilidade do navegador.
 
 ### --feedback--
 
-Think about how the `border-box` model handles `padding` and `border` within the specified `width` and `height`.
+Pense em como o modelo `border-box` lida com `padding` e `border` dentro da `width` e `height` especificadas.
 
 ## --video-solution--
 
@@ -178,35 +198,35 @@ Think about how the `border-box` model handles `padding` and `border` within the
 
 ## --text--
 
-In the `content-box` model, what does the specified `width` of an element represent?
+No modelo `content-box`, o que o `width` especificado de um elemento representa?
 
 ## --answers--
 
-The total `width` of the element, including `padding`, `border`, and `margin`.
+A `width` total do elemento, incluindo `padding`, `border` e `margin`.
 
 ### --feedback--
 
-Think about the relationship between the content area and the overall element dimensions in the `content-box` model.
+Pense na relação entre a área de conteúdo e as dimensões gerais do elemento no modelo `content-box`.
 
 ---
 
-The `width` of the content area only.
+A `width` da área de conteúdo somente.
 
 ---
 
-The `width` of the `border`.
+A `width` da `border`.
 
 ### --feedback--
 
-Think about the relationship between the content area and the overall element dimensions in the `content-box` model.
+Pense na relação entre a área de conteúdo e as dimensões gerais do elemento no modelo `content-box`.
 
 ---
 
-The `width` of the `padding`.
+A `width` do `padding`.
 
 ### --feedback--
 
-Think about the relationship between the content area and the overall element dimensions in the `content-box` model.
+Pense na relação entre a área de conteúdo e as dimensões gerais do elemento no modelo `content-box`.
 
 ## --video-solution--
 

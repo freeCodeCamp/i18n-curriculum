@@ -1,23 +1,23 @@
 ---
 id: 612e9f1e7e5ccd4fa9ada0be
-title: Step 15
+title: Passo 15
 challengeType: 0
 dashedName: step-15
 ---
 
 # --description--
 
-Give the `.key` a `margin` of `2px` and a `float` property set to `left`.
+Dê à `.key` uma `margin` de `2px` e a propriedade `float` definida como `left`.
 
 # --hints--
 
-Your `.key` selector should have a `margin` property set to `2px`.
+O seletor `.key` deve ter uma propriedade `margin` definida como `2px`.
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('.key')?.margin, '2px');
 ```
 
-Your `.key` selector should have a `float` property set to `left`.
+O seletor `.key` deve ter uma propriedade `float` definida como `left`.
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('.key')?.float, 'left');

@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c443eddfaeb5bd0e
-title: Chart the Stock Market
+title: Fazer um gráfico do mercado de ações
 challengeType: 4
 forumTopicId: 302363
 dashedName: chart-the-stock-market
@@ -8,19 +8,19 @@ dashedName: chart-the-stock-market
 
 # --description--
 
-Build a full stack JavaScript app that is functionally similar to this: <a href="https://chart-the-stock-market.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://chart-the-stock-market.freecodecamp.rocks/</a>. Use a site builder of your choice to complete the project.
+Construa um aplicativo JavaScript full stack que seja funcionalmente semelhante a este: <a href="https://chart-the-stock-market.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://chart-the-stock-market.freecodecamp.rocks/</a>.Use um criador de sites de sua escolha para completar o projeto.
 
-Here are the specific user stories you should implement for this project:
+Aqui estão as histórias de usuário que você deve implementar para este projeto:
 
-**User Story:** You can view a graph displaying the recent trend lines for each added stock.
+**História do Usuário:** Você pode visualizar um gráfico exibindo as linhas de tendência recentes para cada ação adicionada.
 
-**User Story:** You can add new stocks by their symbol name.
+**História do Usuário:** Você pode adicionar novas ações pelo nome do símbolo.
 
-**User Story:** You can remove stocks.
+**História do Usuário:** Você pode remover ações.
 
-**User Story:** You can see changes in real-time when any other user adds or removes a stock. For this you will need to use Web Sockets.
+**História do Usuário:** Você pode ver as mudanças em tempo real quando qualquer outro usuário adiciona ou remove um estoque.Para isso, você precisará usar Web Sockets.
 
-When you are done, make sure a working demo of your project is hosted somewhere public. Then submit the URL to it in the Solution Link field. Optionally, also submit a link to your project's source code in the GitHub Link field.
+Quando terminar, certifique-se de que uma demonstração funcional do seu projeto está hospedada em algum lugar público.Em seguida, envie o URL para a solução no campo Solution Link.Como opção, envie também um link para o código-fonte do projeto no campo GitHub Link.
 
 # --solutions--
 

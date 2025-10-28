@@ -1,13 +1,13 @@
 ---
 id: 66f1aeb60b11aec5abe83c2e
-title: CSS Libraries and Frameworks Quiz
+title: Questionário sobre bibliotecas e frameworks do CSS
 challengeType: 8
 dashedName: quiz-css-libraries-and-frameworks
 ---
 
 # --description--
 
-To pass the quiz, you must correctly answer at least 9 of the 10 questions below.
+Para passar no quiz, você deve responder corretamente pelo menos 9 das 10 perguntas abaixo.
 
 # --quizzes--
 
@@ -17,29 +17,29 @@ To pass the quiz, you must correctly answer at least 9 of the 10 questions below
 
 #### --text--
 
-What is a CSS framework?
+O que é um framework CSS?
 
 #### --distractors--
 
-A tool to fix CSS errors.
+Uma ferramenta para corrigir erros de CSS.
 
 ---
 
-A tool to lint CSS files.
+Uma ferramenta para lintar arquivos CSS.
 
 ---
 
-A formatter for CSS files.
+Um formatador para arquivos CSS.
 
 #### --answer--
 
-A library for CSS styles.
+Uma biblioteca para estilos CSS.
 
 ### --question--
 
 #### --text--
 
-Which of the following is a popular utility-first CSS framework?
+Qual dos seguintes é um framework CSS popular baseado em utilitários?
 
 #### --distractors--
 
@@ -47,11 +47,11 @@ Template CSS
 
 ---
 
-Loading CSS
+Carregando CSS
 
 ---
 
-Minimal CSS
+CSS Mínimo
 
 #### --answer--
 
@@ -61,29 +61,29 @@ Tailwind CSS
 
 #### --text--
 
-What is a disadvantage of CSS frameworks?
+Qual é uma desvantagem dos frameworks CSS?
 
 #### --distractors--
 
-Too few components.
+Componentes insuficientes.
 
 ---
 
-No customization options.
+Sem opções de personalização.
 
 ---
 
-Improved browser support.
+Suporte aprimorado para navegadores.
 
 #### --answer--
 
-Can bloat CSS files.
+Pode aumentar o tamanho dos arquivos CSS.
 
 ### --question--
 
 #### --text--
 
-What does SCSS stand for?
+O que significa SCSS?
 
 #### --distractors--
 
@@ -91,11 +91,11 @@ Super Cascading Style Sheets.
 
 ---
 
-Structured CSS.
+CSS Estruturado.
 
 ---
 
-Simple CSS.
+CSS simples.
 
 #### --answer--
 
@@ -105,19 +105,19 @@ Sassy CSS.
 
 #### --text--
 
-Which of the following is a feature of Sass?
+Qual das seguintes opções é uma característica do Sass?
 
 #### --distractors--
 
-Comments
+Comentários
 
 ---
 
-CSS linting.
+Linting de CSS.
 
 ---
 
-Inline CSS.
+CSS inline.
 
 #### --answer--
 
@@ -127,7 +127,7 @@ Mixins
 
 #### --text--
 
-Which of the following is the correct way to use utility classes in Tailwind CSS?
+Qual das seguintes é a maneira correta de usar classes utilitárias em Tailwind CSS?
 
 #### --distractors--
 
@@ -167,29 +167,29 @@ Which of the following is the correct way to use utility classes in Tailwind CSS
 
 #### --text--
 
-What are the two types of CSS frameworks?
+Quais são os dois tipos de frameworks CSS?
 
 #### --distractors--
 
-Tablet first CSS frameworks and Component-based CSS frameworks.
+Frameworks CSS tablet first e frameworks CSS baseados em componentes.
 
 ---
 
-Utility-first CSS frameworks and Lazy loading CSS frameworks.
+Frameworks CSS utilitários e frameworks CSS com carregamento preguiçoso.
 
 ---
 
-Minimal CSS frameworks and Utility-first CSS frameworks.
+Frameworks CSS minimalistas e frameworks CSS Utility-first.
 
 #### --answer--
 
-Utility-first CSS frameworks and Component-based CSS frameworks.
+Frameworks CSS utilitários e frameworks CSS baseados em componentes.
 
 ### --question--
 
 #### --text--
 
-What is the file extension for SCSS?
+Qual é a extensão de arquivo para SCSS?
 
 #### --distractors--
 
@@ -211,7 +211,7 @@ What is the file extension for SCSS?
 
 #### --text--
 
-Which of the following is the correct way to define a variable in SCSS?
+Qual das seguintes é a maneira correta de definir uma variável em SCSS?
 
 #### --distractors--
 
@@ -257,7 +257,7 @@ header {
 
 #### --text--
 
-Which of the following is the correct way to define a mixin?
+Qual das seguintes é a maneira correta de definir um mixin?
 
 #### --distractors--
 

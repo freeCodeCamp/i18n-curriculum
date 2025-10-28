@@ -7,7 +7,7 @@ dashedName: step-21
 
 # --description--
 
-Agora, você precisa de uma contagem total de cada produto que o usuário tem no carrinho. Declare uma variável `totalCountPerProduct` e atribua a ela um objeto vazio.
+Agora, você precisa de uma contagem total de cada produto que o usuário tem no carrinho.Declare uma variável `totalCountPerProduct` e atribua a ela um objeto vazio.
 
 # --hints--
 

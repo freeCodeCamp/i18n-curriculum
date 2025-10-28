@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c443eddfaeb5bdee
-title: Build a Pinterest Clone
+title: Criar um clone do Pinterest
 challengeType: 4
 forumTopicId: 302352
 dashedName: build-a-pinterest-clone
@@ -8,27 +8,27 @@ dashedName: build-a-pinterest-clone
 
 # --description--
 
-**Objective:** Build an app that is functionally similar to this: <a href="https://build-a-pinterest-clone.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://build-a-pinterest-clone.freecodecamp.rocks/</a>.
+**Objetivo:** Construir um app que seja funcionalmente semelhante a este: <a href="https://build-a-pinterest-clone.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://build-a-pinterest-clone.freecodecamp.rocks/</a>.
 
-Fulfill the below user stories and get all of the tests to pass. Use whichever libraries or APIs you need. Give it your own personal style.
+Atenda às histórias de usuário abaixo e faça com que todos os testes passem.Use quaisquer bibliotecas ou APIs de que você precisar.Dê ao projeto o seu próprio estilo pessoal.
 
-**User Story:** As an unauthenticated user, I can login with GitHub.
+**História do Usuário:** Como um usuário não autenticado, eu posso fazer login com GitHub.
 
-**User Story:** As an authenticated user, I can link to images.
+**História do Usuário:** Como um usuário autenticado, posso vincular a imagens.
 
-**User Story:** As an authenticated user, I can delete images that I've linked to.
+**História do Usuário:** Como um usuário autenticado, posso deletar imagens que eu tenha vinculado.
 
-**User Story:** As an authenticated user, I can see a Pinterest-style wall of all the images I've linked to.
+**História do Usuário:** Como um usuário autenticado, posso ver uma parede no estilo Pinterest com todas as imagens às quais eu me conectei.
 
-**User Story:** As an unauthenticated user, I can browse other users' walls of images.
+**História do Usuário:** Como um usuário não autenticado, posso navegar pelas paredes de imagens de outros usuários.
 
-**User Story:** As an authenticated user, if I upload an image that is broken, it will be replaced by a placeholder image. (can use jQuery broken image detection)
+**História do Usuário:** Como um usuário autenticado, se eu enviar uma imagem que esteja quebrada, ela será substituída por uma imagem substituta. (pode usar a detecção de imagem quebrada do jQuery)
 
-**Hint:** Masonry.js is a library that allows for Pinterest-style image grids.
+**Dica:** Masonry.js é uma biblioteca que permite criar grades de imagens no estilo Pinterest.
 
-Once you've finished implementing these user stories, enter the URL to your live app and, optionally, your GitHub repository. Then click the "I've completed this challenge" button.
+Depois de terminar de implementar essas histórias de usuários, digite o URL para sua aplicação ao vivo e, como opção, seu repositório do GitHub.Então, clique no botão "Eu completei este desafio".
 
-You can get feedback on your project by sharing it on the <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp forum</a>.
+Você pode obter feedback sobre seu projeto compartilhando-o no <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">fórum freeCodeCamp</a>.
 
 # --solutions--
 

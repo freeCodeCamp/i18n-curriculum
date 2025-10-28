@@ -1,15 +1,15 @@
 ---
 id: 672bbeaa5afdc5a98d5ab8ff
-title: What Are Examples of Location Pseudo-classes?
+title: Quais são exemplos de pseudo-classes de localização?
 challengeType: 19
 dashedName: what-are-examples-of-location-pseudo-classes
 ---
 
-# --description--
+# --interactive--
 
-Location pseudo-classes are used for styling links and elements that are targeted within the current document. They offer a way to apply styles based on whether a link is visited or whether an element is currently in focus.
+Pseudo-classes de localização são usadas para estilizar links e elementos que são alvo dentro do documento atual. Eles oferecem uma maneira de aplicar estilos com base em se um link foi visitado ou se um elemento está atualmente em foco.
 
-Examples of location pseudo-classes are:
+Exemplos de pseudo-classes de localização são:
 
 - `:link`
 - `:visited`
@@ -18,9 +18,16 @@ Examples of location pseudo-classes are:
 - `:target`
 - `:target-within`
 
-Let's take a deeper look at each of these pseudo-classes.
+Vamos analisar mais profundamente cada uma dessas pseudo-classes.
 
-The `:link` pseudo-class allows you to target all unvisited links on a webpage. You can use it to style links differently before the user clicks on them. For example, you might want to make all unvisited links blue or your website's primary color:
+A pseudo-classe `:link` permite que você selecione todos os links não visitados em uma página da web. Você pode usá-lo para estilizar links de forma diferente antes que o usuário clique neles. Por exemplo, você pode querer deixar todos os links não visitados azuis ou na cor primária do seu site:
+
+:::interactive_editor
+
+```html
+<link rel="stylesheet" href="styles.css" />
+<a target="_blank" href="https://www.example.com">Visit Example.com</a>
+```
 
 ```css
 a:link {
@@ -28,9 +35,18 @@ a:link {
 }
 ```
 
-In this case, any link the user hasn't clicked yet will appear magenta. Once the user clicks the link, the `:link` style no longer applies, and the `:visited` pseudo-class takes over. The `:visited` pseudo-class comes into play after the user clicks the link, so you can use it to target links the user has already clicked.
+:::
 
-Here is an example of changing the visited link state to the color `purple`:
+Neste caso, qualquer link que o usuário ainda não tenha clicado aparecerá magenta. Uma vez que o usuário clica no link, o estilo `:link` não se aplica mais e a pseudo-classe `:visited` assume. A pseudo-classe `:visited` entra em ação depois que o usuário clica no link, então você pode usá-la para direcionar links que o usuário já clicou. 
+
+Aqui está um exemplo de como alterar o estado do link visitado para a cor `purple`:
+
+:::interactive_editor
+
+```html
+<link rel="stylesheet" href="styles.css" />
+<a target="_blank" href="https://www.example.com">Visit Example.com</a>
+```
 
 ```css
 a:visited {
@@ -38,11 +54,20 @@ a:visited {
 }
 ```
 
-The `:visited` pseudo-class helps users distinguish between links they have visited and those they have not.
+:::
 
-The `:any-link` pseudo-class is a combination of the `:link` and `:visited` pseudo-classes. So it matches any anchor element with an `href` attribute, regardless of whether it's visited or not.
+A pseudo-classe `:visited` ajuda os usuários a distinguir entre links que eles visitaram e os que não visitaram.
 
-Here is an example of changing the link color for the `:any-link` pseudo-class to `crimson`:
+A pseudo-classe `:any-link` é uma combinação das pseudo-classes `:link` e `:visited`. Para que corresponda a qualquer elemento anchor com um atributo `href`, independentemente de ter sido visitado ou não.
+
+Aqui está um exemplo de como alterar a cor do link para a pseudo-classe `:any-link` para `crimson`:
+
+:::interactive_editor
+
+```html
+<link rel="stylesheet" href="styles.css" />
+<a target="_blank" href="https://www.example.com">Visit Example.com</a>
+```
 
 ```css
 a:any-link {
@@ -50,13 +75,18 @@ a:any-link {
 }
 ```
 
-The `:local-link` pseudo-class targets links that point to the same document. It can be useful when you want to differentiate internal links from external ones. Currently, no browser supports the `:local-link` pseudo-class.
+:::
 
-The `:target` pseudo-class selects an element that matches the current URL fragment identifier, for example, `#section1`. It's very useful for pages with in-page navigation.
+A pseudo-classe `:local-link` seleciona links que apontam para o mesmo documento. Pode ser útil quando você quer diferenciar links internos de externos. Atualmente, nenhum navegador suporta a pseudo-classe `:local-link`.
 
-Here's an HTML example that represents an in-page navigation:
+A pseudo-classe `:target` seleciona um elemento que corresponde ao identificador de fragmento da URL atual, por exemplo, `#section1`. É muito útil para páginas com navegação interna.
+
+Aqui está um exemplo de HTML que representa uma navegação dentro da página. O CSS usa a pseudo-classe `:target` para estilizar a seção que corresponde ao local para onde o usuário navega:
+
+:::interactive_editor
 
 ```html
+<link rel="stylesheet" href="styles.css" />
 <nav id="table-of-contents">
   <ul>
     <li><a href="#section1">Introduction</a></li>
@@ -75,8 +105,6 @@ Here's an HTML example that represents an in-page navigation:
 </section>
 ```
 
-Here's the CSS that uses the `:target` pseudo-class to style the section that matches where the user navigates to:
-
 ```css
 section:target {
   background-color: green;
@@ -85,13 +113,15 @@ section:target {
 }
 ```
 
-When the user clicks on one of the navigation links, the background color for that respective section will change to green.
+:::
+
+Quando o usuário clicar em um dos links de navegação, a cor de fundo daquela respectiva seção mudará para verde.
 
 # --questions--
 
 ## --text--
 
-Which pseudo-class allows you to style an element that matches the current URL fragment identifier, such as `#section1`?
+Qual pseudo-classe permite que você estilize um elemento que corresponde ao identificador de fragmento da URL atual, como `#section1`?
 
 ## --answers--
 
@@ -99,7 +129,7 @@ Which pseudo-class allows you to style an element that matches the current URL f
 
 ### --feedback--
 
-Think about how you can highlight a specific section when navigating through in-page links.
+Pense em como você pode destacar uma seção específica ao navegar por links dentro da página.
 
 ---
 
@@ -107,7 +137,7 @@ Think about how you can highlight a specific section when navigating through in-
 
 ### --feedback--
 
-Think about how you can highlight a specific section when navigating through in-page links.
+Pense em como você pode destacar uma seção específica ao navegar por links dentro da página.
 
 ---
 
@@ -119,7 +149,7 @@ Think about how you can highlight a specific section when navigating through in-
 
 ### --feedback--
 
-Think about how you can highlight a specific section when navigating through in-page links.
+Pense em como você pode destacar uma seção específica ao navegar por links dentro da página.
 
 ## --video-solution--
 
@@ -127,35 +157,35 @@ Think about how you can highlight a specific section when navigating through in-
 
 ## --text--
 
-When are location pseudo-classes particularly useful?
+Quando as pseudo-classes de localização são particularmente úteis?
 
 ## --answers--
 
-When styling elements based on their sibling relationships.
+Ao estilizar elementos com base em suas relações de irmãos.
 
 ### --feedback--
 
-Think about how you can style links and targeted elements depending on user interaction.
+Pense em como você pode estilizar links e elementos alvo dependendo da interação do usuário.
 
 ---
 
-When applying styles based on whether a link is visited or an element is currently in focus.
+Ao aplicar estilos com base em se um link foi visitado ou se um elemento está atualmente em foco.
 
 ---
 
-When styling elements based on their parent element's attributes.
+Ao estilizar elementos com base nos atributos do elemento pai.
 
 ### --feedback--
 
-Think about how you can style links and targeted elements depending on user interaction.
+Pense em como você pode estilizar links e elementos alvo dependendo da interação do usuário.
 
 ---
 
-When adjusting the layout of a webpage dynamically.
+Ao ajustar o layout de uma página da web dinamicamente.
 
 ### --feedback--
 
-Think about how you can style links and targeted elements depending on user interaction.
+Pense em como você pode estilizar links e elementos alvo dependendo da interação do usuário.
 
 ## --video-solution--
 
@@ -163,7 +193,7 @@ Think about how you can style links and targeted elements depending on user inte
 
 ## --text--
 
-Which pseudo-class is designed to target links that point to the same document but is not currently supported by any browser?
+Qual pseudo-classe foi criada para selecionar links que apontam para o mesmo documento mas que atualmente não é suportada por nenhum navegador?
 
 ## --answers--
 
@@ -171,7 +201,7 @@ Which pseudo-class is designed to target links that point to the same document b
 
 ### --feedback--
 
-Consider the pseudo-class intended for distinguishing internal links from external ones, even though it's not yet supported.
+Considere a pseudo-classe destinada a distinguir links internos de externos, embora ainda não seja suportada.
 
 ---
 
@@ -183,7 +213,7 @@ Consider the pseudo-class intended for distinguishing internal links from extern
 
 ### --feedback--
 
-Consider the pseudo-class intended for distinguishing internal links from external ones, even though it's not yet supported.
+Considere a pseudo-classe destinada a distinguir links internos de externos, embora ainda não seja suportada.
 
 ---
 
@@ -191,7 +221,7 @@ Consider the pseudo-class intended for distinguishing internal links from extern
 
 ### --feedback--
 
-Consider the pseudo-class intended for distinguishing internal links from external ones, even though it's not yet supported.
+Considere a pseudo-classe destinada a distinguir links internos de externos, embora ainda não seja suportada.
 
 ## --video-solution--
 

@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c443eddfaeb5bdef
-title: Build a Voting App
+title: Criar um aplicativo de votação
 challengeType: 4
 forumTopicId: 302359
 dashedName: build-a-voting-app
@@ -8,27 +8,27 @@ dashedName: build-a-voting-app
 
 # --description--
 
-Build a full stack JavaScript app that is functionally similar to this: <a href="https://voting-app.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://voting-app.freecodecamp.rocks/</a>. Use a site builder of your choice to complete the project.
+Construa um aplicativo JavaScript full stack que seja funcionalmente semelhante a este: <a href="https://voting-app.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://voting-app.freecodecamp.rocks/</a>.Use um criador de sites de sua escolha para completar o projeto.
 
-Here are the specific user stories you should implement for this project:
+Aqui estão as histórias de usuário que você deve implementar para este projeto:
 
-**User Story:** As an authenticated user, you can keep my polls and come back later to access them.
+**História do Usuário:** Como um usuário autenticado, você pode salvar minhas enquetes e voltar depois para acessá-las.
 
-**User Story:** As an authenticated user, you can share my polls with my friends.
+**História do Usuário:** Como um usuário autenticado, você pode compartilhar minhas enquetes com meus amigos.
 
-**User Story:** As an authenticated user, you can see the aggregate results of my polls.
+**História do Usuário:** Como um usuário autenticado, você pode ver os resultados agregados das minhas enquetes.
 
-**User Story:** As an authenticated user, you can delete polls that I decide I don't want anymore.
+**História do Usuário:** Como um usuário autenticado, você pode deletar enquetes que eu decida que não quero mais.
 
-**User Story:** As an authenticated user, you can create a poll with any number of possible items.
+**História do Usuário:** Como um usuário autenticado, você pode criar uma enquete com qualquer número de itens possíveis.
 
-**User Story:** As an unauthenticated or authenticated user, you can see and vote on everyone's polls.
+**História do Usuário:** Como um usuário não autenticado ou autenticado, você pode ver e votar nas enquetes de todos.
 
-**User Story:** As an unauthenticated or authenticated user, you can see the results of polls in chart form. (This could be implemented using Chart.js or Google Charts.)
+**História do Usuário:** Como um usuário não autenticado ou autenticado, você pode ver os resultados das enquetes em forma de gráfico. (Isso pode ser implementado usando `Chart.js` ou `Google Charts`.)
 
-**User Story:** As an authenticated user, if you don't like the options on a poll, you can create a new option.
+**História do Usuário:** Como um usuário autenticado, se você não gostar das opções em uma enquete, você pode criar uma nova opção.
 
-When you are done, make sure a working demo of your project is hosted somewhere public. Then submit the URL to it in the Solution Link field. Optionally, also submit a link to your project's source code in the GitHub Link field.
+Quando terminar, certifique-se de que uma demonstração funcional do seu projeto está hospedada em algum lugar público.Em seguida, envie o URL para a solução no campo Solution Link.Como opção, envie também um link para o código-fonte do projeto no campo GitHub Link.
 
 # --solutions--
 

@@ -1,19 +1,21 @@
 ---
 id: 672bccae6e556cd81cef6af2
-title: What Is Margin Collapsing, and How Does It Work?
+title: O que é Margin Collapsing e como ele funciona?
 challengeType: 19
 dashedName: what-is-margin-collapsing
 ---
 
-# --description--
+# --interactive--
 
-Margin collapsing is a fundamental concept in CSS that often confuses newcomers to web development.
+O colapso de margem é um conceito fundamental em CSS que frequentemente confunde iniciantes em desenvolvimento web.
 
-This behavior occurs when the vertical margins of adjacent elements overlap, resulting in a single margin equal to the larger of the two.
+Esse comportamento ocorre quando as margens verticais de elementos adjacentes se sobrepõem, resultando em uma única margem igual à maior das duas.
 
-Understanding margin collapsing is important for precise control over spacing and layout in web design. So, let's get into how margin collapsing works and explore some common scenarios where it occurs.
+Entender o colapso de margem é importante para o controle preciso do espaçamento e do layout no design web. Então, vamos entender como o margin collapsing funciona e explorar alguns cenários comuns onde ele ocorre.
 
-In CSS when two vertical margins come into contact with each other they'll collapse, this means that instead of adding together the larger margin wins and determines the space between the elements. This behavior applies only to vertical margins top and bottom and not horizontal margins, not the left and right. So, here's an example to illustrate this concept:
+No CSS, quando duas margens verticais entram em contato uma com a outra, elas colapsam, isso significa que em vez de se somarem, a margem maior prevalece e determina o espaço entre os elementos. Esse comportamento se aplica apenas às margens verticais superior e inferior e não às margens horizontais, nem à esquerda e à direita. Então, aqui está um exemplo para ilustrar este conceito:
+
+:::interactive_editor
 
 ```html
 <style>
@@ -31,11 +33,15 @@ In CSS when two vertical margins come into contact with each other they'll colla
 <div class="box2">Box 2</div>
 ```
 
-In this example, you might expect the total space between `.box1` and `.box2` to be 50 pixels (20 pixels plus 30 pixels). However, due to margin collapsing the actual space will be 30 pixels, which is the larger of the two margins.
+:::
 
-As we saw in the previous examples, margins of the adjacent sibling elements will collapse. This is the most straight forward case of margin collapsing. Let's explore more cases where margin collapsing can occur.
+Neste exemplo, você pode esperar que o espaço total entre `.box1` e `.box2` seja 50 pixels (20 pixels mais 30 pixels). No entanto, devido ao colapso de margem o espaço real será de 30 pixels, que é a maior das duas margens.
 
-Margins can also collapse between a parent element and its first or last child. If there's no border, padding, inline content, or clearance to separate the parent's margin from the child's, they will collapse.
+Como vimos nos exemplos anteriores, as margens dos elementos irmãos adjacentes irão colapsar. Este é o caso mais simples de colapso de margem. Vamos explorar mais casos onde o colapso de margem pode ocorrer. 
+
+As margens também podem colapsar entre um elemento pai e seu primeiro ou último filho. Se não houver borda, padding, conteúdo inline ou espaçamento para separar a margem do pai da do filho, elas irão colapsar.
+
+:::interactive_editor
 
 ```html
 <style>
@@ -54,9 +60,13 @@ Margins can also collapse between a parent element and its first or last child. 
 </div>
 ```
 
-In this case you might expect the child to be 70 pixels from the top (40 pixels plus 30 pixels). However, the margins collapse and the larger margin 40 pixels is used.
+:::
 
-If an element has no content, padding, or border, its top and bottom margins can collapse into a single margin.
+Neste caso, você pode esperar que o filho esteja a 70 pixels do topo (40 pixels mais 30 pixels). No entanto, as margens colapsam e a margem maior de 40 pixels é usada.
+
+Se um elemento não tiver conteúdo, padding ou borda, suas margens superior e inferior podem se fundir em uma única margem. 
+
+:::interactive_editor
 
 ```html
 <style>
@@ -74,9 +84,13 @@ If an element has no content, padding, or border, its top and bottom margins can
 <div class="next-block">Next block</div>
 ```
 
-In this example the `empty-block`s top and bottom margins collapse into a single 30 pixels margin, the larger of the two.
+:::
 
-Here's another example of preventing collapse using padding:
+Neste exemplo, as margens superior e inferior do `empty-block` colapsam em uma única margem de 30 pixels, a maior das duas.
+
+Aqui está outro exemplo de como evitar colapso usando padding: 
+
+:::interactive_editor
 
 ```html
 <style>
@@ -96,43 +110,45 @@ Here's another example of preventing collapse using padding:
 </div>
 ```
 
-In this case the one pixel padding on the parent prevents the margin from collapsing resulting in a total space of 71 pixels from the top of the parent to the top of the child content.
+:::
 
-Understanding margin collapsing is important for precise control over layout and spacing in CSS. While it can sometimes lead to unexpected results, it's a feature designed to create more aesthetic and consistent spacing in documents. By knowing when margin collapsing occurs and how to prevent it when necessary, you can create more predictable and maintainable layouts in your web designs.
+Neste caso, o padding de um pixel no elemento pai impede o colapso da margem, resultando em um espaço total de 71 pixels do topo do pai até o topo do conteúdo filho.
+
+Entender o colapso de margem é importante para o controle preciso do layout e do espaçamento em CSS. Embora às vezes possa levar a resultados inesperados, é um recurso projetado para criar espaçamento mais estético e consistente em documentos. Ao saber quando ocorre o colapso de margem e como evitá-lo quando necessário, você pode criar layouts mais previsíveis e fáceis de manter em seus designs web.
 
 # --questions--
 
 ## --text--
 
-In which direction does margin collapsing occur?
+Em qual direção ocorre o colapso de margin?
 
 ## --answers--
 
-Horizontal margins only.
+Margens horizontais apenas.
 
 ### --feedback--
 
-Think about which margins (top, bottom, left, right) are affected by this behavior.
+Pense em quais margens (topo, base, esquerda, direita) são afetadas por esse comportamento.
 
 ---
 
-Vertical margins only.
+Margens verticais apenas.
 
 ---
 
-Both horizontal and vertical margins.
+Margens horizontais e verticais.
 
 ### --feedback--
 
-Think about which margins (top, bottom, left, right) are affected by this behavior.
+Pense em quais margens (topo, base, esquerda, direita) são afetadas por esse comportamento.
 
 ---
 
-Diagonal margins.
+Margens diagonais.
 
 ### --feedback--
 
-Think about which margins (top, bottom, left, right) are affected by this behavior.
+Pense em quais margens (topo, base, esquerda, direita) são afetadas por esse comportamento.
 
 ## --video-solution--
 
@@ -140,35 +156,35 @@ Think about which margins (top, bottom, left, right) are affected by this behavi
 
 ## --text--
 
-What happens when two adjacent elements have different margin values?
+O que acontece quando dois elementos adjacentes têm valores de margem diferentes?
 
 ## --answers--
 
-The margins add up.
+As margens somam.
 
 ### --feedback--
 
-Consider which margin "wins" when collapsing occurs.
+Considere qual margem "vence" quando ocorre o colapso.
 
 ---
 
-The smaller margin is used.
+A margem menor é usada.
 
 ### --feedback--
 
-Consider which margin "wins" when collapsing occurs.
+Considere qual margem "vence" quando ocorre o colapso.
 
 ---
 
-The larger margin is used.
+A margem maior é usada.
 
 ---
 
-The average of the two margins is used.
+A média das duas margens é usada.
 
 ### --feedback--
 
-Consider which margin "wins" when collapsing occurs.
+Considere qual margem "vence" quando ocorre o colapso.
 
 ## --video-solution--
 
@@ -176,35 +192,35 @@ Consider which margin "wins" when collapsing occurs.
 
 ## --text--
 
-Which of the following will NOT prevent margin collapsing between a parent and its first child?
+Qual dos seguintes NÃO impedirá o colapso de margem entre um elemento pai e seu primeiro filho?
 
 ## --answers--
 
-Adding a `border` to the parent.
+Adicionando uma `border` ao elemento pai.
 
 ### --feedback--
 
-Think about which properties create a separation between the parent and child margins.
+Pense em quais propriedades criam uma separação entre as margens do pai e do filho.
 
 ---
 
-Setting `padding-top: 1px;` on the parent.
+Definindo `padding-top: 1px;` no elemento pai.
 
 ### --feedback--
 
-Think about which properties create a separation between the parent and child margins.
+Pense em quais propriedades criam uma separação entre as margens do pai e do filho.
 
 ---
 
-Using `display: inline-block;` on the child.
+Usando `display: inline-block;` no elemento filho.
 
 ### --feedback--
 
-Think about which properties create a separation between the parent and child margins.
+Pense em quais propriedades criam uma separação entre as margens do pai e do filho.
 
 ---
 
-Setting `margin-top: 0;` on the child.
+Definindo `margin-top: 0;` no elemento filho.
 
 ## --video-solution--
 

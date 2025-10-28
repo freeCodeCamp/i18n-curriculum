@@ -7,7 +7,7 @@ dashedName: quiz-css-attribute-selectors
 
 # --description--
 
-To pass the quiz, you must correctly answer at least 9 of the 10 questions below.
+Para passar no quiz, você deve responder corretamente pelo menos 9 das 10 perguntas abaixo.
 
 # --quizzes--
 
@@ -17,29 +17,29 @@ To pass the quiz, you must correctly answer at least 9 of the 10 questions below
 
 #### --text--
 
-What are CSS attribute selectors used for?
+Para que servem os seletores de atributo CSS?
 
 #### --distractors--
 
-To apply styles to elements based on their tag name.
+Para aplicar estilos a elementos com base no nome da tag.
 
 ---
 
-To apply styles to elements based on their class name.
+Para aplicar estilos a elementos com base no nome da sua classe.
 
 ---
 
-To apply styles to elements based on their parent element.
+Para aplicar estilos a elementos com base no seu elemento pai.
 
 #### --answer--
 
-To apply styles to elements based on their attributes.
+Para aplicar estilos aos elementos com base em seus atributos.
 
 ### --question--
 
 #### --text--
 
-Which of the following will NOT be selected by this CSS selector?
+Qual dos seguintes NÃO será selecionado por este seletor CSS?
 
 ```css
 [title~="flower"] {
@@ -75,7 +75,7 @@ Which of the following will NOT be selected by this CSS selector?
 
 #### --text--
 
-Which CSS selector matches all `p` elements with a `lang` attribute set to `"fr"`?
+Qual seletor CSS corresponde a todos os elementos `p` com um atributo `lang` definido como `"fr"`?
 
 #### --distractors--
 
@@ -105,7 +105,7 @@ p[lang="fr"] { color: blue; }
 
 #### --text--
 
-Which CSS selector matches all `a` elements with an `href` attribute?
+Qual seletor CSS corresponde a todos os elementos `a` com um atributo `href`?
 
 #### --distractors--
 
@@ -135,7 +135,7 @@ a[href] { color: blue; }
 
 #### --text--
 
-Which CSS selector matches all ordered lists with uppercase Roman numerals?
+Qual seletor CSS corresponde a todas as listas ordenadas com numerais romanos maiúsculos?
 
 #### --distractors--
 
@@ -165,29 +165,29 @@ ol[type="I"] { border-color: black; }
 
 #### --text--
 
-What is the `data-lang` attribute commonly used for?
+Para que serve comumente o atributo `data-lang`?
 
 #### --distractors--
 
-To specify the language of the document.
+Para especificar o idioma do documento.
 
 ---
 
-To define the character encoding of the document.
+Para definir a codificação de caracteres do documento.
 
 ---
 
-To set the language of an element based on its parent element.
+Para definir o idioma de um elemento com base no seu elemento pai.
 
 #### --answer--
 
-To apply styles to elements based on this custom data attribute.
+Para aplicar estilos aos elementos com base neste atributo de dados personalizado.
 
 ### --question--
 
 #### --text--
 
-Which CSS selector should you use to style `img` elements only if their `alt` attribute is equal to `"code"`?
+Qual seletor CSS você deve usar para estilizar elementos `img` somente se o atributo `alt` for igual a `"code"`?
 
 #### --distractors--
 
@@ -217,7 +217,7 @@ img[alt="code"] { border: 1px solid red; }
 
 #### --text--
 
-Which CSS selector matches ordered lists with a numerical numbering type?
+Qual seletor CSS corresponde a listas ordenadas com um tipo de numeração numérica?
 
 #### --distractors--
 
@@ -247,7 +247,7 @@ ol[type="1"] { color: purple; }
 
 #### --text--
 
-Which of the following CSS selectors would you use to style `a` elements with both `href` and `title` attributes?
+Qual dos seguintes seletores CSS você usaria para estilizar elementos `a` que possuem os atributos `href` e `title`?
 
 #### --distractors--
 
@@ -277,7 +277,7 @@ a[href][title] { text-decoration: underline dotted; }
 
 #### --text--
 
-Which CSS selector would you use if you are developing a website for a restaurant and want to style all elements with the `menu-item` class that have a `data-special` attribute?
+Qual seletor CSS você usaria se estivesse desenvolvendo um site para um restaurante e quisesse estilizar todos os elementos com a classe `menu-item` que possuem um atributo `data-special`?
 
 #### --distractors--
 

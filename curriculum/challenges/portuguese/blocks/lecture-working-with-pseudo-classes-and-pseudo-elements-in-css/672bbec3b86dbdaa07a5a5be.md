@@ -1,33 +1,34 @@
 ---
 id: 672bbec3b86dbdaa07a5a5be
-title: What Are Examples of Functional Pseudo-classes?
+title: Quais são exemplos de pseudo-classes funcionais?
 challengeType: 19
 dashedName: what-are-examples-of-functional-pseudo-classes
 ---
 
-# --description--
+# --interactive--
 
-Functional pseudo-classes allow you to select elements based on more complex conditions or relationships. Unlike regular pseudo-classes which target elements based on a state, for example, `:hover`, `:focus`, functional pseudo-classes accept arguments within parentheses, hence the name "functional pseudo-classes".
+Pseudo-classes funcionais permitem que você selecione elementos com base em condições ou relacionamentos mais complexos. Ao contrário das pseudo-classes regulares que têm como alvo elementos com base em um estado, por exemplo, `:hover` e `:focus`, pseudo-classes funcionais aceitam argumentos entre parênteses, daí o nome "pseudo-classes funcionais".
 
-Examples of functional pseudo-classes are:
+Exemplos de pseudo-classes funcionais são:
 
 - `:is()`
 - `:where()`
 - `:has()`
 - `:not()`
 
-Let's take a deeper look at each of these functional pseudo-classes with examples.
+Vamos analisar mais detalhadamente cada uma dessas pseudo-classes funcionais com exemplos.
 
-The `:is()` pseudo-class is useful when you want to style a group of elements that share some, but not all, characteristics. For example, you might want to style different types of buttons on your website, including `button` elements, links styled as buttons, and `input` elements with types `submit` and `reset`. Here's an HTML example representing that:
+A pseudo-classe `:is()` é útil quando você quer estilizar um grupo de elementos que compartilham algumas, mas não todas, as características. Por exemplo, você pode querer estilizar diferentes tipos de botões no seu site, incluindo elementos `button`, links estilizados como botões e elementos `input` com os tipos `submit` e `reset`.  Here's an example representing that. Sem a função `:is()`, você teria que escrever um seletor complexo assim:
+
+:::interactive_editor
 
 ```html
-<button>Click Me</button>
-<a href="#" class="button">Click Me Too</a>
+<link rel="stylesheet" href="styles.css" />
+<button>Example Button</button>
+<a href="#" class="button">Link styled like a button</a>
 <input type="submit" value="Submit" />
 <input type="reset" value="Reset" />
 ```
-
-Without the `:is()` function, you would have to write a complex selector like this:
 
 ```css
 button,
@@ -51,12 +52,24 @@ button:hover,
 a.button:hover,
 input[type='submit']:hover,
 input[type='reset']:hover {
-  background-color: lightblue;
-  border-color: lightblue;
+  background-color: blue;
+  border-color: blue;
 }
 ```
 
-With the `:is()` function, you can write a more compact and understandable selector like this:
+:::
+
+Com a função `:is()`, você pode escrever um seletor mais compacto e compreensível assim:
+
+:::interactive_editor
+
+```html
+<link rel="stylesheet" href="styles.css" />
+<button>Example Button</button>
+<a href="#" class="button">Link styled like a button</a>
+<input type="submit" value="Submit" />
+<input type="reset" value="Reset" />
+```
 
 ```css
 :is(button, a.button, input[type='submit'], input[type='reset']) {
@@ -79,17 +92,24 @@ With the `:is()` function, you can write a more compact and understandable selec
 }
 ```
 
-The `:where()` pseudo-class functions similarly to `:is()`, but it doesn't increase the specificity of your selectors. This makes it ideal for applying styles without affecting the specificity of other rules.
+:::
 
-For example, you can use the `:where()` function to apply zero `margin` and `padding` to heading elements. This ensures that the reset won't interfere with more specific styles you might apply later. Here's the HTML for that:
+A pseudo-classe `:where()` funciona de forma semelhante a `:is()`, mas não aumenta a especificidade dos seus seletores. Isso o torna ideal para aplicar estilos sem afetar a especificidade de outras regras.
+
+Por exemplo, você pode usar a função `:where()` para aplicar `margin` e `padding` zero aos elementos de título. Isso garante que o reset não interfira com estilos mais específicos que você possa aplicar depois.  Here's an example for that:
+
+:::interactive_editor
 
 ```html
+<link rel="stylesheet" href="styles.css" />
 <h1>Page Title</h1>
 <h2>Subtitle</h2>
 <h3>A point</h3>
-```
 
-And this is the CSS:
+<p>Example paragraph.</p>
+<p>Example paragraph.</p>
+<p>Example paragraph.</p>
+```
 
 ```css
 :where(h1, h2, h3) {
@@ -98,19 +118,16 @@ And this is the CSS:
 }
 ```
 
-Styling a parent element based on its children's states was previously challenging until the `:has()` pseudo-class was introduced. It allows you to apply styles to a parent element based on the presence or state of its child elements.
+:::
 
-For example, the CSS below will only apply to any `article` element that has an `h2` in it:
+Estilizar um elemento pai com base nos estados de seus filhos era anteriormente desafiador até a introdução da pseudo-classe `:has()`. Ele permite que você aplique estilos a um elemento pai com base na presença ou estado de seus elementos filhos.
 
-```css
-article:has(h2) {
-  border: 2px solid hotpink;
-}
-```
+Por exemplo, o CSS abaixo será aplicado apenas a qualquer elemento `article` que tenha um `h2` dentro dele:
 
-Here's the HTML for that:
+:::interactive_editor
 
 ```html
+<link rel="stylesheet" href="styles.css" />
 <article>
   <h2>Subheading</h2>
   <p>Lorem ipsum dolor sit amet.</p>
@@ -123,7 +140,24 @@ Here's the HTML for that:
 </article>
 ```
 
-The `:not()` pseudo-class is ideal for situations where you want to apply styles to a group of elements, excluding one or more specific exceptions. In the CSS below, any button that is not a primary button will have a grey background:
+```css
+article:has(h2) {
+  border: 2px solid hotpink;
+}
+```
+
+:::
+
+A pseudo-classe `:not()` é ideal para situações em que você deseja aplicar estilos a um grupo de elementos, excluindo uma ou mais exceções específicas. No CSS abaixo, qualquer botão que não seja um botão primário terá um fundo cinza:
+
+:::interactive_editor
+
+```html
+<link rel="stylesheet" href="styles.css" />
+<button class="primary">Primary Button</button>
+<button class="secondary">Secondary Button</button>
+<button class="danger">Another Secondary Button</button>
+```
 
 ```css
 button {
@@ -144,19 +178,13 @@ button:not(.primary) {
 }
 ```
 
-Here's the HTML for the buttons:
-
-```html
-<button class="primary">Primary Button</button>
-<button class="secondary">Secondary Button</button>
-<button class="danger">Another Secondary Button</button>
-```
+:::
 
 # --questions--
 
 ## --text--
 
-Which pseudo-class works like `:is()`, but doesn't add any specificity to your selectors?
+Qual pseudo-classe funciona como `:is()`, mas não adiciona nenhuma especificidade aos seus seletores?
 
 ## --answers--
 
@@ -164,7 +192,7 @@ Which pseudo-class works like `:is()`, but doesn't add any specificity to your s
 
 ### --feedback--
 
-This pseudo-class is great for applying broad, non-invasive styles.
+Esta pseudo-classe é ótima para aplicar estilos amplos e não invasivos.
 
 ---
 
@@ -172,7 +200,7 @@ This pseudo-class is great for applying broad, non-invasive styles.
 
 ### --feedback--
 
-This pseudo-class is great for applying broad, non-invasive styles.
+Esta pseudo-classe é ótima para aplicar estilos amplos e não invasivos.
 
 ---
 
@@ -184,7 +212,7 @@ This pseudo-class is great for applying broad, non-invasive styles.
 
 ### --feedback--
 
-This pseudo-class is great for applying broad, non-invasive styles.
+Esta pseudo-classe é ótima para aplicar estilos amplos e não invasivos.
 
 ## --video-solution--
 
@@ -192,7 +220,7 @@ This pseudo-class is great for applying broad, non-invasive styles.
 
 ## --text--
 
-Which of these is not a functional pseudo-class?
+Qual destes não é um pseudo-classe funcional?
 
 ## --answers--
 
@@ -200,7 +228,7 @@ Which of these is not a functional pseudo-class?
 
 ### --feedback--
 
-Functional pseudo-classes use parentheses and accept arguments inside them.
+Pseudo-classes funcionais usam parênteses e aceitam argumentos dentro deles.
 
 ---
 
@@ -208,7 +236,7 @@ Functional pseudo-classes use parentheses and accept arguments inside them.
 
 ### --feedback--
 
-Functional pseudo-classes use parentheses and accept arguments inside them.
+Pseudo-classes funcionais usam parênteses e aceitam argumentos dentro deles.
 
 ---
 
@@ -216,7 +244,7 @@ Functional pseudo-classes use parentheses and accept arguments inside them.
 
 ### --feedback--
 
-Functional pseudo-classes use parentheses and accept arguments inside them.
+Pseudo-classes funcionais usam parênteses e aceitam argumentos dentro deles.
 
 ---
 
@@ -224,7 +252,7 @@ Functional pseudo-classes use parentheses and accept arguments inside them.
 
 ### --feedback--
 
-Functional pseudo-classes use parentheses and accept arguments inside them.
+Pseudo-classes funcionais usam parênteses e aceitam argumentos dentro deles.
 
 ## --video-solution--
 
@@ -232,7 +260,7 @@ Functional pseudo-classes use parentheses and accept arguments inside them.
 
 ## --text--
 
-Which pseudo-class is perfect for a situation in which you want to apply styles to a group of elements without one or two exceptions?
+Qual pseudo-classe é perfeita para uma situação em que você quer aplicar estilos a um grupo de elementos sem uma ou duas exceções?
 
 ## --answers--
 
@@ -240,7 +268,7 @@ Which pseudo-class is perfect for a situation in which you want to apply styles 
 
 ### --feedback--
 
-Think about how you can exclude specific elements from being styled.
+Pense em como você pode excluir elementos específicos de serem estilizados.
 
 ---
 
@@ -248,7 +276,7 @@ Think about how you can exclude specific elements from being styled.
 
 ### --feedback--
 
-Think about how you can exclude specific elements from being styled.
+Pense em como você pode excluir elementos específicos de serem estilizados.
 
 ---
 
@@ -260,7 +288,7 @@ Think about how you can exclude specific elements from being styled.
 
 ### --feedback--
 
-Think about how you can exclude specific elements from being styled.
+Pense em como você pode excluir elementos específicos de serem estilizados.
 
 ## --video-solution--
 

@@ -7,13 +7,13 @@ dashedName: step-9
 
 # --description--
 
-If the user clicks the `Discard` button, you want to close the modal showing the `Cancel` and `Discard` buttons, then hide the form modal.
+Se o usuário clicar no botão `Discard`, você quer fechar o modal que mostra os botões `Cancel` e `Discard`, e então ocultar o modal do formulário.
 
-Add a click event listener to `discardBtn`, then use the `close()` method on the `confirmCloseDialog` variable. Also, use `classList` to toggle the class `hidden` on `taskForm` so the form modal will close too.
+Adicione um listener de evento de clique ao `discardBtn`, depois use o método `close()` na variável `confirmCloseDialog`.Além disso, use `classList` para alternar a classe `hidden` em `taskForm` para que o modal do formulário também seja fechado.
 
 # --hints--
 
-You should call the `addEventListener()` method on your `discardBtn` variable.
+Você deve chamar o método `addEventListener()` na sua variável `discardBtn`.
 
 ```js
 assert.match(code, /discardBtn\.addEventListener\(/)
@@ -25,19 +25,19 @@ O "ouvinte" de evento deve "ouvir" o evento de `click`.
 assert.match(code, /discardBtn\.addEventListener\(\s*('|"|`)click\1/)
 ```
 
-You should use arrow syntax to set your event listener to an empty pair of curly braces.
+Você deve usar a sintaxe de seta para definir seu event listener para um par vazio de chaves.
 
 ```js
 assert.match(code, /discardBtn\.addEventListener\(\s*('|"|`)click\1\s*,\s*\(\s*\)\s*=>\s*\{/)
 ```
 
-Your event listener should use the `close()` method on `confirmCloseDialog`.
+Seu listener de evento deve usar o método `close()` em `confirmCloseDialog`.
 
 ```js
 assert.match(code, /discardBtn\.addEventListener\(\s*('|"|`)click\1\s*,\s*\(\s*\)\s*=>\s*\{\s*confirmCloseDialog\.close\(\s*\)\s*;?/)
 ```
 
-Your event listener should use `classList` to toggle the class `hidden` on `taskForm`.
+Seu listener de evento deve usar `classList` para alternar a classe `hidden` em `taskForm`.
 
 ```js
 assert.match(code, /discardBtn\.addEventListener\(\s*('|"|`)click\1\s*,\s*\(\s*\)\s*=>\s*\{\s*confirmCloseDialog\.close\(\s*\)\s*;?\s*taskForm\.classList\.toggle\(\s*('|"|`)hidden\2\s*\)\s*;?\s*\}\s*\)\s*;?/)
