@@ -15,35 +15,35 @@ Ouça o áudio e responda a pergunta abaixo.
 
 ## --text--
 
-Why does Jessica want to explain the bug to the team quickly?
+Por que Jessica quer explicar o bug para a equipe rapidamente?
 
 ## --answers--
 
-Because she wants to return to the main topic of the meeting.
+Porque ela quer retornar ao tópico principal da reunião.
 
 ---
 
-Because she wants to leave the meeting early.
+Porque ela quer sair da reunião mais cedo.
 
 ### --feedback--
 
-Jessica doesn't mention leaving the meeting.
+Jessica não menciona sair da reunião.
 
 ---
 
-Because the team already knows about the bug.
+Porque a equipe já sabe sobre o bug.
 
 ### --feedback--
 
-Jessica is explaining the bug because it might affect the team.
+Jessica está explicando o bug porque ele pode afetar a equipe.
 
 ---
 
-Because she doesn't think the bug is important.
+Porque ela não acha que o bug é importante.
 
 ### --feedback--
 
-Jessica thinks the issue is important, but she also wants to respect the meeting agenda.
+Jessica acha que o problema é importante, mas ela também quer respeitar a agenda da reunião.
 
 ## --video-solution--
 
@@ -51,13 +51,13 @@ Jessica thinks the issue is important, but she also wants to respect the meeting
 
 # --explanation--
 
-`So we can` is used to show purpose — it means the next thing you mention is what you intend to do. It explains why someone is doing something. For example:
+`So we can` é usado para mostrar propósito — significa que a próxima coisa que você mencionar é o que você pretende fazer.Explica por que alguém está fazendo algo.Por exemplo:
 
-`I'll finish this now so we can start the next task.` – This means the speaker wants to finish one thing to begin another soon.
+`I'll finish this now so we can start the next task.` – Isso significa que o falante quer terminar uma coisa para começar outra em breve.
 
-`The main agenda` refers to the primary topics or plan of a meeting or event. For example:
+`The main agenda` refere-se aos tópicos principais ou ao plano de uma reunião ou evento.Por exemplo:
 
-`Let's stick to the main agenda and avoid side discussions.` – This means to stay focused on the most important items in the meeting.
+`Let's stick to the main agenda and avoid side discussions.` – Isso significa manter o foco nos itens mais importantes da reunião.
 
 # --scene--
 

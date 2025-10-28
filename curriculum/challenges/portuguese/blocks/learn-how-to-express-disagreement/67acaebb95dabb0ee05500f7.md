@@ -1,6 +1,6 @@
 ---
 id: 67acaebb95dabb0ee05500f7
-title: Task 21
+title: Tarefa 21
 challengeType: 22
 dashedName: task-21
 ---
@@ -9,7 +9,7 @@ dashedName: task-21
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Ouça o áudio para completar a frase abaixo.
 
 # --fillInTheBlank--
 
@@ -23,15 +23,15 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This word means an obstacle or something that slows down progress.
+Esta palavra significa um obstáculo ou algo que desacelera o progresso.
 
 # --explanation--
 
-A `setback` is something that delays or prevents progress. Slow or inefficient computers might make tasks take longer, reducing efficiency. For example:
+Um `setback` é algo que atrasa ou impede o progresso.Computadores lentos ou ineficientes podem fazer com que as tarefas demorem mais, reduzindo a eficiência.Por exemplo:
 
-- `The project faced a setback due to a critical bug.` - The project was delayed or had problems because of a serious software issue.
+- `The project faced a setback due to a critical bug.` - O projeto foi atrasado ou teve problemas por causa de uma falha crítica no software.
 
-- `Losing important data was a major setback for the team.` - Losing data created difficulties and slowed down the team's work.
+- `Losing important data was a major setback for the team.` - Perder dados criou dificuldades e atrasou o trabalho da equipe.
 
 # --scene--
 

@@ -1,37 +1,37 @@
 ---
 id: 6555d8faed60b9d3e4a6cefb
-title: Step 72
+title: Passo 72
 challengeType: 0
 dashedName: step-72
 ---
 
 # --description--
 
-To make the application more accessible, it is important that the play button describes the current song or the first song in the playlist.
+Para tornar o aplicativo mais acessível, é importante que o botão de play descreva a música atual ou a primeira música da playlist. 
 
-Start by creating an empty arrow function called `setPlayButtonAccessibleText`.
+Comece criando uma função arrow vazia chamada `setPlayButtonAccessibleText`.
 
 # --hints--
 
-You should use `const` to create an empty function named `setPlayButtonAccessibleText`.
+Você deve usar `const` para criar uma função vazia chamada `setPlayButtonAccessibleText`.
 
 ```js
 assert.match(code, /const\s+setPlayButtonAccessibleText\s*=\s*/)
 ```
 
-`setPlayButtonAccessibleText` should be a function.
+`setPlayButtonAccessibleText` deve ser uma função.
 
 ```js
 assert.isFunction(setPlayButtonAccessibleText)
 ```
 
-Your `setPlayButtonAccessibleText` function should use an arrow syntax.
+Sua função `setPlayButtonAccessibleText` deve usar uma sintaxe de arrow.
 
 ```js
 assert.match(code, /const\s+setPlayButtonAccessibleText\s*=\s*\(\s*\)\s*=>\s*/)
 ```
 
-Your `setPlayButtonAccessibleText` function  should be empty.
+Sua função `setPlayButtonAccessibleText` deve estar vazia.
 
 ```js
 assert.match(code, /const\s+setPlayButtonAccessibleText\s*=\s*\(\s*\)\s*=>\s*\{\n?\s*?\}\s*;?/)
@@ -644,7 +644,7 @@ const playSong = (id) => {
 
 const pauseSong = () => {
   userData.songCurrentTime = audio.currentTime;
-
+  
   playButton.classList.remove("playing");
   audio.pause();
 };

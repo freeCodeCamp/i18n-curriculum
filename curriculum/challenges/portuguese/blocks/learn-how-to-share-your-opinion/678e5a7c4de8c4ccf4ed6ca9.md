@@ -1,6 +1,6 @@
 ---
 id: 678e5a7c4de8c4ccf4ed6ca9
-title: Task 66
+title: Tarefa 66
 challengeType: 22
 dashedName: task-66
 ---
@@ -9,7 +9,7 @@ dashedName: task-66
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Ouça o áudio para completar a frase abaixo.
 
 # --fillInTheBlank--
 
@@ -23,7 +23,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This word means to have the same opinion or to reach a mutual understanding.
+Esta palavra significa ter a mesma opinião ou alcançar um entendimento mútuo. 
 
 ---
 
@@ -31,17 +31,17 @@ This word means to have the same opinion or to reach a mutual understanding.
 
 ### --feedback--
 
-This word means to have a different opinion or to not be in agreement.
+Esta palavra significa ter uma opinião diferente ou não estar de acordo.
 
 # --explanation--
 
-`Agree` means to be in agreement or have the same opinion as someone. For example:
+`Agree` significa estar de acordo ou ter a mesma opinião que alguém.Por exemplo:  
 
-`We both agree that improving security is important.` - This means you share the same opinion about security with other person.
+`We both agree that improving security is important.` - Isso significa que você compartilha a mesma opinião sobre segurança com a outra pessoa.
 
-`Disagree` means to have a different opinion or not be in agreement. For example:
+`Disagree` significa ter uma opinião diferente ou não estar de acordo.Por exemplo:  
 
-`Jake and Maria disagree on which software to use.` - This shows that Jake and Maria have different opinions on the choice of software.
+`Jake and Maria disagree on which software to use.` - Isso mostra que Jake e Maria têm opiniões diferentes sobre a escolha do software.
 
 # --scene--
 

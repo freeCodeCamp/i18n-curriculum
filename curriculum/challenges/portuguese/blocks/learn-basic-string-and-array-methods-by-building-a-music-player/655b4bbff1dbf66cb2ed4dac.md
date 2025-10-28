@@ -7,17 +7,17 @@ dashedName: step-97
 
 # --description--
 
-Use an `if` statement to check if `nextSongExists` exists, then call the `playNextSong()` function in the `if` block. This will automatically play the next song when the current song ends.
+Use uma declaração `if` para verificar se `nextSongExists` existe e então chame a função `playNextSong()` no bloco `if`.Isso irá reproduzir automaticamente a próxima música quando a música atual terminar.
 
 # --hints--
 
-You should create an `if` statement with the condition `nextSongExists`.
+Você deve criar uma declaração `if` com a condição `nextSongExists`.
 
 ```js
 assert.match(code, /if\s*\(\s*nextSongExists\s*\)\s*\{\s*/)
 ```
 
-You should call the `playNextSong` function inside your `if` statement.
+Você deve chamar a função `playNextSong` dentro do seu comando `if`.
 
 ```js
 assert.match(code, /if\s*\(\s*nextSongExists\s*\)\s*\{\s*playNextSong\(\s*\)\s*;?\s*\}/)
@@ -596,7 +596,7 @@ const playSong = (id) => {
 
 const pauseSong = () => {
   userData.songCurrentTime = audio.currentTime;
-
+  
   playButton.classList.remove("playing");
   audio.pause();
 };

@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c442eddfaeb5bd17
-title: Build a JavaScript Calculator
+title: Criar uma calculadora JavaScript
 challengeType: 3
 forumTopicId: 301371
 dashedName: build-a-javascript-calculator
@@ -9,52 +9,52 @@ dashedName: build-a-javascript-calculator
 # --description--
 **Note:** **React 18 has known incompatibilities with the tests for this project (see [issue](https://github.com/freeCodeCamp/freeCodeCamp/issues/45922))**
 
-**Objective:** Build an app that is functionally similar to this: <a href="https://javascript-calculator.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://javascript-calculator.freecodecamp.rocks/</a>.
+**Objetivo:** Construir um aplicativo que seja funcionalmente semelhante a este: <a href="https://javascript-calculator.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://javascript-calculator.freecodecamp.rocks/</a>.
 
-Fulfill the below user stories and get all of the tests to pass. Use whichever libraries or APIs you need. Give it your own personal style.
+Atenda às histórias de usuário abaixo e faça com que todos os testes passem.Use quaisquer bibliotecas ou APIs de que você precisar.Dê ao projeto o seu próprio estilo pessoal.
 
-You can use any mix of HTML, JavaScript, CSS, Bootstrap, SASS, React, Redux, and jQuery to complete this project. You should use a frontend framework (like React for example) because this section is about learning frontend frameworks. Additional technologies not listed above are not recommended and using them is at your own risk. We are looking at supporting other frontend frameworks like Angular and Vue, but they are not currently supported. We will accept and try to fix all issue reports that use the suggested technology stack for this project. Happy coding!
+Você pode usar qualquer mistura de HTML, JavaScript, CSS, Bootstrap, SASS, React, Redux e JQuery para completar este projeto.Você deve usar um framework de front-end (como React por exemplo) porque essa seção trata de aprender frameworks de front-end.Tecnologias adicionais não listadas acima não são recomendadas e usá-las é por sua conta e risco.Estamos buscando apoiar outros frameworks de front-end, como Angular e Vue, mas eles não são atualmente suportados.Vamos aceitar e tentar corrigir todos os relatórios de problemas que usem o conjunto de tecnologias sugeridas para esse projeto. Happy coding!
 
-**User Story #1:** My calculator should contain a clickable element containing an `=` (equal sign) with a corresponding `id="equals"`.
+**User Story #1:** Minha calculadora deve conter um elemento clicável contendo um `=` (sinal de igual) com um correspondente `id="equals"`.
 
-**User Story #2:** My calculator should contain 10 clickable elements containing one number each from 0-9, with the following corresponding IDs: `id="zero"`, `id="one"`, `id="two"`, `id="three"`, `id="four"`, `id="five"`, `id="six"`, `id="seven"`, `id="eight"`, and `id="nine"`.
+**História do Usuário #2:** Minha calculadora deve conter 10 elementos clicáveis contendo um número cada, de 0 a 9, com os seguintes IDs correspondentes: `id="zero"`, `id="one"`, `id="two"`, `id="three"`, `id="four"`, `id="five"`, `id="six"`, `id="seven"`, `id="eight"` e `id="nine"`.
 
-**User Story #3:** My calculator should contain 4 clickable elements each containing one of the 4 primary mathematical operators with the following corresponding IDs: `id="add"`, `id="subtract"`, `id="multiply"`, `id="divide"`.
+**User Story #3:** Minha calculadora deve conter 4 elementos clicáveis, cada um contendo um dos 4 operadores matemáticos primários com os seguintes IDs correspondentes: `id="add"`, `id="subtract"`, `id="multiply"`, `id="divide"`.
 
-**User Story #4:** My calculator should contain a clickable element containing a `.` (decimal point) symbol with a corresponding `id="decimal"`.
+**User Story #4:** Minha calculadora deve conter um elemento clicável contendo um símbolo `.` (ponto decimal) com um `id="decimal"` correspondente.
 
-**User Story #5:** My calculator should contain a clickable element with an `id="clear"`.
+**História de Usuário #5:** Minha calculadora deve conter um elemento clicável com um `id="clear"`.
 
-**User Story #6:** My calculator should contain an element to display values with a corresponding `id="display"`.
+**User Story #6:** Minha calculadora deve conter um elemento para exibir valores com um correspondente `id="display"`.
 
-**User Story #7:** At any time, pressing the `clear` button clears the input and output values, and returns the calculator to its initialized state; 0 should be shown in the element with the id of `display`.
+**História de Usuário #7:** A qualquer momento, pressionar o botão `clear` limpa os valores de entrada e saída, e retorna a calculadora ao seu estado inicializado; 0 deve ser exibido no elemento com o id `display`.
 
-**User Story #8:** As I input numbers, I should be able to see my input in the element with the id of `display`.
+**User Story #8:** À medida que eu insiro números, devo ser capaz de ver minha entrada no elemento com o id `display`.
 
-**User Story #9:** In any order, I should be able to add, subtract, multiply and divide a chain of numbers of any length, and when I hit `=`, the correct result should be shown in the element with the id of `display`.
+**História de Usuário #9:** Em qualquer ordem, eu devo ser capaz de adicionar, subtrair, multiplicar e dividir uma cadeia de números de qualquer comprimento, e quando eu pressionar `=`, o resultado correto deve ser exibido no elemento com o id `display`.
 
-**User Story #10:** When inputting numbers, my calculator should not allow a number to begin with multiple zeros.
+**História de Usuário #10:** Ao inserir números, minha calculadora não deve permitir que um número comece com múltiplos zeros.
 
-**User Story #11:** When the decimal element is clicked, a `.` should append to the currently displayed value; two `.` in one number should not be accepted.
+**História de Usuário #11:** Quando o elemento decimal for clicado, um `.` deve ser adicionado ao valor atualmente exibido; dois `.` em um mesmo número não devem ser aceitos.
 
-**User Story #12:** I should be able to perform any operation (`+`, `-`, `*`, `/`) on numbers containing decimal points.
+**História de Usuário #12:** Eu devo ser capaz de realizar qualquer operação (`+`, `-`, `*`, `/`) em números contendo pontos decimais.
 
-**User Story #13:** If 2 or more operators are entered consecutively, the operation performed should be the last operator entered (excluding the negative (`-`) sign). For example, if `5 + * 7 =` is entered, the result should be `35` (i.e. `5 * 7`); if `5 * - 5 =` is entered, the result should be `-25` (i.e. `5 * (-5)`).
+**User Story #13:** Se 2 ou mais operadores forem inseridos consecutivamente, a operação realizada deve ser o último operador inserido (excluindo o sinal negativo (`-`)).Por exemplo, se `5 + * 7 =` for inserido, o resultado deve ser `35` (ou seja, `5 * 7`); se `5 * - 5 =` for inserido, o resultado deve ser `-25` (ou seja, `5 * (-5)`).
 
-**User Story #14:** Pressing an operator immediately following `=` should start a new calculation that operates on the result of the previous evaluation.
+**História de Usuário #14:** Pressionar um operador imediatamente após `=` deve iniciar um novo cálculo que opere sobre o resultado da avaliação anterior.
 
-**User Story #15:** My calculator should have several decimal places of precision when it comes to rounding (note that there is no exact standard, but you should be able to handle calculations like `2 / 7` with reasonable precision to at least 4 decimal places).
+**User Story #15:** Minha calculadora deve ter várias casas decimais de precisão quando se trata de arredondamento (observe que não existe um padrão exato, mas você deve ser capaz de lidar com cálculos como `2 / 7` com precisão razoável de pelo menos 4 casas decimais).
 
-**Note On Calculator Logic:** It should be noted that there are two main schools of thought on calculator input logic: <dfn>immediate execution logic</dfn> and <dfn>formula logic</dfn>. Our example utilizes formula logic and observes order of operation precedence, immediate execution does not. Either is acceptable, but please note that depending on which you choose, your calculator may yield different results than ours for certain equations (see below example). As long as your math can be verified by another production calculator, please do not consider this a bug.
+**Nota Sobre a Lógica da Calculadora:** Deve-se notar que existem duas principais correntes de pensamento sobre a lógica de entrada da calculadora: <dfn>lógica de execução imediata</dfn> e <dfn>lógica de fórmula</dfn>.Nosso exemplo utiliza a lógica da fórmula e observa a ordem de precedência de operação. A lógica de execução imediata não faz isso.Qualquer uma é aceitável, mas observe que, dependendo de qual você escolher, sua calculadora pode alcançar diferentes resultados do que os nossos para certas equações (veja abaixo um exemplo).Desde que sua matemática possa ser verificada por outra calculadora em produção, não considere isso um bug.
 
-**EXAMPLE:** `3 + 5 x 6 - 2 / 4 =`
+**EXEMPLO:** `3 + 5 x 6 - 2 / 4 =`  
 
--   **Immediate Execution Logic:** `11.5`
--   **Formula/Expression Logic:** `32.5`
+-   **Lógica de Execução Imediata:** `11.5`
+-   **Lógica da Fórmula/Expressão:** `32.5`
 
-You can build your project by <a href='https://codepen.io/pen?template=MJjpwO' target='_blank' rel="noopener noreferrer nofollow">using this CodePen template</a> and clicking `Save` to create your own pen. If you prefer to use another environment, then put this `<script>` tag into the body of your `index.html` file: `<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>`
+Você pode construir seu projeto <a href='https://codepen.io/pen?template=MJjpwO' target='_blank' rel="noopener noreferrer nofollow">usando este modelo do CodePen</a> e clicando em `Save` para criar seu próprio pen. Se preferir usar outro ambiente, então coloque esta tag `<script>` dentro do corpo do seu arquivo `index.html`: `<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>`
 
-Once you're done, submit the URL to your working project with all its tests passing.
+Quando tiver terminado, envie o URL do seu projeto depois de ele haver passado em todos os testes.
 
 # --solutions--
 

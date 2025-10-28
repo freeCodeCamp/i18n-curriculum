@@ -9,9 +9,9 @@ dashedName: task-61
 
 # --description--
 
-`At least` is used when you want to say the smallest amount or number of something is okay or enough. It's like saying "no less than this amount". For example:
+`At least` is used when you want to say the smallest amount or number of something is okay or enough. É como dizer "no less than this amount". Por exemplo:
 
-`I study English for at least 30 minutes every day.` - This means you spend 30 minutes or more studying English daily, but never less than 30 minutes.
+`I study English for at least 30 minutes every day.` - Isso significa que você dedica 30 minutos ou mais estudando inglês diariamente, mas nunca menos que 30 minutos.
 
 # --fillInTheBlank--
 
@@ -25,7 +25,7 @@ dashedName: task-61
 
 ### --feedback--
 
-These two words form an expression indicating a minimum amount.
+Essas duas palavras formam uma expressão que indica uma quantidade mínima.
 
 # --scene--
 

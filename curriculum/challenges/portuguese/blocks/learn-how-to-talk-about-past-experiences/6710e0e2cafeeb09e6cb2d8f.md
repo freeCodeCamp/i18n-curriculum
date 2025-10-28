@@ -1,6 +1,6 @@
 ---
 id: 6710e0e2cafeeb09e6cb2d8f
-title: Task 55
+title: Tarefa 55
 challengeType: 22
 dashedName: task-55
 ---
@@ -9,7 +9,7 @@ dashedName: task-55
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Ouça o áudio para completar a frase abaixo.
 
 # --fillInTheBlank--
 
@@ -23,7 +23,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This is the auxiliary verb used to form the `Past Continuous` in the singular first-person form.
+Este é o verbo auxiliar usado para formar o `Past Continuous` na forma singular da primeira pessoa.
 
 ---
 
@@ -31,7 +31,7 @@ This is the auxiliary verb used to form the `Past Continuous` in the singular fi
 
 ### --feedback--
 
-This is the main verb in the `Past Continuous`, describing the act of laboring.
+Este é o verbo principal no `Past Continuous`, descrevendo o ato de trabalhar.
 
 ---
 
@@ -39,7 +39,7 @@ This is the main verb in the `Past Continuous`, describing the act of laboring.
 
 ### --feedback--
 
-This is the auxiliary verb used to form the `Past Continuous` in the plural first-person form.
+Este é o verbo auxiliar usado para formar o `Past Continuous` na forma plural da primeira pessoa.
 
 ---
 
@@ -47,15 +47,15 @@ This is the auxiliary verb used to form the `Past Continuous` in the plural firs
 
 ### --feedback--
 
-This is the main verb in the `Past Continuous`, describing an ongoing action of improving or modernizing something.
+Este é o verbo principal no `Past Continuous`, descrevendo uma ação contínua de melhorar ou modernizar algo.
 
 # --explanation--
 
-The `Past Continuous` tense is used to describe actions that were ongoing at a specific time in the past. When two `Past Continuous` sentences are used together, they often describe simultaneous actions or actions happening alongside each other.
+O tempo `Past Continuous` é usado para descrever ações que estavam em andamento em um momento específico no passado.Quando duas sentenças `Past Continuous` são usadas juntas, elas frequentemente descrevem ações simultâneas ou ações acontecendo lado a lado.  
 
-In this sentence, Linda is describing how she and her team were both working and updating the user interface continuously throughout the project. This shows two actions happening at the same time in the past, providing context or background for each other. For example:
+Nesta frase, Linda está descrevendo como ela e sua equipe estavam trabalhando e atualizando continuamente a interface do usuário durante todo o projeto.Isso mostra duas ações acontecendo ao mesmo tempo no passado, fornecendo contexto ou pano de fundo uma para a outra.Por exemplo: 
 
-`While I was preparing the report, they were testing the new features.` - This means the action of my preparing the report and the testing of the new features happened at the same time.
+`While I was preparing the report, they were testing the new features.` - Isso significa que a ação de eu preparar o relatório e o teste das novas funcionalidades aconteceram ao mesmo tempo.
 
 # --scene--
 

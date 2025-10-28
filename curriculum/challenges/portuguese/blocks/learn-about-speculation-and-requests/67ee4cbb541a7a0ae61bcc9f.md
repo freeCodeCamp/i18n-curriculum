@@ -1,6 +1,6 @@
 ---
 id: 67ee4cbb541a7a0ae61bcc9f
-title: Task 4
+title: Tarefa 4
 challengeType: 19
 dashedName: task-4
 ---
@@ -9,41 +9,41 @@ dashedName: task-4
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Ouça o áudio e responda a pergunta abaixo.
 
 # --questions--
 
 ## --text--
 
-Is this small error serious?
+Esse pequeno erro é sério?
 
 ## --answers--
 
-No, and they don't need to do anything about it.
+Não, e eles não precisam fazer nada a respeito.
 
 ### --feedback--
 
-Sophie doesn't say it's a major issue, but they should fix it.
+Sophie não diz que é um problema grave, mas eles deveriam consertar isso.
 
 ---
 
-Yes, it will break the whole system.
+Sim, isso vai quebrar todo o sistema.
 
 ### --feedback--
 
-Sophie doesn't say it's a major issue, just something they should fix.
+Sophie não diz que é um problema grave, apenas algo que eles deveriam corrigir.
 
 ---
 
-Yes, Sophie is very worried about it.
+Sim, Sophie está muito preocupada com isso.
 
 ### --feedback--
 
-Sophie is not very worried, but she still thinks they should fix it.
+Sophie não está muito preocupada, mas ela ainda acha que eles deveriam consertar isso.
 
 ---
 
-No, but it should still be fixed.
+Não, mas ainda assim deve ser corrigido.
 
 ## --video-solution--
 
@@ -51,13 +51,13 @@ No, but it should still be fixed.
 
 # --explanation--
 
-`It's not a big deal` means the problem is not serious. For example:
+`It's not a big deal` significa que o problema não é sério.Por exemplo:
 
-- Person 1: `I can't join the meeting today.`
+- Pessoa 1: `I can't join the meeting today.`
 
-- Person 2: `It's not a big deal. I'll take notes for you.` - Missing the meeting is okay, and this person can help.
+- Pessoa 2: `It's not a big deal. I'll take notes for you.` - Perder a reunião está tudo bem e essa pessoa pode ajudar.
 
-Sophie also says `we should fix it before it causes problems`, meaning it's better to fix it now before it becomes serious.
+Sophie também diz que `we should fix it before it causes problems`, ou seja, é melhor consertar agora antes que se torne sério.
 
 # --scene--
 

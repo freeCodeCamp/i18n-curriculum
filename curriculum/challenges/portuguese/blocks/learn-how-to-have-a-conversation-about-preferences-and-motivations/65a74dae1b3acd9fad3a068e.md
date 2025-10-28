@@ -9,9 +9,9 @@ dashedName: task-132
 
 # --description--
 
-`To recognize` means to identify someone or something from before, or to acknowledge the existence or validity of something. For example, `I recognize your efforts in completing this project.`
+`To recognize` significa identificar alguém ou algo de antes, ou reconhecer a existência ou validade de algo.Por exemplo, `I recognize your efforts in completing this project.`
 
-`Recognition` is the noun form of `recognize` and refers to the act of acknowledging or giving credit to someone for their efforts or achievements. For example, `He received recognition for his innovative work.`
+`Recognition` é a forma substantiva de `recognize` e refere-se ao ato de reconhecer ou dar crédito a alguém por seus esforços ou conquistas.Por exemplo, `He received recognition for his innovative work.`
 
 # --fillInTheBlank--
 
@@ -25,7 +25,7 @@ dashedName: task-132
 
 ### --feedback--
 
-This verb means to perform an activity or exercise repeatedly or regularly in order to improve or maintain one's proficiency.
+Este verbo significa realizar uma atividade ou exercício repetidamente ou regularmente para melhorar ou manter a proficiência de alguém.
 
 ---
 
@@ -33,7 +33,7 @@ This verb means to perform an activity or exercise repeatedly or regularly in or
 
 ### --feedback--
 
-This noun refers to the action or process of acknowledging someone's efforts, achievements, or qualities.
+Este substantivo refere-se à ação ou processo de reconhecer os esforços, conquistas ou qualidades de alguém.
 
 # --scene--
 

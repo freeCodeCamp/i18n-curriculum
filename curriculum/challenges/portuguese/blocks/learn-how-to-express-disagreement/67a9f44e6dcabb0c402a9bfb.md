@@ -1,6 +1,6 @@
 ---
 id: 67a9f44e6dcabb0c402a9bfb
-title: Task 5
+title: Tarefa 5
 challengeType: 19
 dashedName: task-5
 ---
@@ -9,41 +9,41 @@ dashedName: task-5
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Ouça o áudio e responda a pergunta abaixo.
 
 # --questions--
 
 ## --text--
 
-What does Bob want to know?
+O que Bob quer saber?
 
 ## --answers--
 
-If employees have already bought office furniture.
+Se os funcionários já compraram móveis de escritório.
 
 ### --feedback--
 
-Bob isn't asking for confirmation of purchases.
+Bob não está pedindo confirmação das compras.
 
 ---
 
-How much office furniture costs.
+Quanto custa mobília de escritório.
 
 ### --feedback--
 
-Bob does not ask about the price.
+Bob não pergunta sobre o preço.
 
 ---
 
-If the company will increase the stipend.
+Se a empresa aumentará o `stipend`.
 
 ### --feedback--
 
-Bob is not discussing changes to the stipend.
+Bob não está discutindo mudanças no `stipend`.
 
 ---
 
-If Anna thinks using the stipend for office furniture is a good idea.
+Se Anna acha que usar o `stipend` para móveis de escritório é uma boa ideia.
 
 ## --video-solution--
 
@@ -51,7 +51,7 @@ If Anna thinks using the stipend for office furniture is a good idea.
 
 # --explanation--
 
-Bob asks, `Do you think that's a good idea?` This is a way to ask for someone's opinion about a suggestion or plan. Here's other ways to ask for an opinion:
+Bob pergunta, `Do you think that's a good idea?` Esta é uma forma de pedir a opinião de alguém sobre uma sugestão ou plano.Aqui estão outras formas de pedir uma opinião:
 
 - `Do you think this will work?`
 
@@ -59,7 +59,7 @@ Bob asks, `Do you think that's a good idea?` This is a way to ask for someone's 
 
 - `How do you feel about this plan?`
 
-In this dialogue, Bob is referring to employees using the remote work stipend for office furniture. Instead of stating his own opinion, he is asking Anna what she thinks.
+Neste diálogo, Bob está se referindo aos funcionários que usam o subsídio de trabalho remoto para móveis de escritório.Em vez de expressar sua própria opinião, ele está perguntando a Anna o que ela pensa.
 
 # --scene--
 

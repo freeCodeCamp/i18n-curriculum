@@ -1,48 +1,48 @@
 ---
 id: 68ad9821ee41baad9cb0fd4e
-title: Build a Symmetric Difference Function
+title: Construir uma Função de Diferença Simétrica
 challengeType: 26
 dashedName: lab-symmetric-difference
 ---
 
 # --description--
 
-Compare two arrays and return a new array with any items only found in one of the two given arrays, but not both. In other words, return the symmetric difference of the two arrays.
+Compare dois arrays e retorne um novo array com qualquer item encontrado em apenas um dos dois arrays passados, mas não ambos.Em outras palavras, retorne a diferença simétrica de dois arrays.
 
-Example:
+Exemplo:
 
-- Array A: `["diamond", "stick", "apple"]`
+- Array A: `["diamante", "pau", "maçã"]`
 
-- Array B: `["stick", "emerald", "bread"]`
+- Array B: `["vara", "esmeralda", "pão"]`
 
-Result: `["diamond", "apple", "emerald", "bread"]`
+Resultado: `["diamante", "maçã", "esmeralda", "pão"]`
 
-**Objective:** Fulfill the user stories below and get all the tests to pass to complete the lab.
+**Objetivo:** Cumprir as user stories abaixo e fazer todos os testes passarem para completar o laboratório.
 
-**User Stories:**
+**Histórias de Usuário:**
 
-1. Your function `diffArray` should return an array.
-2. Your function should take two arguments, both of which are arrays.
-3. Your function should make use of the `filter` method.
-4. Your function should return the symmetric difference of the two arrays.
-5. Your function should return an empty array if there is no symmetric difference.
+1. Sua função `diffArray` deve retornar um array.
+2. Sua função deve receber dois argumentos, ambos os quais são arrays.
+3. Sua função deve fazer uso do método `filter`.
+4. Sua função deve retornar a diferença simétrica dos dois arrays.  
+5. Sua função deve retornar um array vazio se não houver diferença simétrica.
 
 
 # --hints--
 
-You should have a function named `diffArray`.
+Você deve ter uma função chamada `diffArray`.
 
 ```js
 assert.isFunction(diffArray);
 ```
 
-The `diffArray` function should use the `filter` method to filter out items that are present in both arrays.
+A função `diffArray` deve usar o método `filter` para filtrar os itens que estão presentes em ambos os arrays.
 
 ```js
 assert(/\.filter\(/.test(diffArray.toString()));
 ```
 
-`diffArray(["diorite", "andesite", "grass", "dirt", "pink wool", "dead shrub"], ["diorite", "andesite", "grass", "dirt", "dead shrub"])` should return `["pink wool"]`.
+`diffArray(["diorito", "andesito", "grama", "terra", "lã rosa", "arbusto morto"], ["diorito", "andesito", "grama", "terra", "arbusto morto"])` deve retornar `["lã rosa"]`.
 
 ```js
 assert.deepEqual(diffArray(
@@ -51,7 +51,7 @@ assert.deepEqual(diffArray(
 ), ["pink wool"]);
 ```
 
-`diffArray(["diorite", "andesite", "grass", "dirt", "pink wool", "dead shrub"], ["andesite", "grass", "dirt", "dead shrub"])` should return `["diorite", "pink wool"]`.
+`diffArray(["diorite", "andesite", "grass", "dirt", "pink wool", "dead shrub"], ["andesite", "grass", "dirt", "dead shrub"])` deve retornar `["diorite", "pink wool"]`.
 
 ```js
 assert.deepEqual(diffArray(
@@ -60,7 +60,7 @@ assert.deepEqual(diffArray(
 ), ["diorite", "pink wool"]);
 ```
 
-`diffArray` should return an empty array when called with two identical arrays.
+`diffArray` deve retornar um array vazio quando chamado com dois arrays idênticos.
 
 ```js
 assert.deepEqual(diffArray(
@@ -69,7 +69,7 @@ assert.deepEqual(diffArray(
 ), []);
 ```
 
-`diffArray(["pen", "book"], ["book", "pencil", "notebook"])` should return `["pen", "pencil", "notebook"]`.
+`diffArray(["pen", "book"], ["book", "pencil", "notebook"])` deve retornar `["pen", "pencil", "notebook"]`.
 
 ```js
 assert.deepEqual(diffArray(
@@ -78,7 +78,7 @@ assert.deepEqual(diffArray(
 ), ["pen", "pencil", "notebook"]);
 ```
 
-`diffArray(["car", "bike", "bus"], ["bike", "train", "plane", "bus"])` should return `["car", "train", "plane"]`.
+`diffArray(["car", "bike", "bus"], ["bike", "train", "plane", "bus"])` deve retornar `["car", "train", "plane"]`.
 
 ```js
 assert.deepEqual(diffArray(
@@ -87,7 +87,7 @@ assert.deepEqual(diffArray(
 ), ["car", "train", "plane"]);
 ```
 
-`diffArray(["apple", "orange"], ["apple", "orange", "banana", "grape"])` should return `["banana", "grape"]`.
+`diffArray(["apple", "orange"], ["apple", "orange", "banana", "grape"])` deve retornar `["banana", "grape"]`.
 
 ```js
 assert.deepEqual(diffArray(
@@ -96,7 +96,7 @@ assert.deepEqual(diffArray(
 ), ["banana", "grape"]);
 ```
 
-`diffArray([], ["apple", "banana"])` should return `["apple", "banana"]`.
+`diffArray([], ["apple", "banana"])` deve retornar `["apple", "banana"]`.
 
 ```js
 assert.deepEqual(diffArray(
@@ -105,7 +105,7 @@ assert.deepEqual(diffArray(
 ), ["apple", "banana"]);
 ```
 
-`diffArray(["apple", "banana"], [])` should return `["apple", "banana"]`.
+`diffArray(["apple", "banana"], [])` deve retornar `["apple", "banana"]`.
 
 ```js
 assert.deepEqual(diffArray(
@@ -114,7 +114,7 @@ assert.deepEqual(diffArray(
 ), ["apple", "banana"]);
 ```
 
-`diffArray([], [])` should return `[]`.
+`diffArray([], [])` deve retornar `[]`.
 
 ```js
 assert.deepEqual(diffArray(

@@ -5,46 +5,45 @@ challengeType: 19
 dashedName: task-36
 ---
 
-
 <!-- (Audio) Maria: "But do you know what else is great? Seeing the team's enthusiasm after solving these issues. When you see the team inspired, it can boost your motivation." -->
 
 # --description--
 
-Listen to Maria and answer the question.
+Ouça Maria e responda à pergunta.
 
 # --questions--
 
 ## --text--
 
-What can boost their motivation according to Maria?
+O que pode aumentar a motivação deles segundo Maria?
 
 ## --answers--
 
-Having a big team
+Tendo uma grande equipe
 
 ### --feedback--
 
-Think about what specifically makes the team more motivated, not just the size of the team.
+Pense no que especificamente torna a equipe mais motivada, não apenas no tamanho da equipe.
 
 ---
 
-Taking a long break
+Fazendo uma longa pausa
 
 ### --feedback--
 
-Consider if breaks are mentioned as a way to increase motivation.
+Considere se quebras são mencionadas como uma forma de aumentar a motivação.
 
 ---
 
-Seeing the team inspired
+Vendo a equipe inspirada
 
 ---
 
-Solving problems quickly
+Resolvendo problemas rapidamente
 
 ### --feedback--
 
-Reflect on whether the speed of solving problems is what Maria highlights as motivating.
+Reflita se a velocidade de resolver problemas é o que Maria destaca como motivador.
 
 ## --video-solution--
 

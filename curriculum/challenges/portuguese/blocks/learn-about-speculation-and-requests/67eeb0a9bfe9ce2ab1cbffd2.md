@@ -1,6 +1,6 @@
 ---
 id: 67eeb0a9bfe9ce2ab1cbffd2
-title: Task 29
+title: Tarefa 29
 challengeType: 19
 dashedName: task-29
 ---
@@ -9,41 +9,41 @@ dashedName: task-29
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Ouça o áudio e responda a pergunta abaixo.
 
 # --questions--
 
 ## --text--
 
-What else should Mark have done?
+O que mais Mark deveria ter feito?
 
 ## --answers--
 
-He should have rewritten his entire code.
+Ele deveria ter reescrito todo o seu código.
 
 ### --feedback--
 
-Mark didn't need to rewrite everything.
+Mark não precisou reescrever tudo.
 
 ---
 
-He should have tested his code first.
+Ele deveria ter testado seu código primeiro.
 
 ---
 
-He should have removed all comments.
+Ele deveria ter removido todos os comentários.
 
 ### --feedback--
 
-Comments are useful and should not be removed.
+Comentários são úteis e não devem ser removidos.
 
 ---
 
-He should have skipped testing because it takes too long.
+Ele deveria ter pulado o teste porque leva muito tempo.
 
 ### --feedback--
 
-Testing is an important step before submitting code.
+Testar é uma etapa importante antes de enviar o código.
 
 ## --video-solution--
 
@@ -51,11 +51,11 @@ Testing is an important step before submitting code.
 
 # --explanation--
 
-A `test suite` is a collection of tests that check if a program works correctly. For example:
+Um `test suite` é uma coleção de testes que verificam se um programa funciona corretamente.Por exemplo:
 
-- `We ran the test suite to check if the app works properly.` - The team executed all the tests to ensure the app functions as expected.
+- `We ran the test suite to check if the app works properly.` - A equipe executou todos os testes para garantir que o app funcione conforme o esperado.
 
-- `We need to add more tests to the test suite to check for edge cases.` - The team should include more tests to cover all possible situations.
+- `We need to add more tests to the test suite to check for edge cases.` - A equipe deve incluir mais testes para cobrir todas as situações possíveis.
 
 # --scene--
 

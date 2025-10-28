@@ -8,11 +8,11 @@ dashedName: build-a-celestial-bodies-database
 
 # --description--
 
-Este é um dos projetos necessários para obter a certificação. Para este projeto, você vai construir um banco de dados de corpos celestiais usando PostgreSQL.
+Este é um dos projetos necessários para obter sua certificação.Para este projeto, você vai construir um banco de dados de corpos celestiais usando PostgreSQL.
 
 # --instructions--
 
-**Importante:** depois de passar em todos os testes de projetos, salve um dump (cópia) de seu banco de dados em um arquivo `universe.sql` para poder completar a etapa 2. Haverá instruções sobre como fazer isso dentro da máquina virtual.
+**Importante:** Após passar em todos os testes do projeto, salve um dump do seu banco de dados em um arquivo `universe.sql` para que você possa completar o passo 2.Haverá instruções sobre como fazer isso dentro da máquina virtual.
 
 # --notes--
 

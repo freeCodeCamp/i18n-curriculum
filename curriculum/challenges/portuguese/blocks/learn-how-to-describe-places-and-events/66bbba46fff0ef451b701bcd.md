@@ -11,41 +11,41 @@ Sarah: Sure, I'm not busy. What's the problem? -->
 
 # --instructions--
 
-Ouça o áudio e responda a questão abaixo.
+Ouça o áudio e responda a pergunta abaixo.
 
 # --questions--
 
 ## --text--
 
-Is Sarah available to talk to Tom?
+Sarah está disponível para falar com Tom?
 
 ## --answers--
 
-No, she is busy and doesn´t want to know about his problems.
+Não, ela está ocupada e não quer saber dos problemas dele.
 
 ### --feedback--
 
-Sarah says she is not busy.
+Sarah diz que não está ocupada.
 
 ---
 
-Yes, she is available and wants know what's the problem.
+Sim, ela está disponível e quer saber qual é o problema.
 
 ---
 
-No, she cannot talk right now she has her own problems.
+Não, ela não pode falar agora ela tem seus próprios problemas.
 
 ### --feedback--
 
-Sarah mentions that she is not busy.
+Sarah menciona que ela não está ocupada.
 
 ---
 
-Yes, but only for a moment because she has her own problems.
+Sim, mas só por um momento porque ela tem seus próprios problemas.
 
 ### --feedback--
 
-Sarah doesn't limit the time; she simply states that she is not busy.
+Sarah não limita o tempo; ela simplesmente afirma que não está ocupada.
 
 ## --video-solution--
 
@@ -53,11 +53,11 @@ Sarah doesn't limit the time; she simply states that she is not busy.
 
 # --explanation--
 
-Instead of directly saying she is free, Sarah uses the negative form `I'm not busy` to emphasize that she has time to help.
+Em vez de dizer diretamente que ela está livre, Sarah usa a forma negativa `I'm not busy` para enfatizar que ela tem tempo para ajudar. 
 
-This is a polite and indirect way to offer availability in English, commonly used to make the conversation more tactful.
+Esta é uma forma educada e indireta de oferecer disponibilidade em inglês, comumente usada para tornar a conversa mais diplomática.
 
-Her follow-up sentence, `What's the problem?`, confirms she's willing to assist by inviting Tom to explain the issue.
+A frase de acompanhamento dela, `What's the problem?`, confirma que ela está disposta a ajudar convidando Tom a explicar o problema.
 
 # --scene--
 

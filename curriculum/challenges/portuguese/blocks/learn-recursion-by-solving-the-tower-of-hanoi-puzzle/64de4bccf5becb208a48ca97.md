@@ -7,17 +7,17 @@ dashedName: step-13
 
 # --description--
 
-In the Tower of Hanoi puzzle, you can identify the three rods according to their purpose:
+No quebra-cabeça Torre de Hanoi, você pode identificar as três hastes de acordo com seu propósito:
 
-- The first rod is the source, where all the disks are stacked on top of each other at the beginning of the game.
-- The second rod is an auxiliary rod, and it helps in moving the disks to the target rod.
-- The third rod is the target, where all the disks should be placed in order at the end of the game.
+- A primeira haste é a fonte, onde todos os discos estão empilhados uns sobre os outros no início do jogo.
+- A segunda haste é uma haste auxiliar e ela ajuda a mover os discos para a haste alvo.
+- A terceira haste é o alvo, onde todos os discos devem ser colocados em ordem no final do jogo.
 
-Currently, the `move()` function does not take any parameters. Change the function declaration to take 4 parameters: `n`, `source`, `auxiliary`, and `target`. Then, pass `NUMBER_OF_DISKS` and the strings `'A'`, `'B'`, and `'C'` as arguments to your function call. The order matters.
+Atualmente, a função `move()` não recebe nenhum parâmetro.Altere a declaração da função para receber 4 parâmetros: `n`, `source`, `auxiliary` e `target`.Então, passe `NUMBER_OF_DISKS` e as strings `'A'`, `'B'` e `'C'` como argumentos para a chamada da sua função.A ordem importa.
 
 # --hints--
 
-Your `move()` function should have `n`, `source`, `auxiliary`, and `target` as the parameters. The order matters.
+A sua função `move()` deve ter `n`, `source`, `auxiliary` e `target` como parâmetros.A ordem importa.
 
 ```js
 ({ test: () => assert(runPython(`
@@ -27,7 +27,7 @@ Your `move()` function should have `n`, `source`, `auxiliary`, and `target` as t
 })
 ```
 
-You should pass `NUMBER_OF_DISKS` and the strings `'A'`, `'B'`, and `'C'` to `move()`. The order matters.
+Você deve passar `NUMBER_OF_DISKS` e as strings `'A'`, `'B'` e `'C'` para `move()`.A ordem importa.
 
 ```js
 ({test: () => assert.match(code, /^move\(\s*NUMBER_OF_DISKS\s*,\s*('|")A\1\s*,\s*('|")B\2\s*,\s*('|")C\3\s*\)/m)

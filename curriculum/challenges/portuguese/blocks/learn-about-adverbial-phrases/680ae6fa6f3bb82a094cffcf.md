@@ -1,6 +1,6 @@
 ---
 id: 680ae6fa6f3bb82a094cffcf
-title: Task 91
+title: Tarefa 91
 challengeType: 19
 dashedName: task-91
 ---
@@ -11,13 +11,13 @@ dashedName: task-91
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Ouça o áudio e responda a pergunta abaixo.
 
 # --questions--
 
 ## --text--
 
-What could Maria say to show she is positively surprised by the results?
+O que Maria poderia dizer para mostrar que ela está positivamente surpresa com os resultados?
 
 ## --answers--
 
@@ -29,7 +29,7 @@ What could Maria say to show she is positively surprised by the results?
 
 ### --feedback--
 
-This shows a lack of confidence, not excitement about the results.
+Isso mostra falta de confiança e não empolgação com os resultados.
 
 ## --video-solution--
 
@@ -37,9 +37,9 @@ This shows a lack of confidence, not excitement about the results.
 
 # --explanation--
 
-`Impressive` means something is worthy of attention, admiration, or respect because it is unusually good, large, or effective. For example:
+`Impressive` significa que algo é digno de atenção, admiração ou respeito porque é incomumente bom, grande ou eficaz.Por exemplo:
 
-`Your presentation was really impressive! It covered everything clearly and confidently.` – This means the presentation was high-quality and left a strong positive impact.
+Sua apresentação foi realmente impressionante!Cobriu tudo de forma clara e confiante.` – Isso significa que a apresentação foi de alta qualidade e deixou um forte impacto positivo.
 
 # --scene--
 

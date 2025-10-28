@@ -1,6 +1,6 @@
 ---
 id: 67d78c94b686ce3bddcaf8ab
-title: Task 117
+title: Tarefa 117
 challengeType: 22
 dashedName: task-117
 ---
@@ -9,7 +9,7 @@ dashedName: task-117
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Ouça o áudio para completar a frase abaixo.
 
 # --fillInTheBlank--
 
@@ -23,7 +23,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-These three words together mean to reduce the amount of time needed to complete a task.
+Essas três palavras juntas significam reduzir a quantidade de tempo necessária para completar uma tarefa.  
 
 ---
 
@@ -31,17 +31,17 @@ These three words together mean to reduce the amount of time needed to complete 
 
 ### --feedback--
 
-This word in the plural form refers to schedules or deadlines for completing a project.
+Esta palavra no plural refere-se a cronogramas ou prazos para a conclusão de um projeto.  
 
 # --explanation--
 
-`Save us time` means to reduce the time required to complete something, making the process more efficient. For example:
+`Save us time` significa reduzir o tempo necessário para completar algo, tornando o processo mais eficiente.Por exemplo:
 
-`Using automation tools can save us time on repetitive tasks.` – This means automation tools help complete tasks faster.
+`Using automation tools can save us time on repetitive tasks.` – Isso significa que ferramentas de automação ajudam a completar tarefas mais rapidamente.  
 
-`Timelines` refer to schedules or deadlines that show when different parts of a project should be completed. For example:
+`Timelines` referem-se a cronogramas ou prazos que mostram quando diferentes partes de um projeto devem ser concluídas.Por exemplo:
 
-`We need to adjust our timelines to finish the project on schedule.` – This means changing the deadlines to ensure the project is completed on time.
+`We need to adjust our timelines to finish the project on schedule.` – Isso significa alterar os prazos para garantir que o projeto seja concluído no prazo.
 
 # --scene--
 

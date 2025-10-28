@@ -1,6 +1,6 @@
 ---
 id: 657dbdae2bd6f60bda3226cc
-title: Task 81
+title: Tarefa 81
 challengeType: 22
 dashedName: task-81
 ---
@@ -9,13 +9,13 @@ dashedName: task-81
 
 # --description--
 
-When you want to know how often something happens, you can use `every` followed by a time period like `day`, `week`, or `year`.
+Quando você quer saber com que frequência algo acontece, pode usar `every` seguido por um período de tempo como `day`, `week` ou `year`.
 
-In the dialogue, Tom is asking about the frequency of the team meetings.
+No diálogo, Tom está perguntando sobre a frequência das reuniões da equipe.
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Ouça o áudio para completar a frase abaixo.
 
 # --fillInTheBlank--
 
@@ -29,7 +29,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This word is used to ask if the meetings happen weekly.
+Esta palavra é usada para perguntar se as reuniões acontecem semanalmente.
 
 # --scene--
 

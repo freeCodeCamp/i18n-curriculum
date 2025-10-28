@@ -9,13 +9,13 @@ dashedName: task-45
 
 # --instructions--
 
-Read the text and answer the question below.
+Leia o texto e responda à pergunta abaixo.
 
 # --questions--
 
 ## --text--
 
-After reviewing the survey results for the remote work stipend, Bob decided to write an article:
+Após revisar os resultados da pesquisa sobre o subsídio para trabalho remoto, Bob decidiu escrever um artigo:
 
 `The Remote Work Stipend Debate: Comfort or Productivity?`
 
@@ -29,35 +29,35 @@ After reviewing the survey results for the remote work stipend, Bob decided to w
 
 `As remote work grows, companies need to support their workers in the best way possible. A well-equipped home office isn't just a nice extra — it's key to doing great work.`
 
-Why do some workers prefer to use the stipend for office furniture?
+Por que alguns trabalhadores preferem usar o `stipend` para móveis de escritório?
 
 ## --answers--
 
-Because they don't like working remotely.
+Porque eles não gostam de trabalhar remotamente.
 
 ### --feedback--
 
-The article does not suggest that these workers dislike remote work.
+O artigo não sugere que esses trabalhadores não gostem do trabalho remoto.
 
 ---
 
-To improve comfort and prevent back pain.
+Para melhorar o conforto e prevenir dores nas costas.
 
 ---
 
-To buy decorations for their home office.
+Para comprar decorações para o escritório em casa deles.
 
 ### --feedback--
 
-The article doesn't discuss furniture that improves decorations.
+O artigo não discute móveis que melhoram decorações.
 
 ---
 
-To impress their coworkers.
+Para impressionar seus colegas de trabalho.
 
 ### --feedback--
 
-The reason given in the article isn't appearances.
+A razão dada no artigo não são aparências.
 
 ## --video-solution--
 
@@ -65,6 +65,6 @@ The reason given in the article isn't appearances.
 
 # --explanation--
 
-The article explains that `a bad chair and desk can cause health problems` and make it harder to focus. This is why some workers prioritize using the stipend for office furniture instead of technology.
+O artigo explica que `a bad chair and desk can cause health problems` e torna mais difícil focar.É por isso que alguns trabalhadores priorizam usar o `stipend` para móveis de escritório em vez de tecnologia.
 
-Focus on how the article highlights ergonomics and well-being as key reasons for choosing furniture over computers.
+Foque em como o artigo destaca a ergonomia e o bem-estar como razões principais para escolher móveis em vez de computadores.

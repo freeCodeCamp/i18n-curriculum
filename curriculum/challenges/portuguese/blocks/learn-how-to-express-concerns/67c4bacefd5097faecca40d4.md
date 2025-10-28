@@ -1,6 +1,6 @@
 ---
 id: 67c4bacefd5097faecca40d4
-title: Task 22
+title: Tarefa 22
 challengeType: 19
 dashedName: task-22
 ---
@@ -9,51 +9,51 @@ dashedName: task-22
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Ouça o áudio e responda a pergunta abaixo.
 
 # --questions--
 
 ## --text--
 
-What does Bob want to know?
+O que Bob quer saber?  
 
 ## --answers--
 
-If they should cancel the project.
+Se eles devem cancelar o projeto.  
 
 ### --feedback--
 
-Bob is not asking about canceling the project.
+Bob não está perguntando sobre o cancelamento do projeto.  
 
 ---
 
-If working fewer hours would be better.
+Se trabalhar menos horas seria melhor.  
 
 ### --feedback--
 
-Bob is suggesting working more hours, not fewer.
+Bob está sugerindo trabalhar mais horas, não menos.  
 
 ---
 
-If the team has already solved the issue.
+Se a equipe já resolveu o problema.  
 
 ### --feedback--
 
-Bob is asking if his suggestion will help, not if the issue is already solved.
+Bob está perguntando se a sugestão dele vai ajudar, não se o problema já está resolvido.  
 
 ---
 
-If working extra hours will improve the situation.
+Se trabalhar horas extras vai melhorar a situação.  
 
 ## --video-solution--
 
-4
+4  
 
 # --explanation--
 
-Using negatives in questions with auxiliary or modal verbs (such as `wouldn't`, `isn't`, `doesn't`), which require direct `yes`/`no` answers, suggests that the speaker expects the answer to be positive — Bob assumes, in this case, that working extra hours will help. Another example:
+Usar negativos em perguntas com verbos auxiliares ou modais (como `wouldn't`, `isn't`, `doesn't`), que exigem respostas diretas `yes`/`no`, sugere que o falante espera que a resposta seja positiva — Bob assume, neste caso, que trabalhar horas extras ajudará. Outro exemplo:
 
-`Doesn't this plan seem like a good idea?` - The speaker expects the listener to agree that the plan is good.
+`Doesn't this plan seem like a good idea?` - O orador espera que o ouvinte concorde que o plano é bom.
 
 # --scene--
 

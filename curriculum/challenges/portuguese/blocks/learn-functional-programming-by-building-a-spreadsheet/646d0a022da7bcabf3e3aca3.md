@@ -7,7 +7,7 @@ dashedName: step-45
 
 # --description--
 
-O conceito de retorno de uma função dentro de outra função é chamado de <dfn>currying</dfn>. Essa abordagem permite que você crie uma variável que contém uma função para ser chamada mais tarde, mas com uma referência aos parâmetros da chamada da função externa.
+O conceito de retorno de uma função dentro de outra função é chamado de <dfn>currying</dfn>.Essa abordagem permite que você crie uma variável que contém uma função para ser chamada mais tarde, mas com uma referência aos parâmetros da chamada da função externa.
 
 Por exemplo:
 
@@ -16,9 +16,9 @@ const innerOne = elemValue(1);
 const final = innerOne("A");
 ```
 
-`innerOne` será a função `inner`, com `num` definido como `1`, enquanto `final` terá o valor da célula `id` de `"A1"`. Isso é possível porque as funções têm acesso a todas as variáveis declaradas no momento de sua criação. Isso é chamado de <dfn>closure</dfn>.
+`innerOne` será a função `inner`, com `num` definido como `1`, enquanto `final` terá o valor da célula `id` de `"A1"`.Isso é possível porque as funções têm acesso a todas as variáveis declaradas no momento de sua criação.Isso é chamado de <dfn>closure</dfn>.
 
-Você terá mais prática com isso. Declare uma função chamada `addCharacters`, que receba um parâmetro `character1`.
+Você terá mais prática com isso.Declare uma função chamada `addCharacters`, que receba um parâmetro `character1`.
 
 # --hints--
 

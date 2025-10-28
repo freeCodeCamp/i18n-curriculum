@@ -15,35 +15,35 @@ Ouça o áudio e responda a pergunta abaixo.
 
 ## --text--
 
-What does Anna think about James' ideas, and what does she suggest?
+O que Anna pensa sobre as ideias de James e o que ela sugere?
 
 ## --answers--
 
-She disagrees with James' ideas and suggests starting a new approach.
+Ela discorda das ideias de James e sugere começar uma nova abordagem.
 
 ### --feedback--
 
-Anna expresses agreement with James, not disagreement, and wants to stay updated rather than start over.
+Anna expressa concordância com James, não discordância, e quer se manter atualizada em vez de recomeçar.
 
 ---
 
-She thinks James' ideas are confusing and suggests focusing only on accessibility goals.
+Ela acha que as ideias de James são confusas e sugere focar apenas nos objetivos de acessibilidade.
 
 ### --feedback--
 
-Anna doesn't find James' ideas confusing; she agrees and wants to monitor progress on their shared goals.
+Anna não acha as ideias de James confusas; ela concorda e quer monitorar o progresso dos objetivos compartilhados deles.
 
 ---
 
-She agrees with James and suggests they stay in contact to monitor progress.
+Ela concorda com James e sugere que eles mantenham contato para monitorar o progresso.
 
 ---
 
-She thinks James' ideas are unnecessary and suggests stopping the project.
+Ela acha que as ideias de James são desnecessárias e sugere parar o projeto.
 
 ### --feedback--
 
-Anna doesn't suggest stopping; she supports James' ideas and wants to stay updated.
+Anna não sugere parar; ela apoia as ideias de James e quer se manter atualizada.
 
 ## --video-solution--
 
@@ -51,7 +51,7 @@ Anna doesn't suggest stopping; she supports James' ideas and wants to stay updat
 
 # --explanation--
 
-Anna agrees with James' approach, saying `That makes sense`, which shows she understands and supports his ideas. She also suggests `keeping in touch to monitor progress`, indicating her interest in staying updated to ensure they reach their shared goals.
+Anna concorda com a abordagem de James, dizendo `That makes sense`, o que mostra que ela entende e apoia suas ideias.Ela também sugere `keeping in touch to monitor progress`, indicando seu interesse em se manter atualizada para garantir que alcancem seus objetivos compartilhados.
 
 # --scene--
 

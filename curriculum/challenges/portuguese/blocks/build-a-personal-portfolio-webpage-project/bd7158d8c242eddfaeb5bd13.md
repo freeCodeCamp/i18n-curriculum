@@ -8,9 +8,9 @@ dashedName: build-a-personal-portfolio-webpage
 
 # --description--
 
-**Objective:**Crie um aplicativo que seja funcionalmente semelhante ao <a href="https://personal-portfolio.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://personal-portfolio.freecodecamp.rocks</a>. **Não copie este projeto de demonstração**.
+**Objetivo:** Construir um aplicativo que seja funcionalmente semelhante a <a href="https://personal-portfolio.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://personal-portfolio.freecodecamp.rocks</a>. **Não copie este projeto de demonstração**.
 
-**Histórias de usuário:**
+**Histórias de Usuário:**
 
 1. O portfólio deve ter uma seção de boas-vindas com o `id` `welcome-section`
 1. A seção de boas-vindas deve ter um elemento `h1` que contenha texto
@@ -24,9 +24,9 @@ dashedName: build-a-personal-portfolio-webpage
 1. A altura da seção de boas-vindas deve ser igual à altura da viewport
 1. A barra de navegação deve estar sempre na parte superior da viewport
 
-Atenda às histórias de usuário e passe em todos os testes abaixo para concluir este projeto. Dê ao projeto o seu próprio estilo pessoal. Boa programação!
+Atenda às histórias de usuário e passe em todos os testes abaixo para concluir este projeto.Dê ao projeto o seu próprio estilo pessoal.Boa programação!
 
-**Observação:** não se esqueça de adicionar `<link rel="stylesheet" href="styles.css">` em seu HTML para vincular sua folha de estilo e aplicar seu CSS
+**Nota:** Certifique-se de adicionar `<link rel="stylesheet" href="styles.css">` no seu HTML para vincular sua folha de estilo e aplicar seu CSS
 
 # --hints--
 

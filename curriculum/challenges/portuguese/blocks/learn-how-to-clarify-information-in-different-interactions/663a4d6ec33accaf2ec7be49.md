@@ -1,6 +1,6 @@
 ---
 id: 663a4d6ec33accaf2ec7be49
-title: Task 28
+title: Tarefa 28
 challengeType: 22
 dashedName: task-28
 ---
@@ -9,13 +9,13 @@ dashedName: task-28
 
 # --description--
 
-A `smile` is what happens when you turn up the corners of your mouth to show happiness. It is something you do with your face when you are happy or want to be nice.
+Um `smile` é o que acontece quando você levanta os cantos da boca para mostrar felicidade.É algo que você faz com seu rosto quando está feliz ou quer ser gentil.
 
-`Friendly` describes someone who is kind, nice, and easy to talk to. A friendly person makes others feel comfortable and happy.
+`Friendly` descreve alguém que é gentil, agradável e fácil de conversar.Uma pessoa amigável faz os outros se sentirem confortáveis e felizes.
 
-`A friendly smile` is a smile that shows you are being kind and welcoming. It makes others feel good and shows you want to be friends.
+`A friendly smile` é um sorriso que mostra que você está sendo gentil e acolhedor.Faz os outros se sentirem bem e mostra que você quer ser amigo.
 
-Listen to the dialogue and fill in the blanks.
+Ouça o diálogo e preencha as lacunas.
 
 # --fillInTheBlank--
 
@@ -29,7 +29,7 @@ Listen to the dialogue and fill in the blanks.
 
 ### --feedback--
 
-This blank describes someone who is nice, easy to talk to and welcoming.
+Este espaço em branco descreve alguém que é simpático, fácil de conversar e acolhedor.
 
 ---
 
@@ -37,7 +37,7 @@ This blank describes someone who is nice, easy to talk to and welcoming.
 
 ### --feedback--
 
-The action you do when you want to show happiness with your mouth.
+A ação que você faz quando quer mostrar felicidade com a boca.
 
 # --scene--
 
