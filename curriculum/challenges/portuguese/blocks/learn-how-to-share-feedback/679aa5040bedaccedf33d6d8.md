@@ -1,6 +1,6 @@
 ---
 id: 679aa5040bedaccedf33d6d8
-title: Task 45
+title: Tarefa 45
 challengeType: 19
 dashedName: task-45
 ---
@@ -9,41 +9,41 @@ dashedName: task-45
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Ouça o áudio e responda a pergunta abaixo.
 
 # --questions--
 
 ## --text--
 
-Why does Brian think it's not good when everyone thinks alike?
+Por que Brian acha que não é bom quando todos pensam da mesma forma?
 
 ## --answers--
 
-Because they might overlook important details.
+Porque eles podem deixar passar detalhes importantes.
 
 ---
 
-Because it would make decision-making faster.
+Porque isso tornaria a tomada de decisão mais rápida.
 
 ### --feedback--
 
-Brian is not saying that agreement is beneficial.
+Brian não está dizendo que o acordo é benéfico.
 
 ---
 
-Because disagreements always cause problems.
+Porque desacordos sempre causam problemas.
 
 ### --feedback--
 
-Brian is actually saying that some disagreement is useful, not that it causes problems.
+Brian está realmente dizendo que algum desacordo é útil, não que ele cause problemas.
 
 ---
 
-Because no one would share their opinions.
+Porque ninguém compartilharia suas opiniões.
 
 ### --feedback--
 
-Brian isn't talking about people refusing to share their opinions.
+Brian não está falando sobre pessoas se recusando a compartilhar suas opiniões.
 
 ## --video-solution--
 
@@ -51,11 +51,11 @@ Brian isn't talking about people refusing to share their opinions.
 
 # --explanation--
 
-The structure `if + verb in the Simple Past` followed by `might` in the consequence clause is used to describe a hypothetical situation with a possible outcome. For example:
+A estrutura `if + verb in the Simple Past` seguida de `might` na cláusula de consequência é usada para descrever uma situação hipotética com um resultado possível.Por exemplo:
 
-`If you studied more, you might pass the exam.` - This means there is a possibility of passing if the person studies more.
+`If you studied more, you might pass the exam.` - Isso significa que há uma possibilidade de passar se a pessoa estudar mais.
 
-In this dialogue, `If we all agreed on everything, we might miss important details` expresses a possible negative consequence of complete agreement.
+Neste diálogo, `If we all agreed on everything, we might miss important details` expressa uma possível consequência negativa do acordo completo.
 
 # --scene--
 

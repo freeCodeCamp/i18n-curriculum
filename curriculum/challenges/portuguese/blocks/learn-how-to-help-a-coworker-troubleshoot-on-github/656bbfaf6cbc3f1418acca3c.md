@@ -23,7 +23,7 @@ Ouça o áudio e complete a frase.
 
 ### --feedback--
 
-`What` and `is` are in abbreviated form. Remember to capitalize `What`.
+`What` e `is` estão em forma abreviada.Lembre-se de capitalizar `What`.
 
 # --scene--
 

@@ -15,35 +15,35 @@ Ouça o áudio e responda a pergunta abaixo.
 
 ## --text--
 
-What does James know about the issue with the latest update?
+O que James sabe sobre o problema com a última atualização?
 
 ## --answers--
 
-He knows exactly what the issue is.
+Ele sabe exatamente qual é o problema.
 
 ### --feedback--
 
-James clearly says he didn't hear anything.
+James claramente diz que ele não ouviu nada.
 
 ---
 
-He doesn't know anything about it.
+Ele não sabe nada sobre isso.
 
 ---
 
-He already talked to the client.
+Ele já falou com o cliente.
 
 ### --feedback--
 
-James does not mention speaking to the client.
+James não menciona falar com o cliente.
 
 ---
 
-He received an email about the issue.
+Ele recebeu um email sobre o problema.
 
 ### --feedback--
 
-James states that he didn't hear anything.
+James afirma que ele não ouviu nada.
 
 ## --video-solution--
 
@@ -51,15 +51,15 @@ James states that he didn't hear anything.
 
 # --explanation--
 
-Short answers with auxiliary verbs repeat the auxiliary from the question to confirm or deny something. In this case, Maria asks, `Did you hear anything?`, and James responds, `No, I didn't.` instead of just saying `No.` Here are some other examples:
+Respostas curtas com verbos auxiliares repetem o auxiliar da pergunta para confirmar ou negar algo.Neste caso, Maria pergunta, `Did you hear anything?`, e James responde, `No, I didn't.` em vez de apenas dizer `No.` Aqui estão alguns outros exemplos: 
 
-- `Are you coming to the meeting?` → `Yes, I am.`
+- `Are you coming to the meeting?` → `Yes, I am.`  
 
-- `Have they finished the report?` → `No, they haven't.`
+- `Have they finished the report?` → `No, they haven't.`  
 
-- `Will she be here on time?` → `Yes, she will.`
+- `Will she be here on time?` → `Yes, she will.`  
 
-Short answers make responses sound natural and complete while avoiding repetition of the full sentence.
+Respostas curtas fazem com que as respostas soem naturais e completas enquanto evitam a repetição da frase inteira.
 
 # --scene--
 

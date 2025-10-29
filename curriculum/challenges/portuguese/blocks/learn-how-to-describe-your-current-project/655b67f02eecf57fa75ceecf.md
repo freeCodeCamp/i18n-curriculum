@@ -1,6 +1,6 @@
 ---
 id: 655b67f02eecf57fa75ceecf
-title: Task 8
+title: Tarefa 8
 challengeType: 22
 dashedName: task-8
 ---
@@ -9,13 +9,13 @@ dashedName: task-8
 
 # --description--
 
-To `stay` is used to indicate remaining in a particular state or condition. It's often used in instructions or advice to keep oneself in a certain situation. For example:
+To `stay` is used to indicate remaining in a particular state or condition.É frequentemente usado em instruções ou conselhos para manter-se em uma determinada situação.Por exemplo:
 
-- `Stay safe online.` - Continue being safe while using the internet.
+- `Stay safe online.` - Continue sendo seguro enquanto usa a internet. 
 
-- `Stay calm during the test.` - Continue being calm.
+- `Stay calm during the test.` - Continue mantendo a calma.
 
-- `Stay focused on your work.` - Continue paying attention to your work.
+- `Stay focused on your work.` - Continue prestando atenção ao seu trabalho.
 
 # --fillInTheBlank--
 
@@ -29,7 +29,7 @@ To `stay` is used to indicate remaining in a particular state or condition. It's
 
 ### --feedback--
 
-This verb indicates that Sophie is actively providing assistance or support to her team. It ends in `-ing`.
+Este verbo indica que Sophie está ativamente fornecendo assistência ou suporte para sua equipe. Termina em `-ing`.
 
 ---
 
@@ -37,7 +37,7 @@ This verb indicates that Sophie is actively providing assistance or support to h
 
 ### --feedback--
 
-This word is used to suggest maintaining a certain state, in this case, being safe while online.
+Esta palavra é usada para sugerir a manutenção de um determinado estado, neste caso, estar seguro enquanto estiver online.
 
 # --scene--
 

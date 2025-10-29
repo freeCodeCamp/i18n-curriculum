@@ -1,6 +1,6 @@
 ---
 id: 65ffa9d80e7ffb1ab9b4df1c
-title: Task 11
+title: Tarefa 11
 challengeType: 22
 dashedName: task-11
 ---
@@ -9,7 +9,7 @@ dashedName: task-11
 
 # --description--
 
-Listen to the audio and complete the sentence.
+Ouça o áudio e complete a frase.
 
 # --fillInTheBlank--
 
@@ -23,7 +23,7 @@ Listen to the audio and complete the sentence.
 
 ### --feedback--
 
-It indicates that the action to follow happens as soon as the section is found. Capitalize this word.
+Indica que a ação a seguir acontece assim que a seção é encontrada.Coloque esta palavra em maiúscula. 
 
 ---
 
@@ -31,7 +31,7 @@ It indicates that the action to follow happens as soon as the section is found. 
 
 ### --feedback--
 
-It's used here to mean locating or discovering the needed section in the documentation.
+É usado aqui para significar localizar ou descobrir a seção necessária na documentação.
 
 ---
 
@@ -39,7 +39,7 @@ It's used here to mean locating or discovering the needed section in the documen
 
 ### --feedback--
 
-This word refers to the beginning paragraphs that provide a basic understanding of the section.
+Esta palavra se refere aos parágrafos iniciais que fornecem uma compreensão básica da seção.
 
 ---
 
@@ -47,7 +47,7 @@ This word refers to the beginning paragraphs that provide a basic understanding 
 
 ### --feedback--
 
-It means what the documentation includes or addresses in terms of content.
+Significa o que a documentação inclui ou aborda em termos de conteúdo.
 
 # --scene--
 

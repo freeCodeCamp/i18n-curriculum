@@ -15,35 +15,35 @@ Ouça o áudio e responda a pergunta abaixo.
 
 ## --text--
 
-What is James describing about his approach to coding?
+O que James está descrevendo sobre sua abordagem para codificação?
 
 ## --answers--
 
-A habit he had in the past.
+Um hábito que ele tinha no passado.
 
 ---
 
-Something he plans to do in the future.
+Algo que ele planeja fazer no futuro.
 
 ### --feedback--
 
-James isn't talking about future plans; he is reflecting on something he did before.
+James não está falando sobre planos futuros; ele está refletindo sobre algo que fez antes.
 
 ---
 
-A habit he continues now.
+Um hábito que ele continua agora.
 
 ### --feedback--
 
-James uses the phrase `used to`, which shows he is describing something he did in the past, not currently.
+James usa a frase `used to`, que mostra que ele está descrevendo algo que fazia no passado, não atualmente.
 
 ---
 
-A process he never followed.
+Um processo que ele nunca seguiu.
 
 ### --feedback--
 
-James describes a habit he once had, so it is not something he never did.
+James descreve um hábito que ele teve uma vez, então não é algo que ele nunca fez.
 
 ## --video-solution--
 
@@ -51,11 +51,11 @@ James describes a habit he once had, so it is not something he never did.
 
 # --explanation--
 
-James says, `I used to just write code without thinking much about the end user.`
+James diz, `I used to just write code without thinking much about the end user.` 
 
-`Used to` indicates a past habit or action that is no longer true.
+`Used to` indica um hábito ou ação passada que não é mais verdadeira. 
 
-This sentence shows that he previously wrote code without considering the end user but has since changed his approach.
+Esta frase mostra que ele anteriormente escrevia código sem considerar o usuário final mas desde então mudou sua abordagem.
 
 # --scene--
 

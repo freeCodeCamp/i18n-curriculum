@@ -1,43 +1,43 @@
 ---
 id: 67d2f4ddb4a4306fdf5bbaee
-title: What Is Memoization, and How Does the useMemo Hook Work?
+title: O que é Memoization e Como o Hook `useMemo` Funciona?
 challengeType: 19
 dashedName: what-is-memoization-and-how-does-the-usememo-hook-work
 ---
 
 # --description--
 
-As your React app gets larger, unnecessary re-renders and expensive calculations can slow down performance, leading to slow UI updates and increased resource usage.
+À medida que sua aplicação React cresce, re-renderizações desnecessárias e cálculos caros podem diminuir o desempenho, levando a atualizações lentas da UI e aumento no uso de recursos.
 
-This can be especially problematic in apps with complex state management, large lists, functions that require heavy computations, and many components with a single parent.
+Isso pode ser especialmente problemático em aplicativos com gerenciamento de estado complexo, listas grandes, funções que exigem cálculos pesados e muitos componentes com um único pai.
 
-This gives rise to the need to optimize your React app for better performance by minimizing redundant computations and ensuring smoother interactions.
+Isso gera a necessidade de otimizar seu app React para melhor desempenho, minimizando cálculos redundantes e garantindo interações mais suaves.
 
-React solves this problem with a process called memoization, a technique which caches values and functions to prevent unnecessary recalculations, so your app can be faster and more responsive.
+React resolve esse problema com um processo chamado memoization, uma técnica que armazena em cache valores e funções para evitar recálculos desnecessários, para que seu app possa ser mais rápido e responsivo.
 
-By definition, memoization is an optimization technique in which the result of expensive function calls are cached (remembered) based on specific arguments. When the same arguments are provided again, the cached result is returned instead of re-computing the function.
+Por definição, memoization é uma técnica de otimização na qual o resultado de chamadas de função caras é armazenado em cache (lembrado) com base em argumentos específicos. Quando os mesmos argumentos são fornecidos novamente, o resultado em cache é retornado em vez de recalcular a função.
 
-The memoization process happens this way:
+O processo de memoização acontece desta forma:
 
-- Store the results of function calls along with their input arguments.
+- Armazene os resultados das chamadas de função junto com seus argumentos de entrada.
 
-- Before executing the function, check if the result for the current arguments already exists in the cache.
+- Antes de executar a função, verifique se o resultado para os argumentos atuais já existe no cache.
 
-- If it exists, return the cached result instead of running the computation again.
+- Se existir, retorne o resultado em cache em vez de executar o cálculo novamente.
 
-- If it doesn't exist, compute the result, store it in the cache, and then return it.
+- Se não existir, calcule o resultado, armazene-o no cache e então retorne-o.
 
-To improve developer experience with memoization, React provides three tools – `React.memo` (or `memo`), `useMemo` and `useCallback`. 
+Para melhorar a experiência do desenvolvedor com memoização, o React fornece três ferramentas – `React.memo` (ou `memo`), `useMemo` e `useCallback`. 
 
-As you might guess, both `useMemo` and `useCallback` are hooks, but `React.memo` is a component wrapper, a higher-order component (HOC).
+Como você pode imaginar, tanto `useMemo` e `useCallback` são hooks, mas `React.memo` é um wrapper de componente, um componente de ordem superior (HOC).
 
-In the next lesson, we will take a look at how the `useCallback` hook and `React.memo` work.
+Na próxima lição, vamos ver como o hook `useCallback` e `React.memo` funcionam.
 
-`useMemo` lets you memoize computed values while `useCallback` does the same for function references.
+`useMemo` permite que você memorize valores computados enquanto `useCallback` faz o mesmo para referências de função.
 
-If you're wondering what computed values and function references are, computed values refer to the result of executing a function, while function references are the pointers to functions – the function object in memory.
+Se você está se perguntando o que são valores computados e referências de função, valores computados referem-se ao resultado da execução de uma função, enquanto referências de função são os ponteiros para funções – o objeto da função na memória.
 
-Let's see how to use the `useMemo` hook first. Here's the basic syntax of the `useMemo` hook:
+Vamos ver como usar o hook `useMemo` primeiro. Aqui está a sintaxe básica do hook `useMemo`:
 
 ```js
 const memoizedValue = useMemo(
@@ -48,9 +48,9 @@ const memoizedValue = useMemo(
 );
 ```
 
-You can see all that's needed is to wrap the `useMemo` hook around the function.
+Você pode ver que tudo o que é necessário é envolver o hook `useMemo` em torno da função.
 
-This `ExpensiveSquare` component will receive a `num` prop which it will use to calculate the square:
+Este componente `ExpensiveSquare` receberá uma prop `num` que ele usará para calcular o quadrado:
 
 ```jsx
 function ExpensiveSquare({ num }) {
@@ -69,7 +69,7 @@ function ExpensiveSquare({ num }) {
 export default ExpensiveSquare;
 ```
 
-Here's the `App` component where the `ExpensiveSquare` is being used:
+Aqui está o componente `App` onde o `ExpensiveSquare` está sendo usado:
 
 ```jsx
 import { useState, useEffect } from "react";
@@ -96,9 +96,9 @@ function App() {
 export default App;
 ```
 
-The `timer` in the `useEffect`, running every second, will make the `calculateSquare` function runs any time it runs, even when you don't increase the `num` state variable.
+O `timer` no `useEffect`, executando a cada segundo, fará com que a função `calculateSquare` seja executada toda vez que ele rodar, mesmo quando você não aumentar a variável de estado `num`.
 
-To solve this problem, we can use the `useMemo` hook by wrapping the function call in it and specifying the `num` variable as the dependency:
+Para resolver esse problema, podemos usar o hook `useMemo` envolvendo a chamada da função nele e especificando a variável `num` como dependência:
 
 ```jsx
 // import the useMemo hook
@@ -124,43 +124,43 @@ function ExpensiveSquare({ num }) {
 export default ExpensiveSquare;
 ```
 
-This will make sure the function is memoized by caching the result, so calculation happens only when the `num` variable changes, not when anything changes in the component it's being used in.
+Isso garantirá que a função seja memorizada armazenando em cache o resultado, para que o cálculo aconteça apenas quando a variável `num` mudar, não quando qualquer coisa mudar no componente em que está sendo usada.
 
-The `calculateSquare` function call is not running any time `timer` changes anymore but on the initial render and when `num` changes.
+A chamada da função `calculateSquare` não está mais sendo executada toda vez que `timer` muda, apenas na renderização inicial e quando `num` muda.
 
 # --questions--
 
 ## --text--
 
-What is memoization in React?
+O que é memoization em React?
 
 ## --answers--
 
-A technique that caches values and functions to prevent unnecessary recalculations.
+Uma técnica que armazena em cache valores e funções para evitar recálculos desnecessários.
 
 ---
 
-A technique that lets you manage component state updates to prevent unnecessary recalculations.
+Uma técnica que permite gerenciar atualizações de estado do componente para evitar recálculos desnecessários.
 
 ### --feedback--
 
-It helps optimize performance by storing previously computed results.
+Ele ajuda a otimizar o desempenho armazenando resultados previamente calculados.
 
 ---
 
-A process of reconciling the Virtual DOM with the actual DOM.
+Um processo de conciliação do Virtual DOM com o DOM real.
 
 ### --feedback--
 
-It helps optimize performance by storing previously computed results.
+Ele ajuda a otimizar o desempenho armazenando resultados previamente calculados.
 
 ---
 
-A way to handle side effects in functional components.
+Uma forma de lidar com efeitos colaterais em componentes funcionais.
 
 ### --feedback--
 
-It helps optimize performance by storing previously computed results.
+Ele ajuda a otimizar o desempenho armazenando resultados previamente calculados.
 
 ## --video-solution--
 
@@ -168,35 +168,35 @@ It helps optimize performance by storing previously computed results.
 
 ## --text--
 
-What is the difference between computed values and function references?
+Qual é a diferença entre valores computados e referências de função?
 
 ## --answers--
 
-Computed values are function objects, while function references are execution results.
+Valores computados são objetos de função, enquanto referências de função são resultados de execução.
 
 ### --feedback--
 
-One is the output of a function, while the other is just a pointer to it.
+Um é a saída de uma função, enquanto o outro é apenas um ponteiro para ela.
 
 ---
 
-Computed values are the result of executing a function, while function references are the function objects in memory.
+Valores computados são o resultado da execução de uma função, enquanto referências de função são os objetos de função na memória.
 
 ---
 
-Computed values and function references are the same thing.
+Valores computados e referências de função são a mesma coisa.
 
 ### --feedback--
 
-One is the output of a function, while the other is just a pointer to it.
+Um é a saída de uma função, enquanto o outro é apenas um ponteiro para ela.
 
 ---
 
-Function references store computed values.
+Referências de função armazenam valores computados.
 
 ### --feedback--
 
-One is the output of a function, while the other is just a pointer to it.
+Um é a saída de uma função, enquanto o outro é apenas um ponteiro para ela.
 
 ## --video-solution--
 
@@ -204,7 +204,7 @@ One is the output of a function, while the other is just a pointer to it.
 
 ## --text--
 
-Which of these is NOT one of the tools React provides for memoization?
+Qual destes NÃO é uma das ferramentas que o React fornece para memoização?
 
 ## --answers--
 
@@ -212,7 +212,7 @@ Which of these is NOT one of the tools React provides for memoization?
 
 ### --feedback--
 
-Memoization tools focus on caching values and functions, while this option handles side effects.
+Ferramentas de memoização focam em armazenar em cache valores e funções, enquanto esta opção lida com efeitos colaterais.
 
 ---
 
@@ -220,7 +220,7 @@ Memoization tools focus on caching values and functions, while this option handl
 
 ### --feedback--
 
-Memoization tools focus on caching values and functions, while this option handles side effects.
+Ferramentas de memoização focam em armazenar em cache valores e funções, enquanto esta opção lida com efeitos colaterais.
 
 ---
 
@@ -228,7 +228,7 @@ Memoization tools focus on caching values and functions, while this option handl
 
 ### --feedback--
 
-Memoization tools focus on caching values and functions, while this option handles side effects.
+Ferramentas de memoização focam em armazenar em cache valores e funções, enquanto esta opção lida com efeitos colaterais.
 
 ---
 
@@ -236,7 +236,7 @@ Memoization tools focus on caching values and functions, while this option handl
 
 ### --feedback--
 
-Memoization tools focus on caching values and functions, while this option handles side effects.
+Ferramentas de memoização focam em armazenar em cache valores e funções, enquanto esta opção lida com efeitos colaterais.
 
 ## --video-solution--
 

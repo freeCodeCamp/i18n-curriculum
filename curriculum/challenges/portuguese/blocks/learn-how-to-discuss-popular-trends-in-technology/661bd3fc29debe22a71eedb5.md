@@ -1,47 +1,47 @@
 ---
 id: 661bd3fc29debe22a71eedb5
-title: Task 69
+title: Tarefa 69
 challengeType: 19
 dashedName: task-69
 ---
 
 # --description--
 
-`Physical or behavioral traits` are special things about your body or how you act. It can be your face, fingerprints, or the way you move. Biometrics uses these things to keep things safe.
+`Physical or behavioral traits` são características especiais do seu corpo ou de como você age.Pode ser seu rosto, impressões digitais ou a forma como você se move.Biometria usa essas coisas para manter as coisas seguras.
 
 # --questions--
 
 ## --text--
 
-What do `physical or behavioral traits` include in biometrics?
+O que `physical or behavioral traits` incluem em biometria?
 
 ## --answers--
 
-Random objects
+Objetos aleatórios
 
 ### --feedback--
 
-Random objects don't fit the idea of personal characteristics used in biometrics.
+Objetos aleatórios não se encaixam na ideia de características pessoais usadas em biometria.
 
 ---
 
-Magical powers
+Poderes mágicos
 
 ### --feedback--
 
-Magical powers are unrelated to the concept of unique personal features in biometrics.
+Poderes mágicos não estão relacionados ao conceito de características pessoais únicas em biometria.
 
 ---
 
-Colorful patterns
+Padrões coloridos
 
 ### --feedback--
 
-Colorful patterns do not represent the specific traits of your body or behavior.
+Padrões coloridos não representam as características específicas do seu corpo ou comportamento.
 
 ---
 
-Special characteristics of your body or behavior
+Características especiais do seu corpo ou comportamento
 
 ## --video-solution--
 

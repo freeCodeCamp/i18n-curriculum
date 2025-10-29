@@ -23,7 +23,7 @@ Ouça o áudio para completar a frase abaixo.
 
 ### --feedback--
 
-This word is used to avoid repeating the verb `update` from the previous sentence.
+Esta palavra é usada para evitar repetir o verbo `update` da frase anterior.
 
 ---
 
@@ -31,17 +31,17 @@ This word is used to avoid repeating the verb `update` from the previous sentenc
 
 ### --feedback--
 
-This word means to postpone or make something happen later than planned.
+Esta palavra significa adiar ou fazer algo acontecer mais tarde do que o planejado.
 
 # --explanation--
 
-Instead of saying `If we update the software, it might delay other projects.`, James shortens it to `If we do`. The word `do` is often used to avoid repeating the verb or a complete phrase used in from the previous sentence. Por exemplo:
+Em vez de dizer `If we update the software, it might delay other projects.`, James encurta para `If we do`.A palavra `do` é frequentemente usada para evitar repetir o verbo ou uma frase completa usada na sentença anterior.Por exemplo:
 
-`She wants to join the meeting, and if she does, she'll need the link.` - Instead of saying `if she joins the meeting`, you can use `does` to replace it and this way you can avoid the repetition.
+`She wants to join the meeting` e, se ela o fizer, precisará do link. - Em vez de dizer `if she joins the meeting`, você pode usar `does` para substituí-lo e assim evitar a repetição.
 
-`To delay` means to make something happen later than planned. For example:
+`To delay` significa fazer algo acontecer mais tarde do que o planejado.Por exemplo:
 
-`The flight was delayed due to bad weather.` - This means the flight was postponed and did not leave on time.
+`The flight was delayed due to bad weather.` - Isso significa que o voo foi adiado e não partiu no horário.
 
 # --scene--
 

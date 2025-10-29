@@ -1,6 +1,6 @@
 ---
 id: 679d62d4afabb9cb6f9ece23
-title: Task 106
+title: Tarefa 106
 challengeType: 19
 dashedName: task-106
 ---
@@ -9,41 +9,41 @@ dashedName: task-106
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Ouça o áudio e responda a pergunta abaixo.
 
 # --questions--
 
 ## --text--
 
-What does Maria want to avoid doing, and why?
+O que Maria quer evitar fazer e por quê?
 
 ## --answers--
 
-She wants to avoid fixing the problem.
+Ela quer evitar consertar o problema.
 
 ### --feedback--
 
-Maria is not saying they shouldn't fix the problem.
+Maria não está dizendo que eles não deveriam consertar o problema.
 
 ---
 
-She wants to avoid asking for help.
+Ela quer evitar pedir ajuda.
 
 ### --feedback--
 
-Maria does not mention asking for help.
+Maria não menciona pedir ajuda.
 
 ---
 
-She wants to avoid rushing because it could cause more problems.
+Ela quer evitar se apressar porque isso poderia causar mais problemas.
 
 ---
 
-She wants to avoid updating the software.
+Ela quer evitar atualizar o software.
 
 ### --feedback--
 
-Maria does not say they should avoid updating.
+Maria não diz que eles devem evitar atualizar.
 
 ## --video-solution--
 
@@ -51,11 +51,11 @@ Maria does not say they should avoid updating.
 
 # --explanation--
 
-`To lead to problems` means that an action or decision could result in difficulties or negative consequences. For example:
+`To lead to problems` significa que uma ação ou decisão pode resultar em dificuldades ou consequências negativas.Por exemplo:
 
-`Skipping the testing phase can lead to serious problems in the software.` - This means that not testing properly might cause major technical issues.
+`Skipping the testing phase can lead to serious problems in the software.` - Isso significa que não testar adequadamente pode causar grandes problemas técnicos.
 
-In this dialogue, Maria is concerned that rushing could create additional issues.
+Neste diálogo, Maria está preocupada que apressar possa criar problemas adicionais.
 
 # --scene--
 

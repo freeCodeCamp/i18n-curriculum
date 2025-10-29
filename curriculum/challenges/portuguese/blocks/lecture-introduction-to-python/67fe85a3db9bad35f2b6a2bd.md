@@ -1,30 +1,30 @@
 ---
 id: 67fe85a3db9bad35f2b6a2bd
-title: How Do Conditional Statements and Logical Operators Work?
+title: Como Funcionam as Declarações Condicionais e os Operadores Lógicos?
 challengeType: 19
 dashedName: how-do-conditional-statements-and-logical-operators-work
 ---
 
 # --description--
 
-Conditional statements, or conditionals, let you control the flow of your program based on whether certain conditions are true or false.
+Instruções condicionais, ou condicionais, permitem que você controle o fluxo do seu programa com base em se certas condições são verdadeiras ou falsas.
 
-But before we get into all that, let's go over the basic building blocks of conditional statements, starting with comparison operators. Comparison operators are operators that let you compare two or more values, and return a boolean value.
+Mas antes de entrarmos em tudo isso, vamos revisar os blocos básicos das declarações condicionais, começando pelos operadores de comparação. Operadores de comparação são operadores que permitem comparar dois ou mais valores e retornar um valor booleano.
 
-In a previous lesson, you learned that booleans are one of the data types in Python, and can only be `True` or `False`.
+Em uma lição anterior, você aprendeu que booleanos são um dos tipos de dados em Python e podem ser apenas `True` ou `False`.
 
-Here's a table with the comparison operators in Python:
+Aqui está uma tabela com os operadores de comparação em Python:
 
-| Operator | Name                  | Description                                                                        |
-| -------- | --------------------- | ---------------------------------------------------------------------------------- |
-| `==`     | Equal                 | Checks if two values are equal                                                     |
-| `!=`     | Not equal             | Checks if two values are not equal                                                 |
-| `>`   | Greater than          | Checks if the value on the left is greater than the value on the right             |
-| `<`   | Less than             | Checks if the value on the left is less than the value on the right                |
-| `>=`  | Greater than or equal | Checks if the value on the left is greater than or equal to the value on the right |
-| `<=`  | Less than or equal    | Checks if the value on the left is less than or equal to the value on the right    |
+| Operator | Name | Description |
+| --- | --- | --- |
+| `==` | Equal | Checks if two values are equal |
+| `!=` | Not equal | Checks if two values are not equal |
+| `>` | Greater than | Checks if the value on the left is greater than the value on the right |
+| `<` | Less than | Checks if the value on the left is less than the value on the right |
+| `>=` | Greater than or equal | Checks if the value on the left is greater than or equal to the value on the right |
+| `<=` | Less than or equal | Checks if the value on the left is less than or equal to the value on the right |
 
-Here are some of those expressions that evaluate to `True` or `False`:
+Aqui estão algumas dessas expressões que avaliam para `True` ou `False`:
 
 ```python
 print(3 > 4) # False
@@ -36,23 +36,23 @@ print(3 >= 4) # False
 print(3 <= 4) # True
 ```
 
-These operators can be used in conditionals to compare values and run certain code based on whether the conditional evaluates to `True` or `False`.
+Esses operadores podem ser usados em condicionais para comparar valores e executar determinado código com base em se a condicional avalia para `True` ou `False`.
 
-In Python, the most basic conditional is the `if` statement. Here's the basic syntax:
+Em Python, a condicional mais básica é a declaração `if`. Aqui está a sintaxe básica:
 
 ```python
 if condition:
     # Code to execute if condition is True
 ```
 
-* `if` statements start with the `if` keyword.
+* As declarações `if` começam com a palavra-chave `if`.
+    
+* `condition` é uma expressão que avalia para `True` ou `False`, seguida por dois pontos (`:`).
 
-* `condition` is an expression that evaluates to `True` or `False`, followed by a colon (`:`).
+* A indentação especifica o bloco de código dentro do corpo da declaração `if`.
+    
 
-* The indentation specifies the block of code within the body of the `if` statement.
-
-
-And here's an example:
+E aqui está um exemplo:
 
 ```python
 age = 18
@@ -61,7 +61,7 @@ if age >= 18:
     print('You are an adult') # You are an adult
 ```
 
-But if `age` is anything less than `18`, nothing is printed in the terminal:
+Mas se `age` for menor que `18`, nada será impresso no terminal:
 
 ```python
 age = 12
@@ -70,7 +70,7 @@ if age >= 18:
     print('You are an adult') # Nothing shows up in the terminal
 ```
 
-But what if you also want to print something if `age` is less than `18`? That's where the `else` clause comes in. The `else` clause runs when the `if` condition is false. Here's the syntax for an `if…else` statement:
+Mas e se você também quiser imprimir algo se `age` for menor que `18`? É aí que entra a cláusula `else`. A cláusula `else` é executada quando a condição `if` é falsa. Aqui está a sintaxe para uma declaração `if…else`:
 
 ```python
 if condition:
@@ -79,7 +79,7 @@ else:
    # Code to execute if condition is False
 ```
 
-For example:
+Por exemplo:
 
 ```python
 age = 12
@@ -90,9 +90,9 @@ else:
     print('You are not an adult yet') # You are not an adult yet
 ```
 
-There might be situations in which you want to account for multiple conditions. To do that, Python lets you extend your if statement with the `elif` (else if) keyword.
+Podem haver situações em que você queira considerar múltiplas condições. Para fazer isso, Python permite que você estenda sua declaração if com a palavra-chave `elif` (else if).
 
-Here's the syntax:
+Aqui está a sintaxe:
 
 ```python
 if condition:
@@ -103,7 +103,7 @@ else:
    # Code to execute if all conditions are False
 ```
 
-For example:
+Por exemplo:
 
 ```python
 age = 12
@@ -116,7 +116,7 @@ else:
     print('You are a child') # You are a child
 ```
 
-Note that you can use as many `elif` statements as you want:
+Observe que você pode usar quantas declarações `elif` quiser:
 
 ```python
 age = 2
@@ -135,41 +135,41 @@ else:
     print('You are a toddler or an infant') # You are a toddler or an infant
 ```
 
-Now that you understand how comparison operators and conditional statements work in Python, you can start writing programs that make decisions based on logic and input. Whether you’re comparing values or branching through multiple conditions, these tools are the foundation to writing flexible, responsive code.
+Agora que você entende como os operadores de comparação e as declarações condicionais funcionam em Python, você pode começar a escrever programas que tomam decisões com base na lógica e na entrada. Quer você esteja comparando valores ou ramificando através de múltiplas condições, essas ferramentas são a base para escrever código flexível e responsivo.
 
 # --questions--
 
 ## --text--
 
-What do comparison operators do?
+O que os operadores de comparação fazem?
 
 ## --answers--
 
-Perform mathematical calculations with boolean values
+Realize cálculos matemáticos com valores booleanos
 
 ### --feedback--
 
-These operators check things like equality or which value is greater, and the result is either `True` or `False`.
+Esses operadores verificam coisas como igualdade ou qual valor é maior e o resultado é `True` ou `False`.
 
 ---
 
-Convert strings to boolean values.
+Converta strings em valores booleanos.
 
 ### --feedback--
 
-These operators check things like equality or which value is greater, and the result is either `True` or `False`.
+Esses operadores verificam coisas como igualdade ou qual valor é maior e o resultado é `True` ou `False`.
 
 ---
 
-Compare two values and return a boolean value.
+Compare dois valores e retorne um valor booleano.
 
 ---
 
-Create loops and iterations.
+Crie loops e iterações.
 
 ### --feedback--
 
-These operators check things like equality or which value is greater, and the result is either `True` or `False`.
+Esses operadores verificam coisas como igualdade ou qual valor é maior e o resultado é `True` ou `False`.
 
 ## --video-solution--
 
@@ -177,7 +177,7 @@ These operators check things like equality or which value is greater, and the re
 
 ## --text--
 
-What will be the result for the following code?
+Qual será o resultado para o seguinte código?
 
 ```python
 age = 12
@@ -192,31 +192,31 @@ else:
 
 ## --answers--
 
-`You are an adult` will be printed to the console.
+`You are an adult` será impresso no console.
 
 ### --feedback--
 
-Review the last part of the lesson for the correct answer.
+Revise a última parte da lição para a resposta correta.
 
 ---
 
-`You are a teenager` will be printed to the console.
+`You are a teenager` será impresso no console.
 
 ### --feedback--
 
-Review the last part of the lesson for the correct answer.
+Revise a última parte da lição para a resposta correta.
 
 ---
 
-`You are a child` will be printed to the console.
+`You are a child` será impresso no console.
 
 ---
 
-An error will be printed to the console.
+Um erro será exibido no console.
 
 ### --feedback--
 
-Review the last part of the lesson for the correct answer.
+Revise a última parte da lição para a resposta correta.
 
 ## --video-solution--
 
@@ -224,7 +224,7 @@ Review the last part of the lesson for the correct answer.
 
 ## --text--
 
-What will the expression `3 >= 4` evaluate to?
+O que a expressão `3 >= 4` irá avaliar?
 
 ## --answers--
 
@@ -232,7 +232,7 @@ What will the expression `3 >= 4` evaluate to?
 
 ### --feedback--
 
-3 is not greater than or equal to 4.
+3 não é maior ou igual a 4.
 
 ---
 
@@ -240,7 +240,7 @@ What will the expression `3 >= 4` evaluate to?
 
 ### --feedback--
 
-3 is not greater than or equal to 4.
+3 não é maior ou igual a 4.
 
 ---
 
@@ -248,7 +248,7 @@ What will the expression `3 >= 4` evaluate to?
 
 ### --feedback--
 
-3 is not greater than or equal to 4.
+3 não é maior ou igual a 4.
 
 ---
 

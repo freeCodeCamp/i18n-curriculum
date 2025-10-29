@@ -15,35 +15,35 @@ Ouça o áudio e responda a pergunta abaixo.
 
 ## --text--
 
-Why is Tom thanking Sophie?
+Por que Tom está agradecendo a Sophie?
 
 ## --answers--
 
-For giving him a time management app.
+Para fornecer a ele um aplicativo de gerenciamento de tempo.
 
 ### --feedback--
 
-Tom is thanking Sophie for tips, not for giving him an app.
+Tom está agradecendo Sophie pelas dicas, não por lhe dar um app.
 
 ---
 
-Because he finds Sophie's tips helpful.
+Porque ele acha as dicas da Sophie úteis.
 
 ---
 
-For inviting him to lunch.
+Para convidá-lo para o almoço.
 
 ### --feedback--
 
-He is thanking her for the advice, not for a lunch invitation.
+Ele está agradecendo a ela pelo conselho, não pelo convite para o almoço.
 
 ---
 
-For helping him with a project.
+Para ajudá-lo com um projeto.
 
 ### --feedback--
 
-Tom's gratitude is related to the tips about organization, not specific project help.
+A gratidão de Tom está relacionada às dicas sobre organização, não à ajuda específica do projeto.
 
 ## --video-solution--
 

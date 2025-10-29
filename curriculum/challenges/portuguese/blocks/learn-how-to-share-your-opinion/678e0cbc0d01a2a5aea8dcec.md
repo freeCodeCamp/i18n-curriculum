@@ -15,35 +15,35 @@ Ouça o áudio e responda a pergunta abaixo.
 
 ## --text--
 
-Why does Jake prefer using Visual Studio Code?
+Por que Jake prefere usar o Visual Studio Code?
 
 ## --answers--
 
-Because it's expensive and has many features.
+Porque é caro e tem muitos recursos.
 
 ### --feedback--
 
-Jake doesn't mention price or cost in his reason for preferring Visual Studio Code.
+Jake não menciona preço ou custo em sua razão para preferir o Visual Studio Code.
 
 ---
 
-Because it's slow and not secure.
+Porque é lento e não seguro.
 
 ### --feedback--
 
-Jake's reason for preferring Visual Studio Code is not related to speed or security issues.
+A razão de Jake para preferir o Visual Studio Code não está relacionada a questões de velocidade ou segurança.
 
 ---
 
-Because it's hard to use and has limited features.
+Porque é difícil de usar e tem recursos limitados.
 
 ### --feedback--
 
-Jake describes Visual Studio Code positively, with no mention of it being difficult to use or lacking features.
+Jake descreve o Visual Studio Code positivamente, sem mencionar que seja difícil de usar ou que falte recursos.
 
 ---
 
-Because it's lightweight and has excellent security features.
+Porque é leve e possui excelentes recursos de segurança.
 
 ## --video-solution--
 
@@ -51,13 +51,13 @@ Because it's lightweight and has excellent security features.
 
 # --explanation--
 
-Listen for key words that explain Jake's preference.
+Ouça as palavras-chave que explicam a preferência de Jake.  
 
-`Lightweight` – This means Visual Studio Code doesn't use a lot of system resources.
+`Lightweight` – Isso significa que o Visual Studio Code não usa muitos recursos do sistema.  
 
-`Security features` – This shows that Jake values how the tool helps protect against potential risks.
+`Security features` – Isso mostra que Jake valoriza como a ferramenta ajuda a proteger contra riscos potenciais.  
 
-These key words help you see that Jake prefers Visual Studio Code because it is lightweight and has strong security features.
+Essas palavras-chave ajudam você a ver que Jake prefere `Visual Studio Code` porque ele é leve e tem recursos fortes de segurança.
 
 # --scene--
 

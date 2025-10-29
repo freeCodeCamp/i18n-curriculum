@@ -7,11 +7,11 @@ dashedName: step-30
 
 # --description--
 
-Before you get too far into your styling, you should make use of the `sr-only` class. You can use CSS to make elements with this class completely hidden from the visual page, but still be announced by screen readers.
+Antes de irmos muito mais longe na estilização, devemos usar a classe `sr-only`.Você pode usar o CSS para tornar os elementos dessa classe completamente ocultos na página visual, mas ainda podendo ser anunciados pelos leitores de tela.
 
 O CSS que você está prestes a escrever é um conjunto comum de propriedades usadas para garantir que os elementos estejam completamente ocultos visualmente.
 
-O seletor `span[class~="sr-only"]` selecionará qualquer elemento `span` cujo atributo `class` *inclua* `sr-only`. Crie esse seletor e dê a ele uma propriedade `border` definida como `0`.
+O seletor `span[class~="sr-only"]` selecionará qualquer elemento `span` cujo `class` *inclua* `sr-only`.Crie esse seletor e dê a ele uma propriedade `border` definida como `0`.
 
 # --hints--
 

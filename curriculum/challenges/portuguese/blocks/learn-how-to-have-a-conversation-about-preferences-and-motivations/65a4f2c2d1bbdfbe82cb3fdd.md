@@ -1,6 +1,6 @@
 ---
 id: 65a4f2c2d1bbdfbe82cb3fdd
-title: Task 94
+title: Tarefa 94
 challengeType: 22
 dashedName: task-94
 ---
@@ -9,11 +9,11 @@ dashedName: task-94
 
 # --description--
 
-A `gadget` is a small tool or device, often clever or novel, that performs a specific function or makes something easier.
+Um `gadget` é uma pequena ferramenta ou dispositivo, frequentemente inteligente ou inovador, que executa uma função específica ou facilita algo. 
 
-In tech, gadgets can include things like smartphones, smartwatches, or any cool, innovative electronic device.
+Em tecnologia, gadgets podem incluir coisas como smartphones, smartwatches ou qualquer dispositivo eletrônico inovador e interessante. 
 
-For example, `My new fitness tracker gadget helps me keep track of my steps and exercise.`
+Por exemplo, `My new fitness tracker gadget helps me keep track of my steps and exercise.`
 
 # --fillInTheBlank--
 
@@ -27,7 +27,7 @@ For example, `My new fitness tracker gadget helps me keep track of my steps and 
 
 ### --feedback--
 
-This word means something causes a feeling or a reaction. Here, it's used to talk about what excites Bob about tech. It's conjugated in the third person singular.
+Esta palavra significa que algo causa um sentimento ou uma reação.Aqui, é usado para falar sobre o que entusiasma Bob em relação à tecnologia.Está conjugado na terceira pessoa do singular.
 
 ---
 
@@ -35,7 +35,7 @@ This word means something causes a feeling or a reaction. Here, it's used to tal
 
 ### --feedback--
 
-This word is used to point out specific things that are being talked about, in this case, the gadgets. Plural of `that`.
+Esta palavra é usada para apontar coisas específicas que estão sendo mencionadas, neste caso, os gadgets.Plural de `that`.
 
 ---
 
@@ -43,7 +43,7 @@ This word is used to point out specific things that are being talked about, in t
 
 ### --feedback--
 
-This word refers to small electronic devices or tools that are useful or interesting. It's often used to talk about cool tech items. It is in plural.
+Esta palavra se refere a pequenos dispositivos eletrônicos ou ferramentas que são úteis ou interessantes.É frequentemente usado para falar sobre itens tecnológicos legais. It is in plural.
 
 # --scene--
 
