@@ -1,17 +1,17 @@
 ---
 id: 63efdbc22a0c56070beabed7
-title: Step 23
+title: Passo 23
 challengeType: 0
 dashedName: step-23
 ---
 
 # --description--
 
-You’re on the right track! However, let’s take a moment to address a common issue when working with objects in JavaScript.
+Você está no caminho certo!No entanto, vamos dedicar um momento para abordar um problema comum ao trabalhar com objetos em JavaScript.
 
-When you try to access an object property that doesn’t exist, JavaScript returns `undefined`. If you then attempt to perform arithmetic operations on `undefined`, it can lead to unexpected results, such as `NaN`.
+Quando você tenta acessar uma propriedade de objeto que não existe, o JavaScript retorna `undefined`.Se você então tentar realizar operações aritméticas em `undefined`, isso pode levar a resultados inesperados, como `NaN`.
 
-To prevent this, you can use the `||` (logical OR) operator to provide a default value.
+Para evitar isso, você pode usar o operador `||` (logical OR) para fornecer um valor padrão.
 
 ```js
   let scores = {}; 
@@ -22,27 +22,27 @@ To prevent this, you can use the `||` (logical OR) operator to provide a default
   });
 ```
 
-Now, let’s apply this concept to your `totalCountPerProduct` object in the `forEach` callback. Make sure that each `dessert.id` property is initialized properly.
+Agora, vamos aplicar esse conceito ao seu objeto `totalCountPerProduct` no callback `forEach`.Certifique-se de que cada propriedade `dessert.id` esteja inicializada corretamente.
 
-Initialize `totalCountPerProduct[dessert.id]` with a default value of `0` using the `||` operator.
+Inicialize `totalCountPerProduct[dessert.id]` com um valor padrão de `0` usando o operador `||`.
 
 # --hints--
 
-You should use dot notation to access the `id` property of `dessert`.
+Você deve usar a notação de ponto para acessar a propriedade `id` de `dessert`.
 
 ```js
 const cart = new ShoppingCart();
 assert.match(cart.addItem.toString(), /dessert\.id/);
 ```
 
-You should use bracket notation to access the property of `totalCountPerProduct` that corresponds to `dessert.id`.
+Você deve usar a notação de colchete para acessar a propriedade de `totalCountPerProduct` que corresponde a `dessert.id`.
 
 ```js
 const cart = new ShoppingCart();
 assert.match(cart.addItem.toString(), /totalCountPerProduct\s*\[\s*dessert\.id\s*\]/);
 ```
 
-You should initialize `totalCountPerProduct[dessert.id]` with `0` as a default value using `||` operator at the end of the expression.
+Você deve inicializar `totalCountPerProduct[dessert.id]` com `0` como valor padrão usando o operador `||` no final da expressão.
 
 ```js
 const cart = new ShoppingCart();
@@ -324,7 +324,7 @@ class ShoppingCart {
 
     const totalCountPerProduct = {};
     this.items.forEach((dessert) => {
-
+      
     })
   }
 --fcc-editable-region--

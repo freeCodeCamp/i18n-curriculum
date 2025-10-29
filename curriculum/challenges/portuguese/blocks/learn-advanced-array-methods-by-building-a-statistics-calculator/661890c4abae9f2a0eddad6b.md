@@ -7,11 +7,11 @@ dashedName: step-22
 
 # --description--
 
-In the next few steps, you'll learn how to determine if an array's length is even or odd, as well as how to find the median. You will then be able to apply what you learned to the `getMedian` function.
+Nos próximos passos, você aprenderá como determinar se o comprimento de um array é par ou ímpar e como encontrar a mediana.Você então poderá aplicar o que aprendeu na função `getMedian`.
 
-To check if a number is even or odd, you can use the <dfn>modulus operator</dfn> `%`. The modulus operator returns the remainder of the division of two numbers.
+Para verificar se um número é par ou ímpar, você pode usar o <dfn>operador módulo</dfn> `%`.O operador de módulo retorna o resto da divisão de dois números. 
 
-Here is an example checking if an array length is even or odd:
+Aqui está um exemplo verificando se o comprimento de um array é par ou ímpar:
 
 ```js
 // check if array length is even
@@ -21,29 +21,29 @@ arr.length % 2 === 0;
 arr.length % 2 === 1;
 ```
 
-Se o resto for `0`, o número é par. Se o resto for `1`, o número é ímpar.
+Se o resto for `0`, o número é par.Se o resto for `1`, o número é ímpar.
 
-Create a variable called `isEven`. Then use the modulus operator to check if the length of the `testArr2` array is even. Assign that expression to the `isEven` variable.
+Crie uma variável chamada `isEven`.Então use o operador módulo para verificar se o comprimento do array `testArr2` é par.Atribua essa expressão à variável `isEven`.
 
-Below your `isEven` variable, log out the `isEven` variable to the console.
+Abaixo da sua variável `isEven`, registre a variável `isEven` no console.
 
-Open up the console to see the result.
+Abra o console para ver o resultado. 
 
 # --hints--
 
-You should have an `isEven` variable.
+Você deve ter uma variável `isEven`.
 
 ```js
 assert.isDefined(isEven);
 ```
 
-You should check if the length of the `testArr2` array is even. Refer back to the example provided for you: `arr.length % 2 === 0;`
+Você deve verificar se o tamanho do array `testArr2` é par.Consulte o exemplo fornecido para você: `arr.length % 2 === 0;`
 
 ```js
 assert.isTrue(isEven);
 ```
 
-You should have a `console.log` statement that logs the `isEven` variable.
+Você deve ter uma instrução `console.log` que registre a variável `isEven`.
 
 ```js
 assert.match(code, /console\.log\(isEven\)/);
@@ -151,7 +151,7 @@ const calculate = () => {
   const value = document.querySelector("#numbers").value;
   const array = value.split(/,\s*/g);
   const numbers = array.map(el => Number(el)).filter(el => !isNaN(el));
-
+  
   const mean = getMean(numbers);
 
   document.querySelector("#mean").textContent = mean;

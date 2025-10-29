@@ -7,9 +7,9 @@ dashedName: step-11
 
 # --description--
 
-In the previous projects, you used regular functions. But in the rest of the projects, you will be working with <dfn>arrow functions</dfn>. The next few steps will focus on teaching you the basics of arrow functions.
+Nos projetos anteriores, você usou funções regulares.Mas no restante dos projetos, você estará trabalhando com <dfn>arrow functions</dfn>.Os próximos passos vão se concentrar em ensinar a você o básico das arrow functions.
 
-An arrow function is an anonymous function expression and a shorter way to write functions. Anonymous means that the function does not have a name. Arrow functions are always anonymous.
+Uma função arrow é uma expressão de função anônima e uma forma mais curta de escrever funções.Anônimo significa que a função não tem um nome.Funções arrow são sempre anônimas.
 
 Aqui está a sintaxe básica:
 
@@ -17,7 +17,7 @@ Aqui está a sintaxe básica:
 () => {}
 ```
 
-By assigning the arrow function definition to a variable, you bind it to an identifier.
+Ao atribuir a definição da função arrow a uma variável, você a vincula a um identificador.
 
 ```js
 const exampleFunction = () => {
@@ -25,23 +25,23 @@ const exampleFunction = () => {
 }
 ```
 
-Create a new arrow function and assign it to the variable `printGreeting`. Inside the function body, use the `console.log()` method to print the string `Hello there!`.
+Crie uma nova arrow function e atribua-a à variável `printGreeting`.Dentro do corpo da função, use o método `console.log()` para imprimir a string `Hello there!`.
 
 # --hints--
 
-You should have a variable named `printGreeting` and assign it an arrow function.
+Você deve ter uma variável chamada `printGreeting` e atribuir a ela uma arrow function.
 
 ```js
 assert.isFunction(printGreeting);
 ```
 
-You should create an arrow function and assign it to the `printGreeting` variable.
+Você deve criar uma função arrow e atribuí-la à variável `printGreeting`.
 
 ```js
 assert.match(code, /(let|const)\s+printGreeting\s*=\s*\(.*\)\s*=>\s*{\s*[\s\S]*}\s*;?/)
 ```
 
-Your `printGreeting` function should log `Hello there!` to the console.
+Sua função `printGreeting` deve registrar `Hello there!` no console.
 
 ```js
 assert.match(printGreeting.toString(), /console\.log\(['"]Hello\s+there!['"]\)/);

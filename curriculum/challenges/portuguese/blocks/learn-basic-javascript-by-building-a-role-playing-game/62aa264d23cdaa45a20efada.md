@@ -7,9 +7,9 @@ dashedName: step-163
 
 # --description--
 
-After your `numbers` array, create a `while` loop that runs as long as `numbers.length` is less than `10`.
+Após seu array `numbers`, crie um loop `while` que execute enquanto `numbers.length` for menor que `10`.
 
-In the previous project, you learned how to work with `while` loops like this:
+No projeto anterior, você aprendeu como trabalhar com loops `while` assim:
 
 ```js
 while (condition) {
@@ -19,13 +19,13 @@ while (condition) {
 
 # --hints--
 
-Your `pick` function should have a `while` loop.
+A função `pick` deve ter um laço `while`.
 
 ```js
 assert.match(pick.toString(), /while\s*\(/);
 ```
 
-Your `while` loop should run while `numbers.length < 10`.
+Seu loop `while` deve rodar enquanto `numbers.length < 10`.
 
 ```js
 assert.match(pick.toString(), /while\s*\(\s*numbers\.length\s*<\s*10\s*\)/);
@@ -386,7 +386,7 @@ function pickEight() {
 --fcc-editable-region--
 function pick(guess) {
   const numbers = [];
-
+  
 }
 --fcc-editable-region--
 ```

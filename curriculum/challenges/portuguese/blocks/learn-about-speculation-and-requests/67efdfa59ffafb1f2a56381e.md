@@ -17,7 +17,7 @@ Ouça o áudio e responda a pergunta abaixo.
 
 ## --text--
 
-Jake doesn't mind discussing an issue with Jessica. What can he say?
+Jake não se importa de discutir um problema com Jessica.O que ele pode dizer?
 
 ## --answers--
 
@@ -29,21 +29,21 @@ Jake doesn't mind discussing an issue with Jessica. What can he say?
 
 ### --feedback--
 
-This answer does not match the prompt because Jake doesn't mind discussing the issue.
+Esta resposta não corresponde ao prompt porque Jake não se importa de discutir o problema.
 
 ## --video-solution--
 
 1
 
-# --explanation--
+# --explanation-- 
 
-Jessica asks, `Do you have any ideas?`, which is a way of inviting someone to share their thoughts or opinions.
+Jessica pergunta, `Do you have any ideas?`, que é uma forma de convidar alguém a compartilhar seus pensamentos ou opiniões.
 
-`Sure, Jessica` is a way to show that you're open to discussing the issue. Another example:
+`Sure, Jessica` é uma forma de mostrar que você está aberto a discutir o problema. Outro exemplo:
 
-- Person 1: `Do you have any ideas how to fix it?` - This person is asking for suggestions or solutions.
+- Pessoa 1: `Do you have any ideas how to fix it?` - Esta pessoa está pedindo sugestões ou soluções.
 
-- Person 2: `Sure. We could check the server logs and see what's wrong.` - This person is saying yes, and is ready to share a suggestion.
+- Pessoa 2: `Sure. We could check the server logs and see what's wrong.` - Esta pessoa está dizendo sim e está pronta para compartilhar uma sugestão.
 
 # --scene--
 

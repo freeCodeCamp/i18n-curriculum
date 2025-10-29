@@ -8,13 +8,13 @@ dashedName: generate-random-whole-numbers-with-javascript
 
 # --description--
 
-Você pode gerar números decimais aleatórios com `Math.random()`, mas, às vezes, você precisa gerar números naturais aleatórios. O processo a seguir fornecerá um número natural aleatório menor que `20`:
+Você pode gerar números decimais aleatórios com `Math.random()`, mas, às vezes, você precisa gerar números naturais aleatórios.O processo a seguir fornecerá um número natural aleatório menor que `20`:
 
 1. Use `Math.random()` para gerar um número decimal aleatório.
 2. Multiplique o número decimal aleatório por `20`.
 3. Use `Math.floor()` para arredondar o número para baixo para o número natural mais próximo.
 
-Lembre-se de que `Math.random()` nunca pode retornar um `1`. Então, é impossível realmente obter `20`, já que você está arredondando para baixo com `Math.floor()`. Esse processo fornece um número natural aleatório no intervalo de `0` até `19`.
+Lembre-se de que `Math.random()` nunca pode retornar um `1`. Então, é impossível realmente obter `20`, já que você está arredondando para baixo com `Math.floor()`.Esse processo fornece um número natural aleatório no intervalo de `0` até `19`.
 
 Juntando tudo, essa é a aparência do código:
 

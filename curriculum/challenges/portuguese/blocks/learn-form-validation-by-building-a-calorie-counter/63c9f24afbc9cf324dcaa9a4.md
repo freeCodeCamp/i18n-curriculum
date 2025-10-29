@@ -7,7 +7,7 @@ dashedName: step-95
 
 # --description--
 
-Você também precisa limpar o texto do elemento `output`. Você deve fazer isso definindo a propriedade `innerText` como uma string vazia.
+Você também precisa limpar o texto do elemento `output`.Você deve fazer isso definindo a propriedade `innerText` como uma string vazia.
 
 A diferença entre `innerText` e `innerHTML` é que `innerText` não renderizará elementos do HTML, mas exibirá as tags e o conteúdo como texto bruto.
 

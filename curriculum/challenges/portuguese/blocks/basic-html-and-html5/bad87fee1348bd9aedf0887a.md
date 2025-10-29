@@ -13,7 +13,7 @@ Durante as próximas lições, construiremos aos poucos um aplicativo para fotos
 
 O elemento `h2` que você vai adicionar nesta etapa dará um título de nível dois à página da web.
 
-Este elemento informa ao navegador sobre a estrutura do seu site. Elementos `h1` geralmente são usados para os títulos principais, enquanto os elementos `h2` geralmente são usados para subtítulos. Também existem elementos `h3`, `h4`, `h5` e `h6` para indicar níveis diferentes de subtítulos.
+Este elemento informa ao navegador sobre a estrutura do seu site. Elementos `h1` são frequentemente usados para títulos principais, enquanto elementos `h2` são geralmente usados para subtítulos.Também existem elementos `h3`, `h4`, `h5` e `h6` para indicar níveis diferentes de subtítulos.
 
 # --instructions--
 

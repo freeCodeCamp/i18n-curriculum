@@ -1,6 +1,6 @@
 ---
 id: 685322cee8cbfeaacebe4e85
-title: Task 28
+title: Tarefa 28
 challengeType: 22
 dashedName: task-28
 ---
@@ -9,7 +9,7 @@ dashedName: task-28
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Ouça o áudio para completar a frase abaixo.
 
 # --fillInTheBlank--
 
@@ -23,13 +23,13 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This means progress or development, especially in skills or knowledge.
+Isso significa progresso ou desenvolvimento, especialmente em habilidades ou conhecimento.
 
 # --explanation--
 
-`Growth` means improvement or development, often in knowledge, skills, or ability. For example:
+`Growth` significa melhoria ou desenvolvimento, frequentemente em conhecimento, habilidades ou capacidade.Por exemplo:
 
-`The company supports professional growth through regular training sessions.` – This means the company helps employees improve and develop their skills.
+`The company supports professional growth through regular training sessions.` – Isso significa que a empresa ajuda os funcionários a melhorar e desenvolver suas habilidades.
 
 # --scene--
 
