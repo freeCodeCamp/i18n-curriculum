@@ -1,6 +1,6 @@
 ---
 id: 662347b1bb7b3cdfcccffa57
-title: Task 50
+title: Tarefa 50
 challengeType: 22
 dashedName: task-50
 ---
@@ -9,9 +9,9 @@ dashedName: task-50
 
 # --description--
 
-`Heard` is the past tense of the verb `to hear`, which means to become aware of something through the ears or to be informed of something. For example, `I heard the news yesterday` means you became aware of the news the day before.
+`Heard` é o passado do verbo `to hear`, que significa tornar-se ciente de algo através dos ouvidos ou ser informado de algo.Por exemplo, `I heard the news yesterday` significa que você tomou conhecimento da notícia no dia anterior.
 
-An `authentication module` in a software context is a part of a system responsible for verifying the identity of users. It's often used in login systems. For example, `The authentication module checks the username and password` means it verifies the user's credentials.
+Um `authentication module` em um contexto de software é uma parte de um sistema responsável por verificar a identidade dos usuários.É frequentemente usado em sistemas de login.Por exemplo, `The authentication module checks the username and password` significa que ele verifica as credenciais do usuário.
 
 # --fillInTheBlank--
 
@@ -25,7 +25,7 @@ An `authentication module` in a software context is a part of a system responsib
 
 ### --feedback--
 
-It is the past tense of `to hear`, indicating Brian was informed about Sophie's task.
+É o passado de `to hear`, indicando que Brian foi informado sobre a tarefa de Sophie.
 
 ---
 
@@ -33,7 +33,7 @@ It is the past tense of `to hear`, indicating Brian was informed about Sophie's 
 
 ### --feedback--
 
-It refers to the act of repairing or resolving the issue (bug) in the software.
+Refere-se ao ato de reparar ou resolver o problema (bug) no software.
 
 ---
 
@@ -41,7 +41,7 @@ It refers to the act of repairing or resolving the issue (bug) in the software.
 
 ### --feedback--
 
-It refers to the process of verifying a user's identity in the software module.
+Refere-se ao processo de verificar a identidade de um usuário no módulo de software.
 
 # --scene--
 

@@ -1,17 +1,17 @@
 ---
 id: 5f46ede1ff8fec5ba656b44c
-title: Step 77
+title: Passo 77
 challengeType: 0
 dashedName: step-77
 ---
 
 # --description--
 
-Next, you are going to be styling the `footer` element. To keep the CSS organized, add a comment at the end of `styles.css` with the text `FOOTER`.
+Em seguida, você estilizará o estilo do elemento `FOOTER`.Para manter o CSS organizado, adicione um comentário ao final de `styles.css` com o texto `FOOTER`.
 
 # --hints--
 
-You should have a CSS comment with the text `FOOTER`.
+Você deve ter um comentário no CSS com o texto `FOOTER`.
 
 ```js
 assert(code.match(/\/\*\s*FOOTER\s*\*\//i));

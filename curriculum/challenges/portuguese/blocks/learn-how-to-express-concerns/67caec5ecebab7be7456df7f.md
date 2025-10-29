@@ -1,6 +1,6 @@
 ---
 id: 67caec5ecebab7be7456df7f
-title: Task 130
+title: Tarefa 130
 challengeType: 19
 dashedName: task-130
 ---
@@ -9,53 +9,53 @@ dashedName: task-130
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Ouça o áudio e responda a pergunta abaixo.  
 
 # --questions--
 
 ## --text--
 
-What other issue did the team raise?
+Qual outro problema a equipe levantou?
 
 ## --answers--
 
-That they receive updates too early.
+Que eles recebam atualizações cedo demais.
 
 ### --feedback--
 
-Maria mentions the exact opposite.
+Maria menciona o exato oposto.
 
 ---
 
-That they don't want to communicate as much.
+Que eles não querem se comunicar tanto.
 
 ### --feedback--
 
-Maria doesn't mention the team's willingness to communicate.
+Maria não menciona a disposição da equipe para se comunicar.  
 
 ---
 
-That they often don't hear about changes in time.
+Que eles frequentemente não ouvem sobre as mudanças a tempo.
 
 ---
 
-That they think too many people are involved in communication.
+Que eles acham que muitas pessoas estão envolvidas na comunicação.
 
 ### --feedback--
 
-Maria does not mention the number of people involved.
+Maria não menciona o número de pessoas envolvidas.
 
 ## --video-solution--
 
-3
+3  
 
 # --explanation--
 
-When you say something `isn't great`, you are softening a negative message (instead of saying `it is bad`, for instance). It makes criticism sound more polite or indirect. Take a look at the following sentences:
+Quando você diz que algo `isn't great`, você está suavizando uma mensagem negativa (em vez de dizer `it is bad`, por exemplo).Isso faz a crítica soar mais educada ou indireta.Dê uma olhada nas seguintes sentenças:
 
-- `The design is bad.` - This is a strong negative statement, which often sounds impolite.
+- `The design is bad.` - Esta é uma afirmação negativa forte, que muitas vezes soa indelicada.
 
-- `The design isn't great. Maybe we can improve it.` - Saying this sound less harsh and more constructive.
+- O design não está ótimo. Talvez possamos melhorá-lo.
 
 # --scene--
 

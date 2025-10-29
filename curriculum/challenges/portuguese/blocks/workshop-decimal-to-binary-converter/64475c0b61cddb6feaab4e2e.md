@@ -7,21 +7,21 @@ dashedName: step-13
 
 # --description--
 
-Now you can alert the user if they don't enter a number, or the number is invalid before you attempt to convert it into binary.
+Agora você pode alertar o usuário se ele não inserir um número ou se o número for inválido antes de tentar convertê-lo em binário.
 
-In the body of the `if` statement, use the `alert()` method to display the text `"Please provide a decimal number greater than or equal to 0"`.
+No corpo da instrução `if`, use o método `alert()` para exibir o texto `"Please provide a decimal number greater than or equal to 0"`.
 
-Note that `alert()` is a method on the `window` object in the browser, so you can use either `window.alert()` or `alert()`.
+Observe que `alert()` é um método do objeto `window` no navegador, então você pode usar `window.alert()` ou `alert()`.
 
 # --hints--
 
-You should call the `alert()` method within the body of your `if` statement within `checkUserInput`.
+Você deve chamar o método `alert()` dentro do corpo da sua declaração `if` dentro de `checkUserInput`.
 
 ```js
 assert.match(String(checkUserInput), /if\s*\(\s*.+\s*\)\s*\{\s*(window\s*.)?\s*alert\(/);
 ```
 
-When there is a falsy value in the `#number-input` element and the `checkUserInput()` function is called, the `alert()` method should display the text `"Please provide a decimal number greater than or equal to 0"`.
+Quando houver um valor falso no elemento `#number-input` e a função `checkUserInput()` for chamada, o método `alert()` deve exibir o texto `"Please provide a decimal number greater than or equal to 0"`.
 
 ```js
 const numberInput = document.getElementById("number-input");

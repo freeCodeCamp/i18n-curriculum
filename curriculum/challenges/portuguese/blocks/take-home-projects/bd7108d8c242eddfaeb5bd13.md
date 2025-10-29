@@ -10,19 +10,19 @@ dashedName: map-data-across-the-globe
 
 **Objective:** Build an app that is functionally similar to this: <https://codepen.io/freeCodeCamp/full/mVEJag>.
 
-Atenda às histórias de usuário abaixo e faça com que todos os testes passem. Use quaisquer bibliotecas ou APIs de que você precisar. Dê ao projeto o seu próprio estilo pessoal.
+Atenda às histórias de usuário abaixo e faça com que todos os testes passem.Use quaisquer bibliotecas ou APIs de que você precisar.Dê ao projeto o seu próprio estilo pessoal.
 
-**História de usuário:** posso ver onde todos os meteoritos pousaram no mapa do mundo.
+**História do Usuário:** Posso ver onde todos os Meteorites caíram em um mapa-múndi.
 
-**História de usuário:** eu posso dizer o tamanho relativo do meteorito, apenas olhando para a forma como ele é representado no mapa.
+**História do Usuário:** Eu consigo identificar o tamanho relativo do meteorito, apenas olhando a forma como ele é representado no mapa.
 
-**História de usuário:** posso passar o mouse sobre os dados do meteorito para obter dados adicionais.
+**História do Usuário:** Posso passar o mouse sobre o ponto de dados do meteorito para obter dados adicionais.
 
-**Dica:** aqui está um conjunto de dados que você pode usar para criar essa aplicação: <https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/meteorite-strike-data.json>
+**Hint:** Here's a dataset you can use to build this: <https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/meteorite-strike-data.json>
 
 Quando terminar, inclua um link para o seu projeto no CodePen e clique no botão "Eu completei esse desafio".
 
-Você pode obter feedback sobre o seu projeto compartilhando-o no <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">fórum freeCodeCamp</a>.
+Você pode obter feedback sobre seu projeto compartilhando-o no <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">fórum freeCodeCamp</a>.
 
 # --solutions--
 

@@ -1,6 +1,6 @@
 ---
 id: 66c8fb021dcfcb767dfec33a
-title: Task 16
+title: Tarefa 16
 challengeType: 19
 dashedName: task-16
 ---
@@ -9,53 +9,53 @@ dashedName: task-16
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Ouça o áudio e responda a pergunta abaixo.
 
 # --questions--
 
 ## --text--
 
-Which statement below is true?
+Qual das afirmações abaixo é verdadeira?
 
 ## --answers--
 
-They have never fixed any issues like this before.
+Eles nunca corrigiram problemas como este antes.
 
 ### --feedback--
 
-Think about whether Linda mentions any experience with similar issues.
+Pense se Linda menciona alguma experiência com problemas semelhantes.
 
 ---
 
-They have already fixed this exact issue on another project.
+Eles já corrigiram esse exato problema em outro projeto.
 
 ### --feedback--
 
-Consider whether Linda says they have experience with this specific issue or something similar.
+Considere se Linda diz que tem experiência com este problema específico ou algo semelhante.
 
 ---
 
-They haven't fixed this exact issue, but they have fixed similar ones before.
+Eles não corrigiram esse problema exato, mas já corrigiram problemas semelhantes antes.
 
 ---
 
-They have fixed this issue many times before.
+Eles corrigiram esse problema muitas vezes antes.
 
 ### --feedback--
 
-Reflect on whether Linda is talking about having fixed this exact issue or something similar.
-
+Reflita se Linda está falando sobre ter corrigido exatamente esse problema ou algo semelhante.
+  
 ## --video-solution--
 
 3
 
 # --explanation--
 
-To find the correct answer, focus on whether Linda is talking about fixing the `exact issue` or `similar issues`.
+Para encontrar a resposta correta, concentre-se em saber se Linda está falando sobre corrigir o `exact issue` ou `similar issues`. 
 
-Linda makes it clear that they haven't fixed this exact problem before, but she also mentions that they have solved similar issues in the past.
+Linda deixa claro que eles não corrigiram esse problema exato antes, mas ela também menciona que eles já resolveram problemas semelhantes no passado. 
 
-The correct answer should show this balance—acknowledging no exact match but confirming past experience with related problems.
+A resposta correta deve mostrar esse equilíbrio—reconhecendo que não há correspondência exata mas confirmando experiência passada com problemas relacionados.
 
 # --scene--
 

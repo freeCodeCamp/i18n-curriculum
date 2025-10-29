@@ -1,6 +1,6 @@
 ---
 id: 67f36533ffaeffe3ac2dad2b
-title: Task 131
+title: Tarefa 131
 challengeType: 19
 dashedName: task-131
 ---
@@ -9,41 +9,41 @@ dashedName: task-131
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Ouça o áudio e responda a pergunta abaixo.
 
 # --questions--
 
 ## --text--
 
-What is Jessica explaining?
+O que Jessica está explicando?
 
 ## --answers--
 
-There was a problem with the current update's schedule.
+Houve um problema com a programação da atualização atual.
 
 ### --feedback--
 
-Jessica is talking about the feature's timing, not the schedule of the update itself.
+Jessica está falando sobre o tempo do recurso, não sobre o cronograma da atualização em si.
 
 ---
 
-The budget tracking feature will be in the next update, not the current one.
+O recurso de acompanhamento de orçamento estará na próxima atualização, não na atual.
 
 ---
 
-The budget tracking feature has been removed from the current update.
+O recurso de acompanhamento de orçamento foi removido da atualização atual.
 
 ### --feedback--
 
-Jessica doesn't mention that the feature has been removed.
+Jessica não menciona que o recurso foi removido.
 
 ---
 
-The feature was mistakenly included in this update.
+O recurso foi incluído por engano nesta atualização.
 
 ### --feedback--
 
-Jessica doesn't say the feature was mistakenly included.
+Jessica não diz que a funcionalidade foi incluída por engano.
 
 ## --video-solution--
 
@@ -51,9 +51,9 @@ Jessica doesn't say the feature was mistakenly included.
 
 # --explanation--
 
-Jessica says, `The budget tracking feature is planned for the next update`, explaining that the feature is not included in the current update but will be added in the next one.
+Jessica diz, `The budget tracking feature is planned for the next update`, explicando que o recurso não está incluído na atualização atual mas será adicionado na próxima.
 
-This clears up the confusion about the feature's timing.
+Isso esclarece a confusão sobre o tempo da funcionalidade.
 
 # --scene--
 

@@ -1,6 +1,6 @@
 ---
 id: 6856ddea73ea5fafe4d65cfc
-title: Task 95
+title: Tarefa 95
 challengeType: 19
 dashedName: task-95
 ---
@@ -11,13 +11,13 @@ dashedName: task-95
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Ouça o áudio e responda a pergunta abaixo.
 
 # --questions--
 
 ## --text--
 
-How could Linda praise Jake's idea?
+Como Linda poderia elogiar a ideia de Jake?
 
 ## --answers--
 
@@ -29,7 +29,7 @@ How could Linda praise Jake's idea?
 
 ### --feedback--
 
-This sounds doubtful, not supportive.
+Isso soa duvidoso, não apoiador.
 
 ## --video-solution--
 
@@ -37,11 +37,11 @@ This sounds doubtful, not supportive.
 
 # --explanation--
 
-`That's an excellent suggestion.` is a polite and positive way to praise someone's idea by showing strong agreement and approval. For example:
+`That's an excellent suggestion.` é uma forma educada e positiva de elogiar a ideia de alguém mostrando forte concordância e aprovação.Por exemplo:
 
-- Person 1: `Let's add more visuals to the report.` – The first person suggests that they incorporate more graphics and images to the report to make it more vivid.
+- Pessoa 1: `Let's add more visuals to the report.` – A primeira pessoa sugere que eles incorporem mais gráficos e imagens ao relatório para torná-lo mais vívido.
 
-- Person 2: `That's an excellent suggestion.` – This means the person thinks the idea is very good and helpful.
+- Pessoa 2: `That's an excellent suggestion.` – Isso significa que a pessoa acha que a ideia é muito boa e útil.
 
 # --scene--
 

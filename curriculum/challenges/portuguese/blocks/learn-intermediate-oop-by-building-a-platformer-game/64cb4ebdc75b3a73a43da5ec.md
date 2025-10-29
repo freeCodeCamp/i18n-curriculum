@@ -7,39 +7,39 @@ dashedName: step-108
 
 # --description--
 
-Create an `if` statement that checks if `isCheckpointCollisionDetectionActive` is true.
+Crie uma declaração `if` que verifique se `isCheckpointCollisionDetectionActive` é true.
 
-Inside the `if` statement, add a `setTimeout()` that takes in a callback function and a delay of 2000 milliseconds.
+Dentro da declaração `if`, adicione um `setTimeout()` que recebe uma função de callback e um atraso de 2000 milissegundos.
 
-For the callback function, it should set the `checkpointScreen` `style.display` property to `"none"`.
+Para a função de callback, ela deve definir a propriedade `checkpointScreen` `style.display` como `"none"`.
 
 # --hints--
 
-You should have an `if` statement that checks if `isCheckpointCollisionDetectionActive` is true.
+Você deve ter uma declaração `if` que verifica se `isCheckpointCollisionDetectionActive` é true.
 
 ```js
 assert.match(code, /\s*if\s*\(\s*isCheckpointCollisionDetectionActive\s*\)\s*{/s);
 ```
 
-You should have a `setTimeout()` function inside the `if` statement.
+Você deve ter uma função `setTimeout()` dentro da declaração `if`.
 
 ```js
 assert.match(code, /\s*if\s*\(\s*isCheckpointCollisionDetectionActive\s*\)\s*{\s*setTimeout\s*\(/s);
 ```
 
-Your `setTimeout()` function should have a callback function as the first argument.
+Sua função `setTimeout()` deve ter uma função callback como o primeiro argumento.
 
 ```js
 assert.match(code, /\s*setTimeout\s*\(\s*\(\s*\)\s*=>/s);
 ```
 
-Your `setTimeout()` function should have a delay of 2000 milliseconds as the second argument.
+Sua função `setTimeout()` deve ter um atraso de 2000 milissegundos como segundo argumento.
 
 ```js
 assert.match(code, /\s*setTimeout\s*\(\s*\(\s*\)\s*=>[^,]*,\s*2000\s*\)/s);
 ```
 
-Your callback function should set the `checkpointScreen` `style.display` property to `"none"`.
+Sua função de callback deve definir a propriedade `style.display` de `checkpointScreen` para `"none"`.
 
 ```js
 assert.match(code, /\s*if\s*\(\s*isCheckpointCollisionDetectionActive\s*\)\s*{\s*setTimeout\s*\(\s*\(\s*\)\s*=>\s*(\(\s*checkpointScreen\.style\.display\s*=\s*("|')none\2\s*\)|\{\s*checkpointScreen\.style\.display\s*=\s*("|')none\3\s*;?\s*\}|\s*checkpointScreen\.style\.display\s*=\s*("|')none\4\s*)\s*,\s*2000\s*\)\s*;?\s*}/s);

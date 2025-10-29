@@ -8,7 +8,7 @@ dashedName: create-a-complex-jsx-element
 
 # --description--
 
-The last challenge was a simple example of JSX, but JSX can represent more complex HTML as well.
+O último desafio foi um exemplo simples de JSX, mas JSX também pode representar HTML mais complexo.
 
 Uma coisa importante a saber sobre JSX aninhado é que ele deve retornar um único elemento.
 
@@ -16,7 +16,7 @@ Este único elemento pai envolveria todos os outros níveis de elementos aninhad
 
 Por exemplo, vários elementos JSX escritos como irmãos sem elemento encapsulador pai não vão transpilar.
 
-Exemplo:
+Aqui está um exemplo:
 
 **JSX válido:**
 
@@ -40,9 +40,9 @@ Exemplo:
 
 Defina uma nova constante `JSX` que renderiza uma `div` a qual contém os elementos a seguir em ordem:
 
-Um `h1`, um `p`, e uma lista não ordenada que contém três itens `li`. Você pode incluir qualquer texto que você quiser dentro de cada elemento.
+Um `h1`, um `p`, e uma lista não ordenada que contém três itens `li`.Você pode incluir qualquer texto que você quiser dentro de cada elemento.
 
-**Observação:** ao renderizar vários elementos como este, você pode envolver todos entre parênteses, mas não é estritamente necessário. Note também que este desafio usa uma tag `div` para encapsular todos os elementos filhos dentro de um único elemento pai. Se você remover a `div`, o JSX não será mais transpilável. Tenha isso em mente, uma vez que ele também será aplicado quando você retornar elementos JSX em componentes React.
+**Nota:** Ao renderizar vários elementos assim, você pode envolvê-los todos em parênteses, mas isso não é estritamente necessário.Note também que este desafio usa uma tag `div` para encapsular todos os elementos filhos dentro de um único elemento pai.Se você remover a `div`, o JSX não será mais transpilável.Tenha isso em mente, uma vez que ele também será aplicado quando você retornar elementos JSX em componentes React.
 
 # --hints--
 

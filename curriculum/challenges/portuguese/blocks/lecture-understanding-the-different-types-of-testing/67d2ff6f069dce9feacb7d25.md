@@ -1,65 +1,65 @@
 ---
 id: 67d2ff6f069dce9feacb7d25
-title: What Is Compatibility Testing?
+title: O que é Teste de Compatibilidade?
 challengeType: 19
 dashedName: what-is-compatibility-testing
 ---
 
 # --description--
 
-When you build out web applications at scale, you will need to think beyond your personal computing environment. How will these applications work on a variety of devices, operating systems, and browsers? Well, this is where compatibility testing comes in.
+Quando você desenvolve aplicações web em larga escala, precisará pensar além do seu ambiente pessoal de computação. Como esses aplicativos funcionarão em uma variedade de dispositivos, sistemas operacionais e navegadores? Bem, é aqui que entra o teste de compatibilidade.
 
-The goal of compatibility testing is to see how well your software works in a variety of different computing environments. This provides the team with the ability to catch bugs before they reach production and will help contribute to a smoother product launch.
+O objetivo do teste de compatibilidade é verificar quão bem seu software funciona em uma variedade de diferentes ambientes de computação. Isso fornece à equipe a capacidade de detectar bugs antes que eles cheguem à produção e ajudará a contribuir para um lançamento de produto mais suave.
 
-Different types of compatibility testing include backwards and forwards compatibility, hardware testing, operating systems, networks, browsers, and mobile devices.
+Diferentes tipos de testes de compatibilidade incluem compatibilidade retroativa e futura, testes de hardware, sistemas operacionais, redes, navegadores e dispositivos móveis.
 
-Let's take a look at each of the types in more detail by starting with backwards and forwards compatibility. Backwards compatibility refers to when current software is compatible with earlier versions. Forwards compatibility is when software and systems will work with future versions of itself.
+Vamos analisar cada um dos tipos com mais detalhes começando pela compatibilidade retroativa e futura. Compatibilidade retroativa refere-se a quando o software atual é compatível com versões anteriores. Compatibilidade futura é quando software e sistemas funcionarão com versões futuras de si mesmos.
 
-The next type of testing is for hardware. Hardware compatibility testing focuses on the software's ability to work properly in different hardware configurations. This includes different types of processors, memory, storage, and graphics cards.
+O próximo tipo de teste é para hardware. O teste de compatibilidade de hardware foca na capacidade do software de funcionar corretamente em diferentes configurações de hardware. Isso inclui diferentes tipos de processadores, memória, armazenamento e placas de vídeo.
 
-Another type of compatibility testing is for operating systems. You don't want to design software that works smoothly on Mac devices but has bugs on Windows or vice versa. You also need to consider Linux distributions like Ubuntu and Fedora.
+Outro tipo de teste de compatibilidade é para sistemas operacionais. Você não quer projetar um software que funcione perfeitamente em dispositivos Mac mas tenha bugs no Windows ou vice-versa. Você também precisa considerar distribuições Linux como Ubuntu e Fedora.
 
-The next type of testing is network compatibility testing. You will have users working with different network speeds, protocols, security settings, and more. Therefore, software teams will need to be mindful of all of those different conditions when testing.
+O próximo tipo de teste é o teste de compatibilidade de rede. Você terá usuários trabalhando com diferentes velocidades de rede, protocolos, configurações de segurança e mais. Portanto, as equipes de software precisarão estar atentas a todas essas diferentes condições ao testar.
 
-Then, there's browser compatibility testing. There are a few popular browsers in the market like Google Chrome, Safari, Firefox, and more. Since all browsers work slightly differently, it's important to test your web application thoroughly and make sure your web applications work consistently across many browsers.
+Então, há o teste de compatibilidade do navegador. Existem alguns navegadores populares no mercado como Google Chrome, Safari, Firefox e mais. Como todos os navegadores funcionam de maneira um pouco diferente, é importante testar sua aplicação web minuciosamente e garantir que suas aplicações web funcionem de forma consistente em vários navegadores.
 
-The last type of testing is mobile testing. There was a time in web development when most developers didn't think about testing for mobile devices. This was because, in the early 2000s, mobile devices weren't nearly as powerful or widely used as they are today. But now, tens of millions of people visit websites on phones and tablets. So, it is important to ensure that your software applications work on a variety of Android and iOS devices.
+O último tipo de teste é o teste móvel. Houve um tempo no desenvolvimento web em que a maioria dos desenvolvedores não pensava em testar para dispositivos móveis. Isso aconteceu porque, no início dos anos 2000, os dispositivos móveis não eram nem de longe tão poderosos ou amplamente usados como são hoje. Mas agora, dezenas de milhões de pessoas visitam sites em telefones e tablets. Portanto, é importante garantir que suas aplicações de software funcionem em uma variedade de dispositivos Android e iOS.
 
-Those are just a few types of testing that you will need to consider when building out your applications. While this might seem like a lot of extra work, it is important to perform compatibility tests because you do want to ensure that your applications work in a variety of computing environments.
+Esses são apenas alguns tipos de testes que você precisará considerar ao desenvolver suas aplicações. Embora isso possa parecer muito trabalho extra, é importante realizar testes de compatibilidade porque você quer garantir que suas aplicações funcionem em uma variedade de ambientes computacionais.
 
 # --questions--
 
 ## --text--
 
-What is the main goal of compatibility testing?
+Qual é o objetivo principal do teste de compatibilidade?
 
 ## --answers--
 
-To ensure that your applications have no accessibility errors.
+Para garantir que suas aplicações não tenham erros de acessibilidade.
 
 ### --feedback--
 
-Refer to the beginning of the lesson where this was discussed.
+Consulte o início da lição onde isso foi discutido.
 
 ---
 
-To ensure that your applications are free from linting and formatting errors.
+Para garantir que suas aplicações estejam livres de erros de linting e formatação.
 
 ### --feedback--
 
-Refer to the beginning of the lesson where this was discussed.
+Consulte o início da lição onde isso foi discutido.
 
 ---
 
-To ensure that your applications work in a variety of computing environments.
+Para garantir que suas aplicações funcionem em uma variedade de ambientes de computação.
 
 ---
 
-To ensure that your applications only work for different Linux distributions.
+Para garantir que suas aplicações funcionem apenas para diferentes distribuições Linux.
 
 ### --feedback--
 
-Refer to the beginning of the lesson where this was discussed.
+Consulte o início da lição onde isso foi discutido.
 
 ## --video-solution--
 
@@ -67,35 +67,35 @@ Refer to the beginning of the lesson where this was discussed.
 
 ## --text--
 
-Which of the following refers to when current software is compatible with earlier versions?
+Qual dos seguintes se refere a quando o software atual é compatível com versões anteriores?
 
 ## --answers--
 
-CPU compatibility
+Compatibilidade da CPU
 
 ### --feedback--
 
-Think about how software will work with older versions.
+Pense em como o software funcionará com versões mais antigas.
 
 ---
 
-Accessible compatibility
+Compatibilidade acessível
 
 ### --feedback--
 
-Think about how software will work with older versions.
+Pense em como o software funcionará com versões mais antigas.
 
 ---
 
-Forwards compatibility
+Compatibilidade futura
 
 ### --feedback--
 
-Think about how software will work with older versions.
+Pense em como o software funcionará com versões mais antigas.
 
 ---
 
-Backwards compatibility
+Compatibilidade retroativa
 
 ## --video-solution--
 
@@ -103,35 +103,35 @@ Backwards compatibility
 
 ## --text--
 
-Which of the following is NOT typically targeted in compatibility testing?
+Qual dos seguintes NÃO é tipicamente alvo em testes de compatibilidade?
 
 ## --answers--
 
-Mobile operating systems
+Sistemas operacionais móveis
 
 ### --feedback--
 
-One of these options refers to computer memory.
+Uma dessas opções se refere à memória do computador.
 
 ---
 
-RAM size
+Tamanho da RAM
 
 ---
 
-Hardware configuration
+Configuração de hardware
 
 ### --feedback--
 
-One of these options refers to computer memory.
+Uma dessas opções se refere à memória do computador.
 
 ---
 
-Network environments
+Ambientes de rede
 
 ### --feedback--
 
-One of these options refers to computer memory.
+Uma dessas opções se refere à memória do computador.
 
 ## --video-solution--
 

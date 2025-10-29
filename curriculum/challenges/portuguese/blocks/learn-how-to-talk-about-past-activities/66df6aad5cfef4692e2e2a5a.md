@@ -12,7 +12,7 @@ Linda: Not yet, but I anticipate we'll start receiving more detailed reports as 
 
 # --instructions--
 
-Ouça o áudio e complete a frase abaixo.
+Ouça o áudio para completar a frase abaixo.
 
 # --fillInTheBlank--
 
@@ -26,7 +26,7 @@ Ouça o áudio e complete a frase abaixo.
 
 ### --feedback--
 
-A word that shows two actions happening at the same time or one action depending on another.
+Uma palavra que mostra duas ações acontecendo ao mesmo tempo ou uma ação dependendo da outra.
 
 ---
 
@@ -34,7 +34,7 @@ A word that shows two actions happening at the same time or one action depending
 
 ### --feedback--
 
-A word that indicates a greater quantity or number.
+Uma palavra que indica uma quantidade ou número maior.
 
 ---
 
@@ -42,7 +42,7 @@ A word that indicates a greater quantity or number.
 
 ### --feedback--
 
-A word that refers to the people navigating the updated interface.
+Uma palavra que se refere às pessoas que navegam na interface atualizada.
 
 ---
 
@@ -50,15 +50,15 @@ A word that refers to the people navigating the updated interface.
 
 ### --feedback--
 
-A word that means to move around or through something, such as a website or an app.
+Uma palavra que significa mover-se ao redor ou através de algo, como um site ou um aplicativo.
 
 # --explanation--
 
-`As` can be used to mean "while" or "when", showing that one action will happen while another action is taking place. Por exemplo:
+`As` pode ser usado para significar "enquanto" ou "quando", mostrando que uma ação acontecerá enquanto outra ação está ocorrendo.Por exemplo:
 
-- `As I was walking home, they called me.` - They called you while you were walking home.
+- `As I was walking home, they called me.` - Eles te chamaram enquanto você estava indo para casa.
 
-- `You will get better at coding as you practice more.` - You will improve while or when you practice more.
+- `You will get better at coding as you practice more.` - Você vai melhorar enquanto ou quando praticar mais.
 
 # --scene--
 

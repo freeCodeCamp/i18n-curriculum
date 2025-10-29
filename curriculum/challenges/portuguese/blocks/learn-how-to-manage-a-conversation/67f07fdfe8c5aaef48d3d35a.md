@@ -1,6 +1,6 @@
 ---
 id: 67f07fdfe8c5aaef48d3d35a
-title: Task 130
+title: Tarefa 130
 challengeType: 19
 dashedName: task-130
 ---
@@ -9,13 +9,13 @@ dashedName: task-130
 
 # --instructions--
 
-Read the text and answer the question below.
+Leia o texto e responda à pergunta abaixo.
 
 # --questions--
 
 ## --text--
 
-After the check-in with Sarah, Brian decides to write to Bob, from management, to update him on the situation.
+Após a reunião com Sarah, Brian decide escrever para Bob, da gerência, para atualizá-lo sobre a situação.
 
 `Subject: Quick Update – Resources, Integration Issues, and Training`
 
@@ -35,35 +35,35 @@ After the check-in with Sarah, Brian decides to write to Bob, from management, t
 
 `Brian`
 
-Based on the `Subject` line, why did Brian write this email?
+Com base na linha `Subject`, por que Brian escreveu este email?
 
 ## --answers--
 
-To give an update about the team's progress and ask for information.
+Para dar uma atualização sobre o progresso da equipe e pedir informações.
 
 ---
 
-To remind management about their last meeting.
+Para lembrar a gerência sobre a última reunião deles.
 
 ### --feedback--
 
-There is no mention of a past meeting between Brian and management.
+Não há menção de uma reunião passada entre Brian e a gerência.
 
 ---
 
-To tell management that the project is almost finished.
+Para informar à gerência que o projeto está quase terminado.
 
 ### --feedback--
 
-The email says there are still some challenges, so the project is not close to being finished.
+O e-mail diz que ainda há alguns desafios, então o projeto não está perto de ser concluído.
 
 ---
 
-To ask Sarah about the new software integration.
+Para perguntar à Sarah sobre a nova integração de software.
 
 ### --feedback--
 
-Brian already spoke to Sarah. He is now sharing that update with management.
+Brian já falou com Sarah.Ele agora está compartilhando essa atualização com a gerência.
 
 ## --video-solution--
 
@@ -71,4 +71,4 @@ Brian already spoke to Sarah. He is now sharing that update with management.
 
 # --explanation--
 
-The `Subject` line normally brings the topics which are going to be dealt with in the body of the message. Read this line to find out the correct answer for this question.
+A linha `Subject` normalmente traz os tópicos que serão tratados no corpo da mensagem.Leia esta linha para descobrir a resposta correta para esta pergunta.

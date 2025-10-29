@@ -8,13 +8,13 @@ dashedName: add-comments-in-jsx
 
 # --description--
 
-JSX is a syntax that gets compiled into valid JavaScript. Sometimes, for readability, you might need to add comments to your code. Like most programming languages, JSX has its own way to do this.
+JSX é uma sintaxe que é compilada em JavaScript válido.Às vezes, por legibilidade, você pode precisar adicionar comentários no seu código.Assim como a maioria das linguagens de programação, JSX possui sua própria forma de fazer isso.
 
 Para colocar comentários dentro de JSX, você usa a sintaxe `{/* */}` para envolver o texto do comentário.
 
 # --instructions--
 
-O editor de código possui um elemento JSX semelhante ao que você criou no último desafio. Adicione um comentário em algum lugar dentro do elemento `div` fornecido, sem modificar os elementos existentes `h1` ou `p`.
+O editor de código possui um elemento JSX semelhante ao que você criou no último desafio.Adicione um comentário em algum lugar dentro do elemento `div` fornecido, sem modificar os elementos existentes `h1` ou `p`.
 
 # --hints--
 
@@ -24,7 +24,7 @@ A constante `JSX` deve retornar um elemento `div`.
 assert(JSX.type === 'div');
 ```
 
-O `div` deve conter uma tag `h1` como o primeiro elemento.
+A `div` deve conter uma tag `h1` como o primeiro elemento.
 
 ```js
 assert(JSX.props.children[0].type === 'h1');

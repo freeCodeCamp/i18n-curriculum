@@ -1,15 +1,15 @@
 ---
 id: 5dfa30b9eacea3f48c6300ad
-title: Step 17
+title: Passo 17
 challengeType: 0
 dashedName: step-17
 ---
 
 # --description--
 
-In previous steps, you used an anchor element to turn text into a link. Other types of content can also be turned into a link by wrapping it in anchor tags.
+Em etapas anteriores, você usou um elemento anchor para transformar texto em um link. Outros tipos de conteúdo também podem ser transformados em um link envolvendo-os em tags anchor. 
 
-Here is an example of turning an image into a link:
+Aqui está um exemplo de como transformar uma imagem em um link:
 
 ```html
 <a href="example-link">
@@ -17,11 +17,11 @@ Here is an example of turning an image into a link:
 </a>
 ```
 
-Turn the image into a link by surrounding it with necessary element tags. Use `https://freecatphotoapp.com` as the anchor's `href` attribute value.
+Transforme a imagem em um link, envolvendo-a com as tags dos elementos necessários.Use `https://freecatphotoapp.com` como valor do atributo `href` do elemento de âncora.
 
 # --hints--
 
-You should have an `img` element with a `src` value of `https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg`. You may have accidentally deleted it.
+O valor do atributo `src` do elemento `img` deve estar definido como `https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg`.Você pode tê-lo excluído acidentalmente.
 
 ```js
 assert.equal(
@@ -30,37 +30,37 @@ assert.equal(
 );
 ```
 
-Your anchor (`a`) element should have an opening tag. Opening tags have this syntax: `<elementName>`.
+O elemento de âncora (`a`) deve ter uma tag de abertura.As tags de abertura têm essa sintaxe: `<elementName>`.
 
 ```js
 assert.isAtLeast(document.querySelectorAll('a').length, 3);
 ```
 
-You are missing a closing (`a`) tag after the image.
+Está faltando uma tag de fechamento (`a`) após a imagem.
 
 ```js
 assert.lengthOf(document.querySelectorAll('a'), 3);
 ```
 
-Your anchor (`a`) element should have a closing tag. Closing tags have a `/` just after the `<` character.
+O elemento de âncora (`a`) deve ter uma tag de fechamento.As tags de fechamento têm um caractere `/` logo após o caractere `<`.
 
 ```js
 assert.isAtLeast(code.match(/<\/a>/g)?.length, 3);
 ```
 
-You should only add one closing anchor (`a`) tag. Please remove any extras.
+Você deve adicionar apenas uma tag de fechamento para o elemento de âncora (`a`).Remova as tags adicionais.
 
 ```js
 assert.lengthOf(code.match(/<\/a>/g), 3);
 ```
 
-Your anchor (`a`) element does not have an `href` attribute. Check that there is a space after the opening tag's name and/or there are spaces before all attribute names.
+O elemento de âncora (`a`) não tem um atributo `href`.Verifique se há um espaço depois do nome da tag de abertura e/ou se há espaços antes de todos os nomes dos atributos.
 
 ```js
 assert.isTrue(document.querySelectorAll('a')[2]?.hasAttribute('href'));
 ```
 
-Your anchor (`a`) element should link to `https://freecatphotoapp.com`. You have either omitted the URL or have a typo.
+O elemento de âncora (`a`) deve fazer um link para `https://freecatphotoapp.com`.Você omitiu o URL ou tem um erro de digitação.
 
 ```js
 assert.equal(
@@ -69,7 +69,7 @@ assert.equal(
 );
 ```
 
-Your `img` element should be nested within the anchor (`a`) element. The entire `img` element should be inside the opening and closing tags of the anchor (`a`) element.
+O elemento `img` deve estar dentro do elemento de âncora (`a`).Todo o elemento `img` deve estar dentro das tags de abertura e fechamento do elemento de âncora (`a`).
 
 ```js
 assert.equal(document.querySelector('img')?.parentNode.nodeName, 'A');

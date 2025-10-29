@@ -1,6 +1,6 @@
 ---
 id: 677d3b8fac17ba6cbf3d8afa
-title: Task 3
+title: Tarefa 3
 challengeType: 22
 dashedName: task-3
 ---
@@ -9,7 +9,7 @@ dashedName: task-3
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Ouça o áudio para completar a frase abaixo.
 
 # --fillInTheBlank--
 
@@ -23,7 +23,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This is the `-ing` form of the verb `say`, used after the preposition `by` to indicate the method of starting.
+Esta é a forma `-ing` do verbo `say`, usada após a preposição `by` para indicar o método de início.
 
 ---
 
@@ -31,17 +31,17 @@ This is the `-ing` form of the verb `say`, used after the preposition `by` to in
 
 ### --feedback--
 
-This stands for `Quality Assurance`, referring to the process of ensuring products meet required standards.
+Isso significa `Quality Assurance`, referindo-se ao processo de garantir que os produtos atendam aos padrões exigidos.
 
 # --explanation--
 
-When a verb follows a preposition, it must take the `-ing` form (gerund). In this sentence, `saying` follows the preposition `by`, indicating the method Bob uses to start his statement. For example:
+Quando um verbo segue uma preposição, ele deve estar na forma `-ing` (gerúndio).Nesta frase, `saying` segue a preposição `by`, indicando o método que Bob usa para iniciar sua declaração.Por exemplo:
 
-`She improved her skills by practicing regularly.` - Here, `practicing` follows the preposition `by`, showing how she improved her skills.
+Ela melhorou suas habilidades praticando regularmente. - Aqui, `practicing` segue a preposição `by`, mostrando como ela melhorou suas habilidades.
 
-Bob compliments Jessica for her work in `QA`. `QA` stands for `Quality Assurance`. It refers to the process of ensuring that products or services meet specific quality standards and function correctly. Another example:
+Bob elogia Jessica pelo seu trabalho em `QA`. `QA` significa `Quality Assurance`.Refere-se ao processo de garantir que produtos ou serviços atendam a padrões específicos de qualidade e funcionem corretamente.Outro exemplo:
 
-`The QA team identified several bugs during testing.` - This means that the people responsible for making sure the quality of the software is good managed to detect bugs in the software before its release.
+`The QA team identified several bugs during testing.` - Isso significa que as pessoas responsáveis por garantir a qualidade do software conseguiram detectar bugs no software antes do seu lançamento.
 
 # --scene--
 

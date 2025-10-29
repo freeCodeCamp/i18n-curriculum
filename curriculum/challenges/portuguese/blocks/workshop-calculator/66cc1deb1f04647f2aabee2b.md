@@ -7,17 +7,17 @@ dashedName: step-15
 
 # --description--
 
-Se você olhar no console, verá o valor `Infinity`. `Infinity` é um valor especial em JavaScript que representa um número maior que qualquer outro número.
+Se você olhar no console, verá o valor `Infinity`. `Infinity` é um valor especial em JavaScript que representa um número maior do que qualquer outro número.
 
 A divisão por zero não é uma operação válida na matemática.
 
-Para tratar este caso limite, você deve atualizar a função `calculateQuotient` para verificar se `num2` é zero.
+Para tratar este caso limite, você deve atualizar a função `calculateQuotient` para verificar se `num2` é zero. 
 
-If it is, the function should return the string `"Error: Division by zero"`. Caso contrário, deve retornar o resultado da divisão de `num1` por `num2`.
+Se for, a função deve retornar a string `"Error: Division by zero"`. Caso contrário, deve retornar o resultado da divisão de `num1` por `num2`.
 
 # --hints--
 
-Your `calculateQuotient` function should return the string `"Error: Division by zero"` if `num2` is zero.
+Sua função `calculateQuotient` deve retornar a string `"Error: Division by zero"` se `num2` for zero. 
 
 ```js
 assert.strictEqual(calculateQuotient(10, 0), 'Error: Division by zero');

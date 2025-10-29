@@ -1,6 +1,6 @@
 ---
 id: 67baf3ed288e8b06f4ab0dfb
-title: Task 76
+title: Tarefa 76
 challengeType: 22
 dashedName: task-76
 ---
@@ -9,7 +9,7 @@ dashedName: task-76
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Ouça o áudio para completar a frase abaixo.
 
 # --fillInTheBlank--
 
@@ -21,23 +21,23 @@ Listen to the audio and complete the sentence below.
 
 `team spirit`
 
-### --feedback--
+### --feedback--  
 
-These two words together refer to the sense of unity and cooperation among coworkers. The first word refers to a group working together, and the second word relates to shared enthusiasm or motivation.
+Essas duas palavras juntas referem-se ao senso de unidade e cooperação entre os colegas de trabalho.A primeira palavra se refere a um grupo trabalhando junto e a segunda palavra está relacionada ao entusiasmo ou motivação compartilhados.
 
 ---
 
 `problem-solving`
 
-### --feedback--
+### --feedback--  
 
-This compound word refers to the process of finding solutions to challenges. The first part refers to an issue that needs to be fixed, and the second part is a verb meaning finding a solution. Remember to use `-` between the two parts.
+Esta palavra composta refere-se ao processo de encontrar soluções para desafios.A primeira parte refere-se a um problema que precisa ser corrigido e a segunda parte é um verbo que significa encontrar uma solução. Remember to use `-` between the two parts.
 
 # --explanation--
 
-David believes that working in the office helps strengthen `team spirit` (a sense of connection and unity among coworkers) and improves `problem-solving` (finding solutions to challenges more efficiently).
+David acredita que trabalhar no escritório ajuda a fortalecer o `team spirit` (um senso de conexão e unidade entre os colegas de trabalho) e melhora o `problem-solving` (encontrar soluções para desafios de forma mais eficiente).
 
-He argues that being in the same physical space makes it easier for employees to collaborate and support one another.
+Ele argumenta que estar no mesmo espaço físico facilita para os funcionários colaborarem e se apoiarem.
 
 # --scene--
 

@@ -1,6 +1,6 @@
 ---
 id: 68bb001c22f3bcbd1fdf38fa
-title: Task 1
+title: Tarefa 1
 challengeType: 19
 dashedName: task-1
 ---
@@ -9,17 +9,18 @@ dashedName: task-1
 
 # --description--
 
-Elena wants to say "hi". You'll hear this word all the time in Spanish when people meet each other.
+Elena quer dizer "hi". Você ouvirá essa palavra o tempo todo em espanhol quando as pessoas se encontram.
 
 # --instructions--
 
-Listen to the audio and answer the question below. There's just **one** correct answer. If you need help, click on **explanation** at the bottom of the lesson.
+Ouça o áudio e responda à pergunta abaixo.  
+Há apenas **uma** resposta correta. Se precisar de ajuda, clique em **explanation** na parte inferior da lição.
 
 # --questions--
 
 ## --text--
 
-What word does Elena use to say "hi"?
+Que palavra Elena usa para dizer "hi"?
 
 ## --answers--
 
@@ -31,7 +32,7 @@ What word does Elena use to say "hi"?
 
 ### --feedback--
 
-This means the opposite of what the speaker says. Open the explanation section if you need further help.
+Isso significa o oposto do que o locutor diz. Abra a seção de explicação se precisar de mais ajuda.
 
 ---
 
@@ -39,7 +40,7 @@ This means the opposite of what the speaker says. Open the explanation section i
 
 ### --feedback--
 
-This means the opposite of what the speaker says. Open the explanation section if you need further help.
+Isso significa o oposto do que o locutor diz. Abra a seção de explicação se precisar de mais ajuda.
 
 ---
 
@@ -47,7 +48,7 @@ This means the opposite of what the speaker says. Open the explanation section i
 
 ### --feedback--
 
-This means "Good morning", but it's not what you hear in the audio.
+Isso significa "Good morning", mas não é o que você ouve no áudio.
 
 ## --video-solution--
 
@@ -55,9 +56,9 @@ This means "Good morning", but it's not what you hear in the audio.
 
 # --explanation--
 
-The word `Hola` is a greeting. It is used when you meet someone, similar to "Hello" or "Hi". For example:
+A palavra `Hola` é uma saudação. É usada quando você encontra alguém, semelhante a "Hello" ou "Hi". Por exemplo:
 
-`¡Hola, buenos días!` – Hi, good morning!
+`¡Hola, buenos días!` – Olá, bom dia! 
 
 # --scene--
 

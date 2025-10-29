@@ -1,6 +1,6 @@
 ---
 id: 657b2fc9c0f96bdfddfce4d9
-title: Task 90
+title: Tarefa 90
 challengeType: 22
 dashedName: task-90
 ---
@@ -9,11 +9,11 @@ dashedName: task-90
 
 # --description--
 
-To `pique one's interest` means to make someone curious or make them want to know more. You use it when something catches your attention and makes you interested. For example:
+Significa `pique one's interest` despertar a curiosidade de alguém ou fazer com que queira saber mais. Você usa quando algo chama sua atenção e faz você se interessar. Por exemplo:
 
-- `The new AI tool really piqued my interest.` - It made you curious, and you wanted to learn more about it.
+- `The new AI tool really piqued my interest.` - Isso fez você ficar curioso e querer aprender mais sobre ele.
 
-- `Her presentation on cybersecurity piqued the team's interest.` - The team became more curious and wanted to know more.
+- `Her presentation on cybersecurity piqued the team's interest.` - A equipe ficou mais curiosa e quis saber mais.
 
 # --fillInTheBlank--
 
@@ -27,7 +27,7 @@ To `pique one's interest` means to make someone curious or make them want to kno
 
 ### --feedback--
 
-This word refers to the action of participating in or completing a course. You should correctly use its past form.
+Esta palavra se refere à ação de participar ou completar um curso. Você deve usar corretamente sua forma no passado.
 
 ---
 
@@ -35,7 +35,7 @@ This word refers to the action of participating in or completing a course. You s
 
 ### --feedback--
 
-This word describes the study of the mind and behavior, particularly in a workplace setting in this context.
+Esta palavra descreve o estudo da mente e do comportamento, particularmente em um ambiente de trabalho neste contexto.
 
 ---
 
@@ -43,7 +43,7 @@ This word describes the study of the mind and behavior, particularly in a workpl
 
 ### --feedback--
 
-This word means to arouse or stimulate interest or curiosity. You should correctly use its past form.
+Esta palavra significa despertar ou estimular interesse ou curiosidade. Você deve usar corretamente sua forma no passado.
 
 # --scene--
 

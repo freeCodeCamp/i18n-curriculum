@@ -1,13 +1,13 @@
 ---
 id: 66ed8fedf45ce3ece4053eb3
-title: CSS Grid Quiz
+title: Questionário de grid no CSS
 challengeType: 8
 dashedName: quiz-css-grid
 ---
 
 # --description--
 
-To pass the quiz, you must correctly answer at least 18 of the 20 questions below.
+Para passar no quiz, você deve responder corretamente pelo menos 18 das 20 perguntas abaixo.
 
 # --quizzes--
 
@@ -17,29 +17,29 @@ To pass the quiz, you must correctly answer at least 18 of the 20 questions belo
 
 #### --text--
 
-What is CSS Grid?
+O que é CSS Grid?
 
 #### --distractors--
 
-A method used for displaying tables on a website.
+Um método usado para exibir tabelas em um site.
 
 ---
 
-A method used for tiling images.
+Um método usado para mosaicar imagens.
 
 ---
 
-A way to display outlines around HTML elements.
+Uma forma de exibir contornos ao redor dos elementos HTML.
 
 #### --answer--
 
-A two-dimensional layout for HTML documents.
+Um layout bidimensional para documentos HTML.
 
 ### --question--
 
 #### --text--
 
-Which of the following is the correct way to create a grid container?
+Qual das seguintes é a maneira correta de criar um grid container?
 
 #### --distractors--
 
@@ -61,73 +61,73 @@ Which of the following is the correct way to create a grid container?
 
 #### --text--
 
-What does the `grid-template-columns` property do?
+O que a propriedade `grid-template-columns` faz?
 
 #### --distractors--
 
-Defines two columns and three rows for a grid container.
+Define duas colunas e três linhas para um contêiner de grid.
 
 ---
 
-Sets all columns for the grid layout to a fixed length.
+Define todas as colunas do layout da grade para um comprimento fixo.
 
 ---
 
-Creates a two column grid layout container.
+Cria um contêiner de layout em grade com duas colunas.
 
 #### --answer--
 
-Defines the number of columns in a grid layout.
+Define o número de colunas em um layout de grade.
 
 ### --question--
 
 #### --text--
 
-What does the `grid-template-rows` property do?
+O que a propriedade `grid-template-rows` faz?
 
 #### --distractors--
 
-Specifies a grid item's size and location in a grid layout.
+Especifica o tamanho e a localização de um item da grade em um layout de grade.
 
 ---
 
-Creates a template for creating new grid rows.
+Cria um template para criar novas linhas de grade.
 
 ---
 
-Specifies a default row size in the grid container.
+Especifica um tamanho padrão de linha no contêiner da grade.
 
 #### --answer--
 
-Specifies the number and height for each row in a grid layout.
+Especifica o número e a altura de cada linha em um layout de grade.
 
 ### --question--
 
 #### --text--
 
-What does the `minmax()` function do?
+O que a função `minmax()` faz?
 
 #### --distractors--
 
-Toggles between the first and second value, depending on available space.
+Alterna entre o primeiro e o segundo valor, dependendo do espaço disponível.
 
 ---
 
-Returns the average of the two inputs.
+Retorna a média das duas entradas.
 
 ---
 
-Sets the minimal size of the element for browser working in full-screen mode.
+Define o tamanho mínimo do elemento para o navegador funcionando em modo de tela cheia.
 
 #### --answer--
 
-Sets the minimum and maximum sizes for a track.
+Define os tamanhos mínimo e máximo para uma track.
 
 ### --question--
 
 #### --text--
 
-What is the shorthand for the `column-gap` and `row-gap` properties?
+Qual é a forma abreviada para as propriedades `column-gap` e `row-gap`?
 
 #### --distractors--
 
@@ -149,29 +149,29 @@ What is the shorthand for the `column-gap` and `row-gap` properties?
 
 #### --text--
 
-What is the difference between an implicit and explicit grid?
+Qual é a diferença entre uma grade implícita e explícita?
 
 #### --distractors--
 
-Implicit grids use the `grid-template-columns` property while explicit grids use the `grid-template-rows` property.
+Grades implícitas usam a propriedade `grid-template-columns` enquanto grades explícitas usam a propriedade `grid-template-rows`.
 
 ---
 
-Explicit grids use the `grid-template-columns` property while implicit grids use the `grid-template-rows` property.
+Grades explícitas usam a propriedade `grid-template-columns` enquanto grades implícitas usam a propriedade `grid-template-rows`.
 
 ---
 
-Implicit grids use the `grid-template-columns` or `grid-template-rows` properties to create columns while rows and columns are automatically created in explicit grids.
+Grades implícitas usam as propriedades `grid-template-columns` ou `grid-template-rows` para criar colunas enquanto linhas e colunas são criadas automaticamente em grades explícitas.
 
 #### --answer--
 
-Explicit grids use the `grid-template-columns` or `grid-template-rows` properties to create columns while rows and columns are automatically created in implicit grids.
+Grades explícitas usam as propriedades `grid-template-columns` ou `grid-template-rows` para criar colunas enquanto linhas e colunas são criadas automaticamente em grades implícitas.
 
 ### --question--
 
 #### --text--
 
-Which of the following units represents a fraction of the space within the grid container?
+Qual das seguintes unidades representa uma fração do espaço dentro do contêiner da grade?
 
 #### --distractors--
 
@@ -193,51 +193,51 @@ Which of the following units represents a fraction of the space within the grid 
 
 #### --text--
 
-What are grid lines?
+O que são linhas de grade?
 
 #### --distractors--
 
-Shorthand for rows and columns.
+Forma abreviada para linhas e colunas.
 
 ---
 
-Outlines of a grid element.
+Contornos de um elemento de grade.
 
 ---
 
-Lines along which grid columns and rows are created.
+Linhas ao longo das quais colunas e linhas da grade são criadas.
 
 #### --answer--
 
-Lines on which each of the grid items begin and end.
+Linhas nas quais cada um dos itens da grade começa e termina.
 
 ### --question--
 
 #### --text--
 
-What does the `grid-column` property do?
+O que a propriedade `grid-column` faz?
 
 #### --distractors--
 
-Adds a new grid element as a child of the element it's applied to.
+Adiciona um novo elemento de grade como filho do elemento ao qual ele é aplicado.
 
 ---
 
-Aligns text in the grid item vertically.
+Alinha o texto no item da grade verticalmente.
 
 ---
 
-Sets two columns for a grid container.
+Define duas colunas para um contêiner de grade.
 
 #### --answer--
 
-Tells the grid item on which grid line it should start and end at.
+Informa ao item da grade em qual linha da grade ele deve começar e terminar.
 
 ### --question--
 
 #### --text--
 
-How do you create four columns of equal width?
+Como você cria quatro colunas de largura igual?
 
 #### --distractors--
 
@@ -259,51 +259,51 @@ How do you create four columns of equal width?
 
 #### --text--
 
-What does the `grid-template-areas` property do?
+O que a propriedade `grid-template-areas` faz?
 
 #### --distractors--
 
-It is used to specify where the item begins on a line in the grid container.
+É usado para especificar onde o item começa em uma linha no contêiner de grade.
 
 ---
 
-It is used to create gaps between tracks in the container.
+É usado para criar espaços entre as faixas no contêiner.
 
 ---
 
-It is used to repeat sections in the track listing.
+É usado para repetir seções na lista de faixas. 
 
 #### --answer--
 
-It is used to provide a name for the items you are going to position on the grid.
+É usado para fornecer um nome para os itens que você vai posicionar na grade.
 
 ### --question--
 
 #### --text--
 
-What does the `grid-auto-flow` property do?
+O que a propriedade `grid-auto-flow` faz?
 
 #### --distractors--
 
-Controls the order in which grid items are displayed.
+Controla a ordem em que os itens da grade são exibidos.
 
 ---
 
-Adjusts the spacing between the grid elements.
+Ajusta o espaçamento entre os elementos da grade.
 
 ---
 
-Automatically adjusts the element to fit in the grid.
+Ajusta automaticamente o elemento para caber na grade.
 
 #### --answer--
 
-Controls how auto-placed elements get inserted to the grid.
+Controla como os elementos auto-posicionados são inseridos na grade.
 
 ### --question--
 
 #### --text--
 
-Which of the following is the correct way to use the `grid-template-areas` property?
+Qual das seguintes é a maneira correta de usar a propriedade `grid-template-areas`?
 
 #### --distractors--
 
@@ -368,7 +368,7 @@ Which of the following is the correct way to use the `grid-template-areas` prope
 
 #### --text--
 
-Which of the following is the correct way to work with the `grid-auto-flow` property?
+Qual das seguintes é a maneira correta de trabalhar com a propriedade `grid-auto-flow`?
 
 #### --distractors--
 
@@ -418,7 +418,7 @@ Which of the following is the correct way to work with the `grid-auto-flow` prop
 
 #### --text--
 
-Which of the following is NOT a valid grid property?
+Qual dos seguintes NÃO é uma propriedade válida de grid?
 
 #### --distractors--
 
@@ -440,7 +440,7 @@ Which of the following is NOT a valid grid property?
 
 #### --text--
 
-Which of these properties can be used to center items inside a grid element?
+Quais dessas propriedades podem ser usadas para centralizar itens dentro de um elemento grid?
 
 #### --distractors--
 
@@ -462,7 +462,7 @@ Which of these properties can be used to center items inside a grid element?
 
 #### --text--
 
-Which of the following is a correct value to use with the `grid-auto-columns` property?
+Qual dos seguintes é um valor correto para usar com a propriedade `grid-auto-columns`?
 
 #### --distractors--
 
@@ -484,29 +484,29 @@ Which of the following is a correct value to use with the `grid-auto-columns` pr
 
 #### --text--
 
-What are grid tracks?
+O que são grid tracks?
 
 #### --distractors--
 
-Shorthand for rows and columns.
+Forma abreviada para linhas e colunas.
 
 ---
 
-Lines along which you can animate movement of the grid items.
+Linhas ao longo das quais você pode animar o movimento dos itens da grade.
 
 ---
 
-Lines on which each of the grid items begins and ends.
+Linhas nas quais cada um dos itens da grade começa e termina.
 
 #### --answer--
 
-Spaces between two adjacent grid lines.
+Espaços entre duas linhas de grade adjacentes.
 
 ### --question--
 
 #### --text--
 
-Which of the following is the correct way to use the `minmax()` function?
+Qual das seguintes é a maneira correta de usar a função `minmax()`?
 
 #### --distractors--
 
@@ -554,51 +554,51 @@ Which of the following is the correct way to use the `minmax()` function?
 
 #### --text--
 
-How do you position a grid item within a layout defined by `grid-template-areas`?
+Como você posiciona um item da grade dentro de um layout definido por `grid-template-areas`?
 
 #### --distractors--
 
-By directly defining the item's size and location within the grid using `grid-template-rows` and `grid-template-columns`.
+Definindo diretamente o tamanho e a localização do item dentro da grade usando `grid-template-rows` e `grid-template-columns`.
 
 ---
 
-By using the `grid-area` property and specifying both row and column start and end positions.
+Ao usar a propriedade `grid-area` e especificar as posições de início e fim tanto da linha quanto da coluna.
 
 ---
 
-By setting both `grid-area` and explicit pixel coordinates.
+Ao definir tanto `grid-area` quanto coordenadas explícitas em pixels.
 
 #### --answer--
 
-By assigning the named area to the item's `grid-area` property.
+Ao atribuir a área nomeada à propriedade `grid-area` do item.
 
 ### --question--
 
 #### --text--
 
-What does the `grid-auto-rows` property control?
+O que a propriedade `grid-auto-rows` controla?
 
 #### --distractors--
 
-The height of explicitly defined rows.
+A altura das linhas definidas explicitamente.
 
 ---
 
-The maximum width of grid columns.
+A largura máxima das colunas da grade.
 
 ---
 
-The spacing between rows.
+O espaçamento entre linhas.
 
 #### --answer--
 
-The size of implicitly created rows.
+O tamanho das linhas criadas implicitamente.
 
 ### --question--
 
 #### --text--
 
-Which property would you use to make a grid item span multiple rows?
+Qual propriedade você usaria para fazer um item de grade abranger várias linhas?
 
 #### --distractors--
 
@@ -620,29 +620,29 @@ Which property would you use to make a grid item span multiple rows?
 
 #### --text--
 
-What defines an explicit grid?
+O que define uma grade explícita?
 
 #### --distractors--
 
-Tracks created automatically to fit content.
+Faixas criadas automaticamente para ajustar o conteúdo.
 
 ---
 
-Tracks defined by the `fr` unit.
+Faixas definidas pela unidade `fr`.
 
 ---
 
-Tracks added with `grid-auto-flow`.
+Tracks adicionadas com `grid-auto-flow`.
 
 #### --answer--
 
-Tracks explicitly set by `grid-template-columns` or `grid-template-rows`.
+Tracks explicitamente definidos por `grid-template-columns` ou `grid-template-rows`.
 
 ### --question--
 
 #### --text--
 
-Which value for `grid-auto-flow` would make new items fill columns first?
+Qual valor para `grid-auto-flow` faria com que novos itens preenchessem as colunas primeiro?
 
 #### --distractors--
 
@@ -664,29 +664,29 @@ Which value for `grid-auto-flow` would make new items fill columns first?
 
 #### --text--
 
-What is the purpose of `grid-template-areas`?
+Qual é o propósito de `grid-template-areas`?
 
 #### --distractors--
 
-To auto-generate implicit tracks.
+Para auto-gerar faixas implícitas.
 
 ---
 
-To replace the `fr` unit.
+Para substituir a unidade `fr`.
 
 ---
 
-To set `z-index` values.
+Para definir valores de `z-index`.
 
 #### --answer--
 
-To visually map items to named grid areas.
+Para mapear visualmente itens para áreas nomeadas da grade.
 
 ### --question--
 
 #### --text--
 
-How can you make a grid item start at column line 2 and end at column line 4?
+Como você pode fazer um item da grade começar na linha da coluna 2 e terminar na linha da coluna 4?
 
 #### --distractors--
 
@@ -708,29 +708,29 @@ How can you make a grid item start at column line 2 and end at column line 4?
 
 #### --text--
 
-What is the effect of `grid-template-columns: 1fr 2fr 1fr`?
+Qual é o efeito de `grid-template-columns: 1fr 2fr 1fr`?
 
 #### --distractors--
 
-Creates three equal-width columns.
+Cria três colunas de largura igual.
 
 ---
 
-Makes the middle column three times as wide as the others.
+Torna a coluna do meio três vezes mais larga que as outras.
 
 ---
 
-Forces all columns to be exactly `1fr` wide.
+Força todas as colunas a terem exatamente `1fr` de largura.
 
 #### --answer--
 
-Creates three columns where the middle is twice as wide as the sides.
+Cria três colunas onde a do meio é duas vezes mais larga que as laterais.
 
 ### --question--
 
 #### --text--
 
-How would you create a grid with 3 equal columns and a `20px` gap between them?
+Como você criaria uma grade com 3 colunas iguais e um espaçamento de `20px` entre elas?
 
 #### --distractors--
 
@@ -773,73 +773,73 @@ How would you create a grid with 3 equal columns and a `20px` gap between them?
 
 #### --text--
 
-What does `repeat(3, minmax(100px, 1fr))` create?
+O que `repeat(3, minmax(100px, 1fr))` cria?
 
 #### --distractors--
 
-Three columns that can't shrink below `100px`.
+Três colunas que não podem encolher abaixo de `100px`.
 
 ---
 
-Three fixed `100px` columns.
+Três colunas fixas de `100px`.
 
 ---
 
-Three rows with maximum height of `1fr`.
+Três linhas com altura máxima de `1fr`.
 
 #### --answer--
 
-Three columns that grow proportionally but won't shrink below `100px`.
+Três colunas que crescem proporcionalmente mas não encolhem abaixo de `100px`.
 
 ### --question--
 
 #### --text--
 
-Which statement about implicit grids is true?
+Qual afirmação sobre grids implícitos é verdadeira?
 
 #### --distractors--
 
-Implicit grids ignore the `gap` property.
+Grades implícitas ignoram a propriedade `gap`.
 
 ---
 
-Implicit tracks must be defined with `grid-template-areas`.
+As tracks implícitas devem ser definidas com `grid-template-areas`.
 
 ---
 
-Implicit tracks can only be created using the `grid-auto-flow` property.
+Faixas implícitas só podem ser criadas usando a propriedade `grid-auto-flow`.
 
 #### --answer--
 
-Implicit tracks are created when content doesn't fit explicit tracks.
+Faixas implícitas são criadas quando o conteúdo não cabe em faixas explícitas.
 
 ### --question--
 
 #### --text--
 
-What does the `place-items` property do in CSS Grid?
+O que a propriedade `place-items` faz no CSS Grid?
 
 #### --distractors--
 
-It sets the size of grid items automatically based on available space.
+Define automaticamente o tamanho dos itens da grade com base no espaço disponível.
 
 ---
 
-It controls the grid template's column and row definitions.
+Ele controla as definições de colunas e linhas do template da grade.
 
 ---
 
-It adjusts the order of grid items within the container.
+Ele ajusta a ordem dos itens da grade dentro do contêiner.
 
 #### --answer--
 
-It is a shorthand for aligning grid items in both the block and inline axes.
+É uma forma abreviada de alinhar itens da grade tanto no eixo de bloco quanto no eixo inline.
 
 ### --question--
 
 #### --text--
 
-What does this CSS accomplish?
+O que este CSS realiza?
 
 ```css
 .container {
@@ -849,69 +849,69 @@ What does this CSS accomplish?
 
 #### --distractors--
 
-Creates fixed `150px` columns that overflow the container.
+Cria colunas fixas de `150px` que transbordam o contêiner.
 
 ---
 
-Creates columns that are exactly `1fr` wide regardless of content.
+Cria colunas que têm exatamente `1fr` de largura independentemente do conteúdo.
 
 ---
 
-Creates a maximum of one column per `150px` of available width.
+Cria no máximo uma coluna por `150px` de largura disponível.
 
 #### --answer--
 
-Creates flexible columns that are at least `150px` and collapse when space is limited.
+Cria colunas flexíveis que têm pelo menos `150px` e colapsam quando o espaço é limitado.
 
 ### --question--
 
 #### --text--
 
-How can you create asymmetric grid layouts?
+Como você pode criar layouts de grade assimétricos?
 
 #### --distractors--
 
-By using only `fr` units.
+Usando apenas unidades `fr`.
 
 ---
 
-By mixing different length units in `grid-template-columns`.
+Misturando unidades de comprimento diferentes em `grid-template-columns`.
 
 ---
 
-By setting `grid-asymmetric: true`.
+Ao definir `grid-asymmetric: true`.
 
 #### --answer--
 
-By defining different sizes for each track.
+Definindo tamanhos diferentes para cada track.
 
 ### --question--
 
 #### --text--
 
-What does `grid-column-start: 2` do to a grid item?
+O que `grid-column-start: 2` faz em um item da grade?
 
 #### --distractors--
 
-Makes it span 2 columns.
+Faz com que ocupe 2 colunas.
 
 ---
 
-Offsets it by 2 pixels.
+Desloca-o em 2 pixels.
 
 ---
 
-Positions it starting at the second vertical grid line.
+Posiciona-o começando na segunda linha da grade vertical.
 
 #### --answer--
 
-Makes it start at the second column line.
+Faz começar na linha da segunda coluna.
 
 ### --question--
 
 #### --text--
 
-Which property would you use to control overflow behavior in grid tracks?
+Qual propriedade você usaria para controlar o comportamento de overflow em grid tracks?
 
 #### --distractors--
 
@@ -933,7 +933,7 @@ Which property would you use to control overflow behavior in grid tracks?
 
 #### --text--
 
-What will be the result for the following code?
+Qual será o resultado para o seguinte código?
 
 ```css
 .container {
@@ -946,25 +946,25 @@ What will be the result for the following code?
 
 #### --distractors--
 
-The container will have three columns of equal width, and two rows with `150px` height each.
+O container terá três colunas de largura igual e duas linhas com altura de `150px` cada.
 
 ---
 
-The container will have three columns, all with `100px` width, and two rows with `150px` height.
+O container terá três colunas, todas com largura de `100px` e duas linhas com altura de `150px`.
 
 ---
 
-The container will have two rows, each with a height of `1fr`.
+O container terá duas linhas, cada uma com altura de `1fr`.
 
 #### --answer--
 
-The container will have three columns: 100px, `1fr` and `2fr` wide and two rows: one auto and one with `150px` height.
+O container terá três colunas: 100px, `1fr` e `2fr` de largura e duas linhas: uma auto e uma com altura de `150px`.
 
 ### --question--
 
 #### --text--
 
-How would you make a grid item span all available rows?
+Como você faria para que um item da grade (`grid item`) ocupe todas as linhas disponíveis?
 
 #### --distractors--
 
@@ -986,7 +986,7 @@ How would you make a grid item span all available rows?
 
 #### --text--
 
-Which property controls the alignment of grid items along the block axis?
+Qual propriedade controla o alinhamento dos itens da grade ao longo do eixo do bloco?
 
 #### --distractors--
 
@@ -1008,7 +1008,7 @@ Which property controls the alignment of grid items along the block axis?
 
 #### --text--
 
-How can you ensure a grid item stays in the first column regardless of grid changes?
+Como você pode garantir que um item da grade permaneça na primeira coluna independentemente das alterações na grade?
 
 #### --distractors--
 

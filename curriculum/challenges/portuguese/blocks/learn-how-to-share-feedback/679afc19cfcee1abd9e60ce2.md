@@ -1,6 +1,6 @@
 ---
 id: 679afc19cfcee1abd9e60ce2
-title: Task 61
+title: Tarefa 61
 challengeType: 19
 dashedName: task-61
 ---
@@ -9,41 +9,41 @@ dashedName: task-61
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Ouça o áudio e responda a pergunta abaixo.
 
 # --questions--
 
 ## --text--
 
-What does Brian think might happen if we don't listen to those in the team who disagree?
+O que Brian acha que pode acontecer se não ouvirmos aqueles na equipe que discordam?
 
 ## --answers--
 
-They might lose motivation.
+Eles podem perder a motivação.
 
 ---
 
-They will stop having disagreements.
+Eles vão parar de ter desentendimentos.
 
 ### --feedback--
 
-Ignoring people's opinions does not stop disagreements; it might just make people less engaged.
+Ignorar as opiniões das pessoas não impede os desentendimentos; pode apenas fazer com que as pessoas se envolvam menos.
 
 ---
 
-They will work harder to prove their point.
+Eles vão trabalhar mais para provar seu ponto.
 
 ### --feedback--
 
-Brian does not suggest that feeling undervalued makes people work harder.
+Brian não sugere que se sentir desvalorizado faz as pessoas trabalharem mais.
 
 ---
 
-They will automatically agree with everything.
+Eles concordarão automaticamente com tudo.
 
 ### --feedback--
 
-Not listening to people doesn't make them agree with everything — it can make them disengage instead.
+Não ouvir as pessoas não faz com que elas concordem com tudo — pode fazer com que elas se desliguem em vez disso.
 
 ## --video-solution--
 
@@ -51,13 +51,13 @@ Not listening to people doesn't make them agree with everything — it can make 
 
 # --explanation--
 
-`To feel valued` describes the sensation you have when you believe that your thoughts, efforts, and contributions are appreciated. For example:
+`To feel valued` descreve a sensação que você tem quando acredita que seus pensamentos, esforços e contribuições são apreciados.Por exemplo:
 
-`The project manager always dedicates some time during the meeting to hear what we have to say. This makes everyone in the team feel valued.` - This means the attitude of the project manager is bringing good results to the team.
+O gerente de projeto sempre dedica um tempo durante a reunião para ouvir o que temos a dizer.Isso faz com que todos na equipe se sintam valorizados.` - Isso significa que a atitude do gerente de projeto está trazendo bons resultados para a equipe.
 
-What Brian suggests is that if team members' opinions are ignored, they may feel unimportant. If team members feel valued, they are more likely to stay engaged and contribute new ideas.
+O que Brian sugere é que, se as opiniões dos membros da equipe forem ignoradas, eles podem se sentir sem importância.Se os membros da equipe se sentirem valorizados, é mais provável que permaneçam engajados e contribuam com novas ideias.
 
-On the other hand, if people feel like their opinions don't matter, they might become disengaged and lose motivation to contribute, which can harm overall teamwork and productivity.
+Por outro lado, se as pessoas sentirem que suas opiniões não importam, elas podem se desengajar e perder a motivação para contribuir, o que pode prejudicar o trabalho em equipe e a produtividade geral.
 
 # --scene--
 

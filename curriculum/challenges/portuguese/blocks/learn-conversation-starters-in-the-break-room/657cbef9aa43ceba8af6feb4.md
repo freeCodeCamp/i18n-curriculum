@@ -1,6 +1,6 @@
 ---
 id: 657cbef9aa43ceba8af6feb4
-title: Task 51
+title: Tarefa 51
 challengeType: 22
 dashedName: task-51
 ---
@@ -9,11 +9,11 @@ dashedName: task-51
 
 # --description--
 
-When you like doing something very much, you can say you `enjoy` it. It's a simple way to express that something makes you happy.
+Quando você gosta muito de fazer algo, você pode dizer que `enjoy` isso.É uma maneira simples de expressar que algo faz você feliz.
 
-For example, you can say, `I enjoy playing video games`. This means playing video games is fun for you.
+Por exemplo, você pode dizer, `I enjoy playing video games`. Isso significa que jogar videogames é divertido para você.
 
-In the dialogue, Sophie tells something that Maria enjoys in her job.
+No diálogo, Sophie diz algo que Maria gosta em seu trabalho.
 
 # --fillInTheBlank--
 
@@ -27,7 +27,7 @@ In the dialogue, Sophie tells something that Maria enjoys in her job.
 
 ### --feedback--
 
-This verb means Maria likes something and feels happy doing it. It ends in `-s`.
+Este verbo significa que Maria gosta de algo e se sente feliz fazendo isso. Ele termina em `-s`.
 
 # --scene--
 

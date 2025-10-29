@@ -7,9 +7,9 @@ dashedName: step-19
 
 # --description--
 
-The piano needs the freeCodeCamp logo to make it official.
+O piano precisa do logotipo do freeCodeCamp para torná-lo oficial.
 
-Adicione um elemento `img` abaixo do elemento `.keys`. Dê a `img` uma `class` `logo` e defina `src` como `https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg`. Dê a imagem um texto `alt` de `freeCodeCamp Logo`.
+Adicione um elemento `img` abaixo do elemento `.keys`.Dê a `img` uma `class` `logo` e defina `src` como `https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg`.Dê a imagem um texto `alt` de `freeCodeCamp Logo`.
 
 # --hints--
 
@@ -41,7 +41,7 @@ const img = document.querySelector('img');
 assert.equal(img?.getAttribute('src'), 'https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg');
 ```
 
-O elemento `img` deve ter o atributo `alt` definido como `freeCodeCamp Logo`.
+Seu elemento `img` deve ter um atributo `alt` definido como `freeCodeCamp Logo`.
 
 ```js
 assert.equal(document.querySelector('img')?.getAttribute('alt')?.toLowerCase(), 'freecodecamp logo');

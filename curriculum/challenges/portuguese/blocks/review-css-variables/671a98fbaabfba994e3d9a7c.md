@@ -1,15 +1,15 @@
 ---
 id: 671a98fbaabfba994e3d9a7c
-title: CSS Variables Review
+title: Revisão de Variáveis CSS
 challengeType: 31
 dashedName: review-css-variables
 ---
 
 # --description--
 
-## CSS Custom Properties (CSS Variables)
+## Propriedades Personalizadas CSS (Variáveis CSS)
 
-- **Definition**: CSS custom properties, also known as CSS variables, are entities defined by CSS authors that contain specific values to be reused throughout a document. They are a powerful feature that allows for more efficient, maintainable, and flexible stylesheets. Custom properties are particularly useful in creating themeable designs. You can define a set of properties for different themes:
+- **Definição**: Propriedades personalizadas do CSS, também conhecidas como variáveis CSS, são entidades definidas por autores de CSS que contêm valores específicos para serem reutilizados ao longo de um documento. Elas são um recurso poderoso que permite folhas de estilo mais eficientes, fáceis de manter e flexíveis. Propriedades personalizadas são particularmente úteis na criação de designs temáticos. Você pode definir um conjunto de propriedades para diferentes temas:
 
 ```css
 :root {
@@ -28,9 +28,9 @@ body {
 }
 ```
 
-## The `@property` Rule
+## A Regra `@property`
 
-- **Definition**: The `@property` rule is a powerful CSS feature that allows developers to define custom properties with greater control over their behavior, including how they animate and their initial values.
+- **Definição**: A regra `@property` é um recurso poderoso do CSS que permite aos desenvolvedores definir propriedades personalizadas com maior controle sobre seu comportamento, incluindo como elas animam e seus valores iniciais. 
 
 ```css
 @property --property-name {
@@ -40,11 +40,11 @@ body {
 }
 ```
 
-- **`--property-name`**: This is the name of the custom property you're defining. Like all custom properties, it must start with two dashes. `--property-name` can be things like `<color>`, `<length>`, `<number>`, `<percentage>`, or more complex types.
-- **`syntax`**: This defines the type of the property.
-- **`inherits`**: This specifies whether the property should inherit its value from its parent element.
-- **`initial-value`**: This sets the default value of the property.
-- **Gradient Example Using the `@property` Rule**: This example creates a gradient that smoothly animates when the element is hovered over.
+- **`--property-name`**: Este é o nome da propriedade personalizada que você está definindo. Como todas as propriedades personalizadas, ela deve começar com dois traços. `--property-name` pode ser coisas como `<color>`, `<length>`, `<number>`, `<percentage>` ou tipos mais complexos.
+- **`syntax`**: Isso define o tipo da propriedade. 
+- **`inherits`**: Isso especifica se a propriedade deve herdar seu valor do elemento pai. 
+- **`initial-value`**: Isso define o valor padrão da propriedade.
+- **Exemplo de Gradiente Usando a Regra `@property`**: Este exemplo cria um gradiente que anima suavemente quando o elemento é hoverado.
 
 ```html
 <div class="gradient-box"></div>
@@ -69,7 +69,7 @@ body {
 }
 ```
 
-- **Fallbacks**: When using the custom property, you can provide a fallback value using the `var()` function, just as you would with standard custom properties:
+- **Fallbacks**: Ao usar a propriedade customizada, você pode fornecer um valor fallback usando a função `var()`, assim como faria com propriedades customizadas padrão:
 
 ```css
 .button {
@@ -79,4 +79,4 @@ body {
 
 # --assignment--
 
-Review the CSS Variables topics and concepts.
+Revise os tópicos e conceitos de CSS Variables.

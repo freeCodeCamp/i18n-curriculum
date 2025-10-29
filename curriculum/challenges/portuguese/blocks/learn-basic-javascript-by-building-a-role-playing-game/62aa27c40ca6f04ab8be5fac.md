@@ -7,7 +7,7 @@ dashedName: step-167
 
 # --description--
 
-In the previous project, you learned how to work with `for` loops like this:
+No projeto anterior, você aprendeu como trabalhar com loops `for` assim:
 
 ```js
 for (let i = 0; i < 5; i++) {
@@ -15,26 +15,26 @@ for (let i = 0; i < 5; i++) {
 }
 ```
 
-`for` loops are declared with three expressions separated by semicolons: `for (a; b; c)`, where `a` is the initialization expression, `b` is the condition, and `c` is the final expression.
+Loops `for` são declarados com três expressões separadas por ponto e vírgula: `for (a; b; c)`, onde `a` é a expressão de inicialização, `b` é a condição e `c` é a expressão final.
 
-In this step, create a `for` loop where `i` is initialized to `0`, the loop runs as long as `i` is less than `10`, and `i` is incremented by `1` after each iteration using the increment operator `++`.
+Nesta etapa, crie um loop `for` onde `i` é inicializado em `0`, o loop executa enquanto `i` for menor que `10` e `i` é incrementado em `1` após cada iteração usando o operador de incremento `++`.
 
 
 # --hints--
 
-Your `for` loop initialization should have `i` initialized to `0`.
+A inicialização do seu loop `for` deve ter `i` inicializado em `0`.
 
 ```js
 assert.match(pick.toString(), /for\s*\(\s*(let|var)\s+i\s*=\s*0\s*;/)
 ```
 
-Your loop condition should run as long as `i` is less than `10`.
+Sua condição de loop deve executar enquanto `i` for menor que `10`.
 
 ```js
 assert.match(pick.toString(), /for\s*\(\s*(let|var)\s+i\s*=\s*0\s*;\s*i\s*<\s*10\s*;/)
 ```
 
-Your loop should increment `i` by `1` after each iteration. Remember to use the increment operator `++`.
+Seu loop deve incrementar `i` em `1` após cada iteração.Lembre-se de usar o operador de incremento `++`.
 
 ```js
 assert.match(pick.toString(), /for\s*\(\s*(let|var)\s+i\s*=\s*0\s*;\s*i\s*<\s*10\s*;\s*i\+\+\s*\)/)
@@ -399,7 +399,7 @@ function pick(guess) {
     numbers.push(Math.floor(Math.random() * 11));
   }
   text.innerText = "You picked " + guess + ". Here are the random numbers:\n";
-
+  
 }
 --fcc-editable-region--
 ```

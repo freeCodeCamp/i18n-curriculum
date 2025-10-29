@@ -1,6 +1,6 @@
 ---
 id: 6557dc1aa6be93c1eb4e9efb
-title: Task 29
+title: Tarefa 29
 challengeType: 19
 dashedName: task-29
 ---
@@ -9,47 +9,47 @@ dashedName: task-29
 
 # --description--
 
-The word `if` means "whether or not". For example:
+A palavra `if` significa "se ou não". Por exemplo:
 
-`She checks her emails to see if there are any urgent updates.` - This means she is looking to find out whether updates exist.
+`She checks her emails to see if there are any urgent updates.` - Isso significa que ela está verificando para descobrir se existem atualizações urgentes.
 
-`If` can also be part of a conditional statement, which shows a possible situation and its result. For example:
+`If` também pode fazer parte de uma declaração condicional, que mostra uma situação possível e seu resultado. Por exemplo:
 
-`If there are urgent updates, I will reply immediately.` - This means replying depends on the condition of having urgent updates.
+`If there are urgent updates, I will reply immediately.` - Isso significa que a resposta depende da condição de haver atualizações urgentes.
 
 # --questions--
 
 ## --text--
 
-What does Sarah imply by using `if` in her statement about checking emails and messages?
+O que Sarah implica ao usar `if` em sua declaração sobre verificar e-mails e mensagens?
 
 ## --answers--
 
-She always finds urgent updates from her team.
+Ela sempre encontra atualizações urgentes da equipe dela.
 
 ### --feedback--
 
-`If` doesn't suggest certainty of finding urgent updates.
+`If` não sugere certeza de encontrar atualizações urgentes.
 
 ---
 
-Sometimes there are urgent updates, sometimes not.
+Às vezes há atualizações urgentes, às vezes não.
 
 ---
 
-She never checks her emails and messages.
+Ela nunca verifica seus e-mails e mensagens.
 
 ### --feedback--
 
-Sarah actually states that she does check her emails and messages.
+Sarah na verdade afirma que ela verifica seus e-mails e mensagens.
 
 ---
 
-Checking emails is not part of her routine.
+Verificar e-mails não faz parte da rotina dela.
 
 ### --feedback--
 
-Sarah mentions that checking emails and messages is part of her routine.
+Sarah menciona que verificar e-mails e mensagens faz parte da sua rotina.
 
 ## --video-solution--
 
