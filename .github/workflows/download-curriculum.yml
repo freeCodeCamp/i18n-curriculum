@@ -131,35 +131,35 @@ jobs:
           # Uncomment below to debug
           # dryrun_action: true
 
-      ##### Download Brazilian Portuguese #####
-      - name: Crowdin Download Portuguese (Brazilian) Translations
-        uses: crowdin/github-action@master
-        # options: https://github.com/crowdin/github-action/blob/master/action.yml
-        with:
-          # uploads
-          upload_sources: false
-          upload_translations: false
-          auto_approve_imported: false
-          import_eq_suggestions: false
+      # ##### Download Brazilian Portuguese #####
+      # - name: Crowdin Download Portuguese (Brazilian) Translations
+      #   uses: crowdin/github-action@master
+      #   # options: https://github.com/crowdin/github-action/blob/master/action.yml
+      #   with:
+      #     # uploads
+      #     upload_sources: false
+      #     upload_translations: false
+      #     auto_approve_imported: false
+      #     import_eq_suggestions: false
 
-          # downloads
-          download_translations: true
-          download_language: pt-BR
-          skip_untranslated_strings: false
-          skip_untranslated_files: false
-          export_only_approved: true
+      #     # downloads
+      #     download_translations: true
+      #     download_language: pt-BR
+      #     skip_untranslated_strings: false
+      #     skip_untranslated_files: false
+      #     export_only_approved: true
 
-          push_translations: false
+      #     push_translations: false
 
-          # pull-request
-          create_pull_request: false
+      #     # pull-request
+      #     create_pull_request: false
 
-          # global options
-          config: "./crowdin-config.yml"
-          base_url: ${{ secrets.CROWDIN_BASE_URL_FCC }}
+      #     # global options
+      #     config: "./crowdin-config.yml"
+      #     base_url: ${{ secrets.CROWDIN_BASE_URL_FCC }}
 
-          # Uncomment below to debug
-          # dryrun_action: true
+      #     # Uncomment below to debug
+      #     # dryrun_action: true
 
       ##### Download Ukrainian #####
       - name: Crowdin Download Ukrainian Translations
