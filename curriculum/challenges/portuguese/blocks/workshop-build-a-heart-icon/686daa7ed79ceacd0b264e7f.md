@@ -7,13 +7,13 @@ dashedName: step-4
 
 # --description--
 
-Before you begin coloring the image in, you should nest one `path` element inside your `svg` element to give the image shape.
+Antes de começar a colorir a imagem, você deve aninhar um elemento `path` dentro do seu elemento `svg` para dar forma à imagem.
 
-Create a `path` element.
+Crie um elemento `path`.
 
 # --hints--
 
-You should have a `path` element nested inside of your `svg` element.
+Você deve ter um elemento `path` aninhado dentro do seu elemento `svg`.
 
 ```js
 const path = document.querySelector('svg path');
@@ -34,7 +34,7 @@ assert.exists(path);
   <body>
     --fcc-editable-region--
     <svg width="24" height="24" viewBox="0 0 24 24">
-
+      
     </svg>
     --fcc-editable-region--
   </body>

@@ -11,7 +11,7 @@ Mova a orelha esquerda interna para o lugar com uma position `absolute`, um `top
 
 # --hints--
 
-O seletor `.cat-left-ear` deve ter a propriedade `position` definida como `absolute`. Não se esqueça de adicionar um ponto-e-vírgula.
+Seu seletor `.cat-left-ear` deve ter uma propriedade `position` definida como `absolute`. Não esqueça de adicionar um ponto e vírgula.
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('.cat-left-ear')?.position, 'absolute')
@@ -83,7 +83,7 @@ body {
 
 --fcc-editable-region--
 .cat-left-ear {
-
+  
   border-left: 35px solid transparent;
   border-right: 35px solid transparent;
   border-bottom: 70px solid #5e5e5e;

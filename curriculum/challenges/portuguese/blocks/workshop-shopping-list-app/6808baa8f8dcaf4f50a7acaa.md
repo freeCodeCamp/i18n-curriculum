@@ -7,13 +7,13 @@ dashedName: step-17
 
 # --description--
 
-For the truthy condition, if `prev` includes `item`, return a filtered array with `item` removed.
+Para a condição truthy, se `prev` incluir `item`, retorne um array filtrado com `item` removido.
 
-Chain the `filter()` method to `prev` and pass it an anonymous function that takes `i` as an argument. Inside the function, check that `i` is not strictly equal to `item`. This will return a new array with all items except `item`.
+Encadeie o método `filter()` em `prev` e passe uma função anônima que recebe `i` como argumento.Dentro da função, verifique se `i` não é estritamente igual a `item`.Isto retornará um novo array com todos os itens exceto `item`.
 
 # --hints--
 
-You should chain the `filter()` method to `prev` and pass it an anonymous function that takes `i` as an argument.
+Você deve encadear o método `filter()` em `prev` e passar para ele uma função anônima que recebe `i` como argumento.
 
 ```js
 const script = [...document.querySelectorAll("script")].find((s) => s.dataset.src ===  "index.jsx").innerText;
@@ -24,7 +24,7 @@ const shoppingListString = exports.ShoppingList.toString();
 assert.match(shoppingListString, /prev\.includes\s*\(\s*item\s*\)\s*\?\s*prev\.filter\s*\(function\s*\(\s*i\s*\)\s*{/);
 ```
 
-Inside the anonymous `filter()` function, you should check that `i` is not strictly equal to `item`. Remember to return the result of that check.
+Dentro da função anônima `filter()`, você deve verificar se `i` não é estritamente igual a `item`.Lembre-se de retornar o resultado dessa verificação.
 
 ```js
 const script = [...document.querySelectorAll("script")].find((s) => s.dataset.src ===  "index.jsx").innerText;

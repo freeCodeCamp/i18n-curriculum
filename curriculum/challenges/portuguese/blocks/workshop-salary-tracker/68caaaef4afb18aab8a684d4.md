@@ -1,19 +1,19 @@
 ---
 id: 68caaaef4afb18aab8a684d4
-title: Step 31
+title: Passo 31
 challengeType: 20
 dashedName: step-31
 ---
 
 # --description--
 
-It's time to test your new setter. Try to assign invalid values such as a random string or the current level (`trainee`) to `charlie_brown.level` and see the error messages in the console.
+É hora de testar seu novo setter. Tente atribuir valores inválidos como uma string aleatória ou o nível atual (`trainee`) para `charlie_brown.level` e veja as mensagens de erro no console.
 
-Once you've done, remove the lines raising errors and set `charlie_brown.level` to the string `junior`.
+Depois de terminar, remova as linhas que geram erros e defina `charlie_brown.level` para a string `junior`.
 
 # --hints--
 
-You should set `charlie_brown.level` to the string `junior`.
+Você deve definir `charlie_brown.level` para a string `junior`.
 
 ```js
 ({ test: () => assert(runPython(`_Node(_code).has_stmt("charlie_brown.level = 'junior'")`)) })

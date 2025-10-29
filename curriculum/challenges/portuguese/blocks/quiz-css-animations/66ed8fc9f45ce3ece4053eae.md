@@ -1,13 +1,13 @@
 ---
 id: 66ed8fc9f45ce3ece4053eae
-title: CSS Animations Quiz
+title: Questionário sobre animações no CSS
 challengeType: 8
 dashedName: quiz-css-animations
 ---
 
 # --description--
 
-To pass the quiz, you must correctly answer at least 18 of the 20 questions below.
+Para passar no quiz, você deve responder corretamente pelo menos 18 das 20 perguntas abaixo.
 
 # --quizzes--
 
@@ -17,51 +17,51 @@ To pass the quiz, you must correctly answer at least 18 of the 20 questions belo
 
 #### --text--
 
-What is the purpose of the `transform` property in CSS?
+Qual é o propósito da propriedade `transform` no CSS?
 
 #### --distractors--
 
-To change the visibility of an element.
+Para alterar a visibilidade de um elemento.
 
 ---
 
-To apply a visual effect to text.
+Para aplicar um efeito visual ao texto.
 
 ---
 
-To set the dimensions of an element.
+Para definir as dimensões de um elemento.
 
 #### --answer--
 
-To modify the position, size, and shape of an element.
+Para modificar a posição, tamanho e forma de um elemento.
 
 ### --question--
 
 #### --text--
 
-How does the CSS `animation-direction` property affect an animation?
+Como a propriedade CSS `animation-direction` afeta uma animação?
 
 #### --distractors--
 
-It specifies if an animation should be repeated.
+Especifica se uma animação deve ser repetida.
 
 ---
 
-It sets the duration of the animation.
+Define a duração da animação.
 
 ---
 
-It defines the speed of the animation.
+Ele define a velocidade da animação.
 
 #### --answer--
 
-It defines how an animation should play.
+Define como uma animação deve ser executada.
 
 ### --question--
 
 #### --text--
 
-Which CSS property makes an animation run 3 times?
+Qual propriedade CSS faz uma animação rodar 3 vezes?
 
 #### --distractors--
 
@@ -83,7 +83,7 @@ Which CSS property makes an animation run 3 times?
 
 #### --text--
 
-Which CSS timing function makes an animation run at a consistent speed from start to end?
+Qual função de tempo CSS faz uma animação rodar em uma velocidade constante do início ao fim?
 
 #### --distractors--
 
@@ -105,95 +105,95 @@ Which CSS timing function makes an animation run at a consistent speed from star
 
 #### --text--
 
-What does the `@keyframes` at-rule define in CSS?
+O que a regra `@keyframes` define em CSS?
 
 #### --distractors--
 
-The colors of a CSS gradient.
+As cores de um gradiente CSS.
 
 ---
 
-The angles of a CSS rotation.
+Os ângulos de uma rotação CSS.
 
 ---
 
-The dimensions of an element.
+As dimensões de um elemento.
 
 #### --answer--
 
-The stages of a CSS animation.
+As etapas de uma animação CSS.
 
 ### --question--
 
 #### --text--
 
-What is the purpose of the `translateX()` function in CSS?
+Qual é o propósito da função `translateX()` no CSS?
 
 #### --distractors--
 
-It changes the opacity of the element.
+Ele altera a opacidade do elemento.
 
 ---
 
-It rotates the element.
+Ele gira o elemento.
 
 ---
 
-It repositions the element vertically.
+Reposiciona o elemento verticalmente.
 
 #### --answer--
 
-It repositions the element horizontally.
+Reposiciona o elemento horizontalmente.
 
 ### --question--
 
 #### --text--
 
-Which of the following is NOT a potential concern with CSS animations?
+Qual das seguintes opções NÃO é uma preocupação potencial com animações CSS?
 
 #### --distractors--
 
-They may cause discomfort or physical harm to certain users.
+Eles podem causar desconforto ou dano físico a certos usuários.
 
 ---
 
-Users may find them distracting.
+Os usuários podem achá-los distrativos.
 
 ---
 
-Overuse can lead to poor performance.
+O uso excessivo pode levar a um desempenho ruim.
 
 #### --answer--
 
-They can enhance user experience.
+Eles podem melhorar a experiência do usuário.
 
 ### --question--
 
 #### --text--
 
-Where is the `@keyframes` at-rule defined?
+Onde a regra `@keyframes` está definida?
 
 #### --distractors--
 
-Within the `body` element of an HTML file.
+Dentro do elemento `body` de um arquivo HTML.
 
 ---
 
-Within the `head` element of an HTML file.
+Dentro do elemento `head` de um arquivo HTML.
 
 ---
 
-Within a CSS class definition.
+Dentro de uma definição de classe CSS.
 
 #### --answer--
 
-At the top level, outside of any CSS selectors.
+No nível superior, fora de qualquer seletor CSS.
 
 ### --question--
 
 #### --text--
 
-Which CSS property allows you to pause and resume an animation?
+Qual propriedade CSS permite pausar e retomar uma animação?
 
 #### --distractors--
 
@@ -215,29 +215,29 @@ Which CSS property allows you to pause and resume an animation?
 
 #### --text--
 
-What value should be assigned to the `animation-name` property in CSS?
+Qual valor deve ser atribuído à propriedade `animation-name` no CSS?
 
 #### --distractors--
 
-The duration of the animation in seconds.
+A duração da animação em segundos.
 
 ---
 
-The timing function used for the animation.
+A função de temporização usada para a animação.
 
 ---
 
-The delay before the animation starts in seconds.
+O atraso antes da animação começar em segundos.
 
 #### --answer--
 
-The name of the animation defined by the `@keyframes`.
+O nome da animação definido pelo `@keyframes`.
 
 ### --question--
 
 #### --text--
 
-What does this `@keyframe` at-rule do to the animated element?
+O que essa regra `@keyframe` faz no elemento animado?
 
 ```css
 @keyframes animation {
@@ -252,25 +252,25 @@ What does this `@keyframe` at-rule do to the animated element?
 
 #### --distractors--
 
-It rotates the element 90 degrees clockwise.
+Ele gira o elemento 90 graus no sentido horário.
 
 ---
 
-It changes the color of the element to blue.
+Ele altera a cor do elemento para azul.
 
 ---
 
-It scales the element to 50% of its initial size and then to 100% of its initial size.
+Ele escala o elemento para 50% do seu tamanho inicial e depois para 100% do seu tamanho inicial.
 
 #### --answer--
 
-It moves the element horizontally from -50px to 100px, relative to its starting point.
+Ele move o elemento horizontalmente de -50px a 100px, relativo ao seu ponto de partida.
 
 ### --question--
 
 #### --text--
 
-Which CSS property defines how an animation progresses over time?
+Qual propriedade CSS define como uma animação progride ao longo do tempo?
 
 #### --distractors--
 
@@ -292,7 +292,7 @@ Which CSS property defines how an animation progresses over time?
 
 #### --text--
 
-Which CSS property is used to specify that an animation should take 5 seconds to complete?
+Qual propriedade CSS é usada para especificar que uma animação deve levar 5 segundos para ser concluída?
 
 #### --distractors--
 
@@ -322,7 +322,7 @@ animation-duration: 5s;
 
 #### --text--
 
-What does `50%` represent in the following CSS `@keyframe` at-rule?
+O que `50%` representa na seguinte regra `@keyframe` do CSS?
 
 ```css
 @keyframes animation {
@@ -340,69 +340,69 @@ What does `50%` represent in the following CSS `@keyframe` at-rule?
 
 #### --distractors--
 
-The starting point of the animation.
+O ponto de partida da animação.
 
 ---
 
-The ending point of the animation.
+O ponto final da animação.
 
 ---
 
-The speed of the animation.
+A velocidade da animação.
 
 #### --answer--
 
-The halfway point of the animation.
+O ponto médio da animação.
 
 ### --question--
 
 #### --text--
 
-What will happen when the property `transform: translateX(200px);` is applied?
+O que acontecerá quando a propriedade `transform: translateX(200px);` for aplicada?
 
 #### --distractors--
 
-The element will move 200px to the left.
+O elemento se moverá 200px para a esquerda.
 
 ---
 
-The element will move 200px to the bottom.
+O elemento se moverá 200px para baixo.
 
 ---
 
-The element will rotate 200 degrees clockwise.
+O elemento irá girar 200 graus no sentido horário.
 
 #### --answer--
 
-The element will move 200px to the right.
+O elemento se moverá 200px para a direita.
 
 ### --question--
 
 #### --text--
 
-How will the animation behave if `animation-iteration-count` is set to `infinite`?
+Como a animação se comportará se `animation-iteration-count` estiver definido como `infinite`?
 
 #### --distractors--
 
-It will run once and stop.
+Ele será executado uma vez e parará.
 
 ---
 
-It will pause after the first iteration.
+Ele fará uma pausa após a primeira iteração.
 
 ---
 
-It will stop after three iterations.
+Ele vai parar após três iterações.
 
 #### --answer--
 
-It will repeat indefinitely.
+Ele irá repetir indefinidamente.
 
 ### --question--
 
 #### --text--
 
-Which `@keyframes` selector specifies the starting point of an animation?
+Qual seletor `@keyframes` especifica o ponto de partida de uma animação?
 
 #### --distractors--
 
@@ -424,29 +424,29 @@ Which `@keyframes` selector specifies the starting point of an animation?
 
 #### --text--
 
-What properties can be specified using the `animation` shorthand CSS property?
+Quais propriedades podem ser especificadas usando a propriedade CSS abreviada `animation`?
 
 #### --distractors--
 
-Only the name of the animation.
+Apenas o nome da animação.
 
 ---
 
-The name and duration of the animation.
+O nome e a duração da animação.
 
 ---
 
-The name, duration, and delay of the animation.
+O nome, duração e atraso da animação.
 
 #### --answer--
 
-All animation properties.
+Todas as propriedades de animação.
 
 ### --question--
 
 #### --text--
 
-Which CSS property is used to apply an animation defined by an `@keyframes` at-rule?
+Qual propriedade CSS é usada para aplicar uma animação definida pela regra `@keyframes`?
 
 #### --distractors--
 
@@ -468,7 +468,7 @@ Which CSS property is used to apply an animation defined by an `@keyframes` at-r
 
 #### --text--
 
-Which CSS property allows you to set a time before the animation begins?
+Qual propriedade CSS permite definir um tempo antes de a animação começar?
 
 #### --distractors--
 
@@ -492,29 +492,29 @@ Which CSS property allows you to set a time before the animation begins?
 
 #### --text--
 
-What does the CSS `animation-delay` property do?
+O que a propriedade CSS `animation-delay` faz?
 
 #### --distractors--
 
-Sets how long the animation lasts.
+Define quanto tempo a animação dura.
 
 ---
 
-Specifies the timing function.
+Especifica a função de temporização.
 
 ---
 
-Defines animation direction.
+Define a direção da animação.
 
 #### --answer--
 
-Delays the start of the animation.
+Atrasa o início da animação.
 
 ### --question--
 
 #### --text--
 
-Which animation property specifies how the element should be styled before and after the animation?
+Qual propriedade de animação especifica como o elemento deve ser estilizado antes e depois da animação?
 
 #### --distractors--
 
@@ -536,29 +536,29 @@ Which animation property specifies how the element should be styled before and a
 
 #### --text--
 
-Why should CSS animations be used in moderation?
+Por que as animações CSS devem ser usadas com moderação?
 
 #### --distractors--
 
-Too many CSS animations can lead to styles breaking as well as inconsistent styles across different browsers.
+Muitas animações CSS podem causar falhas nos estilos e estilos inconsistentes entre diferentes navegadores. 
 
 ---
 
-Too many CSS animations can lead to lower or non existent rankings in search engine results.
+Muitas animações CSS podem levar a classificações mais baixas ou inexistentes nos resultados dos motores de busca.
 
 ---
 
-Too many CSS animations will automatically crash the server and increase the likelihood for security risks.
+Muitas animações CSS irão automaticamente travar o servidor e aumentar a probabilidade de riscos de segurança. 
 
 #### --answer--
 
-Too many CSS animations can lead to poor performance and may be distracting or problematic for users with certain accessibility needs.
+Muitas animações CSS podem levar a um desempenho ruim e podem ser distrativas ou problemáticas para usuários com certas necessidades de acessibilidade.
 
 ### --question--
 
 #### --text--
 
-Which animation property determines whether the animation should play forwards, backwards, or alternate?
+Qual propriedade de animação determina se a animação deve ser executada para frente, para trás ou alternadamente?
 
 #### --distractors--
 
@@ -580,7 +580,7 @@ Which animation property determines whether the animation should play forwards, 
 
 #### --text--
 
-Which CSS media query detects if the user has requested minimal animations or motion effects?
+Qual consulta de mídia CSS detecta se o usuário solicitou animações ou efeitos de movimento mínimos?
 
 #### --distractors--
 
@@ -602,7 +602,7 @@ Which CSS media query detects if the user has requested minimal animations or mo
 
 #### --text--
 
-Which property sets how many times an `animation` repeats?
+Qual propriedade define quantas vezes uma `animation` se repete?
 
 #### --distractors--
 
@@ -624,7 +624,7 @@ Which property sets how many times an `animation` repeats?
 
 #### --text--
 
-Which CSS rule is used to define the stages and styles of an animation at various points during its duration?
+Qual regra CSS é usada para definir os estágios e estilos de uma animação em vários pontos durante sua duração?
 
 #### --distractors--
 
@@ -646,7 +646,7 @@ Which CSS rule is used to define the stages and styles of an animation at variou
 
 #### --text--
 
-Inside the `reduced‑motion` media query, which declaration disables transitions?
+Dentro da media query `reduced‑motion`, qual declaração desativa as transições?
 
 #### --distractors--
 
@@ -668,95 +668,95 @@ Inside the `reduced‑motion` media query, which declaration disables transition
 
 #### --text--
 
-What does the `animation-play-state` property allow you to do?
+O que a propriedade `animation-play-state` permite que você faça?
 
 #### --distractors--
 
-Set how many times the animation repeats.
+Defina quantas vezes a animação se repete.
 
 ---
 
-Specify how long the animation takes to complete.
+Especifique quanto tempo a animação leva para ser concluída.
 
 ---
 
-Determine the direction in which the animation plays.
+Determine a direção em que a animação é executada.
 
 #### --answer--
 
-Pause and resume the animation.
+Pausar e retomar a animação.
 
 ### --question--
 
 #### --text--
 
-Which of the following is a good practice when working with animations?
+Qual das seguintes opções é uma boa prática ao trabalhar com animações?
 
 #### --distractors--
 
-Use as many flashing colors and rapid movements as possible to grab attention.
+Use o máximo possível de cores piscantes e movimentos rápidos para chamar a atenção.
 
 ---
 
-Avoid testing animations on different devices or screen sizes.
+Evite testar animações em dispositivos ou tamanhos de tela diferentes.
 
 ---
 
-Make animations last as long as possible to ensure users notice them.
+Faça as animações durarem o máximo possível para garantir que os usuários as percebam.
 
 #### --answer--
 
-Avoid content that flashes more than three times per second to prevent triggering seizures or causing discomfort.
+Evite conteúdo que pisque mais de três vezes por segundo para prevenir convulsões ou causar desconforto.
 
 ### --question--
 
 #### --text--
 
-Why is the `!important` declaration used in the CSS rules?
+Por que a declaração `!important` é usada nas regras CSS?
 
 #### --distractors--
 
-To prevent other media queries from loading.
+Para evitar que outras media queries sejam carregadas.
 
 ---
 
-To limit styles to the first child element.
+Para limitar estilos ao primeiro elemento filho.
 
 ---
 
-To debug CSS more easily.
+Para depurar CSS com mais facilidade.
 
 #### --answer--
 
-To ensure these rules take precedence over other styles.
+Para garantir que essas regras tenham precedência sobre outros estilos.
 
 ### --question--
 
 #### --text--
 
-What does `animation-iteration-count: 1 !important;` ensure in CSS?
+O que `animation-iteration-count: 1 !important;` garante no CSS?
 
 #### --distractors--
 
-That animations are paused.
+Que as animações estão pausadas.
 
 ---
 
-That animations run infinitely.
+Que essas animações rodem infinitamente.
 
 ---
 
-That animations reverse direction each cycle.
+Que as animações invertam a direção a cada ciclo.
 
 #### --answer--
 
-That any looping animations only play once.
+Que quaisquer animações em loop sejam reproduzidas apenas uma vez.
 
 ### --question--
 
 #### --text--
 
-What CSS property is used to specify how long an animation should take to complete?
+Qual propriedade CSS é usada para especificar quanto tempo uma animação deve levar para ser concluída?
 
 #### --distractors--
 
@@ -778,7 +778,7 @@ What CSS property is used to specify how long an animation should take to comple
 
 #### --text--
 
-Which property is NOT part of the `animation` shorthand?
+Qual propriedade NÃO faz parte do atalho `animation`?
 
 #### --distractors--
 
@@ -800,29 +800,29 @@ Which property is NOT part of the `animation` shorthand?
 
 #### --text--
 
-What does the `@keyframes` rule define?
+O que a regra `@keyframes` define?
 
 #### --distractors--
 
-The timing function of an animation.
+A função de temporização de uma animação.
 
 ---
 
-The default state of an element.
+O estado padrão de um elemento.
 
 ---
 
-The media queries for animations.
+As media queries para animações.
 
 #### --answer--
 
-The sequence of styles at different points in an animation.
+A sequência de estilos em diferentes pontos de uma animação.
 
 ### --question--
 
 #### --text--
 
-What does this `@keyframe` at-rule do to the animated element?
+O que essa regra `@keyframe` faz no elemento animado?
 
 ```css
 @keyframes fade-in {
@@ -837,47 +837,47 @@ What does this `@keyframe` at-rule do to the animated element?
 
 #### --distractors--
 
-It scales the element up from 0% to 100%.
+Ele escala o elemento de 0% a 100%.
 
 ---
 
-It moves the element from left to right.
+Ele move o elemento da esquerda para a direita.
 
 ---
 
-It changes the text color to black.
+Ele altera a cor do texto para preto.
 
 #### --answer--
 
-It makes the element fade in by gradually increasing its transparency.
+Ele faz o elemento aparecer gradualmente aumentando sua transparência.
 
 ### --question--
 
 #### --text--
 
-In a keyframes rule, what does `100%` represent?
+Em uma regra de keyframes, o que `100%` representa?
 
 #### --distractors--
 
-The start of the animation.
+O início da animação.
 
 ---
 
-The halfway point.
+O ponto intermediário.
 
 ---
 
-The easing function.
+A função de easing.
 
 #### --answer--
 
-The end of the animation.
+O fim da animação.
 
 ### --question--
 
 #### --text--
 
-Which property controls the pace of an `animation` over its duration?
+Qual propriedade controla o ritmo de uma `animation` durante sua duração?
 
 #### --distractors--
 
@@ -899,29 +899,29 @@ Which property controls the pace of an `animation` over its duration?
 
 #### --text--
 
-What should developers consider when implementing animations to maintain accessibility?
+O que os desenvolvedores devem considerar ao implementar animações para manter a acessibilidade?
 
 #### --distractors--
 
-Rely entirely on JavaScript for all animations.
+Confie inteiramente em JavaScript para todas as animações.
 
 ---
 
-Add frequent and intense animations for impact.
+Adicione animações frequentes e intensas para causar impacto.
 
 ---
 
-Include only bold, fast, and surprising effects.
+Inclua apenas efeitos **fortes**, rápidos e surpreendentes.
 
 #### --answer--
 
-Use subtle, intentional effects, honor preferences, and offer user control.
+Use efeitos sutis e intencionais, respeite preferências e ofereça controle ao usuário.
 
 ### --question--
 
 #### --text--
 
-Which of the following is the correct syntax to slide an element in from the left?
+Qual das seguintes é a sintaxe correta para deslizar um elemento da esquerda?
 
 #### --distractors--
 

@@ -7,11 +7,11 @@ dashedName: dialogue-1-im-tom
 
 # --description--
 
-Watch the video below to understand the context of the upcoming lessons.
+Assista ao vídeo para entender o contexto das próximas lições.
 
 # --assignment--
 
-Watch the video.
+Assista ao vídeo.
 
 # --scene--
 

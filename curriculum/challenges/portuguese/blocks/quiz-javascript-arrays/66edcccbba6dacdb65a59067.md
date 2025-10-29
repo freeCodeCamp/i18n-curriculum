@@ -1,13 +1,13 @@
 ---
 id: 66edcccbba6dacdb65a59067
-title: JavaScript Arrays Quiz
+title: Questionário sobre arrays em JavaScript
 challengeType: 8
 dashedName: quiz-javascript-arrays
 ---
 
 # --description--
 
-To pass the quiz, you must correctly answer at least 18 of the 20 questions below.
+Para passar no quiz, você deve responder corretamente pelo menos 18 das 20 perguntas abaixo.
 
 # --quizzes--
 
@@ -17,7 +17,7 @@ To pass the quiz, you must correctly answer at least 18 of the 20 questions belo
 
 #### --text--
 
-What will be the output for the following code?
+Qual será a saída para o seguinte código?
 
 ```js
 const numbers = [1, 2, 3];
@@ -44,7 +44,7 @@ console.log(numbers[10]);
 
 #### --text--
 
-Which of the following is the correct way to access the string `"Jessica"` from the `developers` array?
+Qual das seguintes é a maneira correta de acessar a string `"Jessica"` do array `developers`?
 
 #### --distractors--
 
@@ -78,7 +78,7 @@ developers[0]
 
 #### --text--
 
-What value will be assigned to the `index` variable?
+Qual valor será atribuído à variável `index`?
 
 ```js
 const numbers = [10, 20, 30, 40];
@@ -106,51 +106,51 @@ console.log(index);
 
 #### --text--
 
-What does the rest syntax do?
+O que a sintaxe rest faz?
 
 #### --distractors--
 
-It is used to divide a string into an array of substrings.
+É usado para dividir uma string em um array de substrings.
 
 ---
 
-It is used to add or remove elements from any position in an array.
+É usado para adicionar ou remover elementos de qualquer posição em um array.
 
 ---
 
-It is used to add elements to the end of the array and will return the new length.
+É usado para adicionar elementos ao final do array e retornará o novo comprimento.
 
 #### --answer--
 
-It captures the remaining elements of an array into a new array.
+Ele captura os elementos restantes de um array em um novo array.
 
 ### --question--
 
 #### --text--
 
-What is array destructuring?
+O que é destructuring de array?
 
 #### --distractors--
 
-It is used to concatenate all of the elements of an array into a single string.
+É usado para concatenar todos os elementos de um array em uma única string.
 
 ---
 
-It is used to check if an array contains a specific value.
+É usado para verificar se um array contém um valor específico.
 
 ---
 
-It is used to remove the last element from an array and will return that removed element.
+É usado para remover o último elemento de um array e retornará esse elemento removido.
 
 #### --answer--
 
-It is used to extract values from arrays and assign them to variables in a more concise and readable way.
+É usado para extrair valores de arrays e atribuí-los a variáveis de uma forma mais concisa e legível.
 
 ### --question--
 
 #### --text--
 
-What value will be assigned to the `arr2` variable?
+Qual valor será atribuído à variável `arr2`?
 
 ```js
 const arr1 = [1, 2, 3];
@@ -178,7 +178,7 @@ console.log(arr2);
 
 #### --text--
 
-What will this code log to the console?
+O que este código irá registrar no console?
 
 ```js
 const colors = ["red", "blue", "green", "yellow"];
@@ -206,7 +206,7 @@ console.log(colors);
 
 #### --text--
 
-What value will be assigned to the `slicedArr` variable?
+Qual valor será atribuído à variável `slicedArr`?
 
 ```js
 const arr = ["apple", "banana", "cherry", "date"];
@@ -234,7 +234,7 @@ console.log(slicedArr);
 
 #### --text--
 
-Which method returns the first index of a given element in an array?
+Qual método retorna o primeiro índice de um determinado elemento em um array?
 
 #### --distractors--
 
@@ -256,7 +256,7 @@ Which method returns the first index of a given element in an array?
 
 #### --text--
 
-Which method is used to remove the first element from an array and returns that removed element?
+Qual método é usado para remover o primeiro elemento de um array e retorna esse elemento removido?
 
 #### --distractors--
 
@@ -278,29 +278,29 @@ Which method is used to remove the first element from an array and returns that 
 
 #### --text--
 
-What does the `concat()` method do?
+O que o método `concat()` faz?
 
 #### --distractors--
 
-Joins array elements into a string.
+Une os elementos do array em uma string.
 
 ---
 
-Adds an element to the beginning of an array.
+Adiciona um elemento ao início de um array.
 
 ---
 
-Removes an element from the array.
+Remove um elemento do array.
 
 #### --answer--
 
-Merges two arrays into a new array.
+Mescla dois arrays em um novo array.
 
 ### --question--
 
 #### --text--
 
-What will be the output of this code?
+Qual será a saída deste código?
 
 ```js
 const fruits = ["apple", "banana", "cherry", "apple", "orange"];
@@ -330,29 +330,29 @@ console.log(fruits);
 
 #### --text--
 
-What does the `includes()` method do?
+O que o método `includes()` faz?
 
 #### --distractors--
 
-It is used to divide a string into an array of substrings.
+É usado para dividir uma string em um array de substrings.
 
 ---
 
-It is used to concatenate all of the elements of an array into a single string.
+É usado para concatenar todos os elementos de um array em uma única string.
 
 ---
 
-It is used to add or remove elements from any position in an array.
+É usado para adicionar ou remover elementos de qualquer posição em um array.
 
 #### --answer--
 
-It is used to check if an array contains a specific value.
+É usado para verificar se um array contém um valor específico.
 
 ### --question--
 
 #### --text--
 
-Which of the following methods is used to reverse an array in place?
+Qual dos seguintes métodos é usado para inverter um array no local?
 
 #### --distractors--
 
@@ -374,51 +374,51 @@ Which of the following methods is used to reverse an array in place?
 
 #### --text--
 
-What is a two dimensional array?
+O que é um array bidimensional?
 
 #### --distractors--
 
-An array that only contains object literals.
+Um array que contém apenas literais de objeto.
 
 ---
 
-An array of fixed length.
+Um array de comprimento fixo.
 
 ---
 
-An array of floating point numbers.
+Um array de números de ponto flutuante.
 
 #### --answer--
 
-An array of arrays.
+Um array de arrays.
 
 ### --question--
 
 #### --text--
 
-Which of the following is true about the `indexOf()` method in arrays?
+Qual das seguintes afirmações é verdadeira sobre o método `indexOf()` em arrays?
 
 #### --distractors--
 
-It always returns the last occurrence of the element.
+Sempre retorna a última ocorrência do elemento.
 
 ---
 
-It throws an error if the element is not found.
+Ele gera um erro se o elemento não for encontrado.
 
 ---
 
-It requires the array to be sorted.
+Ele requer que o array esteja ordenado.
 
 #### --answer--
 
-It returns `-1` if the element is not found.
+Retorna `-1` se o elemento não for encontrado.
 
 ### --question--
 
 #### --text--
 
-Which of the following is NOT an array method?
+Qual dos seguintes NÃO é um método de array?
 
 #### --distractors--
 
@@ -440,7 +440,7 @@ Which of the following is NOT an array method?
 
 #### --text--
 
-What will be the output for the following code?
+Qual será a saída para o seguinte código?
 
 ```js
 const arr = ["o", "l", "l", "e", "h"];
@@ -467,7 +467,7 @@ console.log(arr.join(""));
 
 #### --text--
 
-What will be the result of using the `shift()` method on an empty array?
+Qual será o resultado de usar o método `shift()` em um array vazio?
 
 
 #### --distractors--
@@ -490,7 +490,7 @@ What will be the result of using the `shift()` method on an empty array?
 
 #### --text--
 
-Which method will return a new array without changing the original array?
+Qual método retornará um novo array sem alterar o array original?
 
 #### --distractors--
 
