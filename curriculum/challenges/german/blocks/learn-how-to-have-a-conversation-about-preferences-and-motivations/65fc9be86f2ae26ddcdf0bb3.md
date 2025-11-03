@@ -3,6 +3,7 @@ id: 65fc9be86f2ae26ddcdf0bb3
 title: Aufgabe 36
 challengeType: 19
 dashedName: task-36
+lang: en-US
 ---
 
 

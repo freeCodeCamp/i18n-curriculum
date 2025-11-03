@@ -3,6 +3,7 @@ id: 661bddbdbbc09e2b8fac0801
 title: Aufgabe 76
 challengeType: 22
 dashedName: task-76
+lang: en-US
 ---
 
 <!-- (Audio) Alice: Also, it's used for identity verification at airports and secure facilities. -->
