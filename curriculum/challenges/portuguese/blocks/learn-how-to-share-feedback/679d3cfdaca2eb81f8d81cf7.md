@@ -3,6 +3,7 @@ id: 679d3cfdaca2eb81f8d81cf7
 title: Tarefa 97
 challengeType: 19
 dashedName: task-97
+lang: en-US
 ---
 
 <!-- (Audio) Maria: Can you look into it and see what's causing the problem? -->
@@ -51,7 +52,7 @@ Maria não está pedindo para James ignorar o problema.
 
 # --explanation--
 
-`Can` é comumente usado para fazer pedidos educados, pedindo a alguém para fazer algo de maneira informal.Por exemplo:
+`Can` é comumente usado para fazer pedidos educados, pedindo a alguém para fazer algo de maneira informal. Por exemplo:
 
 `Can you send me the report by noon?` - Esta é uma forma educada de pedir para alguém enviar um relatório.
 

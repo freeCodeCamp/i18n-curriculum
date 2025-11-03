@@ -3,6 +3,7 @@ id: 67efebdf734ad521ace8a89e
 title: Tarefa 57
 challengeType: 22
 dashedName: task-57
+lang: en-US
 ---
 
 <!-- (audio) Jake: Sure, Jessica. It could be an unpatched vulnerability. -->
@@ -31,7 +32,7 @@ Esta frase de duas palavras refere-se a uma falha de segurança em um sistema qu
 
 `Vulnerability` refere-se a uma vulnerabilidade em um sistema que pode ser explorada.
 
-Juntos, uma `unpatched vulnerability` é uma falha de segurança que não foi corrigida ou atualizada.Hackers podem explorar essas vulnerabilidades para atacar um sistema.Por exemplo:
+Juntos, uma `unpatched vulnerability` é uma falha de segurança que não foi corrigida ou atualizada. Hackers podem explorar essas vulnerabilidades para atacar um sistema. Por exemplo:
 
 `We need to fix the unpatched vulnerability now.` - A equipe sabe sobre o problema de segurança mas ele ainda não foi reparado.
 

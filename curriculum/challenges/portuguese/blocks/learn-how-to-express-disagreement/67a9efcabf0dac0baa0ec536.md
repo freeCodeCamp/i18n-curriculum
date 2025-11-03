@@ -3,6 +3,7 @@ id: 67a9efcabf0dac0baa0ec536
 title: Tarefa 4
 challengeType: 22
 dashedName: task-4
+lang: en-US
 ---
 
 <!-- (Audio) Bob: It seems most people prefer using it for office furniture. -->
@@ -23,13 +24,13 @@ Ouça o áudio para completar a frase abaixo.
 
 ### --feedback--
 
-Pense no que as pessoas precisam para melhorar seu espaço de trabalho em casa.Isso inclui mesas, cadeiras e prateleiras.
+Pense no que as pessoas precisam para melhorar seu espaço de trabalho em casa. Isso inclui mesas, cadeiras e prateleiras.
 
 # --explanation--
 
 `Office furniture` refere-se a mesas, cadeiras, prateleiras e outros itens usados em um espaço de trabalho.
 
-Neste diálogo, Bob está falando sobre como os funcionários estão escolhendo gastar seu subsídio para trabalho remoto.Como trabalhar de casa requer um ambiente confortável e produtivo, muitas pessoas usam o auxílio para comprar móveis de escritório como cadeiras ergonômicas ou mesas espaçosas.
+Neste diálogo, Bob está falando sobre como os funcionários estão escolhendo gastar seu subsídio para trabalho remoto. Como trabalhar de casa requer um ambiente confortável e produtivo, muitas pessoas usam o auxílio para comprar móveis de escritório como cadeiras ergonômicas ou mesas espaçosas.
 
 # --scene--
 

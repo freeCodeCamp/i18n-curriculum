@@ -86,7 +86,7 @@ Se um elemento não tiver conteúdo, padding ou borda, suas margens superior e i
 
 :::
 
-Neste exemplo, as margens superior e inferior do `empty-block` colapsam em uma única margem de 30 pixels, a maior das duas.
+Neste exemplo, as margens superior e inferior do `empty-block` colapsam em uma única margem de 20 pixels, a maior das duas.
 
 Aqui está outro exemplo de como evitar colapso usando padding: 
 

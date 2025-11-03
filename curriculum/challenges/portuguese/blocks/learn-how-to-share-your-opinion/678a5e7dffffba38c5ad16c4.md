@@ -3,6 +3,7 @@ id: 678a5e7dffffba38c5ad16c4
 title: Tarefa 17
 challengeType: 22
 dashedName: task-17
+lang: en-US
 ---
 
 <!-- (audio) Linda: In my case, I prefer Python because it's great for data analysis. Plus, it's really good for building prototypes quickly. -->
@@ -35,7 +36,7 @@ Esta frase de duas palavras significa que algo é adequado ou benéfico para uma
 
 # --explanation--
 
-Tanto `great for` e `good for` significam que algo é muito útil, adequado ou eficaz para um propósito específico.Por exemplo:
+Tanto `great for` e `good for` significam que algo é muito útil, adequado ou eficaz para um propósito específico. Por exemplo:
 
 - `This new software is great for managing large projects.` - Isso significa que o software é muito adequado e eficaz para gerenciar grandes projetos.
 

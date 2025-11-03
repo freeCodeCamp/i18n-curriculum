@@ -3,6 +3,7 @@ id: 67ddb67d2bbf41bb5dce0fb3
 title: Tarefa 36
 challengeType: 19
 dashedName: task-36
+lang: en-US
 ---
 
 <!-- (Audio) James: No problem. Talk to you later. -->
@@ -51,7 +52,7 @@ James não está fazendo uma solicitação.
 
 # --explanation--
 
-Em uma conversa, você frequentemente omite palavras quando o significado está claro.Em `Talk to you later`, o sujeito `I'll` (contração de `I will`) é omitido.A frase completa seria `I'll talk to you later`.Esse tipo de omissão é comum na fala casual.Outro exemplo:
+Em uma conversa, você frequentemente omite palavras quando o significado está claro. Em `Talk to you later`, o sujeito `I'll` (contração de `I will`) é omitido. A frase completa seria `I'll talk to you later`. Esse tipo de omissão é comum na fala casual. Outro exemplo:
 
 `See you tomorrow!` - Esta é uma forma mais curta de dizer `I'll see you tomorrow`.
 

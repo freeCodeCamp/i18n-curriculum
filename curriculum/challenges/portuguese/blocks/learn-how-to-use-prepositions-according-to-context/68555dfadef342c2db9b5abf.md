@@ -3,6 +3,7 @@ id: 68555dfadef342c2db9b5abf
 title: Tarefa 83
 challengeType: 22
 dashedName: task-83
+lang: en-US
 ---
 
 <!-- (Audio) David: What about testing? The last update brought up some unexpected challenges. -->
@@ -23,7 +24,7 @@ Ouça o áudio para completar a frase abaixo.
 
 ### --feedback--
 
-Esta frase de duas palavras significa introduzido ou causado algo a aparecer ou se tornar um problema.A primeira palavra é a forma no passado de `bring`.
+Esta frase de duas palavras significa introduzido ou causado algo a aparecer ou se tornar um problema. A primeira palavra é a forma no passado de `bring`.
 
 ---
 
@@ -31,15 +32,15 @@ Esta frase de duas palavras significa introduzido ou causado algo a aparecer ou 
 
 ### --feedback--
 
-Esta palavra significa que algo aconteceu que não foi planejado ou previsto.Termina com `-ed`.
+Esta palavra significa que algo aconteceu que não foi planejado ou previsto. Termina com `-ed`.
 
 # --explanation--
 
-`Brought up` significa causar algo a aparecer, especialmente um problema ou questão.Aqui, `brought` é a forma no passado de `bring`.Por exemplo:
+`Brought up` significa causar algo a aparecer, especialmente um problema ou questão. Aqui, `brought` é a forma no passado de `bring`. Por exemplo:
 
 `The new feature brought up several bugs.` – Isso significa que a funcionalidade fez com que os bugs fossem notados.
 
-`Unexpected` descreve algo que acontece sem aviso ou planejamento.Por exemplo:
+`Unexpected` descreve algo que acontece sem aviso ou planejamento. Por exemplo:
 
 `We had an unexpected delay due to server issues.` – Isso significa que o atraso não foi antecipado.
 

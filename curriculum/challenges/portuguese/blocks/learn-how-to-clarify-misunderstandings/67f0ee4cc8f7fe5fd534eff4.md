@@ -3,6 +3,7 @@ id: 67f0ee4cc8f7fe5fd534eff4
 title: Tarefa 87
 challengeType: 22
 dashedName: task-87
+lang: en-US
 ---
 
 <!-- (Audio) Mark: Yeah, that sounds good. Thanks for your help, Lisa. I appreciate it. -->
@@ -31,15 +32,15 @@ Esta frase de duas palavras é usada para mostrar concordância ou aprovação d
 
 ### --feedback--
 
-Esta palavra significa estar grato por algo.Ele mostra agradecimento por ajuda, suporte ou algo feito para você.
+Esta palavra significa estar grato por algo. Ele mostra agradecimento por ajuda, suporte ou algo feito para você.
 
 # --explanation--
 
-`Sounds good` significa que o falante concorda ou aprova o que foi dito.Por exemplo:
+`Sounds good` significa que o falante concorda ou aprova o que foi dito. Por exemplo:
 
 `Your idea sounds good.` – Isso significa que o falante acha que a ideia é boa e concorda com ela.
 
-`I appreciate` é uma forma de dizer obrigado ou demonstrar gratidão.Por exemplo:
+`I appreciate` é uma forma de dizer obrigado ou demonstrar gratidão. Por exemplo:
 
 `I appreciate your help with the project.` – Isso significa que você está grato pela ajuda que recebeu.
 

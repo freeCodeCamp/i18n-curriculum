@@ -3,6 +3,7 @@ id: 66db5c0fafea6d794c92ccea
 title: Tarefa 58
 challengeType: 19
 dashedName: task-58
+lang: en-US
 ---
 
 <!--
@@ -58,7 +59,7 @@ Para saber se algo está tendo um bom desempenho, procure por palavras ou frases
 
 Linda usa a frase `have already made a big difference`.
 
-`Made a big difference` sugere uma mudança importante ou perceptível.Quando algo teve `made a big difference` em um contexto positivo, geralmente significa que a mudança é útil ou eficaz.
+`Made a big difference` sugere uma mudança importante ou perceptível. Quando algo teve `made a big difference` em um contexto positivo, geralmente significa que a mudança é útil ou eficaz.
 
 Então, a resposta da Linda indica que os elementos atualizados estão funcionando bem e melhoraram a situação.
 

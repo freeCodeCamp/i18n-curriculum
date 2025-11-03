@@ -3,6 +3,7 @@ id: 675ecedbb04f6ca6dd620f0e
 title: Tarefa 76
 challengeType: 22
 dashedName: task-76
+lang: en-US
 ---
 
 <!-- (Audio) Anna: Hi Brian, I've heard about these Man-in-the-Middle attacks. -->
@@ -23,7 +24,7 @@ Ouça o áudio para completar a frase abaixo.
 
 ### --feedback--
 
-Este é um tipo de ciberataque onde um hacker secretamente se coloca no meio de duas pessoas ou sistemas que estão se comunicando.O hacker pode ver, alterar ou roubar informações que estão sendo compartilhadas sem que ninguém saiba.Esta é uma palavra composta, lembre-se de usar `-`.As primeiras letras da primeira e da quarta palavra estão capitalizadas.
+Este é um tipo de ciberataque onde um hacker secretamente se coloca no meio de duas pessoas ou sistemas que estão se comunicando. O hacker pode ver, alterar ou roubar informações que estão sendo compartilhadas sem que ninguém saiba. Esta é uma palavra composta, lembre-se de usar `-`. As primeiras letras da primeira e da quarta palavra estão capitalizadas.
 
 ---
 
@@ -35,13 +36,13 @@ Esta palavra no plural significa ações de hackers ou criminosos para prejudica
 
 # --explanation--
 
-`Man-in-the-Middle` (ou `MITM`) é um tipo de ataque onde um hacker se posiciona secretamente entre duas pessoas ou sistemas que estão se comunicando.O hacker escuta ou altera as informações que estão sendo compartilhadas sem que ninguém saiba.Por exemplo:
+`Man-in-the-Middle` (ou `MITM`) é um tipo de ataque onde um hacker se posiciona secretamente entre duas pessoas ou sistemas que estão se comunicando. O hacker escuta ou altera as informações que estão sendo compartilhadas sem que ninguém saiba. Por exemplo:
 
-`A Man-in-the-Middle attack (MITM) happened when a hacker intercepted the data sent between a user's computer and their bank.` - O hacker fingiu ser o banco, interceptou as informações e roubou as credenciais de login do usuário.Isso permitiu que o hacker acessasse a conta bancária sem que o usuário soubesse.
+`A Man-in-the-Middle attack (MITM) happened when a hacker intercepted the data sent between a user's computer and their bank.` - O hacker fingiu ser o banco, interceptou as informações e roubou as credenciais de login do usuário. Isso permitiu que o hacker acessasse a conta bancária sem que o usuário soubesse.
 
-`Attacks` são ações de hackers para prejudicar sistemas de computador, roubar informações ou causar problemas.Por exemplo:
+`Attacks` são ações de hackers para prejudicar sistemas de computador, roubar informações ou causar problemas. Por exemplo:
 
-`The website was unavailable for hours because of a cyber attack that overloaded its server.` - Isso indica que o hacker enviou muito tráfego falso para o site, fazendo com que ele travasse ou ficasse lento.Isso impediu usuários reais de acessá-lo, causando interrupção.
+`The website was unavailable for hours because of a cyber attack that overloaded its server.` - Isso indica que o hacker enviou muito tráfego falso para o site, fazendo com que ele travasse ou ficasse lento. Isso impediu usuários reais de acessá-lo, causando interrupção.
 
 # --scene--
 

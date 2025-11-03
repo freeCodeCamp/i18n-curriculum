@@ -3,6 +3,7 @@ id: 67adad520eb3ba05f8a1af1b
 title: Tarefa 33
 challengeType: 19
 dashedName: task-33
+lang: en-US
 ---
 
 <!-- (Audio) Bob: So maybe we should focus on both. Find a balance between comfort and technology to ensure everyone has what they need. -->
@@ -37,7 +38,7 @@ Esta frase sugere confusão, mas Anna precisa mostrar concordância com a ideia 
 
 # --explanation--
 
-`That makes sense` é uma forma natural de mostrar concordância.As pessoas usam essa frase em conversas quando aceitam ou entendem uma sugestão.Por exemplo:
+`That makes sense` é uma forma natural de mostrar concordância. As pessoas usam essa frase em conversas quando aceitam ou entendem uma sugestão. Por exemplo:
 
 - Pessoa 1: `We should optimize the code before adding new features to avoid performance issues.`
 

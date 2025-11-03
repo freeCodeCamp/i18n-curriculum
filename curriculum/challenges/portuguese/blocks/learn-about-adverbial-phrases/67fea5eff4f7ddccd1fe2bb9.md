@@ -3,6 +3,7 @@ id: 67fea5eff4f7ddccd1fe2bb9
 title: Tarefa 22
 challengeType: 22
 dashedName: task-22
+lang: en-US
 ---
 
 <!-- (Audio) Sarah: We might also consider having weekly updates for parts of the project where changes are less frequent. -->
@@ -27,7 +28,7 @@ Isso se refere a algo que acontece uma vez por semana.
 
 # --explanation--
 
-`Weekly` é usado para descrever algo que acontece apenas uma vez por semana.Indica a frequência de um evento ou ação ocorrendo semanalmente.Por exemplo:
+`Weekly` é usado para descrever algo que acontece apenas uma vez por semana. Indica a frequência de um evento ou ação ocorrendo semanalmente. Por exemplo:
 
 `The team has weekly meetings to discuss project progress.` – Isso significa que as reuniões acontecem toda semana.
 

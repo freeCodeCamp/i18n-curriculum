@@ -3,6 +3,7 @@ id: 67baf3ed288e8b06f4ab0dfb
 title: Tarefa 76
 challengeType: 22
 dashedName: task-76
+lang: en-US
 ---
 
 <!-- (Audio) David: It builds team spirit and makes problem-solving easier. -->
@@ -23,7 +24,7 @@ Ouça o áudio para completar a frase abaixo.
 
 ### --feedback--  
 
-Essas duas palavras juntas referem-se ao senso de unidade e cooperação entre os colegas de trabalho.A primeira palavra se refere a um grupo trabalhando junto e a segunda palavra está relacionada ao entusiasmo ou motivação compartilhados.
+Essas duas palavras juntas referem-se ao senso de unidade e cooperação entre os colegas de trabalho. A primeira palavra se refere a um grupo trabalhando junto e a segunda palavra está relacionada ao entusiasmo ou motivação compartilhados.
 
 ---
 
@@ -31,7 +32,7 @@ Essas duas palavras juntas referem-se ao senso de unidade e cooperação entre o
 
 ### --feedback--  
 
-Esta palavra composta refere-se ao processo de encontrar soluções para desafios.A primeira parte refere-se a um problema que precisa ser corrigido e a segunda parte é um verbo que significa encontrar uma solução. Remember to use `-` between the two parts.
+Esta palavra composta refere-se ao processo de encontrar soluções para desafios. A primeira parte refere-se a um problema que precisa ser corrigido e a segunda parte é um verbo que significa encontrar uma solução.  Remember to use `-` between the two parts.
 
 # --explanation--
 

@@ -3,13 +3,14 @@ id: 661bddbdbbc09e2b8fac0801
 title: Tarefa 76
 challengeType: 22
 dashedName: task-76
+lang: en-US
 ---
 
 <!-- (Audio) Alice: Also, it's used for identity verification at airports and secure facilities. -->
 
 # --description--
 
-A preposição `at` indica um ponto em um mapa.Ele informa uma localização ou posição específica.Ele ajuda você a entender onde algo está acontecendo ou onde alguém está.
+A preposição `at` indica um ponto em um mapa. Ele informa uma localização ou posição específica. Ele ajuda você a entender onde algo está acontecendo ou onde alguém está.
 
 Exemplos:
 

@@ -3,6 +3,7 @@ id: 679d26afcebc4ea8a9478fbf
 title: Tarefa 91
 challengeType: 19
 dashedName: task-91
+lang: en-US
 ---
 
 <!-- (Audio) James: Absolutely. Do you think we need to update the software again? -->
@@ -51,7 +52,7 @@ James não está rejeitando a ideia completamente; ele está na verdade pedindo 
 
 # --explanation--
 
-`To update` significa modificar ou melhorar o software lançando uma nova versão.Atualizações podem incluir correções de bugs, novos recursos ou melhorias de desempenho.Por exemplo:
+`To update` significa modificar ou melhorar o software lançando uma nova versão. Atualizações podem incluir correções de bugs, novos recursos ou melhorias de desempenho. Por exemplo:
 
 `The company released an update to fix security vulnerabilities in the app.` - Isso significa que uma nova versão foi lançada para corrigir problemas de segurança.
 

@@ -3,6 +3,7 @@ id: 67c86f54f0b8aa4c3dd5bacd
 title: Tarefa 108
 challengeType: 22
 dashedName: task-108
+lang: en-US
 ---
 
 <!-- REVIEW -->
@@ -41,7 +42,7 @@ Escreva as seguintes palavras ou frases no local correto:
 
 ### --feedback--
 
-Isto expressa a propriedade de um dever ou tarefa.Começa com um pronome, seguido por um verbo contraído, depois uma preposição indicando dever.  
+Isto expressa a propriedade de um dever ou tarefa. Começa com um pronome, seguido por um verbo contraído, depois uma preposição indicando dever.  
 
 ---
 

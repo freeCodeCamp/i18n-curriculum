@@ -3,6 +3,7 @@ id: 67e6a8ecaee3ff6cec47cc3e
 title: Tarefa 75
 challengeType: 19
 dashedName: task-75
+lang: en-US
 ---
 
 <!-- (Audio) Jessica: I'll try to be quick so we can get back to the main agenda. -->
@@ -51,11 +52,11 @@ Jessica acha que o problema é importante, mas ela também quer respeitar a agen
 
 # --explanation--
 
-`So we can` é usado para mostrar propósito — significa que a próxima coisa que você mencionar é o que você pretende fazer.Explica por que alguém está fazendo algo.Por exemplo:
+`So we can` é usado para mostrar propósito — significa que a próxima coisa que você mencionar é o que você pretende fazer. Explica por que alguém está fazendo algo. Por exemplo:
 
 `I'll finish this now so we can start the next task.` – Isso significa que o falante quer terminar uma coisa para começar outra em breve.
 
-`The main agenda` refere-se aos tópicos principais ou ao plano de uma reunião ou evento.Por exemplo:
+`The main agenda` refere-se aos tópicos principais ou ao plano de uma reunião ou evento. Por exemplo:
 
 `Let's stick to the main agenda and avoid side discussions.` – Isso significa manter o foco nos itens mais importantes da reunião.
 

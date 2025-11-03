@@ -3,13 +3,14 @@ id: 657cbef9aa43ceba8af6feb4
 title: Tarefa 51
 challengeType: 22
 dashedName: task-51
+lang: en-US
 ---
 
 <!-- (audio) Sophie: I think she has a passion for technology and enjoys leading our team. -->
 
 # --description--
 
-Quando você gosta muito de fazer algo, você pode dizer que `enjoy` isso.É uma maneira simples de expressar que algo faz você feliz.
+Quando você gosta muito de fazer algo, você pode dizer que `enjoy` isso. É uma maneira simples de expressar que algo faz você feliz.
 
 Por exemplo, você pode dizer, `I enjoy playing video games`. Isso significa que jogar videogames é divertido para você.
 

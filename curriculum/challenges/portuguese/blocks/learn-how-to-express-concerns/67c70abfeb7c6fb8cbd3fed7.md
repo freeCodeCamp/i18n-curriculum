@@ -3,6 +3,7 @@ id: 67c70abfeb7c6fb8cbd3fed7
 title: Tarefa 57
 challengeType: 19
 dashedName: task-57
+lang: en-US
 ---
 
 <!-- (Audio) Maria: Hey James, can we talk about my latest meeting with Bob? -->
@@ -51,7 +52,7 @@ Maria não se refere a uma solicitação do cliente nesta frase.
 
 # --explanation--
 
-`Can we talk about...` é usado para introduzir um tópico para discussão.É uma forma educada de solicitar uma conversa sobre algo importante.Por exemplo:
+`Can we talk about...` é usado para introduzir um tópico para discussão. É uma forma educada de solicitar uma conversa sobre algo importante. Por exemplo:
 
 `Can we talk about the changes to the project timeline?` - Isso significa que o falante quer discutir os ajustes no cronograma do projeto.
 

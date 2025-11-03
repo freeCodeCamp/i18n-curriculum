@@ -3,6 +3,7 @@ id: 67acaebb95dabb0ee05500f7
 title: Tarefa 21
 challengeType: 22
 dashedName: task-21
+lang: en-US
 ---
 
 <!-- (Audio) Anna: If people are working with outdated computers, it can be a setback for productivity. -->
@@ -27,7 +28,7 @@ Esta palavra significa um obstáculo ou algo que desacelera o progresso.
 
 # --explanation--
 
-Um `setback` é algo que atrasa ou impede o progresso.Computadores lentos ou ineficientes podem fazer com que as tarefas demorem mais, reduzindo a eficiência.Por exemplo:
+Um `setback` é algo que atrasa ou impede o progresso. Computadores lentos ou ineficientes podem fazer com que as tarefas demorem mais, reduzindo a eficiência. Por exemplo:
 
 - `The project faced a setback due to a critical bug.` - O projeto foi atrasado ou teve problemas por causa de uma falha crítica no software.
 

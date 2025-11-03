@@ -3,6 +3,7 @@ id: 680cad23e2d58a1ef7c2edfb
 title: Tarefa 19
 challengeType: 22
 dashedName: task-19
+lang: en-US
 ---
 
 <!-- (Audio) Sarah: Those are the ones. But, we found something even better in your catalog, these high-capacity ones here. -->
@@ -31,11 +32,11 @@ Esta palavra é usada para apontar para itens específicos que estão próximos 
 
 ### --feedback--
 
-Esta palavra composta significa algo que pode lidar com uma grande quantidade de trabalho, armazenamento ou energia.Lembre-se de usar `-`.
+Esta palavra composta significa algo que pode lidar com uma grande quantidade de trabalho, armazenamento ou energia. Lembre-se de usar `-`.
 
 # --explanation--
 
-`High-capacity` descreve algo projetado para gerenciar ou conter uma grande quantidade em comparação com versões padrão.Por exemplo:
+`High-capacity` descreve algo projetado para gerenciar ou conter uma grande quantidade em comparação com versões padrão. Por exemplo:
 
 `We installed high-capacity batteries in the new devices.` – Isso significa que as baterias podem armazenar mais energia e durar mais, o que é útil em equipamentos tecnológicos.
 

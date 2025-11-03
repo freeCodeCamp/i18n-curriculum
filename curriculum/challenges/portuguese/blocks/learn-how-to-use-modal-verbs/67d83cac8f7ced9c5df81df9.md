@@ -3,6 +3,7 @@ id: 67d83cac8f7ced9c5df81df9
 title: Tarefa 144
 challengeType: 22
 dashedName: task-144
+lang: en-US
 ---
 
 <!-- (audio) Lisa: This will help us understand the extent of the breach and what they might have taken. -->
@@ -37,7 +38,7 @@ Este verbo está na forma `Past Perfect`, usada para falar sobre algo que poderi
 
 `Might` expressa possibilidade.  
 
-`Have taken` é a forma `Past Perfect` de `take`, usada para falar sobre uma possível ação passada.Por exemplo:
+`Have taken` é a forma `Past Perfect` de `take`, usada para falar sobre uma possível ação passada. Por exemplo:
 
 O atacante pode ter levado arquivos sensíveis. - Você não sabe ao certo, mas é possível.
 

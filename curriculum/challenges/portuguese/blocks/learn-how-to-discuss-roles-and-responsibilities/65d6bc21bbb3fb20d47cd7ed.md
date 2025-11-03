@@ -3,6 +3,7 @@ id: 65d6bc21bbb3fb20d47cd7ed
 title: Tarefa 43
 challengeType: 22
 dashedName: task-43
+lang: en-US
 ---
 
 <!-- (Audio) Tom: I don't really know her, to be honest. What's her role?
@@ -10,7 +11,7 @@ dashedName: task-43
 
 # --description--
 
-Perguntar `What's her role?` é uma forma de descobrir o trabalho ou posição de alguém em um grupo ou projeto. `Role` significa a parte ou trabalho que alguém desempenha em uma situação específica.Por exemplo, se o `role` de alguém em uma escola é professor, isso significa que o trabalho dessa pessoa é ensinar os alunos.
+Perguntar `What's her role?` é uma forma de descobrir o trabalho ou posição de alguém em um grupo ou projeto. `Role` significa a parte ou trabalho que alguém desempenha em uma situação específica. Por exemplo, se o `role` de alguém em uma escola é professor, isso significa que o trabalho dessa pessoa é ensinar os alunos.
 
 # --fillInTheBlank--
 

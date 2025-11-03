@@ -3,6 +3,7 @@ id: 67cadf5ea48ca37df972fac6
 title: Tarefa 124
 challengeType: 19
 dashedName: task-124
+lang: en-US
 ---
 
 <!-- (Audio) Maria: First, they really need more support. -->
@@ -51,9 +52,9 @@ Maria não menciona reuniões adicionais.
 
 # --explanation--
 
-`First` é usado quando você quer numerar ações em ordem de importância ou tempo.Neste caso, Maria está listando o que a equipe precisa, começando pelo que parece ser o pedido mais importante (ter mais suporte).Outro exemplo:
+`First` é usado quando você quer numerar ações em ordem de importância ou tempo. Neste caso, Maria está listando o que a equipe precisa, começando pelo que parece ser o pedido mais importante (ter mais suporte). Outro exemplo:
 
-Primeiro, devemos analisar o problema.Então, podemos discutir soluções.` - Isso significa que analisar o problema vem antes de qualquer outra coisa.
+Primeiro, devemos analisar o problema. Então, podemos discutir soluções.` - Isso significa que analisar o problema vem antes de qualquer outra coisa.
 
 # --scene--
 

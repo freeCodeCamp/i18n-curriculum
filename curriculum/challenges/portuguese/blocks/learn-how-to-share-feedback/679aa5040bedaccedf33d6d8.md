@@ -3,6 +3,7 @@ id: 679aa5040bedaccedf33d6d8
 title: Tarefa 45
 challengeType: 19
 dashedName: task-45
+lang: en-US
 ---
 
 <!-- (Audio) Brian: If we all agreed on everything, we might miss important details, don't you think? -->
@@ -51,7 +52,7 @@ Brian não está falando sobre pessoas se recusando a compartilhar suas opiniõe
 
 # --explanation--
 
-A estrutura `if + verb in the Simple Past` seguida de `might` na cláusula de consequência é usada para descrever uma situação hipotética com um resultado possível.Por exemplo:
+A estrutura `if + verb in the Simple Past` seguida de `might` na cláusula de consequência é usada para descrever uma situação hipotética com um resultado possível. Por exemplo:
 
 `If you studied more, you might pass the exam.` - Isso significa que há uma possibilidade de passar se a pessoa estudar mais.
 

@@ -3,6 +3,7 @@ id: 67d78c94b686ce3bddcaf8ab
 title: Tarefa 117
 challengeType: 22
 dashedName: task-117
+lang: en-US
 ---
 
 <!-- (Audio) Brian: It could save us time and resources. What about timelines? Which option is faster? -->
@@ -35,11 +36,11 @@ Esta palavra no plural refere-se a cronogramas ou prazos para a conclusão de um
 
 # --explanation--
 
-`Save us time` significa reduzir o tempo necessário para completar algo, tornando o processo mais eficiente.Por exemplo:
+`Save us time` significa reduzir o tempo necessário para completar algo, tornando o processo mais eficiente. Por exemplo:
 
 `Using automation tools can save us time on repetitive tasks.` – Isso significa que ferramentas de automação ajudam a completar tarefas mais rapidamente.  
 
-`Timelines` referem-se a cronogramas ou prazos que mostram quando diferentes partes de um projeto devem ser concluídas.Por exemplo:
+`Timelines` referem-se a cronogramas ou prazos que mostram quando diferentes partes de um projeto devem ser concluídas. Por exemplo:
 
 `We need to adjust our timelines to finish the project on schedule.` – Isso significa alterar os prazos para garantir que o projeto seja concluído no prazo.
 

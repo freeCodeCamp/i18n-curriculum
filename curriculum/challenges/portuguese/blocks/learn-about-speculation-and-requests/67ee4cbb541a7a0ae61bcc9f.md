@@ -3,6 +3,7 @@ id: 67ee4cbb541a7a0ae61bcc9f
 title: Tarefa 4
 challengeType: 19
 dashedName: task-4
+lang: en-US
 ---
 
 <!-- (audio) Sophie: It's not a big deal, but we should fix it before it causes problems. -->
@@ -51,7 +52,7 @@ Não, mas ainda assim deve ser corrigido.
 
 # --explanation--
 
-`It's not a big deal` significa que o problema não é sério.Por exemplo:
+`It's not a big deal` significa que o problema não é sério. Por exemplo:
 
 - Pessoa 1: `I can't join the meeting today.`
 

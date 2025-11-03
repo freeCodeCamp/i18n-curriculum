@@ -3,15 +3,16 @@ id: 657ddcd61f516cacdc7a04ca
 title: Tarefa 128
 challengeType: 19
 dashedName: task-128
+lang: en-US
 ---
 
 <!-- (audio) Maria: The bookstores I remember are all downtown. But there's a bus that stops two blocks away. -->
 
 # --description--
 
-Maria informa Tom sobre as opções de transporte público, mencionando especificamente um transporte que para nas proximidades.Isso é importante para se locomover pela cidade, especialmente para lugares que não estão a uma distância que se possa ir a pé.
+Maria informa Tom sobre as opções de transporte público, mencionando especificamente um transporte que para nas proximidades. Isso é importante para se locomover pela cidade, especialmente para lugares que não estão a uma distância que se possa ir a pé.
 
-`Two blocks away` significa que você precisa passar por duas esquinas para chegar a um lugar.É uma caminhada curta em uma cidade.
+`Two blocks away` significa que você precisa passar por duas esquinas para chegar a um lugar. É uma caminhada curta em uma cidade.
 
 `Downtown` é o coração de uma cidade onde há muitas lojas, restaurantes e geralmente prédios altos.
 

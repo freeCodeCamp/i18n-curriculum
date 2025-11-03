@@ -3,6 +3,7 @@ id: 67e2ae1300a8edcdede767db
 title: Tarefa 4
 challengeType: 22
 dashedName: task-4
+lang: en-US
 ---
 
 <!-- (Audio) Mark: Can I ask you about a few of them? -->
@@ -35,11 +36,11 @@ Esta preposição conecta tópico ou assunto relacionado.
 
 # --explanation--
 
-`Ask about` significa solicitar informações relacionadas a um tópico específico.Por exemplo:
+`Ask about` significa solicitar informações relacionadas a um tópico específico. Por exemplo:
 
 `I asked about the new feature.` – Você queria informações sobre a funcionalidade. 
 
-`Can I ask you about...` é uma forma educada de começar uma pergunta quando você quer informação ou ajuda.Isso mostra que você está pedindo permissão para falar sobre um tópico específico.Por exemplo:
+`Can I ask you about...` é uma forma educada de começar uma pergunta quando você quer informação ou ajuda. Isso mostra que você está pedindo permissão para falar sobre um tópico específico. Por exemplo:
 
 `Can I ask you about the project deadline?` – Isso significa que você quer falar sobre o prazo e obter mais detalhes.  
 

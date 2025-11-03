@@ -3,13 +3,14 @@ id: 657e4ec6dd27af9cc16addea
 title: Tarefa 79
 challengeType: 19
 dashedName: task-79
+lang: en-US
 ---
 
 <!-- (audio) James: Compliance is when we put specific rules, policies, and regulations that are important to our industry into practice. It helps promote ethics at the workplace. -->
 
 # --description--
 
-`Regulations` são regras oficiais feitas por um governo ou autoridade.Eles são projetados para controlar como algo funciona ou como as pessoas agem, especialmente em empresas.Por exemplo:
+`Regulations` são regras oficiais feitas por um governo ou autoridade. Eles são projetados para controlar como algo funciona ou como as pessoas agem, especialmente em empresas. Por exemplo:
 
 `Health and safety regulations ensure a safe workplace.` - Isso significa que as regras de saúde e segurança ajudam a tornar o local de trabalho seguro para todos.
 

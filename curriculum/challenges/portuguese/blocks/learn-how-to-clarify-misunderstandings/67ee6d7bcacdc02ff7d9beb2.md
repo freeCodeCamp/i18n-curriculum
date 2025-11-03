@@ -3,6 +3,7 @@ id: 67ee6d7bcacdc02ff7d9beb2
 title: Tarefa 69
 challengeType: 22
 dashedName: task-69
+lang: en-US
 ---
 
 <!-- (Audio) Lisa: It could be a JavaScript issue. Maybe there's a problem with the event handling. -->
@@ -23,7 +24,7 @@ Ouça o áudio para completar a frase abaixo.
 
 ### --feedback--
 
-Esta palavra é usada para falar sobre a existência de algo ou para dizer que algo está presente ou acontecendo.É a contração de `there is`.
+Esta palavra é usada para falar sobre a existência de algo ou para dizer que algo está presente ou acontecendo. É a contração de `there is`.
 
 ---
 
@@ -51,11 +52,11 @@ Esta frase de duas palavras refere-se à forma como o software ou sites responde
 
 # --explanation--
 
-`There's a problem with` é usado para descrever que algo não está funcionando corretamente.Significa que há um problema ou dificuldade relacionado a uma coisa específica.Por exemplo:
+`There's a problem with` é usado para descrever que algo não está funcionando corretamente. Significa que há um problema ou dificuldade relacionado a uma coisa específica. Por exemplo:
 
 `There's a problem with the network.` – Isso significa que a rede não está funcionando corretamente.
 
-`Event handling` refere-se a como um programa ou site gerencia ações do usuário como cliques, pressionamentos de teclado ou movimentos do mouse.Por exemplo:
+`Event handling` refere-se a como um programa ou site gerencia ações do usuário como cliques, pressionamentos de teclado ou movimentos do mouse. Por exemplo:
 
 `There's an issue with event handling.` - Isso significa que o software não está respondendo corretamente às ações do usuário.
 

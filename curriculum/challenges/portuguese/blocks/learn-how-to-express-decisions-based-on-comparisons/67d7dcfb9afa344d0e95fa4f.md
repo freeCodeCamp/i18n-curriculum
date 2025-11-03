@@ -3,6 +3,7 @@ id: 67d7dcfb9afa344d0e95fa4f
 title: Tarefa 122
 challengeType: 22
 dashedName: task-122
+lang: en-US
 ---
 
 <!-- (Audio) Sarah: However, outsourcing can lead to communication issues, which might delay the project. -->
@@ -35,11 +36,11 @@ Isso significa fazer algo levar mais tempo do que o esperado.
 
 # --explanation--
 
-`Lead to` significa causar algo a acontecer ou resultar em um determinado resultado.Por exemplo:
+`Lead to` significa causar algo a acontecer ou resultar em um determinado resultado. Por exemplo:
 
 `Poor planning can lead to missed deadlines.` – Isso significa que se o planejamento não for feito corretamente, os prazos podem não ser cumpridos.  
 
-`Delay` significa fazer algo levar mais tempo do que o esperado ou adiá-lo.Por exemplo:
+`Delay` significa fazer algo levar mais tempo do que o esperado ou adiá-lo. Por exemplo:
 
 `The software release was delayed due to unexpected bugs.` – Isso significa que o lançamento foi adiado por causa de problemas técnicos.  
 

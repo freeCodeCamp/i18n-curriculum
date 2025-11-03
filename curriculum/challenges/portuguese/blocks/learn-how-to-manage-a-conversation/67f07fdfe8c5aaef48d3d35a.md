@@ -3,6 +3,7 @@ id: 67f07fdfe8c5aaef48d3d35a
 title: Tarefa 130
 challengeType: 19
 dashedName: task-130
+lang: en-US
 ---
 
 <!-- READING -->
@@ -63,7 +64,7 @@ Para perguntar à Sarah sobre a nova integração de software.
 
 ### --feedback--
 
-Brian já falou com Sarah.Ele agora está compartilhando essa atualização com a gerência.
+Brian já falou com Sarah. Ele agora está compartilhando essa atualização com a gerência.
 
 ## --video-solution--
 
@@ -71,4 +72,4 @@ Brian já falou com Sarah.Ele agora está compartilhando essa atualização com 
 
 # --explanation--
 
-A linha `Subject` normalmente traz os tópicos que serão tratados no corpo da mensagem.Leia esta linha para descobrir a resposta correta para esta pergunta.
+A linha `Subject` normalmente traz os tópicos que serão tratados no corpo da mensagem. Leia esta linha para descobrir a resposta correta para esta pergunta.

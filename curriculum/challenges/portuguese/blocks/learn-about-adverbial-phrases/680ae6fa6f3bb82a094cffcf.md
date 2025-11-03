@@ -3,6 +3,7 @@ id: 680ae6fa6f3bb82a094cffcf
 title: Tarefa 91
 challengeType: 19
 dashedName: task-91
+lang: en-US
 ---
 
 <!-- (Audio) Riker: The UK and Germany saw the most improvement, even more than we expected. -->
@@ -37,9 +38,9 @@ Isso mostra falta de confiança e não empolgação com os resultados.
 
 # --explanation--
 
-`Impressive` significa que algo é digno de atenção, admiração ou respeito porque é incomumente bom, grande ou eficaz.Por exemplo:
+`Impressive` significa que algo é digno de atenção, admiração ou respeito porque é incomumente bom, grande ou eficaz. Por exemplo:
 
-Sua apresentação foi realmente impressionante!Cobriu tudo de forma clara e confiante.` – Isso significa que a apresentação foi de alta qualidade e deixou um forte impacto positivo.
+Sua apresentação foi realmente impressionante! Cobriu tudo de forma clara e confiante.` – Isso significa que a apresentação foi de alta qualidade e deixou um forte impacto positivo.
 
 # --scene--
 

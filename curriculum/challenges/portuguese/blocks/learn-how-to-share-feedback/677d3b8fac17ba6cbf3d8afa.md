@@ -3,6 +3,7 @@ id: 677d3b8fac17ba6cbf3d8afa
 title: Tarefa 3
 challengeType: 22
 dashedName: task-3
+lang: en-US
 ---
 
 <!-- (Audio) Bob: I want to start by saying that you've done a great job with your QA work. -->
@@ -35,11 +36,11 @@ Isso significa `Quality Assurance`, referindo-se ao processo de garantir que os 
 
 # --explanation--
 
-Quando um verbo segue uma preposição, ele deve estar na forma `-ing` (gerúndio).Nesta frase, `saying` segue a preposição `by`, indicando o método que Bob usa para iniciar sua declaração.Por exemplo:
+Quando um verbo segue uma preposição, ele deve estar na forma `-ing` (gerúndio). Nesta frase, `saying` segue a preposição `by`, indicando o método que Bob usa para iniciar sua declaração. Por exemplo:
 
 Ela melhorou suas habilidades praticando regularmente. - Aqui, `practicing` segue a preposição `by`, mostrando como ela melhorou suas habilidades.
 
-Bob elogia Jessica pelo seu trabalho em `QA`. `QA` significa `Quality Assurance`.Refere-se ao processo de garantir que produtos ou serviços atendam a padrões específicos de qualidade e funcionem corretamente.Outro exemplo:
+Bob elogia Jessica pelo seu trabalho em `QA`. `QA` significa `Quality Assurance`. Refere-se ao processo de garantir que produtos ou serviços atendam a padrões específicos de qualidade e funcionem corretamente. Outro exemplo:
 
 `The QA team identified several bugs during testing.` - Isso significa que as pessoas responsáveis por garantir a qualidade do software conseguiram detectar bugs no software antes do seu lançamento.
 

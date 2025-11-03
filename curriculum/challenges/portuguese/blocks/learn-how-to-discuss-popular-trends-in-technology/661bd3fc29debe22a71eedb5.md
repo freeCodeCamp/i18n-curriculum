@@ -3,11 +3,12 @@ id: 661bd3fc29debe22a71eedb5
 title: Tarefa 69
 challengeType: 19
 dashedName: task-69
+lang: en-US
 ---
 
 # --description--
 
-`Physical or behavioral traits` são características especiais do seu corpo ou de como você age.Pode ser seu rosto, impressões digitais ou a forma como você se move.Biometria usa essas coisas para manter as coisas seguras.
+`Physical or behavioral traits` são características especiais do seu corpo ou de como você age. Pode ser seu rosto, impressões digitais ou a forma como você se move. Biometria usa essas coisas para manter as coisas seguras.
 
 # --questions--
 

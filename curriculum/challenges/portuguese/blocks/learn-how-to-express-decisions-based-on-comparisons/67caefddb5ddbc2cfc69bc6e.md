@@ -3,6 +3,7 @@ id: 67caefddb5ddbc2cfc69bc6e
 title: Tarefa 38
 challengeType: 22
 dashedName: task-38
+lang: en-US
 ---
 
 <!-- (audio) Jake: Not really. SafeGuard is more focused on security, so it might not integrate as easily with other platforms. -->
@@ -27,7 +28,7 @@ Essas três palavras juntas significam que SafeGuard prioriza ou dá mais atenç
 
 # --explanation--
 
-`More focused on` é usado para mostrar no que algo ou alguém presta mais atenção.Por exemplo:
+`More focused on` é usado para mostrar no que algo ou alguém presta mais atenção. Por exemplo:
 
 `This software is more focused on performance than on design.` - Isso significa que o software é principalmente desenvolvido para um bom desempenho e não necessariamente para um design atraente.
 

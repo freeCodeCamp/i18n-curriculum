@@ -3,6 +3,7 @@ id: 67c8cf7bbcc2fbe9b32c9ab2
 title: Tarefa 92
 challengeType: 19
 dashedName: task-92
+lang: en-US
 ---
 
 <!-- (Audio) Maria: That's a good point. I'll suggest having more regular check-ins with the team to improve communication. -->
@@ -51,7 +52,7 @@ Ela proporá ter mais check-ins para melhorar a comunicação.
 
 # --explanation--
 
-Ao usar o verbo `suggest`, use o verbo seguinte na forma `-ing` em vez do infinitivo.Por exemplo:
+Ao usar o verbo `suggest`, use o verbo seguinte na forma `-ing` em vez do infinitivo. Por exemplo:
 
 - `She suggested taking a break.` - Isso significa que a ideia proposta é fazer uma pausa.
 

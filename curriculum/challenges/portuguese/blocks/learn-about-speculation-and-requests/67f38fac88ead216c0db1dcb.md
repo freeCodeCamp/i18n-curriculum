@@ -3,6 +3,7 @@ id: 67f38fac88ead216c0db1dcb
 title: Tarefa 81
 challengeType: 19
 dashedName: task-81
+lang: en-US
 ---
 
 <!-- (audio) Jake: Did you check whether there was any unusual access from external IPs or locations? -->
@@ -17,7 +18,7 @@ Ouça o áudio e responda a pergunta abaixo.
 
 ## --text--
 
-Jessica ainda não verificou isso, mas vai fazer.O que ela deveria dizer?
+Jessica ainda não verificou isso, mas vai fazer. O que ela deveria dizer?
 
 ## --answers--
 
@@ -25,7 +26,7 @@ Jessica ainda não verificou isso, mas vai fazer.O que ela deveria dizer?
 
 ### --feedback--
 
-`Won't` é a contração de `will not`.Jessica planeja verificar isso.
+`Won't` é a contração de `will not`. Jessica planeja verificar isso.
 
 ---
 
@@ -37,7 +38,7 @@ Jessica ainda não verificou isso, mas vai fazer.O que ela deveria dizer?
 
 # --explanation--
 
-Jessica está respondendo à pergunta de Jake, reconhecendo que ela ainda não verificou mas que fará isso.Esta resposta mostra que ela está pronta para completar a tarefa, o que está alinhado com o que Jake está perguntando.
+Jessica está respondendo à pergunta de Jake, reconhecendo que ela ainda não verificou mas que fará isso. Esta resposta mostra que ela está pronta para completar a tarefa, o que está alinhado com o que Jake está perguntando.
 
 `No, I didn't` confirma que ela ainda não verificou.
 

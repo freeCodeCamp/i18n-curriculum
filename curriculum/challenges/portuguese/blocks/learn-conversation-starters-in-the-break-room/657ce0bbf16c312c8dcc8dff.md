@@ -3,6 +3,7 @@ id: 657ce0bbf16c312c8dcc8dff
 title: Tarefa 63
 challengeType: 19
 dashedName: task-63
+lang: en-US
 ---
 
 # --description--
@@ -39,7 +40,7 @@ Escolha a frase que usa corretamente o advérbio `usually`.
 
 ### --feedback--
 
-`Usually` deve vir antes do verbo principal em sentenças padrão.A frase correta é `They usually play together on weekends.`
+`Usually` deve vir antes do verbo principal em sentenças padrão. A frase correta é `They usually play together on weekends.`
 
 ---
 

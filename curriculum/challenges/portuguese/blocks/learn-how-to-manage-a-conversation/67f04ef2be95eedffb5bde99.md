@@ -3,6 +3,7 @@ id: 67f04ef2be95eedffb5bde99
 title: Tarefa 103
 challengeType: 22
 dashedName: task-103
+lang: en-US
 ---
 
 <!-- (Audio) Brian: Is there anything else slowing you down? -->
@@ -23,11 +24,11 @@ Ouça o áudio para completar a frase abaixo.
 
 ### --feedback--
 
-Seguido por `down`, isso significa fazer algo se mover ou acontecer mais devagar que o normal.Use a forma `-ing`.
+Seguido por `down`, isso significa fazer algo se mover ou acontecer mais devagar que o normal. Use a forma `-ing`.
 
 # --explanation--
 
-`To slow down` significa reduzir a velocidade ou fazer algo acontecer mais lentamente.Em contextos de trabalho ou projeto, pode se referir a qualquer coisa que atrase o progresso.Por exemplo:
+`To slow down` significa reduzir a velocidade ou fazer algo acontecer mais lentamente. Em contextos de trabalho ou projeto, pode se referir a qualquer coisa que atrase o progresso. Por exemplo:
 
 `Traffic is slowing down the delivery.` – Isso significa que a entrega está demorando mais por causa do trânsito.  
 

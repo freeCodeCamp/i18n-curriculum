@@ -3,6 +3,7 @@ id: 675e6f0bf7f7eb69ddffef81
 title: Tarefa 68
 challengeType: 22
 dashedName: task-68
+lang: en-US
 ---
 
 <!-- (audio) Mark: No, we don't. Okay, let's get to work and see if we can sort this out. -->
@@ -27,7 +28,7 @@ Esta frase de três palavras significa resolver um problema ou lidar com uma sit
 
 # --explanation--
 
-`Sort this out` significa resolver ou consertar um problema específico.É uma forma casual de dizer `figure out a solution` ou `resolve an issue`.A frase geral `sort out` também pode ser usada de forma mais ampla para organizar ou lidar com problemas.Por exemplo:
+`Sort this out` significa resolver ou consertar um problema específico. É uma forma casual de dizer `figure out a solution` ou `resolve an issue`. A frase geral `sort out` também pode ser usada de forma mais ampla para organizar ou lidar com problemas. Por exemplo:
 
 `We need to sort out the issues with the payment system before launch.` - Isso significa que você precisa corrigir ou resolver os problemas com o sistema de pagamento para garantir que tudo funcione corretamente antes do lançamento.
 

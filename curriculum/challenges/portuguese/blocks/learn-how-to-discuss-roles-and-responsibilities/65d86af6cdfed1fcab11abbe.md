@@ -3,13 +3,14 @@ id: 65d86af6cdfed1fcab11abbe
 title: Tarefa 70
 challengeType: 22
 dashedName: task-70
+lang: en-US
 ---
 
 <!-- (Audio) Maria: He also ensures that everyone follows security procedures. -->
 
 # --description--
 
-`Follow security procedures` significa agir de acordo com regras ou etapas projetadas para manter um local ou pessoas seguras.É importante em muitas áreas, especialmente nos locais de trabalho, prevenir problemas ou perigos.
+`Follow security procedures` significa agir de acordo com regras ou etapas projetadas para manter um local ou pessoas seguras. É importante em muitas áreas, especialmente nos locais de trabalho, prevenir problemas ou perigos.
 
 Você aprendeu que depois de `everyone`, você deve usar a forma singular do verbo na terceira pessoa porque `everyone` é considerado como cada pessoa em um grupo, tratada individualmente.
 

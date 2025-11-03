@@ -3,6 +3,7 @@ id: 678e4878f7df13bbcdbcdee4
 title: Tarefa 54
 challengeType: 22
 dashedName: task-54
+lang: en-US
 ---
 
 <!-- (audio) Jake: It's customizable, which is useful for our different teams. -->
@@ -27,7 +28,7 @@ Esta palavra significa que algo pode ser alterado ou ajustado para atender a pre
 
 # --explanation--
 
-`Customizable` refere-se a algo que pode ser alterado ou modificado para atender a diferentes preferências, necessidades ou requisitos.Por exemplo:
+`Customizable` refere-se a algo que pode ser alterado ou modificado para atender a diferentes preferências, necessidades ou requisitos. Por exemplo:
 
 `The dashboard in this project management tool is customizable, allowing each team to organize their tasks in their preferred way.` - Isso significa que o dashboard pode ser modificado de acordo com as necessidades de cada equipe, ajudando-os a organizar seu trabalho de forma mais eficiente.
 

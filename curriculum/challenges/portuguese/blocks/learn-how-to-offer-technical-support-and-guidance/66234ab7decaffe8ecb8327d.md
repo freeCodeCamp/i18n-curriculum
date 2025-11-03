@@ -3,13 +3,14 @@ id: 66234ab7decaffe8ecb8327d
 title: Tarefa 56
 challengeType: 22
 dashedName: task-56
+lang: en-US
 ---
 
 <!-- (Audio) Sophie: Ok, so if I make changes here, do you think it could affect other functionalities? -->
 
 # --description--
 
-`To affect` significa ter um impacto ou influenciar algo.Em programação, `affecting` uma parte do sistema significa que mudanças em uma área podem impactar como outras áreas funcionam.
+`To affect` significa ter um impacto ou influenciar algo. Em programação, `affecting` uma parte do sistema significa que mudanças em uma área podem impactar como outras áreas funcionam.
 
 Por exemplo, `Changing the database structure could affect the application's performance` indica que modificações podem influenciar o desempenho.
 

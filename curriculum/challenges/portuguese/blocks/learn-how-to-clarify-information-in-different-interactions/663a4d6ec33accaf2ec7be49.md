@@ -3,17 +3,18 @@ id: 663a4d6ec33accaf2ec7be49
 title: Tarefa 28
 challengeType: 22
 dashedName: task-28
+lang: en-US
 ---
 
 <!-- (Audio) Sophie: Sure. Tom is a tall guy with a friendly smile. -->
 
 # --description--
 
-Um `smile` é o que acontece quando você levanta os cantos da boca para mostrar felicidade.É algo que você faz com seu rosto quando está feliz ou quer ser gentil.
+Um `smile` é o que acontece quando você levanta os cantos da boca para mostrar felicidade. É algo que você faz com seu rosto quando está feliz ou quer ser gentil.
 
-`Friendly` descreve alguém que é gentil, agradável e fácil de conversar.Uma pessoa amigável faz os outros se sentirem confortáveis e felizes.
+`Friendly` descreve alguém que é gentil, agradável e fácil de conversar. Uma pessoa amigável faz os outros se sentirem confortáveis e felizes.
 
-`A friendly smile` é um sorriso que mostra que você está sendo gentil e acolhedor.Faz os outros se sentirem bem e mostra que você quer ser amigo.
+`A friendly smile` é um sorriso que mostra que você está sendo gentil e acolhedor. Faz os outros se sentirem bem e mostra que você quer ser amigo.
 
 Ouça o diálogo e preencha as lacunas.
 

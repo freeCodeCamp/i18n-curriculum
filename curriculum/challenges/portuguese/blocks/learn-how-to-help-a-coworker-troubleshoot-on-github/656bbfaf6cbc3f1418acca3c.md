@@ -3,6 +3,7 @@ id: 656bbfaf6cbc3f1418acca3c
 title: Tarefa 6
 challengeType: 22
 dashedName: task-6
+lang: en-US
 ---
 
 <!-- (Audio) Sarah: Sure, Bob. What's the problem? -->
@@ -23,7 +24,7 @@ Ouça o áudio e complete a frase.
 
 ### --feedback--
 
-`What` e `is` estão em forma abreviada.Lembre-se de capitalizar `What`.
+`What` e `is` estão em forma abreviada. Lembre-se de capitalizar `What`.
 
 # --scene--
 

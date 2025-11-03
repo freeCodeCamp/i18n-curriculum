@@ -3,6 +3,7 @@ id: 67cc2baefeeb9b62356d8ed7
 title: Tarefa 50
 challengeType: 22
 dashedName: task-50
+lang: en-US
 ---
 
 <!-- REVIEW -->
@@ -55,7 +56,7 @@ Este adjetivo comparativo descreve algo que supera outro em qualidade.
 
 ### --feedback--  
 
-Esta palavra é usada para formar o comparativo de adjetivos.Ele vem antes de um adjetivo e indica um grau mais alto.  
+Esta palavra é usada para formar o comparativo de adjetivos. Ele vem antes de um adjetivo e indica um grau mais alto.  
 
 ---
 
@@ -87,7 +88,7 @@ Este advérbio significa um pouco ou em um grau pequeno.
 
 ### --feedback--  
 
-Esta frase é usada em comparações para mostrar habilidade igual de se adaptar.A primeira palavra é uma conjunção e a segunda é um adjetivo.  
+Esta frase é usada em comparações para mostrar habilidade igual de se adaptar. A primeira palavra é uma conjunção e a segunda é um adjetivo.  
 
 ---
 
@@ -95,4 +96,4 @@ Esta frase é usada em comparações para mostrar habilidade igual de se adaptar
 
 ### --feedback--  
 
-Esta frase é usada em comparações para mostrar facilidade igual de ação.A primeira palavra é uma conjunção e a segunda é um advérbio.  
+Esta frase é usada em comparações para mostrar facilidade igual de ação. A primeira palavra é uma conjunção e a segunda é um advérbio.  

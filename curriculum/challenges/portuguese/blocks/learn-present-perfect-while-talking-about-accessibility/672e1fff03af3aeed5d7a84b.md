@@ -3,6 +3,7 @@ id: 672e1fff03af3aeed5d7a84b
 title: Tarefa 117
 challengeType: 19
 dashedName: task-117
+lang: en-US
 ---
 
 <!-- (Audio) Anna: That makes sense. Let's keep in touch to monitor the progress and ensure we're meeting our accessibility goals. -->
@@ -51,7 +52,7 @@ Anna não sugere parar; ela apoia as ideias de James e quer se manter atualizada
 
 # --explanation--
 
-Anna concorda com a abordagem de James, dizendo `That makes sense`, o que mostra que ela entende e apoia suas ideias.Ela também sugere `keeping in touch to monitor progress`, indicando seu interesse em se manter atualizada para garantir que alcancem seus objetivos compartilhados.
+Anna concorda com a abordagem de James, dizendo `That makes sense`, o que mostra que ela entende e apoia suas ideias. Ela também sugere `keeping in touch to monitor progress`, indicando seu interesse em se manter atualizada para garantir que alcancem seus objetivos compartilhados.
 
 # --scene--
 
