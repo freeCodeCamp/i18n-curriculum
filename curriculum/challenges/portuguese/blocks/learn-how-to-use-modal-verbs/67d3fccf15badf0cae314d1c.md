@@ -3,6 +3,7 @@ id: 67d3fccf15badf0cae314d1c
 title: Tarefa 7
 challengeType: 22
 dashedName: task-7
+lang: en-US
 ---
 
 <!-- (Audio) Mark: Sure, Jessica. What do I need to do? -->
@@ -35,7 +36,7 @@ Este verbo segue `need` para quando se pergunta sobre uma ação.
 
 # --explanation--
 
-`Need to` é usado quando se pergunta sobre ações necessárias.É seguido pela forma base do verbo (`do`).Por exemplo:
+`Need to` é usado quando se pergunta sobre ações necessárias. É seguido pela forma base do verbo (`do`). Por exemplo:
 
 - `We need to do more testing before releasing the app.` - É necessário testar o app antes de lançá-lo.
 

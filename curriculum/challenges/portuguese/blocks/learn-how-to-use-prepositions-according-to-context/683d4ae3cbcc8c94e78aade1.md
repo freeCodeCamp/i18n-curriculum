@@ -3,6 +3,7 @@ id: 683d4ae3cbcc8c94e78aade1
 title: Tarefa 19
 challengeType: 19
 dashedName: task-19
+lang: en-US
 ---
 
 <!-- (Audio) Bob: Exactly. It's in the back, next to the emergency exit. -->
@@ -51,7 +52,7 @@ Que algo está localizado perto da saída de emergência.
 
 # --explanation--
 
-Bob diz, `Exactly.Está na parte de trás, ao lado da saída de emergência`.Isso significa que ele está confirmando a localização de algo - bem ao lado da saída de emergência.
+Bob diz, `Exactly. Está na parte de trás, ao lado da saída de emergência`. Isso significa que ele está confirmando a localização de algo - bem ao lado da saída de emergência.
 
 Ele não fala sobre reparos, limpeza e problemas.
 

@@ -3,6 +3,7 @@ id: 67caec5ecebab7be7456df7f
 title: Tarefa 130
 challengeType: 19
 dashedName: task-130
+lang: en-US
 ---
 
 <!-- (Audio) Maria: They also said the communication isn't great because they often don't hear about changes until it's too late. -->
@@ -51,7 +52,7 @@ Maria não menciona o número de pessoas envolvidas.
 
 # --explanation--
 
-Quando você diz que algo `isn't great`, você está suavizando uma mensagem negativa (em vez de dizer `it is bad`, por exemplo).Isso faz a crítica soar mais educada ou indireta.Dê uma olhada nas seguintes sentenças:
+Quando você diz que algo `isn't great`, você está suavizando uma mensagem negativa (em vez de dizer `it is bad`, por exemplo). Isso faz a crítica soar mais educada ou indireta. Dê uma olhada nas seguintes sentenças:
 
 - `The design is bad.` - Esta é uma afirmação negativa forte, que muitas vezes soa indelicada.
 

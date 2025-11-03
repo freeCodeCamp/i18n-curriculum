@@ -3,6 +3,7 @@ id: 6660a1f8afeef3663bddaecb
 title: "Diálogo 1: Deveria Ter Percebido Isso"
 challengeType: 21
 dashedName: dialogue-1-should-have-noticed-that
+lang: en-US
 ---
 
 # --description--

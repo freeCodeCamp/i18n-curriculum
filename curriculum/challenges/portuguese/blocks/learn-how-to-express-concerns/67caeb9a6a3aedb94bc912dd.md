@@ -3,6 +3,7 @@ id: 67caeb9a6a3aedb94bc912dd
 title: Tarefa 129
 challengeType: 22
 dashedName: task-129
+lang: en-US
 ---
 
 <!-- (Audio) Maria: They also said the communication isn't great because they often don't hear about changes until it's too late. -->
@@ -35,11 +36,11 @@ Isso significa frequentemente ou muitas vezes.
 
 # --explanation--
 
-`Also` significa além de algo mencionado anteriormente.Por exemplo:
+`Also` significa além de algo mencionado anteriormente. Por exemplo:
 
 `She speaks English and also knows French.` - Isso significa que ela sabe francês além de inglês.  
 
-`Often` significa frequentemente ou regularmente.Por exemplo:
+`Often` significa frequentemente ou regularmente. Por exemplo:
 
 `He often works late on Fridays.` - Isso significa que ele trabalha até tarde muitas vezes ou regularmente às sextas-feiras.
 

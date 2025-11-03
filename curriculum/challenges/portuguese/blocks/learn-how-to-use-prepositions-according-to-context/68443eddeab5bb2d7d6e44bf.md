@@ -3,6 +3,7 @@ id: 68443eddeab5bb2d7d6e44bf
 title: Tarefa 45
 challengeType: 22
 dashedName: task-45
+lang: en-US
 ---
 
 <!-- (Audio) Bob: Last, where should we set up the break room? -->
@@ -35,11 +36,11 @@ Esta frase de duas palavras refere-se a um espaço onde os funcionários podem r
 
 # --explanation--
 
-`Set up` significa preparar ou organizar algo para uso.Por exemplo:
+`Set up` significa preparar ou organizar algo para uso. Por exemplo:
 
 `We need to set up the new computers before the meeting.` – Isso significa prepará-los.
 
-`Break room` é um lugar em um escritório onde as pessoas descansam, comem ou relaxam.Por exemplo:
+`Break room` é um lugar em um escritório onde as pessoas descansam, comem ou relaxam. Por exemplo:
 
 `Let's meet in the break room after lunch.` – Isso se refere a um espaço destinado para fazer uma pausa.
 

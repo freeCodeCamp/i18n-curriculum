@@ -3,6 +3,7 @@ id: 67e5a6e34bfc4b5af2c00ddf
 title: Tarefa 51
 challengeType: 22
 dashedName: task-51
+lang: en-US
 ---
 
 <!-- (Audio) Jessica: Well, we've discovered a critical bug that might affect the user interface. -->
@@ -23,7 +24,7 @@ Ouça o áudio para completar a frase abaixo.
 
 ### --feedback--
 
-Isso significa muito sério ou importante.É frequentemente usado quando algo precisa de atenção imediata.
+Isso significa muito sério ou importante. É frequentemente usado quando algo precisa de atenção imediata.
 
 ---
 
@@ -31,15 +32,15 @@ Isso significa muito sério ou importante.É frequentemente usado quando algo pr
 
 ### --feedback--
 
-Isso significa mudar ou influenciar algo.Frequentemente descreve como uma coisa causa uma mudança em outra.
+Isso significa mudar ou influenciar algo. Frequentemente descreve como uma coisa causa uma mudança em outra.
 
 # --explanation--
 
-`Critical` significa extremamente importante ou sério.Por exemplo:
+`Critical` significa extremamente importante ou sério. Por exemplo:
 
 `We have a critical deadline tomorrow.` – Isso significa que o prazo é muito importante e não pode ser perdido.
 
-`To affect` significa ter influência sobre algo ou causar uma mudança.Por exemplo:
+`To affect` significa ter influência sobre algo ou causar uma mudança. Por exemplo:
 
 `The new policy may affect employee performance.` – Isso significa que a política pode mudar como os funcionários desempenham suas funções.
 

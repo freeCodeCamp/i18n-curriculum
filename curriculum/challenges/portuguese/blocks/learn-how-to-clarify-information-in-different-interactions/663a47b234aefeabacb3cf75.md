@@ -3,13 +3,14 @@ id: 663a47b234aefeabacb3cf75
 title: Tarefa 27
 challengeType: 22
 dashedName: task-27
+lang: en-US
 ---
 
 <!-- (Audio) Sophie: Sure. Tom is a tall guy with a friendly smile. -->
 
 # --description--
 
-Outra característica distintiva que alguém tem é sua altura.Você pode dizer, por exemplo, que alguém é `tall` ou `short`.Uma pessoa `tall` é alguém acima da média em termos de altura.O oposto é quando alguém é `short`, quando essa pessoa está abaixo da média.
+Outra característica distintiva que alguém tem é sua altura. Você pode dizer, por exemplo, que alguém é `tall` ou `short`. Uma pessoa `tall` é alguém acima da média em termos de altura. O oposto é quando alguém é `short`, quando essa pessoa está abaixo da média.
 
 # --fillInTheBlank--
 

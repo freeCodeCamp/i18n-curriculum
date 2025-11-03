@@ -3,6 +3,7 @@ id: 67cafac07dc081eefb4d7adb
 title: Tarefa 135
 challengeType: 19
 dashedName: task-135
+lang: en-US
 ---
 
 <!-- (Audio) Bob: That makes sense. Could you set up a weekly meeting to discuss progress and keep everyone in the loop? -->
@@ -51,7 +52,7 @@ Para garantir que todos fiquem atualizados sobre o projeto.
 
 # --explanation--
 
-`To keep someone in the loop` significa mantê-los informados sobre atualizações e decisões importantes.Por exemplo:
+`To keep someone in the loop` significa mantê-los informados sobre atualizações e decisões importantes. Por exemplo:
 
 `Please keep me in the loop about any changes to the schedule.` - Isso significa que o falante quer ser atualizado se algo mudar.
 

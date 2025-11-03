@@ -3,15 +3,16 @@ id: 660684bfc24bf48cfaaf9cfa
 title: Tarefa 8
 challengeType: 22
 dashedName: task-8
+lang: en-US
 ---
 
 <!-- (Audio) Sophie: Thanks, I'll give it a shot. -->
 
 # --description--
 
-`Give it a shot` significa tentar fazer algo.É como dizer `Try it`.
+`Give it a shot` significa tentar fazer algo. É como dizer `Try it`.
 
-Por exemplo, se seu amigo estiver hesitante em entrar em uma aula de programação porque acha que pode ser muito difícil, você poderia dizer: `Why not give it a shot?You might enjoy it more than you think.` para incentivá-lo a tentar participar dessa aula.
+Por exemplo, se seu amigo estiver hesitante em entrar em uma aula de programação porque acha que pode ser muito difícil, você poderia dizer: `Why not give it a shot? You might enjoy it more than you think.` para incentivá-lo a tentar participar dessa aula.
 
 # --fillInTheBlank--
 
@@ -25,7 +26,7 @@ Por exemplo, se seu amigo estiver hesitante em entrar em uma aula de programaç�
 
 ### --feedback--
 
-It is short for `I will`.Sophie está expressando sua decisão de tentar o que Brian sugeriu.
+It is short for `I will`. Sophie está expressando sua decisão de tentar o que Brian sugeriu.
 
 ---
 
@@ -33,7 +34,7 @@ It is short for `I will`.Sophie está expressando sua decisão de tentar o que B
 
 ### --feedback--
 
-Neste contexto, significa uma tentativa de fazer algo.Sophie está dizendo que tentará o que Brian recomendou.
+Neste contexto, significa uma tentativa de fazer algo. Sophie está dizendo que tentará o que Brian recomendou.
 
 # --scene--
 

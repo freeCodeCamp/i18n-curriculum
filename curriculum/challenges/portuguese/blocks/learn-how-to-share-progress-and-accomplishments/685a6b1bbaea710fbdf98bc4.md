@@ -3,6 +3,7 @@ id: 685a6b1bbaea710fbdf98bc4
 title: Tarefa 42
 challengeType: 22
 dashedName: task-42
+lang: en-US
 ---
 
 <!-- REVIEW -->

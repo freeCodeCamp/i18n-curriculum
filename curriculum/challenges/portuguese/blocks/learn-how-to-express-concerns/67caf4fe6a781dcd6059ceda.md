@@ -3,6 +3,7 @@ id: 67caf4fe6a781dcd6059ceda
 title: Tarefa 131
 challengeType: 22
 dashedName: task-131
+lang: en-US
 ---
 
 <!-- (Audio) Maria: It'd be helpful if we had more regular check-ins. -->
@@ -35,11 +36,11 @@ Isso significa acontecer de forma consistente ou em intervalos definidos.
 
 # --explanation--
 
-`Helpful` significa fornecer assistência ou tornar algo mais fácil.Por exemplo:
+`Helpful` significa fornecer assistência ou tornar algo mais fácil. Por exemplo:
 
 `It was helpful to have clear instructions before starting the task.` - Isso significa que as instruções tornaram a tarefa mais fácil de completar.
 
-`Regular` significa acontecer de forma consistente ou em intervalos definidos.Por exemplo:
+`Regular` significa acontecer de forma consistente ou em intervalos definidos. Por exemplo:
 
 `We have regular meetings every Monday.` - Isso significa que as reuniões acontecem consistentemente às segundas-feiras.
 

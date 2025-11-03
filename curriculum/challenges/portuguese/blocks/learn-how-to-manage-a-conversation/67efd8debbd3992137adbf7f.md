@@ -3,6 +3,7 @@ id: 67efd8debbd3992137adbf7f
 title: Tarefa 91
 challengeType: 22
 dashedName: task-91
+lang: en-US
 ---
 
 <!-- (Audio) Brian: How's everything going on your end? -->
@@ -27,7 +28,7 @@ Antecedido por `on your`, isso se refere à situação, lado ou localização de
 
 # --explanation--
 
-`On your end` é usado para se referir à situação de alguém ou ao que está acontecendo com essa pessoa, frequentemente em uma conversa ou contexto de trabalho.Por exemplo:
+`On your end` é usado para se referir à situação de alguém ou ao que está acontecendo com essa pessoa, frequentemente em uma conversa ou contexto de trabalho. Por exemplo:
 
 `Let me know if you need any help on your end.` – Isso significa que o falante quer saber se a outra pessoa precisa de ajuda no trabalho ou na situação dela.
 

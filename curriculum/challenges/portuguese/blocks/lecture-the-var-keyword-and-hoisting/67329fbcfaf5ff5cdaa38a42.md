@@ -5,7 +5,7 @@ challengeType: 19
 dashedName: what-is-the-var-keyword-and-why-is-it-no-longer-suggested-to-use-it
 ---
 
-# --description--
+# --interactive--
 
 A palavra-chave `var` em JavaScript é uma das formas originais de declarar variáveis. Faz parte da linguagem desde o seu início e por muitos anos permaneceu o método principal para criar variáveis. No entanto, à medida que o JavaScript evoluiu e os desenvolvedores ganharam mais experiência com a linguagem, certas desvantagens de usar `var` tornaram-se aparentes, levando à introdução de `let` e `const` em 2015.
 
@@ -13,14 +13,22 @@ Quando você declara uma variável com `var`, ela se torna com escopo de funçã
 
 Um problema com `var` é que ele permite que você redeclare a mesma variável várias vezes sem gerar um erro. Isso pode levar a sobrescritas acidentais e tornar a depuração mais difícil.
 
+:::interactive_editor
+
 ```js
 var num = 5;
+console.log(num); // 5
 
 // This is allowed and doesn't throw an error
 var num = 10;
+console.log(num); // 10
 ```
 
+:::
+
 O problema mais significativo com `var` é a falta de escopo de bloco. Variáveis declaradas com `var` dentro de um bloco como uma instrução `if` ou um loop `for` ainda são acessíveis fora desse bloco. 
+
+:::interactive_editor
 
 ```js
 if (true) {
@@ -28,6 +36,8 @@ if (true) {
 }
 console.log(num); // 5
 ```
+
+:::
 
 Esse comportamento pode levar a vazamentos de variáveis não intencionais e tornar seu código mais propenso a bugs.
 

@@ -3,15 +3,16 @@ id: 662e4f2edbb46a1dc6efc94f
 title: Tarefa 37
 challengeType: 22
 dashedName: task-37
+lang: en-US
 ---
 
 <!-- (Audio) Tom: Don't worry. Debugging is a common challenge for programmers. -->
 
 # --description--
 
-`Common` é usado para descrever algo que acontece frequentemente ou é amplamente compartilhado entre muitas pessoas.Por exemplo, `Colds are a common illness during the winter.` Isso significa que é um problema de saúde comum que muitas pessoas enfrentam durante essa época do ano.
+`Common` é usado para descrever algo que acontece frequentemente ou é amplamente compartilhado entre muitas pessoas. Por exemplo, `Colds are a common illness during the winter.` Isso significa que é um problema de saúde comum que muitas pessoas enfrentam durante essa época do ano.
 
-`Challenge` refere-se a uma tarefa ou situação que requer esforço especial para ser realizada porque é difícil.Por exemplo, `Learning to ride a bike was a big challenge for her at first.` Esta frase descreve como aprender a andar de bicicleta apresentou dificuldades inicialmente.
+`Challenge` refere-se a uma tarefa ou situação que requer esforço especial para ser realizada porque é difícil. Por exemplo, `Learning to ride a bike was a big challenge for her at first.` Esta frase descreve como aprender a andar de bicicleta apresentou dificuldades inicialmente.
 
 # --fillInTheBlank--
 

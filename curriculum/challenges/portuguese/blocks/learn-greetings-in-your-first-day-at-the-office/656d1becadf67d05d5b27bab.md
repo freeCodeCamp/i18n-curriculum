@@ -3,6 +3,7 @@ id: 656d1becadf67d05d5b27bab
 title: Tarefa 149
 challengeType: 19
 dashedName: task-149
+lang: en-US
 ---
 
 <!--
@@ -13,13 +14,13 @@ Brian: But it's true. She's the person to go to if you need help.
 
 # --description--
 
-Assim como quando você aprendeu sobre o pronome `he`, pronomes como `she` são usados para se referir a indivíduos do sexo feminino.Eles ajudam a evitar repetições na conversa.Veja esta parte do diálogo:
+Assim como quando você aprendeu sobre o pronome `he`, pronomes como `she` são usados para se referir a indivíduos do sexo feminino. Eles ajudam a evitar repetições na conversa. Veja esta parte do diálogo:
 
 - Sophie: `Oh, come on, Brian.`
 
 - Brian: `But it's true. She's the person to go to if you need help.`
 
-Aqui, `she` é usado por Brian para se referir a Sophie.Em vez de repetir o nome Sophie, Brian usa o pronome `she` para tornar a conversa mais fluida e evitar repetições.
+Aqui, `she` é usado por Brian para se referir a Sophie. Em vez de repetir o nome Sophie, Brian usa o pronome `she` para tornar a conversa mais fluida e evitar repetições.
 
 # --questions--
 

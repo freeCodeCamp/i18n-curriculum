@@ -3,6 +3,7 @@ id: 65fc9c5db0a80e6e3d3cfce5
 title: Tarefa 37
 challengeType: 22
 dashedName: task-37
+lang: en-US
 ---
 
 <!-- (Audio) Brian: Yeah, wow. You know what? This was really a motivating talk. Thanks for sharing your thoughts. -->
@@ -23,7 +24,7 @@ Nesta parte da conversa, Brian fala sobre como a palestra o fez sentir e agradec
 
 ### --feedback--
 
-Esta palavra significa algo que lhe dá energia ou uma razão para fazer algo.É como quando as palavras de alguém fazem você querer se esforçar mais.
+Esta palavra significa algo que lhe dá energia ou uma razão para fazer algo. É como quando as palavras de alguém fazem você querer se esforçar mais.
 
 ---
 
@@ -31,7 +32,7 @@ Esta palavra significa algo que lhe dá energia ou uma razão para fazer algo.É
 
 ### --feedback--
 
-Esta palavra significa dar algo que você tem para outras pessoas.É como quando você conta a alguém suas ideias ou sentimentos.
+Esta palavra significa dar algo que você tem para outras pessoas. É como quando você conta a alguém suas ideias ou sentimentos.
 
 # --scene--
 

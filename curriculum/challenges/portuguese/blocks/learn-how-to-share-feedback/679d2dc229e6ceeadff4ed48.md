@@ -3,6 +3,7 @@ id: 679d2dc229e6ceeadff4ed48
 title: Tarefa 92
 challengeType: 22
 dashedName: task-92
+lang: en-US
 ---
 
 <!-- (Audio) James: Do you think we need to update the software again? If we do, it might delay other projects. -->
@@ -35,11 +36,11 @@ Esta palavra significa adiar ou fazer algo acontecer mais tarde do que o planeja
 
 # --explanation--
 
-Em vez de dizer `If we update the software, it might delay other projects.`, James encurta para `If we do`.A palavra `do` é frequentemente usada para evitar repetir o verbo ou uma frase completa usada na sentença anterior.Por exemplo:
+Em vez de dizer `If we update the software, it might delay other projects.`, James encurta para `If we do`. A palavra `do` é frequentemente usada para evitar repetir o verbo ou uma frase completa usada na sentença anterior. Por exemplo:
 
 `She wants to join the meeting` e, se ela o fizer, precisará do link. - Em vez de dizer `if she joins the meeting`, você pode usar `does` para substituí-lo e assim evitar a repetição.
 
-`To delay` significa fazer algo acontecer mais tarde do que o planejado.Por exemplo:
+`To delay` significa fazer algo acontecer mais tarde do que o planejado. Por exemplo:
 
 `The flight was delayed due to bad weather.` - Isso significa que o voo foi adiado e não partiu no horário.
 

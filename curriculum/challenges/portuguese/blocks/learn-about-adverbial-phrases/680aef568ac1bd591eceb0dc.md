@@ -3,6 +3,7 @@ id: 680aef568ac1bd591eceb0dc
 title: Tarefa 98
 challengeType: 22
 dashedName: task-98
+lang: en-US
 ---
 
 <!-- (Audio) Riker: The ads cost more than we thought they would. -->
@@ -23,11 +24,11 @@ Ouça o áudio para completar a frase abaixo.
 
 ### --feedback--
 
-Esta é uma forma abreviada para algo que significa mensagens ou conteúdo criado para promover um produto, serviço ou evento.Use a forma plural.
+Esta é uma forma abreviada para algo que significa mensagens ou conteúdo criado para promover um produto, serviço ou evento. Use a forma plural.
 
 # --explanation--
 
-Um `ad` (abreviação de `advertisement`) é um conteúdo criado para chamar a atenção das pessoas e incentivá-las a comprar algo, usar um serviço ou tomar uma ação.Anúncios podem aparecer em redes sociais, sites, TV, rádio e mais.Por exemplo:
+Um `ad` (abreviação de `advertisement`) é um conteúdo criado para chamar a atenção das pessoas e incentivá-las a comprar algo, usar um serviço ou tomar uma ação. Anúncios podem aparecer em redes sociais, sites, TV, rádio e mais. Por exemplo:
 
 - `They launched a new ad campaign for their latest product.` – Isso significa que a empresa criou e compartilhou conteúdo promocional para aumentar o interesse em um produto.
 

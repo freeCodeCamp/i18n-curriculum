@@ -3,6 +3,7 @@ id: 679afc19cfcee1abd9e60ce2
 title: Tarefa 61
 challengeType: 19
 dashedName: task-61
+lang: en-US
 ---
 
 <!-- (Audio) Brian: If people don't feel valued, they might lose motivation, right? -->
@@ -51,11 +52,11 @@ Não ouvir as pessoas não faz com que elas concordem com tudo — pode fazer co
 
 # --explanation--
 
-`To feel valued` descreve a sensação que você tem quando acredita que seus pensamentos, esforços e contribuições são apreciados.Por exemplo:
+`To feel valued` descreve a sensação que você tem quando acredita que seus pensamentos, esforços e contribuições são apreciados. Por exemplo:
 
-O gerente de projeto sempre dedica um tempo durante a reunião para ouvir o que temos a dizer.Isso faz com que todos na equipe se sintam valorizados.` - Isso significa que a atitude do gerente de projeto está trazendo bons resultados para a equipe.
+O gerente de projeto sempre dedica um tempo durante a reunião para ouvir o que temos a dizer. Isso faz com que todos na equipe se sintam valorizados.` - Isso significa que a atitude do gerente de projeto está trazendo bons resultados para a equipe.
 
-O que Brian sugere é que, se as opiniões dos membros da equipe forem ignoradas, eles podem se sentir sem importância.Se os membros da equipe se sentirem valorizados, é mais provável que permaneçam engajados e contribuam com novas ideias.
+O que Brian sugere é que, se as opiniões dos membros da equipe forem ignoradas, eles podem se sentir sem importância. Se os membros da equipe se sentirem valorizados, é mais provável que permaneçam engajados e contribuam com novas ideias.
 
 Por outro lado, se as pessoas sentirem que suas opiniões não importam, elas podem se desengajar e perder a motivação para contribuir, o que pode prejudicar o trabalho em equipe e a produtividade geral.
 

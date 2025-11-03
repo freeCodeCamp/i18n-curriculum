@@ -3,6 +3,7 @@ id: 679cebb26c5d61aaed58b4db
 title: Tarefa 79
 challengeType: 19
 dashedName: task-79
+lang: en-US
 ---
 
 <!-- (Audio) Maria: Did you hear anything about this? James: No, I didn't. What did he say? -->
@@ -51,7 +52,7 @@ James afirma que ele não ouviu nada.
 
 # --explanation--
 
-Respostas curtas com verbos auxiliares repetem o auxiliar da pergunta para confirmar ou negar algo.Neste caso, Maria pergunta, `Did you hear anything?`, e James responde, `No, I didn't.` em vez de apenas dizer `No.` Aqui estão alguns outros exemplos: 
+Respostas curtas com verbos auxiliares repetem o auxiliar da pergunta para confirmar ou negar algo. Neste caso, Maria pergunta, `Did you hear anything?`, e James responde, `No, I didn't.` em vez de apenas dizer `No.` Aqui estão alguns outros exemplos: 
 
 - `Are you coming to the meeting?` → `Yes, I am.`  
 

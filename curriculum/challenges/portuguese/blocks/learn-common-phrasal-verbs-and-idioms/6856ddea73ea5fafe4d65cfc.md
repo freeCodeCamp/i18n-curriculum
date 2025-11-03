@@ -3,6 +3,7 @@ id: 6856ddea73ea5fafe4d65cfc
 title: Tarefa 95
 challengeType: 19
 dashedName: task-95
+lang: en-US
 ---
 
 <!-- (Audio) Jake: We could incorporate an interactive quiz during the onboarding process. It could teach users how to recognize and handle potential phishing attempts. -->
@@ -37,7 +38,7 @@ Isso soa duvidoso, não apoiador.
 
 # --explanation--
 
-`That's an excellent suggestion.` é uma forma educada e positiva de elogiar a ideia de alguém mostrando forte concordância e aprovação.Por exemplo:
+`That's an excellent suggestion.` é uma forma educada e positiva de elogiar a ideia de alguém mostrando forte concordância e aprovação. Por exemplo:
 
 - Pessoa 1: `Let's add more visuals to the report.` – A primeira pessoa sugere que eles incorporem mais gráficos e imagens ao relatório para torná-lo mais vívido.
 

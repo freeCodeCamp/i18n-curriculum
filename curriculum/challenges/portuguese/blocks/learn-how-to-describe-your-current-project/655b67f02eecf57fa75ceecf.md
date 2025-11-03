@@ -3,13 +3,14 @@ id: 655b67f02eecf57fa75ceecf
 title: Tarefa 8
 challengeType: 22
 dashedName: task-8
+lang: en-US
 ---
 
 <!-- (Audio) Sophie: That's important work. I'm helping our team learn how to stay safe online. -->
 
 # --description--
 
-To `stay` is used to indicate remaining in a particular state or condition.É frequentemente usado em instruções ou conselhos para manter-se em uma determinada situação.Por exemplo:
+To `stay` is used to indicate remaining in a particular state or condition. É frequentemente usado em instruções ou conselhos para manter-se em uma determinada situação. Por exemplo:
 
 - `Stay safe online.` - Continue sendo seguro enquanto usa a internet. 
 

@@ -3,6 +3,7 @@ id: 6821b0fc7feba25dfba3d6ae
 title: Tarefa 105
 challengeType: 19
 dashedName: task-105
+lang: en-US
 ---
 
 <!-- READING -->

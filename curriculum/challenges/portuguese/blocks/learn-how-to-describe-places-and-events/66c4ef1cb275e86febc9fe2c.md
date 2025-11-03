@@ -3,6 +3,7 @@ id: 66c4ef1cb275e86febc9fe2c
 title: Tarefa 113
 challengeType: 22
 dashedName: task-113
+lang: en-US
 ---
 
 <!-- Audio Reference:
@@ -27,7 +28,7 @@ Ouça o áudio para completar a frase abaixo.
 
 ### --feedback--
 
-A ação de mostrar ou renderizar algo.Esta palavra termina em `-ing`.
+A ação de mostrar ou renderizar algo. Esta palavra termina em `-ing`.
 
 ---
 
@@ -35,11 +36,11 @@ A ação de mostrar ou renderizar algo.Esta palavra termina em `-ing`.
 
 ### --feedback--
 
-Indica que a extensão está ativa e funcionando.Esta palavra termina em `-ing`.
+Indica que a extensão está ativa e funcionando. Esta palavra termina em `-ing`.
 
 # --explanation--
 
-Um gerúndio é uma forma verbal terminada em `-ing` que funciona como um substantivo.Nesta frase, `displaying` e `running` são gerúndios que descrevem ações em andamento.Por exemplo:
+Um gerúndio é uma forma verbal terminada em `-ing` que funciona como um substantivo. Nesta frase, `displaying` e `running` são gerúndios que descrevem ações em andamento. Por exemplo:
 
 - `Updating the software is essential.` - Aqui, `Updating` é um gerúndio que descreve uma ação.
 

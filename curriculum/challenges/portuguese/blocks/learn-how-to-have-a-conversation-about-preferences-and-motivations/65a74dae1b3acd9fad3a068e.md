@@ -3,15 +3,16 @@ id: 65a74dae1b3acd9fad3a068e
 title: Tarefa 132
 challengeType: 22
 dashedName: task-132
+lang: en-US
 ---
 
 <!-- (Audio) Tom: For me, I like the idea of practicing my skills and getting recognition for my contributions. -->
 
 # --description--
 
-`To recognize` significa identificar alguém ou algo de antes, ou reconhecer a existência ou validade de algo.Por exemplo, `I recognize your efforts in completing this project.`
+`To recognize` significa identificar alguém ou algo de antes, ou reconhecer a existência ou validade de algo. Por exemplo, `I recognize your efforts in completing this project.`
 
-`Recognition` é a forma substantiva de `recognize` e refere-se ao ato de reconhecer ou dar crédito a alguém por seus esforços ou conquistas.Por exemplo, `He received recognition for his innovative work.`
+`Recognition` é a forma substantiva de `recognize` e refere-se ao ato de reconhecer ou dar crédito a alguém por seus esforços ou conquistas. Por exemplo, `He received recognition for his innovative work.`
 
 # --fillInTheBlank--
 

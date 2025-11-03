@@ -3,6 +3,7 @@ id: 65a4f2c2d1bbdfbe82cb3fdd
 title: Tarefa 94
 challengeType: 22
 dashedName: task-94
+lang: en-US
 ---
 
 <!-- (Audio) Bob: Hey, Sarah, do you know what really gets me excited about tech? It's all those amazing gadgets! -->
@@ -27,7 +28,7 @@ Por exemplo, `My new fitness tracker gadget helps me keep track of my steps and 
 
 ### --feedback--
 
-Esta palavra significa que algo causa um sentimento ou uma reação.Aqui, é usado para falar sobre o que entusiasma Bob em relação à tecnologia.Está conjugado na terceira pessoa do singular.
+Esta palavra significa que algo causa um sentimento ou uma reação. Aqui, é usado para falar sobre o que entusiasma Bob em relação à tecnologia. Está conjugado na terceira pessoa do singular.
 
 ---
 
@@ -35,7 +36,7 @@ Esta palavra significa que algo causa um sentimento ou uma reação.Aqui, é usa
 
 ### --feedback--
 
-Esta palavra é usada para apontar coisas específicas que estão sendo mencionadas, neste caso, os gadgets.Plural de `that`.
+Esta palavra é usada para apontar coisas específicas que estão sendo mencionadas, neste caso, os gadgets. Plural de `that`.
 
 ---
 
@@ -43,7 +44,7 @@ Esta palavra é usada para apontar coisas específicas que estão sendo menciona
 
 ### --feedback--
 
-Esta palavra se refere a pequenos dispositivos eletrônicos ou ferramentas que são úteis ou interessantes.É frequentemente usado para falar sobre itens tecnológicos legais. It is in plural.
+Esta palavra se refere a pequenos dispositivos eletrônicos ou ferramentas que são úteis ou interessantes. É frequentemente usado para falar sobre itens tecnológicos legais.  It is in plural.
 
 # --scene--
 

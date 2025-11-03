@@ -3,6 +3,7 @@ id: 67a9f44e6dcabb0c402a9bfb
 title: Tarefa 5
 challengeType: 19
 dashedName: task-5
+lang: en-US
 ---
 
 <!-- (Audio) Bob: Do you think that's a good idea? -->
@@ -51,7 +52,7 @@ Se Anna acha que usar o `stipend` para móveis de escritório é uma boa ideia.
 
 # --explanation--
 
-Bob pergunta, `Do you think that's a good idea?` Esta é uma forma de pedir a opinião de alguém sobre uma sugestão ou plano.Aqui estão outras formas de pedir uma opinião:
+Bob pergunta, `Do you think that's a good idea?` Esta é uma forma de pedir a opinião de alguém sobre uma sugestão ou plano. Aqui estão outras formas de pedir uma opinião:
 
 - `Do you think this will work?`
 
@@ -59,7 +60,7 @@ Bob pergunta, `Do you think that's a good idea?` Esta é uma forma de pedir a op
 
 - `How do you feel about this plan?`
 
-Neste diálogo, Bob está se referindo aos funcionários que usam o subsídio de trabalho remoto para móveis de escritório.Em vez de expressar sua própria opinião, ele está perguntando a Anna o que ela pensa.
+Neste diálogo, Bob está se referindo aos funcionários que usam o subsídio de trabalho remoto para móveis de escritório. Em vez de expressar sua própria opinião, ele está perguntando a Anna o que ela pensa.
 
 # --scene--
 

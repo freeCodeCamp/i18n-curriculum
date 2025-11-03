@@ -3,15 +3,16 @@ id: 65dabf5eb13aae9ff91c40a2
 title: Tarefa 108
 challengeType: 22
 dashedName: task-108
+lang: en-US
 ---
 
 <!-- (Audio) Sophie: And you don't have to search for expensive solutions for that. -->
 
 # --description--
 
-A frase `search for` significa procurar algo ou tentar encontrar algo por meio da exploração.Por exemplo, `I need to search for my lost keys` significa procurar as chaves.
+A frase `search for` significa procurar algo ou tentar encontrar algo por meio da exploração. Por exemplo, `I need to search for my lost keys` significa procurar as chaves.
 
-A palavra `expensive` descreve algo que custa muito dinheiro.Por exemplo, `That car is too expensive for me` significa que o carro custa muito.
+A palavra `expensive` descreve algo que custa muito dinheiro. Por exemplo, `That car is too expensive for me` significa que o carro custa muito.
 
 Uma `solution` é uma resposta para um problema ou uma forma de resolver uma questão.
 

@@ -3,13 +3,14 @@ id: 6579cf3ada08bdcfd5eae689
 title: Tarefa 5
 challengeType: 19
 dashedName: task-5
+lang: en-US
 ---
 
 <!-- (Audio) Sophie: Sure, Bob. I could use some help with a coding problem. -->
 
 # --description--
 
-Neste diálogo, Sophie está fazendo uma solicitação para Bob.Compreender a natureza do pedido dela é essencial para uma comunicação e colaboração eficazes da equipe, especialmente em ambientes técnicos onde resolver problemas juntos é comum.
+Neste diálogo, Sophie está fazendo uma solicitação para Bob. Compreender a natureza do pedido dela é essencial para uma comunicação e colaboração eficazes da equipe, especialmente em ambientes técnicos onde resolver problemas juntos é comum.
 
 # --questions--
 

@@ -3,6 +3,7 @@ id: 67a75a9acd71d2ed6eb9a6fa
 title: Tarefa 20
 challengeType: 22
 dashedName: task-20
+lang: en-US
 ---
 
 <!-- (Audio) Linda: Absolutely. And I can also prepare some user scenarios for testing, so we can ensure a smooth user experience. -->
@@ -27,7 +28,7 @@ Esta frase de duas palavras refere-se a diferentes situações que representam c
 
 # --explanation--
 
-`User scenarios` refere-se a diferentes situações que descrevem como os usuários interagem com um produto para alcançar um objetivo.Ele ajuda as equipes a testar e melhorar a experiência do usuário.Por exemplo:
+`User scenarios` refere-se a diferentes situações que descrevem como os usuários interagem com um produto para alcançar um objetivo. Ele ajuda as equipes a testar e melhorar a experiência do usuário. Por exemplo:
 
 `We created user scenarios to see how customers navigate the checkout process.` – Isso significa que a equipe simulou diferentes maneiras pelas quais os usuários completam uma compra para identificar quaisquer problemas.  
 

@@ -3,6 +3,7 @@ id: 67ee802cf777fd1dcdeac13a
 title: Tarefa 19
 challengeType: 19
 dashedName: task-19
+lang: en-US
 ---
 
 <!-- (audio) Sophie: No problem. You should also remember to use comments in your code. -->
@@ -51,7 +52,7 @@ Mark deve usar notas no seu código.
 
 # --explanation--
 
-Um `comment` é uma nota no código que ajuda a explicar o que ele faz.Por exemplo:
+Um `comment` é uma nota no código que ajuda a explicar o que ele faz. Por exemplo:
 
 - `I added a comment to explain why this loop is necessary.` - Você escreveu um comentário para descrever por que determinado loop é usado.
 

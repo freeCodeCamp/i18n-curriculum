@@ -3,15 +3,16 @@ id: 662347b1bb7b3cdfcccffa57
 title: Tarefa 50
 challengeType: 22
 dashedName: task-50
+lang: en-US
 ---
 
 <!-- (Audio) Brian: Sophie, I heard you're working on fixing that bug in the user authentication module. Need any help? -->
 
 # --description--
 
-`Heard` é o passado do verbo `to hear`, que significa tornar-se ciente de algo através dos ouvidos ou ser informado de algo.Por exemplo, `I heard the news yesterday` significa que você tomou conhecimento da notícia no dia anterior.
+`Heard` é o passado do verbo `to hear`, que significa tornar-se ciente de algo através dos ouvidos ou ser informado de algo. Por exemplo, `I heard the news yesterday` significa que você tomou conhecimento da notícia no dia anterior.
 
-Um `authentication module` em um contexto de software é uma parte de um sistema responsável por verificar a identidade dos usuários.É frequentemente usado em sistemas de login.Por exemplo, `The authentication module checks the username and password` significa que ele verifica as credenciais do usuário.
+Um `authentication module` em um contexto de software é uma parte de um sistema responsável por verificar a identidade dos usuários. É frequentemente usado em sistemas de login. Por exemplo, `The authentication module checks the username and password` significa que ele verifica as credenciais do usuário.
 
 # --fillInTheBlank--
 

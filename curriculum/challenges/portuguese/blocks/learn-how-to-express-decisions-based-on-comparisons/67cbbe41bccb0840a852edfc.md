@@ -3,6 +3,7 @@ id: 67cbbe41bccb0840a852edfc
 title: Tarefa 44
 challengeType: 22
 dashedName: task-44
+lang: en-US
 ---
 
 <!-- (audio) Sophie: That's good to know. I think I'll go with SafeGuard since security is our top priority, but I'll keep in mind the integration challenges. Thanks for your help, Jake. -->
@@ -23,7 +24,7 @@ Ouça o áudio para completar a frase abaixo.
 
 ### --feedback--
 
-Esta frase de três palavras é usada para reconhecer e mostrar apreço por receber informações úteis ou importantes.É frequentemente usado quando você aprende algo útil.
+Esta frase de três palavras é usada para reconhecer e mostrar apreço por receber informações úteis ou importantes. É frequentemente usado quando você aprende algo útil.
 
 ---
 
@@ -43,15 +44,15 @@ Esta frase de duas palavras refere-se a algo que é o mais importante ou urgente
 
 # --explanation--
 
-`Good to know` é usado para mostrar que a informação compartilhada é útil ou apreciada.Por exemplo:
+`Good to know` é usado para mostrar que a informação compartilhada é útil ou apreciada. Por exemplo:
 
 `It's good to know that the software is easy to use.` - Isso significa que o falante aprecia saber que o software é fácil de usar.
 
-`Go with` significa escolher algo, geralmente após alguma reflexão ou comparação.Por exemplo:
+`Go with` significa escolher algo, geralmente após alguma reflexão ou comparação. Por exemplo:
 
 `After much discussion, we went with the cheaper option.` - Isso significa que você escolheu a opção menos cara após considerar diferentes escolhas.
 
-`Top priority` significa que algo é a coisa mais importante a considerar ou focar.É frequentemente usado em contextos de trabalho ou tomada de decisão.Por exemplo:
+`Top priority` significa que algo é a coisa mais importante a considerar ou focar. É frequentemente usado em contextos de trabalho ou tomada de decisão. Por exemplo:
 
 `Our top priority right now is improving the website's performance.` - Isso significa que a tarefa mais importante no momento é melhorar o desempenho do site, tornando isso um foco principal.
 

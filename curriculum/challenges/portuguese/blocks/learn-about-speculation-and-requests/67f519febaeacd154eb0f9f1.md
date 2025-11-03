@@ -3,6 +3,7 @@ id: 67f519febaeacd154eb0f9f1
 title: Tarefa 96
 challengeType: 22
 dashedName: task-96
+lang: en-US
 ---
 
 <!-- (audio) Jake: For now, let's gather more information and stay vigilant. -->
@@ -27,7 +28,7 @@ Esta palavra significa estar alerta e observar cuidadosamente possíveis perigos
 
 # --explanation--
 
-`Vigilant` significa estar atento e cauteloso para detectar possíveis ameaças.Por exemplo:
+`Vigilant` significa estar atento e cauteloso para detectar possíveis ameaças. Por exemplo:
 
 - `The IT team is always vigilant when monitoring the network.` - A equipe de TI permanece alerta e cuidadosa ao verificar a rede.
 

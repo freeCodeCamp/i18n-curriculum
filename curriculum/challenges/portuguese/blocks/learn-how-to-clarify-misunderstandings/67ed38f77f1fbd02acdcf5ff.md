@@ -3,6 +3,7 @@ id: 67ed38f77f1fbd02acdcf5ff
 title: Tarefa 53
 challengeType: 22
 dashedName: task-53
+lang: en-US
 ---
 
 <!-- (Audio) Lisa: Sure, Mark. What's going on? -->
@@ -27,7 +28,7 @@ Esta frase de duas palavras é usada para perguntar sobre o que está acontecend
 
 # --explanation--
 
-`What's going on?` é uma forma comum de perguntar a alguém o que está acontecendo, qual é a situação ou qual problema ou evento está ocorrendo.Por exemplo:
+`What's going on?` é uma forma comum de perguntar a alguém o que está acontecendo, qual é a situação ou qual problema ou evento está ocorrendo. Por exemplo:
 
 `What's going on at the meeting?` – Alguém está perguntando o que está acontecendo durante a reunião.
 

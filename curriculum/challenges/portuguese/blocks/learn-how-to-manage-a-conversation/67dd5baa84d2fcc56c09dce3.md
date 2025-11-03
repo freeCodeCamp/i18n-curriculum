@@ -3,6 +3,7 @@ id: 67dd5baa84d2fcc56c09dce3
 title: Tarefa 15
 challengeType: 22
 dashedName: task-15
+lang: en-US
 ---
 
 <!-- (Audio) James: By the way, did we decide on the deadline for the first phase? -->
@@ -35,11 +36,11 @@ Isto se refere a uma etapa ou parte específica de um processo ou projeto.
 
 # --explanation--
 
-`To decide` significa escolher algo depois de pensar sobre isso.Por exemplo:
+`To decide` significa escolher algo depois de pensar sobre isso. Por exemplo:
 
 `We need to decide which tools to use for the project.` – Isso significa escolher as ferramentas após considerar as opções.
 
-Uma `phase` refere-se a uma parte ou etapa em um processo maior.Por exemplo:
+Uma `phase` refere-se a uma parte ou etapa em um processo maior. Por exemplo:
 
 `We just finished the testing phase of the software.` – Isso significa que a etapa de teste no processo de desenvolvimento está completa.
 

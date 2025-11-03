@@ -3,6 +3,7 @@ id: 67aa23adedb02b11aaceda26
 title: Tarefa 8
 challengeType: 19
 dashedName: task-8
+lang: en-US
 ---
 
 <!-- (Audio) Anna: While furniture is important, many people mentioned that their computers need upgrades. -->
@@ -51,7 +52,7 @@ Anna não menciona nada sobre as perguntas da pesquisa.
 
 # --explanation--
 
-Uma `computer upgrade` significa melhorar um computador adicionando ou substituindo peças como mais memória (RAM), um processador mais rápido ou uma tela melhor.Por exemplo:
+Uma `computer upgrade` significa melhorar um computador adicionando ou substituindo peças como mais memória (RAM), um processador mais rápido ou uma tela melhor. Por exemplo:
 
 - `I need a computer upgrade to run the latest software.` - O computador atual do falante não é poderoso o suficiente, então ele precisa de um melhor.
 

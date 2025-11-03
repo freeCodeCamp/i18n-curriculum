@@ -3,11 +3,12 @@ id: 656abcd4cccfc84bf50f861b
 title: Tarefa 80
 challengeType: 19
 dashedName: task-80
+lang: en-US
 ---
 
 # --description--
 
-Em um ambiente de escritório, é comum apontar itens usando `these` e `those`.Lembre-se, `these` aponta para itens próximos a você, enquanto `those` aponta para itens mais distantes.
+Em um ambiente de escritório, é comum apontar itens usando `these` e `those`. Lembre-se, `these` aponta para itens próximos a você, enquanto `those` aponta para itens mais distantes.
 
 # --questions--
 

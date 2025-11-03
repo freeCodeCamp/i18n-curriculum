@@ -3,6 +3,7 @@ id: 67dd5dacf47e8ed984dc90da
 title: Tarefa 17
 challengeType: 19
 dashedName: task-17
+lang: en-US
 ---
 
 <!-- (Audio) James: By the way, did we decide on the deadline for the first phase? -->
@@ -37,7 +38,7 @@ Isso não está relacionado à pergunta sobre como definir o prazo.
 
 # --explanation--
 
-`Not yet.` é uma forma curta e natural de dizer que algo não aconteceu ou foi concluído até o momento presente, mas pode acontecer no futuro.Por exemplo:
+`Not yet.` é uma forma curta e natural de dizer que algo não aconteceu ou foi concluído até o momento presente, mas pode acontecer no futuro. Por exemplo:
 
 - Pessoa 1: `Have you sent the email?` - Aqui, a pessoa está perguntando sobre um email que deveria ser enviado.
 

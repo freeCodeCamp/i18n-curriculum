@@ -3,6 +3,7 @@ id: 685a9aaee82fca9effece4bd
 title: Tarefa 130
 challengeType: 22
 dashedName: task-130
+lang: en-US
 ---
 
 <!-- (Audio) Bob: Yes, let's do that. It'll help us manage the attendee list better. Can you draft the invitation? -->
@@ -27,7 +28,7 @@ Isso se refere a uma pessoa que está presente em um evento ou reunião.
 
 # --explanation--
 
-Um `attendee` é alguém que participa ou está presente em um evento, como uma reunião, seminário ou conferência.Por exemplo:
+Um `attendee` é alguém que participa ou está presente em um evento, como uma reunião, seminário ou conferência. Por exemplo:
 
 `Each attendee received a welcome packet when they arrived.` – Isso significa que toda pessoa que veio ao evento recebeu um pacote.
 

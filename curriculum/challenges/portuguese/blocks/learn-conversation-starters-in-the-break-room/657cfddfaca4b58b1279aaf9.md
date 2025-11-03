@@ -3,13 +3,14 @@ id: 657cfddfaca4b58b1279aaf9
 title: Tarefa 74
 challengeType: 22
 dashedName: task-74
+lang: en-US
 ---
 
 <!-- (audio) Sophie: Maria thinks challenges are positive. She encourages us to find solutions together. -->
 
 # --description--
 
-Incentivar significa dar suporte, confiança ou esperança a alguém.É o que um bom treinador faz para motivar sua equipe a dar o seu melhor.
+Incentivar significa dar suporte, confiança ou esperança a alguém. É o que um bom treinador faz para motivar sua equipe a dar o seu melhor.
 
 # --instructions--
 

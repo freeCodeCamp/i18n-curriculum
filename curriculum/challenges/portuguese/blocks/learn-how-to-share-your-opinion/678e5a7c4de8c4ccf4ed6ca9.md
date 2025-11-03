@@ -3,6 +3,7 @@ id: 678e5a7c4de8c4ccf4ed6ca9
 title: Tarefa 66
 challengeType: 22
 dashedName: task-66
+lang: en-US
 ---
 
 <!-- (audio) Jake: Okay, let's agree to disagree. -->
@@ -35,11 +36,11 @@ Esta palavra significa ter uma opinião diferente ou não estar de acordo.
 
 # --explanation--
 
-`Agree` significa estar de acordo ou ter a mesma opinião que alguém.Por exemplo:  
+`Agree` significa estar de acordo ou ter a mesma opinião que alguém. Por exemplo:  
 
 `We both agree that improving security is important.` - Isso significa que você compartilha a mesma opinião sobre segurança com a outra pessoa.
 
-`Disagree` significa ter uma opinião diferente ou não estar de acordo.Por exemplo:  
+`Disagree` significa ter uma opinião diferente ou não estar de acordo. Por exemplo:  
 
 `Jake and Maria disagree on which software to use.` - Isso mostra que Jake e Maria têm opiniões diferentes sobre a escolha do software.
 

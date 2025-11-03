@@ -3,6 +3,7 @@ id: 66df6aad5cfef4692e2e2a5a
 title: Tarefa 74
 challengeType: 22
 dashedName: task-74
+lang: en-US
 ---
 
 <!--
@@ -54,7 +55,7 @@ Uma palavra que significa mover-se ao redor ou através de algo, como um site ou
 
 # --explanation--
 
-`As` pode ser usado para significar "enquanto" ou "quando", mostrando que uma ação acontecerá enquanto outra ação está ocorrendo.Por exemplo:
+`As` pode ser usado para significar "enquanto" ou "quando", mostrando que uma ação acontecerá enquanto outra ação está ocorrendo. Por exemplo:
 
 - `As I was walking home, they called me.` - Eles te chamaram enquanto você estava indo para casa.
 

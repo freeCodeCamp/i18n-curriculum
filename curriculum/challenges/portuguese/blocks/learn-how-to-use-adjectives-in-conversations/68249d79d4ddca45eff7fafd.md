@@ -3,6 +3,7 @@ id: 68249d79d4ddca45eff7fafd
 title: Tarefa 144
 challengeType: 19
 dashedName: task-144
+lang: en-US
 ---
 
 <!-- (Audio) Jessica: Fantastic, James. I'll put all this information into a report and talk about it with the team tomorrow. This feedback should help us know what to do next. -->
@@ -51,7 +52,7 @@ Jessica planeja conversar com sua equipe primeiro e não enviar diretamente para
 
 # --explanation--
 
-Jessica diz que ela vai `put all this information into a report` e `talk about it with the team tomorrow`.Isso mostra que ela planeja organizar os detalhes e ter uma discussão com sua equipe.
+Jessica diz que ela vai `put all this information into a report` e `talk about it with the team tomorrow`. Isso mostra que ela planeja organizar os detalhes e ter uma discussão com sua equipe.
 
 Ela também diz que o feedback `should help`, significando que ele vai guiar os próximos passos deles.
 

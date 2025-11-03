@@ -3,6 +3,7 @@ id: 67f3c4903a5cdafdeda3c1dd
 title: Tarefa 143
 challengeType: 22
 dashedName: task-143
+lang: en-US
 ---
 
 <!-- REVIEW -->
@@ -59,7 +60,7 @@ Este substantivo refere-se a uma falha em entender algo corretamente.
 
 ### --feedback--
 
-Essas duas palavras juntas indicam falta de clareza ou compreensão.O primeiro é um artigo o segundo é um substantivo.
+Essas duas palavras juntas indicam falta de clareza ou compreensão. O primeiro é um artigo o segundo é um substantivo.
 
 ---
 
@@ -91,7 +92,7 @@ Este é um `Past Participle` usado para expressar expectativa ou intenção.
 
 ### --feedback--
 
-Este substantivo descreve um erro ou confusão devido a coisas estarem confundidas.Esta é uma palavra composta.Lembre-se de usar `-`.
+Este substantivo descreve um erro ou confusão devido a coisas estarem confundidas. Esta é uma palavra composta. Lembre-se de usar `-`.
 
 ---
 
@@ -99,4 +100,4 @@ Este substantivo descreve um erro ou confusão devido a coisas estarem confundid
 
 ### --feedback--
 
-Essas quatro palavras juntas significam ter um entendimento mútuo.A primeira palavra é uma preposição.
+Essas quatro palavras juntas significam ter um entendimento mútuo. A primeira palavra é uma preposição.

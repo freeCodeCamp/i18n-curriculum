@@ -3,6 +3,7 @@ id: 67ddafcebec26b8e5f46745b
 title: Tarefa 31
 challengeType: 22
 dashedName: task-31
+lang: en-US
 ---
 
 <!-- (Audio) James: Anything else we should discuss before our next meeting? -->
@@ -27,7 +28,7 @@ Isso significa além de algo ou diferente do que já foi mencionado.
 
 # --explanation--
 
-`Else` na expressão `anything else` é usado para perguntar se há algo além do que já foi dito ou feito.Por exemplo:
+`Else` na expressão `anything else` é usado para perguntar se há algo além do que já foi dito ou feito. Por exemplo:
 
 `Would you like anything else with your order?` - Aqui, você está perguntando se a outra pessoa quer algo além do que ela já pediu.
 

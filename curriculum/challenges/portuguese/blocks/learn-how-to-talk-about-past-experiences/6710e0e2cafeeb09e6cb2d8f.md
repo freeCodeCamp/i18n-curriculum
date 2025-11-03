@@ -3,6 +3,7 @@ id: 6710e0e2cafeeb09e6cb2d8f
 title: Tarefa 55
 challengeType: 22
 dashedName: task-55
+lang: en-US
 ---
 
 <!-- (Audio) Linda: Well, during the project, I was working closely with the development team, and we were constantly updating the user interface based on user feedback. -->
@@ -51,9 +52,9 @@ Este é o verbo principal no `Past Continuous`, descrevendo uma ação contínua
 
 # --explanation--
 
-O tempo `Past Continuous` é usado para descrever ações que estavam em andamento em um momento específico no passado.Quando duas sentenças `Past Continuous` são usadas juntas, elas frequentemente descrevem ações simultâneas ou ações acontecendo lado a lado.  
+O tempo `Past Continuous` é usado para descrever ações que estavam em andamento em um momento específico no passado. Quando duas sentenças `Past Continuous` são usadas juntas, elas frequentemente descrevem ações simultâneas ou ações acontecendo lado a lado.  
 
-Nesta frase, Linda está descrevendo como ela e sua equipe estavam trabalhando e atualizando continuamente a interface do usuário durante todo o projeto.Isso mostra duas ações acontecendo ao mesmo tempo no passado, fornecendo contexto ou pano de fundo uma para a outra.Por exemplo: 
+Nesta frase, Linda está descrevendo como ela e sua equipe estavam trabalhando e atualizando continuamente a interface do usuário durante todo o projeto. Isso mostra duas ações acontecendo ao mesmo tempo no passado, fornecendo contexto ou pano de fundo uma para a outra. Por exemplo: 
 
 `While I was preparing the report, they were testing the new features.` - Isso significa que a ação de eu preparar o relatório e o teste das novas funcionalidades aconteceram ao mesmo tempo.
 

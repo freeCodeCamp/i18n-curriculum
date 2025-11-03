@@ -3,6 +3,7 @@ id: 67b5b3dfdec8df1a5f326bc0
 title: Tarefa 110
 challengeType: 22
 dashedName: task-110
+lang: en-US
 ---
 
 <!-- (audio) Maria: We've chosen a subtle color palette, but maybe adding some brighter tones would help. -->
@@ -23,7 +24,7 @@ Ouça o áudio para completar a frase abaixo.
 
 ### --feedback--
 
-Isso significa algo que não é forte ou óbvio.É algo suave ou delicado que você pode não perceber imediatamente.
+Isso significa algo que não é forte ou óbvio. É algo suave ou delicado que você pode não perceber imediatamente.
 
 ---
 
@@ -31,15 +32,15 @@ Isso significa algo que não é forte ou óbvio.É algo suave ou delicado que vo
 
 ### --feedback--
 
-Isto se refere ao intervalo de cores usadas em um design ou obra de arte.Neste caso, uma `color palette` refere-se à seleção de cores escolhidas para o design do app ou projeto.
+Isto se refere ao intervalo de cores usadas em um design ou obra de arte. Neste caso, uma `color palette` refere-se à seleção de cores escolhidas para o design do app ou projeto.
 
 # --explanation--
 
-`Subtle` refere-se a algo que é delicado ou não óbvio.Por exemplo:
+`Subtle` refere-se a algo que é delicado ou não óbvio. Por exemplo:
 
 `The artist used subtle shades of blue in the painting.` - Isso significa que o artista usou tons claros ou suaves de azul que não são muito fortes ou chamativos.
 
-`Palette` refere-se à gama de cores ou materiais que um artista ou designer utiliza.Por exemplo:
+`Palette` refere-se à gama de cores ou materiais que um artista ou designer utiliza. Por exemplo:
 
 `The designer chose a warm palette for the website, using reds, oranges, and yellows.` - Isso significa que o designer selecionou um conjunto de cores quentes, como vermelho, laranja e amarelo, para o design do site.
 

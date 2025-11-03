@@ -3,6 +3,7 @@ id: 680e2de44baaad7305adc8ee
 title: Tarefa 46
 challengeType: 22
 dashedName: task-46
+lang: en-US
 ---
 
 <!-- (Audio) Josh: I'll draft a new quote with these specifics and send it over to you by tomorrow. Does that work for you? -->
@@ -23,13 +24,13 @@ Ouça o áudio para completar a frase abaixo.
 
 ### --feedback--
 
-Essas três palavras juntas são usadas para perguntar educadamente se um plano ou sugestão é aceitável.A primeira letra da primeira palavra é maiúscula.
+Essas três palavras juntas são usadas para perguntar educadamente se um plano ou sugestão é aceitável. A primeira letra da primeira palavra é maiúscula.
 
 # --explanation--
 
-`Does that work` é uma forma educada de verificar se uma sugestão ou arranjo está bom para alguém.Por exemplo:
+`Does that work` é uma forma educada de verificar se uma sugestão ou arranjo está bom para alguém. Por exemplo:
 
-Podemos nos encontrar às 15h.Isso funciona para você?` – Isso pergunta se o horário é bom ou conveniente para a outra pessoa.
+Podemos nos encontrar às 15h. Isso funciona para você?` – Isso pergunta se o horário é bom ou conveniente para a outra pessoa.
 
 # --scene--
 

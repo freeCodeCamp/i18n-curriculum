@@ -3,6 +3,7 @@ id: 67eeb0a9bfe9ce2ab1cbffd2
 title: Tarefa 29
 challengeType: 19
 dashedName: task-29
+lang: en-US
 ---
 
 <!-- (audio) Sophie: Great. Also, you should have run the test suite before submitting your code. -->
@@ -51,7 +52,7 @@ Testar é uma etapa importante antes de enviar o código.
 
 # --explanation--
 
-Um `test suite` é uma coleção de testes que verificam se um programa funciona corretamente.Por exemplo:
+Um `test suite` é uma coleção de testes que verificam se um programa funciona corretamente. Por exemplo:
 
 - `We ran the test suite to check if the app works properly.` - A equipe executou todos os testes para garantir que o app funcione conforme o esperado.
 

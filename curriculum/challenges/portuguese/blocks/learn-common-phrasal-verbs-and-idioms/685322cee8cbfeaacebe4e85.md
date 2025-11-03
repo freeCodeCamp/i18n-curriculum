@@ -3,6 +3,7 @@ id: 685322cee8cbfeaacebe4e85
 title: Tarefa 28
 challengeType: 22
 dashedName: task-28
+lang: en-US
 ---
 
 <!-- (Audio) Anna: Great idea, Brian. Encouraging growth is key. -->
@@ -27,7 +28,7 @@ Isso significa progresso ou desenvolvimento, especialmente em habilidades ou con
 
 # --explanation--
 
-`Growth` significa melhoria ou desenvolvimento, frequentemente em conhecimento, habilidades ou capacidade.Por exemplo:
+`Growth` significa melhoria ou desenvolvimento, frequentemente em conhecimento, habilidades ou capacidade. Por exemplo:
 
 `The company supports professional growth through regular training sessions.` – Isso significa que a empresa ajuda os funcionários a melhorar e desenvolver suas habilidades.
 

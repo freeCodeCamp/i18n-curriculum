@@ -3,13 +3,14 @@ id: 65f6f9e9cfbda7f9c04e8af7
 title: Tarefa 41
 challengeType: 19
 dashedName: task-41
+lang: en-US
 ---
 
 <!-- (Audio) Brian: Understood. We can investigate this together, and by the end of it, we should have a clearer picture of what's happening. -->
 
 # --description--
 
-A frase `by the end of it` é comumente usada em inglês para se referir à conclusão ou parte final de um processo ou período de tempo.Isso implica que, ao concluir uma determinada atividade, um resultado ou entendimento específico será alcançado.
+A frase `by the end of it` é comumente usada em inglês para se referir à conclusão ou parte final de um processo ou período de tempo. Isso implica que, ao concluir uma determinada atividade, um resultado ou entendimento específico será alcançado.
 
 # --questions--
 

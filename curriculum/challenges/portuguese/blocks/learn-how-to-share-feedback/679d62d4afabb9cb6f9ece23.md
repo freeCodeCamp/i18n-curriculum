@@ -3,6 +3,7 @@ id: 679d62d4afabb9cb6f9ece23
 title: Tarefa 106
 challengeType: 19
 dashedName: task-106
+lang: en-US
 ---
 
 <!-- (Audio) Maria: If we rush, it could lead to more problems. -->
@@ -51,7 +52,7 @@ Maria não diz que eles devem evitar atualizar.
 
 # --explanation--
 
-`To lead to problems` significa que uma ação ou decisão pode resultar em dificuldades ou consequências negativas.Por exemplo:
+`To lead to problems` significa que uma ação ou decisão pode resultar em dificuldades ou consequências negativas. Por exemplo:
 
 `Skipping the testing phase can lead to serious problems in the software.` - Isso significa que não testar adequadamente pode causar grandes problemas técnicos.
 

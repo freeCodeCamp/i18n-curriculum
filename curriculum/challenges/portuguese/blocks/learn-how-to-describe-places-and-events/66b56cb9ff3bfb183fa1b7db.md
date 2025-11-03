@@ -3,6 +3,7 @@ id: 66b56cb9ff3bfb183fa1b7db
 title: Tarefa 83
 challengeType: 22
 dashedName: task-83
+lang: en-US
 ---
 
 <!-- (Audio) Anna: When do you think this new module will be ready? -->
@@ -43,7 +44,7 @@ Uma parte ou seção específica do programa de treinamento.
 
 # --explanation--
 
-`Module` refere-se a uma unidade ou seção de um curso ou programa de treinamento.Por exemplo:
+`Module` refere-se a uma unidade ou seção de um curso ou programa de treinamento. Por exemplo:
 
 - O novo `module` sobre cibersegurança será adicionado na próxima semana. - Aqui, `module` refere-se a uma parte específica do treinamento focada em cibersegurança.
 

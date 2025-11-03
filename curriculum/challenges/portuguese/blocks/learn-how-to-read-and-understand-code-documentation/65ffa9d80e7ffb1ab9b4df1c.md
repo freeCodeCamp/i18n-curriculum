@@ -3,6 +3,7 @@ id: 65ffa9d80e7ffb1ab9b4df1c
 title: Tarefa 11
 challengeType: 22
 dashedName: task-11
+lang: en-US
 ---
 
 <!-- (Audio) Sarah: Once you've found the section you need, you should start by reading the introductory paragraphs to get an overview of what the documentation covers. -->
@@ -23,7 +24,7 @@ Ouça o áudio e complete a frase.
 
 ### --feedback--
 
-Indica que a ação a seguir acontece assim que a seção é encontrada.Coloque esta palavra em maiúscula. 
+Indica que a ação a seguir acontece assim que a seção é encontrada. Coloque esta palavra em maiúscula. 
 
 ---
 
