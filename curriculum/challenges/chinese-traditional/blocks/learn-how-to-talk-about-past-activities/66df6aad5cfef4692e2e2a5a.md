@@ -3,6 +3,7 @@ id: 66df6aad5cfef4692e2e2a5a
 title: 任務 74
 challengeType: 22
 dashedName: task-74
+lang: en-US
 ---
 
 <!--

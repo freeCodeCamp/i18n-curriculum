@@ -3,6 +3,7 @@ id: 67dbf936fe4d33ccbccae40d
 title: 任務 1
 challengeType: 22
 dashedName: task-1
+lang: en-US
 ---
 
 <!-- (Audio) Alice: Hey, James. Sorry for the interruption earlier. -->

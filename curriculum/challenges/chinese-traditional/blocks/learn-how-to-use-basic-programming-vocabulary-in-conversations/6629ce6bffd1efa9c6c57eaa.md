@@ -3,6 +3,7 @@ id: 6629ce6bffd1efa9c6c57eaa
 title: 任務 1
 challengeType: 22
 dashedName: task-1
+lang: en-US
 ---
 
 <!-- (Audio) Brian: Hey, Sophie. How's it going? -->

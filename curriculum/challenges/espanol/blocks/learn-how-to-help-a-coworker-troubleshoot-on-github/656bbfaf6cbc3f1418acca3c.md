@@ -3,6 +3,7 @@ id: 656bbfaf6cbc3f1418acca3c
 title: Tarea 6
 challengeType: 22
 dashedName: task-6
+lang: en-US
 ---
 
 <!-- (Audio) Sarah: Sure, Bob. What's the problem? -->

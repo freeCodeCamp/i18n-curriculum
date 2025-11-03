@@ -3,6 +3,7 @@ id: 67af11fa7b01ff0c8ac9d6ed
 title: Tarea 45
 challengeType: 19
 dashedName: task-45
+lang: en-US
 ---
 
 <!-- READING -->
