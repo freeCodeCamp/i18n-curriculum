@@ -7,11 +7,19 @@ dashedName: step-3
 
 # --description--
 
-Você está chegando mais perto.A próxima coisa a fazer é definir o atributo `viewBox` do elemento `svg`.Isto controlará quanto da imagem está visível.Os dois primeiros números definem o centro da imagem.
+Você está chegando mais perto, agora veja este exemplo:
 
-Os dois números a seguir definem o tamanho da imagem que podemos ver: largura seguida de altura.
+```html
+<svg viewBox="0 0 50 50">
+</svg>
+```
 
-Como aqui a totalidade do ícone deve estar visível, você deve definir o atributo `viewBox` para `0 0 24 24`.
+O atributo `viewBox` controla qual parte da imagem está visível dentro do SVG.
+
+- Os dois primeiros números (`0 0`) definem a posição inicial do `viewBox` — o canto superior esquerdo (x e y). 
+- Os próximos dois números (`50 50`) definem a largura e a altura do `viewBox`.
+
+Defina o atributo `viewBox` para `0 0 24 24`.
 
 # --hints--
 

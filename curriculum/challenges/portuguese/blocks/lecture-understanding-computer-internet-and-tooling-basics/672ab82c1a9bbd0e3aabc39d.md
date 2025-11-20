@@ -23,7 +23,7 @@ Outra dica é manter seu mouse na mesma altura do seu teclado. Você não quer p
 
 Você também deve estar atento à sua postura geral ao sentar-se no computador por horas a fio. Ficar curvado sobre o seu computador e colocar seu pulso em uma posição não natural no teclado levará a problemas de saúde a longo prazo. Então, você quer se certificar de sentar-se ereto ao trabalhar no seu computador e manter uma posição saudável e natural do pulso.
 
-A última dica seria usar atalhos de teclado sempre que possível para ajudar a minimizar a digitação. Existem dezenas de atalhos disponíveis para tarefas como navegar na web, navegar pelo seu sistema operacional, trabalhar dentro de um editor de código e mais. Então, é melhor pesquisar alguns desses atalhos de teclado e começar a incorporá-los ao seu uso diário do computador.
+A última dica seria usar atalhos de teclado sempre que possível para ajudar a minimizar a digitação. Existem dezenas de atalhos disponíveis para tarefas como navegar na web, navegar pelo seu sistema operacional, trabalhar dentro de um editor de código e mais.  So, it’s best to research some of these keyboard shortcuts and start incorporating them into your daily computer usage.
 
 À medida que você continua usando seu mouse e teclado para projetos de codificação futuros e outras atividades, lembre-se de manter essas dicas de saúde em mente.
 
