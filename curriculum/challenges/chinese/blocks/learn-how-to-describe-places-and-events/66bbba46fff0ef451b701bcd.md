@@ -22,7 +22,7 @@ Is Sarah available to talk to Tom?
 
 ## --answers--
 
-No, she is busy and doesn´t want to know about his problems.
+No, she is busy and doesn't want to know about his problems.
 
 ### --feedback--
 
@@ -30,11 +30,11 @@ Sarah says she is not busy.
 
 ---
 
-Yes, she is available and wants know what's the problem.
+Yes, she is available and wants to know what's the problem.
 
 ---
 
-No, she cannot talk right now she has her own problems.
+No, she cannot talk right now, she has her own problems.
 
 ### --feedback--
 

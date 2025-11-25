@@ -7,11 +7,19 @@ dashedName: step-3
 
 # --description--
 
-你越来越接近了。 下一步是设置 `svg` 元素的 `viewBox` 属性。 这将控制图像的可见范围。 前两个数字设定图像的中心位置。
+You are getting closer, now look at this example:
 
-后两个数字决定了我们所能看到的图像尺寸：宽度后跟高度。
+```html
+<svg viewBox="0 0 50 50">
+</svg>
+```
 
-由于此处图标应完整可见，你应将 `viewBox` 属性设置为 `0 0 24 24`。
+The `viewBox` attribute controls what part of the image is visible inside the SVG.
+
+- The first two numbers (`0 0`) set the starting position of the `viewBox` — the top-left corner (x and y).
+- The next two numbers (`50 50`) define the `viewBox`'s width and height.
+
+Set the `viewBox` attribute to `0 0 24 24`.
 
 # --hints--
 
