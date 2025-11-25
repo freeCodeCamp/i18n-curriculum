@@ -1,8 +1,8 @@
 ---
 id: 66a97ca8c4cbae7d0bb6e0ad
-title: Passo 32
+title: Passo 29
 challengeType: 0
-dashedName: step-32
+dashedName: step-29
 ---
 
 # --description--
