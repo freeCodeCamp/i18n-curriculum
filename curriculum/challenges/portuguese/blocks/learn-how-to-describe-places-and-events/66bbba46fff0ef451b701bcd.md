@@ -34,7 +34,7 @@ Sim, ela está disponível e quer saber qual é o problema.
 
 ---
 
-Não, ela não pode falar agora ela tem seus próprios problemas.
+Não, ela não pode falar agora, ela tem seus próprios problemas.
 
 ### --feedback--
 
@@ -54,7 +54,7 @@ Sarah não limita o tempo; ela simplesmente afirma que não está ocupada.
 
 # --explanation--
 
-Em vez de dizer diretamente que ela está livre, Sarah usa a forma negativa `I'm not busy` para enfatizar que ela tem tempo para ajudar. 
+Em vez de dizer diretamente que ela está livre, Sarah usa a forma negativa `I'm not busy` para enfatizar que ela tem tempo para ajudar.
 
 Esta é uma forma educada e indireta de oferecer disponibilidade em inglês, comumente usada para tornar a conversa mais diplomática.
 
