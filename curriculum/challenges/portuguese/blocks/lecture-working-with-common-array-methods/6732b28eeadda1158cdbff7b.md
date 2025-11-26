@@ -86,7 +86,7 @@ console.log(arr.includes(3, 3));
 
 ### --feedback--
 
-The second parameter of ``includes()`` specifies the starting position for the search.
+O segundo parâmetro de `includes()` especifica a posição inicial para a busca.
 
 ---
 
@@ -98,7 +98,7 @@ The second parameter of ``includes()`` specifies the starting position for the s
 
 ### --feedback--
 
-The second parameter of ``includes()`` specifies the starting position for the search.
+O segundo parâmetro de `includes()` especifica a posição inicial para a busca.
 
 ---
 
@@ -106,7 +106,7 @@ Isso gerará um erro.
 
 ### --feedback--
 
-The second parameter of ``includes()`` specifies the starting position for the search.
+O segundo parâmetro de `includes()` especifica a posição inicial para a busca.
 
 ## --video-solution--
 
@@ -127,7 +127,7 @@ console.log(arr.includes("C"));
 
 ### --feedback--
 
-Remember that ``includes()`` is case-sensitive when dealing with strings.
+Lembre-se que `includes()` diferencia maiúsculas de minúsculas ao lidar com strings.
 
 ---
 
@@ -139,7 +139,7 @@ Remember that ``includes()`` is case-sensitive when dealing with strings.
 
 ### --feedback--
 
-Remember that ``includes()`` is case-sensitive when dealing with strings.
+Lembre-se que `includes()` diferencia maiúsculas de minúsculas ao lidar com strings.
 
 ---
 
@@ -147,7 +147,7 @@ Isso gerará um erro.
 
 ### --feedback--
 
-Remember that ``includes()`` is case-sensitive when dealing with strings.
+Lembre-se que `includes()` diferencia maiúsculas de minúsculas ao lidar com strings.
 
 ## --video-solution--
 
@@ -168,7 +168,7 @@ console.log(arr.includes("3"));
 
 ### --feedback--
 
-The ``includes()`` method uses strict equality (`===`) for comparison.
+O método `includes()` usa igualdade estrita (`===`) para comparação.
 
 ---
 
@@ -180,7 +180,7 @@ The ``includes()`` method uses strict equality (`===`) for comparison.
 
 ### --feedback--
 
-The ``includes()`` method uses strict equality (`===`) for comparison.
+O método `includes()` usa igualdade estrita (`===`) para comparação.
 
 ---
 
@@ -188,7 +188,7 @@ Isso gerará um erro.
 
 ### --feedback--
 
-The ``includes()`` method uses strict equality (`===`) for comparison.
+O método `includes()` usa igualdade estrita (`===`) para comparação.
 
 ## --video-solution--
 
