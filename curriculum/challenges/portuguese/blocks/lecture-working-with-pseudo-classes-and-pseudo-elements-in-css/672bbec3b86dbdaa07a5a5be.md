@@ -234,10 +234,6 @@ Pseudo-classes funcionais usam parênteses e aceitam argumentos dentro deles.
 
 `:first-child`
 
-### --feedback--
-
-Pseudo-classes funcionais usam parênteses e aceitam argumentos dentro deles.
-
 ---
 
 `:has()`

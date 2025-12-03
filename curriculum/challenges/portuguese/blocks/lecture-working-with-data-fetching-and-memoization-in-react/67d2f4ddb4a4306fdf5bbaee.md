@@ -234,10 +234,6 @@ Ferramentas de memoização focam em armazenar em cache valores e funções, enq
 
 `useEffect`
 
-### --feedback--
-
-Ferramentas de memoização focam em armazenar em cache valores e funções, enquanto esta opção lida com efeitos colaterais.
-
 ## --video-solution--
 
 4
