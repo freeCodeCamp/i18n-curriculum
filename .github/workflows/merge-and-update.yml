@@ -15,6 +15,7 @@ env:
 
 jobs:
   auto-merge:
+    if: github.event.pull_request.user.login == 'camperbot'
     runs-on: ubuntu-latest
 
     steps:
@@ -39,6 +40,7 @@ jobs:
           fi
 
   update-i18n-curriculum-submodule:
+    if: github.event.pull_request.user.login == 'camperbot'
     # Now that the curriculum has been updated, we can update the
     # i18n-curriculum submodule in the freeCodeCamp repository
     name: Update i18n-curriculum Submodule
