@@ -1,21 +1,21 @@
 ---
 id: 672bbe9171a5cca90f2edeea
-title: '¿Cuáles son ejemplos de pseudoclases de acción del usuario en elementos?'
+title: ¿Cuáles son ejemplos de pseudoclases de acción del usuario en elementos?
 challengeType: 19
 dashedName: what-are-examples-of-element-user-action-pseudo-classes
 ---
 
 # --interactive--
 
-User feedback is a crucial element of web design. For instance, it's important for users to receive visual cues when they interact with elements on a website, such as hovering over a button or clicking a link. This feedback helps users understand the state of interactive elements, like indicating whether a link has been visited or not.
+La retroalimentación del usuario es un elemento crucial del diseño web. Por ejemplo, es importante que los usuarios reciban señales visuales cuando interactúan con elementos en un sitio web, como al pasar el ratón por encima de un botón o al hacer clic en un enlace. Esta retroalimentación ayuda a los usuarios a entender el estado de los elementos interactivos, como indicar si un enlace ha sido visitado o no.
 
-User action pseudo-classes in CSS are special keywords that allow you to provide this kind of feedback without needing JavaScript or other programming languages.
+Las pseudoclases de acción del usuario en CSS son palabras clave especiales que te permiten proporcionar este tipo de retroalimentación sin necesidad de JavaScript u otros lenguajes de programación.
 
-These pseudo-classes include `:hover`, `:active`, `:focus`, and `:visited`, among others. They enable you to change the appearance of elements based on user interactions, improving the overall user experience.
+Estas pseudoclases incluyen `:hover`, `:active`, `:focus` y `:visited`, entre otras. Te permiten cambiar la apariencia de elementos en función de las interacciones del usuario, mejorando la experiencia del usuario en general.
 
-Let's dive into some of the user action pseudo-classes we have and see how they work.
+Vamos a profundizar en algunas de las pseudoclases de acción del usuario que tenemos y ver cómo funcionan.
 
-The `:active` pseudo-class applies styles when an element is activated by the user. For example, when the user clicks a button or a link, it provides immediate visual feedback, showing users that their actions are being recognized.
+La pseudoclase `:active` aplica estilos cuando un elemento es activado por el usuario. Por ejemplo, cuando el usuario hace clic en un botón o un enlace, proporciona retroalimentación visual inmediata, mostrando a los usuarios que sus acciones están siendo reconocidas.
 
 :::interactive_editor
 
@@ -32,7 +32,7 @@ a:active {
 
 :::
 
-The `:hover` pseudo-class is triggered when a user hovers over an element with their mouse or other pointing device. Developers often use it to create visual feedback for buttons, links, or any element that should respond to user attention. Here's a button a user would hover over before clicking:
+La pseudoclase `:hover` se activa cuando un usuario pasa el ratón por encima de un elemento con su ratón o dispositivo apuntador. Los desarrolladores a menudo la utilizan para crear retroalimentación visual para botones, enlaces o cualquier elemento que debe responder a la atención del usuario. Aquí hay un botón sobre el que un usuario podría pasar el ratón antes de hacer clic:
 
 :::interactive_editor
 
@@ -51,9 +51,9 @@ The `:hover` pseudo-class is triggered when a user hovers over an element with t
 
 :::
 
-The `:focus` pseudo-class applies styles when an element gains focus, typically through keyboard navigation or when a user clicks into a form input. This is not just for feedback but also crucial for accessibility. It ensures that users who rely heavily on keyboards can easily identify which element they are interacting with.
+La pseudoclase `:focus` aplica estilos cuando un elemento gana enfoque, normalmente a través de la navegación con teclado o cuando un usuario hace clic en una entrada de formulario. Esto no es solo para retroalimentación, sino también crucial para la accesibilidad. Asegura que los usuarios que dependen mucho de los teclados puedan identificar fácilmente con qué elemento están interactuando. 
 
-Here's an example of an input field that gains focus when clicked or navigated to via the keyboard:
+Aquí tienes un ejemplo de un campo de entrada que obtiene el foco cuando haces clic o navegas a él mediante el teclado:
 
 :::interactive_editor
 
@@ -73,7 +73,7 @@ input:focus {
 
 :::
 
-The `:visited` pseudo-class targets a link the user has visited. This can be useful for helping users distinguish between pages they have already visited and the ones they are yet to visit. Here is an example of changing the anchor text color to cyan when the link is visited:
+La pseudoclase `:visited` apunta a un enlace que el usuario ha visitado. Esto puede ser útil para ayudar a los usuarios a distinguir entre las páginas que ya han visitado y las que aún no han visitado. Aquí hay un ejemplo de cambiar el color del texto del enlace a cian cuando el enlace está visitado:
 
 :::interactive_editor
 
@@ -90,11 +90,11 @@ a:visited {
 
 :::
 
-The `:checked` pseudo-class in CSS allows you to style form elements such as checkboxes and radio buttons when they are selected (checked). This pseudo-class is useful for customizing the appearance of these elements to enhance user experience, even though browsers provide default styles for them.
+La pseudoclase `:checked` en CSS te permite diseñar elementos de formulario como casillas de verificación y botones de opción cuando están seleccionados (marcados). Esta pseudoclase es útil para personalizar la apariencia de estos elementos para mejorar la experiencia del usuario, aunque los navegadores ya proporcionan estilos predeterminados para ellos.
 
-Here is an example with a checkbox to agree to terms on a website.
+Aquí tienes un ejemplo con una casilla para aceptar los términos en un sitio web. 
 
-**NOTE**: Some of the CSS in this example uses properties that haven't been covered yet. This is just to give you an idea of how to create a custom checkbox. You will learn how all of this works in future lessons and workshops.
+**NOTA**: Parte del CSS en este ejemplo usa propiedades que aún no se han explicado. Esto es solo para darte una idea de cómo crear una casilla de verificación personalizada. Aprenderás cómo funciona todo esto en futuras lecciones y talleres. 
 
 :::interactive_editor
 
@@ -151,9 +151,9 @@ Here is an example with a checkbox to agree to terms on a website.
 
 :::
 
-In this example, we are using the `appearance` property set to `none` to remove the default styling applied by the browser to checkbox inputs. When the user checks the box, it will have a background color of `green`.
+En este ejemplo, estamos usando la propiedad `appearance` configurada en `none` para eliminar el estilo predeterminado que el navegador aplica a los inputs de casilla de verificación. Cuando el usuario marque la casilla, tendrá un color de fondo `green`.
 
-Other examples of action pseudo-classes are:
+Otros ejemplos de pseudoclases de acción son:
 
 - `:focus-within`: para aplicar estilos a un elemento cuando él o cualquiera de sus descendientes tienen enfoque.
 - `:enabled`: para dirigirse a los botones de formulario u otros elementos que están habilitados actualmente.
@@ -164,19 +164,11 @@ Other examples of action pseudo-classes are:
 
 ## --text--
 
-What do user action pseudo-classes allow you to do?
+¿Qué permiten hacer las pseudoclases de acción del usuario?
 
 ## --answers--
 
-They enable animations and transitions.
-
-### --feedback--
-
-Think about how you can interact with users purely with CSS.
-
----
-
-They allow you to modify the DOM structure dynamically.
+Habilitan animaciones y transiciones.
 
 ### --feedback--
 
@@ -184,15 +176,23 @@ Piensa en cómo puedes interactuar con los usuarios únicamente con CSS.
 
 ---
 
-They let you provide feedback to the user without relying on JavaScript.
-
----
-
-They let you style the last element in a list.
+Te permiten modificar la estructura del DOM dinámicamente.
 
 ### --feedback--
 
-Think about how you can interact with users purely with CSS.
+Piensa en cómo puedes interactuar con los usuarios únicamente con CSS.
+
+---
+
+Te permiten ofrecer retroalimentación al usuario sin depender de JavaScript.
+
+---
+
+Te permiten dar estilo al último elemento de una lista.
+
+### --feedback--
+
+Piensa en cómo puedes interactuar con los usuarios únicamente con CSS.
 
 ## --video-solution--
 
@@ -200,19 +200,11 @@ Think about how you can interact with users purely with CSS.
 
 ## --text--
 
-What does the `:checked` pseudo-class do in CSS?
+¿Qué hace la pseudoclase `:checked` en CSS?
 
 ## --answers--
 
-It selects an element when it is disabled.
-
-### --feedback--
-
-Think about how forms handle user selections.
-
----
-
-It selects an element when it is being hovered over.
+Selecciona un elemento cuando está deshabilitado.
 
 ### --feedback--
 
@@ -220,15 +212,23 @@ Piensa en cómo los formularios manejan las selecciones del usuario.
 
 ---
 
-It styles elements like checkboxes or radio buttons that are checked.
-
----
-
-It styles an element when it gains focus.
+Selecciona un elemento cuando se pasa por encima.
 
 ### --feedback--
 
-Think about how forms handle user selections.
+Piensa en cómo los formularios manejan las selecciones del usuario.
+
+---
+
+Aplica estilos a elementos como casillas de verificación o botones de opción que están marcados.
+
+---
+
+Aplica estilos a un elemento cuando gana enfoque.
+
+### --feedback--
+
+Piensa en cómo los formularios manejan las selecciones del usuario.
 
 ## --video-solution--
 
@@ -236,31 +236,31 @@ Think about how forms handle user selections.
 
 ## --text--
 
-What does the `:focus` pseudo-class do?
+¿Qué hace la pseudoclase `:focus`?
 
 ## --answers--
 
-It selects an element when it is hovered over by a mouse.
+Selecciona un elemento cuando se pasa el ratón por encima de él.
 
 ### --feedback--
 
-Think about how users navigate forms using a keyboard.
+Piensa en cómo los usuarios navegan por formularios usando un teclado.
 
 ---
 
-It applies styles when an element gains focus, usually through keyboard navigation or a click.
+Aplica estilos cuando un elemento gana enfoque, generalmente a través de la navegación con teclado o un clic.
 
 ---
 
-It selects an element after a form is submitted.
+Selecciona un elemento después de enviar un formulario.
 
 ### --feedback--
 
-Think about how users navigate forms using a keyboard.
+Piensa en cómo los usuarios navegan por formularios usando un teclado.
 
 ---
 
-It applies styles to an element when it is disabled.
+Aplica estilos a un elemento cuando está deshabilitado.
 
 ### --feedback--
 

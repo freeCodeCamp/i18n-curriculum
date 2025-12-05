@@ -24,7 +24,7 @@ La constante `JSX` debe devolver un elemento `div`.
 assert(JSX.type === 'div');
 ```
 
-El elemento `div` debe contener una etiqueta `h1` como primer elemento.
+El `div` debe contener una etiqueta `h1` como primer elemento.
 
 ```js
 assert(JSX.props.children[0].type === 'h1');

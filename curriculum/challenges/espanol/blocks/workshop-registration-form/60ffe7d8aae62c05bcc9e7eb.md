@@ -1,25 +1,25 @@
 ---
 id: 60ffe7d8aae62c05bcc9e7eb
-title: Step 54
+title: Pasaje 54
 challengeType: 0
 dashedName: step-54
 ---
 
 # --description--
 
-With a `display` of `block` the submit button sits flush against the left edge of its parent.
+Con un `display` de `block` el botón de envío se sitúa al ras del borde izquierdo de su padre.
 
-Use the same technique used to center the `form` to center the submit button.
+Utiliza la misma técnica empleada para centrar el `form` para centrar el botón de enviar.
 
 # --hints--
 
-You should give the submit button a `margin` of `0 auto`.
+Debes darle al botón de enviar un `margin` de `0 auto`.
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('input[type="submit"]')?.margin, '0px auto');
 ```
 
-You should not give the submit button a `min-width` or `max-width`.
+No debes darle al botón de enviar un `min-width` o `max-width`.
 
 ```js
 assert.isEmpty(new __helpers.CSSHelp(document).getStyle('input[type="submit"]')?.minWidth);

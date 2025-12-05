@@ -1,21 +1,21 @@
 ---
 id: 66c748ffdfbe4f2ede268be2
-title: Step 20
+title: Paso 20
 challengeType: 1
 dashedName: step-20
 ---
 
 # --description--
 
-In this final step of the workshop, log the final grocery list to the console.
+En este paso final del taller, registra la lista de compras final en la consola.
 
-To do this, call the `getShoppingListMsg` function with the `shoppingList` array as an argument inside `console.log`.
+Para hacer esto, llama a la función `getShoppingListMsg` con el array `shoppingList` como argumento dentro de `console.log`.
 
-And with this last step your grocery list is complete!
+¡Y con este último paso, tu lista de compras está completa!
 
 # --hints--
 
-You should call `getShoppingListMsg(shoppingList)` inside of the `console.log`.
+Debería llamar `getShoppingListMsg(shoppingList)` dentro del `console.log`.
 
 ```js
 assert.lengthOf(code.match(/console\.log\(\s*getShoppingListMsg\(\s*shoppingList\s*\)\s*\)/g), 7);

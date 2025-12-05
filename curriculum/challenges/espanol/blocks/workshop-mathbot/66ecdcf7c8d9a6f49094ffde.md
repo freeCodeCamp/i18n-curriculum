@@ -1,72 +1,72 @@
 ---
 id: 66ecdcf7c8d9a6f49094ffde
-title: Step 13
+title: Paso 13
 challengeType: 1
 dashedName: step-13
 ---
 
 # --description--
 
-In previous lessons, you learned that the `Math.round()` method rounds the value to the nearest whole integer.
+En lecciones anteriores, aprendiste que el método `Math.round()` redondea el valor al entero más cercano.
 
-Here are some examples:
+Aquí hay algunos ejemplos:
 
 ```js
 Math.round(6.7); // 7
 Math.round(3.2); // 3
 ```
 
-This differs from the `Math.floor()` and `Math.ceil()` methods, which round down and up to the nearest whole integer, respectively.
+Esto difiere de los métodos `Math.floor()` y `Math.ceil()`, que redondean hacia abajo y hacia arriba al entero más cercano, respectivamente.
 
-Create a new variable called `numRounded` and assign the result of rounding the number `2.7`. Then, log the value of `numRounded` to the console.
+Crea una nueva variable llamada `numRounded` y asigna el resultado de redondear el número `2.7`. Luego, registra el valor de `numRounded` en la consola.
 
-Below that, create another new variable called `numRounded2` and assign the result of rounding the number `11.2`. Then, log the value of `numRounded2` to the console.
+Debajo de eso, crea otra nueva variable llamada `numRounded2` y asigna el resultado de redondear el número `11.2`. Luego, registra el valor de `numRounded2` en la consola.
 
 # --hints--
 
-You should have a variable called `numRounded`.
+Debes tener una variable llamada `numRounded`.
 
 ```js
 assert.isNotNull(numRounded);
 ```
 
-You should assign the result of rounding the number `2.7` to the variable `numRounded`.
+Debes asignar el resultado de redondear el número `2.7` a la variable `numRounded`.
 
 ```js
 assert.equal(numRounded, 3);
 ```
 
-You should not hardcode the value of `3` for the variable `numRounded`. Make sure you are using the `Math.round()` method.
+No debes codificar manualmente el valor de `3` para la variable `numRounded`. Asegúrate de utilizar el método `Math.round()`.
 
 ```js
 assert.notMatch(code, /numRounded\s*=\s*3/);
 ```
 
-You should log the value of `numRounded` to the console.
+Debes registrar el valor de `numRounded` en la consola.
 
 ```js
 assert.match(code, /console\.log\(\s*numRounded\s*\)/);
 ```
 
-You should have a variable called `numRounded2`.
+Debes tener una variable llamada `numRounded2`.
 
 ```js
 assert.isNotNull(numRounded2);
 ```
 
-You should assign the result of rounding the number `11.2` to the variable `numRounded2`.
+Debes asignar el resultado de redondear el número `11.2` a la variable `numRounded2`.
 
 ```js
 assert.equal(numRounded2, 11);
 ```
 
-You should not hardcode the value of `11` for the variable `numRounded2`. Make sure you are using the `Math.round()` method.
+No debes codificar manualmente el valor de `11` para la variable `numRounded2`. Asegúrate de utilizar el método `Math.round()`.
 
 ```js
 assert.notMatch(code, /numRounded2\s*=\s*11/);
 ```
 
-You should log the value of `numRounded2` to the console.
+Debes registrar el valor de `numRounded2` en la consola.
 
 ```js
 assert.match(code, /console\.log\(\s*numRounded2\s*\)/);

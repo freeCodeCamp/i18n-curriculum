@@ -1,29 +1,29 @@
 ---
 id: 686daa7ed79ceacd0b264e7e
-title: Step 3
+title: Paso 3
 challengeType: 0
 dashedName: step-3
 ---
 
 # --description--
 
-You are getting closer, now look at this example:
+Estás acercándote, ahora mira este ejemplo:
 
 ```html
 <svg viewBox="0 0 50 50">
 </svg>
 ```
 
-The `viewBox` attribute controls what part of the image is visible inside the SVG.
+El atributo `viewBox` controla qué parte de la imagen es visible dentro del SVG.
 
-- The first two numbers (`0 0`) set the starting position of the `viewBox` — the top-left corner (x and y).
-- The next two numbers (`50 50`) define the `viewBox`'s width and height.
+- Los dos primeros números (`0 0`) establecen la posición inicial del `viewBox`: la esquina superior izquierda (x e y).
+- Los siguientes dos números (`50 50`) definen el ancho y alto del `viewBox`.
 
-Set the `viewBox` attribute to `0 0 24 24`.
+Establece el atributo `viewBox` a `0 0 24 24`.
 
 # --hints--
 
-You should have a `viewBox` attribute.
+Debes tener un atributo `viewBox`.
 
 ```js
 const svg = document.querySelector('svg');
@@ -31,7 +31,7 @@ const viewBox = svg.getAttribute('viewBox');
 assert.exists(viewBox);
 ```
 
-You should set the `viewBox` x position to 0.
+Debes establecer la posición x de `viewBox` en 0.
 
 ```js
 const svg = document.querySelector('svg');
@@ -40,7 +40,7 @@ const x = viewBox?.trim().split(' ')[0];
 assert.strictEqual(x, '0');
 ```
 
-You should set the `viewBox` y position to 0.
+Debes establecer el `viewBox` y la posición en 0.
 
 ```js
 const svg = document.querySelector('svg');
@@ -49,7 +49,7 @@ const y = viewBox?.trim().split(' ')[1];
 assert.strictEqual(y, '0');
 ```
 
-You should set the `viewBox` width to 24.
+Debes establecer el ancho de `viewBox` en 24.
 
 ```js
 const svg = document.querySelector('svg');
@@ -58,7 +58,7 @@ const width = viewBox?.trim().split(' ')[2];
 assert.strictEqual(width, '24');
 ```
 
-You should set the `viewBox` height to 24.
+Debes establecer la altura de `viewBox` en 24.
 
 ```js
 const svg = document.querySelector('svg');

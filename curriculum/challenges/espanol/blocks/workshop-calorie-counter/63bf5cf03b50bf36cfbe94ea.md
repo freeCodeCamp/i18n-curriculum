@@ -1,31 +1,31 @@
 ---
 id: 63bf5cf03b50bf36cfbe94ea
-title: Step 39
+title: Paso 39
 challengeType: 0
 dashedName: step-39
 ---
 
 # --description--
 
-Now that you have finished testing the value of `entryDropdown.value`, you can remove the `console.log` statement.
+Ahora que has terminado de probar el valor de `entryDropdown.value`, puedes eliminar la sentencia `console.log`. 
 
-Your next step is to allow users to add entries to the calorie counter. Declare an empty function `addEntry`. This function should not take any parameters.
+Tu siguiente paso es permitir a los usuarios agregar entradas al contador de calorías. Declara una función vacía `addEntry`. Esta función no debe tomar ningún parámetro.
 
 # --hints--
 
-You should remove the `console.log` statement.
+Debes eliminar la sentencia `console.log`.
 
 ```js
 assert.notMatch(code, /console\.log\s*\(.*\)/)
 ```
 
-You should declare an `addEntry` function.
+Debes declarar una función `addEntry`.
 
 ```js
 assert.isFunction(addEntry);
 ```
 
-Your `addEntry` function should not take any parameters.
+Tu función `addEntry` no debe tomar ningún parámetro.
 
 ```js
 assert.match(addEntry?.toString(), /\(\s*\)/);

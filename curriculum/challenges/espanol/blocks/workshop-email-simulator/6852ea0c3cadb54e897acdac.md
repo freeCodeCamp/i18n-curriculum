@@ -1,19 +1,19 @@
 ---
 id: 6852ea0c3cadb54e897acdac
-title: Step 1
+title: Paso 1
 challengeType: 20
 dashedName: step-1
 ---
 
 # --description--
 
-In this workshop, you are going to build an *Email Simulator* that simulates sending, receiving, and managing emails between different users. You'll learn about classes, objects, and how to organize code in an object-oriented way.
+En este taller, vas a construir un *Simulador de Email* que simula enviar, recibir y gestionar correos electrónicos entre diferentes usuarios. Aprenderás sobre clases, objetos y cómo organizar el código de manera orientada a objetos.
 
-Begin by creating a class named `Email` using the `class` keyword.
+Comienza creando una clase llamada `Email` usando la palabra clave `class`.
 
 # --hints--
 
-You should create a class named `Email`.
+Debes crear una clase llamada `Email`.
 
 ```js
 ({

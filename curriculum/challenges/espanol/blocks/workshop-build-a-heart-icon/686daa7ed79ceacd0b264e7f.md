@@ -1,19 +1,19 @@
 ---
 id: 686daa7ed79ceacd0b264e7f
-title: Pasos 4
+title: Paso 4
 challengeType: 0
 dashedName: step-4
 ---
 
 # --description--
 
-Before you begin coloring the image in, you should nest one `path` element inside your `svg` element to give the image shape.
+Antes de comenzar a colorear la imagen, debes anidar un elemento `path` dentro de tu elemento `svg` para darle forma a la imagen.
 
-Create a `path` element.
+Crea un elemento `path`.
 
 # --hints--
 
-You should have a `path` element nested inside of your `svg` element.
+Debes tener un elemento `path` anidado dentro de tu elemento `svg`.
 
 ```js
 const path = document.querySelector('svg path');
@@ -34,7 +34,7 @@ assert.exists(path);
   <body>
     --fcc-editable-region--
     <svg width="24" height="24" viewBox="0 0 24 24">
-
+      
     </svg>
     --fcc-editable-region--
   </body>

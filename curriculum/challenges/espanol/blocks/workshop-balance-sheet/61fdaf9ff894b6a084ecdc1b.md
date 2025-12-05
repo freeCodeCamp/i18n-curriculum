@@ -7,7 +7,7 @@ dashedName: step-33
 
 # --description--
 
-Para evitar que el contenido de texto se desborde, dé a su selector `span[class~="sr-only"]` una propiedad `overflow` establecida en `hidden` y una propiedad `white-space` establecida en `nowrap`.
+Para evitar que el contenido del texto se desborde, dale a tu selector `span[class~="sr-only"]` una propiedad `overflow` establecida en `hidden` y una propiedad `white-space` establecida en `nowrap`.
 
 # --hints--
 
@@ -175,7 +175,7 @@ span[class~="sr-only"] {
   clip-path: inset(50%);
   height: 1px;
   width: 1px;
-
+  
 }
 --fcc-editable-region--
 

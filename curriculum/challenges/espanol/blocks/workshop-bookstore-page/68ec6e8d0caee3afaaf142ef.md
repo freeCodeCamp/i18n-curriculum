@@ -1,31 +1,31 @@
 ---
 id: 68ec6e8d0caee3afaaf142ef
-title: Step 5
+title: Paso 5
 challengeType: 0
 dashedName: step-5
 ---
 
 # --description--
 
-You can add multiple elements inside a `div` element to group related content. Inside the element having a `class` of `card-container`, create another `div` element. This `div` will represent the first book card.
+Puedes agregar múltiples elementos dentro de un elemento `div` para agrupar contenido relacionado. Dentro del elemento que tiene una `class` de `card-container`, crea otro elemento `div`. Este `div` representará la primera tarjeta de libro.
 
-Add a `class` attribute to this new `div` element and set the value of the `class` attribute to `card`.
+Agrega un atributo `class` a este nuevo elemento `div` y establece el valor del atributo `class` en `card`.
 
 # --hints--
 
-You should have a `div` element nested inside the element with a class of `card-container`.
+Debes tener un elemento `div` anidado dentro del elemento con una clase `card-container`.
 
 ```js
 assert.exists(document.querySelector('.card-container div'));
 ```
 
-Your new `div` element should have a `class` attribute.
+Tu nuevo elemento `div` debe tener un atributo `class`.
 
 ```js
 assert.isTrue(document.querySelector('.card-container div')?.hasAttribute('class'));
 ```
 
-Your new `div` element should have a `class` having the value of `card`.
+Tu nuevo elemento `div` debe tener un `class` con el valor de `card`.
 
 ```js
 assert.exists(document.querySelector('.card-container div.card'));

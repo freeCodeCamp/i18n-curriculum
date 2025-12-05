@@ -1,21 +1,21 @@
 ---
 id: 66cc1ccfefdd727e18c2ab20
-title: Step 14
+title: Paso 14
 challengeType: 1
 dashedName: step-14
 ---
 
 # --description--
 
-Your `calculateQuotient` appears to be working correctly but there is one case that you have not tested yet.
+Tu `calculateQuotient` parece estar funcionando correctamente, pero hay un caso que aún no has probado.
 
-Add a `console.log` that calls the `calculateQuotient` function with the arguments `3` and `0`.
+Añade un `console.log` que llama a la función `calculateQuotient` con los argumentos `3` y `0`.
 
-Make sure to take a close look at the output of this call.
+Asegúrate de observar detenidamente el resultado de esta llamada.
 
 # --hints--
 
-You should have a `console.log` that calls the `calculateQuotient` function with the arguments `3` and `0`.
+Deberías tener un `console.log` que llama a la función `calculateQuotient` con los argumentos `3` y `0`.
 
 ```js
 assert.match(code, /console\.log\s*\(\s*calculateQuotient\s*\(\s*3\s*,\s*0\s*\)\s*\)\s*;?/);

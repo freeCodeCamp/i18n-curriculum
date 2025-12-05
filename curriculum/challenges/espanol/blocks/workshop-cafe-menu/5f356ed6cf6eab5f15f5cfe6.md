@@ -1,6 +1,6 @@
 ---
 id: 5f356ed6cf6eab5f15f5cfe6
-title: Step 16
+title: Paso 16
 challengeType: 0
 dashedName: step-16
 ---
@@ -13,19 +13,19 @@ Dentro de la etiqueta `div` de apertura, añade el atributo `id` con un valor de
 
 # --hints--
 
-Tu etiqueta `<div>` de apertura debe tener un atributo `id` establecido en `menu`.
+Tu etiqueta de apertura `<div>` debe tener un atributo `id` establecido en `menu`.
 
 ```js
 assert.strictEqual(document.querySelector('div')?.id, 'menu');
 ```
 
-Debes tener una etiqueta `</div>` de cierre.
+Debes tener una etiqueta de cierre `</div>`.
 
 ```js
 assert.match(code, /<\/div>/i);
 ```
 
-No debes cambiar tu elemento `body` existente. Asegúrate de no haber eliminado la etiqueta de cierre.
+No debes modificar el elemento `body` existente. Asegúrate de que no borras la etiqueta de cierre.
 
 ```js
 assert.lengthOf(document.querySelectorAll('body'), 1);

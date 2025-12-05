@@ -1,15 +1,15 @@
 ---
 id: 67f39babe1e2ec1fb6eea32a
-title: Dictionaries and Sets Review
+title: Revisión de Diccionarios y Conjuntos
 challengeType: 31
 dashedName: review-dictionaries-and-sets
 ---
 
 # --description--
 
-## Dictionaries
+## Diccionarios
 
-- **Dictionaries**: Dictionaries are built-in data structures that store collections of key-value pairs. Keys need to be immutable data types. This is the general syntax of a Python dictionary:
+- **Diccionarios**: Los diccionarios son estructuras de datos integradas que almacenan colecciones de pares clave-valor. Las claves deben ser tipos de datos inmutables. Esta es la sintaxis general de un diccionario en Python:
 
 ```python
 dictionary = {
@@ -18,27 +18,27 @@ dictionary = {
 }
 ```
 
-- **`dict()` Constructor**: The `dict()` constructor is an alternative way to build the dictionary. You pass a list of tuples as an argument to the `dict()` constructor. These tuples contain the key as the first element and the value as the second element.
+- **Constructor `dict()`**: El constructor `dict()` es una forma alternativa de construir el diccionario. Pasas una lista de tuplas como argumento al constructor `dict()`. Estas tuplas contienen la clave como el primer elemento y el valor como el segundo elemento.
 
 ```python
 pizza = dict([('name', 'Margherita Pizza'), ('price', 8.9), ('calories_per_slice', 250), ('toppings', ['mozzarella', 'basil'])])
 ```
 
-- **Bracket Notation**: To access the value of a key-value pair, you can use the syntax known as bracket notation.
+- **Notación de corchetes**: Para acceder al valor de un par clave-valor, puedes usar la sintaxis conocida como notación de corchetes.
 
 ```python
 dictionary[key]
 ```
 
-## Common Dictionary Methods
+## Métodos Comunes del Diccionario
 
-- **`get()` Method**: The `get()` method retrieves the value associated with a key. It's similar to the bracket notation, but it lets you set a default value, preventing errors if the key doesn't exist.
+- **Método `get()`**: El método `get()` recupera el valor asociado con una clave. Es similar a la notación de corchetes, pero te permite establecer un valor predeterminado, evitando errores si la clave no existe.
 
 ```python
 dictionary.get(key, default)
 ```
 
-- **`keys()` and `values()` Methods**: The `keys()` and `values()` methods return a view object with all the keys and values in the dictionary, respectively. A view object is a way to see the content of a dictionary without creating a separate copy of the data.
+- **Métodos `keys()` y `values()`**: Los métodos `keys()` y `values()` devuelven un objeto vista con todas las claves y valores del diccionario, respectivamente. Un objeto vista es una forma de ver el contenido de un diccionario sin crear una copia separada de los datos.
 
 ```python
 pizza = {
@@ -54,41 +54,41 @@ pizza.values()
 # dict_values(['Margherita Pizza', 8.9, 250])
 ```
 
-- **`items()` Method**: The `items()` method returns a view object with all the key-value pairs in the dictionary, including both the keys and the values.
+- **Método `items()`**: El método `items()` devuelve un objeto vista con todos los pares clave-valor en el diccionario, incluyendo tanto las claves como los valores.
 
 ```python
 pizza.items()
 # dict_items([('name', 'Margherita Pizza'), ('price', 8.9), ('calories_per_slice', 250)])
 ```
 
-- **`clear()` Method**: The `clear()` method removes all the key-value pairs from the dictionary.
+- **Método `clear()`**: El método `clear()` elimina todos los pares clave-valor del diccionario.
 
 ```python
 pizza.clear()
 ```
 
-- **`pop()` Method**: The `pop()` method removes the key-value pair with the key specified as the first argument and returns its value. If the key doesn't exist, it returns the default value specified as the second argument. If the key doesn't exist and the default value is not specified, a `KeyError` is raised.
+- **Método `pop()`**: El método `pop()` elimina el par clave-valor con la clave especificada como el primer argumento y devuelve su valor. Si la clave no existe, devuelve el valor predeterminado especificado como el segundo argumento. Si la clave no existe y no se especifica un valor predeterminado, se genera un `KeyError`.
 
 ```python
 pizza.pop('price', 10)
 pizza.pop('total_price') # KeyError
 ```
 
-- **`popitem()` Method**: In Python 3.7 and above, the `popitem()` method removes the last inserted item.
+- **Método `popitem()`**: En Python 3.7 y versiones superiores, el método `popitem()` elimina el último elemento insertado.
 
 ```python
 pizza.popitem()
 ```
 
-- **`update()` Method**: The `update()` method updates the key-value pairs with the key-value pairs of another dictionary. If they have keys in common, their values are overwritten. New keys will be added to the dictionary as new key-value pairs.
+- **Método `update()`**: El método `update()` actualiza los pares clave-valor con los pares clave-valor de otro diccionario. Si tienen claves en común, sus valores se sobrescriben. Las claves nuevas se agregarán al diccionario como nuevos pares clave-valor.
 
 ```python
 pizza.update({ 'price': 15, 'total_time': 25 })
 ```
 
-## Looping Over a Dictionary
+## Iterando sobre un diccionario
 
-- **Iterating Over Values**: If you need to iterate over the values in a dictionary, you can write a `for` loop with `values()` to get all the values of a dictionary.
+- **Iterando Sobre Valores**: Si necesitas iterar sobre los valores en un diccionario, puedes escribir un ciclo `for` con `values()` para obtener todos los valores de un diccionario.
 
 ```python
 products = {
@@ -102,7 +102,7 @@ for price in products.values():
     print(price)
 ```
 
-Output:
+Resultado:
 
 ```md
 990
@@ -111,17 +111,19 @@ Output:
 70
 ```
 
-- **Iterating Over Keys**: If you need to iterate over the keys in the `products` dictionary above, you can write `products.keys()` or `products` directly.
+- **Iterando sobre las claves**: Si necesitas iterar sobre las claves en el diccionario `products` de arriba, puedes escribir `products.keys()` o `products` directamente.
 
 ```python
 for product in products.keys():
     print(product)
 
+# Or
+
 for product in products:
     print(product)
 ```
 
-Output:
+Resultado:
 
 ```md
 Laptop
@@ -130,14 +132,14 @@ Tablet
 Headphones
 ```
 
-- **Iterating Over Key-Value Pairs**: If you need to iterate over the keys and their corresponding values simultaneously, you can iterate over `products.items()`. You get individual tuples with the keys and their corresponding values.
+- **Iterando sobre pares clave-valor**: Si necesitas iterar sobre las claves y sus valores correspondientes simultáneamente, puedes iterar sobre `products.items()`. Obtienes tuplas individuales con las claves y sus valores correspondientes.
 
 ```python
 for product in products.items():
     print(product)
 ```
 
-Output:
+Resultado:
 
 ```md
 ('Laptop', 990)
@@ -146,14 +148,14 @@ Output:
 ('Headphones', 70)
 ```
 
-To store the key and value in separate loop variables, you need to separate them with a comma. The first variable stores the key, and the second stores the value.
+Para almacenar la clave y el valor en variables de bucle separadas, necesitas separarlas con una coma. La primera variable almacena la clave, y la segunda almacena el valor.
 
 ```python
 for product, price in products.items():
     print(product, price)
 ```
 
-Output:
+Resultado:
 
 ```md
 Laptop 990
@@ -162,16 +164,16 @@ Tablet 250
 Headphones 70
 ```
 
-- **`enumerate()` Function**: If you need to iterate over a dictionary while keeping track of a counter, you can call the `enumerate()` function. The function returns an `enumerate` object, which assigns an integer to each item, like a counter. You can start the counter from any number, but by default, it starts from 0.
+- **Función `enumerate()`**: Si necesitas iterar sobre un diccionario mientras llevas un contador, puedes llamar a la función `enumerate()`. La función devuelve un objeto `enumerate`, que asigna un entero a cada elemento, como un contador. Puedes iniciar el contador desde cualquier número, pero por defecto, comienza en 0.
 
-Assigning the index and item to separate loop variables is the common way to use `enumerate()`. For example, with `products.items()`, you can get the entire key-value pair in addition to the index:
+Asignar el índice y el elemento a variables separadas en el ciclo es la forma común de usar `enumerate()`. Por ejemplo, con `products.items()`, puedes obtener el par clave-valor completo además del índice:
 
 ```python
 for index, product in enumerate(products.items()):
     print(index, product)
 ```
 
-Output:
+Resultado:
 
 ```md
 0 ('Laptop', 990)
@@ -180,14 +182,14 @@ Output:
 3 ('Headphones', 70)
 ```
 
-To customize the initial value of the count, you can pass a second argument to `enumerate()`. For example, here we are starting the count from 1.
+Para personalizar el valor inicial del conteo, puedes pasar un segundo argumento a `enumerate()`. Por ejemplo, aquí estamos comenzando el conteo desde 1.
 
 ```python
 for index, product in enumerate(products.items(), 1):
     print(index, product)
 ```
 
-Output:
+Resultado:
 
 ```md
 1 ('Laptop', 990)
@@ -196,47 +198,47 @@ Output:
 4 ('Headphones', 70)
 ```
 
-## Sets
+## Conjuntos
 
-- **Sets**: Sets are built-in data structures in Python that do not allow duplicate values. Sets are mutable and unordered, which means that their elements are not stored in any specific order, so you cannot use indices or keys to access them. Also, sets can only contain values of immutable data types, like numbers, strings, and tuples.
+- **Conjuntos**: Los conjuntos son estructuras de datos integradas en Python que no permiten valores duplicados. Los conjuntos son mutables y no ordenados, lo que significa que sus elementos no se almacenan en un orden específico, por lo que no puedes usar índices o claves para acceder a ellos. Además, los conjuntos solo pueden contener valores de tipos de datos inmutables, como números, cadenas y tuplas.
 
-- **Defining a Set**: To define a set, you need to write its elements within curly brackets and separate them with commas.
+- **Definiendo un Conjunto**: Para definir un conjunto, necesitas escribir sus elementos dentro de llaves y separarlos con comas.
 
 ```python
 my_set = {1, 2, 3, 4, 5}
 ```
 
-- **Defining an Empty Set**: If you need to define an empty set, you must use the `set()` function. Only writing empty curly braces will automatically create a dictionary.
+- **Definiendo un Conjunto Vacío**: Si necesitas definir un conjunto vacío, debes usar la función `set()`. Solo escribir llaves vacías creará automáticamente un diccionario.
 
 ```python
 set() # Set
 {}    # Dictionary
 ```
 
-## Common Set Methods
+## Métodos Comunes de Conjunto
 
-- **`add()` Method**: You can add an element to a set with the `add()` method, passing the new element as an argument.
+- **Método `add()`**: Puedes agregar un elemento a un conjunto con el método `add()`, pasando el nuevo elemento como argumento.
 
 ```python
 my_set.add(6)
 ```
 
-- **`remove()` and `discard()` Methods**: To remove an element from a set, you can either use the `remove()` method or the `discard()` method, passing the element you want to remove as an argument. The `remove()` method will raise a `KeyError` if the element is not found while the `discard()` method will not.
+- **Métodos `remove()` y `discard()`**: Para eliminar un elemento de un conjunto, puedes usar el método `remove()` o el método `discard()`, pasando el elemento que quieres eliminar como argumento. El método `remove()` generará un `KeyError` si el elemento no se encuentra, mientras que el método `discard()` no lo hará.
 
 ```python
 my_set.remove(4)
 my_set.discard(4)
 ```
 
-- **`clear()` method**:  The `clear()` method removes all the elements from the set.
+- **Método `clear()`**: El método `clear()` elimina todos los elementos del conjunto.
 
 ```python
 my_set.clear()
 ```
 
-## Mathematical Set Operations
+## Operaciones Matemáticas de Conjuntos
 
-- **`issubset()` and `issuperset()` Methods**: The `issubset()` and the `issuperset()` methods check if a set is a subset or superset of another set, respectively.
+- **Métodos `issubset()` y `issuperset()`**: Los métodos `issubset()` y `issuperset()` verifican si un conjunto es un subconjunto o un superconjunto de otro conjunto, respectivamente.
 
 ```python
 my_set = {1, 2, 3, 4, 5} 
@@ -246,63 +248,63 @@ print(your_set.issubset(my_set)) # True
 print(my_set.issuperset(your_set)) # True
 ```
 
-- **`isdisjoint()` Method**: The `isdisjoint()` method checks if two sets are disjoint, if they don't have elements in common.
+- **Método `isdisjoint()`**: El método `isdisjoint()` verifica si dos conjuntos son disjuntos, es decir, si no tienen elementos en común.
 
 ```python
 print(my_set.isdisjoint(your_set)) # False
 ```
 
-- **Union Operator (`|`)**: The union operator `|` returns a new set with all the elements from both sets.
+- **Operador de Unión (`|`)**: El operador de unión `|` devuelve un nuevo conjunto con todos los elementos de ambos conjuntos.
 
 ```python
 my_set | your_set # {1, 2, 3, 4, 5, 6}
 ```
 
-- **Intersection Operator (`&`)**: The intersection operator `&` returns a new set with only the elements that the sets have in common.
+- **Operador de intersección (`&`)**: El operador de intersección `&` devuelve un nuevo conjunto con solo los elementos que los conjuntos tienen en común.
 
 ```python
 my_set & your_set # {2, 3, 4}
 ```
 
-- **Difference Operator (`-`)**: The difference operator `-` returns a new set with the elements of the first set that are not in the other sets.
+- **Operador de diferencia (`-`)**: El operador de diferencia `-` devuelve un nuevo conjunto con los elementos del primer conjunto que no están en los otros conjuntos.
 
 ```python
 my_set - your_set # {1, 5}
 ```
 
-- **Symmetric Difference Operator (`^`)**: The symmetric difference operator `^` returns a new set with the elements that are either on the first or the second set, but not both.
+- **Operador de Diferencia Simétrica (`^`)**: El operador de diferencia simétrica `^` devuelve un nuevo conjunto con los elementos que están en el primer o en el segundo conjunto, pero no en ambos.
 
 ```python
 my_set ^ your_set # {1, 5, 6}
 ```
 
-- **`in` Operator**: You can check if an element is in a set or not with the `in` operator.
+- **Operador `in`**: Puedes verificar si un elemento está en un conjunto o no con el operador `in`.
 
 ```python
 print(5 in my_set)
 ```
 
-## Python Standard Library
+## Biblioteca Estándar de Python
 
-- **Python Standard Library**: A library gives you pre-written and reusable code, like functions, classes, and data structures, that you can reuse in your projects. Python has an extensive standard library with built-in modules that implement standardized solutions for many problems and tasks. Some examples of popular built-in modules are `math`, `random`, `re` (short for "regular expressions"), and `datetime`.
+- **Biblioteca Estándar de Python**: Una biblioteca te ofrece código preescrito y reutilizable, como funciones, clases y estructuras de datos, que puedes reutilizar en tus proyectos. Python tiene una extensa biblioteca estándar con módulos integrados que implementan soluciones estandarizadas para muchos problemas y tareas. Algunos ejemplos de módulos integrados populares son `math`, `random`, `re` (abreviatura de "expresiones regulares") y `datetime`.
 
-## Import Statement
+## Declaración de importación
 
-- **Import Statement**: To access the elements defined in built-in modules, you use an import statement. Import statements are generally written at the top of the file. Import statements work the same for functions, classes, constants, variables, and any other elements defined in the module.
+- **Declaración Import**: Para acceder a los elementos definidos en módulos integrados, usas una declaración import. Las declaraciones import generalmente se escriben al principio del archivo. Las declaraciones import funcionan igual para funciones, clases, constantes, variables y cualquier otro elemento definido en el módulo.
 
-- **Basic Import Statement**: You can use the `import` keyword followed by the name of the module:
+- **Declaración básica de importación**: Puedes usar la palabra clave `import` seguida del nombre del módulo:
 
 ```python
 import module_name
 ```
 
-Then, if you need to call a method from that module, you would use dot notation, with the name of the module followed by the name of the method.
+Luego, si necesitas llamar a un método de ese módulo, usarías la notación de punto, con el nombre del módulo seguido del nombre del método.
 
 ```python
 module_name.method_name()
 ```
 
-For example, you would write the following in your code to import the `math` module and get the square root of 36:
+Por ejemplo, escribirías lo siguiente en tu código para importar el módulo `math` y obtener la raíz cuadrada de 36:
 
 ```python
 import math
@@ -310,31 +312,31 @@ import math
 math.sqrt(36)
 ```
 
-- **Importing a Module with a Different Name**: If you need to import the module with a different name (also known as an "alias"), you can use `as` followed by the alias at the end of the import statement. This is often used for long module names or to avoid naming conflicts.
+- **Importar un Módulo con un Nombre Diferente**: Si necesitas importar el módulo con un nombre diferente (también conocido como un "alias"), puedes usar `as` seguido del alias al final de la declaración de importación. Esto se usa a menudo para nombres de módulos largos o para evitar conflictos de nombres.
 
 ```python
 import module_name as module_alias
 ```
 
-For example, to refer to the `math` module as `m` in your code, you can assign an alias like this:
+Por ejemplo, para referirte al módulo `math` como `m` en tu código, puedes asignar un alias así:
 
 ```python
 import math as m
 ```
 
-Then, you can access the elements of the module using the alias:
+Luego, puedes acceder a los elementos del módulo usando el alias:
 
 ```python
 m.sqrt(36)
 ```
 
-- **Importing Specific Elements**: If you don't need everything from a module, you can import specific elements using `from`. In this case, the import statement starts with `from`, followed by the module name, then the `import` keyword, and finally the names of the elements you want to import.
+- **Importar Elementos Específicos**: Si no necesitas todo de un módulo, puedes importar elementos específicos usando `from`. En este caso, la declaración de importación comienza con `from`, seguida del nombre del módulo, luego la palabra clave `import` y finalmente los nombres de los elementos que quieres importar.
 
 ```python
 from module_name import name1, name2
 ```
 
-Then, you can use these names without the module prefix in your Python script. For example:
+Luego, puedes usar estos nombres sin el prefijo del módulo en tu script de Python. Por ejemplo:
 
 ```python
 from math import radians, sin, cos
@@ -348,35 +350,35 @@ cos_value = cos(angle_radians)
 print(sine_value) # 0.6427876096865393
 print(cos_value)  # 0.766044443118978
 ```
+ 
+Esto es útil, pero puede resultar en conflictos de nombres si ya tienes funciones o variables con el mismo nombre. Tenlo en cuenta al elegir qué tipo de declaración de importación quieres usar.
 
-This is helpful, but it can result in naming conflicts if you already have functions or variables with the same name. Keep it in mind when choosing which type of import statement you want to use.
-
-If you need to assign aliases to these names, you can do so as well, using the `as` keyword followed by the alias.
+Si necesitas asignar alias a estos nombres, también puedes hacerlo usando la palabra clave `as` seguida del alias.
 
 ```python
 from module_name import name1 as alias1, name2 as alias2
 ```
 
-- **Import Statement with Asterisk (`*`)**: The asterisk tells Python that you want to import everything in that module, but you want to import it so that you don't need to use the name of the module as a prefix.
+- **Declaración de importación con asterisco (`*`)**: El asterisco indica a Python que quieres importar todo en ese módulo, pero quieres importarlo para que no necesites usar el nombre del módulo como prefijo.
 
 ```python
 from module_name import *
 ```
 
-For example, if you this to import the `math` module, you'll be able to call any function defined in that module without specifying the name of the module as a prefix.
+Por ejemplo, si usas esto para importar el módulo `math`, podrás llamar a cualquier función definida en ese módulo sin especificar el nombre del módulo como prefijo.
 
 ```python
 from math import *
 print(sqrt(36))  # 6.0
 ```
 
-However, this is generally discouraged because it can lead to namespace collisions and make it harder to know where names come from.
+Sin embargo, esto generalmente se desaconseja porque puede provocar colisiones de espacio de nombres y dificultar saber de dónde provienen los nombres.
 
 ## `if __name__ == '__main__'`
 
-- **`__name__` Variable**: `__name__` is a special built-in variable in Python. When a Python file is executed directly, Python sets the value of this variable to the string `"__main__"`. But if the Python file is imported as a module into another Python script, the value of the `__name__` variable is set to the name of that module.
+- **Variable `__name__`**: `__name__` es una variable especial incorporada en Python. Cuando un archivo Python se ejecuta directamente, Python asigna el valor de esta variable a la cadena `__main__`. Pero si el archivo Python se importa como un módulo en otro script Python, el valor de la variable `__name__` se establece con el nombre de ese módulo.
 
-This is why you'll often find this conditional in Python scripts. It contains the code that you only want to run **only** if the Python script is running as the main program.
+Por eso a menudo encontrarás esta condicional en scripts de Python. Contiene el código que solo quieres ejecutar **solo** si el script de Python se está ejecutando como el programa principal.
 
 ```python
 if __name__ == '__main__': 
@@ -385,4 +387,4 @@ if __name__ == '__main__':
 
 # --assignment--
 
-Review the Dictionaries and Sets topics and concepts.
+Revise los temas y conceptos de Diccionarios y Conjuntos.

@@ -1,51 +1,51 @@
 ---
 id: 68eab45aceb7c00fd8de4fed
-title: Step 11
+title: Paso 11
 challengeType: 0
 dashedName: step-11
 ---
 
 # --description--
 
-Inside the second `section` element, nest an `h2` element with the text `Importance of Networking`.
+Dentro del segundo elemento `section`, anida un elemento `h2` con el texto `Importance of Networking`.
 
-Below this heading, add a block quotation element with a `cite` attribute with the value `https://www.freecodecamp.org/news/learn-to-code-book/`.
+Debajo de este encabezado, agrega un elemento de cita en bloque con un atributo `cite` con el valor `https://www.freecodecamp.org/news/learn-to-code-book/`.
 
 # --hints--
 
-You should have an `h2` element nested inside the second section.
+Debes tener un elemento `h2` anidado dentro de la segunda sección.
 
 ```js
 assert.exists(document.querySelector('main > section:nth-of-type(2) > h2'));
 ```
 
-Your `h2` element should have the text `Importance of Networking`.
+Tu elemento `h2` debe tener el texto `Importance of Networking`.
 
 ```js
 const h2El = document.querySelector('main > section:nth-of-type(2) > h2');
 assert.equal(h2El?.innerText.trim(), 'Importance of Networking');
 ```
 
-You should have a `blockquote` element nested inside the second section.
+Debes tener un elemento `blockquote` anidado dentro de la segunda sección.
 
 ```js
 assert.exists(document.querySelector('main > section:nth-of-type(2) > blockquote'));
 ```
 
-Your `blockquote` element should be below your `h2` element.
+Tu elemento `blockquote` debe estar debajo de tu elemento `h2`.
 
 ```js
 assert.exists(document.querySelector('main > section:nth-of-type(2) > h2 + blockquote'));
 ```
 
-Your `blockquote` element should have a `cite` attribute.
+Tu elemento `blockquote` debe tener un atributo `cite`.
 
 ```js
 const blockquoteEl = document.querySelector('main > section:nth-of-type(2) > blockquote');
 assert.exists(blockquoteEl?.getAttribute('cite'));
 ```
 
-The `cite` attribute of your `blockquote` element should have the value `https://www.freecodecamp.org/news/learn-to-code-book/`.
+El atributo `cite` de tu elemento `blockquote` debe tener el valor `https://www.freecodecamp.org/news/learn-to-code-book/`.
 
 ```js
 const blockquoteEl = document.querySelector('main > section:nth-of-type(2) > blockquote');

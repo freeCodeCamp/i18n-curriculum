@@ -8,19 +8,19 @@ dashedName: build-a-tic-tac-toe-game
 
 # --description--
 
-**Objective:** Build an app that is functionally similar to this: <a href="https://codepen.io/freeCodeCamp/full/KzXQgy/" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/KzXQgy/</a>.
+**Objetivo:** Construye una app que sea funcionalmente similar a esta: <a href="https://codepen.io/freeCodeCamp/full/KzXQgy/" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/KzXQgy/</a>.
 
 Completa las historias de los usuarios que están aquí abajo y haz que pasen todas las pruebas. Utiliza cualquier librería o API que necesites. Dale tu propio estilo.
 
-**User Story:** I can play a game of Tic Tac Toe with the computer.
+**Historia de usuario:** Puedo jugar una partida de Tic Tac Toe con la computadora.
 
-**User Story:** My game will reset as soon as it's over so I can play again.
+**Historia de usuario:** Mi juego se reiniciará tan pronto como termine para que pueda jugar de nuevo.
 
-**User Story:** I can choose whether I want to play as X or O.
+**Historia de usuario:** Puedo elegir si quiero jugar como X u O.
 
 Cuando hayas terminado, incluye un enlace a tu proyecto en CodePen y haz clic en el botón "He completado este desafío".
 
-You can get feedback on your project by sharing it on the <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp forum</a>.
+Puedes obtener retroalimentación sobre tu proyecto compartiéndolo en el <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">foro de freeCodeCamp</a>.
 
 # --solutions--
 

@@ -19,7 +19,7 @@ Deberías llamar al método `addEventListener()` en tu variable `discardBtn`.
 assert.match(code, /discardBtn\.addEventListener\(/)
 ```
 
-Tu controlador de eventos debe escuchar un evento `click`.
+Tu detector de eventos debe escuchar para un evento `click`.
 
 ```js
 assert.match(code, /discardBtn\.addEventListener\(\s*('|"|`)click\1/)
