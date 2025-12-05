@@ -1,6 +1,6 @@
 ---
 id: 677d3b8fac17ba6cbf3d8afa
-title: Task 3
+title: Tarea 3
 challengeType: 22
 dashedName: task-3
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Escucha el audio para completar la oración de abajo.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This is the `-ing` form of the verb `say`, used after the preposition `by` to indicate the method of starting.
+Esta es la forma `-ing` del verbo `say`, usada después de la preposición `by` para indicar el método de inicio.
 
 ---
 
@@ -32,17 +32,17 @@ This is the `-ing` form of the verb `say`, used after the preposition `by` to in
 
 ### --feedback--
 
-This stands for `Quality Assurance`, referring to the process of ensuring products meet required standards.
+Esto representa `Quality Assurance`, refiriéndose al proceso de asegurar que los productos cumplan con los estándares requeridos.
 
 # --explanation--
 
-When a verb follows a preposition, it must take the `-ing` form (gerund). In this sentence, `saying` follows the preposition `by`, indicating the method Bob uses to start his statement. For example:
+Cuando un verbo sigue a una preposición, debe tomar la forma `-ing` (gerundio). En esta oración, `saying` sigue a la preposición `by`, indicando el método que Bob usa para comenzar su declaración. Por ejemplo:
 
-`She improved her skills by practicing regularly.` - Here, `practicing` follows the preposition `by`, showing how she improved her skills.
+`She improved her skills by practicing regularly.` - Aquí, `practicing` sigue a la preposición `by`, mostrando cómo mejoró sus habilidades.
 
-Bob compliments Jessica for her work in `QA`. `QA` stands for `Quality Assurance`. It refers to the process of ensuring that products or services meet specific quality standards and function correctly. Another example:
+Bob felicita a Jessica por su trabajo en `QA`. `QA` significa `Quality Assurance`. Se refiere al proceso de asegurar que los productos o servicios cumplan con estándares específicos de calidad y funcionen correctamente. Otro ejemplo:
 
-`The QA team identified several bugs during testing.` - This means that the people responsible for making sure the quality of the software is good managed to detect bugs in the software before its release.
+El equipo de QA identificó varios bugs durante las pruebas. Esto significa que las personas responsables de asegurar la calidad del software lograron detectar bugs en el software antes de su lanzamiento.
 
 # --scene--
 

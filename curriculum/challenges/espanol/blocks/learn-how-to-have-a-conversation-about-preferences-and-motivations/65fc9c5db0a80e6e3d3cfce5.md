@@ -1,6 +1,6 @@
 ---
 id: 65fc9c5db0a80e6e3d3cfce5
-title: Task 37
+title: Tarea 37
 challengeType: 22
 dashedName: task-37
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --description--
 
-In this part of the conversation, Brian talks about how the talk made him feel and thanks Maria for sharing her perspective.
+En esta parte de la conversación, Brian habla sobre cómo le hizo sentir la charla y agradece a Maria por compartir su perspectiva. 
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ In this part of the conversation, Brian talks about how the talk made him feel a
 
 ### --feedback--
 
-This word means something that gives you energy or a reason to do something. It's like when someone's words make you want to try harder.
+Esta palabra significa algo que te da energía o una razón para hacer algo. Es como cuando las palabras de alguien te hacen querer esforzarte más.
 
 ---
 
@@ -32,7 +32,7 @@ This word means something that gives you energy or a reason to do something. It'
 
 ### --feedback--
 
-This word means giving something that you have to others. It's like when you tell someone your ideas or feelings.
+Esta palabra significa dar algo que tienes a otros. Es como cuando le cuentas a alguien tus ideas o sentimientos.
 
 # --scene--
 

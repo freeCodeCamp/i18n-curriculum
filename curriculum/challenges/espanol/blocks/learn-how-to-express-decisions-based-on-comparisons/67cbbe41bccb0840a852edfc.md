@@ -1,6 +1,6 @@
 ---
 id: 67cbbe41bccb0840a852edfc
-title: Task 44
+title: Tarea 44
 challengeType: 22
 dashedName: task-44
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Escucha el audio para completar la oración de abajo.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This three-word phrase is used to acknowledge and show appreciation for receiving useful or important information. It's often used when you learn something helpful.
+Esta frase de tres palabras se usa para reconocer y mostrar agradecimiento por recibir información útil o importante. A menudo se usa cuando aprendes algo útil.
 
 ---
 
@@ -32,7 +32,7 @@ This three-word phrase is used to acknowledge and show appreciation for receivin
 
 ### --feedback--
 
-This two-word phrase means to choose or select something, especially after considering different options.
+Esta frase de dos palabras significa elegir o seleccionar algo, especialmente después de considerar diferentes opciones.
 
 ---
 
@@ -40,21 +40,21 @@ This two-word phrase means to choose or select something, especially after consi
 
 ### --feedback--
 
-This two-word phrase refers to something that is the most important or urgent.
+Esta frase de dos palabras se refiere a algo que es lo más importante o urgente.
 
 # --explanation--
 
-`Good to know` is used to show that the information shared is useful or appreciated. For example:
+`Good to know` se usa para mostrar que la información compartida es útil o apreciada. Por ejemplo:
 
-`It's good to know that the software is easy to use.` - This means the speaker appreciates learning that the software is easy to use.
+`It's good to know that the software is easy to use.` - Esto significa que el hablante valora aprender que el software es fácil de usar.
 
-`Go with` means to choose something, usually after some thought or comparison. For example:
+`Go with` significa elegir algo, usualmente después de pensar o comparar. Por ejemplo:
 
-`After much discussion, we went with the cheaper option.` - This means you chose the less expensive option after considering different choices.
+`After much discussion, we went with the cheaper option.` - Esto significa que elegiste la opción menos costosa después de considerar diferentes alternativas.
 
-`Top priority` means that something is the most important thing to consider or focus on. It's often used in work or decision-making contexts. For example:
+`Top priority` significa que algo es lo más importante a considerar o en lo que debes enfocarte. A menudo se usa en contextos de trabajo o toma de decisiones. Por ejemplo:
 
-`Our top priority right now is improving the website's performance.` - This means the most important task at the moment is to improve how well the website works, making it a main focus.
+`Our top priority right now is improving the website's performance.` - Esto significa que la tarea más importante en este momento es mejorar el rendimiento del sitio web, convirtiéndolo en un enfoque principal.
 
 # --scene--
 

@@ -1,6 +1,6 @@
 ---
 id: 67dd5cfeacc0cad2fc967438
-title: Task 16
+title: Tarea 16
 challengeType: 19
 dashedName: task-16
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Escucha el audio y responde a la pregunta de abajo.
 
 # --questions--
 
 ## --text--
 
-What does James want to know?
+¿Qué quiere saber James?
 
 ## --answers--
 
-If they agreed on the deadline for the first phase.
+Si acordaron la fecha límite para la primera fase.
 
 ---
 
-If the project has been canceled.
+Si el proyecto ha sido cancelado.
 
 ### --feedback--
 
-James doesn't mention canceling the project.
+James no menciona cancelar el proyecto.
 
 ---
 
-If Alice is responsible for the first phase.
+Si Alice es responsable de la primera fase.
 
 ### --feedback--
 
-James is not asking about responsibilities.
+James no está preguntando sobre responsabilidades.
 
 ---
 
-If the team finished the final phase.
+Si el equipo terminó la fase final.
 
 ### --feedback--
 
-James does not talk about the final phase.
+James no habla sobre la fase final.
 
 ## --video-solution--
 
@@ -52,9 +52,9 @@ James does not talk about the final phase.
 
 # --explanation--
 
-`By the way` is used to introduce a new but related topic into the conversation. It often brings up something that the speaker just remembered or wants to check. For example:
+`By the way` se usa para introducir un tema nuevo pero relacionado en la conversación. A menudo menciona algo que el hablante acaba de recordar o quiere verificar. Por ejemplo:
 
-`By the way, have you seen the updated report?` – This introduces a new question related to what was already being discussed.
+`By the way, have you seen the updated report?` – Esto introduce una nueva pregunta relacionada con lo que ya se estaba discutiendo.
 
 # --scene--
 

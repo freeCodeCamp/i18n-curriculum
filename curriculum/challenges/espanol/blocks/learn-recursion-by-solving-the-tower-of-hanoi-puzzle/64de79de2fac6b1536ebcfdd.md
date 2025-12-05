@@ -1,17 +1,17 @@
 ---
 id: 64de79de2fac6b1536ebcfdd
-title: Step 37
+title: Paso 37
 challengeType: 20
 dashedName: step-37
 ---
 
 # --description--
 
-The iterative solution of Tower of Hanoi might seem complete, but change the number of disks to `4` and look at the output.
+La solución iterativa de Tower of Hanoi podría parecer completa, pero cambia el número de discos a `4` y observa la salida.
 
 # --hints--
 
-You should set `NUMBER_OF_DISKS` to 4.
+Debes establecer `NUMBER_OF_DISKS` en 4.
 
 ```js
 ({ test: () => assert.equal(__userGlobals.get('NUMBER_OF_DISKS'), 4) })
@@ -38,14 +38,14 @@ def make_allowed_move(rod1, rod2):
         forward = True
     elif rods[rod1] and rods[rod1][-1] < rods[rod2][-1]:
         forward = True      
-
+                
     if forward:
         print(f'Moving disk {rods[rod1][-1]} from {rod1} to {rod2}')
         rods[rod2].append(rods[rod1].pop())
     else:
         print(f'Moving disk {rods[rod2][-1]} from {rod2} to {rod1}')
         rods[rod1].append(rods[rod2].pop())
-
+    
     # display our progress
     print(rods, '\n')
 

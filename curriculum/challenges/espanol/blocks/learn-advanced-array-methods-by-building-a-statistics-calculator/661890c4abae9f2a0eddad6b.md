@@ -1,6 +1,6 @@
 ---
 id: 661890c4abae9f2a0eddad6b
-title: Etapa 22
+title: Paso 22
 challengeType: 0
 dashedName: step-22
 ---
@@ -9,7 +9,7 @@ dashedName: step-22
 
 En los próximos pasos, aprenderás cómo determinar si la longitud de un array es par o impar, así como cómo encontrar la mediana. Podrás entonces aplicar lo que aprendiste a la función `getMedian`.
 
-Para verificar si un número es par o impar, puedes usar el <dfn>operador de módulo</dfn> `%`. El operador de módulo devuelve el resto de la división de dos números.
+Para verificar si un número es par o impar, puedes usar el <dfn>operador de módulo</dfn> `%`. El operador de módulo devuelve el resto de la división de dos números. 
 
 Aquí tienes un ejemplo verificando si la longitud de un array es par o impar:
 
@@ -27,7 +27,7 @@ Crea una variable llamada `isEven`. Luego usa el operador de módulo para verifi
 
 Debajo de tu variable `isEven`, imprime la variable `isEven` en la consola.
 
-Abre la consola para ver el resultado.
+Abre la consola para ver el resultado. 
 
 # --hints--
 
@@ -151,7 +151,7 @@ const calculate = () => {
   const value = document.querySelector("#numbers").value;
   const array = value.split(/,\s*/g);
   const numbers = array.map(el => Number(el)).filter(el => !isNaN(el));
-
+  
   const mean = getMean(numbers);
 
   document.querySelector("#mean").textContent = mean;

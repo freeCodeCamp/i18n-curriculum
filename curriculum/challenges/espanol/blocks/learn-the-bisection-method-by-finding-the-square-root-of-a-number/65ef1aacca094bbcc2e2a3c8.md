@@ -7,15 +7,15 @@ dashedName: step-9
 
 # --description--
 
-In Python, the `max()` function returns the largest of the input values.
+En Python, la función `max()` devuelve el valor más grande de los valores de entrada.
 
 ```python
 max(1, 2, 3) # Output: 3
 ```
 
-The variables `low` and `high` will be used to define the initial interval where the square root lies.
+Las variables `low` y `high` se usarán para definir el intervalo inicial donde se encuentra la raíz cuadrada.
 
-Inside the `else` clause, initialize the `low` variable to `0` and the `high` variable to be the maximum of either `1` or `square_target` as the square root of a number is always less than or equal to the number itself.
+Dentro de la cláusula `else`, inicializa la variable `low` en `0` y la variable `high` para que sea el máximo entre `1` o `square_target`, ya que la raíz cuadrada de un número siempre es menor o igual que el mismo número.
 
 # --hints--
 
@@ -30,7 +30,7 @@ Debes reemplazar la palabra clave `pass`.
 })
 ```
 
-You should declare a variable `low` and assign it `0`.
+Debes declarar una variable `low` y asignarle `0`.
 
 ```js
 ({
@@ -41,7 +41,7 @@ You should declare a variable `low` and assign it `0`.
 
 ```
 
-You should declare a variable `high` and use the `max()` function to assign it the maximum value between `1` and `square_target`.
+Debes declarar una variable `high` y usar la función `max()` para asignarle el valor máximo entre `1` y `square_target`.
 
 ```js
 

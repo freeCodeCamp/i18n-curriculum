@@ -1,6 +1,6 @@
 ---
 id: 66bbba46fff0ef451b701bcd
-title: Task 103
+title: Tarea 103
 challengeType: 19
 dashedName: task-103
 lang: en-US
@@ -18,35 +18,35 @@ Escucha el audio y responde a la pregunta de abajo.
 
 ## --text--
 
-Is Sarah available to talk to Tom?
+¿Está Sarah disponible para hablar con Tom?
 
 ## --answers--
 
-No, she is busy and doesn't want to know about his problems.
+No, ella está ocupada y no quiere saber nada sobre sus problemas.
 
 ### --feedback--
 
-Sarah says she is not busy.
+Sarah dice que no está ocupada.
 
 ---
 
-Yes, she is available and wants to know what's the problem.
+Sí, ella está disponible y quiere saber cuál es el problema.
 
 ---
 
-No, she cannot talk right now, she has her own problems.
+No, ella no puede hablar ahora mismo, tiene sus propios problemas.
 
 ### --feedback--
 
-Sarah mentions that she is not busy.
+Sarah menciona que no está ocupada.
 
 ---
 
-Yes, but only for a moment because she has her own problems.
+Sí, pero solo por un momento porque ella tiene sus propios problemas.
 
 ### --feedback--
 
-Sarah doesn't limit the time; she simply states that she is not busy.
+Sarah no limita el tiempo; simplemente dice que no está ocupada.
 
 ## --video-solution--
 
@@ -54,11 +54,11 @@ Sarah doesn't limit the time; she simply states that she is not busy.
 
 # --explanation--
 
-Instead of directly saying she is free, Sarah uses the negative form `I'm not busy` to emphasize that she has time to help.
+En lugar de decir directamente que ella está libre, Sarah usa la forma negativa `I'm not busy` para enfatizar que tiene tiempo para ayudar.
 
-This is a polite and indirect way to offer availability in English, commonly used to make the conversation more tactful.
+Esta es una forma educada e indirecta de ofrecer disponibilidad en inglés, comúnmente usada para hacer la conversación más diplomática.
 
-Her follow-up sentence, `What's the problem?`, confirms she's willing to assist by inviting Tom to explain the issue.
+Su frase de seguimiento, `What's the problem?`, confirma que está dispuesta a ayudar invitando a Tom a explicar el problema.
 
 # --scene--
 

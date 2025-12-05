@@ -1,6 +1,6 @@
 ---
 id: afd15382cdfb22c9efe8b7de
-title: DNA Pairing
+title: Emparejamiento de ADN
 challengeType: 1
 forumTopicId: 16009
 dashedName: dna-pairing
@@ -8,17 +8,17 @@ dashedName: dna-pairing
 
 # --description--
 
-Pairs of DNA strands consist of nucleobase pairs. Base pairs are represented by the characters <em>AT</em> and <em>CG</em>, which form building blocks of the DNA double helix.
+Los pares de cadenas de ADN consisten en pares de nucleobases. Los pares de bases están representados por los caracteres <em>AT</em> y <em>CG</em>, que forman las estructuras básicas de la doble hélice del ADN.
 
-The DNA strand is missing the pairing element. Write a function to match the missing base pairs for the provided DNA strand. For each character in the provided string, find the base pair character. Return the results as a 2d array.
+A la cadena de ADN le falta el elemento de emparejamiento. Escribe una función que coincida con los pares de base faltantes para la hebra de ADN proporcionada. Para cada carácter de la cadena proporcionada, encuentra el carácter de par base. Devuelve los resultados como un arreglo 2d.
 
-For example, for the input `GCG`, return `[["G", "C"], ["C","G"], ["G", "C"]]`
+Por ejemplo, la entrada `GCG`, devolverá `[["G", "C"], ["C","G"], ["G", "C"]]`
 
-The character and its pair are paired up in an array, and all the arrays are grouped into one encapsulating array.
+El carácter y su par se emparejan en un arreglo, y todos los arreglos se agrupan en un arreglo encapsulado.
 
 # --hints--
 
-`pairElement("ATCGA")` should return `[["A","T"],["T","A"],["C","G"],["G","C"],["A","T"]]`.
+`pairElement("ATCGA")` debe devolver `[["A","T"],["T","A"],["C","G"],["G","C"],["A","T"]]`.
 
 ```js
 assert.deepEqual(pairElement('ATCGA'), [
@@ -30,7 +30,7 @@ assert.deepEqual(pairElement('ATCGA'), [
 ]);
 ```
 
-`pairElement("TTGAG")` should return `[["T","A"],["T","A"],["G","C"],["A","T"],["G","C"]]`.
+`pairElement("TTGAG")` debe devolver `[["T","A"],["T","A"],["G","C"],["A","T"],["G","C"]]`.
 
 ```js
 assert.deepEqual(pairElement('TTGAG'), [
@@ -42,7 +42,7 @@ assert.deepEqual(pairElement('TTGAG'), [
 ]);
 ```
 
-`pairElement("CTCTA")` should return `[["C","G"],["T","A"],["C","G"],["T","A"],["A","T"]]`.
+`pairElement("CTCTA")` debe devolver `[["C","G"],["T","A"],["C","G"],["T","A"],["A","T"]]`.
 
 ```js
 assert.deepEqual(pairElement('CTCTA'), [

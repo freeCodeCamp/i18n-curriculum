@@ -1,6 +1,6 @@
 ---
 id: 66f3f6eb66ea9dc41cdc30df
-title: Design a Set of Colored Boxes
+title: Diseñar un conjunto de cajas de colores
 challengeType: 25
 dashedName: set-of-colored-boxes
 demoType: onClick
@@ -8,28 +8,28 @@ demoType: onClick
 
 # --description--
 
-In this lab, you'll practice using CSS colors by designing boxes.
+En este laboratorio, practicarás el uso de colores CSS diseñando cajas.
 
-**Objective:** Fulfill the user stories below and get all the tests to pass to complete the lab.
+**Objetivo:** Cumplir con las historias de usuario a continuación y pasar todas las pruebas para completar el laboratorio.
 
-**User Stories:**
+**Historias de usuario:**
 
-1. You should set the background color for `body` to `#f4f4f4`.
-2. You should have a `div` with a class of `color-grid` to hold all your color elements.
-3. You should have five `div` elements within the `.color-grid` element.
-4. The five `div` elements should each have a class of `color-box` and `color#`, where `#` is the number of the order of that `div`. For example: `color1` for the first `div`, `color2` for the second, and so on.
-5. The `.color-box` class should have a set `width` and `height` so your `div` elements are visible on the page.
-6. The `.color1` element should have a `background-color` that uses hexadecimal color value.
-7. The `.color2` element should have a `background-color` that uses an RGB color value.
-8. The `.color3` element should have a `background-color` that uses a predefined (word) color value.
-9. The `.color4` element should have a `background-color` that uses a HSL color value.
-10. The `.color5` element should have a `background-color` set.
+1. Deberías establecer el color de fondo del `body` en `#f4f4f4`.
+2. Deberías tener un `div` con una clase de `color-grid` para contener todos tus elementos de color.
+3. Deberías tener cinco elementos `div` dentro del elemento `.color-grid`.
+4. Los cinco elementos `div` deberían tener cada uno una clase de `color-box` y `color#`, donde `#` es el número de orden de ese `div`. Por ejemplo: `color1` para el primer `div`, `color2` para el segundo, y así sucesivamente.
+5. La clase `.color-box` debería tener un `width` y `height` establecidos para que tus elementos `div` sean visibles en la página.
+6. El elemento `.color1` debería tener un `background-color` que use un valor de color hexadecimal.
+7. El elemento `.color2` debería tener un `background-color` que use un valor de color RGB.
+8. El elemento `.color3` debería tener un `background-color` que use un valor de color predefinido (palabra).
+9. El elemento `.color4` debería tener un `background-color` que use un valor de color HSL.
+10. El elemento `.color5` debería tener un `background-color` establecido.
 
-**Note:** Be sure to link your stylesheet in your HTML and apply your CSS.
+**Nota:** Asegúrate de vincular tu hoja de estilos en tu HTML y aplica tu CSS.
 
 # --hints--
 
-`body` should have a background color of `#f4f4f4`.
+`body` debería tener un color de fondo de `#f4f4f4`.
 
 ```js
 const body = document.body;
@@ -37,21 +37,21 @@ const bodyBgColor = getComputedStyle(body).backgroundColor;
 assert.strictEqual(bodyBgColor, 'rgb(244, 244, 244)');
 ```
 
-You should have a `div` element with a class of `color-grid`.
+Deberías tener un elemento `div` con una clase de `color-grid`.
 
 ```js
 const colorGrid = document.querySelector('div.color-grid');
 assert.exists(colorGrid);
 ```
 
-You should have five `div` elements within the `.color-grid` element.
+Deberías tener cinco elementos `div` dentro del elemento `.color-grid`.
 
 ```js
 const colorGridChildren = document.querySelectorAll('div.color-grid > div');
 assert.strictEqual(colorGridChildren.length, 5);
 ```
 
-Each of the five `div` elements should each have a class of `color-box` and `color#`—substitute the order of the `div` for the `#` symbol.
+Cada uno de los cinco elementos `div` debería tener una clase de `color-box` y `color#`—sustituir el orden del `div` por el símbolo `#`.
 
 ```js
 const colorGridChildren = document.querySelectorAll('div.color-grid > div');
@@ -64,7 +64,7 @@ colorGridChildren.forEach((child, index) => {
 });
 ```
 
-The `.color-box` element should have a set `width` and `height`.
+El elemento `.color-box` debería tener un `width` y `height` establecidos.
 
 ```js
 const colorBox = document.querySelector('.color-box');
@@ -78,7 +78,7 @@ assert.notStrictEqual(width, '0px');
 assert.notStrictEqual(height, '0px');
 ```
 
-The `.color1` element should have a hexadecimal background color.
+El elemento `.color1` debería tener un color de fondo hexadecimal.
 
 ```js
 const hexChars = "[0-9a-fA-F]"
@@ -86,13 +86,13 @@ const hexRegex = new RegExp(`\\.color1\\s*{[^}]*\\bbackground-color\\s*:\\s*#(($
 assert.match(__helpers.removeCssComments(code), hexRegex);
 ```
 
-The `.color2` element should have an RGB background color.
+El elemento `.color2` debería tener un color de fondo RGB.
 
 ```js
 assert.match(__helpers.removeCssComments(code), /\.color2\s*{[^}]*\bbackground-color\s*:\s*rgb\s*\(\s*\d+(?:\.\d+)?\s*(,|\s+)\s*\d+(?:\.\d+)?\s*\1\s*\d+(?:\.\d+)?\s*(\/\s*\d{1,2}(?:\.\d+)?%\s*)?\)\s*;?[^}]*}/);
 ```
 
-The `.color3` element should have a predefined (word) background color.
+El elemento `.color3` debería tener un color de fondo predefinido (palabra).
 
 ```js
 const colorSet = new Set(["black", "silver", "gray", "white", "maroon", "red", "purple", "fuchsia", "green", "lime", "olive", "yellow", "navy", "blue", "teal", "aqua", "aliceblue", "antiquewhite", "aqua", "aquamarine", "azure", "beige", "bisque", "black", "blanchedalmond", "blue", "blueviolet", "brown", "burlywood", "cadetblue", "chartreuse", "chocolate", "coral", "cornflowerblue", "cornsilk", "crimson", "cyan", "aqua", "darkblue", "darkcyan", "darkgoldenrod", "darkgray", "darkgreen", "darkgrey", "darkkhaki", "darkmagenta", "darkolivegreen", "darkorange", "darkorchid", "darkred", "darksalmon", "darkseagreen", "darkslateblue", "darkslategray", "darkslategrey", "darkturquoise", "darkviolet", "deeppink", "deepskyblue", "dimgray", "dimgrey", "dodgerblue", "firebrick", "floralwhite", "forestgreen", "fuchsia", "gainsboro", "ghostwhite", "gold", "goldenrod", "gray", "green", "greenyellow", "grey", "gray", "honeydew", "hotpink", "indianred", "indigo", "ivory", "khaki", "lavender", "lavenderblush", "lawngreen", "lemonchiffon", "lightblue", "lightcoral", "lightcyan", "lightgoldenrodyellow", "lightgray", "lightgreen", "lightgrey", "lightpink", "lightsalmon", "lightseagreen", "lightskyblue", "lightslategray", "lightslategrey", "lightsteelblue", "lightyellow", "lime", "limegreen", "linen", "magenta", "fuchsia", "maroon", "mediumaquamarine", "mediumblue", "mediumorchid", "mediumpurple", "mediumseagreen", "mediumslateblue", "mediumspringgreen", "mediumturquoise", "mediumvioletred", "midnightblue", "mintcream", "mistyrose", "moccasin", "navajowhite", "navy", "oldlace", "olive", "olivedrab", "orange", "orangered", "orchid", "palegoldenrod", "palegreen", "paleturquoise", "palevioletred", "papayawhip", "peachpuff", "peru", "pink", "plum", "powderblue", "purple", "rebeccapurple", "red", "rosybrown", "royalblue", "saddlebrown", "salmon", "sandybrown", "seagreen", "seashell", "sienna", "silver", "skyblue", "slateblue", "slategray", "slategrey", "snow", "springgreen", "steelblue", "tan", "teal", "thistle", "tomato", "transparent", "turquoise", "violet", "wheat", "white", "whitesmoke", "yellow", "yellowgreen"]);
@@ -100,7 +100,7 @@ const matchedColor = __helpers.removeCssComments(code).match(/\.color3\s*{[^}]*\
 assert.isTrue(colorSet.has(matchedColor.groups.color.toLowerCase()));
 ```
 
-The `.color4` element should have a HSL background color.
+El elemento `.color4` debería tener un color de fondo HSL.
 
 ```js
 const absHSLVals = '\\s*(none|\\d+(?:\\.\\d+)?(?:deg)?)\\s*\\d+(?:\\.\\d+)?%?\\s*\\d+(?:\\.\\d+)?%?\\s*(\\/\\s*\\d{1,2}(?:\\.\\d+)?%\\s*)?';
@@ -109,7 +109,7 @@ const hslRegex = new RegExp(`\\.color4\\s*{[^}]*\\bbackground-color\\s*:\\s*hsl\
 assert.match(__helpers.removeCssComments(code), hslRegex);
 ```
 
-The `.color5` element should have a background color set.
+El elemento `.color5` debería tener un color de fondo establecido.
 
 ```js
 assert.isNotEmpty(new __helpers.CSSHelp(document).getStyle('.color5')?.getPropVal('background-color', true));

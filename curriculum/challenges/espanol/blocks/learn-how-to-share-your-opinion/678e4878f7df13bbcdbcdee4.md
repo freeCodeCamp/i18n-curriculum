@@ -24,13 +24,13 @@ Escucha el audio para completar la oración de abajo.
 
 ### --feedback--
 
-This word means that something can be changed or adjusted to meet individual preferences or needs.
+Esta palabra significa que algo puede ser cambiado o ajustado para cumplir con preferencias o necesidades individuales.
 
 # --explanation--
 
-`Customizable` refers to something that can be changed or modified to suit different preferences, needs, or requirements. Por ejemplo:
+`Customizable` se refiere a algo que puede ser cambiado o modificado para adaptarse a diferentes preferencias, necesidades o requisitos. Por ejemplo:
 
-`The dashboard in this project management tool is customizable, allowing each team to organize their tasks in their preferred way.` - This means that the dashboard can be modified according to each team's needs, helping them organize their work more efficiently.
+El `dashboard` en esta herramienta de gestión de proyectos es personalizable, permitiendo que cada equipo organice sus tareas de la manera que prefiera. Esto significa que el `dashboard` puede modificarse según las necesidades de cada equipo, ayudándolos a organizar su trabajo de forma más eficiente.
 
 # --scene--
 

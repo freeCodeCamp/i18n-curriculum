@@ -1,6 +1,6 @@
 ---
 id: 657b1a27dc6daf6ffd52ff1f
-title: Task 30
+title: Tarea 30
 challengeType: 19
 dashedName: task-30
 lang: en-US
@@ -11,43 +11,43 @@ Second Candidate: Yes. I have a master's degree in computer science. -->
 
 # --description--
 
-In English, the noun suffixed with `'s` followed by a second noun structure is used to show possession or belonging.
+En inglés, el sustantivo con sufijo `'s` seguido de una segunda estructura de sustantivo se usa para mostrar posesión o pertenencia.
 
-If the first noun is singular, as in `Sarah's laptop`, it indicates that the laptop belongs to Sarah. However, if the first noun is plural, the structure changes to noun suffixed with `'`, as in `teachers' office`, indicating an office for teachers.
+Si el primer sustantivo es singular, como en `Sarah's laptop`, indica que el portátil pertenece a Sarah. Sin embargo, si el primer sustantivo es plural, la estructura cambia a sustantivo con sufijo `'`, como en `teachers' office`, indicando una oficina para maestros.
 
 # --questions--
 
 ## --text--
 
-What does `master's degree` in the context of the dialogue refer to?
+¿A qué se refiere `master's degree` en el contexto del diálogo?
 
 ## --answers--
 
-A degree for school teachers
+Un título para maestros escolares
 
 ### --feedback--
 
-`Master's degree` refers to an advanced academic degree, not specifically for teachers.
+`Master's degree` se refiere a un título académico avanzado, no específicamente para maestros.
 
 ---
 
-A primary level educational degree
+Un título educativo de nivel primario
 
 ### --feedback--
 
-`Master's degree` is a higher education qualification, beyond the primary level.
+`Master's degree` es una calificación de educación superior, más allá del nivel primario.
 
 ---
 
-A degree in mastering skills
+Un título en habilidades de dominio
 
 ### --feedback--
 
-While it implies expertise, `master's degree` specifically refers to an academic qualification.
+Aunque implica pericia, `master's degree` se refiere específicamente a una calificación académica.
 
 ---
 
-An advanced academic degree
+Un título académico avanzado
 
 ## --video-solution--
 

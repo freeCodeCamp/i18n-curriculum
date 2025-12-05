@@ -1,27 +1,27 @@
 ---
 id: 64ec9c55fdeef78bacd2fc3b
-title: Step 30
+title: Paso 30
 challengeType: 0
 dashedName: step-30
 ---
 
 # --description--
 
-If you attempt to add another task now, you'll notice that the input fields retain the values you entered for the previous task. To resolve this, you need to clear the input fields after adding a task.
+Si intentas añadir otra tarea ahora, notarás que los campos de entrada retienen los valores que ingresaste para la tarea anterior. Para resolver esto, necesitas limpiar los campos de entrada después de añadir una tarea.
 
-Instead of clearing the input fields one by one, it's a good practice to create a function that handles clearing those fields. You can then call this function whenever you need to clear the input fields again.
+En lugar de limpiar los campos de entrada uno por uno, es una buena práctica crear una función que maneje la limpieza de esos campos. Entonces puedes llamar a esta función siempre que necesites limpiar los campos de entrada nuevamente.
 
-Use arrow syntax to create a `reset` function and set it to a pair of curly braces.
+Utiliza la sintaxis de flecha para crear una función `reset` y asígnala a un par de llaves.
 
 # --hints--
 
-You should use `const` and arrow syntax to create a `reset` function.
+Debes usar `const` y la sintaxis de flecha para crear una función `reset`.
 
 ```js
 assert.match(code, /const\s+reset\s*=\s*\(\s*\)\s*=>\s*\{\s*/)
 ```
 
-Your `reset` function should be empty.
+Tu función `reset` debe estar vacía.
 
 ```js
 assert.match(reset.toString(), /\(\s*\)\s*\{\s*\}/);

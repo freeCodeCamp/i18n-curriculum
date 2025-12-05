@@ -7,7 +7,7 @@ dashedName: step-58
 
 # --description--
 
-Con un `display` de `block`, el botón de enviar se alinea con el borde izquierdo de su elemento padre.
+Con un `display` de `block` el botón de envío se sitúa al ras del borde izquierdo de su padre.
 
 Utiliza la misma técnica empleada para centrar el `form` para centrar el botón de enviar.
 

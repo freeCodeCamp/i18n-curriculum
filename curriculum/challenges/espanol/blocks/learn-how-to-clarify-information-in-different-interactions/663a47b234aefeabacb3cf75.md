@@ -1,6 +1,6 @@
 ---
 id: 663a47b234aefeabacb3cf75
-title: Task 27
+title: Tarea 27
 challengeType: 22
 dashedName: task-27
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --description--
 
-Another distinctive characteristic someone has is their height. You can say, for example, that someone is `tall` or `short`. A `tall` person is someone above the average in terms of their height. The opposite is when someone is `short`, when this person is below the average.
+Otra característica distintiva que alguien tiene es su altura. Puedes decir, por ejemplo, que alguien es `tall` o `short`. Una persona `tall` es alguien por encima del promedio en términos de su altura. Lo contrario es cuando alguien es `short`, cuando esta persona está por debajo del promedio.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Another distinctive characteristic someone has is their height. You can say, for
 
 ### --feedback--
 
-Above the average in terms of height.
+Por encima del promedio en términos de altura.
 
 # --scene--
 

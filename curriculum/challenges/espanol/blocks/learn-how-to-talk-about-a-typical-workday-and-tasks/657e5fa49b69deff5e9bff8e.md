@@ -1,6 +1,6 @@
 ---
 id: 657e5fa49b69deff5e9bff8e
-title: Task 105
+title: Tarea 105
 challengeType: 22
 dashedName: task-105
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --description--
 
-Listen to the audio and complete the sentence below.
+Escucha el audio para completar la oración de abajo.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-These two words express obligation to do something.
+Estas dos palabras expresan la obligación de hacer algo.
 
 ---
 
@@ -32,7 +32,7 @@ These two words express obligation to do something.
 
 ### --feedback--
 
-This word means right away, without delay.
+Esta palabra significa inmediatamente, sin demora.
 
 # --scene--
 

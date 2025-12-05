@@ -1,6 +1,6 @@
 ---
 id: 67c4bacefd5097faecca40d4
-title: Task 22
+title: Tarea 22
 challengeType: 19
 dashedName: task-22
 lang: en-US
@@ -10,51 +10,51 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Escucha el audio y responde a la pregunta de abajo.
 
 # --questions--
 
 ## --text--
 
-What does Bob want to know?
+¿Qué quiere saber Bob?  
 
 ## --answers--
 
-If they should cancel the project.
+Si deberían cancelar el proyecto.  
 
 ### --feedback--
 
-Bob is not asking about canceling the project.
+Bob no está preguntando sobre cancelar el proyecto.  
 
 ---
 
-If working fewer hours would be better.
+Si trabajar menos horas sería mejor.  
 
 ### --feedback--
 
-Bob is suggesting working more hours, not fewer.
+Bob está sugiriendo trabajar más horas, no menos.  
 
 ---
 
-If the team has already solved the issue.
+Si el equipo ya ha resuelto el problema.  
 
 ### --feedback--
 
-Bob is asking if his suggestion will help, not if the issue is already solved.
+Bob está preguntando si su sugerencia ayudará, no si el problema ya está resuelto.  
 
 ---
 
-If working extra hours will improve the situation.
+Si trabajar horas extras mejorará la situación.  
 
 ## --video-solution--
 
-4
+4  
 
 # --explanation--
 
-Using negatives in questions with auxiliary or modal verbs (such as `wouldn't`, `isn't`, `doesn't`), which require direct `yes`/`no` answers, suggests that the speaker expects the answer to be positive — Bob assumes, in this case, that working extra hours will help. Another example:
+Usar negativos en preguntas con verbos auxiliares o modales (como `wouldn't`, `isn't`, `doesn't`), que requieren respuestas directas de `yes`/`no`, sugiere que el hablante espera que la respuesta sea afirmativa — Bob asume, en este caso, que trabajar horas extra ayudará. Otro ejemplo:
 
-`Doesn't this plan seem like a good idea?` - The speaker expects the listener to agree that the plan is good.
+`Doesn't this plan seem like a good idea?` - El hablante espera que el oyente esté de acuerdo en que el plan es bueno.
 
 # --scene--
 

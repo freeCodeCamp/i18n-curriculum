@@ -1,6 +1,6 @@
 ---
 id: bd7123c9c451eddfaeb5bdef
-title: Use Bracket Notation to Find the Last Character in a String
+title: Utiliza la notación de corchetes para encontrar el último carácter en una cadena
 challengeType: 1
 forumTopicId: 18342
 dashedName: use-bracket-notation-to-find-the-last-character-in-a-string
@@ -8,34 +8,34 @@ dashedName: use-bracket-notation-to-find-the-last-character-in-a-string
 
 # --description--
 
-In order to get the last letter of a string, you can subtract one from the string's length.
+Con el fin de obtener la última letra de una cadena, puedes restar uno a la longitud del texto.
 
-For example, if `const firstName = "Ada"`, you can get the value of the last letter of the string by using `firstName[firstName.length - 1]`.
+Por ejemplo, sí `const firstName = "Ada"`, puedes obtener el valor de la última letra de la cadena usando `firstName[firstName.length - 1]`.
 
-Example:
+Ejemplo:
 
 ```js
 const firstName = "Ada";
 const lastLetter = firstName[firstName.length - 1];
 ```
 
-`lastLetter` would have a value of the string `a`.
+`lastLetter` tendrá una cadena con valor `a`.
 
 # --instructions--
 
-Use <dfn>bracket notation</dfn> to find the last character in the `lastName` variable.
+Usa <dfn>notación de corchetes</dfn> para encontrar el último carácter en la variable `lastName`.
 
-**Hint:** Try looking at the example above if you get stuck.
+**Sugerencia:** Intenta mirar el ejemplo de arriba si te quedas atascado.
 
 # --hints--
 
-`lastLetterOfLastName` should be the letter `e`.
+`lastLetterOfLastName` debe ser la letra `e`.
 
 ```js
 assert(lastLetterOfLastName === 'e');
 ```
 
-You should use `.length` to get the last letter.
+Debes usar `.length` para obtener la última letra.
 
 ```js
 assert(__helpers.removeJSComments(code).match(/\.length/g).length > 0);

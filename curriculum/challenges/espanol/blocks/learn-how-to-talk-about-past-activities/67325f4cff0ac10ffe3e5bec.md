@@ -1,6 +1,6 @@
 ---
 id: 67325f4cff0ac10ffe3e5bec
-title: Task 114
+title: Tarea 114
 challengeType: 19
 dashedName: task-114
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Escucha el audio y responde a la pregunta a continuación.
+Escucha el audio y responde a la pregunta de abajo.
 
 # --questions--
 
 ## --text--
 
-What is James describing about his approach to coding?
+¿Qué está describiendo James sobre su enfoque para programar?
 
 ## --answers--
 
-A habit he had in the past.
+Un hábito que tenía en el pasado.
 
 ---
 
-Something he plans to do in the future.
+Algo que él planea hacer en el futuro.
 
 ### --feedback--
 
-James isn't talking about future plans; he is reflecting on something he did before.
+James no está hablando de planes futuros; está reflexionando sobre algo que hizo antes.
 
 ---
 
-A habit he continues now.
+Un hábito que continúa ahora.
 
 ### --feedback--
 
-James uses the phrase `used to`, which shows he is describing something he did in the past, not currently.
+James usa la frase `used to`, que muestra que está describiendo algo que hacía en el pasado, no actualmente.
 
 ---
 
-A process he never followed.
+Un proceso que él nunca siguió.
 
 ### --feedback--
 
-James describes a habit he once had, so it is not something he never did.
+James describe un hábito que tuvo una vez, así que no es algo que nunca hizo.
 
 ## --video-solution--
 
@@ -52,11 +52,11 @@ James describes a habit he once had, so it is not something he never did.
 
 # --explanation--
 
-James says, `I used to just write code without thinking much about the end user.`
+James dice, `I used to just write code without thinking much about the end user.` 
 
-`Used to` indicates a past habit or action that is no longer true.
+`Used to` indica un hábito o acción pasada que ya no es verdad. 
 
-This sentence shows that he previously wrote code without considering the end user but has since changed his approach.
+Esta oración muestra que él anteriormente escribió código sin considerar al usuario final, pero desde entonces ha cambiado su enfoque.
 
 # --scene--
 

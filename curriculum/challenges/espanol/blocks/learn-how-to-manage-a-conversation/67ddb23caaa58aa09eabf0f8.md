@@ -24,13 +24,13 @@ Escucha el audio para completar la oración de abajo.
 
 ### --feedback--
 
-This means at the present time and shows the situation could change later.
+Esto significa en el momento actual y muestra que la situación podría cambiar más adelante.
 
 # --explanation--
 
-`For now` means at this moment or for the time being. It suggests that things are complete at the moment, but more might happen later. Por ejemplo:
+`For now` significa en este momento o por el momento. Sugiere que las cosas están completas por ahora, pero que podría pasar más adelante. Por ejemplo:
 
-`Let's stop working here for now and continue tomorrow.` - This means they are pausing at the moment, but will continue later.
+`Let's stop working here for now and continue tomorrow.` - Esto significa que están haciendo una pausa por el momento, pero continuarán más tarde.
 
 # --scene--
 

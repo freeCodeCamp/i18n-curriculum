@@ -1,6 +1,6 @@
 ---
 id: 685a9aaee82fca9effece4bd
-title: Task 130
+title: Tarea 130
 challengeType: 22
 dashedName: task-130
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Escucha el audio para completar la oración de abajo.
 
 # --fillInTheBlank--
 
@@ -24,13 +24,13 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This refers to a person who is present at an event or meeting.
+Esto se refiere a una persona que está presente en un evento o reunión.
 
 # --explanation--
 
-An `attendee` is someone who attends or is present at an event, such as a meeting, seminar, or conference. For example:
+Un `attendee` es alguien que asiste o está presente en un evento, como una reunión, seminario o conferencia. Por ejemplo:
 
-`Each attendee received a welcome packet when they arrived.` – This means every person who came to the event got a packet.
+Cada asistente recibió un paquete de bienvenida cuando llegó. – Esto significa que cada persona que vino al evento recibió un paquete.
 
 # --scene--
 

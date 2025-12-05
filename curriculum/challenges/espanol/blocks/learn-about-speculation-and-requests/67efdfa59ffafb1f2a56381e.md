@@ -12,13 +12,13 @@ lang: en-US
 
 # --instructions--
 
-Escucha el audio y responde a la pregunta a continuación.
+Escucha el audio y responde a la pregunta de abajo.
 
 # --questions--
 
 ## --text--
 
-Jake doesn't mind discussing an issue with Jessica. What can he say?
+A Jake no le importa discutir un problema con Jessica. ¿Qué puede decir?
 
 ## --answers--
 
@@ -30,21 +30,21 @@ Jake doesn't mind discussing an issue with Jessica. What can he say?
 
 ### --feedback--
 
-This answer does not match the prompt because Jake doesn't mind discussing the issue.
+Esta respuesta no coincide con el prompt porque a Jake no le importa discutir el problema.
 
 ## --video-solution--
 
 1
 
-# --explanation--
+# --explanation-- 
 
-Jessica asks, `Do you have any ideas?`, which is a way of inviting someone to share their thoughts or opinions.
+Jessica pregunta, `Do you have any ideas?`, que es una forma de invitar a alguien a compartir sus pensamientos u opiniones.
 
-`Sure, Jessica` is a way to show that you're open to discussing the issue. Another example:
+`Sure, Jessica` es una forma de mostrar que estás abierto a discutir el problema. Otro ejemplo:
 
-- Person 1: `Do you have any ideas how to fix it?` - This person is asking for suggestions or solutions.
+- Persona 1: `Do you have any ideas how to fix it?` - Esta persona está pidiendo sugerencias o soluciones.
 
-- Person 2: `Sure. We could check the server logs and see what's wrong.` - This person is saying yes, and is ready to share a suggestion.
+- Persona 2: `Sure. We could check the server logs and see what's wrong.` - Esta persona está diciendo que sí y está lista para compartir una sugerencia.
 
 # --scene--
 

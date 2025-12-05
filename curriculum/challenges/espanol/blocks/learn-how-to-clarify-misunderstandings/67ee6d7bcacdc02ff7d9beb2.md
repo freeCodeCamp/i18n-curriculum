@@ -1,6 +1,6 @@
 ---
 id: 67ee6d7bcacdc02ff7d9beb2
-title: Task 69
+title: Tarea 69
 challengeType: 22
 dashedName: task-69
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Escucha el audio para completar la oración de abajo.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This word is used to talk about the existence of something or to say that something is present or happening. It's the contraction of `there is`.
+Esta palabra se usa para hablar sobre la existencia de algo o para decir que algo está presente o sucediendo. Es la contracción de `there is`.
 
 ---
 
@@ -32,7 +32,7 @@ This word is used to talk about the existence of something or to say that someth
 
 ### --feedback--
 
-This word refers to an issue or difficulty that needs to be solved or fixed.
+Esta palabra se refiere a un problema o dificultad que necesita ser resuelto o corregido.
 
 ---
 
@@ -40,7 +40,7 @@ This word refers to an issue or difficulty that needs to be solved or fixed.
 
 ### --feedback--
 
-This preposition shows the relationship or connection between two things.
+Esta preposición muestra la relación o conexión entre dos cosas.
 
 ---
 
@@ -48,17 +48,17 @@ This preposition shows the relationship or connection between two things.
 
 ### --feedback--
 
-This two-word phrase refers to the way software or websites respond to actions, like clicks or keystrokes, performed by the user. The second word ends with `-ing`.
+Esta frase de dos palabras se refiere a la forma en que el software o los sitios web responden a acciones, como clics o pulsaciones de teclas, realizadas por el usuario. La segunda palabra termina con `-ing`.
 
 # --explanation--
 
-`There's a problem with` is used to describe that something is not working correctly. It means there is an issue or difficulty related to a specific thing. For example:
+`There's a problem with` se usa para describir que algo no está funcionando correctamente. Significa que hay un problema o dificultad relacionado con una cosa específica. Por ejemplo:
 
-`There's a problem with the network.` – This means the network is not functioning properly.
+`There's a problem with the network.` – Esto significa que la red no está funcionando correctamente.
 
-`Event handling` refers to how a program or website manages user actions like clicks, keyboard presses, or mouse movements. For example:
+`Event handling` se refiere a cómo un programa o sitio web gestiona las acciones del usuario como clics, pulsaciones de teclado o movimientos del ratón. Por ejemplo:
 
-`There's an issue with event handling.` - This mean the software isn't responding properly to user actions.
+`There's an issue with event handling.` - Esto significa que el software no responde correctamente a las acciones del usuario.
 
 # --scene--
 

@@ -7,7 +7,7 @@ dashedName: step-17
 
 # --description--
 
-En los pasos anteriores usaste un elemento anchor para convertir un texto a un enlace. Otros tipos de contenido también pueden convertirse en un enlace envolviéndolos en etiquetas de anclaje.
+En los pasos anteriores usaste un elemento anchor para convertir un texto a un enlace. Otros tipos de contenido también se pueden convertir en un enlace envolviéndolos en etiquetas anchor. 
 
 Aquí hay un ejemplo de cómo convertir una imagen en un enlace:
 
@@ -17,11 +17,11 @@ Aquí hay un ejemplo de cómo convertir una imagen en un enlace:
 </a>
 ```
 
-Convierte la imagen en un enlace rodeándola con las etiquetas de elemento necesarias. Usa `https://freecatphotoapp.com` como el valor del atributo `href` del anclaje.
+Convierte la imagen en un enlace rodeándola con las etiquetas correctas. Utiliza `https://freecatphotoapp.com` como valor del atributo `href` del elemento archor.
 
 # --hints--
 
-Debes tener un elemento `img` con un valor `src` de `https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg`. Puede que lo hayas eliminado accidentalmente.
+Debes tener un elemento `img` con un valor `src` de `https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg`. Puede que lo hayas borrado accidentalmente.
 
 ```js
 assert(
@@ -31,37 +31,37 @@ assert(
 );
 ```
 
-Tu elemento de anclaje (`a`) debe tener una etiqueta de apertura. Las etiquetas de apertura tienen esta sintaxis: `<elementName>`.
+Tu elemento (`a`) debe tener una etiqueta de apertura. Las etiquetas de apertura tienen esta sintaxis: `<elementName>`.
 
 ```js
 assert(document.querySelectorAll('a').length >= 2);
 ```
 
-Te falta una etiqueta de cierre (`a`) después de la imagen.
+Te falta una etiqueta (`a`) de cierre después de la imagen.
 
 ```js
 assert.lengthOf(document.querySelectorAll('a'), 3);
 ```
 
-Tu elemento de anclaje (`a`) debe tener una etiqueta de cierre. Las etiquetas de cierre tienen un `/` justo después del carácter `<`.
+Tu elemento anchor (`a`) debe tener una etiqueta de cierre. Las etiquetas de cierre tiene una `/` después del carácter `<`.
 
 ```js
 assert(code.match(/<\/a>/g).length >= 2);
 ```
 
-Solo debes añadir una etiqueta de cierre de anclaje (`a`). Por favor, elimina cualquier extra.
+Solo debes añadir una etiqueta de cierre del elemento anchor (`a`). Elimina cualquier extra.
 
 ```js
 assert.lengthOf(code.match(/<\/a>/g), 3);
 ```
 
-A tu elemento de anclaje (`a`) le falta un atributo `href`. Revisa que haya un espacio después del nombre de la etiqueta de apertura y/o haya espacios antes de todos los nombres de atributos.
+Tu elemento anchor (`a`) no tiene un atributo `href`. Comprueba que hay un espacio después del nombre de la etiqueta de apertura y/o que hay espacios antes de todos los nombres de los atributos.
 
 ```js
 assert(document.querySelector('a').hasAttribute('href'));
 ```
 
-Tu elemento de anclaje (`a`) debería enlazar a `https://freecatphotoapp.com`. Has omitido la URL o hay un error tipográfico.
+Tu elemento anchor (`a`) te debe de llevar a `https://freecatphotoapp.com`. Probablemente no has añadido la URL o tienes un error tipográfico.
 
 ```js
 assert(
@@ -70,13 +70,13 @@ assert(
 );
 ```
 
-Tu elemento anchor (`a`) no tiene un atributo `href`. Compruebe que hay un espacio después del nombre de la etiqueta de apertura y/o que hay espacios antes de todos los nombres de atributos.
+Tu elemento anchor (`a`) no tiene un atributo `href`. Comprueba que hay un espacio después del nombre de la etiqueta de apertura y/o que hay espacios antes de todos los nombres de los atributos.
 
 ```js
 assert.isTrue(document.querySelectorAll('a')[2]?.hasAttribute('href'));
 ```
 
-Tu elemento anchor (`a`) debe de enlazar a `https://freecatphotoapp.com`. Ha omitido la URL o tiene un error tipográfico.
+Tu elemento anchor (`a`) te debe de llevar a `https://freecatphotoapp.com`. Probablemente no has añadido la URL o tienes un error tipográfico.
 
 ```js
 assert.equal(
@@ -85,7 +85,7 @@ assert.equal(
 );
 ```
 
-Your `img` element should be nested within the anchor (`a`) element. The entire `img` element should be inside the opening and closing tags of the anchor (`a`) element.
+Tu elemento `img` debe estar anidado dentro del elemento anchor (`a`). Todo el elemento `img` debe estar entre las etiquetas de apertura y cierre del elemento anchor (`a`).
 
 ```js
 assert(document.querySelector('img').parentNode.nodeName === 'A');

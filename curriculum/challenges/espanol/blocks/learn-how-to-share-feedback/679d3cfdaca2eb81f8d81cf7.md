@@ -1,6 +1,6 @@
 ---
 id: 679d3cfdaca2eb81f8d81cf7
-title: Task 97
+title: Tarea 97
 challengeType: 19
 dashedName: task-97
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Escucha el audio y responde a la pregunta de abajo.
 
 # --questions--
 
 ## --text--
 
-What is Maria asking James to do?
+¿Qué le está pidiendo María a James que haga?
 
 ## --answers--
 
-To fix the problem immediately.
+Para solucionar el problema de inmediato.
 
 ### --feedback--
 
-Maria is not asking James to fix the issue right away.
+Maria no le está pidiendo a James que arregle el problema de inmediato.
 
 ---
 
-To report the issue to the client.
+Para reportar el problema al cliente.
 
 ### --feedback--
 
-Maria does not mention informing the client.
+Maria no menciona informar al cliente.
 
 ---
 
-To investigate the problem.
+Para investigar el problema.
 
 ---
 
-To ignore the problem for now.
+Para ignorar el problema por ahora.
 
 ### --feedback--
 
-Maria is not asking James to ignore the issue.
+Maria no le está pidiendo a James que ignore el problema.
 
 ## --video-solution--
 
@@ -52,11 +52,11 @@ Maria is not asking James to ignore the issue.
 
 # --explanation--
 
-`Can` is commonly used to make polite requests, asking someone to do something in an informal way. For example:
+`Can` se usa comúnmente para hacer solicitudes corteses, pidiendo a alguien que haga algo de manera informal. Por ejemplo:
 
-`Can you send me the report by noon?` - This is a polite way to ask someone to send a report.
+`Can you send me the report by noon?` - Esta es una forma educada de pedirle a alguien que envíe un informe.
 
-In this dialogue, Maria is requesting James to investigate the problem.
+En este diálogo, Maria le está pidiendo a James que investigue el problema.
 
 # --scene--
 

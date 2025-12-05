@@ -1,6 +1,6 @@
 ---
 id: 67efd8debbd3992137adbf7f
-title: Task 91
+title: Tarea 91
 challengeType: 22
 dashedName: task-91
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Escucha el audio para completar la oración de abajo.
 
 # --fillInTheBlank--
 
@@ -24,13 +24,13 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-Preceded by `on your`, this refers to a specific person's situation, side, or location.
+Precedido por `on your`, esto se refiere a la situación, lado o ubicación específica de una persona.
 
 # --explanation--
 
-`On your end` is used to refer to someone's situation or what is happening with them, often in a conversation or work context. For example:
+`On your end` se usa para referirse a la situación de alguien o a lo que está pasando con esa persona, a menudo en un contexto de conversación o trabajo. Por ejemplo:
 
-`Let me know if you need any help on your end.` – This means the speaker wants to know if the other person needs help on their work or situation.
+Avísame si necesitas ayuda en tu parte.
 
 # --scene--
 

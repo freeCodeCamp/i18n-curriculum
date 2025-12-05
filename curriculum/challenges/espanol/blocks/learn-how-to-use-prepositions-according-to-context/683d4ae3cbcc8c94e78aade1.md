@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Escucha el audio y responde a la pregunta a continuación.
+Escucha el audio y responde a la pregunta de abajo.
 
 # --questions--
 
 ## --text--
 
-What is Bob explaining?
+¿Qué está explicando Bob?
 
 ## --answers--
 
-That the emergency exit is blocked.
+Que la salida de emergencia esté bloqueada.
 
 ### --feedback--
 
-Bob doesn't say the exit is blocked - he just mentions its location.
+Bob no dice que la salida esté bloqueada, solo menciona su ubicación.
 
 ---
 
-That the back door needs a new lock.
+Que la puerta trasera necesita una nueva cerradura.
 
 ### --feedback--
 
-Bob doesn't mention anything about locks or a back door needing repairs.
+Bob no menciona nada sobre cerraduras ni una puerta trasera que necesite reparaciones.
 
 ---
 
-That the server room needs to be cleaned.
+Que la sala de servidores necesita ser limpiada.
 
 ### --feedback--
 
-There is no mention of cleaning in Bob's sentence.
+No hay ninguna mención de limpieza en la oración de Bob.
 
 ---
 
-That something is located near the emergency exit.
+Que algo esté ubicado cerca de la salida de emergencia.
 
 ## --video-solution--
 
@@ -52,9 +52,9 @@ That something is located near the emergency exit.
 
 # --explanation--
 
-Bob says, `Exactly. It's in the back, next to the emergency exit`. This means he is confirming the location of something - right beside the emergency exit.
+Bob dice, `Exactly. It's in the back, next to the emergency exit`. Esto significa que está confirmando la ubicación de algo, justo al lado de la salida de emergencia.
 
-He doesn't talk about repairs, cleaning, or problems.
+Él no habla sobre reparaciones, limpieza o problemas.
 
 # --scene--
 

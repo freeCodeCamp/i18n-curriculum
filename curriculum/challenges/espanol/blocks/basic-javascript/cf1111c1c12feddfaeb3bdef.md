@@ -14,7 +14,7 @@ Cuando la condición se evalúa como `true`, el programa ejecuta el comando dent
 
 **Pseudocódigo**
 
-<blockquote>si (<i>la condición es verdadera</i>) {<br>  <i>la sentencia es ejecutada</i><br>}</blockquote>
+<blockquote>if (<i>condition is true</i>) {<br>  <i>statement is executed</i><br>}</blockquote>
 
 **Ejemplo**
 

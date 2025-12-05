@@ -1,6 +1,6 @@
 ---
 id: 67cbb5b81e5e4e3ae9ff6fb3
-title: Task 42
+title: Tarea 42
 challengeType: 19
 dashedName: task-42
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Escucha el audio y responde a la pregunta de abajo.
 
 # --questions--
 
 ## --text--
 
-What does Jake mean?
+¿Qué significa Jake?
 
 ## --answers--
 
-SafeGuard is easy to integrate with other tools.
-
+SafeGuard es fácil de integrar con otras herramientas.
+  
 ### --feedback--
 
-What Jake says implies it is not easy.
+Lo que dice Jake implica que no es fácil.
 
 ---
 
-SafeGuard costs more when integrated.
+SafeGuard cuesta más cuando está integrado.
 
 ### --feedback--
 
-Jake doesn't mention the cost.
+Jake no menciona el costo.
 
 ---
 
-Integration with SafeGuard may require additional effort.
+La integración con SafeGuard puede requerir un esfuerzo adicional.
 
 ---
 
-SafeGuard is not flexible with integration.
+SafeGuard no es flexible con la integración.
 
 ### --feedback--
 
-Jake doesn't mention flexibility but focuses on the need for extra work.
+Jake no menciona la flexibilidad pero se enfoca en la necesidad de trabajo extra.
 
 ## --video-solution--
 
@@ -52,9 +52,9 @@ Jake doesn't mention flexibility but focuses on the need for extra work.
 
 # --explanation--
 
-`Extra work` means additional effort or time needed to achieve a goal.
+`Extra work` significa esfuerzo o tiempo adicional necesario para alcanzar un objetivo.
 
-Jake is suggesting that `if integration is crucial` (very important), Sophie might face challenges with SafeGuard, and therefore, additional work or effort will be required to integrate it with other platforms.
+Jake sugiere que `if integration is crucial` (muy importante), Sophie podría enfrentar desafíos con SafeGuard, y por lo tanto, se requerirá trabajo o esfuerzo adicional para integrarlo con otras plataformas. 
 
 # --scene--
 

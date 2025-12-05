@@ -1,6 +1,6 @@
 ---
 id: 657b2fc9c0f96bdfddfce4d9
-title: Task 90
+title: Tarea 90
 challengeType: 22
 dashedName: task-90
 lang: en-US
@@ -10,11 +10,11 @@ lang: en-US
 
 # --description--
 
-To `pique one's interest` means to make someone curious or make them want to know more. You use it when something catches your attention and makes you interested. For example:
+`pique one's interest` significa hacer que alguien sienta curiosidad o que quiera saber más. Lo usas cuando algo llama tu atención y te interesa. Por ejemplo:
 
-- `The new AI tool really piqued my interest.` - It made you curious, and you wanted to learn more about it.
+- `The new AI tool really piqued my interest.` - Te despertó curiosidad y quisiste aprender más sobre ello.
 
-- `Her presentation on cybersecurity piqued the team's interest.` - The team became more curious and wanted to know more.
+- `Her presentation on cybersecurity piqued the team's interest.` - El equipo se volvió más curioso y quiso saber más.
 
 # --fillInTheBlank--
 
@@ -28,7 +28,7 @@ To `pique one's interest` means to make someone curious or make them want to kno
 
 ### --feedback--
 
-This word refers to the action of participating in or completing a course. You should correctly use its past form.
+Esta palabra se refiere a la acción de participar o completar un curso. Debes usar correctamente su forma en pasado.
 
 ---
 
@@ -36,7 +36,7 @@ This word refers to the action of participating in or completing a course. You s
 
 ### --feedback--
 
-This word describes the study of the mind and behavior, particularly in a workplace setting in this context.
+Esta palabra describe el estudio de la mente y el comportamiento, particularmente en un entorno laboral en este contexto.
 
 ---
 
@@ -44,7 +44,7 @@ This word describes the study of the mind and behavior, particularly in a workpl
 
 ### --feedback--
 
-This word means to arouse or stimulate interest or curiosity. You should correctly use its past form.
+Esta palabra significa despertar o estimular interés o curiosidad. Debes usar correctamente su forma pasada.
 
 # --scene--
 

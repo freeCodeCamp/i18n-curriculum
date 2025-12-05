@@ -10,51 +10,51 @@ lang: en-US
 
 # --instructions--
 
-Escucha el audio y responde a la pregunta a continuación.
+Escucha el audio y responde a la pregunta de abajo.  
 
 # --questions--
 
 ## --text--
 
-What does Maria want to discuss with James?
+¿Qué quiere discutir Maria con James?  
 
 ## --answers--
 
-Bob's schedule for the week.
+El horario de Bob para la semana.  
 
 ### --feedback--
 
-Maria does not mention Bob's schedule.
+Maria no menciona el horario de Bob.  
 
 ---
 
-Her most recent meeting with Bob.
+Su reunión más reciente con Bob.  
 
 ---
 
-A future project deadline.
+Una fecha límite futura del proyecto.  
 
 ### --feedback--
 
-Maria does not mention a deadline, only her meeting with Bob.
+Maria no menciona una fecha límite, solo su reunión con Bob.  
 
 ---
 
-The client's budget request.
+La solicitud de presupuesto del cliente.  
 
 ### --feedback--
 
-Maria does not refer to a client request in this sentence.
+Maria no se refiere a una solicitud de cliente en esta oración.  
 
 ## --video-solution--
 
-2
+2  
 
 # --explanation--
 
-`Can we talk about...` is used to introduce a topic for discussion. It is a polite way to request a conversation about something important. Por ejemplo:
+`Can we talk about...` se usa para introducir un tema de discusión. Es una forma educada de solicitar una conversación sobre algo importante. Por ejemplo:
 
-`Can we talk about the changes to the project timeline?` - This means the speaker wants to discuss the project timeline adjustments.
+`Can we talk about the changes to the project timeline?` - Esto significa que el hablante quiere discutir los ajustes en la línea de tiempo del proyecto.
 
 # --scene--
 

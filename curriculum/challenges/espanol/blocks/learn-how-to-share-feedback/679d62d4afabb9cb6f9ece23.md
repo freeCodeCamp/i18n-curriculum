@@ -1,6 +1,6 @@
 ---
 id: 679d62d4afabb9cb6f9ece23
-title: Task 106
+title: Tarea 106
 challengeType: 19
 dashedName: task-106
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Escucha el audio y responde a la pregunta de abajo.
 
 # --questions--
 
 ## --text--
 
-What does Maria want to avoid doing, and why?
+¿Qué quiere evitar hacer Maria y por qué?
 
 ## --answers--
 
-She wants to avoid fixing the problem.
+Ella quiere evitar arreglar el problema.
 
 ### --feedback--
 
-Maria is not saying they shouldn't fix the problem.
+María no está diciendo que no deban arreglar el problema.
 
 ---
 
-She wants to avoid asking for help.
+Ella quiere evitar pedir ayuda.
 
 ### --feedback--
 
-Maria does not mention asking for help.
+Maria no menciona pedir ayuda.
 
 ---
 
-She wants to avoid rushing because it could cause more problems.
+Ella quiere evitar apresurarse porque podría causar más problemas.
 
 ---
 
-She wants to avoid updating the software.
+Ella quiere evitar actualizar el software.
 
 ### --feedback--
 
-Maria does not say they should avoid updating.
+Maria no dice que deban evitar actualizar.
 
 ## --video-solution--
 
@@ -52,11 +52,11 @@ Maria does not say they should avoid updating.
 
 # --explanation--
 
-`To lead to problems` means that an action or decision could result in difficulties or negative consequences. For example:
+`To lead to problems` significa que una acción o decisión podría resultar en dificultades o consecuencias negativas. Por ejemplo:
 
-`Skipping the testing phase can lead to serious problems in the software.` - This means that not testing properly might cause major technical issues.
+`Skipping the testing phase can lead to serious problems in the software.` - Esto significa que no probar correctamente podría causar problemas técnicos importantes.
 
-In this dialogue, Maria is concerned that rushing could create additional issues.
+En este diálogo, María está preocupada de que apresurarse pueda crear problemas adicionales.
 
 # --scene--
 

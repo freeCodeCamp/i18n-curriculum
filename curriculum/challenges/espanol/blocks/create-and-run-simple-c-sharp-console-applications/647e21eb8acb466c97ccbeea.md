@@ -1,38 +1,38 @@
 ---
 id: 647e21eb8acb466c97ccbeea
-title: 'Guided Project - Develop foreach and if-elseif-else Structures to Process Array Data in C#'
+title: Proyecto Guiado - Desarrolla estructuras foreach e if-elseif-else para procesar datos de arrays en C#
 challengeType: 19
 dashedName: guided-project-develop-foreach-and-if-elseif-else-structures-to-process-array-data-in-c-sharp
 ---
 
 # --description--
 
-Este desafío se completará parcialmente en la plataforma de aprendizaje de Microsoft. Sigue estas instrucciones para completar el desafío:
+Este reto se completará parcialmente en la plataforma Microsoft Learn. Sigue estas instrucciones para finalizarlo:
 
-1. Go to <a href="https://learn.microsoft.com/training/modules/guided-project-arrays-iteration-selection/" target="_blank" rel="noreferrer">https://learn.microsoft.com/training/modules/guided-project-arrays-iteration-selection/</a> and complete all the tasks for the "Guided Project - Develop foreach and if-elseif-else Structures to Process Array Data in C#" module. Esto es **requerido** para obtener el trofeo "Crear y ejecutar aplicaciones simples de consola en C#" en Microsoft Learn, y calificar para el examen de certificación.
-1. Cuando haya terminado, vuelva y responda correctamente a la siguiente pregunta.
+1. Ve a <a href="https://learn.microsoft.com/training/modules/guided-project-arrays-iteration-selection/" target="_blank" rel="noreferrer">https://learn.microsoft.com/training/modules/guided-project-arrays-iteration-selection/</a> y completa todas las tareas del módulo "Guided Project - Develop foreach and if-elseif-else Structures to Process Array Data in C#". Esto es **requerido** para obtener el trofeo "Create and Run Simple C# Console Applications" en Microsoft Learn y calificar para el examen de certificación.
+1. Cuando termines, regresa aquí y responde correctamente la pregunta que aparece a continuación.
 
 # --assignment--
 
-Complete the <a href="https://learn.microsoft.com/training/modules/guided-project-arrays-iteration-selection/" target="_blank" rel="noreferrer">Develop `foreach` and `if`-`elseif`-`else` Structures to Process Array Data in C#</a> guided project on Microsoft Learn. Luego, responda a la siguiente pregunta.
+Completa el proyecto guiado <a href="https://learn.microsoft.com/training/modules/guided-project-arrays-iteration-selection/" target="_blank" rel="noreferrer">Develop `foreach` and `if`-`elseif`-`else` Structures to Process Array Data in C#</a> en Microsoft Learn. Luego, responde la pregunta a continuación.
 
 # --questions--
 
 ## --text--
 
-A developer writes an application that uses a `foreach` loop to iterate through an array containing 20 elements. After the application is complete, the developer learns that the array must be updated to include 40 elements. The application needs to examine all 40 array elements. Which of the following items describes the required code update?
+Un desarrollador escribe una aplicación que usa un bucle `foreach` para iterar a través de un arreglo que contiene 20 elementos. Después de que la aplicación está completa, el desarrollador se entera de que el arreglo debe actualizarse para incluir 40 elementos. La aplicación necesita examinar los 40 elementos del arreglo. ¿Cuál de los siguientes ítems describe la actualización de código requerida?
 
 ## --answers--
 
-Create a second `foreach` loop that iterates through the additional items.
+Crea un segundo ciclo `foreach` que itere a través de los elementos adicionales.
 
 ---
 
-No changes are required to the `foreach` loop.
+No se requieren cambios en el bucle `foreach`.
 
 ---
 
-Place the original `foreach` loop inside the code block of a second `foreach` loop that iterates twice.
+Coloca el `foreach` original dentro del bloque de código de un segundo `foreach` que itere dos veces.
 
 ## --video-solution--
 

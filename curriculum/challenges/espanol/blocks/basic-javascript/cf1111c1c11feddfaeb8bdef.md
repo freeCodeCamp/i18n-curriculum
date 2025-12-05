@@ -1,6 +1,6 @@
 ---
 id: cf1111c1c11feddfaeb8bdef
-title: Modify Array Data With Indexes
+title: Modifica los datos de un arreglo con índices
 challengeType: 1
 forumTopicId: 18241
 dashedName: modify-array-data-with-indexes
@@ -8,26 +8,26 @@ dashedName: modify-array-data-with-indexes
 
 # --description--
 
-Unlike strings, the entries of arrays are <dfn>mutable</dfn> and can be changed freely, even if the array was declared with `const`.
+A diferencia de las cadenas, las entradas de los arreglos son <dfn>mutables</dfn> y pueden cambiarse libremente, incluso si el arreglo fue declarado con `const`.
 
-**Example**
+**Ejemplo**
 
 ```js
 const ourArray = [50, 40, 30];
 ourArray[0] = 15;
 ```
 
-`ourArray` now has the value `[15, 40, 30]`.
+`ourArray` ahora tiene el valor `[15, 40, 30]`.
 
-**Note:** There shouldn't be any spaces between the array name and the square brackets, like `array [0]`. Although JavaScript is able to process this correctly, this may confuse other programmers reading your code.
+**Nota:** No debe haber espacios entre el nombre del arreglo y los corchetes, como `array [0]`. Aunque JavaScript pueda procesar esto correctamente, puedes confundir a otros programadores al leer tu código.
 
 # --instructions--
 
-Modify the data stored at index `0` of `myArray` to a value of `45`.
+Modifica los datos almacenados en el índice `0` de `myArray` a un valor de `45`.
 
 # --hints--
 
-`myArray` should now be `[45, 64, 99]`.
+`myArray` ahora debe ser `[45, 64, 99]`.
 
 ```js
 assert(
@@ -46,7 +46,7 @@ assert(
 );
 ```
 
-You should be using correct index to modify the value in `myArray`.
+Debes usar el índice correcto para modificar el valor en `myArray`.
 
 ```js
 assert(

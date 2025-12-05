@@ -1,6 +1,6 @@
 ---
 id: 67ee4cbb541a7a0ae61bcc9f
-title: Task 4
+title: Tarea 4
 challengeType: 19
 dashedName: task-4
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Escucha el audio y responde a la pregunta de abajo.
 
 # --questions--
 
 ## --text--
 
-Is this small error serious?
+¿Es este pequeño error grave?
 
 ## --answers--
 
-No, and they don't need to do anything about it.
+No, y no necesitan hacer nada al respecto.
 
 ### --feedback--
 
-Sophie doesn't say it's a major issue, but they should fix it.
+Sophie no dice que sea un problema grave, pero deberían arreglarlo.
 
 ---
 
-Yes, it will break the whole system.
+Sí, romperá todo el sistema.
 
 ### --feedback--
 
-Sophie doesn't say it's a major issue, just something they should fix.
+Sophie no dice que sea un problema mayor, solo algo que deberían arreglar.
 
 ---
 
-Yes, Sophie is very worried about it.
+Sí, Sophie está muy preocupada por eso.
 
 ### --feedback--
 
-Sophie is not very worried, but she still thinks they should fix it.
+Sophie no está muy preocupada, pero aún piensa que deberían arreglarlo.
 
 ---
 
-No, but it should still be fixed.
+No, pero aún así debería estar arreglado.
 
 ## --video-solution--
 
@@ -52,13 +52,13 @@ No, but it should still be fixed.
 
 # --explanation--
 
-`It's not a big deal` means the problem is not serious. For example:
+`It's not a big deal` significa que el problema no es serio. Por ejemplo:
 
-- Person 1: `I can't join the meeting today.`
+- Persona 1: `I can't join the meeting today.`
 
-- Person 2: `It's not a big deal. I'll take notes for you.` - Missing the meeting is okay, and this person can help.
+- Persona 2: `It's not a big deal. I'll take notes for you.` - Está bien perder la reunión, y esta persona puede ayudar.
 
-Sophie also says `we should fix it before it causes problems`, meaning it's better to fix it now before it becomes serious.
+Sophie también dice que `we should fix it before it causes problems`, lo que significa que es mejor arreglarlo ahora antes de que se vuelva serio.
 
 # --scene--
 

@@ -1,6 +1,6 @@
 ---
 id: 65f6fc00be7facffe0898c6d
-title: Task 43
+title: Tarea 43
 challengeType: 22
 dashedName: task-43
 lang: en-US
@@ -10,13 +10,13 @@ lang: en-US
 
 # --description--
 
-This is a review of the entire dialogue you just studied.
+Esta es una revisión de todo el diálogo que acabas de estudiar.
 
 # --instructions--
 
-Write the following words or phrases in the correct spot:
+Escribe las siguientes palabras o frases en el lugar correcto:
 
-`symptoms of`, `may occur`, `start by`, `clearer picture`, `investigate`, and `a second pair of eyes`.
+`síntomas de`, `pueden ocurrir`, `comienza por`, `imagen más clara`, `investigar` y `un segundo par de ojos`.
 
 # --fillInTheBlank--
 
@@ -36,7 +36,7 @@ Write the following words or phrases in the correct spot:
 
 ### --feedback--
 
-Another person who checks your work to help find mistakes.
+Otra persona que revise tu trabajo para ayudar a encontrar errores.
 
 ---
 
@@ -44,7 +44,7 @@ Another person who checks your work to help find mistakes.
 
 ### --feedback--
 
-Begin with something as the first step.
+Comienza con algo como el primer paso.
 
 ---
 
@@ -52,7 +52,7 @@ Begin with something as the first step.
 
 ### --feedback--
 
-Signs that show something might be wrong.
+Señales que indican que algo podría estar mal.
 
 ---
 
@@ -60,7 +60,7 @@ Signs that show something might be wrong.
 
 ### --feedback--
 
-This means something might happen.
+Esto significa que algo podría suceder.
 
 ---
 
@@ -68,7 +68,7 @@ This means something might happen.
 
 ### --feedback--
 
-To look carefully at something to understand what is happening.
+Mirar cuidadosamente algo para entender qué está pasando.
 
 ---
 
@@ -76,4 +76,4 @@ To look carefully at something to understand what is happening.
 
 ### --feedback--
 
-A better understanding of a situation.
+Una mejor comprensión de una situación.

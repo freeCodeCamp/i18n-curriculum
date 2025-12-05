@@ -1,26 +1,26 @@
 ---
 id: 64aaf2aff7f1fc7a550f40cb
-title: Step 36
+title: Paso 36
 challengeType: 0
 dashedName: step-36
 ---
 
 # --description--
 
-Now it is time to see your new player drawn on the screen.
+Ahora es el momento de ver a tu nuevo jugador dibujado en la pantalla.
 
-Start by creating an empty arrow function called `startGame`.
+Empieza creando una función flecha vacía llamada `startGame`.
 
 # --hints--
 
 
-`startGame` should be a function
+`startGame` debe ser una función
 
 ```js
 assert.isFunction(startGame);
 ```
 
-`startGame` should be an arrow function
+`startGame` debe ser una función flecha
 
 
 ```js
@@ -199,7 +199,7 @@ class Player {
     ctx.fillStyle = "#99c9ff";
     ctx.fillRect(this.position.x, this.position.y, this.width, this.height);
   }
-
+  
   update() {
     this.draw();
     this.position.x += this.velocity.x;

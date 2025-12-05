@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c442eddfaeb5bd18
-title: Build a Tribute Page
+title: Construye una página de homenaje
 challengeType: 25
 demoType: onClick
 dashedName: build-a-tribute-page
@@ -8,25 +8,25 @@ dashedName: build-a-tribute-page
 
 # --description--
 
-**Objective:** Fulfill the user stories below and get all the tests to pass to complete the lab.
+**Objetivo:** Cumplir con las historias de usuario a continuación y pasar todas las pruebas para completar el laboratorio.
 
-**User Stories:**
+**Historias de usuario:**
 
-1. Your tribute page should have a `main` element with a corresponding `id` of `main`, which contains all other elements.
-1. You should see an element with an `id` of `title`, which contains a string (i.e. text), that describes the subject of the tribute page (e.g. "Dr. Norman Borlaug").
-1. You should see either a `figure` or a `div` element with an `id` of `img-div`.
-1. Within the `#img-div` element, you should see an `img` element with a corresponding `id="image"`.
-1. Within the `#img-div` element, you should see an element with a corresponding `id="img-caption"` that contains textual content describing the image shown in `#img-div`.
-1. You should see an element with a corresponding `id="tribute-info"`, which contains textual content describing the subject of the tribute page.
-1. You should see an `a` element with a corresponding `id="tribute-link"`, which links to an outside site, that contains additional information about the subject of the tribute page. HINT: You must give your element an attribute of `target` and set it to `_blank` in order for your link to open in a new tab.
-1. Your `#image` should use `max-width` and `height` properties to resize responsively, relative to the width of its parent element, without exceeding its original size.
-1. Your `img` element should be centered within its parent element.
+1. Tu página de tributo debe tener un elemento `main` con su correspondiente `id` de `main`, que contiene todos los otros elementos.
+1. La página debe tener un elemento `id` de `title`, el cual contendrá una cadena de caracteres (p. ej. texto), que describe el tema de la página de homenaje (p. ej. "Dr. Norman Borlaug").
+1. Debe ver un elemento `figure` o un elemento `div` con un `id` de `img-div`.
+1. Dentro del elemento `#img-div` debes ver un elemento `img` con su correspondiente `id="image"`.
+1. Dentro del elemento `#img-div`, debes ver un elemento con un `id="img-caption"` correspondiente que contiene contenido textual describiendo la imagen mostrada en `#img-div`.
+1. Debe tener su correspondiente elemento `id="tribute-info"`, que contendrá una descripción textual del sujeto de la página tributo.
+1. Debes ver un elemento `a` con su `id="tribute-link"` correspondiente, que enlaza con un sitio externo, que contiene información adicional sobre el tema de la página de tributo. CONSEJO: Debes dar al elemento un atributo `target` y establecerlo como `_blank` para que tu enlace se abra en una nueva pestaña.
+1. Tú `#image` debe usar las propiedades `max-width` y `height` para redimensionarse en función de la anchura de su elemento padre, sin sobrepasar su tamaño original.
+1. Tu elemento `img` debe estar centrado con respecto al elemento que lo contiene.
 
-**Note:** Be sure to link your stylesheet in your HTML and apply your CSS.
+**Nota:** Asegúrate de vincular tu hoja de estilos en tu HTML y aplica tu CSS.
 
 # --hints--
 
-You should have a `main` element with an `id` of `main`.
+Debe tener un elemento `main` con un `id` de `main`.
 
 ```js
 const el = document.getElementById('main');
@@ -34,7 +34,7 @@ assert.isNotNull(el);
 assert.strictEqual(el.tagName, 'MAIN');
 ```
 
-Your `#img-div`, `#image`, `#img-caption`, `#tribute-info`, and `#tribute-link` should all be descendants of `#main`.
+Sus `#img-div`, `#image`, `#img-caption`, `#tribute-info`, y `#tribute-link` deben ser descendientes de `#main`.
 
 ```js
 const el1 = document.querySelector('#main #img-div');
@@ -49,14 +49,14 @@ assert.isNotNull(el4);
 assert.isNotNull(el5);
 ```
 
-You should have an element with an `id` of `title`.
+Debes tener un elemento con un `id` de `title`.
 
 ```js
 const el = document.getElementById('title');
 assert.isNotNull(el);
 ```
 
-Your `#title` should not be empty.
+Tu `#title` no debe estar vacío.
 
 ```js
 const el = document.getElementById('title');
@@ -64,7 +64,7 @@ assert.isNotNull(el);
 assert.isNotEmpty(el.innerText.trim());
 ```
 
-You should have a `figure` or `div` element with an `id` of `img-div`.
+Debe tener un elemento `figure` o `div` con un `id` de `img-div`.
 
 ```js
 const el = document.getElementById('img-div');
@@ -72,7 +72,7 @@ assert.isNotNull(el);
 assert.isTrue(el.tagName === 'DIV' || el.tagName === 'FIGURE');
 ```
 
-You should have an `img` element with an `id` of `image`.
+Debe tener un elemento `img` con un `id` de `image`.
 
 ```js
 const el = document.getElementById('image');
@@ -80,14 +80,14 @@ assert.isNotNull(el);
 assert.strictEqual(el.tagName, 'IMG');
 ```
 
-Your `#image` should be a descendant of `#img-div`.
+Tu `#image` debe ser descendiente de `#img-div`.
 
 ```js
 const el = document.querySelector('#img-div #image');
 assert.isNotNull(el);
 ```
 
-You should have a `figcaption` or `div` element with an `id` of `img-caption`.
+Debe tener un elemento `figcaption` o un elemento `div` con un `id` de `img-caption`.
 
 ```js
 const el = document.getElementById('img-caption');
@@ -95,14 +95,14 @@ assert.isNotNull(el);
 assert.isTrue(el.tagName === 'DIV' || el.tagName === 'FIGCAPTION');
 ```
 
-Your `#img-caption` should be a descendant of `#img-div`.
+Tu `#img-caption` debe ser descendiente de `#img-div`.
 
 ```js
 const el = document.querySelector('#img-div #img-caption');
 assert.isNotNull(el);
 ```
 
-Your `#img-caption` should not be empty.
+Tu `#img-caption` no debe estar vacío.
 
 ```js
 const el = document.getElementById('img-caption');
@@ -110,14 +110,14 @@ assert.isNotNull(el);
 assert.isNotEmpty(el.innerText);
 ```
 
-You should have an element with an `id` of `tribute-info`.
+Debes tener un elemento con un `id` de `tribute-info`.
 
 ```js
 const el = document.getElementById('tribute-info');
 assert.isNotNull(el);
 ```
 
-Your `#tribute-info` should not be empty.
+Tu `#tribute-info` no debe estar vacío.
 
 ```js
 const el = document.getElementById('tribute-info');
@@ -125,7 +125,7 @@ assert.isNotNull(el);
 assert.isNotEmpty(el.innerText);
 ```
 
-You should have an `a` element with an `id` of `tribute-link`.
+Debe tener un elemento `a` con un `id` de `tribute-link`.
 
 ```js
 const el = document.getElementById('tribute-link');
@@ -133,7 +133,7 @@ assert.isNotNull(el);
 assert.strictEqual(el.tagName, 'A');
 ```
 
-Your `#tribute-link` should have an `href` attribute and value.
+Tu `#tribute-link` debe tener un atributo `href` con un enlace.
 
 ```js
 const el = document.getElementById('tribute-link');
@@ -142,7 +142,7 @@ assert.isNotNull(el.href);
 assert.isNotEmpty(el.href);
 ```
 
-Your `#tribute-link` should have a `target` attribute set to `_blank`.
+Su `#tribute-link` debe tener un atributo `target` establecido en `_blank`.
 
 ```js
 const el = document.getElementById('tribute-link');
@@ -150,7 +150,7 @@ assert.isNotNull(el);
 assert.strictEqual(el.target, '_blank');
 ```
 
-Your `img` element should have a `display` of `block`.
+Tu elemento `img` debe tener una propiedad `display` con el valor `block`.
 
 ```js
 const img = document.getElementById('image');
@@ -159,7 +159,7 @@ const style = imgStyle?.getPropertyValue('display');
 assert.strictEqual(style, 'block');
 ```
 
-Your `#image` should have a `max-width` of `100%`.
+Tu `#image` debe tener un `max-width` de `100%`.
 
 ```js
 const img = document.getElementById('image');
@@ -168,7 +168,7 @@ const style = imgStyle?.getPropertyValue('max-width');
 assert.strictEqual(style, '100%');
 ```
 
-Your `#image` should have a `height` of `auto`.
+Tu `#image` debe tener un `height` de `auto`.
 
 ```js
 // taken from the testable-projects repo
@@ -182,7 +182,7 @@ img?.style.setProperty('display', oldDisplayValue, oldDisplayPriority);
 assert.strictEqual(heightValue, 'auto');
 ```
 
-Your `#image` should be centered within its parent.
+Tu `#image` debe estar centrado dentro de su padre.
 
 ```js
 // taken from the testable-projects repo

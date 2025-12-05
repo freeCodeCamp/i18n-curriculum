@@ -1,6 +1,6 @@
 ---
 id: 67a9f44e6dcabb0c402a9bfb
-title: Task 5
+title: Tarea 5
 challengeType: 19
 dashedName: task-5
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Escucha el audio y responde a la pregunta de abajo.
 
 # --questions--
 
 ## --text--
 
-What does Bob want to know?
+¿Qué quiere saber Bob?
 
 ## --answers--
 
-If employees have already bought office furniture.
+Si los empleados ya han comprado muebles de oficina.
 
 ### --feedback--
 
-Bob isn't asking for confirmation of purchases.
+Bob no está pidiendo confirmación de compras.
 
 ---
 
-How much office furniture costs.
+Cuánto cuesta el mobiliario de oficina.
 
 ### --feedback--
 
-Bob does not ask about the price.
+Bob no pregunta por el precio.
 
 ---
 
-If the company will increase the stipend.
+Si la empresa aumentará el estipendio.
 
 ### --feedback--
 
-Bob is not discussing changes to the stipend.
+Bob no está discutiendo cambios en la asignación.
 
 ---
 
-If Anna thinks using the stipend for office furniture is a good idea.
+Si Anna piensa que usar el estipendio para muebles de oficina es una buena idea.
 
 ## --video-solution--
 
@@ -52,7 +52,7 @@ If Anna thinks using the stipend for office furniture is a good idea.
 
 # --explanation--
 
-Bob asks, `Do you think that's a good idea?` This is a way to ask for someone's opinion about a suggestion or plan. Here's other ways to ask for an opinion:
+Bob pregunta, `Do you think that's a good idea?` Esta es una forma de pedir la opinión de alguien sobre una sugerencia o plan. Aquí hay otras formas de pedir una opinión:
 
 - `Do you think this will work?`
 
@@ -60,7 +60,7 @@ Bob asks, `Do you think that's a good idea?` This is a way to ask for someone's 
 
 - `How do you feel about this plan?`
 
-In this dialogue, Bob is referring to employees using the remote work stipend for office furniture. Instead of stating his own opinion, he is asking Anna what she thinks.
+En este diálogo, Bob se refiere a los empleados que usan el estipendio de trabajo remoto para muebles de oficina. En lugar de expresar su propia opinión, le pregunta a Anna qué piensa ella.
 
 # --scene--
 

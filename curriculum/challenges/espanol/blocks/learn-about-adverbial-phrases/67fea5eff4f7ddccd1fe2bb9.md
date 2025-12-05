@@ -1,6 +1,6 @@
 ---
 id: 67fea5eff4f7ddccd1fe2bb9
-title: Task 22
+title: Tarea 22
 challengeType: 22
 dashedName: task-22
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Escucha el audio para completar la oración de abajo.
 
 # --fillInTheBlank--
 
@@ -24,13 +24,13 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This refers to something happening once a week.
+Esto se refiere a algo que ocurre una vez a la semana.
 
 # --explanation--
 
-`Weekly` is used to describe something that happens only once every week. It indicates the frequency of an event or action occurring on a weekly basis. For example:
+`Weekly` se usa para describir algo que ocurre solo una vez cada semana. Indica la frecuencia de un evento o acción que sucede semanalmente. Por ejemplo:
 
-`The team has weekly meetings to discuss project progress.` – This means the meetings happen every week.
+El equipo tiene reuniones semanales para discutir el progreso del proyecto. – Esto significa que las reuniones ocurren cada semana.
 
 # --scene--
 

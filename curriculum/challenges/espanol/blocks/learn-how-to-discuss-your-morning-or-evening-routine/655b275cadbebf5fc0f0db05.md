@@ -1,6 +1,6 @@
 ---
 id: 655b275cadbebf5fc0f0db05
-title: Task 82
+title: Tarea 82
 challengeType: 22
 dashedName: task-82
 lang: en-US
@@ -10,13 +10,13 @@ lang: en-US
 
 # --description--
 
-To `take` can mean different things depending on the situation. In the context of learning, to `take` means to attend or participate in a class or course. For example:
+To `take` puede significar diferentes cosas dependiendo de la situación. En el contexto del aprendizaje, to `take` significa asistir o participar en una clase o curso. Por ejemplo:
 
-- `I take online lessons at 7.` - Here, `take` means to attend the lessons.
+- Tomo clases en línea a las 7.
 
-- `She is taking a programming course this semester.` - Here, `taking` means she is enrolled in and attending the course.
+- Ella está tomando un curso de programación este semestre. - Aquí, `taking` significa que está inscrita y asistiendo al curso.
 
-So, when you say `take lessons` or `take a course`, you are talking about joining or attending them, not physically taking something.
+Entonces, cuando dices `take lessons` o `take a course`, te refieres a unirte o asistir a ellos, no a tomar algo físicamente.
 
 # --fillInTheBlank--
 
@@ -30,7 +30,7 @@ So, when you say `take lessons` or `take a course`, you are talking about joinin
 
 ### --feedback--
 
-This verb describes the action of participating in the lessons.
+Este verbo describe la acción de participar en las lecciones.
 
 ---
 
@@ -38,7 +38,7 @@ This verb describes the action of participating in the lessons.
 
 ### --feedback--
 
-This word refers to a virtual environment.
+Esta palabra se refiere a un entorno virtual.
 
 # --scene--
 

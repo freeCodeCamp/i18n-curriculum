@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Escucha el audio y responde a la pregunta a continuación.
+Escucha el audio y responde a la pregunta de abajo.
 
 # --questions--
 
 ## --text--
 
-Why does Jake prefer using Visual Studio Code?
+¿Por qué Jake prefiere usar Visual Studio Code?
 
 ## --answers--
 
-Because it's expensive and has many features.
+Porque es costoso y tiene muchas características.
 
 ### --feedback--
 
-Jake doesn't mention price or cost in his reason for preferring Visual Studio Code.
+Jake no menciona precio ni costo en su razón para preferir Visual Studio Code.
 
 ---
 
-Because it's slow and not secure.
+Porque es lento y no seguro.
 
 ### --feedback--
 
-Jake's reason for preferring Visual Studio Code is not related to speed or security issues.
+La razón de Jake para preferir Visual Studio Code no está relacionada con la velocidad ni con problemas de seguridad.
 
 ---
 
-Because it's hard to use and has limited features.
+Porque es difícil de usar y tiene funciones limitadas.
 
 ### --feedback--
 
-Jake describes Visual Studio Code positively, with no mention of it being difficult to use or lacking features.
+Jake describe Visual Studio Code de manera positiva, sin mencionar que sea difícil de usar o que carezca de funciones.
 
 ---
 
-Because it's lightweight and has excellent security features.
+Porque es ligero y tiene excelentes características de seguridad.
 
 ## --video-solution--
 
@@ -52,13 +52,13 @@ Because it's lightweight and has excellent security features.
 
 # --explanation--
 
-Listen for key words that explain Jake's preference.
+Escucha las palabras clave que expliquen la preferencia de Jake.  
 
-`Lightweight` – This means Visual Studio Code doesn't use a lot of system resources.
+`Lightweight` – Esto significa que Visual Studio Code no usa muchos recursos del sistema.  
 
-`Security features` – This shows that Jake values how the tool helps protect against potential risks.
+`Security features` – Esto muestra que Jake valora cómo la herramienta ayuda a proteger contra riesgos potenciales.  
 
-These key words help you see that Jake prefers Visual Studio Code because it is lightweight and has strong security features.
+Estas palabras clave te ayudan a ver que Jake prefiere Visual Studio Code porque es ligero y tiene funciones de seguridad robustas.
 
 # --scene--
 

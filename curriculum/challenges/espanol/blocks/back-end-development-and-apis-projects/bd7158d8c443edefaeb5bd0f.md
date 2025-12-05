@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c443edefaeb5bd0f
-title: File Metadata Microservice
+title: Microservicio de metadatos de archivo
 challengeType: 4
 forumTopicId: 301506
 dashedName: file-metadata-microservice
@@ -8,18 +8,18 @@ dashedName: file-metadata-microservice
 
 # --description--
 
-Build a full stack JavaScript app that is functionally similar to this: <a href="https://file-metadata-microservice.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://file-metadata-microservice.freecodecamp.rocks</a>. Working on this project will involve you writing your code using one of the following methods:
+Construye una aplicación JavaScript full stack que sea funcionalmente similar a esta: <a href="https://file-metadata-microservice.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://file-metadata-microservice.freecodecamp.rocks</a>. Trabajar en este proyecto implicará que escribas tu código usando uno de los siguientes métodos:
 
--   Clone <a href="https://github.com/freeCodeCamp/boilerplate-project-filemetadata/" target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete your project locally.
--   Use a site builder of your choice to complete the project. Be sure to incorporate all the files from our GitHub repo.
+-   Clona <a href="https://github.com/freeCodeCamp/boilerplate-project-filemetadata/" target="_blank" rel="noopener noreferrer nofollow">este repositorio de GitHub</a> y completa tu proyecto localmente.
+-   Usa un constructor de sitios de tu elección para completar el proyecto. Asegúrate de incorporar todos los archivos de nuestro repositorio de GitHub.
 
 # --instructions--
 
-**HINT:** You can use the `multer` npm package to handle file uploading.
+**NOTA:** Puedes usar el paquete npm `multer` para gestionar la carga de archivos.
 
 # --hints--
 
-You should provide your own project, not the example URL.
+Debes proporcionar tu propio proyecto, no la URL del ejemplo.
 
 ```js
   assert(
@@ -29,7 +29,7 @@ You should provide your own project, not the example URL.
   );
 ```
 
-You can submit a form that includes a file upload.
+Puedes enviar un formulario que incluya una carga de archivo.
 
 ```js
   const site = await fetch(code);
@@ -38,7 +38,7 @@ You can submit a form that includes a file upload.
   assert(doc.querySelector('input[type="file"]'));
 ```
 
-The form file input field has the `name` attribute set to `upfile`.
+El campo de entrada del archivo de formulario tiene el atributo `name` establecido a `upfile`.
 
 ```js
   const site = await fetch(code);
@@ -47,7 +47,7 @@ The form file input field has the `name` attribute set to `upfile`.
   assert(doc.querySelector('input[name="upfile"]'));
 ```
 
-When you submit a file, you receive the file `name`, `type`, and `size` in bytes within the JSON response.
+Cuando envíes un archivo, recibirá el `name` del archivo, `type` y `size` en bytes dentro de la respuesta JSON.
 
 ```js
   const formData = new FormData();

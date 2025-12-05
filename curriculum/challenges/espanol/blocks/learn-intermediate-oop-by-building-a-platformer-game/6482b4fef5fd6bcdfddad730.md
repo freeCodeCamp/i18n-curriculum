@@ -21,7 +21,7 @@ assert(
 );
 ```
 
-Se debe usar la palabra clave `class`.
+La palabra clave `class` debe ser utilizada.
 
 ```js
 assert.match(code, /^\s*class/m);

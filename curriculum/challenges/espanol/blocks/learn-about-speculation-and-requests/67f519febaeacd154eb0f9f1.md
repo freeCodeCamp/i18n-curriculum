@@ -24,15 +24,15 @@ Escucha el audio para completar la oración de abajo.
 
 ### --feedback--
 
-This word means being alert and watching carefully for potential dangers or problems.
+Esta palabra significa estar alerta y observar cuidadosamente posibles peligros o problemas.
 
 # --explanation--
 
-`Vigilant` means being watchful and cautious to detect possible threats. Por ejemplo:
+`Vigilant` significa estar atento y cauteloso para detectar posibles amenazas. Por ejemplo:
 
-- `The IT team is always vigilant when monitoring the network.` - The IT team stays alert and careful while checking the network.
+- El equipo de TI siempre está alerta y cuidadoso al revisar la red.
 
-- `You should be vigilant when clicking on unknown links in emails.` - You need to be careful and pay attention to suspicious email links.
+- Debes ser vigilante al hacer clic en enlaces desconocidos en correos electrónicos. Necesitas tener cuidado y prestar atención a los enlaces sospechosos en los correos.
 
 # --scene--
 

@@ -1,6 +1,6 @@
 ---
 id: 67eeb0a9bfe9ce2ab1cbffd2
-title: Task 29
+title: Tarea 29
 challengeType: 19
 dashedName: task-29
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Escucha el audio y responde a la pregunta de abajo.
 
 # --questions--
 
 ## --text--
 
-What else should Mark have done?
+¿Qué más debería haber hecho Mark?
 
 ## --answers--
 
-He should have rewritten his entire code.
+Él debería haber reescrito todo su código.
 
 ### --feedback--
 
-Mark didn't need to rewrite everything.
+Mark no necesitó reescribir todo.
 
 ---
 
-He should have tested his code first.
+Él debería haber probado su código primero.
 
 ---
 
-He should have removed all comments.
+Él debería haber eliminado todos los comentarios.
 
 ### --feedback--
 
-Comments are useful and should not be removed.
+Los comentarios son útiles y no deben ser eliminados.
 
 ---
 
-He should have skipped testing because it takes too long.
+Él debería haber omitido las pruebas porque toma demasiado tiempo.
 
 ### --feedback--
 
-Testing is an important step before submitting code.
+Probar es un paso importante antes de enviar código.
 
 ## --video-solution--
 
@@ -52,11 +52,11 @@ Testing is an important step before submitting code.
 
 # --explanation--
 
-A `test suite` is a collection of tests that check if a program works correctly. For example:
+Una `test suite` es una colección de pruebas que verifican si un programa funciona correctamente. Por ejemplo:
 
-- `We ran the test suite to check if the app works properly.` - The team executed all the tests to ensure the app functions as expected.
+- `We ran the test suite to check if the app works properly.` - El equipo ejecutó todas las pruebas para asegurar que la app funcione como se espera.
 
-- `We need to add more tests to the test suite to check for edge cases.` - The team should include more tests to cover all possible situations.
+- `We need to add more tests to the test suite to check for edge cases.` - El equipo debería incluir más pruebas para cubrir todas las situaciones posibles.
 
 # --scene--
 

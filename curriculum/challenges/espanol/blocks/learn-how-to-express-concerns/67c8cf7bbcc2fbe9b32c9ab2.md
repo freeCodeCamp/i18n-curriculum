@@ -1,6 +1,6 @@
 ---
 id: 67c8cf7bbcc2fbe9b32c9ab2
-title: Task 92
+title: Tarea 92
 challengeType: 19
 dashedName: task-92
 lang: en-US
@@ -10,53 +10,53 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Escucha el audio y responde a la pregunta de abajo.  
 
 # --questions--
 
 ## --text--
 
-What will Maria do with the comments she got from James?
+¿Qué hará Maria con los comentarios que recibió de James?  
 
 ## --answers--
 
-She will ignore them.
+Ella los ignorará.  
 
 ### --feedback--
 
-Maria acknowledges James's point and plans to take action.
+Maria reconoce el punto de James y planea tomar acción.
 
 ---
 
-She will tell the team to stop worrying about communication.
+Ella le dirá al equipo que deje de preocuparse por la comunicación.
 
 ### --feedback--
 
-Maria wants to improve communication, not dismiss concerns.
+Maria quiere mejorar la comunicación, no descartar las preocupaciones. 
 
 ---
 
-She will cancel the team's check-ins.
+Ella cancelará los check-ins del equipo.
 
 ### --feedback--
 
-Maria does not say she will cancel the check-ins.
+Maria no dice que cancelará los check-ins.
 
 ---
 
-She will propose having more check-ins to improve communication.
+Ella propondrá tener más check-ins para mejorar la comunicación.
 
 ## --video-solution--
 
-4
+4  
 
 # --explanation--
 
-When using the verb `suggest`, use the following verb in the `-ing` form instead of the infinitive. For example:
+Al usar el verbo `suggest`, usa el siguiente verbo en la forma `-ing` en lugar del infinitivo. Por ejemplo:
 
-- `She suggested taking a break.` - This means the idea proposed is to take a break.
+- `She suggested taking a break.` - Esto significa que la idea propuesta es tomar un descanso.
 
-- `He suggested starting the meeting earlier to avoid delays.` - This means he proposed beginning the meeting sooner.
+- `He suggested starting the meeting earlier to avoid delays.` - Esto significa que él propuso comenzar la reunión antes.
 
 # --scene--
 

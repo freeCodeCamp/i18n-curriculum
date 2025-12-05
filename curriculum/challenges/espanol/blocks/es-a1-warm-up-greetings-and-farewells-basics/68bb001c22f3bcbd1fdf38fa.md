@@ -1,6 +1,6 @@
 ---
 id: 68bb001c22f3bcbd1fdf38fa
-title: Task 1
+title: Tarea 1
 challengeType: 19
 dashedName: task-1
 lang: es
@@ -10,17 +10,18 @@ lang: es
 
 # --description--
 
-Elena wants to say "hi". You'll hear this word all the time in Spanish when people meet each other.
+Elena quiere decir "hola". Escucharás esta palabra todo el tiempo en español cuando las personas se encuentran.
 
 # --instructions--
 
-Listen to the audio and answer the question below. There's just **one** correct answer. If you need help, click on **explanation** at the bottom of the lesson.
+Escucha el audio y responde la pregunta a continuación.  
+Solo hay **una** respuesta correcta. Si necesitas ayuda, haz clic en **explanation** al final de la lección.
 
 # --questions--
 
 ## --text--
 
-What word does Elena use to say "hi"?
+¿Qué palabra usa Elena para decir "hi"?
 
 ## --answers--
 
@@ -32,7 +33,7 @@ What word does Elena use to say "hi"?
 
 ### --feedback--
 
-This means the opposite of what the speaker says. Open the explanation section if you need further help.
+Esto significa lo contrario de lo que dice el hablante. Abre la sección de explicación si necesitas más ayuda.
 
 ---
 
@@ -40,7 +41,7 @@ This means the opposite of what the speaker says. Open the explanation section i
 
 ### --feedback--
 
-This means the opposite of what the speaker says. Open the explanation section if you need further help.
+Esto significa lo contrario de lo que dice el hablante. Abre la sección de explicación si necesitas más ayuda.
 
 ---
 
@@ -48,7 +49,7 @@ This means the opposite of what the speaker says. Open the explanation section i
 
 ### --feedback--
 
-This means "Good morning", but it's not what you hear in the audio.
+Esto significa "Good morning", pero no es lo que escuchas en el audio.
 
 ## --video-solution--
 
@@ -56,9 +57,9 @@ This means "Good morning", but it's not what you hear in the audio.
 
 # --explanation--
 
-The word `Hola` is a greeting. It is used when you meet someone, similar to "Hello" or "Hi". For example:
+La palabra `Hola` es un saludo. Se usa cuando conoces a alguien, similar a "Hello" o "Hi". Por ejemplo:
 
-`¡Hola, buenos días!` – Hi, good morning!
+`¡Hola, buenos días!` – Hola, buenos días! 
 
 # --scene--
 
