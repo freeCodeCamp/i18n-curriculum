@@ -1,6 +1,6 @@
 ---
 id: 66234ab7decaffe8ecb8327d
-title: Task 56
+title: Tarea 56
 challengeType: 22
 dashedName: task-56
 lang: en-US
@@ -10,9 +10,9 @@ lang: en-US
 
 # --description--
 
-`To affect` means to have an impact on or influence something. In programming, `affecting` a part of the system means that changes in one area might impact how other areas function.
+`To affect` significa tener un impacto en o influir en algo. En la programación, `affecting` una parte del sistema significa que los cambios en un área podrían impactar cómo funcionan otras áreas.
 
-For example, `Changing the database structure could affect the application's performance` indicates that modifications might influence the performance.
+Por ejemplo, `Changing the database structure could affect the application's performance` indica que las modificaciones podrían influir en el rendimiento.
 
 # --fillInTheBlank--
 
@@ -26,7 +26,7 @@ For example, `Changing the database structure could affect the application's per
 
 ### --feedback--
 
-In this context, it refers to the potential impact of Sophie's changes on other parts of the system.
+En este contexto, se refiere al impacto potencial de los cambios de Sophie en otras partes del sistema.
 
 ---
 
@@ -34,7 +34,7 @@ In this context, it refers to the potential impact of Sophie's changes on other 
 
 ### --feedback--
 
-They are the various operations or features of the system that might be impacted by the changes.
+Son las diversas operaciones o características del sistema que podrían ser impactadas por los cambios.
 
 # --scene--
 

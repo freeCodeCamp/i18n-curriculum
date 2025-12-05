@@ -1,6 +1,6 @@
 ---
 id: bd7154d8c242eddfaeb5bd13
-title: Build the Game of Life
+title: Construye el Juego de la Vida
 challengeType: 3
 forumTopicId: 302362
 dashedName: build-the-game-of-life
@@ -8,36 +8,36 @@ dashedName: build-the-game-of-life
 
 # --description--
 
-**Objective:** Build an app that is functionally similar to this: <a href="https://codepen.io/freeCodeCamp/full/BpwMZv/" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/BpwMZv/</a>.
+**Objetivo:** Construye una app que sea funcionalmente similar a esta: <a href="https://codepen.io/freeCodeCamp/full/BpwMZv/" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/BpwMZv/</a>.
 
-The Game of Life is a cellular automaton devised by the British mathematician John Horton Conway. It is a <em>zero-player game</em>, meaning that its evolution is determined by its initial state, requiring no further input. One interacts with the Game of Life by creating an initial configuration and observing how it evolves.
+El Juego de la Vida es un autómata celular ideado por el matemático británico John Horton Conway.  It is a <em>zero-player game</em>, meaning that its evolution is determined by its initial state, requiring no further input. Uno interactúa con el Juego de la Vida creando una configuración inicial y observando cómo evoluciona.
 
-The universe of the Game of Life is an infinite, two-dimensional orthogonal grid of square cells, each of which is in one of two possible states, populated and unpopulated. Every cell interacts with its eight neighbors, which are the cells that are horizontally, vertically, or diagonally adjacent.
+El universo del juego de la vida es una cuadrícula ortogonal infinita y bidimensional de células cuadradas, cada uno de los cuales se encuentra en uno de los dos posibles estados, poblado y despoblado. Cada célula interactúa con sus ocho vecinas, que son las células adyacentes horizontal, vertical o diagonalmente.
 
-At each step in time, the following transitions occur:
+En cada paso del tiempo, ocurren las siguientes transiciones:
 
-- Any live cell with fewer than two live neighbors dies, as if by underpopulation.
-- Any live cell with two or three live neighbors lives on to the next generation.
-- Any live cell with more than three live neighbors dies, as if by overpopulation.
-- Any dead cell with exactly three live neighbors becomes a live cell, as if by reproduction.
+- Cualquier célula viva con menos de dos vecinos vivos muere, como si fuera por subpoblación.
+- Cualquier célula viva con dos o tres vecinos vivos continúa viva en la siguiente generación.
+- Cualquier célula viva con más de tres vecinos vivos muere, como si fuera por sobrepoblación.
+- Cualquier célula muerta con exactamente tres vecinos vivos se convierte en una célula viva, como si fuera por reproducción.
 
-Fulfill the below user stories and get all of the tests to pass. Use whichever libraries or APIs you need. Give it your own personal style.
+Completa las historias de los usuarios que están aquí abajo y haz que pasen todas las pruebas. Utiliza cualquier librería o API que necesites. Dale tu propio estilo.
 
-**User Story:** When I first arrive at the game, it will randomly generate a board and start playing.
+**User Story:** Cuando llego por primera vez al juego, generará un tablero aleatorio y comenzará a jugar.
 
-**User Story:** I can start and stop the board.
+**User Story:** Puedo iniciar y detener el tablero.
 
-**User Story:** I can set up the board.
+**User Story:** Puedo configurar el tablero.
 
-**User Story:** I can clear the board.
+**User Story:** Puedo limpiar el tablero.
 
-**User Story:** When I press start, the game will play out.
+**User Story:** Cuando presione iniciar, el juego se ejecutará.
 
-**User Story:** Each time the board changes, I can see how many generations have gone by.
+**User Story:** Cada vez que el tablero cambia, puedo ver cuántas generaciones han pasado.
 
-When you are finished, include a link to your project and click the "I've completed this challenge" button.
+Cuando termines, incluye un enlace a tu proyecto y haz clic en el botón "He completado este desafío".
 
-You can get feedback on your project by sharing it on the <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp forum</a>.
+Puedes obtener retroalimentación sobre tu proyecto compartiéndolo en el <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">foro de freeCodeCamp</a>.
 
 # --solutions--
 

@@ -1,6 +1,6 @@
 ---
 id: 67a75a9acd71d2ed6eb9a6fa
-title: Task 20
+title: Tarea 20
 challengeType: 22
 dashedName: task-20
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Escucha el audio para completar la oración de abajo.
 
 # --fillInTheBlank--
 
@@ -24,13 +24,13 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This two-word phrase refers to different situations that represent how a person might interact with a product.
+Esta frase de dos palabras se refiere a diferentes situaciones que representan cómo una persona podría interactuar con un producto.
 
 # --explanation--
 
-`User scenarios` refers to different situations that describe how users interact with a product to achieve a goal. It helps teams test and improve the user experience. For example:
+`User scenarios` se refiere a diferentes situaciones que describen cómo los usuarios interactúan con un producto para lograr un objetivo. Ayuda a los equipos a probar y mejorar la experiencia del usuario. Por ejemplo:
 
-`We created user scenarios to see how customers navigate the checkout process.` – This means the team simulated different ways users complete a purchase to identify any issues.
+Creamos escenarios de usuario para ver cómo los clientes navegan el proceso de pago. – Esto significa que el equipo simuló diferentes formas en que los usuarios completan una compra para identificar cualquier problema.  
 
 # --scene--
 

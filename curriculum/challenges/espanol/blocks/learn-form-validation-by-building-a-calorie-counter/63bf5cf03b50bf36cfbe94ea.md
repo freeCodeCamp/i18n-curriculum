@@ -7,7 +7,7 @@ dashedName: step-39
 
 # --description--
 
-Ahora que has terminado de probar el valor de `entryDropdown.value`, puedes eliminar la sentencia `console.log`.
+Ahora que has terminado de probar el valor de `entryDropdown.value`, puedes eliminar la sentencia `console.log`. 
 
 Tu siguiente paso es permitir a los usuarios agregar entradas al contador de calorías. Declara una función vacía `addEntry`. Esta función no debe tomar ningún parámetro.
 

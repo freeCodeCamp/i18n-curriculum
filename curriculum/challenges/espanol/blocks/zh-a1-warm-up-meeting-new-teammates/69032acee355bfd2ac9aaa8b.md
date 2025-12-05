@@ -1,6 +1,6 @@
 ---
 id: 69032acee355bfd2ac9aaa8b
-title: Task 16
+title: Tarea 16
 challengeType: 24
 dashedName: task-16
 lang: zh-CN
@@ -8,23 +8,23 @@ lang: zh-CN
 
 # --description--
 
-## Tone Sandhi of `不 (bù)`
+## Tono Sandhi de `不 (bù)`
 
-`不 (bù)` means "no" or "not". When it is followed by a syllable which is in the first, second or the third tone, it remains in the fourth tone.
+`不 (bù)` significa "no" o "no". Cuando va seguido de una sílaba que está en el primer, segundo o tercer tono, permanece en el cuarto tono.
 
-However, when `不 (bù)` is followed by a syllable which is in the fourth tone, it changes to the second tone.
+Sin embargo, cuando `不 (bù)` es seguido por una sílaba que está en el cuarto tono, cambia al segundo tono.
 
-This tone change is a natural adjustment in speech to make pronunciation smoother.
+Este cambio de tono es un ajuste natural en el habla para hacer la pronunciación más suave.
 
-### Examples
+### Ejemplos
 
-| Written    | Pronounced as |
-| ---------- | ------------- |
-| `bù néng`  | `bù néng`     |
-| `bù xiǎng` | `bù xiǎng`    |
-| `bù shì`   | `bú shì`      |
-| `bù huì`   | `bú huì`      |
+EscritoPronunciado como
+|------------|----------------|
+| `bù néng`   | `bù néng`      |
+| `bù xiǎng`   | `bù xiǎng`      |
+| `bù shì`    | `bú shì`       |
+| `bù huì`  | `bú huì`   |
 
 # --assignment--
 
-Listen to the audio and read the example syllables.
+Escucha el audio y lee las sílabas de ejemplo.

@@ -24,7 +24,7 @@ Escucha el audio para completar la oración de abajo.
 
 ### --feedback--
 
-This verb is used when someone wants to get information or permission.
+Este verbo se usa cuando alguien quiere obtener información o permiso.
 
 ---
 
@@ -32,17 +32,17 @@ This verb is used when someone wants to get information or permission.
 
 ### --feedback--
 
-This preposition connects related topic or subject.
+Esta preposición conecta un tema o sujeto relacionado.
 
 # --explanation--
 
-`Ask about` means to request information related to a specific topic. Por ejemplo:
+`Ask about` significa solicitar información relacionada con un tema específico. Por ejemplo:
 
-`I asked about the new feature.` – You wanted information on the feature.
+`I asked about the new feature.` – Querías información sobre la característica. 
 
-`Can I ask you about...` is a polite way to start a question when you want information or help. It shows that you're asking for permission to talk about a specific topic. Por ejemplo:
+`Can I ask you about...` es una forma educada de empezar una pregunta cuando quieres información o ayuda. Muestra que estás pidiendo permiso para hablar sobre un tema específico. Por ejemplo:
 
-`Can I ask you about the project deadline?` – This means you want to talk about the deadline and get more details.
+`Can I ask you about the project deadline?` – Esto significa que quieres hablar sobre la fecha límite y obtener más detalles.  
 
 # --scene--
 

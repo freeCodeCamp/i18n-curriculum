@@ -1,6 +1,6 @@
 ---
 id: 67caeb9a6a3aedb94bc912dd
-title: Task 129
+title: Tarea 129
 challengeType: 22
 dashedName: task-129
 lang: en-US
@@ -10,39 +10,39 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Escucha el audio para completar la oración de abajo.  
 
 # --fillInTheBlank--
 
 ## --sentence--
 
-`They BLANK said the communication isn't great because they BLANK don't hear about changes until it's too late.`
+`They BLANK said the communication isn't great because they BLANK don't hear about changes until it's too late.`  
 
 ## --blanks--
 
-`also`
+`also`  
 
 ### --feedback--
 
-This means in addition or as well.
+Esto significa además o también.
 
----
+---  
 
-`often`
+`often`  
 
 ### --feedback--
 
-This means frequently or many times.
+Esto significa frecuentemente o muchas veces.
 
 # --explanation--
 
-`Also` means in addition to something previously mentioned. For example:
+`Also` significa además de algo mencionado anteriormente. Por ejemplo:
 
-`She speaks English and also knows French.` - This means she knows French in addition to English.
+`She speaks English and also knows French.` - Esto significa que ella sabe francés además de inglés.  
 
-`Often` means frequently or regularly. For example:
+`Often` significa con frecuencia o regularmente. Por ejemplo:
 
-`He often works late on Fridays.` - This means he works late many times or regularly on Fridays.
+`He often works late on Fridays.` - Esto significa que trabaja hasta tarde muchas veces o regularmente los viernes.
 
 # --scene--
 

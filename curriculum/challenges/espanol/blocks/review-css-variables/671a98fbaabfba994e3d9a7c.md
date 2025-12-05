@@ -9,7 +9,7 @@ dashedName: review-css-variables
 
 ## Propiedades Personalizadas CSS (Variables CSS)
 
-- **Definición**: Las propiedades personalizadas de CSS, también conocidas como variables CSS, son entidades definidas por los autores de CSS que contienen valores específicos para ser reutilizados a lo largo de un documento. Son una característica poderosa que permite hojas de estilo más eficientes, mantenibles y flexibles. Las propiedades personalizadas son particularmente útiles para crear diseños temáticos. Puedes definir un conjunto de propiedades para diferentes temas:
+- **Definición**: Las propiedades personalizadas de CSS, también conocidas como variables CSS, son entidades definidas por los autores de CSS que contienen valores específicos para ser reutilizados a lo largo de un documento. Son una característica poderosa que permite hojas de estilo más eficaces, mantenibles y flexibles. Las propiedades personalizadas son particularmente útiles para crear diseños tematizables. Puede definir un conjunto de propiedades para diferentes temas:
 
 ```css
 :root {
@@ -40,7 +40,7 @@ body {
 }
 ```
 
-- **`--nombre-propiedad`**: Este es el nombre de la propiedad personalizada que estás definiendo. Como todas las propiedades personalizadas, debe comenzar con dos guiones. `--nombre-propiedad` puede ser cosas como `<color>`, `<longitud>`, `<número>`, `<porcentaje>`, o tipos más complejos.
+- **`--property-name`**: Este es el nombre de la propiedad personalizada que estás definiendo. Como todas las propiedades personalizadas, debe comenzar con dos guiones. `--property-name` puede ser cosas como `<color>`, `<length>`, `<number>`, `<percentage>`, o tipos más complejos.
 - **`syntax`**: Esto define el tipo de la propiedad.
 - **`inherits`**: Esto especifica si la propiedad debe heredar su valor del elemento padre.
 - **`initial-value`**: Esto establece el valor por defecto de la propiedad.

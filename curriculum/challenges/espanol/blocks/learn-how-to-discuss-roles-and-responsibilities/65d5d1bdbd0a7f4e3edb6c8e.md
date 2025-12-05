@@ -1,6 +1,6 @@
 ---
 id: 65d5d1bdbd0a7f4e3edb6c8e
-title: Task 35
+title: Tarea 35
 challengeType: 19
 dashedName: task-35
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --description--
 
-Listen to the audio and answer the question.
+Escucha el audio y responde a la pregunta.
 
 # --questions--
 
 ## --text--
 
-What is Tom asking about?
+¿Sobre qué está preguntando Tom?
 
 ## --answers--
 
-If Anna works in HR
+Si Anna trabaja en RRHH
 
 ### --feedback--
 
-Tom's question is specifically about whether the person has worked with Anna, not about Anna's role.
+La pregunta de Tom es específicamente sobre si la persona ha trabajado con Anna, no sobre el rol de Anna.
 
 ---
 
-If Alice has had any experience working with Anna.
+Si Alice ha tenido alguna experiencia trabajando con Anna.
 
 ---
 
-If you like working in HR
+Si te gusta trabajar en RRHH
 
 ### --feedback--
 
-The question is about past experience with Anna, not personal feelings about working in HR.
+La pregunta es sobre la experiencia pasada con Anna, no sobre sentimientos personales acerca de trabajar en RRHH.
 
 ---
 
-If Anna has ever worked
+Si Anna alguna vez ha trabajado
 
 ### --feedback--
 
-The focus of Tom's question is on the listener's experience with Anna, not on Anna's work history.
+El enfoque de la pregunta de Tom está en la experiencia del oyente con Anna, no en la historia laboral de Anna.
 
 ## --video-solution--
 

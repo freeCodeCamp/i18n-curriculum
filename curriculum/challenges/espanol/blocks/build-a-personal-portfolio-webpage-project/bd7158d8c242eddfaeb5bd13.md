@@ -8,9 +8,9 @@ dashedName: build-a-personal-portfolio-webpage
 
 # --description--
 
-**Objetivo:** construye una aplicación que sea funcionalmente similar a <a href="https://personal-portfolio.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://personal-portfolio.freecodecamp.rocks</a>. **No copies este proyecto de demostración**.
+**Objetivo:** Construye una app que sea funcionalmente similar a <a href="https://personal-portfolio.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://personal-portfolio.freecodecamp.rocks</a>. **No copies este proyecto de demostración**.
 
-**Historia de usuario:**
+**Historias de usuario:**
 
 1. Tu portafolio debe tener una sección de bienvenida con un `id` de `welcome-section`
 1. La sección de bienvenida debe tener un elemento `h1` que contenga texto
@@ -24,20 +24,20 @@ dashedName: build-a-personal-portfolio-webpage
 1. La altura de la sección de bienvenida debe ser igual a la altura de viewport
 1. La barra de navegación siempre debe estar en la parte superior del viewport
 
-Completa las intrucciones y pasa los tests de abajo para completar este projecto. Dale tu estilo personal. ¡Que tengas una feliz programación!
+Completa las intrucciones y pasa los tests de abajo para completar este projecto. Dale tu propio estilo. ¡Que tengas una feliz programación!
 
-**Nota:** Asegúrete de adicionar `<link rel="stylesheet" href="styles.css">` en tu HTML para enlazar la hoja de estilos y aplicarla a el CSS
+**Nota:** Asegúrate de agregar `<link rel="stylesheet" href="styles.css">` en tu HTML para enlazar tu hoja de estilos y aplicar tu CSS
 
 # --hints--
 
-Tu portafolio debe tener una sección "Welcome" con un `id` de `welcome-section`.
+Tu portafolio debe tener una sección "Bienvenida" con un `id` de `welcome-section`.
 
 ```js
 const el = document.getElementById('welcome-section');
 assert.isNotNull(el);
 ```
 
-Tu elemento `#welcome-section` de contener un elemento `h1`.
+Tu elemento `#welcome-section` debe contener un elemento `h1`.
 
 ```js
 assert.isAbove(
@@ -47,7 +47,7 @@ assert.isAbove(
 );
 ```
 
-No debes tener ningún elemento `h1` vacío dentro del elemento `#welcome-section`.
+No debes tener ningún elemento `h1` dentro del elemento `#welcome-section`.
 
 ```js
 assert.isAbove(
@@ -57,14 +57,14 @@ assert.isAbove(
 );
 ```
 
-Debes tener una sección "Projects" con un `id` de `projects`.
+Debes tener una sección "Proyectos" con un `id` de `projects`.
 
 ```js
 const el = document.getElementById('projects');
 assert.isNotNull(el);
 ```
 
-Tu portafolio debe contener al menos un elemento con una clase `project-tile`.
+Tu portafolio debe contener al menos un elemento con una clase de `project-tile`.
 
 ```js
 assert.isAbove(document.querySelectorAll('#projects .project-tile').length, 0);
@@ -83,7 +83,7 @@ const el = document.getElementById('navbar');
 assert.isNotNull(el);
 ```
 
-Tu elemento `#navbar` debe contener al menos un elemento `a` cuyo atributo `href` empiece con `#`.
+Tu elemento `#navbar` debe contener al menos un elemento `a` cuyo atributo `href` comience con `#`.
 
 ```js
 const links = [...document.querySelectorAll('#navbar a')].filter(
@@ -117,7 +117,7 @@ const cssCheck = new __helpers.CSSHelp(document).getCSSRules('media')
 assert.isTrue(cssCheck.length > 0 || htmlSourceAttr.length > 0);
 ```
 
-Tu elemento `#navbar` siempre debe estar en la parte superior del viewport.
+Tu elemento `#navbar` debe estar siempre en la parte superior del viewport.
 
 ```js
   const timeout = milliseconds =>

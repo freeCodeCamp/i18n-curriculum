@@ -1,6 +1,6 @@
 ---
 id: 67d81e8afbcfb390dd7fc1e0
-title: Task 133
+title: Tarea 133
 challengeType: 19
 dashedName: task-133
 lang: en-US
@@ -12,13 +12,13 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Escucha el audio y responde a la pregunta de abajo.
 
 # --questions--
 
 ## --text--
 
-Jake hasn't checked that yet and says the team should focus on something else. What would he say?
+Jake aún no ha revisado eso y dice que el equipo debería enfocarse en otra cosa. ¿Qué diría él?  
 
 ## --answers--
 
@@ -30,7 +30,7 @@ Jake hasn't checked that yet and says the team should focus on something else. W
 
 ### --feedback--
 
-Jake hasn't checked yet, so he wouldn't be able to confirm this.
+Jake aún no ha revisado, así que no podría confirmar esto.
 
 ## --video-solution--
 
@@ -38,11 +38,11 @@ Jake hasn't checked yet, so he wouldn't be able to confirm this.
 
 # --explanation--
 
-Securing critical systems is usually the first priority before assessing individual files.
+Asegurar sistemas críticos suele ser la primera prioridad antes de evaluar archivos individuales.
 
-`Not yet.` means Jake hasn't checked which files were compromised.
+`Not yet.` significa que Jake no ha verificado qué archivos fueron comprometidos.
 
-`We should focus on the critical systems first.` means that instead of looking at files, the team should prioritize protecting essential parts of the system.
+`We should focus on the critical systems first.` significa que en lugar de revisar archivos, el equipo debe priorizar proteger las partes esenciales del sistema.
 
 # --scene--
 

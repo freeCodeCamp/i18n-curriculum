@@ -1,6 +1,6 @@
 ---
 id: 679d26afcebc4ea8a9478fbf
-title: Task 91
+title: Tarea 91
 challengeType: 19
 dashedName: task-91
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Escucha el audio y responde a la pregunta de abajo.
 
 # --questions--
 
 ## --text--
 
-Is James sure that they need to update the software?
+¿James está seguro de que necesitan actualizar el software?
 
 ## --answers--
 
-Not really, since he is asking for Maria's opinion.
+No realmente, ya que él está pidiendo la opinión de Maria.
 
 ---
 
-Yes, he has already decided to update it.
+Sí, él ya ha decidido actualizarlo.
 
 ### --feedback--
 
-James is asking Maria about it, so he probably hasn't decided it yet.
+James le está preguntando a Maria sobre eso, así que probablemente aún no lo ha decidido.
 
 ---
 
-Yes, he has already started updating the software.
+Sí, él ya ha comenzado a actualizar el software.
 
 ### --feedback--
 
-James is asking whether they should update the software or not.
+James está preguntando si debería actualizar el software o no.
 
 ---
 
-On the contrary, he's sure they should not update the software.
+Al contrario, está seguro de que no deberían actualizar el software.
 
 ### --feedback--
 
-James is not rejecting the idea altogether; he is actually asking Maria's opinion on the topic.
+James no está rechazando la idea por completo; en realidad está pidiendo la opinión de Maria sobre el tema.
 
 ## --video-solution--
 
@@ -52,9 +52,9 @@ James is not rejecting the idea altogether; he is actually asking Maria's opinio
 
 # --explanation--
 
-`To update` means to modify or improve software by releasing a new version. Updates can include bug fixes, new features, or performance improvements. For example:
+`To update` significa modificar o mejorar el software lanzando una nueva versión. Las actualizaciones pueden incluir correcciones de errores, nuevas funciones o mejoras de rendimiento. Por ejemplo:
 
-`The company released an update to fix security vulnerabilities in the app.` - This means a new version was launched to address security issues.
+`The company released an update to fix security vulnerabilities in the app.` - Esto significa que se lanzó una nueva versión para solucionar problemas de seguridad.
 
 # --scene--
 

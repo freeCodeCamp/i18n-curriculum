@@ -1,6 +1,6 @@
 ---
 id: 67baf3ed288e8b06f4ab0dfb
-title: Task 76
+title: Tarea 76
 challengeType: 22
 dashedName: task-76
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Escucha el audio para completar la oración de abajo.
 
 # --fillInTheBlank--
 
@@ -22,23 +22,23 @@ Listen to the audio and complete the sentence below.
 
 `team spirit`
 
-### --feedback--
+### --feedback--  
 
-These two words together refer to the sense of unity and cooperation among coworkers. The first word refers to a group working together, and the second word relates to shared enthusiasm or motivation.
+Estas dos palabras juntas se refieren al sentido de unidad y cooperación entre compañeros de trabajo. La primera palabra se refiere a un grupo que trabaja junto, y la segunda palabra está relacionada con el entusiasmo o la motivación compartida.
 
 ---
 
 `problem-solving`
 
-### --feedback--
+### --feedback--  
 
-This compound word refers to the process of finding solutions to challenges. The first part refers to an issue that needs to be fixed, and the second part is a verb meaning finding a solution. Remember to use `-` between the two parts.
+Esta palabra compuesta se refiere al proceso de encontrar soluciones a desafíos. La primera parte se refiere a un problema que necesita ser arreglado, y la segunda parte es un verbo que significa encontrar una solución. Recuerda usar `-` entre las dos partes.
 
 # --explanation--
 
-David believes that working in the office helps strengthen `team spirit` (a sense of connection and unity among coworkers) and improves `problem-solving` (finding solutions to challenges more efficiently).
+David cree que trabajar en la oficina ayuda a fortalecer el `team spirit` (un sentido de conexión y unidad entre compañeros de trabajo) y mejora el `problem-solving` (encontrar soluciones a los desafíos de manera más eficiente).
 
-He argues that being in the same physical space makes it easier for employees to collaborate and support one another.
+Él argumenta que estar en el mismo espacio físico facilita que los empleados colaboren y se apoyen mutuamente.
 
 # --scene--
 

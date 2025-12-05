@@ -1,6 +1,6 @@
 ---
 id: 5e8f2f13c4cdbe86b5c72d94
-title: 'Neural Networks: Optimizers'
+title: 'Redes Neurales: Optimizadores'
 challengeType: 11
 videoId: hdOtRPQe1o4
 bilibiliIds:
@@ -14,19 +14,19 @@ dashedName: neural-networks-optimizers
 
 ## --text--
 
-What is an optimizer function?
+¿Qué es una función optimizador?
 
 ## --answers--
 
-A function that increases the accuracy of a model's predictions.
+Una función que aumenta la precisión de las predicciones de un modelo.
 
 ---
 
-A function that implements the gradient descent and backpropagation algorithms for you.
+Una función que implementa los algoritmos de descenso y retropropagación degradados para usted.
 
 ---
 
-A function that reduces the time a model needs to train.
+Una función que reduce el tiempo que un modelo necesita entrenar.
 
 ## --video-solution--
 

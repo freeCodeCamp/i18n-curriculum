@@ -1,6 +1,6 @@
 ---
 id: 65a4f2c2d1bbdfbe82cb3fdd
-title: Task 94
+title: Tarea 94
 challengeType: 22
 dashedName: task-94
 lang: en-US
@@ -10,11 +10,11 @@ lang: en-US
 
 # --description--
 
-A `gadget` is a small tool or device, often clever or novel, that performs a specific function or makes something easier.
+Un `gadget` es una herramienta o dispositivo pequeño, a menudo ingenioso o novedoso, que realiza una función específica o hace algo más fácil. 
 
-In tech, gadgets can include things like smartphones, smartwatches, or any cool, innovative electronic device.
+En tecnología, los gadgets pueden incluir cosas como teléfonos inteligentes, relojes inteligentes o cualquier dispositivo electrónico genial e innovador. 
 
-For example, `My new fitness tracker gadget helps me keep track of my steps and exercise.`
+Por ejemplo, `My new fitness tracker gadget helps me keep track of my steps and exercise.`
 
 # --fillInTheBlank--
 
@@ -28,7 +28,7 @@ For example, `My new fitness tracker gadget helps me keep track of my steps and 
 
 ### --feedback--
 
-This word means something causes a feeling or a reaction. Here, it's used to talk about what excites Bob about tech. It's conjugated in the third person singular.
+Esta palabra significa que algo provoca un sentimiento o una reacción. Aquí, se utiliza para hablar sobre lo que emociona a Bob acerca de la tecnología. Está conjugado en la tercera persona del singular.
 
 ---
 
@@ -36,7 +36,7 @@ This word means something causes a feeling or a reaction. Here, it's used to tal
 
 ### --feedback--
 
-This word is used to point out specific things that are being talked about, in this case, the gadgets. Plural of `that`.
+Esta palabra se utiliza para señalar cosas específicas de las que se está hablando, en este caso, los gadgets. Plural de `that`.
 
 ---
 
@@ -44,7 +44,7 @@ This word is used to point out specific things that are being talked about, in t
 
 ### --feedback--
 
-This word refers to small electronic devices or tools that are useful or interesting. It's often used to talk about cool tech items. It is in plural.
+Esta palabra se refiere a dispositivos electrónicos o herramientas pequeñas que son útiles o interesantes. A menudo se usa para hablar sobre elementos tecnológicos geniales. Está en plural.
 
 # --scene--
 

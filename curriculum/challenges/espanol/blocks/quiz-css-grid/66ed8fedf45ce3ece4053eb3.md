@@ -1,13 +1,13 @@
 ---
 id: 66ed8fedf45ce3ece4053eb3
-title: CSS Grid Quiz
+title: Cuestionario sobre Grid CSS
 challengeType: 8
 dashedName: quiz-css-grid
 ---
 
 # --description--
 
-To pass the quiz, you must correctly answer at least 18 of the 20 questions below.
+Para aprobar el cuestionario, debe responder correctamente al menos 18 de las 20 preguntas a continuación.
 
 # --quizzes--
 
@@ -17,29 +17,29 @@ To pass the quiz, you must correctly answer at least 18 of the 20 questions belo
 
 #### --text--
 
-What is CSS Grid?
+¿Qué es Grid CSS?
 
 #### --distractors--
 
-A method used for displaying tables on a website.
+Un método utilizado para mostrar tablas en un sitio web.
 
 ---
 
-A method used for tiling images.
+Un método utilizado para colocar imágenes en mosaico.
 
 ---
 
-A way to display outlines around HTML elements.
+Una forma de mostrar contornos alrededor de los elementos HTML.
 
 #### --answer--
 
-A two-dimensional layout for HTML documents.
+Un diseño bidimensional para documentos HTML.
 
 ### --question--
 
 #### --text--
 
-Which of the following is the correct way to create a grid container?
+¿Cuál de las siguientes es la forma correcta de crear un contenedor de cuadrícula?
 
 #### --distractors--
 
@@ -61,73 +61,73 @@ Which of the following is the correct way to create a grid container?
 
 #### --text--
 
-What does the `grid-template-columns` property do?
+¿Qué hace la propiedad `grid-template-columns`?
 
 #### --distractors--
 
-Defines two columns and three rows for a grid container.
+Define dos columnas y tres filas para un contenedor de cuadrícula.
 
 ---
 
-Sets all columns for the grid layout to a fixed length.
+Establece todas las columnas del diseño de cuadrícula a una longitud fija.
 
 ---
 
-Creates a two column grid layout container.
+Crea un contenedor de diseño de cuadrícula de dos columnas.
 
 #### --answer--
 
-Defines the number of columns in a grid layout.
+Define el número de columnas en un diseño de cuadrícula.
 
 ### --question--
 
 #### --text--
 
-What does the `grid-template-rows` property do?
+¿Qué hace la propiedad `grid-template-rows`?
 
 #### --distractors--
 
-Specifies a grid item's size and location in a grid layout.
+Especifica el tamaño y la ubicación de un elemento de la cuadrícula en un diseño de cuadrícula.
 
 ---
 
-Creates a template for creating new grid rows.
+Crea una plantilla para crear nuevas filas de cuadrícula.
 
 ---
 
-Specifies a default row size in the grid container.
+Especifica un tamaño de fila predeterminado en el contenedor de cuadrícula.
 
 #### --answer--
 
-Specifies the number and height for each row in a grid layout.
+Especifica el número y la altura de cada fila en un diseño de cuadrícula.
 
 ### --question--
 
 #### --text--
 
-What does the `minmax()` function do?
+¿Qué hace la función `minmax()`?
 
 #### --distractors--
 
-Toggles between the first and second value, depending on available space.
+Alterna entre el primer y el segundo valor, dependiendo del espacio disponible.
 
 ---
 
-Returns the average of the two inputs.
+Devuelve el promedio de las dos entradas.
 
 ---
 
-Sets the minimal size of the element for browser working in full-screen mode.
+Establece el tamaño mínimo del elemento cuando el navegador está en modo pantalla completa.
 
 #### --answer--
 
-Sets the minimum and maximum sizes for a track.
+Establece los tamaños mínimos y máximos para una pista.
 
 ### --question--
 
 #### --text--
 
-What is the shorthand for the `column-gap` and `row-gap` properties?
+¿Cuál es la abreviatura para las propiedades `column-gap` y `row-gap`?
 
 #### --distractors--
 
@@ -149,29 +149,29 @@ What is the shorthand for the `column-gap` and `row-gap` properties?
 
 #### --text--
 
-What is the difference between an implicit and explicit grid?
+¿Cuál es la diferencia entre una cuadrícula implícita y una explícita?
 
 #### --distractors--
 
-Implicit grids use the `grid-template-columns` property while explicit grids use the `grid-template-rows` property.
+Las cuadrículas implícitas usan la propiedad `grid-template-columns` mientras que las cuadrículas explícitas usan la propiedad `grid-template-rows`.
 
 ---
 
-Explicit grids use the `grid-template-columns` property while implicit grids use the `grid-template-rows` property.
+Las cuadrículas explícitas usan la propiedad `grid-template-columns` mientras que las cuadrículas implícitas usan la propiedad `grid-template-rows`.
 
 ---
 
-Implicit grids use the `grid-template-columns` or `grid-template-rows` properties to create columns while rows and columns are automatically created in explicit grids.
+Las cuadrículas implícitas usan las propiedades `grid-template-columns` o `grid-template-rows` para crear columnas mientras que filas y columnas se crean automáticamente en cuadrículas explícitas.
 
 #### --answer--
 
-Explicit grids use the `grid-template-columns` or `grid-template-rows` properties to create columns while rows and columns are automatically created in implicit grids.
+Las cuadrículas explícitas utilizan las propiedades `grid-template-columns` o `grid-template-rows` para crear columnas mientras que filas y columnas se crean automáticamente en cuadrículas implícitas.
 
 ### --question--
 
 #### --text--
 
-Which of the following units represents a fraction of the space within the grid container?
+¿Cuál de las siguientes unidades representa una fracción del espacio dentro del contenedor de cuadrícula?
 
 #### --distractors--
 
@@ -193,51 +193,51 @@ Which of the following units represents a fraction of the space within the grid 
 
 #### --text--
 
-What are grid lines?
+¿Qué son las líneas de la cuadrícula?
 
 #### --distractors--
 
-Shorthand for rows and columns.
+Abreviatura para filas y columnas.
 
 ---
 
-Outlines of a grid element.
+Contornos de un elemento de cuadrícula.
 
 ---
 
-Lines along which grid columns and rows are created.
+Líneas a lo largo de las cuales se crean las columnas y filas de la cuadrícula.
 
 #### --answer--
 
-Lines on which each of the grid items begin and end.
+Líneas en las que comienza y termina cada uno de los elementos de la cuadrícula.
 
 ### --question--
 
 #### --text--
 
-What does the `grid-column` property do?
+¿Qué hace la propiedad `grid-column`?
 
 #### --distractors--
 
-Adds a new grid element as a child of the element it's applied to.
+Agrega un nuevo elemento de cuadrícula como hijo del elemento al que se aplica.
 
 ---
 
-Aligns text in the grid item vertically.
+Alinea el texto en el elemento de la cuadrícula verticalmente.
 
 ---
 
-Sets two columns for a grid container.
+Establece dos columnas para un contenedor de cuadrícula.
 
 #### --answer--
 
-Tells the grid item on which grid line it should start and end at.
+Indica al elemento de la cuadrícula en qué línea de la cuadrícula debe comenzar y terminar.
 
 ### --question--
 
 #### --text--
 
-How do you create four columns of equal width?
+¿Cómo crear cuatro columnas de igual ancho?
 
 #### --distractors--
 
@@ -259,51 +259,51 @@ How do you create four columns of equal width?
 
 #### --text--
 
-What does the `grid-template-areas` property do?
+¿Qué hace la propiedad `grid-template-areas`?
 
 #### --distractors--
 
-It is used to specify where the item begins on a line in the grid container.
+Se utiliza para especificar dónde comienza un elemento en una línea en el contenedor de cuadrícula.
 
 ---
 
-It is used to create gaps between tracks in the container.
+Se utiliza para crear huecos entre las pistas en el contenedor.
 
 ---
 
-It is used to repeat sections in the track listing.
+Se utiliza para repetir secciones en la lista de pistas. 
 
 #### --answer--
 
-It is used to provide a name for the items you are going to position on the grid.
+Se utiliza para proporcionar un nombre a los elementos que vas a posicionar en la cuadrícula.
 
 ### --question--
 
 #### --text--
 
-What does the `grid-auto-flow` property do?
+¿Qué hace la propiedad `grid-auto-flow`?
 
 #### --distractors--
 
-Controls the order in which grid items are displayed.
+Controla el orden en el que se muestran los elementos de la cuadrícula.
 
 ---
 
-Adjusts the spacing between the grid elements.
+Ajusta el espaciado entre los elementos de la cuadrícula.
 
 ---
 
-Automatically adjusts the element to fit in the grid.
+Ajusta automáticamente el elemento para que encaje en la cuadrícula.
 
 #### --answer--
 
-Controls how auto-placed elements get inserted to the grid.
+Controla cómo se insertan los elementos colocados automáticamente en la cuadrícula.
 
 ### --question--
 
 #### --text--
 
-Which of the following is the correct way to use the `grid-template-areas` property?
+¿Cuál de las siguientes es la forma correcta de usar la propiedad `grid-template-areas`?
 
 #### --distractors--
 
@@ -368,7 +368,7 @@ Which of the following is the correct way to use the `grid-template-areas` prope
 
 #### --text--
 
-Which of the following is the correct way to work with the `grid-auto-flow` property?
+¿Cuál de las siguientes es la forma correcta de trabajar con la propiedad `grid-auto-flow`?
 
 #### --distractors--
 
@@ -418,7 +418,7 @@ Which of the following is the correct way to work with the `grid-auto-flow` prop
 
 #### --text--
 
-Which of the following is NOT a valid grid property?
+¿Cuál de las siguientes NO es una propiedad de cuadrícula válida?
 
 #### --distractors--
 
@@ -440,7 +440,7 @@ Which of the following is NOT a valid grid property?
 
 #### --text--
 
-Which of these properties can be used to center items inside a grid element?
+¿Cuáles de estas propiedades pueden usarse para centrar elementos dentro de un elemento de cuadrícula?
 
 #### --distractors--
 
@@ -462,7 +462,7 @@ Which of these properties can be used to center items inside a grid element?
 
 #### --text--
 
-Which of the following is a correct value to use with the `grid-auto-columns` property?
+¿Cuál de los siguientes es un valor correcto para usar con la propiedad `grid-auto-columns`?
 
 #### --distractors--
 
@@ -484,29 +484,29 @@ Which of the following is a correct value to use with the `grid-auto-columns` pr
 
 #### --text--
 
-What are grid tracks?
+¿Qué son las pistas de cuadrícula?
 
 #### --distractors--
 
-Shorthand for rows and columns.
+Abreviatura para filas y columnas.
 
 ---
 
-Lines along which you can animate movement of the grid items.
+Líneas a lo largo de las cuales puedes animar el movimiento de los elementos de la cuadrícula.
 
 ---
 
-Lines on which each of the grid items begins and ends.
+Líneas en las que comienza y termina cada uno de los elementos de la cuadrícula.
 
 #### --answer--
 
-Spaces between two adjacent grid lines.
+Espacios entre dos líneas de cuadrícula adyacentes.
 
 ### --question--
 
 #### --text--
 
-Which of the following is the correct way to use the `minmax()` function?
+¿Cuál de las siguientes es la forma correcta de usar la función `minmax()`?
 
 #### --distractors--
 
@@ -554,51 +554,51 @@ Which of the following is the correct way to use the `minmax()` function?
 
 #### --text--
 
-How do you position a grid item within a layout defined by `grid-template-areas`?
+¿Cómo posicionar un elemento de cuadrícula dentro del diseño definido por `grid-template-areas`?
 
 #### --distractors--
 
-By directly defining the item's size and location within the grid using `grid-template-rows` and `grid-template-columns`.
+Definiendo directamente el tamaño y la ubicación del elemento dentro de la cuadrícula usando `grid-template-rows` y `grid-template-columns`.
 
 ---
 
-By using the `grid-area` property and specifying both row and column start and end positions.
+Usando la propiedad `grid-area` y especificando tanto el inicio como el final de las posiciones de fila y columna.
 
 ---
 
-By setting both `grid-area` and explicit pixel coordinates.
+Estableciendo tanto `grid-area` como coordenadas explícitas de píxeles.
 
 #### --answer--
 
-By assigning the named area to the item's `grid-area` property.
+Asignando el area nombrada a la propiedad `grid-area` del elemento.
 
 ### --question--
 
 #### --text--
 
-What does the `grid-auto-rows` property control?
+¿Qué controla la propiedad `grid-auto-rows`?
 
 #### --distractors--
 
-The height of explicitly defined rows.
+La altura de las filas definidas explícitamente.
 
 ---
 
-The maximum width of grid columns.
+El ancho máximo de las columnas de cuadrícula.
 
 ---
 
-The spacing between rows.
+El espaciado entre filas.
 
 #### --answer--
 
-The size of implicitly created rows.
+El tamaño de las filas creadas implícitamente.
 
 ### --question--
 
 #### --text--
 
-Which property would you use to make a grid item span multiple rows?
+¿Qué propiedad se usaría para hacer que un elemento de cuadrícula abarque varias filas?
 
 #### --distractors--
 
@@ -620,29 +620,29 @@ Which property would you use to make a grid item span multiple rows?
 
 #### --text--
 
-What defines an explicit grid?
+¿Qué define una cuadrícula explícita?
 
 #### --distractors--
 
-Tracks created automatically to fit content.
+Pistas creadas automáticamente para ajustarse al contenido.
 
 ---
 
-Tracks defined by the `fr` unit.
+Pistas definidas por la unidad `fr`.
 
 ---
 
-Tracks added with `grid-auto-flow`.
+Pistas añadidas con `grid-auto-flow`.
 
 #### --answer--
 
-Tracks explicitly set by `grid-template-columns` or `grid-template-rows`.
+Pistas establecidas explícitamente por `grid-template-columns` o `grid-template-rows`.
 
 ### --question--
 
 #### --text--
 
-Which value for `grid-auto-flow` would make new items fill columns first?
+¿Cuál valor para `grid-auto-flow` haría que los nuevos elementos llenen primero las columnas?
 
 #### --distractors--
 
@@ -664,29 +664,29 @@ Which value for `grid-auto-flow` would make new items fill columns first?
 
 #### --text--
 
-What is the purpose of `grid-template-areas`?
+¿Cuál es el propósito de `grid-template-areas`?
 
 #### --distractors--
 
-To auto-generate implicit tracks.
+Generar automáticamente pistas implícitas.
 
 ---
 
-To replace the `fr` unit.
+Reemplazar la unidad `fr`.
 
 ---
 
-To set `z-index` values.
+Establecer valores `z-index`.
 
 #### --answer--
 
-To visually map items to named grid areas.
+Mapear visualmente elementos a áreas de cuadrícula nombradas.
 
 ### --question--
 
 #### --text--
 
-How can you make a grid item start at column line 2 and end at column line 4?
+¿Cómo se puede hacer que un elemento de cuadrícula comience en la línea 2 de columna y termine en la línea 4 de columna?
 
 #### --distractors--
 
@@ -708,29 +708,29 @@ How can you make a grid item start at column line 2 and end at column line 4?
 
 #### --text--
 
-What is the effect of `grid-template-columns: 1fr 2fr 1fr`?
+¿Cuál es el efecto de `grid-template-columns: 1fr 2fr 1fr`?
 
 #### --distractors--
 
-Creates three equal-width columns.
+Crea tres columnas de igual ancho.
 
 ---
 
-Makes the middle column three times as wide as the others.
+Hace que la columna del medio tenga el triple de ancho que las otras.
 
 ---
 
-Forces all columns to be exactly `1fr` wide.
+Obliga a todas las columnas a tener exactamente `1fr` de ancho.
 
 #### --answer--
 
-Creates three columns where the middle is twice as wide as the sides.
+Crea tres columnas donde la del medio es el doble de ancha que los lados.
 
 ### --question--
 
 #### --text--
 
-How would you create a grid with 3 equal columns and a `20px` gap between them?
+¿Cómo crearías una cuadrícula con 3 columnas iguales y un espacio de `20px` entre ellas?
 
 #### --distractors--
 
@@ -773,73 +773,73 @@ How would you create a grid with 3 equal columns and a `20px` gap between them?
 
 #### --text--
 
-What does `repeat(3, minmax(100px, 1fr))` create?
+¿Qué crea `repeat(3, minmax(100px, 1fr))`?
 
 #### --distractors--
 
-Three columns that can't shrink below `100px`.
+Tres columnas que no pueden reducirse a menos de `100px`.
 
 ---
 
-Three fixed `100px` columns.
+Tres columnas fijas de `100px`.
 
 ---
 
-Three rows with maximum height of `1fr`.
+Tres filas con altura máxima de `1fr`.
 
 #### --answer--
 
-Three columns that grow proportionally but won't shrink below `100px`.
+Tres columnas que crecen proporcionalmente pero no se reducen a menos de `100px`.
 
 ### --question--
 
 #### --text--
 
-Which statement about implicit grids is true?
+¿Cuál afirmación sobre las cuadrículas implícitas es cierta?
 
 #### --distractors--
 
-Implicit grids ignore the `gap` property.
+Las cuadrículas implícitas ignoran la propiedad `gap`.
 
 ---
 
-Implicit tracks must be defined with `grid-template-areas`.
+Las pistas implícitas deben definirse con `grid-template-areas`.
 
 ---
 
-Implicit tracks can only be created using the `grid-auto-flow` property.
+Las pistas implícitas sólo se pueden crear usando la propiedad `grid-auto-flow`.
 
 #### --answer--
 
-Implicit tracks are created when content doesn't fit explicit tracks.
+Las pistas implícitas se crean cuando el contenido no se ajusta a las pistas explícitas.
 
 ### --question--
 
 #### --text--
 
-What does the `place-items` property do in CSS Grid?
+¿Qué hace la propiedad `place-items` en CSS Grid?
 
 #### --distractors--
 
-It sets the size of grid items automatically based on available space.
+Establece el tamaño de los elementos de cuadrícula automáticamente según el espacio disponible.
 
 ---
 
-It controls the grid template's column and row definitions.
+Controla las definiciones de columna y fila de la plantilla de cuadrícula.
 
 ---
 
-It adjusts the order of grid items within the container.
+Ajusta el orden de los elementos de la cuadrícula dentro del contenedor.
 
 #### --answer--
 
-It is a shorthand for aligning grid items in both the block and inline axes.
+Es una abreviatura para alinear los elementos de cuadrícula en ambos ejes, el de bloque y el en línea.
 
 ### --question--
 
 #### --text--
 
-What does this CSS accomplish?
+¿Qué logra este CSS?
 
 ```css
 .container {
@@ -849,69 +849,69 @@ What does this CSS accomplish?
 
 #### --distractors--
 
-Creates fixed `150px` columns that overflow the container.
+Crea columnas fijas de `150px` que desbordan el contenedor.
 
 ---
 
-Creates columns that are exactly `1fr` wide regardless of content.
+Crea columnas que son exactamente `1fr` de ancho independientemente del contenido.
 
 ---
 
-Creates a maximum of one column per `150px` of available width.
+Crea un máximo de una columna por cada `150px` de ancho disponible.
 
 #### --answer--
 
-Creates flexible columns that are at least `150px` and collapse when space is limited.
+Crea columnas flexibles que tienen al menos `150px` y se colapsan cuando el espacio es limitado.
 
 ### --question--
 
 #### --text--
 
-How can you create asymmetric grid layouts?
+¿Cómo se pueden crear diseños de cuadrícula asimétricos?
 
 #### --distractors--
 
-By using only `fr` units.
+Usando solo unidades `fr`.
 
 ---
 
-By mixing different length units in `grid-template-columns`.
+Mezclando diferentes unidades de longitud en `grid-template-columns`.
 
 ---
 
-By setting `grid-asymmetric: true`.
+Estableciendo `grid-asymmetric: true`.
 
 #### --answer--
 
-By defining different sizes for each track.
+Definiendo diferentes tamaños para cada pista.
 
 ### --question--
 
 #### --text--
 
-What does `grid-column-start: 2` do to a grid item?
+¿Qué hace `grid-column-start: 2` a un elemento de cuadrícula?
 
 #### --distractors--
 
-Makes it span 2 columns.
+Lo hace abarcar 2 columnas.
 
 ---
 
-Offsets it by 2 pixels.
+Lo desplaza 2 píxeles.
 
 ---
 
-Positions it starting at the second vertical grid line.
+Lo posiciona comenzando en la segunda línea vertical de la cuadrícula.
 
 #### --answer--
 
-Makes it start at the second column line.
+Lo hace comenzar en la segunda línea de columna.
 
 ### --question--
 
 #### --text--
 
-Which property would you use to control overflow behavior in grid tracks?
+¿Qué propiedad usaría para controlar el comportamiento de desbordamiento en las pistas de cuadrícula?
 
 #### --distractors--
 
@@ -933,7 +933,7 @@ Which property would you use to control overflow behavior in grid tracks?
 
 #### --text--
 
-What will be the result for the following code?
+¿Cuál será el resultado del siguiente código?
 
 ```css
 .container {
@@ -946,25 +946,25 @@ What will be the result for the following code?
 
 #### --distractors--
 
-The container will have three columns of equal width, and two rows with `150px` height each.
+El contenedor tendrá tres columnas de igual ancho y dos filas con `150px` de altura cada una.
 
 ---
 
-The container will have three columns, all with `100px` width, and two rows with `150px` height.
+El contenedor tendrá tres columnas, todas con `100px` de ancho, y dos filas con `150px` de altura.
 
 ---
 
-The container will have two rows, each with a height of `1fr`.
+El contenedor tendrá dos filas, cada una con una altura de `1fr`.
 
 #### --answer--
 
-The container will have three columns: 100px, `1fr` and `2fr` wide and two rows: one auto and one with `150px` height.
+El contenedor tendrá tres columnas: 100px, `1fr` y `2fr` de ancho y dos filas: una automática y otra con `150px` de altura.
 
 ### --question--
 
 #### --text--
 
-How would you make a grid item span all available rows?
+¿Cómo haría que un elemento de cuadrícula abarque todas las filas disponibles?
 
 #### --distractors--
 
@@ -986,7 +986,7 @@ How would you make a grid item span all available rows?
 
 #### --text--
 
-Which property controls the alignment of grid items along the block axis?
+¿Qué propiedad controla la alineación de los elementos de cuadrícula a lo largo del eje de bloque?
 
 #### --distractors--
 
@@ -1008,7 +1008,7 @@ Which property controls the alignment of grid items along the block axis?
 
 #### --text--
 
-How can you ensure a grid item stays in the first column regardless of grid changes?
+¿Cómo puede asegurarse de que un elemento de cuadrícula permanezca en la primera columna sin importar los cambios en la cuadrícula?
 
 #### --distractors--
 

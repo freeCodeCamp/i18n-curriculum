@@ -1,6 +1,6 @@
 ---
 id: 657fb5afeeba2de5d01dda0e
-title: Task 81
+title: Tarea 81
 challengeType: 19
 dashedName: task-81
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --description--
 
-Listen to the audio and answer the question below.
+Escucha el audio y responde a la pregunta de abajo.
 
 # --questions--
 
 ## --text--
 
-How does Tom respond to Sarah's invitation to the sci-fi convention?
+¿Cómo responde Tom a la invitación de Sarah para la convención de ciencia ficción?
 
 ## --answers--
 
-Accepts immediately.
+Acepta inmediatamente.
 
 ### --feedback--
 
-Tom does not accept the invitation. He mentions his lack of interest in sci-fi.
+Tom no acepta la invitación. Él menciona su falta de interés en la ciencia ficción.
 
 ---
 
-Declines politely.
+Rechaza cortésmente.
 
 ---
 
-Shows disinterest.
+Muestra desinterés.
 
 ### --feedback--
 
-While Tom expresses a lack of interest, his response is more about declining the invitation politely rather than just showing disinterest.
+Aunque Tom expresa falta de interés, su respuesta es más sobre declinar la invitación amablemente que simplemente mostrar desinterés.
 
 ---
 
-Ignores the invitation.
+Ignora la invitación.
 
 ### --feedback--
 
-Tom acknowledges the invitation and responds, so he does not ignore it.
+Tom reconoce la invitación y responde, por lo que no la ignora.
 
 ## --video-solution--
 

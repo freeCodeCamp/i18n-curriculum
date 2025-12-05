@@ -1,28 +1,28 @@
 ---
 id: 68f1196f0fedc6f6ecc9aba6
-title: Step 4
+title: Paso 4
 challengeType: 20
 dashedName: step-4
 ---
 
 # --description--
 
-In Python, a return type hint indicates the expected return type of a function or method. You do this by adding `-> return_type` after the parameter list in the method definition.
+En Python, una pista de tipo de retorno indica el tipo de retorno esperado de una función o método. Esto lo haces agregando `-> return_type` después de la lista de parámetros en la definición del método.
 
-Here is an example of a method with both parameter and return type hints whose return type is `bool`:
+Aquí tienes un ejemplo de un método con indicaciones de tipo tanto para el parámetro como para el valor de retorno cuyo tipo de retorno es `bool`:
 
 ```py
 def example_method(self, value: int) -> bool:
   pass
 ```
 
-Other return type hints you might use include `str`, `None`, `float` and more.
+Otros indicios de tipo de retorno que podrías usar incluyen `str`, `None`, `float` y más.
 
-In the existing `__init__` method, add a return type hint of `None` since constructors do not return a value.
+En el método existente `__init__`, agrega una pista de tipo de retorno de `None` ya que las estructuras no devuelven un valor.
 
 # --hints--
 
-Your `__init__` method should have a return type hint of `None`.
+Tu método `__init__` debe tener una indicación de tipo de retorno de `None`.
 
 ```js
 ({

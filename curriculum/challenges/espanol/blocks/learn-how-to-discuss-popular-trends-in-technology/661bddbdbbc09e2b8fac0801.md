@@ -16,9 +16,9 @@ Ejemplos:
 
 `We'll meet at the coffee shop.` (en esta oración, `at` se utiliza para especificar el lugar donde tendrá lugar la reunión - la cafetería).
 
-`I'll be waiting for you at the bus stop.` (`at` se utiliza aquí para indicar el lugar donde alguien estará esperando - la parada del autobús).
+`I'll be waiting for you at the bus stop.` (`at` se utiliza aquí para indicar el lugar donde alguien estará esperando - la parada del autobús). 
 
-Escucha la oración y llena el espacio en blanco.
+Escucha el audio y llena los espacios en blanco.
 
 # --fillInTheBlank--
 

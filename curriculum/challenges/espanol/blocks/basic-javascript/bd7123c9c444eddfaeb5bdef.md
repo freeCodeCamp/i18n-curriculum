@@ -1,6 +1,6 @@
 ---
 id: bd7123c9c444eddfaeb5bdef
-title: Declare String Variables
+title: Declara variables de cadena
 challengeType: 1
 forumTopicId: 17557
 dashedName: declare-string-variables
@@ -8,27 +8,27 @@ dashedName: declare-string-variables
 
 # --description--
 
-Previously you used the following code to declare a variable:
+Anteriormente utilizaste el siguiente código para declarar una variable:
 
 ```js
 var myName;
 ```
 
-But you can also declare a string variable like this:
+Pero también puedes declarar una variable de cadena como esta:
 
 ```js
 var myName = "your name";
 ```
 
-`"your name"` is called a <dfn>string</dfn> <dfn>literal</dfn>. A string literal, or string, is a series of zero or more characters enclosed in single or double quotes.
+`"your name"` es llamada una <dfn>cadena</dfn> <dfn>literal</dfn>. Una cadena literal o cadena es una serie de ceros o más caracteres encerrados en comillas simples o dobles.
 
 # --instructions--
 
-Create two new string variables: `myFirstName` and `myLastName` and assign them the values of your first and last name, respectively.
+Crea dos nuevas variables de cadena: `myFirstName` y `myLastName` y asígnales los valores de tu nombre y apellido, respectivamente.
 
 # --hints--
 
-`myFirstName` should be a string with at least one character in it.
+`myFirstName` debe ser una cadena con al menos un carácter en ella.
 
 ```js
 assert(
@@ -46,7 +46,7 @@ assert(
 );
 ```
 
-`myLastName` should be a string with at least one character in it.
+`myLastName` debe ser una cadena con al menos un carácter en ella.
 
 ```js
 assert(

@@ -10,7 +10,7 @@ lang: en-US
 
 # --description--
 
-Listen to the audio and complete the sentence below.
+Escucha el audio para completar la oración de abajo.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This adjective describes the relaxed nature of Sophie's Sunday morning.
+Este adjetivo describe la naturaleza relajada del domingo por la mañana de Sophie.
 
 ---
 
@@ -32,7 +32,7 @@ This adjective describes the relaxed nature of Sophie's Sunday morning.
 
 ### --feedback--
 
-This word indicates the time Sophie chooses to go to sleep on Sunday evening.
+Esta palabra indica la hora que Sophie elige para ir a dormir el domingo por la noche.
 
 # --scene--
 

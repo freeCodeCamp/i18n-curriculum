@@ -1,6 +1,6 @@
 ---
 id: 68c58aa8c9d2a2dfea45deb7
-title: Task 7
+title: Tarea 7
 challengeType: 19
 dashedName: task-7
 lang: es
@@ -10,17 +10,17 @@ lang: es
 
 # --description--
 
-Elena is saying goodbye, but she expects to see you again.
+Elena se está despidiendo, pero espera verte de nuevo.
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Escucha el audio y responde a la pregunta de abajo.
 
 # --questions--
 
 ## --text--
 
-What phrase does Elena use to say "see you later"?
+¿Qué frase usa Elena para decir "see you later"?
 
 ## --answers--
 
@@ -32,7 +32,7 @@ What phrase does Elena use to say "see you later"?
 
 ### --feedback--
 
-This is a goodbye, but it's more final. The speaker uses a different phrase.
+Esto es una despedida, pero es más definitiva. El hablante usa una frase diferente.
 
 ---
 
@@ -40,7 +40,7 @@ This is a goodbye, but it's more final. The speaker uses a different phrase.
 
 ### --feedback--
 
-This is also an informal way to say goodbye, but it's not the one in the audio.
+Esta también es una forma informal de decir adiós, pero no es la que aparece en el audio.
 
 ---
 
@@ -48,7 +48,7 @@ This is also an informal way to say goodbye, but it's not the one in the audio.
 
 ### --feedback--
 
-This means "Hi", a general greeting, but it's not what Elena says.
+Esto significa "Hi", un saludo general, pero no es lo que dice Elena.
 
 ## --video-solution--
 
@@ -56,11 +56,11 @@ This means "Hi", a general greeting, but it's not what Elena says.
 
 # --explanation--
 
-`Hasta luego` is a common way to say goodbye in Spanish. It translates to "See you later".
+`Hasta luego` es una forma común de decir adiós en español. Se traduce como "See you later".
 
-It's used when you expect to see the person again, but not necessarily soon. For example:
+Se usa cuando esperas ver a la persona de nuevo, pero no necesariamente pronto. Por ejemplo:  
 
-`Hasta luego, Marta.` – See you later, Marta.
+`Hasta luego, Marta.` – Hasta luego, Marta.
 
 # --scene--
 

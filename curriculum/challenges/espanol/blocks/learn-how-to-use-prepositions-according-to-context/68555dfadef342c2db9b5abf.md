@@ -24,7 +24,7 @@ Escucha el audio para completar la oración de abajo.
 
 ### --feedback--
 
-This two-word phrase means introduced or caused something to appear or become an issue. The first word is the past tense form of `bring`.
+Esta frase de dos palabras significa que se introdujo o causó que algo apareciera o se convirtiera en un problema. La primera palabra es la forma en pasado de `bring`.
 
 ---
 
@@ -32,17 +32,17 @@ This two-word phrase means introduced or caused something to appear or become an
 
 ### --feedback--
 
-This word means something happened that was not planned or predicted. Termina con `-ed`.
+Esta palabra significa que algo ocurrió que no fue planeado ni predicho. Termina con `-ed`.
 
 # --explanation--
 
-`Brought up` means caused something to appear, especially a problem or issue. Here, `brought` is the past tense form of `bring`. Por ejemplo:
+`Brought up` significa causar que algo aparezca, especialmente un problema o inconveniente. Aquí, `brought` es la forma en pasado de `bring`. Por ejemplo:
 
-`The new feature brought up several bugs.` – This means the feature caused the bugs to be noticed.
+`The new feature brought up several bugs.` – Esto significa que la característica hizo que se notaran los errores.
 
-`Unexpected` describes something that happens without warning or planning. Por ejemplo:
+`Unexpected` describe algo que sucede sin advertencia ni planificación. Por ejemplo:
 
-`We had an unexpected delay due to server issues.` – This means the delay was not anticipated.
+`We had an unexpected delay due to server issues.` – Esto significa que la demora no fue anticipada.
 
 # --scene--
 

@@ -7,7 +7,7 @@ dashedName: step-33
 
 # --description--
 
-Después del último elemento `img`, añade un elemento `figcaption` con el texto `Cats hate other cats.`
+Después del último elemento `img` añade un elemento `figcaption` con el texto `Cats hate other cats.`
 
 # --hints--
 
@@ -17,7 +17,7 @@ Tu elemento `figcaption` debe tener una etiqueta de apertura. Las etiquetas de a
 assert.lengthOf(document.querySelectorAll('figcaption'), 2);
 ```
 
-Tu elemento `figcaption` debe tener una etiqueta de cierre. Las etiquetas de cierre tienen un `/` justo después del carácter `<`.
+Tu elemento `figcaption` debe tener una etiqueta de cierre. Las etiquetas de cierre tiene una `/` después del carácter `<`.
 
 ```js
 assert.lengthOf(code.match(/<\/figcaption\>/g), 2);
@@ -44,7 +44,7 @@ Tu elemento `figure` debe tener una etiqueta de apertura. Las etiquetas de apert
 assert.lengthOf(document.querySelectorAll('figure'), 2);
 ```
 
-Tu elemento `figure` debe tener una etiqueta de cierre. Las etiquetas de cierre tienen un `/` justo después del carácter `<`.
+Tu elemento `figure` debe tener una etiqueta de cierre. Las etiquetas de cierre tiene una `/` después del carácter `<`.
 
 ```js
 assert.lengthOf(code.match(/<\/figure\>/g), 2);

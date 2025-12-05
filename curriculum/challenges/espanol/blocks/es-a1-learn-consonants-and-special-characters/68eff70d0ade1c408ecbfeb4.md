@@ -1,6 +1,6 @@
 ---
 id: 68eff70d0ade1c408ecbfeb4
-title: Task 6
+title: Tarea 6
 challengeType: 22
 dashedName: task-6
 lang: es
@@ -10,11 +10,11 @@ lang: es
 
 # --description--
 
-The letter `d` is called `de` (pronounced `deh`).
+La letra `d` se llama `de` (se pronuncia `deh`).
 
-At the beginning of a word or after `l` or `n`, its sound is stronger, like in the word `dos` ("two"). However, it's softer between vowels, like in the word `idea` ("idea").
+Al comienzo de una palabra o después de `l` o `n`, su sonido es más fuerte, como en la palabra `dos` ("two"). Sin embargo, es más suave entre vocales, como en la palabra `idea` ("idea").
 
-An example is `doctor` ("doctor").
+Un ejemplo es `doctor` ("doctor").
 
 # --fillInTheBlank--
 
@@ -28,7 +28,7 @@ An example is `doctor` ("doctor").
 
 ### --feedback--
 
-This is the fourth letter in the alphabet.
+Esta es la cuarta letra del alfabeto.
 
 # --scene--
 

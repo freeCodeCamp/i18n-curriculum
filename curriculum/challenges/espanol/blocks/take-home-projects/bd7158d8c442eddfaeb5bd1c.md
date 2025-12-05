@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c442eddfaeb5bd1c
-title: Build a Memory Light Game
+title: Construye un Juego de Memoria Ligero
 challengeType: 3
 forumTopicId: 302357
 dashedName: build-a-memory-light-game
@@ -8,27 +8,27 @@ dashedName: build-a-memory-light-game
 
 # --description--
 
-**Objective:** Crea una aplicación funcionalmente similar a esta: <a href="https://codepen.io/freeCodeCamp/full/obYBjE" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/obYBjE</a>.
+**Objetivo:** Construye una app que sea funcionalmente similar a esta: <a href="https://codepen.io/freeCodeCamp/full/obYBjE" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/obYBjE</a>.
 
 Completa las historias de los usuarios que están aquí abajo y haz que pasen todas las pruebas. Utiliza cualquier librería o API que necesites. Dale tu propio estilo.
 
-**User Story:** I am presented with a random series of button presses.
+**Historia de usuario:** Se me presenta una serie aleatoria de pulsaciones de botones.
 
-**User Story:** Each time I input a series of button presses correctly, I see the same series of button presses but with an additional step.
+**Historia de usuario:** Cada vez que ingreso correctamente una serie de pulsaciones de botones, veo la misma serie de pulsaciones pero con un paso adicional.
 
-**User Story:** I hear a sound that corresponds to each button both when the series of button presses plays, and when I personally press a button.
+**Historia de usuario:** Escucho un sonido que corresponde a cada botón tanto cuando se reproduce la serie de pulsaciones de botones, como cuando yo mismo presiono un botón.
 
-**User Story:** If I press the wrong button, I am notified that I have done so, and that series of button presses starts again to remind me of the pattern so I can try again.
+**Historia de usuario:** Si presiono el botón equivocado, se me notifica que lo hice, y esa serie de pulsaciones de botones comienza de nuevo para recordarme el patrón y así poder intentarlo otra vez.
 
-**User Story:** I can see how many steps are in the current series of button presses.
+**Historia de usuario:** Puedo ver cuántos pasos hay en la serie actual de pulsaciones de botones.
 
-**User Story:** If I want to restart, I can hit a button to do so, and the game will return to a single step.
+**Historia de usuario:** Si quiero reiniciar, puedo presionar un botón para hacerlo, y el juego volverá a un solo paso.
 
-**User Story:** I can play in strict mode where if I get a button press wrong, it notifies me that I have done so, and the game restarts at a new random series of button presses.
+**Historia de usuario:** Puedo jugar en modo estricto donde, si presiono un botón incorrecto, se me notifica que lo hice y el juego se reinicia con una nueva serie aleatoria de pulsaciones de botones.
 
-**User Story:** I can win the game by getting a series of 20 steps correct. I am notified of my victory, then the game starts over.
+**Historia de usuario:** Puedo ganar el juego acertando una serie de 20 pasos. Se me notifica mi victoria, luego el juego comienza de nuevo.
 
-**Hint:** Here are mp3s you can use for each button:
+**Consejo:** Aquí tienes mp3s que puedes usar para cada botón:
 
 - `https://cdn.freecodecamp.org/curriculum/take-home-projects/memory-light-game/sound-1.mp3`
 - `https://cdn.freecodecamp.org/curriculum/take-home-projects/memory-light-game/sound-2.mp3`
@@ -37,7 +37,7 @@ Completa las historias de los usuarios que están aquí abajo y haz que pasen to
 
 Cuando hayas terminado, incluye un enlace a tu proyecto en CodePen y haz clic en el botón "He completado este desafío".
 
-Puedes obtener opiniones de tu proyecto compartiéndolo en el <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">foro freeCodeCamp</a>.
+Puedes obtener retroalimentación sobre tu proyecto compartiéndolo en el <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">foro de freeCodeCamp</a>.
 
 # --solutions--
 

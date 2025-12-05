@@ -1,6 +1,6 @@
 ---
 id: 67d78c94b686ce3bddcaf8ab
-title: Task 117
+title: Tarea 117
 challengeType: 22
 dashedName: task-117
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Escucha el audio para completar la oración de abajo.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-These three words together mean to reduce the amount of time needed to complete a task.
+Estas tres palabras juntas significan reducir la cantidad de tiempo necesario para completar una tarea.  
 
 ---
 
@@ -32,17 +32,17 @@ These three words together mean to reduce the amount of time needed to complete 
 
 ### --feedback--
 
-This word in the plural form refers to schedules or deadlines for completing a project.
+Esta palabra en plural se refiere a cronogramas o fechas límite para completar un proyecto.  
 
 # --explanation--
 
-`Save us time` means to reduce the time required to complete something, making the process more efficient. For example:
+`Save us time` significa reducir el tiempo requerido para completar algo, haciendo el proceso más eficiente. Por ejemplo:
 
-`Using automation tools can save us time on repetitive tasks.` – This means automation tools help complete tasks faster.
+`Using automation tools can save us time on repetitive tasks.` – Esto significa que las herramientas de automatización ayudan a completar tareas más rápido.  
 
-`Timelines` refer to schedules or deadlines that show when different parts of a project should be completed. For example:
+`Timelines` se refieren a cronogramas o fechas límite que muestran cuándo deben completarse las diferentes partes de un proyecto. Por ejemplo:
 
-`We need to adjust our timelines to finish the project on schedule.` – This means changing the deadlines to ensure the project is completed on time.
+`We need to adjust our timelines to finish the project on schedule.` – Esto significa cambiar los plazos para asegurar que el proyecto se complete a tiempo.
 
 # --scene--
 

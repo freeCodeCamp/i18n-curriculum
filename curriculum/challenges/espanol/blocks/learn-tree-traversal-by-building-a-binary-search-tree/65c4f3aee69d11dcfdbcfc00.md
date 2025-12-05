@@ -7,18 +7,19 @@ dashedName: step-18
 
 # --description--
 
-Now, inside the `insert` method, you need to call the helper method `_insert()` that we defined earlier. Here, `_insert` has encapsulated the implementation of the insertion logic. This is useful for recursion and for keeping the implementation details hidden from the user.
+Ahora, dentro del método `insert`, necesitas llamar al método auxiliar `_insert()` que definimos anteriormente.  
+Aquí, `_insert` ha encapsulado la implementación de la lógica de inserción. Esto es útil para la recursión y para mantener los detalles de la implementación ocultos para el usuario.
 
-Delete `pass` and assign `self._insert(self.root, key)` to `self.root`.
+Elimina `pass` y asigna `self._insert(self.root, key)` a `self.root`.
 
-Note that:
+Ten en cuenta que:
 
-- `self.root` passes the root node of the tree as the first argument. This is the starting point for the insertion process.
-- `key`: passes the `key` value you want to insert as the second argument.
+- `self.root` pasa el nodo raíz del árbol como el primer argumento. Este es el punto de partida para el proceso de inserción.
+- `key`: pasa el valor de `key` que quieres insertar como el segundo argumento.
 
 # --hints--
 
-You should remove the `pass` keyword from the `insert` method.
+Debes eliminar la palabra clave `pass` del método `insert`.
 
 ```js
 ({
@@ -33,7 +34,7 @@ You should remove the `pass` keyword from the `insert` method.
 
 ```
 
-You should recursively call the `_insert()` method using `self._insert()`
+Debes llamar recursivamente al método `_insert()` usando `self._insert()`
 
 ```js
 ({ test: () =>
@@ -46,7 +47,7 @@ You should recursively call the `_insert()` method using `self._insert()`
 })
 ```
 
-You should pass `self.root` and `key` to your `_insert()` call.
+Debes pasar `self.root` y `key` a tu llamada a `_insert()`.
 
 ```js
 ({ test: () =>
@@ -59,7 +60,7 @@ You should pass `self.root` and `key` to your `_insert()` call.
 })
 ```
 
-You should assign the return value of your `_insert()` call to `self.root`.
+Debes asignar el valor de retorno de tu llamada a `_insert()` a `self.root`.
 
 ```js
 ({ test: () =>

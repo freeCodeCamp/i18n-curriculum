@@ -1,6 +1,6 @@
 ---
 id: 5900f4891000cf542c50ff9b
-title: 'Problem 284: Steady Squares'
+title: 'Problema 284: Cuadrados estables'
 challengeType: 1
 forumTopicId: 301935
 dashedName: problem-284-steady-squares
@@ -8,23 +8,23 @@ dashedName: problem-284-steady-squares
 
 # --description--
 
-The 3-digit number 376 in the decimal numbering system is an example of numbers with the special property that its square ends with the same digits: ${376}^2 = 141376$. Let's call a number with this property a steady square.
+El número 376 de 3 dígitos en el sistema de numeración decimal es un ejemplo de números con la propiedad especial que su cuadrado termina con los mismos dígitos: ${376}^2 = 141376$. Llamemos a un número con esta propiedad un cuadrado constante.
 
-Steady squares can also be observed in other numbering systems. In the base 14 numbering system, the 3-digit number $c37$ is also a steady square: $c37^2 = aa0c37$, and the sum of its digits is $c+3+7=18$ in the same numbering system. The letters $a$, $b$, $c$ and $d$ are used for the 10, 11, 12 and 13 digits respectively, in a manner similar to the hexadecimal numbering system.
+Los cuadrados constantes también se pueden observar en otros sistemas de numeración. En el sistema de numeración base 14, el número de 3 dígitos $c37$ también es un cuadrado constante: $c37^2=aa0c37, y la suma de sus dígitos es $c+3+7=18$ en el mismo sistema de numeración. Las letras $a$, $b$, $c$ y $d$ se utilizan para los 10, 11, 12 y 13 dígitos respectivamente, de una manera similar al sistema de numeración hexadecimal.
 
-For $1 ≤ n ≤ 9$, the sum of the digits of all the $n$-digit steady squares in the base 14 numbering system is $2d8$ (582 decimal). Steady squares with leading 0's are not allowed.
+Para $1 ► n ► 9$, la suma de los dígitos de todos los cuadrados constantes de $n$en el sistema base de numeración 14 es $2d8$ (582 decimal). No se permiten cuadrados estables con 0 iniciales.
 
-Find the sum of the digits of all the $n$-digit steady squares in the base 14 numbering system for $1 ≤ n ≤ 10000$ (decimal) and give your answer as a string in the base 14 system using lower case letters where necessary.
+Encuentra la suma de los dígitos de todos los cuadrados estables de dígitos $n$en el sistema de numeración base 14 para $1 n. 10000$ (decimal) y da tu respuesta como una cadena en el sistema base 14 con letras minúsculas cuando sea necesario.
 
 # --hints--
 
-`steadySquares()` should return a string.
+`steadySquares()` debería devolver una cadena.
 
 ```js
 assert.isString(steadySquares());
 ```
 
-`steadySquares()` should return the string `5a411d7b`.
+`steadySquares()` debería devolver la cadena `5a411d7b`.
 
 ```js
 assert.strictEqual(steadySquares(), '5a411d7b');

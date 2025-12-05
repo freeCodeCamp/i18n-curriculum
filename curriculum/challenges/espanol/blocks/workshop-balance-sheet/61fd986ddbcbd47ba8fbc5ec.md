@@ -7,7 +7,7 @@ dashedName: step-23
 
 # --description--
 
-Dentro del tercer `tr`, agrega un elemento `th` con el texto `Credit The outstanding balance on our credit card.`. Envuelve ese texto, excepto `Credit`, dentro de un elemento `span` con la `clase` configurada como `description`.
+Dentro del tercer `tr`, agrega un elemento `th` con el texto `Credit The outstanding balance on our credit card.`. Envuelve ese texto, excepto `Credit `, dentro de un elemento `span` con el `class` establecido en `description`.
 
 Agrega tres elementos `td` abajo y dales el siguiente texto, en orden: `$50`, `$50` y `$75`. Dé al tercer elemento `td` un `class` configurado a `current`.
 

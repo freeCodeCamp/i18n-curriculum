@@ -1,6 +1,6 @@
 ---
 id: 67dd5baa84d2fcc56c09dce3
-title: Task 15
+title: Tarea 15
 challengeType: 22
 dashedName: task-15
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Escucha el audio para completar la oración de abajo.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This means to make a choice or come to a conclusion about something.
+Esto significa tomar una decisión o llegar a una conclusión sobre algo.
 
 ---
 
@@ -32,17 +32,17 @@ This means to make a choice or come to a conclusion about something.
 
 ### --feedback--
 
-This refers to a specific stage or part of a process or project.
+Esto se refiere a una etapa o parte específica de un proceso o proyecto.
 
 # --explanation--
 
-`To decide` means to choose something after thinking about it. For example:
+`To decide` significa elegir algo después de pensarlo. Por ejemplo:
 
-`We need to decide which tools to use for the project.` – This means choosing the tools after considering the options.
+`We need to decide which tools to use for the project.` – Esto significa elegir las herramientas después de considerar las opciones.
 
-A `phase` refers to one part or step in a larger process. For example:
+Una `phase` se refiere a una parte o paso dentro de un proceso más grande. Por ejemplo:
 
-`We just finished the testing phase of the software.` – This means the testing step in the development process is complete.
+`We just finished the testing phase of the software.` – Esto significa que la etapa de pruebas en el proceso de desarrollo está completa.
 
 # --scene--
 

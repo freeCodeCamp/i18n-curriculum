@@ -1,6 +1,6 @@
 ---
 id: 5900f42f1000cf542c50ff41
-title: 'Problem 193: Squarefree Numbers'
+title: 'Problema 193: Números Squarefree'
 challengeType: 1
 forumTopicId: 301831
 dashedName: problem-193-squarefree-numbers
@@ -8,13 +8,13 @@ dashedName: problem-193-squarefree-numbers
 
 # --description--
 
-A positive integer $n$ is called squarefree, if no square of a prime divides $n$, thus 1, 2, 3, 5, 6, 7, 10, 11 are squarefree, but not 4, 8, 9, 12.
+Un entero positivo $n$ se llama squarefree, si ningún cuadrado de un primo divide a $n$, así 1, 2, 3, 5, 6, 7, 10, 11 son squarefree, pero no 4, 8, 9, 12.
 
-How many squarefree numbers are there below $2^{50}$?
+¿Cuántos números squarefree existen por debajo de $2^{50}$?
 
 # --hints--
 
-`squarefreeNumbers()` should return `684465067343069`.
+`squarefreeNumbers()` debe volver `684465067343069`.
 
 ```js
 assert.strictEqual(squarefreeNumbers(), 684465067343069);

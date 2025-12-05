@@ -1,97 +1,97 @@
 ---
 id: 66a97ca8c4cbae7d0bb6e0ad
-title: Step 29
+title: Paso 29
 challengeType: 0
 dashedName: step-29
 ---
 
 # --description--
 
-Inside your `select` element, add the following five `option` elements with these corresponding values for the `option` text and `value` attribute:
+Dentro de tu elemento `select`, añade los siguientes cinco elementos `option` con estos valores correspondientes para el texto `option` y el atributo `value`:
 
-**Value Attribute:**
+**Atributo Value:**
 
-- poor
-- satisfactory
-- good
-- very-good
-- excellent
+- pobre
+- satisfactorio
+- bueno
+- muy bueno
+- excelente
 
-**Option Text:**
+**Texto de la opción:**
 
-- Poor
-- Satisfactory
-- Good
-- Very Good
-- Excellent
+- Pobre
+- Satisfactorio
+- Bueno
+- Muy Bueno
+- Excelente
 
 
-Don't forget to add the `selected` attribute to the `option` element with the value of `"excellent"`.
+No olvides agregar el atributo `selected` al elemento `option` con el valor de `"excellent"`.
 
 # --hints--
 
-You should have an `option` element with the value set to `"poor"`.
+Deberías tener un elemento `option` con el valor configurado a `"poor"`.
 
 ```js
 assert.exists(document.querySelector('fieldset:nth-of-type(4) select#food option[value="poor"]'));
 ```
 
-Your `option` with the `value` of `"poor"` should have the text `"Poor"`.
+Tu `option` con el `value` de `"poor"` debería tener el texto `"Poor"`.
 
 ```js
 assert.strictEqual(document.querySelector('fieldset:nth-of-type(4) select#food option[value="poor"]')?.textContent.trim(), 'Poor');
 ```
 
-You should have an `option` element with the `value` set to `"satisfactory"`.
+Deberías tener un elemento `option` con el valor configurado a `"satisfactory"`.
 
 ```js
 assert.exists(document.querySelector('fieldset:nth-of-type(4) select#food option[value="satisfactory"]'));
 ```
 
-Your `option` with the `value` of `"satisfactory"` should have the text `"Satisfactory"`.
+Tu `option` con el `value` de `"satisfactory"` debería tener el texto `"Satisfactory"`.
 
 ```js
 assert.strictEqual(document.querySelector('fieldset:nth-of-type(4) select#food option[value="satisfactory"]')?.textContent.trim(), 'Satisfactory');
 ```
 
-You should have an `option` element with the `value` set to `"good"`.
+Deberías tener un elemento `option` con el valor configurado a `"good"`.
 
 ```js
 assert.exists(document.querySelector('fieldset:nth-of-type(4) select#food option[value="good"]'));
 ```
 
-Your `option` with the `value` of `"good"` should have the text `"Good"`.
+Tu `option` con el `value` de `"good"` debería tener el texto `"Good"`.
 
 ```js
 
 assert.strictEqual(document.querySelector('fieldset:nth-of-type(4) select#food option[value="good"]')?.textContent.trim(), 'Good');
 ```
 
-You should have an `option` element with the value set to `"very-good"`.
+Deberías tener un elemento `option` con el valor configurado a `"very-good"`.
 
 ```js
 assert.exists(document.querySelector('fieldset:nth-of-type(4) select#food option[value="very-good"]'));
 ```
 
-Your `option` with the `value` of `"very-good"` should have the text `"Very Good"`.
+Tu `option` con el `value` de `"very-good"` debería tener el texto `"Very Good"`.
 
 ```js
 assert.strictEqual(document.querySelector('fieldset:nth-of-type(4) select#food option[value="very-good"]')?.textContent.trim(), 'Very Good');
 ```
 
-You should have an `option` element with the value set to `"excellent"`.
+Deberías tener un elemento `option` con el valor configurado a `"excellent"`.
 
 ```js
 assert.exists(document.querySelector('fieldset:nth-of-type(4) select#food option[value="excellent"]'));
 ```
 
-Your `option` with the `value` of `"excellent"` should have the text `"Excellent"`.
+Tu `option` con el `value` de `"excellent"` debería tener el texto `"Excellent"`.
 
 ```js
 assert.strictEqual(document.querySelector('fieldset:nth-of-type(4) select#food option[value="excellent"]')?.textContent.trim(), 'Excellent');
 ```
 
-You should have an `option` element with the `selected` attribute set to `"excellent"`.
+Deberías tener un elemento `option` con el atributo `selected` establecido en `"excellent"`.
 
 ```js
 assert.exists(document.querySelector('fieldset:nth-of-type(4) select#food option[value="excellent"][selected]'));
@@ -159,7 +159,7 @@ assert.exists(document.querySelector('fieldset:nth-of-type(4) select#food option
             value="recommendation"
           />
           <label for="recommendation">Personal Recommendation</label>
-
+          
           <input type="checkbox" id="location" name="location" value="location" />
           <label for="location">Location</label>
 
@@ -171,7 +171,7 @@ assert.exists(document.querySelector('fieldset:nth-of-type(4) select#food option
             value="reputation"
           />
           <label for="reputation">Reputation</label>
-
+          
           <input type="checkbox" id="price" name="price" value="price" />
           <label for="price">Price</label>
         </fieldset>
@@ -193,7 +193,7 @@ assert.exists(document.querySelector('fieldset:nth-of-type(4) select#food option
 
           --fcc-editable-region--
           <select name="food" id="food">
-
+            
           </select>
           --fcc-editable-region--
         </fieldset>

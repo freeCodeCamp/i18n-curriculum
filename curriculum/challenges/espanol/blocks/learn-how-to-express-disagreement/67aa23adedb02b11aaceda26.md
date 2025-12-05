@@ -1,6 +1,6 @@
 ---
 id: 67aa23adedb02b11aaceda26
-title: Task 8
+title: Tarea 8
 challengeType: 19
 dashedName: task-8
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Escucha el audio y responde a la pregunta de abajo.
 
 # --questions--
 
 ## --text--
 
-What is more important, according to Anna?
+¿Qué es más importante, según Anna?
 
 ## --answers--
 
-Upgrading computers.
+Actualizando computadoras.
 
 ---
 
-Buying new office furniture.
+Comprar muebles nuevos para la oficina.
 
 ### --feedback--
 
-Anna acknowledges that furniture is important but says that many people mentioned needing something else.
+Anna reconoce que los muebles son importantes pero dice que muchas personas mencionaron necesitar algo más.
 
 ---
 
-Getting a bigger remote work stipend.
+Obteniendo un estipendio más grande para trabajo remoto.
 
 ### --feedback--
 
-Anna does not talk about increasing the stipend, only how people want to use it.
+Anna no habla sobre aumentar la beca, solo sobre cómo la gente quiere usarla.
 
 ---
 
-Changing the survey questions.
+Cambiando las preguntas de la encuesta.
 
 ### --feedback--
 
-Anna does not mention anything about the survey questions.
+Anna no menciona nada sobre las preguntas de la encuesta.
 
 ## --video-solution--
 
@@ -52,11 +52,11 @@ Anna does not mention anything about the survey questions.
 
 # --explanation--
 
-A `computer upgrade` means improving a computer by adding or replacing parts like more memory (RAM), a faster processor, or a better screen. For example:
+Una `computer upgrade` significa mejorar una computadora agregando o reemplazando partes como más memoria (RAM), un procesador más rápido o una mejor pantalla. Por ejemplo:
 
-- `I need a computer upgrade to run the latest software.` - The speaker's current computer is not powerful enough, so they need a better one.
+- `I need a computer upgrade to run the latest software.` - La computadora actual del hablante no es lo suficientemente potente, por lo que necesita una mejor.
 
-- `After the computer upgrade, everything runs much faster.` -  The system's performance improved after updating or replacing components.
+- `After the computer upgrade, everything runs much faster.` - El rendimiento del sistema mejoró después de actualizar o reemplazar componentes.
 
 # --scene--
 

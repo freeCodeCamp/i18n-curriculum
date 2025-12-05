@@ -1,6 +1,6 @@
 ---
 id: 65a74dae1b3acd9fad3a068e
-title: Task 132
+title: Tarea 132
 challengeType: 22
 dashedName: task-132
 lang: en-US

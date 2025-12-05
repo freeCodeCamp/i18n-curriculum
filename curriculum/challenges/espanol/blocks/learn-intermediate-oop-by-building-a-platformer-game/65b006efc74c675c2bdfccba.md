@@ -9,7 +9,7 @@ dashedName: step-33
 
 Para la última condición, necesitarás verificar si la posición del jugador `x` ha excedido el borde derecho del lienzo. Si es así, necesitarás establecer la posición del jugador `x` al valor máximo para que el jugador no se salga accidentalmente de la pantalla hacia la derecha.
 
-Dentro de tu método `update`, crea una declaración `if` que verifique si `this.position.x >= canvas.width - this.width * 2`.
+Dentro de tu método `update`, crea una estructura `if` que verifique si `this.position.x >= canvas.width - this.width * 2`. 
 
 # --hints--
 
@@ -20,7 +20,7 @@ const player = new Player();
 assert.lengthOf(player?.update?.toString().match(/if\s*\(\s*.*\s*\)\s*{/g), 4);
 ```
 
-Tu declaración `if` debería verificar si `this.position.x >= canvas.width - this.width * 2`.
+Tu sentencia `if` debería verificar si `this.position.x >= canvas.width - this.width * 2`.
 
 ```js
 const player = new Player();
@@ -197,7 +197,7 @@ class Player {
     ctx.fillStyle = "#99c9ff";
     ctx.fillRect(this.position.x, this.position.y, this.width, this.height);
   }
-
+  
   update() {
     this.draw();
     this.position.x += this.velocity.x;

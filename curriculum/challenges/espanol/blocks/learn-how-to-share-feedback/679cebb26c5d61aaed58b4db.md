@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Escucha el audio y responde a la pregunta a continuación.
+Escucha el audio y responde a la pregunta de abajo.
 
 # --questions--
 
 ## --text--
 
-What does James know about the issue with the latest update?
+¿Qué sabe James sobre el problema con la última actualización?
 
 ## --answers--
 
-He knows exactly what the issue is.
+Él sabe exactamente cuál es el problema.
 
 ### --feedback--
 
-James clearly says he didn't hear anything.
+James claramente dice que no escuchó nada.
 
 ---
 
-He doesn't know anything about it.
+Él no sabe nada al respecto.
 
 ---
 
-He already talked to the client.
+Él ya habló con el cliente.
 
 ### --feedback--
 
-James does not mention speaking to the client.
+James no menciona haber hablado con el cliente.
 
 ---
 
-He received an email about the issue.
+Recibiste un correo electrónico sobre el problema.
 
 ### --feedback--
 
-James states that he didn't hear anything.
+James afirma que no escuchó nada.
 
 ## --video-solution--
 
@@ -52,7 +52,7 @@ James states that he didn't hear anything.
 
 # --explanation--
 
-Short answers with auxiliary verbs repeat the auxiliary from the question to confirm or deny something. In this case, Maria asks, `Did you hear anything?`, and James responds, `No, I didn't.` instead of just saying `No.` Here are some other examples:
+Las respuestas cortas con verbos auxiliares repiten el auxiliar de la pregunta para confirmar o negar algo. En este caso, María pregunta, `Did you hear anything?`, y James responde, `No, I didn't.` en lugar de solo decir `No.` Aquí tienes algunos otros ejemplos: 
 
 - `Are you coming to the meeting?` → `Yes, I am.`
 
@@ -60,7 +60,7 @@ Short answers with auxiliary verbs repeat the auxiliary from the question to con
 
 - `Will she be here on time?` → `Yes, she will.`
 
-Short answers make responses sound natural and complete while avoiding repetition of the full sentence.
+Las respuestas cortas hacen que las respuestas suenen naturales y completas mientras evitan la repetición de la oración completa.
 
 # --scene--
 

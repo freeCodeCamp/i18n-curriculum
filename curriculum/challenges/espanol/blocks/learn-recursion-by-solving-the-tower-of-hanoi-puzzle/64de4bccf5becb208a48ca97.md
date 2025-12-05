@@ -7,17 +7,17 @@ dashedName: step-13
 
 # --description--
 
-In the Tower of Hanoi puzzle, you can identify the three rods according to their purpose:
+En el rompecabezas de la Torre de Hanoi, puedes identificar las tres varillas según su propósito:
 
-- The first rod is the source, where all the disks are stacked on top of each other at the beginning of the game.
-- The second rod is an auxiliary rod, and it helps in moving the disks to the target rod.
-- The third rod is the target, where all the disks should be placed in order at the end of the game.
+- La primera varilla es la fuente, donde todos los discos están apilados uno encima del otro al comienzo del juego.
+- La segunda varilla es una varilla auxiliar, y ayuda a mover los discos a la varilla objetivo.
+- La tercera varilla es el objetivo, donde todos los discos deben colocarse en orden al final del juego.
 
-Currently, the `move()` function does not take any parameters. Change the function declaration to take 4 parameters: `n`, `source`, `auxiliary`, and `target`. Then, pass `NUMBER_OF_DISKS` and the strings `'A'`, `'B'`, and `'C'` as arguments to your function call. The order matters.
+Actualmente, la función `move()` no recibe ningún parámetro. Cambia la declaración de la función para que reciba 4 parámetros: `n`, `source`, `auxiliary` y `target`. Luego, pasa `NUMBER_OF_DISKS` y las cadenas `'A'`, `'B'` y `'C'` como argumentos en la llamada a tu función. El orden importa.
 
 # --hints--
 
-Your `move()` function should have `n`, `source`, `auxiliary`, and `target` as the parameters. The order matters.
+Tu función `move()` debe tener `n`, `source`, `auxiliary` y `target` como parámetros. El orden importa.
 
 ```js
 ({ test: () => assert(runPython(`
@@ -27,7 +27,7 @@ Your `move()` function should have `n`, `source`, `auxiliary`, and `target` as t
 })
 ```
 
-You should pass `NUMBER_OF_DISKS` and the strings `'A'`, `'B'`, and `'C'` to `move()`. The order matters.
+Debes pasar `NUMBER_OF_DISKS` y las cadenas `'A'`, `'B'` y `'C'` a `move()`. El orden importa.
 
 ```js
 ({test: () => assert.match(code, /^move\(\s*NUMBER_OF_DISKS\s*,\s*('|")A\1\s*,\s*('|")B\2\s*,\s*('|")C\3\s*\)/m)

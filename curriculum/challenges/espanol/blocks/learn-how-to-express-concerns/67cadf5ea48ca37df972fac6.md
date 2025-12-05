@@ -10,51 +10,51 @@ lang: en-US
 
 # --instructions--
 
-Escucha el audio y responde a la pregunta a continuación.
+Escucha el audio y responde a la pregunta de abajo.  
 
 # --questions--
 
 ## --text--
 
-What does Maria mention as the most important request from the team?
+¿Qué menciona Maria como la solicitud más importante del equipo?  
 
 ## --answers--
 
-They need more help.
+Necesitan más ayuda.  
 
 ---
 
-They want a longer deadline.
+Quieren un plazo más largo.  
 
 ### --feedback--
 
-Maria does not mention extending the deadline.
+Maria no menciona extender el plazo.
 
 ---
 
-They would like to reduce the number of tasks.
+Quieren reducir el número de tareas.
 
 ### --feedback--
 
-Maria does not mention reducing the number of tasks.
+Maria no menciona reducir el número de tareas.  
 
 ---
 
-They are asking for more meetings.
+Están pidiendo más reuniones.  
 
 ### --feedback--
 
-Maria does not mention additional meetings.
+Maria no menciona reuniones adicionales.
 
 ## --video-solution--
 
-1
+1  
 
 # --explanation--
 
-`First` is used when you want to number actions in order of importance or time. In this case, Maria is listing what the team needs, starting with what seems to be the most important request (having more support). Another example:
+`First` se usa cuando quieres enumerar acciones en orden de importancia o tiempo. En este caso, Maria está listando lo que el equipo necesita, comenzando con lo que parece ser la solicitud más importante (tener más apoyo). Otro ejemplo:
 
-`First, we should analyze the problem. Then, we can discuss solutions.` - This means analyzing the problem comes before anything else.
+`First, we should analyze the problem. Then, we can discuss solutions.` - Esto significa que analizar el problema viene antes que cualquier otra cosa.
 
 # --scene--
 

@@ -1,6 +1,6 @@
 ---
 id: 587d7dae367417b2b2512b7c
-title: Use Prototype Properties to Reduce Duplicate Code
+title: Utiliza propiedades "prototype" para reducir código duplicado
 challengeType: 1
 forumTopicId: 301336
 dashedName: use-prototype-properties-to-reduce-duplicate-code
@@ -8,44 +8,44 @@ dashedName: use-prototype-properties-to-reduce-duplicate-code
 
 # --description--
 
-Since `numLegs` will probably have the same value for all instances of `Bird`, you essentially have a duplicated variable `numLegs` inside each `Bird` instance.
+Dado que `numLegs` probablemente tendrán el mismo valor para todas las instancias de `Bird`, esencialmente tienes una variable duplicada `numLegs` dentro de cada instancia de `Bird`.
 
-This may not be an issue when there are only two instances, but imagine if there are millions of instances. That would be a lot of duplicated variables.
+Esto puede que no sea un problema cuando sólo hay dos instancias, pero imagina si hay millones de instancias. Eso sería un montón de variables duplicadas.
 
-A better way is to use the `prototype` of `Bird`. Properties in the `prototype` are shared among ALL instances of `Bird`. Here's how to add `numLegs` to the `Bird prototype`:
+Una mejor forma es utilizar el `prototype` de `Bird`. Las propiedades del `prototype` se comparten entre TODAS las instancias de `Bird`. A continuación se explica cómo añadir `numLegs` al prototipo `Bird prototype`:
 
 ```js
 Bird.prototype.numLegs = 2;
 ```
 
-Now all instances of `Bird` have the `numLegs` property.
+Ahora todas las instancias de `Bird` tienen la propiedad `numLegs`.
 
 ```js
 console.log(duck.numLegs);
 console.log(canary.numLegs);
 ```
 
-Since all instances automatically have the properties on the `prototype`, think of a `prototype` as a "recipe" for creating objects. Note that the `prototype` for `duck` and `canary` is part of the `Bird` constructor as `Bird.prototype`.
+Dado que todas las instancias tienen automáticamente las propiedades en el `prototype`, piensa en `prototype` como una "receta" para crear objetos. Ten en cuenta que el `prototype` de `duck` y `canary` es parte del constructor `Bird` como `Bird.prototype`.
 
 # --instructions--
 
-Add a `numLegs` property to the `prototype` of `Dog`
+Añade una propiedad `numLegs` al `prototype` de `Dog`
 
 # --hints--
 
-`beagle` should have a `numLegs` property.
+`beagle` debe tener una propiedad `numLegs`.
 
 ```js
 assert(beagle.numLegs !== undefined);
 ```
 
-`beagle.numLegs` should be a number.
+`beagle.numLegs` debe ser un número.
 
 ```js
 assert(typeof beagle.numLegs === 'number');
 ```
 
-`numLegs` should be a `prototype` property not an own property.
+`numLegs` debe ser una propiedad `prototype`, no una propiedad directa.
 
 ```js
 assert(beagle.hasOwnProperty('numLegs') === false);

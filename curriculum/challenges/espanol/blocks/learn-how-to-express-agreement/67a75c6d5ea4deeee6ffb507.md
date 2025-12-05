@@ -1,6 +1,6 @@
 ---
 id: 67a75c6d5ea4deeee6ffb507
-title: Task 21
+title: Tarea 21
 challengeType: 19
 dashedName: task-21
 lang: en-US
@@ -10,55 +10,55 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Escucha el audio y responde a la pregunta de abajo.
 
 # --questions--
 
 ## --text--
 
-What does Linda offer to do?
+¿Qué ofrece hacer Linda?  
 
-## --answers--
+## --answers--  
 
-Prepare user scenarios for testing.
+Prepara escenarios de usuario para pruebas.  
 
----
+---  
 
-Skip the testing phase.
+Omite la fase de pruebas.  
 
-### --feedback--
+### --feedback--  
 
-Linda does not suggest skipping testing; she is actively contributing to it.
+Linda no sugiere saltarse las pruebas; ella está contribuyendo activamente a ellas.  
 
----
+---  
 
-Ask someone else to handle user testing.
+Pídele a otra persona que se encargue de las pruebas de usuario.  
 
-### --feedback--
+### --feedback--  
 
-Linda does not delegate the task to someone else.
+Linda no delega la tarea a otra persona.  
 
----
+---  
 
-Redesign the user interface from scratch.
+Rediseña la interfaz de usuario desde cero.  
 
-### --feedback--
+### --feedback--  
 
-Linda does not talk about redesigning the interface.
+Linda no habla sobre rediseñar la interfaz.  
 
-## --video-solution--
+## --video-solution--  
 
-1
+1  
 
-# --explanation--
+# --explanation--  
 
-Listen for key words that indicate what Linda is offering to do.
+Escucha las palabras clave que indican qué está ofreciendo hacer Linda.  
 
-`I can also` – This shows she is volunteering to contribute.
+`I can also` – Esto muestra que ella se está ofreciendo para contribuir.  
 
-`Prepare some user scenarios for testing` – This clearly states the task she is taking responsibility for.
+`Prepare some user scenarios for testing` – Esto indica claramente la tarea de la que ella se está haciendo responsable.  
 
-`Ensure a smooth user experience` – This explains why testing is important and reinforces her commitment to the project.
+`Ensure a smooth user experience` – Esto explica por qué las pruebas son importantes y refuerza su compromiso con el proyecto.  
 
 # --scene--
 

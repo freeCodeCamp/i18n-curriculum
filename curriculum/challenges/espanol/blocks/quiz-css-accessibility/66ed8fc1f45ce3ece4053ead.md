@@ -1,13 +1,13 @@
 ---
 id: 66ed8fc1f45ce3ece4053ead
-title: CSS Accessibility Quiz
+title: Cuestionario de Accesibilidad CSS
 challengeType: 8
 dashedName: quiz-css-accessibility
 ---
 
 # --description--
 
-To pass the quiz, you must correctly answer at least 9 of the 10 questions below.
+Para pasar el cuestionario, debe responder correctamente al menos 9 de las 10 preguntas a continuación.
 
 # --quizzes--
 
@@ -17,33 +17,33 @@ To pass the quiz, you must correctly answer at least 9 of the 10 questions below
 
 #### --text--
 
-Why do you need to have good color contrast on your webpage?
+¿Por qué necesita tener buen contraste de colores en su página web?
 
 #### --distractors--
 
-To make the page more vibrant.
+Para hacer que la página sea más vibrante.
 
 ---
 
-To meet requirements for search engine optimization (SEO).
+Para cumplir con los requisitos de la optimización para motores de búsqueda (SEO).
 
 ---
 
-To make important elements of the page stand out.
+Para hacer que los elementos importantes de la página se destaquen.
 
 #### --answer--
 
-To make the page content accessible and readable.
+Para que el contenido de la página sea accesible y legible.
 
 ### --question--
 
 #### --text--
 
-Which of the following tools allows you to enter background and foreground colors and check their contrast ratio?
+¿Cuál de las siguientes herramientas le permite ingresar colores de fondo y primer plano para verificar la relación de contraste?
 
 #### --distractors--
 
-TPGi Colour Contrast Analyzer
+TPGi Analizador de Contraste de Color
 
 ---
 
@@ -55,13 +55,13 @@ Canva
 
 #### --answer--
 
-WebAIM's Color Contrast Checker
+Comprobador de Contraste de Color de WebAIM
 
 ### --question--
 
 #### --text--
 
-Which of the following tools allows you to pick background and foreground colors from a live webpage and check for their contrast ratio?
+¿Cuál de las siguientes herramientas le permite seleccionar colores de fondo y primer plano de una página web en vivo y verificar su relación de contraste?
 
 #### --distractors--
 
@@ -73,61 +73,61 @@ Canva
 
 ---
 
-WebAIM's Color Contrast Checker
+Comprobador de Contraste de Color de WebAIM
 
 #### --answer--
 
-TPGi Colour Contrast Analyzer
+TPGi Analizador de Contraste de Color
 
 ### --question--
 
 #### --text--
 
-Why should you NOT use `display: none` and `visibility: hidden` to visually hide content?
+¿Por qué NO debe usar `display: none` y `visibility: hidden` para ocultar visualmente el contenido?
 
 #### --distractors--
 
-These methods make it so that only assistive technologies like screen readers can access the hidden content.
+Estos métodos hacen que solo las tecnologías asistivas como los lectores de pantalla puedan acceder al contenido oculto.
 
 ---
 
-These methods make it so that the content is only hidden until users move their mouse over the content.
+Estos métodos hacen que el contenido esté oculto solo hasta que los usuarios muevan el mouse sobre el contenido.
 
 ---
 
-These methods do not work with some browsers.
+Estos métodos no funcionan con algunos navegadores.
 
 #### --answer--
 
-These methods remove the content from the accessibility tree, making it impossible for screen readers to access the hidden content.
+Estos métodos eliminan el contenido del árbol de accesibilidad, lo que hace imposible que los lectores de pantalla accedan al contenido oculto.
 
 ### --question--
 
 #### --text--
 
-What is an accessibility tree?
+¿Qué es un árbol de accesibilidad?
 
 #### --distractors--
 
-A visual representation of the layout of a webpage.
+Una representación visual del diseño de una página web.
 
 ---
 
-A structure used by screen readers to read the text content of a webpage.
+Una estructura utilizada por los lectores de pantalla para leer el contenido de texto de una página web.
 
 ---
 
-A copy of the DOM tree.
+Una copia del árbol DOM.
 
 #### --answer--
 
-A structure used by screen readers to interpret and interact with the content on a webpage.
+Una estructura utilizada por los lectores de pantalla para interpretar e interactuar con el contenido de una página web.
 
 ### --question--
 
 #### --text--
 
-Which of the following ensures that an image has a minimum width of `400px`, but becomes wider when the viewport width is greater than `1000px`?
+¿Cuál de las siguientes asegura que una imagen tenga un ancho mínimo de `400px`, pero se haga más ancha cuando el ancho de la vista es mayor de `1000px`?
 
 #### --distractors--
 
@@ -165,7 +165,7 @@ img {
 
 #### --text--
 
-Which of the following `scroll-behavior` value allows a smooth scrolling behavior?
+¿Cuál de los siguientes valores de `scroll-behavior` permite un comportamiento de desplazamiento suave?
 
 #### --distractors--
 
@@ -187,7 +187,7 @@ Which of the following `scroll-behavior` value allows a smooth scrolling behavio
 
 #### --text--
 
-Which of the following features is used to detect the user's animation preference?
+¿Cuál de las siguientes características se utiliza para detectar la preferencia de animación del usuario?
 
 #### --distractors--
 
@@ -209,42 +209,42 @@ Which of the following features is used to detect the user's animation preferenc
 
 #### --text--
 
-Which of the following is an accessibility issue of the `placeholder` attribute in an `input` element?
+¿Cuál de los siguientes es un problema de accesibilidad del atributo `placeholder` en un elemento `input`?
 
 #### --distractors--
 
-Placeholder text prevents screen readers from reading the input label text.
+El texto del marcador de posición impide que los lectores de pantalla lean la etiqueta de entrada.
 
 ---
 
-Placeholder text prevents screen readers from reading the input value.
+El texto del marcador de posición impide que los lectores de pantalla lean el valor de entrada.
 
 ---
 
-Placeholder text is too small to be readable.
+El texto del marcador de posición es demasiado pequeño para ser legible.
 
 #### --answer--
 
-Placeholder text can be confused with an actual input value.
+El texto del marcador de posición puede confundirse con un valor de entrada real.
 
 ### --question--
 
 #### --text--
 
-What does the `hidden` attribute do?
+¿Qué hace el atributo `hidden`?
 
 #### --distractors--
 
-It hides content and reveals on hover.
+Oculta el contenido y lo revela al pasar el cursor.
 
 ---
 
-It hides content only from the accessibility tree.
+Oculta el contenido solo del árbol de accesibilidad.
 
 ---
 
-It hides content visually, but the content is available in the accessibility tree.
+Oculta el contenido visualmente, pero está disponible en el árbol de accesibilidad.
 
 #### --answer--
 
-It hides content both visually and from the accessibility tree.
+Oculta el contenido tanto visualmente como del árbol de accesibilidad.

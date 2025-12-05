@@ -7,7 +7,7 @@ dashedName: step-36
 
 # --description--
 
-Ahora es el momento de añadir otros detalles a los marcadores, comenzando con el primero.
+Ahora es el momento de añadir otros detalles a los marcadores, vamos con el primero.
 
 En el primer elemento de marcador `div`, cambia la clase `one` a `red`.
 

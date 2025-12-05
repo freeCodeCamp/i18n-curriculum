@@ -117,6 +117,8 @@ Resultado:
 for product in products.keys():
     print(product)
 
+# Or
+
 for product in products:
     print(product)
 ```
@@ -146,7 +148,7 @@ Resultado:
 ('Headphones', 70)
 ```
 
-Para armazenar a chave e o valor em variáveis de loop separadas, você precisa separá-las com uma vírgula.A primeira variável armazena a chave e a segunda armazena o valor.
+Para armazenar a chave e o valor em variáveis de loop separadas, você precisa separá-las com uma vírgula. A primeira variável armazena a chave e a segunda armazena o valor.
 
 ```python
 for product, price in products.items():
@@ -164,7 +166,7 @@ Headphones 70
 
 - **Função `enumerate()`**: Se você precisa iterar sobre um dicionário enquanto mantém o controle de um contador, pode chamar a função `enumerate()`. A função retorna um objeto `enumerate`, que atribui um inteiro a cada item, como um contador. Você pode iniciar o contador a partir de qualquer número, mas por padrão, ele começa em 0.
 
-Atribuir o índice e o item a variáveis de loop separadas é a forma comum de usar `enumerate()`.Por exemplo, com `products.items()`, você pode obter o par chave-valor inteiro além do índice:
+Atribuir o índice e o item a variáveis de loop separadas é a forma comum de usar `enumerate()`. Por exemplo, com `products.items()`, você pode obter o par chave-valor inteiro além do índice:
 
 ```python
 for index, product in enumerate(products.items()):
@@ -180,7 +182,7 @@ Resultado:
 3 ('Headphones', 70)
 ```
 
-Para personalizar o valor inicial do count, você pode passar um segundo argumento para o `enumerate()`.Por exemplo, aqui estamos começando a contagem a partir de 1.
+Para personalizar o valor inicial do count, você pode passar um segundo argumento para o `enumerate()`. Por exemplo, aqui estamos começando a contagem a partir de 1.
 
 ```python
 for index, product in enumerate(products.items(), 1):
@@ -334,7 +336,7 @@ m.sqrt(36)
 from module_name import name1, name2
 ```
 
-Então, você pode usar esses nomes sem o prefixo do módulo no seu script Python.Por exemplo:
+Então, você pode usar esses nomes sem o prefixo do módulo no seu script Python. Por exemplo:
 
 ```python
 from math import radians, sin, cos
@@ -349,7 +351,7 @@ print(sine_value) # 0.6427876096865393
 print(cos_value)  # 0.766044443118978
 ```
  
-Isso é útil, mas pode resultar em conflitos de nomes se você já tiver funções ou variáveis com o mesmo nome.Tenha isso em mente ao escolher qual tipo de declaração de importação você quer usar.
+Isso é útil, mas pode resultar em conflitos de nomes se você já tiver funções ou variáveis com o mesmo nome. Tenha isso em mente ao escolher qual tipo de declaração de importação você quer usar.
 
 Se você precisar atribuir aliases a esses nomes, também pode fazer isso usando a palavra-chave `as` seguida do alias.
 
@@ -363,7 +365,7 @@ from module_name import name1 as alias1, name2 as alias2
 from module_name import *
 ```
 
-Por exemplo, se você usar isso para importar o módulo `math`, poderá chamar qualquer função definida nesse módulo sem especificar o nome do módulo como prefixo.
+Por exemplo, se você usar isso para importar o módulo `math`, você poderá chamar qualquer função definida nesse módulo sem especificar o nome do módulo como prefixo.
 
 ```python
 from math import *
@@ -376,7 +378,7 @@ No entanto, isso geralmente é desencorajado porque pode levar a colisões de na
 
 - **Variável `__name__`**: `__name__` é uma variável interna especial no Python. Quando um arquivo Python é executado diretamente, o Python define o valor dessa variável para a string `"__main__"`. Mas se o arquivo Python for importado como um módulo em outro script Python, o valor da variável `__name__` é definido como o nome desse módulo.
 
-É por isso que você frequentemente encontrará essa condicional em scripts Python.Ele contém o código que você quer executar **somente** se o script Python estiver sendo executado como o programa principal.
+É por isso que você frequentemente encontrará essa condicional em scripts Python. Ele contém o código que você quer executar **somente** se o script Python estiver sendo executado como o programa principal.
 
 ```python
 if __name__ == '__main__': 

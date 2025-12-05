@@ -1,6 +1,6 @@
 ---
 id: 5f3ef6e0e0c3feaebcf647ad
-title: Step 43
+title: Paso 43
 challengeType: 0
 dashedName: step-43
 ---

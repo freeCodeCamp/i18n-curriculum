@@ -16,7 +16,7 @@ Este elemento principal contendría a todos los demás niveles de elementos anid
 
 Por ejemplo, varios elementos JSX escritos al mismo nivel sin elemento contenedor principal no se transpilarán.
 
-Aquí va un ejemplo:
+Aquí tienes un ejemplo:
 
 **JSX válido:**
 
@@ -42,7 +42,7 @@ Define una nueva constante `JSX` que renderice un `div` que contenga los siguien
 
 Un `h1`, un `p` y una lista desordenada que contiene tres elementos `li`. Puedes incluir cualquier texto que desees dentro de cada elemento.
 
-**Nota: ** Al renderizar varios elementos de esta forma, puedes envolverlos todos entre paréntesis, pero no es estrictamente necesario. Observa también que este desafío usa una etiqueta `div` para envolver a todos los elementos hijos dentro de un solo elemento principal. Si eliminas el `div`, JSX ya no se podrá transpilar. Ten esto en cuenta, ya que también será así cuando devuelvas elementos JSX en los componentes de React.
+<strong x-id = "1">Nota: </strong> Al renderizar varios elementos de esta forma, puedes envolverlos todos entre paréntesis, pero no es estrictamente necesario. Observa también que este desafío usa una etiqueta `div` para envolver a todos los elementos hijos dentro de un solo elemento principal. Si eliminas el `div`, JSX ya no se podrá transpilar. Ten esto en cuenta, ya que también será así cuando devuelvas elementos JSX en los componentes de React.
 
 # --hints--
 
@@ -58,7 +58,7 @@ El `div` debe contener una etiqueta `h1` como primer elemento.
 assert(JSX.props.children[0].type === 'h1');
 ```
 
-El `div` debe contener una etiqueta `p` como segundo elemento.
+El elemento `div` debe contener una etiqueta `p` como segundo elemento.
 
 ```js
 assert(JSX.props.children[1].type === 'p');

@@ -7,7 +7,7 @@ dashedName: step-31
 
 # --description--
 
-Dentro del elemento `figure` que acabas de agregar, anida un elemento `img` con un atributo `src` establecido en `https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg`.
+Dentro del elemento `figure` que acabas de añadir, anida un elemento `img` con un atributo `src` con el valor `https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg`.
 
 # --hints--
 
@@ -17,7 +17,7 @@ Tu segundo elemento `figure` debe tener una etiqueta de apertura. Las etiquetas 
 assert.isAtLeast(document.querySelectorAll('figure').length, 2);
 ```
 
-Tu segundo elemento `figure` debe tener una etiqueta de cierre. Las etiquetas de cierre tienen un `/` justo después del carácter `<`.
+Tu segundo elemento `figure` debe tener una etiqueta de cierre. Las etiquetas de cierre tiene una `/` después del carácter `<`.
 
 ```js
 assert.isAtLeast(code.match(/<\/figure>/g)?.length, 2);
@@ -88,7 +88,7 @@ assert.notMatch(code, /\<img\s+.+\s+src\s*=\s*https:\/\/cdn\.freecodecamp\.org\/
         </ol>
 --fcc-editable-region--
         <figure>
-
+          
         </figure>
 --fcc-editable-region--
       </section>

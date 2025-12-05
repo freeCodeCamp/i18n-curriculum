@@ -849,7 +849,7 @@ Ele altera a cor do texto para preto.
 
 #### --answer--
 
-Ele faz o elemento aparecer gradualmente aumentando sua transparência.
+Ele faz o elemento aparecer gradualmente diminuindo sua transparência.
 
 ### --question--
 

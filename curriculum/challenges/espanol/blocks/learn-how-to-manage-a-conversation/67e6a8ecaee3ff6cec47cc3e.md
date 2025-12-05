@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Escucha el audio y responde a la pregunta a continuación.
+Escucha el audio y responde a la pregunta de abajo.
 
 # --questions--
 
 ## --text--
 
-Why does Jessica want to explain the bug to the team quickly?
+¿Por qué Jessica quiere explicar el bug al equipo rápidamente?
 
 ## --answers--
 
-Because she wants to return to the main topic of the meeting.
+Porque ella quiere volver al tema principal de la reunión.
 
 ---
 
-Because she wants to leave the meeting early.
+Porque ella quiere salir temprano de la reunión.
 
 ### --feedback--
 
-Jessica doesn't mention leaving the meeting.
+Jessica no menciona salir de la reunión.
 
 ---
 
-Because the team already knows about the bug.
+Porque el equipo ya conoce el bug.
 
 ### --feedback--
 
-Jessica is explaining the bug because it might affect the team.
+Jessica está explicando el error porque podría afectar al equipo.
 
 ---
 
-Because she doesn't think the bug is important.
+Porque ella no piensa que el bug sea importante.
 
 ### --feedback--
 
-Jessica thinks the issue is important, but she also wants to respect the meeting agenda.
+Jessica piensa que el problema es importante, pero también quiere respetar la agenda de la reunión.
 
 ## --video-solution--
 
@@ -52,13 +52,13 @@ Jessica thinks the issue is important, but she also wants to respect the meeting
 
 # --explanation--
 
-`So we can` is used to show purpose — it means the next thing you mention is what you intend to do. It explains why someone is doing something. Por ejemplo:
+`So we can` se usa para mostrar propósito — significa que lo siguiente que mencionas es lo que intentas hacer. Explica por qué alguien está haciendo algo. Por ejemplo:
 
-`I'll finish this now so we can start the next task.` – This means the speaker wants to finish one thing to begin another soon.
+`I'll finish this now so we can start the next task.` – Esto significa que la persona quiere terminar una cosa para comenzar otra pronto.
 
-`The main agenda` refers to the primary topics or plan of a meeting or event. Por ejemplo:
+`The main agenda` se refiere a los temas principales o al plan de una reunión o evento. Por ejemplo:
 
-`Let's stick to the main agenda and avoid side discussions.` – This means to stay focused on the most important items in the meeting.
+`Let's stick to the main agenda and avoid side discussions.` – Esto significa mantenerse enfocado en los puntos más importantes de la reunión.
 
 # --scene--
 

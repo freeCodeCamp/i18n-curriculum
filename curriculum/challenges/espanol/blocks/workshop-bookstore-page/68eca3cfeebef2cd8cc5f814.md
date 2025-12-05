@@ -1,24 +1,24 @@
 ---
 id: 68eca3cfeebef2cd8cc5f814
-title: Step 11
+title: Paso 11
 challengeType: 0
 dashedName: step-11
 ---
 
 # --description--
 
-Add an `id` attribute to your second element having a class of `card` and set its value to `dave-cooking-book`. Remember that each `id` must be unique.
+Agrega un atributo `id` a tu segundo elemento que tenga una clase `card` y establece su valor en `dave-cooking-book`. Recuerda que cada `id` debe ser único.
 
 # --hints--
 
-Your second element having a class of `card` should have an `id` attribute.
+Tu segundo elemento que tenga una clase `card` debe tener un atributo `id`.
 
 ```js
 const cards = document.querySelectorAll('.card');
 assert.isTrue(cards[1]?.hasAttribute('id'));
 ```
 
-Your second element having a class of`card` should have an `id` with value of `dave-cooking-book`.
+Tu segundo elemento que tenga una clase `card` debe tener un `id` con el valor `dave-cooking-book`.
 
 ```js
 const cards = document.querySelectorAll('.card');

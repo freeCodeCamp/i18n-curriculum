@@ -1,6 +1,6 @@
 ---
 id: 67d3f4b1be72cc09bd3ac4be
-title: Task 4
+title: Tarea 4
 challengeType: 22
 dashedName: task-4
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Escucha el audio para completar la oración de abajo.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This modal verb expresses necessity or obligation.
+Este verbo modal expresa necesidad u obligación.
 
 ---
 
@@ -32,17 +32,17 @@ This modal verb expresses necessity or obligation.
 
 ### --feedback--
 
-This verb follows `must` to indicate an action that is required.
+Este verbo sigue a `must` para indicar una acción que es obligatoria.
 
 # --explanation--
 
-`Must` is a modal verb used to express necessity or obligation. For example:
+`Must` es un verbo modal usado para expresar necesidad u obligación. Por ejemplo:
 
-- `You must wear a seatbelt while driving.` - It is required.
+- `You must wear a seatbelt while driving.` - Es obligatorio.
 
-- `We must submit the report by Friday.` - It is necessary.
+- `We must submit the report by Friday.` - Es necesario.
 
-Modal verbs are always followed by the base form of the verb (without `to`).
+Los verbos modales siempre van seguidos de la forma base del verbo (sin `to`).
 
 # --scene--
 

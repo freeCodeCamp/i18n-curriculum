@@ -1,28 +1,28 @@
 ---
 id: 5dfa371beacea3f48c6300af
-title: Step 21
+title: Paso 21
 challengeType: 0
 dashedName: step-21
 ---
 
 # --description--
 
-When you add a lower-rank heading element to the page, it's implied that you're starting a new subsection.
+Cuando agregas un elemento de encabezado de menor rango a la página, se implica que estás comenzando una nueva subsección.
 
-After the last `h2` element of the second `section` element, add an `h3` element with this text:
+Después del último elemento `h2` del segundo elemento `section`, agrega un elemento `h3` con este texto:
 
 `Things cats love:`
 
 # --hints--
 
-The second `section` element appears to be missing or does not have both an opening and closing tag.
+Al segundo elemento `section` parece faltarle las etiquetas de apertura y cierre.
 
 ```js
 assert.exists(document.querySelectorAll('main > section')[1]);
 assert.lengthOf(code.match(/\<\/section>/g), 2);
 ```
 
-There should be an `h3` element right above the second `section` element's closing tag.
+Debe haber un elemento `h3` arriba de la etiqueta de cierre del segundo elemento `section`.
 
 ```js
 assert.equal(
@@ -31,13 +31,13 @@ assert.equal(
 );
 ```
 
-Your `h3` element should have a closing tag. Closing tags have a `/` just after the `<` character.
+Tu elemento `h3` debe tener una etiqueta de cierre. Las etiquetas de cierre tiene una `/` después del carácter `<`.
 
 ```js
 assert.lengthOf(code.match(/<\/h3>/g), 1);
 ```
 
-The `h3` element right above the second `section` element's closing tag should have the text `Things cats love:`. Make sure to include the colon at the end of the text.
+El elemento `h3` que está arriba de la etiqueta de cierre del segundo elemento `section` debe tener el texto `Things cats love:`. Asegúrate de incluir los dos puntos al final del texto.
 
 ```js
 assert.equal(
@@ -48,7 +48,7 @@ assert.equal(
 );
 ```
 
-There should be an `h2` element with the text `Cat Lists` above the last `h3` element that is nested in the last `section` element'. You may have accidentally deleted the `h2` element.
+Debe haber un elemento `h2` con el texto `Cat Lists` encima del elemento `h3` que está anidado en el último elemento `section`. Probablemente eliminaste el elemento `h2`.
 
 ```js
 const secondSectionLastElemNode = document.querySelectorAll('main > section')[1]
@@ -79,7 +79,7 @@ assert.equal(
 --fcc-editable-region--
       <section>
         <h2>Cat Lists</h2>
-
+        
       </section>
 --fcc-editable-region--
     </main>

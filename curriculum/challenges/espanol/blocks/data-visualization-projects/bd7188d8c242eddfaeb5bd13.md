@@ -8,7 +8,7 @@ dashedName: visualize-data-with-a-heat-map
 
 # --description--
 
-**Objective:** Build an app that is functionally similar to this: <a href="https://heat-map.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://heat-map.freecodecamp.rocks</a>.
+**Objetivo:** Construye una app que sea funcionalmente similar a esta: <a href="https://heat-map.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://heat-map.freecodecamp.rocks</a>.
 
 Completa las historias de los usuarios que están aquí abajo y haz que pasen todas las pruebas. Utiliza cualquier librería o API que necesites. Dale tu propio estilo.
 
@@ -48,11 +48,12 @@ Puedes utilizar HTML, JavaScript, CSS y la librería D3 de visualización basada
 
 **Historia de usuario #17:** Mi cuadro emergente debe tener una propiedad `data-year` que corresponda con el `data-year` del área activa.
 
-Aquí está el conjunto de datos que necesitarás para completar este proyecto: `https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/global-temperature.json`
+Aquí está el conjunto de datos que necesitarás para completar este proyecto:
+`https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/global-temperature.json`
 
-Puedes crear tu proyecto <a href='https://codepen.io/pen?template=MJjpwO' target="_blank" rel="noopener noreferrer nofollow"> usando esta plantilla, </a> y haciendo clic en `Save` para crear tu propio proyecto CodePen. O puedes utilizar este enlace CDN para ejecutar las pruebas en cualquier entorno que desees: `https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js`
+Puedes construir tu proyecto <a href='https://codepen.io/pen?template=MJjpwO' target="_blank" rel="noopener noreferrer nofollow">usando esta plantilla de CodePen</a> y haciendo clic en `Save` para crear tu propio pen. O puedes usar este enlace CDN para ejecutar las pruebas en cualquier entorno que prefieras: `https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js`
 
-Una vez que hayas terminado, envía la URL de tu proyecto funcional con todas las pruebas realizadas.
+Una vez que hayas terminado, envía la URL de tu proyecto funcional con todas las pruebas pasadas.
 
 # --solutions--
 

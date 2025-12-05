@@ -25,7 +25,7 @@ Tu función `pick` debe tener un bucle `while`.
 assert.match(pick.toString(), /while\s*\(/);
 ```
 
-Tu bucle `while` debe ejecutarse mientras `numbers.length < 10`.
+Tu ciclo `while` debe ejecutarse mientras `numbers.length < 10`.
 
 ```js
 assert.match(pick.toString(), /while\s*\(\s*numbers\.length\s*<\s*10\s*\)/);
@@ -386,7 +386,7 @@ function pickEight() {
 --fcc-editable-region--
 function pick(guess) {
   const numbers = [];
-
+  
 }
 --fcc-editable-region--
 ```

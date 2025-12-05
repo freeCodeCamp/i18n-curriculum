@@ -13,7 +13,7 @@ Para dividir números en JavaScript, usa el operador de división (`/`). Por eje
 const quotient = 5 / 2; // 2.5
 ```
 
-En el ejemplo anterior, `5` es el <dfn>dividendo</dfn>, o el número a dividir, y `2` es el <dfn>divisor</dfn>, o el número por el que se divide. El resultado, `2.5`, se llama <dfn>cociente</dfn>.
+En el ejemplo anterior, `5` es el <dfn>dividendo</dfn>, o el número a dividir, y `2` es el <dfn>divisor</dfn>, o el número por el que se divide. El resultado, `2.5`, se llama <dfn>cociente</dfn>. 
 
 Dentro de tu bucle `while`, crea una variable llamada `quotient` y asígnale el valor de `input` dividido por `2`.
 

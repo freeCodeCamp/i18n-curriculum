@@ -1,6 +1,6 @@
 ---
 id: 68249d79d4ddca45eff7fafd
-title: Task 144
+title: Tarea 144
 challengeType: 19
 dashedName: task-144
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Escucha el audio y responde a la pregunta de abajo.
 
 # --questions--
 
 ## --text--
 
-What does Jessica plan to do with the information?
+¿Qué planea hacer Jessica con la información?
 
 ## --answers--
 
-Ignore it for now and wait for more feedback.
+Ignóralo por ahora y espera más comentarios.
 
 ### --feedback--
 
-Jessica says she will organize the information and share it, not ignore it.
+Jessica dice que organizará la información y la compartirá, no la ignorará.
 
 ---
 
-Organize it into a report and discuss it with others.
+Organízalo en un informe y discútelo con otros.
 
 ---
 
-Ask users to test it again before making changes.
+Pide a los usuarios que lo prueben de nuevo antes de hacer cambios.
 
 ### --feedback--
 
-She does not mention anything about retesting or user feedback.
+Ella no menciona nada sobre volver a probar o la retroalimentación del usuario.
 
 ---
 
-Send it directly to the client without review.
+Envíalo directamente al cliente sin revisión.
 
 ### --feedback--
 
-Jessica plans to talk with her team first, not send it straight to a client.
+Jessica planea hablar primero con su equipo, no enviarlo directamente a un cliente.
 
 ## --video-solution--
 
@@ -52,9 +52,9 @@ Jessica plans to talk with her team first, not send it straight to a client.
 
 # --explanation--
 
-Jessica says she will `put all this information into a report` and `talk about it with the team tomorrow`. This shows she plans to organize the details and have a discussion with her team.
+Jessica dice que va a `put all this information into a report` y `talk about it with the team tomorrow`. Esto muestra que planea organizar los detalles y tener una discusión con su equipo.
 
-She also says the feedback `should help`, meaning it will guide their next steps.
+Ella también dice que la retroalimentación `should help`, lo que significa que guiará sus próximos pasos.
 
 # --scene--
 

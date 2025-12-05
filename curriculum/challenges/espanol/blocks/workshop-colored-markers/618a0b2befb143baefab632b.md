@@ -1,27 +1,27 @@
 ---
 id: 618a0b2befb143baefab632b
-title: Step 32
+title: Paso 32
 challengeType: 0
 dashedName: step-32
 ---
 
 # --description--
 
-Notice that the red and cyan colors are very bright right next to each other. This contrast can be distracting if it's overused on a website, and can make text hard to read if it's placed on a complementary-colored background.
+Obsérvese que los colores rojo y cian son muy brillantes uno al lado del otro. Si se hace un uso abusivo de este contraste, puede acabar distrayendo la atención, y además puede hacer un texto difícil de leer si está sobre un fondo con un color complementario.
 
-It's better practice to choose one color as the dominant color, and use its complementary color as an accent to bring attention to certain content on the page.
+Es mejor práctica elegir un color como color dominante y usar su color complementario como acento para llamar la atención sobre cierto contenido en la página.
 
-First, in the `h1` rule, use the `rgb` function to set its `background-color` to cyan.
+Primero, en la regla del `h1`, utiliza la función `rgb` para establecer su `background-color` a cian.
 
 # --hints--
 
-You should not remove or modify the `text-align` property or its value.
+No debes eliminar o modificar la propiedad `text-align` o su valor.
 
 ```js
 assert.strictEqual(new __helpers.CSSHelp(document).getStyle('h1')?.textAlign, 'center');
 ```
 
-Your `h1` CSS rule should have a `background-color` property set to `rgb(0, 255, 255)`.
+La regla CSS de `h1` debe tener una propiedad `background-color` configurada a `rgb(0, 255, 255)`.
 
 ```js
 assert.strictEqual(new __helpers.CSSHelp(document).getStyle('h1')?.backgroundColor, 'rgb(0, 255, 255)');

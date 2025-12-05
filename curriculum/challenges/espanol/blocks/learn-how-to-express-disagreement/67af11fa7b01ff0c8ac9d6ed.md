@@ -10,13 +10,13 @@ lang: en-US
 
 # --instructions--
 
-Read the text and answer the question below.
+Lee el texto y responde la pregunta a continuación.
 
 # --questions--
 
 ## --text--
 
-After reviewing the survey results for the remote work stipend, Bob decided to write an article:
+Después de revisar los resultados de la encuesta para el estipendio de trabajo remoto, Bob decidió escribir un artículo:
 
 `The Remote Work Stipend Debate: Comfort or Productivity?`
 
@@ -30,35 +30,35 @@ After reviewing the survey results for the remote work stipend, Bob decided to w
 
 `As remote work grows, companies need to support their workers in the best way possible. A well-equipped home office isn't just a nice extra — it's key to doing great work.`
 
-Why do some workers prefer to use the stipend for office furniture?
+¿Por qué algunos trabajadores prefieren usar el estipendio para muebles de oficina?
 
 ## --answers--
 
-Because they don't like working remotely.
+Porque no les gusta trabajar de forma remota.
 
 ### --feedback--
 
-The article does not suggest that these workers dislike remote work.
+El artículo no sugiere que a estos trabajadores no les guste el trabajo remoto.
 
 ---
 
-To improve comfort and prevent back pain.
+Para mejorar la comodidad y prevenir el dolor de espalda.
 
 ---
 
-To buy decorations for their home office.
+Para comprar decoraciones para su oficina en casa.
 
 ### --feedback--
 
-The article doesn't discuss furniture that improves decorations.
+El artículo no trata sobre muebles que mejoran las decoraciones.
 
 ---
 
-To impress their coworkers.
+Para impresionar a sus compañeros de trabajo.
 
 ### --feedback--
 
-The reason given in the article isn't appearances.
+La razón dada en el artículo no son las apariencias.
 
 ## --video-solution--
 
@@ -66,6 +66,6 @@ The reason given in the article isn't appearances.
 
 # --explanation--
 
-The article explains that `a bad chair and desk can cause health problems` and make it harder to focus. This is why some workers prioritize using the stipend for office furniture instead of technology.
+El artículo explica que `a bad chair and desk can cause health problems` y hace que sea más difícil concentrarse. Por eso algunos trabajadores priorizan usar el estipendio para muebles de oficina en lugar de tecnología.
 
-Focus on how the article highlights ergonomics and well-being as key reasons for choosing furniture over computers.
+Concéntrate en cómo el artículo destaca la ergonomía y el bienestar como razones clave para elegir muebles en lugar de computadoras.

@@ -1,6 +1,6 @@
 ---
 id: 6557dc1aa6be93c1eb4e9efb
-title: Task 29
+title: Tarea 29
 challengeType: 19
 dashedName: task-29
 lang: en-US
@@ -10,47 +10,47 @@ lang: en-US
 
 # --description--
 
-The word `if` means "whether or not". For example:
+La palabra `if` significa "si o no". Por ejemplo:
 
-`She checks her emails to see if there are any urgent updates.` - This means she is looking to find out whether updates exist.
+Ella revisa sus correos electrónicos para ver si hay actualizaciones urgentes.
 
-`If` can also be part of a conditional statement, which shows a possible situation and its result. For example:
+`If` también puede ser parte de una estructura condicional, que muestra una situación posible y su resultado. Por ejemplo:
 
-`If there are urgent updates, I will reply immediately.` - This means replying depends on the condition of having urgent updates.
+`If there are urgent updates, I will reply immediately.` - Esto significa que la respuesta depende de la condición de tener actualizaciones urgentes.
 
 # --questions--
 
 ## --text--
 
-What does Sarah imply by using `if` in her statement about checking emails and messages?
+¿Qué insinúa Sarah al usar `if` en su sentencia sobre revisar correos electrónicos y mensajes?
 
 ## --answers--
 
-She always finds urgent updates from her team.
+Ella siempre encuentra actualizaciones urgentes de su equipo.
 
 ### --feedback--
 
-`If` doesn't suggest certainty of finding urgent updates.
+`If` no sugiere certeza de encontrar actualizaciones urgentes.
 
 ---
 
-Sometimes there are urgent updates, sometimes not.
+A veces hay actualizaciones urgentes, a veces no.
 
 ---
 
-She never checks her emails and messages.
+Ella nunca revisa sus correos electrónicos y mensajes.
 
 ### --feedback--
 
-Sarah actually states that she does check her emails and messages.
+Sarah de hecho afirma que sí revisa sus correos electrónicos y mensajes.
 
 ---
 
-Checking emails is not part of her routine.
+Revisar correos electrónicos no forma parte de su rutina.
 
 ### --feedback--
 
-Sarah mentions that checking emails and messages is part of her routine.
+Sarah menciona que revisar correos electrónicos y mensajes es parte de su rutina.
 
 ## --video-solution--
 

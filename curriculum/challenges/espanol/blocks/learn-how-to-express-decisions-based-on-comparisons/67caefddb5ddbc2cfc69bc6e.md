@@ -24,13 +24,13 @@ Escucha el audio para completar la oración de abajo.
 
 ### --feedback--
 
-These three words together mean that SafeGuard prioritizes or pays more attention to security compared to other features.
+Estas tres palabras juntas significan que SafeGuard prioriza o presta más atención a la seguridad en comparación con otras características.
 
 # --explanation--
 
-`More focused on` is used to show what something or someone pays attention to the most. Por ejemplo:
+`More focused on` se usa para mostrar a qué presta más atención algo o alguien. Por ejemplo:
 
-`This software is more focused on performance than on design.` - This means the software is mainly built for good performance, not necessarily for an attractive design.
+`This software is more focused on performance than on design.` - Esto significa que el software está principalmente construido para un buen rendimiento, no necesariamente para un diseño atractivo.
 
 # --scene--
 

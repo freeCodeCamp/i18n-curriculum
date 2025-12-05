@@ -10,7 +10,7 @@ lang: en-US
 
 # --description--
 
-Escucha el audio para completar la oración de abajo.
+Escucha el audio para completar la oración.
 
 # --fillInTheBlank--
 

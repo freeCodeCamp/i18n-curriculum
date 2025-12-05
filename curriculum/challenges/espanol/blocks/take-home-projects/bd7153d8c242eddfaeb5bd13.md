@@ -8,31 +8,31 @@ dashedName: build-a-roguelike-dungeon-crawler-game
 
 # --description--
 
-**Objective:** Build an app that is functionally similar to this: <a href="https://codepen.io/freeCodeCamp/full/apLXEJ/" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/apLXEJ/</a>.
+**Objetivo:** Construye una app que sea funcionalmente similar a esta: <a href="https://codepen.io/freeCodeCamp/full/apLXEJ/" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/apLXEJ/</a>.
 
 Completa las historias de los usuarios que están aquí abajo y haz que pasen todas las pruebas. Utiliza cualquier librería o API que necesites. Dale tu propio estilo.
 
-**User Story:** I have health, a level, and a weapon. I can pick up a better weapon. I can pick up health items.
+**Historia de usuario:** Tengo salud, un nivel y un arma. Puedo recoger un arma mejor. Puedo recoger objetos de salud.
 
-**User Story:** All the items and enemies on the map are arranged at random.
+**Historia de usuario:** Todos los ítems y enemigos en el mapa están dispuestos al azar.
 
-**User Story:** I can move throughout a map, discovering items.
+**Historia de usuario:** Puedo moverme por un mapa, descubriendo items.
 
-**User Story:** I can move anywhere within the map's boundaries, but I can't move through an enemy until I've beaten it.
+**Historia de usuario:** Puedo moverme a cualquier lugar dentro de los límites del mapa, pero no puedo atravesar a un enemigo hasta que lo haya derrotado.
 
-**User Story:** Much of the map is hidden. When I take a step, all spaces that are within a certain number of spaces from me are revealed.
+**Historia de usuario:** Gran parte del mapa está oculta. Cuando doy un paso, se revelan todos los espacios que están dentro de un cierto número de espacios desde mí.
 
-**User Story:** When I beat an enemy, the enemy goes away and I get XP, which eventually increases my level.
+**Historia de usuario:** Cuando derroto a un enemigo, el enemigo se va y obtengo XP, lo que eventualmente aumenta mi nivel.
 
-**User Story:** When I fight an enemy, we take turns damaging each other until one of us loses. I do damage based off of my level and my weapon. The enemy does damage based off of its level. Damage is somewhat random within a range.
+**Historia de usuario:** Cuando lucho contra un enemigo, nos turnamos para dañarnos hasta que uno de los dos pierde. Yo hago daño basado en mi nivel y mi arma. El enemigo hace daño basado en su nivel. El daño es algo aleatorio dentro de un rango.
 
-**User Story:** When I find and beat the boss, I win.
+**Historia de usuario:** Cuando encuentro y derroto al jefe, gano.
 
-**User Story:** The game should be challenging, but theoretically winnable.
+**Historia de usuario:** El juego debe ser desafiante, pero teóricamente ganable.
 
 Cuando hayas terminado, incluye un enlace a tu proyecto en CodePen y haz clic en el botón "He completado este desafío".
 
-Puedes obtener opiniones de tu proyecto compartiéndolo en el <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">foro freeCodeCamp</a>.
+Puedes obtener retroalimentación sobre tu proyecto compartiéndolo en el <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">foro de freeCodeCamp</a>.
 
 # --solutions--
 

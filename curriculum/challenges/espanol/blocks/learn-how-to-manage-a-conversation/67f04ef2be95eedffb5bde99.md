@@ -1,6 +1,6 @@
 ---
 id: 67f04ef2be95eedffb5bde99
-title: Task 103
+title: Tarea 103
 challengeType: 22
 dashedName: task-103
 lang: en-US
@@ -24,13 +24,13 @@ Escucha el audio para completar la oración de abajo.
 
 ### --feedback--
 
-Followed by `down`, this means making something move or happen more slowly than normal. Usa la forma `-ing`.
+Seguido de `down`, esto significa hacer que algo se mueva o suceda más lentamente de lo normal. Usa la forma `-ing`.
 
 # --explanation--
 
-`To slow down` means to reduce speed or to make something happen more slowly. In work or project contexts, it can refer to anything that delays progress. Por ejemplo:
+`To slow down` significa reducir la velocidad o hacer que algo ocurra más despacio. En contextos de trabajo o proyectos, puede referirse a cualquier cosa que retrase el progreso. Por ejemplo:
 
-`Traffic is slowing down the delivery.` – This means the delivery is taking longer because of traffic.
+`Traffic is slowing down the delivery.` – Esto significa que la entrega está tomando más tiempo debido al tráfico.  
 
 # --scene--
 

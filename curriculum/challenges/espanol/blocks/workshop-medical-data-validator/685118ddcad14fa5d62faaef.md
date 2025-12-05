@@ -1,17 +1,17 @@
 ---
 id: 685118ddcad14fa5d62faaef
-title: Step 33
+title: Paso 33
 challengeType: 20
 dashedName: step-33
 ---
 
 # --description--
 
-Now add a key `diagnosis` to the `constraints` dictionary. For its value, write an expression that checks that `diagnosis` is either an instance of `str` or is `None`.
+Ahora agrega una clave `diagnosis` al diccionario `constraints`. Para su valor, escribe una expresión que verifique que `diagnosis` sea una instancia de `str` o sea `None`.
 
 # --hints--
 
-Your `constraints` dictionary should have a key `diagnosis`.
+Tu diccionario `constraints` debe tener una clave `diagnosis`.
 
 ```js
 ({ test: () => assert(runPython(`
@@ -21,7 +21,7 @@ _keys = [k.value for k in _ast_keys]
 `)) })
 ```
 
-The `diagnosis` key of your `constraints` dictionary should have the value of `isinstance(diagnosis, str) or diagnosis is None`.
+La clave `diagnosis` de tu diccionario `constraints` debe tener el valor de `isinstance(diagnosis, str) or diagnosis is None`.
 
 ```js
 ({ test: () => assert(runPython(`
@@ -97,7 +97,7 @@ def validate(data):
     if not is_sequence:
         print('Invalid format: expected a list or tuple.')
         return False
-
+        
     is_invalid = False
     key_set = set(
         ['patient_id', 'age', 'gender', 'diagnosis', 'medications', 'last_visit_id']

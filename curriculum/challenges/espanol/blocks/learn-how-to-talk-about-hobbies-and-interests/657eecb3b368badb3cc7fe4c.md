@@ -10,9 +10,9 @@ lang: en-US
 
 # --description--
 
-`At least` is used when you want to say the smallest amount or number of something is okay or enough. Es como decir "no menos de esta cantidad". For example:
+`At least` is used when you want to say the smallest amount or number of something is okay or enough. Es como decir "no menos de esta cantidad". Por ejemplo:
 
-`I study English for at least 30 minutes every day.` - This means you spend 30 minutes or more studying English daily, but never less than 30 minutes.
+`I study English for at least 30 minutes every day.` - Esto significa que dedicas 30 minutos o más a estudiar inglés diariamente, pero nunca menos de 30 minutos.
 
 # --fillInTheBlank--
 
@@ -26,7 +26,7 @@ lang: en-US
 
 ### --feedback--
 
-These two words form an expression indicating a minimum amount.
+Estas dos palabras forman una expresión que indica una cantidad mínima.
 
 # --scene--
 

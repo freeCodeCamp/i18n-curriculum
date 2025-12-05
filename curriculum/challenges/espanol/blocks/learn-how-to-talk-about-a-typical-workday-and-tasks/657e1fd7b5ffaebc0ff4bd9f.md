@@ -10,7 +10,7 @@ lang: en-US
 
 # --description--
 
-Escucha el audio y responde a la pregunta a continuación.
+Escucha el audio y responde a la pregunta de abajo.
 
 # --questions--
 
@@ -24,7 +24,7 @@ Por darle una app de gestión del tiempo.
 
 ### --feedback--
 
-Tom is thanking Sophie for tips, not for giving him an app.
+Tom le está agradeciendo a Sophie por los consejos, no por darle una app.
 
 ---
 
@@ -36,7 +36,7 @@ Por invitarlo a almorzar.
 
 ### --feedback--
 
-He is thanking her for the advice, not for a lunch invitation.
+Él le está agradeciendo por el consejo, no por una invitación a almorzar.
 
 ---
 

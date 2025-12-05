@@ -1,6 +1,6 @@
 ---
 id: 6821b0fc7feba25dfba3d6ae
-title: Task 105
+title: Tarea 105
 challengeType: 19
 dashedName: task-105
 lang: en-US
@@ -10,13 +10,13 @@ lang: en-US
 
 # --instructions--
 
-Read the text and answer the question below.
+Lee el texto y responde la pregunta a continuación.
 
 # --questions--
 
 ## --text--
 
-After receiving Alice's feedback and making improvements, Jake finalized his pitch like this:
+Después de recibir los comentarios de Alice y hacer mejoras, Jake finalizó su presentación así:
 
 `In today's fast-changing world, startups need a robust and secure way to protect their data. GuardianTech is not just helpful, it's an essential and critical solution for your digital environment.`
 
@@ -28,35 +28,35 @@ After receiving Alice's feedback and making improvements, Jake finalized his pit
 
 `In short, GuardianTech is a unique cybersecurity solution. It gives you everything you need — now and in the future — to stay protected, grow safely, and succeed.`
 
-Why is GuardianTech described as `cost-effective`?
+¿Por qué GuardianTech se describe como `cost-effective`?
 
 ## --answers--
 
-It is only available to large companies with big budgets.
+Está disponible solo para grandes empresas con presupuestos elevados.
 
 ### --feedback--
 
-Jake talks about startups, not big-budget corporations.
+Jake habla sobre startups, no sobre corporaciones con grandes presupuestos.
 
 ---
 
-It includes many free advertisements.
+Incluye muchos anuncios gratuitos.
 
 ### --feedback--
 
-The pitch doesn't mention marketing or ads.
+El pitch no menciona marketing ni anuncios.
 
 ---
 
-It provides strong protection without a high price.
+Proporciona una protección fuerte sin un precio alto.
 
 ---
 
-It replaces the need for customer support.
+Reemplaza la necesidad de soporte al cliente.
 
 ### --feedback--
 
-The text never says it replaces support.
+El texto nunca dice que reemplaza el soporte.
 
 ## --video-solution--
 
@@ -64,8 +64,8 @@ The text never says it replaces support.
 
 # --explanation--
 
-To find the answer, look at the sentence about GuardianTech being `cost-effective`.
+Para encontrar la respuesta, mira la oración sobre GuardianTech siendo `cost-effective`.
 
-The pitch explains it gives `high-quality protection without a big price tag`, which means strong value at low cost.
+La presentación explica que ofrece `high-quality protection without a big price tag`, lo que significa un gran valor a bajo costo.
 
-Look for the option that reflects this.
+Busca la opción que refleje esto.

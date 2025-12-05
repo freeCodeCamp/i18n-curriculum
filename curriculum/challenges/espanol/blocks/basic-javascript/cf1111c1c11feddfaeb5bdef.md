@@ -22,7 +22,7 @@ La sentencia condicional es evaluada al principio de cada iteración del bucle y
 
 La expresión final se ejecuta al final de cada iteración del bucle, antes de la siguiente comprobación de condición y se utiliza normalmente para incrementar o disminuir tu contador de bucle.
 
-En el siguiente ejemplo inicializamos con `i = 0` e iteramos mientras nuestra condición `i < 5` es verdadera. Incrementaremos `i` por `1` en cada iteración de bucle con `i++` como nuestra expresión final.
+En el siguiente ejemplo inicializamos con `i = 0` y iteramos mientras nuestra condición `i < 5` sea verdadera. Incrementaremos `i` en `1` en cada iteración del ciclo con `i++` como nuestra expresión final.
 
 ```js
 const ourArray = [];

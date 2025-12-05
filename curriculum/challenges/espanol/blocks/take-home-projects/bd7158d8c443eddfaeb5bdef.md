@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c443eddfaeb5bdef
-title: Build a Voting App
+title: Crea una Aplicación de Sufragio
 challengeType: 4
 forumTopicId: 302359
 dashedName: build-a-voting-app
@@ -8,27 +8,27 @@ dashedName: build-a-voting-app
 
 # --description--
 
-Build a full stack JavaScript app that is functionally similar to this: <a href="https://voting-app.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://voting-app.freecodecamp.rocks/</a>. Use a site builder of your choice to complete the project.
+Construye una aplicación JavaScript full stack que sea funcionalmente similar a esta: <a href="https://voting-app.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://voting-app.freecodecamp.rocks/</a>. Usa un creador de sitios de tu elección para completar el proyecto.
 
-Here are the specific user stories you should implement for this project:
+Estas son las historias de usuario específicas que debes implementar para este proyecto:
 
-**User Story:** As an authenticated user, you can keep my polls and come back later to access them.
+**Historia de usuario:** Como usuario autenticado, puedes guardar mis encuestas y volver más tarde para acceder a ellas.
 
-**User Story:** As an authenticated user, you can share my polls with my friends.
+**Historia de usuario:** Como usuario autenticado, puedes compartir mis encuestas con mis amigos.
 
-**User Story:** As an authenticated user, you can see the aggregate results of my polls.
+**Historia de usuario:** Como usuario autenticado, puedes ver los resultados agregados de mis encuestas.
 
-**User Story:** As an authenticated user, you can delete polls that I decide I don't want anymore.
+**Historia de usuario:** Como usuario autenticado, puedes eliminar encuestas que decida que ya no quiero.
 
-**User Story:** As an authenticated user, you can create a poll with any number of possible items.
+**Historia de usuario:** Como usuario autenticado, puedes crear una encuesta con cualquier número de ítems posibles.
 
-**User Story:** As an unauthenticated or authenticated user, you can see and vote on everyone's polls.
+**Historia de usuario:** Como usuario no autenticado o autenticado, puedes ver y votar en las encuestas de todos.
 
-**User Story:** As an unauthenticated or authenticated user, you can see the results of polls in chart form. (This could be implemented using Chart.js or Google Charts.)
+**Historia de usuario:** Como usuario no autenticado o autenticado, puedes ver los resultados de las encuestas en forma de gráfico. (Esto podría implementarse usando Chart.js o Google Charts.)
 
-**User Story:** As an authenticated user, if you don't like the options on a poll, you can create a new option.
+**Historia de usuario:** Como usuario autenticado, si no te gustan las opciones en una encuesta, puedes crear una nueva opción.
 
-When you are done, make sure a working demo of your project is hosted somewhere public. Then submit the URL to it in the Solution Link field. Optionally, also submit a link to your project's source code in the GitHub Link field.
+Cuando hayas terminado, asegúrate de que una demostración funcional de tu proyecto esté alojado en algún lugar público. Luego envíe la URL esto en el campo Enlace Solution. Opcionalmente, también envía un enlace al código fuente de tu proyecto en el campo de enlace GitHub.
 
 # --solutions--
 

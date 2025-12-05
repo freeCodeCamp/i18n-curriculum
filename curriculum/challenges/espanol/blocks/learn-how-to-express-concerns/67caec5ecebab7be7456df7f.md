@@ -1,6 +1,6 @@
 ---
 id: 67caec5ecebab7be7456df7f
-title: Task 130
+title: Tarea 130
 challengeType: 19
 dashedName: task-130
 lang: en-US
@@ -10,53 +10,53 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Escucha el audio y responde a la pregunta de abajo.  
 
 # --questions--
 
 ## --text--
 
-What other issue did the team raise?
+¿Qué otro problema planteó el equipo?
 
 ## --answers--
 
-That they receive updates too early.
+Que reciban actualizaciones demasiado pronto.
 
 ### --feedback--
 
-Maria mentions the exact opposite.
+María menciona exactamente lo contrario.
 
 ---
 
-That they don't want to communicate as much.
+Que no quieren comunicarse tanto.
 
 ### --feedback--
 
-Maria doesn't mention the team's willingness to communicate.
+Maria no menciona la disposición del equipo para comunicarse.  
 
 ---
 
-That they often don't hear about changes in time.
+Que a menudo no escuchan sobre los cambios a tiempo.
 
 ---
 
-That they think too many people are involved in communication.
+Que piensen que demasiadas personas están involucradas en la comunicación.
 
 ### --feedback--
 
-Maria does not mention the number of people involved.
+Maria no menciona el número de personas involucradas.
 
 ## --video-solution--
 
-3
+3  
 
 # --explanation--
 
-When you say something `isn't great`, you are softening a negative message (instead of saying `it is bad`, for instance). It makes criticism sound more polite or indirect. Take a look at the following sentences:
+Cuando dices que algo `isn't great`, estás suavizando un mensaje negativo (en lugar de decir `it is bad`, por ejemplo). Hace que la crítica suene más educada o indirecta. Echa un vistazo a las siguientes oraciones:
 
-- `The design is bad.` - This is a strong negative statement, which often sounds impolite.
+- `The design is bad.` - Esta es una afirmación negativa fuerte, que a menudo suena descortés.
 
-- `The design isn't great. Maybe we can improve it.` - Saying this sound less harsh and more constructive.
+- El diseño no es el mejor. Quizás podamos mejorarlo.
 
 # --scene--
 

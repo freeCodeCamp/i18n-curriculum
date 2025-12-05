@@ -1,6 +1,6 @@
 ---
 id: 67f36533ffaeffe3ac2dad2b
-title: Task 131
+title: Tarea 131
 challengeType: 19
 dashedName: task-131
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Escucha el audio y responde a la pregunta de abajo.
 
 # --questions--
 
 ## --text--
 
-What is Jessica explaining?
+¿Qué está explicando Jessica?
 
 ## --answers--
 
-There was a problem with the current update's schedule.
+Hubo un problema con el calendario de la actualización actual.
 
 ### --feedback--
 
-Jessica is talking about the feature's timing, not the schedule of the update itself.
+Jessica está hablando sobre el tiempo de la característica, no sobre el calendario de la actualización en sí.
 
 ---
 
-The budget tracking feature will be in the next update, not the current one.
+La función de seguimiento de presupuesto estará en la próxima actualización, no en la actual.
 
 ---
 
-The budget tracking feature has been removed from the current update.
+La función de seguimiento de presupuesto ha sido eliminada en la actualización actual.
 
 ### --feedback--
 
-Jessica doesn't mention that the feature has been removed.
+Jessica no menciona que la característica ha sido eliminada.
 
 ---
 
-The feature was mistakenly included in this update.
+La función fue incluida por error en esta actualización.
 
 ### --feedback--
 
-Jessica doesn't say the feature was mistakenly included.
+Jessica no dice que la función fue incluida por error.
 
 ## --video-solution--
 
@@ -52,9 +52,9 @@ Jessica doesn't say the feature was mistakenly included.
 
 # --explanation--
 
-Jessica says, `The budget tracking feature is planned for the next update`, explaining that the feature is not included in the current update but will be added in the next one.
+Jessica dice, `The budget tracking feature is planned for the next update`, explicando que la función no está incluida en la actualización actual pero se añadirá en la siguiente.
 
-This clears up the confusion about the feature's timing.
+Esto aclara la confusión sobre el momento de la función.
 
 # --scene--
 

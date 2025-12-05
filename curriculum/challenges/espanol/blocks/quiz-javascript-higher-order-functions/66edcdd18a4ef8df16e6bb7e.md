@@ -1,13 +1,13 @@
 ---
 id: 66edcdd18a4ef8df16e6bb7e
-title: JavaScript Higher Order Functions Quiz
+title: Quiz de Funciones de Orden Superior en JavaScript
 challengeType: 8
 dashedName: quiz-javascript-higher-order-functions
 ---
 
 # --description--
 
-To pass the quiz, you must correctly answer at least 18 of the 20 questions below.
+Para aprobar el cuestionario, debe responder correctamente al menos 18 de las 20 preguntas a continuación.
 
 # --quizzes--
 
@@ -17,51 +17,51 @@ To pass the quiz, you must correctly answer at least 18 of the 20 questions belo
 
 #### --text--
 
-Which of the following statements about JavaScript higher-order functions is NOT true?
+¿Cuál de las siguientes afirmaciones sobre las funciones de orden superior en JavaScript NO es verdad?
 
 #### --distractors--
 
-Higher-order functions can greatly enhance code readability and maintainability by enabling functional programming techniques.
+Las funciones de orden superior pueden mejorar significativamente la legibilidad y mantenibilidad del código al permitir técnicas de programación funcional.
 
 ---
 
-Higher-order functions like map, filter, and reduce are powerful tools for array manipulation, but they are not unique to functional programming.
+Las funciones de orden superior como map, filter y reduce son herramientas poderosas para manipulación de arrays, pero no son exclusivas de la programación funcional.
 
 ---
 
-Higher-order functions may introduce complexity in understanding code, but they can also lead to more expressive and concise solutions.
+Las funciones de orden superior pueden introducir complejidad al entender el código, pero también pueden conducir a soluciones más expresivas y concisas.
 
 #### --answer--
 
-All functions in JavaScript, including those that do not take or return other functions, can be classified as higher-order functions.
+Todas las funciones en JavaScript, incluidas las que no toman o devuelven otras funciones, pueden clasificarse como funciones de orden superior.
 
 ### --question--
 
 #### --text--
 
-What is a factory function in the context of higher order functions?
+¿Qué es una función de fábrica en el contexto de funciones de orden superior?
 
 #### --distractors--
 
-A function that creates new variables.
+Una función que crea nuevas variables.
 
 ---
 
-A function that only works with strings.
+Una función que solo funciona con cadenas.
 
 ---
 
-A function that automatically generates code comments.
+Una función que genera automáticamente comentarios en el código.
 
 #### --answer--
 
-A function that returns a new function based on specific parameters
+Una función que devuelve una nueva función basada en parámetros específicos
 
 ### --question--
 
 #### --text--
 
-After code execution, what will be the value of `forEachRes` and `mapRes`?
+Después de la ejecución del código, ¿cuál será el valor de `forEachRes` y `mapRes`?
 
 ```js
 const numbers = [1, 1, 1, 1, 1];
@@ -76,25 +76,25 @@ const mapRes = numbers.map(num => {
 
 #### --distractors--
 
-`forEachRes` is `undefined` and `mapRes` is `[1,2,3,4,5]`
+`forEachRes` es `undefined` y `mapRes` es `[1,2,3,4,5]`
 
 ---
 
-`forEachRes` is `0` and `mapRes` is `[1,2,3,4,5]`
+`forEachRes` es `0` y `mapRes` es `[1,2,3,4,5]`
 
 ---
 
-`forEachRes` is `5` and `mapRes` is `[1,2,3,4,5]`
+`forEachRes` es `5` y `mapRes` es `[1,2,3,4,5]`
 
 #### --answer--
 
-`forEachRes` is `undefined` and `mapRes` is `[6,7,8,9,10]`
+`forEachRes` es `undefined` y `mapRes` es `[6,7,8,9,10]`
 
 ### --question--
 
 #### --text--
 
-What is the result of this code?
+¿Cuál es el resultado de este código?
 
 ```js
 [, undefined, 'a', 'b', { 20: 5 }].sort();
@@ -102,11 +102,11 @@ What is the result of this code?
 
 #### --distractors--
 
-Unsupported elements for an array to be sorted, hence error.
+Elementos no compatibles para un array a ordenar, por lo tanto error.
 
 ---
 
-Callback not supplied, hence error.
+Callback no proporcionado, por lo tanto error.
 
 ---
 
@@ -124,95 +124,95 @@ Callback not supplied, hence error.
 
 #### --text--
 
-Which of the following describes a callback function in JavaScript?
+¿Cuál de los siguientes describe una función de callback en JavaScript?
 
 #### --distractors--
 
-A function that is called immediately upon declaration.
+Una función que se llama inmediatamente tras ser declarada.
 
 ---
 
-A function that is invoked with a specific context.
+Una función que se invoca con un contexto específico.
 
 ---
 
-A function that returns another function.
+Una función que devuelve otra función.
 
 #### --answer--
 
-A function passed as an argument to another function, to be executed by that function's logic.
+Una función pasada como argumento a otra función, para ser ejecutada por la lógica de esa función.
 
 ### --question--
 
 #### --text--
 
-What is the result of using `reduce()` on an array?
+¿Cuál es el resultado de usar `reduce()` en un array?
 
 #### --distractors--
 
-A boolean indicating whether any elements meet a condition.
+Un booleano que indica si algún elemento cumple una condición.
 
 ---
 
-An array with all elements reduced by specified callback function.
+Un arreglo con todos los elementos reducidos por la función callback especificada.
 
 ---
 
-An array of booleans.
+Un arreglo de booleanos.
 
 #### --answer--
 
-It varies depending on the accumulator's initial value and the callback function.
+Varía dependiendo del valor inicial del acumulador y la función de callback.
 
 ### --question--
 
 #### --text--
 
-How does the `sort()` method behave if no compare function is provided in numerical sorting?
+¿Cómo se comporta el método `sort()` si no se proporciona ninguna función de comparación en la clasificación numérica?
 
 #### --distractors--
 
-It fills the empty slots with `null`.
+Rellena los espacios vacíos con `null`.
 
 ---
 
-It returns an array of special characters.
+Devuelve un array de caracteres especiales.
 
 ---
 
-It sorts the array in reverse order.
+Ordena el array en orden inverso.
 
 #### --answer--
 
-It sorts the array as strings based on UTF-16 code units.
+Ordena el array como cadenas dentro de los códigos de unidad de UTF-16.
 
 ### --question--
 
 #### --text--
 
-What is the purpose of the `some()` method in JavaScript?
+¿Cuál es el propósito del método `some()` en JavaScript?
 
 #### --distractors--
 
-To create a new array with the results of a function applied to each element.
+Para crear un nuevo array con los resultados de una función aplicada a cada elemento.
 
 ---
 
-To iterate through an array without producing a result.
+Para iterar sobre un array sin producir un resultado.
 
 ---
 
-To reduce an array to a single value based on a callback function.
+Para reducir un array a un solo valor basado en una función de callback.
 
 #### --answer--
 
-To determine if any elements in an array pass a specified test.
+Para determinar si algún elemento en un array pasa una prueba especificada.
 
 ### --question--
 
 #### --text--
 
-Which of the following is a valid example of method chaining?
+¿Cuál de los siguientes es un ejemplo válido de método encadenado?
 
 #### --distractors--
 
@@ -242,7 +242,7 @@ str.toLowerCase().trim().replace(' ', '_');
 
 #### --text--
 
-What is the output of the following code?
+¿Cuál es la salida del siguiente código?
 
 ```js
 let numbers = [2, 4, 8, 10];
@@ -272,95 +272,95 @@ numbers.forEach(function(number) {
 
 #### --text--
 
-Which of the following is a benefit of method chaining?
+¿Cuál de los siguientes es un beneficio del encadenamiento de métodos?
 
 #### --distractors--
 
-It inherently optimizes performance by reducing the execution time of functions.
+Optimiza inherentemente el rendimiento al reducir el tiempo de ejecución de las funciones.
 
 ---
 
-It eliminates the need for temporary variables, but may increase memory usage in some cases.
+Elimina la necesidad de variables temporales, pero puede aumentar el uso de memoria en algunos casos.
 
 ---
 
-It allows for error handling and debugging to be more straightforward.
+Permite que la manipulación de errores y depuración sea más directa.
 
 #### --answer--
 
-It promotes simplified syntax and more readable code by allowing multiple operations in a single expression.
+Promueve una sintaxis simplificada y código más legible al permitir múltiples operaciones en una sola expresión.
 
 ### --question--
 
 #### --text--
 
-How can you sort an array of objects by a specific property using the `sort` method?
+¿Cómo puedes ordenar un array de objetos por una propiedad específica usando el método `sort`?
 
 #### --distractors--
 
-The `sort` method cannot sort objects.
+El método `sort` no puede ordenar objetos.
 
 ---
 
-Use the `reverse` method after sorting.
+Usa el método `reverse` después de ordenar.
 
 ---
 
-Convert the objects to strings and sort them.
+Convierte los objetos a cadenas y ordénalos.
 
 #### --answer--
 
-Use a compare function that compares the property values.
+Usa una función de comparación que compare los valores de las propiedades.
 
 ### --question--
 
 #### --text--
 
-In method chaining, what is a common practice to enhance clarity and debugging?
+En el encadenamiento de métodos, ¿cuál es una práctica común para mejorar la claridad y depuración?
 
 #### --distractors--
 
-Use fewer methods in the chain.
+Usa menos métodos en la cadena.
 
 ---
 
-Avoid chaining methods that return only primitive values.
+Evita encadenar métodos que devuelvan solo valores primitivos.
 
 ---
 
-Use only built-in methods.
+Usa solo métodos incorporados.
 
 #### --answer--
 
-Break long chains into multiple steps.
+Divide cadenas largas en múltiples pasos.
 
 ### --question--
 
 #### --text--
 
-What is a potential downside of using method chaining excessively in your code?
+¿Cuál es una posible desventaja de usar el encadenamiento de métodos en exceso en tu código?
 
 #### --distractors--
 
-It makes the code run slower.
+Hace que el código se ejecute más lentamente.
 
 ---
 
-It prevents the use of comments.
+Impide el uso de comentarios.
 
 ---
 
-It makes the file size larger.
+Aumenta el tamaño del archivo.
 
 #### --answer--
 
-It can make the code harder to debug.
+Puede hacer que el código sea más difícil de depurar.
 
 ### --question--
 
 #### --text--
 
-Which method would you use to determine if all elements in an array are strings?
+¿Qué método usarías para determinar si todos los elementos en un array son cadenas?
 
 #### --distractors--
 
@@ -382,7 +382,7 @@ Which method would you use to determine if all elements in an array are strings?
 
 #### --text--
 
-What will be the value of `originalArray` after the following code is run?
+¿Cuál será el valor de `originalArray` después de ejecutar el siguiente código?
 
 ```js
 const originalArray = [{ id: 1 }, { id: 2 }, { id: 3 }];
@@ -409,7 +409,7 @@ filteredArray[0].id = 4;
 
 #### --text--
 
-What will be the value of `shortWords` after the following code is run?
+¿Cuál será el valor de `shortWords` después de que se ejecute el siguiente código?
 
 ```js
 const words = ['apple', 'banana', 'pear', 'kiwi'];
@@ -436,64 +436,64 @@ const shortWords = words.filter(word => word.length <= 5);
 
 #### --text--
 
-What is the purpose of providing an initial value as an argument to the `reduce()` method?
+¿Cuál es el propósito de proporcionar un valor inicial como argumento al método `reduce()`?
 
 #### --distractors--
 
-To set the length of the array.
+Para establecer la longitud del array.
 
 ---
 
-To limit the number of iterations.
+Para limitar el número de iteraciones.
 
 ---
 
-To specify the return type of the function.
+Para especificar el tipo de retorno de la función.
 
 #### --answer--
 
-To define the starting value for the accumulator.
+Para definir el valor inicial para el acumulador.
 
 ### --question--
 
 #### --text--
 
-Can the `map` method be used on objects that are not arrays?
+¿Puede utilizarse el método `map` en objetos que no son arrays?
 
 #### --distractors--
 
-Yes, it can be used on any object.
+Sí, puede utilizarse en cualquier objeto.
 
 ---
 
-Yes, but only on objects with numeric properties.
+Sí, pero solo en objetos con propiedades numéricas.
 
 ---
 
-It depends on the JavaScript version.
+Depende de la versión de JavaScript.
 
 #### --answer--
 
-No, it is specifically designed for arrays.
+No, está específicamente diseñado para arrays.
 
 ### --question--
 
 #### --text--
 
-What is the primary purpose of the `map` method in JavaScript?
+¿Cuál es el propósito principal del método `map` en JavaScript?
 
 #### --distractors--
 
-To sort an array and return a new array while maintaining the original order.
+Para ordenar un array y devolver un nuevo array manteniendo el orden original. 
 
 ---
 
-To filter elements from an array and remove or add elements based on a condition.
+Para filtrar elementos de un array y eliminar o agregar elementos basados en una condición.
 
 ---
 
-To find a specific element in an array and return its index along with the element.
+Para encontrar un elemento específico en un array y devolver su índice junto con el elemento.
 
 #### --answer--
 
-To create a new array containing the results of calling a provided function on each element in the starting array.
+Para crear un nuevo array que contenga los resultados de llamar a una función proporcionada sobre cada elemento del array inicial.
