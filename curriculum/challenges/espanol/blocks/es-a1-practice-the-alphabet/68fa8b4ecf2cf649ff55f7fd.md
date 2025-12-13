@@ -65,8 +65,8 @@ La letra `x` es la segunda. Por lo tanto, `x` es la respuesta correcta.
         "character": "Julieta",
         "position": {
           "x": 50,
-          "y": 0,
-          "z": 1.4
+          "y": 18,
+          "z": 1.5
         },
         "opacity": 0
       }

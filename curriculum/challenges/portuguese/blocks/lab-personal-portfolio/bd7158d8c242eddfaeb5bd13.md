@@ -4,6 +4,7 @@ title: Crie um portfólio pessoal
 challengeType: 25
 dashedName: build-a-personal-portfolio
 demoType: onClick
+saveSubmissionToDB: true
 ---
 
 # --description--

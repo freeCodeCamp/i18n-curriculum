@@ -4,6 +4,7 @@ title: Construye una base de datos de cuerpos celestes
 challengeType: 13
 url: freeCodeCamp/learn-celestial-bodies-database
 dashedName: lab-celestial-bodies-database
+saveSubmissionToDB: true
 ---
 
 # --description--

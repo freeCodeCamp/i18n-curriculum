@@ -2,6 +2,7 @@
 id: bd7158d8c242eddfaeb5bd13
 title: Criar uma página de portfólio pessoal
 challengeType: 14
+saveSubmissionToDB: true
 forumTopicId: 301143
 dashedName: build-a-personal-portfolio-webpage
 ---
@@ -24,7 +25,7 @@ dashedName: build-a-personal-portfolio-webpage
 1. A altura da seção de boas-vindas deve ser igual à altura da viewport
 1. A barra de navegação deve estar sempre na parte superior da viewport
 
-Atenda às histórias de usuário e passe em todos os testes abaixo para concluir este projeto.Dê ao projeto o seu próprio estilo pessoal.Boa programação!
+Atenda às histórias de usuário e passe em todos os testes abaixo para concluir este projeto. Dê ao projeto o seu próprio estilo pessoal. Boa programação!
 
 **Nota:** Certifique-se de adicionar `<link rel="stylesheet" href="styles.css">` no seu HTML para vincular sua folha de estilo e aplicar seu CSS
 

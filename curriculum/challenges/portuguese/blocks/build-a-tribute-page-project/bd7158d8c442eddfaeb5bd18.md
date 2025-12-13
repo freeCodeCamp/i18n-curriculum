@@ -2,6 +2,7 @@
 id: bd7158d8c442eddfaeb5bd18
 title: Criar uma página de homenagem
 challengeType: 14
+saveSubmissionToDB: true
 forumTopicId: 301147
 dashedName: build-a-tribute-page
 ---
@@ -22,7 +23,7 @@ dashedName: build-a-tribute-page
 1. O elemento `#image` deve usar `max-width` e `height` para redimensionar de forma responsiva, em relação à largura de seu elemento pai, sem exceder seu tamanho original
 1. O elemento `img` deve ser centralizado dentro de seu elemento pai
 
-Atenda às histórias de usuário e passe em todos os testes abaixo para concluir este projeto.Dê ao projeto o seu próprio estilo pessoal.Boa programação!
+Atenda às histórias de usuário e passe em todos os testes abaixo para concluir este projeto. Dê ao projeto o seu próprio estilo pessoal. Boa programação!
 
 **Nota:** Certifique-se de adicionar `<link rel="stylesheet" href="styles.css">` no seu HTML para vincular sua folha de estilo e aplicar seu CSS
 

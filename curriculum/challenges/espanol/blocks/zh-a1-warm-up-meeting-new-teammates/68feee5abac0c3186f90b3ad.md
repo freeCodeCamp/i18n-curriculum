@@ -52,4 +52,52 @@ La inicial de la segunda sílaba es diferente de lo que escuchas en el audio.
 
 # --explanation--
 
-Wang Hua está diciendo `míng zi`. La primera sílaba usa una final nasal `ng` y tiene un tono ascendente. La segunda sílaba usa la inicial `z` y un tono neutral, pronunciado suavemente.
+Wang Hua está diciendo `míng zi`. La primera sílaba tiene una final nasal `ing` y un tono ascendente. La segunda sílaba es una sílaba completa con un tono neutral, pronunciada suavemente.
+
+# --scene--
+
+```json
+{
+  "setup": {
+    "background": "company1-breakroom.png",
+    "characters": [
+      {
+        "character": "Wang Hua",
+        "position": {
+          "x": 50,
+          "y": 15,
+          "z": 1.4
+        },
+        "opacity": 0
+      }
+    ],
+    "audio": {
+      "filename": "ZH_A1_warmup_vocabulary.mp3",
+      "startTime": 1,
+      "startTimestamp": 31.51,
+      "finishTimestamp": 32.34
+    }
+  },
+  "commands": [
+    {
+      "character": "Wang Hua",
+      "opacity": 1,
+      "startTime": 0
+    },
+    {
+      "character": "Wang Hua",
+      "startTime": 1,
+      "finishTime": 1.83,
+      "dialogue": {
+        "text": "名字 (míng zi)",
+        "align": "center"
+      }
+    },
+    {
+      "character": "Wang Hua",
+      "opacity": 0,
+      "startTime": 2.33
+    }
+  ]
+}
+```
