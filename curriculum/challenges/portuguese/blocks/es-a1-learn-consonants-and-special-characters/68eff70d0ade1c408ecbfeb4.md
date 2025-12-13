@@ -10,17 +10,21 @@ lang: es
 
 # --description--
 
-A letra `d` é chamada de `de` (pronunciada `deh`).
+A letra `d` é chamada de `de`.
 
 No início de uma palavra ou após `l` ou `n`, seu som é mais forte, como na palavra `dos` ("two"). No entanto, é mais suave entre vogais, como na palavra `idea` ("idea").
 
 Um exemplo é `doctor` ("doctor").
 
+# --instructions--
+
+Ouça o áudio e escreva a letra no espaço em branco abaixo.
+
 # --fillInTheBlank--
 
 ## --sentence--
 
-`Write the letter: BLANK`
+`BLANK`
 
 ## --blanks--
 
@@ -41,8 +45,8 @@ Esta é a quarta letra do alfabeto.
         "character": "Julieta",
         "position": {
           "x": 50,
-          "y": 0,
-          "z": 1.4
+          "y": 18,
+          "z": 1.5
         },
         "opacity": 0
       }

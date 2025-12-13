@@ -1,8 +1,8 @@
 ---
 id: 69032acee355bfd2ac9aaa8b
-title: Tarea 16
+title: Tarea 13
 challengeType: 24
-dashedName: task-16
+dashedName: task-13
 lang: zh-CN
 ---
 
@@ -27,4 +27,4 @@ EscritoPronunciado como
 
 # --assignment--
 
-Escucha el audio y lee las sílabas de ejemplo.
+He leído esta regla de Pinyin.

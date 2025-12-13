@@ -2,6 +2,7 @@
 id: bd7158d8c442eddfaeb5bd18
 title: Construye una página de homenaje
 challengeType: 14
+saveSubmissionToDB: true
 forumTopicId: 301147
 dashedName: build-a-tribute-page
 ---

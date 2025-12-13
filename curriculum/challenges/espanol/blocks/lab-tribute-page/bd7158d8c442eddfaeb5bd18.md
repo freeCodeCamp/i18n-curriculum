@@ -4,6 +4,7 @@ title: Construye una página de homenaje
 challengeType: 25
 demoType: onClick
 dashedName: build-a-tribute-page
+saveSubmissionToDB: true
 ---
 
 # --description--

@@ -7,7 +7,7 @@ dashedName: step-53
 
 # --description--
 
-Ahora que `b()` ha ejecutado, quítala de la pila de llamadas. Luego, actualiza tu llamada de prueba a `a()` al siguiente: `"a(): returns 'freeCodeCamp ' + 'is awesome!'"`.
+Ahora que `b()` se ha ejecutado, elimínalo de la pila de llamadas. Luego, actualiza tu llamada simulada a `a()` de la siguiente manera: `'a(): returns "freeCodeCamp " + "is awesome!"'`.
 
 # --hints--
 
@@ -18,7 +18,7 @@ assert.lengthOf(callStack, 1);
 assert.isString(callStack[0]);
 ```
 
-La cadena en `callStack` debería ser la cadena `"a(): returns 'freeCodeCamp ' + 'is awesome!'"`.
+La cadena en `callStack` debe ser la cadena `'a(): returns "freeCodeCamp " + "is awesome!"'`.
 
 ```js
 assert.match(

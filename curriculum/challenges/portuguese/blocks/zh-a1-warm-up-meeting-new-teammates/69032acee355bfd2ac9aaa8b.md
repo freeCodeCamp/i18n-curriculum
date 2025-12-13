@@ -1,8 +1,8 @@
 ---
 id: 69032acee355bfd2ac9aaa8b
-title: Tarefa 16
+title: Tarefa 13
 challengeType: 24
-dashedName: task-16
+dashedName: task-13
 lang: zh-CN
 ---
 
@@ -18,7 +18,7 @@ Essa mudança de tom é um ajuste natural na fala para tornar a pronúncia mais 
 
 ### Exemplos
 
-| Written    | Pronounced as |
+EscritoPronunciado como
 |------------|----------------|
 | `bù néng`   | `bù néng`      |
 | `bù xiǎng`   | `bù xiǎng`      |
@@ -27,4 +27,4 @@ Essa mudança de tom é um ajuste natural na fala para tornar a pronúncia mais 
 
 # --assignment--
 
-Ouça o áudio e leia as sílabas de exemplo.
+Eu li esta regra de Pinyin.

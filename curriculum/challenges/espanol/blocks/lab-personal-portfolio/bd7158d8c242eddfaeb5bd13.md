@@ -4,6 +4,7 @@ title: Construir una cartera personal
 challengeType: 25
 dashedName: build-a-personal-portfolio
 demoType: onClick
+saveSubmissionToDB: true
 ---
 
 # --description--
