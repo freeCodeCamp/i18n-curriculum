@@ -7,15 +7,7 @@ dashedName: what-is-the-difference-between-content-box-and-border-box
 
 # --interactive--
 
-A propriedade `box-sizing` pode ser definida como `content-box` ou `border-box` para controlar como a largura e a altura dos elementos são calculadas. Aqui você pode ver a propriedade `box-sizing` e os dois valores possíveis: 
-
-```css
-box-sizing: content-box;
-```
-
-```css
-box-sizing: border-box;
-```
+A propriedade `box-sizing` pode ser definida como `content-box` ou `border-box` para controlar como a largura e a altura dos elementos são calculadas.
 
 Esta propriedade pode ser definida no seletor universal (`*`) para aplicar a todos os elementos do documento:
 
@@ -27,13 +19,16 @@ Esta propriedade pode ser definida no seletor universal (`*`) para aplicar a tod
 
 O valor da propriedade `box-sizing` é `content-box` por padrão, mas você pode escolher `border-box` se precisar. Exploraremos primeiro `content-box` e depois entraremos em `border-box`.
 
-Para entender como esses modelos funcionam, você precisa estar familiarizado com os quatro conceitos principais do modelo de caixa do CSS. Vamos revisá-los rapidamente. A área de conteúdo é o espaço ocupado pelo conteúdo do elemento. O padding é o espaço entre a área de conteúdo e a borda. A borda é o contorno que envolve a área de conteúdo e o padding. A margem é o espaço fora da borda que separa o elemento de outros elementos.
+Para entender como os modelos funcionam, você precisa estar familiarizado com os quatro conceitos principais do modelo de caixa CSS. Vamos revisá-los rapidamente.
 
-No modelo `content-box`, a largura e a altura que você define para um elemento determinam as dimensões da área de conteúdo mas não incluem o padding, border ou margin. Você deve usar `content-box` quando precisar ter controle preciso sobre as dimensões da área de conteúdo. Então, quando você define a largura e a altura de um elemento com as propriedades `width` e `height`, você está definindo apenas as dimensões da área de conteúdo. `width` é a largura do conteúdo, `height` é a altura do conteúdo. 
+- A área de conteúdo é o espaço ocupado pelo conteúdo do elemento.
+- O padding é o espaço entre a área de conteúdo e a borda.
+- A borda é o contorno que envolve a área de conteúdo e o padding.
+- A margem é o espaço fora da borda que separa o elemento de outros elementos.
 
-Para encontrar a largura total do elemento, o que você realmente verá na tela, você ainda precisará adicionar o padding esquerdo e direito e as bordas esquerda e direita. Então, a largura total é igual à largura total mais o padding left, mais o padding right, mais o border left, mais o border right. 
+No modelo `content-box`, a largura e a altura que você define para um elemento determinam as dimensões da área de conteúdo, mas não incluem o padding, border ou margin. Use `content-box` quando precisar de controle preciso sobre a área de conteúdo. Quando você define `width` e `height`, está definindo apenas o tamanho do próprio conteúdo.
 
-Da mesma forma, a altura total de um elemento pode ser encontrada somando a altura do conteúdo, o padding da borda superior e inferior e as bordas superior e inferior. Então, a altura total é igual à altura do conteúdo mais o padding top, mais o padding bottom, mais o border top, mais o border bottom. 
+Para encontrar a largura total do elemento, você precisará adicionar o padding esquerdo e direito e as bordas esquerda e direita. Da mesma forma, a altura total de um elemento pode ser encontrada adicionando a altura do conteúdo, o padding superior e inferior e as bordas superior e inferior.
 
 Por exemplo, aqui temos um seletor de tipo CSS para todos os elementos `div`. 
 
@@ -55,37 +50,13 @@ div {
 
 :::
 
-Neste caso, se `content-box` for usado a área de conteúdo terá uma largura de 300 pixels e uma altura de 200 pixels. No entanto, a largura total, o que você verá na tela, será o resultado da soma da largura da área de conteúdo, que é 300 pixels, mais o padding em ambos os lados (40 pixels) e as bordas em ambos os lados (8 pixels). 
+Neste caso, se `content-box` for usado a área de conteúdo será 300px por 200px. O tamanho total renderizado inclui padding e bordas — por exemplo, largura total = 300px (conteúdo) + 40px (padding) + 8px (bordas) = 348px; a altura total é calculada da mesma forma.
 
-Da mesma forma, a altura total será o resultado da soma da altura da área de conteúdo (200 pixels), mais o padding superior e inferior (40 pixels), mais as bordas superior e inferior (8 pixels).
+Ótimo — agora vamos explorar `border-box`. É diferente porque a largura e a altura que você define incluem o conteúdo do elemento, o padding e a borda (mas não a margem). Use `border-box` quando quiser que o tamanho total do elemento permaneça fixo mesmo se o padding ou as bordas mudarem — isso é frequentemente útil em layouts responsivos.
 
-Ótimo! Agora vamos explorar `border-box`. Eles são um pouco diferentes, com `border-box` a largura e a altura de um elemento incluem a área de conteúdo, o padding e a borda, mas não incluem a margem. Você deve usar `border-box` quando precisar manter um tamanho fixo do elemento independentemente das mudanças em padding ou bordas. Também é útil para design web responsivo, já que a área de conteúdo se ajustará automaticamente para caber nas dimensões.
+Com `border-box`, o padding e as bordas são incluídos dentro do tamanho especificado do elemento. O `width` e o `height` que você define se tornam as dimensões totais do elemento: conteúdo + padding + borda; as margens permanecem excluídas.
 
-O padding e a borda estão dentro da caixa, então quando você define as propriedades `width` e `height` de um elemento, você está realmente definindo a largura e a altura da parte interna da caixa. Aqui está nosso exemplo de `div` com as mesmas propriedades e valores que tínhamos antes: 
-
-:::interactive_editor
-
-```html
-<link rel="stylesheet" href="styles.css">
-<div></div>
-```
-
-```css
-div {
-  width: 300px;
-  height: 200px;
-  padding: 20px;
-  border: 4px solid black;
-}
-```
-
-:::
-
-Com `border-box` o valor da propriedade `width` será o resultado da soma da largura da área de conteúdo, do padding esquerdo e direito e da borda esquerda e direita. Então, a largura é igual à largura do conteúdo, mais o padding esquerdo, mais o padding direito, mais a borda esquerda, mais a borda direita.
-
-Da mesma forma, o valor da propriedade `height` é o resultado da soma da altura da área de conteúdo, do padding superior e inferior e da borda superior e inferior. A altura é igual à altura do conteúdo, mais o padding superior, mais o padding inferior, mais a borda superior, mais a borda inferior. A margem não está incluída na largura ou altura.
-
-Se você verificar o tamanho do `div` no navegador usando o `content-box` e o `border-box` você notará que há uma diferença muito importante. Aqui estão dois elementos `div` cada um com as mesmas dimensões mas valores diferentes de `box-sizing`:
+No exemplo a seguir, há dois elementos `div` com as mesmas dimensões mas valores diferentes de `box-sizing`. Observe como isso resulta em tamanhos totais diferentes quando visualizados no navegador:
 
 :::interactive_editor
 
