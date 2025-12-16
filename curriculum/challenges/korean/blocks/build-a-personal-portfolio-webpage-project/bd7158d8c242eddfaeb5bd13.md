@@ -2,6 +2,7 @@
 id: bd7158d8c242eddfaeb5bd13
 title: 개인 포트폴리오 웹페이지 만들기
 challengeType: 14
+saveSubmissionToDB: true
 forumTopicId: 301143
 dashedName: build-a-personal-portfolio-webpage
 ---

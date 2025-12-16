@@ -2,6 +2,7 @@
 id: bd7158d8c242eddfaeb5bd13
 title: Crea una pagina Web per il tuo Portfolio
 challengeType: 14
+saveSubmissionToDB: true
 forumTopicId: 301143
 dashedName: build-a-personal-portfolio-webpage
 ---
