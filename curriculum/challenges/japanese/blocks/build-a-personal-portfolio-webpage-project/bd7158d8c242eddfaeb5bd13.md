@@ -2,6 +2,7 @@
 id: bd7158d8c242eddfaeb5bd13
 title: 個人ポートフォリオのウェブページを作成する
 challengeType: 14
+saveSubmissionToDB: true
 forumTopicId: 301143
 dashedName: build-a-personal-portfolio-webpage
 ---
