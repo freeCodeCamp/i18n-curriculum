@@ -52,7 +52,7 @@ div {
 
 Neste caso, se `content-box` for usado a área de conteúdo será 300px por 200px. O tamanho total renderizado inclui padding e bordas — por exemplo, largura total = 300px (conteúdo) + 40px (padding) + 8px (bordas) = 348px; a altura total é calculada da mesma forma.
 
-Ótimo — agora vamos explorar `border-box`. É diferente porque a largura e a altura que você define incluem o conteúdo do elemento, o padding e a borda (mas não a margem). Use `border-box` quando quiser que o tamanho total do elemento permaneça fixo mesmo se o padding ou as bordas mudarem — isso é frequentemente útil em layouts responsivos.
+Ótimo! Agora vamos explorar `border-box`.  It's different because the width and height you set include the element's content, padding, and border (but not its margin).  Use `border-box` when you want the element's total size to stay fixed even if padding or borders change — that's often helpful in responsive layouts.
 
 Com `border-box`, o padding e as bordas são incluídos dentro do tamanho especificado do elemento. O `width` e o `height` que você define se tornam as dimensões totais do elemento: conteúdo + padding + borda; as margens permanecem excluídas.
 
@@ -89,7 +89,7 @@ No exemplo a seguir, há dois elementos `div` com as mesmas dimensões mas valor
 
 :::
 
-Você pode ver que ambos têm o mesmo `width`, `height`, `padding`, `border` e `margin`. As únicas diferenças são as cores e o valor da propriedade `box-sizing`. Essa pequena diferença tem um impacto muito importante nas dimensões finais. 
+Você pode ver que ambos têm o mesmo `width`, `height`, `padding`, `border` e `margin`.  The only differences are in the colors and the value of the `box-sizing` property. Essa pequena diferença tem um impacto muito importante nas dimensões finais. 
 
 Escolher entre `content-box` e `border-box` realmente depende das necessidades específicas do seu projeto. Embora `border-box` esteja se tornando cada vez mais popular por sua simplicidade e flexibilidade, entender ambos os modelos é importante para implementar layouts CSS eficazes.
 

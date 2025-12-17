@@ -76,7 +76,7 @@ A frase correta para cumprimentar um grupo é `你们好 (nǐ men hǎo)`, que é
       }
     ],
     "audio": {
-      "filename": "ZH_A1_warmup_vocabulary.mp3",
+      "filename": "ZH_A1_greetings_and_introductions_warm_up.mp3",
       "startTime": 1,
       "startTimestamp": 8.98,
       "finishTimestamp": 9.9

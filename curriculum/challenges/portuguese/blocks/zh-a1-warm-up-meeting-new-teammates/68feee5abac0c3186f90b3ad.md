@@ -72,7 +72,7 @@ Wang Hua está dizendo `míng zi`. A primeira sílaba tem uma final nasal `ing` 
       }
     ],
     "audio": {
-      "filename": "ZH_A1_warmup_vocabulary.mp3",
+      "filename": "ZH_A1_greetings_and_introductions_warm_up.mp3",
       "startTime": 1,
       "startTimestamp": 31.51,
       "finishTimestamp": 32.34

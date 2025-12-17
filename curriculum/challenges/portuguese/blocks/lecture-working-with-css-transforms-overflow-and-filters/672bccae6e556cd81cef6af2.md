@@ -13,7 +13,7 @@ Esse comportamento ocorre quando as margens verticais de elementos adjacentes se
 
 Entender o colapso de margem é importante para o controle preciso do espaçamento e do layout no design web. Então, vamos entender como o margin collapsing funciona e explorar alguns cenários comuns onde ele ocorre.
 
-No CSS, quando duas margens verticais entram em contato uma com a outra, elas colapsam, isso significa que em vez de se somarem, a margem maior prevalece e determina o espaço entre os elementos. Esse comportamento se aplica apenas às margens verticais superior e inferior e não às margens horizontais, nem à esquerda e à direita. Então, aqui está um exemplo para ilustrar este conceito:
+No CSS, quando duas margens verticais entram em contato uma com a outra, elas colapsam, isso significa que em vez de se somarem, a margem maior vence e determina o espaço entre os elementos. Esse comportamento se aplica apenas às margens verticais (superior e inferior) e não às margens horizontais (esquerda e direita). Então, aqui está um exemplo para ilustrar esse conceito:
 
 :::interactive_editor
 
@@ -37,7 +37,7 @@ No CSS, quando duas margens verticais entram em contato uma com a outra, elas co
 
 Neste exemplo, você pode esperar que o espaço total entre `.box1` e `.box2` seja 50 pixels (20 pixels mais 30 pixels). No entanto, devido ao colapso de margem o espaço real será de 30 pixels, que é a maior das duas margens.
 
-Como vimos nos exemplos anteriores, as margens dos elementos irmãos adjacentes irão colapsar. Este é o caso mais simples de colapso de margem. Vamos explorar mais casos onde o colapso de margem pode ocorrer. 
+As we saw in the previous example, margins of the adjacent sibling elements will collapse. Este é o caso mais simples de colapso de margem. Vamos explorar mais casos onde o colapso de margem pode ocorrer. 
 
 As margens também podem colapsar entre um elemento pai e seu primeiro ou último filho. Se não houver borda, padding, conteúdo inline ou espaçamento para separar a margem do pai da do filho, elas irão colapsar.
 
@@ -88,7 +88,7 @@ Se um elemento não tiver conteúdo, padding ou borda, suas margens superior e i
 
 Neste exemplo, as margens superior e inferior do `empty-block` colapsam em uma única margem de 20 pixels, a maior das duas.
 
-Aqui está outro exemplo de como evitar colapso usando padding: 
+Aqui está um exemplo de como evitar o colapso usando padding: 
 
 :::interactive_editor
 
@@ -112,9 +112,9 @@ Aqui está outro exemplo de como evitar colapso usando padding:
 
 :::
 
-Neste caso, o padding de um pixel no elemento pai impede o colapso da margem, resultando em um espaço total de 71 pixels do topo do pai até o topo do conteúdo filho.
+Neste caso, o preenchimento de um pixel no elemento pai impede que a margem colapse, resultando em um espaço total de 71 pixels do topo do pai até o topo do conteúdo filho.
 
-Entender o colapso de margem é importante para o controle preciso do layout e do espaçamento em CSS. Embora às vezes possa levar a resultados inesperados, é um recurso projetado para criar espaçamento mais estético e consistente em documentos. Ao saber quando ocorre o colapso de margem e como evitá-lo quando necessário, você pode criar layouts mais previsíveis e fáceis de manter em seus designs web.
+Entender o colapso de margem é importante para o controle preciso do layout e do espaçamento em CSS.  While it can sometimes lead to unexpected results, it's a feature designed to create more aesthetically pleasing and consistent spacing in documents. Ao saber quando ocorre o colapso de margem e como evitá-lo quando necessário, você pode criar layouts mais previsíveis e fáceis de manter em seus designs web.
 
 # --questions--
 
