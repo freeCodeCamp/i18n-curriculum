@@ -52,7 +52,7 @@ div {
 
 En este caso, si se usa `content-box` el área de contenido será de 300px por 200px. El tamaño total renderizado incluye padding y bordes — por ejemplo, ancho total = 300px (contenido) + 40px (padding) + 8px (bordes) = 348px; la altura total se calcula de la misma manera.
 
-Genial — ahora exploremos `border-box`. Es diferente porque el ancho y alto que estableces incluyen el contenido del elemento, el padding y el borde (pero no el margen). Usa `border-box` cuando quieras que el tamaño total del elemento se mantenga fijo incluso si cambian el padding o los bordes — eso suele ser útil en diseños responsivos.
+¡Genial! Ahora exploraremos `border-box`.  It's different because the width and height you set include the element's content, padding, and border (but not its margin).  Use `border-box` when you want the element's total size to stay fixed even if padding or borders change — that's often helpful in responsive layouts.
 
 Con `border-box`, el padding y los bordes se incluyen dentro del tamaño especificado del elemento. El `width` y `height` que configures se convierten en las dimensiones totales del elemento: contenido + padding + borde; los márgenes permanecen excluidos.
 
@@ -89,7 +89,7 @@ En el siguiente ejemplo, hay dos elementos `div` con las mismas dimensiones pero
 
 :::
 
-Puedes ver que ambos tienen el mismo `width`, `height`, `padding`, `border` y `margin`. Las únicas diferencias son los colores y el valor de la propiedad `box-sizing`. Esta pequeña diferencia tiene un impacto muy importante en las dimensiones finales. 
+Puedes ver que ambos tienen el mismo `width`, `height`, `padding`, `border` y `margin`.  The only differences are in the colors and the value of the `box-sizing` property. Esta pequeña diferencia tiene un impacto muy importante en las dimensiones finales. 
 
 Elegir entre `content-box` y `border-box` realmente depende de las necesidades específicas de tu proyecto. Mientras que `border-box` está ganando popularidad por su simplicidad y flexibilidad, entender ambos modelos es importante para implementar diseños de CSS efectivos.
 
