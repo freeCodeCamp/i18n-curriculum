@@ -7,17 +7,24 @@ dashedName: step-4
 
 # --description--
 
-Antes de começar a colorir a imagem, você deve aninhar um elemento `path` dentro do seu elemento `svg` para dar forma à imagem.
+O próximo passo é definir os atributos `width` e `height` para o elemento `svg`. Ao criar um ícone, ambos os valores devem ser definidos como small.
 
-Crie um elemento `path`.
+Defina ambos os valores para `24`.
 
 # --hints--
 
-Você deve ter um elemento `path` aninhado dentro do seu elemento `svg`.
+Seu elemento `svg` deve ter um atributo `width` de `24`.
 
 ```js
-const path = document.querySelector('svg path');
-assert.exists(path);
+const svg = document.querySelector('svg');
+assert.strictEqual(svg.getAttribute('width'), '24');
+```
+
+Seu elemento `svg` deve ter um atributo `height` com valor `24`.
+
+```js
+const svg = document.querySelector('svg');
+assert.strictEqual(svg.getAttribute('height'), '24');
 ```
 
 # --seed--
@@ -33,8 +40,10 @@ assert.exists(path);
   </head>
   <body>
     --fcc-editable-region--
-    <svg width="24" height="24" viewBox="0 0 24 24">
-      
+    <svg>
+      <path
+        d="M12 21s-6-4.35-9.33-8.22C-.5 7.39 3.24 1 8.4 4.28 10.08 5.32 12 7.5 12 7.5s1.92-2.18 3.6-3.22C20.76 1 24.5 7.39 21.33 12.78 18 16.65 12 21 12 21z"
+      ></path>
     </svg>
     --fcc-editable-region--
   </body>

@@ -7,24 +7,17 @@ dashedName: step-2
 
 # --description--
 
-El siguiente paso es establecer los atributos `width` y `height` para el elemento `svg`. Como estás creando un ícono, ambos valores deben ser pequeños.
+Debes anidar un elemento `path` dentro de tu elemento `svg` para darle forma a la imagen.
 
-Establece ambos valores en `24`.
+Crea un elemento `path`.
 
 # --hints--
 
-Tu elemento `svg` debe tener un atributo `width` de `24`.
+Debes tener un elemento `path` anidado dentro de tu elemento `svg`.
 
 ```js
-const svg = document.querySelector('svg');
-assert.strictEqual(svg.getAttribute('width'), '24');
-```
-
-Tu elemento `svg` debe tener un atributo `height` de `24`.
-
-```js
-const svg = document.querySelector('svg');
-assert.strictEqual(svg.getAttribute('height'), '24');
+const path = document.querySelector('svg path');
+assert.exists(path);
 ```
 
 # --seed--
@@ -41,6 +34,7 @@ assert.strictEqual(svg.getAttribute('height'), '24');
   <body>
     --fcc-editable-region--
     <svg>
+      
     </svg>
     --fcc-editable-region--
   </body>

@@ -241,7 +241,7 @@ my_set.clear()
 - **Métodos `issubset()` e `issuperset()`**: Os métodos `issubset()` e `issuperset()` verificam se um conjunto é um subconjunto ou superconjunto de outro conjunto, respectivamente.
 
 ```python
-my_set = {1, 2, 3, 4, 5} 
+my_set = {1, 2, 3, 4, 5}
 your_set = {2, 3, 4, 5}
 
 print(your_set.issubset(my_set)) # True
@@ -251,37 +251,52 @@ print(my_set.issuperset(your_set)) # True
 - **Método `isdisjoint()`**: O método `isdisjoint()` verifica se dois conjuntos são disjuntos, se eles não têm elementos em comum.
 
 ```python
-print(my_set.isdisjoint(your_set)) # False
+my_set = {1, 2, 3}
+your_set = {4, 5, 6}
+
+print(my_set.isdisjoint(your_set)) # True
 ```
 
 - **Operador de União (`|`)**: O operador de união `|` retorna um novo conjunto com todos os elementos de ambos os conjuntos.
 
 ```python
+my_set = {1, 2, 3}
+your_set = {4, 5, 6}
+
 my_set | your_set # {1, 2, 3, 4, 5, 6}
 ```
 
 - **Operador de Interseção (`&`)**: O operador de interseção `&` retorna um novo conjunto com apenas os elementos que os conjuntos têm em comum.
 
 ```python
+my_set = {1, 2, 3, 4, 5}
+your_set = {2, 3, 4, 6}
+
 my_set & your_set # {2, 3, 4}
 ```
 
 - **Operador de Diferença (`-`)**: O operador de diferença `-` retorna um novo conjunto com os elementos do primeiro conjunto que não estão nos outros conjuntos.
 
 ```python
+my_set = {1, 2, 3, 4, 5}
+your_set = {2, 3, 4, 6}
+
 my_set - your_set # {1, 5}
 ```
 
 - **Operador de Diferença Simétrica (`^`)**: O operador de diferença simétrica `^` retorna um novo conjunto com os elementos que estão no primeiro ou no segundo conjunto, mas não em ambos.
 
 ```python
+my_set = {1, 2, 3, 4, 5}
+your_set = {2, 3, 4, 6}
+
 my_set ^ your_set # {1, 5, 6}
 ```
 
 - **Operador `in`**: Você pode verificar se um elemento está em um conjunto ou não com o operador `in`.
 
 ```python
-print(5 in my_set)
+print(5 in my_set) # True
 ```
 
 ## Biblioteca Padrão do Python
