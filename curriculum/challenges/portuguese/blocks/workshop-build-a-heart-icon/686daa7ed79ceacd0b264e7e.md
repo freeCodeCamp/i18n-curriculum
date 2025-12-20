@@ -7,64 +7,31 @@ dashedName: step-3
 
 # --description--
 
-Você está chegando mais perto, agora veja este exemplo:
+O elemento `path` precisa que sua forma seja definida. É aí que entra o atributo `d`.  It is used to create a series of command letters and numbers that draw a shape. 
 
-```html
-<svg viewBox="0 0 50 50">
-</svg>
-```
+Essas letras representam comandos como move to, draw line e close, enquanto os números representam coordenadas.  
 
-O atributo `viewBox` controla qual parte da imagem está visível dentro do SVG.
-
-- Os dois primeiros números (`0 0`) definem a posição inicial do `viewBox` — o canto superior esquerdo (x e y). 
-- Os próximos dois números (`50 50`) definem a largura e a altura do `viewBox`.
-
-Defina o atributo `viewBox` para `0 0 24 24`.
+Defina o atributo `d` da forma de coração para `M12 21s-6-4.35-9.33-8.22C-.5 7.39 3.24 1 8.4 4.28 10.08 5.32 12 7.5 12 7.5s1.92-2.18 3.6-3.22C20.76 1 24.5 7.39 21.33 12.78 18 16.65 12 21 12 21z`.
 
 # --hints--
 
-Você deve ter um atributo `viewBox`.
+Você deve ter um atributo `d` no seu elemento `path`.
 
 ```js
-const svg = document.querySelector('svg');
-const viewBox = svg.getAttribute('viewBox');
-assert.exists(viewBox);
+const path = document.querySelector('path');
+const d = path.getAttribute('d');
+assert.exists(d);
 ```
 
-Você deve definir a posição x do `viewBox` para 0.
+Você deve definir o atributo `d` para `M12 21s-6-4.35-9.33-8.22C-.5 7.39 3.24 1 8.4 4.28 10.08 5.32 12 7.5 12 7.5s1.92-2.18 3.6-3.22C20.76 1 24.5 7.39 21.33 12.78 18 16.65 12 21 12 21z`
 
 ```js
-const svg = document.querySelector('svg');
-const viewBox = svg.getAttribute('viewBox');
-const x = viewBox?.trim().split(' ')[0];
-assert.strictEqual(x, '0');
-```
-
-Você deve definir a posição y do `viewBox` para 0.
-
-```js
-const svg = document.querySelector('svg');
-const viewBox = svg.getAttribute('viewBox');
-const y = viewBox?.trim().split(' ')[1];
-assert.strictEqual(y, '0');
-```
-
-Você deve definir a largura do `viewBox` para 24.
-
-```js
-const svg = document.querySelector('svg');
-const viewBox = svg.getAttribute('viewBox');
-const width = viewBox?.trim().split(' ')[2];
-assert.strictEqual(width, '24');
-```
-
-Você deve definir a altura do `viewBox` para 24.
-
-```js
-const svg = document.querySelector('svg');
-const viewBox = svg.getAttribute('viewBox');
-const height = viewBox?.trim().split(' ')[3];
-assert.strictEqual(height, '24');
+const path = document.querySelector('path');
+const d = path.getAttribute('d');
+assert.strictEqual(
+  d,
+  'M12 21s-6-4.35-9.33-8.22C-.5 7.39 3.24 1 8.4 4.28 10.08 5.32 12 7.5 12 7.5s1.92-2.18 3.6-3.22C20.76 1 24.5 7.39 21.33 12.78 18 16.65 12 21 12 21z'
+);
 ```
 
 # --seed--
@@ -80,7 +47,8 @@ assert.strictEqual(height, '24');
   </head>
   <body>
     --fcc-editable-region--
-    <svg width="24" height="24">
+    <svg>
+      <path></path>
     </svg>
     --fcc-editable-region--
   </body>
