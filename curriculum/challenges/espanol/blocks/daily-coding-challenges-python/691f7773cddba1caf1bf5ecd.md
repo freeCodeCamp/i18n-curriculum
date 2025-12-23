@@ -14,13 +14,13 @@ Dado un monto de dinero que tienes y un arreglo de artículos que quieres compra
 
 Usa las siguientes tasas de cambio para convertir valores:
 
-Moneda1 Unidad Equivale
+|Moneda|1 Unidad Equivale|
 |-|-|
-USD1.00 USD
-EUR1.10 USD
-GBP1.25 USD
-JPY0.0070 USD
-CAD0.75 USD
+|USD|1.00 USD|
+|EUR|1.10 USD|
+|GBP|1.25 USD|
+|JPY|0.0070 USD|
+|CAD|0.75 USD|
 
 - Si puedes pagar todos los elementos en la lista, devuelve `"Buy them all!"`.
 - De lo contrario, devuelve `"Buy the first X items."`, donde `X` es el número de artículos que puedes pagar cuando se compran en el orden dado.
