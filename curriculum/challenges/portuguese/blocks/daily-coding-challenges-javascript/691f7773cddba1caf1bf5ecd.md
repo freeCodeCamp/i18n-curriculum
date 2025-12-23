@@ -14,13 +14,13 @@ Dado um valor em dinheiro que você tem e um array de itens que você quer compr
 
 Use as seguintes taxas de câmbio para converter valores:
 
-Moeda1 Unidade Equivale
+|Moeda|1 Unidade equivale|
 |-|-|
-USD1,00 USD
-EUR1,10 USD
-GBP1,25 USD
-JPY0,0070 USD
-CAD0,75 USD
+|USD|1.00 USD|
+|EUR|1.10 USD|
+|GBP|1.25 USD|
+|JPY|0.0070 USD|
+|CAD|0.75 USD|
 
 - Se você puder pagar por todos os itens da lista, retorne `"Buy them all!"`.
 - Caso contrário, retorne `"Buy the first X items."`, onde `X` é o número de itens que você pode pagar quando comprados na ordem dada.
