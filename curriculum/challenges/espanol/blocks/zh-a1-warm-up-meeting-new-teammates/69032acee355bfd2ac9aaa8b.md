@@ -18,7 +18,7 @@ Este cambio de tono es un ajuste natural en el habla para hacer la pronunciació
 
 ### Ejemplos
 
-EscritoPronunciado como
+| Escrito    | Pronunciado como |
 |------------|----------------|
 | `bù néng`   | `bù néng`      |
 | `bù xiǎng`   | `bù xiǎng`      |
