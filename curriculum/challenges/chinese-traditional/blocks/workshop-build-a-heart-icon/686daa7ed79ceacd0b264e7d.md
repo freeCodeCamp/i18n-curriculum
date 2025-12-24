@@ -7,24 +7,17 @@ dashedName: step-2
 
 # --description--
 
-下一步是設置 `svg` 元素的 `width` 和 `height` 屬性。 當你創建一個圖標時，這兩個值都應設置得比較小。
+You should nest one `path` element inside your `svg` element to give the image shape.
 
-將兩個值都設置爲 `24`。
+Create a `path` element.
 
 # --hints--
 
-你的 `svg` 元素應該有一個 `width` 屬性，值爲 `24`。
+You should have a `path` element nested inside of your `svg` element.
 
 ```js
-const svg = document.querySelector('svg');
-assert.strictEqual(svg.getAttribute('width'), '24');
-```
-
-你的 `svg` 元素應該有一個 `height` 屬性，值爲 `24`。
-
-```js
-const svg = document.querySelector('svg');
-assert.strictEqual(svg.getAttribute('height'), '24');
+const path = document.querySelector('svg path');
+assert.exists(path);
 ```
 
 # --seed--
@@ -41,6 +34,7 @@ assert.strictEqual(svg.getAttribute('height'), '24');
   <body>
     --fcc-editable-region--
     <svg>
+
     </svg>
     --fcc-editable-region--
   </body>
