@@ -61,7 +61,7 @@ Comprobador de Contraste de Color de WebAIM
 
 #### --text--
 
-¿Cuál de las siguientes herramientas le permite seleccionar colores de fondo y primer plano de una página web en vivo y verificar su relación de contraste?
+¿Cuál de las siguientes herramientas te permite seleccionar colores de fondo y primer plano del contenido que se muestra en tu pantalla y verificar su relación de contraste?
 
 #### --distractors--
 
