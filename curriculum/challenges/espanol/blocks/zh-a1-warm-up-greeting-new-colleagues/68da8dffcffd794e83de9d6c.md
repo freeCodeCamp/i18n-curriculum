@@ -44,7 +44,7 @@ Este formulario no es estándar en chino.
 
 ### --feedback--
 
-Esto también significa "Hello, everyone.", pero Chen Na usa una frase diferente.
+Esto también significa "Hello, everyone", pero Chen Na usa una frase diferente.
 
 ## --video-solution--
 

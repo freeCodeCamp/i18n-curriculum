@@ -1,0 +1,236 @@
+---
+id: 69602ccea37b20ccba6af9db
+title: Questionário sobre Formação Educacional e Profissional
+challengeType: 8
+dashedName: en-a2-quiz-educational-professional-background
+lang: en-US
+---
+
+# --description--
+
+Para passar no quiz, você deve responder corretamente pelo menos 9 das 10 perguntas abaixo.
+
+# --quizzes--
+
+## --quiz--
+
+### --question--
+
+#### --text--
+
+Pergunta de espaço reservado
+
+#### --distractors--
+
+Distrator de espaço reservado 1
+
+---
+
+Distrator de espaço reservado 2
+
+---
+
+Distrator de espaço reservado 3
+
+#### --answer--
+
+Resposta do espaço reservado
+
+### --question--
+
+#### --text--
+
+Pergunta de espaço reservado
+
+#### --distractors--
+
+Distrator de espaço reservado 1
+
+---
+
+Distrator de espaço reservado 2
+
+---
+
+Distrator de espaço reservado 3
+
+#### --answer--
+
+Resposta do espaço reservado
+
+### --question--
+
+#### --text--
+
+Pergunta de espaço reservado
+
+#### --distractors--
+
+Distrator de espaço reservado 1
+
+---
+
+Distrator de espaço reservado 2
+
+---
+
+Distrator de espaço reservado 3
+
+#### --answer--
+
+Resposta do espaço reservado
+
+### --question--
+
+#### --text--
+
+Pergunta de espaço reservado
+
+#### --distractors--
+
+Distrator de espaço reservado 1
+
+---
+
+Distrator de espaço reservado 2
+
+---
+
+Distrator de espaço reservado 3
+
+#### --answer--
+
+Resposta do espaço reservado
+
+### --question--
+
+#### --text--
+
+Pergunta de espaço reservado
+
+#### --distractors--
+
+Distrator de espaço reservado 1
+
+---
+
+Distrator de espaço reservado 2
+
+---
+
+Distrator de espaço reservado 3
+
+#### --answer--
+
+Resposta do espaço reservado
+
+### --question--
+
+#### --text--
+
+Pergunta de espaço reservado
+
+#### --distractors--
+
+Distrator de espaço reservado 1
+
+---
+
+Distrator de espaço reservado 2
+
+---
+
+Distrator de espaço reservado 3
+
+#### --answer--
+
+Resposta do espaço reservado
+
+### --question--
+
+#### --text--
+
+Pergunta de espaço reservado
+
+#### --distractors--
+
+Distrator de espaço reservado 1
+
+---
+
+Distrator de espaço reservado 2
+
+---
+
+Distrator de espaço reservado 3
+
+#### --answer--
+
+Resposta do espaço reservado
+
+### --question--
+
+#### --text--
+
+Pergunta de espaço reservado
+
+#### --distractors--
+
+Distrator de espaço reservado 1
+
+---
+
+Distrator de espaço reservado 2
+
+---
+
+Distrator de espaço reservado 3
+
+#### --answer--
+
+Resposta do espaço reservado
+
+### --question--
+
+#### --text--
+
+Pergunta de espaço reservado
+
+#### --distractors--
+
+Distrator de espaço reservado 1
+
+---
+
+Distrator de espaço reservado 2
+
+---
+
+Distrator de espaço reservado 3
+
+#### --answer--
+
+Resposta do espaço reservado
+
+
+### --question--
+
+#### --text--
+
+Pergunta de espaço reservado
+
+#### --distractors--
+
+Distrator de espaço reservado 1
+
+---
+
+Distrator de espaço reservado 2
+
+---
+
+Distrator de espaço reservado 3
+
+#### --answer--
+
+Resposta do espaço reservado
