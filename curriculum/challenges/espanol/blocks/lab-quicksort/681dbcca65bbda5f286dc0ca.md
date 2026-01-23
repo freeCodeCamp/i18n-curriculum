@@ -78,20 +78,14 @@ assert _test_list == [20, 3, 14, 1, 5]
 ({ test: () => runPython(`assert quick_sort([87, 11, 23, 18, 18, 23, 11, 56, 87, 56]) == [11, 11, 18, 18, 23, 23, 56, 56, 87, 87]`) })
 ```
 
-No deberías usar la función incorporada `sorted()` en tu código.
+No debes importar ningún módulo ni usar métodos de ordenación incorporados en tu código.
 
 ```js
 ({ test: () => runPython(`
-assert not _Node(_code).block_has_call("sorted")
-`) })
-```
-
-No deberías usar el método `sort()` en tu código.
-
-```js
-({ test: () => runPython(`
-assert not _Node(_code).block_has_call("sort")
-`) })
+    assert len(_Node(_code).find_imports()) == 0
+    assert not _Node(_code).block_has_call("sort")
+    assert not _Node(_code).block_has_call("sorted")
+`)})
 ```
 
 # --seed--
