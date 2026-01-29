@@ -30,7 +30,7 @@ body {
 
 ## A Regra `@property`
 
-- **Definição**: A regra `@property` é um recurso poderoso do CSS que permite aos desenvolvedores definir propriedades personalizadas com maior controle sobre seu comportamento, incluindo como elas animam e seus valores iniciais. 
+- **Definição**: A regra `@property` é um recurso poderoso do CSS que permite aos desenvolvedores definir propriedades personalizadas com maior controle sobre seu comportamento, incluindo como elas animam e seus valores iniciais.
 
 ```css
 @property --property-name {
@@ -40,9 +40,9 @@ body {
 }
 ```
 
-- **`--property-name`**: Este é o nome da propriedade personalizada que você está definindo. Como todas as propriedades personalizadas, ela deve começar com dois traços. `--property-name` pode ser coisas como `<color>`, `<length>`, `<number>`, `<percentage>` ou tipos mais complexos.
-- **`syntax`**: Isso define o tipo da propriedade. 
-- **`inherits`**: Isso especifica se a propriedade deve herdar seu valor do elemento pai. 
+- **`--property-name`**: Este é o nome da propriedade personalizada que você está definindo. Como todas as propriedades personalizadas, deve começar com dois traços.  
+**`syntax`**: Isso define o tipo da propriedade, que pode ser coisas como `<color>`, `<length>`, `<number>`, `<percentage>` ou tipos mais complexos.
+- **`inherits`**: Isso especifica se a propriedade deve herdar seu valor do elemento pai.
 - **`initial-value`**: Isso define o valor padrão da propriedade.
 - **Exemplo de Gradiente Usando a Regra `@property`**: Este exemplo cria um gradiente que anima suavemente quando o elemento é hoverado.
 

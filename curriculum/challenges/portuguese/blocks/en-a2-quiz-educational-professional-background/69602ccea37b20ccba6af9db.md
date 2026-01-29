@@ -8,7 +8,11 @@ lang: en-US
 
 # --description--
 
-Para passar no quiz, você deve responder corretamente pelo menos 9 das 10 perguntas abaixo.
+Este quiz verifica seu entendimento sobre entrevistas de emprego, educação e o tempo `past simple`.
+
+Para passar no quiz, você deve responder corretamente pelo menos 18 das 20 perguntas abaixo.
+
+Leia cada pergunta e escolha a resposta correta. Há apenas uma resposta correta para cada pergunta.
 
 # --quizzes--
 
@@ -18,219 +22,438 @@ Para passar no quiz, você deve responder corretamente pelo menos 9 das 10 pergu
 
 #### --text--
 
-Pergunta de espaço reservado
+Qual das seguintes afirmações é verdadeira sobre esta frase: `I studied computer science at college`?
 
 #### --distractors--
 
-Distrator de espaço reservado 1
+A ação está acontecendo agora.
 
 ---
 
-Distrator de espaço reservado 2
+A ação acontecerá em breve.
 
 ---
 
-Distrator de espaço reservado 3
+A ação acontece todos os dias
 
 #### --answer--
 
-Resposta do espaço reservado
+A ação aconteceu no passado.
 
 ### --question--
 
 #### --text--
 
-Pergunta de espaço reservado
+Qual dos seguintes NÃO é um exemplo do `background` de alguém?
 
 #### --distractors--
 
-Distrator de espaço reservado 1
+A experiência profissional anterior deles
 
 ---
 
-Distrator de espaço reservado 2
+O histórico educacional deles
 
 ---
 
-Distrator de espaço reservado 3
+As habilidades aprendidas deles
 
 #### --answer--
 
-Resposta do espaço reservado
+O hobby favorito deles
 
 ### --question--
 
 #### --text--
 
-Pergunta de espaço reservado
+O que é uma `interview`?
 
 #### --distractors--
 
-Distrator de espaço reservado 1
+Uma conversa informal entre colegas de trabalho
 
 ---
 
-Distrator de espaço reservado 2
+Um teste escrito na escola
 
 ---
 
-Distrator de espaço reservado 3
+Uma reunião de equipe no trabalho
 
 #### --answer--
 
-Resposta do espaço reservado
+Uma reunião formal com perguntas
 
 ### --question--
 
 #### --text--
 
-Pergunta de espaço reservado
+Qual é a melhor resposta para esta pergunta: `Can you tell me about your previous job position?`
 
 #### --distractors--
 
-Distrator de espaço reservado 1
+`I was there for three years.`
 
 ---
 
-Distrator de espaço reservado 2
+`I have a master's degree in computer science.`
 
 ---
 
-Distrator de espaço reservado 3
+`I didn't study tech at a traditional university.`
 
 #### --answer--
 
-Resposta do espaço reservado
+`Sure, I was a programmer at Acme Tech.`
 
 ### --question--
 
 #### --text--
 
-Pergunta de espaço reservado
+Qual frase usa `to be` corretamente no passado?
 
 #### --distractors--
 
-Distrator de espaço reservado 1
+`Sophie were a designer.`
 
 ---
 
-Distrator de espaço reservado 2
+`Alice and I was a team.`
 
 ---
 
-Distrator de espaço reservado 3
+`Brian and Anna was in the meeting.`
 
 #### --answer--
 
-Resposta do espaço reservado
+`Tom was a developer.`
 
 ### --question--
 
 #### --text--
 
-Pergunta de espaço reservado
+Qual é a forma correta de pergunta desta frase: `He was responsible for maintaining the database`?
 
 #### --distractors--
 
-Distrator de espaço reservado 1
+`Did he was responsible for maintaining the database?`
 
 ---
 
-Distrator de espaço reservado 2
+`He was responsible for maintaining the database?`
 
 ---
 
-Distrator de espaço reservado 3
+`Did he responsible for maintaining the database?`
 
 #### --answer--
 
-Resposta do espaço reservado
+`Was he responsible for maintaining the database?`
 
 ### --question--
 
 #### --text--
 
-Pergunta de espaço reservado
+Como você perguntaria sobre a formação educacional de alguém?
 
 #### --distractors--
 
-Distrator de espaço reservado 1
+`Were there any specific projects?`
 
 ---
 
-Distrator de espaço reservado 2
+`Could you tell me about your previous job responsibilities?`
 
 ---
 
-Distrator de espaço reservado 3
+`What's your professional background in tech?`
 
 #### --answer--
 
-Resposta do espaço reservado
+`Were you educated in computer science?`
 
 ### --question--
 
 #### --text--
 
-Pergunta de espaço reservado
+Sobre o que esta pergunta questiona: `Could you tell me about your previous roles and responsibilities?`
 
 #### --distractors--
 
-Distrator de espaço reservado 1
+Seus planos futuros de carreira
 
 ---
 
-Distrator de espaço reservado 2
+Seus interesses pessoais
 
 ---
 
-Distrator de espaço reservado 3
+Suas tarefas diárias atuais
 
 #### --answer--
 
-Resposta do espaço reservado
+Seus empregos e responsabilidades anteriores
 
 ### --question--
 
 #### --text--
 
-Pergunta de espaço reservado
+Qual frase mostra posse incorretamente?
 
 #### --distractors--
 
-Distrator de espaço reservado 1
+`Anna's computer`
 
 ---
 
-Distrator de espaço reservado 2
+`Designers' office`
 
 ---
 
-Distrator de espaço reservado 3
+`James' project`
 
 #### --answer--
 
-Resposta do espaço reservado
-
+`Sophies idea`
 
 ### --question--
 
 #### --text--
 
-Pergunta de espaço reservado
+Qual é a forma negativa correta desta frase: `He studied data science`?
 
 #### --distractors--
 
-Distrator de espaço reservado 1
+`He didn't studied data science.`
 
 ---
 
-Distrator de espaço reservado 2
+`He wasn't study data science.`
 
 ---
 
-Distrator de espaço reservado 3
+`He not studied data science.`
 
 #### --answer--
 
-Resposta do espaço reservado
+`He didn't study data science.`
+
+### --question--
+
+#### --text--
+
+Como você diz sua área principal de estudo?
+
+#### --distractors--
+
+`I majored at computer science.`
+
+---
+
+`I majored on computer science.`
+
+---
+
+`I majored with computer science.`
+
+#### --answer--
+
+`I majored in computer science.`
+
+### --question--
+
+#### --text--
+
+Qual é a forma correta de pergunta desta frase: `She worked with them for five years`?
+
+#### --distractors--
+
+`Was she worked with them for five years?`
+
+---
+
+`Did she worked with them for five years?`
+
+---
+
+`She worked with them for five years?`
+
+#### --answer--
+
+`Did she work with them for five years?`
+
+### --question--
+
+#### --text--
+
+Como você responde a esta pergunta: `Did you work on any projects last year?`
+
+#### --distractors--
+
+`Yes, I didn't.` / `No, I did.`
+
+---
+
+`Yes, I was.` / `No, I wasn't.`
+
+---
+
+`Yes, I do.` / `No, I don't.`
+
+#### --answer--
+
+`Yes, I did.` / `No, I didn't.`
+
+### --question--
+
+#### --text--
+
+Qual par de verbos irregulares está incorreto?
+
+#### --distractors--
+
+`get` → `got`
+
+---
+
+`meet` → `met`
+
+---
+
+`have` → `had`
+
+#### --answer--
+
+`take` → `taken`
+
+### --question--
+
+#### --text--
+
+O que significa `to wear too many hats`?
+
+#### --distractors--
+
+Vestir-se de forma muito formal
+
+---
+
+Mudar de emprego com frequência
+
+---
+
+Para gerenciar uma tarefa
+
+#### --answer--
+
+Ter muitos papéis ou funções
+
+### --question--
+
+#### --text--
+
+Como você descreve o aprendizado sem um professor ou escola?
+
+#### --distractors--
+
+`Unconventional`
+
+---
+
+`Previous`
+
+---
+
+`Various`
+
+#### --answer--
+
+`Self-taught`
+
+### --question--
+
+#### --text--
+
+Qual frase usa `actual` ou `actually` corretamente?
+
+#### --distractors--
+
+`This is the actually problem.`
+
+---
+
+`The actual happened yesterday.`
+
+---
+
+`This is actual very important.`
+
+#### --answer--
+
+`Actually, I finished the task.`
+
+### --question--
+
+#### --text--
+
+Quem é um `recruiter`?
+
+#### --distractors--
+
+Uma pessoa que gerencia uma equipe
+
+---
+
+Uma pessoa que treina funcionários
+
+---
+
+Uma pessoa que escreve código
+
+#### --answer--
+
+Uma pessoa que contrata candidatos
+
+### --question--
+
+#### --text--
+
+Como você chama uma pessoa que trabalha para uma empresa?
+
+#### --distractors--
+
+`Employer`
+
+---
+
+`Manager`
+
+---
+
+`Client`
+
+#### --answer--
+
+`Employee`
+
+### --question--
+
+#### --text--
+
+Qual pergunta de confirmação está correta?
+
+#### --distractors--
+
+`You studied web design, did you?`
+
+---
+
+`You studied web design, don't you?`
+
+---
+
+`You studied web design, aren't you?`
+
+#### --answer--
+
+`You studied web design, didn't you?`
