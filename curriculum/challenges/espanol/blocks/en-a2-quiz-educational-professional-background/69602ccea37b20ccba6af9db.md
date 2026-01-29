@@ -8,7 +8,11 @@ lang: en-US
 
 # --description--
 
-Para pasar el cuestionario, debe responder correctamente al menos 9 de las 10 preguntas a continuación.
+Este cuestionario verifica tu comprensión sobre entrevistas de trabajo, educación y el tiempo `past simple`.
+
+Para aprobar el cuestionario, debe responder correctamente al menos 18 de las 20 preguntas a continuación.
+
+Lee cada pregunta y elige la respuesta correcta. Solo hay una respuesta correcta para cada pregunta.
 
 # --quizzes--
 
@@ -18,219 +22,438 @@ Para pasar el cuestionario, debe responder correctamente al menos 9 de las 10 pr
 
 #### --text--
 
-Pregunta con marcador de posición
+¿Cuál de las siguientes afirmaciones es verdadera sobre esta oración: `I studied computer science at college`?
 
 #### --distractors--
 
-Elemento de distracción 1 de marcador de posición
+La acción está ocurriendo ahora.
 
 ---
 
-Elemento de distracción 2 de marcador de posición
+La acción ocurrirá pronto.
 
 ---
 
-Elemento de distracción 3 de marcador de posición
+La acción ocurre todos los días
 
 #### --answer--
 
-Respuesta con marcador de posición
+La acción ocurrió en el pasado.
 
 ### --question--
 
 #### --text--
 
-Pregunta con marcador de posición
+¿Cuál de los siguientes NO es un ejemplo del `background` de alguien?
 
 #### --distractors--
 
-Elemento de distracción 1 de marcador de posición
+Su experiencia laboral pasada
 
 ---
 
-Elemento de distracción 2 de marcador de posición
+Su historial educativo
 
 ---
 
-Elemento de distracción 3 de marcador de posición
+Sus habilidades aprendidas
 
 #### --answer--
 
-Respuesta con marcador de posición
+Su pasatiempo favorito
 
 ### --question--
 
 #### --text--
 
-Pregunta con marcador de posición
+¿Qué es un `interview`?
 
 #### --distractors--
 
-Elemento de distracción 1 de marcador de posición
+Una charla informal entre compañeros de trabajo
 
 ---
 
-Elemento de distracción 2 de marcador de posición
+Una prueba escrita en la escuela
 
 ---
 
-Elemento de distracción 3 de marcador de posición
+Una reunión de equipo en el trabajo
 
 #### --answer--
 
-Respuesta con marcador de posición
+Una reunión formal con preguntas
 
 ### --question--
 
 #### --text--
 
-Pregunta con marcador de posición
+¿Cuál es la mejor respuesta a esta pregunta: `Can you tell me about your previous job position?`?
 
 #### --distractors--
 
-Elemento de distracción 1 de marcador de posición
+`I was there for three years.`
 
 ---
 
-Elemento de distracción 2 de marcador de posición
+`I have a master's degree in computer science.`
 
 ---
 
-Elemento de distracción 3 de marcador de posición
+`I didn't study tech at a traditional university.`
 
 #### --answer--
 
-Respuesta con marcador de posición
+`Sure, I was a programmer at Acme Tech.`
 
 ### --question--
 
 #### --text--
 
-Pregunta con marcador de posición
+¿Qué oración usa correctamente `to be` en pasado?
 
 #### --distractors--
 
-Elemento de distracción 1 de marcador de posición
+`Sophie were a designer.`
 
 ---
 
-Elemento de distracción 2 de marcador de posición
+`Alice and I was a team.`
 
 ---
 
-Elemento de distracción 3 de marcador de posición
+`Brian and Anna was in the meeting.`
 
 #### --answer--
 
-Respuesta con marcador de posición
+`Tom was a developer.`
 
 ### --question--
 
 #### --text--
 
-Pregunta con marcador de posición
+¿Cuál es la forma correcta de pregunta de esta oración: `He was responsible for maintaining the database`?
 
 #### --distractors--
 
-Elemento de distracción 1 de marcador de posición
+`Did he was responsible for maintaining the database?`
 
 ---
 
-Elemento de distracción 2 de marcador de posición
+`He was responsible for maintaining the database?`
 
 ---
 
-Elemento de distracción 3 de marcador de posición
+`Did he responsible for maintaining the database?`
 
 #### --answer--
 
-Respuesta con marcador de posición
+`Was he responsible for maintaining the database?`
 
 ### --question--
 
 #### --text--
 
-Pregunta con marcador de posición
+¿Cómo preguntarías sobre la formación educativa de alguien?
 
 #### --distractors--
 
-Elemento de distracción 1 de marcador de posición
+`Were there any specific projects?`
 
 ---
 
-Elemento de distracción 2 de marcador de posición
+`Could you tell me about your previous job responsibilities?`
 
 ---
 
-Elemento de distracción 3 de marcador de posición
+`What's your professional background in tech?`
 
 #### --answer--
 
-Respuesta con marcador de posición
+`Were you educated in computer science?`
 
 ### --question--
 
 #### --text--
 
-Pregunta con marcador de posición
+¿Qué pregunta esta cuestión sobre: `Could you tell me about your previous roles and responsibilities?`?
 
 #### --distractors--
 
-Elemento de distracción 1 de marcador de posición
+Tus planes futuros de carrera
 
 ---
 
-Elemento de distracción 2 de marcador de posición
+Tus intereses personales
 
 ---
 
-Elemento de distracción 3 de marcador de posición
+Tus tareas diarias actuales
 
 #### --answer--
 
-Respuesta con marcador de posición
+Tus trabajos y responsabilidades anteriores
 
 ### --question--
 
 #### --text--
 
-Pregunta con marcador de posición
+¿Qué frase muestra la posesión incorrectamente?
 
 #### --distractors--
 
-Elemento de distracción 1 de marcador de posición
+`Anna's computer`
 
 ---
 
-Elemento de distracción 2 de marcador de posición
+`Designers' office`
 
 ---
 
-Elemento de distracción 3 de marcador de posición
+`James' project`
 
 #### --answer--
 
-Respuesta con marcador de posición
-
+`Sophies idea`
 
 ### --question--
 
 #### --text--
 
-Pregunta con marcador de posición
+¿Cuál es la forma negativa correcta de esta oración: `He studied data science`?
 
 #### --distractors--
 
-Elemento de distracción 1 de marcador de posición
+`He didn't studied data science.`
 
 ---
 
-Elemento de distracción 2 de marcador de posición
+`He wasn't study data science.`
 
 ---
 
-Elemento de distracción 3 de marcador de posición
+`He not studied data science.`
 
 #### --answer--
 
-Respuesta con marcador de posición
+`He didn't study data science.`
+
+### --question--
+
+#### --text--
+
+¿Cómo se dice tu área principal de estudio?
+
+#### --distractors--
+
+`I majored at computer science.`
+
+---
+
+`I majored on computer science.`
+
+---
+
+`I majored with computer science.`
+
+#### --answer--
+
+`I majored in computer science.`
+
+### --question--
+
+#### --text--
+
+¿Cuál es la forma correcta de pregunta de esta oración: `She worked with them for five years`?
+
+#### --distractors--
+
+`Was she worked with them for five years?`
+
+---
+
+`Did she worked with them for five years?`
+
+---
+
+`She worked with them for five years?`
+
+#### --answer--
+
+`Did she work with them for five years?`
+
+### --question--
+
+#### --text--
+
+¿Cómo respondes a esta pregunta: `Did you work on any projects last year?`?
+
+#### --distractors--
+
+`Sí, no lo hice.` / `No, lo hice.`
+
+---
+
+`Yes, I was.` / `No, I wasn't.`
+
+---
+
+`Yes, I do.` / `No, I don't.`
+
+#### --answer--
+
+`Yes, I did.` / `No, I didn't.`
+
+### --question--
+
+#### --text--
+
+¿Qué par de verbos irregulares es incorrecto?
+
+#### --distractors--
+
+`get` → `got`
+
+---
+
+`meet` → `met`
+
+---
+
+`have` → `had`
+
+#### --answer--
+
+`take` → `taken`
+
+### --question--
+
+#### --text--
+
+¿Qué significa `to wear too many hats`?
+
+#### --distractors--
+
+Vestirse muy formalmente
+
+---
+
+Cambiar de trabajo con frecuencia
+
+---
+
+Para gestionar una tarea
+
+#### --answer--
+
+Tener muchos roles o deberes
+
+### --question--
+
+#### --text--
+
+¿Cómo describes el aprendizaje sin un maestro o escuela?
+
+#### --distractors--
+
+`Unconventional`
+
+---
+
+`Previous`
+
+---
+
+`Various`
+
+#### --answer--
+
+`Self-taught`
+
+### --question--
+
+#### --text--
+
+¿Qué oración usa correctamente `actual` o `actually`?
+
+#### --distractors--
+
+`This is the actually problem.`
+
+---
+
+`The actual happened yesterday.`
+
+---
+
+`This is actual very important.`
+
+#### --answer--
+
+`Actually, I finished the task.`
+
+### --question--
+
+#### --text--
+
+¿Quién es un `recruiter`?
+
+#### --distractors--
+
+Una persona que gestiona un equipo
+
+---
+
+Una persona que entrena empleados
+
+---
+
+Una persona que escribe código
+
+#### --answer--
+
+Una persona que contrata candidatos
+
+### --question--
+
+#### --text--
+
+¿Cómo llamas a una persona que trabaja para una empresa?
+
+#### --distractors--
+
+`Employer`
+
+---
+
+`Manager`
+
+---
+
+`Client`
+
+#### --answer--
+
+`Employee`
+
+### --question--
+
+#### --text--
+
+¿Cuál pregunta de etiqueta es correcta?
+
+#### --distractors--
+
+`You studied web design, did you?`
+
+---
+
+`You studied web design, don't you?`
+
+---
+
+`You studied web design, aren't you?`
+
+#### --answer--
+
+`You studied web design, didn't you?`

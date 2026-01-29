@@ -5,7 +5,7 @@ challengeType: 31
 dashedName: review-dom-manipulation-and-click-events-with-javascript
 ---
 
-# --description--
+# --interactive--
 
 ## Trabalhando com o DOM e as Web APIs
 
@@ -21,25 +21,39 @@ dashedName: review-dom-manipulation-and-click-events-with-javascript
 
 - **Método `getElementById()`**: Este método é usado para obter um objeto que representa o elemento HTML com o `id` especificado. Lembre-se que os ids devem ser únicos em cada documento HTML, então este método retornará apenas um objeto Element.
 
+:::interactive_editor
+
 ```html
 <div id="container"></div>
+<script src="./index.js"></script>
 ```
 
 ```js
 const container = document.getElementById("container");
+console.log(container)
 ```
+
+:::
 
 - **Método `querySelector()`**: Este método é usado para obter o primeiro elemento no documento HTML que corresponde ao seletor CSS passado como argumento.
 
+:::interactive_editor
+
 ```html
 <section class="section"></section>
+<script src="./index.js"></script>
 ```
 
 ```js
 const section = document.querySelector(".section");
+console.log(section)
 ```
 
+:::
+
 - **Método `querySelectorAll()`**: Você pode usar este método para obter uma lista de todos os elementos DOM que correspondem a um seletor CSS específico.
+
+:::interactive_editor
 
 ```html
 <ul class="ingredients">
@@ -47,20 +61,27 @@ const section = document.querySelector(".section");
   <li>Milk</li>
   <li>Eggs</li>
 </ul>
+<script src="./index.js"></script>
 ```
 
 ```js
 const ingredients = document.querySelectorAll('ul.ingredients li');
+console.log(ingredients)
 ```
+
+:::
 
 ## Trabalhando com os métodos `innerText()`, `innerHTML()`, `createElement()` e `textContent()`
 
 - **Propriedade `innerHTML`**: Esta é uma propriedade do `Element` que é usada para definir ou atualizar partes da marcação HTML.
 
+:::interactive_editor
+
 ```html
 <div id="container">
   <!-- Add new elements here -->
 </div>
+<script src="./index.js"></script>
 ```
 
 ```js
@@ -68,19 +89,24 @@ const container = document.getElementById("container");
 container.innerHTML = '<ul><li>Cheese</li><li>Tomato</li></ul>';
 ```
 
-- **Método `createElement`**: Isso é usado para criar um elemento HTML. 
+:::
+
+- **Método `createElement`**: Isso é usado para criar um elemento HTML.
 
 ```js
 const img = document.createElement("img");
 ```
 
-- **`innerText`**: Isso representa o conteúdo de texto visível do elemento HTML e seus descendentes. 
+- **`innerText`**: Isso representa o conteúdo de texto visível do elemento HTML e seus descendentes.
+
+:::interactive_editor
 
 ```html
 <div id="container">
   <p>Hello, World!</p>
   <p>I'm learning JavaScript</p>
 </div>
+<script src="./index.js"></script>
 ```
 
 ```js
@@ -88,13 +114,18 @@ const container = document.getElementById("container");
 console.log(container.innerText);
 ```
 
+:::
+
 - **`textContent`**: Isso retorna o conteúdo de texto simples de um elemento, incluindo todo o texto dentro de seus descendentes.
+
+:::interactive_editor
 
 ```html
 <div id="container">
   <p>Hello, World!</p>
   <p>I'm learning JavaScript</p>
 </div>
+<script src="./index.js"></script>
 ```
 
 ```js
@@ -102,15 +133,20 @@ const container = document.getElementById("container");
 console.log(container.textContent);
 ```
 
+:::
+
 ## Trabalhando com os Métodos `appendChild()` e `removeChild()`
 
 - **Método `appendChild()`**: Este método é usado para adicionar um nó ao final da lista de filhos de um nó pai especificado.
+
+:::interactive_editor
 
 ```html
 <ul id="desserts">
   <li>Cake</li>
   <li>Pie</li>
 </ul>
+<script src="./index.js"></script>
 ```
 
 ```js
@@ -121,7 +157,11 @@ listItem.textContent = "Cookies";
 dessertsList.appendChild(listItem);
 ```
 
+:::
+
 - **Método `removeChild()`**: Este método é usado para remover um nó do DOM.
+
+:::interactive_editor
 
 ```html
 <section id="example-section">
@@ -129,6 +169,7 @@ dessertsList.appendChild(listItem);
   <p>first paragraph</p>
   <p>second paragraph</p>
 </section>
+<script src="./index.js"></script>
 ```
 
 ```js
@@ -138,18 +179,25 @@ const lastParagraph = document.querySelector("#example-section p:last-of-type");
 sectionEl.removeChild(lastParagraph);
 ```
 
+:::
+
 ## Trabalhe com o Método `setAttribute()`
 
 - **Definição**: Este método é usado para definir o atributo para um determinado elemento. Se o atributo já existir, o valor é atualizado. Caso contrário, um novo atributo é adicionado com um valor.
 
+:::interactive_editor
+
 ```html
 <p id="para">I am a paragraph</p>
+<script src="./index.js"></script>
 ```
 
 ```js
 const para = document.getElementById("para");
 para.setAttribute("class", "my-class");
 ```
+
+:::
 
 ## Objeto de Evento
 
@@ -159,13 +207,32 @@ para.setAttribute("class", "my-class");
 
 - **Método `addEventListener`**: Este método é usado para escutar eventos. Ele recebe dois argumentos: o evento que você quer escutar e uma função que será chamada quando o evento ocorrer. Alguns exemplos comuns de eventos seriam eventos de clique, eventos de entrada e eventos de alteração.
 
+:::interactive_editor
+
+```html
+<button id="btn">Click Me</button>
+<script src="./index.js"></script>
+```
+
 ```js
 const btn = document.getElementById("btn");
 
 btn.addEventListener("click", () => alert("You clicked the button"));
 ```
 
+:::
+
 - **Método `removeEventListener()`**: Este método é usado para remover um event listener que foi previamente adicionado a um elemento usando o método `addEventListener()`. Isso é útil quando você quer parar de escutar um evento específico em um elemento.
+
+:::interactive_editor
+
+```html
+<body>
+  <p id="para">Hover over me to disable the button's click event</p>
+  <button id="btn">Toggle Background Color</button>
+</body>
+<script src="./index.js"></script>
+```
 
 ```js
 const bodyEl = document.querySelector("body");
@@ -186,15 +253,24 @@ para.addEventListener("mouseover", () => {
 });
 ```
 
+:::
+
 - **Manipuladores de Eventos Inline**: Manipuladores de eventos inline são atributos especiais em um elemento HTML usados para executar código JavaScript quando um evento ocorre. No JavaScript moderno, manipuladores de eventos inline não são considerados uma boa prática. É preferível usar o método `addEventListener`.
+
+
+:::interactive_editor
 
 ```html
 <button onclick="alert('Hello World!')">Show alert</button>
 ```
 
+:::
+
 ## O Evento de Mudança
 
 - **Definição**: O evento change é um evento especial que é disparado quando o usuário modifica o valor de certos elementos de entrada. Exemplos incluem quando uma caixa de seleção ou um botão de opção é marcado. Ou quando o usuário faz uma seleção em algo como um seletor de data ou menu suspenso.
+
+:::interactive_editor
 
 ```html
 <label>
@@ -208,6 +284,7 @@ para.addEventListener("mouseover", () => {
 </label>
 
 <p class="result"></p>
+<script src="./index.js"></script>
 ```
 
 ```js 
@@ -219,6 +296,8 @@ selectEl.addEventListener("change", (e) => {
 });
 ```
 
+:::
+
 ## Propagação de Eventos
 
 - **Definição**: Event bubbling, ou propagação, refere-se a como um evento "bubbles up" para objetos pai quando acionado.
@@ -226,7 +305,7 @@ selectEl.addEventListener("change", (e) => {
 
 ## Delegação de Eventos
 
-- **Definição**: Delegação de eventos é o processo de escutar eventos que subiram para um elemento pai, em vez de tratá-los diretamente no elemento que os disparou. 
+- **Definição**: Delegação de eventos é o processo de escutar eventos que subiram para um elemento pai, em vez de tratá-los diretamente no elemento que os disparou.
 
 ## DOMContentLoaded
 
@@ -236,12 +315,51 @@ selectEl.addEventListener("change", (e) => {
 
 - **Propriedade `Element.style`**: Esta propriedade é uma propriedade somente leitura que representa o estilo inline de um elemento. Você pode usar esta propriedade para obter ou definir o estilo de um elemento.
 
+:::interactive_editor
+
+```html
+<p id="para">This paragraph will turn red.</p>
+<script src="./index.js"></script>
+```
+
 ```js
 const paraEl = document.getElementById("para");
 paraEl.style.color = "red";
 ```
 
+:::
+
 - **Propriedade `Element.classList`**: Esta propriedade é somente leitura e pode ser usada para adicionar, remover ou alternar classes em um elemento.
+
+:::interactive_editor
+
+```html
+<link rel="stylesheet" href="./styles.css"/>
+<p id="para" class="blue-background">This paragraph will have classes added and removed.</p>
+<div id="menu" class="menu">Menu Content</div>
+<button id="toggle-btn">Toggle Menu</button>
+<script src="./index.js"></script>
+```
+
+```css
+.highlight {
+  background-color: yellow;
+}
+
+.blue-background {
+  background-color: lightblue;
+}
+
+.menu {
+  display: none;
+  padding: 10px;
+  background-color: #f0f0f0;
+}
+
+.menu.show {
+  display: block;
+}
+```
 
 ```js
 // Example adding a class
@@ -258,10 +376,14 @@ const toggleBtn = document.getElementById("toggle-btn");
 toggleBtn.addEventListener("click", () => menu.classList.toggle("show"));
 ```
 
+:::
+
 
 ## Trabalhando com os métodos `setTimeout()` e `setInterval()`
 
-- **Método `setTimeout()`**: Este método permite atrasar uma ação por um tempo especificado. 
+- **Método `setTimeout()`**: Este método permite atrasar uma ação por um tempo especificado.
+
+:::interactive_editor
 
 ```js
 setTimeout(() => {
@@ -269,7 +391,11 @@ setTimeout(() => {
 }, 3000);
 ```
 
+:::
+
 - **Método `setInterval()`**: Este método executa repetidamente um trecho de código em um intervalo definido. Como o `setInterval()` continua executando a função fornecida no intervalo especificado, você pode querer pará-lo. Para isso, você deve usar o método `clearInterval()`.
+
+:::interactive_editor
 
 ```js
 setInterval(() => {
@@ -285,6 +411,8 @@ setTimeout(() => {
  clearInterval(intervalID);
 }, 5000);
 ```
+
+:::
 
 ## O Método `requestAnimationFrame()`
 
@@ -302,7 +430,24 @@ function animate() {
 
 ## API de Animações Web
 
-- **Definição**: A Web Animations API permite que você crie e controle animações diretamente dentro do JavaScript. 
+- **Definição**: A Web Animations API permite que você crie e controle animações diretamente dentro do JavaScript.
+
+:::interactive_editor
+
+```html
+<link rel="stylesheet" href="./styles.css"/>
+<div id="square"></div>
+<script src="./index.js"></script>
+```
+
+```css
+#square {
+  width: 100px;
+  height: 100px;
+  background: red;
+}
+
+```
 
 ```js
 const square = document.querySelector('#square');
@@ -318,12 +463,17 @@ const animation = square.animate(
 );
 ```
 
+:::
+
 ## A API Canvas
 
 - **Definição**: A Canvas API é uma ferramenta poderosa que permite manipular gráficos diretamente dentro do seu arquivo JavaScript. Para trabalhar com a Canvas API, você primeiro precisa fornecer um elemento `canvas` no HTML. Esse elemento atua como uma superfície de desenho que você pode manipular com os métodos de instância e propriedades das interfaces da Canvas API. Essa API possui interfaces como `HTMLCanvasElement`, `CanvasRenderingContext2D`, `CanvasGradient`, `CanvasPattern` e `TextMetrics` que contêm métodos e propriedades que você pode usar para criar gráficos no seu arquivo JavaScript.
 
+:::interactive_editor
+
 ```html
 <canvas id="my-canvas" width="400" height="400"></canvas>
+<script src="./index.js"></script>
 ```
 
 ```js
@@ -340,16 +490,21 @@ ctx.fillStyle = 'crimson';
 ctx.fillRect(1, 1, 150, 100);
 ```
 
+:::
+
 ## Abrindo e Fechando Diálogos e Modais com JavaScript
 
 - **Definições de Modal e Diálogo**: Diálogos permitem que você exiba informações importantes ou ações para os usuários. Com o elemento de diálogo embutido no HTML, você pode facilmente criar esses diálogos (tanto modais quanto não modais) em suas aplicações web. Um diálogo modal é um tipo de diálogo que obriga o usuário a interagir com ele antes de poder acessar o restante da aplicação ou página web. Em contraste, um diálogo não modal permite que o usuário continue interagindo com outras partes da página ou aplicação mesmo quando o diálogo está aberto. Ele não impede o acesso ao restante do conteúdo.
 - **Método `showModal()`**: Este método é usado para abrir um modal.
+
+:::interactive_editor
 
 ```html
 <dialog id="my-modal">
    <p>This is a modal dialog.</p>
 </dialog>
 <button id="open-modal">Open Modal Dialog</button>
+<script src="./index.js"></script>
 ```
 
 ```js
@@ -361,7 +516,11 @@ openButton.addEventListener('click', () => {
 });
 ```
 
+:::
+
 - **Método `close()`**: Este método é usado para fechar o modal.
+
+:::interactive_editor
 
 ```html
 <dialog id="my-modal">
@@ -369,6 +528,7 @@ openButton.addEventListener('click', () => {
    <button id="close-modal">Close Modal</button>
 </dialog>
 <button id="open-modal">Open Modal Dialog</button>
+<script src="./index.js"></script>
 ```
 
 ```js
@@ -384,6 +544,8 @@ closeButton.addEventListener('click', () => {
   dialog.close();
 });
 ```
+
+:::
 
 # --assignment--
 

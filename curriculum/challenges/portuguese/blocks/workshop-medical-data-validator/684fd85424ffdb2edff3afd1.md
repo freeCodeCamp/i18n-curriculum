@@ -9,7 +9,7 @@ dashedName: step-26
 
 Agora você pode ver `{'patient_id': None}` impresso no terminal porque o `p` minúsculo não corresponde a `P1001` e o operador `and` retorna o primeiro valor falso da expressão.
 
-Você quer garantir que o ID do paciente comece com a letra `p`, mas pode ser minúscula ou maiúscula.Para modificar o comportamento de correspondência das expressões regulares, você pode usar flags.Por exemplo, `re.search` aceita um terceiro argumento para especificar quaisquer flags:
+Você quer garantir que o ID do paciente comece com a letra `p`, mas pode ser minúscula ou maiúscula. Para modificar o comportamento de correspondência das expressões regulares, você pode usar flags. Por exemplo, `re.search` aceita um terceiro argumento para especificar quaisquer flags:
 
 ```py
 import re
@@ -21,7 +21,7 @@ print(re.search('hello', greeting, re.IGNORECASE))
 # <re.Match object; span=(0, 5), match='Hello'>
 ```
 
-Adicione `re.IGNORECASE` como o terceiro argumento na sua chamada `re.search`.Isso fará com que sua busca com regex não diferencie maiúsculas de minúsculas.
+Adicione `re.IGNORECASE` como o terceiro argumento na sua chamada `re.search`. Isso fará com que sua busca com regex não diferencie maiúsculas de minúsculas.
 
 Depois disso, você verá `None` substituído pelo objeto de correspondência `<re.Match object; span=(0, 1), match='P'>`, onde `match` indica a correspondência e `span` indica sua localização na string.
 
@@ -44,7 +44,6 @@ _var.is_equivalent(_first) or _var.is_equivalent(_second)
 
 ```py
 import re
-
 
 medical_records = [
     {
@@ -81,17 +80,14 @@ medical_records = [
     }
 ]
 
-
 def find_invalid_records(
     patient_id, age, gender, diagnosis, medications, last_visit_id
 ):
-
---fcc-editable-region--
     constraints = {
-        'patient_id': isinstance(patient_id, str) and re.search('p', patient_id)
-    }
 --fcc-editable-region--
-
+        'patient_id': isinstance(patient_id, str) and re.search('p', patient_id)
+--fcc-editable-region--
+    }
     return constraints
 
 def validate(data):
