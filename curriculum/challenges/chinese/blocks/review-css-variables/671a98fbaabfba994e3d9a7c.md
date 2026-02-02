@@ -5,7 +5,7 @@ challengeType: 31
 dashedName: review-css-variables
 ---
 
-# --description--
+# --interactive--
 
 ## CSS 自定义属性（CSS 变量）
 
@@ -40,13 +40,16 @@ body {
 }
 ```
 
-- **`--property-name`**：是你定义的自定义属性的名称。 像所有自定义属性一样，它必须以两个连字符开始。 `--property-name` 可以是 `<color>`、`<length>`、`<number>`、`<percentage>` 或更复杂的类型。
-- **`syntax`**：定义属性的类型。
+- **`--property-name`**: This is the name of the custom property you're defining. Like all custom properties, it must start with two dashes. **`syntax`**: This defines the type of the property, which can be things like `<color>`, `<length>`, `<number>`, `<percentage>`, or more complex types.
 - **`inherits`**：指定属性是否应该从父元素继承它的值。
 - **`initial-value`**：设置属性的默认值。
 - **使用 `@property` 规则的渐变的示例**：这个示例创建了一个渐变，当元素被悬停在上面时平滑地应用动画。
 
+:::interactive_editor
+
 ```html
+<link rel="stylesheet" href="styles.css">
+
 <div class="gradient-box"></div>
 ```
 
@@ -68,6 +71,8 @@ body {
   --gradient-angle: 90deg;
 }
 ```
+
+:::
 
 - **回退**：在使用自定义属性时，可以调用 `var()` 函数提供一个回退值，就像使用标准自定义属性一样：
 
