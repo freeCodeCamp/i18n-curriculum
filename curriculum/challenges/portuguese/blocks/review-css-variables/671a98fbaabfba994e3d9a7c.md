@@ -5,7 +5,7 @@ challengeType: 31
 dashedName: review-css-variables
 ---
 
-# --description--
+# --interactive--
 
 ## Propriedades Personalizadas CSS (Variáveis CSS)
 
@@ -46,7 +46,11 @@ body {
 - **`initial-value`**: Isso define o valor padrão da propriedade.
 - **Exemplo de Gradiente Usando a Regra `@property`**: Este exemplo cria um gradiente que anima suavemente quando o elemento é hoverado.
 
+:::interactive_editor
+
 ```html
+<link rel="stylesheet" href="styles.css">
+
 <div class="gradient-box"></div>
 ```
 
@@ -68,6 +72,8 @@ body {
   --gradient-angle: 90deg;
 }
 ```
+
+:::
 
 - **Fallbacks**: Ao usar a propriedade customizada, você pode fornecer um valor fallback usando a função `var()`, assim como faria com propriedades customizadas padrão:
 

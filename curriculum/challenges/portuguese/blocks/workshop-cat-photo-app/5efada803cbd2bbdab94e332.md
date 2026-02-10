@@ -11,19 +11,19 @@ Dentro do elemento `figure` que você acabou de adicionar, coloque um elemento `
 
 # --hints--
 
-O segundo elemento `figure` deve ter uma tag de abertura.As tags de abertura têm essa sintaxe: `<elementName>`.
+O segundo elemento `figure` deve ter uma tag de abertura. As tags de abertura têm essa sintaxe: `<elementName>`.
 
 ```js
 assert.isAtLeast(document.querySelectorAll('figure').length, 2);
 ```
 
-O segundo elemento `figure` deve ter uma tag de fechamento.As tags de fechamento têm um caractere `/` logo após o caractere `<`.
+O segundo elemento `figure` deve ter uma tag de fechamento. As tags de fechamento têm um caractere `/` logo após o caractere `<`.
 
 ```js
 assert.isAtLeast(code.match(/<\/figure>/g)?.length, 2);
 ```
 
-O segundo elemento `figure` deve estar logo acima da tag de fechamento de fechamento do segundo elemento `section`.Eles estão na ordem errada.
+O segundo elemento `figure` deve estar logo acima da tag de fechamento de fechamento do segundo elemento `section`. Eles estão na ordem errada.
 
 ```js
 assert.equal(document.querySelectorAll('main > section')[1]?.lastElementChild.nodeName, 'FIGURE');
@@ -86,11 +86,11 @@ assert.notMatch(code, /\<img\s+.+\s+src\s*=\s*https:\/\/cdn\.freecodecamp\.org\/
           <li>thunder</li>
           <li>other cats</li>
         </ol>
---fcc-editable-region--
         <figure>
-          
-        </figure>
 --fcc-editable-region--
+          
+--fcc-editable-region--
+        </figure>
       </section>
     </main>
   </body>
