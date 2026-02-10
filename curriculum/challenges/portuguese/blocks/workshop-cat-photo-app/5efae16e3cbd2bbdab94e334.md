@@ -11,13 +11,13 @@ Depois do último elemento `img`, adicione um elemento `figcaption` com o texto 
 
 # --hints--
 
-O elemento `figcaption` deve ter uma tag de abertura.As tags de abertura possuem a seguinte sintaxe: `<elementName>`.
+O elemento `figcaption` deve ter uma tag de abertura. As tags de abertura possuem a seguinte sintaxe: `<elementName>`.
 
 ```js
 assert.lengthOf(document.querySelectorAll('figcaption'), 2);
 ```
 
-O elemento `figcaption` deve ter uma tag de fechamento.As tags de fechamento têm um caractere `/` logo após o caractere `<`.
+O elemento `figcaption` deve ter uma tag de fechamento. As tags de fechamento têm um caractere `/` logo após o caractere `<`.
 
 ```js
 assert.lengthOf(code.match(/<\/figcaption\>/g), 2);
@@ -38,13 +38,13 @@ assert.equal(
 );
 ```
 
-O elemento `figure` deve ter uma tag de abertura.As tags de abertura possuem a seguinte sintaxe: `<elementName>`.
+O elemento `figure` deve ter uma tag de abertura. As tags de abertura possuem a seguinte sintaxe: `<elementName>`.
 
 ```js
 assert.lengthOf(document.querySelectorAll('figure'), 2);
 ```
 
-O elemento `figure` deve ter uma tag de fechamento.As tags de fechamento têm um caractere `/` logo após o caractere `<`.
+O elemento `figure` deve ter uma tag de fechamento. As tags de fechamento têm um caractere `/` logo após o caractere `<`.
 
 ```js
 assert.lengthOf(code.match(/<\/figure\>/g), 2);
@@ -56,7 +56,7 @@ O elemento `figcaption` da lasanha deve estar dentro do elemento `figure`.
 assert.lengthOf(document.querySelectorAll('figure > figcaption'), 2);
 ```
 
-O elemento `figcaption` dentro do elemento `figure` deve estar abaixo do elemento `img`.O elemento `img` e o elemento `figcaption` estão na ordem errada.
+O elemento `figcaption` dentro do elemento `figure` deve estar abaixo do elemento `img`. O elemento `img` e o elemento `figcaption` estão na ordem errada.
 
 ```js
 assert.equal(
@@ -109,12 +109,12 @@ assert.match(
           <li>thunder</li>
           <li>other cats</li>
         </ol>
---fcc-editable-region--
         <figure>
           <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" alt="Two tabby kittens sleeping together on a couch.">
-
-        </figure>
 --fcc-editable-region--
+          
+--fcc-editable-region--
+        </figure>
       </section>
     </main>
   </body>

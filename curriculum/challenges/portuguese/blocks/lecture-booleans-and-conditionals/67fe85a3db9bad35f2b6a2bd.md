@@ -15,14 +15,14 @@ Em uma lição anterior, você aprendeu que booleanos são um dos tipos de dados
 
 Aqui está uma tabela com os operadores de comparação em Python:
 
-| Operador | Nome | Descrição |
+| Operator | Name | Description |
 | --- | --- | --- |
-| `==` | Igual | Verifica se dois valores são iguais |
-| `!=` | Não igual | Verifica se dois valores não são iguais |
-| `>` | Maior que | Verifica se o valor à esquerda é maior que o valor à direita |
-| `<` | Menor que | Verifica se o valor à esquerda é menor que o valor à direita |
-| `>=` | Maior que ou igual a | Verifica se o valor à esquerda é maior que ou igual ao valor à direita |
-| `<=` | Menor que ou igual a | Verifica se o valor à esquerda é menor que ou igual ao valor à direita |
+| `==` | Equal | Checks if two values are equal |
+| `!=` | Not equal | Checks if two values are not equal |
+| `>` | Greater than | Checks if the value on the left is greater than the value on the right |
+| `<` | Less than | Checks if the value on the left is less than the value on the right |
+| `>=` | Greater than or equal | Checks if the value on the left is greater than or equal to the value on the right |
+| `<=` | Less than or equal | Checks if the value on the left is less than or equal to the value on the right |
 
 Aqui estão algumas dessas expressões que avaliam para `True` ou `False`:
 
@@ -111,10 +111,10 @@ Podem haver situações em que você queira considerar múltiplas condições. P
 Aqui está a sintaxe:
 
 ```python
-if condition:
-   pass # Code to execute if condition is True
+if condition1:
+   pass # Code to execute if condition1 is True
 elif condition2:
-   pass # Code to execute if condition2 is True
+   pass # Code to execute if condition1 is False and condition2 is True
 else:
    pass # Code to execute if all conditions are False
 ```

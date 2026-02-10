@@ -31,13 +31,13 @@ assert.equal(
 );
 ```
 
-O elemento `h3` deve ter uma tag de fechamento.As tags de fechamento têm um caractere `/` logo após o caractere `<`.
+O elemento `h3` deve ter uma tag de fechamento. As tags de fechamento têm um caractere `/` logo após o caractere `<`.
 
 ```js
 assert.lengthOf(code.match(/<\/h3>/g), 1);
 ```
 
-O elemento `h3` logo acima da tag de fechamento do segundo elemento `section` deve ter o texto `Things cats love:`.Certifique-se de incluir os dois pontos ao final do texto.
+O elemento `h3` logo acima da tag de fechamento do segundo elemento `section` deve ter o texto `Things cats love:`. Certifique-se de incluir os dois pontos ao final do texto.
 
 ```js
 assert.equal(
@@ -48,7 +48,7 @@ assert.equal(
 );
 ```
 
-Deve haver um elemento `h2` com o texto `Cat Lists` acima do último elemento `h3` que está aninhado no último elemento `section`.Você pode ter excluído o elemento `h2` acidentalmente.
+Deve haver um elemento `h2` com o texto `Cat Lists` acima do último elemento `h3` que está aninhado no último elemento `section`. Você pode ter excluído o elemento `h2` acidentalmente.
 
 ```js
 const secondSectionLastElemNode = document.querySelectorAll('main > section')[1]
@@ -76,12 +76,12 @@ assert.equal(
         <p>See more <a target="_blank" href="https://freecatphotoapp.com">cat photos</a> in our gallery.</p>
         <a href="https://freecatphotoapp.com"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
       </section>
---fcc-editable-region--
       <section>
         <h2>Cat Lists</h2>
-        
-      </section>
 --fcc-editable-region--
+        
+--fcc-editable-region--
+      </section>
     </main>
   </body>
 </html>

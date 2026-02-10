@@ -5,23 +5,40 @@ challengeType: 31
 dashedName: review-css-animations
 ---
 
-# --description--
+# --interactive--
 
 ## Noções básicas de Animação CSS
 
 - **Definição**: Animações CSS permitem que você crie efeitos dinâmicos e visualmente atraentes em páginas web sem a necessidade de JavaScript ou programação complexa. Elas fornecem uma maneira de transitar suavemente elementos entre diferentes estilos ao longo de uma duração especificada.
 - **A Regra `@keyframes`**: Esta regra define os estágios e estilos da animação. Ela especifica quais estilos o elemento deve ter em vários pontos durante a animação.
 
+:::interactive_editor
+
+```html
+<link rel="stylesheet" href="styles.css">
+<div class="box">Slide</div>
+```
+
 ```css
+.box {
+  width: 120px;
+  padding: 10px;
+  background: #0077ff;
+  color: white;
+  animation: slide-in 1s ease-in-out;
+}
+
 @keyframes slide-in {
-  0% {
+  from {
     transform: translateX(-100%);
   }
-  100% {
+  to {
     transform: translateX(0);
   }
 }
 ```
+
+:::
 
 - **Propriedade `animation`**: Esta é a propriedade abreviada usada para aplicar animações.
 - **`animation-name`**: Isso especifica o nome para a regra `@keyframes` a ser usada.
@@ -37,9 +54,21 @@ dashedName: review-css-animations
 
 - **A Media Query `prefers-reduced-motion`**: Uma das principais preocupações de acessibilidade com animações é que elas podem causar desconforto ou até danos físicos a alguns usuários. Pessoas com distúrbios vestibulares ou sensibilidade ao movimento podem sentir tontura, náusea ou dores de cabeça quando expostas a certos tipos de movimento na tela. A media query `prefers-reduced-motion` permite que desenvolvedores web detectem se o usuário solicitou animações ou efeitos de movimento mínimos no nível do sistema.
 
+:::interactive_editor
+
+```html
+<link rel="stylesheet" href="styles.css">
+<button class="animated-element">Hover me</button>
+```
+
 ```css
 .animated-element {
+  padding: 10px 16px;
   transition: transform 0.3s ease-in-out;
+}
+
+.animated-element:hover {
+  transform: translateX(20px);
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -48,6 +77,8 @@ dashedName: review-css-animations
   }
 }
 ```
+
+:::
 
 # --assignment--
 
