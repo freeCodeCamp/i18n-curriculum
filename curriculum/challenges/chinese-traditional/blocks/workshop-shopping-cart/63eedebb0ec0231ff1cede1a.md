@@ -1,45 +1,45 @@
 ---
 id: 63eedebb0ec0231ff1cede1a
-title: 步驟 22
+title: 第 22 步
 challengeType: 0
 dashedName: step-22
 ---
 
 # --description--
 
-Use the `.forEach()` method to loop through the `items` array. Pass an empty callback function that takes a single parameter `dessert`.
+使用 `.forEach()` 方法來迴圈瀏覽 `items` 陣列。傳入一個帶有單一參數 `dessert` 的空回呼函式（函式）。
 
 # --hints--
 
-You should use the `.forEach()` method on your `items` array.
+你應該在你的 `items` 陣列上使用 `.forEach()` 方法。
 
 ```js
 const cart = new ShoppingCart();
 assert.match(cart.addItem.toString(), /items\.forEach\(/);
 ```
 
-Remember to use the `this` keyword to access the `items` array.
+請記得使用 `this` 關鍵字來存取 `items` 陣列。
 
 ```js
 const cart = new ShoppingCart();
 assert.match(cart.addItem.toString(), /this\.items\.forEach\(/);
 ```
 
-You should pass a callback function to the `.forEach()` method.
+你應該將回呼函式傳遞給 `.forEach()` 方法。
 
 ```js
 const cart = new ShoppingCart();
 assert.match(cart.addItem.toString(), /this\.items\.forEach\(\s*function\s*\(/);
 ```
 
-Your callback function should take a single parameter.
+你的回呼函式應該接受一個單一參數。
 
 ```js
 const cart = new ShoppingCart();
 assert.match(cart.addItem.toString(), /this\.items\.forEach\(\s*function\s*\(\s*dessert\s*\)/);
 ```
 
-Your callback function should be empty.
+你的回呼函式應該是空的。
 
 ```js
 const cart = new ShoppingCart();

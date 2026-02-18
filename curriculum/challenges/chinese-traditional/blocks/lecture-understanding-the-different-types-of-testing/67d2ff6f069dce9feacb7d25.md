@@ -1,65 +1,65 @@
 ---
 id: 67d2ff6f069dce9feacb7d25
-title: What Is Compatibility Testing?
+title: 什麼是相容性測試？
 challengeType: 19
 dashedName: what-is-compatibility-testing
 ---
 
 # --description--
 
-When you build out web applications at scale, you will need to think beyond your personal computing environment. How will these applications work on a variety of devices, operating systems, and browsers? Well, this is where compatibility testing comes in.
+當你大規模建置網頁應用程式時，你需要超越個人運算環境來思考。這些應用程式將如何在各種裝置、作業系統和瀏覽器上運作？這就是相容性測試的用武之地。
 
-The goal of compatibility testing is to see how well your software works in a variety of different computing environments. This provides the team with the ability to catch bugs before they reach production and will help contribute to a smoother product launch.
+相容性測試的目標是檢視你的軟體在各種不同計算環境中的運作效能。這讓團隊能夠在錯誤進入生產階段前發現問題，並有助於促進更順利的產品發佈。
 
-Different types of compatibility testing include backwards and forwards compatibility, hardware testing, operating systems, networks, browsers, and mobile devices.
+不同型別的相容性測試包括向後和向前相容性、硬體測試、作業系統、網路、瀏覽器和行動裝置。
 
-Let's take a look at each of the types in more detail by starting with backwards and forwards compatibility. Backwards compatibility refers to when current software is compatible with earlier versions. Forwards compatibility is when software and systems will work with future versions of itself.
+讓我們從向後相容性和向前相容性開始，更詳細地看看每種型別。向後相容性是指當前軟體與早期版本相容。向前相容性是指軟體和系統能與未來版本相容。
 
-The next type of testing is for hardware. Hardware compatibility testing focuses on the software's ability to work properly in different hardware configurations. This includes different types of processors, memory, storage, and graphics cards.
+下一種測試是針對硬體。硬體相容性測試著重於軟體在不同硬體組態中正常運作的能力。這包括不同類型的處理程序、記憶體、儲存裝置和顯示卡。
 
-Another type of compatibility testing is for operating systems. You don't want to design software that works smoothly on Mac devices but has bugs on Windows or vice versa. You also need to consider Linux distributions like Ubuntu and Fedora.
+另一種相容性測試是針對作業系統。如果你不想設計在 Mac 裝置上運作順暢但在 Windows 上有錯誤的軟體，或反之亦然，你也需要考慮像 Ubuntu 和 Fedora 這樣的 Linux 發行版。
 
-The next type of testing is network compatibility testing. You will have users working with different network speeds, protocols, security settings, and more. Therefore, software teams will need to be mindful of all of those different conditions when testing.
+下一種測試型別是網路相容性測試。你會有使用者使用不同的網路速度、協定、安全設定等。因此，軟體團隊在測試時需要注意所有這些不同的條件。
 
-Then, there's browser compatibility testing. There are a few popular browsers in the market like Google Chrome, Safari, Firefox, and more. Since all browsers work slightly differently, it's important to test your web application thoroughly and make sure your web applications work consistently across many browsers.
+接著，是瀏覽器相容性測試。市面上有幾個熱門瀏覽器，如 Google Chrome、Safari、Firefox 等。由於所有瀏覽器的運作方式略有不同，因此徹底測試你的網頁應用程式並確保它們在多個瀏覽器中一致運作非常重要。
 
-The last type of testing is mobile testing. There was a time in web development when most developers didn't think about testing for mobile devices. This was because, in the early 2000s, mobile devices weren't nearly as powerful or widely used as they are today. But now, tens of millions of people visit websites on phones and tablets. So, it is important to ensure that your software applications work on a variety of Android and iOS devices.
+最後一種測試是行動裝置測試。曾經在網頁開發中，大多數開發者不會考慮為行動裝置進行測試。這是因為在 2000 年代初期，行動裝置的效能和普及度遠不及現在。但現在，有數千萬人使用手機和平板電腦瀏覽網站。因此，確保你的軟體應用程式能在各種 Android 和 iOS 裝置上運作非常重要。
 
-Those are just a few types of testing that you will need to consider when building out your applications. While this might seem like a lot of extra work, it is important to perform compatibility tests because you do want to ensure that your applications work in a variety of computing environments.
+這些只是你在建置應用程式時需要考慮的幾種測試型別。雖然這看起來像是額外的工作，但執行相容性測試很重要，因為你確實想確保你的應用程式能在各種計算環境中運作。
 
 # --questions--
 
 ## --text--
 
-What is the main goal of compatibility testing?
+相容性測試的主要目標是什麼？
 
 ## --answers--
 
-To ensure that your applications have no accessibility errors.
+為了確保你的應用程式沒有任何無障礙錯誤。
 
 ### --feedback--
 
-Refer to the beginning of the lesson where this was discussed.
+請參考課程開始時討論的內容。
 
 ---
 
-To ensure that your applications are free from linting and formatting errors.
+為了確保你的應用程式沒有 linting 和格式化錯誤。
 
 ### --feedback--
 
-Refer to the beginning of the lesson where this was discussed.
+請參考課程開始時討論的內容。
 
 ---
 
-To ensure that your applications work in a variety of computing environments.
+為了確保你的應用程式能在各種計算環境中運作。
 
 ---
 
-To ensure that your applications only work for different Linux distributions.
+為了確保你的應用程式僅適用於不同的 Linux 發行版。
 
 ### --feedback--
 
-Refer to the beginning of the lesson where this was discussed.
+請參考課程開始時討論的內容。
 
 ## --video-solution--
 
@@ -67,35 +67,35 @@ Refer to the beginning of the lesson where this was discussed.
 
 ## --text--
 
-Which of the following refers to when current software is compatible with earlier versions?
+以下哪一項是指當前軟體與早期版本相容？
 
 ## --answers--
 
-CPU compatibility
+CPU 相容性
 
 ### --feedback--
 
-Think about how software will work with older versions.
+思考軟體如何與舊版本協同運作。
 
 ---
 
-Accessible compatibility
+可存取相容性
 
 ### --feedback--
 
-Think about how software will work with older versions.
+思考軟體如何與舊版本協同運作。
 
 ---
 
-Forwards compatibility
+向前相容性
 
 ### --feedback--
 
-Think about how software will work with older versions.
+思考軟體如何與舊版本協同運作。
 
 ---
 
-Backwards compatibility
+向後相容性
 
 ## --video-solution--
 
@@ -103,35 +103,35 @@ Backwards compatibility
 
 ## --text--
 
-Which of the following is NOT typically targeted in compatibility testing?
+以下哪一項通常不會成為相容性測試的標的？
 
 ## --answers--
 
-Mobile operating systems
+行動作業系統
 
 ### --feedback--
 
-One of these options refers to computer memory.
+這些選項中有一個是取用電腦記憶體。
 
 ---
 
-RAM size
+RAM 大小
 
 ---
 
-Hardware configuration
+硬體設定、組態
 
 ### --feedback--
 
-One of these options refers to computer memory.
+這些選項中有一個是取用電腦記憶體。
 
 ---
 
-Network environments
+網路環境
 
 ### --feedback--
 
-One of these options refers to computer memory.
+這些選項中有一個是取用電腦記憶體。
 
 ## --video-solution--
 

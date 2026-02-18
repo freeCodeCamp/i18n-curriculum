@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c242eddfaeb5bd13
-title: 制作一个个人作品集展示页
+title: 创建一个个人作品集页面
 challengeType: 14
 saveSubmissionToDB: true
 forumTopicId: 301143
@@ -9,9 +9,9 @@ dashedName: build-a-personal-portfolio-webpage
 
 # --description--
 
-**目标：** 构建一个功能类似于 <a href="https://personal-portfolio.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://personal-portfolio.freecodecamp.rocks</a> 的应用程序。 **请勿复制此演示项目**。
+**目标：** 构建一个功能上类似于 <a href="https://personal-portfolio.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://personal-portfolio.freecodecamp.rocks</a> 的应用。**不要拷贝此演示项目**。
 
-**用户需求：**
+**用户故事：**
 
 1. 你的作品集应该有一个欢迎部分，其 `id` 为 `welcome-section`
 1. 欢迎部分应该有一个包含文本的 `h1` 元素
@@ -25,9 +25,9 @@ dashedName: build-a-personal-portfolio-webpage
 1. 欢迎部分的高度应该等于视口的高度
 1. 导航栏应该始终位于视口的顶部
 
-完成需求并通过下面的所有测试来完成这个项目。 使用你自己的个人风格样式。 编程愉快！
+满足用户故事并通过下面的所有测试来完成这个项目。 赋予它你的个人风格. 祝你编码愉快！
 
-**注意：** 请在你的 HTML 中添加 `<link rel="stylesheet" href="styles.css">` 以链接你的样式表并应用你的 CSS
+**注意：** 请确保在你的超文本标记语言中添加 `<link rel="stylesheet" href="styles.css">` 以链接你的样式表并应用你的 CSS
 
 # --hints--
 

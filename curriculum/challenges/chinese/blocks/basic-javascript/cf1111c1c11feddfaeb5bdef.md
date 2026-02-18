@@ -8,7 +8,7 @@ dashedName: iterate-with-javascript-for-loops
 
 # --description--
 
-You can run the same code multiple times by using a loop.
+你可以使用循环多次执行相同的代码。
 
 JavaScript 中最常见的循环就是 `for`，它可以循环指定次数。
 
@@ -22,7 +22,7 @@ for 循环中的可选三个表达式用分号隔开：
 
 终止循环表达式在每次循环迭代结束， 在下一个条件检查之前时执行，通常用来递增或递减循环计数。
 
-在下面的例子中，先初始化 `i = 0`，条件 `i < 5` 为 true 时，进入循环。 每次循环后 `i` 的值增加 `1`，然后执行终止循环条件表达式 `i++`。
+在以下示例中，我们用 `i = 0` 初始化，并在条件 `i < 5` 为真时迭代。我们将在每次循环迭代中用 `i++` 作为最终表达式将 `i` 增加 `1`。
 
 ```js
 const ourArray = [];
@@ -40,7 +40,7 @@ for (let i = 0; i < 5; i++) {
 
 # --hints--
 
-你应该使用 `for` 循环。
+应该使用 `for` 循环。
 
 ```js
 assert(/for\s*\([^)]+?\)/.test(__helpers.removeJSComments(code)));

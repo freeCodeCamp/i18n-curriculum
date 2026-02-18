@@ -1,6 +1,6 @@
 ---
 id: 69032acee355bfd2ac9aaa8b
-title: Task 13
+title: 任務 13
 challengeType: 24
 dashedName: task-13
 lang: zh-CN
@@ -8,23 +8,23 @@ lang: zh-CN
 
 # --description--
 
-## Tone Sandhi of `不 (bù)`
+## `不 (bù)` 的變調
 
-`不 (bù)` means "no" or "not". When it is followed by a syllable which is in the first, second or the third tone, it remains in the fourth tone.
+`不 (bù)` 意思是「不」或「不是」。當它後面接第一、第二或第三聲的音節時，仍保持第四聲。
 
-However, when `不 (bù)` is followed by a syllable which is in the fourth tone, it changes to the second tone.
+但是，當 `不 (bù)` 後面接第四聲的音節時，它會變成第二聲。
 
-This tone change is a natural adjustment in speech to make pronunciation smoother.
+這種語調變化是在語音中為了使發音更順暢而進行的自然調整。
 
-### Examples
+### 範例
 
 | Written    | Pronounced as |
-| ---------- | ------------- |
-| `bù néng`  | `bù néng`     |
-| `bù xiǎng` | `bù xiǎng`    |
-| `bù shì`   | `bú shì`      |
-| `bù huì`   | `bú huì`      |
+|------------|----------------|
+| `bù néng`   | `bù néng`      |
+| `bù xiǎng`   | `bù xiǎng`      |
+| `bù shì`    | `bú shì`       |
+| `bù huì`  | `bú huì`   |
 
 # --assignment--
 
-I've read this Pinyin rule.
+我已閱讀此拼音規則。

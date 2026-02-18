@@ -24,7 +24,7 @@ lang: en-US
 
 ### --feedback--
 
-This verb is used when someone wants to get information or permission.
+当某人想获取信息或许可时使用此动词。
 
 ---
 
@@ -32,17 +32,17 @@ This verb is used when someone wants to get information or permission.
 
 ### --feedback--
 
-This preposition connects related topic or subject.
+这个介词连接相关的主题或对象。
 
 # --explanation--
 
-`Ask about` means to request information related to a specific topic. 例如：
+`Ask about` 意味着请求与特定主题相关的信息。例如：
 
-`I asked about the new feature.` – You wanted information on the feature.
+`I asked about the new feature.` – 你想要关于该特色的信息。 
 
-`Can I ask you about...` is a polite way to start a question when you want information or help. It shows that you're asking for permission to talk about a specific topic. 例如：
+`Can I ask you about...` 是一种礼貌的提问方式，当你想要信息或帮助时使用。它表示你在征求谈论特定主题的许可。例如：
 
-`Can I ask you about the project deadline?` – This means you want to talk about the deadline and get more details.
+`Can I ask you about the project deadline?` – 这意味着你想讨论截止日期并获取更多细节。  
 
 # --scene--
 

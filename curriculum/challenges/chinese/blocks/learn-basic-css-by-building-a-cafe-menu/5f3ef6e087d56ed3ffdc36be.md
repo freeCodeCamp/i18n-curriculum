@@ -1,29 +1,29 @@
 ---
 id: 5f3ef6e087d56ed3ffdc36be
-title: Step 61
+title: 步骤 61
 challengeType: 0
 dashedName: step-61
 ---
 
 # --description--
 
-Now apply the `established` class to the `Est. 2020` text.
+现在将 `established` 类应用于文本 `Est. 2020`。
 
 # --hints--
 
-You should set the `class` of the `p` element to `established`.
+你应该将 `p` 元素的 `class` 设置为 `established`
 
 ```js
 assert.match(code,/<p class=('|")established\1>/i);
 ```
 
-Your `established` class should be on the element with the text `Est. 2020`.
+在具有文本 `Est. 2020` 的元素上应该有 `established` 类。
 
 ```js
 assert.match(document.querySelector('.established')?.innerText, /Est\.\s2020/i);
 ```
 
-Your `established` class element should have italic text.
+你的 `established` 类元素应该有斜体字。
 
 ```js
 const establishElement = document.querySelector('.established');

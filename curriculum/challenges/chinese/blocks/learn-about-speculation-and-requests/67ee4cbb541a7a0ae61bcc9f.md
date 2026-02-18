@@ -1,6 +1,6 @@
 ---
 id: 67ee4cbb541a7a0ae61bcc9f
-title: Task 4
+title: 任务 4
 challengeType: 19
 dashedName: task-4
 lang: en-US
@@ -16,35 +16,35 @@ lang: en-US
 
 ## --text--
 
-Is this small error serious?
+这个小误差严重吗？
 
 ## --answers--
 
-No, and they don't need to do anything about it.
+不，他们也不需要对此做任何处理。
 
 ### --feedback--
 
-Sophie doesn't say it's a major issue, but they should fix it.
+Sophie 没有说这是一个重大问题，但他们应该修复它。
 
 ---
 
-Yes, it will break the whole system.
+是的，它会破坏整个系统。
 
 ### --feedback--
 
-Sophie doesn't say it's a major issue, just something they should fix.
+Sophie 没说这是一个重大问题，只是他们应该修复的东西。
 
 ---
 
-Yes, Sophie is very worried about it.
+是的，Sophie 非常担心这件事。
 
 ### --feedback--
 
-Sophie is not very worried, but she still thinks they should fix it.
+索菲不是很担心，但她仍然认为他们应该修复它。
 
 ---
 
-No, but it should still be fixed.
+不，但它仍然应该被修复。
 
 ## --video-solution--
 
@@ -52,13 +52,13 @@ No, but it should still be fixed.
 
 # --explanation--
 
-`It's not a big deal` means the problem is not serious. For example:
+`It's not a big deal` 意味着问题不严重。例如：
 
-- Person 1: `I can't join the meeting today.`
+- 人员 1：`I can't join the meeting today.`
 
-- Person 2: `It's not a big deal. I'll take notes for you.` - Missing the meeting is okay, and this person can help.
+- 人物 2：`It's not a big deal. I'll take notes for you.`——错过会议没关系，这个人可以帮忙。
 
-Sophie also says `we should fix it before it causes problems`, meaning it's better to fix it now before it becomes serious.
+Sophie 还说 `we should fix it before it causes problems`，意思是现在修复它比等到问题严重时更好。
 
 # --scene--
 

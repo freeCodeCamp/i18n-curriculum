@@ -1,6 +1,6 @@
 ---
 id: 655c0feadb1dd77f6cda623f
-title: "Dialogue 1: A Job Interview"
+title: "对话框 1：一次工作面试"
 challengeType: 21
 dashedName: dialogue-1-a-job-interview
 lang: en-US
@@ -8,11 +8,11 @@ lang: en-US
 
 # --description--
 
-Watch the video below to understand the context of the upcoming lessons.
+观看下面的视频，以了解接下来课程的背景。
 
 # --assignment--
 
-Watch the video.
+观看视频。
 
 # --scene--
 

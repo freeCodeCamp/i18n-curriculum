@@ -1,6 +1,6 @@
 ---
 id: 68c58aa8c9d2a2dfea45deb7
-title: Task 7
+title: 任务 7
 challengeType: 19
 dashedName: task-7
 lang: es
@@ -10,17 +10,17 @@ lang: es
 
 # --description--
 
-Elena is saying goodbye, but she expects to see you again.
+Elena 正在告别，但她期待再次见到你。
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+听音频，回答下面的问题。
 
 # --questions--
 
 ## --text--
 
-What phrase does Elena use to say "see you later"?
+Elena 用什么短语来说“see you later”？
 
 ## --answers--
 
@@ -32,7 +32,7 @@ What phrase does Elena use to say "see you later"?
 
 ### --feedback--
 
-This is a goodbye, but it's more final. The speaker uses a different phrase.
+这是告别，但更为最终。说话者使用了不同的短语。
 
 ---
 
@@ -40,7 +40,7 @@ This is a goodbye, but it's more final. The speaker uses a different phrase.
 
 ### --feedback--
 
-This is also an informal way to say goodbye, but it's not the one in the audio.
+这也是一种非正式的告别方式，但它不是音频中的那个。
 
 ---
 
@@ -48,7 +48,7 @@ This is also an informal way to say goodbye, but it's not the one in the audio.
 
 ### --feedback--
 
-This means "Hi", a general greeting, but it's not what Elena says.
+这意味着 "Hi"，一个通用的问候，但这不是 Elena 说的。
 
 ## --video-solution--
 
@@ -56,11 +56,11 @@ This means "Hi", a general greeting, but it's not what Elena says.
 
 # --explanation--
 
-`Hasta luego` is a common way to say goodbye in Spanish. It translates to "See you later".
+`Hasta luego` 是西班牙语中常用的告别方式。它的意思是 "See you later"。
 
-It's used when you expect to see the person again, but not necessarily soon. For example:
+当你期望再次见到此人，但不一定很快时使用。例如：  
 
-`Hasta luego, Marta.` – See you later, Marta.
+`Hasta luego, Marta.` – 回头见，Marta。
 
 # --scene--
 

@@ -1,6 +1,6 @@
 ---
 id: 66bf6bacf178eac7b96d4f5e
-title: Build a Favorite Icon Toggler
+title: 构建一个收藏图标切换器
 challengeType: 25
 dashedName: build-a-favorite-icon-toggler
 demoType: onClick
@@ -8,55 +8,55 @@ demoType: onClick
 
 # --description--
 
-In this lab you will use JavaScript click events to toggle the appearance of a favorite icon. When the heart icon is clicked, the appearance of the heart changes from empty to filled, and vice versa.
+在本实验中，你将使用 JavaScript 点击事件来切换收藏图标的外观。当点击心形图标时，心形的外观会从空心变为实心，反之亦然。
 
 **目标：**实现以下用户需求并通过所有测试以完成实验。
 
-**用户需求：**
+**用户故事：**
 
-1. You should have an unordered list with three items.
-2. The unordered list should have the class `item-list`.
-3. The three list items should contain the item name followed by a `button` element with the class `favorite-icon`.
-4. The `button` element should contain the code `&#9825;` initially to represent an empty heart.
-5. When a `button` element containing a heart is clicked, you should add a class named `filled` to the clicked `button` if it's not already present, and remove it, if it is.
-6. You should have a class selector that targets the `filled` class and sets some CSS properties.
-7. When a `button` element containing a heart is clicked, the heart symbol should toggle between `&#9825;` (empty heart) and `&#10084;` (filled heart), depending on its current state.
+1. 你应该有一个包含三项的无序列表。
+2. 无序列表应具有类 `item-list`。
+3. 这三个列表项应包含项名称，后跟带有类 `favorite-icon` 的 `button` 元素。
+4. `button` 元素应最初包含代码 `&#9825;` 以表现一个空心爱心。
+5. 当点击包含心形的 `button` 元素时，如果被点击的 `button` 上尚未存在名为 `filled` 的类，则你应该为它添加该类；如果已存在，则应将其移除。
+6. 你应该有一个类选择器，目标为 `filled` 类并设置一些 CSS 属性。
+7. 当包含心形的 `button` 元素被点击时，心形符号应根据其当前状态在 `&#9825;`（空心）和 `&#10084;`（实心）之间切换。
 
-**Note:** Be sure to link your JavaScript file in your HTML. (Ex. `<script src="script.js"></script>`)
+**注意：** 请确保在你的超文本标记语言中链接你的 JavaScript 文件。（例如 `<script src="script.js"></script>`）
 
 # --hints--
 
-You should have an unordered list.
+你应该有一个无序列表。
 
 ```js
 assert.exists(document.querySelector('ul'));
 ```
 
-Your unordered list should have 3 items.
+你的无序列表应有 3 项。
 
 ```js
 assert.lengthOf(document.querySelectorAll('ul li'), 3);
 ```
 
-Your unordered list should have the class `item-list`.
+你的无序列表应具有 `item-list` 类。
 
 ```js
 assert.exists(document.querySelector('ul.item-list'));
 ```
 
-Your individual list items should contain the item name.
+你的各个列表项应包含该项名称。
 
 ```js
 assert.exists(document.querySelector('ul li').textContent);
 ```
 
-Your individual list item should contain a `button` element with the class `favorite-icon`.
+你的单个列表项应包含一个带有类 `favorite-icon` 的 `button` 元素。
 
 ```js
 assert.exists(document.querySelector('ul li button.favorite-icon'));
 ```
 
-Initially, the `button` elements should contain the code `&#9825;` to represent an empty heart.
+最初，`button` 元素应包含代码 `&#9825;` 来表现一个空心爱心。
 
 ```js
 const inputs = document.querySelectorAll('ul li button.favorite-icon');
@@ -67,7 +67,7 @@ for (let input of inputs) {
 }
 ```
 
-You should have a `.filled` selector that sets some CSS properties.
+你应该有一个 `.filled` 选择器来设置一些 CSS 属性。
 
 ```js
 const filled = new __helpers.CSSHelp(document).getStyle('.filled');
@@ -75,7 +75,7 @@ assert.exists(filled);
 assert.isNotEmpty([...filled]); 
 ```
 
-When the `button` element is clicked, and it contains the class `filled`, you should remove the class `filled` from the `button` element and change the innerHTML of the `button` element to `&#9825;`.
+当点击 `button` 元素且它包含 `filled` 类时，你应该从 `button` 元素中移除 `filled` 类，并将 `button` 元素的 innerHTML 更改为 `&#9825;`。
 
 ```js
 const buttonElements = document.querySelectorAll('.favorite-icon');
@@ -90,7 +90,7 @@ buttonElements.forEach(button => {
 });
 ```
 
-When the `button` element is clicked, and it doesn't contain the class `filled`, you should add the class `filled` to the `button` element and change the `innerHTML` of the `button` element to `&#10084;`.
+当点击 `button` 元素且它不包含 `filled` 类时，你应该为 `button` 元素添加 `filled` 类并将 `button` 元素的 `innerHTML` 更改为 `&#10084;`。
 
 ```js
 const buttonElements = document.querySelectorAll('.favorite-icon');
@@ -119,7 +119,7 @@ buttonElements.forEach(button => {
   </head>
 
   <body>
-
+  
   </body>
 </html>
 ```

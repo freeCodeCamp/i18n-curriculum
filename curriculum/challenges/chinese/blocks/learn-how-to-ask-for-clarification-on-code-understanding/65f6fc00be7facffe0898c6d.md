@@ -1,6 +1,6 @@
 ---
 id: 65f6fc00be7facffe0898c6d
-title: Task 43
+title: 任务 43
 challengeType: 22
 dashedName: task-43
 lang: en-US
@@ -10,13 +10,13 @@ lang: en-US
 
 # --description--
 
-This is a review of the entire dialogue you just studied.
+这是对你刚刚学习的整个对话框的复习。
 
 # --instructions--
 
-Write the following words or phrases in the correct spot:
+将以下单词或短语写在正确的位置：
 
-`symptoms of`, `may occur`, `start by`, `clearer picture`, `investigate`, and `a second pair of eyes`.
+`symptoms of`、`may occur`、`start by`、`clearer picture`、`investigate` 和 `a second pair of eyes`。
 
 # --fillInTheBlank--
 
@@ -36,7 +36,7 @@ Write the following words or phrases in the correct spot:
 
 ### --feedback--
 
-Another person who checks your work to help find mistakes.
+另一个查看你工作的人员以帮助查找错误。
 
 ---
 
@@ -44,7 +44,7 @@ Another person who checks your work to help find mistakes.
 
 ### --feedback--
 
-Begin with something as the first step.
+以某事作为第一步开始。
 
 ---
 
@@ -52,7 +52,7 @@ Begin with something as the first step.
 
 ### --feedback--
 
-Signs that show something might be wrong.
+显示可能出现问题的迹象。
 
 ---
 
@@ -60,7 +60,7 @@ Signs that show something might be wrong.
 
 ### --feedback--
 
-This means something might happen.
+这意味着某事可能会发生。
 
 ---
 
@@ -68,7 +68,7 @@ This means something might happen.
 
 ### --feedback--
 
-To look carefully at something to understand what is happening.
+仔细观察某物以了解发生了什么。
 
 ---
 
@@ -76,4 +76,4 @@ To look carefully at something to understand what is happening.
 
 ### --feedback--
 
-A better understanding of a situation.
+对情况的更好理解。

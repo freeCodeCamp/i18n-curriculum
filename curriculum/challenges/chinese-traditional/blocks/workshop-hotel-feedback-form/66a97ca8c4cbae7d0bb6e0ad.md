@@ -1,97 +1,97 @@
 ---
 id: 66a97ca8c4cbae7d0bb6e0ad
-title: Step 29
+title: 第 29 步
 challengeType: 0
 dashedName: step-29
 ---
 
 # --description--
 
-在你的 `select` 元素中，添加以下五個 `option` 元素，併爲 `option` 文本和 `value` 屬性添加相應的值：
+在你的 `select` 元素內，為你的 `option` 元素添加以下五個 `option` 元素，並為 `option` 文字和 `value` 屬性設定相對應的值：
 
 **值屬性：**
 
-- poor
-- satisfactory
-- good
-- very-good
-- excellent
+- 差
+- 令人滿意的
+- 良好
+- 非常好
+- 優秀
 
-**選項文本：**
+**選項文字：**
 
-- Poor
-- Satisfactory
-- Good
-- Very Good
-- Excellent
+- 差
+- 令人滿意
+- 良好
+- 非常好
+- 優秀
 
 
-不要忘記在值爲 `"excellent"` 的 `option` 元素中添加 `selected` 屬性。
+別忘了為 `option` 元素添加值為 `"excellent"` 的 `selected` 屬性。
 
 # --hints--
 
-你應該有一個值設置爲 `"poor"` 的 `option` 元素。
+你應該有一個 `option` 元素，其值設定為 `"poor"`。
 
 ```js
 assert.exists(document.querySelector('fieldset:nth-of-type(4) select#food option[value="poor"]'));
 ```
 
-`value` 爲 `"poor"` 的 `option` 應包含文本 `"Poor"`。
+你的 `option` 其 `value` 為 `"poor"` 應該有 `text` 為 `"Poor"`。
 
 ```js
 assert.strictEqual(document.querySelector('fieldset:nth-of-type(4) select#food option[value="poor"]')?.textContent.trim(), 'Poor');
 ```
 
-你應該有一個 `value` 設置爲 `"satisfactory"` 的 `option` 元素。
+你應該有一個 `option` 元素，其 `value` 設定為 `"satisfactory"`。
 
 ```js
 assert.exists(document.querySelector('fieldset:nth-of-type(4) select#food option[value="satisfactory"]'));
 ```
 
-`value` 爲 `"satisfactory"` 的 `option` 應包含文本 `"Satisfactory"`。
+你的 `option` 其 `value` 為 `"satisfactory"` 應該有 `text` 為 `"Satisfactory"`。
 
 ```js
 assert.strictEqual(document.querySelector('fieldset:nth-of-type(4) select#food option[value="satisfactory"]')?.textContent.trim(), 'Satisfactory');
 ```
 
-你應該有一個 `value` 設置爲 `"good"` 的 `option` 元素。
+你應該有一個 `option` 元素，其 `value` 設定為 `"good"`。
 
 ```js
 assert.exists(document.querySelector('fieldset:nth-of-type(4) select#food option[value="good"]'));
 ```
 
-`value` 爲 `"good"` 的 `option` 應包含文本 `"Good"`。
+你的 `option` 具有 `value` 為 `"good"` 的 `option` 應該有 `text` 為 `"Good"`。
 
 ```js
 
 assert.strictEqual(document.querySelector('fieldset:nth-of-type(4) select#food option[value="good"]')?.textContent.trim(), 'Good');
 ```
 
-你應該有一個值設置爲 `"very-good"` 的 `option` 元素。
+你應該有一個 `option` 元素，其值設為 `"very-good"`。
 
 ```js
 assert.exists(document.querySelector('fieldset:nth-of-type(4) select#food option[value="very-good"]'));
 ```
 
-`value` 爲 `"very-good"` 的 `option` 應包含文本 `"Very Good"`。
+你的 `option` 其 `value` 為 `"very-good"` 應該有文字 `"Very Good"`。
 
 ```js
 assert.strictEqual(document.querySelector('fieldset:nth-of-type(4) select#food option[value="very-good"]')?.textContent.trim(), 'Very Good');
 ```
 
-你應該有一個值設置爲 `"excellent"` 的 `option` 元素。
+你應該有一個 `option` 元素，其值設定為 `"excellent"`。
 
 ```js
 assert.exists(document.querySelector('fieldset:nth-of-type(4) select#food option[value="excellent"]'));
 ```
 
-`value` 爲 `"excellent"` 的 `option` 應包含文本 `"Excellent"`。
+你的 `option` 其 `value` 為 `"excellent"` 應該有 `text` 為 `"Excellent"`。
 
 ```js
 assert.strictEqual(document.querySelector('fieldset:nth-of-type(4) select#food option[value="excellent"]')?.textContent.trim(), 'Excellent');
 ```
 
-你應將具有`selected` 屬性的 `option` 元素設置爲 `"excellent"`。
+你應該有一個 `option` 元素，其 `selected` 屬性設為 `"excellent"`。
 
 ```js
 assert.exists(document.querySelector('fieldset:nth-of-type(4) select#food option[value="excellent"][selected]'));
@@ -159,7 +159,7 @@ assert.exists(document.querySelector('fieldset:nth-of-type(4) select#food option
             value="recommendation"
           />
           <label for="recommendation">Personal Recommendation</label>
-
+          
           <input type="checkbox" id="location" name="choice" value="location" />
           <label for="location">Location</label>
 
@@ -171,7 +171,7 @@ assert.exists(document.querySelector('fieldset:nth-of-type(4) select#food option
             value="reputation"
           />
           <label for="reputation">Reputation</label>
-
+          
           <input type="checkbox" id="price" name="choice" value="price" />
           <label for="price">Price</label>
         </fieldset>
@@ -193,7 +193,7 @@ assert.exists(document.querySelector('fieldset:nth-of-type(4) select#food option
 
           <select name="food" id="food">
           --fcc-editable-region--
-
+            
           --fcc-editable-region--
           </select>
         </fieldset>

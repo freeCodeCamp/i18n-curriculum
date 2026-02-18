@@ -1,6 +1,6 @@
 ---
 id: 67eff3ae8cca9823edafadc6
-title: Task 59
+title: 任务 59
 challengeType: 19
 dashedName: task-59
 lang: en-US
@@ -16,35 +16,35 @@ lang: en-US
 
 ## --text--
 
-What is Jake asking about?
+Jake 在问什么？
 
 ## --answers--
 
-If the updates were applied.
+如果更新已应用。
 
 ---
 
-If new security updates were released.
+如果发布了新的安全性更新。
 
 ### --feedback--
 
-Jake is not asking if new updates exist.
+Jake 并不是在询问是否存在新建更新。
 
 ---
 
-Who is responsible for security updates.
+谁负责安全性更新。
 
 ### --feedback--
 
-Jake is not asking about a specific person.
+Jake 不是在询问特定的人。
 
 ---
 
-How security updates work.
+安全性更新的工作原理。
 
 ### --feedback--
 
-Jake assumes Jessica knows about security updates.
+Jake 假设 Jessica 知道关于安全性更新。
 
 ## --video-solution--
 
@@ -52,11 +52,11 @@ Jake assumes Jessica knows about security updates.
 
 # --explanation--
 
-Jake wants to know if someone has verified that all updates have been installed.
+Jake 想知道是否有人已经验证所有更新都已安装。
 
-By `Have you checked...?` he asks if Jessica has looked into something.
+通过 `Have you checked...?` 他询问 Jessica 是否查看过某事。
 
-By `whether all security updates were applied` he asks if updates were successfully installed.
+通过 `whether all security updates were applied` 他询问更新是否成功安装。
 
 # --scene--
 

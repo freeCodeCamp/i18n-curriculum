@@ -1,13 +1,13 @@
 ---
 id: 66ed8fb9f45ce3ece4053eac
-title: Computer Basics Quiz
+title: 電腦基礎測驗
 challengeType: 8
 dashedName: quiz-computer-basics
 ---
 
 # --description--
 
-要通過測驗，你必須正確回答以下 20 道題中的至少 18 題。
+要通過測驗，你必須在以下 20 題中正確回答至少 18 題。
 
 # --quizzes--
 
@@ -17,51 +17,51 @@ dashedName: quiz-computer-basics
 
 #### --text--
 
-What part of a computer is used to connect the other internal components together?
+電腦的哪個零件用來將其他內部組件連接在一起？
 
 #### --distractors--
 
-Processor
+處理器
 
 ---
 
-Graphics card
+顯示卡
 
 ---
 
-Memory
+記憶體
 
 #### --answer--
 
-Motherboard
+主機板
 
 ### --question--
 
 #### --text--
 
-What are browser developer tools?
+什麼是瀏覽器開發者工具？
 
 #### --distractors--
 
-Tools for editing browser settings and managing user profiles.
+用於編輯瀏覽器設定和管理使用者評測的工具。
 
 ---
 
-Utilities for blocking ads and improving web page performance.
+用於阻擋廣告和提升網頁效率的工具。
 
 ---
 
-Software for managing browser extensions and plug-ins.
+用於管理瀏覽器擴充套件和外掛程式的軟體。
 
 #### --answer--
 
-Built-in features in browsers that help developers debug and inspect websites.
+瀏覽器內建的特性，幫助開發者偵錯和檢查網站。
 
 ### --question--
 
 #### --text--
 
-Which of the following ISP connections are typically the fastest?
+以下哪一種 ISP 連線通常是最快的？
 
 #### --distractors--
 
@@ -69,43 +69,43 @@ DSL
 
 ---
 
-Satellite
+衛星
 
 ---
 
-Cable
+電纜
 
 #### --answer--
 
-Fiber optic
+光纖
 
 ### --question--
 
 #### --text--
 
-Which of the following is NOT a safe practice when signing in?
+以下哪一項不是安全的登入做法？
 
 #### --distractors--
 
-Using a fingerprint or face scanner.
+使用指紋或臉部掃描器。
 
 ---
 
-Making a long and complex password like `@ppl3_+B@nana34823`.
+製作像 `@ppl3_+B@nana34823` 這樣長且複雜的密碼。
 
 ---
 
-Setting up two-factor authentication (2FA).
+設定雙重驗證（2FA）。
 
 #### --answer--
 
-Using passwords based on personal information like your birthday.
+使用基於個人資訊如你的生日的密碼。
 
 ### --question--
 
 #### --text--
 
-Which of the following is NOT a web browser?
+以下哪一項不是網頁瀏覽器？
 
 #### --distractors--
 
@@ -121,17 +121,17 @@ Microsoft Edge
 
 #### --answer--
 
-Google Drive
+Google 雲端硬碟
 
 ### --question--
 
 #### --text--
 
-When you need to edit a piece of code, which of the following are you most likely going to use?
+當你需要編輯一段 `code` 時，你最有可能使用以下哪一項？
 
 #### --distractors--
 
-Node Package Manager
+Node 軟體包管理員
 
 ---
 
@@ -149,7 +149,7 @@ Visual Studio Code
 
 #### --text--
 
-Which of the following is used primarily for managing files stored on a local hard drive?
+以下哪一項主要用於管理儲存在區域的硬碟上的檔案？
 
 #### --distractors--
 
@@ -161,105 +161,105 @@ Microsoft OneDrive
 
 ---
 
-Google Drive
+Google 雲端硬碟
 
 #### --answer--
 
-Windows File Explorer
+Windows 檔案總管
 
 ### --question--
 
 #### --text--
 
-What is NOT a good practice when naming files?
+命名檔案時什麼不是良好做法？
 
 #### --distractors--
 
-Putting an underscore or hyphen between words.
+在字與字之間放置底線或連字號。
 
 ---
 
-Use a casing style such as camelCase and sticking with it.
+使用駝峰式命名法等大小寫風格並堅持使用。
 
 ---
 
-Putting a version number at the end of a document like `summaryReport_v2.docx`.
+在文件末尾放置版本號，例如 `summaryReport_v2.docx`。
 
 #### --answer--
 
-Using non-descriptive names like `file1.txt`.
+使用像 `file1.txt` 這樣非描述性的名稱。
 
 ### --question--
 
 #### --text--
 
-What does the term "domain name" refer to?
+「domain name」這個術語指涉什麼？
 
 #### --distractors--
 
-A type of software that manages website files and databases.
+一種管理網站檔案和資料庫的軟體型別。
 
 ---
 
-The physical location of a web server in a data center.
+網路伺服器在資料中心的實體位置。
 
 ---
 
-None of the other choices.
+其他選項皆非。
 
 #### --answer--
 
-The address used to identify websites on the internet.
+用於識別網際網路上網站的位址。
 
 ### --question--
 
 #### --text--
 
-Which of the following is a way to send a file to the Recycle Bin/Trash?
+以下哪一項是將檔案送到資源回收筒／垃圾桶的方法？
 
 #### --distractors--
 
-All of the other choices.
+所有其他選項。
 
 ---
 
-Pressing the `Backspace` key on the keyboard.
+按下鍵盤上的 `Backspace` 鍵。
 
 ---
 
-Moving it to an Archived folder.
+將它移動到 Archived 資料夾。
 
 #### --answer--
 
-Right-click on it and select the Delete/Move to trash option.
+對它按右鍵並選擇 Delete/Move to trash 選項。
 
 ### --question--
 
 #### --text--
 
-What is a RAM?
+什麼是 RAM？
 
 #### --distractors--
 
-A network protocol used for transferring files between devices.
+一種用於在裝置之間傳輸檔案的網路協定。
 
 ---
 
-A permanent storage device used for saving files and applications.
+用於儲存檔案和應用程式的永久儲存裝置。
 
 ---
 
-A component in a computer responsible for generating graphics and rendering images.
+電腦中負責產生圖形和呈現影像的組件。
 
 #### --answer--
 
-A temporary memory for fast data access by the processor.
+一個供處理程序快速存取資料的暫存記憶體。
 
 ### --question--
 
 #### --text--
 
-What file type will be best suited for writing a `README` file?
+哪種檔案型別最適合用來撰寫 `README` 檔案？
 
 #### --distractors--
 
@@ -281,143 +281,143 @@ What file type will be best suited for writing a `README` file?
 
 #### --text--
 
-What is an Integrated Development Environment (IDE)?
+什麼是整合開發環境（IDE）？
 
 #### --distractors--
 
-A platform designed for deploying and hosting web applications.
+一個為部署和託管網頁應用程式而設計的平台。
 
 ---
 
-A type of hardware device used for testing and debugging electronic circuits.
+一種用於測試和偵錯電子電路的硬體裝置型別。
 
 ---
 
-A version control system that helps developers track changes in source code during software development.
+一個版本控制系統，幫助開發者在軟體開發過程中追蹤原始碼的變更。
 
 #### --answer--
 
-A program that integrates tools for writing, debugging, and running code.
+一個整合用於撰寫、偵錯和執行 `code` 的程式。
 
 ### --question--
 
 #### --text--
 
-What is a piece of software that allows you to look at online content called?
+允許你瀏覽線上內容的軟體稱為什麼？
 
 #### --distractors--
 
-Internet content displayer
+網際網路內容顯示器
 
 ---
 
-Search engine
+搜尋引擎
 
 ---
 
-Website
+網站
 
 #### --answer--
 
-Web browser
+網頁瀏覽器
 
 ### --question--
 
 #### --text--
 
-What is a piece of software that lists web pages related to a user's query called?
+將與使用者查詢相關的網頁列出的軟體稱為什麼？
 
 #### --distractors--
 
-Page finder
+頁面尋找器
 
 ---
 
-Web browser
+網頁瀏覽器
 
 ---
 
-Website
+網站
 
 #### --answer--
 
-Search engine
+搜尋引擎
 
 ### --question--
 
 #### --text--
 
-What is a set of one or more web pages under one domain name called?
+一組在同一個網域名稱下的一個或多個網頁稱為什麼？
 
 #### --distractors--
 
-Web browser
+網頁瀏覽器
 
 ---
 
-Hyperlink
+超鏈結
 
 ---
 
-Search engine
+搜尋引擎
 
 #### --answer--
 
-Website
+網站
 
 ### --question--
 
 #### --text--
 
-To search for an exact phrase, what should you enclose your search query with?
+要搜尋精確詞組，你應該用什麼將你的搜尋查詢括起來？
 
 #### --distractors--
 
-Backticks
+反引號
 
 ---
 
-Parentheses
+小括弧、小括號
 
 ---
 
-Brackets
+括號
 
 #### --answer--
 
-Quotation marks
+引號
 
 ### --question--
 
 #### --text--
 
-Which is NOT a way to install a web browser?
+哪一項不是安裝網頁瀏覽器的方法？
 
 #### --distractors--
 
-Using a package manager.
+使用軟體包管理工具。
 
 ---
 
-Directly downloading from the website.
+直接從網站下載。
 
 ---
 
-Using an App Store like Microsoft Store.
+使用像 Microsoft Store 這樣的應用程式商店。
 
 #### --answer--
 
-Pressing the Network/Internet button in Settings.
+在設定中按下 Network/Internet 按鈕。
 
 ### --question--
 
 #### --text--
 
-Which of the following formats does NOT preserve image quality after compression?
+以下哪一種格式在壓縮後不會保留影像品質？
 
 #### --distractors--
 
-All of the other choices.
+所有其他選項。
 
 ---
 
@@ -435,23 +435,23 @@ JPEG
 
 #### --text--
 
-Which of the following parts is located in a socket on the motherboard?
+以下哪一個零件位於主機板上的插口（網路）中？
 
 #### --distractors--
 
-The router
+路由器
 
 ---
 
-The keyboard
+鍵盤
 
 ---
 
-The hard drive (HDD)
+硬碟（HDD）
 
 #### --answer--
 
-The CPU
+中央處理器
 
 ## --quiz--
 
@@ -459,95 +459,95 @@ The CPU
 
 #### --text--
 
-Which of the following is a basic part of the computer?
+以下哪一項是電腦的基本零件？
 
 #### --distractors--
 
-The word processor
+文書處理器
 
 ---
 
-The task manager
+工作管理員
 
 ---
 
-The memory manager
+記憶體管理員
 
 #### --answer--
 
-The central processing unit
+中央處理單元
 
 ### --question--
 
 #### --text--
 
-What is a pointing device for a computer?
+什麼是電腦的指向裝置？
 
 #### --distractors--
 
-A stick for pointing at computers
+用來指向電腦的指示棒
 
 ---
 
-A retractable device used in PowerPoint presentations
+用於 PowerPoint 簡報的可伸縮裝置
 
 ---
 
-A laser pointer
+雷射指標
 
 #### --answer--
 
-A mouse or touchpad
+滑鼠或觸控板
 
 ### --question--
 
 #### --text--
 
-What is a type of ISP provider?
+ISP 供應商的型別是什麼？
 
 #### --distractors--
 
-Satellite
+衛星
 
 ---
 
-Fiber optic
+光纖
 
 ---
 
-Dial up
+撥號
 
 #### --answer--
 
-Tier 1
+第一層級
 
 ### --question--
 
 #### --text--
 
-What is a best practice when naming files for a web application?
+為網頁應用程式命名檔案時的最佳做法是什麼？
 
 #### --distractors--
 
-Using special characters.
+使用特殊字元。
 
 ---
 
-Using spaces to separate the words.
+使用空格分隔字、單字。
 
 ---
 
-Using generic words.
+使用泛型字。
 
 #### --answer--
 
-Using hyphens instead of spaces.
+使用連字號取代空格。
 
 ### --question--
 
 #### --text--
 
-Which of the following is a common file type when working with web applications?
+以下哪一項是在處理網頁應用程式時常見的檔案型別？
 
 #### --distractors--
 
@@ -569,7 +569,7 @@ Which of the following is a common file type when working with web applications?
 
 #### --text--
 
-What is a common file type for a video file?
+影片檔案的常見檔案型別是什麼？
 
 #### --distractors--
 
@@ -591,7 +591,7 @@ What is a common file type for a video file?
 
 #### --text--
 
-Which of the following types is commonly used for image files?
+以下哪一種型別通常用於影像檔案？
 
 #### --distractors--
 
@@ -613,7 +613,7 @@ Which of the following types is commonly used for image files?
 
 #### --text--
 
-Microsoft Edge is the default web browser of which operating system?
+Microsoft Edge 是哪個作業系統的預設網頁瀏覽器？
 
 #### --distractors--
 
@@ -629,35 +629,35 @@ Unix
 
 #### --answer--
 
-Windows
+視窗
 
 ### --question--
 
 #### --text--
 
-What is a search engine?
+什麼是搜尋引擎？
 
 #### --distractors--
 
-A part of the hard drive of a computer.
+電腦硬碟的一個零件。
 
 ---
 
-Advanced software that is only used by academic researchers.
+只有學術研究人員使用的進階軟體。
 
 ---
 
-A tool for finding web components.
+一個用於尋找網頁組件的工具。
 
 #### --answer--
 
-A web based tool for searching information on the internet.
+一個用於在網際網路上搜尋資訊的網頁工具。
 
 ### --question--
 
 #### --text--
 
-Which of the following is NOT a type of browser?
+以下哪一項不是瀏覽器的型別？
 
 #### --distractors--
 
@@ -679,7 +679,7 @@ GitHub
 
 #### --text--
 
-Which of the following is NOT a cloud-based hosting service for repositories?
+以下哪一項不是用於儲存庫的雲端託管服務？
 
 #### --distractors--
 
@@ -701,59 +701,59 @@ Ona
 
 #### --text--
 
-Which of the following is not primarily a part of an integrated development environment?
+以下哪一項主要不是整合開發環境的零件？
 
 #### --distractors--
 
-A tool for writing.
+一個用於寫作的工具。
 
 ---
 
-A tool for testing code.
+一個用於測試程式碼的工具。
 
 ---
 
-A tool for debugging code.
+一個用於偵錯程式碼的工具。
 
 #### --answer--
 
-A tool for storing code.
+一個用於儲存程式碼的工具。
 
 ### --question--
 
 #### --text--
 
-What is a best practice for naming files?
+命名檔案的最佳做法是什麼？
 
 #### --distractors--
 
-Creating a script that uses the same file names for all your projects.
+建立一個腳本，為你的所有專案使用相同的檔案名稱。
 
 ---
 
-Naming the main file with the same name as the folder it is in.
+將主要檔案命名為與其所在資料夾相同的名稱。
 
 ---
 
-Using a unique sequence of numbers at the end of the file name.
+在檔案名稱結尾使用唯一的數字序列。
 
 #### --answer--
 
-Using a descriptive name for each file.
+為每個檔案使用描述性名稱。
 
 ### --question--
 
 #### --text--
 
-What is the built-in way you can use to search for files on your computer?
+你可以使用什麼內建方式在你的電腦上搜尋檔案？
 
 #### --distractors--
 
-Google or Firefox
+Google 或 Firefox
 
 ---
 
-A search engine
+搜尋引擎
 
 ---
 
@@ -761,13 +761,13 @@ GitHub
 
 #### --answer--
 
-The file explorer
+檔案總管
 
 ### --question--
 
 #### --text--
 
-What is a common search strategy to search for file types?
+搜尋檔案型別的常見搜尋策略是什麼？
 
 #### --distractors--
 
@@ -789,7 +789,7 @@ What is a common search strategy to search for file types?
 
 #### --text--
 
-What is the default page for a website?
+網站的預設頁面是什麼？
 
 #### --distractors--
 
@@ -811,73 +811,73 @@ What is the default page for a website?
 
 #### --text--
 
-Which file managers can you use to create, move, and delete files?
+你可以使用哪些檔案管理員來創建、移動和刪除檔案？
 
 #### --distractors--
 
-Google or Bing
+Google 或 Bing
 
 ---
 
-Windows or macOS
+Windows 或 macOS
 
 ---
 
-Findex or Firefox
+Findex 或 Firefox
 
 #### --answer--
 
-Explorer or Finder
+檔案總管 或 Finder
 
 ### --question--
 
 #### --text--
 
-What is Git?
+什麼是 Git？
 
 #### --distractors--
 
-A centralized storage location for code repositories.
+程式碼儲存庫的集中式儲存位置。
 
 ---
 
-A tool for adding, updating, and removing libraries and project dependencies.
+一個用於添加、更新和移除函式庫及專案相依性的工具。
 
 ---
 
-A cloud-based hosting service for repositories.
+一個基於雲端的儲存庫託管服務。
 
 #### --answer--
 
-A version control system for tracking changes and collaborating with others.
+一個用於追蹤變更和與他人協作的版本控制系統。
 
 ### --question--
 
 #### --text--
 
-What is random access memory?
+什麼是隨機存取記憶體？
 
 #### --distractors--
 
-A permanent storage location that is used to store data.
+用於儲存資料的永久儲存位置。
 
 ---
 
-A volatile way to access data in a sequential manner.
+以易揮發的方式依序存取資料。
 
 ---
 
-A processor used for generating passwords.
+用於產生密碼的處理程序。
 
 #### --answer--
 
-A temporary storage location for the computer's central processing unit.
+電腦中央處理單元的臨時儲存位置。
 
 ### --question--
 
 #### --text--
 
-Which file format is used to compress files?
+哪一種檔案格式用於壓縮檔案？
 
 #### --distractors--
 

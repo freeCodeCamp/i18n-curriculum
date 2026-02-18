@@ -1,21 +1,21 @@
 ---
 id: 672bbe9171a5cca90f2edeea
-title: What Are Examples of Element User Action Pseudo-classes?
+title: 元素使用者動作偽類的範例有哪些？
 challengeType: 19
 dashedName: what-are-examples-of-element-user-action-pseudo-classes
 ---
 
 # --interactive--
 
-User feedback is a crucial element of web design. For instance, it's important for users to receive visual cues when they interact with elements on a website, such as hovering over a button or clicking a link. This feedback helps users understand the state of interactive elements, like indicating whether a link has been visited or not.
+使用者回授是網頁設計中關鍵的元素。例如，當使用者與網站上的元素互動時，像是暫留在按鈕上或點擊聯結，讓使用者收到視覺提示非常重要。這種回授有助於使用者了解互動元素的狀態，例如指示聯結是否已被造訪。
 
-User action pseudo-classes in CSS are special keywords that allow you to provide this kind of feedback without needing JavaScript or other programming languages.
+CSS 中的使用者動作偽類是特殊關鍵字，允許你提供這種類型的回授，而不需要 JavaScript 或其他程式設計語言。
 
-These pseudo-classes include `:hover`, `:active`, `:focus`, and `:visited`, among others. They enable you to change the appearance of elements based on user interactions, improving the overall user experience.
+這些偽類別包括 `:hover`、`:active`、`:focus` 和 `:visited` 等。它們可讓你根據使用者互動改變元素的外觀，提升整體使用者體驗。
 
-Let's dive into some of the user action pseudo-classes we have and see how they work.
+讓我們深入了解一些我們擁有的使用者動作偽類別，並看看它們如何運作。
 
-The `:active` pseudo-class applies styles when an element is activated by the user. For example, when the user clicks a button or a link, it provides immediate visual feedback, showing users that their actions are being recognized.
+`:active` 偽類別會在元素被使用者作用時套用樣式。 例如，當使用者點擊按鈕或聯結時，它會提供即時的視覺回授，讓使用者知道他們的操作已被識別。
 
 :::interactive_editor
 
@@ -32,7 +32,7 @@ a:active {
 
 :::
 
-The `:hover` pseudo-class is triggered when a user hovers over an element with their mouse or other pointing device. Developers often use it to create visual feedback for buttons, links, or any element that should respond to user attention. Here's a button a user would hover over before clicking:
+當使用者使用滑鼠或其他指標裝置暫留在元素上時，會觸發 `:hover` 偽類別。開發者經常使用它為按鈕、連結或任何應該回應使用者注意的元素創建視覺回授。這裡有一個使用者在點擊前會暫留的按鈕：
 
 :::interactive_editor
 
@@ -51,9 +51,9 @@ The `:hover` pseudo-class is triggered when a user hovers over an element with t
 
 :::
 
-The `:focus` pseudo-class applies styles when an element gains focus, typically through keyboard navigation or when a user clicks into a form input. This is not just for feedback but also crucial for accessibility. It ensures that users who rely heavily on keyboards can easily identify which element they are interacting with.
+`:focus` 偽類在元素獲得焦點時套用樣式，通常透過鍵盤導覽或使用者點擊表單輸入時觸發。這不僅是回授，也是無障礙設計中關鍵的一環。它確保嚴重依賴鍵盤的使用者能輕鬆辨識他們正在互動的元素。 
 
-Here's an example of an input field that gains focus when clicked or navigated to via the keyboard:
+以下是一個輸入欄、欄位的範例，當點擊或透過鍵盤導覽時會獲得焦點：
 
 :::interactive_editor
 
@@ -73,7 +73,7 @@ input:focus {
 
 :::
 
-The `:visited` pseudo-class targets a link the user has visited. This can be useful for helping users distinguish between pages they have already visited and the ones they are yet to visit. Here is an example of changing the anchor text color to cyan when the link is visited:
+`:visited` 偽類別標的使用者已造訪的聯結。這對於幫助使用者區分他們已經造訪過的頁面和尚未造訪的頁面非常有用。以下是一個範例，示範當聯結被造訪時，將錨點文字顏色改為青色：
 
 :::interactive_editor
 
@@ -90,11 +90,11 @@ a:visited {
 
 :::
 
-The `:checked` pseudo-class in CSS allows you to style form elements such as checkboxes and radio buttons when they are selected (checked). This pseudo-class is useful for customizing the appearance of these elements to enhance user experience, even though browsers provide default styles for them.
+CSS 中的 `:checked` 偽類允許你在選取（勾選）時為表單元素如核取方塊和圓鈕設定樣式。即使瀏覽器為這些元素提供預設樣式，這個偽類仍然有助於訂製它們的外觀以提升使用者體驗。
 
-Here is an example with a checkbox to agree to terms on a website.
+這裡有一個範例，包含一個用於同意網站條款的核取方塊。 
 
-**NOTE**: Some of the CSS in this example uses properties that haven't been covered yet. This is just to give you an idea of how to create a custom checkbox. You will learn how all of this works in future lessons and workshops.
+**注意**：此範例中的部分 CSS 使用了尚未涵蓋的屬性。這只是為了讓你了解如何創建訂製的核取方塊。你將在未來的課程和工作坊中學習這些內容的運作方式。 
 
 :::interactive_editor
 
@@ -151,48 +151,48 @@ Here is an example with a checkbox to agree to terms on a website.
 
 :::
 
-In this example, we are using the `appearance` property set to `none` to remove the default styling applied by the browser to checkbox inputs. When the user checks the box, it will have a background color of `green`.
+在此範例中，我們使用設定為 `none` 的 `appearance` 屬性來移除瀏覽器對核取方塊輸入所套用的預設樣式。當使用者勾選該方塊時，背景顏色將會是 `green`。
 
-Other examples of action pseudo-classes are:
+其他動作偽類的範例有：
 
-- `:focus-within`: for applying styles to an element when it or any of its descendants have focus.
-- `:enabled`: for targeting form buttons or other elements that are currently enabled.
-- `:disabled`: for targeting form buttons or other elements that are disabled.
-- `:target`: for applying styles to an element that is the target of a URL fragment (the part of a URL after the `#` symbol).
+- `:focus-within`：當元素本身或其任何子孫元素獲得焦點時，套用樣式。
+- `:enabled`：用於標的目前已啟用的表單按鈕或其他元素。
+- `:disabled`：用於標的已停用的表單按鈕或其他元素。
+- `:target`：用於將樣式套用到作為 URL 片段標的（URL 中 `#` 符號後的零件）的元素。
 
 # --questions--
 
 ## --text--
 
-What do user action pseudo-classes allow you to do?
+使用者動作偽類允許你做什麼？
 
 ## --answers--
 
-They enable animations and transitions.
+它們啟用動畫和過渡效果。
 
 ### --feedback--
 
-Think about how you can interact with users purely with CSS.
+思考如何純粹用 CSS 與使用者互動。
 
 ---
 
-They allow you to modify the DOM structure dynamically.
+它們允許你動態修改 DOM 結構。
 
 ### --feedback--
 
-Think about how you can interact with users purely with CSS.
+思考如何純粹用 CSS 與使用者互動。
 
 ---
 
-They let you provide feedback to the user without relying on JavaScript.
+它們讓你在不依賴 JavaScript 的情況下，向使用者提供回授。
 
 ---
 
-They let you style the last element in a list.
+它們讓你為列表中的最後一個元素設計樣式。
 
 ### --feedback--
 
-Think about how you can interact with users purely with CSS.
+思考如何純粹用 CSS 與使用者互動。
 
 ## --video-solution--
 
@@ -200,35 +200,35 @@ Think about how you can interact with users purely with CSS.
 
 ## --text--
 
-What does the `:checked` pseudo-class do in CSS?
+`CSS` 中的 `:checked` 偽類做什麼？
 
 ## --answers--
 
-It selects an element when it is disabled.
+當元素被停用時，它會被選取。
 
 ### --feedback--
 
-Think about how forms handle user selections.
+思考表單如何控制代碼使用者的選擇。
 
 ---
 
-It selects an element when it is being hovered over.
+當元素被暫留時，它會被選取。
 
 ### --feedback--
 
-Think about how forms handle user selections.
+思考表單如何控制代碼使用者的選擇。
 
 ---
 
-It styles elements like checkboxes or radio buttons that are checked.
+它會為已勾選的核取方塊或圓鈕元素套用樣式。
 
 ---
 
-It styles an element when it gains focus.
+當元素獲得焦點時，它會套用樣式。
 
 ### --feedback--
 
-Think about how forms handle user selections.
+思考表單如何控制代碼使用者的選擇。
 
 ## --video-solution--
 
@@ -236,35 +236,35 @@ Think about how forms handle user selections.
 
 ## --text--
 
-What does the `:focus` pseudo-class do?
+`:focus` 偽類別的作用是什麼？
 
 ## --answers--
 
-It selects an element when it is hovered over by a mouse.
+當元素被滑鼠暫留時，它會被選取。
 
 ### --feedback--
 
-Think about how users navigate forms using a keyboard.
+思考使用者如何使用鍵盤瀏覽表單。
 
 ---
 
-It applies styles when an element gains focus, usually through keyboard navigation or a click.
+當元素獲得焦點時，通常透過鍵盤導航或點擊，會套用樣式。
 
 ---
 
-It selects an element after a form is submitted.
+它會在表單提交後選取一個元素。
 
 ### --feedback--
 
-Think about how users navigate forms using a keyboard.
+思考使用者如何使用鍵盤瀏覽表單。
 
 ---
 
-It applies styles to an element when it is disabled.
+當元素被停用時，會套用樣式。
 
 ### --feedback--
 
-Think about how users navigate forms using a keyboard.
+思考使用者如何使用鍵盤瀏覽表單。
 
 ## --video-solution--
 

@@ -1,6 +1,6 @@
 ---
 id: 5ea9997bbec2e9bc47e94dae
-title: Introduction and Setup
+title: 介紹與設定
 challengeType: 11
 videoId: XeQ7ZKtb998
 bilibiliIds:
@@ -14,19 +14,19 @@ dashedName: introduction-and-setup
 
 ## --text--
 
-What code editor and extension does the instructor recommend for developing penetration testing tools in Python?
+講師推薦使用哪一款程式碼編輯器和擴充套件來開發 Python 的滲透測試工具？
 
 ## --answers--
 
-Atom and the atom-python-run extension.
+Atom 和 atom-python-run 擴充套件。
 
 ---
 
-VSCode and Microsoft's Python extension.
+VSCode 和微軟的 Python 擴充套件。
 
 ---
 
-Sublime Text and the Anaconda package.
+Sublime Text 和 Anaconda 軟體包。
 
 ## --video-solution--
 

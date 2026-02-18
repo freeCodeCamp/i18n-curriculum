@@ -1,6 +1,6 @@
 ---
 id: bd7155d8c242eddfaeb5bd13
-title: 建立配方盒
+title: 建置一個食譜盒
 challengeType: 3
 forumTopicId: 302354
 dashedName: build-a-recipe-box
@@ -8,27 +8,27 @@ dashedName: build-a-recipe-box
 
 # --description--
 
-**Objective:** Build an app that is functionally similar to this: <a href="https://codepen.io/freeCodeCamp/full/dNVazZ/" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/dNVazZ/</a>.
+**目標：** 建置一個功能上類似於此的應用程式：<a href="https://codepen.io/freeCodeCamp/full/dNVazZ/" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/dNVazZ/</a>。
 
-完成以下需求，並且通過所有測試。 你可以使用你需要的任何庫或 API。 可以用你自己的樣式來完成。
+完成以下使用者故事並通過所有測試。使用你需要的任何函式庫或 API。展現你自己的風格。
 
-**用戶故事：** 我可以創建具有名稱和成分的食譜。
+**使用者故事：** 我可以創建具有名稱和成分的食譜。
 
-**用戶故事：** 我可以看到一個索引視圖，其中所有配方的名稱都是可見的。
+**使用者故事：** 我可以看到一個索引檢視，所有食譜的名稱都可見。
 
-**用戶故事：** 我可以點擊任何這些食譜來查看它。
+**使用者故事：** 我可以點擊任何一個食譜來查看它。
 
-**用戶故事：** 我可以編輯這些食譜。
+**使用者故事：** 我可以編輯這些食譜。
 
-**用戶故事：** 我可以刪除這些食譜。
+**使用者故事：** 我可以刪除這些食譜。
 
-**用戶故事：** 我添加的所有新食譜都保存在瀏覽器的本地存儲中。 如果我刷新頁面，這些配方仍然會在那裏。
+**使用者故事：**我新增的所有食譜都會存檔在瀏覽器的區域的儲存空間中。如果我重新整理頁面，這些食譜仍然會存在。
 
-**提示：** 你應該在 CodePen 上爲本地存儲密鑰添加前綴，例如 `_username_recipes`
+**提示：**你應該在 CodePen 上為你的區域的儲存鍵添加前置式，例如 `_username_recipes`
 
-完成後，單擊“我已完成此挑戰”按鈕並添加一個指向CodePen的鏈接。
+完成後，請包含你在 CodePen 上的專案聯結，然後點擊「我已完成此挑戰」按鈕。
 
-可以分享你的項目到 <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp 論壇</a>上獲得反饋。
+你可以透過在 <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp 論壇</a> 分享你的專案來獲得回授。
 
 # --solutions--
 

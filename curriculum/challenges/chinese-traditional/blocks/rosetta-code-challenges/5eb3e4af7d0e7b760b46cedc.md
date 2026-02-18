@@ -1,6 +1,6 @@
 ---
 id: 5eb3e4af7d0e7b760b46cedc
-title: Set consolidation
+title: 設定合併
 challengeType: 1
 forumTopicId: 385319
 dashedName: set-consolidation
@@ -8,58 +8,58 @@ dashedName: set-consolidation
 
 # --description--
 
-Given two sets of items then if any item is common to any set then the result of applying *consolidation* to those sets is a set of sets whose contents is:
+給定兩組項目，若任一項目在任一組中共有，則對這些組套用 *consolidation* 的結果是一組組，其內容為：
 
 <ul>
   <li>The two input sets if no common item exists between the two input sets of items.</li>
   <li>The single set that is the union of the two input sets if they share a common item.</li>
 </ul>
 
-Given N sets of items where N > 2 then the result is the same as repeatedly replacing all combinations of two sets by their consolidation until no further consolidation between set pairs is possible. If N &lt; 2 then consolidation has no strict meaning and the input can be returned.
+給定 N 組項目，其中 N > 2，結果與反覆將所有兩組項目的組合替換為其合併結果直到無法再進行組合合併相同。如果 N < 2，則合併沒有嚴格意義，且可以傳回輸入。
 
-Here are some examples:
+以下是一些範例：
 
-**Example 1:**
+**範例 1：**
 
-Given the two sets `{A,B}` and `{C,D}` then there is no common element between the sets and the result is the same as the input.
+給定兩個集合 `{A,B}` 和 `{C,D}`，則這兩個集合之間沒有共同元素，結果與輸入相同。
 
-**Example 2:**
+**範例 2：**
 
-Given the two sets `{A,B}` and `{B,D}` then there is a common element `B` between the sets and the result is the single set `{B,D,A}`. (Note that order of items in a set is immaterial: `{A,B,D}` is the same as `{B,D,A}` and `{D,A,B}`, etc).
+給定兩個集合 `{A,B}` 和 `{B,D}`，則這兩個集合之間有一個共同的元素 `B`，結果是單一集合 `{B,D,A}`。（注意集合中條款的順序不重要：`{A,B,D}` 與 `{B,D,A}` 和 `{D,A,B}` 等同。）
 
-**Example 3:**
+**範例 3：**
 
-Given the three sets `{A,B}` and `{C,D}` and `{D,B}` then there is no common element between the sets `{A,B}` and `{C,D}` but the sets `{A,B}` and `{D,B}` do share a common element that consolidates to produce the result `{B,D,A}`. On examining this result with the remaining set, `{C,D}`, they share a common element and so consolidate to the final output of the single set `{A,B,C,D}`
+給定三組集合 `{A,B}`、`{C,D}` 和 `{D,B}`，則集合 `{A,B}` 和 `{C,D}` 之間沒有共同元素，但集合 `{A,B}` 和 `{D,B}` 確實共享一個共同元素，並合併產生結果 `{B,D,A}`。在將此結果與剩餘集合 `{C,D}` 進行比較時，它們共享一個共同元素，因此合併為最終輸出單一集合 `{A,B,C,D}`。
 
-**Example 4:**
+**範例 4：**
 
-The consolidation of the five sets:
+五組的合併：
 
-`{H,I,K}`, `{A,B}`, `{C,D}`, `{D,B}`, and `{F,G,H}`
+`{H,I,K}`、`{A,B}`、`{C,D}`、`{D,B}` 和 `{F,G,H}`
 
-Is the two sets:
+是這兩組：
 
-`{A, C, B, D}`, and `{G, F, I, H, K}`
+`{A, C, B, D}` 和 `{G, F, I, H, K}`
 
 # --instructions--
 
-Write a function that takes an array of strings as a parameter. Each string is represents a set with the characters representing the set elements. The function should return a 2D array containing the consolidated sets. Note: Each set should be sorted.
+撰寫一個函式，該函式以字串陣列作為參數。每個字串表述一個集合，字元表現集合元素。該函式應傳回一個包含合併後集合的二維陣列。注意：每個集合應該排序。
 
 # --hints--
 
-`setConsolidation` should be a function.
+`setConsolidation` 應該是一個函式（程式）。
 
 ```js
 assert(typeof setConsolidation === 'function');
 ```
 
-`setConsolidation(["AB", "CD"])` should return a array.
+`setConsolidation(["AB", "CD"])` 應該傳回一個陣列。
 
 ```js
 assert(Array.isArray(setConsolidation(['AB', 'CD'])));
 ```
 
-`setConsolidation(["AB", "CD"])` should return `[["C", "D"], ["A", "B"]]`.
+`setConsolidation(["AB", "CD"])` 應該傳回 `[["C", "D"], ["A", "B"]]`。
 
 ```js
 assert.deepEqual(setConsolidation(['AB', 'CD']), [
@@ -68,19 +68,19 @@ assert.deepEqual(setConsolidation(['AB', 'CD']), [
 ]);
 ```
 
-`setConsolidation(["AB", "BD"])` should return `[["A", "B", "D"]]`.
+`setConsolidation(["AB", "BD"])` 應該傳回 `[["A", "B", "D"]]`。
 
 ```js
 assert.deepEqual(setConsolidation(['AB', 'BD']), [['A', 'B', 'D']]);
 ```
 
-`setConsolidation(["AB", "CD", "DB"])` should return `[["A", "B", "C", "D"]]`.
+`setConsolidation(["AB", "CD", "DB"])` 應該傳回 `[["A", "B", "C", "D"]]`。
 
 ```js
 assert.deepEqual(setConsolidation(['AB', 'CD', 'DB']), [['A', 'B', 'C', 'D']]);
 ```
 
-`setConsolidation(["HIK", "AB", "CD", "DB", "FGH"])` should return `[["F", "G", "H", "I", "K"], ["A", "B", "C", "D"]]`.
+`setConsolidation(["HIK", "AB", "CD", "DB", "FGH"])` 應該傳回 `[["F", "G", "H", "I", "K"], ["A", "B", "C", "D"]]`。
 
 ```js
 assert.deepEqual(setConsolidation(['HIK', 'AB', 'CD', 'DB', 'FGH']), [

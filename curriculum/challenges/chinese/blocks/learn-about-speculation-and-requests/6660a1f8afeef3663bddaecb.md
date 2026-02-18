@@ -1,6 +1,6 @@
 ---
 id: 6660a1f8afeef3663bddaecb
-title: "Dialogue 1: Should Have Noticed That"
+title: "对话框 1：本不该忽略的"
 challengeType: 21
 dashedName: dialogue-1-should-have-noticed-that
 lang: en-US
@@ -8,11 +8,11 @@ lang: en-US
 
 # --description--
 
-Watch the video below to understand the context of the upcoming lessons.
+观看下面的视频，以了解接下来课程的背景。
 
 # --assignment--
 
-Watch the video.
+观看视频。
 
 # --scene--
 

@@ -1,15 +1,15 @@
 ---
 id: 686fdcfe055bcda9f651dd2e
-title: Build an Adjacency List to Matrix Converter
+title: 构建一个邻接列表到矩阵的转换器
 challengeType: 27
 dashedName: build-an-adjacency-list-to-matrix-converter
 ---
 
 # --description--
 
-In this lab, you will build a function that converts an adjacency list representation of a graph into an adjacency matrix. An adjacency list is a dictionary where each key represents a node, and the corresponding value is a list of nodes that the key node is connected to. An adjacency matrix is a 2D array where the entry at position `[i][j]` is `1` if there's an edge from node `i` to node `j`, and `0` otherwise.
+在本实验中，你将构建一个函数，将图的邻接列表表现转换为邻接矩阵。邻接列表是一个字典，其中每个密钥代表一个节点，且对应的值是该密钥节点连接的节点列表。邻接矩阵是一个二维数组，其中位置 `[i][j]` 的条目为 `1` 表示存在从节点 `i` 到节点 `j` 的边，否则为 `0`。
 
-For example, given the adjacency list:
+例如，给定邻接列表：
 
 ```py
 {
@@ -20,7 +20,7 @@ For example, given the adjacency list:
 }
 ```
 
-The corresponding adjacency matrix would be:
+对应的邻接矩阵为：
 
 ```py
 [
@@ -33,16 +33,16 @@ The corresponding adjacency matrix would be:
 
 **目标：**实现以下用户需求并通过所有测试以完成实验。
 
-**用户需求：**
+**用户故事：**
 
-1. You should define a function named `adjacency_list_to_matrix` to convert an adjacency list to an adjacency matrix.
-2. The function should take a dictionary representing the adjacency list of an unweighted (either undirected or directed) graph as its argument.
+1. 你应该定义一个名为 `adjacency_list_to_matrix` 的函数，将邻接列表转换为邻接矩阵。
+2. 该函数应接受一个字典作为其参数，该字典表现无权（无向或有向）图的邻接列表。
 3. 该函数应该：
-   - Convert the adjacency list to an adjacency matrix.
-   - Print each row in the adjacency matrix.
-   - Return the adjacency matrix.
+   - 将邻接列表转换为邻接矩阵。
+   - 打印邻接矩阵中的每一行。
+   - 返回邻接矩阵。
 
-For example, `adjacency_list_to_matrix({0: [2], 1: [2, 3], 2: [0, 1, 3], 3: [1, 2]})` should print:
+例如，`adjacency_list_to_matrix({0: [2], 1: [2, 3], 2: [0, 1, 3], 3: [1, 2]})` 应该打印：
 
 ```md
 [0, 0, 1, 0]
@@ -51,12 +51,12 @@ For example, `adjacency_list_to_matrix({0: [2], 1: [2, 3], 2: [0, 1, 3], 3: [1, 
 [0, 1, 1, 0]
 ```
 
-and return `[[0, 0, 1, 0], [0, 0, 1, 1], [1, 1, 0, 1], [0, 1, 1, 0]]`.
+并返回 `[[0, 0, 1, 0], [0, 0, 1, 1], [1, 1, 0, 1], [0, 1, 1, 0]]`。
 
 
 # --hints--
 
-You should define a function named `adjacency_list_to_matrix`.
+你应该定义一个名为 `adjacency_list_to_matrix` 的函数。
 
 ```js
 ({ 
@@ -66,7 +66,7 @@ You should define a function named `adjacency_list_to_matrix`.
 })
 ```
 
-The `adjacency_list_to_matrix` function should have one parameter.
+`adjacency_list_to_matrix` 函数应有一个参数。
 
 ```js
 ({ test: () => assert(runPython(`
@@ -77,7 +77,7 @@ The `adjacency_list_to_matrix` function should have one parameter.
 })
 ```
 
-The function should correctly determine the number of nodes from the adjacency list.
+该函数应正确地从邻接列表中确定节点数。
 
 ```js
 ({ 
@@ -90,7 +90,7 @@ The function should correctly determine the number of nodes from the adjacency l
 })
 ```
 
-The function should correctly set matrix values to `1` for existing edges.
+该函数应正确将矩阵值设置为 `1`，用于存在的边。
 
 ```js
 ({ 
@@ -105,30 +105,30 @@ The function should correctly set matrix values to `1` for existing edges.
 })
 ```
 
-The function should print each row of the matrix.
+该函数应打印矩阵的每一行。
 
 ```js
 ({ 
     test: () => runPython(`
         import io
         import sys
-
+        
         captured_output = io.StringIO()
         sys.stdout = captured_output
-
+        
         adj_list = {0: [1], 1: []}
         adjacency_list_to_matrix(adj_list)
-
+        
         sys.stdout = sys.__stdout__
         output = captured_output.getvalue()
-
+        
         assert "[0, 1]" in output
         assert "[0, 0]" in output
     `) 
 })
 ```
 
-The function should return the adjacency matrix.
+该函数应返回邻接矩阵。
 
 ```js
 ({ 
@@ -140,7 +140,7 @@ The function should return the adjacency matrix.
 })
 ```
 
-When given the adjacency list `{0: [1, 2], 1: [2], 2: [0, 3], 3: [2]}`, the function should return `[[0, 1, 1, 0], [0, 0, 1, 0], [1, 0, 0, 1], [0, 0, 1, 0]]`.
+当给定邻接列表 `{0: [1, 2], 1: [2], 2: [0, 3], 3: [2]}` 时，函数应返回 `[[0, 1, 1, 0], [0, 0, 1, 0], [1, 0, 0, 1], [0, 0, 1, 0]]`。
 
 ```js
 ({ 
@@ -153,7 +153,7 @@ When given the adjacency list `{0: [1, 2], 1: [2], 2: [0, 3], 3: [2]}`, the func
 })
 ```
 
-When given the adjacency list `{0: [1], 1: [0]}`, the function should return `[[0, 1], [1, 0]]`.
+当给定邻接列表 `{0: [1], 1: [0]}` 时，函数应返回 `[[0, 1], [1, 0]]`。
 
 ```js
 ({ 
@@ -166,7 +166,7 @@ When given the adjacency list `{0: [1], 1: [0]}`, the function should return `[[
 })
 ```
 
-When given the adjacency list `{0: [], 1: [], 2: []}`, the function should return `[[0, 0, 0], [0, 0, 0], [0, 0, 0]]`.
+当给定邻接列表 `{0: [], 1: [], 2: []}` 时，函数应返回 `[[0, 0, 0], [0, 0, 0], [0, 0, 0]]`。
 
 ```js
 ({ 
@@ -192,7 +192,7 @@ When given the adjacency list `{0: [], 1: [], 2: []}`, the function should retur
 ```py
 def adjacency_list_to_matrix(adj_list):
     n = len(adj_list)
-
+    
     adj_matrix = [[0] * n for _ in range(n)]
 
     for src_node, neighbors in adj_list.items(): 

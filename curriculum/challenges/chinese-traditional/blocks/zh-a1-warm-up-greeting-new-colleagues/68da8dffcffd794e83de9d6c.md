@@ -1,22 +1,22 @@
 ---
 id: 68da8dffcffd794e83de9d6c
-title: Task 10
+title: 任務 10
 challengeType: 19
 dashedName: task-10
 lang: zh-CN
 ---
 
-<!-- (Audio) Chen Na: 你們好 (nǐ men hǎo) -->
+<!-- (Audio) Chen Na: 你们好 (nǐ men hǎo) -->
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+聆聽音訊並回答以下問題。
 
 # --questions--
 
 ## --text--
 
-What is Chen Na saying to greet a group of people?
+陳娜對一群人說什麼來打招呼？
 
 ## --answers--
 
@@ -24,19 +24,19 @@ What is Chen Na saying to greet a group of people?
 
 ### --feedback--
 
-This is a greeting to one person, but Chen Na is greeting more than one.
+這是對一個人的問候，但陳娜是在向多個人問候。
 
 ---
 
-`您們好 (nín men hǎo)`
+`您们好 (nín men hǎo)`
 
 ### --feedback--
 
-This form is not standard in Chinese.
+這個表單在中文中並非標準。
 
 ---
 
-`你們好 (nǐ men hǎo)`
+`你们好 (nǐ men hǎo)`
 
 ---
 
@@ -44,7 +44,7 @@ This form is not standard in Chinese.
 
 ### --feedback--
 
-This also means "Hello, everyone", but Chen Na uses a different phrase.
+這也表示「Hello, everyone」，但陳娜使用不同的詞語。
 
 ## --video-solution--
 
@@ -52,11 +52,11 @@ This also means "Hello, everyone", but Chen Na uses a different phrase.
 
 # --explanation--
 
-The question is asking what Chen Na is saying to greet **a group of people**.
+問題是在問陳娜對 **一群人** 說了什麼來打招呼。
 
-`你好 (nǐ hǎo)` is a greeting to one person, while `您好 (nín hǎo)` is a polite greeting to one person. `您們好 (nín men hǎo)` is not standard in Chinese; `您 (nín)` is polite singular, not usually pluralized.
+`你好 (nǐ hǎo)` 是對一個人的問候，而 `您好 (nín hǎo)` 是對一個人的禮貌問候。`您们好 (nín men hǎo)` 並非中文標準用法；`您 (nín)` 是禮貌的單數用法，通常不會用於複數。
 
-The correct phrase for greeting a group is `你們好 (nǐ men hǎo)`, which is a common way to say "hello, everyone". `大家好 (dà jiā hǎo)` is another way to greet a group, which you'll learn as you progress.
+對群組打招呼的正確用語是 `你们好 (nǐ men hǎo)`，這是說「大家好」的常用方式。`大家好 (dà jiā hǎo)` 是另一種向群組打招呼的方式，你會隨著進度學到。
 
 # --scene--
 
@@ -93,7 +93,7 @@ The correct phrase for greeting a group is `你們好 (nǐ men hǎo)`, which is 
       "startTime": 1,
       "finishTime": 1.92,
       "dialogue": {
-        "text": "你們好 (nǐ men hǎo)",
+        "text": "你们好 (nǐ men hǎo)",
         "align": "center"
       }
     },

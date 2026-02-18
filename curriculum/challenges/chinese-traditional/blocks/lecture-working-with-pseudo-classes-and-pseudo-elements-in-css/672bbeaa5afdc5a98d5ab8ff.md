@@ -1,15 +1,15 @@
 ---
 id: 672bbeaa5afdc5a98d5ab8ff
-title: What Are Examples of Location Pseudo-classes?
+title: 位置偽類的範例有哪些？
 challengeType: 19
 dashedName: what-are-examples-of-location-pseudo-classes
 ---
 
 # --interactive--
 
-Location pseudo-classes are used for styling links and elements that are targeted within the current document. They offer a way to apply styles based on whether a link is visited or whether an element is currently in focus.
+位置偽類用於為目前文件中被標的的連結和元素設定樣式。它們提供一種根據連結是否已造訪或元素是否目前處於焦點來套用樣式的方法。
 
-Examples of location pseudo-classes are:
+位置偽類的範例有：
 
 - `:link`
 - `:visited`
@@ -17,9 +17,9 @@ Examples of location pseudo-classes are:
 - `:local-link`
 - `:target`
 
-Let's take a deeper look at each of these pseudo-classes.
+讓我們更深入地了解這些偽類別中的每一個。
 
-The `:link` pseudo-class allows you to target all unvisited links on a webpage. You can use it to style links differently before the user clicks on them. For example, you might want to make all unvisited links blue or your website's primary color:
+`:link` 偽類別允許你標的網頁上所有未造訪的連結。你可以使用它在使用者點擊之前，為連結設定不同的樣式。<dfn>例如</dfn>，你可能想要將所有未造訪的連結設為藍色或你網站的主要顏色：
 
 :::interactive_editor
 
@@ -36,9 +36,9 @@ a:link {
 
 :::
 
-In this case, any link the user hasn't clicked yet will appear magenta. Once the user clicks the link, the `:link` style no longer applies, and the `:visited` pseudo-class takes over. The `:visited` pseudo-class comes into play after the user clicks the link, so you can use it to target links the user has already clicked.
+在這種情況下，任何使用者尚未點擊的聯結將顯示為洋紅色。一旦使用者點擊該聯結，` :link` 樣式將不再適用，` :visited` 偽類別會接手。` :visited` 偽類別會在使用者點擊聯結後生效，因此你可以用它來標的使用者已經點擊過的聯結。 
 
-Here is an example of changing the visited link state to the color `purple`:
+以下是將已訪問聯結狀態更改為顏色 `purple` 的範例：
 
 :::interactive_editor
 
@@ -55,11 +55,11 @@ a:visited {
 
 :::
 
-The `:visited` pseudo-class helps users distinguish between links they have visited and those they have not.
+`:visited` 偽類別幫助使用者區分他們已造訪過的聯結和未造訪過的聯結。
 
-The `:any-link` pseudo-class is a combination of the `:link` and `:visited` pseudo-classes. So it matches any anchor element with an `href` attribute, regardless of whether it's visited or not.
+`:any-link` 偽類是 `:link` 和 `:visited` 偽類的組合。因此，它會匹配任何具有 `href` 屬性的錨點元素，無論是否已造訪。
 
-Here is an example of changing the link color for the `:any-link` pseudo-class to `crimson`:
+以下是將 `:any-link` 偽類的聯結顏色更改為 `crimson` 的範例：
 
 :::interactive_editor
 
@@ -76,11 +76,11 @@ a:any-link {
 
 :::
 
-The `:local-link` pseudo-class targets links that point to the same document. It can be useful when you want to differentiate internal links from external ones. Currently, no browser supports the `:local-link` pseudo-class.
+`:local-link` 偽類別標的指向相同文件的連結。當你想區分內部連結與外部連結時，它會很有用。目前，沒有瀏覽器支援 `:local-link` 偽類別。
 
-The `:target` pseudo-class selects an element that matches the current URL fragment identifier, for example, `#section1`. It's very useful for pages with in-page navigation.
+`:target` 偽類別會選取符合目前 URL 片段識別字的元素，例如 `#section1`。它對於具有頁內導覽的頁面非常有用。
 
-Here's an HTML example that represents an in-page navigation. The CSS uses the `:target` pseudo-class to style the section that matches where the user navigates to:
+這是一個表述頁內導覽的 HTML 範例。CSS 使用 `:target` 偽類別來為符合使用者導覽位置的區段套用樣式：
 
 :::interactive_editor
 
@@ -114,13 +114,13 @@ section:target {
 
 :::
 
-When the user clicks on one of the navigation links, the background color for that respective section will change to green.
+當使用者點擊其中一個導覽聯結時，該區段的背景顏色將變為綠色。
 
 # --questions--
 
 ## --text--
 
-Which pseudo-class allows you to style an element that matches the current URL fragment identifier, such as `#section1`?
+哪一個偽類別允許你為符合目前 URL 片段識別字（例如 `#section1`）的元素設定樣式？
 
 ## --answers--
 
@@ -128,7 +128,7 @@ Which pseudo-class allows you to style an element that matches the current URL f
 
 ### --feedback--
 
-Think about how you can highlight a specific section when navigating through in-page links.
+思考你如何在透過頁內 `link` 導覽時凸顯標示特定區段。
 
 ---
 
@@ -136,7 +136,7 @@ Think about how you can highlight a specific section when navigating through in-
 
 ### --feedback--
 
-Think about how you can highlight a specific section when navigating through in-page links.
+思考你如何在透過頁內 `link` 導覽時凸顯標示特定區段。
 
 ---
 
@@ -148,7 +148,7 @@ Think about how you can highlight a specific section when navigating through in-
 
 ### --feedback--
 
-Think about how you can highlight a specific section when navigating through in-page links.
+思考你如何在透過頁內 `link` 導覽時凸顯標示特定區段。
 
 ## --video-solution--
 
@@ -156,35 +156,35 @@ Think about how you can highlight a specific section when navigating through in-
 
 ## --text--
 
-When are location pseudo-classes particularly useful?
+位置偽類在什麼時候特別有用？
 
 ## --answers--
 
-When styling elements based on their sibling relationships.
+當根據元素的兄弟關係來設定樣式時。
 
 ### --feedback--
 
-Think about how you can style links and targeted elements depending on user interaction.
+思考你如何根據使用者互動來為 `link` 和標的元素設計樣式。
 
 ---
 
-When applying styles based on whether a link is visited or an element is currently in focus.
+當根據聯結是否已造訪或元素目前是否處於焦點狀態來套用樣式時。
 
 ---
 
-When styling elements based on their parent element's attributes.
+當根據其父元素的屬性來設定元素樣式時。
 
 ### --feedback--
 
-Think about how you can style links and targeted elements depending on user interaction.
+思考你如何根據使用者互動來為 `link` 和標的元素設計樣式。
 
 ---
 
-When adjusting the layout of a webpage dynamically.
+當動態調整網頁的版面配置時。
 
 ### --feedback--
 
-Think about how you can style links and targeted elements depending on user interaction.
+思考你如何根據使用者互動來為 `link` 和標的元素設計樣式。
 
 ## --video-solution--
 
@@ -192,7 +192,7 @@ Think about how you can style links and targeted elements depending on user inte
 
 ## --text--
 
-Which pseudo-class is designed to target links that point to the same document but is not currently supported by any browser?
+哪一個偽類別是設計用來標的指向相同文件的連結，但目前沒有任何瀏覽器支援？
 
 ## --answers--
 
@@ -200,7 +200,7 @@ Which pseudo-class is designed to target links that point to the same document b
 
 ### --feedback--
 
-Consider the pseudo-class intended for distinguishing internal links from external ones, even though it's not yet supported.
+考慮用於區分內部聯結與外部聯結的偽類，儘管它尚未被支援。
 
 ---
 
@@ -212,7 +212,7 @@ Consider the pseudo-class intended for distinguishing internal links from extern
 
 ### --feedback--
 
-Consider the pseudo-class intended for distinguishing internal links from external ones, even though it's not yet supported.
+考慮用於區分內部聯結與外部聯結的偽類，儘管它尚未被支援。
 
 ---
 
@@ -220,7 +220,7 @@ Consider the pseudo-class intended for distinguishing internal links from extern
 
 ### --feedback--
 
-Consider the pseudo-class intended for distinguishing internal links from external ones, even though it's not yet supported.
+考慮用於區分內部聯結與外部聯結的偽類，儘管它尚未被支援。
 
 ## --video-solution--
 

@@ -1,23 +1,23 @@
 ---
 id: 671fa93b5eee8737af8bafde
-title: 步驟 10
+title: 第 10 步
 challengeType: 0
 dashedName: step-10
 ---
 
 # --description--
 
-Create a function called `displayStory`. Inside the function, log `"You clicked the button"` to the console.
+創建一個名為 `displayStory` 的函式（程式）。在該函式（程式）內，將 `"You clicked the button"` 記錄到主控台。
 
 # --hints--
 
-You should have a function called `displayStory`.
+你應該有一個名為 `displayStory` 的函式（程式）。
 
 ```js
 assert.isFunction(displayStory);
 ```
 
-You should log `"You clicked the button"` to the console inside the `displayStory` function.
+你應該在 `displayStory` 函式（程式）內將 `"You clicked the button"` 記錄到主控台。
 
 ```js
 assert.match(displayStory.toString(), /console\.log\(["']You clicked the button["']\)/);

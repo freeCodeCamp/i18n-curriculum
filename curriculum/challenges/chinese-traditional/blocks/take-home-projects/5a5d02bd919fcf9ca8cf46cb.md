@@ -1,6 +1,6 @@
 ---
 id: 5a5d02bd919fcf9ca8cf46cb
-title: Build a Light-Bright App
+title: 建置一個 Light-Bright 應用程式
 challengeType: 3
 forumTopicId: 302350
 dashedName: build-a-light-bright-app
@@ -8,27 +8,27 @@ dashedName: build-a-light-bright-app
 
 # --description--
 
-**Objective:** Build an app that is functionally similar to this: <https://codepen.io/freeCodeCamp/full/eyLYXE>.
+**目標：** 建置一個功能上類似於此的應用程式：https://codepen.io/freeCodeCamp/full/eyLYXE。
 
-**Rule #1:** Don't look at the example project's code. Figure it out for yourself.
+**規則 #1：** 不要查看範例專案的程式碼。自己想辦法解決。
 
-**Rule #2:** Fulfill the below user stories and get all of the tests to pass. Use whichever libraries or APIs you need. Give it your own personal style.
+**規則 #2：** 完成以下使用者故事並通過所有測試。使用你需要的任何函式庫或 API。展現你自己的風格。
 
-**User Story:** I can click or drag the mouse cursor to color the circles.
+**使用者故事：** 我可以點擊或拖曳滑鼠游標來為圓圈上色。
 
-**User Story:** I can double-click on a colored circle to remove the color.
+**使用者故事：** 我可以雙擊有色圓圈以移除顏色。
 
-**User Story:** I can click on a colored circle to change its color.
+**使用者故事：** 我可以點擊有色圓圈來改變它的顏色。
 
-**User Story:** I should get a circle of different color on each click.
+**使用者故事：**我每次點擊時都應該獲得一個不同顏色的圓形。
 
-**User Story:** I can click on the 'Reset' button to remove the recent color.
+**使用者故事：** 我可以點擊「Reset」按鈕來移除最近的顏色。
 
-**User Story:** I can click on the 'Reset All' button to remove all the colors from the circles.
+**使用者故事：** 我可以點擊「Reset All」按鈕來移除所有圓圈的顏色。
 
-When you are finished, include a link to your project on CodePen and click the "I've completed this challenge" button.
+完成後，請包含你在 CodePen 上的專案聯結，然後點擊「我已完成此挑戰」按鈕。
 
-You can get feedback on your project by sharing it on the <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp forum</a>.
+你可以透過在 <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp 論壇</a> 分享你的專案來獲得回授。
 
 # --solutions--
 

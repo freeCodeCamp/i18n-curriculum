@@ -1,6 +1,6 @@
 ---
 id: 67ee802cf777fd1dcdeac13a
-title: Task 19
+title: 任务 19
 challengeType: 19
 dashedName: task-19
 lang: en-US
@@ -16,35 +16,35 @@ lang: en-US
 
 ## --text--
 
-What requirement does Sophie mention?
+Sophie 提到了什么要求？
 
 ## --answers--
 
-Mark should delete unnecessary lines of code.
+Mark 应该删除不必要的代码行。
 
 ### --feedback--
 
-Sophie doesn't talk about removing code.
+Sophie 不谈论删除代码。
 
 ---
 
-Mark should rewrite his code completely.
+Mark 应该完全重写他的代码。
 
 ### --feedback--
 
-Sophie doesn't suggest rewriting the entire code.
+Sophie 不建议重写整个代码。
 
 ---
 
-Mark should avoid using loops.
+Mark 应避免使用循环。
 
 ### --feedback--
 
-Sophie does not say anything about avoiding loops.
+Sophie 没有说任何关于避免 `循环` 的内容。
 
 ---
 
-Mark should use notes in his code.
+Mark 应该在他的代码中使用注释。
 
 ## --video-solution--
 
@@ -52,13 +52,13 @@ Mark should use notes in his code.
 
 # --explanation--
 
-A `comment` is a note in the code that helps explain what it does. For example:
+`comment` 是代码中的注释，用于帮助解释代码的作用。例如：
 
-- `I added a comment to explain why this loop is necessary.` - You wrote a comment to describe why certain loop is used.
+- `I added a comment to explain why this loop is necessary.` - 你写了一个评论来说明为什么使用某个循环。
 
-- `You can use comments to leave notes about issues that need fixing later.` - Comments can be added in the code as reminders for things that need to be fixed or improved.
+- 你可以使用评论来留下需要以后修复的问题的备注。- 评论可以添加到代码中，作为需要修复或改进事项的提醒。
 
-Comments help others understand the code and remind you of important details when reviewing your code later.
+评论帮助其他人理解代码，并在你以后查看代码时提醒你重要细节。
 
 # --scene--
 

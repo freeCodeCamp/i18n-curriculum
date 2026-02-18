@@ -1,15 +1,15 @@
 ---
 id: 6732b28eeadda1158cdbff7b
-title: How Can You Check if an Array Contains a Certain Value?
+title: 如何檢查陣列是否包含特定值？
 challengeType: 19
 dashedName: how-can-you-check-if-an-array-contains-a-certain-value
 ---
 
 # --interactive--
 
-In JavaScript, the `includes()` method is a simple and efficient way to check if an array contains a specific value. This method returns a boolean value: `true` if the array contains the specified element, and `false` otherwise.
+在 JavaScript 中，`includes()` 方法是一種簡單且高效的方式，用來檢查陣列是否包含特定的值。此方法會傳回布林值：如果陣列包含指定的元素，則傳回 `true`，否則傳回 `false`。 
 
-The `includes()` method is particularly useful when you need to quickly verify the presence of an element in an array without needing to know its exact position. Let's start with an example of how to use the `includes()` method:
+當你需要快速驗證陣列中是否存在某個元素而不需要知道它的確切位置時，`includes()` 方法特別有用。讓我們從一個如何使用 `includes()` 方法的範例開始：
 
 :::interactive_editor
 
@@ -21,9 +21,9 @@ console.log(fruits.includes("grape"));  // false
 
 :::
 
-In this example, we have an array of fruits. We use the `includes()` method to check if `banana` is in the array. It returns `true` because `banana` is indeed present. We then check for `grape`, which returns `false` because it's not in the array.
+在這個範例中，我們有一個水果的陣列。我們使用 `includes()` 方法來檢查 `banana` 是否在陣列中。它傳回 `true`，因為 `banana` 確實存在。接著我們檢查 `grape`，它傳回 `false`，因為它不在陣列中。
 
-The `includes()` method is case-sensitive when dealing with strings. This means that `Banana` with a capital B and `banana` with all lowercase letters are considered different values. Here's an example that illustrates this:
+`includes()` 方法在處理字串時區分大小寫。這表示首字母大寫的 `Banana` 和全小寫的 `banana` 被視為不同的值。以下是一個說明此情況的範例：
 
 :::interactive_editor
 
@@ -35,9 +35,9 @@ console.log(fruits.includes("Banana")); // false
 
 :::
 
-In this case, `banana` (all in lowercase) is found in the array, but `Banana` (with the first letter capitalized) is not, so the second `includes()` call returns `false`.
+在這種情況下，`banana`（全部小寫）在陣列中被找到，但 `Banana`（首字母大寫）則沒有，因此第二次 `includes()` 呼叫傳回 `false`。
 
-The `includes()` method can also accept an optional second parameter that specifies the position in the array to start the search. This is useful if you want to check for an element's presence in a specific part of the array. Here's how you can use this feature:
+`includes()` 方法也可以接受一個選用的第二個參數，用來指定在陣列中開始搜尋的位置。如果你想要檢查陣列中特定零件是否存在，這會很有用。以下是你如何使用這個特性：
 
 :::interactive_editor
 
@@ -49,11 +49,11 @@ console.log(numbers.includes(30, 4)); // true
 
 :::
 
-For the first `console.log`, we are looking for the number `30` starting at index `3`. In this case, there is a number `30` that appears after index `3`, so the `includes()` method returns `true`.
+對於第一個 `console.log`，我們正在尋找從索引 `3` 開始的數字 `30`。在這種情況下，有一個數字 `30` 出現在索引 `3` 之後，所以 `includes()` 方法傳回 `true`。 
 
-The same is true for the second `console.log`. We are looking for the number `30` starting at index `4`. Since the number `30` does appear after that index, then it will return `true`.
+第二個 `console.log` 也是如此。我們正在尋找從索引 `4` 開始的數字 `30`。因為數字 `30` 確實出現在該索引之後，所以它會傳回 `true`。 
 
-It's worth noting that `includes()` uses the strict equality comparison (`===`), which means it can distinguish between different types. 例如：
+值得注意的是，`includes()` 使用嚴格相等比較（`===`），這表示它可以區分不同的型別。<dfn>例如</dfn>：
 
 :::interactive_editor
 
@@ -65,15 +65,15 @@ console.log(mixedArray.includes("2")); // true
 
 :::
 
-In this case, the number `2` and the string `"2"` are considered different data types. So, the first `console.log` will return `false`, while the second `console.log` will return `true`.
+在這種情況下，數字 `2` 和字串 `"2"` 被視為不同的資料型別。所以，第一個 `console.log` 會傳回 `false`，而第二個 `console.log` 會傳回 `true`。
 
-The `includes()` method is a powerful tool for checking the presence of elements in arrays. It's simple to use, efficient, and can save you from writing more complex loops or conditions to search through arrays. Whether you're working with strings, numbers, or mixed data types, `includes()` provides a straightforward way to verify if a value exists in your array.
+`includes()` 方法是一個強大的工具，用於檢查陣列中元素的存在。它簡單易用、高效，並且可以避免你撰寫更複雜的迴圈或條件來搜尋陣列。無論你是在處理字串、數字或混合資料型別，`includes()` 都提供了一種直接的方法來驗證值是否存在於你的陣列中。
 
 # --questions--
 
 ## --text--
 
-下面代碼的輸出是什麼？
+以下 `code` 的輸出結果會是什麼？
 
 ```js
 let arr = [1, 2, 3, 4, 5];
@@ -86,7 +86,7 @@ console.log(arr.includes(3, 3));
 
 ### --feedback--
 
-The second parameter of `includes()` specifies the starting position for the search.
+`includes()` 的第二個參數指定搜尋的起始位置。
 
 ---
 
@@ -98,15 +98,15 @@ The second parameter of `includes()` specifies the starting position for the sea
 
 ### --feedback--
 
-The second parameter of `includes()` specifies the starting position for the search.
+`includes()` 的第二個參數指定搜尋的起始位置。
 
 ---
 
-會報錯。
+這將會丟出錯誤。
 
 ### --feedback--
 
-The second parameter of `includes()` specifies the starting position for the search.
+`includes()` 的第二個參數指定搜尋的起始位置。
 
 ## --video-solution--
 
@@ -114,7 +114,7 @@ The second parameter of `includes()` specifies the starting position for the sea
 
 ## --text--
 
-下面代碼的輸出是什麼？
+以下 `code` 的輸出結果會是什麼？
 
 ```js
 let arr = ["a", "b", "c", "d", "e"];
@@ -127,7 +127,7 @@ console.log(arr.includes("C"));
 
 ### --feedback--
 
-Remember that `includes()` is case-sensitive when dealing with strings.
+請記住，當處理字串時，`includes()` 是區分大小寫的。
 
 ---
 
@@ -139,15 +139,15 @@ Remember that `includes()` is case-sensitive when dealing with strings.
 
 ### --feedback--
 
-Remember that `includes()` is case-sensitive when dealing with strings.
+請記住，當處理字串時，`includes()` 是區分大小寫的。
 
 ---
 
-會報錯。
+這將會丟出錯誤。
 
 ### --feedback--
 
-Remember that `includes()` is case-sensitive when dealing with strings.
+請記住，當處理字串時，`includes()` 是區分大小寫的。
 
 ## --video-solution--
 
@@ -155,7 +155,7 @@ Remember that `includes()` is case-sensitive when dealing with strings.
 
 ## --text--
 
-下面代碼的輸出是什麼？
+以下 `code` 的輸出結果會是什麼？
 
 ```js
 let arr = [1, "2", 3, "4", 5];
@@ -168,7 +168,7 @@ console.log(arr.includes("3"));
 
 ### --feedback--
 
-The `includes()` method uses strict equality (`===`) for comparison.
+`includes()` 方法使用嚴格相等 (`===`) 進行比較。
 
 ---
 
@@ -180,15 +180,15 @@ The `includes()` method uses strict equality (`===`) for comparison.
 
 ### --feedback--
 
-The `includes()` method uses strict equality (`===`) for comparison.
+`includes()` 方法使用嚴格相等 (`===`) 進行比較。
 
 ---
 
-會報錯。
+這將會丟出錯誤。
 
 ### --feedback--
 
-The `includes()` method uses strict equality (`===`) for comparison.
+`includes()` 方法使用嚴格相等 (`===`) 進行比較。
 
 ## --video-solution--
 

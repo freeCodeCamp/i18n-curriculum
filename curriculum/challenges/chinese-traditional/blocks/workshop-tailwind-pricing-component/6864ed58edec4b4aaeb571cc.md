@@ -1,19 +1,19 @@
 ---
 id: 6864ed58edec4b4aaeb571cc
-title: 步驟 17
+title: 第 17 步
 challengeType: 0
 dashedName: step-17
 ---
 
 # --description--
 
-Moving to the inner `div` in the **Listener plan**, give it the classes `grid`, `grid-rows-[auto_auto_auto_1fr]`, and `gap-y-2`.
+移動到 **Listener plan** 中的內部 `div`，為它添加類別 `grid`、`grid-rows-[auto_auto_auto_1fr]` 和 `gap-y-2`。
 
-These classes will make the inner `div` a grid container, define four rows that stack on top of each other, with the first three set to `auto` and the last taking up the remaining spaces, and finally add a spacing of `0.5rem` between the rows.
+這些類別會使內部的 `div` 成為一個網格容器，定義四個堆疊在彼此上方的列，前三個設定為 `auto`，最後一個佔據剩餘空間，並且最後在列之間添加 `0.5rem` 的間距。
 
 # --hints--
 
-Your inner `div` element should have the class `grid`.
+你的內部 `div` 元素應該有 `grid` 類別。
 
 ```js
 const listenerPlanInnerDiv = document.querySelectorAll("div")[2]
@@ -21,7 +21,7 @@ const listenerPlanInnerDiv = document.querySelectorAll("div")[2]
 assert.isTrue(listenerPlanInnerDiv.classList.contains("grid"))
 ```
 
-Your inner `div` element should have the class `grid-rows-[auto_auto_auto_1fr]`.
+你的內部 `div` 元素應該有類別 `grid-rows-[auto_auto_auto_1fr]`。
 
 ```js
 const listenerPlanInnerDiv = document.querySelectorAll("div")[2]
@@ -29,7 +29,7 @@ const listenerPlanInnerDiv = document.querySelectorAll("div")[2]
 assert.isTrue(listenerPlanInnerDiv.classList.contains("grid-rows-[auto_auto_auto_1fr]"))
 ```
 
-Your inner `div` element should have the class `gap-y-2`.
+你的內部 `div` 元素應該有 `gap-y-2` 類別。
 
 ```js
 const listenerPlanInnerDiv = document.querySelectorAll("div")[2]

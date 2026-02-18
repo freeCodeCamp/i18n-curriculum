@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c442eddfaeb5bd18
-title: Build a Tribute Page
+title: 制作一个致敬页
 challengeType: 14
 saveSubmissionToDB: true
 forumTopicId: 301147
@@ -9,27 +9,27 @@ dashedName: build-a-tribute-page
 
 # --description--
 
-**Objective:** Build an app that is functionally similar to <a href="https://tribute-page.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://tribute-page.freecodecamp.rocks</a>. **Do not copy this demo project**.
+**目标：** 构建一个功能上类似于 <a href="https://tribute-page.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://tribute-page.freecodecamp.rocks</a> 的应用。**请勿拷贝此演示项目**。
 
-**用户需求：**
+**用户故事：**
 
-1. Your tribute page should have a `main` element with a corresponding `id` of `main`, which contains all other elements
-1. You should see an element with an `id` of `title`, which contains a string (i.e. text), that describes the subject of the tribute page (e.g. "Dr. Norman Borlaug")
-1. You should see either a `figure` or a `div` element with an `id` of `img-div`
-1. Within the `#img-div` element, you should see an `img` element with a corresponding `id="image"`
-1. Within the `#img-div` element, you should see an element with a corresponding `id="img-caption"` that contains textual content describing the image shown in `#img-div`
-1. You should see an element with a corresponding `id="tribute-info"`, which contains textual content describing the subject of the tribute page
-1. You should see an `a` element with a corresponding `id="tribute-link"`, which links to an outside site, that contains additional information about the subject of the tribute page. HINT: You must give your element an attribute of `target` and set it to `_blank` in order for your link to open in a new tab
-1. Your `#image` should use `max-width` and `height` properties to resize responsively, relative to the width of its parent element, without exceeding its original size
-1. Your `img` element should be centered within its parent element
+1. 你的致敬页应该包含一个 `id` 为 `main` 的 `main` 元素，它包含所有其他元素。
+1. 你的页面应该包含一个元素，它的属性 `id` 值为`title`,，元素中包含一个字符串（例如 text）描述致敬页的主题（例如 "Dr. Norman Borlaug"）
+1. 你应该有一个 `id` 为 `img-div` 的 `figure` 或 `div` 元素
+1. 在 `#img-div` 元素中，你应该看到一个 `id="image"` 的 `img` 元素
+1. 在 `#img-div` 元素内，你应该看到一个 `id="img-caption"` 的元素，其中包含对 `#img-div` 中图像的文本描述
+1. 你应该看到一个 `id="tribute-info"` 的元素，其中包含描述致敬页主题的文本内容
+1. 你应该看到一个带有相应 `id="tribute-link"` 的 `a` 元素，该元素链接到外部站点，其中包含有关致敬页面主题的附加信息。 提示：你必须为元素提供 `target` 属性，并设置其为 `_blank`，以便可以在新选项卡中打开链接。
+1. 你的 `#image` 应该使用 `max-width` 和 `height` 属性来响应式调整大小，相对于其父元素的宽度，但不超过其原始大小
+1. 你的 `img` 元素应该在其父元素内居中
 
-Fulfill the user stories and pass all the tests below to complete this project. Give it your own personal style. Happy Coding!
+满足用户故事并通过下面的所有测试来完成这个项目。 赋予它你的个人风格. 祝你编码愉快！
 
-**Note:** Be sure to add `<link rel="stylesheet" href="styles.css">` in your HTML to link your stylesheet and apply your CSS
+**注意：** 请确保在你的超文本标记语言中添加 `<link rel="stylesheet" href="styles.css">` 以链接你的样式表并应用你的 CSS
 
 # --hints--
 
-You should have a `main` element with an `id` of `main`.
+你应该有一个 `main` 元素且该元素的 `id` 为 `main`.
 
 ```js
 const el = document.getElementById('main');
@@ -37,7 +37,7 @@ assert.isNotNull(el);
 assert.strictEqual(el.tagName, 'MAIN');
 ```
 
-Your `#img-div`, `#image`, `#img-caption`, `#tribute-info`, and `#tribute-link` should all be descendants of `#main`.
+你的 `#img-div`、`#image`、`#img-caption`、`#tribute-info` 和 `#tribute-link` 应该是 `#main` 的子元素。
 
 ```js
 const el1 = document.querySelector('#main #img-div');
@@ -52,14 +52,14 @@ assert.isNotNull(el4);
 assert.isNotNull(el5);
 ```
 
-You should have an element with an `id` of `title`.
+你应该有一个`id`为`title`的元素。
 
 ```js
 const el = document.getElementById('title');
 assert.isNotNull(el);
 ```
 
-Your `#title` should not be empty.
+你的 id 为 `#title` 的元素不应为空。
 
 ```js
 const el = document.getElementById('title');
@@ -67,7 +67,7 @@ assert.isNotNull(el);
 assert.isNotEmpty(el.innerText.trim());
 ```
 
-You should have a `figure` or `div` element with an `id` of `img-div`.
+你应该有一个 `id` 为 `img-div` 的 `figure` 或 `div` 元素。
 
 ```js
 const el = document.getElementById('img-div');
@@ -75,7 +75,7 @@ assert.isNotNull(el);
 assert.isTrue(el.tagName === 'DIV' || el.tagName === 'FIGURE');
 ```
 
-You should have an `img` element with an `id` of `image`.
+你应该有一个 `id` 为 `image` 的 `img` 元素。
 
 ```js
 const el = document.getElementById('image');
@@ -83,14 +83,14 @@ assert.isNotNull(el);
 assert.strictEqual(el.tagName, 'IMG');
 ```
 
-Your `#image` should be a descendant of `#img-div`.
+你的 `#image` 元素应该是 `#img-div` 元素的子元素。
 
 ```js
 const el = document.querySelector('#img-div #image');
 assert.isNotNull(el);
 ```
 
-You should have a `figcaption` or `div` element with an `id` of `img-caption`.
+你应该有一个 `id` 为 `img-caption` 的 `figcaption` 元素或 `div` 元素。
 
 ```js
 const el = document.getElementById('img-caption');
@@ -98,14 +98,14 @@ assert.isNotNull(el);
 assert.isTrue(el.tagName === 'DIV' || el.tagName === 'FIGCAPTION');
 ```
 
-Your `#img-caption` should be a descendant of `#img-div`.
+你的 `#img-caption` 元素应该是 `#img-div` 元素的子元素。
 
 ```js
 const el = document.querySelector('#img-div #img-caption');
 assert.isNotNull(el);
 ```
 
-Your `#img-caption` should not be empty.
+id为 `#img-caption` 的元素不应为空。
 
 ```js
 const el = document.getElementById('img-caption');
@@ -113,14 +113,14 @@ assert.isNotNull(el);
 assert.isNotEmpty(el.innerText);
 ```
 
-You should have an element with an `id` of `tribute-info`.
+你应该有一个 `id` 为 `tribute-info` 的元素。
 
 ```js
 const el = document.getElementById('tribute-info');
 assert.isNotNull(el);
 ```
 
-Your `#tribute-info` should not be empty.
+id为 `#tribute-info` 的元素不应为空。
 
 ```js
 const el = document.getElementById('tribute-info');
@@ -128,7 +128,7 @@ assert.isNotNull(el);
 assert.isNotEmpty(el.innerText);
 ```
 
-You should have an `a` element with an `id` of `tribute-link`.
+你应该有一个 `id` 为 `tribute-link` 的 `a` 元素。
 
 ```js
 const el = document.getElementById('tribute-link');
@@ -136,7 +136,7 @@ assert.isNotNull(el);
 assert.strictEqual(el.tagName, 'A');
 ```
 
-Your `#tribute-link` should have an `href` attribute and value.
+id为 `#tribute-link` 的元素的 `href` 属性应该有值。
 
 ```js
 const el = document.getElementById('tribute-link');
@@ -145,7 +145,7 @@ assert.isNotNull(el.href);
 assert.isNotEmpty(el.href);
 ```
 
-Your `#tribute-link` should have a `target` attribute set to `_blank`.
+id为 `#tribute-link` 的元素的 `target` 属性应该设置为 `_blank`。
 
 ```js
 const el = document.getElementById('tribute-link');
@@ -153,7 +153,7 @@ assert.isNotNull(el);
 assert.strictEqual(el.target, '_blank');
 ```
 
-Your `img` element should have a `display` of `block`.
+`img` 元素应该有 `display` 样式且值应为 `block`。
 
 ```js
 const img = document.getElementById('image');
@@ -162,7 +162,7 @@ const style = imgStyle?.getPropertyValue('display');
 assert.strictEqual(style, 'block');
 ```
 
-Your `#image` should have a `max-width` of `100%`.
+你的 `#image` 应该具有 `max-width` 值为 `100%`。
 
 ```js
 const img = document.getElementById('image');
@@ -171,7 +171,7 @@ const style = imgStyle?.getPropertyValue('max-width');
 assert.strictEqual(style, '100%');
 ```
 
-Your `#image` should have a `height` of `auto`.
+你的 `#image` 应该具有 `height` 值为 `auto`。
 
 ```js
 // taken from the testable-projects repo
@@ -185,7 +185,7 @@ img?.style.setProperty('display', oldDisplayValue, oldDisplayPriority);
 assert.strictEqual(heightValue, 'auto');
 ```
 
-Your `#image` should be centered within its parent.
+你的 `#image` 元素应该在其父元素内居中。
 
 ```js
 // taken from the testable-projects repo

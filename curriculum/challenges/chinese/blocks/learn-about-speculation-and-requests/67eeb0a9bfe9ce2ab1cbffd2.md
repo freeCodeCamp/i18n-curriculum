@@ -1,6 +1,6 @@
 ---
 id: 67eeb0a9bfe9ce2ab1cbffd2
-title: Task 29
+title: 任务 29
 challengeType: 19
 dashedName: task-29
 lang: en-US
@@ -16,35 +16,35 @@ lang: en-US
 
 ## --text--
 
-What else should Mark have done?
+马克还应该做什么？
 
 ## --answers--
 
-He should have rewritten his entire code.
+他应该重写他的整个代码。
 
 ### --feedback--
 
-Mark didn't need to rewrite everything.
+Mark 不需要重写所有内容。
 
 ---
 
-He should have tested his code first.
+他应该先测试他的代码。
 
 ---
 
-He should have removed all comments.
+他应该已经删除了所有评论。
 
 ### --feedback--
 
-Comments are useful and should not be removed.
+评论是有用的，不应被删除。
 
 ---
 
-He should have skipped testing because it takes too long.
+他应该跳过测试，因为它花费太长时间。
 
 ### --feedback--
 
-Testing is an important step before submitting code.
+测试是在提交代码之前的重要步骤。
 
 ## --video-solution--
 
@@ -52,11 +52,11 @@ Testing is an important step before submitting code.
 
 # --explanation--
 
-A `test suite` is a collection of tests that check if a program works correctly. For example:
+`test suite` 是一组用于查看程序是否正常工作的测试集合。例如：
 
-- `We ran the test suite to check if the app works properly.` - The team executed all the tests to ensure the app functions as expected.
+- `We ran the test suite to check if the app works properly。` - 团队执行了所有测试以确保应用程序按预期运行。
 
-- `We need to add more tests to the test suite to check for edge cases.` - The team should include more tests to cover all possible situations.
+- 我们需要为测试套件添加更多测试以查看边缘分支。——团队应包含更多测试以覆盖所有可能的情况。
 
 # --scene--
 

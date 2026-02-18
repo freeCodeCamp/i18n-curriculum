@@ -1,6 +1,6 @@
 ---
 id: 5ea9997bbec2e9bc47e94daf
-title: Understanding Sockets and Creating a TCP Server
+title: 理解 Sockets 並建立 TCP 伺服器
 challengeType: 11
 videoId: F1QI9tNuDQg
 bilibiliIds:
@@ -14,7 +14,7 @@ dashedName: understanding-sockets-and-creating-a-tcp-server
 
 ## --text--
 
-Which of the following functions creates a socket object?
+以下哪一個函式（程式）會創建一個 `socket` 物件？
 
 ## --answers--
 

@@ -1,6 +1,6 @@
 ---
 id: 66f3f6eb66ea9dc41cdc30df
-title: Design a Set of Colored Boxes
+title: 设计一组彩色盒子
 challengeType: 25
 dashedName: set-of-colored-boxes
 demoType: onClick
@@ -8,28 +8,28 @@ demoType: onClick
 
 # --description--
 
-In this lab, you'll practice using CSS colors by designing boxes.
+在本实验中，你将通过设计一组盒子来练习使用 CSS 颜色。
 
 **目标：**实现以下用户需求并通过所有测试以完成实验。
 
-**用户需求：**
+**用户故事：**
 
-1. You should set the background color for `body` to `#f4f4f4`.
-2. You should have a `div` with a class of `color-grid` to hold all your color elements.
-3. You should have five `div` elements within the `.color-grid` element.
-4. The five `div` elements should each have a class of `color-box` and `color#`, where `#` is the number of the order of that `div`. For example: `color1` for the first `div`, `color2` for the second, and so on.
-5. The `.color-box` class should have a set `width` and `height` so your `div` elements are visible on the page.
-6. The `.color1` element should have a `background-color` that uses hexadecimal color value.
-7. The `.color2` element should have a `background-color` that uses an RGB color value.
-8. The `.color3` element should have a `background-color` that uses a predefined (word) color value.
-9. The `.color4` element should have a `background-color` that uses a HSL color value.
-10. The `.color5` element should have a `background-color` set.
+1. 你应该将 `body` 的背景颜色设置为 `#f4f4f4`。
+2. 你应该有一个类为 `color-grid` 的 `div` 来放置所有颜色元素。
+3. 你应该在 `.color-grid` 元素中包含五个 `div` 元素。
+4. 这五个 `div` 元素每个的类都应该为 `color-box` 和 `color#`，`#` 是该 `div` 的顺序号。 例如：`color1` 用于第一个 `div`，`color2` 用于第二个，以此类推。
+5. `.color-box` 类应该有设定的 `width` 和 `height`，以便你的 `div` 元素在页面上可见。
+6. `.color1` 元素的 `background-color` 应使用十六进制颜色值。
+7. `.color2` 元素的 `background-color` 应使用 RGB 颜色值。
+8. `.color3` 元素的 `background-color` 应使用预定义（单词）颜色值。
+9. `.color4` 元素的 `background-color` 应使用 HSL 颜色值。
+10. `.color5` 元素应设置一个 `background-color`。
 
-**Note:** Be sure to link your stylesheet in your HTML and apply your CSS.
+**注意：** 确保在 HTML 中链接样式表以应用 CSS。
 
 # --hints--
 
-`body` should have a background color of `#f4f4f4`.
+`body` 的背景颜色应为 `#f4f4f4`。
 
 ```js
 const body = document.body;
@@ -37,21 +37,21 @@ const bodyBgColor = getComputedStyle(body).backgroundColor;
 assert.strictEqual(bodyBgColor, 'rgb(244, 244, 244)');
 ```
 
-You should have a `div` element with a class of `color-grid`.
+你应该有一个类为 `color-grid` 的 `div` 元素。
 
 ```js
 const colorGrid = document.querySelector('div.color-grid');
 assert.exists(colorGrid);
 ```
 
-You should have five `div` elements within the `.color-grid` element.
+你应该在 `.color-grid` 元素中包含五个 `div` 元素。
 
 ```js
 const colorGridChildren = document.querySelectorAll('div.color-grid > div');
 assert.strictEqual(colorGridChildren.length, 5);
 ```
 
-Each of the five `div` elements should each have a class of `color-box` and `color#`—substitute the order of the `div` for the `#` symbol.
+这五个 `div` 元素每个的类都应该为 `color-box` 和 `color#`——用 `div` 的顺序替换 `#` 符号。
 
 ```js
 const colorGridChildren = document.querySelectorAll('div.color-grid > div');
@@ -64,7 +64,7 @@ colorGridChildren.forEach((child, index) => {
 });
 ```
 
-The `.color-box` element should have a set `width` and `height`.
+`.color-box` 元素应该有设定的 `width` 和 `height`。
 
 ```js
 const colorBox = document.querySelector('.color-box');
@@ -78,7 +78,7 @@ assert.notStrictEqual(width, '0px');
 assert.notStrictEqual(height, '0px');
 ```
 
-The `.color1` element should have a hexadecimal background color.
+`.color1` 元素应该有一个十六进制值的背景颜色。
 
 ```js
 const hexChars = "[0-9a-fA-F]"
@@ -86,13 +86,13 @@ const hexRegex = new RegExp(`\\.color1\\s*{[^}]*\\bbackground-color\\s*:\\s*#(($
 assert.match(__helpers.removeCssComments(code), hexRegex);
 ```
 
-The `.color2` element should have an RGB background color.
+`.color2` 元素应该有一个 RGB 值的背景颜色。
 
 ```js
 assert.match(__helpers.removeCssComments(code), /\.color2\s*{[^}]*\bbackground-color\s*:\s*rgb\s*\(\s*\d+(?:\.\d+)?\s*(,|\s+)\s*\d+(?:\.\d+)?\s*\1\s*\d+(?:\.\d+)?\s*(\/\s*\d{1,2}(?:\.\d+)?%\s*)?\)\s*;?[^}]*}/);
 ```
 
-The `.color3` element should have a predefined (word) background color.
+`.color3` 元素应该有一个预定义（单词）值的背景颜色。
 
 ```js
 const colorSet = new Set(["black", "silver", "gray", "white", "maroon", "red", "purple", "fuchsia", "green", "lime", "olive", "yellow", "navy", "blue", "teal", "aqua", "aliceblue", "antiquewhite", "aqua", "aquamarine", "azure", "beige", "bisque", "black", "blanchedalmond", "blue", "blueviolet", "brown", "burlywood", "cadetblue", "chartreuse", "chocolate", "coral", "cornflowerblue", "cornsilk", "crimson", "cyan", "aqua", "darkblue", "darkcyan", "darkgoldenrod", "darkgray", "darkgreen", "darkgrey", "darkkhaki", "darkmagenta", "darkolivegreen", "darkorange", "darkorchid", "darkred", "darksalmon", "darkseagreen", "darkslateblue", "darkslategray", "darkslategrey", "darkturquoise", "darkviolet", "deeppink", "deepskyblue", "dimgray", "dimgrey", "dodgerblue", "firebrick", "floralwhite", "forestgreen", "fuchsia", "gainsboro", "ghostwhite", "gold", "goldenrod", "gray", "green", "greenyellow", "grey", "gray", "honeydew", "hotpink", "indianred", "indigo", "ivory", "khaki", "lavender", "lavenderblush", "lawngreen", "lemonchiffon", "lightblue", "lightcoral", "lightcyan", "lightgoldenrodyellow", "lightgray", "lightgreen", "lightgrey", "lightpink", "lightsalmon", "lightseagreen", "lightskyblue", "lightslategray", "lightslategrey", "lightsteelblue", "lightyellow", "lime", "limegreen", "linen", "magenta", "fuchsia", "maroon", "mediumaquamarine", "mediumblue", "mediumorchid", "mediumpurple", "mediumseagreen", "mediumslateblue", "mediumspringgreen", "mediumturquoise", "mediumvioletred", "midnightblue", "mintcream", "mistyrose", "moccasin", "navajowhite", "navy", "oldlace", "olive", "olivedrab", "orange", "orangered", "orchid", "palegoldenrod", "palegreen", "paleturquoise", "palevioletred", "papayawhip", "peachpuff", "peru", "pink", "plum", "powderblue", "purple", "rebeccapurple", "red", "rosybrown", "royalblue", "saddlebrown", "salmon", "sandybrown", "seagreen", "seashell", "sienna", "silver", "skyblue", "slateblue", "slategray", "slategrey", "snow", "springgreen", "steelblue", "tan", "teal", "thistle", "tomato", "transparent", "turquoise", "violet", "wheat", "white", "whitesmoke", "yellow", "yellowgreen"]);
@@ -100,7 +100,7 @@ const matchedColor = __helpers.removeCssComments(code).match(/\.color3\s*{[^}]*\
 assert.isTrue(colorSet.has(matchedColor.groups.color.toLowerCase()));
 ```
 
-The `.color4` element should have a HSL background color.
+`.color4` 元素应该有一个 HSL 值的背景颜色。
 
 ```js
 const absHSLVals = '\\s*(none|\\d+(?:\\.\\d+)?(?:deg)?)\\s*\\d+(?:\\.\\d+)?%?\\s*\\d+(?:\\.\\d+)?%?\\s*(\\/\\s*\\d{1,2}(?:\\.\\d+)?%\\s*)?';
@@ -109,7 +109,7 @@ const hslRegex = new RegExp(`\\.color4\\s*{[^}]*\\bbackground-color\\s*:\\s*hsl\
 assert.match(__helpers.removeCssComments(code), hslRegex);
 ```
 
-The `.color5` element should have a background color set.
+`.color5` 元素应该设置一个背景颜色。
 
 ```js
 assert.isNotEmpty(new __helpers.CSSHelp(document).getStyle('.color5')?.getPropVal('background-color', true));

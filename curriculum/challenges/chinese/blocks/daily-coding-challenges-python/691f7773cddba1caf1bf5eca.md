@@ -1,24 +1,24 @@
 ---
 id: 691f7773cddba1caf1bf5eca
-title: "Challenge 131: Pairwise"
+title: "挑战 131：点对"
 challengeType: 29
 dashedName: challenge-131
 ---
 
 # --description--
 
-Given an array of integers and a target number, find all pairs of elements in the array whose values add up to the target and return the sum of their indices.
+给定一个整数数组和一个目标数字，查找数组中所有值相加等于目标的元素点对，并返回它们索引的和。
 
-For example, given `[2, 3, 4, 6, 8]` and `10`, you will find two valid pairs:
+例如，给定 `[2, 3, 4, 6, 8]` 和 `10`，你将查找两个有效点对：
 
-- `2` and `8` (2 + 8 = 10), whose indices are `0` and `4`
-- `4` and `6` (4 + 6 = 10), whose indices are `2` and `3`
+- `2` 和 `8` （2 ＋ 8 ＝ 10），它们的索引是 `0` 和 `4`
+- `4` 和 `6`（4 + 6 = 10），它们的索引是 `2` 和 `3`
 
-Add all the indices together to get a return value of `9`.
+将所有索引相加以获得返回值 `9`。
 
 # --hints--
 
-`pairwise([2, 3, 4, 6, 8], 10)` should return `9`.
+`pairwise([2, 3, 4, 6, 8], 10)` 应该返回 `9`。
 
 ```js
 ({test: () => { runPython(`
@@ -27,7 +27,7 @@ TestCase().assertEqual(pairwise([2, 3, 4, 6, 8], 10), 9)`)
 }})
 ```
 
-`pairwise([4, 1, 5, 2, 6, 3], 7)` should return `15`.
+`pairwise([4, 1, 5, 2, 6, 3], 7)` 应该返回 `15`。
 
 ```js
 ({test: () => { runPython(`
@@ -36,7 +36,7 @@ TestCase().assertEqual(pairwise([4, 1, 5, 2, 6, 3], 7), 15)`)
 }})
 ```
 
-`pairwise([-30, -15, 5, 10, 15, -5, 20, -40], -20)` should return `22`.
+`pairwise([-30, -15, 5, 10, 15, -5, 20, -40], -20)` 应该返回 `22`。
 
 ```js
 ({test: () => { runPython(`
@@ -45,7 +45,7 @@ TestCase().assertEqual(pairwise([-30, -15, 5, 10, 15, -5, 20, -40], -20), 22)`)
 }})
 ```
 
-`pairwise([7, 9, 13, 19, 21, 6, 3, 1, 4, 8, 12, 22], 24)` should return `10`.
+`pairwise([7, 9, 13, 19, 21, 6, 3, 1, 4, 8, 12, 22], 24)` 应该返回 `10`。
 
 ```js
 ({test: () => { runPython(`

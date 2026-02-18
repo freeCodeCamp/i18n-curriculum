@@ -7,43 +7,43 @@ dashedName: step-26
 
 # --description--
 
-你還沒有編寫代碼來生成 HTML，但如果產品已經添加到用戶的購物車中，那麼就會有一個你需要的匹配元素。
+你還沒有撰寫產生 HTML 的程式碼，但如果產品已經被添加到使用者的購物車中，則會有一個相符的元素是你需要的。
 
-使用 `.getElementById()` 獲取匹配元素 - 你將把 `id` 值設置爲 `product-count-for-id${product.id}`，因此使用模板文字來查詢該值。
+使用 `.getElementById()` 來取得相符的元素－你會將 `id` 值設為 `product-count-for-id${product.id}`，所以使用模板字面值來查詢該值。
 
-將你的查詢分配給 `currentProductCountSpan` 變量。
+將你的查詢指定給 `currentProductCountSpan` 變數。
 
 # --hints--
 
-你應該聲明一個 `currentProductCountSpan` 變量。
+你應該宣告一個 `currentProductCountSpan` 變數。
 
 ```js
 const cart = new ShoppingCart();
 assert.match(cart.addItem.toString(), /currentProductCountSpan\s*=/);
 ```
 
-你應該使用 `const` 來聲明 `currentProductCountSpan`。
+你應該使用 `const` 來宣告 `currentProductCountSpan`。
 
 ```js
 const afterAdd = code.split("addItem")[1];
 assert.match(afterAdd, /const\s+currentProductCountSpan\s*=/);
 ```
 
-你應該使用 `document.getElementById()` 來獲取匹配元素。
+你應該使用 `document.getElementById()` 來取得相符的元素。
 
 ```js
 const cart = new ShoppingCart();
 assert.match(cart.addItem.toString(), /document\.getElementById\(/);
 ```
 
-你應該使用模板文字來查詢 `id` 值。
+你應該使用模板字串來查詢 `id` 值。
 
 ```js
 const afterAdd = code.split("addItem")[1];
 assert.match(afterAdd, /document\.getElementById\(\s*`product-count-for-id\$\{(product\.)?id\}`\s*\)/);
 ```
 
-你應該將 `document.getElementById()` 的值分配給 `currentProductCountSpan`。
+你應該將 `document.getElementById()` 的值指定給 `currentProductCountSpan`。
 
 ```js
 const cart = new ShoppingCart();

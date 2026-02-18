@@ -1,13 +1,13 @@
 ---
 id: 66ed8fc1f45ce3ece4053ead
-title: CSS Accessibility Quiz
+title: CSS 存取性測驗
 challengeType: 8
 dashedName: quiz-css-accessibility
 ---
 
 # --description--
 
-要通過測驗，你必須正確回答以下 10 道題中的至少 9 題。
+要通過測驗，你必須正確回答以下 10 題中的至少 9 題。
 
 # --quizzes--
 
@@ -17,33 +17,33 @@ dashedName: quiz-css-accessibility
 
 #### --text--
 
-Why do you need to have good color contrast on your webpage?
+為什麼你的網頁需要有良好的色彩對比？
 
 #### --distractors--
 
-To make the page more vibrant.
+為頁面增添更多活力。
 
 ---
 
-To meet requirements for search engine optimization (SEO).
+為了符合搜尋引擎優化（SEO）的需求。
 
 ---
 
-To make important elements of the page stand out.
+讓頁面中的重要元素突出顯示。
 
 #### --answer--
 
-To make the page content accessible and readable.
+使頁面內容可存取且易於閱讀。
 
 ### --question--
 
 #### --text--
 
-Which of the following tools allows you to enter background and foreground colors and check their contrast ratio?
+以下哪一個工具允許你輸入背景和前景顏色並檢查它們的對比度比率？
 
 #### --distractors--
 
-TPGi Colour Contrast Analyzer
+TPGi 色彩對比分析器
 
 ---
 
@@ -55,13 +55,13 @@ Canva
 
 #### --answer--
 
-WebAIM's Color Contrast Checker
+WebAIM 的色彩對比檢查器
 
 ### --question--
 
 #### --text--
 
-Which of the following tools allows you to pick background and foreground colors from content displayed on your screen and check for their contrast ratio?
+以下哪一個工具允許你從顯示在你的螢幕上的內容中選取背景和前景顏色，並檢查它們的對比度比率？
 
 #### --distractors--
 
@@ -73,61 +73,61 @@ Canva
 
 ---
 
-WebAIM's Color Contrast Checker
+WebAIM 的色彩對比檢查器
 
 #### --answer--
 
-TPGi Colour Contrast Analyzer
+TPGi 色彩對比分析器
 
 ### --question--
 
 #### --text--
 
-Why should you NOT use `display: none` and `visibility: hidden` to visually hide content?
+為什麼你不應該使用 `display: none` 和 `visibility: hidden` 來視覺上隱藏內容？
 
 #### --distractors--
 
-These methods make it so that only assistive technologies like screen readers can access the hidden content.
+這些方法使得只有像螢幕閱讀器這樣的輔助技術能夠存取隱藏的內容。
 
 ---
 
-These methods make it so that the content is only hidden until users move their mouse over the content.
+這些方法使內容只會在使用者將滑鼠移動到內容上之前隱藏。
 
 ---
 
-These methods do not work with some browsers.
+這些方法在某些瀏覽器中無法使用。
 
 #### --answer--
 
-These methods remove the content from the accessibility tree, making it impossible for screen readers to access the hidden content.
+這些方法會將內容從無障礙樹中移除，使螢幕閱讀器無法存取隱藏的內容。
 
 ### --question--
 
 #### --text--
 
-What is an accessibility tree?
+什麼是無障礙樹？
 
 #### --distractors--
 
-A visual representation of the layout of a webpage.
+網頁版面配置的視覺表現。
 
 ---
 
-A structure used by screen readers to read the text content of a webpage.
+螢幕閱讀器用來讀取網頁文字內容的結構。
 
 ---
 
-A copy of the DOM tree.
+DOM 樹的複本。
 
 #### --answer--
 
-A structure used by screen readers to interpret and interact with the content on a webpage.
+螢幕閱讀器用來解讀並與網頁內容互動的結構體。
 
 ### --question--
 
 #### --text--
 
-Which of the following ensures that an image has a minimum width of `400px`, but becomes wider when the viewport width is greater than `1000px`?
+以下哪一項確保影像具有最小寬度為 `400px`，但當視窗寬度大於 `1000px` 時會變寬？
 
 #### --distractors--
 
@@ -165,7 +165,7 @@ img {
 
 #### --text--
 
-Which of the following `scroll-behavior` value allows a smooth scrolling behavior?
+以下哪一個 `scroll-behavior` 值允許平滑滾動行為？
 
 #### --distractors--
 
@@ -187,7 +187,7 @@ Which of the following `scroll-behavior` value allows a smooth scrolling behavio
 
 #### --text--
 
-Which of the following features is used to detect the user's animation preference?
+以下哪一個特性用於偵測使用者的動畫偏好？
 
 #### --distractors--
 
@@ -209,42 +209,42 @@ Which of the following features is used to detect the user's animation preferenc
 
 #### --text--
 
-Which of the following is an accessibility issue of the `placeholder` attribute in an `input` element?
+以下哪一項是 `input` 元素中 `placeholder` 屬性的存取性問題？
 
 #### --distractors--
 
-Placeholder text prevents screen readers from reading the input label text.
+佔位文字會阻止螢幕閱讀器讀取輸入標籤文字。
 
 ---
 
-Placeholder text prevents screen readers from reading the input value.
+佔位文字可防止螢幕閱讀器讀取輸入值。
 
 ---
 
-Placeholder text is too small to be readable.
+佔位文字太小，無法閱讀。
 
 #### --answer--
 
-Placeholder text can be confused with an actual input value.
+佔位文字可能會與實際輸入值混淆。
 
 ### --question--
 
 #### --text--
 
-What does the `hidden` attribute do?
+`hidden` 屬性有什麼作用？
 
 #### --distractors--
 
-It hides content and reveals on hover.
+它會隱藏內容並在暫留時顯示。
 
 ---
 
-It hides content only from the accessibility tree.
+它只會從無障礙樹中隱藏內容。
 
 ---
 
-It hides content visually, but the content is available in the accessibility tree.
+它在視覺上隱藏內容，但內容仍可在無障礙樹中取用。
 
 #### --answer--
 
-It hides content both visually and from the accessibility tree.
+它同時在視覺上和無障礙樹中隱藏內容。

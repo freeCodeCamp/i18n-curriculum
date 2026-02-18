@@ -1,6 +1,6 @@
 ---
 id: 68bb001c22f3bcbd1fdf38fa
-title: Task 1
+title: 任务 1
 challengeType: 19
 dashedName: task-1
 lang: es
@@ -10,17 +10,17 @@ lang: es
 
 # --description--
 
-Elena wants to say "hi". You'll hear this word all the time in Spanish when people meet each other.
+Elena 想说 "hi"。当人们相互见面时，你会一直听到这个词在西班牙语中出现。
 
 # --instructions--
 
-Listen to the audio and answer the question below. There's just **one** correct answer. If you need help, click on **explanation** at the bottom of the lesson.
+听音频并回答下面的问题。只有**一个**正确答案。如果你需要帮助，请点击课程底部的**explanation**。
 
 # --questions--
 
 ## --text--
 
-What word does Elena use to say "hi"?
+Elena 用什么词来说“hi”？
 
 ## --answers--
 
@@ -32,7 +32,7 @@ What word does Elena use to say "hi"?
 
 ### --feedback--
 
-This means the opposite of what the speaker says. Open the explanation section if you need further help.
+这意味着说话者所说内容的相反。如果你需要进一步的帮助，请打开解释部分。
 
 ---
 
@@ -40,7 +40,7 @@ This means the opposite of what the speaker says. Open the explanation section i
 
 ### --feedback--
 
-This means the opposite of what the speaker says. Open the explanation section if you need further help.
+这意味着说话者所说内容的相反。如果你需要进一步的帮助，请打开解释部分。
 
 ---
 
@@ -48,7 +48,7 @@ This means the opposite of what the speaker says. Open the explanation section i
 
 ### --feedback--
 
-This means "Good morning", but it's not what you hear in the audio.
+这意味着“Good morning”，但这不是你在音频中听到的内容。
 
 ## --video-solution--
 
@@ -56,9 +56,9 @@ This means "Good morning", but it's not what you hear in the audio.
 
 # --explanation--
 
-The word `Hola` is a greeting. It's used when you meet someone, similar to "Hello" or "Hi". For example:
+单词 `Hola` 是一种问候语。它在你遇见某人时使用，类似于 `"Hello"` 或 `"Hi"`。例如：
 
-`¡Hola, buenos días!` – Hi, good morning!
+`¡Hola, buenos días!` – 你好，早上好！ 
 
 # --scene--
 

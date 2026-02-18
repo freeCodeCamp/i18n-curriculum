@@ -1,48 +1,48 @@
 ---
 id: 68ad9821ee41baad9cb0fd4e
-title: Build a Symmetric Difference Function
+title: 构建一个对称差函数
 challengeType: 26
 dashedName: lab-symmetric-difference
 ---
 
 # --description--
 
-Compare two arrays and return a new array with any items only found in one of the two given arrays, but not both. In other words, return the symmetric difference of the two arrays.
+比较两个数组并返回一个新数组，包含所有只在其中一个数组中出现的元素，排除两个数组都存在的元素。 换言之，我们需要返回两个数组的对称差。
 
-Example:
+例如：
 
-- Array A: `["diamond", "stick", "apple"]`
+- 数组 A：`["diamond", "stick", "apple"]`
 
-- Array B: `["stick", "emerald", "bread"]`
+- 数组 B：`["stick", "emerald", "bread"]`
 
-Result: `["diamond", "apple", "emerald", "bread"]`
+结果：`["diamond", "apple", "emerald", "bread"]`
 
-**Objective:** Fulfill the user stories below and get all the tests to pass to complete the lab.
+**目标：**实现以下用户需求并通过所有测试以完成实验。
 
-**User Stories:**
+**用户故事：**
 
-1. Your function `diffArray` should return an array.
-2. Your function should take two arguments, both of which are arrays.
-3. Your function should make use of the `filter` method.
-4. Your function should return the symmetric difference of the two arrays.
-5. Your function should return an empty array if there is no symmetric difference.
+1. 你的函数 `diffArray` 应该返回一个数组。
+2. 你的函数应接受两个参数，这两个参数都是数组。
+3. 你的函数应使用 `filter` 方法。
+4. 你的函数应返回两个数组的对称差集。
+5. 如果没有对称差异，你的函数应返回一个空数组。
 
 
 # --hints--
 
-You should have a function named `diffArray`.
+你应该有一个名为 `diffArray` 的函数。
 
 ```js
 assert.isFunction(diffArray);
 ```
 
-The `diffArray` function should use the `filter` method to filter out items that are present in both arrays.
+`diffArray` 函数应使用 `filter` 方法过滤出两个数组中都存在的项。
 
 ```js
 assert(/\.filter\(/.test(diffArray.toString()));
 ```
 
-`diffArray(["diorite", "andesite", "grass", "dirt", "pink wool", "dead shrub"], ["diorite", "andesite", "grass", "dirt", "dead shrub"])` should return `["pink wool"]`.
+`diffArray(["diorite", "andesite", "grass", "dirt", "pink wool", "dead shrub"], ["diorite", "andesite", "grass", "dirt", "dead shrub"])` 应该返回 `["pink wool"]`。
 
 ```js
 assert.deepEqual(diffArray(
@@ -51,7 +51,7 @@ assert.deepEqual(diffArray(
 ), ["pink wool"]);
 ```
 
-`diffArray(["diorite", "andesite", "grass", "dirt", "pink wool", "dead shrub"], ["andesite", "grass", "dirt", "dead shrub"])` should return `["diorite", "pink wool"]`.
+`diffArray(["diorite", "andesite", "grass", "dirt", "pink wool", "dead shrub"], ["andesite", "grass", "dirt", "dead shrub"])` 应该返回 `["diorite", "pink wool"]`。
 
 ```js
 assert.deepEqual(diffArray(
@@ -60,7 +60,7 @@ assert.deepEqual(diffArray(
 ), ["diorite", "pink wool"]);
 ```
 
-`diffArray` should return an empty array when called with two identical arrays.
+当使用两个一致的数组调用 `diffArray` 时，应返回一个空数组。
 
 ```js
 assert.deepEqual(diffArray(
@@ -69,7 +69,7 @@ assert.deepEqual(diffArray(
 ), []);
 ```
 
-`diffArray(["pen", "book"], ["book", "pencil", "notebook"])` should return `["pen", "pencil", "notebook"]`.
+`diffArray(["pen", "book"], ["book", "pencil", "notebook"])` 应该返回 `["pen", "pencil", "notebook"]`。
 
 ```js
 assert.deepEqual(diffArray(
@@ -78,7 +78,7 @@ assert.deepEqual(diffArray(
 ), ["pen", "pencil", "notebook"]);
 ```
 
-`diffArray(["car", "bike", "bus"], ["bike", "train", "plane", "bus"])` should return `["car", "train", "plane"]`.
+`diffArray(["car", "bike", "bus"], ["bike", "train", "plane", "bus"])` 应该返回 `["car", "train", "plane"]`。
 
 ```js
 assert.deepEqual(diffArray(
@@ -87,7 +87,7 @@ assert.deepEqual(diffArray(
 ), ["car", "train", "plane"]);
 ```
 
-`diffArray(["apple", "orange"], ["apple", "orange", "banana", "grape"])` should return `["banana", "grape"]`.
+`diffArray(["apple", "orange"], ["apple", "orange", "banana", "grape"])` 应该返回 `["banana", "grape"]`。
 
 ```js
 assert.deepEqual(diffArray(
@@ -96,7 +96,7 @@ assert.deepEqual(diffArray(
 ), ["banana", "grape"]);
 ```
 
-`diffArray([], ["apple", "banana"])` should return `["apple", "banana"]`.
+`diffArray([], ["apple", "banana"])` 应该返回 `["apple", "banana"]`。
 
 ```js
 assert.deepEqual(diffArray(
@@ -105,7 +105,7 @@ assert.deepEqual(diffArray(
 ), ["apple", "banana"]);
 ```
 
-`diffArray(["apple", "banana"], [])` should return `["apple", "banana"]`.
+`diffArray(["apple", "banana"], [])` 应该返回 `["apple", "banana"]`。
 
 ```js
 assert.deepEqual(diffArray(
@@ -114,7 +114,7 @@ assert.deepEqual(diffArray(
 ), ["apple", "banana"]);
 ```
 
-`diffArray([], [])` should return `[]`.
+`diffArray([], [])` 应该返回 `[]`。
 
 ```js
 assert.deepEqual(diffArray(

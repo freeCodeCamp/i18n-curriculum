@@ -8,15 +8,16 @@ dashedName: visualize-data-with-a-bar-chart
 
 # --description--
 
-**目标：** 构建一个应用，功能和 <a href="https://bar-chart.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://bar-chart.freecodecamp.rocks</a> 类似。
+**目标：** 构建一个功能上类似于此的应用程序：<a href="https://bar-chart.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://bar-chart.freecodecamp.rocks</a>。
 
-完成以下需求，并且通过所有测试。 你可以使用你需要的任何库或 API。 可以用你自己的样式来完成。
+完成以下需求，并且通过所有测试。 如有必要，可以引入第三方库或使用第三方 API。 赋予它你的个人风格.
 
-你可以使用 HTML、JavaScript、CSS、以及基于 svg 的 D3 可视化库来完成这个挑战。 该任务需要使用 D3 的坐标轴属性生成坐标轴，这个属性会自动生成沿轴的刻度。 通过 D3 测试需要这些刻度，因为它们的位置被用来确定绘制元素的对齐方式。 你可以在 <https://d3js.org/d3-axis> 找到有关生成轴的信息。 要求的 DOM 元素在每次测试时都会被查询。 如果你使用了前端框架（例如 Vue），因为内容是动态渲染的，试结果可能不准确。 我们希望最终能够兼容这些框架，但 D3 框架目前还不支持它们。
+你可以使用 HTML、JavaScript、CSS、以及基于 svg 的 D3 可视化库来完成这个挑战。 该任务需要使用 D3 的坐标轴属性生成坐标轴，这个属性会自动生成沿轴的刻度。 通过 D3 测试需要这些刻度，因为它们的位置被用来确定绘制元素的对齐方式。  You will find information about generating axes at https://d3js.org/d3-axis. 要求的 DOM 元素在每次测试时都会被查询。 如果你使用了前端框架（例如 Vue），因为内容是动态渲染的，试结果可能不准确。 我们希望最终能够兼容这些框架，但 D3 框架目前还不支持它们。
 
 **需求 #1：** 图表应该包含一个具有 `id="title"` 属性的标题。
 
-**需求 #2：** 图表应该包含一个 `g` 元素作为 x 轴，并相应地具有 `id="x-axis"` 属性。
+**需求 #2：** 图表应该包含一个 
+ `g` 元素作为 x 轴，并相应地具有 `id="x-axis"` 属性。
 
 **需求 #3：** 图表应该包含一个 `g` 元素作为 y 轴，并相应地具有`id="y-axis"` 属性。
 
@@ -42,9 +43,9 @@ dashedName: visualize-data-with-a-bar-chart
 
 以下是完成此项目所需的数据： `https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/GDP-data.json`
 
-你可以<a href='https://codepen.io/pen?template=MJjpwO' target="_blank" rel="noopener noreferrer nofollow">使用 CodePen 模版</a>创建你的新项目，点击 `Save` 即可创建你的新项目。 或者你可以在任何你喜欢的环境中使用以下 CDN 链接来运行测试：`https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js`.
+你可以通过<a href='https://codepen.io/pen?template=MJjpwO' target="_blank" rel="noopener noreferrer nofollow">使用此 CodePen 模板</a>并点击 `Save` 来创建你自己的 pen。或者你可以使用此 CDN 链接在任何你喜欢的环境中运行测试：`https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js`。
 
-当你完成了本项目，并且该项目所有测试运行通过，请提交项目的 URL。
+一旦你完成了，提交你通过所有测试的工作项目URL.
 
 # --solutions--
 

@@ -1,6 +1,6 @@
 ---
 id: 5ea8adfab628f68d805bfc5e
-title: Build a Boilerplate
+title: 建置 Boilerplate
 challengeType: 12
 url: freeCodeCamp/learn-bash-by-building-a-boilerplate
 dashedName: build-a-boilerplate
@@ -8,7 +8,7 @@ dashedName: build-a-boilerplate
 
 # --description--
 
-In this 170-lesson workshop, you will learn terminal commands by creating a website boilerplate using only the command line.
+在這個包含 170 節課的工作坊中，你將透過僅使用命令列來建立網站樣板，學習終端機指令。
 
 # --instructions--
 

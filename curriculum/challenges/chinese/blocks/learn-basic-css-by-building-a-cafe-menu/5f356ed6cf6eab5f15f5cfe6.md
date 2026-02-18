@@ -13,13 +13,13 @@ dashedName: step-20
 
 # --hints--
 
-你的 `div` 开始标签的 `id` 属性值应为 `menu`。
+你的开头 `<div>` 标签应具有设置为 `menu` 的 `id` 属性。
 
 ```js
 assert.strictEqual(document.querySelector('div')?.id, 'menu');
 ```
 
-你应该有一个 `</div>` 结束标签。
+你应该有一个闭合的 `</div>` 标签。
 
 ```js
 assert(code.match(/<\/div>/i));

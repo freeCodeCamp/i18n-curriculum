@@ -1,6 +1,6 @@
 ---
 id: 67f3c4903a5cdafdeda3c1dd
-title: Task 143
+title: 任务 143
 challengeType: 22
 dashedName: task-143
 lang: en-US
@@ -10,13 +10,13 @@ lang: en-US
 
 # --description--
 
-This is a review of the entire dialogue you just studied.
+这是对你刚刚学习的整个对话框的复习。
 
 # --instructions--
 
-Write the following words or phrases in the correct spot:
+将以下单词或短语写在正确的位置：
 
-`mix-up`, `on track`, `ironing out`, `misunderstanding`, `supposed`, `the confusion`, and `on the same page`.
+`mix-up`、`on track`、`ironing out`、`misunderstanding`、`supposed`、`the confusion` 和 `on the same page`。
 
 # --fillInTheBlank--
 
@@ -52,7 +52,7 @@ Write the following words or phrases in the correct spot:
 
 ### --feedback--
 
-This noun refers to a failure to understand something correctly.
+这个名词指的是未能正确理解某事。
 
 ---
 
@@ -60,7 +60,7 @@ This noun refers to a failure to understand something correctly.
 
 ### --feedback--
 
-These two words together indicate a lack of clarity or understanding. The first is an article the second is a noun.
+这两个词合起来表示缺乏清晰或理解。第一个是冠词，第二个是名词。
 
 ---
 
@@ -68,7 +68,7 @@ These two words together indicate a lack of clarity or understanding. The first 
 
 ### --feedback--
 
-These two words together describe something progressing as planned.
+这两个词合起来描述某事按计划进行。
 
 ---
 
@@ -76,7 +76,7 @@ These two words together describe something progressing as planned.
 
 ### --feedback--
 
-These two words describe resolving small problems or details. The first word ends with `-ing`.
+这两个词描述了解决小问题或细节。第一个词以 `-ing` 结尾。
 
 ---
 
@@ -84,7 +84,7 @@ These two words describe resolving small problems or details. The first word end
 
 ### --feedback--
 
-This is a `Past Participle` used to express expectation or intention.
+这是一个用于表达期望或意图的 `Past Participle`。
 
 ---
 
@@ -92,7 +92,7 @@ This is a `Past Participle` used to express expectation or intention.
 
 ### --feedback--
 
-This noun describes a mistake or confusion due to things being confused. This is a compound word. Remember to use `-`.
+这个名词描述由于事物混淆而导致的错误或困惑。这是一个复合词。记住使用 `-`。
 
 ---
 
@@ -100,4 +100,4 @@ This noun describes a mistake or confusion due to things being confused. This is
 
 ### --feedback--
 
-These four words together mean having a mutual understanding. The first word is a preposition.
+这四个词合起来表示相互理解。第一个词是一个介词。

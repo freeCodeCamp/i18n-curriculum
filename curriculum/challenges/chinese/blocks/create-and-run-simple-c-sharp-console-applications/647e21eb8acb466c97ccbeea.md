@@ -1,20 +1,20 @@
 ---
 id: 647e21eb8acb466c97ccbeea
-title: '引导项目 - 在 C# 中使用 foreach 和 if-elseif-else 结构来处理数组数据'
+title: 引导项目 - 在 C# 中使用 foreach 和 if-elseif-else 结构来处理数组数据
 challengeType: 19
 dashedName: guided-project-develop-foreach-and-if-elseif-else-structures-to-process-array-data-in-c-sharp
 ---
 
 # --description--
 
-这个挑战将有一部分在 Microsoft Learn 平台上完成。 请按照如下说明来完成挑战：
+这个挑战的一部分将在Microsoft Learn上完成 按照以下说明完成挑战：
 
-1. 跳转到 <a href="https://learn.microsoft.com/training/modules/guided-project-arrays-iteration-selection/" target="_blank" rel="noreferrer">https://learn.microsoft.com/training/modules/guided-project-arrays-iteration-selection/</a>，然后完成“引导项目 - 在 C# 中使用 foreach 和 if-elseif-else 结构来处理数组数据”模块的所有任务。 这是在 Microsoft Learn 上获得“创建并运行简单的 C# 控制台应用程序”的奖杯以及参加认证考试所**必需**的。
+1. 访问 <a href="https://learn.microsoft.com/training/modules/guided-project-arrays-iteration-selection/" target="_blank" rel="noreferrer">https://learn.microsoft.com/training/modules/guided-project-arrays-iteration-selection/</a> 并完成 “Guided Project - Develop foreach and if-elseif-else Structures to Process Array Data in C#” 模块的所有任务。这是获得 Microsoft Learn 上 “Create and Run Simple C# Console Applications” 奖杯并有资格参加认证考试的**必需**条件。
 1. 完成后，返回并正确回答下面的问题。
 
 # --assignment--
 
-在 Microsoft Learn 上完成 <a href="https://learn.microsoft.com/training/modules/guided-project-arrays-iteration-selection/" target="_blank" rel="noreferrer">在 C# 中使用 foreach 和 if-elseif-else 结构来处理数组数据</a> 的引导项目。 然后，回答下面的问题。
+完成 Microsoft Learn 上的 <a href="https://learn.microsoft.com/training/modules/guided-project-arrays-iteration-selection/" target="_blank" rel="noreferrer">使用 C# 开发 `foreach` 和 `if`-`elseif`-`else` 结构以处理数组数据</a> 指导项目。然后，回答下面的问题。
 
 # --questions--
 

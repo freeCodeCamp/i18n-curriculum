@@ -1,15 +1,15 @@
 ---
 id: 671a98fbaabfba994e3d9a7c
-title: CSS 變量複習
+title: CSS 變數回顧
 challengeType: 31
 dashedName: review-css-variables
 ---
 
 # --interactive--
 
-## CSS 自定義屬性（CSS 變量）
+## CSS 訂製屬性（CSS 變數）
 
-- **定義**：CSS 自定義屬性，也稱爲 CSS 變量，是由 CSS 作者定義的包含要在整個文檔中重用的特定值的實體。 它們是一個強大的特性，可以實現更高效、可維護和靈活的樣式表。 自定義屬性在創建主題設計時特別有用。 你可以爲不同主題定義一組屬性：
+- **定義**：CSS 訂製屬性，也稱為 CSS 變數，是由 CSS 作者定義的實體，包含特定的值以便在整個文件中重複使用。它們是一項強大的功能，允許更高效、可維護且靈活的樣式表。訂製屬性在創建可主題化設計時特別有用。你可以為不同主題定義一組屬性：
 
 ```css
 :root {
@@ -30,7 +30,7 @@ body {
 
 ## `@property` 規則
 
-- **定義**：`@property` 規則是一個強大的 CSS 特性，它允許開發人員定義自定義屬性，從而更好地控制它們的行爲，包括它們的動畫方式和初始值。
+- **定義**：`@property` 規則是一個強大的 CSS 功能，允許開發者訂製屬性，並對其行為擁有更高的控制元件，包括它們如何動畫以及初始值。
 
 ```css
 @property --property-name {
@@ -40,10 +40,11 @@ body {
 }
 ```
 
-- **`--property-name`**: This is the name of the custom property you're defining. Like all custom properties, it must start with two dashes. **`syntax`**: This defines the type of the property, which can be things like `<color>`, `<length>`, `<number>`, `<percentage>`, or more complex types.
-- **`inherits`**：指定屬性是否應該從父元素繼承它的值。
-- **`initial-value`**：設置屬性的默認值。
-- **使用 `@property` 規則的漸變的示例**：這個示例創建了一個漸變，當元素被懸停在上面時平滑地應用動畫。
+- **`--property-name`**：這是你正在定義的訂製屬性名稱。像所有訂製屬性一樣，它必須以兩個破折號開頭。  
+**`syntax`**：這定義了屬性的型別，可以是像 `<color>`、`<length>`、`<number>`、`<percentage>` 或更複雜的型別。
+- **`inherits`**：這指定該屬性是否應該從其父元素繼承值。
+- **`initial-value`**：這會設定該屬性的預設值。
+- **使用 `@property` 規則的漸層範例**：此範例創建一個在元素被暫留時平滑動畫的漸層。
 
 :::interactive_editor
 
@@ -74,7 +75,7 @@ body {
 
 :::
 
-- **回退**：在使用自定義屬性時，可以調用 `var()` 函數提供一個回退值，就像使用標準自定義屬性一樣：
+- **備援值**：當使用訂製屬性時，你可以使用 `var()` 函式（程式）提供備援值，就像使用標準訂製屬性一樣：
 
 ```css
 .button {
@@ -84,4 +85,4 @@ body {
 
 # --assignment--
 
-複習 CSS 變量主題和概念。
+檢視 CSS 變數的主題和概念。

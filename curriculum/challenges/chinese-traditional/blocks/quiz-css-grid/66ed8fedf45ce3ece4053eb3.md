@@ -1,13 +1,13 @@
 ---
 id: 66ed8fedf45ce3ece4053eb3
-title: CSS Grid Quiz
+title: CSS Grid 測驗
 challengeType: 8
 dashedName: quiz-css-grid
 ---
 
 # --description--
 
-要通過測驗，你必須正確回答以下 20 道題中的至少 18 題。
+要通過測驗，你必須在以下 20 題中正確回答至少 18 題。
 
 # --quizzes--
 
@@ -17,29 +17,29 @@ dashedName: quiz-css-grid
 
 #### --text--
 
-What is CSS Grid?
+什麼是 CSS Grid？
 
 #### --distractors--
 
-A method used for displaying tables on a website.
+用於在網站上顯示表格的方法。
 
 ---
 
-A method used for tiling images.
+用於平鋪影像的行為。
 
 ---
 
-A way to display outlines around HTML elements.
+一種在 HTML 元素周圍顯示輪廓的方法。
 
 #### --answer--
 
-A two-dimensional layout for HTML documents.
+HTML 文件的二維佈局。
 
 ### --question--
 
 #### --text--
 
-Which of the following is the correct way to create a grid container?
+以下哪一種方式是正確的 `grid container` 創建方法？
 
 #### --distractors--
 
@@ -61,73 +61,73 @@ Which of the following is the correct way to create a grid container?
 
 #### --text--
 
-What does the `grid-template-columns` property do?
+`grid-template-columns` 屬性有什麼作用？
 
 #### --distractors--
 
-Defines two columns and three rows for a grid container.
+為一個網格容器定義兩個行和三個列。
 
 ---
 
-Sets all columns for the grid layout to a fixed length.
+將網格佈局的所有行設為固定長度。
 
 ---
 
-Creates a two column grid layout container.
+創建一個兩行網格佈局容器。
 
 #### --answer--
 
-Defines the number of columns in a grid layout.
+定義網格佈局中的行數。
 
 ### --question--
 
 #### --text--
 
-What does the `grid-template-rows` property do?
+`grid-template-rows` 屬性有什麼作用？
 
 #### --distractors--
 
-Specifies a grid item's size and location in a grid layout.
+指定網格項目的大小和在網格佈局中的位置。
 
 ---
 
-Creates a template for creating new grid rows.
+創建一個用於創建新網格列的模板。
 
 ---
 
-Specifies a default row size in the grid container.
+指定網格容器中的預設列大小。
 
 #### --answer--
 
-Specifies the number and height for each row in a grid layout.
+指定網格佈局中每個列的數量和高度。
 
 ### --question--
 
 #### --text--
 
-What does the `minmax()` function do?
+`minmax()` 函式（程式）做什麼？
 
 #### --distractors--
 
-Toggles between the first and second value, depending on available space.
+根據可用空間在第一個值和第二個值之間切換。
 
 ---
 
-Returns the average of the two inputs.
+傳回兩個輸入的平均值。
 
 ---
 
-Sets the minimal size of the element for browser working in full-screen mode.
+設定元素在瀏覽器全螢幕模式下的最小尺寸。
 
 #### --answer--
 
-Sets the minimum and maximum sizes for a track.
+設定軌道的最小和最大尺寸。
 
 ### --question--
 
 #### --text--
 
-What is the shorthand for the `column-gap` and `row-gap` properties?
+`column-gap` 和 `row-gap` 屬性的簡寫是什麼？
 
 #### --distractors--
 
@@ -149,29 +149,29 @@ What is the shorthand for the `column-gap` and `row-gap` properties?
 
 #### --text--
 
-What is the difference between an implicit and explicit grid?
+隱喻的網格和明確的網格有什麼差別？
 
 #### --distractors--
 
-Implicit grids use the `grid-template-columns` property while explicit grids use the `grid-template-rows` property.
+隱式網格使用 `grid-template-columns` 屬性，而明確網格使用 `grid-template-rows` 屬性。
 
 ---
 
-Explicit grids use the `grid-template-columns` property while implicit grids use the `grid-template-rows` property.
+明確的網格使用 `grid-template-columns` 屬性，而隱式網格使用 `grid-template-rows` 屬性。
 
 ---
 
-Implicit grids use the `grid-template-columns` or `grid-template-rows` properties to create columns while rows and columns are automatically created in explicit grids.
+隱式網格使用 `grid-template-columns` 或 `grid-template-rows` 屬性來創建行，而在顯式網格中，列和行會自動創建。
 
 #### --answer--
 
-Explicit grids use the `grid-template-columns` or `grid-template-rows` properties to create columns while rows and columns are automatically created in implicit grids.
+明確的網格使用 `grid-template-columns` 或 `grid-template-rows` 屬性來創建行，而在隱式網格中，列和行會自動生成。
 
 ### --question--
 
 #### --text--
 
-Which of the following units represents a fraction of the space within the grid container?
+以下哪一個單位表述網格容器內空間的一部分？
 
 #### --distractors--
 
@@ -193,51 +193,51 @@ Which of the following units represents a fraction of the space within the grid 
 
 #### --text--
 
-What are grid lines?
+什麼是網格線？
 
 #### --distractors--
 
-Shorthand for rows and columns.
+列和行的簡寫。
 
 ---
 
-Outlines of a grid element.
+網格元素的輪廓。
 
 ---
 
-Lines along which grid columns and rows are created.
+用於生成網格行和列的線。
 
 #### --answer--
 
-Lines on which each of the grid items begin and end.
+每個網格項目開始和結束的行。
 
 ### --question--
 
 #### --text--
 
-What does the `grid-column` property do?
+`grid-column` 屬性是做什麼用的？
 
 #### --distractors--
 
-Adds a new grid element as a child of the element it's applied to.
+將新的網格元素添加為它所應用元素的子元素。
 
 ---
 
-Aligns text in the grid item vertically.
+將文字在格線項目中垂直對齊。
 
 ---
 
-Sets two columns for a grid container.
+為你的網格容器設定兩個行。
 
 #### --answer--
 
-Tells the grid item on which grid line it should start and end at.
+告訴網格項目應該從哪條網格線開始和結束。
 
 ### --question--
 
 #### --text--
 
-How do you create four columns of equal width?
+你如何創建四個寬度相等的行？
 
 #### --distractors--
 
@@ -259,51 +259,51 @@ How do you create four columns of equal width?
 
 #### --text--
 
-What does the `grid-template-areas` property do?
+`grid-template-areas` 屬性有什麼作用？
 
 #### --distractors--
 
-It is used to specify where the item begins on a line in the grid container.
+它用於指定該項目在網格容器中一行的起始位置。
 
 ---
 
-It is used to create gaps between tracks in the container.
+它用於在容器中的軌道之間創建間隙。
 
 ---
 
-It is used to repeat sections in the track listing.
+它用於重複軌道列表中的區段。 
 
 #### --answer--
 
-It is used to provide a name for the items you are going to position on the grid.
+它用於為你將要在網格上定位的項目命名。
 
 ### --question--
 
 #### --text--
 
-What does the `grid-auto-flow` property do?
+`grid-auto-flow` 屬性有什麼作用？
 
 #### --distractors--
 
-Controls the order in which grid items are displayed.
+控制格線項目的顯示順序。
 
 ---
 
-Adjusts the spacing between the grid elements.
+調整網格元素之間的間距。
 
 ---
 
-Automatically adjusts the element to fit in the grid.
+自動調整元素以適應網格。
 
 #### --answer--
 
-Controls how auto-placed elements get inserted to the grid.
+控制自動放置元素如何插入到網格中。
 
 ### --question--
 
 #### --text--
 
-Which of the following is the correct way to use the `grid-template-areas` property?
+以下哪一項是使用 `grid-template-areas` 屬性的正確方式？
 
 #### --distractors--
 
@@ -368,7 +368,7 @@ Which of the following is the correct way to use the `grid-template-areas` prope
 
 #### --text--
 
-Which of the following is the correct way to work with the `grid-auto-flow` property?
+以下哪一項是使用 `grid-auto-flow` 屬性的正確方式？
 
 #### --distractors--
 
@@ -418,7 +418,7 @@ Which of the following is the correct way to work with the `grid-auto-flow` prop
 
 #### --text--
 
-Which of the following is NOT a valid grid property?
+以下哪一項不是有效的 grid 屬性？
 
 #### --distractors--
 
@@ -440,7 +440,7 @@ Which of the following is NOT a valid grid property?
 
 #### --text--
 
-Which of these properties can be used to center items inside a grid element?
+這些屬性中，哪些可以用來置中 `grid` 元素內的項目？
 
 #### --distractors--
 
@@ -462,7 +462,7 @@ Which of these properties can be used to center items inside a grid element?
 
 #### --text--
 
-Which of the following is a correct value to use with the `grid-auto-columns` property?
+以下哪一項是用於 `grid-auto-columns` 屬性的正確值？
 
 #### --distractors--
 
@@ -484,29 +484,29 @@ Which of the following is a correct value to use with the `grid-auto-columns` pr
 
 #### --text--
 
-What are grid tracks?
+什麼是 grid tracks？
 
 #### --distractors--
 
-Shorthand for rows and columns.
+列和行的簡寫。
 
 ---
 
-Lines along which you can animate movement of the grid items.
+你可以沿著這些線條來動畫化網格項目的移動。
 
 ---
 
-Lines on which each of the grid items begins and ends.
+每個網格項目開始和結束的行。
 
 #### --answer--
 
-Spaces between two adjacent grid lines.
+兩條相鄰網格線之間的間距。
 
 ### --question--
 
 #### --text--
 
-Which of the following is the correct way to use the `minmax()` function?
+以下哪一種是使用 `minmax()` 函式（程式）的正確方式？
 
 #### --distractors--
 
@@ -554,51 +554,51 @@ Which of the following is the correct way to use the `minmax()` function?
 
 #### --text--
 
-How do you position a grid item within a layout defined by `grid-template-areas`?
+你如何在由 `grid-template-areas` 定義的版面配置中定位網格項目？
 
 #### --distractors--
 
-By directly defining the item's size and location within the grid using `grid-template-rows` and `grid-template-columns`.
+透過使用 `grid-template-rows` 和 `grid-template-columns` 直接定義條款在網格中的大小和位置。
 
 ---
 
-By using the `grid-area` property and specifying both row and column start and end positions.
+透過使用 `grid-area` 屬性並指定列和行的起始與結束位置。
 
 ---
 
-By setting both `grid-area` and explicit pixel coordinates.
+透過同時設定 `grid-area` 和明確的像素座標。
 
 #### --answer--
 
-By assigning the named area to the item's `grid-area` property.
+透過將命名區域指定到該項目的 `grid-area` 屬性。
 
 ### --question--
 
 #### --text--
 
-What does the `grid-auto-rows` property control?
+`grid-auto-rows` 屬性控制什麼？
 
 #### --distractors--
 
-The height of explicitly defined rows.
+明確定義列的高度。
 
 ---
 
-The maximum width of grid columns.
+網格行的最大寬度。
 
 ---
 
-The spacing between rows.
+列之間的間距。
 
 #### --answer--
 
-The size of implicitly created rows.
+隱式創建的列的大小。
 
 ### --question--
 
 #### --text--
 
-Which property would you use to make a grid item span multiple rows?
+你會使用哪個屬性讓網格項目跨越多個列？
 
 #### --distractors--
 
@@ -620,29 +620,29 @@ Which property would you use to make a grid item span multiple rows?
 
 #### --text--
 
-What defines an explicit grid?
+什麼定義了明確的網格？
 
 #### --distractors--
 
-Tracks created automatically to fit content.
+自動創建以適應內容的軌道。
 
 ---
 
-Tracks defined by the `fr` unit.
+由 `fr` 單位定義的軌道。
 
 ---
 
-Tracks added with `grid-auto-flow`.
+使用 `grid-auto-flow` 添加的軌道。
 
 #### --answer--
 
-Tracks explicitly set by `grid-template-columns` or `grid-template-rows`.
+由 `grid-template-columns` 或 `grid-template-rows` 明確設定的軌道。
 
 ### --question--
 
 #### --text--
 
-Which value for `grid-auto-flow` would make new items fill columns first?
+`grid-auto-flow` 的哪個值會讓新項目先填滿行？
 
 #### --distractors--
 
@@ -664,29 +664,29 @@ Which value for `grid-auto-flow` would make new items fill columns first?
 
 #### --text--
 
-What is the purpose of `grid-template-areas`?
+`grid-template-areas` 的用途是什麼？
 
 #### --distractors--
 
-To auto-generate implicit tracks.
+自動產生隱式軌道。
 
 ---
 
-To replace the `fr` unit.
+取代 `fr` 單位。
 
 ---
 
-To set `z-index` values.
+設定 `z-index` 值。
 
 #### --answer--
 
-To visually map items to named grid areas.
+將項目映射到命名的網格區域以進行視覺化。
 
 ### --question--
 
 #### --text--
 
-How can you make a grid item start at column line 2 and end at column line 4?
+你如何讓網格項目從第 2 行開始，並在第 4 行結束？
 
 #### --distractors--
 
@@ -708,29 +708,29 @@ How can you make a grid item start at column line 2 and end at column line 4?
 
 #### --text--
 
-What is the effect of `grid-template-columns: 1fr 2fr 1fr`?
+`grid-template-columns: 1fr 2fr 1fr` 的效果是什麼？
 
 #### --distractors--
 
-Creates three equal-width columns.
+創建三個等寬的行。
 
 ---
 
-Makes the middle column three times as wide as the others.
+使中間的行寬度是其他行的三倍。
 
 ---
 
-Forces all columns to be exactly `1fr` wide.
+強制所有行的寬度都精確為 `1fr`。
 
 #### --answer--
 
-Creates three columns where the middle is twice as wide as the sides.
+創建三個行，其中中間的行寬是兩側的兩倍。
 
 ### --question--
 
 #### --text--
 
-How would you create a grid with 3 equal columns and a `20px` gap between them?
+你要如何創建一個有 3 個相等行且它們之間有 `20px` 間距的網格？
 
 #### --distractors--
 
@@ -773,73 +773,73 @@ How would you create a grid with 3 equal columns and a `20px` gap between them?
 
 #### --text--
 
-What does `repeat(3, minmax(100px, 1fr))` create?
+`repeat(3, minmax(100px, 1fr))` 會創建什麼？
 
 #### --distractors--
 
-Three columns that can't shrink below `100px`.
+三個行無法縮小到低於 `100px`。
 
 ---
 
-Three fixed `100px` columns.
+三個固定的 `100px` 行。
 
 ---
 
-Three rows with maximum height of `1fr`.
+三 列，最大高度為 `1fr`。
 
 #### --answer--
 
-Three columns that grow proportionally but won't shrink below `100px`.
+三個按比例增長但不會縮小到低於 `100px` 的行。
 
 ### --question--
 
 #### --text--
 
-Which statement about implicit grids is true?
+關於隱式網格，哪個述語是正確的？
 
 #### --distractors--
 
-Implicit grids ignore the `gap` property.
+隱式網格會忽略 `gap` 屬性。
 
 ---
 
-Implicit tracks must be defined with `grid-template-areas`.
+隱式軌跡必須使用 `grid-template-areas` 定義。
 
 ---
 
-Implicit tracks can only be created using the `grid-auto-flow` property.
+隱式軌道只能使用 `grid-auto-flow` 屬性創建。
 
 #### --answer--
 
-Implicit tracks are created when content doesn't fit explicit tracks.
+當內容不符合明確的軌道時，會創建隱式軌道。
 
 ### --question--
 
 #### --text--
 
-What does the `place-items` property do in CSS Grid?
+`place-items` 屬性在 CSS Grid 中的作用是什麼？
 
 #### --distractors--
 
-It sets the size of grid items automatically based on available space.
+它會根據可用空間自動設定網格項目的大小。
 
 ---
 
-It controls the grid template's column and row definitions.
+它控制 `grid template` 的行和列定義。
 
 ---
 
-It adjusts the order of grid items within the container.
+它會調整容器中網格項目的順序。
 
 #### --answer--
 
-It is a shorthand for aligning grid items in both the block and inline axes.
+它是用來同時對齊區塊軸和行內軸上的網格項目的簡寫。
 
 ### --question--
 
 #### --text--
 
-What does this CSS accomplish?
+這段 CSS 達成了什麼效果？
 
 ```css
 .container {
@@ -849,69 +849,69 @@ What does this CSS accomplish?
 
 #### --distractors--
 
-Creates fixed `150px` columns that overflow the container.
+創建固定寬度為 `150px` 的行，並且會超出容器的範圍。
 
 ---
 
-Creates columns that are exactly `1fr` wide regardless of content.
+創建寬度恰好為 `1fr` 的行，無論內容為何。
 
 ---
 
-Creates a maximum of one column per `150px` of available width.
+每 150px 可用寬度最多創建一個行。
 
 #### --answer--
 
-Creates flexible columns that are at least `150px` and collapse when space is limited.
+創建彈性行，至少為 `150px`，並在空間有限時收合。
 
 ### --question--
 
 #### --text--
 
-How can you create asymmetric grid layouts?
+你如何創建非對稱網格佈局？
 
 #### --distractors--
 
-By using only `fr` units.
+僅使用 `fr` 單位。
 
 ---
 
-By mixing different length units in `grid-template-columns`.
+透過混合不同長度單位於 `grid-template-columns`。
 
 ---
 
-By setting `grid-asymmetric: true`.
+透過設定 `grid-asymmetric: true`。
 
 #### --answer--
 
-By defining different sizes for each track.
+透過為每個軌道定義不同的大小。
 
 ### --question--
 
 #### --text--
 
-What does `grid-column-start: 2` do to a grid item?
+`grid-column-start: 2` 對網格項目有什麼作用？
 
 #### --distractors--
 
-Makes it span 2 columns.
+使其跨越 2 行。
 
 ---
 
-Offsets it by 2 pixels.
+將它偏移 2 像素。
 
 ---
 
-Positions it starting at the second vertical grid line.
+將其定位在第二條垂直網格線起始處。
 
 #### --answer--
 
-Makes it start at the second column line.
+使其從第二行開始。
 
 ### --question--
 
 #### --text--
 
-Which property would you use to control overflow behavior in grid tracks?
+你會使用哪個屬性來控制網格軌道中的上限溢位行為？
 
 #### --distractors--
 
@@ -933,7 +933,7 @@ Which property would you use to control overflow behavior in grid tracks?
 
 #### --text--
 
-What will be the result for the following code?
+以下 `code` 的結果會是什麼？
 
 ```css
 .container {
@@ -946,25 +946,25 @@ What will be the result for the following code?
 
 #### --distractors--
 
-The container will have three columns of equal width, and two rows with `150px` height each.
+該容器將有三個寬度相等的行，以及兩個高度為 `150px` 的列。
 
 ---
 
-The container will have three columns, all with `100px` width, and two rows with `150px` height.
+該容器將有三個行，寬度皆為 `100px`，以及兩個列，高度為 `150px`。
 
 ---
 
-The container will have two rows, each with a height of `1fr`.
+該容器將有兩個列，每個列的高度為 `1fr`。
 
 #### --answer--
 
-The container will have three columns: 100px, `1fr` and `2fr` wide and two rows: one auto and one with `150px` height.
+該容器將有三個行：寬度分別為 100px、`1fr` 和 `2fr`，以及兩個列：一個自動高度和一個高度為 `150px`。
 
 ### --question--
 
 #### --text--
 
-How would you make a grid item span all available rows?
+你會如何讓一個 grid 項目跨越所有可用的列？
 
 #### --distractors--
 
@@ -986,7 +986,7 @@ How would you make a grid item span all available rows?
 
 #### --text--
 
-Which property controls the alignment of grid items along the block axis?
+哪個屬性控制網格項目沿著區塊軸的對齊？
 
 #### --distractors--
 
@@ -1008,7 +1008,7 @@ Which property controls the alignment of grid items along the block axis?
 
 #### --text--
 
-How can you ensure a grid item stays in the first column regardless of grid changes?
+你如何確保一個 grid 項目無論 grid 如何變動都保持在第一行？
 
 #### --distractors--
 

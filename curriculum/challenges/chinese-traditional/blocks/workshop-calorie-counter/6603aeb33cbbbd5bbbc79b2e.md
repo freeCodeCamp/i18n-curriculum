@@ -7,13 +7,13 @@ dashedName: step-26
 
 # --description--
 
-To see the results from the `cleanInputString` function, you will need to add a `console.log()` statement. Inside that console statement, call the `cleanInputString` function with the string value of `"+-99"` as an argument.
+要查看 `cleanInputString` 函式的結果，你需要為你的程式碼添加一個 `console.log()` 述語。在該主控台述語內，使用字串值 `"+-99"` 作為引數來呼叫 `cleanInputString` 函式。
 
-Open up the console and you should see the original string followed by the cleaned string value with the `+-` removed.
+打開主控台，你應該會看到原始字串，接著是移除 `+-` 後的清理字串值。
 
 # --hints--
 
-You should have a `console.log(cleanInputString("+-99"))` statement.
+你應該有一個 `console.log(cleanInputString("+-99"))` 述語。
 
 ```js
 assert.match(code, /console\.log\(\s*cleanInputString\(\s*('|")\s*\+\-9\s*9\s*\1\s*\)\s*\);?/);

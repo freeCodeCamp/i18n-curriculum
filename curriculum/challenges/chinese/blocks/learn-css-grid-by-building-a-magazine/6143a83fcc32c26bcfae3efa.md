@@ -1,59 +1,59 @@
 ---
 id: 6143a83fcc32c26bcfae3efa
-title: 步骤 18
+title: 步骤18
 challengeType: 0
 dashedName: step-18
 ---
 
 # --description--
 
-Below your `.text` element, create a new `section` element and give it a `class` of `text text-with-images`. Within that, create an `article` element with a `class` set to `brief-history`, and an `aside` element with the `class` set to `image-wrapper`.
+在 `.text` 元素下方，创建一个新的 `section` 元素并给它一个值为 `text text-with-images` 的 `class`。 在其中创建一个 `article` 元素，将其 `class` 设置为 `brief-history` ；再创建一个 `aside` 元素，将其 `class` 设置为 `image-wrapper` 。
 
 # --hints--
 
-You should create a new `section` element.
+你应该创建一个新的 `section` 元素。
 
 ```js
 assert(document.querySelectorAll('section')?.length === 3)
 ```
 
-Your new `section` element should come after your `.text` element.
+你的新 `section` 元素应该在你的 `.text` 元素之后。
 
 ```js
 assert(document.querySelectorAll('section')?.[2]?.previousElementSibling?.className === 'text')
 ```
 
-Your new `section` element should have the `class` set to `text text-with-images`.
+你的新 `section` 元素应将 `class` 设置为 `text text-with-images`。
 
 ```js
 assert(document.querySelectorAll('section')?.[2]?.className === 'text text-with-images')
 ```
 
-Your new `section` element should have an `article` element.
+你的新 `section` 元素应该有一个 `article` 元素。
 
 ```js
 assert.exists(document.querySelector('.text-with-images article'));
 ```
 
-Your new `section` element should have an `aside` element.
+你的新 `section` 元素应该有一个 `aside` 元素。
 
 ```js
 assert.exists(document.querySelector('.text-with-images aside'));
 ```
 
-The `article` element should come before the `aside` element.
+`article` 元素应位于 `aside` 元素之前。
 
 ```js
 assert(document.querySelector('.text-with-images article')?.nextElementSibling?.localName === 'aside');
 ```
 
-Your `article` element should have the `class` set to `brief-history`.
+你的 `article` 元素应将 `class` 设置为 `brief-history`。
 
 ```js
 assert(document.querySelector('.text-with-images article')?.className === 'brief-history');
 ```
 
-Your `aside` element should have the `class` set to `image-wrapper`.
+你的 `aside` 元素应将 `class` 设置为 `image-wrapper`。
 
 ```js
 assert(document.querySelector('.text-with-images aside')?.className === 'image-wrapper');

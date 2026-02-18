@@ -1,17 +1,17 @@
 ---
 id: 63efdbc22a0c56070beabed7
-title: 步骤 23
+title: 步骤-23
 challengeType: 0
 dashedName: step-23
 ---
 
 # --description--
 
-You’re on the right track! However, let’s take a moment to address a common issue when working with objects in JavaScript.
+你走在正确的道路上！ 但是，让我们花点时间来解决使用 JavaScript 对象时常见的一个问题。
 
-When you try to access an object property that doesn’t exist, JavaScript returns `undefined`. If you then attempt to perform arithmetic operations on `undefined`, it can lead to unexpected results, such as `NaN`.
+当你尝试访问不存在的对象属性时，JavaScript 会返回 `undefined`。 如果你尝试对 `undefined` 执行算术运算，则可能会导致意外结果，例如 `NaN`。
 
-To prevent this, you can use the `||` (logical OR) operator to provide a default value.
+为了防止这种情况，你可以使用 `||`（逻辑或）运算符来提供默认值。
 
 ```js
   let scores = {}; 
@@ -22,27 +22,27 @@ To prevent this, you can use the `||` (logical OR) operator to provide a default
   });
 ```
 
-Now, let’s apply this concept to your `totalCountPerProduct` object in the `forEach` callback. Make sure that each `dessert.id` property is initialized properly.
+现在，让我们将这个概念应用到 `forEach` 回调中的 `totalCountPerProduct` 对象。 确保每个 `dessert.id` 属性都已正确初始化。
 
-Initialize `totalCountPerProduct[dessert.id]` with a default value of `0` using the `||` operator.
+使用 `||` 运算符将 `totalCountPerProduct[dessert.id]` 初始化为默认值 `0`。
 
 # --hints--
 
-You should use dot notation to access the `id` property of `dessert`.
+你应该使用点符号来访问 `dessert` 的 `id` 属性。
 
 ```js
 const cart = new ShoppingCart();
 assert.match(cart.addItem.toString(), /dessert\.id/);
 ```
 
-You should use bracket notation to access the property of `totalCountPerProduct` that corresponds to `dessert.id`.
+你应该使用括号表示法来访问与 `dessert.id` 对应的 `totalCountPerProduct` 的属性。
 
 ```js
 const cart = new ShoppingCart();
 assert.match(cart.addItem.toString(), /totalCountPerProduct\s*\[\s*dessert\.id\s*\]/);
 ```
 
-You should initialize `totalCountPerProduct[dessert.id]` with `0` as a default value using `||` operator at the end of the expression.
+你应该在表达式末尾使用 `||` 运算符将 `totalCountPerProduct[dessert.id]` 初始化为 `0` 作为默认值。
 
 ```js
 const cart = new ShoppingCart();
@@ -324,7 +324,7 @@ class ShoppingCart {
 
     const totalCountPerProduct = {};
     this.items.forEach((dessert) => {
-
+      
     })
   }
 --fcc-editable-region--

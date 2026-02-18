@@ -1,6 +1,6 @@
 ---
 id: 656abcd4cccfc84bf50f861b
-title: Task 80
+title: 任务 80
 challengeType: 19
 dashedName: task-80
 lang: en-US
@@ -8,13 +8,13 @@ lang: en-US
 
 # --description--
 
-In an office setting, it's common to point out items using `these` and `those`. Remember, `these` points to items near you, while `those` points to items further away.
+在办公室环境中，通常使用 `these` 和 `those` 来指示项。请记住，`these` 指的是靠近你的项，而 `those` 指的是较远的项。
 
 # --questions--
 
 ## --text--
 
-Which sentence correctly differentiates between `these` and `those`?
+哪个句子正确区分了 `these` 和 `those`？
 
 ## --answers--
 
@@ -22,7 +22,7 @@ Which sentence correctly differentiates between `these` and `those`?
 
 ### --feedback--
 
-Look for a sentence that uses `these` for multiple items nearby and `those` for multiple items at a distance or not being directly addressed.
+寻找使用 `these` 指代附近多个项，使用 `those` 指代远处多个项或未直接提及的多个项的句子。
 
 ---
 
@@ -30,7 +30,7 @@ Look for a sentence that uses `these` for multiple items nearby and `those` for 
 
 ### --feedback--
 
-Look for a sentence that uses `these` for multiple items nearby and `those` for multiple items at a distance or not being directly addressed.
+寻找使用 `these` 指代附近多个项，使用 `those` 指代远处多个项或未直接提及的多个项的句子。
 
 ---
 
@@ -42,7 +42,7 @@ Look for a sentence that uses `these` for multiple items nearby and `those` for 
 
 ### --feedback--
 
-Look for a sentence that uses `these` for multiple items nearby and `those` for multiple items at a distance or not being directly addressed.
+寻找使用 `these` 指代附近多个项，使用 `those` 指代远处多个项或未直接提及的多个项的句子。
 
 ## --video-solution--
 

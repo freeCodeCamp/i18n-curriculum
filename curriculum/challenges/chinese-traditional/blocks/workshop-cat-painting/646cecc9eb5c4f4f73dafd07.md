@@ -1,29 +1,29 @@
 ---
 id: 646cecc9eb5c4f4f73dafd07
-title: 步驟-23
+title: 第 23 步
 challengeType: 0
 dashedName: step-23
 ---
 
 # --description--
 
-將左耳移動到合適的位置，將位置設置爲 `absolute`，`top` 爲 `-26px`， `left` 爲 `-31px`。
+將左耳移動到位置，方法是設定 `absolute` 的位置、`top` 為 `-26px`，以及 `left` 為 `-31px`。
 
 # --hints--
 
-你的 `.cat-left-ear` 選擇器應該具有一個 `position` 屬性，設置爲 `absolute`。 不要忘記加上分號。
+你的 `.cat-left-ear` 選擇器應該有一個 `position` 屬性設為 `absolute`。別忘了添加分號。
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('.cat-left-ear')?.position, 'absolute')
 ```
 
-你的 `.cat-left-ear` 選擇器應該有一個 `top` 屬性，設置爲 `-26px`。
+你的 `.cat-left-ear` 選擇器應該有一個設定為 `-26px` 的 `top` 屬性
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('.cat-left-ear')?.top, '-26px')
 ```
 
-你的 `.cat-left-ear` 選擇器應該有一個 `left` 屬性，設置爲 `-31px`。
+你的 `.cat-left-ear` 選擇器應該有一個設定為 `-31px` 的 `left` 屬性
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('.cat-left-ear')?.left, '-31px')
@@ -83,7 +83,7 @@ body {
 
 --fcc-editable-region--
 .cat-left-ear {
-
+  
   border-left: 35px solid transparent;
   border-right: 35px solid transparent;
   border-bottom: 70px solid #5e5e5e;

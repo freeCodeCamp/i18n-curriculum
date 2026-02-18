@@ -1,25 +1,25 @@
 ---
 id: 62a3bb9aeefe4b3fc43c6d7b
-title: 步骤 17
+title: 第 17 步
 challengeType: 0
 dashedName: step-17
 ---
 
 # --description--
 
-`button1` is a variable that is not going to be reassigned. If you are not going to assign a new value to a variable, it is best practice to use the `const` keyword to declare it instead of the `let` keyword. This will tell JavaScript to throw an error if you accidentally reassign it.
+`button1` 是一个不会被重新分配的变量。 如果你不想给一个变量分配一个新的值， 那么最好是使用 `const` 关键字来声明这个变量，而不是使用 `let` 关键字来声明这个变量。 这会指示 JavaScript 在你意外重新分配它时抛出一个错误。
 
-Change your `button1` variable to be declared with the `const` keyword.
+将你的 `button1` 变量更改为用 `const` 关键字声明。
 
 # --hints--
 
-Your `button1` variable should be declared with `const`.
+你的 `button1` 变量应该以 `const` 声明。
 
 ```js
 assert.match(code, /const\s+button1/);
 ```
 
-Your `button1` variable should still have the value of your `#button1` element.
+你的 `button1` 变量仍然应该有你的 `#button1` 元素。
 
 ```js
 assert.deepEqual(button1, document.querySelector("#button1"));

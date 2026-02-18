@@ -1,6 +1,6 @@
 ---
 id: 67ee6d7bcacdc02ff7d9beb2
-title: Task 69
+title: 任务 69
 challengeType: 22
 dashedName: task-69
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+请听音频，并完成下面的填空。
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This word is used to talk about the existence of something or to say that something is present or happening. It's the contraction of `there is`.
+这个词用于表示某物的存在或某事正在发生。它是 `there is` 的缩写。
 
 ---
 
@@ -32,7 +32,7 @@ This word is used to talk about the existence of something or to say that someth
 
 ### --feedback--
 
-This word refers to an issue or difficulty that needs to be solved or fixed.
+这个词指的是需要解决或修复的问题或困难。
 
 ---
 
@@ -40,7 +40,7 @@ This word refers to an issue or difficulty that needs to be solved or fixed.
 
 ### --feedback--
 
-This preposition shows the relationship or connection between two things.
+这个介词显示两个事物之间的关系或连接。
 
 ---
 
@@ -48,17 +48,17 @@ This preposition shows the relationship or connection between two things.
 
 ### --feedback--
 
-This two-word phrase refers to the way software or websites respond to actions, like clicks or keystrokes, performed by the user. The second word ends with `-ing`.
+这个两个字的短语指的是软件或网站对用户执行的操作（如点击或按键）做出响应的方式。第二个词以 `-ing` 结尾。
 
 # --explanation--
 
-`There's a problem with` is used to describe that something is not working correctly. It means there is an issue or difficulty related to a specific thing. For example:
+`There's a problem with` 用于描述某事未正常工作。它表示与某个特定事物相关的问题或困难。例如：
 
-`There's a problem with the network.` – This means the network is not functioning properly.
+`There's a problem with the network.` – 这意味着网络无法正常工作。
 
-`Event handling` refers to how a program or website manages user actions like clicks, keyboard presses, or mouse movements. For example:
+`事件处理` 指的是程序或网站如何管理用户的操作，如点击、键盘按键或鼠标移动。例如：
 
-`There's an issue with event handling.` - This mean the software isn't responding properly to user actions.
+`There's an issue with event handling.`——这意味着软件没有正确响应用户操作。
 
 # --scene--
 

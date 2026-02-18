@@ -7,15 +7,15 @@ dashedName: step-3
 
 # --description--
 
-The `path` element needs its shape defined. That is where the `d` attribute comes in. It is used to create a series of command letters and numbers that draw a shape.
+`path` 元素需要定義其形狀。這就是 `d` 屬性的用途。它用來創建一系列繪製形狀的指令字母和數字。 
 
-These letters represent commands like move to, draw line, and close, while the numbers represent coordinates.
+這些字母表述像是移動到、繪製線條和關閉等指令，而數字則表述座標。  
 
-Set the heart shape's `d` attribute to `M12 21s-6-4.35-9.33-8.22C-.5 7.39 3.24 1 8.4 4.28 10.08 5.32 12 7.5 12 7.5s1.92-2.18 3.6-3.22C20.76 1 24.5 7.39 21.33 12.78 18 16.65 12 21 12 21z`.
+將愛心形狀的 `d` 屬性設為 `M12 21s-6-4.35-9.33-8.22C-.5 7.39 3.24 1 8.4 4.28 10.08 5.32 12 7.5 12 7.5s1.92-2.18 3.6-3.22C20.76 1 24.5 7.39 21.33 12.78 18 16.65 12 21 12 21z`。
 
 # --hints--
 
-You should have a `d` attribute on your `path` element.
+你的 `path` 元素上應該有一個 `d` 屬性。
 
 ```js
 const path = document.querySelector('path');
@@ -23,7 +23,7 @@ const d = path.getAttribute('d');
 assert.exists(d);
 ```
 
-You should set the `d` attribute to `M12 21s-6-4.35-9.33-8.22C-.5 7.39 3.24 1 8.4 4.28 10.08 5.32 12 7.5 12 7.5s1.92-2.18 3.6-3.22C20.76 1 24.5 7.39 21.33 12.78 18 16.65 12 21 12 21z`
+你應該將 `d` 屬性設為 `M12 21s-6-4.35-9.33-8.22C-.5 7.39 3.24 1 8.4 4.28 10.08 5.32 12 7.5 12 7.5s1.92-2.18 3.6-3.22C20.76 1 24.5 7.39 21.33 12.78 18 16.65 12 21 12 21z`
 
 ```js
 const path = document.querySelector('path');
@@ -49,7 +49,7 @@ assert.strictEqual(
     <svg>
       <path
       --fcc-editable-region--
-
+        
       --fcc-editable-region--
       ></path>
     </svg>

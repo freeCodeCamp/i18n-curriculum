@@ -1,65 +1,67 @@
 ---
 id: 672ab82c1a9bbd0e3aabc39d
-title: How Can You Effectively Work With Your Keyboard, Mouse, and Other Pointing Devices?
+title: 你如何有效地使用你的鍵盤、滑鼠和其他指標裝置？
 challengeType: 19
 dashedName: how-to-effectively-work-with-your-keyboard-mouse-and-other-pointing-devices
 ---
 
 # --description--
 
-Many of you have been used to working with your keyboard and mouse for years on end for a variety of activities like gaming, performing tasks for work, or surfing the web.
+你們中許多人多年來已習慣使用鍵盤和滑鼠進行各種活動，例如遊戲、工作任務或瀏覽網頁。
 
-But prolonged misuse of these devices can lead to serious health problems down the road.
+但長期誤用這些裝置可能會導致日後嚴重的健康問題。
 
-In this lesson, we will cover ways to work with your computer’s keyboard and mouse in healthy ways.
+在本課程中，我們將涵蓋以健康方式使用你的電腦鍵盤和滑鼠的方法。
 
-The first tip is to be mindful of the mouse grip. When working on serious tasks for work or during intense gaming moments, you may tend to grip the mouse too hard. However, this can lead to serious hand and wrist issues. To prevent this, you want to make sure to hold the mouse gently and keep your fingers nice and relaxed.
+第一個建議是要注意滑鼠的握法。當你在處理重要的工作任務或激烈的遊戲時刻，可能會傾向於用力握住滑鼠。然而，這可能導致嚴重的手部和手腕問題。為了避免這種情況，你應該確保輕柔地握住滑鼠，並保持手指放鬆。
 
-The second tip is to consider using an ergonomic keyboard and mouse. These tools are designed to reduce wrist strain by keeping your hands in a more natural position.
+第二個建議是考慮使用符合人體工學的鍵盤和滑鼠。這些工具旨在透過讓你的手保持較自然的位置來減少手腕的壓力。
 
-While prices for these devices can vary and may be a costly purchase for your current budget, they can be a good investment in your overall long-term health. So, you might consider starting to research an ergonomic keyboard and mouse to use.
+雖然這些裝置的價格可能會有所不同，且對你目前的預算來說可能是昂貴的購買，但它們可能是你整體長期健康的良好投資。因此，你可以考慮開始研究符合人體工學的鍵盤和滑鼠來使用。
 
-Another tip is to keep your mouse the same height as your keyboard. You don't want to have to reach up or down to use the mouse, as this can strain your wrist and arm muscles over time.
+另一個建議是將你的滑鼠保持與鍵盤相同的高度。你不想為了使用滑鼠而向上或向下伸手，因為這會隨著時間造成手腕和手臂肌肉的疲勞。
 
-You also want to be mindful of your overall posture when sitting at the computer for hours on end. Being slouched over your computer and putting your wrist in an unnatural position at the keyboard will lead to long-term health issues. So, you want to make sure to sit up straight when working at your computer and maintain a healthy and natural wrist position.
+你也要注意長時間坐在電腦前時的整體姿勢。彎腰駝背並將手腕放在鍵盤上不自然的位置，可能會導致長期的健康問題。
 
-The last tip would be to use keyboard shortcuts whenever possible to help minimize typing. There are dozens of shortcuts available for tasks such as navigating the web, navigating around your operating system, working within a code editor, and more. So, it’s best to research some of these keyboard shortcuts and start incorporating them into your daily computer usage.
+雖然維持良好姿勢很重要，但現代人體工學強調運動和動態坐姿的重要性。人體是為了運動而設計的，長時間保持任何固定姿勢，即使是筆直的姿勢，也會對脊椎造成持續壓力。定期休息、在一天中調整你的姿勢，以及維持自然的手腕位置，有助於促進血液循環、減少疲勞，並支援長期脊椎健康。
 
-As you continue using your mouse and keyboard for upcoming coding projects and other activities, remember to keep these health tips in mind.
+最後一個建議是盡可能使用鍵盤快速鍵來減少打字。有數十種快速鍵可用於瀏覽網頁、在你的作業系統中導航、在程式碼編輯器中工作等任務。因此，最好研究一些這些鍵盤快速鍵，並開始將它們融入你的日常電腦使用中。
+
+當你繼續使用滑鼠和鍵盤進行即將到來的程式設計專案和其他活動時，請記得牢記這些健康提示。
 
 # --questions--
 
 ## --text--
 
-What is one of the risks of gripping the mouse too tightly?
+緊握滑鼠過緊的風險之一是什麼？
 
 ## --answers--
 
-It can improve your accuracy in gaming.
+它可以提升你在遊戲中的準確度。
 
 ### --feedback--
 
-Pay attention to the advice about mouse grip at the beginning of the lesson.
+請注意課程開始時關於滑鼠握法的建議。
 
 ---
 
-It helps you complete tasks faster.
+它幫助你更快完成任務。
 
 ### --feedback--
 
-Pay attention to the advice about mouse grip at the beginning of the lesson.
+請注意課程開始時關於滑鼠握法的建議。
 
 ---
 
-It can cause hand and wrist issues.
+它可能會導致手部和手腕問題。
 
 ---
 
-It improves your overall performance.
+它提升你的整體效率、性能。
 
 ### --feedback--
 
-Pay attention to the advice about mouse grip at the beginning of the lesson.
+請注意課程開始時關於滑鼠握法的建議。
 
 ## --video-solution--
 
@@ -67,35 +69,35 @@ Pay attention to the advice about mouse grip at the beginning of the lesson.
 
 ## --text--
 
-What is the benefit of using an ergonomic keyboard and mouse?
+使用符合人體工學的鍵盤和滑鼠的利益是什麼？
 
 ## --answers--
 
-They help you type faster.
+它們幫助你更快地輸入。
 
 ### --feedback--
 
-The second tip in the lesson mentions ergonomic devices as a way to protect your hands and wrists.
+課程中的第二個提示提到人體工學裝置作為保護你的手和手腕的方法。
 
 ---
 
-They are designed for gaming performance.
+它們是為遊戲效率、性能而設計的。
 
 ### --feedback--
 
-The second tip in the lesson mentions ergonomic devices as a way to protect your hands and wrists.
+課程中的第二個提示提到人體工學裝置作為保護你的手和手腕的方法。
 
 ---
 
-They reduce wrist strain by keeping your hands in a more natural position.
+它們透過保持你的手處於較自然的位置來減少手腕的負擔。
 
 ---
 
-They increase screen resolution.
+它們提高螢幕解析度。
 
 ### --feedback--
 
-The second tip in the lesson mentions ergonomic devices as a way to protect your hands and wrists.
+課程中的第二個提示提到人體工學裝置作為保護你的手和手腕的方法。
 
 ## --video-solution--
 
@@ -103,35 +105,35 @@ The second tip in the lesson mentions ergonomic devices as a way to protect your
 
 ## --text--
 
-What is the recommendation for the height of your mouse in relation to your keyboard?
+滑鼠的高度應該與鍵盤保持什麼樣的建議比例？
 
 ## --answers--
 
-The mouse should be far above the keyboard.
+滑鼠應該遠高於鍵盤。
 
 ### --feedback--
 
-Think about how to position your mouse to avoid wrist and arm strain.
+思考如何擺放你的滑鼠以避免手腕和手臂的疲勞。
 
 ---
 
-The mouse should be at the same height as the keyboard.
+滑鼠應該與鍵盤保持相同高度。
 
 ---
 
-The mouse should be lower than the keyboard.
+滑鼠應該低於鍵盤。
 
 ### --feedback--
 
-Think about how to position your mouse to avoid wrist and arm strain.
+思考如何擺放你的滑鼠以避免手腕和手臂的疲勞。
 
 ---
 
-The mouse should be higher than the keyboard.
+滑鼠應該比鍵盤高。
 
 ### --feedback--
 
-Think about how to position your mouse to avoid wrist and arm strain.
+思考如何擺放你的滑鼠以避免手腕和手臂的疲勞。
 
 ## --video-solution--
 

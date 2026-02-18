@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c443eddfaeb5bdff
-title: Build a Nightlife Coordination App
+title: 建置一個夜生活協調應用程式
 challengeType: 4
 forumTopicId: 302351
 dashedName: build-a-nightlife-coordination-app
@@ -8,21 +8,21 @@ dashedName: build-a-nightlife-coordination-app
 
 # --description--
 
-Build a full stack JavaScript app that is functionally similar to this: <a href="https://yoyo44.herokuapp.com/" target="_blank" rel="noopener noreferrer nofollow">https://yoyo44.herokuapp.com/</a>. Use a site builder of your choice to complete the project.
+建置一個功能上類似於此的全端 JavaScript 應用程式：<a href="https://yoyo44.herokuapp.com/" target="_blank" rel="noopener noreferrer nofollow">https://yoyo44.herokuapp.com/</a>。使用你選擇的網站建置工具來完成此專案。
 
-Here are the specific user stories you should implement for this project:
+以下是你應該為此專案實作的具體使用者故事：
 
-**User Story:** As an unauthenticated user, you can view all bars in your area.
+**使用者故事：** 作為未經身份驗證的使用者，你可以查看你所在區域的所有酒吧。
 
-**User Story:** As an authenticated user, you can add yourself to a bar to indicate you are going there tonight.
+**使用者故事：** 作為已驗證的使用者，你可以將自己添加到酒吧以顯示你今晚會去那裡。
 
-**User Story:** As an authenticated user, you can remove yourself from a bar if you no longer want to go there.
+**使用者故事：** 作為已驗證的使用者，如果你不想再去某個酒吧，你可以將自己從該酒吧移除。
 
-**User Story:** As an unauthenticated user, when you login you should not have to search again.
+**使用者故事：** 作為未驗證的使用者，當你登入時，不應該需要再次搜尋。
 
-**Hint:** Try using the Yelp API to find venues in the cities your users search for. If you use Yelp's API, be sure to mention so in your app.
+**提示：** 嘗試使用 Yelp API 來尋找你的用戶搜尋的城市中的場地。如果你使用 Yelp 的 API，請務必在你的應用程式中提及。
 
-When you are done, make sure a working demo of your project is hosted somewhere public. Then submit the URL to it in the Solution Link field. Optionally, also submit a link to your project's source code in the GitHub Link field.
+完成後，請確保你的專案有一個可運作的示範公開託管在某處。然後在 Solution Link 欄位提交其 URL。選填地，也可在 GitHub Link 欄位提交你的專案原始碼的連結。
 
 # --solutions--
 

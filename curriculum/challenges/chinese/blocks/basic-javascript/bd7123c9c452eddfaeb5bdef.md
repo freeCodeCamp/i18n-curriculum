@@ -1,6 +1,6 @@
 ---
 id: bd7123c9c452eddfaeb5bdef
-title: Use Bracket Notation to Find the Nth-to-Last Character in a String
+title: 使用方括号查找字符串中的倒数第 N 个字符
 challengeType: 1
 forumTopicId: 18344
 dashedName: use-bracket-notation-to-find-the-nth-to-last-character-in-a-string
@@ -8,34 +8,34 @@ dashedName: use-bracket-notation-to-find-the-nth-to-last-character-in-a-string
 
 # --description--
 
-You can use the same principle we just used to retrieve the last character in a string to retrieve the Nth-to-last character.
+我们既可以获取字符串的最后一个字符，也可以用获取字符串的倒数第 N 个字符。
 
-For example, you can get the value of the third-to-last letter of the `const firstName = "Augusta"` string by using `firstName[firstName.length - 3]`
+例如，你可以使用 `firstName[firstName.length - 3]` 获取 `const firstName = "Augusta"` 字符串的倒数第三个字母的值
 
-Example:
+例如：
 
 ```js
 const firstName = "Augusta";
 const thirdToLastLetter = firstName[firstName.length - 3];
 ```
 
-`thirdToLastLetter` would have a value of the string `s`.
+`thirdToLastLetter` 的值应该为字符串 `s`。
 
 # --instructions--
 
-Use <dfn>bracket notation</dfn> to find the second-to-last character in the `lastName` string.
+使用方括号（ <dfn>bracket notation</dfn>）来获得 `lastName` 字符串中的倒数第二个字符。
 
-**Hint:** Try looking at the example above if you get stuck.
+**提示：** 如果卡住了，请尝试查看上面的示例。
 
 # --hints--
 
-`secondToLastLetterOfLastName` should be the letter `c`.
+`secondToLastLetterOfLastName` 应该是字母 `c`。
 
 ```js
 assert(secondToLastLetterOfLastName === 'c');
 ```
 
-You should use `.length` to get the second last letter.
+您应该使用 `.length` 获取倒数第二个字母。
 
 ```js
 assert(__helpers.removeJSComments(code).match(/\.length/g).length > 0);

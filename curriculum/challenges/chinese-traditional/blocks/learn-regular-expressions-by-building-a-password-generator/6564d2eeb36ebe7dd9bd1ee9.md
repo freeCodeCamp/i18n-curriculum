@@ -7,11 +7,11 @@ dashedName: step-40
 
 # --description--
 
-Add a third tuple to the `constraints` list. Use the `uppercase` parameter as the first item and a regex pattern that matches a single uppercase letter as the second item.
+為你的 `constraints` 列表添加第三個元組。使用 `uppercase` 參數作為第一個項目，並使用符合單一大寫字母的正則表達式樣式作為第二個項目。
 
 # --hints--
 
-You should add a third tuple to the `constraints` list using `uppercase` as the first item and a character class that matches a single uppercase letter as the second item.
+你應該為你的 `constraints` 列表添加第三個元組，使用 `uppercase` 作為第一個項目，並使用匹配單一大寫字母的字元類別作為第二個項目。
 
 ```js
 ({ test: () => assert.match(code, /constraints\s*=\s*\[\s*\(\s*nums\s*,\s*("|')\[0-9\]\1\s*\)\s*,\s*\(\s*lowercase\s*,\s*("|')\[a-z\]\2\s*\)\s*,\s*\(\s*uppercase\s*,\s*("|')\[A-Z\]\3\s*\)\s*,?\s*\]/) })
@@ -48,7 +48,7 @@ def generate_password(length, nums, special_chars, uppercase, lowercase):
         ]        
 --fcc-editable-region--
     return password
-
+    
 # new_password = generate_password(8)
 # print(new_password)
 

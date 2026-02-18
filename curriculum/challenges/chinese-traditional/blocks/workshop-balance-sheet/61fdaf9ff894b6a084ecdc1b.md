@@ -7,11 +7,11 @@ dashedName: step-33
 
 # --description--
 
-爲了防止文本內容溢出，給你的 `span[class~="sr-only"]` 選擇器一個 `overflow` 屬性，設置爲 `hidden`，以及一個 `white-space` 屬性，設置爲 `nowrap`。
+為防止文字內容上限溢位，請為你的 `span[class~="sr-only"]` 選擇器設定 `overflow` 屬性為 `hidden`，並設定 `white-space` 屬性為 `nowrap`。
 
 # --hints--
 
-你的 `span[class~="sr-only"]` 選擇器應該有一個 `overflow` 屬性，設置爲 `hidden`。
+你的 `span[class~="sr-only"]` 選擇器應該設定 `overflow` 屬性為 `hidden`。
 
 ```js
 assert.strictEqual(
@@ -22,7 +22,7 @@ assert.strictEqual(
 );
 ```
 
-你的 `span[class~="sr-only"]` 選擇器應該有一個 `white-space` 屬性，設置爲 `nowrap`。
+你的 `span[class~="sr-only"]` 選擇器應該有一個設定為 `nowrap` 的 `white-space` 屬性。
 
 ```js
 assert.strictEqual(
@@ -175,7 +175,7 @@ span[class~="sr-only"] {
   clip-path: inset(50%);
   height: 1px;
   width: 1px;
-
+  
 }
 --fcc-editable-region--
 

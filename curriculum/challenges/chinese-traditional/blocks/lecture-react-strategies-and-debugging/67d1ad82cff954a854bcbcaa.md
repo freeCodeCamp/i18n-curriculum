@@ -1,23 +1,23 @@
 ---
 id: 67d1ad82cff954a854bcbcaa
-title: What Is Prop Drilling?
+title: 什麼是 Prop Drilling？
 challengeType: 19
 dashedName: what-is-prop-drilling
 ---
 
 # --description--
 
-Prop drilling is the most basic approach to state management in React applications. It looks simple, but can get messy quickly, and is very hard to scale.
+Prop drilling 是 React 應用程式中最基本的狀態管理方法。它看起來很簡單，但很快就會變得混亂，且非常難以擴展。
 
-Let's look at what prop drilling is, why it's a problem, and a good replacement for it as an application grows.
+讓我們來看看什麼是 prop drilling、為什麼它會是個問題，以及隨著應用程式成長時一個好的取代方案。
 
-Prop drilling is the process of passing props from a parent component to deeply nested child components, even when some of the child components don't need the props.
+Prop drilling 是將 props 從父組件傳遞到深層巢狀子組件的處理程序，即使某些子組件不需要這些 props。
 
-For example, say you have three components named `Parent`, `Child`, and `Grandchild`. If you want to use some data in the `Grandchild` component, but it's in the `Parent` component, you'd need to pass it from the `Parent` to the `Child` component, then from the `Child` to the `Grandchild` component.
+例如，假設你有三個名為 `Parent`、`Child` 和 `Grandchild` 的組件。如果你想在 `Grandchild` 組件中使用一些資料，但這些資料在 `Parent` 組件中，你需要先將它從 `Parent` 傳遞到 `Child` 組件，再從 `Child` 傳遞到 `Grandchild` 組件。
 
-Or if the data is even further up the chain, the data might have to be passed to the `Parent` component, too.
+或者如果資料位於串鏈更上層，資料可能也必須傳遞給 `Parent` 組件。
 
-Here, the data I want to display is the string `Hello, Prop Drilling!`. It's assigned to the `greeting` variable in the root `App` component:
+這裡，我想顯示的資料是字串 `Hello, Prop Drilling!`。它被指定到根組件 `App` 中的 `greeting` 變數：
 
 ```jsx
 import "./App.css";
@@ -32,7 +32,7 @@ function App() {
 export default App;
 ```
 
-You can see the `Parent` component is also receiving the `greeting` variable as the value of a `greeting` prop. Here's the `Parent` component passing it into the `Child` component as the value of another `greeting` prop in the `Child`:
+你可以看到 `Parent` 組件也正在接收 `greeting` 變數作為 `greeting` prop 的值。這裡是 `Parent` 組件將它作為另一個 `greeting` prop 的值傳遞給 `Child` 組件：
 
 ```jsx
 import Child from "./Child";
@@ -44,7 +44,7 @@ const Parent = ({ greeting }) => {
 export default Parent;
 ```
 
-And here's the `Child` component that passes it to the `Grandchild` component:
+這是將它傳遞給 `Grandchild` 組件的 `Child` 組件：
 
 ```jsx
 import Grandchild from "./Grandchild";
@@ -56,7 +56,7 @@ const Child = ({ greeting }) => {
 export default Child;
 ```
 
-And finally the `Grandchild` component receives the greeting and uses it as the content of an `h1` element:
+最後，`Grandchild` 組件接收問候語並將其用作 `h1` 元素的內容：
 
 ```jsx
 const Grandchild = ({ greeting }) => {
@@ -66,13 +66,13 @@ const Grandchild = ({ greeting }) => {
 export default Grandchild;
 ```
 
-In the browser, you'll see a page with a single `h1` element that has the text `Hello, Prop Drilling!`.
+在瀏覽器中，你會看到一個頁面，該頁面有一個單一的 `h1` 元素，其文字為 `Hello, Prop Drilling!`。
 
-At first, prop drilling might not seem like such a big deal. But as your app grows, it gets harder to understand, debug, and maintain.
+一開始，prop drilling 可能看起來不是什麼大問題。但隨著你的應用程式成長，它會變得更難理解、偵錯和維護。
 
-If you need to pass props around, try to keep them all in a single parent component. This approach of centralizing all necessary data is called the "single source of truth".
+如果你需要傳遞 props，請嘗試將它們全部保存在單一的父組件中。這種將所有必要資料集中管理的方法稱為「單一資料來源」。
 
-For instance, say you want to add a new `response` to go with your `greeting`, and that you want to use both of them in the `Grandchild` component. Since `greeting` is already in the `App` component, it makes sense to put `response` there, too, and pass both of them down the chain:
+例如，假設你想為你的 `greeting` 添加一個新的 `response`，並且你想在 `Grandchild` 組件中同時使用它們。由於 `greeting` 已經在 `App` 組件中，因此將 `response` 也放在那裡並將它們一起傳遞下串鏈是合理的：
 
 ```jsx
 function App() {
@@ -102,45 +102,45 @@ const Grandchild = ({ greeting, response }) => {
 export default App;
 ```
 
-In the browser, you'll see a page with an `h1` element that has the text `Hello, Prop Drilling!` and an `h2` element that has the text `I'm not here to play!`.
+在瀏覽器中，你會看到一個頁面，該頁面有一個 `h1` 元素，其文字為 `Hello, Prop Drilling!`，以及一個 `h2` 元素，其文字為 `I'm not here to play!`。
 
-To avoid prop drilling, especially in large, complex applications, consider using the Context API or state management libraries like Redux and Redux Toolkit, Zustand, Recoil, and others.
+為避免 prop drilling，特別是在大型且複雜的應用程式中，請考慮使用 Context API 或像 Redux 和 Redux Toolkit、Zustand、Recoil 等狀態管理函式庫。
 
-You'll learn more about these in the coming lessons.
+你將在接下來的課程中學到更多關於這些的內容。
 
 # --questions--
 
 ## --text--
 
-How would a prop flow from a parent to a grandchild component?
+屬性如何從父組件傳遞到孫組件？
 
 ## --answers--
 
-By defining the prop inside the grandchild component.
+透過在孫組件內定義 prop。
 
 ### --feedback--
 
-The prop must go through the child before reaching the grandchild.
+該 prop 必須先經過子元件，然後才能到達孫元件。
 
 ---
 
-By passing it from parent to child, then from child to grandchild.
+透過從父元件傳遞到子元件，再從子元件傳遞到孫元件。
 
 ---
 
-By using the `useEffect` hook to fetch the prop dynamically.
+透過使用 `useEffect` 掛鉤動態取得 prop。
 
 ### --feedback--
 
-The prop must go through the child before reaching grandchild.
+該 prop 必須先通過子元件，然後才能到達孫元件。
 
 ---
 
-By using the `useState` hook in the grandchild.
+透過在孫元件中使用 `useState` 掛鉤。
 
 ### --feedback--
 
-The prop must go through the child before reaching grandchild.
+該 prop 必須先通過子元件，然後才能到達孫元件。
 
 ## --video-solution--
 
@@ -148,35 +148,35 @@ The prop must go through the child before reaching grandchild.
 
 ## --text--
 
-What is prop drilling in React?
+什麼是 React 中的 prop drilling？
 
 ## --answers--
 
-Passing props directly to only the components that need them.
+只將 props 直接傳遞給需要它們的組件。
 
 ### --feedback--
 
-It happens when props are passed through multiple levels unnecessarily.
+當 `props` 不必要地透過多個層次傳遞時，就會發生這種情況。
 
 ---
 
-Using context to share state between components.
+使用背景關係在組件之間共享狀態。
 
 ### --feedback--
 
-It happens when props are passed through multiple levels unnecessarily.
+當 `props` 不必要地透過多個層次傳遞時，就會發生這種情況。
 
 ---
 
-Passing props from a parent to deeply nested child components.
+從父組件傳遞 props 到深層巢狀子組件。
 
 ---
 
-Drilling down into component state using hooks.
+使用掛鉤深入探查組件狀態。
 
 ### --feedback--
 
-It happens when props are passed through multiple levels unnecessarily.
+當 `props` 不必要地透過多個層次傳遞時，就會發生這種情況。
 
 ## --video-solution--
 
@@ -184,35 +184,35 @@ It happens when props are passed through multiple levels unnecessarily.
 
 ## --text--
 
-Why is prop drilling considered a problem in larger applications?
+為什麼在較大型的應用程式中，prop drilling 被視為一個問題？
 
 ## --answers--
 
-It makes it easier to manage state.
+它讓管理狀態變得更容易。
 
 ### --feedback--
 
-Too many props passing through multiple components can make the code messy.
+透過多個組件傳遞過多的 props 會使程式碼變得混亂。
 
 ---
 
-It improves performance by reducing re-renders.
+它透過減少重新呈現來提升效率。
 
 ### --feedback--
 
-Too many props passing through multiple components can make the code messy.
+透過多個組件傳遞過多的 props 會使程式碼變得混亂。
 
 ---
 
-It makes the code harder to read, debug, and maintain.
+這會讓程式碼更難閱讀、偵錯和維護。
 
 ---
 
-It eliminates the need for state management libraries.
+它消除了對狀態管理庫的需求。
 
 ### --feedback--
 
-Too many props passing through multiple components can make the code messy.
+透過多個組件傳遞過多的 props 會使程式碼變得混亂。
 
 ## --video-solution--
 

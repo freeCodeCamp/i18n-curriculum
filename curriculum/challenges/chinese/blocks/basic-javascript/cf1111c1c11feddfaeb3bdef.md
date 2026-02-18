@@ -8,13 +8,13 @@ dashedName: add-two-numbers-with-javascript
 
 # --description--
 
-`Number` is a data type in JavaScript which represents numeric data.
+`Number` 是 JavaScript 中的一种数据类型，用来表示数值。
 
 现在我们来尝试在 JavaScript 中做加法运算。
 
 JavaScript 中，我们通过符号 `+` 来进行加法运算。
 
-**代码示例:**
+**示例：**
 
 ```js
 const myVar = 5 + 10;

@@ -9,7 +9,7 @@ dashedName: step-45
 
 在函数内返回函数的概念叫作<dfn>柯里化</dfn>。 这种方法允许你创建一个变量，该变量保存稍后要调用的函数，但引用外部函数调用的参数。
 
-举个例子：
+例如：
 
 ```js
 const innerOne = elemValue(1);

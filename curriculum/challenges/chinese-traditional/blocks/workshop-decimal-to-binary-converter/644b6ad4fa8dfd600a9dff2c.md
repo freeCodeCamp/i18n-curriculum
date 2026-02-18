@@ -1,31 +1,31 @@
 ---
 id: 644b6ad4fa8dfd600a9dff2c
-title: 步驟 25
+title: 第 25 步
 challengeType: 0
 dashedName: step-25
 ---
 
 # --description--
 
-To divide numbers in JavaScript, use the division operator (`/`). For example:
+要在 JavaScript 中除以數字，請使用除法運算子（`/`）。例如：
 
 ```js
 const quotient = 5 / 2; // 2.5
 ```
 
-In the example above, `5` is the <dfn>dividend</dfn>, or the number to be divided, and `2` is the <dfn>divisor</dfn>, or the number to divide by. The result, `2.5`, is called the <dfn>quotient</dfn>.
+在上述範例中，`5` 是 <dfn>被除數</dfn>，也就是要被除的數字，而 `2` 是 <dfn>除數</dfn>，也就是用來除的數字。結果 `2.5` 稱為 <dfn>商</dfn>。 
 
-Inside your `while` loop, create a variable named `quotient` and assign it the value of `input` divided by `2`.
+在你的 `while` 迴圈內，創建一個名為 `quotient` 的變數，並將其指定為 `input` 除以 `2` 的值。
 
 # --hints--
 
-You should create a variable named `quotient` inside your `while` loop.
+你應該在你的 `while` 迴圈內創建一個名為 `quotient` 的變數。
 
 ```js
 assert.match(code, /while\s*\(\s*input\s*>\s*0\s*\)\s*\{\s*(var|let|const)\s+quotient\s*=/);
 ```
 
-You should assign `quotient` the value of `input` divided by `2`.
+你應該將 `quotient` 指定為 `input` 除以 2 的值。
 
 ```js
 assert.match(String(decimalToBinary), /(var|let|const)\s+quotient\s*=\s*input\s*\/\s*2\s*/);
