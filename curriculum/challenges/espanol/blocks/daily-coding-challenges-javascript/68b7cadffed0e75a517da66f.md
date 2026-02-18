@@ -10,7 +10,7 @@ dashedName: challenge-50
 Dada una oración, devuelve la palabra más larga en la oración.
 
 - Ignora los puntos (`.`) al determinar la longitud de la palabra.
-- Si varias palabras empatan como las más largas, devuelve la primera que aparece.
+- Si varias palabras empatan como la más larga, devuelve la primera que aparece.
 
 # --hints--
 

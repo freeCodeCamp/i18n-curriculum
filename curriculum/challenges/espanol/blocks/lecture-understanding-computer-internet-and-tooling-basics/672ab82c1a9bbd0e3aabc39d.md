@@ -21,7 +21,9 @@ Si bien los precios de estos dispositivos pueden variar y pueden ser una compra 
 
 Otro consejo es mantener tu ratón a la misma altura que tu teclado. No querrás tener que alcanzar hacia arriba o hacia abajo para usar el ratón, ya que esto puede tensar los músculos de tu muñeca y brazo con el tiempo.
 
-También debes estar atento a tu postura general cuando te sientas en la computadora durante horas. Estar encorvado sobre tu computadora y poner tu muñeca en una posición antinatural en el teclado llevará a problemas de salud a largo plazo. Por lo tanto, debes asegurarte de sentarte derecho cuando trabajas en tu computadora y mantener una posición de muñeca saludable y natural.
+También debes tener en cuenta tu postura general cuando estés sentado frente a la computadora por largos períodos. Estar encorvado sobre la computadora y poner las muñecas en una posición antinatural en el teclado puede causar problemas de salud a largo plazo.
+
+Aunque mantener una buena postura es importante, la ergonomía moderna enfatiza la importancia del movimiento y la postura dinámica. El cuerpo humano está diseñado para el movimiento, y permanecer en cualquier posición fija, incluso una recta, por mucho tiempo puede ejercer presión continua sobre la columna vertebral. Tomar descansos regulares, ajustar tu posición a lo largo del día y mantener una posición natural de la muñeca puede ayudar a mejorar la circulación, reducir la fatiga y apoyar la salud a largo plazo de la columna vertebral.
 
 El último consejo sería usar atajos de teclado siempre que sea posible para ayudar a minimizar la escritura. Hay docenas de atajos disponibles para tareas como navegar por la web, moverse por tu sistema operativo, trabajar dentro de un editor de código, y más.  So, it’s best to research some of these keyboard shortcuts and start incorporating them into your daily computer usage.
 

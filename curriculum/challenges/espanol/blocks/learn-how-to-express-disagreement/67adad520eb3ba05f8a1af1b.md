@@ -3,6 +3,7 @@ id: 67adad520eb3ba05f8a1af1b
 title: Tarea 33
 challengeType: 19
 dashedName: task-33
+showSpeakingButton: true
 lang: en-US
 ---
 
@@ -24,6 +25,10 @@ Escucha el audio y responde a la pregunta de abajo.
 
 `I don't understand.`
 
+### --audio-id--
+
+en-b1-67adad520eb3ba05f8a1af1b-SP1
+
 ### --feedback--
 
 Esta frase sugiere confusión, pero Anna necesita mostrar acuerdo con la idea de Bob.
@@ -31,6 +36,10 @@ Esta frase sugiere confusión, pero Anna necesita mostrar acuerdo con la idea de
 ---
 
 `That makes sense.`
+
+### --audio-id--
+
+en-b1-67adad520eb3ba05f8a1af1b-SP2
 
 ## --video-solution--
 

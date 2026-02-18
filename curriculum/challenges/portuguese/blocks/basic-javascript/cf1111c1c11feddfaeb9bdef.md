@@ -10,7 +10,7 @@ dashedName: generate-random-fractions-with-javascript
 
 Números aleatórios são úteis para criar comportamento aleatório.
 
-JavaScript tem a função `Math.random()` que gera um número decimal aleatório entre `0` (incluso) e `1` (excluso).Assim, `Math.random()` pode retornar um `0` mas nunca retornará `1`.
+JavaScript tem a função `Math.random()` que gera um número decimal aleatório entre `0` (incluso) e `1` (excluso). Assim, `Math.random()` pode retornar um `0` mas nunca retornará `1`.
 
 **Nota:** Assim como em <a href="/learn/javascript-algorithms-and-data-structures/basic-javascript/storing-values-with-the-assignment-operator" target="_blank" rel="noopener noreferrer nofollow">Armazenar Valores com o Operador de Atribuição</a>, todas as chamadas de função serão resolvidas antes da execução do `return`, então podemos `return` o valor da função `Math.random()`.
 

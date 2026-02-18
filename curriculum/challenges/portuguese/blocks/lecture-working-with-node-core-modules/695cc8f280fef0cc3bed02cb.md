@@ -203,7 +203,7 @@ Para gerenciar caminhos de arquivos e extensões no sistema.
 
 ### --feedback--
 
-Pense em como o Node.js reage às mudanças do ciclo de vida durante a execução.
+Pense em como o Node.js reage às mudanças de ciclo de vida durante a execução.
 
 ## --video-solution--
 

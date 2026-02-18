@@ -7,7 +7,7 @@ dashedName: step-25
 
 # --description--
 
-Em seguida, abaixo da declaração aninhada `elif`, adicione outra declaração `if` que deve ser executada quando `forward` for `True`.Dentro desta condicional, imprima a seguinte f-string: `f'Moving disk {rods[source][-1]} from {source} to {target}'`.
+Em seguida, abaixo da declaração aninhada `elif`, adicione outra declaração `if` que deve ser executada quando `forward` for `True`. Dentro desta condicional, imprima a seguinte f-string: `f'Moving disk {rods[source][-1]} from {source} to {target}'`.
 
 # --hints--
 

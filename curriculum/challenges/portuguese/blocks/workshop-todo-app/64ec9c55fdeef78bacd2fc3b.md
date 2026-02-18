@@ -7,9 +7,9 @@ dashedName: step-30
 
 # --description--
 
-Se você tentar adicionar outra tarefa agora, notará que os campos de entrada mantêm os valores que você inseriu para a tarefa anterior.Para resolver isso, você precisa limpar os campos de entrada após adicionar uma tarefa.
+Se você tentar adicionar outra tarefa agora, notará que os campos de entrada mantêm os valores que você inseriu para a tarefa anterior. Para resolver isso, você precisa limpar os campos de entrada após adicionar uma tarefa.
 
-Ao invés de limpar os campos de entrada um por um, é uma boa prática criar uma função que lide com a limpeza desses campos.Você pode então chamar essa função sempre que precisar limpar os campos de entrada novamente.
+Ao invés de limpar os campos de entrada um por um, é uma boa prática criar uma função que lide com a limpeza desses campos. Você pode então chamar essa função sempre que precisar limpar os campos de entrada novamente.
 
 Use a sintaxe de seta para criar uma função `reset` e defini-la como um par de chaves.
 

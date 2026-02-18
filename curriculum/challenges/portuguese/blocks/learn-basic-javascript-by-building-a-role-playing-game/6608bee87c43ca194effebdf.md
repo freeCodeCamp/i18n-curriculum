@@ -7,7 +7,7 @@ dashedName: step-53
 
 # --description--
 
-Mais adiante no currículo, você irá se aprofundar em objetos.Mas por enquanto, é hora de aplicar o que você aprendeu no seu jogo de interpretação de papéis.
+Mais adiante no currículo, você irá se aprofundar em objetos. Mas por enquanto, é hora de aplicar o que você aprendeu no seu jogo de interpretação de papéis.
 
 Comece deletando seu objeto `cat` e a instrução do console. 
 

@@ -8,7 +8,7 @@ dashedName: falsy-bouncer
 
 # --description--
 
-Remover todos os valores falsos de um array.Retorna um novo array; não altere o array original.
+Remover todos os valores falsos de um array. Retorna um novo array; não altere o array original.
 
 Valores falsos (falsy) em JavaScript são `false`, `null`, `0`, `""`, `undefined`, e `NaN`.
 

@@ -7,7 +7,7 @@ dashedName: step-24
 
 # --description--
 
-`arr` contém uma série de objetos que cada um contém uma propriedade `name`, `position`, `number`, `isCaptain` e `nickname`.Para acessar cada uma dessas propriedades dentro da função de callback, você precisará usar a desestruturação de objetos para colocá-los em variáveis.
+`arr` contém uma série de objetos que cada um contém uma propriedade `name`, `position`, `number`, `isCaptain` e `nickname`. Para acessar cada uma dessas propriedades dentro da função de callback, você precisará usar a desestruturação de objetos para colocá-los em variáveis.
 
 Aqui está um exemplo:
 

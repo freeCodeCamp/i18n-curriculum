@@ -7,7 +7,7 @@ dashedName: step-10
 
 # --description--
 
-Crie uma função chamada `displayStory`.Dentro da função, registre `"You clicked the button"` no console.
+Crie uma função chamada `displayStory`. Dentro da função, registre `"You clicked the button"` no console.
 
 # --hints--
 

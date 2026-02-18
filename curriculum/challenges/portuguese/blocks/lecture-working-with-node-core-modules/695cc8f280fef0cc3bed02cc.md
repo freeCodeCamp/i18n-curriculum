@@ -252,7 +252,7 @@ Pense nos eventos do writable stream que sinalizam conclusão e falha.
 
 ### --feedback--
 
-Pense nos eventos do stream gravável que sinalizam conclusão e falha.
+Pense nos eventos do writable stream que sinalizam conclusão e falha.
 
 ---
 
@@ -260,7 +260,7 @@ Pense nos eventos do stream gravável que sinalizam conclusão e falha.
 
 ### --feedback--
 
-Pense nos eventos do stream gravável que sinalizam conclusão e falha.
+Pense nos eventos do writable stream que sinalizam conclusão e falha.
 
 ## --video-solution--
 

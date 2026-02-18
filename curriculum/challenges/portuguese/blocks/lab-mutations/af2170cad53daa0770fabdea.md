@@ -12,7 +12,7 @@ dashedName: implement-the-mutations-algorithm
 **Histórias de Usuário:**
 
 1. Crie uma função chamada `mutation` que recebe um array como argumento.
-1. `mutation` deve retornar `true` se a string no primeiro elemento do array contiver todas as letras da string no segundo elemento do array, e `false` caso contrário.Por exemplo:
+1. `mutation` deve retornar `true` se a string no primeiro elemento do array contiver todas as letras da string no segundo elemento do array, e `false` caso contrário. Por exemplo:
     - `mutation(["hello", "Hello"])`, deve retornar `true` porque todas as letras na segunda string estão presentes na primeira, ignorando maiúsculas e minúsculas.
     - `mutation(["hello", "hey"])` deve retornar `false` porque a string `hello` não contém um `y`.
     - `mutation(["Alien", "line"])`, deve retornar `true` porque todas as letras em `line` estão presentes em `Alien`.

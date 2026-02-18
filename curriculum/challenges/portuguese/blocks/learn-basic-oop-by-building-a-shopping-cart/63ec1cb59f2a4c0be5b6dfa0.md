@@ -7,7 +7,7 @@ dashedName: step-5
 
 # --description--
 
-Um carrinho de compras não tem muito propósito sem produtos.Declare uma variável `products` e defina-a com um array vazio.O uso de um array permitirá que você armazene vários produtos.
+Um carrinho de compras não tem muito propósito sem produtos. Declare uma variável `products` e defina-a com um array vazio. O uso de um array permitirá que você armazene vários produtos.
 
 # --hints--
 

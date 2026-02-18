@@ -7,7 +7,7 @@ dashedName: step-59
 
 # --description--
 
-Adicione um segundo objeto ao array `locations` (lembre-se de separá-los com uma vírgula).Seguindo o padrão que você usou no primeiro objeto, crie as mesmas propriedades, mas use os valores da função `goStore`.Defina a propriedade `name` como `store`.
+Adicione um segundo objeto ao array `locations` (lembre-se de separá-los com uma vírgula). Seguindo o padrão que você usou no primeiro objeto, crie as mesmas propriedades, mas use os valores da função `goStore`. Defina a propriedade `name` como `store`.
 
 # --hints--
 

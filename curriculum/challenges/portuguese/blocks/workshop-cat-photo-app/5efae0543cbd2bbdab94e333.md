@@ -13,13 +13,13 @@ Para melhorar a acessibilidade da imagem que você adicionou, adicione um atribu
 
 # --hints--
 
-O elemento `figure` deve ter uma tag de abertura.As tags de abertura têm essa sintaxe: `<elementName>`.
+O elemento `figure` deve ter uma tag de abertura. As tags de abertura têm essa sintaxe: `<elementName>`.
 
 ```js
 assert.lengthOf(document.querySelectorAll('figure'), 2);
 ```
 
-O elemento `figure` deve ter uma tag de fechamento.As tags de fechamento têm um caractere `/` logo após o caractere `<`.
+O elemento `figure` deve ter uma tag de fechamento. As tags de fechamento têm um caractere `/` logo após o caractere `<`.
 
 ```js
 assert.lengthOf(code.match(/<\/figure>/g), 2);

@@ -9,7 +9,7 @@ dashedName: step-17
 
 Para a condição truthy, se `prev` incluir `item`, retorne um array filtrado com `item` removido.
 
-Encadeie o método `filter()` em `prev` e passe uma função anônima que recebe `i` como argumento.Dentro da função, verifique se `i` não é estritamente igual a `item`.Isto retornará um novo array com todos os itens exceto `item`.
+Encadeie o método `filter()` em `prev` e passe uma função anônima que recebe `i` como argumento. Dentro da função, verifique se `i` não é estritamente igual a `item`. Isto retornará um novo array com todos os itens exceto `item`.
 
 # --hints--
 
@@ -24,7 +24,7 @@ const shoppingListString = exports.ShoppingList.toString();
 assert.match(shoppingListString, /prev\.includes\s*\(\s*item\s*\)\s*\?\s*prev\.filter\s*\(function\s*\(\s*i\s*\)\s*{/);
 ```
 
-Dentro da função anônima `filter()`, você deve verificar se `i` não é estritamente igual a `item`.Lembre-se de retornar o resultado dessa verificação.
+Dentro da função anônima `filter()`, você deve verificar se `i` não é estritamente igual a `item`. Lembre-se de retornar o resultado dessa verificação.
 
 ```js
 const script = [...document.querySelectorAll("script")].find((s) => s.dataset.src ===  "index.jsx").innerText;

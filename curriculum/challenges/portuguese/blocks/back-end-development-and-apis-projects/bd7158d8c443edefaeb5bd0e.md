@@ -8,14 +8,14 @@ dashedName: url-shortener-microservice
 
 # --description--
 
-Construa um aplicativo JavaScript full stack que seja funcionalmente semelhante a este: <a href="https://url-shortener-microservice.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://url-shortener-microservice.freecodecamp.rocks</a>.Trabalhar nesse projeto vai fazer com que você escreva o código usando um dos seguintes métodos:
+Construa um aplicativo JavaScript full-stack que seja funcionalmente semelhante a este: <a href="https://url-shortener-microservice.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://url-shortener-microservice.freecodecamp.rocks</a>. Trabalhar neste projeto envolverá você escrever seu código usando um dos seguintes métodos:
 
 -   Clone <a href="https://github.com/freeCodeCamp/boilerplate-project-urlshortener/" target="_blank" rel="noopener noreferrer nofollow">este repositório do GitHub</a> e complete seu projeto localmente.
 -   Use um construtor de sites de sua escolha para completar o projeto. Certifique-se de incorporar todos os arquivos do nosso repositório no GitHub.
 
 # --instructions--
 
-**DICA:** Não esqueça de usar um middleware de análise de corpo para lidar com as requisições POST.Você também pode usar a função `dns.lookup(host, cb)` do módulo central do `dns` para verificar um URL enviado.
+**DICA:** Não esqueça de usar um middleware de análise de corpo para lidar com as requisições POST. Você também pode usar a função `dns.lookup(host, cb)` do módulo central do `dns` para verificar um URL enviado.
 
 # --hints--
 
@@ -29,7 +29,7 @@ Você deve fornecer seu próprio projeto, não o exemplo de URL.
   );
 ```
 
-Você pode postar um URL para `/api/shorturl` e obter uma resposta em JSON com as propriedades `original_url` e `short_url`.Aqui está um exemplo: `{ original_url : 'https://freeCodeCamp.org', short_url : 1}`
+Você pode postar um URL para `/api/shorturl` e obter uma resposta em JSON com as propriedades `original_url` e `short_url`. Aqui está um exemplo: `{ original_url : 'https://freeCodeCamp.org', short_url : 1}`
 
 ```js
   const url = code;

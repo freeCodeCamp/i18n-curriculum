@@ -7,7 +7,7 @@ dashedName: step-36
 
 # --description--
 
-Use a sintaxe de seta para criar uma função `updateTaskContainer`.Então mova o `taskData.forEach()` e seu conteúdo do listener de evento `submit` do `taskForm` para a função recém-criada.
+Use a sintaxe de seta para criar uma função `updateTaskContainer`. Então mova o `taskData.forEach()` e seu conteúdo do listener de evento `submit` do `taskForm` para a função recém-criada.
 
 # --hints--
 

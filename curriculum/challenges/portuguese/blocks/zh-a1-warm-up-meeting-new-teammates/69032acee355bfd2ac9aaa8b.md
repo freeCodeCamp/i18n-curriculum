@@ -18,7 +18,7 @@ Essa mudança de tom é um ajuste natural na fala para tornar a pronúncia mais 
 
 ### Exemplos
 
-| Escrito    | Pronunciado como |
+| Written    | Pronounced as |
 |------------|----------------|
 | `bù néng`   | `bù néng`      |
 | `bù xiǎng`   | `bù xiǎng`      |

@@ -21,7 +21,7 @@ A tarefa é descobrir se Babbage achou a resposta certa.
 
 # --instructions--
 
-Implemente uma função que retorna o menor inteiro que satisfaça o problema de Babbage.Se Babbage estava certo, retorne o número de Babbage.
+Implemente uma função que retorna o menor inteiro que satisfaça o problema de Babbage. Se Babbage estava certo, retorne o número de Babbage.
 
 # --hints--
 

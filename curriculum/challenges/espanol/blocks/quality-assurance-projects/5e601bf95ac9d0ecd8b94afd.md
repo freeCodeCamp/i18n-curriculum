@@ -8,14 +8,14 @@ dashedName: sudoku-solver
 
 # --description--
 
-Construye una aplicación JavaScript full stack que sea funcionalmente similar a esta: <a href="https://sudoku-solver.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://sudoku-solver.freecodecamp.rocks/</a>. Trabajar en este proyecto implicará que escribas tu código usando uno de los siguientes métodos:
+Construye una aplicación JavaScript full-stack que sea funcionalmente similar a esta: <a href="https://sudoku-solver.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://sudoku-solver.freecodecamp.rocks/</a>. Trabajar en este proyecto implicará que escribas tu código usando uno de los siguientes métodos:
 
 -   Clona <a href="https://github.com/freecodecamp/boilerplate-project-sudoku-solver" target="_blank" rel="noopener noreferrer nofollow">este repositorio de GitHub</a> y completa tu proyecto localmente.
 -   Usa un constructor de sitios de tu elección para completar el proyecto. Asegúrate de incorporar todos los archivos de nuestro repositorio de GitHub.
 
 # --instructions--
 
-- All puzzle logic can go into `/controllers/sudoku-solver.js`
+- Toda la lógica del rompecabezas puede ir dentro de `/controllers/sudoku-solver.js`
   - La función `validate` debe tomar una cadena de rompecabezas dada y revisarla para ver si tiene 81 caracteres válidos para la entrada.
   - La `verifique` funciones debería validar contra el estado *actual* del foro.
   - La función `solve` debe manejar la resolución de cualquier cadena de rompecabezas válida, no solo las entradas de prueba y soluciones. Se espera que escribas la lógica para resolver esto.

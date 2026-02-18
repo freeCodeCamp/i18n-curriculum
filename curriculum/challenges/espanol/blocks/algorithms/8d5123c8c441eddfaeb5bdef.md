@@ -18,13 +18,13 @@ Este método requiere múltiples iteraciones a través del arreglo y para el pro
 
 # --hints--
 
-`bubbleSort` debería ser una función.
+`bubbleSort` Debería ser una función.
 
 ```js
 assert.isFunction(bubbleSort);
 ```
 
-`bubbleSort` debería retornar un arreglo ordenado (de menor a mayor).
+`bubbleSort` Debería retornar un arreglo ordenado (de menor a mayor).
 
 ```js
 function isSorted(a){
@@ -58,7 +58,7 @@ assert.isTrue(
 );
 ```
 
-`bubbleSort([1,4,2,8,345,123,43,32,5643,63,123,43,2,55,1,234,92])` debería retornar el mismo arreglo cambiando solo el orden de los números.
+`bubbleSort([1,4,2,8,345,123,43,32,5643,63,123,43,2,55,1,234,92])` Debería retornar el mismo arreglo cambiando solo el orden de los números.
 
 ```js
 assert.sameMembers(
@@ -85,7 +85,7 @@ assert.sameMembers(
 );
 ```
 
-`bubbleSort` no debería usar el método incorporado `.sort()`.
+`bubbleSort` No debería usar el método incorporado `.sort()`.
 
 ```js
 function isBuiltInSortUsed(){

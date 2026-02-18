@@ -9,7 +9,7 @@ dashedName: step-39
 
 Agora que você terminou de testar o valor de `entryDropdown.value`, você pode remover a instrução `console.log`. 
 
-O próximo passo é permitir que os usuários adicionem entradas ao contador de calorias.Declare uma função vazia `addEntry`.A função não deve receber parâmetros.
+O próximo passo é permitir que os usuários adicionem entradas ao contador de calorias. Declare uma função vazia `addEntry`. A função não deve receber parâmetros.
 
 # --hints--
 

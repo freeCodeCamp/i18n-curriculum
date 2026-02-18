@@ -14,7 +14,7 @@ Dado un monto de dinero que tienes y un arreglo de artículos que quieres compra
 
 Usa las siguientes tasas de cambio para convertir valores:
 
-|Moneda|1 Unidad Equivale|
+|Currency|1 Unit Equals|
 |-|-|
 |USD|1.00 USD|
 |EUR|1.10 USD|

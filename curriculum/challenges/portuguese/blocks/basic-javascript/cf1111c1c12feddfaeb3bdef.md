@@ -8,9 +8,9 @@ dashedName: use-conditional-logic-with-if-statements
 
 # --description--
 
-instruções `if` são usadas para tomar decisões no código.A palavra-chave `if` diz ao JavaScript para executar o código nas chaves sob certas condições, definidas nos parênteses.Essas condições são conhecidas como condições `Boolean` e elas só podem ser `true` ou `false`.
+instruções `if` são usadas para tomar decisões no código. A palavra-chave `if` diz ao JavaScript para executar o código nas chaves sob certas condições, definidas nos parênteses. Essas condições são conhecidas como condições `Boolean` e elas só podem ser `true` ou `false`.
 
-Quando a condição for `true`, o programa executará as instruções dentro das chaves.Quando a condição booleana for `false`, as instruções dentro das chaves não serão executadas.
+Quando a condição for `true`, o programa executará as instruções dentro das chaves. Quando a condição booleana for `false`, as instruções dentro das chaves não serão executadas.
 
 **Pseudocódigo**
 
@@ -32,7 +32,7 @@ test(false);
 
 `test(true)` retorna a string `It was true` e `test(false)` retorna a string `It was false`.
 
-Quando `test` é chamado com o valor `true`, a instrução `if` avalia `myCondition` para verificar se é `true` ou não.Já que é `true`, a função retorna `It was true`.Quando chamamos `test` com um valor de `false`, `myCondition` *não* é `true` e a instrução entre chaves não é executada e a função retorna `It was false`.
+Quando `test` é chamado com o valor `true`, a instrução `if` avalia `myCondition` para verificar se é `true` ou não. Já que é `true`, a função retorna `It was true`. Quando chamamos `test` com um valor de `false`, `myCondition` *não* é `true` e a instrução entre chaves não é executada e a função retorna `It was false`.
 
 # --instructions--
 

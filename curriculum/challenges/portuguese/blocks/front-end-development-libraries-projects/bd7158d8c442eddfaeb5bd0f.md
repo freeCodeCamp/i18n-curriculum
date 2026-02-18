@@ -8,13 +8,13 @@ dashedName: build-a-25--5-clock
 
 # --description--
 
-**Note:** **React 18 has known incompatibilities with the tests for this project (see [issue](https://github.com/freeCodeCamp/freeCodeCamp/issues/45922))**
+**Nota:** **React 18 tem incompatibilidades conhecidas com os testes deste projeto (veja [issue](https://github.com/freeCodeCamp/freeCodeCamp/issues/45922))**
 
 **Objetivo:** Construir um aplicativo que seja funcionalmente semelhante a este: <a href="https://25--5-clock.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://25--5-clock.freecodecamp.rocks</a>.
 
-Atenda às histórias de usuário abaixo e faça com que todos os testes passem.Use quaisquer bibliotecas ou APIs de que você precisar.Dê ao projeto o seu próprio estilo pessoal.
+Atenda às histórias de usuário abaixo e faça com que todos os testes passem. Use quaisquer bibliotecas ou APIs de que você precisar. Dê ao projeto o seu próprio estilo pessoal.
 
-Você pode usar qualquer mistura de HTML, JavaScript, CSS, Bootstrap, SASS, React, Redux e JQuery para completar este projeto.Você deve usar um framework de front-end (como React por exemplo) porque essa seção trata de aprender frameworks de front-end.Tecnologias adicionais não listadas acima não são recomendadas e usá-las é por sua conta e risco.Estamos buscando apoiar outros frameworks de front-end, como Angular e Vue, mas eles não são atualmente suportados.Vamos aceitar e tentar corrigir todos os relatórios de problemas que usem o conjunto de tecnologias sugeridas para esse projeto. Happy coding!
+Você pode usar qualquer mistura de HTML, JavaScript, CSS, Bootstrap, SASS, React, Redux e JQuery para completar este projeto. Você deve usar um framework de front-end (como React por exemplo) porque essa seção trata de aprender frameworks de front-end. Tecnologias adicionais não listadas acima não são recomendadas e usá-las é por sua conta e risco. Estamos buscando apoiar outros frameworks de front-end, como Angular e Vue, mas eles não são atualmente suportados. Vamos aceitar e tentar corrigir todos os relatórios de problemas que usem o conjunto de tecnologias sugeridas para esse projeto.  Happy coding!
 
 **História de Usuário #1:** Posso ver um elemento com `id="break-label"` que contém uma string (por exemplo, "Duração do Intervalo").
 
@@ -30,7 +30,7 @@ Você pode usar qualquer mistura de HTML, JavaScript, CSS, Bootstrap, SASS, Reac
 
 **História de Usuário #7:** Posso ver um elemento com o correspondente `id="timer-label"`, que contém uma string indicando que uma sessão foi iniciada (ex.: "Sessão").
 
-**História de Usuário #8:** Eu posso ver um elemento com o correspondente `id="time-left"`.OBSERVAÇÃO: pausado ou em execução, o valor nesse campo deve sempre ser exibido no formato `mm:ss` (por exemplo, 25:00).
+**História de Usuário #8:** Eu posso ver um elemento com o correspondente `id="time-left"`. OBSERVAÇÃO: pausado ou em execução, o valor nesse campo deve sempre ser exibido no formato `mm:ss` (por exemplo, 25:00).
 
 **História de Usuário #9:** Posso ver um elemento clicável com o correspondente `id="start_stop"`.
 
@@ -46,7 +46,7 @@ Você pode usar qualquer mistura de HTML, JavaScript, CSS, Bootstrap, SASS, Reac
 
 **História de Usuário #15:** Quando clico no elemento com o id `session-increment`, o valor dentro de `id="session-length"` incrementa em 1, e eu posso ver o valor atualizado.
 
-**User Story #16:** I should not be able to set a session or break length to &lt;= 0.
+**História do Usuário #16:** Eu não deveria ser capaz de definir um tempo de sessão ou intervalo para &lt;= 0.
 
 **História de Usuário #17:** Eu não devo ser capaz de definir a duração da sessão ou do intervalo para > 60.
 
@@ -66,7 +66,7 @@ Você pode usar qualquer mistura de HTML, JavaScript, CSS, Bootstrap, SASS, Reac
 
 **História de Usuário #25:** Quando a contagem regressiva do intervalo atingir zero (NOTA: o temporizador DEVE chegar a 00:00), uma nova contagem regressiva da sessão deve começar, contando a partir do valor atualmente exibido no elemento `id="session-length"`.
 
-**História de Usuário #26:** Quando uma contagem regressiva atingir zero (NOTA: o temporizador DEVE chegar a 00:00), um som indicando que o tempo acabou deve ser reproduzido.Isso deve utilizar uma tag HTML5 `audio` e ter um id correspondente a `id="beep"`.
+**História de Usuário #26:** Quando uma contagem regressiva atingir zero (NOTA: o temporizador DEVE chegar a 00:00), um som indicando que o tempo acabou deve ser reproduzido. Isso deve utilizar uma tag HTML5 `audio` e ter um id correspondente a `id="beep"`.
 
 **User Story #27:** O elemento de áudio com `id="beep"` deve ter 1 segundo ou mais.
 

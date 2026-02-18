@@ -7,7 +7,7 @@ dashedName: step-26
 
 # --description--
 
-Para ver os resultados da função `cleanInputString`, você precisará adicionar uma instrução `console.log()`.Dentro dessa instrução do console, chame a função `cleanInputString` com o valor string de `"+-99"` como argumento.
+Para ver os resultados da função `cleanInputString`, você precisará adicionar uma instrução `console.log()`. Dentro dessa instrução do console, chame a função `cleanInputString` com o valor string de `"+-99"` como argumento.
 
 Abra o console e você deve ver a string original seguida pelo valor da string limpa com o `+-` removido.
 

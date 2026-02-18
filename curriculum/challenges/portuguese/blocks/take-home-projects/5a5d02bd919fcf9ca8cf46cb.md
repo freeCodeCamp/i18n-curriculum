@@ -8,11 +8,11 @@ dashedName: build-a-light-bright-app
 
 # --description--
 
-**Objective:** Build an app that is functionally similar to this: <https://codepen.io/freeCodeCamp/full/eyLYXE>.
+**Objetivo:** Construir um app que seja funcionalmente semelhante a este: https://codepen.io/freeCodeCamp/full/eyLYXE.
 
 **Regra #1:** Não olhe o código do projeto de exemplo. Descubra por conta própria.
 
-**Rule #2:** Fulfill the below user stories and get all of the tests to pass.Use quaisquer bibliotecas ou APIs de que você precisar.Dê ao projeto o seu próprio estilo pessoal.
+**Rule #2:** Fulfill the below user stories and get all of the tests to pass. Use quaisquer bibliotecas ou APIs de que você precisar. Dê ao projeto o seu próprio estilo pessoal.
 
 **História do Usuário:** Posso clicar ou arrastar o cursor do mouse para colorir os círculos.
 

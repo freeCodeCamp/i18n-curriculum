@@ -3,6 +3,7 @@ id: 680ae6fa6f3bb82a094cffcf
 title: Tarea 91
 challengeType: 19
 dashedName: task-91
+showSpeakingButton: true
 lang: en-US
 ---
 
@@ -24,9 +25,17 @@ Escucha el audio y responde a la pregunta de abajo.
 
 `That's impressive.`
 
+### --audio-id--
+
+en-b1-680ae6fa6f3bb82a094cffcf-SP1
+
 ---
 
 `Maybe we should lower our expectations.`
+
+### --audio-id--
+
+en-b1-680ae6fa6f3bb82a094cffcf-SP2
 
 ### --feedback--
 

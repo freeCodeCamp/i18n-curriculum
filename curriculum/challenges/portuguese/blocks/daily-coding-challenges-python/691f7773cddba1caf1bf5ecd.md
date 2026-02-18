@@ -14,7 +14,7 @@ Dado um valor em dinheiro que você tem e um array de itens que você quer compr
 
 Use as seguintes taxas de câmbio para converter valores:
 
-|Moeda|1 Unidade Equivale|
+|Currency|1 Unit Equals|
 |-|-|
 |USD|1.00 USD|
 |EUR|1.10 USD|

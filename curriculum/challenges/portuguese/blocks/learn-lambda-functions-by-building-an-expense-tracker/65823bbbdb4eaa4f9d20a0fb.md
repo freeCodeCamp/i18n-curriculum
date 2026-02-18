@@ -7,7 +7,7 @@ dashedName: step-25
 
 # --description--
 
-Na função `total_expenses`, você agora integrará uma função lambda.Substitua `pass` por uma função lambda que tenha `expense` como seu parâmetro.
+Na função `total_expenses`, você agora integrará uma função lambda. Substitua `pass` por uma função lambda que tenha `expense` como seu parâmetro.
 
 `expense` é esperado ser um dicionário e sua função lambda deve retornar o valor da chave `'amount'` no dicionário `expense`.
 

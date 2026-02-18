@@ -46,7 +46,7 @@ Puedes utilizar cualquier combinación de HTML, JavaScript, CSS, Bootstrap, SASS
 
 **Historia de usuario #15:** Cuando hago clic en el elemento con id: `session-increment`, el valor en `id="session-length"` se incrementa en 1 y puedo ver el valor actualizado.
 
-**User Story #16:** I should not be able to set a session or break length to &lt;= 0.
+**Historia de usuario #16:** No debo ser capaz de establecer una duración de la sesión o pausa &lt;= 0.
 
 **Historia de usuario #17:** No debería poder establecer una duración de sesión o descanso mayor a 60.
 

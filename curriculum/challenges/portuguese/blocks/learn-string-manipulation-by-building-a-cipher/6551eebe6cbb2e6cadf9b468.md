@@ -7,7 +7,7 @@ dashedName: step-2
 
 # --description--
 
-Variáveis podem armazenar valores de diferentes tipos de dados.Você acabou de atribuir um valor inteiro, mas se quiser representar algum texto, precisa atribuir uma string.Strings são sequências de caracteres delimitadas por aspas simples ou duplas, mas você não pode iniciar uma string com aspas simples e terminá-la com aspas duplas ou vice-versa:
+Variáveis podem armazenar valores de diferentes tipos de dados. Você acabou de atribuir um valor inteiro, mas se quiser representar algum texto, precisa atribuir uma string. Strings são sequências de caracteres delimitadas por aspas simples ou duplas, mas você não pode iniciar uma string com aspas simples e terminá-la com aspas duplas ou vice-versa:
 
 ```py
 string_1 = "I am a string"
@@ -15,7 +15,7 @@ string_2 = 'I am also a string'
 string_3 = 'This is not valid"
 ```
 
-Exclua sua variável `number` e seu valor.Então, declare outra variável chamada `text` e atribua a string `'Hello World'` a essa variável.
+Exclua sua variável `number` e seu valor. Então, declare outra variável chamada `text` e atribua a string `'Hello World'` a essa variável.
 
 # --hints--
 
@@ -32,7 +32,7 @@ Você deve declarar uma variável chamada `text`. Preste atenção para colocar 
 assert.match(code, /^text\s*=/m)
 ```
 
-Você deve atribuir a string `'Hello World'` à sua variável `text`.Lembre-se de usar aspas simples ou duplas para delimitar a string e prestar atenção à diferenciação entre maiúsculas e minúsculas.
+Você deve atribuir a string `'Hello World'` à sua variável `text`. Lembre-se de usar aspas simples ou duplas para delimitar a string e prestar atenção à diferenciação entre maiúsculas e minúsculas.
 
 ```js
 assert.match(code, /^text\s*=\s*("|')Hello World\1\s*(#.*)?$/m)

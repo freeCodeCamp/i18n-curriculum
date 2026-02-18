@@ -7,7 +7,7 @@ dashedName: step-97
 
 # --description--
 
-Use uma declaração `if` para verificar se `nextSongExists` existe e então chame a função `playNextSong()` no bloco `if`.Isso irá reproduzir automaticamente a próxima música quando a música atual terminar.
+Use uma declaração `if` para verificar se `nextSongExists` existe e então chame a função `playNextSong()` no bloco `if`. Isso irá reproduzir automaticamente a próxima música quando a música atual terminar.
 
 # --hints--
 

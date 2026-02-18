@@ -7,7 +7,7 @@ dashedName: build-an-adjacency-list-to-matrix-converter
 
 # --description--
 
-Neste laboratório, você construirá uma função que converte uma representação de lista de adjacência de um grafo em uma matriz de adjacência.Uma lista de adjacência é um dicionário onde cada chave representa um nó, e o valor correspondente é uma lista de nós aos quais o nó chave está conectado.Uma matriz de adjacência é um array 2D onde a entrada na posição `[i][j]` é `1` se houver uma aresta do nó `i` para o nó `j`, e `0` caso contrário.
+Neste laboratório, você construirá uma função que converte uma representação de lista de adjacência de um grafo em uma matriz de adjacência. Uma lista de adjacência é um dicionário onde cada chave representa um nó, e o valor correspondente é uma lista de nós aos quais o nó chave está conectado. Uma matriz de adjacência é um array 2D onde a entrada na posição `[i][j]` é `1` se houver uma aresta do nó `i` para o nó `j`, e `0` caso contrário.
 
 Por exemplo, dada a lista de adjacência:
 

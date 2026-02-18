@@ -7,7 +7,7 @@ dashedName: step-20
 
 # --description--
 
-Ao contrário dos outros elementos de conteúdo que você usou até agora, o elemento `div` é usado principalmente para fins de layout de design.Adicione um elemento `div` dentro do elemento `body` e, em seguida, mova todos os outros elementos dentro do novo `div`.
+Ao contrário dos outros elementos de conteúdo que você usou até agora, o elemento `div` é usado principalmente para fins de layout de design. Adicione um elemento `div` dentro do elemento `body` e, em seguida, mova todos os outros elementos dentro do novo `div`.
 
 Dentro da tag de abertura da `div`, adicione o atributo `id` com o valor de `menu`.
 
@@ -25,7 +25,7 @@ Você deve ter uma tag de fechamento `</div>`.
 assert(code.match(/<\/div>/i));
 ```
 
-Você não dever alterar o elemento `body` existente.Verifique se você não excluiu a tag de fechamento.
+Você não dever alterar o elemento `body` existente. Verifique se você não excluiu a tag de fechamento.
 
 ```js
 assert.lengthOf(document.querySelectorAll('body'), 1);

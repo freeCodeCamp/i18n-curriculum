@@ -167,7 +167,7 @@ Importándolo usando require('process') antes de cada uso.
 
 ### --feedback--
 
-Piensa por qué puedes acceder a `process` en cualquier lugar sin configuración.
+Piensa por qué puedes acceder a process en cualquier lugar sin configuración.
 
 ## --video-solution--
 

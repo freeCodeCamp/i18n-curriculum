@@ -8,7 +8,7 @@ dashedName: sudoku-solver
 
 # --description--
 
-Construa um aplicativo JavaScript full stack que seja funcionalmente semelhante a este: <a href="https://sudoku-solver.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://sudoku-solver.freecodecamp.rocks/</a>. Trabalhar neste projeto envolverá você escrever seu código usando um dos seguintes métodos:
+Construa um aplicativo JavaScript full-stack que seja funcionalmente semelhante a este: <a href="https://sudoku-solver.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://sudoku-solver.freecodecamp.rocks/</a>. Trabalhar neste projeto envolverá você escrevendo seu código usando um dos seguintes métodos:
 
 -   Clone <a href="https://github.com/freecodecamp/boilerplate-project-sudoku-solver" target="_blank" rel="noopener noreferrer nofollow">este repositório do GitHub</a> e complete seu projeto localmente.
 -   Use um construtor de sites de sua escolha para completar o projeto. Certifique-se de incorporar todos os arquivos do nosso repositório no GitHub.

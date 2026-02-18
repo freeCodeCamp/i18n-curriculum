@@ -7,7 +7,7 @@ dashedName: step-19
 
 # --description--
 
-No sistema numérico base-2, o dígito mais à direita representa o lugar das unidades, o próximo dígito à esquerda representa o lugar dos dois, depois o lugar dos quatro, depois o lugar dos oito e assim por diante.Neste sistema, o valor posicional de cada dígito é duas vezes maior que o dígito à sua direita.
+No sistema numérico base-2, o dígito mais à direita representa o lugar das unidades, o próximo dígito à esquerda representa o lugar dos dois, depois o lugar dos quatro, depois o lugar dos oito e assim por diante. Neste sistema, o valor posicional de cada dígito é duas vezes maior que o dígito à sua direita.
 
 Aqui estão os números de zero a nove nos sistemas numéricos base-10 e base-2:
 
@@ -26,7 +26,7 @@ Aqui estão os números de zero a nove nos sistemas numéricos base-10 e base-2:
 |    9    |  1001  |
 ```
 
-Observe que os números binários são formados da esquerda para a direita, do dígito com maior valor posicional à esquerda, para o menos significativo à direita.Por exemplo, o número `3` em binário é `11`, ou `1` no lugar dos dois e `1` no lugar das unidades.Então para o número `4`, um dígito para representar o lugar dos quatros é incluído à esquerda e definido como `1`, o lugar dos dois é `0` e o lugar das unidades é `0`.
+Observe que os números binários são formados da esquerda para a direita, do dígito com maior valor posicional à esquerda, para o menos significativo à direita. Por exemplo, o número `3` em binário é `11`, ou `1` no lugar dos dois e `1` no lugar das unidades. Então para o número `4`, um dígito para representar o lugar dos quatros é incluído à esquerda e definido como `1`, o lugar dos dois é `0` e o lugar das unidades é `0`.
 
 Na sua função `decimalToBinary`, converta o número `10` para binário e o `return` como uma string.
 

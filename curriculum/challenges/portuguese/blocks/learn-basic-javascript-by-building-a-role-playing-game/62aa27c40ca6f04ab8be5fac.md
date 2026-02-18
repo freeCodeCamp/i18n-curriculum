@@ -34,7 +34,7 @@ Sua condição de loop deve executar enquanto `i` for menor que `10`.
 assert.match(pick.toString(), /for\s*\(\s*(let|var)\s+i\s*=\s*0\s*;\s*i\s*<\s*10\s*;/)
 ```
 
-Seu loop deve incrementar `i` em `1` após cada iteração.Lembre-se de usar o operador de incremento `++`.
+Seu loop deve incrementar `i` em `1` após cada iteração. Lembre-se de usar o operador de incremento `++`.
 
 ```js
 assert.match(pick.toString(), /for\s*\(\s*(let|var)\s+i\s*=\s*0\s*;\s*i\s*<\s*10\s*;\s*i\+\+\s*\)/)

@@ -11,7 +11,7 @@ Para este laboratorio, usarás sentencias condicionales para determinar si es po
 
 **Objetivo:** Cumplir con las historias de usuario a continuación y pasar todas las pruebas para completar el laboratorio.
 
-1. You should create the following variables:
+1. Debes crear las siguientes variables:
    * `distance_mi` (un número que representa la distancia a recorrer en millas)
    * `is_raining` (un booleano que representa si el usuario está experimentando clima lluvioso actualmente)
    * `has_bike` (un booleano que representa si el usuario tiene una bicicleta)
@@ -19,15 +19,15 @@ Para este laboratorio, usarás sentencias condicionales para determinar si es po
    * `has_ride_share_app` (un booleano que representa si el usuario tiene una app que le permite solicitar un viaje)
 1. Debes usar sentencias condicionales para determinar si es posible el desplazamiento basado en los valores de estas variables.
 1. Debes usar las sentencias `if`, `elif` y `else` para evaluar las categorías de distancia en orden ascendente.
-1. If `distance_mi` is a falsy value:
+1. Si `distance_mi` es un valor falso:
    * Deberías imprimir `False`.
-1. If the distance is **less than or equal to 1 mile**:
+1. Si la distancia es **menor o igual a 1 milla**:
    * Debes imprimir `True` solo si **no está lloviendo**.
    * De lo contrario, deberías imprimir `False`.
-1. If the distance is **greater than 1 mile and less than or equal to 6 miles**:
+1. Si la distancia es **mayor que 1 milla y menor o igual a 6 millas**:
    * Debes imprimir `True` solo si la persona tiene una bicicleta **y** no está lloviendo.
-   * De lo contrario, debes imprimir `False`.
-1. If the distance is **greater than 6 miles**:
+   * De lo contrario, deberías imprimir `False`.
+1. Si la distancia es **mayor a 6 millas**:
    * Debes imprimir `True` si la persona tiene un coche **o** tiene una aplicación de viaje compartido.
    * De lo contrario, deberías imprimir `False`.
 

@@ -8,7 +8,7 @@ dashedName: american-british-translator
 
 # --description--
 
-Construye una aplicación JavaScript full stack que sea funcionalmente similar a esta: <a href="https://american-british-translator.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://american-british-translator.freecodecamp.rocks/</a>. Trabajar en este proyecto implicará que escribas tu código usando uno de los siguientes métodos:
+Construye una aplicación JavaScript full-stack que sea funcionalmente similar a esta: <a href="https://american-british-translator.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://american-british-translator.freecodecamp.rocks/</a>. Trabajar en este proyecto implicará que escribas tu código usando uno de los siguientes métodos:
 
 -   Clona <a href="https://github.com/freeCodeCamp/boilerplate-project-american-british-english-translator/" target="_blank" rel="noopener noreferrer nofollow">este repositorio de GitHub</a> y completa tu proyecto localmente.
 -   Usa un constructor de sitios de tu elección para completar el proyecto. Asegúrate de incorporar todos los archivos de nuestro repositorio de GitHub.

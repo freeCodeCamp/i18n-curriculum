@@ -10,7 +10,7 @@ dashedName: build-a-recipe-box
 
 **Objetivo:** Construir um app que seja funcionalmente semelhante a este: <a href="https://codepen.io/freeCodeCamp/full/dNVazZ/" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/dNVazZ/</a>.
 
-Atenda às histórias de usuário abaixo e faça com que todos os testes passem.Use quaisquer bibliotecas ou APIs de que você precisar.Dê ao projeto o seu próprio estilo pessoal.
+Atenda às histórias de usuário abaixo e faça com que todos os testes passem. Use quaisquer bibliotecas ou APIs de que você precisar. Dê ao projeto o seu próprio estilo pessoal.
 
 **História do Usuário:** Eu posso criar receitas que tenham nomes e ingredientes.
 
@@ -22,7 +22,7 @@ Atenda às histórias de usuário abaixo e faça com que todos os testes passem.
 
 **História do Usuário:** Eu posso deletar essas receitas.
 
-**História do Usuário:** Todas as novas receitas que eu adiciono são salvas no armazenamento local do meu navegador.Se eu atualizar a página, as receitas ainda estarão lá.
+**História do Usuário:** Todas as novas receitas que eu adiciono são salvas no armazenamento local do meu navegador. Se eu atualizar a página, as receitas ainda estarão lá.
 
 **Dica:** Você deve prefixar suas chaves de armazenamento local no CodePen, ou seja, `_username_recipes`
 

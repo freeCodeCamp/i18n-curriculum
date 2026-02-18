@@ -8,9 +8,9 @@ dashedName: understanding-boolean-values
 
 # --description--
 
-Outro tipo de dado é o <dfn>booleano</dfn>.Booleanos podem ser apenas dois valores: `true` ou `false`.Eles basicamente são interruptores pequenos, onde `true` é ligado e `false` é desligado.Esses dois estados são mutuamente exclusivos.
+Outro tipo de dado é o <dfn>booleano</dfn>. Booleanos podem ser apenas dois valores: `true` ou `false`. Eles basicamente são interruptores pequenos, onde `true` é ligado e `false` é desligado. Esses dois estados são mutuamente exclusivos.
 
-**Nota:** Valores booleanos nunca são escritos com aspas.As strings `"true"` e `"false"` não são booleanos e não tem nenhum significado especial em JavaScript.
+**Nota:** Valores booleanos nunca são escritos com aspas. As strings `"true"` e `"false"` não são booleanos e não tem nenhum significado especial em JavaScript.
 
 # --instructions--
 

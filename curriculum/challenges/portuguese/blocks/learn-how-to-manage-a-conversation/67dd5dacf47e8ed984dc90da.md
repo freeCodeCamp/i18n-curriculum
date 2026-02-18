@@ -3,6 +3,7 @@ id: 67dd5dacf47e8ed984dc90da
 title: Tarefa 17
 challengeType: 19
 dashedName: task-17
+showSpeakingButton: true
 lang: en-US
 ---
 
@@ -24,9 +25,17 @@ Como Alice poderia responder brevemente que não há decisão sobre o prazo no m
 
 `Not yet.`
 
+### --audio-id--
+
+en-b1-67dd5dacf47e8ed984dc90da-SP1
+
 ---
 
 `We're still looking for it.`
+
+### --audio-id--
+
+en-b1-67dd5dacf47e8ed984dc90da-SP2
 
 ### --feedback--
 

@@ -8,7 +8,7 @@ dashedName: build-a-voting-app
 
 # --description--
 
-Construye una aplicación JavaScript full stack que sea funcionalmente similar a esta: <a href="https://voting-app.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://voting-app.freecodecamp.rocks/</a>. Usa un creador de sitios de tu elección para completar el proyecto.
+Construye una aplicación JavaScript full-stack que sea funcionalmente similar a esta: <a href="https://voting-app.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://voting-app.freecodecamp.rocks/</a>. Usa un constructor de sitios de tu elección para completar el proyecto.
 
 Estas son las historias de usuario específicas que debes implementar para este proyecto:
 

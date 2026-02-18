@@ -94,7 +94,7 @@ A pseudo-classe `:checked` no CSS permite que você estilize elementos de formul
 
 Aqui está um exemplo com uma caixa de seleção para concordar com os termos em um site. 
 
-**NOTA**: Parte do CSS neste exemplo usa propriedades que ainda não foram abordadas. Isso é apenas para dar uma ideia de como criar uma caixa de seleção personalizada. Você aprenderá como tudo isso funciona em aulas e workshops futuros. 
+**NOTA**: Parte do CSS neste exemplo usa propriedades que ainda não foram abordadas. Isso é apenas para dar uma ideia de como criar uma checkbox personalizada. Você aprenderá como tudo isso funciona em futuras aulas e workshops. 
 
 :::interactive_editor
 

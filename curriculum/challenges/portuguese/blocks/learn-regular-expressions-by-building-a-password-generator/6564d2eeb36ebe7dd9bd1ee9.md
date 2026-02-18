@@ -7,7 +7,7 @@ dashedName: step-40
 
 # --description--
 
-Adicione uma terceira tupla à lista `constraints`.Use o parâmetro `uppercase` como o primeiro item e um padrão regex que corresponda a uma única letra maiúscula como o segundo item.
+Adicione uma terceira tupla à lista `constraints`. Use o parâmetro `uppercase` como o primeiro item e um padrão regex que corresponda a uma única letra maiúscula como o segundo item.
 
 # --hints--
 

@@ -7,9 +7,9 @@ dashedName: step-11
 
 # --description--
 
-Nos projetos anteriores, você usou funções regulares.Mas no restante dos projetos, você estará trabalhando com <dfn>arrow functions</dfn>.Os próximos passos vão se concentrar em ensinar a você o básico das arrow functions.
+Nos projetos anteriores, você usou funções regulares. Mas no restante dos projetos, você estará trabalhando com <dfn>arrow functions</dfn>. Os próximos passos vão se concentrar em ensinar a você o básico das arrow functions.
 
-Uma função arrow é uma expressão de função anônima e uma forma mais curta de escrever funções.Anônimo significa que a função não tem um nome.Funções arrow são sempre anônimas.
+Uma função arrow é uma expressão de função anônima e uma forma mais curta de escrever funções. Anônimo significa que a função não tem um nome. Funções arrow são sempre anônimas.
 
 Aqui está a sintaxe básica:
 
@@ -25,7 +25,7 @@ const exampleFunction = () => {
 }
 ```
 
-Crie uma nova arrow function e atribua-a à variável `printGreeting`.Dentro do corpo da função, use o método `console.log()` para imprimir a string `Hello there!`.
+Crie uma nova arrow function e atribua-a à variável `printGreeting`. Dentro do corpo da função, use o método `console.log()` para imprimir a string `Hello there!`.
 
 # --hints--
 

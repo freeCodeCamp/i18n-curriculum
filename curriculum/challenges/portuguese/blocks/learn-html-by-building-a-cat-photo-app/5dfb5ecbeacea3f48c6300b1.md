@@ -28,14 +28,14 @@ Aninhe no elemento `ul` uma lista de três coisas que gatos adoram:
 
 # --hints--
 
-Você deve ter três elementos `li`.Cada elemento `li` deve ter sua própria tag de abertura e de fechamento.
+Você deve ter três elementos `li`. Cada elemento `li` deve ter sua própria tag de abertura e de fechamento.
 
 ```js
 assert.lengthOf(document.querySelectorAll('li'),3)
 assert.lengthOf(code.match(/<\/li\>/g),3);
 ```
 
-Você deve ter os três elementos `li` com os textos `cat nip`, `laser pointers` e `lasagna`, não importando a ordem.Você omitiu algum dos textos ou tem um erro de digitação.
+Você deve ter os três elementos `li` com os textos `cat nip`, `laser pointers` e `lasagna`, não importando a ordem. Você omitiu algum dos textos ou tem um erro de digitação.
 
 ```js
 assert.deepStrictEqual(

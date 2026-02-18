@@ -8,7 +8,7 @@ dashedName: map-data-across-the-globe
 
 # --description--
 
-**Objective:** Build an app that is functionally similar to this: <https://codepen.io/freeCodeCamp/full/mVEJag>.
+**Objetivo:** Construye una app que sea funcionalmente similar a esta: https://codepen.io/freeCodeCamp/full/mVEJag.
 
 Completa las historias de los usuarios que están aquí abajo y haz que pasen todas las pruebas. Utiliza cualquier librería o API que necesites. Dale tu propio estilo.
 
@@ -18,7 +18,7 @@ Historia de Usuario: Puedo saber el tamaño relativo del meteorito con solo mira
 
 Historia de Usuario: puedo pasar el mouse sobre el punto de datos del meteorito para obtener datos adicionales.
 
-**Hint:** Here's a dataset you can use to build this: <https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/meteorite-strike-data.json>
+**Consejo:** Aquí tienes un conjunto de datos que puedes usar para construir esto: https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/meteorite-strike-data.json
 
 Cuando hayas terminado, incluye un enlace a tu proyecto en CodePen y haz clic en el botón "He completado este desafío".
 

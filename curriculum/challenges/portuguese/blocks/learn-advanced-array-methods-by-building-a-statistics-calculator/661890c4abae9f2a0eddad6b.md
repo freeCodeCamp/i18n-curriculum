@@ -7,9 +7,9 @@ dashedName: step-22
 
 # --description--
 
-Nos próximos passos, você aprenderá como determinar se o comprimento de um array é par ou ímpar e como encontrar a mediana.Você então poderá aplicar o que aprendeu na função `getMedian`.
+Nos próximos passos, você aprenderá como determinar se o comprimento de um array é par ou ímpar e como encontrar a mediana. Você então poderá aplicar o que aprendeu na função `getMedian`.
 
-Para verificar se um número é par ou ímpar, você pode usar o <dfn>operador módulo</dfn> `%`.O operador de módulo retorna o resto da divisão de dois números. 
+Para verificar se um número é par ou ímpar, você pode usar o <dfn>operador módulo</dfn> `%`. O operador de módulo retorna o resto da divisão de dois números. 
 
 Aqui está um exemplo verificando se o comprimento de um array é par ou ímpar:
 
@@ -21,9 +21,9 @@ arr.length % 2 === 0;
 arr.length % 2 === 1;
 ```
 
-Se o resto for `0`, o número é par.Se o resto for `1`, o número é ímpar.
+Se o resto for `0`, o número é par. Se o resto for `1`, o número é ímpar.
 
-Crie uma variável chamada `isEven`.Então use o operador módulo para verificar se o comprimento do array `testArr2` é par.Atribua essa expressão à variável `isEven`.
+Crie uma variável chamada `isEven`. Então use o operador módulo para verificar se o comprimento do array `testArr2` é par. Atribua essa expressão à variável `isEven`.
 
 Abaixo da sua variável `isEven`, registre a variável `isEven` no console.
 
@@ -37,7 +37,7 @@ Você deve ter uma variável `isEven`.
 assert.isDefined(isEven);
 ```
 
-Você deve verificar se o tamanho do array `testArr2` é par.Consulte o exemplo fornecido para você: `arr.length % 2 === 0;`
+Você deve verificar se o tamanho do array `testArr2` é par. Consulte o exemplo fornecido para você: `arr.length % 2 === 0;`
 
 ```js
 assert.isTrue(isEven);

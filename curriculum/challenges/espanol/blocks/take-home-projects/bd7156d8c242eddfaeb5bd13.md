@@ -8,7 +8,7 @@ dashedName: build-a-freecodecamp-forum-homepage
 
 # --description--
 
-**Objective:** Build an app that is functionally similar to this: <https://codepen.io/freeCodeCamp/full/JqdoMV>.
+**Objetivo:** Construye una app que sea funcionalmente similar a esta: https://codepen.io/freeCodeCamp/full/JqdoMV.
 
 Completa las historias de los usuarios que están aquí abajo y haz que pasen todas las pruebas. Utiliza cualquier librería o API que necesites. Dale tu propio estilo.
 
@@ -18,7 +18,7 @@ Completa las historias de los usuarios que están aquí abajo y haz que pasen to
 
 **Historia del usuario:** Puedo ver el número de respuestas y vistas que cada tema ha tenido, y una marca de tiempo de cuando el tema estaba activo por última vez.
 
-**Hint:** To get the 30 most recent forum posts: <https://forum-proxy.freecodecamp.rocks/latest>.
+**Sugerencia:** Para obtener las 30 publicaciones más recientes del foro: https://forum-proxy.freecodecamp.rocks/latest.
 
 Cuando hayas terminado, incluye un enlace a tu proyecto en CodePen y haz clic en el botón "He completado este desafío".
 

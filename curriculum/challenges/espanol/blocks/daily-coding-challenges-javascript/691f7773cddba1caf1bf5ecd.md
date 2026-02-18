@@ -14,7 +14,7 @@ Dado un monto de dinero que tienes y un arreglo de artículos que quieres compra
 
 Usa las siguientes tasas de cambio para convertir valores:
 
-|Moneda|1 Unidad Equivale|
+|Currency|1 Unit Equals|
 |-|-|
 |USD|1.00 USD|
 |EUR|1.10 USD|
@@ -22,7 +22,7 @@ Usa las siguientes tasas de cambio para convertir valores:
 |JPY|0.0070 USD|
 |CAD|0.75 USD|
 
-- Si puedes permitirte todos los elementos en la lista, devuelve `"Buy them all!"`.
+- Si puedes pagar todos los elementos en la lista, devuelve `"Buy them all!"`.
 - De lo contrario, devuelve `"Buy the first X items."`, donde `X` es el número de artículos que puedes pagar cuando se compran en el orden dado.
 
 # --hints--

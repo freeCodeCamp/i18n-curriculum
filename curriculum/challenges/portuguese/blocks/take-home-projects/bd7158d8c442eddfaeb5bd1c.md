@@ -10,7 +10,7 @@ dashedName: build-a-memory-light-game
 
 **Objetivo:** Construir um app que seja funcionalmente semelhante a este: <a href="https://codepen.io/freeCodeCamp/full/obYBjE" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/obYBjE</a>.
 
-Atenda às histórias de usuário abaixo e faça com que todos os testes passem.Use quaisquer bibliotecas ou APIs de que você precisar.Dê ao projeto o seu próprio estilo pessoal.
+Atenda às histórias de usuário abaixo e faça com que todos os testes passem. Use quaisquer bibliotecas ou APIs de que você precisar. Dê ao projeto o seu próprio estilo pessoal.
 
 **História do Usuário:** Eu sou apresentado a uma série aleatória de pressionamentos de botão.
 
@@ -26,7 +26,7 @@ Atenda às histórias de usuário abaixo e faça com que todos os testes passem.
 
 **História do Usuário:** Posso jogar no modo estrito onde, se eu errar a pressão de um botão, sou notificado disso e o jogo reinicia com uma nova série aleatória de pressões de botão.
 
-**História do Usuário:** Eu posso vencer o jogo acertando uma série de 20 passos.Eu fui notificado da minha vitória e, então, o jogo recomeça.
+**História do Usuário:** Eu posso vencer o jogo acertando uma série de 20 passos. Eu fui notificado da minha vitória e, então, o jogo recomeça.
 
 **Dica:** Aqui estão mp3s que você pode usar para cada botão:
 

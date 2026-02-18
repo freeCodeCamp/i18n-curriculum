@@ -7,13 +7,13 @@ dashedName: build-a-random-quote-machine
 ---
 
 # --description--
-**Note:** **React 18 has known incompatibilities with the tests for this project (see [issue](https://github.com/freeCodeCamp/freeCodeCamp/issues/45922))**
+**Nota:** **React 18 tem incompatibilidades conhecidas com os testes deste projeto (veja [issue](https://github.com/freeCodeCamp/freeCodeCamp/issues/45922))**
 
 **Objetivo:** Construir um aplicativo que seja funcionalmente semelhante a este: <a href="https://random-quote-machine.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://random-quote-machine.freecodecamp.rocks/</a>.
 
-Atenda às histórias de usuário abaixo e faça com que todos os testes passem.Use quaisquer bibliotecas ou APIs de que você precisar.Dê ao projeto o seu próprio estilo pessoal.
+Atenda às histórias de usuário abaixo e faça com que todos os testes passem. Use quaisquer bibliotecas ou APIs de que você precisar. Dê ao projeto o seu próprio estilo pessoal.
 
-Você pode usar qualquer mistura de HTML, JavaScript, CSS, Bootstrap, SASS, React, Redux e JQuery para completar este projeto.Você deve usar um framework de front-end (como React por exemplo) porque essa seção trata de aprender frameworks de front-end.Tecnologias adicionais não listadas acima não são recomendadas e usá-las é por sua conta e risco.Estamos buscando apoiar outros frameworks de front-end, como Angular e Vue, mas eles não são atualmente suportados.Vamos aceitar e tentar corrigir todos os relatórios de problemas que usem o conjunto de tecnologias sugeridas para esse projeto. Happy coding!
+Você pode usar qualquer mistura de HTML, JavaScript, CSS, Bootstrap, SASS, React, Redux e JQuery para completar este projeto. Você deve usar um framework de front-end (como React por exemplo) porque essa seção trata de aprender frameworks de front-end. Tecnologias adicionais não listadas acima não são recomendadas e usá-las é por sua conta e risco. Estamos buscando apoiar outros frameworks de front-end, como Angular e Vue, mas eles não são atualmente suportados. Vamos aceitar e tentar corrigir todos os relatórios de problemas que usem o conjunto de tecnologias sugeridas para esse projeto.  Happy coding!
 
 **História de Usuário #1:** Posso ver um elemento wrapper com o correspondente `id="quote-box"`.
 
@@ -33,15 +33,15 @@ Você pode usar qualquer mistura de HTML, JavaScript, CSS, Bootstrap, SASS, Reac
 
 **User Story #9:** Minha máquina de citações deve buscar o autor da nova citação quando o botão `#new-quote` for clicado e exibi-lo no elemento `#author`.
 
-**História de Usuário #10:** Posso tuitar a citação atual clicando no elemento `#tweet-quote` `a`.Esse elemento `a` deve incluir o caminho `"twitter.com/intent/tweet"` no seu atributo `href` para tweetar a citação atual.
+**História de Usuário #10:** Posso tuitar a citação atual clicando no elemento `#tweet-quote` `a`. Esse elemento `a` deve incluir o caminho `"twitter.com/intent/tweet"` no seu atributo `href` para tweetar a citação atual.
 
-**História de Usuário #11:** O elemento wrapper `#quote-box` deve estar centralizado horizontalmente.Execute testes com o zoom do navegador em 100% e com a página maximizada.
+**História de Usuário #11:** O elemento wrapper `#quote-box` deve estar centralizado horizontalmente. Execute testes com o zoom do navegador em 100% e com a página maximizada.
 
 Você pode construir seu projeto <a href='https://codepen.io/pen?template=MJjpwO' target='_blank' rel="noopener noreferrer nofollow">usando este modelo do CodePen</a> e clicando em `Save` para criar seu próprio pen. Se preferir usar outro ambiente, então coloque esta tag `<script>` dentro do corpo do seu arquivo `index.html`: `<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>`
 
 Quando tiver terminado, envie o URL do seu projeto depois de ele haver passado em todos os testes.
 
-**Nota:** O Twitter não permite que links sejam carregados em um iframe.Tente usar o atributo `target="_blank"` ou `target="_top"` no elemento `#tweet-quote` se seu tweet não carregar. `target="_top"` substituirá a aba atual, então certifique-se de que seu trabalho esteja salvo.
+**Nota:** O Twitter não permite que links sejam carregados em um iframe. Tente usar o atributo `target="_blank"` ou `target="_top"` no elemento `#tweet-quote` se seu tweet não carregar. `target="_top"` substituirá a aba atual, então certifique-se de que seu trabalho esteja salvo.
 
 # --solutions--
 

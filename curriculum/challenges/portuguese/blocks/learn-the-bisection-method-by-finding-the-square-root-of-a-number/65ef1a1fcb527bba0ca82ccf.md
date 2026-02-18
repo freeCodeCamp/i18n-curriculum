@@ -7,7 +7,7 @@ dashedName: step-6
 
 # --description--
 
-Se o `square_target` for igual a `1`, declare uma variável `root` e atribua a ela o valor `1`.Além disso, imprima a mensagem `'The square root of {square_target} is 1'`. Remember to format the message using an f-string.
+Se o `square_target` for igual a `1`, declare uma variável `root` e atribua a ela o valor `1`. Além disso, imprima a mensagem `'The square root of {square_target} is 1'`.  Remember to format the message using an f-string.
 
 # --hints--
 

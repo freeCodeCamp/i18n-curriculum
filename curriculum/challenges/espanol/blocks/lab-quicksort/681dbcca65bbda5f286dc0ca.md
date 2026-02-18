@@ -15,7 +15,7 @@ dashedName: implement-the-quicksort-algorithm
 
 1. La función `quick_sort` debería tomar una lista de enteros como entrada y devolver una nueva lista de estos enteros en orden de menor a mayor.
 
-1. To implement the algorithm, you should:
+1. Para implementar el algoritmo, deberías:
    - Elegir un valor pivote de los elementos de la lista de entrada (usar el primer o el último elemento de la lista).
    - Dividir la lista de entrada en tres sublistas: una con elementos menores que el pivote, una con elementos iguales al pivote, y una con elementos mayores que el pivote.
    - Llamar recursivamente a `quick_sort` para ordenar las sublistas y concatenar las sublistas ordenadas para producir la lista final ordenada.
@@ -78,7 +78,7 @@ assert _test_list == [20, 3, 14, 1, 5]
 ({ test: () => runPython(`assert quick_sort([87, 11, 23, 18, 18, 23, 11, 56, 87, 56]) == [11, 11, 18, 18, 23, 23, 56, 56, 87, 87]`) })
 ```
 
-No debes importar ningún módulo ni usar métodos de ordenación incorporados en tu código.
+No debes importar ningún módulo ni usar métodos de ordenación integrados en tu código.
 
 ```js
 ({ test: () => runPython(`

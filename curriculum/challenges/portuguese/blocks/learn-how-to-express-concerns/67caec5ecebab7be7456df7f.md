@@ -56,7 +56,7 @@ Quando você diz que algo `isn't great`, você está suavizando uma mensagem neg
 
 - `The design is bad.` - Esta é uma afirmação negativa forte, que muitas vezes soa indelicada.
 
-- O design não está ótimo. Talvez possamos melhorá-lo.
+- `The design isn't great. Maybe we can improve it.` - Dizer isso faz soar menos incisivo e mais construtivo.
 
 # --scene--
 

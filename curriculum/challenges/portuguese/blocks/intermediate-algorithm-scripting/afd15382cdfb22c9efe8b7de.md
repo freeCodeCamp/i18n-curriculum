@@ -8,9 +8,9 @@ dashedName: dna-pairing
 
 # --description--
 
-Os pares de fileiras de DNA são constituídos por pares de bases nitrogenadas.As bases pareadas são representadas pelos caracteres <em>AT</em> e <em>CG</em>, que formam os blocos de construção da dupla hélice do DNA.
+Os pares de fileiras de DNA são constituídos por pares de bases nitrogenadas. As bases pareadas são representadas pelos caracteres <em>AT</em> e <em>CG</em>, que formam os blocos de construção da dupla hélice do DNA.
 
-A faixa de DNA está faltando o elemento de pareamento.Escreva uma função que corresponda aos pares de base que faltam para a fileira de DNA fornecida.Para cada caractere na string fornecida, encontre o caractere de par de bases.Retorne os resultados em um array bidimensional.
+A faixa de DNA está faltando o elemento de pareamento. Escreva uma função que corresponda aos pares de base que faltam para a fileira de DNA fornecida. Para cada caractere na string fornecida, encontre o caractere de par de bases. Retorne os resultados em um array bidimensional.
 
 Por exemplo, para a entrada `GCG`, retorne `[["G", "C"], ["C","G"], ["G", "C"]]`
 

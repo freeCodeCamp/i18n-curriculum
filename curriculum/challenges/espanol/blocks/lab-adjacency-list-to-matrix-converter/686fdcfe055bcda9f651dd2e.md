@@ -37,7 +37,7 @@ La matriz de adyacencia correspondiente sería:
 
 1. Debes definir una función llamada `adjacency_list_to_matrix` para convertir una lista de adyacencia en una matriz de adyacencia.
 2. La función debe tomar un diccionario que represente la lista de adyacencia de un grafo no ponderado (ya sea no dirigido o dirigido) como argumento.
-3. The function should:
+3. La función debería:
    - Convierte la lista de adyacencia en una matriz de adyacencia.
    - Imprime cada fila en la matriz de adyacencia.
    - Devuelve la matriz de adyacencia.

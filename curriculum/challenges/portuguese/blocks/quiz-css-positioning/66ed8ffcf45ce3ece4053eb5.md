@@ -537,7 +537,7 @@ Isso permite que um elemento fique fixo em uma posição definida somente quando
 
 #### --answer--
 
-Este é o fluxo normal para o documento.Os elementos são posicionados de cima para baixo e da esquerda para a direita um após o outro.
+Este é o fluxo normal para o documento. Os elementos são posicionados de cima para baixo e da esquerda para a direita um após o outro.
 
 ### --question--
 
