@@ -1,6 +1,6 @@
 ---
 id: 657fbde9a43e35ec1ebafe56
-title: Task 77
+title: 任务 77
 challengeType: 19
 dashedName: task-77
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --description--
 
-Listen to the audio and answer the question below.
+听音频，回答下面的问题。
 
 # --questions--
 
 ## --text--
 
-What does the phrase `Would you like to come?` convey in this context?
+短语 `Would you like to come?` 在此上下文中传达了什么？
 
 ## --answers--
 
-Declining an invitation.
+拒绝邀请。
 
 ### --feedback--
 
-The phrase doesn't mean saying "no". It is about offering an invitation.
+这个短语并不是说“不”。它是关于提供一个邀请。
 
 ---
 
-Extending an invitation.
+发出邀请。
 
 ---
 
-Expressing gratitude.
+表达感谢。
 
 ### --feedback--
 
-The phrase doesn't mean "thank you". It is about inviting someone.
+该短语并不表示“谢谢”。它是关于邀请某人。
 
 ---
 
-Asking for information.
+请求信息。
 
 ### --feedback--
 
-The phrase isn't a question to get information, but a polite invitation to an event.
+该短语不是用来获取信息的问题，而是对一个事件的礼貌邀请。
 
 ## --video-solution--
 

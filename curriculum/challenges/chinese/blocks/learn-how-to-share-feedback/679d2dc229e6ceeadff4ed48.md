@@ -1,6 +1,6 @@
 ---
 id: 679d2dc229e6ceeadff4ed48
-title: Task 92
+title: 任务 92
 challengeType: 22
 dashedName: task-92
 lang: en-US
@@ -24,7 +24,7 @@ lang: en-US
 
 ### --feedback--
 
-This word is used to avoid repeating the verb `update` from the previous sentence.
+这个词用于避免重复前一句中的动词 `update`。
 
 ---
 
@@ -32,17 +32,17 @@ This word is used to avoid repeating the verb `update` from the previous sentenc
 
 ### --feedback--
 
-This word means to postpone or make something happen later than planned.
+这个词的意思是推迟或使某事发生得比计划的时间晚。
 
 # --explanation--
 
-Instead of saying `If we update the software, it might delay other projects.`, James shortens it to `If we do`. The word `do` is often used to avoid repeating the verb or a complete phrase used in from the previous sentence. 例如：
+詹姆斯没有说 `If we update the software, it might delay other projects.`，而是简化为 `If we do`。单词 `do` 通常用来避免重复前一句中使用的动词或完整短语。例如：
 
-`She wants to join the meeting, and if she does, she'll need the link.` - Instead of saying `if she joins the meeting`, you can use `does` to replace it and this way you can avoid the repetition.
+`She wants to join the meeting，and if she does，she'll need the link。`——你可以用 `does` 来替代 `if she joins the meeting`，这样可以避免重复。
 
-`To delay` means to make something happen later than planned. 例如：
+`To delay` 意味着使某事发生得比计划的时间晚。例如：
 
-`The flight was delayed due to bad weather.` - This means the flight was postponed and did not leave on time.
+`The flight was delayed due to bad weather.`——这意味着航班被推迟，未能按时起飞。
 
 # --scene--
 

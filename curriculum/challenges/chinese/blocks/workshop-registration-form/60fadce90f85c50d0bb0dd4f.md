@@ -1,17 +1,17 @@
 ---
 id: 60fadce90f85c50d0bb0dd4f
-title: Step 43
+title: 第 43 步
 challengeType: 0
 dashedName: step-43
 ---
 
 # --description--
 
-To give the `fieldset` elements a bit of separation, select them and give them a `border-bottom` of `3px solid #3b3b4f`.
+为使 `fieldset` 元素具有一定的分隔性，请选中它们并为其设置 `3px solid #3b3b4f` 的 `border-bottom`。
 
 # --hints--
 
-You should give the `fieldset` elements a `border-bottom` of `3px solid #3b3b4f`.
+你应该设置 `fieldset` 的 `border-bottom` 为 `3px solid #3b3b4f`。
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('fieldset')?.borderBottom, '3px solid rgb(59, 59, 79)');
@@ -98,7 +98,7 @@ fieldset {
   border: none;
   padding: 2rem 0;
 --fcc-editable-region--
-
+  
 --fcc-editable-region--
 }
 

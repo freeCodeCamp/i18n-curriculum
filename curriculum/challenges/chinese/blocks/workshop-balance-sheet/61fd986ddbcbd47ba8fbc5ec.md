@@ -7,7 +7,7 @@ dashedName: step-23
 
 # --description--
 
-在第三个 `tr` 中，添加一个 `th` 元素，文本为 `Credit The outstanding balance on our credit card.`。 将除 `Credit` 之外的文本包装在 `span` 元素内，并将 `class` 设置为 `description`。
+在第三个 `tr` 中，添加一个带有文本 `Credit The outstanding balance on our credit card.` 的 `th` 元素。将该文本中除 `Credit ` 之外的部分包裹在一个 `class` 设置为 `description` 的 `span` 元素内。
 
 在其下方添加三个 `td` 元素，并按顺序为它们提供以下文本：`$50`、`$50` 和 `$75`。 给第三个 `td` 添加一个 `class`，设置为 `current`。
 
@@ -93,7 +93,7 @@ const tableRow = tbody?.querySelectorAll('tr')?.[2];
 assert.strictEqual(tableRow?.querySelectorAll('td')?.[2]?.textContent.trim(), '$75');
 ```
 
-你的第三个 `td` 元素应将 `class` 设置为 `current`。
+你的第三个 `td` 元素应该将 `class` 设置为 `current`。
 
 ```js
 const table = document.querySelectorAll('table')?.[1];

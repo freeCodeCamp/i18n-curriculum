@@ -3,6 +3,7 @@ id: 67dd5dacf47e8ed984dc90da
 title: 任务 17
 challengeType: 19
 dashedName: task-17
+showSpeakingButton: true
 lang: en-US
 ---
 
@@ -18,19 +19,27 @@ lang: en-US
 
 ## --text--
 
-How could Alice answer briefly that there is no decision concerning the deadline at the moment?
+爱丽丝如何简短回答目前没有关于截止日期的决定？
 
 ## --answers--
 
 `Not yet.`
 
+### --audio-id--
+
+en-b1-67dd5dacf47e8ed984dc90da-SP1
+
 ---
 
 `We're still looking for it.`
 
+### --audio-id--
+
+en-b1-67dd5dacf47e8ed984dc90da-SP2
+
 ### --feedback--
 
-This doesn't relate to the question about setting the deadline.
+这与设置截止日期的问题无关。
 
 ## --video-solution--
 
@@ -38,11 +47,11 @@ This doesn't relate to the question about setting the deadline.
 
 # --explanation--
 
-`Not yet.` is a short and natural way to say that something hasn't happened or been completed up to the present moment, but it may happen in the future. 例如：
+`Not yet.` 是一种简短且自然的表达方式，用来说明某事到目前为止尚未发生或完成，但将来可能会发生。例如：
 
-- Person 1: `Have you sent the email?` - Here, the person is asking about an email that should be sent.
+- 人物 1：`Have you sent the email?`——这里，人物在询问应该发送的电子邮件。
 
-- Person 2: `Not yet.` – This means the email hasn't been sent, but that the person still plans to send it.
+- 人员 2：`Not yet.` – 这意味着电子邮件尚未发送，但该人员仍计划发送。
 
 # --scene--
 

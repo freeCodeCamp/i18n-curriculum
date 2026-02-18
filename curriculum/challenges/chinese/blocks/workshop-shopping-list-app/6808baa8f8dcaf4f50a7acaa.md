@@ -1,19 +1,19 @@
 ---
 id: 6808baa8f8dcaf4f50a7acaa
-title: Step 17
+title: 第 17 步
 challengeType: 0
 dashedName: step-17
 ---
 
 # --description--
 
-For the truthy condition, if `prev` includes `item`, return a filtered array with `item` removed.
+对于真值条件，如果 `prev` 包含 `item`，则返回一个已过滤、移除 `item` 的数组。
 
-Chain the `filter()` method to `prev` and pass it an anonymous function that takes `i` as an argument. Inside the function, check that `i` is not strictly equal to `item`. This will return a new array with all items except `item`.
+将 `filter()` 方法链式调用到 `prev`，并传入一个以 `i` 为参数的匿名函数。在函数内部，查看 `i` 是否不严格相等于 `item`。这将返回一个包含除 `item` 之外所有项的新数组。
 
 # --hints--
 
-You should chain the `filter()` method to `prev` and pass it an anonymous function that takes `i` as an argument.
+你应该将 `filter()` 方法链到 `prev`，并传入一个以 `i` 为参数的匿名函数。
 
 ```js
 const script = [...document.querySelectorAll("script")].find((s) => s.dataset.src ===  "index.jsx").innerText;
@@ -24,7 +24,7 @@ const shoppingListString = exports.ShoppingList.toString();
 assert.match(shoppingListString, /prev\.includes\s*\(\s*item\s*\)\s*\?\s*prev\.filter\s*\(function\s*\(\s*i\s*\)\s*{/);
 ```
 
-Inside the anonymous `filter()` function, you should check that `i` is not strictly equal to `item`. Remember to return the result of that check.
+在匿名的 `filter()` 函数内，你应该查看 `i` 是否不严格相等于 `item`。记住要返回该检查的结果。
 
 ```js
 const script = [...document.querySelectorAll("script")].find((s) => s.dataset.src ===  "index.jsx").innerText;

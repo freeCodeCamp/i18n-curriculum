@@ -16,35 +16,35 @@ lang: en-US
 
 ## --text--
 
-Why is Tom thanking Sophie?
+汤姆为什么感谢索菲？
 
 ## --answers--
 
-For giving him a time management app.
+为他提供一个时间管理应用。
 
 ### --feedback--
 
-Tom is thanking Sophie for tips, not for giving him an app.
+Tom 感谢 Sophie 的建议，而不是感谢她给他一个应用程序。
 
 ---
 
-Because he finds Sophie's tips helpful.
+因为他觉得 Sophie 的提示很有帮助。
 
 ---
 
-For inviting him to lunch.
+邀请他共进午餐。
 
 ### --feedback--
 
-He is thanking her for the advice, not for a lunch invitation.
+他感谢她的建议，而不是午餐邀请。
 
 ---
 
-For helping him with a project.
+为了帮助他完成一个项目。
 
 ### --feedback--
 
-Tom's gratitude is related to the tips about organization, not specific project help.
+Tom 的感谢与有关组织的提示有关，而不是具体的 `project` 帮助。
 
 ## --video-solution--
 

@@ -1,6 +1,6 @@
 ---
 id: 67acaebb95dabb0ee05500f7
-title: Task 21
+title: 任务 21
 challengeType: 22
 dashedName: task-21
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+请听音频，并完成下面的填空。
 
 # --fillInTheBlank--
 
@@ -24,15 +24,15 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This word means an obstacle or something that slows down progress.
+这个词指的是障碍物或减缓进展的东西。
 
 # --explanation--
 
-A `setback` is something that delays or prevents progress. Slow or inefficient computers might make tasks take longer, reducing efficiency. For example:
+`setback` 是指延迟或阻碍进展的事物。缓慢或低效的计算机可能会使任务耗时更长，从而降低效率。例如：
 
-- `The project faced a setback due to a critical bug.` - The project was delayed or had problems because of a serious software issue.
+- `The project faced a setback due to a critical bug.` - 该项目因严重的错误而受到挫折，导致延期或出现问题。
 
-- `Losing important data was a major setback for the team.` - Losing data created difficulties and slowed down the team's work.
+- `Losing important data was a major setback for the team.` - 丢失数据造成了困难并减慢了团队的工作进度。
 
 # --scene--
 

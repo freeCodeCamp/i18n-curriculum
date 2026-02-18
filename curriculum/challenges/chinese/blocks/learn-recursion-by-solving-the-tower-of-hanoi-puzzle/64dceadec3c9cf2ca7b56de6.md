@@ -7,17 +7,17 @@ dashedName: step-25
 
 # --description--
 
-Next, below the nested `elif` statement, add another `if` statement that should be executed when `forward` is `True`. Inside this conditional, print the following f-string: `f'Moving disk {rods[source][-1]} from {source} to {target}'`.
+接下来，在嵌套的 `elif` 语句下方，添加另一个 `if` 语句，该语句应在 `forward` 为 `True` 时执行。 在此条件中，打印以下 f 字符串：`f'Moving disk {rods[source][-1]} from {source} to {target}'`。
 
 # --hints--
 
-You should add an `if` statement to execute when `forward` is `True` after the `elif` block.
+你应该在 `elif` 块之后添加一个 `if` 语句，当 `forward` 为 `True` 时执行该语句。
 
 ```js
 ({ test: () => assert.match(code, /^\s{12}if\s+forward(\s*==\s*True)?\s*:/m) })
 ```
 
-You should print the provide string inside your new `if` statement.
+你应该在新的 `if` 语句中打印提供的字符串。
 
 ```js
 ({ test: () => assert.match(code, /if\s+forward(\s*==\s*True)?\s*:\s+print\s*\(\s*f('|")Moving\sdisk\s\{\s*rods\s*\[\s*source\s*\]\s*\[\s*-\s*1\s*\]\s*\}\sfrom\s\{\s*source\s*\}\sto\s\{\s*target\s*\}\2\s*\)/) })

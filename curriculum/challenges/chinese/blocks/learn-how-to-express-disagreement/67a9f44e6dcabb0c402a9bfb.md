@@ -16,35 +16,35 @@ lang: en-US
 
 ## --text--
 
-What does Bob want to know?
+Bob 想知道什么？
 
 ## --answers--
 
-If employees have already bought office furniture.
+如果员工已经购买了办公家具。
 
 ### --feedback--
 
-Bob isn't asking for confirmation of purchases.
+Bob 不会要求确认购买。
 
 ---
 
-How much office furniture costs.
+办公家具的费用是多少。
 
 ### --feedback--
 
-Bob does not ask about the price.
+Bob 不询问价格。
 
 ---
 
-If the company will increase the stipend.
+如果公司将增加津贴。
 
 ### --feedback--
 
-Bob is not discussing changes to the stipend.
+Bob 没有讨论对 `stipend` 的更改。
 
 ---
 
-If Anna thinks using the stipend for office furniture is a good idea.
+如果 Anna 认为将津贴用于办公家具是个好主意。
 
 ## --video-solution--
 
@@ -52,7 +52,7 @@ If Anna thinks using the stipend for office furniture is a good idea.
 
 # --explanation--
 
-Bob asks, `Do you think that's a good idea?` This is a way to ask for someone's opinion about a suggestion or plan. Here's other ways to ask for an opinion:
+Bob 问，`Do you think that's a good idea?` 这是询问某人对建议或计划的看法的一种方式。以下是其他询问意见的方式：
 
 - `Do you think this will work?`
 
@@ -60,7 +60,7 @@ Bob asks, `Do you think that's a good idea?` This is a way to ask for someone's 
 
 - `How do you feel about this plan?`
 
-In this dialogue, Bob is referring to employees using the remote work stipend for office furniture. Instead of stating his own opinion, he is asking Anna what she thinks.
+在这个对话框中，Bob 正在提到使用远程工作补贴购买办公家具的员工。他没有表达自己的观点，而是在询问 Anna 的看法。
 
 # --scene--
 

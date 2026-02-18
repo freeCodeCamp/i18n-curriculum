@@ -8,7 +8,7 @@ dashedName: create-a-complex-jsx-element
 
 # --description--
 
-The last challenge was a simple example of JSX, but JSX can represent more complex HTML as well.
+上一个挑战是 JSX 的一个简单示例，但 JSX 也可以表示更复杂的 HTML。
 
 关于嵌套的 JSX，需要知道的一件重要的事情，那就是它必须返回单个元素。
 
@@ -46,7 +46,7 @@ The last challenge was a simple example of JSX, but JSX can represent more compl
 
 # --hints--
 
-常量 `JSX` 应该返回一个 `div` 元素。
+常量`JSX`应该返回一个`div`元素。
 
 ```js
 assert(JSX.type === 'div');
@@ -58,7 +58,7 @@ assert(JSX.type === 'div');
 assert(JSX.props.children[0].type === 'h1');
 ```
 
-`div`应该包含一个`p`标签作为第二个元素。
+`div` 应该包含一个 `p` 标签作为第二个元素。
 
 ```js
 assert(JSX.props.children[1].type === 'p');

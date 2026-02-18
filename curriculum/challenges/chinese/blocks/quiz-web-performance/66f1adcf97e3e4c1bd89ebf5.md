@@ -1,6 +1,6 @@
 ---
 id: 66f1adcf97e3e4c1bd89ebf5
-title: Web Performance Quiz
+title: 网页性能测验
 challengeType: 8
 dashedName: quiz-web-performance
 ---
@@ -17,125 +17,125 @@ dashedName: quiz-web-performance
 
 #### --text--
 
-What is the key difference between real performance and perceived performance in web development?
+在网页开发中，真实性能和感知性能之间的关键区别是什么？
 
 #### --distractors--
 
-Real performance focuses on the number of HTTP requests made by the browser, while perceived performance is based on CSS rendering speed.
+真实性能关注浏览器发出的超文本传输协议请求数量，而感知性能则基于 CSS 渲染速度。
 
 ---
 
-Real performance is only about load times, while perceived performance relates to visual elements like animations and loading indicators.
+真实性能仅关乎装载时间，而感知性能则与动画和加载指示器等视觉元素相关。
 
 ---
 
-Real performance only includes server-side processing times, while perceived performance is entirely client-side.
+真实性能仅包括服务器端的处理时间，而感知性能则完全是客户端的。
 
 #### --answer--
 
-Real performance is how fast content is loaded, while perceived performance is how quickly users believe the page loads.
+真实性能是内容装载的速度，而感知性能是用户认为页面装载的速度。
 
 ### --question--
 
 #### --text--
 
-Which metric best indicates how quickly content appears on a web page?
+哪个指标最能表明网页内容出现的速度？
 
 #### --distractors--
 
-Time to Interactive (TTI)
+可交互时间（TTI）
 
 ---
 
-Page Load Time (PLT)
+页面装载时间（PLT）
 
 ---
 
-Last Contentful Paint (LCP)
+最大内容绘制（LCP）
 
 #### --answer--
 
-First Contentful Paint (FCP)
+首次内容绘制（FCP）
 
 ### --question--
 
 #### --text--
 
-Which of the following is NOT a way to reduce page loading times?
+以下哪项不是减少页面装载时间的方法？
 
 #### --distractors--
 
-Optimizing Media Assets.
+优化媒体资产。
 
 ---
 
-Leveraging Browser Caching.
+利用浏览器缓存。
 
 ---
 
-Minifying and Compress Files.
+压缩和压缩文件。
 
 #### --answer--
 
-Using only JPEG files.
+仅使用 JPEG 文件。
 
 ### --question--
 
 #### --text--
 
-What is "time to usable"?
+什么是 `"time to usable"`？
 
 #### --distractors--
 
-It is the interval from when a user requests a page to when they can interact with forms on the page.
+这是从用户请求页面到他们可以与页面上的 `form` 交互之间的间隔。
 
 ---
 
-It is the time it takes for all images and animations to become available and usable.
+这是所有图像和动画变得可用且可使用所需的时间。 
 
 ---
 
-This is the time it takes for all CSS and JavaScript animations to load on the screen.
+这是所有 CSS 和 JavaScript 动画在屏幕上装载所需的时间。
 
 #### --answer--
 
-It is the interval from when a user requests a page to when they can meaningfully interact with it.
+这是从用户请求页面到他们可以有意义地与之交互的时间间隔。
 
 ### --question--
 
 #### --text--
 
-What does First Contentful Paint (FCP) measure?
+First Contentful Paint（FCP）测量什么？
 
 #### --distractors--
 
-The overall load time for all JavaScript files on the page.
+页面上所有 JavaScript 文件的总体装载时间。
 
 ---
 
-The delay before a user can interact with any elements on the page.
+用户可以与页面上任何元素交互之前的延迟。
 
 ---
 
-The time taken for all stylesheets to fully load and apply.
+所有样式表完全装载并应用所花费的时间。
 
 #### --answer--
 
-The time it takes for the first piece of text or image to render.
+第一个文本或图像渲染所需的时间。
 
 ### --question--
 
 #### --text--
 
-Which of the following is NOT a commonly used performance measurement tool?
+以下哪项不是常用的性能测量工具？
 
 #### --distractors--
 
-Chrome DevTools
+Chrome 开发者工具
 
 ---
 
-Lighthouse
+灯塔
 
 ---
 
@@ -149,55 +149,55 @@ WebMeasure
 
 #### --text--
 
-What are Performance Web APIs used for?
+性能 Web API 用于什么？
 
 #### --distractors--
 
-It is used to measure the performance for CSS animations only.
+它仅用于测量 CSS 动画的性能。
 
 ---
 
-It is used to automatically speed up the performance for a web page.
+它用于自动加速网页的性能。
 
 ---
 
-It provides a detailed table of performance metrics for the user.
+它提供了一个详细的性能指标表格供用户使用。
 
 #### --answer--
 
-It lets developers track how efficiently a webpage loads and responds directly from code.
+它让开发者直接从代码中跟踪网页装载和响应的高效程度。
 
 ### --question--
 
 #### --text--
 
-Which strategy can effectively enhance perceived performance?
+哪种策略可以有效提升感知性能？
 
 #### --distractors--
 
-Using large images to improve the overall visual quality.
+使用大图像来提升整体视觉质量。
 
 ---
 
-Loading CSS styles last to prioritize content rendering.
+最后装载 CSS 样式以优先渲染内容。
 
 ---
 
-Preloading all scripts to ensure they are ready when needed.
+预装载所有脚本以确保它们在需要时已准备好。
 
 #### --answer--
 
-Displaying a loading skeleton while content is being fetched.
+在内容被获取时显示装载骨架。
 
 ### --question--
 
 #### --text--
 
-Which of the following refers to the time it takes for a request to travel between the browser and the server?
+以下哪项是指请求在浏览器和服务器之间传输所花费的时间？
 
 #### --distractors--
 
-rendering
+渲染
 
 ---
 
@@ -209,43 +209,43 @@ CDN
 
 #### --answer--
 
-latency
+延迟
 
 ### --question--
 
 #### --text--
 
-How does optimizing CSS impact page performance?
+优化 CSS 如何影响页面性能？
 
 #### --distractors--
 
-It prevents the browser from executing unnecessary JavaScript.
+它防止浏览器执行不必要的 JavaScript。
 
 ---
 
-It reduces the overall file size of images.
+它减少了图像的整体文件大小。
 
 ---
 
-It eliminates the need for lazy loading images.
+它消除了对惰性装载图像的需求。
 
 #### --answer--
 
-It speeds up the parsing of HTML.
+它加快了对 `HTML` 的解析。
 
 ### --question--
 
 #### --text--
 
-Which of the following shows how long the main thread is blocked by heavy JavaScript tasks?
+以下哪项显示主线程被繁重的 JavaScript 任务阻塞了多长时间？
 
 #### --distractors--
 
-Source order
+源顺序
 
 ---
 
-Bounce rate
+弹跳率
 
 ---
 
@@ -253,35 +253,35 @@ WebPageTest
 
 #### --answer--
 
-Total Blocking Time
+总阻塞时间
 
 ### --question--
 
 #### --text--
 
-When measuring Interaction to Next Paint (INP), what is being evaluated?
+在测量 Interaction to Next Paint（`INP`）时，评估的是什么？
 
 #### --distractors--
 
-The time it takes for the page to fully load all styles and images after a user interaction.
+页面在用户交互后完全装载所有样式和图像所需的时间。
 
 ---
 
-The delay between a user's interaction and the browser's ability to register the next user input.
+用户交互与浏览器能够注册下一个用户输入之间的延迟。
 
 ---
 
-The interval between JavaScript execution and the browser refreshing the page content.
+JavaScript 执行与浏览器刷新页面内容之间的间隔。
 
 #### --answer--
 
-The time between a user's interaction and the browser responding by rendering the next frame.
+用户交互与浏览器通过渲染下一帧响应之间的时间。
 
 ### --question--
 
 #### --text--
 
-Which of the following APIs gives you high-precision timestamps (in milliseconds) to measure how long different parts of your site take to load?
+以下哪个 API 为你提供高查准率的时间戳（以毫秒为单位），用于测量你网站不同部分的装载时间？
 
 #### --distractors--
 
@@ -303,29 +303,29 @@ Which of the following APIs gives you high-precision timestamps (in milliseconds
 
 #### --text--
 
-Which of the following APIs gives you a breakdown of every stage of page loading from DNS lookup to `DOMContentLoaded`?
+以下哪个 API 能为你提供从 DNS 查询到 `DOMContentLoaded` 的页面装载每个阶段的详细信息？
 
 #### --distractors--
 
-Permit Timing API
+允许定时 API
 
 ---
 
-Performance Text API
+性能文本 API
 
 ---
 
-Perform Timing API
+执行 Timing API
 
 #### --answer--
 
-Performance Timing API
+性能计时 API
 
 ### --question--
 
 #### --text--
 
-Which of the following listens for performance events such as layout shifts, long tasks, and user interactions?
+以下哪项监听诸如版型移动、长任务和用户交互等性能事件？
 
 #### --distractors--
 
@@ -379,51 +379,51 @@ observer.observe({ type: "longtask", buffered: true });
 
 #### --text--
 
-How does lazy loading images enhance page performance?
+惰性装载图像如何提升页面性能？
 
 #### --distractors--
 
-It ensures all images load immediately for a better user experience.
+它确保所有图像立即装载，以提供更好的用户体验。
 
 ---
 
-It reduces the size of image files to speed up loading.
+它减小图像文件的大小以加快装载速度。
 
 ---
 
-It preloads images to prevent any loading delays.
+它预加载图像以防止任何装载延迟。
 
 #### --answer--
 
-It delays loading non-essential images until they are in view.
+它延迟装载非必要的图像，直到它们出现在视图中。
 
 ### --question--
 
 #### --text--
 
-What is code splitting?
+什么是代码拆分？
 
 #### --distractors--
 
-It involves splitting your React code into modules that perform only critical tasks
+它涉及将你的 React 代码拆分成只执行关键任务的模块
 
 ---
 
-It involves splitting your HTML code into modules that perform only non-critical tasks.
+它涉及将你的 `HTML` 代码拆分成只执行非关键任务的模块。
 
 ---
 
-It involves splitting your CSS code into modules that perform critical and non-critical tasks.
+它涉及将你的 CSS 代码拆分成执行关键和非关键任务的模块。
 
 #### --answer--
 
-It involves splitting your JavaScript code into modules that perform critical and non-critical tasks.
+它涉及将你的 JavaScript 代码拆分成执行关键和非关键任务的模块。
 
 ### --question--
 
 #### --text--
 
-Which of the following is the correct way to lazy load an image?
+以下哪种方式是惰性装载 `Image` 的正确方法？
 
 #### --distractors--
 
@@ -453,43 +453,43 @@ Which of the following is the correct way to lazy load an image?
 
 #### --text--
 
-Which of the following is NOT a way to improve INP?
+以下哪项不是提升 INP 的方法？
 
 #### --distractors--
 
-Reducing the main thread work by breaking up long JavaScript tasks.
+通过拆分长时间的 JavaScript 任务来减少主线程的工作量。
 
 ---
 
-Optimizing event handlers.
+优化事件处理器。
 
 ---
 
-Deferring or lazy-loading heavy assets.
+推迟或惰性装载大型资源。
 
 #### --answer--
 
-Using only PNG and JPEG images.
+仅使用 PNG 和 JPEG 图像。
 
 ### --question--
 
 #### --text--
 
-Why is energy efficiency a crucial aspect of web performance?
+为什么能效是网页性能的关键方面？
 
 #### --distractors--
 
-It enhances the overall visual appeal of the webpage.
+它增强了网页的整体视觉吸引力。
 
 ---
 
-It minimizes the amount of JavaScript used on a webpage.
+它最小化网页上使用的 JavaScript 数量。
 
 ---
 
-It decreases the number of CSS files needed and makes your CSS run faster.
+它减少了所需的 CSS 文件数量，使你的 CSS 运行更快。
 
 #### --answer--
 
-It reduces the load on hardware, conserving energy and improving sustainability.
+它减少了对硬件的装载，节约能源并提高可持续性。
 

@@ -1,6 +1,6 @@
 ---
 id: 67d83cac8f7ced9c5df81df9
-title: Task 144
+title: 任务 144
 challengeType: 22
 dashedName: task-144
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+请听音频，并完成下面的填空。
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This modal verb expresses possibility or uncertainty about a past event.
+这个情态动词表达对过去 `event` 的可能性或不确定性。
 
 ---
 
@@ -32,15 +32,15 @@ This modal verb expresses possibility or uncertainty about a past event.
 
 ### --feedback--
 
-This verb is the `Past Perfect` form, used to talk about something that could have happened in the past. Use two words.
+这个动词是 `Past Perfect` 形式，用于谈论过去可能发生的事情。使用两个单词。
 
-# --explanation--
+# --explanation--  
 
-`Might` expresses possibility.
+`Might` 表示可能性。  
 
-`Have taken` is the `Past Perfect` form of `take`, used to talk about a possible past action. For example:
+`Have taken` 是 `take` 的 `Past Perfect` 形式，用于谈论可能发生的过去动作。例如：
 
-`The attacker might have taken sensitive files.` - You don't know for sure, but it is possible.
+`The attacker might have taken sensitive files.` － 你不确定，但这是可能的。
 
 # --scene--
 

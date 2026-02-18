@@ -1,6 +1,6 @@
 ---
 id: 657fff0bfb6a28f1d70fa9ef
-title: Task 80
+title: 任务 80
 challengeType: 22
 dashedName: task-80
 lang: en-US
@@ -10,9 +10,9 @@ lang: en-US
 
 # --description--
 
-`I appreciate it, but...` is used to express gratitude for an offer or gesture while politely declining or stating a personal limitation or preference.
+`I appreciate it, but...` 用于表达对提议或举动的感谢，同时礼貌地拒绝或说明个人的限制或偏好。
 
-For example, if your friend offers to help you with coding challenge, and you're thankful but want to try it on your own first, you might say, `I appreciate it, but I want to give it a shot by myself first`.
+例如，如果你的朋友主动提出帮助你解决编码挑战，而你很感激但想先自己尝试，你可能会说，`I appreciate it, but I want to give it a shot by myself first`。
 
 # --fillInTheBlank--
 
@@ -26,7 +26,7 @@ For example, if your friend offers to help you with coding challenge, and you're
 
 ### --feedback--
 
-This word is often used to show thankfulness or gratitude.
+这个词通常用来表达感谢或感激。
 
 ---
 
@@ -34,7 +34,7 @@ This word is often used to show thankfulness or gratitude.
 
 ### --feedback--
 
-This word is used to introduce a phrase or clause contrasting with what has already been mentioned.
+这个词用于引入与已提及内容形成对比的短语或从句。
 
 # --scene--
 

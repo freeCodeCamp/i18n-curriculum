@@ -1,6 +1,6 @@
 ---
 id: 5dfb5ecbeacea3f48c6300b1
-title: 步骤 23
+title: 步骤-23
 challengeType: 0
 dashedName: step-23
 ---
@@ -24,7 +24,7 @@ dashedName: step-23
 
 `laser pointers`
 
-`lasagna`
+`lasagna` 
 
 # --hints--
 
@@ -76,7 +76,7 @@ assert.lengthOf(
         <h3>Things cats love:</h3>
         <ul>
 --fcc-editable-region--
-
+          
 --fcc-editable-region--
         </ul>
       </section>

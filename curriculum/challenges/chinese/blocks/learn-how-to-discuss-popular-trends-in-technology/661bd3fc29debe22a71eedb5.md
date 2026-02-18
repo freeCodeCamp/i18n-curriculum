@@ -1,6 +1,6 @@
 ---
 id: 661bd3fc29debe22a71eedb5
-title: Task 69
+title: 任务 69
 challengeType: 19
 dashedName: task-69
 lang: en-US
@@ -8,41 +8,41 @@ lang: en-US
 
 # --description--
 
-`Physical or behavioral traits` are special things about your body or how you act. It can be your face, fingerprints, or the way you move. Biometrics uses these things to keep things safe.
+`Physical or behavioral traits` 是关于你的体或你行为方式的特殊特征。它可以是你的脸、指纹或你的动作方式。生物识别技术使用这些特征来保障安全。
 
 # --questions--
 
 ## --text--
 
-What do `physical or behavioral traits` include in biometrics?
+生物识别中的 `physical or behavioral traits` 包括什么？
 
 ## --answers--
 
-Random objects
+随机对象
 
 ### --feedback--
 
-Random objects don't fit the idea of personal characteristics used in biometrics.
+随机对象不符合生物识别中使用的个人特征的概念。
 
 ---
 
-Magical powers
+魔法力量
 
 ### --feedback--
 
-Magical powers are unrelated to the concept of unique personal features in biometrics.
+魔法力量与生物识别中独特个人特色的概念无关。
 
 ---
 
-Colorful patterns
+多彩的模式
 
 ### --feedback--
 
-Colorful patterns do not represent the specific traits of your body or behavior.
+多彩的模式并不表现你的体或行为的具体特征。
 
 ---
 
-Special characteristics of your body or behavior
+你的体或行为的特殊特征
 
 ## --video-solution--
 

@@ -7,11 +7,12 @@ dashedName: step-18
 
 # --description--
 
-现在，在 `insert` 方法内部，你需要调用我们之前定义的辅助方法 `_insert()`。 这里，`_insert` 已经封装了插入逻辑的实现。 这对于递归和向用户隐藏实现细节很有用。
+现在，在 `insert` 方法内部，你需要调用我们之前定义的辅助方法 `_insert()`。  
+这里，`_insert` 封装了插入逻辑的实现。这对于递归以及对用户隐藏实现细节非常有用。
 
 删除 `pass` 并将 `self._insert(self.root, key)` 分配给 `self.root`。
 
-Note that:
+注意：
 
 - `self.root` 将树的根节点作为第一个参数传递。 这是插入过程的起点。
 - `key`：传递你想要插入的 `key` 值作为第二个参数。

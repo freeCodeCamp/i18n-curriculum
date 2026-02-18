@@ -7,21 +7,21 @@ dashedName: step-32
 
 # --description--
 
-Notice that the red and cyan colors are very bright right next to each other. This contrast can be distracting if it's overused on a website, and can make text hard to read if it's placed on a complementary-colored background.
+请注意，红色和青色放在一起彼此会显得非常明亮。 如果在网站上过度使用这种对比，就会分散注意力；如果将文字放在互补色背景上，就会使文字难以阅读。
 
-It's better practice to choose one color as the dominant color, and use its complementary color as an accent to bring attention to certain content on the page.
+较好的做法是选择一种颜色作为主色调，并使用其互补色作为点缀，以引起人们对页面上某些内容的注意。
 
-First, in the `h1` rule, use the `rgb` function to set its `background-color` to cyan.
+首先，在 `h1` 规则中，使用 `rgb` 函数将其 `background-color` 设置为青色。
 
 # --hints--
 
-You should not remove or modify the `text-align` property or its value.
+您不应删除或修改 `text-align` 属性或其值。
 
 ```js
 assert.strictEqual(new __helpers.CSSHelp(document).getStyle('h1')?.textAlign, 'center');
 ```
 
-Your `h1` CSS rule should have a `background-color` property set to `rgb(0, 255, 255)`.
+你的 `h1` CSS 规则应该有一个 `background-color` 属性，设置为 `rgb(0, 255, 255)`。
 
 ```js
 assert.strictEqual(new __helpers.CSSHelp(document).getStyle('h1')?.backgroundColor, 'rgb(0, 255, 255)');
@@ -58,7 +58,7 @@ assert.strictEqual(new __helpers.CSSHelp(document).getStyle('h1')?.backgroundCol
 h1 {
   text-align: center;
 --fcc-editable-region--
-
+  
 --fcc-editable-region--
 }
 

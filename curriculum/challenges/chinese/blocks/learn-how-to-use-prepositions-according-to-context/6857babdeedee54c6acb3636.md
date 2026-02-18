@@ -1,6 +1,6 @@
 ---
 id: 6857babdeedee54c6acb3636
-title: Task 134
+title: 任务 134
 challengeType: 19
 dashedName: task-134
 lang: en-US
@@ -16,35 +16,35 @@ lang: en-US
 
 ## --text--
 
-Where are the monitors stored now?
+监视器现在存储在哪里？
 
 ## --answers--
 
-At the end of the parking lot.
+在停车场尽头。
 
 ### --feedback--
 
-Sarah doesn't mention the parking lot.
+Sarah 没有提到停车场。
 
 ---
 
-Inside the IT room.
+在 IT 机房内。
 
 ### --feedback--
 
-They were moved out of the IT room earlier.
+他们早些时候被移出了 IT 房间。
 
 ---
 
-Next to the security desk.
+在安全性柜台旁边。
 
 ### --feedback--
 
-There is no mention of a security desk.
+没有提到安全性服务台。
 
 ---
 
-Right near the coffee machine.
+就在咖啡机旁边。
 
 ## --video-solution--
 
@@ -52,9 +52,9 @@ Right near the coffee machine.
 
 # --explanation--
 
-Sarah gives clear directions ending with a reference point: `the coffee machine`.
+Sarah 给出明确的指示，最后以 `the coffee machine` 作为引用点。
 
-She explains that after going down the corridor and turning left, the monitors can be found positioned across from it, making the coffee machine the closest visible landmark for finding them.
+她解释说，沿着走廊走到底后左转，`monitors` 就位于对面，咖啡机是查找它们时最靠近的可见地标。
 
 # --scene--
 

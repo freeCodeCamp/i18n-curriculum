@@ -1,17 +1,17 @@
 ---
 id: 65ca0dfaea3f4112afde6e26
-title: Step 52
+title: 第 52 步
 challengeType: 20
 dashedName: step-52
 ---
 
 # --description--
 
-Still inside the `if` block, append the `key` of the current node to the `result` list.
+仍然在 `if` 块内，将当前节点的 `key` 附加到 `result` 列表中。
 
 # --hints--
 
-You should append `node.key` to the `result` list.
+你应该将 `node.key` 附加到 `result` 列表中。
 
 ```js
 assert.match(code, /result\.append\(\s*node\.key\s*\)/);
@@ -51,14 +51,14 @@ class BinarySearchTree:
 
     def insert(self, key):
         self.root = self._insert(self.root, key)
-
+        
     def _search(self, node, key):
         if node is None or node.key == key:
             return node
         if key < node.key:
             return self._search(node.left, key)
         return self._search(node.right, key)
-
+    
     def search(self, key):
         return self._search(self.root, key)
 
@@ -74,10 +74,10 @@ class BinarySearchTree:
                 return node.right
             elif node.right is None:
                 return node.left   
-
+            
             node.key = self._min_value(node.right)
             node.right = self._delete(node.right, node.key)   
-
+        
         return node
 
     def delete(self, key):
@@ -101,7 +101,7 @@ nodes = [50, 30, 20, 40, 70, 60, 80]
 
 for node in nodes:
     bst.insert(node)
-
+    
 # print('Search for 80:', bst.search(80))
 
 

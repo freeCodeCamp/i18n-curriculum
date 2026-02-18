@@ -11,7 +11,7 @@ dashedName: step-31
 
 # --hints--
 
-你的第二个 `figure` 元素应该有一个开始标签。 开始标签的语法为：`<elementName>`。
+你的第二个 `figure` 元素应该有一个开始标签。 开始标签的书写语法为：`<elementName>`。
 
 ```js
 assert.isAtLeast(document.querySelectorAll('figure').length, 2);
@@ -88,7 +88,7 @@ assert.notMatch(code, /\<img\s+.+\s+src\s*=\s*https:\/\/cdn\.freecodecamp\.org\/
         </ol>
         <figure>
 --fcc-editable-region--
-
+          
 --fcc-editable-region--
         </figure>
       </section>

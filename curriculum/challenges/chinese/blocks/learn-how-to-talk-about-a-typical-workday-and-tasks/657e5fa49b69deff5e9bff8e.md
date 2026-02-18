@@ -1,6 +1,6 @@
 ---
 id: 657e5fa49b69deff5e9bff8e
-title: Task 105
+title: 任务 105
 challengeType: 22
 dashedName: task-105
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --description--
 
-Listen to the audio and complete the sentence below.
+请听音频，并完成下面的填空。
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-These two words express obligation to do something.
+这两个词表达了必须做某事的义务。
 
 ---
 
@@ -32,7 +32,7 @@ These two words express obligation to do something.
 
 ### --feedback--
 
-This word means right away, without delay.
+这个词的意思是立即，毫不延迟。
 
 # --scene--
 

@@ -1,6 +1,6 @@
 ---
 id: 679afc19cfcee1abd9e60ce2
-title: Task 61
+title: 任务 61
 challengeType: 19
 dashedName: task-61
 lang: en-US
@@ -16,35 +16,35 @@ lang: en-US
 
 ## --text--
 
-What does Brian think might happen if we don't listen to those in the team who disagree?
+如果我们不听取团队中持不同意见的人的看法，Brian 认为可能会发生什么？
 
 ## --answers--
 
-They might lose motivation.
+他们可能会失去动力。
 
 ---
 
-They will stop having disagreements.
+他们将不再有分歧。
 
 ### --feedback--
 
-Ignoring people's opinions does not stop disagreements; it might just make people less engaged.
+忽视别人的意见不会阻止分歧；它可能只是让人们减少参与。
 
 ---
 
-They will work harder to prove their point.
+他们会更加努力地证明自己的观点。
 
 ### --feedback--
 
-Brian does not suggest that feeling undervalued makes people work harder.
+Brian 并不认为感觉被低估会让人们更努力工作。
 
 ---
 
-They will automatically agree with everything.
+他们会自动同意所有内容。
 
 ### --feedback--
 
-Not listening to people doesn't make them agree with everything — it can make them disengage instead.
+不听取别人的意见不会让他们同意所有事情——反而可能让他们失去参与感。
 
 ## --video-solution--
 
@@ -52,13 +52,13 @@ Not listening to people doesn't make them agree with everything — it can make 
 
 # --explanation--
 
-`To feel valued` describes the sensation you have when you believe that your thoughts, efforts, and contributions are appreciated. For example:
+`To feel valued` 描述了当你相信自己的想法、努力和贡献被认可时的感受。例如：
 
-`The project manager always dedicates some time during the meeting to hear what we have to say. This makes everyone in the team feel valued.` - This means the attitude of the project manager is bringing good results to the team.
+`The project manager always dedicates some time during the meeting to hear what we have to say. This makes everyone in the team feel valued.` —— 这意味着项目经理的态度为团队带来了良好的结果。
 
-What Brian suggests is that if team members' opinions are ignored, they may feel unimportant. If team members feel valued, they are more likely to stay engaged and contribute new ideas.
+Brian 建议，如果团队成员的意见被忽视，他们可能会感到不重要。如果团队成员感到被重视，他们更有可能保持参与并贡献新想法。
 
-On the other hand, if people feel like their opinions don't matter, they might become disengaged and lose motivation to contribute, which can harm overall teamwork and productivity.
+另一方面，如果人们觉得他们的意见无关紧要，他们可能会变得不投入并失去贡献的动力，这会损害整体团队合作和生产力。
 
 # --scene--
 

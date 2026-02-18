@@ -1,6 +1,6 @@
 ---
 id: 67e5a6e34bfc4b5af2c00ddf
-title: Task 51
+title: 任务 51
 challengeType: 22
 dashedName: task-51
 lang: en-US
@@ -24,7 +24,7 @@ lang: en-US
 
 ### --feedback--
 
-This means very serious or important. It is often used when something needs immediate attention.
+这意味着非常严重或重要。它通常用于某事需要立即关注时。
 
 ---
 
@@ -32,17 +32,17 @@ This means very serious or important. It is often used when something needs imme
 
 ### --feedback--
 
-This means to change or influence something. It often describes how one thing causes a change in another.
+这意味着改变或影响某物。它通常描述一件事如何导致另一件事发生变化。
 
 # --explanation--
 
-`Critical` means extremely important or serious. 例如：
+`Critical` 意味着极其重要或严重。例如：
 
-`We have a critical deadline tomorrow.` – This means the deadline is very important and cannot be missed.
+`We have a critical deadline tomorrow.` – 这意味着截止日期非常重要，不能错过。
 
-`To affect` means to have an influence on something or cause a change. 例如：
+`To affect` 意味着对某事物产生影响或引起变化。例如：
 
-`The new policy may affect employee performance.` – This means the policy might change how employees perform.
+`The new policy may affect employee performance.` – 这意味着该政策可能会改变员工的执行方式。
 
 # --scene--
 

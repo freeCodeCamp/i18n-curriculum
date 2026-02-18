@@ -16,35 +16,35 @@ lang: en-US
 
 ## --text--
 
-Why does Jessica want to explain the bug to the team quickly?
+为什么 Jessica 想要快速向团队解释这个错误？
 
 ## --answers--
 
-Because she wants to return to the main topic of the meeting.
+因为她想返回会议的主要议题。
 
 ---
 
-Because she wants to leave the meeting early.
+因为她想提前离开会议。
 
 ### --feedback--
 
-Jessica doesn't mention leaving the meeting.
+Jessica 没有提到离开会议。
 
 ---
 
-Because the team already knows about the bug.
+因为团队已经知道这个错误。
 
 ### --feedback--
 
-Jessica is explaining the bug because it might affect the team.
+Jessica 正在解释这个错误，因为它可能会影响团队。
 
 ---
 
-Because she doesn't think the bug is important.
+因为她认为这个错误不重要。
 
 ### --feedback--
 
-Jessica thinks the issue is important, but she also wants to respect the meeting agenda.
+Jessica 认为这个问题很重要，但她也想尊重会议议程。
 
 ## --video-solution--
 
@@ -52,13 +52,13 @@ Jessica thinks the issue is important, but she also wants to respect the meeting
 
 # --explanation--
 
-`So we can` is used to show purpose — it means the next thing you mention is what you intend to do. It explains why someone is doing something. 例如：
+`So we can` 用于表示目的——它意味着你接下来提到的是你打算做的事情。它解释了某人为什么要做某事。例如：
 
-`I'll finish this now so we can start the next task.` – This means the speaker wants to finish one thing to begin another soon.
+`I'll finish this now so we can start the next task.`——这意味着说话者想完成一件事以便尽快开始另一件事。
 
-`The main agenda` refers to the primary topics or plan of a meeting or event. 例如：
+`The main agenda` 指会议或事件的主要议题或计划。例如：
 
-`Let's stick to the main agenda and avoid side discussions.` – This means to stay focused on the most important items in the meeting.
+`Let's stick to the main agenda and avoid side discussions.` – 这意味着要专注于会议中最重要的项。
 
 # --scene--
 

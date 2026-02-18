@@ -1,6 +1,6 @@
 ---
 id: 672e1fff03af3aeed5d7a84b
-title: Task 117
+title: 任务 117
 challengeType: 19
 dashedName: task-117
 lang: en-US
@@ -16,35 +16,35 @@ lang: en-US
 
 ## --text--
 
-What does Anna think about James' ideas, and what does she suggest?
+Anna 对 James 的想法有什么看法，她建议什么？
 
 ## --answers--
 
-She disagrees with James' ideas and suggests starting a new approach.
+她不同意 James 的想法，建议开始一种新方法。
 
 ### --feedback--
 
-Anna expresses agreement with James, not disagreement, and wants to stay updated rather than start over.
+Anna 表示同意 James，而不是不同意，并且想保持更新而不是重新开始。
 
 ---
 
-She thinks James' ideas are confusing and suggests focusing only on accessibility goals.
+她认为 James 的想法令人困惑，并建议只关注无障碍目标。
 
 ### --feedback--
 
-Anna doesn't find James' ideas confusing; she agrees and wants to monitor progress on their shared goals.
+Anna 不会觉得 James 的想法令人困惑；她同意并想要监控他们共同目标的进展。
 
 ---
 
-She agrees with James and suggests they stay in contact to monitor progress.
+她同意 James 的观点，并建议他们保持联系以监控进展。
 
 ---
 
-She thinks James' ideas are unnecessary and suggests stopping the project.
+她认为 James 的想法是不必要的，并建议停止该项目。
 
 ### --feedback--
 
-Anna doesn't suggest stopping; she supports James' ideas and wants to stay updated.
+Anna 不建议停止；她支持 James 的想法并希望保持更新。
 
 ## --video-solution--
 
@@ -52,7 +52,7 @@ Anna doesn't suggest stopping; she supports James' ideas and wants to stay updat
 
 # --explanation--
 
-Anna agrees with James' approach, saying `That makes sense`, which shows she understands and supports his ideas. She also suggests `keeping in touch to monitor progress`, indicating her interest in staying updated to ensure they reach their shared goals.
+Anna 同意 James 的方法，说 `That makes sense`，这表明她理解并支持他的想法。她还建议 `keeping in touch to monitor progress`，表示她有兴趣保持更新，以确保他们实现共同的目标。
 
 # --scene--
 

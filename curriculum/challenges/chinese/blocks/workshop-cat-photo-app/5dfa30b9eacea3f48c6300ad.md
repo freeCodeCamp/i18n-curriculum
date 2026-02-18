@@ -1,13 +1,13 @@
 ---
 id: 5dfa30b9eacea3f48c6300ad
-title: 步骤 17
+title: 第 17 步
 challengeType: 0
 dashedName: step-17
 ---
 
 # --description--
 
-在之前的步骤中，你使用锚元素将文本转换为链接。 其他类型的内容也可以通过将其包裹在锚标签中来转换为链接。
+在之前的步骤中，你使用锚元素将文本转换为链接。 其他类型的内容也可以通过将其包裹在锚标签中来转换为链接。 
 
 这是一个将图像转换为链接的示例：
 
@@ -30,7 +30,7 @@ assert.equal(
 );
 ```
 
-你的锚元素（`a`）应该有一个开始标签。 开始标签的语法为：`<elementName>`。
+你的锚元素（`a`）应该有一个开始标签。 开始标签的书写语法为：`<elementName>`。
 
 ```js
 assert.isAtLeast(document.querySelectorAll('a').length, 3);
@@ -54,13 +54,13 @@ assert.isAtLeast(code.match(/<\/a>/g)?.length, 3);
 assert.lengthOf(code.match(/<\/a>/g), 3);
 ```
 
-你的锚元素（`a`）缺少 `href` 属性。 检查开始标签的名称后面是否有空格和/或所有属性名称之前是否有空格。
+你的锚元素（`a`）缺少 `href` 属性。 确保在开始标签的名称后面有一个空格，且所有的属性名称前面也要有空格。
 
 ```js
 assert.isTrue(document.querySelectorAll('a')[2]?.hasAttribute('href'));
 ```
 
-你的锚元素（`a`）应该链接到 `https://freecatphotoapp.com`。 你要么遗漏了 URL，要么拼写有误。
+你的锚元素（`a`）应该链接到 `https://freecatphotoapp.com`。 你可能忽略了 URL 或者有拼写错误。
 
 ```js
 assert.equal(

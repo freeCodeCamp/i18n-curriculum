@@ -1,35 +1,35 @@
 ---
 id: 5f3cade99dda4e6071a85dfd
-title: Step 42
+title: 步骤 42
 challengeType: 0
 dashedName: step-42
 ---
 
 # --description--
 
-You will come back to styling the menu in a few steps, but for now, go ahead and add a second `section` element below the first for displaying the desserts offered by the cafe.
+你将在几个步骤中回到菜单的样式的调整，但现在，继续添加第二个 `section` 元素，在第一个部分下面显示咖啡馆提供的甜点。
 
 # --hints--
 
-You should have an opening `section` tag.
+你应该有一个 `section` 开始标签。
 
 ```js
 assert.lengthOf(code.match(/<section>/ig) ,2);
 ```
 
-You should have a closing `section` tag.
+你应该有一个 `section` 结束标签。
 
 ```js
 assert.lengthOf(code.match(/<\/section>/ig) ,2);
 ```
 
-You should not change the existing `main` element.
+你不应该改变你现有的 `main` 元素。
 
 ```js
 assert.lengthOf(document.querySelectorAll('main'), 1);
 ```
 
-Your new `section` element should be nested in the `main` element.
+你的新 `section` 元素应该嵌套在 `main` 元素中。
 
 ```js
 const main = document.querySelector('main');
@@ -74,7 +74,7 @@ assert.lengthOf(sections,2);
           </article>
         </section>
 --fcc-editable-region--
-
+        
 --fcc-editable-region--
       </main>
     </div>

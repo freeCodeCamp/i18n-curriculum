@@ -1,6 +1,6 @@
 ---
 id: 657e4ec6dd27af9cc16addea
-title: Task 79
+title: 任务 79
 challengeType: 19
 dashedName: task-79
 lang: en-US
@@ -10,43 +10,43 @@ lang: en-US
 
 # --description--
 
-`Regulations` are official rules made by a government or authority. They are designed to control how something works or how people act, especially in businesses. For example:
+`Regulations` 是由政府或权威机构制定的官方规则。它们旨在控制某事的运作方式或人们的行为，尤其是在企业中。例如：
 
-`Health and safety regulations ensure a safe workplace.` - This means health and safety rules help make the workplace safe for everyone.
+`Health and safety regulations ensure a safe workplace。`——这意味着健康和安全规则有助于为每个人创造安全的工作环境。
 
 # --questions--
 
 ## --text--
 
-What are `regulations` usually in a business context?
+在商业上下文中，`regulations` 通常是什么？
 
 ## --answers--
 
-Personal preferences.
+个人偏好。
 
 ### --feedback--
 
-`Regulations` are formal rules, not personal preferences.
+`Regulations` 是正式规则，而非个人偏好。
 
 ---
 
-Informal team agreements.
+非正式团队协议。
 
 ### --feedback--
 
-`Regulations` are more formal than informal agreements.
+`Regulations` 比非正式协议更正式。
 
 ---
 
-Official rules set by authorities.
+由权威机构制定的官方规则。
 
 ---
 
-Suggestions for leisure activities.
+休闲活动建议。
 
 ### --feedback--
 
-`Regulations` are about professional conduct, not leisure.
+`Regulations` 是关于职业行为的，而不是休闲。
 
 ## --video-solution--
 

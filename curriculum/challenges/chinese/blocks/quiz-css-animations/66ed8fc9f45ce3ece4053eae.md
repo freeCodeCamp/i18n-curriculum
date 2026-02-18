@@ -1,6 +1,6 @@
 ---
 id: 66ed8fc9f45ce3ece4053eae
-title: CSS Animations Quiz
+title: CSS 动画测验
 challengeType: 8
 dashedName: quiz-css-animations
 ---
@@ -17,51 +17,51 @@ dashedName: quiz-css-animations
 
 #### --text--
 
-What is the purpose of the `transform` property in CSS?
+CSS 中的 `transform` 属性的作用是什么？
 
 #### --distractors--
 
-To change the visibility of an element.
+更改元素的可见性。
 
 ---
 
-To apply a visual effect to text.
+为文本应用视觉效果。
 
 ---
 
-To set the dimensions of an element.
+设置元素的尺寸。
 
 #### --answer--
 
-To modify the position, size, and shape of an element.
+修改元素的位置、大小和形状。
 
 ### --question--
 
 #### --text--
 
-How does the CSS `animation-direction` property affect an animation?
+CSS `animation-direction` 属性如何影响动画？
 
 #### --distractors--
 
-It specifies if an animation should be repeated.
+它指定动画是否应重复播放。
 
 ---
 
-It sets the duration of the animation.
+它设置动画的持续时间。
 
 ---
 
-It defines the speed of the animation.
+它定义动画的速度。
 
 #### --answer--
 
-It defines how an animation should play.
+它定义动画的播放方式。
 
 ### --question--
 
 #### --text--
 
-Which CSS property makes an animation run 3 times?
+哪个 CSS 属性能让动画运行 3 次？
 
 #### --distractors--
 
@@ -83,7 +83,7 @@ Which CSS property makes an animation run 3 times?
 
 #### --text--
 
-Which CSS timing function makes an animation run at a consistent speed from start to end?
+哪个 CSS 缓动函数可使动画从开始到结束以一致的速度运行？
 
 #### --distractors--
 
@@ -105,95 +105,95 @@ Which CSS timing function makes an animation run at a consistent speed from star
 
 #### --text--
 
-What does the `@keyframes` at-rule define in CSS?
+在 CSS 中，`@keyframes` @ 规则定义了什么？
 
 #### --distractors--
 
-The colors of a CSS gradient.
+CSS 渐变的颜色。
 
 ---
 
-The angles of a CSS rotation.
+CSS 旋转的角度。
 
 ---
 
-The dimensions of an element.
+元素的尺寸。
 
 #### --answer--
 
-The stages of a CSS animation.
+CSS 动画的各个阶段。
 
 ### --question--
 
 #### --text--
 
-What is the purpose of the `translateX()` function in CSS?
+CSS 中的 `translateX()` 函数有什么作用？
 
 #### --distractors--
 
-It changes the opacity of the element.
+它改变元素的不透明度。
 
 ---
 
-It rotates the element.
+它旋转元素。
 
 ---
 
-It repositions the element vertically.
+它将元素垂直重新定位。
 
 #### --answer--
 
-It repositions the element horizontally.
+它将元素水平重新定位。
 
 ### --question--
 
 #### --text--
 
-Which of the following is NOT a potential concern with CSS animations?
+以下哪项不是 CSS 动画的潜在问题？
 
 #### --distractors--
 
-They may cause discomfort or physical harm to certain users.
+它们可能会对某些用户造成不适或身体伤害。
 
 ---
 
-Users may find them distracting.
+用户可能会觉得它们会分散注意力。
 
 ---
 
-Overuse can lead to poor performance.
+过度使用会导致性能低下。
 
 #### --answer--
 
-They can enhance user experience.
+它们可以提升用户体验。
 
 ### --question--
 
 #### --text--
 
-Where is the `@keyframes` at-rule defined?
+在哪里定义 `@keyframes` @ 规则？
 
 #### --distractors--
 
-Within the `body` element of an HTML file.
+在 HTML 文件的 `body` 元素内。
 
 ---
 
-Within the `head` element of an HTML file.
+在 HTML 文件的 `head` 元素内。
 
 ---
 
-Within a CSS class definition.
+在 CSS 类定义中。
 
 #### --answer--
 
-At the top level, outside of any CSS selectors.
+在 CSS 选择器之外的顶层。
 
 ### --question--
 
 #### --text--
 
-Which CSS property allows you to pause and resume an animation?
+哪个 CSS 属性允许你暂停和恢复动画？
 
 #### --distractors--
 
@@ -215,29 +215,29 @@ Which CSS property allows you to pause and resume an animation?
 
 #### --text--
 
-What value should be assigned to the `animation-name` property in CSS?
+CSS 中的 `animation-name` 属性应赋值为什么？
 
 #### --distractors--
 
-The duration of the animation in seconds.
+动画的持续时间，以秒为单位。
 
 ---
 
-The timing function used for the animation.
+动画使用的缓动函数。
 
 ---
 
-The delay before the animation starts in seconds.
+动画开始前的延迟时间，以秒为单位。
 
 #### --answer--
 
-The name of the animation defined by the `@keyframes`.
+由 `@keyframes` 定义的动画名称。
 
 ### --question--
 
 #### --text--
 
-What does this `@keyframe` at-rule do to the animated element?
+这个 `@keyframe` @ 规则对动画元素有什么作用？
 
 ```css
 @keyframes animation {
@@ -252,25 +252,25 @@ What does this `@keyframe` at-rule do to the animated element?
 
 #### --distractors--
 
-It rotates the element 90 degrees clockwise.
+它将元件顺时针旋转 90 度。
 
 ---
 
-It changes the color of the element to blue.
+它将元素的颜色变为蓝色。
 
 ---
 
-It scales the element to 50% of its initial size and then to 100% of its initial size.
+它将元素缩放至初始大小的 50%，然后再缩放至初始大小的 100%。
 
 #### --answer--
 
-It moves the element horizontally from -50px to 100px, relative to its starting point.
+它将元素从相对于起点的 -50px 水平移动到 100px。
 
 ### --question--
 
 #### --text--
 
-Which CSS property defines how an animation progresses over time?
+哪个 CSS 属性定义了动画如何随时间变化推进？
 
 #### --distractors--
 
@@ -292,7 +292,7 @@ Which CSS property defines how an animation progresses over time?
 
 #### --text--
 
-Which CSS property is used to specify that an animation should take 5 seconds to complete?
+哪个 CSS 属性用于指定动画应在 5 秒内完成？
 
 #### --distractors--
 
@@ -322,7 +322,7 @@ animation-duration: 5s;
 
 #### --text--
 
-What does `50%` represent in the following CSS `@keyframe` at-rule?
+在下面的 CSS `@keyframe` @ 规则中，`50%` 代表什么？
 
 ```css
 @keyframes animation {
@@ -340,69 +340,69 @@ What does `50%` represent in the following CSS `@keyframe` at-rule?
 
 #### --distractors--
 
-The starting point of the animation.
+动画的起点。
 
 ---
 
-The ending point of the animation.
+动画的终点。
 
 ---
 
-The speed of the animation.
+动画的速度。
 
 #### --answer--
 
-The halfway point of the animation.
+动画的中点。
 
 ### --question--
 
 #### --text--
 
-What will happen when the property `transform: translateX(200px);` is applied?
+应用属性 `transform: translateX(200px);` 时会发生什么？
 
 #### --distractors--
 
-The element will move 200px to the left.
+元素将向左移动 200px。
 
 ---
 
-The element will move 200px to the bottom.
+元素将向下移动 200px。
 
 ---
 
-The element will rotate 200 degrees clockwise.
+元素将顺时针旋转 200 度。
 
 #### --answer--
 
-The element will move 200px to the right.
+元素将向右移动 200px。
 
 ### --question--
 
 #### --text--
 
-How will the animation behave if `animation-iteration-count` is set to `infinite`?
+如果 `animation-iteration-count` 设置为 `infinite`，动画将如何运行？
 
 #### --distractors--
 
-It will run once and stop.
+运行一次就会停止。
 
 ---
 
-It will pause after the first iteration.
+第一次重复后会暂停。
 
 ---
 
-It will stop after three iterations.
+重复三次后就会停止。
 
 #### --answer--
 
-It will repeat indefinitely.
+无限重复。
 
 ### --question--
 
 #### --text--
 
-Which `@keyframes` selector specifies the starting point of an animation?
+哪个 `@keyframes` 选择器指定了动画的起点？
 
 #### --distractors--
 
@@ -424,29 +424,29 @@ Which `@keyframes` selector specifies the starting point of an animation?
 
 #### --text--
 
-What properties can be specified using the `animation` shorthand CSS property?
+使用 `animation` 简写 CSS 属性可以指定哪些属性？
 
 #### --distractors--
 
-Only the name of the animation.
+只有动画名称。
 
 ---
 
-The name and duration of the animation.
+动画的名称和持续时间。
 
 ---
 
-The name, duration, and delay of the animation.
+动画的名称、持续时间和延迟。
 
 #### --answer--
 
-All animation properties.
+所有动画属性。
 
 ### --question--
 
 #### --text--
 
-Which CSS property is used to apply an animation defined by an `@keyframes` at-rule?
+哪个 CSS 属性用于应用由 `@keyframes` @ 规则定义的动画？
 
 #### --distractors--
 
@@ -468,7 +468,7 @@ Which CSS property is used to apply an animation defined by an `@keyframes` at-r
 
 #### --text--
 
-Which CSS property allows you to set a time before the animation begins?
+哪个 CSS 属性允许你设置动画开始前的时间？
 
 #### --distractors--
 
@@ -492,29 +492,29 @@ Which CSS property allows you to set a time before the animation begins?
 
 #### --text--
 
-What does the CSS `animation-delay` property do?
+CSS `animation-delay` 属性有什么作用？
 
 #### --distractors--
 
-Sets how long the animation lasts.
+设置动画的持续时间。
 
 ---
 
-Specifies the timing function.
+指定缓动函数。
 
 ---
 
-Defines animation direction.
+定义动画方向。
 
 #### --answer--
 
-Delays the start of the animation.
+延迟动画的开始时间。
 
 ### --question--
 
 #### --text--
 
-Which animation property specifies how the element should be styled before and after the animation?
+哪个动画属性指定动画前后元素的样式？
 
 #### --distractors--
 
@@ -536,29 +536,29 @@ Which animation property specifies how the element should be styled before and a
 
 #### --text--
 
-Why should CSS animations be used in moderation?
+为什么要适度使用 CSS 动画？
 
 #### --distractors--
 
-Too many CSS animations can lead to styles breaking as well as inconsistent styles across different browsers.
+过多的 CSS 动画会导致样式破坏，不同浏览器的样式也会不一致。 
 
 ---
 
-Too many CSS animations can lead to lower or non existent rankings in search engine results.
+过多的 CSS 动画会导致在搜索引擎结果中的排名降低或不存在。
 
 ---
 
-Too many CSS animations will automatically crash the server and increase the likelihood for security risks.
+过多的 CSS 动画会自动导致服务器崩溃，并增加安全风险的可能性。 
 
 #### --answer--
 
-Too many CSS animations can lead to poor performance and may be distracting or problematic for users with certain accessibility needs.
+过多的 CSS 动画会导致性能不佳，而且可能会分散有某些无障碍需求的用户的注意力，或给他们带来麻烦。
 
 ### --question--
 
 #### --text--
 
-Which animation property determines whether the animation should play forwards, backwards, or alternate?
+哪个动画属性决定动画是向前播放、向后播放还是交替播放？
 
 #### --distractors--
 
@@ -580,7 +580,7 @@ Which animation property determines whether the animation should play forwards, 
 
 #### --text--
 
-Which CSS media query detects if the user has requested minimal animations or motion effects?
+哪个 CSS 媒体查询可以检测用户是否要求使用最小化动画或运动效果？
 
 #### --distractors--
 
@@ -602,7 +602,7 @@ Which CSS media query detects if the user has requested minimal animations or mo
 
 #### --text--
 
-Which property sets how many times an `animation` repeats?
+哪个属性可设置 `animation` 的重复次数？
 
 #### --distractors--
 
@@ -624,7 +624,7 @@ Which property sets how many times an `animation` repeats?
 
 #### --text--
 
-Which CSS rule is used to define the stages and styles of an animation at various points during its duration?
+哪种 CSS 规则用于定义动画在持续时间内不同时间点的阶段和样式？
 
 #### --distractors--
 
@@ -646,7 +646,7 @@ Which CSS rule is used to define the stages and styles of an animation at variou
 
 #### --text--
 
-Inside the `reduced‑motion` media query, which declaration disables transitions?
+在 `reduced‑motion` 媒体查询中，哪个声明会禁用过渡？
 
 #### --distractors--
 
@@ -668,95 +668,95 @@ Inside the `reduced‑motion` media query, which declaration disables transition
 
 #### --text--
 
-What does the `animation-play-state` property allow you to do?
+`animation-play-state` 属性允许你做什么？
 
 #### --distractors--
 
-Set how many times the animation repeats.
+设置动画的重复次数。
 
 ---
 
-Specify how long the animation takes to complete.
+指定动画完成所需的时间。
 
 ---
 
-Determine the direction in which the animation plays.
+确定动画播放的方向。
 
 #### --answer--
 
-Pause and resume the animation.
+暂停和恢复动画。
 
 ### --question--
 
 #### --text--
 
-Which of the following is a good practice when working with animations?
+以下哪项是处理动画时的最佳实践？
 
 #### --distractors--
 
-Use as many flashing colors and rapid movements as possible to grab attention.
+尽可能多地使用闪烁的颜色和快速的动作来吸引注意力。
 
 ---
 
-Avoid testing animations on different devices or screen sizes.
+避免在不同设备或屏幕尺寸上测试动画。
 
 ---
 
-Make animations last as long as possible to ensure users notice them.
+尽可能延长动画的持续时间，确保用户注意到它们。
 
 #### --answer--
 
-Avoid content that flashes more than three times per second to prevent triggering seizures or causing discomfort.
+避免每秒闪烁超过三次的内容，以防引发癫痫发作或造成不适。
 
 ### --question--
 
 #### --text--
 
-Why is the `!important` declaration used in the CSS rules?
+为什么在 CSS 规则中使用 `!important` 声明？
 
 #### --distractors--
 
-To prevent other media queries from loading.
+防止加载其他媒体查询。
 
 ---
 
-To limit styles to the first child element.
+将样式限制为应用于第一个子元素。
 
 ---
 
-To debug CSS more easily.
+更轻松地调试 CSS。
 
 #### --answer--
 
-To ensure these rules take precedence over other styles.
+确保这些规则优先于其他样式。
 
 ### --question--
 
 #### --text--
 
-What does `animation-iteration-count: 1 !important;` ensure in CSS?
+在 CSS 中 `animation-iteration-count: 1 !important;` 能确保什么？
 
 #### --distractors--
 
-That animations are paused.
+动画暂停。
 
 ---
 
-That animations run infinitely.
+动画无限运行。
 
 ---
 
-That animations reverse direction each cycle.
+每次循环的动画方向相反。
 
 #### --answer--
 
-That any looping animations only play once.
+任何循环动画只播放一次。
 
 ### --question--
 
 #### --text--
 
-What CSS property is used to specify how long an animation should take to complete?
+什么 CSS 属性用于指定动画的完成时间？
 
 #### --distractors--
 
@@ -778,7 +778,7 @@ What CSS property is used to specify how long an animation should take to comple
 
 #### --text--
 
-Which property is NOT part of the `animation` shorthand?
+哪个属性不属于 `animation` 简写的一部分？
 
 #### --distractors--
 
@@ -800,29 +800,29 @@ Which property is NOT part of the `animation` shorthand?
 
 #### --text--
 
-What does the `@keyframes` rule define?
+`@keyframes` 规则定义了什么？
 
 #### --distractors--
 
-The timing function of an animation.
+动画的缓动函数。
 
 ---
 
-The default state of an element.
+元素的默认状态。
 
 ---
 
-The media queries for animations.
+动画的媒体查询。
 
 #### --answer--
 
-The sequence of styles at different points in an animation.
+动画中不同点的样式顺序。
 
 ### --question--
 
 #### --text--
 
-What does this `@keyframe` at-rule do to the animated element?
+这个 `@keyframe` @ 规则对动画元素有什么作用？
 
 ```css
 @keyframes fade-in {
@@ -837,47 +837,47 @@ What does this `@keyframe` at-rule do to the animated element?
 
 #### --distractors--
 
-It scales the element up from 0% to 100%.
+它将元素从 0% 放大到 100%。
 
 ---
 
-It moves the element from left to right.
+它将元素从左到右移动。
 
 ---
 
-It changes the text color to black.
+它会将文字颜色变为黑色。
 
 #### --answer--
 
-It makes the element fade in by gradually decreasing its transparency.
+它通过逐渐降低元素的透明度使其淡入。
 
 ### --question--
 
 #### --text--
 
-In a keyframes rule, what does `100%` represent?
+在关键帧规则中，`100%` 代表什么？
 
 #### --distractors--
 
-The start of the animation.
+动画起点。
 
 ---
 
-The halfway point.
+动画中点。
 
 ---
 
-The easing function.
+缓动函数。
 
 #### --answer--
 
-The end of the animation.
+动画终点。
 
 ### --question--
 
 #### --text--
 
-Which property controls the pace of an `animation` over its duration?
+哪个属性可控制 `animation` 在持续时间内的节奏？
 
 #### --distractors--
 
@@ -899,29 +899,29 @@ Which property controls the pace of an `animation` over its duration?
 
 #### --text--
 
-What should developers consider when implementing animations to maintain accessibility?
+为保持无障碍环境，开发人员在实施动画时应考虑哪些因素？
 
 #### --distractors--
 
-Rely entirely on JavaScript for all animations.
+所有动画完全依赖 JavaScript。
 
 ---
 
-Add frequent and intense animations for impact.
+添加频繁而密集的动画，以增强冲击力。
 
 ---
 
-Include only bold, fast, and surprising effects.
+只包含突出、快速和令人惊讶的效果。
 
 #### --answer--
 
-Use subtle, intentional effects, honor preferences, and offer user control.
+使用微妙、目的明确的效果，尊重偏好，并提供用户控制。
 
 ### --question--
 
 #### --text--
 
-Which of the following is the correct syntax to slide an element in from the left?
+以下哪项是从左侧滑入元素的正确语法？
 
 #### --distractors--
 

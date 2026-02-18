@@ -1,6 +1,6 @@
 ---
 id: 67af11fa7b01ff0c8ac9d6ed
-title: Task 45
+title: 任务 45
 challengeType: 19
 dashedName: task-45
 lang: en-US
@@ -16,7 +16,7 @@ lang: en-US
 
 ## --text--
 
-After reviewing the survey results for the remote work stipend, Bob decided to write an article:
+在审查了远程工作补贴的调查结果后，Bob 决定写一篇文章：
 
 `The Remote Work Stipend Debate: Comfort or Productivity?`
 
@@ -30,35 +30,35 @@ After reviewing the survey results for the remote work stipend, Bob decided to w
 
 `As remote work grows, companies need to support their workers in the best way possible. A well-equipped home office isn't just a nice extra — it's key to doing great work.`
 
-Why do some workers prefer to use the stipend for office furniture?
+为什么有些员工更喜欢将津贴用于办公家具？
 
 ## --answers--
 
-Because they don't like working remotely.
+因为他们不喜欢远程工作。
 
 ### --feedback--
 
-The article does not suggest that these workers dislike remote work.
+文章并未暗示这些员工不喜欢远程工作。
 
 ---
 
-To improve comfort and prevent back pain.
+为了提高舒适度并预防背痛。
 
 ---
 
-To buy decorations for their home office.
+为他们的家庭办公室购买装饰品。
 
 ### --feedback--
 
-The article doesn't discuss furniture that improves decorations.
+本文不讨论改善装饰的家具。
 
 ---
 
-To impress their coworkers.
+给他们的同事留下深刻印象。
 
 ### --feedback--
 
-The reason given in the article isn't appearances.
+文章中给出的原因不是外观。
 
 ## --video-solution--
 
@@ -66,6 +66,6 @@ The reason given in the article isn't appearances.
 
 # --explanation--
 
-The article explains that `a bad chair and desk can cause health problems` and make it harder to focus. This is why some workers prioritize using the stipend for office furniture instead of technology.
+文章解释了 `a bad chair and desk can cause health problems` 并且使专注变得更加困难。这就是为什么有些员工优先将津贴用于办公家具而不是技术设备。
 
-Focus on how the article highlights ergonomics and well-being as key reasons for choosing furniture over computers.
+重点介绍文章如何将人体工程学和健康作为选择家具而非计算机的关键原因。

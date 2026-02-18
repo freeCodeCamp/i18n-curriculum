@@ -1,6 +1,6 @@
 ---
 id: 679d3cfdaca2eb81f8d81cf7
-title: Task 97
+title: 任务 97
 challengeType: 19
 dashedName: task-97
 lang: en-US
@@ -16,35 +16,35 @@ lang: en-US
 
 ## --text--
 
-What is Maria asking James to do?
+Maria 正在要求 James 做什么？
 
 ## --answers--
 
-To fix the problem immediately.
+立即解决该问题。
 
 ### --feedback--
 
-Maria is not asking James to fix the issue right away.
+Maria 并没有要求 James 立即修复该问题。
 
 ---
 
-To report the issue to the client.
+向客户报告该问题。
 
 ### --feedback--
 
-Maria does not mention informing the client.
+Maria 没有提到通知客户。
 
 ---
 
-To investigate the problem.
+为调查该问题。
 
 ---
 
-To ignore the problem for now.
+暂时忽略该问题。
 
 ### --feedback--
 
-Maria is not asking James to ignore the issue.
+Maria 并没有要求 James 忽略这个问题。
 
 ## --video-solution--
 
@@ -52,11 +52,11 @@ Maria is not asking James to ignore the issue.
 
 # --explanation--
 
-`Can` is commonly used to make polite requests, asking someone to do something in an informal way. For example:
+`Can` 通常用于以非正式的方式礼貌地提出请求，要求某人做某事。例如：
 
-`Can you send me the report by noon?` - This is a polite way to ask someone to send a report.
+`Can you send me the report by noon?` - 这是一种礼貌地请求某人发送报告的方式。
 
-In this dialogue, Maria is requesting James to investigate the problem.
+在这个对话框中，Maria 正在请求 James 调查该问题。
 
 # --scene--
 

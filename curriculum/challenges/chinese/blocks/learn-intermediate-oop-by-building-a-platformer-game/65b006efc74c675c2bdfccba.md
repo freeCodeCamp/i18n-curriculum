@@ -9,7 +9,7 @@ dashedName: step-33
 
 对于最后一个条件，你需要检查玩家的 `x` 位置是否超出了画布的右边缘。 如果超出，你需要将玩家的 `x` 位置设置为最大值，以便玩家不会意外地向右偏离屏幕。
 
-在 `update` 方法中，创建一个 `if` 语句，检查 `this.position.x >= canvas.width - this.width * 2` 是否成立。
+在你的 `update` 方法内，创建一个 `if` 语句，用于查看 `this.position.x >= canvas.width - this.width * 2`。 
 
 # --hints--
 
@@ -20,7 +20,7 @@ const player = new Player();
 assert.lengthOf(player?.update?.toString().match(/if\s*\(\s*.*\s*\)\s*{/g), 4);
 ```
 
-你的 `if` 语句应该检查是否 `this.position.x >= canvas.width - this.width * 2`。
+你的 `if` 语句应查看 `this.position.x >= canvas.width - this.width * 2` 是否成立。
 
 ```js
 const player = new Player();
@@ -197,7 +197,7 @@ class Player {
     ctx.fillStyle = "#99c9ff";
     ctx.fillRect(this.position.x, this.position.y, this.width, this.height);
   }
-
+  
   update() {
     this.draw();
     this.position.x += this.velocity.x;

@@ -1,15 +1,15 @@
 ---
 id: 6732b28eeadda1158cdbff7b
-title: How Can You Check if an Array Contains a Certain Value?
+title: 如何检查数组是否包含特定值？
 challengeType: 19
 dashedName: how-can-you-check-if-an-array-contains-a-certain-value
 ---
 
 # --interactive--
 
-In JavaScript, the `includes()` method is a simple and efficient way to check if an array contains a specific value. This method returns a boolean value: `true` if the array contains the specified element, and `false` otherwise.
+在 JavaScript 中，`includes()` 方法是检查数组是否包含特定值的一种简单而有效的方法。 该方法返回一个布尔值：如果数组包含指定元素返回 `true`，否则返回 `false`。 
 
-The `includes()` method is particularly useful when you need to quickly verify the presence of an element in an array without needing to know its exact position. Let's start with an example of how to use the `includes()` method:
+`includes()` 方法在需要快速验证数组中是否存在元素而不需要知道其确切位置时特别有用。 让我们从如何使用 `includes()` 方法的示例开始：
 
 :::interactive_editor
 
@@ -21,9 +21,9 @@ console.log(fruits.includes("grape"));  // false
 
 :::
 
-In this example, we have an array of fruits. We use the `includes()` method to check if `banana` is in the array. It returns `true` because `banana` is indeed present. We then check for `grape`, which returns `false` because it's not in the array.
+在这个例子中，我们有一个水果数组。 我们使用 `includes()` 方法来检查 `banana` 是否在数组中。 它返回 `true`，因为 `banana` 确实存在。 然后我们检查 `grape`，返回 `false`，因为它不在数组中。
 
-The `includes()` method is case-sensitive when dealing with strings. This means that `Banana` with a capital B and `banana` with all lowercase letters are considered different values. Here's an example that illustrates this:
+在处理字符串时，`includes()` 方法区分大小写。 这意味着带有大写字母 B 的 `Banana` 和全小写的 `banana` 会被认为是不同的值。 下面有一个例子可以说明这一点：
 
 :::interactive_editor
 
@@ -35,9 +35,9 @@ console.log(fruits.includes("Banana")); // false
 
 :::
 
-In this case, `banana` (all in lowercase) is found in the array, but `Banana` (with the first letter capitalized) is not, so the second `includes()` call returns `false`.
+在这种情况下，`banana`（全小写）能在数组中找到，但 `Banana`（首字母大写）找不到，所以第二次调用 `includes()` 会返回 `false`。
 
-The `includes()` method can also accept an optional second parameter that specifies the position in the array to start the search. This is useful if you want to check for an element's presence in a specific part of the array. Here's how you can use this feature:
+`includes()` 方法还可以接受一个可选的第二个参数，指定在数组中开始搜索的位置。 如果要检查某个元素是否存在于数组的某个特定部分，这个功能非常有用。 下面介绍如何使用该功能：
 
 :::interactive_editor
 
@@ -49,11 +49,11 @@ console.log(numbers.includes(30, 4)); // true
 
 :::
 
-For the first `console.log`, we are looking for the number `30` starting at index `3`. In this case, there is a number `30` that appears after index `3`, so the `includes()` method returns `true`.
+在第一个 `console.log` 中，我们从索引 `3` 开始查找数字 `30`。 在索引 `3` 之后，确实有一个数字 `30` 出现，所以 `includes()` 方法返回 `true`。 
 
-The same is true for the second `console.log`. We are looking for the number `30` starting at index `4`. Since the number `30` does appear after that index, then it will return `true`.
+第二个 `console.log` 也是如此。 我们从索引 `4` 开始查找数字 `30`。 由于数字 `30` 也出现在该索引之后，所以它也返回 `true`。 
 
-It's worth noting that `includes()` uses the strict equality comparison (`===`), which means it can distinguish between different types. 例如：
+值得注意的是，`includes()` 使用严格相等（`===`）进行比较，这意味着它可以区分不同的类型。 例如：
 
 :::interactive_editor
 
@@ -65,9 +65,9 @@ console.log(mixedArray.includes("2")); // true
 
 :::
 
-In this case, the number `2` and the string `"2"` are considered different data types. So, the first `console.log` will return `false`, while the second `console.log` will return `true`.
+在这个例子中，数字 `2` 和字符串 `"2"` 被认为是不同的数据类型。 因此，第一个 `console.log` 会返回 `false`，而第二个 `console.log` 会返回 `true`。
 
-The `includes()` method is a powerful tool for checking the presence of elements in arrays. It's simple to use, efficient, and can save you from writing more complex loops or conditions to search through arrays. Whether you're working with strings, numbers, or mixed data types, `includes()` provides a straightforward way to verify if a value exists in your array.
+`includes()` 方法是检查数组中是否存在某个元素的强大工具。 它使用简单，效率高，可以让你不必编写更复杂的循环或条件来搜索数组。 无论你处理的是字符串、数字还是混合数据类型，`includes()` 都提供了一种直接的方法来验证数组中是否存在某个值。
 
 # --questions--
 
@@ -86,7 +86,7 @@ console.log(arr.includes(3, 3));
 
 ### --feedback--
 
-The second parameter of `includes()` specifies the starting position for the search.
+`includes()` 的第二个参数指定搜索的起始位置。
 
 ---
 
@@ -98,7 +98,7 @@ The second parameter of `includes()` specifies the starting position for the sea
 
 ### --feedback--
 
-The second parameter of `includes()` specifies the starting position for the search.
+`includes()` 的第二个参数指定搜索的起始位置。
 
 ---
 
@@ -106,7 +106,7 @@ The second parameter of `includes()` specifies the starting position for the sea
 
 ### --feedback--
 
-The second parameter of `includes()` specifies the starting position for the search.
+`includes()` 的第二个参数指定搜索的起始位置。
 
 ## --video-solution--
 
@@ -127,7 +127,7 @@ console.log(arr.includes("C"));
 
 ### --feedback--
 
-Remember that `includes()` is case-sensitive when dealing with strings.
+请记住，在处理字符串时，`includes()` 是区分大小写的。
 
 ---
 
@@ -139,7 +139,7 @@ Remember that `includes()` is case-sensitive when dealing with strings.
 
 ### --feedback--
 
-Remember that `includes()` is case-sensitive when dealing with strings.
+请记住，在处理字符串时，`includes()` 是区分大小写的。
 
 ---
 
@@ -147,7 +147,7 @@ Remember that `includes()` is case-sensitive when dealing with strings.
 
 ### --feedback--
 
-Remember that `includes()` is case-sensitive when dealing with strings.
+请记住，在处理字符串时，`includes()` 是区分大小写的。
 
 ## --video-solution--
 
@@ -168,7 +168,7 @@ console.log(arr.includes("3"));
 
 ### --feedback--
 
-The `includes()` method uses strict equality (`===`) for comparison.
+`includes()` 方法使用严格相等（`===`）进行比较。
 
 ---
 
@@ -180,7 +180,7 @@ The `includes()` method uses strict equality (`===`) for comparison.
 
 ### --feedback--
 
-The `includes()` method uses strict equality (`===`) for comparison.
+`includes()` 方法使用严格相等（`===`）进行比较。
 
 ---
 
@@ -188,7 +188,7 @@ The `includes()` method uses strict equality (`===`) for comparison.
 
 ### --feedback--
 
-The `includes()` method uses strict equality (`===`) for comparison.
+`includes()` 方法使用严格相等（`===`）进行比较。
 
 ## --video-solution--
 

@@ -1,6 +1,6 @@
 ---
 id: 67aa23adedb02b11aaceda26
-title: Task 8
+title: 任务 8
 challengeType: 19
 dashedName: task-8
 lang: en-US
@@ -16,35 +16,35 @@ lang: en-US
 
 ## --text--
 
-What is more important, according to Anna?
+根据 Anna，什么更重要？
 
 ## --answers--
 
-Upgrading computers.
+升级计算机。
 
 ---
 
-Buying new office furniture.
+购买新建办公家具。
 
 ### --feedback--
 
-Anna acknowledges that furniture is important but says that many people mentioned needing something else.
+Anna 承认家具很重要，但说很多人提到需要别的东西。
 
 ---
 
-Getting a bigger remote work stipend.
+获得更高的远程工作津贴。
 
 ### --feedback--
 
-Anna does not talk about increasing the stipend, only how people want to use it.
+Anna 不谈论增加津贴，只谈论人们如何想使用它。
 
 ---
 
-Changing the survey questions.
+更改调查问题。
 
 ### --feedback--
 
-Anna does not mention anything about the survey questions.
+Anna 没有提到任何关于调查问题的内容。
 
 ## --video-solution--
 
@@ -52,11 +52,11 @@ Anna does not mention anything about the survey questions.
 
 # --explanation--
 
-A `computer upgrade` means improving a computer by adding or replacing parts like more memory (RAM), a faster processor, or a better screen. For example:
+`computer upgrade` 是指通过添加或更换部件来提升计算机性能，例如更多的内存（RAM）、更快的处理器或更好的屏幕。例如：
 
-- `I need a computer upgrade to run the latest software.` - The speaker's current computer is not powerful enough, so they need a better one.
+- `I need a computer upgrade to run the latest software。` - 说话者当前的计算机性能不足，因此他们需要一台更好的。
 
-- `After the computer upgrade, everything runs much faster.` -  The system's performance improved after updating or replacing components.
+- `After the computer upgrade, everything runs much faster.` - 系统的性能在更新或更换组件后得到了提升。
 
 # --scene--
 

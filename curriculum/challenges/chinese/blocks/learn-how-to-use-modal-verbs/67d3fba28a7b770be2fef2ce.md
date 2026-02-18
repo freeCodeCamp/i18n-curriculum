@@ -1,8 +1,9 @@
 ---
 id: 67d3fba28a7b770be2fef2ce
-title: Task 6
+title: 任务 6
 challengeType: 19
 dashedName: task-6
+showSpeakingButton: true
 lang: en-US
 ---
 
@@ -18,19 +19,27 @@ lang: en-US
 
 ## --text--
 
-Mark doesn't mind talking with Jessica and wants to know what he needs to do. What would he say?
+马克不介意和杰西卡交谈，并且想知道他需要做什么。他会说什么？
 
 ## --answers--
 
 `Sorry, Jessica. I'm too busy right now.`
 
+### --audio-id--
+
+en-b1-67d3fba28a7b770be2fef2ce-SP1
+
 ### --feedback--
 
-This response does not match Mark's willingness to talk.
+此响应不匹配 Mark 的交谈意愿。
 
 ---
 
 `Sure, Jessica. What do I need to do?`
+
+### --audio-id--
+
+en-b1-67d3fba28a7b770be2fef2ce-SP2
 
 ## --video-solution--
 
@@ -38,11 +47,11 @@ This response does not match Mark's willingness to talk.
 
 # --explanation--
 
-The correct answer shows that Mark is willing to talk and wants to know the necessary steps.
+正确答案表明 Mark 愿意交谈并且想知道必要的步骤。
 
-`Sure, Jessica` expresses agreement and openness to the conversation.
+`Sure, Jessica` 表示同意并愿意进行对话。
 
-`What do I need to do?` shows that Mark is asking for instructions, which matches Jessica's statement about what he must do to ensure compliance.
+`What do I need to do?` 显示 Mark 正在询问指令，这与 Jessica 关于他必须做什么以确保合规的语句匹配。
 
 # --scene--
 

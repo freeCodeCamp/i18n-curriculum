@@ -1,6 +1,6 @@
 ---
 id: 5dfa371beacea3f48c6300af
-title: 步骤 21
+title: 步骤21
 challengeType: 0
 dashedName: step-21
 ---
@@ -81,7 +81,7 @@ assert(
 --fcc-editable-region--
       <section>
         <h2>Cat Lists</h2>
-
+        
       </section>
 --fcc-editable-region--
     </main>

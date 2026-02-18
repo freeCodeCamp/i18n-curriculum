@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+请听音频，并完成下面的填空。
 
 # --fillInTheBlank--
 
@@ -24,13 +24,13 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-Think about what people need to improve their home workspace. This includes desks, chairs, and shelves.
+考虑人们改善家庭工作空间所需的物品。这包括书桌、椅子和书架。
 
 # --explanation--
 
-`Office furniture` refers to desks, chairs, shelves, and other items used in a workspace.
+`Office furniture` 指的是工作空间中使用的桌子、椅子、架子和其他项。
 
-In this dialogue, Bob is talking about how employees are choosing to spend their remote work stipend. Since working from home requires a comfortable and productive setup, many people use the stipend to buy office furniture such as ergonomic chairs or spacious desks.
+在这个对话框中，Bob 正在谈论员工们如何选择使用他们的远程工作补贴。由于在家工作需要一个舒适且高效的环境，许多人使用补贴购买办公家具，例如符合人体工学的椅子或宽敞的书桌。
 
 # --scene--
 

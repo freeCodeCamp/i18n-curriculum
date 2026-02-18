@@ -27,7 +27,7 @@ Linda: Not yet, but I anticipate we'll start receiving more detailed reports as 
 
 ### --feedback--
 
-A word that shows two actions happening at the same time or one action depending on another.
+一个表示两个动作同时发生或一个动作依赖于另一个动作的词。
 
 ---
 
@@ -35,7 +35,7 @@ A word that shows two actions happening at the same time or one action depending
 
 ### --feedback--
 
-A word that indicates a greater quantity or number.
+表示更大数量或数字的词。
 
 ---
 
@@ -43,7 +43,7 @@ A word that indicates a greater quantity or number.
 
 ### --feedback--
 
-A word that refers to the people navigating the updated interface.
+一个指代使用更新后接口的用户的词。
 
 ---
 
@@ -51,15 +51,15 @@ A word that refers to the people navigating the updated interface.
 
 ### --feedback--
 
-A word that means to move around or through something, such as a website or an app.
+一个表示在某物（例如网站或应用程序）中移动或浏览的词。
 
 # --explanation--
 
-`As` can be used to mean "while" or "when", showing that one action will happen while another action is taking place. 例如：
+`As` 可以用来表示“当……时”或“在……期间”，表明一个动作将在另一个动作进行时发生。例如：
 
-- `As I was walking home, they called me.` - They called you while you were walking home.
+- `As I was walking home, they called me.` - 他们在你走回家时调用了你。
 
-- `You will get better at coding as you practice more.` - You will improve while or when you practice more.
+- 你在更多练习时会变得更擅长编码。
 
 # --scene--
 

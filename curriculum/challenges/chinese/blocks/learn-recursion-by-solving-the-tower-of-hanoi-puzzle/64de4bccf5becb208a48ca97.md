@@ -13,11 +13,11 @@ dashedName: step-13
 - 第二根杆是辅助杆，它有助于将圆盘移动到目标杆。
 - 第三根杆是目标，游戏结束时所有圆盘应按顺序摆放在此处。
 
-目前，`move()` 函数不接受任何参数。 将函数声明更改为采用 4 个参数：`n`、`source`、`auxiliary` 和 `target`。 然后，将 `NUMBER_OF_DISKS` 和字符串 `'A'`、`'B'` 和 `'C'` 作为参数传递给函数调用。 The order matters.
+目前，`move()` 函数不接受任何参数。 将函数声明更改为采用 4 个参数：`n`、`source`、`auxiliary` 和 `target`。 然后，将 `NUMBER_OF_DISKS` 和字符串 `'A'`、`'B'` 和 `'C'` 作为参数传递给函数调用。 记住参数传递的顺序是很重要的。
 
 # --hints--
 
-你的 `move()` 函数应该具有 `n`、`source`、`auxiliary` 和 `target` 作为参数。 The order matters.
+你的 `move()` 函数应该具有 `n`、`source`、`auxiliary` 和 `target` 作为参数。 记住参数传递的顺序是很重要的。
 
 ```js
 ({ test: () => assert(runPython(`

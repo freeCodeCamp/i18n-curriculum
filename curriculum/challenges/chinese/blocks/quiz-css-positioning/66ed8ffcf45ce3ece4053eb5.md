@@ -1,6 +1,6 @@
 ---
 id: 66ed8ffcf45ce3ece4053eb5
-title: CSS Positioning Quiz
+title: CSS 定位测验
 challengeType: 8
 dashedName: quiz-css-positioning
 ---
@@ -17,7 +17,7 @@ dashedName: quiz-css-positioning
 
 #### --text--
 
-Which of the following is NOT a valid value for the `position` property?
+以下哪项不是 `position` 属性的有效值？
 
 #### --distractors--
 
@@ -39,29 +39,29 @@ Which of the following is NOT a valid value for the `position` property?
 
 #### --text--
 
-What is the main purpose of the `float` property in CSS?
+CSS 中的 `float` 属性的主要用途是什么？
 
 #### --distractors--
 
-Floats are used to remove an element from its normal flow on the page and automatically position it in the upper right hand side of the webpage.
+浮动用于将元素从页面上的正常流程中移除，并自动定位到网页的右上方。
 
 ---
 
-Floats are used to remove an element from its normal flow on the page and position it to the top of its container.
+浮动用于将元素从其在页面上的正常流程中移除，并将其定位到其容器的顶部。
 
 ---
 
-Floats are used to remove an element from its normal flow on the page and automatically position it to the bottom right hand side of webpage.
+浮动用于将元素从页面的正常流程中移除，并自动定位到网页的右下方。
 
 #### --answer--
 
-Floats are used to remove an element from its normal flow on the page and position it either on the left or right side of its container.
+浮动用于将元素从页面上的正常流程中移除，并将其放置在容器的左侧或右侧。
 
 ### --question--
 
 #### --text--
 
-Which of the following is an example making a box element float to the left?
+以下哪项是使盒子元素向左浮动的示例？
 
 #### --distractors--
 
@@ -115,29 +115,29 @@ Which of the following is an example making a box element float to the left?
 
 #### --text--
 
-What is the role of the `clear` property?
+`clear` 属性的作用是什么？
 
 #### --distractors--
 
-It is used to determine if an element needs to be moved to the bottom of the page.
+用于确定是否需要将元素移动到页面底部。
 
 ---
 
-It is used to determine if an element needs to be completely cleared from the page.
+它用于确定元素是否需要从页面中完全清除。
 
 ---
 
-It is used to determine if an element needs to be fixed to the top of the page.
+用于确定元素是否需要固定在页面顶部。
 
 #### --answer--
 
-It is used to determine if an element needs to be moved below the floated content.
+用于确定是否需要将元素移动到浮动内容下方。
 
 ### --question--
 
 #### --text--
 
-Which CSS property is used to control the vertical stacking order of positioned elements that overlap on the page?
+哪个 CSS 属性用于控制页面上重叠定位元素的垂直堆叠顺序？
 
 #### --distractors--
 
@@ -159,7 +159,7 @@ Which CSS property is used to control the vertical stacking order of positioned 
 
 #### --text--
 
-Which of the following is the correct syntax for relative positioning?
+以下哪项是相对定位的正确语法？
 
 #### --distractors--
 
@@ -205,7 +205,7 @@ Which of the following is the correct syntax for relative positioning?
 
 #### --text--
 
-Which CSS property would you use to fix an element at a certain position on the page so that it does not move when scrolling occurs?
+使用哪个 CSS 属性可以将元素固定在页面上的某个位置，使其在滚动时不会移动？
 
 #### --distractors--
 
@@ -227,29 +227,29 @@ Which CSS property would you use to fix an element at a certain position on the 
 
 #### --text--
 
-What does absolute positioning do to an element?
+绝对定位对一个元素有什么作用？
 
 #### --distractors--
 
-Absolute positioning is used to determine if an element needs to be moved below the floated content.
+绝对定位用于确定元素是否需要移动到浮动内容的下方。
 
 ---
 
-Absolute positioning is used to position the element within the normal document flow.
+绝对定位用于在正常文档流中定位元素。
 
 ---
 
-Absolute positioning is used to control the vertical stacking order of positioned elements that overlap on the page.
+绝对定位用于控制页面上重叠定位元素的垂直堆叠顺序。
 
 #### --answer--
 
-Absolute positioning allows you to take an element out of the normal document flow, making it behave independently from other elements.
+绝对定位允许你将一个元素从正常的文档流程中分离出来，使其行为独立于其他元素。
 
 ### --question--
 
 #### --text--
 
-Which of the following is NOT a valid property that you can use for absolute positioning?
+以下哪项不是可以用于绝对定位的有效属性？
 
 #### --distractors--
 
@@ -271,29 +271,29 @@ Which of the following is NOT a valid property that you can use for absolute pos
 
 #### --text--
 
-What is the key difference between relative and absolute positioning?
+相对定位和绝对定位的主要区别是什么？
 
 #### --distractors--
 
-Absolute positioning sets the element in a sticky position while relative positioning takes an element out of the normal document flow.
+绝对定位将元素设置在一个固定位置，而相对定位则将元素从正常文档流中移出。
 
 ---
 
-Relative positioning sets the element in a fixed position while absolute positioning takes an element out of the normal document flow.
+相对定位将元素设置在一个固定位置，而绝对定位则将元素从正常文档流中移除。
 
 ---
 
-Absolute positioning positions the element within the normal document flow while relative positioning takes an element out of the normal document flow.
+绝对定位将元素置于正常文档流内，而相对定位则将元素置于正常文档流之外。
 
 #### --answer--
 
-Relative positioning positions the element within the normal document flow while absolute positioning takes an element out of the normal document flow.
+相对定位将元素置于正常文档流内，而绝对定位则将元素置于正常文档流之外。
 
 ### --question--
 
 #### --text--
 
-Which of the following is an example of positioning a box in the upper left hand corner of the page?
+以下哪项是将盒子定位在页面左上角的示例？
 
 #### --distractors--
 
@@ -351,29 +351,29 @@ Which of the following is an example of positioning a box in the upper left hand
 
 #### --text--
 
-Which positioning method allows an element to stick to a defined position only when you scroll past a certain point?
+哪种定位方法可以让元素在滚动到某一点时保持在指定位置？
 
 #### --distractors--
 
-Float positioning.
+浮动定位。
 
 ---
 
-Fixed positioning.
+固定定位。
 
 ---
 
-Absolute positioning.
+绝对定位。
 
 #### --answer--
 
-Sticky positioning.
+粘性定位。
 
 ### --question--
 
 #### --text--
 
-Which of the following is a correct example of using sticky positioning?
+以下哪项是使用粘性定位的正确示例？
 
 #### --distractors--
 
@@ -430,51 +430,51 @@ Which of the following is a correct example of using sticky positioning?
 
 #### --text--
 
-What is the difference between sticky and fixed positioning?
+粘性定位和固定定位有什么区别？
 
 #### --distractors--
 
-Sticky elements can only be used in table layouts while fixed elements can be used in any type of CSS layout.
+粘性元素只能在表格布局中使用，而固定元素可以在任何类型的 CSS 布局中使用。
 
 ---
 
-Sticky elements will always remain in the same position while fixed elements will stick to a certain point then behave like relative elements.
+粘性元素会始终保持在同一位置，而固定元素会粘在某一点上，然后表现得像相对元素。
 
 ---
 
-Fixed elements will be positioned relative to its normal position while sticky elements will only stick to a certain point then behave like relative elements.
+固定元素会相对于其正常位置定位，而粘性元素只会粘在某一点上，然后表现得像相对元素一样。
 
 #### --answer--
 
-Fixed elements will remain in the same position on the screen while sticky elements will only stick to a certain point then behave like relative elements.
+固定元素会保持在屏幕上的同一位置，而粘性元素只会粘在某一点上，然后表现得像相对元素。
 
 ### --question--
 
 #### --text--
 
-What problem did the `clearfix` hack solve when working with floats?
+在使用浮动时，`clearfix` 技术解决了什么问题？
 
 #### --distractors--
 
-The `clearfix` hack helped solve the issue of floated elements being removed from the normal document flow and being placed in a fixed position on the page.
+`clearfix` 技术帮助解决了浮动元素从正常文档流中移除并放置在页面固定位置的问题。
 
 ---
 
-The `clearfix` hack helped solve the issue of floated elements not being responsive in mobile and tablet layouts.
+`clearfix` 技术帮助解决了浮动元素在手机和平板电脑布局中无法响应的问题。
 
 ---
 
-The `clearfix` hack helped solve the issue of floated elements disappearing from the page.
+`clearfix` 技术帮助解决了浮动元素从页面上消失的问题。
 
 #### --answer--
 
-The `clearfix` hack helped solve the issue of overlaps and collapsing in the layouts when multiple floated elements were stacked next to each other.
+当多个浮动元素堆叠在一起时，`clearfix` 技术帮助解决了布局中的重叠和折叠问题。
 
 ### --question--
 
 #### --text--
 
-Which of the following is a correct example for using the `clearfix` hack?
+以下哪项是使用 `clearfix` 技术的正确示例？
 
 #### --distractors--
 
@@ -521,29 +521,29 @@ Which of the following is a correct example for using the `clearfix` hack?
 
 #### --text--
 
-What is static positioning?
+什么是静态定位？
 
 #### --distractors--
 
-This is used to remove an element from its normal flow on the page and automatically position it in the upper right hand side of the webpage.
+用于将元素从页面的正常流程中移除，并自动将其定位在网页的右上方。
 
 ---
 
-This allows you to take an element out of the normal document flow, making it behave independently from other elements.
+允许你将一个元素从正常的文档流程中分离出来，使其行为独立于其他元素。
 
 ---
 
-This allows an element to stick to a defined position only when you scroll past a certain point.
+允许元素仅在滚动到某一点时保持在指定位置。
 
 #### --answer--
 
-This is the normal flow for the document. Elements are positioned from top to bottom and left to right one after another.
+这是文件的正常流程。 元素从上到下、从左到右依次定位。
 
 ### --question--
 
 #### --text--
 
-Which of the following is an example of setting the navbar to the top of the page using fixed positioning?
+以下哪项是使用固定定位将导航栏设置到页面顶部的示例？
 
 #### --distractors--
 
@@ -588,7 +588,7 @@ Which of the following is an example of setting the navbar to the top of the pag
 
 #### --text--
 
-Which of the following is a valid value to use for the `z-index` property?
+以下哪项是 `z-index` 属性的有效值？
 
 #### --distractors--
 
@@ -610,7 +610,7 @@ Which of the following is a valid value to use for the `z-index` property?
 
 #### --text--
 
-Which of the following is the default value of the `position` property?
+以下哪项是 `position` 属性的默认值？
 
 #### --distractors--
 
@@ -634,7 +634,7 @@ Which of the following is the default value of the `position` property?
 
 #### --text--
 
-Which `position` value lets you adjust an element's position with `top` and `left` while keeping it within the normal document flow?
+哪个 `position` 值可以让你用 `top` 和 `left` 调整元素的位置，同时使其保持在正常的文档流中？
 
 #### --distractors--
 
@@ -656,29 +656,29 @@ Which `position` value lets you adjust an element's position with `top` and `lef
 
 #### --text--
 
-How does an element with `position: sticky;` initially behave?
+带有 `position: sticky;` 的元素最初会有什么表现？
 
 #### --distractors--
 
-It behaves like a `fixed` element until a scroll position is reached.
+在到达滚动位置之前，它的行为类似于 `fixed`元素。
 
 ---
 
-It is always removed from the normal document flow.
+它总是从正常文件流中移除。
 
 ---
 
-It behaves like an `absolute` element within its parent.
+它的行为类似于父元素中的 `absolute` 元素。
 
 #### --answer--
 
-It behaves like a `relative` element until a specified scroll position is met.
+在达到指定的滚动位置之前，它的行为类似于 `relative`元素。
 
 ### --question--
 
 #### --text--
 
-Which of the following demonstrates a valid and effective use of the `z-index` property to make `.box-two` appear on top of `.box-one`?
+以下哪项演示了有效使用 `z-index` 属性使 `.box-two` 显示在 `.box-one` 的上面？
 
 #### --distractors--
 
@@ -736,51 +736,51 @@ Which of the following demonstrates a valid and effective use of the `z-index` p
 
 #### --text--
 
-What is the `z-index` property used for in CSS?
+CSS 中的 `z-index` 属性有什么作用？
 
 #### --distractors--
 
-It sets the zoom level of the page.
+它设置页面的缩放级别。
 
 ---
 
-It controls the horizontal alignment of elements within a flex container.
+它控制弹性容器中元素的水平对齐方式。
 
 ---
 
-It defines the spacing between an element's content and its border.
+它定义元素内容与其边框之间的间距。
 
 #### --answer--
 
-It controls the vertical stacking order of positioned elements that overlap.
+它控制重叠定位元素的垂直堆叠顺序。
 
 ### --question--
 
 #### --text--
 
-When you apply `top: 10%;` to an element with `position: fixed;`, what is the `10%` calculated in relation to?
+当你将 `top: 10%;` 应用于 `position: fixed;` 定位的元素时，`10%` 是根据什么计算的？
 
 #### --distractors--
 
-The height of the element itself.
+元素本身的高度。
 
 ---
 
-The height of its parent container.
+父容器的高度。
 
 ---
 
-The width of the viewport.
+视口的宽度。
 
 #### --answer--
 
-The height of the viewport.
+视口的高度。
 
 ### --question--
 
 #### --text--
 
-Which of the code examples is a correct use of the `z-index` property to place an overlay above other content?
+哪个代码示例是正确使用 `z-index` 属性将叠加内容置于其他内容之上？
 
 #### --distractors--
 
@@ -825,7 +825,7 @@ Which of the code examples is a correct use of the `z-index` property to place a
 
 #### --text--
 
-Which CSS property is used to control whether an element should be moved below floated elements?
+哪个 CSS 属性用于控制元素是否应移动到浮动元素下方？
 
 #### --distractors--
 
@@ -847,73 +847,73 @@ Which CSS property is used to control whether an element should be moved below f
 
 #### --text--
 
-How will an element with `position: relative;` and `bottom: 25px;` be moved?
+具有 `position: relative;` 和 `bottom: 25px;` 的元素将如何移动？
 
 #### --distractors--
 
-It will move 25px down from its normal position.
+它将从正常位置向下移动 25px。
 
 ---
 
-It will move 25px to the right of its normal position.
+它将从正常位置向右移动 25px。
 
 ---
 
-It will be positioned 25px from the bottom of the viewport.
+它将被置于距离视口底部 25px 处。
 
 #### --answer--
 
-It will move 25px up from its normal position.
+它将从正常位置向上移动 25px。
 
 ### --question--
 
 #### --text--
 
-The `z-index` property will only affect elements that have what CSS property applied?
+`z-index` 属性只会影响应用了什么 CSS 属性的元素？
 
 #### --distractors--
 
-A `float` value other than `none`.
+具有除 `none` 值以外的 `float` 的。
 
 ---
 
-A `display` value of `inline-block`.
+`display` 属性值为 `inline-block` 的。
 
 ---
 
-A `background-color` set.
+设置了 `background-color` 的。
 
 #### --answer--
 
-A `position` value other than `static`.
+具有除 `static` 值以外的 `position` 的。
 
 ### --question--
 
 #### --text--
 
-What would be the effect of applying `float: right;` to a logo in a header?
+对页头中的 logo 应用 `float: right;` 会产生什么效果？
 
 #### --distractors--
 
-The logo would be aligned to the right, but would remain in the normal document flow, preventing other content from wrapping.
+Logo 将向右对齐，但仍保留在正常的文档流中，防止其他内容被包裹。
 
 ---
 
-The logo would be taken out of the flow and positioned on the right side of the entire browser viewport, not its container.
+Logo 将从文档流中移出，放置在整个浏览器视口的右侧，而不是其容器中。
 
 ---
 
-The logo would become a block-level element that takes up the full width of the header, pushing other elements below it.
+Logo 将成为一个块级元素，占据整个页头的宽度，并将其他元素推到其下方。
 
 #### --answer--
 
-The logo would be removed from its normal flow and placed on the right side of its container, with other content wrapping around it.
+Logo 将从其正常文档流中移除，放在其容器的右侧，其他内容包裹在其周围。
 
 ### --question--
 
 #### --text--
 
-Which CSS snippet will keep an element fixed to the top of the viewport once it is scrolled to?
+滚动到视口顶部后，哪个 CSS 代码段能使元素固定在视窗顶部？
 
 #### --distractors--
 
@@ -955,29 +955,29 @@ Which CSS snippet will keep an element fixed to the top of the viewport once it 
 
 #### --text--
 
-What is the specific purpose of `clear: both;` in CSS?
+CSS 中的 `clear: both;` 的具体作用是什么？
 
 #### --distractors--
 
-It cancels out the `float` property on the element itself, returning it to the normal document flow.
+它会取消元素本身的 `float` 属性，使其返回正常文档流。
 
 ---
 
-It removes any `clear` properties that were inherited from a parent element, restoring the default floating behavior.
+它会删除从父元素继承的任何 `clear` 属性，恢复默认的浮动行为。
 
 ---
 
-It only clears floated elements that are on the right side, allowing left-floated elements to remain as they are.
+它只清除右侧的浮动元素，允许左侧的浮动元素保持原样。
 
 #### --answer--
 
-It ensures the element is moved below any floated elements that appear before it on both the left and right sides.
+它可以确保元素被移动到在它之前出现的任何浮动元素的左侧和右侧下方。
 
 ### --question--
 
 #### --text--
 
-Given the following code, how will `.child` be positioned?
+给定以下代码，`.child` 将如何定位？
 
 ```css
 .parent {
@@ -992,25 +992,25 @@ Given the following code, how will `.child` be positioned?
 
 #### --distractors--
 
-It will be positioned 10px from the top of the `.parent` element, as `absolute` positioning is always relative to the direct parent.
+它将被放置在距离 `.parent` 元素顶部 10px 的位置，因为`absolute` 定位总是相对于直接父级。
 
 ---
 
-It will remain in its default static position because the `absolute` value is invalid without a `z-index` property.
+由于 `absolute` 值在没有 `z-index` 属性的情况下无效，因此它将保持默认的静态位置。
 
 ---
 
-It will be positioned 10px from the top of the browser window, remaining fixed in place even when the user scrolls the page.
+它的位置距离浏览器窗口顶部 10px，即使用户滚动页面也不会移动。
 
 #### --answer--
 
-It will be positioned 10px from the top of the initial containing block, such as the `<body>`, because its parent is not positioned.
+它将距离初始包含块（例如 `<body>`）顶部 10px，因为它的父元素没有定位。
 
 ### --question--
 
 #### --text--
 
-What effect will the following CSS have on the `.box` element?
+以下 CSS 将对 `.box` 元素产生什么影响？
 
 ```css
 .box {
@@ -1022,25 +1022,25 @@ What effect will the following CSS have on the `.box` element?
 
 #### --distractors--
 
-The element will remain in its normal flow but will be indented by 50px from the top and left, pushing other elements away.
+该元素将保持正常文档流，但会从顶部和左侧缩进 50px，将其他元素推开。
 
 ---
 
-The element will be fixed to the viewport and will stay 50px from the top and 50px from the left, even when the page is scrolled.
+该元素将固定在视口中，即使页面滚动，也会保持距顶部 50px 和距左侧 50px 的距离。
 
 ---
 
-The element will be positioned relative to its own starting point, moving 50px down and 50px to the right without leaving the document flow.
+元素将相对于自己的起点定位，向下移动 50px 并向右移动 50px，而不会离开文档流。
 
 #### --answer--
 
-The element will be taken out of the normal flow and placed 50px from the top and 50px from the left of its nearest positioned ancestor.
+该元素将从正常文档流中移出，并放置在距离其最近位置的祖先顶部和左侧各 50px 的位置。
 
 ### --question--
 
 #### --text--
 
-Which of the following `position` values removes an element entirely from the document's normal flow?
+以下哪个 `position` 值可以将元素从正常文档流程中完全删除？
 
 #### --distractors--
 
@@ -1062,7 +1062,7 @@ Which of the following `position` values removes an element entirely from the do
 
 #### --text--
 
-Given a `.parent` and a `.child` element, which CSS snippet will correctly position the `.child` 20px from the top left corner of the `.parent` element?
+给定一个 `.parent` 和一个 `.child` 元素，哪个 CSS 代码段可以正确地将 `.child` 定位在距离 `.parent` 元素左上角 20px 的位置？
 
 #### --distractors--
 
@@ -1120,29 +1120,29 @@ Given a `.parent` and a `.child` element, which CSS snippet will correctly posit
 
 #### --text--
 
-What is the difference between `static` and `relative` positioning?
+`static` 和 `relative` 定位的区别是什么？
 
 #### --distractors--
 
-`static` positioning removes an element from the document flow, while `relative` positioning keeps it in the flow.
+`static` 定位将元素从文档流中移除，而 `relative` 定位则使其保持在文档流中。
 
 ---
 
-An element with `position: static;` can be offset with the `top` and `left` properties, while `position: relative;` cannot.
+带有 `position: static;` 的元素可以使用 `top` 和 `left` 属性进行偏移，而 `position: relative;` 则不行。
 
 ---
 
-`static` positioning is for block-level elements, while `relative` positioning is only intended for inline elements.
+`static` 定位用于块级元素，而 `relative` 定位只适用于内联元素。
 
 #### --answer--
 
-Both keep an element in the normal document flow, but `relative` allows the element to be offset from its original position.
+两者都能使元素保持在正常文档流中，但 `relative` 允许元素偏离其原始位置。
 
 ### --question--
 
 #### --text--
 
-Which CSS snippet correctly floats an image to the left, allowing other content to wrap around it?
+哪个 CSS 代码段可以正确地将图片浮动到左侧，从而使其他内容可以围绕图片展开？
 
 #### --distractors--
 
@@ -1181,29 +1181,29 @@ Which CSS snippet correctly floats an image to the left, allowing other content 
 
 #### --text--
 
-What is the difference between `absolute` and `fixed` positioning?
+`absolute` 和 `fixed` 定位的区别是什么？
 
 #### --distractors--
 
-`absolute` positioning is relative to the viewport, while `fixed` positioning is relative to the nearest positioned ancestor.
+`absolute` 定位是相对于视口而言的，而 `fixed` 定位则是相对于最近的已定位祖先。
 
 ---
 
-`absolute` positioning keeps the element in the normal document flow, while `fixed` positioning removes it from the flow.
+`absolute` 定位使元素保持在正常的文档流中，而 `fixed` 定位会将其从文档流中移除。
 
 ---
 
-Both are positioned relative to the viewport, but `fixed` elements will scroll with the page while `absolute` elements will not.
+两者都相对于视口定位，但 `fixed` 元素将随页面滚动，而 `absolute` 元素则不会。
 
 #### --answer--
 
-`absolute` positioning is relative to the nearest positioned ancestor, while `fixed` positioning is relative to the browser viewport.
+`absolute` 定位是相对于最近的已定位祖先，而 `fixed` 定位则是相对于浏览器视口。
 
 ### --question--
 
 #### --text--
 
-Which `position` value places an element in the normal document flow and prevents offset properties like `top` and `left` from having any effect?
+哪个 `position` 值可将元素置于正常文档流中，并防止 `top` 和 `left` 等偏移属性产生任何影响？
 
 #### --distractors--
 

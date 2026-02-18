@@ -11,7 +11,7 @@ dashedName: step-30
 
 你将要编写的 CSS 是一组通用属性，用于确保元素在视觉上完全隐藏。
 
-`span[class~="sr-only"]` 选择器将选择任何 `span` 元素，其 `class` *包括* `sr-only`。 创建该选择器，并将其 `border` 属性设置为 `0`。
+`span[class~="sr-only"]` 选择器将选择任何 `class` *包括* `sr-only` 的 `span` 元素。 创建该选择器，并将其 `border` 属性设置为 `0`。
 
 # --hints--
 

@@ -1,6 +1,6 @@
 ---
 id: 678e5a7c4de8c4ccf4ed6ca9
-title: Task 66
+title: 任务 66
 challengeType: 22
 dashedName: task-66
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+请听音频，并完成下面的填空。
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This word means to have the same opinion or to reach a mutual understanding.
+这个词的意思是持相同意见或达成共识。 
 
 ---
 
@@ -32,17 +32,17 @@ This word means to have the same opinion or to reach a mutual understanding.
 
 ### --feedback--
 
-This word means to have a different opinion or to not be in agreement.
+这个词意味着持有不同意见或不一致。
 
 # --explanation--
 
-`Agree` means to be in agreement or have the same opinion as someone. For example:
+`Agree` 意味着同意或与某人持相同意见。例如：  
 
-`We both agree that improving security is important.` - This means you share the same opinion about security with other person.
+`We both agree that improving security is important.` - 这意味着你与另一个人对安全性有相同的看法。
 
-`Disagree` means to have a different opinion or not be in agreement. For example:
+`Disagree` 意味着有不同的观点或不一致。例如：  
 
-`Jake and Maria disagree on which software to use.` - This shows that Jake and Maria have different opinions on the choice of software.
+`Jake and Maria disagree on which software to use。` - 这表明 Jake 和 Maria 对软件的选择有不同的意见。
 
 # --scene--
 

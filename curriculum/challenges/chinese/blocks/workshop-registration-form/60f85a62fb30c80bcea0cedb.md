@@ -7,26 +7,26 @@ dashedName: step-20
 
 # --description--
 
-Users will be able to choose whether their account is for `Personal` or `Business` purposes.
+用户可以选择其账户是用于 `Personal` 或 `Business` 用途。
 
-To do this, within each of the first two `label` elements, add one `input` element with `type="radio"`.
+要做到这一点，在前两个 `label` 元素里，分别添加一个 `type="radio"` 的 `input` 元素。
 
 # --hints--
 
-You should add two `input` elements.
+你应该添加两个 `input` 元素。
 
 ```js
 assert.lengthOf(document.querySelectorAll('fieldset:nth-child(2) input'), 2);
 ```
 
-You should add one `input` to each of the first two `label` elements.
+你应该在前两个 `label` 元素中分别添加一个 `input` 元素。
 
 ```js
 assert.exists(document.querySelector('fieldset:nth-child(2) > label:nth-child(1) > input'));
 assert.exists(document.querySelector('fieldset:nth-child(2) > label:nth-child(2) > input'));
 ```
 
-You should give both `input` elements a `type` of `radio`.
+你应该给两个 `input` 元素添加值为 `radio` 的 `type`。
 
 ```js
 assert.lengthOf(document.querySelectorAll('fieldset:nth-child(2) input[type="radio"]'), 2);

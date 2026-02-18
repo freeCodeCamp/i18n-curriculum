@@ -1,28 +1,28 @@
 ---
 id: 68f1196f0fedc6f6ecc9aba6
-title: Step 4
+title: 步骤4
 challengeType: 20
 dashedName: step-4
 ---
 
 # --description--
 
-In Python, a return type hint indicates the expected return type of a function or method. You do this by adding `-> return_type` after the parameter list in the method definition.
+在 Python 中，返回类型提示表示函数或方法的预期返回类型。你通过在方法定义中的参数列表后添加 `-> return_type` 来实现这一点。
 
-Here is an example of a method with both parameter and return type hints whose return type is `bool`:
+这是一个带有参数和返回类型提示且返回类型为 `bool` 的方法示例：
 
 ```py
 def example_method(self, value: int) -> bool:
   pass
 ```
 
-Other return type hints you might use include `str`, `None`, `float` and more.
+你可能使用的其他返回类型提示包括 `str`、`None`、`float` 等。
 
-In the existing `__init__` method, add a return type hint of `None` since constructors do not return a value.
+在现有的 `__init__` 方法中，添加返回类型提示 `None`，因为构造函数不返回值。
 
 # --hints--
 
-Your `__init__` method should have a return type hint of `None`.
+你的 `__init__` 方法应有 `None` 的返回类型提示。
 
 ```js
 ({

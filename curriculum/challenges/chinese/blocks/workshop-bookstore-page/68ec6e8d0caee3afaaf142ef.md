@@ -1,31 +1,31 @@
 ---
 id: 68ec6e8d0caee3afaaf142ef
-title: Step 8
+title: 步骤 8
 challengeType: 0
 dashedName: step-8
 ---
 
 # --description--
 
-You can add multiple elements inside a `div` element to group related content. Inside the element having a `class` of `card-container`, create another `div` element. This `div` will represent the first book card.
+你可以在一个 `div` 元素内添加多个元素以分组相关内容。在具有 `class` 为 `card-container` 的元素内，创建另一个 `div` 元素。这个 `div` 将表现第一个书籍卡片。
 
-Add a `class` attribute to this new `div` element and set the value of the `class` attribute to `card`.
+为这个新建的 `div` 元素添加一个 `class` 属性，并将 `class` 属性的值设置为 `card`。
 
 # --hints--
 
-You should have a `div` element nested inside the element with a class of `card-container`.
+你应该在具有 `card-container` 类的元素内嵌套一个 `div` 元素。
 
 ```js
 assert.exists(document.querySelector('.card-container div'));
 ```
 
-Your new `div` element should have a `class` attribute.
+你的新建 `div` 元素应具有 `class` 属性。
 
 ```js
 assert.isTrue(document.querySelector('.card-container div')?.hasAttribute('class'));
 ```
 
-Your new `div` element should have a `class` having the value of `card`.
+你的新建 `div` 元素应具有值为 `card` 的 `class`。
 
 ```js
 assert.exists(document.querySelector('.card-container div.card'));

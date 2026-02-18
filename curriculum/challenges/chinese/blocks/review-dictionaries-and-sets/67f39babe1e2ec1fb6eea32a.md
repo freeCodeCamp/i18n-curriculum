@@ -1,15 +1,15 @@
 ---
 id: 67f39babe1e2ec1fb6eea32a
-title: Dictionaries and Sets Review
+title: 字典和集合复习
 challengeType: 31
 dashedName: review-dictionaries-and-sets
 ---
 
 # --description--
 
-## Dictionaries
+## 字典
 
-- **Dictionaries**: Dictionaries are built-in data structures that store collections of key-value pairs. Keys need to be immutable data types. This is the general syntax of a Python dictionary:
+- **字典**：字典是内置的数据结构，用于保存键值对集合。键需要是不可变的数据类型。这是 Python 字典的通用语法：
 
 ```python
 dictionary = {
@@ -18,27 +18,27 @@ dictionary = {
 }
 ```
 
-- **`dict()` Constructor**: The `dict()` constructor is an alternative way to build the dictionary. You pass a list of tuples as an argument to the `dict()` constructor. These tuples contain the key as the first element and the value as the second element.
+- **`dict()` 构造函数**：`dict()` 构造函数是构建字典的备选方法。你将一个元组列表作为参数传递给 `dict()` 构造函数。这些元组包含第一个元素作为密钥，第二个元素作为值。
 
 ```python
 pizza = dict([('name', 'Margherita Pizza'), ('price', 8.9), ('calories_per_slice', 250), ('toppings', ['mozzarella', 'basil'])])
 ```
 
-- **Bracket Notation**: To access the value of a key-value pair, you can use the syntax known as bracket notation.
+- **方括弧表示法**：要访问一个点对的值，你可以使用称为方括弧表示法的语法。
 
 ```python
 dictionary[key]
 ```
 
-## Common Dictionary Methods
+## 常用字典方法
 
-- **`get()` Method**: The `get()` method retrieves the value associated with a key. It's similar to the bracket notation, but it lets you set a default value, preventing errors if the key doesn't exist.
+- **`get()` 方法**：`get()` 方法检索与密钥关联的值。它类似于方括弧表示法，但允许你设置默认值，从而防止密钥不存在时出现误差。
 
 ```python
 dictionary.get(key, default)
 ```
 
-- **`keys()` and `values()` Methods**: The `keys()` and `values()` methods return a view object with all the keys and values in the dictionary, respectively. A view object is a way to see the content of a dictionary without creating a separate copy of the data.
+- **`keys()` 和 `values()` 方法**：`keys()` 和 `values()` 方法分别返回包含字典中所有密钥和值的视图对象。视图对象是一种查看字典内容而不创建数据单独拷贝的方式。
 
 ```python
 pizza = {
@@ -54,41 +54,41 @@ pizza.values()
 # dict_values(['Margherita Pizza', 8.9, 250])
 ```
 
-- **`items()` Method**: The `items()` method returns a view object with all the key-value pairs in the dictionary, including both the keys and the values.
+- **`items()` 方法**：`items()` 方法返回一个包含字典中所有键值点对的视图对象，包括键和值。
 
 ```python
 pizza.items()
 # dict_items([('name', 'Margherita Pizza'), ('price', 8.9), ('calories_per_slice', 250)])
 ```
 
-- **`clear()` Method**: The `clear()` method removes all the key-value pairs from the dictionary.
+- **`clear()` 方法**：`clear()` 方法从字典中移除所有的密钥-值点对。
 
 ```python
 pizza.clear()
 ```
 
-- **`pop()` Method**: The `pop()` method removes the key-value pair with the key specified as the first argument and returns its value. If the key doesn't exist, it returns the default value specified as the second argument. If the key doesn't exist and the default value is not specified, a `KeyError` is raised.
+- **`pop()` 方法**：`pop()` 方法移除第一个参数指定的密钥对应的点对并返回其值。如果密钥不存在，则返回第二个参数指定的默认值。如果密钥不存在且未指定默认值，则引起 `KeyError`。
 
 ```python
 pizza.pop('price', 10)
 pizza.pop('total_price') # KeyError
 ```
 
-- **`popitem()` Method**: In Python 3.7 and above, the `popitem()` method removes the last inserted item.
+- **`popitem()` 方法**：在 Python 3.7 及以上版本中，`popitem()` 方法会移除最后插入的项。
 
 ```python
 pizza.popitem()
 ```
 
-- **`update()` Method**: The `update()` method updates the key-value pairs with the key-value pairs of another dictionary. If they have keys in common, their values are overwritten. New keys will be added to the dictionary as new key-value pairs.
+- **`update()` 方法**：`update()` 方法使用另一个字典的键值对更新键值对。如果它们有相同的键，则其值将被覆盖。新键将作为新的键值对添加到字典中。
 
 ```python
 pizza.update({ 'price': 15, 'total_time': 25 })
 ```
 
-## Looping Over a Dictionary
+## 遍历字典的循环
 
-- **Iterating Over Values**: If you need to iterate over the values in a dictionary, you can write a `for` loop with `values()` to get all the values of a dictionary.
+- **迭代值**：如果你需要迭代字典中的值，可以编写一个带有 `values()` 的 `for` 循环来获取字典的所有值。
 
 ```python
 products = {
@@ -102,7 +102,7 @@ for price in products.values():
     print(price)
 ```
 
-Output:
+输出:
 
 ```md
 990
@@ -111,7 +111,7 @@ Output:
 70
 ```
 
-- **Iterating Over Keys**: If you need to iterate over the keys in the `products` dictionary above, you can write `products.keys()` or `products` directly.
+- **迭代密钥**：如果你需要迭代上面 `products` 字典中的密钥，你可以写 `products.keys()` 或直接写 `products`。
 
 ```python
 for product in products.keys():
@@ -123,7 +123,7 @@ for product in products:
     print(product)
 ```
 
-Output:
+输出:
 
 ```md
 Laptop
@@ -132,14 +132,14 @@ Tablet
 Headphones
 ```
 
-- **Iterating Over Key-Value Pairs**: If you need to iterate over the keys and their corresponding values simultaneously, you can iterate over `products.items()`. You get individual tuples with the keys and their corresponding values.
+- **迭代密钥-值点对**：如果你需要同时迭代密钥及其对应的值，你可以迭代 `products.items()`。你将获得包含密钥及其对应值的单个元组。
 
 ```python
 for product in products.items():
     print(product)
 ```
 
-Output:
+输出:
 
 ```md
 ('Laptop', 990)
@@ -148,14 +148,14 @@ Output:
 ('Headphones', 70)
 ```
 
-To store the key and value in separate loop variables, you need to separate them with a comma. The first variable stores the key, and the second stores the value.
+要将密钥和值分别保存到不同的循环变量中，你需要用逗号将它们分开。第一个变量保存密钥，第二个保存值。
 
 ```python
 for product, price in products.items():
     print(product, price)
 ```
 
-Output:
+输出:
 
 ```md
 Laptop 990
@@ -164,16 +164,16 @@ Tablet 250
 Headphones 70
 ```
 
-- **`enumerate()` Function**: If you need to iterate over a dictionary while keeping track of a counter, you can call the `enumerate()` function. The function returns an `enumerate` object, which assigns an integer to each item, like a counter. You can start the counter from any number, but by default, it starts from 0.
+- **`enumerate()` 函数**：如果你需要在迭代字典的同时跟踪计数器，可以调用 `enumerate()` 函数。该函数返回一个 `enumerate` 对象，它为每个项赋值一个整数，就像计数器一样。你可以从任意数字开始计数，但默认从 0 开始。
 
-Assigning the index and item to separate loop variables is the common way to use `enumerate()`. For example, with `products.items()`, you can get the entire key-value pair in addition to the index:
+将索引和项赋值给单独的循环变量是使用 `enumerate()` 的常见方式。例如，使用 `products.items()`，你可以除了索引外，还获取整个键值点对：
 
 ```python
 for index, product in enumerate(products.items()):
     print(index, product)
 ```
 
-Output:
+输出:
 
 ```md
 0 ('Laptop', 990)
@@ -182,14 +182,14 @@ Output:
 3 ('Headphones', 70)
 ```
 
-To customize the initial value of the count, you can pass a second argument to `enumerate()`. For example, here we are starting the count from 1.
+要自定义计数的初始值，你可以向 `enumerate()` 传递第二个参数。例如，这里我们从 1 开始计数。
 
 ```python
 for index, product in enumerate(products.items(), 1):
     print(index, product)
 ```
 
-Output:
+输出:
 
 ```md
 1 ('Laptop', 990)
@@ -198,47 +198,47 @@ Output:
 4 ('Headphones', 70)
 ```
 
-## Sets
+## 集合
 
-- **Sets**: Sets are built-in data structures in Python that do not allow duplicate values. Sets are mutable and unordered, which means that their elements are not stored in any specific order, so you cannot use indices or keys to access them. Also, sets can only contain values of immutable data types, like numbers, strings, and tuples.
+- **集合**：集合是 Python 中的内置数据结构，不允许有副本值。集合是可变的且无序的，这意味着它们的元素不会以任何特定顺序保存，因此你不能使用索引或密钥来访问它们。此外，集合只能包含不可变数据类型的值，比如数字、字串和元组。
 
-- **Defining a Set**: To define a set, you need to write its elements within curly brackets and separate them with commas.
+- **定义一个集合**：要定义一个集合，你需要将它的元素写在括弧状的括号内，并用逗号分隔。
 
 ```python
 my_set = {1, 2, 3, 4, 5}
 ```
 
-- **Defining an Empty Set**: If you need to define an empty set, you must use the `set()` function. Only writing empty curly braces will automatically create a dictionary.
+- **定义空集**：如果你需要定义一个空集，必须使用 `set()` 函数。仅写空的括弧状的花括弧会自动创建一个字典。
 
 ```python
 set() # Set
 {}    # Dictionary
 ```
 
-## Common Set Methods
+## 常用集合方法
 
-- **`add()` Method**: You can add an element to a set with the `add()` method, passing the new element as an argument.
+- **`add()` 方法**：你可以使用 `add()` 方法为集合添加一个元素，将新元素作为参数传入。
 
 ```python
 my_set.add(6)
 ```
 
-- **`remove()` and `discard()` Methods**: To remove an element from a set, you can either use the `remove()` method or the `discard()` method, passing the element you want to remove as an argument. The `remove()` method will raise a `KeyError` if the element is not found while the `discard()` method will not.
+- **`remove()` 和 `discard()` 方法**：要从集合中移除一个元素，你可以使用 `remove()` 方法或 `discard()` 方法，将你想移除的元素作为参数传入。若未找到该元素，`remove()` 方法会引起 `KeyError`，而 `discard()` 方法则不会。
 
 ```python
 my_set.remove(4)
 my_set.discard(4)
 ```
 
-- **`clear()` method**:  The `clear()` method removes all the elements from the set.
+- **`clear()` 方法**：`clear()` 方法从集合中移除所有元素。
 
 ```python
 my_set.clear()
 ```
 
-## Mathematical Set Operations
+## 数学集合操作
 
-- **`issubset()` and `issuperset()` Methods**: The `issubset()` and the `issuperset()` methods check if a set is a subset or superset of another set, respectively.
+- **`issubset()` 和 `issuperset()` 方法**：`issubset()` 和 `issuperset()` 方法分别检查一个集合是否是另一个集合的子集或超集。
 
 ```python
 my_set = {1, 2, 3, 4, 5}
@@ -248,7 +248,7 @@ print(your_set.issubset(my_set)) # True
 print(my_set.issuperset(your_set)) # True
 ```
 
-- **`isdisjoint()` Method**: The `isdisjoint()` method checks if two sets are disjoint, if they don't have elements in common.
+- **`isdisjoint()` 方法**：`isdisjoint()` 方法检查两个集合是否不相交，即它们没有共同的元素。
 
 ```python
 my_set = {1, 2, 3}
@@ -257,7 +257,7 @@ your_set = {4, 5, 6}
 print(my_set.isdisjoint(your_set)) # True
 ```
 
-- **Union Operator (`|`)**: The union operator `|` returns a new set with all the elements from both sets.
+- **并集操作符 (`|`)**：并集操作符 `|` 返回一个包含两个集合中所有元素的新建集合。
 
 ```python
 my_set = {1, 2, 3}
@@ -266,7 +266,7 @@ your_set = {4, 5, 6}
 my_set | your_set # {1, 2, 3, 4, 5, 6}
 ```
 
-- **Intersection Operator (`&`)**: The intersection operator `&` returns a new set with only the elements that the sets have in common.
+- **交集操作符 (`&`)**：交集操作符 `&` 返回一个只包含集合共有元素的新建集合。
 
 ```python
 my_set = {1, 2, 3, 4, 5}
@@ -275,7 +275,7 @@ your_set = {2, 3, 4, 6}
 my_set & your_set # {2, 3, 4}
 ```
 
-- **Difference Operator (`-`)**: The difference operator `-` returns a new set with the elements of the first set that are not in the other sets.
+- **差集操作符 (`-`)**：差集操作符 `-` 返回一个新建集合，其中包含第一个集合中不在其他集合内的元素。
 
 ```python
 my_set = {1, 2, 3, 4, 5}
@@ -284,7 +284,7 @@ your_set = {2, 3, 4, 6}
 my_set - your_set # {1, 5}
 ```
 
-- **Symmetric Difference Operator (`^`)**: The symmetric difference operator `^` returns a new set with the elements that are either in the first or the second set, but not both.
+- **对称差操作符 (`^`)**：对称差操作符 `^` 返回一个新建集合，该集合包含仅存在于第一个集合或第二个集合中的元素，但不包含两者共有的元素。
 
 ```python
 my_set = {1, 2, 3, 4, 5}
@@ -293,33 +293,33 @@ your_set = {2, 3, 4, 6}
 my_set ^ your_set # {1, 5, 6}
 ```
 
-- **`in` Operator**: You can check if an element is in a set or not with the `in` operator.
+- **`in` 操作符**：你可以使用 `in` 操作符查看一个元素是否在集合中。
 
 ```python
 print(5 in my_set) # True
 ```
 
-## Python Standard Library
+## Python 标准函数库
 
-- **Python Standard Library**: A library gives you pre-written and reusable code, like functions, classes, and data structures, that you can reuse in your projects. Python has an extensive standard library with built-in modules that implement standardized solutions for many problems and tasks. Some examples of popular built-in modules are `math`, `random`, `re` (short for "regular expressions"), and `datetime`.
+- **Python 标准函数库**：库为你提供预先编写且可重用的代码，如函数、类和数据结构，你可以在你的项目中重复使用。Python 拥有一个庞大的标准函数库，内置模块实现了许多问题和任务的标准化方案。一些流行的内置模块示例包括 `math`、`random`、`re`（“正则表达式”的缩写）和 `datetime`。
 
-## Import Statement
+## 导入语句
 
-- **Import Statement**: To access the elements defined in built-in modules, you use an import statement. Import statements are generally written at the top of the file. Import statements work the same for functions, classes, constants, variables, and any other elements defined in the module.
+- **导入语句**：要访问内置模块中定义的元素，你使用导入语句。导入语句通常写在文件顶部。导入语句对模块中定义的函数、类、常量、变量以及任何其他元素的作用相同。
 
-- **Basic Import Statement**: You can use the `import` keyword followed by the name of the module:
+- **基本导入语句**：你可以使用 `import` 关键字，后跟模块名称：
 
 ```python
 import module_name
 ```
 
-Then, if you need to call a method from that module, you would use dot notation, with the name of the module followed by the name of the method.
+然后，如果你需要调用该模块中的方法，你应使用点符号，模块名称后跟方法名称。
 
 ```python
 module_name.method_name()
 ```
 
-For example, you would write the following in your code to import the `math` module and get the square root of 36:
+例如，你可以在你的代码中写如下内容来导入 `math` 模块并获取 36 的平方根：
 
 ```python
 import math
@@ -327,31 +327,31 @@ import math
 math.sqrt(36)
 ```
 
-- **Importing a Module with a Different Name**: If you need to import the module with a different name (also known as an "alias"), you can use `as` followed by the alias at the end of the import statement. This is often used for long module names or to avoid naming conflicts.
+- **使用不同名称导入模块**：如果你需要使用不同名称（也称为“别名”）导入模块，可以在导入语句末尾使用 `as` 后跟别名。这通常用于模块名称较长或避免命名冲突。
 
 ```python
 import module_name as module_alias
 ```
 
-For example, to refer to the `math` module as `m` in your code, you can assign an alias like this:
+例如，要在你的代码中将 `math` 模块别名为 `m`，你可以这样赋值别名：
 
 ```python
 import math as m
 ```
 
-Then, you can access the elements of the module using the alias:
+然后，你可以使用别名访问模块的元素：
 
 ```python
 m.sqrt(36)
 ```
 
-- **Importing Specific Elements**: If you don't need everything from a module, you can import specific elements using `from`. In this case, the import statement starts with `from`, followed by the module name, then the `import` keyword, and finally the names of the elements you want to import.
+- **导入特定元素**：如果你不需要模块中的所有内容，可以使用 `from` 导入特定元素。在这种情况下，导入语句以 `from` 开头，后跟模块名称，然后是 `import` 关键字，最后是你想导入的元素名称。
 
 ```python
 from module_name import name1, name2
 ```
 
-Then, you can use these names without the module prefix in your Python script. 例如：
+然后，你可以在你的 Python 脚本中使用这些名称而无需模块前缀。 例如：
 
 ```python
 from math import radians, sin, cos
@@ -365,35 +365,35 @@ cos_value = cos(angle_radians)
 print(sine_value) # 0.6427876096865393
 print(cos_value)  # 0.766044443118978
 ```
+ 
+这很有帮助，但如果你已经有同名的函数或变量，可能会导致命名冲突。选择你想使用的导入语句类型时请记住这一点。
 
-This is helpful, but it can result in naming conflicts if you already have functions or variables with the same name. Keep it in mind when choosing which type of import statement you want to use.
-
-If you need to assign aliases to these names, you can do so as well, using the `as` keyword followed by the alias.
+如果你需要为这些名称赋值别名，也可以使用 `as` 关键字，后跟别名。
 
 ```python
 from module_name import name1 as alias1, name2 as alias2
 ```
 
-- **Import Statement with Asterisk (`*`)**: The asterisk tells Python that you want to import everything in that module, but you want to import it so that you don't need to use the name of the module as a prefix.
+- **带星号（`*`）的导入语句**：星号告诉 Python 你想导入该模块中的所有内容，但你想导入它以便不需要使用模块名作为前缀。
 
 ```python
 from module_name import *
 ```
 
-For example, if you use this to import the `math` module, you'll be able to call any function defined in that module without specifying the name of the module as a prefix.
+例如，如果你使用这个来导入 `math` 模块，你将能够调用该模块中定义的任何函数，而无需指定模块名称作为前缀。
 
 ```python
 from math import *
 print(sqrt(36))  # 6.0
 ```
 
-However, this is generally discouraged because it can lead to namespace collisions and make it harder to know where names come from.
+但是，这通常不被推荐，因为它可能导致命名空间冲突，并且使得难以知道名称的来源。
 
 ## `if __name__ == '__main__'`
 
-- **`__name__` Variable**: `__name__` is a special built-in variable in Python. When a Python file is executed directly, Python sets the value of this variable to the string `"__main__"`. But if the Python file is imported as a module into another Python script, the value of the `__name__` variable is set to the name of that module.
+- **`__name__` 变量**：`__name__` 是 Python 中一个特殊的内置变量。当一个 Python 文件被直接执行时，Python 会将该变量的值设置为字串 `"__main__"`。但如果该 Python 文件作为模块被导入到另一个 Python 脚本中，`__name__` 变量的值则被设置为该模块的名称。
 
-This is why you'll often find this conditional in Python scripts. It contains the code that you only want to run **only** if the Python script is running as the main program.
+这就是为什么你经常会在 Python 脚本中找到这个条件式。它包含你只想在 Python 脚本作为主程序运行时**才**运行的代码。
 
 ```python
 if __name__ == '__main__': 
@@ -402,4 +402,4 @@ if __name__ == '__main__':
 
 # --assignment--
 
-Review the Dictionaries and Sets topics and concepts.
+复习 Dictionaries 和 Sets 主题和概念。

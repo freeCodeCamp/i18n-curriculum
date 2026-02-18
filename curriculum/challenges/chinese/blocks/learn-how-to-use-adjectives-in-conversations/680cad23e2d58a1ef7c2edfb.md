@@ -1,6 +1,6 @@
 ---
 id: 680cad23e2d58a1ef7c2edfb
-title: Task 19
+title: 任务 19
 challengeType: 22
 dashedName: task-19
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+请听音频，并完成下面的填空。
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This word is used to point to specific items that are close to the speaker.
+这个词用于指代靠近说话者的特定项。
 
 ---
 
@@ -32,13 +32,13 @@ This word is used to point to specific items that are close to the speaker.
 
 ### --feedback--
 
-This compound word means something that can handle a large amount of work, storage, or energy. Remember to use `-`.
+这个复合词表示能够处理大量工作、存储或能量的东西。记住使用 `-`。
 
 # --explanation--
 
-`High-capacity` describes something designed to manage or hold a large amount compared to standard versions. For example:
+`High-capacity` 描述的是相较于标准版本设计用来管理或容纳大量的东西。例如：
 
-`We installed high-capacity batteries in the new devices.` – This means the batteries can store more power and last longer, which is useful in tech equipment.
+`We installed high-capacity batteries in the new devices。`——这意味着电池可以保存更多电量并且持续时间更长，这在技术设备中非常有用。
 
 # --scene--
 

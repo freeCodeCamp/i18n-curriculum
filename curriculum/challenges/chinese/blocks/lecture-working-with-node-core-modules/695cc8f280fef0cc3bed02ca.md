@@ -1,27 +1,27 @@
 ---
 id: 695cc8f280fef0cc3bed02ca
-title: What Is the Path Module and How Does It Work?
+title: 什么是 `path` 模块及其工作原理？
 challengeType: 19
 dashedName: what-is-the-path-module-and-how-does-it-work
 ---
 
 # --description--
 
-The Node.js `path` module lets you work with files and directory paths. It provides several useful methods for handling and transforming directories, including joining, normalizing, and resolving the directories across different platforms and operating systems.
+Node.js 的 `path` 模块让你可以处理文件和目录路径。它提供了多个有用的方法来处理和转换目录，包括在不同平台和操作系统之间连接、规范化和解析目录。
 
-To use the `path` module, you can import it like this:
+要使用 `path` 模块，你可以这样导入它：
 
 ```js
 const path = require("path");
 ```
 
-Let's look at some of the methods the `path` module provides and how they work.
+让我们来看一下 `path` 模块提供的一些方法以及它们的工作原理。
 
-First, you should be aware of the Node.js global variables `__filename` and `__dirname`, AKA "common JS" variables. You don't need the `path` module to access them, which is why they are called global variables.
+首先，你应该了解 Node.js 全局的变量 `__filename` 和 `__dirname`，也称为“common JS”变量。你不需要 `path` 模块来访问它们，这就是它们被称为全局变量的原因。
 
-`__filename` is the absolute path of the current file and `__dirname` is the absolute path of the directory containing the current file.
+`__filename` 是当前文件的绝对路径，`__dirname` 是包含当前文件的目录的绝对路径。
 
-For example, I have a `script.js` file I'm currently working with. Here's what the two methods return:
+例如，我目前正在处理一个 `script.js` 文件。以下是这两个方法的返回值：
 
 ```js
 console.log(__filename);
@@ -31,55 +31,55 @@ console.log(__dirname);
 // /Users/user/Desktop/fCC/script-code/node/node-path
 ```
 
-You should also be aware of relative and absolute paths.
+你还应该了解相对路径和绝对路径。
 
-A relative path points to a file or folder based on your current working directory. For example, `./assets/src/text-files`.
+相对路径是基于你当前工作目录指向一个文件或文件夹。例如，`./assets/src/text-files`。
 
-An absolute path, on the other hand, gives the complete address of a file or folder from the root of your system, such as `/Users/johndoe/projects/app/assets/src/text-files.`
+另一方面，绝对路径从系统根目录给出文件或文件夹的完整地址，例如 `/Users/johndoe/projects/app/assets/src/text-files`。
 
-The `basename()` method shows the last part of the file, that is, the filename:
+`basename()` 方法显示文件的最后一部分，即文件名：
 
 ```js
 console.log(path.basename(__filename)); // script.js
 ```
 
-`dirname()` returns the directory name of a path:
+`dirname()` 返回路径的目录名：
 
 ```js
 console.log(path.dirname(__dirname)); // node-path
 ```
 
-`extname()` returns the extension of the current file:
+`extname()` 返回当前文件的扩展名：
 
 ```js
 console.log(path.extname(__filename)); // .js
 ```
 
-You can also specify a different file to return the extension of:
+你也可以指定不同的文件来返回扩展名：
 
 ```js
 console.log(path.extname('text-files/text1.txt')); // .txt
 ```
 
-The `join()` method takes all the path segments you pass in and joins them into one clean, normalized path. 
+`join()` 方法将你传入的所有路径段连接成一个干净、规范化的路径。 
 
-This could be useful if you want to merge related files in different folders so you can work with them together:
+如果你想合并不同文件夹中相关的文件，以便一起处理，这可能会很有用：
 
 ```js
 const joinedPath = path.join("src", "assets", "text-files");
 console.log(joinedPath); // src/assets/text-files
 ```
 
-Windows uses backslashes to separate directories, so the result will be `src\assets\text-files`.
+Windows 使用反斜线分隔目录，所以结果将是 `src\assets\text-files`。
 
-In addition, the `join()` method automatically fixes wrong slashes and removes extra ones:
+此外，`join()` 方法会自动修正错误的斜线并删除多余的斜线：
 
 ```js
 const wrongPath = path.join("/src//", "assets", "text-files");
 console.log(wrongPath); // /src/assets/text-files
 ```
 
-The `resolve()` method turns a sequence of path segments into an absolute path. It starts from your current working directory and results in a full path that points to the exact location on the device:
+`resolve()` 方法将一系列路径段解析为绝对路径。它从你当前的工作目录开始，最终生成指向设备上确切位置的完整路径：
 
 ```js
 const absolutePath = path.resolve("assets", "src", "text-files");
@@ -87,11 +87,11 @@ console.log(absolutePath);
 // /Users/user/Desktop/fCC/script-code/node/node-path/assets/src/text-files
 ```
 
-The difference between `join()` and `resolve()` is that `join()` creates a relative path, while `resolve()` returns an absolute path.
+`join()` 和 `resolve()` 的区别在于 `join()` 创建相对路径，而 `resolve()` 返回绝对路径。
 
-Lastly, there are the `parse()` and `format()` methods.
+最后，还有 `parse()` 和 `format()` 方法。
 
-`parse()` takes a directory or file and returns an object that contains the breakdown of its parts, such as the system root, its directory, extension, and the filename:
+`parse()` 接受一个目录或文件，并返回一个包含其各部分细分的对象，例如系统根目录、其目录、扩展名和文件名：
 
 ```js
 const parsedFile = path.parse(__filename);
@@ -108,7 +108,7 @@ console.log(parsedFile);
 */
 ```
 
-`format()`, on the other hand, builds a path from an object containing directory, name, and extension:
+另一方面，`format()` 从包含目录、名称和扩展名的对象构建路径：
 
 ```js
 const formattedDirectory = path.format({
@@ -124,35 +124,35 @@ console.log(formattedDirectory); // /users/johndoe/docs/file.txt
 
 ## --text--
 
-What is the difference between `path.dirname()` and `path.extname()` in Node.js?
+`path.dirname()` 和 `path.extname()` 在 Node.js 中有什么区别？
 
 ## --answers--
 
-`dirname()` removes the file extension, while `extname()` removes the directory name.
+`dirname()` 会移除扩展名，而 `extname()` 会移除目录。
 
 ### --feedback--
 
-Focus on which one deals with directories and which one deals with file extensions.
+关注哪个处理目录，哪个处理文件扩展名。
 
 ---
 
-`dirname()` returns the full file path, while `extname()` returns the directory name.
+`dirname()` 返回完整的文件路径，而 `extname()` 返回目录名。
 
 ### --feedback--
 
-Focus on which one deals with directories and which one deals with file extensions.
+关注哪个处理目录，哪个处理文件扩展名。
 
 ---
 
-`dirname()` returns the directory name of a path, while `extname()` returns the file's extension.
+`dirname()` 返回路径的目录名，而 `extname()` 返回文件的扩展名。
 
 ---
 
-`dirname()` and `extname()` both return the same value but in different formats.
+`dirname()` 和 `extname()` 都返回相同的值，但格式不同。
 
 ### --feedback--
 
-Focus on which one deals with directories and which one deals with file extensions.
+关注哪个处理目录，哪个处理文件扩展名。
 
 ## --video-solution--
 
@@ -160,7 +160,7 @@ Focus on which one deals with directories and which one deals with file extensio
 
 ## --text--
 
-Which `path` method builds a complete file path from an object containing directory, name, and extension properties?
+哪个 `path` 方法从包含目录、名称和扩展名属性的对象构建完整的文件路径？
 
 ## --answers--
 
@@ -168,7 +168,7 @@ Which `path` method builds a complete file path from an object containing direct
 
 ### --feedback--
 
-Think about what the opposite of `parse()` is.
+考虑 `parse()` 的反义操作是什么。
 
 ---
 
@@ -180,7 +180,7 @@ Think about what the opposite of `parse()` is.
 
 ### --feedback--
 
-Think about what the opposite of `parse()` is.
+考虑 `parse()` 的反义操作是什么。
 
 ---
 
@@ -188,7 +188,7 @@ Think about what the opposite of `parse()` is.
 
 ### --feedback--
 
-Think about what the opposite of `parse()` is.
+考虑 `parse()` 的反义操作是什么。
 
 ## --video-solution--
 
@@ -196,35 +196,35 @@ Think about what the opposite of `parse()` is.
 
 ## --text--
 
-What do the Node.js global variables `__filename` and `__dirname` provide access to?
+Node.js 全局的变量 `__filename` 和 `__dirname` 提供访问什么？
 
 ## --answers--
 
-The absolute path of the current file and its containing directory.
+当前文件及其包含目录的绝对路径。
 
 ---
 
-The name of the current module and its dependencies.
+当前模块及其依赖项的名称。
 
 ### --feedback--
 
-Think about which variables automatically give you full file and folder paths without using the path module.
+考虑哪些变量可以自动为你提供完整的文件和文件夹路径，而无需使用 `path` 模块。
 
 ---
 
-The relative path to the Node.js installation directory.
+Node.js 安装目录的相对路径。
 
 ### --feedback--
 
-Think about which variables automatically give you full file and folder paths without using the path module.
+考虑哪些变量可以自动为你提供完整的文件和文件夹路径，而无需使用 `path` 模块。
 
 ---
 
-The URL of the running web server and its hostname.
+正在运行的网络服务器的 URL 及其主机名。
 
 ### --feedback--
 
-Think about which variables automatically give you full file and folder paths without using the path module.
+考虑哪些变量可以自动为你提供完整的文件和文件夹路径，而无需使用 `path` 模块。
 
 ## --video-solution--
 

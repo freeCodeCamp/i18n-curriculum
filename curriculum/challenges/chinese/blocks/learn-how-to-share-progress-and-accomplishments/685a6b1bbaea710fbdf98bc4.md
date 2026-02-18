@@ -1,6 +1,6 @@
 ---
 id: 685a6b1bbaea710fbdf98bc4
-title: Task 42
+title: 任务 42
 challengeType: 22
 dashedName: task-42
 lang: en-US
@@ -10,13 +10,13 @@ lang: en-US
 
 # --description--
 
-This is a review of the entire dialogue you just studied.
+这是对你刚刚学习的整个对话框的复习。
 
 # --instructions--
 
-Write the following words or phrases in the correct spot:
+将以下单词或短语写在正确的位置：
 
-`last month`, `a while since`, `next phase`, `good news`, `yesterday`, and `green light`.
+`上个月`、`有一段时间了`、`下一阶段`、`好消息`、`昨天` 和 `绿灯`。
 
 # --fillInTheBlank--
 
@@ -40,7 +40,7 @@ Write the following words or phrases in the correct spot:
 
 ### --feedback--
 
-A way to say it has been some time since something happened.
+一种表达某事已经过去一段时间的方法。
 
 ---
 
@@ -48,7 +48,7 @@ A way to say it has been some time since something happened.
 
 ### --feedback--
 
-The day before today.
+前天。
 
 ---
 
@@ -56,7 +56,7 @@ The day before today.
 
 ### --feedback--
 
-Positive or happy information.
+积极或快乐的信息。
 
 ---
 
@@ -64,7 +64,7 @@ Positive or happy information.
 
 ### --feedback--
 
-The month before the current one.
+当前月份的前一个月。
 
 ---
 
@@ -72,7 +72,7 @@ The month before the current one.
 
 ### --feedback--
 
-Permission to start something.
+开始某事的权限。
 
 ---
 
@@ -80,4 +80,4 @@ Permission to start something.
 
 ### --feedback--
 
-The following part or step in a plan or project.
+计划或项目中的下一部分或步骤。

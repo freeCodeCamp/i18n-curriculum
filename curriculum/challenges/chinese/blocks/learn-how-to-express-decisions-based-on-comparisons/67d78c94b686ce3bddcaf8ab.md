@@ -1,6 +1,6 @@
 ---
 id: 67d78c94b686ce3bddcaf8ab
-title: Task 117
+title: 任务 117
 challengeType: 22
 dashedName: task-117
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+请听音频，并完成下面的填空。
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-These three words together mean to reduce the amount of time needed to complete a task.
+这三个词合起来意味着减少完成一个任务所需的时间。  
 
 ---
 
@@ -32,17 +32,17 @@ These three words together mean to reduce the amount of time needed to complete 
 
 ### --feedback--
 
-This word in the plural form refers to schedules or deadlines for completing a project.
+这个词的复数形式指的是完成一个项目的调度或截止日期。  
 
 # --explanation--
 
-`Save us time` means to reduce the time required to complete something, making the process more efficient. For example:
+`Save us time` 意味着减少完成某事所需的时间，使进程更加高效。例如：
 
-`Using automation tools can save us time on repetitive tasks.` – This means automation tools help complete tasks faster.
+`Using automation tools can save us time on repetitive tasks.` – 这意味着自动化工具帮助更快地完成任务。  
 
-`Timelines` refer to schedules or deadlines that show when different parts of a project should be completed. For example:
+`Timelines` 是指显示项目不同部分应完成时间的调度或截止日期。例如：
 
-`We need to adjust our timelines to finish the project on schedule.` – This means changing the deadlines to ensure the project is completed on time.
+`We need to adjust our timelines to finish the project on schedule。` – 这意味着需要更改截止日期以确保项目按时完成。
 
 # --scene--
 

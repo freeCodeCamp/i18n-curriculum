@@ -1,6 +1,6 @@
 ---
 id: 67f07fdfe8c5aaef48d3d35a
-title: Task 130
+title: 任务 130
 challengeType: 19
 dashedName: task-130
 lang: en-US
@@ -16,7 +16,7 @@ lang: en-US
 
 ## --text--
 
-After the check-in with Sarah, Brian decides to write to Bob, from management, to update him on the situation.
+在与 Sarah 进行签到后，Brian 决定写信给管理层的 Bob，向他更新情况。
 
 `Subject: Quick Update – Resources, Integration Issues, and Training`
 
@@ -36,35 +36,35 @@ After the check-in with Sarah, Brian decides to write to Bob, from management, t
 
 `Brian`
 
-Based on the `Subject` line, why did Brian write this email?
+根据 `Subject` 行，Brian 为什么写这封电子邮件？
 
 ## --answers--
 
-To give an update about the team's progress and ask for information.
+汇报团队的进展并请求信息。
 
 ---
 
-To remind management about their last meeting.
+提醒管理层他们的上次会议。
 
 ### --feedback--
 
-There is no mention of a past meeting between Brian and management.
+没有提到 Brian 和管理层之间的过去会议。
 
 ---
 
-To tell management that the project is almost finished.
+告诉管理层该项目即将完成。
 
 ### --feedback--
 
-The email says there are still some challenges, so the project is not close to being finished.
+电子邮件说仍然存在一些挑战，所以该项目还远未完成。
 
 ---
 
-To ask Sarah about the new software integration.
+询问 Sarah 关于新建软件集成。
 
 ### --feedback--
 
-Brian already spoke to Sarah. He is now sharing that update with management.
+Brian 已经和 Sarah 交谈过。他现在正在与管理层分享该更新。
 
 ## --video-solution--
 
@@ -72,4 +72,4 @@ Brian already spoke to Sarah. He is now sharing that update with management.
 
 # --explanation--
 
-The `Subject` line normally brings the topics which are going to be dealt with in the body of the message. Read this line to find out the correct answer for this question.
+`Subject` 行通常带来将在消息体中处理的主题。读取此行以查找此问题的正确答案。

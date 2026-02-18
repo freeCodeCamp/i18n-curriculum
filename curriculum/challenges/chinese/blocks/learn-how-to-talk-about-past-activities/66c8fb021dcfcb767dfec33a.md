@@ -1,6 +1,6 @@
 ---
 id: 66c8fb021dcfcb767dfec33a
-title: Task 16
+title: 任务 16
 challengeType: 19
 dashedName: task-16
 lang: en-US
@@ -16,47 +16,47 @@ lang: en-US
 
 ## --text--
 
-Which statement below is true?
+下面哪个语句是正确的？
 
 ## --answers--
 
-They have never fixed any issues like this before.
+他们以前从未修复过类似的问题。
 
 ### --feedback--
 
-Think about whether Linda mentions any experience with similar issues.
+考虑琳达是否提到过类似问题的任何经验。
 
 ---
 
-They have already fixed this exact issue on another project.
+他们已经在另一个项目中修复了这个确切的问题。
 
 ### --feedback--
 
-Consider whether Linda says they have experience with this specific issue or something similar.
+考虑 Linda 是否说过他们有处理这个具体问题或类似问题的经验。
 
 ---
 
-They haven't fixed this exact issue, but they have fixed similar ones before.
+他们还没有修复这个具体问题，但他们之前修复过类似的问题。
 
 ---
 
-They have fixed this issue many times before.
+他们之前已经多次修复了这个问题。
 
 ### --feedback--
 
-Reflect on whether Linda is talking about having fixed this exact issue or something similar.
-
+思考 Linda 是否在谈论已经修复了这个确切的问题或类似的问题。
+  
 ## --video-solution--
 
 3
 
 # --explanation--
 
-To find the correct answer, focus on whether Linda is talking about fixing the `exact issue` or `similar issues`.
+要查找正确答案，请关注 Linda 是否在谈论修复 `exact issue` 还是 `similar issues`。 
 
-Linda makes it clear that they haven't fixed this exact problem before, but she also mentions that they have solved similar issues in the past.
+Linda 明确表示他们以前没有解决过这个具体问题，但她也提到他们过去解决过类似的问题。 
 
-The correct answer should show this balance—acknowledging no exact match but confirming past experience with related problems.
+正确答案应显示这种平衡——承认没有完全的匹配，但确认过去对相关问题的经验。
 
 # --scene--
 

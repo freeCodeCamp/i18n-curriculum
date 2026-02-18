@@ -1,6 +1,6 @@
 ---
 id: 6710e0e2cafeeb09e6cb2d8f
-title: Task 55
+title: 任务 55
 challengeType: 22
 dashedName: task-55
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+请听音频，并完成下面的填空。
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This is the auxiliary verb used to form the `Past Continuous` in the singular first-person form.
+这是用于构成单数第一人称形式的 `Past Continuous` 的辅助动词。
 
 ---
 
@@ -32,7 +32,7 @@ This is the auxiliary verb used to form the `Past Continuous` in the singular fi
 
 ### --feedback--
 
-This is the main verb in the `Past Continuous`, describing the act of laboring.
+这是 `Past Continuous` 中的主要动词，描述劳动的动作。
 
 ---
 
@@ -40,7 +40,7 @@ This is the main verb in the `Past Continuous`, describing the act of laboring.
 
 ### --feedback--
 
-This is the auxiliary verb used to form the `Past Continuous` in the plural first-person form.
+这是用于构成复数第一人称 `Past Continuous` 的辅助动词。
 
 ---
 
@@ -48,15 +48,15 @@ This is the auxiliary verb used to form the `Past Continuous` in the plural firs
 
 ### --feedback--
 
-This is the main verb in the `Past Continuous`, describing an ongoing action of improving or modernizing something.
+这是 `Past Continuous` 中的主要动词，描述正在进行的改进或现代化某事的动作。
 
 # --explanation--
 
-The `Past Continuous` tense is used to describe actions that were ongoing at a specific time in the past. When two `Past Continuous` sentences are used together, they often describe simultaneous actions or actions happening alongside each other.
+`Past Continuous` 时态用于描述过去某一特定时间正在进行的动作。当两个 `Past Continuous` 句子一起使用时，它们通常描述同时发生的动作或并行发生的动作。  
 
-In this sentence, Linda is describing how she and her team were both working and updating the user interface continuously throughout the project. This shows two actions happening at the same time in the past, providing context or background for each other. 例如：
+在这句话中，Linda 描述了她和她的团队在整个项目中不断地工作和更新用户界面。这显示了过去同时发生的两个动作，为彼此提供了上下文或背景。例如： 
 
-`While I was preparing the report, they were testing the new features.` - This means the action of my preparing the report and the testing of the new features happened at the same time.
+`While I was preparing the report, they were testing the new features.`——这意味着我准备报告的动作和测试新建特色的动作同时发生。
 
 # --scene--
 

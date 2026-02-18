@@ -1,6 +1,6 @@
 ---
 id: 66f1aeb60b11aec5abe83c2e
-title: CSS Libraries and Frameworks Quiz
+title: CSS 库和框架测验
 challengeType: 8
 dashedName: quiz-css-libraries-and-frameworks
 ---
@@ -17,41 +17,41 @@ dashedName: quiz-css-libraries-and-frameworks
 
 #### --text--
 
-What is a CSS framework?
+什么是 CSS 框架？
 
 #### --distractors--
 
-A tool to fix CSS errors.
+一个用于修复 CSS 误差的工具。
 
 ---
 
-A tool to lint CSS files.
+一个用于检查 CSS `files` 的工具。
 
 ---
 
-A formatter for CSS files.
+一个用于 CSS 文件的格式化工具。
 
 #### --answer--
 
-A library for CSS styles.
+一个用于 CSS 样式的库。
 
 ### --question--
 
 #### --text--
 
-Which of the following is a popular utility-first CSS framework?
+以下哪一个是流行的实用优先 CSS 框架？
 
 #### --distractors--
 
-Template CSS
+模板 CSS
 
 ---
 
-Loading CSS
+装载 CSS
 
 ---
 
-Minimal CSS
+最小化 CSS
 
 #### --answer--
 
@@ -61,73 +61,73 @@ Tailwind CSS
 
 #### --text--
 
-What is a disadvantage of CSS frameworks?
+CSS 框架的缺点是什么？
 
 #### --distractors--
 
-Too few components.
+组件太少。
 
 ---
 
-No customization options.
+无自定义选项。
 
 ---
 
-Improved browser support.
+改进的浏览器支持。
 
 #### --answer--
 
-Can bloat CSS files.
+可能会使 CSS 文件膨胀。
 
 ### --question--
 
 #### --text--
 
-What does SCSS stand for?
+SCSS 代表什么？
 
 #### --distractors--
 
-Super Cascading Style Sheets.
+超级级联样式表。
 
 ---
 
-Structured CSS.
+结构化 CSS。
 
 ---
 
-Simple CSS.
+简单的 CSS。
 
 #### --answer--
 
-Sassy CSS.
+俏皮的 CSS。
 
 ### --question--
 
 #### --text--
 
-Which of the following is a feature of Sass?
+以下哪项是 Sass 的特色？
 
 #### --distractors--
 
-Comments
+评论
 
 ---
 
-CSS linting.
+CSS 代码检查。
 
 ---
 
-Inline CSS.
+内联 CSS。
 
 #### --answer--
 
-Mixins
+混入（Mixins）
 
 ### --question--
 
 #### --text--
 
-Which of the following is the correct way to use utility classes in Tailwind CSS?
+以下哪种方式是使用 Tailwind CSS 中实用类的正确方法？
 
 #### --distractors--
 
@@ -167,29 +167,29 @@ Which of the following is the correct way to use utility classes in Tailwind CSS
 
 #### --text--
 
-What are the two types of CSS frameworks?
+CSS 框架的两种类型是什么？
 
 #### --distractors--
 
-Tablet first CSS frameworks and Component-based CSS frameworks.
+平板电脑优先的 CSS 框架和基于组件的 CSS 框架。
 
 ---
 
-Utility-first CSS frameworks and Lazy loading CSS frameworks.
+实用优先 CSS 框架和惰性装载 CSS 框架。
 
 ---
 
-Minimal CSS frameworks and Utility-first CSS frameworks.
+极简 CSS 框架和实用优先 CSS 框架。
 
 #### --answer--
 
-Utility-first CSS frameworks and Component-based CSS frameworks.
+实用优先的 CSS 框架和基于组件的 CSS 框架。
 
 ### --question--
 
 #### --text--
 
-What is the file extension for SCSS?
+SCSS 的文件扩展名是什么？
 
 #### --distractors--
 
@@ -211,7 +211,7 @@ What is the file extension for SCSS?
 
 #### --text--
 
-Which of the following is the correct way to define a variable in SCSS?
+以下哪种方式是在 SCSS 中定义变量的正确方法？
 
 #### --distractors--
 
@@ -257,7 +257,7 @@ header {
 
 #### --text--
 
-Which of the following is the correct way to define a mixin?
+以下哪种方式是正确的 `mixin` 定义？
 
 #### --distractors--
 

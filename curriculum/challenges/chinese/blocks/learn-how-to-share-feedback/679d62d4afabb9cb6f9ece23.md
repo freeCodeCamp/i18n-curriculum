@@ -1,6 +1,6 @@
 ---
 id: 679d62d4afabb9cb6f9ece23
-title: Task 106
+title: 任务 106
 challengeType: 19
 dashedName: task-106
 lang: en-US
@@ -16,35 +16,35 @@ lang: en-US
 
 ## --text--
 
-What does Maria want to avoid doing, and why?
+Maria 想避免做什么，为什么？
 
 ## --answers--
 
-She wants to avoid fixing the problem.
+她想避免修复这个问题。
 
 ### --feedback--
 
-Maria is not saying they shouldn't fix the problem.
+Maria 并没有说他们不应该解决这个问题。
 
 ---
 
-She wants to avoid asking for help.
+她想避免寻求帮助。
 
 ### --feedback--
 
-Maria does not mention asking for help.
+Maria 没有提到请求帮助。
 
 ---
 
-She wants to avoid rushing because it could cause more problems.
+她想避免匆忙，因为这可能会导致更多问题。
 
 ---
 
-She wants to avoid updating the software.
+她想避免更新软件。
 
 ### --feedback--
 
-Maria does not say they should avoid updating.
+Maria 并没有说他们应该避免更新。
 
 ## --video-solution--
 
@@ -52,11 +52,11 @@ Maria does not say they should avoid updating.
 
 # --explanation--
 
-`To lead to problems` means that an action or decision could result in difficulties or negative consequences. For example:
+`To lead to problems` 意味着某个操作或决定可能导致困难或负面后果。例如：
 
-`Skipping the testing phase can lead to serious problems in the software.` - This means that not testing properly might cause major technical issues.
+`Skipping the testing phase can lead to serious problems in the software.` - 这意味着如果没有正确进行测试，可能会导致严重的技术问题。
 
-In this dialogue, Maria is concerned that rushing could create additional issues.
+在这个对话框中，Maria 担心匆忙可能会创建额外的问题。
 
 # --scene--
 

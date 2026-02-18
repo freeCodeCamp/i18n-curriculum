@@ -7,11 +7,11 @@ dashedName: step-10
 
 # --description--
 
-Set the value of `root` to `None` as at this point, you don't have an approximate value yet.
+将 `root` 的值设置为 `None`，因为此时你还没有近似值。
 
 # --hints--
 
-The value of `root` should be `None`.
+`root` 的值应为 `None`。
 
 ```js
 ({

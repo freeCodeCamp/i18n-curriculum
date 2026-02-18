@@ -7,17 +7,17 @@ dashedName: step-15
 
 # --description--
 
-如果你查看控制台，就会看到 `Infinity` 值。 `Infinity` 是 JavaScript 中的一个特殊值，表示一个比其他任何数字都大的数字。
+如果你查看控制台，你会看到 `Infinity` 值。`Infinity` 是 JavaScript 中的一个特殊值，表现为大于任何其他数字的数字。
 
 除以零不是数学中的有效运算。
 
-为了考虑这种极端情况，你应该更新 `calculateQuotient` 函数，改为检查 `num2` 是否为零。
+为了考虑这种极端情况，你应该更新 `calculateQuotient` 函数，改为检查 `num2` 是否为零。 
 
 如果是，函数应返回字符串 `"Error: Division by zero"`。 否则，应返回 `num1` 除以 `num2` 的结果。
 
 # --hints--
 
-如果 `num2` 是零，你的 `calculateQuotient` 函数应返回字符串 `"Error: Division by zero"`。
+如果 `num2` 是零，你的 `calculateQuotient` 函数应返回字符串 `"Error: Division by zero"`。 
 
 ```js
 assert.strictEqual(calculateQuotient(10, 0), 'Error: Division by zero');

@@ -1,6 +1,6 @@
 ---
 id: 67ddb67d2bbf41bb5dce0fb3
-title: Task 36
+title: 任务 36
 challengeType: 19
 dashedName: task-36
 lang: en-US
@@ -16,35 +16,35 @@ lang: en-US
 
 ## --text--
 
-What can we conclude from James's answer?
+我们可以从 James 的回答中得出什么结论？
 
 ## --answers--
 
-He needs to solve a problem first.
+他需要先解决一个问题。
 
 ### --feedback--
 
-James does not say anything about another issue.
+James 没有提到另一个问题。
 
 ---
 
-He is ending the conversation in a friendly way.
+他正在以友好的方式结束对话。
 
 ---
 
-He wants to schedule a meeting now.
+他现在想调度一个会议。
 
 ### --feedback--
 
-There's no mention of scheduling anything.
+没有提到安排任何事情。
 
 ---
 
-He is asking for more help.
+他正在请求更多帮助。
 
 ### --feedback--
 
-James is not making a request.
+James 没有发出请求。
 
 ## --video-solution--
 
@@ -52,9 +52,9 @@ James is not making a request.
 
 # --explanation--
 
-In conversation, you often omit words when the meaning is clear. In `Talk to you later`, the subject `I'll` (contraction of `I will`) is left out. The full sentence would be `I'll talk to you later`. This kind of omission is common in casual speech. Another example:
+在对话中，当意思明确时你经常省略词语。在 `Talk to you later` 中，主语 `I'll`（`I will` 的缩写）被省略了。完整的句子应该是 `I'll talk to you later`。这种省略在日常口语中很常见。另一个例子：
 
-`See you tomorrow!` - This is a shorter way of saying `I'll see you tomorrow`.
+`See you tomorrow!`——这是说 `I'll see you tomorrow` 的简短方式。
 
 # --scene--
 

@@ -1,6 +1,6 @@
 ---
 id: 661bddbdbbc09e2b8fac0801
-title: Task 76
+title: 任务 76
 challengeType: 22
 dashedName: task-76
 lang: en-US
@@ -10,15 +10,15 @@ lang: en-US
 
 # --description--
 
-The preposition `at` indicates a point on a map. It tells you a specific location or position. It helps you understand where something is happening or where someone is.
+介词 `at` 表示地图上的一个点。它告诉你一个具体的位置或方位。它帮助你了解某事发生的地点或某人的所在位置。
 
-Examples:
+示例：
 
-`We'll meet at the coffee shop.` (in this sentence, `at` is used to specify the location where the meeting will take place - the coffee shop).
+`We'll meet at the coffee shop.`（在这个句子中，`at` 用于指定会议发生的地点——咖啡店）。
 
-`I'll be waiting for you at the bus stop.` (`at` is used here to indicate the location where someone will be waiting - the bus stop).
+我会在公交车站等你。 
 
-Listen to the sentence and fill in the blank.
+听句子并填写空白。
 
 # --fillInTheBlank--
 
@@ -32,7 +32,7 @@ Listen to the sentence and fill in the blank.
 
 ### --feedback--
 
-The preposition used to help you understand where something is or happens.
+介词用于帮助你理解某物的位置或发生的地点。
 
 # --scene--
 
