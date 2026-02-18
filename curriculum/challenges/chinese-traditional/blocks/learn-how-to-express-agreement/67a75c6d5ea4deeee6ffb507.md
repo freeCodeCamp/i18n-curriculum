@@ -1,6 +1,6 @@
 ---
 id: 67a75c6d5ea4deeee6ffb507
-title: Task 21
+title: 任務 21
 challengeType: 19
 dashedName: task-21
 lang: en-US
@@ -10,55 +10,55 @@ lang: en-US
 
 # --instructions--
 
-聽音頻，回答下面的問題。
+聆聽音訊並回答以下問題。
 
 # --questions--
 
 ## --text--
 
-What does Linda offer to do?
+Linda 提供做什麼？  
 
-## --answers--
+## --answers--  
 
-Prepare user scenarios for testing.
+準備使用者場景以進行測試。  
 
----
+---  
 
-Skip the testing phase.
+跳過測試階段。  
 
-### --feedback--
+### --feedback--  
 
-Linda does not suggest skipping testing; she is actively contributing to it.
+Linda 並不建議跳過測試；她正積極地為測試做出貢獻。  
 
----
+---  
 
-Ask someone else to handle user testing.
+請其他人負責使用者測試。  
 
-### --feedback--
+### --feedback--  
 
-Linda does not delegate the task to someone else.
+Linda 不會將任務委派給其他人。  
 
----
+---  
 
-Redesign the user interface from scratch.
+從頭重新設計使用者介面。  
 
-### --feedback--
+### --feedback--  
 
-Linda does not talk about redesigning the interface.
+Linda 不會談論重新設計介面。  
 
-## --video-solution--
+## --video-solution--  
 
-1
+1  
 
-# --explanation--
+# --explanation--  
 
-Listen for key words that indicate what Linda is offering to do.
+聆聽指出 Linda 提供要做什麼的關鍵字。  
 
-`I can also` – This shows she is volunteering to contribute.
+`I can also`－這表示她自願貢獻。  
 
-`Prepare some user scenarios for testing` – This clearly states the task she is taking responsibility for.
+`Prepare some user scenarios for testing`－這明確說明她正在承擔的任務。  
 
-`Ensure a smooth user experience` – This explains why testing is important and reinforces her commitment to the project.
+`Ensure a smooth user experience`－這說明了為什麼測試很重要，並強化她對專案的承諾。  
 
 # --scene--
 

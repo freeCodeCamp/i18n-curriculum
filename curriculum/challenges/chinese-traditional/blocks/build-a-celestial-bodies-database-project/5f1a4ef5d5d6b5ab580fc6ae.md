@@ -1,6 +1,6 @@
 ---
 id: 5f1a4ef5d5d6b5ab580fc6ae
-title: 構建一個天體數據庫
+title: 建置一個 Celestial Bodies 資料庫
 challengeType: 13
 url: freeCodeCamp/learn-celestial-bodies-database
 dashedName: build-a-celestial-bodies-database
@@ -8,15 +8,15 @@ dashedName: build-a-celestial-bodies-database
 
 # --description--
 
-This is one of the required projects to earn your certification. For this project, you will build a database of celestial bodies using PostgreSQL.
+這是取得你的認證所需的專案之一。對於這個專案，你將使用 PostgreSQL 建置一個天體的資料庫。
 
 # --instructions--
 
-**重要：**在你通過所有項目測試後，將你的數據庫存放到一個 `universe.sql` 文件中，以便你完成步驟 2。 你將看到如何在虛擬機中完成這一點的提示。
+**重要：** 在你通過所有專案測試後，將你的資料庫匯出成 `universe.sql` 檔案，以便你完成步驟 2。虛擬機器內會有如何操作的說明。
 
 # --notes--
 
-需要的文件：`universe.sql`
+必要的檔案：`universe.sql`
 
 # --hints--
 

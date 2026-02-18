@@ -1,6 +1,6 @@
 ---
 id: cf1111c1c11feddfaeb9bdef
-title: 使用 JavaScript 生成隨機分數
+title: 使用 JavaScript 產生隨機分數
 challengeType: 1
 forumTopicId: 18185
 dashedName: generate-random-fractions-with-javascript
@@ -8,31 +8,31 @@ dashedName: generate-random-fractions-with-javascript
 
 # --description--
 
-Random numbers are useful for creating random behavior.
+隨機數對於創造隨機行為非常有用。
 
-在 JavaScript 中，可以用 `Math.random()` 生成一個在`0`（包括 0）到 `1`（不包括 1）之間的隨機小數。 因此 `Math.random()` 可能返回 `0`，但絕不會返回 `1`。
+JavaScript 有一個 `Math.random()` 函式（程式），它會產生介於 `0`（包含）和 `1`（不包含）之間的隨機小數。因此 `Math.random()` 可以傳回 `0`，但永遠不會傳回 `1`。
 
-**提示：**<a href="/learn/javascript-algorithms-and-data-structures/basic-javascript/storing-values-with-the-assignment-operator" target="_blank" rel="noopener noreferrer nofollow">使用賦值運算符存儲值</a>這一節講過，所有函數調用將在 `return` 執行之前結束，因此我們可以 `return`（返回）`Math.random()` 函數的值。
+**注意：** 如同 <a href="/learn/javascript-algorithms-and-data-structures/basic-javascript/storing-values-with-the-assignment-operator" target="_blank" rel="noopener noreferrer nofollow">使用指定運算子儲存值</a>，所有函式呼叫都會在 `return` 執行前被決議，因此我們可以 `return` `Math.random()` 函式的值。
 
 # --instructions--
 
-更改 `randomFraction`，使其返回一個隨機數而不是 `0`。
+將 `randomFraction` 更改為傳回隨機數，而不是傳回 `0`。
 
 # --hints--
 
-`randomFraction` 應該返回一個隨機數。
+`randomFraction` 應該傳回一個隨機數。
 
 ```js
 assert(typeof randomFraction() === 'number');
 ```
 
-`randomFraction` 應該返回一個小數。
+`randomFraction` 傳回的數字應該是小數。
 
 ```js
 assert((randomFraction() + '').match(/\./g));
 ```
 
-需要使用 `Math.random` 生成隨機的小數。
+你應該使用 `Math.random` 來產生隨機小數。
 
 ```js
 assert(__helpers.removeJSComments(code).match(/Math\.random/g).length >= 0);

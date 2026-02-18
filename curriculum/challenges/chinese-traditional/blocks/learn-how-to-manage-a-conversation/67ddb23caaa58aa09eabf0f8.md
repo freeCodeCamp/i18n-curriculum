@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-請聽音頻，並完成下面的填空。
+聆聽音訊並完成以下句子。
 
 # --fillInTheBlank--
 
@@ -24,13 +24,13 @@ lang: en-US
 
 ### --feedback--
 
-This means at the present time and shows the situation could change later.
+這表示目前的狀況，且顯示情況可能會在之後改變。
 
 # --explanation--
 
-`For now` means at this moment or for the time being. It suggests that things are complete at the moment, but more might happen later. 例如：
+`For now` 意思是在此刻或暫時。它表示目前事情已經完成，但以後可能還會有更多發生。 例如：
 
-`Let's stop working here for now and continue tomorrow.` - This means they are pausing at the moment, but will continue later.
+`Let's stop working here for now and continue tomorrow.`－這表示他們目前暫停，但稍後會繼續。
 
 # --scene--
 

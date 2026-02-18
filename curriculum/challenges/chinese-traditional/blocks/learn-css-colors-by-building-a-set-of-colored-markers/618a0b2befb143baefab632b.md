@@ -7,21 +7,21 @@ dashedName: step-37
 
 # --description--
 
-Notice that the red and cyan colors are very bright right next to each other. This contrast can be distracting if it's overused on a website, and can make text hard to read if it's placed on a complementary-colored background.
+請注意紅色和青色彼此相鄰時非常鮮豔。如果在網站上過度使用這種對比，可能會令人分心，且如果將文字放置在互補色背景上，會使閱讀變得困難。
 
-It's better practice to choose one color as the dominant color, and use its complementary color as an accent to bring attention to certain content on the page.
+較佳的做法是選擇一種顏色作為主色，並使用其互補色作為點綴色，以吸引頁面上某些內容的注意力。
 
-First, in the `h1` rule, use the `rgb` function to set its `background-color` to cyan.
+首先，在 `h1` 規則中，使用 `rgb` 函式（程式）將其 `background-color` 設為青色。
 
 # --hints--
 
-You should not remove or modify the `text-align` property or its value.
+你不應該移除或修改 `text-align` 屬性或其值。
 
 ```js
 assert(new __helpers.CSSHelp(document).getStyle('h1')?.textAlign === 'center');
 ```
 
-Your `h1` CSS rule should have a `background-color` property set to `rgb(0, 255, 255)`.
+你的 `h1` CSS 規則應該有一個 `background-color` 屬性設為 `rgb(0, 255, 255)`。
 
 ```js
 assert(new __helpers.CSSHelp(document).getStyle('h1')?.backgroundColor === 'rgb(0, 255, 255)');

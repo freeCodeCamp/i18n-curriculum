@@ -7,21 +7,21 @@ dashedName: step-13
 
 # --description--
 
-現在，如果用戶沒有輸入數字，或者在嘗試將數字轉換爲二進制之前數字無效，你可以提醒用戶。
+現在你可以在嘗試將數字轉換成二進位之前，如果使用者沒有輸入數字或數字無效，提醒使用者。
 
-在 `if` 語句的主體中，使用 `alert()` 方法顯示文本 `"Please provide a decimal number greater than or equal to 0"`。
+在 `if` 述語的主體中，使用 `alert()` 方法來顯示文字 `"Please provide a decimal number greater than or equal to 0"`。
 
-請注意，`alert()` 是瀏覽器中 `window` 對象上的方法，因此你可以使用 `window.alert()` 或 `alert()`。
+請注意，`alert()` 是瀏覽器中 `window` 物件上的一個方法，因此你可以使用 `window.alert()` 或 `alert()`。
 
 # --hints--
 
-你應該在 `checkUserInput` 內的 `if` 語句主體中調用 `alert()` 方法。
+你應該在 `checkUserInput` 中的 `if` 述語主體內呼叫 `alert()` 方法。
 
 ```js
 assert.match(String(checkUserInput), /if\s*\(\s*.+\s*\)\s*\{\s*(?:window\.|globalThis\.)?alert\(/);
 ```
 
-當 `#number-input` 元素中存在假值，並且調用 `checkUserInput()` 函數時，`alert()` 方法應顯示文本 `"Please provide a decimal number greater than or equal to 0"`。
+當 `#number-input` 元素中有假值且呼叫 `checkUserInput()` 函式時，`alert()` 方法應該顯示文字 `"Please provide a decimal number greater than or equal to 0"`。
 
 ```js
 const numberInput = document.getElementById("number-input");

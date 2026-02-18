@@ -1,6 +1,6 @@
 ---
 id: 67325f4cff0ac10ffe3e5bec
-title: Task 114
+title: 任務 114
 challengeType: 19
 dashedName: task-114
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-聽音頻，回答下面的問題。
+聆聽音訊並回答以下問題。
 
 # --questions--
 
 ## --text--
 
-What is James describing about his approach to coding?
+James 在描述他對程式設計方法的什麼？
 
 ## --answers--
 
-A habit he had in the past.
+他過去的習慣。
 
 ---
 
-Something he plans to do in the future.
+他計劃未來要做的事情。
 
 ### --feedback--
 
-James isn't talking about future plans; he is reflecting on something he did before.
+James 並不是在談論未來計劃；他正在反思之前做過的事情。
 
 ---
 
-A habit he continues now.
+他現在仍然持續的習慣。
 
 ### --feedback--
 
-James uses the phrase `used to`, which shows he is describing something he did in the past, not currently.
+James 使用片語 `used to`，表示他正在描述過去做過但現在不做的事情。
 
 ---
 
-A process he never followed.
+他從未遵循過的處理程序。
 
 ### --feedback--
 
-James describes a habit he once had, so it is not something he never did.
+James 描述他曾經有過的一個習慣，所以這不是他從未做過的事情。
 
 ## --video-solution--
 
@@ -52,11 +52,11 @@ James describes a habit he once had, so it is not something he never did.
 
 # --explanation--
 
-James says, `I used to just write code without thinking much about the end user.`
+James 說，`I used to just write code without thinking much about the end user.` 
 
-`Used to` indicates a past habit or action that is no longer true.
+`Used to` 顯示過去的習慣或不再真實的動作。 
 
-This sentence shows that he previously wrote code without considering the end user but has since changed his approach.
+這句話顯示他之前撰寫程式碼時沒有考慮終端用戶，但從此改變了他的做法。
 
 # --scene--
 

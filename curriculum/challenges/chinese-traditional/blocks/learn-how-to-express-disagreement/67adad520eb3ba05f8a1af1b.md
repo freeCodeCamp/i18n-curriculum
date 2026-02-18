@@ -1,8 +1,9 @@
 ---
 id: 67adad520eb3ba05f8a1af1b
-title: Task 33
+title: 任務 33
 challengeType: 19
 dashedName: task-33
+showSpeakingButton: true
 lang: en-US
 ---
 
@@ -12,25 +13,33 @@ lang: en-US
 
 # --instructions--
 
-聽音頻，回答下面的問題。
+聆聽音訊並回答以下問題。
 
 # --questions--
 
 ## --text--
 
-What should Anna say to agree with Bob?
+Anna 應該怎麼說才能同意 Bob？
 
 ## --answers--
 
 `I don't understand.`
 
+### --audio-id--
+
+en-b1-67adad520eb3ba05f8a1af1b-SP1
+
 ### --feedback--
 
-This phrase suggests confusion, but Anna needs to show agreement with Bob's idea.
+這句話暗示了困惑，但 Anna 需要表示同意 Bob 的想法。
 
 ---
 
 `That makes sense.`
+
+### --audio-id--
+
+en-b1-67adad520eb3ba05f8a1af1b-SP2
 
 ## --video-solution--
 
@@ -38,11 +47,11 @@ This phrase suggests confusion, but Anna needs to show agreement with Bob's idea
 
 # --explanation--
 
-`That makes sense` is a natural way to show agreement. People use this phrase in conversations when they accept or understand a suggestion. For example:
+`That makes sense` 是表示同意的自然用語。人們在接受或理解建議時會在對話中使用這個片語。 例如：
 
-- Person 1: `We should optimize the code before adding new features to avoid performance issues.`
+- Person 1：我們應該在為你的程式碼添加新特性之前最佳化程式碼，以避免效率問題。
 
-- Person 2: `That makes sense. A slow app will frustrate users.` - This person agrees and understands why optimizing the code first is a good idea.
+- 使用者 2：`That makes sense. A slow app will frustrate users.`－這位使用者同意並理解為什麼先優化程式碼是個好主意。
 
 # --scene--
 

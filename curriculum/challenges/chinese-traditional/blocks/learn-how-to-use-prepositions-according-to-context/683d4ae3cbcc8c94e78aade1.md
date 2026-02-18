@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-聽音頻，回答下面的問題。
+聆聽音訊並回答以下問題。
 
 # --questions--
 
 ## --text--
 
-What is Bob explaining?
+Bob 在解釋什麼？
 
 ## --answers--
 
-That the emergency exit is blocked.
+緊急離開被阻塞。
 
 ### --feedback--
 
-Bob doesn't say the exit is blocked - he just mentions its location.
+Bob 並沒有說離開被阻擋－他只是提到它的位置。
 
 ---
 
-That the back door needs a new lock.
+後門需要一個新的鎖。
 
 ### --feedback--
 
-Bob doesn't mention anything about locks or a back door needing repairs.
+Bob 沒有提到任何關於鎖或後門需要維修的事。
 
 ---
 
-That the server room needs to be cleaned.
+伺服端機房需要清潔。
 
 ### --feedback--
 
-There is no mention of cleaning in Bob's sentence.
+Bob 的句子中沒有提到清理。
 
 ---
 
-That something is located near the emergency exit.
+該物品位於緊急 `exit` 附近。
 
 ## --video-solution--
 
@@ -52,9 +52,9 @@ That something is located near the emergency exit.
 
 # --explanation--
 
-Bob says, `Exactly. It's in the back, next to the emergency exit`. This means he is confirming the location of something - right beside the emergency exit.
+Bob 說，`Exactly. It's in the back, next to the emergency exit`。這表示他正在確認某物的位置－就在緊急離開旁邊。
 
-He doesn't talk about repairs, cleaning, or problems.
+他不談論維修、清潔或問題。
 
 # --scene--
 

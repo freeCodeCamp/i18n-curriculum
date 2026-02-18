@@ -1,6 +1,6 @@
 ---
 id: 680aef568ac1bd591eceb0dc
-title: Task 98
+title: 任務 98
 challengeType: 22
 dashedName: task-98
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+聆聽音訊並完成以下句子。
 
 # --fillInTheBlank--
 
@@ -24,15 +24,15 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This is a short form for something that means messages or content created to promote a product, service, or event. Use the plural form.
+這是某種簡稱，意指為推廣產品、服務或事件而創建的訊息或內容。請使用複數形式。
 
 # --explanation--
 
-An `ad` (short for `advertisement`) is a piece of content designed to get people's attention and encourage them to buy something, use a service, or take action. Ads can appear on social media, websites, TV, radio, and more. 例如：
+`ad`（`advertisement` 的縮寫）是一段旨在吸引人們注意並鼓勵他們購買某物、使用服務或採取行動的內容。廣告可以出現在社群媒體、網站、電視、廣播等多種媒介上。 例如：
 
-- `They launched a new ad campaign for their latest product.` – This means the company created and shared promotional content to raise interest in a product.
+- `They launched a new ad campaign for their latest product.`－這表示公司創建並分享促銷內容以引發對產品的興趣。
 
-- `We saw a lot of online ads for the holiday sale.` – This means there were many promotional messages about the sale on websites or apps.
+- `We saw a lot of online ads for the holiday sale.`－這表示在網站或應用程式上有許多關於促銷活動的宣傳訊息。
 
 # --scene--
 

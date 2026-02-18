@@ -1,26 +1,26 @@
 ---
 id: 6482b07e8a3dcacbbbfa43f6
-title: 步驟 9
+title: 第 9 步
 challengeType: 0
 dashedName: step-9
 ---
 
 # --description--
 
-In the game, the player will have the opportunity to cross different checkpoints. You will need to keep track of the status for the checkpoint collision detection.
+在遊戲中，玩家將有機會通過不同的檢查點。你需要追蹤檢查點碰撞偵測的狀態。
 
-Use `let` to create a new variable called `isCheckpointCollisionDetectionActive` and assign it the value of `true`.
+使用 `let` 創建一個名為 `isCheckpointCollisionDetectionActive` 的新變數，並將其指定為 `true`。 
 
 # --hints--
 
-You should use the `let` keyword to declare your `isCheckpointCollisionDetectionActive` variable.
+你應該使用 `let` 關鍵字來宣告你的 `isCheckpointCollisionDetectionActive` 變數。
 
 ```js
 assert.match(code, /let\s+isCheckpointCollisionDetectionActive/);
 ```
 
 
-You should assign the value of `true` to `isCheckpointCollisionDetectionActive`
+你應該將 `true` 的值指定給 `isCheckpointCollisionDetectionActive`。 
 
 ```js
 assert.match(code, /let\s+isCheckpointCollisionDetectionActive\s*=\s*true/);

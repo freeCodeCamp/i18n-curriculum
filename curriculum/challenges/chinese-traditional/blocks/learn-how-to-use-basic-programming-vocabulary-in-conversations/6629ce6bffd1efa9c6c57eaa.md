@@ -10,9 +10,9 @@ lang: en-US
 
 # --description--
 
-The phrase `how's it going?` is a common way to ask someone how they are or what's happening in their life. It's often used as a friendly greeting.
+片語 `how's it going?` 是一種常見的方式，用來詢問某人近況如何或他們生活中發生了什麼事。它經常被用作友善的問候語。
 
-For example, when you see an old friend, you may say `Hey, how's it going? I haven't seen you for a while!` This is a casual way to ask them about their life. If you want to ask them about a specific thing, like their new job, you can say `How's it going with your new job?`
+例如，當你看到一位老朋友時，你可能會說 `Hey, how's it going? I haven't seen you for a while!` 這是一種隨意詢問他們生活狀況的方式。如果你想詢問他們關於某件特定的事情，例如他們的新工作，你可以說 `How's it going with your new job?`
 
 # --fillInTheBlank--
 
@@ -26,7 +26,7 @@ For example, when you see an old friend, you may say `Hey, how's it going? I hav
 
 ### --feedback--
 
-This contraction is commonly used in informal greetings. Capitalize the first word.
+這種縮寫通常用於非正式的問候語。將第一個字母大寫。
 
 ---
 
@@ -34,7 +34,7 @@ This contraction is commonly used in informal greetings. Capitalize the first wo
 
 ### --feedback--
 
-This word completes the common informal greeting asking about someone's general state.
+這個字完成了常見的非正式問候，詢問某人的整體狀況。
 
 # --scene--
 

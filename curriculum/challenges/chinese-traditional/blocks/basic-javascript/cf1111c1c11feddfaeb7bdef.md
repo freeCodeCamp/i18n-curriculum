@@ -1,6 +1,6 @@
 ---
 id: cf1111c1c11feddfaeb7bdef
-title: Nest one Array within Another Array
+title: 在另一個陣列中巢狀一個陣列
 challengeType: 1
 forumTopicId: 18247
 dashedName: nest-one-array-within-another-array
@@ -8,21 +8,21 @@ dashedName: nest-one-array-within-another-array
 
 # --description--
 
-You can also nest arrays within other arrays, like below:
+你也可以在其他陣列中巢狀陣列，如下所示：
 
 ```js
 const teams = [["Bulls", 23], ["White Sox", 45]];
 ```
 
-This is also called a <dfn>multi-dimensional array</dfn>.
+這也稱為 <dfn>多維陣列</dfn>。
 
 # --instructions--
 
-Create a nested array called `myArray`.
+創建一個名為 `myArray` 的巢狀陣列。
 
 # --hints--
 
-`myArray` should have at least one array nested within another array.
+`myArray` 應該至少有一個陣列巢狀在另一個陣列中。
 
 ```js
 assert(Array.isArray(myArray) && myArray.some(Array.isArray));

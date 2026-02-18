@@ -1,6 +1,6 @@
 ---
 id: 67c70abfeb7c6fb8cbd3fed7
-title: Task 57
+title: 任務 57
 challengeType: 19
 dashedName: task-57
 lang: en-US
@@ -10,51 +10,51 @@ lang: en-US
 
 # --instructions--
 
-聽音頻，回答下面的問題。
+聆聽音訊並回答以下問題。  
 
 # --questions--
 
 ## --text--
 
-What does Maria want to discuss with James?
+Maria 想和 James 討論什麼？  
 
 ## --answers--
 
-Bob's schedule for the week.
+Bob 的一週排程。  
 
 ### --feedback--
 
-Maria does not mention Bob's schedule.
+Maria 沒有提到 Bob 的排程。  
 
 ---
 
-Her most recent meeting with Bob.
+她最近一次與 Bob 的會議。  
 
 ---
 
-A future project deadline.
+未來的專案截止日期。  
 
 ### --feedback--
 
-Maria does not mention a deadline, only her meeting with Bob.
+Maria 沒有提到截止日期，只有她與 Bob 的會議。  
 
 ---
 
-The client's budget request.
+客戶的預算請求。  
 
 ### --feedback--
 
-Maria does not refer to a client request in this sentence.
+Maria 在這句話中沒有取用客戶端請求。  
 
 ## --video-solution--
 
-2
+2  
 
 # --explanation--
 
-`Can we talk about...` is used to introduce a topic for discussion. It is a polite way to request a conversation about something important. 例如：
+`Can we talk about...` 用來介紹一個討論主題。這是一種禮貌地請求討論重要事情的方式。例如：
 
-`Can we talk about the changes to the project timeline?` - This means the speaker wants to discuss the project timeline adjustments.
+`Can we talk about the changes to the project timeline?`－這表示講者想討論專案時間表的調整。
 
 # --scene--
 

@@ -1,6 +1,6 @@
 ---
 id: 67eff3ae8cca9823edafadc6
-title: Task 59
+title: 任務 59
 challengeType: 19
 dashedName: task-59
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-聽音頻，回答下面的問題。
+聆聽音訊並回答以下問題。
 
 # --questions--
 
 ## --text--
 
-What is Jake asking about?
+Jake 在問什麼？
 
 ## --answers--
 
-If the updates were applied.
+如果更新已經套用。
 
 ---
 
-If new security updates were released.
+如果釋出新的安全性更新。
 
 ### --feedback--
 
-Jake is not asking if new updates exist.
+Jake 並不是在詢問是否有新更新。
 
 ---
 
-Who is responsible for security updates.
+誰負責安全性更新。
 
 ### --feedback--
 
-Jake is not asking about a specific person.
+Jake 並不是在問關於特定的人。
 
 ---
 
-How security updates work.
+安全性更新的運作方式。
 
 ### --feedback--
 
-Jake assumes Jessica knows about security updates.
+Jake 假設 Jessica 知道安全性更新。
 
 ## --video-solution--
 
@@ -52,11 +52,11 @@ Jake assumes Jessica knows about security updates.
 
 # --explanation--
 
-Jake wants to know if someone has verified that all updates have been installed.
+Jake 想知道是否有人已經驗證所有更新都已安裝。
 
-By `Have you checked...?` he asks if Jessica has looked into something.
+透過 `Have you checked...?` 他詢問 Jessica 是否已經調查過某件事。
 
-By `whether all security updates were applied` he asks if updates were successfully installed.
+透過 `whether all security updates were applied` 他詢問更新是否成功安裝。
 
 # --scene--
 

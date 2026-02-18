@@ -1,17 +1,17 @@
 ---
 id: 661890c4abae9f2a0eddad6b
-title: 步驟 22
+title: 第 22 步
 challengeType: 0
 dashedName: step-22
 ---
 
 # --description--
 
-在接下來的幾個步驟中，你將學習如何判斷數組的長度是偶數還是奇數，以及如何求中位數。 然後，你就可以將所學知識應用到 `getMedian` 函數中。
+在接下來的幾個步驟中，你將學習如何判斷陣列的長度是偶數還是奇數，以及如何找到中位數。然後你將能夠將所學應用到 `getMedian` 函式中。
 
-要檢查一個數字是偶數還是奇數，可以使用<dfn>模運算符</dfn> `%`。 模運算符返回兩個數相除的餘數。
+要檢查一個數字是偶數還是奇數，你可以使用 <dfn>modulus operator</dfn> `%`。modulus operator 傳回兩個數字相除的餘數。 
 
-下面是一個檢查數組長度是奇數還是偶數的示例：
+以下是一個檢查陣列長度是偶數還是奇數的範例：
 
 ```js
 // check if array length is even
@@ -21,29 +21,29 @@ arr.length % 2 === 0;
 arr.length % 2 === 1;
 ```
 
-如果餘數是 `0`，則這個數是偶數。 如果餘數是 `1`，則這個數是奇數。
+如果餘數是 `0`，該數字是偶數。如果餘數是 `1`，該數字是奇數。
 
-創建一個名爲 `isEven` 的變量。 然後使用模運算符檢查 `testArr2` 數組的長度是否爲偶數。 將該表達式賦值給 `isEven` 變量。
+創建一個名為 `isEven` 的變數。然後使用取餘數運算子來檢查 `testArr2` 陣列的長度是否為偶數。將該運算式指定給 `isEven` 變數。
 
-在你的 `isEven` 變量下方，將 `isEven` 變量記錄到控制檯。
+在你的 `isEven` 變數下方，將 `isEven` 變數記錄到主控台。
 
-打開控制檯查看結果。
+打開主控台以查看結果。 
 
 # --hints--
 
-你應該有一個 `isEven` 變量。
+你應該有一個 `isEven` 變數。
 
 ```js
 assert.isDefined(isEven);
 ```
 
-你應該檢查 `testArr2` 數組的長度是否爲偶數。 請參考爲你提供的示例：`arr.length % 2 === 0;`
+你應該檢查 `testArr2` 陣列的長度是否為偶數。請參考之前提供給你的範例：`arr.length % 2 === 0;`
 
 ```js
 assert.isTrue(isEven);
 ```
 
-你應該有一條記錄 `isEven` 變量的 `console.log` 語句。
+你應該有一個 `console.log` 述語來記錄 `isEven` 變數。
 
 ```js
 assert.match(code, /console\.log\(isEven\)/);
@@ -151,7 +151,7 @@ const calculate = () => {
   const value = document.querySelector("#numbers").value;
   const array = value.split(/,\s*/g);
   const numbers = array.map(el => Number(el)).filter(el => !isNaN(el));
-
+  
   const mean = getMean(numbers);
 
   document.querySelector("#mean").textContent = mean;

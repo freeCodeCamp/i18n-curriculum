@@ -1,6 +1,6 @@
 ---
 id: 69602ccea37b20ccba6af9db
-title: Educational and Professional Background Quiz
+title: 教育與專業背景測驗
 challengeType: 8
 dashedName: en-a2-quiz-educational-professional-background
 lang: en-US
@@ -8,11 +8,11 @@ lang: en-US
 
 # --description--
 
-This quiz checks your understanding of job interviews, education, and the `past simple` tense.
+這個測驗檢查你對面試、教育和 `past simple` 時態的理解。
 
-To pass the quiz, you must correctly answer at least 18 of the 20 questions below.
+要通過測驗，你必須在以下 20 題中正確回答至少 18 題。
 
-Read each question and choose the correct answer. There's only one correct answer for each question.
+閱讀每個問題並選擇正確答案。每個問題只有一個正確答案。
 
 # --quizzes--
 
@@ -22,73 +22,73 @@ Read each question and choose the correct answer. There's only one correct answe
 
 #### --text--
 
-Which of the following is true about this sentence: `I studied computer science at college`?
+以下哪一項關於這句話是正確的：`I studied computer science at college`？
 
 #### --distractors--
 
-The action is happening now.
+動作正在進行中。
 
 ---
 
-The action will happen soon.
+該動作將很快發生。
 
 ---
 
-The action happens every day
+該動作每天發生
 
 #### --answer--
 
-The action happened in the past.
+該動作發生在過去。
 
 ### --question--
 
 #### --text--
 
-Which of the following is NOT an example of someone's `background`?
+以下哪一項不是某人的 `background` 範例？
 
 #### --distractors--
 
-Their past job experience
+他們過去的工作經驗
 
 ---
 
-Their education history
+他們的教育歷史
 
 ---
 
-Their learned skills
+他們學會的技能
 
 #### --answer--
 
-Their favorite hobby
+他們最喜歡的嗜好
 
 ### --question--
 
 #### --text--
 
-What is an `interview`?
+什麼是 `interview`？
 
 #### --distractors--
 
-A casual talk between coworkers
+同事之間的輕鬆對話
 
 ---
 
-A written test at school
+學校的筆試
 
 ---
 
-A team meeting at work
+工作團隊會議
 
 #### --answer--
 
-A formal meeting with questions
+一場帶有問題的正式會議
 
 ### --question--
 
 #### --text--
 
-What is the best answer to this question: `Can you tell me about your previous job position?`
+這個問題的最佳答案是什麼：`Can you tell me about your previous job position?`
 
 #### --distractors--
 
@@ -110,7 +110,7 @@ What is the best answer to this question: `Can you tell me about your previous j
 
 #### --text--
 
-Which sentence uses `to be` correctly in the past?
+哪一句正確使用了過去式的 `to be`？
 
 #### --distractors--
 
@@ -132,7 +132,7 @@ Which sentence uses `to be` correctly in the past?
 
 #### --text--
 
-What is the correct question form of this sentence: `He was responsible for maintaining the database`?
+這句話 `He was responsible for maintaining the database` 的正確疑問句形式是什麼？
 
 #### --distractors--
 
@@ -154,7 +154,7 @@ What is the correct question form of this sentence: `He was responsible for main
 
 #### --text--
 
-How would you ask about someone's educational background?
+你會如何詢問某人的教育背景？
 
 #### --distractors--
 
@@ -176,29 +176,29 @@ How would you ask about someone's educational background?
 
 #### --text--
 
-What does this question ask about: `Could you tell me about your previous roles and responsibilities?`
+這個問題是關於什麼的：`Could you tell me about your previous roles and responsibilities?`
 
 #### --distractors--
 
-Your future career plans
+你未來的職業規劃
 
 ---
 
-Your personal interests
+你的個人興趣
 
 ---
 
-Your current daily tasks
+你目前的每日任務
 
 #### --answer--
 
-Your past jobs and duties
+你過去的工作和職責
 
 ### --question--
 
 #### --text--
 
-Which phrase shows possession incorrectly?
+哪個片語顯示所有權錯誤？
 
 #### --distractors--
 
@@ -220,7 +220,7 @@ Which phrase shows possession incorrectly?
 
 #### --text--
 
-What is the correct negative form of this sentence: `He studied data science`?
+這句話 `He studied data science` 的正確否定形式是什麼？
 
 #### --distractors--
 
@@ -242,7 +242,7 @@ What is the correct negative form of this sentence: `He studied data science`?
 
 #### --text--
 
-How do you say your main area of study?
+你如何說你的主要研究領域？
 
 #### --distractors--
 
@@ -264,7 +264,7 @@ How do you say your main area of study?
 
 #### --text--
 
-What is the correct question form of this sentence: `She worked with them for five years`?
+這句話 `She worked with them for five years` 的正確疑問句是什麼？
 
 #### --distractors--
 
@@ -286,7 +286,7 @@ What is the correct question form of this sentence: `She worked with them for fi
 
 #### --text--
 
-How do you answer this question: `Did you work on any projects last year?`
+你如何回答這個問題：`Did you work on any projects last year?`
 
 #### --distractors--
 
@@ -308,7 +308,7 @@ How do you answer this question: `Did you work on any projects last year?`
 
 #### --text--
 
-Which pair of irregular verbs is incorrect?
+哪一組不規則動詞的配對是不正確的？
 
 #### --distractors--
 
@@ -330,29 +330,29 @@ Which pair of irregular verbs is incorrect?
 
 #### --text--
 
-What does `to wear too many hats` mean?
+`to wear too many hats` 是什麼意思？
 
 #### --distractors--
 
-To dress very formally
+穿著非常正式
 
 ---
 
-To change jobs often
+經常換工作
 
 ---
 
-To manage one task
+管理一個任務
 
 #### --answer--
 
-To have many roles or duties
+擁有許多角色或職責
 
 ### --question--
 
 #### --text--
 
-How do you describe learning without a teacher or school?
+你如何描述沒有老師或學校的學習？
 
 #### --distractors--
 
@@ -374,7 +374,7 @@ How do you describe learning without a teacher or school?
 
 #### --text--
 
-Which sentence uses `actual` or `actually` correctly?
+哪一句正確使用了 `actual` 或 `actually`？
 
 #### --distractors--
 
@@ -396,29 +396,29 @@ Which sentence uses `actual` or `actually` correctly?
 
 #### --text--
 
-Who is a `recruiter`?
+誰是 `recruiter`？
 
 #### --distractors--
 
-A person who manages a team
+管理團隊的人
 
 ---
 
-A person who trains employees
+訓練員工的人
 
 ---
 
-A person who writes code
+撰寫程式碼的人
 
 #### --answer--
 
-A person who hires candidates
+聘用候選人的人
 
 ### --question--
 
 #### --text--
 
-What do you call a person who works for a company?
+你怎麼稱呼為公司工作的那個人？
 
 #### --distractors--
 
@@ -440,7 +440,7 @@ What do you call a person who works for a company?
 
 #### --text--
 
-Which tag question is correct?
+哪一個頁籤反問句是正確的？
 
 #### --distractors--
 

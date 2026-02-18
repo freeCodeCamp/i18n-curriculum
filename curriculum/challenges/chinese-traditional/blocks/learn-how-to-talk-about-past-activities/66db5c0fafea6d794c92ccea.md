@@ -1,6 +1,6 @@
 ---
 id: 66db5c0fafea6d794c92ccea
-title: Task 58
+title: 任務 58
 challengeType: 19
 dashedName: task-58
 lang: en-US
@@ -13,41 +13,41 @@ Linda: Yes. The navigation bar and footer adjustments have already made a big di
 
 # --instructions--
 
-聽音頻，回答下面的問題。
+聆聽音訊並回答以下問題。
 
 # --questions--
 
 ## --text--
 
-How are the updated elements performing?
+更新後的元素表現如何？
 
 ## --answers--
 
-They are not working correctly across all devices, and this has made a big difference.
+它們在所有裝置上都無法正常運作，這造成了很大的差異。
 
 ### --feedback--
 
-Linda did not mention any issues with the updates.
+Linda 沒有提到任何關於更新的問題。 
 
 ---
 
-They need further adjustments to work properly and this has made no difference.
+它們需要進一步調整才能正常運作，而這並沒有帶來任何改變。
 
 ### --feedback--
 
-Linda did not mention the need for further adjustments.
+Linda 沒有提到需要進一步調整。 
 
 ---
 
-They are causing new problems with the user interface and this has made a big difference.
+它們正在對使用者介面造成新的問題，這已經帶來了很大的差異。
 
 ### --feedback--
 
-Linda did not say that the updates caused new problems.
+Linda 沒有說這些更新造成了新的問題。 
 
 ---
 
-They are performing well and the adjustments have made a big difference.
+它們表現良好，且調整帶來了很大差異。
 
 ## --video-solution--
 
@@ -55,13 +55,13 @@ They are performing well and the adjustments have made a big difference.
 
 # --explanation--
 
-To know if something is performing well, look for words or phrases that indicate a good result or improvement.
+要知道某件事是否表現良好，請尋找顯示良好結果或改善的字詞或片語。 
 
-Linda uses the phrase `have already made a big difference`.
+Linda 使用短語 `have already made a big difference`。
 
-`Made a big difference` suggests an important or noticeable change. When something has `made a big difference` in a positive context, it usually means that the change is helpful or effective.
+`Made a big difference` 意味著一個重要或明顯的改變。當某事在正面背景下 `made a big difference`，通常表示該改變是有幫助或有效的。
 
-So, Linda's response indicates that the updated elements are working well and have improved the situation.
+所以，Linda 的回應顯示更新的元素運作良好並且改善了情況。
 
 # --scene--
 

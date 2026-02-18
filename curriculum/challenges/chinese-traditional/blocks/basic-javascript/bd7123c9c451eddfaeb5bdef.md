@@ -1,6 +1,6 @@
 ---
 id: bd7123c9c451eddfaeb5bdef
-title: Use Bracket Notation to Find the Last Character in a String
+title: 使用括號表示法尋找字串中的最後一個字元
 challengeType: 1
 forumTopicId: 18342
 dashedName: use-bracket-notation-to-find-the-last-character-in-a-string
@@ -8,34 +8,34 @@ dashedName: use-bracket-notation-to-find-the-last-character-in-a-string
 
 # --description--
 
-In order to get the last letter of a string, you can subtract one from the string's length.
+為了取得字串的最後一個字母，你可以從字串長度中減去 1。
 
-For example, if `const firstName = "Ada"`, you can get the value of the last letter of the string by using `firstName[firstName.length - 1]`.
+例如，如果 `const firstName = "Ada"`，你可以使用 `firstName[firstName.length - 1]` 取得字串最後一個字母的值。
 
-Example:
+範例：
 
 ```js
 const firstName = "Ada";
 const lastLetter = firstName[firstName.length - 1];
 ```
 
-`lastLetter` would have a value of the string `a`.
+`lastLetter` 的值會是字串 `a`。
 
 # --instructions--
 
-Use <dfn>bracket notation</dfn> to find the last character in the `lastName` variable.
+使用 <dfn>括號表示法</dfn> 來尋找 `lastName` 變數中的最後一個字元。
 
-**Hint:** Try looking at the example above if you get stuck.
+**提示：** 如果你卡住了，試著看看上面的範例。
 
 # --hints--
 
-`lastLetterOfLastName` should be the letter `e`.
+`lastLetterOfLastName` 應該是字母 `e`。
 
 ```js
 assert(lastLetterOfLastName === 'e');
 ```
 
-You should use `.length` to get the last letter.
+你應該使用 `.length` 來取得最後一個字母。
 
 ```js
 assert(__helpers.removeJSComments(code).match(/\.length/g).length > 0);

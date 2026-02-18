@@ -1,6 +1,6 @@
 ---
 id: 67dd5cfeacc0cad2fc967438
-title: Task 16
+title: 任務 16
 challengeType: 19
 dashedName: task-16
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-聽音頻，回答下面的問題。
+聆聽音訊並回答以下問題。
 
 # --questions--
 
 ## --text--
 
-What does James want to know?
+James 想知道什麼？
 
 ## --answers--
 
-If they agreed on the deadline for the first phase.
+如果他們同意第一階段的截止日期。
 
 ---
 
-If the project has been canceled.
+如果專案已被取消。
 
 ### --feedback--
 
-James doesn't mention canceling the project.
+James 沒有提到取消專案。
 
 ---
 
-If Alice is responsible for the first phase.
+如果 Alice 負責第一階段。
 
 ### --feedback--
 
-James is not asking about responsibilities.
+James 並沒有在詢問責任。
 
 ---
 
-If the team finished the final phase.
+如果團隊完成了最後階段。
 
 ### --feedback--
 
-James does not talk about the final phase.
+James 不談論最後階段。
 
 ## --video-solution--
 
@@ -52,9 +52,9 @@ James does not talk about the final phase.
 
 # --explanation--
 
-`By the way` is used to introduce a new but related topic into the conversation. It often brings up something that the speaker just remembered or wants to check. For example:
+`By the way` 用來介紹一個新的但相關的話題進入對話。它經常提出講者剛想起來或想確認的事情。例如：
 
-`By the way, have you seen the updated report?` – This introduces a new question related to what was already being discussed.
+`By the way, have you seen the updated report?`－這介紹了一個與先前討論內容相關的新問題。
 
 # --scene--
 

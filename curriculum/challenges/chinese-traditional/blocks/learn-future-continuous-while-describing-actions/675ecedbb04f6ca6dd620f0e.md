@@ -1,6 +1,6 @@
 ---
 id: 675ecedbb04f6ca6dd620f0e
-title: Task 76
+title: 任務 76
 challengeType: 22
 dashedName: task-76
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-請聽音頻，並完成下面的填空。
+聆聽音訊並完成以下句子。
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ lang: en-US
 
 ### --feedback--
 
-This is a type of cyberattack where a hacker secretly gets in the middle of two people or systems talking to each other. The hacker can see, change, or steal information being shared without anyone knowing. This is a compound word, remember to use `-`. The first letters of the first and the forth word are capitalized.
+這是一種網路攻擊型別，駭客秘密地介入兩個人或系統之間的通訊。駭客可以在沒有人知道的情況下查看、更改或竊取被分享的資訊。這是一個複合字，記得使用 `-`。第一個字和第四個字的首字母要大寫。
 
 ---
 
@@ -32,17 +32,17 @@ This is a type of cyberattack where a hacker secretly gets in the middle of two 
 
 ### --feedback--
 
-This word in the plural form means actions by hackers or criminals to harm a computer system, steal information, or cause problems.
+這個字的複數形式表示駭客或犯罪分子對電腦系統造成傷害、竊取資訊或引起問題的行為。
 
 # --explanation--
 
-`Man-in-the-Middle` (or `MITM`) is a type of attack where a hacker secretly gets between two people or systems that are communicating. The hacker listens to or changes the information being shared without anyone knowing. 例如：
+`Man-in-the-Middle`（或 `MITM`）是一種攻擊型別，駭客會秘密介入兩個正在通訊的人或系統之間。駭客會在沒有人知道的情況下竊聽或更改所共享的資訊。例如：
 
-`A Man-in-the-Middle attack (MITM) happened when a hacker intercepted the data sent between a user's computer and their bank.` - The hacker pretended to be the bank, intercepted the information, and stole the user's login credentials. This allowed the hacker to access the bank account without the user knowing.
+`A Man-in-the-Middle attack (MITM) happened when a hacker intercepted the data sent between a user's computer and their bank.` - 駭客假裝成銀行，攔截資訊並竊取使用者的登入憑證。這使得駭客能在使用者不知情的情況下存取銀行帳戶。
 
-`Attacks` are actions by hackers to harm computer systems, steal information, or cause problems. 例如：
+`Attacks` 是駭客對電腦系統造成傷害、竊取資訊或引起問題的行為。例如：
 
-`The website was unavailable for hours because of a cyber attack that overloaded its server.` - It indicates the hacker sent too much fake traffic to the website, making it crash or slow down. This stopped real users from accessing it, causing disruption.
+`The website was unavailable for hours because of a cyber attack that overloaded its server.`－這表示駭客傳送過多的假流量到該網站，使其當機或變慢。這阻止了真實使用者存取，造成中斷。
 
 # --scene--
 

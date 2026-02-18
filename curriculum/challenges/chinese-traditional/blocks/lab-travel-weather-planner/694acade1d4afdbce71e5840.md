@@ -1,99 +1,99 @@
 ---
 id: 694acade1d4afdbce71e5840
-title: Build a Travel Weather Planner
+title: 建置一個旅遊天氣規劃器
 challengeType: 27
 dashedName: build-a-travel-weather-planner
 ---
 
 # --description--
 
-For this lab, you will use conditional statements to determine whether commuting is possible based on the weather, the distance to travel, and the availability of a vehicle.
+在這個實驗中，你將使用條件述語來判斷是否能根據天氣、距離和車輛可用性進行通勤。
 
-**Objective:** Fulfill the user stories below and get all the tests to pass to complete the lab.
+**目標：** 完成以下使用者故事並通過所有測試以完成實驗。
 
-1. You should create the following variables:
-   * `distance_mi` (a number representing the distance to travel in miles)
-   * `is_raining` (a boolean representing if the user is currently experiencing rainy weather)
-   * `has_bike` (a boolean representing if the user has a bicycle)
-   * `has_car` (a boolean representing if the user has a car)
-   * `has_ride_share_app` (a boolean representing if the user has an app that allows them to request a ride)
-1. You should use conditional statements to determine whether commuting is possible based on the values of these variables.
-1. You should use `if`, `elif`, and `else` statements to evaluate the distance categories in ascending order.
-1. If `distance_mi` is a falsy value:
-   * You should print `False`.
-1. If the distance is **less than or equal to 1 mile**:
-   * You should print `True` only if it is **not raining**.
-   * Otherwise, you should print `False`.
-1. If the distance is **greater than 1 mile and less than or equal to 6 miles**:
-   * You should print `True` only if the person has a bike **and** it is not raining.
-   * Otherwise, you should print `False`.
-1. If the distance is **greater than 6 miles**:
-   * You should print `True` if the person has a car **or** has a ride-share app.
-   * Otherwise, you should print `False`.
+1. 你應該創建以下變數：
+   * `distance_mi`（一個表述要行駛英里數的數字）
+   * `is_raining`（一個布林值，表述使用者目前是否正經歷雨天）
+   * `has_bike`（一個表述使用者是否擁有自行車的布林值）
+   * `has_car`（一個表述使用者是否有車的布林值）
+   * `has_ride_share_app`（一個布林值，表述使用者是否有一個允許他們叫車的應用程式）
+1. 你應該使用條件述語來根據這些變數的值判斷是否可以通勤。
+1. 你應該使用 `if`、`elif` 和 `else` 述語，依距離類別的遞增順序進行評估。
+1. 如果 `distance_mi` 是假值：
+   * 你應該列印 `False`。
+1. 如果距離**小於或相等於 1 英里**：
+   * 只有在**沒有下雨**時，你才應該列印 `True`。
+   * 否則，你應該列印 `False`。
+1. 如果距離**大於 1 英里且小於或相等於 6 英里**：
+   * 只有當該人有腳踏車**且**沒有下雨時，你才應該列印 `True`。
+   * 否則，你應該列印 `False`。
+1. 如果距離**大於 6 英里**：
+   * 如果此人有車 **或** 有共乘應用程式，你應該列印 `True`。
+   * 否則，你應該列印 `False`。
 
 # --hints--
 
-You should have a variable named `distance_mi`.
+你應該有一個名為 `distance_mi` 的變數。
 
 ```js
 ({ test: () => runPython(`assert _Node(_code).has_variable("distance_mi")`) })
 ```
 
-You should assign a number to your `distance_mi` variable.
+你應該為你的 `distance_mi` 變數指定一個數字。
 
 ```js
 ({ test: () => runPython(`assert isinstance(distance_mi, (int, float))`) })
 ```
 
-You should have a variable named `is_raining`.
+你應該有一個名為 `is_raining` 的變數。
 
 ```js
 ({ test: () => runPython(`assert _Node(_code).has_variable("is_raining")`) })
 ```
 
-You should assign a boolean to your `is_raining` variable.
+你應該為你的 `is_raining` 變數指定一個布林值。
 
 ```js
 ({ test: () => runPython(`assert isinstance(is_raining, bool)`) })
 ```
 
-You should have a variable named `has_bike`.
+你應該有一個名為 `has_bike` 的變數。
 
 ```js
 ({ test: () => runPython(`assert _Node(_code).has_variable("has_bike")`) })
 ```
 
-You should assign a boolean to your `has_bike` variable.
+你應該為你的 `has_bike` 變數指定一個布林值。
 
 ```js
 ({ test: () => runPython(`assert isinstance(has_bike, bool)`) })
 ```
 
-You should have a variable named `has_car`.
+你應該有一個名為 `has_car` 的變數。
 
 ```js
 ({ test: () => runPython(`assert _Node(_code).has_variable("has_car")`) })
 ```
 
-You should assign a boolean to your `has_car` variable.
+你應該為你的 `has_car` 變數指定一個布林值。
 
 ```js
 ({ test: () => runPython(`assert isinstance(has_car, bool)`) })
 ```
 
-You should have a variable named `has_ride_share_app`.
+你應該有一個名為 `has_ride_share_app` 的變數。
 
 ```js
 ({ test: () => runPython(`assert _Node(_code).has_variable("has_ride_share_app")`) })
 ```
 
-You should assign a boolean to your `has_ride_share_app` variable.
+你應該為你的 `has_ride_share_app` 變數指定一個布林值。
 
 ```js
 ({ test: () => runPython(`assert isinstance(has_ride_share_app, bool)`) })
 ```
 
-You should use at least one `if` statement.
+你應該至少使用一個 `if` 述語。
 
 ```js
 ({ test: () => runPython(`
@@ -105,7 +105,7 @@ assert len(ifs) >= 1
 `) })
 ```
 
-You should use at least one `elif` branch in your program.
+你應該在你的程式中至少使用一個 `elif` 分支。
 
 ```js
 ({ test: () => runPython(`
@@ -123,7 +123,7 @@ assert len(elifs) >= 1
 `) })
 ```
 
-You should use at least one boolean operator (`and`, `or`, or `not`) in your code.
+你應該在你的程式碼中使用至少一個布林值運算子（`and`、`or` 或 `not`）。
 
 ```js
 ({ test: () => runPython(`
@@ -140,13 +140,13 @@ assert len(bool_ops) >= 1
 `) })
 ```
 
-You should use the `print()` function to display the result.
+你應該使用 `print()` 函式（程式）來顯示結果。
 
 ```js
 ({ test: () => runPython(`assert _Node(_code).block_has_call("print")`) })
 ```
 
-When the distance is `1` mile or less and it is not raining, the program should print `True`.
+當距離為 `1` 英里或更短且沒有下雨時，程式應該列印 `True`。
 
 ```js
 ({ test: () => runPython(`
@@ -205,7 +205,7 @@ run_case(
 `) })
 ```
 
-When the distance is `1` mile or less and it is raining, the program should print `False`.
+當距離為 `1` 英里或更短且正在下雨時，程式應該列印 `False`。
 
 ```js
 ({ test: () => runPython(`
@@ -264,7 +264,7 @@ run_case(
 `) })
 ```
 
-When the distance is between `1` mile (excluded) and `6` miles (included), and it is raining with no bike, the program should print `False`.
+當距離介於 `1` 英里（不包含）和 `6` 英里（包含）之間，且正在下雨且沒有腳踏車時，程式應該列印 `False`。
 
 ```js
 ({ test: () => runPython(`
@@ -334,7 +334,7 @@ run_case(
 `) })
 ```
 
-When the distance is between `1` mile (excluded) and `6` miles (included), it is not raining but no bike is available, the program should print `False`.
+當距離介於 `1` 英里（不包含）和 `6` 英里（包含）之間，且沒有下雨但沒有可用的自行車時，程式應該列印 `False`。
 
 ```js
 ({ test: () => runPython(`
@@ -404,7 +404,7 @@ run_case(
 `) })
 ```
 
-When the distance is between `1` mile (excluded) and `6` miles (included), a bike is available, and it is not raining, the program should print `True`.
+當距離介於 `1` 英里（不含）和 `6` 英里（含）之間，且有腳踏車可用，並且沒有下雨時，程式應該列印 `True`。
 
 ```js
 ({ test: () => runPython(`
@@ -472,7 +472,7 @@ run_case(
 `) })
 ```
 
-When the distance is greater than `6` miles and a ride share app is available, the program should print `True`.
+當距離大於 `6` 英里且共乘應用程式可用時，程式應該列印 `True`。
 
 ```js
 ({ test: () => runPython(`
@@ -520,7 +520,7 @@ run_case(
 `) })
 ```
 
-When the distance is greater than `6` miles and a car is available, the program should print `True`.
+當距離大於 `6` 英里且有車輛可用時，程式應該列印 `True`。
 
 ```js
 ({ test: () => runPython(`
@@ -568,7 +568,7 @@ run_case(
 `) })
 ```
 
-When the distance is greater than `6` miles and no car nor a ride share app is available, the program should print `False`.
+當距離大於 `6` 英里且沒有車輛或共乘應用程式可用時，程式應該列印 `False`。
 
 ```js
 ({ test: () => runPython(`

@@ -1,6 +1,6 @@
 ---
 id: 68555dfadef342c2db9b5abf
-title: Task 83
+title: 任務 83
 challengeType: 22
 dashedName: task-83
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-請聽音頻，並完成下面的填空。
+聆聽音訊並完成以下句子。
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ lang: en-US
 
 ### --feedback--
 
-This two-word phrase means introduced or caused something to appear or become an issue. The first word is the past tense form of `bring`.
+這個兩字詞組表示介紹或導致某事出現或成為問題。第一個字是 `bring` 的過去式形式。
 
 ---
 
@@ -32,17 +32,17 @@ This two-word phrase means introduced or caused something to appear or become an
 
 ### --feedback--
 
-This word means something happened that was not planned or predicted. It ends with `-ed`.
+這個字表示發生了未計劃或未預測的事情。它以 `-ed` 結尾。
 
 # --explanation--
 
-`Brought up` means caused something to appear, especially a problem or issue. Here, `brought` is the past tense form of `bring`. 例如：
+`Brought up` 意味著引起某事物出現，特別是問題或議題。在這裡，`brought` 是 `bring` 的過去式。例如：
 
-`The new feature brought up several bugs.` – This means the feature caused the bugs to be noticed.
+`The new feature brought up several bugs.`－這表示該特性導致這些錯誤被發現。
 
-`Unexpected` describes something that happens without warning or planning. 例如：
+`Unexpected` 描述未經警告或計劃而發生的事情。例如：
 
-`We had an unexpected delay due to server issues.` – This means the delay was not anticipated.
+`We had an unexpected delay due to server issues。`－這表示延遲是未預期的。
 
 # --scene--
 

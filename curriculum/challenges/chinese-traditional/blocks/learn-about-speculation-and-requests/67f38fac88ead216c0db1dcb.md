@@ -1,8 +1,9 @@
 ---
 id: 67f38fac88ead216c0db1dcb
-title: Task 81
+title: 任務 81
 challengeType: 19
 dashedName: task-81
+showSpeakingButton: true
 lang: en-US
 ---
 
@@ -12,25 +13,33 @@ lang: en-US
 
 # --instructions--
 
-聽音頻，回答下面的問題。
+聆聽音訊並回答以下問題。
 
 # --questions--
 
 ## --text--
 
-Jessica didn't check that yet, but will do. What should she say?
+Jessica 還沒檢查，但會去做。她應該說什麼？
 
 ## --answers--
 
 `No, I won't check it.`
 
+### --audio-id--
+
+en-b1-67f38fac88ead216c0db1dcb-SP1
+
 ### --feedback--
 
-`Won't` is the contraction for `will not`. Jessica plans to check it.
+`Won't` 是 `will not` 的縮寫。Jessica 計劃檢查它。
 
 ---
 
 `No, I didn't. I'll do that.`
+
+### --audio-id--
+
+en-b1-67f38fac88ead216c0db1dcb-SP2
 
 ## --video-solution--
 
@@ -38,11 +47,11 @@ Jessica didn't check that yet, but will do. What should she say?
 
 # --explanation--
 
-Jessica is responding to Jake's question, acknowledging that she has not checked yet but will do so. This response shows that she is ready to complete the task, which is in line with what Jake is asking about.
+Jessica 正在回應 Jake 的問題，承認她還沒檢查，但會去做。這個回應顯示她已準備好完成任務，這與 Jake 所詢問的內容一致。
 
-`No, I didn't` confirms that she hasn't checked yet.
+`No, I didn't` 確認她尚未檢查。
 
-`I'll do that` shows her intention to complete the task soon.
+`I'll do that` 表示她打算很快完成這項任務。
 
 # --scene--
 

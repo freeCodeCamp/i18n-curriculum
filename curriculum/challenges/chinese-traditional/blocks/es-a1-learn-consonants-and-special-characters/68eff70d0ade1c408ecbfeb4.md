@@ -1,6 +1,6 @@
 ---
 id: 68eff70d0ade1c408ecbfeb4
-title: Task 6
+title: 任務 6
 challengeType: 22
 dashedName: task-6
 lang: es
@@ -10,15 +10,15 @@ lang: es
 
 # --description--
 
-The letter `d` is called `de`.
+字母 `d` 被稱為 `de`。
 
-At the beginning of a word or after `l` or `n`, its sound is stronger, like in the word `dos` ("two"). However, it's softer between vowels, like in the word `idea` ("idea").
+在字的開頭或在 `l` 或 `n` 之後，它的發音較強，如字 `dos`（「二」）中。然而，在母音之間則較柔和，如字 `idea`（「想法」）中。
 
-An example is `doctor` ("doctor").
+一個範例是 `doctor`（「doctor」）。
 
 # --instructions--
 
-Listen to the audio and write the letter in the blank space below.
+聆聽音訊並在下方空格中寫下字母。
 
 # --fillInTheBlank--
 
@@ -32,7 +32,7 @@ Listen to the audio and write the letter in the blank space below.
 
 ### --feedback--
 
-This is the fourth letter in the alphabet.
+這是字母表中的第四個字母。
 
 # --scene--
 

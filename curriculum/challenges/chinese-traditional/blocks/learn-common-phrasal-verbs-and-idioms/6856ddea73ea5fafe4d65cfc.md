@@ -1,8 +1,9 @@
 ---
 id: 6856ddea73ea5fafe4d65cfc
-title: Task 95
+title: 任務 95
 challengeType: 19
 dashedName: task-95
+showSpeakingButton: true
 lang: en-US
 ---
 
@@ -12,25 +13,33 @@ lang: en-US
 
 # --instructions--
 
-聽音頻，回答下面的問題。
+聆聽音訊並回答以下問題。
 
 # --questions--
 
 ## --text--
 
-How could Linda praise Jake's idea?
+Linda 要如何稱讚 Jake 的想法？
 
 ## --answers--
 
 `That's an excellent suggestion.`
 
+### --audio-id--
+
+en-b1-6856ddea73ea5fafe4d65cfc-SP1
+
 ---
 
 `Are you sure that would work?`
 
+### --audio-id--
+
+en-b1-6856ddea73ea5fafe4d65cfc-SP2
+
 ### --feedback--
 
-This sounds doubtful, not supportive.
+這聽起來令人懷疑，而非支援（某功能）。
 
 ## --video-solution--
 
@@ -38,11 +47,11 @@ This sounds doubtful, not supportive.
 
 # --explanation--
 
-`That's an excellent suggestion.` is a polite and positive way to praise someone's idea by showing strong agreement and approval. For example:
+`That's an excellent suggestion.` 是一種禮貌且正面的方式，透過表達強烈的認同和讚賞來稱讚某人的想法。例如：
 
-- Person 1: `Let's add more visuals to the report.` – The first person suggests that they incorporate more graphics and images to the report to make it more vivid.
+- 第一個人：`Let's add more visuals to the report.`－第一個人建議他們為報告添加更多圖形和影像，使其更生動。
 
-- Person 2: `That's an excellent suggestion.` – This means the person thinks the idea is very good and helpful.
+- 第二人：`That's an excellent suggestion.`－這表示此人認為這個想法非常好且有幫助。
 
 # --scene--
 

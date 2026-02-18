@@ -1,19 +1,19 @@
 ---
 id: 64e4ebc7eabc5a6babd479cd
-title: 步驟 9
+title: 第 9 步
 challengeType: 0
 dashedName: step-9
 ---
 
 # --description--
 
-如果用戶點擊 `Discard` 按鈕，你需要關閉顯示 `Cancel` 和 `Discard` 按鈕的模式，然後隱藏表單模式。
+如果使用者點擊 `Discard` 按鈕，你要關閉顯示 `Cancel` 和 `Discard` 按鈕的模態視窗，然後隱藏表單模態視窗。
 
-爲 `discardBtn` 添加一個點擊事件監聽器，然後對 `confirmCloseDialog` 變量使用 `close()` 方法。 另外，使用 `classList` 在 `taskForm` 上切換類 `hidden`，這樣表單模式也會關閉。
+為你的 `discardBtn` 添加點擊事件監聽器，然後對 `confirmCloseDialog` 變數使用 `close()` 方法。並且，使用 `classList` 在 `taskForm` 上切換 `hidden` 類別，這樣表單對話盒也會關閉。
 
 # --hints--
 
-你應該在 `discardBtn` 變量上調用 `addEventListener()` 方法。
+你應該在你的 `discardBtn` 變數上呼叫 `addEventListener()` 方法。
 
 ```js
 assert.match(code, /discardBtn\.addEventListener\(/)
@@ -25,19 +25,19 @@ assert.match(code, /discardBtn\.addEventListener\(/)
 assert.match(code, /discardBtn\.addEventListener\(\s*('|"|`)click\1/)
 ```
 
-你應該使用箭頭語法將事件監聽器設置爲空的一對花括號。
+你應該使用箭頭語法將你的事件監聽器設置為一對空的大括號。
 
 ```js
 assert.match(code, /discardBtn\.addEventListener\(\s*('|"|`)click\1\s*,\s*\(\s*\)\s*=>\s*\{/)
 ```
 
-你的事件監聽器應該在 `confirmCloseDialog` 上使用 `close()` 方法。
+你的事件監聽器應該對 `confirmCloseDialog` 使用 `close()` 方法。
 
 ```js
 assert.match(code, /discardBtn\.addEventListener\(\s*('|"|`)click\1\s*,\s*\(\s*\)\s*=>\s*\{\s*confirmCloseDialog\.close\(\s*\)\s*;?/)
 ```
 
-你的事件監聽器應該使用 `classList` 在 `taskForm` 上切換類 `hidden`。
+你的事件監聽器應該使用 `classList` 來切換 `taskForm` 上的 `hidden` 類別。
 
 ```js
 assert.match(code, /discardBtn\.addEventListener\(\s*('|"|`)click\1\s*,\s*\(\s*\)\s*=>\s*\{\s*confirmCloseDialog\.close\(\s*\)\s*;?\s*taskForm\.classList\.toggle\(\s*('|"|`)hidden\2\s*\)\s*;?\s*\}\s*\)\s*;?/)

@@ -1,6 +1,6 @@
 ---
 id: 67fea5eff4f7ddccd1fe2bb9
-title: Task 22
+title: 任務 22
 challengeType: 22
 dashedName: task-22
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+聆聽音訊並完成以下句子。
 
 # --fillInTheBlank--
 
@@ -24,13 +24,13 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This refers to something happening once a week.
+這是指每週發生一次的事情。
 
 # --explanation--
 
-`Weekly` is used to describe something that happens only once every week. It indicates the frequency of an event or action occurring on a weekly basis. For example:
+`Weekly` 用來描述每週只發生一次的事情。它顯示事件或動作以每週為頻率發生。例如：
 
-`The team has weekly meetings to discuss project progress.` – This means the meetings happen every week.
+`The team has weekly meetings to discuss project progress。` – 這表示會議每週舉行。
 
 # --scene--
 

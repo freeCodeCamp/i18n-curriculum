@@ -1,6 +1,6 @@
 ---
 id: 65f6f9e9cfbda7f9c04e8af7
-title: Task 41
+title: 任務 41
 challengeType: 19
 dashedName: task-41
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --description--
 
-The phrase `by the end of it` is commonly used in English to refer to the conclusion or final part of a process or period of time. It implies that at the completion of a certain activity, a specific result or understanding will be achieved.
+片語 `by the end of it` 在英文中常用來指涉一個處理程序或時間段的結束或最後零件。它暗示在某個活動完成時，將會達成特定的結果或理解。
 
 # --questions--
 
 ## --text--
 
-In the dialogue, what does Brian mean by `by the end of it`?
+在對話窗中，Brian 說的 `by the end of it` 是什麼意思？
 
 ## --answers--
 
-They will stop the investigation.
+他們將停止調查。
 
 ### --feedback--
 
-This phrase is about reaching a conclusion, not necessarily stopping the activity.
+這句話是關於達成結論，而不一定是停止該活動。
 
 ---
 
-They will start another activity.
+他們將啟動另一個活動。
 
 ### --feedback--
 
-Brian is referring to the end of the current investigation, not starting something new.
+Brian 是在取用目前調查的結束，而不是開始新的事情。
 
 ---
 
-They will take a break.
+他們將會休息。
 
 ### --feedback--
 
-The phrase focuses on reaching an understanding at the end of the process, not taking a break.
+該片語著重於在處理程序結束時達成共識，而非休息。
 
 ---
 
-They will have a clearer understanding of the situation after the investigation.
+調查後，他們會對情況有更清楚的了解。
 
 ## --video-solution--
 

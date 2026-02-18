@@ -1,6 +1,6 @@
 ---
 id: 66bbba46fff0ef451b701bcd
-title: Task 103
+title: 任務 103
 challengeType: 19
 dashedName: task-103
 lang: en-US
@@ -12,41 +12,41 @@ Sarah: Sure, I'm not busy. What's the problem? -->
 
 # --instructions--
 
-聽音頻，回答下面的問題。
+聆聽音訊並回答以下問題。
 
 # --questions--
 
 ## --text--
 
-Is Sarah available to talk to Tom?
+Sarah 有空跟 Tom 講話嗎？
 
 ## --answers--
 
-No, she is busy and doesn't want to know about his problems.
+不，她很忙，不想知道他的問題。
 
 ### --feedback--
 
-Sarah says she is not busy.
+Sarah 說她不忙。
 
 ---
 
-Yes, she is available and wants to know what's the problem.
+是的，她有空並且想知道問題是什麼。
 
 ---
 
-No, she cannot talk right now, she has her own problems.
+不，她現在不能說話，她有她自己的問題。
 
 ### --feedback--
 
-Sarah mentions that she is not busy.
+Sarah 提到她不忙。
 
 ---
 
-Yes, but only for a moment because she has her own problems.
+是的，但只有片刻，因為她有她自己的問題。
 
 ### --feedback--
 
-Sarah doesn't limit the time; she simply states that she is not busy.
+Sarah 並不限制時間；她只是說她不忙。
 
 ## --video-solution--
 
@@ -54,11 +54,11 @@ Sarah doesn't limit the time; she simply states that she is not busy.
 
 # --explanation--
 
-Instead of directly saying she is free, Sarah uses the negative form `I'm not busy` to emphasize that she has time to help.
+莎拉沒有直接說她有空，而是使用否定形式 `I'm not busy` 來強調她有時間幫忙。
 
-This is a polite and indirect way to offer availability in English, commonly used to make the conversation more tactful.
+這是在英語中提供可用性的一種禮貌且間接的方式，通常用來使對話更為委婉。
 
-Her follow-up sentence, `What's the problem?`, confirms she's willing to assist by inviting Tom to explain the issue.
+她接著說的句子，`What's the problem?`，確認她願意協助並邀請 Tom 說明問題。
 
 # --scene--
 

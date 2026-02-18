@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c242eddfaeb5bd13
-title: 製作一個個人作品集展示頁
+title: 建置個人作品集網頁
 challengeType: 14
 saveSubmissionToDB: true
 forumTopicId: 301143
@@ -9,29 +9,29 @@ dashedName: build-a-personal-portfolio-webpage
 
 # --description--
 
-**目標：** 構建一個功能類似於 <a href="https://personal-portfolio.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://personal-portfolio.freecodecamp.rocks</a> 的應用程序。 **請勿複製此演示項目**。
+**目標：** 建置一個功能上類似於 <a href="https://personal-portfolio.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://personal-portfolio.freecodecamp.rocks</a> 的應用程式。**請勿複製此示範專案**。
 
-**用戶需求：**
+**使用者故事：**
 
-1. 你的作品集應該有一個歡迎部分，其 `id` 爲 `welcome-section`
-1. 歡迎部分應該有一個包含文本的 `h1` 元素
-1. 你的作品集應該有一個 `id` 爲 `projects` 的項目部分
-1. 項目部分應該包含至少一個 `class` 爲 `project-tile` 的元素來保存項目
-1. 項目部分應該包含至少一個項目的鏈接
-1. 你的作品集應該有一個 id 爲 `navbar` 的導航欄
-1. 導航欄應該至少包含一個鏈接，你可以點擊它來導航到頁面的不同部分
-1. 你的作品集應該有一個 id 爲 `profile-link` 的鏈接，在新標籤中打開你的 GitHub 或 freeCodeCodeCamp 個人主頁
-1. 你的作品集應該至少有一個媒體查詢
-1. 歡迎部分的高度應該等於視口的高度
-1. 導航欄應該始終位於視口的頂部
+1. 你的作品集應該有一個歡迎區段，其 `id` 為 `welcome-section`
+1. 歡迎區段應該包含一個含有文字的 `h1` 元素
+1. 你的作品集應該有一個 `id` 為 `projects` 的專案區段。
+1. 專案區段應至少包含一個具有 `class` 為 `project-tile` 的元素來容納專案
+1. 專案區段應至少包含一個指向專案的聯結。
+1. 你的作品集應該有一個 id 為 `navbar` 的導覽列
+1. 導覽列應該至少包含一個你可以點擊以導覽到頁面不同區段的聯結。
+1. 你的作品集應該有一個 id 為 `profile-link` 的聯結，該聯結會在新分頁中開啟你的 GitHub 或 freeCodeCamp 評測。
+1. 你的作品集應該至少有一個媒體查詢。
+1. 歡迎區塊的高度應該與視窗高度相等。
+1. 導覽列應該始終位於視窗頂部
 
-完成需求並通過下面的所有測試來完成這個項目。 使用你自己的個人風格樣式。 編程愉快！
+完成使用者故事並通過以下所有測試以完成此專案。展現你個人的風格。祝你程式設計愉快！
 
-**注意：** 請在你的 HTML 中添加 `<link rel="stylesheet" href="styles.css">` 以鏈接你的樣式表並應用你的 CSS
+**注意：** 請務必在你的 HTML 中添加 `<link rel="stylesheet" href="styles.css">` 以聯結你的樣式表並套用你的 CSS。
 
 # --hints--
 
-你的作品集應該有一個 `id` 爲 `welcome-section` 的歡迎部分。
+你的作品集應該有一個「歡迎」區段，其 `id` 為 `welcome-section`。
 
 ```js
 const el = document.getElementById('welcome-section');
@@ -48,7 +48,7 @@ assert.isAbove(
 );
 ```
 
-在 `#welcome-section` 元素中，你不應該有任何空的 `h1` 元素。
+你不應該在 `#welcome-section` 元素內有任何空的 `h1` 元素。
 
 ```js
 assert.isAbove(
@@ -58,33 +58,33 @@ assert.isAbove(
 );
 ```
 
-你應該有一個 `id` 爲 `projects` 的項目部分。
+你應該有一個「專案」區段，其 `id` 為 `projects`。
 
 ```js
 const el = document.getElementById('projects');
 assert.isNotNull(el);
 ```
 
-你的作品集應該包含至少一個 class 爲 `project-tile` 的元素。
+你的作品集應該至少包含一個具有 `project-tile` 類別的元素。
 
 ```js
 assert.isAbove(document.querySelectorAll('#projects .project-tile').length, 0);
 ```
 
-你的 `#projects` 元素應該包含至少一個 `a` 元素。
+你的 `#projects` 元素應該至少包含一個 `a` 元素。
 
 ```js
 assert.isAbove(document.querySelectorAll('#projects a').length, 0);
 ```
 
-你的作品集應該有一個 `id` 爲 `navbar` 的導航欄。
+你的作品集應該有一個 `id` 為 `navbar` 的導覽列。
 
 ```js
 const el = document.getElementById('navbar');
 assert.isNotNull(el);
 ```
 
-你的 `#navbar` 元素應該包含至少一個 `a` 元素，它的 `href` 屬性以 `#` 開頭。
+你的 `#navbar` 元素應該至少包含一個 `a` 元素，其 `href` 屬性以 `#` 開頭。
 
 ```js
 const links = [...document.querySelectorAll('#navbar a')].filter(
@@ -94,7 +94,7 @@ const links = [...document.querySelectorAll('#navbar a')].filter(
 assert.isAbove(links.length, 0, 'Navbar should contain an anchor link ');
 ```
 
-你的作品集應該有一個 `id` 爲 `profile-link` 的 `a` 元素。
+你的作品集應該有一個 `a` 元素，其 `id` 為 `profile-link`。
 
 ```js
 const el = document.getElementById('profile-link');
@@ -102,7 +102,7 @@ assert.isNotNull(el);
 assert.strictEqual(el.tagName, 'A');
 ```
 
-你的 `#profile-link` 元素應該有一個值爲 `_blank` 的 `target` 屬性。
+你的 `#profile-link` 元素應該有一個 `target` 屬性，值為 `_blank`。
 
 ```js
 const el = document.getElementById('profile-link');
@@ -110,7 +110,7 @@ assert.isNotNull(el);
 assert.strictEqual(el.target, '_blank');
 ```
 
-你的作品集應該至少有一個媒體查詢。
+你的作品集應該至少使用一個媒體查詢。
 
 ```js
 const htmlSourceAttr = Array.from(document.querySelectorAll('source')).map(el => el.getAttribute('media'))
@@ -118,7 +118,7 @@ const cssCheck = new __helpers.CSSHelp(document).getCSSRules('media')
 assert.isTrue(cssCheck.length > 0 || htmlSourceAttr.length > 0);
 ```
 
-你的 `#navbar` 元素應該始終位於視口的頂部。
+你的 `#navbar` 元素應該始終位於視窗頂部。
 
 ```js
   const timeout = milliseconds =>

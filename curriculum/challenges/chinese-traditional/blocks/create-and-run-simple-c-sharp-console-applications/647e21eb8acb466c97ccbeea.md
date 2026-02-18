@@ -1,38 +1,38 @@
 ---
 id: 647e21eb8acb466c97ccbeea
-title: '引導項目 - 在 C# 中使用 foreach 和 if-elseif-else 結構來處理數組數據'
+title: 引導式專案－開發 `foreach` 和 `if-elseif-else` 結構以處理 C# 中的陣列資料
 challengeType: 19
 dashedName: guided-project-develop-foreach-and-if-elseif-else-structures-to-process-array-data-in-c-sharp
 ---
 
 # --description--
 
-這個挑戰將有一部分在 Microsoft Learn 平臺上完成。 請按照如下說明來完成挑戰：
+此挑戰將在 Microsoft Learn 平台上部分完成。請遵循這些指示以完成挑戰：
 
-1. 跳轉到 <a href="https://learn.microsoft.com/training/modules/guided-project-arrays-iteration-selection/" target="_blank" rel="noreferrer">https://learn.microsoft.com/training/modules/guided-project-arrays-iteration-selection/</a>，然後完成“引導項目 - 在 C# 中使用 foreach 和 if-elseif-else 結構來處理數組數據”模塊的所有任務。 這是在 Microsoft Learn 上獲得“創建並運行簡單的 C# 控制檯應用程序”的獎盃以及參加認證考試所**必需**的。
-1. 完成後，返回並正確回答下面的問題。
+1. 前往 <a href="https://learn.microsoft.com/training/modules/guided-project-arrays-iteration-selection/" target="_blank" rel="noreferrer">https://learn.microsoft.com/training/modules/guided-project-arrays-iteration-selection/</a> 並完成「Guided Project - Develop foreach and if-elseif-else Structures to Process Array Data in C#」模組的所有任務。這是獲得 Microsoft Learn 上「Create and Run Simple C# Console Applications」獎盃並取得認證考試資格的**必要**條件。
+1. 完成後，回來正確回答以下問題。
 
 # --assignment--
 
-在 Microsoft Learn 上完成 <a href="https://learn.microsoft.com/training/modules/guided-project-arrays-iteration-selection/" target="_blank" rel="noreferrer">在 C# 中使用 foreach 和 if-elseif-else 結構來處理數組數據</a> 的引導項目。 然後，回答下面的問題。
+完成 Microsoft Learn 上的 <a href="https://learn.microsoft.com/training/modules/guided-project-arrays-iteration-selection/" target="_blank" rel="noreferrer">在 C# 中開發 `foreach` 和 `if`-`elseif`-`else` 結構以處理陣列資料</a> 指導專案。然後，回答以下問題。
 
 # --questions--
 
 ## --text--
 
-開發者編寫一個應用程序，該程序使用 `foreach` 循環來遍歷一個包含 20 個元素的數組。 應用程序完成後，開發者瞭解到，必須更新數組以包含 40 個元素。 應用程序需要檢查所有這 40 個數組元素。 下列哪項描述了所需的代碼更新？
+開發人員撰寫一個應用程式，使用 `foreach` 迴圈來迭代包含 20 個元素的陣列。應用程式完成後，開發人員得知該陣列必須更新為包含 40 個元素。應用程式需要檢查所有 40 個陣列元素。以下哪一項描述所需的程式碼更新？
 
 ## --answers--
 
-創建第二個 `foreach` 循環，遍歷添加的項目。
+創建第二個 `foreach` 迴圈，迭代額外的項目。
 
 ---
 
-無需更改 `foreach` 循環。
+`foreach` 迴圈不需要任何更改。
 
 ---
 
-將原始的 `foreach` 循環放在第二個 `foreach` 循環的代碼塊中，兩次迭代。
+將原本的 `foreach` 迴圈放入第二個 `foreach` 迴圈的程式碼區塊中，該迴圈會迭代兩次。
 
 ## --video-solution--
 

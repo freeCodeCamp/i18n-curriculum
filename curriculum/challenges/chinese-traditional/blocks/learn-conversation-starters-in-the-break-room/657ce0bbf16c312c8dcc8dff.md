@@ -1,6 +1,6 @@
 ---
 id: 657ce0bbf16c312c8dcc8dff
-title: Task 63
+title: 任務 63
 challengeType: 19
 dashedName: task-63
 lang: en-US
@@ -8,19 +8,19 @@ lang: en-US
 
 # --description--
 
-There are some words you can use in your sentence to express how often something happens. They are called **adverbs of frequency**.
+有一些字你可以在句子中使用來表達某事發生的頻率。它們稱為**頻率副詞**。
 
-`Usually` is a word that suggests that something happens often but is not constant.
+`Usually` 是一個表示某事經常發生但並非持續不斷的字、單字。
 
-When `usually` is used with the verb `to be`, it is placed after the verb. For example, `She is usually on time for meetings`.
+當 `usually` 與動詞 `to be` 一起使用時，它會放在動詞之後。 例如，`She is usually on time for meetings`。
 
-With other verbs, `usually` comes before the main verb. For example, `He usually works late`.
+對於其他動詞，`usually` 通常置於主要動詞之前。 例如，`He usually works late`。
 
 # --questions--
 
 ## --text--
 
-Choose the sentence that correctly uses the adverb `usually`.
+選擇正確使用副詞 `usually` 的句子。
 
 ## --answers--
 
@@ -28,7 +28,7 @@ Choose the sentence that correctly uses the adverb `usually`.
 
 ### --feedback--
 
-`Usually` should come before the main verb when not using `to be`. The correct sentence is `She is usually very careful with her work.`
+當不使用 `to be` 時，`Usually` 應該放在主要動詞之前。正確的句子是 `She is usually very careful with her work.`
 
 ---
 
@@ -40,7 +40,7 @@ Choose the sentence that correctly uses the adverb `usually`.
 
 ### --feedback--
 
-`Usually` should come before the main verb in standard sentences. The correct sentence is `They usually play together on weekends.`
+`Usually` 應該放在標準句子的主要動詞之前。正確的句子是 `They usually play together on weekends.`
 
 ---
 
@@ -48,7 +48,7 @@ Choose the sentence that correctly uses the adverb `usually`.
 
 ### --feedback--
 
-With the verb `to be`, `usually` comes after it. The correct sentence is `We are usually happy to help out with new projects.`
+在動詞 `to be` 之後，`usually` 通常會出現。正確的句子是 `We are usually happy to help out with new projects.`
 
 ## --video-solution--
 

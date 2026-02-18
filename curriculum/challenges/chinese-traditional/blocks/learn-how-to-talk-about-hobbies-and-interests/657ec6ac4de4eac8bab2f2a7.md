@@ -1,6 +1,6 @@
 ---
 id: 657ec6ac4de4eac8bab2f2a7
-title: Task 39
+title: 任務 39
 challengeType: 22
 dashedName: task-39
 lang: en-US
@@ -10,9 +10,9 @@ lang: en-US
 
 # --description--
 
-The word `date` can be used in different contexts. While it often refers to a romantic meeting between two people, it can also simply mean an appointment or a planned event between friends or colleagues. For example:
+字 `date` 可以在不同的背景關係中使用。雖然它通常指兩人之間的浪漫約會，但它也可以簡單地表示朋友或同事之間的約定或計劃好的事件。 例如：
 
-`Let's set a date for our next meeting.` - Here, `date` is used in a non-romantic way, referring to choosing a day for a meeting.
+`Let's set a date for our next meeting.` - 這裡的 `date` 是以非浪漫的方式使用，指的是選擇會議的日期。
 
 # --fillInTheBlank--
 
@@ -26,7 +26,7 @@ The word `date` can be used in different contexts. While it often refers to a ro
 
 ### --feedback--
 
-This word specifies the type of activity planned, indicating it's an outing involving bicycles.
+這個字指定了計畫中的活動型別，表示這是一個包含自行車的郊遊。
 
 ---
 
@@ -34,7 +34,7 @@ This word specifies the type of activity planned, indicating it's an outing invo
 
 ### --feedback--
 
-This word refers to a scheduled meeting or event.
+這個字取用的是排程的會議或事件。
 
 # --scene--
 

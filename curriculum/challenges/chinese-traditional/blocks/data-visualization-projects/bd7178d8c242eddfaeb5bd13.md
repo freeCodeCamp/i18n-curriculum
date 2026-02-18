@@ -1,6 +1,6 @@
 ---
 id: bd7178d8c242eddfaeb5bd13
-title: Visualize Data with a Scatterplot Graph
+title: 使用散點圖視覺化資料
 challengeType: 3
 forumTopicId: 301467
 dashedName: visualize-data-with-a-scatterplot-graph
@@ -8,47 +8,47 @@ dashedName: visualize-data-with-a-scatterplot-graph
 
 # --description--
 
-**Objective:** Build an app that is functionally similar to this: <a href="https://scatterplot-graph.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://scatterplot-graph.freecodecamp.rocks</a>.
+**目標：** 建置一個功能上類似於此的應用程式：<a href="https://scatterplot-graph.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://scatterplot-graph.freecodecamp.rocks</a>。
 
-Fulfill the below user stories and get all of the tests to pass. Use whichever libraries or APIs you need. Give it your own personal style.
+完成以下使用者故事並通過所有測試。使用你需要的任何函式庫或 API。展現你自己的風格。
 
-You can use HTML, JavaScript, CSS, and the D3 svg-based visualization library. The tests require axes to be generated using the D3 axis property, which automatically generates ticks along the axis. These ticks are required for passing the D3 tests because their positions are used to determine alignment of graphed elements. You will find information about generating axes at <https://d3js.org/d3-axis>. Required DOM elements are queried on the moment of each test. If you use a frontend framework (like Vue for example), the test results may be inaccurate for dynamic content. We hope to accommodate them eventually, but these frameworks are not currently supported for D3 projects.
+你可以使用 HTML、JavaScript、CSS 和基於 D3 svg 的視覺化函式庫。測試要求使用 D3 的 axis 屬性來產生軸，該屬性會自動在軸上產生刻度。這些刻度是通過 D3 測試所必需的，因為它們的位置用來判斷繪圖元素的對齊。你可以在 https://d3js.org/d3-axis 找到關於產生軸的資訊。所需的 DOM 元素會在每次測試時被查詢。如果你使用前端框架（例如 Vue），動態內容的測試結果可能不準確。我們希望最終能支援這些框架，但目前這些框架尚未支援 D3 專案。
 
-**User Story #1:** I can see a title element that has a corresponding `id="title"`.
+**使用者故事 #1：** 我可以看到一個具有對應 `id="title"` 的標題元素。
 
-**User Story #2:** I can see an x-axis that has a corresponding `id="x-axis"`.
+**使用者故事 #2：** 我可以看到一個具有對應 `id="x-axis"` 的 x 軸。
 
-**User Story #3:** I can see a y-axis that has a corresponding `id="y-axis"`.
+**使用者故事 #3：** 我可以看到有對應 `id="y-axis"` 的 y 軸。
 
-**User Story #4:** I can see dots, that each have a class of `dot`, which represent the data being plotted.
+**使用者故事＃4：** 我可以看到每個都有 `dot` 類別的點，這些點表述正在繪製的資料。
 
-**User Story #5:** Each dot should have the properties `data-xvalue` and `data-yvalue` containing their corresponding `x` and `y` values.
+**使用者故事 #5：** 每個點都應該具有屬性 `data-xvalue` 和 `data-yvalue`，其中包含對應的 `x` 和 `y` 值。
 
-**User Story #6:** The `data-xvalue` and `data-yvalue` of each dot should be within the range of the actual data and in the correct data format. For `data-xvalue`, integers (full years) or `Date` objects are acceptable for test evaluation. For `data-yvalue` (minutes), use `Date` objects.
+**使用者故事＃6：** 每個點的 `data-xvalue` 和 `data-yvalue` 應該在實際資料的範圍內且符合正確的資料格式。對於 `data-xvalue`，整數（完整年份）或 `Date` 物件在測試評估中是可接受的。對於 `data-yvalue`（分鐘），請使用 `Date` 物件。
 
-**User Story #7:** The `data-xvalue` and its corresponding dot should align with the corresponding point/value on the x-axis.
+**使用者故事 #7：** `data-xvalue` 及其對應的點應與 x 軸上對應的點／值對齊。
 
-**User Story #8:** The `data-yvalue` and its corresponding dot should align with the corresponding point/value on the y-axis.
+**使用者故事 #8：** `data-yvalue` 及其對應的點應與 y 軸上對應的點／值對齊。
 
-**User Story #9:** I can see multiple tick labels on the y-axis with `%M:%S` time format.
+**使用者故事 #9：** 我可以在 y 軸上看到多個以 `%M:%S` 時間格式顯示的勾選標籤。
 
-**User Story #10:** I can see multiple tick labels on the x-axis that show the year.
+**使用者故事 #10：** 我可以在 x 軸上看到多個顯示年份的刻度標籤。
 
-**User Story #11:** I can see that the range of the x-axis labels are within the range of the actual x-axis data.
+**使用者故事 #11：** 我可以看到 x 軸標籤的範圍在實際 x 軸資料的範圍內。
 
-**User Story #12:** I can see that the range of the y-axis labels are within the range of the actual y-axis data.
+**使用者故事 #12：** 我可以看到 y 軸標籤的範圍在實際 y 軸資料的範圍內。
 
-**User Story #13:** I can see a legend containing descriptive text that has `id="legend"`.
+**使用者故事 #13：** 我可以看到包含描述性文字且具有 `id="legend"` 的圖例。
 
-**User Story #14:** I can mouse over an area and see a tooltip with a corresponding `id="tooltip"` which displays more information about the area.
+**使用者故事 #14：** 我可以將滑鼠移到某個區域上方，並看到一個對應 `id="tooltip"` 的工具提示，該提示會顯示該區域的更多資訊。
 
-**User Story #15:** My tooltip should have a `data-year` property that corresponds to the `data-xvalue` of the active area.
+**使用者故事 #15：** 我的工具提示應該有一個 `data-year` 屬性，該屬性對應於作用中區域的 `data-xvalue`。
 
-Here is the dataset you will need to complete this project: `https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/cyclist-data.json`
+這是你完成此專案所需的資料集：`https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/cyclist-data.json`
 
-You can build your project by <a href='https://codepen.io/pen?template=MJjpwO' target="_blank" rel="noopener noreferrer nofollow">using this CodePen template</a> and clicking `Save` to create your own pen. Or you can use this CDN link to run the tests in any environment you like: `https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js`
+你可以透過<a href='https://codepen.io/pen?template=MJjpwO' target="_blank" rel="noopener noreferrer nofollow">使用這個 CodePen 模板</a>並點擊 `Save` 來建置你的專案，創建你自己的 pen。或者你可以使用這個 CDN 連結，在任何你喜歡的環境中執行測試：`https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js`
 
-Once you're done, submit the URL to your working project with all its tests passing.
+完成後，提交包含所有通過測試的工作專案的 URL。
 
 # --solutions--
 

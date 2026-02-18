@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+聆聽音訊並完成以下句子。
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This modal verb expresses necessity or obligation.
+這個情態動詞表示必要性或義務。
 
 ---
 
@@ -32,17 +32,17 @@ This modal verb expresses necessity or obligation.
 
 ### --feedback--
 
-This verb follows `must` to indicate an action that is required.
+這個動詞跟隨 `must` 用來顯示必須執行的動作。
 
 # --explanation--
 
-`Must` is a modal verb used to express necessity or obligation. For example:
+`Must` 是一個用來表達必要性或義務的情態動詞。 例如：
 
-- `You must wear a seatbelt while driving.` - It is required.
+- `You must wear a seatbelt while driving。`－這是必須的。
 
-- `We must submit the report by Friday.` - It is necessary.
+- `We must submit the report by Friday.`－這是必要的。
 
-Modal verbs are always followed by the base form of the verb (without `to`).
+情態動詞後面總是接動詞的原形（不帶 `to`）。
 
 # --scene--
 

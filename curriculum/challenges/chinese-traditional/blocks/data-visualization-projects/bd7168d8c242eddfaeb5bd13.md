@@ -1,6 +1,6 @@
 ---
 id: bd7168d8c242eddfaeb5bd13
-title: 用條形圖可視化數據
+title: 使用長條圖視覺化資料
 challengeType: 3
 forumTopicId: 301464
 dashedName: visualize-data-with-a-bar-chart
@@ -8,43 +8,43 @@ dashedName: visualize-data-with-a-bar-chart
 
 # --description--
 
-**目標：** 構建一個應用，功能和 <a href="https://bar-chart.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://bar-chart.freecodecamp.rocks</a> 類似。
+**目標：** 建置一個在功能上類似於此的應用程式：<a href="https://bar-chart.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://bar-chart.freecodecamp.rocks</a>。
 
-完成以下需求，並且通過所有測試。 你可以使用你需要的任何庫或 API。 可以用你自己的樣式來完成。
+完成以下使用者故事並通過所有測試。使用你需要的任何函式庫或 API。展現你自己的風格。
 
-你可以使用 HTML、JavaScript、CSS、以及基於 svg 的 D3 可視化庫來完成這個挑戰。 該任務需要使用 D3 的座標軸屬性生成座標軸，這個屬性會自動生成沿軸的刻度。 通過 D3 測試需要這些刻度，因爲它們的位置被用來確定繪製元素的對齊方式。 你可以在 <https://d3js.org/d3-axis> 找到有關生成軸的信息。 要求的 DOM 元素在每次測試時都會被查詢。 如果你使用了前端框架（例如 Vue），因爲內容是動態渲染的，試結果可能不準確。 我們希望最終能夠兼容這些框架，但 D3 框架目前還不支持它們。
+你可以使用 HTML、JavaScript、CSS 和基於 D3 svg 的視覺化函式庫。測試要求使用 D3 的 axis 屬性來產生軸，該屬性會自動在軸上產生刻度。這些刻度是通過 D3 測試所必需的，因為它們的位置用來判斷繪圖元素的對齊。你可以在 https://d3js.org/d3-axis 找到關於產生軸的資訊。所需的 DOM 元素會在每次測試時被查詢。如果你使用前端框架（例如 Vue），動態內容的測試結果可能不準確。我們希望最終能支援這些框架，但目前這些框架尚未支援 D3 專案。
 
-**需求 #1：** 圖表應該包含一個具有 `id="title"` 屬性的標題。
+**使用者故事 #1：** 我的圖表應該有一個標題，並帶有對應的 `id="title"`。
 
-**需求 #2：** 圖表應該包含一個 `g` 元素作爲 x 軸，並相應地具有 `id="x-axis"` 屬性。
+**使用者故事 #2：** 我的圖表應該有一個 `g` 元素的 x 軸，並且對應的 `id="x-axis"`。
 
-**需求 #3：** 圖表應該包含一個 `g` 元素作爲 y 軸，並相應地具有`id="y-axis"` 屬性。
+**使用者故事 #3：** 我的圖表應該有一個 `g` 元素的 y 軸，並帶有對應的 `id="y-axis"`。
 
-**需求 #4：** 兩個軸都應包含多個刻度標籤，每個標籤具有 `class="tick"` 屬性。
+**使用者故事 #4：** 兩個軸都應包含多個刻度標籤，每個標籤都有對應的 `class="tick"`。
 
-**需求 #5：** 在圖表裏，每個數據點都應該有一個具有 `class="bar"` 屬性的 `rect` 元素來展示數據。
+**使用者故事 #5：** 我的圖表應該為每個資料點有一個 `rect` 元素，並帶有對應的 `class="bar"` 來顯示資料。
 
-**需求 #6：** 每個 `.bar` 應該具有值爲 `date` 的 `data-date` 屬性以及值爲 `GDP` 的 `data-gdp` 屬性。
+**使用者故事 #6：** 每個 `.bar` 應該有屬性 `data-date` 和 `data-gdp`，分別包含 `date` 和 `GDP` 的值。
 
-**需求 #7：** `.bar` 元素的 `data-date` 屬性應與提供的數據的順序相匹配。
+**使用者故事 #7：** `.bar` 元素的 `data-date` 屬性應該符合所提供資料的順序。
 
-**需求 #8：** `.bar` 元素的 `data-gdp` 屬性應與提供的數據的順序相匹配。
+**使用者故事 #8：** `.bar` 元素的 `data-gdp` 屬性應該與所提供的資料順序相符。
 
-**需求 #9：** 每個 `.bar` 元素的高度應準確地表示其數據所對應的 `GDP` 值。
+**使用者故事 #9：** 每個 `.bar` 元素的高度應準確表述資料中對應的 `GDP`。
 
-**需求 #10：** `data-date` 屬性和它對應的 `.bar` 元素應與 x 軸上的相應的值對齊。
+**使用者故事 #10：** `data-date` 屬性及其對應的 `.bar` 元素應與 x 軸上的對應值對齊。
 
-**需求 #11：** `data-gdp` 屬性和它對應的 `.bar` 元素應與 y 軸上的相應的值對齊。
+**使用者故事 #11：** `data-gdp` 屬性及其對應的 `.bar` 元素應與 y 軸上的對應數值對齊。
 
-**需求 #12：** 我可以將鼠標懸停在某個區域上，並查看具有 `id="tooltip"` 屬性的提示框，它會顯示有關該區域的更多信息。
+**使用者故事 #12：** 我可以將滑鼠移到某個區域上方，並看到一個對應的 `id="tooltip"` 提示工具，顯示該區域的更多資訊。
 
-**需求 #13：** 提示框應該有 `data-date` 屬性，它對應了當前激活區域的 `data-date` 屬性。
+**使用者故事 #13：** 我的工具提示應該有一個 `data-date` 屬性，該屬性對應於作用中區域的 `data-date`。
 
-以下是完成此項目所需的數據： `https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/GDP-data.json`
+這是你完成此專案所需的資料集：`https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/GDP-data.json`
 
-你可以<a href='https://codepen.io/pen?template=MJjpwO' target="_blank" rel="noopener noreferrer nofollow">使用 CodePen 模版</a>創建你的新項目，點擊 `Save` 即可創建你的新項目。 或者你可以在任何你喜歡的環境中使用以下 CDN 鏈接來運行測試：`https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js`.
+你可以透過<a href='https://codepen.io/pen?template=MJjpwO' target="_blank" rel="noopener noreferrer nofollow">使用這個 CodePen 模板</a>並點擊 `Save` 來建置你的專案，從而創建你自己的 pen。或者你可以使用這個 CDN 連結，在任何你喜歡的環境中執行測試：`https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js`。
 
-當你完成了本項目，並且該項目所有測試運行通過，請提交項目的 URL。
+完成後，提交包含所有通過測試的工作專案的 URL。
 
 # --solutions--
 

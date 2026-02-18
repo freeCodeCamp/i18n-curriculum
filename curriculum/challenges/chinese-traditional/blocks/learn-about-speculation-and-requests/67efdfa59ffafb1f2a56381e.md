@@ -1,8 +1,9 @@
 ---
 id: 67efdfa59ffafb1f2a56381e
-title: Task 55
+title: 任務 55
 challengeType: 19
 dashedName: task-55
+showSpeakingButton: true
 lang: en-US
 ---
 
@@ -12,39 +13,47 @@ lang: en-US
 
 # --instructions--
 
-聽音頻，回答下面的問題。
+聆聽音訊並回答以下問題。
 
 # --questions--
 
 ## --text--
 
-Jake doesn't mind discussing an issue with Jessica. What can he say?
+Jake 不介意與 Jessica 討論問題。他可以說什麼？
 
 ## --answers--
 
 `Sure, Jessica.`
 
+### --audio-id--
+
+en-b1-67efdfa59ffafb1f2a56381e-SP1
+
 ---
 
 `I'm too busy right now.`
 
+### --audio-id--
+
+en-b1-67efdfa59ffafb1f2a56381e-SP2
+
 ### --feedback--
 
-This answer does not match the prompt because Jake doesn't mind discussing the issue.
+這個答案與提示不符，因為 Jake 不介意討論這個問題。
 
 ## --video-solution--
 
 1
 
-# --explanation--
+# --explanation-- 
 
-Jessica asks, `Do you have any ideas?`, which is a way of inviting someone to share their thoughts or opinions.
+Jessica 問，`Do you have any ideas?`，這是一種邀請某人分享他們想法或意見的方式。
 
-`Sure, Jessica` is a way to show that you're open to discussing the issue. Another example:
+`Sure, Jessica` 是表示你願意討論此問題的一種方式。另一個範例：
 
-- Person 1: `Do you have any ideas how to fix it?` - This person is asking for suggestions or solutions.
+- Person 1: `Do you have any ideas how to fix it?`－這個人正在尋求建議或解決方案。
 
-- Person 2: `Sure. We could check the server logs and see what's wrong.` - This person is saying yes, and is ready to share a suggestion.
+- 第二個人：`Sure. We could check the server logs and see what's wrong.`－這個人表示同意，並準備分享一個建議。
 
 # --scene--
 

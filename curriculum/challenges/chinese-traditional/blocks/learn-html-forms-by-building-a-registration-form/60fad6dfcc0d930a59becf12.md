@@ -1,31 +1,31 @@
 ---
 id: 60fad6dfcc0d930a59becf12
-title: Step 43
+title: 步驟 43
 challengeType: 0
 dashedName: step-43
 ---
 
 # --description--
 
-The HTML for the registration form is finished. Now, you can spruce it up a bit.
+註冊表單的 HTML 已完成。現在，你可以稍微美化它。
 
-Start by adding `Tahoma` as the font with a font size of `16px` in the `body` selector.
+首先在 `body` 選擇器中將 `Tahoma` 添加為字型，字型大小為 `16px`。
 
 # --hints--
 
-You should use the `font-family` property to change the font.
+你應該使用 `font-family` 屬性來更改字型。
 
 ```js
 assert.isNotEmpty(new __helpers.CSSHelp(document).getStyle('body')?.fontFamily);
 ```
 
-You should set the `font-family` property to `Tahoma`.
+你應該將 `font-family` 屬性設定為 `Tahoma`。
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('body')?.fontFamily, 'Tahoma');
 ```
 
-You should set the `font-size` property to `16px`.
+你應該將 `font-size` 屬性設定為 `16px`。
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('body')?.fontSize, '16px');

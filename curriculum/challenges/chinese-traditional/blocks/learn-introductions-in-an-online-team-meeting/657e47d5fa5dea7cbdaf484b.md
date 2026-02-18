@@ -1,6 +1,6 @@
 ---
 id: 657e47d5fa5dea7cbdaf484b
-title: "Dialogue 5: Meeting a Client"
+title: "對話窗 5：會見客戶"
 challengeType: 21
 dashedName: dialogue-meeting-a-client
 lang: en-US
@@ -8,11 +8,11 @@ lang: en-US
 
 # --description--
 
-Watch the video below to understand the context of the upcoming lessons.
+觀看下方的影片以了解即將到來課程的背景關係。
 
 # --assignment--
 
-Watch the video.
+觀看影片。
 
 # --scene--
 

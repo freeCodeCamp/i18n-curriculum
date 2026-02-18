@@ -1,6 +1,6 @@
 ---
 id: 67f519febaeacd154eb0f9f1
-title: Task 96
+title: 任務 96
 challengeType: 22
 dashedName: task-96
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-請聽音頻，並完成下面的填空。
+聆聽音訊並完成以下句子。
 
 # --fillInTheBlank--
 
@@ -24,15 +24,15 @@ lang: en-US
 
 ### --feedback--
 
-This word means being alert and watching carefully for potential dangers or problems.
+這個字表示保持警覺並仔細觀察潛在的危險或問題。
 
 # --explanation--
 
-`Vigilant` means being watchful and cautious to detect possible threats. 例如：
+`Vigilant` 意味著保持警覺和謹慎，以偵測可能的威脅。例如：
 
-- `The IT team is always vigilant when monitoring the network.` - The IT team stays alert and careful while checking the network.
+- `The IT team is always vigilant when monitoring the network.` - IT 團隊在檢查網路時保持警覺和謹慎。
 
-- `You should be vigilant when clicking on unknown links in emails.` - You need to be careful and pay attention to suspicious email links.
+- 你應該在點擊電子郵件中未知的 `links` 時保持警惕。
 
 # --scene--
 

@@ -1,6 +1,6 @@
 ---
 id: 679d3cfdaca2eb81f8d81cf7
-title: Task 97
+title: 任務 97
 challengeType: 19
 dashedName: task-97
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-聽音頻，回答下面的問題。
+聆聽音訊並回答以下問題。
 
 # --questions--
 
 ## --text--
 
-What is Maria asking James to do?
+瑪麗亞正在請詹姆斯做什麼？
 
 ## --answers--
 
-To fix the problem immediately.
+立即修正問題。
 
 ### --feedback--
 
-Maria is not asking James to fix the issue right away.
+Maria 並沒有要求 James 立刻修正這個問題。
 
 ---
 
-To report the issue to the client.
+向客戶回報此問題。
 
 ### --feedback--
 
-Maria does not mention informing the client.
+Maria 沒有提到通知客戶端。
 
 ---
 
-To investigate the problem.
+為了調查問題。
 
 ---
 
-To ignore the problem for now.
+暫時忽略此問題。
 
 ### --feedback--
 
-Maria is not asking James to ignore the issue.
+Maria 並沒有要求 James 忽略這個問題。
 
 ## --video-solution--
 
@@ -52,11 +52,11 @@ Maria is not asking James to ignore the issue.
 
 # --explanation--
 
-`Can` is commonly used to make polite requests, asking someone to do something in an informal way. For example:
+`Can` 通常用來以非正式方式禮貌地請求某人做某事。例如：
 
-`Can you send me the report by noon?` - This is a polite way to ask someone to send a report.
+`Can you send me the report by noon?`－這是一種禮貌地請求某人寄送報告的方式。
 
-In this dialogue, Maria is requesting James to investigate the problem.
+在這個對話窗中，Maria 正在請求 James 調查這個問題。
 
 # --scene--
 

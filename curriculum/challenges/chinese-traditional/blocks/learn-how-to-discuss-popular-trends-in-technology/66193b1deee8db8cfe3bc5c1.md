@@ -10,41 +10,41 @@ lang: en-US
 
 # --description--
 
-聽音頻，回答問題。
+聆聽音訊並回答問題。
 
 # --questions--
 
 ## --text--
 
-What collaboration tools does Alice mention?
+Alice 提到哪些協作工具？
 
 ## --answers--
 
-`Project management tools` and `cloud storage services`
+`Project management tools` 和 `cloud storage services`
 
 ---
 
-`The internet` and `computer networks`
+`The internet` 和 `computer networks`
 
 ### --feedback--
 
-Although these are important tools in today's world, they are not the tools Alice mentions.
+雖然這些是當今世界中重要的工具，但它們不是 Alice 提到的工具。
 
 ---
 
-`Screwdrivers` and `hammers`
+`Screwdrivers` 和 `hammers`
 
 ### --feedback--
 
-These are manual tools, not collaboration tools.
+這些是手動工具，不是協作工具。
 
 ---
 
-`Chat apps` and `email`
+`Chat apps` 和 `email`
 
 ### --feedback--
 
-These can be considered collaboration tools in a virtual environment, but Alice does not mention them.
+這些可以被視為虛擬環境中的協作工具，但 Alice 並未提及它們。
 
 ## --video-solution--
 

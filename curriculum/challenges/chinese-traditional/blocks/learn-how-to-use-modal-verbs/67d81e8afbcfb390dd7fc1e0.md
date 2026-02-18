@@ -1,8 +1,9 @@
 ---
 id: 67d81e8afbcfb390dd7fc1e0
-title: Task 133
+title: 任務 133
 challengeType: 19
 dashedName: task-133
+showSpeakingButton: true
 lang: en-US
 ---
 
@@ -12,25 +13,33 @@ lang: en-US
 
 # --instructions--
 
-聽音頻，回答下面的問題。
+聆聽音訊並回答以下問題。
 
 # --questions--
 
 ## --text--
 
-Jake hasn't checked that yet and says the team should focus on something else. What would he say?
+Jake 還沒檢查過，並且說團隊應該專注於其他事情。他會怎麼說？  
 
 ## --answers--
 
 `Not yet, but we should focus on the critical systems first.`
 
+### --audio-id--
+
+en-b1-67d81e8afbcfb390dd7fc1e0-SP1
+
 ---
 
 `I already checked, and everything looks fine.`
 
+### --audio-id--
+
+en-b1-67d81e8afbcfb390dd7fc1e0-SP2
+
 ### --feedback--
 
-Jake hasn't checked yet, so he wouldn't be able to confirm this.
+Jake 還沒有檢查過，所以他無法確認這個。
 
 ## --video-solution--
 
@@ -38,11 +47,11 @@ Jake hasn't checked yet, so he wouldn't be able to confirm this.
 
 # --explanation--
 
-Securing critical systems is usually the first priority before assessing individual files.
+在評估個別檔案之前，通常會先將保護關鍵系統視為首要優先權。
 
-`Not yet.` means Jake hasn't checked which files were compromised.
+「Not yet.」表示 Jake 尚未檢查哪些檔案遭到入侵。
 
-`We should focus on the critical systems first.` means that instead of looking at files, the team should prioritize protecting essential parts of the system.
+`We should focus on the critical systems first.` 意味著團隊應該優先保護系統的關鍵零件，而不是查看檔案。
 
 # --scene--
 

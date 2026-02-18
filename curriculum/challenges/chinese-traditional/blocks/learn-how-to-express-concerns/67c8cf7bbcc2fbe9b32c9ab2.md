@@ -1,6 +1,6 @@
 ---
 id: 67c8cf7bbcc2fbe9b32c9ab2
-title: Task 92
+title: 任務 92
 challengeType: 19
 dashedName: task-92
 lang: en-US
@@ -10,53 +10,53 @@ lang: en-US
 
 # --instructions--
 
-聽音頻，回答下面的問題。
+聆聽音訊並回答以下問題。  
 
 # --questions--
 
 ## --text--
 
-What will Maria do with the comments she got from James?
+Maria 會如何處理她從 James 那裡得到的評論？  
 
 ## --answers--
 
-She will ignore them.
+她會忽略它們。  
 
 ### --feedback--
 
-Maria acknowledges James's point and plans to take action.
+Maria 認同 James 的觀點並計劃採取行動。
 
 ---
 
-She will tell the team to stop worrying about communication.
+她會告訴團隊不要再擔心通訊。
 
 ### --feedback--
 
-Maria wants to improve communication, not dismiss concerns.
+Maria 想要改善通訊，而不是忽視疑慮。 
 
 ---
 
-She will cancel the team's check-ins.
+她將取消團隊的 check-ins。
 
 ### --feedback--
 
-Maria does not say she will cancel the check-ins.
+Maria 沒有說她會取消報到。
 
 ---
 
-She will propose having more check-ins to improve communication.
+她將提議增加更多的檢查點以改善通訊。
 
 ## --video-solution--
 
-4
+4  
 
 # --explanation--
 
-When using the verb `suggest`, use the following verb in the `-ing` form instead of the infinitive. For example:
+當使用動詞 `suggest` 時，請使用以下動詞的 `-ing` 形式，而非不定詞。例如：
 
-- `She suggested taking a break.` - This means the idea proposed is to take a break.
+- `She suggested taking a break.`－這表示提出的想法是休息一下。
 
-- `He suggested starting the meeting earlier to avoid delays.` - This means he proposed beginning the meeting sooner.
+- `He suggested starting the meeting earlier to avoid delays。`－這表示他建議提早開始會議以避免延誤。
 
 # --scene--
 

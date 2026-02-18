@@ -1,6 +1,6 @@
 ---
 id: cf1111c1c12feddfaeb3bdef
-title: 用 if 語句來表達條件邏輯
+title: 使用 If 陳述式的條件邏輯
 challengeType: 1
 forumTopicId: 18348
 dashedName: use-conditional-logic-with-if-statements
@@ -8,15 +8,15 @@ dashedName: use-conditional-logic-with-if-statements
 
 # --description--
 
-`if` statements are used to make decisions in code. The keyword `if` tells JavaScript to execute the code in the curly braces under certain conditions, defined in the parentheses. These conditions are known as `Boolean` conditions and they may only be `true` or `false`.
+`if` 述語用於在程式碼中做出決策。關鍵字 `if` 告訴 JavaScript 在小括弧中定義的特定條件下執行大括弧內的程式碼。這些條件稱為 `Boolean` 條件，且它們只能是 `true` 或 `false`。
 
-當條件的計算結果爲 `true`，程序執行大括號內的語句。 當布爾條件的計算結果爲 `false`，大括號內的代碼將不會執行。
+當條件計算為 `true` 時，程式會執行大括號內的述語。當布林值條件計算為 `false` 時，大括號內的述語將不會執行。
 
-**僞代碼**
+**偽程式碼**
 
-<blockquote>if（<i>條件爲真</i>）{<br> <i>語句被執行</i><br>}</blockquote>
+<blockquote>if (<i>condition is true</i>) {<br>  <i>statement is executed</i><br>}</blockquote>
 
-**示例**
+**範例**
 
 ```js
 function test(myCondition) {
@@ -30,41 +30,41 @@ test(true);
 test(false);
 ```
 
-`test(true)` 返回字符串 `It was true`，`test(false)` 返回字符串 `It was false`。
+`test(true)` 傳回字串 `It was true`，而 `test(false)` 傳回字串 `It was false`。
 
-當 `test` 被調用，並且傳遞進來的參數值爲 `true` 時，`if` 語句會計算 `myCondition` 的結果，看它是否爲 `true`。 如果條件爲 `true`，函數會返回 `It was true`。 當 `test` 被調用，並且傳遞進來的參數值爲 `false` 時，`myCondition` *不* 爲 `true`，並且不執行大括號後面的語句，函數返回 `It was false`。
+當以值為 `true` 呼叫 `test` 時，`if` 述語會評估 `myCondition` 是否為 `true`。因為它是 `true`，函式傳回 `It was true`。當我們以值為 `false` 呼叫 `test` 時，`myCondition` *不是* `true`，大括號內的述語不會執行，函式傳回 `It was false`。
 
 # --instructions--
 
-在函數內部創建一個 `if` 語句，如果該參數 `wasThatTrue` 值爲 `true`，返回 `Yes, that was true`，否則，返回`No, that was false`。
+在函式（程式）內創建一個 `if` 述語，若參數 `wasThatTrue` 為 `true`，則傳回 `Yes, that was true`，否則傳回 `No, that was false`。
 
 # --hints--
 
-`trueOrFalse` 應該是一個函數
+`trueOrFalse` 應該是一個函式（程式）。
 
 ```js
 assert(typeof trueOrFalse === 'function');
 ```
 
-`trueOrFalse(true)` 應該返回一個字符串
+`trueOrFalse(true)` 應該傳回一個字串
 
 ```js
 assert(typeof trueOrFalse(true) === 'string');
 ```
 
-`trueOrFalse(false)` 應該返回一個字符串
+`trueOrFalse(false)` 應該傳回一個字串
 
 ```js
 assert(typeof trueOrFalse(false) === 'string');
 ```
 
-`trueOrFalse(true)` 應該返回 `Yes, that was true`
+`trueOrFalse(true)` 應該傳回字串 `Yes, that was true`
 
 ```js
 assert(trueOrFalse(true) === 'Yes, that was true');
 ```
 
-`trueOrFalse(false)`應該返回 `No, that was false`
+`trueOrFalse(false)` 應該傳回字串 `No, that was false`
 
 ```js
 assert(trueOrFalse(false) === 'No, that was false');

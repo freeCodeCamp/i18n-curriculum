@@ -1,6 +1,6 @@
 ---
 id: 67e5a6e34bfc4b5af2c00ddf
-title: Task 51
+title: 任務 51
 challengeType: 22
 dashedName: task-51
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-請聽音頻，並完成下面的填空。
+聆聽音訊並完成以下句子。
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ lang: en-US
 
 ### --feedback--
 
-This means very serious or important. It is often used when something needs immediate attention.
+這表示非常嚴重或重要。當某件事需要立即注意時，經常會使用這個詞。
 
 ---
 
@@ -32,17 +32,17 @@ This means very serious or important. It is often used when something needs imme
 
 ### --feedback--
 
-This means to change or influence something. It often describes how one thing causes a change in another.
+這表示改變或影響某事。它通常描述一件事如何導致另一件事的變化。
 
 # --explanation--
 
-`Critical` means extremely important or serious. 例如：
+`Critical` 意味著極其重要或嚴重。 例如：
 
-`We have a critical deadline tomorrow.` – This means the deadline is very important and cannot be missed.
+`We have a critical deadline tomorrow。`－這表示截止日期非常重要且不可錯過。
 
-`To affect` means to have an influence on something or cause a change. 例如：
+`To affect` 意味著對某事物產生影響或引起變化。 例如：
 
-`The new policy may affect employee performance.` – This means the policy might change how employees perform.
+`The new policy may affect employee performance。`－這表示該政策可能會改變員工的表現方式。
 
 # --scene--
 

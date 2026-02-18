@@ -1,6 +1,6 @@
 ---
 id: afd15382cdfb22c9efe8b7de
-title: DNA Pairing
+title: DNA 配對
 challengeType: 1
 forumTopicId: 16009
 dashedName: dna-pairing
@@ -8,17 +8,17 @@ dashedName: dna-pairing
 
 # --description--
 
-Pairs of DNA strands consist of nucleobase pairs. Base pairs are represented by the characters <em>AT</em> and <em>CG</em>, which form building blocks of the DNA double helix.
+DNA 鍵鏈對組成核苷酸鹼基對。鹼基對由字元 <em>AT</em> 和 <em>CG</em> 表述，這些字元形成 DNA 雙螺旋的建造區塊。
 
-The DNA strand is missing the pairing element. Write a function to match the missing base pairs for the provided DNA strand. For each character in the provided string, find the base pair character. Return the results as a 2d array.
+DNA 鍵鏈缺少配對元素。撰寫一個函式，為提供的 DNA 鍵鏈配對缺失的鹼基。對於提供的字串中的每個字元，尋找對應的鹼基配對字元。將結果以二維陣列傳回。
 
-For example, for the input `GCG`, return `[["G", "C"], ["C","G"], ["G", "C"]]`
+例如，對於輸入 `GCG`，傳回 `[["G", "C"], ["C","G"], ["G", "C"]]`
 
-The character and its pair are paired up in an array, and all the arrays are grouped into one encapsulating array.
+該字元及其配對被配對成一個陣列，所有陣列則被群組成一個封裝陣列。
 
 # --hints--
 
-`pairElement("ATCGA")` should return `[["A","T"],["T","A"],["C","G"],["G","C"],["A","T"]]`.
+`pairElement("ATCGA")` 應該傳回 `[["A","T"],["T","A"],["C","G"],["G","C"],["A","T"]]`。
 
 ```js
 assert.deepEqual(pairElement('ATCGA'), [
@@ -30,7 +30,7 @@ assert.deepEqual(pairElement('ATCGA'), [
 ]);
 ```
 
-`pairElement("TTGAG")` should return `[["T","A"],["T","A"],["G","C"],["A","T"],["G","C"]]`.
+`pairElement("TTGAG")` 應該傳回 `[["T","A"],["T","A"],["G","C"],["A","T"],["G","C"]]`。
 
 ```js
 assert.deepEqual(pairElement('TTGAG'), [
@@ -42,7 +42,7 @@ assert.deepEqual(pairElement('TTGAG'), [
 ]);
 ```
 
-`pairElement("CTCTA")` should return `[["C","G"],["T","A"],["C","G"],["T","A"],["A","T"]]`.
+`pairElement("CTCTA")` 應該傳回 `[["C","G"],["T","A"],["C","G"],["T","A"],["A","T"]]`。
 
 ```js
 assert.deepEqual(pairElement('CTCTA'), [

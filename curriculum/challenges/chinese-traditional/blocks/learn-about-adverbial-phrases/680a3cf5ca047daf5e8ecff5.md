@@ -1,6 +1,6 @@
 ---
 id: 680a3cf5ca047daf5e8ecff5
-title: Task 66
+title: 任務 66
 challengeType: 22
 dashedName: task-66
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-請聽音頻，並完成下面的填空。
+聆聽音訊並完成以下句子。
 
 # --fillInTheBlank--
 
@@ -24,15 +24,15 @@ lang: en-US
 
 ### --feedback--
 
-This is used to show that something happens earlier in time than something else.
+這用來表示某事發生的時間早於另一件事。
 
 # --explanation--
 
-`Before` is used to show that one action happens earlier than another. 例如：
+`Before` 用來表示一個動作發生在另一個動作之前。 例如：
 
-- `Please save your work before you close the program.` – This means saving should happen earlier than closing the program.
+- `Please save your work before you close the program。` – 這表示存檔應該在關閉程式之前進行。
 
-- `He always checks his code carefully before submitting it.` – This means checking happens first, before the action of submitting.
+- `He always checks his code carefully before submitting it.` – 這表示檢查會先於提交的動作發生。
 
 # --scene--
 

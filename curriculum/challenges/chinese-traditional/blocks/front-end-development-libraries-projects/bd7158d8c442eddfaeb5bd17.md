@@ -1,60 +1,60 @@
 ---
 id: bd7158d8c442eddfaeb5bd17
-title: Build a JavaScript Calculator
+title: 建置一個 JavaScript 計算機
 challengeType: 3
 forumTopicId: 301371
 dashedName: build-a-javascript-calculator
 ---
 
 # --description--
-**Note:** **React 18 has known incompatibilities with the tests for this project (see [issue](https://github.com/freeCodeCamp/freeCodeCamp/issues/45922))**
+**注意：** **React 18 已知與此專案的測試不相容（請參閱 [issue](https://github.com/freeCodeCamp/freeCodeCamp/issues/45922)）**
 
-**Objective:** Build an app that is functionally similar to this: <a href="https://javascript-calculator.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://javascript-calculator.freecodecamp.rocks/</a>.
+**目標：** 建置一個功能上類似於此的應用程式：<a href="https://javascript-calculator.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://javascript-calculator.freecodecamp.rocks/</a>。
 
-Fulfill the below user stories and get all of the tests to pass. Use whichever libraries or APIs you need. Give it your own personal style.
+完成以下使用者故事並通過所有測試。使用你需要的任何函式庫或 API。展現你自己的風格。
 
-You can use any mix of HTML, JavaScript, CSS, Bootstrap, SASS, React, Redux, and jQuery to complete this project. You should use a frontend framework (like React for example) because this section is about learning frontend frameworks. Additional technologies not listed above are not recommended and using them is at your own risk. We are looking at supporting other frontend frameworks like Angular and Vue, but they are not currently supported. We will accept and try to fix all issue reports that use the suggested technology stack for this project. Happy coding!
+你可以使用任何混合的 HTML、JavaScript、CSS、Bootstrap、SASS、React、Redux 和 jQuery 來完成這個專案。你應該使用前端框架（例如 React），因為本節是關於學習前端框架的。不建議使用上述未列出的其他技術，且使用它們風險自負。我們正在考慮支援其他前端框架，如 Angular 和 Vue，但目前尚未支援。我們會接受並嘗試修正所有使用建議技術堆疊的問題回報。祝你編碼愉快！
 
-**User Story #1:** My calculator should contain a clickable element containing an `=` (equal sign) with a corresponding `id="equals"`.
+**使用者故事 #1：** 我的計算機應該包含一個可點擊的元素，該元素包含一個 `=`（相等號），並具有對應的 `id="equals"`。
 
-**User Story #2:** My calculator should contain 10 clickable elements containing one number each from 0-9, with the following corresponding IDs: `id="zero"`, `id="one"`, `id="two"`, `id="three"`, `id="four"`, `id="five"`, `id="six"`, `id="seven"`, `id="eight"`, and `id="nine"`.
+**使用者故事 #2：** 我的計算機應包含 10 個可點擊元素，每個元素包含 0-9 中的一個數字，並具有以下對應的 ID：`id="zero"`、`id="one"`、`id="two"`、`id="three"`、`id="four"`、`id="five"`、`id="six"`、`id="seven"`、`id="eight"` 和 `id="nine"`。
 
-**User Story #3:** My calculator should contain 4 clickable elements each containing one of the 4 primary mathematical operators with the following corresponding IDs: `id="add"`, `id="subtract"`, `id="multiply"`, `id="divide"`.
+**使用者故事 #3：** 我的計算機應該包含 4 個可點擊的元素，每個元素包含 4 個主要數學運算子之一，並具有以下對應的 ID：`id="add"`、`id="subtract"`、`id="multiply"`、`id="divide"`。
 
-**User Story #4:** My calculator should contain a clickable element containing a `.` (decimal point) symbol with a corresponding `id="decimal"`.
+**使用者故事 #4：** 我的計算機應該包含一個可點擊的元素，該元素包含 `.`（小數點）符號，並具有對應的 `id="decimal"`。
 
-**User Story #5:** My calculator should contain a clickable element with an `id="clear"`.
+**使用者故事 #5：** 我的計算機應該包含一個可點擊的元素，其 `id="clear"`。
 
-**User Story #6:** My calculator should contain an element to display values with a corresponding `id="display"`.
+**使用者故事 #6：** 我的計算機應該包含一個用於顯示數值且具有對應 `id="display"` 的元素。
 
-**User Story #7:** At any time, pressing the `clear` button clears the input and output values, and returns the calculator to its initialized state; 0 should be shown in the element with the id of `display`.
+**使用者故事 #7：** 在任何時間，按下 `clear` 按鈕會清除輸入和輸出值，並將計算機傳回初始化狀態；在 id 為 `display` 的元素中應顯示 0。
 
-**User Story #8:** As I input numbers, I should be able to see my input in the element with the id of `display`.
+**使用者故事 #8：** 當我輸入數字時，我應該能在 id 為 `display` 的元素中看到我的輸入。
 
-**User Story #9:** In any order, I should be able to add, subtract, multiply and divide a chain of numbers of any length, and when I hit `=`, the correct result should be shown in the element with the id of `display`.
+**使用者故事 #9：** 無論順序為何，我都應該能夠對任意長度的數字串鏈進行加、減、乘、除運算，並且當我按下 `=` 時，正確的結果應該顯示在 id 為 `display` 的元素中。
 
-**User Story #10:** When inputting numbers, my calculator should not allow a number to begin with multiple zeros.
+**使用者故事 #10：** 在輸入數字時，我的計算機不應允許數字以多個零開頭。
 
-**User Story #11:** When the decimal element is clicked, a `.` should append to the currently displayed value; two `.` in one number should not be accepted.
+**使用者故事 #11：** 當點擊小數點元素時，應該在目前顯示的數值後附加一個 `.`；同一個數字中不應接受兩個 `.`。
 
-**User Story #12:** I should be able to perform any operation (`+`, `-`, `*`, `/`) on numbers containing decimal points.
+**使用者故事 #12：** 我應該能夠對包含小數點的數字執行任何 `+`、`-`、`*`、`/` 操作。
 
-**User Story #13:** If 2 or more operators are entered consecutively, the operation performed should be the last operator entered (excluding the negative (`-`) sign). For example, if `5 + * 7 =` is entered, the result should be `35` (i.e. `5 * 7`); if `5 * - 5 =` is entered, the result should be `-25` (i.e. `5 * (-5)`).
+**使用者故事 #13：** 如果連續輸入 2 個或以上的運算子，執行的操作行為應該是最後輸入的運算子（不包含負號（`-`））。例如，如果輸入 `5 + * 7 =`，結果應該是 `35`（即 `5 * 7`）；如果輸入 `5 * - 5 =`，結果應該是 `-25`（即 `5 * (-5)`）。
 
-**User Story #14:** Pressing an operator immediately following `=` should start a new calculation that operates on the result of the previous evaluation.
+**使用者故事 #14：** 在 `=` 之後立即按下運算子，應該開始一個新的計算，該計算以先前評估的結果為運算對象。
 
-**User Story #15:** My calculator should have several decimal places of precision when it comes to rounding (note that there is no exact standard, but you should be able to handle calculations like `2 / 7` with reasonable precision to at least 4 decimal places).
+**使用者故事 #15：** 我的計算機在進行四捨五入時應該具有多位小數的精確度（請注意沒有確切標準，但你應該能夠以合理的精確度處理像 `2 / 7` 這樣的計算，至少精確到 4 位小數）。
 
-**Note On Calculator Logic:** It should be noted that there are two main schools of thought on calculator input logic: <dfn>immediate execution logic</dfn> and <dfn>formula logic</dfn>. Our example utilizes formula logic and observes order of operation precedence, immediate execution does not. Either is acceptable, but please note that depending on which you choose, your calculator may yield different results than ours for certain equations (see below example). As long as your math can be verified by another production calculator, please do not consider this a bug.
+**計算機邏輯說明：** 需要注意的是，計算機輸入邏輯主要有兩大派別：<dfn>即時執行邏輯</dfn>和<dfn>公式邏輯</dfn>。我們的範例採用公式邏輯並遵守操作優先順序，即時執行則不然。兩者皆可接受，但請注意，根據你選擇的邏輯，某些方程式的計算結果可能會與我們的不同（請參見下方範例）。只要你的數學結果能被其他生產用計算機驗證，請不要將此視為錯誤。
 
-**EXAMPLE:** `3 + 5 x 6 - 2 / 4 =`
+**範例：** `3 + 5 x 6 - 2 / 4 =`  
 
--   **Immediate Execution Logic:** `11.5`
--   **Formula/Expression Logic:** `32.5`
+-   **即時執行邏輯：** `11.5`
+-   **公式／表達式邏輯：** `32.5`
 
-You can build your project by <a href='https://codepen.io/pen?template=MJjpwO' target='_blank' rel="noopener noreferrer nofollow">using this CodePen template</a> and clicking `Save` to create your own pen. If you prefer to use another environment, then put this `<script>` tag into the body of your `index.html` file: `<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>`
+你可以透過<a href='https://codepen.io/pen?template=MJjpwO' target='_blank' rel="noopener noreferrer nofollow'>使用這個 CodePen 模板</a>並點擊 `Save` 來建置你的專案並創建你自己的 pen。如果你偏好使用其他環境，請將此 `<script>` 頁籤放入你的 `index.html` 檔案的 body 中：`<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>`
 
-Once you're done, submit the URL to your working project with all its tests passing.
+完成後，提交包含所有通過測試的工作專案的 URL。
 
 # --solutions--
 

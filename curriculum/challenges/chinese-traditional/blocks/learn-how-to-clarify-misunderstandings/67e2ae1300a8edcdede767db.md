@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-請聽音頻，並完成下面的填空。
+聆聽音訊並完成以下句子。
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ lang: en-US
 
 ### --feedback--
 
-This verb is used when someone wants to get information or permission.
+當有人想要取得資訊或許可時，會使用這個動詞。
 
 ---
 
@@ -32,17 +32,17 @@ This verb is used when someone wants to get information or permission.
 
 ### --feedback--
 
-This preposition connects related topic or subject.
+這個介詞連接相關的主題或對象。
 
 # --explanation--
 
-`Ask about` means to request information related to a specific topic. 例如：
+`Ask about` 是指請求與特定主題相關的資訊。例如：
 
-`I asked about the new feature.` – You wanted information on the feature.
+`I asked about the new feature.` – 你想要關於該特性的資訊。 
 
-`Can I ask you about...` is a polite way to start a question when you want information or help. It shows that you're asking for permission to talk about a specific topic. 例如：
+`Can I ask you about...` 是一種禮貌的方式來開始提問，當你想要獲取資訊或幫助時使用。它表示你正在請求允許討論特定主題。 例如：
 
-`Can I ask you about the project deadline?` – This means you want to talk about the deadline and get more details.
+`Can I ask you about the project deadline?`－這表示你想討論截止日期並獲得更多細節。  
 
 # --scene--
 

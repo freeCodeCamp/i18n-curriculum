@@ -1,6 +1,6 @@
 ---
 id: 656d1becadf67d05d5b27bab
-title: Task 149
+title: 任務 149
 challengeType: 19
 dashedName: task-149
 lang: en-US
@@ -14,19 +14,19 @@ Brian: But it's true. She's the person to go to if you need help.
 
 # --description--
 
-Just like when you learned about the pronoun `he`, pronouns like `she` are used to refer to female individuals. They help avoid repetition in conversation. Look at this part of the dialogue:
+就像你學習 `he` 這個代名詞時一樣，像 `she` 這樣的代名詞用來指涉女性個體。它們有助於避免對話中的重複。請看這段對話的這部分：
 
-- Sophie: `Oh, come on, Brian.`
+- Sophie：`Oh, come on, Brian.`
 
-- Brian: `But it's true. She's the person to go to if you need help.`
+- Brian：`But it's true. She's the person to go to if you need help.`
 
-Here, `she` is used by Brian to refer to Sophie. Instead of repeating Sophie's name, Brian uses the pronoun `she` to make the conversation smoother and avoid repetition.
+這裡，`she` 被 Brian 用來取用 Sophie。Brian 使用代名詞 `she`，而不是重複 Sophie 的名字，以使對話更流暢並避免重複。
 
 # --questions--
 
 ## --text--
 
-In the dialogue, which word does Brian use to refer to Sophie without repeating her name?
+在對話窗中，Brian 使用哪個字來指涉 Sophie 而不重複她的名字？
 
 ## --answers--
 
@@ -34,7 +34,7 @@ In the dialogue, which word does Brian use to refer to Sophie without repeating 
 
 ### --feedback--
 
-`He` refers to a male.
+`He` 指的是男性。
 
 ---
 
@@ -42,7 +42,7 @@ In the dialogue, which word does Brian use to refer to Sophie without repeating 
 
 ### --feedback--
 
-`They` is plural and refers to more than one person.
+`They` 是複數，指多於一個人。
 
 ---
 
@@ -50,7 +50,7 @@ In the dialogue, which word does Brian use to refer to Sophie without repeating 
 
 ### --feedback--
 
-`It` is usually used for things or animals.
+`It` 通常用於事物或動物。
 
 ---
 

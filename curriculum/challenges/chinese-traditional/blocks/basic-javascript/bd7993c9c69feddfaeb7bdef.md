@@ -1,6 +1,6 @@
 ---
 id: bd7993c9c69feddfaeb7bdef
-title: Multiply Two Decimals with JavaScript
+title: 使用 JavaScript 乘以兩個小數
 challengeType: 1
 forumTopicId: 301173
 dashedName: multiply-two-decimals-with-javascript
@@ -8,23 +8,23 @@ dashedName: multiply-two-decimals-with-javascript
 
 # --description--
 
-In JavaScript, you can also perform calculations with decimal numbers, just like whole numbers.
+在 JavaScript 中，你也可以像使用整數一樣對小數進行計算。
 
-Let's multiply two decimals together to get their product.
+讓我們將兩個小數相乘以取得它們的乘積。
 
 # --instructions--
 
-Change the `0.0` so that product will equal `5.0`.
+將 `0.0` 更改為使產品相等於 `5.0`。
 
 # --hints--
 
-The variable `product` should equal `5.0`.
+變數 `product` 應該相等於 `5.0`。
 
 ```js
 assert(product === 5.0);
 ```
 
-You should use the `*` operator
+你應該使用 `*` 運算子
 
 ```js
 assert(/\*/.test(__helpers.removeJSComments(code)));

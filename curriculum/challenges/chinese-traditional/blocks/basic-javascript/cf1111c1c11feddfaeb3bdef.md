@@ -1,6 +1,6 @@
 ---
 id: cf1111c1c11feddfaeb3bdef
-title: 加法運算
+title: 用 JavaScript 將兩個數字相加
 challengeType: 1
 forumTopicId: 16650
 dashedName: add-two-numbers-with-javascript
@@ -8,33 +8,33 @@ dashedName: add-two-numbers-with-javascript
 
 # --description--
 
-`Number` is a data type in JavaScript which represents numeric data.
+`Number` 是 JavaScript 中表述數值資料的資料型別。
 
-現在我們來嘗試在 JavaScript 中做加法運算。
+現在讓我們嘗試使用 JavaScript 將兩個數字相加。
 
-JavaScript 中，我們通過符號 `+` 來進行加法運算。
+JavaScript 在兩個數字之間放置 `+` 符號時，會將其用作加法運算子。
 
-**代碼示例:**
+**範例：**
 
 ```js
 const myVar = 5 + 10;
 ```
 
-現在，變量 `myVar` 的值爲 `15`。
+`myVar` 現在的值是 `15`。
 
 # --instructions--
 
-請改變數字 `0` 讓變量 sum 的值爲 `20`。
+將 `0` 改成使總和相等於 `20`。
 
 # --hints--
 
-`sum` 的值應該等於 `20`。
+`sum` 應該相等於 `20`。
 
 ```js
 assert(sum === 20);
 ```
 
-請使用 `+` 運算符。
+你應該使用 `+` 運算子。
 
 ```js
 assert(/\+/.test(__helpers.removeJSComments(code)));

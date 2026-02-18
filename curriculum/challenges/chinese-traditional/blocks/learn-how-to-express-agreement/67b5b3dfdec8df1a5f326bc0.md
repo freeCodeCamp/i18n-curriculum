@@ -1,6 +1,6 @@
 ---
 id: 67b5b3dfdec8df1a5f326bc0
-title: Task 110
+title: 任務 110
 challengeType: 22
 dashedName: task-110
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+聆聽音訊並完成以下句子。
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This means something that is not strong or obvious. It's something gentle or soft that you might not notice right away.
+這表示某物不強烈或明顯。它是某種溫和或柔軟的東西，你可能不會立刻注意到。
 
 ---
 
@@ -32,17 +32,17 @@ This means something that is not strong or obvious. It's something gentle or sof
 
 ### --feedback--
 
-This refers to the range of colors used in a design or artwork. In this case, a `color palette` refers to the selection of colors chosen for the design of the app or project.
+這是指設計或藝術作品中使用的顏色範圍。在此情況下，`color palette` 指的是為應用程式或專案設計所選擇的顏色組合。
 
 # --explanation--
 
-`Subtle` refers to something that is delicate or not obvious. 例如：
+`Subtle` 指的是細微或不明顯的事物。例如：
 
-`The artist used subtle shades of blue in the painting.` - This means the artist used light or soft shades of blue that are not very strong or attention-grabbing.
+`The artist used subtle shades of blue in the painting.`－這表示藝術家使用了不太強烈或不引人注意的淺色或柔和藍色調。
 
-`Palette` refers to the range of colors or materials an artist or designer uses. 例如：
+`Palette` 指藝術家或設計師使用的顏色或材質範圍。 例如：
 
-`The designer chose a warm palette for the website, using reds, oranges, and yellows.` - This means the designer selected a set of warm colors, such as red, orange, and yellow, for the website's design.
+`The designer chose a warm palette for the website, using reds, oranges, and yellows。`－這表示設計師為網站設計選擇了一組暖色調的顏色，例如紅色、橘色和黃色。
 
 # --scene--
 

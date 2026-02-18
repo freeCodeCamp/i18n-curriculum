@@ -1,6 +1,6 @@
 ---
 id: 679d62d4afabb9cb6f9ece23
-title: Task 106
+title: 任務 106
 challengeType: 19
 dashedName: task-106
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-聽音頻，回答下面的問題。
+聆聽音訊並回答以下問題。
 
 # --questions--
 
 ## --text--
 
-What does Maria want to avoid doing, and why?
+Maria 想避免做什麼，為什麼？
 
 ## --answers--
 
-She wants to avoid fixing the problem.
+她想避免修復這個問題。
 
 ### --feedback--
 
-Maria is not saying they shouldn't fix the problem.
+Maria 並沒有說他們不應該修正這個問題。
 
 ---
 
-She wants to avoid asking for help.
+她想避免尋求幫助。
 
 ### --feedback--
 
-Maria does not mention asking for help.
+Maria 沒有提到尋求幫助。
 
 ---
 
-She wants to avoid rushing because it could cause more problems.
+她想避免匆忙，因為那可能會造成更多問題。
 
 ---
 
-She wants to avoid updating the software.
+她想避免更新軟體。
 
 ### --feedback--
 
-Maria does not say they should avoid updating.
+Maria 並沒有說他們應該避免更新。
 
 ## --video-solution--
 
@@ -52,11 +52,11 @@ Maria does not say they should avoid updating.
 
 # --explanation--
 
-`To lead to problems` means that an action or decision could result in difficulties or negative consequences. For example:
+「`To lead to problems`」表示某個行動或決定可能導致困難或負面後果。 例如：
 
-`Skipping the testing phase can lead to serious problems in the software.` - This means that not testing properly might cause major technical issues.
+`Skipping the testing phase can lead to serious problems in the software.`－這表示如果沒有正確測試，可能會導致重大的技術問題。
 
-In this dialogue, Maria is concerned that rushing could create additional issues.
+在這個對話盒中，Maria 擔心匆忙可能會產生額外的問題。
 
 # --scene--
 

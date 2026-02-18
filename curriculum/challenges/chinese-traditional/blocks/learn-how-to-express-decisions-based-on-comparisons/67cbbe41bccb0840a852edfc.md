@@ -1,6 +1,6 @@
 ---
 id: 67cbbe41bccb0840a852edfc
-title: Task 44
+title: 任務 44
 challengeType: 22
 dashedName: task-44
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+聆聽音訊並完成以下句子。
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This three-word phrase is used to acknowledge and show appreciation for receiving useful or important information. It's often used when you learn something helpful.
+這個三字詞組用來確認並表達對收到有用或重要資訊的感謝。當你學到有幫助的東西時，經常會使用它。
 
 ---
 
@@ -32,7 +32,7 @@ This three-word phrase is used to acknowledge and show appreciation for receivin
 
 ### --feedback--
 
-This two-word phrase means to choose or select something, especially after considering different options.
+這個兩字詞語表示選擇某物，特別是在考慮不同選項後。
 
 ---
 
@@ -40,21 +40,21 @@ This two-word phrase means to choose or select something, especially after consi
 
 ### --feedback--
 
-This two-word phrase refers to something that is the most important or urgent.
+這個兩字詞組取用最重要或最緊急的事物。
 
 # --explanation--
 
-`Good to know` is used to show that the information shared is useful or appreciated. For example:
+`Good to know` 用來表示所分享的資訊是有用或值得感謝的。例如：
 
-`It's good to know that the software is easy to use.` - This means the speaker appreciates learning that the software is easy to use.
+`It's good to know that the software is easy to use.` — 這表示說話者欣賞得知該軟體易於使用。
 
-`Go with` means to choose something, usually after some thought or comparison. For example:
+`Go with` 意思是選擇某樣東西，通常是在一些思考或比較之後。 例如：
 
-`After much discussion, we went with the cheaper option.` - This means you chose the less expensive option after considering different choices.
+`After much discussion, we went with the cheaper option.`－這表示你在考慮不同選擇後，選擇了較便宜的選項。
 
-`Top priority` means that something is the most important thing to consider or focus on. It's often used in work or decision-making contexts. For example:
+`Top priority` 意味著某件事是最重要的考量或重點。它常用於工作或決策的背景關係中。 例如：
 
-`Our top priority right now is improving the website's performance.` - This means the most important task at the moment is to improve how well the website works, making it a main focus.
+`Our top priority right now is improving the website's performance.`－這表示目前最重要的任務是提升網站的效率、性能，將其作為主要焦點。
 
 # --scene--
 

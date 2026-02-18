@@ -7,34 +7,34 @@ dashedName: step-99
 
 # --description--
 
-所有設置就緒後，調用 `pauseSong()`、`setPlayerDisplay()`、`highlightCurrentSong()` 和 `setPlayButtonAccessibleText()` 函數以正確更新播放器。
+在所有設定就緒後，呼叫 `pauseSong()`、`setPlayerDisplay()`、`highlightCurrentSong()` 和 `setPlayButtonAccessibleText()` 函式（程式）以正確更新播放器。
 
-恭喜你完成你的音樂播放器！ 現在我們已經完成了對較短歌曲的測試和使用，我們已將它們替換爲 Quincy 特別挑選的原始曲目，供你欣賞。
+恭喜你完成你的音樂播放器！現在我們已經完成測試並使用較短的歌曲，並且已將它們取代為 Quincy 特別為你挑選的原始曲目，讓你享受。
 
 # --hints--
 
-你應該調用 `pauseSong` 函數。
+你應該呼叫 `pauseSong` 函式（程式）。
 
 ```js
 const splitter = code.split('audio.addEventListener("ended", () => {')
 assert.match(splitter[1], /pauseSong\(\s*\)\s*;?/)
 ```
 
-你應該調用 `setPlayerDisplay` 函數。
+你應該呼叫 `setPlayerDisplay` 函式（程式）。
 
 ```js
 const splitter = code.split('audio.addEventListener("ended", () => {')
 assert.match(splitter[1], /setPlayerDisplay\(\s*\)\s*;?/)
 ```
 
-你應該調用 `highlightCurrentSong` 函數。
+你應該呼叫 `highlightCurrentSong` 函式（程式）。
 
 ```js
 const splitter = code.split('audio.addEventListener("ended", () => {')
 assert.match(splitter[1], /highlightCurrentSong\(\s*\)\s*;?/)
 ```
 
-你應該調用 `setPlayButtonAccessibleText` 函數。
+你應該呼叫 `setPlayButtonAccessibleText` 函式（程式）。
 
 ```js
 const splitter = code.split('audio.addEventListener("ended", () => {')
@@ -649,7 +649,7 @@ const playSong = (id) => {
 
 const pauseSong = () => {
   userData.songCurrentTime = audio.currentTime;
-
+  
   playButton.classList.remove("playing");
   audio.pause();
 };
@@ -1436,7 +1436,7 @@ const playSong = (id) => {
 
 const pauseSong = () => {
   userData.songCurrentTime = audio.currentTime;
-
+  
   playButton.classList.remove("playing");
   audio.pause();
 };

@@ -7,38 +7,38 @@ dashedName: step-32
 
 # --description--
 
-爲了提高你剛剛添加的圖像的可訪問性，添加具有以下文本的 `alt` 屬性。
+為了提升你所添加的影像的存取性，為 `alt` 屬性添加以下文字：
 
 `Two tabby kittens sleeping together on a couch.`
 
 # --hints--
 
-你的 `figure` 元素應該有一個開始標籤。 開始標籤的語法爲：`<elementName>`。
+你的 `figure` 元素應該有一個開啟標籤。開啟標籤具有此語法：`<elementName>`。
 
 ```js
 assert(document.querySelectorAll('figure').length === 2);
 ```
 
-你的 `figure` 元素應該有一個結束標籤。 結束標籤在 `<` 字符之後有一個 `/`。
+你的 `figure` 元素應該有一個結束標籤。結束標籤在 `<` 字元後面緊接著有一個 `/`。
 
 ```js
 assert(code.match(/<\/figure>/g).length === 2);
 ```
 
-最後一個 `section` 元素的結束標籤的上方應該有一個 `figure` 元素。
+在最後一個 `section` 元素的結束標籤正上方應該有一個 `figure` 元素。
 
 ```js
 assert.strictEqual(document.querySelectorAll('main > section')?.[1]?.lastElementChild?.nodeName, 'FIGURE');
 ```
 
-貓 `img` 元素應該嵌套在 `figure` 元素中。
+`img` 元素應該巢狀在 `figure` 元素中。
 
 ```js
 const catsImg = document.querySelectorAll('figure > img')[1];
 assert.exists(catsImg);
 ```
 
-第三張圖像應該有一個設置爲 `https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg` 的 `src` 屬性。
+第三張影像應該有一個 `src` 屬性設定為 `https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg`。
 
 ```js
 const catsImg = document.querySelectorAll('figure > img')[1];
@@ -47,7 +47,7 @@ assert.strictEqual(
 );
 ```
 
-貓 `img` 元素應該有一個 `alt` 屬性，值爲 `Five cats looking around a field.`
+Cats 的 `img` 元素應該有一個 `alt` 屬性，值為 `Two tabby kittens sleeping together on a couch.`。
 
 ```js
 const catsImg = document.querySelectorAll('figure > img')[1];

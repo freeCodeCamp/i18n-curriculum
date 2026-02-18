@@ -1,6 +1,6 @@
 ---
 id: 657eecb3b368badb3cc7fe4c
-title: Task 61
+title: 任務 61
 challengeType: 22
 dashedName: task-61
 lang: en-US
@@ -10,9 +10,9 @@ lang: en-US
 
 # --description--
 
-`At least` is used when you want to say the smallest amount or number of something is okay or enough. It's like saying "no less than this amount". For example:
+`At least` 用於表示某事物的最小數量或數目是可以接受或足夠的。這就像是在說「不少於這個數量」。例如：
 
-`I study English for at least 30 minutes every day.` - This means you spend 30 minutes or more studying English daily, but never less than 30 minutes.
+`I study English for at least 30 minutes every day.`－這表示你每天花 30 分鐘或更多時間學習英文，但絕不會少於 30 分鐘。
 
 # --fillInTheBlank--
 
@@ -26,7 +26,7 @@ lang: en-US
 
 ### --feedback--
 
-These two words form an expression indicating a minimum amount.
+這兩個字組成一個表示最小數量的表達式。
 
 # --scene--
 

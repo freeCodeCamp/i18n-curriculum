@@ -1,6 +1,6 @@
 ---
 id: 6821b0fc7feba25dfba3d6ae
-title: Task 105
+title: 任務 105
 challengeType: 19
 dashedName: task-105
 lang: en-US
@@ -10,13 +10,13 @@ lang: en-US
 
 # --instructions--
 
-閱讀文稿並回答下面的問題。
+閱讀文字並回答以下問題。
 
 # --questions--
 
 ## --text--
 
-After receiving Alice's feedback and making improvements, Jake finalized his pitch like this:
+在收到 Alice 的回授並進行改進後，Jake 如此完成了他的簡報：
 
 `In today's fast-changing world, startups need a robust and secure way to protect their data. GuardianTech is not just helpful, it's an essential and critical solution for your digital environment.`
 
@@ -28,35 +28,35 @@ After receiving Alice's feedback and making improvements, Jake finalized his pit
 
 `In short, GuardianTech is a unique cybersecurity solution. It gives you everything you need — now and in the future — to stay protected, grow safely, and succeed.`
 
-Why is GuardianTech described as `cost-effective`?
+為什麼 GuardianTech 被描述為 `cost-effective`？
 
 ## --answers--
 
-It is only available to large companies with big budgets.
+它僅提供給預算充足的大型公司。
 
 ### --feedback--
 
-Jake talks about startups, not big-budget corporations.
+Jake 談論的是新創公司，而非大預算企業。
 
 ---
 
-It includes many free advertisements.
+它包含許多免費廣告。
 
 ### --feedback--
 
-The pitch doesn't mention marketing or ads.
+這個簡報沒有提到行銷或廣告。
 
 ---
 
-It provides strong protection without a high price.
+它提供強大的保護而不需高昂的價格。
 
 ---
 
-It replaces the need for customer support.
+它取代了對客戶支援的需求。
 
 ### --feedback--
 
-The text never says it replaces support.
+該文字從未表示它取代支援。
 
 ## --video-solution--
 
@@ -64,8 +64,8 @@ The text never says it replaces support.
 
 # --explanation--
 
-To find the answer, look at the sentence about GuardianTech being `cost-effective`.
+要找到答案，請查看關於 GuardianTech 是 `cost-effective` 的句子。
 
-The pitch explains it gives `high-quality protection without a big price tag`, which means strong value at low cost.
+這個說明表示它提供 `high-quality protection without a big price tag`，也就是以低成本獲得高價值。
 
-Look for the option that reflects this.
+尋找反映此情況的選項。

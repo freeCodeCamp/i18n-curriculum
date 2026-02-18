@@ -1,8 +1,9 @@
 ---
 id: 680ae6fa6f3bb82a094cffcf
-title: Task 91
+title: 任務 91
 challengeType: 19
 dashedName: task-91
+showSpeakingButton: true
 lang: en-US
 ---
 
@@ -12,25 +13,33 @@ lang: en-US
 
 # --instructions--
 
-聽音頻，回答下面的問題。
+聆聽音訊並回答以下問題。
 
 # --questions--
 
 ## --text--
 
-What could Maria say to show she is positively surprised by the results?
+瑪麗亞會說什麼來表達她對結果感到正面驚訝？
 
 ## --answers--
 
 `That's impressive.`
 
+### --audio-id--
+
+en-b1-680ae6fa6f3bb82a094cffcf-SP1
+
 ---
 
 `Maybe we should lower our expectations.`
 
+### --audio-id--
+
+en-b1-680ae6fa6f3bb82a094cffcf-SP2
+
 ### --feedback--
 
-This shows a lack of confidence, not excitement about the results.
+這顯示出缺乏信心，而非對結果感到興奮。
 
 ## --video-solution--
 
@@ -38,9 +47,9 @@ This shows a lack of confidence, not excitement about the results.
 
 # --explanation--
 
-`Impressive` means something is worthy of attention, admiration, or respect because it is unusually good, large, or effective. For example:
+`Impressive` 意味著某事值得注意、讚賞或尊敬，因為它異常地好、大或有效。 例如：
 
-`Your presentation was really impressive! It covered everything clearly and confidently.` – This means the presentation was high-quality and left a strong positive impact.
+`Your presentation was really impressive! It covered everything clearly and confidently.`－這表示簡報具有高品質，並留下強烈的正面影響。
 
 # --scene--
 

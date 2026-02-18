@@ -1,6 +1,6 @@
 ---
 id: 8d5823c8c441eddfaeb5bdef
-title: Create a Map Data Structure
+title: 創建 Map 資料結構
 challengeType: 1
 forumTopicId: 301629
 dashedName: create-a-map-data-structure
@@ -8,11 +8,11 @@ dashedName: create-a-map-data-structure
 
 # --description--
 
-The next few challenges will cover maps and hash tables. Maps are data structures that store key-value pairs. In JavaScript, these are available to us as objects. Maps provide rapid lookup of stored items based on key values and are very common and useful data structures.
+接下來的幾個挑戰將涵蓋 maps 和 hash tables。Maps 是用來儲存鍵值配對的資料結構。在 JavaScript 中，這些以物件的形式提供給我們。Maps 提供基於鍵值的快速查找儲存項目，是非常常見且有用的資料結構。
 
 # --instructions--
 
-Let's get some practice creating our own map. Because JavaScript objects provide a much more efficient map structure than anything we could write here, this is intended primarily as a learning exercise. However, JavaScript objects only provide us with certain operations. What if we wanted to define custom operations? Use the `Map` object provided here as a wrapper around a JavaScript `object`. Create the following methods and operations on the Map object:
+讓我們練習創建自己的 map。因為 JavaScript 物件提供比我們在這裡能寫出的任何東西都高效得多的 map 結構，所以這主要是作為學習練習。然而，JavaScript 物件只提供我們某些操作行為。如果我們想定義訂製的操作行為怎麼辦？使用這裡提供的 `Map` 物件作為 JavaScript `object` 的外包。為 `Map` 物件創建以下方法和操作行為：
 
 <ul>
 <li><code>add</code> accepts a <code>key, value</code> pair to add to the map.</li>
@@ -26,7 +26,7 @@ Let's get some practice creating our own map. Because JavaScript objects provide
 
 # --hints--
 
-The `Map` data structure should exist.
+`Map` 資料結構應該存在。
 
 ```js
 assert(
@@ -40,7 +40,7 @@ assert(
 );
 ```
 
-The `Map` object should have the following methods: `add`, `remove`, `get`, `has`, `values`, `clear`, and `size`.
+`Map` 物件應該具有以下方法：`add`、`remove`、`get`、`has`、`values`、`clear` 和 `size`。
 
 ```js
 assert(
@@ -62,7 +62,7 @@ assert(
 );
 ```
 
-The `add` method should add items to the map.
+`add` 方法應該將項目添加到地圖中。
 
 ```js
 assert(
@@ -79,7 +79,7 @@ assert(
 );
 ```
 
-The `has` method should return `true` for added items and `false` for absent items.
+`has` 方法應該對已添加的項目傳回 `true`，對缺少的項目傳回 `false`。
 
 ```js
 assert(
@@ -94,7 +94,7 @@ assert(
 );
 ```
 
-The `get` method should accept keys as input and should return the associated values.
+`get` 方法應該接受鍵作為輸入，並且應該傳回相關的值。
 
 ```js
 assert(
@@ -109,7 +109,7 @@ assert(
 );
 ```
 
-The `values` method should return all the values stored in the map as strings in an array.
+`values` 方法應該傳回以陣列形式儲存在映射中的所有值，且這些值皆為字串。
 
 ```js
 assert(
@@ -131,7 +131,7 @@ assert(
 );
 ```
 
-The `clear` method should empty the map and the `size` method should return the number of items present in the map.
+`clear` 方法應該清空地圖，而 `size` 方法應該傳回地圖中存在的項目數量。
 
 ```js
 assert(
@@ -158,7 +158,7 @@ assert(
 var Map = function() {
   this.collection = {};
   // Only change code below this line
-
+  
   // Only change code above this line
 };
 ```

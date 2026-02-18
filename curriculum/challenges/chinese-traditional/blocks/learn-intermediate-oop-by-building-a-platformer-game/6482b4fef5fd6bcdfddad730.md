@@ -7,13 +7,13 @@ dashedName: step-12
 
 # --description--
 
-下一步是爲遊戲的主要玩家定義一些特徵。
+下一步是為遊戲的主要玩家定義一些特性。
 
-首先創建一個名爲 `Player` 的新 `class`。
+首先建立一個名為 `Player` 的新 `class`。
 
 # --hints--
 
-`Player` 應該是一個類。
+`Player` 應該是一個類別。
 
 ```js
 assert(
@@ -27,7 +27,7 @@ assert(
 assert.match(code, /^\s*class/m);
 ```
 
-你應該創建一個名爲 `Player` 的新類。
+你應該創建一個名為 `Player` 的新類別
 
 ```js
 assert.match(code, /class\s+Player\s*{\s*}\s*/);

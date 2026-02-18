@@ -1,6 +1,6 @@
 ---
 id: 6557dc1aa6be93c1eb4e9efb
-title: Task 29
+title: 任務 29
 challengeType: 19
 dashedName: task-29
 lang: en-US
@@ -10,47 +10,47 @@ lang: en-US
 
 # --description--
 
-The word `if` means "whether or not". For example:
+字 `if` 意思是「是否」。例如：
 
-`She checks her emails to see if there are any urgent updates.` - This means she is looking to find out whether updates exist.
+`She checks her emails to see if there are any urgent updates.`－這表示她正在查看是否有任何緊急更新。
 
-`If` can also be part of a conditional statement, which shows a possible situation and its result. For example:
+`If` 也可以是條件述語的零件，顯示可能的情況及其結果。 例如：
 
-`If there are urgent updates, I will reply immediately.` - This means replying depends on the condition of having urgent updates.
+如果有緊急更新，我會立即回覆。
 
 # --questions--
 
 ## --text--
 
-What does Sarah imply by using `if` in her statement about checking emails and messages?
+Sarah 在她關於檢查電子郵件和訊息的述語中使用 `if` 意味著什麼？
 
 ## --answers--
 
-She always finds urgent updates from her team.
+她總是找到來自她團隊的緊急更新。
 
 ### --feedback--
 
-`If` doesn't suggest certainty of finding urgent updates.
+`If` 並不表示一定會找到緊急更新。
 
 ---
 
-Sometimes there are urgent updates, sometimes not.
+有時候有緊急更新，有時候沒有。
 
 ---
 
-She never checks her emails and messages.
+她從不查看她的電子郵件和訊息。
 
 ### --feedback--
 
-Sarah actually states that she does check her emails and messages.
+Sarah 實際上表示她確實會檢查她的電子郵件和訊息。
 
 ---
 
-Checking emails is not part of her routine.
+檢查電子郵件不是她的常式零件。
 
 ### --feedback--
 
-Sarah mentions that checking emails and messages is part of her routine.
+Sarah 提到檢查電子郵件和訊息是她常式的一部分。
 
 ## --video-solution--
 

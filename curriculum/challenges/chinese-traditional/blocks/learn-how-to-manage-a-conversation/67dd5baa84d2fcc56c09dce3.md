@@ -1,6 +1,6 @@
 ---
 id: 67dd5baa84d2fcc56c09dce3
-title: Task 15
+title: 任務 15
 challengeType: 22
 dashedName: task-15
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+聆聽音訊並完成以下句子。
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This means to make a choice or come to a conclusion about something.
+這表示對某事做出選擇或得出結論。
 
 ---
 
@@ -32,17 +32,17 @@ This means to make a choice or come to a conclusion about something.
 
 ### --feedback--
 
-This refers to a specific stage or part of a process or project.
+這是指處理程序或專案的特定階段或零件。
 
 # --explanation--
 
-`To decide` means to choose something after thinking about it. For example:
+`To decide` 是指經過思考後選擇某事物。例如：
 
-`We need to decide which tools to use for the project.` – This means choosing the tools after considering the options.
+`We need to decide which tools to use for the project。`－這表示在考慮選項後選擇工具。
 
-A `phase` refers to one part or step in a larger process. For example:
+`phase` 指的是較大處理程序中的一個零件或步驟。例如：
 
-`We just finished the testing phase of the software.` – This means the testing step in the development process is complete.
+`We just finished the testing phase of the software。`－這表示開發流程中的測試步驟已完成。
 
 # --scene--
 

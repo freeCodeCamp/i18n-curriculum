@@ -1,23 +1,23 @@
 ---
 id: 62aa20e9cf1be9358f5aceae
-title: Step 151
+title: 步驟 151
 challengeType: 0
 dashedName: step-151
 ---
 
 # --description--
 
-Add an `else` statement to the first `if` statement inside your `attack()` function. In the `else` statement, use the `+=` operator to add the text `" You miss."` to the end of `text.innerText`.
+為你的 `attack()` 函式中的第一個 `if` 述語添加一個 `else` 述語。在 `else` 述語中，使用 `+=` 運算子將文字 `" You miss."` 添加到 `text.innerText` 的結尾。
 
 # --hints--
 
-You should add an `else` block after your `if (isMonsterHit())` block.
+你應該在你的 `if (isMonsterHit())` 區塊後面添加一個 `else` 區塊。
 
 ```js
 assert.match(attack.toString(), /if\s*\(\s*isMonsterHit\(\s*\)\s*\)\s*\{\s*monsterHealth\s*-=\s*weapons\s*\[\s*currentWeaponIndex\s*\]\s*\.power\s*\+\s*Math\.floor\(\s*Math\.random\(\s*\)\s*\*\s*xp\s*\)\s*\+\s*1\s*;?\s*\}\s*else/)
 ```
 
-You should add the text `" You miss."` to the end of `text.innerText`. Remember to use compound assignment and make sure there is a space before the word `You`.
+你應該將文字 `" You miss."` 添加到 `text.innerText` 的結尾。請記得使用複合指派，並確保在字 `You` 前有一個空格。
 
 ```js
 assert.match(attack.toString(), /if\s*\(\s*isMonsterHit\(\s*\)\s*\)\s*\{\s*monsterHealth\s*-=\s*weapons\s*\[\s*currentWeaponIndex\s*\]\s*\.power\s*\+\s*Math\.floor\(\s*Math\.random\(\s*\)\s*\*\s*xp\s*\)\s*\+\s*1\s*;?\s*\}\s*else\s*\{\s*text\.innerText\s*\+=\s*('|")\sYou miss\.\1/)

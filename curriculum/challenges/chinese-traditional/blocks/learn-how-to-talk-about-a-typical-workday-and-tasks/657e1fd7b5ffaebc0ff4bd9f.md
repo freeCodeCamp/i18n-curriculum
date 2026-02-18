@@ -10,41 +10,41 @@ lang: en-US
 
 # --description--
 
-聽音頻，回答下面的問題。
+聆聽音訊並回答以下問題。
 
 # --questions--
 
 ## --text--
 
-Why is Tom thanking Sophie?
+為什麼 Tom 感謝 Sophie？
 
 ## --answers--
 
-For giving him a time management app.
+為他提供一個時間管理應用程式。
 
 ### --feedback--
 
-Tom is thanking Sophie for tips, not for giving him an app.
+Tom 感謝 Sophie 的提示，而不是感謝她給他一個應用程式。
 
 ---
 
-Because he finds Sophie's tips helpful.
+因為他覺得 Sophie 的提示有幫助。
 
 ---
 
-For inviting him to lunch.
+邀請他共進午餐。
 
 ### --feedback--
 
-He is thanking her for the advice, not for a lunch invitation.
+他是在感謝她的建議，而不是午餐邀請。
 
 ---
 
-For helping him with a project.
+為了幫助他完成一個專案。
 
 ### --feedback--
 
-Tom's gratitude is related to the tips about organization, not specific project help.
+Tom 的感謝是關於組織方面的提示，而不是特定專案的幫助。
 
 ## --video-solution--
 

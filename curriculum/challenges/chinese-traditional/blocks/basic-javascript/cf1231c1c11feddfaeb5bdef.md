@@ -1,6 +1,6 @@
 ---
 id: cf1231c1c11feddfaeb5bdef
-title: Multiply Two Numbers with JavaScript
+title: 使用 JavaScript 相乘兩個數字
 challengeType: 1
 forumTopicId: 18243
 dashedName: multiply-two-numbers-with-javascript
@@ -8,31 +8,31 @@ dashedName: multiply-two-numbers-with-javascript
 
 # --description--
 
-We can also multiply one number by another.
+我們也可以將一個數字乘以另一個數字。
 
-JavaScript uses the `*` symbol for multiplication of two numbers.
+JavaScript 使用 `*` 符號來乘兩個數字。
 
-**Example**
+**範例**
 
 ```js
 const myVar = 13 * 13;
 ```
 
-`myVar` would have the value `169`.
+`myVar` 將會有值 `169`。
 
 # --instructions--
 
-Change the `0` so that product will equal `80`.
+將 `0` 改成使產品相等於 `80`。
 
 # --hints--
 
-The variable `product` should be equal to 80.
+變數 `product` 應該相等於 80。
 
 ```js
 assert(product === 80);
 ```
 
-You should use the `*` operator.
+你應該使用 `*` 運算子。
 
 ```js
 assert(/\*/.test(__helpers.removeJSComments(code)));

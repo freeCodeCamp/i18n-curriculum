@@ -1,6 +1,6 @@
 ---
 id: 67ed38f77f1fbd02acdcf5ff
-title: Task 53
+title: 任務 53
 challengeType: 22
 dashedName: task-53
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+聆聽音訊並完成以下句子。
 
 # --fillInTheBlank--
 
@@ -24,13 +24,13 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This two-word phrase is used to ask about what is happening or what the situation is. The first word ends with `-ing`.
+這個兩字詞組用來詢問正在發生什麼事或情況為何。第一個字以 `-ing` 結尾。
 
 # --explanation--
 
-`What's going on?` is a common way to ask someone what is happening, what the situation is, or what problem or event is taking place. For example:
+`What's going on?` 是一種常見的用法，用來詢問某人發生了什麼事、情況如何，或是正在發生什麼問題或事件。例如：
 
-`What's going on at the meeting?` – Someone is asking what is happening during the meeting.
+`What's going on at the meeting?`－有人在詢問會議中發生了什麼事。
 
 # --scene--
 

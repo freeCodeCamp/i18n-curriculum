@@ -1,6 +1,6 @@
 ---
 id: 68249d79d4ddca45eff7fafd
-title: Task 144
+title: 任務 144
 challengeType: 19
 dashedName: task-144
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-聽音頻，回答下面的問題。
+聆聽音訊並回答以下問題。
 
 # --questions--
 
 ## --text--
 
-What does Jessica plan to do with the information?
+Jessica 計劃如何處理這些資訊？
 
 ## --answers--
 
-Ignore it for now and wait for more feedback.
+暫時忽略它並等待更多回授。
 
 ### --feedback--
 
-Jessica says she will organize the information and share it, not ignore it.
+Jessica 說她會整理資訊並分享，不會忽略它。
 
 ---
 
-Organize it into a report and discuss it with others.
+將它整理成報告並與他人討論。
 
 ---
 
-Ask users to test it again before making changes.
+請使用者在進行更改前再次測試。
 
 ### --feedback--
 
-She does not mention anything about retesting or user feedback.
+她沒有提到任何關於重新測試或使用者回授的事項。
 
 ---
 
-Send it directly to the client without review.
+直接將它傳送到客戶端，無需審核。
 
 ### --feedback--
 
-Jessica plans to talk with her team first, not send it straight to a client.
+Jessica 計劃先與她的團隊討論，而不是直接發送給客戶。
 
 ## --video-solution--
 
@@ -52,9 +52,9 @@ Jessica plans to talk with her team first, not send it straight to a client.
 
 # --explanation--
 
-Jessica says she will `put all this information into a report` and `talk about it with the team tomorrow`. This shows she plans to organize the details and have a discussion with her team.
+Jessica 說她會 `put all this information into a report` 並且 `talk about it with the team tomorrow`。這表示她計劃整理這些細節並且與她的團隊討論。
 
-She also says the feedback `should help`, meaning it will guide their next steps.
+她也說回授 `should help`，意思是它會指引他們的下一步。
 
 # --scene--
 

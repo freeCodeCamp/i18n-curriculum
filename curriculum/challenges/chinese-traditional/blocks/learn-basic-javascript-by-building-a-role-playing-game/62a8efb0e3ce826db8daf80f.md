@@ -1,23 +1,23 @@
 ---
 id: 62a8efb0e3ce826db8daf80f
-title: Step 133
+title: 步驟 133
 challengeType: 0
 dashedName: step-133
 ---
 
 # --description--
 
-Finish the `defeatMonster` function by calling the `update` function with `locations[4]` as the argument.
+完成 `defeatMonster` 函式（程式），透過以 `locations[4]` 作為引數來呼叫 `update` 函式（程式）。
 
 # --hints--
 
-You should call the `update` function.
+你應該呼叫 `update` 函式（程式）。
 
 ```js
 assert.match(defeatMonster.toString(), /update/);
 ```
 
-You should pass `locations[4]` as the argument.
+你應該將 `locations[4]` 作為引數傳遞。
 
 ```js
 assert.match(defeatMonster.toString(), /update\(\s*locations\s*\[\s*4\s*\]\s*\)/);
@@ -294,7 +294,7 @@ function defeatMonster() {
   xp += monsters[fighting].level;
   goldText.innerText = gold;
   xpText.innerText = xp;
-
+  
 }
 --fcc-editable-region--
 

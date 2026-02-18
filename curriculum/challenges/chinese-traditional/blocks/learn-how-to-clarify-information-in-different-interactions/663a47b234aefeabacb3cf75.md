@@ -1,6 +1,6 @@
 ---
 id: 663a47b234aefeabacb3cf75
-title: Task 27
+title: 任務 27
 challengeType: 22
 dashedName: task-27
 lang: en-US
@@ -10,7 +10,8 @@ lang: en-US
 
 # --description--
 
-Another distinctive characteristic someone has is their height. You can say, for example, that someone is `tall` or `short`. A `tall` person is someone above the average in terms of their height. The opposite is when someone is `short`, when this person is below the average.
+另一個人獨特的特徵是他們的身高。你可以說，例如，有人是 `tall` 或 `short`。  
+`Tall` 的人是指身高高於平均值的人。相反地，當某人是 `short`，表示此人身高低於平均值。
 
 # --fillInTheBlank--
 
@@ -24,7 +25,7 @@ Another distinctive characteristic someone has is their height. You can say, for
 
 ### --feedback--
 
-Above the average in terms of height.
+身高高於平均水平。
 
 # --scene--
 

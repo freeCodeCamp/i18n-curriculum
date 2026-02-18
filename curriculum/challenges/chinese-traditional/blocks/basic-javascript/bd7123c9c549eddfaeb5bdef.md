@@ -1,6 +1,6 @@
 ---
 id: bd7123c9c549eddfaeb5bdef
-title: Use Bracket Notation to Find the First Character in a String
+title: 使用括號表示法尋找字串中的第一個字元
 challengeType: 1
 forumTopicId: 18341
 dashedName: use-bracket-notation-to-find-the-first-character-in-a-string
@@ -8,36 +8,36 @@ dashedName: use-bracket-notation-to-find-the-first-character-in-a-string
 
 # --description--
 
-<dfn>Bracket notation</dfn> is a way to get a character at a specific index within a string.
+<dfn>Bracket notation</dfn> 是一種在字串中特定索引取得字元的方法。
 
-Most modern programming languages, like JavaScript, don't start counting at 1 like humans do. They start at 0. This is referred to as <dfn>Zero-based</dfn> indexing.
+大多數現代程式語言，例如 JavaScript，不像人類那樣從 1 開始計數。它們從 0 開始。這稱為 <dfn>從零開始</dfn>的索引。
 
-For example, the character at index 0 in the word `Charles` is `C`. So if `const firstName = "Charles"`, you can get the value of the first letter of the string by using `firstName[0]`.
+例如，字串 `Charles` 中索引 0 的字元是 `C`。所以如果 `const firstName = "Charles"`，你可以使用 `firstName[0]` 取得字串的第一個字元的值。
 
-Example:
+範例：
 
 ```js
 const firstName = "Charles";
 const firstLetter = firstName[0];
 ```
 
-`firstLetter` would have a value of the string `C`.
+`firstLetter` 的值會是字串 `C`。
 
 # --instructions--
 
-Use bracket notation to find the first character in the `lastName` variable and assign it to `firstLetterOfLastName`.
+使用括號表示法尋找 `lastName` 變數中的第一個字元，並將它指定給 `firstLetterOfLastName`。
 
-**Hint:** Try looking at the example above if you get stuck.
+**提示：** 如果你卡住了，試著看看上面的範例。
 
 # --hints--
 
-The `firstLetterOfLastName` variable should have the value of `L`.
+`firstLetterOfLastName` 變數應該具有 `L` 的值。
 
 ```js
 assert(firstLetterOfLastName === 'L');
 ```
 
-You should use bracket notation.
+你應該使用括號表示法。
 
 ```js
 assert(__helpers.removeJSComments(code).match(/firstLetterOfLastName\s*=\s*lastName\s*\[\s*\d\s*\]/));

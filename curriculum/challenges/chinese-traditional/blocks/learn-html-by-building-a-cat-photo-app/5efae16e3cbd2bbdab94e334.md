@@ -7,29 +7,29 @@ dashedName: step-33
 
 # --description--
 
-After the last `img` element, add a `figcaption` element with the text `Cats hate other cats.`
+在最後一個 `img` 元素之後，添加一個帶有文字 `Cats hate other cats.` 的 `figcaption` 元素。
 
 # --hints--
 
-你的 `figcaption` 元素應該有一個開始標籤。 開始標籤的語法爲：`<elementName>`。
+你的 `figcaption` 元素應該有一個開啟標記。開啟標記具有以下語法：`<elementName>`。
 
 ```js
 assert(document.querySelectorAll('figcaption').length === 2);
 ```
 
-你的 `figcaption` 元素應該有一個結束標籤。 結束標籤在 `<` 字符之後有一個 `/`。
+你的 `figcaption` 元素應該有一個結束標籤。結束標籤在 `<` 字元後面緊接著有一個 `/`。
 
 ```js
 assert(code.match(/<\/figcaption\>/g).length === 2);
 ```
 
-There should be a `figure` element right above the second `section` element's closing tag.
+在第二個 `section` 元素的結束標籤正上方應該有一個 `figure` 元素。
 
 ```js
 assert.strictEqual(document.querySelectorAll('main > section')?.[1]?.lastElementChild?.nodeName, 'FIGURE');
 ```
 
-The last `img` element should be nested in the `figure` element.
+最後一個 `img` 元素應該巢狀在 `figure` 元素中。
 
 ```js
 const catsImg = document.querySelectorAll('figure > img')[1];
@@ -39,25 +39,25 @@ assert(
 );
 ```
 
-你的 `figure` 元素應該有一個開始標籤。 開始標籤的語法爲：`<elementName>`。
+你的 `figure` 元素應該有一個開啟標籤。開啟標籤具有以下語法：`<elementName>`。
 
 ```js
 assert(document.querySelectorAll('figure').length === 2);
 ```
 
-你的 `figure` 元素應該有一個結束標籤。 結束標籤在 `<` 字符之後有一個 `/`。
+你的 `figure` 元素應該有一個結束標籤。結束標籤在 `<` 字元後面緊接著有一個 `/`。
 
 ```js
 assert(code.match(/<\/figure\>/g).length === 2);
 ```
 
-`figcaption` 元素應該嵌套在 `figure` 元素中。
+`figcaption` 元素應該巢狀在 `figure` 元素中。
 
 ```js
 assert(document.querySelectorAll('figure > figcaption').length === 2);
 ```
 
-嵌套在 `figure` 元素中的 `figcaption` 元素應位於 `img` 元素下方。 You have the `img` element and the `figcaption` element in the wrong order.
+嵌套在 `figure` 元素中的 `figcaption` 元素應該位於 `img` 元素下方。你將 `img` 元素和 `figcaption` 元素的順序弄錯了。
 
 ```js
 assert(
@@ -66,7 +66,7 @@ assert(
 );
 ```
 
-The `figcaption` element should have the text `Cats hate other cats.` You have omitted a word or have a typo.
+`figcaption` 元素應該有文字 `Cats hate other cats.` 你遺漏了一個字或有拼寫錯誤。
 
 ```js
 assert(

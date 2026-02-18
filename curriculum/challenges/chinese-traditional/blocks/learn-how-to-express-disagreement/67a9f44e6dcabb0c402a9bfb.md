@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-聽音頻，回答下面的問題。
+聆聽音訊並回答以下問題。
 
 # --questions--
 
 ## --text--
 
-What does Bob want to know?
+Bob 想知道什麼？
 
 ## --answers--
 
-If employees have already bought office furniture.
+如果員工已經購買辦公家具。
 
 ### --feedback--
 
-Bob isn't asking for confirmation of purchases.
+Bob 並未要求確認購買。
 
 ---
 
-How much office furniture costs.
+辦公家具的費用是多少。
 
 ### --feedback--
 
-Bob does not ask about the price.
+Bob 不會詢問價格。
 
 ---
 
-If the company will increase the stipend.
+如果公司將增加津貼。
 
 ### --feedback--
 
-Bob is not discussing changes to the stipend.
+Bob 並未討論津貼的變更。
 
 ---
 
-If Anna thinks using the stipend for office furniture is a good idea.
+如果 Anna 認為將津貼用於辦公家具是個好主意。
 
 ## --video-solution--
 
@@ -52,7 +52,7 @@ If Anna thinks using the stipend for office furniture is a good idea.
 
 # --explanation--
 
-Bob asks, `Do you think that's a good idea?` This is a way to ask for someone's opinion about a suggestion or plan. Here's other ways to ask for an opinion:
+Bob 問，`Do you think that's a good idea?` 這是一種詢問某人對建議或計畫意見的方式。以下是其他詢問意見的方法：
 
 - `Do you think this will work?`
 
@@ -60,7 +60,7 @@ Bob asks, `Do you think that's a good idea?` This is a way to ask for someone's 
 
 - `How do you feel about this plan?`
 
-In this dialogue, Bob is referring to employees using the remote work stipend for office furniture. Instead of stating his own opinion, he is asking Anna what she thinks.
+在這個對話窗中，Bob 正在取用使用遠端工作補助購買辦公家具的員工。與其陳述自己的意見，他是在詢問 Anna 的看法。
 
 # --scene--
 

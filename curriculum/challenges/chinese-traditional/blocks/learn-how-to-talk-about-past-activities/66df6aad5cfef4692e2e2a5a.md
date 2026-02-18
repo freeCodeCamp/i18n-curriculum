@@ -13,7 +13,7 @@ Linda: Not yet, but I anticipate we'll start receiving more detailed reports as 
 
 # --instructions--
 
-請聽音頻，並完成下面的填空。
+聆聽音訊並完成以下句子。
 
 # --fillInTheBlank--
 
@@ -27,7 +27,7 @@ Linda: Not yet, but I anticipate we'll start receiving more detailed reports as 
 
 ### --feedback--
 
-A word that shows two actions happening at the same time or one action depending on another.
+一個表示兩個動作同時發生或一個動作依賴另一個動作的字。
 
 ---
 
@@ -35,7 +35,7 @@ A word that shows two actions happening at the same time or one action depending
 
 ### --feedback--
 
-A word that indicates a greater quantity or number.
+一個顯示較大量或數字的字。
 
 ---
 
@@ -43,7 +43,7 @@ A word that indicates a greater quantity or number.
 
 ### --feedback--
 
-A word that refers to the people navigating the updated interface.
+一個取用正在瀏覽更新後介面的人員的字。
 
 ---
 
@@ -51,15 +51,15 @@ A word that refers to the people navigating the updated interface.
 
 ### --feedback--
 
-A word that means to move around or through something, such as a website or an app.
+表示在某物內移動或瀏覽的字、單字，例如網站或應用程式。
 
 # --explanation--
 
-`As` can be used to mean "while" or "when", showing that one action will happen while another action is taking place. 例如：
+`As` 可以用來表示「當…的同時」或「當…時」，表示一個動作會在另一個動作進行時發生。例如：
 
-- `As I was walking home, they called me.` - They called you while you were walking home.
+- `As I was walking home, they called me.`－他們在你走回家的時候呼叫你。
 
-- `You will get better at coding as you practice more.` - You will improve while or when you practice more.
+- 你在練習更多時會變得更擅長編碼。
 
 # --scene--
 

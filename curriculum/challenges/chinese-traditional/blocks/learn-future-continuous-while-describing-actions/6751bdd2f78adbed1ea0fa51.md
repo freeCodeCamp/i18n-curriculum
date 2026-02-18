@@ -1,6 +1,6 @@
 ---
 id: 6751bdd2f78adbed1ea0fa51
-title: Task 24
+title: 任務 24
 challengeType: 19
 dashedName: task-24
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-聽音頻，回答下面的問題。
+聆聽音訊並回答以下問題。
 
 # --questions--
 
 ## --text--
 
-What is Brian's concern?
+Brian 的擔憂是什麼？
 
 ## --answers--
 
-If users need to be informed about the downtime.
+如果需要通知使用者關於停機時間。
 
 ---
 
-If the downtime will last too long.
+如果停機時間會持續太久。
 
 ### --feedback--
 
-Brian is not asking about the length of the downtime.
+Brian 並不是在詢問停機時間的長度。
 
 ---
 
-If the users will experience technical issues.
+如果使用者將遇到技術問題。
 
 ### --feedback--
 
-Brian does not mention technical issues in his concern.
+Brian 在他的關切中沒有提到技術問題。
 
 ---
 
-If the downtime will affect the server's performance.
+如果停機時間會影響伺服端的效率、性能。
 
 ### --feedback--
 
-Brian's concern is not about the server's performance.
+Brian 的關注點不是伺服端的效率、性能。
 
 ## --video-solution--
 
@@ -52,7 +52,7 @@ Brian's concern is not about the server's performance.
 
 # --explanation--
 
-Brian is asking if they should update users about the downtime, showing his concern is about communication with the users rather than the length of downtime, technical issues, or server performance.
+Brian 正在詢問是否應該更新使用者關於停機時間的資訊，他關心的是與使用者的通訊，而非停機時間長短、技術問題或伺服端效率。
 
 # --scene--
 

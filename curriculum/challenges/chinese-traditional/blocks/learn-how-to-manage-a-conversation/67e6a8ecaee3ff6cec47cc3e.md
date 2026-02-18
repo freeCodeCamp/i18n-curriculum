@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-聽音頻，回答下面的問題。
+聆聽音訊並回答以下問題。
 
 # --questions--
 
 ## --text--
 
-Why does Jessica want to explain the bug to the team quickly?
+為什麼 Jessica 想要快速向團隊解釋這個錯誤？
 
 ## --answers--
 
-Because she wants to return to the main topic of the meeting.
+因為她想要回到會議的主要議題。
 
 ---
 
-Because she wants to leave the meeting early.
+因為她想提前離開會議。
 
 ### --feedback--
 
-Jessica doesn't mention leaving the meeting.
+Jessica 沒有提到離開會議。
 
 ---
 
-Because the team already knows about the bug.
+因為團隊已經知道這個錯誤。
 
 ### --feedback--
 
-Jessica is explaining the bug because it might affect the team.
+Jessica 正在解釋這個錯誤，因為它可能會影響團隊。
 
 ---
 
-Because she doesn't think the bug is important.
+因為她不認為這個錯誤很重要。
 
 ### --feedback--
 
-Jessica thinks the issue is important, but she also wants to respect the meeting agenda.
+Jessica 認為這個問題很重要，但她也想尊重會議議程。
 
 ## --video-solution--
 
@@ -52,13 +52,13 @@ Jessica thinks the issue is important, but she also wants to respect the meeting
 
 # --explanation--
 
-`So we can` is used to show purpose — it means the next thing you mention is what you intend to do. It explains why someone is doing something. 例如：
+`So we can` 用來表示目的——它的意思是你接下來提到的事情是你打算做的。它解釋了某人為什麼要做某事。 例如：
 
-`I'll finish this now so we can start the next task.` – This means the speaker wants to finish one thing to begin another soon.
+`I'll finish this now so we can start the next task.`－這表示說話者想完成一件事以便很快開始另一件事。
 
-`The main agenda` refers to the primary topics or plan of a meeting or event. 例如：
+`The main agenda` 指的是會議或事件的主要議題或計畫。例如：
 
-`Let's stick to the main agenda and avoid side discussions.` – This means to stay focused on the most important items in the meeting.
+`Let's stick to the main agenda and avoid side discussions.`－這表示要專注於會議中最重要的條款。
 
 # --scene--
 

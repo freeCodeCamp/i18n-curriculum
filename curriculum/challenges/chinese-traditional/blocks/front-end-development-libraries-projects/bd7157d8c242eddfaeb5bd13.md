@@ -1,37 +1,37 @@
 ---
 id: bd7157d8c242eddfaeb5bd13
-title: Build a Markdown Previewer
+title: 建置一個 Markdown 預覽器
 challengeType: 3
 forumTopicId: 301372
 dashedName: build-a-markdown-previewer
 ---
 
 # --description--
-**Note:** **React 18 has known incompatibilities with the tests for this project (see [issue](https://github.com/freeCodeCamp/freeCodeCamp/issues/45922))**
+**注意：** **React 18 已知與此專案的測試不相容（請參閱 [issue](https://github.com/freeCodeCamp/freeCodeCamp/issues/45922)）**
 
-**Objective:** Build an app that is functionally similar to this: <a href="https://markdown-previewer.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://markdown-previewer.freecodecamp.rocks/</a>.
+**目標：** 建置一個功能上類似於此的應用程式：<a href="https://markdown-previewer.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://markdown-previewer.freecodecamp.rocks/</a>。
 
-Fulfill the below user stories and get all of the tests to pass. Use whichever libraries or APIs you need. Give it your own personal style.
+完成以下使用者故事並通過所有測試。使用你需要的任何函式庫或 API。展現你自己的風格。
 
-You can use any mix of HTML, JavaScript, CSS, Bootstrap, SASS, React, Redux, and jQuery to complete this project. You should use a frontend framework (like React for example) because this section is about learning frontend frameworks. Additional technologies not listed above are not recommended and using them is at your own risk. We are looking at supporting other frontend frameworks like Angular and Vue, but they are not currently supported. We will accept and try to fix all issue reports that use the suggested technology stack for this project. Happy coding!
+你可以使用任何混合的 HTML、JavaScript、CSS、Bootstrap、SASS、React、Redux 和 jQuery 來完成這個專案。你應該使用前端框架（例如 React），因為本節是關於學習前端框架的。不建議使用上述未列出的其他技術，且使用它們風險自負。我們正在考慮支援其他前端框架，如 Angular 和 Vue，但目前尚未支援。我們會接受並嘗試修正所有使用建議技術堆疊的問題回報。祝你編碼愉快！
 
-**User Story #1:** I can see a `textarea` element with a corresponding `id="editor"`.
+**使用者故事 #1：** 我可以看到一個具有對應 `id="editor"` 的 `textarea` 元素。
 
-**User Story #2:** I can see an element with a corresponding `id="preview"`.
+**使用者故事 #2：** 我可以看到具有對應 `id="preview"` 的元素。
 
-**User Story #3:** When I enter text into the `#editor` element, the `#preview` element is updated as I type to display the content of the textarea.
+**使用者故事 #3：** 當我在 `#editor` 元素中輸入文字時，`#preview` 元素會隨著我輸入時更新，以顯示文字區域的內容。
 
-**User Story #4:** When I enter GitHub flavored markdown into the `#editor` element, the text is rendered as HTML in the `#preview` element as I type (HINT: You don't need to parse Markdown yourself - you can import the Marked library for this: <https://cdnjs.com/libraries/marked>).
+**使用者故事＃4：** 當我在 `#editor` 元素中輸入 GitHub 風格的 markdown 時，文字會在我輸入時即時以 HTML 呈現在 `#preview` 元素中（提示：你不需要自己解析 Markdown－你可以匯入 Marked 函式庫來完成此工作：https://cdnjs.com/libraries/marked）。
 
-**User Story #5:** When my markdown previewer first loads, the default text in the `#editor` field should contain valid markdown that represents at least one of each of the following elements: a heading element (H1 size), a sub heading element (H2 size), a link, inline code, a code block, a list item, a blockquote, an image, and bolded text.
+**使用者故事＃5：** 當我的 markdown 預覽器首次載入時，`#editor` 欄位中的預設文字應包含有效的 markdown，表現至少以下每一種元素各一：標題元素（H1 大小）、副標題元素（H2 大小）、連結、行內程式碼、程式碼區塊、列表項目、區塊引用、圖片，以及粗體文字。
 
-**User Story #6:** When my markdown previewer first loads, the default markdown in the `#editor` field should be rendered as HTML in the `#preview` element.
+**使用者故事＃6：** 當我的 markdown 預覽器首次載入時，`#editor` 欄位中的預設 markdown 應該被算繪為 HTML 並呈現在 `#preview` 元素中。
 
-**Optional Bonus (you do not need to make this test pass):** My markdown previewer interprets carriage returns and renders them as `br` (line break) elements.
+**選用額外加分（你不需要讓此測試通過）：** 我的 markdown 預覽器會解讀換行符並將其算繪為 `br`（換行）元素。
 
-You can build your project by <a href='https://codepen.io/pen?template=MJjpwO' target='_blank' rel="noopener noreferrer nofollow">using this CodePen template</a> and clicking `Save` to create your own pen. If you prefer to use another environment, then put this `<script>` tag into the body of your `index.html` file: `<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>`
+你可以透過<a href='https://codepen.io/pen?template=MJjpwO' target='_blank' rel="noopener noreferrer nofollow'>使用這個 CodePen 模板</a>並點擊 `Save` 來建置你的專案並創建你自己的 pen。如果你偏好使用其他環境，請將此 `<script>` 頁籤放入你的 `index.html` 檔案的 body 中：`<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>`
 
-Once you're done, submit the URL to your working project with all its tests passing.
+完成後，提交包含所有通過測試的工作專案的 URL。
 
 # --solutions--
 
