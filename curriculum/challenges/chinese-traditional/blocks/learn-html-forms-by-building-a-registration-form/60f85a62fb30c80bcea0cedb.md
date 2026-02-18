@@ -1,32 +1,32 @@
 ---
 id: 60f85a62fb30c80bcea0cedb
-title: 步驟 25
+title: 第 25 步
 challengeType: 0
 dashedName: step-25
 ---
 
 # --description--
 
-Users will be allowed to choose either a `Personal` or `Business`.
+使用者將被允許選擇 `Personal` 或 `Business`。
 
-To do this, within each of the first two `label` elements, add one `input` element with `type="radio"`.
+為了做到這一點，在前兩個 `label` 元素中的每一個內，為你的 `input` 元素添加一個 `type="radio"`。
 
 # --hints--
 
-You should add two `input` elements.
+你應該添加兩個 `input` 元素。
 
 ```js
 assert.equal(document.querySelectorAll('fieldset:nth-child(2) input')?.length, 2);
 ```
 
-You should add one `input` to each of the first two `label` elements.
+你應該為前兩個 `label` 元素中的每一個添加一個 `input`。
 
 ```js
 assert.exists(document.querySelector('fieldset:nth-child(2) > label:nth-child(1) > input'));
 assert.exists(document.querySelector('fieldset:nth-child(2) > label:nth-child(2) > input'));
 ```
 
-You should give both `input` elements a `type` of `radio`.
+你應該為兩個 `input` 元素都指定 `type` 為 `radio`。
 
 ```js
 assert.equal(document.querySelectorAll('fieldset:nth-child(2) input[type="radio"]')?.length, 2);

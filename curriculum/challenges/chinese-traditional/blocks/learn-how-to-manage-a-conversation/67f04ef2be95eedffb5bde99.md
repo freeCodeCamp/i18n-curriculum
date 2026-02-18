@@ -1,6 +1,6 @@
 ---
 id: 67f04ef2be95eedffb5bde99
-title: Task 103
+title: 任務 103
 challengeType: 22
 dashedName: task-103
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-請聽音頻，並完成下面的填空。
+聆聽音訊並完成以下句子。
 
 # --fillInTheBlank--
 
@@ -24,13 +24,13 @@ lang: en-US
 
 ### --feedback--
 
-Followed by `down`, this means making something move or happen more slowly than normal. Use the `-ing` form.
+接著 `down`，這表示使某事物移動或發生得比平常更慢。使用 `-ing` 形式。
 
 # --explanation--
 
-`To slow down` means to reduce speed or to make something happen more slowly. In work or project contexts, it can refer to anything that delays progress. 例如：
+`To slow down` 意思是減慢速度或使某事發生得更慢。在工作或專案的背景關係中，它可以指任何延遲進度的事物。例如：
 
-`Traffic is slowing down the delivery.` – This means the delivery is taking longer because of traffic.
+`Traffic is slowing down the delivery.`－這表示因為交通狀況，交付時間變長了。  
 
 # --scene--
 

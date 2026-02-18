@@ -7,23 +7,23 @@ dashedName: step-25
 
 # --description--
 
-Move the left ear into position by setting a position of `absolute`, a `top` of `-26px`, and a `left` of `-31px`.
+将左耳移动到合适的位置，将位置设置为 `absolute`，`top` 为 `-26px`， `left` 为 `-31px`。
 
 # --hints--
 
-Your `.cat-left-ear` selector should have a `position` property set to `absolute`. Don't forget to add a semicolon.
+你的 `.cat-left-ear` 选择器应该具有一个 `position` 属性，设置为 `absolute`。
 
 ```js
 assert(new __helpers.CSSHelp(document).getStyle('.cat-left-ear')?.position === 'absolute')
 ```
 
-Your `.cat-left-ear` selector should have a `top` property set to `-26px`
+你的 `.cat-left-ear` 选择器应该有一个 `top` 属性，设置为 `-26px`。
 
 ```js
 assert(new __helpers.CSSHelp(document).getStyle('.cat-left-ear')?.top === '-26px')
 ```
 
-Your `.cat-left-ear` selector should have a `left` property set to `-31px`
+你的 `.cat-left-ear` 选择器应该有一个 `left` 属性，设置为 `-31px`。
 
 ```js
 assert(new __helpers.CSSHelp(document).getStyle('.cat-left-ear')?.left === '-31px')
@@ -83,7 +83,7 @@ body {
 
 --fcc-editable-region--
 .cat-left-ear {
-
+  
   border-left: 35px solid transparent;
   border-right: 35px solid transparent;
   border-bottom: 70px solid #5e5e5e;

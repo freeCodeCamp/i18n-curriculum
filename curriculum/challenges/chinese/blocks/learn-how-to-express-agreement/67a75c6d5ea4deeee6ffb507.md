@@ -1,6 +1,6 @@
 ---
 id: 67a75c6d5ea4deeee6ffb507
-title: Task 21
+title: 任务 21
 challengeType: 19
 dashedName: task-21
 lang: en-US
@@ -16,49 +16,49 @@ lang: en-US
 
 ## --text--
 
-What does Linda offer to do?
+Linda 提供做什么？  
 
-## --answers--
+## --answers--  
 
-Prepare user scenarios for testing.
+为你的测试准备用户场景。  
 
----
+---  
 
-Skip the testing phase.
+跳过测试阶段。  
 
-### --feedback--
+### --feedback--  
 
-Linda does not suggest skipping testing; she is actively contributing to it.
+Linda 不建议跳过测试；她正在积极参与测试。  
 
----
+---  
 
-Ask someone else to handle user testing.
+让别人处理器用户测试。  
 
-### --feedback--
+### --feedback--  
 
-Linda does not delegate the task to someone else.
+Linda 不会将任务委托给其他人。  
 
----
+---  
 
-Redesign the user interface from scratch.
+从头重新设计用户界面。  
 
-### --feedback--
+### --feedback--  
 
-Linda does not talk about redesigning the interface.
+Linda 不谈论重新设计接口。  
 
-## --video-solution--
+## --video-solution--  
 
-1
+1  
 
-# --explanation--
+# --explanation--  
 
-Listen for key words that indicate what Linda is offering to do.
+注意听表示 Linda 提供要做什么的关键字。  
 
-`I can also` – This shows she is volunteering to contribute.
+`I can also` – 这表明她自愿贡献。  
 
-`Prepare some user scenarios for testing` – This clearly states the task she is taking responsibility for.
+`Prepare some user scenarios for testing` – 这明确说明了她正在承担的任务。  
 
-`Ensure a smooth user experience` – This explains why testing is important and reinforces her commitment to the project.
+确保流畅的用户体验——这解释了为什么测试很重要，并强化了她对项目的承诺。  
 
 # --scene--
 

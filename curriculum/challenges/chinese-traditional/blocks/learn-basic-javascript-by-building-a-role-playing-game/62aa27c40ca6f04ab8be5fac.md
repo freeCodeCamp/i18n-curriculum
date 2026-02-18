@@ -7,7 +7,7 @@ dashedName: step-167
 
 # --description--
 
-在上一個項目中，你學習瞭如何使用 `for` 循環，如下所示：
+在先前的專案中，你學會了如何使用像這樣的 `for` 迴圈：
 
 ```js
 for (let i = 0; i < 5; i++) {
@@ -15,26 +15,26 @@ for (let i = 0; i < 5; i++) {
 }
 ```
 
-`for` 循環由三個以分號分隔的表達式聲明：`for (a; b; c)`，其中 `a` 是初始化表達式，`b` 是條件，`c` 是最終表達式。
+`for` 迴圈以三個由分號分隔的表達式宣告：`for (a; b; c)`，其中 `a` 是初始化表達式，`b` 是條件，`c` 是最後的表達式。
 
-在此步驟中，創建一個 `for` 循環，其中 `i` 初始化爲 `0`，只要 `i` 小於 `10`，循環就會運行，並且每次迭代後使用增量運算符 `++` 將 `i` 增加 `1`。
+在此步驟中，創建一個 `for` 迴圈，其中 `i` 初始化為 `0`，只要 `i` 小於 `10` 就執行迴圈，並在每次迭代後使用累加運算子 `++` 將 `i` 增加 1。
 
 
 # --hints--
 
-你的 `for` 循環初始化應該將 `i` 初始化爲 `0`。
+你的 `for` 迴圈初始化應該將 `i` 初始化為 `0`。
 
 ```js
 assert.match(pick.toString(), /for\s*\(\s*(let|var)\s+i\s*=\s*0\s*;/)
 ```
 
-只要 `i` 小於 `10`，你的循環條件就應該運行。
+你的迴圈條件應該在 `i` 小於 `10` 時持續執行。
 
 ```js
 assert.match(pick.toString(), /for\s*\(\s*(let|var)\s+i\s*=\s*0\s*;\s*i\s*<\s*10\s*;/)
 ```
 
-你的循環應該在每次迭代之後將 `i` 增加 `1`。 記得使用增量運算符 `++`。
+你的迴圈應該在每次迭代後將 `i` 累加 1。記得使用累加運算子 `++`。
 
 ```js
 assert.match(pick.toString(), /for\s*\(\s*(let|var)\s+i\s*=\s*0\s*;\s*i\s*<\s*10\s*;\s*i\+\+\s*\)/)
@@ -399,7 +399,7 @@ function pick(guess) {
     numbers.push(Math.floor(Math.random() * 11));
   }
   text.innerText = "You picked " + guess + ". Here are the random numbers:\n";
-
+  
 }
 --fcc-editable-region--
 ```

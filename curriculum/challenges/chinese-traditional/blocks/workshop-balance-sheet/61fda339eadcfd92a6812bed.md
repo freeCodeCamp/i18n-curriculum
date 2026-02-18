@@ -7,11 +7,11 @@ dashedName: step-30
 
 # --description--
 
-在設計更多樣式之前，你應該使用 `sr-only` 類。 你可以使用 CSS 使具有此類的元素在可視頁面中完全隱藏，但仍可由屏幕閱讀器朗讀。
+在你進行樣式設計之前，你應該使用 `sr-only` 類別。你可以使用 CSS 讓帶有此類別的元素在視覺頁面上完全隱藏，但仍會被螢幕閱讀器朗讀。
 
-你將要編寫的 CSS 是一組通用屬性，用於確保元素在視覺上完全隱藏。
+你即將撰寫的 CSS 是一組常用的屬性，用於確保元素在視覺上完全隱藏。
 
-`span[class~="sr-only"]` 選擇器將選擇任何 `class` _包括_ `sr-only` 的 `span` 元素。 創建該選擇器，並將其 `border` 屬性設置爲 `0`。
+`span[class~="sr-only"]` 選擇器會選取任何 `class` *包含* `sr-only` 的 `span` 元素。創建該選擇器，並給它一個設定為 `0` 的 `邊框` 屬性。
 
 # --hints--
 
@@ -23,7 +23,7 @@ assert.isNotNull(
 );
 ```
 
-你的 `span[class~="sr-only"]` 選擇器應該有一個 `border` 屬性，設置爲 `0`。
+你的 `span[class~="sr-only"]` 選擇器應該有一個設定為 `0` 的 `border` 屬性。
 
 ```js
 assert.strictEqual(

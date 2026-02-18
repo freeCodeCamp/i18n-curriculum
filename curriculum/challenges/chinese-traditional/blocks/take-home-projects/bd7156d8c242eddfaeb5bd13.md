@@ -1,6 +1,6 @@
 ---
 id: bd7156d8c242eddfaeb5bd13
-title: Build a freeCodeCamp Forum Homepage
+title: 建置 freeCodeCamp 論壇首頁
 challengeType: 3
 forumTopicId: 302349
 dashedName: build-a-freecodecamp-forum-homepage
@@ -8,21 +8,21 @@ dashedName: build-a-freecodecamp-forum-homepage
 
 # --description--
 
-**Objective:** Build an app that is functionally similar to this: <https://codepen.io/freeCodeCamp/full/JqdoMV>.
+**目標：** 建置一個功能上類似於此的應用程式：https://codepen.io/freeCodeCamp/full/JqdoMV。
 
-Fulfill the below user stories and get all of the tests to pass. Use whichever libraries or APIs you need. Give it your own personal style.
+完成以下使用者故事並通過所有測試。使用你需要的任何函式庫或 API。展現你自己的風格。
 
-**User Story:** I can see a list of the most recent posts on the freeCodeCamp forum.
+**使用者故事：** 我可以看到 freeCodeCamp 論壇上最新的文章列表。
 
-**User Story:** For each topic, I can see the title and a list of links to users who have recently posted in it.
+**使用者故事：** 對於每個主題，我可以看到標題和最近在其中發帖的使用者的聯結列表。
 
-**User Story:** I can see the number of replies and views that each topic has had, and a timestamp of when the topic was last active.
+**使用者故事：** 我可以看到每個主題的回覆數和瀏覽數，以及該主題最後一次作用中的時間戳記。
 
-**Hint:** To get the 30 most recent forum posts: <https://forum-proxy.freecodecamp.rocks/latest>.
+**提示：** 要取得最近 30 篇論壇文章，請造訪：https://forum-proxy.freecodecamp.rocks/latest。
 
-When you are finished, include a link to your project on CodePen and click the "I've completed this challenge" button.
+完成後，請包含你在 CodePen 上的專案聯結，然後點擊「我已完成此挑戰」按鈕。
 
-You can get feedback on your project by sharing it on the <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp forum</a>.
+你可以透過在 <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp 論壇</a> 分享你的專案來獲得回授。
 
 # --solutions--
 

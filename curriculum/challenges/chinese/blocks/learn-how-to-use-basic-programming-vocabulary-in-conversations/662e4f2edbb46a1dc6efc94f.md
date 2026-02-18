@@ -1,6 +1,6 @@
 ---
 id: 662e4f2edbb46a1dc6efc94f
-title: Task 37
+title: 任务 37
 challengeType: 22
 dashedName: task-37
 lang: en-US
@@ -10,9 +10,9 @@ lang: en-US
 
 # --description--
 
-`Common` is used to describe something that happens often or is widely shared among many people. For example, `Colds are a common illness during the winter.` This means it's a usual health issue many people face during that time of year.
+`Common` 用于描述经常发生或被许多人广泛共享的事物。例如，`Colds are a common illness during the winter.` 这意味着这是许多人在那个季节面临的常见健康问题。
 
-`Challenge` refers to a task or situation that requires special effort to accomplish because it is difficult. For instance, `Learning to ride a bike was a big challenge for her at first.` This sentence describes how learning to ride a bike presented difficulties initially.
+`Challenge` 指需要特殊努力才能完成的任务或情况，因为它很困难。例如，`Learning to ride a bike was a big challenge for her at first.` 这句话描述了学习骑自行车最初带来的困难。
 
 # --fillInTheBlank--
 
@@ -26,7 +26,7 @@ lang: en-US
 
 ### --feedback--
 
-This adjective describes something that occurs frequently or is usual among a group.
+这个形容词描述在某个群体中经常发生或通常出现的事物。
 
 ---
 
@@ -34,7 +34,7 @@ This adjective describes something that occurs frequently or is usual among a gr
 
 ### --feedback--
 
-This noun refers to a difficult task or problem that requires effort to solve or overcome.
+这个名词指的是一个需要努力解决或克服的困难任务或问题。
 
 # --scene--
 

@@ -7,7 +7,7 @@ dashedName: step-43
 
 # --description--
 
-O HTML para o formulário de registro foi finalizado.Agora, você pode arrumá-lo um pouco.
+O HTML para o formulário de registro foi finalizado. Agora, você pode arrumá-lo um pouco.
 
 Comece adicionando `Tahoma` como a fonte com o tamanho de fonte de `16px` no seletor `body`.
 

@@ -7,13 +7,13 @@ dashedName: step-2
 
 # --description--
 
-You should nest one `path` element inside your `svg` element to give the image shape.
+你應該在你的 `svg` 元素內巢狀一個 `path` 元素，以賦予影像形狀。
 
-Create a `path` element.
+創建一個 `path` 元素。
 
 # --hints--
 
-You should have a `path` element nested inside of your `svg` element.
+你應該在你的 `svg` 元素內巢狀一個 `path` 元素。
 
 ```js
 const path = document.querySelector('svg path');
@@ -34,7 +34,7 @@ assert.exists(path);
   <body>
     <svg>
     --fcc-editable-region--
-
+      
     --fcc-editable-region--
     </svg>
   </body>

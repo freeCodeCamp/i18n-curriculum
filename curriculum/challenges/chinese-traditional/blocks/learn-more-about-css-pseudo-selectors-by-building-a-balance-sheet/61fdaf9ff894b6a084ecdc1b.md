@@ -7,17 +7,17 @@ dashedName: step-33
 
 # --description--
 
-To prevent the text content from overflowing, give your `span[class~="sr-only"]` selector an `overflow` property set to `hidden` and a `white-space` property set to `nowrap`.
+為防止文字內容上限溢位，請為你的 `span[class~="sr-only"]` 選擇器設定 `overflow` 屬性為 `hidden`，並設定 `white-space` 屬性為 `nowrap`。
 
 # --hints--
 
-Your `span[class~="sr-only"]` selector should have an `overflow` property set to `hidden`.
+你的 `span[class~="sr-only"]` 選擇器應該設定 `overflow` 屬性為 `hidden`。
 
 ```js
 assert(new __helpers.CSSHelp(document).getStyle('span[class~="sr-only"]')?.getPropertyValue('overflow') === 'hidden');
 ```
 
-Your `span[class~="sr-only"]` selector should have a `white-space` property set to `nowrap`.
+你的 `span[class~="sr-only"]` 選擇器應該有一個設定為 `nowrap` 的 `white-space` 屬性。
 
 ```js
 assert(new __helpers.CSSHelp(document).getStyle('span[class~="sr-only"]')?.getPropertyValue('white-space') === 'nowrap');
@@ -159,7 +159,7 @@ span[class~="sr-only"] {
   clip-path: inset(50%);
   height: 1px;
   width: 1px;
-
+  
 }
 --fcc-editable-region--
 

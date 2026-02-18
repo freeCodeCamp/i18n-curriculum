@@ -1,6 +1,6 @@
 ---
 id: 65d5d1bdbd0a7f4e3edb6c8e
-title: Task 35
+title: 任務 35
 challengeType: 19
 dashedName: task-35
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --description--
 
-Listen to the audio and answer the question.
+聆聽音訊並回答問題。
 
 # --questions--
 
 ## --text--
 
-What is Tom asking about?
+Tom 在問什麼？
 
 ## --answers--
 
-If Anna works in HR
+如果 Anna 在人力資源部工作
 
 ### --feedback--
 
-Tom's question is specifically about whether the person has worked with Anna, not about Anna's role.
+Tom 的問題特別針對這個人是否曾與 Anna 合作，而不是關於 Anna 的角色。
 
 ---
 
-If Alice has had any experience working with Anna.
+如果 Alice 曾經有與 Anna 合作的經驗。
 
 ---
 
-If you like working in HR
+如果你喜歡在人力資源部工作
 
 ### --feedback--
 
-The question is about past experience with Anna, not personal feelings about working in HR.
+問題是關於過去與 Anna 的經驗，而不是對在人力資源部門工作的個人感受。
 
 ---
 
-If Anna has ever worked
+如果 Anna 曾經工作過
 
 ### --feedback--
 
-The focus of Tom's question is on the listener's experience with Anna, not on Anna's work history.
+Tom 問題的重點在於監聽器與 Anna 的互動經驗，而非 Anna 的工作經歷。
 
 ## --video-solution--
 

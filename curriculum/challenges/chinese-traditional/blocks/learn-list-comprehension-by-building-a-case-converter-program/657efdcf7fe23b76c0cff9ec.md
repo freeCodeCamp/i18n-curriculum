@@ -1,19 +1,19 @@
 ---
 id: 657efdcf7fe23b76c0cff9ec
-title: 步驟 7
+title: 第 7 步
 challengeType: 20
 dashedName: step-7
 ---
 
 # --description--
 
-You need to handle the characters that are already in lowercase by adding them to the list of converted characters.
+你需要處理已經是小寫的字元，將它們添加到已轉換字元的列表中。
 
-Right after the `if` statement within the `for` loop, add an `else` clause and use the `.append()` method to add `char` to the `snake_cased_char_list` variable.
+在 `for` 迴圈中緊接著 `if` 述語後，為你的程式碼添加一個 `else` 語句，並使用 `.append()` 方法將 `char` 添加到 `snake_cased_char_list` 變數。
 
 # --hints--
 
-You should add an `else` clause inside the `for` loop. Don't forget the colon at the end.
+你應該在 `for` 迴圈內添加一個 `else` 語句。別忘了在結尾加上冒號。
 
 ```js
 ({
@@ -27,7 +27,7 @@ You should add an `else` clause inside the `for` loop. Don't forget the colon at
 })
 ```
 
-You should use the `.append()` method to add `char` to the `snake_cased_char_list` variable.
+你應該使用 `.append()` 方法，為你的 `snake_cased_char_list` 變數添加 `char`。
 
 ```js
 ({

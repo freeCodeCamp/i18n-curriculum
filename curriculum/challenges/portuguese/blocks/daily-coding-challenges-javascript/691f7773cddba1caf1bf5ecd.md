@@ -14,7 +14,7 @@ Dado um valor em dinheiro que você tem e um array de itens que você quer compr
 
 Use as seguintes taxas de câmbio para converter valores:
 
-|Moeda|1 Unidade equivale|
+|Currency|1 Unit Equals|
 |-|-|
 |USD|1.00 USD|
 |EUR|1.10 USD|
@@ -22,8 +22,8 @@ Use as seguintes taxas de câmbio para converter valores:
 |JPY|0.0070 USD|
 |CAD|0.75 USD|
 
-- Se você puder pagar por todos os itens da lista, retorne `"Buy them all!"`.
-- Caso contrário, retorne `"Buy the first X items."`, onde `X` é o número de itens que você pode pagar quando comprados na ordem dada.
+- Se você puder pagar todos os itens da lista, retorne `"Buy them all!"`.
+- Caso contrário, retorne `"Buy the first X items."`, onde `X` é o número de itens que você pode pagar ao comprá-los na ordem dada.
 
 # --hints--
 

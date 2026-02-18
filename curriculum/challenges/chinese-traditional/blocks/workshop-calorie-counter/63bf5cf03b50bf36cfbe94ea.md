@@ -7,25 +7,25 @@ dashedName: step-39
 
 # --description--
 
-Now that you have finished testing the value of `entryDropdown.value`, you can remove the `console.log` statement.
+既然你已經完成測試 `entryDropdown.value` 的值，你可以移除 `console.log` 述語。 
 
-Your next step is to allow users to add entries to the calorie counter. Declare an empty function `addEntry`. This function should not take any parameters.
+你的下一步是允許使用者為熱量計數器添加條目。宣告一個空的函式 `addEntry`。此函式不應接受任何參數。
 
 # --hints--
 
-You should remove the `console.log` statement.
+你應該移除 `console.log` 述語。
 
 ```js
 assert.notMatch(code, /console\.log\s*\(.*\)/)
 ```
 
-You should declare an `addEntry` function.
+你應該宣告一個 `addEntry` 函式（程式）。
 
 ```js
 assert.isFunction(addEntry);
 ```
 
-Your `addEntry` function should not take any parameters.
+你的 `addEntry` 函式（程式）不應該帶有任何參數。
 
 ```js
 assert.match(addEntry?.toString(), /\(\s*\)/);

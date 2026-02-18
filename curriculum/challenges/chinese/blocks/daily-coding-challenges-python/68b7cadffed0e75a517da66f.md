@@ -1,20 +1,20 @@
 ---
 id: 68b7cadffed0e75a517da66f
-title: "Challenge 50: Longest Word"
+title: "挑战 50：最长单词"
 challengeType: 29
 dashedName: challenge-50
 ---
 
 # --description--
 
-Given a sentence, return the longest word in the sentence.
+给定一个句子，返回句子中最长的单词。
 
-- Ignore periods (`.`) when determining word length.
-- If multiple words are ties for the longest, return the first one that occurs.
+- 忽略句号（`.`）来确定单词长度。
+- 如果多个单词并列为最长，返回第一个出现的那个。
 
 # --hints--
 
-`get_longest_word("coding is fun")` should return `"coding"`.
+`get_longest_word("coding is fun")` 应该返回 `"coding"`。
 
 ```js
 ({test: () => { runPython(`
@@ -23,7 +23,7 @@ TestCase().assertEqual(get_longest_word("coding is fun"), "coding")`)
 }})
 ```
 
-`get_longest_word("Coding challenges are fun and educational.")` should return `"educational"`.
+`get_longest_word("Coding challenges are fun and educational.")` 应该返回 `"educational"`。
 
 ```js
 ({test: () => { runPython(`
@@ -32,7 +32,7 @@ TestCase().assertEqual(get_longest_word("Coding challenges are fun and education
 }})
 ```
 
-`get_longest_word("This sentence has multiple long words.")` should return `"sentence"`.
+`get_longest_word("This sentence has multiple long words.")` 应该返回 `"sentence"`。
 
 ```js
 ({test: () => { runPython(`

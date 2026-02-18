@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c443eddfaeb5bdef
-title: Build a Voting App
+title: 建置一個投票應用程式
 challengeType: 4
 forumTopicId: 302359
 dashedName: build-a-voting-app
@@ -8,27 +8,27 @@ dashedName: build-a-voting-app
 
 # --description--
 
-Build a full stack JavaScript app that is functionally similar to this: <a href="https://voting-app.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://voting-app.freecodecamp.rocks/</a>. Use a site builder of your choice to complete the project.
+建置一個功能上類似於此的全端 JavaScript 應用程式：<a href="https://voting-app.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://voting-app.freecodecamp.rocks/</a>。使用你選擇的網站建置工具來完成此專案。
 
-Here are the specific user stories you should implement for this project:
+以下是你應該為此專案實作的具體使用者故事：
 
-**User Story:** As an authenticated user, you can keep my polls and come back later to access them.
+**使用者故事：** 作為已驗證的使用者，你可以保留我的輪詢並稍後回來存取它們。
 
-**User Story:** As an authenticated user, you can share my polls with my friends.
+**使用者故事：** 作為已驗證的使用者，你可以將我的輪詢分享給我的朋友。
 
-**User Story:** As an authenticated user, you can see the aggregate results of my polls.
+**使用者故事：** 作為已驗證的使用者，你可以看到我的輪詢的彙總結果。
 
-**User Story:** As an authenticated user, you can delete polls that I decide I don't want anymore.
+**使用者故事：** 作為已驗證的使用者，你可以刪除我決定不再需要的輪詢。
 
-**User Story:** As an authenticated user, you can create a poll with any number of possible items.
+**使用者故事：** 作為已驗證的使用者，你可以創建一個包含任意數量可能條款的輪詢。
 
-**User Story:** As an unauthenticated or authenticated user, you can see and vote on everyone's polls.
+**使用者故事：** 作為未驗證或已驗證的使用者，你可以查看並投票給所有人的輪詢。
 
-**User Story:** As an unauthenticated or authenticated user, you can see the results of polls in chart form. (This could be implemented using Chart.js or Google Charts.)
+**使用者故事：** 作為未驗證或已驗證的使用者，你可以以圖表形式查看輪詢結果。（這可以使用 Chart.js 或 Google Charts 來實作。）
 
-**User Story:** As an authenticated user, if you don't like the options on a poll, you can create a new option.
+**使用者故事：** 作為已驗證的使用者，如果你不喜歡輪詢上的選項，你可以創建新的選項。
 
-When you are done, make sure a working demo of your project is hosted somewhere public. Then submit the URL to it in the Solution Link field. Optionally, also submit a link to your project's source code in the GitHub Link field.
+完成後，請確保你的專案有一個可運作的示範公開託管在某處。然後在 Solution Link 欄位提交其 URL。選填地，也可在 GitHub Link 欄位提交你的專案原始碼的連結。
 
 # --solutions--
 

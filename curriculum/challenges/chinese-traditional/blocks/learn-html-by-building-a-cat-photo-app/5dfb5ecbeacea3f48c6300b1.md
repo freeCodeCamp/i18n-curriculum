@@ -1,15 +1,15 @@
 ---
 id: 5dfb5ecbeacea3f48c6300b1
-title: 步驟 23
+title: 第 23 步
 challengeType: 0
 dashedName: step-23
 ---
 
 # --description--
 
-`li` 元素用於在有序或無序列表中創建列表項。
+`li` 元素用於在有序或無序列表中創建列表項目。
 
-這是一個無序列表中列表項的示例：
+以下是無序列表中列表項目的範例：
 
 ```html
 <ul>
@@ -18,24 +18,24 @@ dashedName: step-23
 </ul>
 ```
 
-在 `ul` 元素中嵌套三個列表項來顯示貓喜歡的三樣東西：
+在 `ul` 元素中巢狀三個列表項目以顯示貓咪喜歡的三樣東西：
 
 `catnip`
 
 `laser pointers`
 
-`lasagna`
+`lasagna` 
 
 # --hints--
 
-你應該有三個 `li` 元素。 每個 `li` 元素都應該有自己的開始和結束標籤。
+你應該有三個 `li` 元素。每個 `li` 元素都應該有自己的開啟和關閉標籤。
 
 ```js
 assert.lengthOf(document.querySelectorAll('li'),3)
 assert.lengthOf(code.match(/<\/li\>/g),3);
 ```
 
-你應該有三個 `li` 元素，可按任意順序包含文本 `catnip`、`laser pointers` 和 `lasagna`。 你要麼遺漏了某些文本，要麼拼寫有誤。
+你應該有三個帶有 `catnip`、`laser pointers` 和 `lasagna` 文字的 `li` 元素，順序不限。你要麼遺漏了一些文字，要麼有拼寫錯誤。
 
 ```js
 assert.deepStrictEqual(
@@ -46,7 +46,7 @@ assert.deepStrictEqual(
 );
 ```
 
-三個 `li` 元素應位於 `ul` 元素的開始和結束標籤之間。
+三個 `li` 元素應該位於 `ul` 元素的開啟與關閉標籤之間。
 
 ```js
 assert(
@@ -76,7 +76,7 @@ assert(
         <h3>Things cats love:</h3>
 --fcc-editable-region--
         <ul>
-
+          
         </ul>
 --fcc-editable-region--
       </section>

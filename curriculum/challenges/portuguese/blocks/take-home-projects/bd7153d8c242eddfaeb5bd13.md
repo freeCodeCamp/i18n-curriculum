@@ -10,9 +10,9 @@ dashedName: build-a-roguelike-dungeon-crawler-game
 
 **Objetivo:** Construir um app que seja funcionalmente semelhante a este: <a href="https://codepen.io/freeCodeCamp/full/apLXEJ/" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/apLXEJ/</a>.
 
-Atenda às histórias de usuário abaixo e faça com que todos os testes passem.Use quaisquer bibliotecas ou APIs de que você precisar.Dê ao projeto o seu próprio estilo pessoal.
+Atenda às histórias de usuário abaixo e faça com que todos os testes passem. Use quaisquer bibliotecas ou APIs de que você precisar. Dê ao projeto o seu próprio estilo pessoal.
 
-**User Story:** Eu tenho health, um level e uma weapon.Eu posso pegar uma arma melhor.Eu posso pegar itens de saúde.
+**User Story:** Eu tenho health, um level e uma weapon. Eu posso pegar uma arma melhor. Eu posso pegar itens de saúde.
 
 **História do Usuário:** Todos os itens e inimigos no mapa são organizados aleatoriamente.
 
@@ -20,11 +20,11 @@ Atenda às histórias de usuário abaixo e faça com que todos os testes passem.
 
 **História do Usuário:** Posso me mover para qualquer lugar dentro dos limites do mapa, mas não posso passar por um inimigo até derrotá-lo.
 
-**História do Usuário:** Grande parte do mapa está oculta.Quando eu dou um passo, todos os espaços que estão dentro de uma certa distância ao meu redor meus são revelados.
+**História do Usuário:** Grande parte do mapa está oculta. Quando eu dou um passo, todos os espaços que estão dentro de uma certa distância ao meu redor meus são revelados.
 
 **História do Usuário:** Quando eu derroto um inimigo, o inimigo desaparece e eu ganho XP, que eventualmente aumenta meu nível.
 
-**História do Usuário:** Quando eu luto contra um inimigo, nós nos revezamos causando dano um ao outro até que um de nós perca.Eu causo dano baseado no meu nível e na minha arma.O inimigo causa dano baseado em seu nível.O dano é, de certo modo, aleatório dentro de um intervalo.
+**História do Usuário:** Quando eu luto contra um inimigo, nós nos revezamos causando dano um ao outro até que um de nós perca. Eu causo dano baseado no meu nível e na minha arma. O inimigo causa dano baseado em seu nível. O dano é, de certo modo, aleatório dentro de um intervalo.
 
 **História do Usuário:** Quando eu encontrar e derrotar o chefe, eu ganho.
 

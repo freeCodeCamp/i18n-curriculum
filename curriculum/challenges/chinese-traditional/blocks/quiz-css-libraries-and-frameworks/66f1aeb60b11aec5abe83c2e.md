@@ -1,13 +1,13 @@
 ---
 id: 66f1aeb60b11aec5abe83c2e
-title: CSS Libraries and Frameworks Quiz
+title: CSS 函式庫與框架測驗
 challengeType: 8
 dashedName: quiz-css-libraries-and-frameworks
 ---
 
 # --description--
 
-要通過測驗，你必須正確回答以下 10 道題中的至少 9 題。
+要通過測驗，你必須正確回答以下 10 題中的至少 9 題。
 
 # --quizzes--
 
@@ -17,41 +17,41 @@ dashedName: quiz-css-libraries-and-frameworks
 
 #### --text--
 
-What is a CSS framework?
+什麼是 CSS 框架？
 
 #### --distractors--
 
-A tool to fix CSS errors.
+一個用來修正 CSS 錯誤的工具。
 
 ---
 
-A tool to lint CSS files.
+一個用於檢查 CSS `files` 的工具。
 
 ---
 
-A formatter for CSS files.
+CSS 檔案的格式化工具。
 
 #### --answer--
 
-A library for CSS styles.
+一個用於 CSS 樣式的函式庫、程式庫。
 
 ### --question--
 
 #### --text--
 
-Which of the following is a popular utility-first CSS framework?
+以下哪一項是流行的以實用工具為先的 CSS 框架？
 
 #### --distractors--
 
-Template CSS
+模板 CSS
 
 ---
 
-Loading CSS
+載入 CSS
 
 ---
 
-Minimal CSS
+最小化 CSS
 
 #### --answer--
 
@@ -61,73 +61,73 @@ Tailwind CSS
 
 #### --text--
 
-What is a disadvantage of CSS frameworks?
+CSS 框架的缺點是什麼？
 
 #### --distractors--
 
-Too few components.
+組件太少。
 
 ---
 
-No customization options.
+沒有訂製選項。
 
 ---
 
-Improved browser support.
+改進的瀏覽器支援。
 
 #### --answer--
 
-Can bloat CSS files.
+可能會使 CSS 檔案膨脹。
 
 ### --question--
 
 #### --text--
 
-What does SCSS stand for?
+SCSS 代表什麼？
 
 #### --distractors--
 
-Super Cascading Style Sheets.
+超級串接樣式表。
 
 ---
 
-Structured CSS.
+結構化 CSS。
 
 ---
 
-Simple CSS.
+簡單的 CSS。
 
 #### --answer--
 
-Sassy CSS.
+Sassy CSS。
 
 ### --question--
 
 #### --text--
 
-Which of the following is a feature of Sass?
+以下哪一項是 Sass 的特性？
 
 #### --distractors--
 
-Comments
+註解
 
 ---
 
-CSS linting.
+CSS 程式碼檢查。
 
 ---
 
-Inline CSS.
+行內 CSS。
 
 #### --answer--
 
-Mixins
+混入物
 
 ### --question--
 
 #### --text--
 
-Which of the following is the correct way to use utility classes in Tailwind CSS?
+以下哪一項是使用 Tailwind CSS 中工具類別的正確方式？
 
 #### --distractors--
 
@@ -167,29 +167,29 @@ Which of the following is the correct way to use utility classes in Tailwind CSS
 
 #### --text--
 
-What are the two types of CSS frameworks?
+CSS 框架的兩種型別是什麼？
 
 #### --distractors--
 
-Tablet first CSS frameworks and Component-based CSS frameworks.
+平板優先 CSS 框架和基於組件的 CSS 框架。
 
 ---
 
-Utility-first CSS frameworks and Lazy loading CSS frameworks.
+以實用為先的 CSS 框架和延遲載入 CSS 框架。
 
 ---
 
-Minimal CSS frameworks and Utility-first CSS frameworks.
+極簡 CSS 框架和實用優先 CSS 框架。
 
 #### --answer--
 
-Utility-first CSS frameworks and Component-based CSS frameworks.
+以實用為先的 CSS 框架和基於組件的 CSS 框架。
 
 ### --question--
 
 #### --text--
 
-What is the file extension for SCSS?
+SCSS 的副檔名是什麼？
 
 #### --distractors--
 
@@ -211,7 +211,7 @@ What is the file extension for SCSS?
 
 #### --text--
 
-Which of the following is the correct way to define a variable in SCSS?
+以下哪一種方式是在 SCSS 中定義 `variable` 的正確方法？
 
 #### --distractors--
 
@@ -257,7 +257,7 @@ header {
 
 #### --text--
 
-Which of the following is the correct way to define a mixin?
+以下哪一種是定義 mixin 的正確方式？
 
 #### --distractors--
 

@@ -12,9 +12,9 @@ dashedName: build-a-wikipedia-viewer
 
 O software MediaWiki auxilia a Wikipédia a recolher e organizar o conhecimento e disponibilizá-lo às pessoas.
 
-Usando a API MediaWiki, replique a função de pesquisa e a função de artigos aleatórios, semelhante ao aplicativo do exemplo acima.Você pode usar a Wikipédia como fonte de dados.
+Usando a API MediaWiki, replique a função de pesquisa e a função de artigos aleatórios, semelhante ao aplicativo do exemplo acima. Você pode usar a Wikipédia como fonte de dados.
 
-Atenda às histórias de usuário abaixo e faça com que todos os testes passem.Use quaisquer bibliotecas ou APIs de que você precisar.Dê ao projeto o seu próprio estilo pessoal.
+Atenda às histórias de usuário abaixo e faça com que todos os testes passem. Use quaisquer bibliotecas ou APIs de que você precisar. Dê ao projeto o seu próprio estilo pessoal.
 
 **História do Usuário:** Posso pesquisar entradas da Wikipedia em uma caixa de busca e ver as entradas da Wikipedia resultantes.
 

@@ -1,6 +1,6 @@
 ---
 id: 65a4f2c2d1bbdfbe82cb3fdd
-title: Task 94
+title: 任务 94
 challengeType: 22
 dashedName: task-94
 lang: en-US
@@ -10,11 +10,11 @@ lang: en-US
 
 # --description--
 
-A `gadget` is a small tool or device, often clever or novel, that performs a specific function or makes something easier.
+`gadget` 是一种小型工具或设备，通常巧妙或新颖，能够执行特定的函数或使某事更容易。 
 
-In tech, gadgets can include things like smartphones, smartwatches, or any cool, innovative electronic device.
+在技术领域，小工具可以包括智能手机、智能手表或任何酷炫的创新电子设备。 
 
-For example, `My new fitness tracker gadget helps me keep track of my steps and exercise.`
+例如，`My new fitness tracker gadget helps me keep track of my steps and exercise.`
 
 # --fillInTheBlank--
 
@@ -28,7 +28,7 @@ For example, `My new fitness tracker gadget helps me keep track of my steps and 
 
 ### --feedback--
 
-This word means something causes a feeling or a reaction. Here, it's used to talk about what excites Bob about tech. It's conjugated in the third person singular.
+这个词的意思是某事引起一种感觉或反应。在这里，它用来描述是什么让 Bob 对技术感到兴奋。它以第三人称单数形式变化。
 
 ---
 
@@ -36,7 +36,7 @@ This word means something causes a feeling or a reaction. Here, it's used to tal
 
 ### --feedback--
 
-This word is used to point out specific things that are being talked about, in this case, the gadgets. Plural of `that`.
+这个词用于指出正在讨论的特定事物，在本分支中是指小工具。`that` 的复数形式。
 
 ---
 
@@ -44,7 +44,7 @@ This word is used to point out specific things that are being talked about, in t
 
 ### --feedback--
 
-This word refers to small electronic devices or tools that are useful or interesting. It's often used to talk about cool tech items. It is in plural.
+这个词指的是有用或有趣的小型电子设备或工具。它通常用来谈论很酷的技术项。它是复数形式。
 
 # --scene--
 

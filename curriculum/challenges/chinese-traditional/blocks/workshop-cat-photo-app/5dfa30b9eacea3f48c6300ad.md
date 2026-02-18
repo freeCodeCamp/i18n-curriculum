@@ -1,15 +1,15 @@
 ---
 id: 5dfa30b9eacea3f48c6300ad
-title: 步驟 17
+title: 第 17 步
 challengeType: 0
 dashedName: step-17
 ---
 
 # --description--
 
-在之前的步驟中，你使用錨元素將文本轉換爲鏈接。 其他類型的內容也可以通過將其包裹在錨標籤中來轉換爲鏈接。
+在先前的步驟中，你使用了錨點元素將文字轉換成聯結。其他類型的內容也可以透過將其包裹在錨點標籤中來轉換成聯結。 
 
-這是一個將圖像轉換爲鏈接的示例：
+以下是將影像轉換為聯結的範例：
 
 ```html
 <a href="example-link">
@@ -17,11 +17,11 @@ dashedName: step-17
 </a>
 ```
 
-通過使用必要的元素標籤將圖像轉換爲鏈接。 使用 `https://freecatphotoapp.com` 作爲錨元素的 `href` 屬性的值。
+將影像包圍在必要的元素標記中，將其轉換為聯結。使用 `https://freecatphotoapp.com` 作為錨點的 `href` 屬性值。
 
 # --hints--
 
-你應該有一個 `img` 元素，其 `src` 值爲 `https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg`。 你可能不小心刪除了它。
+你應該有一個 `img` 元素，其 `src` 值為 `https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg`。你可能不小心刪除了它。
 
 ```js
 assert.equal(
@@ -30,37 +30,37 @@ assert.equal(
 );
 ```
 
-你的錨元素（`a`）應該有一個開始標籤。 開始標籤的語法爲：`<elementName>`。
+你的錨點（`a`）元素應該有一個開啟標籤。開啟標籤具有此語法：`<elementName>`。
 
 ```js
 assert.isAtLeast(document.querySelectorAll('a').length, 3);
 ```
 
-你在圖像之後缺少一個結束（`a`）標籤。
+你在影像後面遺漏了關閉的 (`a`) 頁籤。
 
 ```js
 assert.lengthOf(document.querySelectorAll('a'), 3);
 ```
 
-你的錨元素（`a`）應該有一個結束標籤。 結束標籤在 `<` 字符之後有一個 `/`。
+你的錨點（`a`）元素應該有一個結束標籤。結束標籤在 `<` 字元後面緊接著有一個 `/`。
 
 ```js
 assert.isAtLeast(code.match(/<\/a>/g)?.length, 3);
 ```
 
-你應該只添加一個結束錨（`a`）標籤。 請刪除任何多餘的。
+你應該只添加一個關閉的錨點（`a`）標籤。請移除任何多餘的標籤。
 
 ```js
 assert.lengthOf(code.match(/<\/a>/g), 3);
 ```
 
-你的錨元素（`a`）缺少 `href` 屬性。 檢查開始標籤的名稱後面是否有空格和/或所有屬性名稱之前是否有空格。
+你的錨點（`a`）元素沒有 `href` 屬性。請檢查開啟標籤名稱後是否有空格和／或所有屬性名稱前是否有空格。
 
 ```js
 assert.isTrue(document.querySelectorAll('a')[2]?.hasAttribute('href'));
 ```
 
-你的錨元素（`a`）應該鏈接到 `https://freecatphotoapp.com`。 你要麼遺漏了 URL，要麼拼寫有誤。
+你的錨點（`a`）元素應該要連結到 `https://freecatphotoapp.com`。你要麼遺漏了 URL，要麼有拼寫錯誤。
 
 ```js
 assert.equal(
@@ -69,7 +69,7 @@ assert.equal(
 );
 ```
 
-你的 `img` 元素應該被嵌套在錨元素（`a`）之中。 整個 `img` 元素應該位於錨元素（`a`）的開始和結束標籤內。
+你的 `img` 元素應該巢狀在錨點（`a`）元素內。整個 `img` 元素應該位於錨點（`a`）元素的開啟和關閉標籤之間。
 
 ```js
 assert.equal(document.querySelector('img')?.parentNode.nodeName, 'A');

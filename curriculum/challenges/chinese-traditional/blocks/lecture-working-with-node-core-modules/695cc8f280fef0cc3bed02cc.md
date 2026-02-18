@@ -1,34 +1,34 @@
 ---
 id: 695cc8f280fef0cc3bed02cc
-title: What Is the Stream Module and How Does It Work?
+title: 什麼是 `Stream` 模組以及它如何運作？
 challengeType: 19
 dashedName: what-is-the-stream-module-and-how-does-it-work
 ---
 
 # --description--
 
-The last core Node.js module we'll look at is `stream`. This module helps you handle data efficiently, especially when the data is too large to load all at once, like reading a big text file or downloading a large video.
+我們將要看的最後一個核心 Node.js 模組是 `stream`。這個模組幫助你高效地控制代碼，特別是在資料過大無法一次載入時，例如讀取大型程式本文檔或下載大型影片。
 
-Instead of waiting to read or write all the data before doing anything, streams process chunks of data as they arrive, similar to how you can start watching a YouTube video before the whole video finishes loading.
+串流會在資料塊抵達時即時處理，而不是等到讀取或寫入所有資料後才開始，就像你可以在整個 YouTube 影片載入完成前就開始觀看一樣。
 
-There are four main types of streams in Node.js: readable, writable, duplex, and transform:
+Node.js 中有四種主要的資料流型別：可讀、可寫、雙工和轉換：
 
-- Readable streams let you read data in chunks (for example, reading a large file).
-- Writable streams let you write data in chunks (for example, saving a file).
-- Duplex streams can both read and write data.
-- Transform streams are a special kind of duplex stream that can change or process the data as it flows through.
+- Readable 資料流讓你以區塊方式讀取資料（例如，讀取大型檔案）。
+- 可寫入的 `streams` 讓你以區塊方式寫入 `data`（例如，儲存一個 `file`）。
+- 雙工資料流可以同時讀取和寫入資料。
+- Transform streams 是一種特殊的雙工資料流，可以在資料流經時改變或處理資料。
 
-You can import the stream classes you need by destructuring them from the stream module:
+你可以從 `stream` 模組中解構匯入你需要的資料流類別：
 
 ```js
 const { Readable, Writable, Transform } = require("stream");
 ```
 
-Most of the time, you don't need to create custom stream classes yourself. For everyday file operations, built-in methods like `fs.createReadStream()` and `fs.createWriteStream()` are usually all you need.
+大多數時候，你不需要自己創建訂製的資料流類別。對於日常的檔案操作，內建的 `fs.createReadStream()` 和 `fs.createWriteStream()` 方法通常已經足夠。
 
-These two methods take the path of the file to read or write. This means you also need the `fs` and `path` modules to implement streaming on many occasions.
+這兩個方法會接收要讀取或寫入的檔案路徑。這表示你在許多情況下也需要 `fs` 和 `path` 模組來實作串流。
 
-Here's how you can read data from a file, say an `input.txt` file:
+以下是你如何從一個檔案（例如 `input.txt` 檔案）讀取資料的方法：
 
 ```js
 const fs = require("fs");
@@ -41,7 +41,7 @@ const readInputFileStream = fs.createReadStream(inputFilePath);
 console.log(readInputFileStream);
 ```
 
-This will not do anything yet, as you need to use the events from the stream to read the data. For example, you can listen to the `data` event this way:
+這還不會有任何作用，因為你需要使用來自資料流的事件來讀取資料。 例如，你可以用這種方式監聽 `data` 事件：
 
 ```js
 readInputFileStream.on("data", (chunk) => {
@@ -49,7 +49,7 @@ readInputFileStream.on("data", (chunk) => {
 }); // Received 622 bytes of data
 ```
 
-You can also log the chunk of data to the console:
+你也可以將這段 `data` 記錄到主控台：
 
 ```js
 readInputFileStream.on("data", (chunk) => {
@@ -65,7 +65,7 @@ Received data: <Buffer 4c 6f 72 65 6d 20 69 70 73 75 6d
 */
 ```
 
-Since it returns a buffer, you can call the `toString()` method to convert it into readable text:
+由於它傳回一個緩衝區，你可以呼叫 `toString()` 方法將它轉換成可讀取的文字：
 
 ```js
 const fs = require("fs");
@@ -93,7 +93,7 @@ eaque doloribus assumenda, minima fuga tempore, porro, debitis rem harum in
 */
 ```
 
-To implement a writable stream, particularly when you're reading from one file and writing to another, you need to create the read stream first, followed by the write stream:
+要實作可寫入的資料流，特別是當你從一個檔案讀取並寫入到另一個檔案時，你需要先創建讀取資料流，接著創建寫入資料流：
 
 ```js
 const fs = require("fs");
@@ -109,7 +109,7 @@ const readInputFileStream = fs.createReadStream(inputFilePath);
 const writeOutputFileStream = fs.createWriteStream(outputFilePath);
 ```
 
-Next, use the `.pipe()` method to connect the readable stream to the writable stream. This lets Node.js automatically read data from the source and write it to the destination, chunk by chunk:
+接著，使用 `.pipe()` 方法將可讀取的資料流連接到可寫入的資料流。這讓 Node.js 自動從原始碼讀取資料並逐塊寫入目的地：
 
 ```js
 const fs = require("fs");
@@ -128,7 +128,7 @@ const writeOutputFileStream = fs.createWriteStream(outputFilePath);
 readInputFileStream.pipe(writeOutputFileStream);
 ```
 
-Then you can listen for the `finish` and `error` events on the writable stream to know when the streaming is complete or if something goes wrong:
+然後你可以監聽可寫資料流上的 `finish` 和 `error` 事件，以知道何時串流完成或發生錯誤：
 
 ```js
 const fs = require("fs");
@@ -154,41 +154,41 @@ writeOutputFileStream.on("error", (err) => {
 });
 ```
 
-The `finish` event tells you that the stream is complete and there is no more data to write, while the error event helps you catch problems that might happen during writing, like permissions issues or missing directories.
+`finish` 事件告訴你資料流已完成且沒有更多資料可寫入，而錯誤事件則幫助你捕捉寫入過程中可能發生的問題，例如權限問題或目錄遺失。
 
 # --questions--
 
 ## --text--
 
-Which of these are the four main types of streams?
+這些哪四種是主要的資料流型別？
 
 ## --answers--
 
-Request, Response, Event, and Error streams.
+Request、Response、事件 和 Error 資料流。
 
 ### --feedback--
 
-Think about how Node.js handles reading, writing, and transforming data.
+思考 Node.js 如何控制代碼讀取、寫入和轉換資料。
 
 ---
 
-Readable, Editable, Duplex, and Transform streams.
+可讀、可編輯、雙工和轉換資料流。
 
 ### --feedback--
 
-Think about how Node.js handles reading, writing, and transforming data.
+思考 Node.js 如何控制代碼讀取、寫入和轉換資料。
 
 ---
 
-Data, File, HTTP, and Buffer streams.
+資料、檔案、HTTP 和 Buffer 資料流。
 
 ### --feedback--
 
-Think about how Node.js handles reading, writing, and transforming data.
+思考 Node.js 如何控制代碼讀取、寫入和轉換資料。
 
 ---
 
-Readable, Writable, Duplex, and Transform streams.
+Readable、Writable、Duplex 和 Transform 資料流。
 
 ## --video-solution--
 
@@ -196,35 +196,35 @@ Readable, Writable, Duplex, and Transform streams.
 
 ## --text--
 
-What lets you implement a custom readable and writable stream?
+什麼讓你能實作訂製的可讀和可寫資料流？
 
 ## --answers--
 
-The `stream` module using Readable and Writable classes.
+使用 Readable 和 Writable 類別的 `stream` 模組。
 
 ---
 
-The `http` module.
+`http` 模組。
 
 ### --feedback--
 
-Think about the module that provides base classes for creating custom streams.
+思考提供用於建立訂製資料流基礎類別的模組。
 
 ---
 
-The `fs` module using `createReadStream()` and `createWriteStream()`.
+使用 `createReadStream()` 和 `createWriteStream()` 的 `fs` 模組。
 
 ### --feedback--
 
-Think about how Node.js handles reading, writing, and transforming data.
+思考 Node.js 如何控制代碼讀取、寫入和轉換資料。
 
 ---
 
-The events module.
+`events` 模組。
 
 ### --feedback--
 
-Think about how Node.js handles reading, writing, and transforming data.
+思考 Node.js 如何控制代碼讀取、寫入和轉換資料。
 
 ## --video-solution--
 
@@ -232,35 +232,35 @@ Think about how Node.js handles reading, writing, and transforming data.
 
 ## --text--
 
-What events can you use on a writable stream to know when streaming completes or an error occurs?
+你可以在可寫入的 `stream` 上使用哪些 `event` 來知道何時串流完成或發生錯誤？
 
 ## --answers--
 
-`end` and `close`.
+`end` 和 `close`。
 
 ### --feedback--
 
-Think about the writable stream events that signal completion and failure.
+思考可寫入資料流的事件，這些事件用來表示完成和失敗的信號。
 
 ---
 
-`finish` and `error`.
+`finish` 和 `error`。
 
 ---
 
-`start` and `stop`.
+`start` 和 `stop`。
 
 ### --feedback--
 
-Think about the writable stream events that signal completion and failure.
+思考可寫入資料流的事件，這些事件用來表示完成和失敗的信號。
 
 ---
 
-`done` and `fail`.
+`done` 和 `fail`。
 
 ### --feedback--
 
-Think about the writable stream events that signal completion and failure.
+思考可寫入資料流的事件，這些事件用來表示完成和失敗的信號。
 
 ## --video-solution--
 

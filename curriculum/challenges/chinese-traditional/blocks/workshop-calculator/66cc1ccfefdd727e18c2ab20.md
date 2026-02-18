@@ -1,21 +1,21 @@
 ---
 id: 66cc1ccfefdd727e18c2ab20
-title: 步驟 14
+title: 第 14 步
 challengeType: 1
 dashedName: step-14
 ---
 
 # --description--
 
-Your `calculateQuotient` appears to be working correctly but there is one case that you have not tested yet.
+你的 `calculateQuotient` 似乎運作正常，但有一種情況你還沒有測試過。
 
-Add a `console.log` that calls the `calculateQuotient` function with the arguments `3` and `0`.
+為你的程式碼添加一個 `console.log`，該 `console.log` 呼叫 `calculateQuotient` 函式（程式），並帶入引數 `3` 和 `0`。
 
-Make sure to take a close look at the output of this call.
+請務必仔細檢查此 `call` 的輸出。
 
 # --hints--
 
-You should have a `console.log` that calls the `calculateQuotient` function with the arguments `3` and `0`.
+你應該有一個 `console.log`，它以引數 `3` 和 `0` 呼叫 `calculateQuotient` 函式（程式）。
 
 ```js
 assert.match(code, /console\.log\s*\(\s*calculateQuotient\s*\(\s*3\s*,\s*0\s*\)\s*\)\s*;?/);

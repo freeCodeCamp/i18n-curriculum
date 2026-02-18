@@ -7,9 +7,9 @@ dashedName: step-23
 
 # --description--
 
-Você está no caminho certo!No entanto, vamos dedicar um momento para abordar um problema comum ao trabalhar com objetos em JavaScript.
+Você está no caminho certo! No entanto, vamos dedicar um momento para abordar um problema comum ao trabalhar com objetos em JavaScript.
 
-Quando você tenta acessar uma propriedade de objeto que não existe, o JavaScript retorna `undefined`.Se você então tentar realizar operações aritméticas em `undefined`, isso pode levar a resultados inesperados, como `NaN`.
+Quando você tenta acessar uma propriedade de objeto que não existe, o JavaScript retorna `undefined`. Se você então tentar realizar operações aritméticas em `undefined`, isso pode levar a resultados inesperados, como `NaN`.
 
 Para evitar isso, você pode usar o operador `||` (logical OR) para fornecer um valor padrão.
 
@@ -22,7 +22,7 @@ Para evitar isso, você pode usar o operador `||` (logical OR) para fornecer um 
   });
 ```
 
-Agora, vamos aplicar esse conceito ao seu objeto `totalCountPerProduct` no callback `forEach`.Certifique-se de que cada propriedade `dessert.id` esteja inicializada corretamente.
+Agora, vamos aplicar esse conceito ao seu objeto `totalCountPerProduct` no callback `forEach`. Certifique-se de que cada propriedade `dessert.id` esteja inicializada corretamente.
 
 Inicialize `totalCountPerProduct[dessert.id]` com um valor padrão de `0` usando o operador `||`.
 

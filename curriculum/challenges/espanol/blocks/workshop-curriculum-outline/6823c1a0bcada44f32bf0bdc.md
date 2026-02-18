@@ -13,7 +13,7 @@ Un elemento `h1` es el encabezado principal de una página web y solo debes usar
 <h2>This is a subheading.</h2>
 ```
 
-Transforme el texto `Full Stack Curriculum` en un elemento `h2` rodeándolo con etiquetas de apertura y cierre `h2`.
+Convierte el texto `Full-Stack Curriculum` en un elemento `h2` rodeándolo con etiquetas `h2` de apertura y cierre.
 
 # --hints--
 
@@ -29,12 +29,12 @@ Tu elemento `h2` debe tener una etiqueta de cierre `</h2>`.
 assert.match(code, /<\/h2\s*\>/);
 ```
 
-Tu elemento `h2` debería verse así: `<h2>Full Stack Curriculum</h2>`.
+Tu elemento `h2` debería verse así: `<h2>Full-Stack Curriculum</h2>`.
 
 ```js
 // purposefully removing friction for early users to help improve retention in early lessons
 // this if very forgiving of spaces and casing
-assert.match(code, /\<h2\s*\>\s*Full\s*Stack\s*Curriculum\s*\<\/h2\s*\>/i);
+assert.match(code, /\<h2\s*\>\s*Full-Stack\s*Curriculum\s*\<\/h2\s*\>/i);
 ```
 
 # --seed--
@@ -44,6 +44,6 @@ assert.match(code, /\<h2\s*\>\s*Full\s*Stack\s*Curriculum\s*\<\/h2\s*\>/i);
 ```html
 <h1>Welcome to freeCodeCamp</h1>
 --fcc-editable-region--
-Full Stack Curriculum
+Full-Stack Curriculum
 --fcc-editable-region--
 ```

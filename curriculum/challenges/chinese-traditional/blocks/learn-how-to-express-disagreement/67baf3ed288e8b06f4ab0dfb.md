@@ -1,6 +1,6 @@
 ---
 id: 67baf3ed288e8b06f4ab0dfb
-title: Task 76
+title: 任務 76
 challengeType: 22
 dashedName: task-76
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+聆聽音訊並完成以下句子。
 
 # --fillInTheBlank--
 
@@ -22,23 +22,23 @@ Listen to the audio and complete the sentence below.
 
 `team spirit`
 
-### --feedback--
+### --feedback--  
 
-These two words together refer to the sense of unity and cooperation among coworkers. The first word refers to a group working together, and the second word relates to shared enthusiasm or motivation.
+這兩個字合起來指涉同事間的團結與合作感。第一個字指的是一個共同工作的群組，第二個字則與共同的熱忱或動力有關。
 
 ---
 
 `problem-solving`
 
-### --feedback--
+### --feedback--  
 
-This compound word refers to the process of finding solutions to challenges. The first part refers to an issue that needs to be fixed, and the second part is a verb meaning finding a solution. Remember to use `-` between the two parts.
+這個複合字指的是尋找挑戰解決方案的處理程序。第一個零件指的是需要修正的問題，第二個零件是一個表示尋找解決方案的動詞。請記得在兩個零件之間使用 `-`。
 
 # --explanation--
 
-David believes that working in the office helps strengthen `team spirit` (a sense of connection and unity among coworkers) and improves `problem-solving` (finding solutions to challenges more efficiently).
+David 認為在辦公室工作有助於強化 `team spirit`（同事間的連結與團結感）並提升 `problem-solving`（更高效地尋找挑戰的解決方案）。
 
-He argues that being in the same physical space makes it easier for employees to collaborate and support one another.
+他主張身處同一實體的空間讓員工更容易合作並互相支援。
 
 # --scene--
 

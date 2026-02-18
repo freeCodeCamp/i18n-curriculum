@@ -1,23 +1,23 @@
 ---
 id: 612e9f1e7e5ccd4fa9ada0be
-title: 步驟 15
+title: 第 15 步
 challengeType: 0
 dashedName: step-15
 ---
 
 # --description--
 
-Give the `.key` a `margin` of `2px` and a `float` property set to `left`.
+給 `.key` 一個 `2px` 的 `margin`，並將 `float` 屬性設為 `left`。
 
 # --hints--
 
-Your `.key` selector should have a `margin` property set to `2px`.
+你的 `.key` 選擇器應該設定 `margin` 屬性為 `2px`。
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('.key')?.margin, '2px');
 ```
 
-Your `.key` selector should have a `float` property set to `left`.
+你的 `.key` 選擇器應該有一個設定為 `left` 的 `float` 屬性。
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('.key')?.float, 'left');

@@ -1,13 +1,13 @@
 ---
 id: 66edc31c44f1b9c1d5c5ebca
-title: JavaScript Strings Quiz
+title: JavaScript 字串小測驗
 challengeType: 8
 dashedName: quiz-javascript-strings
 ---
 
 # --description--
 
-要通過測驗，你必須正確回答以下 20 道題中的至少 18 題。
+要通過測驗，你必須在以下 20 題中正確回答至少 18 題。
 
 # --quizzes--
 
@@ -17,29 +17,29 @@ dashedName: quiz-javascript-strings
 
 #### --text--
 
-What is the return value for the `includes()` method?
+`includes()` 方法的返回值是什麼？
 
 #### --distractors--
 
-If the substring is found within the string, the method returns the string. Otherwise, it returns `undefined`.
+如果在字串中找到子字串，該方法會傳回字串。否則，它會傳回 `undefined`。
 
 ---
 
-If the substring is found within the string, the method returns `true`. Otherwise, it returns an empty string.
+如果在字串中找到子字串，該方法會傳回 `true`。否則，會傳回空字串。
 
 ---
 
-If the substring is found within the string, the method returns the string. Otherwise, it returns `null`.
+如果在字串中找到子字串，該方法會傳回該字串。否則，會傳回 `null`。
 
 #### --answer--
 
-If the substring is found within the string, the method returns `true`. Otherwise, it returns `false`.
+如果在字串中找到子字串，該方法會傳回 `true`。否則，會傳回 `false`。
 
 ### --question--
 
 #### --text--
 
-Which option demonstrates string interpolation?
+哪個選項示範了字串插值？
 
 #### --distractors--
 
@@ -51,17 +51,17 @@ Which option demonstrates string interpolation?
 
 ---
 
-`` `Hello, {user}!` ``
+``Hello, {user}!``
 
 #### --answer--
 
-`` `Hello, ${user}!` ``
+``Hello, ${user}!``
 
 ### --question--
 
 #### --text--
 
-Which of the following options is the newline character?
+以下哪個選項是換行字元？
 
 #### --distractors--
 
@@ -83,51 +83,51 @@ Which of the following options is the newline character?
 
 #### --text--
 
-Which of the following statements is correct about strings?
+以下哪一個述語關於字串是正確的？
 
 #### --distractors--
 
-Strings are mutable and can be changed after they are created.
+字串是可變的，並且在創建後可以被更改。
 
 ---
 
-Strings are non primitive data types.
+字串是非原始資料型別。
 
 ---
 
-Strings can only be created using single quotes.
+字串只能使用單引號創建。
 
 #### --answer--
 
-Strings are immutable.
+字串是不可變的。
 
 ### --question--
 
 #### --text--
 
-What does ASCII stand for?
+ASCII 是什麼縮寫？
 
 #### --distractors--
 
-American Standard Code for Internet Information
+美國標準網際網路資訊交換碼
 
 ---
 
-Advanced Systematic Code for Internal Interchange
+進階系統化程式碼用於內部交換
 
 ---
 
-Automatic Standard Code for Internal Information
+內部資訊自動標準程式碼
 
 #### --answer--
 
-American Standard Code for Information Interchange
+美國資訊交換標準碼
 
 ### --question--
 
 #### --text--
 
-Which of the following methods extracts a portion of a string and returns a new string?
+以下哪一個方法會擷取字串的一部分並傳回新的字串？
 
 #### --distractors--
 
@@ -149,29 +149,29 @@ Which of the following methods extracts a portion of a string and returns a new 
 
 #### --text--
 
-What is the purpose of the `prompt()` method?
+`prompt()` 方法的目的為何？
 
 #### --distractors--
 
-It displays a message in the console.
+它會在主控台顯示一則訊息。
 
 ---
 
-It displays an alert box with a message.
+它會顯示一個帶有訊息的警示框。
 
 ---
 
-It displays a confirmation box with a message.
+它會顯示一個帶有訊息的確認框。
 
 #### --answer--
 
-It displays a dialog box that waits for the user input.
+它會顯示一個等待使用者輸入的對話盒。
 
 ### --question--
 
 #### --text--
 
-Which of the following is the correct way to access the third character of a string?
+以下哪一種方式是正確的用來存取字串的第三個字元？
 
 #### --distractors--
 
@@ -205,7 +205,7 @@ developer[2];
 
 #### --text--
 
-How can you obtain the ASCII value of the first character in the string `"hello"`?
+你如何取得字串 `"hello"` 中第一個字元的 ASCII 值？
 
 #### --distractors--
 
@@ -227,7 +227,7 @@ How can you obtain the ASCII value of the first character in the string `"hello"
 
 #### --text--
 
-Which method can you use to obtain the character corresponding to an ASCII value?
+你可以使用哪種方法來取得對應於 ASCII 值的字元？
 
 #### --distractors--
 
@@ -249,7 +249,7 @@ Which method can you use to obtain the character corresponding to an ASCII value
 
 #### --text--
 
-Which of the following `indexOf` examples will log `-1` to the console?
+以下哪個 `indexOf` 範例會在主控台記錄 `-1`？
 
 #### --distractors--
 
@@ -283,7 +283,7 @@ console.log(organization.indexOf("c"));
 
 #### --text--
 
-How can you check if the string `"JavaScript"` contains `"Script"`?
+你如何檢查字串 `"JavaScript"` 是否包含 `"Script"`？
 
 #### --distractors--
 
@@ -305,7 +305,7 @@ How can you check if the string `"JavaScript"` contains `"Script"`?
 
 #### --text--
 
-Which of the following extracts the substring `"Script"` from the string `"JavaScript"`?
+以下哪一項從字串 `"JavaScript"` 中擷取出子字串 `"Script"`？
 
 #### --distractors--
 
@@ -327,7 +327,7 @@ Which of the following extracts the substring `"Script"` from the string `"JavaS
 
 #### --text--
 
-How do you convert the string `"JavaScript"` to uppercase?
+你如何將字串 `"JavaScript"` 轉換成大寫？
 
 #### --distractors--
 
@@ -349,7 +349,7 @@ How do you convert the string `"JavaScript"` to uppercase?
 
 #### --text--
 
-How do you convert the string `"JavaScript"` to lowercase?
+你如何將字串 `"JavaScript"` 轉換為小寫？
 
 #### --distractors--
 
@@ -371,7 +371,7 @@ How do you convert the string `"JavaScript"` to lowercase?
 
 #### --text--
 
-Which of the following will replace `"dogs"` with `"cats"` in the string `"I love dogs"`.
+以下哪一項會在字串 `"I love dogs"` 中將 `"dogs"` 取代為 `"cats"`。
 
 #### --distractors--
 
@@ -393,7 +393,7 @@ Which of the following will replace `"dogs"` with `"cats"` in the string `"I lov
 
 #### --text--
 
-Which method is used to repeat a string a specified number of times?
+哪一個方法用於重複字串指定的次數？
 
 #### --distractors--
 
@@ -415,7 +415,7 @@ Which method is used to repeat a string a specified number of times?
 
 #### --text--
 
-What will the following code return: `"abc".repeat(3)`?
+以下程式碼會傳回什麼：`"abc".repeat(3)`？
 
 #### --distractors--
 
@@ -427,7 +427,7 @@ What will the following code return: `"abc".repeat(3)`?
 
 ---
 
-It will throw an error.
+它會發出錯誤。
 
 #### --answer--
 
@@ -437,7 +437,7 @@ It will throw an error.
 
 #### --text--
 
-Which method will remove whitespace from the beginning and end of a string?
+哪一個方法會移除字串開頭和結尾的空白？
 
 #### --distractors--
 
@@ -459,7 +459,7 @@ Which method will remove whitespace from the beginning and end of a string?
 
 #### --text--
 
-Which of the following is the correct syntax for escaping quotes?
+以下哪一項是正確的跳脫引號 `syntax`？
 
 #### --distractors--
 

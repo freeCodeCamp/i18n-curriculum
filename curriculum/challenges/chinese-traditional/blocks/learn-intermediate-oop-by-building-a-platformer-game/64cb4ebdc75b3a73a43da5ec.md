@@ -7,39 +7,39 @@ dashedName: step-108
 
 # --description--
 
-創建一個 `if` 語句，檢查 `isCheckpointCollisionDetectionActive` 是否爲真。
+創建一個 `if` 述語來檢查 `isCheckpointCollisionDetectionActive` 是否為 true。
 
-在 `if` 語句中，添加一個 `setTimeout()`，它接受一個回調函數和 2000 毫秒的延遲。
+在 `if` 述語內，為你的程式碼添加一個 `setTimeout()`，該函式接受一個回呼函式和 2000 毫秒的延遲時間。
 
-對於回調函數，應該將 `checkpointScreen` `style.display` 屬性設置爲 `"none"`。
+對於回呼函式（程式），它應該將 `checkpointScreen` 的 `style.display` 屬性設定為 `"none"`。
 
 # --hints--
 
-你應該有一個 `if` 語句來檢查 `isCheckpointCollisionDetectionActive` 是否爲真。
+你應該有一個 `if` 述語來檢查 `isCheckpointCollisionDetectionActive` 是否為 true。
 
 ```js
 assert.match(code, /\s*if\s*\(\s*isCheckpointCollisionDetectionActive\s*\)\s*{/s);
 ```
 
-你應該在 `if` 語句內有一個 `setTimeout()` 函數。
+你應該在 `if` 述語內有一個 `setTimeout()` 函式（程式）。
 
 ```js
 assert.match(code, /\s*if\s*\(\s*isCheckpointCollisionDetectionActive\s*\)\s*{\s*setTimeout\s*\(/s);
 ```
 
-你的 `setTimeout()` 函數應該有一個回調函數作爲第一個參數。
+你的 `setTimeout()` 函式（程式）應該將回呼函式作為第一個引數。
 
 ```js
 assert.match(code, /\s*setTimeout\s*\(\s*\(\s*\)\s*=>/s);
 ```
 
-你的 `setTimeout()` 函數應該將 2000 毫秒的延遲作爲第二個參數。
+你的 `setTimeout()` 函式（程式）的第二個引數應該是 2000 毫秒的延遲時間。
 
 ```js
 assert.match(code, /\s*setTimeout\s*\(\s*\(\s*\)\s*=>[^,]*,\s*2000\s*\)/s);
 ```
 
-你的回調函數應該將 `checkpointScreen` `style.display` 屬性設置爲 `"none"`。
+你的回呼函式（程式）應該將 `checkpointScreen` 的 `style.display` 屬性設為 `"none"`。
 
 ```js
 assert.match(code, /\s*if\s*\(\s*isCheckpointCollisionDetectionActive\s*\)\s*{\s*setTimeout\s*\(\s*\(\s*\)\s*=>\s*(\(\s*checkpointScreen\.style\.display\s*=\s*("|')none\2\s*\)|\{\s*checkpointScreen\.style\.display\s*=\s*("|')none\3\s*;?\s*\}|\s*checkpointScreen\.style\.display\s*=\s*("|')none\4\s*)\s*,\s*2000\s*\)\s*;?\s*}/s);

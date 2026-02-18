@@ -1,6 +1,6 @@
 ---
 id: 67cadf5ea48ca37df972fac6
-title: Task 124
+title: 任務 124
 challengeType: 19
 dashedName: task-124
 lang: en-US
@@ -10,51 +10,51 @@ lang: en-US
 
 # --instructions--
 
-聽音頻，回答下面的問題。
+聆聽音訊並回答以下問題。  
 
 # --questions--
 
 ## --text--
 
-What does Maria mention as the most important request from the team?
+Maria 提到團隊最重要的請求是什麼？  
 
 ## --answers--
 
-They need more help.
+他們需要更多幫助。  
 
 ---
 
-They want a longer deadline.
+他們想要更長的截止期限。  
 
 ### --feedback--
 
-Maria does not mention extending the deadline.
+Maria 沒有提到延長截止日期。
 
 ---
 
-They would like to reduce the number of tasks.
+他們想要減少任務數量。
 
 ### --feedback--
 
-Maria does not mention reducing the number of tasks.
+Maria 沒有提到減少任務數量。  
 
 ---
 
-They are asking for more meetings.
+他們要求更多會議。  
 
 ### --feedback--
 
-Maria does not mention additional meetings.
+Maria 沒有提到額外的會議。
 
 ## --video-solution--
 
-1
+1  
 
 # --explanation--
 
-`First` is used when you want to number actions in order of importance or time. In this case, Maria is listing what the team needs, starting with what seems to be the most important request (having more support). Another example:
+`First` 用於你想依重要性或時間順序編號動作時。在這個例子中，Maria 正在列出團隊所需的項目，從看似最重要的請求（獲得更多支援）開始。另一個例子：
 
-`First, we should analyze the problem. Then, we can discuss solutions.` - This means analyzing the problem comes before anything else.
+`First, we should analyze the problem. Then, we can discuss solutions.`－這表示分析問題必須在其他任何事情之前進行。
 
 # --scene--
 

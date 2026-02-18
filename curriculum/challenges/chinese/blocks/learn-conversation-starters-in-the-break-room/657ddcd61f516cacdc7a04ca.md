@@ -1,6 +1,6 @@
 ---
 id: 657ddcd61f516cacdc7a04ca
-title: Task 128
+title: 任务 128
 challengeType: 19
 dashedName: task-128
 lang: en-US
@@ -10,45 +10,45 @@ lang: en-US
 
 # --description--
 
-Maria informs Tom about public transportation options, specifically mentioning a transportation that stops nearby. This is important for getting around the city, especially to places that are not within walking distance.
+Maria 向 Tom 介绍了公共交通选项，特别提到了一个在附近停靠的交通工具。这对于在城市中出行非常重要，尤其是去那些步行无法到达的地方。
 
-`Two blocks away` means that you need to walk past two street corners to get to a place. It's a short walk in a city.
+`Two blocks away` 意味着你需要经过两个街角才能到达某个地方。这在城市中是一个很短的步行距离。
 
-`Downtown` is the heart of a city where there are many shops, restaurants, and usually tall buildings.
+`Downtown` 是城市的中心，有许多商店、餐馆，通常还有高层建筑。
 
 # --questions--
 
 ## --text--
 
-What does Maria say stops two blocks away?
+Maria 说什么会在两个块外停止？
 
 ## --answers--
 
-A taxi
+一辆出租车
 
 ### --feedback--
 
-Maria mentions a public transportation option, not a private service.
+Maria 提到的是公共交通选项，而不是私人服务。
 
 ---
 
-A train
+一列火车
 
 ### --feedback--
 
-Trains don't typically stop at blocks; they stop at stations.
+列车通常不会在块上停靠；它们在车站停靠。
 
 ---
 
-A bus
+一条总线
 
 ---
 
-A bicycle rental
+自行车租赁
 
 ### --feedback--
 
-Rentals are usually stationary services, not something that stops.
+租赁通常是固定服务，而不是会停止的东西。
 
 ## --video-solution--
 

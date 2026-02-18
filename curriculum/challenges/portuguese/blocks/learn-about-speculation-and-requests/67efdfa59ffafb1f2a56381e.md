@@ -3,6 +3,7 @@ id: 67efdfa59ffafb1f2a56381e
 title: Tarefa 55
 challengeType: 19
 dashedName: task-55
+showSpeakingButton: true
 lang: en-US
 ---
 
@@ -24,9 +25,17 @@ Jake não se importa de discutir um problema com Jessica. O que ele pode dizer?
 
 `Sure, Jessica.`
 
+### --audio-id--
+
+en-b1-67efdfa59ffafb1f2a56381e-SP1
+
 ---
 
 `I'm too busy right now.`
+
+### --audio-id--
+
+en-b1-67efdfa59ffafb1f2a56381e-SP2
 
 ### --feedback--
 

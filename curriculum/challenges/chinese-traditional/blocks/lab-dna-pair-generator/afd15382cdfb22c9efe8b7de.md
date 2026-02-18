@@ -1,46 +1,46 @@
 ---
 id: afd15382cdfb22c9efe8b7de
-title: Implement a DNA Pair Generator
+title: 實作一個 DNA 配對產生器
 challengeType: 26
 dashedName: implement-a-dna-pair-generator
 ---
 
 # --description--
 
-In the double helix of the DNA, the bases are always paired together: if on one strand there is an <em>A</em> base, on the other strand directly in front there is a <em>T</em> base, the other pair is <em>C</em> and <em>G</em>.
+在 DNA 的雙螺旋中，鹼基總是成對組合：如果在一條鏈上有一個 <em>A</em> 鹼基，則在正對面的另一條鏈上有一個 <em>T</em> 鹼基，另一對組合是 <em>C</em> 和 <em>G</em>。
 
-In this lab, you will write a function to match the missing base pairs for the provided DNA strand. For each character in the provided string, find the base pair character.
+在本實驗中，你將撰寫一個函式，為提供的 DNA 鍵配對缺失的鹼基。對於提供的字串中的每個字元，尋找對應的鹼基配對字元。
 
-For example, for the input `ATCG`, return `[["A", "T"], ["T", "A"], ["C", "G"], ["G", "C"]]`
+例如，對於輸入 `ATCG`，傳回 `[["A", "T"], ["T", "A"], ["C", "G"], ["G", "C"]]`
 
-The <em>A</em> base gets paired with a <em>T</em> base, the <em>T</em> base is paired with a <em>A</em> base, the <em>C</em> is paired with the <em>G</em> base, and finally the <em>G</em> base is paired with a <em>C</em> base.
+<em>A</em> 鹼基與 <em>T</em> 鹼基配對、對組，<em>T</em> 鹼基與 <em>A</em> 鹼基配對、對組，<em>C</em> 與 <em>G</em> 鹼基配對、對組，最後 <em>G</em> 鹼基與 <em>C</em> 鹼基配對、對組。
 
-**Objective**: Fulfill the user stories below and get all the tests to pass to complete the lab.
+**目標**：完成以下使用者故事並通過所有測試以完成實驗。
 
-**User Stories:**
+**使用者故事：**
 
-1. You should have a `pairElement` function that takes a string of any length as an argument.
-1. The `pairElement` function should return a 2d array, where each inner array has two strings inside, the first string is one base from the input, and the second string the paired base.
-1. When given `A`, the function should pair it with `T`.
-1. When given `T`, the function should pair it with `A`.
-1. When given `C`, the function should pair it with `G`.
-1. When given `G`, the function should pair it with `C`.
+1. 你應該有一個 `pairElement` 函式（程式），它接受任意長度的字串作為引數。
+1. `pairElement` 函式（程式）應該傳回一個二維陣列，其中每個內部陣列包含兩個字串，第一個字串是輸入中的一個鹼基，第二個字串是配對的鹼基。
+1. 當給定 `A` 時，該函式應將它與 `T` 配對。
+1. 當給定 `T` 時，該函式應將它與 `A` 配對。
+1. 當給定 `C` 時，該函式（程式）應將它與 `G` 配對。
+1. 當給定 `G` 時，該函式（程式）應將它與 `C` 配對。
 
 # --hints--
 
-You should create a function named `pairElement`.
+你應該創建一個名為 `pairElement` 的函式（程式）。
 
 ```js
 assert.isFunction(pairElement);
 ```
 
-`pairElement` should take a single argument.
+`pairElement` 應該接受單一引數。
 
 ```js
 assert.lengthOf(pairElement, 1);
 ```
 
-`pairElement("ATCGA")` should return `[["A","T"],["T","A"],["C","G"],["G","C"],["A","T"]]`.
+`pairElement("ATCGA")` 應該傳回 `[["A","T"],["T","A"],["C","G"],["G","C"],["A","T"]]`。
 
 ```js
 assert.deepEqual(pairElement('ATCGA'), [
@@ -52,7 +52,7 @@ assert.deepEqual(pairElement('ATCGA'), [
 ]);
 ```
 
-`pairElement("TTGAG")` should return `[["T","A"],["T","A"],["G","C"],["A","T"],["G","C"]]`.
+`pairElement("TTGAG")` 應該傳回 `[["T","A"],["T","A"],["G","C"],["A","T"],["G","C"]]`。
 
 ```js
 assert.deepEqual(pairElement('TTGAG'), [
@@ -64,7 +64,7 @@ assert.deepEqual(pairElement('TTGAG'), [
 ]);
 ```
 
-`pairElement("CTCTA")` should return `[["C","G"],["T","A"],["C","G"],["T","A"],["A","T"]]`.
+`pairElement("CTCTA")` 應該傳回 `[["C","G"],["T","A"],["C","G"],["T","A"],["A","T"]]`。
 
 ```js
 assert.deepEqual(pairElement('CTCTA'), [

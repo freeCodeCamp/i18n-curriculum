@@ -7,29 +7,29 @@ dashedName: step-31
 
 # --description--
 
-在你剛剛添加的 `figure` 元素中，嵌套一個 `img` 元素， `src` 屬性設置爲 `https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg`。
+在你剛剛添加的 `figure` 元素內，巢狀一個 `img` 元素，其 `src` 屬性設定為 `https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg`。
 
 # --hints--
 
-你的第二個 `figure` 元素應該有一個開始標籤。 開始標籤的語法爲：`<elementName>`。
+你的第二個 `figure` 元素應該有一個開啟標籤。開啟標籤具有此語法：`<elementName>`。
 
 ```js
 assert.isAtLeast(document.querySelectorAll('figure').length, 2);
 ```
 
-你的第二個 `figure` 元素應該有一個結束標籤。 結束標籤在 `<` 字符之後有一個 `/`。
+你的第二個 `figure` 元素應該有一個結束標籤。結束標籤在 `<` 字元後面緊接著有一個 `/`。
 
 ```js
 assert.isAtLeast(code.match(/<\/figure>/g)?.length, 2);
 ```
 
-在第二個 `section` 元素的結束標籤上方應該有一個 `figure` 元素。 你把它們的順序寫錯了。
+第二個 `section` 元素的結束標籤正上方應該有第二個 `figure` 元素。你將它們的順序弄錯了。
 
 ```js
 assert.equal(document.querySelectorAll('main > section')[1]?.lastElementChild.nodeName, 'FIGURE');
 ```
 
-你應該在 `figure` 元素中嵌套第三個 `img` 元素。
+你應該在 `figure` 元素中巢狀第三個 `img` 元素。
 
 ```js
 const catsImg = document.querySelectorAll('figure > img')[1];
@@ -38,7 +38,7 @@ assert.exists(
 );
 ```
 
-第三張圖像應該有一個設置爲 `https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg` 的 `src` 屬性。
+第三張影像應該有一個 `src` 屬性設定為 `https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg`。
 
 ```js
 const catsImg = document.querySelectorAll('figure > img')[1];
@@ -47,7 +47,7 @@ assert.equal(
 );
 ```
 
-雖然你已將新圖像的 `src` 設置爲正確的 URL，但建議始終將屬性的值用引號括起來。
+雖然你已將新影像的 `src` 設定為正確的 URL，但建議始終用引號將屬性的值括起來。
 
 ```js
 assert.notMatch(code, /\<img\s+.+\s+src\s*=\s*https:\/\/cdn\.freecodecamp\.org\/curriculum\/cat-photo-app\/cats\.jpg/);
@@ -88,7 +88,7 @@ assert.notMatch(code, /\<img\s+.+\s+src\s*=\s*https:\/\/cdn\.freecodecamp\.org\/
         </ol>
         <figure>
 --fcc-editable-region--
-
+          
 --fcc-editable-region--
         </figure>
       </section>

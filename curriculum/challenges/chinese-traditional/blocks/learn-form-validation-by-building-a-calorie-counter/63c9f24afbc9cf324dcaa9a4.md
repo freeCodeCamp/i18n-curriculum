@@ -7,19 +7,19 @@ dashedName: step-95
 
 # --description--
 
-你還需要清除 `output` 元素的文本。 你可以通過將 `innerText` 屬性設置爲空字符串來實現此目的。
+你也需要清除 `output` 元素的文字。你可以透過將 `innerText` 屬性設為空字串來完成這個動作。
 
-`innerText` 和 `innerHTML` 的區別在於 `innerText` 不會呈現 HTML 元素，而是將標籤和內容顯示爲原始文本。
+`innerText` 和 `innerHTML` 的差別在於 `innerText` 不會呈現 HTML 元素，而是將標記和內容以未經處理的文字顯示。
 
 # --hints--
 
-你的 `clearForm` 函數應該訪問 `output` 元素的 `innerText` 屬性。
+你的 `clearForm` 函式（程式）應該存取 `output` 元素的 `innerText` 屬性。
 
 ```js
 assert.match(clearForm.toString(), /output\.innerText/);
 ```
 
-你的 `clearForm` 函數應該將 `output` 元素的 `innerText` 屬性設置爲空字符串。
+你的 `clearForm` 函式（程式）應該將 `output` 元素的 `innerText` 屬性設為空字串。
 
 ```js
 assert.match(clearForm.toString(), /output\.innerText\s*=\s*('|"|`)\1/);

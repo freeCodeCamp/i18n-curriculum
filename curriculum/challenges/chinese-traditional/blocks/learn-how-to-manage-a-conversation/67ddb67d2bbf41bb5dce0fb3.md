@@ -1,6 +1,6 @@
 ---
 id: 67ddb67d2bbf41bb5dce0fb3
-title: Task 36
+title: 任務 36
 challengeType: 19
 dashedName: task-36
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-聽音頻，回答下面的問題。
+聆聽音訊並回答以下問題。
 
 # --questions--
 
 ## --text--
 
-What can we conclude from James's answer?
+我們可以從 James 的回答中得出什麼結論？
 
 ## --answers--
 
-He needs to solve a problem first.
+他需要先解決一個問題。
 
 ### --feedback--
 
-James does not say anything about another issue.
+James 沒有說任何關於另一個問題的事情。
 
 ---
 
-He is ending the conversation in a friendly way.
+他正以友善的方式結束對話。
 
 ---
 
-He wants to schedule a meeting now.
+他現在想要排程一個會議。
 
 ### --feedback--
 
-There's no mention of scheduling anything.
+沒有提到排程任何事情。
 
 ---
 
-He is asking for more help.
+他正在尋求更多幫助。
 
 ### --feedback--
 
-James is not making a request.
+James 並未提出請求。
 
 ## --video-solution--
 
@@ -52,9 +52,9 @@ James is not making a request.
 
 # --explanation--
 
-In conversation, you often omit words when the meaning is clear. In `Talk to you later`, the subject `I'll` (contraction of `I will`) is left out. The full sentence would be `I'll talk to you later`. This kind of omission is common in casual speech. Another example:
+在對話中，當意思清楚時，你經常會省略字詞。在 `Talk to you later` 中，主詞 `I'll`（`I will` 的縮寫）被省略了。完整句子應該是 `I'll talk to you later`。這種省略在口語中很常見。另一個例子：
 
-`See you tomorrow!` - This is a shorter way of saying `I'll see you tomorrow`.
+`See you tomorrow!`－這是說 `I'll see you tomorrow` 的較簡短方式。
 
 # --scene--
 

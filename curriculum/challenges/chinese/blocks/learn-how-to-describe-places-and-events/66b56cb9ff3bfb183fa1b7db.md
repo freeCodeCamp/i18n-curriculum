@@ -1,6 +1,6 @@
 ---
 id: 66b56cb9ff3bfb183fa1b7db
-title: Task 83
+title: 任务 83
 challengeType: 22
 dashedName: task-83
 lang: en-US
@@ -24,7 +24,7 @@ lang: en-US
 
 ### --feedback--
 
-This word is used to specify the module that is currently being discussed.
+这个词用于指定当前正在讨论的模块。
 
 ---
 
@@ -32,7 +32,7 @@ This word is used to specify the module that is currently being discussed.
 
 ### --feedback--
 
-Something recent.
+最近的事情。
 
 ---
 
@@ -40,15 +40,15 @@ Something recent.
 
 ### --feedback--
 
-A specific part or section of the training program.
+训练程序的特定部分或章节。
 
 # --explanation--
 
-`Module` refers to a unit or section of a course or training program. 例如：
+`Module` 指课程或培训程序的一个单元或部分。例如：
 
-- `The new module on cybersecurity will be added next week.` - Here, `module` refers to a specific part of the training focused on cybersecurity.
+- 下周将添加关于网络安全性的 `module`。这里，`module` 指的是专注于网络安全性的培训的特定部分。
 
-Pay attention to how the words `this`, `new`, and `module` are used. `This` is used to specify the module they are talking about, `new` shows that it's a recent addition, and `module` refers to a section of the training.
+注意 `this`、`new` 和 `module` 这几个词的用法。`This` 用于指定他们正在讨论的模块，`new` 表示这是一个新添加的内容，`module` 指的是培训的一个部分。
 
 # --scene--
 

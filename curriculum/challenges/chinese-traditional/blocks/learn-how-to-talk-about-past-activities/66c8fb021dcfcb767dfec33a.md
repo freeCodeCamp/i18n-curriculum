@@ -1,6 +1,6 @@
 ---
 id: 66c8fb021dcfcb767dfec33a
-title: Task 16
+title: 任務 16
 challengeType: 19
 dashedName: task-16
 lang: en-US
@@ -10,53 +10,53 @@ lang: en-US
 
 # --instructions--
 
-聽音頻，回答下面的問題。
+聆聽音訊並回答以下問題。
 
 # --questions--
 
 ## --text--
 
-Which statement below is true?
+以下哪個述語是正確的？
 
 ## --answers--
 
-They have never fixed any issues like this before.
+他們以前從未修復過類似這樣的問題。
 
 ### --feedback--
 
-Think about whether Linda mentions any experience with similar issues.
+想想看 Linda 是否提到過任何類似問題的經驗。
 
 ---
 
-They have already fixed this exact issue on another project.
+他們已經在另一個專案中修正了這個完全相同的問題。
 
 ### --feedback--
 
-Consider whether Linda says they have experience with this specific issue or something similar.
+考慮 Linda 是否表示他們有處理這個特定問題或類似問題的經驗。
 
 ---
 
-They haven't fixed this exact issue, but they have fixed similar ones before.
+他們還沒有修正這個確切的問題，但他們之前修正過類似的問題。
 
 ---
 
-They have fixed this issue many times before.
+他們之前已經修正過這個問題很多次了。
 
 ### --feedback--
 
-Reflect on whether Linda is talking about having fixed this exact issue or something similar.
-
+反思 Linda 是否在談論已經修復這個確切的問題或類似的問題。
+  
 ## --video-solution--
 
 3
 
 # --explanation--
 
-To find the correct answer, focus on whether Linda is talking about fixing the `exact issue` or `similar issues`.
+要找到正確答案，請專注於 Linda 是否在談論修復 `exact issue` 或 `similar issues`。 
 
-Linda makes it clear that they haven't fixed this exact problem before, but she also mentions that they have solved similar issues in the past.
+Linda 清楚表示他們以前沒有解決過這個確切的問題，但她也提到他們過去曾經解決過類似的問題。 
 
-The correct answer should show this balance—acknowledging no exact match but confirming past experience with related problems.
+正確答案應該顯示這種平衡——承認沒有完全匹配，但確認過去有相關問題的經驗。
 
 # --scene--
 

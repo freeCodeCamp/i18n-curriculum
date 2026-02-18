@@ -7,7 +7,7 @@ dashedName: step-22
 
 # --description--
 
-Use o método `.forEach()` para percorrer o array `items`.Passe uma função de callback vazia que recebe um único parâmetro `dessert`.
+Use o método `.forEach()` para percorrer o array `items`. Passe uma função de callback vazia que recebe um único parâmetro `dessert`.
 
 # --hints--
 

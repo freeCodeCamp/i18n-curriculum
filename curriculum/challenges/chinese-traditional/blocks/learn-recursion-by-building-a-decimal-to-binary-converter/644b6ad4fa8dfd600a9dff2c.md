@@ -1,31 +1,31 @@
 ---
 id: 644b6ad4fa8dfd600a9dff2c
-title: 步驟 25
+title: 第 25 步
 challengeType: 0
 dashedName: step-25
 ---
 
 # --description--
 
-要在 JavaScript 中對數字進行除法，請使用除法運算符 (`/`)。 舉個例子：
+要在 JavaScript 中除以數字，請使用除法運算子（`/`）。例如：
 
 ```js
 const quotient = 5 / 2; // 2.5
 ```
 
-在上面的例子中，`5` 是 <dfn>被除數</dfn>，即要被除的數，而 `2` 是 <dfn>除數</dfn>，即要除以的數。 結果 `2.5` 被稱爲<dfn>商</dfn>。
+在上述範例中，`5` 是 <dfn>被除數</dfn>，也就是要被除的數字，而 `2` 是 <dfn>除數</dfn>，也就是用來除的數字。結果 `2.5` 稱為 <dfn>商</dfn>。 
 
-在 `while` 循環內，創建一個名爲 `quotient` 的變量，並將 `input` 除以 `2` 的值賦給它。
+在你的 `while` 迴圈內，創建一個名為 `quotient` 的變數，並將其指定為 `input` 除以 `2` 的值。
 
 # --hints--
 
-你應該在 `while` 循環內創建一個名爲 `quotient` 的變量。
+你應該在你的 `while` 迴圈內創建一個名為 `quotient` 的變數。
 
 ```js
 assert.match(code, /while\s*\(\s*input\s*>\s*0\s*\)\s*\{\s*(var|let|const)\s+quotient\s*=/);
 ```
 
-你應該將 `input` 的值除以 `2`，然後賦值給 `quotient`。
+你應該將 `quotient` 指定為 `input` 除以 2 的值。
 
 ```js
 assert.match(String(decimalToBinary), /(var|let|const)\s+quotient\s*=\s*input\s*\/\s*2\s*/);

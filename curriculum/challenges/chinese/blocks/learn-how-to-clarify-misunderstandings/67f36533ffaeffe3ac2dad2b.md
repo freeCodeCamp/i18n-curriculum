@@ -1,6 +1,6 @@
 ---
 id: 67f36533ffaeffe3ac2dad2b
-title: Task 131
+title: 任务 131
 challengeType: 19
 dashedName: task-131
 lang: en-US
@@ -16,35 +16,35 @@ lang: en-US
 
 ## --text--
 
-What is Jessica explaining?
+Jessica 在解释什么？
 
 ## --answers--
 
-There was a problem with the current update's schedule.
+当前更新的调度出现了问题。
 
 ### --feedback--
 
-Jessica is talking about the feature's timing, not the schedule of the update itself.
+Jessica 说的是该特色的时间安排，而不是更新本身的调度。
 
 ---
 
-The budget tracking feature will be in the next update, not the current one.
+预算跟踪 `feature` 将在下一个更新中推出，而不是当前版本。
 
 ---
 
-The budget tracking feature has been removed from the current update.
+预算跟踪 `feature` 已从当前更新中移除。
 
 ### --feedback--
 
-Jessica doesn't mention that the feature has been removed.
+Jessica 没有提到该特色已被移除。
 
 ---
 
-The feature was mistakenly included in this update.
+该特色被错误地包含在此更新中。
 
 ### --feedback--
 
-Jessica doesn't say the feature was mistakenly included.
+Jessica 没有说该特色是错误包含的。
 
 ## --video-solution--
 
@@ -52,9 +52,9 @@ Jessica doesn't say the feature was mistakenly included.
 
 # --explanation--
 
-Jessica says, `The budget tracking feature is planned for the next update`, explaining that the feature is not included in the current update but will be added in the next one.
+Jessica 说，`The budget tracking feature is planned for the next update`，解释该特色不包含在当前更新中，但会在下一次更新中添加。
 
-This clears up the confusion about the feature's timing.
+这消除了关于该特色时机的混淆。
 
 # --scene--
 

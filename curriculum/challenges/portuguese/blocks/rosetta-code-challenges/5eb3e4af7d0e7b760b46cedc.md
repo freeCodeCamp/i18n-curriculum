@@ -15,7 +15,7 @@ Dado dois conjuntos de itens, se algum item for comum a qualquer conjunto, entã
   <li>The single set that is the union of the two input sets if they share a common item.</li>
 </ul>
 
-Given N sets of items where N > 2 then the result is the same as repeatedly replacing all combinations of two sets by their consolidation until no further consolidation between set pairs is possible. If N &lt; 2 then consolidation has no strict meaning and the input can be returned.
+Dados N conjuntos de itens em que N > 2, o resultado é o mesmo que substituir repetidamente todas as combinações de dois conjuntos por sua consolidação até que nenhuma consolidação adicional entre os pares de conjuntos seja possível. Se N &lt; 2, a consolidação não terá nenhum significado estrito e a entrada pode ser retornada.
 
 Aqui estão alguns exemplos:
 
@@ -29,7 +29,7 @@ Dado os dois conjuntos `{A,B}` e `{B,D}` então há um elemento comum `B` entre 
 
 **Exemplo 3:**
 
-Dados os três conjuntos `{A,B}`, `{C,D}` e `{D,B}` não há elemento comum entre os conjuntos `{A,B}` e `{C,D}`, mas os conjuntos `{A,B}` e `{D,B}` compartilham um elemento comum que é consolidado, produzindo o resultado `{B,D,A}`.Ao analisar este resultado com o conjunto restante, `{C,D}`, eles compartilham um elemento comum e assim são consolidados na saída final do conjunto único `{A,B,C,D}`
+Dados os três conjuntos `{A,B}`, `{C,D}` e `{D,B}` não há elemento comum entre os conjuntos `{A,B}` e `{C,D}`, mas os conjuntos `{A,B}` e `{D,B}` compartilham um elemento comum que é consolidado, produzindo o resultado `{B,D,A}`. Ao analisar este resultado com o conjunto restante, `{C,D}`, eles compartilham um elemento comum e assim são consolidados na saída final do conjunto único `{A,B,C,D}`
 
 **Exemplo 4:**
 
@@ -43,7 +43,7 @@ São os dois conjuntos:
 
 # --instructions--
 
-Escreva uma função que receba um array de strings como parâmetro.Cada string representa um conjunto com os caracteres que representam os elementos do conjunto.A função deve retornar um array 2D contendo os conjuntos consolidados.Observação: cada conjunto deve ser ordenado.
+Escreva uma função que receba um array de strings como parâmetro. Cada string representa um conjunto com os caracteres que representam os elementos do conjunto. A função deve retornar um array 2D contendo os conjuntos consolidados. Observação: cada conjunto deve ser ordenado.
 
 # --hints--
 

@@ -11,7 +11,7 @@ dashedName: step-23
 
 # --hints--
 
-你的 `.cat-left-ear` 选择器应该具有一个 `position` 属性，设置为 `absolute`。 不要忘记加上分号。
+你的 `.cat-left-ear` 选择器应该具有一个 `position` 属性，设置为 `absolute`。
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('.cat-left-ear')?.position, 'absolute')
@@ -83,7 +83,7 @@ body {
 
 --fcc-editable-region--
 .cat-left-ear {
-
+  
   border-left: 35px solid transparent;
   border-right: 35px solid transparent;
   border-bottom: 70px solid #5e5e5e;

@@ -10,7 +10,7 @@ dashedName: step-12
 在 for 循环内部，计算从 `low` 到 `high` 区间的中点。 将此值分配给变量 `mid`。
 
 另外，计算中点的平方（`mid`）并将其存储在变量 `square_mid` 中。
-
+    
 # --hints--
 
 你应该删除 `pass` 关键字。
@@ -20,7 +20,7 @@ dashedName: step-12
     test: () => 
     {
         assert.isFalse(runPython(`_Node(_code).find_function("square_root_bisection").find_ifs()[1].find_bodies()[2].find_for_loops()[0].find_bodies()[0].has_pass()`))
-
+        
     }
 
 })
@@ -34,11 +34,11 @@ dashedName: step-12
     test: () => 
     {
         assert(runPython(`
-    node = _Node(_code).find_function("square_root_bisection").find_ifs()[1].find_bodies()[2].find_for_loops()[0].find_bodies()[0].find_variable("mid")
-    values = ["mid = (low + high) / 2", "mid = (high + low) / 2"]
-    any(node.is_equivalent(val) for val in values)
-    `))
-
+	node = _Node(_code).find_function("square_root_bisection").find_ifs()[1].find_bodies()[2].find_for_loops()[0].find_bodies()[0].find_variable("mid")
+	values = ["mid = (low + high) / 2", "mid = (high + low) / 2"]
+	any(node.is_equivalent(val) for val in values)
+	`))
+        
     }
 
 })
@@ -69,7 +69,7 @@ def square_root_bisection(square_target, tolerance=1e-7, max_iterations=100):
         low = 0
         high = max(1, square_target)
         root = None
-
+        
 --fcc-editable-region--
         for _ in range(max_iterations):
             pass

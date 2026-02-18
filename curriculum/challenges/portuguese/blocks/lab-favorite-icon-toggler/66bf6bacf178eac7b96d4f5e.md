@@ -8,7 +8,7 @@ demoType: onClick
 
 # --description--
 
-Neste laboratório, você usará eventos de clique em JavaScript para alternar a aparência de um ícone favorito.Quando o ícone de coração é clicado, a aparência do coração muda de vazio para preenchido, e vice-versa.
+Neste laboratório, você usará eventos de clique em JavaScript para alternar a aparência de um ícone favorito. Quando o ícone de coração é clicado, a aparência do coração muda de vazio para preenchido, e vice-versa.
 
 **Objetivo:** Cumprir as user stories abaixo e fazer todos os testes passarem para completar o laboratório.
 

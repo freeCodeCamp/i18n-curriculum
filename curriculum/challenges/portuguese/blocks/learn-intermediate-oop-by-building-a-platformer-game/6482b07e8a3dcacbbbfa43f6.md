@@ -7,7 +7,7 @@ dashedName: step-9
 
 # --description--
 
-No jogo, o jogador terá a oportunidade de atravessar diferentes checkpoints.Você precisará acompanhar o status para a detecção de colisão do checkpoint.
+No jogo, o jogador terá a oportunidade de atravessar diferentes checkpoints. Você precisará acompanhar o status para a detecção de colisão do checkpoint.
 
 Use `let` para criar uma nova variável chamada `isCheckpointCollisionDetectionActive` e atribuir a ela o valor `true`. 
 

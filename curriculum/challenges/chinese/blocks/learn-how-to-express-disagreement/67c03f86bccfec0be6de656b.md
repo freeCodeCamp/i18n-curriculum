@@ -1,6 +1,6 @@
 ---
 id: 67c03f86bccfec0be6de656b
-title: Task 113
+title: 任务 113
 challengeType: 19
 dashedName: task-113
 lang: en-US
@@ -16,35 +16,35 @@ lang: en-US
 
 ## --text--
 
-What is Anna communicating?
+Anna 在传达什么？
 
 ## --answers--
 
-She completely disagrees with Bob and rejects his concern.
+她完全不同意 Bob 的观点并拒绝他的担忧。
 
 ### --feedback--
 
-Anna acknowledges Bob's point before giving her own opinion.
+Anna 在发表自己的观点之前，认可了 Bob 的观点。
 
 ---
 
-She understands Bob's concern but still thinks flexibility is a better option.
+她理解 Bob 的担忧，但仍然认为灵活性是更好的选项。
 
 ---
 
-She does not understand Bob's concern.
+她不理解 Bob 的担忧。
 
 ### --feedback--
 
-Anna understands Bob's argument.
+Anna 理解 Bob 的参数。
 
 ---
 
-She agrees with Bob and changes her mind.
+她同意 Bob 的观点并改变了主意。
 
 ### --feedback--
 
-Anna does not fully agree with Bob.
+Anna 并不完全同意 Bob。
 
 ## --video-solution--
 
@@ -52,9 +52,9 @@ Anna does not fully agree with Bob.
 
 # --explanation--
 
-Anna uses `I see your point, but` to show that she understands Bob's concern while presenting a different opinion.
+Anna 使用 `I see your point, but` 来表示她理解 Bob 的担忧，同时提出不同的观点。
 
-She believes that flexibility is a better solution than sticking with one category.
+她认为灵活性比坚持单一类别是更好的方案。
 
 # --scene--
 

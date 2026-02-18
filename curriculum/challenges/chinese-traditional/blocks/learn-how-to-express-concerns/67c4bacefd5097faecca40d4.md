@@ -1,6 +1,6 @@
 ---
 id: 67c4bacefd5097faecca40d4
-title: Task 22
+title: 任務 22
 challengeType: 19
 dashedName: task-22
 lang: en-US
@@ -10,51 +10,51 @@ lang: en-US
 
 # --instructions--
 
-聽音頻，回答下面的問題。
+聆聽音訊並回答以下問題。
 
 # --questions--
 
 ## --text--
 
-What does Bob want to know?
+Bob 想知道什麼？  
 
 ## --answers--
 
-If they should cancel the project.
+如果他們應該取消專案。  
 
 ### --feedback--
 
-Bob is not asking about canceling the project.
+Bob 並不是在詢問取消專案的事。  
 
 ---
 
-If working fewer hours would be better.
+如果工作較少小時會更好。  
 
 ### --feedback--
 
-Bob is suggesting working more hours, not fewer.
+Bob 建議工作更多小時，而不是更少。  
 
 ---
 
-If the team has already solved the issue.
+如果團隊已經解決該問題。  
 
 ### --feedback--
 
-Bob is asking if his suggestion will help, not if the issue is already solved.
+Bob 正在詢問他的建議是否有幫助，而不是問題是否已經解決。  
 
 ---
 
-If working extra hours will improve the situation.
+如果加班會改善情況。  
 
 ## --video-solution--
 
-4
+4  
 
 # --explanation--
 
-Using negatives in questions with auxiliary or modal verbs (such as `wouldn't`, `isn't`, `doesn't`), which require direct `yes`/`no` answers, suggests that the speaker expects the answer to be positive — Bob assumes, in this case, that working extra hours will help. Another example:
+在使用帶有助動詞或情態動詞（例如 `wouldn't`、`isn't`、`doesn't`）的否定疑問句時，這類疑問句需要直接的 `yes`/`no` 回答，表示說話者預期答案為肯定——在此情況下，Bob 假設加班會有幫助。另一個例子：
 
-`Doesn't this plan seem like a good idea?` - The speaker expects the listener to agree that the plan is good.
+`Doesn't this plan seem like a good idea?`－說話者期望聽者同意這個計畫是好的。
 
 # --scene--
 

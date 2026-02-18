@@ -1,6 +1,6 @@
 ---
 id: 67caefddb5ddbc2cfc69bc6e
-title: Task 38
+title: 任务 38
 challengeType: 22
 dashedName: task-38
 lang: en-US
@@ -24,13 +24,13 @@ lang: en-US
 
 ### --feedback--
 
-These three words together mean that SafeGuard prioritizes or pays more attention to security compared to other features.
+这三个词合起来意味着 SafeGuard 相较于其他特色更优先考虑或更关注安全性。
 
 # --explanation--
 
-`More focused on` is used to show what something or someone pays attention to the most. 例如：
+`More focused on` 用于表示某物或某人最关注的内容。例如：
 
-`This software is more focused on performance than on design.` - This means the software is mainly built for good performance, not necessarily for an attractive design.
+`This software is more focused on performance than on design.`——这意味着该软件主要是为良好的性能而构建，而不一定是为了吸引人的设计。
 
 # --scene--
 

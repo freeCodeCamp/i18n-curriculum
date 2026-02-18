@@ -1,6 +1,6 @@
 ---
 id: 657dbdae2bd6f60bda3226cc
-title: Task 81
+title: 任務 81
 challengeType: 22
 dashedName: task-81
 lang: en-US
@@ -10,13 +10,13 @@ lang: en-US
 
 # --description--
 
-When you want to know how often something happens, you can use `every` followed by a time period like `day`, `week`, or `year`.
+當你想知道某件事發生的頻率時，你可以使用 `every`，後面接時間週期，例如 `day`、`week` 或 `year`。
 
-In the dialogue, Tom is asking about the frequency of the team meetings.
+在對話窗中，Tom 正在詢問團隊會議的頻率。
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+聆聽音訊並完成以下句子。
 
 # --fillInTheBlank--
 
@@ -30,7 +30,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This word is used to ask if the meetings happen weekly.
+這個字用來詢問會議是否每週舉行。
 
 # --scene--
 

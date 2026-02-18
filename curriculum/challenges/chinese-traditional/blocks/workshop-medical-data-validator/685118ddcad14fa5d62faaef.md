@@ -7,11 +7,11 @@ dashedName: step-33
 
 # --description--
 
-Now add a key `diagnosis` to the `constraints` dictionary. For its value, write an expression that checks that `diagnosis` is either an instance of `str` or is `None`.
+現在為 `constraints` 字典添加一個鍵 `diagnosis`。對於它的值，撰寫一個表達式，檢查 `diagnosis` 是否為 `str` 的實體或是 `None`。
 
 # --hints--
 
-Your `constraints` dictionary should have a key `diagnosis`.
+你的 `constraints` 字典應該有一個鍵 `diagnosis`。
 
 ```js
 ({ test: () => assert(runPython(`
@@ -21,7 +21,7 @@ _keys = [k.value for k in _ast_keys]
 `)) })
 ```
 
-The `diagnosis` key of your `constraints` dictionary should have the value of `isinstance(diagnosis, str) or diagnosis is None`.
+你的 `constraints` 字典中的 `diagnosis` 鍵應該具有 `isinstance(diagnosis, str) or diagnosis is None` 的值。
 
 ```js
 ({ test: () => assert(runPython(`
@@ -83,7 +83,7 @@ def find_invalid_records(
         'age': isinstance(age, int) and age >= 18,
 --fcc-editable-region--
         'gender': isinstance(gender, str) and gender.lower() in ('male', 'female')
-
+        
 --fcc-editable-region--
     }
     return constraints
@@ -94,7 +94,7 @@ def validate(data):
     if not is_sequence:
         print('Invalid format: expected a list or tuple.')
         return False
-
+        
     is_invalid = False
     key_set = set(
         ['patient_id', 'age', 'gender', 'diagnosis', 'medications', 'last_visit_id']

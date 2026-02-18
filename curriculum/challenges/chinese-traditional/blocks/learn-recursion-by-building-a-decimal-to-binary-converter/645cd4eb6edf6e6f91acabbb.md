@@ -1,24 +1,24 @@
 ---
 id: 645cd4eb6edf6e6f91acabbb
-title: Step 53
+title: 步驟 53
 challengeType: 0
 dashedName: step-53
 ---
 
 # --description--
 
-Now that `b()` has executed, pop it off the call stack. Then, update your mock call to `a()` to the following: `"a(): returns 'freeCodeCamp ' + 'is awesome!'"`.
+既然 `b()` 已經執行完畢，將它從呼叫堆疊中彈出。然後，將你的 `a()` 模擬呼叫更新為以下內容：「`a(): returns 'freeCodeCamp ' + 'is awesome!'`」。
 
 # --hints--
 
-`callStack` should have one element that is a string.
+`callStack` 應該有一個元素是字串。
 
 ```js
 assert.lengthOf(callStack, 1);
 assert.isString(callStack[0]);
 ```
 
-The string in `callStack` should be the string `"a(): returns 'freeCodeCamp ' + 'is awesome!'"`.
+`callStack` 中的字串應該是字串 `"a(): returns 'freeCodeCamp ' + 'is awesome!'"`。
 
 ```js
 assert.match(

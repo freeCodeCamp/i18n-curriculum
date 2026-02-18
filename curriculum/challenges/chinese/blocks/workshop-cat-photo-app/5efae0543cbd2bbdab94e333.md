@@ -13,7 +13,7 @@ dashedName: step-32
 
 # --hints--
 
-你的 `figure` 元素应该有一个开始标签。 开始标签的语法为：`<elementName>`。
+你的 `figure` 元素应该有一个开始标签。 开始标签的书写语法为：`<elementName>`。
 
 ```js
 assert.lengthOf(document.querySelectorAll('figure'), 2);

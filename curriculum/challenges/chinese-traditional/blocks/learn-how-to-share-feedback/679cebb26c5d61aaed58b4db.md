@@ -1,6 +1,6 @@
 ---
 id: 679cebb26c5d61aaed58b4db
-title: Task 79
+title: 任務 79
 challengeType: 19
 dashedName: task-79
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-聽音頻，回答下面的問題。
+聆聽音訊並回答以下問題。
 
 # --questions--
 
 ## --text--
 
-What does James know about the issue with the latest update?
+James 對最新更新的問題知道什麼？
 
 ## --answers--
 
-He knows exactly what the issue is.
+他完全知道問題出在哪裡。
 
 ### --feedback--
 
-James clearly says he didn't hear anything.
+James 清楚地說他什麼都沒聽到。
 
 ---
 
-He doesn't know anything about it.
+他一點都不知道這件事。
 
 ---
 
-He already talked to the client.
+他已經和客戶談過了。
 
 ### --feedback--
 
-James does not mention speaking to the client.
+James 沒有提到與客戶端交談。
 
 ---
 
-He received an email about the issue.
+他收到了一封關於該問題的電子郵件。
 
 ### --feedback--
 
-James states that he didn't hear anything.
+James 表示他什麼都沒聽到。
 
 ## --video-solution--
 
@@ -52,7 +52,7 @@ James states that he didn't hear anything.
 
 # --explanation--
 
-Short answers with auxiliary verbs repeat the auxiliary from the question to confirm or deny something. In this case, Maria asks, `Did you hear anything?`, and James responds, `No, I didn't.` instead of just saying `No.` Here are some other examples:
+簡短回答中，助動詞會重複問題中的助動詞以確認或否認某事。在這個例子中，Maria 問 `Did you hear anything?`，而 James 回答 `No, I didn't.`，而不是只說 `No.`。以下是其他一些例子： 
 
 - `Are you coming to the meeting?` → `Yes, I am.`
 
@@ -60,7 +60,7 @@ Short answers with auxiliary verbs repeat the auxiliary from the question to con
 
 - `Will she be here on time?` → `Yes, she will.`
 
-Short answers make responses sound natural and complete while avoiding repetition of the full sentence.
+簡短的回答讓回應聽起來自然且完整，同時避免重複整句話。
 
 # --scene--
 

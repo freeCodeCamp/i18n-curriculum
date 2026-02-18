@@ -28,8 +28,7 @@ crea una variable llamada `ourName`. En JavaScript terminamos las sentencias con
 
 Utiliza la palabra clave `var` para crear una variable llamada `myName`.
 
-**Hint**  
-Look at the `ourName` example above if you get stuck.
+**Consejo** Mira el ejemplo de `ourName` arriba si te quedas atascado.
 
 # --hints--
 

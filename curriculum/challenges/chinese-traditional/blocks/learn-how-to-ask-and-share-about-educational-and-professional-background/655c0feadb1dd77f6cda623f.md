@@ -1,6 +1,6 @@
 ---
 id: 655c0feadb1dd77f6cda623f
-title: "Dialogue 1: A Job Interview"
+title: "對話窗 1：一場工作面試"
 challengeType: 21
 dashedName: dialogue-1-a-job-interview
 lang: en-US
@@ -8,11 +8,11 @@ lang: en-US
 
 # --description--
 
-Watch the video below to understand the context of the upcoming lessons.
+觀看下方的影片以了解即將到來課程的背景關係。
 
 # --assignment--
 
-Watch the video.
+觀看影片。
 
 # --scene--
 

@@ -1,26 +1,26 @@
 ---
 id: 618a16d21bd3dad1bb3aa8ef
-title: 步驟 36
+title: 第 36 步
 challengeType: 0
 dashedName: step-36
 ---
 
 # --description--
 
-現在給馬克筆添加其他細節，從第一個開始。
+現在是時候為標記添加其他細節，從第一個開始。
 
-在第一個馬克筆 `div` 元素中，將 `one` 類改爲 `red`。
+在第一個標記 `div` 元素中，將類別 `one` 改為 `red`。
 
 # --hints--
 
-你的第一個馬克筆 `div` 不應該有 `one` 類。
+你的第一個標記 `div` 不應該有類別 `one`。
 
 ```js
 const containerFirstChild = [...document.querySelector('.container')?.children][0];
 assert.isFalse(containerFirstChild?.classList?.contains('one'));
 ```
 
-你的第一個馬克筆 `div` 應該有類 `marker` 和 `red`。
+你的第一個標記 `div` 應該有 `marker` 和 `red` 這兩個類別。
 
 ```js
 const containerFirstChild = [...document.querySelector('.container')?.children][0];

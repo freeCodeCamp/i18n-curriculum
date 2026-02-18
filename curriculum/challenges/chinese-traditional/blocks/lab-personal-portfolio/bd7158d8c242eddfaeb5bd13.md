@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c242eddfaeb5bd13
-title: Build a Personal Portfolio
+title: 建置個人作品集
 challengeType: 25
 dashedName: build-a-personal-portfolio
 demoType: onClick
@@ -9,34 +9,34 @@ saveSubmissionToDB: true
 
 # --description--
 
-**目標：**實現以下用戶需求並通過所有測試以完成實驗。
+**目標：** 完成以下使用者故事並通過所有測試以完成實驗。
 
-**用戶需求：**
+**使用者故事：**
 
-1. Your portfolio should have a welcome section with an `id` of `welcome-section`.
-2. The welcome section should have an `h1` element that contains text.
-3. Your portfolio should have a projects section with an `id` of `project-section`.
-4. The projects section should contain at least one element with a `class` of `project-tile` to hold a project.
-5. The projects section should contain at least one link to a project.
-6. Your portfolio should have a navbar with an id of `navbar`.
-7. The navbar should contain at least one link that you can click on to navigate to different sections of the page.
-8. Your portfolio should have a link with an id of `profile-link`, which opens your GitHub or freeCodeCamp profile in a new tab.
-9. Your portfolio should have at least one media query.
-10. The height of the welcome section should be equal to the height of the viewport.
-11. The navbar should always be at the top of the viewport.
+1. 你的作品集應該有一個歡迎區段，其 `id` 為 `welcome-section`。
+2. 歡迎區段應該有一個包含文字的 `h1` 元素。
+3. 你的作品集應該有一個 `id` 為 `project-section` 的專案區段。
+4. 專案區段應至少包含一個具有 `class` 為 `project-tile` 的元素來容納專案。
+5. 專案區段應該至少包含一個指向專案的聯結。
+6. 你的作品集應該有一個 id 為 `navbar` 的導覽列。
+7. 導覽列應至少包含一個你可以點擊以導覽至頁面不同區段的聯結。
+8. 你的作品集應該有一個 id 為 `profile-link` 的聯結，該聯結會在新分頁中開啟你的 GitHub 或 freeCodeCamp 評測。
+9. 你的作品集應該至少有一個媒體查詢。
+10. 歡迎區段的高度應該與視窗高度相等。
+11. 導覽列應該始終位於視窗頂部。
 
-**Note:** Be sure to link your stylesheet in your HTML and apply your CSS.
+**注意：** 請務必在你的 HTML 中聯結你的樣式表並套用你的 CSS。
 
 # --hints--
 
-Your portfolio should have a "Welcome" section with an `id` of `welcome-section`.
+你的作品集應該有一個「歡迎」區段，其 `id` 為 `welcome-section`。
 
 ```js
 const el = document.getElementById('welcome-section');
 assert.isNotNull(el);
 ```
 
-Your `#welcome-section` element should contain an `h1` element.
+你的 `#welcome-section` 元素應該包含一個 `h1` 元素。
 
 ```js
 assert.isAbove(
@@ -46,7 +46,7 @@ assert.isAbove(
 );
 ```
 
-You should not have any empty `h1` elements within `#welcome-section` element.
+你不應該在 `#welcome-section` 元素內有任何空的 `h1` 元素。
 
 ```js
 assert.isAbove(
@@ -56,14 +56,14 @@ assert.isAbove(
 );
 ```
 
-You should have a "Projects" section with an `id` of `project-section`.
+你應該有一個「專案」區段，其 `id` 為 `project-section`。
 
 ```js
 const el = document.getElementById('project-section');
 assert.isNotNull(el);
 ```
 
-Your portfolio should contain at least one element with a class of `project-tile`.
+你的作品集應該至少包含一個具有 `project-tile` 類別的元素。
 
 ```js
 assert.isAbove(
@@ -72,20 +72,20 @@ assert.isAbove(
 );
 ```
 
-Your `#project-section` element should contain at least one `a` element.
+你的 `#project-section` 元素應該至少包含一個 `a` 元素。
 
 ```js
 assert.isAbove(document.querySelectorAll('#project-section a').length, 0);
 ```
 
-Your portfolio should have a navbar with an `id` of `navbar`.
+你的作品集應該有一個 `id` 為 `navbar` 的導覽列。
 
 ```js
 const el = document.getElementById('navbar');
 assert.isNotNull(el);
 ```
 
-Your `#navbar` element should contain at least one `a` element whose `href` attribute starts with `#`.
+你的 `#navbar` 元素應該至少包含一個 `a` 元素，其 `href` 屬性以 `#` 開頭。
 
 ```js
 const links = [...document.querySelectorAll('#navbar a')].filter(
@@ -95,7 +95,7 @@ const links = [...document.querySelectorAll('#navbar a')].filter(
 assert.isAbove(links.length, 0, 'Navbar should contain an anchor link ');
 ```
 
-Your portfolio should have an `a` element with an `id` of `profile-link`.
+你的作品集應該有一個 `a` 元素，其 `id` 為 `profile-link`。
 
 ```js
 const el = document.getElementById('profile-link');
@@ -103,7 +103,7 @@ assert.isNotNull(el);
 assert.strictEqual(el.tagName, 'A');
 ```
 
-Your `#profile-link` element should have a `target` attribute of `_blank`.
+你的 `#profile-link` 元素應該有一個 `target` 屬性，值為 `_blank`。
 
 ```js
 const el = document.getElementById('profile-link');
@@ -111,7 +111,7 @@ assert.isNotNull(el);
 assert.strictEqual(el.target, '_blank');
 ```
 
-Your portfolio should use at least one media query.
+你的作品集應該至少使用一個媒體查詢。
 
 ```js
 const htmlSourceAttr = Array.from(document.querySelectorAll('source')).map(el => el.getAttribute('media'))
@@ -119,7 +119,7 @@ const cssCheck = new __helpers.CSSHelp(document).getCSSRules('media')
 assert.isTrue(cssCheck.length > 0 || htmlSourceAttr.length > 0);
 ```
 
-Your `#navbar` element should always be at the top of the viewport.
+你的 `#navbar` 元素應該始終位於視窗頂部。
 
 ```js
   const timeout = milliseconds =>

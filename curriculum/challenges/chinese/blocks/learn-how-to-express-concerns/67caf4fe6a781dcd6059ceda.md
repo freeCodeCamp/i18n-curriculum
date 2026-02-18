@@ -1,6 +1,6 @@
 ---
 id: 67caf4fe6a781dcd6059ceda
-title: Task 131
+title: 任务 131
 challengeType: 22
 dashedName: task-131
 lang: en-US
@@ -10,39 +10,39 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+请听音频，并完成下面的填空。  
 
 # --fillInTheBlank--
 
 ## --sentence--
 
-`It'd be BLANK if we had more BLANK check-ins.`
+`It'd be BLANK if we had more BLANK check-ins.`  
 
 ## --blanks--
 
-`helpful`
+`helpful`  
 
 ### --feedback--
 
-This means providing assistance or making something easier.
+这意味着提供帮助或使某事变得更容易。  
 
----
+---  
 
-`regular`
+`regular`  
 
 ### --feedback--
 
-This means happening consistently or at set intervals.
+这意味着持续发生或在设定的间隔内发生。  
 
 # --explanation--
 
-`Helpful` means providing assistance or making something easier. For example:
+`Helpful` 意味着提供帮助或使某事更容易。例如：
 
-`It was helpful to have clear instructions before starting the task.` - This means the instructions made the task easier to complete.
+`It was helpful to have clear instructions before starting the task。` - 这意味着这些说明使完成任务更容易。
 
-`Regular` means happening consistently or at set intervals. For example:
+`Regular` 意味着持续发生或在设定间隔内发生。例如：
 
-`We have regular meetings every Monday.` - This means the meetings happen consistently on Mondays.
+`We have regular meetings every Monday.` - 这意味着会议在每个星期一一致地举行。
 
 # --scene--
 

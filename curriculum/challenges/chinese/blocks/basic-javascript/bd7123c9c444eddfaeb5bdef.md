@@ -1,6 +1,6 @@
 ---
 id: bd7123c9c444eddfaeb5bdef
-title: Declare String Variables
+title: 声明字符串变量
 challengeType: 1
 forumTopicId: 17557
 dashedName: declare-string-variables
@@ -8,27 +8,27 @@ dashedName: declare-string-variables
 
 # --description--
 
-Previously you used the following code to declare a variable:
+之前，你使用以下代码声明变量：
 
 ```js
 var myName;
 ```
 
-But you can also declare a string variable like this:
+但是你也可以像这样声明一个字符串变量：
 
 ```js
 var myName = "your name";
 ```
 
-`"your name"` is called a <dfn>string</dfn> <dfn>literal</dfn>. A string literal, or string, is a series of zero or more characters enclosed in single or double quotes.
+`"your name"` 被称作<dfn>字符串</dfn><dfn>字面量</dfn>。 字符串文字或字符串是用单引号或双引号括起来的一系列零个或多个字符。
 
 # --instructions--
 
-Create two new string variables: `myFirstName` and `myLastName` and assign them the values of your first and last name, respectively.
+创建两个新的字符串变量：`myFirstName` 和 `myLastName`，并用你的姓和名分别为它们赋值。
 
 # --hints--
 
-`myFirstName` should be a string with at least one character in it.
+`myFirstName` 应该是一个字符串，至少包含一个字符。
 
 ```js
 assert(
@@ -46,7 +46,7 @@ assert(
 );
 ```
 
-`myLastName` should be a string with at least one character in it.
+`myLastName` 应该是一个字符串，至少包含一个字符。
 
 ```js
 assert(

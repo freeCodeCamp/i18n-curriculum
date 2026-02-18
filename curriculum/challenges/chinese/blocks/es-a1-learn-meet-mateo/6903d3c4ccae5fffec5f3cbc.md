@@ -1,6 +1,6 @@
 ---
 id: 6903d3c4ccae5fffec5f3cbc
-title: Task 4
+title: 任务 4
 challengeType: 19
 dashedName: task-4
 lang: es
@@ -10,13 +10,13 @@ lang: es
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+听音频，回答下面的问题。
 
 # --questions--
 
 ## --text--
 
-What is Mateo's nationality?
+Mateo 的国籍是什么？
 
 ## --answers--
 
@@ -24,7 +24,7 @@ What is Mateo's nationality?
 
 ### --feedback--
 
-This option refers to someone from Chile.
+此选项指的是来自智利的某人。
 
 ---
 
@@ -32,7 +32,7 @@ This option refers to someone from Chile.
 
 ### --feedback--
 
-This word describes a person from Peru.
+这个词描述一个来自秘鲁的人。
 
 ---
 
@@ -44,7 +44,7 @@ This word describes a person from Peru.
 
 ### --feedback--
 
-This refers to a woman from Colombia, and the ending `-a` indicates the feminine form, which does not match Mateo.
+这指的是一位来自哥伦比亚的女性，结尾的 `-a` 表示女性形式，这与 Mateo 不匹配。
 
 ## --video-solution--
 
@@ -52,17 +52,17 @@ This refers to a woman from Colombia, and the ending `-a` indicates the feminine
 
 # --explanation--
 
-`Soy` ("I am") comes from the verb `ser` and is used to express identity, nationality, or profession. For example:
+`Soy`（"I am"）来自动词 `ser`，用于表达同一性、国籍或职业。例如：
 
-- `Soy chilena.` – I'm Chilean. (feminine)
+- `Soy chilena.` – 我是智利人。（女性）
 
-- `Soy chileno.` – I'm Chilean. (masculine)
+- `Soy chileno.` – 我是智利人。（男性）
 
-- `Soy puertorriqueña` - I'm Puerto Rican. (feminine)
+- `Soy puertorriqueña` - 我是波多黎各人。（女性）
 
-- `Soy puertorriqueño` - I'm Puerto Rican. (masculine)
+- `Soy puertorriqueño` - 我是波多黎各人。（男性）
 
-- `Soy canadiense.` – I'm Canadian. (neutral)
+- `Soy canadiense.` – 我是加拿大人。（中性）
 
 # --scene--
 

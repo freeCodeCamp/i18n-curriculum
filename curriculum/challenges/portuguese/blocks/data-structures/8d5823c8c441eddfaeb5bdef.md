@@ -8,11 +8,11 @@ dashedName: create-a-map-data-structure
 
 # --description--
 
-Os próximos desafios tratarão de mapas e tabelas hash.Mapas são estruturas de dados que armazenam pares chave-valor.Em JavaScript, essas estruturas estão disponíveis para nós como objetos.Mapas fornecem uma busca rápida de itens armazenados com base em valores chave e são estruturas de dados muito comuns e úteis.
+Os próximos desafios tratarão de mapas e tabelas hash. Mapas são estruturas de dados que armazenam pares chave-valor. Em JavaScript, essas estruturas estão disponíveis para nós como objetos. Mapas fornecem uma busca rápida de itens armazenados com base em valores chave e são estruturas de dados muito comuns e úteis.
 
 # --instructions--
 
-Vamos praticar um pouco criando nosso próprio mapa.Como objetos JavaScript fornecem uma estrutura de mapa muito mais eficiente do que qualquer outra que pudéssemos escrever aqui, o objetivo aqui é, principalmente, um exercício de aprendizagem.No entanto, objetos JavaScript nos fornecem apenas algumas operações.E se quiséssemos definir operações personalizadas?Use o objeto `Map` fornecido aqui para envolver o `object` de JavaScript.Criar os seguintes métodos e operações no objeto Map:
+Vamos praticar um pouco criando nosso próprio mapa. Como objetos JavaScript fornecem uma estrutura de mapa muito mais eficiente do que qualquer outra que pudéssemos escrever aqui, o objetivo aqui é, principalmente, um exercício de aprendizagem. No entanto, objetos JavaScript nos fornecem apenas algumas operações. E se quiséssemos definir operações personalizadas? Use o objeto `Map` fornecido aqui para envolver o `object` de JavaScript. Criar os seguintes métodos e operações no objeto Map:
 
 <ul>
 <li><code>add</code> accepts a <code>key, value</code> pair to add to the map.</li>

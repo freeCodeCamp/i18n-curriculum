@@ -1,6 +1,6 @@
 ---
 id: 68443eddeab5bb2d7d6e44bf
-title: Task 45
+title: 任務 45
 challengeType: 22
 dashedName: task-45
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+聆聽音訊並完成以下句子。
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This two-word phrase means to arrange or prepare something for use.
+這個兩字詞組表示安排或準備某物以供使用。
 
 ---
 
@@ -32,17 +32,17 @@ This two-word phrase means to arrange or prepare something for use.
 
 ### --feedback--
 
-This two-word phrase refers to a space where employees can relax from work.
+這個兩字詞語取用一個員工可以從工作中放鬆的空間。
 
 # --explanation--
 
-`Set up` means to prepare or arrange something for use. For example:
+`Set up` 是指為使用準備或安排某物。例如：
 
-`We need to set up the new computers before the meeting.` – This means to make them ready.
+`We need to set up the new computers before the meeting。`－這表示要將它們準備好。
 
-`Break room` is a place in an office where people rest, eat, or relax. For example:
+`Break room` 是辦公室中供人休息、用餐或放鬆的地方。 例如：
 
-`Let's meet in the break room after lunch.` – This refers to a space meant for taking a break.
+`Let's meet in the break room after lunch.`－這是指用來休息的空間。
 
 # --scene--
 

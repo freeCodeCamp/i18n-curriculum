@@ -7,17 +7,17 @@ dashedName: step-10
 
 # --description--
 
-Create a function called `displayStory`. Inside the function, log `"You clicked the button"` to the console.
+创建一个名为 `displayStory` 的函数。 在函数内部，将 `"You clicked the button"` 记录到控制台。
 
 # --hints--
 
-You should have a function called `displayStory`.
+你应该有一个名为 `displayStory` 的函数。
 
 ```js
 assert.isFunction(displayStory);
 ```
 
-You should log `"You clicked the button"` to the console inside the `displayStory` function.
+你应该将 `"You clicked the button"` 记录到 `displayStory` 函数内的控制台。
 
 ```js
 assert.match(displayStory.toString(), /console\.log\(["']You clicked the button["']\)/);

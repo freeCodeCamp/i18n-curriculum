@@ -1,6 +1,6 @@
 ---
 id: 67cafac07dc081eefb4d7adb
-title: Task 135
+title: 任務 135
 challengeType: 19
 dashedName: task-135
 lang: en-US
@@ -10,51 +10,51 @@ lang: en-US
 
 # --instructions--
 
-聽音頻，回答下面的問題。
+聆聽音訊並回答以下問題。  
 
 # --questions--
 
 ## --text--
 
-What is the objective of having weekly meetings?
+每週會議的目標是什麼？
 
 ## --answers--
 
-To reduce the number of tasks the team has.
+為了減少團隊擁有的任務數量。
 
 ### --feedback--
 
-Bob does not mention reducing tasks.
+Bob 沒有提到減少任務。  
 
 ---
 
-To avoid making any changes to the project.
+為避免對專案進行任何更改。
 
 ### --feedback--
 
-Bob does not suggest that they avoid making changes.
+Bob 並不建議他們避免進行更改。
 
 ---
 
-To increase the number of meetings without a clear goal.
+增加沒有明確目標的會議數量。
 
 ### --feedback--
 
-Bob has a specific goal and he mentions it.
+Bob 有一個特定的目標，並且他提到了它。
 
 ---
 
-To make sure everyone stays updated on the project.
+為了確保每個人都能隨時掌握專案的最新狀態。
 
 ## --video-solution--
 
-4
+4  
 
 # --explanation--
 
-`To keep someone in the loop` means to keep them informed about important updates and decisions. For example:
+「`To keep someone in the loop`」意指讓他們隨時掌握重要的更新和決策。例如：
 
-`Please keep me in the loop about any changes to the schedule.` - This means the speaker wants to be updated if anything changes.
+`Please keep me in the loop about any changes to the schedule。`－這表示說話者希望如果排程有任何變更時能收到更新。
 
 # --scene--
 

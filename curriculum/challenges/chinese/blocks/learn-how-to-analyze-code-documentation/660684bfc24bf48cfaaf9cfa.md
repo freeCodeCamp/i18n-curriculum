@@ -1,6 +1,6 @@
 ---
 id: 660684bfc24bf48cfaaf9cfa
-title: Task 8
+title: 任务 8
 challengeType: 22
 dashedName: task-8
 lang: en-US
@@ -10,9 +10,9 @@ lang: en-US
 
 # --description--
 
-`Give it a shot` means to try doing something. It's like saying `Try it`.
+`Give it a shot` 意思是尝试做某事。它就像说 `Try it`。
 
-For example, if your friend is hesitant about joining a coding class because they think it might be too difficult, you could say `Why not give it a shot? You might enjoy it more than you think.` to encourage them to try joining this class.
+例如，如果你的朋友因为觉得可能太难而犹豫是否加入编程类，你可以说 `Why not give it a shot? You might enjoy it more than you think.` 来鼓励他们尝试加入这个类。
 
 # --fillInTheBlank--
 
@@ -26,7 +26,7 @@ For example, if your friend is hesitant about joining a coding class because the
 
 ### --feedback--
 
-It is short for `I will`. Sophie is expressing her decision to try what Brian suggested.
+它是 `I will` 的缩写。Sophie 正在表达她决定尝试 Brian 建议的内容。
 
 ---
 
@@ -34,7 +34,7 @@ It is short for `I will`. Sophie is expressing her decision to try what Brian su
 
 ### --feedback--
 
-In this context, it means an attempt or try at doing something. Sophie is saying she will try what Brian has recommended.
+在这个上下文中，它意味着尝试或试图做某事。Sophie 说她会尝试 Brian 推荐的内容。
 
 # --scene--
 

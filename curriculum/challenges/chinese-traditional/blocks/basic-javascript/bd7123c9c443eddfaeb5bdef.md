@@ -1,6 +1,6 @@
 ---
 id: bd7123c9c443eddfaeb5bdef
-title: Declare JavaScript Variables
+title: 宣告 JavaScript 變數
 challengeType: 1
 forumTopicId: 17556
 dashedName: declare-javascript-variables
@@ -8,32 +8,31 @@ dashedName: declare-javascript-variables
 
 # --description--
 
-In computer science, <dfn>data</dfn> is anything that is meaningful to the computer. JavaScript provides eight different <dfn>data types</dfn> which are `undefined`, `null`, `boolean`, `string`, `symbol`, `bigint`, `number`, and `object`.
+在計算機科學中，<dfn>資料</dfn>是對電腦有意義的任何東西。JavaScript 提供八種不同的<dfn>資料型別</dfn>，分別是 `undefined`、`null`、`boolean`、`string`、`symbol`、`bigint`、`number` 和 `object`。
 
-For example, computers distinguish between numbers, such as the number `12`, and `strings`, such as `"12"`, `"dog"`, or `"123 cats"`, which are collections of characters. Computers can perform mathematical operations on a number, but not on a string.
+例如，電腦會區分數字，例如數字 `12`，以及 `strings`，例如 `"12"`、`"dog"` 或 `"123 cats"`，這些是字元的群集。電腦可以對數字執行數學操作，但不能對字串執行數學操作。
 
-<dfn>Variables</dfn> allow computers to store and manipulate data in a dynamic fashion. They do this by using a "label" to point to the data rather than using the data itself. Any of the eight data types may be stored in a variable.
+<dfn>變數</dfn>允許電腦以動態方式儲存和操作資料。它們透過使用「標籤」來指向資料，而不是使用資料本身。任何八種資料型別皆可儲存在變數中。
 
-Variables are similar to the x and y variables you use in mathematics, which means they're a simple name to represent the data we want to refer to. Computer variables differ from mathematical variables in that they can store different values at different times.
+變數類似於你在數學中使用的 x 和 y 變數，這表示它們是一個簡單的名稱，用來表述我們想要取用的資料。電腦變數與數學變數不同，因為它們可以在不同時間儲存不同的值。
 
-We tell JavaScript to create or <dfn>declare</dfn> a variable by putting the keyword `var` in front of it, like so:
+我們告訴 JavaScript 透過在前面放置關鍵字 `var` 來創建或 <dfn>宣告</dfn> 一個變數，如下所示：
 
 ```js
 var ourName;
 ```
 
-creates a variable called `ourName`. In JavaScript we end statements with semicolons. Variable names can be made up of numbers, letters, and `$` or `_`, but may not contain spaces or start with a number.
+創建一個名為 `ourName` 的變數。在 JavaScript 中，我們以分號結束述語。變數名稱可以由數字、字母以及 `$` 或 `_` 組成，但不得包含空格或以數字開頭。
 
 # --instructions--
 
-Use the `var` keyword to create a variable called `myName`.
+使用 `var` 關鍵字來創建一個名為 `myName` 的變數。
 
-**Hint**  
-Look at the `ourName` example above if you get stuck.
+**提示**如果你卡住了，請參考上方的 `ourName` 範例。
 
 # --hints--
 
-You should declare `myName` with the `var` keyword, ending with a semicolon
+你應該使用 `var` 關鍵字宣告 `myName`，並以分號結尾。
 
 ```js
 assert(/var\s+myName\s*;/.test(__helpers.removeJSComments(code)));

@@ -7,34 +7,34 @@ dashedName: step-4
 
 # --description--
 
-`h1` 元素是網頁的主標題，每個頁面只能有一個。 `h2` 元素代表子標題。 每個頁面可以有多個，它們看起來就像這樣：
+`h1` 元素是網頁的主要標題，你每頁應該只使用一個。`h2` 元素表述子標題。你每頁可以有多個，它們看起來像這樣：
 
 ```html
 <h2>This is a subheading.</h2>
 ```
 
-用 `h2` 開始標籤和結束標籤把 `Full Stack Curriculum` 括起來，將其轉化爲一個 `h2` 元素。
+將 `Full-Stack Curriculum` 文字轉成 `h2` 元素，方法是用開啟和關閉的 `h2` 標籤將它包起來。
 
 # --hints--
 
-你的 `h2` 元素應該有一個開始標籤 `<h2>`。
+你的 `h2` 元素應該有一個開啟的 `<h2>` 頁籤。
 
 ```js
 assert.exists(document.querySelector("h2"));
 ```
 
-你的 `h2` 元素應該有一個結束標籤 `</h2>`。
+你的 `h2` 元素應該有一個結束的 `</h2>` 頁籤。
 
 ```js
 assert.match(code, /<\/h2\s*\>/);
 ```
 
-你的 `h2` 元素看起來應該像這樣：`<h2>Full Stack Curriculum</h2>`。
+你的 `h2` 元素應該看起來像這樣：`<h2>Full-Stack Curriculum</h2>`。
 
 ```js
 // purposefully removing friction for early users to help improve retention in early lessons
 // this if very forgiving of spaces and casing
-assert.match(code, /\<h2\s*\>\s*Full\s*Stack\s*Curriculum\s*\<\/h2\s*\>/i);
+assert.match(code, /\<h2\s*\>\s*Full-Stack\s*Curriculum\s*\<\/h2\s*\>/i);
 ```
 
 # --seed--
@@ -44,6 +44,6 @@ assert.match(code, /\<h2\s*\>\s*Full\s*Stack\s*Curriculum\s*\<\/h2\s*\>/i);
 ```html
 <h1>Welcome to freeCodeCamp</h1>
 --fcc-editable-region--
-Full Stack Curriculum
+Full-Stack Curriculum
 --fcc-editable-region--
 ```

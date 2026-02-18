@@ -13,7 +13,7 @@ Logo após a declaração `if` dentro do loop `for`, adicione uma cláusula `els
 
 # --hints--
 
-Você deve adicionar uma cláusula `else` dentro do loop `for`.Não esqueça do dois-pontos no final.
+Você deve adicionar uma cláusula `else` dentro do loop `for`. Não esqueça do dois-pontos no final.
 
 ```js
 ({

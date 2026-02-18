@@ -1,27 +1,27 @@
 ---
 id: 64ec9c55fdeef78bacd2fc3b
-title: 步骤 30
+title: 第 30 步
 challengeType: 0
 dashedName: step-30
 ---
 
 # --description--
 
-If you attempt to add another task now, you'll notice that the input fields retain the values you entered for the previous task. To resolve this, you need to clear the input fields after adding a task.
+如果你现在尝试添加另一个任务，你会注意到输入字段保留了你为上一个任务输入的值。 要解决此问题，你需要在添加任务后清除输入字段。
 
-Instead of clearing the input fields one by one, it's a good practice to create a function that handles clearing those fields. You can then call this function whenever you need to clear the input fields again.
+不要逐个清除输入字段，而应该创建一个函数来处理清除这些字段。 然后，你可以在需要再次清除输入字段时调用此函数。
 
-Use arrow syntax to create a `reset` function and set it to a pair of curly braces.
+使用箭头语法创建一个 `reset` 函数并将其设置为一对花括号。
 
 # --hints--
 
-You should use `const` and arrow syntax to create a `reset` function.
+你应该使用 `const` 和箭头语法来创建 `reset` 函数。
 
 ```js
 assert.match(code, /const\s+reset\s*=\s*\(\s*\)\s*=>\s*\{\s*/)
 ```
 
-Your `reset` function should be empty.
+你的 `reset` 函数应该是空的。
 
 ```js
 assert.match(reset.toString(), /\(\s*\)\s*\{\s*\}/);

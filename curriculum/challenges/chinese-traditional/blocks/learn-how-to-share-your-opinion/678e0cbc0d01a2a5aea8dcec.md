@@ -1,6 +1,6 @@
 ---
 id: 678e0cbc0d01a2a5aea8dcec
-title: Task 47
+title: 任務 47
 challengeType: 19
 dashedName: task-47
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-聽音頻，回答下面的問題。
+聆聽音訊並回答以下問題。
 
 # --questions--
 
 ## --text--
 
-Why does Jake prefer using Visual Studio Code?
+為什麼 Jake 偏好使用 Visual Studio Code？
 
 ## --answers--
 
-Because it's expensive and has many features.
+因為它昂貴且具有許多特性。
 
 ### --feedback--
 
-Jake doesn't mention price or cost in his reason for preferring Visual Studio Code.
+Jake 在他偏好 Visual Studio Code 的理由中沒有提到價格或成本。
 
 ---
 
-Because it's slow and not secure.
+因為它很慢且不安全。
 
 ### --feedback--
 
-Jake's reason for preferring Visual Studio Code is not related to speed or security issues.
+Jake 偏好 Visual Studio Code 的原因與速度或安全性問題無關。
 
 ---
 
-Because it's hard to use and has limited features.
+因為它難以使用且特性有限。
 
 ### --feedback--
 
-Jake describes Visual Studio Code positively, with no mention of it being difficult to use or lacking features.
+Jake 正面描述 Visual Studio Code，沒有提到它難以使用或缺乏特性。
 
 ---
 
-Because it's lightweight and has excellent security features.
+因為它輕量且具有優秀的安全特性。
 
 ## --video-solution--
 
@@ -52,13 +52,13 @@ Because it's lightweight and has excellent security features.
 
 # --explanation--
 
-Listen for key words that explain Jake's preference.
+聆聽說明 Jake 偏好的關鍵字。  
 
-`Lightweight` – This means Visual Studio Code doesn't use a lot of system resources.
+`Lightweight`－這表示 Visual Studio Code 不會使用大量系統資源。  
 
-`Security features` – This shows that Jake values how the tool helps protect against potential risks.
+`Security features` – 這表示 Jake 重視該工具如何幫助防範潛在風險。  
 
-These key words help you see that Jake prefers Visual Studio Code because it is lightweight and has strong security features.
+這些關鍵字幫助你了解 Jake 偏好 Visual Studio Code，因為它輕量且具有強大的安全特性。
 
 # --scene--
 

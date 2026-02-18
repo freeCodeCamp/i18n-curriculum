@@ -1,24 +1,24 @@
 ---
 id: 68eca3cfeebef2cd8cc5f814
-title: Step 14
+title: 步骤14
 challengeType: 0
 dashedName: step-14
 ---
 
 # --description--
 
-Add an `id` attribute to your second element having a class of `card` and set its value to `dave-cooking-book`. Remember that each `id` must be unique.
+为你的第二个具有 `card` 类的元素添加一个 `id` 属性，并将其值设置为 `dave-cooking-book`。请记住，每个 `id` 必须是唯一的。
 
 # --hints--
 
-Your second element having a class of `card` should have an `id` attribute.
+你的第二个具有 `card` 类的元素应具有一个 `id` 属性。
 
 ```js
 const cards = document.querySelectorAll('.card');
 assert.isTrue(cards[1]?.hasAttribute('id'));
 ```
 
-Your second element having a class of`card` should have an `id` with value of `dave-cooking-book`.
+你的第二个类为`card`的元素应有一个值为`dave-cooking-book`的`id`。
 
 ```js
 const cards = document.querySelectorAll('.card');

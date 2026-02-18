@@ -1,6 +1,6 @@
 ---
 id: 68da8dffcffd794e83de9d6c
-title: Task 10
+title: 任务 10
 challengeType: 19
 dashedName: task-10
 lang: zh-CN
@@ -10,13 +10,13 @@ lang: zh-CN
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+听音频，回答下面的问题。
 
 # --questions--
 
 ## --text--
 
-What is Chen Na saying to greet a group of people?
+陈娜对一群人说什么来打招呼？
 
 ## --answers--
 
@@ -24,7 +24,7 @@ What is Chen Na saying to greet a group of people?
 
 ### --feedback--
 
-This is a greeting to one person, but Chen Na is greeting more than one.
+这是对一个人的问候，但陈娜是在向多人问候。
 
 ---
 
@@ -32,7 +32,7 @@ This is a greeting to one person, but Chen Na is greeting more than one.
 
 ### --feedback--
 
-This form is not standard in Chinese.
+此 `form` 在中文中不是标准形式。
 
 ---
 
@@ -44,7 +44,7 @@ This form is not standard in Chinese.
 
 ### --feedback--
 
-This also means "Hello, everyone", but Chen Na uses a different phrase.
+这也意味着 "Hello, everyone"，但陈娜使用了不同的短语。
 
 ## --video-solution--
 
@@ -52,11 +52,11 @@ This also means "Hello, everyone", but Chen Na uses a different phrase.
 
 # --explanation--
 
-The question is asking what Chen Na is saying to greet **a group of people**.
+问题是在问陈娜对**一群人**说了什么来打招呼。
 
-`你好 (nǐ hǎo)` is a greeting to one person, while `您好 (nín hǎo)` is a polite greeting to one person. `您们好 (nín men hǎo)` is not standard in Chinese; `您 (nín)` is polite singular, not usually pluralized.
+`你好 (nǐ hǎo)` 是对一个人的问候，而 `您好 (nín hǎo)` 是对一个人的礼貌问候。`您们好 (nín men hǎo)` 不是中文标准用法；`您 (nín)` 是礼貌的单数形式，通常不用于复数。
 
-The correct phrase for greeting a group is `你们好 (nǐ men hǎo)`, which is a common way to say "hello, everyone". `大家好 (dà jiā hǎo)` is another way to greet a group, which you'll learn as you progress.
+向一组人打招呼的正确短语是 `你们好 (nǐ men hǎo)`，这是说“hello, everyone”的常用方式。`大家好 (dà jiā hǎo)` 是另一种向一组人打招呼的方式，你会随着学习进展而掌握。
 
 # --scene--
 

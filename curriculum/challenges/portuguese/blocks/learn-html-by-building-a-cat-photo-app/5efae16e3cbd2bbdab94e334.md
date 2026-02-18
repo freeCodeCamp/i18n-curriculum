@@ -11,13 +11,13 @@ Depois do último elemento `img`, adicione um elemento `figcaption` com o texto 
 
 # --hints--
 
-O elemento `figcaption` deve ter uma tag de abertura.As tags de abertura possuem a seguinte sintaxe: `<elementName>`.
+O elemento `figcaption` deve ter uma tag de abertura. As tags de abertura possuem a seguinte sintaxe: `<elementName>`.
 
 ```js
 assert(document.querySelectorAll('figcaption').length === 2);
 ```
 
-O elemento `figcaption` deve ter uma tag de fechamento.As tags de fechamento têm um caractere `/` logo após o caractere `<`.
+O elemento `figcaption` deve ter uma tag de fechamento. As tags de fechamento têm um caractere `/` logo após o caractere `<`.
 
 ```js
 assert(code.match(/<\/figcaption\>/g).length === 2);
@@ -39,13 +39,13 @@ assert(
 );
 ```
 
-O elemento `figure` deve ter uma tag de abertura.As tags de abertura possuem a seguinte sintaxe: `<elementName>`.
+O elemento `figure` deve ter uma tag de abertura. As tags de abertura possuem a seguinte sintaxe: `<elementName>`.
 
 ```js
 assert(document.querySelectorAll('figure').length === 2);
 ```
 
-O elemento `figure` deve ter uma tag de fechamento.As tags de fechamento têm um caractere `/` logo após o caractere `<`.
+O elemento `figure` deve ter uma tag de fechamento. As tags de fechamento têm um caractere `/` logo após o caractere `<`.
 
 ```js
 assert(code.match(/<\/figure\>/g).length === 2);
@@ -57,7 +57,7 @@ O elemento `figcaption` da lasanha deve estar dentro do elemento `figure`.
 assert(document.querySelectorAll('figure > figcaption').length === 2);
 ```
 
-O elemento `figcaption` dentro do elemento `figure` deve estar abaixo do elemento `img`.O elemento `img` e o elemento `figcaption` estão na ordem errada.
+O elemento `figcaption` dentro do elemento `figure` deve estar abaixo do elemento `img`. O elemento `img` e o elemento `figcaption` estão na ordem errada.
 
 ```js
 assert(

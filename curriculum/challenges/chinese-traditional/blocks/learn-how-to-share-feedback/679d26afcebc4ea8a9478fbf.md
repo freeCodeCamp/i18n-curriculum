@@ -1,6 +1,6 @@
 ---
 id: 679d26afcebc4ea8a9478fbf
-title: Task 91
+title: 任務 91
 challengeType: 19
 dashedName: task-91
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-聽音頻，回答下面的問題。
+聆聽音訊並回答以下問題。
 
 # --questions--
 
 ## --text--
 
-Is James sure that they need to update the software?
+James 確定他們需要更新軟體嗎？
 
 ## --answers--
 
-Not really, since he is asking for Maria's opinion.
+不完全是，因為他是在詢問 Maria 的意見。
 
 ---
 
-Yes, he has already decided to update it.
+是的，他已經決定要更新它。
 
 ### --feedback--
 
-James is asking Maria about it, so he probably hasn't decided it yet.
+James 正在問 Maria 這件事，所以他可能還沒決定。
 
 ---
 
-Yes, he has already started updating the software.
+是的，他已經開始更新軟體。
 
 ### --feedback--
 
-James is asking whether they should update the software or not.
+James 正在詢問他們是否應該更新軟體。
 
 ---
 
-On the contrary, he's sure they should not update the software.
+相反地，他確定他們不應該更新軟體。
 
 ### --feedback--
 
-James is not rejecting the idea altogether; he is actually asking Maria's opinion on the topic.
+James 並沒有完全拒絕這個想法；他實際上是在詢問 Maria 對這個主題的意見。
 
 ## --video-solution--
 
@@ -52,9 +52,9 @@ James is not rejecting the idea altogether; he is actually asking Maria's opinio
 
 # --explanation--
 
-`To update` means to modify or improve software by releasing a new version. Updates can include bug fixes, new features, or performance improvements. For example:
+`To update` 是指透過釋出新版本來修改或改進軟體。更新可以包含錯誤修正、新的特性或效率改善。<dfn>例如</dfn>：
 
-`The company released an update to fix security vulnerabilities in the app.` - This means a new version was launched to address security issues.
+`The company released an update to fix security vulnerabilities in the app.`－這表示已推出新版本以解決安全性問題。
 
 # --scene--
 

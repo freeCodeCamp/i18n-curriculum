@@ -1,6 +1,6 @@
 ---
 id: 68fa8b4ecf2cf649ff55f7fd
-title: Task 2
+title: 任務 2
 challengeType: 19
 dashedName: task-2
 lang: es
@@ -8,13 +8,13 @@ lang: es
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+聆聽音訊並回答以下問題。
 
 # --questions--
 
 ## --text--
 
-What is the **second** letter pronounced in this audio?
+這段音訊中**第二個**字母的發音是什麼？
 
 ## --answers--
 
@@ -22,7 +22,7 @@ What is the **second** letter pronounced in this audio?
 
 ### --feedback--
 
-The letter `b` has a different sound.
+字母 `b` 有不同的發音。
 
 ---
 
@@ -34,7 +34,7 @@ The letter `b` has a different sound.
 
 ### --feedback--
 
-The letter `z` has a different sound.
+字母 `z` 有不同的發音。
 
 ---
 
@@ -42,7 +42,7 @@ The letter `z` has a different sound.
 
 ### --feedback--
 
-The letter `m` has a different sound.
+字母 `m` 有不同的發音。
 
 ## --video-solution--
 
@@ -50,9 +50,9 @@ The letter `m` has a different sound.
 
 # --explanation--
 
-These are the three letters pronounced in the audio: `b`, `x`, `z`.
+這些是在 `audio` 中發音的三個字母：`b`、`x`、`z`。
 
-The letter `x` is the second one. Therefore, `x` is the correct answer.
+字母 `x` 是第二個。因此，`x` 是正確答案。
 
 # --scene--
 

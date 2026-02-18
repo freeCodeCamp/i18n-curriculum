@@ -1,6 +1,6 @@
 ---
 id: 663a4d6ec33accaf2ec7be49
-title: Task 28
+title: 任務 28
 challengeType: 22
 dashedName: task-28
 lang: en-US
@@ -10,13 +10,13 @@ lang: en-US
 
 # --description--
 
-A `smile` is what happens when you turn up the corners of your mouth to show happiness. It is something you do with your face when you are happy or want to be nice.
+`smile` 是當你將嘴角上揚以表達快樂時所發生的事情。當你快樂或想要表現友善時，這是你用臉部所做的動作。
 
-`Friendly` describes someone who is kind, nice, and easy to talk to. A friendly person makes others feel comfortable and happy.
+`Friendly` 描述一個人親切、友善且容易交談。友善的人讓別人感到自在和快樂。
 
-`A friendly smile` is a smile that shows you are being kind and welcoming. It makes others feel good and shows you want to be friends.
+`A friendly smile` 是一種展現你友善和熱情的微笑。它讓別人感覺良好，並表示你想成為朋友。
 
-Listen to the dialogue and fill in the blanks.
+聆聽對話窗並填寫空格。
 
 # --fillInTheBlank--
 
@@ -30,7 +30,7 @@ Listen to the dialogue and fill in the blanks.
 
 ### --feedback--
 
-This blank describes someone who is nice, easy to talk to and welcoming.
+這個空白描述一個友善、容易交談且熱情的人。
 
 ---
 
@@ -38,7 +38,7 @@ This blank describes someone who is nice, easy to talk to and welcoming.
 
 ### --feedback--
 
-The action you do when you want to show happiness with your mouth.
+當你想用嘴巴表達快樂時所做的動作。
 
 # --scene--
 

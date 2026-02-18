@@ -1,17 +1,17 @@
 ---
 id: 5f3ef6e0e0c3feaebcf647ad
-title: Step 43
+title: 步驟 43
 challengeType: 0
 dashedName: step-43
 ---
 
 # --description--
 
-Add an `h2` element in the new section and give it the text `Desserts`.
+在新區段中添加一個 `h2` 元素並給它文字 `Desserts`。
 
 # --hints--
 
-你不應該改變你現有的 `section` 元素。
+你不應該更改你現有的 `section` 元素。
 
 ```js
 assert.lengthOf(document.querySelectorAll('section'), 2);
@@ -67,7 +67,7 @@ assert.match(document.querySelectorAll('h2')?.[1]?.innerText, /Desserts/i);
         </section>
         <section>
 --fcc-editable-region--
-
+          
 --fcc-editable-region--
         </section>
       </main>

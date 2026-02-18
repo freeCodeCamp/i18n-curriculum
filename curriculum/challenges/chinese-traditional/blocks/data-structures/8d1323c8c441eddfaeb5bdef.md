@@ -1,6 +1,6 @@
 ---
 id: 8d1323c8c441eddfaeb5bdef
-title: Create a Set Class
+title: 創建一個 Set 類別
 challengeType: 1
 forumTopicId: 301632
 dashedName: create-a-set-class
@@ -8,7 +8,7 @@ dashedName: create-a-set-class
 
 # --description--
 
-In this exercise we are going to create a class named `Set` to emulate an abstract data structure called "set". A set is like an array, but it cannot contain duplicate values. The typical use for a set is to simply check for the presence of an item. We can see how the ES6 `Set` object works in the example below:
+在這個練習中，我們將創建一個名為 `Set` 的類別，以模擬一個稱為「集合」的抽象資料結構。集合就像陣列，但它不能包含重複的值。集合的典型用途是簡單地檢查某個項目是否存在。我們可以在下面的範例中看到 ES6 `Set` 物件的運作方式：
 
 ```js
 const set1 = new Set([1, 2, 3, 5, 5, 2, 0]);
@@ -20,17 +20,17 @@ console.log(set1.has(6));
 // output: false
 ```
 
-First, we will create an add method that adds a value to our set collection as long as the value does not already exist in the set. Then we will create a remove method that removes a value from the set collection if it already exists. And finally, we will create a size method that returns the number of elements inside the set collection.
+首先，我們將創建一個 add 方法，當值尚未存在於我們的群集中時，將該值添加到群集中。然後，我們將創建一個 remove 方法，如果該值已存在於群集中，則從群集中移除該值。最後，我們將創建一個 size 方法，傳回群集中元素的數量。
 
 # --instructions--
 
-Create an `add` method that adds a unique value to the set collection and returns `true` if the value was successfully added and `false` otherwise.
+創建一個 `add` 方法，將唯一值添加到集合群集中，並在成功添加該值時傳回 `true`，否則傳回 `false`。
 
-Create a `remove` method that accepts a value and checks if it exists in the set. If it does, then this method should remove it from the set collection, and return `true`. Otherwise, it should return `false`. Create a `size` method that returns the size of the set collection.
+創建一個接受值並檢查該值是否存在於集合中的 `remove` 方法。如果存在，則此方法應該將其從群集中移除，並傳回 `true`。否則，應傳回 `false`。創建一個傳回集合大小的 `size` 方法。
 
 # --hints--
 
-Your `Set` class should have an `add` method.
+你的 `Set` 類別應該有一個 `add` 方法。
 
 ```js
 assert(
@@ -41,7 +41,7 @@ assert(
 );
 ```
 
-Your `add` method should not add duplicate values.
+你的 `add` 方法不應該新增重複的值。
 
 ```js
 assert(
@@ -56,7 +56,7 @@ assert(
 );
 ```
 
-Your `add` method should return `true` when a value has been successfully added.
+當值已成功添加時，你的 `add` 方法應該傳回 `true`。
 
 ```js
 assert(
@@ -68,7 +68,7 @@ assert(
 );
 ```
 
-Your `add` method should return `false` when a duplicate value is added.
+當加入重複值時，你的 `add` 方法應該傳回 `false`。
 
 ```js
 assert(
@@ -81,7 +81,7 @@ assert(
 );
 ```
 
-Your `Set` class should have a `remove` method.
+你的 `Set` 類別應該有一個 `remove` 方法。
 
 ```js
 assert(
@@ -92,7 +92,7 @@ assert(
 );
 ```
 
-Your `remove` method should only remove items that are present in the set.
+你的 `remove` 方法應該只移除集合中存在的項目。
 
 ```js
 assert.deepEqual(
@@ -107,7 +107,7 @@ assert.deepEqual(
 );
 ```
 
-Your `remove` method should remove the given item from the set.
+你的 `remove` 方法應該從集合中移除指定的項目。
 
 ```js
 assert(
@@ -122,7 +122,7 @@ assert(
 );
 ```
 
-Your `Set` class should have a `size` method.
+你的 `Set` 類別應該有一個 `size` 方法。
 
 ```js
 assert(
@@ -133,7 +133,7 @@ assert(
 );
 ```
 
-The `size` method should return the number of elements in the collection.
+`size` 方法應該傳回群集中的元素數量。
 
 ```js
 assert(
@@ -170,7 +170,7 @@ class Set {
   }
 
   // Only change code below this line
-
+  
   // Only change code above this line
 }
 ```

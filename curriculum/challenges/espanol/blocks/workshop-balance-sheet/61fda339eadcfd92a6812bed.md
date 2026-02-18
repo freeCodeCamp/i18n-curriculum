@@ -11,7 +11,7 @@ Ante de ir demasiado lejos en tu estilización, deberías hacer uso la clase `sr
 
 El CSS que estás a punto de escribir es un conjunto común de propiedades usadas para asegurar que los elementos estén completamente ocultos visualmente.
 
-The `span[class~="sr-only"]` selector will select any `span` element whose `class` _includes_ `sr-only`. Create that selector, and give it a `border` property set to `0`.
+El selector `span[class~="sr-only"]` seleccionará cualquier elemento `span` cuyo `class` *incluya* `sr-only`. Crea ese selector y dale una propiedad `border` configurada a `0`.
 
 # --hints--
 

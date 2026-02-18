@@ -1,6 +1,6 @@
 ---
 id: 67caec5ecebab7be7456df7f
-title: Task 130
+title: 任务 130
 challengeType: 19
 dashedName: task-130
 lang: en-US
@@ -10,53 +10,53 @@ lang: en-US
 
 # --instructions--
 
-听音频，回答下面的问题。
+听音频，回答下面的问题。  
 
 # --questions--
 
 ## --text--
 
-What other issue did the team raise?
+团队还引起了什么其他问题？
 
 ## --answers--
 
-That they receive updates too early.
+他们收到更新太早。
 
 ### --feedback--
 
-Maria mentions the exact opposite.
+Maria 提到完全相反的情况。
 
 ---
 
-That they don't want to communicate as much.
+他们不想那么多地交流。
 
 ### --feedback--
 
-Maria doesn't mention the team's willingness to communicate.
+Maria 没有提到团队的沟通意愿。  
 
 ---
 
-That they often don't hear about changes in time.
+他们经常无法及时听到变更。
 
 ---
 
-That they think too many people are involved in communication.
+他们认为太多人参与了通信。
 
 ### --feedback--
 
-Maria does not mention the number of people involved.
+Maria 没有提及涉及的人数。
 
 ## --video-solution--
 
-3
+3  
 
 # --explanation--
 
-When you say something `isn't great`, you are softening a negative message (instead of saying `it is bad`, for instance). It makes criticism sound more polite or indirect. Take a look at the following sentences:
+当你说某事 `isn't great` 时，你是在缓和一个负面消息（例如，而不是说 `it is bad`）。这使得批评听起来更礼貌或间接。请看以下句子：
 
-- `The design is bad.` - This is a strong negative statement, which often sounds impolite.
+- `The design is bad.` - 这是一个强烈的负面语句，通常听起来不礼貌。
 
-- `The design isn't great. Maybe we can improve it.` - Saying this sound less harsh and more constructive.
+- `The design isn't great. Maybe we can improve it.`——这样说听起来不那么严厉，更具建设性。
 
 # --scene--
 

@@ -7,9 +7,9 @@ dashedName: step-19
 
 # --description--
 
-In the base-2 number system, the rightmost digit represents the ones place, the next digit to the left represents the twos place, then the fours place, then the eights place, and so on. In this system, each digit's place value is two times greater than the digit to its right.
+在以二进制为基数的数字系统中，最右边的数字代表个位，左边的下一位数字代表两位，然后是四位，然后是八位，依此类推。 在这个系统中，每个数字的位值是其右边数字的两倍。
 
-Here are numbers zero to nine in the base-10 and base-2 number systems:
+以下是十进制和二进制数字系统中从零到九的数字：
 
 ```md
 | Base-10 | Base-2 |
@@ -26,25 +26,25 @@ Here are numbers zero to nine in the base-10 and base-2 number systems:
 |    9    |  1001  |
 ```
 
-Notice that binary numbers are formed from left to right, from the digit with the greatest place value on the left, to the least significant on the right. For example, the number `3` in binary is `11`, or `1` in the twos place and `1` in the ones place. Then for the number `4`, a digit to represent the fours place is included on the left and set to `1`, the twos place is `0`, and the ones place is `0`.
+请注意，二进制数是从左到右形成的，从左边位值最高的数字到右边位值最低的数字。 例如，二进制中的数字 `3` 是 `11`，或者两位的数字是 `1`，个位的数字是 `1`。 然后对于数字 `4`，左边包含一个表示四位的数字并设置为 `1`，两位为 `0`，个位为 `0`。
 
-In your `decimalToBinary` function, convert the number `10` into binary and `return` it as a string.
+在 `decimalToBinary` 函数中，将数字 `10` 转换为二进制并将其 `return` 为字符串。
 
 # --hints--
 
-Your `decimalToBinary` function should return a string.
+你的 `decimalToBinary` 函数应该返回一个字符串。
 
 ```js
 assert.isString(decimalToBinary());
 ```
 
-Your `decimalToBinary` function should return a string with a length of `4`.
+你的 `decimalToBinary` 函数应返回长度为 `4` 的字符串。
 
 ```js
 assert.strictEqual(decimalToBinary().length, 4);
 ```
 
-Your `decimalToBinary` function should return `"1010"` as a string.
+你的 `decimalToBinary` 函数应返回 `"1010"` 字符串。
 
 ```js
 assert.strictEqual(decimalToBinary(), '1010');

@@ -1,6 +1,6 @@
 ---
 id: 657b1a27dc6daf6ffd52ff1f
-title: Task 30
+title: 任務 30
 challengeType: 19
 dashedName: task-30
 lang: en-US
@@ -11,43 +11,43 @@ Second Candidate: Yes. I have a master's degree in computer science. -->
 
 # --description--
 
-In English, the noun suffixed with `'s` followed by a second noun structure is used to show possession or belonging.
+在英文中，名詞後接 `'s` 再接第二個名詞的結構用來表示所有權或所屬關係。
 
-If the first noun is singular, as in `Sarah's laptop`, it indicates that the laptop belongs to Sarah. However, if the first noun is plural, the structure changes to noun suffixed with `'`, as in `teachers' office`, indicating an office for teachers.
+如果第一個名詞是單數，如 `Sarah's laptop`，則表示筆電屬於 Sarah。然而，如果第一個名詞是複數，結構會改為名詞後綴 `'`，如 `teachers' office`，表示老師們的辦公室。
 
 # --questions--
 
 ## --text--
 
-What does `master's degree` in the context of the dialogue refer to?
+在對話盒的背景關係中，`master's degree` 指的是什麼？
 
 ## --answers--
 
-A degree for school teachers
+學校教師學位
 
 ### --feedback--
 
-`Master's degree` refers to an advanced academic degree, not specifically for teachers.
+`Master's degree` 指的是一種進階學位，並非專門針對教師。
 
 ---
 
-A primary level educational degree
+初級教育學位
 
 ### --feedback--
 
-`Master's degree` is a higher education qualification, beyond the primary level.
+`Master's degree` 是高於初級層次的高等教育資格。
 
 ---
 
-A degree in mastering skills
+掌握技能的程度
 
 ### --feedback--
 
-While it implies expertise, `master's degree` specifically refers to an academic qualification.
+雖然它暗示專業知識，`master's degree` 特指學術資格。
 
 ---
 
-An advanced academic degree
+一個進階學術學位
 
 ## --video-solution--
 

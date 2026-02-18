@@ -7,19 +7,19 @@ dashedName: step-58
 
 # --description--
 
-將 `display` 設置爲 `block`，提交按鈕與父按鈕的左邊緣齊平。
+當 `display` 為 `block` 時，提交按鈕會緊貼其父元素的左邊緣。
 
-使用與使 `form` 居中相同的技術來居中提交按鈕。
+使用用於置中 `form` 的相同技術來置中提交按鈕。
 
 # --hints--
 
-你應該爲提交按鈕提供 `0 auto` 的 `margin`。
+你應該為提交按鈕設定 `margin` 為 `0 auto`。
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('input[type="submit"]')?.margin, '0px auto');
 ```
 
-你不應該給提交按鈕一個 `min-width` 或 `max-width`。
+你不應該為提交按鈕設定 `min-width` 或 `max-width`。
 
 ```js
 assert.isEmpty(new __helpers.CSSHelp(document).getStyle('input[type="submit"]')?.minWidth);

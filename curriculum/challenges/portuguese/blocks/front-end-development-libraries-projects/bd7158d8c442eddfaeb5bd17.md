@@ -7,13 +7,13 @@ dashedName: build-a-javascript-calculator
 ---
 
 # --description--
-**Note:** **React 18 has known incompatibilities with the tests for this project (see [issue](https://github.com/freeCodeCamp/freeCodeCamp/issues/45922))**
+**Nota:** **React 18 tem incompatibilidades conhecidas com os testes deste projeto (veja [issue](https://github.com/freeCodeCamp/freeCodeCamp/issues/45922))**
 
 **Objetivo:** Construir um aplicativo que seja funcionalmente semelhante a este: <a href="https://javascript-calculator.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://javascript-calculator.freecodecamp.rocks/</a>.
 
-Atenda às histórias de usuário abaixo e faça com que todos os testes passem.Use quaisquer bibliotecas ou APIs de que você precisar.Dê ao projeto o seu próprio estilo pessoal.
+Atenda às histórias de usuário abaixo e faça com que todos os testes passem. Use quaisquer bibliotecas ou APIs de que você precisar. Dê ao projeto o seu próprio estilo pessoal.
 
-Você pode usar qualquer mistura de HTML, JavaScript, CSS, Bootstrap, SASS, React, Redux e JQuery para completar este projeto.Você deve usar um framework de front-end (como React por exemplo) porque essa seção trata de aprender frameworks de front-end.Tecnologias adicionais não listadas acima não são recomendadas e usá-las é por sua conta e risco.Estamos buscando apoiar outros frameworks de front-end, como Angular e Vue, mas eles não são atualmente suportados.Vamos aceitar e tentar corrigir todos os relatórios de problemas que usem o conjunto de tecnologias sugeridas para esse projeto. Happy coding!
+Você pode usar qualquer mistura de HTML, JavaScript, CSS, Bootstrap, SASS, React, Redux e JQuery para completar este projeto. Você deve usar um framework de front-end (como React por exemplo) porque essa seção trata de aprender frameworks de front-end. Tecnologias adicionais não listadas acima não são recomendadas e usá-las é por sua conta e risco. Estamos buscando apoiar outros frameworks de front-end, como Angular e Vue, mas eles não são atualmente suportados. Vamos aceitar e tentar corrigir todos os relatórios de problemas que usem o conjunto de tecnologias sugeridas para esse projeto.  Happy coding!
 
 **User Story #1:** Minha calculadora deve conter um elemento clicável contendo um `=` (sinal de igual) com um correspondente `id="equals"`.
 
@@ -39,13 +39,13 @@ Você pode usar qualquer mistura de HTML, JavaScript, CSS, Bootstrap, SASS, Reac
 
 **História de Usuário #12:** Eu devo ser capaz de realizar qualquer operação (`+`, `-`, `*`, `/`) em números contendo pontos decimais.
 
-**User Story #13:** Se 2 ou mais operadores forem inseridos consecutivamente, a operação realizada deve ser o último operador inserido (excluindo o sinal negativo (`-`)).Por exemplo, se `5 + * 7 =` for inserido, o resultado deve ser `35` (ou seja, `5 * 7`); se `5 * - 5 =` for inserido, o resultado deve ser `-25` (ou seja, `5 * (-5)`).
+**User Story #13:** Se 2 ou mais operadores forem inseridos consecutivamente, a operação realizada deve ser o último operador inserido (excluindo o sinal negativo (`-`)). Por exemplo, se `5 + * 7 =` for inserido, o resultado deve ser `35` (ou seja, `5 * 7`); se `5 * - 5 =` for inserido, o resultado deve ser `-25` (ou seja, `5 * (-5)`).
 
 **História de Usuário #14:** Pressionar um operador imediatamente após `=` deve iniciar um novo cálculo que opere sobre o resultado da avaliação anterior.
 
 **User Story #15:** Minha calculadora deve ter várias casas decimais de precisão quando se trata de arredondamento (observe que não existe um padrão exato, mas você deve ser capaz de lidar com cálculos como `2 / 7` com precisão razoável de pelo menos 4 casas decimais).
 
-**Nota Sobre a Lógica da Calculadora:** Deve-se notar que existem duas principais correntes de pensamento sobre a lógica de entrada da calculadora: <dfn>lógica de execução imediata</dfn> e <dfn>lógica de fórmula</dfn>.Nosso exemplo utiliza a lógica da fórmula e observa a ordem de precedência de operação. A lógica de execução imediata não faz isso.Qualquer uma é aceitável, mas observe que, dependendo de qual você escolher, sua calculadora pode alcançar diferentes resultados do que os nossos para certas equações (veja abaixo um exemplo).Desde que sua matemática possa ser verificada por outra calculadora em produção, não considere isso um bug.
+**Nota Sobre a Lógica da Calculadora:** Deve-se notar que existem duas principais correntes de pensamento sobre a lógica de entrada da calculadora: <dfn>lógica de execução imediata</dfn> e <dfn>lógica de fórmula</dfn>. Nosso exemplo utiliza a lógica da fórmula e observa a ordem de precedência de operação. A lógica de execução imediata não faz isso. Qualquer uma é aceitável, mas observe que, dependendo de qual você escolher, sua calculadora pode alcançar diferentes resultados do que os nossos para certas equações (veja abaixo um exemplo). Desde que sua matemática possa ser verificada por outra calculadora em produção, não considere isso um bug.
 
 **EXEMPLO:** `3 + 5 x 6 - 2 / 4 =`  
 

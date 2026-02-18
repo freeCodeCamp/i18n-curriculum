@@ -8,7 +8,7 @@ dashedName: create-a-set-class
 
 # --description--
 
-Neste exercício, vamos criar uma classe chamada `Set` para emular uma estrutura de dados abstrata chamada "set" (conjunto).Um conjunto é como um array, mas não pode conter valores duplicados.A utilização típica de um conjunto é simplesmente verificar a presença de um item.Podemos ver como o objeto `Set` do ES6 funciona no exemplo abaixo:
+Neste exercício, vamos criar uma classe chamada `Set` para emular uma estrutura de dados abstrata chamada "set" (conjunto). Um conjunto é como um array, mas não pode conter valores duplicados. A utilização típica de um conjunto é simplesmente verificar a presença de um item. Podemos ver como o objeto `Set` do ES6 funciona no exemplo abaixo:
 
 ```js
 const set1 = new Set([1, 2, 3, 5, 5, 2, 0]);
@@ -20,13 +20,13 @@ console.log(set1.has(6));
 // output: false
 ```
 
-Primeiramente, criaremos um método add que adiciona um valor à coleção desde que o valor já não exista no conjunto.Então, criaremos um método remove que remove um valor da coleção definida, se ele já existir lá.Por fim, criaremos um método size, que retorna o número de elementos dentro da coleção definida.
+Primeiramente, criaremos um método add que adiciona um valor à coleção desde que o valor já não exista no conjunto. Então, criaremos um método remove que remove um valor da coleção definida, se ele já existir lá. Por fim, criaremos um método size, que retorna o número de elementos dentro da coleção definida.
 
 # --instructions--
 
 Crie um método `add`, que adiciona um valor único à coleção do conjunto, retornando `true` se o valor for adicionado com sucesso e `false` se não for.
 
-Crie um método `remove` que aceita um valor e verifica se ele existe no conjunto.Se existir, o método deve remover o valor da coleção do conjunto e retornar `true`.Caso contrário, ele deverá retornar `false`.Crie um método `size` que retorne o tamanho da coleção do conjunto.
+Crie um método `remove` que aceita um valor e verifica se ele existe no conjunto. Se existir, o método deve remover o valor da coleção do conjunto e retornar `true`. Caso contrário, ele deverá retornar `false`. Crie um método `size` que retorne o tamanho da coleção do conjunto.
 
 # --hints--
 

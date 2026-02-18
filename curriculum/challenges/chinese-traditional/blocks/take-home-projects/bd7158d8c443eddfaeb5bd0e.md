@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c443eddfaeb5bd0e
-title: Chart the Stock Market
+title: 繪製股市走勢圖
 challengeType: 4
 forumTopicId: 302363
 dashedName: chart-the-stock-market
@@ -8,19 +8,19 @@ dashedName: chart-the-stock-market
 
 # --description--
 
-Build a full stack JavaScript app that is functionally similar to this: <a href="https://chart-the-stock-market.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://chart-the-stock-market.freecodecamp.rocks/</a>. Use a site builder of your choice to complete the project.
+建置一個功能上類似於此的全端 JavaScript 應用程式：<a href="https://chart-the-stock-market.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://chart-the-stock-market.freecodecamp.rocks/</a>。使用你選擇的網站建置工具來完成此專案。
 
-Here are the specific user stories you should implement for this project:
+以下是你應該為此專案實作的具體使用者故事：
 
-**User Story:** You can view a graph displaying the recent trend lines for each added stock.
+**使用者故事：** 你可以查看顯示每個已添加股票近期趨勢線的圖表。
 
-**User Story:** You can add new stocks by their symbol name.
+**使用者故事：**你可以透過他們的符號名稱添加新的股票。
 
-**User Story:** You can remove stocks.
+**使用者故事：** 你可以移除庫存。
 
-**User Story:** You can see changes in real-time when any other user adds or removes a stock. For this you will need to use Web Sockets.
+**使用者故事：** 當任何其他使用者添加或移除股票時，你可以即時看到變更。為此你需要使用 Web Sockets。
 
-When you are done, make sure a working demo of your project is hosted somewhere public. Then submit the URL to it in the Solution Link field. Optionally, also submit a link to your project's source code in the GitHub Link field.
+完成後，請確保你的專案有一個可運作的示範公開託管在某處。然後在 Solution Link 欄位提交其 URL。選填地，也可在 GitHub Link 欄位提交你的專案原始碼的連結。
 
 # --solutions--
 

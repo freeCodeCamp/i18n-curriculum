@@ -1,6 +1,6 @@
 ---
 id: 67cbbe41bccb0840a852edfc
-title: Task 44
+title: 任务 44
 challengeType: 22
 dashedName: task-44
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+请听音频，并完成下面的填空。
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This three-word phrase is used to acknowledge and show appreciation for receiving useful or important information. It's often used when you learn something helpful.
+这三个字的短语用于确认并表达对收到有用或重要信息的感谢。它通常在你学到有帮助的内容时使用。
 
 ---
 
@@ -32,7 +32,7 @@ This three-word phrase is used to acknowledge and show appreciation for receivin
 
 ### --feedback--
 
-This two-word phrase means to choose or select something, especially after considering different options.
+这个两个字的短语意味着选择某物，尤其是在考虑了不同的选项之后。
 
 ---
 
@@ -40,21 +40,21 @@ This two-word phrase means to choose or select something, especially after consi
 
 ### --feedback--
 
-This two-word phrase refers to something that is the most important or urgent.
+这个两个字的短语指的是最重要或最紧急的事情。
 
 # --explanation--
 
-`Good to know` is used to show that the information shared is useful or appreciated. For example:
+`Good to know` 用于表示所分享的信息是有用的或值得感谢的。例如：
 
-`It's good to know that the software is easy to use.` - This means the speaker appreciates learning that the software is easy to use.
+`It's good to know that the software is easy to use.` - 这意味着说话者很高兴得知该软件易于使用。
 
-`Go with` means to choose something, usually after some thought or comparison. For example:
+`Go with` 意味着选择某物，通常是在经过一些思考或比较之后。例如：
 
-`After much discussion, we went with the cheaper option.` - This means you chose the less expensive option after considering different choices.
+`After much discussion, we went with the cheaper option.`——这意味着你在考虑了不同的选择后，选择了价格较低的选项。
 
-`Top priority` means that something is the most important thing to consider or focus on. It's often used in work or decision-making contexts. For example:
+`Top priority` 意味着某事是最重要的考虑或关注点。它通常用于工作或决策的上下文中。例如：
 
-`Our top priority right now is improving the website's performance.` - This means the most important task at the moment is to improve how well the website works, making it a main focus.
+`Our top priority right now is improving the website's performance.`——这意味着当前最重要的任务是提升网站的性能，使其成为主要关注点。
 
 # --scene--
 

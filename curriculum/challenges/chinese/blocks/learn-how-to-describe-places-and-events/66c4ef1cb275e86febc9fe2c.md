@@ -1,6 +1,6 @@
 ---
 id: 66c4ef1cb275e86febc9fe2c
-title: Task 113
+title: 任务 113
 challengeType: 22
 dashedName: task-113
 lang: en-US
@@ -9,13 +9,12 @@ lang: en-US
 <!-- Audio Reference:
 Sarah: It should, but it's not displaying because the live server extension might not be running. -->
 
-
 <!-- Audio Reference:
 Sarah: It should, but it's not displaying because the live server extension might not be running. -->
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+请听音频，并完成下面的填空。
 
 # --fillInTheBlank--
 
@@ -29,7 +28,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-The action of showing or rendering something. This word ends in `-ing`.
+显示或渲染某物的动作。该词以 `-ing` 结尾。
 
 ---
 
@@ -37,15 +36,15 @@ The action of showing or rendering something. This word ends in `-ing`.
 
 ### --feedback--
 
-Indicates the extension is active and functioning. This word ends in `-ing`.
+表示扩展名处于活动状态并正在运行。该词以 `-ing` 结尾。
 
 # --explanation--
 
-A gerund is a verb form ending in `-ing` that functions as a noun. In this sentence, `displaying` and `running` are gerunds that describe ongoing actions. 例如：
+动名词是以 `-ing` 结尾且作为名词使用的动词形式。在这个句子中，`displaying` 和 `running` 是描述正在进行动作的动名词。例如：
 
-- `Updating the software is essential.` - Here, `Updating` is a gerund describing an action.
+- `Updating the software is essential.` - 这里，`Updating` 是描述动作的动名词。
 
-In Sarah's sentence, `displaying` and `running` describe actions related to the live server extension and how it functions.
+在 Sarah 的句子中，`displaying` 和 `running` 描述了与实时服务器扩展（程序、功能）相关的操作及其工作方式。
 
 # --scene--
 

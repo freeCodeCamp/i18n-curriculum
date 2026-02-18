@@ -1,6 +1,6 @@
 ---
 id: 67ee802cf777fd1dcdeac13a
-title: Task 19
+title: 任務 19
 challengeType: 19
 dashedName: task-19
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-聽音頻，回答下面的問題。
+聆聽音訊並回答以下問題。
 
 # --questions--
 
 ## --text--
 
-What requirement does Sophie mention?
+Sophie 提到什麼需求？
 
 ## --answers--
 
-Mark should delete unnecessary lines of code.
+Mark 應該刪除不必要的程式碼行。
 
 ### --feedback--
 
-Sophie doesn't talk about removing code.
+Sophie 不會談論移除程式碼。
 
 ---
 
-Mark should rewrite his code completely.
+Mark 應該完全重寫他的程式碼。
 
 ### --feedback--
 
-Sophie doesn't suggest rewriting the entire code.
+Sophie 不建議重寫整個程式碼。
 
 ---
 
-Mark should avoid using loops.
+Mark 應避免使用迴圈。
 
 ### --feedback--
 
-Sophie does not say anything about avoiding loops.
+Sophie 沒有提到要避免使用迴圈。
 
 ---
 
-Mark should use notes in his code.
+Mark 應該在他的程式碼中使用註解。
 
 ## --video-solution--
 
@@ -52,13 +52,13 @@ Mark should use notes in his code.
 
 # --explanation--
 
-A `comment` is a note in the code that helps explain what it does. For example:
+`comment` 是程式碼中的註解，有助於說明它的功能。例如：
 
-- `I added a comment to explain why this loop is necessary.` - You wrote a comment to describe why certain loop is used.
+- 你寫了一個註解來說明為什麼需要這個迴圈。
 
-- `You can use comments to leave notes about issues that need fixing later.` - Comments can be added in the code as reminders for things that need to be fixed or improved.
+- 你可以使用註解來留下關於稍後需要修正問題的備註。- 註解可以添加在程式碼中，作為需要修正或改進事項的提醒。
 
-Comments help others understand the code and remind you of important details when reviewing your code later.
+註解幫助其他人理解程式碼，並在你稍後檢視程式碼時提醒你重要的細節。
 
 # --scene--
 

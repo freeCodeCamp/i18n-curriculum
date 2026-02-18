@@ -20,7 +20,7 @@ Mas você também pode declarar uma variável string assim:
 var myName = "your name";
 ```
 
-`"your name"` é chamado de <dfn>string</dfn> <dfn>literal</dfn>.Uma string literal, ou string, é uma série de 0 ou mais caracteres entre aspas simples ou duplas.
+`"your name"` é chamado de <dfn>string</dfn> <dfn>literal</dfn>. Uma string literal, ou string, é uma série de 0 ou mais caracteres entre aspas simples ou duplas.
 
 # --instructions--
 

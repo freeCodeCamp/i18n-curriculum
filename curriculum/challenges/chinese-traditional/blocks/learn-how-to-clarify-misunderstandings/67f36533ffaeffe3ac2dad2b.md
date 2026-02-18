@@ -1,6 +1,6 @@
 ---
 id: 67f36533ffaeffe3ac2dad2b
-title: Task 131
+title: 任務 131
 challengeType: 19
 dashedName: task-131
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-聽音頻，回答下面的問題。
+聆聽音訊並回答以下問題。
 
 # --questions--
 
 ## --text--
 
-What is Jessica explaining?
+Jessica 在解釋什麼？
 
 ## --answers--
 
-There was a problem with the current update's schedule.
+目前更新的排程發生問題。
 
 ### --feedback--
 
-Jessica is talking about the feature's timing, not the schedule of the update itself.
+Jessica 正在討論該特性的時機，而不是更新本身的排程。
 
 ---
 
-The budget tracking feature will be in the next update, not the current one.
+預算追蹤特性將會在下一次更新中推出，而非目前這次。
 
 ---
 
-The budget tracking feature has been removed from the current update.
+預算追蹤特性已從目前的更新中移除。
 
 ### --feedback--
 
-Jessica doesn't mention that the feature has been removed.
+Jessica 沒有提到該特性已被移除。
 
 ---
 
-The feature was mistakenly included in this update.
+這個特性錯誤地包含在此更新中。
 
 ### --feedback--
 
-Jessica doesn't say the feature was mistakenly included.
+Jessica 並沒有說該特性是錯誤包含的。
 
 ## --video-solution--
 
@@ -52,9 +52,9 @@ Jessica doesn't say the feature was mistakenly included.
 
 # --explanation--
 
-Jessica says, `The budget tracking feature is planned for the next update`, explaining that the feature is not included in the current update but will be added in the next one.
+Jessica 說，`The budget tracking feature is planned for the next update`，解釋該特性不包含在目前的更新中，但會在下一次更新中添加。
 
-This clears up the confusion about the feature's timing.
+這釐清了關於該特性的時機混淆。
 
 # --scene--
 

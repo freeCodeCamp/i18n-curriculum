@@ -1,6 +1,6 @@
 ---
 id: cf1111c1c11feddfaeb6bdef
-title: Divide One Number by Another with JavaScript
+title: 使用 JavaScript 將一個數字除以另一個數字
 challengeType: 1
 forumTopicId: 17566
 dashedName: divide-one-number-by-another-with-javascript
@@ -8,30 +8,30 @@ dashedName: divide-one-number-by-another-with-javascript
 
 # --description--
 
-We can also divide one number by another.
+我們也可以用一個數字除以另一個數字。
 
-JavaScript uses the `/` symbol for division.
+JavaScript 使用 `/` 符號表示除法。
 
-**Example**
+**範例**
 
 ```js
 const myVar = 16 / 2;
 ```
 
-`myVar` now has the value `8`.
+`myVar` 現在的值是 `8`。
 # --instructions--
 
-Change the `0` so that the `quotient` is equal to `2`.
+將 `0` 改成使 `quotient` 相等於 `2`。
 
 # --hints--
 
-The variable `quotient` should be equal to 2.
+變數 `quotient` 應該相等於 2。
 
 ```js
 assert(quotient === 2);
 ```
 
-You should use the `/` operator.
+你應該使用 `/` 運算子。
 
 ```js
 assert(/\d+\s*\/\s*\d+/.test(__helpers.removeJSComments(code)));

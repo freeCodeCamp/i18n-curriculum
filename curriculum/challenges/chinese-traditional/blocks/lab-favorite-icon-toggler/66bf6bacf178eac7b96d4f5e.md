@@ -1,6 +1,6 @@
 ---
 id: 66bf6bacf178eac7b96d4f5e
-title: Build a Favorite Icon Toggler
+title: 建置一個收藏圖示切換器
 challengeType: 25
 dashedName: build-a-favorite-icon-toggler
 demoType: onClick
@@ -8,55 +8,55 @@ demoType: onClick
 
 # --description--
 
-In this lab you will use JavaScript click events to toggle the appearance of a favorite icon. When the heart icon is clicked, the appearance of the heart changes from empty to filled, and vice versa.
+在本實驗中，你將使用 JavaScript 點擊事件來切換收藏圖示的外觀。當點擊心形圖示時，心形的外觀會從空心變為實心，反之亦然。
 
-**目標：**實現以下用戶需求並通過所有測試以完成實驗。
+**目標：** 完成以下使用者故事並通過所有測試以完成實驗。
 
-**用戶需求：**
+**使用者故事：**
 
-1. You should have an unordered list with three items.
-2. The unordered list should have the class `item-list`.
-3. The three list items should contain the item name followed by a `button` element with the class `favorite-icon`.
-4. The `button` element should contain the code `&#9825;` initially to represent an empty heart.
-5. When a `button` element containing a heart is clicked, you should add a class named `filled` to the clicked `button` if it's not already present, and remove it, if it is.
-6. You should have a class selector that targets the `filled` class and sets some CSS properties.
-7. When a `button` element containing a heart is clicked, the heart symbol should toggle between `&#9825;` (empty heart) and `&#10084;` (filled heart), depending on its current state.
+1. 你應該有一個包含三個項目的無序列表。
+2. 無序列表應該有類別 `item-list`。
+3. 這三個列表項目應包含項目名稱，後面接一個帶有類別 `favorite-icon` 的 `button` 元素。
+4. `button` 元素應該最初包含程式碼 `&#9825;` 以表述空心愛心。
+5. 當包含愛心的 `button` 元素被點擊時，如果點擊的 `button` 尚未有名為 `filled` 的類別，你應該為你的 `button` 添加該類別；如果已有，則將其移除。
+6. 你應該有一個類別選擇器，標的為 `filled` 類別並設定一些 CSS 屬性。
+7. 當包含愛心的 `button` 元素被點擊時，愛心符號應根據其當前狀態在 `&#9825;`（空心愛心）和 `&#10084;`（實心愛心）之間切換。
 
-**Note:** Be sure to link your JavaScript file in your HTML. (Ex. `<script src="script.js"></script>`)
+**注意：** 請務必在你的 HTML 中連結你的 JavaScript 檔案。（例如 `<script src="script.js"></script>`）
 
 # --hints--
 
-You should have an unordered list.
+你應該有一個無序列表。
 
 ```js
 assert.exists(document.querySelector('ul'));
 ```
 
-Your unordered list should have 3 items.
+你的無序列表應該有 3 項目。
 
 ```js
 assert.lengthOf(document.querySelectorAll('ul li'), 3);
 ```
 
-Your unordered list should have the class `item-list`.
+你的無序列表應該有 `item-list` 類別。
 
 ```js
 assert.exists(document.querySelector('ul.item-list'));
 ```
 
-Your individual list items should contain the item name.
+你的個別列表項目應包含該項目的名稱。
 
 ```js
 assert.exists(document.querySelector('ul li').textContent);
 ```
 
-Your individual list item should contain a `button` element with the class `favorite-icon`.
+你的個別列表項目應包含一個帶有類別 `favorite-icon` 的 `button` 元素。
 
 ```js
 assert.exists(document.querySelector('ul li button.favorite-icon'));
 ```
 
-Initially, the `button` elements should contain the code `&#9825;` to represent an empty heart.
+最初，`button` 元素應該包含程式碼 `&#9825;` 來表述空心愛心。
 
 ```js
 const inputs = document.querySelectorAll('ul li button.favorite-icon');
@@ -67,7 +67,7 @@ for (let input of inputs) {
 }
 ```
 
-You should have a `.filled` selector that sets some CSS properties.
+你應該有一個 `.filled` 選擇器來設定一些 CSS 屬性。
 
 ```js
 const filled = new __helpers.CSSHelp(document).getStyle('.filled');
@@ -75,7 +75,7 @@ assert.exists(filled);
 assert.isNotEmpty([...filled]); 
 ```
 
-When the `button` element is clicked, and it contains the class `filled`, you should remove the class `filled` from the `button` element and change the innerHTML of the `button` element to `&#9825;`.
+當 `button` 元素被點擊，且它包含類別 `filled` 時，你應該從 `button` 元素中移除類別 `filled`，並將 `button` 元素的 innerHTML 更改為 `&#9825;`。
 
 ```js
 const buttonElements = document.querySelectorAll('.favorite-icon');
@@ -90,7 +90,7 @@ buttonElements.forEach(button => {
 });
 ```
 
-When the `button` element is clicked, and it doesn't contain the class `filled`, you should add the class `filled` to the `button` element and change the `innerHTML` of the `button` element to `&#10084;`.
+當點擊 `button` 元素，且它不包含類別 `filled` 時，你應該為你的 `button` 元素添加類別 `filled`，並將 `button` 元素的 `innerHTML` 更改為 `&#10084;`。
 
 ```js
 const buttonElements = document.querySelectorAll('.favorite-icon');
@@ -119,7 +119,7 @@ buttonElements.forEach(button => {
   </head>
 
   <body>
-
+  
   </body>
 </html>
 ```

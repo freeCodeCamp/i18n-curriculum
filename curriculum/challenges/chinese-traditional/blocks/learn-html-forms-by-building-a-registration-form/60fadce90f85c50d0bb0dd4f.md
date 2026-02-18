@@ -7,11 +7,11 @@ dashedName: step-47
 
 # --description--
 
-爲使 `fieldset` 元素具有一定的分隔性，請選中它們併爲其設置 `3px solid #3b3b4f` 的 `border-bottom`。
+為了讓 `fieldset` 元素有一點分隔，選取它們並給予 `3px solid #3b3b4f` 的 `border-bottom`。
 
 # --hints--
 
-你應該設置 `fieldset` 的 `border-bottom` 爲 `3px solid #3b3b4f`。
+你應該為 `fieldset` 元素設定 `3px solid #3b3b4f` 的 `border-bottom`。
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('fieldset')?.borderBottom, '3px solid rgb(59, 59, 79)');

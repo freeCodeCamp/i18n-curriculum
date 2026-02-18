@@ -1,21 +1,21 @@
 ---
 id: 695cc8f280fef0cc3bed02cb
-title: What Is the Process Module and How Does It Work?
+title: 什麼是 Process 模組以及它如何運作？
 challengeType: 19
 dashedName: what-is-the-process-module-and-how-does-it-work
 ---
 
 # --description--
 
-`process` is one of the most important Node.js core modules. It gives you access to information about the current Node.js process, and lets you control it while your app is running.
+`process` 是最重要的 Node.js 核心模組之一。它讓你存取目前 Node.js `process` 的資訊，並在你的應用程式執行時控制它。
 
-When you execute a command like `node script.js` in the terminal, Node.js starts a process, which is a running instance of the Node program that executes the `script.js` file. This process has its own memory, environment, and execution context. 
+當你在終端機中執行像是 `node script.js` 的指令時，Node.js 會啟動一個處理程序，這是一個執行 `script.js` 檔案的 Node 程式的執行中實體。這個處理程序有它自己的記憶體、環境和執行背景關係。 
 
-The current process is exposed globally through the `process` module, so you don't even need to import it. As long as you have Node.js installed, then you can call it anywhere.
+目前的處理程序透過 `process` 模組全域公開，所以你甚至不需要匯入它。只要你安裝了 Node.js，就可以在任何地方呼叫它。
 
-The `process` module exposes properties and methods for you to get certain information about the current execution context.
+`process` 模組公開屬性和方法，讓你取得有關目前執行背景關係的特定資訊。
 
-`process.env` gets you information about the current environment Node is running on. This always returns a giant object with many parameters, so here's how you can access some of the most important information directly:
+`process.env` 讓你取得 Node 正在執行的當前環境的資訊。這總是傳回一個包含許多參數的龐大物件，所以這裡說明你如何直接存取一些最重要的資訊：
 
 ```js
 // Gets all environment variables available to the current Node.js process
@@ -37,7 +37,7 @@ console.log(process.env.PWD); // /Users/johndoe/projects/myapp
 console.log(process.env.USER); // johndoe
 ```
 
-`process.argv` lets you read command-line arguments:
+`process.argv` 讓你讀取命令列引數：
 
 ```js
 console.log(process.argv);
@@ -52,15 +52,15 @@ Hello world
 */
 ```
 
-The `cwd()` method shows the current working directory:
+`cwd()` 方法顯示目前的工作目錄：
 
 ```js
 console.log(process.cwd());
 ```
 
-Process events are a core feature of Node.js that let your app respond to key moments in its lifecycle, like when it's about to exit, encounters an error, or receives a system signal.
+處理程序事件是 Node.js 的核心特性，讓你的應用程式能回應其生命週期中的關鍵時刻，例如即將離開、遇到錯誤或接收到系統信號時。
 
-The `exit` event, for example, runs right before the Node.js process finishes:
+例如，`exit` 事件會在 Node.js 處理程序結束前立即執行：
 
 ```js
 process.on("exit", (code) => {
@@ -70,7 +70,7 @@ process.on("exit", (code) => {
 // Process exiting with code: 0
 ```
 
-The `uncaughtException` event is triggered when an error is not caught in your code, which can help you prevent crashes:
+當你的程式碼中未捕捉到錯誤時，會觸發 `uncaughtException` 事件，這可以幫助你防止當機：
 
 ```js
 process.on("uncaughtException", (err) => {
@@ -78,7 +78,7 @@ process.on("uncaughtException", (err) => {
 });
 ```
 
-Lastly, the `warning` event is triggered when Node.js emits a process warning:
+最後，當 Node.js 發出處理程序警告時，會觸發 `warning` 事件：
 
 ```js
 process.on("warning", (warning) => {
@@ -87,7 +87,7 @@ process.on("warning", (warning) => {
 });
 ```
 
-You can then use the `emitWarning()` method to trigger a custom warning:
+你接著可以使用 `emitWarning()` 方法來觸發訂製警告：
 
 ```js
 // Example warning with the emitWarning() method
@@ -103,35 +103,35 @@ process.emitWarning('This is a custom warning message', 'CustomWarning');
 
 ## --text--
 
-What does the `process.emitWarning()` method do?
+`process.emitWarning()` 方法做什麼？
 
 ## --answers--
 
-It stops the process when a custom warning occurs.
+當發生訂製警告時，它會停止該處理程序。
 
 ### --feedback--
 
-Think about how Node.js handles custom warnings through events.
+思考 Node.js 如何透過事件來控制代碼訂製警告。
 
 ---
 
-It triggers a custom warning event that can be handled by the warning listener.
+它會觸發一個訂製警告事件，該事件可以由警告監聽器控制代碼。
 
 ---
 
-It logs an error and exits the process immediately.
+它會記錄錯誤並立即離開該處理程序。
 
 ### --feedback--
 
-Think about how Node.js handles custom warnings through events.
+思考 Node.js 如何透過事件來控制代碼訂製警告。
 
 ---
 
-It restarts the Node.js process after showing a warning.
+它會在顯示警告後重新啟動 Node.js 處理程序。
 
 ### --feedback--
 
-Think about how Node.js handles custom warnings through events.
+思考 Node.js 如何透過事件來控制代碼訂製警告。
 
 ## --video-solution--
 
@@ -139,35 +139,35 @@ Think about how Node.js handles custom warnings through events.
 
 ## --text--
 
-How do you use the process module?
+你如何使用 `process` 模組？
 
 ## --answers--
 
-By calling it directly since it's a global object.
+透過直接呼叫它，因為它是全域物件。
 
 ---
 
-By enabling it in the Node.js configuration file.
+透過在 Node.js 組態檔案中啟用它。
 
 ### --feedback--
 
-Think about why you can access process anywhere without setup.
+想想為什麼你可以在任何地方存取 `process` 而不需設定。
 
 ---
 
-By installing it manually using npm before calling it.
+在呼叫它之前，先使用 npm 手動安裝它。
 
 ### --feedback--
 
-Think about why you can access process anywhere without setup.
+想想為什麼你可以在任何地方存取 `process` 而不需設定。
 
 ---
 
-By importing it using require('process') before each use.
+在每次使用前，透過 require('process') 匯入它。
 
 ### --feedback--
 
-Think about why you can access process anywhere without setup.
+想想為什麼你可以在任何地方存取 `process` 而不需設定。
 
 ## --video-solution--
 
@@ -175,35 +175,35 @@ Think about why you can access process anywhere without setup.
 
 ## --text--
 
-What are process events used for?
+處理程序事件的用途是什麼？
 
 ## --answers--
 
-To define environment variables for the application.
+為應用程式定義環境變數。
 
 ### --feedback--
 
-Think about how Node.js reacts to lifecycle changes during execution.
+思考 Node.js 在執行期間如何對生命週期變化做出反應。
 
 ---
 
-To create new processes for parallel execution.
+為平行執行創建新的處理程序。
 
 ### --feedback--
 
-Think about how Node.js reacts to lifecycle changes during execution.
+思考 Node.js 在執行期間如何對生命週期變化做出反應。
 
 ---
 
-To listen for and respond to important lifecycle moments like exit, errors, or system signals.
+監聽並回應重要的生命週期時刻，例如離開、錯誤或系統信號。
 
 ---
 
-To manage file paths and extensions in the system.
+管理系統中的檔案路徑和擴充套件。
 
 ### --feedback--
 
-Think about how Node.js reacts to lifecycle changes during execution.
+思考 Node.js 在執行期間如何對生命週期變化做出反應。
 
 ## --video-solution--
 

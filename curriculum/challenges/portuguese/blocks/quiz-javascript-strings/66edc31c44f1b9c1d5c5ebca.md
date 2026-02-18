@@ -51,11 +51,11 @@ Qual opção demonstra interpolação de string?
 
 ---
 
-`` `Hello, {user}!` ``
+``Hello, {user}!``
 
 #### --answer--
 
-`` `Hello, ${user}!` ``
+``Hello, ${user}!``
 
 ### --question--
 

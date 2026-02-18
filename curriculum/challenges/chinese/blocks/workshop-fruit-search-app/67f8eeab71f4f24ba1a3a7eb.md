@@ -7,11 +7,11 @@ dashedName: step-11
 
 # --description--
 
-After the form, add a `div` element with an `id` of `results` that will display the search results.
+在表单后，添加一个 `div` 元素，其 `id` 为 `results`，用于显示查找结果。
 
 # --hints--
 
-You should have a `div` element with the `id` of `results` after the form.
+你应该在 `form` 之后有一个 `id` 为 `results` 的 `div` 元素。
 
 ```js
 const searchContainer = document.getElementById("search-container");
@@ -122,7 +122,7 @@ export function FruitsSearch() {
           onChange={(e) => setQuery(e.target.value)}
         />
       </form>
-
+      
     --fcc-editable-region--
     </div>
   );

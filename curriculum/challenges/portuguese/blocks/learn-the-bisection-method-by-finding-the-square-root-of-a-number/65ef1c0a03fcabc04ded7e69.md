@@ -7,7 +7,7 @@ dashedName: step-12
 
 # --description--
 
-Dentro do loop for, calcule o ponto médio do intervalo que vai de `low` a `high`.Atribua este valor a uma variável `mid`.
+Dentro do loop for, calcule o ponto médio do intervalo que vai de `low` a `high`. Atribua este valor a uma variável `mid`.
 
 Além disso, calcule o quadrado do ponto médio (`mid`) e armazene-o na variável `square_mid`.
     

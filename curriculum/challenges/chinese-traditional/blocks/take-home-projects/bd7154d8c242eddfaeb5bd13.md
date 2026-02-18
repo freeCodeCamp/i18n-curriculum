@@ -1,6 +1,6 @@
 ---
 id: bd7154d8c242eddfaeb5bd13
-title: Build the Game of Life
+title: 建置生命遊戲
 challengeType: 3
 forumTopicId: 302362
 dashedName: build-the-game-of-life
@@ -8,36 +8,36 @@ dashedName: build-the-game-of-life
 
 # --description--
 
-**Objective:** Build an app that is functionally similar to this: <a href="https://codepen.io/freeCodeCamp/full/BpwMZv/" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/BpwMZv/</a>.
+**目標：** 建置一個功能上類似於此的應用程式：<a href="https://codepen.io/freeCodeCamp/full/BpwMZv/" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/BpwMZv/</a>。
 
-The Game of Life is a cellular automaton devised by the British mathematician John Horton Conway. It is a <em>zero-player game</em>, meaning that its evolution is determined by its initial state, requiring no further input. One interacts with the Game of Life by creating an initial configuration and observing how it evolves.
+生命遊戲是由英國數學家 John Horton Conway 設計的細胞自動機。它是一個 <em>零玩家遊戲</em>，意指其演變由初始狀態決定，不需要進一步的輸入。玩家透過建立初始設定並觀察其演變來與生命遊戲交談。
 
-The universe of the Game of Life is an infinite, two-dimensional orthogonal grid of square cells, each of which is in one of two possible states, populated and unpopulated. Every cell interacts with its eight neighbors, which are the cells that are horizontally, vertically, or diagonally adjacent.
+生命遊戲的宇宙是一個無限的二維正交方格網格，每個格子都是方形的，且處於兩種可能狀態之一：有生命或無生命。每個格子與其八個鄰居交談、互動，這些鄰居是水平、垂直或對角相鄰的格子。
 
-At each step in time, the following transitions occur:
+在每個時間步驟中，會發生以下轉換：
 
-- Any live cell with fewer than two live neighbors dies, as if by underpopulation.
-- Any live cell with two or three live neighbors lives on to the next generation.
-- Any live cell with more than three live neighbors dies, as if by overpopulation.
-- Any dead cell with exactly three live neighbors becomes a live cell, as if by reproduction.
+- 任何鄰近活細胞少於 2 個的活細胞會死亡，就像因人口過少一樣。
+- 任何有兩個或三個活鄰居的活細胞會存活到下一代。
+- 任何有超過 3 個活鄰居的活細胞會死亡，就像因為過度擁擠一樣。
+- 任何恰好有三個活鄰居的死細胞會變成活細胞，就像繁殖一樣。
 
-Fulfill the below user stories and get all of the tests to pass. Use whichever libraries or APIs you need. Give it your own personal style.
+完成以下使用者故事並通過所有測試。使用你需要的任何函式庫或 API。展現你自己的風格。
 
-**User Story:** When I first arrive at the game, it will randomly generate a board and start playing.
+**使用者故事：** 當我第一次進入遊戲時，它會隨機產生一個棋盤並開始遊戲。
 
-**User Story:** I can start and stop the board.
+**使用者故事：**我可以啟動和停止 `board`。
 
-**User Story:** I can set up the board.
+**使用者故事：** 我可以設定看板。
 
-**User Story:** I can clear the board.
+**使用者故事：** 我可以清除看板。
 
-**User Story:** When I press start, the game will play out.
+**使用者故事：** 當我按下 start 時，遊戲將開始進行。
 
-**User Story:** Each time the board changes, I can see how many generations have gone by.
+**使用者故事：** 每次棋盤改變時，我都能看到已經過了多少代。
 
-When you are finished, include a link to your project and click the "I've completed this challenge" button.
+完成後，包含你的專案的聯結，然後點擊「我已完成此挑戰」按鈕。
 
-You can get feedback on your project by sharing it on the <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp forum</a>.
+你可以透過在 <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp 論壇</a> 分享你的專案來獲得回授。
 
 # --solutions--
 

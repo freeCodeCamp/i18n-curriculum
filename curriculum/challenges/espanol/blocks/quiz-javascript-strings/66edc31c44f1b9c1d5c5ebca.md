@@ -51,11 +51,11 @@ Si el substring se encuentra dentro de la cadena, el método devuelve `true`. De
 
 ---
 
-`` `Hello, {user}!` ``
+``Hello, {user}!``
 
 #### --answer--
 
-`` `Hello, ${user}!` ``
+``Hello, ${user}!``
 
 ### --question--
 

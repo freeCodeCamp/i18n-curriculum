@@ -1,6 +1,6 @@
 ---
 id: 679cebb26c5d61aaed58b4db
-title: Task 79
+title: 任务 79
 challengeType: 19
 dashedName: task-79
 lang: en-US
@@ -16,35 +16,35 @@ lang: en-US
 
 ## --text--
 
-What does James know about the issue with the latest update?
+James 对最新更新的问题了解多少？
 
 ## --answers--
 
-He knows exactly what the issue is.
+他确切知道问题所在。
 
 ### --feedback--
 
-James clearly says he didn't hear anything.
+詹姆斯明确表示他什么也没听见。
 
 ---
 
-He doesn't know anything about it.
+他对此一无所知。
 
 ---
 
-He already talked to the client.
+他已经和客户谈过了。
 
 ### --feedback--
 
-James does not mention speaking to the client.
+James 没有提到与客户交谈。
 
 ---
 
-He received an email about the issue.
+他收到了一封关于该问题的电子邮件。
 
 ### --feedback--
 
-James states that he didn't hear anything.
+詹姆斯说他什么也没听见。
 
 ## --video-solution--
 
@@ -52,7 +52,7 @@ James states that he didn't hear anything.
 
 # --explanation--
 
-Short answers with auxiliary verbs repeat the auxiliary from the question to confirm or deny something. In this case, Maria asks, `Did you hear anything?`, and James responds, `No, I didn't.` instead of just saying `No.` Here are some other examples:
+带有辅助动词的简短回答会重复问题中的辅助动词以确认或否认某事。在这种情况下，Maria 问 `Did you hear anything?`，James 回答 `No, I didn't.`，而不是仅仅说 `No.`。以下是其他一些例子： 
 
 - `Are you coming to the meeting?` → `Yes, I am.`
 
@@ -60,7 +60,7 @@ Short answers with auxiliary verbs repeat the auxiliary from the question to con
 
 - `Will she be here on time?` → `Yes, she will.`
 
-Short answers make responses sound natural and complete while avoiding repetition of the full sentence.
+简短的回答使响应听起来自然且完整，同时避免重复整句。
 
 # --scene--
 

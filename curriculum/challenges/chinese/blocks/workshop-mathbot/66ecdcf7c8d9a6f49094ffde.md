@@ -1,72 +1,72 @@
 ---
 id: 66ecdcf7c8d9a6f49094ffde
-title: Step 13
+title: 步骤 13
 challengeType: 1
 dashedName: step-13
 ---
 
 # --description--
 
-In previous lessons, you learned that the `Math.round()` method rounds the value to the nearest whole integer.
+在之前的课程中，你学到了 `Math.round()` 方法会将值四舍五入到最接近的整数。
 
-Here are some examples:
+这是一些例子：
 
 ```js
 Math.round(6.7); // 7
 Math.round(3.2); // 3
 ```
 
-This differs from the `Math.floor()` and `Math.ceil()` methods, which round down and up to the nearest whole integer, respectively.
+这不同于`Math.floor()`和 `Math.ceil()` 方法，它们分别向下和向上取整到最接近的整数。
 
-Create a new variable called `numRounded` and assign the result of rounding the number `2.7`. Then, log the value of `numRounded` to the console.
+创建一个名为 `numRounded` 的新变量，将 `2.7` 的四舍五入结果赋值给它。 然后，将 `numRounded` 的值记录到控制台。
 
-Below that, create another new variable called `numRounded2` and assign the result of rounding the number `11.2`. Then, log the value of `numRounded2` to the console.
+在下面创建另一个名为 `numRounded2` 的新变量，将 `11.2` 的四舍五入结果赋值给它。 然后，将 `numRounded2` 的值记录到控制台。
 
 # --hints--
 
-You should have a variable called `numRounded`.
+你应该有一个名为 `numRounded` 的变量。
 
 ```js
 assert.isNotNull(numRounded);
 ```
 
-You should assign the result of rounding the number `2.7` to the variable `numRounded`.
+你应将数字 `2.7` 的四舍五入结果赋值给变量 `numRounded`。
 
 ```js
 assert.equal(numRounded, 3);
 ```
 
-You should not hardcode the value of `3` for the variable `numRounded`. Make sure you are using the `Math.round()` method.
+你不应将 `numRounded` 变量的值硬编码为 `3`。 确保你使用的是 `Math.round()` 方法。
 
 ```js
 assert.notMatch(code, /numRounded\s*=\s*3/);
 ```
 
-You should log the value of `numRounded` to the console.
+你应该将 `numRounded` 的值输出到控制台。
 
 ```js
 assert.match(code, /console\.log\(\s*numRounded\s*\)/);
 ```
 
-You should have a variable called `numRounded2`.
+你应该有一个名为 `numRounded2` 的变量。
 
 ```js
 assert.isNotNull(numRounded2);
 ```
 
-You should assign the result of rounding the number `11.2` to the variable `numRounded2`.
+你应将数字 `11.2` 的四舍五入结果赋值给变量 `numRounded2`。
 
 ```js
 assert.equal(numRounded2, 11);
 ```
 
-You should not hardcode the value of `11` for the variable `numRounded2`. Make sure you are using the `Math.round()` method.
+你不应将 `numRounded2` 变量的值硬编码为 `11`。 确保你使用的是 `Math.round()` 方法。
 
 ```js
 assert.notMatch(code, /numRounded2\s*=\s*11/);
 ```
 
-You should log the value of `numRounded2` to the console.
+你应该将 `numRounded2` 的值输出到控制台。
 
 ```js
 assert.match(code, /console\.log\(\s*numRounded2\s*\)/);

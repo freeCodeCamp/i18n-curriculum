@@ -7,11 +7,11 @@ dashedName: challenge-133
 
 # --description--
 
-El 21 de diciembre es el solsticio de invierno para el hemisferio norte y el solsticio de verano para el hemisferio sur. Eso significa que es el día con menos luz solar en el norte y con más luz solar en el sur.
+El 21 de diciembre es el solsticio de invierno para el hemisferio norte y el solsticio de verano para el hemisferio sur. Eso significa que es el día con menos luz solar en el norte y más luz solar en el sur.
 
 Dado un número de latitud de -90 a 90, devuelve una aproximación aproximada de las horas de luz durante el solsticio usando la siguiente tabla:
 
-|Latitud|Horas de luz diurna|
+|Latitude|Daylight Hours|
 |-|-|
 |-90|24|
 |-75|23|

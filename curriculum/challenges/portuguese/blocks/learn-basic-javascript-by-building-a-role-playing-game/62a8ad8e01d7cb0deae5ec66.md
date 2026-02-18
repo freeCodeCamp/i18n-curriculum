@@ -7,7 +7,7 @@ dashedName: step-57
 
 # --description--
 
-Crie outra propriedade no objeto chamado `button functions`.Dê a esta propriedade um array contendo as três funções atribuídas às propriedades `onclick` na função `goTown`.Lembre-se de que essas funções são variáveis, e não strings, e você não deve cercá-las com aspas.
+Crie outra propriedade no objeto chamado `button functions`. Dê a esta propriedade um array contendo as três funções atribuídas às propriedades `onclick` na função `goTown`. Lembre-se de que essas funções são variáveis, e não strings, e você não deve cercá-las com aspas.
 
 # --hints--
 

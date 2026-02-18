@@ -21,7 +21,7 @@ Puedes utilizar cualquier combinación de HTML, JavaScript, CSS, Bootstrap, SASS
 
 **Historia de usuario #3** Cuando introduzco texto dentro del elemento `#editor`, el elemento `#preview` se actualiza mientras escribo, para mostrar el contenido del textarea.
 
-**User Story #4:** When I enter GitHub flavored markdown into the `#editor` element, the text is rendered as HTML in the `#preview` element as I type (HINT: You don't need to parse Markdown yourself - you can import the Marked library for this: <https://cdnjs.com/libraries/marked>).
+**Historia de usuario #4:** Cuando ingreso markdown con formato GitHub en el elemento `#editor`, el texto se renderiza como HTML en el elemento `#preview` mientras escribo (PISTA: No necesitas analizar Markdown tú mismo - puedes importar la biblioteca Marked para esto: https://cdnjs.com/libraries/marked).
 
 **Historia de usuario #5:** Cuando la primera vez que mi previsualizador de lenguaje de marcado se carga, el texto por defecto en el campo `#editor` debe contener un lenguaje de marcado válido que represente al menos uno de los siguientes elementos: un encabezado (tamaño H1), un subencabezado (tamaño H2), un enlace, código en línea, un bloque de código, un elemento de lista, una cita en bloque, una imagen y texto en negrita.
 

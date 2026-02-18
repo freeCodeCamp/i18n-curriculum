@@ -1,6 +1,6 @@
 ---
 id: 655b67f02eecf57fa75ceecf
-title: Task 8
+title: 任務 8
 challengeType: 22
 dashedName: task-8
 lang: en-US
@@ -10,13 +10,13 @@ lang: en-US
 
 # --description--
 
-To `stay` is used to indicate remaining in a particular state or condition. It's often used in instructions or advice to keep oneself in a certain situation. For example:
+To `stay` 用來顯示保持在特定狀態或條件中。它經常用於指示或建議中，讓自己維持在某種情況。 例如：
 
-- `Stay safe online.` - Continue being safe while using the internet.
+- `Stay safe online。`－繼續在使用網際網路時保持安全。
 
-- `Stay calm during the test.` - Continue being calm.
+- `Stay calm during the test.`－繼續保持冷靜。
 
-- `Stay focused on your work.` - Continue paying attention to your work.
+- `Stay focused on your work.`－繼續專注於你的工作。
 
 # --fillInTheBlank--
 
@@ -30,7 +30,7 @@ To `stay` is used to indicate remaining in a particular state or condition. It's
 
 ### --feedback--
 
-This verb indicates that Sophie is actively providing assistance or support to her team. It ends in `-ing`.
+這個動詞顯示 Sophie 正在為她的團隊提供協助或支援。它以 `-ing` 結尾。
 
 ---
 
@@ -38,7 +38,7 @@ This verb indicates that Sophie is actively providing assistance or support to h
 
 ### --feedback--
 
-This word is used to suggest maintaining a certain state, in this case, being safe while online.
+這個字用來建議維護某種狀態，在此情況下，是指在 `online` 時保持安全。
 
 # --scene--
 

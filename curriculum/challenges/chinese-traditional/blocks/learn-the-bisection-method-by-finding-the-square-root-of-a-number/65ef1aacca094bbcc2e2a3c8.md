@@ -1,25 +1,25 @@
 ---
 id: 65ef1aacca094bbcc2e2a3c8
-title: 步驟 9
+title: 第 9 步
 challengeType: 20
 dashedName: step-9
 ---
 
 # --description--
 
-在 Python 中，`max()` 函數返回輸入值的最大值。
+在 Python 中，`max()` 函式傳回輸入值中最大的值。
 
 ```python
 max(1, 2, 3) # Output: 3
 ```
 
-變量 `low` 和 `high` 將用於定義平方根所在的初始區間。
+變數 `low` 和 `high` 將用來定義平方根所在的初始區間。
 
-在 `else` 子句中，將 `low` 變量初始化爲 `0`，並將 `high` 變量初始化爲 `1` 或 `square_target` 中的最大值，因爲數字的平方根總是小於或等於數字本身。
+在 `else` 語句中，將 `low` 變數初始化為 `0`，並將 `high` 變數初始化為 `1` 或 `square_target` 中的最大值，因為一個數字的平方根總是小於或相等於該數字本身。
 
 # --hints--
 
-你應該刪除 `pass` 關鍵字。
+你應該移除 `pass` 關鍵字。
 
 ```js
 ({
@@ -30,7 +30,7 @@ max(1, 2, 3) # Output: 3
 })
 ```
 
-你應該聲明一個變量 `low` 併爲其分配 `0`。
+你應該宣告一個變數 `low` 並指定、設值為 `0`。
 
 ```js
 ({
@@ -41,7 +41,7 @@ max(1, 2, 3) # Output: 3
 
 ```
 
-你應該聲明一個變量 `high` 並使用 `max()` 函數爲其分配 `1` 和 `square_target` 之間的最大值。
+你應該宣告一個變數 `high`，並使用 `max()` 函式（程式）將 `1` 和 `square_target` 之間的最大值指定給它。
 
 ```js
 

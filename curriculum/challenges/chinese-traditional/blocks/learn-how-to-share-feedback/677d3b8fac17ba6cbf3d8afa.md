@@ -1,6 +1,6 @@
 ---
 id: 677d3b8fac17ba6cbf3d8afa
-title: Task 3
+title: 任務 3
 challengeType: 22
 dashedName: task-3
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+聆聽音訊並完成以下句子。
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This is the `-ing` form of the verb `say`, used after the preposition `by` to indicate the method of starting.
+這是動詞 `say` 的 `-ing` 形式，用於介系詞 `by` 之後以顯示開始的行為方法。
 
 ---
 
@@ -32,17 +32,17 @@ This is the `-ing` form of the verb `say`, used after the preposition `by` to in
 
 ### --feedback--
 
-This stands for `Quality Assurance`, referring to the process of ensuring products meet required standards.
+這代表 `Quality Assurance`，指的是確保產品符合所需標準的處理程序。
 
 # --explanation--
 
-When a verb follows a preposition, it must take the `-ing` form (gerund). In this sentence, `saying` follows the preposition `by`, indicating the method Bob uses to start his statement. For example:
+當動詞跟在介系詞後面時，必須採用 `-ing` 形式（動名詞）。在這句話中，`saying` 跟在介系詞 `by` 後面，表示 Bob 用來開始他述語的方法。 例如：
 
-`She improved her skills by practicing regularly.` - Here, `practicing` follows the preposition `by`, showing how she improved her skills.
+`She improved her skills by practicing regularly.` - 這裡，`practicing` 跟隨介系詞 `by`，說明她如何提升她的技能。
 
-Bob compliments Jessica for her work in `QA`. `QA` stands for `Quality Assurance`. It refers to the process of ensuring that products or services meet specific quality standards and function correctly. Another example:
+Bob 讚美 Jessica 在 `QA` 的工作。`QA` 代表 `Quality Assurance`。它是指確保產品或服務符合特定品質標準並正確運作的處理程序。另一個範例：
 
-`The QA team identified several bugs during testing.` - This means that the people responsible for making sure the quality of the software is good managed to detect bugs in the software before its release.
+`The QA team identified several bugs during testing.`－這表示負責確保軟體品質良好的人員在軟體發佈前成功偵測到軟體中的錯誤。
 
 # --scene--
 

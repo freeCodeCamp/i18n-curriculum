@@ -1,6 +1,6 @@
 ---
 id: 68fa39f4de9f52d8fdee4c7d
-title: "Dialogue 1: I'm Tom"
+title: "對話窗 1：我是 Tom"
 challengeType: 21
 dashedName: dialogue-1-im-tom
 lang: zh-CN
@@ -8,11 +8,11 @@ lang: zh-CN
 
 # --description--
 
-Watch the video below to understand the context of the upcoming lessons.
+觀看下方的影片以了解即將到來課程的背景關係。
 
 # --assignment--
 
-Watch the video.
+觀看影片。
 
 # --scene--
 

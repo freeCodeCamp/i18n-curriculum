@@ -15,7 +15,7 @@ Neste laboratório, você criará uma função que recebe um array de dois núme
 
 1. Você deve ter uma função `smallestCommons` que aceita um array de dois números como argumento.
 1. A função `smallestCommons` deve retornar o menor múltiplo comum que seja divisível uniformemente por ambos os números e por todos os números sequenciais no intervalo entre eles.
-1. A função deve lidar com entrada onde os dois números não estão em ordem numérica.
+1. A função deve lidar com entradas onde os dois números não estão em ordem numérica.
 
 # --hints--
 

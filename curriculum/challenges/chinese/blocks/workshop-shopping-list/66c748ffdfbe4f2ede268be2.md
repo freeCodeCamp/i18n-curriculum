@@ -7,15 +7,15 @@ dashedName: step-20
 
 # --description--
 
-In this final step of the workshop, log the final grocery list to the console.
+在工作坊的最后一步，将最终的杂货清单记录到控制台。
 
-To do this, call the `getShoppingListMsg` function with the `shoppingList` array as an argument inside `console.log`.
+为此，在 `console.log` 中调用 `getShoppingListMsg` 函数，并传入 `shoppingList` 数组作为参数。
 
-And with this last step your grocery list is complete!
+完成最后一步，你的杂货清单就完成了！
 
 # --hints--
 
-You should call `getShoppingListMsg(shoppingList)` inside of the `console.log`.
+你应该在 `console.log` 中调用 `getShoppingListMsg(shoppingList)`。
 
 ```js
 assert.lengthOf(code.match(/console\.log\(\s*getShoppingListMsg\(\s*shoppingList\s*\)\s*\)/g), 7);

@@ -12,7 +12,7 @@ lang: en-US
 
 To `stay` is used to indicate remaining in a particular state or condition. É frequentemente usado em instruções ou conselhos para manter-se em uma determinada situação. Por exemplo:
 
-- `Stay safe online.` - Continue sendo seguro enquanto usa a internet. 
+- `Stay safe online.` - Continue sendo seguro enquanto usa a internet.
 
 - `Stay calm during the test.` - Continue mantendo a calma.
 

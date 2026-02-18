@@ -1,6 +1,6 @@
 ---
 id: 678e4878f7df13bbcdbcdee4
-title: Task 54
+title: 任務 54
 challengeType: 22
 dashedName: task-54
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-請聽音頻，並完成下面的填空。
+聆聽音訊並完成以下句子。
 
 # --fillInTheBlank--
 
@@ -24,13 +24,13 @@ lang: en-US
 
 ### --feedback--
 
-This word means that something can be changed or adjusted to meet individual preferences or needs.
+這個字表示某事物可以被更改或調整以符合個人偏好或需求。
 
 # --explanation--
 
-`Customizable` refers to something that can be changed or modified to suit different preferences, needs, or requirements. 例如：
+`Customizable` 指的是可以變更或修改以符合不同偏好、需求或要求的事物。例如：
 
-`The dashboard in this project management tool is customizable, allowing each team to organize their tasks in their preferred way.` - This means that the dashboard can be modified according to each team's needs, helping them organize their work more efficiently.
+`The dashboard in this project management tool is customizable, allowing each team to organize their tasks in their preferred way。`－這表示儀表板可以依照每個團隊的需求進行修改，幫助他們更高效地組織工作。
 
 # --scene--
 

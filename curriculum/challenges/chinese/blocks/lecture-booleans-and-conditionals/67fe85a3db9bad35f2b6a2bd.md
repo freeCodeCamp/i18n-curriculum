@@ -1,30 +1,30 @@
 ---
 id: 67fe85a3db9bad35f2b6a2bd
-title: How Do Conditional Statements and Logical Operators Work?
+title: 条件式语句和逻辑操作符如何工作？
 challengeType: 19
 dashedName: how-do-conditional-statements-and-logical-operators-work
 ---
 
 # --description--
 
-Conditional statements, or conditionals, let you control the flow of your program based on whether certain conditions are true or false.
+条件式语句，或称条件式，让你根据某些条件是真还是假来控制你的程序流程。
 
-But before we get into all that, let's go over the basic building blocks of conditional statements, starting with comparison operators. Comparison operators are operators that let you compare two or more values, and return a boolean value.
+但在进入所有这些之前，让我们先了解条件式的基本创建块，从比较操作符开始。比较操作符是让你比较两个或多个值，并返回布尔值的操作符。
 
-In a previous lesson, you learned that booleans are one of the data types in Python, and can only be `True` or `False`.
+在之前的课程中，你学习了布尔是 Python 中的一种数据类型，并且只能是 `True` 或 `False`。
 
-Here's a table with the comparison operators in Python:
+这是一个包含 Python 中比较操作符的表格：
 
-| Operator | Name                  | Description                                                                        |
-| -------- | --------------------- | ---------------------------------------------------------------------------------- |
-| `==`     | Equal                 | Checks if two values are equal                                                     |
-| `!=`     | Not equal             | Checks if two values are not equal                                                 |
-| `>`   | Greater than          | Checks if the value on the left is greater than the value on the right             |
-| `<`   | Less than             | Checks if the value on the left is less than the value on the right                |
-| `>=`  | Greater than or equal | Checks if the value on the left is greater than or equal to the value on the right |
-| `<=`  | Less than or equal    | Checks if the value on the left is less than or equal to the value on the right    |
+| Operator | Name | Description |
+| --- | --- | --- |
+| `==` | Equal | Checks if two values are equal |
+| `!=` | Not equal | Checks if two values are not equal |
+| `>` | Greater than | Checks if the value on the left is greater than the value on the right |
+| `<` | Less than | Checks if the value on the left is less than the value on the right |
+| `>=` | Greater than or equal | Checks if the value on the left is greater than or equal to the value on the right |
+| `<=` | Less than or equal | Checks if the value on the left is less than or equal to the value on the right |
 
-Here are some of those expressions that evaluate to `True` or `False`:
+以下是一些求值为 `True` 或 `False` 的表达式：
 
 ```python
 print(3 > 4) # False
@@ -36,24 +36,24 @@ print(3 >= 4) # False
 print(3 <= 4) # True
 ```
 
-These operators can be used in conditionals to compare values and run certain code based on whether the conditional evaluates to `True` or `False`.
+这些操作符可以在条件式中使用，以比较值并根据条件式是否计算为 `True` 或 `False` 来运行特定代码。
 
-In Python, the most basic conditional is the `if` statement. Here's the basic syntax:
+在 Python 中，最基本的条件式是 `if` 语句。以下是基本语法：
 
 ```python
 if condition:
     pass # Code to execute if condition is True
 ```
 
-* `if` statements start with the `if` keyword.
+* `if` 语句以 `if` 关键字开始。
+    
+* `condition` 是一个求值为 `True` 或 `False` 的表达式，后跟冒号（`:`）。
 
-* `condition` is an expression that evaluates to `True` or `False`, followed by a colon (`:`).
+* `if` 语句的体构成一个 <dfn>代码块</dfn>，它是一组属于同一整体的语句。在 Python 中，缩排的级别决定了代码块。
+    
+在上面的示例中，`if` 语句的体包含一个 `pass` 语句。当执行 `pass` 语句时，不会发生任何事情。这是一个特殊的关键字，可用作未来代码的占位符，当不允许空代码块时非常有用。
 
-* The body of the `if` statement constitutes a <dfn>code block</dfn>, which is a group of statements that belong together. In Python, the level of indentation is what defines a code block.
-
-In the example above, the body of the `if` statement contains a `pass` statement. When a `pass` statement is executed, nothing happens. This is a special keyword that can be used as a placeholder for future code and it is useful when empty code blocks are not allowed.
-
-The code within the body of the `if` statement runs only when the condition evaluates to `True`. For example:
+`if` 语句体内的代码仅在条件计算结果为 `True` 时运行。例如：
 
 ```python
 age = 18
@@ -62,9 +62,9 @@ if age >= 18:
     print('You are an adult') # You are an adult
 ```
 
-Notice the indentation before `print('You are an adult')`. While other programming languages use characters like curly braces to define code blocks, and just use indentation for readability, in Python, code blocks are determined by indentation.
+注意 `print('You are an adult')` 之前的缩排。虽然其他编程语言使用花括弧等字符来定义代码块，并且仅将缩排用于可读性，但在 Python 中，代码块是由缩排决定的。
 
-The following code would raise an `IndentationError`, which is Python's way to signal that indentation is required at a certain point of the code:
+以下代码会引起一个 `IndentationError`，这是 Python 用来表示在代码某处需要缩排的方式：
 
 ```py
 age = 18
@@ -73,11 +73,11 @@ if age >= 18:
 print('You are an adult') # IndentationError: expected an indented block after 'if' statement on line 3
 ```
 
-Though you can use any number spaces (as long as you are consistent) to determine each level of indentation, the Python style guide recommends using four spaces.
+虽然你可以使用任意数量的空格（只要你保持一致）来确定每个缩排级别，但 Python 风格指南建议使用四个空格。
 
-Blocks are also found in loops and functions, which you'll learn about in future lessons.
+块也出现在循环和函数中，你将在后续课程中学习它们。
 
-Going back to our example, if `age` is anything less than `18`, nothing is printed in the terminal:
+回到我们的例子，如果 `age` 小于 `18`，终端中不会打印任何内容：
 
 ```python
 age = 12
@@ -86,7 +86,7 @@ if age >= 18:
     print('You are an adult') # Nothing shows up in the terminal
 ```
 
-But what if you also want to print something if `age` is less than `18`? That's where the `else` clause comes in. The `else` clause runs when the `if` condition is false. Here's the syntax for an `if…else` statement:
+但是如果你还想在 `age` 小于 `18` 时打印一些内容呢？这就是 `else` 子句的作用。`else` 子句在 `if` 条件为假时运行。下面是 `if…else` 语句的语法：
 
 ```python
 if condition:
@@ -95,7 +95,7 @@ else:
    pass # Code to execute if condition is False
 ```
 
-For example:
+例如：
 
 ```python
 age = 12
@@ -106,9 +106,9 @@ else:
     print('You are not an adult yet') # You are not an adult yet
 ```
 
-There might be situations in which you want to account for multiple conditions. To do that, Python lets you extend your if statement with the `elif` (else if) keyword.
+可能会有你想要考虑多个条件的情况。为此，Python 允许你使用 `elif`（else if）关键字扩展你的 if 语句。
 
-Here's the syntax:
+语法如下：
 
 ```python
 if condition1:
@@ -119,7 +119,7 @@ else:
    pass # Code to execute if all conditions are False
 ```
 
-For example:
+例如：
 
 ```python
 age = 12
@@ -132,7 +132,7 @@ else:
     print('You are a child') # You are a child
 ```
 
-Note that you can use as many `elif` statements as you want:
+请注意，你可以使用任意数量的 `elif` 语句：
 
 ```python
 age = 2
@@ -151,41 +151,41 @@ else:
     print('You are a toddler or an infant') # You are a toddler or an infant
 ```
 
-Now that you understand how comparison operators and conditional statements work in Python, you can start writing programs that make decisions based on logic and input. Whether you’re comparing values or branching through multiple conditions, these tools are the foundation to writing flexible, responsive code.
+既然你已经了解了比较操作符和条件式在 Python 中的工作原理，你就可以开始编写基于逻辑和输入做出决策的程序。无论你是在比较值还是通过多个条件分支，这些工具都是编写灵活、响应式代码的基础。
 
 # --questions--
 
 ## --text--
 
-What do comparison operators do?
+比较操作符的作用是什么？
 
 ## --answers--
 
-Perform mathematical calculations with boolean values
+对布尔值执行数学计算
 
 ### --feedback--
 
-These operators check things like equality or which value is greater, and the result is either `True` or `False`.
+这些操作符用于查看诸如相等性或哪个值更大之类的内容，结果要么是 `True`，要么是 `False`。
 
 ---
 
-Convert strings to boolean values.
+将字串转换为布尔值。
 
 ### --feedback--
 
-These operators check things like equality or which value is greater, and the result is either `True` or `False`.
+这些操作符用于查看诸如相等性或哪个值更大之类的内容，结果要么是 `True`，要么是 `False`。
 
 ---
 
-Compare two values and return a boolean value.
+比较两个值并返回一个布尔值。
 
 ---
 
-Create loops and iterations.
+创建循环和迭代。
 
 ### --feedback--
 
-These operators check things like equality or which value is greater, and the result is either `True` or `False`.
+这些操作符用于查看诸如相等性或哪个值更大之类的内容，结果要么是 `True`，要么是 `False`。
 
 ## --video-solution--
 
@@ -193,7 +193,7 @@ These operators check things like equality or which value is greater, and the re
 
 ## --text--
 
-What will be the result for the following code?
+下面代码的结果是什么？
 
 ```python
 age = 12
@@ -208,31 +208,31 @@ else:
 
 ## --answers--
 
-`You are an adult` will be printed to the console.
+`You are an adult` 将打印到控制台。
 
 ### --feedback--
 
-Review the last part of the lesson for the correct answer.
+查看课程最后部分以获取正确答案。
 
 ---
 
-`You are a teenager` will be printed to the console.
+`You are a teenager` 将打印到控制台。
 
 ### --feedback--
 
-Review the last part of the lesson for the correct answer.
+查看课程最后部分以获取正确答案。
 
 ---
 
-`You are a child` will be printed to the console.
+`You are a child` 将打印到控制台。
 
 ---
 
-An error will be printed to the console.
+误差将打印到控制台。
 
 ### --feedback--
 
-Review the last part of the lesson for the correct answer.
+查看课程最后部分以获取正确答案。
 
 ## --video-solution--
 
@@ -240,7 +240,7 @@ Review the last part of the lesson for the correct answer.
 
 ## --text--
 
-What will the expression `3 >= 4` evaluate to?
+表达式 `3 >= 4` 会计算为什么值？
 
 ## --answers--
 
@@ -248,7 +248,7 @@ What will the expression `3 >= 4` evaluate to?
 
 ### --feedback--
 
-3 is not greater than or equal to 4.
+3 不大于或相等于 4。
 
 ---
 
@@ -256,7 +256,7 @@ What will the expression `3 >= 4` evaluate to?
 
 ### --feedback--
 
-3 is not greater than or equal to 4.
+3 不大于或相等于 4。
 
 ---
 
@@ -264,7 +264,7 @@ What will the expression `3 >= 4` evaluate to?
 
 ### --feedback--
 
-3 is not greater than or equal to 4.
+3 不大于或相等于 4。
 
 ---
 

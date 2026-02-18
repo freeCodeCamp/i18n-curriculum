@@ -7,7 +7,7 @@ dashedName: step-17
 
 # --description--
 
-`button1` é uma variável que não vai ser reatribuída.Se você não vai atribuir um novo valor para uma variável, a melhor prática é usar a palavra-chave `const` para declará-la ao invés da palavra-chave `let`.Isso dirá ao JavaScript para lançar um erro se você acidentalmente reatribui-la.
+`button1` é uma variável que não vai ser reatribuída. Se você não vai atribuir um novo valor para uma variável, a melhor prática é usar a palavra-chave `const` para declará-la ao invés da palavra-chave `let`. Isso dirá ao JavaScript para lançar um erro se você acidentalmente reatribui-la.
 
 Altere a variável `button1` para que seja declarada com a palavra-chave `const`.
 

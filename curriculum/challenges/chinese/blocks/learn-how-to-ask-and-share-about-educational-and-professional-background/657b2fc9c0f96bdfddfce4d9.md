@@ -1,6 +1,6 @@
 ---
 id: 657b2fc9c0f96bdfddfce4d9
-title: Task 90
+title: 任务 90
 challengeType: 22
 dashedName: task-90
 lang: en-US
@@ -10,11 +10,11 @@ lang: en-US
 
 # --description--
 
-To `pique one's interest` means to make someone curious or make them want to know more. You use it when something catches your attention and makes you interested. For example:
+`pique one's interest` 意味着激起某人的好奇心或让他们想了解更多。当某事引起你的注意并让你感兴趣时，你会使用它。例如：
 
-- `The new AI tool really piqued my interest.` - It made you curious, and you wanted to learn more about it.
+- `The new AI tool really piqued my interest.`——它激发了你的好奇心，你想了解更多。
 
-- `Her presentation on cybersecurity piqued the team's interest.` - The team became more curious and wanted to know more.
+- `Her presentation on cybersecurity piqued the team's interest.` —— 团队变得更加好奇，想了解更多。
 
 # --fillInTheBlank--
 
@@ -28,7 +28,7 @@ To `pique one's interest` means to make someone curious or make them want to kno
 
 ### --feedback--
 
-This word refers to the action of participating in or completing a course. You should correctly use its past form.
+这个词指的是参与或完成课程的动作。你应该正确使用它的过去形式。
 
 ---
 
@@ -36,7 +36,7 @@ This word refers to the action of participating in or completing a course. You s
 
 ### --feedback--
 
-This word describes the study of the mind and behavior, particularly in a workplace setting in this context.
+这个词描述了对心智和行为的研究，特别是在此上下文中的工作场所环境。
 
 ---
 
@@ -44,7 +44,7 @@ This word describes the study of the mind and behavior, particularly in a workpl
 
 ### --feedback--
 
-This word means to arouse or stimulate interest or curiosity. You should correctly use its past form.
+这个词的意思是激发或引起兴趣或好奇心。你应该正确使用它的过去式。
 
 # --scene--
 

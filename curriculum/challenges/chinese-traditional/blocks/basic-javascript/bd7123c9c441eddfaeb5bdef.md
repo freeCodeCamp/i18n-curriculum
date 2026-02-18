@@ -1,6 +1,6 @@
 ---
 id: bd7123c9c441eddfaeb5bdef
-title: Understanding Boolean Values
+title: 理解布林值
 challengeType: 1
 forumTopicId: 301176
 dashedName: understanding-boolean-values
@@ -8,23 +8,23 @@ dashedName: understanding-boolean-values
 
 # --description--
 
-Another data type is the <dfn>Boolean</dfn>. Booleans may only be one of two values: `true` or `false`. They are basically little on-off switches, where `true` is on and `false` is off. These two states are mutually exclusive.
+另一種資料型別是 <dfn>布林值</dfn>。布林值只能是兩個值之一：`true` 或 `false`。它們基本上是小型的開關，`true` 代表開啟，`false` 代表關閉。這兩種狀態是互斥的。
 
-**Note:** Boolean values are never written with quotes. The strings `"true"` and `"false"` are not Boolean and have no special meaning in JavaScript.
+**注意：** 布林值從不會用引號包起來。字串 `"true"` 和 `"false"` 不是布林值，且在 JavaScript 中沒有特殊意義。
 
 # --instructions--
 
-Modify the `welcomeToBooleans` function so that it returns `true` instead of `false`.
+修改 `welcomeToBooleans` 函式（程式），使其傳回 `true` 而非 `false`。
 
 # --hints--
 
-The `welcomeToBooleans()` function should return a Boolean (`true` or `false`) value.
+`welcomeToBooleans()` 函式（程式）應該傳回一個布林值（`true` 或 `false`）。
 
 ```js
 assert(typeof welcomeToBooleans() === 'boolean');
 ```
 
-`welcomeToBooleans()` should return `true`.
+`welcomeToBooleans()` 應該傳回 `true`。
 
 ```js
 assert(welcomeToBooleans() === true);

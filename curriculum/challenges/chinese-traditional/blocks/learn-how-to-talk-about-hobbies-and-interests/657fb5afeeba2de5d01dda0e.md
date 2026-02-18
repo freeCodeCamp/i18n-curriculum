@@ -1,6 +1,6 @@
 ---
 id: 657fb5afeeba2de5d01dda0e
-title: Task 81
+title: 任務 81
 challengeType: 19
 dashedName: task-81
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --description--
 
-Listen to the audio and answer the question below.
+聆聽音訊並回答以下問題。
 
 # --questions--
 
 ## --text--
 
-How does Tom respond to Sarah's invitation to the sci-fi convention?
+Tom 如何回應 Sarah 對科幻大會的邀請？
 
 ## --answers--
 
-Accepts immediately.
+立即接受。
 
 ### --feedback--
 
-Tom does not accept the invitation. He mentions his lack of interest in sci-fi.
+Tom 不接受邀請。他提到他對科幻沒有興趣。
 
 ---
 
-Declines politely.
+婉拒。
 
 ---
 
-Shows disinterest.
+表現出不感興趣。
 
 ### --feedback--
 
-While Tom expresses a lack of interest, his response is more about declining the invitation politely rather than just showing disinterest.
+當 Tom 表達缺乏興趣時，他的回應更多是禮貌地拒絕邀請，而不僅僅是表現出不感興趣。
 
 ---
 
-Ignores the invitation.
+忽略邀請。
 
 ### --feedback--
 
-Tom acknowledges the invitation and responds, so he does not ignore it.
+Tom 承認邀請並回應，所以他沒有忽略它。
 
 ## --video-solution--
 

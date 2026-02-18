@@ -1,17 +1,17 @@
 ---
 id: 67f8eeab71f4f24ba1a3a7eb
-title: 步驟11
+title: 第 11 步
 challengeType: 0
 dashedName: step-11
 ---
 
 # --description--
 
-After the form, add a `div` element with an `id` of `results` that will display the search results.
+在表單之後，為你的 `div` 元素添加一個 `id` 為 `results` 的元素，用來顯示搜尋結果。
 
 # --hints--
 
-You should have a `div` element with the `id` of `results` after the form.
+你應該在表單後面有一個 `id` 為 `results` 的 `div` 元素。
 
 ```js
 const searchContainer = document.getElementById("search-container");
@@ -122,7 +122,7 @@ export function FruitsSearch() {
           onChange={(e) => setQuery(e.target.value)}
         />
       </form>
-
+      
     --fcc-editable-region--
     </div>
   );

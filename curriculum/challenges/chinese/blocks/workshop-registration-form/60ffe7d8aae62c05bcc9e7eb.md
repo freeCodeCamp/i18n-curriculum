@@ -1,25 +1,25 @@
 ---
 id: 60ffe7d8aae62c05bcc9e7eb
-title: Step 54
+title: 步骤54
 challengeType: 0
 dashedName: step-54
 ---
 
 # --description--
 
-With a `display` of `block` the submit button sits flush against the left edge of its parent.
+将 `display` 设置为 `block`，提交按钮与父按钮的左边缘齐平。
 
-Use the same technique used to center the `form` to center the submit button.
+使用与使 `form` 居中相同的技术来居中提交按钮。
 
 # --hints--
 
-You should give the submit button a `margin` of `0 auto`.
+你应该为提交按钮提供 `0 auto` 的 `margin`。
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('input[type="submit"]')?.margin, '0px auto');
 ```
 
-You should not give the submit button a `min-width` or `max-width`.
+你不应该给提交按钮一个 `min-width` 或 `max-width`。
 
 ```js
 assert.isEmpty(new __helpers.CSSHelp(document).getStyle('input[type="submit"]')?.minWidth);
@@ -142,7 +142,7 @@ input[type="submit"] {
   display: block;
   width: 60%;
 --fcc-editable-region--
-
+  
 --fcc-editable-region--
 }
 

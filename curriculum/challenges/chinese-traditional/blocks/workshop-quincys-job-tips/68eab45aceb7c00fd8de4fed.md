@@ -1,51 +1,51 @@
 ---
 id: 68eab45aceb7c00fd8de4fed
-title: Step 11
+title: 第 11 步
 challengeType: 0
 dashedName: step-11
 ---
 
 # --description--
 
-Inside the second `section` element, nest an `h2` element with the text `Importance of Networking`.
+在第二個 `section` 元素內，巢狀一個 `h2` 元素，並帶有文字 `Importance of Networking`。
 
-Below this heading, add a block quotation element with a `cite` attribute with the value `https://www.freecodecamp.org/news/learn-to-code-book/`.
+在此標題下方，添加一個帶有 `cite` 屬性且值為 `https://www.freecodecamp.org/news/learn-to-code-book/` 的區塊引用元素。
 
 # --hints--
 
-You should have an `h2` element nested inside the second section.
+你應該在第二個區段內巢狀一個 `h2` 元素。
 
 ```js
 assert.exists(document.querySelector('main > section:nth-of-type(2) > h2'));
 ```
 
-Your `h2` element should have the text `Importance of Networking`.
+你的 `h2` 元素應該有文字 `Importance of Networking`。
 
 ```js
 const h2El = document.querySelector('main > section:nth-of-type(2) > h2');
 assert.equal(h2El?.innerText.trim(), 'Importance of Networking');
 ```
 
-You should have a `blockquote` element nested inside the second section.
+你應該在第二個區段內巢狀放置一個 `blockquote` 元素。
 
 ```js
 assert.exists(document.querySelector('main > section:nth-of-type(2) > blockquote'));
 ```
 
-Your `blockquote` element should be below your `h2` element.
+你的 `blockquote` 元素應該位於你的 `h2` 元素下方。
 
 ```js
 assert.exists(document.querySelector('main > section:nth-of-type(2) > h2 + blockquote'));
 ```
 
-Your `blockquote` element should have a `cite` attribute.
+你的 `blockquote` 元素應該有一個 `cite` 屬性。
 
 ```js
 const blockquoteEl = document.querySelector('main > section:nth-of-type(2) > blockquote');
 assert.exists(blockquoteEl?.getAttribute('cite'));
 ```
 
-The `cite` attribute of your `blockquote` element should have the value `https://www.freecodecamp.org/news/learn-to-code-book/`.
+你的 `blockquote` 元素的 `cite` 屬性應該具有值 `https://www.freecodecamp.org/news/learn-to-code-book/`。
 
 ```js
 const blockquoteEl = document.querySelector('main > section:nth-of-type(2) > blockquote');
@@ -83,7 +83,7 @@ assert.equal(blockquoteEl?.getAttribute('cite'), 'https://www.freecodecamp.org/n
       </section>
       <section>
 --fcc-editable-region--
-
+        
 --fcc-editable-region--
       </section>
       <section>

@@ -140,7 +140,7 @@ Concentre-se em qual lida com diretórios e qual lida com extensões de arquivos
 
 ### --feedback--
 
-Concentre-se em qual lida com diretórios e qual lida com extensões de arquivo.
+Concentre-se em qual lida com diretórios e qual lida com extensões de arquivos.
 
 ---
 
@@ -152,7 +152,7 @@ Concentre-se em qual lida com diretórios e qual lida com extensões de arquivo.
 
 ### --feedback--
 
-Concentre-se em qual lida com diretórios e qual lida com extensões de arquivo.
+Concentre-se em qual lida com diretórios e qual lida com extensões de arquivos.
 
 ## --video-solution--
 

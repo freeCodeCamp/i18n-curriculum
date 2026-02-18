@@ -1,6 +1,6 @@
 ---
 id: 679aa5040bedaccedf33d6d8
-title: Task 45
+title: 任务 45
 challengeType: 19
 dashedName: task-45
 lang: en-US
@@ -16,35 +16,35 @@ lang: en-US
 
 ## --text--
 
-Why does Brian think it's not good when everyone thinks alike?
+为什么 Brian 认为当每个人想法都一样时不好？
 
 ## --answers--
 
-Because they might overlook important details.
+因为他们可能会忽略重要细节。
 
 ---
 
-Because it would make decision-making faster.
+因为这会加快决策速度。
 
 ### --feedback--
 
-Brian is not saying that agreement is beneficial.
+Brian 并不是说一致性是有益的。
 
 ---
 
-Because disagreements always cause problems.
+因为分歧总是会导致问题。
 
 ### --feedback--
 
-Brian is actually saying that some disagreement is useful, not that it causes problems.
+Brian 实际上是在说某些分歧是有用的，而不是它会导致问题。
 
 ---
 
-Because no one would share their opinions.
+因为没有人会分享他们的意见。
 
 ### --feedback--
 
-Brian isn't talking about people refusing to share their opinions.
+Brian 不是在谈论人们拒绝分享他们的观点。
 
 ## --video-solution--
 
@@ -52,11 +52,11 @@ Brian isn't talking about people refusing to share their opinions.
 
 # --explanation--
 
-The structure `if + verb in the Simple Past` followed by `might` in the consequence clause is used to describe a hypothetical situation with a possible outcome. For example:
+结构 `if + verb in the Simple Past` 后接结果从句中的 `might` 用于描述具有可能结果的假设情境。例如：
 
-`If you studied more, you might pass the exam.` - This means there is a possibility of passing if the person studies more.
+`If you studied more, you might pass the exam.`——这意味着如果这个人学习更多，就有可能通过考试。
 
-In this dialogue, `If we all agreed on everything, we might miss important details` expresses a possible negative consequence of complete agreement.
+在这个对话框中，`If we all agreed on everything, we might miss important details` 表达了完全一致可能带来的负面后果。
 
 # --scene--
 

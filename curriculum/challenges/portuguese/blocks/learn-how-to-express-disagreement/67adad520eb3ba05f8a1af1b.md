@@ -3,6 +3,7 @@ id: 67adad520eb3ba05f8a1af1b
 title: Tarefa 33
 challengeType: 19
 dashedName: task-33
+showSpeakingButton: true
 lang: en-US
 ---
 
@@ -24,6 +25,10 @@ O que Anna deve dizer para concordar com Bob?
 
 `I don't understand.`
 
+### --audio-id--
+
+en-b1-67adad520eb3ba05f8a1af1b-SP1
+
 ### --feedback--
 
 Esta frase sugere confusão, mas Anna precisa mostrar concordância com a ideia de Bob.
@@ -31,6 +36,10 @@ Esta frase sugere confusão, mas Anna precisa mostrar concordância com a ideia 
 ---
 
 `That makes sense.`
+
+### --audio-id--
+
+en-b1-67adad520eb3ba05f8a1af1b-SP2
 
 ## --video-solution--
 

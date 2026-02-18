@@ -1,6 +1,6 @@
 ---
 id: 657cbef9aa43ceba8af6feb4
-title: Task 51
+title: 任務 51
 challengeType: 22
 dashedName: task-51
 lang: en-US
@@ -10,11 +10,11 @@ lang: en-US
 
 # --description--
 
-When you like doing something very much, you can say you `enjoy` it. It's a simple way to express that something makes you happy.
+當你非常喜歡做某件事時，你可以說你 `enjoy` 它。這是一種簡單的方式來表達某件事讓你感到快樂。
 
-For example, you can say, `I enjoy playing video games`. This means playing video games is fun for you.
+例如，你可以說，`I enjoy playing video games`。這表示對你來說玩遊戲很有趣。
 
-In the dialogue, Sophie tells something that Maria enjoys in her job.
+在對話窗中，Sophie 說了 Maria 在她的工作中喜歡的事情。
 
 # --fillInTheBlank--
 
@@ -28,7 +28,7 @@ In the dialogue, Sophie tells something that Maria enjoys in her job.
 
 ### --feedback--
 
-This verb means Maria likes something and feels happy doing it. It ends in `-s`.
+這個動詞表示 Maria 喜歡某件事並且做這件事時感到快樂。它以 `-s` 結尾。
 
 # --scene--
 

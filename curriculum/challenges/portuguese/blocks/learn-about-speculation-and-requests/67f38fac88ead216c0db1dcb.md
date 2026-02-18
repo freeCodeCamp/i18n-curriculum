@@ -3,6 +3,7 @@ id: 67f38fac88ead216c0db1dcb
 title: Tarefa 81
 challengeType: 19
 dashedName: task-81
+showSpeakingButton: true
 lang: en-US
 ---
 
@@ -24,6 +25,10 @@ Jessica ainda não verificou isso, mas vai fazer. O que ela deveria dizer?
 
 `No, I won't check it.`
 
+### --audio-id--
+
+en-b1-67f38fac88ead216c0db1dcb-SP1
+
 ### --feedback--
 
 `Won't` é a contração de `will not`. Jessica planeja verificar isso.
@@ -31,6 +36,10 @@ Jessica ainda não verificou isso, mas vai fazer. O que ela deveria dizer?
 ---
 
 `No, I didn't. I'll do that.`
+
+### --audio-id--
+
+en-b1-67f38fac88ead216c0db1dcb-SP2
 
 ## --video-solution--
 

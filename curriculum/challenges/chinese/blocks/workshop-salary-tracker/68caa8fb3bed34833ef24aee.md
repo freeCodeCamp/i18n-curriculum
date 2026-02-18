@@ -1,19 +1,19 @@
 ---
 id: 68caa8fb3bed34833ef24aee
-title: Step 29
+title: 步骤 29
 challengeType: 20
 dashedName: step-29
 ---
 
 # --description--
 
-When the level is modified, you need to update the salary as well.
+当等级被修改时，你需要同时更新薪水。
 
-Before setting `self._level`, set `self._salary` to the base salary for the new level.
+在设置 `self._level` 之前，将 `self._salary` 设置为新建级别的基本工资。
 
 # --hints--
 
-You should set `self._salary` to the base salary for the new level.
+你应该将 `self._salary` 设置为新建级别的基本工资。
 
 ```js
 ({ test: () => runPython(`
@@ -77,7 +77,7 @@ class Employee:
         if Employee._base_salaries[new_level] < Employee._base_salaries[self.level]:
             raise ValueError(f"Cannot change to lower level.")
 --fcc-editable-region--
-
+        
         self._level = new_level
 --fcc-editable-region--
     @property

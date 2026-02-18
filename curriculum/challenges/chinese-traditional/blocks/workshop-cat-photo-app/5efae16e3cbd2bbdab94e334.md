@@ -7,29 +7,29 @@ dashedName: step-33
 
 # --description--
 
-在最後一個 `img` 元素之後，添加一個 `figcaption` 元素，文本爲 `Cats hate other cats.`
+在最後一個 `img` 元素之後，添加一個帶有文字 `Cats hate other cats.` 的 `figcaption` 元素。
 
 # --hints--
 
-你的 `figcaption` 元素應該有一個開始標籤。 開始標籤的語法爲：`<elementName>`。
+你的 `figcaption` 元素應該有一個開啟標記。開啟標記具有以下語法：`<elementName>`。
 
 ```js
 assert.lengthOf(document.querySelectorAll('figcaption'), 2);
 ```
 
-你的 `figcaption` 元素應該有一個結束標籤。 結束標籤在 `<` 字符之後有一個 `/`。
+你的 `figcaption` 元素應該有一個結束標籤。結束標籤在 `<` 字元後面緊接著有一個 `/`。
 
 ```js
 assert.lengthOf(code.match(/<\/figcaption\>/g), 2);
 ```
 
-在第二個 `section` 元素的結束標籤上方應該有一個 `figure` 元素。
+在第二個 `section` 元素的結束標籤正上方應該有一個 `figure` 元素。
 
 ```js
 assert.equal(document.querySelectorAll('main > section')[1]?.lastElementChild.nodeName, 'FIGURE');
 ```
 
-最後一個 `img` 元素應該嵌套在 `figure` 元素中。
+最後一個 `img` 元素應該巢狀在 `figure` 元素中。
 
 ```js
 const catsImg = document.querySelectorAll('figure > img')[1];
@@ -38,25 +38,25 @@ assert.equal(
 );
 ```
 
-你的 `figure` 元素應該有一個開始標籤。 開始標籤的語法爲：`<elementName>`。
+你的 `figure` 元素應該有一個開啟標籤。開啟標籤具有以下語法：`<elementName>`。
 
 ```js
 assert.lengthOf(document.querySelectorAll('figure'), 2);
 ```
 
-你的 `figure` 元素應該有一個結束標籤。 結束標籤在 `<` 字符之後有一個 `/`。
+你的 `figure` 元素應該有一個結束標籤。結束標籤在 `<` 字元後面緊接著有一個 `/`。
 
 ```js
 assert.lengthOf(code.match(/<\/figure\>/g), 2);
 ```
 
-`figcaption` 元素應該嵌套在 `figure` 元素中。
+`figcaption` 元素應該巢狀在 `figure` 元素中。
 
 ```js
 assert.lengthOf(document.querySelectorAll('figure > figcaption'), 2);
 ```
 
-嵌套在 `figure` 元素中的 `figcaption` 元素應位於 `img` 元素下方。 你的 `img` 元素和 `figcaption` 元素的順序錯了。
+嵌套在 `figure` 元素中的 `figcaption` 元素應該位於 `img` 元素下方。你將 `img` 元素和 `figcaption` 元素的順序弄錯了。
 
 ```js
 assert.equal(
@@ -65,7 +65,7 @@ assert.equal(
 );
 ```
 
-`figcaption` 元素應包含文本 `Cats hate other cats.`。你要麼忽略了單詞，要麼拼寫有誤。
+`figcaption` 元素應該有文字 `Cats hate other cats.` 你遺漏了一個字或有拼寫錯誤。
 
 ```js
 assert.match(
@@ -112,7 +112,7 @@ assert.match(
         <figure>
           <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" alt="Two tabby kittens sleeping together on a couch.">
 --fcc-editable-region--
-
+          
 --fcc-editable-region--
         </figure>
       </section>

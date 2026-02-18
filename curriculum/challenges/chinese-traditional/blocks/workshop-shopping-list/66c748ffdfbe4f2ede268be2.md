@@ -1,21 +1,21 @@
 ---
 id: 66c748ffdfbe4f2ede268be2
-title: 步驟 20
+title: 第 20 步
 challengeType: 1
 dashedName: step-20
 ---
 
 # --description--
 
-In this final step of the workshop, log the final grocery list to the console.
+在工作坊的最後一步，將最終的雜貨 `list` 記錄到主控台。
 
-To do this, call the `getShoppingListMsg` function with the `shoppingList` array as an argument inside `console.log`.
+為此，請在 `console.log` 內以 `shoppingList` 陣列作為引數呼叫 `getShoppingListMsg` 函式（程式）。
 
-And with this last step your grocery list is complete!
+完成這最後一步後，你的購物列表就完成了！
 
 # --hints--
 
-You should call `getShoppingListMsg(shoppingList)` inside of the `console.log`.
+你應該在 `console.log` 裡呼叫 `getShoppingListMsg(shoppingList)`。
 
 ```js
 assert.lengthOf(code.match(/console\.log\(\s*getShoppingListMsg\(\s*shoppingList\s*\)\s*\)/g), 7);

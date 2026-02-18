@@ -1,6 +1,6 @@
 ---
 id: 680a3cf5ca047daf5e8ecff5
-title: Task 66
+title: 任务 66
 challengeType: 22
 dashedName: task-66
 lang: en-US
@@ -24,15 +24,15 @@ lang: en-US
 
 ### --feedback--
 
-This is used to show that something happens earlier in time than something else.
+这用于表示某事发生的时间早于另一事。
 
 # --explanation--
 
-`Before` is used to show that one action happens earlier than another. 例如：
+`Before` 用于表示一个动作发生在另一个动作之前。例如：
 
-- `Please save your work before you close the program.` – This means saving should happen earlier than closing the program.
+- `Please save your work before you close the program.` – 这意味着储存应早于关闭程序发生。
 
-- `He always checks his code carefully before submitting it.` – This means checking happens first, before the action of submitting.
+- `He always checks his code carefully before submitting it.` – 这意味着查看发生在提交动作之前。
 
 # --scene--
 

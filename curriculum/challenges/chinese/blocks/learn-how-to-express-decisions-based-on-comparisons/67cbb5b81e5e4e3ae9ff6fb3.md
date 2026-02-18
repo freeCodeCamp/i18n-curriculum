@@ -1,6 +1,6 @@
 ---
 id: 67cbb5b81e5e4e3ae9ff6fb3
-title: Task 42
+title: 任务 42
 challengeType: 19
 dashedName: task-42
 lang: en-US
@@ -16,35 +16,35 @@ lang: en-US
 
 ## --text--
 
-What does Jake mean?
+Jake 是什么意思？
 
 ## --answers--
 
-SafeGuard is easy to integrate with other tools.
-
+SafeGuard 易于与其他工具集成。
+  
 ### --feedback--
 
-What Jake says implies it is not easy.
+Jake 说的话暗示这并不容易。
 
 ---
 
-SafeGuard costs more when integrated.
+当 SafeGuard 被集成时，成本更高。
 
 ### --feedback--
 
-Jake doesn't mention the cost.
+Jake 没有提到成本。
 
 ---
 
-Integration with SafeGuard may require additional effort.
+与 SafeGuard 的集成可能需要额外的工作。
 
 ---
 
-SafeGuard is not flexible with integration.
+SafeGuard 在集成方面不够灵活。
 
 ### --feedback--
 
-Jake doesn't mention flexibility but focuses on the need for extra work.
+Jake 没有提到灵活性，而是专注于额外工作的需求。
 
 ## --video-solution--
 
@@ -52,9 +52,9 @@ Jake doesn't mention flexibility but focuses on the need for extra work.
 
 # --explanation--
 
-`Extra work` means additional effort or time needed to achieve a goal.
+`Extra work` 意味着为实现目标所需的额外努力或时间。
 
-Jake is suggesting that `if integration is crucial` (very important), Sophie might face challenges with SafeGuard, and therefore, additional work or effort will be required to integrate it with other platforms.
+Jake 建议，如果 `if integration is crucial`（非常重要），Sophie 可能会在 SafeGuard 上遇到挑战，因此，需要额外的工作或努力将其集成到其他平台。 
 
 # --scene--
 

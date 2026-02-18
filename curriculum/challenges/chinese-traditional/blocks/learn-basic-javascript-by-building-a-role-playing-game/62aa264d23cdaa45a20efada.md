@@ -7,9 +7,9 @@ dashedName: step-163
 
 # --description--
 
-在 `numbers` 數組之後，創建一個 `while` 循環，只要 `numbers.length` 小於 `10`，該循環就會運行。
+在你的 `numbers` 陣列之後，創建一個 `while` 迴圈，只要 `numbers.length` 小於 10 就執行。
 
-在上一個項目中，你學習瞭如何使用 `while` 循環，如下所示：
+在先前的專案中，你學會了如何使用像這樣的 `while` 迴圈：
 
 ```js
 while (condition) {
@@ -19,13 +19,13 @@ while (condition) {
 
 # --hints--
 
-你的 `pick` 函數應該有一個 `while` 循環。
+你的 `pick` 函式應該有一個 `while` 迴圈。
 
 ```js
 assert.match(pick.toString(), /while\s*\(/);
 ```
 
-你的 `while` 循環應該在 `numbers.length < 10` 的情況下運行。
+你的 `while` 迴圈應該在 `numbers.length < 10` 時執行。
 
 ```js
 assert.match(pick.toString(), /while\s*\(\s*numbers\.length\s*<\s*10\s*\)/);
@@ -386,7 +386,7 @@ function pickEight() {
 --fcc-editable-region--
 function pick(guess) {
   const numbers = [];
-
+  
 }
 --fcc-editable-region--
 ```

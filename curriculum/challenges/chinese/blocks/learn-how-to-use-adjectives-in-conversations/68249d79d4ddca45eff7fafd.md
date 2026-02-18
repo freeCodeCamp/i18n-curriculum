@@ -1,6 +1,6 @@
 ---
 id: 68249d79d4ddca45eff7fafd
-title: Task 144
+title: 任务 144
 challengeType: 19
 dashedName: task-144
 lang: en-US
@@ -16,35 +16,35 @@ lang: en-US
 
 ## --text--
 
-What does Jessica plan to do with the information?
+Jessica 计划如何处理这些信息？
 
 ## --answers--
 
-Ignore it for now and wait for more feedback.
+暂时忽略它，等待更多反馈。
 
 ### --feedback--
 
-Jessica says she will organize the information and share it, not ignore it.
+Jessica 说她会整理这些信息并分享，而不是忽视它。
 
 ---
 
-Organize it into a report and discuss it with others.
+将其整理成报告并与其他人讨论。
 
 ---
 
-Ask users to test it again before making changes.
+在进行更改之前，请用户再次测试。
 
 ### --feedback--
 
-She does not mention anything about retesting or user feedback.
+她没有提到任何关于重新测试或用户反馈的内容。
 
 ---
 
-Send it directly to the client without review.
+直接发送给客户，无需审核。
 
 ### --feedback--
 
-Jessica plans to talk with her team first, not send it straight to a client.
+Jessica 计划先与她的团队交谈，而不是直接发送给客户。
 
 ## --video-solution--
 
@@ -52,9 +52,9 @@ Jessica plans to talk with her team first, not send it straight to a client.
 
 # --explanation--
 
-Jessica says she will `put all this information into a report` and `talk about it with the team tomorrow`. This shows she plans to organize the details and have a discussion with her team.
+Jessica 说她会 `put all this information into a report` 并且 `talk about it with the team tomorrow`。这表明她计划整理这些细节并与她的团队进行讨论。
 
-She also says the feedback `should help`, meaning it will guide their next steps.
+她还说反馈 `should help`，意思是它将指导他们的下一步。
 
 # --scene--
 

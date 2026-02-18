@@ -1,6 +1,6 @@
 ---
 id: cf1111c1c11feddfaeb5bdef
-title: for 循環
+title: 使用 JavaScript 迴圈進行迭代
 challengeType: 1
 forumTopicId: 18219
 dashedName: iterate-with-javascript-for-loops
@@ -8,21 +8,21 @@ dashedName: iterate-with-javascript-for-loops
 
 # --description--
 
-You can run the same code multiple times by using a loop.
+你可以使用迴圈多次執行相同的程式碼。
 
-JavaScript 中最常見的循環就是 `for`，它可以循環指定次數。
+JavaScript 最常見的迴圈型別稱為 `for` 迴圈，因為它會執行特定次數。
 
-for 循環中的可選三個表達式用分號隔開：
+迴圈是用三個以分號分隔的選用表達式宣告的：
 
-`for (a; b; c)`，其中`a`爲初始化語句，`b`爲條件語句，`c` 是最終的表達式。
+`for (a; b; c)`，其中 `a` 是初始化述語，`b` 是條件述語，`c` 是最終表達式。
 
-初始化語句只會在執行循環開始之前執行一次。 它通常用於定義和設置你的循環變量。
+初始化述語只會在迴圈開始前執行一次。它通常用來定義和設定你的迴圈變數。
 
-循環條件語句會在每一輪循環的開始前執行，只要條件判斷爲 `true` 就會繼續執行循環。 當條件爲 `false` 的時候，循環將停止執行。 這意味着，如果條件在一開始就爲 false，這個循環將不會執行。
+條件述語會在每次迴圈開始時被評估，並且只要評估結果為 `true` 就會繼續執行。當條件在迴圈開始時為 `false`，迴圈將停止執行。這表示如果條件一開始就是 false，你的迴圈將永遠不會執行。
 
-終止循環表達式在每次循環迭代結束， 在下一個條件檢查之前時執行，通常用來遞增或遞減循環計數。
+最終的表達式會在每次迴圈執行結束時執行，且在下一次條件檢查之前，通常用於遞增或遞減你的迴圈計數器。
 
-在下面的例子中，先初始化 `i = 0`，條件 `i < 5` 爲 true 時，進入循環。 每次循環後 `i` 的值增加 `1`，然後執行終止循環條件表達式 `i++`。
+在以下範例中，我們以 `i = 0` 初始化，並在條件 `i < 5` 為真時進行迭代。我們將在每次迴圈迭代中以 `i++` 作為最後的表達式，將 `i` 增加 `1`。
 
 ```js
 const ourArray = [];
@@ -32,21 +32,21 @@ for (let i = 0; i < 5; i++) {
 }
 ```
 
-`ourArray` 現在的值爲 `[0, 1, 2, 3, 4]`。
+`ourArray` 現在將具有值 `[0, 1, 2, 3, 4]`。
 
 # --instructions--
 
-使用 `for` 循環把從 1 到 5 添加進 `myArray` 中。
+使用 `for` 迴圈將值 1 到 5 推入 `myArray`。
 
 # --hints--
 
-你應該使用 `for` 循環。
+你應該為此使用 `for` 迴圈。
 
 ```js
 assert(/for\s*\([^)]+?\)/.test(__helpers.removeJSComments(code)));
 ```
 
-`myArray` 應該等於 `[1, 2, 3, 4, 5]`。
+`myArray` 應該與 `[1, 2, 3, 4, 5]` 相等。
 
 ```js
 assert.deepEqual(myArray, [1, 2, 3, 4, 5]);

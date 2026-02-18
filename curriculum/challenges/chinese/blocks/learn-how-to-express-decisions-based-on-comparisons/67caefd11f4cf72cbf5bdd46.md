@@ -1,6 +1,6 @@
 ---
 id: 67caefd11f4cf72cbf5bdd46
-title: Task 37
+title: 任务 37
 challengeType: 22
 dashedName: task-37
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+请听音频，并完成下面的填空。
 
 # --fillInTheBlank--
 
@@ -24,17 +24,17 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This two-word phrase is a casual way of saying "no" or "not exactly". It's often used when you want to politely disagree or give a softer, less direct response. The first letter of the first word is capitalized.
+这个两个字的短语是表示“不”或“不是完全正确”的一种随意说法。它通常在你想礼貌地表示不同意或给出更委婉、不那么直接的回应时使用。第一个单词的首字母大写。
 
 # --explanation--
 
-`Not really` is commonly used to give a negative answer, but in a softer tone. It's more casual than simply saying `No`. For example:
+`Not really` 通常用于给出否定回答，但语气更柔和。它比单纯说 `No` 更随意。例如：
 
-Person 1: `Do you think this software is user-friendly?`
+人物 1：`Do you think this software is user-friendly?`
 
-Person 2: `Not really.`
+人物 2：`Not really.`
 
-This means it's not very user-friendly, but the speaker might not be completely certain.
+这意味着它不是很用户友好，但说话者可能并不完全确定。
 
 # --scene--
 

@@ -1,6 +1,6 @@
 ---
 id: 657b72cbdef32ec0b1a24afb
-title: Task 30
+title: 任務 30
 challengeType: 19
 dashedName: task-30
 lang: en-US
@@ -10,27 +10,27 @@ lang: en-US
 
 # --description--
 
-When you hear about different types of guitars, two common kinds might come up: `electric` and `acoustic`.
+當你聽到不同類型的吉他時，兩種常見的型別可能會出現：`electric` 和 `acoustic`。
 
-`Electric guitars` usually need something called an amplifier to be loud enough to hear, while `acoustic guitars` can be heard without any extra equipment.
+`Electric guitars` 通常需要一種稱為放大器的裝置才能夠足夠大聲地聽見，而 `acoustic guitars` 則不需要任何額外設備即可聽見。
 
 # --questions--
 
 ## --text--
 
-What type of guitar does Sophie prefer?
+Sophie 偏好哪種吉他？
 
 ## --answers--
 
-Electric guitar
+電吉他
 
 ---
 
-Acoustic guitar
+原聲吉他
 
 ### --feedback--
 
-Sophie makes it very clear which type of guitar she likes. The one she prefers needs an amplifier to be loud.
+Sophie 非常清楚她喜歡哪一種吉他。她偏好的那一種需要擴大機才能發出大聲音。
 
 ## --video-solution--
 

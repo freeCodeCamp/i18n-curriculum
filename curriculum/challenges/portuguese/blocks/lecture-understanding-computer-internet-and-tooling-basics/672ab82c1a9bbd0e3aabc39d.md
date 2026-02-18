@@ -21,7 +21,9 @@ Embora os preços desses dispositivos possam variar e representar uma compra car
 
 Outra dica é manter seu mouse na mesma altura do seu teclado. Você não quer precisar esticar para cima ou para baixo para usar o mouse, pois isso pode sobrecarregar os músculos do pulso e do braço com o tempo.
 
-Você também deve estar atento à sua postura geral ao sentar-se no computador por horas a fio. Ficar curvado sobre o seu computador e colocar seu pulso em uma posição não natural no teclado levará a problemas de saúde a longo prazo. Então, você quer se certificar de sentar-se ereto ao trabalhar no seu computador e manter uma posição saudável e natural do pulso.
+Você também deve estar atento à sua postura geral ao sentar-se no computador por longos períodos. Ficar curvado sobre o computador e colocar os pulsos em uma posição não natural no teclado pode levar a problemas de saúde a longo prazo.
+
+Embora manter uma boa postura seja importante, a ergonomia moderna enfatiza a importância do movimento e da postura dinâmica. O corpo humano é projetado para o movimento e ficar em qualquer posição fixa, mesmo que reta, por muito tempo pode exercer pressão contínua na coluna vertebral. Fazer pausas regulares, ajustar sua posição ao longo do dia e manter uma posição natural do pulso pode ajudar a melhorar a circulação, reduzir a fadiga e apoiar a saúde da coluna a longo prazo.
 
 A última dica seria usar atalhos de teclado sempre que possível para ajudar a minimizar a digitação. Existem dezenas de atalhos disponíveis para tarefas como navegar na web, navegar pelo seu sistema operacional, trabalhar dentro de um editor de código e mais.  So, it’s best to research some of these keyboard shortcuts and start incorporating them into your daily computer usage.
 

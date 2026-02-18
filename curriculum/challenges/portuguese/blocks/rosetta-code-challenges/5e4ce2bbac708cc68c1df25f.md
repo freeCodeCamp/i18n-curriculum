@@ -10,13 +10,13 @@ dashedName: letter-frequency
 
 Ao receber uma string, calcule a frequência de cada caractere.
 
-Todos os caracteres devem ser contados.Isto inclui letras minúsculas e maiúsculas, dígitos, espaços em branco, caracteres especiais ou quaisquer outros caracteres distintos.
+Todos os caracteres devem ser contados. Isto inclui letras minúsculas e maiúsculas, dígitos, espaços em branco, caracteres especiais ou quaisquer outros caracteres distintos.
 
 # --instructions--
 
 Escreva uma função para contar as ocorrências de cada caractere em uma determinada string.
 
-A função deve retornar um array bidimensional com cada um dos elementos na seguinte forma: `['char', freq]`.O caractere deve ser uma string de comprimento 1, e a frequência deve ser um número que indique a contagem.
+A função deve retornar um array bidimensional com cada um dos elementos na seguinte forma: `['char', freq]`. O caractere deve ser uma string de comprimento 1, e a frequência deve ser um número que indique a contagem.
 
 Por exemplo, dada a string "ab", sua função deve retornar `[['a', 1], ['b', 1]]`.
 

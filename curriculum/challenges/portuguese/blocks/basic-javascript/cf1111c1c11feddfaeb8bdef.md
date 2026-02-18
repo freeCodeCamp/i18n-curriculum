@@ -19,7 +19,7 @@ ourArray[0] = 15;
 
 `ourArray` agora tem o valor `[15, 40, 30]`.
 
-**Nota:** Não deve haver espaços entre o nome do array e os colchetes, como em `array [0]`.Embora JavaScript é capaz de processar isso corretamente, isso pode causar confusão em outros programadores lendo o seu código.
+**Nota:** Não deve haver espaços entre o nome do array e os colchetes, como em `array [0]`. Embora JavaScript é capaz de processar isso corretamente, isso pode causar confusão em outros programadores lendo o seu código.
 
 # --instructions--
 

@@ -1,6 +1,6 @@
 ---
 id: bd7123c9c441eddfaeb4bdef
-title: 給代碼添加註釋
+title: 為你的 JavaScript 程式碼加註解
 challengeType: 1
 forumTopicId: 16783
 dashedName: comment-your-javascript-code
@@ -8,38 +8,38 @@ dashedName: comment-your-javascript-code
 
 # --description--
 
-Comments are lines of code that JavaScript will intentionally ignore. Comments are a great way to leave notes to yourself and to other people who will later need to figure out what that code does.
+註解是 JavaScript 會刻意忽略的程式碼行。註解是給自己和之後需要了解該程式碼功能的其他人留下備註的好方法。
 
-JavaScript有兩種寫註釋的方法。
+在 JavaScript 中有兩種撰寫註解的方式：
 
-使用 `//` 註釋掉當前行的代碼。 這是一個行內註釋：
+使用 `//` 會告訴 JavaScript 忽略目前行中剩餘的文字。這是一個內嵌註解：
 
 ```js
 // This is an in-line comment.
 ```
 
-你也可以使用多行註釋來註釋你的代碼，使用 `/*` 開始， `*/` 結束。 這是一個多行註釋：
+你可以使用以 `/*` 開頭並以 `*/` 結尾的多行註解。這是一個多行註解：
 
 ```js
 /* This is a
 multi-line comment */
 ```
 
-**最佳實踐**當你寫代碼的時候，你應該時不時的添加註釋來解釋你寫的代碼的作用。 適當的註釋能讓別人*和*你未來的自己更容易看懂代碼。
+**注意：** 當你撰寫程式碼時，應該定期添加註解以說明程式碼零件的功能。良好的註解可以幫助傳達你程式碼的意圖——不論是給其他人還是你未來的自己。
 
 # --instructions--
 
-嘗試創建這兩種類型的註釋。
+嘗試建立每種型別的註解各一個。
 
 # --hints--
 
-創建一個 `//` 樣式的註釋，被註釋的文本至少要包含 5 個字符。
+你應該創建一個包含至少五個字母的 `//` 風格註解。
 
 ```js
 assert(code.match(/(\/\/)...../g));
 ```
 
-創建一個 `/* */` 樣式的註釋，被註釋的文本至少要包含 5 個字符。
+你應該創建一個包含至少五個字母的 `/* */` 風格註解。
 
 ```js
 assert(code.match(/(\/\*)([^\/]{5,})(?=\*\/)/gm));

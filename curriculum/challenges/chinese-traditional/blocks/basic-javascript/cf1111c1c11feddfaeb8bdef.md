@@ -1,6 +1,6 @@
 ---
 id: cf1111c1c11feddfaeb8bdef
-title: Modify Array Data With Indexes
+title: 使用索引修改陣列資料
 challengeType: 1
 forumTopicId: 18241
 dashedName: modify-array-data-with-indexes
@@ -8,26 +8,26 @@ dashedName: modify-array-data-with-indexes
 
 # --description--
 
-Unlike strings, the entries of arrays are <dfn>mutable</dfn> and can be changed freely, even if the array was declared with `const`.
+與字串不同，陣列的項目是<dfn>可變的</dfn>，即使陣列是用 `const` 宣告的，也可以自由更改。
 
-**Example**
+**範例**
 
 ```js
 const ourArray = [50, 40, 30];
 ourArray[0] = 15;
 ```
 
-`ourArray` now has the value `[15, 40, 30]`.
+`ourArray` 現在的值是 `[15, 40, 30]`。
 
-**Note:** There shouldn't be any spaces between the array name and the square brackets, like `array [0]`. Although JavaScript is able to process this correctly, this may confuse other programmers reading your code.
+**注意：** 陣列名稱和方括號之間不應該有任何空格，例如 `array [0]`。雖然 JavaScript 能正確處理這種情況，但這可能會讓其他程式設計師在閱讀你的程式碼時感到困惑。
 
 # --instructions--
 
-Modify the data stored at index `0` of `myArray` to a value of `45`.
+修改儲存在 `myArray` 索引 `0` 的資料為 `45`。
 
 # --hints--
 
-`myArray` should now be `[45, 64, 99]`.
+`myArray` 現在應該是 `[45, 64, 99]`。
 
 ```js
 assert(
@@ -46,7 +46,7 @@ assert(
 );
 ```
 
-You should be using correct index to modify the value in `myArray`.
+你應該使用正確的索引來修改 `myArray` 中的值。
 
 ```js
 assert(

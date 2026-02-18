@@ -25,7 +25,7 @@ while (condition) {
 assert.match(pick.toString(), /while\s*\(/);
 ```
 
-你的 `while` 循环应该在 `numbers.length < 10` 的情况下运行。
+你的 `while` 循环应在 `numbers.length < 10` 时运行。
 
 ```js
 assert.match(pick.toString(), /while\s*\(\s*numbers\.length\s*<\s*10\s*\)/);
@@ -386,7 +386,7 @@ function pickEight() {
 --fcc-editable-region--
 function pick(guess) {
   const numbers = [];
-
+  
 }
 --fcc-editable-region--
 ```

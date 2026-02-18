@@ -1,19 +1,19 @@
 ---
 id: 6852ea0c3cadb54e897acdac
-title: Step 1
+title: 步驟 1
 challengeType: 20
 dashedName: step-1
 ---
 
 # --description--
 
-In this workshop, you are going to build an *Email Simulator* that simulates sending, receiving, and managing emails between different users. You'll learn about classes, objects, and how to organize code in an object-oriented way.
+在這個工作坊中，你將建置一個*Email Simulator*，模擬不同使用者之間發送、接收和管理電子郵件。你將學習類別、物件，以及如何以物件導向的方式組織程式碼。
 
-Begin by creating a class named `Email` using the `class` keyword.
+首先使用 `class` 關鍵字建立一個名為 `Email` 的類別。
 
 # --hints--
 
-You should create a class named `Email`.
+你應該創建一個名為 `Email` 的類別。
 
 ```js
 ({

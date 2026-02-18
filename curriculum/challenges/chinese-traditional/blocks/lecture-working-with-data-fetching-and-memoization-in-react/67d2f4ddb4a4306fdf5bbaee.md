@@ -1,43 +1,43 @@
 ---
 id: 67d2f4ddb4a4306fdf5bbaee
-title: What Is Memoization, and How Does the useMemo Hook Work?
+title: 什麼是記憶化，以及 `useMemo` 掛鉤如何運作？
 challengeType: 19
 dashedName: what-is-memoization-and-how-does-the-usememo-hook-work
 ---
 
 # --description--
 
-As your React app gets larger, unnecessary re-renders and expensive calculations can slow down performance, leading to slow UI updates and increased resource usage.
+隨著你的 React 應用程式變得越來越大，不必要的重新呈現和昂貴的計算可能會降低效率、性能，導致使用者介面更新緩慢和資源使用增加。
 
-This can be especially problematic in apps with complex state management, large lists, functions that require heavy computations, and many components with a single parent.
+這在具有複雜狀態管理、大型列表、需要大量計算的函式（程式）以及許多具有單一父組件的組件的應用程式中特別成問題。
 
-This gives rise to the need to optimize your React app for better performance by minimizing redundant computations and ensuring smoother interactions.
+這產生了為你的 React 應用程式最佳化效率、性能的需求，透過最小化冗餘計算並確保更順暢的互動。
 
-React solves this problem with a process called memoization, a technique which caches values and functions to prevent unnecessary recalculations, so your app can be faster and more responsive.
+React 使用一種稱為記憶化的處理程序來解決這個問題，這種技術會將值和函式快取起來，以防止不必要的重新計算，讓你的應用程式更快且更具回應性。
 
-By definition, memoization is an optimization technique in which the result of expensive function calls are cached (remembered) based on specific arguments. When the same arguments are provided again, the cached result is returned instead of re-computing the function.
+根據定義，記憶化是一種優化技術，透過根據特定引數快取（記住）昂貴函式呼叫的結果。當再次提供相同引數時，會傳回快取的結果，而非重新計算函式。
 
-The memoization process happens this way:
+備忘錄化的處理程序以此方式進行：
 
-- Store the results of function calls along with their input arguments.
+- 將函式呼叫的結果與其輸入引數一起儲存。
 
-- Before executing the function, check if the result for the current arguments already exists in the cache.
+- 在執行函式（程式）之前，檢查目前引數的結果是否已存在於快取中。
 
-- If it exists, return the cached result instead of running the computation again.
+- 如果存在，傳回快取結果，而不是再次執行計算。
 
-- If it doesn't exist, compute the result, store it in the cache, and then return it.
+- 如果不存在，計算結果，將其儲存在快取中，然後傳回。
 
-To improve developer experience with memoization, React provides three tools – `React.memo` (or `memo`), `useMemo` and `useCallback`. 
+為了提升開發者使用快取記憶的體驗，React 提供了三種工具－`React.memo`（或 `memo`）、`useMemo` 和 `useCallback`。 
 
-As you might guess, both `useMemo` and `useCallback` are hooks, but `React.memo` is a component wrapper, a higher-order component (HOC).
+正如你可能猜到的，`useMemo` 和 `useCallback` 都是掛鉤，但 `React.memo` 是組件外覆，一種高階組件（HOC）。
 
-In the next lesson, we will take a look at how the `useCallback` hook and `React.memo` work.
+在下一課中，我們將探討 `useCallback` 掛鉤和 `React.memo` 如何運作。
 
-`useMemo` lets you memoize computed values while `useCallback` does the same for function references.
+`useMemo` 讓你記憶計算後的值，而 `useCallback` 則對函式（程式）引用做相同的事。
 
-If you're wondering what computed values and function references are, computed values refer to the result of executing a function, while function references are the pointers to functions – the function object in memory.
+如果你想知道什麼是計算值和函式引用，計算值是指執行函式後的結果，而函式引用是指向函式的指標－記憶體中的函式物件。
 
-Let's see how to use the `useMemo` hook first. Here's the basic syntax of the `useMemo` hook:
+讓我們先看看如何使用 `useMemo` 掛鉤。以下是 `useMemo` 掛鉤的基本語法：
 
 ```js
 const memoizedValue = useMemo(
@@ -48,9 +48,9 @@ const memoizedValue = useMemo(
 );
 ```
 
-You can see all that's needed is to wrap the `useMemo` hook around the function.
+你可以看到所需的全部就是將 `useMemo` 掛鉤包裹在函式周圍。
 
-This `ExpensiveSquare` component will receive a `num` prop which it will use to calculate the square:
+這個 `ExpensiveSquare` 組件將接收一個 `num` prop，並使用它來計算平方：
 
 ```jsx
 function ExpensiveSquare({ num }) {
@@ -69,7 +69,7 @@ function ExpensiveSquare({ num }) {
 export default ExpensiveSquare;
 ```
 
-Here's the `App` component where the `ExpensiveSquare` is being used:
+這是使用 `ExpensiveSquare` 的 `App` 組件：
 
 ```jsx
 import { useState, useEffect } from "react";
@@ -96,9 +96,9 @@ function App() {
 export default App;
 ```
 
-The `timer` in the `useEffect`, running every second, will make the `calculateSquare` function run any time it runs, even when you don't increase the `num` state variable.
+`useEffect` 中每秒執行一次的 `timer`，會讓 `calculateSquare` 函式在每次執行時都執行，即使你沒有增加 `num` 狀態變數。
 
-To solve this problem, we can use the `useMemo` hook by wrapping the function call in it and specifying the `num` variable as the dependency:
+為了解決這個問題，我們可以使用 `useMemo` 掛鉤，將函式呼叫包裹在其中，並指定 `num` 變數作為相依性：
 
 ```jsx
 // import the useMemo hook
@@ -124,43 +124,43 @@ function ExpensiveSquare({ num }) {
 export default ExpensiveSquare;
 ```
 
-This will make sure the function is memoized by caching the result, so calculation happens only when the `num` variable changes, not when anything changes in the component it's being used in.
+這將確保函式（程式）透過快取結果來進行記憶化，因此只有當 `num` 變數改變時才會進行計算，而不是當它被使用的組件中任何東西改變時。
 
-The `calculateSquare` function call is not running any time `timer` changes anymore but on the initial render and when `num` changes.
+`calculateSquare` 函式的呼叫不會在 `timer` 變更時執行，只會在初始呈現和 `num` 變更時執行。
 
 # --questions--
 
 ## --text--
 
-What is memoization in React?
+React 中的記憶化是什麼？
 
 ## --answers--
 
-A technique that caches values and functions to prevent unnecessary recalculations.
+一種快取值和函式以防止不必要重新計算的技術。
 
 ---
 
-A technique that lets you manage component state updates to prevent unnecessary recalculations.
+一種讓你管理組件狀態更新以防止不必要重新計算的技術。
 
 ### --feedback--
 
-It helps optimize performance by storing previously computed results.
+它透過儲存先前計算的結果來幫助最佳化效率。
 
 ---
 
-A process of reconciling the Virtual DOM with the actual DOM.
+將虛擬 DOM 與實際 DOM 對應的處理程序。
 
 ### --feedback--
 
-It helps optimize performance by storing previously computed results.
+它透過儲存先前計算的結果來幫助最佳化效率。
 
 ---
 
-A way to handle side effects in functional components.
+在函式（程式）組件中控制副作用的一種方式。
 
 ### --feedback--
 
-It helps optimize performance by storing previously computed results.
+它透過儲存先前計算的結果來幫助最佳化效率。
 
 ## --video-solution--
 
@@ -168,35 +168,35 @@ It helps optimize performance by storing previously computed results.
 
 ## --text--
 
-What is the difference between computed values and function references?
+計算值與函式引用之間有什麼差異？
 
 ## --answers--
 
-Computed values are function objects, while function references are execution results.
+計算值是函式物件，而函式引用是執行結果。
 
 ### --feedback--
 
-One is the output of a function, while the other is just a pointer to it.
+一個是函式的輸出，另一個只是指向它的指標。
 
 ---
 
-Computed values are the result of executing a function, while function references are the function objects in memory.
+計算值是執行函式後的結果，而函式引用是記憶體中的函式物件。
 
 ---
 
-Computed values and function references are the same thing.
+計算值和函式引用是相同的東西。
 
 ### --feedback--
 
-One is the output of a function, while the other is just a pointer to it.
+一個是函式的輸出，另一個只是指向它的指標。
 
 ---
 
-Function references store computed values.
+函式引用儲存計算後的值。
 
 ### --feedback--
 
-One is the output of a function, while the other is just a pointer to it.
+一個是函式的輸出，另一個只是指向它的指標。
 
 ## --video-solution--
 
@@ -204,7 +204,7 @@ One is the output of a function, while the other is just a pointer to it.
 
 ## --text--
 
-Which of these is NOT one of the tools React provides for memoization?
+以下哪一項不是 React 提供用於記憶化的工具？
 
 ## --answers--
 
@@ -212,7 +212,7 @@ Which of these is NOT one of the tools React provides for memoization?
 
 ### --feedback--
 
-Memoization tools focus on caching values and functions, while this option handles side effects.
+記憶化工具專注於快取值和函式，而這個選項可控制副作用。
 
 ---
 
@@ -220,7 +220,7 @@ Memoization tools focus on caching values and functions, while this option handl
 
 ### --feedback--
 
-Memoization tools focus on caching values and functions, while this option handles side effects.
+記憶化工具專注於快取值和函式，而這個選項可控制副作用。
 
 ---
 
@@ -228,7 +228,7 @@ Memoization tools focus on caching values and functions, while this option handl
 
 ### --feedback--
 
-Memoization tools focus on caching values and functions, while this option handles side effects.
+記憶化工具專注於快取值和函式，而這個選項可控制副作用。
 
 ---
 

@@ -24,13 +24,13 @@ lang: en-US
 
 ### --feedback--
 
-This means at the present time and shows the situation could change later.
+这意味着当前时间，并显示情况以后可能会改变。
 
 # --explanation--
 
-`For now` means at this moment or for the time being. It suggests that things are complete at the moment, but more might happen later. 例如：
+`For now` 意味着此刻或暂时。它表示目前事情是完成的，但以后可能会有更多变化。例如：
 
-`Let's stop working here for now and continue tomorrow.` - This means they are pausing at the moment, but will continue later.
+`Let's stop working here for now and continue tomorrow.`——这意味着他们目前暂停，但稍后会继续。
 
 # --scene--
 

@@ -10,13 +10,13 @@ lang: en-US
 
 # --description--
 
-When describing the color of a person's eyes, you normally identify them first by their color. Common eye colors are `black`, `brown`, `blue`, and `green`. Depending on the color if can have a tendency to `white` or to `black` (the color itself is stronger or weaker). In this case, you can add the words `light` (tending to `white`) and `dark` (tending to `black`) before the color to express it. Another characteristic that you normally use to identify another person's eyes is the shape - `round` when it is more like a circle and `narrow` when it is more similar to a line. Finally, you can refer to them in terms of their size, `large` (when they are big) or `small` (when they are not). Tom also expresses an opinion, saying Lisa's eyes are full of energy and vitality. In this case, you say one's eyes is `bright`.
+描述一个人眼睛的颜色时，通常先通过颜色来识别。常见的眼睛颜色有 `black`、`brown`、`blue` 和 `green`。根据颜色的不同，它可能倾向于 `white` 或 `black`（颜色本身更强或更弱）。在这种情况下，你可以在颜色前添加 `light`（倾向于 `white`）和 `dark`（倾向于 `black`）来表达。另一个通常用来识别别人眼睛的特征是形状——当眼睛更像圆形时为 `round`，当更像线条时为 `narrow`。最后，你可以根据大小来描述它们，`large`（当眼睛较大时）或 `small`（当眼睛较小时）。Tom 还表达了一个观点，说 Lisa 的眼睛充满了活力和生气。在这种情况下，你说某人的眼睛是 `bright`。
 
-As you do with `hair`, the adjectives to identify a person's eyes also follow an order in English. First, you express this opinion, then move on to the size, then the shape and finally the color (preceded or not by `light` or `dark`).
+就像你描述 `hair` 一样，用来描述一个人眼睛的形容词在英语中也遵循一定的顺序。首先表达你的看法，然后描述大小，再描述形状，最后描述颜色（可加或不加 `light` 或 `dark` 作为前缀）。
 
-Example: `Tom has beautiful, small, narrow, light green eyes.`
+示例：`Tom has beautiful, small, narrow, light green eyes.`
 
-Now listen and fill in the blanks with Tom's description of Lisa's eyes.
+现在听，并用 Tom 对 Lisa 眼睛的描述填空。
 
 # --fillInTheBlank--
 
@@ -30,7 +30,7 @@ Now listen and fill in the blanks with Tom's description of Lisa's eyes.
 
 ### --feedback--
 
-Tom expresses an opinion first. He says Lisa's eyes are full of energy.
+Tom 先表达了一个观点。他说 Lisa 的眼睛充满了活力。
 
 ---
 
@@ -38,7 +38,7 @@ Tom expresses an opinion first. He says Lisa's eyes are full of energy.
 
 ### --feedback--
 
-Tom finally talks about Lisa's eye color. It is a shade close to `black`, and neither `blue` nor `green`.
+汤姆最终谈到了丽莎的眼睛颜色。它接近于 `black` 的一种色调，既不是 `blue` 也不是 `green`。
 
 # --scene--
 

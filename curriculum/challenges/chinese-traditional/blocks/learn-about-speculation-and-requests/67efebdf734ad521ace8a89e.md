@@ -1,6 +1,6 @@
 ---
 id: 67efebdf734ad521ace8a89e
-title: Task 57
+title: 任務 57
 challengeType: 22
 dashedName: task-57
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+聆聽音訊並完成以下句子。
 
 # --fillInTheBlank--
 
@@ -24,17 +24,17 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This two-word phrase refers to a security flaw in a system that lacks a fix or update to address it and can be exploited.
+這個兩字詞語取用系統中缺乏修補或更新以解決的安全漏洞，且可能被利用。
 
 # --explanation--
 
-`Unpatched` means that something has not been updated or fixed.
+`Unpatched` 意味著某物尚未被更新或修復。
 
-`Vulnerability` refers to a weakness in a system that can be exploited.
+`Vulnerability` 是指系統中可被利用的弱點。
 
-Together, an `unpatched vulnerability` is a security weakness that has not been fixed or updated. Hackers can exploit these weaknesses to attack a system. For example:
+總結來說，`unpatched vulnerability` 是尚未修復或更新的安全弱點。駭客可以利用這些弱點來攻擊系統。例如：
 
-`We need to fix the unpatched vulnerability now.` - The team knows about security problem but it hasn't been repaired yet.
+`We need to fix the unpatched vulnerability now.`－團隊知道安全問題但尚未修復。
 
 # --scene--
 

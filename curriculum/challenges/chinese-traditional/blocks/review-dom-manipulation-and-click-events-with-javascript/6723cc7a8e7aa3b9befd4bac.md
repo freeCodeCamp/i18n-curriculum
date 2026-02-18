@@ -1,25 +1,25 @@
 ---
 id: 6723cc7a8e7aa3b9befd4bac
-title: DOM Manipulation and Click Events with JavaScript Review
+title: 使用 JavaScript 進行 DOM 操作和點擊事件回顧
 challengeType: 31
 dashedName: review-dom-manipulation-and-click-events-with-javascript
 ---
 
 # --interactive--
 
-## Working with the DOM and Web APIs
+## 操作 DOM 和 Web API
 
-- **API**: An API (Application Programming Interface) is a set of rules and protocols that allow software applications to communicate with each other and exchange data efficiently.
-- **Web API**: Web APIs are specifically designed for web applications. These types of APIs are often divided into two main categories: browser APIs and third-party APIs.
-- **Browser APIs**: These APIs expose data from the browser. As a web developer, you can access and manipulate this data using JavaScript.
-- **Third-Party APIs**: These are not built into the browser by default. You have to retrieve their code in some way. Usually, they will have detailed documentation explaining how to use their services. An example is the Google Maps API, which you can use to display interactive maps on your website.
-- **DOM**: The DOM stands for Document Object Model. It's a programming interface that lets you interact with HTML documents. With the DOM, you can add, modify, or delete elements on a webpage. The root of the DOM tree is the `html` element. It's the top-level container for all the content of an HTML document. All other nodes are descendants of this root node. Then, below the root node, we find other nodes in the hierarchy. A parent node is an element that contains other elements. A child node is an element that is contained within another element.
-- **`navigator` Interface**: This provides information about the browser environment, such as the user agent string, the platform, and the version of the browser. A user agent string is a text string that identifies the browser and operating system being used.
-- **`window` Interface**: This represents the browser window that contains the DOM document. It provides methods and properties for interacting with the browser window, such as resizing the window, opening new windows, and navigating to different URLs.
+- **API**：API（應用程式設計介面）是一組規則和通訊協定，允許軟體應用程式彼此溝通並高效交換資料。
+- **Web API**：Web API 專為網頁應用程式設計。這類 API 通常分為兩大類別：瀏覽器 API 和第三方 API。
+- **瀏覽器 API**：這些 API 會揭露來自瀏覽器的資料。作為網頁開發者，你可以使用 JavaScript 存取並操作這些資料。
+- **第三方 API**：這些不是瀏覽器預設內建的。你必須以某種方式取得它們的程式碼。通常，它們會有詳細的文件說明如何使用它們的服務。舉例來說，Google Maps API 可以用來在你的網站上顯示互動式地圖。
+- **DOM**：DOM 代表文件物件模型。它是一個程式設計介面，讓你能與 HTML 文件互動。透過 DOM，你可以新增、修改或刪除網頁上的元素。DOM 樹的根節點是 `html` 元素。它是 HTML 文件所有內容的最高層級容器。所有其他節點都是此根節點的後代。接著，在根節點之下，我們會在階層體系中找到其他節點。父節點是包含其他元素的元素。子節點是被包含在另一個元素中的元素。
+- **`navigator` 介面**：此介面提供瀏覽器環境的資訊，例如使用者代理字串、平台以及瀏覽器版本。使用者代理字串是一個用來識別所使用瀏覽器和作業系統的文字字串。
+- **`window` 介面**：這表述包含 DOM 文件的瀏覽器視窗。它提供與瀏覽器視窗互動的行為和屬性，例如調整視窗大小、開啟新視窗以及導向不同的 URL。
 
-## Working with the `querySelector()`, `querySelectorAll()` and `getElementById()` Methods
+## 使用 `querySelector()`、`querySelectorAll()` 和 `getElementById()` 方法
 
-- **`getElementById()` Method**: This method is used to get an object that represents the HTML element with the specified `id`. Remember that ids must be unique in every HTML document, so this method will only return one Element object.
+- **`getElementById()` 方法**：此方法用於取得表述具有指定 `id` 的 HTML 元素的物件。請記得每個 HTML 文件中的 id 必須是唯一的，因此此方法只會傳回一個 Element 物件。
 
 :::interactive_editor
 
@@ -35,7 +35,7 @@ console.log(container)
 
 :::
 
-- **`querySelector()` Method**: This method is used to get the first element in the HTML document that matches the CSS selector passed as an argument.
+- **`querySelector()` 方法**：此方法用於取得 HTML 文件中第一個符合作為引數傳入的 CSS 選擇器的元素。
 
 :::interactive_editor
 
@@ -51,7 +51,7 @@ console.log(section)
 
 :::
 
-- **`querySelectorAll()` Method**: You can use this method to get a list of all the DOM elements that match a specific CSS selector.
+- **`querySelectorAll()` 方法**：你可以使用此方法取得符合特定 CSS 選擇器的所有 DOM 元素的列表。
 
 :::interactive_editor
 
@@ -71,9 +71,9 @@ console.log(ingredients)
 
 :::
 
-## Working with the `innerText()`, `innerHTML()`, `createElement()` and `textContent()` Methods
+## 使用 `innerText()`、`innerHTML()`、`createElement()` 和 `textContent()` 方法
 
-- **`innerHTML` Property**: This is a property of the `Element` that is used to set or update parts of the HTML markup.
+- **`innerHTML` 屬性**：這是 `Element` 的一個屬性，用於設定或更新 HTML 標記的零件。
 
 :::interactive_editor
 
@@ -91,13 +91,13 @@ container.innerHTML = '<ul><li>Cheese</li><li>Tomato</li></ul>';
 
 :::
 
-- **`createElement` Method**: This is used to create an HTML element.
+- **`createElement` 方法**：這用於創建一個 HTML 元素。
 
 ```js
 const img = document.createElement("img");
 ```
 
-- **`innerText`**: This represents the visible text content of the HTML element and its descendants.
+- **`innerText`**：這表述 HTML 元素及其子孫的可見文字內容。
 
 :::interactive_editor
 
@@ -116,7 +116,7 @@ console.log(container.innerText);
 
 :::
 
-- **`textContent`**: This returns the plain text content of an element, including all the text within its descendants.
+- **`textContent`**：這會傳回元素的純文字內容，包括其所有子孫元素中的文字。
 
 :::interactive_editor
 
@@ -135,9 +135,9 @@ console.log(container.textContent);
 
 :::
 
-## Working with the `appendChild()` and `removeChild()` Methods
+## 使用 `appendChild()` 和 `removeChild()` 方法
 
-- **`appendChild()` Method**: This method is used to add a node to the end of the list of children of a specified parent node.
+- **`appendChild()` 方法**：此方法用於將節點添加到指定父節點的子節點列表末端。
 
 :::interactive_editor
 
@@ -159,7 +159,7 @@ dessertsList.appendChild(listItem);
 
 :::
 
-- **`removeChild()` Method**: This method is used to remove a node from the DOM.
+- **`removeChild()` 方法**：此方法用於從 DOM 中移除節點。
 
 :::interactive_editor
 
@@ -181,9 +181,9 @@ sectionEl.removeChild(lastParagraph);
 
 :::
 
-## Work with the `setAttribute()` Method
+## 使用 `setAttribute()` 方法
 
-- **Definition**: This method is used to set the attribute for a given element. If the attribute already exists, then the value is updated. Otherwise, a new attribute is added with a value.
+- **定義**：此方法用於設定給定元素的屬性。如果屬性已存在，則會更新其值。否則，將新增一個帶有值的屬性。
 
 :::interactive_editor
 
@@ -199,13 +199,13 @@ para.setAttribute("class", "my-class");
 
 :::
 
-## Event Object
+## 事件物件
 
-- **Definition**: The `Event` object is a payload that triggers when a user interacts with your web page in some way. These interactions can be anything from clicking on a button or focusing an input to shaking their mobile device. All `Event` objects will have the `type` property. This property reveals the type of event that triggered the payload, such as keydown or click. These values will correspond to the same values you might pass to `addEventListener()`, where you can capture and utilize the `Event` object.
+- **定義**：`Event` 物件是當使用者以某種方式與你的網頁交談時所觸發的有效負載。這些交談可以是從點擊按鈕或聚焦輸入框到搖動他們的行動裝置。所有 `Event` 物件都會有 `type` 屬性。此屬性揭示觸發有效負載的事件型別，例如 keydown 或 click。這些值將對應到你可能傳遞給 `addEventListener()` 的相同值，在那裡你可以捕捉並使用 `Event` 物件。
 
-## `addEventListener()` and `removeEventListener()` Methods
+## `addEventListener()` 和 `removeEventListener()` 方法
 
-- **`addEventListener` Method**: This method is used to listen for events. It takes two arguments: the event you want to listen for and a function that will be called when the event occurs. Some common examples of events would be click events, input events, and change events.
+- **`addEventListener` 方法**：此方法用於監聽事件。它接受兩個引數：你想監聽的事件以及當事件發生時會被呼叫的函式（程式）。一些常見的事件範例包括點擊事件、輸入事件和變更事件。
 
 :::interactive_editor
 
@@ -222,7 +222,7 @@ btn.addEventListener("click", () => alert("You clicked the button"));
 
 :::
 
-- **`removeEventListener()` Method**: This method is used to remove an event listener that was previously added to an element using the `addEventListener()` method. This is useful when you want to stop listening for a particular event on an element.
+- **`removeEventListener()` 方法**：此方法用於移除先前使用 `addEventListener()` 方法添加到元素的事件監聽器。當你想停止監聽元素上的特定事件時，這非常有用。
 
 :::interactive_editor
 
@@ -255,7 +255,7 @@ para.addEventListener("mouseover", () => {
 
 :::
 
-- **Inline Event Handlers**: Inline event handlers are special attributes on an HTML element that are used to execute JavaScript code when an event occurs. In modern JavaScript, inline event handlers are not considered best practice. It is preferred to use the `addEventListener` method instead.
+- **行內事件處理常式**：行內事件處理常式是 HTML 元素上的特殊屬性，用於在事件發生時執行 JavaScript 程式碼。在現代 JavaScript 中，行內事件處理常式不被視為最佳實務。建議改用 `addEventListener` 方法。
 
 
 :::interactive_editor
@@ -266,9 +266,9 @@ para.addEventListener("mouseover", () => {
 
 :::
 
-## The Change Event
+## 變更事件
 
-- **Definition**: The change event is a special event which is fired when the user modifies the value of certain input elements. Examples would include when a checkbox or a radio button is ticked. Or when the user makes a selection from something like a date picker or dropdown menu.
+- **定義**：`change event` 是一種特殊的事件，當使用者修改某些輸入元素的值時會觸發。範例包括勾選核取方塊或圓鈕、單選按鈕，或使用者從日期選擇器或下拉選單中做出選擇時。
 
 :::interactive_editor
 
@@ -298,22 +298,22 @@ selectEl.addEventListener("change", (e) => {
 
 :::
 
-## Event Bubbling
+## 事件冒泡
 
-- **Definition**: Event bubbling, or propagation, refers to how an event "bubbles up" to parent objects when triggered.
-- **`stopPropagation()` Method**: This method prevents further propagation for an event.
+- **定義**：事件冒泡，或稱傳播，指的是當事件被觸發時，該事件如何「冒泡」至父物件。
+- **`stopPropagation()` 方法**：此方法可防止事件的進一步傳播。
 
-## Event Delegation
+## 事件委派
 
-- **Definition**: Event delegation is the process of listening to events that have bubbled up to a parent, rather than handling them directly on the element that triggered them.
+- **定義**：事件委派是監聽已冒泡到父元素的事件的處理程序，而不是直接在觸發事件的元素上處理它們。
 
 ## DOMContentLoaded
 
-- **Definition**: The `DOMContentLoaded` event is fired when everything in the HTML document has been loaded and parsed. If you have external stylesheets, or images, the `DOMContentLoaded` event will not wait for those to be loaded. It will only wait for the HTML to be loaded.
+- **定義**：當 HTML 文件中的所有內容都已載入並解析時，會觸發 `DOMContentLoaded` 事件。如果你有外部樣式表或影像，`DOMContentLoaded` 事件不會等待那些載入。它只會等待 HTML 載入完成。
 
-## Working with `style` and `classList`
+## 操作 `style` 和 `classList`
 
-- **`Element.style` Property**: This property is a read-only property that represents the inline style of an element. You can use this property to get or set the style of an element.
+- **`Element.style` 屬性**：此屬性是一個唯讀屬性，表述元素的行內樣式。你可以使用此屬性來取得或設定元素的樣式。
 
 :::interactive_editor
 
@@ -329,7 +329,7 @@ paraEl.style.color = "red";
 
 :::
 
-- **`Element.classList` Property**: This property is a read-only property that can be used to add, remove, or toggle classes on an element.
+- **`Element.classList` 屬性**：此屬性為唯讀屬性，可用來為元素添加、移除或切換類別。
 
 :::interactive_editor
 
@@ -379,9 +379,9 @@ toggleBtn.addEventListener("click", () => menu.classList.toggle("show"));
 :::
 
 
-## Working with the `setTimeout()` and `setInterval()` Methods
+## 使用 `setTimeout()` 和 `setInterval()` 方法
 
-- **`setTimeout()` Method**: This method lets you delay an action for a specified time.
+- **`setTimeout()` 方法**：此方法讓你延遲指定時間後執行動作。
 
 :::interactive_editor
 
@@ -393,7 +393,7 @@ setTimeout(() => {
 
 :::
 
-- **`setInterval()` Method**: This method keeps runs a piece of code repeatedly at a set interval. Since `setInterval()` keeps executing the provided function at the specified interval, you might want to stop it. For this, you have to use the `clearInterval()` method.
+- **`setInterval()` 方法**：此方法會在設定的間隔內重複執行一段程式碼。由於 `setInterval()` 會持續在指定的間隔執行所提供的函式，你可能會想要停止它。為此，你必須使用 `clearInterval()` 方法。
 
 :::interactive_editor
 
@@ -414,9 +414,9 @@ setTimeout(() => {
 
 :::
 
-## The `requestAnimationFrame()` Method
+## `requestAnimationFrame()` 方法
 
-- **Definition**: This method allows you to schedule the next step of your animation before the next screen repaint, resulting in a fluid and visually appealing experience. The next screen repaint refers to the moment when the browser refreshes the visual display of the web page. This happens multiple times per second, typically around 60 times (or 60 frames per second) on most displays.
+- **定義**：此方法允許你在下一次螢幕重新整理之前排程動畫的下一步，從而產生流暢且視覺上吸引人的體驗。下一次螢幕重新整理是指瀏覽器重新整理網頁視覺顯示的時刻。這通常每秒發生多次，在大多數顯示器上約為 60 次（或每秒 60 個影格）。
 
 ```js
 function animate() {
@@ -428,9 +428,9 @@ function animate() {
 }
 ```
 
-## Web Animations API
+## 網頁動畫 API
 
-- **Definition**: The Web Animations API lets you create and control animations directly inside JavaScript. 
+- **定義**：Web Animations API 讓你能夠直接在 JavaScript 中創建並控制動畫。
 
 :::interactive_editor
 
@@ -465,9 +465,9 @@ const animation = square.animate(
 
 :::
 
-## The Canvas API
+## Canvas API
 
-- **Definition**: The Canvas API is a powerful tool that lets you manipulate graphics right inside your JavaScript file. To work with the Canvas API, you first need to provide a `canvas` element in HTML. This element acts as a drawing surface you can manipulate with the instance methods and properties of the interfaces in the Canvas API. This API has interfaces like `HTMLCanvasElement`, `CanvasRenderingContext2D`, `CanvasGradient`, `CanvasPattern`, and `TextMetrics` which contain methods and properties you can use to create graphics in your JavaScript file.
+- **定義**：Canvas API 是一個強大的工具，讓你能夠直接在你的 JavaScript 檔案中操作圖形。要使用 Canvas API，首先你需要在 HTML 中提供一個 `canvas` 元素。這個元素充當一個繪圖表面，你可以使用 Canvas API 中介面的實體方法和屬性來操作它。這個 API 包含像是 `HTMLCanvasElement`、`CanvasRenderingContext2D`、`CanvasGradient`、`CanvasPattern` 和 `TextMetrics` 等介面，這些介面包含你可以用來在你的 JavaScript 檔案中創建圖形的方法和屬性。
 
 :::interactive_editor
 
@@ -492,10 +492,10 @@ ctx.fillRect(1, 1, 150, 100);
 
 :::
 
-## Opening and Closing Dialogs and Modals with JavaScript
+## 使用 JavaScript 開啟和關閉對話窗與模態視窗
 
-- **Modal and Dialog Definitions**: Dialogs let you display important information or actions to users. With the HTML built-in dialog element, you can easily create these dialogs (both modal and non-modal dialogs) in your web apps. A modal dialog is a type of dialog that forces the user to interact with it before they can access the rest of the application or webpage. In contrast, a non-modal dialog allows the user to continue interacting with other parts of the page or application even when the dialog is open. It doesn't prevent access to the rest of the content.
-- **`showModal()` Method**: This method is used to open a modal.
+- **模態與對話盒定義**：對話盒讓你向使用者顯示重要的資訊或操作。利用 HTML 內建的 `dialog` 元素，你可以輕鬆地在你的網頁應用程式中創建這些對話盒（包括模態與非模態對話盒）。模態對話盒是一種強制使用者在存取應用程式或網頁的其他部分之前，必須先與其互動的對話盒。相反地，非模態對話盒允許使用者在對話盒開啟時，繼續與頁面或應用程式的其他部分互動。它不會阻止存取其他內容。
+- **`showModal()` 方法**：此方法用於開啟一個模態視窗。
 
 :::interactive_editor
 
@@ -518,7 +518,7 @@ openButton.addEventListener('click', () => {
 
 :::
 
-- **`close()` Method**: This method is used to close the modal.
+- **`close()` 方法**：此方法用於關閉模態視窗。
 
 :::interactive_editor
 
@@ -549,4 +549,4 @@ closeButton.addEventListener('click', () => {
 
 # --assignment--
 
-Review the DOM Manipulation and Click Events with JavaScript topics and concepts.
+檢視 DOM 操作和使用 JavaScript 的點擊事件主題與概念。

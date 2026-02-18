@@ -1,6 +1,6 @@
 ---
 id: 662347b1bb7b3cdfcccffa57
-title: Task 50
+title: 任務 50
 challengeType: 22
 dashedName: task-50
 lang: en-US
@@ -10,9 +10,9 @@ lang: en-US
 
 # --description--
 
-`Heard` is the past tense of the verb `to hear`, which means to become aware of something through the ears or to be informed of something. For example, `I heard the news yesterday` means you became aware of the news the day before.
+`Heard` 是動詞 `to hear` 的過去式，意思是透過耳朵察覺某事或被告知某事。 例如，`I heard the news yesterday` 意味著你在前一天得知了這個消息。
 
-An `authentication module` in a software context is a part of a system responsible for verifying the identity of users. It's often used in login systems. For example, `The authentication module checks the username and password` means it verifies the user's credentials.
+軟體背景關係中的 `authentication module` 是系統中負責驗證使用者身份的零件。它經常用於登入系統。 例如，`The authentication module checks the username and password` 意味著它會驗證使用者的憑證。
 
 # --fillInTheBlank--
 
@@ -26,7 +26,7 @@ An `authentication module` in a software context is a part of a system responsib
 
 ### --feedback--
 
-It is the past tense of `to hear`, indicating Brian was informed about Sophie's task.
+它是 `to hear` 的過去式，表示 Brian 已經得知 Sophie 的任務。
 
 ---
 
@@ -34,7 +34,7 @@ It is the past tense of `to hear`, indicating Brian was informed about Sophie's 
 
 ### --feedback--
 
-It refers to the act of repairing or resolving the issue (bug) in the software.
+它是指修復或解決軟體中問題（錯誤）的行為。
 
 ---
 
@@ -42,7 +42,7 @@ It refers to the act of repairing or resolving the issue (bug) in the software.
 
 ### --feedback--
 
-It refers to the process of verifying a user's identity in the software module.
+它是指在軟體模組中驗證使用者身份的處理程序。
 
 # --scene--
 

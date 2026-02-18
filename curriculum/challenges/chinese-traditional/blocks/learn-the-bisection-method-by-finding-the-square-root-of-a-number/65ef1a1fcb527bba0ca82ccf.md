@@ -7,11 +7,11 @@ dashedName: step-6
 
 # --description--
 
-If the `square_target` is equal to  `1`, declare a variable `root` and assign it the value `1` . Also, print the message `'The square root of {square_target} is 1'`. Remember to format the message using an f-string.
+如果 `square_target` 相等於 `1`，宣告一個變數 `root` 並指定其值為 `1`。同時，列印訊息 `'The square root of {square_target} is 1'`。記得使用 f-string 格式化該訊息。
 
 # --hints--
 
-You should remove the `pass` keyword.
+你應該移除 `pass` 關鍵字。
 
 ```js
 ({
@@ -22,7 +22,7 @@ You should remove the `pass` keyword.
 })
 ```
 
-You should assign the value `1` to the `root` variable and print the message `'The square root of {square_target} is 1'` inside the `if` body.
+你應該將值 `1` 指定給 `root` 變數，並在 `if` 主體內列印訊息 `'The square root of {square_target} is 1'`。
 
 ```js
 

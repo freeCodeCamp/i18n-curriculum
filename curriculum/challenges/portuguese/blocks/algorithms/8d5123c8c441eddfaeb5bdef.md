@@ -8,11 +8,11 @@ dashedName: implement-bubble-sort
 
 # --description--
 
-Este é o primeiro de vários desafios sobre algoritmos de ordenação.Dado um array de itens não ordenados, queremos poder retornar um array ordenado.Veremos vários métodos diferentes para fazer isso e aprenderemos algumas escolhas que precisam ser feitas na hora de usar estas abordagens diferentes.Embora as linguagens mais modernas tenham métodos de ordenação incorporados para operações como esta, continua importante entender algumas das abordagens básicas comuns e aprender como podem ser implementadas.
+Este é o primeiro de vários desafios sobre algoritmos de ordenação. Dado um array de itens não ordenados, queremos poder retornar um array ordenado. Veremos vários métodos diferentes para fazer isso e aprenderemos algumas escolhas que precisam ser feitas na hora de usar estas abordagens diferentes. Embora as linguagens mais modernas tenham métodos de ordenação incorporados para operações como esta, continua importante entender algumas das abordagens básicas comuns e aprender como podem ser implementadas.
 
-Aqui, veremos o Bubble Sort.O método do Bubble Sort começa no início de um array não classificado e lança valores não classificados para o fim, iterando através do array até que esteja completamente ordenado.Ele faz isso comparando os itens adjacentes e trocando-os de lugar se eles estiverem fora de ordem.O método continua se repetindo por todo o array até que não ocorram mais trocas, momento em que o array estará ordenado.
+Aqui, veremos o Bubble Sort. O método do Bubble Sort começa no início de um array não classificado e lança valores não classificados para o fim, iterando através do array até que esteja completamente ordenado. Ele faz isso comparando os itens adjacentes e trocando-os de lugar se eles estiverem fora de ordem. O método continua se repetindo por todo o array até que não ocorram mais trocas, momento em que o array estará ordenado.
 
-Este método requer múltiplas iterações através do array e, em média e nos piores casos, tem complexidade de tempo quadrática.Embora seja simples, ele não é muito prático na maioria das situações.
+Este método requer múltiplas iterações através do array e, em média e nos piores casos, tem complexidade de tempo quadrática. Embora seja simples, ele não é muito prático na maioria das situações.
 
 **Instruções:** Escreva uma função `bubbleSort` que receba um array de inteiros como entrada e retorne um array desses inteiros em ordem crescente, do menor para o maior.
 

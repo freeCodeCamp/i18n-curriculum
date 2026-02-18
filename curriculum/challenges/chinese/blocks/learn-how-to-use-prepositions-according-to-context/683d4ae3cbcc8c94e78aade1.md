@@ -16,35 +16,35 @@ lang: en-US
 
 ## --text--
 
-What is Bob explaining?
+Bob 在解释什么？
 
 ## --answers--
 
-That the emergency exit is blocked.
+紧急退出被堵住。
 
 ### --feedback--
 
-Bob doesn't say the exit is blocked - he just mentions its location.
+Bob 并没有说退出被阻塞——他只是提到了它的位置。
 
 ---
 
-That the back door needs a new lock.
+后门需要一个新建的锁定。
 
 ### --feedback--
 
-Bob doesn't mention anything about locks or a back door needing repairs.
+Bob 没有提到任何关于锁定或后门需要维修的事情。
 
 ---
 
-That the server room needs to be cleaned.
+服务器机房需要清洁。
 
 ### --feedback--
 
-There is no mention of cleaning in Bob's sentence.
+Bob 的句子中没有提到清理。
 
 ---
 
-That something is located near the emergency exit.
+那个东西位于紧急 `exit` 附近。
 
 ## --video-solution--
 
@@ -52,9 +52,9 @@ That something is located near the emergency exit.
 
 # --explanation--
 
-Bob says, `Exactly. It's in the back, next to the emergency exit`. This means he is confirming the location of something - right beside the emergency exit.
+Bob 说，`Exactly. It's in the back, next to the emergency exit`。这意味着他正在确认某物的位置——就在紧急 `exit` 旁边。
 
-He doesn't talk about repairs, cleaning, or problems.
+他不谈论维修、清洁或问题。
 
 # --scene--
 

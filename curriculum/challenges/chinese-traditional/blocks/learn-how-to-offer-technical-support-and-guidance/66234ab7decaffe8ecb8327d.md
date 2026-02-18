@@ -1,6 +1,6 @@
 ---
 id: 66234ab7decaffe8ecb8327d
-title: Task 56
+title: 任務 56
 challengeType: 22
 dashedName: task-56
 lang: en-US
@@ -10,9 +10,9 @@ lang: en-US
 
 # --description--
 
-`To affect` means to have an impact on or influence something. In programming, `affecting` a part of the system means that changes in one area might impact how other areas function.
+`To affect` 意味著對某事物產生影響或作用。在程式設計中，`affecting` 系統的某個零件表示一個區域的變更可能會影響其他區域的運作方式。
 
-For example, `Changing the database structure could affect the application's performance` indicates that modifications might influence the performance.
+例如，`Changing the database structure could affect the application's performance` 顯示修改可能會影響效率。
 
 # --fillInTheBlank--
 
@@ -26,7 +26,7 @@ For example, `Changing the database structure could affect the application's per
 
 ### --feedback--
 
-In this context, it refers to the potential impact of Sophie's changes on other parts of the system.
+在這個背景關係中，它指的是 Sophie 的變更對系統其他零件可能產生的影響。
 
 ---
 
@@ -34,7 +34,7 @@ In this context, it refers to the potential impact of Sophie's changes on other 
 
 ### --feedback--
 
-They are the various operations or features of the system that might be impacted by the changes.
+它們是系統中可能會受到變更影響的各種操作或特性。
 
 # --scene--
 

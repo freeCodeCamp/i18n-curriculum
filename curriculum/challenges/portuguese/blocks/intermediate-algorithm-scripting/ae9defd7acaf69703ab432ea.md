@@ -12,7 +12,7 @@ Encontre o menor múltiplo comum dos parâmetros fornecidos que podem ser dividi
 
 O intervalo será um array de dois números que não estará necessariamente em ordem numérica.
 
-Por exemplo, se dados 1 e 3, encontre o menor múltiplo comum de ambos 1 e 3 que também seja divisível uniformemente por todos os números *entre* 1 e 3.A resposta aqui seria 6.
+Por exemplo, se dados 1 e 3, encontre o menor múltiplo comum de ambos 1 e 3 que também seja divisível uniformemente por todos os números *entre* 1 e 3. A resposta aqui seria 6.
 
 # --hints--
 

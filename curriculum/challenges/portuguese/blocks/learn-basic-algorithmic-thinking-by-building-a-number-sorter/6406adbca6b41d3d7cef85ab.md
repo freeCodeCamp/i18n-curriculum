@@ -7,9 +7,9 @@ dashedName: step-5
 
 # --description--
 
-De volta à função `sortInputArray`, você precisa obter os valores dos elementos `select`.Como todos eles têm a classe `values-dropdown`, você pode consultar todos de uma só vez.
+De volta à função `sortInputArray`, você precisa obter os valores dos elementos `select`. Como todos eles têm a classe `values-dropdown`, você pode consultar todos de uma só vez.
 
-Use `document.getElementsByClassName()` para obter todos os elementos com essa classe passando o argumento `"values-dropdown"`.Atribua isso a uma variável `inputValues` com `const`.
+Use `document.getElementsByClassName()` para obter todos os elementos com essa classe passando o argumento `"values-dropdown"`. Atribua isso a uma variável `inputValues` com `const`.
 
 # --hints--
 

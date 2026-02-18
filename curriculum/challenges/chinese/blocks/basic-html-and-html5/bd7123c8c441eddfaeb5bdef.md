@@ -1,6 +1,6 @@
 ---
 id: bd7123c8c441eddfaeb5bdef
-title: Say Hello to HTML Elements
+title: 向 HTML 元素问好
 challengeType: 0
 videoUrl: 'https://scrimba.com/p/pVMPUv/cE8Gpt2'
 forumTopicId: 18276
@@ -9,37 +9,37 @@ dashedName: say-hello-to-html-elements
 
 # --description--
 
-Welcome to freeCodeCamp's HTML coding challenges. These will walk you through web development step-by-step.
+欢迎访问 freeCodeCamp 的 HTML 编程挑战。 这些挑战将会帮助你逐步掌握 Web 开发。
 
-First, you'll start by building a simple web page using HTML. You can edit code in your code editor, which is embedded into this web page.
+首先，我们来用 HTML 制作一个简单的网页。 你可以直接在网页内置的代码编辑器中编辑代码。
 
-Do you see the code in your code editor that says `<h1>Hello</h1>`? That's an HTML element.
+你在代码编辑器中看到写着 `<h1>Hello</h1>` 的代码了吗？那是一个超文本标记语言元素。
 
-Most HTML elements have an opening tag and a closing tag.
+大部分 HTML 元素都有一个开始标签和一个结束标签。
 
-Opening tags look like this:
+开始标签像这样：
 
 ```html
 <h1>
 ```
 
-Closing tags look like this:
+结束标签像这样：
 
 ```html
 </h1>
 ```
 
-The only difference between opening and closing tags is the forward slash after the opening bracket of a closing tag.
+开始标签和结束标签的唯一区别就是结束标签多了一个斜杠。
 
-Each challenge has tests you can run at any time by clicking the "Run tests" button. When you pass all tests, you'll be prompted to submit your solution and go to the next coding challenge.
+每个挑战都有测试，任何时候你点击“运行测试”按钮，就可以运行测试。 如果代码通过测试，将会弹出一个窗口，你就可以进入下一个挑战。
 
 # --instructions--
 
-To pass the test on this challenge, change your `h1` element's text to say `Hello World`.
+要通过这个挑战的测试，需要修改 `h1` 元素的文本为 `Hello World`。
 
 # --hints--
 
-Your `h1` element should have the text `Hello World`.
+`h1` 元素的内容文本应为 `Hello World`。
 
 ```js
 assert.match(document.querySelector('h1').textContent,/hello(\s)+world/gi);

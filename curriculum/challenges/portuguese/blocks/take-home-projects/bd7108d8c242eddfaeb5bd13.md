@@ -8,9 +8,9 @@ dashedName: map-data-across-the-globe
 
 # --description--
 
-**Objective:** Build an app that is functionally similar to this: <https://codepen.io/freeCodeCamp/full/mVEJag>.
+**Objetivo:** Construir um app que seja funcionalmente semelhante a este: https://codepen.io/freeCodeCamp/full/mVEJag.
 
-Atenda às histórias de usuário abaixo e faça com que todos os testes passem.Use quaisquer bibliotecas ou APIs de que você precisar.Dê ao projeto o seu próprio estilo pessoal.
+Atenda às histórias de usuário abaixo e faça com que todos os testes passem. Use quaisquer bibliotecas ou APIs de que você precisar. Dê ao projeto o seu próprio estilo pessoal.
 
 **História do Usuário:** Posso ver onde todos os Meteorites caíram em um mapa-múndi.
 
@@ -18,7 +18,7 @@ Atenda às histórias de usuário abaixo e faça com que todos os testes passem.
 
 **História do Usuário:** Posso passar o mouse sobre o ponto de dados do meteorito para obter dados adicionais.
 
-**Hint:** Here's a dataset you can use to build this: <https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/meteorite-strike-data.json>
+**Dica:** Aqui está um conjunto de dados que você pode usar para construir isso: https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/meteorite-strike-data.json
 
 Quando terminar, inclua um link para o seu projeto no CodePen e clique no botão "Eu completei esse desafio".
 

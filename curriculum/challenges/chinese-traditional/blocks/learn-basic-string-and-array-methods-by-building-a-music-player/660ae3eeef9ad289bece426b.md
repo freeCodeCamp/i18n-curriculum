@@ -1,15 +1,15 @@
 ---
 id: 660ae3eeef9ad289bece426b
-title: 步驟11
+title: 第 11 步
 challengeType: 0
 dashedName: step-11
 ---
 
 # --description--
 
-在以前的項目中，你使用了常規函數。 但在其餘的項目中，你將使用<dfn>箭頭函數</dfn>。 接下來的幾個步驟將重點教你箭頭函數的基礎知識。
+在之前的專案中，你使用了普通函式（程式）。但在接下來的專案中，你將會使用 <dfn>arrow functions</dfn>。接下來的幾個步驟將專注於教你 arrow functions 的基礎知識。
 
-箭頭函數是一種匿名函數表達式，是一種更簡短的函數編寫方式。 匿名是指函數沒有名字。 箭頭函數始終是匿名的。
+箭頭函式是一種匿名函式（程式）表達式，也是撰寫函式（程式）的較簡短方式。匿名表示該函式沒有名稱。箭頭函式永遠是匿名的。
 
 這是基本語法：
 
@@ -17,7 +17,7 @@ dashedName: step-11
 () => {}
 ```
 
-通過將箭頭函數的定義賦給變量，可以將其與一個標識符綁定。
+透過將箭頭函式（arrow function）的定義指定給變數，你將它綁定到識別字。
 
 ```js
 const exampleFunction = () => {
@@ -25,23 +25,23 @@ const exampleFunction = () => {
 }
 ```
 
-創建一個新的箭頭函數並把它分配給變量 `printGreeting` 。 在函數主體內使用 `console.log()` 方法輸出字符串 `Hello there!`。
+創建一個新的箭頭函式並將它指定給變數 `printGreeting`。在函式本體內，使用 `console.log()` 方法列印字串 `Hello there!`。
 
 # --hints--
 
-你應該有一個 `printGreeting` 變量併爲它分配一個箭頭函數。
+你應該有一個名為 `printGreeting` 的變數，並指定一個箭頭函式（程式）給它。
 
 ```js
 assert.isFunction(printGreeting);
 ```
 
-你應該創建一個箭頭函數並將其分配到 `printGreeting` 變量。
+你應該創建一個箭頭函式（程式），並將它指定給 `printGreeting` 變數。
 
 ```js
 assert.match(code, /(let|const)\s+printGreeting\s*=\s*\(.*\)\s*=>\s*{\s*[\s\S]*}\s*;?/)
 ```
 
-你的 `printGreeting` 函數應該在控制檯輸出 `Hello there!`。
+你的 `printGreeting` 函式（程式）應該將 `Hello there!` 記錄到主控台。
 
 ```js
 assert.match(printGreeting.toString(), /console\.log\(['"]Hello\s+there!['"]\)/);

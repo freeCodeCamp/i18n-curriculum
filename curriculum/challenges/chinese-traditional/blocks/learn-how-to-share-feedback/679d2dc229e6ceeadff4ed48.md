@@ -1,6 +1,6 @@
 ---
 id: 679d2dc229e6ceeadff4ed48
-title: Task 92
+title: 任務 92
 challengeType: 22
 dashedName: task-92
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-請聽音頻，並完成下面的填空。
+聆聽音訊並完成以下句子。
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ lang: en-US
 
 ### --feedback--
 
-This word is used to avoid repeating the verb `update` from the previous sentence.
+這個字用來避免重複前一句中的動詞 `update`。
 
 ---
 
@@ -32,17 +32,17 @@ This word is used to avoid repeating the verb `update` from the previous sentenc
 
 ### --feedback--
 
-This word means to postpone or make something happen later than planned.
+這個字的意思是延後或使某事發生得比計劃的時間晚。
 
 # --explanation--
 
-Instead of saying `If we update the software, it might delay other projects.`, James shortens it to `If we do`. The word `do` is often used to avoid repeating the verb or a complete phrase used in from the previous sentence. 例如：
+詹姆斯沒有說 `If we update the software, it might delay other projects.`，而是簡化成 `If we do`。字 `do` 常用來避免重複前一句話中使用的動詞或完整片語。例如：
 
-`She wants to join the meeting, and if she does, she'll need the link.` - Instead of saying `if she joins the meeting`, you can use `does` to replace it and this way you can avoid the repetition.
+`She wants to join the meeting`，如果她這麼做，她將需要 `link`。－ 與其說 `if she joins the meeting`，你可以使用 `does` 來取代，這樣你就可以避免重複。
 
-`To delay` means to make something happen later than planned. 例如：
+`To delay` 是指使某事發生的時間比預定的晚。 例如：
 
-`The flight was delayed due to bad weather.` - This means the flight was postponed and did not leave on time.
+`The flight was delayed due to bad weather。`－這表示航班被延後，沒有準時起飛。
 
 # --scene--
 

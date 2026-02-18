@@ -1,13 +1,13 @@
 ---
 id: 66edcccbba6dacdb65a59067
-title: JavaScript Arrays Quiz
+title: JavaScript 陣列小測驗
 challengeType: 8
 dashedName: quiz-javascript-arrays
 ---
 
 # --description--
 
-要通過測驗，你必須正確回答以下 20 道題中的至少 18 題。
+要通過測驗，你必須在以下 20 題中正確回答至少 18 題。
 
 # --quizzes--
 
@@ -17,7 +17,7 @@ dashedName: quiz-javascript-arrays
 
 #### --text--
 
-What will be the output for the following code?
+以下 `code` 的輸出結果會是什麼？
 
 ```js
 const numbers = [1, 2, 3];
@@ -44,7 +44,7 @@ console.log(numbers[10]);
 
 #### --text--
 
-Which of the following is the correct way to access the string `"Jessica"` from the `developers` array?
+以下哪一種方式是正確從 `developers` 陣列中存取字串 `"Jessica"`？
 
 #### --distractors--
 
@@ -78,7 +78,7 @@ developers[0]
 
 #### --text--
 
-What value will be assigned to the `index` variable?
+`index` 變數會被指定什麼值？
 
 ```js
 const numbers = [10, 20, 30, 40];
@@ -106,51 +106,51 @@ console.log(index);
 
 #### --text--
 
-What does the rest syntax do?
+`rest syntax` 做什麼？
 
 #### --distractors--
 
-It is used to divide a string into an array of substrings.
+它用於將字串分割成子字串的陣列。
 
 ---
 
-It is used to add or remove elements from any position in an array.
+它用於在陣列的任何位置添加或移除元素。
 
 ---
 
-It is used to add elements to the end of the array and will return the new length.
+它用於將元素添加到陣列的末端，並會傳回新的長度。
 
 #### --answer--
 
-It captures the remaining elements of an array into a new array.
+它將陣列中剩餘的元素捕捉到一個新的陣列中。
 
 ### --question--
 
 #### --text--
 
-What is array destructuring?
+什麼是陣列解構？
 
 #### --distractors--
 
-It is used to concatenate all of the elements of an array into a single string.
+它用於將陣列中所有元素串接成一個字串。
 
 ---
 
-It is used to check if an array contains a specific value.
+它用於檢查陣列是否包含特定值。
 
 ---
 
-It is used to remove the last element from an array and will return that removed element.
+它用於從陣列中移除最後一個元素，並會傳回該被移除的元素。
 
 #### --answer--
 
-It is used to extract values from arrays and assign them to variables in a more concise and readable way.
+它用於從陣列中擷取值並以更簡潔且易讀的方式將其指定給變數。
 
 ### --question--
 
 #### --text--
 
-What value will be assigned to the `arr2` variable?
+`arr2` 變數會被指定什麼值？
 
 ```js
 const arr1 = [1, 2, 3];
@@ -178,7 +178,7 @@ console.log(arr2);
 
 #### --text--
 
-What will this code log to the console?
+這段程式碼會在主控台記錄什麼？
 
 ```js
 const colors = ["red", "blue", "green", "yellow"];
@@ -206,7 +206,7 @@ console.log(colors);
 
 #### --text--
 
-What value will be assigned to the `slicedArr` variable?
+`slicedArr` 變數會被指定什麼值？
 
 ```js
 const arr = ["apple", "banana", "cherry", "date"];
@@ -234,7 +234,7 @@ console.log(slicedArr);
 
 #### --text--
 
-Which method returns the first index of a given element in an array?
+哪一個方法會傳回陣列中指定元素的第一個索引？
 
 #### --distractors--
 
@@ -256,7 +256,7 @@ Which method returns the first index of a given element in an array?
 
 #### --text--
 
-Which method is used to remove the first element from an array and returns that removed element?
+哪一個方法用來移除陣列中的第一個元素並傳回該被移除的元素？
 
 #### --distractors--
 
@@ -278,29 +278,29 @@ Which method is used to remove the first element from an array and returns that 
 
 #### --text--
 
-What does the `concat()` method do?
+`concat()` 方法做什麼？
 
 #### --distractors--
 
-Joins array elements into a string.
+將陣列元素連接成字串。
 
 ---
 
-Adds an element to the beginning of an array.
+將元素添加到陣列的開頭。
 
 ---
 
-Removes an element from the array.
+從陣列中移除一個元素。
 
 #### --answer--
 
-Merges two arrays into a new array.
+將兩個陣列合併成一個新的陣列。
 
 ### --question--
 
 #### --text--
 
-What will be the output of this code?
+這段程式碼的輸出會是什麼？
 
 ```js
 const fruits = ["apple", "banana", "cherry", "apple", "orange"];
@@ -330,29 +330,29 @@ console.log(fruits);
 
 #### --text--
 
-What does the `includes()` method do?
+`includes()` 方法做什麼？
 
 #### --distractors--
 
-It is used to divide a string into an array of substrings.
+它用於將字串分割成子字串的陣列。
 
 ---
 
-It is used to concatenate all of the elements of an array into a single string.
+它用於將陣列中所有元素串接成一個字串。
 
 ---
 
-It is used to add or remove elements from any position in an array.
+它用於在陣列的任何位置添加或移除元素。
 
 #### --answer--
 
-It is used to check if an array contains a specific value.
+它用於檢查陣列是否包含特定值。
 
 ### --question--
 
 #### --text--
 
-Which of the following methods is used to reverse an array in place?
+下列哪一個方法用於就地反轉陣列？
 
 #### --distractors--
 
@@ -374,51 +374,51 @@ Which of the following methods is used to reverse an array in place?
 
 #### --text--
 
-What is a two dimensional array?
+什麼是二維陣列？
 
 #### --distractors--
 
-An array that only contains object literals.
+只包含物件字面值的陣列。
 
 ---
 
-An array of fixed length.
+固定長度的陣列。
 
 ---
 
-An array of floating point numbers.
+一個浮點數的陣列。
 
 #### --answer--
 
-An array of arrays.
+一個陣列的陣列。
 
 ### --question--
 
 #### --text--
 
-Which of the following is true about the `indexOf()` method in arrays?
+以下關於陣列中 `indexOf()` 方法的敘述，哪一項是正確的？
 
 #### --distractors--
 
-It always returns the last occurrence of the element.
+它總是傳回該元素的最後一次出現。
 
 ---
 
-It throws an error if the element is not found.
+如果找不到該元素，則會丟出錯誤。
 
 ---
 
-It requires the array to be sorted.
+它需要陣列已排序。
 
 #### --answer--
 
-It returns `-1` if the element is not found.
+如果找不到該元素，則傳回 `-1`。
 
 ### --question--
 
 #### --text--
 
-Which of the following is NOT an array method?
+以下哪一項不是陣列方法？
 
 #### --distractors--
 
@@ -440,7 +440,7 @@ Which of the following is NOT an array method?
 
 #### --text--
 
-What will be the output for the following code?
+以下 `code` 的輸出結果會是什麼？
 
 ```js
 const arr = ["o", "l", "l", "e", "h"];
@@ -467,7 +467,7 @@ console.log(arr.join(""));
 
 #### --text--
 
-What will be the result of using the `shift()` method on an empty array?
+對空的陣列使用 `shift()` 方法會得到什麼結果？
 
 
 #### --distractors--
@@ -490,7 +490,7 @@ What will be the result of using the `shift()` method on an empty array?
 
 #### --text--
 
-Which method will return a new array without changing the original array?
+哪一個方法會傳回一個新的陣列而不改變原始陣列？
 
 #### --distractors--
 

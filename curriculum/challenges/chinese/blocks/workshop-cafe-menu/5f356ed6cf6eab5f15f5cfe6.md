@@ -1,6 +1,6 @@
 ---
 id: 5f356ed6cf6eab5f15f5cfe6
-title: Step 16
+title: 步骤 16
 challengeType: 0
 dashedName: step-16
 ---
@@ -13,13 +13,13 @@ dashedName: step-16
 
 # --hints--
 
-你的 `div` 开始标签的 `id` 属性值应为 `menu`。
+你的开头 `<div>` 标签应具有设置为 `menu` 的 `id` 属性。
 
 ```js
 assert.strictEqual(document.querySelector('div')?.id, 'menu');
 ```
 
-你应该有一个 `</div>` 结束标签。
+你应该有一个闭合的 `</div>` 标签。
 
 ```js
 assert.match(code, /<\/div>/i);

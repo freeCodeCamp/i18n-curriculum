@@ -7,20 +7,20 @@ dashedName: step-36
 
 # --description--
 
-Now it is time to see your new player drawn on the screen.
+现在是时候在屏幕上看到你的新玩家了。
 
-Start by creating an empty arrow function called `startGame`.
+首先创建一个名为 `startGame` 的空箭头函数。
 
 # --hints--
 
 
-`startGame` should be a function
+`startGame` 应该是一个函数。
 
 ```js
 assert.isFunction(startGame);
 ```
 
-`startGame` should be an arrow function
+`startGame` 应该是一个箭头函数。
 
 
 ```js
@@ -199,7 +199,7 @@ class Player {
     ctx.fillStyle = "#99c9ff";
     ctx.fillRect(this.position.x, this.position.y, this.width, this.height);
   }
-
+  
   update() {
     this.draw();
     this.position.x += this.velocity.x;

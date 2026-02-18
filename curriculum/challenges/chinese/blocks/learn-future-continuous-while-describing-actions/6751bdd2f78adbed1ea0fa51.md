@@ -1,6 +1,6 @@
 ---
 id: 6751bdd2f78adbed1ea0fa51
-title: Task 24
+title: 任务 24
 challengeType: 19
 dashedName: task-24
 lang: en-US
@@ -16,35 +16,35 @@ lang: en-US
 
 ## --text--
 
-What is Brian's concern?
+Brian 的担忧是什么？
 
 ## --answers--
 
-If users need to be informed about the downtime.
+如果需要通知用户停机时间。
 
 ---
 
-If the downtime will last too long.
+如果停机时间将持续太长。
 
 ### --feedback--
 
-Brian is not asking about the length of the downtime.
+Brian 不是在询问停机时间的长度。
 
 ---
 
-If the users will experience technical issues.
+如果用户将遇到技术问题。
 
 ### --feedback--
 
-Brian does not mention technical issues in his concern.
+Brian 在他的关注中没有提到技术问题。
 
 ---
 
-If the downtime will affect the server's performance.
+如果停机时间会影响服务器的性能。
 
 ### --feedback--
 
-Brian's concern is not about the server's performance.
+Brian 的关注点不是服务器的性能。
 
 ## --video-solution--
 
@@ -52,7 +52,7 @@ Brian's concern is not about the server's performance.
 
 # --explanation--
 
-Brian is asking if they should update users about the downtime, showing his concern is about communication with the users rather than the length of downtime, technical issues, or server performance.
+Brian 正在询问是否应该更新用户关于停机时间的信息，他关心的是与用户的通信，而不是停机时间的长短、技术问题或服务器性能。
 
 # --scene--
 

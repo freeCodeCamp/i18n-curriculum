@@ -1,15 +1,15 @@
 ---
 id: 612eaf56b7ba3257fdbfb0db
-title: 步驟 19
+title: 第 19 步
 challengeType: 0
 dashedName: step-19
 ---
 
 # --description--
 
-鋼琴需要 freeCodeCamp logo 才能正式使用。
+鋼琴需要 freeCodeCamp 標誌才能使其正式。
 
-在 `.keys` 元素之前添加一個 `img` 元素。 給 `img` 添加一個 `logo` `class`，並將其 `src` 設置爲 `https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg`。 給它一個 `freeCodeCamp Logo` 的 `alt` 文本。
+在你的 `.keys` 元素前添加一個 `img` 元素。為 `img` 指定一個 `class` 為 `logo`，並將 `src` 設定為 `https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg`。為它指定一個 `alt` 文字為 `freeCodeCamp Logo`。
 
 # --hints--
 
@@ -19,7 +19,7 @@ dashedName: step-19
 assert.lengthOf(document.querySelectorAll('img'), 1);
 ```
 
-你的 `img` 元素應位於第一個 `.keys` 元素之前。
+你的 `img` 元素應該放在你的第一個 `.keys` 元素之前。
 
 ```js
 const img = document.querySelector('img');
@@ -27,27 +27,27 @@ assert.equal(img?.nextElementSibling?.className, 'keys');
 assert.isNull(img?.previousElementSibling);
 ```
 
-你的 `img` 元素應將 `class` 設置爲 `logo`。
+你的 `img` 元素應該設定一個 `class` 為 `logo`。
 
 ```js
 const img = document.querySelector('img');
 assert.equal(img?.className, 'logo');
 ```
 
-你的 `img` 元素應將 `src` 設置爲 `https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg`。
+你的 `img` 元素應該有一個 `src` 設定為 `https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg`。
 
 ```js
 const img = document.querySelector('img');
 assert.equal(img?.getAttribute('src'), 'https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg');
 ```
 
-你的 `img` 元素應將 `alt` 屬性設置爲 `freeCodeCamp Logo`。
+你的 `img` 元素應該有一個設定為 `freeCodeCamp Logo` 的 `alt` 屬性。
 
 ```js
 assert.equal(document.querySelector('img')?.getAttribute('alt')?.toLowerCase(), 'freecodecamp logo');
 ```
 
-記住大小寫和拼寫很重要。
+請記住大小寫和拼寫很重要。
 
 ```js
 assert.equal(document.querySelector('img')?.getAttribute('alt'), 'freeCodeCamp Logo');

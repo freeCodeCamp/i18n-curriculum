@@ -1,8 +1,9 @@
 ---
 id: 67efdfa59ffafb1f2a56381e
-title: Task 55
+title: 任务 55
 challengeType: 19
 dashedName: task-55
+showSpeakingButton: true
 lang: en-US
 ---
 
@@ -18,33 +19,41 @@ lang: en-US
 
 ## --text--
 
-Jake doesn't mind discussing an issue with Jessica. What can he say?
+Jake 不介意与 Jessica 讨论问题。他可以说什么？
 
 ## --answers--
 
 `Sure, Jessica.`
 
+### --audio-id--
+
+en-b1-67efdfa59ffafb1f2a56381e-SP1
+
 ---
 
 `I'm too busy right now.`
 
+### --audio-id--
+
+en-b1-67efdfa59ffafb1f2a56381e-SP2
+
 ### --feedback--
 
-This answer does not match the prompt because Jake doesn't mind discussing the issue.
+这个答案不匹配提示符，因为 Jake 不介意讨论这个问题。
 
 ## --video-solution--
 
 1
 
-# --explanation--
+# --explanation-- 
 
-Jessica asks, `Do you have any ideas?`, which is a way of inviting someone to share their thoughts or opinions.
+Jessica 问，`Do you have any ideas?`，这是一种邀请别人分享他们的想法或意见的方式。
 
-`Sure, Jessica` is a way to show that you're open to discussing the issue. Another example:
+`Sure, Jessica` 是表示你愿意讨论该问题的一种方式。另一个例子：
 
-- Person 1: `Do you have any ideas how to fix it?` - This person is asking for suggestions or solutions.
+- 人物 1：`Do you have any ideas how to fix it?`——此人正在寻求建议或方案。
 
-- Person 2: `Sure. We could check the server logs and see what's wrong.` - This person is saying yes, and is ready to share a suggestion.
+- 人员 2：`Sure. We could check the server logs and see what's wrong.`——此人表示同意，并准备分享一个建议。
 
 # --scene--
 

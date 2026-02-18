@@ -9,7 +9,7 @@ dashedName: step-9
 
 Se o usuário clicar no botão `Discard`, você quer fechar o modal que mostra os botões `Cancel` e `Discard`, e então ocultar o modal do formulário.
 
-Adicione um listener de evento de clique ao `discardBtn`, depois use o método `close()` na variável `confirmCloseDialog`.Além disso, use `classList` para alternar a classe `hidden` em `taskForm` para que o modal do formulário também seja fechado.
+Adicione um listener de evento de clique ao `discardBtn`, depois use o método `close()` na variável `confirmCloseDialog`. Além disso, use `classList` para alternar a classe `hidden` em `taskForm` para que o modal do formulário também seja fechado.
 
 # --hints--
 

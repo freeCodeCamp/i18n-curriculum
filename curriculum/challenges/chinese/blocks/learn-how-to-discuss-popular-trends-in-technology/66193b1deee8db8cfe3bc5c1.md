@@ -16,35 +16,35 @@ lang: en-US
 
 ## --text--
 
-What collaboration tools does Alice mention?
+Alice 提到了哪些协作工具？
 
 ## --answers--
 
-`Project management tools` and `cloud storage services`
+`Project management tools` 和 `cloud storage services`
 
 ---
 
-`The internet` and `computer networks`
+`The internet` 和 `computer networks`
 
 ### --feedback--
 
-Although these are important tools in today's world, they are not the tools Alice mentions.
+虽然这些是当今世界的重要工具，但它们不是 Alice 提到的工具。
 
 ---
 
-`Screwdrivers` and `hammers`
+`Screwdrivers` 和 `hammers`
 
 ### --feedback--
 
-These are manual tools, not collaboration tools.
+这些是手动工具，不是协作工具。
 
 ---
 
-`Chat apps` and `email`
+`Chat apps` 和 `email`
 
 ### --feedback--
 
-These can be considered collaboration tools in a virtual environment, but Alice does not mention them.
+这些可以被视为虚拟环境中的协作工具，但 Alice 并未提及它们。
 
 ## --video-solution--
 

@@ -1,15 +1,15 @@
 ---
 id: 672bccc8ea33bad87abb3c56
-title: What Is the Difference Between content-box and border-box?
+title: content-box 和 border-box 有什么区别？
 challengeType: 19
 dashedName: what-is-the-difference-between-content-box-and-border-box
 ---
 
 # --interactive--
 
-The `box-sizing` property can be set to either `content-box` or `border-box` to control how the width and height of elements are calculated.
+`box-sizing` 属性可以设置为 `content-box` 或 `border-box`，用于控制元素的宽度和高度是如何计算的。
 
-This property can be set on the universal selector (`*`) to apply to all the elements in the document:
+该属性也可以在通配选择器（`*`）上设置，使其应用于文档的所有元素：
 
 ```css
 * {
@@ -17,20 +17,20 @@ This property can be set on the universal selector (`*`) to apply to all the ele
 }
 ```
 
-The value of the `box-sizing` property is `content-box` by default, but you can choose `border-box` if you need to. We will explore `content-box` first and then we will go into `border-box`.
+`box-sizing` 的默认值是 `content-box`，但如果需要，你可以选择 `border-box`。 下面我们先讲 `content-box`，再讲 `border-box`。
 
-To understand how the models work, you need to be familiar with the four core concepts from the CSS box model. Let's review them quickly.
+要理解这些模型如何工作，你需要熟悉 CSS 盒模型中的四个核心概念。让我们快速回顾一下它们。
 
-- The content area is the space occupied by the element's content.
-- The padding is the space between the content area and the border.
-- The border is the outline that surrounds the content area and the padding.
-- The margin is the space outside the border that separates the element from other elements.
+- 内容区域是元素内容所占的空间。
+- 内边距是内容区域和边框之间的空间。
+- 边框是环绕内容区域和内边距的轮廓。
+- 外边距是边框外的空间，用于将元素与其他元素分隔开来。
 
-In the `content-box` model, the width and height that you set for an element determine the dimensions of the content area, but they don't include the padding, border, or margin. Use `content-box` when you need precise control over the content area. When you set `width` and `height`, you're only setting the size of the content itself.
+在 `content-box` 模型中，你为一个元素设置的宽度和高度决定了内容区域的维度，但不包括内边距、边框或外边距。当你需要对内容区域进行精确控制时，使用 `content-box`。当你设置 `width` 和 `height` 时，你仅仅是在设置内容本身的大小。
 
-To find the total width of the element, you will need to add the left and right padding, and the left and right borders. Likewise, the total height of an element can be found by adding the content height, the top and bottom padding, and the top and bottom borders.
+要查找元素的总宽度，你需要添加左侧和右侧的内边距，以及左侧和右侧的边框。同样，元素的总高度可以通过添加内容高度、顶部和底部的内边距，以及顶部和底部的边框来查找。
 
-For example, here we have a CSS type selector for all the `div` elements.
+例如，这里我们为所有 `div` 元素设置了一个 CSS 类型选择器。 
 
 :::interactive_editor
 
@@ -50,13 +50,13 @@ div {
 
 :::
 
-In this case, if `content-box` is used the content area will be 300px by 200px. The total rendered size includes padding and borders — for example, total width = 300px (content) + 40px (padding) + 8px (borders) = 348px; the total height is calculated in the same way.
+在这种分支中，如果使用 `content-box`，内容区域将是 300px × 200px。总渲染大小包括内边距和边框——例如，总宽度 = 300px（内容）+ 40px（内边距）+ 8px（边框）= 348px；总高度的计算方式相同。
 
-Great! Now let's explore `border-box`. It's different because the width and height you set include the element's content, padding, and border (but not its margin). Use `border-box` when you want the element's total size to stay fixed even if padding or borders change — that's often helpful in responsive layouts.
+很好！ 现在我们来看 `border-box`。  It's different because the width and height you set include the element's content, padding, and border (but not its margin).  Use `border-box` when you want the element's total size to stay fixed even if padding or borders change — that's often helpful in responsive layouts.
 
-With `border-box`, padding and borders are included inside the element's specified size. The `width` and `height` you set become the element's total dimensions: content + padding + border; margins remain excluded.
+使用 `border-box` 时，内边距和边框包含在元素指定的大小内。你设置的 `width` 和 `height` 成为元素的总维度：内容 + 内边距 + 边框；外边距仍然被排除。
 
-In the following example, there are two `div` elements with the same dimensions but different `box-sizing` values. Notice how this results in different total sizes when viewed in the browser:
+在以下示例中，有两个具有相同维度但不同 `box-sizing` 值的 `div` 元素。注意这如何导致在浏览器中显示时总尺寸不同：
 
 :::interactive_editor
 
@@ -89,15 +89,15 @@ In the following example, there are two `div` elements with the same dimensions 
 
 :::
 
-You can see that they both have the same `width`, `height`, `padding`, `border` and `margin`. The only differences are in the colors and the value of the `box-sizing` property. This small difference has a very important impact on the final dimensions.
+你可以看到，二者具有相同的 `width`、`height`、`padding`、`border` 和 `margin`。  The only differences are in the colors and the value of the `box-sizing` property. 这微小的差别对最终尺寸有着非常重要的影响。 
 
-Choosing between `content-box` and `border-box` really depends on the specific needs of your project. While `border-box` is becoming increasingly popular for its simplicity and flexibility, understanding both models is important for implementing effective CSS layouts.
+`content-box` 和 `border-box` 之间的选择，实际上取决于项目的具体需求。 虽然 `border-box` 因其简单灵活而越来越受欢迎，但了解这两种模型对于实现有效的 CSS 布局非常重要。
 
 # --questions--
 
 ## --text--
 
-Which of the following is the default value for the `box-sizing` property in most browsers?
+在大多数浏览器中，以下哪项是 `box-sizing` 属性的默认值？
 
 ## --answers--
 
@@ -109,7 +109,7 @@ Which of the following is the default value for the `box-sizing` property in mos
 
 ### --feedback--
 
-Think about the default behavior for element sizing.
+想想元素大小的默认行为。
 
 ---
 
@@ -117,7 +117,7 @@ Think about the default behavior for element sizing.
 
 ### --feedback--
 
-Think about the default behavior for element sizing.
+想想元素大小的默认行为。
 
 ---
 
@@ -125,7 +125,7 @@ Think about the default behavior for element sizing.
 
 ### --feedback--
 
-Think about the default behavior for element sizing.
+想想元素大小的默认行为。
 
 ## --video-solution--
 
@@ -133,35 +133,35 @@ Think about the default behavior for element sizing.
 
 ## --text--
 
-What is the primary advantage of using `border-box` for creating responsive layouts?
+使用 `border-box` 创建响应式布局的主要优势是什么？
 
 ## --answers--
 
-It makes the calculations more complicated.
+这使得计算更加复杂。
 
 ### --feedback--
 
-Think about how the `border-box` model handles `padding` and `border` within the specified `width` and `height`.
+想一想 `border-box` 模型是如何在指定的 `width` 和 `height` 内部处理 `padding` 和 `border` 的。
 
 ---
 
-It allows for more precise control over element dimensions.
+它可以更精确地控制元素尺寸。
 
 ### --feedback--
 
-Think about how the `border-box` model handles `padding` and `border` within the specified `width` and `height`.
+想一想 `border-box` 模型是如何在指定的 `width` 和 `height` 内部处理 `padding` 和 `border` 的。
 
 ---
 
-It ensures that elements maintain their specified dimensions regardless of changes in `padding` or `border`.
+无论 `padding` 和 `border` 如何变化，它都能确保元素保持指定的尺寸。
 
 ---
 
-It improves browser compatibility.
+它提高了浏览器的兼容性。
 
 ### --feedback--
 
-Think about how the `border-box` model handles `padding` and `border` within the specified `width` and `height`.
+想一想 `border-box` 模型是如何在指定的 `width` 和 `height` 内部处理 `padding` 和 `border` 的。
 
 ## --video-solution--
 
@@ -169,35 +169,35 @@ Think about how the `border-box` model handles `padding` and `border` within the
 
 ## --text--
 
-In the `content-box` model, what does the specified `width` of an element represent?
+在 `content-box` 模型中，元素的指定 `width` 代表什么？
 
 ## --answers--
 
-The total `width` of the element, including `padding`, `border`, and `margin`.
+元素的总 `width`，包括 `padding`、`border` 和 `margin`。
 
 ### --feedback--
 
-Think about the relationship between the content area and the overall element dimensions in the `content-box` model.
+请思考 `content-box` 模型中内容区域和整体元素尺寸之间的关系。
 
 ---
 
-The `width` of the content area only.
+仅内容区域的 `width`。
 
 ---
 
-The `width` of the `border`.
+`border` 的 `width`。
 
 ### --feedback--
 
-Think about the relationship between the content area and the overall element dimensions in the `content-box` model.
+请思考 `content-box` 模型中内容区域和整体元素尺寸之间的关系。
 
 ---
 
-The `width` of the `padding`.
+`padding` 的 `width`。
 
 ### --feedback--
 
-Think about the relationship between the content area and the overall element dimensions in the `content-box` model.
+请思考 `content-box` 模型中内容区域和整体元素尺寸之间的关系。
 
 ## --video-solution--
 

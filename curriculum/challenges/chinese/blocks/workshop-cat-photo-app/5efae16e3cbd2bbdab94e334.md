@@ -11,7 +11,7 @@ dashedName: step-33
 
 # --hints--
 
-你的 `figcaption` 元素应该有一个开始标签。 开始标签的语法为：`<elementName>`。
+你的 `figcaption` 元素应有一个起始标签。起始标签具有以下语法：`<elementName>`。
 
 ```js
 assert.lengthOf(document.querySelectorAll('figcaption'), 2);
@@ -38,7 +38,7 @@ assert.equal(
 );
 ```
 
-你的 `figure` 元素应该有一个开始标签。 开始标签的语法为：`<elementName>`。
+你的 `figure` 元素应有一个起始标签。起始标签的语法如下：`<elementName>`。
 
 ```js
 assert.lengthOf(document.querySelectorAll('figure'), 2);
@@ -112,7 +112,7 @@ assert.match(
         <figure>
           <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" alt="Two tabby kittens sleeping together on a couch.">
 --fcc-editable-region--
-
+          
 --fcc-editable-region--
         </figure>
       </section>

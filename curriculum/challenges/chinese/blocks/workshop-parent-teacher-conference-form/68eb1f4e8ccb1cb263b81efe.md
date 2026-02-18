@@ -1,23 +1,23 @@
 ---
 id: 68eb1f4e8ccb1cb263b81efe
-title: Step 22
+title: 步骤 22
 challengeType: 0
 dashedName: step-22
 ---
 
 # --description--
 
-The description text needs to be a bit larger. Select the element with the class `description` and set its `font-size` to `1.2rem`.
+描述文本需要大一点。选择具有类名 `description` 的元素，并将其 `font-size` 设置为 `1.2rem`。
 
 # --hints--
 
-You should target the element with the class `description`.
+你应该将目标定位到具有类 `description` 的元素。
 
 ```js
 assert.exists(new __helpers.CSSHelp(document).getStyle('.description'));
 ```
 
-Set the `font-size` property to `1.2rem`.
+将 `font-size` 属性设置为 `1.2rem`。
 
 ```js
 const style = new __helpers.CSSHelp(document).getStyle('.description')

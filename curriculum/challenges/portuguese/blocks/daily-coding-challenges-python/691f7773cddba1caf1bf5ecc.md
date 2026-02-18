@@ -11,7 +11,7 @@ dashedName: challenge-133
 
 Dado um número de latitude de -90 a 90, retorne uma aproximação aproximada das horas de luz do dia no solstício usando a tabela a seguir:
 
-|Latitude|Horas de Luz do Dia|
+|Latitude|Daylight Hours|
 |-|-|
 |-90|24|
 |-75|23|

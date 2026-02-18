@@ -3,6 +3,7 @@ id: 67d3fba28a7b770be2fef2ce
 title: Tarefa 6
 challengeType: 19
 dashedName: task-6
+showSpeakingButton: true
 lang: en-US
 ---
 
@@ -24,6 +25,10 @@ Mark não se importa de conversar com Jessica e quer saber o que ele precisa faz
 
 `Sorry, Jessica. I'm too busy right now.`
 
+### --audio-id--
+
+en-b1-67d3fba28a7b770be2fef2ce-SP1
+
 ### --feedback--
 
 Esta resposta não corresponde à disposição de Mark para conversar.
@@ -31,6 +36,10 @@ Esta resposta não corresponde à disposição de Mark para conversar.
 ---
 
 `Sure, Jessica. What do I need to do?`
+
+### --audio-id--
+
+en-b1-67d3fba28a7b770be2fef2ce-SP2
 
 ## --video-solution--
 

@@ -1,6 +1,6 @@
 ---
 id: 5d712346c441eddfaeb5bdef
-title: Match All Numbers
+title: 匹配所有數字
 challengeType: 1
 forumTopicId: 18181
 dashedName: match-all-numbers
@@ -8,59 +8,59 @@ dashedName: match-all-numbers
 
 # --description--
 
-You've learned shortcuts for common string patterns like alphanumerics. Another common pattern is looking for just digits or numbers.
+你已經學會了常見字串樣式（例如字母數字）的捷徑。另一個常見的樣式是只尋找數字或數字。
 
-The shortcut to look for digit characters is `\d`, with a lowercase `d`. This is equal to the character class `[0-9]`, which looks for a single character of any number between zero and nine.
+尋找數字字元的捷徑是 `\d`，其中的 `d` 是小寫。這與字元類別 `[0-9]` 相等，該類別尋找介於零到九之間的任一單一字元。
 
 # --instructions--
 
-Use the shorthand character class `\d` to count how many digits are in movie titles. Written out numbers ("six" instead of 6) do not count.
+使用縮寫字元類別 `\d` 來計算電影標題中有多少個數字。以文字書寫的數字（例如「six」而非 6）不計算在內。
 
 # --hints--
 
-Your regex should use the shortcut character to match digit characters
+你的正則表達式應該使用捷徑字元來匹配數字字元。
 
 ```js
 assert(/\\d/.test(numRegex.source));
 ```
 
-Your regex should use the global flag.
+你的正規表達式應該使用全域的旗標。
 
 ```js
 assert(numRegex.global);
 ```
 
-Your regex should find 1 digit in the string `9`.
+你的正則表達式應該在字串 `9` 中找到 1 個數字。
 
 ```js
 assert('9'.match(numRegex).length == 1);
 ```
 
-Your regex should find 2 digits in the string `Catch 22`.
+你的正規表達式應該在字串 `Catch 22` 中找到 2 個數字。
 
 ```js
 assert('Catch 22'.match(numRegex).length == 2);
 ```
 
-Your regex should find 3 digits in the string `101 Dalmatians`.
+你的正規表達式應該在字串 `101 Dalmatians` 中找到 3 個數字。
 
 ```js
 assert('101 Dalmatians'.match(numRegex).length == 3);
 ```
 
-Your regex should find no digits in the string `One, Two, Three`.
+你的正規表達式在字串 `One, Two, Three` 中不應找到任何數字。
 
 ```js
 assert('One, Two, Three'.match(numRegex) == null);
 ```
 
-Your regex should find 2 digits in the string `21 Jump Street`.
+你的正規表達式應該在字串 `21 Jump Street` 中找到 2 個數字。
 
 ```js
 assert('21 Jump Street'.match(numRegex).length == 2);
 ```
 
-Your regex should find 4 digits in the string `2001: A Space Odyssey`.
+你的正規表達式應該在字串 `2001: A Space Odyssey` 中找到 4 個數字。
 
 ```js
 assert('2001: A Space Odyssey'.match(numRegex).length == 4);

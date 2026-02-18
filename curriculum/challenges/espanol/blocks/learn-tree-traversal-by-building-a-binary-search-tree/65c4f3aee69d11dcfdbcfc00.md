@@ -7,8 +7,7 @@ dashedName: step-18
 
 # --description--
 
-Ahora, dentro del método `insert`, necesitas llamar al método auxiliar `_insert()` que definimos anteriormente.  
-Aquí, `_insert` ha encapsulado la implementación de la lógica de inserción. Esto es útil para la recursión y para mantener los detalles de la implementación ocultos para el usuario.
+Ahora, dentro del método `insert`, necesitas llamar al método auxiliar `_insert()` que definimos anteriormente. Aquí, `_insert` ha encapsulado la implementación de la lógica de inserción. Esto es útil para la recursión y para mantener los detalles de la implementación ocultos al usuario.
 
 Elimina `pass` y asigna `self._insert(self.root, key)` a `self.root`.
 

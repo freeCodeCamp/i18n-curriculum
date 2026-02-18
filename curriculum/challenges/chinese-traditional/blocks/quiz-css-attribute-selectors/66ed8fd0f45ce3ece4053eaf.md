@@ -7,7 +7,7 @@ dashedName: quiz-css-attribute-selectors
 
 # --description--
 
-要通過測驗，你必須正確回答以下 10 道題中的至少 9 題。
+要通過測驗，你必須正確回答以下 10 題中的至少 9 題。
 
 # --quizzes--
 
@@ -17,29 +17,29 @@ dashedName: quiz-css-attribute-selectors
 
 #### --text--
 
-CSS 屬性選擇器用於做什麼？
+CSS 屬性選擇器的用途是什麼？
 
 #### --distractors--
 
-根據標籤名稱爲元素應用樣式。
+根據元素的頁籤名稱套用樣式。
 
 ---
 
-根據元類名爲元素應用樣式。
+根據元素的類別名稱套用樣式。
 
 ---
 
-根據父元素爲元素應用樣式。
+根據其父元素為元素套用樣式。
 
 #### --answer--
 
-根據屬性爲元素應用樣式。
+根據元素的屬性套用樣式。
 
 ### --question--
 
 #### --text--
 
-此 CSS 選擇器不會選擇以下哪項？
+以下哪一項不會被此 CSS 選擇器選取？
 
 ```css
 [title~="flower"] {
@@ -75,7 +75,7 @@ CSS 屬性選擇器用於做什麼？
 
 #### --text--
 
-哪個 CSS 選擇器可匹配所有 `lang` 屬性設置爲 `"fr"` 的 `p` 元素？
+哪一個 CSS 選擇器符合所有 `lang` 屬性設為 `"fr"` 的 `p` 元素？
 
 #### --distractors--
 
@@ -105,7 +105,7 @@ p[lang="fr"] { color: blue; }
 
 #### --text--
 
-哪個 CSS 選擇器可匹配所有帶有 `href` 屬性的 `a` 元素？
+哪一個 CSS 選擇器符合所有具有 `href` 屬性的 `a` 元素？
 
 #### --distractors--
 
@@ -135,7 +135,7 @@ a[href] { color: blue; }
 
 #### --text--
 
-哪個 CSS 選擇器可匹配所有大寫羅馬數字的有序列表？
+哪一個 CSS 選擇器符合所有使用大寫羅馬數字的有序列表？
 
 #### --distractors--
 
@@ -165,7 +165,7 @@ ol[type="I"] { border-color: black; }
 
 #### --text--
 
-`data-lang` 屬性通常用於什麼用途？
+`data-lang` 屬性通常用於什麼？
 
 #### --distractors--
 
@@ -173,21 +173,21 @@ ol[type="I"] { border-color: black; }
 
 ---
 
-定義文件的字符編碼。
+定義文件的字元編碼。
 
 ---
 
-根據父元素設置元素的語言。
+根據其父元素設定元素的語言。
 
 #### --answer--
 
-根據此自定義數據屬性爲元素應用樣式。
+根據這個訂製資料屬性套用樣式到元素。
 
 ### --question--
 
 #### --text--
 
-只有當 `img` 元素的 `alt` 屬性等於 `"code"` 時，你纔可以使用的對其進行樣式設置的 CSS 選擇器是哪個？
+你應該使用哪個 CSS 選擇器來為 `img` 元素添加樣式，僅當它們的 `alt` 屬性相等於 `"code"`？
 
 #### --distractors--
 
@@ -217,7 +217,7 @@ img[alt="code"] { border: 1px solid red; }
 
 #### --text--
 
-哪個 CSS 選擇器能匹配數字編號類型的有序列表？
+哪一個 CSS 選擇器符合具有數字編號型別的有序列表？
 
 #### --distractors--
 
@@ -247,7 +247,7 @@ ol[type="1"] { color: purple; }
 
 #### --text--
 
-以下哪個 CSS 選擇器可以爲同時具有 `href` 和 `title` 屬性的 `a` 元素設計樣式？
+你會使用下列哪一個 CSS 選擇器來為同時具有 `href` 和 `title` 屬性的 `a` 元素設定樣式？
 
 #### --distractors--
 
@@ -277,7 +277,7 @@ a[href][title] { text-decoration: underline dotted; }
 
 #### --text--
 
-如果你正在爲一家餐廳開發網站，希望爲所有帶有 `data-special` 屬性的 `menu-item` 類元素設計樣式，你會使用哪個 CSS 選擇器？
+如果你正在為餐廳開發網站，並且想要為所有具有 `data-special` 屬性且擁有 `menu-item` 類別的元素設計樣式，你會使用哪個 CSS 選擇器？
 
 #### --distractors--
 

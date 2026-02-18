@@ -1,6 +1,6 @@
 ---
 id: 5e601bf95ac9d0ecd8b94afd
-title: Sudoku Solver
+title: 数独求解器
 challengeType: 4
 forumTopicId: 462357
 dashedName: sudoku-solver
@@ -8,64 +8,64 @@ dashedName: sudoku-solver
 
 # --description--
 
-Build a full stack JavaScript app that is functionally similar to this: <a href="https://sudoku-solver.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://sudoku-solver.freecodecamp.rocks/</a>. Working on this project will involve you writing your code using one of the following methods:
+构建一个功能上类似于此的全栈 JavaScript 应用程序：<a href="https://sudoku-solver.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://sudoku-solver.freecodecamp.rocks/</a>。在这个项目中，你将使用以下方法之一编写你的代码：
 
--   Clone <a href="https://github.com/freecodecamp/boilerplate-project-sudoku-solver" target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete your project locally.
--   Use a site builder of your choice to complete the project. Be sure to incorporate all the files from our GitHub repo.
+-   克隆 <a href="https://github.com/freecodecamp/boilerplate-project-sudoku-solver" target="_blank" rel="noopener noreferrer nofollow">这个 GitHub 仓库</a> 并在本地完成你的项目。
+-   你可以选择任何网站构建工具完成该项目。 需要包含我们 GitHub 仓库的所有文件。
 
 # --instructions--
 
-- All puzzle logic can go into `/controllers/sudoku-solver.js`
-  - The `validate` function should take a given puzzle string and check it to see if it has 81 valid characters for the input.
-  - The `check` functions should be validating against the *current* state of the board.
-  - The `solve` function should handle solving any given valid puzzle string, not just the test inputs and solutions. You are expected to write out the logic to solve this.
-- All routing logic can go into `/routes/api.js`
-- See the `puzzle-strings.js` file in `/controllers` for some sample puzzles your application should solve
-- To run the challenge tests on this page, set `NODE_ENV` to `test` without quotes in the `.env` file
-- To run the tests in the console, use the command `npm run test`.
+- 所有解谜逻辑都可以进入 `/controllers/sudoku-solver.js`
+  - `validate` 函数应该使用给定的解谜字符串，然后检查它是否是 81 个有效的输入字符。
+  - `check` 函数应对棋盘的 *current* 进行验证。
+  - `solve` 函数应该处理任何给定的解谜字符串，而不仅仅是测试输入和解决方法。 你需要写出解决这个问题的逻辑。
+- 所有路由逻辑都可以进入 `/routes/api.js`
+- 阅读 `/controllers` 中的 `puzzle-strings.js` 文件来了解一些应用程序应该解决的示例谜题
+- 在 `.env` 文件中将 `NODE_ENV` 设置为 `test` （没有引号），运行这个页面的挑战测试。
+- 使用 `npm run test` 命令在 console 中运行测试。
 
-Write the following tests in `tests/1_unit-tests.js`:
+在 `tests/1_unit-tests.js` 中写下以下测试：
 
--   Logic handles a valid puzzle string of 81 characters
--   Logic handles a puzzle string with invalid characters (not 1-9 or `.`)
--   Logic handles a puzzle string that is not 81 characters in length
--   Logic handles a valid row placement
--   Logic handles an invalid row placement
--   Logic handles a valid column placement
--   Logic handles an invalid column placement
--   Logic handles a valid region (3x3 grid) placement
--   Logic handles an invalid region (3x3 grid) placement
--   Valid puzzle strings pass the solver
--   Invalid puzzle strings fail the solver
--   Solver returns the expected solution for an incomplete puzzle
+-   逻辑处理 81 个字符的解谜字符串
+-   逻辑处理无效的解谜字符串（不是 1-9 或 `.`）
+-   逻辑处理一个长度不是 81 个字符的解谜字符串
+-   逻辑处理有效行的位置
+-   逻辑处理无效行的位置
+-   逻辑处理有效列的位置
+-   逻辑处理无效列的位置
+-   逻辑处理一个有效的区域（3x3 网格）
+-   逻辑处理一个无效的区域（3x3 网格）
+-   有效解谜字符串通过 solver
+-   无效解谜字符串无法通过 solver
+-   Solver 返回一个不完整谜题的的预期解决方案
 
-Write the following tests in `tests/2_functional-tests.js`
+在 `tests/2_functional-tests.js` 中编写下以下测试：
 
--   Solve a puzzle with valid puzzle string: POST request to `/api/solve`
--   Solve a puzzle with missing puzzle string: POST request to `/api/solve`
--   Solve a puzzle with invalid characters: POST request to `/api/solve`
--   Solve a puzzle with incorrect length: POST request to `/api/solve`
--   Solve a puzzle that cannot be solved: POST request to `/api/solve`
--   Check a puzzle placement with all fields: POST request to `/api/check`
--   Check a puzzle placement with single placement conflict: POST request to `/api/check`
--   Check a puzzle placement with multiple placement conflicts: POST request to `/api/check`
--   Check a puzzle placement with all placement conflicts: POST request to `/api/check`
--   Check a puzzle placement with missing required fields: POST request to `/api/check`
--   Check a puzzle placement with invalid characters: POST request to `/api/check`
--   Check a puzzle placement with incorrect length: POST request to `/api/check`
--   Check a puzzle placement with invalid placement coordinate: POST request to `/api/check`
--   Check a puzzle placement with invalid placement value: POST request to `/api/check`
+-   用有效的解谜字符串解决一个谜题：POST 请求到 `/api/solve`
+-   用缺失的解谜字符串解决一个谜题：POST 请求到 `/api/solve`
+-   用无效字符解决一个谜题：POST 请求到 `/api/solve`
+-   用不正确的长度解决一个谜题：POST 请求到 `/api/solve`
+-   解决一个无法解决的谜题：POST 请求到 `/api/solve`
+-   检查所有字段的解谜位置：POST 请求到 `/api/check`
+-   用单个位置冲突检查解谜位置：POST 请求到 `/api/check`
+-   检查一个有多个位置冲突的解谜位置：POST 请求到 `/api/check`
+-   检查与所有位置冲突的解谜位置：POST 请求到 `/api/check`
+-   检查缺失所需字段的解谜位置：POST 请求到 `/api/check`
+-   检查一个有无效字符的解谜位置：POST 请求到 `/api/check`
+-   检查不正确长度的解谜位置：POST 请求到 `/api/check`
+-   检查一个无效的放置坐标的解谜位置：POST 请求到 `/api/check`
+-   检查具有无效的放置值的解谜位置：POST 请求到 `/api/check`
 
 # --hints--
 
-You should provide your own project, not the example URL.
+你应该提交你自己的项目，而不是示例的 URL。
 
 ```js
   const url = code;
   assert(!/.*\/sudoku-solver\.freecodecamp\.rocks/.test(code));
 ```
 
-You can `POST` `/api/solve` with form data containing `puzzle` which will be a string containing a combination of numbers (1-9) and periods `.` to represent empty spaces. The returned object will contain a `solution` property with the solved puzzle.
+你可以发送 `POST` 请求到 `/api/solve`，使用包含 `puzzle` 的表单数据，这将是一个包含数字（1-9）和点号的字符串组合，`.` 表示空格。 返回的对象将包含一个 `solution` 属性与解决的谜题。
 
 ```js
   const input =
@@ -82,7 +82,7 @@ You can `POST` `/api/solve` with form data containing `puzzle` which will be a s
   assert.equal(parsed.solution, output);
 ```
 
-If the object submitted to `/api/solve` is missing `puzzle`, the returned value will be `{ error: 'Required field missing' }`
+如果提交给 `/api/solve` 的对象缺失 `puzzle`，返回的值将是 `{ error: 'Required field missing' }`。
 
 ```js
   const input =
@@ -98,7 +98,7 @@ If the object submitted to `/api/solve` is missing `puzzle`, the returned value 
   assert.equal(parsed.error, output);
 ```
 
-If the puzzle submitted to `/api/solve` contains values which are not numbers or periods, the returned value will be `{ error: 'Invalid characters in puzzle' }`
+如果提交给 `/api/solve` 谜题包含非数字或点号的值，返回的值将是 `{ error: 'Invalid characters in puzzle' }`。
 
 ```js
   const input =
@@ -114,7 +114,7 @@ If the puzzle submitted to `/api/solve` contains values which are not numbers or
   assert.equal(parsed.error, output);
 ```
 
-If the puzzle submitted to `/api/solve` is greater or less than 81 characters, the returned value will be `{ error: 'Expected puzzle to be 81 characters long' }`
+如果提交给 `/api/solve` 的谜题大于或小于 81 个字符，返回的值将是 `{ error: 'Expected puzzle to be 81 characters long' }`。
 
 ```js
   const inputs = [
@@ -134,7 +134,7 @@ If the puzzle submitted to `/api/solve` is greater or less than 81 characters, t
   }
 ```
 
-If the puzzle submitted to `/api/solve` is invalid or cannot be solved, the returned value will be `{ error: 'Puzzle cannot be solved' }`
+如果提交给 `/api/solve` 的谜题无效或无法解决，返回的值将是 `{ error: 'Puzzle cannot be solved' }`。
 
 ```js
   const input =
@@ -150,7 +150,7 @@ If the puzzle submitted to `/api/solve` is invalid or cannot be solved, the retu
   assert.equal(parsed.error, output);
 ```
 
-You can `POST` to `/api/check` an object containing `puzzle`, `coordinate`, and `value` where the `coordinate` is the letter A-I indicating the row, followed by a number 1-9 indicating the column, and `value` is a number from 1-9.
+你可以发送 `POST` 请求到 `/api/check` ，使用包含 `puzzle`、`coordinate`、和 `value` 的object数据，其中 `coordinate` 字母 A-I 表示行，数字 1-9 表示列，`value` 表示 1-9 的数字。
 
 ```js
   const input =
@@ -167,7 +167,7 @@ You can `POST` to `/api/check` an object containing `puzzle`, `coordinate`, and 
   assert.isTrue(parsed.valid);
 ```
 
-The return value from the `POST` to `/api/check` will be an object containing a `valid` property, which is `true` if the number may be placed at the provided coordinate and `false` if the number may not. If false, the returned object will also contain a `conflict` property which is an array containing the strings `"row"`, `"column"`, and/or `"region"` depending on which makes the placement invalid.
+发送 `POST` 请求到 `/api/check`，返回值是一个包含 `valid` 属性的对象，如果数字可能放置在提供的坐标中则是 `true`，否则是 `false`。 如果错误，返回的对象还将包含一个 `conflict` 属性，它是一个字符串 `"row"`、`"column"`，和/或 取决于哪个区域使位置无效的 `"region"` 。
 
 ```js
   const input =
@@ -188,7 +188,7 @@ The return value from the `POST` to `/api/check` will be an object containing a 
   assert.include(parsed.conflict, 'column');
 ```
 
-If `value` submitted to `/api/check` is already placed in `puzzle` on that `coordinate`, the returned value will be an object containing a `valid` property with `true` if `value` is not conflicting.
+如果提交给 `/api/check` 的 `value` 已经放置在该 `coordinate` 上的 `puzzle` 中，则返回的值将是一个包含 `valid` 属性的对象，如果 `value` 没有冲突，则为 `true`。
 
 ```js
   const input =
@@ -205,7 +205,7 @@ If `value` submitted to `/api/check` is already placed in `puzzle` on that `coor
   assert.isTrue(parsed.valid);
 ```
 
-If the puzzle submitted to `/api/check` contains values which are not numbers or periods, the returned value will be `{ error: 'Invalid characters in puzzle' }`
+如果提交给 `/api/check` 的谜题包含非数字或点号的值，返回的值将是 `{ error: 'Invalid characters in puzzle' }`。
 
 ```js
   const input =
@@ -223,7 +223,7 @@ If the puzzle submitted to `/api/check` contains values which are not numbers or
   assert.equal(parsed.error, output);
 ```
 
-If the puzzle submitted to `/api/check` is greater or less than 81 characters, the returned value will be `{ error: 'Expected puzzle to be 81 characters long' }`
+如果提交给 `/api/check` 的谜题大于或小于 81 个字符，返回的值将是 `{ error: 'Expected puzzle to be 81 characters long' }`。
 
 ```js
   const inputs = [
@@ -245,7 +245,7 @@ If the puzzle submitted to `/api/check` is greater or less than 81 characters, t
   }
 ```
 
-If the object submitted to `/api/check` is missing `puzzle`, `coordinate` or `value`, the returned value will be `{ error: 'Required field(s) missing' }`
+如果提交给 `/api/check` 的对象参数中缺少 `puzzle` 、`coordinate` 或 `value` ，返回的值将是 `{ error: 'Required field(s) missing' }`
 
 ```js
   const inputs = [
@@ -275,7 +275,7 @@ If the object submitted to `/api/check` is missing `puzzle`, `coordinate` or `va
   }
 ```
 
-If the coordinate submitted to `api/check` does not point to an existing grid cell, the returned value will be `{ error: 'Invalid coordinate'}`
+如果提交给 `api/check` 的坐标不指向现有的网格单元格，返回的值将是 `{ error: 'Invalid coordinate'}`。
 
 ```js
   const input =
@@ -295,7 +295,7 @@ If the coordinate submitted to `api/check` does not point to an existing grid ce
   }
 ```
 
-If the `value` submitted to `/api/check` is not a number between 1 and 9, the returned value will be `{ error: 'Invalid value' }`
+如果提交给 `/api/check` 的 `value` 不是一个介于 1 到 9 之间的数字，则返回的值将是 `{ error: 'Invalid value' }`。
 
 ```js
   const input =
@@ -315,7 +315,7 @@ If the `value` submitted to `/api/check` is not a number between 1 and 9, the re
   }
 ```
 
-All 12 unit tests are complete and passing.
+所有 12 项单元测试都已完成并通过。
 
 ```js
   try {
@@ -342,7 +342,7 @@ All 12 unit tests are complete and passing.
   }
 ```
 
-All 14 functional tests are complete and passing.
+所有 14 项功能测试都已完成并通过。
 
 ```js
   try {

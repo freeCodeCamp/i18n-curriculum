@@ -1,17 +1,17 @@
 ---
 id: 65ef1a1fcb527bba0ca82ccf
-title: 步骤 6
+title: 步骤6
 challengeType: 20
 dashedName: step-6
 ---
 
 # --description--
 
-If the `square_target` is equal to  `1`, declare a variable `root` and assign it the value `1` . Also, print the message `'The square root of {square_target} is 1'`. Remember to format the message using an f-string.
+如果 `square_target` 等于 `1`，则声明变量 `root` 并为其赋值 `1` 。 另外，打印消息 `'The square root of {square_target} is 1'`。 记得使用 f 字符串来格式化消息。
 
 # --hints--
 
-You should remove the `pass` keyword.
+你应该删除 `pass` 关键字。
 
 ```js
 ({
@@ -22,7 +22,7 @@ You should remove the `pass` keyword.
 })
 ```
 
-You should assign the value `1` to the `root` variable and print the message `'The square root of {square_target} is 1'` inside the `if` body.
+你应该将值 `1` 分配给 `root` 变量，并在 `if` 正文中打印消息 `'The square root of {square_target} is 1'`。
 
 ```js
 

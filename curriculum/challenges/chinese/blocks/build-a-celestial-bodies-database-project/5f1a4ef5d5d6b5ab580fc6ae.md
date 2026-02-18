@@ -8,7 +8,7 @@ dashedName: build-a-celestial-bodies-database
 
 # --description--
 
-This is one of the required projects to earn your certification. For this project, you will build a database of celestial bodies using PostgreSQL.
+这是你获得认证的必做项目之一。 对于这个项目，你将使用 PostgreSQL 构建一个天体数据库。
 
 # --instructions--
 

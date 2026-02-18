@@ -1,19 +1,19 @@
 ---
 id: 64aced3e88b0a38cec824dea
-title: 第 43 步
+title: 步驟 43
 challengeType: 0
 dashedName: step-43
 ---
 
 # --description--
 
-下一步是更新玩家在整個遊戲過程中移動時的位置。
+下一步是在遊戲中隨著玩家移動更新玩家的位置。
 
-在 `ctx.clearRect()` 下方，調用玩家上的 `update()` 方法。
+在你的 `ctx.clearRect()` 下面，呼叫 player 的 `update()` 方法。
 
 # --hints--
 
-你應該在玩家上調用 `update()` 方法。
+你應該對 player 呼叫 `update()` 方法。
 
 ```js
 assert.match(code, /\s*player\s*\.\s*update\s*\(\s*\)\s*;?/);
@@ -189,7 +189,7 @@ class Player {
     ctx.fillStyle = "#99c9ff";
     ctx.fillRect(this.position.x, this.position.y, this.width, this.height);
   }
-
+  
   update() {
     this.draw();
     this.position.x += this.velocity.x;

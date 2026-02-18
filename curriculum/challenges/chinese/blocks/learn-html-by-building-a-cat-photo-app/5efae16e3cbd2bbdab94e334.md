@@ -7,11 +7,11 @@ dashedName: step-33
 
 # --description--
 
-After the last `img` element, add a `figcaption` element with the text `Cats hate other cats.`
+在最后一个 `img` 元素之后，添加一个 `figcaption` 元素，文本为 `Cats hate other cats.`
 
 # --hints--
 
-你的 `figcaption` 元素应该有一个开始标签。 开始标签的语法为：`<elementName>`。
+你的 `figcaption` 元素应有一个起始标签。起始标签具有以下语法：`<elementName>`。
 
 ```js
 assert(document.querySelectorAll('figcaption').length === 2);
@@ -23,13 +23,13 @@ assert(document.querySelectorAll('figcaption').length === 2);
 assert(code.match(/<\/figcaption\>/g).length === 2);
 ```
 
-There should be a `figure` element right above the second `section` element's closing tag.
+在第二个 `section` 元素的结束标签上方应该有一个 `figure` 元素。
 
 ```js
 assert.strictEqual(document.querySelectorAll('main > section')?.[1]?.lastElementChild?.nodeName, 'FIGURE');
 ```
 
-The last `img` element should be nested in the `figure` element.
+最后一个 `img` 元素应该嵌套在 `figure` 元素中。
 
 ```js
 const catsImg = document.querySelectorAll('figure > img')[1];
@@ -39,7 +39,7 @@ assert(
 );
 ```
 
-你的 `figure` 元素应该有一个开始标签。 开始标签的语法为：`<elementName>`。
+你的 `figure` 元素应有一个起始标签。起始标签的语法如下：`<elementName>`。
 
 ```js
 assert(document.querySelectorAll('figure').length === 2);
@@ -57,7 +57,7 @@ assert(code.match(/<\/figure\>/g).length === 2);
 assert(document.querySelectorAll('figure > figcaption').length === 2);
 ```
 
-嵌套在 `figure` 元素中的 `figcaption` 元素应位于 `img` 元素下方。 You have the `img` element and the `figcaption` element in the wrong order.
+嵌套在 `figure` 元素中的 `figcaption` 元素应位于 `img` 元素下方。 你的 `img` 元素和 `figcaption` 元素的顺序错了。
 
 ```js
 assert(
@@ -66,7 +66,7 @@ assert(
 );
 ```
 
-The `figcaption` element should have the text `Cats hate other cats.` You have omitted a word or have a typo.
+`figcaption` 元素应包含文本 `Cats hate other cats.`。你要么忽略了单词，要么拼写有误。
 
 ```js
 assert(

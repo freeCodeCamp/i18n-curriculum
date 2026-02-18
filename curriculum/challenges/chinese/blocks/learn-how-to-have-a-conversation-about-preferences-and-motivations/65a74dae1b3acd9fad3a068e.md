@@ -1,6 +1,6 @@
 ---
 id: 65a74dae1b3acd9fad3a068e
-title: Task 132
+title: 任务 132
 challengeType: 22
 dashedName: task-132
 lang: en-US
@@ -10,9 +10,9 @@ lang: en-US
 
 # --description--
 
-`To recognize` means to identify someone or something from before, or to acknowledge the existence or validity of something. For example, `I recognize your efforts in completing this project.`
+`To recognize` 意味着识别之前的人或事物，或承认某事物的存在或有效性。例如，`I recognize your efforts in completing this project.`
 
-`Recognition` is the noun form of `recognize` and refers to the act of acknowledging or giving credit to someone for their efforts or achievements. For example, `He received recognition for his innovative work.`
+`Recognition` 是 `recognize` 的名词形式，指的是承认或给予某人努力或成就的认可。例如，`He received recognition for his innovative work.`
 
 # --fillInTheBlank--
 
@@ -26,7 +26,7 @@ lang: en-US
 
 ### --feedback--
 
-This verb means to perform an activity or exercise repeatedly or regularly in order to improve or maintain one's proficiency.
+这个动词表示为了提高或维护某人的熟练度而反复或定期执行某项活动或练习。
 
 ---
 
@@ -34,7 +34,7 @@ This verb means to perform an activity or exercise repeatedly or regularly in or
 
 ### --feedback--
 
-This noun refers to the action or process of acknowledging someone's efforts, achievements, or qualities.
+该名词指的是承认某人努力、成就或品质的行为或进程。
 
 # --scene--
 

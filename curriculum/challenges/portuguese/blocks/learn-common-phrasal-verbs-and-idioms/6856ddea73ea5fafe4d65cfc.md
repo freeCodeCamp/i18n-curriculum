@@ -3,6 +3,7 @@ id: 6856ddea73ea5fafe4d65cfc
 title: Tarefa 95
 challengeType: 19
 dashedName: task-95
+showSpeakingButton: true
 lang: en-US
 ---
 
@@ -24,9 +25,17 @@ Como Linda poderia elogiar a ideia de Jake?
 
 `That's an excellent suggestion.`
 
+### --audio-id--
+
+en-b1-6856ddea73ea5fafe4d65cfc-SP1
+
 ---
 
 `Are you sure that would work?`
+
+### --audio-id--
+
+en-b1-6856ddea73ea5fafe4d65cfc-SP2
 
 ### --feedback--
 

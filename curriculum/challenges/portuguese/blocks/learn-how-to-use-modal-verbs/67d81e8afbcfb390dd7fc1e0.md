@@ -3,6 +3,7 @@ id: 67d81e8afbcfb390dd7fc1e0
 title: Tarefa 133
 challengeType: 19
 dashedName: task-133
+showSpeakingButton: true
 lang: en-US
 ---
 
@@ -24,9 +25,17 @@ Jake ainda não verificou isso e diz que a equipe deve se concentrar em outra co
 
 `Not yet, but we should focus on the critical systems first.`
 
+### --audio-id--
+
+en-b1-67d81e8afbcfb390dd7fc1e0-SP1
+
 ---
 
 `I already checked, and everything looks fine.`
+
+### --audio-id--
+
+en-b1-67d81e8afbcfb390dd7fc1e0-SP2
 
 ### --feedback--
 

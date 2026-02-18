@@ -1,6 +1,6 @@
 ---
 id: 67f07fdfe8c5aaef48d3d35a
-title: Task 130
+title: 任務 130
 challengeType: 19
 dashedName: task-130
 lang: en-US
@@ -10,13 +10,13 @@ lang: en-US
 
 # --instructions--
 
-閱讀文稿並回答下面的問題。
+閱讀文字並回答以下問題。
 
 # --questions--
 
 ## --text--
 
-After the check-in with Sarah, Brian decides to write to Bob, from management, to update him on the situation.
+在與 Sarah 簽到後，Brian 決定寫信給管理層的 Bob，向他更新情況。
 
 `Subject: Quick Update – Resources, Integration Issues, and Training`
 
@@ -36,35 +36,35 @@ After the check-in with Sarah, Brian decides to write to Bob, from management, t
 
 `Brian`
 
-Based on the `Subject` line, why did Brian write this email?
+根據 `Subject` 行，為什麼 Brian 寫這封電子郵件？
 
 ## --answers--
 
-To give an update about the team's progress and ask for information.
+提供團隊進度的更新並請求資訊。
 
 ---
 
-To remind management about their last meeting.
+提醒管理層他們的上次會議。
 
 ### --feedback--
 
-There is no mention of a past meeting between Brian and management.
+沒有提及 Brian 與管理層之間的過去會議。
 
 ---
 
-To tell management that the project is almost finished.
+告訴管理層該專案快完成了。
 
 ### --feedback--
 
-The email says there are still some challenges, so the project is not close to being finished.
+電子郵件表示仍有一些挑戰，因此專案尚未接近完成。
 
 ---
 
-To ask Sarah about the new software integration.
+詢問 Sarah 有關新軟體整合的事宜。
 
 ### --feedback--
 
-Brian already spoke to Sarah. He is now sharing that update with management.
+Brian 已經和 Sarah 談過。他現在正在與管理層分享該更新。
 
 ## --video-solution--
 
@@ -72,4 +72,4 @@ Brian already spoke to Sarah. He is now sharing that update with management.
 
 # --explanation--
 
-The `Subject` line normally brings the topics which are going to be dealt with in the body of the message. Read this line to find out the correct answer for this question.
+`Subject` 行通常帶出將在訊息主體中處理的主題。閱讀此行以找出此問題的正確答案。

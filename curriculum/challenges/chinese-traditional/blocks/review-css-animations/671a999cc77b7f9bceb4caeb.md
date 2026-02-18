@@ -1,16 +1,16 @@
 ---
 id: 671a999cc77b7f9bceb4caeb
-title: CSS Animations Review
+title: CSS 動畫回顧
 challengeType: 31
 dashedName: review-css-animations
 ---
 
 # --interactive--
 
-## CSS Animation Basics
+## CSS 動畫基礎
 
-- **Definition**: CSS animations allow you to create dynamic, visually engaging effects on web pages without the need for JavaScript or complex programming. They provide a way to smoothly transition elements between different styles over a specified duration.
-- **The `@keyframes` Rule**: This rule defines the stages and styles of the animation. It specifies what styles the element should have at various points during the animation.
+- **定義**：CSS 動畫允許你在網頁上創建動態且視覺吸引人的效果，而無需使用 JavaScript 或複雜的程式設計。它們提供了一種方法，可以在指定的持續時間內平滑地將元素從一種樣式過渡到另一種樣式。
+- **`@keyframes` 規則**：此規則定義動畫的階段和樣式。它指定元素在動畫過程中各個時間點應該擁有的樣式。
 
 :::interactive_editor
 
@@ -40,19 +40,19 @@ dashedName: review-css-animations
 
 :::
 
-- **`animation` Property**: This is the shorthand property used to apply animations.
-- **`animation-name`**: This specifies the name for the `@keyframes` rule to use.
-- **`animation-duration`**: This sets how long the animation should take to complete.
-- **`animation-timing-function`**: This defines how the animation progresses over time (such as ease, linear, ease-in-out).
-- **`animation-delay`**: This specifies a delay before the animation starts.
-- **`animation-iteration-count`**: This sets how many times the animation should repeat.
-- **`animation-direction`**: This determines whether the animation should play forwards, backwards, or alternate.
-- **`animation-fill-mode`**: This specifies how the element should be styled before and after the animation.
-- **`animation-play-state`**: This allows you to pause and resume the animation.
+- **`animation` 屬性**：這是用來套用動畫的縮寫屬性。
+- **`animation-name`**：這指定要使用的 `@keyframes` 規則名稱。
+- **`animation-duration`**：這設定動畫應該花費多長時間完成。
+- **`animation-timing-function`**：這定義動畫隨時間的進展方式（例如 ease、linear、ease-in-out）。
+- **`animation-delay`**：這指定動畫開始前的延遲時間。
+- **`animation-iteration-count`**：這設定動畫應該重複的次數。
+- **`animation-direction`**：這決定動畫應該向前播放、向後播放，或交替播放。
+- **`animation-fill-mode`**：這指定元素在動畫開始前和結束後應該如何被樣式化。
+- **`animation-play-state`**：這讓你可以暫停和恢復動畫。
 
-## Accessibility and the `prefers-reduced-motion` Media Query
+## 無障礙功能與 `prefers-reduced-motion` 媒體查詢
 
-- **The `prefers-reduced-motion` Media Query**: One of the primary accessibility concerns with animations is that they can cause discomfort or even physical harm to some users. People with vestibular disorders or motion sensitivity may experience dizziness, nausea, or headaches when exposed to certain types of movement on screen. The `prefers-reduced-motion` media query allows web developers to detect if the user has requested minimal animations or motion effects at the system level.
+- **`prefers-reduced-motion` 媒體查詢**：動畫的主要無障礙性問題之一是它們可能會造成某些使用者不適甚至實體上的傷害。患有前庭疾病或動作敏感的使用者，在螢幕上看到某些類型的移動時，可能會感到頭暈、噁心或頭痛。`prefers-reduced-motion` 媒體查詢允許網頁開發者偵測使用者是否在系統層級要求最小化動畫或動作效果。
 
 :::interactive_editor
 
@@ -82,4 +82,4 @@ dashedName: review-css-animations
 
 # --assignment--
 
-Review the CSS Animations topics and concepts.
+檢視 CSS Animations 主題和概念。

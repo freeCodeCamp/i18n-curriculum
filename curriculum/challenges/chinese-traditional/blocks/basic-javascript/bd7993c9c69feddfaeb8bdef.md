@@ -1,6 +1,6 @@
 ---
 id: bd7993c9c69feddfaeb8bdef
-title: 使用 JavaScript 數組將多個值存儲在一個變量中
+title: 使用 JavaScript 陣列在一個變數中儲存多個值
 challengeType: 1
 forumTopicId: 18309
 dashedName: store-multiple-values-in-one-variable-using-javascript-arrays
@@ -8,9 +8,9 @@ dashedName: store-multiple-values-in-one-variable-using-javascript-arrays
 
 # --description--
 
-With JavaScript `array` variables, we can store several pieces of data in one place.
+使用 JavaScript `array` 變數，我們可以將多筆資料儲存在同一個位置。
 
-以左方括號開始定義一個數組，以右方括號結束，裏面每個元素之間用逗號隔開，例如：
+你以開啟方括號開始一個陣列宣告，以關閉方括號結束，並在每個項目之間放置逗號，如下所示：
 
 ```js
 const sandwich = ["peanut butter", "jelly", "bread"];
@@ -18,23 +18,23 @@ const sandwich = ["peanut butter", "jelly", "bread"];
 
 # --instructions--
 
-創建一個包含字符串和數字（按照字符串和數字的順序）的數組 `myArray`。
+修改新的陣列 `myArray`，使其同時包含字串和數字（按該順序）。
 
 # --hints--
 
-`myArray` 應爲數組。
+`myArray` 應該是一個陣列。
 
 ```js
 assert(typeof myArray == 'object');
 ```
 
-`myArray` 數組的第一個元素應該是一個字符串。
+`myArray` 中的第一個項目應該是字串。
 
 ```js
 assert(typeof myArray[0] !== 'undefined' && typeof myArray[0] == 'string');
 ```
 
-`myArray` 數組的第二個元素應該是一個數字。
+`myArray` 中的第二個項目應該是數字。
 
 ```js
 assert(typeof myArray[1] !== 'undefined' && typeof myArray[1] == 'number');

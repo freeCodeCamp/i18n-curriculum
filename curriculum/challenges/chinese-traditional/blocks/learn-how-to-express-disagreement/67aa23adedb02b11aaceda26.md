@@ -1,6 +1,6 @@
 ---
 id: 67aa23adedb02b11aaceda26
-title: Task 8
+title: 任務 8
 challengeType: 19
 dashedName: task-8
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-聽音頻，回答下面的問題。
+聆聽音訊並回答以下問題。
 
 # --questions--
 
 ## --text--
 
-What is more important, according to Anna?
+根據 Anna，什麼更重要？
 
 ## --answers--
 
-Upgrading computers.
+升級電腦。
 
 ---
 
-Buying new office furniture.
+購買新的辦公家具。
 
 ### --feedback--
 
-Anna acknowledges that furniture is important but says that many people mentioned needing something else.
+Anna 承認家具很重要，但說很多人提到需要其他東西。
 
 ---
 
-Getting a bigger remote work stipend.
+獲得更高的遠端工作補助。
 
 ### --feedback--
 
-Anna does not talk about increasing the stipend, only how people want to use it.
+Anna 沒有談論增加津貼，只談論人們想如何使用它。
 
 ---
 
-Changing the survey questions.
+更改調查問題。
 
 ### --feedback--
 
-Anna does not mention anything about the survey questions.
+Anna 沒有提到任何關於調查問題的內容。
 
 ## --video-solution--
 
@@ -52,11 +52,11 @@ Anna does not mention anything about the survey questions.
 
 # --explanation--
 
-A `computer upgrade` means improving a computer by adding or replacing parts like more memory (RAM), a faster processor, or a better screen. For example:
+`computer upgrade` 是指透過添加或更換零件來提升電腦，例如更多的記憶體（RAM）、更快的處理程序或更好的螢幕。例如：
 
-- `I need a computer upgrade to run the latest software.` - The speaker's current computer is not powerful enough, so they need a better one.
+- `I need a computer upgrade to run the latest software。` - 說話者目前的電腦效能不足，所以他們需要一台更好的電腦。
 
-- `After the computer upgrade, everything runs much faster.` -  The system's performance improved after updating or replacing components.
+- `After the computer upgrade, everything runs much faster.` - 系統的效率在更新或更換組件後提升了。
 
 # --scene--
 

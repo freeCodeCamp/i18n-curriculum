@@ -8,11 +8,11 @@ dashedName: generate-random-fractions-with-javascript
 
 # --description--
 
-Random numbers are useful for creating random behavior.
+随机数非常适合用来创建随机行为。
 
 在 JavaScript 中，可以用 `Math.random()` 生成一个在`0`（包括 0）到 `1`（不包括 1）之间的随机小数。 因此 `Math.random()` 可能返回 `0`，但绝不会返回 `1`。
 
-**提示：**<a href="/learn/javascript-algorithms-and-data-structures/basic-javascript/storing-values-with-the-assignment-operator" target="_blank" rel="noopener noreferrer nofollow">使用赋值运算符存储值</a>这一节讲过，所有函数调用将在 `return` 执行之前结束，因此我们可以 `return`（返回）`Math.random()` 函数的值。
+**注意：** 与 <a href="/learn/javascript-algorithms-and-data-structures/basic-javascript/storing-values-with-the-assignment-operator" target="_blank" rel="noopener noreferrer nofollow">使用赋值操作符存储值</a> 类似，所有函数调用都会在 `return` 执行之前被解析，因此我们可以 `return` `Math.random()` 函数的值。
 
 # --instructions--
 

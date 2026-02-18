@@ -10,41 +10,41 @@ lang: en-US
 
 # --description--
 
-In this dialogue, Sophie is making a request to Bob. Understanding the nature of her request is essential for effective team communication and collaboration, especially in technical environments where solving problems together is common.
+在這個對話窗中，Sophie 正在向 Bob 提出請求。了解她請求的性質對於有效的團隊通訊與協作至關重要，尤其是在技術環境中，大家共同解決問題是常見的情況。
 
 # --questions--
 
 ## --text--
 
-What is Sophie asking for in her conversation with Bob?
+Sophie 在與 Bob 的對話中要求什麼？
 
 ## --answers--
 
-She's asking for help with a coding problem
+她正在尋求程式設計問題的幫助
 
 ---
 
-She wants Bob to solve the problem for her
+她想讓 Bob 為她解決這個問題
 
 ### --feedback--
 
-Sophie is asking for help, not necessarily for Bob to solve it entirely on his own.
+Sophie 正在尋求幫助，不一定是要 Bob 完全自己解決問題。
 
 ---
 
-She is offering to help Bob with a problem
+她主動提出幫助 Bob 解決問題
 
 ### --feedback--
 
-Sophie is the one requesting assistance, not offering it.
+Sophie 是請求協助的人，而不是提供協助的人。
 
 ---
 
-She's discussing a future project
+她正在討論未來的專案
 
 ### --feedback--
 
-Sophie's request is about a current coding issue she's facing, not a future project.
+Sophie 的請求是關於她目前面臨的程式碼問題，而不是未來的專案。
 
 ## --video-solution--
 

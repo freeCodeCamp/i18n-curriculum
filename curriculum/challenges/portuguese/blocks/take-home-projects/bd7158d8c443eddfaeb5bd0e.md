@@ -8,7 +8,7 @@ dashedName: chart-the-stock-market
 
 # --description--
 
-Construa um aplicativo JavaScript full stack que seja funcionalmente semelhante a este: <a href="https://chart-the-stock-market.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://chart-the-stock-market.freecodecamp.rocks/</a>.Use um criador de sites de sua escolha para completar o projeto.
+Construa um aplicativo JavaScript full-stack que seja funcionalmente semelhante a este: <a href="https://chart-the-stock-market.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://chart-the-stock-market.freecodecamp.rocks/</a>. Use um construtor de sites de sua escolha para completar o projeto.
 
 Aqui estão as histórias de usuário que você deve implementar para este projeto:
 
@@ -18,9 +18,9 @@ Aqui estão as histórias de usuário que você deve implementar para este proje
 
 **História do Usuário:** Você pode remover ações.
 
-**História do Usuário:** Você pode ver as mudanças em tempo real quando qualquer outro usuário adiciona ou remove um estoque.Para isso, você precisará usar Web Sockets.
+**História do Usuário:** Você pode ver as mudanças em tempo real quando qualquer outro usuário adiciona ou remove um estoque. Para isso, você precisará usar Web Sockets.
 
-Quando terminar, certifique-se de que uma demonstração funcional do seu projeto está hospedada em algum lugar público.Em seguida, envie o URL para a solução no campo Solution Link.Como opção, envie também um link para o código-fonte do projeto no campo GitHub Link.
+Quando terminar, certifique-se de que uma demonstração funcional do seu projeto está hospedada em algum lugar público. Em seguida, envie o URL para a solução no campo Solution Link. Como opção, envie também um link para o código-fonte do projeto no campo GitHub Link.
 
 # --solutions--
 

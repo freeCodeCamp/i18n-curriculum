@@ -7,7 +7,7 @@ dashedName: lab-symmetric-difference
 
 # --description--
 
-Compare dois arrays e retorne um novo array com qualquer item encontrado em apenas um dos dois arrays passados, mas não ambos.Em outras palavras, retorne a diferença simétrica de dois arrays.
+Compare dois arrays e retorne um novo array com qualquer item encontrado em apenas um dos dois arrays passados, mas não ambos. Em outras palavras, retorne a diferença simétrica de dois arrays.
 
 Exemplo:
 
@@ -24,7 +24,7 @@ Resultado: `["diamante", "maçã", "esmeralda", "pão"]`
 1. Sua função `diffArray` deve retornar um array.
 2. Sua função deve receber dois argumentos, ambos os quais são arrays.
 3. Sua função deve fazer uso do método `filter`.
-4. Sua função deve retornar a diferença simétrica dos dois arrays.  
+4. Sua função deve retornar a diferença simétrica dos dois arrays.
 5. Sua função deve retornar um array vazio se não houver diferença simétrica.
 
 

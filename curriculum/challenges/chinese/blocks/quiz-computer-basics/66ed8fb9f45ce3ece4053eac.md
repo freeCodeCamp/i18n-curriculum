@@ -1,6 +1,6 @@
 ---
 id: 66ed8fb9f45ce3ece4053eac
-title: Computer Basics Quiz
+title: 计算机基础测验
 challengeType: 8
 dashedName: quiz-computer-basics
 ---
@@ -17,51 +17,51 @@ dashedName: quiz-computer-basics
 
 #### --text--
 
-What part of a computer is used to connect the other internal components together?
+计算机的哪个部分用于连接其他内部组件？
 
 #### --distractors--
 
-Processor
+处理器
 
 ---
 
-Graphics card
+显卡
 
 ---
 
-Memory
+内存
 
 #### --answer--
 
-Motherboard
+主板
 
 ### --question--
 
 #### --text--
 
-What are browser developer tools?
+什么是浏览器开发者工具？
 
 #### --distractors--
 
-Tools for editing browser settings and managing user profiles.
+用于编辑浏览器 `Settings` 和管理 `user` `profile` 的工具。
 
 ---
 
-Utilities for blocking ads and improving web page performance.
+用于屏蔽广告和提升网页性能的实用函数。
 
 ---
 
-Software for managing browser extensions and plug-ins.
+用于管理浏览器扩展名和插件的软件。
 
 #### --answer--
 
-Built-in features in browsers that help developers debug and inspect websites.
+浏览器中帮助开发者调试和检查网站的内置特色。
 
 ### --question--
 
 #### --text--
 
-Which of the following ISP connections are typically the fastest?
+以下哪种 ISP 连接通常是最快的？
 
 #### --distractors--
 
@@ -69,43 +69,43 @@ DSL
 
 ---
 
-Satellite
+卫星
 
 ---
 
-Cable
+电缆
 
 #### --answer--
 
-Fiber optic
+光纤
 
 ### --question--
 
 #### --text--
 
-Which of the following is NOT a safe practice when signing in?
+以下哪项不是安全的登录做法？
 
 #### --distractors--
 
-Using a fingerprint or face scanner.
+使用指纹或面部扫描仪。
 
 ---
 
-Making a long and complex password like `@ppl3_+B@nana34823`.
+制作一个像 `@ppl3_+B@nana34823` 这样长且复杂的密码。
 
 ---
 
-Setting up two-factor authentication (2FA).
+设置双因素认证（2FA）。
 
 #### --answer--
 
-Using passwords based on personal information like your birthday.
+使用基于个人信息如你的生日的密码。
 
 ### --question--
 
 #### --text--
 
-Which of the following is NOT a web browser?
+以下哪项不是网页浏览器？
 
 #### --distractors--
 
@@ -113,7 +113,7 @@ Safari
 
 ---
 
-Opera
+歌剧
 
 ---
 
@@ -121,17 +121,17 @@ Microsoft Edge
 
 #### --answer--
 
-Google Drive
+Google 云端硬盘
 
 ### --question--
 
 #### --text--
 
-When you need to edit a piece of code, which of the following are you most likely going to use?
+当你需要编辑一段代码时，你最有可能使用以下哪种方式？
 
 #### --distractors--
 
-Node Package Manager
+节点打包管理器
 
 ---
 
@@ -149,7 +149,7 @@ Visual Studio Code
 
 #### --text--
 
-Which of the following is used primarily for managing files stored on a local hard drive?
+以下哪项主要用于管理存储在局部硬盘上的文件？
 
 #### --distractors--
 
@@ -161,105 +161,105 @@ Microsoft OneDrive
 
 ---
 
-Google Drive
+Google 云端硬盘
 
 #### --answer--
 
-Windows File Explorer
+Windows 文件资源管理器
 
 ### --question--
 
 #### --text--
 
-What is NOT a good practice when naming files?
+命名 `文件` 时什么做法是不好的？
 
 #### --distractors--
 
-Putting an underscore or hyphen between words.
+在单词之间放置下划线或连字符。
 
 ---
 
-Use a casing style such as camelCase and sticking with it.
+使用驼峰式大小写等命名风格并坚持使用它。
 
 ---
 
-Putting a version number at the end of a document like `summaryReport_v2.docx`.
+在文档末尾添加版本号，例如 `summaryReport_v2.docx`。
 
 #### --answer--
 
-Using non-descriptive names like `file1.txt`.
+使用像 `file1.txt` 这样没有描述性的名称。
 
 ### --question--
 
 #### --text--
 
-What does the term "domain name" refer to?
+术语 "domain name" 指的是什么？
 
 #### --distractors--
 
-A type of software that manages website files and databases.
+一种管理网站文件和数据库的软件类型。
 
 ---
 
-The physical location of a web server in a data center.
+网络服务器在数据中心的物理位置。
 
 ---
 
-None of the other choices.
+其他选项均不适用。
 
 #### --answer--
 
-The address used to identify websites on the internet.
+用于识别互联网上网站的地址。
 
 ### --question--
 
 #### --text--
 
-Which of the following is a way to send a file to the Recycle Bin/Trash?
+以下哪种方式可以将文件发送到回收站/垃圾箱？
 
 #### --distractors--
 
-All of the other choices.
+所有其他选项。
 
 ---
 
-Pressing the `Backspace` key on the keyboard.
+按下键盘上的 `Backspace` 密钥。
 
 ---
 
-Moving it to an Archived folder.
+将其移动到已归档文件夹。
 
 #### --answer--
 
-Right-click on it and select the Delete/Move to trash option.
+右键点击它并选择 Delete/Move to trash 选项。
 
 ### --question--
 
 #### --text--
 
-What is a RAM?
+什么是随机存取存储器？
 
 #### --distractors--
 
-A network protocol used for transferring files between devices.
+一种用于在设备之间传输 `files` 的 `network protocol`。
 
 ---
 
-A permanent storage device used for saving files and applications.
+用于保存文件和应用的永久存储设备。
 
 ---
 
-A component in a computer responsible for generating graphics and rendering images.
+计算机中负责生成图形和渲染图像的组件。
 
 #### --answer--
 
-A temporary memory for fast data access by the processor.
+供处理器快速访问数据的临时内存。
 
 ### --question--
 
 #### --text--
 
-What file type will be best suited for writing a `README` file?
+哪种文件类型最适合编写 `README` 文件？
 
 #### --distractors--
 
@@ -281,143 +281,143 @@ What file type will be best suited for writing a `README` file?
 
 #### --text--
 
-What is an Integrated Development Environment (IDE)?
+什么是集成开发环境（IDE）？
 
 #### --distractors--
 
-A platform designed for deploying and hosting web applications.
+一个用于部署和托管网页 `applications` 的 `platform`。
 
 ---
 
-A type of hardware device used for testing and debugging electronic circuits.
+一种用于测试和调试电子电路的硬件设备类型。
 
 ---
 
-A version control system that helps developers track changes in source code during software development.
+一个版本控件系统，帮助开发者在软件开发过程中跟踪源代码的更改。
 
 #### --answer--
 
-A program that integrates tools for writing, debugging, and running code.
+一个集成用于编写、调试和运行代码工具的程序。
 
 ### --question--
 
 #### --text--
 
-What is a piece of software that allows you to look at online content called?
+允许你查看在线内容的软件叫什么？
 
 #### --distractors--
 
-Internet content displayer
+互联网内容显示器
 
 ---
 
-Search engine
+查找引擎
 
 ---
 
-Website
+网站
 
 #### --answer--
 
-Web browser
+网页浏览器
 
 ### --question--
 
 #### --text--
 
-What is a piece of software that lists web pages related to a user's query called?
+将与用户查询相关的网页列出的软件叫什么？
 
 #### --distractors--
 
-Page finder
+页面查找器
 
 ---
 
-Web browser
+网页浏览器
 
 ---
 
-Website
+网站
 
 #### --answer--
 
-Search engine
+查找引擎
 
 ### --question--
 
 #### --text--
 
-What is a set of one or more web pages under one domain name called?
+一个或多个网页在同一个域名下的集合叫什么？
 
 #### --distractors--
 
-Web browser
+网页浏览器
 
 ---
 
-Hyperlink
+超链接
 
 ---
 
-Search engine
+查找引擎
 
 #### --answer--
 
-Website
+网站
 
 ### --question--
 
 #### --text--
 
-To search for an exact phrase, what should you enclose your search query with?
+要查找一个精确短语，你应该用什么将你的查询括起来？
 
 #### --distractors--
 
-Backticks
+反引号
 
 ---
 
-Parentheses
+括号
 
 ---
 
-Brackets
+方括弧
 
 #### --answer--
 
-Quotation marks
+引号
 
 ### --question--
 
 #### --text--
 
-Which is NOT a way to install a web browser?
+哪种不是安装网页浏览器的方法？
 
 #### --distractors--
 
-Using a package manager.
+使用包管理器。
 
 ---
 
-Directly downloading from the website.
+直接从网站下载。
 
 ---
 
-Using an App Store like Microsoft Store.
+使用类似 Microsoft Store 的应用商店。
 
 #### --answer--
 
-Pressing the Network/Internet button in Settings.
+在设置中按下网络/互联网按钮。
 
 ### --question--
 
 #### --text--
 
-Which of the following formats does NOT preserve image quality after compression?
+以下哪种形式在压缩后不会保留图像质量？
 
 #### --distractors--
 
-All of the other choices.
+所有其他选项。
 
 ---
 
@@ -435,23 +435,23 @@ JPEG
 
 #### --text--
 
-Which of the following parts is located in a socket on the motherboard?
+以下哪个部件位于主板上的套接字中？
 
 #### --distractors--
 
-The router
+路由器
 
 ---
 
-The keyboard
+键盘
 
 ---
 
-The hard drive (HDD)
+硬盘驱动器（HDD）
 
 #### --answer--
 
-The CPU
+CPU
 
 ## --quiz--
 
@@ -459,95 +459,95 @@ The CPU
 
 #### --text--
 
-Which of the following is a basic part of the computer?
+以下哪项是计算机的基本组成部分？
 
 #### --distractors--
 
-The word processor
+文字处理器
 
 ---
 
-The task manager
+任务管理器
 
 ---
 
-The memory manager
+内存管理器
 
 #### --answer--
 
-The central processing unit
+中央处理单元
 
 ### --question--
 
 #### --text--
 
-What is a pointing device for a computer?
+计算机的指点设备是什么？
 
 #### --distractors--
 
-A stick for pointing at computers
+用于指向计算机的指示棒
 
 ---
 
-A retractable device used in PowerPoint presentations
+用于 PowerPoint 演示的可伸缩设备
 
 ---
 
-A laser pointer
+激光指针
 
 #### --answer--
 
-A mouse or touchpad
+鼠标或触控板
 
 ### --question--
 
 #### --text--
 
-What is a type of ISP provider?
+ISP 提供商的类型是什么？
 
 #### --distractors--
 
-Satellite
+卫星
 
 ---
 
-Fiber optic
+光纤
 
 ---
 
-Dial up
+拨号
 
 #### --answer--
 
-Tier 1
+第 1 级
 
 ### --question--
 
 #### --text--
 
-What is a best practice when naming files for a web application?
+为 web 应用命名文件时的最佳实践是什么？
 
 #### --distractors--
 
-Using special characters.
+使用特殊字符。
 
 ---
 
-Using spaces to separate the words.
+使用 空格 分隔 单词。
 
 ---
 
-Using generic words.
+使用通用的词语。
 
 #### --answer--
 
-Using hyphens instead of spaces.
+使用连字符代替空格。
 
 ### --question--
 
 #### --text--
 
-Which of the following is a common file type when working with web applications?
+在处理网页应用时，以下哪种是常见的文件类型？
 
 #### --distractors--
 
@@ -569,7 +569,7 @@ Which of the following is a common file type when working with web applications?
 
 #### --text--
 
-What is a common file type for a video file?
+视频文件的常见文件类型是什么？
 
 #### --distractors--
 
@@ -591,7 +591,7 @@ What is a common file type for a video file?
 
 #### --text--
 
-Which of the following types is commonly used for image files?
+以下哪种类型通常用于图像文件？
 
 #### --distractors--
 
@@ -613,7 +613,7 @@ Which of the following types is commonly used for image files?
 
 #### --text--
 
-Microsoft Edge is the default web browser of which operating system?
+Microsoft Edge 是哪个操作系统的默认网页浏览器？
 
 #### --distractors--
 
@@ -629,39 +629,39 @@ Unix
 
 #### --answer--
 
-Windows
+窗口
 
 ### --question--
 
 #### --text--
 
-What is a search engine?
+什么是搜索引擎？
 
 #### --distractors--
 
-A part of the hard drive of a computer.
+计算机硬盘的一部分。
 
 ---
 
-Advanced software that is only used by academic researchers.
+只有学术研究人员使用的高级的软件。
 
 ---
 
-A tool for finding web components.
+一个用于查找网页组件的工具。
 
 #### --answer--
 
-A web based tool for searching information on the internet.
+一个基于网页的工具，用于在互联网中查找信息。
 
 ### --question--
 
 #### --text--
 
-Which of the following is NOT a type of browser?
+以下哪项不是浏览器的类型？
 
 #### --distractors--
 
-Google Chrome
+谷歌浏览器
 
 ---
 
@@ -679,7 +679,7 @@ GitHub
 
 #### --text--
 
-Which of the following is NOT a cloud-based hosting service for repositories?
+以下哪项不是用于仓库的基于云的托管服务？
 
 #### --distractors--
 
@@ -701,59 +701,59 @@ Ona
 
 #### --text--
 
-Which of the following is not primarily a part of an integrated development environment?
+以下哪项不主要属于集成开发环境的一部分？
 
 #### --distractors--
 
-A tool for writing.
+一个用于写作的工具。
 
 ---
 
-A tool for testing code.
+一个用于测试代码的工具。
 
 ---
 
-A tool for debugging code.
+一个用于调试代码的工具。
 
 #### --answer--
 
-A tool for storing code.
+一个用于存储代码的工具。
 
 ### --question--
 
 #### --text--
 
-What is a best practice for naming files?
+为你的 `文件` 命名的最佳实践是什么？
 
 #### --distractors--
 
-Creating a script that uses the same file names for all your projects.
+创建一个使用相同文件名用于你所有项目的脚本。
 
 ---
 
-Naming the main file with the same name as the folder it is in.
+将主文件命名为与其所在文件夹相同的名称。
 
 ---
 
-Using a unique sequence of numbers at the end of the file name.
+在文件名末尾使用唯一的数字序列。
 
 #### --answer--
 
-Using a descriptive name for each file.
+为每个文件使用描述性名称。
 
 ### --question--
 
 #### --text--
 
-What is the built-in way you can use to search for files on your computer?
+你可以使用什么内置方法在你的计算机上查找文件？
 
 #### --distractors--
 
-Google or Firefox
+Google 或 Firefox
 
 ---
 
-A search engine
+一个查找引擎
 
 ---
 
@@ -761,13 +761,13 @@ GitHub
 
 #### --answer--
 
-The file explorer
+文件资源管理器
 
 ### --question--
 
 #### --text--
 
-What is a common search strategy to search for file types?
+查找文件类型的常见查找策略是什么？
 
 #### --distractors--
 
@@ -789,7 +789,7 @@ What is a common search strategy to search for file types?
 
 #### --text--
 
-What is the default page for a website?
+网站的默认页面是什么？
 
 #### --distractors--
 
@@ -811,73 +811,73 @@ What is the default page for a website?
 
 #### --text--
 
-Which file managers can you use to create, move, and delete files?
+你可以使用哪些文件管理器来创建、移动和删除文件？
 
 #### --distractors--
 
-Google or Bing
+Google 或 Bing
 
 ---
 
-Windows or macOS
+Windows 或 macOS
 
 ---
 
-Findex or Firefox
+Findex 或 Firefox
 
 #### --answer--
 
-Explorer or Finder
+资源管理器或 Finder
 
 ### --question--
 
 #### --text--
 
-What is Git?
+什么是 Git？
 
 #### --distractors--
 
-A centralized storage location for code repositories.
+代码仓库的集中存储位置。
 
 ---
 
-A tool for adding, updating, and removing libraries and project dependencies.
+一个用于添加、更新和移除库及项目依赖项的工具。
 
 ---
 
-A cloud-based hosting service for repositories.
+一个基于云的仓库托管服务。
 
 #### --answer--
 
-A version control system for tracking changes and collaborating with others.
+用于跟踪更改和与其他人协作的版本控制系统。
 
 ### --question--
 
 #### --text--
 
-What is random access memory?
+什么是随机访问内存？
 
 #### --distractors--
 
-A permanent storage location that is used to store data.
+一个用于保存数据的永久保存位置。
 
 ---
 
-A volatile way to access data in a sequential manner.
+以易变的方式循序地访问 `data`。
 
 ---
 
-A processor used for generating passwords.
+用于生成密码的处理器。
 
 #### --answer--
 
-A temporary storage location for the computer's central processing unit.
+计算机中央处理单元的临时存储位置。
 
 ### --question--
 
 #### --text--
 
-Which file format is used to compress files?
+哪种文件形式用于压缩文件？
 
 #### --distractors--
 

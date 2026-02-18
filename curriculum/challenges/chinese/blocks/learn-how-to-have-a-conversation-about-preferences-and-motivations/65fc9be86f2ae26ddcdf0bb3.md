@@ -6,46 +6,45 @@ dashedName: task-36
 lang: en-US
 ---
 
-
 <!-- (Audio) Maria: "But do you know what else is great? Seeing the team's enthusiasm after solving these issues. When you see the team inspired, it can boost your motivation." -->
 
 # --description--
 
-Listen to Maria and answer the question.
+听 Maria 并回答问题。
 
 # --questions--
 
 ## --text--
 
-What can boost their motivation according to Maria?
+根据 Maria，什么可以提升他们的动力？
 
 ## --answers--
 
-Having a big team
+拥有一个大团队
 
 ### --feedback--
 
-Think about what specifically makes the team more motivated, not just the size of the team.
+考虑是什么具体因素使团队更有动力，而不仅仅是团队的规模。
 
 ---
 
-Taking a long break
+休息很长时间
 
 ### --feedback--
 
-Consider if breaks are mentioned as a way to increase motivation.
+考虑是否提到休息作为提高动力的一种方式。
 
 ---
 
-Seeing the team inspired
+看到团队受到激励
 
 ---
 
-Solving problems quickly
+快速解决问题
 
 ### --feedback--
 
-Reflect on whether the speed of solving problems is what Maria highlights as motivating.
+反思解决问题的速度是否是 Maria 强调的激励因素。
 
 ## --video-solution--
 

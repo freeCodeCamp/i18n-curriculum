@@ -7,7 +7,7 @@ dashedName: step-33
 
 # --description--
 
-Para a última condição, você precisará verificar se a posição `x` do jogador ultrapassou a borda direita da tela.Se tiver, você precisará definir a posição `x` do jogador para o valor máximo para que o jogador não saia acidentalmente da tela pela direita.
+Para a última condição, você precisará verificar se a posição `x` do jogador ultrapassou a borda direita da tela. Se tiver, você precisará definir a posição `x` do jogador para o valor máximo para que o jogador não saia acidentalmente da tela pela direita.
 
 Dentro do seu método `update`, crie uma declaração `if` que verifica se `this.position.x >= canvas.width - this.width * 2`. 
 

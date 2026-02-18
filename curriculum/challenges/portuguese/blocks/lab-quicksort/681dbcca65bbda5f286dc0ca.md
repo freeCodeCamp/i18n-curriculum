@@ -15,7 +15,7 @@ dashedName: implement-the-quicksort-algorithm
 
 1. A função `quick_sort` deve receber uma lista de inteiros como entrada e retornar uma nova lista desses inteiros em ordem crescente, do menor para o maior.
 
-1. To implement the algorithm, you should:
+1. Para implementar o algoritmo, você deve:
    - Escolha um valor pivot dentre os elementos da lista de entrada (use o primeiro ou o último elemento da lista).
    - Particione a lista de entrada em três sublistas: uma com elementos menores que o `pivot`, uma com elementos iguais ao `pivot` e uma com elementos maiores que o `pivot`.
    - Chame recursivamente `quick_sort` para ordenar as sublistas e concatene as sublistas ordenadas para produzir a lista final ordenada.

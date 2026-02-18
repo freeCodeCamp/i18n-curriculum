@@ -1,6 +1,6 @@
 ---
 id: bd7123c9c448eddfaeb5bdef
-title: Find the Length of a String
+title: 尋找字串長度
 challengeType: 1
 forumTopicId: 18182
 dashedName: find-the-length-of-a-string
@@ -8,23 +8,23 @@ dashedName: find-the-length-of-a-string
 
 # --description--
 
-You can find the length of a `String` value by writing `.length` after the string variable or string literal.
+你可以透過在字串變數或字串字面值後面寫 `.length` 來取得 `String` 值的長度。
 
 ```js
 console.log("Alan Peter".length);
 ```
 
-The value `10` would be displayed in the console. Note that the space character between "Alan" and "Peter" is also counted.
+數值 `10` 會顯示在主控台。請注意，「Alan」和「Peter」之間的空白字元也會被計算在內。
 
-For example, if we created a variable `const firstName = "Ada"`, we could find out how long the string `Ada` is by using the `firstName.length` property.
+例如，如果我們創建了一個變數 `const firstName = "Ada"`，我們可以使用 `firstName.length` 屬性來找出字串 `Ada` 的長度。
 
 # --instructions--
 
-Use the `.length` property to set `lastNameLength` to the number of characters in `lastName`.
+使用 `.length` 屬性將 `lastNameLength` 設定為 `lastName` 中的字元數。
 
 # --hints--
 
-You should not change the variable declarations in the `// Setup` section.
+你不應該更改 `// Setup` 區段中的變數宣告。
 
 ```js
 assert(
@@ -33,13 +33,13 @@ assert(
 );
 ```
 
-`lastNameLength` should be equal to eight.
+`lastNameLength` 應該相等於八。
 
 ```js
 assert(typeof lastNameLength !== 'undefined' && lastNameLength === 8);
 ```
 
-You should be getting the length of `lastName` by using `.length` like this: `lastName.length`.
+你應該使用 `.length` 來取得 `lastName` 的長度，像這樣：`lastName.length`。
 
 ```js
 assert(__helpers.removeJSComments(code).match(/=\s*lastName\.length/g) && !__helpers.removeJSComments(code).match(/lastName\s*=\s*8/));

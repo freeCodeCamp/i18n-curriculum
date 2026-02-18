@@ -1,19 +1,19 @@
 ---
 id: 672bccae6e556cd81cef6af2
-title: What Is Margin Collapsing, and How Does It Work?
+title: 什么是外边距折叠，它如何工作？
 challengeType: 19
 dashedName: what-is-margin-collapsing
 ---
 
 # --interactive--
 
-Margin collapsing is a fundamental concept in CSS that often confuses newcomers to web development.
+外边距折叠是 CSS 中一个常见但容易让初学者感到困惑的基础概念。
 
-This behavior occurs when the vertical margins of adjacent elements overlap, resulting in a single margin equal to the larger of the two.
+这种行为发生在相邻元素的垂直外边距发生重叠时，结果是合并成一个外边距，等于两者中较大的那一个。
 
-Understanding margin collapsing is important for precise control over spacing and layout in web design. So, let's get into how margin collapsing works and explore some common scenarios where it occurs.
+理解外边距折叠对于精确控制网页布局和元素间距非常重要。 那么，我们来具体看看外边距折叠是如何工作的，并探索一些常见的折叠场景。
 
-In CSS when two vertical margins come into contact with each other they'll collapse, this means that instead of adding together, the larger margin wins and determines the space between the elements. This behavior applies only to vertical margins (top and bottom) and not to horizontal margins (left and right). So, here's an example to illustrate this concept:
+在 CSS 中，当两个垂直边距相互接触时，它们会合并，这意味着不会相加，而是较大的边距生效并决定元素之间的间距。此行为仅适用于垂直边距（上和下），不适用于水平边距（左和右）。所以，这里有一个示例来说明这个概念：
 
 :::interactive_editor
 
@@ -35,11 +35,11 @@ In CSS when two vertical margins come into contact with each other they'll colla
 
 :::
 
-In this example, you might expect the total space between `.box1` and `.box2` to be 50 pixels (20 pixels plus 30 pixels). However, due to margin collapsing the actual space will be 30 pixels, which is the larger of the two margins.
+在这个例子中，你可能会期望 `.box1` 和 `.box2` 之间的间距是 50 像素（20 像素 + 30 像素）。 但由于外边距折叠，实际间距会是 30 像素，也就是两个外边距中较大的那个。
 
-As we saw in the previous example, margins of the adjacent sibling elements will collapse. This is the most straight forward case of margin collapsing. Let's explore more cases where margin collapsing can occur.
+As we saw in the previous example, margins of the adjacent sibling elements will collapse. 这是外边距折叠最简单直观的情况。 我们来看看还有哪些情况会发生折叠。 
 
-Margins can also collapse between a parent element and its first or last child. If there's no border, padding, inline content, or clearance to separate the parent's margin from the child's, they will collapse.
+外边距也可能在父元素与其第一个或最后一个子元素之间折叠。 如果父元素和子元素之间没有边框、内边距、内联内容或清除，它们就会折叠。
 
 :::interactive_editor
 
@@ -62,9 +62,9 @@ Margins can also collapse between a parent element and its first or last child. 
 
 :::
 
-In this case, you might expect the child to be 70 pixels from the top (40 pixels plus 30 pixels). However, the margins collapse and the larger margin of 40 pixels is used.
+在这个分支中，你可能期望子元素距离顶部 70 像素（40 像素加 30 像素）。然而，边距会合并，使用较大的 40 像素边距。
 
-If an element has no content, padding, or border, its top and bottom margins can collapse into a single margin.
+如果一个元素没有内容、内边距或边框，它的上下外边距也会合并为一个单独的外边距。 
 
 :::interactive_editor
 
@@ -86,9 +86,9 @@ If an element has no content, padding, or border, its top and bottom margins can
 
 :::
 
-In this example, the `empty-block`'s top and bottom margins collapse into a single 20 pixels margin, the larger of the two.
+在此示例中，`empty-block` 的上下边距合并为单个 20 像素边距，即两者中较大的那个。
 
-Here's an example of preventing collapse using padding:
+以下是使用填充防止折叠的示例： 
 
 :::interactive_editor
 
@@ -112,43 +112,43 @@ Here's an example of preventing collapse using padding:
 
 :::
 
-In this case, the one pixel padding on the parent prevents the margin from collapsing resulting in a total space of 71 pixels from the top of the parent to the top of the child content.
+在这种分支中，父元素上的 1 像素内边距防止了外边距折叠，导致从父元素顶部到子内容顶部的总间距为 71 像素。
 
-Understanding margin collapsing is important for precise control over layout and spacing in CSS. While it can sometimes lead to unexpected results, it's a feature designed to create more aesthetically pleasing and consistent spacing in documents. By knowing when margin collapsing occurs and how to prevent it when necessary, you can create more predictable and maintainable layouts in your web designs.
+理解外边距折叠对于精准控制 CSS 布局和间距非常关键。  While it can sometimes lead to unexpected results, it's a feature designed to create more aesthetically pleasing and consistent spacing in documents. 只要掌握了什么时候会发生折叠，以及如何在需要时阻止它，就能创建更可控、可维护的网页布局。
 
 # --questions--
 
 ## --text--
 
-In which direction does margin collapsing occur?
+外边距折叠在哪个方向发生？
 
 ## --answers--
 
-Horizontal margins only.
+仅水平外边距。
 
 ### --feedback--
 
-Think about which margins (top, bottom, left, right) are affected by this behavior.
+想想哪些边距（上、下、左、右）会受到这种行为的影响。
 
 ---
 
-Vertical margins only.
+仅垂直外边距。
 
 ---
 
-Both horizontal and vertical margins.
+水平和垂直外边距。
 
 ### --feedback--
 
-Think about which margins (top, bottom, left, right) are affected by this behavior.
+想想哪些边距（上、下、左、右）会受到这种行为的影响。
 
 ---
 
-Diagonal margins.
+对角外边距。
 
 ### --feedback--
 
-Think about which margins (top, bottom, left, right) are affected by this behavior.
+想想哪些边距（上、下、左、右）会受到这种行为的影响。
 
 ## --video-solution--
 
@@ -156,35 +156,35 @@ Think about which margins (top, bottom, left, right) are affected by this behavi
 
 ## --text--
 
-What happens when two adjacent elements have different margin values?
+当两个相邻元素有不同的外边距时会发生什么？
 
 ## --answers--
 
-The margins add up.
+外边距会相加。
 
 ### --feedback--
 
-Consider which margin "wins" when collapsing occurs.
+考虑一下，当折叠发生时，哪个外边距会“赢”。
 
 ---
 
-The smaller margin is used.
+使用较小的外边距。
 
 ### --feedback--
 
-Consider which margin "wins" when collapsing occurs.
+考虑一下，当折叠发生时，哪个外边距会“赢”。
 
 ---
 
-The larger margin is used.
+使用较大的外边距。
 
 ---
 
-The average of the two margins is used.
+使用两个外边距的平均值。
 
 ### --feedback--
 
-Consider which margin "wins" when collapsing occurs.
+考虑一下，当折叠发生时，哪个外边距会“赢”。
 
 ## --video-solution--
 
@@ -192,35 +192,35 @@ Consider which margin "wins" when collapsing occurs.
 
 ## --text--
 
-Which of the following will NOT prevent margin collapsing between a parent and its first child?
+以下哪项不能阻止父元素与第一个子元素之间发生外边距折叠？
 
 ## --answers--
 
-Adding a `border` to the parent.
+为父元素添加 `border`。
 
 ### --feedback--
 
-Think about which properties create a separation between the parent and child margins.
+想想哪些属性会在父子外边距之间产生分隔。
 
 ---
 
-Setting `padding-top: 1px;` on the parent.
+在父元素上设置 `padding-top: 1px;`。
 
 ### --feedback--
 
-Think about which properties create a separation between the parent and child margins.
+想想哪些属性会在父子外边距之间产生分隔。
 
 ---
 
-Using `display: inline-block;` on the child.
+在子元素上使用 `display: inline-block;`。
 
 ### --feedback--
 
-Think about which properties create a separation between the parent and child margins.
+想想哪些属性会在父子外边距之间产生分隔。
 
 ---
 
-Setting `margin-top: 0;` on the child.
+在子元素上设置 `margin-top: 0;`。
 
 ## --video-solution--
 

@@ -1,17 +1,17 @@
 ---
 id: 5f46ede1ff8fec5ba656b44c
-title: Step 74
+title: 步骤 74
 challengeType: 0
 dashedName: step-74
 ---
 
 # --description--
 
-Next, you are going to be styling the `footer` element. To keep the CSS organized, add a comment at the end of `styles.css` with the text `FOOTER`.
+接下来，你将要设置 `footer` 元素的样式。 为了保持 CSS 的条理性，在 `styles.css` 的末尾添加一个注释，文字为 `FOOTER`。
 
 # --hints--
 
-You should have a CSS comment with the text `FOOTER`.
+你应该有一个CSS注释，上面写着 `FOOTER`。
 
 ```js
 assert.match(code, /\/\*\s*FOOTER\s*\*\//i);

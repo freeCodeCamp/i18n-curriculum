@@ -1,6 +1,6 @@
 ---
 id: 67c4bacefd5097faecca40d4
-title: Task 22
+title: 任务 22
 challengeType: 19
 dashedName: task-22
 lang: en-US
@@ -16,45 +16,45 @@ lang: en-US
 
 ## --text--
 
-What does Bob want to know?
+Bob 想知道什么？  
 
 ## --answers--
 
-If they should cancel the project.
+如果他们应该取消该项目。  
 
 ### --feedback--
 
-Bob is not asking about canceling the project.
+Bob 不是在询问取消项目。  
 
 ---
 
-If working fewer hours would be better.
+如果工作时间更少会更好。  
 
 ### --feedback--
 
-Bob is suggesting working more hours, not fewer.
+Bob 建议工作更多小时，而不是更少。  
 
 ---
 
-If the team has already solved the issue.
+如果团队已经解决了该问题。  
 
 ### --feedback--
 
-Bob is asking if his suggestion will help, not if the issue is already solved.
+Bob 在询问他的建议是否会有帮助，而不是问题是否已经解决。  
 
 ---
 
-If working extra hours will improve the situation.
+如果加班会改善情况。  
 
 ## --video-solution--
 
-4
+4  
 
 # --explanation--
 
-Using negatives in questions with auxiliary or modal verbs (such as `wouldn't`, `isn't`, `doesn't`), which require direct `yes`/`no` answers, suggests that the speaker expects the answer to be positive — Bob assumes, in this case, that working extra hours will help. Another example:
+在带有辅助或情态动词（如 `wouldn't`、`isn't`、`doesn't`）的问题中使用否定形式，这类问题需要直接的 `yes`/`no` 回答，表明说话者预期答案为肯定——在这种情况下，Bob 假设加班会有帮助。另一个例子：
 
-`Doesn't this plan seem like a good idea?` - The speaker expects the listener to agree that the plan is good.
+`Doesn't this plan seem like a good idea?`——说话者期望监听者同意该计划是好的。
 
 # --scene--
 

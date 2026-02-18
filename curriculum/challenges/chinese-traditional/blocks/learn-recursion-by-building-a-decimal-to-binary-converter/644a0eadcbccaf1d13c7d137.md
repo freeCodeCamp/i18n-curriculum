@@ -1,15 +1,15 @@
 ---
 id: 644a0eadcbccaf1d13c7d137
-title: 步驟 19
+title: 第 19 步
 challengeType: 0
 dashedName: step-19
 ---
 
 # --description--
 
-In the base-2 number system, the rightmost digit represents the ones place, the next digit to the left represents the twos place, then the fours place, then the eights place, and so on. In this system, each digit's place value is two times greater than the digit to its right.
+在二進位制中，最右邊的數字表述個位，左邊的下一個數字表述二位，接著是四位，再來是八位，依此類推。在此系統中，每個數字的位置值是其右邊數字的兩倍。
 
-Here are numbers zero to nine in the base-10 and base-2 number systems:
+以下是在基數 10 和基數 2 數字系統中的數字 0 到 9：
 
 ```md
 | Base-10 | Base-2 |
@@ -26,25 +26,25 @@ Here are numbers zero to nine in the base-10 and base-2 number systems:
 |    9    |  1001  |
 ```
 
-Notice that binary numbers are formed from left to right, from the digit with the greatest place value on the left, to the least significant on the right. For example, the number `3` in binary is `11`, or `1` in the twos place and `1` in the ones place. Then for the number `4`, a digit to represent the fours place is included on the left and set to `1`, the twos place is `0`, and the ones place is `0`.
+請注意，二進位數字是從左到右形成的，從左邊最大位值的數字到右邊最小有效位值的數字。 例如，數字 `3` 的二進位是 `11`，即二位的 `1` 和一位的 `1`。 然後對於數字 `4`，在左邊加入一個表示四位的數字並設為 `1`，二位為 `0`，一位為 `0`。
 
-In your `decimalToBinary` function, convert the number `10` into binary and `return` it as a string.
+在你的 `decimalToBinary` 函式中，將數字 `10` 轉換成二進位並以字串形式傳回。
 
 # --hints--
 
-Your `decimalToBinary` function should return a string.
+你的 `decimalToBinary` 函式應該傳回一個字串。
 
 ```js
 assert.isString(decimalToBinary());
 ```
 
-Your `decimalToBinary` function should return a string with a length of `4`.
+你的 `decimalToBinary` 函式（程式）應該傳回長度為 `4` 的字串。
 
 ```js
 assert.strictEqual(decimalToBinary().length, 4);
 ```
 
-Your `decimalToBinary` function should return `"1010"` as a string.
+你的 `decimalToBinary` 函式（程式）應該傳回 `"1010"` 作為字串。
 
 ```js
 assert.strictEqual(decimalToBinary(), '1010');

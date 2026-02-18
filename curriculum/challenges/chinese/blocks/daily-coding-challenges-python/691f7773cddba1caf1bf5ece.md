@@ -1,25 +1,25 @@
 ---
 id: 691f7773cddba1caf1bf5ece
-title: "Challenge 135: Re: Fwd: Fw: Count"
+title: "挑战 135：回复：转发：转发：计数"
 challengeType: 29
 dashedName: challenge-135
 ---
 
 # --description--
 
-Given a string representing the subject line of an email, determine how many times the email has been forwarded or replied to.
+给定一个表现电子邮件主题行的字串，确定该电子邮件被转发或回复了多少次。
 
-For simplicity, consider an email forwarded or replied to if the string contains any of the following markers (case-insensitive):
+为简单起见，如果字串包含以下任意标记（不区分分支），则视为邮件已被转发或回复：
 
 - `"fw:"`
 - `"fwd:"`
 - `"re:"`
 
-Return the total number of occurrences of these markers.
+返回这些标记的总出现次数。
 
 # --hints--
 
-`email_chain_count("Re: Meeting Notes")` should return `1`.
+`email_chain_count("Re: Meeting Notes")` 应该返回 `1`。
 
 ```js
 ({test: () => { runPython(`
@@ -28,7 +28,7 @@ TestCase().assertEqual(email_chain_count("Re: Meeting Notes"), 1)`)
 }})
 ```
 
-`email_chain_count("Meeting Notes")` should return `0`.
+`email_chain_count("Meeting Notes")` 应返回 `0`。
 
 ```js
 ({test: () => { runPython(`
@@ -37,7 +37,7 @@ TestCase().assertEqual(email_chain_count("Meeting Notes"), 0)`)
 }})
 ```
 
-`email_chain_count("Re: re: RE: rE: Meeting Notes")` should return `4`.
+`email_chain_count("Re: re: RE: rE: Meeting Notes")` 应该返回 `4`。
 
 ```js
 ({test: () => { runPython(`
@@ -46,7 +46,7 @@ TestCase().assertEqual(email_chain_count("Re: re: RE: rE: Meeting Notes"), 4)`)
 }})
 ```
 
-`email_chain_count("Re: Fwd: Re: Fw: Re: Meeting Notes")` should return `5`.
+`email_chain_count("Re: Fwd: Re: Fw: Re: Meeting Notes")` 应该返回 `5`。
 
 ```js
 ({test: () => { runPython(`
@@ -55,7 +55,7 @@ TestCase().assertEqual(email_chain_count("Re: Fwd: Re: Fw: Re: Meeting Notes"), 
 }})
 ```
 
-`email_chain_count("re:Ref:fw:re:review:FW:Re:fw:report:Re:FW:followup:re:summary:Fwd:Re:fw:NextStep:RE:FW:re:Project:Fwd:Re:fw:Notes:RE:re:Update:FWD:Re:fw:Summary")` should return `23`.
+`email_chain_count("re:Ref:fw:re:review:FW:Re:fw:report:Re:FW:followup:re:summary:Fwd:Re:fw:NextStep:RE:FW:re:Project:Fwd:Re:fw:Notes:RE:re:Update:FWD:Re:fw:Summary")` 应该返回 `23`。
 
 ```js
 ({test: () => { runPython(`

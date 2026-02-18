@@ -1,6 +1,6 @@
 ---
 id: 6824aace9bce174eb66caa0d
-title: Task 149
+title: 任務 149
 challengeType: 19
 dashedName: task-149
 lang: en-US
@@ -10,13 +10,13 @@ lang: en-US
 
 # --instructions--
 
-閱讀文稿並回答下面的問題。
+閱讀文字並回答以下問題。
 
 # --questions--
 
 ## --text--
 
-Jessica sent an email to the team the next day, summarizing her conversation with James about the new software version.
+Jessica 在隔天寄了一封電子郵件給團隊，總結她與 James 關於新軟體版本的對話。
 
 `Hi team,`
 
@@ -50,35 +50,35 @@ Jessica sent an email to the team the next day, summarizing her conversation wit
 
 `Jessica`
 
-What did Jessica report about the software's stability?
+Jessica 報告了關於軟體穩定性的什麼情況？
 
 ## --answers--
 
-It now requires more updates to stay stable.
+現在需要更多更新才能保持穩定。
 
 ### --feedback--
 
-Jessica does not mention the need for more updates.
+Jessica 沒有提到需要更多更新。
 
 ---
 
-It crashes less and has fewer serious problems.
+它崩潰的次數較少，且嚴重問題較少。
 
 ---
 
-It works the same as the old version in terms of stability.
+在穩定性方面，它的運作方式與舊版本相同。
 
 ### --feedback--
 
-She clearly says the new version is `much more stable`.
+她明確表示新版本 `much more stable`。
 
 ---
 
-It still has many large bugs and stops working often.
+它仍然有許多重大錯誤，且經常停止運作。
 
 ### --feedback--
 
-Jessica reports fewer problems and less crashing, not frequent bugs.
+Jessica 報告較少問題和較少當機，且不常出現錯誤。
 
 ## --video-solution--
 
@@ -86,6 +86,6 @@ Jessica reports fewer problems and less crashing, not frequent bugs.
 
 # --explanation--
 
-In the `Stability` section, Jessica says the new version `doesn't crash as often` and they've seen `fewer serious problems`.
+在 `Stability` 部分，Jessica 說新版本 `doesn't crash as often`，而且他們已經看到 `fewer serious problems`。
 
-This means it is more reliable and stable than before.
+這表示它比以前更可靠且穩定。

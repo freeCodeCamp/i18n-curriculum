@@ -7,17 +7,17 @@ dashedName: step-13
 
 # --description--
 
-在漢諾塔謎題中，你可以根據用途識別三根杆：
+在河內塔謎題中，你可以根據三根柱子的用途來識別它們：
 
-- 第一根杆是源頭，遊戲開始時，所有圓盤都堆疊在這裏。
-- 第二根杆是輔助杆，它有助於將圓盤移動到目標杆。
-- 第三根杆是目標，遊戲結束時所有圓盤應按順序擺放在此處。
+- 第一根桿子是 `source`，在遊戲開始時所有的碟都堆疊在一起。
+- 第二根桿子是輔助桿，並且它有助於將碟移動到標的桿。
+- 第三根桿子是標的，所有的碟應該在遊戲結束時依序放置於此。
 
-目前，`move()` 函數不接受任何參數。 將函數聲明更改爲採用 4 個參數：`n`、`source`、`auxiliary` 和 `target`。 然後，將 `NUMBER_OF_DISKS` 和字符串 `'A'`、`'B'` 和 `'C'` 作爲參數傳遞給函數調用。 The order matters.
+目前，`move()` 函式不接受任何參數。將函式宣告式更改為接受 4 個參數：`n`、`source`、`auxiliary` 和 `target`。然後，將 `NUMBER_OF_DISKS` 以及字串 `'A'`、`'B'` 和 `'C'` 作為引數傳遞給你的函式呼叫。順序很重要。
 
 # --hints--
 
-你的 `move()` 函數應該具有 `n`、`source`、`auxiliary` 和 `target` 作爲參數。 The order matters.
+你的 `move()` 函式（程式）應該有 `n`、`source`、`auxiliary` 和 `target` 作為參數。順序很重要。
 
 ```js
 ({ test: () => assert(runPython(`
@@ -27,7 +27,7 @@ dashedName: step-13
 })
 ```
 
-你應該將 `NUMBER_OF_DISKS` 和字符串 `'A'`、`'B'` 和 `'C'` 傳遞給 `move()`。 記住參數傳遞的順序是很重要的。
+你應該將 `NUMBER_OF_DISKS` 和字串 `'A'`、`'B'` 以及 `'C'` 傳遞給 `move()`。順序很重要。
 
 ```js
 ({test: () => assert.match(code, /^move\(\s*NUMBER_OF_DISKS\s*,\s*('|")A\1\s*,\s*('|")B\2\s*,\s*('|")C\3\s*\)/m)

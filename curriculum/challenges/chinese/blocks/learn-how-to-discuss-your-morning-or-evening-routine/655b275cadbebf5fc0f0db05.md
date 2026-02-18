@@ -1,6 +1,6 @@
 ---
 id: 655b275cadbebf5fc0f0db05
-title: Task 82
+title: 任务 82
 challengeType: 22
 dashedName: task-82
 lang: en-US
@@ -10,13 +10,13 @@ lang: en-US
 
 # --description--
 
-To `take` can mean different things depending on the situation. In the context of learning, to `take` means to attend or participate in a class or course. For example:
+`take` 根据情况可以有不同的含义。在学习的上下文中，`take` 意味着参加或参与一个类或课程。例如：
 
-- `I take online lessons at 7.` - Here, `take` means to attend the lessons.
+- `I take online lessons at 7.` - 这里，`take` 意思是参加课程。
 
-- `She is taking a programming course this semester.` - Here, `taking` means she is enrolled in and attending the course.
+- `She is taking a programming course this semester.` - 这里，`taking` 意味着她已注册并正在参加该课程。
 
-So, when you say `take lessons` or `take a course`, you are talking about joining or attending them, not physically taking something.
+所以，当你说 `take lessons` 或 `take a course` 时，你指的是加入或参加它们，而不是物理的拿走某物。
 
 # --fillInTheBlank--
 
@@ -30,7 +30,7 @@ So, when you say `take lessons` or `take a course`, you are talking about joinin
 
 ### --feedback--
 
-This verb describes the action of participating in the lessons.
+这个动词描述了参与课程的动作。
 
 ---
 
@@ -38,7 +38,7 @@ This verb describes the action of participating in the lessons.
 
 ### --feedback--
 
-This word refers to a virtual environment.
+这个词指的是一个虚拟 `environment`。
 
 # --scene--
 

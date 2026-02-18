@@ -1,31 +1,31 @@
 ---
 id: 63c9f24afbc9cf324dcaa9a4
-title: Step 95
+title: 步驟 95
 challengeType: 0
 dashedName: step-95
 ---
 
 # --description--
 
-You also need to clear the `output` element's text. You can do this by setting the `innerText` property to an empty string.
+你也需要清除 `output` 元素的文字。你可以透過將 `innerText` 屬性設為空字串來完成這個動作。
 
-The difference between `innerText` and `innerHTML` is that `innerText` will not render HTML elements, but will display the tags and content as raw text.
+`innerText` 和 `innerHTML` 的差別在於 `innerText` 不會呈現 HTML 元素，而是將標記和內容以未經處理的文字顯示。
 
 # --hints--
 
-Your `clearForm` function should access the `innerText` property of the `output` element.
+你的 `clearForm` 函式（程式）應該存取 `output` 元素的 `innerText` 屬性。
 
 ```js
 assert.match(clearForm.toString(), /output\.innerText/);
 ```
 
-Your `clearForm` function should set the `innerText` property of the `output` element to an empty string.
+你的 `clearForm` 函式（程式）應該將 `output` 元素的 `innerText` 屬性設為空字串。
 
 ```js
 assert.match(clearForm.toString(), /output\.innerText\s*=\s*('|"|`)\1/);
 ```
 
-You should modify `output` after modifying `budgetNumberInput`.
+你應該在修改 `budgetNumberInput` 之後修改 `output`。
 
 ```js
 assert.isAbove(clearForm.toString().indexOf('output'), clearForm.toString().indexOf('budgetNumberInput'));

@@ -54,11 +54,11 @@ James afirma que ele não ouviu nada.
 
 Respostas curtas com verbos auxiliares repetem o auxiliar da pergunta para confirmar ou negar algo. Neste caso, Maria pergunta, `Did you hear anything?`, e James responde, `No, I didn't.` em vez de apenas dizer `No.` Aqui estão alguns outros exemplos: 
 
-- `Are you coming to the meeting?` → `Yes, I am.`  
+- `Are you coming to the meeting?` → `Yes, I am.`
 
-- `Have they finished the report?` → `No, they haven't.`  
+- `Have they finished the report?` → `No, they haven't.`
 
-- `Will she be here on time?` → `Yes, she will.`  
+- `Will she be here on time?` → `Yes, she will.`
 
 Respostas curtas fazem com que as respostas soem naturais e completas enquanto evitam a repetição da frase inteira.
 

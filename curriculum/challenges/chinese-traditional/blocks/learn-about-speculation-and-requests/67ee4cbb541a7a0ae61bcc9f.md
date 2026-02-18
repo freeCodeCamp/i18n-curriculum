@@ -1,6 +1,6 @@
 ---
 id: 67ee4cbb541a7a0ae61bcc9f
-title: Task 4
+title: 任務 4
 challengeType: 19
 dashedName: task-4
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-聽音頻，回答下面的問題。
+聆聽音訊並回答以下問題。
 
 # --questions--
 
 ## --text--
 
-Is this small error serious?
+這個小錯誤嚴重嗎？
 
 ## --answers--
 
-No, and they don't need to do anything about it.
+不需要，他們也不需要對此採取任何行動。
 
 ### --feedback--
 
-Sophie doesn't say it's a major issue, but they should fix it.
+Sophie 沒說這是個重大問題，但他們應該修正它。
 
 ---
 
-Yes, it will break the whole system.
+是的，它會導致整個系統崩潰。
 
 ### --feedback--
 
-Sophie doesn't say it's a major issue, just something they should fix.
+Sophie 沒說這是重大問題，只是他們應該修正的事情。
 
 ---
 
-Yes, Sophie is very worried about it.
+是的，Sophie 對此非常擔心。
 
 ### --feedback--
 
-Sophie is not very worried, but she still thinks they should fix it.
+Sophie 並不是很擔心，但她仍然認為他們應該修復它。
 
 ---
 
-No, but it should still be fixed.
+不過仍然應該修正。
 
 ## --video-solution--
 
@@ -52,13 +52,13 @@ No, but it should still be fixed.
 
 # --explanation--
 
-`It's not a big deal` means the problem is not serious. For example:
+`It's not a big deal` 意味著問題不嚴重。 例如：
 
-- Person 1: `I can't join the meeting today.`
+- 使用者 1：`I can't join the meeting today.`
 
-- Person 2: `It's not a big deal. I'll take notes for you.` - Missing the meeting is okay, and this person can help.
+- 第二人：`It's not a big deal. I'll take notes for you.`－錯過會議沒關係，這個人可以幫忙。
 
-Sophie also says `we should fix it before it causes problems`, meaning it's better to fix it now before it becomes serious.
+Sophie 也說過 `we should fix it before it causes problems`，意思是現在修復比較好，勝過等到問題變嚴重。
 
 # --scene--
 

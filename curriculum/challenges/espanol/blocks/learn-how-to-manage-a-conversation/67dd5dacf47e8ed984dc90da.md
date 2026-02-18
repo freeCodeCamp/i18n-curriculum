@@ -3,6 +3,7 @@ id: 67dd5dacf47e8ed984dc90da
 title: Tarea 17
 challengeType: 19
 dashedName: task-17
+showSpeakingButton: true
 lang: en-US
 ---
 
@@ -24,9 +25,17 @@ Escucha el audio y responde a la pregunta de abajo.
 
 `Not yet.`
 
+### --audio-id--
+
+en-b1-67dd5dacf47e8ed984dc90da-SP1
+
 ---
 
 `We're still looking for it.`
+
+### --audio-id--
+
+en-b1-67dd5dacf47e8ed984dc90da-SP2
 
 ### --feedback--
 

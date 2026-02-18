@@ -1,35 +1,35 @@
 ---
 id: 612e8eebe3a6dc3fcc33a66f
-title: 步骤 11
+title: 步骤11
 challengeType: 0
 dashedName: step-11
 ---
 
 # --description--
 
-Now target your `#piano` element with an `id` selector. Set `background-color` property to `#00471b`, the `width` property to `992px` and the `height` property to `290px`.
+现在使用一个 `id` 选择器定位 `#piano` 元素。 将 `background-color` 属性设置为 `#00471b`，将 `width` 属性设置为 `992px`，并将 `height` 属性设置为 `290px`。
 
 # --hints--
 
-You should have a `#piano` selector.
+你应该有一个 `#piano` 选择器。
 
 ```js
 assert(new __helpers.CSSHelp(document).getStyle('#piano'));
 ```
 
-Your `#piano` selector should have the `background-color` property set to `#00471b`.
+你的 `#piano` 选择器应该将 `background-color` 属性设置为 `#00471b`。
 
 ```js
 assert(new __helpers.CSSHelp(document).getStyle('#piano')?.backgroundColor === 'rgb(0, 71, 27)');
 ```
 
-Your `#piano` selector should have a `width` property set to `992px`.
+你的 `#piano` 选择器应该有一个 `width` 属性，设置为 `992px`。
 
 ```js
 assert(new __helpers.CSSHelp(document).getStyle('#piano')?.width === '992px');
 ```
 
-Your `#piano` selector should have the `height` set to `290px`.
+你的 `#piano` 选择器应该将 `height` 设置为 `290px`。
 
 ```js
 assert(new __helpers.CSSHelp(document).getStyle('#piano')?.height === '290px');

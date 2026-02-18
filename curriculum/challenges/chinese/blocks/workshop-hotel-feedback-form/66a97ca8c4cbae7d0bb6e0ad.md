@@ -1,6 +1,6 @@
 ---
 id: 66a97ca8c4cbae7d0bb6e0ad
-title: Step 29
+title: 步骤 29
 challengeType: 0
 dashedName: step-29
 ---
@@ -11,19 +11,19 @@ dashedName: step-29
 
 **值属性：**
 
-- poor
-- satisfactory
-- good
-- very-good
-- excellent
+- 差
+- 令人满意
+- 好
+- 非常好
+- 优秀
 
 **选项文本：**
 
-- Poor
-- Satisfactory
-- Good
-- Very Good
-- Excellent
+- 差
+- 令人满意
+- 好
+- 非常好
+- 优秀
 
 
 不要忘记在值为 `"excellent"` 的 `option` 元素中添加 `selected` 属性。
@@ -159,7 +159,7 @@ assert.exists(document.querySelector('fieldset:nth-of-type(4) select#food option
             value="recommendation"
           />
           <label for="recommendation">Personal Recommendation</label>
-
+          
           <input type="checkbox" id="location" name="choice" value="location" />
           <label for="location">Location</label>
 
@@ -171,7 +171,7 @@ assert.exists(document.querySelector('fieldset:nth-of-type(4) select#food option
             value="reputation"
           />
           <label for="reputation">Reputation</label>
-
+          
           <input type="checkbox" id="price" name="choice" value="price" />
           <label for="price">Price</label>
         </fieldset>
@@ -193,7 +193,7 @@ assert.exists(document.querySelector('fieldset:nth-of-type(4) select#food option
 
           <select name="food" id="food">
           --fcc-editable-region--
-
+            
           --fcc-editable-region--
           </select>
         </fieldset>

@@ -1,6 +1,6 @@
 ---
 id: 8d5123c8c441eddfaeb5bdef
-title: Implement Bubble Sort
+title: 實作泡沫排序
 challengeType: 1
 forumTopicId: 301612
 dashedName: implement-bubble-sort
@@ -8,23 +8,23 @@ dashedName: implement-bubble-sort
 
 # --description--
 
-This is the first of several challenges on sorting algorithms. Given an array of unsorted items, we want to be able to return a sorted array. We will see several different methods to do this and learn some tradeoffs between these different approaches. While most modern languages have built-in sorting methods for operations like this, it is still important to understand some of the common basic approaches and learn how they can be implemented.
+這是多個排序演算法挑戰中的第一個。給定一個未排序的陣列，我們希望能夠傳回一個已排序的陣列。我們將會看到幾種不同的行為來達成這個目標，並學習這些不同方法之間的一些取捨。雖然大多數現代語言都內建了用於這類操作的排序方法，但理解一些常見的基本方法並學習如何實作它們仍然很重要。
 
-Here we will see bubble sort. The bubble sort method starts at the beginning of an unsorted array and 'bubbles up' unsorted values towards the end, iterating through the array until it is completely sorted. It does this by comparing adjacent items and swapping them if they are out of order. The method continues looping through the array until no swaps occur at which point the array is sorted.
+這裡我們將看到泡沫排序。泡沫排序方法從未排序陣列的開頭開始，並將未排序的值「冒泡」到陣列的末端，反覆遍歷陣列直到完全排序。它透過比較相鄰的條款並在順序錯誤時交換它們來達成此目的。該方法持續迴圈遍歷陣列，直到沒有交換發生，此時陣列即已排序。
 
-This method requires multiple iterations through the array and for average and worst cases has quadratic time complexity. While simple, it is usually impractical in most situations.
+此方法需要多次遍歷陣列，且在平均和最壞情況下具有二次時間複雜度。雖然簡單，但在大多數情況下通常不實用。
 
-**Instructions:** Write a function `bubbleSort` which takes an array of integers as input and returns an array of these integers in sorted order from least to greatest.
+**說明：** 撰寫一個函式 `bubbleSort`，該函式接受一個整數陣列作為輸入，並傳回一個由小到大排序的整數陣列。
 
 # --hints--
 
-`bubbleSort` should be a function.
+`bubbleSort` 應該是一個函式（程式）。
 
 ```js
 assert.isFunction(bubbleSort);
 ```
 
-`bubbleSort` should return a sorted array (least to greatest).
+`bubbleSort` 應該傳回一個已排序的陣列（由小到大）。
 
 ```js
 function isSorted(a){
@@ -58,7 +58,7 @@ assert.isTrue(
 );
 ```
 
-`bubbleSort([1,4,2,8,345,123,43,32,5643,63,123,43,2,55,1,234,92])` should return an array that is unchanged except for order.
+`bubbleSort([1,4,2,8,345,123,43,32,5643,63,123,43,2,55,1,234,92])` 應該傳回一個除了順序外未改變的陣列。
 
 ```js
 assert.sameMembers(
@@ -85,7 +85,7 @@ assert.sameMembers(
 );
 ```
 
-`bubbleSort` should not use the built-in `.sort()` method.
+`bubbleSort` 不應該使用內建的 `.sort()` 方法。
 
 ```js
 function isBuiltInSortUsed(){

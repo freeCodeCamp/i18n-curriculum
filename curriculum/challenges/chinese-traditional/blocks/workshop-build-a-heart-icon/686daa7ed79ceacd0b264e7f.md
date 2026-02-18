@@ -7,20 +7,20 @@ dashedName: step-4
 
 # --description--
 
-The next step is to set the `width` and `height` attributes for the `svg` element. As you are creating an icon, both values should be set small.
+下一步是為 `svg` 元素設定 `width` 和 `height` 屬性。由於你正在建立圖示，兩個值都應該設定得很小。
 
-Set both values to `24`.
+將兩個值都設為 `24`。
 
 # --hints--
 
-Your `svg` element should have a `width` attribute of `24`.
+你的 `svg` 元素應該有一個 `width` 屬性為 `24`。
 
 ```js
 const svg = document.querySelector('svg');
 assert.strictEqual(svg.getAttribute('width'), '24');
 ```
 
-Your `svg` element should have a `height` attribute of `24`.
+你的 `svg` 元素應該有一個 `height` 屬性，值為 `24`。
 
 ```js
 const svg = document.querySelector('svg');

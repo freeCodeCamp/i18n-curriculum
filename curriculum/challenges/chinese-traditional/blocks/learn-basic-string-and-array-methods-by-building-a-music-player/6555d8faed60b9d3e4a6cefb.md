@@ -1,37 +1,37 @@
 ---
 id: 6555d8faed60b9d3e4a6cefb
-title: Step 72
+title: 步驟 72
 challengeType: 0
 dashedName: step-72
 ---
 
 # --description--
 
-To make the application more accessible, it is important that the play button describes the current song or the first song in the playlist.
+為了讓應用程式更易於存取，播放按鈕描述目前的歌曲或播放列表中的第一首歌曲是很重要的。 
 
-Start by creating an empty arrow function called `setPlayButtonAccessibleText`.
+首先建立一個名為 `setPlayButtonAccessibleText` 的空箭頭函式（程式）。
 
 # --hints--
 
-You should use `const` to create an empty function named `setPlayButtonAccessibleText`.
+你應該使用 `const` 來創建一個名為 `setPlayButtonAccessibleText` 的空函式（程式）。
 
 ```js
 assert.match(code, /const\s+setPlayButtonAccessibleText\s*=\s*/)
 ```
 
-`setPlayButtonAccessibleText` should be a function.
+`setPlayButtonAccessibleText` 應該是一個函式（程式）。
 
 ```js
 assert.isFunction(setPlayButtonAccessibleText)
 ```
 
-Your `setPlayButtonAccessibleText` function should use an arrow syntax.
+你的 `setPlayButtonAccessibleText` 函式（程式）應該使用箭頭語法。
 
 ```js
 assert.match(code, /const\s+setPlayButtonAccessibleText\s*=\s*\(\s*\)\s*=>\s*/)
 ```
 
-Your `setPlayButtonAccessibleText` function  should be empty.
+你的 `setPlayButtonAccessibleText` 函式（程式）應該是空的。
 
 ```js
 assert.match(code, /const\s+setPlayButtonAccessibleText\s*=\s*\(\s*\)\s*=>\s*\{\n?\s*?\}\s*;?/)
@@ -644,7 +644,7 @@ const playSong = (id) => {
 
 const pauseSong = () => {
   userData.songCurrentTime = audio.currentTime;
-
+  
   playButton.classList.remove("playing");
   audio.pause();
 };

@@ -1,31 +1,31 @@
 ---
 id: 63eeb8e86becbf1e75c2cb0d
-title: 步驟21
+title: 第 21 步
 challengeType: 0
 dashedName: step-21
 ---
 
 # --description--
 
-現在你需要用戶在購物車中每個產品的總計數。 聲明一個 `totalCountPerProduct` 變量，併爲其分配一個空對象。
+你現在需要每個使用者購物車中商品的總數量。宣告一個 `totalCountPerProduct` 變數，並指定一個空的物件。
 
 # --hints--
 
-你應該在 `addItem` 函數中聲明一個 `totalCountPerProduct` 變量。
+你應該在你的 `addItem` 函式中宣告一個 `totalCountPerProduct` 變數。
 
 ```js
 const cart = new ShoppingCart();
 assert.match(cart.addItem.toString(), /totalCountPerProduct\s*=/);
 ```
 
-你應該使用 `const` 來聲明 `totalCountPerProduct` 變量。
+你應該使用 `const` 來宣告 `totalCountPerProduct`。
 
 ```js
 const afterAdd = code.split("addItem")[1];
 assert.match(afterAdd, /const\s+totalCountPerProduct\s*=/);
 ```
 
-你應該爲 `totalCountPerProduct` 分配一個空對象。
+你應該將一個空的物件指定給 `totalCountPerProduct`。
 
 ```js
 const afterAdd = code.split("addItem")[1];

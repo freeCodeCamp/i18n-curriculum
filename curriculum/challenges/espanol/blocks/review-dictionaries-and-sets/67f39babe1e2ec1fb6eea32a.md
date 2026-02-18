@@ -284,7 +284,7 @@ your_set = {2, 3, 4, 6}
 my_set - your_set # {1, 5}
 ```
 
-- **Operador de Diferencia Simétrica (`^`)**: El operador de diferencia simétrica `^` devuelve un nuevo conjunto con los elementos que están en el primer conjunto o en el segundo, pero no en ambos.
+- **Operador de Diferencia Simétrica (`^`)**: El operador de diferencia simétrica `^` devuelve un nuevo conjunto con los elementos que están en el primer o en el segundo conjunto, pero no en ambos.
 
 ```python
 my_set = {1, 2, 3, 4, 5}

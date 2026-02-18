@@ -9,7 +9,7 @@ dashedName: step-99
 
 Com tudo configurado, chame as funções `pauseSong()`, `setPlayerDisplay()`, `highlightCurrentSong()` e `setPlayButtonAccessibleText()` para atualizar corretamente o player.
 
-Parabéns por completar seu player de música!Agora que terminamos de testar e usar as músicas mais curtas, substituímos elas pelas faixas originais especialmente selecionadas por Quincy para você aproveitar.
+Parabéns por completar seu player de música! Agora que terminamos de testar e usar as músicas mais curtas, substituímos elas pelas faixas originais especialmente selecionadas por Quincy para você aproveitar.
 
 # --hints--
 

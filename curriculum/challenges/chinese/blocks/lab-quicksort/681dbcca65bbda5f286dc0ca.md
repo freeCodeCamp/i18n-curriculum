@@ -1,6 +1,6 @@
 ---
 id: 681dbcca65bbda5f286dc0ca
-title: Implement the Quicksort Algorithm
+title: 实现快速排序算法
 challengeType: 27
 dashedName: implement-the-quicksort-algorithm
 ---
@@ -9,26 +9,26 @@ dashedName: implement-the-quicksort-algorithm
 
 **目标：**实现以下用户需求并通过所有测试以完成实验。
 
-**用户需求：**
+**用户故事：**
 
-1. You should define a function named `quick_sort` to implement the quicksort algorithm.
+1. 你应该定义一个名为 `quick_sort` 的函数来实现快速排序算法。
 
-1. The `quick_sort` function should take a list of integers as input and return a new list of these integers in sorted order from least to greatest.
+1. `quick_sort` 函数应接受一个整数列表作为输入，并返回一个按从小到大排序的新整数列表。
 
-1. To implement the algorithm, you should:
-   - Choose a pivot value from the elements of the input list (use the first or the last element of the list).
-   - Partition the input list into three sublists: one with elements less than the pivot, one with elements equal to the pivot, and one with elements greater than the pivot.
-   - Recursively call `quick_sort` to sort the sublists and concatenate the sorted sublists to produce the final sorted list.
+1. 要实现该算法，你应该：
+   - 从输入列表的元素中选择一个枢轴值（使用列表的第一个或最后一个元素）。
+   - 将输入列表分区为三个子列表：一个包含小于枢轴的元素，一个包含与枢轴相等的元素，另一个包含大于枢轴的元素。
+   - 递归地调用 `quick_sort` 对子列表进行排序，并连接排序后的子列表以生成最终排序的列表。
 
 # --hints--
 
-You should have a function named `quick_sort`.
+你应该有一个名为 `quick_sort` 的函数。
 
 ```js
 ({ test: () => runPython(`assert _Node(_code).has_function("quick_sort")`) })
 ```
 
-Your `quick_sort` function should take a single parameter.
+你的 `quick_sort` 函数应接受单个参数。
 
 ```js
 ({ test: () => runPython(`
@@ -38,13 +38,13 @@ assert len(sig.parameters) == 1
 `) })
 ```
 
-`quick_sort([])` should return an empty list.
+`quick_sort([])` 应该返回一个空列表。
 
 ```js
 ({ test: () => runPython(`assert quick_sort([]) == []`) })
 ```
 
-Your `quick_sort` function should not modify the list passed to it as the argument.
+你的 `quick_sort` 函数不应修改作为参数传入的列表。
 
 ```js
 ({ test: () => runPython(`
@@ -54,31 +54,31 @@ assert _test_list == [20, 3, 14, 1, 5]
 `) })
 ```
 
-`quick_sort([20, 3, 14, 1, 5])` should return `[1, 3, 5, 14, 20]`.
+`quick_sort([20, 3, 14, 1, 5])` 应该返回 `[1, 3, 5, 14, 20]`。
 
 ```js
 ({ test: () => runPython(`assert quick_sort([20, 3, 14, 1, 5]) == [1, 3, 5, 14, 20]`) })
 ```
 
-`quick_sort([83, 4, 24, 2])` should return `[2, 4, 24, 83]`.
+`quick_sort([83, 4, 24, 2])` 应该返回 `[2, 4, 24, 83]`。
 
 ```js
 ({ test: () => runPython(`assert quick_sort([83, 4, 24, 2]) == [2, 4, 24, 83]`) })
 ```
 
-`quick_sort([4, 42, 16, 23, 15, 8])` should return `[4, 8, 15, 16, 23, 42]`.
+`quick_sort([4, 42, 16, 23, 15, 8])` 应该返回 `[4, 8, 15, 16, 23, 42]`。
 
 ```js
 ({ test: () => runPython(`assert quick_sort([4, 42, 16, 23, 15, 8]) == [4, 8, 15, 16, 23, 42]`) })
 ```
 
-`quick_sort([87, 11, 23, 18, 18, 23, 11, 56, 87, 56])` should return `[11, 11, 18, 18, 23, 23, 56, 56, 87, 87]`.
+`quick_sort([87, 11, 23, 18, 18, 23, 11, 56, 87, 56])` 应该返回 `[11, 11, 18, 18, 23, 23, 56, 56, 87, 87]`。
 
 ```js
 ({ test: () => runPython(`assert quick_sort([87, 11, 23, 18, 18, 23, 11, 56, 87, 56]) == [11, 11, 18, 18, 23, 23, 56, 56, 87, 87]`) })
 ```
 
-You should not import any module or use built-in sorting methods in your code.
+你不应该在你的代码中导入任何模块或使用内置排序方法。
 
 ```js
 ({ test: () => runPython(`

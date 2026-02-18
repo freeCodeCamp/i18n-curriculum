@@ -1,13 +1,13 @@
 ---
 id: 66ed8fa2f45ce3ece4053eab
-title: CSS Fundamentals Quiz
+title: CSS 基礎測驗
 challengeType: 8
 dashedName: quiz-basic-css
 ---
 
 # --description--
 
-要通過測驗，你必須正確回答以下 20 道題中的至少 18 題。
+要通過測驗，你必須在以下 20 題中正確回答至少 18 題。
 
 # --quizzes--
 
@@ -17,29 +17,29 @@ dashedName: quiz-basic-css
 
 #### --text--
 
-What does CSS stand for?
+CSS 代表什麼？
 
 #### --distractors--
 
-Cascading Style Script
+階層式樣式腳本
 
 ---
 
-Concatenating Style Script
+串接樣式腳本
 
 ---
 
-Castor Sage Style
+蓖麻鼠尾草風格
 
 #### --answer--
 
-Cascading Style Sheets
+階層式樣式表
 
 ### --question--
 
 #### --text--
 
-Which of the following is a correct CSS rule?
+以下哪一項是正確的 CSS 規則？
 
 #### --distractors--
 
@@ -61,29 +61,29 @@ Which of the following is a correct CSS rule?
 
 #### --text--
 
-What does `<meta name="viewport">` do?
+`<meta name="viewport">` 有什麼作用？
 
 #### --distractors--
 
-It links external stylesheets to a webpage for responsive design.
+它將外部樣式表聯結到網頁以實現響應式設計。
 
 ---
 
-It specifies the metadata used by search engines to index a webpage.
+它指定搜尋引擎用來索引網頁的詮釋資料。
 
 ---
 
-It specifies the character encoding used on the webpage.
+它指定網頁上使用的字元編碼。
 
 #### --answer--
 
-It controls the shape and size of a web page on different screen sizes.
+它控制網頁在不同螢幕尺寸上的形狀和大小。
 
 ### --question--
 
 #### --text--
 
-Which syntax is correct to use inline CSS?
+哪一種語法是正確用於行內 CSS？
 
 #### --distractors--
 
@@ -105,29 +105,29 @@ Which syntax is correct to use inline CSS?
 
 #### --text--
 
-When using internal CSS, where is the `style` element placed within the HTML?
+使用內部 CSS 時，`style` 元素放置在 HTML 的哪裡？
 
 #### --distractors--
 
-In the `meta` element.
+在 `meta` 元素中。
 
 ---
 
-In the `script` element.
+在 `script` 元素中。
 
 ---
 
-In the `body` element.
+在 `body` 元素中。
 
 #### --answer--
 
-In the `head` element.
+在 `head` 元素中。
 
 ### --question--
 
 #### --text--
 
-Which rule is correct for setting the width and height in CSS?
+在 CSS 中設定寬度和高度時，哪一條規則是正確的？
 
 #### --distractors--
 
@@ -149,7 +149,7 @@ Which rule is correct for setting the width and height in CSS?
 
 #### --text--
 
-Which selector correctly targets `h1` elements only when inside a `div`?
+哪一個選擇器能正確地只在 `div` 內標的 `h1` 元素？
 
 #### --distractors--
 
@@ -171,7 +171,7 @@ Which selector correctly targets `h1` elements only when inside a `div`?
 
 #### --text--
 
-Which selector is correct to target direct children of a `footer`?
+哪一個選擇器是正確用來標的 `footer` 的直接子元素？
 
 #### --distractors--
 
@@ -193,7 +193,7 @@ Which selector is correct to target direct children of a `footer`?
 
 #### --text--
 
-Which selector is correct to target the next sibling of an `img`?
+哪一個選擇器是正確的，用來標的 `img` 的下一個兄弟元素？
 
 #### --distractors--
 
@@ -215,7 +215,7 @@ Which selector is correct to target the next sibling of an `img`?
 
 #### --text--
 
-Which selector is correct to target all siblings preceded by an `img` element?
+哪一個選擇器是正確用來標的所有在 `img` 元素之前的兄弟元素？
 
 #### --distractors--
 
@@ -237,51 +237,51 @@ Which selector is correct to target all siblings preceded by an `img` element?
 
 #### --text--
 
-What statement is TRUE about block-level elements?
+關於區塊層級元素，哪個述語是正確的？
 
 #### --distractors--
 
-Block-level elements stack horizontally by default.
+區塊層級元素預設水平堆疊。
 
 ---
 
-`width` and `height` properties usually do not apply to block-level elements unless you set their `display` property to `inline-block`.
+`width` 和 `height` 屬性通常不適用於區塊層級元素，除非你將它們的 `display` 屬性設為 `inline-block`。
 
 ---
 
-Block-level elements cannot contain inline elements inside them.
+區塊層級元素內不能包含行內元素。
 
 #### --answer--
 
-Block-level elements start on a new line and take up the full width of their container.
+區塊層級元素會從新行開始，並佔據其容器的整個寬度。
 
 ### --question--
 
 #### --text--
 
-What statement is TRUE when using the `inline-block` value?
+使用 `inline-block` 值時，哪個述語為真？
 
 #### --distractors--
 
-Elements stack vertically, always taking up the full width of their container.
+元素垂直堆疊，始終佔滿其容器的整個寬度。
 
 ---
 
-Elements align horizontally but cannot apply vertical padding or margin.
+元素水平對齊但無法套用垂直內距或外距。
 
 ---
 
-Elements respect width and height settings but cannot contain other elements inside them.
+元素會遵守寬度和高度設定，但不能包含其他元素。
 
 #### --answer--
 
-Elements retain inline flow but allow setting width and height.
+元素保留行內流程，但允許設定寬度和高度。
 
 ### --question--
 
 #### --text--
 
-Given the following selectors, which has the highest specificity?
+給定以下選擇器，哪一個具有最高的特異性？
 
 #### --distractors--
 
@@ -303,7 +303,7 @@ Given the following selectors, which has the highest specificity?
 
 #### --text--
 
-Given the following selectors, which has the lowest specificity?
+給定以下選擇器，哪一個具有最低的特異性？
 
 #### --distractors--
 
@@ -325,73 +325,73 @@ Given the following selectors, which has the lowest specificity?
 
 #### --text--
 
-What does the `*` selector do?
+`*` 選擇器的作用是什麼？
 
 #### --distractors--
 
-Targets some elements on the page.
+標的頁面上的某些元素。
 
 ---
 
-Targets elements that have children on the page.
+標的頁面上具有子元素的元素。
 
 ---
 
-Targets all `p` elements on the page.
+標的所有頁面上的 `p` 元素。
 
 #### --answer--
 
-Targets all elements on the page.
+標的頁面上的所有元素。
 
 ### --question--
 
 #### --text--
 
-What does `!important` do in CSS?
+`!important` 在 CSS 中的作用是什麼？
 
 #### --distractors--
 
-It makes the CSS rule work exclusively for inline styles and ignores styles defined in external or internal stylesheets.
+它使 CSS 規則僅適用於行內樣式，並忽略在外部或內部樣式表中定義的樣式。
 
 ---
 
-It disables all other CSS properties applied to the same element, effectively making it the only rule that affects the element's styling.
+它會停用套用到同一元素的所有其他 CSS 屬性，有效地使它成為唯一影響該元素樣式的規則。
 
 ---
 
-It applies on to a certain selector or group of elements.
+它適用於某個選擇器或元素群組。
 
 #### --answer--
 
-It overrides any other values applied to the property for that selector.
+它會改寫該選擇器套用到該屬性的任何其他值。
 
 ### --question--
 
 #### --text--
 
-How does the CSS Cascade algorithm work?
+CSS Cascade 演算法如何運作？
 
 #### --distractors--
 
-It determines styles of the element based on order of declaration, regardless of other factors.
+它根據宣告順序決定元素的樣式，無論其他因素為何。
 
 ---
 
-It applies styles based solely on the order they are written, ignoring specificity.
+它僅根據書寫順序套用樣式，忽略特異性。
 
 ---
 
-It applies styles prioritizing specificity, ignoring origin and relevance.
+它套用優先考慮特異性的樣式，忽略來源和相關性。
 
 #### --answer--
 
-It determines styles of the element based on specificity and order of declaration.
+它根據特異性和宣告的順序決定元素的樣式。
 
 ### --question--
 
 #### --text--
 
-Which rule applies `32px` of margin to all sides?
+哪個規則會對所有邊緣套用 `32px` 的外距？
 
 #### --distractors--
 
@@ -413,7 +413,7 @@ Which rule applies `32px` of margin to all sides?
 
 #### --text--
 
-Which rule applies `24px` padding to the top and bottom?
+哪個規則將 `24px` 的內邊距套用到上下？
 
 #### --distractors--
 
@@ -435,23 +435,23 @@ Which rule applies `24px` padding to the top and bottom?
 
 #### --text--
 
-For `padding: 10px 20px 30px 40px`, what is the correct order of values?
+對於 `padding: 10px 20px 30px 40px`，值的正確順序是什麼？
 
 #### --distractors--
 
-Right, Top, Left, Bottom.
+右、上、左、下。
 
 ---
 
-Top, Left, Bottom, Right.
+上、左、下、右。
 
 ---
 
-Top, Bottom, Right, Left.
+上、下、右、左。
 
 #### --answer--
 
-Top, Right, Bottom, Left.
+上、右、下、左。
 
 ## --quiz--
 
@@ -459,29 +459,29 @@ Top, Right, Bottom, Left.
 
 #### --text--
 
-What are the main parts of a CSS rule?
+CSS 規則的主要零件是什麼？
 
 #### --distractors--
 
-Elements and attributes
+元素和屬性
 
 ---
 
-Style and sheets
+樣式和樣式表
 
 ---
 
-Scripts and values
+腳本和值
 
 #### --answer--
 
-Selectors and declaration blocks
+選擇器和宣告區塊
 
 ### --question--
 
 #### --text--
 
-Which of the following is the correct syntax for a CSS rule?
+以下哪一項是 CSS 規則的正確語法？
 
 #### --distractors--
 
@@ -519,29 +519,29 @@ body {
 
 #### --text--
 
-What are default browser styles?
+什麼是瀏覽器的預設樣式？
 
 #### --distractors--
 
-HTML elements that have the same styling properties regardless of the browser.
+具有相同樣式屬性的 HTML 元素，無論瀏覽器為何。
 
 ---
 
-They are mandatory styles that you must use for specific HTML elements.
+它們是你必須用於特定 HTML 元素的強制樣式。
 
 ---
 
-They are the color themes for the various browsers.
+它們是各種瀏覽器的色彩主題。
 
 #### --answer--
 
-The CSS rules that browsers apply automatically.
+瀏覽器自動套用的 CSS 規則。
 
 ### --question--
 
 #### --text--
 
-What is the default value for the `width` property?
+`width` 屬性的預設值是什麼？
 
 #### --distractors--
 
@@ -563,51 +563,51 @@ What is the default value for the `width` property?
 
 #### --text--
 
-What does the `min-height` property specify?
+`min-height` 屬性指定什麼？
 
 #### --distractors--
 
-The starting height for an element.
+元素的起始高度。
 
 ---
 
-The height for an element.
+元素的高度。
 
 ---
 
-The maximum height for an element.
+元素的最大高度。
 
 #### --answer--
 
-The minimum height for an element.
+元素的最小高度。
 
 ### --question--
 
 #### --text--
 
-Which of the following is TRUE about the universal selector `*`?
+以下關於通用選擇器 `*`，哪一項是正確的？
 
 #### --distractors--
 
-It has the highest specificity because it can style all the elements on a page.
+它具有最高的特異性，因為它可以為頁面上的所有元素設定樣式。
 
 ---
 
-It contributes 1 to all parts of the specificity value.
+它對特異性值的所有零件貢獻 1。 
 
 ---
 
-It cannot reset styles across different browsers.
+它無法跨不同瀏覽器重設樣式。
 
 #### --answer--
 
-It has the lowest specificity value of any selector.
+它具有所有選擇器中最低的特異性值。
 
 ### --question--
 
 #### --text--
 
-Which selector correctly targets `li` elements for an ordered list?
+哪一個選擇器正確標的有序 `li` 元素？
 
 #### --distractors--
 
@@ -629,7 +629,7 @@ Which selector correctly targets `li` elements for an ordered list?
 
 #### --text--
 
-Which selector targets the paragraph elements of a `div` element?
+哪一個選擇器會標的 `div` 元素中的段落元素？
 
 #### --distractors--
 
@@ -651,117 +651,117 @@ Which selector targets the paragraph elements of a `div` element?
 
 #### --text--
 
-Where does the `margin` apply styling properties?
+`margin` 套用樣式屬性的範圍在哪裡？
 
 #### --distractors--
 
-The space inside element.
+元素內的空間。
 
 ---
 
-Between the content and the border.
+內容與邊框之間。
 
 ---
 
-On the border of the element.
+在元素的邊框上。
 
 #### --answer--
 
-The space outside the element.
+元素外部的空間。
 
 ### --question--
 
 #### --text--
 
-Where does the `padding` property apply styling?
+`padding` 屬性在哪裡套用樣式？
 
 #### --distractors--
 
-Between the elements border and the surrounding elements.
+在元素 `border` 和周圍元素之間。
 
 ---
 
-The space outside the element.
+元素外部的空間。
 
 ---
 
-On the border of the element.
+在元素的邊框上。
 
 #### --answer--
 
-The space inside the element.
+元素內的空間。
 
 ### --question--
 
 #### --text--
 
-Which statement is FALSE about block-level elements?
+關於區塊層次元素，哪一個述語是錯誤的？
 
 #### --distractors--
 
-They can stretch to fit the width of their container.
+它們可以拉伸以適應其容器的寬度。
 
 ---
 
-Common block level elements include `div`, `paragraph`, and `section`.
+常見的區塊層次元素包括 `div`、`paragraph` 和 `section`。
 
 ---
 
-Block-level elements start on a new line and take up the full width of their container.
+區塊層級元素會從新行開始，並佔據其容器的整個寬度。
 
 #### --answer--
 
-They cannot take up the full width available as they are blocked from doing so.
+它們無法佔用可用的全寬，因為它們被阻止這麼做。
 
 ### --question--
 
 #### --text--
 
-Which statement is FALSE when using the `inline-block` value?
+使用 `inline-block` 值時，哪個述語是錯誤的？
 
 #### --distractors--
 
-`inline-block` elements behave like inline elements.
+`inline-block` 元素的行為類似行內元素。
 
 ---
 
-They can have `width` and `height` properties.
+它們可以有 `width` 和 `height` 屬性。
 
 ---
 
-Elements retain inline flow but allow setting `width` and `height`.
+元素保留行內流程，但允許設定 `width` 和 `height`。
 
 #### --answer--
 
-They do not share properties with inline or block level elements.
+它們不會與行內或區塊層級元素共享屬性。
 
 ### --question--
 
 #### --text--
 
-Which is TRUE about the `!important` keyword?
+關於 `!important` 關鍵字，哪一項是正確的？
 
 #### --distractors--
 
-They are used to make comments for an important CSS property.
+它們用於為重要的 CSS 屬性添加註解。
 
 ---
 
-They make sure a CSS property has the correct syntax.
+它們確保 CSS 屬性具有正確的語法。
 
 ---
 
-They make CSS rules easier to maintain.
+它們讓 CSS 規則更容易維護。
 
 #### --answer--
 
-They override the specificity of other selectors.
+它們改寫其他選擇器的特異性。
 
 ### --question--
 
 #### --text--
 
-What character precedes a class selector name?
+在 `class` 選擇器名稱前面的是什麼字元？
 
 #### --distractors--
 
@@ -783,117 +783,117 @@ What character precedes a class selector name?
 
 #### --text--
 
-Which is FALSE about inline level elements?
+關於行內層級元素，哪一項是錯誤的？
 
 #### --distractors--
 
-They take up only as much space as they need.
+它們只佔用所需的空間。
 
 ---
 
-They do not start on a new line.
+它們不會從新行開始。
 
 ---
 
-Common inline elements include `span` and `img`.
+常見的行內元素包括 `span` 和 `img`。
 
 #### --answer--
 
-They always start on a new line.
+它們總是從新的一行開始。
 
 ### --question--
 
 #### --text--
 
-Where are internal CSS styles accessed?
+內部 CSS 樣式在哪裡被存取？
 
 #### --distractors--
 
-They are styles that are important to the project, so are not shared externally.
+它們是對專案很重要的樣式，因此不會對外共享。
 
 ---
 
-Since they form the core styling of the project, they are saved in the `styles.css` file so other web pages can access them.
+由於它們構成專案的核心樣式，因此會存檔在 `styles.css` 檔案中，以便其他網頁可以存取它們。
 
 ---
 
-They are stored inside the `body` element when there is only one web page to style.
+當只有一個網頁需要樣式時，它們會儲存在 `body` 元素內。
 
 #### --answer--
 
-They are written within the `style` section within the `head` element.
+它們寫在 `head` 元素內的 `style` 區段中。
 
 ### --question--
 
 #### --text--
 
-What is the order for applying the `padding` property when using the shorthand syntax?
+使用縮寫語法時，套用 `padding` 屬性的順序是什麼？ 
 
 #### --distractors--
 
-`top`, `bottom`, `left`, `right`
+`top`、`bottom`、`left`、`right`
 
 ---
 
-`left`, `right`, `top`, `bottom`
+`left`、`right`、`top`、`bottom`
 
 ---
 
-`right`, `top`, `left`, `bottom`
+`right`、`top`、`left`、`bottom`
 
 #### --answer--
 
-`top`, `right`, `bottom`, `left`
+`top`、`right`、`bottom`、`left`
 
 ### --question--
 
 #### --text--
 
-What is the order for applying the `margin` property when using the shorthand syntax?
+使用縮寫語法時，套用 `margin` 屬性的順序為何？ 
 
 #### --distractors--
 
-`left`, `right`, `top`, `bottom`
+`left`、`right`、`top`、`bottom`
 
 ---
 
-`right`, `top`, `left`, `bottom`
+`right`、`top`、`left`、`bottom`
 
 ---
 
-`top`, `bottom`, `left`, `right`
+`top`、`bottom`、`left`、`right`
 
 #### --answer--
 
-`top`, `right`, `bottom`, `left`
+`top`、`right`、`bottom`、`left`
 
 ### --question--
 
 #### --text--
 
-What are inline CSS styles used for?
+行內 CSS 樣式用於什麼？
 
 #### --distractors--
 
-They are used to style inline elements only.
+它們僅用於為行內元素設計樣式。
 
 ---
 
-They are used to style elements only when they all appear on the same line of the browser viewport.
+它們僅在所有元素都出現在瀏覽器視窗的同一行時用於設定樣式。
 
 ---
 
-They are used to resolve the issue with separation of concerns.
+它們用於決議關注點分離的問題。
 
 #### --answer--
 
-They are used to directly style within the element, instead of using internal or external CSS.
+它們用於直接在元素內部設定樣式，而非使用內部或外部的 CSS。
 
 ### --question--
 
 #### --text--
 
-What symbol precedes the ID selector?
+ID 選擇器前面有什麼符號？
 
 #### --distractors--
 

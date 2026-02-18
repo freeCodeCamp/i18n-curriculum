@@ -1,6 +1,6 @@
 ---
 id: cf1111c1c12feddfaeb1bdef
-title: 使用 JavaScript 生成隨機整數
+title: 使用 JavaScript 產生隨機整數
 challengeType: 1
 forumTopicId: 18186
 dashedName: generate-random-whole-numbers-with-javascript
@@ -8,25 +8,25 @@ dashedName: generate-random-whole-numbers-with-javascript
 
 # --description--
 
-You can generate random decimal numbers with `Math.random()`, but sometimes you need to generate random whole numbers. The following process will give you a random whole number less than `20`:
+你可以使用 `Math.random()` 來產生隨機小數，但有時你需要產生隨機整數。以下的處理程序會給你一個小於 `20` 的隨機整數：
 
-1. Use `Math.random()` to generate a random decimal number.
-2. 把這個隨機小數乘以 `20`。
-3. 用 `Math.floor()` 向下取整，獲得它最近的整數。
+1. 使用 `Math.random()` 來產生隨機小數。
+2. 將該隨機小數乘以 `20`。
+3. 使用 `Math.floor()` 將此數字向下取整到最接近的整數。
 
-記住 `Math.random()` 永遠不能完全返回 `1`，所以不可能實際得到 `20`，因爲你正在用 `Math.floor()` 四捨五入。 這個流程將給你一個從 `0` 到 `19` 的隨機整數。
+請記住 `Math.random()` 永遠不會傳回 `1`，所以因為你使用 `Math.floor()` 向下取整，實際上不可能得到 `20`。這個處理程序會給你一個介於 `0` 到 `19` 範圍內的隨機整數。
 
-把操作連起來，代碼類似於下面：
+將所有內容整合起來，你的程式碼看起來像這樣：
 
 ```js
 Math.floor(Math.random() * 20);
 ```
 
-你將調用 `Math.random()`，把結果乘以 20，然後把值傳給 `Math.floor()`，向下取整獲得最近的整數。
+你正在呼叫 `Math.random()`，將結果乘以 20，然後將該值傳遞給 `Math.floor()`，以將值向下取整到最接近的整數。
 
 # --instructions--
 
-使用這個方法生成並返回 `0` 和 `9` 之間的隨機整數。
+使用此技術來產生並傳回介於 `0` 到 `9` 的隨機整數。
 
 # --hints--
 
@@ -42,13 +42,13 @@ assert(
 );
 ```
 
-應該使用 `Math.random` 生成一個隨機數字。
+你應該使用 `Math.random` 來產生隨機數。
 
 ```js
 assert(__helpers.removeJSComments(code).match(/Math.random/g).length >= 1);
 ```
 
-應該將 `Math.random` 的結果乘以 10，以生成 0 到 9 之間的隨機數。
+你應該將 `Math.random` 的結果乘以 10，使其成為從零到九的範圍內的數字。
 
 ```js
 assert(
@@ -57,7 +57,7 @@ assert(
 );
 ```
 
-應該使用 `Math.floor` 來刪除數字的十進制部分。
+你應該使用 `Math.floor` 來移除數字的小數零件。
 
 ```js
 assert(__helpers.removeJSComments(code).match(/Math.floor/g).length >= 1);

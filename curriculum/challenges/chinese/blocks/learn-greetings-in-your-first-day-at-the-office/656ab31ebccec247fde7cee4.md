@@ -1,6 +1,6 @@
 ---
 id: 656ab31ebccec247fde7cee4
-title: Task 64
+title: 任务 64
 challengeType: 22
 dashedName: task-64
 lang: en-US
@@ -13,7 +13,7 @@ Tom: Awesome. My computer and drawing tablet are great, too.
 
 # --description--
 
-`Awesome` is a word people use when they really like something. It's like saying `Very good`. It's an informal way to show approval or admiration.
+`Awesome` 是人们在非常喜欢某物时使用的词。它就像说 `Very good`。这是一种非正式的表达赞同或钦佩的方式。
 
 # --fillInTheBlank--
 
@@ -27,7 +27,7 @@ Tom: Awesome. My computer and drawing tablet are great, too.
 
 ### --feedback--
 
-This word means `very good` or `I really like it`. The first letter is capitalized.
+这个词的意思是 `very good` 或 `I really like it`。首字母大写。
 
 # --scene--
 

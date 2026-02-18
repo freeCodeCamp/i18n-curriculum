@@ -1,6 +1,6 @@
 ---
 id: 67f0ee4cc8f7fe5fd534eff4
-title: Task 87
+title: 任務 87
 challengeType: 22
 dashedName: task-87
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+聆聽音訊並完成以下句子。
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This two-word phrase is used to show agreement or approval of an idea or suggestion. The first word ends with `-s`.
+這個兩字詞組用來表示對一個想法或建議的同意或贊成。第一個字以 `-s` 結尾。
 
 ---
 
@@ -32,17 +32,17 @@ This two-word phrase is used to show agreement or approval of an idea or suggest
 
 ### --feedback--
 
-This word means to be grateful for something. It shows thanks for help, support, or something done for you.
+這個字表示對某事心懷感激。它表達對幫助、支援或為你所做之事的感謝。
 
 # --explanation--
 
-`Sounds good` means that the speaker agrees with or approves of what was said. For example:
+`Sounds good` 意味著說話者同意或認可所說的內容。 例如：
 
-`Your idea sounds good.` – This means the speaker thinks the idea is good and agrees with it.
+`Your idea sounds good.` – 這表示講者認為這個想法很好並且同意它。
 
-`I appreciate` is a way of saying thank you or showing gratitude. For example:
+`I appreciate` 是一種表達感謝或表示感激的方式。例如：
 
-`I appreciate your help with the project.` – This means you're grateful for the help you received.
+我感謝你對專案的幫助。
 
 # --scene--
 

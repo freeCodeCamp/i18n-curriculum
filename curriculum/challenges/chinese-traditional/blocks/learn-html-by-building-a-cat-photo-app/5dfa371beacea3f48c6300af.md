@@ -1,21 +1,21 @@
 ---
 id: 5dfa371beacea3f48c6300af
-title: 步驟 21
+title: 第 21 步
 challengeType: 0
 dashedName: step-21
 ---
 
 # --description--
 
-當你向頁面添加較低級別的標題元素時，這意味着你正在開始一個新的小節。
+當你將較低等級的標題元素添加到頁面時，表示你正在開始一個新的子章節。
 
-在第二個 `section` 元素的最後一個 `h2` 元素之後，添加一個 `h3` 元素，文本爲：
+在第二個 `section` 元素的最後一個 `h2` 元素之後，添加一個帶有此文字的 `h3` 元素：
 
 `Things cats love:`
 
 # --hints--
 
-第二個 `section` 元素缺失或沒有開始和結束標籤。
+第二個 `section` 元素似乎遺失或沒有同時包含開啟和關閉的標籤。
 
 ```js
 assert(
@@ -24,7 +24,7 @@ assert(
 );
 ```
 
-在第二個 `section` 元素的結束標籤上方應該有一個 `h3` 元素。
+在第二個 `section` 元素的結束標籤正上方應該有一個 `h3` 元素。
 
 ```js
 assert(
@@ -33,13 +33,13 @@ assert(
 );
 ```
 
-你的 `h3` 元素應該有一個結束標籤。 結束標籤在 `<` 字符之後有一個 `/`。
+你的 `h3` 元素應該有一個結束標籤。結束標籤在 `<` 字元後面緊接著有一個 `/`。
 
 ```js
 assert.lengthOf(code.match(/<\/h3>/g), 1);
 ```
 
-第二個 `section` 元素的結束標籤上方的 `h3` 元素應該包含文本 `Things cats love:`。 確保在文本末尾包含冒號。
+第二個 `section` 元素結束標籤正上方的 `h3` 元素應該有文字 `Things cats love:`。請確保文字結尾包含冒號。
 
 ```js
 assert(
@@ -50,7 +50,7 @@ assert(
 );
 ```
 
-嵌套在最後一個 `section` 元素中的最後一個 `h3` 元素之上，應該有一個 `h2` 元素，其文本爲 `Cat Lists`。 你可能不小心刪除了 `h2` 元素。
+在最後一個巢狀於最後一個 `section` 元素中的 `h3` 元素上方，應該有一個文字為 `Cat Lists` 的 `h2` 元素。你可能不小心刪除了該 `h2` 元素。
 
 ```js
 const secondSectionLastElemNode = document.querySelectorAll('main > section')[1]
@@ -81,7 +81,7 @@ assert(
 --fcc-editable-region--
       <section>
         <h2>Cat Lists</h2>
-
+        
       </section>
 --fcc-editable-region--
     </main>

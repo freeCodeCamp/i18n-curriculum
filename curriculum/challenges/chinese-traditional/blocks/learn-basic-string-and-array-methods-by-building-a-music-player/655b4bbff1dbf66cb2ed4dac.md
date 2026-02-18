@@ -7,17 +7,17 @@ dashedName: step-97
 
 # --description--
 
-使用 `if` 語句檢查 `nextSongExists` 是否存在，然後調用 `if` 塊中的 `playNextSong()` 函數。 噹噹前歌曲結束時，這將自動播放下一首歌曲。
+使用 `if` 述語來檢查 `nextSongExists` 是否存在，然後在 `if` 區塊中呼叫 `playNextSong()` 函式（程式）。這將在目前歌曲結束時自動播放下一首歌曲。
 
 # --hints--
 
-你應該創建一個帶有條件 `nextSongExists` 的 `if` 語句。
+你應該創建一個帶有條件 `nextSongExists` 的 `if` 述語。
 
 ```js
 assert.match(code, /if\s*\(\s*nextSongExists\s*\)\s*\{\s*/)
 ```
 
-你應該在 `if` 語句內調用 `playNextSong` 函數。
+你應該在你的 `if` 述語中呼叫 `playNextSong` 函式（程式）。
 
 ```js
 assert.match(code, /if\s*\(\s*nextSongExists\s*\)\s*\{\s*playNextSong\(\s*\)\s*;?\s*\}/)
@@ -596,7 +596,7 @@ const playSong = (id) => {
 
 const pauseSong = () => {
   userData.songCurrentTime = audio.currentTime;
-
+  
   playButton.classList.remove("playing");
   audio.pause();
 };

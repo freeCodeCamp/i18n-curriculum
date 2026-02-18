@@ -1,15 +1,15 @@
 ---
 id: 672bbeb6eefd7ca9c003ea00
-title: What Are Examples of Tree-structural Pseudo-classes?
+title: 樹狀結構偽類的範例有哪些？
 challengeType: 19
 dashedName: what-are-examples-of-tree-structural-pseudo-classes
 ---
 
 # --interactive--
 
-Tree-structural pseudo-classes allow you to target and style elements based on their position within the document tree. The document tree refers to the hierarchical structure of elements in an HTML document.
+樹狀結構偽類允許你根據元素在文件樹中的位置來標的並設定樣式。文件樹是指 HTML 文件中元素的階層結構。
 
-Here is a list of tree-structural pseudo-classes:
+這是一個樹狀結構偽類的列表：
 
 - `:root`
 - `:empty`
@@ -23,9 +23,9 @@ Here is a list of tree-structural pseudo-classes:
 - `:last-of-type`
 - `:only-of-type`
 
-Let's take a closer look at each of the tree-structural pseudo-classes, accompanied by examples.
+讓我們仔細看看每個樹狀結構的偽類別，並附上範例。
 
-​​The `:root` pseudo-class is usually the root `html` element. It helps you target the highest level in the document so you can apply a common style to the entire document.
+`:root` 偽類通常是根 `html` 元素。它幫助你標的文件中最高的層級，讓你可以為整個文件套用共用樣式。     
 
 :::interactive_editor
 
@@ -44,7 +44,7 @@ Let's take a closer look at each of the tree-structural pseudo-classes, accompan
 
 :::
 
-The `:root` pseudo-class is also commonly used in setting CSS variables:
+`:root` 偽類也常用於設定 CSS 變數：
 
 ```css
 :root {
@@ -54,9 +54,9 @@ The `:root` pseudo-class is also commonly used in setting CSS variables:
 }
 ```
 
-With CSS variables, you get to store values and reuse them in your stylesheet. You will learn more about these later on.
+使用 CSS 變數，你可以儲存數值並在樣式表中重複使用它們。你稍後會學到更多關於這些的內容。
 
-Empty elements, that is, elements with no children other than white space, are also included in the document tree. That's why there's an `:empty` pseudo-class to target empty elements. For example, this HTML code has two empty list items. With the `:empty` pseudo-class, you can style the empty list items differently:
+空元素，也就是除了空白字元外沒有子元素的元素，也包含在文件樹中。這就是為什麼有 `:empty` 偽類別來標的空元素。<dfn>例如</dfn>，這段 HTML 程式碼有兩個空的列表項目。使用 `:empty` 偽類別，你可以對空的列表項目做不同的樣式設定：
 
 :::interactive_editor
 
@@ -79,7 +79,7 @@ Empty elements, that is, elements with no children other than white space, are a
 
 :::
 
-The most practical thing to do with the empty list items is probably not displaying them at all:
+對於空列表項目，最實際的做法可能是完全不顯示它們：
 
 :::interactive_editor
 
@@ -102,9 +102,9 @@ The most practical thing to do with the empty list items is probably not display
 
 :::
 
-`:nth-child(n)` allows you to select elements based on their position within a parent, while `:nth-last-child(n)` enables you to select elements by counting from the end. The `n` can be a specific number or a keyword like `odd` or `even`. This is incredibly useful in styling table cells based on position: even and odd.
+`:nth-child(n)` 允許你根據元素在父元素中的位置來選取元素，而 `:nth-last-child(n)` 則啟用你從末端開始計數來選取元素。`n` 可以是特定數字或像 `odd` 或 `even` 這樣的關鍵字。這在根據位置為表格儲存格設定樣式時非常有用：偶數和奇數。
 
-Here's an HTML example of a fruit price list table. The CSS is using the `:nth-child` pseudo-class to target the table cells based on odd and even positions:
+這是一個水果價格列表表格的 HTML 範例。CSS 使用 `:nth-child` 偽類別來根據奇數和偶數位置標的表格儲存格：
 
 :::interactive_editor
 
@@ -148,13 +148,13 @@ tr:nth-child(odd) {
 
 :::
 
-The `:first-child`, `:last-child`, and `:only-child` pseudo-classes all act on items within a parent container or the entire document.
+`:first-child`、`:last-child` 和 `:only-child` 偽類皆作用於父容器內的條款或整個文件中的條款。
 
-- `:first-child` selects the first element in a parent element or the document.
-- `:last-child` selects the last element in a parent element or the document.
-- `:only-child` selects the only element in a parent element or the document.
+- `:first-child` 選取父元素或文件中的第一個元素。
+- `:last-child` 選擇父元素或文件中的最後一個元素。
+- `:only-child` 選取父元素或文件中唯一的元素。
 
-Using the `:first-child` and `:last-child` pseudo-classes will select both `Item 1` and `Item 3` in this example:
+使用 `:first-child` 和 `:last-child` 偽類別將會選取此範例中的 `Item 1` 和 `Item 3`。
 
 :::interactive_editor
 
@@ -179,9 +179,9 @@ li:last-child {
 
 :::
 
-If you have more unordered lists on the page, you have to be more specific with the selection:
+如果你在頁面上有更多無序列表，你必須更具體地選擇： 
 
-To show you how the `:only-child` pseudo-class works, here's an HTML example with two separate `div` elements. Using the `:only-child` pseudo-class ensures only the `div` element with a single child is selected:
+為了向你展示 `:only-child` 偽類別的運作方式，這裡有一個包含兩個獨立 `div` 元素的 HTML 範例。使用 `:only-child` 偽類別可確保只選取具有單一子元素的 `div` 元素：
 
 :::interactive_editor
 
@@ -207,9 +207,9 @@ To show you how the `:only-child` pseudo-class works, here's an HTML example wit
 
 :::
 
-The `:first-of-type` and `:last-of-type` pseudo-classes select the first and last occurrence of a specific element type within its parent. They are useful for applying unique styles to the first or last instance of that element type among its siblings.
+`:first-of-type` 和 `:last-of-type` 偽類別會選取其父元素中指定元素型別的第一個和最後一個出現。它們對於為該元素型別在兄弟元素中第一個或最後一個實體套用獨特樣式非常有用。
 
-In the example below, `:first-of-type` and `:last-of-type` applies to the first element and last element within the `section` element:
+在以下範例中，`:first-of-type` 和 `:last-of-type` 套用於 `section` 元素內的第一個元素和最後一個元素：
 
 :::interactive_editor
 
@@ -240,7 +240,7 @@ section p:last-of-type {
 
 :::
 
-`:nth-of-type(n)` allows you to select a specific element within its parent based on its position among siblings of the same type. For instance, in the HTML below, `:nth-of-type(2)` targets the second element in the container:
+`:nth-of-type(n)` 允許你根據同類型兄弟元素中的位置，選取其父元素內的特定元素。例如，在以下 HTML 中，`:nth-of-type(2)` 標的為容器中的第二個元素：
 
 :::interactive_editor
 
@@ -263,9 +263,9 @@ p:nth-of-type(2) {
 
 :::
 
-`:only-of-type` selects an element if it's the only one of its type within its parent. This can be useful for emphasizing single items or ensuring that they are styled differently when they’re not part of a group.
+`:only-of-type` 選取元素，當它是其父元素中唯一的該型別時。這對於強調單一條款或確保當它們不屬於群組時有不同的樣式非常有用。
 
-In the example below, there are two `div` elements with one having a single element. The CSS only applies to the first container:
+在以下範例中，有兩個 `div` 元素，其中一個只有一個元素。CSS 僅套用到第一個容器：
 
 :::interactive_editor
 
@@ -294,35 +294,35 @@ p:only-of-type {
 
 ## --text--
 
-What is the difference between the `:first-of-type` and `:last-of-type` pseudo-classes?
+`:first-of-type` 和 `:last-of-type` 偽類有什麼差別？
 
 ## --answers--
 
-`:first-of-type` targets the first element of a specific type within its parent, while `:last-of-type` targets the last element of a different type.
+`:first-of-type` 會選取其父元素中指定型別的第一個元素，而 `:last-of-type` 會選取不同型別的最後一個元素。
 
 ### --feedback--
 
-Consider how these pseudo-classes help you style the first and last instances of a particular tag, like `p` or `h1`.
+考慮這些偽類如何幫助你為特定標記（例如 `p` 或 `h1`）的第一個和最後一個實體設計樣式。
 
 ---
 
-`:first-of-type` and `:last-of-type` both target the first occurrence of an element but in different sections of the document.
+`:first-of-type` 和 `:last-of-type` 都會將標的設定為元素的第一次出現，但位於文件的不同區段。
 
 ### --feedback--
 
-Consider how these pseudo-classes help you style the first and last instances of a particular tag, like `p` or `h1`.
+考慮這些偽類如何幫助你為特定標記（例如 `p` 或 `h1`）的第一個和最後一個實體設計樣式。
 
 ---
 
-`:first-of-type` selects the first occurrence of a specific element type within its parent, while `:last-of-type` selects the last occurrence of that same element type within its parent.
+`:first-of-type` 選取其父元素中指定元素型別的第一個出現，而 `:last-of-type` 選取其父元素中相同元素型別的最後一個出現。
 
 ---
 
-`:last-of-type` applies styles to the first and last elements within the document, while `:last-of-type` applies styles to all elements of a specific type.
+`:last-of-type` 對文件中第一個和最後一個元素套用樣式，而 `:last-of-type` 對特定型別的所有元素套用樣式。
 
 ### --feedback--
 
-Consider how these pseudo-classes help you style the first and last instances of a particular tag, like `p` or `h1`.
+考慮這些偽類如何幫助你為特定標記（例如 `p` 或 `h1`）的第一個和最後一個實體設計樣式。
 
 ## --video-solution--
 
@@ -330,35 +330,35 @@ Consider how these pseudo-classes help you style the first and last instances of
 
 ## --text--
 
-What is the difference between the `:first-child` and `:last-child` pseudo-classes?
+`:first-child` 和 `:last-child` 偽類有什麼差別？
 
 ## --answers--
 
-`:first-child` targets the first element within its parent, while `:last-child` targets the last element within a different parent.
+`:first-child` 會標的其父元素內的第一個元素，而 `:last-child` 會標的不同父元素內的最後一個元素。
 
 ### --feedback--
 
-Think about how the two pseudo-classes help you style the first and last elements within the same parent container.
+思考這兩個偽類如何幫助你為同一父容器內的第一個和最後一個元素設計樣式。
 
 ---
 
-`:first-child` targets the first element within its parent, while `:last-child` targets the last element within the same parent.
+`:first-child` 會標的其父元素內的第一個元素，而 `:last-child` 會標的同一父元素內的最後一個元素。
 
 ---
 
-`:first-child` targets the first element of a specific type within its parent, while `:last-child` targets the last element of a different type within its parent.
+`:first-child` 會選取其父元素中指定型別的第一個元素，而 `:last-child` 會選取其父元素中不同型別的最後一個元素。
 
 ### --feedback--
 
-Think about how the two pseudo-classes help you style the first and last elements within the same parent container.
+思考這兩個偽類如何幫助你為同一父容器內的第一個和最後一個元素設計樣式。
 
 ---
 
-`:first-child` targets the first and last elements within a parent, while `:last-child` targets all other elements.
+`:first-child` 標的父元素內的第一個和最後一個元素，而 `:last-child` 標的所有其他元素。
 
 ### --feedback--
 
-Think about how the two pseudo-classes help you style the first and last elements within the same parent container.
+思考這兩個偽類如何幫助你為同一父容器內的第一個和最後一個元素設計樣式。
 
 ## --video-solution--
 
@@ -366,7 +366,7 @@ Think about how the two pseudo-classes help you style the first and last element
 
 ## --text--
 
-Which pseudo-class allows you to target elements that have no children, including those that contain only whitespace?
+哪一個偽類別允許你標的沒有子元素的元素，包括那些只包含空白字元的元素？
 
 ## --answers--
 
@@ -378,7 +378,7 @@ Which pseudo-class allows you to target elements that have no children, includin
 
 ### --feedback--
 
-Think about how you can style elements that do not have content.
+思考你如何為沒有內容的元素設計樣式。
 
 ---
 
@@ -386,7 +386,7 @@ Think about how you can style elements that do not have content.
 
 ### --feedback--
 
-Think about how you can style elements that do not have content.
+思考你如何為沒有內容的元素設計樣式。
 
 ---
 
@@ -394,7 +394,7 @@ Think about how you can style elements that do not have content.
 
 ### --feedback--
 
-Think about how you can style elements that do not have content.
+思考你如何為沒有內容的元素設計樣式。
 
 ## --video-solution--
 

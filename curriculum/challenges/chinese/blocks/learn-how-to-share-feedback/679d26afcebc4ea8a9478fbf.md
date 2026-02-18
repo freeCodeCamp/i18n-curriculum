@@ -1,6 +1,6 @@
 ---
 id: 679d26afcebc4ea8a9478fbf
-title: Task 91
+title: 任务 91
 challengeType: 19
 dashedName: task-91
 lang: en-US
@@ -16,35 +16,35 @@ lang: en-US
 
 ## --text--
 
-Is James sure that they need to update the software?
+James 确定他们需要更新软件吗？
 
 ## --answers--
 
-Not really, since he is asking for Maria's opinion.
+不完全是，因为他是在征求 Maria 的意见。
 
 ---
 
-Yes, he has already decided to update it.
+是的，他已经决定更新它。
 
 ### --feedback--
 
-James is asking Maria about it, so he probably hasn't decided it yet.
+James 正在问 Maria 这个问题，所以他可能还没有决定。
 
 ---
 
-Yes, he has already started updating the software.
+是的，他已经开始更新软件。
 
 ### --feedback--
 
-James is asking whether they should update the software or not.
+James 正在询问他们是否应该更新软件。
 
 ---
 
-On the contrary, he's sure they should not update the software.
+相反，他确定他们不应该更新软件。
 
 ### --feedback--
 
-James is not rejecting the idea altogether; he is actually asking Maria's opinion on the topic.
+James 并没有完全否定这个想法；他实际上是在征求 Maria 对该话题的意见。
 
 ## --video-solution--
 
@@ -52,9 +52,9 @@ James is not rejecting the idea altogether; he is actually asking Maria's opinio
 
 # --explanation--
 
-`To update` means to modify or improve software by releasing a new version. Updates can include bug fixes, new features, or performance improvements. For example:
+`To update` 意味着通过发布新版本来修改或改进软件。更新可以包括错误修复、新建特色或性能改进。例如：
 
-`The company released an update to fix security vulnerabilities in the app.` - This means a new version was launched to address security issues.
+`The company released an update to fix security vulnerabilities in the app.` - 这意味着发布了一个新版本以解决安全性问题。
 
 # --scene--
 

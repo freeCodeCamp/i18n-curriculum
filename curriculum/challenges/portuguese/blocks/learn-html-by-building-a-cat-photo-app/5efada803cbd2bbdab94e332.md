@@ -11,19 +11,19 @@ Dentro do elemento `figure` que você acabou de adicionar, coloque um elemento `
 
 # --hints--
 
-O segundo elemento `figure` deve ter uma tag de abertura.As tags de abertura têm essa sintaxe: `<elementName>`.
+O segundo elemento `figure` deve ter uma tag de abertura. As tags de abertura têm essa sintaxe: `<elementName>`.
 
 ```js
 assert(document.querySelectorAll('figure').length >= 2);
 ```
 
-O segundo elemento `figure` deve ter uma tag de fechamento.As tags de fechamento têm um caractere `/` logo após o caractere `<`.
+O segundo elemento `figure` deve ter uma tag de fechamento. As tags de fechamento têm um caractere `/` logo após o caractere `<`.
 
 ```js
 assert(code.match(/<\/figure>/g).length >= 2);
 ```
 
-O segundo elemento `figure` deve estar logo acima da tag de fechamento de fechamento do segundo elemento `section`.Eles estão na ordem errada.
+O segundo elemento `figure` deve estar logo acima da tag de fechamento de fechamento do segundo elemento `section`. Eles estão na ordem errada.
 
 ```js
 assert.strictEqual(document.querySelectorAll('main > section')?.[1]?.lastElementChild?.nodeName, 'FIGURE');

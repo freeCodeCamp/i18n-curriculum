@@ -11,7 +11,7 @@ El 21 de diciembre es el solsticio de invierno para el hemisferio norte y el sol
 
 Dado un número de latitud de -90 a 90, devuelve una aproximación aproximada de las horas de luz durante el solsticio usando la siguiente tabla:
 
-|Latitud|Horas de luz diurna|
+|Latitude|Daylight Hours|
 |-|-|
 |-90|24|
 |-75|23|
