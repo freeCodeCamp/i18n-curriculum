@@ -146,6 +146,65 @@ Você deve usar a função `print()` para exibir o resultado.
 ({ test: () => runPython(`assert _Node(_code).block_has_call("print")`) })
 ```
 
+Quando `distance_mi` é um valor falsy, o programa deve imprimir `False`.
+
+```js
+({ test: () => runPython(`
+import ast, io, contextlib
+
+VARIABLES = {
+    "distance_mi",
+    "is_raining",
+    "has_bike",
+    "has_car",
+    "has_ride_share_app"
+}
+
+def run_case(env, expected):
+    tree = ast.parse(_code)
+
+    tree.body = [
+        node for node in tree.body
+        if not (
+            isinstance(node, ast.Assign)
+            and isinstance(node.targets[0], ast.Name)
+            and node.targets[0].id in VARIABLES
+        )
+    ]
+
+    clean_code = compile(tree, "<ast>", "exec")
+
+    buffer = io.StringIO()
+    with contextlib.redirect_stdout(buffer):
+        exec(clean_code, env)
+
+    assert buffer.getvalue().strip() == expected
+
+
+run_case(
+    {
+        "distance_mi": 0,
+        "is_raining": False,
+        "has_bike": True,
+        "has_car": True,
+        "has_ride_share_app": True
+    },
+    "False"
+)
+
+run_case(
+    {
+        "distance_mi": 0.0,
+        "is_raining": False,
+        "has_bike": True,
+        "has_car": True,
+        "has_ride_share_app": True
+    },
+    "False"
+)
+`) })
+```
+
 Quando a distância for `1` milha ou menos e não estiver chovendo, o programa deve imprimir `True`.
 
 ```js
