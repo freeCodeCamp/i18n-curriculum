@@ -12,7 +12,7 @@ dashedName: visualize-data-with-a-scatterplot-graph
 
 完成以下需求，并且通过所有测试。 如有必要，可以引入第三方库或使用第三方 API。 赋予它你的个人风格.
 
-你可以使用 HTML、JavaScript、CSS、以及基于 svg 的 D3 可视化库来完成这个挑战。 该任务需要使用 D3 的坐标轴属性生成坐标轴，这个属性会自动生成沿轴的刻度。 通过 D3 测试需要这些刻度，因为它们的位置被用来确定绘制元素的对齐方式。  You will find information about generating axes at https://d3js.org/d3-axis. 要求的 DOM 元素在每次测试时都会被查询。 如果你使用了前端框架（例如 Vue），因为内容是动态渲染的，试结果可能不准确。 我们希望最终能够兼容这些框架，但 D3 框架目前还不支持它们。
+你可以使用 HTML、JavaScript、CSS、以及基于 svg 的 D3 可视化库来完成这个挑战。 该任务需要使用 D3 的坐标轴属性生成坐标轴，这个属性会自动生成沿轴的刻度。 通过 D3 测试需要这些刻度，因为它们的位置被用来确定绘制元素的对齐方式。  You will find information about generating axes at https://d3js.org/d3-axis. 要求的 DOM 元素在每次测试时都会被查询。  If you use a front-end framework (like Vue for example), the test results may be inaccurate for dynamic content. 我们希望最终能够兼容这些框架，但 D3 框架目前还不支持它们。
 
 **需求 #1：** 散点图包含一个具有 `id="title"` 属性的标题元素。
 

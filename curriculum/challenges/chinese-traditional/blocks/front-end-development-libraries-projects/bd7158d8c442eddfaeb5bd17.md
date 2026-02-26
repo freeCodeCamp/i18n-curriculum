@@ -13,7 +13,7 @@ dashedName: build-a-javascript-calculator
 
 完成以下使用者故事並通過所有測試。使用你需要的任何函式庫或 API。展現你自己的風格。
 
-你可以使用任何混合的 HTML、JavaScript、CSS、Bootstrap、SASS、React、Redux 和 jQuery 來完成這個專案。你應該使用前端框架（例如 React），因為本節是關於學習前端框架的。不建議使用上述未列出的其他技術，且使用它們風險自負。我們正在考慮支援其他前端框架，如 Angular 和 Vue，但目前尚未支援。我們會接受並嘗試修正所有使用建議技術堆疊的問題回報。祝你編碼愉快！
+你可以使用任何混合的 HTML、JavaScript、CSS、Bootstrap、SASS、React、Redux 和 jQuery 來完成這個專案。你應該使用前端框架（例如 React）因為本節是關於學習前端框架。未列出的其他技術不建議使用，且使用它們風險自負。我們正在考慮支援其他前端框架，如 Angular 和 Vue，但目前尚未支援。我們會接受並嘗試修正所有使用建議技術堆疊的問題回報。祝你編碼愉快！
 
 **使用者故事 #1：** 我的計算機應該包含一個可點擊的元素，該元素包含一個 `=`（相等號），並具有對應的 `id="equals"`。
 
