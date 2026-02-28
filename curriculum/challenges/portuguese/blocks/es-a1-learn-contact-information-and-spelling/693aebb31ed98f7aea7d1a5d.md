@@ -10,7 +10,7 @@ lang: es
 
 # --description--
 
-Nesta tarefa, você ouvirá Basti compartilhar seu número de telefone completo, incluindo o código do país. O número é falado claramente em dígitos agrupados. 
+Nesta tarefa, você ouvirá Basti compartilhar seu número de telefone completo, incluindo o código do país. O número é falado em dígitos agrupados.
 
 # --instructions--
 

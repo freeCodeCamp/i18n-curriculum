@@ -34,7 +34,7 @@ A ação acontecerá em breve.
 
 ---
 
-A ação acontece todos os dias
+A ação acontece todos os dias.
 
 #### --answer--
 
@@ -88,7 +88,25 @@ Uma reunião formal com perguntas
 
 #### --text--
 
-Qual é a melhor resposta para esta pergunta: `Can you tell me about your previous job position?`
+Ouça o áudio. Qual é a melhor resposta para esta pergunta? <!-- (quiz audio) Anna: Can you tell me about your previous job experiences? -->
+
+#### --audio--
+
+```json
+{
+  "audio": {
+    "filename": "3.1-1.mp3",
+    "startTimestamp": 2.75,
+    "finishTimestamp": 5.3
+  },
+  "transcript": [
+    {
+      "character": "Anna",
+      "text": "Can you tell me about your previous job experiences?"
+    }
+  ]
+}
+```
 
 #### --distractors--
 
@@ -286,7 +304,25 @@ Qual é a forma correta de pergunta desta frase: `She worked with them for five 
 
 #### --text--
 
-Como você responde a esta pergunta: `Did you work on any projects last year?`
+Ouça o áudio. Como você responderia a esta pergunta? <!-- (quiz audio) Tom: Did you work on any projects during your self-study? -->
+
+#### --audio--
+
+```json
+{
+  "audio": {
+    "filename": "3.1-4.mp3",
+    "startTimestamp": 32.9,
+    "finishTimestamp": 36.1
+  },
+  "transcript": [
+    {
+      "character": "Tom",
+      "text": "Did you work on any projects during your self-study?"
+    }
+  ]
+}
+```
 
 #### --distractors--
 

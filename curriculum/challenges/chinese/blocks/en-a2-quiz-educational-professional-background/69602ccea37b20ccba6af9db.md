@@ -34,7 +34,7 @@ lang: en-US
 
 ---
 
-该操作每天发生
+该操作每天发生。
 
 #### --answer--
 
@@ -88,7 +88,25 @@ lang: en-US
 
 #### --text--
 
-这个问题的最佳回答是什么：`Can you tell me about your previous job position?`
+听音频。这个问题的最佳答案是什么？<!-- (quiz audio) Anna: Can you tell me about your previous job experiences? -->
+
+#### --audio--
+
+```json
+{
+  "audio": {
+    "filename": "3.1-1.mp3",
+    "startTimestamp": 2.75,
+    "finishTimestamp": 5.3
+  },
+  "transcript": [
+    {
+      "character": "Anna",
+      "text": "Can you tell me about your previous job experiences?"
+    }
+  ]
+}
+```
 
 #### --distractors--
 
@@ -286,7 +304,25 @@ lang: en-US
 
 #### --text--
 
-你如何回答这个问题：`Did you work on any projects last year?`
+听音频。你会如何回答这个问题？<!-- (quiz audio) Tom: Did you work on any projects during your self-study? -->
+
+#### --audio--
+
+```json
+{
+  "audio": {
+    "filename": "3.1-4.mp3",
+    "startTimestamp": 32.9,
+    "finishTimestamp": 36.1
+  },
+  "transcript": [
+    {
+      "character": "Tom",
+      "text": "Did you work on any projects during your self-study?"
+    }
+  ]
+}
+```
 
 #### --distractors--
 

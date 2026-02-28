@@ -58,14 +58,14 @@ Isso pergunta se alguém tem um apelido.
 
 # --explanation--
 
-O áudio diz `¿Cómo te llamas?`. Esta é uma das formas mais comuns de perguntar o nome de alguém em espanhol. Outra pergunta muito comum com o mesmo significado é:
+Esteban diz `¿Cómo te llamas?`. Esta é uma das formas mais comuns de perguntar o nome de alguém em espanhol. Outra pergunta muito comum com o mesmo significado é:
 
 `¿Cuál es tu nombre?`
 
 Ambas as perguntas são usadas no espanhol cotidiano para perguntar o nome de uma pessoa. Elas são simplesmente estruturadas de forma diferente:
 
-- `¿Cómo te llamas?` usa o verbo `llamarse` (to be called)
-- `¿Cuál es tu nombre?` pergunta diretamente pelo nome como um substantivo
+- `¿Cómo te llamas?` usa o verbo `llamarse` (to be called).
+- `¿Cuál es tu nombre?` pergunta diretamente pelo nome como um substantivo.
 
 Nesta tarefa, a resposta correta é a opção que pergunta o nome de alguém.
 
