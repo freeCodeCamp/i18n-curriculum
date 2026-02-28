@@ -14,7 +14,7 @@ La palabra `dominio` se refiere a la parte principal de una dirección web, usua
 
 Se usa comúnmente al dar o confirmar direcciones de correo electrónico y URLs. Por ejemplo:
 
-`El dominio es gmail punto com.` – El dominio es gmail.com  
+`El dominio es gmail punto com.` – El dominio es gmail.com.
 
 `¿Cuál es el dominio?` – ¿Cuál es el dominio?
 

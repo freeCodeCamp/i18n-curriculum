@@ -14,7 +14,7 @@ lang: es
 
 它通常用於提供或確認電子郵件位址和 URL。 例如：
 
-`El dominio es gmail punto com.` – 網域是 gmail.com  
+`El dominio es gmail punto com.` – 網域是 gmail.com。
 
 `¿Cuál es el dominio?`－什麼是 domain？
 

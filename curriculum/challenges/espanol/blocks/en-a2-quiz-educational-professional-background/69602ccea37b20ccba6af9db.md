@@ -34,7 +34,7 @@ La acción ocurrirá pronto.
 
 ---
 
-La acción ocurre todos los días
+La acción ocurre todos los días.
 
 #### --answer--
 
@@ -88,7 +88,25 @@ Una reunión formal con preguntas
 
 #### --text--
 
-¿Cuál es la mejor respuesta a esta pregunta: `Can you tell me about your previous job position?`?
+Escucha el audio. ¿Cuál es la mejor respuesta a esta pregunta? <!-- (quiz audio) Anna: Can you tell me about your previous job experiences? -->
+
+#### --audio--
+
+```json
+{
+  "audio": {
+    "filename": "3.1-1.mp3",
+    "startTimestamp": 2.75,
+    "finishTimestamp": 5.3
+  },
+  "transcript": [
+    {
+      "character": "Anna",
+      "text": "Can you tell me about your previous job experiences?"
+    }
+  ]
+}
+```
 
 #### --distractors--
 
@@ -286,7 +304,25 @@ Tus trabajos y responsabilidades anteriores
 
 #### --text--
 
-¿Cómo respondes a esta pregunta: `Did you work on any projects last year?`?
+Escucha el audio. ¿Cómo responderías a esta pregunta? <!-- (quiz audio) Tom: ¿Trabajaste en algún proyecto durante tu autoestudio? -->
+
+#### --audio--
+
+```json
+{
+  "audio": {
+    "filename": "3.1-4.mp3",
+    "startTimestamp": 32.9,
+    "finishTimestamp": 36.1
+  },
+  "transcript": [
+    {
+      "character": "Tom",
+      "text": "Did you work on any projects during your self-study?"
+    }
+  ]
+}
+```
 
 #### --distractors--
 

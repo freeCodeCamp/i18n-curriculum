@@ -10,11 +10,11 @@ lang: es
 
 # --description--
 
-O verbo `escribir` significa escrever. Quando falantes de espanhol querem explicar como uma palavra é escrita ou soletrada, eles frequentemente usam a expressão `se escribe`.
+O verbo `escribir` significa "to write". Quando falantes de espanhol querem explicar como uma palavra é escrita ou soletrada, eles frequentemente usam a expressão `se escribe`.
 
 Este formulário vem do verbo `escribir` e é comumente usado antes de soletrar nomes, e-mails ou outras palavras letra por letra. Por exemplo:
 
-- `Carlos se escribe c-a-r-l-o-s.` – Carlos se soletra c-a-r-l-o-s.
+- `Carlos se escribe C-a-r-l-o-s.` – Carlos se soletra C-a-r-l-o-s.
 
 - `Mi apellido se escribe con z.` – Meu sobrenome é escrito com z.
 
@@ -30,7 +30,7 @@ Ouça o áudio para completar a frase abaixo.
 
 `Me llamo Sebastián Ávila Gómez.`
 
-`Sebastián BLANK BLANK s-e-b-a-s-t-i-á-n, con acento en la última a.`
+`Sebastián BLANK BLANK S-e-b-a-s-t-i-á-n, con acento en la última a.`
 
 ## --blanks--
 

@@ -14,7 +14,7 @@ A palavra `dominio` refere-se à parte principal de um endereço web, geralmente
 
 É comumente usado ao fornecer ou confirmar endereços de e-mail e URLs. Por exemplo:
 
-`El dominio es gmail punto com.` – O domínio é gmail.com  
+`El dominio es gmail punto com.` – O domínio é gmail.com.
 
 `¿Cuál es el dominio?` – Qual é o domínio?
 

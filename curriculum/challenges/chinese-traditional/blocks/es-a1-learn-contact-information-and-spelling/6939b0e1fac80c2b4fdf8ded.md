@@ -6,7 +6,7 @@ dashedName: task-17
 lang: es
 ---
 
-<!-- (Audio) Basti: Se escribe b-a-s-t-i. -->
+<!-- (Audio) Basti: Se escribe B-a-s-t-i. -->
 
 # --description--
 
@@ -24,7 +24,7 @@ lang: es
 
 ## --blanks--
 
-`b`
+`B`
 
 ### --feedback--
 
@@ -48,7 +48,7 @@ lang: es
 
 # --explanation--
 
-Basti 將他的暱稱拼寫為 `b-a-s-t-i`。
+Basti 將他的暱稱拼寫為 `B-a-s-t-i`。
 
 # --scene--
 
@@ -71,7 +71,7 @@ Basti 將他的暱稱拼寫為 `b-a-s-t-i`。
       "filename": "ES_A1_basti_personal_details.mp3",
       "startTime": 1,
       "startTimestamp": 22.6,
-      "finishTimestamp": 26.74
+      "finishTimestamp": 27.5
     }
   },
   "commands": [
@@ -83,16 +83,16 @@ Basti 將他的暱稱拼寫為 `b-a-s-t-i`。
     {
       "character": "Sebastián",
       "startTime": 1,
-      "finishTime": 5.14,
+      "finishTime": 5.6,
       "dialogue": {
-        "text": "Se escribe b-a-s-t-i.",
+        "text": "Se escribe B-a-s-t-i.",
         "align": "center"
       }
     },
     {
       "character": "Sebastián",
       "opacity": 0,
-      "startTime": 5.64
+      "startTime": 5.9
     }
   ]
 }

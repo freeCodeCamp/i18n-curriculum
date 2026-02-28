@@ -58,14 +58,14 @@ lang: es
 
 # --explanation--
 
-音訊說 `¿Cómo te llamas?`。這是西班牙語中詢問某人名字最常見的方式之一。另一個具有相同意思的非常常見問題是：
+Esteban 說 `¿Cómo te llamas?`。這是西班牙語中詢問某人名字最常見的方式之一。另一個具有相同意思的非常常見問題是：
 
 `¿Cuál es tu nombre?`
 
 這兩個問題在日常西班牙語中都用來詢問一個人的名字。它們只是結構不同：
 
-- `¿Cómo te llamas?` 使用動詞 `llamarse`（被稱為）
-- `¿Cuál es tu nombre?` 直接以名詞詢問名字
+- `¿Cómo te llamas?` 使用動詞 `llamarse`（被稱為）。
+- `¿Cuál es tu nombre?` 直接以名詞形式詢問名字。
 
 在此任務中，正確答案是要求某人姓名的選項。
 

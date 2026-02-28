@@ -10,11 +10,11 @@ lang: es
 
 # --description--
 
-動詞 `escribir` 意思是寫。當西班牙語使用者想解釋一個字是如何書寫或拼寫時，他們經常使用表達式 `se escribe`。
+動詞 `escribir` 意思是「寫」。當西班牙語使用者想要解釋一個字是如何書寫或拼寫時，他們經常使用表達式 `se escribe`。
 
 這個表單來自動詞 `escribir`，通常用於拼寫名字、電子郵件或其他字母逐字拼寫的字。 例如：
 
-- `Carlos se escribe c-a-r-l-o-s.` – Carlos 拼寫為 c-a-r-l-o-s。
+- `Carlos se escribe C-a-r-l-o-s.` – Carlos 拼寫為 C-a-r-l-o-s。
 
 - `Mi apellido se escribe con z.` – 我的姓氏拼寫中有 z。
 
@@ -30,7 +30,7 @@ lang: es
 
 `Me llamo Sebastián Ávila Gómez.`
 
-`Sebastián BLANK BLANK s-e-b-a-s-t-i-á-n, con acento en la última a.`
+`Sebastián BLANK BLANK S-e-b-a-s-t-i-á-n, con acento en la última a.`
 
 ## --blanks--
 

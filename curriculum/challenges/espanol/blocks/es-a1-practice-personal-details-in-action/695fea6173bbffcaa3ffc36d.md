@@ -58,14 +58,14 @@ Esto pregunta si alguien tiene un apodo.
 
 # --explanation--
 
-El audio dice `¿Cómo te llamas?`. Esta es una de las formas más comunes de preguntar el nombre de alguien en español. Otra pregunta muy común con el mismo significado es:
+Esteban dice `¿Cómo te llamas?`. Esta es una de las formas más comunes de preguntar el nombre de alguien en español. Otra pregunta muy común con el mismo significado es:
 
 `¿Cuál es tu nombre?`
 
 Ambas preguntas se usan en el español cotidiano para preguntar el nombre de una persona. Simplemente están estructuradas de manera diferente:
 
-- `¿Cómo te llamas?` usa el verbo `llamarse` (to be called)
-- `¿Cuál es tu nombre?` pregunta directamente por el nombre como sustantivo
+- `¿Cómo te llamas?` usa el verbo `llamarse` (to be called).
+- `¿Cuál es tu nombre?` pregunta directamente por el nombre como un sustantivo.
 
 En esta tarea, la respuesta correcta es la opción que pregunta por el nombre de alguien.
 
