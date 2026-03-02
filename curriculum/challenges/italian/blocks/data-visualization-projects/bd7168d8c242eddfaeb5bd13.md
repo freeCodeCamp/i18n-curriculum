@@ -12,7 +12,7 @@ dashedName: visualize-data-with-a-bar-chart
 
 Soddisfa le user story qui sotto e supera tutti i test. Utilizza le librerie o le API di cui hai bisogno. Usa il tuo stile personale.
 
-Puoi usare HTML, JavaScript, CSS e la libreria di visualizzazione basata su svg D3. I test richiedono la generazione degli assi con la proprietà axis di D3, che crea automaticamente le tacche sugli assi. Queste tacche sono richieste per superare i test perché la loro posizione è usata per determinare l'allineamento degli elementi del grafico. Troverai informazioni su come generare gli assi su <https://d3js.org/d3-axis>. Gli elementi del DOM richiesti sono selezionati al momento di ogni test. Se usi un framework frontend (come Vue per esempio) i risultati dei test potrebbero essere inaccurati per il contenuto dinamico. Speriamo di supportarli prima o poi, ma questi framework non sono supportati al momento per i progetti D3.
+Puoi usare HTML, JavaScript, CSS e la libreria di visualizzazione basata su svg D3. I test richiedono la generazione degli assi con la proprietà axis di D3, che crea automaticamente le tacche sugli assi. Queste tacche sono richieste per superare i test perché la loro posizione è usata per determinare l'allineamento degli elementi del grafico. Troverai informazioni su come generare gli assi su <https://d3js.org/d3-axis>. Gli elementi del DOM richiesti sono selezionati al momento di ogni test. If you use a front-end framework (like Vue for example), the test results may be inaccurate for dynamic content. Speriamo di supportarli prima o poi, ma questi framework non sono supportati al momento per i progetti D3.
 
 **User Story #1:** Il mio grafico dovrebbe avere un titolo con corrispondente `id="title"`.
 
