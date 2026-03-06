@@ -1,6 +1,6 @@
 ---
 id: 63e94dae6dcedbad73f2f6ee
-title: Pasos 24
+title: Paso 24
 challengeType: 0
 dashedName: step-24
 ---

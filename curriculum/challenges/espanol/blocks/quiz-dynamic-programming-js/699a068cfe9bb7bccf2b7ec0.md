@@ -1,0 +1,234 @@
+---
+id: 699a068cfe9bb7bccf2b7ec0
+title: Cuestionario de Programación Dinámica
+challengeType: 8
+dashedName: quiz-dynamic-programming-js
+---
+
+# --description--
+
+Para pasar el cuestionario, debe responder correctamente al menos 9 de las 10 preguntas a continuación.
+
+# --quizzes--
+
+## --quiz--
+
+### --question--
+
+#### --text--
+
+¿Cuáles son las dos propiedades esenciales que deben estar presentes en un problema para que la programación dinámica sea un enfoque de solución efectivo?
+
+#### --distractors--
+
+Tiempo de ejecución rápido y uso mínimo de memoria
+
+---
+
+Capacidad de recursión y bucles iterativos
+
+---
+
+Procesamiento secuencial y computación paralela
+
+#### --answer--
+
+Subproblemas superpuestos y estructura óptima
+
+### --question--
+
+#### --text--
+
+¿Cuál es la diferencia principal entre los enfoques de memoización y tabulación en programación dinámica?
+
+#### --distractors--
+
+La memoización usa tablas hash mientras que la tabulación usa arreglos, haciéndola más eficiente.
+
+---
+
+La memoización es más rápida pero usa más memoria y ciclos de CPU que la tabulación.
+
+---
+
+La memoización solo puede resolver problemas más simples que la tabulación.
+
+#### --answer--
+
+La memoización es un enfoque de arriba hacia abajo que usa recursión, mientras que la tabulación es un enfoque de abajo hacia arriba que usa iteración.
+
+### --question--
+
+#### --text--
+
+¿Por qué las soluciones recursivas ingenuas a problemas de programación dinámica típicamente tienen complejidad de tiempo exponencial?
+
+#### --distractors--
+
+Porque usan cantidades exponenciales de memoria para almacenar variables.
+
+---
+
+Porque requieren ordenar datos en tiempo exponencial.
+
+---
+
+Porque deben verificar todas las posibles permutaciones de la entrada.
+
+#### --answer--
+
+Debido a que cada llamada recursiva se ramifica múltiples veces, causando que los mismos subproblemas se recalculen repetidamente.
+
+### --question--
+
+#### --text--
+
+¿Qué significa estructura óptima en el contexto de la programación dinámica?
+
+#### --distractors--
+
+El algoritmo debe usar la estructura de datos más eficiente disponible.
+
+---
+
+La solución debe minimizar tanto la complejidad de tiempo como la de espacio simultáneamente.
+
+---
+
+El problema debe tener una solución óptima única y singular.
+
+#### --answer--
+
+La solución óptima puede ser estructurada a partir de soluciones óptimas a sus subproblemas.
+
+### --question--
+
+#### --text--
+
+Al implementar memoización, ¿qué sucede cuando se llama a una función con argumentos que ya han sido calculados?
+
+#### --distractors--
+
+La función recalcula el resultado para asegurar la precisión.
+
+---
+
+La función promedia los resultados antiguos y nuevos para una mejor precisión.
+
+---
+
+Se produce un error porque no se permiten cálculos duplicados.
+
+#### --answer--
+
+El resultado en caché se devuelve inmediatamente sin volver a calcular.
+
+### --question--
+
+#### --text--
+
+¿Cuál es una ventaja clave de usar tabulación en lugar de memoización?
+
+#### --distractors--
+
+La tabulación siempre requiere menos memoria que la memoización.
+
+---
+
+La tabulación puede resolver una clase más amplia de problemas.
+
+---
+
+La tabulación siempre es más fácil de implementar y entender.
+
+#### --answer--
+
+La tabulación evita la sobrecarga de la recursión y proporciona una ejecución secuencial predecible.
+
+### --question--
+
+#### --text--
+
+En una solución de programación dinámica de abajo hacia arriba, ¿por qué se inicializan primero los casos base?
+
+#### --distractors--
+
+Para asignar memoria para la estructura de datos de manera eficiente.
+
+---
+
+Para evitar bucles infinitos en el algoritmo.
+
+---
+
+Para mejorar la complejidad temporal del algoritmo.
+
+#### --answer--
+
+Para proporcionar valores fundamentales sobre los cuales se construyen todos los subproblemas más grandes.
+
+### --question--
+
+#### --text--
+
+¿Cómo transforma la programación dinámica la complejidad temporal de problemas que presentan subproblemas superpuestos?
+
+#### --distractors--
+
+De polinómico a logarítmico dividiendo el problema de manera eficiente.
+
+---
+
+De cuadrático a lineal optimizando estructuras de bucle.
+
+---
+
+De lineal a constante usando tablas hash.
+
+#### --answer--
+
+De exponencial a polinomial almacenando y reutilizando soluciones de subproblemas.
+
+### --question--
+
+#### --text--
+
+¿Qué compromiso suele hacer la programación dinámica para lograr una mejor complejidad temporal?
+
+#### --distractors--
+
+Sacrifica la legibilidad del código para una ejecución más rápida.
+
+---
+
+Requiere algoritmos más complejos que son más difíciles de mantener.
+
+---
+
+Limita el tamaño de los problemas que se pueden resolver.
+
+#### --answer--
+
+Utiliza espacio adicional para almacenar resultados intermedios.
+
+### --question--
+
+#### --text--
+
+¿En qué escenario la programación dinámica NO sería el enfoque algorítmico apropiado?
+
+#### --distractors--
+
+Cuando el problema requiere encontrar una solución óptima.
+
+---
+
+Cuando el problema puede dividirse en subproblemas más pequeños.
+
+---
+
+Cuando se debe minimizar la complejidad espacial.
+
+#### --answer--
+
+Cuando los subproblemas son independientes y no se superponen.

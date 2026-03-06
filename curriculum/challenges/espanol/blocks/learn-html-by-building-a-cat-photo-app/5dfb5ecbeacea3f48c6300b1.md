@@ -1,6 +1,6 @@
 ---
 id: 5dfb5ecbeacea3f48c6300b1
-title: Pasos 23
+title: Paso 23
 challengeType: 0
 dashedName: step-23
 ---

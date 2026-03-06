@@ -64,18 +64,26 @@ colorGridChildren.forEach((child, index) => {
 });
 ```
 
-El elemento `.color-box` debería tener un `width` y `height` establecidos.
+La clase `.color-box` debe tener las propiedades `width` y `height` establecidas.
 
 ```js
-const colorBox = document.querySelector('.color-box');
-assert.exists(colorBox);
+const cssHelp = new __helpers.CSSHelp(document);
+assert.isNotEmpty(cssHelp.getStyle('.color-box')?.getPropVal('width', true));
+assert.isNotEmpty(cssHelp.getStyle('.color-box')?.getPropVal('height', true));
+```
 
-const colorBoxStyles = getComputedStyle(colorBox);
-const width = colorBoxStyles.width;
-const height = colorBoxStyles.height;
+Los elementos `.color-box` siempre deben tener un `width` y `height` distintos de cero. Intenta cambiar el tamaño de la vista previa a uno más pequeño, asegúrate de que las cajas no desaparezcan.
 
-assert.notStrictEqual(width, '0px');
-assert.notStrictEqual(height, '0px');
+```js
+const colorBoxes = document.querySelectorAll('.color-box');
+assert.isNotEmpty(colorBoxes);
+
+colorBoxes.forEach(box => {
+  const width = getComputedStyle(box).width;
+  const height = getComputedStyle(box).height;
+  assert.notStrictEqual(width, '0px');
+  assert.notStrictEqual(height, '0px');
+});
 ```
 
 El elemento `.color1` debería tener un color de fondo hexadecimal.
