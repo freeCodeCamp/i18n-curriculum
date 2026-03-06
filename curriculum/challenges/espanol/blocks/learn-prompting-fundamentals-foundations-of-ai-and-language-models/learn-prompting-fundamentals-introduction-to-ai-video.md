@@ -18,11 +18,11 @@ En este video, aprenderás qué es la IA.
 
 ## --answers--
 
-Inteligencia Artificial
+Intellisense Artificial
 
 ---
 
-Inteligencia Artificial
+Intel Artificial
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 id: bd7178d8c242eddfaeb5bd13
-title: 构建散点图 `Graph`
+title: "构建散点图 `Graph`"
 challengeType: 25
 dashedName: build-a-scatterplot-graph
 demoType: onClick
