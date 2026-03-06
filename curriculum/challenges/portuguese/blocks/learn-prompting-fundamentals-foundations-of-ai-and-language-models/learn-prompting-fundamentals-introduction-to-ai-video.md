@@ -18,11 +18,11 @@ O que significa AI?
 
 ## --answers--
 
-Inteligência Artificial
+Intellisense Artificial
 
 ---
 
-Inteligência Artificial
+Intel Artificial
 
 ---
 
