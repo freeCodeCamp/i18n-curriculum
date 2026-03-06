@@ -64,18 +64,26 @@ colorGridChildren.forEach((child, index) => {
 });
 ```
 
-`.color-box` 元素应该有设定的 `width` 和 `height`。
+`.color-box` 类应设置 `width` 和 `height` 属性。
 
 ```js
-const colorBox = document.querySelector('.color-box');
-assert.exists(colorBox);
+const cssHelp = new __helpers.CSSHelp(document);
+assert.isNotEmpty(cssHelp.getStyle('.color-box')?.getPropVal('width', true));
+assert.isNotEmpty(cssHelp.getStyle('.color-box')?.getPropVal('height', true));
+```
 
-const colorBoxStyles = getComputedStyle(colorBox);
-const width = colorBoxStyles.width;
-const height = colorBoxStyles.height;
+`.color-box` 元素应始终具有非零的 `width` 和 `height`。尝试将预览调整为更小的尺寸，确保这些盒子不会消失。
 
-assert.notStrictEqual(width, '0px');
-assert.notStrictEqual(height, '0px');
+```js
+const colorBoxes = document.querySelectorAll('.color-box');
+assert.isNotEmpty(colorBoxes);
+
+colorBoxes.forEach(box => {
+  const width = getComputedStyle(box).width;
+  const height = getComputedStyle(box).height;
+  assert.notStrictEqual(width, '0px');
+  assert.notStrictEqual(height, '0px');
+});
 ```
 
 `.color1` 元素应该有一个十六进制值的背景颜色。
