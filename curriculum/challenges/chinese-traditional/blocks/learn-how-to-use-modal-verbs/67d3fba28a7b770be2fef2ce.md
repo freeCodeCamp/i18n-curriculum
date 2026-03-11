@@ -27,7 +27,7 @@ Mark 不介意和 Jessica 談話，並且想知道他需要做什麼。他會說
 
 ### --audio-id--
 
-en-b1-67d3fba28a7b770be2fef2ce-SP1
+EN415e8cd4
 
 ### --feedback--
 
@@ -39,7 +39,7 @@ en-b1-67d3fba28a7b770be2fef2ce-SP1
 
 ### --audio-id--
 
-en-b1-67d3fba28a7b770be2fef2ce-SP2
+EN61f614de
 
 ## --video-solution--
 

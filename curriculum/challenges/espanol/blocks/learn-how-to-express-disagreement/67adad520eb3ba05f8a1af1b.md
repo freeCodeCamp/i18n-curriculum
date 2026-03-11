@@ -27,7 +27,7 @@ Escucha el audio y responde a la pregunta de abajo.
 
 ### --audio-id--
 
-en-b1-67adad520eb3ba05f8a1af1b-SP1
+ENd6da13d0
 
 ### --feedback--
 
@@ -39,7 +39,7 @@ Esta frase sugiere confusión, pero Anna necesita mostrar acuerdo con la idea de
 
 ### --audio-id--
 
-en-b1-67adad520eb3ba05f8a1af1b-SP2
+ENc50c4990
 
 ## --video-solution--
 

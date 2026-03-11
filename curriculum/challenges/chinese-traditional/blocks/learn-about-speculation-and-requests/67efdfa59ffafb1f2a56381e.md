@@ -27,7 +27,7 @@ Jake 不介意與 Jessica 討論問題。他可以說什麼？
 
 ### --audio-id--
 
-en-b1-67efdfa59ffafb1f2a56381e-SP1
+EN54080a3b
 
 ---
 
@@ -35,7 +35,7 @@ en-b1-67efdfa59ffafb1f2a56381e-SP1
 
 ### --audio-id--
 
-en-b1-67efdfa59ffafb1f2a56381e-SP2
+EN9d00ecb9
 
 ### --feedback--
 

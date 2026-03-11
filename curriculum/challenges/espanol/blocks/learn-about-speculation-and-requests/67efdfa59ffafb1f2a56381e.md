@@ -27,7 +27,7 @@ A Jake no le importa discutir un problema con Jessica. ¿Qué puede decir?
 
 ### --audio-id--
 
-en-b1-67efdfa59ffafb1f2a56381e-SP1
+EN54080a3b
 
 ---
 
@@ -35,7 +35,7 @@ en-b1-67efdfa59ffafb1f2a56381e-SP1
 
 ### --audio-id--
 
-en-b1-67efdfa59ffafb1f2a56381e-SP2
+EN9d00ecb9
 
 ### --feedback--
 

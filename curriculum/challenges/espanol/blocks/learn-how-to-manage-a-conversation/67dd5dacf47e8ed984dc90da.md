@@ -27,7 +27,7 @@ Escucha el audio y responde a la pregunta de abajo.
 
 ### --audio-id--
 
-en-b1-67dd5dacf47e8ed984dc90da-SP1
+EN6acf22f8
 
 ---
 
@@ -35,7 +35,7 @@ en-b1-67dd5dacf47e8ed984dc90da-SP1
 
 ### --audio-id--
 
-en-b1-67dd5dacf47e8ed984dc90da-SP2
+EN391abad4
 
 ### --feedback--
 

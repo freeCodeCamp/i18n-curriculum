@@ -27,7 +27,7 @@ Anna 應該怎麼說才能同意 Bob？
 
 ### --audio-id--
 
-en-b1-67adad520eb3ba05f8a1af1b-SP1
+ENd6da13d0
 
 ### --feedback--
 
@@ -39,7 +39,7 @@ en-b1-67adad520eb3ba05f8a1af1b-SP1
 
 ### --audio-id--
 
-en-b1-67adad520eb3ba05f8a1af1b-SP2
+ENc50c4990
 
 ## --video-solution--
 
