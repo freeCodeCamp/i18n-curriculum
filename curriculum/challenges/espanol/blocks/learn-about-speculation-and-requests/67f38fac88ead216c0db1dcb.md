@@ -27,7 +27,7 @@ Jessica aún no lo ha revisado, pero lo hará. ¿Qué debería decir?
 
 ### --audio-id--
 
-en-b1-67f38fac88ead216c0db1dcb-SP1
+ENaa826774
 
 ### --feedback--
 
@@ -39,7 +39,7 @@ en-b1-67f38fac88ead216c0db1dcb-SP1
 
 ### --audio-id--
 
-en-b1-67f38fac88ead216c0db1dcb-SP2
+EN97950753
 
 ## --video-solution--
 

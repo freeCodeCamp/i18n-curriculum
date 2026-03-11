@@ -27,7 +27,7 @@ O que Anna deve dizer para concordar com Bob?
 
 ### --audio-id--
 
-en-b1-67adad520eb3ba05f8a1af1b-SP1
+ENd6da13d0
 
 ### --feedback--
 
@@ -39,7 +39,7 @@ Esta frase sugere confusão, mas Anna precisa mostrar concordância com a ideia 
 
 ### --audio-id--
 
-en-b1-67adad520eb3ba05f8a1af1b-SP2
+ENc50c4990
 
 ## --video-solution--
 
