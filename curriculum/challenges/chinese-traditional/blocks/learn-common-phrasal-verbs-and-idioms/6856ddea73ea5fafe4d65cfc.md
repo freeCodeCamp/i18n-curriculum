@@ -27,7 +27,7 @@ Linda 要如何稱讚 Jake 的想法？
 
 ### --audio-id--
 
-en-b1-6856ddea73ea5fafe4d65cfc-SP1
+EN02a86d00
 
 ---
 
@@ -35,7 +35,7 @@ en-b1-6856ddea73ea5fafe4d65cfc-SP1
 
 ### --audio-id--
 
-en-b1-6856ddea73ea5fafe4d65cfc-SP2
+EN13416258
 
 ### --feedback--
 
