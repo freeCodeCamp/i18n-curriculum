@@ -3,7 +3,6 @@ id: 67efdfa59ffafb1f2a56381e
 title: Tarea 55
 challengeType: 19
 dashedName: task-55
-showSpeakingButton: true
 lang: en-US
 ---
 

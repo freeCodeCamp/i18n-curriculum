@@ -106,6 +106,18 @@ else:
     print('You are not an adult yet') # You are not an adult yet
 ```
 
+Observe que você não pode colocar nenhuma declaração entre o bloco `if` e a cláusula `else`. O seguinte código geraria um `SyntaxError`:
+
+```python
+age = 12
+
+if age >= 18:
+    print('You are an adult')
+print('Almost there!')
+else: # SyntaxError: invalid syntax
+    print('You are not an adult yet')
+```
+
 Podem haver situações em que você queira considerar múltiplas condições. Para fazer isso, Python permite que você estenda sua declaração if com a palavra-chave `elif` (else if).
 
 Aqui está a sintaxe:

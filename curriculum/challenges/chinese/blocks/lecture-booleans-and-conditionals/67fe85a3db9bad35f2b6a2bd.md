@@ -106,6 +106,18 @@ else:
     print('You are not an adult yet') # You are not an adult yet
 ```
 
+请注意，你不能在 `if` 块和 `else` 子句之间放置任何语句。以下代码将引起 `SyntaxError`：
+
+```python
+age = 12
+
+if age >= 18:
+    print('You are an adult')
+print('Almost there!')
+else: # SyntaxError: invalid syntax
+    print('You are not an adult yet')
+```
+
 可能会有你想要考虑多个条件的情况。为此，Python 允许你使用 `elif`（else if）关键字扩展你的 if 语句。
 
 语法如下：

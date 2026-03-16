@@ -27,13 +27,41 @@ Math.floor(Math.random() * (max - min + 1)) + min
 `randomRange` 返回的随机数应该大于或等于 `myMin`。
 
 ```js
-assert(calcMin === 5);
+assert(
+  (function () {
+    if (typeof randomRange !== 'function') {
+      return false;
+    }
+
+    var calcMin = 100;
+    for (var i = 0; i < 100; i++) {
+      var result = randomRange(5, 15);
+      calcMin = Math.min(calcMin, result);
+    }
+
+    return calcMin === 5;
+  })()
+);
 ```
 
 `randomRange` 返回的随机数应该小于或等于 `myMax`。
 
 ```js
-assert(calcMax === 15);
+assert(
+  (function () {
+    if (typeof randomRange !== 'function') {
+      return false;
+    }
+
+    var calcMax = -100;
+    for (var i = 0; i < 100; i++) {
+      var result = randomRange(5, 15);
+      calcMax = Math.max(calcMax, result);
+    }
+
+    return calcMax === 15;
+  })()
+);
 ```
 
 `randomRange` 应该返回一个随机整数，而不是小数。
@@ -62,25 +90,6 @@ assert(
 ```
 
 # --seed--
-
-## --after-user-code--
-
-```js
-var calcMin = 100;
-var calcMax = -100;
-for(var i = 0; i < 100; i++) {
-  var result = randomRange(5,15);
-  calcMin = Math.min(calcMin, result);
-  calcMax = Math.max(calcMax, result);
-}
-(function(){
-  if(typeof myRandom === 'number') {
-    return "myRandom = " + myRandom;
-  } else {
-    return "myRandom undefined";
-  }
-})()
-```
 
 ## --seed-contents--
 

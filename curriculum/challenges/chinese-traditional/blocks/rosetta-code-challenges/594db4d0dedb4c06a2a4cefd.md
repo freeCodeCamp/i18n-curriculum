@@ -34,18 +34,13 @@ assert(typeof babbage === 'function');
 `babbage(99736, 269696)` 不應該傳回 99736（有更小的答案）。
 
 ```js
+const babbageAns = 99736;
+const endDigits = 269696;
+const answer = 25264;
 assert.equal(babbage(babbageAns, endDigits), answer);
 ```
 
 # --seed--
-
-## --after-user-code--
-
-```js
-const babbageAns = 99736;
-const endDigits = 269696;
-const answer = 25264;
-```
 
 ## --seed-contents--
 

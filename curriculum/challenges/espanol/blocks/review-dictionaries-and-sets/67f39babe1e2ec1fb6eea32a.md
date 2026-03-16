@@ -313,10 +313,10 @@ print(5 in my_set) # True
 import module_name
 ```
 
-Luego, si necesitas llamar a un método de ese módulo, usarías la notación de punto, con el nombre del módulo seguido del nombre del método.
+Luego, si necesitas llamar a una función de ese módulo, usarías la notación de punto, con el nombre del módulo seguido del nombre de la función.
 
 ```python
-module_name.method_name()
+module_name.function_name()
 ```
 
 Por ejemplo, escribirías lo siguiente en tu código para importar el módulo `math` y obtener la raíz cuadrada de 36:
