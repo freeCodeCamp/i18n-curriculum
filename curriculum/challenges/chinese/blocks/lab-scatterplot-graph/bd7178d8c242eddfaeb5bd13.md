@@ -1,6 +1,6 @@
 ---
 id: bd7178d8c242eddfaeb5bd13
-title: "构建散点图 `Graph`"
+title: 构建散点图 `Graph`
 challengeType: 25
 dashedName: build-a-scatterplot-graph
 demoType: onClick
@@ -1179,7 +1179,7 @@ d3.json(url)
         return y(d.Time);
       })
       .attr('data-xvalue', function (d) {
-        return d.Year;
+        return d.Year + '-01-02';
       })
       .attr('data-yvalue', function (d) {
         return d.Time.toISOString();

@@ -27,13 +27,41 @@ Math.floor(Math.random() * (max - min + 1)) + min
 `randomRange` 可以產生的最低隨機數應該要與你的最小數字 `myMin` 相等。
 
 ```js
-assert(calcMin === 5);
+assert(
+  (function () {
+    if (typeof randomRange !== 'function') {
+      return false;
+    }
+
+    var calcMin = 100;
+    for (var i = 0; i < 100; i++) {
+      var result = randomRange(5, 15);
+      calcMin = Math.min(calcMin, result);
+    }
+
+    return calcMin === 5;
+  })()
+);
 ```
 
 `randomRange` 可以產生的最高隨機數應該要與你的最大數字 `myMax` 相等。
 
 ```js
-assert(calcMax === 15);
+assert(
+  (function () {
+    if (typeof randomRange !== 'function') {
+      return false;
+    }
+
+    var calcMax = -100;
+    for (var i = 0; i < 100; i++) {
+      var result = randomRange(5, 15);
+      calcMax = Math.max(calcMax, result);
+    }
+
+    return calcMax === 15;
+  })()
+);
 ```
 
 由 `randomRange` 產生的隨機數應該是整數，而非小數。
@@ -62,25 +90,6 @@ assert(
 ```
 
 # --seed--
-
-## --after-user-code--
-
-```js
-var calcMin = 100;
-var calcMax = -100;
-for(var i = 0; i < 100; i++) {
-  var result = randomRange(5,15);
-  calcMin = Math.min(calcMin, result);
-  calcMax = Math.max(calcMax, result);
-}
-(function(){
-  if(typeof myRandom === 'number') {
-    return "myRandom = " + myRandom;
-  } else {
-    return "myRandom undefined";
-  }
-})()
-```
 
 ## --seed-contents--
 

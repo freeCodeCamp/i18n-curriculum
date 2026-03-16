@@ -3,7 +3,6 @@ id: 67d81e8afbcfb390dd7fc1e0
 title: 任务 133
 challengeType: 19
 dashedName: task-133
-showSpeakingButton: true
 lang: en-US
 ---
 

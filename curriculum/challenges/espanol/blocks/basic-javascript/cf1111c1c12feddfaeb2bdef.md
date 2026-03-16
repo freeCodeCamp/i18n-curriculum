@@ -27,13 +27,41 @@ Crea una función llamada `randomRange` que tenga un rango `myMin` y `myMax` y d
 El número aleatorio más bajo que puede ser generado por `randomRange` debe ser igual a tu número mínimo, `myMin`.
 
 ```js
-assert(calcMin === 5);
+assert(
+  (function () {
+    if (typeof randomRange !== 'function') {
+      return false;
+    }
+
+    var calcMin = 100;
+    for (var i = 0; i < 100; i++) {
+      var result = randomRange(5, 15);
+      calcMin = Math.min(calcMin, result);
+    }
+
+    return calcMin === 5;
+  })()
+);
 ```
 
 El número aleatorio más alto que puede ser generado por `randomRange` debe ser igual a tu número máximo, `myMax`.
 
 ```js
-assert(calcMax === 15);
+assert(
+  (function () {
+    if (typeof randomRange !== 'function') {
+      return false;
+    }
+
+    var calcMax = -100;
+    for (var i = 0; i < 100; i++) {
+      var result = randomRange(5, 15);
+      calcMax = Math.max(calcMax, result);
+    }
+
+    return calcMax === 15;
+  })()
+);
 ```
 
 El número aleatorio generado por `randomRange` debe ser un entero, no un decimal.
@@ -62,25 +90,6 @@ assert(
 ```
 
 # --seed--
-
-## --after-user-code--
-
-```js
-var calcMin = 100;
-var calcMax = -100;
-for(var i = 0; i < 100; i++) {
-  var result = randomRange(5,15);
-  calcMin = Math.min(calcMin, result);
-  calcMax = Math.max(calcMax, result);
-}
-(function(){
-  if(typeof myRandom === 'number') {
-    return "myRandom = " + myRandom;
-  } else {
-    return "myRandom undefined";
-  }
-})()
-```
 
 ## --seed-contents--
 
