@@ -1,6 +1,6 @@
 ---
 id: 63c9f24afbc9cf324dcaa9a4
-title: Step 95
+title: Passaggio 95
 challengeType: 0
 dashedName: step-95
 ---
@@ -9,17 +9,17 @@ dashedName: step-95
 
 Devi anche cancellare il testo dell'elemento `output`. Puoi farlo impostando la proprietà `innerText` su una stringa vuota.
 
-La differenza tra `innerText` e `innerHTML` è che `innerText` non renderizza gli elementi HTML, ma mostra i tag e il contenuto come testo grezzo.
+La differenza tra `innerText` e `innerHTML` è che `innerText` non renderizzerà gli elementi HTML, ma mostrerà i tag e il contenuto come testo grezzo.
 
 # --hints--
 
-La funzione `clearForm` dovrebbe accedere alla proprietà `innerText` dell'elemento `output`.
+La tua funzione `clearForm` dovrebbe consultare la proprietà `innerText` dell'elemento `output`.
 
 ```js
 assert.match(clearForm.toString(), /output\.innerText/);
 ```
 
-La funzione `clearForm` dovrebbe impostare la proprietà `innerText` dell'elemento `output` su una stringa vuota.
+La tua funzione `clearForm` dovrebbe impostare la proprietà `innerText` dell'elemento `output` su una stringa vuota.
 
 ```js
 assert.match(clearForm.toString(), /output\.innerText\s*=\s*('|"|`)\1/);

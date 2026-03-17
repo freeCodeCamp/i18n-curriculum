@@ -1,6 +1,6 @@
 ---
 id: 65a4f2c2d1bbdfbe82cb3fdd
-title: Task 94
+title: Attività 94
 challengeType: 22
 dashedName: task-94
 lang: en-US
@@ -10,11 +10,11 @@ lang: en-US
 
 # --description--
 
-A `gadget` is a small tool or device, often clever or novel, that performs a specific function or makes something easier.
+Un `gadget` è uno strumento o dispositivo piccolo, spesso ingegnoso o innovativo, che svolge una funzione specifica o rende qualcosa più facile.
 
-In tech, gadgets can include things like smartphones, smartwatches, or any cool, innovative electronic device.
+Nel campo della tecnologia, i gadget possono includere cose come smartphone, smartwatch o qualsiasi dispositivo elettronico innovativo e interessante.
 
-For example, `My new fitness tracker gadget helps me keep track of my steps and exercise.`
+Per esempio, `My new fitness tracker gadget helps me keep track of my steps and exercise.`
 
 # --fillInTheBlank--
 
@@ -28,7 +28,7 @@ For example, `My new fitness tracker gadget helps me keep track of my steps and 
 
 ### --feedback--
 
-This word means something causes a feeling or a reaction. Here, it's used to talk about what excites Bob about tech. It's conjugated in the third person singular.
+Questa parola significa che qualcosa provoca una sensazione o una reazione. Qui è usata per parlare di ciò che entusiasma Bob riguardo alla tecnologia. È coniugata alla terza persona singolare.
 
 ---
 
@@ -36,7 +36,7 @@ This word means something causes a feeling or a reaction. Here, it's used to tal
 
 ### --feedback--
 
-This word is used to point out specific things that are being talked about, in this case, the gadgets. Plural of `that`.
+Questa parola serve a indicare cose specifiche di cui si parla, in questo caso i gadget. È il plurale di `that`.
 
 ---
 
@@ -44,7 +44,7 @@ This word is used to point out specific things that are being talked about, in t
 
 ### --feedback--
 
-This word refers to small electronic devices or tools that are useful or interesting. It's often used to talk about cool tech items. It is in plural.
+Questa parola si riferisce a piccoli dispositivi elettronici o strumenti utili o interessanti. Viene spesso usata per parlare di oggetti tecnologici cool. È al plurale.
 
 # --scene--
 

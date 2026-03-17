@@ -1,26 +1,26 @@
 ---
 id: 65b006efc74c675c2bdfccba
-title: Step 33
+title: Passaggio 33
 challengeType: 0
 dashedName: step-33
 ---
 
 # --description--
 
-For the last condition, you will need to check if the player's `x` position has exceeded the right edge of the canvas. If it has, you will need to set the player's `x` position to the maximum value so the player does not accidentally go off screen to the right.
+Per l'ultima condizione, dovrai verificare se la posizione `x` del giocatore ha superato il bordo destro del canvas. Se è così, dovrai impostare la posizione `x` del giocatore al valore massimo in modo che il giocatore non esca accidentalmente dallo schermo a destra.
 
-Inside your `update` method, create an `if` statement that checks if `this.position.x >= canvas.width - this.width * 2`.
+All'interno del tuo metodo `update`, crea un'istruzione `if` che controlli se `this.position.x >= canvas.width - this.width * 2`. 
 
 # --hints--
 
-You should have another `if` statement inside your `update` method.
+Dovresti avere un'altra istruzione `if` all'interno del tuo metodo `update`.
 
 ```js
 const player = new Player();
 assert.lengthOf(player?.update?.toString().match(/if\s*\(\s*.*\s*\)\s*{/g), 4);
 ```
 
-Your `if` statement should check if `this.position.x >= canvas.width - this.width * 2`.
+La tua istruzione `if` dovrebbe controllare se `this.position.x >= canvas.width - this.width * 2`.
 
 ```js
 const player = new Player();
@@ -197,7 +197,7 @@ class Player {
     ctx.fillStyle = "#99c9ff";
     ctx.fillRect(this.position.x, this.position.y, this.width, this.height);
   }
-
+  
   update() {
     this.draw();
     this.position.x += this.velocity.x;

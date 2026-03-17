@@ -1,6 +1,6 @@
 ---
 id: 67d78c94b686ce3bddcaf8ab
-title: Task 117
+title: Attività 117
 challengeType: 22
 dashedName: task-117
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Ascolta l'audio e completa la frase qui sotto.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-These three words together mean to reduce the amount of time needed to complete a task.
+Queste tre parole insieme significano ridurre la quantità di tempo necessaria per completare un'attività.  
 
 ---
 
@@ -32,17 +32,17 @@ These three words together mean to reduce the amount of time needed to complete 
 
 ### --feedback--
 
-This word in the plural form refers to schedules or deadlines for completing a project.
+Questa parola al plurale si riferisce a orari o scadenze per completare un progetto.  
 
 # --explanation--
 
-`Save us time` means to reduce the time required to complete something, making the process more efficient. For example:
+`Save us time` significa ridurre il tempo richiesto per completare qualcosa, rendendo il processo più efficiente. Per esempio:
 
-`Using automation tools can save us time on repetitive tasks.` – This means automation tools help complete tasks faster.
+`Using automation tools can save us time on repetitive tasks.` – Questo significa che gli strumenti di automazione aiutano a completare le attività più velocemente.  
 
-`Timelines` refer to schedules or deadlines that show when different parts of a project should be completed. For example:
+`Timelines` si riferiscono a orari o scadenze che indicano quando diverse parti di un progetto devono essere completate. Per esempio:
 
-`We need to adjust our timelines to finish the project on schedule.` – This means changing the deadlines to ensure the project is completed on time.
+`We need to adjust our timelines to finish the project on schedule.` – Questo significa modificare le scadenze per assicurarsi che il progetto venga completato in tempo.
 
 # --scene--
 

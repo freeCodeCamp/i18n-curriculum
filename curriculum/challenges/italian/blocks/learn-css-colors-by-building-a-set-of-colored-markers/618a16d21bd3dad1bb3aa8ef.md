@@ -1,26 +1,26 @@
 ---
 id: 618a16d21bd3dad1bb3aa8ef
-title: Step 41
+title: Passaggio 41
 challengeType: 0
 dashedName: step-41
 ---
 
 # --description--
 
-Now it's time to add other details to the markers, starting with the first one.
+Ora è il momento di aggiungere altri dettagli ai marker, iniziando dal primo.
 
-Nel primo elemento `div`, cambia la classe `one` in `red`.
+Nel primo elemento marker `div`, cambia la classe `one` in `red`.
 
 # --hints--
 
-Il primo elemento `div` non dovrebbe avere la classe `one`.
+Il tuo primo marker `div` non dovrebbe avere la classe `one`.
 
 ```js
 const containerFirstChild = [...document.querySelector('.container')?.children][0];
 assert(!containerFirstChild?.classList?.contains('one'));
 ```
 
-Il primo elemento `div` dovrebbe avere le classi `marker` e `red`.
+Il tuo primo marker `div` dovrebbe avere le classi `marker` e `red`.
 
 ```js
 const containerFirstChild = [...document.querySelector('.container')?.children][0];

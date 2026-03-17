@@ -1,6 +1,6 @@
 ---
 id: 67c8cf7bbcc2fbe9b32c9ab2
-title: Task 92
+title: Attività 92
 challengeType: 19
 dashedName: task-92
 lang: en-US
@@ -10,53 +10,53 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Ascolta l'audio e rispondi alla domanda qui sotto.  
 
 # --questions--
 
 ## --text--
 
-What will Maria do with the comments she got from James?
+Cosa farà Maria con i commenti che ha ricevuto da James?  
 
 ## --answers--
 
-She will ignore them.
+Li ignorerà.  
 
 ### --feedback--
 
-Maria acknowledges James's point and plans to take action.
+Maria riconosce il punto di James e ha in programma di agire.
 
 ---
 
-She will tell the team to stop worrying about communication.
+Dirà al team di smettere di preoccuparsi della comunicazione.
 
 ### --feedback--
 
-Maria wants to improve communication, not dismiss concerns.
+Maria vuole migliorare la comunicazione, non ignorare le preoccupazioni. 
 
 ---
 
-She will cancel the team's check-ins.
+Cancellare le riunioni di controllo del team.
 
 ### --feedback--
 
-Maria does not say she will cancel the check-ins.
+Maria non dice che cancellerà le riunioni di controllo.
 
 ---
 
-She will propose having more check-ins to improve communication.
+Proporrà di avere più riunioni di controllo per migliorare la comunicazione.
 
 ## --video-solution--
 
-4
+4  
 
 # --explanation--
 
-When using the verb `suggest`, use the following verb in the `-ing` form instead of the infinitive. For example:
+Quando usi il verbo `suggest`, usa il verbo successivo nella forma `-ing` invece dell'infinito. Per esempio:
 
-- `She suggested taking a break.` - This means the idea proposed is to take a break.
+- `She suggested taking a break.` - Questo significa che l'idea proposta è di fare una pausa.
 
-- `He suggested starting the meeting earlier to avoid delays.` - This means he proposed beginning the meeting sooner.
+- `He suggested starting the meeting earlier to avoid delays.` - Questo significa che ha proposto di iniziare la riunione prima.
 
 # --scene--
 

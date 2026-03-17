@@ -1,6 +1,6 @@
 ---
 id: bd7993c9c69feddfaeb8bdef
-title: Memorizzare più valori in una variabile utilizzando gli array in JavaScript
+title: Archiviare più valori in una variabile usando gli array in JavaScript
 challengeType: 1
 forumTopicId: 18309
 dashedName: store-multiple-values-in-one-variable-using-javascript-arrays
@@ -8,9 +8,9 @@ dashedName: store-multiple-values-in-one-variable-using-javascript-arrays
 
 # --description--
 
-With JavaScript `array` variables, we can store several pieces of data in one place.
+Con le variabili JavaScript `array` possiamo archiviare più dati in un unico posto.
 
-La dichiarazione di un array inizia con una parentesi quadra di apertura, e termina con una parentesi quadra di chiusura, con gli elementi separati da virgole, in questo modo:
+Inizi una dichiarazione di array con una parentesi quadra aperta, la chiudi con una parentesi quadra chiusa e metti una virgola tra ogni elemento, così:
 
 ```js
 const sandwich = ["peanut butter", "jelly", "bread"];
@@ -18,7 +18,7 @@ const sandwich = ["peanut butter", "jelly", "bread"];
 
 # --instructions--
 
-Modifica il nuovo array `myArray` in modo che contenga sia una stringa che un numero (in quest'ordine).
+Modifica il nuovo array `myArray` in modo che contenga sia una stringa sia un numero (in quest’ordine).
 
 # --hints--
 

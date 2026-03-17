@@ -1,6 +1,6 @@
 ---
 id: 679d2dc229e6ceeadff4ed48
-title: Task 92
+title: Attività 92
 challengeType: 22
 dashedName: task-92
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Ascolta l'audio e completa la frase qui sotto.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This word is used to avoid repeating the verb `update` from the previous sentence.
+Questa parola si usa per evitare di ripetere il verbo `update` della frase precedente.
 
 ---
 
@@ -32,17 +32,17 @@ This word is used to avoid repeating the verb `update` from the previous sentenc
 
 ### --feedback--
 
-This word means to postpone or make something happen later than planned.
+Questa parola significa rimandare o far succedere qualcosa più tardi del previsto.
 
 # --explanation--
 
-Instead of saying `If we update the software, it might delay other projects.`, James shortens it to `If we do`. The word `do` is often used to avoid repeating the verb or a complete phrase used in from the previous sentence. For example:
+Invece di dire `If we update the software, it might delay other projects.`, James lo abbrevia in `If we do`. La parola `do` si usa spesso per evitare di ripetere il verbo o una frase completa usata nella frase precedente. Per esempio:
 
-`She wants to join the meeting, and if she does, she'll need the link.` - Instead of saying `if she joins the meeting`, you can use `does` to replace it and this way you can avoid the repetition.
+`She wants to join the meeting, and if she does, she'll need the link.` - Invece di dire `if she joins the meeting`, puoi usare `does` per sostituirla e così evitare la ripetizione.
 
-`To delay` means to make something happen later than planned. For example:
+`To delay` significa far succedere qualcosa più tardi del previsto. Per esempio:
 
-`The flight was delayed due to bad weather.` - This means the flight was postponed and did not leave on time.
+`The flight was delayed due to bad weather.` - Questo significa che il volo è stato rimandato e non è partito in orario.
 
 # --scene--
 

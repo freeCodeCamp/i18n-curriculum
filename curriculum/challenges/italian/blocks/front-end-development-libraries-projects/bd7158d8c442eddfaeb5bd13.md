@@ -1,47 +1,47 @@
 ---
 id: bd7158d8c442eddfaeb5bd13
-title: Build a Random Quote Machine
+title: Costruisci una macchina per citazioni casuali
 challengeType: 3
 forumTopicId: 301374
 dashedName: build-a-random-quote-machine
 ---
 
 # --description--
-**Note:** **React 18 has known incompatibilities with the tests for this project (see [issue](https://github.com/freeCodeCamp/freeCodeCamp/issues/45922))**
+**Nota:** **React 18 presenta incompatibilità note con i test di questo progetto (vedi [issue](https://github.com/freeCodeCamp/freeCodeCamp/issues/45922))**
 
-**Objective:** Build an app that is functionally similar to this: <a href="https://random-quote-machine.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://random-quote-machine.freecodecamp.rocks/</a>.
+**Obiettivo:** Costruisci un'app che sia funzionalmente simile a questa: <a href="https://random-quote-machine.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://random-quote-machine.freecodecamp.rocks/</a>.
 
-Fulfill the below user stories and get all of the tests to pass. Use whichever libraries or APIs you need. Give it your own personal style.
+Completa le seguenti storie utente e fai in modo che tutti i test vengano superati. Usa le librerie o le API che preferisci. Dai il tuo tocco personale.
 
-You can use any mix of HTML, JavaScript, CSS, Bootstrap, SASS, React, Redux, and jQuery to complete this project. You should use a front-end framework (like React for example) because this section is about learning front-end frameworks. Additional technologies not listed above are not recommended and using them is at your own risk. We are looking at supporting other front-end frameworks like Angular and Vue, but they are not currently supported. We will accept and try to fix all issue reports that use the suggested technology stack for this project. Happy coding!
+Puoi usare qualsiasi combinazione di HTML, JavaScript, CSS, Bootstrap, SASS, React, Redux e jQuery per completare questo progetto. Dovresti usare un framework front-end (come React per esempio) perché questa sezione riguarda l'apprendimento dei framework front-end. Tecnologie aggiuntive non elencate sopra non sono raccomandate e usarle è a tuo rischio. Stiamo valutando il supporto per altri framework front-end come Angular e Vue, ma al momento non sono supportati. Accetteremo e cercheremo di risolvere tutti i problemi segnalati che usano lo stack tecnologico suggerito per questo progetto. Buona programmazione!
 
-**User Story #1:** I can see a wrapper element with a corresponding `id="quote-box"`.
+**Storia utente #1:** Posso vedere un elemento wrapper con un corrispondente `id="quote-box"`.
 
-**User Story #2:** Within `#quote-box`, I can see an element with a corresponding `id="text"`.
+**Storia utente #2:** All'interno di `#quote-box`, posso vedere un elemento con un corrispondente `id="text"`.
 
-**User Story #3:** Within `#quote-box`, I can see an element with a corresponding `id="author"`.
+**Storia utente #3:** All'interno di `#quote-box`, posso vedere un elemento con un corrispondente `id="author"`.
 
-**User Story #4:** Within `#quote-box`, I can see a clickable element with a corresponding `id="new-quote"`.
+**Storia utente #4:** All'interno di `#quote-box`, posso vedere un elemento cliccabile con un corrispondente `id="new-quote"`.
 
-**User Story #5:** Within `#quote-box`, I can see a clickable `a` element with a corresponding `id="tweet-quote"`.
+**Storia utente #5:** All'interno di `#quote-box`, posso vedere un elemento `a` cliccabile con un corrispondente `id="tweet-quote"`.
 
-**User Story #6:** On first load, my quote machine displays a random quote in the element with `id="text"`.
+**Storia utente #6:** Al primo caricamento, la mia macchina per citazioni mostra una citazione casuale nell'elemento con `id="text"`.
 
-**User Story #7:** On first load, my quote machine displays the random quote's author in the element with `id="author"`.
+**Storia utente #7:** Al primo caricamento, la mia macchina per citazioni mostra l'autore della citazione casuale nell'elemento con `id="author"`.
 
-**User Story #8:** When the `#new-quote` button is clicked, my quote machine should fetch a new quote and display it in the `#text` element.
+**Storia utente #8:** Quando si clicca il pulsante `#new-quote`, la mia macchina per citazioni dovrebbe recuperare una nuova citazione e mostrarla nell'elemento `#text`.
 
-**User Story #9:** My quote machine should fetch the new quote's author when the `#new-quote` button is clicked and display it in the `#author` element.
+**Storia utente #9:** La mia macchina per citazioni dovrebbe recuperare l'autore della nuova citazione quando si clicca il pulsante `#new-quote` e mostrarlo nell'elemento `#author`.
 
-**User Story #10:** I can tweet the current quote by clicking on the `#tweet-quote` `a` element. This `a` element should include the `"twitter.com/intent/tweet"` path in its `href` attribute to tweet the current quote.
+**Storia utente #10:** Posso twittare la citazione corrente cliccando sull'elemento `#tweet-quote` `a`. Questo elemento `a` dovrebbe includere il percorso `"twitter.com/intent/tweet"` nel suo attributo `href` per twittare la citazione corrente.
 
-**User Story #11:** The `#quote-box` wrapper element should be horizontally centered. Please run tests with browser's zoom level at 100% and page maximized.
+**Storia utente #11:** L'elemento wrapper `#quote-box` dovrebbe essere centrato orizzontalmente. Esegui i test con il livello di zoom del browser al 100% e la pagina massimizzata.
 
-You can build your project by <a href='https://codepen.io/pen?template=MJjpwO' target='_blank' rel="noopener noreferrer nofollow">using this CodePen template</a> and clicking `Save` to create your own pen. If you prefer to use another environment, then put this `<script>` tag into the body of your `index.html` file: `<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>`
+Puoi costruire il tuo progetto <a href='https://codepen.io/pen?template=MJjpwO' target='_blank' rel="noopener noreferrer nofollow">usando questo template di CodePen</a> e cliccando `Save` per creare il tuo pen. Se preferisci usare un altro ambiente, inserisci questo tag `<script>` nel corpo del tuo file `index.html`: `<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>`
 
-Once you're done, submit the URL to your working project with all its tests passing.
+Quando hai finito, invia l'URL del tuo progetto funzionante con tutti i test superati.
 
-**Note:** Twitter does not allow links to be loaded in an iframe. Try using the `target="_blank"` or `target="_top"` attribute on the `#tweet-quote` element if your tweet won't load. `target="_top"` will replace the current tab so make sure your work is saved.
+**Nota:** Twitter non permette di caricare collegamenti in un iframe. Prova a usare l'attributo `target="_blank"` o `target="_top"` sull'elemento `#tweet-quote` se il tuo tweet non si carica. `target="_top"` sostituirà la scheda corrente quindi assicurati che il tuo lavoro sia salvato.
 
 # --solutions--
 

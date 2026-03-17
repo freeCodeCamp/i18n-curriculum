@@ -1,6 +1,6 @@
 ---
 id: 67f3c4903a5cdafdeda3c1dd
-title: Task 143
+title: Attività 143
 challengeType: 22
 dashedName: task-143
 lang: en-US
@@ -10,13 +10,13 @@ lang: en-US
 
 # --description--
 
-This is a review of the entire dialogue you just studied.
+Questa è una revisione dell'intero dialogo che hai appena studiato.
 
 # --instructions--
 
-Write the following words or phrases in the correct spot:
+Scrivi le seguenti parole o frasi nel punto corretto:
 
-`mix-up`, `on track`, `ironing out`, `misunderstanding`, `supposed`, `the confusion`, and `on the same page`.
+`mix-up`, `on track`, `ironing out`, `misunderstanding`, `supposed`, `the confusion`, e `on the same page`.
 
 # --fillInTheBlank--
 
@@ -52,7 +52,7 @@ Write the following words or phrases in the correct spot:
 
 ### --feedback--
 
-This noun refers to a failure to understand something correctly.
+Questo sostantivo indica un fallimento nel comprendere qualcosa correttamente.
 
 ---
 
@@ -60,7 +60,7 @@ This noun refers to a failure to understand something correctly.
 
 ### --feedback--
 
-These two words together indicate a lack of clarity or understanding. The first is an article the second is a noun.
+Queste due parole insieme indicano una mancanza di chiarezza o comprensione. La prima è un articolo, la seconda un sostantivo.
 
 ---
 
@@ -68,7 +68,7 @@ These two words together indicate a lack of clarity or understanding. The first 
 
 ### --feedback--
 
-These two words together describe something progressing as planned.
+Queste due parole insieme descrivono qualcosa che procede come previsto.
 
 ---
 
@@ -76,7 +76,7 @@ These two words together describe something progressing as planned.
 
 ### --feedback--
 
-These two words describe resolving small problems or details. The first word ends with `-ing`.
+Queste due parole descrivono la risoluzione di piccoli problemi o dettagli. La prima parola termina con `-ing`.
 
 ---
 
@@ -84,7 +84,7 @@ These two words describe resolving small problems or details. The first word end
 
 ### --feedback--
 
-This is a `Past Participle` used to express expectation or intention.
+Questa è una `Past Participle` usata per esprimere aspettativa o intenzione.
 
 ---
 
@@ -92,7 +92,7 @@ This is a `Past Participle` used to express expectation or intention.
 
 ### --feedback--
 
-This noun describes a mistake or confusion due to things being confused. This is a compound word. Remember to use `-`.
+Questo sostantivo descrive un errore o confusione dovuta a cose confuse tra loro. È una parola composta. Ricorda di usare `-`.
 
 ---
 
@@ -100,4 +100,4 @@ This noun describes a mistake or confusion due to things being confused. This is
 
 ### --feedback--
 
-These four words together mean having a mutual understanding. The first word is a preposition.
+Queste quattro parole insieme significano avere una comprensione reciproca. La prima parola è una preposizione.

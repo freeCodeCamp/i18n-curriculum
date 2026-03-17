@@ -1,6 +1,6 @@
 ---
 id: 66bbba46fff0ef451b701bcd
-title: Task 103
+title: Attività 103
 challengeType: 19
 dashedName: task-103
 lang: en-US
@@ -12,41 +12,41 @@ Sarah: Sure, I'm not busy. What's the problem? -->
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Ascolta l'audio e rispondi alla domanda qui sotto.
 
 # --questions--
 
 ## --text--
 
-Is Sarah available to talk to Tom?
+Sarah è disponibile a parlare con Tom?
 
 ## --answers--
 
-No, she is busy and doesn't want to know about his problems.
+No, è occupata e non vuole sapere dei suoi problemi.
 
 ### --feedback--
 
-Sarah says she is not busy.
+Sarah dice che non è occupata.
 
 ---
 
-Yes, she is available and wants to know what's the problem.
+Sì, è disponibile e vuole sapere qual è il problema.
 
 ---
 
-No, she cannot talk right now, she has her own problems.
+No, non può parlare adesso, ha i suoi problemi.
 
 ### --feedback--
 
-Sarah mentions that she is not busy.
+Sarah menziona che non è occupata.
 
 ---
 
-Yes, but only for a moment because she has her own problems.
+Sì, ma solo per un momento perché ha i suoi problemi.
 
 ### --feedback--
 
-Sarah doesn't limit the time; she simply states that she is not busy.
+Sarah non limita il tempo; afferma semplicemente di non essere occupata.
 
 ## --video-solution--
 
@@ -54,11 +54,11 @@ Sarah doesn't limit the time; she simply states that she is not busy.
 
 # --explanation--
 
-Instead of directly saying she is free, Sarah uses the negative form `I'm not busy` to emphasize that she has time to help.
+Invece di dire direttamente che è libera, Sarah usa la forma negativa `I'm not busy` per sottolineare che ha tempo per aiutare.
 
-This is a polite and indirect way to offer availability in English, commonly used to make the conversation more tactful.
+Questo è un modo educato e indiretto per offrire disponibilità in inglese, comunemente usato per rendere la conversazione più garbata.
 
-Her follow-up sentence, `What's the problem?`, confirms she's willing to assist by inviting Tom to explain the issue.
+La frase successiva, `What's the problem?`, conferma che è disposta ad aiutare invitando Tom a spiegare il problema.
 
 # --scene--
 

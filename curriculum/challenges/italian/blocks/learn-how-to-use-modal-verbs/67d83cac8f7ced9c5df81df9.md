@@ -1,6 +1,6 @@
 ---
 id: 67d83cac8f7ced9c5df81df9
-title: Task 144
+title: Attività 144
 challengeType: 22
 dashedName: task-144
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Ascolta l'audio e completa la frase qui sotto.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This modal verb expresses possibility or uncertainty about a past event.
+Questo verbo modale esprime possibilità o incertezza riguardo a un evento passato.
 
 ---
 
@@ -32,15 +32,15 @@ This modal verb expresses possibility or uncertainty about a past event.
 
 ### --feedback--
 
-This verb is the `Past Perfect` form, used to talk about something that could have happened in the past. Use two words.
+Questo verbo è la forma `Past Perfect`, usata per parlare di qualcosa che potrebbe essere successo nel passato. Usa due parole.
 
-# --explanation--
+# --explanation--  
 
-`Might` expresses possibility.
+`Might` esprime possibilità.  
 
-`Have taken` is the `Past Perfect` form of `take`, used to talk about a possible past action. For example:
+`Have taken` è la forma `Past Perfect` di `take`, usata per parlare di un'azione passata possibile. Per esempio:
 
-`The attacker might have taken sensitive files.` - You don't know for sure, but it is possible.
+`The attacker might have taken sensitive files.` - Non sai con certezza, ma è possibile.
 
 # --scene--
 

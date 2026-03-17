@@ -1,25 +1,25 @@
 ---
 id: 60ffe7d8aae62c05bcc9e7eb
-title: Step 58
+title: Passaggio 58
 challengeType: 0
 dashedName: step-58
 ---
 
 # --description--
 
-With a `display` of `block` the submit button sits flush against the left edge of its parent.
+Con un `display` di `block` il pulsante di invio si trova aderente al bordo sinistro del suo genitore.
 
-Usa la stessa tecnica usata per centrare l'elemento `form` per centrare il pulsante Submit.
+Usa la stessa tecnica usata per centrare il `form` per centrare il pulsante di invio.
 
 # --hints--
 
-Dovresti assegnare al pulsante Submit una proprietà `margin` con il valore `0 auto`.
+Dovresti dare al pulsante di invio un `margin` di `0 auto`.
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('input[type="submit"]')?.margin, '0px auto');
 ```
 
-Non dovresti assegnare al pulsante Submit delle proprietà `min-width` o `max-width`.
+Non dovresti dare al pulsante di invio un `min-width` o `max-width`.
 
 ```js
 assert.isEmpty(new __helpers.CSSHelp(document).getStyle('input[type="submit"]')?.minWidth);

@@ -1,6 +1,6 @@
 ---
 id: 699e0353138be64fa313138f
-title: Piecewise Functions
+title: Funzioni a tratti
 challengeType: 11
 videoId: C9hCmH9nj4o
 dashedName: piecewise-functions
@@ -8,29 +8,29 @@ dashedName: piecewise-functions
 
 # --description--
 
-In this video, you will learn about piecewise functions.
+In questo video imparerai cosa sono le funzioni a tratti.
 
 # --questions--
 
 ## --text--
 
-What is a piecewise function?
+Cos'è una funzione a tratti?
 
 ## --answers--
 
-A function that is defined by multiple sub-functions on the y-axis.
+Una funzione definita da più sottofunzioni sull'asse y.
 
 ---
 
-A function that is defined by a single formula for all values of x.
+Una funzione definita da una singola formula per tutti i valori di x.
 
 ---
 
-A function that is defined by the x and y values of a set of points.
+Una funzione definita dai valori x e y di un insieme di punti.
 
 ---
 
-A function that is defined by multiple sub-functions.
+Una funzione definita da più sottofunzioni.
 
 ## --video-solution--
 

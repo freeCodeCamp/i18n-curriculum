@@ -1,6 +1,6 @@
 ---
 id: 67c03f86bccfec0be6de656b
-title: Task 113
+title: Attività 113
 challengeType: 19
 dashedName: task-113
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Ascolta l'audio e rispondi alla domanda qui sotto.
 
 # --questions--
 
 ## --text--
 
-What is Anna communicating?
+Cosa sta comunicando Anna?
 
 ## --answers--
 
-She completely disagrees with Bob and rejects his concern.
+Lei è completamente in disaccordo con Bob e respinge la sua preoccupazione.
 
 ### --feedback--
 
-Anna acknowledges Bob's point before giving her own opinion.
+Anna riconosce il punto di Bob prima di esprimere la sua opinione.
 
 ---
 
-She understands Bob's concern but still thinks flexibility is a better option.
+Lei comprende la preoccupazione di Bob ma pensa comunque che la flessibilità sia un'opzione migliore.
 
 ---
 
-She does not understand Bob's concern.
+Lei non capisce la preoccupazione di Bob.
 
 ### --feedback--
 
-Anna understands Bob's argument.
+Anna comprende l'argomento di Bob.
 
 ---
 
-She agrees with Bob and changes her mind.
+Lei è d'accordo con Bob e cambia idea.
 
 ### --feedback--
 
-Anna does not fully agree with Bob.
+Anna non è completamente d'accordo con Bob.
 
 ## --video-solution--
 
@@ -52,9 +52,9 @@ Anna does not fully agree with Bob.
 
 # --explanation--
 
-Anna uses `I see your point, but` to show that she understands Bob's concern while presenting a different opinion.
+Anna usa `I see your point, but` per mostrare che comprende la preoccupazione di Bob mentre presenta un'opinione diversa.
 
-She believes that flexibility is a better solution than sticking with one category.
+Crede che la flessibilità sia una soluzione migliore rispetto a restare fermi su una categoria.
 
 # --scene--
 

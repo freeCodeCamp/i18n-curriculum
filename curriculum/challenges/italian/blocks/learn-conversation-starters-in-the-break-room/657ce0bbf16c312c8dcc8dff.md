@@ -1,6 +1,6 @@
 ---
 id: 657ce0bbf16c312c8dcc8dff
-title: Task 63
+title: Attività 63
 challengeType: 19
 dashedName: task-63
 lang: en-US
@@ -8,19 +8,19 @@ lang: en-US
 
 # --description--
 
-There are some words you can use in your sentence to express how often something happens. They are called **adverbs of frequency**.
+Ci sono alcune parole che puoi usare nella tua frase per esprimere quanto spesso succede qualcosa. Si chiamano **avverbi di frequenza**.
 
-`Usually` is a word that suggests that something happens often but is not constant.
+`Usually` è una parola che suggerisce che qualcosa succede spesso ma non in modo costante.
 
-When `usually` is used with the verb `to be`, it is placed after the verb. For example, `She is usually on time for meetings`.
+Quando `usually` è usato con il verbo `to be`, viene posizionato dopo il verbo. Per esempio, `She is usually on time for meetings`.
 
-With other verbs, `usually` comes before the main verb. For example, `He usually works late`.
+Con altri verbi, `usually` viene messo prima del verbo principale. Per esempio, `He usually works late`.
 
 # --questions--
 
 ## --text--
 
-Choose the sentence that correctly uses the adverb `usually`.
+Scegli la frase che usa correttamente l’avverbio `usually`.
 
 ## --answers--
 
@@ -28,7 +28,7 @@ Choose the sentence that correctly uses the adverb `usually`.
 
 ### --feedback--
 
-`Usually` should come before the main verb when not using `to be`. The correct sentence is `She is usually very careful with her work.`
+`Usually` dovrebbe venire prima del verbo principale quando non si usa `to be`. La frase corretta è `She is usually very careful with her work.`
 
 ---
 
@@ -40,7 +40,7 @@ Choose the sentence that correctly uses the adverb `usually`.
 
 ### --feedback--
 
-`Usually` should come before the main verb in standard sentences. The correct sentence is `They usually play together on weekends.`
+`Usually` dovrebbe venire prima del verbo principale nelle frasi standard. La frase corretta è `They usually play together on weekends.`
 
 ---
 
@@ -48,7 +48,7 @@ Choose the sentence that correctly uses the adverb `usually`.
 
 ### --feedback--
 
-With the verb `to be`, `usually` comes after it. The correct sentence is `We are usually happy to help out with new projects.`
+Con il verbo `to be`, `usually` viene dopo. La frase corretta è `We are usually happy to help out with new projects.`
 
 ## --video-solution--
 

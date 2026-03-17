@@ -1,13 +1,13 @@
 ---
 id: 62aa27c40ca6f04ab8be5fac
-title: Step 167
+title: Passaggio 167
 challengeType: 0
 dashedName: step-167
 ---
 
 # --description--
 
-In the previous project, you learned how to work with `for` loops like this:
+Nel progetto precedente, hai imparato a lavorare con i loop `for` come questo:
 
 ```js
 for (let i = 0; i < 5; i++) {
@@ -15,26 +15,26 @@ for (let i = 0; i < 5; i++) {
 }
 ```
 
-`for` loops are declared with three expressions separated by semicolons: `for (a; b; c)`, where `a` is the initialization expression, `b` is the condition, and `c` is the final expression.
+I loop `for` si dichiarano con tre espressioni separate da punti e virgola: `for (a; b; c)`, dove `a` è l’espressione di inizializzazione, `b` è la condizione e `c` è l’espressione finale.
 
-In this step, create a `for` loop where `i` is initialized to `0`, the loop runs as long as `i` is less than `10`, and `i` is incremented by `1` after each iteration using the increment operator `++`.
+In questo passaggio, crea un loop `for` dove `i` è inizializzato a `0`, il loop continua finché `i` è minore di `10` e `i` viene incrementato di `1` dopo ogni iterazione usando l’operatore di incremento `++`.
 
 
 # --hints--
 
-Your `for` loop initialization should have `i` initialized to `0`.
+L’inizializzazione del tuo loop `for` dovrebbe avere `i` inizializzato a `0`.
 
 ```js
 assert.match(pick.toString(), /for\s*\(\s*(let|var)\s+i\s*=\s*0\s*;/)
 ```
 
-Your loop condition should run as long as `i` is less than `10`.
+La condizione del tuo loop dovrebbe continuare finché `i` è minore di `10`.
 
 ```js
 assert.match(pick.toString(), /for\s*\(\s*(let|var)\s+i\s*=\s*0\s*;\s*i\s*<\s*10\s*;/)
 ```
 
-Your loop should increment `i` by `1` after each iteration. Remember to use the increment operator `++`.
+Il tuo loop dovrebbe incrementare `i` di `1` dopo ogni iterazione. Ricorda di usare l’operatore di incremento `++`.
 
 ```js
 assert.match(pick.toString(), /for\s*\(\s*(let|var)\s+i\s*=\s*0\s*;\s*i\s*<\s*10\s*;\s*i\+\+\s*\)/)
@@ -399,7 +399,7 @@ function pick(guess) {
     numbers.push(Math.floor(Math.random() * 11));
   }
   text.innerText = "You picked " + guess + ". Here are the random numbers:\n";
-
+  
 }
 --fcc-editable-region--
 ```

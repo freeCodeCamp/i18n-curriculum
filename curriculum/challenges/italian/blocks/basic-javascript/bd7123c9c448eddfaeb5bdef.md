@@ -1,6 +1,6 @@
 ---
 id: bd7123c9c448eddfaeb5bdef
-title: Find the Length of a String
+title: Trovare la lunghezza di una stringa
 challengeType: 1
 forumTopicId: 18182
 dashedName: find-the-length-of-a-string
@@ -8,23 +8,23 @@ dashedName: find-the-length-of-a-string
 
 # --description--
 
-You can find the length of a `String` value by writing `.length` after the string variable or string literal.
+Puoi trovare la lunghezza di un valore `String` scrivendo `.length` dopo la variabile stringa o la stringa letterale.
 
 ```js
 console.log("Alan Peter".length);
 ```
 
-The value `10` would be displayed in the console. Note that the space character between "Alan" and "Peter" is also counted.
+Il valore `10` verrebbe mostrato nella console. Nota che anche il carattere spazio tra "Alan" e "Peter" viene contato.
 
-For example, if we created a variable `const firstName = "Ada"`, we could find out how long the string `Ada` is by using the `firstName.length` property.
+Per esempio, se creassimo una variabile `const firstName = "Ada"`, potremmo scoprire quanto è lunga la stringa `Ada` usando la proprietà `firstName.length`.
 
 # --instructions--
 
-Use the `.length` property to set `lastNameLength` to the number of characters in `lastName`.
+Usa la proprietà `.length` per impostare `lastNameLength` al numero di caratteri in `lastName`.
 
 # --hints--
 
-You should not change the variable declarations in the `// Setup` section.
+Non dovresti modificare le dichiarazioni delle variabili nella sezione `// Setup`.
 
 ```js
 assert(
@@ -33,13 +33,13 @@ assert(
 );
 ```
 
-`lastNameLength` should be equal to eight.
+`lastNameLength` dovrebbe essere uguale a otto.
 
 ```js
 assert(typeof lastNameLength !== 'undefined' && lastNameLength === 8);
 ```
 
-You should be getting the length of `lastName` by using `.length` like this: `lastName.length`.
+Dovresti ottenere la lunghezza di `lastName` usando `.length` in questo modo: `lastName.length`.
 
 ```js
 assert(__helpers.removeJSComments(code).match(/=\s*lastName\.length/g) && !__helpers.removeJSComments(code).match(/lastName\s*=\s*8/));

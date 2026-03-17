@@ -1,6 +1,6 @@
 ---
 id: 67baf3ed288e8b06f4ab0dfb
-title: Task 76
+title: Attività 76
 challengeType: 22
 dashedName: task-76
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Ascolta l'audio e completa la frase qui sotto.
 
 # --fillInTheBlank--
 
@@ -22,23 +22,23 @@ Listen to the audio and complete the sentence below.
 
 `team spirit`
 
-### --feedback--
+### --feedback--  
 
-These two words together refer to the sense of unity and cooperation among coworkers. The first word refers to a group working together, and the second word relates to shared enthusiasm or motivation.
+Queste due parole insieme indicano il senso di unità e collaborazione tra colleghi. La prima parola si riferisce a un gruppo che lavora insieme, la seconda riguarda l'entusiasmo o la motivazione condivisa.
 
 ---
 
 `problem-solving`
 
-### --feedback--
+### --feedback--  
 
-This compound word refers to the process of finding solutions to challenges. The first part refers to an issue that needs to be fixed, and the second part is a verb meaning finding a solution. Remember to use `-` between the two parts.
+Questa parola composta indica il processo di trovare soluzioni alle sfide. La prima parte si riferisce a un problema da risolvere, la seconda è un verbo che significa trovare una soluzione. Ricorda di usare `-` tra le due parti.
 
 # --explanation--
 
-David believes that working in the office helps strengthen `team spirit` (a sense of connection and unity among coworkers) and improves `problem-solving` (finding solutions to challenges more efficiently).
+David ritiene che lavorare in ufficio aiuti a rafforzare `team spirit` (un senso di connessione e unità tra colleghi) e migliori `problem-solving` (trovare soluzioni ai problemi in modo più efficiente).
 
-He argues that being in the same physical space makes it easier for employees to collaborate and support one another.
+Sostiene che stare nello stesso spazio fisico renda più facile per i dipendenti collaborare e supportarsi a vicenda.
 
 # --scene--
 

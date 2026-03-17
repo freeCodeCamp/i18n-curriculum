@@ -1,6 +1,6 @@
 ---
 id: 67ee4cbb541a7a0ae61bcc9f
-title: Task 4
+title: Attività 4
 challengeType: 19
 dashedName: task-4
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Ascolta l'audio e rispondi alla domanda qui sotto.
 
 # --questions--
 
 ## --text--
 
-Is this small error serious?
+Questo piccolo errore è serio?
 
 ## --answers--
 
-No, and they don't need to do anything about it.
+No, e non devono fare nulla a riguardo.
 
 ### --feedback--
 
-Sophie doesn't say it's a major issue, but they should fix it.
+Sophie non dice che sia un problema grave, ma dovrebbero sistemarlo.
 
 ---
 
-Yes, it will break the whole system.
+Sì, romperà l'intero sistema.
 
 ### --feedback--
 
-Sophie doesn't say it's a major issue, just something they should fix.
+Sophie non dice che sia un problema grave, solo che dovrebbero sistemarlo.
 
 ---
 
-Yes, Sophie is very worried about it.
+Sì, Sophie è molto preoccupata.
 
 ### --feedback--
 
-Sophie is not very worried, but she still thinks they should fix it.
+Sophie non è molto preoccupata, ma pensa comunque che dovrebbero sistemarlo.
 
 ---
 
-No, but it should still be fixed.
+No, ma dovrebbe comunque essere sistemato.
 
 ## --video-solution--
 
@@ -52,13 +52,13 @@ No, but it should still be fixed.
 
 # --explanation--
 
-`It's not a big deal` means the problem is not serious. For example:
+`It's not a big deal` indica che il problema non è serio. Per esempio:
 
-- Person 1: `I can't join the meeting today.`
+- Persona 1: `I can't join the meeting today.`
 
-- Person 2: `It's not a big deal. I'll take notes for you.` - Missing the meeting is okay, and this person can help.
+- Persona 2: `It's not a big deal. I'll take notes for you.` - Saltare la riunione va bene, e questa persona può aiutare.
 
-Sophie also says `we should fix it before it causes problems`, meaning it's better to fix it now before it becomes serious.
+Sophie dice anche `we should fix it before it causes problems`, cioè è meglio sistemarlo ora prima che diventi serio.
 
 # --scene--
 

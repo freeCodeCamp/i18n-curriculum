@@ -1,6 +1,6 @@
 ---
 id: 699e85648f18cf77dfce5c23
-title: Ellipses
+title: Ellissi
 challengeType: 11
 videoId: AwBM2AMwfu8
 dashedName: ellipses
@@ -8,32 +8,30 @@ dashedName: ellipses
 
 # --description--
 
-In this video, you will learn about ellipses, their standard equations, and how to identify their key features.
+In questo video imparerai cosa sono le ellissi, le loro equazioni standard e come identificarne le principali funzionalità.
 
 # --questions--
 
 ## --text--
 
-What is an ellipse?
+Cos'è un'ellisse?
 
 ## --answers--
 
-The set of points such that the sum of the distances from two fixed points is constant.
+L'insieme dei punti tale che la somma delle distanze da due punti fissi è costante.
 
 ---
 
-The set of points such that the distance from one fixed point is constant.
+L'insieme dei punti tale che la distanza da un punto fisso è costante.
 
 ---
 
-The set of points such that the product of the distances from two fixed points is constant.
+L'insieme dei punti tale che il prodotto delle distanze da due punti fissi è costante.
 
 ---
 
-The set of points equidistant from a line and a point.
+L'insieme dei punti equidistanti da una retta e da un punto.
 
 ## --video-solution--
 
 1
-
-

@@ -1,6 +1,6 @@
 ---
 id: 6939b0e1fac80c2b4fdf8ded
-title: Task 17
+title: Attività 17
 challengeType: 22
 dashedName: task-17
 lang: es
@@ -10,11 +10,11 @@ lang: es
 
 # --description--
 
-In this task, Basti spells out his nickname letter by letter.
+In questa attività, Basti compone il suo soprannome lettera per lettera.
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Ascolta l'audio e completa la frase qui sotto.
 
 # --fillInTheBlank--
 
@@ -28,7 +28,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This is the first letter Basti uses to start spelling his nickname.
+Questa è la prima lettera che Basti usa per iniziare a comporre il suo soprannome.
 
 ---
 
@@ -36,7 +36,7 @@ This is the first letter Basti uses to start spelling his nickname.
 
 ### --feedback--
 
-This letter comes after the "s" in "Basti".
+Questa lettera segue la "s" in "Basti".
 
 ---
 
@@ -44,11 +44,11 @@ This letter comes after the "s" in "Basti".
 
 ### --feedback--
 
-This is the final letter in "Basti". Listen for the vowel sound at the end.
+Questa è l'ultima lettera di "Basti". Ascolta il suono vocalico alla fine.
 
 # --explanation--
 
-Basti spells his nickname as `B-a-s-t-i`.
+Basti compone il suo soprannome come `B-a-s-t-i`.
 
 # --scene--
 

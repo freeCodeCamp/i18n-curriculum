@@ -1,6 +1,6 @@
 ---
 id: 699e0342138be64fa313138c
-title: Even and Odd Functions
+title: Funzioni pari e dispari
 challengeType: 11
 videoId: OCGl-6nrCtM
 dashedName: even-and-odd-functions
@@ -8,29 +8,29 @@ dashedName: even-and-odd-functions
 
 # --description--
 
-In this video, you will learn about even and odd functions.
+In questo video imparerai cosa sono le funzioni pari e dispari.
 
 # --questions--
 
 ## --text--
 
-What makes a graph symmetric with respect to the origin?
+Cosa rende un grafico simmetrico rispetto all'origine?
 
 ## --answers--
 
-If it has a 30 degree rotational symmetry about the origin.
+Se ha una simmetria rotazionale di 30 gradi rispetto all'origine.
 
 ---
 
-If it has a 180 degree rotational symmetry about the origin.
+Se ha una simmetria rotazionale di 180 gradi rispetto all'origine.
 
 ---
 
-If it has a 90 degree rotational symmetry about the origin.
+Se ha una simmetria rotazionale di 90 gradi rispetto all'origine.
 
 ---
 
-If it has a 360 degree rotational symmetry about the origin.
+Se ha una simmetria rotazionale di 360 gradi rispetto all'origine.
 
 ## --video-solution--
 

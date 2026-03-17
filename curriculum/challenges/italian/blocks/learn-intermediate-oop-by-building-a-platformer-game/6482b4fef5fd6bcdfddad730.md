@@ -1,19 +1,19 @@
 ---
 id: 6482b4fef5fd6bcdfddad730
-title: Step 12
+title: Passaggio 12
 challengeType: 0
 dashedName: step-12
 ---
 
 # --description--
 
-The next step is to define some characteristics for the main player of the game.
+Il passaggio successivo è definire alcune caratteristiche per il giocatore principale del gioco.
 
-Start by creating a new `class` called `Player`.
+Inizia creando una nuova `class` chiamata `Player`.
 
 # --hints--
 
-`Player` should be a class.
+`Player` dovrebbe essere una classe.
 
 ```js
 assert(
@@ -21,13 +21,13 @@ assert(
 );
 ```
 
-The `class` keyword should be used.
+La parola chiave `class` dovrebbe essere usata.
 
 ```js
 assert.match(code, /^\s*class/m);
 ```
 
-You should create a new class called `Player`
+Dovresti creare una nuova classe chiamata `Player`
 
 ```js
 assert.match(code, /class\s+Player\s*{\s*}\s*/);

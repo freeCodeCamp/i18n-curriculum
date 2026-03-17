@@ -1,15 +1,15 @@
 ---
 id: 686fdcfe055bcda9f651dd2e
-title: Build an Adjacency List to Matrix Converter
+title: Costruire un convertitore da lista di adiacenza a matrice
 challengeType: 27
 dashedName: build-an-adjacency-list-to-matrix-converter
 ---
 
 # --description--
 
-In this lab, you will build a function that converts an adjacency list representation of a graph into an adjacency matrix. An adjacency list is a dictionary where each key represents a node, and the corresponding value is a list of nodes that the key node is connected to. An adjacency matrix is a 2D array where the entry at position `[i][j]` is `1` if there's an edge from node `i` to node `j`, and `0` otherwise.
+In questo laboratorio costruirai una funzione che converte una rappresentazione di un grafo tramite lista di adiacenza in una matrice di adiacenza. Una lista di adiacenza è un dizionario in cui ogni chiave rappresenta un nodo e il valore corrispondente è una lista di nodi a cui il nodo chiave è collegato. Una matrice di adiacenza è un array 2D in cui la voce in posizione `[i][j]` è `1` se esiste un arco dal nodo `i` al nodo `j`, e `0` altrimenti.
 
-For example, given the adjacency list:
+Per esempio, data la lista di adiacenza:
 
 ```py
 {
@@ -20,7 +20,7 @@ For example, given the adjacency list:
 }
 ```
 
-The corresponding adjacency matrix would be:
+La matrice di adiacenza corrispondente sarebbe:
 
 ```py
 [
@@ -31,18 +31,18 @@ The corresponding adjacency matrix would be:
 ]
 ```
 
-**Objective:** Fulfill the user stories below and get all the tests to pass to complete the lab.
+**Obiettivo:** Completa le storie utente qui sotto e fai passare tutti i test per completare il laboratorio.
 
-**User Stories:**
+**Storie utente:**
 
-1. You should define a function named `adjacency_list_to_matrix` to convert an adjacency list to an adjacency matrix.
-2. The function should take a dictionary representing the adjacency list of an unweighted (either undirected or directed) graph as its argument.
-3. The function should:
-   - Convert the adjacency list to an adjacency matrix.
-   - Print each row in the adjacency matrix.
-   - Return the adjacency matrix.
+1. Devi definire una funzione chiamata `adjacency_list_to_matrix` per convertire una lista di adiacenza in una matrice di adiacenza.
+2. La funzione deve prendere come argomento un dizionario che rappresenta la lista di adiacenza di un grafo non pesato (sia non orientato che orientato).
+3. La funzione deve:
+   - Convertire la lista di adiacenza in una matrice di adiacenza.
+   - Stampare ogni riga della matrice di adiacenza.
+   - Restituire la matrice di adiacenza.
 
-For example, `adjacency_list_to_matrix({0: [2], 1: [2, 3], 2: [0, 1, 3], 3: [1, 2]})` should print:
+Per esempio, `adjacency_list_to_matrix({0: [2], 1: [2, 3], 2: [0, 1, 3], 3: [1, 2]})` dovrebbe stampare:
 
 ```md
 [0, 0, 1, 0]
@@ -51,12 +51,12 @@ For example, `adjacency_list_to_matrix({0: [2], 1: [2, 3], 2: [0, 1, 3], 3: [1, 
 [0, 1, 1, 0]
 ```
 
-and return `[[0, 0, 1, 0], [0, 0, 1, 1], [1, 1, 0, 1], [0, 1, 1, 0]]`.
+e restituire `[[0, 0, 1, 0], [0, 0, 1, 1], [1, 1, 0, 1], [0, 1, 1, 0]]`.
 
 
 # --hints--
 
-You should define a function named `adjacency_list_to_matrix`.
+Devi definire una funzione chiamata `adjacency_list_to_matrix`.
 
 ```js
 ({ 
@@ -66,7 +66,7 @@ You should define a function named `adjacency_list_to_matrix`.
 })
 ```
 
-The `adjacency_list_to_matrix` function should have one parameter.
+La funzione `adjacency_list_to_matrix` deve avere un parametro.
 
 ```js
 ({ test: () => assert(runPython(`
@@ -77,7 +77,7 @@ The `adjacency_list_to_matrix` function should have one parameter.
 })
 ```
 
-The function should correctly determine the number of nodes from the adjacency list.
+La funzione deve determinare correttamente il numero di nodi dalla lista di adiacenza.
 
 ```js
 ({ 
@@ -90,7 +90,7 @@ The function should correctly determine the number of nodes from the adjacency l
 })
 ```
 
-The function should correctly set matrix values to `1` for existing edges.
+La funzione deve impostare correttamente i valori della matrice a `1` per gli archi esistenti.
 
 ```js
 ({ 
@@ -105,30 +105,30 @@ The function should correctly set matrix values to `1` for existing edges.
 })
 ```
 
-The function should print each row of the matrix.
+La funzione deve stampare ogni riga della matrice.
 
 ```js
 ({ 
     test: () => runPython(`
         import io
         import sys
-
+        
         captured_output = io.StringIO()
         sys.stdout = captured_output
-
+        
         adj_list = {0: [1], 1: []}
         adjacency_list_to_matrix(adj_list)
-
+        
         sys.stdout = sys.__stdout__
         output = captured_output.getvalue()
-
+        
         assert "[0, 1]" in output
         assert "[0, 0]" in output
     `) 
 })
 ```
 
-The function should return the adjacency matrix.
+La funzione deve restituire la matrice di adiacenza.
 
 ```js
 ({ 
@@ -140,7 +140,7 @@ The function should return the adjacency matrix.
 })
 ```
 
-When given the adjacency list `{0: [1, 2], 1: [2], 2: [0, 3], 3: [2]}`, the function should return `[[0, 1, 1, 0], [0, 0, 1, 0], [1, 0, 0, 1], [0, 0, 1, 0]]`.
+Quando riceve la lista di adiacenza `{0: [1, 2], 1: [2], 2: [0, 3], 3: [2]}`, la funzione deve restituire `[[0, 1, 1, 0], [0, 0, 1, 0], [1, 0, 0, 1], [0, 0, 1, 0]]`.
 
 ```js
 ({ 
@@ -153,7 +153,7 @@ When given the adjacency list `{0: [1, 2], 1: [2], 2: [0, 3], 3: [2]}`, the func
 })
 ```
 
-When given the adjacency list `{0: [1], 1: [0]}`, the function should return `[[0, 1], [1, 0]]`.
+Quando riceve la lista di adiacenza `{0: [1], 1: [0]}`, la funzione deve restituire `[[0, 1], [1, 0]]`.
 
 ```js
 ({ 
@@ -166,7 +166,7 @@ When given the adjacency list `{0: [1], 1: [0]}`, the function should return `[[
 })
 ```
 
-When given the adjacency list `{0: [], 1: [], 2: []}`, the function should return `[[0, 0, 0], [0, 0, 0], [0, 0, 0]]`.
+Quando riceve la lista di adiacenza `{0: [], 1: [], 2: []}`, la funzione deve restituire `[[0, 0, 0], [0, 0, 0], [0, 0, 0]]`.
 
 ```js
 ({ 
@@ -192,7 +192,7 @@ When given the adjacency list `{0: [], 1: [], 2: []}`, the function should retur
 ```py
 def adjacency_list_to_matrix(adj_list):
     n = len(adj_list)
-
+    
     adj_matrix = [[0] * n for _ in range(n)]
 
     for src_node, neighbors in adj_list.items(): 

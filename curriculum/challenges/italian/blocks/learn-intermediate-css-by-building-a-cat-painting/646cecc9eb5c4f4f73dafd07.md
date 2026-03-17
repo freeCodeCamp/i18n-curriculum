@@ -1,29 +1,29 @@
 ---
 id: 646cecc9eb5c4f4f73dafd07
-title: Step 25
+title: Passaggio 25
 challengeType: 0
 dashedName: step-25
 ---
 
 # --description--
 
-Move the left ear into position by setting a position of `absolute`, a `top` of `-26px`, and a `left` of `-31px`.
+Sposta l'orecchio sinistro in posizione impostando una posizione `absolute`, una `top` di `-26px` e una `left` di `-31px`.
 
 # --hints--
 
-Your `.cat-left-ear` selector should have a `position` property set to `absolute`. Don't forget to add a semicolon.
+Il tuo selettore `.cat-left-ear` dovrebbe avere una proprietà `position` impostata su `absolute`. Non dimenticare di aggiungere un punto e virgola.
 
 ```js
 assert(new __helpers.CSSHelp(document).getStyle('.cat-left-ear')?.position === 'absolute')
 ```
 
-Your `.cat-left-ear` selector should have a `top` property set to `-26px`
+Il tuo selettore `.cat-left-ear` dovrebbe avere una proprietà `top` impostata su `-26px`
 
 ```js
 assert(new __helpers.CSSHelp(document).getStyle('.cat-left-ear')?.top === '-26px')
 ```
 
-Your `.cat-left-ear` selector should have a `left` property set to `-31px`
+Il tuo selettore `.cat-left-ear` dovrebbe avere una proprietà `left` impostata su `-31px`
 
 ```js
 assert(new __helpers.CSSHelp(document).getStyle('.cat-left-ear')?.left === '-31px')
@@ -83,7 +83,7 @@ body {
 
 --fcc-editable-region--
 .cat-left-ear {
-
+  
   border-left: 35px solid transparent;
   border-right: 35px solid transparent;
   border-bottom: 70px solid #5e5e5e;

@@ -1,6 +1,6 @@
 ---
 id: 67f38fac88ead216c0db1dcb
-title: Task 81
+title: Attività 81
 challengeType: 19
 dashedName: task-81
 lang: en-US
@@ -12,13 +12,13 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Ascolta l'audio e rispondi alla domanda qui sotto.
 
 # --questions--
 
 ## --text--
 
-Jessica didn't check that yet, but will do. What should she say?
+Jessica non ha ancora controllato, ma lo farà. Cosa dovrebbe dire?
 
 ## --answers--
 
@@ -30,7 +30,7 @@ ENaa826774
 
 ### --feedback--
 
-`Won't` is the contraction for `will not`. Jessica plans to check it.
+`Won't` è la contrazione di `will not`. Jessica ha intenzione di controllare.
 
 ---
 
@@ -46,11 +46,11 @@ EN97950753
 
 # --explanation--
 
-Jessica is responding to Jake's question, acknowledging that she has not checked yet but will do so. This response shows that she is ready to complete the task, which is in line with what Jake is asking about.
+Jessica risponde alla domanda di Jake, riconoscendo di non aver ancora controllato ma che lo farà. Questa risposta mostra che è pronta a completare l'attività, in linea con quanto chiede Jake.
 
-`No, I didn't` confirms that she hasn't checked yet.
+`No, I didn't` conferma che non ha ancora controllato.
 
-`I'll do that` shows her intention to complete the task soon.
+`I'll do that` mostra la sua intenzione di completare presto l'attività.
 
 # --scene--
 

@@ -1,6 +1,6 @@
 ---
 id: 67dd5dacf47e8ed984dc90da
-title: Task 17
+title: Attività 17
 challengeType: 19
 dashedName: task-17
 lang: en-US
@@ -12,13 +12,13 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Ascolta l'audio e rispondi alla domanda qui sotto.
 
 # --questions--
 
 ## --text--
 
-How could Alice answer briefly that there is no decision concerning the deadline at the moment?
+Come potrebbe Alice rispondere brevemente che al momento non c'è nessuna decisione riguardo alla scadenza?
 
 ## --answers--
 
@@ -38,7 +38,7 @@ EN391abad4
 
 ### --feedback--
 
-This doesn't relate to the question about setting the deadline.
+Questa risposta non riguarda la domanda sulla definizione della scadenza.
 
 ## --video-solution--
 
@@ -46,11 +46,11 @@ This doesn't relate to the question about setting the deadline.
 
 # --explanation--
 
-`Not yet.` is a short and natural way to say that something hasn't happened or been completed up to the present moment, but it may happen in the future. For example:
+`Not yet.` è un modo breve e naturale per dire che qualcosa non è ancora successo o completato fino a questo momento, ma potrebbe accadere in futuro. Per esempio:
 
-- Person 1: `Have you sent the email?` - Here, the person is asking about an email that should be sent.
+- Persona 1: `Have you sent the email?` - Qui la persona chiede di una email che dovrebbe essere inviata.
 
-- Person 2: `Not yet.` – This means the email hasn't been sent, but that the person still plans to send it.
+- Persona 2: `Not yet.` – Questo significa che l'email non è stata inviata, ma la persona ha ancora intenzione di inviarla.
 
 # --scene--
 

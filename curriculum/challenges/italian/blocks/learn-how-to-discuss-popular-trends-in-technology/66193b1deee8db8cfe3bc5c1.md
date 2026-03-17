@@ -1,6 +1,6 @@
 ---
 id: 66193b1deee8db8cfe3bc5c1
-title: Task 41
+title: Attività 41
 challengeType: 19
 dashedName: task-41
 lang: en-US
@@ -10,13 +10,13 @@ lang: en-US
 
 # --description--
 
-Listen to the audio and answer the question.
+Ascolta l'audio e rispondi alla domanda.
 
 # --questions--
 
 ## --text--
 
-What collaboration tools does Alice mention?
+Quali strumenti di collaborazione menziona Alice?
 
 ## --answers--
 
@@ -28,7 +28,7 @@ What collaboration tools does Alice mention?
 
 ### --feedback--
 
-Although these are important tools in today's world, they are not the tools Alice mentions.
+Anche se sono strumenti importanti nel mondo di oggi, non sono quelli che Alice menziona.
 
 ---
 
@@ -36,7 +36,7 @@ Although these are important tools in today's world, they are not the tools Alic
 
 ### --feedback--
 
-These are manual tools, not collaboration tools.
+Questi sono strumenti manuali, non strumenti di collaborazione.
 
 ---
 
@@ -44,7 +44,7 @@ These are manual tools, not collaboration tools.
 
 ### --feedback--
 
-These can be considered collaboration tools in a virtual environment, but Alice does not mention them.
+Possono essere considerati strumenti di collaborazione in un ambiente virtuale, ma Alice non li menziona.
 
 ## --video-solution--
 

@@ -1,6 +1,6 @@
 ---
 id: cf1111c1c11feddfaeb3bdef
-title: Sommare due numeri con JavaScript
+title: Aggiungere due numeri con JavaScript
 challengeType: 1
 forumTopicId: 16650
 dashedName: add-two-numbers-with-javascript
@@ -8,11 +8,11 @@ dashedName: add-two-numbers-with-javascript
 
 # --description--
 
-`Number` is a data type in JavaScript which represents numeric data.
+`Number` è un tipo di dato in JavaScript che rappresenta dati numerici.
 
-Ora proviamo a sommare due numeri usando JavaScript.
+Ora proviamo ad aggiungere due numeri usando JavaScript.
 
-JavaScript utilizza il simbolo `+` come operatore di addizione quando è posizionato tra due numeri.
+JavaScript usa il simbolo `+` come operatore di addizione quando è posto tra due numeri.
 
 **Esempio:**
 
@@ -24,7 +24,7 @@ const myVar = 5 + 10;
 
 # --instructions--
 
-Modificare lo `0` in modo che la somma sia uguale a `20`.
+Modifica `0` in modo che la somma sia uguale a `20`.
 
 # --hints--
 

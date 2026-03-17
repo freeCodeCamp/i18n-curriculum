@@ -1,46 +1,46 @@
 ---
 id: afd15382cdfb22c9efe8b7de
-title: Implement a DNA Pair Generator
+title: implementare un generatore di coppie di DNA
 challengeType: 26
 dashedName: implement-a-dna-pair-generator
 ---
 
 # --description--
 
-In the double helix of the DNA, the bases are always paired together: if on one strand there is an <em>A</em> base, on the other strand directly in front there is a <em>T</em> base, the other pair is <em>C</em> and <em>G</em>.
+Nella doppia elica del DNA, le basi sono sempre accoppiate insieme: se su un filamento c’è una base <em>A</em>, sul filamento opposto direttamente di fronte c’è una base <em>T</em>, l’altra coppia è <em>C</em> e <em>G</em>.
 
-In this lab, you will write a function to match the missing base pairs for the provided DNA strand. For each character in the provided string, find the base pair character.
+In questo laboratorio, scriverai una funzione per abbinare le basi mancanti per il filamento di DNA fornito. Per ogni carattere nella stringa fornita, trova il carattere della base accoppiata.
 
-For example, for the input `ATCG`, return `[["A", "T"], ["T", "A"], ["C", "G"], ["G", "C"]]`
+Per esempio, per l’input `ATCG`, restituisci `[["A", "T"], ["T", "A"], ["C", "G"], ["G", "C"]]`
 
-The <em>A</em> base gets paired with a <em>T</em> base, the <em>T</em> base is paired with a <em>A</em> base, the <em>C</em> is paired with the <em>G</em> base, and finally the <em>G</em> base is paired with a <em>C</em> base.
+La base <em>A</em> si abbina con la base <em>T</em>, la base <em>T</em> si abbina con la base <em>A</em>, la base <em>C</em> si abbina con la base <em>G</em>, e infine la base <em>G</em> si abbina con la base <em>C</em>.
 
-**Objective**: Fulfill the user stories below and get all the tests to pass to complete the lab.
+**Obiettivo**: soddisfa le storie utente qui sotto e fai superare tutti i test per completare il laboratorio.
 
-**User Stories:**
+**Storie utente:**
 
-1. You should have a `pairElement` function that takes a string of any length as an argument.
-1. The `pairElement` function should return a 2d array, where each inner array has two strings inside, the first string is one base from the input, and the second string the paired base.
-1. When given `A`, the function should pair it with `T`.
-1. When given `T`, the function should pair it with `A`.
-1. When given `C`, the function should pair it with `G`.
-1. When given `G`, the function should pair it with `C`.
+1. Dovresti avere una funzione `pairElement` che prende una stringa di qualsiasi lunghezza come argomento.
+1. La funzione `pairElement` dovrebbe restituire un array 2d, dove ogni array interno contiene due stringhe, la prima stringa è una base dell’input e la seconda stringa è la base accoppiata.
+1. Quando riceve `A`, la funzione dovrebbe abbinarla con `T`.
+1. Quando riceve `T`, la funzione dovrebbe abbinarla con `A`.
+1. Quando riceve `C`, la funzione dovrebbe abbinarla con `G`.
+1. Quando riceve `G`, la funzione dovrebbe abbinarla con `C`.
 
 # --hints--
 
-You should create a function named `pairElement`.
+Dovresti creare una funzione chiamata `pairElement`.
 
 ```js
 assert.isFunction(pairElement);
 ```
 
-`pairElement` should take a single argument.
+`pairElement` dovrebbe prendere un solo argomento.
 
 ```js
 assert.lengthOf(pairElement, 1);
 ```
 
-`pairElement("ATCGA")` should return `[["A","T"],["T","A"],["C","G"],["G","C"],["A","T"]]`.
+`pairElement("ATCGA")` dovrebbe restituire `[["A","T"],["T","A"],["C","G"],["G","C"],["A","T"]]`.
 
 ```js
 assert.deepEqual(pairElement('ATCGA'), [
@@ -52,7 +52,7 @@ assert.deepEqual(pairElement('ATCGA'), [
 ]);
 ```
 
-`pairElement("TTGAG")` should return `[["T","A"],["T","A"],["G","C"],["A","T"],["G","C"]]`.
+`pairElement("TTGAG")` dovrebbe restituire `[["T","A"],["T","A"],["G","C"],["A","T"],["G","C"]]`.
 
 ```js
 assert.deepEqual(pairElement('TTGAG'), [
@@ -64,7 +64,7 @@ assert.deepEqual(pairElement('TTGAG'), [
 ]);
 ```
 
-`pairElement("CTCTA")` should return `[["C","G"],["T","A"],["C","G"],["T","A"],["A","T"]]`.
+`pairElement("CTCTA")` dovrebbe restituire `[["C","G"],["T","A"],["C","G"],["T","A"],["A","T"]]`.
 
 ```js
 assert.deepEqual(pairElement('CTCTA'), [

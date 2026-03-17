@@ -1,6 +1,6 @@
 ---
 id: 67caefd11f4cf72cbf5bdd46
-title: Task 37
+title: Attività 37
 challengeType: 22
 dashedName: task-37
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Ascolta l'audio e completa la frase qui sotto.
 
 # --fillInTheBlank--
 
@@ -24,17 +24,17 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This two-word phrase is a casual way of saying "no" or "not exactly". It's often used when you want to politely disagree or give a softer, less direct response. The first letter of the first word is capitalized.
+Questa frase di due parole è un modo informale per dire "no" o "non proprio". Viene spesso usata quando vuoi dissentire educatamente o dare una risposta più morbida e meno diretta. La prima lettera della prima parola è maiuscola.
 
 # --explanation--
 
-`Not really` is commonly used to give a negative answer, but in a softer tone. It's more casual than simply saying `No`. For example:
+`Not really` viene comunemente usato per dare una risposta negativa, ma con un tono più morbido. È più informale rispetto a dire semplicemente `No`. Per esempio:
 
-Person 1: `Do you think this software is user-friendly?`
+Persona 1: `Do you think this software is user-friendly?`
 
-Person 2: `Not really.`
+Persona 2: `Not really.`
 
-This means it's not very user-friendly, but the speaker might not be completely certain.
+Questo significa che non è molto facile da usare, ma chi parla potrebbe non esserne completamente sicuro.
 
 # --scene--
 

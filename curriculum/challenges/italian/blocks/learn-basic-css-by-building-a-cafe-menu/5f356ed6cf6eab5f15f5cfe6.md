@@ -1,19 +1,19 @@
 ---
 id: 5f356ed6cf6eab5f15f5cfe6
-title: Step 20
+title: Passaggio 20
 challengeType: 0
 dashedName: step-20
 ---
 
 # --description--
 
-The `div` element is used mainly for design layout purposes, unlike the other content elements you have used so far. Aggiungi un elemento `div` all'interno dell'elemento `body` e poi sposta tutti gli altri elementi all'interno del nuovo elemento `div`.
+L'elemento `div` viene usato principalmente per scopi di layout grafico, a differenza degli altri elementi di contenuto che hai usato finora. Aggiungi un elemento `div` all'interno dell'elemento `body` e poi sposta tutti gli altri elementi dentro il nuovo `div`.
 
-All'interno del tag `div` di apertura, aggiungi l'attributo `id` con il valore `menu`.
+All'interno del tag di apertura `div`, aggiungi l'attributo `id` con valore `menu`.
 
 # --hints--
 
-Il tag di apertura `<div>` dovrebbe avere un attributo `id` impostato su `menu`.
+Il tuo tag di apertura `<div>` dovrebbe avere un attributo `id` impostato su `menu`.
 
 ```js
 assert.strictEqual(document.querySelector('div')?.id, 'menu');
@@ -25,19 +25,19 @@ Dovresti avere un tag di chiusura `</div>`.
 assert(code.match(/<\/div>/i));
 ```
 
-Non dovresti modificare l'elemento `body` esistente. Assicurati di non aver eliminato il tag di chiusura.
+Non dovresti modificare il tuo elemento `body` esistente. Assicurati di non aver eliminato il tag di chiusura.
 
 ```js
 assert.lengthOf(document.querySelectorAll('body'), 1);
 ```
 
-Your `div` element should be nested in the `body`.
+Il tuo elemento `div` dovrebbe essere annidato nel `body`.
 
 ```js
 assert.equal(document.querySelector('div')?.parentElement?.tagName, 'BODY');
 ```
 
-Dovresti spostare tutti gli altri elementi all'interno del nuovo `div`.
+Dovresti spostare tutti gli altri elementi dentro il nuovo `div`.
 
 ```js
 assert.lengthOf(document.querySelector('body > div#menu > main')?.children, 3);

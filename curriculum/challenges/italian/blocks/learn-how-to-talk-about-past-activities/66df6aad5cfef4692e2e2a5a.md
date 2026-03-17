@@ -1,11 +1,10 @@
 ---
 id: 66df6aad5cfef4692e2e2a5a
-title: Task 74
+title: Attività 74
 challengeType: 22
 dashedName: task-74
 lang: en-US
 ---
-
 <!--
 AUDIO REFERENCE:
 Linda: Not yet, but I anticipate we'll start receiving more detailed reports as more users navigate the updated interface.
@@ -13,7 +12,7 @@ Linda: Not yet, but I anticipate we'll start receiving more detailed reports as 
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Ascolta l'audio e completa la frase qui sotto.
 
 # --fillInTheBlank--
 
@@ -27,7 +26,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-A word that shows two actions happening at the same time or one action depending on another.
+Una parola che indica due azioni che avvengono contemporaneamente o un'azione che dipende da un'altra.
 
 ---
 
@@ -35,7 +34,7 @@ A word that shows two actions happening at the same time or one action depending
 
 ### --feedback--
 
-A word that indicates a greater quantity or number.
+Una parola che indica una quantità o un numero maggiore.
 
 ---
 
@@ -43,7 +42,7 @@ A word that indicates a greater quantity or number.
 
 ### --feedback--
 
-A word that refers to the people navigating the updated interface.
+Una parola che si riferisce alle persone che navigano l'interfaccia aggiornata.
 
 ---
 
@@ -51,15 +50,15 @@ A word that refers to the people navigating the updated interface.
 
 ### --feedback--
 
-A word that means to move around or through something, such as a website or an app.
+Una parola che significa muoversi dentro o attraverso qualcosa, come un sito web o un'app.
 
 # --explanation--
 
-`As` can be used to mean "while" or "when", showing that one action will happen while another action is taking place. For example:
+`As` può essere usato per significare "mentre" o "quando", mostrando che un'azione avverrà mentre un'altra è in corso. Per esempio:
 
-- `As I was walking home, they called me.` - They called you while you were walking home.
+- `As I was walking home, they called me.` - Ti hanno chiamato mentre tornavi a casa a piedi.
 
-- `You will get better at coding as you practice more.` - You will improve while or when you practice more.
+- `You will get better at coding as you practice more.` - Migliorerai mentre o quando ti eserciterai di più.
 
 # --scene--
 

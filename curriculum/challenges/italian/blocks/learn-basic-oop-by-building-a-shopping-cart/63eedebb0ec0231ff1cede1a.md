@@ -1,45 +1,45 @@
 ---
 id: 63eedebb0ec0231ff1cede1a
-title: Step 22
+title: Passaggio 22
 challengeType: 0
 dashedName: step-22
 ---
 
 # --description--
 
-Use the `.forEach()` method to loop through the `items` array. Pass an empty callback function that takes a single parameter `dessert`.
+Usa il metodo `.forEach()` per iterare sull'array `items`. Passa una funzione di callback vuota che prende un singolo parametro `dessert`.
 
 # --hints--
 
-You should use the `.forEach()` method on your `items` array.
+Dovresti usare il metodo `.forEach()` sul tuo array `items`.
 
 ```js
 const cart = new ShoppingCart();
 assert.match(cart.addItem.toString(), /items\.forEach\(/);
 ```
 
-Remember to use the `this` keyword to access the `items` array.
+Ricorda di usare la parola chiave `this` per consultare l'array `items`.
 
 ```js
 const cart = new ShoppingCart();
 assert.match(cart.addItem.toString(), /this\.items\.forEach\(/);
 ```
 
-You should pass a callback function to the `.forEach()` method.
+Dovresti passare una funzione di callback al metodo `.forEach()`.
 
 ```js
 const cart = new ShoppingCart();
 assert.match(cart.addItem.toString(), /this\.items\.forEach\(\s*function\s*\(/);
 ```
 
-Your callback function should take a single parameter.
+La tua funzione di callback dovrebbe prendere un singolo parametro.
 
 ```js
 const cart = new ShoppingCart();
 assert.match(cart.addItem.toString(), /this\.items\.forEach\(\s*function\s*\(\s*dessert\s*\)/);
 ```
 
-Your callback function should be empty.
+La tua funzione di callback dovrebbe essere vuota.
 
 ```js
 const cart = new ShoppingCart();

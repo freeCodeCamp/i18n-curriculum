@@ -1,6 +1,6 @@
 ---
 id: 685a6b1bbaea710fbdf98bc4
-title: Task 42
+title: Attività 42
 challengeType: 22
 dashedName: task-42
 lang: en-US
@@ -10,13 +10,13 @@ lang: en-US
 
 # --description--
 
-This is a review of the entire dialogue you just studied.
+Questa è una revisione dell'intero dialogo che hai appena studiato.
 
 # --instructions--
 
-Write the following words or phrases in the correct spot:
+Scrivi le seguenti parole o frasi nel posto corretto:
 
-`last month`, `a while since`, `next phase`, `good news`, `yesterday`, and `green light`.
+`last month`, `a while since`, `next phase`, `good news`, `yesterday`, e `green light`.
 
 # --fillInTheBlank--
 
@@ -40,7 +40,7 @@ Write the following words or phrases in the correct spot:
 
 ### --feedback--
 
-A way to say it has been some time since something happened.
+Un modo per dire che è passato un po' di tempo da quando è successo qualcosa.
 
 ---
 
@@ -48,7 +48,7 @@ A way to say it has been some time since something happened.
 
 ### --feedback--
 
-The day before today.
+Il giorno prima di oggi.
 
 ---
 
@@ -56,7 +56,7 @@ The day before today.
 
 ### --feedback--
 
-Positive or happy information.
+Informazioni positive o felici.
 
 ---
 
@@ -64,7 +64,7 @@ Positive or happy information.
 
 ### --feedback--
 
-The month before the current one.
+Il mese prima di quello attuale.
 
 ---
 
@@ -72,7 +72,7 @@ The month before the current one.
 
 ### --feedback--
 
-Permission to start something.
+Permesso di iniziare qualcosa.
 
 ---
 
@@ -80,4 +80,4 @@ Permission to start something.
 
 ### --feedback--
 
-The following part or step in a plan or project.
+La parte o il passaggio successivo in un piano o progetto.

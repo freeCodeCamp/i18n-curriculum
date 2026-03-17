@@ -1,6 +1,6 @@
 ---
 id: 67f36533ffaeffe3ac2dad2b
-title: Task 131
+title: Attività 131
 challengeType: 19
 dashedName: task-131
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Ascolta l'audio e rispondi alla domanda qui sotto.
 
 # --questions--
 
 ## --text--
 
-What is Jessica explaining?
+Cosa sta spiegando Jessica?
 
 ## --answers--
 
-There was a problem with the current update's schedule.
+C'è stato un problema con la pianificazione dell'aggiornamento attuale.
 
 ### --feedback--
 
-Jessica is talking about the feature's timing, not the schedule of the update itself.
+Jessica parla del momento in cui sarà disponibile la funzionalità, non della pianificazione dell'aggiornamento stesso.
 
 ---
 
-The budget tracking feature will be in the next update, not the current one.
+La funzionalità di monitoraggio del budget sarà nel prossimo aggiornamento, non in quello attuale.
 
 ---
 
-The budget tracking feature has been removed from the current update.
+La funzionalità di monitoraggio del budget è stata rimossa dall'aggiornamento attuale.
 
 ### --feedback--
 
-Jessica doesn't mention that the feature has been removed.
+Jessica non dice che la funzionalità è stata rimossa.
 
 ---
 
-The feature was mistakenly included in this update.
+La funzionalità è stata inclusa per errore in questo aggiornamento.
 
 ### --feedback--
 
-Jessica doesn't say the feature was mistakenly included.
+Jessica non dice che la funzionalità è stata inclusa per errore.
 
 ## --video-solution--
 
@@ -52,9 +52,9 @@ Jessica doesn't say the feature was mistakenly included.
 
 # --explanation--
 
-Jessica says, `The budget tracking feature is planned for the next update`, explaining that the feature is not included in the current update but will be added in the next one.
+Jessica dice, `The budget tracking feature is planned for the next update`, spiegando che la funzionalità non è inclusa nell'aggiornamento attuale ma sarà aggiunta nel prossimo.
 
-This clears up the confusion about the feature's timing.
+Questo chiarisce la confusione riguardo al momento in cui sarà disponibile la funzionalità.
 
 # --scene--
 

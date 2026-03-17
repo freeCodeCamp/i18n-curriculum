@@ -1,6 +1,6 @@
 ---
 id: cf1111c1c11feddfaeb5bdef
-title: Iterare con i cicli For in Javascript
+title: Iterare con i loop for in JavaScript
 challengeType: 1
 forumTopicId: 18219
 dashedName: iterate-with-javascript-for-loops
@@ -8,21 +8,21 @@ dashedName: iterate-with-javascript-for-loops
 
 # --description--
 
-You can run the same code multiple times by using a loop.
+Puoi eseguire lo stesso codice più volte usando un loop.
 
-Il tipo più comune di ciclo JavaScript è chiamato un ciclo `for` perché esso viene eseguito per ("for") un numero specifico di volte.
+Il tipo di loop più comune in JavaScript si chiama loop `for` perché viene eseguito per un numero specifico di volte.
 
-I cicli For sono dichiarati con tre espressioni facoltative separate da punti e virgola:
+I loop for si dichiarano con tre espressioni opzionali separate da punti e virgola:
 
-`for (a; b; c)`, dove `a` è l'istruzione di inizializzazione, `b` è la condizione, e `c` è l'espressione finale.
+`for (a; b; c)`, dove `a` è l’istruzione di inizializzazione, `b` è l’istruzione condizionale e `c` è l’espressione finale.
 
-L'istruzione di inizializzazione viene eseguita una sola volta prima dell'inizio del ciclo. È tipicamente usata per definire e configurare la variabile del ciclo.
+L’istruzione di inizializzazione viene eseguita una sola volta prima che il loop inizi. Di solito serve a definire e impostare la variabile del loop.
 
-La condizione viene valutata all'inizio di ogni iterazione del ciclo, e continuerà finché essa vale `true`. Quando la condizione è `false` all'inizio dell'iterazione, il ciclo terminerà l'esecuzione. Ciò significa che se la condizione inizia come false, il tuo ciclo non verrà mai eseguito.
+L’istruzione condizionale viene valutata all’inizio di ogni iterazione del loop e continua finché risulta `true`. Quando la condizione è `false` all’inizio dell’iterazione, il loop smette di eseguire. Questo significa che se la condizione è falsa all’inizio, il loop non verrà mai eseguito.
 
-L'espressione finale è eseguita alla fine di ogni iterazione del ciclo, prima del prossimo controllo delle condizioni e di solito viene utilizzata per aumentare o diminuire il contatore del ciclo.
+L’espressione finale viene eseguita alla fine di ogni iterazione del loop, prima del controllo della condizione successiva, e di solito serve a incrementare o decrementare il contatore del loop.
 
-Nell'esempio seguente inizializziamo con `i = 0` e iteriamo finché la nostra condizione `i < 5` è vera. Incrementeremo `i` di `1` ad ogni iterazione del ciclo con `i++` come espressione finale.
+Nell’esempio seguente inizializziamo con `i = 0` e iteriamo finché la nostra condizione `i < 5` è vera. Incrementeremo `i` di `1` in ogni iterazione con `i++` come espressione finale.
 
 ```js
 const ourArray = [];
@@ -32,15 +32,15 @@ for (let i = 0; i < 5; i++) {
 }
 ```
 
-`ourArray` ha ora il valore `[0, 1, 2, 3, 4]`.
+`ourArray` avrà ora il valore `[0, 1, 2, 3, 4]`.
 
 # --instructions--
 
-Usa un ciclo `for` per inserire i valori da 1 a 5 in `myArray`.
+Usa un loop `for` per inserire i valori da 1 a 5 in `myArray`.
 
 # --hints--
 
-Dovresti usare un ciclo `for`.
+Dovresti usare un loop `for` per questo.
 
 ```js
 assert(/for\s*\([^)]+?\)/.test(__helpers.removeJSComments(code)));

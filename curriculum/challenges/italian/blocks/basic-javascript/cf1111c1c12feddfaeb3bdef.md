@@ -1,6 +1,6 @@
 ---
 id: cf1111c1c12feddfaeb3bdef
-title: Usare la logica condizionale con le istruzioni If
+title: Usa la logica condizionale con le istruzioni if
 challengeType: 1
 forumTopicId: 18348
 dashedName: use-conditional-logic-with-if-statements
@@ -8,13 +8,13 @@ dashedName: use-conditional-logic-with-if-statements
 
 # --description--
 
-`if` statements are used to make decisions in code. The keyword `if` tells JavaScript to execute the code in the curly braces under certain conditions, defined in the parentheses. These conditions are known as `Boolean` conditions and they may only be `true` or `false`.
+Le istruzioni `if` sono usate per prendere decisioni nel codice. La parola chiave `if` dice a JavaScript di eseguire il codice nelle parentesi graffe sotto certe condizioni, definite nelle parentesi tonde. Queste condizioni sono note come condizioni `Boolean` e possono essere solo `true` o `false`.
 
-Quando la condizione valuta un `true`, il programma esegue la dichiarazione all'interno delle parentesi graffe. Quando la condizione booleana valuta un `false`, la dichiarazione all'interno delle parentesi graffe non sarà eseguita.
+Quando la condizione valuta a `true`, il programma esegue l'istruzione dentro le parentesi graffe. Quando la condizione booleana valuta a `false`, l'istruzione dentro le parentesi graffe non viene eseguita.
 
 **Pseudocodice**
 
-<blockquote>if (<i>condition is true</i>) {<br> <i>statement is executed</i><br>}</blockquote>
+<blockquote>if (<i>la condizione è vera</i>) {<br>  <i>l'istruzione viene eseguita</i><br>}</blockquote>
 
 **Esempio**
 
@@ -30,13 +30,13 @@ test(true);
 test(false);
 ```
 
-`test(true)` restituisce la stringa `It was true` e `test(false)` restituisce la stringa `It was false`.
+`test(true)` restituisce la stringa `It was true`, e `test(false)` restituisce la stringa `It was false`.
 
-Quando `test` viene chiamato con un valore di `true`, l'istruzione `if` valuta `myCondition` per vedere se è `true` o no. Dal momento che è `true`, la funzione restituisce `It was true`. Quando chiamiamo `test` con un valore di `false`, `myCondition` *non* è `true`, quindi l'istruzione tra parentesi graffe non viene eseguita e la funzione restituisce `It was false`.
+Quando `test` viene chiamata con un valore `true`, l'istruzione `if` valuta `myCondition` per vedere se è `true` o no. Poiché è `true`, la funzione restituisce `It was true`. Quando chiamiamo `test` con un valore `false`, `myCondition` *non* è `true` e l'istruzione nelle parentesi graffe non viene eseguita e la funzione restituisce `It was false`.
 
 # --instructions--
 
-Crea un comando `if` all'interno della funzione che restituisca `Yes, that was true` se il parametro `wasThatTrue` è `true` e restituisca `No, that was false` altrimenti.
+Crea un'istruzione `if` all'interno della funzione per restituire `Yes, that was true` se il parametro `wasThatTrue` è `true` e restituisci `No, that was false` altrimenti.
 
 # --hints--
 

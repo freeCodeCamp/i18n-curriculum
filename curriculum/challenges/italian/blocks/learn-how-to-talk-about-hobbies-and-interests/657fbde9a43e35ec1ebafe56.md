@@ -1,6 +1,6 @@
 ---
 id: 657fbde9a43e35ec1ebafe56
-title: Task 77
+title: Attività 77
 challengeType: 19
 dashedName: task-77
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --description--
 
-Listen to the audio and answer the question below.
+Ascolta l'audio e rispondi alla domanda qui sotto.
 
 # --questions--
 
 ## --text--
 
-What does the phrase `Would you like to come?` convey in this context?
+Cosa comunica la frase `Would you like to come?` in questo contesto?
 
 ## --answers--
 
-Declining an invitation.
+Rifiutare un invito.
 
 ### --feedback--
 
-The phrase doesn't mean saying "no". It is about offering an invitation.
+La frase non significa dire "no". Si tratta di fare un invito.
 
 ---
 
-Extending an invitation.
+Estendere un invito.
 
 ---
 
-Expressing gratitude.
+Esprimere gratitudine.
 
 ### --feedback--
 
-The phrase doesn't mean "thank you". It is about inviting someone.
+La frase non significa "grazie". Si tratta di invitare qualcuno.
 
 ---
 
-Asking for information.
+Chiedere informazioni.
 
 ### --feedback--
 
-The phrase isn't a question to get information, but a polite invitation to an event.
+La frase non è una domanda per ottenere informazioni, ma un invito cortese a un evento.
 
 ## --video-solution--
 

@@ -1,6 +1,6 @@
 ---
 id: 699e8ca68f18cf77dfce5c27
-title: Difference Quotient
+title: Quoziente di differenza
 challengeType: 11
 videoId: D5ajV73gC1k
 dashedName: difference-quotient
@@ -8,31 +8,30 @@ dashedName: difference-quotient
 
 # --description--
 
-In this video, you will learn about the difference quotient.
+In questo video imparerai cos’è il quoziente di differenza.
 
 # --questions--
 
 ## --text--
 
-What is a secant line?
+Cos’è una retta secante?
 
 ## --answers--
 
-A line that is always parallel to the x-axis.
+Una retta che è sempre parallela all’asse x.
 
 ---
 
-A vertical line that intersects the y-axis.
+Una retta verticale che interseca l’asse y.
 
 ---
 
-A line that stretches between two points on the graph of a function.
+Una retta che si estende tra due punti sul grafico di una funzione.
 
 ---
 
-A line that touches the graph of a function at exactly one point.
+Una retta che tocca il grafico di una funzione in un solo punto.
 
 ## --video-solution--
 
 3
-

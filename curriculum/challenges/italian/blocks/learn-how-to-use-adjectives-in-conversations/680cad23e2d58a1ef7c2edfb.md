@@ -1,6 +1,6 @@
 ---
 id: 680cad23e2d58a1ef7c2edfb
-title: Task 19
+title: Attività 19
 challengeType: 22
 dashedName: task-19
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Ascolta l’audio e completa la frase qui sotto.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This word is used to point to specific items that are close to the speaker.
+Questa parola si usa per indicare elementi specifici che sono vicini a chi parla.
 
 ---
 
@@ -32,13 +32,13 @@ This word is used to point to specific items that are close to the speaker.
 
 ### --feedback--
 
-This compound word means something that can handle a large amount of work, storage, or energy. Remember to use `-`.
+Questa parola composta indica qualcosa che può gestire una grande quantità di lavoro, archiviazione o energia. Ricorda di usare `-`.
 
 # --explanation--
 
-`High-capacity` describes something designed to manage or hold a large amount compared to standard versions. For example:
+`High-capacity` descrive qualcosa progettato per gestire o contenere una quantità maggiore rispetto alle versioni standard. Per esempio:
 
-`We installed high-capacity batteries in the new devices.` – This means the batteries can store more power and last longer, which is useful in tech equipment.
+`We installed high-capacity batteries in the new devices.` – Questo significa che le batterie possono immagazzinare più energia e durare più a lungo, cosa utile nei dispositivi tecnologici.
 
 # --scene--
 

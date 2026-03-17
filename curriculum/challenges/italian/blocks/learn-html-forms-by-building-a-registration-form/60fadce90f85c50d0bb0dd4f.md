@@ -1,17 +1,17 @@
 ---
 id: 60fadce90f85c50d0bb0dd4f
-title: Step 47
+title: Passaggio 47
 challengeType: 0
 dashedName: step-47
 ---
 
 # --description--
 
-To give the `fieldset` elements a bit of separation, select them and give them a `border-bottom` of `3px solid #3b3b4f`.
+Per dare un po’ di separazione agli elementi `fieldset`, selezionali e imposta loro un `border-bottom` di `3px solid #3b3b4f`.
 
 # --hints--
 
-Dovresti assegnare agli elementi `fieldset` una proprietà `border-bottom` con il valore `3px solid #3b3b4f`.
+Dovresti impostare agli elementi `fieldset` un `border-bottom` di `3px solid #3b3b4f`.
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('fieldset')?.borderBottom, '3px solid rgb(59, 59, 79)');

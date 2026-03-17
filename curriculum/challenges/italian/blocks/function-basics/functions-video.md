@@ -1,6 +1,6 @@
 ---
 id: 699dfa14138be64fa3131389
-title: Functions
+title: Funzioni
 challengeType: 11
 videoId: qyuFN2AKCBw
 dashedName: functions
@@ -8,29 +8,29 @@ dashedName: functions
 
 # --description--
 
-Instructor Dr. Linda Green, a lecturer at the University of North Carolina at Chapel Hill, will teach you the basics of functions.
+L'istruttrice Dr.ssa Linda Green, docente all'Università della Carolina del Nord a Chapel Hill, ti insegnerà le basi delle funzioni.
 
 # --questions--
 
 ## --text--
 
-What is the domain of a function?
+Cos'è il dominio di una funzione?
 
 ## --answers--
 
-All possible a-values.
+Tutti i possibili valori di a.
 
 ---
 
-All possible y-values.
+Tutti i possibili valori di y.
 
 ---
 
-All possible x-values.
+Tutti i possibili valori di x.
 
 ---
 
-All possible z-values.
+Tutti i possibili valori di z.
 
 ## --video-solution--
 

@@ -1,6 +1,6 @@
 ---
 id: 695fea6173bbffcaa3ffc36d
-title: Task 10
+title: Attività 10
 challengeType: 19
 dashedName: task-10
 lang: es
@@ -10,19 +10,19 @@ lang: es
 
 # --description--
 
-There are two common ways to ask for someone's name in Spanish.
+Ci sono due modi comuni per chiedere il nome di qualcuno in spagnolo.
 
-Both are used in everyday Spanish and mean the same thing. They're just structured differently.
+Entrambi si usano nello spagnolo quotidiano e hanno lo stesso significato. Sono solo strutturati in modo diverso.
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Ascolta l'audio e rispondi alla domanda qui sotto.
 
 # --questions--
 
 ## --text--
 
-Which of the following questions **is similar** to what you hear in the audio?
+Quale delle seguenti domande **è simile** a quella che senti nell'audio?
 
 ## --answers--
 
@@ -34,7 +34,7 @@ Which of the following questions **is similar** to what you hear in the audio?
 
 ### --feedback--
 
-This question asks where someone lives.
+Questa domanda chiede dove abita qualcuno.
 
 ---
 
@@ -42,7 +42,7 @@ This question asks where someone lives.
 
 ### --feedback--
 
-This asks for someone's last name.
+Questa chiede il cognome di qualcuno.
 
 ---
 
@@ -50,7 +50,7 @@ This asks for someone's last name.
 
 ### --feedback--
 
-This asks if someone has a nickname.
+Questa chiede se qualcuno ha un soprannome.
 
 ## --video-solution--
 
@@ -58,16 +58,16 @@ This asks if someone has a nickname.
 
 # --explanation--
 
-Esteban says `¿Cómo te llamas?`. This is one of the most common ways to ask for someone's name in Spanish. Another very common question with the same meaning is:
+Esteban dice `¿Cómo te llamas?`. Questo è uno dei modi più comuni per chiedere il nome di qualcuno in spagnolo. Un'altra domanda molto comune con lo stesso significato è:
 
 `¿Cuál es tu nombre?`
 
-Both questions are used in everyday Spanish to ask for a person's name. They are simply structured differently:
+Entrambe le domande si usano nello spagnolo quotidiano per chiedere il nome di una persona. Sono semplicemente strutturate in modo diverso:
 
-- `¿Cómo te llamas?` uses the verb `llamarse` (to be called).
-- `¿Cuál es tu nombre?` asks directly for the name as a noun.
+- `¿Cómo te llamas?` usa il verbo `llamarse` (chiamarsi).
+- `¿Cuál es tu nombre?` chiede direttamente il nome come sostantivo.
 
-In this task, the correct answer is the option that asks for someone's name.
+In questa attività, la risposta corretta è l'opzione che chiede il nome di qualcuno.
 
 # --scene--
 

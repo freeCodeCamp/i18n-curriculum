@@ -1,6 +1,6 @@
 ---
 id: 67cadf5ea48ca37df972fac6
-title: Task 124
+title: Attività 124
 challengeType: 19
 dashedName: task-124
 lang: en-US
@@ -10,51 +10,51 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Ascolta l'audio e rispondi alla domanda qui sotto.  
 
 # --questions--
 
 ## --text--
 
-What does Maria mention as the most important request from the team?
+Qual è la richiesta più importante che Maria menziona dal team?  
 
 ## --answers--
 
-They need more help.
+Hanno bisogno di più aiuto.  
 
 ---
 
-They want a longer deadline.
+Vogliono una scadenza più lunga.  
 
 ### --feedback--
 
-Maria does not mention extending the deadline.
+Maria non menziona di voler estendere la scadenza.
 
 ---
 
-They would like to reduce the number of tasks.
+Vorrebbero ridurre il numero di attività.
 
 ### --feedback--
 
-Maria does not mention reducing the number of tasks.
+Maria non menziona di voler ridurre il numero di attività.  
 
 ---
 
-They are asking for more meetings.
+Chiedono più riunioni.  
 
 ### --feedback--
 
-Maria does not mention additional meetings.
+Maria non menziona riunioni aggiuntive.
 
 ## --video-solution--
 
-1
+1  
 
 # --explanation--
 
-`First` is used when you want to number actions in order of importance or time. In this case, Maria is listing what the team needs, starting with what seems to be the most important request (having more support). Another example:
+`First` si usa quando vuoi numerare le azioni in ordine di importanza o di tempo. In questo caso, Maria elenca ciò di cui il team ha bisogno, iniziando da quella che sembra la richiesta più importante (avere più supporto). Un altro esempio:
 
-`First, we should analyze the problem. Then, we can discuss solutions.` - This means analyzing the problem comes before anything else.
+`First, we should analyze the problem. Then, we can discuss solutions.` - Questo significa che analizzare il problema viene prima di tutto il resto.
 
 # --scene--
 

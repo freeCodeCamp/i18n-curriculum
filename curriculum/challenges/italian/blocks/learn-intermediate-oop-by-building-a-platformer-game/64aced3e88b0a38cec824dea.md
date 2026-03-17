@@ -1,19 +1,19 @@
 ---
 id: 64aced3e88b0a38cec824dea
-title: Step 43
+title: Passaggio 43
 challengeType: 0
 dashedName: step-43
 ---
 
 # --description--
 
-The next step is to update the player's position as it moves throughout the game.
+Il passaggio successivo è aggiornare la posizione del giocatore mentre si muove durante il gioco.
 
-Below your `ctx.clearRect()`, call the `update()` method on the player.
+Sotto il tuo `ctx.clearRect()`, chiama il metodo `update()` sul giocatore.
 
 # --hints--
 
-You should call the `update()` method on the player.
+Dovresti chiamare il metodo `update()` sul giocatore.
 
 ```js
 assert.match(code, /\s*player\s*\.\s*update\s*\(\s*\)\s*;?/);
@@ -189,7 +189,7 @@ class Player {
     ctx.fillStyle = "#99c9ff";
     ctx.fillRect(this.position.x, this.position.y, this.width, this.height);
   }
-
+  
   update() {
     this.draw();
     this.position.x += this.velocity.x;

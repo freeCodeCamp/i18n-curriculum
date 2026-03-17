@@ -1,6 +1,6 @@
 ---
 id: 657b72cbdef32ec0b1a24afb
-title: Task 30
+title: Attività 30
 challengeType: 19
 dashedName: task-30
 lang: en-US
@@ -10,15 +10,15 @@ lang: en-US
 
 # --description--
 
-When you hear about different types of guitars, two common kinds might come up: `electric` and `acoustic`.
+Quando senti parlare di diversi tipi di chitarre, possono comparire due tipi comuni: `electric` e `acoustic`.
 
-`Electric guitars` usually need something called an amplifier to be loud enough to hear, while `acoustic guitars` can be heard without any extra equipment.
+`Electric guitars` di solito hanno bisogno di qualcosa chiamato amplificatore per essere abbastanza forti da sentire, mentre `acoustic guitars` si possono sentire senza alcuna attrezzatura aggiuntiva.
 
 # --questions--
 
 ## --text--
 
-What type of guitar does Sophie prefer?
+Quale tipo di chitarra preferisce Sophie?
 
 ## --answers--
 
@@ -30,7 +30,7 @@ Acoustic guitar
 
 ### --feedback--
 
-Sophie makes it very clear which type of guitar she likes. The one she prefers needs an amplifier to be loud.
+Sophie rende molto chiaro quale tipo di chitarra le piace. Quella che preferisce ha bisogno di un amplificatore per essere forte. 
 
 ## --video-solution--
 

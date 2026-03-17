@@ -1,6 +1,6 @@
 ---
 id: 699e855a8f18cf77dfce5c21
-title: Law of Sines
+title: Legge dei seni
 challengeType: 11
 videoId: Arm0baqLKTo
 dashedName: law-of-sines
@@ -8,32 +8,30 @@ dashedName: law-of-sines
 
 # --description--
 
-In this video, you will learn about the Law of Sines.
+In questo video imparerai la legge dei seni.
 
 # --questions--
 
 ## --text--
 
-What can the Law of Sines be used to find?
+Per cosa può essere usata la legge dei seni?
 
 ## --answers--
 
-To solve triangles that are right triangles.
+Per risolvere triangoli che sono triangoli rettangoli.
 
 ---
 
-To solve triangles that are not necessarily right triangles.
+Per risolvere triangoli che non sono necessariamente triangoli rettangoli.
 
 ---
 
-To solve triangles that are equilateral triangles.
+Per risolvere triangoli che sono triangoli equilateri.
 
 ---
 
-To solve triangles that are isosceles triangles.
+Per risolvere triangoli che sono triangoli isosceli.
 
 ## --video-solution--
 
 2
-
-

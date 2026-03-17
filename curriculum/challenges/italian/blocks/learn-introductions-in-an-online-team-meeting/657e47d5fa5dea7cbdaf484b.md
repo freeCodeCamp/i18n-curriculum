@@ -1,6 +1,6 @@
 ---
 id: 657e47d5fa5dea7cbdaf484b
-title: "Dialogue 5: Meeting a Client"
+title: "Dialogo 5: incontrare un client"
 challengeType: 21
 dashedName: dialogue-meeting-a-client
 lang: en-US
@@ -8,11 +8,11 @@ lang: en-US
 
 # --description--
 
-Watch the video below to understand the context of the upcoming lessons.
+Guarda il video qui sotto per capire il contesto delle prossime lezioni.
 
 # --assignment--
 
-Watch the video.
+Guarda il video.
 
 # --scene--
 

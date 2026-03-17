@@ -1,6 +1,6 @@
 ---
 id: 68443eddeab5bb2d7d6e44bf
-title: Task 45
+title: Attività 45
 challengeType: 22
 dashedName: task-45
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Ascolta l'audio e completa la frase qui sotto.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This two-word phrase means to arrange or prepare something for use.
+Questa frase di due parole significa organizzare o preparare qualcosa per l'uso.
 
 ---
 
@@ -32,17 +32,17 @@ This two-word phrase means to arrange or prepare something for use.
 
 ### --feedback--
 
-This two-word phrase refers to a space where employees can relax from work.
+Questa frase di due parole indica uno spazio dove i dipendenti possono rilassarsi dal lavoro.
 
 # --explanation--
 
-`Set up` means to prepare or arrange something for use. For example:
+`Set up` significa preparare o organizzare qualcosa per l'uso. Per esempio:
 
-`We need to set up the new computers before the meeting.` – This means to make them ready.
+`We need to set up the new computers before the meeting.` – Questo significa renderli pronti.
 
-`Break room` is a place in an office where people rest, eat, or relax. For example:
+`Break room` è un luogo in un ufficio dove le persone si riposano, mangiano o si rilassano. Per esempio:
 
-`Let's meet in the break room after lunch.` – This refers to a space meant for taking a break.
+`Let's meet in the break room after lunch.` – Questo indica uno spazio destinato a fare una pausa.
 
 # --scene--
 

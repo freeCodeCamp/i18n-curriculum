@@ -1,37 +1,37 @@
 ---
 id: bd7157d8c242eddfaeb5bd13
-title: Build a Markdown Previewer
+title: Costruisci un visualizzatore markdown
 challengeType: 3
 forumTopicId: 301372
 dashedName: build-a-markdown-previewer
 ---
 
 # --description--
-**Note:** **React 18 has known incompatibilities with the tests for this project (see [issue](https://github.com/freeCodeCamp/freeCodeCamp/issues/45922))**
+**Nota:** **React 18 ha incompatibilità note con i test di questo progetto (vedi [issue](https://github.com/freeCodeCamp/freeCodeCamp/issues/45922))**
 
-**Objective:** Build an app that is functionally similar to this: <a href="https://markdown-previewer.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://markdown-previewer.freecodecamp.rocks/</a>.
+**Obiettivo:** Costruisci un'app che sia funzionalmente simile a questa: <a href="https://markdown-previewer.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://markdown-previewer.freecodecamp.rocks/</a>.
 
-Fulfill the below user stories and get all of the tests to pass. Use whichever libraries or APIs you need. Give it your own personal style.
+Completa le seguenti storie utente e fai in modo che tutti i test vengano superati. Usa le librerie o le API che preferisci. Dai il tuo stile personale.
 
-You can use any mix of HTML, JavaScript, CSS, Bootstrap, SASS, React, Redux, and jQuery to complete this project. You should use a front-end framework (like React for example) because this section is about learning front-end frameworks. Additional technologies not listed above are not recommended and using them is at your own risk. We are looking at supporting other front-end frameworks like Angular and Vue, but they are not currently supported. We will accept and try to fix all issue reports that use the suggested technology stack for this project. Happy coding!
+Puoi usare qualsiasi combinazione di HTML, JavaScript, CSS, Bootstrap, SASS, React, Redux e jQuery per completare questo progetto. Dovresti usare un framework front-end (come React per esempio) perché questa sezione riguarda l’apprendimento dei framework front-end. Tecnologie aggiuntive non elencate sopra non sono raccomandate e usarle è a tuo rischio. Stiamo valutando il supporto per altri framework front-end come Angular e Vue, ma al momento non sono supportati. Accetteremo e cercheremo di risolvere tutti i problemi segnalati che usano lo stack tecnologico suggerito per questo progetto. Buona programmazione!
 
-**User Story #1:** I can see a `textarea` element with a corresponding `id="editor"`.
+**Storia utente #1:** Posso vedere un elemento `textarea` con un corrispondente `id="editor"`.
 
-**User Story #2:** I can see an element with a corresponding `id="preview"`.
+**Storia utente #2:** Posso vedere un elemento con un corrispondente `id="preview"`.
 
-**User Story #3:** When I enter text into the `#editor` element, the `#preview` element is updated as I type to display the content of the textarea.
+**Storia utente #3:** Quando inserisco testo nell’elemento `#editor`, l’elemento `#preview` si aggiorna mentre digito per mostrare il contenuto dell’area di testo.
 
-**User Story #4:** When I enter GitHub flavored markdown into the `#editor` element, the text is rendered as HTML in the `#preview` element as I type (HINT: You don't need to parse Markdown yourself - you can import the Marked library for this: <https://cdnjs.com/libraries/marked>).
+**Storia utente #4:** Quando inserisco markdown in stile GitHub nell’elemento `#editor`, il testo viene renderizzato come HTML nell’elemento `#preview` mentre digito (SUGGERIMENTO: Non devi analizzare il Markdown da solo — puoi importare la libreria Marked per questo: <https://cdnjs.com/libraries/marked>).
 
-**User Story #5:** When my markdown previewer first loads, the default text in the `#editor` field should contain valid markdown that represents at least one of each of the following elements: a heading element (H1 size), a sub heading element (H2 size), a link, inline code, a code block, a list item, a blockquote, an image, and bolded text.
+**Storia utente #5:** Quando il mio visualizzatore markdown si carica per la prima volta, il testo predefinito nel campo `#editor` dovrebbe contenere markdown valido che rappresenta almeno uno di ciascuno dei seguenti elementi: un elemento intestazione (dimensione H1), un elemento sottotitolo (dimensione H2), un collegamento, codice in linea, un blocco di codice, un elemento di lista, una citazione, un’immagine e testo in grassetto.
 
-**User Story #6:** When my markdown previewer first loads, the default markdown in the `#editor` field should be rendered as HTML in the `#preview` element.
+**Storia utente #6:** Quando il mio visualizzatore markdown si carica per la prima volta, il markdown predefinito nel campo `#editor` dovrebbe essere renderizzato come HTML nell’elemento `#preview`.
 
-**Optional Bonus (you do not need to make this test pass):** My markdown previewer interprets carriage returns and renders them as `br` (line break) elements.
+**Bonus opzionale (non è necessario superare questo test):** Il mio visualizzatore markdown interpreta i ritorni a capo e li renderizza come elementi `br` (interruzione di riga).
 
-You can build your project by <a href='https://codepen.io/pen?template=MJjpwO' target='_blank' rel="noopener noreferrer nofollow">using this CodePen template</a> and clicking `Save` to create your own pen. If you prefer to use another environment, then put this `<script>` tag into the body of your `index.html` file: `<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>`
+Puoi costruire il tuo progetto <a href='https://codepen.io/pen?template=MJjpwO' target='_blank' rel="noopener noreferrer nofollow">usando questo modello CodePen</a> e cliccando `Save` per creare il tuo pen. Se preferisci usare un altro ambiente, inserisci questo tag `<script>` nel corpo del tuo file `index.html`: `<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>`
 
-Once you're done, submit the URL to your working project with all its tests passing.
+Quando hai finito, invia l’URL del tuo progetto funzionante con tutti i test superati.
 
 # --solutions--
 

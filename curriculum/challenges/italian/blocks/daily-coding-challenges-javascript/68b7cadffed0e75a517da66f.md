@@ -1,32 +1,32 @@
 ---
 id: 68b7cadffed0e75a517da66f
-title: "Challenge 50: Longest Word"
+title: "Sfida 50: parola più lunga"
 challengeType: 28
 dashedName: challenge-50
 ---
 
 # --description--
 
-Given a sentence, return the longest word in the sentence.
+Data una frase, restituisci la parola più lunga nella frase.
 
-- Ignore periods (`.`) when determining word length.
-- If multiple words are ties for the longest, return the first one that occurs.
+- Ignora i punti (`.`) quando determini la lunghezza della parola.
+- Se più parole hanno la stessa lunghezza massima, restituisci la prima che compare.
 
 # --hints--
 
-`getLongestWord("coding is fun")` should return `"coding"`.
+`getLongestWord("coding is fun")` dovrebbe restituire `"coding"`.
 
 ```js
 assert.equal(getLongestWord("coding is fun"), "coding");
 ```
 
-`getLongestWord("Coding challenges are fun and educational.")` should return `"educational"`.
+`getLongestWord("Coding challenges are fun and educational.")` dovrebbe restituire `"educational"`.
 
 ```js
 assert.equal(getLongestWord("Coding challenges are fun and educational."), "educational");
 ```
 
-`getLongestWord("This sentence has multiple long words.")` should return `"sentence"`.
+`getLongestWord("This sentence has multiple long words.")` dovrebbe restituire `"sentence"`.
 
 ```js
 assert.equal(getLongestWord("This sentence has multiple long words."), "sentence");

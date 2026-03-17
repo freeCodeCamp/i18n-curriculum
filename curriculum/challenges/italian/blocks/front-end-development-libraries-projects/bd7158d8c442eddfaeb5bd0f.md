@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c442eddfaeb5bd0f
-title: Build a 25 + 5 Clock
+title: Costruisci un orologio 25 + 5
 challengeType: 3
 forumTopicId: 301373
 dashedName: build-a-25--5-clock
@@ -8,73 +8,73 @@ dashedName: build-a-25--5-clock
 
 # --description--
 
-**Note:** **React 18 has known incompatibilities with the tests for this project (see [issue](https://github.com/freeCodeCamp/freeCodeCamp/issues/45922))**
+**Nota:** **React 18 presenta incompatibilità note con i test di questo progetto (vedi [issue](https://github.com/freeCodeCamp/freeCodeCamp/issues/45922))**
 
-**Objective:** Build an app that is functionally similar to this: <a href="https://25--5-clock.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://25--5-clock.freecodecamp.rocks</a>.
+**Obiettivo:** Costruisci un'app che sia funzionalmente simile a questa: <a href="https://25--5-clock.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://25--5-clock.freecodecamp.rocks</a>.
 
-Fulfill the below user stories and get all of the tests to pass. Use whichever libraries or APIs you need. Give it your own personal style.
+Completa le seguenti storie utente e fai in modo che tutti i test vengano superati. Usa le librerie o le API che preferisci. Dai il tuo tocco personale.
 
-You can use any mix of HTML, JavaScript, CSS, Bootstrap, SASS, React, Redux, and jQuery to complete this project. You should use a front-end framework (like React for example) because this section is about learning front-end frameworks. Additional technologies not listed above are not recommended and using them is at your own risk. We are looking at supporting other front-end frameworks like Angular and Vue, but they are not currently supported. We will accept and try to fix all issue reports that use the suggested technology stack for this project. Happy coding!
+Puoi usare qualsiasi combinazione di HTML, JavaScript, CSS, Bootstrap, SASS, React, Redux e jQuery per completare questo progetto. Dovresti usare un framework front-end (come React per esempio) perché questa sezione riguarda l'apprendimento dei framework front-end. Tecnologie aggiuntive non elencate sopra non sono raccomandate e usarle è a tuo rischio. Stiamo valutando il supporto per altri framework front-end come Angular e Vue, ma al momento non sono supportati. Accetteremo e cercheremo di risolvere tutti i problemi segnalati che usano lo stack tecnologico suggerito per questo progetto. Buona programmazione!
 
-**User Story #1:** I can see an element with `id="break-label"` that contains a string (e.g. "Break Length").
+**Storia utente #1:** Posso vedere un elemento con `id="break-label"` che contiene una stringa (es. "Break Length").
 
-**User Story #2:** I can see an element with `id="session-label"` that contains a string (e.g. "Session Length").
+**Storia utente #2:** Posso vedere un elemento con `id="session-label"` che contiene una stringa (es. "Session Length").
 
-**User Story #3:** I can see two clickable elements with corresponding IDs: `id="break-decrement"` and `id="session-decrement"`.
+**Storia utente #3:** Posso vedere due elementi cliccabili con gli id corrispondenti: `id="break-decrement"` e `id="session-decrement"`.
 
-**User Story #4:** I can see two clickable elements with corresponding IDs: `id="break-increment"` and `id="session-increment"`.
+**Storia utente #4:** Posso vedere due elementi cliccabili con gli id corrispondenti: `id="break-increment"` e `id="session-increment"`.
 
-**User Story #5:** I can see an element with a corresponding `id="break-length"`, which by default (on load) displays a value of 5.
+**Storia utente #5:** Posso vedere un elemento con `id="break-length"` corrispondente, che per impostazione predefinita (all'avvio) mostra un valore di 5.
 
-**User Story #6:** I can see an element with a corresponding `id="session-length"`, which by default displays a value of 25.
+**Storia utente #6:** Posso vedere un elemento con `id="session-length"` corrispondente, che per impostazione predefinita mostra un valore di 25.
 
-**User Story #7:** I can see an element with a corresponding `id="timer-label"`, that contains a string indicating a session is initialized (e.g. "Session").
+**Storia utente #7:** Posso vedere un elemento con `id="timer-label"` corrispondente, che contiene una stringa che indica che una sessione è iniziata (es. "Session").
 
-**User Story #8:** I can see an element with corresponding `id="time-left"`. NOTE: Paused or running, the value in this field should always be displayed in `mm:ss` format (i.e. 25:00).
+**Storia utente #8:** Posso vedere un elemento con `id="time-left"` corrispondente. NOTA: in pausa o in esecuzione, il valore in questo campo deve sempre essere mostrato nel formato `mm:ss` (es. 25:00).
 
-**User Story #9:** I can see a clickable element with a corresponding `id="start_stop"`.
+**Storia utente #9:** Posso vedere un elemento cliccabile con `id="start_stop"` corrispondente.
 
-**User Story #10:** I can see a clickable element with a corresponding `id="reset"`.
+**Storia utente #10:** Posso vedere un elemento cliccabile con `id="reset"` corrispondente.
 
-**User Story #11:** When I click the element with the id of `reset`, any running timer should be stopped, the value within `id="break-length"` should return to `5`, the value within `id="session-length"` should return to 25, and the element with `id="time-left"` should reset to its default state.
+**Storia utente #11:** Quando clicco l'elemento con id `reset`, qualsiasi timer in esecuzione deve fermarsi, il valore in `id="break-length"` deve tornare a `5`, il valore in `id="session-length"` deve tornare a 25 e l'elemento con `id="time-left"` deve resettarsi al suo stato predefinito.
 
-**User Story #12:** When I click the element with the id of `break-decrement`, the value within `id="break-length"` decrements by a value of 1, and I can see the updated value.
+**Storia utente #12:** Quando clicco l'elemento con id `break-decrement`, il valore in `id="break-length"` diminuisce di 1 e posso vedere il valore aggiornato.
 
-**User Story #13:** When I click the element with the id of `break-increment`, the value within `id="break-length"` increments by a value of 1, and I can see the updated value.
+**Storia utente #13:** Quando clicco l'elemento con id `break-increment`, il valore in `id="break-length"` aumenta di 1 e posso vedere il valore aggiornato.
 
-**User Story #14:** When I click the element with the id of `session-decrement`, the value within `id="session-length"` decrements by a value of 1, and I can see the updated value.
+**Storia utente #14:** Quando clicco l'elemento con id `session-decrement`, il valore in `id="session-length"` diminuisce di 1 e posso vedere il valore aggiornato.
 
-**User Story #15:** When I click the element with the id of `session-increment`, the value within `id="session-length"` increments by a value of 1, and I can see the updated value.
+**Storia utente #15:** Quando clicco l'elemento con id `session-increment`, il valore in `id="session-length"` aumenta di 1 e posso vedere il valore aggiornato.
 
-**User Story #16:** I should not be able to set a session or break length to &lt;= 0.
+**Storia utente #16:** Non dovrei poter impostare una lunghezza di sessione o pausa <= 0.
 
-**User Story #17:** I should not be able to set a session or break length to > 60.
+**Storia utente #17:** Non dovrei poter impostare una lunghezza di sessione o pausa > 60.
 
-**User Story #18:** When I first click the element with `id="start_stop"`, the timer should begin running from the value currently displayed in `id="session-length"`, even if the value has been incremented or decremented from the original value of 25.
+**Storia utente #18:** Quando clicco per la prima volta l'elemento con `id="start_stop"`, il timer deve iniziare a contare dal valore attualmente mostrato in `id="session-length"`, anche se il valore è stato aumentato o diminuito rispetto al valore originale di 25.
 
-**User Story #19:** If the timer is running, the element with the id of `time-left` should display the remaining time in `mm:ss` format (decrementing by a value of 1 and updating the display every 1000ms).
+**Storia utente #19:** Se il timer è in esecuzione, l'elemento con id `time-left` deve mostrare il tempo rimanente nel formato `mm:ss` (decrementando di 1 e aggiornando la visualizzazione ogni 1000ms).
 
-**User Story #20:** If the timer is running and I click the element with `id="start_stop"`, the countdown should pause.
+**Storia utente #20:** Se il timer è in esecuzione e clicco l'elemento con `id="start_stop"`, il conto alla rovescia deve mettersi in pausa.
 
-**User Story #21:** If the timer is paused and I click the element with `id="start_stop"`, the countdown should resume running from the point at which it was paused.
+**Storia utente #21:** Se il timer è in pausa e clicco l'elemento con `id="start_stop"`, il conto alla rovescia deve riprendere dal punto in cui è stato messo in pausa.
 
-**User Story #22:** When a session countdown reaches zero (NOTE: timer MUST reach 00:00), and a new countdown begins, the element with the id of `timer-label` should display a string indicating a break has begun.
+**Storia utente #22:** Quando un conto alla rovescia di sessione raggiunge zero (NOTA: il timer DEVE arrivare a 00:00), e inizia un nuovo conto alla rovescia, l'elemento con id `timer-label` deve mostrare una stringa che indica che è iniziata una pausa.
 
-**User Story #23:** When a session countdown reaches zero (NOTE: timer MUST reach 00:00), a new break countdown should begin, counting down from the value currently displayed in the `id="break-length"` element.
+**Storia utente #23:** Quando un conto alla rovescia di sessione raggiunge zero (NOTA: il timer DEVE arrivare a 00:00), deve iniziare un nuovo conto alla rovescia di pausa, partendo dal valore attualmente mostrato nell'elemento `id="break-length"`.
 
-**User Story #24:** When a break countdown reaches zero (NOTE: timer MUST reach 00:00), and a new countdown begins, the element with the id of `timer-label` should display a string indicating a session has begun.
+**Storia utente #24:** Quando un conto alla rovescia di pausa raggiunge zero (NOTA: il timer DEVE arrivare a 00:00), e inizia un nuovo conto alla rovescia, l'elemento con id `timer-label` deve mostrare una stringa che indica che è iniziata una sessione.
 
-**User Story #25:** When a break countdown reaches zero (NOTE: timer MUST reach 00:00), a new session countdown should begin, counting down from the value currently displayed in the `id="session-length"` element.
+**Storia utente #25:** Quando un conto alla rovescia di pausa raggiunge zero (NOTA: il timer DEVE arrivare a 00:00), deve iniziare un nuovo conto alla rovescia di sessione, partendo dal valore attualmente mostrato nell'elemento `id="session-length"`.
 
-**User Story #26:** When a countdown reaches zero (NOTE: timer MUST reach 00:00), a sound indicating that time is up should play. This should utilize an HTML5 `audio` tag and have a corresponding `id="beep"`.
+**Storia utente #26:** Quando un conto alla rovescia raggiunge zero (NOTA: il timer DEVE arrivare a 00:00), deve suonare un audio che indica che il tempo è scaduto. Questo deve usare un tag HTML5 `audio` e avere un `id="beep"` corrispondente.
 
-**User Story #27:** The audio element with `id="beep"` must be 1 second or longer.
+**Storia utente #27:** L'elemento audio con `id="beep"` deve durare almeno 1 secondo.
 
-**User Story #28:** The audio element with id of `beep` must stop playing and be rewound to the beginning when the element with the id of `reset` is clicked.
+**Storia utente #28:** L'elemento audio con id `beep` deve smettere di suonare e tornare all'inizio quando si clicca l'elemento con id `reset`.
 
-You can build your project by <a href='https://codepen.io/pen?template=MJjpwO' target='_blank' rel="noopener noreferrer nofollow">using this CodePen template</a> and clicking `Save` to create your own pen. If you prefer to use another environment, then put this `<script>` tag into the body of your `index.html` file: `<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>`
+Puoi costruire il tuo progetto <a href='https://codepen.io/pen?template=MJjpwO' target='_blank' rel="noopener noreferrer nofollow">usando questo template di CodePen</a> e cliccando `Save` per creare il tuo pen. Se preferisci usare un altro ambiente, inserisci questo tag `<script>` nel corpo del tuo file `index.html`: `<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>`
 
-Once you're done, submit the URL to your working project with all its tests passing.
+Quando hai finito, invia l'URL del tuo progetto funzionante con tutti i test superati.
 
 # --solutions--
 

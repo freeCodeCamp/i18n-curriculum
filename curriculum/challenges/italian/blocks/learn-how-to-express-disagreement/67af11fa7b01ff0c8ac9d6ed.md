@@ -1,6 +1,6 @@
 ---
 id: 67af11fa7b01ff0c8ac9d6ed
-title: Task 45
+title: Attività 45
 challengeType: 19
 dashedName: task-45
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Read the text and answer the question below.
+Leggi il testo e rispondi alla domanda qui sotto.
 
 # --questions--
 
@@ -30,7 +30,7 @@ After reviewing the survey results for the remote work stipend, Bob decided to w
 
 `As remote work grows, companies need to support their workers in the best way possible. A well-equipped home office isn't just a nice extra — it's key to doing great work.`
 
-Why do some workers prefer to use the stipend for office furniture?
+Perché alcuni lavoratori preferiscono usare il contributo per l’arredamento dell’ufficio?
 
 ## --answers--
 
@@ -38,7 +38,7 @@ Because they don't like working remotely.
 
 ### --feedback--
 
-The article does not suggest that these workers dislike remote work.
+L’articolo non suggerisce che questi lavoratori non apprezzino il lavoro da remoto.
 
 ---
 
@@ -50,7 +50,7 @@ To buy decorations for their home office.
 
 ### --feedback--
 
-The article doesn't discuss furniture that improves decorations.
+L’articolo non parla di mobili per migliorare le decorazioni.
 
 ---
 
@@ -58,7 +58,7 @@ To impress their coworkers.
 
 ### --feedback--
 
-The reason given in the article isn't appearances.
+La ragione indicata nell’articolo non riguarda l’apparenza.
 
 ## --video-solution--
 
@@ -66,6 +66,6 @@ The reason given in the article isn't appearances.
 
 # --explanation--
 
-The article explains that `a bad chair and desk can cause health problems` and make it harder to focus. This is why some workers prioritize using the stipend for office furniture instead of technology.
+L’articolo spiega che `a bad chair and desk can cause health problems` rendono più difficile mantenere il focus. Per questo alcuni lavoratori danno priorità all’uso del contributo per l’arredamento dell’ufficio invece che per la tecnologia.
 
-Focus on how the article highlights ergonomics and well-being as key reasons for choosing furniture over computers.
+Concentrati su come l’articolo evidenzia l’ergonomia e il benessere come motivi principali per scegliere i mobili invece dei computer.

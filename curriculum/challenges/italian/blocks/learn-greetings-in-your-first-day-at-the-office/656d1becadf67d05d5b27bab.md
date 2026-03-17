@@ -1,6 +1,6 @@
 ---
 id: 656d1becadf67d05d5b27bab
-title: Task 149
+title: Attività 149
 challengeType: 19
 dashedName: task-149
 lang: en-US
@@ -14,19 +14,19 @@ Brian: But it's true. She's the person to go to if you need help.
 
 # --description--
 
-Just like when you learned about the pronoun `he`, pronouns like `she` are used to refer to female individuals. They help avoid repetition in conversation. Look at this part of the dialogue:
+Proprio come quando hai imparato il pronome `he`, i pronomi come `she` si usano per riferirsi a persone di sesso femminile. Aiutano a evitare ripetizioni nella conversazione. Guarda questa parte del dialogo:
 
 - Sophie: `Oh, come on, Brian.`
 
 - Brian: `But it's true. She's the person to go to if you need help.`
 
-Here, `she` is used by Brian to refer to Sophie. Instead of repeating Sophie's name, Brian uses the pronoun `she` to make the conversation smoother and avoid repetition.
+Qui, `she` è usato da Brian per riferirsi a Sophie. Invece di ripetere il nome Sophie, Brian usa il pronome `she` per rendere la conversazione più fluida e evitare ripetizioni.
 
 # --questions--
 
 ## --text--
 
-In the dialogue, which word does Brian use to refer to Sophie without repeating her name?
+Nel dialogo, quale parola usa Brian per riferirsi a Sophie senza ripetere il suo nome?
 
 ## --answers--
 
@@ -34,7 +34,7 @@ In the dialogue, which word does Brian use to refer to Sophie without repeating 
 
 ### --feedback--
 
-`He` refers to a male.
+`He` si riferisce a un maschio.
 
 ---
 
@@ -42,7 +42,7 @@ In the dialogue, which word does Brian use to refer to Sophie without repeating 
 
 ### --feedback--
 
-`They` is plural and refers to more than one person.
+`They` è plurale e si riferisce a più persone.
 
 ---
 
@@ -50,7 +50,7 @@ In the dialogue, which word does Brian use to refer to Sophie without repeating 
 
 ### --feedback--
 
-`It` is usually used for things or animals.
+`It` si usa di solito per cose o animali.
 
 ---
 

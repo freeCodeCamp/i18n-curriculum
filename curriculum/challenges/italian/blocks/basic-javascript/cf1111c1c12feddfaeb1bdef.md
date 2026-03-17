@@ -8,25 +8,25 @@ dashedName: generate-random-whole-numbers-with-javascript
 
 # --description--
 
-You can generate random decimal numbers with `Math.random()`, but sometimes you need to generate random whole numbers. The following process will give you a random whole number less than `20`:
+Puoi generare numeri decimali casuali con `Math.random()`, ma a volte hai bisogno di generare numeri interi casuali. Il processo seguente ti darà un numero intero casuale minore di `20`:
 
-1. Use `Math.random()` to generate a random decimal number.
+1. Usa `Math.random()` per generare un numero decimale casuale.
 2. Moltiplica quel numero decimale casuale per `20`.
-3. Usa `Math.floor()` per arrotondare il numero per difetto al numero intero più vicino.
+3. Usa `Math.floor()` per arrotondare questo numero per difetto al suo numero intero più vicino.
 
-Ricorda che `Math.random()` non può mai restituire `1`, quindi non è possibile ottenere `20` dato che stai arrotondando con `Math.floor()`. Questo procedimento ti darà un numero intero casuale nell'intervallo da `0` a `19`.
+Ricorda che `Math.random()` non può mai restituire esattamente un `1`, quindi è impossibile ottenere `20` dato che stai arrotondando per difetto con `Math.floor()`. Questo processo ti darà un numero intero casuale nell'intervallo da `0` a `19`.
 
-Mettendo tutto insieme, questo è il codice:
+Mettendo tutto insieme, questo è come appare il tuo codice:
 
 ```js
 Math.floor(Math.random() * 20);
 ```
 
-Stai chiamando `Math.random()`, moltiplicando il risultato per 20, quindi passando il valore a `Math.floor()` per arrotondare il valore per difetto al numero intero più vicino.
+Stai chiamando `Math.random()`, moltiplicando il risultato per 20, poi passando il valore a `Math.floor()` per arrotondare il valore per difetto al numero intero più vicino.
 
 # --instructions--
 
-Usa questa tecnica per generare e restituire un numero intero casuale nell'intervallo tra `0` e `9`.
+Usa questa tecnica per generare e restituire un numero intero casuale nell'intervallo da `0` a `9`.
 
 # --hints--
 
@@ -48,7 +48,7 @@ Dovresti usare `Math.random` per generare un numero casuale.
 assert(__helpers.removeJSComments(code).match(/Math.random/g).length >= 1);
 ```
 
-Dovresti moltiplicare il risultato di `Math.random` per 10 per ottenere un numero nell'intervallo tra zero e nove.
+Dovresti aver moltiplicato il risultato di `Math.random` per 10 per ottenere un numero nell'intervallo da zero a nove.
 
 ```js
 assert(

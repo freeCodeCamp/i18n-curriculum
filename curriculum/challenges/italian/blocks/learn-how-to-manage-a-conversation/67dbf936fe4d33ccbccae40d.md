@@ -1,6 +1,6 @@
 ---
 id: 67dbf936fe4d33ccbccae40d
-title: Task 1
+title: Attività 1
 challengeType: 22
 dashedName: task-1
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Ascolta l'audio e completa la frase qui sotto.
 
 # --fillInTheBlank--
 
@@ -24,13 +24,13 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This is used to apologize for something that happened. Don't forget to capitalize.
+Si usa per scusarsi di qualcosa che è successo. Non dimenticare la maiuscola.
 
 # --explanation--
 
-`To be sorry for something` is used when apologizing for an action that may have caused inconvenience or harm. For example:
+`To be sorry for something` si usa quando ci si scusa per un'azione che potrebbe aver causato disagio o danno. Per esempio:
 
-`I'm sorry for being late to the meeting.` - This means the speaker regrets arriving late and is apologizing. Notice that `being` is in the `-ing` form as it is right after `for` (a preposition).
+`I'm sorry for being late to the meeting.` - Questo significa che chi parla si pente di essere arrivato in ritardo e si scusa. Nota che `being` è nella forma `-ing` perché segue subito `for` (una preposizione).
 
 # --scene--
 

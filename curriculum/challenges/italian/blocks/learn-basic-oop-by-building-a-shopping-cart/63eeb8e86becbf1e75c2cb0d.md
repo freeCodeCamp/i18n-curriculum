@@ -1,17 +1,17 @@
 ---
 id: 63eeb8e86becbf1e75c2cb0d
-title: Step 21
+title: Passaggio 21
 challengeType: 0
 dashedName: step-21
 ---
 
 # --description--
 
-Ora hai bisogno del totale di ogni prodotto che l'utente ha nel carrello. Dichiara una variabile `totalCountPerProduct` e assegnale un oggetto vuoto.
+Ora ti serve un conteggio totale di ogni prodotto che l’utente ha nel carrello. Dichiara una variabile `totalCountPerProduct` e assegnale un oggetto vuoto.
 
 # --hints--
 
-Dovresti dichiarare una variabile `totalCountPerProduct` nella funzione `addItem`.
+Dovresti dichiarare una variabile `totalCountPerProduct` nella tua funzione `addItem`.
 
 ```js
 const cart = new ShoppingCart();

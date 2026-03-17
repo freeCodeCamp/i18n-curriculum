@@ -1,32 +1,32 @@
 ---
 id: 60f85a62fb30c80bcea0cedb
-title: Step 25
+title: Passaggio 25
 challengeType: 0
 dashedName: step-25
 ---
 
 # --description--
 
-Users will be allowed to choose either a `Personal` or `Business`.
+Gli utenti potranno scegliere tra `Personal` o `Business`.
 
-To do this, within each of the first two `label` elements, add one `input` element with `type="radio"`.
+Per farlo, all'interno di ciascuno dei primi due elementi `label`, aggiungi un elemento `input` con `type="radio"`.
 
 # --hints--
 
-You should add two `input` elements.
+Dovresti aggiungere due elementi `input`.
 
 ```js
 assert.equal(document.querySelectorAll('fieldset:nth-child(2) input')?.length, 2);
 ```
 
-You should add one `input` to each of the first two `label` elements.
+Dovresti aggiungere un `input` a ciascuno dei primi due elementi `label`.
 
 ```js
 assert.exists(document.querySelector('fieldset:nth-child(2) > label:nth-child(1) > input'));
 assert.exists(document.querySelector('fieldset:nth-child(2) > label:nth-child(2) > input'));
 ```
 
-You should give both `input` elements a `type` of `radio`.
+Dovresti dare a entrambi gli elementi `input` un `type` di `radio`.
 
 ```js
 assert.equal(document.querySelectorAll('fieldset:nth-child(2) input[type="radio"]')?.length, 2);

@@ -1,6 +1,6 @@
 ---
 id: 680a3cf5ca047daf5e8ecff5
-title: Task 66
+title: Attività 66
 challengeType: 22
 dashedName: task-66
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Ascolta l'audio e completa la frase qui sotto.
 
 # --fillInTheBlank--
 
@@ -24,15 +24,15 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This is used to show that something happens earlier in time than something else.
+Questo si usa per indicare che qualcosa accade prima nel tempo rispetto a qualcos'altro.
 
 # --explanation--
 
-`Before` is used to show that one action happens earlier than another. Per esempio:
+`Before` si usa per indicare che un'azione avviene prima di un'altra. Per esempio:
 
-- `Please save your work before you close the program.` – This means saving should happen earlier than closing the program.
+- `Please save your work before you close the program.` – Questo significa che il salvataggio dovrebbe avvenire prima della chiusura del programma.
 
-- `He always checks his code carefully before submitting it.` – This means checking happens first, before the action of submitting.
+- `He always checks his code carefully before submitting it.` – Questo significa che il controllo avviene prima, prima dell'azione di inviare.
 
 # --scene--
 

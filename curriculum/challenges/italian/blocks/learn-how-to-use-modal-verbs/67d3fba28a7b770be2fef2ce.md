@@ -1,6 +1,6 @@
 ---
 id: 67d3fba28a7b770be2fef2ce
-title: Task 6
+title: Attività 6
 challengeType: 19
 dashedName: task-6
 lang: en-US
@@ -12,13 +12,13 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Ascolta l'audio e rispondi alla domanda qui sotto.
 
 # --questions--
 
 ## --text--
 
-Mark doesn't mind talking with Jessica and wants to know what he needs to do. What would he say?
+A Mark non dispiace parlare con Jessica e vuole sapere cosa deve fare. Cosa direbbe?
 
 ## --answers--
 
@@ -30,7 +30,7 @@ EN415e8cd4
 
 ### --feedback--
 
-This response does not match Mark's willingness to talk.
+Questa risposta non corrisponde alla disponibilità di Mark a parlare.
 
 ---
 
@@ -46,11 +46,11 @@ EN61f614de
 
 # --explanation--
 
-The correct answer shows that Mark is willing to talk and wants to know the necessary steps.
+La risposta corretta mostra che Mark è disposto a parlare e vuole sapere i passaggi necessari.
 
-`Sure, Jessica` expresses agreement and openness to the conversation.
+`Sure, Jessica` esprime accordo e apertura alla conversazione.
 
-`What do I need to do?` shows that Mark is asking for instructions, which matches Jessica's statement about what he must do to ensure compliance.
+`What do I need to do?` mostra che Mark sta chiedendo istruzioni, il che corrisponde all'affermazione di Jessica su cosa deve fare per garantire la conformità.
 
 # --scene--
 

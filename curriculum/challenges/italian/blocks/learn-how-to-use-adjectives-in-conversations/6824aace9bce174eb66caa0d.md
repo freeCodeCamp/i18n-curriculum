@@ -1,6 +1,6 @@
 ---
 id: 6824aace9bce174eb66caa0d
-title: Task 149
+title: Attività 149
 challengeType: 19
 dashedName: task-149
 lang: en-US
@@ -10,13 +10,13 @@ lang: en-US
 
 # --instructions--
 
-Read the text and answer the question below.
+Leggi il testo e rispondi alla domanda qui sotto.
 
 # --questions--
 
 ## --text--
 
-Jessica sent an email to the team the next day, summarizing her conversation with James about the new software version.
+Jessica ha inviato un'email al team il giorno dopo, riassumendo la sua conversazione con James sulla nuova versione del software.
 
 `Hi team,`
 
@@ -50,35 +50,35 @@ Jessica sent an email to the team the next day, summarizing her conversation wit
 
 `Jessica`
 
-What did Jessica report about the software's stability?
+Cosa ha riferito Jessica sulla stabilità del software?
 
 ## --answers--
 
-It now requires more updates to stay stable.
+Ora richiede più aggiornamenti per rimanere stabile.
 
 ### --feedback--
 
-Jessica does not mention the need for more updates.
+Jessica non menziona la necessità di più aggiornamenti.
 
 ---
 
-It crashes less and has fewer serious problems.
+Si blocca meno e ha meno problemi gravi.
 
 ---
 
-It works the same as the old version in terms of stability.
+Funziona allo stesso modo della vecchia versione in termini di stabilità.
 
 ### --feedback--
 
-She clearly says the new version is `much more stable`.
+Dice chiaramente che la nuova versione è `much more stable`.
 
 ---
 
-It still has many large bugs and stops working often.
+Ha ancora molti bug gravi e si blocca spesso.
 
 ### --feedback--
 
-Jessica reports fewer problems and less crashing, not frequent bugs.
+Jessica riferisce meno problemi e meno blocchi, non bug frequenti.
 
 ## --video-solution--
 
@@ -86,6 +86,6 @@ Jessica reports fewer problems and less crashing, not frequent bugs.
 
 # --explanation--
 
-In the `Stability` section, Jessica says the new version `doesn't crash as often` and they've seen `fewer serious problems`.
+Nella sezione `Stability`, Jessica dice che la nuova versione `doesn't crash as often` e hanno visto `fewer serious problems`.
 
-This means it is more reliable and stable than before.
+Questo significa che è più affidabile e stabile di prima.

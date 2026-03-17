@@ -1,6 +1,6 @@
 ---
 id: 656abcd4cccfc84bf50f861b
-title: Task 80
+title: Attività 80
 challengeType: 19
 dashedName: task-80
 lang: en-US
@@ -8,13 +8,13 @@ lang: en-US
 
 # --description--
 
-In an office setting, it's common to point out items using `these` and `those`. Remember, `these` points to items near you, while `those` points to items further away.
+In un ambiente d’ufficio, è comune indicare gli elementi usando `these` e `those`. Ricorda, `these` indica elementi vicini a te, mentre `those` indica elementi più lontani.
 
 # --questions--
 
 ## --text--
 
-Which sentence correctly differentiates between `these` and `those`?
+Quale frase differenzia correttamente tra `these` e `those`?
 
 ## --answers--
 
@@ -22,7 +22,7 @@ Which sentence correctly differentiates between `these` and `those`?
 
 ### --feedback--
 
-Look for a sentence that uses `these` for multiple items nearby and `those` for multiple items at a distance or not being directly addressed.
+Cerca una frase che usi `these` per più elementi vicini e `those` per più elementi lontani o non direttamente rivolti.
 
 ---
 
@@ -30,7 +30,7 @@ Look for a sentence that uses `these` for multiple items nearby and `those` for 
 
 ### --feedback--
 
-Look for a sentence that uses `these` for multiple items nearby and `those` for multiple items at a distance or not being directly addressed.
+Cerca una frase che usi `these` per più elementi vicini e `those` per più elementi lontani o non direttamente rivolti.
 
 ---
 
@@ -42,7 +42,7 @@ Look for a sentence that uses `these` for multiple items nearby and `those` for 
 
 ### --feedback--
 
-Look for a sentence that uses `these` for multiple items nearby and `those` for multiple items at a distance or not being directly addressed.
+Cerca una frase che usi `these` per più elementi vicini e `those` per più elementi lontani o non direttamente rivolti.
 
 ## --video-solution--
 

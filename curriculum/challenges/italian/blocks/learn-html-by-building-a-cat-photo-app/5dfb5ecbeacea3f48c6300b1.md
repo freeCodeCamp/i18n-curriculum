@@ -1,15 +1,15 @@
 ---
 id: 5dfb5ecbeacea3f48c6300b1
-title: Step 23
+title: Passaggio 23
 challengeType: 0
 dashedName: step-23
 ---
 
 # --description--
 
-The `li` element is used to create a list item in an ordered or unordered list.
+L'elemento `li` serve a creare un elemento di lista in una lista ordinata o non ordinata.
 
-Here is an example of list items in an unordered list:
+Ecco un esempio di elementi di lista in una lista non ordinata:
 
 ```html
 <ul>
@@ -18,24 +18,24 @@ Here is an example of list items in an unordered list:
 </ul>
 ```
 
-Within the `ul` element nest three list items to display three things cats love:
+All'interno dell'elemento `ul` annida tre elementi di lista per mostrare tre cose che i gatti amano:
 
 `catnip`
 
 `laser pointers`
 
-`lasagna`
+`lasagna` 
 
 # --hints--
 
-You should have three `li` elements. Each `li` element should have its own opening and closing tag.
+Dovresti avere tre elementi `li`. Ogni elemento `li` dovrebbe avere il proprio tag di apertura e tag di chiusura.
 
 ```js
 assert.lengthOf(document.querySelectorAll('li'),3)
 assert.lengthOf(code.match(/<\/li\>/g),3);
 ```
 
-You should have three `li` elements with the text `catnip`, `laser pointers` and `lasagna` in any order. You have either omitted some text or have a typo.
+Dovresti avere tre elementi `li` con il testo `catnip`, `laser pointers` e `lasagna` in qualsiasi ordine. Hai omesso del testo o c'è un errore di battitura.
 
 ```js
 assert.deepStrictEqual(
@@ -46,7 +46,7 @@ assert.deepStrictEqual(
 );
 ```
 
-The three `li` elements should be located between the `ul` element's opening and closing tags.
+I tre elementi `li` dovrebbero trovarsi tra i tag di apertura e chiusura dell'elemento `ul`.
 
 ```js
 assert(
@@ -76,7 +76,7 @@ assert(
         <h3>Things cats love:</h3>
 --fcc-editable-region--
         <ul>
-
+          
         </ul>
 --fcc-editable-region--
       </section>
@@ -84,4 +84,3 @@ assert(
   </body>
 </html>
 ```
-
