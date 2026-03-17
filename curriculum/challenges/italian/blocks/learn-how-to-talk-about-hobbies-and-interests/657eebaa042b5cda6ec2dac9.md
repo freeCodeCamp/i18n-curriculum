@@ -1,6 +1,6 @@
 ---
 id: 657eebaa042b5cda6ec2dac9
-title: Task 59
+title: Attività 59
 challengeType: 22
 dashedName: task-59
 lang: en-US
@@ -10,9 +10,9 @@ lang: en-US
 
 # --description--
 
-`Are you kidding?` is used to express disbelief, surprise, or sometimes to confirm if someone is joking.
+`Are you kidding?` si usa per esprimere incredulità, sorpresa o a volte per confermare se qualcuno sta scherzando.
 
-If your friend tells you they saw a dog riding a skateboard down the street, you might be surprised and say `Are you kidding?` to ask if they're really serious or just joking.
+Se un tuo amico ti dice di aver visto un cane che andava in skateboard per strada, potresti essere sorpreso e dire `Are you kidding?` per chiedere se è davvero serio o sta solo scherzando.
 
 # --fillInTheBlank--
 
@@ -26,7 +26,7 @@ If your friend tells you they saw a dog riding a skateboard down the street, you
 
 ### --feedback--
 
-This verb is used in the phrase to express disbelief or surprise in response to a statement. It ends in `-ing`.
+Questo verbo si usa nella frase per esprimere incredulità o sorpresa in risposta a un'affermazione. Finisce in `-ing`.
 
 # --scene--
 

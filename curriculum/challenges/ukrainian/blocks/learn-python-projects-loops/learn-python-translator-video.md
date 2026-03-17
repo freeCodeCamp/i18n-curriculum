@@ -1,6 +1,6 @@
 ---
 id: 703bcd12c0edae7773eeec64
-title: Building a Translator
+title: Створення перекладача
 challengeType: 11
 videoId: 3Sa5rwlKdGQ
 dashedName: building-a-translator-learn-python-full-course-for-beginners
@@ -8,13 +8,13 @@ dashedName: building-a-translator-learn-python-full-course-for-beginners
 
 # --description--
 
-In this video, you will build a simple translator program using dictionaries and user input.
+У цьому відео ви створите просту програму перекладача, використовуючи словники та вхідні дані від користувача.
 
 # --questions--
 
 ## --text--
 
-Which of the following methods is used to check if all characters in a string are uppercase?
+Який із наведених методів використовується, щоб перевірити, чи всі символи в рядку знаходяться у верхньому регістрі?
 
 ## --answers--
 

@@ -1,6 +1,6 @@
 ---
 id: bd7123c8c441eddfaeb5bdef
-title: Say Hello to HTML Elements
+title: Saluta gli elementi HTML
 challengeType: 0
 videoUrl: 'https://scrimba.com/p/pVMPUv/cE8Gpt2'
 forumTopicId: 18276
@@ -9,37 +9,37 @@ dashedName: say-hello-to-html-elements
 
 # --description--
 
-Welcome to freeCodeCamp's HTML coding challenges. These will walk you through web development step-by-step.
+Benvenuto alle sfide di codice HTML di freeCodeCamp. Ti guideranno passo dopo passo nello sviluppo web.
 
-First, you'll start by building a simple web page using HTML. You can edit code in your code editor, which is embedded into this web page.
+Per prima cosa, inizierai costruendo una semplice pagina web usando HTML. Puoi modificare il codice nel tuo editor di codice, che è incorporato in questa pagina web.
 
-Do you see the code in your code editor that says `<h1>Hello</h1>`? That's an HTML element.
+Vedi il codice nel tuo editor che dice `<h1>Hello</h1>`? Quello è un elemento HTML.
 
-Most HTML elements have an opening tag and a closing tag.
+La maggior parte degli elementi HTML ha un tag di apertura e un tag di chiusura.
 
-Opening tags look like this:
+I tag di apertura sono così:
 
 ```html
 <h1>
 ```
 
-Closing tags look like this:
+I tag di chiusura sono così:
 
 ```html
 </h1>
 ```
 
-The only difference between opening and closing tags is the forward slash after the opening bracket of a closing tag.
+L’unica differenza tra tag di apertura e tag di chiusura è la barra obliqua dopo la parentesi angolare di apertura di un tag di chiusura.
 
-Each challenge has tests you can run at any time by clicking the "Run tests" button. When you pass all tests, you'll be prompted to submit your solution and go to the next coding challenge.
+Ogni sfida ha dei test che puoi eseguire in qualsiasi momento cliccando il pulsante "Run tests". Quando superi tutti i test, ti verrà chiesto di inviare la tua soluzione e passare alla sfida di codice successiva.
 
 # --instructions--
 
-To pass the test on this challenge, change your `h1` element's text to say `Hello World`.
+Per superare il test di questa sfida, cambia il testo del tuo elemento `h1` in modo che dica `Hello World`.
 
 # --hints--
 
-Your `h1` element should have the text `Hello World`.
+Il tuo elemento `h1` dovrebbe avere il testo `Hello World`.
 
 ```js
 assert.match(document.querySelector('h1').textContent,/hello(\s)+world/gi);

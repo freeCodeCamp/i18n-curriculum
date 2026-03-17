@@ -1,6 +1,6 @@
 ---
 id: 8ca3a380a75d00443d9e09bd
-title: Hello World Program
+title: Програма привітання світу
 challengeType: 11
 videoId: H2WnzGCeydQ
 dashedName: hello-world-program-learn-python-full-course-for-beginners
@@ -8,13 +8,13 @@ dashedName: hello-world-program-learn-python-full-course-for-beginners
 
 # --description--
 
-In this video, you will learn how to write your first program in Python.
+У цьому відео ви навчитеся писати свою першу програму на Python.
 
 # --questions--
 
 ## --text--
 
-Which of the following is the correct way to print `"Hello World"` to the console?
+Який із наведених способів правильно вивести `"Hello World"` у консоль?
 
 ## --answers--
 

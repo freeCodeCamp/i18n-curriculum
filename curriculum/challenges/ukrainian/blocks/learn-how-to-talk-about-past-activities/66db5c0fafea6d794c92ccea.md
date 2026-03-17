@@ -1,11 +1,10 @@
 ---
 id: 66db5c0fafea6d794c92ccea
-title: Task 58
+title: Завдання 58
 challengeType: 19
 dashedName: task-58
 lang: en-US
 ---
-
 <!--
 AUDIO REFERENCE:
 Linda: Yes. The navigation bar and footer adjustments have already made a big difference.
@@ -13,41 +12,41 @@ Linda: Yes. The navigation bar and footer adjustments have already made a big di
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Прослухайте аудіо та дайте відповідь на запитання нижче.
 
 # --questions--
 
 ## --text--
 
-How are the updated elements performing?
+Як працюють оновлені елементи?
 
 ## --answers--
 
-They are not working correctly across all devices, and this has made a big difference.
+Вони не працюють правильно на всіх пристроях, і це зробило велику різницю.
 
 ### --feedback--
 
-Linda did not mention any issues with the updates.
+Лінда не згадувала про жодні проблеми з оновленнями.
 
 ---
 
-They need further adjustments to work properly and this has made no difference.
+Їм потрібні подальші правки, щоб працювати правильно, і це не зробило жодної різниці.
 
 ### --feedback--
 
-Linda did not mention the need for further adjustments.
+Лінда не згадувала про потребу в подальших правках.
 
 ---
 
-They are causing new problems with the user interface and this has made a big difference.
+Вони спричиняють нові проблеми з інтерфейсом користувача, і це зробило велику різницю.
 
 ### --feedback--
 
-Linda did not say that the updates caused new problems.
+Лінда не казала, що оновлення спричинили нові проблеми.
 
 ---
 
-They are performing well and the adjustments have made a big difference.
+Вони працюють добре, і правки зробили велику різницю.
 
 ## --video-solution--
 
@@ -55,13 +54,13 @@ They are performing well and the adjustments have made a big difference.
 
 # --explanation--
 
-To know if something is performing well, look for words or phrases that indicate a good result or improvement.
+Щоб зрозуміти, чи щось працює добре, шукайте слова або фрази, які вказують на хороший результат або покращення.
 
-Linda uses the phrase `have already made a big difference`.
+Лінда використовує фразу `have already made a big difference`.
 
-`Made a big difference` suggests an important or noticeable change. When something has `made a big difference` in a positive context, it usually means that the change is helpful or effective.
+`Made a big difference` натякає на важливу або помітну зміну. Коли щось має `made a big difference` у позитивному контексті, це зазвичай означає, що зміна корисна або ефективна.
 
-So, Linda's response indicates that the updated elements are working well and have improved the situation.
+Отже, відповідь Лінди вказує на те, що оновлені елементи працюють добре і покращили ситуацію.
 
 # --scene--
 

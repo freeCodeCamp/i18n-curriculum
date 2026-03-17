@@ -1,6 +1,6 @@
 ---
 id: 68555dfadef342c2db9b5abf
-title: Task 83
+title: Attività 83
 challengeType: 22
 dashedName: task-83
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Ascolta l'audio e completa la frase qui sotto.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This two-word phrase means introduced or caused something to appear or become an issue. The first word is the past tense form of `bring`.
+Questa frase di due parole significa introdotto o causato qualcosa che è apparso o è diventato un problema. La prima parola è la forma al passato di `bring`.
 
 ---
 
@@ -32,17 +32,17 @@ This two-word phrase means introduced or caused something to appear or become an
 
 ### --feedback--
 
-This word means something happened that was not planned or predicted. It ends with `-ed`.
+Questa parola significa che è successo qualcosa di non pianificato o previsto. Finisce con `-ed`.
 
 # --explanation--
 
-`Brought up` means caused something to appear, especially a problem or issue. Here, `brought` is the past tense form of `bring`. For example:
+`Brought up` significa causato qualcosa che è apparso, specialmente un problema o un problema. Qui, `brought` è la forma al passato di `bring`. Per esempio:
 
-`The new feature brought up several bugs.` – This means the feature caused the bugs to be noticed.
+`The new feature brought up several bugs.` – Questo significa che la funzionalità ha causato che i bug venissero notati.
 
-`Unexpected` describes something that happens without warning or planning. For example:
+`Unexpected` descrive qualcosa che succede senza preavviso o pianificazione. Per esempio:
 
-`We had an unexpected delay due to server issues.` – This means the delay was not anticipated.
+`We had an unexpected delay due to server issues.` – Questo significa che il ritardo non era previsto.
 
 # --scene--
 

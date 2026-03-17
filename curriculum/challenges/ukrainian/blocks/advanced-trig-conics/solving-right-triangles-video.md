@@ -1,6 +1,6 @@
 ---
 id: 699e854b8f18cf77dfce5c1e
-title: Solving Right Triangles
+title: Розв’язання прямокутних трикутників
 challengeType: 11
 videoId: AkRnIZDdq04
 dashedName: solving-right-triangles
@@ -8,32 +8,30 @@ dashedName: solving-right-triangles
 
 # --description--
 
-In this video, you will learn how to solve right triangles.
+У цьому відео ви навчитеся розв’язувати прямокутні трикутники.
 
 # --questions--
 
 ## --text--
 
-What does it mean to solve a right triangle?
+Що означає розв’язати прямокутний трикутник?
 
 ## --answers--
 
-To solve a right triangle means to find the area of the triangle only.
+Розв’язати прямокутний трикутник означає знайти лише площу трикутника.
 
 ---
 
-To solve a right triangle means to find only the length of the hypotenuse.
+Розв’язати прямокутний трикутник означає знайти лише довжину гіпотенузи.
 
 ---
 
-To solve a right triangle means to find the lengths of all sides and the measures of all angles.
+Розв’язати прямокутний трикутник означає знайти довжини всіх сторін і величини всіх кутів.
 
 ---
 
-To solve a right triangle means to draw the triangle without calculating any sides or angles.
+Розв’язати прямокутний трикутник означає накреслити трикутник без обчислення будь-яких сторін чи кутів.
 
 ## --video-solution--
 
 3
-
-

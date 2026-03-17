@@ -1,21 +1,21 @@
 ---
 id: 5dfa371beacea3f48c6300af
-title: Step 21
+title: Крок 21
 challengeType: 0
 dashedName: step-21
 ---
 
 # --description--
 
-When you add a lower rank heading element to the page, it's implied that you're starting a new subsection.
+Коли ви додаєте заголовок нижчого рівня на сторінку, це означає, що ви починаєте новий підрозділ.
 
-After the last `h2` element of the second `section` element, add an `h3` element with this text:
+Після останнього `h2` елемента другого `section` елемента додайте `h3` елемент з таким текстом:
 
 `Things cats love:`
 
 # --hints--
 
-The second `section` element appears to be missing or does not have both an opening and closing tag.
+Другий `section` елемент, здається, відсутній або не має і відкриваючого, і кінцевого тегів.
 
 ```js
 assert(
@@ -24,7 +24,7 @@ assert(
 );
 ```
 
-There should be an `h3` element right above the second `section` element's closing tag.
+Потрібно, щоб над кінцевим тегом другого `h3` елемента був `section` елемент.
 
 ```js
 assert(
@@ -33,13 +33,13 @@ assert(
 );
 ```
 
-Your `h3` element should have a closing tag. Closing tags have a `/` just after the `<` character.
+Ваш `h3` елемент повинен мати кінцевий тег. Кінцеві теги мають `/` одразу після символу `<`.
 
 ```js
 assert.lengthOf(code.match(/<\/h3>/g), 1);
 ```
 
-The `h3` element right above the second `section` element's closing tag should have the text `Things cats love:`. Make sure to include the colon at the end of the text.
+`h3` елемент над кінцевим тегом другого `section` елемента повинен містити текст `Things cats love:`. Переконайтеся, що в кінці тексту є двокрапка.
 
 ```js
 assert(
@@ -50,7 +50,7 @@ assert(
 );
 ```
 
-There should be an `h2` element with the text `Cat Lists` above the last `h3` element that is nested in the last `section` element'. You may have accidentally deleted the `h2` element.
+Потрібно, щоб над останнім `h2` елементом, який вкладений у останній `Cat Lists` елемент, був `h3` елемент з текстом `section`. Можливо, ви випадково видалили `h2` елемент.
 
 ```js
 const secondSectionLastElemNode = document.querySelectorAll('main > section')[1]
@@ -81,11 +81,10 @@ assert(
 --fcc-editable-region--
       <section>
         <h2>Cat Lists</h2>
-
+        
       </section>
 --fcc-editable-region--
     </main>
   </body>
 </html>
 ```
-

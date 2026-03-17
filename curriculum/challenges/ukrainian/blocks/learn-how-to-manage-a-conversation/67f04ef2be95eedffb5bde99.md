@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Послухайте аудіо та доповніть речення нижче.
+Прослухайте аудіо та доповніть речення нижче.
 
 # --fillInTheBlank--
 
@@ -24,13 +24,13 @@ lang: en-US
 
 ### --feedback--
 
-Followed by `down`, this means making something move or happen more slowly than normal. Використайте закінчення `-ing`.
+Після `down` це означає змусити щось рухатися або відбуватися повільніше, ніж зазвичай. Використайте форму `-ing`.
 
 # --explanation--
 
-`To slow down` means to reduce speed or to make something happen more slowly. In work or project contexts, it can refer to anything that delays progress. Наприклад:
+`To slow down` означає зменшити швидкість або зробити так, щоб щось відбувалося повільніше. У робочому чи проєктному контексті це може означати будь-що, що затримує прогрес. Наприклад:
 
-`Traffic is slowing down the delivery.` – This means the delivery is taking longer because of traffic.
+`Traffic is slowing down the delivery.` – Це означає, що доставка займає більше часу через затори.
 
 # --scene--
 

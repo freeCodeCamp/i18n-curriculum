@@ -1,6 +1,6 @@
 ---
 id: 68249d79d4ddca45eff7fafd
-title: Task 144
+title: Attività 144
 challengeType: 19
 dashedName: task-144
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Ascolta l'audio e rispondi alla domanda qui sotto.
 
 # --questions--
 
 ## --text--
 
-What does Jessica plan to do with the information?
+Cosa ha intenzione di fare Jessica con le informazioni?
 
 ## --answers--
 
-Ignore it for now and wait for more feedback.
+Ignorarle per ora e aspettare altri feedback.
 
 ### --feedback--
 
-Jessica says she will organize the information and share it, not ignore it.
+Jessica dice che organizzerà le informazioni e le condividerà, non che le ignorerà.
 
 ---
 
-Organize it into a report and discuss it with others.
+Organizzarle in un report e discuterne con gli altri.
 
 ---
 
-Ask users to test it again before making changes.
+Chiedere agli utenti di testarle di nuovo prima di apportare modifiche.
 
 ### --feedback--
 
-She does not mention anything about retesting or user feedback.
+Non menziona nulla riguardo a un nuovo test o al feedback degli utenti.
 
 ---
 
-Send it directly to the client without review.
+Inviarle direttamente al client senza revisione.
 
 ### --feedback--
 
-Jessica plans to talk with her team first, not send it straight to a client.
+Jessica ha intenzione di parlare prima con il suo team, non di inviarle direttamente al client.
 
 ## --video-solution--
 
@@ -52,9 +52,9 @@ Jessica plans to talk with her team first, not send it straight to a client.
 
 # --explanation--
 
-Jessica says she will `put all this information into a report` and `talk about it with the team tomorrow`. This shows she plans to organize the details and have a discussion with her team.
+Jessica dice che `put all this information into a report` e `talk about it with the team tomorrow`. Questo mostra che ha intenzione di organizzare i dettagli e discuterne con il suo team.
 
-She also says the feedback `should help`, meaning it will guide their next steps.
+Dice anche che il feedback `should help`, il che significa che guiderà i loro prossimi passaggi.
 
 # --scene--
 

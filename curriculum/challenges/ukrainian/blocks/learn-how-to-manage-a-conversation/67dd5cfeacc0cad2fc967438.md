@@ -1,6 +1,6 @@
 ---
 id: 67dd5cfeacc0cad2fc967438
-title: Task 16
+title: Завдання 16
 challengeType: 19
 dashedName: task-16
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Прослухайте аудіо та дайте відповідь на запитання нижче.
 
 # --questions--
 
 ## --text--
 
-What does James want to know?
+Що хоче дізнатися Джеймс?
 
 ## --answers--
 
-If they agreed on the deadline for the first phase.
+Чи погодили вони термін виконання першої фази.
 
 ---
 
-If the project has been canceled.
+Чи скасували проєкт.
 
 ### --feedback--
 
-James doesn't mention canceling the project.
+Джеймс не згадує про скасування проєкту.
 
 ---
 
-If Alice is responsible for the first phase.
+Чи відповідальна Еліс за першу фазу.
 
 ### --feedback--
 
-James is not asking about responsibilities.
+Джеймс не питає про відповідальність.
 
 ---
 
-If the team finished the final phase.
+Чи команда завершила фінальну фазу.
 
 ### --feedback--
 
-James does not talk about the final phase.
+Джеймс не говорить про фінальну фазу.
 
 ## --video-solution--
 
@@ -52,9 +52,9 @@ James does not talk about the final phase.
 
 # --explanation--
 
-`By the way` is used to introduce a new but related topic into the conversation. It often brings up something that the speaker just remembered or wants to check. For example:
+`By the way` використовується, щоб ввести нову, але пов’язану тему у розмову. Часто це щось, що доповідач щойно згадав або хоче перевірити. Наприклад:
 
-`By the way, have you seen the updated report?` – This introduces a new question related to what was already being discussed.
+`By the way, have you seen the updated report?` – Це вводить нове запитання, пов’язане з тим, що вже обговорювалося.
 
 # --scene--
 

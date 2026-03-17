@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Послухайте аудіо та доповніть речення нижче.
+Прослухайте аудіо та доповніть речення нижче.
 
 # --fillInTheBlank--
 
@@ -24,13 +24,13 @@ lang: en-US
 
 ### --feedback--
 
-This means at the present time and shows the situation could change later.
+Це означає «на даний момент» і показує, що ситуація може змінитися пізніше.
 
 # --explanation--
 
-`For now` means at this moment or for the time being. It suggests that things are complete at the moment, but more might happen later. Наприклад:
+`For now` означає «на цей момент» або «поки що». Це натякає, що наразі все завершено, але пізніше може статися більше. Наприклад:
 
-`Let's stop working here for now and continue tomorrow.` - This means they are pausing at the moment, but will continue later.
+`Let's stop working here for now and continue tomorrow.` — це означає, що вони зараз роблять паузу, але продовжать пізніше.
 
 # --scene--
 

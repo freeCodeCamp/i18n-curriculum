@@ -1,6 +1,6 @@
 ---
 id: 69a761d55a27934b29e1eabf
-title: Introduction
+title: Вступ
 challengeType: 11
 videoId: tb0HeceXvZY
 dashedName: introduction-learn-prompting-fundamentals
@@ -8,31 +8,30 @@ dashedName: introduction-learn-prompting-fundamentals
 
 # --description--
 
-This course was created by Ania Kubow. In this video, you will learn what this course covers.
+Цей курс створила Аня Кубоу. У цьому відео ви дізнаєтеся, що охоплює цей курс.
 
 # --questions--
 
 ## --text--
 
-Which of the following topics will NOT be covered in this course?
+Які з наведених тем НЕ будуть розглянуті в цьому курсі?
 
 ## --answers--
 
-Learning about language models.
+Вивчення мовних моделей.
 
 ---
 
-Learning best practices for prompting.
+Вивчення найкращих практик для створення підказок.
 
 ---
 
-Learning how to build AI agents using Python.
+Вивчення того, як створювати AI-агентів за допомогою Python.
 
 ---
 
-Learning about AI hallucinations.
+Вивчення AI-галюцинацій.
 
 ## --video-solution--
 
 3
-

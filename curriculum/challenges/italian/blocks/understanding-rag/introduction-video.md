@@ -1,6 +1,6 @@
 ---
 id: 69ae5c648491ca1dcd31440b
-title: Introduction
+title: Introduzione
 challengeType: 11
 videoId: LxilAjoRybE
 dashedName: introduction
@@ -8,13 +8,13 @@ dashedName: introduction
 
 # --description--
 
-In this video, Beau Carnes will provide an introduction to this course.
+In questo video, Beau Carnes fornirà un'introduzione a questo corso.
 
 # --questions--
 
 ## --text--
 
-Which of the following topics will NOT be covered in this course?
+Quale dei seguenti argomenti NON sarà trattato in questo corso?
 
 ## --answers--
 
@@ -35,4 +35,3 @@ VectorDB
 ## --video-solution--
 
 2
-

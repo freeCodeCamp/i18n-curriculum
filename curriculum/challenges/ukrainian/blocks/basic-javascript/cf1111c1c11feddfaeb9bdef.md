@@ -1,6 +1,6 @@
 ---
 id: cf1111c1c11feddfaeb9bdef
-title: Генерація випадкових дробів з JavaScript
+title: Згенерувати випадкові дроби за допомогою JavaScript
 challengeType: 1
 forumTopicId: 18185
 dashedName: generate-random-fractions-with-javascript
@@ -8,15 +8,15 @@ dashedName: generate-random-fractions-with-javascript
 
 # --description--
 
-Random numbers are useful for creating random behavior.
+Випадкові числа корисні для створення випадкової поведінки.
 
-JavaScript має функцію `Math.random()`, яка генерує випадкові десяткові числа між `0` (включно) та `1` (виключно). Тому `Math.random()` може повернути `0`, але ніколи не поверне `1`.
+JavaScript має `Math.random()` функцію, яка генерує випадкове десяткове число між `0` (включно) та `1` (виключно). Отже, `Math.random()` може повернути `0`, але ніколи не поверне `1`.
 
-**Примітка:** як і <a href="/ukrainian/learn/javascript-algorithms-and-data-structures/basic-javascript/storing-values-with-the-assignment-operator" target="_blank" rel="noopener noreferrer nofollow">збереження значень за допомогою оператора присвоєння</a>, всі виклики функцій вирішені ще до виконання `return`, тому ми можемо повернути (`return`) значення функції `Math.random()`.
+**Примітка:** Як і в <a href="/learn/javascript-algorithms-and-data-structures/basic-javascript/storing-values-with-the-assignment-operator" target="_blank" rel="noopener noreferrer nofollow">збереженні значень за допомогою оператора присвоєння</a>, усі виклики функцій будуть виконані до того, як `return` виконається, тому ми можемо `return` значення `Math.random()` функції.
 
 # --instructions--
 
-Змініть `randomFraction`, щоб поверталось випадкове число, а не `0`.
+Змініть `randomFraction`, щоб вона повертала випадкове число замість повернення `0`.
 
 # --hints--
 
@@ -26,13 +26,13 @@ JavaScript має функцію `Math.random()`, яка генерує випа
 assert(typeof randomFraction() === 'number');
 ```
 
-Число, яке повернула `randomFraction`, повинне бути десятковим.
+Число, яке повертає `randomFraction`, має бути десятковим.
 
 ```js
 assert((randomFraction() + '').match(/\./g));
 ```
 
-Ви повинні використати `Math.random`, щоб згенерувати випадкове десяткове число.
+Ви маєте використовувати `Math.random` для генерації випадкового десяткового числа.
 
 ```js
 assert(__helpers.removeJSComments(code).match(/Math\.random/g).length >= 0);

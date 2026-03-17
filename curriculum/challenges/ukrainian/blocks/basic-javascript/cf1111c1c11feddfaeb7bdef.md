@@ -1,6 +1,6 @@
 ---
 id: cf1111c1c11feddfaeb7bdef
-title: Nest one Array within Another Array
+title: Вкласти один масив у інший масив
 challengeType: 1
 forumTopicId: 18247
 dashedName: nest-one-array-within-another-array
@@ -8,21 +8,21 @@ dashedName: nest-one-array-within-another-array
 
 # --description--
 
-You can also nest arrays within other arrays, like below:
+Ви також можете вкладати масиви всередину інших масивів, як показано нижче:
 
 ```js
 const teams = [["Bulls", 23], ["White Sox", 45]];
 ```
 
-This is also called a <dfn>multi-dimensional array</dfn>.
+Це також називається <dfn>багатовимірним масивом</dfn>.
 
 # --instructions--
 
-Create a nested array called `myArray`.
+Створіть вкладений масив з назвою `myArray`.
 
 # --hints--
 
-`myArray` should have at least one array nested within another array.
+`myArray` має містити принаймні один масив, вкладений у інший масив.
 
 ```js
 assert(Array.isArray(myArray) && myArray.some(Array.isArray));

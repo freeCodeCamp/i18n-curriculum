@@ -1,13 +1,13 @@
 ---
 id: 66ed8fedf45ce3ece4053eb3
-title: CSS Grid Quiz
+title: Тест з CSS сітки
 challengeType: 8
 dashedName: quiz-css-grid
 ---
 
 # --description--
 
-To pass the quiz, you must correctly answer at least 18 of the 20 questions below.
+Щоб пройти тест, ви повинні правильно відповісти щонайменше на 18 із 20 запитань нижче.
 
 # --quizzes--
 
@@ -17,29 +17,29 @@ To pass the quiz, you must correctly answer at least 18 of the 20 questions belo
 
 #### --text--
 
-What is CSS Grid?
+Що таке CSS сітка?
 
 #### --distractors--
 
-A method used for displaying tables on a website.
+Метод, який використовується для відображення таблиць на вебсайті.
 
 ---
 
-A method used for tiling images.
+Метод, який використовується для укладання зображень у плитку.
 
 ---
 
-A way to display outlines around HTML elements.
+Спосіб відображення обрисів навколо HTML-елементів.
 
 #### --answer--
 
-A two-dimensional layout for HTML documents.
+Двовимірний макет для HTML-документів.
 
 ### --question--
 
 #### --text--
 
-Which of the following is the correct way to create a grid container?
+Який із наведених способів є правильним для створення контейнера сітки?
 
 #### --distractors--
 
@@ -61,73 +61,73 @@ Which of the following is the correct way to create a grid container?
 
 #### --text--
 
-What does the `grid-template-columns` property do?
+Що робить властивість `grid-template-columns`?
 
 #### --distractors--
 
-Defines two columns and three rows for a grid container.
+Визначає дві колонки і три рядки для контейнера сітки.
 
 ---
 
-Sets all columns for the grid layout to a fixed length.
+Встановлює всі колонки макету сітки з фіксованою довжиною.
 
 ---
 
-Creates a two column grid layout container.
+Створює контейнер макету сітки з двома колонками.
 
 #### --answer--
 
-Defines the number of columns in a grid layout.
+Визначає кількість колонок у макеті сітки.
 
 ### --question--
 
 #### --text--
 
-What does the `grid-template-rows` property do?
+Що робить властивість `grid-template-rows`?
 
 #### --distractors--
 
-Specifies a grid item's size and location in a grid layout.
+Вказує розмір і розташування елемента сітки в макеті сітки.
 
 ---
 
-Creates a template for creating new grid rows.
+Створює шаблон для створення нових рядків сітки.
 
 ---
 
-Specifies a default row size in the grid container.
+Вказує розмір рядка за замовчуванням у контейнері сітки.
 
 #### --answer--
 
-Specifies the number and height for each row in a grid layout.
+Вказує кількість і висоту кожного рядка в макеті сітки.
 
 ### --question--
 
 #### --text--
 
-What does the `minmax()` function do?
+Що робить функція `minmax()`?
 
 #### --distractors--
 
-Toggles between the first and second value, depending on available space.
+Перемикається між першим і другим значенням залежно від доступного простору.
 
 ---
 
-Returns the average of the two inputs.
+Повертає середнє значення двох вхідних даних.
 
 ---
 
-Sets the minimal size of the element for browser working in full-screen mode.
+Встановлює мінімальний розмір елемента для браузера в повноекранному режимі.
 
 #### --answer--
 
-Sets the minimum and maximum sizes for a track.
+Встановлює мінімальні та максимальні розміри для треку.
 
 ### --question--
 
 #### --text--
 
-What is the shorthand for the `column-gap` and `row-gap` properties?
+Який скорочений запис для властивостей `column-gap` і `row-gap`?
 
 #### --distractors--
 
@@ -149,29 +149,29 @@ What is the shorthand for the `column-gap` and `row-gap` properties?
 
 #### --text--
 
-What is the difference between an implicit and explicit grid?
+У чому різниця між неявною та явною сіткою?
 
 #### --distractors--
 
-Implicit grids use the `grid-template-columns` property while explicit grids use the `grid-template-rows` property.
+Неявні сітки використовують властивість `grid-template-columns`, тоді як явні сітки використовують властивість `grid-template-rows`.
 
 ---
 
-Explicit grids use the `grid-template-columns` property while implicit grids use the `grid-template-rows` property.
+Явні сітки використовують властивість `grid-template-columns`, тоді як неявні сітки використовують властивість `grid-template-rows`.
 
 ---
 
-Implicit grids use the `grid-template-columns` or `grid-template-rows` properties to create columns while rows and columns are automatically created in explicit grids.
+Неявні сітки використовують властивості `grid-template-columns` або `grid-template-rows` для створення колонок, тоді як рядки і колонки створюються автоматично в явних сітках.
 
 #### --answer--
 
-Explicit grids use the `grid-template-columns` or `grid-template-rows` properties to create columns while rows and columns are automatically created in implicit grids.
+Явні сітки використовують властивості `grid-template-columns` або `grid-template-rows` для створення колонок, тоді як рядки і колонки створюються автоматично в неявних сітках.
 
 ### --question--
 
 #### --text--
 
-Which of the following units represents a fraction of the space within the grid container?
+Яка одиниця виміру представляє дріб простору всередині контейнера сітки?
 
 #### --distractors--
 
@@ -193,51 +193,51 @@ Which of the following units represents a fraction of the space within the grid 
 
 #### --text--
 
-What are grid lines?
+Що таке лінії сітки?
 
 #### --distractors--
 
-Shorthand for rows and columns.
+Скорочення для рядків і колонок.
 
 ---
 
-Outlines of a grid element.
+Обриси елемента сітки.
 
 ---
 
-Lines along which grid columns and rows are created.
+Лінії, вздовж яких створюються колонки і рядки сітки.
 
 #### --answer--
 
-Lines on which each of the grid items begin and end.
+Лінії, на яких починаються і закінчуються кожен елемент сітки.
 
 ### --question--
 
 #### --text--
 
-What does the `grid-column` property do?
+Що робить властивість `grid-column`?
 
 #### --distractors--
 
-Adds a new grid element as a child of the element it's applied to.
+Додає новий елемент сітки як дочірній елемент до елемента, до якого застосована.
 
 ---
 
-Aligns text in the grid item vertically.
+Вирівнює текст у елементі сітки по вертикалі.
 
 ---
 
-Sets two columns for a grid container.
+Встановлює дві колонки для контейнера сітки.
 
 #### --answer--
 
-Tells the grid item on which grid line it should start and end at.
+Вказує, на якій лінії сітки елемент сітки повинен починатися і закінчуватися.
 
 ### --question--
 
 #### --text--
 
-How do you create four columns of equal width?
+Як створити чотири колонки однакової ширини?
 
 #### --distractors--
 
@@ -259,51 +259,51 @@ How do you create four columns of equal width?
 
 #### --text--
 
-What does the `grid-template-areas` property do?
+Що робить властивість `grid-template-areas`?
 
 #### --distractors--
 
-It is used to specify where the item begins on a line in the grid container.
+Використовується для вказівки, де елемент починається на лінії в контейнері сітки.
 
 ---
 
-It is used to create gaps between tracks in the container.
+Використовується для створення розривів між треками в контейнері.
 
 ---
 
-It is used to repeat sections in the track listing.
+Використовується для повторення секцій у списку треків.
 
 #### --answer--
 
-It is used to provide a name for the items you are going to position on the grid.
+Використовується для надання імені елементам, які ви збираєтеся розміщувати на сітці.
 
 ### --question--
 
 #### --text--
 
-What does the `grid-auto-flow` property do?
+Що робить властивість `grid-auto-flow`?
 
 #### --distractors--
 
-Controls the order in which grid items are displayed.
+Керує порядком відображення елементів сітки.
 
 ---
 
-Adjusts the spacing between the grid elements.
+Регулює відстань між елементами сітки.
 
 ---
 
-Automatically adjusts the element to fit in the grid.
+Автоматично підлаштовує елемент під сітку.
 
 #### --answer--
 
-Controls how auto-placed elements get inserted to the grid.
+Керує тим, як елементи, розміщені автоматично, вставляються в сітку.
 
 ### --question--
 
 #### --text--
 
-Which of the following is the correct way to use the `grid-template-areas` property?
+Який із наведених способів є правильним для використання властивості `grid-template-areas`?
 
 #### --distractors--
 
@@ -368,7 +368,7 @@ Which of the following is the correct way to use the `grid-template-areas` prope
 
 #### --text--
 
-Which of the following is the correct way to work with the `grid-auto-flow` property?
+Який із наведених способів є правильним для роботи з властивістю `grid-auto-flow`?
 
 #### --distractors--
 
@@ -418,7 +418,7 @@ Which of the following is the correct way to work with the `grid-auto-flow` prop
 
 #### --text--
 
-Which of the following is NOT a valid grid property?
+Яка з наведених властивостей НЕ є дійсною властивістю сітки?
 
 #### --distractors--
 
@@ -440,7 +440,7 @@ Which of the following is NOT a valid grid property?
 
 #### --text--
 
-Which of these properties can be used to center items inside a grid element?
+Яку з цих властивостей можна використати для центрування елементів всередині елемента сітки?
 
 #### --distractors--
 
@@ -462,7 +462,7 @@ Which of these properties can be used to center items inside a grid element?
 
 #### --text--
 
-Which of the following is a correct value to use with the `grid-auto-columns` property?
+Яке з наведених значень є правильним для використання з властивістю `grid-auto-columns`?
 
 #### --distractors--
 
@@ -484,29 +484,29 @@ Which of the following is a correct value to use with the `grid-auto-columns` pr
 
 #### --text--
 
-What are grid tracks?
+Що таке треки сітки?
 
 #### --distractors--
 
-Shorthand for rows and columns.
+Скорочення для рядків і колонок.
 
 ---
 
-Lines along which you can animate movement of the grid items.
+Лінії, вздовж яких можна анімувати рух елементів сітки.
 
 ---
 
-Lines on which each of the grid items begins and ends.
+Лінії, на яких починаються і закінчуються кожен елемент сітки.
 
 #### --answer--
 
-Spaces between two adjacent grid lines.
+Пробіли між двома суміжними лініями сітки.
 
 ### --question--
 
 #### --text--
 
-Which of the following is the correct way to use the `minmax()` function?
+Який із наведених способів є правильним для використання функції `minmax()`?
 
 #### --distractors--
 
@@ -554,51 +554,51 @@ Which of the following is the correct way to use the `minmax()` function?
 
 #### --text--
 
-How do you position a grid item within a layout defined by `grid-template-areas`?
+Як розмістити елемент сітки в макеті, визначеному `grid-template-areas`?
 
 #### --distractors--
 
-By directly defining the item's size and location within the grid using `grid-template-rows` and `grid-template-columns`.
+Безпосередньо визначити розмір і розташування елемента в сітці за допомогою `grid-template-rows` і `grid-template-columns`.
 
 ---
 
-By using the `grid-area` property and specifying both row and column start and end positions.
+Використати властивість `grid-area` і вказати початкові та кінцеві позиції рядка і колонки.
 
 ---
 
-By setting both `grid-area` and explicit pixel coordinates.
+Встановити одночасно `grid-area` і явні піксельні координати.
 
 #### --answer--
 
-By assigning the named area to the item's `grid-area` property.
+Призначити іменовану область властивості `grid-area` елемента.
 
 ### --question--
 
 #### --text--
 
-What does the `grid-auto-rows` property control?
+Що контролює властивість `grid-auto-rows`?
 
 #### --distractors--
 
-The height of explicitly defined rows.
+Висоту явно визначених рядків.
 
 ---
 
-The maximum width of grid columns.
+Максимальну ширину колонок сітки.
 
 ---
 
-The spacing between rows.
+Відстань між рядками.
 
 #### --answer--
 
-The size of implicitly created rows.
+Розмір неявно створених рядків.
 
 ### --question--
 
 #### --text--
 
-Which property would you use to make a grid item span multiple rows?
+Яку властивість ви використали б, щоб елемент сітки займав кілька рядків?
 
 #### --distractors--
 
@@ -620,29 +620,29 @@ Which property would you use to make a grid item span multiple rows?
 
 #### --text--
 
-What defines an explicit grid?
+Що визначає явну сітку?
 
 #### --distractors--
 
-Tracks created automatically to fit content.
+Треки, створені автоматично для підлаштування вмісту.
 
 ---
 
-Tracks defined by the `fr` unit.
+Треки, визначені одиницею `fr`.
 
 ---
 
-Tracks added with `grid-auto-flow`.
+Треки, додані за допомогою `grid-auto-flow`.
 
 #### --answer--
 
-Tracks explicitly set by `grid-template-columns` or `grid-template-rows`.
+Треки, явно встановлені властивостями `grid-template-columns` або `grid-template-rows`.
 
 ### --question--
 
 #### --text--
 
-Which value for `grid-auto-flow` would make new items fill columns first?
+Яке значення для `grid-auto-flow` змусить нові елементи спочатку заповнювати колонки?
 
 #### --distractors--
 
@@ -664,29 +664,29 @@ Which value for `grid-auto-flow` would make new items fill columns first?
 
 #### --text--
 
-What is the purpose of `grid-template-areas`?
+Яка мета `grid-template-areas`?
 
 #### --distractors--
 
-To auto-generate implicit tracks.
+Автоматично створювати неявні треки.
 
 ---
 
-To replace the `fr` unit.
+Замінити одиницю `fr`.
 
 ---
 
-To set `z-index` values.
+Встановити значення `z-index`.
 
 #### --answer--
 
-To visually map items to named grid areas.
+Візуально спроєктувати елементи на іменовані області сітки.
 
 ### --question--
 
 #### --text--
 
-How can you make a grid item start at column line 2 and end at column line 4?
+Як зробити, щоб елемент сітки починався на другій лінії колонки і закінчувався на четвертій?
 
 #### --distractors--
 
@@ -708,29 +708,29 @@ How can you make a grid item start at column line 2 and end at column line 4?
 
 #### --text--
 
-What is the effect of `grid-template-columns: 1fr 2fr 1fr`?
+Який ефект має `grid-template-columns: 1fr 2fr 1fr`?
 
 #### --distractors--
 
-Creates three equal-width columns.
+Створює три колонки однакової ширини.
 
 ---
 
-Makes the middle column three times as wide as the others.
+Робить середню колонку втричі ширшою за інші.
 
 ---
 
-Forces all columns to be exactly `1fr` wide.
+Змушує всі колонки бути точно `1fr` шириною.
 
 #### --answer--
 
-Creates three columns where the middle is twice as wide as the sides.
+Створює три колонки, де середня вдвічі ширша за бокові.
 
 ### --question--
 
 #### --text--
 
-How would you create a grid with 3 equal columns and a `20px` gap between them?
+Як створити сітку з 3 однаковими колонками і `20px` розривом між ними?
 
 #### --distractors--
 
@@ -773,73 +773,73 @@ How would you create a grid with 3 equal columns and a `20px` gap between them?
 
 #### --text--
 
-What does `repeat(3, minmax(100px, 1fr))` create?
+Що створює `repeat(3, minmax(100px, 1fr))`?
 
 #### --distractors--
 
-Three columns that can't shrink below `100px`.
+Три колонки, які не можуть зменшуватися менше за `100px`.
 
 ---
 
-Three fixed `100px` columns.
+Три фіксовані колонки `100px`.
 
 ---
 
-Three rows with maximum height of `1fr`.
+Три рядки з максимальною висотою `1fr`.
 
 #### --answer--
 
-Three columns that grow proportionally but won't shrink below `100px`.
+Три колонки, які пропорційно ростуть, але не зменшуються менше за `100px`.
 
 ### --question--
 
 #### --text--
 
-Which statement about implicit grids is true?
+Яке твердження про неявні сітки є правильним?
 
 #### --distractors--
 
-Implicit grids ignore the `gap` property.
+Неявні сітки ігнорують властивість `gap`.
 
 ---
 
-Implicit tracks must be defined with `grid-template-areas`.
+Неявні треки мають бути визначені властивістю `grid-template-areas`.
 
 ---
 
-Implicit tracks can only be created using the `grid-auto-flow` property.
+Неявні треки можна створювати лише за допомогою властивості `grid-auto-flow`.
 
 #### --answer--
 
-Implicit tracks are created when content doesn't fit explicit tracks.
+Неявні треки створюються, коли вміст не поміщається в явні треки.
 
 ### --question--
 
 #### --text--
 
-What does the `place-items` property do in CSS Grid?
+Що робить властивість `place-items` у CSS сітці?
 
 #### --distractors--
 
-It sets the size of grid items automatically based on available space.
+Автоматично встановлює розмір елементів сітки залежно від доступного простору.
 
 ---
 
-It controls the grid template's column and row definitions.
+Керує визначеннями колонок і рядків шаблону сітки.
 
 ---
 
-It adjusts the order of grid items within the container.
+Регулює порядок елементів сітки в контейнері.
 
 #### --answer--
 
-It is a shorthand for aligning grid items in both the block and inline axes.
+Це скорочений запис для вирівнювання елементів сітки по обох осях — блочній і рядковій.
 
 ### --question--
 
 #### --text--
 
-What does this CSS accomplish?
+Що робить цей CSS?
 
 ```css
 .container {
@@ -849,69 +849,69 @@ What does this CSS accomplish?
 
 #### --distractors--
 
-Creates fixed `150px` columns that overflow the container.
+Створює фіксовані колонки `150px`, які виходять за межі контейнера.
 
 ---
 
-Creates columns that are exactly `1fr` wide regardless of content.
+Створює колонки точно `1fr` шириною незалежно від вмісту.
 
 ---
 
-Creates a maximum of one column per `150px` of available width.
+Створює максимум одну колонку на `150px` доступної ширини.
 
 #### --answer--
 
-Creates flexible columns that are at least `150px` and collapse when space is limited.
+Створює гнучкі колонки, які мають мінімум `150px` і стискаються, коли простору мало.
 
 ### --question--
 
 #### --text--
 
-How can you create asymmetric grid layouts?
+Як створити асиметричні макети сітки?
 
 #### --distractors--
 
-By using only `fr` units.
+Використовуючи лише одиниці `fr`.
 
 ---
 
-By mixing different length units in `grid-template-columns`.
+Змішуючи різні одиниці довжини в `grid-template-columns`.
 
 ---
 
-By setting `grid-asymmetric: true`.
+Встановлюючи `grid-asymmetric: true`.
 
 #### --answer--
 
-By defining different sizes for each track.
+Визначаючи різні розміри для кожного треку.
 
 ### --question--
 
 #### --text--
 
-What does `grid-column-start: 2` do to a grid item?
+Що робить `grid-column-start: 2` з елементом сітки?
 
 #### --distractors--
 
-Makes it span 2 columns.
+Змушує його займати 2 колонки.
 
 ---
 
-Offsets it by 2 pixels.
+Компенсує його на 2 пікселі.
 
 ---
 
-Positions it starting at the second vertical grid line.
+Розміщує його, починаючи з другої вертикальної лінії сітки.
 
 #### --answer--
 
-Makes it start at the second column line.
+Змушує його починатися на другій лінії колонки.
 
 ### --question--
 
 #### --text--
 
-Which property would you use to control overflow behavior in grid tracks?
+Яку властивість ви використали б для керування поведінкою переповнення в треках сітки?
 
 #### --distractors--
 
@@ -933,7 +933,7 @@ Which property would you use to control overflow behavior in grid tracks?
 
 #### --text--
 
-What will be the result for the following code?
+Яким буде результат для такого коду?
 
 ```css
 .container {
@@ -946,25 +946,25 @@ What will be the result for the following code?
 
 #### --distractors--
 
-The container will have three columns of equal width, and two rows with `150px` height each.
+Контейнер матиме три колонки однакової ширини і два рядки висотою `150px` кожен.
 
 ---
 
-The container will have three columns, all with `100px` width, and two rows with `150px` height.
+Контейнер матиме три колонки, усі шириною `100px`, і два рядки висотою `150px`.
 
 ---
 
-The container will have two rows, each with a height of `1fr`.
+Контейнер матиме два рядки, кожен висотою `1fr`.
 
 #### --answer--
 
-The container will have three columns: 100px, `1fr` and `2fr` wide and two rows: one auto and one with `150px` height.
+Контейнер матиме три колонки: 100px, `1fr` і `2fr` шириною та два рядки: один авто і один висотою `150px`.
 
 ### --question--
 
 #### --text--
 
-How would you make a grid item span all available rows?
+Як зробити, щоб елемент сітки займав усі доступні рядки?
 
 #### --distractors--
 
@@ -986,7 +986,7 @@ How would you make a grid item span all available rows?
 
 #### --text--
 
-Which property controls the alignment of grid items along the block axis?
+Яка властивість керує вирівнюванням елементів сітки вздовж блочної осі?
 
 #### --distractors--
 
@@ -1008,7 +1008,7 @@ Which property controls the alignment of grid items along the block axis?
 
 #### --text--
 
-How can you ensure a grid item stays in the first column regardless of grid changes?
+Як забезпечити, щоб елемент сітки залишався в першій колонці незалежно від змін сітки?
 
 #### --distractors--
 

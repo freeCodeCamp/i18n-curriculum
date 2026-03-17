@@ -1,6 +1,6 @@
 ---
 id: 68fa8b4ecf2cf649ff55f7fd
-title: Task 2
+title: Attività 2
 challengeType: 19
 dashedName: task-2
 lang: es
@@ -8,13 +8,13 @@ lang: es
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Ascolta l'audio e rispondi alla domanda qui sotto.
 
 # --questions--
 
 ## --text--
 
-What is the **second** letter pronounced in this audio?
+Qual è la **seconda** lettera pronunciata in questo audio?
 
 ## --answers--
 
@@ -22,7 +22,7 @@ What is the **second** letter pronounced in this audio?
 
 ### --feedback--
 
-The letter `b` has a different sound.
+La lettera `b` ha un suono diverso.
 
 ---
 
@@ -34,7 +34,7 @@ The letter `b` has a different sound.
 
 ### --feedback--
 
-The letter `z` has a different sound.
+La lettera `z` ha un suono diverso.
 
 ---
 
@@ -42,7 +42,7 @@ The letter `z` has a different sound.
 
 ### --feedback--
 
-The letter `m` has a different sound.
+La lettera `m` ha un suono diverso.
 
 ## --video-solution--
 
@@ -50,9 +50,9 @@ The letter `m` has a different sound.
 
 # --explanation--
 
-These are the three letters pronounced in the audio: `b`, `x`, `z`.
+Queste sono le tre lettere pronunciate nell'audio: `b`, `x`, `z`.
 
-The letter `x` is the second one. Therefore, `x` is the correct answer.
+La lettera `x` è la seconda. Quindi, `x` è la risposta corretta.
 
 # --scene--
 

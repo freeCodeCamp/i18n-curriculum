@@ -1,6 +1,6 @@
 ---
 id: 5a24bbe0dba28a8d3cbd4c5d
-title: Creare un elemento JSX complesso
+title: Crea un elemento JSX complesso
 challengeType: 6
 forumTopicId: 301382
 dashedName: create-a-complex-jsx-element
@@ -8,13 +8,13 @@ dashedName: create-a-complex-jsx-element
 
 # --description--
 
-The last challenge was a simple example of JSX, but JSX can represent more complex HTML as well.
+L'ultima sfida era un esempio semplice di JSX, ma JSX può rappresentare anche HTML più complesso.
 
-Una cosa importante da sapere sul JSX annidato è che deve restituire un singolo elemento.
+Una cosa importante da sapere sugli elementi JSX annidati è che devono restituire un solo elemento.
 
 Questo elemento genitore avvolgerà tutti gli altri livelli di elementi annidati.
 
-Per esempio, diversi elementi JSX scritti come fratelli senza un elemento genitore che li contenga, non saranno transcodificati.
+Per esempio, diversi elementi JSX scritti come fratelli senza un elemento genitore che li avvolga non verranno transpiletti.
 
 Ecco un esempio:
 
@@ -38,11 +38,11 @@ Ecco un esempio:
 
 # --instructions--
 
-Definisci una nuova costante `JSX` che esegua il render di un `div` che contenga i seguenti elementi in ordine:
+Definisci una nuova costante `JSX` che renderizza un `div` che contiene i seguenti elementi in ordine:
 
-Un `h1`, un `p` e una lista non ordinata che contiene tre elementi `li`. Puoi includere qualsiasi testo desideri all'interno di ogni elemento.
+Un `h1`, un `p` e una lista non ordinata che contiene tre elementi `li`. Puoi inserire qualsiasi testo desideri all'interno di ogni elemento.
 
-**Nota:** Quando si visualizzano più elementi come questo, è possibile avvolgerli tutti in parentesi, ma non è strettamente necessario. Nota anche che questa sfida utilizza un tag `div` per avvolgere tutti gli elementi figli all'interno di un singolo elemento genitore. Se rimuovi il `div`, il JSX non sarà più transcodificato. Tienilo a mente, perché questo si applicherà anche quando restituirai elementi JSX in componenti React.
+**Nota:** Quando renderizzi più elementi come questi, puoi racchiuderli tutti tra parentesi, ma non è strettamente necessario. Nota anche che questa sfida usa un tag `div` per avvolgere tutti gli elementi figli all'interno di un singolo elemento genitore. Se rimuovi il `div`, il JSX non verrà più transpilettato. Tieni presente questo, perché si applicherà anche quando restituisci elementi JSX nei componenti React.
 
 # --hints--
 
@@ -70,7 +70,7 @@ Il `div` dovrebbe contenere un tag `ul` come terzo elemento.
 assert(JSX.props.children[2].type === 'ul');
 ```
 
-L'elemento `ul` dovrebbe contenere tre elementi `li`.
+Il `ul` dovrebbe contenere tre elementi `li`.
 
 ```js
 assert(

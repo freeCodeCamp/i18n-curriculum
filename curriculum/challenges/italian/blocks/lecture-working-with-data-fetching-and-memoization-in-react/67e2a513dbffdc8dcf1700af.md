@@ -1,45 +1,45 @@
 ---
 id: 67e2a513dbffdc8dcf1700af
-title: What Is the useOptimistic Hook, and How Does It Work?
+title: Cos’è il hook useOptimistic e come funziona?
 challengeType: 19
 dashedName: what-is-the-useoptimistic-hook-and-how-does-it-work
 ---
 
 # --description--
 
-Recent versions of React introduced server components and server actions to shift some of the rendering and logic responsibilities to the server.
+Le versioni recenti di React hanno introdotto i componenti server e le azioni server per spostare alcune responsabilità di rendering e logica sul server.
 
-Along with those updates, React added a new hook called `useOptimistic` to keep UIs responsive while waiting for an async action to complete in the background.
+Insieme a questi aggiornamenti, React ha aggiunto un nuovo hook chiamato `useOptimistic` per mantenere le interfacce utente responsivi mentre si aspetta che un’azione asincrona si completi in background.
 
-While this is often used for fetching data from a server, it's not limited to that. The hook is generally useful for handling async operations, ensuring the UI remains smooth and interactive while the action runs.
+Anche se spesso viene usato per recuperare dati da un server, non è limitato a questo. Il hook è generalmente utile per gestire operazioni asincrone, assicurando che l’interfaccia rimanga fluida e interattiva mentre l’azione è in esecuzione.
 
-Let's take a look at what the `useOptimistic` hook is and how it contributes to making snappy and responsive UIs. 
+Diamo un’occhiata a cos’è il hook `useOptimistic` e come contribuisce a creare interfacce rapide e responsivi.
 
-The `useOptimistic` hook helps manage "optimistic updates" in the UI, a strategy in which you provide immediate updates to the UI based on the expected outcome of an action, like waiting for a server response.
+Il hook `useOptimistic` aiuta a gestire gli “aggiornamenti ottimistici” nell’interfaccia, una strategia in cui fornisci aggiornamenti immediati all’interfaccia basati sull’esito previsto di un’azione, come aspettare una risposta dal server.
 
-Here's the basic syntax of the `useOptimistic` hook:
+Ecco la sintassi base del hook `useOptimistic`:
 
 ```js
 const [optimisticState, addOptimistic] = useOptimistic(actualState, updateFunction);
 ```
 
-- `optimisticState` is the temporary state that updates right away for a better user experience.
+- `optimisticState` è lo stato temporaneo che si aggiorna subito per un’esperienza utente migliore.
 
-- `addOptimistic` is the function that applies the optimistic update before the actual state changes.
+- `addOptimistic` è la funzione che applica l’aggiornamento ottimistico prima che lo stato reale cambi.
 
-- `actualState` is the real state value that comes from the result of an action, like fetching data from a server.
+- `actualState` è il valore reale dello stato che deriva dal risultato di un’azione, come recuperare dati da un server.
 
-- `updateFunction` is the function that determines how the optimistic state should update when called.
+- `updateFunction` è la funzione che determina come lo stato ottimistico deve aggiornarsi quando viene chiamata.
 
-At first glance, it might seem like the `useOptimistic` hook is just another way to handle loading states in React. But it's more than that.
+A prima vista, potrebbe sembrare che il hook `useOptimistic` sia solo un altro modo per gestire gli stati di caricamento in React. Ma è molto di più.
 
-A loading state controls whether you see a spinner, message, or some other indicator in the UI while something happens in the background.
+Uno stato di caricamento controlla se vedi un indicatore di caricamento, un messaggio o qualche altro segnale nell’interfaccia mentre qualcosa accade in background.
 
-However, the `useOptimistic` hook updates the UI instantaneously based on an expected outcome, even before you, say, make a call to an API. This hook gives you a chance to show a loading indicator or message, handle potential errors gracefully, and show instant feedback to make the UI feel snappy.
+Tuttavia, il hook `useOptimistic` aggiorna l’interfaccia istantaneamente basandosi su un esito previsto, anche prima di, per esempio, fare una chiamata a un’API. Questo hook ti dà la possibilità di mostrare un indicatore di caricamento o un messaggio, gestire eventuali errori con eleganza e mostrare un feedback immediato per far sentire l’interfaccia reattiva.
 
-This will become clearer as we go through some examples showing how the `useOptimistic` hook works.
+Questo diventerà più chiaro mentre vediamo alcuni esempi che mostrano come funziona il hook `useOptimistic`.
 
-Here's an action that simulates saving a task to a server. It returns the task after a 1 second delay, as it could happen with a real-world API request:
+Ecco un’azione che simula il salvataggio di un’attività su un server. Restituisce l’attività dopo un ritardo di 1 secondo, come potrebbe succedere con una richiesta API reale:
 
 ```js
 export async function saveTask(task) {
@@ -49,7 +49,7 @@ export async function saveTask(task) {
 }
 ```
 
-Here's the code that sets up the `useOptimistic` hook by importing and initializing it, with an `handleSubmit` function that sends an input to the action:
+Ecco il codice che configura il hook `useOptimistic` importandolo e inizializzandolo, con una funzione `handleSubmit` che invia un input all’azione:
 
 ```jsx
 "use client";
@@ -76,13 +76,13 @@ export default function TaskList({ tasks, addTask }) {
 }
 ```
 
-In the code, the `useOptimistic` hook keeps a temporary list of tasks that updates immediately when you add a new task.
+Nel codice, il hook `useOptimistic` mantiene una lista temporanea di attività che si aggiorna immediatamente quando aggiungi una nuova attività.
 
-The line, `(state, newTask) => [...state, { text: newTask, pending: true }]` ensures that a new task appears with a pending status even before the server confirms something is coming from the form.
+La riga `(state, newTask) => [...state, { text: newTask, pending: true }]` assicura che una nuova attività appaia con uno stato in sospeso anche prima che il server confermi qualcosa proveniente dal modulo.
 
-When the form is submitted, the `handleSubmit` function extracts the task and adds it "optimistically" with the `addOptimisticTask` parameter. Then `addTask` is passed as a prop which sends the task to the server. Finally, the form is reset by calling `e.target.reset()`.
+Quando il modulo viene inviato, la funzione `handleSubmit` estrae l’attività e la aggiunge “ottimisticamente” con il parametro `addOptimisticTask`. Poi `addTask` viene passato come prop che invia l’attività al server. Infine, il modulo viene resettato chiamando `e.target.reset()`.
 
-Here's the `TaskList` component:
+Ecco il componente `TaskList`:
 
 ```jsx
 "use client";
@@ -139,9 +139,9 @@ export default function TaskList({ tasks, addTask }) {
 }
 ```
 
-Here, we are looping through the `optimisticTask` parameter to display the task. When `task.pending` is `true`, the text `Adding Task...` is displayed next to the task, confirming that the task has been added optimistically before the server confirms it.
+Qui, stiamo iterando sul parametro `optimisticTask` per mostrare l’attività. Quando `task.pending` è `true`, il testo `Adding Task...` viene mostrato accanto all’attività, confermando che l’attività è stata aggiunta ottimisticamente prima che il server la confermi.
 
-Here's the `Task` component that manages the state for the form. It calls the `saveTask` function from the action so it can add the task, and appends the new task once it is received by the server:
+Ecco il componente `Task` che gestisce lo stato per il modulo. Chiama la funzione `saveTask` dall’azione così può aggiungere l’attività e aggiunge la nuova attività una volta ricevuta dal server:
 
 ```jsx
 "use client";
@@ -164,13 +164,13 @@ export default function Tasks() {
 }
 ```
 
-This ensures snappy UI updates by showing instant feedback instead of waiting for a response. Once the task is saved, the `pending` property is removed, and the final task list updates accordingly.
+Questo assicura aggiornamenti rapidi dell’interfaccia mostrando un feedback immediato invece di aspettare una risposta. Una volta che l’attività è salvata, la proprietà `pending` viene rimossa e la lista finale delle attività si aggiorna di conseguenza.
 
-In the UI, there are two things happening that are not supposed to happen. First, you can't see the `Adding Task...` text since it appears and disappears too quickly. Next, there's an error occurring after adding the task.
+Nell’interfaccia succedono due cose che non dovrebbero accadere. Primo, non puoi vedere il testo `Adding Task...` perché appare e scompare troppo velocemente. Poi, si verifica un errore dopo aver aggiunto l’attività.
 
-There are two things we need to do to address those issues.
+Ci sono due cose da fare per risolvere questi problemi.
 
-First, we need to import `startTransition` from React and use it to wrap the line `addOptimisticTask(formData.get('task'))`:
+Prima, dobbiamo importare `startTransition` da React e usarlo per avvolgere la riga `addOptimisticTask(formData.get('task'))`:
 
 ```js
 startTransition(() => {
@@ -178,9 +178,9 @@ startTransition(() => {
 });
 ```
 
-Second, we need to make the `Adding Task...` text visible for some time before it goes away.
+Secondo, dobbiamo rendere il testo `Adding Task...` visibile per un po’ di tempo prima che scompaia.
 
-To do this, we can modify the `addTask` function with a pending state and simulate a delay of a few seconds before marking the task as completed. `setTimeout()` is ideal for this:
+Per farlo, possiamo modificare la funzione `addTask` con uno stato pending e simulare un ritardo di qualche secondo prima di segnare l’attività come completata. `setTimeout()` è ideale per questo:
 
 ```js
 async function addTask(formData) {
@@ -205,41 +205,41 @@ async function addTask(formData) {
 }
 ```
 
-And once you do that, everything works fine.
+E una volta fatto, tutto funziona bene.
 
 # --questions--
 
 ## --text--
 
-What is the purpose of the `useOptimistic` hook?
+Qual è lo scopo del hook `useOptimistic`?
 
 ## --answers--
 
-It allows components to fetch data from the server before rendering the UI.
+Permette ai componenti di recuperare dati dal server prima di renderizzare l’interfaccia.
 
 ### --feedback--
 
-This hook ensures the UI reflects expected changes before an async operation completes.
+Questo hook assicura che l’interfaccia rifletta i cambiamenti previsti prima che un’operazione asincrona si completi.
 
 ---
 
-It helps manage optimistic updates by updating the UI immediately while waiting for an async operation, like a server response.
+Aiuta a gestire aggiornamenti ottimistici aggiornando subito l’interfaccia mentre si aspetta un’operazione asincrona, come una risposta dal server.
 
 ---
 
-It enables automatic error handling and rollback for failed API requests in React applications.
+Permette la gestione automatica degli errori e il rollback per richieste API fallite nelle applicazioni React.
 
 ### --feedback--
 
-This hook ensures the UI reflects expected changes before an async operation completes.
+Questo hook assicura che l’interfaccia rifletta i cambiamenti previsti prima che un’operazione asincrona si completi.
 
 ---
 
-It optimizes state updates by batching them together to improve performance.
+Ottimizza gli aggiornamenti dello stato raggruppandoli per migliorare le prestazioni.
 
 ### --feedback--
 
-This hook ensures the UI reflects expected changes before an async operation completes.
+Questo hook assicura che l’interfaccia rifletta i cambiamenti previsti prima che un’operazione asincrona si completi.
 
 ## --video-solution--
 
@@ -247,35 +247,35 @@ This hook ensures the UI reflects expected changes before an async operation com
 
 ## --text--
 
-How is the `useOptimistic` hook different from a loading state?
+In cosa il hook `useOptimistic` è diverso da uno stato di caricamento?
 
 ## --answers--
 
-A loading state shows UI feedback while waiting for a response, whereas `useOptimistic` updates the UI immediately based on an expected outcome.
+Uno stato di caricamento mostra un feedback nell’interfaccia mentre si aspetta una risposta, mentre `useOptimistic` aggiorna subito l’interfaccia basandosi su un esito previsto.
 
 ---
 
-A loading state modifies server data instantly while `useOptimistic` only updates the client UI.
+Uno stato di caricamento modifica immediatamente i dati del server mentre `useOptimistic` aggiorna solo l’interfaccia client.
 
 ### --feedback--
 
-One updates the UI before the server even knows about the request.
+Uno aggiorna l’interfaccia prima ancora che il server sappia della richiesta.
 
 ---
 
-The `useOptimistic` hook is used for handling errors, whereas a loading state is only for showing spinners.
+Il hook `useOptimistic` serve per gestire gli errori, mentre uno stato di caricamento serve solo a mostrare indicatori di caricamento.
 
 ### --feedback--
 
-One updates the UI before the server even knows about the request.
+Uno aggiorna l’interfaccia prima ancora che il server sappia della richiesta.
 
 ---
 
-Both are the same, but `useOptimistic` provides automatic retries for failed requests.
+Sono uguali, ma `useOptimistic` fornisce ritentativi automatici per richieste fallite.
 
 ### --feedback--
 
-One updates the UI before the server even knows about the request.
+Uno aggiorna l’interfaccia prima ancora che il server sappia della richiesta.
 
 ## --video-solution--
 
@@ -283,7 +283,7 @@ One updates the UI before the server even knows about the request.
 
 ## --text--
 
-What does `addOptimistic` do in the `useOptimistic` hook syntax below?
+Cosa fa `addOptimistic` nella sintassi del hook `useOptimistic` qui sotto?
 
 ```js
 const [optimisticState, addOptimistic] = useOptimistic(actualState, updateFunction);
@@ -291,31 +291,31 @@ const [optimisticState, addOptimistic] = useOptimistic(actualState, updateFuncti
 
 ## --answers--
 
-It applies the optimistic update before the actual state changes, providing a smoother user experience.
+Applica l’aggiornamento ottimistico prima che lo stato reale cambi, offrendo un’esperienza utente più fluida.
 
 ---
 
-It fetches the real state from the server and updates the UI accordingly.
+Recupera lo stato reale dal server e aggiorna l’interfaccia di conseguenza.
 
 ### --feedback--
 
-This function updates the UI before the actual state changes.
+Questa funzione aggiorna l’interfaccia prima che lo stato reale cambi.
 
 ---
 
-It replaces the actual state with a temporary state after receiving a server response.
+Sostituisce lo stato reale con uno temporaneo dopo aver ricevuto la risposta dal server.
 
 ### --feedback--
 
-This function updates the UI before the actual state changes.
+Questa funzione aggiorna l’interfaccia prima che lo stato reale cambi.
 
 ---
 
-It validates server data before applying the optimistic update to the UI.
+Valida i dati del server prima di applicare l’aggiornamento ottimistico all’interfaccia.
 
 ### --feedback--
 
-This function updates the UI before the actual state changes.
+Questa funzione aggiorna l’interfaccia prima che lo stato reale cambi.
 
 ## --video-solution--
 

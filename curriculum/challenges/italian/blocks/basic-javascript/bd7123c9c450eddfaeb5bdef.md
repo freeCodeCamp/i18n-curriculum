@@ -1,6 +1,6 @@
 ---
 id: bd7123c9c450eddfaeb5bdef
-title: Use Bracket Notation to Find the Nth Character in a String
+title: usa la notazione a parentesi per trovare il carattere n-esimo in una stringa
 challengeType: 1
 forumTopicId: 18343
 dashedName: use-bracket-notation-to-find-the-nth-character-in-a-string
@@ -8,34 +8,34 @@ dashedName: use-bracket-notation-to-find-the-nth-character-in-a-string
 
 # --description--
 
-You can also use <dfn>bracket notation</dfn> to get the character at other positions within a string.
+Puoi anche usare la <dfn>notazione a parentesi</dfn> per ottenere il carattere in altre posizioni all'interno di una stringa.
 
-Remember that computers start counting at `0`, so the first character is actually the zeroth character.
+Ricorda che i computer iniziano a contare da `0`, quindi il primo carattere è in realtà il carattere zero.
 
-Example:
+Esempio:
 
 ```js
 const firstName = "Ada";
 const secondLetterOfFirstName = firstName[1];
 ```
 
-`secondLetterOfFirstName` would have a value of the string `d`.
+`secondLetterOfFirstName` avrebbe il valore della stringa `d`.
 
 # --instructions--
 
-Let's try to set `thirdLetterOfLastName` to equal the third letter of the `lastName` variable using bracket notation.
+Proviamo a impostare `thirdLetterOfLastName` uguale alla terza lettera della variabile `lastName` usando la notazione a parentesi.
 
-**Hint:** Try looking at the example above if you get stuck.
+**Suggerimento:** Dai un'occhiata all'esempio sopra se ti blocchi.
 
 # --hints--
 
-The `thirdLetterOfLastName` variable should have the value of `v`.
+La variabile `thirdLetterOfLastName` dovrebbe avere il valore di `v`.
 
 ```js
 assert(thirdLetterOfLastName === 'v');
 ```
 
-You should use bracket notation.
+Dovresti usare la notazione a parentesi.
 
 ```js
 assert(__helpers.removeJSComments(code).match(/thirdLetterOfLastName\s*=\s*lastName\s*\[\s*\d\s*\]/));

@@ -7,39 +7,39 @@ dashedName: step-108
 
 # --description--
 
-Створіть інструкцію `if`, яка перевіряє, чи значення `isCheckpointCollisionDetectionActive` є істинним.
+Створіть інструкцію `if`, яка перевіряє, чи є `isCheckpointCollisionDetectionActive` істинним.
 
-У інструкції `if` додайте `setTimeout()`, яка приймає функцію зворотного виклику та затримку у 2000 мілісекунд.
+Всередині інструкції `if` додайте `setTimeout()`, яка приймає функцію зворотного виклику та затримку 2000 мілісекунд.
 
-Для функції зворотного виклику, вона має встановити властивості `style.display` з `checkpointScreen` на `"none"`.
+Функція зворотного виклику має встановити властивість `checkpointScreen` `style.display` у значення `"none"`.
 
 # --hints--
 
-Ви повинні мати інструкцію `if`, яка перевіряє, чи значення `isCheckpointCollisionDetectionActive` є істинним.
+У вас має бути інструкція `if`, яка перевіряє, чи є `isCheckpointCollisionDetectionActive` істинним.
 
 ```js
 assert.match(code, /\s*if\s*\(\s*isCheckpointCollisionDetectionActive\s*\)\s*{/s);
 ```
 
-Інструкція `if` повинна містити функцію `setTimeout()`.
+У вас має бути функція `setTimeout()` всередині інструкції `if`.
 
 ```js
 assert.match(code, /\s*if\s*\(\s*isCheckpointCollisionDetectionActive\s*\)\s*{\s*setTimeout\s*\(/s);
 ```
 
-Функція `setTimeout()` повинна мати функцію зворотного виклику як перший аргумент.
+Ваша функція `setTimeout()` має мати функцію зворотного виклику як перший аргумент.
 
 ```js
 assert.match(code, /\s*setTimeout\s*\(\s*\(\s*\)\s*=>/s);
 ```
 
-Функція `setTimeout()` повинна мати затримку в 2000 мілісекунд як другий аргумент.
+Ваша функція `setTimeout()` має мати затримку 2000 мілісекунд як другий аргумент.
 
 ```js
 assert.match(code, /\s*setTimeout\s*\(\s*\(\s*\)\s*=>[^,]*,\s*2000\s*\)/s);
 ```
 
-Функція зворотного виклику має встановіть властивість `checkpointScreen` `style.display` на `"none"`.
+Ваша функція зворотного виклику має встановити властивість `checkpointScreen` `style.display` у значення `"none"`.
 
 ```js
 assert.match(code, /\s*if\s*\(\s*isCheckpointCollisionDetectionActive\s*\)\s*{\s*setTimeout\s*\(\s*\(\s*\)\s*=>\s*(\(\s*checkpointScreen\.style\.display\s*=\s*("|')none\2\s*\)|\{\s*checkpointScreen\.style\.display\s*=\s*("|')none\3\s*;?\s*\}|\s*checkpointScreen\.style\.display\s*=\s*("|')none\4\s*)\s*,\s*2000\s*\)\s*;?\s*}/s);

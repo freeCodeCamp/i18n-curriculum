@@ -1,13 +1,13 @@
 ---
 id: 672bc4ff5e7a4bbdee8ba013
-title: What Are Named Colors in CSS, and When to Use Them?
+title: Що таке іменовані кольори в CSS і коли їх використовувати?
 challengeType: 19
 dashedName: what-are-named-colors-in-css
 ---
 
 # --interactive--
 
-In CSS, colors play a crucial role in designing web pages, enhancing readability, setting the mood, and improving user experience. One of the simplest ways to define colors in CSS is by using named colors. Named colors are predefined color names recognized by browsers. Here is an example of using a named color for a paragraph element:
+У CSS кольори відіграють важливу роль у дизайні вебсторінок, покращенні читабельності, створенні настрою та підвищенні зручності користування. Один із найпростіших способів визначити кольори в CSS — це використання іменованих кольорів. Іменовані кольори — це заздалегідь визначені назви кольорів, які розпізнають браузери. Ось приклад використання іменованого кольору для елемента абзацу:
 
 :::interactive_editor
 
@@ -24,11 +24,11 @@ p {
 
 :::
 
-In this example, we're using the named color `red` to style the text in a paragraph.
+У цьому прикладі ми використовуємо іменований колір `red` для стилізації тексту в абзаці.
 
-Named colors in CSS are a collection of 140 standard color names like `red`, `blue`, `yellow`, `aqua`, `fuchsia`, `black`, and so on. These names are simple to use and make your code more readable, and they are self-descriptive.
+Іменовані кольори в CSS — це множина з 140 стандартних назв кольорів, таких як `red`, `blue`, `yellow`, `aqua`, `fuchsia`, `black` тощо. Ці назви прості у використанні, роблять ваш код більш читабельним і самодостатніми за змістом.
 
-Named colors are useful for quick prototyping, simple designs, and improving code readability. Here is an another example of using named colors for an `h1` selector:
+Іменовані кольори корисні для швидкого прототипування, простих дизайнів і покращення читабельності коду. Ось ще один приклад використання іменованих кольорів для селектора `h1`:
 
 :::interactive_editor
 
@@ -46,47 +46,47 @@ h1 {
 
 :::
 
-In this example, the heading text will be styled in navy, with a light gray background. The readability of the code improves since named colors provide an immediate visual understanding of the intended style.
+У цьому прикладі текст заголовка буде стилізований у кольорі navy із світло-сірим фоном. Читабельність коду покращується, оскільки іменовані кольори одразу дають візуальне розуміння бажаного стилю.
 
-Named colors in CSS are convenient but limited, with only 140 available options. They may not offer the precise shade needed for more detailed designs.
+Іменовані кольори в CSS зручні, але обмежені — доступно лише 140 варіантів. Вони можуть не надати точного відтінку, потрібного для більш детальних дизайнів.
 
-Named colors in CSS are a great way to apply colors quickly and descriptively. While they are useful for basic designs, prototyping, and improving code readability, their limited range makes them less suitable for complex designs requiring precise color control.
+Іменовані кольори в CSS — це чудовий спосіб швидко і описово застосувати кольори. Хоч вони й корисні для базових дизайнів, прототипування та покращення читабельності коду, їх обмежений вибір робить їх менш придатними для складних дизайнів, які потребують точного контролю кольору.
 
-By understanding the strengths and limitations of named colors, you can determine when it’s best to use them over more detailed color models like RGB or HSL, which you will learn about in future lessons.
+Розуміючи переваги та обмеження іменованих кольорів, ви зможете визначити, коли краще їх використовувати замість більш детальних моделей кольору, таких як RGB або HSL, про які ви дізнаєтеся в наступних уроках.
 
 # --questions--
 
 ## --text--
 
-What is a key benefit of using named colors in CSS?
+Яка ключова перевага використання іменованих кольорів у CSS?
 
 ## --answers--
 
-Named colors allow you to create gradients.
+Іменовані кольори дозволяють створювати градієнти.
 
 ### --feedback--
 
-Think about the simplicity and readability aspect of named colors.
+Подумайте про простоту та читабельність іменованих кольорів.
 
 ---
 
-Named colors are simpler to write and make code more readable.
+Іменовані кольори простіші для написання і роблять код більш читабельним.
 
 ---
 
-Named colors provide a wider range of color options than hex codes.
+Іменовані кольори надають ширший вибір кольорів, ніж шістнадцяткові коди.
 
 ### --feedback--
 
-Think about the simplicity and readability aspect of named colors.
+Подумайте про простоту та читабельність іменованих кольорів.
 
 ---
 
-Named colors are the most precise way to define colors in web design.
+Іменовані кольори — це найточніший спосіб визначення кольорів у вебдизайні.
 
 ### --feedback--
 
-Think about the simplicity and readability aspect of named colors.
+Подумайте про простоту та читабельність іменованих кольорів.
 
 ## --video-solution--
 
@@ -94,35 +94,35 @@ Think about the simplicity and readability aspect of named colors.
 
 ## --text--
 
-In what scenario might named colors not be the best choice?
+У якому випадку іменовані кольори можуть бути не найкращим вибором?
 
 ## --answers--
 
-When you need to quickly prototype a design.
+Коли потрібно швидко прототипувати дизайн.
 
 ### --feedback--
 
-Think about the limitations of named colors in more complex designs.
+Подумайте про обмеження іменованих кольорів у складніших дизайнах.
 
 ---
 
-When your design requires very specific or nuanced shades of color.
+Коли ваш дизайн вимагає дуже специфічних або тонких відтінків кольору.
 
 ---
 
-When your design involves only primary colors.
+Коли ваш дизайн містить лише основні кольори.
 
 ### --feedback--
 
-Think about the limitations of named colors in more complex designs.
+Подумайте про обмеження іменованих кольорів у складніших дизайнах.
 
 ---
 
-When collaborating with others on a simple project.
+Коли ви працюєте з іншими над простим проєктом.
 
 ### --feedback--
 
-Think about the limitations of named colors in more complex designs.
+Подумайте про обмеження іменованих кольорів у складніших дизайнах.
 
 ## --video-solution--
 
@@ -130,7 +130,7 @@ Think about the limitations of named colors in more complex designs.
 
 ## --text--
 
-Which of the following is an example of a named color in CSS?
+Який із наведених прикладів є іменованим кольором у CSS?
 
 ## --answers--
 
@@ -138,7 +138,7 @@ Which of the following is an example of a named color in CSS?
 
 ### --feedback--
 
-Named colors are descriptive words, not numerical codes.
+Іменовані кольори — це описові слова, а не числові коди.
 
 ---
 
@@ -146,7 +146,7 @@ Named colors are descriptive words, not numerical codes.
 
 ### --feedback--
 
-Named colors are descriptive words, not numerical codes.
+Іменовані кольори — це описові слова, а не числові коди.
 
 ---
 
@@ -158,7 +158,7 @@ Named colors are descriptive words, not numerical codes.
 
 ### --feedback--
 
-Named colors are descriptive words, not numerical codes.
+Іменовані кольори — це описові слова, а не числові коди.
 
 ## --video-solution--
 

@@ -1,6 +1,6 @@
 ---
 id: bd7198d8c242eddfaeb5bd13
-title: Show National Contiguity with a Force Directed Graph
+title: Показати національну суміжність за допомогою графа із силовими зв’язками
 challengeType: 3
 forumTopicId: 302367
 dashedName: show-national-contiguity-with-a-force-directed-graph
@@ -8,21 +8,21 @@ dashedName: show-national-contiguity-with-a-force-directed-graph
 
 # --description--
 
-**Objective:** Build an app that is functionally similar to this: <https://codepen.io/freeCodeCamp/full/XWEONRz>.
+**Мета:** Створіть застосунок, який функціонально схожий на цей: <https://codepen.io/freeCodeCamp/full/XWEONRz>.
 
-Fulfill the below user stories and get all of the tests to pass. Use whichever libraries or APIs you need. Give it your own personal style.
+Виконайте наведені нижче історії користувача та пройдіть усі тести. Використовуйте будь-які бібліотеки або API, які вам потрібні. Додайте свій особистий стиль.
 
-**User Story:** I can see a Force-directed Graph that shows which countries share borders.
+**Історія користувача:** Я можу бачити граф із силовими зв’язками, який показує, які країни мають спільні кордони.
 
-**User Story:** I can see each country's flag on its node.
+**Історія користувача:** Я можу бачити прапорець кожної країни на її вузлі.
 
-**Hint:** Here's a dataset you can use to build this: <https://raw.githubusercontent.com/DealPete/forceDirected/master/countries.json>
+**Підказка:** Ось набір даних, який ви можете використати для створення цього: <https://raw.githubusercontent.com/DealPete/forceDirected/master/countries.json>
 
-**Hint:** You can create a spritesheet of national flags at <https://www.flag-sprites.com>.
+**Підказка:** Ви можете створити спрайт-лист національних прапорців на <https://www.flag-sprites.com>.
 
-When you are finished, include a link to your project on CodePen and click the "I've completed this challenge" button.
+Коли закінчите, додайте посилання на свій проєкт на CodePen і натисніть кнопку "I've completed this challenge".
 
-You can get feedback on your project by sharing it on the <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp forum</a>.
+Ви можете отримати відгук про свій проєкт, поділившись ним на <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">форумі freeCodeCamp</a>.
 
 # --solutions--
 

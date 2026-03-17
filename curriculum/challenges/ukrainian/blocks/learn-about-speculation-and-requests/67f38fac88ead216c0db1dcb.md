@@ -1,6 +1,6 @@
 ---
 id: 67f38fac88ead216c0db1dcb
-title: Task 81
+title: Завдання 81
 challengeType: 19
 dashedName: task-81
 lang: en-US
@@ -12,13 +12,13 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Прослухайте аудіо та дайте відповідь на запитання нижче.
 
 # --questions--
 
 ## --text--
 
-Jessica didn't check that yet, but will do. What should she say?
+Джессіка ще не перевірила це, але збирається зробити. Що вона має сказати?
 
 ## --answers--
 
@@ -30,7 +30,7 @@ ENaa826774
 
 ### --feedback--
 
-`Won't` is the contraction for `will not`. Jessica plans to check it.
+`Won't` — це скорочення від `will not`. Джессіка планує це перевірити.
 
 ---
 
@@ -46,11 +46,11 @@ EN97950753
 
 # --explanation--
 
-Jessica is responding to Jake's question, acknowledging that she has not checked yet but will do so. This response shows that she is ready to complete the task, which is in line with what Jake is asking about.
+Джессіка відповідає на запитання Джейка, визнаючи, що ще не перевірила, але збирається це зробити. Ця відповідь показує, що вона готова виконати завдання, про яке питає Джейк.
 
-`No, I didn't` confirms that she hasn't checked yet.
+`No, I didn't` підтверджує, що вона ще не перевірила.
 
-`I'll do that` shows her intention to complete the task soon.
+`I'll do that` показує її намір незабаром виконати завдання.
 
 # --scene--
 

@@ -1,6 +1,6 @@
 ---
 id: 656ab31ebccec247fde7cee4
-title: Task 64
+title: Attività 64
 challengeType: 22
 dashedName: task-64
 lang: en-US
@@ -13,7 +13,7 @@ Tom: Awesome. My computer and drawing tablet are great, too.
 
 # --description--
 
-`Awesome` is a word people use when they really like something. It's like saying `Very good`. It's an informal way to show approval or admiration.
+`Awesome` è una parola che le persone usano quando qualcosa gli piace davvero. È come dire `Very good`. È un modo informale per mostrare approvazione o ammirazione.
 
 # --fillInTheBlank--
 
@@ -27,7 +27,7 @@ Tom: Awesome. My computer and drawing tablet are great, too.
 
 ### --feedback--
 
-This word means `very good` or `I really like it`. The first letter is capitalized.
+Questa parola significa `very good` o `I really like it`. La prima lettera è maiuscola.
 
 # --scene--
 

@@ -1,6 +1,6 @@
 ---
 id: 67c70abfeb7c6fb8cbd3fed7
-title: Task 57
+title: Attività 57
 challengeType: 19
 dashedName: task-57
 lang: en-US
@@ -10,51 +10,51 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Ascolta l'audio e rispondi alla domanda qui sotto.  
 
 # --questions--
 
 ## --text--
 
-What does Maria want to discuss with James?
+Di cosa vuole parlare Maria con James?  
 
 ## --answers--
 
-Bob's schedule for the week.
+Il programma di Bob per la settimana.  
 
 ### --feedback--
 
-Maria does not mention Bob's schedule.
+Maria non menziona il programma di Bob.  
 
 ---
 
-Her most recent meeting with Bob.
+La sua riunione più recente con Bob.  
 
 ---
 
-A future project deadline.
+La scadenza di un progetto futuro.  
 
 ### --feedback--
 
-Maria does not mention a deadline, only her meeting with Bob.
+Maria non parla di una scadenza, solo della sua riunione con Bob.  
 
 ---
 
-The client's budget request.
+La richiesta di budget del client.  
 
 ### --feedback--
 
-Maria does not refer to a client request in this sentence.
+Maria non fa riferimento a una richiesta del client in questa frase.  
 
 ## --video-solution--
 
-2
+2  
 
 # --explanation--
 
-`Can we talk about...` is used to introduce a topic for discussion. It is a polite way to request a conversation about something important. For example:
+`Can we talk about...` si usa per introdurre un argomento di discussione. È un modo cortese per chiedere di parlare di qualcosa di importante. Per esempio:
 
-`Can we talk about the changes to the project timeline?` - This means the speaker wants to discuss the project timeline adjustments.
+`Can we talk about the changes to the project timeline?` - Questo significa che chi parla vuole discutere delle regolazioni della tempistica del progetto.
 
 # --scene--
 

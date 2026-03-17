@@ -1,6 +1,6 @@
 ---
 id: 66234ab7decaffe8ecb8327d
-title: Task 56
+title: Завдання 56
 challengeType: 22
 dashedName: task-56
 lang: en-US
@@ -10,9 +10,9 @@ lang: en-US
 
 # --description--
 
-`To affect` means to have an impact on or influence something. In programming, `affecting` a part of the system means that changes in one area might impact how other areas function.
+`To affect` означає мати вплив або впливати на щось. У програмуванні `affecting` частина системи означає, що зміни в одній області можуть впливати на те, як працюють інші області.
 
-For example, `Changing the database structure could affect the application's performance` indicates that modifications might influence the performance.
+Наприклад, `Changing the database structure could affect the application's performance` вказує на те, що модифікації можуть впливати на продуктивність.
 
 # --fillInTheBlank--
 
@@ -26,7 +26,7 @@ For example, `Changing the database structure could affect the application's per
 
 ### --feedback--
 
-In this context, it refers to the potential impact of Sophie's changes on other parts of the system.
+У цьому контексті це стосується потенційного впливу змін Софі на інші частини системи.
 
 ---
 
@@ -34,7 +34,7 @@ In this context, it refers to the potential impact of Sophie's changes on other 
 
 ### --feedback--
 
-They are the various operations or features of the system that might be impacted by the changes.
+Це різні операції або функції системи, які можуть бути під впливом змін.
 
 # --scene--
 

@@ -1,6 +1,6 @@
 ---
 id: 315017f4457c19d45c2be034
-title: Variables and Data Types
+title: Змінні та типи даних
 challengeType: 11
 videoId: sIw317W39X0
 dashedName: variables-and-data-types-learn-python-full-course-for-beginners
@@ -8,29 +8,29 @@ dashedName: variables-and-data-types-learn-python-full-course-for-beginners
 
 # --description--
 
-In this video, you will learn about the different data types in Python including integers, strings and booleans.
+У цьому відео ви дізнаєтеся про різні типи даних у Python, зокрема цілі числа, рядки та булеві значення.
 
 # --questions--
 
 ## --text--
 
-What is a boolean?
+Що таке булевий тип?
 
 ## --answers--
 
-It is a data type that represents an `undefined` value.
+Це тип даних, який представляє `undefined` значення.
 
 ---
 
-It is a data type that represents a sequence of characters.
+Це тип даних, який представляє послідовність символів.
 
 ---
 
-It is a data type that represents `True` or `False`.
+Це тип даних, який представляє `True` або `False`.
 
 ---
 
-It is a data type that represents a float.
+Це тип даних, який представляє число з плаваючою комою.
 
 ## --video-solution--
 

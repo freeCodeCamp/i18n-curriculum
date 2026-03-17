@@ -10,7 +10,7 @@ lang: en-US
 
 # --description--
 
-Послухайте аудіо та доповніть речення.
+Прослухайте аудіо та доповніть речення.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ lang: en-US
 
 ### --feedback--
 
-`What` and `is` are in abbreviated form. Remember to capitalize `What`.
+`What` і `is` подані в скороченій формі. Пам’ятайте, що `What` потрібно писати з великої літери.
 
 # --scene--
 

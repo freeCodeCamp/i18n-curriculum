@@ -1,26 +1,26 @@
 ---
 id: 647e1f4e8acb466c97ccbedf
-title: 'Add Looping Logic to Your Code Using the do-while and while Statements in C#'
+title: aggiungere la logica di iterazione al tuo codice usando le istruzioni do-while e while in C#
 challengeType: 19
 dashedName: add-looping-logic-to-your-code-using-the-do-while-and-while-statements-in-c-sharp
 ---
 
 # --description--
 
-This challenge will be partially completed on the Microsoft Learn platform. Follow these instructions to complete the challenge:
+Questa sfida sarà completata parzialmente sulla piattaforma Microsoft Learn. Segui queste istruzioni per completare la sfida:
 
-1. Go to <a href="https://learn.microsoft.com/training/modules/csharp-do-while/" target="_blank" rel="noreferrer">https://learn.microsoft.com/training/modules/csharp-do-while/</a> and complete all the tasks for the "Add Looping Logic to Your Code Using the do-while and while Statements in C#" module. This is **required** to earn the "Add Logic to C# Console Applications" trophy on Microsoft Learn, and qualify for the certification exam.
-1. When you are finished, come back and correctly answer the question below.
+1. Vai su <a href="https://learn.microsoft.com/training/modules/csharp-do-while/" target="_blank" rel="noreferrer">https://learn.microsoft.com/training/modules/csharp-do-while/</a> e completa tutte le attività del modulo "Add Looping Logic to Your Code Using the do-while and while Statements in C#". Questo è **necessario** per ottenere il trofeo "Add Logic to C# Console Applications" su Microsoft Learn e qualificarti per l’esame di certificazione.
+1. Quando hai finito, torna qui e rispondi correttamente alla domanda qui sotto.
 
 # --assignment--
 
-Complete the <a href="https://learn.microsoft.com/training/modules/csharp-do-while/" target="_blank" rel="noreferrer">Add Looping Logic to Your Code Using the `do`-`while` and `while` Statements in C#</a> module on Microsoft Learn. Then, answer the question below.
+Completa il modulo <a href="https://learn.microsoft.com/training/modules/csharp-do-while/" target="_blank" rel="noreferrer">Add Looping Logic to Your Code Using the `do`-`while` and `while` Statements in C#</a> su Microsoft Learn. Poi, rispondi alla domanda qui sotto.
 
 # --questions--
 
 ## --text--
 
-A developer needs to iterate through an array of items to find one that matches a certain criteria. Which is the best iteration statement for this purpose?
+Uno sviluppatore deve iterare su un array di elementi per trovare uno che corrisponda a un certo criterio. Qual è l’istruzione di iterazione migliore per questo scopo?
 
 ## --answers--
 

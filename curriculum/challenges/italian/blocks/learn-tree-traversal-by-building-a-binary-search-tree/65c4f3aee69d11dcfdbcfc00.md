@@ -1,24 +1,25 @@
 ---
 id: 65c4f3aee69d11dcfdbcfc00
-title: Step 18
+title: Passaggio 18
 challengeType: 20
 dashedName: step-18
 ---
 
 # --description--
 
-Now, inside the `insert` method, you need to call the helper method `_insert()` that we defined earlier. Here, `_insert` has encapsulated the implementation of the insertion logic. This is useful for recursion and for keeping the implementation details hidden from the user.
+Ora, all'interno del metodo `insert`, devi chiamare il metodo di supporto `_insert()` che abbiamo definito in precedenza.  
+Qui, `_insert` ha incapsulato l'implementazione della logica di inserimento. Questo è utile per la ricorsione e per mantenere nascosti i dettagli dell'implementazione all'utente.
 
-Delete `pass` and assign `self._insert(self.root, key)` to `self.root`.
+Elimina `pass` e assegna `self._insert(self.root, key)` a `self.root`.
 
-Note that:
+Nota che:
 
-- `self.root` passes the root node of the tree as the first argument. This is the starting point for the insertion process.
-- `key`: passes the `key` value you want to insert as the second argument.
+- `self.root` passa il nodo radice dell'albero come primo argomento. Questo è il punto di partenza per il processo di inserimento.
+- `key`: passa il valore `key` che vuoi inserire come secondo argomento.
 
 # --hints--
 
-You should remove the `pass` keyword from the `insert` method.
+Dovresti rimuovere la parola chiave `pass` dal metodo `insert`.
 
 ```js
 ({
@@ -33,7 +34,7 @@ You should remove the `pass` keyword from the `insert` method.
 
 ```
 
-You should recursively call the `_insert()` method using `self._insert()`
+Dovresti chiamare ricorsivamente il metodo `_insert()` usando `self._insert()`
 
 ```js
 ({ test: () =>
@@ -46,7 +47,7 @@ You should recursively call the `_insert()` method using `self._insert()`
 })
 ```
 
-You should pass `self.root` and `key` to your `_insert()` call.
+Dovresti passare `self.root` e `key` alla tua chiamata `_insert()`.
 
 ```js
 ({ test: () =>
@@ -59,7 +60,7 @@ You should pass `self.root` and `key` to your `_insert()` call.
 })
 ```
 
-You should assign the return value of your `_insert()` call to `self.root`.
+Dovresti assegnare il valore di ritorno della tua chiamata `_insert()` a `self.root`.
 
 ```js
 ({ test: () =>

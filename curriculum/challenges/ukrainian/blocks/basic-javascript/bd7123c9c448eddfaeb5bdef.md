@@ -1,6 +1,6 @@
 ---
 id: bd7123c9c448eddfaeb5bdef
-title: Find the Length of a String
+title: знайти довжину рядка
 challengeType: 1
 forumTopicId: 18182
 dashedName: find-the-length-of-a-string
@@ -8,23 +8,23 @@ dashedName: find-the-length-of-a-string
 
 # --description--
 
-You can find the length of a `String` value by writing `.length` after the string variable or string literal.
+Ви можете знайти довжину значення `String`, написавши `.length` після змінної рядка або літерала рядка.
 
 ```js
 console.log("Alan Peter".length);
 ```
 
-The value `10` would be displayed in the console. Note that the space character between "Alan" and "Peter" is also counted.
+У консолі буде виведено значення `10`. Зверніть увагу, що пробіл між "Alan" і "Peter" також враховується.
 
-For example, if we created a variable `const firstName = "Ada"`, we could find out how long the string `Ada` is by using the `firstName.length` property.
+Наприклад, якщо ми створили змінну `const firstName = "Ada"`, ми могли б дізнатися, якою є довжина рядка `Ada`, використовуючи властивість `firstName.length`.
 
 # --instructions--
 
-Use the `.length` property to set `lastNameLength` to the number of characters in `lastName`.
+Використайте властивість `.length`, щоб присвоїти `lastNameLength` число символів у `lastName`.
 
 # --hints--
 
-You should not change the variable declarations in the `// Setup` section.
+Ви не повинні змінювати оголошення змінних у розділі `// Setup`.
 
 ```js
 assert(
@@ -33,13 +33,13 @@ assert(
 );
 ```
 
-`lastNameLength` should be equal to eight.
+`lastNameLength` має дорівнювати восьми.
 
 ```js
 assert(typeof lastNameLength !== 'undefined' && lastNameLength === 8);
 ```
 
-You should be getting the length of `lastName` by using `.length` like this: `lastName.length`.
+Ви повинні отримати довжину `lastName`, використовуючи `.length` ось так: `lastName.length`.
 
 ```js
 assert(__helpers.removeJSComments(code).match(/=\s*lastName\.length/g) && !__helpers.removeJSComments(code).match(/lastName\s*=\s*8/));

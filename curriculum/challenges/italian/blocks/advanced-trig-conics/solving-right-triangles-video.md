@@ -1,6 +1,6 @@
 ---
 id: 699e854b8f18cf77dfce5c1e
-title: Solving Right Triangles
+title: Risolvere triangoli rettangoli
 challengeType: 11
 videoId: AkRnIZDdq04
 dashedName: solving-right-triangles
@@ -8,32 +8,30 @@ dashedName: solving-right-triangles
 
 # --description--
 
-In this video, you will learn how to solve right triangles.
+In questo video imparerai come risolvere i triangoli rettangoli.
 
 # --questions--
 
 ## --text--
 
-What does it mean to solve a right triangle?
+Cosa significa risolvere un triangolo rettangolo?
 
 ## --answers--
 
-To solve a right triangle means to find the area of the triangle only.
+Risolvere un triangolo rettangolo significa trovare solo l'area del triangolo.
 
 ---
 
-To solve a right triangle means to find only the length of the hypotenuse.
+Risolvere un triangolo rettangolo significa trovare solo la lunghezza dell'ipotenusa.
 
 ---
 
-To solve a right triangle means to find the lengths of all sides and the measures of all angles.
+Risolvere un triangolo rettangolo significa trovare le lunghezze di tutti i lati e le misure di tutti gli angoli.
 
 ---
 
-To solve a right triangle means to draw the triangle without calculating any sides or angles.
+Risolvere un triangolo rettangolo significa disegnare il triangolo senza calcolare lati o angoli.
 
 ## --video-solution--
 
 3
-
-

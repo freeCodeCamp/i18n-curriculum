@@ -1,13 +1,13 @@
 ---
 id: 66edcdd18a4ef8df16e6bb7e
-title: JavaScript Higher Order Functions Quiz
+title: Тест на вищі функції порядку в JavaScript
 challengeType: 8
 dashedName: quiz-javascript-higher-order-functions
 ---
 
 # --description--
 
-To pass the quiz, you must correctly answer at least 18 of the 20 questions below.
+Щоб пройти тест, ви повинні правильно відповісти щонайменше на 18 із 20 питань нижче.
 
 # --quizzes--
 
@@ -17,51 +17,51 @@ To pass the quiz, you must correctly answer at least 18 of the 20 questions belo
 
 #### --text--
 
-Which of the following statements about JavaScript higher-order functions is NOT true?
+Яке з наведених тверджень про вищі функції порядку в JavaScript НЕ є правдивим?
 
 #### --distractors--
 
-Higher-order functions can greatly enhance code readability and maintainability by enabling functional programming techniques.
+Вищі функції порядку значно покращують читабельність і підтримуваність коду, дозволяючи використовувати техніки функціонального програмування.
 
 ---
 
-Higher-order functions like map, filter, and reduce are powerful tools for array manipulation, but they are not unique to functional programming.
+Вищі функції порядку, такі як map, filter і reduce, є потужними інструментами для роботи з масивами, але вони не є унікальними для функціонального програмування.
 
 ---
 
-Higher-order functions may introduce complexity in understanding code, but they can also lead to more expressive and concise solutions.
+Вищі функції порядку можуть ускладнювати розуміння коду, але також можуть призводити до більш виразних і лаконічних рішень.
 
 #### --answer--
 
-All functions in JavaScript, including those that do not take or return other functions, can be classified as higher-order functions.
+Усі функції в JavaScript, включно з тими, що не приймають і не повертають інші функції, можна класифікувати як вищі функції порядку.
 
 ### --question--
 
 #### --text--
 
-What is a factory function in the context of higher order functions?
+Що таке фабрична функція в контексті вищих функцій порядку?
 
 #### --distractors--
 
-A function that creates new variables.
+Функція, яка створює нові змінні.
 
 ---
 
-A function that only works with strings.
+Функція, яка працює лише з рядками.
 
 ---
 
-A function that automatically generates code comments.
+Функція, яка автоматично генерує коментарі до коду.
 
 #### --answer--
 
-A function that returns a new function based on specific parameters
+Функція, яка повертає нову функцію на основі певних параметрів
 
 ### --question--
 
 #### --text--
 
-After code execution, what will be the value of `forEachRes` and `mapRes`?
+Після виконання коду, яким буде значення `forEachRes` і `mapRes`?
 
 ```js
 const numbers = [1, 1, 1, 1, 1];
@@ -76,25 +76,25 @@ const mapRes = numbers.map(num => {
 
 #### --distractors--
 
-`forEachRes` is `undefined` and `mapRes` is `[1,2,3,4,5]`
+`forEachRes` є `undefined` і `mapRes` є `[1,2,3,4,5]`
 
 ---
 
-`forEachRes` is `0` and `mapRes` is `[1,2,3,4,5]`
+`forEachRes` є `0` і `mapRes` є `[1,2,3,4,5]`
 
 ---
 
-`forEachRes` is `5` and `mapRes` is `[1,2,3,4,5]`
+`forEachRes` є `5` і `mapRes` є `[1,2,3,4,5]`
 
 #### --answer--
 
-`forEachRes` is `undefined` and `mapRes` is `[6,7,8,9,10]`
+`forEachRes` є `undefined` і `mapRes` є `[6,7,8,9,10]`
 
 ### --question--
 
 #### --text--
 
-What is the result of this code?
+Який результат цього коду?
 
 ```js
 [, undefined, 'a', 'b', { 20: 5 }].sort();
@@ -102,11 +102,11 @@ What is the result of this code?
 
 #### --distractors--
 
-Unsupported elements for an array to be sorted, hence error.
+Непідтримувані елементи для сортування масиву, тому помилка.
 
 ---
 
-Callback not supplied, hence error.
+Функція зворотного виклику не передана, тому помилка.
 
 ---
 
@@ -124,95 +124,95 @@ Callback not supplied, hence error.
 
 #### --text--
 
-Which of the following describes a callback function in JavaScript?
+Як описати функцію зворотного виклику в JavaScript?
 
 #### --distractors--
 
-A function that is called immediately upon declaration.
+Функція, яка викликається одразу після оголошення.
 
 ---
 
-A function that is invoked with a specific context.
+Функція, яка виконується з певним контекстом.
 
 ---
 
-A function that returns another function.
+Функція, яка повертає іншу функцію.
 
 #### --answer--
 
-A function passed as an argument to another function, to be executed by that function's logic.
+Функція, передана як аргумент іншій функції, яка виконується логікою тієї функції.
 
 ### --question--
 
 #### --text--
 
-What is the result of using `reduce()` on an array?
+Який результат використання `reduce()` на масиві?
 
 #### --distractors--
 
-A boolean indicating whether any elements meet a condition.
+Булеве значення, що вказує, чи будь-які елементи відповідають умові.
 
 ---
 
-An array with all elements reduced by specified callback function.
+Масив, у якому всі елементи скорочені за допомогою заданої функції зворотного виклику.
 
 ---
 
-An array of booleans.
+Масив булевих значень.
 
 #### --answer--
 
-It varies depending on the accumulator's initial value and the callback function.
+Залежить від початкового значення акумулятора і функції зворотного виклику.
 
 ### --question--
 
 #### --text--
 
-How does the `sort()` method behave if no compare function is provided in numerical sorting?
+Як поводиться метод `sort()`, якщо при числовому сортуванні не передано функцію порівняння?
 
 #### --distractors--
 
-It fills the empty slots with `null`.
+Він заповнює порожні слоти `null`.
 
 ---
 
-It returns an array of special characters.
+Повертає масив спеціальних символів.
 
 ---
 
-It sorts the array in reverse order.
+Сортує масив у зворотному порядку.
 
 #### --answer--
 
-It sorts the array as strings based on UTF-16 code units.
+Сортує масив як рядки на основі кодів UTF-16.
 
 ### --question--
 
 #### --text--
 
-What is the purpose of the `some()` method in JavaScript?
+Яка мета методу `some()` у JavaScript?
 
 #### --distractors--
 
-To create a new array with the results of a function applied to each element.
+Створити новий масив з результатами застосування функції до кожного елемента.
 
 ---
 
-To iterate through an array without producing a result.
+Ітерувати по масиву без отримання результату.
 
 ---
 
-To reduce an array to a single value based on a callback function.
+Скоротити масив до одного значення на основі функції зворотного виклику.
 
 #### --answer--
 
-To determine if any elements in an array pass a specified test.
+Визначити, чи проходить будь-який елемент масиву заданий тест.
 
 ### --question--
 
 #### --text--
 
-Which of the following is a valid example of method chaining?
+Який із наведених прикладів є дійсним прикладом ланцюжкового виклику методів?
 
 #### --distractors--
 
@@ -242,7 +242,7 @@ str.toLowerCase().trim().replace(' ', '_');
 
 #### --text--
 
-What is the output of the following code?
+Який вихідний результат наступного коду?
 
 ```js
 let numbers = [2, 4, 8, 10];
@@ -272,95 +272,95 @@ numbers.forEach(function(number) {
 
 #### --text--
 
-Which of the following is a benefit of method chaining?
+Яка перевага ланцюжкового виклику методів?
 
 #### --distractors--
 
-It inherently optimizes performance by reducing the execution time of functions.
+Він автоматично оптимізує продуктивність, скорочуючи час виконання функцій.
 
 ---
 
-It eliminates the need for temporary variables, but may increase memory usage in some cases.
+Він усуває потребу у тимчасових змінних, але може збільшувати використання пам’яті в деяких випадках.
 
 ---
 
-It allows for error handling and debugging to be more straightforward.
+Він дозволяє простіше обробляти помилки та налагоджувати.
 
 #### --answer--
 
-It promotes simplified syntax and more readable code by allowing multiple operations in a single expression.
+Він сприяє спрощеному синтаксису і більш читабельному коду, дозволяючи виконувати кілька операцій в одному виразі.
 
 ### --question--
 
 #### --text--
 
-How can you sort an array of objects by a specific property using the `sort` method?
+Як відсортувати масив об’єктів за певною властивістю за допомогою методу `sort`?
 
 #### --distractors--
 
-The `sort` method cannot sort objects.
+Метод `sort` не може сортувати об’єкти.
 
 ---
 
-Use the `reverse` method after sorting.
+Використати метод `reverse` після сортування.
 
 ---
 
-Convert the objects to strings and sort them.
+Перетворити об’єкти на рядки і відсортувати їх.
 
 #### --answer--
 
-Use a compare function that compares the property values.
+Використати функцію порівняння, яка порівнює значення властивостей.
 
 ### --question--
 
 #### --text--
 
-In method chaining, what is a common practice to enhance clarity and debugging?
+Що є поширеною практикою для покращення зрозумілості та налагодження при ланцюжковому виклику методів?
 
 #### --distractors--
 
-Use fewer methods in the chain.
+Використовувати менше методів у ланцюжку.
 
 ---
 
-Avoid chaining methods that return only primitive values.
+Уникати ланцюжкового виклику методів, які повертають лише примітивні значення.
 
 ---
 
-Use only built-in methods.
+Використовувати лише вбудовані методи.
 
 #### --answer--
 
-Break long chains into multiple steps.
+Розбивати довгі ланцюжки на кілька кроків.
 
 ### --question--
 
 #### --text--
 
-What is a potential downside of using method chaining excessively in your code?
+Який потенційний недолік надмірного використання ланцюжкового виклику методів у коді?
 
 #### --distractors--
 
-It makes the code run slower.
+Він уповільнює виконання коду.
 
 ---
 
-It prevents the use of comments.
+Він забороняє використання коментарів.
 
 ---
 
-It makes the file size larger.
+Він збільшує розмір файлу.
 
 #### --answer--
 
-It can make the code harder to debug.
+Він може ускладнити налагодження коду.
 
 ### --question--
 
 #### --text--
 
-Which method would you use to determine if all elements in an array are strings?
+Який метод ви б використали, щоб визначити, чи всі елементи масиву є рядками?
 
 #### --distractors--
 
@@ -382,7 +382,7 @@ Which method would you use to determine if all elements in an array are strings?
 
 #### --text--
 
-What will be the value of `originalArray` after the following code is run?
+Яким буде значення `originalArray` після виконання наступного коду?
 
 ```js
 const originalArray = [{ id: 1 }, { id: 2 }, { id: 3 }];
@@ -409,7 +409,7 @@ filteredArray[0].id = 4;
 
 #### --text--
 
-What will be the value of `shortWords` after the following code is run?
+Яким буде значення `shortWords` після виконання наступного коду?
 
 ```js
 const words = ['apple', 'banana', 'pear', 'kiwi'];
@@ -436,64 +436,64 @@ const shortWords = words.filter(word => word.length <= 5);
 
 #### --text--
 
-What is the purpose of providing an initial value as an argument to the `reduce()` method?
+Яка мета передачі ініціального значення як аргументу методу `reduce()`?
 
 #### --distractors--
 
-To set the length of the array.
+Встановити довжину масиву.
 
 ---
 
-To limit the number of iterations.
+Обмежити кількість ітерацій.
 
 ---
 
-To specify the return type of the function.
+Вказати тип поверненого значення функції.
 
 #### --answer--
 
-To define the starting value for the accumulator.
+Визначити початкове значення для акумулятора.
 
 ### --question--
 
 #### --text--
 
-Can the `map` method be used on objects that are not arrays?
+Чи можна використовувати метод `map` для об’єктів, які не є масивами?
 
 #### --distractors--
 
-Yes, it can be used on any object.
+Так, його можна використовувати для будь-якого об’єкта.
 
 ---
 
-Yes, but only on objects with numeric properties.
+Так, але лише для об’єктів з числовими властивостями.
 
 ---
 
-It depends on the JavaScript version.
+Залежить від версії JavaScript.
 
 #### --answer--
 
-No, it is specifically designed for arrays.
+Ні, він спеціально розроблений для масивів.
 
 ### --question--
 
 #### --text--
 
-What is the primary purpose of the `map` method in JavaScript?
+Яка основна мета методу `map` у JavaScript?
 
 #### --distractors--
 
-To sort an array and return a new array while maintaining the original order.
+Відсортувати масив і повернути новий масив, зберігаючи початковий порядок.
 
 ---
 
-To filter elements from an array and remove or add elements based on a condition.
+Відфільтрувати елементи масиву та видалити або додати елементи на основі умови.
 
 ---
 
-To find a specific element in an array and return its index along with the element.
+Знайти конкретний елемент у масиві і повернути його індекс разом із елементом.
 
 #### --answer--
 
-To create a new array containing the results of calling a provided function on each element in the starting array.
+Створити новий масив, що містить результати виклику заданої функції для кожного елемента початкового масиву.

@@ -1,62 +1,61 @@
 ---
 id: 66c8fb021dcfcb767dfec33a
-title: Task 16
+title: Завдання 16
 challengeType: 19
 dashedName: task-16
 lang: en-US
 ---
-
 <!-- (Audio) Linda: No, we haven't. But we've solved similar issues on other projects. -->
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Прослухайте аудіо та дайте відповідь на запитання нижче.
 
 # --questions--
 
 ## --text--
 
-Which statement below is true?
+Яка з наведених інструкцій є правильною?
 
 ## --answers--
 
-They have never fixed any issues like this before.
+Вони ніколи раніше не вирішували подібних проблем.
 
 ### --feedback--
 
-Think about whether Linda mentions any experience with similar issues.
+Подумайте, чи згадує Лінда про досвід із подібними проблемами.
 
 ---
 
-They have already fixed this exact issue on another project.
+Вони вже вирішували цю конкретну проблему в іншому проєкті.
 
 ### --feedback--
 
-Consider whether Linda says they have experience with this specific issue or something similar.
+Розгляньте, чи каже Лінда, що мають досвід із цією конкретною проблемою або з чимось подібним.
 
 ---
 
-They haven't fixed this exact issue, but they have fixed similar ones before.
+Вони не вирішували цю конкретну проблему, але раніше вирішували подібні.
 
 ---
 
-They have fixed this issue many times before.
+Вони багато разів раніше вирішували цю проблему.
 
 ### --feedback--
 
-Reflect on whether Linda is talking about having fixed this exact issue or something similar.
-
+Подумайте, чи говорить Лінда про вирішення саме цієї конкретної проблеми чи про щось подібне.
+  
 ## --video-solution--
 
 3
 
 # --explanation--
 
-To find the correct answer, focus on whether Linda is talking about fixing the `exact issue` or `similar issues`.
+Щоб знайти правильну відповідь, зосередьтеся на тому, чи говорить Лінда про вирішення `exact issue` або `similar issues`.
 
-Linda makes it clear that they haven't fixed this exact problem before, but she also mentions that they have solved similar issues in the past.
+Лінда чітко каже, що вони не вирішували цю конкретну проблему раніше, але також згадує, що вирішували подібні проблеми в минулому.
 
-The correct answer should show this balance—acknowledging no exact match but confirming past experience with related problems.
+Правильна відповідь має відобразити цей баланс — визнати відсутність точного збігу, але підтвердити досвід із суміжними проблемами.
 
 # --scene--
 

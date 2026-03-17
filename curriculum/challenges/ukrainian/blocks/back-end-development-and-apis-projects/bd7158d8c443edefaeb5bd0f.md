@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c443edefaeb5bd0f
-title: File Metadata Microservice
+title: Мікросервіс метаданих файлу
 challengeType: 4
 forumTopicId: 301506
 dashedName: file-metadata-microservice
@@ -8,18 +8,18 @@ dashedName: file-metadata-microservice
 
 # --description--
 
-Build a full-stack JavaScript app that is functionally similar to this: <a href="https://file-metadata-microservice.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://file-metadata-microservice.freecodecamp.rocks</a>. Working on this project will involve you writing your code using one of the following methods:
+Створіть повноцінний JavaScript-застосунок, який функціонально схожий на цей: <a href="https://file-metadata-microservice.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://file-metadata-microservice.freecodecamp.rocks</a>. Робота над цим проєктом передбачає написання коду одним із таких способів:
 
--   Clone <a href="https://github.com/freeCodeCamp/boilerplate-project-filemetadata/" target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete your project locally.
--   Use a site builder of your choice to complete the project. Be sure to incorporate all the files from our GitHub repo.
+-   Клонуйте <a href="https://github.com/freeCodeCamp/boilerplate-project-filemetadata/" target="_blank" rel="noopener noreferrer nofollow">цей репозиторій GitHub</a> і завершіть проєкт локально.
+-   Використайте будь-який конструктор сайтів на свій вибір для завершення проєкту. Обов’язково включіть усі файли з нашого репозиторію GitHub.
 
 # --instructions--
 
-**HINT:** You can use the `multer` npm package to handle file uploading.
+**ПІДКАЗКА:** Ви можете використовувати пакет npm `multer` для обробки завантаження файлів.
 
 # --hints--
 
-You should provide your own project, not the example URL.
+Ви повинні надати свій власний проєкт, а не приклад URL.
 
 ```js
   assert(
@@ -29,7 +29,7 @@ You should provide your own project, not the example URL.
   );
 ```
 
-You can submit a form that includes a file upload.
+Ви можете відправити форму, яка містить завантаження файлу.
 
 ```js
   const site = await fetch(code);
@@ -38,7 +38,7 @@ You can submit a form that includes a file upload.
   assert(doc.querySelector('input[type="file"]'));
 ```
 
-The form file input field has the `name` attribute set to `upfile`.
+Поле введення файлу у формі має атрибут `name`, встановлений у `upfile`.
 
 ```js
   const site = await fetch(code);
@@ -47,7 +47,7 @@ The form file input field has the `name` attribute set to `upfile`.
   assert(doc.querySelector('input[name="upfile"]'));
 ```
 
-When you submit a file, you receive the file `name`, `type`, and `size` in bytes within the JSON response.
+Коли ви відправляєте файл, отримуєте `name`, `type` і `size` файлу в байтах у JSON-відповіді.
 
 ```js
   const formData = new FormData();
@@ -65,4 +65,3 @@ When you submit a file, you receive the file `name`, `type`, and `size` in bytes
   assert.equal(parsed.name, 'icon');
   assert.equal(parsed.type, 'image/png');
 ```
-

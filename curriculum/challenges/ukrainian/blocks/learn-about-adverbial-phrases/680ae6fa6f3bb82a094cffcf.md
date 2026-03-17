@@ -1,6 +1,6 @@
 ---
 id: 680ae6fa6f3bb82a094cffcf
-title: Task 91
+title: Завдання 91
 challengeType: 19
 dashedName: task-91
 lang: en-US
@@ -12,13 +12,13 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Прослухайте аудіо та дайте відповідь на запитання нижче.
 
 # --questions--
 
 ## --text--
 
-What could Maria say to show she is positively surprised by the results?
+Що могла б сказати Марія, щоб показати, що вона приємно здивована результатами?
 
 ## --answers--
 
@@ -38,7 +38,7 @@ EN342dc19a
 
 ### --feedback--
 
-This shows a lack of confidence, not excitement about the results.
+Це демонструє відсутність впевненості, а не захоплення результатами.
 
 ## --video-solution--
 
@@ -46,9 +46,9 @@ This shows a lack of confidence, not excitement about the results.
 
 # --explanation--
 
-`Impressive` means something is worthy of attention, admiration, or respect because it is unusually good, large, or effective. For example:
+`Impressive` означає, що щось варте уваги, захоплення або поваги, бо воно надзвичайно добре, велике або ефективне. Наприклад:
 
-`Your presentation was really impressive! It covered everything clearly and confidently.` – This means the presentation was high-quality and left a strong positive impact.
+`Your presentation was really impressive! It covered everything clearly and confidently.` – Це означає, що презентація була високоякісною і справила сильне позитивне враження.
 
 # --scene--
 

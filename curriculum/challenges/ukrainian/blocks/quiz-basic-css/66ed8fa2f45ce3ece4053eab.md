@@ -1,13 +1,13 @@
 ---
 id: 66ed8fa2f45ce3ece4053eab
-title: CSS Fundamentals Quiz
+title: "Основи CSS: тест"
 challengeType: 8
 dashedName: quiz-basic-css
 ---
 
 # --description--
 
-To pass the quiz, you must correctly answer at least 18 of the 20 questions below.
+Щоб пройти тест, ви повинні правильно відповісти щонайменше на 18 із 20 питань нижче.
 
 # --quizzes--
 
@@ -17,7 +17,7 @@ To pass the quiz, you must correctly answer at least 18 of the 20 questions belo
 
 #### --text--
 
-What does CSS stand for?
+Що означає CSS?
 
 #### --distractors--
 
@@ -39,7 +39,7 @@ Cascading Style Sheets
 
 #### --text--
 
-Which of the following is a correct CSS rule?
+Яке з наведених є правильною CSS-правилом?
 
 #### --distractors--
 
@@ -61,29 +61,29 @@ Which of the following is a correct CSS rule?
 
 #### --text--
 
-What does `<meta name="viewport">` do?
+Що робить `<meta name="viewport">`?
 
 #### --distractors--
 
-It links external stylesheets to a webpage for responsive design.
+Воно підключає зовнішні таблиці стилів до вебсторінки для адаптивного дизайну.
 
 ---
 
-It specifies the metadata used by search engines to index a webpage.
+Воно визначає метадані, які використовують пошукові системи для індексації вебсторінки.
 
 ---
 
-It specifies the character encoding used on the webpage.
+Воно визначає кодування символів, що використовується на вебсторінці.
 
 #### --answer--
 
-It controls the shape and size of a web page on different screen sizes.
+Воно контролює форму і розмір вебсторінки на різних розмірах екрана.
 
 ### --question--
 
 #### --text--
 
-Which syntax is correct to use inline CSS?
+Який синтаксис правильний для використання рядкових CSS?
 
 #### --distractors--
 
@@ -105,29 +105,29 @@ Which syntax is correct to use inline CSS?
 
 #### --text--
 
-When using internal CSS, where is the `style` element placed within the HTML?
+При використанні внутрішнього CSS, де розміщується елемент `style` у HTML?
 
 #### --distractors--
 
-In the `meta` element.
+У елементі `meta`.
 
 ---
 
-In the `script` element.
+У елементі `script`.
 
 ---
 
-In the `body` element.
+У елементі `body`.
 
 #### --answer--
 
-In the `head` element.
+У елементі `head`.
 
 ### --question--
 
 #### --text--
 
-Which rule is correct for setting the width and height in CSS?
+Яке правило правильне для встановлення ширини та висоти в CSS?
 
 #### --distractors--
 
@@ -149,7 +149,7 @@ Which rule is correct for setting the width and height in CSS?
 
 #### --text--
 
-Which selector correctly targets `h1` elements only when inside a `div`?
+Який селектор правильно націлюється на елементи `h1` лише коли вони знаходяться всередині `div`?
 
 #### --distractors--
 
@@ -171,7 +171,7 @@ Which selector correctly targets `h1` elements only when inside a `div`?
 
 #### --text--
 
-Which selector is correct to target direct children of a `footer`?
+Який селектор правильний для націлювання прямих дочірніх елементів `footer`?
 
 #### --distractors--
 
@@ -193,7 +193,7 @@ Which selector is correct to target direct children of a `footer`?
 
 #### --text--
 
-Which selector is correct to target the next sibling of an `img`?
+Який селектор правильний для націлювання наступного братського елемента `img`?
 
 #### --distractors--
 
@@ -215,7 +215,7 @@ Which selector is correct to target the next sibling of an `img`?
 
 #### --text--
 
-Which selector is correct to target all siblings preceded by an `img` element?
+Який селектор правильний для націлювання всіх братських елементів, що йдуть після `img`?
 
 #### --distractors--
 
@@ -237,51 +237,51 @@ Which selector is correct to target all siblings preceded by an `img` element?
 
 #### --text--
 
-What statement is TRUE about block-level elements?
+Яке твердження ПРАВИЛЬНЕ про блочні елементи?
 
 #### --distractors--
 
-Block-level elements stack horizontally by default.
+Блочні елементи за замовчуванням розташовуються горизонтально.
 
 ---
 
-`width` and `height` properties usually do not apply to block-level elements unless you set their `display` property to `inline-block`.
+Властивості `width` і `height` зазвичай не застосовуються до блочних елементів, якщо не встановити їх властивість `display` в `inline-block`.
 
 ---
 
-Block-level elements cannot contain inline elements inside them.
+Блочні елементи не можуть містити рядкові елементи всередині.
 
 #### --answer--
 
-Block-level elements start on a new line and take up the full width of their container.
+Блочні елементи починаються з нового рядка і займають всю ширину свого контейнера.
 
 ### --question--
 
 #### --text--
 
-What statement is TRUE when using the `inline-block` value?
+Яке твердження ПРАВИЛЬНЕ при використанні значення `inline-block`?
 
 #### --distractors--
 
-Elements stack vertically, always taking up the full width of their container.
+Елементи розташовуються вертикально, завжди займаючи всю ширину контейнера.
 
 ---
 
-Elements align horizontally but cannot apply vertical padding or margin.
+Елементи вирівнюються горизонтально, але не можуть застосовувати вертикальні відступи чи поля.
 
 ---
 
-Elements respect width and height settings but cannot contain other elements inside them.
+Елементи враховують налаштування ширини і висоти, але не можуть містити інші елементи всередині.
 
 #### --answer--
 
-Elements retain inline flow but allow setting width and height.
+Елементи зберігають рядковий потік, але дозволяють встановлювати ширину і висоту.
 
 ### --question--
 
 #### --text--
 
-Given the following selectors, which has the highest specificity?
+З наведених селекторів, який має найвищу специфічність?
 
 #### --distractors--
 
@@ -303,7 +303,7 @@ Given the following selectors, which has the highest specificity?
 
 #### --text--
 
-Given the following selectors, which has the lowest specificity?
+З наведених селекторів, який має найнижчу специфічність?
 
 #### --distractors--
 
@@ -325,73 +325,73 @@ Given the following selectors, which has the lowest specificity?
 
 #### --text--
 
-What does the `*` selector do?
+Що робить селектор `*`?
 
 #### --distractors--
 
-Targets some elements on the page.
+Націлюється на деякі елементи на сторінці.
 
 ---
 
-Targets elements that have children on the page.
+Націлюється на елементи, які мають дочірні елементи на сторінці.
 
 ---
 
-Targets all `p` elements on the page.
+Націлюється на всі елементи `p` на сторінці.
 
 #### --answer--
 
-Targets all elements on the page.
+Націлюється на всі елементи на сторінці.
 
 ### --question--
 
 #### --text--
 
-What does `!important` do in CSS?
+Що робить `!important` у CSS?
 
 #### --distractors--
 
-It makes the CSS rule work exclusively for inline styles and ignores styles defined in external or internal stylesheets.
+Воно робить правило CSS виключним для рядкових стилів і ігнорує стилі, визначені у зовнішніх або внутрішніх таблицях стилів.
 
 ---
 
-It disables all other CSS properties applied to the same element, effectively making it the only rule that affects the element's styling.
+Воно вимикає всі інші CSS-властивості, застосовані до того самого елемента, фактично роблячи це єдиним правилом, що впливає на стиль елемента.
 
 ---
 
-It applies on to a certain selector or group of elements.
+Воно застосовується лише до певного селектора або групи елементів.
 
 #### --answer--
 
-It overrides any other values applied to the property for that selector.
+Воно заміщує будь-які інші значення, застосовані до властивості для цього селектора.
 
 ### --question--
 
 #### --text--
 
-How does the CSS Cascade algorithm work?
+Як працює алгоритм каскаду CSS?
 
 #### --distractors--
 
-It determines styles of the element based on order of declaration, regardless of other factors.
+Визначає стилі елемента на основі порядку оголошення, незалежно від інших факторів.
 
 ---
 
-It applies styles based solely on the order they are written, ignoring specificity.
+Застосовує стилі лише на основі порядку їх запису, ігноруючи специфічність.
 
 ---
 
-It applies styles prioritizing specificity, ignoring origin and relevance.
+Застосовує стилі, віддаючи пріоритет специфічності, ігноруючи походження та релевантність.
 
 #### --answer--
 
-It determines styles of the element based on specificity and order of declaration.
+Визначає стилі елемента на основі специфічності та порядку оголошення.
 
 ### --question--
 
 #### --text--
 
-Which rule applies `32px` of margin to all sides?
+Яке правило застосовує `32px` поля до всіх сторін?
 
 #### --distractors--
 
@@ -413,7 +413,7 @@ Which rule applies `32px` of margin to all sides?
 
 #### --text--
 
-Which rule applies `24px` padding to the top and bottom?
+Яке правило застосовує `24px` відступи зверху і знизу?
 
 #### --distractors--
 
@@ -435,23 +435,23 @@ Which rule applies `24px` padding to the top and bottom?
 
 #### --text--
 
-For `padding: 10px 20px 30px 40px`, what is the correct order of values?
+Для `padding: 10px 20px 30px 40px`, який правильний порядок значень?
 
 #### --distractors--
 
-Right, Top, Left, Bottom.
+Право, Вверх, Ліво, Вниз.
 
 ---
 
-Top, Left, Bottom, Right.
+Вверх, Ліво, Вниз, Право.
 
 ---
 
-Top, Bottom, Right, Left.
+Вверх, Вниз, Право, Ліво.
 
 #### --answer--
 
-Top, Right, Bottom, Left.
+Вверх, Право, Вниз, Ліво.
 
 ## --quiz--
 
@@ -459,29 +459,29 @@ Top, Right, Bottom, Left.
 
 #### --text--
 
-What are the main parts of a CSS rule?
+Які основні частини CSS-правила?
 
 #### --distractors--
 
-Elements and attributes
+Елементи та атрибути
 
 ---
 
-Style and sheets
+Стиль і таблиці
 
 ---
 
-Scripts and values
+Скрипти та значення
 
 #### --answer--
 
-Selectors and declaration blocks
+Селектори та блоки оголошень
 
 ### --question--
 
 #### --text--
 
-Which of the following is the correct syntax for a CSS rule?
+Який із наведених синтаксисів правильний для CSS-правила?
 
 #### --distractors--
 
@@ -519,29 +519,29 @@ body {
 
 #### --text--
 
-What are default browser styles?
+Що таке стилі браузера за замовчуванням?
 
 #### --distractors--
 
-HTML elements that have the same styling properties regardless of the browser.
+HTML-елементи, які мають однакові властивості стилю незалежно від браузера.
 
 ---
 
-They are mandatory styles that you must use for specific HTML elements.
+Це обов’язкові стилі, які потрібно використовувати для певних HTML-елементів.
 
 ---
 
-They are the color themes for the various browsers.
+Це кольорові теми для різних браузерів.
 
 #### --answer--
 
-The CSS rules that browsers apply automatically.
+CSS-правила, які браузери застосовують автоматично.
 
 ### --question--
 
 #### --text--
 
-What is the default value for the `width` property?
+Яке значення за замовчуванням для властивості `width`?
 
 #### --distractors--
 
@@ -563,51 +563,51 @@ What is the default value for the `width` property?
 
 #### --text--
 
-What does the `min-height` property specify?
+Що визначає властивість `min-height`?
 
 #### --distractors--
 
-The starting height for an element.
+Початкову висоту елемента.
 
 ---
 
-The height for an element.
+Висоту елемента.
 
 ---
 
-The maximum height for an element.
+Максимальну висоту елемента.
 
 #### --answer--
 
-The minimum height for an element.
+Мінімальну висоту елемента.
 
 ### --question--
 
 #### --text--
 
-Which of the following is TRUE about the universal selector `*`?
+Що з наведеного ПРАВДИВЕ про універсальний селектор `*`?
 
 #### --distractors--
 
-It has the highest specificity because it can style all the elements on a page.
+Він має найвищу специфічність, бо може стилізувати всі елементи на сторінці.
 
 ---
 
-It contributes 1 to all parts of the specificity value.
+Він додає 1 до всіх частин значення специфічності.
 
 ---
 
-It cannot reset styles across different browsers.
+Він не може скинути стилі між різними браузерами.
 
 #### --answer--
 
-It has the lowest specificity value of any selector.
+Він має найнижче значення специфічності серед усіх селекторів.
 
 ### --question--
 
 #### --text--
 
-Which selector correctly targets `li` elements for an ordered list?
+Який селектор правильно націлюється на елементи `li` для впорядкованого списку?
 
 #### --distractors--
 
@@ -629,7 +629,7 @@ Which selector correctly targets `li` elements for an ordered list?
 
 #### --text--
 
-Which selector targets the paragraph elements of a `div` element?
+Який селектор націлюється на абзаци елемента `div`?
 
 #### --distractors--
 
@@ -651,117 +651,117 @@ Which selector targets the paragraph elements of a `div` element?
 
 #### --text--
 
-Where does the `margin` apply styling properties?
+Де застосовуються властивості стилю `margin`?
 
 #### --distractors--
 
-The space inside element.
+Пробіл всередині елемента.
 
 ---
 
-Between the content and the border.
+Між вмістом і кордоном.
 
 ---
 
-On the border of the element.
+На кордоні елемента.
 
 #### --answer--
 
-The space outside the element.
+Пробіл поза межами елемента.
 
 ### --question--
 
 #### --text--
 
-Where does the `padding` property apply styling?
+Де застосовується властивість стилю `padding`?
 
 #### --distractors--
 
-Between the elements border and the surrounding elements.
+Між кордоном елемента і навколишніми елементами.
 
 ---
 
-The space outside the element.
+Пробіл поза межами елемента.
 
 ---
 
-On the border of the element.
+На кордоні елемента.
 
 #### --answer--
 
-The space inside the element.
+Пробіл всередині елемента.
 
 ### --question--
 
 #### --text--
 
-Which statement is FALSE about block-level elements?
+Яке твердження ХИБНЕ про блочні елементи?
 
 #### --distractors--
 
-They can stretch to fit the width of their container.
+Вони можуть розтягуватися, щоб відповідати ширині свого контейнера.
 
 ---
 
-Common block level elements include `div`, `paragraph`, and `section`.
+Загальними блочними елементами є `div`, `paragraph` і `section`.
 
 ---
 
-Block-level elements start on a new line and take up the full width of their container.
+Блочні елементи починаються з нового рядка і займають всю ширину свого контейнера.
 
 #### --answer--
 
-They cannot take up the full width available as they are blocked from doing so.
+Вони не можуть займати всю доступну ширину, бо їм це заборонено.
 
 ### --question--
 
 #### --text--
 
-Which statement is FALSE when using the `inline-block` value?
+Яке твердження ХИБНЕ при використанні значення `inline-block`?
 
 #### --distractors--
 
-`inline-block` elements behave like inline elements.
+Елементи `inline-block` поводяться як рядкові елементи.
 
 ---
 
-They can have `width` and `height` properties.
+Вони можуть мати властивості `width` і `height`.
 
 ---
 
-Elements retain inline flow but allow setting `width` and `height`.
+Елементи зберігають рядковий потік, але дозволяють встановлювати властивості `width` і `height`.
 
 #### --answer--
 
-They do not share properties with inline or block level elements.
+Вони не мають спільних властивостей з рядковими або блочними елементами.
 
 ### --question--
 
 #### --text--
 
-Which is TRUE about the `!important` keyword?
+Що ПРАВДИВЕ про ключове слово `!important`?
 
 #### --distractors--
 
-They are used to make comments for an important CSS property.
+Вони використовуються для створення коментарів для важливої CSS-властивості.
 
 ---
 
-They make sure a CSS property has the correct syntax.
+Вони гарантують правильний синтаксис CSS-властивості.
 
 ---
 
-They make CSS rules easier to maintain.
+Вони полегшують підтримку CSS-правил.
 
 #### --answer--
 
-They override the specificity of other selectors.
+Вони заміщують специфічність інших селекторів.
 
 ### --question--
 
 #### --text--
 
-What character precedes a class selector name?
+Який символ передує імені селектора класу?
 
 #### --distractors--
 
@@ -783,51 +783,51 @@ What character precedes a class selector name?
 
 #### --text--
 
-Which is FALSE about inline level elements?
+Що ХИБНЕ про рядкові елементи?
 
 #### --distractors--
 
-They take up only as much space as they need.
+Вони займають лише стільки місця, скільки їм потрібно.
 
 ---
 
-They do not start on a new line.
+Вони не починаються з нового рядка.
 
 ---
 
-Common inline elements include `span` and `img`.
+Загальними рядковими елементами є `span` і `img`.
 
 #### --answer--
 
-They always start on a new line.
+Вони завжди починаються з нового рядка.
 
 ### --question--
 
 #### --text--
 
-Where are internal CSS styles accessed?
+Де доступні внутрішні стилі CSS?
 
 #### --distractors--
 
-They are styles that are important to the project, so are not shared externally.
+Це стилі, які важливі для проєкту, тому не поширюються зовні.
 
 ---
 
-Since they form the core styling of the project, they are saved in the `styles.css` file so other web pages can access them.
+Оскільки вони формують основний стиль проєкту, їх зберігають у файлі `styles.css`, щоб інші вебсторінки могли їх використовувати.
 
 ---
 
-They are stored inside the `body` element when there is only one web page to style.
+Вони зберігаються всередині елемента `body`, коли потрібно стилізувати лише одну вебсторінку.
 
 #### --answer--
 
-They are written within the `style` section within the `head` element.
+Вони записані у розділі `style` всередині елемента `head`.
 
 ### --question--
 
 #### --text--
 
-What is the order for applying the `padding` property when using the shorthand syntax?
+Який порядок застосування властивості `padding` при використанні скороченого синтаксису?
 
 #### --distractors--
 
@@ -849,7 +849,7 @@ What is the order for applying the `padding` property when using the shorthand s
 
 #### --text--
 
-What is the order for applying the `margin` property when using the shorthand syntax?
+Який порядок застосування властивості `margin` при використанні скороченого синтаксису?
 
 #### --distractors--
 
@@ -871,29 +871,29 @@ What is the order for applying the `margin` property when using the shorthand sy
 
 #### --text--
 
-What are inline CSS styles used for?
+Для чого використовують рядкові стилі CSS?
 
 #### --distractors--
 
-They are used to style inline elements only.
+Їх використовують лише для стилізації рядкових елементів.
 
 ---
 
-They are used to style elements only when they all appear on the same line of the browser viewport.
+Їх використовують для стилізації елементів лише тоді, коли вони всі знаходяться в одному рядку вікна перегляду браузера.
 
 ---
 
-They are used to resolve the issue with separation of concerns.
+Їх використовують для розв’язання проблеми розділення обов’язків.
 
 #### --answer--
 
-They are used to directly style within the element, instead of using internal or external CSS.
+Їх використовують для безпосередньої стилізації всередині елемента, замість використання внутрішнього або зовнішнього CSS.
 
 ### --question--
 
 #### --text--
 
-What symbol precedes the ID selector?
+Який символ передує селектору ідентифікатора?
 
 #### --distractors--
 
@@ -910,4 +910,3 @@ What symbol precedes the ID selector?
 #### --answer--
 
 `#`
-

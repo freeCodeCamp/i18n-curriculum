@@ -1,6 +1,6 @@
 ---
 id: 699e69e58f18cf77dfce5c14
-title: Graphs of Transformations of Tan, Sec, Cot, Csc
+title: Графіки перетворень тангенса, секанса, котангенса, косеканса
 challengeType: 11
 videoId: 07CAThFU14c
 dashedName: graphs-of-transformations-of-tan-sec-cot-csc
@@ -8,32 +8,30 @@ dashedName: graphs-of-transformations-of-tan-sec-cot-csc
 
 # --description--
 
-In this video, you will learn how to graph the transformations of tangent, secant, cotangent, and cosecant functions.
+У цьому відео ви навчитеся будувати графіки перетворень функцій тангенса, секанса, котангенса та косеканса.
 
 # --questions--
 
 ## --text--
 
-What is the shape of the second graph shown in the video?
+Яка форма другого графіка, показаного у відео?
 
 ## --answers--
 
-Secant graph.
+Графік секанса.
 
 ---
 
-Tangent graph.
+Графік тангенса.
 
 ---
 
-Sinusoidal graph.
+Синусоїдальна форма.
 
 ---
 
-Cosecant graph.
+Графік косеканса.
 
 ## --video-solution--
 
 2
-
-

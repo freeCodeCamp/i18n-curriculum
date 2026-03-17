@@ -1,6 +1,6 @@
 ---
 id: 699e855a8f18cf77dfce5c21
-title: Law of Sines
+title: Закон синусів
 challengeType: 11
 videoId: Arm0baqLKTo
 dashedName: law-of-sines
@@ -8,32 +8,30 @@ dashedName: law-of-sines
 
 # --description--
 
-In this video, you will learn about the Law of Sines.
+У цьому відео ви дізнаєтеся про закон синусів.
 
 # --questions--
 
 ## --text--
 
-What can the Law of Sines be used to find?
+Для чого можна використовувати закон синусів?
 
 ## --answers--
 
-To solve triangles that are right triangles.
+Щоб розв’язувати трикутники, які є прямокутними.
 
 ---
 
-To solve triangles that are not necessarily right triangles.
+Щоб розв’язувати трикутники, які не обов’язково є прямокутними.
 
 ---
 
-To solve triangles that are equilateral triangles.
+Щоб розв’язувати трикутники, які є рівносторонніми.
 
 ---
 
-To solve triangles that are isosceles triangles.
+Щоб розв’язувати трикутники, які є рівнобедреними.
 
 ## --video-solution--
 
 2
-
-

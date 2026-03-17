@@ -1,6 +1,6 @@
 ---
 id: 5efae16e3cbd2bbdab94e334
-title: Step 33
+title: Passaggio 33
 challengeType: 0
 dashedName: step-33
 ---
@@ -11,19 +11,19 @@ Dopo l'ultimo elemento `img`, aggiungi un elemento `figcaption` con il testo `Ca
 
 # --hints--
 
-L'elemento `figcaption` dovrebbe avere un tag di apertura. I tag di apertura hanno la seguente sintassi: `<nomeElemento>`.
+Il tuo elemento `figcaption` dovrebbe avere un tag di apertura. I tag di apertura hanno la seguente sintassi: `<elementName>`.
 
 ```js
 assert.lengthOf(document.querySelectorAll('figcaption'), 2);
 ```
 
-L'elemento `figcaption` dovrebbe avere un tag di chiusura. Closing tags have a `/` just after the `<` character.
+Il tuo elemento `figcaption` dovrebbe avere un tag di chiusura. I tag di chiusura hanno un `/` subito dopo il carattere `<`.
 
 ```js
 assert.lengthOf(code.match(/<\/figcaption\>/g), 2);
 ```
 
-Ci dovrebbe essere un elemento `figure` proprio sopra il tag di chiusura del secondo elemento `section`.
+Dovrebbe esserci un elemento `figure` proprio sopra il tag di chiusura del secondo elemento `section`.
 
 ```js
 assert.equal(document.querySelectorAll('main > section')[1]?.lastElementChild.nodeName, 'FIGURE');
@@ -38,13 +38,13 @@ assert.equal(
 );
 ```
 
-L'elemento `figure` dovrebbe avere un tag di apertura. I tag di apertura hanno la seguente sintassi: `<nomeElemento>`.
+Il tuo elemento `figure` dovrebbe avere un tag di apertura. I tag di apertura hanno la seguente sintassi: `<elementName>`.
 
 ```js
 assert.lengthOf(document.querySelectorAll('figure'), 2);
 ```
 
-L'elemento `figure` dovrebbe avere un tag di chiusura. Closing tags have a `/` just after the `<` character.
+Il tuo elemento `figure` dovrebbe avere un tag di chiusura. I tag di chiusura hanno un `/` subito dopo il carattere `<`.
 
 ```js
 assert.lengthOf(code.match(/<\/figure\>/g), 2);
@@ -56,7 +56,7 @@ L'elemento `figcaption` dovrebbe essere annidato nell'elemento `figure`.
 assert.lengthOf(document.querySelectorAll('figure > figcaption'), 2);
 ```
 
-L'elemento `figcaption` annidato nell'elemento `figure` dovrebbe essere al di sotto dell'elemento `img`. L'elemento `img` e l'elemento `figcaption` sono nell'ordine sbagliato.
+L'elemento `figcaption` annidato nell'elemento `figure` dovrebbe essere sotto l'elemento `img`. Hai l'elemento `img` e l'elemento `figcaption` nell'ordine sbagliato.
 
 ```js
 assert.equal(
@@ -65,7 +65,7 @@ assert.equal(
 );
 ```
 
-L'elemento `figcaption` dovrebbe avere il testo `Cats hate other cats.` Hai omesso una parola o hai refuso.
+L'elemento `figcaption` dovrebbe avere il testo `Cats hate other cats.`. Hai omesso una parola o c'è un errore di battitura.
 
 ```js
 assert.match(
@@ -112,7 +112,7 @@ assert.match(
         <figure>
           <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" alt="Two tabby kittens sleeping together on a couch.">
 --fcc-editable-region--
-
+          
 --fcc-editable-region--
         </figure>
       </section>

@@ -1,6 +1,6 @@
 ---
 id: 67dbf936fe4d33ccbccae40d
-title: Task 1
+title: Завдання 1
 challengeType: 22
 dashedName: task-1
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Прослухайте аудіо та доповніть речення нижче.
 
 # --fillInTheBlank--
 
@@ -24,13 +24,13 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This is used to apologize for something that happened. Don't forget to capitalize.
+Це використовується, щоб вибачитися за те, що сталося. Не забудьте про велику літеру на початку.
 
 # --explanation--
 
-`To be sorry for something` is used when apologizing for an action that may have caused inconvenience or harm. For example:
+`To be sorry for something` використовується, коли вибачаються за дію, яка могла спричинити незручності або шкоду. Наприклад:
 
-`I'm sorry for being late to the meeting.` - This means the speaker regrets arriving late and is apologizing. Notice that `being` is in the `-ing` form as it is right after `for` (a preposition).
+`I'm sorry for being late to the meeting.` — це означає, що мовник шкодує про запізнення і вибачається. Зверніть увагу, що `being` у формі `-ing`, оскільки йде одразу після `for` (прийменника).
 
 # --scene--
 

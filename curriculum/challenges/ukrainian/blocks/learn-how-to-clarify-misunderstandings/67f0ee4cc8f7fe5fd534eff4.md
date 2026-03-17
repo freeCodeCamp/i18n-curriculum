@@ -1,6 +1,6 @@
 ---
 id: 67f0ee4cc8f7fe5fd534eff4
-title: Task 87
+title: Завдання 87
 challengeType: 22
 dashedName: task-87
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Прослухайте аудіо та доповніть речення нижче.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This two-word phrase is used to show agreement or approval of an idea or suggestion. The first word ends with `-s`.
+Ця двослівна фраза використовується, щоб показати згоду або схвалення ідеї чи пропозиції. Перше слово закінчується на `-s`.
 
 ---
 
@@ -32,17 +32,17 @@ This two-word phrase is used to show agreement or approval of an idea or suggest
 
 ### --feedback--
 
-This word means to be grateful for something. It shows thanks for help, support, or something done for you.
+Це слово означає бути вдячним за щось. Воно виражає подяку за допомогу, підтримку або зроблене для вас.
 
 # --explanation--
 
-`Sounds good` means that the speaker agrees with or approves of what was said. For example:
+`Sounds good` означає, що мовник погоджується або схвалює сказане. Наприклад:
 
-`Your idea sounds good.` – This means the speaker thinks the idea is good and agrees with it.
+`Your idea sounds good.` – Це означає, що мовник вважає ідею доброю і погоджується з нею.
 
-`I appreciate` is a way of saying thank you or showing gratitude. For example:
+`I appreciate` — це спосіб сказати «дякую» або показати вдячність. Наприклад:
 
-`I appreciate your help with the project.` – This means you're grateful for the help you received.
+`I appreciate your help with the project.` – Це означає, що ви вдячні за отриману допомогу.
 
 # --scene--
 

@@ -7,9 +7,9 @@ dashedName: step-36
 
 # --description--
 
-Тепер час додати інші деталі до маркерів, розпочавши з першого.
+Тепер настав час додати інші деталі до маркерів, починаючи з першого.
 
-В першому маркер-елементі `div` змініть клас `one` на `red`.
+У першому маркері `div` змініть клас `one` на `red`.
 
 # --hints--
 
@@ -20,7 +20,7 @@ const containerFirstChild = [...document.querySelector('.container')?.children][
 assert.isFalse(containerFirstChild?.classList?.contains('one'));
 ```
 
-Ваш перший маркер `div` повинен мати класи `marker` та `red`.
+Ваш перший маркер `div` повинен мати класи `marker` і `red`.
 
 ```js
 const containerFirstChild = [...document.querySelector('.container')?.children][0];

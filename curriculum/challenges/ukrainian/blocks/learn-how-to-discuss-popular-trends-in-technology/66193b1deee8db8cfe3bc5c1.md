@@ -10,13 +10,13 @@ lang: en-US
 
 # --description--
 
-Послухайте аудіо та дайте відповідь на запитання.
+Прослухайте аудіо та дайте відповідь на запитання.
 
 # --questions--
 
 ## --text--
 
-What collaboration tools does Alice mention?
+Які інструменти для співпраці згадує Еліс?
 
 ## --answers--
 
@@ -28,7 +28,7 @@ What collaboration tools does Alice mention?
 
 ### --feedback--
 
-Although these are important tools in today's world, they are not the tools Alice mentions.
+Хоч ці інструменти й важливі сьогодні, Еліс їх не згадує.
 
 ---
 
@@ -36,7 +36,7 @@ Although these are important tools in today's world, they are not the tools Alic
 
 ### --feedback--
 
-These are manual tools, not collaboration tools.
+Це ручні інструменти, а не інструменти для співпраці.
 
 ---
 
@@ -44,7 +44,7 @@ These are manual tools, not collaboration tools.
 
 ### --feedback--
 
-These can be considered collaboration tools in a virtual environment, but Alice does not mention them.
+Їх можна вважати інструментами для співпраці у віртуальному середовищі, але Еліс їх не згадує.
 
 ## --video-solution--
 

@@ -7,13 +7,13 @@ dashedName: step-43
 
 # --description--
 
-Наступний крок — оновити позицію гравця під час його руху протягом гри.
+Наступний крок — оновити позицію гравця під час його руху у грі.
 
-Під `ctx.clearRect()` викличте метод `update()` на програвачі.
+Під вашим `ctx.clearRect()` викличте метод `update()` у гравця.
 
 # --hints--
 
-Викличте метод `update()` на програвачі.
+Ви повинні викликати метод `update()` у гравця.
 
 ```js
 assert.match(code, /\s*player\s*\.\s*update\s*\(\s*\)\s*;?/);
@@ -189,7 +189,7 @@ class Player {
     ctx.fillStyle = "#99c9ff";
     ctx.fillRect(this.position.x, this.position.y, this.width, this.height);
   }
-
+  
   update() {
     this.draw();
     this.position.x += this.velocity.x;

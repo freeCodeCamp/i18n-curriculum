@@ -1,6 +1,6 @@
 ---
 id: 66c4ef1cb275e86febc9fe2c
-title: Task 113
+title: Attività 113
 challengeType: 22
 dashedName: task-113
 lang: en-US
@@ -9,13 +9,12 @@ lang: en-US
 <!-- Audio Reference:
 Sarah: It should, but it's not displaying because the live server extension might not be running. -->
 
-
 <!-- Audio Reference:
 Sarah: It should, but it's not displaying because the live server extension might not be running. -->
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Ascolta l'audio e completa la frase qui sotto.
 
 # --fillInTheBlank--
 
@@ -29,7 +28,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-The action of showing or rendering something. This word ends in `-ing`.
+L'azione di mostrare o renderizzare qualcosa. Questa parola termina con `-ing`.
 
 ---
 
@@ -37,15 +36,15 @@ The action of showing or rendering something. This word ends in `-ing`.
 
 ### --feedback--
 
-Indicates the extension is active and functioning. This word ends in `-ing`.
+Indica che l'estensione è attiva e funzionante. Questa parola termina con `-ing`.
 
 # --explanation--
 
-A gerund is a verb form ending in `-ing` that functions as a noun. In this sentence, `displaying` and `running` are gerunds that describe ongoing actions. For example:
+Un gerundio è una forma verbale che termina con `-ing` e funziona come un sostantivo. In questa frase, `displaying` e `running` sono gerundi che descrivono azioni in corso. Per esempio:
 
-- `Updating the software is essential.` - Here, `Updating` is a gerund describing an action.
+- `Updating the software is essential.` - Qui, `Updating` è un gerundio che descrive un'azione.
 
-In Sarah's sentence, `displaying` and `running` describe actions related to the live server extension and how it functions.
+Nella frase di Sarah, `displaying` e `running` descrivono azioni relative all'estensione live server e a come funziona.
 
 # --scene--
 

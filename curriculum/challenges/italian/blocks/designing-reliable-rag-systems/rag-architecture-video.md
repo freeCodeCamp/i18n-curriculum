@@ -1,6 +1,6 @@
 ---
 id: 69ae6fd0b4a814be6a4f2be0
-title: RAG Architecture
+title: Architettura RAG
 challengeType: 11
 videoId: OVn_ykvG4LE
 dashedName: rag-architecture
@@ -8,32 +8,30 @@ dashedName: rag-architecture
 
 # --description--
 
-In this video, you will learn about the architecture of a RAG system.
+In questo video imparerai l'architettura di un sistema RAG.
 
 # --questions--
 
 ## --text--
 
-Which of the following is the correct pipeline flow for a RAG system?
+Qual è il flusso corretto della pipeline per un sistema RAG?
 
 ## --answers--
 
-LLM → Chunking → Embedding → Vector Database
+LLM → Suddivisione in chunk → Incorporamento → Database vettoriale
 
 ---
 
-Chunking → Embedding → Vector Database → LLM
+Suddivisione in chunk → Incorporamento → Database vettoriale → LLM
 
 ---
 
-Embedding → Chunking → Vector Database → LLM
+Incorporamento → Suddivisione in chunk → Database vettoriale → LLM
 
 ---
 
-Chunking → LLM → Vector Database → Embedding
+Suddivisione in chunk → LLM → Database vettoriale → Incorporamento
 
 ## --video-solution--
 
 2
-
-

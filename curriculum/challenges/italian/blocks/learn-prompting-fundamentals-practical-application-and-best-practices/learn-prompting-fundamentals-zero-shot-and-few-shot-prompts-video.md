@@ -1,6 +1,6 @@
 ---
 id: 69a773545a27934b29e1eac8
-title: Zero Shot and Few Shot Prompts
+title: Prompt zero shot e few shot
 challengeType: 11
 videoId: 9SQRxWk4Myc
 dashedName: zero-shot-and-few-shot-prompts-learn-prompting-fundamentals
@@ -8,31 +8,30 @@ dashedName: zero-shot-and-few-shot-prompts-learn-prompting-fundamentals
 
 # --description--
 
-In this video, you will learn about zero shot and few shot prompting.
+In questo video imparerai cosa sono i prompt zero shot e few shot.
 
 # --questions--
 
 ## --text--
 
-What is few shot prompting?
+Che cos’è il few shot prompting?
 
 ## --answers--
 
-Reduces the model size so it can run efficiently on smaller devices.
+Riduce la dimensione del modello così può funzionare in modo efficiente su dispositivi più piccoli.
 
 ---
 
-Provides the model with training examples through the prompt which avoids retraining.
+Fornisce al modello esempi di addestramento tramite il prompt, evitando di dover riaddestrare.
 
 ---
 
-Retrains the model on a small custom dataset before generating responses.
+Riaddestra il modello su un piccolo insieme di dati personalizzato prima di generare le risposte.
 
 ---
 
-Uses reinforcement learning to improve the model after each prompt.
+Usa l’apprendimento per rinforzo per migliorare il modello dopo ogni prompt.
 
 ## --video-solution--
 
 2
-

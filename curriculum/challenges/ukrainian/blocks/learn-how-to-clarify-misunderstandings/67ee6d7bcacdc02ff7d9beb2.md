@@ -1,6 +1,6 @@
 ---
 id: 67ee6d7bcacdc02ff7d9beb2
-title: Task 69
+title: Завдання 69
 challengeType: 22
 dashedName: task-69
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Прослухайте аудіо та доповніть речення нижче.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This word is used to talk about the existence of something or to say that something is present or happening. It's the contraction of `there is`.
+Це слово використовується, щоб говорити про існування чогось або сказати, що щось присутнє чи відбувається. Це скорочення від `there is`.
 
 ---
 
@@ -32,7 +32,7 @@ This word is used to talk about the existence of something or to say that someth
 
 ### --feedback--
 
-This word refers to an issue or difficulty that needs to be solved or fixed.
+Це слово означає проблему або складність, яку потрібно розв’язати чи виправити.
 
 ---
 
@@ -40,7 +40,7 @@ This word refers to an issue or difficulty that needs to be solved or fixed.
 
 ### --feedback--
 
-This preposition shows the relationship or connection between two things.
+Цей прийменник показує зв’язок або відношення між двома речами.
 
 ---
 
@@ -48,17 +48,17 @@ This preposition shows the relationship or connection between two things.
 
 ### --feedback--
 
-This two-word phrase refers to the way software or websites respond to actions, like clicks or keystrokes, performed by the user. The second word ends with `-ing`.
+Цей двослівний вираз описує, як програмне забезпечення або вебсайти реагують на дії користувача, такі як натискання чи введення з клавіатури. Друге слово закінчується на `-ing`.
 
 # --explanation--
 
-`There's a problem with` is used to describe that something is not working correctly. It means there is an issue or difficulty related to a specific thing. For example:
+`There's a problem with` використовується, щоб описати, що щось працює неправильно. Це означає, що є проблема або складність, пов’язана з певною річчю. Наприклад:
 
-`There's a problem with the network.` – This means the network is not functioning properly.
+`There's a problem with the network.` – це означає, що мережа працює неправильно.
 
-`Event handling` refers to how a program or website manages user actions like clicks, keyboard presses, or mouse movements. For example:
+`Event handling` стосується того, як програма або вебсайт обробляє дії користувача, такі як натискання, клавіатурні команди або рухи миші. Наприклад:
 
-`There's an issue with event handling.` - This mean the software isn't responding properly to user actions.
+`There's an issue with event handling.` – це означає, що програмне забезпечення неправильно реагує на дії користувача.
 
 # --scene--
 

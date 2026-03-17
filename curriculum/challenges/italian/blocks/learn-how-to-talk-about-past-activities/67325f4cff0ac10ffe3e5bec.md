@@ -1,6 +1,6 @@
 ---
 id: 67325f4cff0ac10ffe3e5bec
-title: Task 114
+title: Attività 114
 challengeType: 19
 dashedName: task-114
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Ascolta l'audio e rispondi alla domanda qui sotto.
 
 # --questions--
 
 ## --text--
 
-What is James describing about his approach to coding?
+Cosa sta descrivendo James riguardo al suo approccio alla programmazione?
 
 ## --answers--
 
-A habit he had in the past.
+Un'abitudine che aveva in passato.
 
 ---
 
-Something he plans to do in the future.
+Qualcosa che ha intenzione di fare in futuro.
 
 ### --feedback--
 
-James isn't talking about future plans; he is reflecting on something he did before.
+James non parla di piani futuri; sta riflettendo su qualcosa che faceva prima.
 
 ---
 
-A habit he continues now.
+Un'abitudine che continua ad avere ora.
 
 ### --feedback--
 
-James uses the phrase `used to`, which shows he is describing something he did in the past, not currently.
+James usa l'espressione `used to`, che indica che sta descrivendo qualcosa che faceva in passato, non attualmente.
 
 ---
 
-A process he never followed.
+Un processo che non ha mai seguito.
 
 ### --feedback--
 
-James describes a habit he once had, so it is not something he never did.
+James descrive un'abitudine che aveva una volta, quindi non è qualcosa che non ha mai fatto.
 
 ## --video-solution--
 
@@ -52,11 +52,11 @@ James describes a habit he once had, so it is not something he never did.
 
 # --explanation--
 
-James says, `I used to just write code without thinking much about the end user.`
+James dice, `I used to just write code without thinking much about the end user.` 
 
-`Used to` indicates a past habit or action that is no longer true.
+`Used to` indica un'abitudine o un'azione passata che non è più vera. 
 
-This sentence shows that he previously wrote code without considering the end user but has since changed his approach.
+Questa frase mostra che prima scriveva codice senza considerare l'utente finale, ma da allora ha cambiato approccio.
 
 # --scene--
 

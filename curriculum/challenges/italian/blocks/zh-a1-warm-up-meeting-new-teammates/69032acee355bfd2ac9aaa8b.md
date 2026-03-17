@@ -1,6 +1,6 @@
 ---
 id: 69032acee355bfd2ac9aaa8b
-title: Task 13
+title: Attività 13
 challengeType: 24
 dashedName: task-13
 lang: zh-CN
@@ -8,23 +8,23 @@ lang: zh-CN
 
 # --description--
 
-## Tone Sandhi of `不 (bù)`
+## Regolazione del tono di `不 (bù)`
 
-`不 (bù)` means "no" or "not". When it is followed by a syllable which is in the first, second or the third tone, it remains in the fourth tone.
+`不 (bù)` significa "no" o "non". Quando è seguito da una sillaba che ha il primo, secondo o terzo tono, rimane nel quarto tono.
 
-However, when `不 (bù)` is followed by a syllable which is in the fourth tone, it changes to the second tone.
+Tuttavia, quando `不 (bù)` è seguito da una sillaba che ha il quarto tono, cambia al secondo tono.
 
-This tone change is a natural adjustment in speech to make pronunciation smoother.
+Questo cambiamento di tono è una regolazione naturale nel parlato per rendere la pronuncia più fluida.
 
-### Examples
+### Esempi
 
-| Written    | Pronounced as |
-| ---------- | ------------- |
-| `bù néng`  | `bù néng`     |
-| `bù xiǎng` | `bù xiǎng`    |
-| `bù shì`   | `bú shì`      |
-| `bù huì`   | `bú huì`      |
+| Scritto    | Pronunciato come |
+|------------|------------------|
+| `bù néng`   | `bù néng`        |
+| `bù xiǎng`   | `bù xiǎng`        |
+| `bù shì`    | `bú shì`         |
+| `bù huì`  | `bú huì`     |
 
 # --assignment--
 
-I've read this Pinyin rule.
+Ho letto questa regola del pinyin.

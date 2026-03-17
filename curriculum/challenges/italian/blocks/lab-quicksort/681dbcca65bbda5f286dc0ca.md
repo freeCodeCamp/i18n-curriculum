@@ -1,34 +1,34 @@
 ---
 id: 681dbcca65bbda5f286dc0ca
-title: Implement the Quicksort Algorithm
+title: "implementare l'algoritmo quicksort"
 challengeType: 27
 dashedName: implement-the-quicksort-algorithm
 ---
 
 # --description--
 
-**Objective:** Fulfill the user stories below and get all the tests to pass to complete the lab.
+**Obiettivo:** Completa le storie utente qui sotto e fai superare tutti i test per completare il laboratorio.
 
-**User Stories:**
+**Storie utente:**
 
-1. You should define a function named `quick_sort` to implement the quicksort algorithm.
+1. Devi definire una funzione chiamata `quick_sort` per implementare l'algoritmo quicksort.
 
-1. The `quick_sort` function should take a list of integers as input and return a new list of these integers in sorted order from least to greatest.
+1. La funzione `quick_sort` deve prendere come input una lista di numeri interi e restituire una nuova lista di questi numeri ordinata dal più piccolo al più grande.
 
-1. To implement the algorithm, you should:
-   - Choose a pivot value from the elements of the input list (use the first or the last element of the list).
-   - Partition the input list into three sublists: one with elements less than the pivot, one with elements equal to the pivot, and one with elements greater than the pivot.
-   - Recursively call `quick_sort` to sort the sublists and concatenate the sorted sublists to produce the final sorted list.
+1. Per implementare l'algoritmo, devi:
+   - Scegliere un valore pivot tra gli elementi della lista di input (usa il primo o l'ultimo elemento della lista).
+   - Suddividere la lista di input in tre sotto-liste: una con gli elementi minori del pivot, una con gli elementi uguali al pivot e una con gli elementi maggiori del pivot.
+   - Chiamare ricorsivamente `quick_sort` per ordinare le sotto-liste e concatenare le sotto-liste ordinate per ottenere la lista finale ordinata.
 
 # --hints--
 
-You should have a function named `quick_sort`.
+Devi avere una funzione chiamata `quick_sort`.
 
 ```js
 ({ test: () => runPython(`assert _Node(_code).has_function("quick_sort")`) })
 ```
 
-Your `quick_sort` function should take a single parameter.
+La tua funzione `quick_sort` deve prendere un solo parametro.
 
 ```js
 ({ test: () => runPython(`
@@ -38,13 +38,13 @@ assert len(sig.parameters) == 1
 `) })
 ```
 
-`quick_sort([])` should return an empty list.
+`quick_sort([])` deve restituire una lista vuota.
 
 ```js
 ({ test: () => runPython(`assert quick_sort([]) == []`) })
 ```
 
-Your `quick_sort` function should not modify the list passed to it as the argument.
+La tua funzione `quick_sort` non deve modificare la lista passata come argomento.
 
 ```js
 ({ test: () => runPython(`
@@ -54,31 +54,31 @@ assert _test_list == [20, 3, 14, 1, 5]
 `) })
 ```
 
-`quick_sort([20, 3, 14, 1, 5])` should return `[1, 3, 5, 14, 20]`.
+`quick_sort([20, 3, 14, 1, 5])` deve restituire `[1, 3, 5, 14, 20]`.
 
 ```js
 ({ test: () => runPython(`assert quick_sort([20, 3, 14, 1, 5]) == [1, 3, 5, 14, 20]`) })
 ```
 
-`quick_sort([83, 4, 24, 2])` should return `[2, 4, 24, 83]`.
+`quick_sort([83, 4, 24, 2])` deve restituire `[2, 4, 24, 83]`.
 
 ```js
 ({ test: () => runPython(`assert quick_sort([83, 4, 24, 2]) == [2, 4, 24, 83]`) })
 ```
 
-`quick_sort([4, 42, 16, 23, 15, 8])` should return `[4, 8, 15, 16, 23, 42]`.
+`quick_sort([4, 42, 16, 23, 15, 8])` deve restituire `[4, 8, 15, 16, 23, 42]`.
 
 ```js
 ({ test: () => runPython(`assert quick_sort([4, 42, 16, 23, 15, 8]) == [4, 8, 15, 16, 23, 42]`) })
 ```
 
-`quick_sort([87, 11, 23, 18, 18, 23, 11, 56, 87, 56])` should return `[11, 11, 18, 18, 23, 23, 56, 56, 87, 87]`.
+`quick_sort([87, 11, 23, 18, 18, 23, 11, 56, 87, 56])` deve restituire `[11, 11, 18, 18, 23, 23, 56, 56, 87, 87]`.
 
 ```js
 ({ test: () => runPython(`assert quick_sort([87, 11, 23, 18, 18, 23, 11, 56, 87, 56]) == [11, 11, 18, 18, 23, 23, 56, 56, 87, 87]`) })
 ```
 
-You should not import any module or use built-in sorting methods in your code.
+Non devi importare nessun modulo né usare metodi di ordinamento integrati nel tuo codice.
 
 ```js
 ({ test: () => runPython(`

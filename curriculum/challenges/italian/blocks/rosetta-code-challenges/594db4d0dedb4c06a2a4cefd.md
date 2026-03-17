@@ -1,6 +1,6 @@
 ---
 id: 594db4d0dedb4c06a2a4cefd
-title: Babbage problem
+title: Problema di Babbage
 challengeType: 1
 forumTopicId: 302229
 dashedName: babbage-problem
@@ -8,30 +8,30 @@ dashedName: babbage-problem
 
 # --description--
 
-Charles Babbage, looking ahead to the sorts of problems his Analytical Engine would be able to solve, gave this example:
+Charles Babbage, prevedendo il tipo di problemi che la sua Analytical Engine sarebbe stata in grado di risolvere, propose questo esempio:
 
 <blockquote>
-  What is the smallest positive integer whose square ends in the digits 269,696?
-  <footer style='margin-left: 2em;'>Babbage, letter to Lord Bowden, 1837; see Hollingdale and Tootill, <i>Electronic Computers</i>, second edition, 1970, p. 125.</footer>
+  Qual è il più piccolo numero intero positivo il cui quadrato termina con le cifre 269.696?
+  <footer style='margin-left: 2em;'>Babbage, lettera a Lord Bowden, 1837; vedi Hollingdale e Tootill, <i>Electronic Computers</i>, seconda edizione, 1970, p. 125.</footer>
 </blockquote>
 
-He thought the answer might be 99,736, whose square is 9,947,269,696; but he couldn't be certain.
+Pensava che la risposta potesse essere 99.736, il cui quadrato è 9.947.269.696; ma non ne era sicuro.
 
-The task is to find out if Babbage had the right answer.
+L'attività è trovare se Babbage aveva ragione.
 
 # --instructions--
 
-Implement a function to return the lowest integer that satisfies the Babbage problem. If Babbage was right, return Babbage's number.
+Implementa una funzione per restituire il numero intero più basso che soddisfa il problema di Babbage. Se Babbage aveva ragione, restituisci il suo numero.
 
 # --hints--
 
-`babbage` should be a function.
+`babbage` dovrebbe essere una funzione.
 
 ```js
 assert(typeof babbage === 'function');
 ```
 
-`babbage(99736, 269696)` should not return 99736 (there is a smaller answer).
+`babbage(99736, 269696)` non dovrebbe restituire 99736 (esiste una risposta più piccola).
 
 ```js
 const babbageAns = 99736;

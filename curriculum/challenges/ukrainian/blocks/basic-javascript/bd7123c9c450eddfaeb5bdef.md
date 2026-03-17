@@ -1,6 +1,6 @@
 ---
 id: bd7123c9c450eddfaeb5bdef
-title: Use Bracket Notation to Find the Nth Character in a String
+title: Використовуйте дужкову нотацію, щоб знайти n-й символ у рядку
 challengeType: 1
 forumTopicId: 18343
 dashedName: use-bracket-notation-to-find-the-nth-character-in-a-string
@@ -8,34 +8,34 @@ dashedName: use-bracket-notation-to-find-the-nth-character-in-a-string
 
 # --description--
 
-You can also use <dfn>bracket notation</dfn> to get the character at other positions within a string.
+Ви також можете використовувати <dfn>дужкову нотацію</dfn>, щоб отримати символ на інших позиціях у рядку.
 
-Remember that computers start counting at `0`, so the first character is actually the zeroth character.
+Пам’ятайте, що комп’ютери починають рахувати з `0`, тому перший символ насправді є нульовим символом.
 
-Example:
+Приклад:
 
 ```js
 const firstName = "Ada";
 const secondLetterOfFirstName = firstName[1];
 ```
 
-`secondLetterOfFirstName` would have a value of the string `d`.
+`secondLetterOfFirstName` матиме значення рядка `d`.
 
 # --instructions--
 
-Let's try to set `thirdLetterOfLastName` to equal the third letter of the `lastName` variable using bracket notation.
+Спробуйте встановити `thirdLetterOfLastName` рівним третій літері змінної `lastName` за допомогою дужкової нотації.
 
-**Hint:** Try looking at the example above if you get stuck.
+**Підказка:** Якщо застрягли, подивіться на приклад вище.
 
 # --hints--
 
-The `thirdLetterOfLastName` variable should have the value of `v`.
+Змінна `thirdLetterOfLastName` має мати значення `v`.
 
 ```js
 assert(thirdLetterOfLastName === 'v');
 ```
 
-You should use bracket notation.
+Ви маєте використовувати дужкову нотацію.
 
 ```js
 assert(__helpers.removeJSComments(code).match(/thirdLetterOfLastName\s*=\s*lastName\s*\[\s*\d\s*\]/));

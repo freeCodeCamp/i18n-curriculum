@@ -1,6 +1,6 @@
 ---
 id: 69a7646b5a27934b29e1eac1
-title: Introduction to AI
+title: Вступ до штучного інтелекту
 challengeType: 11
 videoId: 5v13GqqDRng
 dashedName: introduction-to-ai-learn-prompting-fundamentals
@@ -8,13 +8,13 @@ dashedName: introduction-to-ai-learn-prompting-fundamentals
 
 # --description--
 
-In this video, you will learn what AI is.
+У цьому відео ви дізнаєтеся, що таке штучний інтелект.
 
 # --questions--
 
 ## --text--
 
-What does AI stand for?
+Що означає абревіатура AI?
 
 ## --answers--
 
@@ -35,4 +35,3 @@ Artificial ID
 ## --video-solution--
 
 3
-

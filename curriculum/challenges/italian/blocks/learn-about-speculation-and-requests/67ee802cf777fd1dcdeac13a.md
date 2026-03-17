@@ -1,6 +1,6 @@
 ---
 id: 67ee802cf777fd1dcdeac13a
-title: Task 19
+title: Attività 19
 challengeType: 19
 dashedName: task-19
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Ascolta l'audio e rispondi alla domanda qui sotto.
 
 # --questions--
 
 ## --text--
 
-What requirement does Sophie mention?
+Quale requisito menziona Sophie?
 
 ## --answers--
 
-Mark should delete unnecessary lines of code.
+Mark dovrebbe eliminare righe di codice non necessarie.
 
 ### --feedback--
 
-Sophie doesn't talk about removing code.
+Sophie non parla di eliminare codice.
 
 ---
 
-Mark should rewrite his code completely.
+Mark dovrebbe riscrivere completamente il suo codice.
 
 ### --feedback--
 
-Sophie doesn't suggest rewriting the entire code.
+Sophie non suggerisce di riscrivere tutto il codice.
 
 ---
 
-Mark should avoid using loops.
+Mark dovrebbe evitare di usare loop.
 
 ### --feedback--
 
-Sophie does not say anything about avoiding loops.
+Sophie non dice nulla riguardo evitare i loop.
 
 ---
 
-Mark should use notes in his code.
+Mark dovrebbe usare note nel suo codice.
 
 ## --video-solution--
 
@@ -52,13 +52,13 @@ Mark should use notes in his code.
 
 # --explanation--
 
-A `comment` is a note in the code that helps explain what it does. For example:
+Un `comment` è una nota nel codice che aiuta a spiegare cosa fa. Per esempio:
 
-- `I added a comment to explain why this loop is necessary.` - You wrote a comment to describe why certain loop is used.
+- `I added a comment to explain why this loop is necessary.` - Hai scritto un commento per descrivere perché si usa un certo loop.
 
-- `You can use comments to leave notes about issues that need fixing later.` - Comments can be added in the code as reminders for things that need to be fixed or improved.
+- `You can use comments to leave notes about issues that need fixing later.` - I commenti possono essere aggiunti nel codice come promemoria per cose da correggere o migliorare.
 
-Comments help others understand the code and remind you of important details when reviewing your code later.
+I commenti aiutano gli altri a capire il codice e ti ricordano dettagli importanti quando rivedi il codice in seguito.
 
 # --scene--
 

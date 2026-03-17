@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Послухайте аудіо та доповніть речення нижче.
+Прослухайте аудіо та доповніть речення нижче.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ lang: en-US
 
 ### --feedback--
 
-This is a type of cyberattack where a hacker secretly gets in the middle of two people or systems talking to each other. The hacker can see, change, or steal information being shared without anyone knowing. This is a compound word, remember to use `-`. The first letters of the first and the forth word are capitalized.
+Це тип кібернападу, коли хакер таємно стає посередником між двома людьми або системами, які спілкуються. Хакер може бачити, змінювати або викрадати інформацію, що передається, і ніхто про це не знає. Це складне слово, пам’ятайте, що потрібно використовувати `-`. Перші літери першого та четвертого слова мають бути з великої.
 
 ---
 
@@ -32,17 +32,17 @@ This is a type of cyberattack where a hacker secretly gets in the middle of two 
 
 ### --feedback--
 
-This word in the plural form means actions by hackers or criminals to harm a computer system, steal information, or cause problems.
+Це слово у множині означає дії хакерів або злочинців, спрямовані на шкоду комп’ютерній системі, викрадення інформації або створення проблем.
 
 # --explanation--
 
-`Man-in-the-Middle` (or `MITM`) is a type of attack where a hacker secretly gets between two people or systems that are communicating. The hacker listens to or changes the information being shared without anyone knowing. Приклад:
+`Man-in-the-Middle` (або `MITM`) — це тип нападу, коли хакер таємно стає посередником між двома людьми або системами, які спілкуються. Хакер прослуховує або змінює інформацію, що передається, і ніхто про це не знає. Наприклад:
 
-`A Man-in-the-Middle attack (MITM) happened when a hacker intercepted the data sent between a user's computer and their bank.` - The hacker pretended to be the bank, intercepted the information, and stole the user's login credentials. This allowed the hacker to access the bank account without the user knowing.
+`A Man-in-the-Middle attack (MITM) happened when a hacker intercepted the data sent between a user's computer and their bank.` — хакер прикидався банком, перехопив інформацію та викрав облікові дані користувача. Це дозволило хакеру отримати доступ до банківського рахунку без відома користувача.
 
-`Attacks` are actions by hackers to harm computer systems, steal information, or cause problems. For example:
+`Attacks` — це дії хакерів, спрямовані на шкоду комп’ютерним системам, викрадення інформації або створення проблем. Наприклад:
 
-`The website was unavailable for hours because of a cyber attack that overloaded its server.` - It indicates the hacker sent too much fake traffic to the website, making it crash or slow down. This stopped real users from accessing it, causing disruption.
+`The website was unavailable for hours because of a cyber attack that overloaded its server.` — це означає, що хакер надіслав занадто багато фальшивого трафіку на вебсайт, через що він впав або почав працювати повільно. Це завадило реальним користувачам отримати доступ, спричинивши перебої.
 
 # --scene--
 

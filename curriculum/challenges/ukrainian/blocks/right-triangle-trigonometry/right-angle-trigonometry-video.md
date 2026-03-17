@@ -1,6 +1,6 @@
 ---
 id: 699e5b998f18cf77dfce5c0d
-title: Right Angle Trigonometry
+title: Тригонометрія прямокутного кута
 challengeType: 11
 videoId: j81PeMJaju0
 dashedName: right-angle-trigonometry
@@ -8,32 +8,30 @@ dashedName: right-angle-trigonometry
 
 # --description--
 
-In this video, you will learn about common trig functions including sine, cosine, and tangent and how to calculate them for right triangles.
+У цьому відео ви дізнаєтеся про загальні тригонометричні функції, зокрема синус, косинус і тангенс, а також як їх обчислювати для прямокутних трикутників.
 
 # --questions--
 
 ## --text--
 
-What is the sine of theta for a right triangle?
+Що таке синус тети для прямокутного трикутника?
 
 ## --answers--
 
-Adjacent over opposite
+Суміжний катет над протилежним
 
 ---
 
-Opposite over hypotenuse
+Протилежний катет над гіпотенузою
 
 ---
 
-Hypotenuse over opposite
+Гіпотенуза над протилежним
 
 ---
 
-Adjacent over hypotenuse
+Суміжний катет над гіпотенузою
 
 ## --video-solution--
 
 2
-
-

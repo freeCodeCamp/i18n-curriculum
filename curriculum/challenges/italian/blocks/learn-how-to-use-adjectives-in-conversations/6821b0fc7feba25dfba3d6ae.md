@@ -1,6 +1,6 @@
 ---
 id: 6821b0fc7feba25dfba3d6ae
-title: Task 105
+title: Attività 105
 challengeType: 19
 dashedName: task-105
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Read the text and answer the question below.
+Leggi il testo e rispondi alla domanda qui sotto.
 
 # --questions--
 

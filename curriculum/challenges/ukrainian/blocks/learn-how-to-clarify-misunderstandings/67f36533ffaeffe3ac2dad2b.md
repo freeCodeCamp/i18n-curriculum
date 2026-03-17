@@ -1,6 +1,6 @@
 ---
 id: 67f36533ffaeffe3ac2dad2b
-title: Task 131
+title: Завдання 131
 challengeType: 19
 dashedName: task-131
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Прослухайте аудіо та дайте відповідь на запитання нижче.
 
 # --questions--
 
 ## --text--
 
-What is Jessica explaining?
+Що пояснює Джессіка?
 
 ## --answers--
 
-There was a problem with the current update's schedule.
+У графіку поточного оновлення виникла проблема.
 
 ### --feedback--
 
-Jessica is talking about the feature's timing, not the schedule of the update itself.
+Джессіка говорить про час появи функції, а не про графік самого оновлення.
 
 ---
 
-The budget tracking feature will be in the next update, not the current one.
+Функція відстеження бюджету буде в наступному оновленні, а не в поточному.
 
 ---
 
-The budget tracking feature has been removed from the current update.
+Функцію відстеження бюджету видалили з поточного оновлення.
 
 ### --feedback--
 
-Jessica doesn't mention that the feature has been removed.
+Джессіка не згадує, що функцію видалили.
 
 ---
 
-The feature was mistakenly included in this update.
+Функція була помилково включена в це оновлення.
 
 ### --feedback--
 
-Jessica doesn't say the feature was mistakenly included.
+Джессіка не каже, що функція була помилково включена.
 
 ## --video-solution--
 
@@ -52,9 +52,9 @@ Jessica doesn't say the feature was mistakenly included.
 
 # --explanation--
 
-Jessica says, `The budget tracking feature is planned for the next update`, explaining that the feature is not included in the current update but will be added in the next one.
+Джессіка каже, `The budget tracking feature is planned for the next update`, пояснюючи, що функція не включена в поточне оновлення, але буде додана в наступне.
 
-This clears up the confusion about the feature's timing.
+Це прояснює непорозуміння щодо часу появи функції.
 
 # --scene--
 

@@ -1,6 +1,6 @@
 ---
 id: 699e5ba28f18cf77dfce5c0f
-title: Unit Circle Definition of Sine and Cosine
+title: Визначення синуса і косинуса через одиничне коло
 challengeType: 11
 videoId: zt4bkQc1nSw
 dashedName: unit-circle-definition-sine-cosine
@@ -8,31 +8,30 @@ dashedName: unit-circle-definition-sine-cosine
 
 # --description--
 
-In this video, you will learn how to use the unit circle to find the sine and cosine of angles.
+У цьому відео ви навчитеся використовувати одиничне коло, щоб знайти синус і косинус кутів.
 
 # --questions--
 
 ## --text--
 
-What is a unit circle?
+Що таке одиничне коло?
 
 ## --answers--
 
-A circle with a radius of 0 units.
+Коло з радіусом 0 одиниць.
 
 ---
 
-A circle with a radius of 1 unit.
+Коло з радіусом 1 одиниця.
 
 ---
 
-A circle with a radius of 2 units.
+Коло з радіусом 2 одиниці.
 
 ---
 
-A circle with a radius of 0.5 units.
+Коло з радіусом 0,5 одиниць.
 
 ## --video-solution--
 
 2
-

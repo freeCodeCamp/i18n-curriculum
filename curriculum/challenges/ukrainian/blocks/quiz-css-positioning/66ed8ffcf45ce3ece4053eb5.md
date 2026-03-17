@@ -1,13 +1,13 @@
 ---
 id: 66ed8ffcf45ce3ece4053eb5
-title: CSS Positioning Quiz
+title: Тест з позиціонування в CSS
 challengeType: 8
 dashedName: quiz-css-positioning
 ---
 
 # --description--
 
-To pass the quiz, you must correctly answer at least 18 of the 20 questions below.
+Щоб пройти тест, ви повинні правильно відповісти щонайменше на 18 із 20 питань нижче.
 
 # --quizzes--
 
@@ -17,7 +17,7 @@ To pass the quiz, you must correctly answer at least 18 of the 20 questions belo
 
 #### --text--
 
-Which of the following is NOT a valid value for the `position` property?
+Яке з наведених значень НЕ є дійсним для властивості `position`?
 
 #### --distractors--
 
@@ -39,29 +39,29 @@ Which of the following is NOT a valid value for the `position` property?
 
 #### --text--
 
-What is the main purpose of the `float` property in CSS?
+Яка основна мета властивості `float` у CSS?
 
 #### --distractors--
 
-Floats are used to remove an element from its normal flow on the page and automatically position it in the upper right hand side of the webpage.
+Плаваючі елементи використовуються, щоб вивести елемент із його нормального потоку на сторінці та автоматично розмістити його у верхньому правому куті вебсторінки.
 
 ---
 
-Floats are used to remove an element from its normal flow on the page and position it to the top of its container.
+Плаваючі елементи використовуються, щоб вивести елемент із його нормального потоку на сторінці та розмістити його у верхній частині контейнера.
 
 ---
 
-Floats are used to remove an element from its normal flow on the page and automatically position it to the bottom right hand side of webpage.
+Плаваючі елементи використовуються, щоб вивести елемент із його нормального потоку на сторінці та автоматично розмістити його у нижньому правому куті вебсторінки.
 
 #### --answer--
 
-Floats are used to remove an element from its normal flow on the page and position it either on the left or right side of its container.
+Плаваючі елементи використовуються, щоб вивести елемент із його нормального потоку на сторінці та розмістити його або зліва, або справа від контейнера.
 
 ### --question--
 
 #### --text--
 
-Which of the following is an example making a box element float to the left?
+Який із наведених прикладів змушує блоковий елемент плавати ліворуч?
 
 #### --distractors--
 
@@ -115,29 +115,29 @@ Which of the following is an example making a box element float to the left?
 
 #### --text--
 
-What is the role of the `clear` property?
+Яка роль властивості `clear`?
 
 #### --distractors--
 
-It is used to determine if an element needs to be moved to the bottom of the page.
+Вона використовується, щоб визначити, чи потрібно перемістити елемент до низу сторінки.
 
 ---
 
-It is used to determine if an element needs to be completely cleared from the page.
+Вона використовується, щоб визначити, чи потрібно повністю очистити елемент зі сторінки.
 
 ---
 
-It is used to determine if an element needs to be fixed to the top of the page.
+Вона використовується, щоб визначити, чи потрібно зафіксувати елемент у верхній частині сторінки.
 
 #### --answer--
 
-It is used to determine if an element needs to be moved below the floated content.
+Вона використовується, щоб визначити, чи потрібно перемістити елемент під плаваючий вміст.
 
 ### --question--
 
 #### --text--
 
-Which CSS property is used to control the vertical stacking order of positioned elements that overlap on the page?
+Яка CSS-властивість використовується для контролю вертикального порядку накладання позиційованих елементів, що перекриваються на сторінці?
 
 #### --distractors--
 
@@ -159,7 +159,7 @@ Which CSS property is used to control the vertical stacking order of positioned 
 
 #### --text--
 
-Which of the following is the correct syntax for relative positioning?
+Який із наведених синтаксисів є правильним для відносного позиціонування?
 
 #### --distractors--
 
@@ -205,7 +205,7 @@ Which of the following is the correct syntax for relative positioning?
 
 #### --text--
 
-Which CSS property would you use to fix an element at a certain position on the page so that it does not move when scrolling occurs?
+Яку CSS-властивість ви б використали, щоб зафіксувати елемент у певній позиції на сторінці, щоб він не рухався при прокручуванні?
 
 #### --distractors--
 
@@ -227,29 +227,29 @@ Which CSS property would you use to fix an element at a certain position on the 
 
 #### --text--
 
-What does absolute positioning do to an element?
+Що робить абсолютне позиціонування з елементом?
 
 #### --distractors--
 
-Absolute positioning is used to determine if an element needs to be moved below the floated content.
+Абсолютне позиціонування використовується, щоб визначити, чи потрібно перемістити елемент під плаваючий вміст.
 
 ---
 
-Absolute positioning is used to position the element within the normal document flow.
+Абсолютне позиціонування використовується для розміщення елемента в межах нормального потоку документа.
 
 ---
 
-Absolute positioning is used to control the vertical stacking order of positioned elements that overlap on the page.
+Абсолютне позиціонування використовується для контролю вертикального порядку накладання позиційованих елементів, що перекриваються на сторінці.
 
 #### --answer--
 
-Absolute positioning allows you to take an element out of the normal document flow, making it behave independently from other elements.
+Абсолютне позиціонування дозволяє вивести елемент із нормального потоку документа, роблячи його незалежним від інших елементів.
 
 ### --question--
 
 #### --text--
 
-Which of the following is NOT a valid property that you can use for absolute positioning?
+Яка з наведених властивостей НЕ є дійсною для абсолютного позиціонування?
 
 #### --distractors--
 
@@ -271,29 +271,29 @@ Which of the following is NOT a valid property that you can use for absolute pos
 
 #### --text--
 
-What is the key difference between relative and absolute positioning?
+Яка ключова різниця між відносним і абсолютним позиціонуванням?
 
 #### --distractors--
 
-Absolute positioning sets the element in a sticky position while relative positioning takes an element out of the normal document flow.
+Абсолютне позиціонування встановлює елемент у липку позицію, тоді як відносне позиціонування виводить елемент із нормального потоку документа.
 
 ---
 
-Relative positioning sets the element in a fixed position while absolute positioning takes an element out of the normal document flow.
+Відносне позиціонування встановлює елемент у фіксовану позицію, тоді як абсолютне позиціонування виводить елемент із нормального потоку документа.
 
 ---
 
-Absolute positioning positions the element within the normal document flow while relative positioning takes an element out of the normal document flow.
+Абсолютне позиціонування розміщує елемент у межах нормального потоку документа, тоді як відносне позиціонування виводить елемент із нормального потоку документа.
 
 #### --answer--
 
-Relative positioning positions the element within the normal document flow while absolute positioning takes an element out of the normal document flow.
+Відносне позиціонування розміщує елемент у межах нормального потоку документа, тоді як абсолютне позиціонування виводить елемент із нормального потоку документа.
 
 ### --question--
 
 #### --text--
 
-Which of the following is an example of positioning a box in the upper left hand corner of the page?
+Який із наведених прикладів позиціонує блок у верхньому лівому куті сторінки?
 
 #### --distractors--
 
@@ -351,29 +351,29 @@ Which of the following is an example of positioning a box in the upper left hand
 
 #### --text--
 
-Which positioning method allows an element to stick to a defined position only when you scroll past a certain point?
+Який метод позиціонування дозволяє елементу «прилипати» до визначеної позиції лише тоді, коли ви прокручуєте сторінку за певну точку?
 
 #### --distractors--
 
-Float positioning.
+Позиціонування з плаванням.
 
 ---
 
-Fixed positioning.
+Фіксоване позиціонування.
 
 ---
 
-Absolute positioning.
+Абсолютне позиціонування.
 
 #### --answer--
 
-Sticky positioning.
+Липке позиціонування.
 
 ### --question--
 
 #### --text--
 
-Which of the following is a correct example of using sticky positioning?
+Який із наведених прикладів є правильним використанням липкого позиціонування?
 
 #### --distractors--
 
@@ -430,51 +430,51 @@ Which of the following is a correct example of using sticky positioning?
 
 #### --text--
 
-What is the difference between sticky and fixed positioning?
+У чому різниця між липким і фіксованим позиціонуванням?
 
 #### --distractors--
 
-Sticky elements can only be used in table layouts while fixed elements can be used in any type of CSS layout.
+Липкі елементи можна використовувати лише в табличних макетах, тоді як фіксовані елементи можна використовувати в будь-якому типі CSS-макету.
 
 ---
 
-Sticky elements will always remain in the same position while fixed elements will stick to a certain point then behave like relative elements.
+Липкі елементи завжди залишаються на одному й тому ж місці, тоді як фіксовані елементи прилипатимуть до певної точки, а потім поводитимуться як відносні елементи.
 
 ---
 
-Fixed elements will be positioned relative to its normal position while sticky elements will only stick to a certain point then behave like relative elements.
+Фіксовані елементи позиціонуються відносно їх нормальної позиції, тоді як липкі елементи прилипатимуть лише до певної точки, а потім поводитимуться як відносні елементи.
 
 #### --answer--
 
-Fixed elements will remain in the same position on the screen while sticky elements will only stick to a certain point then behave like relative elements.
+Фіксовані елементи залишаються на одному й тому ж місці на екрані, тоді як липкі елементи прилипатимуть лише до певної точки, а потім поводитимуться як відносні елементи.
 
 ### --question--
 
 #### --text--
 
-What problem did the `clearfix` hack solve when working with floats?
+Яку проблему вирішив хак `clearfix` при роботі з плаваючими елементами?
 
 #### --distractors--
 
-The `clearfix` hack helped solve the issue of floated elements being removed from the normal document flow and being placed in a fixed position on the page.
+Хак `clearfix` допоміг вирішити проблему того, що плаваючі елементи виводилися з нормального потоку документа і розміщувалися у фіксованій позиції на сторінці.
 
 ---
 
-The `clearfix` hack helped solve the issue of floated elements not being responsive in mobile and tablet layouts.
+Хак `clearfix` допоміг вирішити проблему того, що плаваючі елементи не були адаптивними в мобільних і планшетних макетах.
 
 ---
 
-The `clearfix` hack helped solve the issue of floated elements disappearing from the page.
+Хак `clearfix` допоміг вирішити проблему зникнення плаваючих елементів зі сторінки.
 
 #### --answer--
 
-The `clearfix` hack helped solve the issue of overlaps and collapsing in the layouts when multiple floated elements were stacked next to each other.
+Хак `clearfix` допоміг вирішити проблему накладань і колапсів у макетах, коли кілька плаваючих елементів розташовувалися поруч.
 
 ### --question--
 
 #### --text--
 
-Which of the following is a correct example for using the `clearfix` hack?
+Який із наведених прикладів є правильним використанням хаку `clearfix`?
 
 #### --distractors--
 
@@ -521,29 +521,29 @@ Which of the following is a correct example for using the `clearfix` hack?
 
 #### --text--
 
-What is static positioning?
+Що таке статичне позиціонування?
 
 #### --distractors--
 
-This is used to remove an element from its normal flow on the page and automatically position it in the upper right hand side of the webpage.
+Це використовується, щоб вивести елемент із нормального потоку на сторінці та автоматично розмістити його у верхньому правому куті вебсторінки.
 
 ---
 
-This allows you to take an element out of the normal document flow, making it behave independently from other elements.
+Це дозволяє вивести елемент із нормального потоку документа, роблячи його незалежним від інших елементів.
 
 ---
 
-This allows an element to stick to a defined position only when you scroll past a certain point.
+Це дозволяє елементу «прилипати» до визначеної позиції лише тоді, коли ви прокручуєте сторінку за певну точку.
 
 #### --answer--
 
-This is the normal flow for the document. Elements are positioned from top to bottom and left to right one after another.
+Це нормальний потік документа. Елементи розміщуються зверху вниз і зліва направо один за одним.
 
 ### --question--
 
 #### --text--
 
-Which of the following is an example of setting the navbar to the top of the page using fixed positioning?
+Який із наведених прикладів встановлює панель навігації у верхній частині сторінки за допомогою фіксованого позиціонування?
 
 #### --distractors--
 
@@ -588,7 +588,7 @@ Which of the following is an example of setting the navbar to the top of the pag
 
 #### --text--
 
-Which of the following is a valid value to use for the `z-index` property?
+Яке з наведених значень є дійсним для властивості `z-index`?
 
 #### --distractors--
 
@@ -610,7 +610,7 @@ Which of the following is a valid value to use for the `z-index` property?
 
 #### --text--
 
-Which of the following is the default value of the `position` property?
+Яке значення властивості `position` є за замовчуванням?
 
 #### --distractors--
 
@@ -634,7 +634,7 @@ Which of the following is the default value of the `position` property?
 
 #### --text--
 
-Which `position` value lets you adjust an element's position with `top` and `left` while keeping it within the normal document flow?
+Яке значення `position` дозволяє регулювати позицію елемента за допомогою `top` і `left`, залишаючи його в межах нормального потоку документа?
 
 #### --distractors--
 
@@ -656,29 +656,29 @@ Which `position` value lets you adjust an element's position with `top` and `lef
 
 #### --text--
 
-How does an element with `position: sticky;` initially behave?
+Як початково поводиться елемент із `position: sticky;`?
 
 #### --distractors--
 
-It behaves like a `fixed` element until a scroll position is reached.
+Він поводиться як `fixed` елемент, доки не буде досягнута позиція прокручування.
 
 ---
 
-It is always removed from the normal document flow.
+Він завжди виводиться з нормального потоку документа.
 
 ---
 
-It behaves like an `absolute` element within its parent.
+Він поводиться як `absolute` елемент у межах свого батьківського елемента.
 
 #### --answer--
 
-It behaves like a `relative` element until a specified scroll position is met.
+Він поводиться як `relative` елемент, доки не буде досягнута визначена позиція прокручування.
 
 ### --question--
 
 #### --text--
 
-Which of the following demonstrates a valid and effective use of the `z-index` property to make `.box-two` appear on top of `.box-one`?
+Який із наведених прикладів демонструє дійсне й ефективне використання властивості `z-index`, щоб `.box-two` з’явився поверх `.box-one`?
 
 #### --distractors--
 
@@ -736,51 +736,51 @@ Which of the following demonstrates a valid and effective use of the `z-index` p
 
 #### --text--
 
-What is the `z-index` property used for in CSS?
+Для чого використовується властивість `z-index` у CSS?
 
 #### --distractors--
 
-It sets the zoom level of the page.
+Вона встановлює рівень масштабування сторінки.
 
 ---
 
-It controls the horizontal alignment of elements within a flex container.
+Вона контролює горизонтальне вирівнювання елементів у flex-контейнері.
 
 ---
 
-It defines the spacing between an element's content and its border.
+Вона визначає відступ між вмістом елемента і його кордоном.
 
 #### --answer--
 
-It controls the vertical stacking order of positioned elements that overlap.
+Вона контролює вертикальний порядок накладання позиційованих елементів, що перекриваються.
 
 ### --question--
 
 #### --text--
 
-When you apply `top: 10%;` to an element with `position: fixed;`, what is the `10%` calculated in relation to?
+Коли ви застосовуєте `top: 10%;` до елемента з `position: fixed;`, відносно чого обчислюється `10%`?
 
 #### --distractors--
 
-The height of the element itself.
+Висоти самого елемента.
 
 ---
 
-The height of its parent container.
+Висоти його батьківського контейнера.
 
 ---
 
-The width of the viewport.
+Ширини вікна перегляду.
 
 #### --answer--
 
-The height of the viewport.
+Висоти вікна перегляду.
 
 ### --question--
 
 #### --text--
 
-Which of the code examples is a correct use of the `z-index` property to place an overlay above other content?
+Який із наведених прикладів коду є правильним використанням властивості `z-index` для розміщення накладання поверх іншого вмісту?
 
 #### --distractors--
 
@@ -825,7 +825,7 @@ Which of the code examples is a correct use of the `z-index` property to place a
 
 #### --text--
 
-Which CSS property is used to control whether an element should be moved below floated elements?
+Яка CSS-властивість використовується, щоб контролювати, чи потрібно перемістити елемент під плаваючі елементи?
 
 #### --distractors--
 
@@ -847,73 +847,73 @@ Which CSS property is used to control whether an element should be moved below f
 
 #### --text--
 
-How will an element with `position: relative;` and `bottom: 25px;` be moved?
+Як буде переміщено елемент із `position: relative;` і `bottom: 25px;`?
 
 #### --distractors--
 
-It will move 25px down from its normal position.
+Він переміститься на 25px вниз від своєї нормальної позиції.
 
 ---
 
-It will move 25px to the right of its normal position.
+Він переміститься на 25px вправо від своєї нормальної позиції.
 
 ---
 
-It will be positioned 25px from the bottom of the viewport.
+Він буде позиціонований на 25px від нижньої частини вікна перегляду.
 
 #### --answer--
 
-It will move 25px up from its normal position.
+Він переміститься на 25px вгору від своєї нормальної позиції.
 
 ### --question--
 
 #### --text--
 
-The `z-index` property will only affect elements that have what CSS property applied?
+Властивість `z-index` впливатиме лише на елементи, які мають застосовану яку CSS-властивість?
 
 #### --distractors--
 
-A `float` value other than `none`.
+Значення `float`, відмінне від `none`.
 
 ---
 
-A `display` value of `inline-block`.
+Значення `display` рівне `inline-block`.
 
 ---
 
-A `background-color` set.
+Встановлену множину `background-color`.
 
 #### --answer--
 
-A `position` value other than `static`.
+Значення `position`, відмінне від `static`.
 
 ### --question--
 
 #### --text--
 
-What would be the effect of applying `float: right;` to a logo in a header?
+Який ефект матиме застосування `float: right;` до логотипу в заголовку?
 
 #### --distractors--
 
-The logo would be aligned to the right, but would remain in the normal document flow, preventing other content from wrapping.
+Логотип буде вирівняний праворуч, але залишиться в нормальному потоці документа, не дозволяючи іншому вмісту обтікати його.
 
 ---
 
-The logo would be taken out of the flow and positioned on the right side of the entire browser viewport, not its container.
+Логотип буде виведений із потоку і розміщений праворуч від усього вікна браузера, а не від контейнера.
 
 ---
 
-The logo would become a block-level element that takes up the full width of the header, pushing other elements below it.
+Логотип стане блоковим елементом, що займає всю ширину заголовка, штовхаючи інші елементи вниз.
 
 #### --answer--
 
-The logo would be removed from its normal flow and placed on the right side of its container, with other content wrapping around it.
+Логотип буде виведений із нормального потоку і розміщений праворуч у межах свого контейнера, а інший вміст обтікатиме його.
 
 ### --question--
 
 #### --text--
 
-Which CSS snippet will keep an element fixed to the top of the viewport once it is scrolled to?
+Який CSS-фрагмент збереже елемент зафіксованим у верхній частині вікна перегляду після прокручування до нього?
 
 #### --distractors--
 
@@ -955,29 +955,29 @@ Which CSS snippet will keep an element fixed to the top of the viewport once it 
 
 #### --text--
 
-What is the specific purpose of `clear: both;` in CSS?
+Яка конкретна мета властивості `clear: both;` у CSS?
 
 #### --distractors--
 
-It cancels out the `float` property on the element itself, returning it to the normal document flow.
+Вона скасовує властивість `float` на самому елементі, повертаючи його до нормального потоку документа.
 
 ---
 
-It removes any `clear` properties that were inherited from a parent element, restoring the default floating behavior.
+Вона видаляє будь-які властивості `clear`, успадковані від батьківського елемента, відновлюючи поведінку плаваючого елемента за замовчуванням.
 
 ---
 
-It only clears floated elements that are on the right side, allowing left-floated elements to remain as they are.
+Вона очищає лише плаваючі елементи справа, дозволяючи лівим плаваючим елементам залишатися на місці.
 
 #### --answer--
 
-It ensures the element is moved below any floated elements that appear before it on both the left and right sides.
+Вона гарантує, що елемент буде переміщений під будь-які плаваючі елементи, які з’являються перед ним зліва і справа.
 
 ### --question--
 
 #### --text--
 
-Given the following code, how will `.child` be positioned?
+Як буде позиціонований `.child` у наведеному коді?
 
 ```css
 .parent {
@@ -992,25 +992,25 @@ Given the following code, how will `.child` be positioned?
 
 #### --distractors--
 
-It will be positioned 10px from the top of the `.parent` element, as `absolute` positioning is always relative to the direct parent.
+Він буде позиціонований на 10px від верхньої частини елемента `.parent`, оскільки позиціонування `absolute` завжди відносне до безпосереднього батька.
 
 ---
 
-It will remain in its default static position because the `absolute` value is invalid without a `z-index` property.
+Він залишиться у своїй стандартній статичній позиції, бо значення `absolute` недійсне без властивості `z-index`.
 
 ---
 
-It will be positioned 10px from the top of the browser window, remaining fixed in place even when the user scrolls the page.
+Він буде позиціонований на 10px від верхньої частини вікна браузера, залишаючись зафіксованим навіть при прокручуванні сторінки.
 
 #### --answer--
 
-It will be positioned 10px from the top of the initial containing block, such as the `<body>`, because its parent is not positioned.
+Він буде позиціонований на 10px від верхньої частини ініціального контейнера, наприклад `<body>`, бо його батько не є позиційованим.
 
 ### --question--
 
 #### --text--
 
-What effect will the following CSS have on the `.box` element?
+Який ефект матиме наведений CSS на елемент `.box`?
 
 ```css
 .box {
@@ -1022,25 +1022,25 @@ What effect will the following CSS have on the `.box` element?
 
 #### --distractors--
 
-The element will remain in its normal flow but will be indented by 50px from the top and left, pushing other elements away.
+Елемент залишиться у нормальному потоці, але буде відступлений на 50px зверху і зліва, відштовхуючи інші елементи.
 
 ---
 
-The element will be fixed to the viewport and will stay 50px from the top and 50px from the left, even when the page is scrolled.
+Елемент буде зафіксований у вікні перегляду і залишатиметься на відстані 50px зверху і 50px зліва, навіть при прокручуванні сторінки.
 
 ---
 
-The element will be positioned relative to its own starting point, moving 50px down and 50px to the right without leaving the document flow.
+Елемент буде позиціонований відносно своєї початкової точки, переміщуючись на 50px вниз і 50px вправо, не виходячи з потоку документа.
 
 #### --answer--
 
-The element will be taken out of the normal flow and placed 50px from the top and 50px from the left of its nearest positioned ancestor.
+Елемент буде виведений із нормального потоку і розміщений на відстані 50px зверху і 50px зліва від найближчого позиційованого предка.
 
 ### --question--
 
 #### --text--
 
-Which of the following `position` values removes an element entirely from the document's normal flow?
+Яке з наведених значень `position` повністю виводить елемент із нормального потоку документа?
 
 #### --distractors--
 
@@ -1062,7 +1062,7 @@ Which of the following `position` values removes an element entirely from the do
 
 #### --text--
 
-Given a `.parent` and a `.child` element, which CSS snippet will correctly position the `.child` 20px from the top left corner of the `.parent` element?
+Якщо є `.parent` і `.child` елементи, який CSS-фрагмент правильно позиціонує `.child` на 20px від верхнього лівого кута елемента `.parent`?
 
 #### --distractors--
 
@@ -1120,29 +1120,29 @@ Given a `.parent` and a `.child` element, which CSS snippet will correctly posit
 
 #### --text--
 
-What is the difference between `static` and `relative` positioning?
+У чому різниця між позиціонуванням `static` і `relative`?
 
 #### --distractors--
 
-`static` positioning removes an element from the document flow, while `relative` positioning keeps it in the flow.
+Позиціонування `static` виводить елемент із потоку документа, тоді як `relative` залишає його в потоці.
 
 ---
 
-An element with `position: static;` can be offset with the `top` and `left` properties, while `position: relative;` cannot.
+Елемент із `position: static;` можна зміщувати властивостями `top` і `left`, а `position: relative;` — ні.
 
 ---
 
-`static` positioning is for block-level elements, while `relative` positioning is only intended for inline elements.
+Позиціонування `static` призначене для блокових елементів, а `relative` — лише для рядкових.
 
 #### --answer--
 
-Both keep an element in the normal document flow, but `relative` allows the element to be offset from its original position.
+Обидва залишають елемент у нормальному потоці документа, але `relative` дозволяє зміщувати елемент від його початкової позиції.
 
 ### --question--
 
 #### --text--
 
-Which CSS snippet correctly floats an image to the left, allowing other content to wrap around it?
+Який CSS-фрагмент правильно змушує зображення плавати ліворуч, дозволяючи іншому вмісту обтікати його?
 
 #### --distractors--
 
@@ -1181,29 +1181,29 @@ Which CSS snippet correctly floats an image to the left, allowing other content 
 
 #### --text--
 
-What is the difference between `absolute` and `fixed` positioning?
+У чому різниця між позиціонуванням `absolute` і `fixed`?
 
 #### --distractors--
 
-`absolute` positioning is relative to the viewport, while `fixed` positioning is relative to the nearest positioned ancestor.
+Позиціонування `absolute` відносне до вікна перегляду, а `fixed` — до найближчого позиційованого предка.
 
 ---
 
-`absolute` positioning keeps the element in the normal document flow, while `fixed` positioning removes it from the flow.
+Позиціонування `absolute` залишає елемент у нормальному потоці документа, а `fixed` виводить його з потоку.
 
 ---
 
-Both are positioned relative to the viewport, but `fixed` elements will scroll with the page while `absolute` elements will not.
+Обидва позиціонуються відносно вікна перегляду, але елементи `fixed` прокручуються зі сторінкою, а `absolute` — ні.
 
 #### --answer--
 
-`absolute` positioning is relative to the nearest positioned ancestor, while `fixed` positioning is relative to the browser viewport.
+Позиціонування `absolute` відносне до найближчого позиційованого предка, а `fixed` — відносне до вікна браузера.
 
 ### --question--
 
 #### --text--
 
-Which `position` value places an element in the normal document flow and prevents offset properties like `top` and `left` from having any effect?
+Яке значення `position` розміщує елемент у нормальному потоці документа і забороняє властивостям зміщення, таким як `top` і `left`, впливати на нього?
 
 #### --distractors--
 
@@ -1220,4 +1220,3 @@ Which `position` value places an element in the normal document flow and prevent
 #### --answer--
 
 `position: static;`
-

@@ -1,26 +1,25 @@
 ---
 id: 699eff4a6eefcef5c1d1059a
-title: Task 24
+title: Attività 24
 challengeType: 22
 dashedName: task-24
 lang: es
 ---
-
 <!-- (Audio) Basti: El dominio es q-u-e-t-z-a-l punto g-t. -->
 
 # --description--
 
-The word `dominio` refers to the main part of a web address, usually the section that comes after the `@` in an email or after `www` in a website.
+La parola `dominio` indica la parte principale di un indirizzo web, di solito la sezione che segue `@` in un'email o dopo `www` in un sito web.
 
-It is commonly used when giving or confirming email addresses and URLs. For example:
+Si usa comunemente quando si forniscono o si confermano indirizzi email e URL. Per esempio:
 
-`El dominio es gmail punto com.` – The domain is gmail.com.
+`El dominio es gmail punto com.` – Il dominio è gmail.com.
 
-`¿Cuál es el dominio?` – What is the domain?
+`¿Cuál es el dominio?` – Qual è il dominio?
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Ascolta l'audio e completa la frase qui sotto.
 
 # --fillInTheBlank--
 
@@ -34,13 +33,13 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This noun refers to the main part of a web or email address.
+Questo sostantivo indica la parte principale di un indirizzo web o email.
 
 # --explanation--
 
-`Dominio` is a noun used to name the domain portion of an email address or website.
+`Dominio` è un sostantivo usato per indicare la parte di dominio di un indirizzo email o di un sito web.
 
-It commonly appears when people spell or confirm digital contact information.
+Compare spesso quando le persone compongono o confermano informazioni di contatto digitali.
 
 # --scene--
 

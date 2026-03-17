@@ -1,29 +1,29 @@
 ---
 id: 5f3ef6e0e0c3feaebcf647ad
-title: Step 43
+title: Passaggio 43
 challengeType: 0
 dashedName: step-43
 ---
 
 # --description--
 
-Nella nuova sezione, aggiungi un elemento `h2` con il testo `Desserts`.
+Aggiungi un elemento `h2` nella nuova sezione e dagli il testo `Desserts`.
 
 # --hints--
 
-Non dovresti cambiare l'elemento `section` esistente.
+Non dovresti modificare il tuo elemento `section` esistente.
 
 ```js
 assert.lengthOf(document.querySelectorAll('section'), 2);
 ```
 
-Dovresti aggiungere un elemento `h2` nel secondo elemento `section`.
+Dovresti aggiungere un elemento `h2` nel tuo secondo elemento `section`.
 
 ```js
 assert.strictEqual(document.querySelectorAll('section')?.[1]?.children?.[0]?.tagName, 'H2');
 ```
 
-Il nuovo elemento `h2` dovrebbe avere il testo `Desserts`.
+Il tuo nuovo elemento `h2` dovrebbe avere il testo `Desserts`.
 
 ```js
 assert.match(document.querySelectorAll('h2')?.[1]?.innerText, /Desserts/i);
@@ -67,7 +67,7 @@ assert.match(document.querySelectorAll('h2')?.[1]?.innerText, /Desserts/i);
         </section>
         <section>
 --fcc-editable-region--
-
+          
 --fcc-editable-region--
         </section>
       </main>
@@ -106,4 +106,3 @@ h1, h2, p {
   width: 25%
 }
 ```
-

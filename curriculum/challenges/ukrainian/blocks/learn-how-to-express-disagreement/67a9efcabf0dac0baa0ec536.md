@@ -1,6 +1,6 @@
 ---
 id: 67a9efcabf0dac0baa0ec536
-title: Task 4
+title: Завдання 4
 challengeType: 22
 dashedName: task-4
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Прослухайте аудіо та доповніть речення нижче.
 
 # --fillInTheBlank--
 
@@ -24,13 +24,13 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-Think about what people need to improve their home workspace. This includes desks, chairs, and shelves.
+Подумайте, що людям потрібно, щоб покращити свій домашній робочий простір. Це включає столи, стільці та полиці.
 
 # --explanation--
 
-`Office furniture` refers to desks, chairs, shelves, and other items used in a workspace.
+`Office furniture` означає столи, стільці, полиці та інші предмети, які використовують у робочому просторі.
 
-In this dialogue, Bob is talking about how employees are choosing to spend their remote work stipend. Since working from home requires a comfortable and productive setup, many people use the stipend to buy office furniture such as ergonomic chairs or spacious desks.
+У цьому діалозі Боб розповідає про те, як працівники обирають витратити свій дистанційний робочий бюджет. Оскільки робота з дому потребує комфортного та продуктивного облаштування, багато людей використовують цей бюджет, щоб купити офісні меблі, наприклад ергономічні стільці або просторі столи.
 
 # --scene--
 

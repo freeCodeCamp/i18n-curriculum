@@ -1,6 +1,6 @@
 ---
 id: 697fe3cb32baa3841ab62a63
-title: Object Functions
+title: Функції об’єктів
 challengeType: 11
 videoId: 3Mla2uUDSu8
 dashedName: object-functions-learn-python-full-course-for-beginners
@@ -8,13 +8,13 @@ dashedName: object-functions-learn-python-full-course-for-beginners
 
 # --description--
 
-In this video, you will learn how to work with functions inside of classes.
+У цьому відео ви навчитеся працювати з функціями всередині класів.
 
 # --questions--
 
 ## --text--
 
-Which of the following is the correct way to create a function inside of a class?
+Який із наведених способів є правильним для створення функції всередині класу?
 
 ## --answers--
 

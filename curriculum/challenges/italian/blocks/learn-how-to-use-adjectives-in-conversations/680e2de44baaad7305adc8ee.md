@@ -1,6 +1,6 @@
 ---
 id: 680e2de44baaad7305adc8ee
-title: Task 46
+title: Attività 46
 challengeType: 22
 dashedName: task-46
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Ascolta l'audio e completa la frase qui sotto.
 
 # --fillInTheBlank--
 
@@ -24,13 +24,13 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-These three words together are used to politely ask if a plan or suggestion is acceptable. The first letter of the first word is capitalized.
+Queste tre parole insieme si usano per chiedere cortesemente se un piano o una proposta vanno bene. La prima lettera della prima parola è maiuscola.
 
 # --explanation--
 
-`Does that work` is a polite way to check if a suggestion or arrangement is okay for someone. For example:
+`Does that work` è un modo cortese per verificare se una proposta o un accordo vanno bene per qualcuno. Per esempio:
 
-`We can meet at 3 PM. Does that work for you?` – This asks if the time is good or convenient for the other person.
+`We can meet at 3 PM. Does that work for you?` – Questa frase chiede se l'orario è buono o comodo per l'altra persona.
 
 # --scene--
 

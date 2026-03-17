@@ -1,6 +1,6 @@
 ---
 id: 67c86f54f0b8aa4c3dd5bacd
-title: Task 108
+title: Завдання 108
 challengeType: 22
 dashedName: task-108
 lang: en-US
@@ -10,76 +10,76 @@ lang: en-US
 
 # --description--
 
-This is a review of the entire dialogue you just studied.
+Це повторення всього діалогу, який ви щойно вивчили.
 
 # --instructions--
 
-Write the following words or phrases in the correct spot:
+Напишіть наступні слова або фрази у правильному місці:
 
-`let's get started`, `She works in`, `He's responsible for`, `I'm responsible for`, `We're excited`, and `She and I`.
+`let's get started`, `She works in`, `He's responsible for`, `I'm responsible for`, `We're excited` та `She and I`.
 
 # --fillInTheBlank--
 
 ## --sentence--
 
-`Maria: Welcome, everyone. Today, we have with us our clients from FCC Corporation. David, let me introduce the team and briefly explain what we do. I'm Maria, the lead developer. BLANK the technical aspects of the project. This is Bob, the project manager. BLANK coordinating our efforts to meet your needs.`
+`Maria: Welcome, everyone. Today, we have with us our clients from FCC Corporation. David, let me introduce the team and briefly explain what we do. I'm Maria, the lead developer. BLANK the technical aspects of the project. This is Bob, the project manager. BLANK coordinating our efforts to meet your needs.`  
 
-`David: Hey, Bob. How's it going?`
+`David: Hey, Bob. How's it going?`  
 
-`Maria: This is Sarah, the senior developer. BLANK work together to ensure the project's success.`
+`Maria: This is Sarah, the senior developer. BLANK work together to ensure the project's success.`  
 
-`David: Great to meet you, Sarah.`
+`David: Great to meet you, Sarah.`  
 
-`Maria: And this is Linda, she's our UX/UI designer. BLANK user experience and she creates our interface design.`
+`Maria: And this is Linda, she's our UX/UI designer. BLANK user experience and she creates our interface design.`  
 
-`David: Wonderful to meet you all. I'm David, the project manager from FCC Corp. I'll be your point of contact and I'll make sure our collaboration is great. BLANK about this project. I'm confident that we can achieve great results.`
+`David: Wonderful to meet you all. I'm David, the project manager from FCC Corp. I'll be your point of contact and I'll make sure our collaboration is great. BLANK about this project. I'm confident that we can achieve great results.`  
 
-`Maria: Thanks. Now, BLANK with the project details and your specific requirements, David.`
+`Maria: Thanks. Now, BLANK with the project details and your specific requirements, David.`  
 
 ## --blanks--
 
-`I'm responsible for`
+`I'm responsible for`  
 
 ### --feedback--
 
-This expresses ownership of a duty or task. It begins with a pronoun, followed by a contracted verb, then a preposition indicating duty.
+Це виражає власність обов’язку або завдання. Починається з займенника, за яким іде скорочений дієслово, а потім прийменник, що вказує на обов’язок.  
 
 ---
 
-`He's responsible for`
+`He's responsible for`  
 
 ### --feedback--
 
-This describes someone else's role in a task. It begins with a pronoun, followed by the contraction of `is`, then a preposition indicating duty.
+Це описує роль іншої людини у завданні. Починається з займенника, за яким іде скорочення `is`, а потім прийменник, що вказує на обов’язок.  
 
 ---
 
-`She and I`
+`She and I`  
 
 ### --feedback--
 
-This introduces two people as the subject of the sentence. It begins with the pronoun for a third person female, followed by a conjunction, and then the pronoun referring to oneself.
+Це вводить двох людей як підмет речення. Починається з займенника для третьої особи жіночого роду, за яким іде сполучник, а потім займенник, що вказує на себе.  
 
 ---
 
-`She works in`
+`She works in`  
 
 ### --feedback--
 
-This indicates a person's professional field or area. It begins with a pronoun followed by a verb, and then a preposition showing location or specialization.
+Це вказує на професійну область або сферу діяльності людини. Починається з займенника, за яким іде дієслово, а потім прийменник, що показує місце або спеціалізацію.
 
 ---
 
-`We're excited`
+`We're excited`  
 
 ### --feedback--
 
-This expresses enthusiasm about something. It begins with a pronoun, followed by a contraction of `are`, and then an adjective meaning "thrilled" or "eager".
+Це виражає захоплення чимось. Починається з займенника, за яким іде скорочення `are`, а потім прикметник, що означає «захоплений» або «в захваті».  
 
 ---
 
-`let's get started`
+`let's get started`  
 
 ### --feedback--
 
-This is used to begin an activity. It begins with a contraction of `let us`, followed by a verb, and then the past participle of `start`.
+Це використовується для початку дії. Починається зі скорочення `let us`, за яким іде дієслово, а потім дієприкметник минулого часу `start`.

@@ -1,6 +1,6 @@
 ---
 id: 67ddafcebec26b8e5f46745b
-title: Task 31
+title: Attività 31
 challengeType: 22
 dashedName: task-31
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Ascolta l'audio e completa la frase qui sotto.
 
 # --fillInTheBlank--
 
@@ -24,13 +24,13 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This means in addition to something or other than what has already been mentioned.
+Significa in aggiunta a qualcosa o oltre a ciò che è già stato menzionato.
 
 # --explanation--
 
-`Else` in the expression `anything else` is used to ask if there is something in addition to what has already been said or done. For example:
+`Else` nell'espressione `anything else` si usa per chiedere se c'è qualcosa in aggiunta a ciò che è già stato detto o fatto. Per esempio:
 
-`Would you like anything else with your order?` - Here, you are asking if the other person wants something in addition to what they already asked for.
+`Would you like anything else with your order?` - Qui stai chiedendo se l'altra persona desidera qualcosa oltre a ciò che ha già chiesto.
 
 # --scene--
 

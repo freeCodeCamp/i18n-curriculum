@@ -1,6 +1,6 @@
 ---
 id: 594db4d0dedb4c06a2a4cefd
-title: Babbage problem
+title: задача баббіджа
 challengeType: 1
 forumTopicId: 302229
 dashedName: babbage-problem
@@ -8,30 +8,30 @@ dashedName: babbage-problem
 
 # --description--
 
-Charles Babbage, looking ahead to the sorts of problems his Analytical Engine would be able to solve, gave this example:
+Чарльз Баббідж, передбачаючи типи завдань, які його Аналітична машина зможе розв’язувати, навів такий приклад:
 
 <blockquote>
-  What is the smallest positive integer whose square ends in the digits 269,696?
-  <footer style='margin-left: 2em;'>Babbage, letter to Lord Bowden, 1837; see Hollingdale and Tootill, <i>Electronic Computers</i>, second edition, 1970, p. 125.</footer>
+  Яке найменше додатне ціле число, квадрат якого закінчується цифрами 269,696?
+  <footer style='margin-left: 2em;'>Баббідж, лист до лорда Боудена, 1837; див. Холлінгдейл і Тутілл, <i>Електронні комп’ютери</i>, друге видання, 1970, с. 125.</footer>
 </blockquote>
 
-He thought the answer might be 99,736, whose square is 9,947,269,696; but he couldn't be certain.
+Він вважав, що відповідь може бути 99 736, квадрат якого дорівнює 9 947 269 696; але він не міг бути впевненим.
 
-The task is to find out if Babbage had the right answer.
+Завдання — з’ясувати, чи був Баббідж правий.
 
 # --instructions--
 
-Implement a function to return the lowest integer that satisfies the Babbage problem. If Babbage was right, return Babbage's number.
+Реалізуйте функцію, яка повертає найменше ціле число, що задовольняє задачу Баббіджа. Якщо Баббідж був правий, поверніть число Баббіджа.
 
 # --hints--
 
-`babbage` should be a function.
+`babbage` має бути функцією.
 
 ```js
 assert(typeof babbage === 'function');
 ```
 
-`babbage(99736, 269696)` should not return 99736 (there is a smaller answer).
+`babbage(99736, 269696)` не має повертати 99736 (існує менша відповідь).
 
 ```js
 const babbageAns = 99736;

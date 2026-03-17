@@ -1,6 +1,6 @@
 ---
 id: 67e5a6e34bfc4b5af2c00ddf
-title: Task 51
+title: Attività 51
 challengeType: 22
 dashedName: task-51
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Ascolta l'audio e completa la frase qui sotto.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This means very serious or important. It is often used when something needs immediate attention.
+Significa molto serio o importante. Viene spesso usato quando qualcosa richiede attenzione immediata.
 
 ---
 
@@ -32,17 +32,17 @@ This means very serious or important. It is often used when something needs imme
 
 ### --feedback--
 
-This means to change or influence something. It often describes how one thing causes a change in another.
+Significa cambiare o influenzare qualcosa. Spesso descrive come una cosa provoca un cambiamento in un'altra.
 
 # --explanation--
 
-`Critical` means extremely important or serious. For example:
+`Critical` significa estremamente importante o serio. Per esempio:
 
-`We have a critical deadline tomorrow.` – This means the deadline is very important and cannot be missed.
+`We have a critical deadline tomorrow.` – Questo significa che la scadenza è molto importante e non può essere mancata.
 
-`To affect` means to have an influence on something or cause a change. For example:
+`To affect` significa avere un'influenza su qualcosa o causare un cambiamento. Per esempio:
 
-`The new policy may affect employee performance.` – This means the policy might change how employees perform.
+`The new policy may affect employee performance.` – Questo significa che la politica potrebbe cambiare il modo in cui i dipendenti lavorano.
 
 # --scene--
 

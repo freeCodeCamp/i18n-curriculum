@@ -1,6 +1,6 @@
 ---
 id: 5f1a4ef5d5d6b5ab580fc6ae
-title: Crea un Database di Corpi Celesti
+title: Costruisci un database di corpi celesti
 challengeType: 13
 url: freeCodeCamp/learn-celestial-bodies-database
 dashedName: build-a-celestial-bodies-database
@@ -8,11 +8,11 @@ dashedName: build-a-celestial-bodies-database
 
 # --description--
 
-This is one of the required projects to earn your certification. For this project, you will build a database of celestial bodies using PostgreSQL.
+Questo è uno dei progetti richiesti per ottenere la certificazione. Per questo progetto costruirai un database di corpi celesti usando PostgreSQL.
 
 # --instructions--
 
-**Importante:** Dopo che passi tutti i test, salva un dump del tuo database nel file `universe.sql` così puoi completare lo step 2. Ci saranno istruzioni su come farlo nella macchina virtuale.
+**Importante:** Dopo aver superato tutti i test del progetto, salva un dump del tuo database in un file `universe.sql` così potrai completare il passaggio 2. Troverai le istruzioni su come farlo all'interno della macchina virtuale.
 
 # --notes--
 

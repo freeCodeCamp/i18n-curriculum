@@ -1,6 +1,6 @@
 ---
 id: 679d3cfdaca2eb81f8d81cf7
-title: Task 97
+title: Завдання 97
 challengeType: 19
 dashedName: task-97
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Прослухайте аудіо та дайте відповідь на запитання нижче.
 
 # --questions--
 
 ## --text--
 
-What is Maria asking James to do?
+Що Марія просить Джеймса зробити?
 
 ## --answers--
 
-To fix the problem immediately.
+Відразу виправити проблему.
 
 ### --feedback--
 
-Maria is not asking James to fix the issue right away.
+Марія не просить Джеймса негайно виправляти проблему.
 
 ---
 
-To report the issue to the client.
+Повідомити про проблему клієнту.
 
 ### --feedback--
 
-Maria does not mention informing the client.
+Марія не згадує про інформування клієнта.
 
 ---
 
-To investigate the problem.
+Розслідувати проблему.
 
 ---
 
-To ignore the problem for now.
+Ігнорувати проблему наразі.
 
 ### --feedback--
 
-Maria is not asking James to ignore the issue.
+Марія не просить Джеймса ігнорувати проблему.
 
 ## --video-solution--
 
@@ -52,11 +52,11 @@ Maria is not asking James to ignore the issue.
 
 # --explanation--
 
-`Can` is commonly used to make polite requests, asking someone to do something in an informal way. For example:
+`Can` зазвичай використовується для ввічливих прохань, щоб неформально попросити когось щось зробити. Наприклад:
 
-`Can you send me the report by noon?` - This is a polite way to ask someone to send a report.
+`Can you send me the report by noon?` — це ввічливий спосіб попросити когось надіслати звіт.
 
-In this dialogue, Maria is requesting James to investigate the problem.
+У цьому діалозі Марія просить Джеймса розслідувати проблему.
 
 # --scene--
 

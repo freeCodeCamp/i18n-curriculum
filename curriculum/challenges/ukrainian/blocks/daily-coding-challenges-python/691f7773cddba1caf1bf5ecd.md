@@ -1,34 +1,34 @@
 ---
 id: 691f7773cddba1caf1bf5ecd
-title: "Challenge 134: Traveling Shopper"
+title: "Завдання 134: мандрівний покупець"
 challengeType: 29
 dashedName: challenge-134
 ---
 
 # --description--
 
-Given an amount of money you have, and an array of items you want to buy, determine how many of them you can afford.
+Враховуючи суму грошей, яку ви маєте, та масив елементів, які хочете купити, визначте, скільки з них ви можете собі дозволити.
 
-- The given amount will be in the format `["Amount", "Currency Code"]`. For example: `["150.00", "USD"]` or `["6000", "JPY"]`.
-- Each array item you want to purchase will be in the same format.
+- Задана сума буде у форматі `["Amount", "Currency Code"]`. Наприклад: `["150.00", "USD"]` або `["6000", "JPY"]`.
+- Кожен елемент масиву, який ви хочете придбати, буде у тому ж форматі.
 
-Use the following exchange rates to convert values:
+Використовуйте наведені курси обміну для конвертації значень:
 
-| Currency | 1 Unit Equals |
-| -------- | ------------- |
-| USD      | 1.00 USD      |
-| EUR      | 1.10 USD      |
-| GBP      | 1.25 USD      |
-| JPY      | 0.0070 USD    |
-| CAD      | 0.75 USD      |
+|Валюта|1 одиниця дорівнює|
+|-|-|
+|USD|1.00 USD|
+|EUR|1.10 USD|
+|GBP|1.25 USD|
+|JPY|0.0070 USD|
+|CAD|0.75 USD|
 
-- If you can afford all the items in the list, return `"Buy them all!"`.
-- Otherwise, return `"Buy the first X items."`, where `X` is the number of items you can afford when purchased in the order given.
+- Якщо ви можете дозволити собі всі елементи у списку, поверніть `"Buy them all!"`.
+- Інакше поверніть `"Buy the first X items."`, де `X` — це число елементів, які ви можете собі дозволити, купуючи їх у заданому порядку.
 
 
 # --hints--
 
-`buy_items(["150.00", "USD"], [["50.00", "USD"], ["75.00", "USD"], ["30.00", "USD"]])` should return `"Buy the first 2 items."`.
+`buy_items(["150.00", "USD"], [["50.00", "USD"], ["75.00", "USD"], ["30.00", "USD"]])` має повертати `"Buy the first 2 items."`.
 
 ```js
 ({test: () => { runPython(`
@@ -37,7 +37,7 @@ TestCase().assertEqual(buy_items(["150.00", "USD"], [["50.00", "USD"], ["75.00",
 }})
 ```
 
-`buy_items(["200.00", "EUR"], [["50.00", "USD"], ["50.00", "USD"]])` should return `"Buy them all!"`.
+`buy_items(["200.00", "EUR"], [["50.00", "USD"], ["50.00", "USD"]])` має повертати `"Buy them all!"`.
 
 ```js
 ({test: () => { runPython(`
@@ -46,7 +46,7 @@ TestCase().assertEqual(buy_items(["200.00", "EUR"], [["50.00", "USD"], ["50.00",
 }})
 ```
 
-`buy_items(["100.00", "CAD"], [["20.00", "USD"], ["15.00", "EUR"], ["10.00", "GBP"], ["6000", "JPY"], ["5.00", "CAD"], ["10.00", "USD"]])` should return `"Buy the first 3 items."`.
+`buy_items(["100.00", "CAD"], [["20.00", "USD"], ["15.00", "EUR"], ["10.00", "GBP"], ["6000", "JPY"], ["5.00", "CAD"], ["10.00", "USD"]])` має повертати `"Buy the first 3 items."`.
 
 ```js
 ({test: () => { runPython(`
@@ -55,7 +55,7 @@ TestCase().assertEqual(buy_items(["100.00", "CAD"], [["20.00", "USD"], ["15.00",
 }})
 ```
 
-`buy_items(["5000", "JPY"], [["3.00", "USD"], ["1000", "JPY"], ["5.00", "CAD"], ["2.00", "EUR"], ["4.00", "USD"], ["2000", "JPY"]])` should return `"Buy them all!"`.
+`buy_items(["5000", "JPY"], [["3.00", "USD"], ["1000", "JPY"], ["5.00", "CAD"], ["2.00", "EUR"], ["4.00", "USD"], ["2000", "JPY"]])` має повертати `"Buy them all!"`.
 
 ```js
 ({test: () => { runPython(`
@@ -64,7 +64,7 @@ TestCase().assertEqual(buy_items(["5000", "JPY"], [["3.00", "USD"], ["1000", "JP
 }})
 ```
 
-`buy_items(["200.00", "USD"], [["50.00", "USD"], ["40.00", "EUR"], ["30.00", "GBP"], ["5000", "JPY"], ["25.00", "CAD"], ["20.00", "USD"]])` should return `"Buy the first 5 items."`.
+`buy_items(["200.00", "USD"], [["50.00", "USD"], ["40.00", "EUR"], ["30.00", "GBP"], ["5000", "JPY"], ["25.00", "CAD"], ["20.00", "USD"]])` має повертати `"Buy the first 5 items."`.
 
 ```js
 ({test: () => { runPython(`

@@ -1,6 +1,6 @@
 ---
 id: 699e85648f18cf77dfce5c23
-title: Ellipses
+title: Еліпси
 challengeType: 11
 videoId: AwBM2AMwfu8
 dashedName: ellipses
@@ -8,32 +8,30 @@ dashedName: ellipses
 
 # --description--
 
-In this video, you will learn about ellipses, their standard equations, and how to identify their key features.
+У цьому відео ви дізнаєтеся про еліпси, їхні стандартні рівняння та як визначати їхні ключові функції.
 
 # --questions--
 
 ## --text--
 
-What is an ellipse?
+Що таке еліпс?
 
 ## --answers--
 
-The set of points such that the sum of the distances from two fixed points is constant.
+Множина точок, для яких сума відстаней від двох фіксованих точок є сталою.
 
 ---
 
-The set of points such that the distance from one fixed point is constant.
+Множина точок, для яких відстань від однієї фіксованої точки є сталою.
 
 ---
 
-The set of points such that the product of the distances from two fixed points is constant.
+Множина точок, для яких добуток відстаней від двох фіксованих точок є сталим.
 
 ---
 
-The set of points equidistant from a line and a point.
+Множина точок, що однаково віддалені від прямої та точки.
 
 ## --video-solution--
 
 1
-
-

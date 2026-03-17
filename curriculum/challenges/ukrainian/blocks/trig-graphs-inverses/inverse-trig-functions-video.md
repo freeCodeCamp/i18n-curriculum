@@ -1,6 +1,6 @@
 ---
 id: 699e69ea8f18cf77dfce5c15
-title: Inverse Trig Functions
+title: Обернені тригонометричні функції
 challengeType: 11
 videoId: hlzdIVKJCdA
 dashedName: inverse-trig-functions
@@ -8,32 +8,30 @@ dashedName: inverse-trig-functions
 
 # --description--
 
-In this video, you will learn about inverse trig functions.
+У цьому відео ви дізнаєтеся про обернені тригонометричні функції.
 
 # --questions--
 
 ## --text--
 
-How can you find the graph of an inverse of a function?
+Як можна знайти графік оберненої функції?
 
 ## --answers--
 
-Flipping the graph of the original function across the line `y = x * 2` and then across the line `y = x`.
+Відобразити графік початкової функції відносно лінії $y = 2x$, а потім відносно лінії $y = x$.
 
 ---
 
-Flipping the graph of the original function across the line `y = x` and then across the line `y = -x`.
+Відобразити графік початкової функції відносно лінії $y = x$, а потім відносно лінії $y = -x$.
 
 ---
 
-Flipping the graph of the original function across the line `y = x`.
+Відобразити графік початкової функції відносно лінії $y = x$.
 
 ---
 
-Flipping the graph of the original function across the line `y = -x`.
+Відобразити графік початкової функції відносно лінії $y = -x$.
 
 ## --video-solution--
 
 3
-
-

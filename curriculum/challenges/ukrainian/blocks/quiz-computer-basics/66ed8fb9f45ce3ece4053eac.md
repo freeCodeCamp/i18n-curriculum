@@ -1,13 +1,13 @@
 ---
 id: 66ed8fb9f45ce3ece4053eac
-title: Computer Basics Quiz
+title: Тест з основ комп’ютера
 challengeType: 8
 dashedName: quiz-computer-basics
 ---
 
 # --description--
 
-To pass the quiz, you must correctly answer at least 18 of the 20 questions below.
+Щоб пройти тест, ви повинні правильно відповісти щонайменше на 18 із 20 питань нижче.
 
 # --quizzes--
 
@@ -17,51 +17,51 @@ To pass the quiz, you must correctly answer at least 18 of the 20 questions belo
 
 #### --text--
 
-What part of a computer is used to connect the other internal components together?
+Яка частина комп’ютера використовується для з’єднання інших внутрішніх компонентів?
 
 #### --distractors--
 
-Processor
+Процесор
 
 ---
 
-Graphics card
+Відеокарта
 
 ---
 
-Memory
+Пам’ять
 
 #### --answer--
 
-Motherboard
+Материнська плата
 
 ### --question--
 
 #### --text--
 
-What are browser developer tools?
+Що таке інструменти розробника у браузері?
 
 #### --distractors--
 
-Tools for editing browser settings and managing user profiles.
+Інструменти для редагування налаштувань браузера та керування профілями користувачів.
 
 ---
 
-Utilities for blocking ads and improving web page performance.
+Утиліти для блокування реклами та покращення продуктивності вебсторінок.
 
 ---
 
-Software for managing browser extensions and plug-ins.
+Програмне забезпечення для керування розширеннями та плагінами браузера.
 
 #### --answer--
 
-Built-in features in browsers that help developers debug and inspect websites.
+Вбудовані функції у браузерах, які допомагають розробникам налагоджувати та перевіряти вебсайти.
 
 ### --question--
 
 #### --text--
 
-Which of the following ISP connections are typically the fastest?
+Які з наведених підключень до інтернет-провайдера зазвичай є найшвидшими?
 
 #### --distractors--
 
@@ -69,43 +69,43 @@ DSL
 
 ---
 
-Satellite
+Супутникове
 
 ---
 
-Cable
+Кабельне
 
 #### --answer--
 
-Fiber optic
+Волоконно-оптичне
 
 ### --question--
 
 #### --text--
 
-Which of the following is NOT a safe practice when signing in?
+Що з наведеного НЕ є безпечною практикою при вході в систему?
 
 #### --distractors--
 
-Using a fingerprint or face scanner.
+Використання сканера відбитків пальців або розпізнавання обличчя.
 
 ---
 
-Making a long and complex password like `@ppl3_+B@nana34823`.
+Створення довгого та складного пароля, наприклад `@ppl3_+B@nana34823`.
 
 ---
 
-Setting up two-factor authentication (2FA).
+Налаштування двофакторної автентифікації (2FA).
 
 #### --answer--
 
-Using passwords based on personal information like your birthday.
+Використання паролів на основі особистої інформації, як-от дата народження.
 
 ### --question--
 
 #### --text--
 
-Which of the following is NOT a web browser?
+Що з наведеного НЕ є веббраузером?
 
 #### --distractors--
 
@@ -127,7 +127,7 @@ Google Drive
 
 #### --text--
 
-When you need to edit a piece of code, which of the following are you most likely going to use?
+Коли потрібно редагувати частину коду, що ви, найімовірніше, використаєте?
 
 #### --distractors--
 
@@ -149,7 +149,7 @@ Visual Studio Code
 
 #### --text--
 
-Which of the following is used primarily for managing files stored on a local hard drive?
+Що з наведеного використовується переважно для керування файлами, збереженими на локальному жорсткому диску?
 
 #### --distractors--
 
@@ -165,101 +165,101 @@ Google Drive
 
 #### --answer--
 
-Windows File Explorer
+Провідник Windows
 
 ### --question--
 
 #### --text--
 
-What is NOT a good practice when naming files?
+Що НЕ є гарною практикою при іменуванні файлів?
 
 #### --distractors--
 
-Putting an underscore or hyphen between words.
+Використання підкреслень або дефісів між словами.
 
 ---
 
-Use a casing style such as camelCase and sticking with it.
+Використання стилю регістру, наприклад верблюжого регістру, і дотримання його.
 
 ---
 
-Putting a version number at the end of a document like `summaryReport_v2.docx`.
+Додавання номера версії в кінці документа, наприклад `summaryReport_v2.docx`.
 
 #### --answer--
 
-Using non-descriptive names like `file1.txt`.
+Використання недетальних імен, як-от `file1.txt`.
 
 ### --question--
 
 #### --text--
 
-What does the term "domain name" refer to?
+Що означає термін «доменне ім’я»?
 
 #### --distractors--
 
-A type of software that manages website files and databases.
+Тип програмного забезпечення, що керує файлами вебсайту та базами даних.
 
 ---
 
-The physical location of a web server in a data center.
+Фізичне розташування вебсервера в датацентрі.
 
 ---
 
-None of the other choices.
+Жоден із наведених варіантів.
 
 #### --answer--
 
-The address used to identify websites on the internet.
+Адреса, що використовується для ідентифікації вебсайтів в інтернеті.
 
 ### --question--
 
 #### --text--
 
-Which of the following is a way to send a file to the Recycle Bin/Trash?
+Який із способів можна використати, щоб відправити файл у кошик?
 
 #### --distractors--
 
-All of the other choices.
+Усі інші варіанти.
 
 ---
 
-Pressing the `Backspace` key on the keyboard.
+Натиснути клавішу `Backspace` на клавіатурі.
 
 ---
 
-Moving it to an Archived folder.
+Перемістити його в архівну папку.
 
 #### --answer--
 
-Right-click on it and select the Delete/Move to trash option.
+Клацнути правою кнопкою миші та вибрати опцію Видалити/Перемістити в кошик.
 
 ### --question--
 
 #### --text--
 
-What is a RAM?
+Що таке RAM?
 
 #### --distractors--
 
-A network protocol used for transferring files between devices.
+Мережевий протокол для передачі файлів між пристроями.
 
 ---
 
-A permanent storage device used for saving files and applications.
+Постійний пристрій зберігання для збереження файлів і застосунків.
 
 ---
 
-A component in a computer responsible for generating graphics and rendering images.
+Компонент комп’ютера, відповідальний за генерацію графіки та відтворення зображень.
 
 #### --answer--
 
-A temporary memory for fast data access by the processor.
+Тимчасова пам’ять для швидкого доступу до даних процесором.
 
 ### --question--
 
 #### --text--
 
-What file type will be best suited for writing a `README` file?
+Який тип файлу найкраще підходить для написання `README` файлу?
 
 #### --distractors--
 
@@ -281,143 +281,143 @@ What file type will be best suited for writing a `README` file?
 
 #### --text--
 
-What is an Integrated Development Environment (IDE)?
+Що таке інтегроване середовище розробки (IDE)?
 
 #### --distractors--
 
-A platform designed for deploying and hosting web applications.
+Платформа, призначена для розгортання та хостингу вебзастосунків.
 
 ---
 
-A type of hardware device used for testing and debugging electronic circuits.
+Тип апаратного пристрою для тестування та налагодження електронних схем.
 
 ---
 
-A version control system that helps developers track changes in source code during software development.
+Система контролю версій, що допомагає розробникам відстежувати зміни у вихідному коді під час розробки.
 
 #### --answer--
 
-A program that integrates tools for writing, debugging, and running code.
+Програма, що інтегрує інструменти для написання, налагодження та запуску коду.
 
 ### --question--
 
 #### --text--
 
-What is a piece of software that allows you to look at online content called?
+Як називається програмне забезпечення, яке дозволяє переглядати онлайн-вміст?
 
 #### --distractors--
 
-Internet content displayer
+Відображувач інтернет-вмісту
 
 ---
 
-Search engine
+Пошукова система
 
 ---
 
-Website
+Вебсайт
 
 #### --answer--
 
-Web browser
+Веббраузер
 
 ### --question--
 
 #### --text--
 
-What is a piece of software that lists web pages related to a user's query called?
+Як називається програмне забезпечення, яке перераховує вебсторінки, пов’язані з запитом користувача?
 
 #### --distractors--
 
-Page finder
+Пошукач сторінок
 
 ---
 
-Web browser
+Веббраузер
 
 ---
 
-Website
+Вебсайт
 
 #### --answer--
 
-Search engine
+Пошукова система
 
 ### --question--
 
 #### --text--
 
-What is a set of one or more web pages under one domain name called?
+Як називається множина з однієї або кількох вебсторінок під одним доменним іменем?
 
 #### --distractors--
 
-Web browser
+Веббраузер
 
 ---
 
-Hyperlink
+Гіперпосилання
 
 ---
 
-Search engine
+Пошукова система
 
 #### --answer--
 
-Website
+Вебсайт
 
 ### --question--
 
 #### --text--
 
-To search for an exact phrase, what should you enclose your search query with?
+Щоб шукати точну фразу, чим потрібно взяти свій пошуковий запит?
 
 #### --distractors--
 
-Backticks
+Зворотні лапки
 
 ---
 
-Parentheses
+Круглі дужки
 
 ---
 
-Brackets
+Квадратні дужки
 
 #### --answer--
 
-Quotation marks
+Кавички
 
 ### --question--
 
 #### --text--
 
-Which is NOT a way to install a web browser?
+Що НЕ є способом встановлення веббраузера?
 
 #### --distractors--
 
-Using a package manager.
+Використання менеджера пакетів.
 
 ---
 
-Directly downloading from the website.
+Пряме скачування з вебсайту.
 
 ---
 
-Using an App Store like Microsoft Store.
+Використання магазину застосунків, як-от Microsoft Store.
 
 #### --answer--
 
-Pressing the Network/Internet button in Settings.
+Натиснути кнопку Мережа/Інтернет у налаштуваннях.
 
 ### --question--
 
 #### --text--
 
-Which of the following formats does NOT preserve image quality after compression?
+Який із наведених форматів НЕ зберігає якість зображення після стиснення?
 
 #### --distractors--
 
-All of the other choices.
+Усі інші варіанти.
 
 ---
 
@@ -435,23 +435,23 @@ JPEG
 
 #### --text--
 
-Which of the following parts is located in a socket on the motherboard?
+Яка з наведених частин розташована в роз’ємі на материнській платі?
 
 #### --distractors--
 
-The router
+Маршрутизатор
 
 ---
 
-The keyboard
+Клавіатура
 
 ---
 
-The hard drive (HDD)
+Жорсткий диск (HDD)
 
 #### --answer--
 
-The CPU
+Центральний процесор
 
 ## --quiz--
 
@@ -459,95 +459,95 @@ The CPU
 
 #### --text--
 
-Which of the following is a basic part of the computer?
+Що з наведеного є базовою частиною комп’ютера?
 
 #### --distractors--
 
-The word processor
+Текстовий процесор
 
 ---
 
-The task manager
+Диспетчер завдань
 
 ---
 
-The memory manager
+Менеджер пам’яті
 
 #### --answer--
 
-The central processing unit
+Центральний процесор
 
 ### --question--
 
 #### --text--
 
-What is a pointing device for a computer?
+Що таке вказівний пристрій для комп’ютера?
 
 #### --distractors--
 
-A stick for pointing at computers
+Паличка для вказування на комп’ютери
 
 ---
 
-A retractable device used in PowerPoint presentations
+Висувний пристрій, що використовується у презентаціях PowerPoint
 
 ---
 
-A laser pointer
+Лазерна указка
 
 #### --answer--
 
-A mouse or touchpad
+Миша або тачпад
 
 ### --question--
 
 #### --text--
 
-What is a type of ISP provider?
+Що таке тип провайдера інтернет-послуг (ISP)?
 
 #### --distractors--
 
-Satellite
+Супутниковий
 
 ---
 
-Fiber optic
+Волоконно-оптичний
 
 ---
 
-Dial up
+Діалап
 
 #### --answer--
 
-Tier 1
+Рівень 1 (Tier 1)
 
 ### --question--
 
 #### --text--
 
-What is a best practice when naming files for a web application?
+Яка найкраща практика при іменуванні файлів для вебзастосунку?
 
 #### --distractors--
 
-Using special characters.
+Використання спеціальних символів.
 
 ---
 
-Using spaces to separate the words.
+Використання пробілів для розділення слів.
 
 ---
 
-Using generic words.
+Використання загальних слів.
 
 #### --answer--
 
-Using hyphens instead of spaces.
+Використання дефісів замість пробілів.
 
 ### --question--
 
 #### --text--
 
-Which of the following is a common file type when working with web applications?
+Який із наведених типів файлів є загальним при роботі з вебзастосунками?
 
 #### --distractors--
 
@@ -569,7 +569,7 @@ Which of the following is a common file type when working with web applications?
 
 #### --text--
 
-What is a common file type for a video file?
+Який із наведених типів файлів є загальним для відеофайлів?
 
 #### --distractors--
 
@@ -591,7 +591,7 @@ What is a common file type for a video file?
 
 #### --text--
 
-Which of the following types is commonly used for image files?
+Який із наведених типів файлів зазвичай використовується для зображень?
 
 #### --distractors--
 
@@ -613,7 +613,7 @@ Which of the following types is commonly used for image files?
 
 #### --text--
 
-Microsoft Edge is the default web browser of which operating system?
+Microsoft Edge є браузером за замовчуванням для якої операційної системи?
 
 #### --distractors--
 
@@ -635,29 +635,29 @@ Windows
 
 #### --text--
 
-What is a search engine?
+Що таке пошукова система?
 
 #### --distractors--
 
-A part of the hard drive of a computer.
+Частина жорсткого диска комп’ютера.
 
 ---
 
-Advanced software that is only used by academic researchers.
+Розвинуте програмне забезпечення, яке використовують лише академічні дослідники.
 
 ---
 
-A tool for finding web components.
+Інструмент для пошуку вебкомпонентів.
 
 #### --answer--
 
-A web based tool for searching information on the internet.
+Вебінструмент для пошуку інформації в інтернеті.
 
 ### --question--
 
 #### --text--
 
-Which of the following is NOT a type of browser?
+Що з наведеного НЕ є типом браузера?
 
 #### --distractors--
 
@@ -679,7 +679,7 @@ GitHub
 
 #### --text--
 
-Which of the following is NOT a cloud-based hosting service for repositories?
+Що з наведеного НЕ є хмарним хостингом для репозиторіїв?
 
 #### --distractors--
 
@@ -701,59 +701,59 @@ Ona
 
 #### --text--
 
-Which of the following is not primarily a part of an integrated development environment?
+Що з наведеного не є основною частиною інтегрованого середовища розробки?
 
 #### --distractors--
 
-A tool for writing.
+Інструмент для написання коду.
 
 ---
 
-A tool for testing code.
+Інструмент для тестування коду.
 
 ---
 
-A tool for debugging code.
+Інструмент для налагодження коду.
 
 #### --answer--
 
-A tool for storing code.
+Інструмент для зберігання коду.
 
 ### --question--
 
 #### --text--
 
-What is a best practice for naming files?
+Яка найкраща практика для іменування файлів?
 
 #### --distractors--
 
-Creating a script that uses the same file names for all your projects.
+Створення скрипта, який використовує однакові імена файлів для всіх проєктів.
 
 ---
 
-Naming the main file with the same name as the folder it is in.
+Іменування головного файлу так само, як і папки, в якій він знаходиться.
 
 ---
 
-Using a unique sequence of numbers at the end of the file name.
+Використання унікальної послідовності чисел у кінці імені файлу.
 
 #### --answer--
 
-Using a descriptive name for each file.
+Використання описового імені для кожного файлу.
 
 ### --question--
 
 #### --text--
 
-What is the built-in way you can use to search for files on your computer?
+Який вбудований спосіб можна використати для пошуку файлів на комп’ютері?
 
 #### --distractors--
 
-Google or Firefox
+Google або Firefox
 
 ---
 
-A search engine
+Пошукова система
 
 ---
 
@@ -761,13 +761,13 @@ GitHub
 
 #### --answer--
 
-The file explorer
+Провідник файлів
 
 ### --question--
 
 #### --text--
 
-What is a common search strategy to search for file types?
+Яка загальна стратегія пошуку для пошуку типів файлів?
 
 #### --distractors--
 
@@ -789,7 +789,7 @@ What is a common search strategy to search for file types?
 
 #### --text--
 
-What is the default page for a website?
+Яка сторінка є сторінкою за замовчуванням для вебсайту?
 
 #### --distractors--
 
@@ -811,73 +811,73 @@ What is the default page for a website?
 
 #### --text--
 
-Which file managers can you use to create, move, and delete files?
+Якими файловими менеджерами можна створювати, переміщувати та видаляти файли?
 
 #### --distractors--
 
-Google or Bing
+Google або Bing
 
 ---
 
-Windows or macOS
+Windows або macOS
 
 ---
 
-Findex or Firefox
+Findex або Firefox
 
 #### --answer--
 
-Explorer or Finder
+Explorer або Finder
 
 ### --question--
 
 #### --text--
 
-What is Git?
+Що таке Git?
 
 #### --distractors--
 
-A centralized storage location for code repositories.
+Централізоване сховище для репозиторіїв коду.
 
 ---
 
-A tool for adding, updating, and removing libraries and project dependencies.
+Інструмент для додавання, оновлення та видалення бібліотек і залежностей проєкту.
 
 ---
 
-A cloud-based hosting service for repositories.
+Хмарний хостинг для репозиторіїв.
 
 #### --answer--
 
-A version control system for tracking changes and collaborating with others.
+Система контролю версій для відстеження змін і співпраці з іншими.
 
 ### --question--
 
 #### --text--
 
-What is random access memory?
+Що таке оперативна пам’ять (RAM)?
 
 #### --distractors--
 
-A permanent storage location that is used to store data.
+Постійне сховище для збереження даних.
 
 ---
 
-A volatile way to access data in a sequential manner.
+Нестабільний спосіб послідовного доступу до даних.
 
 ---
 
-A processor used for generating passwords.
+Процесор, що використовується для генерації паролів.
 
 #### --answer--
 
-A temporary storage location for the computer's central processing unit.
+Тимчасове сховище для центрального процесора комп’ютера.
 
 ### --question--
 
 #### --text--
 
-Which file format is used to compress files?
+Який формат файлу використовується для стиснення файлів?
 
 #### --distractors--
 
@@ -894,4 +894,3 @@ Which file format is used to compress files?
 #### --answer--
 
 `ZIP`
-

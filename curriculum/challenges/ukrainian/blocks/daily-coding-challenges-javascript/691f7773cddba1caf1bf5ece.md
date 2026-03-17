@@ -1,49 +1,49 @@
 ---
 id: 691f7773cddba1caf1bf5ece
-title: "Challenge 135: Re: Fwd: Fw: Count"
+title: "Завдання 135: Re: Fwd: Fw: підрахунок"
 challengeType: 28
 dashedName: challenge-135
 ---
 
 # --description--
 
-Given a string representing the subject line of an email, determine how many times the email has been forwarded or replied to.
+Дано рядок, що представляє тему листа електронної пошти. Визначте, скільки разів цей лист було переслано або на нього відповіли.
 
-For simplicity, consider an email forwarded or replied to if the string contains any of the following markers (case-insensitive):
+Для спрощення вважайте, що лист переслано або на нього відповіли, якщо рядок містить будь-який із наступних маркерів (без урахування регістру):
 
 - `"fw:"`
 - `"fwd:"`
 - `"re:"`
 
-Return the total number of occurrences of these markers.
+Поверніть загальну кількість появ цих маркерів.
 
 # --hints--
 
-`emailChainCount("Re: Meeting Notes")` should return `1`.
+`emailChainCount("Re: Meeting Notes")` має повернути `1`.
 
 ```js
 assert.equal(emailChainCount("Re: Meeting Notes"), 1);
 ```
 
-`emailChainCount("Meeting Notes")` should return `0`.
+`emailChainCount("Meeting Notes")` має повернути `0`.
 
 ```js
 assert.equal(emailChainCount("Meeting Notes"), 0);
 ```
 
-`emailChainCount("Re: re: RE: rE: Meeting Notes")` should return `4`.
+`emailChainCount("Re: re: RE: rE: Meeting Notes")` має повернути `4`.
 
 ```js
 assert.equal(emailChainCount("Re: re: RE: rE: Meeting Notes"), 4);
 ```
 
-`emailChainCount("Re: Fwd: Re: Fw: Re: Meeting Notes")` should return `5`.
+`emailChainCount("Re: Fwd: Re: Fw: Re: Meeting Notes")` має повернути `5`.
 
 ```js
 assert.equal(emailChainCount("Re: Fwd: Re: Fw: Re: Meeting Notes"), 5);
 ```
 
-`emailChainCount("re:Ref:fw:re:review:FW:Re:fw:report:Re:FW:followup:re:summary:Fwd:Re:fw:NextStep:RE:FW:re:Project:Fwd:Re:fw:Notes:RE:re:Update:FWD:Re:fw:Summary")` should return `23`.
+`emailChainCount("re:Ref:fw:re:review:FW:Re:fw:report:Re:FW:followup:re:summary:Fwd:Re:fw:NextStep:RE:FW:re:Project:Fwd:Re:fw:Notes:RE:re:Update:FWD:Re:fw:Summary")` має повернути `23`.
 
 ```js
 assert.equal(emailChainCount("re:Ref:fw:re:review:FW:Re:fw:report:Re:FW:followup:re:summary:Fwd:Re:fw:NextStep:RE:FW:re:Project:Fwd:Re:fw:Notes:RE:re:Update:FWD:Re:fw:Summary"), 23);

@@ -1,13 +1,13 @@
 ---
 id: 66ed8fc9f45ce3ece4053eae
-title: CSS Animations Quiz
+title: Тест з CSS анімацій
 challengeType: 8
 dashedName: quiz-css-animations
 ---
 
 # --description--
 
-To pass the quiz, you must correctly answer at least 18 of the 20 questions below.
+Щоб пройти тест, потрібно правильно відповісти щонайменше на 18 із 20 питань нижче.
 
 # --quizzes--
 
@@ -17,51 +17,51 @@ To pass the quiz, you must correctly answer at least 18 of the 20 questions belo
 
 #### --text--
 
-What is the purpose of the `transform` property in CSS?
+Яка мета властивості `transform` у CSS?
 
 #### --distractors--
 
-To change the visibility of an element.
+Змінити видимість елемента.
 
 ---
 
-To apply a visual effect to text.
+Застосувати візуальний ефект до тексту.
 
 ---
 
-To set the dimensions of an element.
+Встановити розміри елемента.
 
 #### --answer--
 
-To modify the position, size, and shape of an element.
+Змінити положення, розмір і форму елемента.
 
 ### --question--
 
 #### --text--
 
-How does the CSS `animation-direction` property affect an animation?
+Як властивість CSS `animation-direction` впливає на анімацію?
 
 #### --distractors--
 
-It specifies if an animation should be repeated.
+Визначає, чи має анімація повторюватися.
 
 ---
 
-It sets the duration of the animation.
+Встановлює тривалість анімації.
 
 ---
 
-It defines the speed of the animation.
+Визначає швидкість анімації.
 
 #### --answer--
 
-It defines how an animation should play.
+Визначає, як має відтворюватися анімація.
 
 ### --question--
 
 #### --text--
 
-Which CSS property makes an animation run 3 times?
+Яка CSS властивість змушує анімацію виконатися 3 рази?
 
 #### --distractors--
 
@@ -83,7 +83,7 @@ Which CSS property makes an animation run 3 times?
 
 #### --text--
 
-Which CSS timing function makes an animation run at a consistent speed from start to end?
+Яка функція часу CSS забезпечує рівномірну швидкість анімації від початку до кінця?
 
 #### --distractors--
 
@@ -105,95 +105,95 @@ Which CSS timing function makes an animation run at a consistent speed from star
 
 #### --text--
 
-What does the `@keyframes` at-rule define in CSS?
+Що визначає директива `@keyframes` у CSS?
 
 #### --distractors--
 
-The colors of a CSS gradient.
+Кольори CSS градієнта.
 
 ---
 
-The angles of a CSS rotation.
+Кути повороту CSS.
 
 ---
 
-The dimensions of an element.
+Розміри елемента.
 
 #### --answer--
 
-The stages of a CSS animation.
+Етапи CSS анімації.
 
 ### --question--
 
 #### --text--
 
-What is the purpose of the `translateX()` function in CSS?
+Яка мета функції `translateX()` у CSS?
 
 #### --distractors--
 
-It changes the opacity of the element.
+Змінює прозорість елемента.
 
 ---
 
-It rotates the element.
+Повертає елемент.
 
 ---
 
-It repositions the element vertically.
+Вертикально переміщує елемент.
 
 #### --answer--
 
-It repositions the element horizontally.
+Горизонтально переміщує елемент.
 
 ### --question--
 
 #### --text--
 
-Which of the following is NOT a potential concern with CSS animations?
+Що з наведеного НЕ є потенційною проблемою CSS анімацій?
 
 #### --distractors--
 
-They may cause discomfort or physical harm to certain users.
+Вони можуть викликати дискомфорт або фізичну шкоду деяким користувачам.
 
 ---
 
-Users may find them distracting.
+Користувачі можуть вважати їх відволікаючими.
 
 ---
 
-Overuse can lead to poor performance.
+Надмірне використання може призвести до поганої продуктивності.
 
 #### --answer--
 
-They can enhance user experience.
+Вони можуть покращити користувацький досвід.
 
 ### --question--
 
 #### --text--
 
-Where is the `@keyframes` at-rule defined?
+Де визначена директива `@keyframes`?
 
 #### --distractors--
 
-Within the `body` element of an HTML file.
+У межах елемента `body` HTML-файлу.
 
 ---
 
-Within the `head` element of an HTML file.
+У межах елемента `head` HTML-файлу.
 
 ---
 
-Within a CSS class definition.
+У визначенні CSS класу.
 
 #### --answer--
 
-At the top level, outside of any CSS selectors.
+На верхньому рівні, поза межами будь-яких CSS селекторів.
 
 ### --question--
 
 #### --text--
 
-Which CSS property allows you to pause and resume an animation?
+Яка CSS властивість дозволяє призупинити та відновити анімацію?
 
 #### --distractors--
 
@@ -215,29 +215,29 @@ Which CSS property allows you to pause and resume an animation?
 
 #### --text--
 
-What value should be assigned to the `animation-name` property in CSS?
+Яке значення слід призначити властивості `animation-name` у CSS?
 
 #### --distractors--
 
-The duration of the animation in seconds.
+Тривалість анімації в секундах.
 
 ---
 
-The timing function used for the animation.
+Функція часу, що використовується для анімації.
 
 ---
 
-The delay before the animation starts in seconds.
+Затримка перед початком анімації в секундах.
 
 #### --answer--
 
-The name of the animation defined by the `@keyframes`.
+Назва анімації, визначена директивою `@keyframes`.
 
 ### --question--
 
 #### --text--
 
-What does this `@keyframe` at-rule do to the animated element?
+Що робить директива `@keyframe` з анімованим елементом?
 
 ```css
 @keyframes animation {
@@ -252,25 +252,25 @@ What does this `@keyframe` at-rule do to the animated element?
 
 #### --distractors--
 
-It rotates the element 90 degrees clockwise.
+Повертає елемент на 90 градусів за годинниковою стрілкою.
 
 ---
 
-It changes the color of the element to blue.
+Змінює колір елемента на синій.
 
 ---
 
-It scales the element to 50% of its initial size and then to 100% of its initial size.
+Масштабує елемент до 50% від початкового розміру, а потім до 100%.
 
 #### --answer--
 
-It moves the element horizontally from -50px to 100px, relative to its starting point.
+Переміщує елемент горизонтально з -50px до 100px відносно початкової точки.
 
 ### --question--
 
 #### --text--
 
-Which CSS property defines how an animation progresses over time?
+Яка CSS властивість визначає, як анімація прогресує з часом?
 
 #### --distractors--
 
@@ -292,7 +292,7 @@ Which CSS property defines how an animation progresses over time?
 
 #### --text--
 
-Which CSS property is used to specify that an animation should take 5 seconds to complete?
+Яка CSS властивість використовується, щоб вказати, що анімація має тривати 5 секунд?
 
 #### --distractors--
 
@@ -322,7 +322,7 @@ animation-duration: 5s;
 
 #### --text--
 
-What does `50%` represent in the following CSS `@keyframe` at-rule?
+Що означає `50%` у наступній директиві CSS `@keyframe`?
 
 ```css
 @keyframes animation {
@@ -340,69 +340,69 @@ What does `50%` represent in the following CSS `@keyframe` at-rule?
 
 #### --distractors--
 
-The starting point of the animation.
+Початкова точка анімації.
 
 ---
 
-The ending point of the animation.
+Кінцева точка анімації.
 
 ---
 
-The speed of the animation.
+Швидкість анімації.
 
 #### --answer--
 
-The halfway point of the animation.
+Середина анімації.
 
 ### --question--
 
 #### --text--
 
-What will happen when the property `transform: translateX(200px);` is applied?
+Що станеться, якщо застосувати властивість `transform: translateX(200px);`?
 
 #### --distractors--
 
-The element will move 200px to the left.
+Елемент переміститься на 200px вліво.
 
 ---
 
-The element will move 200px to the bottom.
+Елемент переміститься на 200px вниз.
 
 ---
 
-The element will rotate 200 degrees clockwise.
+Елемент повернеться на 200 градусів за годинниковою стрілкою.
 
 #### --answer--
 
-The element will move 200px to the right.
+Елемент переміститься на 200px вправо.
 
 ### --question--
 
 #### --text--
 
-How will the animation behave if `animation-iteration-count` is set to `infinite`?
+Як поводитиметься анімація, якщо `animation-iteration-count` встановлено в `infinite`?
 
 #### --distractors--
 
-It will run once and stop.
+Відтвориться один раз і зупиниться.
 
 ---
 
-It will pause after the first iteration.
+Призупиниться після першої ітерації.
 
 ---
 
-It will stop after three iterations.
+Зупиниться після трьох ітерацій.
 
 #### --answer--
 
-It will repeat indefinitely.
+Повторюватиметься безкінечно.
 
 ### --question--
 
 #### --text--
 
-Which `@keyframes` selector specifies the starting point of an animation?
+Який селектор `@keyframes` визначає початкову точку анімації?
 
 #### --distractors--
 
@@ -424,29 +424,29 @@ Which `@keyframes` selector specifies the starting point of an animation?
 
 #### --text--
 
-What properties can be specified using the `animation` shorthand CSS property?
+Які властивості можна вказати за допомогою скороченої CSS властивості `animation`?
 
 #### --distractors--
 
-Only the name of the animation.
+Тільки назву анімації.
 
 ---
 
-The name and duration of the animation.
+Назву та тривалість анімації.
 
 ---
 
-The name, duration, and delay of the animation.
+Назву, тривалість і затримку анімації.
 
 #### --answer--
 
-All animation properties.
+Усі властивості анімації.
 
 ### --question--
 
 #### --text--
 
-Which CSS property is used to apply an animation defined by an `@keyframes` at-rule?
+Яка CSS властивість використовується для застосування анімації, визначеної директивою `@keyframes`?
 
 #### --distractors--
 
@@ -468,7 +468,7 @@ Which CSS property is used to apply an animation defined by an `@keyframes` at-r
 
 #### --text--
 
-Which CSS property allows you to set a time before the animation begins?
+Яка CSS властивість дозволяє встановити час перед початком анімації?
 
 #### --distractors--
 
@@ -492,29 +492,29 @@ Which CSS property allows you to set a time before the animation begins?
 
 #### --text--
 
-What does the CSS `animation-delay` property do?
+Що робить властивість CSS `animation-delay`?
 
 #### --distractors--
 
-Sets how long the animation lasts.
+Встановлює тривалість анімації.
 
 ---
 
-Specifies the timing function.
+Визначає функцію часу.
 
 ---
 
-Defines animation direction.
+Визначає напрямок анімації.
 
 #### --answer--
 
-Delays the start of the animation.
+Затримує початок анімації.
 
 ### --question--
 
 #### --text--
 
-Which animation property specifies how the element should be styled before and after the animation?
+Яка властивість анімації визначає, як елемент має стилізуватися до і після анімації?
 
 #### --distractors--
 
@@ -536,29 +536,29 @@ Which animation property specifies how the element should be styled before and a
 
 #### --text--
 
-Why should CSS animations be used in moderation?
+Чому слід використовувати CSS анімації помірковано?
 
 #### --distractors--
 
-Too many CSS animations can lead to styles breaking as well as inconsistent styles across different browsers.
+Занадто багато CSS анімацій може призвести до порушення стилів і непослідовності між браузерами.
 
 ---
 
-Too many CSS animations can lead to lower or non existent rankings in search engine results.
+Занадто багато CSS анімацій може знизити або взагалі позбавити рейтингів у пошукових системах.
 
 ---
 
-Too many CSS animations will automatically crash the server and increase the likelihood for security risks.
+Занадто багато CSS анімацій автоматично викликає збій сервера і підвищує ризики безпеки.
 
 #### --answer--
 
-Too many CSS animations can lead to poor performance and may be distracting or problematic for users with certain accessibility needs.
+Занадто багато CSS анімацій може погіршити продуктивність і бути відволікаючими або проблемними для користувачів з певними потребами доступності.
 
 ### --question--
 
 #### --text--
 
-Which animation property determines whether the animation should play forwards, backwards, or alternate?
+Яка властивість анімації визначає, чи анімація відтворюється вперед, назад або по черзі?
 
 #### --distractors--
 
@@ -580,7 +580,7 @@ Which animation property determines whether the animation should play forwards, 
 
 #### --text--
 
-Which CSS media query detects if the user has requested minimal animations or motion effects?
+Який CSS медіазапит визначає, чи користувач запросив мінімальні анімації або ефекти руху?
 
 #### --distractors--
 
@@ -602,7 +602,7 @@ Which CSS media query detects if the user has requested minimal animations or mo
 
 #### --text--
 
-Which property sets how many times an `animation` repeats?
+Яка властивість встановлює, скільки разів повторюється `animation`?
 
 #### --distractors--
 
@@ -624,7 +624,7 @@ Which property sets how many times an `animation` repeats?
 
 #### --text--
 
-Which CSS rule is used to define the stages and styles of an animation at various points during its duration?
+Яке CSS правило використовується для визначення етапів і стилів анімації у різні моменти її тривалості?
 
 #### --distractors--
 
@@ -646,7 +646,7 @@ Which CSS rule is used to define the stages and styles of an animation at variou
 
 #### --text--
 
-Inside the `reduced‑motion` media query, which declaration disables transitions?
+У межах медіазапиту `reduced‑motion`, яке оголошення вимикає переходи?
 
 #### --distractors--
 
@@ -668,95 +668,95 @@ Inside the `reduced‑motion` media query, which declaration disables transition
 
 #### --text--
 
-What does the `animation-play-state` property allow you to do?
+Що дозволяє робити властивість `animation-play-state`?
 
 #### --distractors--
 
-Set how many times the animation repeats.
+Встановлювати, скільки разів повторюється анімація.
 
 ---
 
-Specify how long the animation takes to complete.
+Вказувати, скільки часу триває анімація.
 
 ---
 
-Determine the direction in which the animation plays.
+Визначати напрямок відтворення анімації.
 
 #### --answer--
 
-Pause and resume the animation.
+Призупиняти та відновлювати анімацію.
 
 ### --question--
 
 #### --text--
 
-Which of the following is a good practice when working with animations?
+Яка з наведених практик є правильною при роботі з анімаціями?
 
 #### --distractors--
 
-Use as many flashing colors and rapid movements as possible to grab attention.
+Використовувати якомога більше миготливих кольорів і швидких рухів для привернення уваги.
 
 ---
 
-Avoid testing animations on different devices or screen sizes.
+Уникати тестування анімацій на різних пристроях або розмірах екранів.
 
 ---
 
-Make animations last as long as possible to ensure users notice them.
+Робити анімації максимально довгими, щоб користувачі їх помітили.
 
 #### --answer--
 
-Avoid content that flashes more than three times per second to prevent triggering seizures or causing discomfort.
+Уникати вмісту, що миготить більше трьох разів на секунду, щоб запобігти судомам або дискомфорту.
 
 ### --question--
 
 #### --text--
 
-Why is the `!important` declaration used in the CSS rules?
+Чому в CSS правилах використовується оголошення `!important`?
 
 #### --distractors--
 
-To prevent other media queries from loading.
+Щоб запобігти завантаженню інших медіазапитів.
 
 ---
 
-To limit styles to the first child element.
+Щоб обмежити стилі до першого дочірнього елемента.
 
 ---
 
-To debug CSS more easily.
+Щоб легше налагоджувати CSS.
 
 #### --answer--
 
-To ensure these rules take precedence over other styles.
+Щоб гарантувати пріоритетність цих правил над іншими стилями.
 
 ### --question--
 
 #### --text--
 
-What does `animation-iteration-count: 1 !important;` ensure in CSS?
+Що гарантує `animation-iteration-count: 1 !important;` у CSS?
 
 #### --distractors--
 
-That animations are paused.
+Що анімації призупинені.
 
 ---
 
-That animations run infinitely.
+Що анімації відтворюються безкінечно.
 
 ---
 
-That animations reverse direction each cycle.
+Що анімації змінюють напрямок кожного циклу.
 
 #### --answer--
 
-That any looping animations only play once.
+Що будь-які циклічні анімації відтворюються лише один раз.
 
 ### --question--
 
 #### --text--
 
-What CSS property is used to specify how long an animation should take to complete?
+Яка CSS властивість використовується, щоб вказати, скільки часу має тривати анімація?
 
 #### --distractors--
 
@@ -778,7 +778,7 @@ What CSS property is used to specify how long an animation should take to comple
 
 #### --text--
 
-Which property is NOT part of the `animation` shorthand?
+Яка властивість НЕ входить до скороченої властивості `animation`?
 
 #### --distractors--
 
@@ -800,29 +800,29 @@ Which property is NOT part of the `animation` shorthand?
 
 #### --text--
 
-What does the `@keyframes` rule define?
+Що визначає правило `@keyframes`?
 
 #### --distractors--
 
-The timing function of an animation.
+Функцію часу анімації.
 
 ---
 
-The default state of an element.
+Початковий стан елемента.
 
 ---
 
-The media queries for animations.
+Медіазапити для анімацій.
 
 #### --answer--
 
-The sequence of styles at different points in an animation.
+Послідовність стилів у різні моменти анімації.
 
 ### --question--
 
 #### --text--
 
-What does this `@keyframe` at-rule do to the animated element?
+Що робить директива `@keyframe` з анімованим елементом?
 
 ```css
 @keyframes fade-in {
@@ -837,47 +837,47 @@ What does this `@keyframe` at-rule do to the animated element?
 
 #### --distractors--
 
-It scales the element up from 0% to 100%.
+Масштабує елемент від 0% до 100%.
 
 ---
 
-It moves the element from left to right.
+Переміщує елемент зліва направо.
 
 ---
 
-It changes the text color to black.
+Змінює колір тексту на чорний.
 
 #### --answer--
 
-It makes the element fade in by gradually decreasing its transparency.
+Забезпечує поступове появлення елемента за рахунок зменшення прозорості.
 
 ### --question--
 
 #### --text--
 
-In a keyframes rule, what does `100%` represent?
+У правилі keyframes, що означає `100%`?
 
 #### --distractors--
 
-The start of the animation.
+Початок анімації.
 
 ---
 
-The halfway point.
+Середина анімації.
 
 ---
 
-The easing function.
+Функція згладжування.
 
 #### --answer--
 
-The end of the animation.
+Кінець анімації.
 
 ### --question--
 
 #### --text--
 
-Which property controls the pace of an `animation` over its duration?
+Яка властивість контролює темп `animation` протягом її тривалості?
 
 #### --distractors--
 
@@ -899,29 +899,29 @@ Which property controls the pace of an `animation` over its duration?
 
 #### --text--
 
-What should developers consider when implementing animations to maintain accessibility?
+Що мають враховувати розробники при реалізації анімацій для збереження доступності?
 
 #### --distractors--
 
-Rely entirely on JavaScript for all animations.
+Повністю покладатися на JavaScript для всіх анімацій.
 
 ---
 
-Add frequent and intense animations for impact.
+Додавати часті та інтенсивні анімації для ефекту.
 
 ---
 
-Include only bold, fast, and surprising effects.
+Використовувати лише жирні, швидкі та несподівані ефекти.
 
 #### --answer--
 
-Use subtle, intentional effects, honor preferences, and offer user control.
+Використовувати тонкі, продумані ефекти, поважати уподобання користувачів і надавати їм контроль.
 
 ### --question--
 
 #### --text--
 
-Which of the following is the correct syntax to slide an element in from the left?
+Який із наведених синтаксисів є правильним для плавного появлення елемента зліва?
 
 #### --distractors--
 

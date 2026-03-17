@@ -1,13 +1,13 @@
 ---
 id: 66ed8fd0f45ce3ece4053eaf
-title: Тест «Селектори атрибутів у CSS»
+title: Тест на селектори атрибутів CSS
 challengeType: 8
 dashedName: quiz-css-attribute-selectors
 ---
 
 # --description--
 
-To pass the quiz, you must correctly answer at least 9 of the 10 questions below.
+Щоб пройти тест, ви повинні правильно відповісти щонайменше на 9 із 10 питань нижче.
 
 # --quizzes--
 
@@ -17,29 +17,29 @@ To pass the quiz, you must correctly answer at least 9 of the 10 questions below
 
 #### --text--
 
-What are CSS attribute selectors used for?
+Для чого використовують селектори атрибутів CSS?
 
 #### --distractors--
 
-To apply styles to elements based on their tag name.
+Щоб застосувати стилі до елементів на основі їхнього імені тегу.
 
 ---
 
-To apply styles to elements based on their class name.
+Щоб застосувати стилі до елементів на основі їхнього імені класу.
 
 ---
 
-To apply styles to elements based on their parent element.
+Щоб застосувати стилі до елементів на основі їхнього батьківського елемента.
 
 #### --answer--
 
-To apply styles to elements based on their attributes.
+Щоб застосувати стилі до елементів на основі їхніх атрибутів.
 
 ### --question--
 
 #### --text--
 
-Which of the following will NOT be selected by this CSS selector?
+Що з наведеного НЕ буде вибране цим селектором CSS?
 
 ```css
 [title~="flower"] {
@@ -75,7 +75,7 @@ Which of the following will NOT be selected by this CSS selector?
 
 #### --text--
 
-Which CSS selector matches all `p` elements with a `lang` attribute set to `"fr"`?
+Який селектор CSS відповідає всім `p` елементам з атрибутом `lang`, встановленим у `"fr"`?
 
 #### --distractors--
 
@@ -105,7 +105,7 @@ p[lang="fr"] { color: blue; }
 
 #### --text--
 
-Which CSS selector matches all `a` elements with an `href` attribute?
+Який селектор CSS відповідає всім `a` елементам з атрибутом `href`?
 
 #### --distractors--
 
@@ -135,7 +135,7 @@ a[href] { color: blue; }
 
 #### --text--
 
-Which CSS selector matches all ordered lists with uppercase Roman numerals?
+Який селектор CSS відповідає всім впорядкованим спискам з римськими цифрами у верхньому регістрі?
 
 #### --distractors--
 
@@ -165,29 +165,29 @@ ol[type="I"] { border-color: black; }
 
 #### --text--
 
-What is the `data-lang` attribute commonly used for?
+Для чого зазвичай використовується атрибут `data-lang`?
 
 #### --distractors--
 
-To specify the language of the document.
+Щоб вказати мову документа.
 
 ---
 
-To define the character encoding of the document.
+Щоб визначити кодування символів документа.
 
 ---
 
-To set the language of an element based on its parent element.
+Щоб встановити мову елемента на основі його батьківського елемента.
 
 #### --answer--
 
-To apply styles to elements based on this custom data attribute.
+Щоб застосувати стилі до елементів на основі цього кастомного атрибута даних.
 
 ### --question--
 
 #### --text--
 
-Which CSS selector should you use to style `img` elements only if their `alt` attribute is equal to `"code"`?
+Який селектор CSS слід використовувати, щоб стилізувати `img` елементи лише якщо їхній атрибут `alt` дорівнює `"code"`?
 
 #### --distractors--
 
@@ -217,7 +217,7 @@ img[alt="code"] { border: 1px solid red; }
 
 #### --text--
 
-Which CSS selector matches ordered lists with a numerical numbering type?
+Який селектор CSS відповідає впорядкованим спискам з числовим типом нумерації?
 
 #### --distractors--
 
@@ -247,7 +247,7 @@ ol[type="1"] { color: purple; }
 
 #### --text--
 
-Which of the following CSS selectors would you use to style `a` elements with both `href` and `title` attributes?
+Який із наведених селекторів CSS ви б використали, щоб стилізувати `a` елементи з атрибутами `href` та `title` одночасно?
 
 #### --distractors--
 
@@ -277,7 +277,7 @@ a[href][title] { text-decoration: underline dotted; }
 
 #### --text--
 
-Which CSS selector would you use if you are developing a website for a restaurant and want to style all elements with the `menu-item` class that have a `data-special` attribute?
+Який селектор CSS ви б використали, якщо розробляєте сайт для ресторану і хочете стилізувати всі елементи з класом `menu-item`, які мають атрибут `data-special`?
 
 #### --distractors--
 
@@ -302,4 +302,3 @@ menu-item[data-special] { background-color: blue; }
 ```css
 .menu-item[data-special] { background-color: blue; }
 ```
-

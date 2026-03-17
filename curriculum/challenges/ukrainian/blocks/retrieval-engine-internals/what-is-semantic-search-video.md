@@ -1,6 +1,6 @@
 ---
 id: 69ae69fbb4a814be6a4f2bdc
-title: What is Semantic Search?
+title: Що таке семантичний пошук?
 challengeType: 11
 videoId: 1OxzFbEES_g
 dashedName: what-is-semantic-search
@@ -8,31 +8,30 @@ dashedName: what-is-semantic-search
 
 # --description--
 
-In this video, you will learn about semantic search.
+У цьому відео ви дізнаєтеся про семантичний пошук.
 
 # --questions--
 
 ## --text--
 
-What is semantic search?
+Що таке семантичний пошук?
 
 ## --answers--
 
-Searching only for documents that contain the exact keyword typed, without considering context or meaning.
+Пошук лише за документами, які містять точне ключове слово, введене у запиті, без урахування контексту чи значення.
 
 ---
 
-A system that converts every search query into random tags and retrieves documents with the most matching tags.
+Система, яка перетворює кожен пошуковий запит на випадкові теги та повертає документи з найбільшою кількістю співпадаючих тегів.
 
 ---
 
-A search method that organizes results alphabetically by word length and popularity instead of relevance.
+Метод пошуку, який організовує результати в алфавітному порядку за довжиною слова та популярністю замість релевантності.
 
 ---
 
-Searching documents based on the meaning of the words rather than just keyword matching.
+Пошук документів на основі значення слів, а не лише за збігом ключових слів.
 
 ## --video-solution--
 
 4
-

@@ -7,24 +7,24 @@ dashedName: step-15
 
 # --description--
 
-If you look in the console, you will see the `Infinity` value. `Infinity` is a special value in JavaScript that represents a number that is greater than any other number.
+Якщо ви подивитесь у консоль, то побачите значення `Infinity`. `Infinity` — це спеціальне значення в JavaScript, яке представляє число, більше за будь-яке інше число.
 
-The division by zero is not a valid operation in mathematics.
+Ділення на нуль не є дійсною операцією в математиці.
 
-To account for this edge case, you should update your `calculateQuotient` function to instead check if `num2` is zero.
+Щоб врахувати цей крайній випадок, слід оновити вашу функцію `calculateQuotient`, щоб замість цього перевіряти, чи дорівнює `num2` нулю.
 
-Якщо так, то функція має повернути рядок `"Error: Division by zero"`. Otherwise, it should return the result of dividing `num1` by `num2`.
+Якщо так, функція має повертати рядок `"Error: Division by zero"`. Інакше вона має повертати результат ділення `num1` на `num2`.
 
 # --hints--
 
-Your `calculateQuotient` function should return the string `"Error: Division by zero"` if `num2` is zero.
+Ваша функція `calculateQuotient` має повертати рядок `"Error: Division by zero"`, якщо `num2` дорівнює нулю.
 
 ```js
 assert.strictEqual(calculateQuotient(10, 0), 'Error: Division by zero');
 assert.strictEqual(calculateQuotient(3, 0), 'Error: Division by zero');
 ```
 
-Your `calculateQuotient` function should return the result of dividing `num1` by `num2` if `num2` is not zero.
+Ваша функція `calculateQuotient` має повертати результат ділення `num1` на `num2`, якщо `num2` не дорівнює нулю.
 
 ```js
 assert.strictEqual(calculateQuotient(10, 2), 5);

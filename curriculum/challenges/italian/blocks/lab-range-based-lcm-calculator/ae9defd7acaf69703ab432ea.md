@@ -1,61 +1,61 @@
 ---
 id: ae9defd7acaf69703ab432ea
-title: Implement a Range-Based LCM Calculator
+title: implementare un calcolatore di mcm basato su un intervallo
 challengeType: 26
 dashedName: implement-a-range-based-lcm-calculator
 ---
 
 # --description--
 
-In this lab, you will create a function that takes an array of two numbers and returns the least common multiple (LCM) of those two numbers and all the numbers between them.
+In questo laboratorio, creerai una funzione che prende un array di due numeri e restituisce il minimo comune multiplo (mcm) di quei due numeri e di tutti i numeri compresi tra loro.
 
-**Objective**: Fulfill the user stories below and get all the tests to pass to complete the lab.
+**Obiettivo**: soddisfa le storie utente qui sotto e fai superare tutti i test per completare il laboratorio.
 
-**User Stories**
+**Storie utente**
 
-1. You should have a `smallestCommons` function that accepts an array of two numbers as an argument.
-1. The `smallestCommons` function should return the smallest common multiple that is evenly divisible by both numbers and all sequential numbers in the range between them.
-1. The function should handle input where the two numbers are not in numerical order.
+1. Dovresti avere una funzione `smallestCommons` che accetta un array di due numeri come argomento.
+1. La funzione `smallestCommons` dovrebbe restituire il minimo comune multiplo che è divisibile senza resto sia per i due numeri sia per tutti i numeri sequenziali nell’intervallo tra di essi.
+1. La funzione dovrebbe gestire input in cui i due numeri non sono in ordine numerico.
 
 # --hints--
 
-You should have a `smallestCommons` function.
+Dovresti avere una funzione `smallestCommons`.
 
 ```js
 assert.isFunction(smallestCommons);
 ```
 
-`smallestCommons([1, 5])` should return a number.
+`smallestCommons([1, 5])` dovrebbe restituire un numero.
 
 ```js
 assert.isNumber(smallestCommons([1, 5]));
 ```
 
-`smallestCommons([1, 5])` should return `60`.
+`smallestCommons([1, 5])` dovrebbe restituire `60`.
 
 ```js
 assert.strictEqual(smallestCommons([1, 5]), 60);
 ```
 
-`smallestCommons([5, 1])` should return `60`.
+`smallestCommons([5, 1])` dovrebbe restituire `60`.
 
 ```js
 assert.strictEqual(smallestCommons([5, 1]), 60);
 ```
 
-`smallestCommons([2, 10])` should return `2520`.
+`smallestCommons([2, 10])` dovrebbe restituire `2520`.
 
 ```js
 assert.strictEqual(smallestCommons([2, 10]), 2520);
 ```
 
-`smallestCommons([1, 13])` should return `360360`.
+`smallestCommons([1, 13])` dovrebbe restituire `360360`.
 
 ```js
 assert.strictEqual(smallestCommons([1, 13]), 360360);
 ```
 
-`smallestCommons([23, 18])` should return `6056820`.
+`smallestCommons([23, 18])` dovrebbe restituire `6056820`.
 
 ```js
 assert.strictEqual(smallestCommons([23, 18]), 6056820);

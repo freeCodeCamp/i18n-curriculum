@@ -1,6 +1,6 @@
 ---
 id: 67b5b3dfdec8df1a5f326bc0
-title: Task 110
+title: Attività 110
 challengeType: 22
 dashedName: task-110
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Ascolta l'audio e completa la frase qui sotto.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This means something that is not strong or obvious. It's something gentle or soft that you might not notice right away.
+Significa qualcosa che non è forte o evidente. È qualcosa di delicato o morbido che potresti non notare subito.
 
 ---
 
@@ -32,17 +32,17 @@ This means something that is not strong or obvious. It's something gentle or sof
 
 ### --feedback--
 
-This refers to the range of colors used in a design or artwork. In this case, a `color palette` refers to the selection of colors chosen for the design of the app or project.
+Si riferisce alla gamma di colori usata in un design o in un'opera d'arte. In questo caso, un `color palette` indica la selezione di colori scelta per il design dell'app o del progetto.
 
 # --explanation--
 
-`Subtle` refers to something that is delicate or not obvious. For example:
+`Subtle` indica qualcosa di delicato o non evidente. Per esempio:
 
-`The artist used subtle shades of blue in the painting.` - This means the artist used light or soft shades of blue that are not very strong or attention-grabbing.
+`The artist used subtle shades of blue in the painting.` - Questo significa che l'artista ha usato tonalità chiare o morbide di blu che non sono molto forti o appariscenti.
 
-`Palette` refers to the range of colors or materials an artist or designer uses. For example:
+`Palette` si riferisce alla gamma di colori o materiali che un artista o designer usa. Per esempio:
 
-`The designer chose a warm palette for the website, using reds, oranges, and yellows.` - This means the designer selected a set of warm colors, such as red, orange, and yellow, for the website's design.
+`The designer chose a warm palette for the website, using reds, oranges, and yellows.` - Questo significa che il designer ha scelto un insieme di colori caldi, come rosso, arancione e giallo, per il design del sito web.
 
 # --scene--
 

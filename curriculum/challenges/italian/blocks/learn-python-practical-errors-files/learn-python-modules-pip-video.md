@@ -1,6 +1,6 @@
 ---
 id: 2ccc34bd3f7bb4ae97a67ea3
-title: Modules and pip
+title: Moduli e pip
 challengeType: 11
 videoId: HJ-dHUXmpcg
 dashedName: modules-and-pip-learn-python-full-course-for-beginners
@@ -8,29 +8,29 @@ dashedName: modules-and-pip-learn-python-full-course-for-beginners
 
 # --description--
 
-In this video, you will learn how to use modules and pip to extend Python's functionality with external packages.
+In questo video imparerai come usare moduli e pip per estendere le funzionalità di Python con pacchetti esterni.
 
 # --questions--
 
 ## --text--
 
-What is pip used for?
+A cosa serve pip?
 
 ## --answers--
 
-It is used to sort python modules.
+Serve per ordinare i moduli Python.
 
 ---
 
-It is used to explain python modules.
+Serve per spiegare i moduli Python.
 
 ---
 
-It is used to install python modules.
+Serve per installare i moduli Python.
 
 ---
 
-It is used to lint Python programs.
+Serve per fare il lint dei programmi Python.
 
 ## --video-solution--
 

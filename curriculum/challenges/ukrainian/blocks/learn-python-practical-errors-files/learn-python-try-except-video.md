@@ -1,6 +1,6 @@
 ---
 id: 2a486e3e521b79b874fb5e9a
-title: Try/Except
+title: Спроба/Виключення
 challengeType: 11
 videoId: 1tkhMom_SZw
 dashedName: try-except-learn-python-full-course-for-beginners
@@ -8,13 +8,13 @@ dashedName: try-except-learn-python-full-course-for-beginners
 
 # --description--
 
-In this video, you will learn how to handle exceptions using try/except blocks to make your programs more robust.
+У цьому відео ви навчитеся обробляти виключення за допомогою блоків try/except, щоб зробити свої програми більш надійними.
 
 # --questions--
 
 ## --text--
 
-What will be the result for the following code if the user provides the string `"random"`?
+Яким буде результат виконання цього коду, якщо користувач введе рядок `"random"`?
 
 ```python
 try:
@@ -26,19 +26,19 @@ except:
 
 ## --answers--
 
-Nothing will be output to the console.
+Нічого не буде виведено в консоль.
 
 ---
 
-The string `"random"` will be output to the console.
+У консоль буде виведено рядок `"random"`.
 
 ---
 
-The string `"Invalid Input"` will be output to the console.
+У консоль буде виведено рядок `"Invalid Input"`.
 
 ---
 
-The program will crash.
+Програма аварійно завершиться.
 
 ## --video-solution--
 

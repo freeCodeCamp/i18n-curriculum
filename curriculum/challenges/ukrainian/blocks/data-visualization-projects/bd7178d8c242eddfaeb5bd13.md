@@ -1,6 +1,6 @@
 ---
 id: bd7178d8c242eddfaeb5bd13
-title: Visualize Data with a Scatterplot Graph
+title: Візуалізуйте дані за допомогою точкової діаграми
 challengeType: 3
 forumTopicId: 301467
 dashedName: visualize-data-with-a-scatterplot-graph
@@ -8,47 +8,47 @@ dashedName: visualize-data-with-a-scatterplot-graph
 
 # --description--
 
-**Objective:** Build an app that is functionally similar to this: <a href="https://scatterplot-graph.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://scatterplot-graph.freecodecamp.rocks</a>.
+**Мета:** Створіть застосунок, який функціонально схожий на цей: <a href="https://scatterplot-graph.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://scatterplot-graph.freecodecamp.rocks</a>.
 
-Fulfill the below user stories and get all of the tests to pass. Use whichever libraries or APIs you need. Give it your own personal style.
+Виконайте наведені нижче історії користувача та пройдіть усі тести. Використовуйте будь-які бібліотеки або API, які вам потрібні. Додайте свій особистий стиль.
 
-You can use HTML, JavaScript, CSS, and the D3 svg-based visualization library. The tests require axes to be generated using the D3 axis property, which automatically generates ticks along the axis. These ticks are required for passing the D3 tests because their positions are used to determine alignment of graphed elements. You will find information about generating axes at <https://d3js.org/d3-axis>. Required DOM elements are queried on the moment of each test. If you use a front-end framework (like Vue for example), the test results may be inaccurate for dynamic content. We hope to accommodate them eventually, but these frameworks are not currently supported for D3 projects.
+Ви можете використовувати HTML, JavaScript, CSS та бібліотеку візуалізації на основі svg D3. Тести вимагають, щоб осі були згенеровані за допомогою властивості осі D3, яка автоматично створює поділки вздовж осі. Ці поділки потрібні для проходження тестів D3, оскільки їхні позиції використовуються для визначення вирівнювання побудованих елементів. Інформацію про створення осей можна знайти на <https://d3js.org/d3-axis>. Необхідні DOM-елементи запитуються в момент кожного тесту. Якщо ви використовуєте фронтенд-фреймворк (наприклад, Vue), результати тестів можуть бути неточними для динамічного вмісту. Ми сподіваємося з часом підтримати їх, але наразі ці фреймворки не підтримуються для проєктів D3.
 
-**User Story #1:** I can see a title element that has a corresponding `id="title"`.
+**Історія користувача №1:** Я бачу елемент заголовка, який має відповідний `id="title"`.
 
-**User Story #2:** I can see an x-axis that has a corresponding `id="x-axis"`.
+**Історія користувача №2:** Я бачу вісь x, яка має відповідний `id="x-axis"`.
 
-**User Story #3:** I can see a y-axis that has a corresponding `id="y-axis"`.
+**Історія користувача №3:** Я бачу вісь y, яка має відповідний `id="y-axis"`.
 
-**User Story #4:** I can see dots, that each have a class of `dot`, which represent the data being plotted.
+**Історія користувача №4:** Я бачу точки, кожна з яких має клас `dot`, що представляють дані, побудовані на графіку.
 
-**User Story #5:** Each dot should have the properties `data-xvalue` and `data-yvalue` containing their corresponding `x` and `y` values.
+**Історія користувача №5:** Кожна точка повинна мати властивості `data-xvalue` і `data-yvalue`, що містять відповідні `x` і `y` значення.
 
-**User Story #6:** The `data-xvalue` and `data-yvalue` of each dot should be within the range of the actual data and in the correct data format. For `data-xvalue`, integers (full years) or `Date` objects are acceptable for test evaluation. For `data-yvalue` (minutes), use `Date` objects.
+**Історія користувача №6:** `data-xvalue` і `data-yvalue` кожної точки повинні бути в межах діапазону фактичних даних і у правильному форматі даних. Для `data-xvalue` прийнятні цілі числа (повні роки) або об’єкти `Date` для оцінки тесту. Для `data-yvalue` (хвилини) використовуйте об’єкти `Date`.
 
-**User Story #7:** The `data-xvalue` and its corresponding dot should align with the corresponding point/value on the x-axis.
+**Історія користувача №7:** `data-xvalue` і відповідна точка повинні бути вирівняні з відповідною точкою/значенням на осі x.
 
-**User Story #8:** The `data-yvalue` and its corresponding dot should align with the corresponding point/value on the y-axis.
+**Історія користувача №8:** `data-yvalue` і відповідна точка повинні бути вирівняні з відповідною точкою/значенням на осі y.
 
-**User Story #9:** I can see multiple tick labels on the y-axis with `%M:%S` time format.
+**Історія користувача №9:** Я бачу кілька міток поділок на осі y у форматі часу `%M:%S`.
 
-**User Story #10:** I can see multiple tick labels on the x-axis that show the year.
+**Історія користувача №10:** Я бачу кілька міток поділок на осі x, які показують рік.
 
-**User Story #11:** I can see that the range of the x-axis labels are within the range of the actual x-axis data.
+**Історія користувача №11:** Я бачу, що діапазон міток осі x знаходиться в межах діапазону фактичних даних осі x.
 
-**User Story #12:** I can see that the range of the y-axis labels are within the range of the actual y-axis data.
+**Історія користувача №12:** Я бачу, що діапазон міток осі y знаходиться в межах діапазону фактичних даних осі y.
 
-**User Story #13:** I can see a legend containing descriptive text that has `id="legend"`.
+**Історія користувача №13:** Я бачу легенду з описовим текстом, який має `id="legend"`.
 
-**User Story #14:** I can mouse over an area and see a tooltip with a corresponding `id="tooltip"` which displays more information about the area.
+**Історія користувача №14:** Я можу навести курсор на область і побачити підказку з відповідним `id="tooltip"`, яка відображає більше інформації про цю область.
 
-**User Story #15:** My tooltip should have a `data-year` property that corresponds to the `data-xvalue` of the active area.
+**Історія користувача №15:** Моя підказка повинна мати властивість `data-year`, що відповідає `data-xvalue` активної області.
 
-Here is the dataset you will need to complete this project: `https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/cyclist-data.json`
+Ось набір даних, який вам знадобиться для завершення цього проєкту: `https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/cyclist-data.json`
 
-You can build your project by <a href='https://codepen.io/pen?template=MJjpwO' target="_blank" rel="noopener noreferrer nofollow">using this CodePen template</a> and clicking `Save` to create your own pen. Or you can use this CDN link to run the tests in any environment you like: `https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js`
+Ви можете створити свій проєкт, <a href='https://codepen.io/pen?template=MJjpwO' target="_blank" rel="noopener noreferrer nofollow">використовуючи цей шаблон CodePen</a> і натиснувши `Save`, щоб створити власний пен. Або ви можете використати це CDN-посилання, щоб запускати тести в будь-якому середовищі: `https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js`
 
-Once you're done, submit the URL to your working project with all its tests passing.
+Коли закінчите, надішліть URL вашого робочого проєкту з усіма пройденими тестами.
 
 # --solutions--
 

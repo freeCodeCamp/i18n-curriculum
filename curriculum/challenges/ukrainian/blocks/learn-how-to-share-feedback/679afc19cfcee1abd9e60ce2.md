@@ -1,6 +1,6 @@
 ---
 id: 679afc19cfcee1abd9e60ce2
-title: Task 61
+title: Завдання 61
 challengeType: 19
 dashedName: task-61
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Прослухайте аудіо та дайте відповідь на запитання нижче.
 
 # --questions--
 
 ## --text--
 
-What does Brian think might happen if we don't listen to those in the team who disagree?
+Що, на думку Браяна, може статися, якщо ми не слухаємо тих у команді, хто не погоджується?
 
 ## --answers--
 
-They might lose motivation.
+Вони можуть втратити мотивацію.
 
 ---
 
-They will stop having disagreements.
+Вони припинять суперечки.
 
 ### --feedback--
 
-Ignoring people's opinions does not stop disagreements; it might just make people less engaged.
+Ігнорування думок людей не припиняє суперечок; це може просто зробити людей менш залученими.
 
 ---
 
-They will work harder to prove their point.
+Вони працюватимуть старанніше, щоб довести свою точку зору.
 
 ### --feedback--
 
-Brian does not suggest that feeling undervalued makes people work harder.
+Браян не припускає, що відчуття недооціненості змушує людей працювати старанніше.
 
 ---
 
-They will automatically agree with everything.
+Вони автоматично погодяться з усім.
 
 ### --feedback--
 
-Not listening to people doesn't make them agree with everything — it can make them disengage instead.
+Неслухання людей не змушує їх погоджуватися з усім — натомість це може призвести до їх відчуження.
 
 ## --video-solution--
 
@@ -52,13 +52,13 @@ Not listening to people doesn't make them agree with everything — it can make 
 
 # --explanation--
 
-`To feel valued` describes the sensation you have when you believe that your thoughts, efforts, and contributions are appreciated. For example:
+`To feel valued` описує відчуття, яке виникає, коли ви вірите, що ваші думки, зусилля та внески цінують. Наприклад:
 
-`The project manager always dedicates some time during the meeting to hear what we have to say. This makes everyone in the team feel valued.` - This means the attitude of the project manager is bringing good results to the team.
+`The project manager always dedicates some time during the meeting to hear what we have to say. This makes everyone in the team feel valued.` — це означає, що ставлення менеджера проєкту приносить команді хороші результати.
 
-What Brian suggests is that if team members' opinions are ignored, they may feel unimportant. If team members feel valued, they are more likely to stay engaged and contribute new ideas.
+Браян припускає, що якщо думки членів команди ігнорують, вони можуть почуватися неважливими. Якщо члени команди відчувають свою цінність, вони, ймовірно, залишаться залученими та будуть робити внесок нових ідей.
 
-On the other hand, if people feel like their opinions don't matter, they might become disengaged and lose motivation to contribute, which can harm overall teamwork and productivity.
+З іншого боку, якщо люди відчувають, що їхні думки не мають значення, вони можуть відійти від справ і втратити мотивацію робити внесок, що може зашкодити загальній роботі команди та продуктивності.
 
 # --scene--
 

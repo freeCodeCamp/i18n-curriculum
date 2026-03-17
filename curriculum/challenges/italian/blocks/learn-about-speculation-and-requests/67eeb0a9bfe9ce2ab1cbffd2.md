@@ -1,6 +1,6 @@
 ---
 id: 67eeb0a9bfe9ce2ab1cbffd2
-title: Task 29
+title: Attività 29
 challengeType: 19
 dashedName: task-29
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Ascolta l'audio e rispondi alla domanda qui sotto.
 
 # --questions--
 
 ## --text--
 
-What else should Mark have done?
+Cos'altro avrebbe dovuto fare Mark?
 
 ## --answers--
 
-He should have rewritten his entire code.
+Avrebbe dovuto riscrivere tutto il suo codice.
 
 ### --feedback--
 
-Mark didn't need to rewrite everything.
+Mark non aveva bisogno di riscrivere tutto.
 
 ---
 
-He should have tested his code first.
+Avrebbe dovuto testare il suo codice prima.
 
 ---
 
-He should have removed all comments.
+Avrebbe dovuto rimuovere tutti i commenti.
 
 ### --feedback--
 
-Comments are useful and should not be removed.
+I commenti sono utili e non dovrebbero essere rimossi.
 
 ---
 
-He should have skipped testing because it takes too long.
+Avrebbe dovuto saltare i test perché richiedono troppo tempo.
 
 ### --feedback--
 
-Testing is an important step before submitting code.
+Il testing è un passaggio importante prima di inviare il codice.
 
 ## --video-solution--
 
@@ -52,11 +52,11 @@ Testing is an important step before submitting code.
 
 # --explanation--
 
-A `test suite` is a collection of tests that check if a program works correctly. For example:
+Una `test suite` è una raccolta di test che verificano se un programma funziona correttamente. Per esempio:
 
-- `We ran the test suite to check if the app works properly.` - The team executed all the tests to ensure the app functions as expected.
+- `We ran the test suite to check if the app works properly.` - Il team ha eseguito tutti i test per assicurarsi che l'app funzioni come previsto.
 
-- `We need to add more tests to the test suite to check for edge cases.` - The team should include more tests to cover all possible situations.
+- `We need to add more tests to the test suite to check for edge cases.` - Il team dovrebbe includere più test per coprire tutte le situazioni possibili.
 
 # --scene--
 

@@ -1,23 +1,23 @@
 ---
 id: 62a8efb0e3ce826db8daf80f
-title: Step 133
+title: Крок 133
 challengeType: 0
 dashedName: step-133
 ---
 
 # --description--
 
-Finish the `defeatMonster` function by calling the `update` function with `locations[4]` as the argument.
+Завершіть функцію `defeatMonster`, викликавши функцію `update` з аргументом `locations[4]`.
 
 # --hints--
 
-You should call the `update` function.
+Ви повинні викликати функцію `update`.
 
 ```js
 assert.match(defeatMonster.toString(), /update/);
 ```
 
-You should pass `locations[4]` as the argument.
+Ви повинні передати `locations[4]` як аргумент.
 
 ```js
 assert.match(defeatMonster.toString(), /update\(\s*locations\s*\[\s*4\s*\]\s*\)/);
@@ -294,7 +294,7 @@ function defeatMonster() {
   xp += monsters[fighting].level;
   goldText.innerText = gold;
   xpText.innerText = xp;
-
+  
 }
 --fcc-editable-region--
 

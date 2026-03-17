@@ -1,6 +1,6 @@
 ---
 id: 5ea9997bbec2e9bc47e94dae
-title: Introduction and Setup
+title: Вступ і налаштування
 challengeType: 11
 videoId: XeQ7ZKtb998
 bilibiliIds:
@@ -14,21 +14,20 @@ dashedName: introduction-and-setup
 
 ## --text--
 
-What code editor and extension does the instructor recommend for developing penetration testing tools in Python?
+Який редактор коду та розширення рекомендує інструктор для розробки інструментів тестування на проникнення на Python?
 
 ## --answers--
 
-Atom and the atom-python-run extension.
+Atom і розширення atom-python-run.
 
 ---
 
-VSCode and Microsoft's Python extension.
+VSCode і розширення Python від Microsoft.
 
 ---
 
-Sublime Text and the Anaconda package.
+Sublime Text і пакет Anaconda.
 
 ## --video-solution--
 
 2
-

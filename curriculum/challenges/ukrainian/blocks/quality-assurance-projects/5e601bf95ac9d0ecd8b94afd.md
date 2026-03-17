@@ -1,6 +1,6 @@
 ---
 id: 5e601bf95ac9d0ecd8b94afd
-title: Sudoku Solver
+title: Розв’язувач судоку
 challengeType: 4
 forumTopicId: 462357
 dashedName: sudoku-solver
@@ -8,64 +8,64 @@ dashedName: sudoku-solver
 
 # --description--
 
-Build a full-stack JavaScript app that is functionally similar to this: <a href="https://sudoku-solver.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://sudoku-solver.freecodecamp.rocks/</a>. Working on this project will involve you writing your code using one of the following methods:
+Створіть повноцінний full-stack застосунок на JavaScript, який функціонально схожий на цей: <a href="https://sudoku-solver.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://sudoku-solver.freecodecamp.rocks/</a>. Робота над цим проєктом передбачає написання коду одним із таких способів:
 
--   Clone <a href="https://github.com/freecodecamp/boilerplate-project-sudoku-solver" target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete your project locally.
--   Use a site builder of your choice to complete the project. Be sure to incorporate all the files from our GitHub repo.
+-   Клонуйте <a href="https://github.com/freecodecamp/boilerplate-project-sudoku-solver" target="_blank" rel="noopener noreferrer nofollow">цей репозиторій GitHub</a> і завершіть проєкт локально.
+-   Використайте будь-який конструктор сайтів на свій вибір для завершення проєкту. Обов’язково включіть усі файли з нашого репозиторію GitHub.
 
 # --instructions--
 
-- All puzzle logic can go into `/controllers/sudoku-solver.js`
-  - The `validate` function should take a given puzzle string and check it to see if it has 81 valid characters for the input.
-  - The `check` functions should be validating against the *current* state of the board.
-  - The `solve` function should handle solving any given valid puzzle string, not just the test inputs and solutions. You are expected to write out the logic to solve this.
-- All routing logic can go into `/routes/api.js`
-- See the `puzzle-strings.js` file in `/controllers` for some sample puzzles your application should solve
-- To run the challenge tests on this page, set `NODE_ENV` to `test` without quotes in the `.env` file
-- To run the tests in the console, use the command `npm run test`.
+- Вся логіка головоломки може бути розміщена у `/controllers/sudoku-solver.js`
+  - Функція `validate` має приймати рядок головоломки і перевіряти, чи містить він 81 дійсний символ для вхідних даних.
+  - Функції `check` мають перевіряти відповідність *поточному* стану сітки.
+  - Функція `solve` має розв’язувати будь-який дійсний рядок головоломки, а не лише тестові вхідні дані та розв’язки. Ви маєте написати логіку розв’язання.
+- Вся логіка маршрутизації може бути розміщена у `/routes/api.js`
+- Перегляньте файл `puzzle-strings.js` у `/controllers` для прикладів головоломок, які ваш застосунок має розв’язувати
+- Щоб запустити тести завдання на цій сторінці, встановіть `NODE_ENV` у `test` без лапок у файлі `.env`
+- Щоб запустити тести у консолі, використайте команду `npm run test`.
 
-Write the following tests in `tests/1_unit-tests.js`:
+Напишіть такі тести у `tests/1_unit-tests.js`:
 
--   Logic handles a valid puzzle string of 81 characters
--   Logic handles a puzzle string with invalid characters (not 1-9 or `.`)
--   Logic handles a puzzle string that is not 81 characters in length
--   Logic handles a valid row placement
--   Logic handles an invalid row placement
--   Logic handles a valid column placement
--   Logic handles an invalid column placement
--   Logic handles a valid region (3x3 grid) placement
--   Logic handles an invalid region (3x3 grid) placement
--   Valid puzzle strings pass the solver
--   Invalid puzzle strings fail the solver
--   Solver returns the expected solution for an incomplete puzzle
+-   Логіка обробляє дійсний рядок головоломки з 81 символом
+-   Логіка обробляє рядок головоломки з недійсними символами (не 1-9 або `.`)
+-   Логіка обробляє рядок головоломки, довжина якого не 81 символ
+-   Логіка обробляє дійсне розміщення в рядку
+-   Логіка обробляє недійсне розміщення в рядку
+-   Логіка обробляє дійсне розміщення в стовпці
+-   Логіка обробляє недійсне розміщення в стовпці
+-   Логіка обробляє дійсне розміщення в регіоні (сітка 3x3)
+-   Логіка обробляє недійсне розміщення в регіоні (сітка 3x3)
+-   Дійсні рядки головоломки проходять розв’язувач
+-   Недійсні рядки головоломки не проходять розв’язувач
+-   Розв’язувач повертає очікуване розв’язання для неповної головоломки
 
-Write the following tests in `tests/2_functional-tests.js`
+Напишіть такі тести у `tests/2_functional-tests.js`
 
--   Solve a puzzle with valid puzzle string: POST request to `/api/solve`
--   Solve a puzzle with missing puzzle string: POST request to `/api/solve`
--   Solve a puzzle with invalid characters: POST request to `/api/solve`
--   Solve a puzzle with incorrect length: POST request to `/api/solve`
--   Solve a puzzle that cannot be solved: POST request to `/api/solve`
--   Check a puzzle placement with all fields: POST request to `/api/check`
--   Check a puzzle placement with single placement conflict: POST request to `/api/check`
--   Check a puzzle placement with multiple placement conflicts: POST request to `/api/check`
--   Check a puzzle placement with all placement conflicts: POST request to `/api/check`
--   Check a puzzle placement with missing required fields: POST request to `/api/check`
--   Check a puzzle placement with invalid characters: POST request to `/api/check`
--   Check a puzzle placement with incorrect length: POST request to `/api/check`
--   Check a puzzle placement with invalid placement coordinate: POST request to `/api/check`
--   Check a puzzle placement with invalid placement value: POST request to `/api/check`
+-   Розв’язати головоломку з дійсним рядком головоломки: POST-запит до `/api/solve`
+-   Розв’язати головоломку без рядка головоломки: POST-запит до `/api/solve`
+-   Розв’язати головоломку з недійсними символами: POST-запит до `/api/solve`
+-   Розв’язати головоломку з некоректною довжиною: POST-запит до `/api/solve`
+-   Розв’язати головоломку, яку неможливо розв’язати: POST-запит до `/api/solve`
+-   Перевірити розміщення в головоломці з усіма полями: POST-запит до `/api/check`
+-   Перевірити розміщення в головоломці з одним конфліктом розміщення: POST-запит до `/api/check`
+-   Перевірити розміщення в головоломці з кількома конфліктами розміщення: POST-запит до `/api/check`
+-   Перевірити розміщення в головоломці з усіма конфліктами розміщення: POST-запит до `/api/check`
+-   Перевірити розміщення в головоломці з відсутніми обов’язковими полями: POST-запит до `/api/check`
+-   Перевірити розміщення в головоломці з недійсними символами: POST-запит до `/api/check`
+-   Перевірити розміщення в головоломці з некоректною довжиною: POST-запит до `/api/check`
+-   Перевірити розміщення в головоломці з недійсною координатою розміщення: POST-запит до `/api/check`
+-   Перевірити розміщення в головоломці з недійсним значенням розміщення: POST-запит до `/api/check`
 
 # --hints--
 
-You should provide your own project, not the example URL.
+Ви маєте надати власний проєкт, а не приклад за URL.
 
 ```js
   const url = code;
   assert(!/.*\/sudoku-solver\.freecodecamp\.rocks/.test(code));
 ```
 
-You can `POST` `/api/solve` with form data containing `puzzle` which will be a string containing a combination of numbers (1-9) and periods `.` to represent empty spaces. The returned object will contain a `solution` property with the solved puzzle.
+Ви можете `POST` `/api/solve` з даними форми, що містять `puzzle`, який буде рядком, що містить комбінацію чисел (1-9) і крапок `.` для позначення порожніх місць. Повернений об’єкт міститиме властивість `solution` з розв’язаною головоломкою.
 
 ```js
   const input =
@@ -82,7 +82,7 @@ You can `POST` `/api/solve` with form data containing `puzzle` which will be a s
   assert.equal(parsed.solution, output);
 ```
 
-If the object submitted to `/api/solve` is missing `puzzle`, the returned value will be `{ error: 'Required field missing' }`
+Якщо об’єкт, надісланий до `/api/solve`, не містить `puzzle`, повернене значення буде `{ error: 'Required field missing' }`
 
 ```js
   const input =
@@ -98,7 +98,7 @@ If the object submitted to `/api/solve` is missing `puzzle`, the returned value 
   assert.equal(parsed.error, output);
 ```
 
-If the puzzle submitted to `/api/solve` contains values which are not numbers or periods, the returned value will be `{ error: 'Invalid characters in puzzle' }`
+Якщо головоломка, надіслана до `/api/solve`, містить значення, які не є числами або крапками, повернене значення буде `{ error: 'Invalid characters in puzzle' }`
 
 ```js
   const input =
@@ -114,7 +114,7 @@ If the puzzle submitted to `/api/solve` contains values which are not numbers or
   assert.equal(parsed.error, output);
 ```
 
-If the puzzle submitted to `/api/solve` is greater or less than 81 characters, the returned value will be `{ error: 'Expected puzzle to be 81 characters long' }`
+Якщо головоломка, надіслана до `/api/solve`, має довжину більшу або меншу за 81 символ, повернене значення буде `{ error: 'Expected puzzle to be 81 characters long' }`
 
 ```js
   const inputs = [
@@ -134,7 +134,7 @@ If the puzzle submitted to `/api/solve` is greater or less than 81 characters, t
   }
 ```
 
-If the puzzle submitted to `/api/solve` is invalid or cannot be solved, the returned value will be `{ error: 'Puzzle cannot be solved' }`
+Якщо головоломка, надіслана до `/api/solve`, є недійсною або не може бути розв’язана, повернене значення буде `{ error: 'Puzzle cannot be solved' }`
 
 ```js
   const input =
@@ -150,7 +150,7 @@ If the puzzle submitted to `/api/solve` is invalid or cannot be solved, the retu
   assert.equal(parsed.error, output);
 ```
 
-You can `POST` to `/api/check` an object containing `puzzle`, `coordinate`, and `value` where the `coordinate` is the letter A-I indicating the row, followed by a number 1-9 indicating the column, and `value` is a number from 1-9.
+Ви можете `POST` до `/api/check` об’єкт, що містить `puzzle`, `coordinate` і `value`, де `coordinate` — це літера A-I, що вказує рядок, за якою йде число 1-9, що вказує стовпець, а `value` — число від 1 до 9.
 
 ```js
   const input =
@@ -167,7 +167,7 @@ You can `POST` to `/api/check` an object containing `puzzle`, `coordinate`, and 
   assert.isTrue(parsed.valid);
 ```
 
-The return value from the `POST` to `/api/check` will be an object containing a `valid` property, which is `true` if the number may be placed at the provided coordinate and `false` if the number may not. If false, the returned object will also contain a `conflict` property which is an array containing the strings `"row"`, `"column"`, and/or `"region"` depending on which makes the placement invalid.
+Повернене значення з `POST` до `/api/check` буде об’єктом, що містить властивість `valid`, яка є `true`, якщо число можна розмістити за вказаною координатою, і `false`, якщо не можна. Якщо хиба, повернений об’єкт також міститиме властивість `conflict`, яка є масивом рядків `"row"`, `"column"` і/або `"region"` залежно від того, що робить розміщення недійсним.
 
 ```js
   const input =
@@ -188,7 +188,7 @@ The return value from the `POST` to `/api/check` will be an object containing a 
   assert.include(parsed.conflict, 'column');
 ```
 
-If `value` submitted to `/api/check` is already placed in `puzzle` on that `coordinate`, the returned value will be an object containing a `valid` property with `true` if `value` is not conflicting.
+Якщо `value`, надісланий до `/api/check`, вже розміщений у `puzzle` на тому `coordinate`, повернене значення буде об’єктом, що містить властивість `valid` з `true`, якщо `value` не конфліктує.
 
 ```js
   const input =
@@ -205,7 +205,7 @@ If `value` submitted to `/api/check` is already placed in `puzzle` on that `coor
   assert.isTrue(parsed.valid);
 ```
 
-If the puzzle submitted to `/api/check` contains values which are not numbers or periods, the returned value will be `{ error: 'Invalid characters in puzzle' }`
+Якщо головоломка, надіслана до `/api/check`, містить значення, які не є числами або крапками, повернене значення буде `{ error: 'Invalid characters in puzzle' }`
 
 ```js
   const input =
@@ -223,7 +223,7 @@ If the puzzle submitted to `/api/check` contains values which are not numbers or
   assert.equal(parsed.error, output);
 ```
 
-If the puzzle submitted to `/api/check` is greater or less than 81 characters, the returned value will be `{ error: 'Expected puzzle to be 81 characters long' }`
+Якщо головоломка, надіслана до `/api/check`, має довжину більшу або меншу за 81 символ, повернене значення буде `{ error: 'Expected puzzle to be 81 characters long' }`
 
 ```js
   const inputs = [
@@ -245,7 +245,7 @@ If the puzzle submitted to `/api/check` is greater or less than 81 characters, t
   }
 ```
 
-If the object submitted to `/api/check` is missing `puzzle`, `coordinate` or `value`, the returned value will be `{ error: 'Required field(s) missing' }`
+Якщо об’єкт, надісланий до `/api/check`, не містить `puzzle`, `coordinate` або `value`, повернене значення буде `{ error: 'Required field(s) missing' }`
 
 ```js
   const inputs = [
@@ -275,7 +275,7 @@ If the object submitted to `/api/check` is missing `puzzle`, `coordinate` or `va
   }
 ```
 
-If the coordinate submitted to `api/check` does not point to an existing grid cell, the returned value will be `{ error: 'Invalid coordinate'}`
+Якщо координата, надіслана до `api/check`, не вказує на існуючу клітинку сітки, повернене значення буде `{ error: 'Invalid coordinate'}`
 
 ```js
   const input =
@@ -295,7 +295,7 @@ If the coordinate submitted to `api/check` does not point to an existing grid ce
   }
 ```
 
-If the `value` submitted to `/api/check` is not a number between 1 and 9, the returned value will be `{ error: 'Invalid value' }`
+Якщо `value`, надісланий до `/api/check`, не є числом від 1 до 9, повернене значення буде `{ error: 'Invalid value' }`
 
 ```js
   const input =
@@ -315,7 +315,7 @@ If the `value` submitted to `/api/check` is not a number between 1 and 9, the re
   }
 ```
 
-All 12 unit tests are complete and passing.
+Всі 12 модульних тестів завершені і проходять.
 
 ```js
   try {
@@ -342,7 +342,7 @@ All 12 unit tests are complete and passing.
   }
 ```
 
-All 14 functional tests are complete and passing.
+Всі 14 функціональних тестів завершені і проходять.
 
 ```js
   try {

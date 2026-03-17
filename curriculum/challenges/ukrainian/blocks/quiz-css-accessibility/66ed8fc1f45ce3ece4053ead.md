@@ -1,13 +1,13 @@
 ---
 id: 66ed8fc1f45ce3ece4053ead
-title: CSS Accessibility Quiz
+title: Тест з доступності CSS
 challengeType: 8
 dashedName: quiz-css-accessibility
 ---
 
 # --description--
 
-To pass the quiz, you must correctly answer at least 9 of the 10 questions below.
+Щоб пройти тест, потрібно правильно відповісти щонайменше на 9 із 10 запитань нижче.
 
 # --quizzes--
 
@@ -17,29 +17,29 @@ To pass the quiz, you must correctly answer at least 9 of the 10 questions below
 
 #### --text--
 
-Why do you need to have good color contrast on your webpage?
+Чому потрібно мати хороший коефіцієнт контрастності кольорів на вашій сторінці?
 
 #### --distractors--
 
-To make the page more vibrant.
+Щоб зробити сторінку яскравішою.
 
 ---
 
-To meet requirements for search engine optimization (SEO).
+Щоб відповідати вимогам пошукової оптимізації (SEO).
 
 ---
 
-To make important elements of the page stand out.
+Щоб важливі елементи сторінки виділялися.
 
 #### --answer--
 
-To make the page content accessible and readable.
+Щоб зробити вміст сторінки доступним і читабельним.
 
 ### --question--
 
 #### --text--
 
-Which of the following tools allows you to enter background and foreground colors and check their contrast ratio?
+Який із наведених інструментів дозволяє вводити кольори фону та переднього плану і перевіряти їх коефіцієнт контрастності?
 
 #### --distractors--
 
@@ -61,7 +61,7 @@ WebAIM's Color Contrast Checker
 
 #### --text--
 
-Which of the following tools allows you to pick background and foreground colors from content displayed on your screen and check for their contrast ratio?
+Який із наведених інструментів дозволяє вибирати кольори фону та переднього плану з вмісту, що відображається на екрані, і перевіряти їх коефіцієнт контрастності?
 
 #### --distractors--
 
@@ -83,51 +83,51 @@ TPGi Colour Contrast Analyzer
 
 #### --text--
 
-Why should you NOT use `display: none` and `visibility: hidden` to visually hide content?
+Чому НЕ слід використовувати `display: none` і `visibility: hidden` для візуального приховування вмісту?
 
 #### --distractors--
 
-These methods make it so that only assistive technologies like screen readers can access the hidden content.
+Ці методи роблять так, що прихований вміст доступний лише допоміжним технологіям, як-от читачам екрана.
 
 ---
 
-These methods make it so that the content is only hidden until users move their mouse over the content.
+Ці методи приховують вміст лише до того моменту, поки користувач не наведе мишу на цей вміст.
 
 ---
 
-These methods do not work with some browsers.
+Ці методи не працюють у деяких браузерах.
 
 #### --answer--
 
-These methods remove the content from the accessibility tree, making it impossible for screen readers to access the hidden content.
+Ці методи видаляють вміст із дерева доступності, через що читачі екрана не можуть отримати доступ до прихованого вмісту.
 
 ### --question--
 
 #### --text--
 
-What is an accessibility tree?
+Що таке дерево доступності?
 
 #### --distractors--
 
-A visual representation of the layout of a webpage.
+Візуальне представлення макету сторінки.
 
 ---
 
-A structure used by screen readers to read the text content of a webpage.
+Структура, яку використовують читачі екрана для читання текстового вмісту сторінки.
 
 ---
 
-A copy of the DOM tree.
+Копія дерева DOM.
 
 #### --answer--
 
-A structure used by screen readers to interpret and interact with the content on a webpage.
+Структура, яку використовують читачі екрана для інтерпретації та взаємодії з вмістом сторінки.
 
 ### --question--
 
 #### --text--
 
-Which of the following ensures that an image has a minimum width of `400px`, but becomes wider when the viewport width is greater than `1000px`?
+Який із наведених варіантів гарантує, що зображення матиме мінімальну ширину `400px`, але стане ширшим, коли ширина вікна перегляду більша за `1000px`?
 
 #### --distractors--
 
@@ -165,7 +165,7 @@ img {
 
 #### --text--
 
-Which of the following `scroll-behavior` value allows a smooth scrolling behavior?
+Яке значення `scroll-behavior` забезпечує плавну поведінку прокручування?
 
 #### --distractors--
 
@@ -187,7 +187,7 @@ Which of the following `scroll-behavior` value allows a smooth scrolling behavio
 
 #### --text--
 
-Which of the following features is used to detect the user's animation preference?
+Яка з наведених функцій використовується для визначення переваг користувача щодо анімації?
 
 #### --distractors--
 
@@ -209,42 +209,42 @@ Which of the following features is used to detect the user's animation preferenc
 
 #### --text--
 
-Which of the following is an accessibility issue of the `placeholder` attribute in an `input` element?
+Яка проблема доступності пов’язана з атрибутом `placeholder` у елементі `input`?
 
 #### --distractors--
 
-Placeholder text prevents screen readers from reading the input label text.
+Текст заповнювача заважає читачам екрана читати текст мітки введення.
 
 ---
 
-Placeholder text prevents screen readers from reading the input value.
+Текст заповнювача заважає читачам екрана читати значення введення.
 
 ---
 
-Placeholder text is too small to be readable.
+Текст заповнювача занадто малий, щоб його було видно.
 
 #### --answer--
 
-Placeholder text can be confused with an actual input value.
+Текст заповнювача може бути сплутаний із фактичним значенням введення.
 
 ### --question--
 
 #### --text--
 
-What does the `hidden` attribute do?
+Що робить атрибут `hidden`?
 
 #### --distractors--
 
-It hides content and reveals on hover.
+Він приховує вміст і показує його при наведенні.
 
 ---
 
-It hides content only from the accessibility tree.
+Він приховує вміст лише з дерева доступності.
 
 ---
 
-It hides content visually, but the content is available in the accessibility tree.
+Він візуально приховує вміст, але вміст доступний у дереві доступності.
 
 #### --answer--
 
-It hides content both visually and from the accessibility tree.
+Він приховує вміст як візуально, так і з дерева доступності.

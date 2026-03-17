@@ -1,6 +1,6 @@
 ---
 id: 69399bbb6d7a7bfeedaddd96
-title: Task 13
+title: Attività 13
 challengeType: 22
 dashedName: task-13
 lang: es
@@ -10,17 +10,17 @@ lang: es
 
 # --description--
 
-The verb `escribir` means "to write". When Spanish speakers want to explain how a word is written or spelled, they often use the expression `se escribe`.
+Il verbo `escribir` significa "scrivere". Quando i parlanti spagnoli vogliono spiegare come si scrive o si compone una parola, spesso usano l'espressione `se escribe`.
 
-This form comes from the verb `escribir` and is commonly used before spelling names, emails, or other words letter by letter. For example:
+Questa forma deriva dal verbo `escribir` ed è comunemente usata prima di compitare nomi, email o altre parole lettera per lettera. Per esempio:
 
-- `Carlos se escribe C-a-r-l-o-s.` – Carlos is spelled C-a-r-l-o-s.
+- `Carlos se escribe C-a-r-l-o-s.` – Carlos si compita C-a-r-l-o-s.
 
-- `Mi apellido se escribe con z.` – My last name is spelled with z.
+- `Mi apellido se escribe con z.` – Il mio cognome si compita con la z.
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Ascolta l'audio e completa la frase qui sotto.
 
 # --fillInTheBlank--
 
@@ -38,7 +38,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This small word is part of a common expression used when explaining how something is written.
+Questa piccola parola fa parte di un'espressione comune usata per spiegare come si scrive qualcosa.
 
 ---
 
@@ -46,13 +46,13 @@ This small word is part of a common expression used when explaining how somethin
 
 ### --feedback--
 
-This verb form comes from `escribir` and is used when spelling a word.
+Questa forma verbale deriva da `escribir` ed è usata quando si compita una parola.
 
 # --explanation--
 
-`Se escribe` is used when explaining how a word or name is written.
+`Se escribe` si usa per spiegare come si scrive una parola o un nome.
 
-It comes from the verb `escribir` and is commonly used before spelling something letter by letter.
+Deriva dal verbo `escribir` ed è comunemente usata prima di compitare qualcosa lettera per lettera.
 
 # --scene--
 

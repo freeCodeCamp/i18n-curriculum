@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Read the text and answer the question below.
+Прочитайте текст і дайте відповідь на запитання нижче.
 
 # --questions--
 
@@ -30,7 +30,7 @@ After reviewing the survey results for the remote work stipend, Bob decided to w
 
 `As remote work grows, companies need to support their workers in the best way possible. A well-equipped home office isn't just a nice extra — it's key to doing great work.`
 
-Why do some workers prefer to use the stipend for office furniture?
+Чому деякі працівники віддають перевагу використанню стипендії на офісні меблі?
 
 ## --answers--
 
@@ -38,7 +38,7 @@ Because they don't like working remotely.
 
 ### --feedback--
 
-The article does not suggest that these workers dislike remote work.
+У статті не йдеться про те, що ці працівники не люблять працювати віддалено.
 
 ---
 
@@ -50,7 +50,7 @@ To buy decorations for their home office.
 
 ### --feedback--
 
-The article doesn't discuss furniture that improves decorations.
+У статті не обговорюється меблі, які покращують декор.
 
 ---
 
@@ -58,7 +58,7 @@ To impress their coworkers.
 
 ### --feedback--
 
-The reason given in the article isn't appearances.
+Причина, наведена у статті, не пов’язана з зовнішнім виглядом.
 
 ## --video-solution--
 
@@ -66,6 +66,6 @@ The reason given in the article isn't appearances.
 
 # --explanation--
 
-The article explains that `a bad chair and desk can cause health problems` and make it harder to focus. This is why some workers prioritize using the stipend for office furniture instead of technology.
+У статті пояснюється, що `a bad chair and desk can cause health problems` і це ускладнює фокусування. Саме тому деякі працівники віддають перевагу використанню стипендії на офісні меблі замість технологій.
 
-Focus on how the article highlights ergonomics and well-being as key reasons for choosing furniture over computers.
+Зверніть увагу, як у статті підкреслюється ергономіка та добробут як ключові причини вибору меблів замість комп’ютерів.

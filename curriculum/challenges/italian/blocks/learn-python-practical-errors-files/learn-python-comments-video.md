@@ -1,6 +1,6 @@
 ---
 id: 71ac60e6488b40e997219f15
-title: Comments
+title: Commenti
 challengeType: 11
 videoId: CY-CMJIt1z8
 dashedName: comments-learn-python-full-course-for-beginners
@@ -8,13 +8,13 @@ dashedName: comments-learn-python-full-course-for-beginners
 
 # --description--
 
-In this video, you will learn how to write comments in Python to document your code and make it more readable.
+In questo video imparerai come scrivere commenti in Python per documentare il tuo codice e renderlo più leggibile.
 
 # --questions--
 
 ## --text--
 
-Which of the following is a single line comment in Python?
+Quale dei seguenti è un commento su singola riga in Python?
 
 ## --answers--
 

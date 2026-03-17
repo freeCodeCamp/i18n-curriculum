@@ -1,6 +1,6 @@
 ---
 id: 6903d3c4ccae5fffec5f3cbc
-title: Task 4
+title: Attività 4
 challengeType: 19
 dashedName: task-4
 lang: es
@@ -10,13 +10,13 @@ lang: es
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Ascolta l'audio e rispondi alla domanda qui sotto.
 
 # --questions--
 
 ## --text--
 
-What is Mateo's nationality?
+Qual è la nazionalità di Mateo?
 
 ## --answers--
 
@@ -24,7 +24,7 @@ What is Mateo's nationality?
 
 ### --feedback--
 
-This option refers to someone from Chile.
+Questa opzione si riferisce a qualcuno del Cile.
 
 ---
 
@@ -32,7 +32,7 @@ This option refers to someone from Chile.
 
 ### --feedback--
 
-This word describes a person from Peru.
+Questa parola descrive una persona del Perù.
 
 ---
 
@@ -44,7 +44,7 @@ This word describes a person from Peru.
 
 ### --feedback--
 
-This refers to a woman from Colombia, and the ending `-a` indicates the feminine form, which does not match Mateo.
+Questo si riferisce a una donna della Colombia, e la desinenza `-a` indica la forma femminile, che non corrisponde a Mateo.
 
 ## --video-solution--
 
@@ -52,17 +52,17 @@ This refers to a woman from Colombia, and the ending `-a` indicates the feminine
 
 # --explanation--
 
-`Soy` ("I am") comes from the verb `ser` and is used to express identity, nationality, or profession. For example:
+`Soy` ("Io sono") deriva dal verbo `ser` ed è usato per esprimere identità, nazionalità o professione. Per esempio:
 
-- `Soy chilena.` – I'm Chilean. (feminine)
+- `Soy chilena.` – Sono cilena. (femminile)
 
-- `Soy chileno.` – I'm Chilean. (masculine)
+- `Soy chileno.` – Sono cileno. (maschile)
 
-- `Soy puertorriqueña` - I'm Puerto Rican. (feminine)
+- `Soy puertorriqueña` - Sono portoricana. (femminile)
 
-- `Soy puertorriqueño` - I'm Puerto Rican. (masculine)
+- `Soy puertorriqueño` - Sono portoricano. (maschile)
 
-- `Soy canadiense.` – I'm Canadian. (neutral)
+- `Soy canadiense.` – Sono canadese. (neutro)
 
 # --scene--
 

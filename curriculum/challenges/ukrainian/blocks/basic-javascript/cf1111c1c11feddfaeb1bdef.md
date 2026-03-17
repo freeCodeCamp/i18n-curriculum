@@ -1,6 +1,6 @@
 ---
 id: cf1111c1c11feddfaeb1bdef
-title: Iterate with JavaScript While Loops
+title: Ітерувати за допомогою циклів while у JavaScript
 challengeType: 1
 forumTopicId: 18220
 dashedName: iterate-with-javascript-while-loops
@@ -8,9 +8,9 @@ dashedName: iterate-with-javascript-while-loops
 
 # --description--
 
-You can run the same code multiple times by using a loop.
+Ви можете запускати один і той самий код кілька разів, використовуючи цикл.
 
-The first type of loop we will learn is called a `while` loop because it runs while a specified condition is true and stops once that condition is no longer true.
+Перший тип циклу, який ми вивчимо, називається циклом `while`, тому що він виконується, поки задана умова є істинною, і зупиняється, коли ця умова перестає бути істинною.
 
 ```js
 const ourArray = [];
@@ -22,23 +22,23 @@ while (i < 5) {
 }
 ```
 
-In the code example above, the `while` loop will execute 5 times and append the numbers 0 through 4 to `ourArray`.
+У наведеному вище прикладі коду цикл `while` виконається 5 разів і додасть числа від 0 до 4 у `ourArray`.
 
-Let's try getting a while loop to work by pushing values to an array.
+Давайте спробуємо змусити цикл while працювати, додаючи значення до масиву.
 
 # --instructions--
 
-Add the numbers 5 through 0 (inclusive) in descending order to `myArray` using a `while` loop.
+Додайте числа від 5 до 0 (включно) у спадному порядку до `myArray` за допомогою циклу `while`.
 
 # --hints--
 
-You should be using a `while` loop for this.
+Вам слід використовувати цикл `while` для цього.
 
 ```js
 assert(__helpers.removeJSComments(code).match(/while/g));
 ```
 
-`myArray` should equal `[5, 4, 3, 2, 1, 0]`.
+`myArray` має дорівнювати `[5, 4, 3, 2, 1, 0]`.
 
 ```js
 assert.deepEqual(myArray, [5, 4, 3, 2, 1, 0]);

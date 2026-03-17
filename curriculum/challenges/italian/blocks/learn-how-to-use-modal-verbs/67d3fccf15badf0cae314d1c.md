@@ -1,6 +1,6 @@
 ---
 id: 67d3fccf15badf0cae314d1c
-title: Task 7
+title: Attività 7
 challengeType: 22
 dashedName: task-7
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Ascolta l'audio e completa la frase qui sotto.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This verb shows necessity, meaning something is required.
+Questo verbo indica necessità, cioè che qualcosa è richiesto.
 
 ---
 
@@ -32,15 +32,15 @@ This verb shows necessity, meaning something is required.
 
 ### --feedback--
 
-This verb follows `need` to when asking about an action.
+Questo verbo segue `need` quando si chiede di un'azione.
 
 # --explanation--
 
-`Need to` is used when asking about necessary actions. It is followed by the base form of the verb (`do`). For example:
+`Need to` si usa per chiedere quali azioni sono necessarie. È seguito dalla forma base del verbo (`do`). Per esempio:
 
-- `We need to do more testing before releasing the app.` - It is necessary to test the app before launching it.
+- `We need to do more testing before releasing the app.` - È necessario testare l'app prima di lanciarla.
 
-- `We need to do some updates to fix the bugs.` - It is necessary to update the system to solve problems.
+- `We need to do some updates to fix the bugs.` - È necessario aggiornare il sistema per risolvere i problemi.
 
 # --scene--
 

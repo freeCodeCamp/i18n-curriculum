@@ -1,6 +1,6 @@
 ---
 id: 678a5e7dffffba38c5ad16c4
-title: Task 17
+title: Attività 17
 challengeType: 22
 dashedName: task-17
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Ascolta l'audio e completa la frase qui sotto.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This two-word phrase means something is very suitable or effective for a particular purpose.
+Questa frase di due parole significa che qualcosa è molto adatto o efficace per uno scopo particolare.
 
 ---
 
@@ -32,15 +32,15 @@ This two-word phrase means something is very suitable or effective for a particu
 
 ### --feedback--
 
-This two-word phrase means something is suitable or beneficial for a specific task or situation.
+Questa frase di due parole significa che qualcosa è adatto o vantaggioso per un compito o una situazione specifica.
 
 # --explanation--
 
-Both `great for` and `good for` mean something is very helpful, suitable or effective for a specific purpose. For example:
+Sia `great for` che `good for` indicano che qualcosa è molto utile, adatto o efficace per uno scopo specifico. Per esempio:
 
-- `This new software is great for managing large projects.` - This means the software is very suitable and effective for managing large projects.
+- `This new software is great for managing large projects.` - Questo significa che il software è molto adatto ed efficace per gestire grandi progetti.
 
-- `Cloud storage is good for backing up large volumes of data.` - This means cloud storage is highly effective and well-suited for safely storing large amounts of data.
+- `Cloud storage is good for backing up large volumes of data.` - Questo significa che l'archiviazione cloud è altamente efficace e ben adatta per conservare in sicurezza grandi quantità di dati.
 
 # --scene--
 

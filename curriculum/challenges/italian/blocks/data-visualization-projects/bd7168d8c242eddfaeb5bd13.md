@@ -8,43 +8,43 @@ dashedName: visualize-data-with-a-bar-chart
 
 # --description--
 
-**Objective:** Build an app that is functionally similar to this: <a href="https://bar-chart.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://bar-chart.freecodecamp.rocks</a>.
+**Obiettivo:** Crea un'app che sia funzionalmente simile a questa: <a href="https://bar-chart.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://bar-chart.freecodecamp.rocks</a>.
 
-Soddisfa le user story qui sotto e supera tutti i test. Utilizza le librerie o le API di cui hai bisogno. Usa il tuo stile personale.
+Completa le seguenti storie utente e fai in modo che tutti i test vengano superati. Usa le librerie o le API che preferisci. Dai un tocco personale al tuo stile.
 
-Puoi usare HTML, JavaScript, CSS e la libreria di visualizzazione basata su svg D3. I test richiedono la generazione degli assi con la proprietà axis di D3, che crea automaticamente le tacche sugli assi. Queste tacche sono richieste per superare i test perché la loro posizione è usata per determinare l'allineamento degli elementi del grafico. Troverai informazioni su come generare gli assi su <https://d3js.org/d3-axis>. Gli elementi del DOM richiesti sono selezionati al momento di ogni test. If you use a front-end framework (like Vue for example), the test results may be inaccurate for dynamic content. Speriamo di supportarli prima o poi, ma questi framework non sono supportati al momento per i progetti D3.
+Puoi usare HTML, JavaScript, CSS e la libreria di visualizzazione basata su SVG D3. I test richiedono che gli assi vengano generati usando la proprietà axis di D3, che crea automaticamente i segni di graduazione lungo l'asse. Questi segni sono necessari per superare i test D3 perché le loro posizioni vengono usate per determinare l’allineamento degli elementi del grafico. Troverai informazioni sulla generazione degli assi su <https://d3js.org/d3-axis>. Gli elementi DOM richiesti vengono interrogati al momento di ogni test. Se usi un framework front-end (come Vue per esempio), i risultati dei test potrebbero non essere accurati per contenuti dinamici. Speriamo di supportarli in futuro, ma attualmente questi framework non sono supportati per i progetti D3.
 
-**User Story #1:** Il mio grafico dovrebbe avere un titolo con corrispondente `id="title"`.
+**Storia utente #1:** Il mio grafico dovrebbe avere un titolo con un corrispondente `id="title"`.
 
-**User Story #2:** Il mio grafico dovrebbe avere un elemento x-axis `g` con un corrispondente `id="x-axis"`.
+**Storia utente #2:** Il mio grafico dovrebbe avere un elemento `g` per l’asse x con un corrispondente `id="x-axis"`.
 
-**User Story #3:** Il mio grafico dovrebbe avere un elemento y-axis `g` con un corrispondente `id="y-axis"`.
+**Storia utente #3:** Il mio grafico dovrebbe avere un elemento `g` per l’asse y con un corrispondente `id="y-axis"`.
 
-**User Story #4:** I due assi dovrebbero avere etichette multiple per le tacche ognuna con una corrispondente `class="tick"`.
+**Storia utente #4:** Entrambi gli assi dovrebbero contenere più etichette di segni di graduazione, ciascuna con un corrispondente `class="tick"`.
 
-**User Story #5:** Il mio grafico dovrebbe avere un elemento `rect` che mostra i dati di ogni data point con una corrispondente `class="bar"`.
+**Storia utente #5:** Il mio grafico dovrebbe avere un elemento `rect` per ogni punto dati con un corrispondente `class="bar"` che mostra i dati.
 
-**User Story #6:** Ogni`.bar` dovrebbe avere le proprietà `data-date` e `data-gdp` contenenti i valori `date` e `GDP`.
+**Storia utente #6:** Ogni `.bar` dovrebbe avere le proprietà `data-date` e `data-gdp` contenenti valori `date` e `GDP`.
 
-**User Story #7:** Le proprietà `data-date` degli elementi `.bar` dovrebbero corrispondere all'ordine dei dati forniti.
+**Storia utente #7:** Le proprietà `.bar` degli elementi `data-date` dovrebbero corrispondere all’ordine dei dati forniti.
 
-**User Story #8:** Le proprietà `data-gdp` degli elementi `.bar` dovrebbero corrispondere all'ordine dei dati forniti.
+**Storia utente #8:** Le proprietà `.bar` degli elementi `data-gdp` dovrebbero corrispondere all’ordine dei dati forniti.
 
-**User Story #9:** L'altezza di ogni elemento `.bar` dovrebbe rappresentare accuratamente il corrispondente dato `GDP`.
+**Storia utente #9:** L’altezza di ogni elemento `.bar` dovrebbe rappresentare accuratamente il `GDP` corrispondente dei dati.
 
-**User Story #10:** L'attributo `data-date` e il suo corrispondente elemento `.bar` dovrebbero allinearsi con il corrispondente valore dell'asse x.
+**Storia utente #10:** L’attributo `data-date` e il suo elemento `.bar` corrispondente dovrebbero essere allineati con il valore corrispondente sull’asse x.
 
-**User Story #11:** L'attributo `data-gdp` e il suo corrispondente elemento `.bar` dovrebbero allinearsi con il corrispondente valore dell'asse y.
+**Storia utente #11:** L’attributo `data-gdp` e il suo elemento `.bar` corrispondente dovrebbero essere allineati con il valore corrispondente sull’asse y.
 
-**User Story #12:** Posso passare con il mouse su un'area e vedere un tooltip con un corrispondente `id="tooltip"` che mostra maggiori informazioni sull'area.
+**Storia utente #12:** Posso passare il mouse su un’area e vedere un tooltip con un corrispondente `id="tooltip"` che mostra più informazioni sull’area.
 
-**User Story #13:** Il mio tooltip dovrebbe avere una proprietà `data-date` che corrisponde al `data-date` dell'area attiva.
+**Storia utente #13:** Il mio tooltip dovrebbe avere una proprietà `data-date` che corrisponde al `data-date` dell’area attiva.
 
-Ecco i dati che dovrai utilizzare per completare il progetto: `https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/GDP-data.json`
+Ecco il dataset di cui avrai bisogno per completare questo progetto: `https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/GDP-data.json`
 
-Puoi costruire il tuo progetto <a href='https://codepen.io/pen?template=MJjpwO' target="_blank" rel="noopener noreferrer nofollow">usando questo modello CodePen</a> e facendo click su `Save` per creare il tuo pen. Oppure puoi usare questo link CDN per eseguire i test in qualsiasi ambiente tu voglia: `https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js`.
+Puoi costruire il tuo progetto <a href='https://codepen.io/pen?template=MJjpwO' target="_blank" rel="noopener noreferrer nofollow">usando questo template di CodePen</a> e cliccando `Save` per creare il tuo pen. Oppure puoi usare questo collegamento CDN per eseguire i test in qualsiasi ambiente preferisci: `https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js`.
 
-Una volta fatto, invia l'URL del tuo progetto di lavoro con tutti i suoi test superati.
+Quando hai finito, invia l’URL del tuo progetto funzionante con tutti i test superati.
 
 # --solutions--
 

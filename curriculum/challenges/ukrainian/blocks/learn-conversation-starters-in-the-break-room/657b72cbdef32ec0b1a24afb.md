@@ -1,6 +1,6 @@
 ---
 id: 657b72cbdef32ec0b1a24afb
-title: Task 30
+title: Завдання 30
 challengeType: 19
 dashedName: task-30
 lang: en-US
@@ -10,15 +10,15 @@ lang: en-US
 
 # --description--
 
-When you hear about different types of guitars, two common kinds might come up: `electric` and `acoustic`.
+Коли ви чуєте про різні типи гітар, можуть згадуватися два загальні види: `electric` і `acoustic`.
 
-`Electric guitars` usually need something called an amplifier to be loud enough to hear, while `acoustic guitars` can be heard without any extra equipment.
+`Electric guitars` зазвичай потребують чогось, що називається підсилювачем, щоб бути достатньо гучними, а `acoustic guitars` можна почути без додаткового обладнання.
 
 # --questions--
 
 ## --text--
 
-What type of guitar does Sophie prefer?
+Який тип гітари віддає перевагу Софі?
 
 ## --answers--
 
@@ -30,7 +30,7 @@ Acoustic guitar
 
 ### --feedback--
 
-Sophie makes it very clear which type of guitar she likes. The one she prefers needs an amplifier to be loud.
+Софі дуже чітко дає зрозуміти, який тип гітари їй подобається. Та, яку вона віддає перевагу, потребує підсилювача, щоб бути гучною.
 
 ## --video-solution--
 

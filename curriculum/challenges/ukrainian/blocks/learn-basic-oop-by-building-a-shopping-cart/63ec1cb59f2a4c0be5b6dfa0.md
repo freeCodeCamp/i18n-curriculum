@@ -1,23 +1,23 @@
 ---
 id: 63ec1cb59f2a4c0be5b6dfa0
-title: Step 5
+title: Крок 5
 challengeType: 0
 dashedName: step-5
 ---
 
 # --description--
 
-A shopping cart does not serve much purpose without products. Declare a `products` variable and set it to an empty array. Using an array will allow you to store multiple products.
+Кошик для покупок мало для чого потрібен без товарів. Оголосіть змінну `products` і встановіть її як порожній масив. Використання масиву дозволить зберігати кілька товарів.
 
 # --hints--
 
-You should declare a `products` variable with `const`.
+Ви повинні оголосити змінну `products` за допомогою `const`.
 
 ```js
 assert.match(code, /const\s+products\b/);
 ```
 
-You should set the `products` variable to an empty array.
+Ви повинні встановити змінну `products` як порожній масив.
 
 ```js
 assert.match(code, /const\s+products\s*=\s*\[\s*\]/);

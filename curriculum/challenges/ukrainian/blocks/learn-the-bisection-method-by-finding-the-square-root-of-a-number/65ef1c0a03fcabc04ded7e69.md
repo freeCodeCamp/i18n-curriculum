@@ -7,44 +7,44 @@ dashedName: step-12
 
 # --description--
 
-В межах циклу `for` розрахуйте середину інтервалу від `low` до `high`. Надайте це значення змінній `mid`.
+Всередині циклу for обчисліть середину інтервалу від `low` до `high`. Призначте це значення змінній `mid`.
 
-Також розрахуйте квадрат середини (`mid`) та збережіть його в змінній `square_mid`.
-
+Також обчисліть квадрат середини (`mid`) і збережіть його у змінній `square_mid`.
+    
 # --hints--
 
-Видаліть ключове слово `pass`.
+Ви повинні видалити ключове слово `pass`.
 
 ```js
 ({
     test: () => 
     {
         assert.isFalse(runPython(`_Node(_code).find_function("square_root_bisection").find_ifs()[1].find_bodies()[2].find_for_loops()[0].find_bodies()[0].has_pass()`))
-
+        
     }
 
 })
 
 ```
 
-Оголосіть змінну `mid` та призначте до неї `(low + high) / 2` в межах тіла циклу `for`.
+Ви повинні оголосити змінну `mid` і призначити їй `(low + high) / 2` всередині тіла циклу `for`.
 
 ```js
 ({
     test: () => 
     {
         assert(runPython(`
-    node = _Node(_code).find_function("square_root_bisection").find_ifs()[1].find_bodies()[2].find_for_loops()[0].find_bodies()[0].find_variable("mid")
-    values = ["mid = (low + high) / 2", "mid = (high + low) / 2"]
-    any(node.is_equivalent(val) for val in values)
-    `))
-
+	node = _Node(_code).find_function("square_root_bisection").find_ifs()[1].find_bodies()[2].find_for_loops()[0].find_bodies()[0].find_variable("mid")
+	values = ["mid = (low + high) / 2", "mid = (high + low) / 2"]
+	any(node.is_equivalent(val) for val in values)
+	`))
+        
     }
 
 })
 ```
 
-Оголосіть змінну `square_mid` та призначте до неї `mid**2` в межах тіла циклу `for`.
+Ви повинні оголосити змінну `square_mid` і призначити їй `mid**2` всередині тіла циклу for.
 
 ```js
 ({ test: () => assert(runPython(`_Node(_code).find_function("square_root_bisection").find_ifs()[1].find_bodies()[2].find_for_loops()[0].find_bodies()[0].find_variable("square_mid").is_equivalent("square_mid = mid**2")`)) })
@@ -69,7 +69,7 @@ def square_root_bisection(square_target, tolerance=1e-7, max_iterations=100):
         low = 0
         high = max(1, square_target)
         root = None
-
+        
 --fcc-editable-region--
         for _ in range(max_iterations):
             pass

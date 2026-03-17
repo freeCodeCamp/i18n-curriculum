@@ -1,6 +1,6 @@
 ---
 id: 699e855e8f18cf77dfce5c22
-title: Parabolas - Vertex, Focus, Directrix
+title: Параболи — вершина, фокус, директриса
 challengeType: 11
 videoId: fAXpgprNFq0
 dashedName: parabolas-vertex-focus-directrix
@@ -8,31 +8,30 @@ dashedName: parabolas-vertex-focus-directrix
 
 # --description--
 
-In this video, you will learn about special forms for equations of parabolas, and how to find the vertex, focus, and directrix of a parabola.
+У цьому відео ви дізнаєтеся про спеціальні форми рівнянь парабол, а також як знайти вершину, фокус і директрису параболи.
 
 # --questions--
 
 ## --text--
 
-Which of the following is a valid form for the equation of a parabola?
+Яка з наведених форм є правильною для рівняння параболи?
 
 ## --answers--
 
-`x - h = 4p(y - k)^2`
+$x - h = 4p(y - k)^2$
 
 ---
 
-`y^2 - k^2 = 4p(x - h)`
+$y^2 - k^2 = 4p(x - h)$
 
 ---
 
-`(y - k)^2 = 4p(x - h)`
+$(y - k)^2 = 4p(x - h)$
 
 ---
 
-`y - k = 4p(x - h)^2`
+$y - k = 4p(x - h)^2$
 
 ## --video-solution--
 
 3
-

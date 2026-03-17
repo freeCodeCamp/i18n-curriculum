@@ -1,6 +1,6 @@
 ---
 id: 699e0353138be64fa313138f
-title: Piecewise Functions
+title: Частинні функції
 challengeType: 11
 videoId: C9hCmH9nj4o
 dashedName: piecewise-functions
@@ -8,29 +8,29 @@ dashedName: piecewise-functions
 
 # --description--
 
-In this video, you will learn about piecewise functions.
+У цьому відео ви дізнаєтеся про частинні функції.
 
 # --questions--
 
 ## --text--
 
-What is a piecewise function?
+Що таке частинна функція?
 
 ## --answers--
 
-A function that is defined by multiple sub-functions on the y-axis.
+Функція, яка визначена кількома підфункціями на осі y.
 
 ---
 
-A function that is defined by a single formula for all values of x.
+Функція, яка визначена однією формулою для всіх значень x.
 
 ---
 
-A function that is defined by the x and y values of a set of points.
+Функція, яка визначена значеннями x та y множини точок.
 
 ---
 
-A function that is defined by multiple sub-functions.
+Функція, яка визначена кількома підфункціями.
 
 ## --video-solution--
 

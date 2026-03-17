@@ -1,6 +1,6 @@
 ---
 id: 662e4f2edbb46a1dc6efc94f
-title: Task 37
+title: Завдання 37
 challengeType: 22
 dashedName: task-37
 lang: en-US
@@ -10,9 +10,9 @@ lang: en-US
 
 # --description--
 
-`Common` is used to describe something that happens often or is widely shared among many people. For example, `Colds are a common illness during the winter.` This means it's a usual health issue many people face during that time of year.
+`Common` використовується для опису чогось, що трапляється часто або широко поширене серед багатьох людей. Наприклад, `Colds are a common illness during the winter.` Це означає, що це звичайна проблема зі здоров’ям, з якою стикаються багато людей у цей період року.
 
-`Challenge` refers to a task or situation that requires special effort to accomplish because it is difficult. For instance, `Learning to ride a bike was a big challenge for her at first.` This sentence describes how learning to ride a bike presented difficulties initially.
+`Challenge` означає завдання або ситуацію, що вимагає особливих зусиль для виконання, бо є складною. Наприклад, `Learning to ride a bike was a big challenge for her at first.` Це речення описує, як навчання їзді на велосипеді спочатку було складним.
 
 # --fillInTheBlank--
 
@@ -26,7 +26,7 @@ lang: en-US
 
 ### --feedback--
 
-This adjective describes something that occurs frequently or is usual among a group.
+Цей прикметник описує щось, що трапляється часто або є звичайним серед групи.
 
 ---
 
@@ -34,7 +34,7 @@ This adjective describes something that occurs frequently or is usual among a gr
 
 ### --feedback--
 
-This noun refers to a difficult task or problem that requires effort to solve or overcome.
+Це іменник, що означає складне завдання або проблему, яка вимагає зусиль для розв’язання чи подолання.
 
 # --scene--
 

@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c442eddfaeb5bd18
-title: Build a Tribute Page
+title: Costruisci una pagina tributo
 challengeType: 14
 saveSubmissionToDB: true
 forumTopicId: 301147
@@ -9,27 +9,27 @@ dashedName: build-a-tribute-page
 
 # --description--
 
-**Objective:** Build an app that is functionally similar to <a href="https://tribute-page.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://tribute-page.freecodecamp.rocks</a>. **Do not copy this demo project**.
+**Obiettivo:** Costruisci un'app che sia funzionalmente simile a <a href="https://tribute-page.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://tribute-page.freecodecamp.rocks</a>. **Non copiare questo progetto dimostrativo**.
 
-**User Stories:**
+**Storie utente:**
 
-1. Your tribute page should have a `main` element with a corresponding `id` of `main`, which contains all other elements
-1. You should see an element with an `id` of `title`, which contains a string (i.e. text), that describes the subject of the tribute page (e.g. "Dr. Norman Borlaug")
-1. You should see either a `figure` or a `div` element with an `id` of `img-div`
-1. Within the `#img-div` element, you should see an `img` element with a corresponding `id="image"`
-1. Within the `#img-div` element, you should see an element with a corresponding `id="img-caption"` that contains textual content describing the image shown in `#img-div`
-1. You should see an element with a corresponding `id="tribute-info"`, which contains textual content describing the subject of the tribute page
-1. You should see an `a` element with a corresponding `id="tribute-link"`, which links to an outside site, that contains additional information about the subject of the tribute page. HINT: You must give your element an attribute of `target` and set it to `_blank` in order for your link to open in a new tab
-1. Your `#image` should use `max-width` and `height` properties to resize responsively, relative to the width of its parent element, without exceeding its original size
-1. Your `img` element should be centered within its parent element
+1. La tua pagina tributo dovrebbe avere un elemento `main` con un corrispondente `id` di `main`, che contiene tutti gli altri elementi
+1. Dovresti vedere un elemento con un `id` di `title`, che contiene una stringa (cioè testo), che descrive il soggetto della pagina tributo (ad esempio "Dr. Norman Borlaug")
+1. Dovresti vedere un elemento `figure` o `div` con un `id` di `img-div`
+1. All'interno dell'elemento `#img-div`, dovresti vedere un elemento `img` con un corrispondente `id="image"`
+1. All'interno dell'elemento `#img-div`, dovresti vedere un elemento con un corrispondente `id="img-caption"` che contiene contenuto testuale che descrive l'immagine mostrata in `#img-div`
+1. Dovresti vedere un elemento con un corrispondente `id="tribute-info"`, che contiene contenuto testuale che descrive il soggetto della pagina tributo
+1. Dovresti vedere un elemento `a` con un corrispondente `id="tribute-link"`, che collega a un sito esterno, che contiene informazioni aggiuntive sul soggetto della pagina tributo. SUGGERIMENTO: devi dare al tuo elemento un attributo `target` e impostarlo su `_blank` affinché il collegamento si apra in una nuova scheda
+1. Il tuo `#image` dovrebbe usare le proprietà `max-width` e `height` per ridimensionarsi in modo responsivo, rispetto alla larghezza del suo elemento genitore, senza superare la sua dimensione originale
+1. Il tuo elemento `img` dovrebbe essere centrato all'interno del suo elemento genitore
 
-Fulfill the user stories and pass all the tests below to complete this project. Give it your own personal style. Happy Coding!
+Completa le storie utente e supera tutti i test qui sotto per completare questo progetto. Dagli il tuo stile personale. Buona programmazione!
 
-**Note:** Be sure to add `<link rel="stylesheet" href="styles.css">` in your HTML to link your stylesheet and apply your CSS
+**Nota:** Assicurati di aggiungere `<link rel="stylesheet" href="styles.css">` nel tuo HTML per collegare il foglio di stile e applicare il CSS
 
 # --hints--
 
-You should have a `main` element with an `id` of `main`.
+Dovresti avere un elemento `main` con un `id` di `main`.
 
 ```js
 const el = document.getElementById('main');
@@ -37,7 +37,7 @@ assert.isNotNull(el);
 assert.strictEqual(el.tagName, 'MAIN');
 ```
 
-Your `#img-div`, `#image`, `#img-caption`, `#tribute-info`, and `#tribute-link` should all be descendants of `#main`.
+I tuoi `#img-div`, `#image`, `#img-caption`, `#tribute-info` e `#tribute-link` dovrebbero essere tutti discendenti di `#main`.
 
 ```js
 const el1 = document.querySelector('#main #img-div');
@@ -52,14 +52,14 @@ assert.isNotNull(el4);
 assert.isNotNull(el5);
 ```
 
-You should have an element with an `id` of `title`.
+Dovresti avere un elemento con un `id` di `title`.
 
 ```js
 const el = document.getElementById('title');
 assert.isNotNull(el);
 ```
 
-Your `#title` should not be empty.
+Il tuo `#title` non dovrebbe essere vuoto.
 
 ```js
 const el = document.getElementById('title');
@@ -67,7 +67,7 @@ assert.isNotNull(el);
 assert.isNotEmpty(el.innerText.trim());
 ```
 
-You should have a `figure` or `div` element with an `id` of `img-div`.
+Dovresti avere un elemento `figure` o `div` con un `id` di `img-div`.
 
 ```js
 const el = document.getElementById('img-div');
@@ -75,7 +75,7 @@ assert.isNotNull(el);
 assert.isTrue(el.tagName === 'DIV' || el.tagName === 'FIGURE');
 ```
 
-You should have an `img` element with an `id` of `image`.
+Dovresti avere un elemento `img` con un `id` di `image`.
 
 ```js
 const el = document.getElementById('image');
@@ -83,14 +83,14 @@ assert.isNotNull(el);
 assert.strictEqual(el.tagName, 'IMG');
 ```
 
-Your `#image` should be a descendant of `#img-div`.
+Il tuo `#image` dovrebbe essere un discendente di `#img-div`.
 
 ```js
 const el = document.querySelector('#img-div #image');
 assert.isNotNull(el);
 ```
 
-You should have a `figcaption` or `div` element with an `id` of `img-caption`.
+Dovresti avere un elemento `figcaption` o `div` con un `id` di `img-caption`.
 
 ```js
 const el = document.getElementById('img-caption');
@@ -98,14 +98,14 @@ assert.isNotNull(el);
 assert.isTrue(el.tagName === 'DIV' || el.tagName === 'FIGCAPTION');
 ```
 
-Your `#img-caption` should be a descendant of `#img-div`.
+Il tuo `#img-caption` dovrebbe essere un discendente di `#img-div`.
 
 ```js
 const el = document.querySelector('#img-div #img-caption');
 assert.isNotNull(el);
 ```
 
-Your `#img-caption` should not be empty.
+Il tuo `#img-caption` non dovrebbe essere vuoto.
 
 ```js
 const el = document.getElementById('img-caption');
@@ -113,14 +113,14 @@ assert.isNotNull(el);
 assert.isNotEmpty(el.innerText);
 ```
 
-You should have an element with an `id` of `tribute-info`.
+Dovresti avere un elemento con un `id` di `tribute-info`.
 
 ```js
 const el = document.getElementById('tribute-info');
 assert.isNotNull(el);
 ```
 
-Your `#tribute-info` should not be empty.
+Il tuo `#tribute-info` non dovrebbe essere vuoto.
 
 ```js
 const el = document.getElementById('tribute-info');
@@ -128,7 +128,7 @@ assert.isNotNull(el);
 assert.isNotEmpty(el.innerText);
 ```
 
-You should have an `a` element with an `id` of `tribute-link`.
+Dovresti avere un elemento `a` con un `id` di `tribute-link`.
 
 ```js
 const el = document.getElementById('tribute-link');
@@ -136,7 +136,7 @@ assert.isNotNull(el);
 assert.strictEqual(el.tagName, 'A');
 ```
 
-Your `#tribute-link` should have an `href` attribute and value.
+Il tuo `#tribute-link` dovrebbe avere un attributo e valore `href`.
 
 ```js
 const el = document.getElementById('tribute-link');
@@ -145,7 +145,7 @@ assert.isNotNull(el.href);
 assert.isNotEmpty(el.href);
 ```
 
-Your `#tribute-link` should have a `target` attribute set to `_blank`.
+Il tuo `#tribute-link` dovrebbe avere un attributo `target` impostato su `_blank`.
 
 ```js
 const el = document.getElementById('tribute-link');
@@ -153,7 +153,7 @@ assert.isNotNull(el);
 assert.strictEqual(el.target, '_blank');
 ```
 
-Your `img` element should have a `display` of `block`.
+Il tuo elemento `img` dovrebbe avere un `display` di `block`.
 
 ```js
 const img = document.getElementById('image');
@@ -162,7 +162,7 @@ const style = imgStyle?.getPropertyValue('display');
 assert.strictEqual(style, 'block');
 ```
 
-Your `#image` should have a `max-width` of `100%`.
+Il tuo `#image` dovrebbe avere un `max-width` di `100%`.
 
 ```js
 const img = document.getElementById('image');
@@ -171,7 +171,7 @@ const style = imgStyle?.getPropertyValue('max-width');
 assert.strictEqual(style, '100%');
 ```
 
-Your `#image` should have a `height` of `auto`.
+Il tuo `#image` dovrebbe avere un `height` di `auto`.
 
 ```js
 // taken from the testable-projects repo
@@ -185,7 +185,7 @@ img?.style.setProperty('display', oldDisplayValue, oldDisplayPriority);
 assert.strictEqual(heightValue, 'auto');
 ```
 
-Your `#image` should be centered within its parent.
+Il tuo `#image` dovrebbe essere centrato all'interno del suo genitore.
 
 ```js
 // taken from the testable-projects repo

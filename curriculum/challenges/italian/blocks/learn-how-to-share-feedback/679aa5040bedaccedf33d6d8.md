@@ -1,6 +1,6 @@
 ---
 id: 679aa5040bedaccedf33d6d8
-title: Task 45
+title: Attività 45
 challengeType: 19
 dashedName: task-45
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Ascolta l'audio e rispondi alla domanda qui sotto.
 
 # --questions--
 
 ## --text--
 
-Why does Brian think it's not good when everyone thinks alike?
+Perché Brian pensa che non sia positivo quando tutti la pensano allo stesso modo?
 
 ## --answers--
 
-Because they might overlook important details.
+Perché potrebbero trascurare dettagli importanti.
 
 ---
 
-Because it would make decision-making faster.
+Perché renderebbe più veloce il processo decisionale.
 
 ### --feedback--
 
-Brian is not saying that agreement is beneficial.
+Brian non sta dicendo che l'accordo sia vantaggioso.
 
 ---
 
-Because disagreements always cause problems.
+Perché i disaccordi causano sempre problemi.
 
 ### --feedback--
 
-Brian is actually saying that some disagreement is useful, not that it causes problems.
+Brian in realtà dice che un po' di disaccordo è utile, non che causi problemi.
 
 ---
 
-Because no one would share their opinions.
+Perché nessuno condividerebbe le proprie opinioni.
 
 ### --feedback--
 
-Brian isn't talking about people refusing to share their opinions.
+Brian non parla di persone che si rifiutano di condividere le proprie opinioni.
 
 ## --video-solution--
 
@@ -52,11 +52,11 @@ Brian isn't talking about people refusing to share their opinions.
 
 # --explanation--
 
-The structure `if + verb in the Simple Past` followed by `might` in the consequence clause is used to describe a hypothetical situation with a possible outcome. For example:
+La struttura `if + verb in the Simple Past` seguita da `might` nella clausola di conseguenza si usa per descrivere una situazione ipotetica con un possibile risultato. Per esempio:
 
-`If you studied more, you might pass the exam.` - This means there is a possibility of passing if the person studies more.
+`If you studied more, you might pass the exam.` - Questo significa che c'è la possibilità di superare se la persona studia di più.
 
-In this dialogue, `If we all agreed on everything, we might miss important details` expresses a possible negative consequence of complete agreement.
+In questo dialogo, `If we all agreed on everything, we might miss important details` esprime una possibile conseguenza negativa di un accordo completo.
 
 # --scene--
 

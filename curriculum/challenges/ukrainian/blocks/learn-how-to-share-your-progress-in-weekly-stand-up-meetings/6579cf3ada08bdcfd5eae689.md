@@ -1,6 +1,6 @@
 ---
 id: 6579cf3ada08bdcfd5eae689
-title: Task 5
+title: Завдання 5
 challengeType: 19
 dashedName: task-5
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --description--
 
-In this dialogue, Sophie is making a request to Bob. Understanding the nature of her request is essential for effective team communication and collaboration, especially in technical environments where solving problems together is common.
+У цьому діалозі Софі звертається з проханням до Боба. Розуміння суті її запиту є важливим для ефективної командної комунікації та співпраці, особливо в технічних середовищах, де спільне розв’язання проблем є загальним.
 
 # --questions--
 
 ## --text--
 
-What is Sophie asking for in her conversation with Bob?
+Що Софі просить у своєму спілкуванні з Бобом?
 
 ## --answers--
 
-She's asking for help with a coding problem
+Вона просить допомоги з проблемою кодування
 
 ---
 
-She wants Bob to solve the problem for her
+Вона хоче, щоб Боб розв’язав проблему за неї
 
 ### --feedback--
 
-Sophie is asking for help, not necessarily for Bob to solve it entirely on his own.
+Софі просить допомоги, а не обов’язково щоб Боб розв’язав це повністю самостійно.
 
 ---
 
-She is offering to help Bob with a problem
+Вона пропонує допомогти Бобу з проблемою
 
 ### --feedback--
 
-Sophie is the one requesting assistance, not offering it.
+Софі та сама звертається по допомогу, а не пропонує її.
 
 ---
 
-She's discussing a future project
+Вона обговорює майбутній проєкт
 
 ### --feedback--
 
-Sophie's request is about a current coding issue she's facing, not a future project.
+Запит Софі стосується поточної проблеми з кодуванням, з якою вона стикається, а не майбутнього проєкту.
 
 ## --video-solution--
 

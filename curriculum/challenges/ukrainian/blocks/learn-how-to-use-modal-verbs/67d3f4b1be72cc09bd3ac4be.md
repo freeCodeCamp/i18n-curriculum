@@ -1,6 +1,6 @@
 ---
 id: 67d3f4b1be72cc09bd3ac4be
-title: Task 4
+title: Завдання 4
 challengeType: 22
 dashedName: task-4
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Прослухайте аудіо та доповніть речення нижче.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This modal verb expresses necessity or obligation.
+Цей модальний дієслово виражає необхідність або зобов’язання.
 
 ---
 
@@ -32,17 +32,17 @@ This modal verb expresses necessity or obligation.
 
 ### --feedback--
 
-This verb follows `must` to indicate an action that is required.
+Цей дієслово слідує за `must`, щоб вказати на дію, яку потрібно виконати.
 
 # --explanation--
 
-`Must` is a modal verb used to express necessity or obligation. For example:
+`Must` — це модальний дієслово, яке використовується для вираження необхідності або зобов’язання. Наприклад:
 
-- `You must wear a seatbelt while driving.` - It is required.
+- `You must wear a seatbelt while driving.` — Це потрібно.
 
-- `We must submit the report by Friday.` - It is necessary.
+- `We must submit the report by Friday.` — Це необхідно.
 
-Modal verbs are always followed by the base form of the verb (without `to`).
+За модальними дієсловами завжди слідує базова форма дієслова (без `to`).
 
 # --scene--
 

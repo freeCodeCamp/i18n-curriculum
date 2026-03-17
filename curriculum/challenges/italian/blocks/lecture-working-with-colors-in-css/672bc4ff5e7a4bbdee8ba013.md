@@ -1,13 +1,13 @@
 ---
 id: 672bc4ff5e7a4bbdee8ba013
-title: What Are Named Colors in CSS, and When to Use Them?
+title: Cosa sono i colori nominati in CSS e quando usarli?
 challengeType: 19
 dashedName: what-are-named-colors-in-css
 ---
 
 # --interactive--
 
-In CSS, colors play a crucial role in designing web pages, enhancing readability, setting the mood, and improving user experience. One of the simplest ways to define colors in CSS is by using named colors. Named colors are predefined color names recognized by browsers. Here is an example of using a named color for a paragraph element:
+In CSS, i colori giocano un ruolo fondamentale nella progettazione delle pagine web, migliorando la leggibilità, creando l’atmosfera e ottimizzando l’esperienza utente. Uno dei modi più semplici per definire i colori in CSS è usare i colori nominati. I colori nominati sono nomi di colore predefiniti riconosciuti dai browser. Ecco un esempio di utilizzo di un colore nominato per un elemento paragrafo:
 
 :::interactive_editor
 
@@ -24,11 +24,11 @@ p {
 
 :::
 
-In this example, we're using the named color `red` to style the text in a paragraph.
+In questo esempio, usiamo il colore nominato `red` per definire lo stile del testo in un paragrafo.
 
-Named colors in CSS are a collection of 140 standard color names like `red`, `blue`, `yellow`, `aqua`, `fuchsia`, `black`, and so on. These names are simple to use and make your code more readable, and they are self-descriptive.
+I colori nominati in CSS sono un insieme di 140 nomi di colore standard come `red`, `blue`, `yellow`, `aqua`, `fuchsia`, `black` e così via. Questi nomi sono semplici da usare, rendono il codice più leggibile e sono autoesplicativi.
 
-Named colors are useful for quick prototyping, simple designs, and improving code readability. Here is an another example of using named colors for an `h1` selector:
+I colori nominati sono utili per prototipi rapidi, design semplici e per migliorare la leggibilità del codice. Ecco un altro esempio di utilizzo di colori nominati per un selettore `h1`:
 
 :::interactive_editor
 
@@ -46,47 +46,47 @@ h1 {
 
 :::
 
-In this example, the heading text will be styled in navy, with a light gray background. The readability of the code improves since named colors provide an immediate visual understanding of the intended style.
+In questo esempio, il testo dell’intestazione sarà stilizzato in navy, con uno sfondo grigio chiaro. La leggibilità del codice migliora perché i colori nominati forniscono una comprensione visiva immediata dello stile previsto.
 
-Named colors in CSS are convenient but limited, with only 140 available options. They may not offer the precise shade needed for more detailed designs.
+I colori nominati in CSS sono comodi ma limitati, con solo 140 opzioni disponibili. Potrebbero non offrire la tonalità precisa necessaria per design più dettagliati.
 
-Named colors in CSS are a great way to apply colors quickly and descriptively. While they are useful for basic designs, prototyping, and improving code readability, their limited range makes them less suitable for complex designs requiring precise color control.
+I colori nominati in CSS sono un ottimo modo per applicare colori rapidamente e in modo descrittivo. Pur essendo utili per design di base, prototipi e per migliorare la leggibilità del codice, la loro gamma limitata li rende meno adatti a design complessi che richiedono un controllo preciso del colore.
 
-By understanding the strengths and limitations of named colors, you can determine when it’s best to use them over more detailed color models like RGB or HSL, which you will learn about in future lessons.
+Comprendendo i punti di forza e i limiti dei colori nominati, puoi decidere quando è meglio usarli rispetto a modelli di colore più dettagliati come RGB o HSL, che imparerai nelle lezioni future.
 
 # --questions--
 
 ## --text--
 
-What is a key benefit of using named colors in CSS?
+Qual è un vantaggio chiave dell’uso dei colori nominati in CSS?
 
 ## --answers--
 
-Named colors allow you to create gradients.
+I colori nominati ti permettono di creare gradienti.
 
 ### --feedback--
 
-Think about the simplicity and readability aspect of named colors.
+Pensa alla semplicità e alla leggibilità dei colori nominati.
 
 ---
 
-Named colors are simpler to write and make code more readable.
+I colori nominati sono più semplici da scrivere e rendono il codice più leggibile.
 
 ---
 
-Named colors provide a wider range of color options than hex codes.
+I colori nominati offrono una gamma più ampia di opzioni colore rispetto ai codici esadecimali.
 
 ### --feedback--
 
-Think about the simplicity and readability aspect of named colors.
+Pensa alla semplicità e alla leggibilità dei colori nominati.
 
 ---
 
-Named colors are the most precise way to define colors in web design.
+I colori nominati sono il modo più preciso per definire i colori nel design web.
 
 ### --feedback--
 
-Think about the simplicity and readability aspect of named colors.
+Pensa alla semplicità e alla leggibilità dei colori nominati.
 
 ## --video-solution--
 
@@ -94,35 +94,35 @@ Think about the simplicity and readability aspect of named colors.
 
 ## --text--
 
-In what scenario might named colors not be the best choice?
+In quale scenario i colori nominati potrebbero non essere la scelta migliore?
 
 ## --answers--
 
-When you need to quickly prototype a design.
+Quando devi prototipare rapidamente un design.
 
 ### --feedback--
 
-Think about the limitations of named colors in more complex designs.
+Pensa ai limiti dei colori nominati in design più complessi.
 
 ---
 
-When your design requires very specific or nuanced shades of color.
+Quando il tuo design richiede tonalità molto specifiche o sfumature delicate di colore.
 
 ---
 
-When your design involves only primary colors.
+Quando il tuo design coinvolge solo colori primari.
 
 ### --feedback--
 
-Think about the limitations of named colors in more complex designs.
+Pensa ai limiti dei colori nominati in design più complessi.
 
 ---
 
-When collaborating with others on a simple project.
+Quando collabori con altri su un progetto semplice.
 
 ### --feedback--
 
-Think about the limitations of named colors in more complex designs.
+Pensa ai limiti dei colori nominati in design più complessi.
 
 ## --video-solution--
 
@@ -130,7 +130,7 @@ Think about the limitations of named colors in more complex designs.
 
 ## --text--
 
-Which of the following is an example of a named color in CSS?
+Quale dei seguenti è un esempio di colore nominato in CSS?
 
 ## --answers--
 
@@ -138,7 +138,7 @@ Which of the following is an example of a named color in CSS?
 
 ### --feedback--
 
-Named colors are descriptive words, not numerical codes.
+I colori nominati sono parole descrittive, non codici numerici.
 
 ---
 
@@ -146,7 +146,7 @@ Named colors are descriptive words, not numerical codes.
 
 ### --feedback--
 
-Named colors are descriptive words, not numerical codes.
+I colori nominati sono parole descrittive, non codici numerici.
 
 ---
 
@@ -158,7 +158,7 @@ Named colors are descriptive words, not numerical codes.
 
 ### --feedback--
 
-Named colors are descriptive words, not numerical codes.
+I colori nominati sono parole descrittive, non codici numerici.
 
 ## --video-solution--
 

@@ -1,46 +1,46 @@
 ---
 id: afd15382cdfb22c9efe8b7de
-title: Implement a DNA Pair Generator
+title: Реалізувати генератор пар ДНК
 challengeType: 26
 dashedName: implement-a-dna-pair-generator
 ---
 
 # --description--
 
-In the double helix of the DNA, the bases are always paired together: if on one strand there is an <em>A</em> base, on the other strand directly in front there is a <em>T</em> base, the other pair is <em>C</em> and <em>G</em>.
+У подвійній спіралі ДНК основи завжди паруються: якщо на одному ланцюгу є основа <em>A</em>, то на іншому ланцюгу безпосередньо навпроти неї стоїть основа <em>T</em>, інша пара — це <em>C</em> і <em>G</em>.
 
-In this lab, you will write a function to match the missing base pairs for the provided DNA strand. For each character in the provided string, find the base pair character.
+У цій лабораторній роботі ви напишете функцію, яка підбере відсутні пари основ для заданого ланцюга ДНК. Для кожного символу у наданому рядку знайдіть пару основ.
 
-For example, for the input `ATCG`, return `[["A", "T"], ["T", "A"], ["C", "G"], ["G", "C"]]`
+Наприклад, для вхідних даних `ATCG` поверніть `[["A", "T"], ["T", "A"], ["C", "G"], ["G", "C"]]`
 
-The <em>A</em> base gets paired with a <em>T</em> base, the <em>T</em> base is paired with a <em>A</em> base, the <em>C</em> is paired with the <em>G</em> base, and finally the <em>G</em> base is paired with a <em>C</em> base.
+Основа <em>A</em> парується з основою <em>T</em>, основа <em>T</em> парується з основою <em>A</em>, основа <em>C</em> парується з основою <em>G</em>, а основа <em>G</em> парується з основою <em>C</em>.
 
-**Objective**: Fulfill the user stories below and get all the tests to pass to complete the lab.
+**Мета**: Виконайте наведені нижче історії користувача та пройдіть усі тести, щоб завершити лабораторну роботу.
 
-**User Stories:**
+**Історії користувача:**
 
-1. You should have a `pairElement` function that takes a string of any length as an argument.
-1. The `pairElement` function should return a 2d array, where each inner array has two strings inside, the first string is one base from the input, and the second string the paired base.
-1. When given `A`, the function should pair it with `T`.
-1. When given `T`, the function should pair it with `A`.
-1. When given `C`, the function should pair it with `G`.
-1. When given `G`, the function should pair it with `C`.
+1. Ви повинні мати функцію `pairElement`, яка приймає рядок будь-якої довжини як аргумент.
+1. Функція `pairElement` повинна повертати двовимірний масив, де кожен внутрішній масив містить два рядки: перший рядок — це одна основа з вхідних даних, а другий рядок — відповідна парна основа.
+1. Якщо функції передати `A`, вона повинна повернути пару `T`.
+1. Якщо функції передати `T`, вона повинна повернути пару `A`.
+1. Якщо функції передати `C`, вона повинна повернути пару `G`.
+1. Якщо функції передати `G`, вона повинна повернути пару `C`.
 
 # --hints--
 
-You should create a function named `pairElement`.
+Вам слід створити функцію з ім’ям `pairElement`.
 
 ```js
 assert.isFunction(pairElement);
 ```
 
-`pairElement` should take a single argument.
+`pairElement` має приймати один аргумент.
 
 ```js
 assert.lengthOf(pairElement, 1);
 ```
 
-`pairElement("ATCGA")` should return `[["A","T"],["T","A"],["C","G"],["G","C"],["A","T"]]`.
+`pairElement("ATCGA")` має повертати `[["A","T"],["T","A"],["C","G"],["G","C"],["A","T"]]`.
 
 ```js
 assert.deepEqual(pairElement('ATCGA'), [
@@ -52,7 +52,7 @@ assert.deepEqual(pairElement('ATCGA'), [
 ]);
 ```
 
-`pairElement("TTGAG")` should return `[["T","A"],["T","A"],["G","C"],["A","T"],["G","C"]]`.
+`pairElement("TTGAG")` має повертати `[["T","A"],["T","A"],["G","C"],["A","T"],["G","C"]]`.
 
 ```js
 assert.deepEqual(pairElement('TTGAG'), [
@@ -64,7 +64,7 @@ assert.deepEqual(pairElement('TTGAG'), [
 ]);
 ```
 
-`pairElement("CTCTA")` should return `[["C","G"],["T","A"],["C","G"],["T","A"],["A","T"]]`.
+`pairElement("CTCTA")` має повертати `[["C","G"],["T","A"],["C","G"],["T","A"],["A","T"]]`.
 
 ```js
 assert.deepEqual(pairElement('CTCTA'), [

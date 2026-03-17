@@ -7,9 +7,9 @@ dashedName: step-163
 
 # --description--
 
-Після масиву `numbers` створіть цикл `while`, який працюватиме поки `numbers.length` менше `10`.
+Після вашого `numbers` масиву створіть `while` цикл, який працюватиме, доки `numbers.length` менше за `10`.
 
-У попередньому проєкті ви навчилися як працювати з циклами `while` ось так:
+У попередньому проєкті ви навчились працювати з `while` циклами ось так:
 
 ```js
 while (condition) {
@@ -19,13 +19,13 @@ while (condition) {
 
 # --hints--
 
-Функція `pick` повинна мати цикл `while`.
+Ваша `pick` функція має містити `while` цикл.
 
 ```js
 assert.match(pick.toString(), /while\s*\(/);
 ```
 
-Цикл `while` повинен виконуватись, поки `numbers.length < 10`.
+Ваш `while` цикл має працювати, поки `numbers.length < 10`.
 
 ```js
 assert.match(pick.toString(), /while\s*\(\s*numbers\.length\s*<\s*10\s*\)/);
@@ -386,7 +386,7 @@ function pickEight() {
 --fcc-editable-region--
 function pick(guess) {
   const numbers = [];
-
+  
 }
 --fcc-editable-region--
 ```

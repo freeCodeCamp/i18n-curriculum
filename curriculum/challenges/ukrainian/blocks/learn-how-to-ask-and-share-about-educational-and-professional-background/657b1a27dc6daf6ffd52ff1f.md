@@ -1,6 +1,6 @@
 ---
 id: 657b1a27dc6daf6ffd52ff1f
-title: Task 30
+title: Завдання 30
 challengeType: 19
 dashedName: task-30
 lang: en-US
@@ -11,43 +11,43 @@ Second Candidate: Yes. I have a master's degree in computer science. -->
 
 # --description--
 
-In English, the noun suffixed with `'s` followed by a second noun structure is used to show possession or belonging.
+В англійській мові іменник з суфіксом `'s`, за яким слідує другий іменник, використовується для позначення приналежності або володіння.
 
-If the first noun is singular, as in `Sarah's laptop`, it indicates that the laptop belongs to Sarah. However, if the first noun is plural, the structure changes to noun suffixed with `'`, as in `teachers' office`, indicating an office for teachers.
+Якщо перший іменник у однині, як у `Sarah's laptop`, це означає, що ноутбук належить Сарі. Однак, якщо перший іменник у множині, структура змінюється на іменник із суфіксом `'`, як у `teachers' office`, що вказує на офіс для вчителів.
 
 # --questions--
 
 ## --text--
 
-What does `master's degree` in the context of the dialogue refer to?
+Що означає `master's degree` у контексті діалогу?
 
 ## --answers--
 
-A degree for school teachers
+Ступінь для шкільних вчителів
 
 ### --feedback--
 
-`Master's degree` refers to an advanced academic degree, not specifically for teachers.
+`Master's degree` означає вищий академічний ступінь, а не конкретно для вчителів.
 
 ---
 
-A primary level educational degree
+Ступінь початкового рівня освіти
 
 ### --feedback--
 
-`Master's degree` is a higher education qualification, beyond the primary level.
+`Master's degree` — це кваліфікація вищої освіти, що перевищує початковий рівень.
 
 ---
 
-A degree in mastering skills
+Ступінь у володінні навичками
 
 ### --feedback--
 
-While it implies expertise, `master's degree` specifically refers to an academic qualification.
+Хоч це й натякає на експертизу, `master's degree` конкретно означає академічну кваліфікацію.
 
 ---
 
-An advanced academic degree
+Вищий академічний ступінь
 
 ## --video-solution--
 

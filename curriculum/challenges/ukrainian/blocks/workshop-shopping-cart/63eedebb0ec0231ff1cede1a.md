@@ -1,45 +1,45 @@
 ---
 id: 63eedebb0ec0231ff1cede1a
-title: Step 22
+title: Крок 22
 challengeType: 0
 dashedName: step-22
 ---
 
 # --description--
 
-Use the `.forEach()` method to loop through the `items` array. Pass an empty callback function that takes a single parameter `dessert`.
+Використайте метод `.forEach()`, щоб пройтися циклом по масиву `items`. Передайте порожню функцію зворотного виклику, яка приймає один параметр `dessert`.
 
 # --hints--
 
-You should use the `.forEach()` method on your `items` array.
+Ви повинні використати метод `.forEach()` для свого масиву `items`.
 
 ```js
 const cart = new ShoppingCart();
 assert.match(cart.addItem.toString(), /items\.forEach\(/);
 ```
 
-Remember to use the `this` keyword to access the `items` array.
+Пам’ятайте використовувати ключове слово `this` для доступу до масиву `items`.
 
 ```js
 const cart = new ShoppingCart();
 assert.match(cart.addItem.toString(), /this\.items\.forEach\(/);
 ```
 
-You should pass a callback function to the `.forEach()` method.
+Ви повинні передати функцію зворотного виклику методу `.forEach()`.
 
 ```js
 const cart = new ShoppingCart();
 assert.match(cart.addItem.toString(), /this\.items\.forEach\(\s*function\s*\(/);
 ```
 
-Your callback function should take a single parameter.
+Ваша функція зворотного виклику має приймати один параметр.
 
 ```js
 const cart = new ShoppingCart();
 assert.match(cart.addItem.toString(), /this\.items\.forEach\(\s*function\s*\(\s*dessert\s*\)/);
 ```
 
-Your callback function should be empty.
+Ваша функція зворотного виклику має бути порожньою.
 
 ```js
 const cart = new ShoppingCart();

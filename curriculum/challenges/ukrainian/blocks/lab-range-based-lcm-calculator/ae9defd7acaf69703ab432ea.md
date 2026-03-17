@@ -1,61 +1,61 @@
 ---
 id: ae9defd7acaf69703ab432ea
-title: Implement a Range-Based LCM Calculator
+title: реалізувати калькулятор НСК для діапазону чисел
 challengeType: 26
 dashedName: implement-a-range-based-lcm-calculator
 ---
 
 # --description--
 
-In this lab, you will create a function that takes an array of two numbers and returns the least common multiple (LCM) of those two numbers and all the numbers between them.
+У цій лабораторній роботі ви створите функцію, яка приймає масив із двох чисел і повертає найменше спільне кратне (НСК) цих двох чисел та всіх чисел між ними.
 
-**Objective**: Fulfill the user stories below and get all the tests to pass to complete the lab.
+**Мета**: Виконайте наведені нижче історії користувача та пройдіть усі тести, щоб завершити лабораторну роботу.
 
-**User Stories**
+**Історії користувача**
 
-1. You should have a `smallestCommons` function that accepts an array of two numbers as an argument.
-1. The `smallestCommons` function should return the smallest common multiple that is evenly divisible by both numbers and all sequential numbers in the range between them.
-1. The function should handle input where the two numbers are not in numerical order.
+1. У вас має бути `smallestCommons` функція, яка приймає масив із двох чисел як аргумент.
+1. `smallestCommons` функція має повертати найменше спільне кратне, яке рівно ділиться на обидва числа та всі послідовні числа в діапазоні між ними.
+1. Функція має обробляти вхідні дані, де два числа не йдуть у числовому порядку.
 
 # --hints--
 
-You should have a `smallestCommons` function.
+У вас має бути `smallestCommons` функція.
 
 ```js
 assert.isFunction(smallestCommons);
 ```
 
-`smallestCommons([1, 5])` should return a number.
+`smallestCommons([1, 5])` має повертати число.
 
 ```js
 assert.isNumber(smallestCommons([1, 5]));
 ```
 
-`smallestCommons([1, 5])` should return `60`.
+`smallestCommons([1, 5])` має повертати `60`.
 
 ```js
 assert.strictEqual(smallestCommons([1, 5]), 60);
 ```
 
-`smallestCommons([5, 1])` should return `60`.
+`smallestCommons([5, 1])` має повертати `60`.
 
 ```js
 assert.strictEqual(smallestCommons([5, 1]), 60);
 ```
 
-`smallestCommons([2, 10])` should return `2520`.
+`smallestCommons([2, 10])` має повертати `2520`.
 
 ```js
 assert.strictEqual(smallestCommons([2, 10]), 2520);
 ```
 
-`smallestCommons([1, 13])` should return `360360`.
+`smallestCommons([1, 13])` має повертати `360360`.
 
 ```js
 assert.strictEqual(smallestCommons([1, 13]), 360360);
 ```
 
-`smallestCommons([23, 18])` should return `6056820`.
+`smallestCommons([23, 18])` має повертати `6056820`.
 
 ```js
 assert.strictEqual(smallestCommons([23, 18]), 6056820);

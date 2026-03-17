@@ -1,6 +1,6 @@
 ---
 id: 67ddafcebec26b8e5f46745b
-title: Task 31
+title: Завдання 31
 challengeType: 22
 dashedName: task-31
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Прослухайте аудіо та доповніть речення нижче.
 
 # --fillInTheBlank--
 
@@ -24,13 +24,13 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This means in addition to something or other than what has already been mentioned.
+Це означає «крім чогось» або «на додаток до того, що вже було згадано».
 
 # --explanation--
 
-`Else` in the expression `anything else` is used to ask if there is something in addition to what has already been said or done. For example:
+`Else` у виразі `anything else` використовується, щоб запитати, чи є щось на додаток до того, що вже було сказано або зроблено. Наприклад:
 
-`Would you like anything else with your order?` - Here, you are asking if the other person wants something in addition to what they already asked for.
+`Would you like anything else with your order?` — тут ви питаєте, чи хоче інша людина щось на додаток до того, що вона вже попросила.
 
 # --scene--
 

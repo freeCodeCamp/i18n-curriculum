@@ -1,6 +1,6 @@
 ---
 id: cf1111c1c12feddfaeb3bdef
-title: Використання умовної логіки з інструкцією if
+title: Використання умовної логіки з операторами if
 challengeType: 1
 forumTopicId: 18348
 dashedName: use-conditional-logic-with-if-statements
@@ -8,13 +8,13 @@ dashedName: use-conditional-logic-with-if-statements
 
 # --description--
 
-`if` statements are used to make decisions in code. The keyword `if` tells JavaScript to execute the code in the curly braces under certain conditions, defined in the parentheses. These conditions are known as `Boolean` conditions and they may only be `true` or `false`.
+`if` інструкції використовуються для прийняття рішень у коді. Ключове слово `if` каже JavaScript виконати код у фігурних дужках за певних умов, визначених у круглих дужках. Ці умови відомі як `Boolean` умови, і вони можуть бути лише `true` або `false`.
 
-Якщо умова оцінена як `true`, програма виконує інструкцію у фігурних дужках. Якщо булева умова оцінена як `false`, команда у фігурних дужках не виконується.
+Коли умова оцінюється як `true`, програма виконує інструкцію всередині фігурних дужок. Коли булева умова оцінюється як `false`, інструкція всередині фігурних дужок не виконується.
 
 **Псевдокод**
 
-<blockquote>if (<i>умова оцінена як true</i>) {<br>  <i>інструкція виконується</i><br>}</blockquote>
+<blockquote>if (<i>умова істинна</i>) {<br>  <i>інструкція виконується</i><br>}</blockquote>
 
 **Приклад**
 
@@ -32,11 +32,11 @@ test(false);
 
 `test(true)` повертає рядок `It was true`, а `test(false)` повертає рядок `It was false`.
 
-Коли `test` викликається зі значенням `true`, інструкція `if` оцінює `myCondition`, щоб побачити чи умова `true`. Оскільки вона `true`, функція повертає `It was true`. Коли ми викликаємо `test` зі значенням `false`, то `myCondition` *не* оцінюється як `true`, інструкція у круглих дужках не виконується та функція повертає `It was false`.
+Коли `test` викликається зі значенням `true`, інструкція `if` оцінює `myCondition`, щоб перевірити, чи є воно `true` чи ні. Оскільки воно є `true`, функція повертає `It was true`. Коли ми викликаємо `test` зі значенням `false`, `myCondition` *не* є `true`, і інструкція у фігурних дужках не виконується, а функція повертає `It was false`.
 
 # --instructions--
 
-Створіть інструкцію `if` всередині функції, щоб повернути `Yes, that was true`, якщо параметр `wasThatTrue` є `true` та повернути `No, that was false` у протилежному випадку.
+Створіть інструкцію `if` всередині функції, щоб повертати `Yes, that was true`, якщо параметр `wasThatTrue` є `true`, і повертати `No, that was false` в іншому випадку.
 
 # --hints--
 

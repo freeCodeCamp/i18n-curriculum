@@ -1,6 +1,6 @@
 ---
 id: 679bacd4af7be22f71bb43ee
-title: Task 65
+title: Attività 65
 challengeType: 22
 dashedName: task-65
 lang: en-US
@@ -10,13 +10,13 @@ lang: en-US
 
 # --description--
 
-This is a review of the entire dialogue you just studied.
+Questa è una revisione dell'intero dialogo che hai appena studiato.
 
 # --instructions--
 
-Write the following words or phrases in the correct spot:
+Scrivi le seguenti parole o frasi nel posto corretto:
 
-`deadlines`, `debating`, `disagreement`, `healthy`, `keeping things on track`, `lose motivation`, `make progress`, `perspectives`, and `strong opinions`.
+`deadlines`, `debating`, `disagreement`, `healthy`, `keeping things on track`, `lose motivation`, `make progress`, `perspectives`, e `strong opinions`.
 
 # --fillInTheBlank--
 
@@ -45,7 +45,7 @@ Write the following words or phrases in the correct spot:
 
 ### --feedback--
 
-This phrase refers to firm or intense beliefs about a topic.
+Questa frase si riferisce a convinzioni ferme o intense su un argomento.
 
 ---
 
@@ -53,7 +53,7 @@ This phrase refers to firm or intense beliefs about a topic.
 
 ### --feedback--
 
-This phrase means to move forward or improve a situation.
+Questa frase significa andare avanti o migliorare una situazione.
 
 ---
 
@@ -61,7 +61,7 @@ This phrase means to move forward or improve a situation.
 
 ### --feedback--
 
-This word means beneficial or good for a situation.
+Questa parola significa vantaggioso o positivo per una situazione.
 
 ---
 
@@ -69,7 +69,7 @@ This word means beneficial or good for a situation.
 
 ### --feedback--
 
-This word refers to having different opinions or viewpoints.
+Questa parola si riferisce ad avere opinioni o punti di vista diversi.
 
 ---
 
@@ -77,7 +77,7 @@ This word refers to having different opinions or viewpoints.
 
 ### --feedback--
 
-This word refers to specific dates or times by which tasks must be completed.
+Questa parola si riferisce a date o orari specifici entro cui completare le attività.
 
 ---
 
@@ -85,7 +85,7 @@ This word refers to specific dates or times by which tasks must be completed.
 
 ### --feedback--
 
-This word refers to different viewpoints or ways of thinking about something.
+Questa parola si riferisce a diversi punti di vista o modi di pensare a qualcosa.
 
 ---
 
@@ -93,7 +93,7 @@ This word refers to different viewpoints or ways of thinking about something.
 
 ### --feedback--
 
-This word refers to discussing different viewpoints, sometimes extensively.
+Questa parola si riferisce a discutere diversi punti di vista, a volte in modo approfondito.
 
 ---
 
@@ -101,7 +101,7 @@ This word refers to discussing different viewpoints, sometimes extensively.
 
 ### --feedback--
 
-This phrase means to stop feeling driven or enthusiastic about something.
+Questa frase significa smettere di sentirsi motivati o entusiasti riguardo a qualcosa.
 
 ---
 
@@ -109,4 +109,4 @@ This phrase means to stop feeling driven or enthusiastic about something.
 
 ### --feedback--
 
-This phrase means maintaining focus and ensuring progress continues.
+Questa frase significa mantenere il focus e assicurare che il progresso continui.

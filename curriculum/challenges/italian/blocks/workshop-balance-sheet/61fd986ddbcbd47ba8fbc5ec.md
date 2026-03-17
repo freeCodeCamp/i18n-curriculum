@@ -1,19 +1,19 @@
 ---
 id: 61fd986ddbcbd47ba8fbc5ec
-title: Step 23
+title: Passaggio 23
 challengeType: 0
 dashedName: step-23
 ---
 
 # --description--
 
-Within the third `tr`, add a `th` element with the text `Credit The outstanding balance on our credit card.`. Wrap that text, except for `Credit`, within a `span` element with the `class` set to `description`.
+All'interno del terzo `tr`, aggiungi un elemento `th` con il testo `Credit The outstanding balance on our credit card.`. Avvolgi quel testo, tranne `Credit `, all'interno di un elemento `span` con l'attributo `class` impostato su `description`.
 
-Al di sotto, aggiungi tre elementi `td` e dai loro il seguente testo, in ordine: `$50`, `$50` e `$75`. Dai al terzo elemento `td` un attributo `class` con il valore `current`.
+Aggiungi tre elementi `td` sotto di quello, e assegna loro il seguente testo, in ordine: `$50`, `$50` e `$75`. Dai al terzo elemento `td` un attributo `class` impostato su `current`.
 
 # --hints--
 
-Il terzo `tr` dovrebbe avere un elemento `th`.
+Il tuo terzo `tr` dovrebbe avere un elemento `th`.
 
 ```js
 const table = document.querySelectorAll('table')?.[1];
@@ -22,7 +22,7 @@ const tableRow = tbody?.querySelectorAll('tr')?.[2];
 assert.isNotNull(tableRow?.querySelector('th'));
 ```
 
-L'elemento `th` dovrebbe avere il testo `Credit The outstanding balance on our credit card.`.
+Il tuo elemento `th` dovrebbe avere il testo `Credit The outstanding balance on our credit card.`.
 
 ```js
 const table = document.querySelectorAll('table')?.[1];
@@ -34,7 +34,7 @@ assert.strictEqual(
 );
 ```
 
-Dovresti racchiudere il testo `The outstanding balance on our credit card.` in un elemento `span`.
+Dovresti avvolgere il testo `The outstanding balance on our credit card.` in un elemento `span`.
 
 ```js
 const table = document.querySelectorAll('table')?.[1];
@@ -46,7 +46,7 @@ assert.strictEqual(
 );
 ```
 
-L'elemento `span` dovrebbe avere l'attributo `class` con il valore `description`.
+Il tuo elemento `span` dovrebbe avere l'attributo `class` impostato su `description`.
 
 ```js
 const table = document.querySelectorAll('table')?.[1];
@@ -66,7 +66,7 @@ const tableRow = tbody?.querySelectorAll('tr')?.[2];
 assert.lengthOf(tableRow?.querySelectorAll('td'), 3);
 ```
 
-Il primo elemento `td` dovrebbe avere il testo `$50`.
+Il tuo primo elemento `td` dovrebbe avere il testo `$50`.
 
 ```js
 const table = document.querySelectorAll('table')?.[1];
@@ -75,7 +75,7 @@ const tableRow = tbody?.querySelectorAll('tr')?.[2];
 assert.strictEqual(tableRow?.querySelectorAll('td')?.[0]?.textContent.trim(), '$50');
 ```
 
-Il secondo elemento `td` dovrebbe avere il testo `$50`.
+Il tuo secondo elemento `td` dovrebbe avere il testo `$50`.
 
 ```js
 const table = document.querySelectorAll('table')?.[1];
@@ -84,7 +84,7 @@ const tableRow = tbody?.querySelectorAll('tr')?.[2];
 assert.strictEqual(tableRow?.querySelectorAll('td')?.[1]?.textContent.trim(), '$50');
 ```
 
-Il terzo elemento `td` dovrebbe avere il testo `$75`.
+Il tuo terzo elemento `td` dovrebbe avere il testo `$75`.
 
 ```js
 const table = document.querySelectorAll('table')?.[1];
@@ -93,7 +93,7 @@ const tableRow = tbody?.querySelectorAll('tr')?.[2];
 assert.strictEqual(tableRow?.querySelectorAll('td')?.[2]?.textContent.trim(), '$75');
 ```
 
-Il terzo elemento `td` dovrebbe avere un attributo `class` con il valore `current`.
+Il tuo terzo elemento `td` dovrebbe avere l'attributo `class` impostato su `current`.
 
 ```js
 const table = document.querySelectorAll('table')?.[1];

@@ -1,19 +1,19 @@
 ---
 id: 672bccae6e556cd81cef6af2
-title: What Is Margin Collapsing, and How Does It Work?
+title: Що таке злиття полів і як воно працює?
 challengeType: 19
 dashedName: what-is-margin-collapsing
 ---
 
 # --interactive--
 
-Margin collapsing is a fundamental concept in CSS that often confuses newcomers to web development.
+Злиття полів — це базове поняття в CSS, яке часто плутає новачків у веб-розробці.
 
-This behavior occurs when the vertical margins of adjacent elements overlap, resulting in a single margin equal to the larger of the two.
+Ця поведінка виникає, коли вертикальні поля суміжних елементів накладаються одне на одне, утворюючи одне поле, рівне більшому з двох.
 
-Understanding margin collapsing is important for precise control over spacing and layout in web design. So, let's get into how margin collapsing works and explore some common scenarios where it occurs.
+Розуміння злиття полів важливе для точного контролю відступів і макету у веб-дизайні. Тож давайте розглянемо, як працює злиття полів, і дослідимо кілька поширених випадків, коли воно трапляється.
 
-In CSS when two vertical margins come into contact with each other they'll collapse, this means that instead of adding together, the larger margin wins and determines the space between the elements. This behavior applies only to vertical margins (top and bottom) and not to horizontal margins (left and right). So, here's an example to illustrate this concept:
+У CSS, коли два вертикальні поля стикаються, вони зливаються, тобто замість того, щоб додаватися, перемагає більше поле і визначає простір між елементами. Ця поведінка стосується лише вертикальних полів (зверху і знизу), а не горизонтальних (зліва і справа). Ось приклад, щоб проілюструвати цю концепцію:
 
 :::interactive_editor
 
@@ -35,11 +35,11 @@ In CSS when two vertical margins come into contact with each other they'll colla
 
 :::
 
-In this example, you might expect the total space between `.box1` and `.box2` to be 50 pixels (20 pixels plus 30 pixels). However, due to margin collapsing the actual space will be 30 pixels, which is the larger of the two margins.
+У цьому прикладі ви могли б очікувати, що загальний простір між `.box1` і `.box2` буде 50 пікселів (20 пікселів плюс 30 пікселів). Однак через злиття полів фактичний простір становитиме 30 пікселів, що є більшим з двох полів.
 
-As we saw in the previous example, margins of the adjacent sibling elements will collapse. This is the most straight forward case of margin collapsing. Let's explore more cases where margin collapsing can occur.
+Як ми бачили в попередньому прикладі, поля суміжних братських елементів зливаються. Це найпростіший випадок злиття полів. Давайте розглянемо більше випадків, коли може відбуватися злиття полів.
 
-Margins can also collapse between a parent element and its first or last child. If there's no border, padding, inline content, or clearance to separate the parent's margin from the child's, they will collapse.
+Поля також можуть зливатися між батьківським елементом і його першим або останнім дочірнім елементом. Якщо немає кордону, відступу, рядкового вмісту або очищення, які розділяють поле батька і дитини, вони зливаються.
 
 :::interactive_editor
 
@@ -62,9 +62,9 @@ Margins can also collapse between a parent element and its first or last child. 
 
 :::
 
-In this case, you might expect the child to be 70 pixels from the top (40 pixels plus 30 pixels). However, the margins collapse and the larger margin of 40 pixels is used.
+У цьому випадку ви могли б очікувати, що дитина буде на відстані 70 пікселів зверху (40 пікселів плюс 30 пікселів). Однак поля зливаються, і використовується більше поле в 40 пікселів.
 
-If an element has no content, padding, or border, its top and bottom margins can collapse into a single margin.
+Якщо елемент не має вмісту, відступу або кордону, його верхнє і нижнє поля можуть зливатися в одне поле.
 
 :::interactive_editor
 
@@ -86,9 +86,9 @@ If an element has no content, padding, or border, its top and bottom margins can
 
 :::
 
-In this example, the `empty-block`'s top and bottom margins collapse into a single 20 pixels margin, the larger of the two.
+У цьому прикладі верхнє і нижнє поля `empty-block` зливаються в одне поле розміром 20 пікселів, що є більшим з двох.
 
-Here's an example of preventing collapse using padding:
+Ось приклад запобігання злиттю за допомогою відступу:
 
 :::interactive_editor
 
@@ -112,43 +112,43 @@ Here's an example of preventing collapse using padding:
 
 :::
 
-In this case, the one pixel padding on the parent prevents the margin from collapsing resulting in a total space of 71 pixels from the top of the parent to the top of the child content.
+У цьому випадку відступ у один піксель у батьківському елементі запобігає злиттю полів, в результаті чого загальний простір від верху батька до верху вмісту дитини становить 71 піксель.
 
-Understanding margin collapsing is important for precise control over layout and spacing in CSS. While it can sometimes lead to unexpected results, it's a feature designed to create more aesthetically pleasing and consistent spacing in documents. By knowing when margin collapsing occurs and how to prevent it when necessary, you can create more predictable and maintainable layouts in your web designs.
+Розуміння злиття полів важливе для точного контролю макету і відступів у CSS. Хоча іноді це може призводити до несподіваних результатів, ця функція створена для більш естетично приємних і послідовних відступів у документах. Знаючи, коли відбувається злиття полів і як його запобігти за потреби, ви зможете створювати більш передбачувані та підтримувані макети у своїх веб-дизайнах.
 
 # --questions--
 
 ## --text--
 
-In which direction does margin collapsing occur?
+У якому напрямку відбувається злиття полів?
 
 ## --answers--
 
-Horizontal margins only.
+Тільки горизонтальні поля.
 
 ### --feedback--
 
-Think about which margins (top, bottom, left, right) are affected by this behavior.
+Подумайте, які поля (зверху, знизу, зліва, справа) підпадають під цю поведінку.
 
 ---
 
-Vertical margins only.
+Тільки вертикальні поля.
 
 ---
 
-Both horizontal and vertical margins.
+І горизонтальні, і вертикальні поля.
 
 ### --feedback--
 
-Think about which margins (top, bottom, left, right) are affected by this behavior.
+Подумайте, які поля (зверху, знизу, зліва, справа) підпадають під цю поведінку.
 
 ---
 
-Diagonal margins.
+Діагональні поля.
 
 ### --feedback--
 
-Think about which margins (top, bottom, left, right) are affected by this behavior.
+Подумайте, які поля (зверху, знизу, зліва, справа) підпадають під цю поведінку.
 
 ## --video-solution--
 
@@ -156,35 +156,35 @@ Think about which margins (top, bottom, left, right) are affected by this behavi
 
 ## --text--
 
-What happens when two adjacent elements have different margin values?
+Що відбувається, коли два суміжні елементи мають різні значення полів?
 
 ## --answers--
 
-The margins add up.
+Поля додаються.
 
 ### --feedback--
 
-Consider which margin "wins" when collapsing occurs.
+Подумайте, яке поле "перемагає" під час злиття.
 
 ---
 
-The smaller margin is used.
+Використовується менше поле.
 
 ### --feedback--
 
-Consider which margin "wins" when collapsing occurs.
+Подумайте, яке поле "перемагає" під час злиття.
 
 ---
 
-The larger margin is used.
+Використовується більше поле.
 
 ---
 
-The average of the two margins is used.
+Використовується середнє значення двох полів.
 
 ### --feedback--
 
-Consider which margin "wins" when collapsing occurs.
+Подумайте, яке поле "перемагає" під час злиття.
 
 ## --video-solution--
 
@@ -192,35 +192,35 @@ Consider which margin "wins" when collapsing occurs.
 
 ## --text--
 
-Which of the following will NOT prevent margin collapsing between a parent and its first child?
+Що з наведеного НЕ запобігає злиттю полів між батьківським елементом і його першим дочірнім?
 
 ## --answers--
 
-Adding a `border` to the parent.
+Додавання `border` до батька.
 
 ### --feedback--
 
-Think about which properties create a separation between the parent and child margins.
+Подумайте, які властивості створюють розділення між полями батька і дитини.
 
 ---
 
-Setting `padding-top: 1px;` on the parent.
+Встановлення `padding-top: 1px;` у батька.
 
 ### --feedback--
 
-Think about which properties create a separation between the parent and child margins.
+Подумайте, які властивості створюють розділення між полями батька і дитини.
 
 ---
 
-Using `display: inline-block;` on the child.
+Використання `display: inline-block;` у дитини.
 
 ### --feedback--
 
-Think about which properties create a separation between the parent and child margins.
+Подумайте, які властивості створюють розділення між полями батька і дитини.
 
 ---
 
-Setting `margin-top: 0;` on the child.
+Встановлення `margin-top: 0;` у дитини.
 
 ## --video-solution--
 

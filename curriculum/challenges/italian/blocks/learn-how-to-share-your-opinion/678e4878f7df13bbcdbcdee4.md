@@ -1,6 +1,6 @@
 ---
 id: 678e4878f7df13bbcdbcdee4
-title: Task 54
+title: Attività 54
 challengeType: 22
 dashedName: task-54
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Ascolta l'audio e completa la frase qui sotto.
 
 # --fillInTheBlank--
 
@@ -24,13 +24,13 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This word means that something can be changed or adjusted to meet individual preferences or needs.
+Questa parola significa che qualcosa può essere cambiato o adattato per soddisfare preferenze o necessità individuali.
 
 # --explanation--
 
-`Customizable` refers to something that can be changed or modified to suit different preferences, needs, or requirements. Per esempio:
+`Customizable` indica qualcosa che può essere cambiato o modificato per adattarsi a preferenze, necessità o requisiti diversi. Per esempio:
 
-`The dashboard in this project management tool is customizable, allowing each team to organize their tasks in their preferred way.` - This means that the dashboard can be modified according to each team's needs, helping them organize their work more efficiently.
+`The dashboard in this project management tool is customizable, allowing each team to organize their tasks in their preferred way.` - Questo significa che la dashboard può essere modificata in base alle esigenze di ogni team, aiutandoli a organizzare il lavoro in modo più efficiente.
 
 # --scene--
 

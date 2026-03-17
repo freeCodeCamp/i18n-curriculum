@@ -1,67 +1,67 @@
 ---
 id: 61fd986ddbcbd47ba8fbc5ec
-title: Step 23
+title: Крок 23
 challengeType: 0
 dashedName: step-23
 ---
 
 # --description--
 
-Within the third `tr`, add a `th` element with the text `Credit The outstanding balance on our credit card.`. Wrap that text, except for `Credit`, within a `span` element with the `class` set to `description`.
+У третьому `tr` додайте елемент `th` з текстом `Credit The outstanding balance on our credit card.`. Обгорніть цей текст, крім `Credit `, у елемент `span` з атрибутом `class`, встановленим у `description`.
 
-Add three `td` elements below that, and give them the following text, in order: `$50`, `$50`, and `$75`. Give the third `td` element a `class` set to `current`.
+Під ним додайте три елементи `td` і надайте їм такий текст у порядку: `$50`, `$50` і `$75`. Третьому елементу `td` додайте атрибут `class`, встановлений у `current`.
 
 # --hints--
 
-Your third `tr` should have a `th` element.
+Ваш третій `tr` має містити елемент `th`.
 
 ```js
 assert(document.querySelectorAll('table')?.[1]?.querySelector('tbody')?.querySelectorAll('tr')?.[2]?.querySelector('th'));
 ```
 
-Your `th` element should have the text `Credit The outstanding balance on our credit card.`.
+Ваш елемент `th` має містити текст `Credit The outstanding balance on our credit card.`.
 
 ```js
 assert(document.querySelectorAll('table')?.[1]?.querySelector('tbody')?.querySelectorAll('tr')?.[2]?.querySelector('th')?.innerText === 'Credit The outstanding balance on our credit card.');
 ```
 
-You should wrap the text `The outstanding balance on our credit card.` in a `span` element.
+Текст `The outstanding balance on our credit card.` слід обгорнути в елемент `span`.
 
 ```js
 assert(document.querySelectorAll('table')?.[1]?.querySelector('tbody')?.querySelectorAll('tr')?.[2]?.querySelector('th > span')?.textContent === 'The outstanding balance on our credit card.');
 ```
 
-Your `span` element should have the `class` attribute set to `description`.
+Ваш елемент `span` має мати атрибут `class`, встановлений у `description`.
 
 ```js
 assert(document.querySelectorAll('table')?.[1]?.querySelector('tbody')?.querySelectorAll('tr')?.[2]?.querySelector('th > span')?.classList?.contains('description'));
 ```
 
-You should have three `td` elements.
+Ви маєте мати три елементи `td`.
 
 ```js
 assert(document.querySelectorAll('table')?.[1]?.querySelector('tbody')?.querySelectorAll('tr')?.[2]?.querySelectorAll('td').length === 3);
 ```
 
-Your first `td` element should have the text `$50`.
+Перший елемент `td` має містити текст `$50`.
 
 ```js
 assert(document.querySelectorAll('table')?.[1]?.querySelector('tbody')?.querySelectorAll('tr')?.[2]?.querySelectorAll('td')?.[0]?.textContent === '$50');
 ```
 
-Your second `td` element should have the text `$50`.
+Другий елемент `td` має містити текст `$50`.
 
 ```js
 assert(document.querySelectorAll('table')?.[1]?.querySelector('tbody')?.querySelectorAll('tr')?.[2]?.querySelectorAll('td')?.[1]?.textContent === '$50');
 ```
 
-Your third `td` element should have the text `$75`.
+Третій елемент `td` має містити текст `$75`.
 
 ```js
 assert(document.querySelectorAll('table')?.[1]?.querySelector('tbody')?.querySelectorAll('tr')?.[2]?.querySelectorAll('td')?.[2]?.textContent === '$75');
 ```
 
-Your third `td` element should have the `class` set to `current`.
+Третій елемент `td` має мати атрибут `class`, встановлений у `current`.
 
 ```js
 assert(document.querySelectorAll('table')?.[1]?.querySelector('tbody')?.querySelectorAll('tr')?.[2]?.querySelectorAll('td')?.[2]?.classList?.contains('current'));

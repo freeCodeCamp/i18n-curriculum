@@ -1,6 +1,6 @@
 ---
 id: 69ae6fd7b4a814be6a4f2be1
-title: Caching, Monitoring, and Error Handling
+title: Кешування, моніторинг і обробка помилок
 challengeType: 11
 videoId: J0D7kfBORL8
 dashedName: caching-monitoring-and-error-handling
@@ -8,13 +8,13 @@ dashedName: caching-monitoring-and-error-handling
 
 # --description--
 
-In this video, you will learn about the importance of caching, monitoring, and error handling in RAG systems.
+У цьому відео ви дізнаєтеся про важливість кешування, моніторингу та обробки помилок у RAG-системах.
 
 # --questions--
 
 ## --text--
 
-Which of the following is NOT a common metric used for monitoring RAG systems?
+Який із наведених показників НЕ є загальним для моніторингу RAG-систем?
 
 ## --answers--
 
@@ -35,5 +35,3 @@ Throughput
 ## --video-solution--
 
 2
-
-

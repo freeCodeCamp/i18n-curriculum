@@ -8,13 +8,13 @@ dashedName: add-comments-in-jsx
 
 # --description--
 
-JSX is a syntax that gets compiled into valid JavaScript. Sometimes, for readability, you might need to add comments to your code. Like most programming languages, JSX has its own way to do this.
+JSX è una sintassi che viene compilata in JavaScript valido. A volte, per rendere il codice più leggibile, potresti aver bisogno di aggiungere commenti. Come la maggior parte dei linguaggi di programmazione, JSX ha un suo modo per farlo.
 
-Per inserire i commenti all'interno di JSX, si utilizza la sintassi `{/* */}` per racchiudere il testo del commento.
+Per inserire commenti dentro JSX, usa la sintassi `{/* */}` per racchiudere il testo del commento.
 
 # --instructions--
 
-L'editor di codice contiene un elemento JSX simile a quello creato nell'ultima sfida. Aggiungi un commento da qualche parte all'interno dell'elemento `div` fornito, senza modificare gli elementi `h1` o `p`.
+L'editor del codice contiene un elemento JSX simile a quello che hai creato nella sfida precedente. Aggiungi un commento da qualche parte all'interno dell'elemento `div` fornito, senza modificare gli elementi `h1` o `p` esistenti.
 
 # --hints--
 
@@ -24,19 +24,19 @@ La costante `JSX` dovrebbe restituire un elemento `div`.
 assert(JSX.type === 'div');
 ```
 
-Il `div` dovrebbe contenere un tag `h1` come primo elemento.
+L'elemento `div` dovrebbe contenere un tag `h1` come primo elemento.
 
 ```js
 assert(JSX.props.children[0].type === 'h1');
 ```
 
-Il `div` dovrebbe contenere un tag `p` come secondo elemento.
+L'elemento `div` dovrebbe contenere un tag `p` come secondo elemento.
 
 ```js
 assert(JSX.props.children[1].type === 'p');
 ```
 
-Gli elementi `h1` e `p` esistenti non dovrebbero essere modificati.
+Gli elementi `h1` e `p` esistenti non devono essere modificati.
 
 ```js
 assert(
@@ -45,7 +45,7 @@ assert(
 );
 ```
 
-Il `JSX` dovrebbe usare la sintassi valida per i commenti.
+L'elemento `JSX` dovrebbe usare una sintassi di commento valida.
 
 ```js
 assert(/<div>[\s\S]*{\s*\/\*[\s\S]*\*\/\s*}[\s\S]*<\/div>/.test(code));

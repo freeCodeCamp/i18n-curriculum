@@ -1,6 +1,6 @@
 ---
 id: 68bb001c22f3bcbd1fdf38fa
-title: Task 1
+title: Завдання 1
 challengeType: 19
 dashedName: task-1
 lang: es
@@ -10,17 +10,18 @@ lang: es
 
 # --description--
 
-Elena wants to say "hi". You'll hear this word all the time in Spanish when people meet each other.
+Елена хоче сказати "привіт". Ви будете часто чути це слово іспанською, коли люди зустрічаються.
 
 # --instructions--
 
-Listen to the audio and answer the question below. There's just **one** correct answer. If you need help, click on **explanation** at the bottom of the lesson.
+Прослухайте аудіо і дайте відповідь на запитання нижче.
+Є лише **одна** правильна відповідь. Якщо потрібна допомога, натисніть на **пояснення** внизу уроку.
 
 # --questions--
 
 ## --text--
 
-What word does Elena use to say "hi"?
+Яке слово використовує Елена, щоб сказати "привіт"?
 
 ## --answers--
 
@@ -32,7 +33,7 @@ What word does Elena use to say "hi"?
 
 ### --feedback--
 
-This means the opposite of what the speaker says. Open the explanation section if you need further help.
+Це означає протилежне тому, що каже мовник. Відкрийте розділ пояснень, якщо потрібна додаткова допомога.
 
 ---
 
@@ -40,7 +41,7 @@ This means the opposite of what the speaker says. Open the explanation section i
 
 ### --feedback--
 
-This means the opposite of what the speaker says. Open the explanation section if you need further help.
+Це означає протилежне тому, що каже мовник. Відкрийте розділ пояснень, якщо потрібна додаткова допомога.
 
 ---
 
@@ -48,7 +49,7 @@ This means the opposite of what the speaker says. Open the explanation section i
 
 ### --feedback--
 
-This means "Good morning", but it's not what you hear in the audio.
+Це означає "Доброго ранку", але це не те, що ви чуєте в аудіо.
 
 ## --video-solution--
 
@@ -56,9 +57,9 @@ This means "Good morning", but it's not what you hear in the audio.
 
 # --explanation--
 
-The word `Hola` is a greeting. It's used when you meet someone, similar to "Hello" or "Hi". For example:
+Слово `Hola` — це привітання. Його використовують, коли зустрічаються з кимось, подібно до "Hello" або "Hi". Наприклад:
 
-`¡Hola, buenos días!` – Hi, good morning!
+`¡Hola, buenos días!` – Привіт, доброго ранку! 
 
 # --scene--
 

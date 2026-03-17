@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Послухайте аудіо та доповніть речення нижче.
+Прослухайте аудіо та доповніть речення нижче.
 
 # --fillInTheBlank--
 
@@ -24,15 +24,15 @@ lang: en-US
 
 ### --feedback--
 
-This is used to show that something happens earlier in time than something else.
+Це використовується, щоб показати, що щось відбувається раніше за іншу подію.
 
 # --explanation--
 
-`Before` is used to show that one action happens earlier than another. Наприклад:
+`Before` використовується, щоб показати, що одна дія відбувається раніше за іншу. Наприклад:
 
-- `Please save your work before you close the program.` – This means saving should happen earlier than closing the program.
+- `Please save your work before you close the program.` – Це означає, що збереження має відбутися раніше за закриття програми.
 
-- `He always checks his code carefully before submitting it.` – This means checking happens first, before the action of submitting.
+- `He always checks his code carefully before submitting it.` – Це означає, що перевірка відбувається першою, перед дією відправлення.
 
 # --scene--
 

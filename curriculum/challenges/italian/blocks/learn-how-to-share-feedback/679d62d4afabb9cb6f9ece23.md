@@ -1,6 +1,6 @@
 ---
 id: 679d62d4afabb9cb6f9ece23
-title: Task 106
+title: Attività 106
 challengeType: 19
 dashedName: task-106
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Ascolta l'audio e rispondi alla domanda qui sotto.
 
 # --questions--
 
 ## --text--
 
-What does Maria want to avoid doing, and why?
+Cosa vuole evitare di fare Maria e perché?
 
 ## --answers--
 
-She wants to avoid fixing the problem.
+Vuole evitare di risolvere il problema.
 
 ### --feedback--
 
-Maria is not saying they shouldn't fix the problem.
+Maria non dice che non dovrebbero risolvere il problema.
 
 ---
 
-She wants to avoid asking for help.
+Vuole evitare di chiedere aiuto.
 
 ### --feedback--
 
-Maria does not mention asking for help.
+Maria non menziona di chiedere aiuto.
 
 ---
 
-She wants to avoid rushing because it could cause more problems.
+Vuole evitare di affrettarsi perché potrebbe causare più problemi.
 
 ---
 
-She wants to avoid updating the software.
+Vuole evitare di aggiornare il software.
 
 ### --feedback--
 
-Maria does not say they should avoid updating.
+Maria non dice che dovrebbero evitare di aggiornare.
 
 ## --video-solution--
 
@@ -52,11 +52,11 @@ Maria does not say they should avoid updating.
 
 # --explanation--
 
-`To lead to problems` means that an action or decision could result in difficulties or negative consequences. For example:
+`To lead to problems` indica che un'azione o una decisione potrebbe portare a difficoltà o conseguenze negative. Per esempio:
 
-`Skipping the testing phase can lead to serious problems in the software.` - This means that not testing properly might cause major technical issues.
+`Skipping the testing phase can lead to serious problems in the software.` - Questo significa che non testare correttamente potrebbe causare problemi tecnici importanti.
 
-In this dialogue, Maria is concerned that rushing could create additional issues.
+In questo dialogo, Maria è preoccupata che affrettarsi possa creare ulteriori problemi.
 
 # --scene--
 

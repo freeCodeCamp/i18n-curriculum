@@ -1,6 +1,6 @@
 ---
 id: 67a75c6d5ea4deeee6ffb507
-title: Task 21
+title: Attività 21
 challengeType: 19
 dashedName: task-21
 lang: en-US
@@ -10,55 +10,55 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Ascolta l'audio e rispondi alla domanda qui sotto.
 
 # --questions--
 
 ## --text--
 
-What does Linda offer to do?
+Cosa si offre di fare Linda?  
 
-## --answers--
+## --answers--  
 
-Prepare user scenarios for testing.
+Preparare scenari utente per i test.  
 
----
+---  
 
-Skip the testing phase.
+Saltare la fase di test.  
 
-### --feedback--
+### --feedback--  
 
-Linda does not suggest skipping testing; she is actively contributing to it.
+Linda non suggerisce di saltare i test; sta contribuendo attivamente a questa fase.  
 
----
+---  
 
-Ask someone else to handle user testing.
+Chiedere a qualcun altro di occuparsi dei test utente.  
 
-### --feedback--
+### --feedback--  
 
-Linda does not delegate the task to someone else.
+Linda non delega il compito a qualcun altro.  
 
----
+---  
 
-Redesign the user interface from scratch.
+Ridisegnare l'interfaccia utente da zero.  
 
-### --feedback--
+### --feedback--  
 
-Linda does not talk about redesigning the interface.
+Linda non parla di ridisegnare l'interfaccia.  
 
-## --video-solution--
+## --video-solution--  
 
-1
+1  
 
-# --explanation--
+# --explanation--  
 
-Listen for key words that indicate what Linda is offering to do.
+Ascolta le parole chiave che indicano cosa Linda si offre di fare.  
 
-`I can also` – This shows she is volunteering to contribute.
+`I can also` – Questo mostra che si sta offrendo volontaria per contribuire.  
 
-`Prepare some user scenarios for testing` – This clearly states the task she is taking responsibility for.
+`Prepare some user scenarios for testing` – Qui si dichiara chiaramente il compito di cui si assume la responsabilità.  
 
-`Ensure a smooth user experience` – This explains why testing is important and reinforces her commitment to the project.
+`Ensure a smooth user experience` – Spiega perché i test sono importanti e rafforza il suo impegno nel progetto.  
 
 # --scene--
 

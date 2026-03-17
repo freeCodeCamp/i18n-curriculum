@@ -1,6 +1,6 @@
 ---
 id: a9f9c5bf295034800d6c77ad
-title: Building a Better Calculator
+title: Створення кращого калькулятора
 challengeType: 11
 videoId: lOltMrA6kuY
 dashedName: building-a-better-calculator-learn-python-full-course-for-beginners
@@ -8,13 +8,13 @@ dashedName: building-a-better-calculator-learn-python-full-course-for-beginners
 
 # --description--
 
-In this video, you will learn how to build an improved calculator program using if statements.
+У цьому відео ви навчитеся створювати покращену програму калькулятора з використанням операторів if.
 
 # --questions--
 
 ## --text--
 
-Which of the following built-in functions is used to convert a string to a float?
+Яка з наведених вбудованих функцій використовується для перетворення рядка на число з плаваючою комою?
 
 ## --answers--
 

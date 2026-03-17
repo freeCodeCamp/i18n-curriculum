@@ -1,15 +1,15 @@
 ---
 id: 684fd85424ffdb2edff3afd1
-title: Step 26
+title: Passaggio 26
 challengeType: 20
 dashedName: step-26
 ---
 
 # --description--
 
-Now you can see `{'patient_id': None}` printed to the terminal because the lowercase `p` does not match `P1001` and the `and` operator returns the first falsy value of the expression.
+Ora puoi vedere `{'patient_id': None}` stampato nel terminale perché il `p` minuscolo non corrisponde a `P1001` e l'operatore `and` restituisce il primo valore falsy dell'espressione.
 
-You want to ensure that the patient ID starts with the letter `p`, but it can be either lowercase or uppercase. To modify the matching behavior of regular expressions, you can use flags. For example, `re.search` accepts a third argument to specify any flags:
+Vuoi assicurarti che l'id del paziente inizi con la lettera `p`, ma può essere sia minuscola sia maiuscola. Per modificare il comportamento di corrispondenza delle espressioni regolari, puoi usare le flag. Per esempio, `re.search` accetta un terzo argomento per specificare eventuali flag:
 
 ```py
 import re
@@ -21,13 +21,13 @@ print(re.search('hello', greeting, re.IGNORECASE))
 # <re.Match object; span=(0, 5), match='Hello'>
 ```
 
-Add `re.IGNORECASE` as the third argument to your `re.search` call. This will make your regex search case insensitive.
+Aggiungi `re.IGNORECASE` come terzo argomento alla tua chiamata `re.search`. Questo renderà la ricerca con l'espressione regolare insensibile al maiuscolo/minuscolo.
 
-After that, you'll see `None` replaced by the match object `<re.Match object; span=(0, 1), match='P'>`, where `match` indicates the match and `span` indicates its location in the string.
+Dopodiché, vedrai `None` sostituito dall'oggetto di corrispondenza `<re.Match object; span=(0, 1), match='P'>`, dove `match` indica la corrispondenza e `span` indica la sua posizione nella stringa.
 
 # --hints--
 
-You should add `re.IGNORECASE` as the third argument to your `re.search` call.
+Dovresti aggiungere `re.IGNORECASE` come terzo argomento alla tua chiamata `re.search`.
 
 ```js
 ({ test: () => assert(runPython(`
@@ -96,7 +96,7 @@ def validate(data):
     if not is_sequence:
         print('Invalid format: expected a list or tuple.')
         return False
-
+        
     is_invalid = False
     key_set = set(
         ['patient_id', 'age', 'gender', 'diagnosis', 'medications', 'last_visit_id']

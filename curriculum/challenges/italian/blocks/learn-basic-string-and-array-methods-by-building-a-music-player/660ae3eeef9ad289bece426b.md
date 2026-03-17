@@ -1,23 +1,23 @@
 ---
 id: 660ae3eeef9ad289bece426b
-title: Step 11
+title: Passaggio 11
 challengeType: 0
 dashedName: step-11
 ---
 
 # --description--
 
-In the previous projects, you used regular functions. But in the rest of the projects, you will be working with <dfn>arrow functions</dfn>. The next few steps will focus on teaching you the basics of arrow functions.
+Nei progetti precedenti hai usato funzioni normali. Ma nel resto dei progetti lavorerai con le <dfn>funzioni freccia</dfn>. I prossimi passaggi si concentreranno sull'insegnarti le basi delle funzioni freccia.
 
-An arrow function is an anonymous function expression and a shorter way to write functions. Anonymous means that the function does not have a name. Arrow functions are always anonymous.
+Una funzione freccia è un'espressione di funzione anonima e un modo più breve per scrivere le funzioni. Anonima significa che la funzione non ha un nome. Le funzioni freccia sono sempre anonime.
 
-Here is the basic syntax:
+Ecco la sintassi di base:
 
 ```js
 () => {}
 ```
 
-By assigning the arrow function definition to a variable, you bind it to an identifier.
+Assegnando la definizione della funzione freccia a una variabile, la leghi a un identificatore.
 
 ```js
 const exampleFunction = () => {
@@ -25,23 +25,23 @@ const exampleFunction = () => {
 }
 ```
 
-Create a new arrow function and assign it to the variable `printGreeting`. Inside the function body, use the `console.log()` method to print the string `Hello there!`.
+Crea una nuova funzione freccia e assegnala alla variabile `printGreeting`. All'interno del corpo della funzione, usa il metodo `console.log()` per stampare la stringa `Hello there!`.
 
 # --hints--
 
-You should have a variable named `printGreeting` and assign it an arrow function.
+Dovresti avere una variabile chiamata `printGreeting` e assegnarle una funzione freccia.
 
 ```js
 assert.isFunction(printGreeting);
 ```
 
-You should create an arrow function and assign it to the `printGreeting` variable.
+Dovresti creare una funzione freccia e assegnarla alla variabile `printGreeting`.
 
 ```js
 assert.match(code, /(let|const)\s+printGreeting\s*=\s*\(.*\)\s*=>\s*{\s*[\s\S]*}\s*;?/)
 ```
 
-Your `printGreeting` function should log `Hello there!` to the console.
+La tua funzione `printGreeting` dovrebbe stampare `Hello there!` nella console.
 
 ```js
 assert.match(printGreeting.toString(), /console\.log\(['"]Hello\s+there!['"]\)/);

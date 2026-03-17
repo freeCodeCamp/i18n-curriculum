@@ -1,6 +1,6 @@
 ---
 id: 67a9f44e6dcabb0c402a9bfb
-title: Task 5
+title: Завдання 5
 challengeType: 19
 dashedName: task-5
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Прослухайте аудіо та дайте відповідь на запитання нижче.
 
 # --questions--
 
 ## --text--
 
-What does Bob want to know?
+Що хоче дізнатися Боб?
 
 ## --answers--
 
-If employees have already bought office furniture.
+Чи працівники вже купили офісні меблі.
 
 ### --feedback--
 
-Bob isn't asking for confirmation of purchases.
+Боб не просить підтвердження покупок.
 
 ---
 
-How much office furniture costs.
+Скільки коштують офісні меблі.
 
 ### --feedback--
 
-Bob does not ask about the price.
+Боб не питає про ціну.
 
 ---
 
-If the company will increase the stipend.
+Чи компанія збільшить стипендію.
 
 ### --feedback--
 
-Bob is not discussing changes to the stipend.
+Боб не обговорює зміни стипендії.
 
 ---
 
-If Anna thinks using the stipend for office furniture is a good idea.
+Чи вважає Анна, що використання стипендії на офісні меблі — це хороша ідея.
 
 ## --video-solution--
 
@@ -52,7 +52,7 @@ If Anna thinks using the stipend for office furniture is a good idea.
 
 # --explanation--
 
-Bob asks, `Do you think that's a good idea?` This is a way to ask for someone's opinion about a suggestion or plan. Here's other ways to ask for an opinion:
+Боб запитує, `Do you think that's a good idea?` Це спосіб дізнатися думку когось про пропозицію або план. Ось інші способи запитати думку:
 
 - `Do you think this will work?`
 
@@ -60,7 +60,7 @@ Bob asks, `Do you think that's a good idea?` This is a way to ask for someone's 
 
 - `How do you feel about this plan?`
 
-In this dialogue, Bob is referring to employees using the remote work stipend for office furniture. Instead of stating his own opinion, he is asking Anna what she thinks.
+У цьому діалозі Боб має на увазі, що працівники використовують стипендію для віддаленої роботи на офісні меблі. Замість того, щоб висловити власну думку, він питає Анну, що вона думає.
 
 # --scene--
 

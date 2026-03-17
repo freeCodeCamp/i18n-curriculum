@@ -1,6 +1,6 @@
 ---
 id: ae9defd7acaf69703ab432ea
-title: Smallest Common Multiple
+title: Найменше спільне кратне
 challengeType: 1
 forumTopicId: 16075
 dashedName: smallest-common-multiple
@@ -8,45 +8,45 @@ dashedName: smallest-common-multiple
 
 # --description--
 
-Find the smallest common multiple of the provided parameters that can be evenly divided by both, as well as by all sequential numbers in the range between these parameters.
+Знайдіть найменше спільне кратне заданих параметрів, яке ділиться без остачі як на обидва параметри, так і на всі послідовні числа в діапазоні між цими параметрами.
 
-The range will be an array of two numbers that will not necessarily be in numerical order.
+Діапазон буде масивом із двох чисел, які не обов’язково йдуть у числовому порядку.
 
-For example, if given 1 and 3, find the smallest common multiple of both 1 and 3 that is also evenly divisible by all numbers *between* 1 and 3. The answer here would be 6.
+Наприклад, якщо задано 1 і 3, знайдіть найменше спільне кратне як 1, так і 3, яке також ділиться без остачі на всі числа *між* 1 і 3. Відповідь у цьому випадку буде 6.
 
 # --hints--
 
-`smallestCommons([1, 5])` should return a number.
+`smallestCommons([1, 5])` має повертати число.
 
 ```js
 assert.deepEqual(typeof smallestCommons([1, 5]), 'number');
 ```
 
-`smallestCommons([1, 5])` should return 60.
+`smallestCommons([1, 5])` має повертати 60.
 
 ```js
 assert.deepEqual(smallestCommons([1, 5]), 60);
 ```
 
-`smallestCommons([5, 1])` should return 60.
+`smallestCommons([5, 1])` має повертати 60.
 
 ```js
 assert.deepEqual(smallestCommons([5, 1]), 60);
 ```
 
-`smallestCommons([2, 10])` should return 2520.
+`smallestCommons([2, 10])` має повертати 2520.
 
 ```js
 assert.deepEqual(smallestCommons([2, 10]), 2520);
 ```
 
-`smallestCommons([1, 13])` should return 360360.
+`smallestCommons([1, 13])` має повертати 360360.
 
 ```js
 assert.deepEqual(smallestCommons([1, 13]), 360360);
 ```
 
-`smallestCommons([23, 18])` should return 6056820.
+`smallestCommons([23, 18])` має повертати 6056820.
 
 ```js
 assert.deepEqual(smallestCommons([23, 18]), 6056820);

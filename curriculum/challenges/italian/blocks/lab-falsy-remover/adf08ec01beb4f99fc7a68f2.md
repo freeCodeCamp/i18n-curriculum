@@ -1,59 +1,59 @@
 ---
 id: adf08ec01beb4f99fc7a68f2
-title: Implement a Falsy Remover
+title: implementare un filtro per valori falsy
 challengeType: 26
 dashedName: implement-a-falsy-remover
 ---
 
 # --description--
 
-In this lab you will create a function that removes all falsy values from an array.
+In questo laboratorio creerai una funzione che rimuove tutti i valori falsy da un array.
 
-Falsy values in JavaScript are `false`, `null`, `0`, `""`, `undefined`, and `NaN`.
+I valori falsy in JavaScript sono `false`, `null`, `0`, `""`, `undefined` e `NaN`.
 
-**Objective**: Fulfill the user stories below and get all the tests to pass to complete the lab.
+**Obiettivo**: soddisfa le storie utente qui sotto e fai superare tutti i test per completare il laboratorio.
 
-**User Stories:**
+**Storie utente:**
 
-1. You should have a `bouncer` function that takes an array as argument.
-1. The `bouncer` function should return a new array that contains the same elements as the array passed in as argument with the falsy elements removed.
-1. The `bouncer` function should not change the array passed in as an argument.
+1. Dovresti avere una funzione `bouncer` che prende un array come argomento.
+1. La funzione `bouncer` dovrebbe restituire un nuovo array che contiene gli stessi elementi dell'array passato come argomento con gli elementi falsy rimossi.
+1. La funzione `bouncer` non dovrebbe modificare l'array passato come argomento.
 
-Hint: Try converting each value to a Boolean.
+Suggerimento: prova a convertire ogni valore in un booleano.
 
 # --hints--
 
-You should have a `bouncer` function.
+Dovresti avere una funzione `bouncer`.
 
 ```js
 assert.isFunction(bouncer);
 ```
 
-`bouncer([7, "ate", "", false, 9])` should return `[7, "ate", 9]`.
+`bouncer([7, "ate", "", false, 9])` dovrebbe restituire `[7, "ate", 9]`.
 
 ```js
 assert.deepEqual(bouncer([7, 'ate', '', false, 9]), [7, 'ate', 9]);
 ```
 
-`bouncer(["a", "b", "c"])` should return `["a", "b", "c"]`.
+`bouncer(["a", "b", "c"])` dovrebbe restituire `["a", "b", "c"]`.
 
 ```js
 assert.deepEqual(bouncer(['a', 'b', 'c']), ['a', 'b', 'c']);
 ```
 
-`bouncer([false, null, 0, NaN, undefined, ""])` should return `[]`.
+`bouncer([false, null, 0, NaN, undefined, ""])` dovrebbe restituire `[]`.
 
 ```js
 assert.deepEqual(bouncer([false, null, 0, NaN, undefined, '']), []);
 ```
 
-`bouncer([null, NaN, 1, 2, undefined])` should return `[1, 2]`.
+`bouncer([null, NaN, 1, 2, undefined])` dovrebbe restituire `[1, 2]`.
 
 ```js
 assert.deepEqual(bouncer([null, NaN, 1, 2, undefined]), [1, 2]);
 ```
 
-The `bouncer` function should not mutate the array passed in as argument.
+La funzione `bouncer` non dovrebbe modificare l'array passato come argomento.
 
 ```js
 const arr = ['a', false, 0, 'Naomi'];
@@ -61,11 +61,11 @@ bouncer(arr);
 assert.deepEqual(arr, ['a', false, 0, 'Naomi']);
 ```
 
-`bouncer([])` should return `[]`.
+`bouncer([])` dovrebbe restituire `[]`.  
 
 ```js  
 assert.deepEqual(bouncer([]), []);  
-```
+```  
 
 # --seed--
 

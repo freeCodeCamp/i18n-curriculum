@@ -1,6 +1,6 @@
 ---
 id: 030401977064585ddd4c7746
-title: For Loops
+title: Loop for
 challengeType: 11
 videoId: x13V1UMMQeI
 dashedName: for-loops-learn-python-full-course-for-beginners
@@ -8,13 +8,13 @@ dashedName: for-loops-learn-python-full-course-for-beginners
 
 # --description--
 
-In this video, you will learn how to use for loops to iterate over sequences like lists and ranges.
+In questo video imparerai come usare i loop for per iterare su sequenze come liste e range.
 
 # --questions--
 
 ## --text--
 
-Which of the following is the correct way to iterate over each letter in the string `"Giraffe Academy"`?
+Qual è il modo corretto per iterare su ogni lettera nella stringa `"Giraffe Academy"`?
 
 ## --answers--
 

@@ -1,6 +1,6 @@
 ---
 id: 6973dae19a1d3a4ca3cb3ddd
-title: 30 to 59 Pronunciation Review
+title: Повторення вимови чисел від 30 до 59
 challengeType: 24
 dashedName: 30-to-59-pronunciation-review
 lang: es
@@ -10,11 +10,11 @@ lang: es
 
 # --description--
 
-Practice pronouncing the numbers from 30 to 59.
+Попрактикуйтеся у вимові чисел від 30 до 59.
 
 # --assignment--
 
-I've practiced pronouncing the numbers from 30 to 59.
+Я попрактикувався у вимові чисел від 30 до 59.
 
 # --scene--
 

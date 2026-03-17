@@ -1,6 +1,6 @@
 ---
 id: 67d3fccf15badf0cae314d1c
-title: Task 7
+title: Завдання 7
 challengeType: 22
 dashedName: task-7
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Прослухайте аудіо та доповніть речення нижче.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This verb shows necessity, meaning something is required.
+Цей дієслово виражає необхідність, означаючи, що щось потрібно зробити.
 
 ---
 
@@ -32,15 +32,15 @@ This verb shows necessity, meaning something is required.
 
 ### --feedback--
 
-This verb follows `need` to when asking about an action.
+Цей дієслово слідує за `need`, коли запитують про дію.
 
 # --explanation--
 
-`Need to` is used when asking about necessary actions. It is followed by the base form of the verb (`do`). For example:
+`Need to` використовується, коли запитують про необхідні дії. Після нього йде базова форма дієслова (`do`). Наприклад:
 
-- `We need to do more testing before releasing the app.` - It is necessary to test the app before launching it.
+- `We need to do more testing before releasing the app.` - Необхідно протестувати застосунок перед його запуском.
 
-- `We need to do some updates to fix the bugs.` - It is necessary to update the system to solve problems.
+- `We need to do some updates to fix the bugs.` - Необхідно оновити систему, щоб вирішити проблеми.
 
 # --scene--
 

@@ -1,6 +1,6 @@
 ---
 id: a4cfb218d22efcfa7cc49d80
-title: Exponent Functions
+title: Показникові функції
 challengeType: 11
 videoId: KLDvy0wFFX4
 dashedName: exponent-functions-learn-python-full-course-for-beginners
@@ -8,29 +8,29 @@ dashedName: exponent-functions-learn-python-full-course-for-beginners
 
 # --description--
 
-In this video, you will learn how to write a function that calculates exponents and powers in Python.
+У цьому відео ви навчитеся писати функцію, яка обчислює показники та степені в Python.
 
 # --questions--
 
 ## --text--
 
-What does the `range()` function in Python do?
+Що робить функція `range()` у Python?
 
 ## --answers--
 
-It returns a number from a list.
+Вона повертає число зі списку.
 
 ---
 
-It creates a list of random numbers.
+Вона створює список випадкових чисел.
 
 ---
 
-It generates a sequence of integers between a starting and stopping point.
+Вона генерує послідовність цілих чисел між початковою та кінцевою точками.
 
 ---
 
-It generates a sequence of floats between a starting and stopping point.
+Вона генерує послідовність чисел з плаваючою комою між початковою та кінцевою точками.
 
 ## --video-solution--
 

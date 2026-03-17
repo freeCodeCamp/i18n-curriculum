@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Послухайте аудіо та доповніть речення нижче.
+Прослухайте аудіо та доповніть речення нижче.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ lang: en-US
 
 ### --feedback--
 
-This two-word phrase means introduced or caused something to appear or become an issue. The first word is the past tense form of `bring`.
+Ця двослівна фраза означає, що щось було введено або спричинило появу проблеми. Перше слово — це форма минулого часу `bring`.
 
 ---
 
@@ -32,17 +32,17 @@ This two-word phrase means introduced or caused something to appear or become an
 
 ### --feedback--
 
-This word means something happened that was not planned or predicted. It ends with `-ed`.
+Це слово означає, що щось сталося несподівано або не було заплановане. Воно закінчується на `-ed`.
 
 # --explanation--
 
-`Brought up` means caused something to appear, especially a problem or issue. Here, `brought` is the past tense form of `bring`. Приклад:
+`Brought up` означає спричинити появу чогось, особливо проблеми чи питання. Тут `brought` — це форма минулого часу від `bring`. Наприклад:
 
-`The new feature brought up several bugs.` – This means the feature caused the bugs to be noticed.
+`The new feature brought up several bugs.` – Це означає, що функція спричинила появу помилок.
 
-`Unexpected` describes something that happens without warning or planning. For example:
+`Unexpected` описує те, що трапляється без попередження чи планування. Наприклад:
 
-`We had an unexpected delay due to server issues.` – This means the delay was not anticipated.
+`We had an unexpected delay due to server issues.` – Це означає, що затримка була непередбаченою.
 
 # --scene--
 

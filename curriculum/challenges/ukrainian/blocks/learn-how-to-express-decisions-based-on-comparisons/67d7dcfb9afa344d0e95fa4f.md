@@ -1,6 +1,6 @@
 ---
 id: 67d7dcfb9afa344d0e95fa4f
-title: Task 122
+title: Завдання 122
 challengeType: 22
 dashedName: task-122
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Прослухайте аудіо та доповніть речення нижче.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This two-word phrase means to cause or result in something happening.
+Цей двослівний вираз означає спричинити або призвести до чогось.
 
 ---
 
@@ -32,17 +32,17 @@ This two-word phrase means to cause or result in something happening.
 
 ### --feedback--
 
-This means to make something take longer than expected.
+Це означає зробити так, щоб щось тривало довше, ніж очікувалося.
 
 # --explanation--
 
-`Lead to` means to cause something to happen or result in a certain outcome. For example:
+`Lead to` означає спричинити щось або призвести до певного результату. Наприклад:
 
-`Poor planning can lead to missed deadlines.` – This means that if planning is not done well, deadlines may not be met.
+`Poor planning can lead to missed deadlines.` – Це означає, що якщо планування буде зроблене погано, терміни можуть не бути дотримані.
 
-`Delay` means to make something take longer than expected or to postpone it. For example:
+`Delay` означає зробити так, щоб щось тривало довше, ніж очікувалося, або відкласти це. Наприклад:
 
-`The software release was delayed due to unexpected bugs.` – This means the launch was pushed back because of technical issues.
+`The software release was delayed due to unexpected bugs.` – Це означає, що запуск було відкладено через технічні проблеми.
 
 # --scene--
 

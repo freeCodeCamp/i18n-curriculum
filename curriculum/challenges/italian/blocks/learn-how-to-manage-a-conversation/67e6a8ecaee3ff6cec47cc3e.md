@@ -1,6 +1,6 @@
 ---
 id: 67e6a8ecaee3ff6cec47cc3e
-title: Task 75
+title: Attività 75
 challengeType: 19
 dashedName: task-75
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Ascolta l'audio e rispondi alla domanda qui sotto.
 
 # --questions--
 
 ## --text--
 
-Why does Jessica want to explain the bug to the team quickly?
+Perché Jessica vuole spiegare rapidamente il bug al team?
 
 ## --answers--
 
-Because she wants to return to the main topic of the meeting.
+Perché vuole tornare all'argomento principale della riunione.
 
 ---
 
-Because she wants to leave the meeting early.
+Perché vuole lasciare la riunione in anticipo.
 
 ### --feedback--
 
-Jessica doesn't mention leaving the meeting.
+Jessica non menziona di voler lasciare la riunione.
 
 ---
 
-Because the team already knows about the bug.
+Perché il team conosce già il bug.
 
 ### --feedback--
 
-Jessica is explaining the bug because it might affect the team.
+Jessica sta spiegando il bug perché potrebbe influenzare il team.
 
 ---
 
-Because she doesn't think the bug is important.
+Perché non pensa che il bug sia importante.
 
 ### --feedback--
 
-Jessica thinks the issue is important, but she also wants to respect the meeting agenda.
+Jessica pensa che il problema sia importante, ma vuole anche rispettare l'agenda della riunione.
 
 ## --video-solution--
 
@@ -52,13 +52,13 @@ Jessica thinks the issue is important, but she also wants to respect the meeting
 
 # --explanation--
 
-`So we can` is used to show purpose — it means the next thing you mention is what you intend to do. It explains why someone is doing something. For example:
+`So we can` si usa per mostrare lo scopo — significa che la cosa che menzioni dopo è ciò che intendi fare. Spiega perché qualcuno sta facendo qualcosa. Per esempio:
 
-`I'll finish this now so we can start the next task.` – This means the speaker wants to finish one thing to begin another soon.
+`I'll finish this now so we can start the next task.` – Questo significa che chi parla vuole finire una cosa per iniziarne presto un'altra.
 
-`The main agenda` refers to the primary topics or plan of a meeting or event. For example:
+`The main agenda` si riferisce agli argomenti principali o al piano di una riunione o evento. Per esempio:
 
-`Let's stick to the main agenda and avoid side discussions.` – This means to stay focused on the most important items in the meeting.
+`Let's stick to the main agenda and avoid side discussions.` – Questo significa mantenere il focus sugli elementi più importanti della riunione.
 
 # --scene--
 

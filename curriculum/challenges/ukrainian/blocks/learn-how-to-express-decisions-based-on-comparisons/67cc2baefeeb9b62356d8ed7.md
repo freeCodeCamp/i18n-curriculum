@@ -10,90 +10,90 @@ lang: en-US
 
 # --description--
 
-This is a review of the entire dialogue you just studied.
+Це повторення всього діалогу, який ви щойно вивчили.
 
 # --instructions--
 
-Write the following words or phrases in the correct spot:
+Напишіть наступні слова або фрази у правильному місці:  
 
-`more`, `easier`, `better`, `as flexible`, `nicer`, `as easily`, and `slightly`.
+`more`, `easier`, `better`, `as flexible`, `nicer`, `as easily`, і `slightly`.
 
 # --fillInTheBlank--
 
 ## --sentence--
 
-`Sophie: Hey, Jake. I'm looking at two software tools for our next project. Can you help me decide which one is BLANK for security?`
+`Sophie: Hey, Jake. I'm looking at two software tools for our next project. Can you help me decide which one is BLANK for security?`  
 
-`Jake: Sure, Sophie. What are the options?`
+`Jake: Sure, Sophie. What are the options?`  
 
-`Sophie: The first one is SecureSoft, and the other is SafeGuard. SecureSoft seems BLANK user-friendly, but I'm not sure about its security features.`
+`Sophie: The first one is SecureSoft, and the other is SafeGuard. SecureSoft seems BLANK user-friendly, but I'm not sure about its security features.`  
 
-`Jake: I know SecureSoft. It's a bit BLANK to use, but I think SafeGuard is more robust when it comes to security. It has stronger encryption and better protection against vulnerabilities.`
+`Jake: I know SecureSoft. It's a bit BLANK to use, but I think SafeGuard is more robust when it comes to security. It has stronger encryption and better protection against vulnerabilities.`  
 
-`Sophie: That makes sense. SecureSoft does have a BLANK interface, but if SafeGuard is more secure, it's probably the better choice. What about performance? Which one is faster?`
+`Sophie: That makes sense. SecureSoft does have a BLANK interface, but if SafeGuard is more secure, it's probably the better choice. What about performance? Which one is faster?`  
 
-`Jake: From my experience, SafeGuard is BLANK faster. It has more efficient processing, so it doesn't slow down the system as much. SecureSoft is good, but it can be a bit sluggish when handling large data sets.`
+`Jake: From my experience, SafeGuard is BLANK faster. It has more efficient processing, so it doesn't slow down the system as much. SecureSoft is good, but it can be a bit sluggish when handling large data sets.`  
 
-`Sophie: Thanks for pointing that out. I noticed that SecureSoft has more integration options with other tools. Is SafeGuard BLANK?`
+`Sophie: Thanks for pointing that out. I noticed that SecureSoft has more integration options with other tools. Is SafeGuard BLANK?`  
 
-`Jake: Not really. SafeGuard is more focused on security, so it might not integrate BLANK with other platforms. If integration is crucial, you might have to do some extra work with SafeGuard.`
+`Jake: Not really. SafeGuard is more focused on security, so it might not integrate BLANK with other platforms. If integration is crucial, you might have to do some extra work with SafeGuard.`  
 
-`Sophie: That's good to know. I think I'll go with SafeGuard since security is our top priority, but I'll keep in mind the integration challenges. Thanks for your help, Jake.`
+`Sophie: That's good to know. I think I'll go with SafeGuard since security is our top priority, but I'll keep in mind the integration challenges. Thanks for your help, Jake.`  
 
-`Jake: No problem, Sophie. If you have any other questions, just let me know.`
+`Jake: No problem, Sophie. If you have any other questions, just let me know.`  
 
 ## --blanks--
 
-`better`
+`better`  
 
-### --feedback--
+### --feedback--  
 
-This comparative adjective describes something that surpasses another in quality.
-
----
-
-`more`
-
-### --feedback--
-
-This word is used to form the comparative of adjectives. It comes before an adjective and indicates a higher degree.
+Цей порівняльний прикметник описує щось, що перевершує інше за якістю.
 
 ---
 
-`easier`
+`more`  
 
-### --feedback--
+### --feedback--  
 
-This comparative adjective means something requires less effort.
-
----
-
-`nicer`
-
-### --feedback--
-
-This comparative adjective means more pleasant or attractive.
+Це слово використовується для утворення ступеня порівняння прикметників. Воно стоїть перед прикметником і вказує на вищий ступінь.
 
 ---
 
-`slightly`
+`easier`  
 
-### --feedback--
+### --feedback--  
 
-This adverb means a little or to a small degree.
-
----
-
-`as flexible`
-
-### --feedback--
-
-This phrase is used in comparisons to show equal ability to adapt. The first word is a conjunction, and the second is an adjective.
+Цей порівняльний прикметник означає, що щось потребує менше зусиль.
 
 ---
 
-`as easily`
+`nicer`  
 
-### --feedback--
+### --feedback--  
 
-This phrase is used in comparisons to show equal ease of action. The first word is a conjunction, and the second is an adverb.  
+Цей порівняльний прикметник означає більш приємний або привабливий.
+
+---
+
+`slightly`  
+
+### --feedback--  
+
+Цей прислівник означає трохи або в невеликій мірі.
+
+---
+
+`as flexible`  
+
+### --feedback--  
+
+Ця фраза використовується у порівняннях, щоб показати однакову здатність пристосовуватися. Перше слово — сполучник, а друге — прикметник.
+
+---
+
+`as easily`  
+
+### --feedback--  
+
+Ця фраза використовується у порівняннях, щоб показати однакову легкість дії. Перше слово — сполучник, а друге — прислівник.

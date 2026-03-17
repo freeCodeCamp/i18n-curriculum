@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Прослухайте аудіозапис та дайте відповіді на запитання.
+Прослухайте аудіо та дайте відповідь на запитання нижче.
 
 # --questions--
 
 ## --text--
 
-What is James describing about his approach to coding?
+Що Джеймс описує щодо свого підходу до кодування?
 
 ## --answers--
 
-A habit he had in the past.
+Звичка, яку він мав у минулому.
 
 ---
 
-Something he plans to do in the future.
+Щось, що він планує робити в майбутньому.
 
 ### --feedback--
 
-James isn't talking about future plans; he is reflecting on something he did before.
+Джеймс не говорить про майбутні плани; він розмірковує про те, що робив раніше.
 
 ---
 
-A habit he continues now.
+Звичка, яку він продовжує зараз.
 
 ### --feedback--
 
-James uses the phrase `used to`, which shows he is describing something he did in the past, not currently.
+Джеймс використовує фразу `used to`, що показує, що він описує те, що робив у минулому, а не зараз.
 
 ---
 
-A process he never followed.
+Процес, якого він ніколи не дотримувався.
 
 ### --feedback--
 
-James describes a habit he once had, so it is not something he never did.
+Джеймс описує звичку, яку колись мав, тож це не те, чого він ніколи не робив.
 
 ## --video-solution--
 
@@ -52,11 +52,11 @@ James describes a habit he once had, so it is not something he never did.
 
 # --explanation--
 
-James says, `I used to just write code without thinking much about the end user.`
+Джеймс каже, `I used to just write code without thinking much about the end user.` 
 
-`Used to` indicates a past habit or action that is no longer true.
+`Used to` вказує на звичку або дію в минулому, яка більше не є актуальною. 
 
-This sentence shows that he previously wrote code without considering the end user but has since changed his approach.
+Це речення показує, що раніше він писав код, не враховуючи кінцевого користувача, але з того часу змінив свій підхід.
 
 # --scene--
 

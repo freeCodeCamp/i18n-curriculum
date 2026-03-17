@@ -1,6 +1,6 @@
 ---
 id: 69a772165a27934b29e1eac7
-title: Best Practices
+title: Найкраща практика
 challengeType: 11
 videoId: z_4Esan2kus
 dashedName: best-practices-learn-prompting-fundamentals
@@ -8,31 +8,30 @@ dashedName: best-practices-learn-prompting-fundamentals
 
 # --description--
 
-In this video, you will learn about best practices when working with AI tools.
+У цьому відео ви дізнаєтеся про найкращу практику при роботі з інструментами штучного інтелекту.
 
 # --questions--
 
 ## --text--
 
-Why is it helpful to add a persona to the prompt?
+Чому корисно додавати персону до запиту?
 
 ## --answers--
 
-Using a persona ensures that the result is at least 2 paragraphs long.
+Використання персони гарантує, що результат буде щонайменше з 2 абзаців.
 
 ---
 
-Using a persona is required for the prompt to work.
+Використання персони є обов’язковим для роботи запиту.
 
 ---
 
-Using a persona helps the model provide relevant and consistent feedback.
+Використання персони допомагає моделі надавати релевантний і послідовний відгук.
 
 ---
 
-Using a persona will ensure no hallucinations happen.
+Використання персони забезпечить відсутність галюцинацій.
 
 ## --video-solution--
 
 3
-

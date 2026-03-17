@@ -1,6 +1,6 @@
 ---
 id: 6660a1f8afeef3663bddaecb
-title: "Dialogue 1: Should Have Noticed That"
+title: "Dialogo 1: avrei dovuto accorgermene"
 challengeType: 21
 dashedName: dialogue-1-should-have-noticed-that
 lang: en-US
@@ -8,11 +8,11 @@ lang: en-US
 
 # --description--
 
-Watch the video below to understand the context of the upcoming lessons.
+Guarda il video qui sotto per capire il contesto delle prossime lezioni.
 
 # --assignment--
 
-Watch the video.
+Guarda il video.
 
 # --scene--
 

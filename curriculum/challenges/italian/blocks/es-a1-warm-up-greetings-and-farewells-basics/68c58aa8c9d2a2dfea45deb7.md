@@ -1,26 +1,25 @@
 ---
 id: 68c58aa8c9d2a2dfea45deb7
-title: Task 7
+title: Attività 7
 challengeType: 19
 dashedName: task-7
 lang: es
 ---
-
 <!-- (Audio) Elena: Hasta luego -->
 
 # --description--
 
-Elena is saying goodbye, but she expects to see you again.
+Elena si sta salutando, ma si aspetta di rivederti.
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Ascolta l'audio e rispondi alla domanda qui sotto.
 
 # --questions--
 
 ## --text--
 
-What phrase does Elena use to say "see you later"?
+Quale frase usa Elena per dire "a dopo"?
 
 ## --answers--
 
@@ -32,7 +31,7 @@ What phrase does Elena use to say "see you later"?
 
 ### --feedback--
 
-This is a goodbye, but it's more final. The speaker uses a different phrase.
+Questo è un saluto di addio, ma è più definitivo. La persona che parla usa una frase diversa.
 
 ---
 
@@ -40,7 +39,7 @@ This is a goodbye, but it's more final. The speaker uses a different phrase.
 
 ### --feedback--
 
-This is also an informal way to say goodbye, but it's not the one in the audio.
+Anche questo è un modo informale per dire addio, ma non è quello nell'audio.
 
 ---
 
@@ -48,7 +47,7 @@ This is also an informal way to say goodbye, but it's not the one in the audio.
 
 ### --feedback--
 
-This means "Hi", a general greeting, but it's not what Elena says.
+Significa "Ciao", un saluto generico, ma non è quello che dice Elena.
 
 ## --video-solution--
 
@@ -56,11 +55,11 @@ This means "Hi", a general greeting, but it's not what Elena says.
 
 # --explanation--
 
-`Hasta luego` is a common way to say goodbye in Spanish. It translates to "See you later".
+`Hasta luego` è un modo comune per dire addio in spagnolo. Si traduce con "a dopo".
 
-It's used when you expect to see the person again, but not necessarily soon. For example:
+Si usa quando ti aspetti di rivedere la persona, ma non necessariamente presto. Per esempio:  
 
-`Hasta luego, Marta.` – See you later, Marta.
+`Hasta luego, Marta.` – A dopo, Marta.
 
 # --scene--
 

@@ -1,6 +1,6 @@
 ---
 id: 679d62d4afabb9cb6f9ece23
-title: Task 106
+title: Завдання 106
 challengeType: 19
 dashedName: task-106
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Прослухайте аудіо та дайте відповідь на запитання нижче.
 
 # --questions--
 
 ## --text--
 
-What does Maria want to avoid doing, and why?
+Чого Марія хоче уникнути і чому?
 
 ## --answers--
 
-She wants to avoid fixing the problem.
+Вона хоче уникнути виправлення проблеми.
 
 ### --feedback--
 
-Maria is not saying they shouldn't fix the problem.
+Марія не каже, що вони не повинні виправляти проблему.
 
 ---
 
-She wants to avoid asking for help.
+Вона хоче уникнути прохання про допомогу.
 
 ### --feedback--
 
-Maria does not mention asking for help.
+Марія не згадує про прохання допомоги.
 
 ---
 
-She wants to avoid rushing because it could cause more problems.
+Вона хоче уникнути поспіху, бо це може спричинити більше проблем.
 
 ---
 
-She wants to avoid updating the software.
+Вона хоче уникнути оновлення програмного забезпечення.
 
 ### --feedback--
 
-Maria does not say they should avoid updating.
+Марія не каже, що слід уникати оновлення.
 
 ## --video-solution--
 
@@ -52,11 +52,11 @@ Maria does not say they should avoid updating.
 
 # --explanation--
 
-`To lead to problems` means that an action or decision could result in difficulties or negative consequences. For example:
+`To lead to problems` означає, що дія або рішення можуть призвести до складнощів або від’ємних наслідків. Наприклад:
 
-`Skipping the testing phase can lead to serious problems in the software.` - This means that not testing properly might cause major technical issues.
+`Skipping the testing phase can lead to serious problems in the software.` — це означає, що неправильне тестування може спричинити серйозні технічні проблеми.
 
-In this dialogue, Maria is concerned that rushing could create additional issues.
+У цьому діалозі Марія турбується, що поспіх може створити додаткові проблеми.
 
 # --scene--
 

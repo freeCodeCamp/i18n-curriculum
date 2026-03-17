@@ -7,25 +7,25 @@ dashedName: step-21
 
 # --description--
 
-Тепер вам потрібна загальна кількість кожного продукту, яких користувач має у кошику. Оголосіть змінну `totalCountPerProduct` та присвойте їй порожній об’єкт.
+Тепер вам потрібна загальна кількість кожного продукту, який користувач має у кошику. Оголосіть змінну `totalCountPerProduct` і призначте їй порожній об’єкт.
 
 # --hints--
 
-Оголосіть змінну `totalCountPerProduct` у функції `addItem`.
+Ви повинні оголосити змінну `totalCountPerProduct` у вашій функції `addItem`.
 
 ```js
 const cart = new ShoppingCart();
 assert.match(cart.addItem.toString(), /totalCountPerProduct\s*=/);
 ```
 
-Ви повинні використати `const`, щоб оголосити `totalCountPerProduct`.
+Ви повинні використати `const` для оголошення `totalCountPerProduct`.
 
 ```js
 const afterAdd = code.split("addItem")[1];
 assert.match(afterAdd, /const\s+totalCountPerProduct\s*=/);
 ```
 
-Ви повинні присвоїти порожній об’єкт до `totalCountPerProduct`.
+Ви повинні призначити порожній об’єкт `totalCountPerProduct`.
 
 ```js
 const afterAdd = code.split("addItem")[1];

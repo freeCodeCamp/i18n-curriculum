@@ -1,15 +1,15 @@
 ---
 id: 612eaf56b7ba3257fdbfb0db
-title: Step 21
+title: Passaggio 21
 challengeType: 0
 dashedName: step-21
 ---
 
 # --description--
 
-The piano needs the freeCodeCamp logo to make it official.
+Il pianoforte ha bisogno del logo di freeCodeCamp per renderlo ufficiale.
 
-Aggiungi un elemento `img` prima dell'elemento `.keys`. Assegna all'elemento `img` un valore `class` di `logo` e imposta l'`src` su `https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg`. Dagli un testo `alt` di `freeCodeCamp Logo`.
+Aggiungi un elemento `img` prima del tuo elemento `.keys`. Dai al `img` un `class` di `logo` e imposta il `src` su `https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg`. Dagli un testo `alt` di `freeCodeCamp Logo`.
 
 # --hints--
 
@@ -19,7 +19,7 @@ Dovresti aggiungere un nuovo elemento `img`.
 assert(document.querySelectorAll('img')?.length === 1);
 ```
 
-L'elemento `img` dovrebbe trovarsi prima del primo elemento `.keys`.
+Il tuo elemento `img` dovrebbe venire prima del tuo primo elemento `.keys`.
 
 ```js
 const img = document.querySelector('img');
@@ -27,27 +27,27 @@ assert(img?.nextElementSibling?.className === 'keys');
 assert(img?.previousElementSibling === null);
 ```
 
-L'elemento `img` dovrebbe avere l'attributo `class` impostato su `logo`.
+Il tuo elemento `img` dovrebbe avere un `class` impostato su `logo`.
 
 ```js
 const img = document.querySelector('img');
 assert(img?.className === 'logo');
 ```
 
-L'elemento `img` dovrebbe avere un `src` impostato su `https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg`.
+Il tuo elemento `img` dovrebbe avere un `src` impostato su `https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg`.
 
 ```js
 const img = document.querySelector('img');
 assert(img?.getAttribute('src') === 'https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg');
 ```
 
-L'elemento `img` dovrebbe avere un attributo `alt` impostato su `freeCodeCamp Logo`.
+Il tuo elemento `img` dovrebbe avere un attributo `alt` impostato su `freeCodeCamp Logo`.
 
 ```js
 assert(document.querySelector('img')?.getAttribute('alt')?.toLowerCase() === 'freecodecamp logo');
 ```
 
-Fai attenzione alle maiuscole/minuscole e all'ortografia.
+Ricorda che maiuscole, minuscole e ortografia sono importanti.
 
 ```js
 assert(document.querySelector('img')?.getAttribute('alt') === 'freeCodeCamp Logo');

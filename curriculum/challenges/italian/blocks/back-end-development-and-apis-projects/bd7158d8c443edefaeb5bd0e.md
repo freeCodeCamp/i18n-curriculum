@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c443edefaeb5bd0e
-title: URL Shortener Microservice
+title: Microservizio per accorciare URL
 challengeType: 4
 forumTopicId: 301509
 dashedName: url-shortener-microservice
@@ -8,18 +8,18 @@ dashedName: url-shortener-microservice
 
 # --description--
 
-Build a full-stack JavaScript app that is functionally similar to this: <a href="https://url-shortener-microservice.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://url-shortener-microservice.freecodecamp.rocks</a>. Working on this project will involve you writing your code using one of the following methods:
+Crea un'app JavaScript full-stack che sia funzionalmente simile a questa: <a href="https://url-shortener-microservice.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://url-shortener-microservice.freecodecamp.rocks</a>. Lavorare su questo progetto richiederà di scrivere il tuo codice usando uno dei seguenti metodi:
 
--   Clone <a href="https://github.com/freeCodeCamp/boilerplate-project-urlshortener/" target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete your project locally.
--   Use a site builder of your choice to complete the project. Be sure to incorporate all the files from our GitHub repo.
+-   Clona <a href="https://github.com/freeCodeCamp/boilerplate-project-urlshortener/" target="_blank" rel="noopener noreferrer nofollow">questo repository GitHub</a> e completa il progetto localmente.
+-   Usa un generatore di siti a tua scelta per completare il progetto. Assicurati di includere tutti i file dal nostro repository GitHub.
 
 # --instructions--
 
-**HINT:** Do not forget to use a body parsing middleware to handle the POST requests. Also, you can use the function `dns.lookup(host, cb)` from the `dns` core module to verify a submitted URL.
+**SUGGERIMENTO:** Non dimenticare di usare un middleware per il parsing del body per gestire le richieste POST. Inoltre, puoi usare la funzione `dns.lookup(host, cb)` dal modulo core `dns` per verificare un URL inviato.
 
 # --hints--
 
-You should provide your own project, not the example URL.
+Dovresti fornire il tuo progetto, non l'URL di esempio.
 
 ```js
   assert(
@@ -29,7 +29,7 @@ You should provide your own project, not the example URL.
   );
 ```
 
-You can POST a URL to `/api/shorturl` and get a JSON response with `original_url` and `short_url` properties. Here's an example: `{ original_url : 'https://freeCodeCamp.org', short_url : 1}`
+Puoi inviare un URL con POST a `/api/shorturl` e ottenere una risposta JSON con le proprietà `original_url` e `short_url`. Ecco un esempio: `{ original_url : 'https://freeCodeCamp.org', short_url : 1}`
 
 ```js
   const url = code;
@@ -49,7 +49,7 @@ You can POST a URL to `/api/shorturl` and get a JSON response with `original_url
   }
 ```
 
-When you visit `/api/shorturl/<short_url>`, you will be redirected to the original URL.
+Quando visiti `/api/shorturl/<short_url>`, verrai reindirizzato all'URL originale.
 
 ```js
   const url = code;
@@ -79,7 +79,7 @@ When you visit `/api/shorturl/<short_url>`, you will be redirected to the origin
   }
 ```
 
-If you pass an invalid URL that doesn't follow the valid `http://www.example.com` format, the JSON response will contain `{ error: 'invalid url' }`
+Se invii un URL non valido che non segue il formato `http://www.example.com` valido, la risposta JSON conterrà `{ error: 'invalid url' }`
 
 ```js
   const url = code;
@@ -96,4 +96,3 @@ If you pass an invalid URL that doesn't follow the valid `http://www.example.com
     throw new Error(`${res.status} ${res.statusText}`);
   }
 ```
-

@@ -1,6 +1,6 @@
 ---
 id: 69ae6a04b4a814be6a4f2bdd
-title: What are Embedding Models?
+title: Що таке моделі вставлення?
 challengeType: 11
 videoId: _B6lL3WM_hQ
 dashedName: what-are-embedding-models
@@ -8,31 +8,30 @@ dashedName: what-are-embedding-models
 
 # --description--
 
-In this video, you will learn about embedding models.
+У цьому відео ви дізнаєтеся про моделі вставлення.
 
 # --questions--
 
 ## --text--
 
-What is an embedding model?
+Що таке модель вставлення?
 
 ## --answers--
 
-A model that compresses text files to make them smaller for faster downloads.
+Модель, яка стискає текстові файли, щоб зробити їх меншими для швидшого скачування.
 
 ---
 
-A system that automatically translates text from one language into another.
+Система, яка автоматично перекладає текст з однієї мови на іншу.
 
 ---
 
-A model that takes text and converts it into a vector of numbers that represent meaning.
+Модель, яка приймає текст і перетворює його у вектор чисел, що представляють значення.
 
 ---
 
-A model that generates images based on a written description.
+Модель, яка генерує зображення на основі письмового опису.
 
 ## --video-solution--
 
 3
-

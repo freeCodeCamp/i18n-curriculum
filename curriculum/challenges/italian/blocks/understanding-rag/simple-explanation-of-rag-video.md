@@ -1,6 +1,6 @@
 ---
 id: 69ae5c6d8491ca1dcd31440c
-title: Simple Explanation of RAG
+title: Spiegazione semplice di RAG
 challengeType: 11
 videoId: _KPPqvJ9ig4
 dashedName: simple-explanation-of-rag
@@ -8,13 +8,13 @@ dashedName: simple-explanation-of-rag
 
 # --description--
 
-In this video, you will be introduced to the concept of RAG.
+In questo video, ti verrà introdotto il concetto di RAG.
 
 # --questions--
 
 ## --text--
 
-What does RAG stand for?
+Cosa significa RAG?
 
 ## --answers--
 
@@ -35,4 +35,3 @@ Response-Action Generation
 ## --video-solution--
 
 1
-

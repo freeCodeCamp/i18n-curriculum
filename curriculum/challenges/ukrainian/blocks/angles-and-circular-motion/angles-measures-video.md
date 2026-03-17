@@ -1,6 +1,6 @@
 ---
 id: 699e54288f18cf77dfce5c0a
-title: Angles and Their Measures
+title: кути та їхні міри
 challengeType: 11
 videoId: Ycu5Xn5rFuc
 dashedName: angles-and-their-measures
@@ -8,31 +8,30 @@ dashedName: angles-and-their-measures
 
 # --description--
 
-In this video, you will learn about the different ways to describe angles.
+У цьому відео ви дізнаєтеся про різні способи опису кутів.
 
 # --questions--
 
 ## --text--
 
-How are angles usually measured?
+Як зазвичай вимірюють кути?
 
 ## --answers--
 
-They are measured by lines or curves.
+Їх вимірюють лініями або кривими.
 
 ---
 
-They are measured by degrees or radians.
+Їх вимірюють у градусах або радіанах.
 
 ---
 
-They are measured by feet or meters.
+Їх вимірюють у футах або метрах.
 
 ---
 
-They are measured by miles or kilometers.
+Їх вимірюють у милях або кілометрах.
 
 ## --video-solution--
 
 2
-

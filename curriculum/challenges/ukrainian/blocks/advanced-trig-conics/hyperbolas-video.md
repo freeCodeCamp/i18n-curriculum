@@ -1,6 +1,6 @@
 ---
 id: 699e85688f18cf77dfce5c24
-title: Hyperbolas
+title: Гіперболи
 challengeType: 11
 videoId: rQnuydK6bBE
 dashedName: hyperbolas
@@ -8,31 +8,30 @@ dashedName: hyperbolas
 
 # --description--
 
-In this video, you will learn about hyperbolas.
+У цьому відео ви дізнаєтеся про гіперболи.
 
 # --questions--
 
 ## --text--
 
-What is a hyperbola?
+Що таке гіпербола?
 
 ## --answers--
 
-The set of points such that the distance from one fixed point is constant.
+Множина точок, для яких відстань від однієї фіксованої точки є сталою.
 
 ---
 
-A set of points such that the difference of the distances from two fixed points is constant.
+Множина точок, для яких різниця відстаней від двох фіксованих точок є сталою.
 
 ---
 
-The set of points such that the sum of the distances from two fixed points is constant.
+Множина точок, для яких сума відстаней від двох фіксованих точок є сталою.
 
 ---
 
-The set of points equidistant from a line and a point.
+Множина точок, що однаково віддалені від прямої та точки.
 
 ## --video-solution--
 
 2
-

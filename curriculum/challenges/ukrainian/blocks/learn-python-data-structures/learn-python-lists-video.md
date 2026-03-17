@@ -1,6 +1,6 @@
 ---
 id: 39a400e9163c5a0b33587e18
-title: Lists
+title: списки
 challengeType: 11
 videoId: DtMPzGOHZ2M
 dashedName: lists-learn-python-full-course-for-beginners
@@ -8,13 +8,13 @@ dashedName: lists-learn-python-full-course-for-beginners
 
 # --description--
 
-In this video, you will learn about lists, list indexing, slicing, and basic list operations.
+У цьому відео ви дізнаєтеся про списки, індексацію списків, зрізи та базові операції зі списками.
 
 # --questions--
 
 ## --text--
 
-What will be the output for the following code?
+Яким буде вихідний результат для наведеного коду?
 
 ```python
 friends = ["Kevin", "Karen", "Jim"]

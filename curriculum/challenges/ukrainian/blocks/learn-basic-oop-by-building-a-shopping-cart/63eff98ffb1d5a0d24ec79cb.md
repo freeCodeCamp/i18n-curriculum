@@ -7,11 +7,11 @@ dashedName: step-26
 
 # --description--
 
-Ви ще не написали код для генерації HTML, але якщо продукт вже додано до кошика користувача, тоді там буде відповідний елемент, який вам знадобиться.
+Ви ще не написали код для генерації HTML, але якщо продукт уже додано до кошика користувача, то буде відповідний елемент, який вам знадобиться.
 
-Використайте `.getElementById()`, щоб отримати відповідний елемент — ви встановите значення `id` на `product-count-for-id${product.id}`, тому використайте шаблонний літерал для запиту цього значення.
+Використайте `.getElementById()`, щоб отримати відповідний елемент — ви призначатимете значення `id` у `product-count-for-id${product.id}`, тому використайте шаблонний рядок для запиту цього значення.
 
-Присвойте свій запит змінній `currentProductCountSpan`.
+Призначте свій запит змінній `currentProductCountSpan`.
 
 # --hints--
 
@@ -36,14 +36,14 @@ const cart = new ShoppingCart();
 assert.match(cart.addItem.toString(), /document\.getElementById\(/);
 ```
 
-Ви повинні використовувати шаблонний літерал для запиту значення `id`.
+Ви повинні використати шаблонний рядок, щоб запитати значення `id`.
 
 ```js
 const afterAdd = code.split("addItem")[1];
 assert.match(afterAdd, /document\.getElementById\(\s*`product-count-for-id\$\{(product\.)?id\}`\s*\)/);
 ```
 
-Ви повинні присвоїти значення `document.getElementById()` до `currentProductCountSpan`.
+Ви повинні призначити значення `document.getElementById()` у `currentProductCountSpan`.
 
 ```js
 const cart = new ShoppingCart();

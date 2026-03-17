@@ -1,13 +1,13 @@
 ---
 id: 6551eebe6cbb2e6cadf9b468
-title: Step 2
+title: Крок 2
 challengeType: 20
 dashedName: step-2
 ---
 
 # --description--
 
-Variables can store values of different data types. You just assigned an integer value, but if you want to represent some text, you need to assign a string. Strings are sequences of characters enclosed by single or double quotes, but you cannot start a string with a single quote and end it with a double quote or vice versa:
+Змінні можуть зберігати значення різних типів даних. Ви щойно призначили ціле число, але якщо хочете представити текст, потрібно призначити рядок. Рядки — це послідовності символів, укладені в одинарні або подвійні лапки, але не можна починати рядок з одинарної лапки, а закінчувати подвійною або навпаки:
 
 ```py
 string_1 = "I am a string"
@@ -15,30 +15,30 @@ string_2 = 'I am also a string'
 string_3 = 'This is not valid"
 ```
 
-Delete your `number` variable and its value. Then, declare another variable called `text` and assign the string `'Hello World'` to this variable.
+Видаліть свою змінну `number` та її значення. Потім оголосіть іншу змінну з ім’ям `text` і призначте цій змінній рядок `'Hello World'`.
 
 # --hints--
 
-You should not have `number = 5` in your code.
+У вашому коді не повинно бути `number = 5`.
 
 ```js
 const commentless_code = __helpers.python.removeComments(code);
 assert.isFalse(/number\s*=\s*5/.test(commentless_code))
 ```
 
-You should declare a variable called `text`. Pay attention to place the variable name at the beginning of the line.
+Ви повинні оголосити змінну з ім’ям `text`. Зверніть увагу, що ім’я змінної має бути на початку лінії.
 
 ```js
 assert.match(code, /^text\s*=/m)
 ```
 
-You should assign the string `'Hello World'` to your `text` variable. Remember to use either single or double quotes to enclose the string and pay attention to the letter case.
+Ви повинні призначити рядок `'Hello World'` своїй змінній `text`. Пам’ятайте, що рядок потрібно укладати або в одинарні, або в подвійні лапки, і звертайте увагу на регістр літер.
 
 ```js
 assert.match(code, /^text\s*=\s*("|')Hello World\1\s*(#.*)?$/m)
 ```
 
-Your code contains invalid syntax and/or invalid indentation.
+Ваш код містить неправильний синтаксис і/або неправильне відступлення.
 
 ```js
 ({test: () => assert(true) })

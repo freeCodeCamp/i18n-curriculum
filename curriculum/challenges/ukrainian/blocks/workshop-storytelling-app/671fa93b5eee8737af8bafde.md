@@ -1,23 +1,23 @@
 ---
 id: 671fa93b5eee8737af8bafde
-title: Step 10
+title: Крок 10
 challengeType: 0
 dashedName: step-10
 ---
 
 # --description--
 
-Create a function called `displayStory`. Inside the function, log `"You clicked the button"` to the console.
+Створіть функцію з назвою `displayStory`. Усередині функції виведіть у консоль `"You clicked the button"`.
 
 # --hints--
 
-You should have a function called `displayStory`.
+У вас має бути функція з назвою `displayStory`.
 
 ```js
 assert.isFunction(displayStory);
 ```
 
-You should log `"You clicked the button"` to the console inside the `displayStory` function.
+Усередині функції `"You clicked the button"` потрібно вивести в консоль `displayStory`.
 
 ```js
 assert.match(displayStory.toString(), /console\.log\(["']You clicked the button["']\)/);

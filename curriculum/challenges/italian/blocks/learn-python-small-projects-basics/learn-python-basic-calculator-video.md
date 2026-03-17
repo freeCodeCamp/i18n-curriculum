@@ -1,6 +1,6 @@
 ---
 id: 6ec8578710ffa3471b74888e
-title: Building a Basic Calculator
+title: Costruire una calcolatrice di base
 challengeType: 11
 videoId: vA10XU1O3QQ
 dashedName: building-a-basic-calculator-learn-python-full-course-for-beginners
@@ -8,13 +8,13 @@ dashedName: building-a-basic-calculator-learn-python-full-course-for-beginners
 
 # --description--
 
-In this video, you will build a basic calculator program that can perform addition, subtraction, multiplication, and division operations.
+In questo video costruirai un programma di calcolatrice di base che può eseguire operazioni di addizione, sottrazione, moltiplicazione e divisione.
 
 # --questions--
 
 ## --text--
 
-Which function is used to convert a string to an integer?
+Quale funzione si usa per convertire una stringa in un intero?
 
 ## --answers--
 

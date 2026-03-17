@@ -1,6 +1,6 @@
 ---
 id: bd7150d8c442eddfafb5bd1c
-title: Applicazione Video Chat P2P
+title: Applicazione di video chat P2P
 challengeType: 4
 forumTopicId: 302366
 dashedName: p2p-video-chat-application
@@ -8,31 +8,31 @@ dashedName: p2p-video-chat-application
 
 # --description--
 
-**Objective:** Build an app that is functionally similar to this: <a href="https://p2p-video-chat-application.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://p2p-video-chat-application.freecodecamp.rocks/</a>.
+**Obiettivo:** Crea un'app che funzioni in modo simile a questa: <a href="https://p2p-video-chat-application.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://p2p-video-chat-application.freecodecamp.rocks/</a>.
 
-Soddisfa le user story qui sotto e supera tutti i test. Utilizza le librerie o le API di cui hai bisogno. Usa il tuo stile personale.
+Completa le seguenti storie utente e fai in modo che tutti i test vengano superati. Usa le librerie o le API che preferisci. Dai il tuo tocco personale.
 
-**User Story:** All'arrivo, il browser mi chiederà di accedere alla mia fotocamera e al mio microfono.
+**Storia utente:** All'arrivo, il browser mi chiederà di consultare la mia videocamera e microfono.
 
-**User Story:** Dopo aver dato il permesso, mi viene chiesto di digitare il nome di una stanza.
+**Storia utente:** Dopo aver dato il permesso, mi verrà chiesto di digitare un nome per la stanza.
 
-**User Story:** Una volta digitato il nome della stanza, se non esiste una stanza con quel nome ne verrà creata una.
+**Storia utente:** Una volta digitato il nome della stanza, verrà creata una stanza se non esisteva già una con quel nome.
 
-**User Story:** Di conseguenza un amico potrà andare allo stesso sito web, digitare lo stesso nome per la stanza, unirsi alla stessa stanza e iniziare una chat video con me.
+**Storia utente:** Un mio amico potrà successivamente andare sullo stesso sito, digitare lo stesso nome di stanza che ho inserito e unirsi alla stessa stanza, quindi entrare in una video chat con me.
 
-**User Story:** Se scrivo il nome della stanza, e ci sono già due persone all'interno di una stanza, ricevo una notifica che la stanza è piena.
+**Storia utente:** Se digito un nome di stanza e ci sono già due persone in quella stanza, ricevo una notifica che la stanza è piena.
 
-**User Story:** Chiunque può creare o unirsi ad una qualsiasi stanza. E ci può essere qualsiasi numero di stanze, ma ognuna deve avere un nome univoco.
+**Storia utente:** Chiunque può creare o unirsi a qualsiasi stanza. Possono esserci un numero qualsiasi di stanze, ma tutte devono avere nomi unici.
 
-**User Story:** Posso scegliere di non permettere al sito di usare il mio microfono e la mia webcam. Se scelgo di non farlo, o se si presenta qualche altro problema di driver, vedo un messaggio di errore che dice che sono richiesti.
+**Storia utente:** Posso scegliere di non permettere al sito di consultare il mio microfono e webcam. Se scelgo di non farlo, o se si verifica qualche altro problema con il driver, vedo un messaggio di errore che dice che questi sono necessari.
 
-**User Story:** Quando scelgo di cancellare lo step di scrivere il nome di una stanza, o se non scrivo alcun nome, o se scrivo solo spazi, dovrei ricevere di nuovo la richiesta di scrivere un nome di stanza valido.
+**Storia utente:** Quando scelgo di annullare il passaggio di inserimento del nome della stanza, o se non digito alcun nome o solo spazi, mi verrà chiesto di nuovo di digitare un nome di stanza valido.
 
-**User Story:** Se una delle due persone in una stanza viene disconnessa, si può riconnettere alla stessa stanza e continuare a chattare.
+**Storia utente:** Se una delle due persone nella stanza si disconnette, può riconnettersi alla stessa stanza e continuare a chattare.
 
-Una volta terminata l'implementazione di queste user story, scrivi l'URL della tua app live e, opzionalmente, il tuo repository GitHub. Quindi clicca sul pulsante "Ho completato questa sfida".
+Una volta completata l'implementazione di queste storie utente, inserisci l'URL della tua app live e, opzionalmente, il tuo repository GitHub. Poi clicca sul pulsante "Ho completato questa sfida".
 
-Puoi ottenere un feedback sul tuo progetto condividendolo sul forum <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp</a>.
+Puoi ricevere feedback sul tuo progetto condividendolo sul <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">forum di freeCodeCamp</a>.
 
 # --solutions--
 

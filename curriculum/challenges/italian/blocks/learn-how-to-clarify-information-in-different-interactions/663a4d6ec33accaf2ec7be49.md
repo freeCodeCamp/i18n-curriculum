@@ -1,6 +1,6 @@
 ---
 id: 663a4d6ec33accaf2ec7be49
-title: Task 28
+title: Attività 28
 challengeType: 22
 dashedName: task-28
 lang: en-US
@@ -10,13 +10,13 @@ lang: en-US
 
 # --description--
 
-A `smile` is what happens when you turn up the corners of your mouth to show happiness. It is something you do with your face when you are happy or want to be nice.
+Un `smile` è ciò che succede quando sollevi gli angoli della bocca per mostrare felicità. È qualcosa che fai con il viso quando sei felice o vuoi essere gentile.
 
-`Friendly` describes someone who is kind, nice, and easy to talk to. A friendly person makes others feel comfortable and happy.
+`Friendly` descrive qualcuno che è gentile, simpatico e con cui è facile parlare. Una persona amichevole fa sentire gli altri a proprio agio e felici.
 
-`A friendly smile` is a smile that shows you are being kind and welcoming. It makes others feel good and shows you want to be friends.
+`A friendly smile` è un sorriso che mostra che sei gentile e accogliente. Fa sentire bene gli altri e mostra che vuoi essere amico.
 
-Listen to the dialogue and fill in the blanks.
+Ascolta il dialogo e completa gli spazi vuoti.
 
 # --fillInTheBlank--
 
@@ -30,7 +30,7 @@ Listen to the dialogue and fill in the blanks.
 
 ### --feedback--
 
-This blank describes someone who is nice, easy to talk to and welcoming.
+Questo spazio vuoto descrive qualcuno che è gentile, con cui è facile parlare e accogliente.
 
 ---
 
@@ -38,7 +38,7 @@ This blank describes someone who is nice, easy to talk to and welcoming.
 
 ### --feedback--
 
-The action you do when you want to show happiness with your mouth.
+L'azione che fai quando vuoi mostrare felicità con la bocca.
 
 # --scene--
 

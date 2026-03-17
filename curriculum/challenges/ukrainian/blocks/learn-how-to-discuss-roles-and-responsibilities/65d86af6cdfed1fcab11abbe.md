@@ -1,6 +1,6 @@
 ---
 id: 65d86af6cdfed1fcab11abbe
-title: Task 70
+title: Завдання 70
 challengeType: 22
 dashedName: task-70
 lang: en-US
@@ -10,9 +10,9 @@ lang: en-US
 
 # --description--
 
-`Follow security procedures` means to act according to rules or steps designed to keep a place or people safe. It's important in many areas, especially in workplaces, to prevent problems or dangers.
+`Follow security procedures` означає діяти відповідно до правил або кроків, розроблених для забезпечення безпеки місця або людей. Це важливо в багатьох областях, особливо на робочих місцях, щоб запобігти проблемам або небезпекам.
 
-You learned that after `everyone`, you should use the third-party singular form of the verb because `everyone` is considered as each person in a group, treated individually.
+Ви дізналися, що після `everyone` слід використовувати форму дієслова в однині для третьої особи, тому що `everyone` вважається кожною людиною в групі, розглянутою індивідуально.
 
 # --fillInTheBlank--
 
@@ -26,7 +26,7 @@ You learned that after `everyone`, you should use the third-party singular form 
 
 ### --feedback--
 
-This is the singular form of the verb meaning each person does the action.
+Це форма дієслова в однині, що означає, що кожна людина виконує дію.
 
 ---
 
@@ -34,7 +34,7 @@ This is the singular form of the verb meaning each person does the action.
 
 ### --feedback--
 
-This word means keeping people, places, or things safe from danger or harm.
+Це слово означає забезпечення безпеки людей, місць або речей від небезпеки чи шкоди.
 
 ---
 
@@ -42,7 +42,7 @@ This word means keeping people, places, or things safe from danger or harm.
 
 ### --feedback--
 
-These are the steps or rules that need to be followed for safety.
+Це кроки або правила, яких потрібно дотримуватися для безпеки.
 
 # --scene--
 

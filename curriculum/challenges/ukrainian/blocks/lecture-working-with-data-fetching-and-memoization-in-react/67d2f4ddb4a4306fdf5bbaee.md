@@ -1,43 +1,43 @@
 ---
 id: 67d2f4ddb4a4306fdf5bbaee
-title: What Is Memoization, and How Does the useMemo Hook Work?
+title: Що таке мемоізація і як працює хук useMemo?
 challengeType: 19
 dashedName: what-is-memoization-and-how-does-the-usememo-hook-work
 ---
 
 # --description--
 
-As your React app gets larger, unnecessary re-renders and expensive calculations can slow down performance, leading to slow UI updates and increased resource usage.
+Коли ваш React-застосунок стає більшим, непотрібні повторні відтворення та дорогі обчислення можуть уповільнити продуктивність, що призводить до повільного оновлення інтерфейсу та збільшеного використання ресурсів.
 
-This can be especially problematic in apps with complex state management, large lists, functions that require heavy computations, and many components with a single parent.
+Це особливо проблематично у застосунках зі складним керуванням станом, великими списками, функціями, які потребують важких обчислень, і багатьма компонентами з одним батьківським елементом.
 
-This gives rise to the need to optimize your React app for better performance by minimizing redundant computations and ensuring smoother interactions.
+Це породжує потребу оптимізувати ваш React-застосунок для кращої продуктивності, мінімізуючи зайві обчислення та забезпечуючи плавнішу взаємодію.
 
-React solves this problem with a process called memoization, a technique which caches values and functions to prevent unnecessary recalculations, so your app can be faster and more responsive.
+React вирішує цю проблему за допомогою процесу, який називається мемоізацією — технікою, що кешує значення та функції, щоб уникнути непотрібних повторних обчислень, тож ваш застосунок може працювати швидше та бути більш адаптивним.
 
-By definition, memoization is an optimization technique in which the result of expensive function calls are cached (remembered) based on specific arguments. When the same arguments are provided again, the cached result is returned instead of re-computing the function.
+За визначенням, мемоізація — це техніка оптимізації, при якій результат дорогих викликів функцій кешується (запам’ятовується) на основі конкретних аргументів. Коли ті самі аргументи надаються знову, повертається кешований результат замість повторного обчислення функції.
 
-The memoization process happens this way:
+Процес мемоізації відбувається так:
 
-- Store the results of function calls along with their input arguments.
+- Зберігати результати викликів функцій разом із їхніми вхідними даними.
 
-- Before executing the function, check if the result for the current arguments already exists in the cache.
+- Перед виконанням функції перевіряти, чи існує результат для поточних аргументів у кеші.
 
-- If it exists, return the cached result instead of running the computation again.
+- Якщо існує, повертати кешований результат замість повторного обчислення.
 
-- If it doesn't exist, compute the result, store it in the cache, and then return it.
+- Якщо не існує, обчислити результат, зберегти його в кеші, а потім повернути.
 
-To improve developer experience with memoization, React provides three tools – `React.memo` (or `memo`), `useMemo` and `useCallback`. 
+Щоб покращити досвід розробника з мемоізацією, React надає три інструменти – `React.memo` (або `memo`), `useMemo` і `useCallback`.
 
-As you might guess, both `useMemo` and `useCallback` are hooks, but `React.memo` is a component wrapper, a higher-order component (HOC).
+Як ви можете здогадатися, і `useMemo`, і `useCallback` — це хуки, а `React.memo` — це обгортка-компонент, компонент вищого порядку (HOC).
 
-In the next lesson, we will take a look at how the `useCallback` hook and `React.memo` work.
+У наступному уроці ми розглянемо, як працюють хук `useCallback` і `React.memo`.
 
-`useMemo` lets you memoize computed values while `useCallback` does the same for function references.
+`useMemo` дозволяє мемоізувати обчислені значення, тоді як `useCallback` робить те саме для референсів функцій.
 
-If you're wondering what computed values and function references are, computed values refer to the result of executing a function, while function references are the pointers to functions – the function object in memory.
+Якщо ви цікавитесь, що таке обчислені значення і референси функцій, обчислені значення — це результат виконання функції, а референси функцій — це вказівники на функції, тобто об’єкт функції в пам’яті.
 
-Let's see how to use the `useMemo` hook first. Here's the basic syntax of the `useMemo` hook:
+Давайте спершу подивимось, як використовувати хук `useMemo`. Ось базовий синтаксис хука `useMemo`:
 
 ```js
 const memoizedValue = useMemo(
@@ -48,9 +48,9 @@ const memoizedValue = useMemo(
 );
 ```
 
-You can see all that's needed is to wrap the `useMemo` hook around the function.
+Ви бачите, що все, що потрібно — це обгорнути функцію хуком `useMemo`.
 
-This `ExpensiveSquare` component will receive a `num` prop which it will use to calculate the square:
+Цей компонент `ExpensiveSquare` отримає проп `num`, який він використає для обчислення квадрата:
 
 ```jsx
 function ExpensiveSquare({ num }) {
@@ -69,7 +69,7 @@ function ExpensiveSquare({ num }) {
 export default ExpensiveSquare;
 ```
 
-Here's the `App` component where the `ExpensiveSquare` is being used:
+Ось компонент `App`, де використовується `ExpensiveSquare`:
 
 ```jsx
 import { useState, useEffect } from "react";
@@ -96,9 +96,9 @@ function App() {
 export default App;
 ```
 
-The `timer` in the `useEffect`, running every second, will make the `calculateSquare` function run any time it runs, even when you don't increase the `num` state variable.
+`timer` у `useEffect`, що запускається кожну секунду, змушує функцію `calculateSquare` виконуватися щоразу, коли він запускається, навіть якщо ви не збільшуєте змінну стану `num`.
 
-To solve this problem, we can use the `useMemo` hook by wrapping the function call in it and specifying the `num` variable as the dependency:
+Щоб вирішити цю проблему, ми можемо використати хук `useMemo`, обгорнувши виклик функції в нього та вказавши змінну `num` як залежність:
 
 ```jsx
 // import the useMemo hook
@@ -124,43 +124,43 @@ function ExpensiveSquare({ num }) {
 export default ExpensiveSquare;
 ```
 
-This will make sure the function is memoized by caching the result, so calculation happens only when the `num` variable changes, not when anything changes in the component it's being used in.
+Це гарантує, що функція буде мемоізована шляхом кешування результату, тож обчислення відбуватиметься лише тоді, коли змінюється змінна `num`, а не щоразу, коли щось змінюється у компоненті, де вона використовується.
 
-The `calculateSquare` function call is not running any time `timer` changes anymore but on the initial render and when `num` changes.
+Виклик функції `calculateSquare` більше не виконується щоразу при зміні `timer`, а лише під час ініціального відтворення та коли змінюється `num`.
 
 # --questions--
 
 ## --text--
 
-What is memoization in React?
+Що таке мемоізація в React?
 
 ## --answers--
 
-A technique that caches values and functions to prevent unnecessary recalculations.
+Техніка, що кешує значення та функції, щоб уникнути непотрібних повторних обчислень.
 
 ---
 
-A technique that lets you manage component state updates to prevent unnecessary recalculations.
+Техніка, що дозволяє керувати оновленнями стану компонента, щоб уникнути непотрібних повторних обчислень.
 
 ### --feedback--
 
-It helps optimize performance by storing previously computed results.
+Вона допомагає оптимізувати продуктивність, зберігаючи раніше обчислені результати.
 
 ---
 
-A process of reconciling the Virtual DOM with the actual DOM.
+Процес узгодження Virtual DOM з реальним DOM.
 
 ### --feedback--
 
-It helps optimize performance by storing previously computed results.
+Вона допомагає оптимізувати продуктивність, зберігаючи раніше обчислені результати.
 
 ---
 
-A way to handle side effects in functional components.
+Спосіб обробки побічних ефектів у функціональних компонентах.
 
 ### --feedback--
 
-It helps optimize performance by storing previously computed results.
+Вона допомагає оптимізувати продуктивність, зберігаючи раніше обчислені результати.
 
 ## --video-solution--
 
@@ -168,35 +168,35 @@ It helps optimize performance by storing previously computed results.
 
 ## --text--
 
-What is the difference between computed values and function references?
+У чому різниця між обчисленими значеннями та референсами функцій?
 
 ## --answers--
 
-Computed values are function objects, while function references are execution results.
+Обчислені значення — це об’єкти функцій, а референси функцій — це результати виконання.
 
 ### --feedback--
 
-One is the output of a function, while the other is just a pointer to it.
+Одне — це вихід функції, а інше — просто вказівник на неї.
 
 ---
 
-Computed values are the result of executing a function, while function references are the function objects in memory.
+Обчислені значення — це результат виконання функції, а референси функцій — це об’єкти функцій у пам’яті.
 
 ---
 
-Computed values and function references are the same thing.
+Обчислені значення та референси функцій — це одне й те саме.
 
 ### --feedback--
 
-One is the output of a function, while the other is just a pointer to it.
+Одне — це вихід функції, а інше — просто вказівник на неї.
 
 ---
 
-Function references store computed values.
+Референси функцій зберігають обчислені значення.
 
 ### --feedback--
 
-One is the output of a function, while the other is just a pointer to it.
+Одне — це вихід функції, а інше — просто вказівник на неї.
 
 ## --video-solution--
 
@@ -204,7 +204,7 @@ One is the output of a function, while the other is just a pointer to it.
 
 ## --text--
 
-Which of these is NOT one of the tools React provides for memoization?
+Що з наведеного НЕ є одним із інструментів, які React надає для мемоізації?
 
 ## --answers--
 
@@ -212,7 +212,7 @@ Which of these is NOT one of the tools React provides for memoization?
 
 ### --feedback--
 
-Memoization tools focus on caching values and functions, while this option handles side effects.
+Інструменти мемоізації зосереджені на кешуванні значень і функцій, тоді як цей варіант обробляє побічні ефекти.
 
 ---
 
@@ -220,7 +220,7 @@ Memoization tools focus on caching values and functions, while this option handl
 
 ### --feedback--
 
-Memoization tools focus on caching values and functions, while this option handles side effects.
+Інструменти мемоізації зосереджені на кешуванні значень і функцій, тоді як цей варіант обробляє побічні ефекти.
 
 ---
 
@@ -228,7 +228,7 @@ Memoization tools focus on caching values and functions, while this option handl
 
 ### --feedback--
 
-Memoization tools focus on caching values and functions, while this option handles side effects.
+Інструменти мемоізації зосереджені на кешуванні значень і функцій, тоді як цей варіант обробляє побічні ефекти.
 
 ---
 

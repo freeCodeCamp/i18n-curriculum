@@ -1,47 +1,47 @@
 ---
 id: 62a8ad8e01d7cb0deae5ec66
-title: Step 57
+title: Passaggio 57
 challengeType: 0
 dashedName: step-57
 ---
 
 # --description--
 
-Create another property in your object called `button functions`. Give this property an array containing the three functions assigned to the `onclick` properties in the `goTown` function. Remember that these functions are variables, not strings, and should not be wrapped in quotes.
+Crea un'altra proprietà nel tuo oggetto chiamata `button functions`. Assegna a questa proprietà un array contenente le tre funzioni assegnate alle proprietà `onclick` nella funzione `goTown`. Ricorda che queste funzioni sono variabili, non stringhe, e non devono essere racchiuse tra virgolette.
 
 # --hints--
 
-Your first `locations` object should have a `button functions` property.
+Il tuo primo oggetto `locations` dovrebbe avere una proprietà `button functions`.
 
 ```js
 assert.isDefined(locations[0]["button functions"]);
 ```
 
-Your `button functions` property should be an array.
+La tua proprietà `button functions` dovrebbe essere un array.
 
 ```js
 assert.isArray(locations[0]["button functions"]);
 ```
 
-Your `button functions` property should have three values in it.
+La tua proprietà `button functions` dovrebbe contenere tre valori.
 
 ```js
 assert.lengthOf(locations[0]["button functions"], 3);
 ```
 
-Your first `button functions` array value should be the function `goStore`.
+Il primo valore dell'array `button functions` dovrebbe essere la funzione `goStore`.
 
 ```js
 assert.equal(locations[0]["button functions"][0], goStore);
 ```
 
-Your second `button functions` array value should be the function `goCave`.
+Il secondo valore dell'array `button functions` dovrebbe essere la funzione `goCave`.
 
 ```js
 assert.equal(locations[0]["button functions"][1], goCave);
 ```
 
-Your third `button functions` array value should be the function `fightDragon`.
+Il terzo valore dell'array `button functions` dovrebbe essere la funzione `fightDragon`.
 
 ```js
 assert.equal(locations[0]["button functions"][2], fightDragon);

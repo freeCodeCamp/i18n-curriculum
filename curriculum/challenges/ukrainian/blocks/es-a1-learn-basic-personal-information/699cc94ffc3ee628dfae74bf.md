@@ -1,34 +1,33 @@
 ---
 id: 699cc94ffc3ee628dfae74bf
-title: Task 31
+title: Завдання 31
 challengeType: 22
 dashedName: task-31
 lang: es
 ---
-
 <!-- (Audio) Mateo: Es m-a-t-e-o punto d-e-l-g-a-d-o arroba s-a-n-j-u-a-n punto p-r. -->
 
 # --description--
 
-`Es` comes from the verb `ser` and is used to identify or present something. For example:
+`Es` походить від дієслова `ser` і використовується, щоб ідентифікувати або представити щось. Наприклад:
 
-- `Es mi número.` - It is my number.
+- `Es mi número.` — це моє число.
+  
+- `Es mi correo.` — це моя е-пошта.
 
-- `Es mi correo.` - It is my email.
+Коли вимовляють адресу е-пошти, певні символи проговорюють вголос:
 
-When spelling an email address, certain symbols are said aloud:
+`Punto` використовується для символу `.`. Наприклад:
 
-`Punto` is used for the symbol `.` For example:
+`ana.lopez` читається як `ana punto lopez`.
 
-`ana.lopez` is read as `ana punto lopez`.
+`Arroba` використовується для символу `@`. Наприклад:
 
-`Arroba` is used for the symbol `@`. For example:
-
-`ana.lopez@ejemplo.com` is read as `ana punto lopez arroba ejemplo punto com`.
+`ana.lopez@ejemplo.com` читається як `ana punto lopez arroba ejemplo punto com`.
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Прослухайте аудіо та доповніть речення нижче.
 
 # --fillInTheBlank--
 
@@ -42,7 +41,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This form of `ser` is used to present or identify something.
+Ця форма `ser` використовується, щоб представити або ідентифікувати щось.
 
 ---
 
@@ -50,7 +49,7 @@ This form of `ser` is used to present or identify something.
 
 ### --feedback--
 
-This word is used when saying the symbol `.` in an email address.
+Це слово використовується, коли вимовляють символ `.` в адресі е-пошти.
 
 ---
 
@@ -58,7 +57,7 @@ This word is used when saying the symbol `.` in an email address.
 
 ### --feedback--
 
-This word is used when saying the symbol `@`.
+Це слово використовується, коли вимовляють символ `@`.
 
 ---
 
@@ -66,21 +65,21 @@ This word is used when saying the symbol `@`.
 
 ### --feedback--
 
-This word appears again before the final letters `p r`.
+Це слово знову з’являється перед фінальними літерами `p r`.
 
 # --explanation--
 
-The complete sentence is:
+Повне речення таке:
 
 `Es m-a-t-e-o punto d-e-l-g-a-d-o arroba s-a-n-j-u-a-n punto p-r.`
 
-`Es` introduces the information.
+`Es` вводить інформацію.
 
-`Punto` represents the symbol `.`
+`Punto` представляє символ `.`
 
-`Arroba` represents the symbol `@`
+`Arroba` представляє символ `@`
 
-These words are commonly used when spelling an email address aloud.
+Ці слова часто використовують, коли вголос вимовляють адресу е-пошти.
 
 # --scene--
 
@@ -129,4 +128,3 @@ These words are commonly used when spelling an email address aloud.
   ]
 }
 ```
-

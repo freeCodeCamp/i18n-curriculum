@@ -1,6 +1,6 @@
 ---
 id: 65d6bc21bbb3fb20d47cd7ed
-title: Task 43
+title: Attività 43
 challengeType: 22
 dashedName: task-43
 lang: en-US
@@ -11,7 +11,7 @@ lang: en-US
 
 # --description--
 
-Asking `What's her role?` is a way to find out about someone's job or position in a group or project. `Role` means the part or job someone does in a particular situation. For example, if someone's `role` at a school is a teacher, it means their job is to teach students.
+Chiedere `What's her role?` è un modo per scoprire il lavoro o la posizione di qualcuno in un gruppo o progetto. `Role` indica la parte o il lavoro che una persona svolge in una situazione particolare. Per esempio, se il `role` di qualcuno in una scuola è insegnante, significa che il suo lavoro è insegnare agli studenti.
 
 # --fillInTheBlank--
 
@@ -25,7 +25,7 @@ Asking `What's her role?` is a way to find out about someone's job or position i
 
 ### --feedback--
 
-This word shows Tom is talking about a female person's job or part in something.
+Questa parola indica che Tom sta parlando del lavoro o della parte di una persona di sesso femminile in qualcosa.
 
 ---
 
@@ -33,7 +33,7 @@ This word shows Tom is talking about a female person's job or part in something.
 
 ### --feedback--
 
-This word means the job or position someone has in a situation.
+Questa parola significa il lavoro o la posizione che una persona ha in una situazione.
 
 # --scene--
 

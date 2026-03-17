@@ -1,6 +1,6 @@
 ---
 id: 8d1323c8c441eddfaeb5bdef
-title: Create a Set Class
+title: створити клас множини
 challengeType: 1
 forumTopicId: 301632
 dashedName: create-a-set-class
@@ -8,7 +8,7 @@ dashedName: create-a-set-class
 
 # --description--
 
-In this exercise we are going to create a class named `Set` to emulate an abstract data structure called "set". A set is like an array, but it cannot contain duplicate values. The typical use for a set is to simply check for the presence of an item. We can see how the ES6 `Set` object works in the example below:
+У цьому завданні ми створимо клас із назвою `Set`, щоб імітувати абстрактну структуру даних, яка називається «множина». Множина схожа на масив, але не може містити повторюваних значень. Типове використання множини — просто перевірити наявність елемента. Ми можемо побачити, як працює об’єкт ES6 `Set` у прикладі нижче:
 
 ```js
 const set1 = new Set([1, 2, 3, 5, 5, 2, 0]);
@@ -20,17 +20,17 @@ console.log(set1.has(6));
 // output: false
 ```
 
-First, we will create an add method that adds a value to our set collection as long as the value does not already exist in the set. Then we will create a remove method that removes a value from the set collection if it already exists. And finally, we will create a size method that returns the number of elements inside the set collection.
+Спочатку ми створимо метод add, який додаватиме значення до нашої колекції множини, якщо такого значення ще немає в множині. Потім створимо метод remove, який видалятиме значення з колекції множини, якщо воно там є. І нарешті, створимо метод size, який повертатиме число елементів у колекції множини.
 
 # --instructions--
 
-Create an `add` method that adds a unique value to the set collection and returns `true` if the value was successfully added and `false` otherwise.
+Створіть метод `add`, який додаватиме унікальне значення до колекції множини і повертатиме `true`, якщо значення було успішно додано, інакше — `false`.
 
-Create a `remove` method that accepts a value and checks if it exists in the set. If it does, then this method should remove it from the set collection, and return `true`. Otherwise, it should return `false`. Create a `size` method that returns the size of the set collection.
+Створіть метод `remove`, який прийматиме значення і перевірятиме, чи існує воно в множині. Якщо так, цей метод має видалити його з колекції множини і повернути `true`. Інакше він має повернути `false`. Створіть метод `size`, який повертатиме розмір колекції множини.
 
 # --hints--
 
-Your `Set` class should have an `add` method.
+Ваш клас `Set` має мати метод `add`.
 
 ```js
 assert(
@@ -41,7 +41,7 @@ assert(
 );
 ```
 
-Your `add` method should not add duplicate values.
+Ваш метод `add` не повинен додавати повторювані значення.
 
 ```js
 assert(
@@ -56,7 +56,7 @@ assert(
 );
 ```
 
-Your `add` method should return `true` when a value has been successfully added.
+Ваш метод `add` має повертати `true`, коли значення було успішно додано.
 
 ```js
 assert(
@@ -68,7 +68,7 @@ assert(
 );
 ```
 
-Your `add` method should return `false` when a duplicate value is added.
+Ваш метод `add` має повертати `false`, коли додається повторюване значення.
 
 ```js
 assert(
@@ -81,7 +81,7 @@ assert(
 );
 ```
 
-Your `Set` class should have a `remove` method.
+Ваш клас `Set` має мати метод `remove`.
 
 ```js
 assert(
@@ -92,7 +92,7 @@ assert(
 );
 ```
 
-Your `remove` method should only remove items that are present in the set.
+Ваш метод `remove` має видаляти лише ті елементи, які присутні в множині.
 
 ```js
 assert.deepEqual(
@@ -107,7 +107,7 @@ assert.deepEqual(
 );
 ```
 
-Your `remove` method should remove the given item from the set.
+Ваш метод `remove` має видаляти заданий елемент із множини.
 
 ```js
 assert(
@@ -122,7 +122,7 @@ assert(
 );
 ```
 
-Your `Set` class should have a `size` method.
+Ваш клас `Set` має мати метод `size`.
 
 ```js
 assert(
@@ -133,7 +133,7 @@ assert(
 );
 ```
 
-The `size` method should return the number of elements in the collection.
+Метод `size` має повертати число елементів у колекції.
 
 ```js
 assert(
@@ -170,7 +170,7 @@ class Set {
   }
 
   // Only change code below this line
-
+  
   // Only change code above this line
 }
 ```

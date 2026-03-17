@@ -1,26 +1,26 @@
 ---
 id: 64aaf2aff7f1fc7a550f40cb
-title: Step 36
+title: Крок 36
 challengeType: 0
 dashedName: step-36
 ---
 
 # --description--
 
-Now it is time to see your new player drawn on the screen.
+Тепер настав час побачити, як ваш новий гравець з’явиться на екрані.
 
-Start by creating an empty arrow function called `startGame`.
+Почніть зі створення пустої стрілкової функції з назвою `startGame`.
 
 # --hints--
 
 
-`startGame` should be a function
+`startGame` має бути функцією
 
 ```js
 assert.isFunction(startGame);
 ```
 
-`startGame` should be an arrow function
+`startGame` має бути стрілковою функцією
 
 
 ```js
@@ -199,7 +199,7 @@ class Player {
     ctx.fillStyle = "#99c9ff";
     ctx.fillRect(this.position.x, this.position.y, this.width, this.height);
   }
-
+  
   update() {
     this.draw();
     this.position.x += this.velocity.x;

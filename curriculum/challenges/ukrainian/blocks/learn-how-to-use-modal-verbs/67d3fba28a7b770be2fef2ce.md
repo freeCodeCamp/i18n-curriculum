@@ -1,6 +1,6 @@
 ---
 id: 67d3fba28a7b770be2fef2ce
-title: Task 6
+title: Завдання 6
 challengeType: 19
 dashedName: task-6
 lang: en-US
@@ -12,13 +12,13 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Прослухайте аудіозапис і дайте відповідь на запитання нижче.
 
 # --questions--
 
 ## --text--
 
-Mark doesn't mind talking with Jessica and wants to know what he needs to do. What would he say?
+Марк не проти поговорити з Джесікою і хоче знати, що йому потрібно зробити. Що він скаже?
 
 ## --answers--
 
@@ -30,7 +30,7 @@ EN415e8cd4
 
 ### --feedback--
 
-This response does not match Mark's willingness to talk.
+Ця відповідь не відповідає готовності Марка говорити.
 
 ---
 
@@ -46,11 +46,11 @@ EN61f614de
 
 # --explanation--
 
-The correct answer shows that Mark is willing to talk and wants to know the necessary steps.
+Правильна відповідь показує, що Марк готовий говорити і хоче знати необхідні кроки.
 
-`Sure, Jessica` expresses agreement and openness to the conversation.
+`Sure, Jessica` виражає згоду та відкритість до розмови.
 
-`What do I need to do?` shows that Mark is asking for instructions, which matches Jessica's statement about what he must do to ensure compliance.
+`What do I need to do?` показує, що Марк просить інструкції, що відповідає заяві Джесіки про те, що він має зробити, щоб забезпечити відповідність.
 
 # --scene--
 

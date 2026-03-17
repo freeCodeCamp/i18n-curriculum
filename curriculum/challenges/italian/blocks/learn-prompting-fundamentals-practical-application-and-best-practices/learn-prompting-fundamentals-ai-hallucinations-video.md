@@ -1,6 +1,6 @@
 ---
 id: 69a774515a27934b29e1eac9
-title: AI Hallucinations
+title: "Allucinazioni dell'intelligenza artificiale"
 challengeType: 11
 videoId: LbeAbfCszLg
 dashedName: ai-hallucinations-learn-prompting-fundamentals
@@ -8,31 +8,30 @@ dashedName: ai-hallucinations-learn-prompting-fundamentals
 
 # --description--
 
-In this video, you will learn about AI hallucinations.
+In questo video imparerai cosa sono le allucinazioni dell'intelligenza artificiale.
 
 # --questions--
 
 ## --text--
 
-What are AI hallucinations?
+Cosa sono le allucinazioni dell'intelligenza artificiale?
 
 ## --answers--
 
-When an AI model refuses to answer a question because it is unsafe.
+Quando un modello di intelligenza artificiale fornisce informazioni false.
 
 ---
 
-When an AI system shuts down unexpectedly due to memory overload.
+Quando un modello di intelligenza artificiale si rifiuta di rispondere a una domanda perché non è sicuro.
 
 ---
 
-When the AI model provides false information.
+Quando un sistema di intelligenza artificiale si spegne improvvisamente a causa di un sovraccarico di memoria.
 
 ---
 
-When an AI generates responses more slowly than expected due to large input size.
+Quando un'intelligenza artificiale genera risposte più lentamente del previsto a causa di un input di grandi dimensioni.
 
 ## --video-solution--
 
 3
-

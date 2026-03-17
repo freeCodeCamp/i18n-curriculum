@@ -1,51 +1,51 @@
 ---
 id: 68eab45aceb7c00fd8de4fed
-title: Step 11
+title: Крок 11
 challengeType: 0
 dashedName: step-11
 ---
 
 # --description--
 
-Inside the second `section` element, nest an `h2` element with the text `Importance of Networking`.
+Всередині другого `section` елемента вкладіть `h2` елемент із текстом `Importance of Networking`.
 
-Below this heading, add a block quotation element with a `cite` attribute with the value `https://www.freecodecamp.org/news/learn-to-code-book/`.
+Під цим заголовком додайте елемент блочного цитування з атрибутом `cite` зі значенням `https://www.freecodecamp.org/news/learn-to-code-book/`.
 
 # --hints--
 
-You should have an `h2` element nested inside the second section.
+У другому розділі має бути вкладений `h2` елемент.
 
 ```js
 assert.exists(document.querySelector('main > section:nth-of-type(2) > h2'));
 ```
 
-Your `h2` element should have the text `Importance of Networking`.
+Ваш `h2` елемент має містити текст `Importance of Networking`.
 
 ```js
 const h2El = document.querySelector('main > section:nth-of-type(2) > h2');
 assert.equal(h2El?.innerText.trim(), 'Importance of Networking');
 ```
 
-You should have a `blockquote` element nested inside the second section.
+У другому розділі має бути вкладений `blockquote` елемент.
 
 ```js
 assert.exists(document.querySelector('main > section:nth-of-type(2) > blockquote'));
 ```
 
-Your `blockquote` element should be below your `h2` element.
+Ваш `blockquote` елемент має бути розташований нижче за `h2` елемент.
 
 ```js
 assert.exists(document.querySelector('main > section:nth-of-type(2) > h2 + blockquote'));
 ```
 
-Your `blockquote` element should have a `cite` attribute.
+Ваш `blockquote` елемент має мати атрибут `cite`.
 
 ```js
 const blockquoteEl = document.querySelector('main > section:nth-of-type(2) > blockquote');
 assert.exists(blockquoteEl?.getAttribute('cite'));
 ```
 
-The `cite` attribute of your `blockquote` element should have the value `https://www.freecodecamp.org/news/learn-to-code-book/`.
+Атрибут `cite` вашого `blockquote` елемента має мати значення `https://www.freecodecamp.org/news/learn-to-code-book/`.
 
 ```js
 const blockquoteEl = document.querySelector('main > section:nth-of-type(2) > blockquote');
@@ -83,7 +83,7 @@ assert.equal(blockquoteEl?.getAttribute('cite'), 'https://www.freecodecamp.org/n
       </section>
       <section>
 --fcc-editable-region--
-
+        
 --fcc-editable-region--
       </section>
       <section>

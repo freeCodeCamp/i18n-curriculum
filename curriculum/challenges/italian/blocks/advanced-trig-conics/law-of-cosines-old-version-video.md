@@ -1,6 +1,6 @@
 ---
 id: 699e85568f18cf77dfce5c20
-title: Law of Cosines - Old Version
+title: Legge dei coseni - versione vecchia
 challengeType: 11
 videoId: 3BMPsNLtcmA
 dashedName: law-of-cosines-old-version
@@ -8,13 +8,13 @@ dashedName: law-of-cosines-old-version
 
 # --description--
 
-In this video, you will continue to learn about the Law of Cosines.
+In questo video continuerai a imparare sulla legge dei coseni.
 
 # --questions--
 
 ## --text--
 
-How many forms can the Law of Cosines be written in?
+In quante forme può essere scritta la legge dei coseni?
 
 ## --answers--
 
@@ -35,4 +35,3 @@ How many forms can the Law of Cosines be written in?
 ## --video-solution--
 
 4
-

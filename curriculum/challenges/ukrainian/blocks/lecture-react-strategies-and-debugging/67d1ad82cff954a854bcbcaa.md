@@ -1,23 +1,23 @@
 ---
 id: 67d1ad82cff954a854bcbcaa
-title: What Is Prop Drilling?
+title: Що таке проп дрилінг?
 challengeType: 19
 dashedName: what-is-prop-drilling
 ---
 
 # --description--
 
-Prop drilling is the most basic approach to state management in React applications. It looks simple, but can get messy quickly, and is very hard to scale.
+Проп дрилінг — це найпростіший підхід до керування станом у React-застосунках. Він виглядає просто, але може швидко ускладнитися і дуже важко масштабуватися.
 
-Let's look at what prop drilling is, why it's a problem, and a good replacement for it as an application grows.
+Давайте розглянемо, що таке проп дрилінг, чому це проблема і яка хороша альтернатива йому у міру зростання застосунку.
 
-Prop drilling is the process of passing props from a parent component to deeply nested child components, even when some of the child components don't need the props.
+Проп дрилінг — це процес передачі пропсів від батьківського компонента до глибоко вкладених дочірніх компонентів, навіть якщо деякі з дочірніх компонентів не потребують цих пропсів.
 
-For example, say you have three components named `Parent`, `Child`, and `Grandchild`. If you want to use some data in the `Grandchild` component, but it's in the `Parent` component, you'd need to pass it from the `Parent` to the `Child` component, then from the `Child` to the `Grandchild` component.
+Наприклад, уявімо, що у вас є три компоненти з іменами `Parent`, `Child` і `Grandchild`. Якщо ви хочете використати деякі дані в компоненті `Grandchild`, але вони знаходяться в компоненті `Parent`, вам доведеться передати їх від компонента `Parent` до `Child`, а потім від `Child` до `Grandchild`.
 
-Or if the data is even further up the chain, the data might have to be passed to the `Parent` component, too.
+А якщо дані ще далі в ланцюжку, їх, можливо, доведеться передати й компоненту `Parent`.
 
-Here, the data I want to display is the string `Hello, Prop Drilling!`. It's assigned to the `greeting` variable in the root `App` component:
+Тут дані, які я хочу відобразити, — це рядок `Hello, Prop Drilling!`. Він призначений змінній `greeting` у кореневому компоненті `App`:
 
 ```jsx
 import "./App.css";
@@ -32,7 +32,7 @@ function App() {
 export default App;
 ```
 
-You can see the `Parent` component is also receiving the `greeting` variable as the value of a `greeting` prop. Here's the `Parent` component passing it into the `Child` component as the value of another `greeting` prop in the `Child`:
+Ви можете побачити, що компонент `Parent` також отримує змінну `greeting` як значення пропса `greeting`. Ось компонент `Parent`, який передає її в компонент `Child` як значення іншого пропса `greeting` у `Child`:
 
 ```jsx
 import Child from "./Child";
@@ -44,7 +44,7 @@ const Parent = ({ greeting }) => {
 export default Parent;
 ```
 
-And here's the `Child` component that passes it to the `Grandchild` component:
+А ось компонент `Child`, який передає її компоненту `Grandchild`:
 
 ```jsx
 import Grandchild from "./Grandchild";
@@ -56,7 +56,7 @@ const Child = ({ greeting }) => {
 export default Child;
 ```
 
-And finally the `Grandchild` component receives the greeting and uses it as the content of an `h1` element:
+І нарешті компонент `Grandchild` отримує привітання і використовує його як вміст елемента `h1`:
 
 ```jsx
 const Grandchild = ({ greeting }) => {
@@ -66,13 +66,13 @@ const Grandchild = ({ greeting }) => {
 export default Grandchild;
 ```
 
-In the browser, you'll see a page with a single `h1` element that has the text `Hello, Prop Drilling!`.
+У браузері ви побачите сторінку з одним елементом `h1`, який містить текст `Hello, Prop Drilling!`.
 
-At first, prop drilling might not seem like such a big deal. But as your app grows, it gets harder to understand, debug, and maintain.
+Спочатку проп дрилінг може не здаватися великою проблемою. Але з ростом вашого застосунку стає складніше розуміти, налагоджувати і підтримувати код.
 
-If you need to pass props around, try to keep them all in a single parent component. This approach of centralizing all necessary data is called the "single source of truth".
+Якщо потрібно передавати пропси, намагайтеся тримати їх усі в одному батьківському компоненті. Такий підхід централізації всіх необхідних даних називають «одним джерелом правди».
 
-For instance, say you want to add a new `response` to go with your `greeting`, and that you want to use both of them in the `Grandchild` component. Since `greeting` is already in the `App` component, it makes sense to put `response` there, too, and pass both of them down the chain:
+Наприклад, уявімо, що ви хочете додати новий `response` разом із вашим `greeting`, і хочете використати обидва у компоненті `Grandchild`. Оскільки `greeting` вже знаходиться в компоненті `App`, логічно розмістити `response` там теж і передати обидва вниз по ланцюжку:
 
 ```jsx
 function App() {
@@ -102,45 +102,45 @@ const Grandchild = ({ greeting, response }) => {
 export default App;
 ```
 
-In the browser, you'll see a page with an `h1` element that has the text `Hello, Prop Drilling!` and an `h2` element that has the text `I'm not here to play!`.
+У браузері ви побачите сторінку з елементом `h1`, який містить текст `Hello, Prop Drilling!`, і елементом `h2`, який містить текст `I'm not here to play!`.
 
-To avoid prop drilling, especially in large, complex applications, consider using the Context API or state management libraries like Redux and Redux Toolkit, Zustand, Recoil, and others.
+Щоб уникнути проп дрилінгу, особливо у великих і складних застосунках, розгляньте можливість використання Context API або бібліотек керування станом, таких як Redux і Redux Toolkit, Zustand, Recoil та інших.
 
-You'll learn more about these in the coming lessons.
+Про них ви дізнаєтеся більше у наступних уроках.
 
 # --questions--
 
 ## --text--
 
-How would a prop flow from a parent to a grandchild component?
+Як проп потрапляє від батьківського компонента до онука?
 
 ## --answers--
 
-By defining the prop inside the grandchild component.
+Визначаючи проп всередині компонента онука.
 
 ### --feedback--
 
-The prop must go through the child before reaching the grandchild.
+Проп має пройти через дочірній елемент, перш ніж дійти до онука.
 
 ---
 
-By passing it from parent to child, then from child to grandchild.
+Передаючи його від батьківського до дочірнього, а потім від дочірнього до онука.
 
 ---
 
-By using the `useEffect` hook to fetch the prop dynamically.
+Використовуючи хук `useEffect` для динамічного отримання пропса.
 
 ### --feedback--
 
-The prop must go through the child before reaching grandchild.
+Проп має пройти через дочірній елемент, перш ніж дійти до онука.
 
 ---
 
-By using the `useState` hook in the grandchild.
+Використовуючи хук `useState` у компоненті онука.
 
 ### --feedback--
 
-The prop must go through the child before reaching grandchild.
+Проп має пройти через дочірній елемент, перш ніж дійти до онука.
 
 ## --video-solution--
 
@@ -148,35 +148,35 @@ The prop must go through the child before reaching grandchild.
 
 ## --text--
 
-What is prop drilling in React?
+Що таке проп дрилінг у React?
 
 ## --answers--
 
-Passing props directly to only the components that need them.
+Передача пропсів безпосередньо лише тим компонентам, які їх потребують.
 
 ### --feedback--
 
-It happens when props are passed through multiple levels unnecessarily.
+Це відбувається, коли пропси передаються через кілька рівнів без потреби.
 
 ---
 
-Using context to share state between components.
+Використання контексту для спільного використання стану між компонентами.
 
 ### --feedback--
 
-It happens when props are passed through multiple levels unnecessarily.
+Це відбувається, коли пропси передаються через кілька рівнів без потреби.
 
 ---
 
-Passing props from a parent to deeply nested child components.
+Передача пропсів від батьківського до глибоко вкладених дочірніх компонентів.
 
 ---
 
-Drilling down into component state using hooks.
+Поглиблене керування станом компонента за допомогою хуків.
 
 ### --feedback--
 
-It happens when props are passed through multiple levels unnecessarily.
+Це відбувається, коли пропси передаються через кілька рівнів без потреби.
 
 ## --video-solution--
 
@@ -184,35 +184,35 @@ It happens when props are passed through multiple levels unnecessarily.
 
 ## --text--
 
-Why is prop drilling considered a problem in larger applications?
+Чому проп дрилінг вважають проблемою у великих застосунках?
 
 ## --answers--
 
-It makes it easier to manage state.
+Він полегшує керування станом.
 
 ### --feedback--
 
-Too many props passing through multiple components can make the code messy.
+Занадто багато пропсів, які проходять через багато компонентів, можуть зробити код заплутаним.
 
 ---
 
-It improves performance by reducing re-renders.
+Він покращує продуктивність, зменшуючи кількість повторних відтворень.
 
 ### --feedback--
 
-Too many props passing through multiple components can make the code messy.
+Занадто багато пропсів, які проходять через багато компонентів, можуть зробити код заплутаним.
 
 ---
 
-It makes the code harder to read, debug, and maintain.
+Він ускладнює читання, налагодження і підтримку коду.
 
 ---
 
-It eliminates the need for state management libraries.
+Він усуває потребу у бібліотеках керування станом.
 
 ### --feedback--
 
-Too many props passing through multiple components can make the code messy.
+Занадто багато пропсів, які проходять через багато компонентів, можуть зробити код заплутаним.
 
 ## --video-solution--
 

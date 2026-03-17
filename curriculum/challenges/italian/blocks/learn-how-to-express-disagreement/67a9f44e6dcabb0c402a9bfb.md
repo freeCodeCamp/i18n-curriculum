@@ -1,6 +1,6 @@
 ---
 id: 67a9f44e6dcabb0c402a9bfb
-title: Task 5
+title: Attività 5
 challengeType: 19
 dashedName: task-5
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Ascolta l'audio e rispondi alla domanda qui sotto.
 
 # --questions--
 
 ## --text--
 
-What does Bob want to know?
+Cosa vuole sapere Bob?
 
 ## --answers--
 
-If employees have already bought office furniture.
+Se i dipendenti hanno già comprato mobili per l'ufficio.
 
 ### --feedback--
 
-Bob isn't asking for confirmation of purchases.
+Bob non sta chiedendo una conferma sugli acquisti.
 
 ---
 
-How much office furniture costs.
+Quanto costano i mobili per l'ufficio.
 
 ### --feedback--
 
-Bob does not ask about the price.
+Bob non chiede del prezzo.
 
 ---
 
-If the company will increase the stipend.
+Se l'azienda aumenterà il contributo.
 
 ### --feedback--
 
-Bob is not discussing changes to the stipend.
+Bob non sta parlando di cambiamenti al contributo.
 
 ---
 
-If Anna thinks using the stipend for office furniture is a good idea.
+Se Anna pensa che usare il contributo per i mobili dell'ufficio sia una buona idea.
 
 ## --video-solution--
 
@@ -52,7 +52,7 @@ If Anna thinks using the stipend for office furniture is a good idea.
 
 # --explanation--
 
-Bob asks, `Do you think that's a good idea?` This is a way to ask for someone's opinion about a suggestion or plan. Here's other ways to ask for an opinion:
+Bob chiede, `Do you think that's a good idea?` Questo è un modo per chiedere l'opinione di qualcuno su una proposta o un piano. Ecco altri modi per chiedere un'opinione:
 
 - `Do you think this will work?`
 
@@ -60,7 +60,7 @@ Bob asks, `Do you think that's a good idea?` This is a way to ask for someone's 
 
 - `How do you feel about this plan?`
 
-In this dialogue, Bob is referring to employees using the remote work stipend for office furniture. Instead of stating his own opinion, he is asking Anna what she thinks.
+In questo dialogo, Bob si riferisce ai dipendenti che usano il contributo per il lavoro da remoto per i mobili dell'ufficio. Invece di esprimere la sua opinione, chiede ad Anna cosa ne pensa.
 
 # --scene--
 

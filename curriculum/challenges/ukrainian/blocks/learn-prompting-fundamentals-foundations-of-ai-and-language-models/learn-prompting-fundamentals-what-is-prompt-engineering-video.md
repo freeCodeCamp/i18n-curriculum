@@ -1,6 +1,6 @@
 ---
 id: 69a7633b5a27934b29e1eac0
-title: What is Prompt Engineering?
+title: Що таке prompt engineering?
 challengeType: 11
 videoId: 2Q-GMmhXP-k
 dashedName: what-is-prompt-engineering-learn-prompting-fundamentals
@@ -8,31 +8,30 @@ dashedName: what-is-prompt-engineering-learn-prompting-fundamentals
 
 # --description--
 
-In this video, you will learn what prompt engineering is.
+У цьому відео ви дізнаєтеся, що таке prompt engineering.
 
 # --questions--
 
 ## --text--
 
-What is prompt engineering?
+Що таке prompt engineering?
 
 ## --answers--
 
-This is the process of configuring AI to write all of your tests in your codebase.
+Це процес налаштування AI для написання всіх ваших тестів у кодовій базі.
 
 ---
 
-This is the process of using writing, refining and optimizing prompts in a structured way for AI tools.
+Це процес написання, удосконалення та оптимізації prompt-ів у структурований спосіб для AI-інструментів.
 
 ---
 
-This is the process of having AI lint all of your code.
+Це процес, коли AI перевіряє весь ваш код на помилки.
 
 ---
 
-This is the process of using AI to refactor a codebase.
+Це процес використання AI для рефакторингу кодової бази.
 
 ## --video-solution--
 
 2
-

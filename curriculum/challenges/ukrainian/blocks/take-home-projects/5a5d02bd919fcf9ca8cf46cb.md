@@ -1,6 +1,6 @@
 ---
 id: 5a5d02bd919fcf9ca8cf46cb
-title: Build a Light-Bright App
+title: Створіть застосунок light-bright
 challengeType: 3
 forumTopicId: 302350
 dashedName: build-a-light-bright-app
@@ -8,27 +8,27 @@ dashedName: build-a-light-bright-app
 
 # --description--
 
-**Objective:** Build an app that is functionally similar to this: <https://codepen.io/freeCodeCamp/full/eyLYXE>.
+**Мета:** Створіть застосунок, який функціонально схожий на цей: <https://codepen.io/freeCodeCamp/full/eyLYXE>.
 
-**Rule #1:** Don't look at the example project's code. Figure it out for yourself.
+**Правило №1:** Не дивіться на код прикладного проєкту. Розберіться самі.
 
-**Rule #2:** Fulfill the below user stories and get all of the tests to pass. Use whichever libraries or APIs you need. Give it your own personal style.
+**Правило №2:** Виконайте наведені нижче історії користувача і пройдіть усі тести. Використовуйте будь-які бібліотеки або API, які вам потрібні. Додайте свій особистий стиль.
 
-**User Story:** I can click or drag the mouse cursor to color the circles.
+**Історія користувача:** Я можу натиснути або перетягнути курсор миші, щоб зафарбувати кола.
 
-**User Story:** I can double-click on a colored circle to remove the color.
+**Історія користувача:** Я можу подвійно натиснути на зафарбоване коло, щоб видалити колір.
 
-**User Story:** I can click on a colored circle to change its color.
+**Історія користувача:** Я можу натиснути на зафарбоване коло, щоб змінити його колір.
 
-**User Story:** I should get a circle of different color on each click.
+**Історія користувача:** Я повинен отримувати коло іншого кольору при кожному натисканні.
 
-**User Story:** I can click on the 'Reset' button to remove the recent color.
+**Історія користувача:** Я можу натиснути на кнопку «Reset», щоб видалити останній колір.
 
-**User Story:** I can click on the 'Reset All' button to remove all the colors from the circles.
+**Історія користувача:** Я можу натиснути на кнопку «Reset All», щоб видалити всі кольори з кіл.
 
-When you are finished, include a link to your project on CodePen and click the "I've completed this challenge" button.
+Коли закінчите, додайте посилання на свій проєкт на CodePen і натисніть кнопку «I've completed this challenge».
 
-You can get feedback on your project by sharing it on the <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp forum</a>.
+Ви можете отримати відгук про свій проєкт, поділившись ним на <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">форумі freeCodeCamp</a>.
 
 # --solutions--
 

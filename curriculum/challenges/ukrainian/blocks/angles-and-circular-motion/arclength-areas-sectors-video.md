@@ -1,6 +1,6 @@
 ---
 id: 699e56b58f18cf77dfce5c0b
-title: Arclength and Areas of Sectors
+title: Довжина дуги та площі секторів
 challengeType: 11
 videoId: hNtpuLx5i6Y
 dashedName: arclength-and-areas-of-sectors
@@ -8,31 +8,30 @@ dashedName: arclength-and-areas-of-sectors
 
 # --description--
 
-In this video, you will learn about arcs, sectors and areas of sectors.
+У цьому відео ви дізнаєтеся про дуги, сектори та площі секторів.
 
 # --questions--
 
 ## --text--
 
-What is a sector?
+Що таке сектор?
 
 ## --answers--
 
-A wedge of pi for a circle.
+Клин із π для кола.
 
 ---
 
-A line that cuts a circle into two equal halves.
+Лінія, що розрізає коло на дві рівні половини.
 
 ---
 
-The distance around the outside of a circle.
+Відстань навколо зовнішньої частини кола.
 
 ---
 
-The center point of a circle.
+Центральна точка кола.
 
 ## --video-solution--
 
 1
-

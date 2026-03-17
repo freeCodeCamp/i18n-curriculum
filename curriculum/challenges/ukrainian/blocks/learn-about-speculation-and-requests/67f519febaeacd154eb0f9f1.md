@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Послухайте аудіо та доповніть речення нижче.
+Прослухайте аудіо та доповніть речення нижче.
 
 # --fillInTheBlank--
 
@@ -24,15 +24,15 @@ lang: en-US
 
 ### --feedback--
 
-This word means being alert and watching carefully for potential dangers or problems.
+Це слово означає бути пильним і уважно стежити за потенційними небезпеками чи проблемами.
 
 # --explanation--
 
-`Vigilant` means being watchful and cautious to detect possible threats. Наприклад:
+`Vigilant` означає бути пильним і обережним, щоб виявити можливі загрози. Наприклад:
 
-- `The IT team is always vigilant when monitoring the network.` - The IT team stays alert and careful while checking the network.
+- `The IT team is always vigilant when monitoring the network.` - Команда IT залишається пильною та обережною під час перевірки мережі.
 
-- `You should be vigilant when clicking on unknown links in emails.` - You need to be careful and pay attention to suspicious email links.
+- `You should be vigilant when clicking on unknown links in emails.` - Вам потрібно бути обережним і звертати увагу на підозрілі посилання в е-пошті.
 
 # --scene--
 

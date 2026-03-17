@@ -1,6 +1,6 @@
 ---
 id: 05b8c9b04c6df84636956fab
-title: Introduction
+title: Introduzione
 challengeType: 11
 videoId: EgQZWE8in68
 dashedName: introduction-learn-python-full-course-for-beginners
@@ -8,29 +8,29 @@ dashedName: introduction-learn-python-full-course-for-beginners
 
 # --description--
 
-In this video, instructor Mike Dane explains why you should learn Python.
+In questo video, l'istruttore Mike Dane spiega perché dovresti imparare Python.
 
 # --questions--
 
 ## --text--
 
-What is one reason to learn Python?
+Qual è uno dei motivi per imparare Python?
 
 ## --answers--
 
-It is required to be learned before any other programming language.
+È necessario impararlo prima di qualsiasi altro linguaggio di programmazione.
 
 ---
 
-It is one of the most popular programming languages used in the industry.
+È uno dei linguaggi di programmazione più popolari usati nell'industria.
 
 ---
 
-It is the fastest programming language for all types of applications.
+È il linguaggio di programmazione più veloce per tutti i tipi di applicazioni.
 
 ---
 
-It is only useful for complex gaming applications.
+È utile solo per applicazioni di gioco complesse.
 
 ## --video-solution--
 

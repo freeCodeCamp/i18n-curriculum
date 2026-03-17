@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c443eddfaeb5bdff
-title: Build a Nightlife Coordination App
+title: Створіть застосунок для координації нічного життя
 challengeType: 4
 forumTopicId: 302351
 dashedName: build-a-nightlife-coordination-app
@@ -8,21 +8,21 @@ dashedName: build-a-nightlife-coordination-app
 
 # --description--
 
-Build a full-stack JavaScript app that is functionally similar to this: <a href="https://yoyo44.herokuapp.com/" target="_blank" rel="noopener noreferrer nofollow">https://yoyo44.herokuapp.com/</a>. Use a site builder of your choice to complete the project.
+Створіть повноцінний JavaScript-застосунок, який функціонально схожий на цей: <a href="https://yoyo44.herokuapp.com/" target="_blank" rel="noopener noreferrer nofollow">https://yoyo44.herokuapp.com/</a>. Використайте будь-який конструктор сайтів на свій вибір для виконання проєкту.
 
-Here are the specific user stories you should implement for this project:
+Ось конкретні історії користувача, які ви маєте реалізувати для цього проєкту:
 
-**User Story:** As an unauthenticated user, you can view all bars in your area.
+**Історія користувача:** Як неавтентифікований користувач, ви можете переглядати всі бари у вашій області.
 
-**User Story:** As an authenticated user, you can add yourself to a bar to indicate you are going there tonight.
+**Історія користувача:** Як автентифікований користувач, ви можете додати себе до бару, щоб показати, що збираєтеся туди сьогодні ввечері.
 
-**User Story:** As an authenticated user, you can remove yourself from a bar if you no longer want to go there.
+**Історія користувача:** Як автентифікований користувач, ви можете видалити себе з бару, якщо більше не хочете туди йти.
 
-**User Story:** As an unauthenticated user, when you login you should not have to search again.
+**Історія користувача:** Як неавтентифікований користувач, після входу в систему вам не потрібно шукати знову.
 
-**Hint:** Try using the Yelp API to find venues in the cities your users search for. If you use Yelp's API, be sure to mention so in your app.
+**Підказка:** Спробуйте використати API Yelp, щоб знайти заклади у містах, які шукають ваші користувачі. Якщо ви використовуєте API Yelp, обов’язково вкажіть це у своєму застосунку.
 
-When you are done, make sure a working demo of your project is hosted somewhere public. Then submit the URL to it in the Solution Link field. Optionally, also submit a link to your project's source code in the GitHub Link field.
+Коли закінчите, переконайтеся, що робоча демонстрація вашого проєкту розміщена у публічному доступі. Потім відправте URL цієї демонстрації у полі Solution Link. За бажанням також надайте посилання на вихідний код проєкту у полі GitHub Link.
 
 # --solutions--
 

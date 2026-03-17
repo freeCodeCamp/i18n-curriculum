@@ -7,13 +7,13 @@ dashedName: step-17
 
 # --description--
 
-For the truthy condition, if `prev` includes `item`, return a filtered array with `item` removed.
+Для істинної умови, якщо `prev` містить `item`, поверніть відфільтрований масив без `item`.
 
-Chain the `filter()` method to `prev` and pass it an anonymous function that takes `i` as an argument. Inside the function, check that `i` is not strictly equal to `item`. This will return a new array with all items except `item`.
+Зчепіть метод `filter()` до `prev` і передайте йому анонімну функцію, яка приймає `i` як аргумент. Усередині функції перевірте, що `i` не строго дорівнює `item`. Це поверне новий масив зі всіма елементами, крім `item`.
 
 # --hints--
 
-You should chain the `filter()` method to `prev` and pass it an anonymous function that takes `i` as an argument.
+Ви повинні зчепити метод `filter()` до `prev` і передати йому анонімну функцію, яка приймає `i` як аргумент.
 
 ```js
 const script = [...document.querySelectorAll("script")].find((s) => s.dataset.src ===  "index.jsx").innerText;
@@ -24,7 +24,7 @@ const shoppingListString = exports.ShoppingList.toString();
 assert.match(shoppingListString, /prev\.includes\s*\(\s*item\s*\)\s*\?\s*prev\.filter\s*\(function\s*\(\s*i\s*\)\s*{/);
 ```
 
-Inside the anonymous `filter()` function, you should check that `i` is not strictly equal to `item`. Remember to return the result of that check.
+Усередині анонімної функції `filter()` слід перевірити, що `i` не строго дорівнює `item`. Не забудьте повернути результат цієї перевірки.
 
 ```js
 const script = [...document.querySelectorAll("script")].find((s) => s.dataset.src ===  "index.jsx").innerText;

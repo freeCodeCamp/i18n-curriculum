@@ -1,6 +1,6 @@
 ---
 id: 683d4ae3cbcc8c94e78aade1
-title: Task 19
+title: Attività 19
 challengeType: 19
 dashedName: task-19
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Ascolta l'audio e rispondi alla domanda qui sotto.
 
 # --questions--
 
 ## --text--
 
-What is Bob explaining?
+Cosa sta spiegando Bob?
 
 ## --answers--
 
-That the emergency exit is blocked.
+Che l'uscita di emergenza è bloccata.
 
 ### --feedback--
 
-Bob doesn't say the exit is blocked - he just mentions its location.
+Bob non dice che l'uscita è bloccata — menziona solo la sua posizione.
 
 ---
 
-That the back door needs a new lock.
+Che la porta sul retro ha bisogno di una nuova serratura.
 
 ### --feedback--
 
-Bob doesn't mention anything about locks or a back door needing repairs.
+Bob non parla di serrature o di una porta sul retro che necessita di riparazioni.
 
 ---
 
-That the server room needs to be cleaned.
+Che la stanza del server deve essere pulita.
 
 ### --feedback--
 
-There is no mention of cleaning in Bob's sentence.
+Nella frase di Bob non c'è alcun riferimento alla pulizia.
 
 ---
 
-That something is located near the emergency exit.
+Che qualcosa si trova vicino all'uscita di emergenza.
 
 ## --video-solution--
 
@@ -52,9 +52,9 @@ That something is located near the emergency exit.
 
 # --explanation--
 
-Bob says, `Exactly. It's in the back, next to the emergency exit`. This means he is confirming the location of something - right beside the emergency exit.
+Bob dice, `Exactly. It's in the back, next to the emergency exit`. Questo significa che sta confermando la posizione di qualcosa — proprio accanto all'uscita di emergenza.
 
-He doesn't talk about repairs, cleaning, or problems.
+Non parla di riparazioni, pulizie o problemi.
 
 # --scene--
 

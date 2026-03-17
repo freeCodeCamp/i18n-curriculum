@@ -1,6 +1,6 @@
 ---
 id: 699e034d138be64fa313138e
-title: Transformations of Functions
+title: Трансформації функцій
 challengeType: 11
 videoId: xSPh80M3f84
 dashedName: transformations-of-functions
@@ -8,29 +8,29 @@ dashedName: transformations-of-functions
 
 # --description--
 
-In this video, you will learn about transformations of functions.
+У цьому відео ви дізнаєтеся про трансформації функцій.
 
 # --questions--
 
 ## --text--
 
-Which of the following is a valid rule for a transformation of a function?
+Яке з наведених правил є правильним для трансформації функції?
 
 ## --answers--
 
-Numbers on the inside of the function result in a vertical shift.
+Числа всередині функції призводять до вертикального зсуву.
 
 ---
 
-Numbers on the outside of the function result in a horizontal shift.
+Числа поза межами функції призводять до горизонтального зсуву.
 
 ---
 
-A negative sign results in a reflection.
+Від’ємний знак призводить до відображення.
 
 ---
 
-A negative sign results in a vertical shift.
+Від’ємний знак призводить до вертикального зсуву.
 
 ## --video-solution--
 

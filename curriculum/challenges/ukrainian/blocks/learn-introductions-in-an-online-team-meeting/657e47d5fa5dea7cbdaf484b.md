@@ -1,6 +1,6 @@
 ---
 id: 657e47d5fa5dea7cbdaf484b
-title: "Dialogue 5: Meeting a Client"
+title: "Діалог 5: зустріч із клієнтом"
 challengeType: 21
 dashedName: dialogue-meeting-a-client
 lang: en-US
@@ -8,11 +8,11 @@ lang: en-US
 
 # --description--
 
-Watch the video below to understand the context of the upcoming lessons.
+Перегляньте відео нижче, щоб зрозуміти контекст наступних уроків.
 
 # --assignment--
 
-Watch the video.
+Перегляньте відео.
 
 # --scene--
 

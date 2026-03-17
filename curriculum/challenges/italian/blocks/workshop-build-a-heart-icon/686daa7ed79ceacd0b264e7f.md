@@ -1,26 +1,26 @@
 ---
 id: 686daa7ed79ceacd0b264e7f
-title: Step 4
+title: Passaggio 4
 challengeType: 0
 dashedName: step-4
 ---
 
 # --description--
 
-The next step is to set the `width` and `height` attributes for the `svg` element. As you are creating an icon, both values should be set small.
+Il passaggio successivo è impostare gli attributi `width` e `height` per l'elemento `svg`. Poiché stai creando un'icona, entrambi i valori dovrebbero essere impostati su small.
 
-Set both values to `24`.
+Imposta entrambi i valori su `24`.
 
 # --hints--
 
-Your `svg` element should have a `width` attribute of `24`.
+Il tuo elemento `svg` dovrebbe avere un attributo `width` con valore `24`.
 
 ```js
 const svg = document.querySelector('svg');
 assert.strictEqual(svg.getAttribute('width'), '24');
 ```
 
-Your `svg` element should have a `height` attribute of `24`.
+Il tuo elemento `svg` dovrebbe avere un attributo `height` con valore `24`.
 
 ```js
 const svg = document.querySelector('svg');

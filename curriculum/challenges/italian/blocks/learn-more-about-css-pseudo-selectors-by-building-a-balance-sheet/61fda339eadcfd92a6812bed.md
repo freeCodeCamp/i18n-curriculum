@@ -1,17 +1,17 @@
 ---
 id: 61fda339eadcfd92a6812bed
-title: Step 30
+title: Passaggio 30
 challengeType: 0
 dashedName: step-30
 ---
 
 # --description--
 
-Before you get too far into your styling, you should make use of the `sr-only` class. You can use CSS to make elements with this class completely hidden from the visual page, but still be announced by screen readers.
+Prima di procedere troppo con lo stile, dovresti usare la classe `sr-only`. Puoi usare il CSS per rendere gli elementi con questa classe completamente nascosti dalla pagina visiva, ma comunque annunciati dai lettori di schermo.
 
-Il CSS che stai per scrivere è un insieme comune di proprietà usate per garantire che gli elementi siano completamente nascosti alla vista.
+Il CSS che stai per scrivere è un insieme comune di proprietà usate per assicurare che gli elementi siano completamente nascosti visivamente.
 
-Il selettore `span[class~="sr-only"]` selezionerà qualsiasi elemento `span` il cui attributo `class` *include* `sr-only`. Crea questo selettore e dagli una proprietà `border` con il valore `0`.
+Il selettore `span[class~="sr-only"]` selezionerà qualsiasi elemento `span` il cui `class` *include* `sr-only`. Crea quel selettore e imposta su di esso una proprietà `border` con valore `0`.
 
 # --hints--
 
@@ -21,7 +21,7 @@ Dovresti avere un selettore `span[class~="sr-only"]`.
 assert(new __helpers.CSSHelp(document).getStyle('span[class~="sr-only"]'));
 ```
 
-Il selettore `span[class~="sr-only"]` dovrebbe avere una proprietà `border` con il valore `0`.
+Il tuo selettore `span[class~="sr-only"]` dovrebbe avere una proprietà `border` impostata su `0`.
 
 ```js
 assert(new __helpers.CSSHelp(document).getStyle('span[class~="sr-only"]')?.getPropertyValue('border-width') === '0px');

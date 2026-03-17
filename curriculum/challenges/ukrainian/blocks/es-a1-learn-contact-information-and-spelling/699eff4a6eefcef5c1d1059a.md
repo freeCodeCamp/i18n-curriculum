@@ -1,26 +1,25 @@
 ---
 id: 699eff4a6eefcef5c1d1059a
-title: Task 24
+title: Завдання 24
 challengeType: 22
 dashedName: task-24
 lang: es
 ---
-
 <!-- (Audio) Basti: El dominio es q-u-e-t-z-a-l punto g-t. -->
 
 # --description--
 
-The word `dominio` refers to the main part of a web address, usually the section that comes after the `@` in an email or after `www` in a website.
+Слово `dominio` позначає основну частину веб-адреси, зазвичай розділ, що йде після `@` в е-пошті або після `www` на вебсайті.
 
-It is commonly used when giving or confirming email addresses and URLs. For example:
+Його часто використовують, коли називають або підтверджують е-пошту та URL-адреси. Наприклад:
 
-`El dominio es gmail punto com.` – The domain is gmail.com.
+`El dominio es gmail punto com.` – Домен — gmail.com.
 
-`¿Cuál es el dominio?` – What is the domain?
+`¿Cuál es el dominio?` – Що таке домен?
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Прослухайте аудіо та доповніть речення нижче.
 
 # --fillInTheBlank--
 
@@ -34,13 +33,13 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This noun refers to the main part of a web or email address.
+Це іменник, який позначає основну частину веб- або е-поштової адреси.
 
 # --explanation--
 
-`Dominio` is a noun used to name the domain portion of an email address or website.
+`Dominio` — це іменник, який використовується для позначення доменної частини е-пошти або вебсайту.
 
-It commonly appears when people spell or confirm digital contact information.
+Він часто зустрічається, коли люди диктують або підтверджують цифрові контактні дані.
 
 # --scene--
 

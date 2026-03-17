@@ -7,11 +7,11 @@ dashedName: step-11
 
 # --description--
 
-After the form, add a `div` element with an `id` of `results` that will display the search results.
+Після форми додайте `div` елемент з `id` `results`, який відображатиме результати пошуку.
 
 # --hints--
 
-You should have a `div` element with the `id` of `results` after the form.
+Після форми має бути `div` елемент з `id` `results`.
 
 ```js
 const searchContainer = document.getElementById("search-container");
@@ -122,7 +122,7 @@ export function FruitsSearch() {
           onChange={(e) => setQuery(e.target.value)}
         />
       </form>
-
+      
     --fcc-editable-region--
     </div>
   );

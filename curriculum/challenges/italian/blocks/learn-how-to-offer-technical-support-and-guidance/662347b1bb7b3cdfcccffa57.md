@@ -1,6 +1,6 @@
 ---
 id: 662347b1bb7b3cdfcccffa57
-title: Task 50
+title: Attività 50
 challengeType: 22
 dashedName: task-50
 lang: en-US
@@ -10,9 +10,9 @@ lang: en-US
 
 # --description--
 
-`Heard` is the past tense of the verb `to hear`, which means to become aware of something through the ears or to be informed of something. For example, `I heard the news yesterday` means you became aware of the news the day before.
+`Heard` è il passato del verbo `to hear`, che significa venire a sapere qualcosa tramite l’udito o essere informati di qualcosa. Per esempio, `I heard the news yesterday` significa che sei venuto a sapere la notizia il giorno prima.
 
-An `authentication module` in a software context is a part of a system responsible for verifying the identity of users. It's often used in login systems. For example, `The authentication module checks the username and password` means it verifies the user's credentials.
+Un `authentication module` in un contesto software è una parte di un sistema responsabile di verificare l’identità degli utenti. Viene spesso usato nei sistemi di accesso. Per esempio, `The authentication module checks the username and password` significa che verifica le credenziali dell’utente.
 
 # --fillInTheBlank--
 
@@ -26,7 +26,7 @@ An `authentication module` in a software context is a part of a system responsib
 
 ### --feedback--
 
-It is the past tense of `to hear`, indicating Brian was informed about Sophie's task.
+È il passato di `to hear`, indicando che Brian è stato informato del compito di Sophie.
 
 ---
 
@@ -34,7 +34,7 @@ It is the past tense of `to hear`, indicating Brian was informed about Sophie's 
 
 ### --feedback--
 
-It refers to the act of repairing or resolving the issue (bug) in the software.
+Si riferisce all’atto di riparare o risolvere il problema (bug) nel software.
 
 ---
 
@@ -42,7 +42,7 @@ It refers to the act of repairing or resolving the issue (bug) in the software.
 
 ### --feedback--
 
-It refers to the process of verifying a user's identity in the software module.
+Si riferisce al processo di verifica dell’identità di un utente nel modulo software.
 
 # --scene--
 

@@ -1,6 +1,6 @@
 ---
 id: 6857babdeedee54c6acb3636
-title: Task 134
+title: Attività 134
 challengeType: 19
 dashedName: task-134
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Ascolta l'audio e rispondi alla domanda qui sotto.
 
 # --questions--
 
 ## --text--
 
-Where are the monitors stored now?
+Dove sono conservati ora i monitor?
 
 ## --answers--
 
-At the end of the parking lot.
+Alla fine del parcheggio.
 
 ### --feedback--
 
-Sarah doesn't mention the parking lot.
+Sarah non menziona il parcheggio.
 
 ---
 
-Inside the IT room.
+All'interno della stanza IT.
 
 ### --feedback--
 
-They were moved out of the IT room earlier.
+Sono stati spostati fuori dalla stanza IT in precedenza.
 
 ---
 
-Next to the security desk.
+Accanto alla postazione di sicurezza.
 
 ### --feedback--
 
-There is no mention of a security desk.
+Non si fa menzione di una postazione di sicurezza.
 
 ---
 
-Right near the coffee machine.
+Proprio vicino alla macchina del caffè.
 
 ## --video-solution--
 
@@ -52,9 +52,9 @@ Right near the coffee machine.
 
 # --explanation--
 
-Sarah gives clear directions ending with a reference point: `the coffee machine`.
+Sarah dà indicazioni chiare che terminano con un punto di riferimento: `the coffee machine`.
 
-She explains that after going down the corridor and turning left, the monitors can be found positioned across from it, making the coffee machine the closest visible landmark for finding them.
+Spiega che dopo aver percorso il corridoio e girato a sinistra, i monitor si trovano di fronte a questo punto, rendendo la macchina del caffè il punto di riferimento visibile più vicino per trovarli.
 
 # --scene--
 

@@ -1,6 +1,6 @@
 ---
 id: 657ddcd61f516cacdc7a04ca
-title: Task 128
+title: Attività 128
 challengeType: 19
 dashedName: task-128
 lang: en-US
@@ -10,45 +10,45 @@ lang: en-US
 
 # --description--
 
-Maria informs Tom about public transportation options, specifically mentioning a transportation that stops nearby. This is important for getting around the city, especially to places that are not within walking distance.
+Maria informa Tom sulle opzioni di trasporto pubblico, menzionando in particolare un mezzo che si ferma nelle vicinanze. Questo è importante per spostarsi in città, soprattutto verso luoghi che non si possono raggiungere a piedi.
 
-`Two blocks away` means that you need to walk past two street corners to get to a place. It's a short walk in a city.
+`Two blocks away` indica che devi superare due angoli di strada per arrivare a un posto. È una breve passeggiata in città.
 
-`Downtown` is the heart of a city where there are many shops, restaurants, and usually tall buildings.
+`Downtown` è il centro di una città dove ci sono molti negozi, ristoranti e di solito edifici alti.
 
 # --questions--
 
 ## --text--
 
-What does Maria say stops two blocks away?
+Cosa dice Maria che si ferma a due isolati di distanza?
 
 ## --answers--
 
-A taxi
+Un taxi
 
 ### --feedback--
 
-Maria mentions a public transportation option, not a private service.
+Maria menziona un'opzione di trasporto pubblico, non un servizio privato.
 
 ---
 
-A train
+Un treno
 
 ### --feedback--
 
-Trains don't typically stop at blocks; they stop at stations.
+I treni di solito non si fermano agli isolati; si fermano alle stazioni.
 
 ---
 
-A bus
+Un autobus
 
 ---
 
-A bicycle rental
+Un noleggio di biciclette
 
 ### --feedback--
 
-Rentals are usually stationary services, not something that stops.
+I noleggi sono solitamente servizi fissi, non qualcosa che si ferma. 
 
 ## --video-solution--
 

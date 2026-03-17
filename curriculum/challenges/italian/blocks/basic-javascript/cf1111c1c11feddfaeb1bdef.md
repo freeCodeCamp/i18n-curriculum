@@ -1,6 +1,6 @@
 ---
 id: cf1111c1c11feddfaeb1bdef
-title: Iterate with JavaScript While Loops
+title: Iterare con i loop while in JavaScript
 challengeType: 1
 forumTopicId: 18220
 dashedName: iterate-with-javascript-while-loops
@@ -8,9 +8,9 @@ dashedName: iterate-with-javascript-while-loops
 
 # --description--
 
-You can run the same code multiple times by using a loop.
+Puoi eseguire lo stesso codice più volte usando un loop.
 
-The first type of loop we will learn is called a `while` loop because it runs while a specified condition is true and stops once that condition is no longer true.
+Il primo tipo di loop che impareremo si chiama loop `while` perché continua a eseguire finché una condizione specificata è vera e si ferma una volta che quella condizione non è più vera.
 
 ```js
 const ourArray = [];
@@ -22,23 +22,23 @@ while (i < 5) {
 }
 ```
 
-In the code example above, the `while` loop will execute 5 times and append the numbers 0 through 4 to `ourArray`.
+Nell'esempio di codice sopra, il loop `while` verrà eseguito 5 volte e aggiungerà i numeri da 0 a 4 a `ourArray`.
 
-Let's try getting a while loop to work by pushing values to an array.
+Proviamo a far funzionare un loop while aggiungendo valori a un array.
 
 # --instructions--
 
-Add the numbers 5 through 0 (inclusive) in descending order to `myArray` using a `while` loop.
+Aggiungi i numeri da 5 a 0 (inclusi) in ordine decrescente a `myArray` usando un loop `while`.
 
 # --hints--
 
-You should be using a `while` loop for this.
+Dovresti usare un loop `while` per questo.
 
 ```js
 assert(__helpers.removeJSComments(code).match(/while/g));
 ```
 
-`myArray` should equal `[5, 4, 3, 2, 1, 0]`.
+`myArray` dovrebbe essere uguale a `[5, 4, 3, 2, 1, 0]`.
 
 ```js
 assert.deepEqual(myArray, [5, 4, 3, 2, 1, 0]);

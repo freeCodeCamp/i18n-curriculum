@@ -1,6 +1,6 @@
 ---
 id: 6660a1f8afeef3663bddaecb
-title: "Dialogue 1: Should Have Noticed That"
+title: "Діалог 1: Мав би помітити це"
 challengeType: 21
 dashedName: dialogue-1-should-have-noticed-that
 lang: en-US
@@ -8,11 +8,11 @@ lang: en-US
 
 # --description--
 
-Watch the video below to understand the context of the upcoming lessons.
+Перегляньте відео нижче, щоб зрозуміти контекст наступних уроків.
 
 # --assignment--
 
-Watch the video.
+Перегляньте відео.
 
 # --scene--
 

@@ -1,6 +1,6 @@
 ---
 id: 67caec5ecebab7be7456df7f
-title: Task 130
+title: Attività 130
 challengeType: 19
 dashedName: task-130
 lang: en-US
@@ -10,53 +10,53 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Ascolta l'audio e rispondi alla domanda qui sotto.  
 
 # --questions--
 
 ## --text--
 
-What other issue did the team raise?
+Quale altro problema ha sollevato il team?
 
 ## --answers--
 
-That they receive updates too early.
+Che ricevono gli aggiornamenti troppo presto.
 
 ### --feedback--
 
-Maria mentions the exact opposite.
+Maria menziona esattamente il contrario.
 
 ---
 
-That they don't want to communicate as much.
+Che non vogliono comunicare così tanto.
 
 ### --feedback--
 
-Maria doesn't mention the team's willingness to communicate.
+Maria non parla della volontà del team di comunicare.  
 
 ---
 
-That they often don't hear about changes in time.
+Che spesso non sentono in tempo i cambiamenti.
 
 ---
 
-That they think too many people are involved in communication.
+Che pensano che troppe persone siano coinvolte nella comunicazione.
 
 ### --feedback--
 
-Maria does not mention the number of people involved.
+Maria non menziona il numero di persone coinvolte.
 
 ## --video-solution--
 
-3
+3  
 
 # --explanation--
 
-When you say something `isn't great`, you are softening a negative message (instead of saying `it is bad`, for instance). It makes criticism sound more polite or indirect. Take a look at the following sentences:
+Quando dici qualcosa `isn't great`, stai attenuando un messaggio negativo (invece di dire `it is bad`, per esempio). Questo rende la critica più educata o indiretta. Dai un'occhiata alle seguenti frasi:
 
-- `The design is bad.` - This is a strong negative statement, which often sounds impolite.
+- `The design is bad.` - Questa è un'istruzione negativa forte, che spesso suona scortese.
 
-- `The design isn't great. Maybe we can improve it.` - Saying this sound less harsh and more constructive.
+- `The design isn't great. Maybe we can improve it.` - Dirlo così suona meno duro e più costruttivo.
 
 # --scene--
 

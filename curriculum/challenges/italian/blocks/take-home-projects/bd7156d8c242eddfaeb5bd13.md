@@ -1,6 +1,6 @@
 ---
 id: bd7156d8c242eddfaeb5bd13
-title: Build a freeCodeCamp Forum Homepage
+title: Costruisci la homepage del forum di freeCodeCamp
 challengeType: 3
 forumTopicId: 302349
 dashedName: build-a-freecodecamp-forum-homepage
@@ -8,21 +8,21 @@ dashedName: build-a-freecodecamp-forum-homepage
 
 # --description--
 
-**Objective:** Build an app that is functionally similar to this: <https://codepen.io/freeCodeCamp/full/JqdoMV>.
+**Obiettivo:** Costruisci un'app che sia funzionalmente simile a questa: <https://codepen.io/freeCodeCamp/full/JqdoMV>.
 
-Fulfill the below user stories and get all of the tests to pass. Use whichever libraries or APIs you need. Give it your own personal style.
+Completa le seguenti storie utente e fai in modo che tutti i test vengano superati. Usa le librerie o le API che preferisci. Dai il tuo tocco personale allo stile.
 
-**User Story:** I can see a list of the most recent posts on the freeCodeCamp forum.
+**Storia utente:** Posso vedere una lista dei post più recenti sul forum di freeCodeCamp.
 
-**User Story:** For each topic, I can see the title and a list of links to users who have recently posted in it.
+**Storia utente:** Per ogni argomento, posso vedere il titolo e una lista di collegamenti agli utenti che hanno pubblicato di recente.
 
-**User Story:** I can see the number of replies and views that each topic has had, and a timestamp of when the topic was last active.
+**Storia utente:** Posso vedere il numero di risposte e visualizzazioni che ogni argomento ha avuto, e un timestamp di quando l'argomento è stato attivo l'ultima volta.
 
-**Hint:** To get the 30 most recent forum posts: <https://forum-proxy.freecodecamp.rocks/latest>.
+**Suggerimento:** Per ottenere i 30 post più recenti del forum: <https://forum-proxy.freecodecamp.rocks/latest>.
 
-When you are finished, include a link to your project on CodePen and click the "I've completed this challenge" button.
+Quando hai finito, includi un collegamento al tuo progetto su CodePen e clicca il pulsante "Ho completato questa sfida".
 
-You can get feedback on your project by sharing it on the <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp forum</a>.
+Puoi ricevere feedback sul tuo progetto condividendolo sul <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">forum di freeCodeCamp</a>.
 
 # --solutions--
 

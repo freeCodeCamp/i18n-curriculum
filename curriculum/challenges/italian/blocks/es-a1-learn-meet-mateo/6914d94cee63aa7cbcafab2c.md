@@ -1,6 +1,6 @@
 ---
 id: 6914d94cee63aa7cbcafab2c
-title: Task 2
+title: Attività 2
 challengeType: 22
 dashedName: task-2
 lang: es
@@ -10,13 +10,13 @@ lang: es
 
 # --description--
 
-Mateo is mentioning his name and profession in Spanish.
+Mateo sta dicendo il suo nome e la sua professione in spagnolo.
 
-Here, the verb `ser` is used to express his identity and profession.
+Qui, il verbo `ser` viene usato per esprimere la sua identità e professione.
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Ascolta l'audio e completa la frase qui sotto.
 
 # --fillInTheBlank--
 
@@ -30,7 +30,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This verb form comes from the verb `ser` and is used to describe who you are or what you do.
+Questa forma verbale deriva dal verbo `ser` ed è usata per descrivere chi sei o cosa fai.
 
 ---
 
@@ -38,14 +38,14 @@ This verb form comes from the verb `ser` and is used to describe who you are or 
 
 ### --feedback--
 
-This verb form comes from the verb `ser` and is used to describe who you are or what you do.
+Questa forma verbale deriva dal verbo `ser` ed è usata per descrivere chi sei o cosa fai.
 
 # --explanation--
 
 
-`Soy` is a verb used to describe who you are or what you do. For example:
+`Soy` è un verbo usato per descrivere chi sei o cosa fai. Per esempio:
 
-`Soy Mateo. Soy ingeniero de software.` - I'm Mateo. I'm a software engineer.
+`Soy Mateo. Soy ingeniero de software.` - Sono Mateo. Sono un ingegnere del software.
 
 # --scene--
 
@@ -103,4 +103,3 @@ This verb form comes from the verb `ser` and is used to describe who you are or 
   ]
 }
 ```
-

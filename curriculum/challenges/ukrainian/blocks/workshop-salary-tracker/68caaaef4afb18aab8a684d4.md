@@ -1,19 +1,19 @@
 ---
 id: 68caaaef4afb18aab8a684d4
-title: Step 31
+title: Крок 31
 challengeType: 20
 dashedName: step-31
 ---
 
 # --description--
 
-It's time to test your new setter. Try to assign invalid values such as a random string or the current level (`trainee`) to `charlie_brown.level` and see the error messages in the console.
+Час перевірити ваш новий сеттер. Спробуйте призначити недійсні значення, такі як випадковий рядок або поточний рівень (`trainee`) для `charlie_brown.level` і подивіться повідомлення про помилки в консолі.
 
-Once you've done, remove the lines raising errors and set `charlie_brown.level` to the string `junior`.
+Після цього видаліть рядки, що викликають помилки, і призначте `charlie_brown.level` рядок `junior`.
 
 # --hints--
 
-You should set `charlie_brown.level` to the string `junior`.
+Ви повинні призначити `charlie_brown.level` рядок `junior`.
 
 ```js
 ({ test: () => assert(runPython(`_Node(_code).has_stmt("charlie_brown.level = 'junior'")`)) })

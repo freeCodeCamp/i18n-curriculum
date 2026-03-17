@@ -1,45 +1,45 @@
 ---
 id: 64cb4ebdc75b3a73a43da5ec
-title: Step 108
+title: Passaggio 108
 challengeType: 0
 dashedName: step-108
 ---
 
 # --description--
 
-Create an `if` statement that checks if `isCheckpointCollisionDetectionActive` is true.
+Crea un'istruzione `if` che verifichi se `isCheckpointCollisionDetectionActive` è true.
 
-Inside the `if` statement, add a `setTimeout()` that takes in a callback function and a delay of 2000 milliseconds.
+All'interno dell'istruzione `if`, aggiungi una `setTimeout()` che prende una funzione di callback e un ritardo di 2000 millisecondi.
 
-For the callback function, it should set the `checkpointScreen` `style.display` property to `"none"`.
+Per la funzione di callback, dovrebbe impostare la proprietà `checkpointScreen` `style.display` su `"none"`.
 
 # --hints--
 
-You should have an `if` statement that checks if `isCheckpointCollisionDetectionActive` is true.
+Dovresti avere un'istruzione `if` che verifica se `isCheckpointCollisionDetectionActive` è true.
 
 ```js
 assert.match(code, /\s*if\s*\(\s*isCheckpointCollisionDetectionActive\s*\)\s*{/s);
 ```
 
-You should have a `setTimeout()` function inside the `if` statement.
+Dovresti avere una funzione `setTimeout()` all'interno dell'istruzione `if`.
 
 ```js
 assert.match(code, /\s*if\s*\(\s*isCheckpointCollisionDetectionActive\s*\)\s*{\s*setTimeout\s*\(/s);
 ```
 
-Your `setTimeout()` function should have a callback function as the first argument.
+La tua funzione `setTimeout()` dovrebbe avere una funzione di callback come primo argomento.
 
 ```js
 assert.match(code, /\s*setTimeout\s*\(\s*\(\s*\)\s*=>/s);
 ```
 
-Your `setTimeout()` function should have a delay of 2000 milliseconds as the second argument.
+La tua funzione `setTimeout()` dovrebbe avere un ritardo di 2000 millisecondi come secondo argomento.
 
 ```js
 assert.match(code, /\s*setTimeout\s*\(\s*\(\s*\)\s*=>[^,]*,\s*2000\s*\)/s);
 ```
 
-Your callback function should set the `checkpointScreen` `style.display` property to `"none"`.
+La tua funzione di callback dovrebbe impostare la proprietà `checkpointScreen` `style.display` su `"none"`.
 
 ```js
 assert.match(code, /\s*if\s*\(\s*isCheckpointCollisionDetectionActive\s*\)\s*{\s*setTimeout\s*\(\s*\(\s*\)\s*=>\s*(\(\s*checkpointScreen\.style\.display\s*=\s*("|')none\2\s*\)|\{\s*checkpointScreen\.style\.display\s*=\s*("|')none\3\s*;?\s*\}|\s*checkpointScreen\.style\.display\s*=\s*("|')none\4\s*)\s*,\s*2000\s*\)\s*;?\s*}/s);

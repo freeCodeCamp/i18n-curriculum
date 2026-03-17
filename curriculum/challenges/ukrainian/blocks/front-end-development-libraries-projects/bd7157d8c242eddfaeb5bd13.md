@@ -1,37 +1,37 @@
 ---
 id: bd7157d8c242eddfaeb5bd13
-title: Build a Markdown Previewer
+title: Створити переглядач markdown
 challengeType: 3
 forumTopicId: 301372
 dashedName: build-a-markdown-previewer
 ---
 
 # --description--
-**Note:** **React 18 has known incompatibilities with the tests for this project (see [issue](https://github.com/freeCodeCamp/freeCodeCamp/issues/45922))**
+**Примітка:** **React 18 має відомі несумісності з тестами для цього проєкту (див. [issue](https://github.com/freeCodeCamp/freeCodeCamp/issues/45922))**
 
-**Objective:** Build an app that is functionally similar to this: <a href="https://markdown-previewer.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://markdown-previewer.freecodecamp.rocks/</a>.
+**Мета:** Створити застосунок, який функціонально схожий на цей: <a href="https://markdown-previewer.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://markdown-previewer.freecodecamp.rocks/</a>.
 
-Fulfill the below user stories and get all of the tests to pass. Use whichever libraries or APIs you need. Give it your own personal style.
+Виконайте наведені нижче історії користувача та пройдіть усі тести. Використовуйте будь-які бібліотеки або API, які вам потрібні. Додайте свій особистий стиль.
 
-You can use any mix of HTML, JavaScript, CSS, Bootstrap, SASS, React, Redux, and jQuery to complete this project. You should use a front-end framework (like React for example) because this section is about learning front-end frameworks. Additional technologies not listed above are not recommended and using them is at your own risk. We are looking at supporting other front-end frameworks like Angular and Vue, but they are not currently supported. We will accept and try to fix all issue reports that use the suggested technology stack for this project. Happy coding!
+Ви можете використовувати будь-яке поєднання HTML, JavaScript, CSS, Bootstrap, SASS, React, Redux і jQuery для виконання цього проєкту. Рекомендується використовувати фронтенд-фреймворк (наприклад, React), оскільки цей розділ присвячений вивченню фронтенд-фреймворків. Додаткові технології, не перелічені вище, не рекомендуються, і їх використання — на ваш власний ризик. Ми плануємо підтримувати інші фронтенд-фреймворки, такі як Angular і Vue, але наразі вони не підтримуються. Ми приймаємо та намагаємося виправити всі звіти про проблеми, які використовують рекомендований стек технологій для цього проєкту. Успішного кодування!
 
-**User Story #1:** I can see a `textarea` element with a corresponding `id="editor"`.
+**Історія користувача #1:** Я можу бачити елемент `textarea` з відповідним `id="editor"`.
 
-**User Story #2:** I can see an element with a corresponding `id="preview"`.
+**Історія користувача #2:** Я можу бачити елемент з відповідним `id="preview"`.
 
-**User Story #3:** When I enter text into the `#editor` element, the `#preview` element is updated as I type to display the content of the textarea.
+**Історія користувача #3:** Коли я вводжу текст у елемент `#editor`, елемент `#preview` оновлюється під час набору, щоб відобразити вміст textarea.
 
-**User Story #4:** When I enter GitHub flavored markdown into the `#editor` element, the text is rendered as HTML in the `#preview` element as I type (HINT: You don't need to parse Markdown yourself - you can import the Marked library for this: <https://cdnjs.com/libraries/marked>).
+**Історія користувача #4:** Коли я вводжу markdown у стилі GitHub у елемент `#editor`, текст відтворюється як HTML у елементі `#preview` під час набору (ПІДКАЗКА: вам не потрібно самостійно аналізувати Markdown — ви можете імпортувати бібліотеку Marked для цього: <https://cdnjs.com/libraries/marked>).
 
-**User Story #5:** When my markdown previewer first loads, the default text in the `#editor` field should contain valid markdown that represents at least one of each of the following elements: a heading element (H1 size), a sub heading element (H2 size), a link, inline code, a code block, a list item, a blockquote, an image, and bolded text.
+**Історія користувача #5:** Коли мій переглядач markdown завантажується вперше, текст за замовчуванням у полі `#editor` повинен містити дійсний markdown, який представляє принаймні один з кожного з наступних елементів: заголовок (розмір H1), підзаголовок (розмір H2), посилання, рядковий код, блок коду, елемент списку, блок цитати, зображення та жирний текст.
 
-**User Story #6:** When my markdown previewer first loads, the default markdown in the `#editor` field should be rendered as HTML in the `#preview` element.
+**Історія користувача #6:** Коли мій переглядач markdown завантажується вперше, markdown за замовчуванням у полі `#editor` повинен відтворюватися як HTML у елементі `#preview`.
 
-**Optional Bonus (you do not need to make this test pass):** My markdown previewer interprets carriage returns and renders them as `br` (line break) elements.
+**Додатково (не обов’язково для проходження тесту):** Мій переглядач markdown інтерпретує символи переносу рядка і відтворює їх як елементи `br` (перенос рядка).
 
-You can build your project by <a href='https://codepen.io/pen?template=MJjpwO' target='_blank' rel="noopener noreferrer nofollow">using this CodePen template</a> and clicking `Save` to create your own pen. If you prefer to use another environment, then put this `<script>` tag into the body of your `index.html` file: `<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>`
+Ви можете створити свій проєкт, <a href='https://codepen.io/pen?template=MJjpwO' target='_blank' rel="noopener noreferrer nofollow">використовуючи цей шаблон CodePen</a> і натиснувши `Save`, щоб створити власний pen. Якщо ви віддаєте перевагу іншому середовищу, додайте цей тег `<script>` у тіло вашого файлу `index.html`: `<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>`
 
-Once you're done, submit the URL to your working project with all its tests passing.
+Коли закінчите, відправте URL вашого робочого проєкту з усіма пройденими тестами.
 
 # --solutions--
 

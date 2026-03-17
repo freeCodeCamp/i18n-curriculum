@@ -1,43 +1,42 @@
 ---
 id: 62a8ae85fcaedc0fddc7ca4f
-title: Step 59
+title: Крок 59
 challengeType: 0
 dashedName: step-59
 ---
 
 # --description--
 
-Add a second object to your `locations` array (remember to separate them with a comma). Following the pattern you used in the first object, create the same properties but use the values from the `goStore` function. Set the `name` property to `store`.
+Додайте другий об’єкт до свого масиву `locations` (не забудьте розділити їх комою). Відповідно до шаблону, який ви використали в першому об’єкті, створіть ті самі властивості, але використайте значення з функції `goStore`. Встановіть властивість `name` у `store`.
 
 # --hints--
 
-Your `locations` array should have two values.
+Ваш масив `locations` має містити два значення.
 
 ```js
 assert.lengthOf(locations, 2);
 ```
 
-Both `locations` values should be objects.
-
+Обидва значення `locations` мають бути об’єктами.
 
 ```js
 assert.isObject(locations[0]);
 assert.isObject(locations[1]);
 ```
 
-Your second `locations` object should have a `name` property with the value of `store`.
+Другий об’єкт `locations` має містити властивість `name` зі значенням `store`.
 
 ```js
 assert.equal(locations[1].name, "store");
 ```
 
-Your second `locations` object should have a `button text` property which is an array.
+Другий об’єкт `locations` має містити властивість `button text`, яка є масивом.
 
 ```js
 assert.isArray(locations[1]["button text"]);
 ```
 
-Your `button text` property should have the string values `"Buy 10 health (10 gold)"`, `"Buy weapon (30 gold)"`, and `"Go to town square"`.
+Властивість `button text` має містити рядкові значення `"Buy 10 health (10 gold)"`, `"Buy weapon (30 gold)"` та `"Go to town square"`.
 
 ```js
 assert.equal(locations[1]["button text"][0], "Buy 10 health (10 gold)");
@@ -45,13 +44,13 @@ assert.equal(locations[1]["button text"][1], "Buy weapon (30 gold)");
 assert.equal(locations[1]["button text"][2], "Go to town square");
 ```
 
-Your second `locations` object should have a `button functions` property which is an array.
+Другий об’єкт `locations` має містити властивість `button functions`, яка є масивом.
 
 ```js
 assert.isArray(locations[1]["button functions"]);
 ```
 
-Your `button functions` property should have the function values `buyHealth`, `buyWeapon`, and `goTown`.
+Властивість `button functions` має містити функції `buyHealth`, `buyWeapon` та `goTown`.
 
 ```js
 assert.equal(locations[1]["button functions"][0], buyHealth);
@@ -59,19 +58,19 @@ assert.equal(locations[1]["button functions"][1], buyWeapon);
 assert.equal(locations[1]["button functions"][2], goTown);
 ```
 
-Your second `locations` object should have a `text` property which is a string.
+Другий об’єкт `locations` має містити властивість `text`, яка є рядком.
 
 ```js
 assert.isString(locations[1].text);
 ```
 
-Your second `locations` object should have a `text` property with the value of `"You enter the store."`.
+Другий об’єкт `locations` має містити властивість `text` зі значенням `"You enter the store."`.
 
 ```js
 assert.equal(locations[1].text, "You enter the store.");
 ```
 
-You should not modify the first `locations` object.
+Перший об’єкт `locations` змінювати не слід.
 
 ```js
 assert.deepEqual(locations[0], {

@@ -1,6 +1,6 @@
 ---
 id: 69ae69fbb4a814be6a4f2bdc
-title: What is Semantic Search?
+title: Che cos’è la ricerca semantica?
 challengeType: 11
 videoId: 1OxzFbEES_g
 dashedName: what-is-semantic-search
@@ -8,31 +8,30 @@ dashedName: what-is-semantic-search
 
 # --description--
 
-In this video, you will learn about semantic search.
+In questo video imparerai cos’è la ricerca semantica.
 
 # --questions--
 
 ## --text--
 
-What is semantic search?
+Che cos’è la ricerca semantica?
 
 ## --answers--
 
-Searching only for documents that contain the exact keyword typed, without considering context or meaning.
+Cercare solo documenti che contengono esattamente la parola chiave digitata, senza considerare il contesto o il significato.
 
 ---
 
-A system that converts every search query into random tags and retrieves documents with the most matching tags.
+Un sistema che converte ogni query di ricerca in tag casuali e recupera i documenti con il maggior numero di tag corrispondenti.
 
 ---
 
-A search method that organizes results alphabetically by word length and popularity instead of relevance.
+Un metodo di ricerca che organizza i risultati in ordine alfabetico per lunghezza della parola e popolarità invece che per rilevanza.
 
 ---
 
-Searching documents based on the meaning of the words rather than just keyword matching.
+Cercare documenti basandosi sul significato delle parole invece che solo sulla corrispondenza delle parole chiave.
 
 ## --video-solution--
 
 4
-

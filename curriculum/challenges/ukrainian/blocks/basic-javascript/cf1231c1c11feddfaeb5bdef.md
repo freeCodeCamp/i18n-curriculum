@@ -1,6 +1,6 @@
 ---
 id: cf1231c1c11feddfaeb5bdef
-title: Multiply Two Numbers with JavaScript
+title: Помножити два числа за допомогою JavaScript
 challengeType: 1
 forumTopicId: 18243
 dashedName: multiply-two-numbers-with-javascript
@@ -8,31 +8,31 @@ dashedName: multiply-two-numbers-with-javascript
 
 # --description--
 
-We can also multiply one number by another.
+Ми також можемо помножити одне число на інше.
 
-JavaScript uses the `*` symbol for multiplication of two numbers.
+JavaScript використовує символ `*` для множення двох чисел.
 
-**Example**
+**Приклад**
 
 ```js
 const myVar = 13 * 13;
 ```
 
-`myVar` would have the value `169`.
+`myVar` матиме значення `169`.
 
 # --instructions--
 
-Change the `0` so that product will equal `80`.
+Змініть `0` так, щоб добуток дорівнював `80`.
 
 # --hints--
 
-The variable `product` should be equal to 80.
+Змінна `product` має дорівнювати 80.
 
 ```js
 assert(product === 80);
 ```
 
-You should use the `*` operator.
+Ви маєте використати оператор `*`.
 
 ```js
 assert(/\*/.test(__helpers.removeJSComments(code)));

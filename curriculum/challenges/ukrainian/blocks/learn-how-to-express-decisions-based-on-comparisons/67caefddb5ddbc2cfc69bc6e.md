@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Послухайте аудіо та доповніть речення нижче.
+Прослухайте аудіо та доповніть речення нижче.
 
 # --fillInTheBlank--
 
@@ -24,13 +24,13 @@ lang: en-US
 
 ### --feedback--
 
-These three words together mean that SafeGuard prioritizes or pays more attention to security compared to other features.
+Ці три слова разом означають, що SafeGuard надає пріоритет або більше уваги безпеці порівняно з іншими функціями.
 
 # --explanation--
 
-`More focused on` is used to show what something or someone pays attention to the most. Наприклад:
+`More focused on` використовується, щоб показати, на що щось або хтось звертає найбільше уваги. Наприклад:
 
-`This software is more focused on performance than on design.` - This means the software is mainly built for good performance, not necessarily for an attractive design.
+`This software is more focused on performance than on design.` — це означає, що програмне забезпечення головним чином створене для хорошої продуктивності, а не обов’язково для привабливого дизайну.
 
 # --scene--
 

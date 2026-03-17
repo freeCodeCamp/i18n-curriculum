@@ -1,99 +1,99 @@
 ---
 id: 694acade1d4afdbce71e5840
-title: Build a Travel Weather Planner
+title: Створіть планувальник погоди для подорожей
 challengeType: 27
 dashedName: build-a-travel-weather-planner
 ---
 
 # --description--
 
-For this lab, you will use conditional statements to determine whether commuting is possible based on the weather, the distance to travel, and the availability of a vehicle.
+Для цієї лабораторної роботи ви використаєте умовні інструкції, щоб визначити, чи можливо дістатися до місця призначення залежно від погоди, відстані подорожі та наявності транспортного засобу.
 
-**Objective:** Fulfill the user stories below and get all the tests to pass to complete the lab.
+**Мета:** Виконайте наведені нижче історії користувача та пройдіть усі тести, щоб завершити лабораторну роботу.
 
-1. You should create the following variables:
-   * `distance_mi` (a number representing the distance to travel in miles)
-   * `is_raining` (a boolean representing if the user is currently experiencing rainy weather)
-   * `has_bike` (a boolean representing if the user has a bicycle)
-   * `has_car` (a boolean representing if the user has a car)
-   * `has_ride_share_app` (a boolean representing if the user has an app that allows them to request a ride)
-1. You should use conditional statements to determine whether commuting is possible based on the values of these variables.
-1. You should use `if`, `elif`, and `else` statements to evaluate the distance categories in ascending order.
-1. If `distance_mi` is a falsy value:
-   * You should print `False`.
-1. If the distance is **less than or equal to 1 mile**:
-   * You should print `True` only if it is **not raining**.
-   * Otherwise, you should print `False`.
-1. If the distance is **greater than 1 mile and less than or equal to 6 miles**:
-   * You should print `True` only if the person has a bike **and** it is not raining.
-   * Otherwise, you should print `False`.
-1. If the distance is **greater than 6 miles**:
-   * You should print `True` if the person has a car **or** has a ride-share app.
-   * Otherwise, you should print `False`.
+1. Ви повинні створити такі змінні:
+   * `distance_mi` (число, що представляє відстань для подорожі в милях)
+   * `is_raining` (булевий, що показує, чи зараз у користувача дощова погода)
+   * `has_bike` (булевий, що показує, чи має користувач велосипед)
+   * `has_car` (булевий, що показує, чи має користувач автомобіль)
+   * `has_ride_share_app` (булевий, що показує, чи має користувач застосунок для замовлення поїздки)
+1. Ви повинні використати умовні інструкції, щоб визначити, чи можливо дістатися до місця призначення, базуючись на значеннях цих змінних.
+1. Ви повинні використати інструкції `if`, `elif` та `else` для оцінки категорій відстані у зростаючому порядку.
+1. Якщо `distance_mi` є хибним значенням:
+   * Ви повинні вивести `False`.
+1. Якщо відстань **менша або дорівнює 1 милі**:
+   * Ви повинні вивести `True` лише якщо **не йде дощ**.
+   * Інакше ви повинні вивести `False`.
+1. Якщо відстань **більша за 1 милю і менша або дорівнює 6 милям**:
+   * Ви повинні вивести `True` лише якщо у людини є велосипед **і** не йде дощ.
+   * Інакше ви повинні вивести `False`.
+1. Якщо відстань **більша за 6 миль**:
+   * Ви повинні вивести `True`, якщо у людини є автомобіль **або** застосунок для замовлення поїздки.
+   * Інакше ви повинні вивести `False`. 
 
 # --hints--
 
-You should have a variable named `distance_mi`.
+Ви повинні мати змінну з іменем `distance_mi`.
 
 ```js
 ({ test: () => runPython(`assert _Node(_code).has_variable("distance_mi")`) })
 ```
 
-You should assign a number to your `distance_mi` variable.
+Ви повинні призначити число змінній `distance_mi`.
 
 ```js
 ({ test: () => runPython(`assert isinstance(distance_mi, (int, float))`) })
 ```
 
-You should have a variable named `is_raining`.
+Ви повинні мати змінну з іменем `is_raining`.
 
 ```js
 ({ test: () => runPython(`assert _Node(_code).has_variable("is_raining")`) })
 ```
 
-You should assign a boolean to your `is_raining` variable.
+Ви повинні призначити булеве значення змінній `is_raining`.
 
 ```js
 ({ test: () => runPython(`assert isinstance(is_raining, bool)`) })
 ```
 
-You should have a variable named `has_bike`.
+Ви повинні мати змінну з іменем `has_bike`.
 
 ```js
 ({ test: () => runPython(`assert _Node(_code).has_variable("has_bike")`) })
 ```
 
-You should assign a boolean to your `has_bike` variable.
+Ви повинні призначити булеве значення змінній `has_bike`.
 
 ```js
 ({ test: () => runPython(`assert isinstance(has_bike, bool)`) })
 ```
 
-You should have a variable named `has_car`.
+Ви повинні мати змінну з іменем `has_car`.
 
 ```js
 ({ test: () => runPython(`assert _Node(_code).has_variable("has_car")`) })
 ```
 
-You should assign a boolean to your `has_car` variable.
+Ви повинні призначити булеве значення змінній `has_car`.
 
 ```js
 ({ test: () => runPython(`assert isinstance(has_car, bool)`) })
 ```
 
-You should have a variable named `has_ride_share_app`.
+Ви повинні мати змінну з іменем `has_ride_share_app`.
 
 ```js
 ({ test: () => runPython(`assert _Node(_code).has_variable("has_ride_share_app")`) })
 ```
 
-You should assign a boolean to your `has_ride_share_app` variable.
+Ви повинні призначити булеве значення змінній `has_ride_share_app`.
 
 ```js
 ({ test: () => runPython(`assert isinstance(has_ride_share_app, bool)`) })
 ```
 
-You should use at least one `if` statement.
+Ви повинні використати принаймні одну інструкцію `if`.
 
 ```js
 ({ test: () => runPython(`
@@ -105,7 +105,7 @@ assert len(ifs) >= 1
 `) })
 ```
 
-You should use at least one `elif` branch in your program.
+Ви повинні використати принаймні одну гілку `elif` у вашій програмі.
 
 ```js
 ({ test: () => runPython(`
@@ -123,7 +123,7 @@ assert len(elifs) >= 1
 `) })
 ```
 
-You should use at least one boolean operator (`and`, `or`, or `not`) in your code.
+Ви повинні використати принаймні один булевий оператор (`and`, `or` або `not`) у вашому коді.
 
 ```js
 ({ test: () => runPython(`
@@ -140,13 +140,13 @@ assert len(bool_ops) >= 1
 `) })
 ```
 
-You should use the `print()` function to display the result.
+Ви повинні використати функцію `print()` для виведення результату.
 
 ```js
 ({ test: () => runPython(`assert _Node(_code).block_has_call("print")`) })
 ```
 
-When `distance_mi` is a falsy value, the program should print `False`.
+Коли `distance_mi` є хибним значенням, програма повинна вивести `False`.
 
 ```js
 ({ test: () => runPython(`
@@ -205,7 +205,7 @@ run_case(
 `) })
 ```
 
-When the distance is `1` mile or less and it is not raining, the program should print `True`.
+Коли відстань дорівнює або менша за `1` милі і не йде дощ, програма повинна вивести `True`.
 
 ```js
 ({ test: () => runPython(`
@@ -264,7 +264,7 @@ run_case(
 `) })
 ```
 
-When the distance is `1` mile or less and it is raining, the program should print `False`.
+Коли відстань дорівнює або менша за `1` милі і йде дощ, програма повинна вивести `False`.
 
 ```js
 ({ test: () => runPython(`
@@ -323,7 +323,7 @@ run_case(
 `) })
 ```
 
-When the distance is between `1` mile (excluded) and `6` miles (included), and it is raining with no bike, the program should print `False`.
+Коли відстань більша за `1` милі (не включно) і менша або дорівнює `6` милям, і йде дощ без велосипеда, програма повинна вивести `False`.
 
 ```js
 ({ test: () => runPython(`
@@ -393,7 +393,7 @@ run_case(
 `) })
 ```
 
-When the distance is between `1` mile (excluded) and `6` miles (included), it is not raining but no bike is available, the program should print `False`.
+Коли відстань більша за `1` милі (не включно) і менша або дорівнює `6` милям, не йде дощ, але велосипеда немає, програма повинна вивести `False`.
 
 ```js
 ({ test: () => runPython(`
@@ -463,7 +463,7 @@ run_case(
 `) })
 ```
 
-When the distance is between `1` mile (excluded) and `6` miles (included), a bike is available, and it is not raining, the program should print `True`.
+Коли відстань більша за `1` милі (не включно) і менша або дорівнює `6` милям, велосипед є, і не йде дощ, програма повинна вивести `True`.
 
 ```js
 ({ test: () => runPython(`
@@ -531,7 +531,7 @@ run_case(
 `) })
 ```
 
-When the distance is greater than `6` miles and a ride share app is available, the program should print `True`.
+Коли відстань більша за `6` миль і є застосунок для замовлення поїздки, програма повинна вивести `True`.
 
 ```js
 ({ test: () => runPython(`
@@ -579,7 +579,7 @@ run_case(
 `) })
 ```
 
-When the distance is greater than `6` miles and a car is available, the program should print `True`.
+Коли відстань більша за `6` миль і є автомобіль, програма повинна вивести `True`.
 
 ```js
 ({ test: () => runPython(`
@@ -627,7 +627,7 @@ run_case(
 `) })
 ```
 
-When the distance is greater than `6` miles and no car nor a ride share app is available, the program should print `False`.
+Коли відстань більша за `6` миль і немає ні автомобіля, ні застосунку для замовлення поїздки, програма повинна вивести `False`.
 
 ```js
 ({ test: () => runPython(`
@@ -704,4 +704,3 @@ elif distance_mi <= 6:
 else:
     print(has_car or has_ride_share_app)
 ```
-

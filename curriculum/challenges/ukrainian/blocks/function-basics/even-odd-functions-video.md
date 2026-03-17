@@ -1,6 +1,6 @@
 ---
 id: 699e0342138be64fa313138c
-title: Even and Odd Functions
+title: Парні та непарні функції
 challengeType: 11
 videoId: OCGl-6nrCtM
 dashedName: even-and-odd-functions
@@ -8,29 +8,29 @@ dashedName: even-and-odd-functions
 
 # --description--
 
-In this video, you will learn about even and odd functions.
+У цьому відео ви дізнаєтеся про парні та непарні функції.
 
 # --questions--
 
 ## --text--
 
-What makes a graph symmetric with respect to the origin?
+Що робить графік симетричним відносно початку координат?
 
 ## --answers--
 
-If it has a 30 degree rotational symmetry about the origin.
+Якщо він має симетрію обертання на 30 градусів навколо початку координат.
 
 ---
 
-If it has a 180 degree rotational symmetry about the origin.
+Якщо він має симетрію обертання на 180 градусів навколо початку координат.
 
 ---
 
-If it has a 90 degree rotational symmetry about the origin.
+Якщо він має симетрію обертання на 90 градусів навколо початку координат.
 
 ---
 
-If it has a 360 degree rotational symmetry about the origin.
+Якщо він має симетрію обертання на 360 градусів навколо початку координат.
 
 ## --video-solution--
 

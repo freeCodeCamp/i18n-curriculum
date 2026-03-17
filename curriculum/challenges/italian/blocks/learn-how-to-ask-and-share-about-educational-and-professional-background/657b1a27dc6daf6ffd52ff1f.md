@@ -1,6 +1,6 @@
 ---
 id: 657b1a27dc6daf6ffd52ff1f
-title: Task 30
+title: Attività 30
 challengeType: 19
 dashedName: task-30
 lang: en-US
@@ -11,43 +11,43 @@ Second Candidate: Yes. I have a master's degree in computer science. -->
 
 # --description--
 
-In English, the noun suffixed with `'s` followed by a second noun structure is used to show possession or belonging.
+In inglese, il sostantivo seguito da `'s` e da un secondo sostantivo viene usato per indicare possesso o appartenenza.
 
-If the first noun is singular, as in `Sarah's laptop`, it indicates that the laptop belongs to Sarah. However, if the first noun is plural, the structure changes to noun suffixed with `'`, as in `teachers' office`, indicating an office for teachers.
+Se il primo sostantivo è singolare, come in `Sarah's laptop`, indica che il laptop appartiene a Sarah. Tuttavia, se il primo sostantivo è plurale, la struttura cambia in sostantivo seguito da `'`, come in `teachers' office`, indicando un ufficio per insegnanti.
 
 # --questions--
 
 ## --text--
 
-What does `master's degree` in the context of the dialogue refer to?
+A cosa si riferisce `master's degree` nel contesto del dialogo?
 
 ## --answers--
 
-A degree for school teachers
+Un titolo di studio per insegnanti scolastici
 
 ### --feedback--
 
-`Master's degree` refers to an advanced academic degree, not specifically for teachers.
+`Master's degree` indica un titolo accademico avanzato, non specificamente per insegnanti.
 
 ---
 
-A primary level educational degree
+Un titolo di studio di livello primario
 
 ### --feedback--
 
-`Master's degree` is a higher education qualification, beyond the primary level.
+`Master's degree` è una qualifica di istruzione superiore, oltre il livello primario.
 
 ---
 
-A degree in mastering skills
+Un titolo per la padronanza di competenze
 
 ### --feedback--
 
-While it implies expertise, `master's degree` specifically refers to an academic qualification.
+Anche se implica competenza, `master's degree` si riferisce specificamente a una qualifica accademica.
 
 ---
 
-An advanced academic degree
+Un titolo accademico avanzato
 
 ## --video-solution--
 

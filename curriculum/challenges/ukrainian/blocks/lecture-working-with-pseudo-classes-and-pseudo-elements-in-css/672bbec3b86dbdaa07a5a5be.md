@@ -1,24 +1,24 @@
 ---
 id: 672bbec3b86dbdaa07a5a5be
-title: What Are Examples of Functional Pseudo-classes?
+title: Які приклади функціональних псевдокласів?
 challengeType: 19
 dashedName: what-are-examples-of-functional-pseudo-classes
 ---
 
 # --interactive--
 
-Functional pseudo-classes allow you to select elements based on more complex conditions or relationships. Unlike regular pseudo-classes which target elements based on a state, for example, `:hover`, `:focus`, functional pseudo-classes accept arguments within parentheses, hence the name "functional pseudo-classes".
+Функціональні псевдокласи дозволяють вибирати елементи на основі складніших умов або відносин. На відміну від звичайних псевдокласів, які цільові елементи на основі стану, наприклад, `:hover`, `:focus`, функціональні псевдокласи приймають аргументи в круглих дужках, звідси й назва «функціональні псевдокласи».
 
-Examples of functional pseudo-classes are:
+Прикладами функціональних псевдокласів є:
 
 - `:is()`
 - `:where()`
 - `:has()`
 - `:not()`
 
-Let's take a deeper look at each of these functional pseudo-classes with examples.
+Давайте детальніше розглянемо кожен із цих функціональних псевдокласів на прикладах.
 
-The `:is()` pseudo-class is useful when you want to style a group of elements that share some, but not all, characteristics. For example, you might want to style different types of buttons on your website, including `button` elements, links styled as buttons, and `input` elements with types `submit` and `reset`. Here's an example representing that. Without the `:is()` function, you would have to write a complex selector like this:
+Псевдоклас `:is()` корисний, коли ви хочете стилізувати групу елементів, які мають деякі, але не всі, спільні характеристики. Наприклад, ви можете захотіти стилізувати різні типи кнопок на своєму сайті, включно з `button` елементами, посиланнями, стилізованими як кнопки, і `input` елементами з типами `submit` і `reset`. Ось приклад, який це представляє. Без функції `:is()` вам довелося б написати складний селектор, як цей:
 
 :::interactive_editor
 
@@ -59,7 +59,7 @@ input[type='reset']:hover {
 
 :::
 
-With the `:is()` function, you can write a more compact and understandable selector like this:
+За допомогою функції `:is()` ви можете написати більш компактний і зрозумілий селектор, як цей:
 
 :::interactive_editor
 
@@ -94,9 +94,9 @@ With the `:is()` function, you can write a more compact and understandable selec
 
 :::
 
-The `:where()` pseudo-class functions similarly to `:is()`, but it doesn't increase the specificity of your selectors. This makes it ideal for applying styles without affecting the specificity of other rules.
+Псевдоклас `:where()` працює подібно до `:is()`, але не збільшує специфічність ваших селекторів. Це робить його ідеальним для застосування стилів без впливу на специфічність інших правил.
 
-For example, you can use the `:where()` function to apply zero `margin` and `padding` to heading elements. This ensures that the reset won't interfere with more specific styles you might apply later. Here's an example for that:
+Наприклад, ви можете використати функцію `:where()`, щоб застосувати нульові `margin` і `padding` до заголовків. Це гарантує, що скидання не завадить більш специфічним стилям, які ви можете застосувати пізніше. Ось приклад для цього:
 
 :::interactive_editor
 
@@ -120,9 +120,9 @@ For example, you can use the `:where()` function to apply zero `margin` and `pad
 
 :::
 
-Styling a parent element based on its children's states was previously challenging until the `:has()` pseudo-class was introduced. It allows you to apply styles to a parent element based on the presence or state of its child elements.
+Стилізувати батьківський елемент на основі станів його дочірніх елементів раніше було складно, доки не з’явився псевдоклас `:has()`. Він дозволяє застосовувати стилі до батьківського елемента на основі наявності або стану його дочірніх елементів.
 
-For example, the CSS below will only apply to any `article` element that has an `h2` in it:
+Наприклад, CSS нижче застосовується лише до будь-якого `article` елемента, який містить `h2`:
 
 :::interactive_editor
 
@@ -148,7 +148,7 @@ article:has(h2) {
 
 :::
 
-The `:not()` pseudo-class is ideal for situations where you want to apply styles to a group of elements, excluding one or more specific exceptions. In the CSS below, any button that is not a primary button will have a grey background:
+Псевдоклас `:not()` ідеально підходить для ситуацій, коли ви хочете застосувати стилі до групи елементів, виключаючи один або кілька конкретних винятків. У CSS нижче будь-яка кнопка, яка не є основною кнопкою, матиме сірий фон:
 
 :::interactive_editor
 
@@ -184,7 +184,7 @@ button:not(.primary) {
 
 ## --text--
 
-Which pseudo-class works like `:is()`, but doesn't add any specificity to your selectors?
+Який псевдоклас працює як `:is()`, але не додає специфічності вашим селекторам?
 
 ## --answers--
 
@@ -192,7 +192,7 @@ Which pseudo-class works like `:is()`, but doesn't add any specificity to your s
 
 ### --feedback--
 
-This pseudo-class is great for applying broad, non-invasive styles.
+Цей псевдоклас чудово підходить для застосування широких, неінвазивних стилів.
 
 ---
 
@@ -200,7 +200,7 @@ This pseudo-class is great for applying broad, non-invasive styles.
 
 ### --feedback--
 
-This pseudo-class is great for applying broad, non-invasive styles.
+Цей псевдоклас чудово підходить для застосування широких, неінвазивних стилів.
 
 ---
 
@@ -212,7 +212,7 @@ This pseudo-class is great for applying broad, non-invasive styles.
 
 ### --feedback--
 
-This pseudo-class is great for applying broad, non-invasive styles.
+Цей псевдоклас чудово підходить для застосування широких, неінвазивних стилів.
 
 ## --video-solution--
 
@@ -220,7 +220,7 @@ This pseudo-class is great for applying broad, non-invasive styles.
 
 ## --text--
 
-Which of these is not a functional pseudo-class?
+Який із цих не є функціональним псевдокласом?
 
 ## --answers--
 
@@ -228,7 +228,7 @@ Which of these is not a functional pseudo-class?
 
 ### --feedback--
 
-Functional pseudo-classes use parentheses and accept arguments inside them.
+Функціональні псевдокласи використовують круглі дужки і приймають аргументи всередині них.
 
 ---
 
@@ -240,7 +240,7 @@ Functional pseudo-classes use parentheses and accept arguments inside them.
 
 ### --feedback--
 
-Functional pseudo-classes use parentheses and accept arguments inside them.
+Функціональні псевдокласи використовують круглі дужки і приймають аргументи всередині них.
 
 ---
 
@@ -248,7 +248,7 @@ Functional pseudo-classes use parentheses and accept arguments inside them.
 
 ### --feedback--
 
-Functional pseudo-classes use parentheses and accept arguments inside them.
+Функціональні псевдокласи використовують круглі дужки і приймають аргументи всередині них.
 
 ## --video-solution--
 
@@ -256,7 +256,7 @@ Functional pseudo-classes use parentheses and accept arguments inside them.
 
 ## --text--
 
-Which pseudo-class is perfect for a situation in which you want to apply styles to a group of elements without one or two exceptions?
+Який псевдоклас ідеально підходить для ситуації, коли ви хочете застосувати стилі до групи елементів без однієї або двох винятків?
 
 ## --answers--
 
@@ -264,7 +264,7 @@ Which pseudo-class is perfect for a situation in which you want to apply styles 
 
 ### --feedback--
 
-Think about how you can exclude specific elements from being styled.
+Подумайте, як ви можете виключити конкретні елементи зі стилізації.
 
 ---
 
@@ -272,7 +272,7 @@ Think about how you can exclude specific elements from being styled.
 
 ### --feedback--
 
-Think about how you can exclude specific elements from being styled.
+Подумайте, як ви можете виключити конкретні елементи зі стилізації.
 
 ---
 
@@ -284,7 +284,7 @@ Think about how you can exclude specific elements from being styled.
 
 ### --feedback--
 
-Think about how you can exclude specific elements from being styled.
+Подумайте, як ви можете виключити конкретні елементи зі стилізації.
 
 ## --video-solution--
 

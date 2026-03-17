@@ -1,21 +1,21 @@
 ---
 id: 695cc8f280fef0cc3bed02cb
-title: What Is the Process Module and How Does It Work?
+title: Що таке модуль process і як він працює?
 challengeType: 19
 dashedName: what-is-the-process-module-and-how-does-it-work
 ---
 
 # --description--
 
-`process` is one of the most important Node.js core modules. It gives you access to information about the current Node.js process, and lets you control it while your app is running.
+`process` — один із найважливіших базових модулів Node.js. Він дає вам доступ до інформації про поточний процес Node.js і дозволяє керувати ним під час роботи вашого застосунку.
 
-When you execute a command like `node script.js` in the terminal, Node.js starts a process, which is a running instance of the Node program that executes the `script.js` file. This process has its own memory, environment, and execution context. 
+Коли ви виконуєте команду на кшталт `node script.js` у терміналі, Node.js запускає процес — це запущений екземпляр програми Node, який виконує файл `script.js`. Цей процес має власну пам’ять, середовище та контекст виконання.
 
-The current process is exposed globally through the `process` module, so you don't even need to import it. As long as you have Node.js installed, then you can call it anywhere.
+Поточний процес відкритий глобально через модуль `process`, тож вам навіть не потрібно його імпортувати. Якщо у вас встановлений Node.js, ви можете викликати його будь-де.
 
-The `process` module exposes properties and methods for you to get certain information about the current execution context.
+Модуль `process` відкриває властивості та методи, щоб отримати певну інформацію про поточний контекст виконання.
 
-`process.env` gets you information about the current environment Node is running on. This always returns a giant object with many parameters, so here's how you can access some of the most important information directly:
+`process.env` дає вам інформацію про поточне середовище, на якому працює Node. Це завжди повертає великий об’єкт із багатьма параметрами, тому ось як ви можете напряму отримати деяку найважливішу інформацію:
 
 ```js
 // Gets all environment variables available to the current Node.js process
@@ -37,7 +37,7 @@ console.log(process.env.PWD); // /Users/johndoe/projects/myapp
 console.log(process.env.USER); // johndoe
 ```
 
-`process.argv` lets you read command-line arguments:
+`process.argv` дозволяє читати аргументи командного рядка:
 
 ```js
 console.log(process.argv);
@@ -52,15 +52,15 @@ Hello world
 */
 ```
 
-The `cwd()` method shows the current working directory:
+Метод `cwd()` показує поточний робочий каталог:
 
 ```js
 console.log(process.cwd());
 ```
 
-Process events are a core feature of Node.js that let your app respond to key moments in its lifecycle, like when it's about to exit, encounters an error, or receives a system signal.
+Події процесу — це базова функція Node.js, яка дозволяє вашому застосунку реагувати на ключові моменти його життєвого циклу, наприклад, коли він збирається завершитись, стикається з помилкою або отримує системний сигнал.
 
-The `exit` event, for example, runs right before the Node.js process finishes:
+Подія `exit`, наприклад, виконується безпосередньо перед завершенням процесу Node.js:
 
 ```js
 process.on("exit", (code) => {
@@ -70,7 +70,7 @@ process.on("exit", (code) => {
 // Process exiting with code: 0
 ```
 
-The `uncaughtException` event is triggered when an error is not caught in your code, which can help you prevent crashes:
+Подія `uncaughtException` спрацьовує, коли в коді не було оброблено помилку, що допомагає запобігти аварійному завершенню:
 
 ```js
 process.on("uncaughtException", (err) => {
@@ -78,7 +78,7 @@ process.on("uncaughtException", (err) => {
 });
 ```
 
-Lastly, the `warning` event is triggered when Node.js emits a process warning:
+Нарешті, подія `warning` спрацьовує, коли Node.js видає попередження процесу:
 
 ```js
 process.on("warning", (warning) => {
@@ -87,7 +87,7 @@ process.on("warning", (warning) => {
 });
 ```
 
-You can then use the `emitWarning()` method to trigger a custom warning:
+Потім ви можете використати метод `emitWarning()`, щоб викликати кастомне попередження:
 
 ```js
 // Example warning with the emitWarning() method
@@ -103,35 +103,35 @@ process.emitWarning('This is a custom warning message', 'CustomWarning');
 
 ## --text--
 
-What does the `process.emitWarning()` method do?
+Що робить метод `process.emitWarning()`?
 
 ## --answers--
 
-It stops the process when a custom warning occurs.
+Він зупиняє процес, коли виникає кастомне попередження.
 
 ### --feedback--
 
-Think about how Node.js handles custom warnings through events.
+Подумайте, як Node.js обробляє кастомні попередження через події.
 
 ---
 
-It triggers a custom warning event that can be handled by the warning listener.
+Він викликає подію кастомного попередження, яку можна обробити слухачем попереджень.
 
 ---
 
-It logs an error and exits the process immediately.
+Він записує помилку в лог і негайно завершує процес.
 
 ### --feedback--
 
-Think about how Node.js handles custom warnings through events.
+Подумайте, як Node.js обробляє кастомні попередження через події.
 
 ---
 
-It restarts the Node.js process after showing a warning.
+Він перезапускає процес Node.js після показу попередження.
 
 ### --feedback--
 
-Think about how Node.js handles custom warnings through events.
+Подумайте, як Node.js обробляє кастомні попередження через події.
 
 ## --video-solution--
 
@@ -139,35 +139,35 @@ Think about how Node.js handles custom warnings through events.
 
 ## --text--
 
-How do you use the process module?
+Як використовувати модуль process?
 
 ## --answers--
 
-By calling it directly since it's a global object.
+Викликаючи його напряму, бо це глобальний об’єкт.
 
 ---
 
-By enabling it in the Node.js configuration file.
+Увімкнувши його у конфігураційному файлі Node.js.
 
 ### --feedback--
 
-Think about why you can access process anywhere without setup.
+Подумайте, чому ви можете отримати доступ до process будь-де без налаштувань.
 
 ---
 
-By installing it manually using npm before calling it.
+Встановивши його вручну через npm перед викликом.
 
 ### --feedback--
 
-Think about why you can access process anywhere without setup.
+Подумайте, чому ви можете отримати доступ до process будь-де без налаштувань.
 
 ---
 
-By importing it using require('process') before each use.
+Імпортуючи його через require('process') перед кожним використанням.
 
 ### --feedback--
 
-Think about why you can access process anywhere without setup.
+Подумайте, чому ви можете отримати доступ до process будь-де без налаштувань.
 
 ## --video-solution--
 
@@ -175,35 +175,35 @@ Think about why you can access process anywhere without setup.
 
 ## --text--
 
-What are process events used for?
+Для чого використовують події процесу?
 
 ## --answers--
 
-To define environment variables for the application.
+Щоб визначати змінні середовища для застосунку.
 
 ### --feedback--
 
-Think about how Node.js reacts to lifecycle changes during execution.
+Подумайте, як Node.js реагує на зміни життєвого циклу під час виконання.
 
 ---
 
-To create new processes for parallel execution.
+Щоб створювати нові процеси для паралельного виконання.
 
 ### --feedback--
 
-Think about how Node.js reacts to lifecycle changes during execution.
+Подумайте, як Node.js реагує на зміни життєвого циклу під час виконання.
 
 ---
 
-To listen for and respond to important lifecycle moments like exit, errors, or system signals.
+Щоб слухати й реагувати на важливі моменти життєвого циклу, як-от вихід, помилки чи системні сигнали.
 
 ---
 
-To manage file paths and extensions in the system.
+Щоб керувати шляхами та розширеннями файлів у системі.
 
 ### --feedback--
 
-Think about how Node.js reacts to lifecycle changes during execution.
+Подумайте, як Node.js реагує на зміни життєвого циклу під час виконання.
 
 ## --video-solution--
 

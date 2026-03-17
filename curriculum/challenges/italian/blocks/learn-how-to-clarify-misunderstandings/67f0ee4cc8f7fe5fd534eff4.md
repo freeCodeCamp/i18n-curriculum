@@ -1,6 +1,6 @@
 ---
 id: 67f0ee4cc8f7fe5fd534eff4
-title: Task 87
+title: Attività 87
 challengeType: 22
 dashedName: task-87
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Ascolta l'audio e completa la frase qui sotto.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This two-word phrase is used to show agreement or approval of an idea or suggestion. The first word ends with `-s`.
+Questa frase di due parole si usa per mostrare accordo o approvazione di un'idea o proposta. La prima parola termina con `-s`.
 
 ---
 
@@ -32,17 +32,17 @@ This two-word phrase is used to show agreement or approval of an idea or suggest
 
 ### --feedback--
 
-This word means to be grateful for something. It shows thanks for help, support, or something done for you.
+Questa parola significa essere grati per qualcosa. Esprime ringraziamento per un aiuto, supporto o qualcosa fatto per te.
 
 # --explanation--
 
-`Sounds good` means that the speaker agrees with or approves of what was said. For example:
+`Sounds good` indica che chi parla è d'accordo o approva ciò che è stato detto. Per esempio:
 
-`Your idea sounds good.` – This means the speaker thinks the idea is good and agrees with it.
+`Your idea sounds good.` – Questo significa che chi parla pensa che l'idea sia buona ed è d'accordo.
 
-`I appreciate` is a way of saying thank you or showing gratitude. For example:
+`I appreciate` è un modo per dire grazie o mostrare gratitudine. Per esempio:
 
-`I appreciate your help with the project.` – This means you're grateful for the help you received.
+`I appreciate your help with the project.` – Questo significa che sei grato per l'aiuto ricevuto.
 
 # --scene--
 

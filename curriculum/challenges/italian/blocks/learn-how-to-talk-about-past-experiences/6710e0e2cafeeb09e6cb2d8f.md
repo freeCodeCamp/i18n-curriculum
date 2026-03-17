@@ -1,6 +1,6 @@
 ---
 id: 6710e0e2cafeeb09e6cb2d8f
-title: Task 55
+title: Attività 55
 challengeType: 22
 dashedName: task-55
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Ascolta l'audio e completa la frase qui sotto.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This is the auxiliary verb used to form the `Past Continuous` in the singular first-person form.
+Questo è il verbo ausiliare usato per formare il `Past Continuous` alla prima persona singolare.
 
 ---
 
@@ -32,7 +32,7 @@ This is the auxiliary verb used to form the `Past Continuous` in the singular fi
 
 ### --feedback--
 
-This is the main verb in the `Past Continuous`, describing the act of laboring.
+Questo è il verbo principale nel `Past Continuous`, che descrive l'atto di lavorare.
 
 ---
 
@@ -40,7 +40,7 @@ This is the main verb in the `Past Continuous`, describing the act of laboring.
 
 ### --feedback--
 
-This is the auxiliary verb used to form the `Past Continuous` in the plural first-person form.
+Questo è il verbo ausiliare usato per formare il `Past Continuous` alla prima persona plurale.
 
 ---
 
@@ -48,15 +48,15 @@ This is the auxiliary verb used to form the `Past Continuous` in the plural firs
 
 ### --feedback--
 
-This is the main verb in the `Past Continuous`, describing an ongoing action of improving or modernizing something.
+Questo è il verbo principale nel `Past Continuous`, che descrive un'azione in corso di miglioramento o aggiornamento di qualcosa.
 
 # --explanation--
 
-The `Past Continuous` tense is used to describe actions that were ongoing at a specific time in the past. When two `Past Continuous` sentences are used together, they often describe simultaneous actions or actions happening alongside each other.
+Il tempo `Past Continuous` si usa per descrivere azioni che erano in corso in un momento specifico del passato. Quando due frasi `Past Continuous` sono usate insieme, spesso descrivono azioni simultanee o azioni che avvengono contemporaneamente.
 
-In this sentence, Linda is describing how she and her team were both working and updating the user interface continuously throughout the project. This shows two actions happening at the same time in the past, providing context or background for each other. For example:
+In questa frase, Linda descrive come lei e il suo team stavano sia lavorando sia aggiornando continuamente l'interfaccia utente durante tutto il progetto. Questo mostra due azioni che accadevano nello stesso momento nel passato, fornendo contesto o sfondo l'una per l'altra. Per esempio:
 
-`While I was preparing the report, they were testing the new features.` - This means the action of my preparing the report and the testing of the new features happened at the same time.
+`While I was preparing the report, they were testing the new features.` - Questo significa che l'azione della mia preparazione del rapporto e il test delle nuove funzionalità sono avvenuti contemporaneamente.
 
 # --scene--
 

@@ -1,15 +1,15 @@
 ---
 id: 6732b28eeadda1158cdbff7b
-title: How Can You Check if an Array Contains a Certain Value?
+title: "Як перевірити, чи містить масив певне значення?"
 challengeType: 19
 dashedName: how-can-you-check-if-an-array-contains-a-certain-value
 ---
 
 # --interactive--
 
-In JavaScript, the `includes()` method is a simple and efficient way to check if an array contains a specific value. This method returns a boolean value: `true` if the array contains the specified element, and `false` otherwise.
+У JavaScript метод `includes()` — це простий і ефективний спосіб перевірити, чи містить масив певне значення. Цей метод повертає булеве значення: `true`, якщо масив містить вказаний елемент, і `false` в іншому випадку.
 
-The `includes()` method is particularly useful when you need to quickly verify the presence of an element in an array without needing to know its exact position. Let's start with an example of how to use the `includes()` method:
+Метод `includes()` особливо корисний, коли потрібно швидко перевірити наявність елемента в масиві, не дізнаючись його точну позицію. Почнемо з прикладу використання методу `includes()`:
 
 :::interactive_editor
 
@@ -21,9 +21,9 @@ console.log(fruits.includes("grape"));  // false
 
 :::
 
-In this example, we have an array of fruits. We use the `includes()` method to check if `banana` is in the array. It returns `true` because `banana` is indeed present. We then check for `grape`, which returns `false` because it's not in the array.
+У цьому прикладі ми маємо масив фруктів. Ми використовуємо метод `includes()`, щоб перевірити, чи є `banana` у масиві. Він повертає `true`, бо `banana` дійсно присутній. Потім ми перевіряємо `grape`, що повертає `false`, бо його немає в масиві.
 
-The `includes()` method is case-sensitive when dealing with strings. This means that `Banana` with a capital B and `banana` with all lowercase letters are considered different values. Here's an example that illustrates this:
+Метод `includes()` чутливий до регістру при роботі з рядками. Це означає, що `Banana` з великою літерою B і `banana` з усіма літерами в нижньому регістрі вважаються різними значеннями. Ось приклад, який це ілюструє:
 
 :::interactive_editor
 
@@ -35,9 +35,9 @@ console.log(fruits.includes("Banana")); // false
 
 :::
 
-In this case, `banana` (all in lowercase) is found in the array, but `Banana` (with the first letter capitalized) is not, so the second `includes()` call returns `false`.
+У цьому випадку `banana` (усі в нижньому регістрі) знаходиться в масиві, а `Banana` (з великою першою літерою) — ні, тому другий виклик `includes()` повертає `false`.
 
-The `includes()` method can also accept an optional second parameter that specifies the position in the array to start the search. This is useful if you want to check for an element's presence in a specific part of the array. Here's how you can use this feature:
+Метод `includes()` також може приймати необов’язковий другий параметр, який вказує позицію в масиві, з якої починається пошук. Це корисно, якщо ви хочете перевірити наявність елемента в певній частині масиву. Ось як можна використати цю функцію:
 
 :::interactive_editor
 
@@ -49,11 +49,11 @@ console.log(numbers.includes(30, 4)); // true
 
 :::
 
-For the first `console.log`, we are looking for the number `30` starting at index `3`. In this case, there is a number `30` that appears after index `3`, so the `includes()` method returns `true`.
+Для першого `console.log` ми шукаємо число `30`, починаючи з індексу `3`. У цьому випадку число `30` з’являється після індексу `3`, тому метод `includes()` повертає `true`.
 
-The same is true for the second `console.log`. We are looking for the number `30` starting at index `4`. Since the number `30` does appear after that index, then it will return `true`.
+Те саме стосується другого `console.log`. Ми шукаємо число `30`, починаючи з індексу `4`. Оскільки число `30` дійсно з’являється після цього індексу, воно поверне `true`.
 
-It's worth noting that `includes()` uses the strict equality comparison (`===`), which means it can distinguish between different types. For example:
+Варто зазначити, що `includes()` використовує суворе порівняння (`===`), що означає, що він розрізняє різні типи даних. Наприклад:
 
 :::interactive_editor
 
@@ -65,15 +65,15 @@ console.log(mixedArray.includes("2")); // true
 
 :::
 
-In this case, the number `2` and the string `"2"` are considered different data types. So, the first `console.log` will return `false`, while the second `console.log` will return `true`.
+У цьому випадку число `2` і рядок `"2"` вважаються різними типами даних. Тож перший `console.log` поверне `false`, а другий `console.log` поверне `true`.
 
-The `includes()` method is a powerful tool for checking the presence of elements in arrays. It's simple to use, efficient, and can save you from writing more complex loops or conditions to search through arrays. Whether you're working with strings, numbers, or mixed data types, `includes()` provides a straightforward way to verify if a value exists in your array.
+Метод `includes()` — це потужний інструмент для перевірки наявності елементів у масивах. Він простий у використанні, ефективний і може заощадити вам час, уникаючи написання складніших циклів або умов для пошуку в масивах. Незалежно від того, чи працюєте ви з рядками, числами чи змішаними типами даних, `includes()` надає простий спосіб перевірити, чи існує значення у вашому масиві.
 
 # --questions--
 
 ## --text--
 
-What will be the output of the following code?
+Яким буде вихідний результат наступного коду?
 
 ```js
 let arr = [1, 2, 3, 4, 5];
@@ -86,7 +86,7 @@ console.log(arr.includes(3, 3));
 
 ### --feedback--
 
-The second parameter of `includes()` specifies the starting position for the search.
+Другий параметр `includes()` вказує початкову позицію для пошуку.
 
 ---
 
@@ -98,15 +98,15 @@ The second parameter of `includes()` specifies the starting position for the sea
 
 ### --feedback--
 
-The second parameter of `includes()` specifies the starting position for the search.
+Другий параметр `includes()` вказує початкову позицію для пошуку.
 
 ---
 
-This will throw an error.
+Це викличе помилку.
 
 ### --feedback--
 
-The second parameter of `includes()` specifies the starting position for the search.
+Другий параметр `includes()` вказує початкову позицію для пошуку.
 
 ## --video-solution--
 
@@ -114,7 +114,7 @@ The second parameter of `includes()` specifies the starting position for the sea
 
 ## --text--
 
-What will be the output of the following code?
+Яким буде вихідний результат наступного коду?
 
 ```js
 let arr = ["a", "b", "c", "d", "e"];
@@ -127,7 +127,7 @@ console.log(arr.includes("C"));
 
 ### --feedback--
 
-Remember that `includes()` is case-sensitive when dealing with strings.
+Пам’ятайте, що `includes()` чутливий до регістру при роботі з рядками.
 
 ---
 
@@ -139,15 +139,15 @@ Remember that `includes()` is case-sensitive when dealing with strings.
 
 ### --feedback--
 
-Remember that `includes()` is case-sensitive when dealing with strings.
+Пам’ятайте, що `includes()` чутливий до регістру при роботі з рядками.
 
 ---
 
-This will throw an error.
+Це викличе помилку.
 
 ### --feedback--
 
-Remember that `includes()` is case-sensitive when dealing with strings.
+Пам’ятайте, що `includes()` чутливий до регістру при роботі з рядками.
 
 ## --video-solution--
 
@@ -155,7 +155,7 @@ Remember that `includes()` is case-sensitive when dealing with strings.
 
 ## --text--
 
-What will be the output of the following code?
+Яким буде вихідний результат наступного коду?
 
 ```js
 let arr = [1, "2", 3, "4", 5];
@@ -168,7 +168,7 @@ console.log(arr.includes("3"));
 
 ### --feedback--
 
-The `includes()` method uses strict equality (`===`) for comparison.
+Метод `includes()` використовує суворе порівняння (`===`).
 
 ---
 
@@ -180,15 +180,15 @@ The `includes()` method uses strict equality (`===`) for comparison.
 
 ### --feedback--
 
-The `includes()` method uses strict equality (`===`) for comparison.
+Метод `includes()` використовує суворе порівняння (`===`).
 
 ---
 
-This will throw an error.
+Це викличе помилку.
 
 ### --feedback--
 
-The `includes()` method uses strict equality (`===`) for comparison.
+Метод `includes()` використовує суворе порівняння (`===`).
 
 ## --video-solution--
 

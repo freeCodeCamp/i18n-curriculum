@@ -1,6 +1,6 @@
 ---
 id: 699e71f58f18cf77dfce5c16
-title: Solving Basic Trig Equations
+title: Risolvere equazioni trigonometriche di base
 challengeType: 11
 videoId: JfTpmqwIzzc
 dashedName: solving-basic-trig-equations
@@ -8,32 +8,30 @@ dashedName: solving-basic-trig-equations
 
 # --description--
 
-In this video, you will learn how to solve basic trigonometric equations.
+In questo video imparerai come risolvere equazioni trigonometriche di base.
 
 # --questions--
 
 ## --text--
 
-What was the first step in solving the trig equation in the first example?
+Qual è stato il primo passaggio per risolvere l'equazione trigonometrica nel primo esempio?
 
 ## --answers--
 
-Isolating the cosine function.
+Isolare la funzione coseno.
 
 ---
 
-Maximizing the cosine function.
+Massimizzare la funzione coseno.
 
 ---
 
-Minimizing the cosine function.
+Minimizzare la funzione coseno.
 
 ---
 
-Replacing the cosine function with the sine function.
+Sostituire la funzione coseno con la funzione seno.
 
 ## --video-solution--
 
 1
-
-

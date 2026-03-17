@@ -1,6 +1,6 @@
 ---
 id: 3625fbc38b9428ae98d98f23
-title: Dictionaries
+title: Dizionari
 challengeType: 11
 videoId: FBfYADu3CIo
 dashedName: dictionaries-learn-python-full-course-for-beginners
@@ -8,13 +8,13 @@ dashedName: dictionaries-learn-python-full-course-for-beginners
 
 # --description--
 
-In this video, you will learn how to work with dictionaries in Python to store key-value pairs.
+In questo video imparerai come lavorare con i dizionari in Python per archiviare coppie chiave-valore.
 
 # --questions--
 
 ## --text--
 
-Which of the following will correctly output the string `"March"` to the console?
+Quale delle seguenti opzioni stamperà correttamente la stringa `"March"` sulla console?
 
 ## --answers--
 

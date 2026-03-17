@@ -1,6 +1,6 @@
 ---
 id: 699e034d138be64fa313138e
-title: Transformations of Functions
+title: Trasformazioni delle funzioni
 challengeType: 11
 videoId: xSPh80M3f84
 dashedName: transformations-of-functions
@@ -8,29 +8,29 @@ dashedName: transformations-of-functions
 
 # --description--
 
-In this video, you will learn about transformations of functions.
+In questo video imparerai le trasformazioni delle funzioni.
 
 # --questions--
 
 ## --text--
 
-Which of the following is a valid rule for a transformation of a function?
+Quale delle seguenti è una regola valida per una trasformazione di una funzione?
 
 ## --answers--
 
-Numbers on the inside of the function result in a vertical shift.
+I numeri all'interno della funzione causano uno spostamento verticale.
 
 ---
 
-Numbers on the outside of the function result in a horizontal shift.
+I numeri all'esterno della funzione causano uno spostamento orizzontale.
 
 ---
 
-A negative sign results in a reflection.
+Un segno negativo provoca una riflessione.
 
 ---
 
-A negative sign results in a vertical shift.
+Un segno negativo provoca uno spostamento verticale.
 
 ## --video-solution--
 

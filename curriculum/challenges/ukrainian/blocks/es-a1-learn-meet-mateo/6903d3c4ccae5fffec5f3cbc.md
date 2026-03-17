@@ -1,6 +1,6 @@
 ---
 id: 6903d3c4ccae5fffec5f3cbc
-title: Task 4
+title: Завдання 4
 challengeType: 19
 dashedName: task-4
 lang: es
@@ -10,13 +10,13 @@ lang: es
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Прослухайте аудіо та дайте відповідь на запитання нижче.
 
 # --questions--
 
 ## --text--
 
-What is Mateo's nationality?
+Яка національність у Матео?
 
 ## --answers--
 
@@ -24,7 +24,7 @@ What is Mateo's nationality?
 
 ### --feedback--
 
-This option refers to someone from Chile.
+Цей варіант стосується людини з Чилі.
 
 ---
 
@@ -32,7 +32,7 @@ This option refers to someone from Chile.
 
 ### --feedback--
 
-This word describes a person from Peru.
+Це слово описує людину з Перу.
 
 ---
 
@@ -44,7 +44,7 @@ This word describes a person from Peru.
 
 ### --feedback--
 
-This refers to a woman from Colombia, and the ending `-a` indicates the feminine form, which does not match Mateo.
+Це стосується жінки з Колумбії, а закінчення `-a` вказує на жіночий рід, що не відповідає Матео.
 
 ## --video-solution--
 
@@ -52,17 +52,17 @@ This refers to a woman from Colombia, and the ending `-a` indicates the feminine
 
 # --explanation--
 
-`Soy` ("I am") comes from the verb `ser` and is used to express identity, nationality, or profession. For example:
+`Soy` ("Я є") походить від дієслова `ser` і використовується для вираження ідентичності, національності або професії. Наприклад:
 
-- `Soy chilena.` – I'm Chilean. (feminine)
+- `Soy chilena.` – Я чилійка. (жіночий рід)
 
-- `Soy chileno.` – I'm Chilean. (masculine)
+- `Soy chileno.` – Я чилієць. (чоловічий рід)
 
-- `Soy puertorriqueña` - I'm Puerto Rican. (feminine)
+- `Soy puertorriqueña` - Я пуерториканець. (жіночий рід)
 
-- `Soy puertorriqueño` - I'm Puerto Rican. (masculine)
+- `Soy puertorriqueño` - Я пуерториканець. (чоловічий рід)
 
-- `Soy canadiense.` – I'm Canadian. (neutral)
+- `Soy canadiense.` – Я канадець. (нейтральний)
 
 # --scene--
 

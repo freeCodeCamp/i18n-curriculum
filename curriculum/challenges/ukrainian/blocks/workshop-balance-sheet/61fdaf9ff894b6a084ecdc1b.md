@@ -7,11 +7,11 @@ dashedName: step-33
 
 # --description--
 
-Щоб запобігти переповненню текстового вмісту, надайте селектору `span[class~="sr-only"]` властивість `overflow` зі значенням `hidden` та властивість `white-space` зі значенням `nowrap`.
+Щоб запобігти переповненню текстового вмісту, надайте вашому селектору `span[class~="sr-only"]` властивість `overflow` зі значенням `hidden` та властивість `white-space` зі значенням `nowrap`.
 
 # --hints--
 
-Ваш селектор `span[class~="sr-only"]` повинен мати властивість `overflow` зі значенням `hidden`.
+Ваш селектор `span[class~="sr-only"]` повинен мати властивість `overflow`, встановлену в `hidden`.
 
 ```js
 assert.strictEqual(
@@ -22,7 +22,7 @@ assert.strictEqual(
 );
 ```
 
-Ваш селектор `span[class~="sr-only"]` повинен мати властивість `white-space` зі значенням `nowrap`.
+Ваш селектор `span[class~="sr-only"]` повинен мати властивість `white-space`, встановлену в `nowrap`.
 
 ```js
 assert.strictEqual(
@@ -175,7 +175,7 @@ span[class~="sr-only"] {
   clip-path: inset(50%);
   height: 1px;
   width: 1px;
-
+  
 }
 --fcc-editable-region--
 

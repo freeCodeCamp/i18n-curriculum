@@ -1,6 +1,6 @@
 ---
 id: 65dabf5eb13aae9ff91c40a2
-title: Task 108
+title: Завдання 108
 challengeType: 22
 dashedName: task-108
 lang: en-US
@@ -10,13 +10,13 @@ lang: en-US
 
 # --description--
 
-The phrase `search for` means to look for something or try to find something through exploration. For example, `I need to search for my lost keys` means looking for the keys.
+Фраза `search for` означає шукати щось або намагатися знайти щось через дослідження. Наприклад, `I need to search for my lost keys` означає шукати ключі.
 
-The word `expensive` describes something that costs a lot of money. For example, `That car is too expensive for me` means the car costs a lot.
+Слово `expensive` описує щось, що коштує багато грошей. Наприклад, `That car is too expensive for me` означає, що машина коштує дорого.
 
-A `solution` is an answer to a problem or a way to fix an issue.
+`solution` — це відповідь на проблему або спосіб її вирішення.
 
-`Doesn't/don't have to` is used to express that there is no need or requirement to do something.
+`Doesn't/don't have to` використовується, щоб висловити, що немає потреби або вимоги щось робити.
 
 # --fillInTheBlank--
 
@@ -30,7 +30,7 @@ A `solution` is an answer to a problem or a way to fix an issue.
 
 ### --feedback--
 
-This word means to look for something carefully.
+Це слово означає шукати щось уважно.
 
 ---
 
@@ -38,7 +38,7 @@ This word means to look for something carefully.
 
 ### --feedback--
 
-This preposition is used with `search` to indicate what you are trying to find.
+Цей прийменник використовується з `search`, щоб вказати, що саме ви намагаєтеся знайти.
 
 ---
 
@@ -46,7 +46,7 @@ This preposition is used with `search` to indicate what you are trying to find.
 
 ### --feedback--
 
-This word describes something that costs a lot of money.
+Це слово описує щось, що коштує багато грошей.
 
 ---
 
@@ -54,7 +54,7 @@ This word describes something that costs a lot of money.
 
 ### --feedback--
 
-These are answers or ways to solve a problem.
+Це відповіді або способи розв’язання проблеми.
 
 # --scene--
 

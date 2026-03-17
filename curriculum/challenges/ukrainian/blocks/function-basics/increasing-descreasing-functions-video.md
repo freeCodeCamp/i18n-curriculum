@@ -1,6 +1,6 @@
 ---
 id: 699e0333138be64fa313138a
-title: Increasing and Decreasing Functions
+title: Зростаючі та спадні функції
 challengeType: 11
 videoId: GRYrrT_aQ1U
 dashedName: increasing-and-decreasing-functions
@@ -8,29 +8,29 @@ dashedName: increasing-and-decreasing-functions
 
 # --description--
 
-In this video, you will learn about increasing and decreasing functions on a graph.
+У цьому відео ви дізнаєтеся про зростаючі та спадні функції на графіку.
 
 # --questions--
 
 ## --text--
 
-What is an increasing function?
+Що таке зростаюча функція?
 
 ## --answers--
 
-This is where the x values are increasing and the y values are increasing.
+Це коли значення x зростають, і значення y також зростають.
 
 ---
 
-This is where the x values are increasing and the y values are decreasing.
+Це коли значення x зростають, а значення y спадають.
 
 ---
 
-This is where the x values are decreasing and the y values are increasing.
+Це коли значення x спадають, а значення y зростають.
 
 ---
 
-This is where the x values are decreasing and the y values are decreasing.
+Це коли значення x спадають, і значення y також спадають.
 
 ## --video-solution--
 

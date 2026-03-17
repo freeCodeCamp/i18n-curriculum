@@ -1,6 +1,6 @@
 ---
 id: 67efdfa59ffafb1f2a56381e
-title: Task 55
+title: Attività 55
 challengeType: 19
 dashedName: task-55
 lang: en-US
@@ -12,13 +12,13 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Ascolta l'audio e rispondi alla domanda qui sotto.
 
 # --questions--
 
 ## --text--
 
-Jake doesn't mind discussing an issue with Jessica. What can he say?
+A Jake non dispiace discutere di un problema con Jessica. Cosa può dire?
 
 ## --answers--
 
@@ -38,21 +38,21 @@ EN9d00ecb9
 
 ### --feedback--
 
-This answer does not match the prompt because Jake doesn't mind discussing the issue.
+Questa risposta non corrisponde alla richiesta perché a Jake non dispiace discutere del problema.
 
 ## --video-solution--
 
 1
 
-# --explanation--
+# --explanation-- 
 
-Jessica asks, `Do you have any ideas?`, which is a way of inviting someone to share their thoughts or opinions.
+Jessica chiede, `Do you have any ideas?`, che è un modo per invitare qualcuno a condividere i propri pensieri o opinioni.
 
-`Sure, Jessica` is a way to show that you're open to discussing the issue. Another example:
+`Sure, Jessica` è un modo per mostrare che sei aperto a discutere del problema. Un altro esempio:
 
-- Person 1: `Do you have any ideas how to fix it?` - This person is asking for suggestions or solutions.
+- Persona 1: `Do you have any ideas how to fix it?` - Questa persona sta chiedendo suggerimenti o soluzioni.
 
-- Person 2: `Sure. We could check the server logs and see what's wrong.` - This person is saying yes, and is ready to share a suggestion.
+- Persona 2: `Sure. We could check the server logs and see what's wrong.` - Questa persona dice sì ed è pronta a condividere un suggerimento.
 
 # --scene--
 

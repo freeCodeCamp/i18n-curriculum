@@ -1,13 +1,13 @@
 ---
 id: 66f1aeb60b11aec5abe83c2e
-title: CSS Libraries and Frameworks Quiz
+title: Quiz sulle librerie e i framework CSS
 challengeType: 8
 dashedName: quiz-css-libraries-and-frameworks
 ---
 
 # --description--
 
-To pass the quiz, you must correctly answer at least 9 of the 10 questions below.
+Per superare il quiz, devi rispondere correttamente ad almeno 9 delle 10 domande seguenti.
 
 # --quizzes--
 
@@ -17,29 +17,29 @@ To pass the quiz, you must correctly answer at least 9 of the 10 questions below
 
 #### --text--
 
-What is a CSS framework?
+Cos'è un framework CSS?
 
 #### --distractors--
 
-A tool to fix CSS errors.
+Uno strumento per correggere gli errori CSS.
 
 ---
 
-A tool to lint CSS files.
+Uno strumento per analizzare i file CSS.
 
 ---
 
-A formatter for CSS files.
+Un formattatore per file CSS.
 
 #### --answer--
 
-A library for CSS styles.
+Una libreria per gli stili CSS.
 
 ### --question--
 
 #### --text--
 
-Which of the following is a popular utility-first CSS framework?
+Quale dei seguenti è un popolare framework CSS utility-first?
 
 #### --distractors--
 
@@ -61,29 +61,29 @@ Tailwind CSS
 
 #### --text--
 
-What is a disadvantage of CSS frameworks?
+Qual è uno svantaggio dei framework CSS?
 
 #### --distractors--
 
-Too few components.
+Pochi componenti.
 
 ---
 
-No customization options.
+Nessuna opzione di personalizzazione.
 
 ---
 
-Improved browser support.
+Supporto migliorato per i browser.
 
 #### --answer--
 
-Can bloat CSS files.
+Possono appesantire i file CSS.
 
 ### --question--
 
 #### --text--
 
-What does SCSS stand for?
+Cosa significa SCSS?
 
 #### --distractors--
 
@@ -105,29 +105,29 @@ Sassy CSS.
 
 #### --text--
 
-Which of the following is a feature of Sass?
+Quale delle seguenti è una funzionalità di Sass?
 
 #### --distractors--
 
-Comments
+Commenti
 
 ---
 
-CSS linting.
+Analisi CSS.
 
 ---
 
-Inline CSS.
+CSS in linea.
 
 #### --answer--
 
-Mixins
+Mixin
 
 ### --question--
 
 #### --text--
 
-Which of the following is the correct way to use utility classes in Tailwind CSS?
+Qual è il modo corretto di usare le classi utility in Tailwind CSS?
 
 #### --distractors--
 
@@ -167,29 +167,29 @@ Which of the following is the correct way to use utility classes in Tailwind CSS
 
 #### --text--
 
-What are the two types of CSS frameworks?
+Quali sono i due tipi di framework CSS?
 
 #### --distractors--
 
-Tablet first CSS frameworks and Component-based CSS frameworks.
+Framework CSS tablet first e framework CSS basati su componenti.
 
 ---
 
-Utility-first CSS frameworks and Lazy loading CSS frameworks.
+Framework CSS utility-first e framework CSS con caricamento lazy.
 
 ---
 
-Minimal CSS frameworks and Utility-first CSS frameworks.
+Framework CSS minimal e framework CSS utility-first.
 
 #### --answer--
 
-Utility-first CSS frameworks and Component-based CSS frameworks.
+Framework CSS utility-first e framework CSS basati su componenti.
 
 ### --question--
 
 #### --text--
 
-What is the file extension for SCSS?
+Qual è l'estensione del file per SCSS?
 
 #### --distractors--
 
@@ -211,7 +211,7 @@ What is the file extension for SCSS?
 
 #### --text--
 
-Which of the following is the correct way to define a variable in SCSS?
+Qual è il modo corretto di definire una variabile in SCSS?
 
 #### --distractors--
 
@@ -257,7 +257,7 @@ header {
 
 #### --text--
 
-Which of the following is the correct way to define a mixin?
+Qual è il modo corretto di definire un mixin?
 
 #### --distractors--
 
@@ -298,4 +298,3 @@ mixin center-flex {
   align-items: center;
 }
 ```
-

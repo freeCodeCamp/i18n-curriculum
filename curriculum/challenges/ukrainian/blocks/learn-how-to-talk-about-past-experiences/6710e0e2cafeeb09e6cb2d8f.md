@@ -1,6 +1,6 @@
 ---
 id: 6710e0e2cafeeb09e6cb2d8f
-title: Task 55
+title: Завдання 55
 challengeType: 22
 dashedName: task-55
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Прослухайте аудіо та доповніть речення нижче.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This is the auxiliary verb used to form the `Past Continuous` in the singular first-person form.
+Це допоміжне дієслово, яке використовується для утворення `Past Continuous` у однині першої особи.
 
 ---
 
@@ -32,7 +32,7 @@ This is the auxiliary verb used to form the `Past Continuous` in the singular fi
 
 ### --feedback--
 
-This is the main verb in the `Past Continuous`, describing the act of laboring.
+Це основне дієслово в `Past Continuous`, що описує дію праці.
 
 ---
 
@@ -40,7 +40,7 @@ This is the main verb in the `Past Continuous`, describing the act of laboring.
 
 ### --feedback--
 
-This is the auxiliary verb used to form the `Past Continuous` in the plural first-person form.
+Це допоміжне дієслово, яке використовується для утворення `Past Continuous` у множині першої особи.
 
 ---
 
@@ -48,15 +48,15 @@ This is the auxiliary verb used to form the `Past Continuous` in the plural firs
 
 ### --feedback--
 
-This is the main verb in the `Past Continuous`, describing an ongoing action of improving or modernizing something.
+Це основне дієслово в `Past Continuous`, що описує безперервну дію покращення або оновлення чогось.
 
 # --explanation--
 
-The `Past Continuous` tense is used to describe actions that were ongoing at a specific time in the past. When two `Past Continuous` sentences are used together, they often describe simultaneous actions or actions happening alongside each other.
+Час `Past Continuous` використовується для опису дій, які тривали в певний момент у минулому. Коли два `Past Continuous` речення використовуються разом, вони часто описують одночасні дії або дії, що відбуваються паралельно.
 
-In this sentence, Linda is describing how she and her team were both working and updating the user interface continuously throughout the project. This shows two actions happening at the same time in the past, providing context or background for each other. For example:
+У цьому реченні Лінда описує, як вона та її команда одночасно працювали і безперервно оновлювали інтерфейс користувача протягом усього проєкту. Це показує дві дії, що відбувалися одночасно в минулому, надаючи контекст або фон одна одній. Наприклад:
 
-`While I was preparing the report, they were testing the new features.` - This means the action of my preparing the report and the testing of the new features happened at the same time.
+`While I was preparing the report, they were testing the new features.` — це означає, що дія мого підготовлення звіту і тестування нових функцій відбувалися одночасно.
 
 # --scene--
 

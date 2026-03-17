@@ -1,6 +1,6 @@
 ---
 id: 678a5e7dffffba38c5ad16c4
-title: Task 17
+title: Завдання 17
 challengeType: 22
 dashedName: task-17
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Прослухайте аудіо та доповніть речення нижче.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This two-word phrase means something is very suitable or effective for a particular purpose.
+Ця двослівна фраза означає, що щось дуже підходить або ефективне для певної мети.
 
 ---
 
@@ -32,15 +32,15 @@ This two-word phrase means something is very suitable or effective for a particu
 
 ### --feedback--
 
-This two-word phrase means something is suitable or beneficial for a specific task or situation.
+Ця двослівна фраза означає, що щось підходить або корисне для конкретного завдання чи ситуації.
 
 # --explanation--
 
-Both `great for` and `good for` mean something is very helpful, suitable or effective for a specific purpose. For example:
+Обидві `great for` і `good for` означають, що щось дуже корисне, підходить або ефективне для конкретної мети. Наприклад:
 
-- `This new software is great for managing large projects.` - This means the software is very suitable and effective for managing large projects.
+- `This new software is great for managing large projects.` - Це означає, що програмне забезпечення дуже підходить і ефективне для керування великими проєктами.
 
-- `Cloud storage is good for backing up large volumes of data.` - This means cloud storage is highly effective and well-suited for safely storing large amounts of data.
+- `Cloud storage is good for backing up large volumes of data.` - Це означає, що хмарне сховище дуже ефективне і добре підходить для безпечного зберігання великих обсягів даних.
 
 # --scene--
 

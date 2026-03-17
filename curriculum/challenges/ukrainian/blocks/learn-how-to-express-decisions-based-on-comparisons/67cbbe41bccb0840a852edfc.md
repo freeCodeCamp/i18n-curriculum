@@ -1,6 +1,6 @@
 ---
 id: 67cbbe41bccb0840a852edfc
-title: Task 44
+title: Завдання 44
 challengeType: 22
 dashedName: task-44
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Прослухайте аудіо та доповніть речення нижче.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This three-word phrase is used to acknowledge and show appreciation for receiving useful or important information. It's often used when you learn something helpful.
+Ця фраза з трьох слів використовується, щоб визнати та висловити вдячність за отримання корисної або важливої інформації. Її часто вживають, коли дізнаються щось корисне.
 
 ---
 
@@ -32,7 +32,7 @@ This three-word phrase is used to acknowledge and show appreciation for receivin
 
 ### --feedback--
 
-This two-word phrase means to choose or select something, especially after considering different options.
+Ця фраза з двох слів означає вибрати або обрати щось, особливо після розгляду різних варіантів.
 
 ---
 
@@ -40,21 +40,21 @@ This two-word phrase means to choose or select something, especially after consi
 
 ### --feedback--
 
-This two-word phrase refers to something that is the most important or urgent.
+Ця фраза з двох слів означає щось, що є найважливішим або найтерміновішим.
 
 # --explanation--
 
-`Good to know` is used to show that the information shared is useful or appreciated. For example:
+`Good to know` використовується, щоб показати, що надана інформація є корисною або її цінують. Наприклад:
 
-`It's good to know that the software is easy to use.` - This means the speaker appreciates learning that the software is easy to use.
+`It's good to know that the software is easy to use.` — це означає, що мовник цінує, що дізнався, що програмне забезпечення легке у використанні.
 
-`Go with` means to choose something, usually after some thought or comparison. For example:
+`Go with` означає вибрати щось, зазвичай після деяких роздумів або порівнянь. Наприклад:
 
-`After much discussion, we went with the cheaper option.` - This means you chose the less expensive option after considering different choices.
+`After much discussion, we went with the cheaper option.` — це означає, що ви обрали менш дорогий варіант після розгляду різних виборів.
 
-`Top priority` means that something is the most important thing to consider or focus on. It's often used in work or decision-making contexts. For example:
+`Top priority` означає, що щось є найважливішим для розгляду або фокусу. Часто використовується у робочих або прийнятті рішень контекстах. Наприклад:
 
-`Our top priority right now is improving the website's performance.` - This means the most important task at the moment is to improve how well the website works, making it a main focus.
+`Our top priority right now is improving the website's performance.` — це означає, що найважливішим завданням наразі є покращення роботи сайту, що робить це головним фокусом.
 
 # --scene--
 

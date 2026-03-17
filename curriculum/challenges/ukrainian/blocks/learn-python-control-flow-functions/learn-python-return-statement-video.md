@@ -1,6 +1,6 @@
 ---
 id: c6c9dae4017830e187eeaf42
-title: Return Statement
+title: Оператор return
 challengeType: 11
 videoId: Gx3VTsaMCHU
 dashedName: return-statement-learn-python-full-course-for-beginners
@@ -8,13 +8,13 @@ dashedName: return-statement-learn-python-full-course-for-beginners
 
 # --description--
 
-In this video, you will learn how to use the return statement in functions.
+У цьому відео ви навчитеся використовувати оператор return у функціях.
 
 # --questions--
 
 ## --text--
 
-What will be the output for the following code?
+Яким буде вихід для наступного коду?
 
 ```python
 def cube(num):

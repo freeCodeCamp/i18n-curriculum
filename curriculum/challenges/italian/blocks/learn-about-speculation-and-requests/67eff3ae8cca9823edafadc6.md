@@ -1,6 +1,6 @@
 ---
 id: 67eff3ae8cca9823edafadc6
-title: Task 59
+title: Attività 59
 challengeType: 19
 dashedName: task-59
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Ascolta l'audio e rispondi alla domanda qui sotto.
 
 # --questions--
 
 ## --text--
 
-What is Jake asking about?
+Di cosa sta chiedendo Jake?
 
 ## --answers--
 
-If the updates were applied.
+Se gli aggiornamenti sono stati applicati.
 
 ---
 
-If new security updates were released.
+Se sono stati rilasciati nuovi aggiornamenti di sicurezza.
 
 ### --feedback--
 
-Jake is not asking if new updates exist.
+Jake non sta chiedendo se esistono nuovi aggiornamenti.
 
 ---
 
-Who is responsible for security updates.
+Chi è responsabile degli aggiornamenti di sicurezza.
 
 ### --feedback--
 
-Jake is not asking about a specific person.
+Jake non sta chiedendo di una persona specifica.
 
 ---
 
-How security updates work.
+Come funzionano gli aggiornamenti di sicurezza.
 
 ### --feedback--
 
-Jake assumes Jessica knows about security updates.
+Jake presume che Jessica sappia degli aggiornamenti di sicurezza.
 
 ## --video-solution--
 
@@ -52,11 +52,11 @@ Jake assumes Jessica knows about security updates.
 
 # --explanation--
 
-Jake wants to know if someone has verified that all updates have been installed.
+Jake vuole sapere se qualcuno ha verificato che tutti gli aggiornamenti siano stati installati.
 
-By `Have you checked...?` he asks if Jessica has looked into something.
+Con `Have you checked...?` chiede se Jessica ha controllato qualcosa.
 
-By `whether all security updates were applied` he asks if updates were successfully installed.
+Con `whether all security updates were applied` chiede se gli aggiornamenti sono stati installati con successo.
 
 # --scene--
 

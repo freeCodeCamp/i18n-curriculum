@@ -1,6 +1,6 @@
 ---
 id: 655b37ecf9da446bd1dcff4f
-title: Task 96
+title: Attività 96
 challengeType: 22
 dashedName: task-96
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --description--
 
-Listen to the audio and complete the sentence below.
+Ascolta l'audio e completa la frase qui sotto.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This adjective describes the relaxed nature of Sophie's Sunday morning.
+Questo aggettivo descrive la natura rilassata della mattina di domenica di Sophie.
 
 ---
 
@@ -32,7 +32,7 @@ This adjective describes the relaxed nature of Sophie's Sunday morning.
 
 ### --feedback--
 
-This word indicates the time Sophie chooses to go to sleep on Sunday evening.
+Questa parola indica l'orario in cui Sophie sceglie di andare a dormire la domenica sera.
 
 # --scene--
 

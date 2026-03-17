@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Прослухайте аудіозапис та дайте відповіді на запитання.
+Прослухайте аудіо та дайте відповідь на запитання нижче.
 
 # --questions--
 
 ## --text--
 
-What is Anna communicating?
+Що повідомляє Анна?
 
 ## --answers--
 
-She completely disagrees with Bob and rejects his concern.
+Вона повністю не погоджується з Бобом і відкидає його занепокоєння.
 
 ### --feedback--
 
-Anna acknowledges Bob's point before giving her own opinion.
+Анна визнає думку Боба, перш ніж висловити власну.
 
 ---
 
-She understands Bob's concern but still thinks flexibility is a better option.
+Вона розуміє занепокоєння Боба, але все ж вважає, що гнучкість — кращий варіант.
 
 ---
 
-She does not understand Bob's concern.
+Вона не розуміє занепокоєння Боба.
 
 ### --feedback--
 
-Anna understands Bob's argument.
+Анна розуміє аргумент Боба.
 
 ---
 
-She agrees with Bob and changes her mind.
+Вона погоджується з Бобом і змінює свою думку.
 
 ### --feedback--
 
-Anna does not fully agree with Bob.
+Анна не повністю погоджується з Бобом.
 
 ## --video-solution--
 
@@ -52,9 +52,9 @@ Anna does not fully agree with Bob.
 
 # --explanation--
 
-Anna uses `I see your point, but` to show that she understands Bob's concern while presenting a different opinion.
+Анна використовує `I see your point, but`, щоб показати, що розуміє занепокоєння Боба, водночас висловлюючи іншу думку.
 
-She believes that flexibility is a better solution than sticking with one category.
+Вона вважає, що гнучкість — кращий варіант, ніж дотримуватися однієї категорії.
 
 # --scene--
 

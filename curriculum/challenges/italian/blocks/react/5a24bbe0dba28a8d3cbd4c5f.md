@@ -1,6 +1,6 @@
 ---
 id: 5a24bbe0dba28a8d3cbd4c5f
-title: Render HTML Elements to the DOM
+title: Renderizzare elementi HTML nel DOM
 challengeType: 6
 forumTopicId: 301406
 dashedName: render-html-elements-to-the-dom
@@ -8,37 +8,37 @@ dashedName: render-html-elements-to-the-dom
 
 # --description--
 
-So far, you've learned that JSX is a convenient tool to write readable HTML within JavaScript. With React, we can render this JSX directly to the HTML DOM using React's rendering API known as ReactDOM.
+Finora hai imparato che JSX è uno strumento comodo per scrivere HTML leggibile all’interno di JavaScript. Con React, possiamo renderizzare questo JSX direttamente nel DOM HTML usando l’API di rendering di React chiamata ReactDOM.
 
-ReactDOM offers a simple method to render React elements to the DOM which looks like this: `ReactDOM.render(componentToRender, targetNode)`, where the first argument is the React element or component that you want to render, and the second argument is the DOM node that you want to render the component to.
+ReactDOM offre un metodo semplice per renderizzare elementi React nel DOM che si presenta così: `ReactDOM.render(componentToRender, targetNode)`, dove il primo argomento è l’elemento o componente React che vuoi renderizzare, e il secondo argomento è il nodo DOM su cui vuoi renderizzare il componente.
 
-As you would expect, `ReactDOM.render()` must be called after the JSX element declarations, just like how you must declare variables before using them.
+Come ti aspetteresti, `ReactDOM.render()` deve essere chiamato dopo le dichiarazioni degli elementi JSX, proprio come devi dichiarare le variabili prima di usarle.
 
 # --instructions--
 
-The code editor has a simple JSX component. Use the `ReactDOM.render()` method to render this component to the page. You can pass defined JSX elements directly in as the first argument and use `document.getElementById()` to select the DOM node to render them to. There is a `div` with `id='challenge-node'` available for you to use. Make sure you don't change the `JSX` constant.
+L’editor del codice contiene un semplice componente JSX. Usa il metodo `ReactDOM.render()` per renderizzare questo componente nella pagina. Puoi passare direttamente come primo argomento gli elementi JSX definiti e usare `document.getElementById()` per selezionare il nodo DOM su cui renderizzarli. Hai a disposizione un `div` con `id='challenge-node'`. Assicurati di non modificare la costante `JSX`.
 
 # --hints--
 
-The constant `JSX` should return a `div` element.
+La costante `JSX` dovrebbe restituire un elemento `div`.
 
 ```js
 assert(JSX.type === 'div');
 ```
 
-The `div` should contain an `h1` tag as the first element.
+Il `div` dovrebbe contenere un tag `h1` come primo elemento.
 
 ```js
 assert(JSX.props.children[0].type === 'h1');
 ```
 
-The `div` should contain a `p` tag as the second element.
+Il `div` dovrebbe contenere un tag `p` come secondo elemento.
 
 ```js
 assert(JSX.props.children[1].type === 'p');
 ```
 
-The provided JSX element should render to the DOM node with id `challenge-node`.
+L’elemento JSX fornito dovrebbe essere renderizzato nel nodo DOM con id `challenge-node`.
 
 ```js
 assert(

@@ -1,13 +1,13 @@
 ---
 id: 67d301cc87b84eaa42bdcdbe
-title: What Is a tsconfig File, and Why Is It Important to Include in Your TypeScript Projects?
+title: Що таке файл tsconfig і чому важливо включати його у свої проєкти на TypeScript?
 challengeType: 19
 dashedName: what-is-a-tsconfig-file-and-why-is-it-important-to-include-in-your-typescript-projects
 ---
 
 # --description--
 
-TypeScript's compiler settings can be configured to meet your project's needs. That configuration lives in a `tsconfig.json` file in the root directory of your project. In fact, without it, the compiler will not run unless you pass it command flags directly. But what exactly does this file do? Well, let's take a look at an example file:
+Налаштування компілятора TypeScript можна конфігурувати відповідно до потреб вашого проєкту. Ця конфігурація зберігається у `tsconfig.json` файлі в кореневій теці вашого проєкту. Насправді, без нього компілятор не запуститься, якщо ви не передасте йому параметри командного рядка безпосередньо. Але що саме робить цей файл? Давайте подивимося на приклад файлу:
 
 ```json
 {
@@ -26,27 +26,27 @@ TypeScript's compiler settings can be configured to meet your project's needs. T
 }
 ```
 
-This seems like a lot! So let's break it down. The `compilerOptions` property is going to contain the "meat" of your configuration - this is where you control how the TypeScript compiler behaves. Looking at that nested object…
+Це виглядає досить об’ємно! Тож розберімося по частинах. Властивість `compilerOptions` міститиме «серце» вашої конфігурації — тут ви керуєте тим, як поводиться компілятор TypeScript. Розглядаючи цей вкладений об’єкт…
 
-The `rootDir` and `outDir` tell TypeScript which directory holds your source files, and which directory should contain the transpiled JavaScript code.
+Властивості `rootDir` і `outDir` вказують TypeScript, у якій теці знаходяться ваші вихідні файли, а в якій має зберігатися транспільований JavaScript-код.
 
-The `lib` property determines which type definitions the compiler uses, and allows you to include support for specific ES releases, the DOM, and more.
+Властивість `lib` визначає, які типи визначень використовує компілятор, і дозволяє додати підтримку конкретних версій ES, DOM та інших.
 
-`module` and `moduleResolution` effectively work in tandem to manage how your package uses modules - either CommonJS or ECMAScript.
+`module` і `moduleResolution` фактично працюють разом, керуючи тим, як ваш пакет використовує модулі — CommonJS або ECMAScript.
 
-`esModuleInterop` allows for smoother interoperability between CommonJS and ES modules by automatically creating namespace objects for imports, making it easier to use modules from different systems together in your TypeScript projects, and the `skipLibCheck` option skips validating `.d.ts` files that aren't referenced by imports in your code.
+`esModuleInterop` забезпечує плавнішу взаємодію між модулями CommonJS і ES, автоматично створюючи об’єкти простору імен для імпортів, що полегшує використання модулів із різних систем разом у ваших проєктах на TypeScript, а опція `skipLibCheck` пропускає перевірку `.d.ts` файлів, які не посилаються через імпорти у вашому коді.
 
-And finally we reach the `strict` mode. One might argue that TypeScript isn't truly helpful without this flag enabled, as it toggles quite a few other checks, such as requiring you to properly handle nullable types, or warn when TypeScript can't infer a type and falls back to any.
+І нарешті ми дійшли до режиму `strict`. Можна стверджувати, що TypeScript не буде по-справжньому корисним без увімкнення цього прапорця, адже він активує багато інших перевірок, наприклад, вимагає правильно обробляти nullable типи або попереджає, коли TypeScript не може вивести тип і повертається до any.
 
-Before we finish, a quick note about the top-level `exclude` property - when you've defined a source directory, you may have TypeScript code outside of that directory which you don't want compiled as part of your production code. For example, your test code. The `exclude` array tells the compiler to ignore these TypeScript files during compilation, but still allows tooling like Intellisense to expose potential issues.
+Перед завершенням — коротка примітка про верхньорівневу властивість `exclude`: коли ви визначили теку з вихідним кодом, у вас може бути код TypeScript поза межами цієї теки, який ви не хочете компілювати як частину продуктивного коду. Наприклад, тестовий код. Масив `exclude` каже компілятору ігнорувати ці файли TypeScript під час компіляції, але при цьому інструменти, як Intellisense, можуть показувати потенційні проблеми.
 
-There are a ton of other compiler options you can explore - over 50! I encourage you to explore the documentation and experiment to find the configuration that works for your project's needs.
+Існує ще безліч інших опцій компілятора — понад 50! Рекомендую дослідити документацію і експериментувати, щоб знайти конфігурацію, яка найкраще підходить для вашого проєкту.
 
 # --questions--
 
 ## --text--
 
-Which property in the `tsconfig.json` file affects how the compiler behaves?
+Яка властивість у `tsconfig.json` файлі впливає на поведінку компілятора?
 
 ## --answers--
 
@@ -54,7 +54,7 @@ Which property in the `tsconfig.json` file affects how the compiler behaves?
 
 ### --feedback--
 
-This property is an object containing options for the compiler.
+Ця властивість є об’єктом, що містить опції для компілятора.
 
 ---
 
@@ -66,7 +66,7 @@ This property is an object containing options for the compiler.
 
 ### --feedback--
 
-This property is an object containing options for the compiler.
+Ця властивість є об’єктом, що містить опції для компілятора.
 
 ---
 
@@ -74,7 +74,7 @@ This property is an object containing options for the compiler.
 
 ### --feedback--
 
-This property is an object containing options for the compiler.
+Ця властивість є об’єктом, що містить опції для компілятора.
 
 ## --video-solution--
 
@@ -82,35 +82,35 @@ This property is an object containing options for the compiler.
 
 ## --text--
 
-What does the `strict` option in the `tsconfig.json` file do?
+Що робить опція `strict` у `tsconfig.json` файлі?
 
 ## --answers--
 
-It only checks for nullable types.
+Вона перевіряє лише nullable типи.
 
 ### --feedback--
 
-This option enables various checks, including handling of nullable types.
+Ця опція увімкнює різні перевірки, включно з обробкою nullable типів.
 
 ---
 
-It enforces the use of CommonJS modules.
+Вона примушує використовувати модулі CommonJS.
 
 ### --feedback--
 
-This option enables various checks, including handling of nullable types.
+Ця опція увімкнює різні перевірки, включно з обробкою nullable типів.
 
 ---
 
-It toggles several type-checking options.
+Вона вмикає кілька опцій перевірки типів.
 
 ---
 
-It excludes test files from compilation.
+Вона виключає тестові файли з компіляції.
 
 ### --feedback--
 
-This option enables various checks, including handling of nullable types.
+Ця опція увімкнює різні перевірки, включно з обробкою nullable типів.
 
 ## --video-solution--
 
@@ -118,35 +118,35 @@ This option enables various checks, including handling of nullable types.
 
 ## --text--
 
-What is the purpose of the `exclude` array in the `tsconfig.json` file?
+Яка мета масиву `exclude` у `tsconfig.json` файлі?
 
 ## --answers--
 
-To specify which files to compile.
+Вказати, які файли компілювати.
 
 ### --feedback--
 
-You can use this to exclude test code from compilation.
+Ви можете використовувати це, щоб виключити тестовий код із компіляції.
 
 ---
 
-To list additional libraries to include.
+Перелічити додаткові бібліотеки для включення.
 
 ### --feedback--
 
-You can use this to exclude test code from compilation.
+Ви можете використовувати це, щоб виключити тестовий код із компіляції.
 
 ---
 
-To ignore certain files during compilation.
+Ігнорувати певні файли під час компіляції.
 
 ---
 
-To define output directories for compiled files.
+Визначити теки для вихідних скомпільованих файлів.
 
 ### --feedback--
 
-You can use this to exclude test code from compilation.
+Ви можете використовувати це, щоб виключити тестовий код із компіляції.
 
 ## --video-solution--
 

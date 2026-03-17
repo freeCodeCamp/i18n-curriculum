@@ -1,6 +1,6 @@
 ---
 id: 699e5b998f18cf77dfce5c0d
-title: Right Angle Trigonometry
+title: Trigonometria del triangolo rettangolo
 challengeType: 11
 videoId: j81PeMJaju0
 dashedName: right-angle-trigonometry
@@ -8,32 +8,30 @@ dashedName: right-angle-trigonometry
 
 # --description--
 
-In this video, you will learn about common trig functions including sine, cosine, and tangent and how to calculate them for right triangles.
+In questo video imparerai le funzioni trigonometriche comuni, tra cui seno, coseno e tangente, e come calcolarle per i triangoli rettangoli.
 
 # --questions--
 
 ## --text--
 
-What is the sine of theta for a right triangle?
+Qual è il seno di theta per un triangolo rettangolo?
 
 ## --answers--
 
-Adjacent over opposite
+Adiacente su opposto
 
 ---
 
-Opposite over hypotenuse
+Opposto su ipotenusa
 
 ---
 
-Hypotenuse over opposite
+Ipotenusa su opposto
 
 ---
 
-Adjacent over hypotenuse
+Adiacente su ipotenusa
 
 ## --video-solution--
 
 2
-
-

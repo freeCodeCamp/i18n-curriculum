@@ -1,6 +1,6 @@
 ---
 id: 67c8cf7bbcc2fbe9b32c9ab2
-title: Task 92
+title: Завдання 92
 challengeType: 19
 dashedName: task-92
 lang: en-US
@@ -10,53 +10,53 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Прослухайте аудіо та дайте відповідь на запитання нижче.
 
 # --questions--
 
 ## --text--
 
-What will Maria do with the comments she got from James?
+Що Марія зробить із коментарями, які отримала від Джеймса?
 
 ## --answers--
 
-She will ignore them.
+Вона їх проігнорує.
 
 ### --feedback--
 
-Maria acknowledges James's point and plans to take action.
+Марія визнає думку Джеймса і планує вжити заходів.
 
 ---
 
-She will tell the team to stop worrying about communication.
+Вона скаже команді припинити хвилюватися про комунікацію.
 
 ### --feedback--
 
-Maria wants to improve communication, not dismiss concerns.
+Марія хоче покращити комунікацію, а не відкидати занепокоєння.
 
 ---
 
-She will cancel the team's check-ins.
+Вона скасує зустрічі команди.
 
 ### --feedback--
 
-Maria does not say she will cancel the check-ins.
+Марія не каже, що скасує зустрічі.
 
 ---
 
-She will propose having more check-ins to improve communication.
+Вона запропонує проводити більше зустрічей, щоб покращити комунікацію.
 
 ## --video-solution--
 
-4
+4  
 
 # --explanation--
 
-When using the verb `suggest`, use the following verb in the `-ing` form instead of the infinitive. For example:
+Коли використовуєте дієслово `suggest`, наступне дієслово слід ставити у формі `-ing` замість інфінітива. Наприклад:
 
-- `She suggested taking a break.` - This means the idea proposed is to take a break.
+- `She suggested taking a break.` — це означає, що запропонована ідея полягає у взятті перерви.
 
-- `He suggested starting the meeting earlier to avoid delays.` - This means he proposed beginning the meeting sooner.
+- `He suggested starting the meeting earlier to avoid delays.` — це означає, що він запропонував почати зустріч раніше.
 
 # --scene--
 

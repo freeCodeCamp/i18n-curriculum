@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c442eedfaeb5bd1c
-title: Costruisci un gioco Tic Tac Toe
+title: Costruisci un gioco di tris
 challengeType: 3
 forumTopicId: 302358
 dashedName: build-a-tic-tac-toe-game
@@ -8,19 +8,19 @@ dashedName: build-a-tic-tac-toe-game
 
 # --description--
 
-**Objective:** Build an app that is functionally similar to this: <a href="https://codepen.io/freeCodeCamp/full/KzXQgy/" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/KzXQgy/</a>.
+**Obiettivo:** Costruisci un'app che sia funzionalmente simile a questa: <a href="https://codepen.io/freeCodeCamp/full/KzXQgy/" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/KzXQgy/</a>.
 
-Soddisfa le user story qui sotto e supera tutti i test. Utilizza le librerie o le API di cui hai bisogno. Usa il tuo stile personale.
+Completa le seguenti storie utente e fai in modo che tutti i test vengano superati. Usa le librerie o le API che preferisci. Dai un tocco personale al tuo stile.
 
-**User Story:** Posso giocare a Tris con il computer.
+**Storia utente:** Posso giocare a tris contro il computer.
 
-**User Story:** Il gioco si resetterà come finisce così posso giocare di nuovo.
+**Storia utente:** Il gioco si resetterà non appena finisce così posso giocare di nuovo.
 
-**User Story:** Posso scegliere se voglio giocare come X o come O.
+**Storia utente:** Posso scegliere se giocare come X o O.
 
-Quando hai finito, includi un link al tuo progetto su CodePen e clicca sul pulsante "Ho completato questa sfida".
+Quando hai finito, includi un collegamento al tuo progetto su CodePen e clicca il pulsante "Ho completato questa sfida".
 
-Puoi ottenere un feedback sul tuo progetto condividendolo sul <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">forum di freeCodeCamp</a>.
+Puoi ricevere feedback sul tuo progetto condividendolo sul <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">forum di freeCodeCamp</a>.
 
 # --solutions--
 

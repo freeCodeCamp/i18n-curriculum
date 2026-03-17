@@ -1,79 +1,79 @@
 ---
 id: 691f7773cddba1caf1bf5ecc
-title: "Challenge 133: Daylight Hours"
+title: "Завдання 133: години денного світла"
 challengeType: 28
 dashedName: challenge-133
 ---
 
 # --description--
 
-December 21st is the winter solstice for the northern hemisphere and the summer solstice for the southern hemisphere. That means it's the day with the least daylight in the north and the most daylight in the south.
+21 грудня — це зимове сонцестояння для північної півкулі і літнє сонцестояння для південної півкулі. Це означає, що в цей день найменше годин денного світла на півночі і найбільше на півдні.
 
-Given a latitude number from -90 to 90, return a rough approximation of daylight hours on the solstice using the following table:
+За заданим числом широти від -90 до 90 поверніть приблизну кількість годин денного світла на сонцестоянні, використовуючи таку таблицю:
 
-| Latitude | Daylight Hours |
-| -------- | -------------- |
-| -90      | 24             |
-| -75      | 23             |
-| -60      | 21             |
-| -45      | 15             |
-| -30      | 13             |
-| -15      | 12             |
-| 0        | 12             |
-| 15       | 11             |
-| 30       | 10             |
-| 45       | 9              |
-| 60       | 6              |
-| 75       | 2              |
-| 90       | 0              |
+|Широта|Години денного світла|
+|-|-|
+|-90|24|
+|-75|23|
+|-60|21|
+|-45|15|
+|-30|13|
+|-15|12|
+|0|12|
+|15|11|
+|30|10|
+|45|9|
+|60|6|
+|75|2|
+|90|0|
 
-- If the given latitude does not exactly match a table entry, use the value of the closest latitude.
+- Якщо задана широта не співпадає точно з жодним записом у таблиці, використовуйте значення найближчої широти.
 
 # --hints--
 
-`daylightHours(45)` should return `9`.
+`daylightHours(45)` має повертати `9`.
 
 ```js
 assert.equal(daylightHours(45), 9);
 ```
 
-`daylightHours(0)` should return `12`.
+`daylightHours(0)` має повертати `12`.
 
 ```js
 assert.equal(daylightHours(0), 12);
 ```
 
-`daylightHours(-90)` should return `24`.
+`daylightHours(-90)` має повертати `24`.
 
 ```js
 assert.equal(daylightHours(-90), 24);
 ```
 
-`daylightHours(-10)` should return `12`.
+`daylightHours(-10)` має повертати `12`.
 
 ```js
 assert.equal(daylightHours(-10), 12);
 ```
 
-`daylightHours(23)` should return `10`.
+`daylightHours(23)` має повертати `10`.
 
 ```js
 assert.equal(daylightHours(23), 10);
 ```
 
-`daylightHours(88)` should return `0`.
+`daylightHours(88)` має повертати `0`.
 
 ```js
 assert.equal(daylightHours(88), 0);
 ```
 
-`daylightHours(-33)` should return `13`.
+`daylightHours(-33)` має повертати `13`.
 
 ```js
 assert.equal(daylightHours(-33), 13);
 ```
 
-`daylightHours(70)` should return `2`.
+`daylightHours(70)` має повертати `2`.
 
 ```js
 assert.equal(daylightHours(70), 2);

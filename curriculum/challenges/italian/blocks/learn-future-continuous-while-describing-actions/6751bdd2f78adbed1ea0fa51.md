@@ -1,6 +1,6 @@
 ---
 id: 6751bdd2f78adbed1ea0fa51
-title: Task 24
+title: Attività 24
 challengeType: 19
 dashedName: task-24
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Ascolta l'audio e rispondi alla domanda qui sotto.
 
 # --questions--
 
 ## --text--
 
-What is Brian's concern?
+Qual è la preoccupazione di Brian?
 
 ## --answers--
 
-If users need to be informed about the downtime.
+Se gli utenti devono essere informati sul tempo di inattività.
 
 ---
 
-If the downtime will last too long.
+Se il tempo di inattività durerà troppo a lungo.
 
 ### --feedback--
 
-Brian is not asking about the length of the downtime.
+Brian non chiede della lunghezza del tempo di inattività.
 
 ---
 
-If the users will experience technical issues.
+Se gli utenti avranno problemi tecnici.
 
 ### --feedback--
 
-Brian does not mention technical issues in his concern.
+Brian non menziona problemi tecnici nella sua preoccupazione.
 
 ---
 
-If the downtime will affect the server's performance.
+Se il tempo di inattività influenzerà le prestazioni del server.
 
 ### --feedback--
 
-Brian's concern is not about the server's performance.
+La preoccupazione di Brian non riguarda le prestazioni del server.
 
 ## --video-solution--
 
@@ -52,7 +52,7 @@ Brian's concern is not about the server's performance.
 
 # --explanation--
 
-Brian is asking if they should update users about the downtime, showing his concern is about communication with the users rather than the length of downtime, technical issues, or server performance.
+Brian chiede se dovrebbero aggiornare gli utenti sul tempo di inattività, mostrando che la sua preoccupazione riguarda la comunicazione con gli utenti piuttosto che la durata del tempo di inattività, problemi tecnici o le prestazioni del server.
 
 # --scene--
 

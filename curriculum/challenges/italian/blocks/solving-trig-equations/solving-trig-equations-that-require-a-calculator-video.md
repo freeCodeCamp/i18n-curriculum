@@ -1,6 +1,6 @@
 ---
 id: 699e71f98f18cf77dfce5c17
-title: Solving Trig Equations that Require a Calculator
+title: Risolvere equazioni trigonometriche che richiedono una calcolatrice
 challengeType: 11
 videoId: 8IwkABil9qQ
 dashedName: solving-trig-equations-that-require-a-calculator
@@ -8,32 +8,30 @@ dashedName: solving-trig-equations-that-require-a-calculator
 
 # --description--
 
-In this video, you will learn how to solve trig equations that require a calculator.
+In questo video imparerai come risolvere equazioni trigonometriche che richiedono una calcolatrice.
 
 # --questions--
 
 ## --text--
 
-What is the main difference between solving basic trig equations with and without a calculator?
+Qual è la differenza principale tra risolvere equazioni trigonometriche di base con e senza calcolatrice?
 
 ## --answers--
 
-You can only solve sine and cosine equations with a calculator, not tangent equations.
+Puoi risolvere con la calcolatrice solo equazioni di seno e coseno, non di tangente.
 
 ---
 
-Using a calculator gives only approximate solutions, while without a calculator you always get exact answers.
+Usare una calcolatrice dà solo soluzioni approssimate, mentre senza calcolatrice ottieni sempre risposte esatte.
 
 ---
 
-Solving without a calculator requires multiplying all angles by 2.
+Risolvere senza calcolatrice richiede di moltiplicare tutti gli angoli per 2.
 
 ---
 
-Using a calculator does not involve using the unit circle to find solutions.
+Usare una calcolatrice non implica usare il cerchio unitario per trovare le soluzioni.
 
 ## --video-solution--
 
 4
-
-

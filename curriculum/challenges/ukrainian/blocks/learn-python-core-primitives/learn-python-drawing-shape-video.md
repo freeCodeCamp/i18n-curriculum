@@ -1,6 +1,6 @@
 ---
 id: 62baa9d28e8723f635a0093e
-title: Drawing a Shape
+title: Малювання форми
 challengeType: 11
 videoId: vcNZZSeyZkY
 dashedName: drawing-a-shape-learn-python-full-course-for-beginners
@@ -8,13 +8,13 @@ dashedName: drawing-a-shape-learn-python-full-course-for-beginners
 
 # --description--
 
-In this video, you will learn how to print a basic shape to the console using `print` statements.
+У цьому відео ви навчитеся виводити базову форму в консоль за допомогою інструкцій `print`.
 
 # --questions--
 
 ## --text--
 
-Which of the following is the correct way to print a triangle to the console?
+Який із наведених способів є правильним для виведення трикутника в консоль?
 
 ## --answers--
 

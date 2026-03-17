@@ -1,6 +1,6 @@
 ---
 id: 69a774ec5a27934b29e1eaca
-title: Vectors / Text Embeddings
+title: Vettori e incorporamenti di testo
 challengeType: 11
 videoId: 3tBOmjve79Y
 dashedName: vectors-text-embeddings-learn-prompting-fundamentals
@@ -8,31 +8,30 @@ dashedName: vectors-text-embeddings-learn-prompting-fundamentals
 
 # --description--
 
-In this video, you will learn about vectors and text embeddings.
+In questo video imparerai cosa sono i vettori e gli incorporamenti di testo.
 
 # --questions--
 
 ## --text--
 
-What is text embedding?
+Che cos’è un incorporamento di testo?
 
 ## --answers--
 
-A technique that translates text from one language to another automatically.
+Una tecnica che traduce automaticamente il testo da una lingua all’altra.
 
 ---
 
-A popular technique to represent textual information in a format that can be easily processed by algorithms.
+Una tecnica popolare per rappresentare le informazioni testuali in un formato facilmente elaborabile dagli algoritmi.
 
 ---
 
-A method for compressing text files to reduce storage space.
+Un metodo per comprimere i file di testo e ridurre lo spazio di archiviazione.
 
 ---
 
-A process that converts speech directly into written text.
+Un processo che converte direttamente il parlato in testo scritto.
 
 ## --video-solution--
 
 2
-

@@ -1,25 +1,25 @@
 ---
 id: 6723cc7a8e7aa3b9befd4bac
-title: DOM Manipulation and Click Events with JavaScript Review
+title: Revisione sulla manipolazione del DOM e sugli eventi click con JavaScript
 challengeType: 31
 dashedName: review-dom-manipulation-and-click-events-with-javascript
 ---
 
 # --interactive--
 
-## Working with the DOM and Web APIs
+## Lavorare con il DOM e le API web
 
-- **API**: An API (Application Programming Interface) is a set of rules and protocols that allow software applications to communicate with each other and exchange data efficiently.
-- **Web API**: Web APIs are specifically designed for web applications. These types of APIs are often divided into two main categories: browser APIs and third-party APIs.
-- **Browser APIs**: These APIs expose data from the browser. As a web developer, you can access and manipulate this data using JavaScript.
-- **Third-Party APIs**: These are not built into the browser by default. You have to retrieve their code in some way. Usually, they will have detailed documentation explaining how to use their services. An example is the Google Maps API, which you can use to display interactive maps on your website.
-- **DOM**: The DOM stands for Document Object Model. It's a programming interface that lets you interact with HTML documents. With the DOM, you can add, modify, or delete elements on a webpage. The root of the DOM tree is the `html` element. It's the top-level container for all the content of an HTML document. All other nodes are descendants of this root node. Then, below the root node, we find other nodes in the hierarchy. A parent node is an element that contains other elements. A child node is an element that is contained within another element.
-- **`navigator` Interface**: This provides information about the browser environment, such as the user agent string, the platform, and the version of the browser. A user agent string is a text string that identifies the browser and operating system being used.
-- **`window` Interface**: This represents the browser window that contains the DOM document. It provides methods and properties for interacting with the browser window, such as resizing the window, opening new windows, and navigating to different URLs.
+- **API**: Un’API (Application Programming Interface) è un insieme di regole e protocolli che permettono alle applicazioni software di comunicare tra loro e scambiare dati in modo efficiente.
+- **API web**: Le API web sono progettate specificamente per le applicazioni web. Questi tipi di API sono spesso divisi in due categorie principali: API del browser e API di terze parti.
+- **API del browser**: Queste API espongono dati dal browser. Come sviluppatore web, puoi consultare e manipolare questi dati usando JavaScript.
+- **API di terze parti**: Queste non sono integrate nel browser per impostazione predefinita. Devi recuperare il loro codice in qualche modo. Di solito, hanno una documentazione dettagliata che spiega come usare i loro servizi. Un esempio è l’API di Google Maps, che puoi usare per mostrare mappe interattive sul tuo sito web.
+- **DOM**: Il DOM sta per Document Object Model. È un’interfaccia di programmazione che ti permette di interagire con i documenti HTML. Con il DOM puoi aggiungere, modificare o eliminare elementi su una pagina web. La radice dell’albero DOM è l’elemento `html`. È il contenitore di livello superiore per tutto il contenuto di un documento HTML. Tutti gli altri nodi sono discendenti di questo nodo radice. Poi, sotto il nodo radice, troviamo altri nodi nella gerarchia. Un nodo genitore è un elemento che contiene altri elementi. Un nodo figlio è un elemento contenuto all’interno di un altro elemento.
+- **Interfaccia `navigator`**: Questa fornisce informazioni sull’ambiente del browser, come la stringa user agent, la piattaforma e la versione del browser. Una stringa user agent è una stringa di testo che identifica il browser e il sistema operativo in uso.
+- **Interfaccia `window`**: Questa rappresenta la finestra del browser che contiene il documento DOM. Fornisce metodi e proprietà per interagire con la finestra del browser, come ridimensionare la finestra, aprire nuove finestre e navigare verso URL diversi.
 
-## Working with the `querySelector()`, `querySelectorAll()` and `getElementById()` Methods
+## Lavorare con i metodi `querySelector()`, `querySelectorAll()` e `getElementById()`
 
-- **`getElementById()` Method**: This method is used to get an object that represents the HTML element with the specified `id`. Remember that ids must be unique in every HTML document, so this method will only return one Element object.
+- **Metodo `getElementById()`**: Questo metodo serve per ottenere un oggetto che rappresenta l’elemento HTML con l’`id` specificato. Ricorda che gli id devono essere unici in ogni documento HTML, quindi questo metodo restituirà solo un oggetto Element.
 
 :::interactive_editor
 
@@ -35,7 +35,7 @@ console.log(container)
 
 :::
 
-- **`querySelector()` Method**: This method is used to get the first element in the HTML document that matches the CSS selector passed as an argument.
+- **Metodo `querySelector()`**: Questo metodo serve per ottenere il primo elemento nel documento HTML che corrisponde al selettore CSS passato come argomento.
 
 :::interactive_editor
 
@@ -51,7 +51,7 @@ console.log(section)
 
 :::
 
-- **`querySelectorAll()` Method**: You can use this method to get a list of all the DOM elements that match a specific CSS selector.
+- **Metodo `querySelectorAll()`**: Puoi usare questo metodo per ottenere una lista di tutti gli elementi DOM che corrispondono a un selettore CSS specifico.
 
 :::interactive_editor
 
@@ -71,9 +71,9 @@ console.log(ingredients)
 
 :::
 
-## Working with the `innerText()`, `innerHTML()`, `createElement()` and `textContent()` Methods
+## Lavorare con i metodi `innerText()`, `innerHTML()`, `createElement()` e `textContent()`
 
-- **`innerHTML` Property**: This is a property of the `Element` that is used to set or update parts of the HTML markup.
+- **Proprietà `innerHTML`**: Questa è una proprietà del `Element` usata per impostare o aggiornare parti del markup HTML.
 
 :::interactive_editor
 
@@ -91,13 +91,13 @@ container.innerHTML = '<ul><li>Cheese</li><li>Tomato</li></ul>';
 
 :::
 
-- **`createElement` Method**: This is used to create an HTML element.
+- **Metodo `createElement`**: Serve per creare un elemento HTML.
 
 ```js
 const img = document.createElement("img");
 ```
 
-- **`innerText`**: This represents the visible text content of the HTML element and its descendants.
+- **`innerText`**: Rappresenta il contenuto testuale visibile dell’elemento HTML e dei suoi discendenti.
 
 :::interactive_editor
 
@@ -116,7 +116,7 @@ console.log(container.innerText);
 
 :::
 
-- **`textContent`**: This returns the plain text content of an element, including all the text within its descendants.
+- **`textContent`**: Restituisce il contenuto testuale semplice di un elemento, inclusi tutti i testi all’interno dei suoi discendenti.
 
 :::interactive_editor
 
@@ -135,9 +135,9 @@ console.log(container.textContent);
 
 :::
 
-## Working with the `appendChild()` and `removeChild()` Methods
+## Lavorare con i metodi `appendChild()` e `removeChild()`
 
-- **`appendChild()` Method**: This method is used to add a node to the end of the list of children of a specified parent node.
+- **Metodo `appendChild()`**: Questo metodo serve per aggiungere un nodo alla fine della lista dei figli di un nodo genitore specificato.
 
 :::interactive_editor
 
@@ -159,7 +159,7 @@ dessertsList.appendChild(listItem);
 
 :::
 
-- **`removeChild()` Method**: This method is used to remove a node from the DOM.
+- **Metodo `removeChild()`**: Questo metodo serve per rimuovere un nodo dal DOM.
 
 :::interactive_editor
 
@@ -181,9 +181,9 @@ sectionEl.removeChild(lastParagraph);
 
 :::
 
-## Work with the `setAttribute()` Method
+## Lavorare con il metodo `setAttribute()`
 
-- **Definition**: This method is used to set the attribute for a given element. If the attribute already exists, then the value is updated. Otherwise, a new attribute is added with a value.
+- **Definizione**: Questo metodo serve per impostare l’attributo di un dato elemento. Se l’attributo esiste già, allora il valore viene aggiornato. Altrimenti, viene aggiunto un nuovo attributo con un valore.
 
 :::interactive_editor
 
@@ -199,13 +199,13 @@ para.setAttribute("class", "my-class");
 
 :::
 
-## Event Object
+## Oggetto evento
 
-- **Definition**: The `Event` object is a payload that triggers when a user interacts with your web page in some way. These interactions can be anything from clicking on a button or focusing an input to shaking their mobile device. All `Event` objects will have the `type` property. This property reveals the type of event that triggered the payload, such as keydown or click. These values will correspond to the same values you might pass to `addEventListener()`, where you can capture and utilize the `Event` object.
+- **Definizione**: L’oggetto `Event` è un payload che si attiva quando un utente interagisce in qualche modo con la tua pagina web. Queste interazioni possono essere qualsiasi cosa, dal cliccare un pulsante o mettere il focus su un input fino a scuotere il dispositivo mobile. Tutti gli oggetti `Event` avranno la proprietà `type`. Questa proprietà rivela il tipo di evento che ha attivato il payload, come keydown o click. Questi valori corrisponderanno agli stessi valori che potresti passare a `addEventListener()`, dove puoi catturare e utilizzare l’oggetto `Event`.
 
-## `addEventListener()` and `removeEventListener()` Methods
+## Metodi `addEventListener()` e `removeEventListener()`
 
-- **`addEventListener` Method**: This method is used to listen for events. It takes two arguments: the event you want to listen for and a function that will be called when the event occurs. Some common examples of events would be click events, input events, and change events.
+- **Metodo `addEventListener`**: Questo metodo serve per ascoltare gli eventi. Prende due argomenti: l’evento che vuoi ascoltare e una funzione che verrà chiamata quando l’evento si verifica. Alcuni esempi comuni di eventi sono eventi click, eventi input e eventi change.
 
 :::interactive_editor
 
@@ -222,7 +222,7 @@ btn.addEventListener("click", () => alert("You clicked the button"));
 
 :::
 
-- **`removeEventListener()` Method**: This method is used to remove an event listener that was previously added to an element using the `addEventListener()` method. This is useful when you want to stop listening for a particular event on an element.
+- **Metodo `removeEventListener()`**: Questo metodo serve per rimuovere un event listener che era stato aggiunto precedentemente a un elemento usando il metodo `addEventListener()`. Questo è utile quando vuoi smettere di ascoltare un particolare evento su un elemento.
 
 :::interactive_editor
 
@@ -255,8 +255,7 @@ para.addEventListener("mouseover", () => {
 
 :::
 
-- **Inline Event Handlers**: Inline event handlers are special attributes on an HTML element that are used to execute JavaScript code when an event occurs. In modern JavaScript, inline event handlers are not considered best practice. It is preferred to use the `addEventListener` method instead.
-
+- **Gestori di eventi in linea**: I gestori di eventi in linea sono attributi speciali su un elemento HTML usati per eseguire codice JavaScript quando si verifica un evento. Nel JavaScript moderno, i gestori di eventi in linea non sono considerati una buona pratica. È preferibile usare invece il metodo `addEventListener`.
 
 :::interactive_editor
 
@@ -266,9 +265,9 @@ para.addEventListener("mouseover", () => {
 
 :::
 
-## The Change Event
+## L’evento change
 
-- **Definition**: The change event is a special event which is fired when the user modifies the value of certain input elements. Examples would include when a checkbox or a radio button is ticked. Or when the user makes a selection from something like a date picker or dropdown menu.
+- **Definizione**: L’evento change è un evento speciale che si attiva quando l’utente modifica il valore di certi elementi input. Esempi includono quando si seleziona una casella di spunta o un pulsante di opzione. Oppure quando l’utente fa una selezione da qualcosa come un selettore di data o un menu a discesa.
 
 :::interactive_editor
 
@@ -298,22 +297,22 @@ selectEl.addEventListener("change", (e) => {
 
 :::
 
-## Event Bubbling
+## Propagazione degli eventi (event bubbling)
 
-- **Definition**: Event bubbling, or propagation, refers to how an event "bubbles up" to parent objects when triggered.
-- **`stopPropagation()` Method**: This method prevents further propagation for an event.
+- **Definizione**: La propagazione degli eventi, o event bubbling, si riferisce a come un evento “risale” verso gli oggetti genitori quando viene attivato.
+- **Metodo `stopPropagation()`**: Questo metodo impedisce la propagazione ulteriore di un evento.
 
-## Event Delegation
+## Delegazione degli eventi
 
-- **Definition**: Event delegation is the process of listening to events that have bubbled up to a parent, rather than handling them directly on the element that triggered them.
+- **Definizione**: La delegazione degli eventi è il processo di ascoltare eventi che sono risaliti a un genitore, invece di gestirli direttamente sull’elemento che li ha attivati.
 
 ## DOMContentLoaded
 
-- **Definition**: The `DOMContentLoaded` event is fired when everything in the HTML document has been loaded and parsed. If you have external stylesheets, or images, the `DOMContentLoaded` event will not wait for those to be loaded. It will only wait for the HTML to be loaded.
+- **Definizione**: L’evento `DOMContentLoaded` si attiva quando tutto il documento HTML è stato caricato e analizzato. Se hai fogli di stile esterni o immagini, l’evento `DOMContentLoaded` non aspetterà che questi siano caricati. Aspetterà solo che l’HTML sia caricato.
 
-## Working with `style` and `classList`
+## Lavorare con `style` e `classList`
 
-- **`Element.style` Property**: This property is a read-only property that represents the inline style of an element. You can use this property to get or set the style of an element.
+- **Proprietà `Element.style`**: Questa proprietà è di sola lettura e rappresenta lo stile in linea di un elemento. Puoi usare questa proprietà per ottenere o impostare lo stile di un elemento.
 
 :::interactive_editor
 
@@ -329,7 +328,7 @@ paraEl.style.color = "red";
 
 :::
 
-- **`Element.classList` Property**: This property is a read-only property that can be used to add, remove, or toggle classes on an element.
+- **Proprietà `Element.classList`**: Questa proprietà è di sola lettura e può essere usata per aggiungere, rimuovere o alternare le classi su un elemento.
 
 :::interactive_editor
 
@@ -378,10 +377,9 @@ toggleBtn.addEventListener("click", () => menu.classList.toggle("show"));
 
 :::
 
+## Lavorare con i metodi `setTimeout()` e `setInterval()`
 
-## Working with the `setTimeout()` and `setInterval()` Methods
-
-- **`setTimeout()` Method**: This method lets you delay an action for a specified time.
+- **Metodo `setTimeout()`**: Questo metodo ti permette di ritardare un’azione per un tempo specificato.
 
 :::interactive_editor
 
@@ -393,7 +391,7 @@ setTimeout(() => {
 
 :::
 
-- **`setInterval()` Method**: This method keeps runs a piece of code repeatedly at a set interval. Since `setInterval()` keeps executing the provided function at the specified interval, you might want to stop it. For this, you have to use the `clearInterval()` method.
+- **Metodo `setInterval()`**: Questo metodo esegue ripetutamente un pezzo di codice a intervalli regolari. Poiché `setInterval()` continua a eseguire la funzione fornita all’intervallo specificato, potresti volerlo fermare. Per questo, devi usare il metodo `clearInterval()`.
 
 :::interactive_editor
 
@@ -414,9 +412,9 @@ setTimeout(() => {
 
 :::
 
-## The `requestAnimationFrame()` Method
+## Il metodo `requestAnimationFrame()`
 
-- **Definition**: This method allows you to schedule the next step of your animation before the next screen repaint, resulting in a fluid and visually appealing experience. The next screen repaint refers to the moment when the browser refreshes the visual display of the web page. This happens multiple times per second, typically around 60 times (or 60 frames per second) on most displays.
+- **Definizione**: Questo metodo ti permette di programmare il passaggio successivo della tua animazione prima del prossimo ridisegno dello schermo, ottenendo un’esperienza fluida e visivamente piacevole. Il prossimo ridisegno dello schermo si riferisce al momento in cui il browser aggiorna la visualizzazione visiva della pagina web. Questo avviene più volte al secondo, tipicamente circa 60 volte (o 60 frame al secondo) sulla maggior parte dei display.
 
 ```js
 function animate() {
@@ -430,7 +428,7 @@ function animate() {
 
 ## Web Animations API
 
-- **Definition**: The Web Animations API lets you create and control animations directly inside JavaScript. 
+- **Definizione**: La Web Animations API ti permette di creare e controllare animazioni direttamente dentro JavaScript.
 
 :::interactive_editor
 
@@ -465,9 +463,9 @@ const animation = square.animate(
 
 :::
 
-## The Canvas API
+## La Canvas API
 
-- **Definition**: The Canvas API is a powerful tool that lets you manipulate graphics right inside your JavaScript file. To work with the Canvas API, you first need to provide a `canvas` element in HTML. This element acts as a drawing surface you can manipulate with the instance methods and properties of the interfaces in the Canvas API. This API has interfaces like `HTMLCanvasElement`, `CanvasRenderingContext2D`, `CanvasGradient`, `CanvasPattern`, and `TextMetrics` which contain methods and properties you can use to create graphics in your JavaScript file.
+- **Definizione**: La Canvas API è uno strumento potente che ti permette di manipolare grafica direttamente nel tuo file JavaScript. Per lavorare con la Canvas API, devi prima fornire un elemento `canvas` in HTML. Questo elemento funge da superficie di disegno che puoi manipolare con i metodi e le proprietà delle interfacce della Canvas API. Questa API ha interfacce come `HTMLCanvasElement`, `CanvasRenderingContext2D`, `CanvasGradient`, `CanvasPattern` e `TextMetrics` che contengono metodi e proprietà che puoi usare per creare grafica nel tuo file JavaScript.
 
 :::interactive_editor
 
@@ -492,10 +490,10 @@ ctx.fillRect(1, 1, 150, 100);
 
 :::
 
-## Opening and Closing Dialogs and Modals with JavaScript
+## Aprire e chiudere dialog e modali con JavaScript
 
-- **Modal and Dialog Definitions**: Dialogs let you display important information or actions to users. With the HTML built-in dialog element, you can easily create these dialogs (both modal and non-modal dialogs) in your web apps. A modal dialog is a type of dialog that forces the user to interact with it before they can access the rest of the application or webpage. In contrast, a non-modal dialog allows the user to continue interacting with other parts of the page or application even when the dialog is open. It doesn't prevent access to the rest of the content.
-- **`showModal()` Method**: This method is used to open a modal.
+- **Definizioni di modale e dialog**: I dialog ti permettono di mostrare informazioni o azioni importanti agli utenti. Con l’elemento dialog integrato in HTML, puoi creare facilmente questi dialog (sia modali che non modali) nelle tue app web. Un dialog modale è un tipo di dialog che obbliga l’utente a interagire con esso prima di poter accedere al resto dell’applicazione o della pagina web. Al contrario, un dialog non modale permette all’utente di continuare a interagire con altre parti della pagina o dell’applicazione anche quando il dialog è aperto. Non impedisce l’accesso al resto del contenuto.
+- **Metodo `showModal()`**: Questo metodo serve per aprire un modale.
 
 :::interactive_editor
 
@@ -518,7 +516,7 @@ openButton.addEventListener('click', () => {
 
 :::
 
-- **`close()` Method**: This method is used to close the modal.
+- **Metodo `close()`**: Questo metodo serve per chiudere il modale.
 
 :::interactive_editor
 
@@ -549,4 +547,4 @@ closeButton.addEventListener('click', () => {
 
 # --assignment--
 
-Review the DOM Manipulation and Click Events with JavaScript topics and concepts.
+Rivedi gli argomenti e i concetti sulla manipolazione del DOM e sugli eventi click con JavaScript.

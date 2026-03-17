@@ -7,37 +7,37 @@ dashedName: step-20
 
 # --description--
 
-The `div` element is used mainly for design layout purposes, unlike the other content elements you have used so far. Додайте елемент `div` всередині елемента `body`, а потім перемістіть всі інші елементи всередину нового `div`.
+Елемент `div` використовується головним чином для макету дизайну, на відміну від інших елементів вмісту, які ви використовували досі. Додайте елемент `div` всередину елемента `body`, а потім перемістіть усі інші елементи всередину нового `div`.
 
-Додайте атрибут `id` зі значенням `menu` до початкового тегу `div`.
+Всередині відкриваючого тегу `div` додайте атрибут `id` зі значенням `menu`.
 
 # --hints--
 
-Початковий тег`<div>` повинен мати атрибут `id` зі значенням `menu`.
+Ваш відкриваючий тег `<div>` повинен мати атрибут `id`, встановлений у `menu`.
 
 ```js
 assert.strictEqual(document.querySelector('div')?.id, 'menu');
 ```
 
-Ви повинні мати кінцевий тег `</div>`.
+У вас має бути кінцевий тег `</div>`.
 
 ```js
 assert(code.match(/<\/div>/i));
 ```
 
-Не змінюйте наявний елемент `body`. Переконайтеся, що не видалили кінцевий тег.
+Ви не повинні змінювати існуючий елемент `body`. Переконайтеся, що ви не видалили кінцевий тег.
 
 ```js
 assert.lengthOf(document.querySelectorAll('body'), 1);
 ```
 
-Your `div` element should be nested in the `body`.
+Ваш елемент `div` має бути вкладений у `body`.
 
 ```js
 assert.equal(document.querySelector('div')?.parentElement?.tagName, 'BODY');
 ```
 
-Перемістіть всі інші елементи до нового `div`.
+Ви повинні перемістити всі інші елементи всередину нового `div`.
 
 ```js
 assert.lengthOf(document.querySelector('body > div#menu > main')?.children, 3);

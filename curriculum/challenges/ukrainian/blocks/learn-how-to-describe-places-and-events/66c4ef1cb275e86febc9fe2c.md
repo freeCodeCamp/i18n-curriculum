@@ -9,13 +9,12 @@ lang: en-US
 <!-- Audio Reference:
 Sarah: It should, but it's not displaying because the live server extension might not be running. -->
 
-
 <!-- Audio Reference:
 Sarah: It should, but it's not displaying because the live server extension might not be running. -->
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Прослухайте аудіо та доповніть речення нижче.
 
 # --fillInTheBlank--
 
@@ -29,7 +28,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-The action of showing or rendering something. This word ends in `-ing`.
+Дія показу або відтворення чогось. Це слово закінчується на `-ing`.
 
 ---
 
@@ -37,15 +36,15 @@ The action of showing or rendering something. This word ends in `-ing`.
 
 ### --feedback--
 
-Indicates the extension is active and functioning. This word ends in `-ing`.
+Вказує, що розширення активне і працює. Це слово закінчується на `-ing`.
 
 # --explanation--
 
-A gerund is a verb form ending in `-ing` that functions as a noun. In this sentence, `displaying` and `running` are gerunds that describe ongoing actions. For example:
+Герундій — це форма дієслова, що закінчується на `-ing` і виконує роль іменника. У цьому реченні `displaying` і `running` — це герундії, які описують триваючі дії. Наприклад:
 
-- `Updating the software is essential.` - Here, `Updating` is a gerund describing an action.
+- `Updating the software is essential.` — тут `Updating` є герундієм, що описує дію.
 
-In Sarah's sentence, `displaying` and `running` describe actions related to the live server extension and how it functions.
+У реченні Сари `displaying` і `running` описують дії, пов’язані з розширенням live server і тим, як воно працює.
 
 # --scene--
 

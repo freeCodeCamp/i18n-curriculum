@@ -1,6 +1,6 @@
 ---
 id: 65ffa9d80e7ffb1ab9b4df1c
-title: Task 11
+title: Завдання 11
 challengeType: 22
 dashedName: task-11
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --description--
 
-Listen to the audio and complete the sentence.
+Прослухайте аудіо та доповніть речення.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence.
 
 ### --feedback--
 
-It indicates that the action to follow happens as soon as the section is found. Capitalize this word.
+Це вказує, що дія, яка буде далі, відбувається одразу після того, як розділ знайдено. Напишіть це слово з великої літери.
 
 ---
 
@@ -32,7 +32,7 @@ It indicates that the action to follow happens as soon as the section is found. 
 
 ### --feedback--
 
-It's used here to mean locating or discovering the needed section in the documentation.
+Тут це слово означає знаходження або виявлення потрібного розділу в документації.
 
 ---
 
@@ -40,7 +40,7 @@ It's used here to mean locating or discovering the needed section in the documen
 
 ### --feedback--
 
-This word refers to the beginning paragraphs that provide a basic understanding of the section.
+Це слово позначає початкові абзаци, які дають базове розуміння розділу.
 
 ---
 
@@ -48,7 +48,7 @@ This word refers to the beginning paragraphs that provide a basic understanding 
 
 ### --feedback--
 
-It means what the documentation includes or addresses in terms of content.
+Це означає, що документація включає або охоплює у своєму вмісті.
 
 # --scene--
 

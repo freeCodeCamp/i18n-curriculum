@@ -1,6 +1,6 @@
 ---
 id: 699e56b58f18cf77dfce5c0b
-title: Arclength and Areas of Sectors
+title: Lunghezza dell'arco e aree dei settori
 challengeType: 11
 videoId: hNtpuLx5i6Y
 dashedName: arclength-and-areas-of-sectors
@@ -8,31 +8,30 @@ dashedName: arclength-and-areas-of-sectors
 
 # --description--
 
-In this video, you will learn about arcs, sectors and areas of sectors.
+In questo video imparerai cosa sono gli archi, i settori e le aree dei settori.
 
 # --questions--
 
 ## --text--
 
-What is a sector?
+Cos'è un settore?
 
 ## --answers--
 
-A wedge of pi for a circle.
+Un settore circolare di pi greco per un cerchio.
 
 ---
 
-A line that cuts a circle into two equal halves.
+Una linea che divide un cerchio in due metà uguali.
 
 ---
 
-The distance around the outside of a circle.
+La distanza intorno all'esterno di un cerchio.
 
 ---
 
-The center point of a circle.
+Il punto centrale di un cerchio.
 
 ## --video-solution--
 
 1
-

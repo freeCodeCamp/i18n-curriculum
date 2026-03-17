@@ -1,17 +1,17 @@
 ---
 id: 67f8eeab71f4f24ba1a3a7eb
-title: Step 11
+title: Passaggio 11
 challengeType: 0
 dashedName: step-11
 ---
 
 # --description--
 
-After the form, add a `div` element with an `id` of `results` that will display the search results.
+Dopo il modulo, aggiungi un elemento `div` con un `id` di `results` che mostrerà i risultati della ricerca.
 
 # --hints--
 
-You should have a `div` element with the `id` of `results` after the form.
+Dovresti avere un elemento `div` con il `id` di `results` dopo il modulo.
 
 ```js
 const searchContainer = document.getElementById("search-container");
@@ -122,7 +122,7 @@ export function FruitsSearch() {
           onChange={(e) => setQuery(e.target.value)}
         />
       </form>
-
+      
     --fcc-editable-region--
     </div>
   );

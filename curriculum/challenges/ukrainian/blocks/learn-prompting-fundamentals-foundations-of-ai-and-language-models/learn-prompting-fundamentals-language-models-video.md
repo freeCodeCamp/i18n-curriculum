@@ -1,6 +1,6 @@
 ---
 id: 69a767d55a27934b29e1eac4
-title: Language Models
+title: Мовні моделі
 challengeType: 11
 videoId: PAG0W_o6jDk
 dashedName: language-models-learn-prompting-fundamentals
@@ -8,13 +8,13 @@ dashedName: language-models-learn-prompting-fundamentals
 
 # --description--
 
-In this video, you will learn about language models.
+У цьому відео ви дізнаєтеся про мовні моделі.
 
 # --questions--
 
 ## --text--
 
-Which of the following was one of the first natural language processing models?
+Яка з наведених моделей була однією з перших у обробці природної мови?
 
 ## --answers--
 
@@ -35,4 +35,3 @@ RAG
 ## --video-solution--
 
 3
-

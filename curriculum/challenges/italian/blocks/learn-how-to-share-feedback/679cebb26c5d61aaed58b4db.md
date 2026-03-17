@@ -1,6 +1,6 @@
 ---
 id: 679cebb26c5d61aaed58b4db
-title: Task 79
+title: Attività 79
 challengeType: 19
 dashedName: task-79
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Ascolta l'audio e rispondi alla domanda qui sotto.
 
 # --questions--
 
 ## --text--
 
-What does James know about the issue with the latest update?
+Cosa sa James del problema con l'ultimo aggiornamento?
 
 ## --answers--
 
-He knows exactly what the issue is.
+Sa esattamente qual è il problema.
 
 ### --feedback--
 
-James clearly says he didn't hear anything.
+James dice chiaramente di non aver sentito nulla.
 
 ---
 
-He doesn't know anything about it.
+Non ne sa nulla.
 
 ---
 
-He already talked to the client.
+Ha già parlato con il client.
 
 ### --feedback--
 
-James does not mention speaking to the client.
+James non menziona di aver parlato con il client.
 
 ---
 
-He received an email about the issue.
+Ha ricevuto un'email riguardo al problema.
 
 ### --feedback--
 
-James states that he didn't hear anything.
+James afferma di non aver sentito nulla.
 
 ## --video-solution--
 
@@ -52,7 +52,7 @@ James states that he didn't hear anything.
 
 # --explanation--
 
-Short answers with auxiliary verbs repeat the auxiliary from the question to confirm or deny something. In this case, Maria asks, `Did you hear anything?`, and James responds, `No, I didn't.` instead of just saying `No.` Here are some other examples:
+Le risposte brevi con i verbi ausiliari ripetono l'ausiliare dalla domanda per confermare o negare qualcosa. In questo caso, Maria chiede `Did you hear anything?` e James risponde `No, I didn't.` invece di dire semplicemente `No.` Ecco altri esempi:
 
 - `Are you coming to the meeting?` → `Yes, I am.`
 
@@ -60,7 +60,7 @@ Short answers with auxiliary verbs repeat the auxiliary from the question to con
 
 - `Will she be here on time?` → `Yes, she will.`
 
-Short answers make responses sound natural and complete while avoiding repetition of the full sentence.
+Le risposte brevi rendono le risposte naturali e complete evitando la ripetizione dell'intera frase.
 
 # --scene--
 

@@ -1,6 +1,6 @@
 ---
 id: 67cafac07dc081eefb4d7adb
-title: Task 135
+title: Завдання 135
 challengeType: 19
 dashedName: task-135
 lang: en-US
@@ -10,51 +10,51 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Прослухайте аудіо та дайте відповідь на запитання нижче.
 
 # --questions--
 
 ## --text--
 
-What is the objective of having weekly meetings?
+Яка мета проведення щотижневих зустрічей?
 
 ## --answers--
 
-To reduce the number of tasks the team has.
+Щоб зменшити кількість завдань у команди.
 
 ### --feedback--
 
-Bob does not mention reducing tasks.
+Боб не згадує про зменшення кількості завдань.
 
 ---
 
-To avoid making any changes to the project.
+Щоб уникнути внесення будь-яких змін до проєкту.
 
 ### --feedback--
 
-Bob does not suggest that they avoid making changes.
+Боб не пропонує уникати внесення змін.
 
 ---
 
-To increase the number of meetings without a clear goal.
+Щоб збільшити кількість зустрічей без чіткої мети.
 
 ### --feedback--
 
-Bob has a specific goal and he mentions it.
+У Боба є конкретна мета, і він її озвучує.
 
 ---
 
-To make sure everyone stays updated on the project.
+Щоб усі залишалися в курсі оновлень проєкту.
 
 ## --video-solution--
 
-4
+4  
 
 # --explanation--
 
-`To keep someone in the loop` means to keep them informed about important updates and decisions. For example:
+`To keep someone in the loop` означає тримати їх у курсі важливих оновлень і рішень. Наприклад:
 
-`Please keep me in the loop about any changes to the schedule.` - This means the speaker wants to be updated if anything changes.
+`Please keep me in the loop about any changes to the schedule.` — це означає, що мовник хоче отримувати оновлення, якщо щось зміниться.
 
 # --scene--
 

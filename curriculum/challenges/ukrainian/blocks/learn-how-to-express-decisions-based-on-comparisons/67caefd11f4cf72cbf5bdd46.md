@@ -1,6 +1,6 @@
 ---
 id: 67caefd11f4cf72cbf5bdd46
-title: Task 37
+title: Завдання 37
 challengeType: 22
 dashedName: task-37
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Прослухайте аудіо та доповніть речення нижче.
 
 # --fillInTheBlank--
 
@@ -24,17 +24,17 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This two-word phrase is a casual way of saying "no" or "not exactly". It's often used when you want to politely disagree or give a softer, less direct response. The first letter of the first word is capitalized.
+Цей двослівний вираз — це неформальний спосіб сказати «ні» або «не зовсім». Його часто використовують, коли хочуть ввічливо заперечити або дати м’якшу, менш прямолінійну відповідь. Перша літера першого слова велика.
 
 # --explanation--
 
-`Not really` is commonly used to give a negative answer, but in a softer tone. It's more casual than simply saying `No`. For example:
+`Not really` зазвичай використовують, щоб дати від’ємну відповідь, але в м’якшому тоні. Це більш неформально, ніж просто сказати `No`. Наприклад:
 
 Person 1: `Do you think this software is user-friendly?`
 
 Person 2: `Not really.`
 
-This means it's not very user-friendly, but the speaker might not be completely certain.
+Це означає, що це не дуже зручно для користувача, але мовник може не бути повністю впевненим.
 
 # --scene--
 

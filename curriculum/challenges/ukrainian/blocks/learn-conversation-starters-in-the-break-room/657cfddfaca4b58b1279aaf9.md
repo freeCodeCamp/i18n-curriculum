@@ -1,6 +1,6 @@
 ---
 id: 657cfddfaca4b58b1279aaf9
-title: Task 74
+title: Завдання 74
 challengeType: 22
 dashedName: task-74
 lang: en-US
@@ -10,11 +10,11 @@ lang: en-US
 
 # --description--
 
-To `encourage` means to give support, confidence, or hope to someone. It's what a good coach does to motivate their team to do their best.
+Підтримати `encourage` означає надати комусь підтримку, впевненість або надію. Саме це робить хороший тренер, щоб мотивувати свою команду показати найкращий результат.
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Прослухайте аудіо та доповніть речення нижче.
 
 # --fillInTheBlank--
 
@@ -28,7 +28,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This verb is about motivating or inspiring someone to do something. It's similar to cheering someone on. Don't forget about the ending `-s`.
+Цей дієслово означає мотивувати або надихати когось щось зробити. Це схоже на те, щоб підбадьорювати когось. Не забудьте про закінчення `-s`.
 
 # --scene--
 

@@ -1,6 +1,6 @@
 ---
 id: 0e2f4bd857b1edc70bfcd1f9
-title: Working with Strings
+title: Lavorare con le stringhe
 challengeType: 11
 videoId: OrejgL7kP3M
 dashedName: working-with-strings-learn-python-full-course-for-beginners
@@ -8,13 +8,13 @@ dashedName: working-with-strings-learn-python-full-course-for-beginners
 
 # --description--
 
-In this video, you will learn about string concatenation, indexing, and useful string methods.
+In questo video imparerai la concatenazione di stringhe, l'indicizzazione e i metodi utili per le stringhe.
 
 # --questions--
 
 ## --text--
 
-Which of the following is the correct way to access the first character of a string?
+Qual è il modo corretto per consultare il primo carattere di una stringa?
 
 ## --answers--
 

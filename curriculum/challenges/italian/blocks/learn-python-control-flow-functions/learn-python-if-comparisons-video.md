@@ -1,6 +1,6 @@
 ---
 id: 8314d0bbddb0aa027a144705
-title: If Statements and Comparisons
+title: Istruzioni if e confronti
 challengeType: 11
 videoId: frb0CCrS9X8
 dashedName: if-statements-and-comparisons-learn-python-full-course-for-beginners
@@ -8,13 +8,13 @@ dashedName: if-statements-and-comparisons-learn-python-full-course-for-beginners
 
 # --description--
 
-In this video, you will learn about comparison operators.
+In questo video imparerai gli operatori di confronto.
 
 # --questions--
 
 ## --text--
 
-Which of the following operators is used to check if one number is greater than or equal to another number?
+Quale dei seguenti operatori si usa per verificare se un numero è maggiore o uguale a un altro numero?
 
 ## --answers--
 

@@ -8,83 +8,83 @@ dashedName: mutations
 
 # --description--
 
-Return `true` if the string in the first element of the array contains all of the letters of the string in the second element of the array.
+Поверніть `true`, якщо рядок у першому елементі масиву містить усі літери рядка у другому елементі масиву.
 
-Наприклад, `["hello", "Hello"]` має повертати `true`, оскільки всі літери другого рядка наявні у першому, незважаючи на регістр.
+Наприклад, `["hello", "Hello"]` має повернути `true`, тому що всі літери другого рядка присутні в першому, ігноруючи регістр.
 
-Аргументи `["hello", "hey"]` мають повертати `false`, оскільки рядок `hello` не містить `y`.
+Аргументи `["hello", "hey"]` мають повернути `false`, тому що рядок `hello` не містить `y`.
 
-`["Alien", "line"]` має повертати `true`, оскільки всі літери в `line` наявні в `Alien`.
+Нарешті, `["Alien", "line"]` має повернути `true`, тому що всі літери в `line` присутні в `Alien`.
 
 # --hints--
 
-`mutation(["hello", "hey"])` має повертати `false`.
+`mutation(["hello", "hey"])` має повернути `false`.
 
 ```js
 assert.isFalse(mutation(['hello', 'hey']));
 ```
 
-`mutation(["hello", "Hello"])` має повертати `true`.
+`mutation(["hello", "Hello"])` має повернути `true`.
 
 ```js
 assert.isTrue(mutation(['hello', 'Hello']));
 ```
 
-`mutation(["zyxwvutsrqponmlkjihgfedcba", "qrstu"])` має повертати `true`.
+`mutation(["zyxwvutsrqponmlkjihgfedcba", "qrstu"])` має повернути `true`.
 
 ```js
 assert.isTrue(mutation(['zyxwvutsrqponmlkjihgfedcba', 'qrstu']));
 ```
 
-`mutation(["Mary", "Army"])` має повертати `true`.
+`mutation(["Mary", "Army"])` має повернути `true`.
 
 ```js
 assert.isTrue(mutation(['Mary', 'Army']));
 ```
 
-`mutation(["Mary", "Aarmy"])` має повертати `true`.
+`mutation(["Mary", "Aarmy"])` має повернути `true`.
 
 ```js
 assert.isTrue(mutation(['Mary', 'Aarmy']));
 ```
 
-`mutation(["Alien", "line"])` має повертати `true`.
+`mutation(["Alien", "line"])` має повернути `true`.
 
 ```js
 assert.isTrue(mutation(['Alien', 'line']));
 ```
 
-`mutation(["floor", "for"])` має повертати `true`.
+`mutation(["floor", "for"])` має повернути `true`.
 
 ```js
 assert.isTrue(mutation(['floor', 'for']));
 ```
 
-`mutation(["hello", "neo"])` має повертати `false`.
+`mutation(["hello", "neo"])` має повернути `false`.
 
 ```js
 assert.isFalse(mutation(['hello', 'neo']));
 ```
 
-`mutation(["voodoo", "no"])` має повертати `false`.
+`mutation(["voodoo", "no"])` має повернути `false`.
 
 ```js
 assert.isFalse(mutation(['voodoo', 'no']));
 ```
 
-`mutation(["ate", "date"])` має повертати `false`.
+`mutation(["ate", "date"])` має повернути `false`.
 
 ```js
 assert.isFalse(mutation(['ate', 'date']));
 ```
 
-`mutation(["Tiger", "Zebra"])` має повертати `false`.
+`mutation(["Tiger", "Zebra"])` має повернути `false`.
 
 ```js
 assert.isFalse(mutation(['Tiger', 'Zebra']));
 ```
 
-`mutation(["Noel", "Ole"])` має повертати `true`.
+`mutation(["Noel", "Ole"])` має повернути `true`.
 
 ```js
 assert.isTrue(mutation(['Noel', 'Ole']));

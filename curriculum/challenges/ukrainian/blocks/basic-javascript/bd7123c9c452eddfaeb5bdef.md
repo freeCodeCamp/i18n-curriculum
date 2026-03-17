@@ -1,6 +1,6 @@
 ---
 id: bd7123c9c452eddfaeb5bdef
-title: Use Bracket Notation to Find the Nth-to-Last Character in a String
+title: Використовуйте дужкову нотацію, щоб знайти N-й з кінця символ у рядку
 challengeType: 1
 forumTopicId: 18344
 dashedName: use-bracket-notation-to-find-the-nth-to-last-character-in-a-string
@@ -8,34 +8,34 @@ dashedName: use-bracket-notation-to-find-the-nth-to-last-character-in-a-string
 
 # --description--
 
-You can use the same principle we just used to retrieve the last character in a string to retrieve the Nth-to-last character.
+Ви можете використати той самий принцип, який ми щойно застосували для отримання останнього символу в рядку, щоб отримати N-й з кінця символ.
 
-For example, you can get the value of the third-to-last letter of the `const firstName = "Augusta"` string by using `firstName[firstName.length - 3]`
+Наприклад, ви можете отримати значення третьої з кінця літери рядка `const firstName = "Augusta"`, використовуючи `firstName[firstName.length - 3]`
 
-Example:
+Приклад:
 
 ```js
 const firstName = "Augusta";
 const thirdToLastLetter = firstName[firstName.length - 3];
 ```
 
-`thirdToLastLetter` would have a value of the string `s`.
+`thirdToLastLetter` матиме значення рядка `s`.
 
 # --instructions--
 
-Use <dfn>bracket notation</dfn> to find the second-to-last character in the `lastName` string.
+Використайте <dfn>дужкову нотацію</dfn>, щоб знайти передостанній символ у рядку `lastName`.
 
-**Hint:** Try looking at the example above if you get stuck.
+**Підказка:** Спробуйте подивитися на приклад вище, якщо застрягнете.
 
 # --hints--
 
-`secondToLastLetterOfLastName` should be the letter `c`.
+`secondToLastLetterOfLastName` має бути літерою `c`.
 
 ```js
 assert(secondToLastLetterOfLastName === 'c');
 ```
 
-You should use `.length` to get the second last letter.
+Ви повинні використати `.length`, щоб отримати передостанню літеру.
 
 ```js
 assert(__helpers.removeJSComments(code).match(/\.length/g).length > 0);

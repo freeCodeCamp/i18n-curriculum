@@ -1,6 +1,6 @@
 ---
 id: 67adad520eb3ba05f8a1af1b
-title: Task 33
+title: Завдання 33
 challengeType: 19
 dashedName: task-33
 lang: en-US
@@ -12,13 +12,13 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Прослухайте аудіо та дайте відповідь на запитання нижче.
 
 # --questions--
 
 ## --text--
 
-What should Anna say to agree with Bob?
+Що має сказати Анна, щоб погодитися з Бобом?
 
 ## --answers--
 
@@ -30,7 +30,7 @@ ENd6da13d0
 
 ### --feedback--
 
-This phrase suggests confusion, but Anna needs to show agreement with Bob's idea.
+Ця фраза натякає на нерозуміння, але Анні потрібно показати згоду з ідеєю Боба.
 
 ---
 
@@ -46,11 +46,11 @@ ENc50c4990
 
 # --explanation--
 
-`That makes sense` is a natural way to show agreement. People use this phrase in conversations when they accept or understand a suggestion. For example:
+`That makes sense` — це природний спосіб показати згоду. Люди використовують цю фразу в розмовах, коли приймають або розуміють пропозицію. Наприклад:
 
-- Person 1: `We should optimize the code before adding new features to avoid performance issues.`
+- Особа 1: `We should optimize the code before adding new features to avoid performance issues.`
 
-- Person 2: `That makes sense. A slow app will frustrate users.` - This person agrees and understands why optimizing the code first is a good idea.
+- Особа 2: `That makes sense. A slow app will frustrate users.` — ця людина погоджується і розуміє, чому оптимізувати код спочатку — це хороша ідея.
 
 # --scene--
 

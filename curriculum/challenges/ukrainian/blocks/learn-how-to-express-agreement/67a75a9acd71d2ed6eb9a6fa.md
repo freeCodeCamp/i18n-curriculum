@@ -1,6 +1,6 @@
 ---
 id: 67a75a9acd71d2ed6eb9a6fa
-title: Task 20
+title: Завдання 20
 challengeType: 22
 dashedName: task-20
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Прослухайте аудіо та доповніть речення нижче.
 
 # --fillInTheBlank--
 
@@ -24,13 +24,13 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This two-word phrase refers to different situations that represent how a person might interact with a product.
+Ця двослівна фраза означає різні ситуації, які представляють, як людина може взаємодіяти з продуктом.
 
 # --explanation--
 
-`User scenarios` refers to different situations that describe how users interact with a product to achieve a goal. It helps teams test and improve the user experience. For example:
+`User scenarios` означає різні ситуації, які описують, як користувачі взаємодіють із продуктом, щоб досягти мети. Це допомагає командам тестувати та покращувати користувацький досвід. Наприклад:
 
-`We created user scenarios to see how customers navigate the checkout process.` – This means the team simulated different ways users complete a purchase to identify any issues.
+`We created user scenarios to see how customers navigate the checkout process.` – Це означає, що команда змоделювала різні способи, якими користувачі здійснюють покупку, щоб виявити будь-які проблеми.
 
 # --scene--
 

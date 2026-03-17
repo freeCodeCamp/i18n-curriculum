@@ -1,34 +1,34 @@
 ---
 id: 695cc8f280fef0cc3bed02cc
-title: What Is the Stream Module and How Does It Work?
+title: Що таке модуль stream і як він працює?
 challengeType: 19
 dashedName: what-is-the-stream-module-and-how-does-it-work
 ---
 
 # --description--
 
-The last core Node.js module we'll look at is `stream`. This module helps you handle data efficiently, especially when the data is too large to load all at once, like reading a big text file or downloading a large video.
+Останній основний модуль Node.js, який ми розглянемо, — це `stream`. Цей модуль допомагає ефективно обробляти дані, особливо коли дані занадто великі, щоб завантажити їх одразу, наприклад, читання великого текстового файлу або скачування великого відео.
 
-Instead of waiting to read or write all the data before doing anything, streams process chunks of data as they arrive, similar to how you can start watching a YouTube video before the whole video finishes loading.
+Замість того, щоб чекати, поки всі дані будуть прочитані або записані, потоки обробляють частини даних по мірі їх надходження, подібно до того, як ви можете почати дивитися відео на YouTube, поки воно ще завантажується.
 
-There are four main types of streams in Node.js: readable, writable, duplex, and transform:
+У Node.js є чотири основні типи потоків: readable, writable, duplex і transform:
 
-- Readable streams let you read data in chunks (for example, reading a large file).
-- Writable streams let you write data in chunks (for example, saving a file).
-- Duplex streams can both read and write data.
-- Transform streams are a special kind of duplex stream that can change or process the data as it flows through.
+- Readable потоки дозволяють читати дані частинами (наприклад, читання великого файлу).
+- Writable потоки дозволяють записувати дані частинами (наприклад, збереження файлу).
+- Duplex потоки можуть і читати, і записувати дані.
+- Transform потоки — це особливий тип duplex потоку, який може змінювати або обробляти дані під час їх проходження.
 
-You can import the stream classes you need by destructuring them from the stream module:
+Ви можете імпортувати потрібні класи потоків, деструктуризуючи їх із модуля stream:
 
 ```js
 const { Readable, Writable, Transform } = require("stream");
 ```
 
-Most of the time, you don't need to create custom stream classes yourself. For everyday file operations, built-in methods like `fs.createReadStream()` and `fs.createWriteStream()` are usually all you need.
+Зазвичай вам не потрібно створювати кастомні класи потоків самостійно. Для повсякденних операцій з файлами вбудованих методів, таких як `fs.createReadStream()` і `fs.createWriteStream()`, зазвичай достатньо.
 
-These two methods take the path of the file to read or write. This means you also need the `fs` and `path` modules to implement streaming on many occasions.
+Ці два методи приймають шлях до файлу для читання або запису. Це означає, що вам також потрібні модулі `fs` і `path` для реалізації потокової обробки у багатьох випадках.
 
-Here's how you can read data from a file, say an `input.txt` file:
+Ось як можна прочитати дані з файлу, наприклад, `input.txt` файлу:
 
 ```js
 const fs = require("fs");
@@ -41,7 +41,7 @@ const readInputFileStream = fs.createReadStream(inputFilePath);
 console.log(readInputFileStream);
 ```
 
-This will not do anything yet, as you need to use the events from the stream to read the data. For example, you can listen to the `data` event this way:
+Це поки що нічого не робить, оскільки потрібно використовувати події з потоку, щоб читати дані. Наприклад, можна слухати подію `data` таким чином:
 
 ```js
 readInputFileStream.on("data", (chunk) => {
@@ -49,7 +49,7 @@ readInputFileStream.on("data", (chunk) => {
 }); // Received 622 bytes of data
 ```
 
-You can also log the chunk of data to the console:
+Також можна виводити частину даних у консоль:
 
 ```js
 readInputFileStream.on("data", (chunk) => {
@@ -65,7 +65,7 @@ Received data: <Buffer 4c 6f 72 65 6d 20 69 70 73 75 6d
 */
 ```
 
-Since it returns a buffer, you can call the `toString()` method to convert it into readable text:
+Оскільки повертається буфер, можна викликати метод `toString()`, щоб перетворити його у читабельний текст:
 
 ```js
 const fs = require("fs");
@@ -93,7 +93,7 @@ eaque doloribus assumenda, minima fuga tempore, porro, debitis rem harum in
 */
 ```
 
-To implement a writable stream, particularly when you're reading from one file and writing to another, you need to create the read stream first, followed by the write stream:
+Щоб реалізувати writable потік, особливо коли ви читаєте з одного файлу і записуєте в інший, потрібно спочатку створити readable потік, а потім writable потік:
 
 ```js
 const fs = require("fs");
@@ -109,7 +109,7 @@ const readInputFileStream = fs.createReadStream(inputFilePath);
 const writeOutputFileStream = fs.createWriteStream(outputFilePath);
 ```
 
-Next, use the `.pipe()` method to connect the readable stream to the writable stream. This lets Node.js automatically read data from the source and write it to the destination, chunk by chunk:
+Далі використайте метод `.pipe()`, щоб з’єднати readable потік із writable потоком. Це дозволяє Node.js автоматично читати дані з джерела і записувати їх у призначення частинами:
 
 ```js
 const fs = require("fs");
@@ -128,7 +128,7 @@ const writeOutputFileStream = fs.createWriteStream(outputFilePath);
 readInputFileStream.pipe(writeOutputFileStream);
 ```
 
-Then you can listen for the `finish` and `error` events on the writable stream to know when the streaming is complete or if something goes wrong:
+Потім можна слухати події `finish` і `error` на writable потоці, щоб знати, коли потокова передача завершена або якщо сталася помилка:
 
 ```js
 const fs = require("fs");
@@ -154,13 +154,13 @@ writeOutputFileStream.on("error", (err) => {
 });
 ```
 
-The `finish` event tells you that the stream is complete and there is no more data to write, while the error event helps you catch problems that might happen during writing, like permissions issues or missing directories.
+Подія `finish` повідомляє, що потік завершено і більше немає даних для запису, а подія error допомагає відловити проблеми, які можуть виникнути під час запису, наприклад, проблеми з правами доступу або відсутність директорій.
 
 # --questions--
 
 ## --text--
 
-Which of these are the four main types of streams?
+Які з цих є чотирма основними типами потоків?
 
 ## --answers--
 
@@ -168,7 +168,7 @@ Request, Response, Event, and Error streams.
 
 ### --feedback--
 
-Think about how Node.js handles reading, writing, and transforming data.
+Подумайте, як Node.js обробляє читання, запис і трансформацію даних.
 
 ---
 
@@ -176,7 +176,7 @@ Readable, Editable, Duplex, and Transform streams.
 
 ### --feedback--
 
-Think about how Node.js handles reading, writing, and transforming data.
+Подумайте, як Node.js обробляє читання, запис і трансформацію даних.
 
 ---
 
@@ -184,7 +184,7 @@ Data, File, HTTP, and Buffer streams.
 
 ### --feedback--
 
-Think about how Node.js handles reading, writing, and transforming data.
+Подумайте, як Node.js обробляє читання, запис і трансформацію даних.
 
 ---
 
@@ -196,7 +196,7 @@ Readable, Writable, Duplex, and Transform streams.
 
 ## --text--
 
-What lets you implement a custom readable and writable stream?
+Що дозволяє реалізувати кастомний readable і writable потік?
 
 ## --answers--
 
@@ -208,7 +208,7 @@ The `http` module.
 
 ### --feedback--
 
-Think about the module that provides base classes for creating custom streams.
+Подумайте про модуль, який надає базові класи для створення кастомних потоків.
 
 ---
 
@@ -216,7 +216,7 @@ The `fs` module using `createReadStream()` and `createWriteStream()`.
 
 ### --feedback--
 
-Think about how Node.js handles reading, writing, and transforming data.
+Подумайте, як Node.js обробляє читання, запис і трансформацію даних.
 
 ---
 
@@ -224,7 +224,7 @@ The events module.
 
 ### --feedback--
 
-Think about how Node.js handles reading, writing, and transforming data.
+Подумайте, як Node.js обробляє читання, запис і трансформацію даних.
 
 ## --video-solution--
 
@@ -232,7 +232,7 @@ Think about how Node.js handles reading, writing, and transforming data.
 
 ## --text--
 
-What events can you use on a writable stream to know when streaming completes or an error occurs?
+Які події можна використовувати на writable потоці, щоб знати, коли потокова передача завершена або сталася помилка?
 
 ## --answers--
 
@@ -240,7 +240,7 @@ What events can you use on a writable stream to know when streaming completes or
 
 ### --feedback--
 
-Think about the writable stream events that signal completion and failure.
+Подумайте про події writable потоку, які сигналізують про завершення та помилки.
 
 ---
 
@@ -252,7 +252,7 @@ Think about the writable stream events that signal completion and failure.
 
 ### --feedback--
 
-Think about the writable stream events that signal completion and failure.
+Подумайте про події writable потоку, які сигналізують про завершення та помилки.
 
 ---
 
@@ -260,7 +260,7 @@ Think about the writable stream events that signal completion and failure.
 
 ### --feedback--
 
-Think about the writable stream events that signal completion and failure.
+Подумайте про події writable потоку, які сигналізують про завершення та помилки.
 
 ## --video-solution--
 

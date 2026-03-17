@@ -1,6 +1,6 @@
 ---
 id: 699e5ba28f18cf77dfce5c0f
-title: Unit Circle Definition of Sine and Cosine
+title: Definizione di seno e coseno con il cerchio unitario
 challengeType: 11
 videoId: zt4bkQc1nSw
 dashedName: unit-circle-definition-sine-cosine
@@ -8,31 +8,30 @@ dashedName: unit-circle-definition-sine-cosine
 
 # --description--
 
-In this video, you will learn how to use the unit circle to find the sine and cosine of angles.
+In questo video imparerai come usare il cerchio unitario per trovare il seno e il coseno degli angoli.
 
 # --questions--
 
 ## --text--
 
-What is a unit circle?
+Cos'è un cerchio unitario?
 
 ## --answers--
 
-A circle with a radius of 0 units.
+Un cerchio con raggio di 0 unità.
 
 ---
 
-A circle with a radius of 1 unit.
+Un cerchio con raggio di 1 unità.
 
 ---
 
-A circle with a radius of 2 units.
+Un cerchio con raggio di 2 unità.
 
 ---
 
-A circle with a radius of 0.5 units.
+Un cerchio con raggio di 0,5 unità.
 
 ## --video-solution--
 
 2
-

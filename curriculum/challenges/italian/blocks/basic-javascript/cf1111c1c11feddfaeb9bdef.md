@@ -8,15 +8,15 @@ dashedName: generate-random-fractions-with-javascript
 
 # --description--
 
-Random numbers are useful for creating random behavior.
+I numeri casuali sono utili per creare comportamenti casuali.
 
-JavaScript ha una funzione `Math.random()` che genera un numero decimale casuale tra `0` (incluso) e `1` (escluso). Così `Math.random()` può restituire uno `0` ma mai un `1`.
+JavaScript ha una `Math.random()` funzione che genera un numero decimale casuale compreso tra `0` (incluso) e `1` (escluso). Quindi `Math.random()` può restituire un `0` ma mai un `1`.
 
-**Nota:** Come visto in <a href="/learn/javascript-algorithms-and-data-structures/basic-javascript/storing-values-with-the-assignment-operator" target="_blank" rel="noopener noreferrer nofollow">Memorizzare valori con l'operatore di assegnazione</a>, tutte le chiamate di funzione saranno risolte prima dell'esecuzione del `return`, così possiamo fare un `return` del valore della funzione `Math.random()`.
+**Nota:** Come in <a href="/learn/javascript-algorithms-and-data-structures/basic-javascript/storing-values-with-the-assignment-operator" target="_blank" rel="noopener noreferrer nofollow">Memorizzare valori con l'operatore di assegnazione</a>, tutte le chiamate di funzione saranno risolte prima che `return` venga eseguito, quindi possiamo `return` il valore della funzione `Math.random()`.
 
 # --instructions--
 
-Cambia `randomFraction` per restituire un numero casuale invece di restituire `0`.
+Modifica `randomFraction` per restituire un numero casuale invece di restituire `0`.
 
 # --hints--
 

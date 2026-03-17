@@ -1,6 +1,6 @@
 ---
 id: 67cc2baefeeb9b62356d8ed7
-title: Task 50
+title: Attività 50
 challengeType: 22
 dashedName: task-50
 lang: en-US
@@ -10,90 +10,90 @@ lang: en-US
 
 # --description--
 
-This is a review of the entire dialogue you just studied.
+Questa è una revisione dell’intero dialogo che hai appena studiato.
 
 # --instructions--
 
-Write the following words or phrases in the correct spot:
+Scrivi le seguenti parole o frasi nel posto corretto:  
 
-`more`, `easier`, `better`, `as flexible`, `nicer`, `as easily`, and `slightly`.
+`more`, `easier`, `better`, `as flexible`, `nicer`, `as easily`, e `slightly`.
 
 # --fillInTheBlank--
 
 ## --sentence--
 
-`Sophie: Hey, Jake. I'm looking at two software tools for our next project. Can you help me decide which one is BLANK for security?`
+`Sophie: Hey, Jake. I'm looking at two software tools for our next project. Can you help me decide which one is BLANK for security?`  
 
-`Jake: Sure, Sophie. What are the options?`
+`Jake: Sure, Sophie. What are the options?`  
 
-`Sophie: The first one is SecureSoft, and the other is SafeGuard. SecureSoft seems BLANK user-friendly, but I'm not sure about its security features.`
+`Sophie: The first one is SecureSoft, and the other is SafeGuard. SecureSoft seems BLANK user-friendly, but I'm not sure about its security features.`  
 
-`Jake: I know SecureSoft. It's a bit BLANK to use, but I think SafeGuard is more robust when it comes to security. It has stronger encryption and better protection against vulnerabilities.`
+`Jake: I know SecureSoft. It's a bit BLANK to use, but I think SafeGuard is more robust when it comes to security. It has stronger encryption and better protection against vulnerabilities.`  
 
-`Sophie: That makes sense. SecureSoft does have a BLANK interface, but if SafeGuard is more secure, it's probably the better choice. What about performance? Which one is faster?`
+`Sophie: That makes sense. SecureSoft does have a BLANK interface, but if SafeGuard is more secure, it's probably the better choice. What about performance? Which one is faster?`  
 
-`Jake: From my experience, SafeGuard is BLANK faster. It has more efficient processing, so it doesn't slow down the system as much. SecureSoft is good, but it can be a bit sluggish when handling large data sets.`
+`Jake: From my experience, SafeGuard is BLANK faster. It has more efficient processing, so it doesn't slow down the system as much. SecureSoft is good, but it can be a bit sluggish when handling large data sets.`  
 
-`Sophie: Thanks for pointing that out. I noticed that SecureSoft has more integration options with other tools. Is SafeGuard BLANK?`
+`Sophie: Thanks for pointing that out. I noticed that SecureSoft has more integration options with other tools. Is SafeGuard BLANK?`  
 
-`Jake: Not really. SafeGuard is more focused on security, so it might not integrate BLANK with other platforms. If integration is crucial, you might have to do some extra work with SafeGuard.`
+`Jake: Not really. SafeGuard is more focused on security, so it might not integrate BLANK with other platforms. If integration is crucial, you might have to do some extra work with SafeGuard.`  
 
-`Sophie: That's good to know. I think I'll go with SafeGuard since security is our top priority, but I'll keep in mind the integration challenges. Thanks for your help, Jake.`
+`Sophie: That's good to know. I think I'll go with SafeGuard since security is our top priority, but I'll keep in mind the integration challenges. Thanks for your help, Jake.`  
 
-`Jake: No problem, Sophie. If you have any other questions, just let me know.`
+`Jake: No problem, Sophie. If you have any other questions, just let me know.`  
 
 ## --blanks--
 
-`better`
+`better`  
 
-### --feedback--
+### --feedback--  
 
-This comparative adjective describes something that surpasses another in quality.
-
----
-
-`more`
-
-### --feedback--
-
-This word is used to form the comparative of adjectives. It comes before an adjective and indicates a higher degree.
+Questo aggettivo comparativo descrive qualcosa che supera un’altra cosa in qualità.
 
 ---
 
-`easier`
+`more`  
 
-### --feedback--
+### --feedback--  
 
-This comparative adjective means something requires less effort.
-
----
-
-`nicer`
-
-### --feedback--
-
-This comparative adjective means more pleasant or attractive.
+Questa parola si usa per formare il comparativo degli aggettivi. Viene prima di un aggettivo e indica un grado più alto.  
 
 ---
 
-`slightly`
+`easier`  
 
-### --feedback--
+### --feedback--  
 
-This adverb means a little or to a small degree.
-
----
-
-`as flexible`
-
-### --feedback--
-
-This phrase is used in comparisons to show equal ability to adapt. The first word is a conjunction, and the second is an adjective.
+Questo aggettivo comparativo significa che qualcosa richiede meno sforzo.
 
 ---
 
-`as easily`
+`nicer`  
 
-### --feedback--
+### --feedback--  
 
-This phrase is used in comparisons to show equal ease of action. The first word is a conjunction, and the second is an adverb.  
+Questo aggettivo comparativo significa più piacevole o attraente.
+
+---
+
+`slightly`  
+
+### --feedback--  
+
+Questo avverbio significa un po’ o in piccola misura.
+
+---
+
+`as flexible`  
+
+### --feedback--  
+
+Questa frase si usa nei confronti per mostrare uguale capacità di adattamento. La prima parola è una congiunzione, la seconda un aggettivo.  
+
+---
+
+`as easily`  
+
+### --feedback--  
+
+Questa frase si usa nei confronti per mostrare uguale facilità di azione. La prima parola è una congiunzione, la seconda un avverbio.

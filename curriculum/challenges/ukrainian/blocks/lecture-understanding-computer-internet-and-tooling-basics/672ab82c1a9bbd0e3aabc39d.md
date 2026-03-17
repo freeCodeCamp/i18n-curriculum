@@ -1,67 +1,67 @@
 ---
 id: 672ab82c1a9bbd0e3aabc39d
-title: How Can You Effectively Work With Your Keyboard, Mouse, and Other Pointing Devices?
+title: "Як ефективно працювати з клавіатурою, мишею та іншими вказівними пристроями?"
 challengeType: 19
 dashedName: how-to-effectively-work-with-your-keyboard-mouse-and-other-pointing-devices
 ---
 
 # --description--
 
-Many of you have been used to working with your keyboard and mouse for years on end for a variety of activities like gaming, performing tasks for work, or surfing the web.
+Багато хто з вас звик працювати з клавіатурою та мишею роками для різних завдань, таких як ігри, виконання робочих завдань або серфінг в інтернеті.
 
-But prolonged misuse of these devices can lead to serious health problems down the road.
+Але тривале неправильне використання цих пристроїв може призвести до серйозних проблем зі здоров’ям у майбутньому.
 
-In this lesson, we will cover ways to work with your computer’s keyboard and mouse in healthy ways.
+У цьому уроці ми розглянемо способи здорового використання клавіатури та миші вашого комп’ютера.
 
-The first tip is to be mindful of the mouse grip. When working on serious tasks for work or during intense gaming moments, you may tend to grip the mouse too hard. However, this can lead to serious hand and wrist issues. To prevent this, you want to make sure to hold the mouse gently and keep your fingers nice and relaxed.
+Перша порада — звертайте увагу на хват миші. Під час серйозної роботи або інтенсивних ігрових моментів ви можете схильні сильно стискати мишу. Однак це може спричинити серйозні проблеми з руками та зап’ястями. Щоб цього уникнути, тримайте мишу ніжно і тримайте пальці розслабленими.
 
-The second tip is to consider using an ergonomic keyboard and mouse. These tools are designed to reduce wrist strain by keeping your hands in a more natural position.
+Друга порада — розгляньте можливість використання ергономічної клавіатури та миші. Ці пристрої розроблені для зменшення навантаження на зап’ястя, утримуючи руки у більш природному положенні.
 
-While prices for these devices can vary and may be a costly purchase for your current budget, they can be a good investment in your overall long-term health. So, you might consider starting to research an ergonomic keyboard and mouse to use.
+Хоча ціни на такі пристрої можуть варіюватися і бути дорогими для вашого поточного бюджету, вони можуть стати хорошою інвестицією у ваше довгострокове здоров’я. Тож варто почати досліджувати ергономічні клавіатуру та мишу для використання.
 
-Another tip is to keep your mouse the same height as your keyboard. You don't want to have to reach up or down to use the mouse, as this can strain your wrist and arm muscles over time.
+Ще одна порада — тримати мишу на одному рівні з клавіатурою. Не варто тягнутися вгору чи вниз, щоб користуватися мишею, бо це може з часом спричинити напруження м’язів зап’ястя та руки.
 
-You also want to be mindful of your overall posture when sitting at the computer for long periods. Being slouched over your computer and putting your wrists in an unnatural position at the keyboard can lead to long-term health issues.
+Також звертайте увагу на свою загальну поставу під час тривалого сидіння за комп’ютером. Сутулість і неприродне положення зап’ясть на клавіатурі можуть призвести до довготривалих проблем зі здоров’ям.
 
-While maintaining good posture is important, modern ergonomics emphasizes the importance of movement and dynamic sitting. The human body is designed for movement, and staying in any fixed position, even a straight one, for too long can place continuous pressure on the spine. Taking regular breaks, adjusting your position throughout the day, and maintaining a natural wrist position can help improve circulation, reduce fatigue, and support long-term spinal health.
+Хоча підтримка правильної постави важлива, сучасна ергономіка підкреслює значення руху та динамічного сидіння. Людське тіло створене для руху, і тривале перебування в будь-якій фіксованій позі, навіть прямій, може створювати безперервний тиск на хребет. Регулярні перерви, зміна положення протягом дня та підтримка природного положення зап’ясть допоможуть покращити кровообіг, зменшити втому та підтримати здоров’я хребта в довгостроковій перспективі.
 
-The last tip would be to use keyboard shortcuts whenever possible to help minimize typing. There are dozens of shortcuts available for tasks such as navigating the web, navigating around your operating system, working within a code editor, and more. So, it’s best to research some of these keyboard shortcuts and start incorporating them into your daily computer usage.
+Остання порада — використовуйте клавіатурні скорочення, коли це можливо, щоб мінімізувати набір тексту. Існують десятки скорочень для навігації в інтернеті, операційній системі, роботі в редакторі коду та інших завданнях. Тож варто дослідити деякі з цих клавіатурних скорочень і почати застосовувати їх у щоденній роботі за комп’ютером.
 
-As you continue using your mouse and keyboard for upcoming coding projects and other activities, remember to keep these health tips in mind.
+Продовжуючи працювати з мишею та клавіатурою у майбутніх проєктах і інших завданнях, пам’ятайте про ці поради для збереження здоров’я.
 
 # --questions--
 
 ## --text--
 
-What is one of the risks of gripping the mouse too tightly?
+Який ризик виникає при надто сильному хваті миші?
 
 ## --answers--
 
-It can improve your accuracy in gaming.
+Це може покращити вашу точність у грі.
 
 ### --feedback--
 
-Pay attention to the advice about mouse grip at the beginning of the lesson.
+Зверніть увагу на пораду про хват миші на початку уроку.
 
 ---
 
-It helps you complete tasks faster.
+Це допомагає швидше виконувати завдання.
 
 ### --feedback--
 
-Pay attention to the advice about mouse grip at the beginning of the lesson.
+Зверніть увагу на пораду про хват миші на початку уроку.
 
 ---
 
-It can cause hand and wrist issues.
+Це може спричинити проблеми з руками та зап’ястями.
 
 ---
 
-It improves your overall performance.
+Це покращує вашу загальну продуктивність.
 
 ### --feedback--
 
-Pay attention to the advice about mouse grip at the beginning of the lesson.
+Зверніть увагу на пораду про хват миші на початку уроку.
 
 ## --video-solution--
 
@@ -69,35 +69,35 @@ Pay attention to the advice about mouse grip at the beginning of the lesson.
 
 ## --text--
 
-What is the benefit of using an ergonomic keyboard and mouse?
+Яка користь від використання ергономічної клавіатури та миші?
 
 ## --answers--
 
-They help you type faster.
+Вони допомагають швидше друкувати.
 
 ### --feedback--
 
-The second tip in the lesson mentions ergonomic devices as a way to protect your hands and wrists.
+Друга порада в уроці згадує ергономічні пристрої як спосіб захистити руки та зап’ястя.
 
 ---
 
-They are designed for gaming performance.
+Вони призначені для ігрової продуктивності.
 
 ### --feedback--
 
-The second tip in the lesson mentions ergonomic devices as a way to protect your hands and wrists.
+Друга порада в уроці згадує ергономічні пристрої як спосіб захистити руки та зап’ястя.
 
 ---
 
-They reduce wrist strain by keeping your hands in a more natural position.
+Вони зменшують навантаження на зап’ястя, утримуючи руки у більш природному положенні.
 
 ---
 
-They increase screen resolution.
+Вони підвищують роздільність екрану.
 
 ### --feedback--
 
-The second tip in the lesson mentions ergonomic devices as a way to protect your hands and wrists.
+Друга порада в уроці згадує ергономічні пристрої як спосіб захистити руки та зап’ястя.
 
 ## --video-solution--
 
@@ -105,35 +105,35 @@ The second tip in the lesson mentions ergonomic devices as a way to protect your
 
 ## --text--
 
-What is the recommendation for the height of your mouse in relation to your keyboard?
+Яка рекомендація щодо висоти миші відносно клавіатури?
 
 ## --answers--
 
-The mouse should be far above the keyboard.
+Миша має бути значно вище за клавіатуру.
 
 ### --feedback--
 
-Think about how to position your mouse to avoid wrist and arm strain.
+Подумайте, як розташувати мишу, щоб уникнути напруження зап’ястя та руки.
 
 ---
 
-The mouse should be at the same height as the keyboard.
+Миша має бути на одному рівні з клавіатурою.
 
 ---
 
-The mouse should be lower than the keyboard.
+Миша має бути нижче за клавіатуру.
 
 ### --feedback--
 
-Think about how to position your mouse to avoid wrist and arm strain.
+Подумайте, як розташувати мишу, щоб уникнути напруження зап’ястя та руки.
 
 ---
 
-The mouse should be higher than the keyboard.
+Миша має бути вище за клавіатуру.
 
 ### --feedback--
 
-Think about how to position your mouse to avoid wrist and arm strain.
+Подумайте, як розташувати мишу, щоб уникнути напруження зап’ястя та руки.
 
 ## --video-solution--
 

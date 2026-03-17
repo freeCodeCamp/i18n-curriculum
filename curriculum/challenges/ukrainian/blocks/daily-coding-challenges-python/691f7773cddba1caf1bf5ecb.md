@@ -1,20 +1,20 @@
 ---
 id: 691f7773cddba1caf1bf5ecb
-title: "Challenge 132: Purge Most Frequent"
+title: "Завдання 132: Видалити найчастіші елементи"
 challengeType: 29
 dashedName: challenge-132
 ---
 
 # --description--
 
-Given an array of values, remove all occurrences of the most frequently occurring element and return the resulting array.
+Дано масив значень. Видаліть усі входження елемента, який зустрічається найчастіше, і поверніть отриманий масив.
 
-- If multiple values are tied for most frequent, remove all of them.
-- Do not change any of the other elements or their order.
+- Якщо кілька значень мають однакову максимальну частоту, видаліть усі їх.
+- Не змінюйте інші елементи або їх порядок.
 
 # --hints--
 
-`purge_most_frequent([1, 2, 2, 3])` should return `[1, 3]`.
+`purge_most_frequent([1, 2, 2, 3])` має повертати `[1, 3]`.
 
 ```js
 ({test: () => { runPython(`
@@ -23,7 +23,7 @@ TestCase().assertEqual(purge_most_frequent([1, 2, 2, 3]), [1, 3])`)
 }})
 ```
 
-`purge_most_frequent(["a", "b", "d", "b", "c", "d", "c", "d", "c", "d"])` should return `["a", "b", "b", "c", "c", "c"]`.
+`purge_most_frequent(["a", "b", "d", "b", "c", "d", "c", "d", "c", "d"])` має повертати `["a", "b", "b", "c", "c", "c"]`.
 
 ```js
 ({test: () => { runPython(`
@@ -32,7 +32,7 @@ TestCase().assertEqual(purge_most_frequent(["a", "b", "d", "b", "c", "d", "c", "
 }})
 ```
 
-`purge_most_frequent(["red", "blue", "green", "red", "blue", "green", "blue"])` should return `["red", "green", "red", "green"]`.
+`purge_most_frequent(["red", "blue", "green", "red", "blue", "green", "blue"])` має повертати `["red", "green", "red", "green"]`.
 
 ```js
 ({test: () => { runPython(`
@@ -41,7 +41,7 @@ TestCase().assertEqual(purge_most_frequent(["red", "blue", "green", "red", "blue
 }})
 ```
 
-`purge_most_frequent([5, 5, 5, 5])` should return `[]`.
+`purge_most_frequent([5, 5, 5, 5])` має повертати `[]`.
 
 ```js
 ({test: () => { runPython(`
@@ -50,7 +50,7 @@ TestCase().assertEqual(purge_most_frequent([5, 5, 5, 5]), [])`)
 }})
 ```
 
-`purgeMostFrequent([10, 12, 7, 3, 7, 7, 12, 12])` should return `[10, 3]`.
+`purgeMostFrequent([10, 12, 7, 3, 7, 7, 12, 12])` має повертати `[10, 3]`.
 
 ```js
 ({test: () => { runPython(`

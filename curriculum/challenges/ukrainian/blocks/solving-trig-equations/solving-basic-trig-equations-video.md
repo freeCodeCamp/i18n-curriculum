@@ -1,6 +1,6 @@
 ---
 id: 699e71f58f18cf77dfce5c16
-title: Solving Basic Trig Equations
+title: Розв’язання базових тригонометричних рівнянь
 challengeType: 11
 videoId: JfTpmqwIzzc
 dashedName: solving-basic-trig-equations
@@ -8,32 +8,30 @@ dashedName: solving-basic-trig-equations
 
 # --description--
 
-In this video, you will learn how to solve basic trigonometric equations.
+У цьому відео ви навчитеся розв’язувати базові тригонометричні рівняння.
 
 # --questions--
 
 ## --text--
 
-What was the first step in solving the trig equation in the first example?
+Який був перший крок у розв’язанні тригонометричного рівняння в першому прикладі?
 
 ## --answers--
 
-Isolating the cosine function.
+Ізолювання функції косинуса.
 
 ---
 
-Maximizing the cosine function.
+Максимізація функції косинуса.
 
 ---
 
-Minimizing the cosine function.
+Мінімізація функції косинуса.
 
 ---
 
-Replacing the cosine function with the sine function.
+Заміна функції косинуса на функцію синуса.
 
 ## --video-solution--
 
 1
-
-

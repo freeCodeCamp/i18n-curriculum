@@ -7,20 +7,20 @@ dashedName: step-33
 
 # --description--
 
-Для останньої умови вам потрібно буде перевірити, чи позиція `x` гравця перевищує правий край полотна. Якщо так, потрібно буде встановити максимальне значення для позиції `x` гравця, щоб гравець випадково не пішов за межі екрана праворуч.
+Для останньої умови вам потрібно перевірити, чи позиція гравця `x` перевищила правий край полотна. Якщо так, потрібно встановити позицію гравця `x` на максимальне значення, щоб гравець випадково не вийшов за межі екрану праворуч.
 
-У методі `update` створіть інструкцію `if`, яка перевіряє, чи `this.position.x >= canvas.width - this.width * 2`.
+Усередині вашого методу `update` створіть інструкцію `if`, яка перевіряє, чи `this.position.x >= canvas.width - this.width * 2`.
 
 # --hints--
 
-Метод `update` має містити іншу інструкцію `if`.
+У вас має бути ще одна інструкція `if` всередині методу `update`.
 
 ```js
 const player = new Player();
 assert.lengthOf(player?.update?.toString().match(/if\s*\(\s*.*\s*\)\s*{/g), 4);
 ```
 
-Інструкція `if` має перевіряти, чи `this.position.x >= canvas.width - this.width * 2`.
+Ваша інструкція `if` має перевіряти, чи `this.position.x >= canvas.width - this.width * 2`.
 
 ```js
 const player = new Player();
@@ -197,7 +197,7 @@ class Player {
     ctx.fillStyle = "#99c9ff";
     ctx.fillRect(this.position.x, this.position.y, this.width, this.height);
   }
-
+  
   update() {
     this.draw();
     this.position.x += this.velocity.x;

@@ -1,25 +1,25 @@
 ---
 id: 60ffe7d8aae62c05bcc9e7eb
-title: Step 54
+title: Passaggio 54
 challengeType: 0
 dashedName: step-54
 ---
 
 # --description--
 
-With a `display` of `block` the submit button sits flush against the left edge of its parent.
+Con un `display` di `block` il pulsante di invio si trova aderente al bordo sinistro del suo genitore.
 
-Use the same technique used to center the `form` to center the submit button.
+Usa la stessa tecnica usata per centrare il `form` per centrare il pulsante di invio.
 
 # --hints--
 
-You should give the submit button a `margin` of `0 auto`.
+Dovresti dare al pulsante di invio un `margin` di `0 auto`.
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('input[type="submit"]')?.margin, '0px auto');
 ```
 
-You should not give the submit button a `min-width` or `max-width`.
+Non dovresti dare al pulsante di invio un `min-width` o `max-width`.
 
 ```js
 assert.isEmpty(new __helpers.CSSHelp(document).getStyle('input[type="submit"]')?.minWidth);
@@ -142,7 +142,7 @@ input[type="submit"] {
   display: block;
   width: 60%;
 --fcc-editable-region--
-
+  
 --fcc-editable-region--
 }
 

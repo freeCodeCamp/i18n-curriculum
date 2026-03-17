@@ -7,23 +7,23 @@ dashedName: step-47
 
 # --description--
 
-Додайте елемент `h2` в нову секцію та надайте йому текст `Desserts`.
+Додайте елемент `h2` у новий розділ і надайте йому текст `Desserts`.
 
 # --hints--
 
-Не змінюйте наявний елемент `section`.
+Ви не повинні змінювати свій існуючий елемент `section`.
 
 ```js
 assert.lengthOf(document.querySelectorAll('section'), 2);
 ```
 
-Додайте елемент `h2` до другого елемента `section`.
+Ви повинні додати елемент `h2` у свій другий елемент `section`.
 
 ```js
 assert.strictEqual(document.querySelectorAll('section')?.[1]?.children?.[0]?.tagName, 'H2');
 ```
 
-Новий елемент `h2` повинен містити текст `Desserts`.
+Ваш новий елемент `h2` має містити текст `Desserts`.
 
 ```js
 assert.match(document.querySelectorAll('h2')?.[1]?.innerText, /Desserts/i);
@@ -105,4 +105,3 @@ h1, h2, p {
   width: 25%;
 }
 ```
-

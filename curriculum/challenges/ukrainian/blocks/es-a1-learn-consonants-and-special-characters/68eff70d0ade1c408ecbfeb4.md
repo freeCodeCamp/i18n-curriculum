@@ -1,6 +1,6 @@
 ---
 id: 68eff70d0ade1c408ecbfeb4
-title: Task 6
+title: Завдання 6
 challengeType: 22
 dashedName: task-6
 lang: es
@@ -10,15 +10,15 @@ lang: es
 
 # --description--
 
-The letter `d` is called `de`.
+Літеру `d` називають `de`.
 
-At the beginning of a word or after `l` or `n`, its sound is stronger, like in the word `dos` ("two"). However, it's softer between vowels, like in the word `idea` ("idea").
+На початку слова або після `l` чи `n` її звук сильніший, як у слові `dos` («два»). Однак між голосними вона м’якша, як у слові `idea` («ідея»).
 
-An example is `doctor` ("doctor").
+Приклад — `doctor` («лікар»).
 
 # --instructions--
 
-Listen to the audio and write the letter in the blank space below.
+Прослухайте аудіо і напишіть літеру у порожнє поле нижче.
 
 # --fillInTheBlank--
 
@@ -32,7 +32,7 @@ Listen to the audio and write the letter in the blank space below.
 
 ### --feedback--
 
-This is the fourth letter in the alphabet.
+Це четверта літера алфавіту.
 
 # --scene--
 

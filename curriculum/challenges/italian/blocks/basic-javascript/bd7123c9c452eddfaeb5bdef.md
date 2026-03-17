@@ -1,6 +1,6 @@
 ---
 id: bd7123c9c452eddfaeb5bdef
-title: Use Bracket Notation to Find the Nth-to-Last Character in a String
+title: Usa la notazione a parentesi per trovare il carattere n-esimo dalla fine di una stringa
 challengeType: 1
 forumTopicId: 18344
 dashedName: use-bracket-notation-to-find-the-nth-to-last-character-in-a-string
@@ -8,34 +8,34 @@ dashedName: use-bracket-notation-to-find-the-nth-to-last-character-in-a-string
 
 # --description--
 
-You can use the same principle we just used to retrieve the last character in a string to retrieve the Nth-to-last character.
+Puoi usare lo stesso principio che abbiamo appena usato per recuperare l'ultimo carattere di una stringa per trovare il carattere n-esimo dalla fine.
 
-For example, you can get the value of the third-to-last letter of the `const firstName = "Augusta"` string by using `firstName[firstName.length - 3]`
+Ad esempio, puoi ottenere il valore della terzultima lettera della stringa `const firstName = "Augusta"` usando `firstName[firstName.length - 3]`
 
-Example:
+Esempio:
 
 ```js
 const firstName = "Augusta";
 const thirdToLastLetter = firstName[firstName.length - 3];
 ```
 
-`thirdToLastLetter` would have a value of the string `s`.
+`thirdToLastLetter` avrebbe il valore della stringa `s`.
 
 # --instructions--
 
-Use <dfn>bracket notation</dfn> to find the second-to-last character in the `lastName` string.
+Usa la <dfn>notazione a parentesi</dfn> per trovare il penultimo carattere nella stringa `lastName`.
 
-**Hint:** Try looking at the example above if you get stuck.
+**Suggerimento:** Prova a guardare l'esempio sopra se ti blocchi.
 
 # --hints--
 
-`secondToLastLetterOfLastName` should be the letter `c`.
+`secondToLastLetterOfLastName` dovrebbe essere la lettera `c`.
 
 ```js
 assert(secondToLastLetterOfLastName === 'c');
 ```
 
-You should use `.length` to get the second last letter.
+Dovresti usare `.length` per ottenere la penultima lettera.
 
 ```js
 assert(__helpers.removeJSComments(code).match(/\.length/g).length > 0);

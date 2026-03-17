@@ -1,6 +1,6 @@
 ---
 id: 699e78258f18cf77dfce5c18
-title: Trig Identities
+title: Identità trigonometriche
 challengeType: 11
 videoId: m4rl9OE5XTY
 dashedName: trig-identities
@@ -8,32 +8,30 @@ dashedName: trig-identities
 
 # --description--
 
-In this video, you will learn about trigonometric identities.
+In questo video imparerai le identità trigonometriche.
 
 # --questions--
 
 ## --text--
 
-Why is the second equation in the first example called an identity?
+Perché la seconda equazione nel primo esempio è chiamata identità?
 
 ## --answers--
 
-Its tangent and cotangent functions are equal.
+Le sue funzioni tangente e cotangente sono uguali.
 
 ---
 
-Its cosine and secant functions are equal.
+Le sue funzioni coseno e secante sono uguali.
 
 ---
 
-It holds all values of the variable.
+Vale per tutti i valori della variabile.
 
 ---
 
-It holds none of the values of the variable.
+Non vale per nessuno dei valori della variabile.
 
 ## --video-solution--
 
 3
-
-

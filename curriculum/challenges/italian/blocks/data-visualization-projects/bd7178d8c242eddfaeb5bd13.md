@@ -1,6 +1,6 @@
 ---
 id: bd7178d8c242eddfaeb5bd13
-title: Visualize Data with a Scatterplot Graph
+title: Visualizzare i dati con un grafico a dispersione
 challengeType: 3
 forumTopicId: 301467
 dashedName: visualize-data-with-a-scatterplot-graph
@@ -8,47 +8,47 @@ dashedName: visualize-data-with-a-scatterplot-graph
 
 # --description--
 
-**Objective:** Build an app that is functionally similar to this: <a href="https://scatterplot-graph.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://scatterplot-graph.freecodecamp.rocks</a>.
+**Obiettivo:** Crea un'app che sia funzionalmente simile a questa: <a href="https://scatterplot-graph.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://scatterplot-graph.freecodecamp.rocks</a>.
 
-Fulfill the below user stories and get all of the tests to pass. Use whichever libraries or APIs you need. Give it your own personal style.
+Completa le seguenti storie utente e fai in modo che tutti i test vengano superati. Usa le librerie o le API che preferisci. Dai il tuo stile personale.
 
-You can use HTML, JavaScript, CSS, and the D3 svg-based visualization library. The tests require axes to be generated using the D3 axis property, which automatically generates ticks along the axis. These ticks are required for passing the D3 tests because their positions are used to determine alignment of graphed elements. You will find information about generating axes at <https://d3js.org/d3-axis>. Required DOM elements are queried on the moment of each test. If you use a front-end framework (like Vue for example), the test results may be inaccurate for dynamic content. We hope to accommodate them eventually, but these frameworks are not currently supported for D3 projects.
+Puoi usare HTML, JavaScript, CSS e la libreria di visualizzazione basata su svg D3. I test richiedono che gli assi vengano generati usando la proprietà axis di D3, che crea automaticamente i segni di graduazione lungo l'asse. Questi segni sono necessari per superare i test D3 perché le loro posizioni vengono usate per determinare l’allineamento degli elementi tracciati. Troverai informazioni sulla generazione degli assi su <https://d3js.org/d3-axis>. Gli elementi DOM richiesti vengono interrogati al momento di ogni test. Se usi un framework front-end (come Vue per esempio), i risultati dei test potrebbero non essere accurati per contenuti dinamici. Speriamo di supportarli in futuro, ma attualmente questi framework non sono supportati per i progetti D3.
 
-**User Story #1:** I can see a title element that has a corresponding `id="title"`.
+**Storia utente #1:** Posso vedere un elemento titolo che ha un corrispondente `id="title"`.
 
-**User Story #2:** I can see an x-axis that has a corresponding `id="x-axis"`.
+**Storia utente #2:** Posso vedere un asse x che ha un corrispondente `id="x-axis"`.
 
-**User Story #3:** I can see a y-axis that has a corresponding `id="y-axis"`.
+**Storia utente #3:** Posso vedere un asse y che ha un corrispondente `id="y-axis"`.
 
-**User Story #4:** I can see dots, that each have a class of `dot`, which represent the data being plotted.
+**Storia utente #4:** Posso vedere dei punti, ognuno con una classe `dot`, che rappresentano i dati tracciati.
 
-**User Story #5:** Each dot should have the properties `data-xvalue` and `data-yvalue` containing their corresponding `x` and `y` values.
+**Storia utente #5:** Ogni punto dovrebbe avere le proprietà `data-xvalue` e `data-yvalue` contenenti i rispettivi valori `x` e `y`.
 
-**User Story #6:** The `data-xvalue` and `data-yvalue` of each dot should be within the range of the actual data and in the correct data format. For `data-xvalue`, integers (full years) or `Date` objects are acceptable for test evaluation. For `data-yvalue` (minutes), use `Date` objects.
+**Storia utente #6:** Le `data-xvalue` e `data-yvalue` di ogni punto dovrebbero essere nel range dei dati reali e nel formato dati corretto. Per `data-xvalue`, numeri interi (anni completi) o oggetti `Date` sono accettabili per la valutazione del test. Per `data-yvalue` (minuti), usa oggetti `Date`.
 
-**User Story #7:** The `data-xvalue` and its corresponding dot should align with the corresponding point/value on the x-axis.
+**Storia utente #7:** La `data-xvalue` e il punto corrispondente dovrebbero essere allineati con il punto/valore corrispondente sull’asse x.
 
-**User Story #8:** The `data-yvalue` and its corresponding dot should align with the corresponding point/value on the y-axis.
+**Storia utente #8:** La `data-yvalue` e il punto corrispondente dovrebbero essere allineati con il punto/valore corrispondente sull’asse y.
 
-**User Story #9:** I can see multiple tick labels on the y-axis with `%M:%S` time format.
+**Storia utente #9:** Posso vedere più etichette di segni di graduazione sull’asse y con formato tempo `%M:%S`.
 
-**User Story #10:** I can see multiple tick labels on the x-axis that show the year.
+**Storia utente #10:** Posso vedere più etichette di segni di graduazione sull’asse x che mostrano l’anno.
 
-**User Story #11:** I can see that the range of the x-axis labels are within the range of the actual x-axis data.
+**Storia utente #11:** Posso vedere che il range delle etichette sull’asse x è entro il range dei dati reali dell’asse x.
 
-**User Story #12:** I can see that the range of the y-axis labels are within the range of the actual y-axis data.
+**Storia utente #12:** Posso vedere che il range delle etichette sull’asse y è entro il range dei dati reali dell’asse y.
 
-**User Story #13:** I can see a legend containing descriptive text that has `id="legend"`.
+**Storia utente #13:** Posso vedere una legenda contenente testo descrittivo che ha `id="legend"`.
 
-**User Story #14:** I can mouse over an area and see a tooltip with a corresponding `id="tooltip"` which displays more information about the area.
+**Storia utente #14:** Posso passare il mouse su un’area e vedere un tooltip con un corrispondente `id="tooltip"` che mostra più informazioni sull’area.
 
-**User Story #15:** My tooltip should have a `data-year` property that corresponds to the `data-xvalue` of the active area.
+**Storia utente #15:** Il mio tooltip dovrebbe avere una proprietà `data-year` che corrisponde a `data-xvalue` dell’area attiva.
 
-Here is the dataset you will need to complete this project: `https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/cyclist-data.json`
+Ecco il dataset che ti servirà per completare questo progetto: `https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/cyclist-data.json`
 
-You can build your project by <a href='https://codepen.io/pen?template=MJjpwO' target="_blank" rel="noopener noreferrer nofollow">using this CodePen template</a> and clicking `Save` to create your own pen. Or you can use this CDN link to run the tests in any environment you like: `https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js`
+Puoi costruire il tuo progetto <a href='https://codepen.io/pen?template=MJjpwO' target="_blank" rel="noopener noreferrer nofollow">usando questo template di CodePen</a> e cliccando `Save` per creare il tuo pen. Oppure puoi usare questo collegamento CDN per eseguire i test in qualsiasi ambiente preferisci: `https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js`
 
-Once you're done, submit the URL to your working project with all its tests passing.
+Quando hai finito, invia l’URL del tuo progetto funzionante con tutti i test superati.
 
 # --solutions--
 

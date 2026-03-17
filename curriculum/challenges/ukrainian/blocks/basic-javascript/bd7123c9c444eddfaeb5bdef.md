@@ -1,6 +1,6 @@
 ---
 id: bd7123c9c444eddfaeb5bdef
-title: Declare String Variables
+title: Оголосити рядкові змінні
 challengeType: 1
 forumTopicId: 17557
 dashedName: declare-string-variables
@@ -8,27 +8,27 @@ dashedName: declare-string-variables
 
 # --description--
 
-Previously you used the following code to declare a variable:
+Раніше ви використовували такий код, щоб оголосити змінну:
 
 ```js
 var myName;
 ```
 
-But you can also declare a string variable like this:
+Але ви також можете оголосити рядкову змінну так:
 
 ```js
 var myName = "your name";
 ```
 
-`"your name"` is called a <dfn>string</dfn> <dfn>literal</dfn>. A string literal, or string, is a series of zero or more characters enclosed in single or double quotes.
+`"your name"` називається <dfn>рядковим</dfn> <dfn>літералом</dfn>. Рядковий літерал, або рядок, — це послідовність нуля або більше символів, взятих у одинарні або подвійні лапки.
 
 # --instructions--
 
-Create two new string variables: `myFirstName` and `myLastName` and assign them the values of your first and last name, respectively.
+Створіть дві нові рядкові змінні: `myFirstName` і `myLastName` та призначте їм значення вашого імені та прізвища відповідно.
 
 # --hints--
 
-`myFirstName` should be a string with at least one character in it.
+`myFirstName` має бути рядком, що містить принаймні один символ.
 
 ```js
 assert(
@@ -46,7 +46,7 @@ assert(
 );
 ```
 
-`myLastName` should be a string with at least one character in it.
+`myLastName` має бути рядком, що містить принаймні один символ.
 
 ```js
 assert(

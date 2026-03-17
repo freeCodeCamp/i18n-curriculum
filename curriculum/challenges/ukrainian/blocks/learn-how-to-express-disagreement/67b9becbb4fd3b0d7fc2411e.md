@@ -1,6 +1,6 @@
 ---
 id: 67b9becbb4fd3b0d7fc2411e
-title: Task 65
+title: Завдання 65
 challengeType: 22
 dashedName: task-65
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Прослухайте аудіо та доповніть речення нижче.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This word refers to things taking longer than expected.
+Це слово означає, що щось триває довше, ніж очікувалося.
 
 ---
 
@@ -32,13 +32,13 @@ This word refers to things taking longer than expected.
 
 ### --feedback--
 
-This word refers to misunderstandings caused by unclear or incorrect information.
+Це слово означає непорозуміння, спричинені неясною або неправильною інформацією.
 
 # --explanation--
 
-David is concerned that asynchronous remote work might cause `delays` (slower responses and progress) and `miscommunication` (people misunderstanding each other).
+Девід занепокоєний, що асинхронна віддалена робота може спричинити `delays` (повільніші відповіді та прогрес) і `miscommunication` (коли люди неправильно розуміють одне одного).
 
-Since employees work at different times, messages may take longer to be answered, and misunderstandings may happen if communication isn't clear.
+Оскільки співробітники працюють у різний час, повідомлення можуть довше залишатися без відповіді, а непорозуміння виникати, якщо комунікація не є чіткою.
 
 # --scene--
 

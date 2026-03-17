@@ -1,26 +1,26 @@
 ---
 id: 647e1f4e8acb466c97ccbedf
-title: 'Add Looping Logic to Your Code Using the do-while and while Statements in C#'
+title: додайте логіку циклів у свій код за допомогою інструкцій do-while і while у C#
 challengeType: 19
 dashedName: add-looping-logic-to-your-code-using-the-do-while-and-while-statements-in-c-sharp
 ---
 
 # --description--
 
-This challenge will be partially completed on the Microsoft Learn platform. Follow these instructions to complete the challenge:
+Це завдання частково виконується на платформі Microsoft Learn. Дотримуйтесь цих інструкцій, щоб завершити завдання:
 
-1. Go to <a href="https://learn.microsoft.com/training/modules/csharp-do-while/" target="_blank" rel="noreferrer">https://learn.microsoft.com/training/modules/csharp-do-while/</a> and complete all the tasks for the "Add Looping Logic to Your Code Using the do-while and while Statements in C#" module. This is **required** to earn the "Add Logic to C# Console Applications" trophy on Microsoft Learn, and qualify for the certification exam.
-1. When you are finished, come back and correctly answer the question below.
+1. Перейдіть на <a href="https://learn.microsoft.com/training/modules/csharp-do-while/" target="_blank" rel="noreferrer">https://learn.microsoft.com/training/modules/csharp-do-while/</a> і виконайте всі завдання модуля "Додайте логіку циклів у свій код за допомогою інструкцій do-while і while у C#". Це **обов’язково** для отримання трофею "Додайте логіку до консольних застосунків C#" на Microsoft Learn і для допуску до сертифікаційного екзамену.
+1. Коли закінчите, поверніться сюди і правильно відповідайте на запитання нижче.
 
 # --assignment--
 
-Complete the <a href="https://learn.microsoft.com/training/modules/csharp-do-while/" target="_blank" rel="noreferrer">Add Looping Logic to Your Code Using the `do`-`while` and `while` Statements in C#</a> module on Microsoft Learn. Then, answer the question below.
+Завершіть модуль <a href="https://learn.microsoft.com/training/modules/csharp-do-while/" target="_blank" rel="noreferrer">Додайте логіку циклів у свій код за допомогою `do`-`while` і `while` інструкцій у C#</a> на Microsoft Learn. Потім дайте відповідь на запитання нижче.
 
 # --questions--
 
 ## --text--
 
-A developer needs to iterate through an array of items to find one that matches a certain criteria. Which is the best iteration statement for this purpose?
+Розробнику потрібно ітерувати по масиву елементів, щоб знайти той, що відповідає певній умові. Яка інструкція ітерації найкраще підходить для цієї мети?
 
 ## --answers--
 

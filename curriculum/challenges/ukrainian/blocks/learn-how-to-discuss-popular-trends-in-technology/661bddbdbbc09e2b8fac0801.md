@@ -10,15 +10,15 @@ lang: en-US
 
 # --description--
 
-The preposition `at` indicates a point on a map. It tells you a specific location or position. It helps you understand where something is happening or where someone is.
+Прийменник `at` вказує на точку на карті. Він повідомляє конкретне місце або позицію. Це допомагає зрозуміти, де щось відбувається або де хтось знаходиться.
 
-Examples:
+Приклади:
 
-`We'll meet at the coffee shop.` (in this sentence, `at` is used to specify the location where the meeting will take place - the coffee shop).
+`We'll meet at the coffee shop.` (у цьому реченні `at` використовується, щоб уточнити місце проведення зустрічі — кав’ярня).
 
-`I'll be waiting for you at the bus stop.` (`at` is used here to indicate the location where someone will be waiting - the bus stop).
+`I'll be waiting for you at the bus stop.` (тут `at` використовується, щоб вказати місце, де хтось чекатиме — автобусна зупинка).
 
-Listen to the sentence and fill in the blank.
+Прослухайте речення і заповніть пропуск.
 
 # --fillInTheBlank--
 
@@ -32,7 +32,7 @@ Listen to the sentence and fill in the blank.
 
 ### --feedback--
 
-The preposition used to help you understand where something is or happens.
+Прийменник, який допомагає зрозуміти, де щось знаходиться або відбувається.
 
 # --scene--
 

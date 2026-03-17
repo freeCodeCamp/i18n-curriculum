@@ -1,6 +1,6 @@
 ---
 id: 65fc9be86f2ae26ddcdf0bb3
-title: Task 36
+title: Attività 36
 challengeType: 19
 dashedName: task-36
 lang: en-US
@@ -11,41 +11,41 @@ lang: en-US
 
 # --description--
 
-Listen to Maria and answer the question.
+Ascolta Maria e rispondi alla domanda.
 
 # --questions--
 
 ## --text--
 
-What can boost their motivation according to Maria?
+Secondo Maria, cosa può aumentare la loro motivazione?
 
 ## --answers--
 
-Having a big team
+Avere un team numeroso
 
 ### --feedback--
 
-Think about what specifically makes the team more motivated, not just the size of the team.
+Pensa a cosa rende specificamente il team più motivato, non solo alla dimensione del team.
 
 ---
 
-Taking a long break
+Prendersi una lunga pausa
 
 ### --feedback--
 
-Consider if breaks are mentioned as a way to increase motivation.
+Considera se le pause sono menzionate come un modo per aumentare la motivazione.
 
 ---
 
-Seeing the team inspired
+Vedere il team ispirato
 
 ---
 
-Solving problems quickly
+Risolvere i problemi rapidamente
 
 ### --feedback--
 
-Reflect on whether the speed of solving problems is what Maria highlights as motivating.
+Rifletti se la velocità nel risolvere i problemi è ciò che Maria sottolinea come motivante.
 
 ## --video-solution--
 

@@ -1,6 +1,6 @@
 ---
 id: 679bacd4af7be22f71bb43ee
-title: Task 65
+title: Завдання 65
 challengeType: 22
 dashedName: task-65
 lang: en-US
@@ -10,13 +10,13 @@ lang: en-US
 
 # --description--
 
-This is a review of the entire dialogue you just studied.
+Це повторення всього діалогу, який ви щойно вивчили.
 
 # --instructions--
 
-Write the following words or phrases in the correct spot:
+Напишіть наступні слова або фрази у правильному місці:
 
-`deadlines`, `debating`, `disagreement`, `healthy`, `keeping things on track`, `lose motivation`, `make progress`, `perspectives`, and `strong opinions`.
+`deadlines`, `debating`, `disagreement`, `healthy`, `keeping things on track`, `lose motivation`, `make progress`, `perspectives` і `strong opinions`.
 
 # --fillInTheBlank--
 
@@ -45,7 +45,7 @@ Write the following words or phrases in the correct spot:
 
 ### --feedback--
 
-This phrase refers to firm or intense beliefs about a topic.
+Ця фраза стосується твердих або сильних переконань щодо теми.
 
 ---
 
@@ -53,7 +53,7 @@ This phrase refers to firm or intense beliefs about a topic.
 
 ### --feedback--
 
-This phrase means to move forward or improve a situation.
+Ця фраза означає рухатися вперед або покращувати ситуацію.
 
 ---
 
@@ -61,7 +61,7 @@ This phrase means to move forward or improve a situation.
 
 ### --feedback--
 
-This word means beneficial or good for a situation.
+Це слово означає корисний або сприятливий для ситуації.
 
 ---
 
@@ -69,7 +69,7 @@ This word means beneficial or good for a situation.
 
 ### --feedback--
 
-This word refers to having different opinions or viewpoints.
+Це слово стосується наявності різних думок або точок зору.
 
 ---
 
@@ -77,7 +77,7 @@ This word refers to having different opinions or viewpoints.
 
 ### --feedback--
 
-This word refers to specific dates or times by which tasks must be completed.
+Це слово стосується конкретних дат або часу, до яких потрібно виконати завдання.
 
 ---
 
@@ -85,7 +85,7 @@ This word refers to specific dates or times by which tasks must be completed.
 
 ### --feedback--
 
-This word refers to different viewpoints or ways of thinking about something.
+Це слово стосується різних точок зору або способів мислення про щось.
 
 ---
 
@@ -93,7 +93,7 @@ This word refers to different viewpoints or ways of thinking about something.
 
 ### --feedback--
 
-This word refers to discussing different viewpoints, sometimes extensively.
+Це слово означає обговорення різних точок зору, іноді докладно.
 
 ---
 
@@ -101,7 +101,7 @@ This word refers to discussing different viewpoints, sometimes extensively.
 
 ### --feedback--
 
-This phrase means to stop feeling driven or enthusiastic about something.
+Ця фраза означає припинити відчувати натхнення або ентузіазм щодо чогось.
 
 ---
 
@@ -109,4 +109,4 @@ This phrase means to stop feeling driven or enthusiastic about something.
 
 ### --feedback--
 
-This phrase means maintaining focus and ensuring progress continues.
+Ця фраза означає зберігати фокус і забезпечувати подальший прогрес.

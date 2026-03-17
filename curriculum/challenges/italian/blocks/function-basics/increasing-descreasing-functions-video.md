@@ -1,6 +1,6 @@
 ---
 id: 699e0333138be64fa313138a
-title: Increasing and Decreasing Functions
+title: Funzioni crescenti e decrescenti
 challengeType: 11
 videoId: GRYrrT_aQ1U
 dashedName: increasing-and-decreasing-functions
@@ -8,29 +8,29 @@ dashedName: increasing-and-decreasing-functions
 
 # --description--
 
-In this video, you will learn about increasing and decreasing functions on a graph.
+In questo video imparerai cosa sono le funzioni crescenti e decrescenti su un grafico.
 
 # --questions--
 
 ## --text--
 
-What is an increasing function?
+Cos'è una funzione crescente?
 
 ## --answers--
 
-This is where the x values are increasing and the y values are increasing.
+È quando i valori di x aumentano e i valori di y aumentano.
 
 ---
 
-This is where the x values are increasing and the y values are decreasing.
+È quando i valori di x aumentano e i valori di y diminuiscono.
 
 ---
 
-This is where the x values are decreasing and the y values are increasing.
+È quando i valori di x diminuiscono e i valori di y aumentano.
 
 ---
 
-This is where the x values are decreasing and the y values are decreasing.
+È quando i valori di x diminuiscono e i valori di y diminuiscono.
 
 ## --video-solution--
 

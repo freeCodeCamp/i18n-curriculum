@@ -1,6 +1,6 @@
 ---
 id: 0e2f4bd857b1edc70bfcd1f9
-title: Working with Strings
+title: Робота з рядками
 challengeType: 11
 videoId: OrejgL7kP3M
 dashedName: working-with-strings-learn-python-full-course-for-beginners
@@ -8,13 +8,13 @@ dashedName: working-with-strings-learn-python-full-course-for-beginners
 
 # --description--
 
-In this video, you will learn about string concatenation, indexing, and useful string methods.
+У цьому відео ви дізнаєтеся про конкатенацію рядків, індексацію та корисні методи для роботи з рядками.
 
 # --questions--
 
 ## --text--
 
-Which of the following is the correct way to access the first character of a string?
+Який із наведених способів є правильним для доступу до першого символу рядка?
 
 ## --answers--
 

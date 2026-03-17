@@ -1,15 +1,15 @@
 ---
 id: 672bbeaa5afdc5a98d5ab8ff
-title: What Are Examples of Location Pseudo-classes?
+title: Які приклади псевдокласів розташування?
 challengeType: 19
 dashedName: what-are-examples-of-location-pseudo-classes
 ---
 
 # --interactive--
 
-Location pseudo-classes are used for styling links and elements that are targeted within the current document. They offer a way to apply styles based on whether a link is visited or whether an element is currently in focus.
+Псевдокласи розташування використовують для стилізації посилань і елементів, які є ціллю в поточному документі. Вони дають змогу застосовувати стилі залежно від того, чи було посилання відвідано, або чи елемент зараз у фокусі.
 
-Examples of location pseudo-classes are:
+Прикладами псевдокласів розташування є:
 
 - `:link`
 - `:visited`
@@ -17,9 +17,9 @@ Examples of location pseudo-classes are:
 - `:local-link`
 - `:target`
 
-Let's take a deeper look at each of these pseudo-classes.
+Давайте детальніше розглянемо кожен із цих псевдокласів.
 
-The `:link` pseudo-class allows you to target all unvisited links on a webpage. You can use it to style links differently before the user clicks on them. For example, you might want to make all unvisited links blue or your website's primary color:
+Псевдоклас `:link` дозволяє націлити всі невідвідані посилання на вебсторінці. Ви можете використати його, щоб стилізувати посилання інакше до того, як користувач натисне на них. Наприклад, можна зробити всі невідвідані посилання синіми або кольором вашого сайту:
 
 :::interactive_editor
 
@@ -36,9 +36,9 @@ a:link {
 
 :::
 
-In this case, any link the user hasn't clicked yet will appear magenta. Once the user clicks the link, the `:link` style no longer applies, and the `:visited` pseudo-class takes over. The `:visited` pseudo-class comes into play after the user clicks the link, so you can use it to target links the user has already clicked.
+У цьому випадку будь-яке посилання, на яке користувач ще не натиснув, буде фіолетовим. Після натискання на посилання стиль `:link` більше не застосовується, і вступає в дію псевдоклас `:visited`. Псевдоклас `:visited` активується після того, як користувач натиснув на посилання, тож ви можете використати його, щоб націлити посилання, які вже було відвідано.
 
-Here is an example of changing the visited link state to the color `purple`:
+Ось приклад зміни стану відвіданого посилання на колір `purple`:
 
 :::interactive_editor
 
@@ -55,11 +55,11 @@ a:visited {
 
 :::
 
-The `:visited` pseudo-class helps users distinguish between links they have visited and those they have not.
+Псевдоклас `:visited` допомагає користувачам розрізняти посилання, які вони відвідали, і ті, які ще ні.
 
-The `:any-link` pseudo-class is a combination of the `:link` and `:visited` pseudo-classes. So it matches any anchor element with an `href` attribute, regardless of whether it's visited or not.
+Псевдоклас `:any-link` є комбінацією псевдокласів `:link` і `:visited`. Тож він відповідає будь-якому елементу посилання з атрибутом `href`, незалежно від того, чи було його відвідано.
 
-Here is an example of changing the link color for the `:any-link` pseudo-class to `crimson`:
+Ось приклад зміни кольору посилання для псевдокласу `:any-link` на `crimson`:
 
 :::interactive_editor
 
@@ -76,11 +76,11 @@ a:any-link {
 
 :::
 
-The `:local-link` pseudo-class targets links that point to the same document. It can be useful when you want to differentiate internal links from external ones. Currently, no browser supports the `:local-link` pseudo-class.
+Псевдоклас `:local-link` націлює посилання, які ведуть до того самого документа. Це корисно, коли потрібно відрізнити внутрішні посилання від зовнішніх. Наразі жоден браузер не підтримує псевдоклас `:local-link`.
 
-The `:target` pseudo-class selects an element that matches the current URL fragment identifier, for example, `#section1`. It's very useful for pages with in-page navigation.
+Псевдоклас `:target` вибирає елемент, який відповідає поточному фрагменту URL, наприклад `#section1`. Це дуже корисно для сторінок із навігацією всередині сторінки.
 
-Here's an HTML example that represents an in-page navigation. The CSS uses the `:target` pseudo-class to style the section that matches where the user navigates to:
+Ось приклад HTML, який представляє навігацію всередині сторінки. CSS використовує псевдоклас `:target`, щоб стилізувати розділ, який відповідає тому, куди користувач переходить:
 
 :::interactive_editor
 
@@ -114,13 +114,13 @@ section:target {
 
 :::
 
-When the user clicks on one of the navigation links, the background color for that respective section will change to green.
+Коли користувач натискає на одне з навігаційних посилань, колір фону відповідного розділу змінюється на зелений.
 
 # --questions--
 
 ## --text--
 
-Which pseudo-class allows you to style an element that matches the current URL fragment identifier, such as `#section1`?
+Який псевдоклас дозволяє стилізувати елемент, що відповідає поточному фрагменту URL, наприклад `#section1`?
 
 ## --answers--
 
@@ -128,7 +128,7 @@ Which pseudo-class allows you to style an element that matches the current URL f
 
 ### --feedback--
 
-Think about how you can highlight a specific section when navigating through in-page links.
+Подумайте, як можна виділити конкретний розділ при навігації по посиланнях всередині сторінки.
 
 ---
 
@@ -136,7 +136,7 @@ Think about how you can highlight a specific section when navigating through in-
 
 ### --feedback--
 
-Think about how you can highlight a specific section when navigating through in-page links.
+Подумайте, як можна виділити конкретний розділ при навігації по посиланнях всередині сторінки.
 
 ---
 
@@ -148,7 +148,7 @@ Think about how you can highlight a specific section when navigating through in-
 
 ### --feedback--
 
-Think about how you can highlight a specific section when navigating through in-page links.
+Подумайте, як можна виділити конкретний розділ при навігації по посиланнях всередині сторінки.
 
 ## --video-solution--
 
@@ -156,35 +156,35 @@ Think about how you can highlight a specific section when navigating through in-
 
 ## --text--
 
-When are location pseudo-classes particularly useful?
+Коли псевдокласи розташування особливо корисні?
 
 ## --answers--
 
-When styling elements based on their sibling relationships.
+Коли стилізують елементи залежно від їхніх братських зв’язків.
 
 ### --feedback--
 
-Think about how you can style links and targeted elements depending on user interaction.
+Подумайте, як можна стилізувати посилання і цільові елементи залежно від взаємодії користувача.
 
 ---
 
-When applying styles based on whether a link is visited or an element is currently in focus.
+Коли застосовують стилі залежно від того, чи було посилання відвідано або чи елемент зараз у фокусі.
 
 ---
 
-When styling elements based on their parent element's attributes.
+Коли стилізують елементи залежно від атрибутів їхнього батьківського елемента.
 
 ### --feedback--
 
-Think about how you can style links and targeted elements depending on user interaction.
+Подумайте, як можна стилізувати посилання і цільові елементи залежно від взаємодії користувача.
 
 ---
 
-When adjusting the layout of a webpage dynamically.
+Коли динамічно налаштовують макет вебсторінки.
 
 ### --feedback--
 
-Think about how you can style links and targeted elements depending on user interaction.
+Подумайте, як можна стилізувати посилання і цільові елементи залежно від взаємодії користувача.
 
 ## --video-solution--
 
@@ -192,7 +192,7 @@ Think about how you can style links and targeted elements depending on user inte
 
 ## --text--
 
-Which pseudo-class is designed to target links that point to the same document but is not currently supported by any browser?
+Який псевдоклас призначений для націлювання посилань, що ведуть до того самого документа, але наразі не підтримується жодним браузером?
 
 ## --answers--
 
@@ -200,7 +200,7 @@ Which pseudo-class is designed to target links that point to the same document b
 
 ### --feedback--
 
-Consider the pseudo-class intended for distinguishing internal links from external ones, even though it's not yet supported.
+Зверніть увагу на псевдоклас, який призначений для розрізнення внутрішніх і зовнішніх посилань, хоча його ще не підтримують.
 
 ---
 
@@ -212,7 +212,7 @@ Consider the pseudo-class intended for distinguishing internal links from extern
 
 ### --feedback--
 
-Consider the pseudo-class intended for distinguishing internal links from external ones, even though it's not yet supported.
+Зверніть увагу на псевдоклас, який призначений для розрізнення внутрішніх і зовнішніх посилань, хоча його ще не підтримують.
 
 ---
 
@@ -220,7 +220,7 @@ Consider the pseudo-class intended for distinguishing internal links from extern
 
 ### --feedback--
 
-Consider the pseudo-class intended for distinguishing internal links from external ones, even though it's not yet supported.
+Зверніть увагу на псевдоклас, який призначений для розрізнення внутрішніх і зовнішніх посилань, хоча його ще не підтримують.
 
 ## --video-solution--
 

@@ -1,15 +1,15 @@
 ---
 id: 63e94dae6dcedbad73f2f6ee
-title: Step 24
+title: Крок 24
 challengeType: 0
 dashedName: step-24
 ---
 
 # --description--
 
-`arr` contains a series of objects that each contains a `name`, `position`, `number`, `isCaptain` and `nickname` property. In order to access each of those properties inside the callback function, you will need to use object destructuring to unpack them into variables.
+`arr` містить серію об’єктів, кожен з яких має властивості `name`, `position`, `number`, `isCaptain` і `nickname`. Щоб отримати доступ до кожної з цих властивостей всередині функції зворотного виклику, потрібно використати деструктуризацію об’єкта, щоб розпакувати їх у змінні.
 
-Here is an example:
+Ось приклад:
 
 ```js
 function myExampleFunction({ name, age, job, city }) {
@@ -17,11 +17,11 @@ function myExampleFunction({ name, age, job, city }) {
 }
 ```
 
-Inside the parameter list in the callback function for the `map` method, unpack all 5 object properties from objects in `arr` using object destructuring.
+У списку параметрів функції зворотного виклику для методу `map` розпакуйте всі 5 властивостей об’єкта з об’єктів у `arr` за допомогою деструктуризації об’єкта.
 
 # --hints--
 
-You should unpack all 5 object properties from objects in `arr` using object destructuring.
+Ви повинні розпакувати всі 5 властивостей об’єкта з об’єктів у `arr` за допомогою деструктуризації об’єкта.
 
 ```js
 

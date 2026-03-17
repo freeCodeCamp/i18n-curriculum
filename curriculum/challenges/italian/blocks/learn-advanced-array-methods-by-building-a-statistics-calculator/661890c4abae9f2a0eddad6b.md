@@ -1,17 +1,17 @@
 ---
 id: 661890c4abae9f2a0eddad6b
-title: Step 22
+title: Passaggio 22
 challengeType: 0
 dashedName: step-22
 ---
 
 # --description--
 
-Nei prossimi passaggi, imparerai come determinare se la lunghezza di un array è pari o dispari, e come trovare la mediana. In seguito sarai in grado di applicare ciò che hai imparato alla funzione `getMedian`.
+Nei prossimi passaggi imparerai come determinare se la lunghezza di un array è pari o dispari, oltre a come trovare la mediana. Potrai quindi applicare ciò che hai imparato alla funzione `getMedian`.
 
-Per verificare se un numero è pari o dispari, puoi utilizzare il <dfn>modulus operator</dfn> `%`. Il modulus operator restituisce il resto della divisione tra due numeri.
+Per verificare se un numero è pari o dispari, puoi usare l'<dfn>operatore modulo</dfn> `%`. L'operatore modulo restituisce il resto della divisione tra due numeri.
 
-Ecco un esempio che controlla se la lunghezza di un array è pari o dispari:
+Ecco un esempio che verifica se la lunghezza di un array è pari o dispari:
 
 ```js
 // check if array length is even
@@ -23,11 +23,11 @@ arr.length % 2 === 1;
 
 Se il resto è `0`, il numero è pari. Se il resto è `1`, il numero è dispari.
 
-Crea una variabile chiamata `iseven`. Quindi utilizza il modulus operator per verificare se la lunghezza dell'array `testArr2` è pari. Assegna quell'espressione alla variabile `isEven`.
+Crea una variabile chiamata `isEven`. Poi usa l'operatore modulo per verificare se la lunghezza dell'array `testArr2` è pari. Assegna quell'espressione alla variabile `isEven`.
 
-Sotto la variabile `isEven`, registra la variabile `isEven` sulla console.
+Sotto la tua variabile `isEven`, stampa nella console la variabile `isEven`.
 
-Apri la console per visualizzare il risultato.
+Apri la console per vedere il risultato.
 
 # --hints--
 
@@ -37,13 +37,13 @@ Dovresti avere una variabile `isEven`.
 assert.isDefined(isEven);
 ```
 
-Dovresti verificare se la lunghezza dell'array `testArr2` è pari. Fare riferimento all'esempio fornito: `arr.length % 2 === 0;`
+Dovresti verificare se la lunghezza dell'array `testArr2` è pari. Riferisciti all'esempio fornito: `arr.length % 2 === 0;`
 
 ```js
 assert.isTrue(isEven);
 ```
 
-Dovresti avere una dichiarazione `console.log` che registra la variabile `isEven`.
+Dovresti avere un'istruzione `console.log` che stampa nella console la variabile `isEven`.
 
 ```js
 assert.match(code, /console\.log\(isEven\)/);
@@ -151,7 +151,7 @@ const calculate = () => {
   const value = document.querySelector("#numbers").value;
   const array = value.split(/,\s*/g);
   const numbers = array.map(el => Number(el)).filter(el => !isNaN(el));
-
+  
   const mean = getMean(numbers);
 
   document.querySelector("#mean").textContent = mean;

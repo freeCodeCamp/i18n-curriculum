@@ -1,6 +1,6 @@
 ---
 id: 155ca30775751b78a860a79b
-title: Getting Input from Users
+title: Ottenere input dagli utenti
 challengeType: 11
 videoId: C0L4cnqKqDw
 dashedName: getting-input-from-users-learn-python-full-course-for-beginners
@@ -8,13 +8,13 @@ dashedName: getting-input-from-users-learn-python-full-course-for-beginners
 
 # --description--
 
-In this video, you will learn how to get input from the user.
+In questo video imparerai come ottenere input dall’utente.
 
 # --questions--
 
 ## --text--
 
-Which of the following built-in functions is used to get input from the user?
+Quale delle seguenti funzioni integrate si usa per ottenere input dall’utente?
 
 ## --answers--
 

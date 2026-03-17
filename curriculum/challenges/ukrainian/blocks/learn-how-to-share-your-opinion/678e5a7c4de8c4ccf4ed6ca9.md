@@ -1,6 +1,6 @@
 ---
 id: 678e5a7c4de8c4ccf4ed6ca9
-title: Task 66
+title: Завдання 66
 challengeType: 22
 dashedName: task-66
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Прослухайте аудіо та доповніть речення нижче.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This word means to have the same opinion or to reach a mutual understanding.
+Це слово означає мати однакову думку або досягти взаєморозуміння.
 
 ---
 
@@ -32,17 +32,17 @@ This word means to have the same opinion or to reach a mutual understanding.
 
 ### --feedback--
 
-This word means to have a different opinion or to not be in agreement.
+Це слово означає мати іншу думку або не погоджуватися.
 
 # --explanation--
 
-`Agree` means to be in agreement or have the same opinion as someone. For example:
+`Agree` означає погоджуватися або мати однакову думку з кимось. Наприклад:  
 
-`We both agree that improving security is important.` - This means you share the same opinion about security with other person.
+`We both agree that improving security is important.` - Це означає, що ви поділяєте ту саму думку про безпеку з іншою людиною.
 
-`Disagree` means to have a different opinion or not be in agreement. For example:
+`Disagree` означає мати іншу думку або не погоджуватися. Наприклад:  
 
-`Jake and Maria disagree on which software to use.` - This shows that Jake and Maria have different opinions on the choice of software.
+`Jake and Maria disagree on which software to use.` - Це показує, що Джейк і Марія мають різні думки щодо вибору програмного забезпечення.
 
 # --scene--
 

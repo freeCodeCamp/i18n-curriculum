@@ -1,99 +1,99 @@
 ---
 id: 694acade1d4afdbce71e5840
-title: Build a Travel Weather Planner
+title: crea un pianificatore meteo per viaggi
 challengeType: 27
 dashedName: build-a-travel-weather-planner
 ---
 
 # --description--
 
-For this lab, you will use conditional statements to determine whether commuting is possible based on the weather, the distance to travel, and the availability of a vehicle.
+Per questo laboratorio, userai istruzioni condizionali per determinare se è possibile spostarsi in base al meteo, alla distanza da percorrere e alla disponibilità di un veicolo.
 
-**Objective:** Fulfill the user stories below and get all the tests to pass to complete the lab.
+**Obiettivo:** Completa le storie utente qui sotto e fai superare tutti i test per completare il laboratorio.
 
-1. You should create the following variables:
-   * `distance_mi` (a number representing the distance to travel in miles)
-   * `is_raining` (a boolean representing if the user is currently experiencing rainy weather)
-   * `has_bike` (a boolean representing if the user has a bicycle)
-   * `has_car` (a boolean representing if the user has a car)
-   * `has_ride_share_app` (a boolean representing if the user has an app that allows them to request a ride)
-1. You should use conditional statements to determine whether commuting is possible based on the values of these variables.
-1. You should use `if`, `elif`, and `else` statements to evaluate the distance categories in ascending order.
-1. If `distance_mi` is a falsy value:
-   * You should print `False`.
-1. If the distance is **less than or equal to 1 mile**:
-   * You should print `True` only if it is **not raining**.
-   * Otherwise, you should print `False`.
-1. If the distance is **greater than 1 mile and less than or equal to 6 miles**:
-   * You should print `True` only if the person has a bike **and** it is not raining.
-   * Otherwise, you should print `False`.
-1. If the distance is **greater than 6 miles**:
-   * You should print `True` if the person has a car **or** has a ride-share app.
-   * Otherwise, you should print `False`.
+1. Dovresti creare le seguenti variabili:
+   * `distance_mi` (un numero che rappresenta la distanza da percorrere in miglia)
+   * `is_raining` (un booleano che indica se l’utente sta attualmente vivendo una giornata piovosa)
+   * `has_bike` (un booleano che indica se l’utente ha una bicicletta)
+   * `has_car` (un booleano che indica se l’utente ha un’auto)
+   * `has_ride_share_app` (un booleano che indica se l’utente ha un’app che permette di richiedere un passaggio)
+1. Dovresti usare istruzioni condizionali per determinare se è possibile spostarsi in base ai valori di queste variabili.
+1. Dovresti usare istruzioni `if`, `elif` e `else` per valutare le categorie di distanza in ordine crescente.
+1. Se `distance_mi` è un valore falsy:
+   * Dovresti stampare `False`.
+1. Se la distanza è **minore o uguale a 1 miglio**:
+   * Dovresti stampare `True` solo se **non sta piovendo**.
+   * Altrimenti, dovresti stampare `False`.
+1. Se la distanza è **maggiore di 1 miglio e minore o uguale a 6 miglia**:
+   * Dovresti stampare `True` solo se la persona ha una bici **e** non sta piovendo.
+   * Altrimenti, dovresti stampare `False`.
+1. Se la distanza è **maggiore di 6 miglia**:
+   * Dovresti stampare `True` se la persona ha un’auto **o** ha un’app per il ride-share.
+   * Altrimenti, dovresti stampare `False`. 
 
 # --hints--
 
-You should have a variable named `distance_mi`.
+Dovresti avere una variabile chiamata `distance_mi`.
 
 ```js
 ({ test: () => runPython(`assert _Node(_code).has_variable("distance_mi")`) })
 ```
 
-You should assign a number to your `distance_mi` variable.
+Dovresti assegnare un numero alla tua variabile `distance_mi`.
 
 ```js
 ({ test: () => runPython(`assert isinstance(distance_mi, (int, float))`) })
 ```
 
-You should have a variable named `is_raining`.
+Dovresti avere una variabile chiamata `is_raining`.
 
 ```js
 ({ test: () => runPython(`assert _Node(_code).has_variable("is_raining")`) })
 ```
 
-You should assign a boolean to your `is_raining` variable.
+Dovresti assegnare un booleano alla tua variabile `is_raining`.
 
 ```js
 ({ test: () => runPython(`assert isinstance(is_raining, bool)`) })
 ```
 
-You should have a variable named `has_bike`.
+Dovresti avere una variabile chiamata `has_bike`.
 
 ```js
 ({ test: () => runPython(`assert _Node(_code).has_variable("has_bike")`) })
 ```
 
-You should assign a boolean to your `has_bike` variable.
+Dovresti assegnare un booleano alla tua variabile `has_bike`.
 
 ```js
 ({ test: () => runPython(`assert isinstance(has_bike, bool)`) })
 ```
 
-You should have a variable named `has_car`.
+Dovresti avere una variabile chiamata `has_car`.
 
 ```js
 ({ test: () => runPython(`assert _Node(_code).has_variable("has_car")`) })
 ```
 
-You should assign a boolean to your `has_car` variable.
+Dovresti assegnare un booleano alla tua variabile `has_car`.
 
 ```js
 ({ test: () => runPython(`assert isinstance(has_car, bool)`) })
 ```
 
-You should have a variable named `has_ride_share_app`.
+Dovresti avere una variabile chiamata `has_ride_share_app`.
 
 ```js
 ({ test: () => runPython(`assert _Node(_code).has_variable("has_ride_share_app")`) })
 ```
 
-You should assign a boolean to your `has_ride_share_app` variable.
+Dovresti assegnare un booleano alla tua variabile `has_ride_share_app`.
 
 ```js
 ({ test: () => runPython(`assert isinstance(has_ride_share_app, bool)`) })
 ```
 
-You should use at least one `if` statement.
+Dovresti usare almeno un’istruzione `if`.
 
 ```js
 ({ test: () => runPython(`
@@ -105,7 +105,7 @@ assert len(ifs) >= 1
 `) })
 ```
 
-You should use at least one `elif` branch in your program.
+Dovresti usare almeno un ramo `elif` nel tuo programma.
 
 ```js
 ({ test: () => runPython(`
@@ -123,7 +123,7 @@ assert len(elifs) >= 1
 `) })
 ```
 
-You should use at least one boolean operator (`and`, `or`, or `not`) in your code.
+Dovresti usare almeno un operatore booleano (`and`, `or` o `not`) nel tuo codice.
 
 ```js
 ({ test: () => runPython(`
@@ -140,13 +140,13 @@ assert len(bool_ops) >= 1
 `) })
 ```
 
-You should use the `print()` function to display the result.
+Dovresti usare la funzione `print()` per mostrare il risultato.
 
 ```js
 ({ test: () => runPython(`assert _Node(_code).block_has_call("print")`) })
 ```
 
-When `distance_mi` is a falsy value, the program should print `False`.
+Quando `distance_mi` è un valore falsy, il programma dovrebbe stampare `False`.
 
 ```js
 ({ test: () => runPython(`
@@ -205,7 +205,7 @@ run_case(
 `) })
 ```
 
-When the distance is `1` mile or less and it is not raining, the program should print `True`.
+Quando la distanza è `1` miglio o meno e non sta piovendo, il programma dovrebbe stampare `True`.
 
 ```js
 ({ test: () => runPython(`
@@ -264,7 +264,7 @@ run_case(
 `) })
 ```
 
-When the distance is `1` mile or less and it is raining, the program should print `False`.
+Quando la distanza è `1` miglio o meno e sta piovendo, il programma dovrebbe stampare `False`.
 
 ```js
 ({ test: () => runPython(`
@@ -323,7 +323,7 @@ run_case(
 `) })
 ```
 
-When the distance is between `1` mile (excluded) and `6` miles (included), and it is raining with no bike, the program should print `False`.
+Quando la distanza è tra `1` miglio (escluso) e `6` miglia (incluso), e sta piovendo senza bici, il programma dovrebbe stampare `False`.
 
 ```js
 ({ test: () => runPython(`
@@ -393,7 +393,7 @@ run_case(
 `) })
 ```
 
-When the distance is between `1` mile (excluded) and `6` miles (included), it is not raining but no bike is available, the program should print `False`.
+Quando la distanza è tra `1` miglio (escluso) e `6` miglia (incluso), non sta piovendo ma non c’è bici disponibile, il programma dovrebbe stampare `False`.
 
 ```js
 ({ test: () => runPython(`
@@ -463,7 +463,7 @@ run_case(
 `) })
 ```
 
-When the distance is between `1` mile (excluded) and `6` miles (included), a bike is available, and it is not raining, the program should print `True`.
+Quando la distanza è tra `1` miglio (escluso) e `6` miglia (incluso), c’è una bici disponibile e non sta piovendo, il programma dovrebbe stampare `True`.
 
 ```js
 ({ test: () => runPython(`
@@ -531,7 +531,7 @@ run_case(
 `) })
 ```
 
-When the distance is greater than `6` miles and a ride share app is available, the program should print `True`.
+Quando la distanza è maggiore di `6` miglia e c’è un’app per il ride-share, il programma dovrebbe stampare `True`.
 
 ```js
 ({ test: () => runPython(`
@@ -579,7 +579,7 @@ run_case(
 `) })
 ```
 
-When the distance is greater than `6` miles and a car is available, the program should print `True`.
+Quando la distanza è maggiore di `6` miglia e c’è un’auto disponibile, il programma dovrebbe stampare `True`.
 
 ```js
 ({ test: () => runPython(`
@@ -627,7 +627,7 @@ run_case(
 `) })
 ```
 
-When the distance is greater than `6` miles and no car nor a ride share app is available, the program should print `False`.
+Quando la distanza è maggiore di `6` miglia e non c’è né un’auto né un’app per il ride-share, il programma dovrebbe stampare `False`.
 
 ```js
 ({ test: () => runPython(`
@@ -704,4 +704,3 @@ elif distance_mi <= 6:
 else:
     print(has_car or has_ride_share_app)
 ```
-

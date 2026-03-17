@@ -1,23 +1,23 @@
 ---
 id: 64fad9cd2eeb1e7ca2ca8c8b
-title: Step 36
+title: Крок 36
 challengeType: 0
 dashedName: step-36
 ---
 
 # --description--
 
-Use arrow syntax to create an `updateTaskContainer` function. Then move the `taskData.forEach()` and its content from the `taskForm`'s `submit` event listener into the newly created function.
+Використайте стрілковий синтаксис, щоб створити `updateTaskContainer` функцію. Потім перемістіть `taskData.forEach()` та її вміст із слухача події `taskForm` об’єкта `submit` у щойно створену функцію.
 
 # --hints--
 
-You should use `const` and arrow syntax to create a `updateTaskContainer` function.
+Ви повинні використати `const` та стрілковий синтаксис, щоб створити `updateTaskContainer` функцію.
 
 ```js
 assert.match(code, /const\s+updateTaskContainer\s*=\s*\(\s*\)\s*=>\s*\{/)
 ```
 
-You should move `taskData.forEach()` and its content into the `updateTaskContainer()` function.
+Ви повинні перемістити `taskData.forEach()` та її вміст у функцію `updateTaskContainer()`.
 
 ```js
 assert.match(code, /const\s+updateTaskContainer\s*=\s*\(\s*\)\s*=>\s*\{\s*taskData\.forEach\(\s*\(\s*\{\s*id\s*,\s*title\s*,\s*date\s*,\s*description\s*\}\s*\)\s*=>\s*{\s*tasksContainer\.innerHTML\s*\+=\s*`\s*<div\s+class\s*=\s*('|")task\1\s*id\s*=\s*('|")\$\{id\}\2>\s*<p><strong>Title:<\/strong>\s*\$\{title\}<\/p>\s*<p><strong>Date:<\/strong>\s*\$\{date\}<\/p>\s*<p><strong>Description:<\/strong>\s*\$\{description\}<\/p>\s*<button\s+type\s*=\s*('|")button\3\s*class\s*=\s*('|")btn\4>Edit<\/button>\s*<button\s+type\s*=\s*('|")button\5\s*class\s*=\s*('|")btn\6>Delete<\/button>\s*<\/div>\s*`;?\s*}\s*\)\s*;?\s*\}\s*;?/)

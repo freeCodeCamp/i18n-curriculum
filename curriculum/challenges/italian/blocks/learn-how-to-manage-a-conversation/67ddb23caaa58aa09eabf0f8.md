@@ -1,6 +1,6 @@
 ---
 id: 67ddb23caaa58aa09eabf0f8
-title: Task 33
+title: Attività 33
 challengeType: 22
 dashedName: task-33
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Ascolta l'audio e completa la frase qui sotto.
 
 # --fillInTheBlank--
 
@@ -24,13 +24,13 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This means at the present time and shows the situation could change later.
+Significa "al momento" e indica che la situazione potrebbe cambiare in seguito.
 
 # --explanation--
 
-`For now` means at this moment or for the time being. It suggests that things are complete at the moment, but more might happen later. Per esempio:
+`For now` significa "in questo momento" o "per ora". Suggerisce che le cose sono concluse al momento, ma potrebbero succedere altre cose più avanti. Per esempio:
 
-`Let's stop working here for now and continue tomorrow.` - This means they are pausing at the moment, but will continue later.
+`Let's stop working here for now and continue tomorrow.` - Questo significa che stanno facendo una pausa adesso, ma riprenderanno più tardi.
 
 # --scene--
 

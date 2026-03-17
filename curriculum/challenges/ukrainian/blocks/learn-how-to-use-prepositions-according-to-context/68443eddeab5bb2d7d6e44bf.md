@@ -1,6 +1,6 @@
 ---
 id: 68443eddeab5bb2d7d6e44bf
-title: Task 45
+title: Завдання 45
 challengeType: 22
 dashedName: task-45
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Прослухайте аудіо та доповніть речення нижче.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This two-word phrase means to arrange or prepare something for use.
+Ця двослівна фраза означає організувати або підготувати щось для використання.
 
 ---
 
@@ -32,17 +32,17 @@ This two-word phrase means to arrange or prepare something for use.
 
 ### --feedback--
 
-This two-word phrase refers to a space where employees can relax from work.
+Ця двослівна фраза означає простір, де працівники можуть відпочити від роботи.
 
 # --explanation--
 
-`Set up` means to prepare or arrange something for use. For example:
+`Set up` означає підготувати або організувати щось для використання. Наприклад:
 
-`We need to set up the new computers before the meeting.` – This means to make them ready.
+`We need to set up the new computers before the meeting.` – Це означає зробити їх готовими.
 
-`Break room` is a place in an office where people rest, eat, or relax. For example:
+`Break room` — це місце в офісі, де люди відпочивають, їдять або розслабляються. Наприклад:
 
-`Let's meet in the break room after lunch.` – This refers to a space meant for taking a break.
+`Let's meet in the break room after lunch.` – Це простір, призначений для перерви.
 
 # --scene--
 

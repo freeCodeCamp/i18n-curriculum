@@ -1,6 +1,6 @@
 ---
 id: 657dbdae2bd6f60bda3226cc
-title: Task 81
+title: Завдання 81
 challengeType: 22
 dashedName: task-81
 lang: en-US
@@ -10,13 +10,13 @@ lang: en-US
 
 # --description--
 
-When you want to know how often something happens, you can use `every` followed by a time period like `day`, `week`, or `year`.
+Коли ви хочете дізнатися, як часто щось відбувається, ви можете використати `every`, а потім період часу, наприклад `day`, `week` або `year`.
 
-In the dialogue, Tom is asking about the frequency of the team meetings.
+У діалозі Том запитує про частоту командних зустрічей.
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Прослухайте аудіо і доповніть речення нижче.
 
 # --fillInTheBlank--
 
@@ -30,7 +30,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This word is used to ask if the meetings happen weekly.
+Це слово використовується, щоб запитати, чи відбуваються зустрічі щотижня.
 
 # --scene--
 
