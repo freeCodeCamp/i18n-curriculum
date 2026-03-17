@@ -1,23 +1,23 @@
 ---
 id: 68eb1f4e8ccb1cb263b81efe
-title: Step 22
+title: Крок 22
 challengeType: 0
 dashedName: step-22
 ---
 
 # --description--
 
-The description text needs to be a bit larger. Select the element with the class `description` and set its `font-size` to `1.2rem`.
+Текст опису має бути трохи більшим. Виберіть елемент із класом `description` і встановіть його `font-size` у `1.2rem`.
 
 # --hints--
 
-You should target the element with the class `description`.
+Ви маєте націлитися на елемент із класом `description`.
 
 ```js
 assert.exists(new __helpers.CSSHelp(document).getStyle('.description'));
 ```
 
-Set the `font-size` property to `1.2rem`.
+Встановіть властивість `font-size` у `1.2rem`.
 
 ```js
 const style = new __helpers.CSSHelp(document).getStyle('.description')
@@ -139,4 +139,3 @@ body {
 
 --fcc-editable-region--
 ```
-

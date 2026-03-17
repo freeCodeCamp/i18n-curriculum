@@ -1,17 +1,17 @@
 ---
 id: 685118ddcad14fa5d62faaef
-title: Step 33
+title: Крок 33
 challengeType: 20
 dashedName: step-33
 ---
 
 # --description--
 
-Now add a key `diagnosis` to the `constraints` dictionary. For its value, write an expression that checks that `diagnosis` is either an instance of `str` or is `None`.
+Тепер додайте ключ `diagnosis` до словника `constraints`. Для його значення напишіть вираз, який перевіряє, що `diagnosis` є або екземпляром `str`, або є `None`.
 
 # --hints--
 
-Your `constraints` dictionary should have a key `diagnosis`.
+Ваш словник `constraints` має містити ключ `diagnosis`.
 
 ```js
 ({ test: () => assert(runPython(`
@@ -21,7 +21,7 @@ _keys = [k.value for k in _ast_keys]
 `)) })
 ```
 
-The `diagnosis` key of your `constraints` dictionary should have the value of `isinstance(diagnosis, str) or diagnosis is None`.
+Ключ `diagnosis` вашого словника `constraints` має мати значення `isinstance(diagnosis, str) or diagnosis is None`.
 
 ```js
 ({ test: () => assert(runPython(`
@@ -83,7 +83,7 @@ def find_invalid_records(
         'age': isinstance(age, int) and age >= 18,
 --fcc-editable-region--
         'gender': isinstance(gender, str) and gender.lower() in ('male', 'female')
-
+        
 --fcc-editable-region--
     }
     return constraints
@@ -94,7 +94,7 @@ def validate(data):
     if not is_sequence:
         print('Invalid format: expected a list or tuple.')
         return False
-
+        
     is_invalid = False
     key_set = set(
         ['patient_id', 'age', 'gender', 'diagnosis', 'medications', 'last_visit_id']

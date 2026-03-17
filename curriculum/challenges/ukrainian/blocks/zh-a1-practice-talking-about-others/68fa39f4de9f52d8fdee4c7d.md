@@ -1,6 +1,6 @@
 ---
 id: 68fa39f4de9f52d8fdee4c7d
-title: "Dialogue 1: I'm Tom"
+title: "Діалог 1: я том"
 challengeType: 21
 dashedName: dialogue-1-im-tom
 lang: zh-CN
@@ -8,11 +8,11 @@ lang: zh-CN
 
 # --description--
 
-Watch the video below to understand the context of the upcoming lessons.
+Перегляньте відео нижче, щоб зрозуміти контекст майбутніх уроків.
 
 # --assignment--
 
-Watch the video.
+Перегляньте відео.
 
 # --scene--
 

@@ -1,6 +1,6 @@
 ---
 id: 68feee5abac0c3186f90b3ad
-title: Task 9
+title: Завдання 9
 challengeType: 19
 dashedName: task-9
 lang: zh-CN
@@ -10,13 +10,13 @@ lang: zh-CN
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Прослухайте аудіо та дайте відповідь на запитання нижче.
 
 # --questions--
 
 ## --text--
 
-Which option is the correct Pinyin for what Wang Hua says?
+Який варіант є правильним піньїнь для того, що каже Wang Hua?
 
 ## --answers--
 
@@ -28,7 +28,7 @@ Which option is the correct Pinyin for what Wang Hua says?
 
 ### --feedback--
 
-The tone of the first syllable doesn't match what you hear in the audio.
+Тон першого складу не відповідає тому, що ви чуєте в аудіо.
 
 ---
 
@@ -36,7 +36,7 @@ The tone of the first syllable doesn't match what you hear in the audio.
 
 ### --feedback--
 
-The final of the first syllable is not what she says.
+Фіналь першого складу не та, що вона вимовляє.
 
 ---
 
@@ -44,7 +44,7 @@ The final of the first syllable is not what she says.
 
 ### --feedback--
 
-The initial of the second syllable is different from what you hear in the audio.
+Ініціаль другого складу відрізняється від того, що ви чуєте в аудіо.
 
 ## --video-solution--
 
@@ -52,7 +52,7 @@ The initial of the second syllable is different from what you hear in the audio.
 
 # --explanation--
 
-Wang Hua is saying `míng zi`. The first syllable has a nasal final `ing` and a rising tone. The second syllable is a whole syllable with a neutral tone, pronounced lightly.
+Wang Hua каже `míng zi`. Перший склад має носовий фіналь `ing` і піднесений тон. Другий склад — це ціле число зі нейтральним тоном, вимовляється легко.
 
 # --scene--
 

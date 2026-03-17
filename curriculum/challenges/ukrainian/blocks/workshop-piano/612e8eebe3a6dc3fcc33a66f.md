@@ -1,35 +1,35 @@
 ---
 id: 612e8eebe3a6dc3fcc33a66f
-title: Step 9
+title: Крок 9
 challengeType: 0
 dashedName: step-9
 ---
 
 # --description--
 
-Now target your `#piano` element with an `id` selector. Set its `background-color` property to `#00471b`, the `width` property to `992px` and the `height` property to `290px`.
+Тепер націльте свій `#piano` елемент за допомогою `id` селектора. Встановіть його `background-color` властивість у `#00471b`, `width` властивість у `992px` і `height` властивість у `290px`.
 
 # --hints--
 
-You should have a `#piano` selector.
+Ви повинні мати `#piano` селектор.
 
 ```js
 assert.exists(new __helpers.CSSHelp(document).getStyle('#piano'));
 ```
 
-Your `#piano` selector should have the `background-color` property set to `#00471b`.
+Ваш `#piano` селектор має мати `background-color` властивість, встановлену в `#00471b`.
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('#piano')?.backgroundColor, 'rgb(0, 71, 27)');
 ```
 
-Your `#piano` selector should have a `width` property set to `992px`.
+Ваш `#piano` селектор має мати `width` властивість, встановлену в `992px`.
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('#piano')?.width, '992px');
 ```
 
-Your `#piano` selector should have the `height` set to `290px`.
+Ваш `#piano` селектор має мати `height`, встановлену в `290px`.
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('#piano')?.height, '290px');

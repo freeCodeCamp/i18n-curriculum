@@ -7,37 +7,37 @@ dashedName: step-9
 
 # --description--
 
-Якщо користувач натискає кнопку `Discard`, ви бажаєте закрити модальний який показує кнопки `Cancel` та `Discard`, а потім сховати модальний форми.
+Якщо користувач натисне на кнопку `Discard`, ви хочете закрити модальне вікно з кнопками `Cancel` і `Discard`, а потім приховати форму модального вікна.
 
-Додайте слухач подій клацання до `discardBtn`, а потім скористайтеся методом `close()` на змінній `confirmCloseDialog`. Також використайте `classList`, щоб перемкнути клас `hidden` на `taskForm`, щоб модальний форми також закрився.
+Додайте слухача події click до `discardBtn`, потім використайте метод `close()` на змінній `confirmCloseDialog`. Також використайте `classList` для переключення класу `hidden` на `taskForm`, щоб форма модального вікна теж закрилася.
 
 # --hints--
 
-Викличте метод `addEventListener()` на змінній `discardBtn`.
+Ви повинні викликати метод `addEventListener()` на вашій змінній `discardBtn`.
 
 ```js
 assert.match(code, /discardBtn\.addEventListener\(/)
 ```
 
-Ваш слухач подій повинен слухати подію `click`.
+Ваш слухач події має слухати подію `click`.
 
 ```js
 assert.match(code, /discardBtn\.addEventListener\(\s*('|"|`)click\1/)
 ```
 
-Ви повинні використати стрілковий синтаксис, щоб встановити ваш слухач подій на порожню пару фігурних дужок.
+Використайте стрілковий синтаксис, щоб задати слухача події з порожніми фігурними дужками.
 
 ```js
 assert.match(code, /discardBtn\.addEventListener\(\s*('|"|`)click\1\s*,\s*\(\s*\)\s*=>\s*\{/)
 ```
 
-Ваш слухач подій має використовувати метод `close()` на `confirmCloseDialog`.
+Ваш слухач події має використовувати метод `close()` на `confirmCloseDialog`.
 
 ```js
 assert.match(code, /discardBtn\.addEventListener\(\s*('|"|`)click\1\s*,\s*\(\s*\)\s*=>\s*\{\s*confirmCloseDialog\.close\(\s*\)\s*;?/)
 ```
 
-Ваш слухач подій має використовувати `classList` для перемикання класу `hidden` на `taskForm`.
+Ваш слухач події має використовувати `classList` для переключення класу `hidden` на `taskForm`.
 
 ```js
 assert.match(code, /discardBtn\.addEventListener\(\s*('|"|`)click\1\s*,\s*\(\s*\)\s*=>\s*\{\s*confirmCloseDialog\.close\(\s*\)\s*;?\s*taskForm\.classList\.toggle\(\s*('|"|`)hidden\2\s*\)\s*;?\s*\}\s*\)\s*;?/)

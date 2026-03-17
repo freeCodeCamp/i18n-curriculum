@@ -1,31 +1,31 @@
 ---
 id: 60fad6dfcc0d930a59becf12
-title: Step 39
+title: Крок 39
 challengeType: 0
 dashedName: step-39
 ---
 
 # --description--
 
-The HTML for the registration form is finished. Now, you can spruce it up a bit.
+HTML для форми реєстрації готовий. Тепер ви можете трохи його прикрасити.
 
-Start by changing the font to `Tahoma`, and the font size to `16px` in the `body`.
+Почніть зі зміни шрифту на `Tahoma` та розміру шрифту на `16px` у `body`.
 
 # --hints--
 
-You should use the `font-family` property to change the font.
+Ви повинні використати властивість `font-family` для зміни шрифту.
 
 ```js
 assert.isNotEmpty(new __helpers.CSSHelp(document).getStyle('body')?.fontFamily);
 ```
 
-You should set the `font-family` property to `Tahoma`.
+Ви повинні встановити властивість `font-family` у значення `Tahoma`.
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('body')?.fontFamily, 'Tahoma');
 ```
 
-You should set the `font-size` property to `16px`.
+Ви повинні встановити властивість `font-size` у значення `16px`.
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('body')?.fontSize, '16px');
@@ -93,7 +93,7 @@ body {
   background-color: #1b1b32;
   color: #f5f6f7;
 --fcc-editable-region--
-
+  
 --fcc-editable-region--
 }
 

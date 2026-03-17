@@ -1,72 +1,72 @@
 ---
 id: 66ecdcf7c8d9a6f49094ffde
-title: Step 13
+title: Крок 13
 challengeType: 1
 dashedName: step-13
 ---
 
 # --description--
 
-In previous lessons, you learned that the `Math.round()` method rounds the value to the nearest whole integer.
+У попередніх уроках ви дізналися, що метод `Math.round()` округлює значення до найближчого цілого числа.
 
-Here are some examples:
+Ось кілька прикладів:
 
 ```js
 Math.round(6.7); // 7
 Math.round(3.2); // 3
 ```
 
-This differs from the `Math.floor()` and `Math.ceil()` methods, which round down and up to the nearest whole integer, respectively.
+Це відрізняється від методів `Math.floor()` та `Math.ceil()`, які відповідно округлюють вниз і вгору до найближчого цілого числа.
 
-Create a new variable called `numRounded` and assign the result of rounding the number `2.7`. Then, log the value of `numRounded` to the console.
+Створіть нову змінну з назвою `numRounded` і призначте їй результат округлення числа `2.7`. Потім виведіть значення `numRounded` у консоль.
 
-Below that, create another new variable called `numRounded2` and assign the result of rounding the number `11.2`. Then, log the value of `numRounded2` to the console.
+Нижче створіть ще одну нову змінну з назвою `numRounded2` і призначте їй результат округлення числа `11.2`. Потім виведіть значення `numRounded2` у консоль.
 
 # --hints--
 
-You should have a variable called `numRounded`.
+У вас має бути змінна з назвою `numRounded`.
 
 ```js
 assert.isNotNull(numRounded);
 ```
 
-You should assign the result of rounding the number `2.7` to the variable `numRounded`.
+Ви повинні призначити результат округлення числа `2.7` змінній `numRounded`.
 
 ```js
 assert.equal(numRounded, 3);
 ```
 
-You should not hardcode the value of `3` for the variable `numRounded`. Make sure you are using the `Math.round()` method.
+Не слід жорстко кодувати значення `3` для змінної `numRounded`. Переконайтеся, що ви використовуєте метод `Math.round()`.
 
 ```js
 assert.notMatch(code, /numRounded\s*=\s*3/);
 ```
 
-You should log the value of `numRounded` to the console.
+Виведіть значення `numRounded` у консоль.
 
 ```js
 assert.match(code, /console\.log\(\s*numRounded\s*\)/);
 ```
 
-You should have a variable called `numRounded2`.
+У вас має бути змінна з назвою `numRounded2`.
 
 ```js
 assert.isNotNull(numRounded2);
 ```
 
-You should assign the result of rounding the number `11.2` to the variable `numRounded2`.
+Ви повинні призначити результат округлення числа `11.2` змінній `numRounded2`.
 
 ```js
 assert.equal(numRounded2, 11);
 ```
 
-You should not hardcode the value of `11` for the variable `numRounded2`. Make sure you are using the `Math.round()` method.
+Не слід жорстко кодувати значення `11` для змінної `numRounded2`. Переконайтеся, що ви використовуєте метод `Math.round()`.
 
 ```js
 assert.notMatch(code, /numRounded2\s*=\s*11/);
 ```
 
-You should log the value of `numRounded2` to the console.
+Виведіть значення `numRounded2` у консоль.
 
 ```js
 assert.match(code, /console\.log\(\s*numRounded2\s*\)/);

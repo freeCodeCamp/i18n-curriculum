@@ -1,25 +1,25 @@
 ---
 id: 60ffe7d8aae62c05bcc9e7eb
-title: Step 54
+title: Крок 54
 challengeType: 0
 dashedName: step-54
 ---
 
 # --description--
 
-With a `display` of `block` the submit button sits flush against the left edge of its parent.
+За `display` зі значенням `block` кнопка відправки розташована вплотну до лівого краю свого батьківського елемента.
 
-Use the same technique used to center the `form` to center the submit button.
+Використайте ту саму техніку, що й для центрування `form`, щоб поцентрувати кнопку відправки.
 
 # --hints--
 
-You should give the submit button a `margin` of `0 auto`.
+Ви маєте задати кнопці відправки `margin` зі значенням `0 auto`.
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('input[type="submit"]')?.margin, '0px auto');
 ```
 
-You should not give the submit button a `min-width` or `max-width`.
+Не слід задавати кнопці відправки `min-width` або `max-width`.
 
 ```js
 assert.isEmpty(new __helpers.CSSHelp(document).getStyle('input[type="submit"]')?.minWidth);
@@ -142,7 +142,7 @@ input[type="submit"] {
   display: block;
   width: 60%;
 --fcc-editable-region--
-
+  
 --fcc-editable-region--
 }
 

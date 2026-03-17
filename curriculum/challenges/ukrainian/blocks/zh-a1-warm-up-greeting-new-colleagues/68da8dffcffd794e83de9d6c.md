@@ -1,6 +1,6 @@
 ---
 id: 68da8dffcffd794e83de9d6c
-title: Task 10
+title: Завдання 10
 challengeType: 19
 dashedName: task-10
 lang: zh-CN
@@ -10,13 +10,13 @@ lang: zh-CN
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Прослухайте аудіозапис і дайте відповідь на запитання нижче.
 
 # --questions--
 
 ## --text--
 
-What is Chen Na saying to greet a group of people?
+Що каже Chen Na, щоб привітатися з групою людей?
 
 ## --answers--
 
@@ -24,7 +24,7 @@ What is Chen Na saying to greet a group of people?
 
 ### --feedback--
 
-This is a greeting to one person, but Chen Na is greeting more than one.
+Це привітання для однієї особи, але Chen Na вітається з кількома.
 
 ---
 
@@ -32,7 +32,7 @@ This is a greeting to one person, but Chen Na is greeting more than one.
 
 ### --feedback--
 
-This form is not standard in Chinese.
+Ця форма не є стандартною в китайській мові.
 
 ---
 
@@ -44,7 +44,7 @@ This form is not standard in Chinese.
 
 ### --feedback--
 
-This also means "Hello, everyone", but Chen Na uses a different phrase.
+Це також означає "Привіт усім", але Chen Na використовує іншу фразу.
 
 ## --video-solution--
 
@@ -52,11 +52,11 @@ This also means "Hello, everyone", but Chen Na uses a different phrase.
 
 # --explanation--
 
-The question is asking what Chen Na is saying to greet **a group of people**.
+Питання запитує, що каже Chen Na, щоб привітатися з **групою людей**.
 
-`你好 (nǐ hǎo)` is a greeting to one person, while `您好 (nín hǎo)` is a polite greeting to one person. `您们好 (nín men hǎo)` is not standard in Chinese; `您 (nín)` is polite singular, not usually pluralized.
+`你好 (nǐ hǎo)` — це привітання для однієї особи, тоді як `您好 (nín hǎo)` — ввічливе привітання для однієї особи. `您们好 (nín men hǎo)` не є стандартним у китайській; `您 (nín)` — ввічлива форма для однини, зазвичай не вживається у множині.
 
-The correct phrase for greeting a group is `你们好 (nǐ men hǎo)`, which is a common way to say "hello, everyone". `大家好 (dà jiā hǎo)` is another way to greet a group, which you'll learn as you progress.
+Правильна фраза для привітання групи — `你们好 (nǐ men hǎo)`, це загальний спосіб сказати "привіт усім". `大家好 (dà jiā hǎo)` — інший спосіб привітатися з групою, який ви вивчите пізніше.
 
 # --scene--
 
