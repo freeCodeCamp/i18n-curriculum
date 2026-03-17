@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Послухайте аудіо та доповніть речення нижче.
+Прослухайте аудіо та доповніть речення нижче.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ lang: en-US
 
 ### --feedback--
 
-This means very serious or important. It is often used when something needs immediate attention.
+Це означає дуже серйозний або важливий. Часто використовується, коли щось потребує негайної уваги.
 
 ---
 
@@ -32,17 +32,17 @@ This means very serious or important. It is often used when something needs imme
 
 ### --feedback--
 
-This means to change or influence something. It often describes how one thing causes a change in another.
+Це означає змінювати або впливати на щось. Часто описує, як одна річ спричиняє зміну іншої.
 
 # --explanation--
 
-`Critical` means extremely important or serious. Приклад:
+`Critical` означає надзвичайно важливий або серйозний. Наприклад:
 
-`We have a critical deadline tomorrow.` – This means the deadline is very important and cannot be missed.
+`We have a critical deadline tomorrow.` – Це означає, що термін дуже важливий і його не можна пропустити.
 
-`To affect` means to have an influence on something or cause a change. For example:
+`To affect` означає впливати на щось або спричиняти зміну. Наприклад:
 
-`The new policy may affect employee performance.` – This means the policy might change how employees perform.
+`The new policy may affect employee performance.` – Це означає, що політика може змінити, як працівники виконують свої обов’язки.
 
 # --scene--
 

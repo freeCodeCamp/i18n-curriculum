@@ -11,25 +11,25 @@ dashedName: step-33
 
 # --hints--
 
-Елемент `figcaption` повинен мати початковий тег. Початкові теги мають такий синтаксис: `<elementName>`.
+Ваш елемент `figcaption` має мати початковий тег. Початкові теги мають такий синтаксис: `<elementName>`.
 
 ```js
 assert.lengthOf(document.querySelectorAll('figcaption'), 2);
 ```
 
-Елемент `figcaption` повинен мати кінцевий тег. Кінцеві теги мають `/` одразу після символу `<`.
+Ваш елемент `figcaption` має мати кінцевий тег. Кінцеві теги мають `/` одразу після символу `<`.
 
 ```js
 assert.lengthOf(code.match(/<\/figcaption\>/g), 2);
 ```
 
-Одразу над кінцевим тегом другого елемента `section` має бути елемент `figure`.
+Повинен бути елемент `figure` безпосередньо над кінцевим тегом другого елемента `section`.
 
 ```js
 assert.equal(document.querySelectorAll('main > section')[1]?.lastElementChild.nodeName, 'FIGURE');
 ```
 
-Останній елемент `img` має бути вкладеним в елементі `figure`.
+Останній елемент `img` має бути вкладений у елемент `figure`.
 
 ```js
 const catsImg = document.querySelectorAll('figure > img')[1];
@@ -38,25 +38,25 @@ assert.equal(
 );
 ```
 
-Елемент `figure` повинен мати початковий тег. Початкові теги мають такий синтаксис: `<elementName>`.
+Ваш елемент `figure` має мати початковий тег. Початкові теги мають такий синтаксис: `<elementName>`.
 
 ```js
 assert.lengthOf(document.querySelectorAll('figure'), 2);
 ```
 
-Елемент `figure` повинен мати кінцевий тег. Кінцеві теги мають `/` одразу після символу `<`.
+Ваш елемент `figure` має мати кінцевий тег. Кінцеві теги мають `/` одразу після символу `<`.
 
 ```js
 assert.lengthOf(code.match(/<\/figure\>/g), 2);
 ```
 
-Елемент `figcaption` має бути вкладеним в елементі `figure`.
+Елемент `figcaption` має бути вкладений у елемент `figure`.
 
 ```js
 assert.lengthOf(document.querySelectorAll('figure > figcaption'), 2);
 ```
 
-Елемент `figcaption`, вкладений в елемент `figure`, має бути під елементом `img`. Елементи `img` та `figcaption` розташовані в неправильному порядку.
+Елемент `figcaption`, вкладений у елемент `figure`, має бути нижче за елемент `img`. Ви помилилися в порядку елементів `img` та `figcaption`.
 
 ```js
 assert.equal(
@@ -65,7 +65,7 @@ assert.equal(
 );
 ```
 
-Елемент `figcaption` повинен мати текст `Cats hate other cats.` Ви пропустили слово або допустили друкарську помилку.
+Елемент `figcaption` має містити текст `Cats hate other cats.`. Ви пропустили слово або зробили помилку.
 
 ```js
 assert.match(
@@ -112,7 +112,7 @@ assert.match(
         <figure>
           <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" alt="Two tabby kittens sleeping together on a couch.">
 --fcc-editable-region--
-
+          
 --fcc-editable-region--
         </figure>
       </section>

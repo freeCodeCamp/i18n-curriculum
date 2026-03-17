@@ -1,6 +1,6 @@
 ---
 id: 69ae6a09b4a814be6a4f2bde
-title: What are Vector Databases?
+title: Що таке векторні бази даних?
 challengeType: 11
 videoId: kCGgKYMam7o
 dashedName: what-are-vector-databases
@@ -8,13 +8,13 @@ dashedName: what-are-vector-databases
 
 # --description--
 
-In this video, you will learn about vector databases.
+У цьому відео ви дізнаєтеся про векторні бази даних.
 
 # --questions--
 
 ## --text--
 
-Which of the following is NOT an example of a popular indexing algorithm?
+Який із наведених варіантів НЕ є прикладом популярного алгоритму індексації?
 
 ## --answers--
 
@@ -35,4 +35,3 @@ Locality-Sensitive Hashing (LSH)
 ## --video-solution--
 
 1
-

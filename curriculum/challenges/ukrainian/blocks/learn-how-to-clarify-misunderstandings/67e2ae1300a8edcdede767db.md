@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Послухайте аудіо та доповніть речення нижче.
+Прослухайте аудіо та доповніть речення нижче.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ lang: en-US
 
 ### --feedback--
 
-This verb is used when someone wants to get information or permission.
+Цей дієслово використовується, коли хтось хоче отримати інформацію або дозвіл.
 
 ---
 
@@ -32,17 +32,17 @@ This verb is used when someone wants to get information or permission.
 
 ### --feedback--
 
-This preposition connects related topic or subject.
+Цей прийменник з’єднує пов’язані теми або предмети.
 
 # --explanation--
 
-`Ask about` means to request information related to a specific topic. Приклад:
+`Ask about` означає запитувати інформацію, пов’язану з конкретною темою. Наприклад:
 
-`I asked about the new feature.` – You wanted information on the feature.
+`I asked about the new feature.` – Ви хотіли отримати інформацію про функцію.
 
-`Can I ask you about...` is a polite way to start a question when you want information or help. It shows that you're asking for permission to talk about a specific topic. For example:
+`Can I ask you about...` — це ввічливий спосіб почати питання, коли ви хочете отримати інформацію або допомогу. Це показує, що ви просите дозволу поговорити про конкретну тему. Наприклад:
 
-`Can I ask you about the project deadline?` – This means you want to talk about the deadline and get more details.
+`Can I ask you about the project deadline?` – Це означає, що ви хочете поговорити про термін і отримати більше деталей.
 
 # --scene--
 

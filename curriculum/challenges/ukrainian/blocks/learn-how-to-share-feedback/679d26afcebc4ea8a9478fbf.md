@@ -1,6 +1,6 @@
 ---
 id: 679d26afcebc4ea8a9478fbf
-title: Task 91
+title: Завдання 91
 challengeType: 19
 dashedName: task-91
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Прослухайте аудіо та дайте відповідь на запитання нижче.
 
 # --questions--
 
 ## --text--
 
-Is James sure that they need to update the software?
+Чи впевнений Джеймс, що їм потрібно оновити програмне забезпечення?
 
 ## --answers--
 
-Not really, since he is asking for Maria's opinion.
+Не зовсім, бо він питає думку Марії.
 
 ---
 
-Yes, he has already decided to update it.
+Так, він уже вирішив його оновити.
 
 ### --feedback--
 
-James is asking Maria about it, so he probably hasn't decided it yet.
+Джеймс запитує Марію про це, тож, ймовірно, він ще не прийняв рішення.
 
 ---
 
-Yes, he has already started updating the software.
+Так, він уже почав оновлювати програмне забезпечення.
 
 ### --feedback--
 
-James is asking whether they should update the software or not.
+Джеймс питає, чи варто оновлювати програмне забезпечення, чи ні.
 
 ---
 
-On the contrary, he's sure they should not update the software.
+Навпаки, він впевнений, що оновлювати не потрібно.
 
 ### --feedback--
 
-James is not rejecting the idea altogether; he is actually asking Maria's opinion on the topic.
+Джеймс не відкидає ідею повністю; він насправді питає думку Марії з цього приводу.
 
 ## --video-solution--
 
@@ -52,9 +52,9 @@ James is not rejecting the idea altogether; he is actually asking Maria's opinio
 
 # --explanation--
 
-`To update` means to modify or improve software by releasing a new version. Updates can include bug fixes, new features, or performance improvements. For example:
+`To update` означає змінити або покращити програмне забезпечення, випустивши нову версію. Оновлення можуть включати виправлення помилок, нові функції або покращення продуктивності. Наприклад:
 
-`The company released an update to fix security vulnerabilities in the app.` - This means a new version was launched to address security issues.
+`The company released an update to fix security vulnerabilities in the app.` — це означає, що була випущена нова версія для усунення проблем із безпекою.
 
 # --scene--
 

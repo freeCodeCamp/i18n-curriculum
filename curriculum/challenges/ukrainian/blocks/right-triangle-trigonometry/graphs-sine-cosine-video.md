@@ -1,6 +1,6 @@
 ---
 id: 699e5bab8f18cf77dfce5c11
-title: Graphs of Sine and Cosine
+title: Графіки синуса і косинуса
 challengeType: 11
 videoId: OoP1Lav_i9A
 dashedName: graphs-sine-cosine
@@ -8,32 +8,30 @@ dashedName: graphs-sine-cosine
 
 # --description--
 
-In this video, you will learn about the graphs of sine and cosine functions.
+У цьому відео ви дізнаєтеся про графіки функцій синуса і косинуса.
 
 # --questions--
 
 ## --text--
 
-What is the amplitude of a sine or cosine function?
+Що таке амплітуда функції синуса або косинуса?
 
 ## --answers--
 
-Vertical distance between the maximum point and the midline.
+Вертикальна відстань між максимальною точкою і середньою лінією.
 
 ---
 
-Horizontal distance between two consecutive peaks
+Горизонтальна відстань між двома послідовними піками.
 
 ---
 
-The slope of the sine or cosine curve at the maximum point.
+Нахил кривої синуса або косинуса в максимальній точці.
 
 ---
 
-Vertical distance between two minimum points.
+Вертикальна відстань між двома мінімальними точками.
 
 ## --video-solution--
 
 1
-
-

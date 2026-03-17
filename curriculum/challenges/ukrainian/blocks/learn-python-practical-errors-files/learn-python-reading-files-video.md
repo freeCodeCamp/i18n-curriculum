@@ -1,6 +1,6 @@
 ---
 id: 04e25c4fdc9ee0e71a844fd6
-title: Reading Files
+title: Читання файлів
 challengeType: 11
 videoId: enOW7u6LWyg
 dashedName: reading-files-learn-python-full-course-for-beginners
@@ -8,29 +8,29 @@ dashedName: reading-files-learn-python-full-course-for-beginners
 
 # --description--
 
-In this video, you will learn how to read files in Python and process their contents.
+У цьому відео ви навчитеся читати файли в Python і обробляти їхній вміст.
 
 # --questions--
 
 ## --text--
 
-What is the role of the `"r"` in the `open()` function?
+Яка роль `"r"` у функції `open()`?
 
 ## --answers--
 
-It specifies the range mode.
+Вона визначає режим діапазону.
 
 ---
 
-It specifies the rename mode.
+Вона визначає режим перейменування.
 
 ---
 
-It specifies the random access mode.
+Вона визначає режим випадкового доступу.
 
 ---
 
-It specifies the read mode.
+Вона визначає режим читання.
 
 ## --video-solution--
 

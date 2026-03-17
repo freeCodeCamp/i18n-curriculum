@@ -1,6 +1,6 @@
 ---
 id: bfab38e6a6c1165f7774514d
-title: Writing to Files
+title: Запис у файли
 challengeType: 11
 videoId: QR95sRxsehY
 dashedName: writing-to-files-learn-python-full-course-for-beginners
@@ -8,29 +8,29 @@ dashedName: writing-to-files-learn-python-full-course-for-beginners
 
 # --description--
 
-In this video, you will learn how to write data to files in Python.
+У цьому відео ви навчитеся записувати дані у файли на Python.
 
 # --questions--
 
 ## --text--
 
-What is the role of the `"a"` in the `open()` function?
+Яка роль `"a"` у функції `open()`?
 
 ## --answers--
 
-It specifies the append mode.
+Вона вказує режим додавання.
 
 ---
 
-It specifies the alternate mode.
+Вона вказує альтернативний режим.
 
 ---
 
-It specifies the access mode.
+Вона вказує режим доступу.
 
 ---
 
-It specifies the apply mode.
+Вона вказує режим застосування.
 
 ## --video-solution--
 

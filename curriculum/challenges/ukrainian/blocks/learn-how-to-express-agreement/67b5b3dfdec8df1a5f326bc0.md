@@ -1,6 +1,6 @@
 ---
 id: 67b5b3dfdec8df1a5f326bc0
-title: Task 110
+title: Завдання 110
 challengeType: 22
 dashedName: task-110
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Прослухайте аудіо та доповніть речення нижче.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This means something that is not strong or obvious. It's something gentle or soft that you might not notice right away.
+Це означає щось неяскраве або неочевидне. Це щось ніжне або м’яке, що ви можете не помітити одразу.
 
 ---
 
@@ -32,17 +32,17 @@ This means something that is not strong or obvious. It's something gentle or sof
 
 ### --feedback--
 
-This refers to the range of colors used in a design or artwork. In this case, a `color palette` refers to the selection of colors chosen for the design of the app or project.
+Це стосується діапазону кольорів, які використовуються у дизайні або творі мистецтва. У цьому випадку `color palette` означає вибір кольорів, обраних для дизайну застосунку або проєкту.
 
 # --explanation--
 
-`Subtle` refers to something that is delicate or not obvious. For example:
+`Subtle` означає щось делікатне або неочевидне. Наприклад:
 
-`The artist used subtle shades of blue in the painting.` - This means the artist used light or soft shades of blue that are not very strong or attention-grabbing.
+`The artist used subtle shades of blue in the painting.` — це означає, що художник використав світлі або м’які відтінки синього, які не є дуже яскравими або помітними.
 
-`Palette` refers to the range of colors or materials an artist or designer uses. For example:
+`Palette` стосується діапазону кольорів або матеріалів, які використовує художник чи дизайнер. Наприклад:
 
-`The designer chose a warm palette for the website, using reds, oranges, and yellows.` - This means the designer selected a set of warm colors, such as red, orange, and yellow, for the website's design.
+`The designer chose a warm palette for the website, using reds, oranges, and yellows.` — це означає, що дизайнер обрав множину теплих кольорів, таких як червоний, помаранчевий і жовтий, для дизайну вебсайту.
 
 # --scene--
 

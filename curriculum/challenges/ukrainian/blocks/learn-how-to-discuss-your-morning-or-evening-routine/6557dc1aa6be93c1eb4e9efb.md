@@ -1,6 +1,6 @@
 ---
 id: 6557dc1aa6be93c1eb4e9efb
-title: Task 29
+title: Завдання 29
 challengeType: 19
 dashedName: task-29
 lang: en-US
@@ -10,47 +10,47 @@ lang: en-US
 
 # --description--
 
-The word `if` means "whether or not". For example:
+Слово `if` означає «чи так, чи ні». Наприклад:
 
-`She checks her emails to see if there are any urgent updates.` - This means she is looking to find out whether updates exist.
+`She checks her emails to see if there are any urgent updates.` — це означає, що вона хоче дізнатися, чи існують оновлення.
 
-`If` can also be part of a conditional statement, which shows a possible situation and its result. For example:
+`If` також може бути частиною умовної інструкції, яка показує можливу ситуацію та її результат. Наприклад:
 
-`If there are urgent updates, I will reply immediately.` - This means replying depends on the condition of having urgent updates.
+`If there are urgent updates, I will reply immediately.` — це означає, що відповідь залежить від умови наявності термінових оновлень.
 
 # --questions--
 
 ## --text--
 
-What does Sarah imply by using `if` in her statement about checking emails and messages?
+Що Сара має на увазі, використовуючи `if` у своїй інструкції про перевірку е-пошти та повідомлень?
 
 ## --answers--
 
-She always finds urgent updates from her team.
+Вона завжди знаходить термінові оновлення від своєї команди.
 
 ### --feedback--
 
-`If` doesn't suggest certainty of finding urgent updates.
+`If` не припускає впевненості у знаходженні термінових оновлень.
 
 ---
 
-Sometimes there are urgent updates, sometimes not.
+Іноді є термінові оновлення, іноді ні.
 
 ---
 
-She never checks her emails and messages.
+Вона ніколи не перевіряє свою е-пошту та повідомлення.
 
 ### --feedback--
 
-Sarah actually states that she does check her emails and messages.
+Сара фактично каже, що перевіряє свою е-пошту та повідомлення.
 
 ---
 
-Checking emails is not part of her routine.
+Перевірка е-пошти не є частиною її рутини.
 
 ### --feedback--
 
-Sarah mentions that checking emails and messages is part of her routine.
+Сара згадує, що перевірка е-пошти та повідомлень є частиною її рутини.
 
 ## --video-solution--
 

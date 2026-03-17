@@ -7,13 +7,13 @@ dashedName: step-23
 
 # --description--
 
-До третього `tr` додайте елемент `th` з текстом `Credit The outstanding balance on our credit card.`. Обгорніть цей текст, окрім `Credit`, елементом `span` з `class` зі значенням `description`.
+У третьому `tr` додайте елемент `th` з текстом `Credit The outstanding balance on our credit card.`. Обгорніть цей текст, крім `Credit `, у елемент `span` з атрибутом `class`, встановленим у `description`.
 
-Додайте під ним три елементи `td` та надайте їм такий текст, за порядком: `$50`, `$50` та `$75`. Третьому елементу `td` потрібно надати `class` зі значенням `current`.
+Під ним додайте три елементи `td` з таким текстом, у порядку: `$50`, `$50` і `$75`. Третьому елементу `td` додайте атрибут `class`, встановлений у `current`.
 
 # --hints--
 
-Ваш третій `tr` повинен мати елемент `th`.
+Ваш третій `tr` має містити елемент `th`.
 
 ```js
 const table = document.querySelectorAll('table')?.[1];
@@ -22,7 +22,7 @@ const tableRow = tbody?.querySelectorAll('tr')?.[2];
 assert.isNotNull(tableRow?.querySelector('th'));
 ```
 
-Ваш елемент `th` повинен мати текст `Credit The outstanding balance on our credit card.`.
+Ваш елемент `th` має містити текст `Credit The outstanding balance on our credit card.`.
 
 ```js
 const table = document.querySelectorAll('table')?.[1];
@@ -34,7 +34,7 @@ assert.strictEqual(
 );
 ```
 
-Ви повинні обгорнути текст `The outstanding balance on our credit card.` в елемент `span`.
+Текст `The outstanding balance on our credit card.` слід обгорнути в елемент `span`.
 
 ```js
 const table = document.querySelectorAll('table')?.[1];
@@ -46,7 +46,7 @@ assert.strictEqual(
 );
 ```
 
-Ваш елемент `span` повинен мати атрибут `class` зі значенням `description`.
+Ваш елемент `span` має мати атрибут `class`, встановлений у `description`.
 
 ```js
 const table = document.querySelectorAll('table')?.[1];
@@ -57,7 +57,7 @@ assert.isTrue(
 );
 ```
 
-Ви повинні мати три елементи `td`.
+Вам потрібно мати три елементи `td`.
 
 ```js
 const table = document.querySelectorAll('table')?.[1];
@@ -66,7 +66,7 @@ const tableRow = tbody?.querySelectorAll('tr')?.[2];
 assert.lengthOf(tableRow?.querySelectorAll('td'), 3);
 ```
 
-Ваш перший елемент `td` повинен мати текст `$50`.
+Перший елемент `td` має містити текст `$50`.
 
 ```js
 const table = document.querySelectorAll('table')?.[1];
@@ -75,7 +75,7 @@ const tableRow = tbody?.querySelectorAll('tr')?.[2];
 assert.strictEqual(tableRow?.querySelectorAll('td')?.[0]?.textContent.trim(), '$50');
 ```
 
-Ваш другий елемент `td` повинен мати текст `$50`.
+Другий елемент `td` має містити текст `$50`.
 
 ```js
 const table = document.querySelectorAll('table')?.[1];
@@ -84,7 +84,7 @@ const tableRow = tbody?.querySelectorAll('tr')?.[2];
 assert.strictEqual(tableRow?.querySelectorAll('td')?.[1]?.textContent.trim(), '$50');
 ```
 
-Ваш третій елемент `td` повинен мати текст `$75`.
+Третій елемент `td` має містити текст `$75`.
 
 ```js
 const table = document.querySelectorAll('table')?.[1];
@@ -93,7 +93,7 @@ const tableRow = tbody?.querySelectorAll('tr')?.[2];
 assert.strictEqual(tableRow?.querySelectorAll('td')?.[2]?.textContent.trim(), '$75');
 ```
 
-Ваш третій елемент `td` повинен мати `class` зі значенням `current`.
+Третій елемент `td` має мати атрибут `class`, встановлений у `current`.
 
 ```js
 const table = document.querySelectorAll('table')?.[1];

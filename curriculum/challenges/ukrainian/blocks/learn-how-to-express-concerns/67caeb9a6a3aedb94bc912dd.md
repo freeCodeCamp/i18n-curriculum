@@ -1,6 +1,6 @@
 ---
 id: 67caeb9a6a3aedb94bc912dd
-title: Task 129
+title: Завдання 129
 challengeType: 22
 dashedName: task-129
 lang: en-US
@@ -10,39 +10,39 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Прослухайте аудіо та доповніть речення нижче.
 
 # --fillInTheBlank--
 
 ## --sentence--
 
-`They BLANK said the communication isn't great because they BLANK don't hear about changes until it's too late.`
+`They BLANK said the communication isn't great because they BLANK don't hear about changes until it's too late.`  
 
 ## --blanks--
 
-`also`
+`also`  
 
 ### --feedback--
 
-This means in addition or as well.
+Це означає «крім того» або «також».
 
----
+---  
 
-`often`
+`often`  
 
 ### --feedback--
 
-This means frequently or many times.
+Це означає «часто» або «багато разів».
 
 # --explanation--
 
-`Also` means in addition to something previously mentioned. For example:
+`Also` означає «крім чогось, що було згадано раніше». Наприклад:
 
-`She speaks English and also knows French.` - This means she knows French in addition to English.
+`She speaks English and also knows French.` — Це означає, що вона знає французьку крім англійської.
 
-`Often` means frequently or regularly. For example:
+`Often` означає «часто» або «регулярно». Наприклад:
 
-`He often works late on Fridays.` - This means he works late many times or regularly on Fridays.
+`He often works late on Fridays.` — Це означає, що він часто або регулярно працює допізна по п’ятницях.
 
 # --scene--
 

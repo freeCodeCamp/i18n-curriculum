@@ -1,6 +1,6 @@
 ---
 id: 657fbde9a43e35ec1ebafe56
-title: Task 77
+title: Завдання 77
 challengeType: 19
 dashedName: task-77
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --description--
 
-Listen to the audio and answer the question below.
+Прослухайте аудіо та дайте відповідь на запитання нижче.
 
 # --questions--
 
 ## --text--
 
-What does the phrase `Would you like to come?` convey in this context?
+Що означає фраза `Would you like to come?` у цьому контексті?
 
 ## --answers--
 
-Declining an invitation.
+Відмова від запрошення.
 
 ### --feedback--
 
-The phrase doesn't mean saying "no". It is about offering an invitation.
+Фраза не означає відмову. Вона стосується пропозиції запрошення.
 
 ---
 
-Extending an invitation.
+Розширення запрошення.
 
 ---
 
-Expressing gratitude.
+Вираження подяки.
 
 ### --feedback--
 
-The phrase doesn't mean "thank you". It is about inviting someone.
+Фраза не означає "дякую". Вона стосується запрошення когось.
 
 ---
 
-Asking for information.
+Запит інформації.
 
 ### --feedback--
 
-The phrase isn't a question to get information, but a polite invitation to an event.
+Фраза не є питанням для отримання інформації, а ввічливим запрошенням на подію.
 
 ## --video-solution--
 

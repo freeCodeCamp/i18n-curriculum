@@ -1,6 +1,6 @@
 ---
 id: 67c4bacefd5097faecca40d4
-title: Task 22
+title: Завдання 22
 challengeType: 19
 dashedName: task-22
 lang: en-US
@@ -10,51 +10,51 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Прослухайте аудіо та дайте відповідь на запитання нижче.
 
 # --questions--
 
 ## --text--
 
-What does Bob want to know?
+Що хоче дізнатися Боб?  
 
 ## --answers--
 
-If they should cancel the project.
+Чи слід скасувати проєкт.  
 
 ### --feedback--
 
-Bob is not asking about canceling the project.
+Боб не питає про скасування проєкту.  
 
 ---
 
-If working fewer hours would be better.
+Чи буде краще працювати менше годин.  
 
 ### --feedback--
 
-Bob is suggesting working more hours, not fewer.
+Боб пропонує працювати більше годин, а не менше.  
 
 ---
 
-If the team has already solved the issue.
+Чи команда вже вирішила проблему.  
 
 ### --feedback--
 
-Bob is asking if his suggestion will help, not if the issue is already solved.
+Боб питає, чи допоможе його пропозиція, а не чи проблема вже вирішена.  
 
 ---
 
-If working extra hours will improve the situation.
+Чи покращить ситуацію робота понаднормово.  
 
 ## --video-solution--
 
-4
+4  
 
 # --explanation--
 
-Using negatives in questions with auxiliary or modal verbs (such as `wouldn't`, `isn't`, `doesn't`), which require direct `yes`/`no` answers, suggests that the speaker expects the answer to be positive — Bob assumes, in this case, that working extra hours will help. Another example:
+Використання заперечень у запитаннях з допоміжними або модальними дієсловами (такими як `wouldn't`, `isn't`, `doesn't`), які вимагають прямих `yes`/`no` відповідей, свідчить про те, що мовник очікує позитивної відповіді — у цьому випадку Боб припускає, що робота понаднормово допоможе. Інший приклад:
 
-`Doesn't this plan seem like a good idea?` - The speaker expects the listener to agree that the plan is good.
+`Doesn't this plan seem like a good idea?` - Мовник очікує, що слухач погодиться, що план хороший.
 
 # --scene--
 

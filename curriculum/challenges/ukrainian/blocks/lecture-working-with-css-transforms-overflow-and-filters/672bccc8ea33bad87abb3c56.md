@@ -1,15 +1,15 @@
 ---
 id: 672bccc8ea33bad87abb3c56
-title: What Is the Difference Between content-box and border-box?
+title: Яка відмінність між content-box і border-box?
 challengeType: 19
 dashedName: what-is-the-difference-between-content-box-and-border-box
 ---
 
 # --interactive--
 
-The `box-sizing` property can be set to either `content-box` or `border-box` to control how the width and height of elements are calculated.
+Властивість `box-sizing` може бути встановлена або в `content-box`, або в `border-box`, щоб контролювати, як обчислюються ширина і висота елементів.
 
-This property can be set on the universal selector (`*`) to apply to all the elements in the document:
+Цю властивість можна встановити на універсальному селекторі (`*`), щоб застосувати до всіх елементів у документі:
 
 ```css
 * {
@@ -17,20 +17,20 @@ This property can be set on the universal selector (`*`) to apply to all the ele
 }
 ```
 
-The value of the `box-sizing` property is `content-box` by default, but you can choose `border-box` if you need to. We will explore `content-box` first and then we will go into `border-box`.
+Значення властивості `box-sizing` за замовчуванням — `content-box`, але ви можете вибрати `border-box`, якщо це потрібно. Спочатку розглянемо `content-box`, а потім перейдемо до `border-box`.
 
-To understand how the models work, you need to be familiar with the four core concepts from the CSS box model. Let's review them quickly.
+Щоб зрозуміти, як працюють ці моделі, потрібно ознайомитися з чотирма основними поняттями моделі CSS-блоку. Давайте швидко їх повторимо.
 
-- The content area is the space occupied by the element's content.
-- The padding is the space between the content area and the border.
-- The border is the outline that surrounds the content area and the padding.
-- The margin is the space outside the border that separates the element from other elements.
+- Область вмісту — це простір, який займає вміст елемента.
+- Відступ — це простір між областю вмісту та кордоном.
+- Кордон — це обрис, який оточує область вмісту та відступ.
+- Поле — це простір поза межами кордону, який відокремлює елемент від інших елементів.
 
-In the `content-box` model, the width and height that you set for an element determine the dimensions of the content area, but they don't include the padding, border, or margin. Use `content-box` when you need precise control over the content area. When you set `width` and `height`, you're only setting the size of the content itself.
+У моделі `content-box` ширина і висота, які ви задаєте для елемента, визначають розміри області вмісту, але не включають відступ, кордон або поле. Використовуйте `content-box`, коли потрібен точний контроль над областю вмісту. Коли ви встановлюєте `width` і `height`, ви задаєте лише розмір самого вмісту.
 
-To find the total width of the element, you will need to add the left and right padding, and the left and right borders. Likewise, the total height of an element can be found by adding the content height, the top and bottom padding, and the top and bottom borders.
+Щоб знайти загальну ширину елемента, потрібно додати лівий і правий відступ, а також лівий і правий кордони. Аналогічно, загальну висоту елемента можна знайти, додавши висоту вмісту, верхній і нижній відступи, а також верхній і нижній кордони.
 
-For example, here we have a CSS type selector for all the `div` elements.
+Наприклад, тут у нас є селектор типу CSS для всіх елементів `div`.
 
 :::interactive_editor
 
@@ -50,13 +50,13 @@ div {
 
 :::
 
-In this case, if `content-box` is used the content area will be 300px by 200px. The total rendered size includes padding and borders — for example, total width = 300px (content) + 40px (padding) + 8px (borders) = 348px; the total height is calculated in the same way.
+У цьому випадку, якщо використовується `content-box`, область вмісту буде 300px на 200px. Загальний відтворений розмір включає відступи та кордони — наприклад, загальна ширина = 300px (вміст) + 40px (відступ) + 8px (кордони) = 348px; загальна висота обчислюється аналогічно.
 
-Great! Now let's explore `border-box`. It's different because the width and height you set include the element's content, padding, and border (but not its margin). Use `border-box` when you want the element's total size to stay fixed even if padding or borders change — that's often helpful in responsive layouts.
+Чудово! Тепер розглянемо `border-box`. Вона відрізняється тим, що ширина і висота, які ви задаєте, включають вміст елемента, відступи та кордони (але не поле). Використовуйте `border-box`, коли хочете, щоб загальний розмір елемента залишався фіксованим, навіть якщо відступи або кордони змінюються — це часто корисно в адаптивних макетах.
 
-With `border-box`, padding and borders are included inside the element's specified size. The `width` and `height` you set become the element's total dimensions: content + padding + border; margins remain excluded.
+У `border-box` відступи та кордони включені всередину заданого розміру елемента. `width` і `height`, які ви встановлюєте, стають загальними розмірами елемента: вміст + відступ + кордон; поля залишаються виключеними.
 
-In the following example, there are two `div` elements with the same dimensions but different `box-sizing` values. Notice how this results in different total sizes when viewed in the browser:
+У наступному прикладі є два елементи `div` з однаковими розмірами, але різними значеннями `box-sizing`. Зверніть увагу, як це призводить до різних загальних розмірів при перегляді у браузері:
 
 :::interactive_editor
 
@@ -89,15 +89,15 @@ In the following example, there are two `div` elements with the same dimensions 
 
 :::
 
-You can see that they both have the same `width`, `height`, `padding`, `border` and `margin`. The only differences are in the colors and the value of the `box-sizing` property. This small difference has a very important impact on the final dimensions.
+Ви бачите, що вони обидва мають однакові `width`, `height`, `padding`, `border` і `margin`. Єдина відмінність — у кольорах і значенні властивості `box-sizing`. Ця невелика відмінність має дуже важливий вплив на фінальні розміри.
 
-Choosing between `content-box` and `border-box` really depends on the specific needs of your project. While `border-box` is becoming increasingly popular for its simplicity and flexibility, understanding both models is important for implementing effective CSS layouts.
+Вибір між `content-box` і `border-box` справді залежить від конкретних потреб вашого проєкту. Хоча `border-box` стає дедалі популярнішою через простоту та гнучкість, розуміння обох моделей важливе для реалізації ефективних CSS-макетів.
 
 # --questions--
 
 ## --text--
 
-Which of the following is the default value for the `box-sizing` property in most browsers?
+Яке з наведених значень є значенням за замовчуванням для властивості `box-sizing` у більшості браузерів?
 
 ## --answers--
 
@@ -109,7 +109,7 @@ Which of the following is the default value for the `box-sizing` property in mos
 
 ### --feedback--
 
-Think about the default behavior for element sizing.
+Подумайте про поведінку за замовчуванням для розмірів елементів.
 
 ---
 
@@ -117,7 +117,7 @@ Think about the default behavior for element sizing.
 
 ### --feedback--
 
-Think about the default behavior for element sizing.
+Подумайте про поведінку за замовчуванням для розмірів елементів.
 
 ---
 
@@ -125,7 +125,7 @@ Think about the default behavior for element sizing.
 
 ### --feedback--
 
-Think about the default behavior for element sizing.
+Подумайте про поведінку за замовчуванням для розмірів елементів.
 
 ## --video-solution--
 
@@ -133,35 +133,35 @@ Think about the default behavior for element sizing.
 
 ## --text--
 
-What is the primary advantage of using `border-box` for creating responsive layouts?
+Яка основна перевага використання `border-box` для створення адаптивних макетів?
 
 ## --answers--
 
-It makes the calculations more complicated.
+Вона ускладнює обчислення.
 
 ### --feedback--
 
-Think about how the `border-box` model handles `padding` and `border` within the specified `width` and `height`.
+Подумайте, як модель `border-box` обробляє `padding` і `border` у межах заданих `width` і `height`.
 
 ---
 
-It allows for more precise control over element dimensions.
+Вона дозволяє точніше контролювати розміри елементів.
 
 ### --feedback--
 
-Think about how the `border-box` model handles `padding` and `border` within the specified `width` and `height`.
+Подумайте, як модель `border-box` обробляє `padding` і `border` у межах заданих `width` і `height`.
 
 ---
 
-It ensures that elements maintain their specified dimensions regardless of changes in `padding` or `border`.
+Вона гарантує, що елементи зберігають свої задані розміри незалежно від змін у `padding` або `border`.
 
 ---
 
-It improves browser compatibility.
+Вона покращує сумісність із браузерами.
 
 ### --feedback--
 
-Think about how the `border-box` model handles `padding` and `border` within the specified `width` and `height`.
+Подумайте, як модель `border-box` обробляє `padding` і `border` у межах заданих `width` і `height`.
 
 ## --video-solution--
 
@@ -169,35 +169,35 @@ Think about how the `border-box` model handles `padding` and `border` within the
 
 ## --text--
 
-In the `content-box` model, what does the specified `width` of an element represent?
+У моделі `content-box` що представляє собою задана `width` елемента?
 
 ## --answers--
 
-The total `width` of the element, including `padding`, `border`, and `margin`.
+Загальний `width` елемента, включно з `padding`, `border` і `margin`.
 
 ### --feedback--
 
-Think about the relationship between the content area and the overall element dimensions in the `content-box` model.
+Подумайте про співвідношення між областю вмісту та загальними розмірами елемента в моделі `content-box`.
 
 ---
 
-The `width` of the content area only.
+`width` лише області вмісту.
 
 ---
 
-The `width` of the `border`.
+`width` `border`.
 
 ### --feedback--
 
-Think about the relationship between the content area and the overall element dimensions in the `content-box` model.
+Подумайте про співвідношення між областю вмісту та загальними розмірами елемента в моделі `content-box`.
 
 ---
 
-The `width` of the `padding`.
+`width` `padding`.
 
 ### --feedback--
 
-Think about the relationship between the content area and the overall element dimensions in the `content-box` model.
+Подумайте про співвідношення між областю вмісту та загальними розмірами елемента в моделі `content-box`.
 
 ## --video-solution--
 

@@ -1,6 +1,6 @@
 ---
 id: 65fc9c5db0a80e6e3d3cfce5
-title: Task 37
+title: Завдання 37
 challengeType: 22
 dashedName: task-37
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --description--
 
-In this part of the conversation, Brian talks about how the talk made him feel and thanks Maria for sharing her perspective.
+У цій частині розмови Браян розповідає, як він почувався після виступу, і дякує Марії за те, що вона поділилася своєю точкою зору.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ In this part of the conversation, Brian talks about how the talk made him feel a
 
 ### --feedback--
 
-This word means something that gives you energy or a reason to do something. It's like when someone's words make you want to try harder.
+Це слово означає щось, що дає вам енергію або причину щось робити. Це як тоді, коли чиїсь слова змушують вас старатися більше.
 
 ---
 
@@ -32,7 +32,7 @@ This word means something that gives you energy or a reason to do something. It'
 
 ### --feedback--
 
-This word means giving something that you have to others. It's like when you tell someone your ideas or feelings.
+Це слово означає давати щось, що ви маєте, іншим. Це як коли ви розповідаєте комусь свої ідеї чи почуття.
 
 # --scene--
 

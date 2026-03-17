@@ -1,6 +1,6 @@
 ---
 id: 699e78398f18cf77dfce5c1c
-title: Double Angle Formulas
+title: Формули подвійного кута
 challengeType: 11
 videoId: QMaQImbBe0M
 dashedName: double-angle-formulas
@@ -8,32 +8,30 @@ dashedName: double-angle-formulas
 
 # --description--
 
-In this video, you will learn about the double angle formulas.
+У цьому відео ви дізнаєтеся про формули подвійного кута.
 
 # --questions--
 
 ## --text--
 
-What is the double angle formula for `sin(2θ)`?
+Яка формула подвійного кута для $\sin(2\theta)$?
 
 ## --answers--
 
-`sin(2θ) = 2 cos²(θ)`
+$\sin(2\theta) = 2\cos^2(\theta)$
 
 ---
 
-`sin(2θ) = cos(2θ)`
+$\sin(2\theta) = \cos(2\theta)$
 
 ---
 
-`sin(2θ) = 2sin(θ)cos(θ)`
+$\sin(2\theta) = 2\sin(\theta)\cos(\theta)$
 
 ---
 
-`sin(2θ) = sin²(θ) - cos²(θ)`
+$\sin(2\theta) = \sin^2(\theta) - \cos^2(\theta)$
 
 ## --video-solution--
 
 3
-
-

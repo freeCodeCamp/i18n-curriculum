@@ -1,6 +1,6 @@
 ---
 id: 6629ce6bffd1efa9c6c57eaa
-title: Task 1
+title: Завдання 1
 challengeType: 22
 dashedName: task-1
 lang: en-US
@@ -10,9 +10,9 @@ lang: en-US
 
 # --description--
 
-The phrase `how's it going?` is a common way to ask someone how they are or what's happening in their life. It's often used as a friendly greeting.
+Фраза `how's it going?` — це загальний спосіб запитати когось, як у нього справи або що відбувається в його житті. Її часто використовують як дружнє привітання.
 
-For example, when you see an old friend, you may say `Hey, how's it going? I haven't seen you for a while!` This is a casual way to ask them about their life. If you want to ask them about a specific thing, like their new job, you can say `How's it going with your new job?`
+Наприклад, коли ви бачите давнього друга, ви можете сказати `Hey, how's it going? I haven't seen you for a while!` Це неформальний спосіб поцікавитися його життям. Якщо хочете запитати про щось конкретне, наприклад про нову роботу, можна сказати `How's it going with your new job?`
 
 # --fillInTheBlank--
 
@@ -26,7 +26,7 @@ For example, when you see an old friend, you may say `Hey, how's it going? I hav
 
 ### --feedback--
 
-This contraction is commonly used in informal greetings. Capitalize the first word.
+Цей скорочений вираз часто використовують у неформальних привітаннях. Першу букву слід писати з великої.
 
 ---
 
@@ -34,7 +34,7 @@ This contraction is commonly used in informal greetings. Capitalize the first wo
 
 ### --feedback--
 
-This word completes the common informal greeting asking about someone's general state.
+Це слово завершує загальне неформальне привітання, яке запитує про загальний стан людини.
 
 # --scene--
 

@@ -1,15 +1,15 @@
 ---
 id: 67f39babe1e2ec1fb6eea32a
-title: Dictionaries and Sets Review
+title: Повторення словників і множин
 challengeType: 31
 dashedName: review-dictionaries-and-sets
 ---
 
 # --description--
 
-## Dictionaries
+## Словники
 
-- **Dictionaries**: Dictionaries are built-in data structures that store collections of key-value pairs. Keys need to be immutable data types. This is the general syntax of a Python dictionary:
+- **Словники**: Словники — це вбудовані структури даних, які зберігають колекції пар ключ-значення. Ключі мають бути незмінними типами даних. Ось загальний синтаксис словника в Python:
 
 ```python
 dictionary = {
@@ -18,27 +18,27 @@ dictionary = {
 }
 ```
 
-- **`dict()` Constructor**: The `dict()` constructor is an alternative way to build the dictionary. You pass a list of tuples as an argument to the `dict()` constructor. These tuples contain the key as the first element and the value as the second element.
+- **`dict()` конструктор**: `dict()` конструктор — це альтернативний спосіб створення словника. Ви передаєте список кортежів як аргумент конструктору `dict()`. Ці кортежі містять ключ як перший елемент і значення як другий.
 
 ```python
 pizza = dict([('name', 'Margherita Pizza'), ('price', 8.9), ('calories_per_slice', 250), ('toppings', ['mozzarella', 'basil'])])
 ```
 
-- **Bracket Notation**: To access the value of a key-value pair, you can use the syntax known as bracket notation.
+- **Дужкова нотація**: Щоб отримати доступ до значення пари ключ-значення, можна використати синтаксис, відомий як дужкова нотація.
 
 ```python
 dictionary[key]
 ```
 
-## Common Dictionary Methods
+## Загальні методи словника
 
-- **`get()` Method**: The `get()` method retrieves the value associated with a key. It's similar to the bracket notation, but it lets you set a default value, preventing errors if the key doesn't exist.
+- **`get()` метод**: Метод `get()` отримує значення, пов’язане з ключем. Це схоже на дужкову нотацію, але дозволяє встановити значення за замовчуванням, щоб уникнути помилок, якщо ключ не існує.
 
 ```python
 dictionary.get(key, default)
 ```
 
-- **`keys()` and `values()` Methods**: The `keys()` and `values()` methods return a view object with all the keys and values in the dictionary, respectively. A view object is a way to see the content of a dictionary without creating a separate copy of the data.
+- **Методи `keys()` і `values()`**: Методи `keys()` і `values()` повертають об’єкт-представлення з усіма ключами та значеннями словника відповідно. Об’єкт-представлення дозволяє переглядати вміст словника без створення окремої копії даних.
 
 ```python
 pizza = {
@@ -54,41 +54,41 @@ pizza.values()
 # dict_values(['Margherita Pizza', 8.9, 250])
 ```
 
-- **`items()` Method**: The `items()` method returns a view object with all the key-value pairs in the dictionary, including both the keys and the values.
+- **`items()` метод**: Метод `items()` повертає об’єкт-представлення з усіма парами ключ-значення у словнику, включно з ключами та значеннями.
 
 ```python
 pizza.items()
 # dict_items([('name', 'Margherita Pizza'), ('price', 8.9), ('calories_per_slice', 250)])
 ```
 
-- **`clear()` Method**: The `clear()` method removes all the key-value pairs from the dictionary.
+- **`clear()` метод**: Метод `clear()` видаляє всі пари ключ-значення зі словника.
 
 ```python
 pizza.clear()
 ```
 
-- **`pop()` Method**: The `pop()` method removes the key-value pair with the key specified as the first argument and returns its value. If the key doesn't exist, it returns the default value specified as the second argument. If the key doesn't exist and the default value is not specified, a `KeyError` is raised.
+- **`pop()` метод**: Метод `pop()` видаляє пару ключ-значення з ключем, вказаним як перший аргумент, і повертає її значення. Якщо ключ не існує, повертається значення за замовчуванням, вказане другим аргументом. Якщо ключ не існує і значення за замовчуванням не вказане, виникає `KeyError`.
 
 ```python
 pizza.pop('price', 10)
 pizza.pop('total_price') # KeyError
 ```
 
-- **`popitem()` Method**: In Python 3.7 and above, the `popitem()` method removes the last inserted item.
+- **`popitem()` метод**: У Python 3.7 і вище метод `popitem()` видаляє останній доданий елемент.
 
 ```python
 pizza.popitem()
 ```
 
-- **`update()` Method**: The `update()` method updates the key-value pairs with the key-value pairs of another dictionary. If they have keys in common, their values are overwritten. New keys will be added to the dictionary as new key-value pairs.
+- **`update()` метод**: Метод `update()` оновлює пари ключ-значення словника парами іншого словника. Якщо ключі збігаються, їхні значення перезаписуються. Нові ключі додаються як нові пари ключ-значення.
 
 ```python
 pizza.update({ 'price': 15, 'total_time': 25 })
 ```
 
-## Looping Over a Dictionary
+## Ітерування словника
 
-- **Iterating Over Values**: If you need to iterate over the values in a dictionary, you can write a `for` loop with `values()` to get all the values of a dictionary.
+- **Ітерування значень**: Якщо потрібно ітерувати над значеннями словника, можна написати цикл `for` з `values()`, щоб отримати всі значення словника.
 
 ```python
 products = {
@@ -102,7 +102,7 @@ for price in products.values():
     print(price)
 ```
 
-Output:
+Вихідні дані:
 
 ```md
 990
@@ -111,7 +111,7 @@ Output:
 70
 ```
 
-- **Iterating Over Keys**: If you need to iterate over the keys in the `products` dictionary above, you can write `products.keys()` or `products` directly.
+- **Ітерування ключів**: Якщо потрібно ітерувати над ключами словника `products` вище, можна написати `products.keys()` або `products` безпосередньо.
 
 ```python
 for product in products.keys():
@@ -123,7 +123,7 @@ for product in products:
     print(product)
 ```
 
-Output:
+Вихідні дані:
 
 ```md
 Laptop
@@ -132,14 +132,14 @@ Tablet
 Headphones
 ```
 
-- **Iterating Over Key-Value Pairs**: If you need to iterate over the keys and their corresponding values simultaneously, you can iterate over `products.items()`. You get individual tuples with the keys and their corresponding values.
+- **Ітерування пар ключ-значення**: Якщо потрібно ітерувати одночасно над ключами та відповідними значеннями, можна ітерувати над `products.items()`. Ви отримуєте окремі кортежі з ключами та відповідними значеннями.
 
 ```python
 for product in products.items():
     print(product)
 ```
 
-Output:
+Вихідні дані:
 
 ```md
 ('Laptop', 990)
@@ -148,14 +148,14 @@ Output:
 ('Headphones', 70)
 ```
 
-To store the key and value in separate loop variables, you need to separate them with a comma. The first variable stores the key, and the second stores the value.
+Щоб зберегти ключ і значення в окремих змінних циклу, потрібно розділити їх комою. Перша змінна зберігає ключ, друга — значення.
 
 ```python
 for product, price in products.items():
     print(product, price)
 ```
 
-Output:
+Вихідні дані:
 
 ```md
 Laptop 990
@@ -164,16 +164,16 @@ Tablet 250
 Headphones 70
 ```
 
-- **`enumerate()` Function**: If you need to iterate over a dictionary while keeping track of a counter, you can call the `enumerate()` function. The function returns an `enumerate` object, which assigns an integer to each item, like a counter. You can start the counter from any number, but by default, it starts from 0.
+- **`enumerate()` функція**: Якщо потрібно ітерувати словник, відстежуючи лічильник, можна викликати функцію `enumerate()`. Функція повертає об’єкт `enumerate`, який призначає ціле число кожному елементу, як лічильник. Лічильник можна почати з будь-якого числа, але за замовчуванням він починається з 0.
 
-Assigning the index and item to separate loop variables is the common way to use `enumerate()`. For example, with `products.items()`, you can get the entire key-value pair in addition to the index:
+Призначення індексу та елемента в окремі змінні циклу — це загальний спосіб використання `enumerate()`. Наприклад, з `products.items()` можна отримати всю пару ключ-значення разом з індексом:
 
 ```python
 for index, product in enumerate(products.items()):
     print(index, product)
 ```
 
-Output:
+Вихідні дані:
 
 ```md
 0 ('Laptop', 990)
@@ -182,14 +182,14 @@ Output:
 3 ('Headphones', 70)
 ```
 
-To customize the initial value of the count, you can pass a second argument to `enumerate()`. For example, here we are starting the count from 1.
+Щоб налаштувати початкове значення лічильника, можна передати другий аргумент у `enumerate()`. Наприклад, тут лічильник починається з 1.
 
 ```python
 for index, product in enumerate(products.items(), 1):
     print(index, product)
 ```
 
-Output:
+Вихідні дані:
 
 ```md
 1 ('Laptop', 990)
@@ -198,47 +198,47 @@ Output:
 4 ('Headphones', 70)
 ```
 
-## Sets
+## Множини
 
-- **Sets**: Sets are built-in data structures in Python that do not allow duplicate values. Sets are mutable and unordered, which means that their elements are not stored in any specific order, so you cannot use indices or keys to access them. Also, sets can only contain values of immutable data types, like numbers, strings, and tuples.
+- **Множини**: Множини — це вбудовані структури даних у Python, які не дозволяють дублікати значень. Множини змінні та не впорядковані, тобто їхні елементи не зберігаються у певному порядку, тому до них не можна звертатися за індексами чи ключами. Також множини можуть містити лише значення незмінних типів даних, таких як числа, рядки та кортежі.
 
-- **Defining a Set**: To define a set, you need to write its elements within curly brackets and separate them with commas.
+- **Визначення множини**: Щоб визначити множину, потрібно записати її елементи у фігурних дужках, розділяючи їх комами.
 
 ```python
 my_set = {1, 2, 3, 4, 5}
 ```
 
-- **Defining an Empty Set**: If you need to define an empty set, you must use the `set()` function. Only writing empty curly braces will automatically create a dictionary.
+- **Визначення порожньої множини**: Якщо потрібно визначити порожню множину, слід використати функцію `set()`. Просто написання порожніх фігурних дужок автоматично створить словник.
 
 ```python
 set() # Set
 {}    # Dictionary
 ```
 
-## Common Set Methods
+## Загальні методи множин
 
-- **`add()` Method**: You can add an element to a set with the `add()` method, passing the new element as an argument.
+- **`add()` метод**: Можна додати елемент до множини за допомогою методу `add()`, передаючи новий елемент як аргумент.
 
 ```python
 my_set.add(6)
 ```
 
-- **`remove()` and `discard()` Methods**: To remove an element from a set, you can either use the `remove()` method or the `discard()` method, passing the element you want to remove as an argument. The `remove()` method will raise a `KeyError` if the element is not found while the `discard()` method will not.
+- **Методи `remove()` і `discard()`**: Щоб видалити елемент із множини, можна використати метод `remove()` або метод `discard()`, передаючи елемент, який потрібно видалити, як аргумент. Метод `remove()` викличе `KeyError`, якщо елемент не знайдено, тоді як метод `discard()` — ні.
 
 ```python
 my_set.remove(4)
 my_set.discard(4)
 ```
 
-- **`clear()` method**:  The `clear()` method removes all the elements from the set.
+- **Метод `clear()`**: Метод `clear()` видаляє всі елементи з множини.
 
 ```python
 my_set.clear()
 ```
 
-## Mathematical Set Operations
+## Математичні операції над множинами
 
-- **`issubset()` and `issuperset()` Methods**: The `issubset()` and the `issuperset()` methods check if a set is a subset or superset of another set, respectively.
+- **Методи `issubset()` і `issuperset()`**: Методи `issubset()` і `issuperset()` перевіряють, чи є множина підмножиною або надмножиною іншої множини відповідно.
 
 ```python
 my_set = {1, 2, 3, 4, 5}
@@ -248,7 +248,7 @@ print(your_set.issubset(my_set)) # True
 print(my_set.issuperset(your_set)) # True
 ```
 
-- **`isdisjoint()` Method**: The `isdisjoint()` method checks if two sets are disjoint, if they don't have elements in common.
+- **Метод `isdisjoint()`**: Метод `isdisjoint()` перевіряє, чи дві множини не мають спільних елементів.
 
 ```python
 my_set = {1, 2, 3}
@@ -257,7 +257,7 @@ your_set = {4, 5, 6}
 print(my_set.isdisjoint(your_set)) # True
 ```
 
-- **Union Operator (`|`)**: The union operator `|` returns a new set with all the elements from both sets.
+- **Оператор об’єднання (`|`)**: Оператор об’єднання `|` повертає нову множину з усіма елементами обох множин.
 
 ```python
 my_set = {1, 2, 3}
@@ -266,7 +266,7 @@ your_set = {4, 5, 6}
 my_set | your_set # {1, 2, 3, 4, 5, 6}
 ```
 
-- **Intersection Operator (`&`)**: The intersection operator `&` returns a new set with only the elements that the sets have in common.
+- **Оператор перетину (`&`)**: Оператор перетину `&` повертає нову множину лише з тими елементами, які є в обох множинах.
 
 ```python
 my_set = {1, 2, 3, 4, 5}
@@ -275,7 +275,7 @@ your_set = {2, 3, 4, 6}
 my_set & your_set # {2, 3, 4}
 ```
 
-- **Difference Operator (`-`)**: The difference operator `-` returns a new set with the elements of the first set that are not in the other sets.
+- **Оператор різниці (`-`)**: Оператор різниці `-` повертає нову множину з елементами першої множини, яких немає в інших множинах.
 
 ```python
 my_set = {1, 2, 3, 4, 5}
@@ -284,7 +284,7 @@ your_set = {2, 3, 4, 6}
 my_set - your_set # {1, 5}
 ```
 
-- **Symmetric Difference Operator (`^`)**: The symmetric difference operator `^` returns a new set with the elements that are either in the first or the second set, but not both.
+- **Оператор симетричної різниці (`^`)**: Оператор симетричної різниці `^` повертає нову множину з елементами, які є або в першій, або в другій множині, але не в обох одночасно.
 
 ```python
 my_set = {1, 2, 3, 4, 5}
@@ -293,33 +293,33 @@ your_set = {2, 3, 4, 6}
 my_set ^ your_set # {1, 5, 6}
 ```
 
-- **`in` Operator**: You can check if an element is in a set or not with the `in` operator.
+- **Оператор `in`**: Можна перевірити, чи є елемент у множині, за допомогою оператора `in`.
 
 ```python
 print(5 in my_set) # True
 ```
 
-## Python Standard Library
+## Стандартна бібліотека Python
 
-- **Python Standard Library**: A library gives you pre-written and reusable code, like functions, classes, and data structures, that you can reuse in your projects. Python has an extensive standard library with built-in modules that implement standardized solutions for many problems and tasks. Some examples of popular built-in modules are `math`, `random`, `re` (short for "regular expressions"), and `datetime`.
+- **Стандартна бібліотека Python**: Бібліотека надає вам готовий і багаторазово використовуваний код, як-от функції, класи та структури даних, які можна повторно використовувати у своїх проєктах. Python має велику стандартну бібліотеку з вбудованими модулями, які реалізують стандартизовані рішення для багатьох проблем і завдань. Деякі приклади популярних вбудованих модулів — `math`, `random`, `re` (скорочення від "регулярні вирази") та `datetime`.
 
-## Import Statement
+## Інструкція імпорту
 
-- **Import Statement**: To access the elements defined in built-in modules, you use an import statement. Import statements are generally written at the top of the file. Import statements work the same for functions, classes, constants, variables, and any other elements defined in the module.
+- **Інструкція імпорту**: Щоб отримати доступ до елементів, визначених у вбудованих модулях, використовуйте інструкцію імпорту. Інструкції імпорту зазвичай пишуться на початку файлу. Вони працюють однаково для функцій, класів, констант, змінних та інших елементів модуля.
 
-- **Basic Import Statement**: You can use the `import` keyword followed by the name of the module:
+- **Базова інструкція імпорту**: Можна використати ключове слово `import`, за яким іде назва модуля:
 
 ```python
 import module_name
 ```
 
-Then, if you need to call a function from that module, you would use dot notation, with the name of the module followed by the name of the function.
+Потім, якщо потрібно викликати функцію з цього модуля, використовуйте точкову нотацію: назва модуля, а потім назва функції.
 
 ```python
 module_name.function_name()
 ```
 
-For example, you would write the following in your code to import the `math` module and get the square root of 36:
+Наприклад, у коді можна написати так, щоб імпортувати модуль `math` і отримати квадратний корінь із 36:
 
 ```python
 import math
@@ -327,31 +327,31 @@ import math
 math.sqrt(36)
 ```
 
-- **Importing a Module with a Different Name**: If you need to import the module with a different name (also known as an "alias"), you can use `as` followed by the alias at the end of the import statement. This is often used for long module names or to avoid naming conflicts.
+- **Імпорт модуля з іншим ім’ям**: Якщо потрібно імпортувати модуль під іншим ім’ям (так званий "аліас"), можна використати `as` з аліасом наприкінці інструкції імпорту. Це часто застосовується для довгих назв модулів або щоб уникнути конфліктів імен.
 
 ```python
 import module_name as module_alias
 ```
 
-For example, to refer to the `math` module as `m` in your code, you can assign an alias like this:
+Наприклад, щоб звертатися до модуля `math` як `m` у коді, можна призначити аліас так:
 
 ```python
 import math as m
 ```
 
-Then, you can access the elements of the module using the alias:
+Потім можна звертатися до елементів модуля через аліас:
 
 ```python
 m.sqrt(36)
 ```
 
-- **Importing Specific Elements**: If you don't need everything from a module, you can import specific elements using `from`. In this case, the import statement starts with `from`, followed by the module name, then the `import` keyword, and finally the names of the elements you want to import.
+- **Імпорт конкретних елементів**: Якщо не потрібні всі елементи модуля, можна імпортувати конкретні за допомогою `from`. У цьому випадку інструкція імпорту починається з `from`, далі йде назва модуля, потім ключове слово `import` і, нарешті, імена елементів, які потрібно імпортувати.
 
 ```python
 from module_name import name1, name2
 ```
 
-Then, you can use these names without the module prefix in your Python script. For example:
+Потім ці імена можна використовувати без префікса модуля у вашому скрипті Python. Наприклад:
 
 ```python
 from math import radians, sin, cos
@@ -365,35 +365,35 @@ cos_value = cos(angle_radians)
 print(sine_value) # 0.6427876096865393
 print(cos_value)  # 0.766044443118978
 ```
+ 
+Це зручно, але може призвести до конфліктів імен, якщо у вас уже є функції або змінні з такими ж іменами. Враховуйте це, обираючи тип інструкції імпорту.
 
-This is helpful, but it can result in naming conflicts if you already have functions or variables with the same name. Keep it in mind when choosing which type of import statement you want to use.
-
-If you need to assign aliases to these names, you can do so as well, using the `as` keyword followed by the alias.
+Якщо потрібно призначити аліаси цим іменам, це також можливо, використовуючи ключове слово `as` з аліасом.
 
 ```python
 from module_name import name1 as alias1, name2 as alias2
 ```
 
-- **Import Statement with Asterisk (`*`)**: The asterisk tells Python that you want to import everything in that module, but you want to import it so that you don't need to use the name of the module as a prefix.
+- **Інструкція імпорту з астериском (`*`)**: Астериск повідомляє Python, що ви хочете імпортувати все з модуля, але без використання імені модуля як префікса.
 
 ```python
 from module_name import *
 ```
 
-For example, if you use this to import the `math` module, you'll be able to call any function defined in that module without specifying the name of the module as a prefix.
+Наприклад, якщо ви імпортуєте модуль `math` таким чином, зможете викликати будь-яку функцію з цього модуля без вказування імені модуля.
 
 ```python
 from math import *
 print(sqrt(36))  # 6.0
 ```
 
-However, this is generally discouraged because it can lead to namespace collisions and make it harder to know where names come from.
+Однак це зазвичай не рекомендується, бо може призвести до конфліктів у просторі імен і ускладнити розуміння, звідки беруться імена.
 
 ## `if __name__ == '__main__'`
 
-- **`__name__` Variable**: `__name__` is a special built-in variable in Python. When a Python file is executed directly, Python sets the value of this variable to the string `"__main__"`. But if the Python file is imported as a module into another Python script, the value of the `__name__` variable is set to the name of that module.
+- **Змінна `__name__`**: `__name__` — це спеціальна вбудована змінна в Python. Коли Python-файл виконується безпосередньо, Python встановлює значення цієї змінної у рядок `"__main__"`. Але якщо файл імпортується як модуль у інший скрипт Python, значення змінної `__name__` встановлюється як ім’я цього модуля.
 
-This is why you'll often find this conditional in Python scripts. It contains the code that you only want to run **only** if the Python script is running as the main program.
+Саме тому у скриптах Python часто зустрічається ця умова. Вона містить код, який ви хочете запускати **тільки** якщо скрипт виконується як головна програма.
 
 ```python
 if __name__ == '__main__': 
@@ -402,4 +402,4 @@ if __name__ == '__main__':
 
 # --assignment--
 
-Review the Dictionaries and Sets topics and concepts.
+Повторіть теми та концепції словників і множин.

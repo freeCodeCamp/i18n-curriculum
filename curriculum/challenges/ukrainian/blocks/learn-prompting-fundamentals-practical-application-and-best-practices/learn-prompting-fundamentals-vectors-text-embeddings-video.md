@@ -1,6 +1,6 @@
 ---
 id: 69a774ec5a27934b29e1eaca
-title: Vectors / Text Embeddings
+title: Вектори / текстові вставки
 challengeType: 11
 videoId: 3tBOmjve79Y
 dashedName: vectors-text-embeddings-learn-prompting-fundamentals
@@ -8,31 +8,30 @@ dashedName: vectors-text-embeddings-learn-prompting-fundamentals
 
 # --description--
 
-In this video, you will learn about vectors and text embeddings.
+У цьому відео ви дізнаєтеся про вектори та текстові вставки.
 
 # --questions--
 
 ## --text--
 
-What is text embedding?
+Що таке текстова вставка?
 
 ## --answers--
 
-A technique that translates text from one language to another automatically.
+Техніка, яка автоматично перекладає текст з однієї мови на іншу.
 
 ---
 
-A popular technique to represent textual information in a format that can be easily processed by algorithms.
+Популярна техніка для представлення текстової інформації у форматі, який легко обробляють алгоритми.
 
 ---
 
-A method for compressing text files to reduce storage space.
+Метод стиснення текстових файлів для зменшення обсягу зберігання.
 
 ---
 
-A process that converts speech directly into written text.
+Процес, який безпосередньо перетворює мовлення у письмовий текст.
 
 ## --video-solution--
 
 2
-

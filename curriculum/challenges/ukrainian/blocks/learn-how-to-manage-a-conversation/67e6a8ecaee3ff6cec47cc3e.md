@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Прослухайте аудіозапис та дайте відповіді на запитання.
+Прослухайте аудіо та дайте відповідь на запитання нижче.
 
 # --questions--
 
 ## --text--
 
-Why does Jessica want to explain the bug to the team quickly?
+Чому Джессіка хоче швидко пояснити помилку команді?
 
 ## --answers--
 
-Because she wants to return to the main topic of the meeting.
+Тому що вона хоче повернутися до основної теми зустрічі.
 
 ---
 
-Because she wants to leave the meeting early.
+Тому що вона хоче раніше піти зі зустрічі.
 
 ### --feedback--
 
-Jessica doesn't mention leaving the meeting.
+Джессіка не згадує про те, що хоче покинути зустріч.
 
 ---
 
-Because the team already knows about the bug.
+Тому що команда вже знає про помилку.
 
 ### --feedback--
 
-Jessica is explaining the bug because it might affect the team.
+Джессіка пояснює помилку, бо вона може вплинути на команду.
 
 ---
 
-Because she doesn't think the bug is important.
+Тому що вона не вважає помилку важливою.
 
 ### --feedback--
 
-Jessica thinks the issue is important, but she also wants to respect the meeting agenda.
+Джессіка вважає проблему важливою, але також хоче поважати порядок денний зустрічі.
 
 ## --video-solution--
 
@@ -52,13 +52,13 @@ Jessica thinks the issue is important, but she also wants to respect the meeting
 
 # --explanation--
 
-`So we can` is used to show purpose — it means the next thing you mention is what you intend to do. It explains why someone is doing something. For example:
+`So we can` використовується, щоб показати мету — це означає, що наступне, що ви згадуєте, є тим, що ви маєте намір зробити. Воно пояснює, чому хтось щось робить. Наприклад:
 
-`I'll finish this now so we can start the next task.` – This means the speaker wants to finish one thing to begin another soon.
+`I'll finish this now so we can start the next task.` – Це означає, що мовник хоче завершити одну справу, щоб незабаром почати іншу.
 
-`The main agenda` refers to the primary topics or plan of a meeting or event. For example:
+`The main agenda` стосується основних тем або плану зустрічі чи події. Наприклад:
 
-`Let's stick to the main agenda and avoid side discussions.` – This means to stay focused on the most important items in the meeting.
+`Let's stick to the main agenda and avoid side discussions.` – Це означає залишатися зосередженим на найважливіших пунктах зустрічі.
 
 # --scene--
 

@@ -1,30 +1,30 @@
 ---
 id: 697a7f71ebfcd9e4cacd69c2
-title: Step 8
+title: Крок 8
 challengeType: 20
 dashedName: step-8
 ---
 
 # --description--
 
-The bill is split, but division often results in long decimal numbers. Since money is typically represented with two decimal places, you should round the final result.
+Рахунок розділено, але ділення часто дає довгі десяткові числа. Оскільки гроші зазвичай представляють з двома десятковими знаками, слід округлити фінальний результат.
 
-Python provides a built-in `round()` function for this. It takes two arguments: the number you want to round and the number of decimal places to keep. Here's an example:
+Python надає вбудовану `round()` функцію для цього. Вона приймає два аргументи: число, яке потрібно округлити, і кількість десяткових знаків, які слід зберегти. Ось приклад:
 
 ```py
 num = 4.815162342
 round(num, 3) # 4.815
 ```
 
-Use the `round()` function to round `final_bill` to two decimal places and assign the result to a new variable named `each_pays`.
+Використайте функцію `round()` щоб округлити `final_bill` до двох десяткових знаків і призначте результат новій змінній з ім’ям `each_pays`.
 
-Finally, use `print()` to display the string `Each person pays:` followed by a space and your `each_pays` variable.
+Нарешті, використайте `print()` щоб вивести рядок `Each person pays:`, за яким іде пробіл і ваша змінна `each_pays`.
 
-With that, the bill splitter workshop is complete.
+На цьому практичне заняття з розділення рахунку завершено.
 
 # --hints--
 
-You should define a variable named `each_pays`.
+Ви повинні визначити змінну з ім’ям `each_pays`.
 
 ```js
 ({
@@ -34,7 +34,7 @@ You should define a variable named `each_pays`.
 })
 ```
 
-You should use the `round()` function to round `final_bill` to two decimal places and assign the result to your `each_pays` variable.
+Ви повинні використати функцію `round()` щоб округлити `final_bill` до двох десяткових знаків і призначити результат вашій змінній `each_pays`.
 
 ```js
 ({
@@ -44,7 +44,7 @@ You should use the `round()` function to round `final_bill` to two decimal place
 })
 ```
 
-You should use `print()` to display the string `Each person pays:` followed by a space and your `each_pays` variable.
+Ви повинні використати `print()` щоб вивести рядок `Each person pays:`, за яким іде пробіл і ваша змінна `each_pays`.
 
 ```js
 ({

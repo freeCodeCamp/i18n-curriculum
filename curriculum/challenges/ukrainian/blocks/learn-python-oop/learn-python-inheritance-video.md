@@ -1,6 +1,6 @@
 ---
 id: 697fe5c032baa3841ab62a64
-title: Inheritance
+title: Успадкування
 challengeType: 11
 videoId: uHdNSULVpgY
 dashedName: inheritance-learn-python-full-course-for-beginners
@@ -8,29 +8,29 @@ dashedName: inheritance-learn-python-full-course-for-beginners
 
 # --description--
 
-In this video, you will learn about inheritance in object oriented programming.
+У цьому відео ви дізнаєтеся про успадкування в об’єктно-орієнтованому програмуванні.
 
 # --questions--
 
 ## --text--
 
-What is inheritance in object oriented programming?
+Що таке успадкування в об’єктно-орієнтованому програмуванні?
 
 ## --answers--
 
-This is when a class reuses code from a function.
+Це коли клас повторно використовує код із функції.
 
 ---
 
-This is when a class creates a copy of another class.
+Це коли клас створює копію іншого класу.
 
 ---
 
-This is when a class inherits properties and behaviors from another class.
+Це коли клас успадковує властивості та поведінку від іншого класу.
 
 ---
 
-This is when a class hides its methods and variables from other classes.
+Це коли клас приховує свої методи та змінні від інших класів.
 
 ## --video-solution--
 

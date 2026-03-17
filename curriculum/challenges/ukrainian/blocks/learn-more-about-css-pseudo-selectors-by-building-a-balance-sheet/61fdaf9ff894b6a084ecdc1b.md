@@ -1,23 +1,23 @@
 ---
 id: 61fdaf9ff894b6a084ecdc1b
-title: Step 33
+title: Крок 33
 challengeType: 0
 dashedName: step-33
 ---
 
 # --description--
 
-To prevent the text content from overflowing, give your `span[class~="sr-only"]` selector an `overflow` property set to `hidden` and a `white-space` property set to `nowrap`.
+Щоб запобігти переповненню текстового вмісту, надайте вашому селектору `span[class~="sr-only"]` властивість `overflow` зі значенням `hidden` та властивість `white-space` зі значенням `nowrap`.
 
 # --hints--
 
-Your `span[class~="sr-only"]` selector should have an `overflow` property set to `hidden`.
+Ваш селектор `span[class~="sr-only"]` має мати властивість `overflow` зі значенням `hidden`.
 
 ```js
 assert(new __helpers.CSSHelp(document).getStyle('span[class~="sr-only"]')?.getPropertyValue('overflow') === 'hidden');
 ```
 
-Your `span[class~="sr-only"]` selector should have a `white-space` property set to `nowrap`.
+Ваш селектор `span[class~="sr-only"]` має мати властивість `white-space` зі значенням `nowrap`.
 
 ```js
 assert(new __helpers.CSSHelp(document).getStyle('span[class~="sr-only"]')?.getPropertyValue('white-space') === 'nowrap');
@@ -159,7 +159,7 @@ span[class~="sr-only"] {
   clip-path: inset(50%);
   height: 1px;
   width: 1px;
-
+  
 }
 --fcc-editable-region--
 

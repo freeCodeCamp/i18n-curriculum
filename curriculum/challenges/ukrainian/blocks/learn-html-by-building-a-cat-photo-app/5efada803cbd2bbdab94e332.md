@@ -7,29 +7,29 @@ dashedName: step-31
 
 # --description--
 
-В межах елемента `figure`, який ви щойно додали, вкладіть елемент `img` з атрибутом `src` зі значенням `https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg`.
+Всередині елемента `figure`, який ви щойно додали, вкладiть елемент `img` з атрибутом `src`, значення якого дорівнює `https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg`.
 
 # --hints--
 
-Другий елемент `figure` повинен мати початковий тег. Початкові теги мають такий синтаксис: `<elementName>`.
+Ваш другий елемент `figure` повинен мати початковий тег. Початкові теги мають такий синтаксис: `<elementName>`.
 
 ```js
 assert(document.querySelectorAll('figure').length >= 2);
 ```
 
-Другий елемент `figure` повинен мати кінцевий тег. Кінцеві теги мають `/` одразу після символу `<`.
+Ваш другий елемент `figure` повинен мати кінцевий тег. Кінцеві теги мають `/` одразу після символу `<`.
 
 ```js
 assert(code.match(/<\/figure>/g).length >= 2);
 ```
 
-Одразу над кінцевим тегом другого елемента `section` має бути другий елемент `figure`. Вони знаходяться в неправильному порядку.
+Другий елемент `figure` має бути розташований безпосередньо над кінцевим тегом другого елемента `section`. У вас вони в неправильному порядку.
 
 ```js
 assert.strictEqual(document.querySelectorAll('main > section')?.[1]?.lastElementChild?.nodeName, 'FIGURE');
 ```
 
-Третій елемент `img` має бути вкладеним в елементі `figure`.
+У елементі `img` має бути вкладений третій елемент `figure`.
 
 ```js
 const catsImg = document.querySelectorAll('figure > img')[1];
@@ -38,7 +38,7 @@ assert(
 );
 ```
 
-Третє зображення повинне мати атрибут `src` зі значенням `https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg`.
+Третє зображення має мати атрибут `src` зі значенням `https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg`.
 
 ```js
 const catsImg = document.querySelectorAll('figure > img')[1];
@@ -47,7 +47,7 @@ assert.strictEqual(
 );
 ```
 
-Хоча ви встановили значення атрибута `src` нового зображення як правильне посилання, значення атрибута краще писати в лапках.
+Хоча ви встановили атрибут `src` нового зображення на правильний URL, рекомендується завжди брати значення атрибута в лапки.
 
 ```js
 assert.notMatch(code, /\<img\s+.+\s+src\s*=\s*https:\/\/cdn\.freecodecamp\.org\/curriculum\/cat-photo-app\/cats\.jpg/);
@@ -88,7 +88,7 @@ assert.notMatch(code, /\<img\s+.+\s+src\s*=\s*https:\/\/cdn\.freecodecamp\.org\/
         </ol>
 --fcc-editable-region--
         <figure>
-
+          
         </figure>
 --fcc-editable-region--
       </section>
@@ -96,4 +96,3 @@ assert.notMatch(code, /\<img\s+.+\s+src\s*=\s*https:\/\/cdn\.freecodecamp\.org\/
   </body>
 </html>
 ```
-

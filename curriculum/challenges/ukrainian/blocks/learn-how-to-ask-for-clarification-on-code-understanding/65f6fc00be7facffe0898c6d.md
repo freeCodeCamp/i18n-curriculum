@@ -1,6 +1,6 @@
 ---
 id: 65f6fc00be7facffe0898c6d
-title: Task 43
+title: Завдання 43
 challengeType: 22
 dashedName: task-43
 lang: en-US
@@ -10,13 +10,13 @@ lang: en-US
 
 # --description--
 
-This is a review of the entire dialogue you just studied.
+Це повторення всього діалогу, який ви щойно вивчили.
 
 # --instructions--
 
-Write the following words or phrases in the correct spot:
+Напишіть наступні слова або фрази у правильному місці:
 
-`symptoms of`, `may occur`, `start by`, `clearer picture`, `investigate`, and `a second pair of eyes`.
+`symptoms of`, `may occur`, `start by`, `clearer picture`, `investigate` та `a second pair of eyes`.
 
 # --fillInTheBlank--
 
@@ -36,7 +36,7 @@ Write the following words or phrases in the correct spot:
 
 ### --feedback--
 
-Another person who checks your work to help find mistakes.
+Інша людина, яка перевіряє вашу роботу, щоб допомогти знайти помилки.
 
 ---
 
@@ -44,7 +44,7 @@ Another person who checks your work to help find mistakes.
 
 ### --feedback--
 
-Begin with something as the first step.
+Почати з чогось як першого кроку.
 
 ---
 
@@ -52,7 +52,7 @@ Begin with something as the first step.
 
 ### --feedback--
 
-Signs that show something might be wrong.
+Ознаки, що показують, що щось може бути не так.
 
 ---
 
@@ -60,7 +60,7 @@ Signs that show something might be wrong.
 
 ### --feedback--
 
-This means something might happen.
+Це означає, що щось може статися.
 
 ---
 
@@ -68,7 +68,7 @@ This means something might happen.
 
 ### --feedback--
 
-To look carefully at something to understand what is happening.
+Уважно дивитися на щось, щоб зрозуміти, що відбувається.
 
 ---
 
@@ -76,4 +76,4 @@ To look carefully at something to understand what is happening.
 
 ### --feedback--
 
-A better understanding of a situation.
+Краще розуміння ситуації.

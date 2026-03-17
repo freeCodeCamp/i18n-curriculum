@@ -1,6 +1,6 @@
 ---
 id: 05b8c9b04c6df84636956fab
-title: Introduction
+title: Вступ
 challengeType: 11
 videoId: EgQZWE8in68
 dashedName: introduction-learn-python-full-course-for-beginners
@@ -8,29 +8,29 @@ dashedName: introduction-learn-python-full-course-for-beginners
 
 # --description--
 
-In this video, instructor Mike Dane explains why you should learn Python.
+У цьому відео інструктор Майк Дейн пояснює, чому варто вивчати Python.
 
 # --questions--
 
 ## --text--
 
-What is one reason to learn Python?
+Яка одна з причин вивчати Python?
 
 ## --answers--
 
-It is required to be learned before any other programming language.
+Його потрібно вивчити перед будь-якою іншою мовою програмування.
 
 ---
 
-It is one of the most popular programming languages used in the industry.
+Це одна з найпопулярніших мов програмування, яку використовують у галузі.
 
 ---
 
-It is the fastest programming language for all types of applications.
+Це найшвидша мова програмування для всіх типів застосунків.
 
 ---
 
-It is only useful for complex gaming applications.
+Вона корисна лише для складних ігрових застосунків.
 
 ## --video-solution--
 

@@ -7,9 +7,9 @@ dashedName: step-17
 
 # --description--
 
-In previous steps you used an anchor element to turn text into a link. Інші типи вмісту також можна перетворити на посилання, загорнувши їх в теги посилання.
+У попередніх кроках ви використовували елемент посилання, щоб перетворити текст на посилання. Інші типи вмісту також можна перетворити на посилання, обгорнувши їх у теги посилання.
 
-Ось приклад перетворення зображення на посилання:
+Ось приклад, як зробити зображення посиланням:
 
 ```html
 <a href="example-link">
@@ -17,11 +17,11 @@ In previous steps you used an anchor element to turn text into a link. Інші 
 </a>
 ```
 
-Перетворіть зображення на посилання, оточивши його необхідними тегами. Використайте `https://freecatphotoapp.com` як значення атрибута `href` елемента посилання.
+Перетворіть зображення на посилання, обгорнувши його необхідними тегами елемента. Використайте `https://freecatphotoapp.com` як значення атрибута `href` елемента посилання.
 
 # --hints--
 
-Ви повинні мати елемент `img` з атрибутом `src` зі значенням `https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg`. Можливо, ви випадково видалили його.
+У вас має бути елемент `img` зі значенням `src` рівним `https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg`. Можливо, ви випадково його видалили.
 
 ```js
 assert(
@@ -31,37 +31,37 @@ assert(
 );
 ```
 
-Елемент посилання (`a`) повинен мати початковий тег. Початкові теги мають такий синтаксис: `<elementName>`.
+Ваш елемент посилання (`a`) повинен мати початковий тег. Початкові теги мають такий синтаксис: `<elementName>`.
 
 ```js
 assert(document.querySelectorAll('a').length >= 2);
 ```
 
-У вас відсутній кінцевий тег (`a`) після зображення.
+Після зображення бракує кінцевого (`a`) тегу.
 
 ```js
 assert.lengthOf(document.querySelectorAll('a'), 3);
 ```
 
-Елемент посилання (`a`) повинен мати кінцевий тег. Кінцеві теги мають `/` одразу після символу `<`.
+Ваш елемент посилання (`a`) повинен мати кінцевий тег. Кінцеві теги мають `/` одразу після символу `<`.
 
 ```js
 assert(code.match(/<\/a>/g).length >= 2);
 ```
 
-Додайте лише один кінцевий тег посилання (`a`). Будь ласка, видаліть все зайве.
+Ви повинні додати лише один кінцевий тег посилання (`a`). Будь ласка, видаліть зайві.
 
 ```js
 assert.lengthOf(code.match(/<\/a>/g), 3);
 ```
 
-Елемент посилання (`a`) не має атрибута `href`. Перевірте, чи є пробіл після назви початкового тега та/або є пробіли перед усіма назвами атрибутів.
+Ваш елемент посилання (`a`) не має атрибута `href`. Перевірте, чи є пробіл після назви початкового тегу та/або пробіли перед усіма назвами атрибутів.
 
 ```js
 assert(document.querySelector('a').hasAttribute('href'));
 ```
 
-Елемент посилання (`a`) має направляти на `https://freecatphotoapp.com`. Ви або не написали посилання, або маєте друкарську помилку.
+Ваш елемент посилання (`a`) повинен направляти на `https://freecatphotoapp.com`. Ви або пропустили URL, або зробили помилку.
 
 ```js
 assert(
@@ -70,13 +70,13 @@ assert(
 );
 ```
 
-Your anchor (`a`) element does not have an `href` attribute. Check that there is a space after the opening tag's name and/or there are spaces before all attribute names.
+Ваш елемент посилання (`a`) не має атрибута `href`. Перевірте, чи є пробіл після назви початкового тегу та/або пробіли перед усіма назвами атрибутів.
 
 ```js
 assert.isTrue(document.querySelectorAll('a')[2]?.hasAttribute('href'));
 ```
 
-Your anchor (`a`) element should link to `https://freecatphotoapp.com`. You have either omitted the URL or have a typo.
+Ваш елемент посилання (`a`) повинен направляти на `https://freecatphotoapp.com`. Ви або пропустили URL, або зробили помилку.
 
 ```js
 assert.equal(
@@ -85,7 +85,7 @@ assert.equal(
 );
 ```
 
-Your `img` element should be nested within the anchor (`a`) element. The entire `img` element should be inside the opening and closing tags of the anchor (`a`) element.
+Ваш елемент `img` має бути вкладений у елемент посилання (`a`). Весь елемент `img` повинен бути всередині початкового та кінцевого тегів елемента посилання (`a`).
 
 ```js
 assert(document.querySelector('img').parentNode.nodeName === 'A');
@@ -110,4 +110,3 @@ assert(document.querySelector('img').parentNode.nodeName === 'A');
   </body>
 </html>
 ```
-

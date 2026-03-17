@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Прослухайте аудіозапис та дайте відповіді на запитання.
+Прослухайте аудіо та дайте відповідь на запитання нижче.
 
 # --questions--
 
 ## --text--
 
-What does Anna think about James' ideas, and what does she suggest?
+Що думає Анна про ідеї Джеймса і що вона пропонує?
 
 ## --answers--
 
-She disagrees with James' ideas and suggests starting a new approach.
+Вона не погоджується з ідеями Джеймса і пропонує почати новий підхід.
 
 ### --feedback--
 
-Anna expresses agreement with James, not disagreement, and wants to stay updated rather than start over.
+Анна висловлює згоду з Джеймсом, а не незгоду, і хоче залишатися в курсі, а не починати заново.
 
 ---
 
-She thinks James' ideas are confusing and suggests focusing only on accessibility goals.
+Вона вважає ідеї Джеймса заплутаними і пропонує зосередитися лише на цілях доступності.
 
 ### --feedback--
 
-Anna doesn't find James' ideas confusing; she agrees and wants to monitor progress on their shared goals.
+Анна не вважає ідеї Джеймса заплутаними; вона погоджується і хоче контролювати прогрес у їхніх спільних цілях.
 
 ---
 
-She agrees with James and suggests they stay in contact to monitor progress.
+Вона погоджується з Джеймсом і пропонує залишатися на зв’язку, щоб контролювати прогрес.
 
 ---
 
-She thinks James' ideas are unnecessary and suggests stopping the project.
+Вона вважає ідеї Джеймса непотрібними і пропонує припинити проєкт.
 
 ### --feedback--
 
-Anna doesn't suggest stopping; she supports James' ideas and wants to stay updated.
+Анна не пропонує припиняти; вона підтримує ідеї Джеймса і хоче залишатися в курсі.
 
 ## --video-solution--
 
@@ -52,7 +52,7 @@ Anna doesn't suggest stopping; she supports James' ideas and wants to stay updat
 
 # --explanation--
 
-Anna agrees with James' approach, saying `That makes sense`, which shows she understands and supports his ideas. She also suggests `keeping in touch to monitor progress`, indicating her interest in staying updated to ensure they reach their shared goals.
+Анна погоджується з підходом Джеймса, кажучи `That makes sense`, що показує, що вона розуміє і підтримує його ідеї. Вона також пропонує `keeping in touch to monitor progress`, що свідчить про її зацікавленість залишатися в курсі, щоб упевнитися, що вони досягають своїх спільних цілей.
 
 # --scene--
 

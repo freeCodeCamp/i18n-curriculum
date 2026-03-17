@@ -1,15 +1,15 @@
 ---
 id: 644a0eadcbccaf1d13c7d137
-title: Step 19
+title: Крок 19
 challengeType: 0
 dashedName: step-19
 ---
 
 # --description--
 
-In the base-2 number system, the rightmost digit represents the ones place, the next digit to the left represents the twos place, then the fours place, then the eights place, and so on. In this system, each digit's place value is two times greater than the digit to its right.
+У двійковій системі числення праворуч розташована цифра відповідає за одиниці, наступна зліва — за двійки, потім за четвірки, за вісімки і так далі. У цій системі значення розряду кожної цифри вдвічі більше за цифру праворуч від неї.
 
-Here are numbers zero to nine in the base-10 and base-2 number systems:
+Ось числа від нуля до дев’яти у десятковій та двійковій системах числення:
 
 ```md
 | Base-10 | Base-2 |
@@ -26,25 +26,25 @@ Here are numbers zero to nine in the base-10 and base-2 number systems:
 |    9    |  1001  |
 ```
 
-Notice that binary numbers are formed from left to right, from the digit with the greatest place value on the left, to the least significant on the right. For example, the number `3` in binary is `11`, or `1` in the twos place and `1` in the ones place. Then for the number `4`, a digit to represent the fours place is included on the left and set to `1`, the twos place is `0`, and the ones place is `0`.
+Зверніть увагу, що двійкові числа формуються зліва направо, від цифри з найбільшим значенням розряду зліва до найменш значущої справа. Наприклад, число `3` у двійковій системі — це `11`, або `1` у розряді двійок і `1` у розряді одиниць. Для числа `4` додається цифра, що представляє розряд четвірок зліва і встановлюється в `1`, розряд двійок — `0`, а розряд одиниць — `0`.
 
-In your `decimalToBinary` function, convert the number `10` into binary and `return` it as a string.
+У вашій функції `decimalToBinary` перетворіть число `10` у двійкову систему та `return` його як рядок.
 
 # --hints--
 
-Your `decimalToBinary` function should return a string.
+Ваша функція `decimalToBinary` має повертати рядок.
 
 ```js
 assert.isString(decimalToBinary());
 ```
 
-Your `decimalToBinary` function should return a string with a length of `4`.
+Ваша функція `decimalToBinary` має повертати рядок довжиною `4`.
 
 ```js
 assert.strictEqual(decimalToBinary().length, 4);
 ```
 
-Your `decimalToBinary` function should return `"1010"` as a string.
+Ваша функція `decimalToBinary` має повертати `"1010"` у вигляді рядка.
 
 ```js
 assert.strictEqual(decimalToBinary(), '1010');

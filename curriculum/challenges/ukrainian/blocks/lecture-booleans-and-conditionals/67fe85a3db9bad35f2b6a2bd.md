@@ -1,30 +1,30 @@
 ---
 id: 67fe85a3db9bad35f2b6a2bd
-title: How Do Conditional Statements and Logical Operators Work?
+title: Як працюють умовні інструкції та логічні оператори?
 challengeType: 19
 dashedName: how-do-conditional-statements-and-logical-operators-work
 ---
 
 # --description--
 
-Conditional statements, or conditionals, let you control the flow of your program based on whether certain conditions are true or false.
+Умовні інструкції, або умовні оператори, дозволяють контролювати потік вашої програми залежно від того, чи є певні умови істинними чи хибними.
 
-But before we get into all that, let's go over the basic building blocks of conditional statements, starting with comparison operators. Comparison operators are operators that let you compare two or more values, and return a boolean value.
+Але перед тим, як заглибитися в це, давайте розглянемо базові складові умовних інструкцій, починаючи з операторів порівняння. Оператори порівняння — це оператори, які дозволяють порівнювати два або більше значень і повертати булеве значення.
 
-In a previous lesson, you learned that booleans are one of the data types in Python, and can only be `True` or `False`.
+У попередньому уроці ви дізналися, що булеві значення — це один із типів даних у Python, і вони можуть бути лише `True` або `False`.
 
-Here's a table with the comparison operators in Python:
+Ось таблиця з операторами порівняння в Python:
 
-| Operator | Name                  | Description                                                                        |
-| -------- | --------------------- | ---------------------------------------------------------------------------------- |
-| `==`     | Equal                 | Checks if two values are equal                                                     |
-| `!=`     | Not equal             | Checks if two values are not equal                                                 |
-| `>`   | Greater than          | Checks if the value on the left is greater than the value on the right             |
-| `<`   | Less than             | Checks if the value on the left is less than the value on the right                |
-| `>=`  | Greater than or equal | Checks if the value on the left is greater than or equal to the value on the right |
-| `<=`  | Less than or equal    | Checks if the value on the left is less than or equal to the value on the right    |
+| Operator | Name | Description |
+| --- | --- | --- |
+| `==` | Рівність | Перевіряє, чи два значення рівні |
+| `!=` | Нерівність | Перевіряє, чи два значення не рівні |
+| `>` | Більше за | Перевіряє, чи значення зліва більше за значення справа |
+| `<` | Менше за | Перевіряє, чи значення зліва менше за значення справа |
+| `>=` | Більше або дорівнює | Перевіряє, чи значення зліва більше або дорівнює значенню справа |
+| `<=` | Менше або дорівнює | Перевіряє, чи значення зліва менше або дорівнює значенню справа |
 
-Here are some of those expressions that evaluate to `True` or `False`:
+Ось кілька виразів, які оцінюються як `True` або `False`:
 
 ```python
 print(3 > 4) # False
@@ -36,24 +36,24 @@ print(3 >= 4) # False
 print(3 <= 4) # True
 ```
 
-These operators can be used in conditionals to compare values and run certain code based on whether the conditional evaluates to `True` or `False`.
+Ці оператори можна використовувати в умовних інструкціях для порівняння значень і запуску певного коду залежно від того, чи оцінюється умова як `True` або `False`.
 
-In Python, the most basic conditional is the `if` statement. Here's the basic syntax:
+У Python найпростіша умовна інструкція — це оператор `if`. Ось базовий синтаксис:
 
 ```python
 if condition:
     pass # Code to execute if condition is True
 ```
 
-* `if` statements start with the `if` keyword.
+* Оператори `if` починаються з ключового слова `if`.
+    
+* `condition` — це вираз, який оцінюється як `True` або `False`, після якого стоїть двокрапка (`:`).
 
-* `condition` is an expression that evaluates to `True` or `False`, followed by a colon (`:`).
+* Тіло оператора `if` — це <dfn>блок коду</dfn>, група інструкцій, які належать разом. У Python рівень відступу визначає блок коду.
+    
+У наведеному вище прикладі тіло оператора `if` містить оператор `pass`. Коли виконується оператор `pass`, нічого не відбувається. Це спеціальне ключове слово, яке можна використовувати як заповнювач для майбутнього коду, і воно корисне, коли порожні блоки коду не дозволені.
 
-* The body of the `if` statement constitutes a <dfn>code block</dfn>, which is a group of statements that belong together. In Python, the level of indentation is what defines a code block.
-
-In the example above, the body of the `if` statement contains a `pass` statement. When a `pass` statement is executed, nothing happens. This is a special keyword that can be used as a placeholder for future code and it is useful when empty code blocks are not allowed.
-
-The code within the body of the `if` statement runs only when the condition evaluates to `True`. For example:
+Код у тілі оператора `if` виконується лише тоді, коли умова оцінюється як `True`. Наприклад:
 
 ```python
 age = 18
@@ -62,9 +62,9 @@ if age >= 18:
     print('You are an adult') # You are an adult
 ```
 
-Notice the indentation before `print('You are an adult')`. While other programming languages use characters like curly braces to define code blocks, and just use indentation for readability, in Python, code blocks are determined by indentation.
+Зверніть увагу на відступ перед `print('You are an adult')`. У той час як інші мови програмування використовують символи, як-от фігурні дужки, щоб визначати блоки коду, а відступи використовують лише для зручності читання, у Python блоки коду визначаються відступами.
 
-The following code would raise an `IndentationError`, which is Python's way to signal that indentation is required at a certain point of the code:
+Наступний код викличе `IndentationError`, що є способом Python сигналізувати про необхідність відступу в певному місці коду:
 
 ```py
 age = 18
@@ -73,11 +73,11 @@ if age >= 18:
 print('You are an adult') # IndentationError: expected an indented block after 'if' statement on line 3
 ```
 
-Though you can use any number spaces (as long as you are consistent) to determine each level of indentation, the Python style guide recommends using four spaces.
+Хоча ви можете використовувати будь-яку кількість пробілів (за умови послідовності) для визначення рівня відступу, стильовий гайд Python рекомендує використовувати чотири пробіли.
 
-Blocks are also found in loops and functions, which you'll learn about in future lessons.
+Блоки також зустрічаються в циклах і функціях, про які ви дізнаєтеся в майбутніх уроках.
 
-Going back to our example, if `age` is anything less than `18`, nothing is printed in the terminal:
+Повертаючись до нашого прикладу, якщо `age` менше за `18`, у терміналі нічого не виводиться:
 
 ```python
 age = 12
@@ -86,7 +86,7 @@ if age >= 18:
     print('You are an adult') # Nothing shows up in the terminal
 ```
 
-But what if you also want to print something if `age` is less than `18`? That's where the `else` clause comes in. The `else` clause runs when the `if` condition is false. Here's the syntax for an `if…else` statement:
+Але що, якщо ви хочете також вивести щось, якщо `age` менше за `18`? Тут на допомогу приходить блок `else`. Блок `else` виконується, коли умова `if` є хибною. Ось синтаксис оператора `if…else`:
 
 ```python
 if condition:
@@ -95,7 +95,7 @@ else:
    pass # Code to execute if condition is False
 ```
 
-For example:
+Наприклад:
 
 ```python
 age = 12
@@ -106,7 +106,7 @@ else:
     print('You are not an adult yet') # You are not an adult yet
 ```
 
-Note that you cannot place any statements between the `if` block and the `else` clause. The following code would raise a `SyntaxError`:
+Зверніть увагу, що між блоком `if` і блоком `else` не можна розміщувати інші інструкції. Наступний код викличе `SyntaxError`:
 
 ```python
 age = 12
@@ -118,9 +118,9 @@ else: # SyntaxError: invalid syntax
     print('You are not an adult yet')
 ```
 
-There might be situations in which you want to account for multiple conditions. To do that, Python lets you extend your if statement with the `elif` (else if) keyword.
+Іноді потрібно врахувати кілька умов. Для цього Python дозволяє розширити оператор if за допомогою ключового слова `elif` (else if).
 
-Here's the syntax:
+Ось синтаксис:
 
 ```python
 if condition1:
@@ -131,7 +131,7 @@ else:
    pass # Code to execute if all conditions are False
 ```
 
-For example:
+Наприклад:
 
 ```python
 age = 12
@@ -144,7 +144,7 @@ else:
     print('You are a child') # You are a child
 ```
 
-Note that you can use as many `elif` statements as you want:
+Зверніть увагу, що ви можете використовувати стільки операторів `elif`, скільки хочете:
 
 ```python
 age = 2
@@ -163,41 +163,41 @@ else:
     print('You are a toddler or an infant') # You are a toddler or an infant
 ```
 
-Now that you understand how comparison operators and conditional statements work in Python, you can start writing programs that make decisions based on logic and input. Whether you’re comparing values or branching through multiple conditions, these tools are the foundation to writing flexible, responsive code.
+Тепер, коли ви розумієте, як працюють оператори порівняння та умовні інструкції в Python, ви можете починати писати програми, які приймають рішення на основі логіки та вхідних даних. Чи порівнюєте ви значення, чи розгалужуєтеся через кілька умов, ці інструменти є основою для написання гнучкого, адаптивного коду.
 
 # --questions--
 
 ## --text--
 
-What do comparison operators do?
+Що роблять оператори порівняння?
 
 ## --answers--
 
-Perform mathematical calculations with boolean values
+Виконують математичні обчислення з булевими значеннями
 
 ### --feedback--
 
-These operators check things like equality or which value is greater, and the result is either `True` or `False`.
+Ці оператори перевіряють такі речі, як рівність або яке значення більше, і результатом є або `True`, або `False`.
 
 ---
 
-Convert strings to boolean values.
+Перетворюють рядки на булеві значення.
 
 ### --feedback--
 
-These operators check things like equality or which value is greater, and the result is either `True` or `False`.
+Ці оператори перевіряють такі речі, як рівність або яке значення більше, і результатом є або `True`, або `False`.
 
 ---
 
-Compare two values and return a boolean value.
+Порівнюють два значення і повертають булеве значення.
 
 ---
 
-Create loops and iterations.
+Створюють цикли та ітерації.
 
 ### --feedback--
 
-These operators check things like equality or which value is greater, and the result is either `True` or `False`.
+Ці оператори перевіряють такі речі, як рівність або яке значення більше, і результатом є або `True`, або `False`.
 
 ## --video-solution--
 
@@ -205,7 +205,7 @@ These operators check things like equality or which value is greater, and the re
 
 ## --text--
 
-What will be the result for the following code?
+Яким буде результат виконання наступного коду?
 
 ```python
 age = 12
@@ -220,31 +220,31 @@ else:
 
 ## --answers--
 
-`You are an adult` will be printed to the console.
+`You are an adult` буде виведено в консоль.
 
 ### --feedback--
 
-Review the last part of the lesson for the correct answer.
+Перегляньте останню частину уроку для правильної відповіді.
 
 ---
 
-`You are a teenager` will be printed to the console.
+`You are a teenager` буде виведено в консоль.
 
 ### --feedback--
 
-Review the last part of the lesson for the correct answer.
+Перегляньте останню частину уроку для правильної відповіді.
 
 ---
 
-`You are a child` will be printed to the console.
+`You are a child` буде виведено в консоль.
 
 ---
 
-An error will be printed to the console.
+У консолі буде виведена помилка.
 
 ### --feedback--
 
-Review the last part of the lesson for the correct answer.
+Перегляньте останню частину уроку для правильної відповіді.
 
 ## --video-solution--
 
@@ -252,7 +252,7 @@ Review the last part of the lesson for the correct answer.
 
 ## --text--
 
-What will the expression `3 >= 4` evaluate to?
+До чого оціниться вираз `3 >= 4`?
 
 ## --answers--
 
@@ -260,7 +260,7 @@ What will the expression `3 >= 4` evaluate to?
 
 ### --feedback--
 
-3 is not greater than or equal to 4.
+3 не є більшим або рівним за 4.
 
 ---
 
@@ -268,7 +268,7 @@ What will the expression `3 >= 4` evaluate to?
 
 ### --feedback--
 
-3 is not greater than or equal to 4.
+3 не є більшим або рівним за 4.
 
 ---
 
@@ -276,7 +276,7 @@ What will the expression `3 >= 4` evaluate to?
 
 ### --feedback--
 
-3 is not greater than or equal to 4.
+3 не є більшим або рівним за 4.
 
 ---
 

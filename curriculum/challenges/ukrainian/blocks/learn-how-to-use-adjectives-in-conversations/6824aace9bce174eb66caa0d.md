@@ -1,6 +1,6 @@
 ---
 id: 6824aace9bce174eb66caa0d
-title: Task 149
+title: Завдання 149
 challengeType: 19
 dashedName: task-149
 lang: en-US
@@ -10,13 +10,13 @@ lang: en-US
 
 # --instructions--
 
-Read the text and answer the question below.
+Прочитайте текст і дайте відповідь на запитання нижче.
 
 # --questions--
 
 ## --text--
 
-Jessica sent an email to the team the next day, summarizing her conversation with James about the new software version.
+Jessica надіслала команді е-пошту наступного дня, підсумовуючи свою розмову з James про нову версію програмного забезпечення.
 
 `Hi team,`
 
@@ -50,35 +50,35 @@ Jessica sent an email to the team the next day, summarizing her conversation wit
 
 `Jessica`
 
-What did Jessica report about the software's stability?
+Що Jessica повідомила про стабільність програмного забезпечення?
 
 ## --answers--
 
-It now requires more updates to stay stable.
+Тепер воно потребує більше оновлень, щоб залишатися стабільним.
 
 ### --feedback--
 
-Jessica does not mention the need for more updates.
+Jessica не згадує про необхідність більше оновлень.
 
 ---
 
-It crashes less and has fewer serious problems.
+Воно аварійно завершує роботу рідше і має менше серйозних проблем.
 
 ---
 
-It works the same as the old version in terms of stability.
+Воно працює так само, як і стара версія, з точки зору стабільності.
 
 ### --feedback--
 
-She clearly says the new version is `much more stable`.
+Вона чітко каже, що нова версія `much more stable`.
 
 ---
 
-It still has many large bugs and stops working often.
+У нього все ще багато великих помилок і воно часто перестає працювати.
 
 ### --feedback--
 
-Jessica reports fewer problems and less crashing, not frequent bugs.
+Jessica повідомляє про менше проблем і менше аварійних завершень, а не про часті помилки.
 
 ## --video-solution--
 
@@ -86,6 +86,6 @@ Jessica reports fewer problems and less crashing, not frequent bugs.
 
 # --explanation--
 
-In the `Stability` section, Jessica says the new version `doesn't crash as often` and they've seen `fewer serious problems`.
+У розділі `Stability` Jessica каже, що нова версія `doesn't crash as often` і вони бачили `fewer serious problems`.
 
-This means it is more reliable and stable than before.
+Це означає, що вона більш надійна і стабільна, ніж раніше.

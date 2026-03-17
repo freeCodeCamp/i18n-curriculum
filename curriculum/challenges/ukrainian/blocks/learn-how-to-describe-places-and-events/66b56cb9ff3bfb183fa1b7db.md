@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Послухайте аудіо та доповніть речення нижче.
+Прослухайте аудіо, щоб доповнити речення нижче.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ lang: en-US
 
 ### --feedback--
 
-This word is used to specify the module that is currently being discussed.
+Це слово використовується, щоб уточнити модуль, про який зараз йде мова.
 
 ---
 
@@ -32,7 +32,7 @@ This word is used to specify the module that is currently being discussed.
 
 ### --feedback--
 
-Something recent.
+Щось нещодавнє.
 
 ---
 
@@ -40,15 +40,15 @@ Something recent.
 
 ### --feedback--
 
-A specific part or section of the training program.
+Конкретна частина або розділ навчальної програми.
 
 # --explanation--
 
-`Module` refers to a unit or section of a course or training program. For example:
+`Module` означає одиницю або розділ курсу чи навчальної програми. Наприклад:
 
-- `The new module on cybersecurity will be added next week.` - Here, `module` refers to a specific part of the training focused on cybersecurity.
+- `The new module on cybersecurity will be added next week.` — тут `module` позначає конкретну частину навчання, присвячену кібербезпеці.
 
-Pay attention to how the words `this`, `new`, and `module` are used. `This` is used to specify the module they are talking about, `new` shows that it's a recent addition, and `module` refers to a section of the training.
+Зверніть увагу, як використовуються слова `this`, `new` і `module`. `This` використовується, щоб уточнити модуль, про який говорять, `new` показує, що це нещодавнє доповнення, а `module` позначає розділ навчання.
 
 # --scene--
 

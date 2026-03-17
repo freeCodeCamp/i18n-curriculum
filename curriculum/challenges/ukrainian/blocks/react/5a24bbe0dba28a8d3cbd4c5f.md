@@ -1,6 +1,6 @@
 ---
 id: 5a24bbe0dba28a8d3cbd4c5f
-title: Render HTML Elements to the DOM
+title: Відтворення HTML-елементів у DOM
 challengeType: 6
 forumTopicId: 301406
 dashedName: render-html-elements-to-the-dom
@@ -8,37 +8,37 @@ dashedName: render-html-elements-to-the-dom
 
 # --description--
 
-So far, you've learned that JSX is a convenient tool to write readable HTML within JavaScript. With React, we can render this JSX directly to the HTML DOM using React's rendering API known as ReactDOM.
+До цього моменту ви дізналися, що JSX — це зручний інструмент для написання читабельного HTML всередині JavaScript. За допомогою React ми можемо відтворювати цей JSX безпосередньо в HTML DOM, використовуючи API відтворення React, відомий як ReactDOM.
 
-ReactDOM offers a simple method to render React elements to the DOM which looks like this: `ReactDOM.render(componentToRender, targetNode)`, where the first argument is the React element or component that you want to render, and the second argument is the DOM node that you want to render the component to.
+ReactDOM пропонує простий метод для відтворення React-елементів у DOM, який виглядає так: `ReactDOM.render(componentToRender, targetNode)`, де перший аргумент — це React-елемент або компонент, який ви хочете відтворити, а другий аргумент — це DOM-вузол, у який ви хочете відтворити компонент.
 
-As you would expect, `ReactDOM.render()` must be called after the JSX element declarations, just like how you must declare variables before using them.
+Як і очікується, `ReactDOM.render()` має бути викликаний після оголошень JSX-елементів, так само, як ви повинні оголосити змінні перед їх використанням.
 
 # --instructions--
 
-The code editor has a simple JSX component. Use the `ReactDOM.render()` method to render this component to the page. You can pass defined JSX elements directly in as the first argument and use `document.getElementById()` to select the DOM node to render them to. There is a `div` with `id='challenge-node'` available for you to use. Make sure you don't change the `JSX` constant.
+У редакторі коду є простий JSX-компонент. Використайте метод `ReactDOM.render()`, щоб відтворити цей компонент на сторінці. Ви можете передати визначені JSX-елементи безпосередньо як перший аргумент і використати `document.getElementById()`, щоб вибрати DOM-вузол, у який їх відтворити. Для вас доступний `div` з `id='challenge-node'`. Переконайтеся, що не змінюєте константу `JSX`.
 
 # --hints--
 
-The constant `JSX` should return a `div` element.
+Константа `JSX` має повертати елемент `div`.
 
 ```js
 assert(JSX.type === 'div');
 ```
 
-The `div` should contain an `h1` tag as the first element.
+`div` має містити тег `h1` як перший елемент.
 
 ```js
 assert(JSX.props.children[0].type === 'h1');
 ```
 
-The `div` should contain a `p` tag as the second element.
+`div` має містити тег `p` як другий елемент.
 
 ```js
 assert(JSX.props.children[1].type === 'p');
 ```
 
-The provided JSX element should render to the DOM node with id `challenge-node`.
+Наданий JSX-елемент має відтворюватися у DOM-вузол з ідентифікатором `challenge-node`.
 
 ```js
 assert(

@@ -1,6 +1,6 @@
 ---
 id: 657e4ec6dd27af9cc16addea
-title: Task 79
+title: Завдання 79
 challengeType: 19
 dashedName: task-79
 lang: en-US
@@ -10,43 +10,43 @@ lang: en-US
 
 # --description--
 
-`Regulations` are official rules made by a government or authority. They are designed to control how something works or how people act, especially in businesses. For example:
+`Regulations` — це офіційні правила, встановлені урядом або владою. Вони призначені для контролю того, як щось працює або як люди поводяться, особливо в бізнесі. Наприклад:
 
-`Health and safety regulations ensure a safe workplace.` - This means health and safety rules help make the workplace safe for everyone.
+`Health and safety regulations ensure a safe workplace.` — це означає, що правила з охорони праці допомагають зробити робоче місце безпечним для всіх.
 
 # --questions--
 
 ## --text--
 
-What are `regulations` usually in a business context?
+Що зазвичай означають `regulations` у бізнес-контексті?
 
 ## --answers--
 
-Personal preferences.
+Особисті вподобання.
 
 ### --feedback--
 
-`Regulations` are formal rules, not personal preferences.
+`Regulations` — це формальні правила, а не особисті вподобання.
 
 ---
 
-Informal team agreements.
+Неофіційні домовленості в команді.
 
 ### --feedback--
 
-`Regulations` are more formal than informal agreements.
+`Regulations` є більш формальними, ніж неофіційні домовленості.
 
 ---
 
-Official rules set by authorities.
+Офіційні правила, встановлені владою.
 
 ---
 
-Suggestions for leisure activities.
+Пропозиції для дозвілля.
 
 ### --feedback--
 
-`Regulations` are about professional conduct, not leisure.
+`Regulations` стосуються професійної поведінки, а не дозвілля.
 
 ## --video-solution--
 

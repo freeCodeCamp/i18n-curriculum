@@ -1,6 +1,6 @@
 ---
 id: 69ae7684b4a814be6a4f2be9
-title: MCP Inspector
+title: Інспектор MCP
 challengeType: 11
 videoId: OIr0TIWc0Bs
 dashedName: mcp-inspector
@@ -8,31 +8,30 @@ dashedName: mcp-inspector
 
 # --description--
 
-In this video, you will learn about the MCP Inspector.
+У цьому відео ви дізнаєтеся про інспектор MCP.
 
 # --questions--
 
 ## --text--
 
-What is the primary function of the MCP Inspector?
+Яка основна функція інспектора MCP?
 
 ## --answers--
 
-A component that stores datasets and embeddings for retrieval.
+Компонент, який зберігає набори даних і вставки для подальшого отримання.
 
 ---
 
-A feature that automatically generates prompts for AI applications.
+Функція, що автоматично генерує підказки для застосунків зі штучним інтелектом.
 
 ---
 
-A tool used to train new LLMs directly on the MCP server.
+Інструмент, який використовується для навчання нових LLM безпосередньо на сервері MCP.
 
 ---
 
-A tools used to inspect and debug MCP servers and clients.
+Інструмент, який використовується для огляду та налагодження серверів і клієнтів MCP.
 
 ## --video-solution--
 
 4
-

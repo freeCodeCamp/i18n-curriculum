@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Прослухайте аудіозапис та дайте відповіді на запитання.
+Прослухайте аудіо та дайте відповідь на запитання нижче.
 
 # --questions--
 
 ## --text--
 
-What does James know about the issue with the latest update?
+Що Джеймс знає про проблему з останнім оновленням?
 
 ## --answers--
 
-He knows exactly what the issue is.
+Він точно знає, у чому проблема.
 
 ### --feedback--
 
-James clearly says he didn't hear anything.
+Джеймс чітко каже, що нічого не чув.
 
 ---
 
-He doesn't know anything about it.
+Він нічого про це не знає.
 
 ---
 
-He already talked to the client.
+Він уже говорив із клієнтом.
 
 ### --feedback--
 
-James does not mention speaking to the client.
+Джеймс не згадує, що говорив із клієнтом.
 
 ---
 
-He received an email about the issue.
+Він отримав е-пошту про проблему.
 
 ### --feedback--
 
-James states that he didn't hear anything.
+Джеймс каже, що нічого не чув.
 
 ## --video-solution--
 
@@ -52,7 +52,7 @@ James states that he didn't hear anything.
 
 # --explanation--
 
-Short answers with auxiliary verbs repeat the auxiliary from the question to confirm or deny something. In this case, Maria asks, `Did you hear anything?`, and James responds, `No, I didn't.` instead of just saying `No.` Here are some other examples:
+Короткі відповіді з допоміжними дієсловами повторюють допоміжне дієслово з питання, щоб підтвердити або спростувати щось. У цьому випадку Марія запитує `Did you hear anything?`, а Джеймс відповідає `No, I didn't.` замість того, щоб просто сказати `No.` Ось ще кілька прикладів:
 
 - `Are you coming to the meeting?` → `Yes, I am.`
 
@@ -60,7 +60,7 @@ Short answers with auxiliary verbs repeat the auxiliary from the question to con
 
 - `Will she be here on time?` → `Yes, she will.`
 
-Short answers make responses sound natural and complete while avoiding repetition of the full sentence.
+Короткі відповіді роблять відповіді природними і повними, уникаючи повторення повного речення.
 
 # --scene--
 

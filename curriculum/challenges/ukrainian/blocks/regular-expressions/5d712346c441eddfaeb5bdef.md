@@ -1,6 +1,6 @@
 ---
 id: 5d712346c441eddfaeb5bdef
-title: Match All Numbers
+title: знайти всі числа
 challengeType: 1
 forumTopicId: 18181
 dashedName: match-all-numbers
@@ -8,59 +8,59 @@ dashedName: match-all-numbers
 
 # --description--
 
-You've learned shortcuts for common string patterns like alphanumerics. Another common pattern is looking for just digits or numbers.
+Ви вивчили скорочення для загальних шаблонів рядків, таких як алфавітно-цифрові символи. Ще один загальний шаблон — це пошук лише цифр або чисел.
 
-The shortcut to look for digit characters is `\d`, with a lowercase `d`. This is equal to the character class `[0-9]`, which looks for a single character of any number between zero and nine.
+Скорочення для пошуку символів-цифр — це `\d` з нижнім регістром `d`. Це еквівалентно класу символів `[0-9]`, який шукає один символ будь-якого числа від нуля до дев’яти.
 
 # --instructions--
 
-Use the shorthand character class `\d` to count how many digits are in movie titles. Written out numbers ("six" instead of 6) do not count.
+Використайте скорочений клас символів `\d`, щоб порахувати, скільки цифр у назвах фільмів. Записані словами числа ("six" замість 6) не враховуються.
 
 # --hints--
 
-Your regex should use the shortcut character to match digit characters
+Ваш регулярний вираз має використовувати скорочений клас символів для пошуку цифр
 
 ```js
 assert(/\\d/.test(numRegex.source));
 ```
 
-Your regex should use the global flag.
+Ваш регулярний вираз має використовувати глобальний прапорець.
 
 ```js
 assert(numRegex.global);
 ```
 
-Your regex should find 1 digit in the string `9`.
+Ваш регулярний вираз має знайти 1 цифру у рядку `9`.
 
 ```js
 assert('9'.match(numRegex).length == 1);
 ```
 
-Your regex should find 2 digits in the string `Catch 22`.
+Ваш регулярний вираз має знайти 2 цифри у рядку `Catch 22`.
 
 ```js
 assert('Catch 22'.match(numRegex).length == 2);
 ```
 
-Your regex should find 3 digits in the string `101 Dalmatians`.
+Ваш регулярний вираз має знайти 3 цифри у рядку `101 Dalmatians`.
 
 ```js
 assert('101 Dalmatians'.match(numRegex).length == 3);
 ```
 
-Your regex should find no digits in the string `One, Two, Three`.
+Ваш регулярний вираз не має знайти цифр у рядку `One, Two, Three`.
 
 ```js
 assert('One, Two, Three'.match(numRegex) == null);
 ```
 
-Your regex should find 2 digits in the string `21 Jump Street`.
+Ваш регулярний вираз має знайти 2 цифри у рядку `21 Jump Street`.
 
 ```js
 assert('21 Jump Street'.match(numRegex).length == 2);
 ```
 
-Your regex should find 4 digits in the string `2001: A Space Odyssey`.
+Ваш регулярний вираз має знайти 4 цифри у рядку `2001: A Space Odyssey`.
 
 ```js
 assert('2001: A Space Odyssey'.match(numRegex).length == 4);

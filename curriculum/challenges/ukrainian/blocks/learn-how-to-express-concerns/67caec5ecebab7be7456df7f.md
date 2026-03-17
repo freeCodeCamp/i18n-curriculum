@@ -1,6 +1,6 @@
 ---
 id: 67caec5ecebab7be7456df7f
-title: Task 130
+title: Завдання 130
 challengeType: 19
 dashedName: task-130
 lang: en-US
@@ -10,53 +10,53 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Прослухайте аудіо та дайте відповідь на запитання нижче.  
 
 # --questions--
 
 ## --text--
 
-What other issue did the team raise?
+Яку ще проблему підняла команда?
 
 ## --answers--
 
-That they receive updates too early.
+Що вони отримують оновлення занадто рано.
 
 ### --feedback--
 
-Maria mentions the exact opposite.
+Марія каже зовсім протилежне.
 
 ---
 
-That they don't want to communicate as much.
+Що вони не хочуть так багато спілкуватися.
 
 ### --feedback--
 
-Maria doesn't mention the team's willingness to communicate.
+Марія не згадує про бажання команди спілкуватися.  
 
 ---
 
-That they often don't hear about changes in time.
+Що вони часто не чують про зміни вчасно.
 
 ---
 
-That they think too many people are involved in communication.
+Що вони вважають, що надто багато людей залучено до спілкування.
 
 ### --feedback--
 
-Maria does not mention the number of people involved.
+Марія не згадує про кількість залучених людей.
 
 ## --video-solution--
 
-3
+3  
 
 # --explanation--
 
-When you say something `isn't great`, you are softening a negative message (instead of saying `it is bad`, for instance). It makes criticism sound more polite or indirect. Take a look at the following sentences:
+Коли ви говорите щось `isn't great`, ви пом’якшуєте від’ємне повідомлення (замість того, щоб сказати `it is bad`, наприклад). Це робить критику більш ввічливою або непрямою. Подивіться на наступні речення:
 
-- `The design is bad.` - This is a strong negative statement, which often sounds impolite.
+- `The design is bad.` — це сильна від’ємна інструкція, яка часто звучить неввічливо.
 
-- `The design isn't great. Maybe we can improve it.` - Saying this sound less harsh and more constructive.
+- `The design isn't great. Maybe we can improve it.` — сказати це звучить менш різко і більш конструктивно.
 
 # --scene--
 

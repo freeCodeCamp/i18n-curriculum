@@ -1,29 +1,29 @@
 ---
 id: 646cecc9eb5c4f4f73dafd07
-title: Step 25
+title: Крок 25
 challengeType: 0
 dashedName: step-25
 ---
 
 # --description--
 
-Move the left ear into position by setting a position of `absolute`, a `top` of `-26px`, and a `left` of `-31px`.
+Перемістіть ліве вухо на місце, встановивши властивість position у `absolute`, `top` зі значенням `-26px` та `left` зі значенням `-31px`.
 
 # --hints--
 
-Your `.cat-left-ear` selector should have a `position` property set to `absolute`. Don't forget to add a semicolon.
+Ваш селектор `.cat-left-ear` має мати властивість `position`, встановлену в `absolute`. Не забудьте додати крапку з комою.
 
 ```js
 assert(new __helpers.CSSHelp(document).getStyle('.cat-left-ear')?.position === 'absolute')
 ```
 
-Your `.cat-left-ear` selector should have a `top` property set to `-26px`
+Ваш селектор `.cat-left-ear` має мати властивість `top`, встановлену в `-26px`
 
 ```js
 assert(new __helpers.CSSHelp(document).getStyle('.cat-left-ear')?.top === '-26px')
 ```
 
-Your `.cat-left-ear` selector should have a `left` property set to `-31px`
+Ваш селектор `.cat-left-ear` має мати властивість `left`, встановлену в `-31px`
 
 ```js
 assert(new __helpers.CSSHelp(document).getStyle('.cat-left-ear')?.left === '-31px')
@@ -83,7 +83,7 @@ body {
 
 --fcc-editable-region--
 .cat-left-ear {
-
+  
   border-left: 35px solid transparent;
   border-right: 35px solid transparent;
   border-bottom: 70px solid #5e5e5e;

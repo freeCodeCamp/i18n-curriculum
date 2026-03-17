@@ -1,6 +1,6 @@
 ---
 id: 699e78258f18cf77dfce5c18
-title: Trig Identities
+title: Тригонометричні тотожності
 challengeType: 11
 videoId: m4rl9OE5XTY
 dashedName: trig-identities
@@ -8,32 +8,30 @@ dashedName: trig-identities
 
 # --description--
 
-In this video, you will learn about trigonometric identities.
+У цьому відео ви дізнаєтеся про тригонометричні тотожності.
 
 # --questions--
 
 ## --text--
 
-Why is the second equation in the first example called an identity?
+Чому друге рівняння в першому прикладі називають тотожністю?
 
 ## --answers--
 
-Its tangent and cotangent functions are equal.
+Її функції тангенса і котангенса рівні.
 
 ---
 
-Its cosine and secant functions are equal.
+Її функції косинуса і секанса рівні.
 
 ---
 
-It holds all values of the variable.
+Воно виконується для всіх значень змінної.
 
 ---
 
-It holds none of the values of the variable.
+Воно не виконується для жодного значення змінної.
 
 ## --video-solution--
 
 3
-
-

@@ -10,51 +10,51 @@ lang: en-US
 
 # --instructions--
 
-Прослухайте аудіозапис та дайте відповіді на запитання.
+Прослухайте аудіо та дайте відповідь на запитання нижче.  
 
 # --questions--
 
 ## --text--
 
-What does Maria want to discuss with James?
+Про що Марія хоче поговорити з Джеймсом?  
 
 ## --answers--
 
-Bob's schedule for the week.
+Розклад Боба на тиждень.  
 
 ### --feedback--
 
-Maria does not mention Bob's schedule.
+Марія не згадує розклад Боба.  
 
 ---
 
-Her most recent meeting with Bob.
+Її останню зустріч із Бобом.  
 
 ---
 
-A future project deadline.
+Термін здачі майбутнього проєкту.  
 
 ### --feedback--
 
-Maria does not mention a deadline, only her meeting with Bob.
+Марія не згадує термін, лише свою зустріч із Бобом.  
 
 ---
 
-The client's budget request.
+Бюджетний запит клієнта.  
 
 ### --feedback--
 
-Maria does not refer to a client request in this sentence.
+Марія не посилається на запит клієнта в цьому реченні.  
 
 ## --video-solution--
 
-2
+2  
 
 # --explanation--
 
-`Can we talk about...` is used to introduce a topic for discussion. It is a polite way to request a conversation about something important. For example:
+`Can we talk about...` використовується, щоб почати тему для обговорення. Це ввічливий спосіб попросити розмову про щось важливе. Наприклад:
 
-`Can we talk about the changes to the project timeline?` - This means the speaker wants to discuss the project timeline adjustments.
+`Can we talk about the changes to the project timeline?` - Це означає, що мовник хоче обговорити правки у графіку проєкту.
 
 # --scene--
 

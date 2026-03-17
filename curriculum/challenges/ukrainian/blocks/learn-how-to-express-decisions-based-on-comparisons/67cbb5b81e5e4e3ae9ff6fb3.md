@@ -1,6 +1,6 @@
 ---
 id: 67cbb5b81e5e4e3ae9ff6fb3
-title: Task 42
+title: Завдання 42
 challengeType: 19
 dashedName: task-42
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Прослухайте аудіо та дайте відповідь на запитання нижче.
 
 # --questions--
 
 ## --text--
 
-What does Jake mean?
+Що має на увазі Джейк?
 
 ## --answers--
 
-SafeGuard is easy to integrate with other tools.
-
+SafeGuard легко інтегрувати з іншими інструментами.
+  
 ### --feedback--
 
-What Jake says implies it is not easy.
+Те, що каже Джейк, натякає, що це не так просто.
 
 ---
 
-SafeGuard costs more when integrated.
+SafeGuard коштує дорожче при інтеграції.
 
 ### --feedback--
 
-Jake doesn't mention the cost.
+Джейк не згадує про вартість.
 
 ---
 
-Integration with SafeGuard may require additional effort.
+Інтеграція з SafeGuard може вимагати додаткових зусиль.
 
 ---
 
-SafeGuard is not flexible with integration.
+SafeGuard не є гнучким у плані інтеграції.
 
 ### --feedback--
 
-Jake doesn't mention flexibility but focuses on the need for extra work.
+Джейк не говорить про гнучкість, а зосереджується на необхідності додаткової роботи.
 
 ## --video-solution--
 
@@ -52,9 +52,9 @@ Jake doesn't mention flexibility but focuses on the need for extra work.
 
 # --explanation--
 
-`Extra work` means additional effort or time needed to achieve a goal.
+`Extra work` означає додаткові зусилля або час, необхідні для досягнення мети.
 
-Jake is suggesting that `if integration is crucial` (very important), Sophie might face challenges with SafeGuard, and therefore, additional work or effort will be required to integrate it with other platforms.
+Джейк пропонує, що `if integration is crucial` (дуже важливо), Софі може стикнутися з труднощами з SafeGuard, і тому для інтеграції з іншими платформами знадобиться додаткова робота або зусилля.
 
 # --scene--
 

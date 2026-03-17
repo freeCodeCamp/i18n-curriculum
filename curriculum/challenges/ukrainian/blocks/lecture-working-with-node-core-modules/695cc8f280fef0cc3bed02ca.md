@@ -1,27 +1,27 @@
 ---
 id: 695cc8f280fef0cc3bed02ca
-title: What Is the Path Module and How Does It Work?
+title: Що таке модуль path і як він працює?
 challengeType: 19
 dashedName: what-is-the-path-module-and-how-does-it-work
 ---
 
 # --description--
 
-The Node.js `path` module lets you work with files and directory paths. It provides several useful methods for handling and transforming directories, including joining, normalizing, and resolving the directories across different platforms and operating systems.
+Модуль Node.js `path` дозволяє працювати з файлами та шляхами до папок. Він надає кілька корисних методів для обробки та трансформації директорій, включно з об’єднанням, нормалізацією та розв’язанням шляхів на різних платформах і операційних системах.
 
-To use the `path` module, you can import it like this:
+Щоб використати модуль `path`, ви можете імпортувати його так:
 
 ```js
 const path = require("path");
 ```
 
-Let's look at some of the methods the `path` module provides and how they work.
+Розглянемо деякі методи, які надає модуль `path`, і як вони працюють.
 
-First, you should be aware of the Node.js global variables `__filename` and `__dirname`, AKA "common JS" variables. You don't need the `path` module to access them, which is why they are called global variables.
+Спершу варто знати про глобальні змінні Node.js `__filename` і `__dirname`, також відомі як змінні "common JS". Для доступу до них не потрібен модуль `path`, тому їх і називають глобальними змінними.
 
-`__filename` is the absolute path of the current file and `__dirname` is the absolute path of the directory containing the current file.
+`__filename` — це абсолютний шлях до поточного файлу, а `__dirname` — абсолютний шлях до папки, що містить поточний файл.
 
-For example, I have a `script.js` file I'm currently working with. Here's what the two methods return:
+Наприклад, у мене є `script.js` файл, над яким я зараз працюю. Ось що повертають ці два методи:
 
 ```js
 console.log(__filename);
@@ -31,55 +31,55 @@ console.log(__dirname);
 // /Users/user/Desktop/fCC/script-code/node/node-path
 ```
 
-You should also be aware of relative and absolute paths.
+Також варто розуміти різницю між відносними та абсолютними шляхами.
 
-A relative path points to a file or folder based on your current working directory. For example, `./assets/src/text-files`.
+Відносний шлях вказує на файл або папку відносно вашої поточної робочої директорії. Наприклад, `./assets/src/text-files`.
 
-An absolute path, on the other hand, gives the complete address of a file or folder from the root of your system, such as `/Users/johndoe/projects/app/assets/src/text-files.`
+Абсолютний шлях, навпаки, дає повну адресу файлу або папки від кореня вашої системи, наприклад `/Users/johndoe/projects/app/assets/src/text-files.`.
 
-The `basename()` method shows the last part of the file, that is, the filename:
+Метод `basename()` показує останню частину файлу, тобто ім’я файлу:
 
 ```js
 console.log(path.basename(__filename)); // script.js
 ```
 
-`dirname()` returns the directory name of a path:
+`dirname()` повертає ім’я директорії шляху:
 
 ```js
 console.log(path.dirname(__dirname)); // node-path
 ```
 
-`extname()` returns the extension of the current file:
+`extname()` повертає розширення поточного файлу:
 
 ```js
 console.log(path.extname(__filename)); // .js
 ```
 
-You can also specify a different file to return the extension of:
+Ви також можете вказати інший файл, щоб отримати його розширення:
 
 ```js
 console.log(path.extname('text-files/text1.txt')); // .txt
 ```
 
-The `join()` method takes all the path segments you pass in and joins them into one clean, normalized path. 
+Метод `join()` приймає всі сегменти шляху, які ви передаєте, і об’єднує їх в один чистий, нормалізований шлях.
 
-This could be useful if you want to merge related files in different folders so you can work with them together:
+Це може бути корисно, якщо ви хочете об’єднати пов’язані файли в різних папках, щоб працювати з ними разом:
 
 ```js
 const joinedPath = path.join("src", "assets", "text-files");
 console.log(joinedPath); // src/assets/text-files
 ```
 
-Windows uses backslashes to separate directories, so the result will be `src\assets\text-files`.
+Windows використовує зворотні скісні риски для розділення директорій, тому результат буде `src\assets\text-files`.
 
-In addition, the `join()` method automatically fixes wrong slashes and removes extra ones:
+Крім того, метод `join()` автоматично виправляє неправильні риски і видаляє зайві:
 
 ```js
 const wrongPath = path.join("/src//", "assets", "text-files");
 console.log(wrongPath); // /src/assets/text-files
 ```
 
-The `resolve()` method turns a sequence of path segments into an absolute path. It starts from your current working directory and results in a full path that points to the exact location on the device:
+Метод `resolve()` перетворює послідовність сегментів шляху в абсолютний шлях. Він починається з вашої поточної робочої директорії і дає повний шлях, що вказує на точне розташування на пристрої:
 
 ```js
 const absolutePath = path.resolve("assets", "src", "text-files");
@@ -87,11 +87,11 @@ console.log(absolutePath);
 // /Users/user/Desktop/fCC/script-code/node/node-path/assets/src/text-files
 ```
 
-The difference between `join()` and `resolve()` is that `join()` creates a relative path, while `resolve()` returns an absolute path.
+Різниця між `join()` і `resolve()` у тому, що `join()` створює відносний шлях, а `resolve()` повертає абсолютний шлях.
 
-Lastly, there are the `parse()` and `format()` methods.
+Нарешті, є методи `parse()` і `format()`.
 
-`parse()` takes a directory or file and returns an object that contains the breakdown of its parts, such as the system root, its directory, extension, and the filename:
+`parse()` приймає директорію або файл і повертає об’єкт, що містить розбиття його частин, таких як корінь системи, директорія, розширення та ім’я файлу:
 
 ```js
 const parsedFile = path.parse(__filename);
@@ -108,7 +108,7 @@ console.log(parsedFile);
 */
 ```
 
-`format()`, on the other hand, builds a path from an object containing directory, name, and extension:
+`format()`, навпаки, будує шлях з об’єкта, що містить директорію, ім’я та розширення:
 
 ```js
 const formattedDirectory = path.format({
@@ -124,35 +124,35 @@ console.log(formattedDirectory); // /users/johndoe/docs/file.txt
 
 ## --text--
 
-What is the difference between `path.dirname()` and `path.extname()` in Node.js?
+У чому різниця між `path.dirname()` і `path.extname()` у Node.js?
 
 ## --answers--
 
-`dirname()` removes the file extension, while `extname()` removes the directory name.
+`dirname()` видаляє розширення файлу, а `extname()` видаляє ім’я директорії.
 
 ### --feedback--
 
-Focus on which one deals with directories and which one deals with file extensions.
+Зверніть увагу, який метод працює з директоріями, а який — з розширеннями файлів.
 
 ---
 
-`dirname()` returns the full file path, while `extname()` returns the directory name.
+`dirname()` повертає повний шлях до файлу, а `extname()` повертає ім’я директорії.
 
 ### --feedback--
 
-Focus on which one deals with directories and which one deals with file extensions.
+Зверніть увагу, який метод працює з директоріями, а який — з розширеннями файлів.
 
 ---
 
-`dirname()` returns the directory name of a path, while `extname()` returns the file's extension.
+`dirname()` повертає ім’я директорії шляху, а `extname()` повертає розширення файлу.
 
 ---
 
-`dirname()` and `extname()` both return the same value but in different formats.
+`dirname()` і `extname()` обидва повертають однакове значення, але в різних форматах.
 
 ### --feedback--
 
-Focus on which one deals with directories and which one deals with file extensions.
+Зверніть увагу, який метод працює з директоріями, а який — з розширеннями файлів.
 
 ## --video-solution--
 
@@ -160,7 +160,7 @@ Focus on which one deals with directories and which one deals with file extensio
 
 ## --text--
 
-Which `path` method builds a complete file path from an object containing directory, name, and extension properties?
+Який метод `path` будує повний шлях до файлу з об’єкта, що містить властивості директорії, імені та розширення?
 
 ## --answers--
 
@@ -168,7 +168,7 @@ Which `path` method builds a complete file path from an object containing direct
 
 ### --feedback--
 
-Think about what the opposite of `parse()` is.
+Подумайте, що є протилежним до `parse()`.
 
 ---
 
@@ -180,7 +180,7 @@ Think about what the opposite of `parse()` is.
 
 ### --feedback--
 
-Think about what the opposite of `parse()` is.
+Подумайте, що є протилежним до `parse()`.
 
 ---
 
@@ -188,7 +188,7 @@ Think about what the opposite of `parse()` is.
 
 ### --feedback--
 
-Think about what the opposite of `parse()` is.
+Подумайте, що є протилежним до `parse()`.
 
 ## --video-solution--
 
@@ -196,35 +196,35 @@ Think about what the opposite of `parse()` is.
 
 ## --text--
 
-What do the Node.js global variables `__filename` and `__dirname` provide access to?
+До чого надають доступ глобальні змінні Node.js `__filename` і `__dirname`?
 
 ## --answers--
 
-The absolute path of the current file and its containing directory.
+Абсолютний шлях до поточного файлу та директорії, що його містить.
 
 ---
 
-The name of the current module and its dependencies.
+Ім’я поточного модуля та його залежностей.
 
 ### --feedback--
 
-Think about which variables automatically give you full file and folder paths without using the path module.
+Подумайте, які змінні автоматично дають повні шляхи до файлів і папок без використання модуля path.
 
 ---
 
-The relative path to the Node.js installation directory.
+Відносний шлях до директорії встановлення Node.js.
 
 ### --feedback--
 
-Think about which variables automatically give you full file and folder paths without using the path module.
+Подумайте, які змінні автоматично дають повні шляхи до файлів і папок без використання модуля path.
 
 ---
 
-The URL of the running web server and its hostname.
+URL запущеного веб-сервера та його ім’я хоста.
 
 ### --feedback--
 
-Think about which variables automatically give you full file and folder paths without using the path module.
+Подумайте, які змінні автоматично дають повні шляхи до файлів і папок без використання модуля path.
 
 ## --video-solution--
 

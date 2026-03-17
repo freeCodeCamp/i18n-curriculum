@@ -10,7 +10,7 @@ lang: en-US
 
 # --description--
 
-Listen to the audio and complete the sentence below.
+Прослухайте аудіо та доповніть речення нижче.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This adjective describes the relaxed nature of Sophie's Sunday morning.
+Цей прикметник описує розслаблений характер недільного ранку Софі.
 
 ---
 
@@ -32,7 +32,7 @@ This adjective describes the relaxed nature of Sophie's Sunday morning.
 
 ### --feedback--
 
-This word indicates the time Sophie chooses to go to sleep on Sunday evening.
+Це слово вказує на час, коли Софі вирішує лягти спати в неділю ввечері.
 
 # --scene--
 

@@ -1,13 +1,13 @@
 ---
 id: 66f1aeb60b11aec5abe83c2e
-title: CSS Libraries and Frameworks Quiz
+title: Тест з бібліотек і фреймворків CSS
 challengeType: 8
 dashedName: quiz-css-libraries-and-frameworks
 ---
 
 # --description--
 
-To pass the quiz, you must correctly answer at least 9 of the 10 questions below.
+Щоб пройти тест, потрібно правильно відповісти щонайменше на 9 із 10 наведених нижче питань.
 
 # --quizzes--
 
@@ -17,29 +17,29 @@ To pass the quiz, you must correctly answer at least 9 of the 10 questions below
 
 #### --text--
 
-What is a CSS framework?
+Що таке фреймворк CSS?
 
 #### --distractors--
 
-A tool to fix CSS errors.
+Інструмент для виправлення помилок CSS.
 
 ---
 
-A tool to lint CSS files.
+Інструмент для лінтингу CSS-файлів.
 
 ---
 
-A formatter for CSS files.
+Форматувальник CSS-файлів.
 
 #### --answer--
 
-A library for CSS styles.
+Бібліотека стилів CSS.
 
 ### --question--
 
 #### --text--
 
-Which of the following is a popular utility-first CSS framework?
+Який із наведених є популярним utility-first фреймворком CSS?
 
 #### --distractors--
 
@@ -61,29 +61,29 @@ Tailwind CSS
 
 #### --text--
 
-What is a disadvantage of CSS frameworks?
+Який недолік мають фреймворки CSS?
 
 #### --distractors--
 
-Too few components.
+Замало компонентів.
 
 ---
 
-No customization options.
+Відсутність можливостей кастомізації.
 
 ---
 
-Improved browser support.
+Покращена підтримка браузерів.
 
 #### --answer--
 
-Can bloat CSS files.
+Можуть збільшувати розмір CSS-файлів.
 
 ### --question--
 
 #### --text--
 
-What does SCSS stand for?
+Що означає SCSS?
 
 #### --distractors--
 
@@ -105,29 +105,29 @@ Sassy CSS.
 
 #### --text--
 
-Which of the following is a feature of Sass?
+Яка з наведених функцій є особливістю Sass?
 
 #### --distractors--
 
-Comments
+Коментарі
 
 ---
 
-CSS linting.
+Лінтинг CSS.
 
 ---
 
-Inline CSS.
+Рядковий CSS.
 
 #### --answer--
 
-Mixins
+Міксини
 
 ### --question--
 
 #### --text--
 
-Which of the following is the correct way to use utility classes in Tailwind CSS?
+Який правильний спосіб використання utility-класів у Tailwind CSS?
 
 #### --distractors--
 
@@ -147,7 +147,6 @@ Which of the following is the correct way to use utility classes in Tailwind CSS
 
 ---
 
-
 ```html
 <button class="set-blue set-text set-font set-hover round-btn padding-full">
   Button
@@ -155,7 +154,6 @@ Which of the following is the correct way to use utility classes in Tailwind CSS
 ```
 
 #### --answer--
-
 
 ```html
 <button class="bg-blue-500 text-white font-bold py-2 px-4 rounded-full hover:bg-blue-700">
@@ -167,7 +165,7 @@ Which of the following is the correct way to use utility classes in Tailwind CSS
 
 #### --text--
 
-What are the two types of CSS frameworks?
+Які два типи фреймворків CSS існують?
 
 #### --distractors--
 
@@ -189,7 +187,7 @@ Utility-first CSS frameworks and Component-based CSS frameworks.
 
 #### --text--
 
-What is the file extension for SCSS?
+Яке розширення файлу для SCSS?
 
 #### --distractors--
 
@@ -211,7 +209,7 @@ What is the file extension for SCSS?
 
 #### --text--
 
-Which of the following is the correct way to define a variable in SCSS?
+Який правильний спосіб оголосити змінну в SCSS?
 
 #### --distractors--
 
@@ -257,7 +255,7 @@ header {
 
 #### --text--
 
-Which of the following is the correct way to define a mixin?
+Який правильний спосіб оголосити міксин?
 
 #### --distractors--
 
@@ -298,4 +296,3 @@ mixin center-flex {
   align-items: center;
 }
 ```
-

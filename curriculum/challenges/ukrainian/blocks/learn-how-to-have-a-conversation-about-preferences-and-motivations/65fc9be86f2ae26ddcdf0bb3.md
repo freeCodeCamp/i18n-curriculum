@@ -11,41 +11,41 @@ lang: en-US
 
 # --description--
 
-Listen to Maria and answer the question.
+Послухайте Марію та дайте відповідь на запитання.
 
 # --questions--
 
 ## --text--
 
-What can boost their motivation according to Maria?
+Що, на думку Марії, може підвищити їхню мотивацію?
 
 ## --answers--
 
-Having a big team
+Велика команда
 
 ### --feedback--
 
-Think about what specifically makes the team more motivated, not just the size of the team.
+Подумайте, що саме робить команду більш мотивованою, а не лише розмір команди.
 
 ---
 
-Taking a long break
+Довга перерва
 
 ### --feedback--
 
-Consider if breaks are mentioned as a way to increase motivation.
+Розгляньте, чи згадуються перерви як спосіб підвищення мотивації.
 
 ---
 
-Seeing the team inspired
+Бачити натхненну команду
 
 ---
 
-Solving problems quickly
+Швидке розв’язання проблем
 
 ### --feedback--
 
-Reflect on whether the speed of solving problems is what Maria highlights as motivating.
+Подумайте, чи саме швидкість розв’язання проблем Марія виділяє як мотивуючу.
 
 ## --video-solution--
 

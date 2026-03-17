@@ -12,13 +12,13 @@ lang: en-US
 
 # --instructions--
 
-Прослухайте аудіозапис та дайте відповіді на запитання.
+Прослухайте аудіо та дайте відповідь на запитання нижче.
 
 # --questions--
 
 ## --text--
 
-How could Alice answer briefly that there is no decision concerning the deadline at the moment?
+Як Аліса могла коротко відповісти, що наразі рішення щодо дедлайну не прийнято?
 
 ## --answers--
 
@@ -38,7 +38,7 @@ EN391abad4
 
 ### --feedback--
 
-This doesn't relate to the question about setting the deadline.
+Це не стосується питання про встановлення дедлайну.
 
 ## --video-solution--
 
@@ -46,11 +46,11 @@ This doesn't relate to the question about setting the deadline.
 
 # --explanation--
 
-`Not yet.` is a short and natural way to say that something hasn't happened or been completed up to the present moment, but it may happen in the future. Приклад:
+`Not yet.` — це короткий і природний спосіб сказати, що щось не відбулося або не було завершено до теперішнього моменту, але може статися в майбутньому. Наприклад:
 
-- Person 1: `Have you sent the email?` - Here, the person is asking about an email that should be sent.
+- Person 1: `Have you sent the email?` — Тут людина питає про е-пошту, яку слід надіслати.
 
-- Person 2: `Not yet.` – This means the email hasn't been sent, but that the person still plans to send it.
+- Person 2: `Not yet.` — Це означає, що е-пошта ще не надіслана, але людина планує це зробити.
 
 # --scene--
 

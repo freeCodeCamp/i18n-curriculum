@@ -1,6 +1,6 @@
 ---
 id: 67aa23adedb02b11aaceda26
-title: Task 8
+title: Завдання 8
 challengeType: 19
 dashedName: task-8
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Прослухайте аудіо та дайте відповідь на запитання нижче.
 
 # --questions--
 
 ## --text--
 
-What is more important, according to Anna?
+Що є важливішим, за словами Анни?
 
 ## --answers--
 
-Upgrading computers.
+Оновлення комп’ютерів.
 
 ---
 
-Buying new office furniture.
+Купівля нових офісних меблів.
 
 ### --feedback--
 
-Anna acknowledges that furniture is important but says that many people mentioned needing something else.
+Анна визнає, що меблі важливі, але каже, що багато людей згадували про потребу в чомусь іншому.
 
 ---
 
-Getting a bigger remote work stipend.
+Отримання більшої доплати за дистанційну роботу.
 
 ### --feedback--
 
-Anna does not talk about increasing the stipend, only how people want to use it.
+Анна не говорить про збільшення доплати, лише про те, як люди хочуть її використовувати.
 
 ---
 
-Changing the survey questions.
+Зміна питань у опитуванні.
 
 ### --feedback--
 
-Anna does not mention anything about the survey questions.
+Анна нічого не згадує про питання опитування.
 
 ## --video-solution--
 
@@ -52,11 +52,11 @@ Anna does not mention anything about the survey questions.
 
 # --explanation--
 
-A `computer upgrade` means improving a computer by adding or replacing parts like more memory (RAM), a faster processor, or a better screen. For example:
+`computer upgrade` означає покращення комп’ютера шляхом додавання або заміни деталей, таких як більше пам’яті (RAM), швидший процесор або кращий екран. Наприклад:
 
-- `I need a computer upgrade to run the latest software.` - The speaker's current computer is not powerful enough, so they need a better one.
+- `I need a computer upgrade to run the latest software.` - Поточний комп’ютер мовця недостатньо потужний, тому їм потрібен кращий.
 
-- `After the computer upgrade, everything runs much faster.` -  The system's performance improved after updating or replacing components.
+- `After the computer upgrade, everything runs much faster.` - Продуктивність системи покращилася після оновлення або заміни компонентів.
 
 # --scene--
 

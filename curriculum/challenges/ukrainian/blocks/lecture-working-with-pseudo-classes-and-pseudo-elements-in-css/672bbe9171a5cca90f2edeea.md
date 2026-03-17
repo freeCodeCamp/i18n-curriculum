@@ -1,21 +1,21 @@
 ---
 id: 672bbe9171a5cca90f2edeea
-title: What Are Examples of Element User Action Pseudo-classes?
+title: Які приклади псевдокласів дій користувача для елементів?
 challengeType: 19
 dashedName: what-are-examples-of-element-user-action-pseudo-classes
 ---
 
 # --interactive--
 
-User feedback is a crucial element of web design. For instance, it's important for users to receive visual cues when they interact with elements on a website, such as hovering over a button or clicking a link. This feedback helps users understand the state of interactive elements, like indicating whether a link has been visited or not.
+Зворотний зв’язок для користувача — це важливий елемент вебдизайну. Наприклад, користувачам важливо отримувати візуальні підказки, коли вони взаємодіють з елементами на сайті, наприклад, коли наводять курсор на кнопку або натискають на посилання. Такий зворотний зв’язок допомагає користувачам розуміти стан інтерактивних елементів, наприклад, чи було посилання відвідано.
 
-User action pseudo-classes in CSS are special keywords that allow you to provide this kind of feedback without needing JavaScript or other programming languages.
+Псевдокласи дій користувача в CSS — це спеціальні ключові слова, які дозволяють надавати такий зворотний зв’язок без потреби в JavaScript або інших мовах програмування.
 
-These pseudo-classes include `:hover`, `:active`, `:focus`, and `:visited`, among others. They enable you to change the appearance of elements based on user interactions, improving the overall user experience.
+До цих псевдокласів належать `:hover`, `:active`, `:focus` і `:visited` та інші. Вони дають змогу змінювати вигляд елементів залежно від дій користувача, покращуючи загальний досвід користування.
 
-Let's dive into some of the user action pseudo-classes we have and see how they work.
+Давайте розглянемо деякі псевдокласи дій користувача та подивимося, як вони працюють.
 
-The `:active` pseudo-class applies styles when an element is activated by the user. For example, when the user clicks a button or a link, it provides immediate visual feedback, showing users that their actions are being recognized.
+Псевдоклас `:active` застосовує стилі, коли елемент активується користувачем. Наприклад, коли користувач натискає кнопку або посилання, він одразу бачить візуальний зворотний зв’язок, що його дії зафіксовано.
 
 :::interactive_editor
 
@@ -32,7 +32,7 @@ a:active {
 
 :::
 
-The `:hover` pseudo-class is triggered when a user hovers over an element with their mouse or other pointing device. Developers often use it to create visual feedback for buttons, links, or any element that should respond to user attention. Here's a button a user would hover over before clicking:
+Псевдоклас `:hover` спрацьовує, коли користувач наводить курсор миші або іншого вказівного пристрою на елемент. Розробники часто використовують його, щоб створити візуальний зворотний зв’язок для кнопок, посилань або будь-яких елементів, які мають реагувати на увагу користувача. Ось кнопка, на яку користувач наведе курсор перед натисканням:
 
 :::interactive_editor
 
@@ -51,9 +51,9 @@ The `:hover` pseudo-class is triggered when a user hovers over an element with t
 
 :::
 
-The `:focus` pseudo-class applies styles when an element gains focus, typically through keyboard navigation or when a user clicks into a form input. This is not just for feedback but also crucial for accessibility. It ensures that users who rely heavily on keyboards can easily identify which element they are interacting with.
+Псевдоклас `:focus` застосовує стилі, коли елемент отримує фокус, зазвичай через навігацію клавіатурою або коли користувач клікає у поле введення форми. Це не лише для зворотного зв’язку, а й критично важливо для доступності. Він гарантує, що користувачі, які активно користуються клавіатурою, легко визначать, з яким елементом вони взаємодіють.
 
-Here's an example of an input field that gains focus when clicked or navigated to via the keyboard:
+Ось приклад поля введення, яке отримує фокус при кліку або навігації клавіатурою:
 
 :::interactive_editor
 
@@ -73,7 +73,7 @@ input:focus {
 
 :::
 
-The `:visited` pseudo-class targets a link the user has visited. This can be useful for helping users distinguish between pages they have already visited and the ones they are yet to visit. Here is an example of changing the anchor text color to cyan when the link is visited:
+Псевдоклас `:visited` застосовується до посилання, яке користувач уже відвідав. Це корисно, щоб допомогти користувачам відрізняти сторінки, які вони вже бачили, від тих, які ще не відкривали. Ось приклад зміни кольору тексту посилання на бірюзовий, коли посилання відвідане:
 
 :::interactive_editor
 
@@ -90,11 +90,11 @@ a:visited {
 
 :::
 
-The `:checked` pseudo-class in CSS allows you to style form elements such as checkboxes and radio buttons when they are selected (checked). This pseudo-class is useful for customizing the appearance of these elements to enhance user experience, even though browsers provide default styles for them.
+Псевдоклас `:checked` у CSS дозволяє стилізувати елементи форми, такі як прапорці та радіокнопки, коли вони вибрані (позначені). Цей псевдоклас корисний для кастомізації вигляду цих елементів, щоб покращити досвід користувача, хоча браузери й надають стилі за замовчуванням.
 
-Here is an example with a checkbox to agree to terms on a website.
+Ось приклад із прапорцем для згоди з умовами на сайті.
 
-**NOTE**: Some of the CSS in this example uses properties that haven't been covered yet. This is just to give you an idea of how to create a custom checkbox. You will learn how all of this works in future lessons and workshops.
+**ПРИМІТКА**: Частина CSS у цьому прикладі використовує властивості, які ще не розглядалися. Це лише щоб дати уявлення про створення кастомного прапорця. Ви навчитеся, як це працює, у майбутніх уроках і практичних заняттях.
 
 :::interactive_editor
 
@@ -151,48 +151,48 @@ Here is an example with a checkbox to agree to terms on a website.
 
 :::
 
-In this example, we are using the `appearance` property set to `none` to remove the default styling applied by the browser to checkbox inputs. When the user checks the box, it will have a background color of `green`.
+У цьому прикладі ми використовуємо властивість `appearance` зі значенням `none`, щоб прибрати стилі за замовчуванням, які браузер застосовує до полів прапорців. Коли користувач ставить прапорець, фон стане кольору `green`.
 
-Other examples of action pseudo-classes are:
+Інші приклади псевдокласів дій:
 
-- `:focus-within`: for applying styles to an element when it or any of its descendants have focus.
-- `:enabled`: for targeting form buttons or other elements that are currently enabled.
-- `:disabled`: for targeting form buttons or other elements that are disabled.
-- `:target`: for applying styles to an element that is the target of a URL fragment (the part of a URL after the `#` symbol).
+- `:focus-within`: для застосування стилів до елемента, коли він або будь-який із його нащадків має фокус.
+- `:enabled`: для цільового стилізування кнопок форми або інших елементів, які зараз увімкнені.
+- `:disabled`: для цільового стилізування кнопок форми або інших елементів, які вимкнені.
+- `:target`: для застосування стилів до елемента, який є ціллю фрагмента URL (частина URL після символу `#`).
 
 # --questions--
 
 ## --text--
 
-What do user action pseudo-classes allow you to do?
+Що дозволяють робити псевдокласи дій користувача?
 
 ## --answers--
 
-They enable animations and transitions.
+Вони дають змогу створювати анімації та переходи.
 
 ### --feedback--
 
-Think about how you can interact with users purely with CSS.
+Подумайте, як можна взаємодіяти з користувачами, використовуючи лише CSS.
 
 ---
 
-They allow you to modify the DOM structure dynamically.
+Вони дозволяють динамічно змінювати структуру DOM.
 
 ### --feedback--
 
-Think about how you can interact with users purely with CSS.
+Подумайте, як можна взаємодіяти з користувачами, використовуючи лише CSS.
 
 ---
 
-They let you provide feedback to the user without relying on JavaScript.
+Вони дають змогу надавати зворотний зв’язок користувачу без використання JavaScript.
 
 ---
 
-They let you style the last element in a list.
+Вони дозволяють стилізувати останній елемент у списку.
 
 ### --feedback--
 
-Think about how you can interact with users purely with CSS.
+Подумайте, як можна взаємодіяти з користувачами, використовуючи лише CSS.
 
 ## --video-solution--
 
@@ -200,35 +200,35 @@ Think about how you can interact with users purely with CSS.
 
 ## --text--
 
-What does the `:checked` pseudo-class do in CSS?
+Що робить псевдоклас `:checked` у CSS?
 
 ## --answers--
 
-It selects an element when it is disabled.
+Він вибирає елемент, коли він вимкнений.
 
 ### --feedback--
 
-Think about how forms handle user selections.
+Подумайте, як форми обробляють вибір користувача.
 
 ---
 
-It selects an element when it is being hovered over.
+Він вибирає елемент, коли на нього наводять курсор.
 
 ### --feedback--
 
-Think about how forms handle user selections.
+Подумайте, як форми обробляють вибір користувача.
 
 ---
 
-It styles elements like checkboxes or radio buttons that are checked.
+Він стилізує елементи, як прапорці або радіокнопки, які позначені.
 
 ---
 
-It styles an element when it gains focus.
+Він стилізує елемент, коли він отримує фокус.
 
 ### --feedback--
 
-Think about how forms handle user selections.
+Подумайте, як форми обробляють вибір користувача.
 
 ## --video-solution--
 
@@ -236,35 +236,35 @@ Think about how forms handle user selections.
 
 ## --text--
 
-What does the `:focus` pseudo-class do?
+Що робить псевдоклас `:focus`?
 
 ## --answers--
 
-It selects an element when it is hovered over by a mouse.
+Він вибирає елемент, коли на нього наводять курсор миші.
 
 ### --feedback--
 
-Think about how users navigate forms using a keyboard.
+Подумайте, як користувачі навігують формами за допомогою клавіатури.
 
 ---
 
-It applies styles when an element gains focus, usually through keyboard navigation or a click.
+Він застосовує стилі, коли елемент отримує фокус, зазвичай через навігацію клавіатурою або клік.
 
 ---
 
-It selects an element after a form is submitted.
+Він вибирає елемент після відправлення форми.
 
 ### --feedback--
 
-Think about how users navigate forms using a keyboard.
+Подумайте, як користувачі навігують формами за допомогою клавіатури.
 
 ---
 
-It applies styles to an element when it is disabled.
+Він застосовує стилі до елемента, коли він вимкнений.
 
 ### --feedback--
 
-Think about how users navigate forms using a keyboard.
+Подумайте, як користувачі навігують формами за допомогою клавіатури.
 
 ## --video-solution--
 

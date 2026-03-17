@@ -1,13 +1,13 @@
 ---
 id: 66edcccbba6dacdb65a59067
-title: JavaScript Arrays Quiz
+title: Тест на масиви JavaScript
 challengeType: 8
 dashedName: quiz-javascript-arrays
 ---
 
 # --description--
 
-To pass the quiz, you must correctly answer at least 18 of the 20 questions below.
+Щоб пройти тест, ви повинні правильно відповісти щонайменше на 18 із 20 питань нижче.
 
 # --quizzes--
 
@@ -17,7 +17,7 @@ To pass the quiz, you must correctly answer at least 18 of the 20 questions belo
 
 #### --text--
 
-What will be the output for the following code?
+Яким буде вихідний результат для наступного коду?
 
 ```js
 const numbers = [1, 2, 3];
@@ -44,7 +44,7 @@ console.log(numbers[10]);
 
 #### --text--
 
-Which of the following is the correct way to access the string `"Jessica"` from the `developers` array?
+Який із наведених способів є правильним для доступу до рядка `"Jessica"` з масиву `developers`?
 
 #### --distractors--
 
@@ -78,7 +78,7 @@ developers[0]
 
 #### --text--
 
-What value will be assigned to the `index` variable?
+Яке значення буде призначене змінній `index`?
 
 ```js
 const numbers = [10, 20, 30, 40];
@@ -106,51 +106,51 @@ console.log(index);
 
 #### --text--
 
-What does the rest syntax do?
+Що робить синтаксис rest?
 
 #### --distractors--
 
-It is used to divide a string into an array of substrings.
+Він використовується для розбиття рядка на масив підрядків.
 
 ---
 
-It is used to add or remove elements from any position in an array.
+Він використовується для додавання або видалення елементів з будь-якої позиції в масиві.
 
 ---
 
-It is used to add elements to the end of the array and will return the new length.
+Він використовується для додавання елементів у кінець масиву і повертає нову довжину.
 
 #### --answer--
 
-It captures the remaining elements of an array into a new array.
+Він захоплює залишкові елементи масиву у новий масив.
 
 ### --question--
 
 #### --text--
 
-What is array destructuring?
+Що таке деструктуризація масиву?
 
 #### --distractors--
 
-It is used to concatenate all of the elements of an array into a single string.
+Вона використовується для об’єднання всіх елементів масиву в один рядок.
 
 ---
 
-It is used to check if an array contains a specific value.
+Вона використовується для перевірки, чи містить масив певне значення.
 
 ---
 
-It is used to remove the last element from an array and will return that removed element.
+Вона використовується для видалення останнього елемента з масиву і повертає цей видалений елемент.
 
 #### --answer--
 
-It is used to extract values from arrays and assign them to variables in a more concise and readable way.
+Вона використовується для вилучення значень з масивів і призначення їх змінним у більш стислому та читабельному вигляді.
 
 ### --question--
 
 #### --text--
 
-What value will be assigned to the `arr2` variable?
+Яке значення буде призначене змінній `arr2`?
 
 ```js
 const arr1 = [1, 2, 3];
@@ -178,7 +178,7 @@ console.log(arr2);
 
 #### --text--
 
-What will this code log to the console?
+Що цей код виведе в консоль?
 
 ```js
 const colors = ["red", "blue", "green", "yellow"];
@@ -206,7 +206,7 @@ console.log(colors);
 
 #### --text--
 
-What value will be assigned to the `slicedArr` variable?
+Яке значення буде призначене змінній `slicedArr`?
 
 ```js
 const arr = ["apple", "banana", "cherry", "date"];
@@ -234,7 +234,7 @@ console.log(slicedArr);
 
 #### --text--
 
-Which method returns the first index of a given element in an array?
+Який метод повертає перший індекс заданого елемента в масиві?
 
 #### --distractors--
 
@@ -256,7 +256,7 @@ Which method returns the first index of a given element in an array?
 
 #### --text--
 
-Which method is used to remove the first element from an array and returns that removed element?
+Який метод використовується для видалення першого елемента з масиву і повертає цей видалений елемент?
 
 #### --distractors--
 
@@ -278,29 +278,29 @@ Which method is used to remove the first element from an array and returns that 
 
 #### --text--
 
-What does the `concat()` method do?
+Що робить метод `concat()`?
 
 #### --distractors--
 
-Joins array elements into a string.
+Об’єднує елементи масиву в рядок.
 
 ---
 
-Adds an element to the beginning of an array.
+Додає елемент на початок масиву.
 
 ---
 
-Removes an element from the array.
+Видаляє елемент з масиву.
 
 #### --answer--
 
-Merges two arrays into a new array.
+Об’єднує два масиви в новий масив.
 
 ### --question--
 
 #### --text--
 
-What will be the output of this code?
+Яким буде вихідний результат цього коду?
 
 ```js
 const fruits = ["apple", "banana", "cherry", "apple", "orange"];
@@ -330,29 +330,29 @@ console.log(fruits);
 
 #### --text--
 
-What does the `includes()` method do?
+Що робить метод `includes()`?
 
 #### --distractors--
 
-It is used to divide a string into an array of substrings.
+Він використовується для розбиття рядка на масив підрядків.
 
 ---
 
-It is used to concatenate all of the elements of an array into a single string.
+Він використовується для об’єднання всіх елементів масиву в один рядок.
 
 ---
 
-It is used to add or remove elements from any position in an array.
+Він використовується для додавання або видалення елементів з будь-якої позиції в масиві.
 
 #### --answer--
 
-It is used to check if an array contains a specific value.
+Він використовується для перевірки, чи містить масив певне значення.
 
 ### --question--
 
 #### --text--
 
-Which of the following methods is used to reverse an array in place?
+Який із наведених методів використовується для обернення масиву на місці?
 
 #### --distractors--
 
@@ -374,51 +374,51 @@ Which of the following methods is used to reverse an array in place?
 
 #### --text--
 
-What is a two dimensional array?
+Що таке двовимірний масив?
 
 #### --distractors--
 
-An array that only contains object literals.
+Масив, який містить лише літерали об’єктів.
 
 ---
 
-An array of fixed length.
+Масив фіксованої довжини.
 
 ---
 
-An array of floating point numbers.
+Масив чисел з плаваючою комою.
 
 #### --answer--
 
-An array of arrays.
+Масив масивів.
 
 ### --question--
 
 #### --text--
 
-Which of the following is true about the `indexOf()` method in arrays?
+Що з наведеного є правдою про метод `indexOf()` у масивах?
 
 #### --distractors--
 
-It always returns the last occurrence of the element.
+Він завжди повертає останнє входження елемента.
 
 ---
 
-It throws an error if the element is not found.
+Він викликає помилку, якщо елемент не знайдено.
 
 ---
 
-It requires the array to be sorted.
+Він вимагає, щоб масив був відсортований.
 
 #### --answer--
 
-It returns `-1` if the element is not found.
+Він повертає `-1`, якщо елемент не знайдено.
 
 ### --question--
 
 #### --text--
 
-Which of the following is NOT an array method?
+Який із наведених не є методом масиву?
 
 #### --distractors--
 
@@ -440,7 +440,7 @@ Which of the following is NOT an array method?
 
 #### --text--
 
-What will be the output for the following code?
+Яким буде вихідний результат для наступного коду?
 
 ```js
 const arr = ["o", "l", "l", "e", "h"];
@@ -467,8 +467,7 @@ console.log(arr.join(""));
 
 #### --text--
 
-What will be the result of using the `shift()` method on an empty array?
-
+Яким буде результат використання методу `shift()` на порожньому масиві?
 
 #### --distractors--
 
@@ -490,7 +489,7 @@ What will be the result of using the `shift()` method on an empty array?
 
 #### --text--
 
-Which method will return a new array without changing the original array?
+Який метод поверне новий масив, не змінюючи оригінальний масив?
 
 #### --distractors--
 

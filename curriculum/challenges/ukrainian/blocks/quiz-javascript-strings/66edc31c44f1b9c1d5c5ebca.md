@@ -1,13 +1,13 @@
 ---
 id: 66edc31c44f1b9c1d5c5ebca
-title: JavaScript Strings Quiz
+title: Тест на рядки JavaScript
 challengeType: 8
 dashedName: quiz-javascript-strings
 ---
 
 # --description--
 
-To pass the quiz, you must correctly answer at least 18 of the 20 questions below.
+Щоб пройти тест, ви повинні правильно відповісти щонайменше на 18 із 20 питань нижче.
 
 # --quizzes--
 
@@ -17,29 +17,29 @@ To pass the quiz, you must correctly answer at least 18 of the 20 questions belo
 
 #### --text--
 
-What is the return value for the `includes()` method?
+Яке повернене значення має метод `includes()`?
 
 #### --distractors--
 
-If the substring is found within the string, the method returns the string. Otherwise, it returns `undefined`.
+Якщо підрядок знайдено в рядку, метод повертає рядок. Інакше він повертає `undefined`.
 
 ---
 
-If the substring is found within the string, the method returns `true`. Otherwise, it returns an empty string.
+Якщо підрядок знайдено в рядку, метод повертає `true`. Інакше він повертає порожній рядок.
 
 ---
 
-If the substring is found within the string, the method returns the string. Otherwise, it returns `null`.
+Якщо підрядок знайдено в рядку, метод повертає рядок. Інакше він повертає `null`.
 
 #### --answer--
 
-If the substring is found within the string, the method returns `true`. Otherwise, it returns `false`.
+Якщо підрядок знайдено в рядку, метод повертає `true`. Інакше він повертає `false`.
 
 ### --question--
 
 #### --text--
 
-Which option demonstrates string interpolation?
+Який варіант демонструє інтерполяцію рядка?
 
 #### --distractors--
 
@@ -61,7 +61,7 @@ Which option demonstrates string interpolation?
 
 #### --text--
 
-Which of the following options is the newline character?
+Який із наведених символів є символом нового рядка?
 
 #### --distractors--
 
@@ -83,29 +83,29 @@ Which of the following options is the newline character?
 
 #### --text--
 
-Which of the following statements is correct about strings?
+Яке з наведених тверджень є правильним щодо рядків?
 
 #### --distractors--
 
-Strings are mutable and can be changed after they are created.
+Рядки змінні і можуть бути змінені після створення.
 
 ---
 
-Strings are non primitive data types.
+Рядки є непримітивними типами даних.
 
 ---
 
-Strings can only be created using single quotes.
+Рядки можна створювати лише за допомогою одинарних лапок.
 
 #### --answer--
 
-Strings are immutable.
+Рядки є незмінними.
 
 ### --question--
 
 #### --text--
 
-What does ASCII stand for?
+Що означає ASCII?
 
 #### --distractors--
 
@@ -127,7 +127,7 @@ American Standard Code for Information Interchange
 
 #### --text--
 
-Which of the following methods extracts a portion of a string and returns a new string?
+Який із наведених методів витягує частину рядка і повертає новий рядок?
 
 #### --distractors--
 
@@ -149,29 +149,29 @@ Which of the following methods extracts a portion of a string and returns a new 
 
 #### --text--
 
-What is the purpose of the `prompt()` method?
+Яка мета методу `prompt()`?
 
 #### --distractors--
 
-It displays a message in the console.
+Він відображає повідомлення в консолі.
 
 ---
 
-It displays an alert box with a message.
+Він відображає вікно оповіщення з повідомленням.
 
 ---
 
-It displays a confirmation box with a message.
+Він відображає вікно підтвердження з повідомленням.
 
 #### --answer--
 
-It displays a dialog box that waits for the user input.
+Він відображає діалогове вікно, що очікує на введення користувача.
 
 ### --question--
 
 #### --text--
 
-Which of the following is the correct way to access the third character of a string?
+Який із наведених способів є правильним для доступу до третього символу рядка?
 
 #### --distractors--
 
@@ -205,7 +205,7 @@ developer[2];
 
 #### --text--
 
-How can you obtain the ASCII value of the first character in the string `"hello"`?
+Як отримати ASCII-значення першого символу в рядку `"hello"`?
 
 #### --distractors--
 
@@ -227,7 +227,7 @@ How can you obtain the ASCII value of the first character in the string `"hello"
 
 #### --text--
 
-Which method can you use to obtain the character corresponding to an ASCII value?
+Який метод можна використати, щоб отримати символ, що відповідає ASCII-значенню?
 
 #### --distractors--
 
@@ -249,7 +249,7 @@ Which method can you use to obtain the character corresponding to an ASCII value
 
 #### --text--
 
-Which of the following `indexOf` examples will log `-1` to the console?
+Який із наведених прикладів `indexOf` виведе `-1` у консоль?
 
 #### --distractors--
 
@@ -283,7 +283,7 @@ console.log(organization.indexOf("c"));
 
 #### --text--
 
-How can you check if the string `"JavaScript"` contains `"Script"`?
+Як перевірити, чи містить рядок `"JavaScript"` підрядок `"Script"`?
 
 #### --distractors--
 
@@ -305,7 +305,7 @@ How can you check if the string `"JavaScript"` contains `"Script"`?
 
 #### --text--
 
-Which of the following extracts the substring `"Script"` from the string `"JavaScript"`?
+Який із наведених варіантів витягує підрядок `"Script"` з рядка `"JavaScript"`?
 
 #### --distractors--
 
@@ -327,7 +327,7 @@ Which of the following extracts the substring `"Script"` from the string `"JavaS
 
 #### --text--
 
-How do you convert the string `"JavaScript"` to uppercase?
+Як перетворити рядок `"JavaScript"` у верхній регістр?
 
 #### --distractors--
 
@@ -349,7 +349,7 @@ How do you convert the string `"JavaScript"` to uppercase?
 
 #### --text--
 
-How do you convert the string `"JavaScript"` to lowercase?
+Як перетворити рядок `"JavaScript"` у нижній регістр?
 
 #### --distractors--
 
@@ -371,7 +371,7 @@ How do you convert the string `"JavaScript"` to lowercase?
 
 #### --text--
 
-Which of the following will replace `"dogs"` with `"cats"` in the string `"I love dogs"`.
+Що замінить `"dogs"` на `"cats"` у рядку `"I love dogs"`?
 
 #### --distractors--
 
@@ -393,7 +393,7 @@ Which of the following will replace `"dogs"` with `"cats"` in the string `"I lov
 
 #### --text--
 
-Which method is used to repeat a string a specified number of times?
+Який метод використовується для повторення рядка задану кількість разів?
 
 #### --distractors--
 
@@ -415,7 +415,7 @@ Which method is used to repeat a string a specified number of times?
 
 #### --text--
 
-What will the following code return: `"abc".repeat(3)`?
+Що поверне наступний код: `"abc".repeat(3)`?
 
 #### --distractors--
 
@@ -427,7 +427,7 @@ What will the following code return: `"abc".repeat(3)`?
 
 ---
 
-It will throw an error.
+Він викличе помилку.
 
 #### --answer--
 
@@ -437,7 +437,7 @@ It will throw an error.
 
 #### --text--
 
-Which method will remove whitespace from the beginning and end of a string?
+Який метод видаляє пробіли на початку та в кінці рядка?
 
 #### --distractors--
 
@@ -459,7 +459,7 @@ Which method will remove whitespace from the beginning and end of a string?
 
 #### --text--
 
-Which of the following is the correct syntax for escaping quotes?
+Який із наведених варіантів є правильним синтаксисом для екранування лапок?
 
 #### --distractors--
 
@@ -484,4 +484,3 @@ Which of the following is the correct syntax for escaping quotes?
 ```js
 "She said, \"Hello!\""
 ```
-

@@ -1,6 +1,6 @@
 ---
 id: 030401977064585ddd4c7746
-title: For Loops
+title: Цикли for
 challengeType: 11
 videoId: x13V1UMMQeI
 dashedName: for-loops-learn-python-full-course-for-beginners
@@ -8,13 +8,13 @@ dashedName: for-loops-learn-python-full-course-for-beginners
 
 # --description--
 
-In this video, you will learn how to use for loops to iterate over sequences like lists and ranges.
+У цьому відео ви навчитеся використовувати цикли for, щоб ітерувати над послідовностями, такими як списки та діапазони.
 
 # --questions--
 
 ## --text--
 
-Which of the following is the correct way to iterate over each letter in the string `"Giraffe Academy"`?
+Який із наведених способів є правильним для ітерації над кожною літерою в рядку `"Giraffe Academy"`?
 
 ## --answers--
 

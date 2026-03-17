@@ -1,35 +1,35 @@
 ---
 id: 5efae16e3cbd2bbdab94e334
-title: Step 33
+title: Крок 33
 challengeType: 0
 dashedName: step-33
 ---
 
 # --description--
 
-After the last `img` element, add a `figcaption` element with the text `Cats hate other cats.`
+Після останнього елемента `img` додайте елемент `figcaption` з текстом `Cats hate other cats.`
 
 # --hints--
 
-Your `figcaption` element should have an opening tag. Opening tags have the following syntax: `<elementName>`.
+Ваш елемент `figcaption` повинен мати початковий тег. Початкові теги мають такий синтаксис: `<elementName>`.
 
 ```js
 assert(document.querySelectorAll('figcaption').length === 2);
 ```
 
-Your `figcaption` element should have a closing tag. Closing tags have a `/` just after the `<` character.
+Ваш елемент `figcaption` повинен мати кінцевий тег. Кінцеві теги мають `/` одразу після символу `<`.
 
 ```js
 assert(code.match(/<\/figcaption\>/g).length === 2);
 ```
 
-There should be a `figure` element right above the second `section` element's closing tag.
+Повинен бути елемент `figure` безпосередньо над кінцевим тегом другого елемента `section`.
 
 ```js
 assert.strictEqual(document.querySelectorAll('main > section')?.[1]?.lastElementChild?.nodeName, 'FIGURE');
 ```
 
-The last `img` element should be nested in the `figure` element.
+Останній елемент `img` повинен бути вкладений у елемент `figure`.
 
 ```js
 const catsImg = document.querySelectorAll('figure > img')[1];
@@ -39,25 +39,25 @@ assert(
 );
 ```
 
-Your `figure` element should have an opening tag. Opening tags have the following syntax: `<elementName>`.
+Ваш елемент `figure` повинен мати початковий тег. Початкові теги мають такий синтаксис: `<elementName>`.
 
 ```js
 assert(document.querySelectorAll('figure').length === 2);
 ```
 
-Your `figure` element should have a closing tag. Closing tags have a `/` just after the `<` character.
+Ваш елемент `figure` повинен мати кінцевий тег. Кінцеві теги мають `/` одразу після символу `<`.
 
 ```js
 assert(code.match(/<\/figure\>/g).length === 2);
 ```
 
-The `figcaption` element should be nested in the `figure` element.
+Елемент `figcaption` повинен бути вкладений у елемент `figure`.
 
 ```js
 assert(document.querySelectorAll('figure > figcaption').length === 2);
 ```
 
-The `figcaption` element nested in the `figure` element should be below the `img` element. You have the `img` element and the `figcaption` element in the wrong order.
+Елемент `figcaption`, вкладений у елемент `figure`, повинен бути нижче за елемент `img`. Ви поміняли місцями елементи `img` і `figcaption`.
 
 ```js
 assert(
@@ -66,7 +66,7 @@ assert(
 );
 ```
 
-The `figcaption` element should have the text `Cats hate other cats.` You have omitted a word or have a typo.
+Елемент `figcaption` повинен містити текст `Cats hate other cats.`. Ви пропустили слово або зробили помилку.
 
 ```js
 assert(
@@ -121,4 +121,3 @@ assert(
   </body>
 </html>
 ```
-

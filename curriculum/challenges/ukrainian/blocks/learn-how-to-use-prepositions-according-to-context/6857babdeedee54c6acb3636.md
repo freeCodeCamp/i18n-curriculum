@@ -1,6 +1,6 @@
 ---
 id: 6857babdeedee54c6acb3636
-title: Task 134
+title: Завдання 134
 challengeType: 19
 dashedName: task-134
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Прослухайте аудіозапис і дайте відповідь на запитання нижче.
 
 # --questions--
 
 ## --text--
 
-Where are the monitors stored now?
+Де зараз зберігаються монітори?
 
 ## --answers--
 
-At the end of the parking lot.
+У кінці парковки.
 
 ### --feedback--
 
-Sarah doesn't mention the parking lot.
+Сара не згадує про парковку.
 
 ---
 
-Inside the IT room.
+У кімнаті ІТ.
 
 ### --feedback--
 
-They were moved out of the IT room earlier.
+Їх раніше вивезли з кімнати ІТ.
 
 ---
 
-Next to the security desk.
+Поруч із охоронним столом.
 
 ### --feedback--
 
-There is no mention of a security desk.
+Про охоронний стіл не йдеться.
 
 ---
 
-Right near the coffee machine.
+Прямо біля кавомашини.
 
 ## --video-solution--
 
@@ -52,9 +52,9 @@ Right near the coffee machine.
 
 # --explanation--
 
-Sarah gives clear directions ending with a reference point: `the coffee machine`.
+Сара дає чіткі вказівки, закінчуючи посиланням на орієнтир: `the coffee machine`.
 
-She explains that after going down the corridor and turning left, the monitors can be found positioned across from it, making the coffee machine the closest visible landmark for finding them.
+Вона пояснює, що після проходження коридором і повороту ліворуч монітори можна знайти навпроти нього, тож кавомашина є найближчим видимим орієнтиром для їхнього знаходження.
 
 # --scene--
 

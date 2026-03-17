@@ -1,6 +1,6 @@
 ---
 id: 69ae766ab4a814be6a4f2be3
-title: Why MCP?
+title: Чому MCP?
 challengeType: 11
 videoId: G1bjz6QcgRU
 dashedName: why-mcp
@@ -8,13 +8,13 @@ dashedName: why-mcp
 
 # --description--
 
-In this video, you will you will be introduced to MCP.
+У цьому відео ви познайомитеся з MCP.
 
 # --questions--
 
 ## --text--
 
-What does MCP stand for?
+Що означає MCP?
 
 ## --answers--
 

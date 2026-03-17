@@ -1,6 +1,6 @@
 ---
 id: 69ae6a0eb4a814be6a4f2bdf
-title: Chunking
+title: Розбиття на частини
 challengeType: 11
 videoId: tFUkvObOaHc
 dashedName: chunking
@@ -8,13 +8,13 @@ dashedName: chunking
 
 # --description--
 
-In this video, you will learn about chunking.
+У цьому відео ви дізнаєтеся про розбиття на частини.
 
 # --questions--
 
 ## --text--
 
-Which of the following is NOT a common type of chunking?
+Який із наведених варіантів НЕ є загальним типом розбиття на частини?
 
 ## --answers--
 
@@ -35,4 +35,3 @@ Objective chunking
 ## --video-solution--
 
 4
-

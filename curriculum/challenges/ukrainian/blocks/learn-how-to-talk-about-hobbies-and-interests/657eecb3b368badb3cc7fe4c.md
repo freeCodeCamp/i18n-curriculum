@@ -10,9 +10,9 @@ lang: en-US
 
 # --description--
 
-`At least` is used when you want to say the smallest amount or number of something is okay or enough. Тобто не менше за цю кількість. For example:
+`At least` використовується, коли ви хочете сказати, що найменша кількість або число чогось є прийнятним або достатнім. Це ніби кажете «не менше ніж ця кількість». Наприклад:
 
-`I study English for at least 30 minutes every day.` - This means you spend 30 minutes or more studying English daily, but never less than 30 minutes.
+`I study English for at least 30 minutes every day.` — це означає, що ви витрачаєте 30 хвилин або більше на вивчення англійської щодня, але ніколи не менше ніж 30 хвилин.
 
 # --fillInTheBlank--
 
@@ -26,7 +26,7 @@ lang: en-US
 
 ### --feedback--
 
-These two words form an expression indicating a minimum amount.
+Ці два слова утворюють вираз, який вказує на мінімальну кількість.
 
 # --scene--
 

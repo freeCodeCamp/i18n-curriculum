@@ -1,6 +1,6 @@
 ---
 id: 69a769365a27934b29e1eac5
-title: Prompt Engineering Mindset
+title: Мислення інженера підказок
 challengeType: 11
 videoId: vzwYXMiXH9A
 dashedName: prompt-engineering-mindset-learn-prompting-fundamentals
@@ -8,31 +8,30 @@ dashedName: prompt-engineering-mindset-learn-prompting-fundamentals
 
 # --description--
 
-In this video, you will learn how to develop a good prompt engineering mindset.
+У цьому відео ви навчитеся розвивати правильне мислення інженера підказок.
 
 # --questions--
 
 ## --text--
 
-What does the video compare a good prompt engineering mindset to?
+З чим у відео порівнюють правильне мислення інженера підказок?
 
 ## --answers--
 
-Effective searching on Google.
+Ефективний пошук у Google.
 
 ---
 
-Learning how to master Vim.
+Вивчення майстерності роботи з Vim.
 
 ---
 
-Properly configuring webpack.
+Правильне налаштування webpack.
 
 ---
 
-Effective searching of files using Bash.
+Ефективний пошук файлів за допомогою Bash.
 
 ## --video-solution--
 
 1
-

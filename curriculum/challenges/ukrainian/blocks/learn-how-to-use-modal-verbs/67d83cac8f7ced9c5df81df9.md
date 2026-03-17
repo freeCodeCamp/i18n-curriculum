@@ -1,6 +1,6 @@
 ---
 id: 67d83cac8f7ced9c5df81df9
-title: Task 144
+title: Завдання 144
 challengeType: 22
 dashedName: task-144
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Прослухайте аудіо та доповніть речення нижче.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This modal verb expresses possibility or uncertainty about a past event.
+Цей модальний дієслово виражає можливість або невпевненість щодо минулої події.
 
 ---
 
@@ -32,15 +32,15 @@ This modal verb expresses possibility or uncertainty about a past event.
 
 ### --feedback--
 
-This verb is the `Past Perfect` form, used to talk about something that could have happened in the past. Use two words.
+Цей дієслово є `Past Perfect` формою, яка використовується для розмови про те, що могло статися в минулому. Використовуйте два слова.
 
-# --explanation--
+# --explanation--  
 
-`Might` expresses possibility.
+`Might` виражає можливість.  
 
-`Have taken` is the `Past Perfect` form of `take`, used to talk about a possible past action. For example:
+`Have taken` є `Past Perfect` формою `take`, яка використовується для розмови про можливу минулу дію. Наприклад:
 
-`The attacker might have taken sensitive files.` - You don't know for sure, but it is possible.
+`The attacker might have taken sensitive files.` - Ви не знаєте напевне, але це можливо.
 
 # --scene--
 

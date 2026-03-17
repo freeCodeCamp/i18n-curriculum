@@ -1,6 +1,6 @@
 ---
 id: 67f07fdfe8c5aaef48d3d35a
-title: Task 130
+title: Завдання 130
 challengeType: 19
 dashedName: task-130
 lang: en-US
@@ -10,13 +10,13 @@ lang: en-US
 
 # --instructions--
 
-Read the text and answer the question below.
+Прочитайте текст і дайте відповідь на запитання нижче.
 
 # --questions--
 
 ## --text--
 
-After the check-in with Sarah, Brian decides to write to Bob, from management, to update him on the situation.
+Після зустрічі з Сарою, Браян вирішує написати Бобу з керівництва, щоб оновити його щодо ситуації.
 
 `Subject: Quick Update – Resources, Integration Issues, and Training`
 
@@ -36,35 +36,35 @@ After the check-in with Sarah, Brian decides to write to Bob, from management, t
 
 `Brian`
 
-Based on the `Subject` line, why did Brian write this email?
+Виходячи з лінії `Subject`, чому Браян написав цей лист?
 
 ## --answers--
 
-To give an update about the team's progress and ask for information.
+Щоб надати оновлення про прогрес команди та попросити інформацію.
 
 ---
 
-To remind management about their last meeting.
+Щоб нагадати керівництву про їхню останню зустріч.
 
 ### --feedback--
 
-There is no mention of a past meeting between Brian and management.
+У листі немає згадки про минулу зустріч між Браяном і керівництвом.
 
 ---
 
-To tell management that the project is almost finished.
+Щоб повідомити керівництво, що проєкт майже завершено.
 
 ### --feedback--
 
-The email says there are still some challenges, so the project is not close to being finished.
+У листі сказано, що ще є деякі завдання, тож проєкт ще не близький до завершення.
 
 ---
 
-To ask Sarah about the new software integration.
+Щоб запитати у Сари про нову інтеграцію програмного забезпечення.
 
 ### --feedback--
 
-Brian already spoke to Sarah. He is now sharing that update with management.
+Браян уже говорив із Сарою. Тепер він ділиться цим оновленням із керівництвом.
 
 ## --video-solution--
 
@@ -72,4 +72,4 @@ Brian already spoke to Sarah. He is now sharing that update with management.
 
 # --explanation--
 
-The `Subject` line normally brings the topics which are going to be dealt with in the body of the message. Read this line to find out the correct answer for this question.
+Лінія `Subject` зазвичай містить теми, які будуть розглянуті в основній частині повідомлення. Прочитайте цю лінію, щоб знайти правильну відповідь на це запитання.

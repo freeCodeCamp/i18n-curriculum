@@ -1,6 +1,6 @@
 ---
 id: 65f6f9e9cfbda7f9c04e8af7
-title: Task 41
+title: Завдання 41
 challengeType: 19
 dashedName: task-41
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --description--
 
-The phrase `by the end of it` is commonly used in English to refer to the conclusion or final part of a process or period of time. It implies that at the completion of a certain activity, a specific result or understanding will be achieved.
+Фраза `by the end of it` часто використовується в англійській мові, щоб позначити висновок або фінальну частину процесу чи періоду часу. Вона означає, що після завершення певної діяльності буде досягнуто конкретного результату або розуміння.
 
 # --questions--
 
 ## --text--
 
-In the dialogue, what does Brian mean by `by the end of it`?
+Що має на увазі Brian у діалозі, коли каже `by the end of it`?
 
 ## --answers--
 
-They will stop the investigation.
+Вони припинять розслідування.
 
 ### --feedback--
 
-This phrase is about reaching a conclusion, not necessarily stopping the activity.
+Ця фраза стосується досягнення висновку, а не обов’язково припинення діяльності.
 
 ---
 
-They will start another activity.
+Вони почнуть іншу діяльність.
 
 ### --feedback--
 
-Brian is referring to the end of the current investigation, not starting something new.
+Brian говорить про завершення поточного розслідування, а не про початок чогось нового.
 
 ---
 
-They will take a break.
+Вони зроблять перерву.
 
 ### --feedback--
 
-The phrase focuses on reaching an understanding at the end of the process, not taking a break.
+Фраза зосереджена на досягненні розуміння наприкінці процесу, а не на перерві.
 
 ---
 
-They will have a clearer understanding of the situation after the investigation.
+Після розслідування вони матимуть чіткіше уявлення про ситуацію.
 
 ## --video-solution--
 

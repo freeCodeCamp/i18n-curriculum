@@ -1,6 +1,6 @@
 ---
 id: 67efd8debbd3992137adbf7f
-title: Task 91
+title: Завдання 91
 challengeType: 22
 dashedName: task-91
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Прослухайте аудіо та доповніть речення нижче.
 
 # --fillInTheBlank--
 
@@ -24,13 +24,13 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-Preceded by `on your`, this refers to a specific person's situation, side, or location.
+Передує `on your`, це стосується конкретної ситуації, сторони або місця певної людини.
 
 # --explanation--
 
-`On your end` is used to refer to someone's situation or what is happening with them, often in a conversation or work context. For example:
+`On your end` використовується, щоб посилатися на чиєсь становище або те, що відбувається з ним, часто в розмові чи робочому контексті. Наприклад:
 
-`Let me know if you need any help on your end.` – This means the speaker wants to know if the other person needs help on their work or situation.
+`Let me know if you need any help on your end.` – Це означає, що мовник хоче дізнатися, чи потрібна іншій людині допомога з її роботою або ситуацією.
 
 # --scene--
 

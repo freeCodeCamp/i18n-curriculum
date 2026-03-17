@@ -1,6 +1,6 @@
 ---
 id: 67baf3ed288e8b06f4ab0dfb
-title: Task 76
+title: Завдання 76
 challengeType: 22
 dashedName: task-76
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Прослухайте аудіо та доповніть речення нижче.
 
 # --fillInTheBlank--
 
@@ -22,23 +22,23 @@ Listen to the audio and complete the sentence below.
 
 `team spirit`
 
-### --feedback--
+### --feedback--  
 
-These two words together refer to the sense of unity and cooperation among coworkers. The first word refers to a group working together, and the second word relates to shared enthusiasm or motivation.
+Ці два слова разом означають відчуття єдності та співпраці серед колег. Перше слово позначає групу, яка працює разом, а друге слово пов’язане з спільним ентузіазмом або мотивацією.
 
 ---
 
 `problem-solving`
 
-### --feedback--
+### --feedback--  
 
-This compound word refers to the process of finding solutions to challenges. The first part refers to an issue that needs to be fixed, and the second part is a verb meaning finding a solution. Remember to use `-` between the two parts.
+Це складне слово означає процес знаходження рішень для проблем. Перша частина стосується проблеми, яку потрібно вирішити, а друга — дієслово, що означає пошук рішення. Не забудьте використати `-` між двома частинами.
 
 # --explanation--
 
-David believes that working in the office helps strengthen `team spirit` (a sense of connection and unity among coworkers) and improves `problem-solving` (finding solutions to challenges more efficiently).
+Девід вважає, що робота в офісі допомагає зміцнити `team spirit` (відчуття зв’язку та єдності серед колег) і покращує `problem-solving` (ефективніше знаходження рішень для проблем).
 
-He argues that being in the same physical space makes it easier for employees to collaborate and support one another.
+Він стверджує, що перебування в одному фізичному просторі полегшує співпрацю та підтримку між працівниками.
 
 # --scene--
 

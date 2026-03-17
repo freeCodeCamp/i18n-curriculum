@@ -1,6 +1,6 @@
 ---
 id: 655b275cadbebf5fc0f0db05
-title: Task 82
+title: Завдання 82
 challengeType: 22
 dashedName: task-82
 lang: en-US
@@ -10,13 +10,13 @@ lang: en-US
 
 # --description--
 
-To `take` can mean different things depending on the situation. In the context of learning, to `take` means to attend or participate in a class or course. For example:
+To `take` може означати різні речі залежно від ситуації. У контексті навчання, to `take` означає відвідувати або брати участь у класі чи курсі. Наприклад:
 
-- `I take online lessons at 7.` - Here, `take` means to attend the lessons.
+- `I take online lessons at 7.` — тут `take` означає відвідувати уроки.
 
-- `She is taking a programming course this semester.` - Here, `taking` means she is enrolled in and attending the course.
+- `She is taking a programming course this semester.` — тут `taking` означає, що вона записана на курс і відвідує його.
 
-So, when you say `take lessons` or `take a course`, you are talking about joining or attending them, not physically taking something.
+Отже, коли ви кажете `take lessons` або `take a course`, ви говорите про приєднання або відвідування, а не про фізичне взяття чогось.
 
 # --fillInTheBlank--
 
@@ -30,7 +30,7 @@ So, when you say `take lessons` or `take a course`, you are talking about joinin
 
 ### --feedback--
 
-This verb describes the action of participating in the lessons.
+Цей дієслово описує дію участі в уроках.
 
 ---
 
@@ -38,7 +38,7 @@ This verb describes the action of participating in the lessons.
 
 ### --feedback--
 
-This word refers to a virtual environment.
+Це слово стосується віртуального середовища.
 
 # --scene--
 

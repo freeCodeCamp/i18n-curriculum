@@ -1,21 +1,21 @@
 ---
 id: 66cc1ccfefdd727e18c2ab20
-title: Step 14
+title: Крок 14
 challengeType: 1
 dashedName: step-14
 ---
 
 # --description--
 
-Your `calculateQuotient` appears to be working correctly but there is one case that you have not tested yet.
+Ваш `calculateQuotient`, здається, працює правильно, але є один випадок, який ви ще не перевірили.
 
-Add a `console.log` that calls the `calculateQuotient` function with the arguments `3` and `0`.
+Додайте `console.log`, який викликає функцію `calculateQuotient` з аргументами `3` та `0`.
 
-Make sure to take a close look at the output of this call.
+Обов’язково уважно подивіться на вихідні дані цього виклику.
 
 # --hints--
 
-You should have a `console.log` that calls the `calculateQuotient` function with the arguments `3` and `0`.
+У вас має бути `console.log`, який викликає функцію `calculateQuotient` з аргументами `3` та `0`.
 
 ```js
 assert.match(code, /console\.log\s*\(\s*calculateQuotient\s*\(\s*3\s*,\s*0\s*\)\s*\)\s*;?/);

@@ -1,6 +1,6 @@
 ---
 id: 67acaebb95dabb0ee05500f7
-title: Task 21
+title: Завдання 21
 challengeType: 22
 dashedName: task-21
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Прослухайте аудіо та доповніть речення нижче.
 
 # --fillInTheBlank--
 
@@ -24,15 +24,15 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This word means an obstacle or something that slows down progress.
+Це слово означає перешкоду або щось, що уповільнює прогрес.
 
 # --explanation--
 
-A `setback` is something that delays or prevents progress. Slow or inefficient computers might make tasks take longer, reducing efficiency. For example:
+`setback` — це те, що затримує або заважає прогресу. Повільні або неефективні комп’ютери можуть подовжувати виконання завдань, знижуючи ефективність. Наприклад:
 
-- `The project faced a setback due to a critical bug.` - The project was delayed or had problems because of a serious software issue.
+- `The project faced a setback due to a critical bug.` — Проєкт затримався або виникли проблеми через серйозну програмну проблему.
 
-- `Losing important data was a major setback for the team.` - Losing data created difficulties and slowed down the team's work.
+- `Losing important data was a major setback for the team.` — Втрата даних створила труднощі і уповільнила роботу команди.
 
 # --scene--
 

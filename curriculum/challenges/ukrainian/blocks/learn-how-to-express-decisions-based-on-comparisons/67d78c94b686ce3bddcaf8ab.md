@@ -1,6 +1,6 @@
 ---
 id: 67d78c94b686ce3bddcaf8ab
-title: Task 117
+title: Завдання 117
 challengeType: 22
 dashedName: task-117
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Прослухайте аудіо та доповніть речення нижче.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-These three words together mean to reduce the amount of time needed to complete a task.
+Ці три слова разом означають зменшити кількість часу, необхідного для виконання завдання.
 
 ---
 
@@ -32,17 +32,17 @@ These three words together mean to reduce the amount of time needed to complete 
 
 ### --feedback--
 
-This word in the plural form refers to schedules or deadlines for completing a project.
+Це слово у множині означає графіки або терміни виконання проєкту.
 
 # --explanation--
 
-`Save us time` means to reduce the time required to complete something, making the process more efficient. For example:
+`Save us time` означає зменшити час, потрібний для виконання чогось, зробивши процес ефективнішим. Наприклад:
 
-`Using automation tools can save us time on repetitive tasks.` – This means automation tools help complete tasks faster.
+`Using automation tools can save us time on repetitive tasks.` – Це означає, що інструменти автоматизації допомагають виконувати завдання швидше.
 
-`Timelines` refer to schedules or deadlines that show when different parts of a project should be completed. For example:
+`Timelines` означають графіки або терміни, які показують, коли різні частини проєкту мають бути завершені. Наприклад:
 
-`We need to adjust our timelines to finish the project on schedule.` – This means changing the deadlines to ensure the project is completed on time.
+`We need to adjust our timelines to finish the project on schedule.` – Це означає змінення термінів, щоб забезпечити своєчасне завершення проєкту.
 
 # --scene--
 

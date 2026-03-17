@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Прослухайте аудіозапис та дайте відповіді на запитання.
+Прослухайте аудіо та дайте відповідь на запитання нижче.
 
 # --questions--
 
 ## --text--
 
-Why does Jake prefer using Visual Studio Code?
+Чому Джейк віддає перевагу Visual Studio Code?
 
 ## --answers--
 
-Because it's expensive and has many features.
+Тому що він дорогий і має багато функцій.
 
 ### --feedback--
 
-Jake doesn't mention price or cost in his reason for preferring Visual Studio Code.
+Джейк не згадує ціну або вартість як причину своєї переваги Visual Studio Code.
 
 ---
 
-Because it's slow and not secure.
+Тому що він повільний і не захищений.
 
 ### --feedback--
 
-Jake's reason for preferring Visual Studio Code is not related to speed or security issues.
+Причина переваги Джейка не пов’язана зі швидкістю або проблемами безпеки.
 
 ---
 
-Because it's hard to use and has limited features.
+Тому що його складно використовувати і він має обмежені функції.
 
 ### --feedback--
 
-Jake describes Visual Studio Code positively, with no mention of it being difficult to use or lacking features.
+Джейк описує Visual Studio Code позитивно, не згадуючи про складність використання чи відсутність функцій.
 
 ---
 
-Because it's lightweight and has excellent security features.
+Тому що він легкий і має відмінні функції безпеки.
 
 ## --video-solution--
 
@@ -52,13 +52,13 @@ Because it's lightweight and has excellent security features.
 
 # --explanation--
 
-Listen for key words that explain Jake's preference.
+Слухайте ключові слова, які пояснюють перевагу Джейка.  
 
-`Lightweight` – This means Visual Studio Code doesn't use a lot of system resources.
+`Lightweight` – Це означає, що Visual Studio Code не використовує багато системних ресурсів.  
 
-`Security features` – This shows that Jake values how the tool helps protect against potential risks.
+`Security features` – Це показує, що Джейк цінує, як інструмент допомагає захищатися від потенційних ризиків.  
 
-These key words help you see that Jake prefers Visual Studio Code because it is lightweight and has strong security features.
+Ці ключові слова допомагають зрозуміти, що Джейк віддає перевагу Visual Studio Code, бо він легкий і має потужні функції безпеки.
 
 # --scene--
 

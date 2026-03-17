@@ -1,6 +1,6 @@
 ---
 id: 677d3b8fac17ba6cbf3d8afa
-title: Task 3
+title: Завдання 3
 challengeType: 22
 dashedName: task-3
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Прослухайте аудіо та доповніть речення нижче.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This is the `-ing` form of the verb `say`, used after the preposition `by` to indicate the method of starting.
+Це `-ing` форма дієслова `say`, яка використовується після прийменника `by` для позначення способу початку.
 
 ---
 
@@ -32,17 +32,17 @@ This is the `-ing` form of the verb `say`, used after the preposition `by` to in
 
 ### --feedback--
 
-This stands for `Quality Assurance`, referring to the process of ensuring products meet required standards.
+Це означає `Quality Assurance`, що стосується процесу забезпечення відповідності продуктів необхідним стандартам.
 
 # --explanation--
 
-When a verb follows a preposition, it must take the `-ing` form (gerund). In this sentence, `saying` follows the preposition `by`, indicating the method Bob uses to start his statement. For example:
+Коли дієслово йде після прийменника, воно має бути у `-ing` формі (герундій). У цьому реченні `saying` йде після прийменника `by`, що вказує на спосіб, яким Боб починає свою заяву. Наприклад:
 
-`She improved her skills by practicing regularly.` - Here, `practicing` follows the preposition `by`, showing how she improved her skills.
+`She improved her skills by practicing regularly.` — тут `practicing` йде після прийменника `by`, показуючи, як вона покращила свої навички.
 
-Bob compliments Jessica for her work in `QA`. `QA` stands for `Quality Assurance`. It refers to the process of ensuring that products or services meet specific quality standards and function correctly. Another example:
+Боб хвалить Джесіку за її роботу у `QA`. `QA` означає `Quality Assurance`. Це стосується процесу забезпечення того, щоб продукти чи послуги відповідали певним стандартам якості та правильно функціонували. Ще один приклад:
 
-`The QA team identified several bugs during testing.` - This means that the people responsible for making sure the quality of the software is good managed to detect bugs in the software before its release.
+`The QA team identified several bugs during testing.` — це означає, що відповідальні за забезпечення якості програмного забезпечення змогли виявити помилки у програмі до її випуску.
 
 # --scene--
 

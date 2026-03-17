@@ -1,16 +1,16 @@
 ---
 id: 671a999cc77b7f9bceb4caeb
-title: CSS Animations Review
+title: Повторення CSS анімацій
 challengeType: 31
 dashedName: review-css-animations
 ---
 
 # --interactive--
 
-## CSS Animation Basics
+## Основи CSS анімацій
 
-- **Definition**: CSS animations allow you to create dynamic, visually engaging effects on web pages without the need for JavaScript or complex programming. They provide a way to smoothly transition elements between different styles over a specified duration.
-- **The `@keyframes` Rule**: This rule defines the stages and styles of the animation. It specifies what styles the element should have at various points during the animation.
+- **Визначення**: CSS анімації дозволяють створювати динамічні, візуально привабливі ефекти на вебсторінках без потреби в JavaScript або складному програмуванні. Вони забезпечують плавний перехід елементів між різними стилями протягом заданого часу.
+- **Правило `@keyframes`**: Це правило визначає етапи та стилі анімації. Воно вказує, які стилі повинен мати елемент у різні моменти анімації.
 
 :::interactive_editor
 
@@ -40,19 +40,19 @@ dashedName: review-css-animations
 
 :::
 
-- **`animation` Property**: This is the shorthand property used to apply animations.
-- **`animation-name`**: This specifies the name for the `@keyframes` rule to use.
-- **`animation-duration`**: This sets how long the animation should take to complete.
-- **`animation-timing-function`**: This defines how the animation progresses over time (such as ease, linear, ease-in-out).
-- **`animation-delay`**: This specifies a delay before the animation starts.
-- **`animation-iteration-count`**: This sets how many times the animation should repeat.
-- **`animation-direction`**: This determines whether the animation should play forwards, backwards, or alternate.
-- **`animation-fill-mode`**: This specifies how the element should be styled before and after the animation.
-- **`animation-play-state`**: This allows you to pause and resume the animation.
+- **Властивість `animation`**: Це скорочена властивість, яка використовується для застосування анімацій.
+- **`animation-name`**: Вказує ім’я правила `@keyframes`, яке слід використати.
+- **`animation-duration`**: Встановлює, скільки часу має тривати анімація.
+- **`animation-timing-function`**: Визначає, як анімація прогресує з часом (наприклад, ease, linear, ease-in-out).
+- **`animation-delay`**: Вказує затримку перед початком анімації.
+- **`animation-iteration-count`**: Встановлює, скільки разів анімація має повторюватися.
+- **`animation-direction`**: Визначає, чи анімація має відтворюватися вперед, назад або чергуватися.
+- **`animation-fill-mode`**: Вказує, як елемент має бути стилізований до і після анімації.
+- **`animation-play-state`**: Дозволяє призупиняти та відновлювати анімацію.
 
-## Accessibility and the `prefers-reduced-motion` Media Query
+## Доступність і медіазапит `prefers-reduced-motion`
 
-- **The `prefers-reduced-motion` Media Query**: One of the primary accessibility concerns with animations is that they can cause discomfort or even physical harm to some users. People with vestibular disorders or motion sensitivity may experience dizziness, nausea, or headaches when exposed to certain types of movement on screen. The `prefers-reduced-motion` media query allows web developers to detect if the user has requested minimal animations or motion effects at the system level.
+- **Медіазапит `prefers-reduced-motion`**: Однією з основних проблем доступності анімацій є те, що вони можуть викликати дискомфорт або навіть фізичну шкоду деяким користувачам. Люди з вестибулярними розладами або чутливістю до руху можуть відчувати запаморочення, нудоту або головний біль при впливі певних типів руху на екрані. Медіазапит `prefers-reduced-motion` дозволяє розробникам вебсторінок визначати, чи користувач на системному рівні запросив мінімальні анімації або ефекти руху.
 
 :::interactive_editor
 
@@ -82,4 +82,4 @@ dashedName: review-css-animations
 
 # --assignment--
 
-Review the CSS Animations topics and concepts.
+Повторіть теми та концепції CSS анімацій.

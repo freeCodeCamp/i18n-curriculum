@@ -7,19 +7,19 @@ dashedName: step-21
 
 # --description--
 
-Піаніно потребує логотипу freeCodeCamp, щоб бути офіційним.
+Піаніно потребує логотип freeCodeCamp, щоб стати офіційним.
 
-Додайте елемент `img` перед елементом `.keys`. Для `img` надайте `class` зі значенням `logo` та встановіть `src` на `https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg`. Надайте йому `alt` з текстом `freeCodeCamp Logo`.
+Додайте елемент `img` перед вашим елементом `.keys`. Дайте `img` атрибут `class` зі значенням `logo`, а `src` встановіть у `https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg`. Додайте йому текст `alt` зі значенням `freeCodeCamp Logo`.
 
 # --hints--
 
-Ви повинні додати новий елемент `img`.
+Вам слід додати новий елемент `img`.
 
 ```js
 assert(document.querySelectorAll('img')?.length === 1);
 ```
 
-Ваш елемент `img` повинен йти перед першим елементом `.keys`.
+Ваш елемент `img` має йти перед першим елементом `.keys`.
 
 ```js
 const img = document.querySelector('img');
@@ -27,27 +27,27 @@ assert(img?.nextElementSibling?.className === 'keys');
 assert(img?.previousElementSibling === null);
 ```
 
-Ваш елемент `img` повинен мати `class` зі значенням `logo`.
+Ваш елемент `img` має мати атрибут `class` зі значенням `logo`.
 
 ```js
 const img = document.querySelector('img');
 assert(img?.className === 'logo');
 ```
 
-Ваш елемент `img` повинен мати `src` зі значенням `https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg`.
+Ваш елемент `img` має мати атрибут `src` зі значенням `https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg`.
 
 ```js
 const img = document.querySelector('img');
 assert(img?.getAttribute('src') === 'https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg');
 ```
 
-Ваш елемент `img` повинен мати атрибут `alt` зі значенням `freeCodeCamp Logo`.
+Ваш елемент `img` має мати атрибут `alt` зі значенням `freeCodeCamp Logo`.
 
 ```js
 assert(document.querySelector('img')?.getAttribute('alt')?.toLowerCase() === 'freecodecamp logo');
 ```
 
-Пам’ятайте, що вживання великої літери та написання мають значення.
+Пам’ятайте, що важливі регістр і правопис.
 
 ```js
 assert(document.querySelector('img')?.getAttribute('alt') === 'freeCodeCamp Logo');

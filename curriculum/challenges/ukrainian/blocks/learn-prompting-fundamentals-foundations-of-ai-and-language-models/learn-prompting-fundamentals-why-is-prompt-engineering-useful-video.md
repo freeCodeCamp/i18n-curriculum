@@ -1,6 +1,6 @@
 ---
 id: 69a765395a27934b29e1eac2
-title: Why is Prompt Engineering Useful?
+title: Чому інженерія підказок корисна?
 challengeType: 11
 videoId: kUfSMBysZE4
 dashedName: why-is-prompt-engineering-useful-useful-learn-prompting-fundamentals
@@ -8,31 +8,30 @@ dashedName: why-is-prompt-engineering-useful-useful-learn-prompting-fundamentals
 
 # --description--
 
-In this video, you will learn why prompt engineering is useful for everyday tasks and learning new skills.
+У цьому відео ви дізнаєтеся, чому інженерія підказок корисна для повсякденних завдань і вивчення нових навичок.
 
 # --questions--
 
 ## --text--
 
-Why is it important to write clear and specific prompts for AI tools?
+Чому важливо писати чіткі та конкретні підказки для інструментів штучного інтелекту?
 
 ## --answers--
 
-Writing clean and specific prompts will instantly remove all bugs from your codebase.
+Написання чистих і конкретних підказок миттєво усуне всі помилки у вашій кодовій базі.
 
 ---
 
-Writing clear prompts will instantly make you 10x more productive at work.
+Чіткі підказки миттєво зроблять вас у 10 разів продуктивнішими на роботі.
 
 ---
 
-There is no benefit of writing clear prompts because AI will always give you your desired outcome.
+Немає сенсу писати чіткі підказки, бо ШІ завжди дасть бажаний результат.
 
 ---
 
-Writing clear and specific prompts will improve the results.
+Написання чітких і конкретних підказок покращить результати.
 
 ## --video-solution--
 
 4
-

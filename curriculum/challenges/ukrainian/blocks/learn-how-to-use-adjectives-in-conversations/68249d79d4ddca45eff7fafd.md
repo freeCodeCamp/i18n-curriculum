@@ -1,6 +1,6 @@
 ---
 id: 68249d79d4ddca45eff7fafd
-title: Task 144
+title: Завдання 144
 challengeType: 19
 dashedName: task-144
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Прослухайте аудіо та дайте відповідь на запитання нижче.
 
 # --questions--
 
 ## --text--
 
-What does Jessica plan to do with the information?
+Що Джессіка планує зробити з цією інформацією?
 
 ## --answers--
 
-Ignore it for now and wait for more feedback.
+Ігнорувати її зараз і чекати на додатковий відгук.
 
 ### --feedback--
 
-Jessica says she will organize the information and share it, not ignore it.
+Джессіка каже, що організує інформацію та поділиться нею, а не ігноруватиме.
 
 ---
 
-Organize it into a report and discuss it with others.
+Організувати її у звіт і обговорити з іншими.
 
 ---
 
-Ask users to test it again before making changes.
+Попросити користувачів протестувати знову перед внесенням змін.
 
 ### --feedback--
 
-She does not mention anything about retesting or user feedback.
+Вона нічого не згадує про повторне тестування чи відгуки користувачів.
 
 ---
 
-Send it directly to the client without review.
+Надіслати її безпосередньо клієнту без повторного перегляду.
 
 ### --feedback--
 
-Jessica plans to talk with her team first, not send it straight to a client.
+Джессіка планує спочатку поговорити зі своєю командою, а не надсилати одразу клієнту.
 
 ## --video-solution--
 
@@ -52,9 +52,9 @@ Jessica plans to talk with her team first, not send it straight to a client.
 
 # --explanation--
 
-Jessica says she will `put all this information into a report` and `talk about it with the team tomorrow`. This shows she plans to organize the details and have a discussion with her team.
+Джессіка каже, що вона `put all this information into a report` і `talk about it with the team tomorrow`. Це показує, що вона планує організувати деталі та обговорити їх зі своєю командою.
 
-She also says the feedback `should help`, meaning it will guide their next steps.
+Вона також каже, що відгук `should help`, що означає, що він допоможе визначити їхні наступні кроки.
 
 # --scene--
 

@@ -1,6 +1,6 @@
 ---
 id: 663a4d6ec33accaf2ec7be49
-title: Task 28
+title: Завдання 28
 challengeType: 22
 dashedName: task-28
 lang: en-US
@@ -10,13 +10,13 @@ lang: en-US
 
 # --description--
 
-A `smile` is what happens when you turn up the corners of your mouth to show happiness. It is something you do with your face when you are happy or want to be nice.
+`smile` — це те, що відбувається, коли ви піднімаєте куточки рота, щоб показати радість. Це те, що ви робите обличчям, коли ви щасливі або хочете бути приємними.
 
-`Friendly` describes someone who is kind, nice, and easy to talk to. A friendly person makes others feel comfortable and happy.
+`Friendly` описує людину, яка є доброю, приємною і з якою легко спілкуватися. Дружня людина змушує інших почуватися комфортно і щасливо.
 
-`A friendly smile` is a smile that shows you are being kind and welcoming. It makes others feel good and shows you want to be friends.
+`A friendly smile` — це усмішка, яка показує, що ви доброзичливі та гостинні. Вона змушує інших почуватися добре і показує, що ви хочете бути друзями.
 
-Listen to the dialogue and fill in the blanks.
+Прослухайте діалог і заповніть пропуски.
 
 # --fillInTheBlank--
 
@@ -30,7 +30,7 @@ Listen to the dialogue and fill in the blanks.
 
 ### --feedback--
 
-This blank describes someone who is nice, easy to talk to and welcoming.
+Цей пропуск описує людину, яка є приємною, з якою легко спілкуватися і яка гостинна.
 
 ---
 
@@ -38,7 +38,7 @@ This blank describes someone who is nice, easy to talk to and welcoming.
 
 ### --feedback--
 
-The action you do when you want to show happiness with your mouth.
+Дія, яку ви робите, коли хочете показати радість ротом.
 
 # --scene--
 

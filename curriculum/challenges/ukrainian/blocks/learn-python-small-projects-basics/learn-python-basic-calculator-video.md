@@ -1,6 +1,6 @@
 ---
 id: 6ec8578710ffa3471b74888e
-title: Building a Basic Calculator
+title: Створення базового калькулятора
 challengeType: 11
 videoId: vA10XU1O3QQ
 dashedName: building-a-basic-calculator-learn-python-full-course-for-beginners
@@ -8,13 +8,13 @@ dashedName: building-a-basic-calculator-learn-python-full-course-for-beginners
 
 # --description--
 
-In this video, you will build a basic calculator program that can perform addition, subtraction, multiplication, and division operations.
+У цьому відео ви створите базову програму калькулятора, яка може виконувати операції додавання, віднімання, множення та ділення.
 
 # --questions--
 
 ## --text--
 
-Which function is used to convert a string to an integer?
+Яка функція використовується для перетворення рядка на ціле число?
 
 ## --answers--
 

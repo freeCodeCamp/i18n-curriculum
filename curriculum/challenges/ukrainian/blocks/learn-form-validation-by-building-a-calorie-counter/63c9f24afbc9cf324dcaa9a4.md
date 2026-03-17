@@ -7,25 +7,25 @@ dashedName: step-95
 
 # --description--
 
-Вам також потрібно очистити текст елемента `output`. Ви можете це зробити встановив властивість `innerText` на порожній рядок.
+Вам також потрібно очистити текст елемента `output`. Ви можете зробити це, встановивши властивість `innerText` у порожній рядок.
 
-Різниця між `innerText` та `innerHTML` полягає в тому, що `innerText` не показуватиме елементи HTML, а показуватиме теґи та вміст як необроблений текст.
+Різниця між `innerText` і `innerHTML` полягає в тому, що `innerText` не відтворюватиме HTML-елементи, а відображатиме теги та вміст як звичайний текст.
 
 # --hints--
 
-Функція `clearForm` повинна отримати доступ до властивості `innerText` елемента `output`.
+Ваша функція `clearForm` має отримувати доступ до властивості `innerText` елемента `output`.
 
 ```js
 assert.match(clearForm.toString(), /output\.innerText/);
 ```
 
-Функція `clearForm` має встановити властивість `innerText` елемента `output` в порожній рядок.
+Ваша функція `clearForm` має встановити властивість `innerText` елемента `output` у порожній рядок.
 
 ```js
 assert.match(clearForm.toString(), /output\.innerText\s*=\s*('|"|`)\1/);
 ```
 
-Змініть `output` після зміни `budgetNumberInput`.
+Ви маєте змінити `output` після зміни `budgetNumberInput`.
 
 ```js
 assert.isAbove(clearForm.toString().indexOf('output'), clearForm.toString().indexOf('budgetNumberInput'));

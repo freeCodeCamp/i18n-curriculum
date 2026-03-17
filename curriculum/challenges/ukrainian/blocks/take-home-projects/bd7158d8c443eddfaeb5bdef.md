@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c443eddfaeb5bdef
-title: Build a Voting App
+title: Створіть застосунок для голосування
 challengeType: 4
 forumTopicId: 302359
 dashedName: build-a-voting-app
@@ -8,27 +8,27 @@ dashedName: build-a-voting-app
 
 # --description--
 
-Build a full-stack JavaScript app that is functionally similar to this: <a href="https://voting-app.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://voting-app.freecodecamp.rocks/</a>. Use a site builder of your choice to complete the project.
+Створіть повноцінний JavaScript-застосунок, який функціонально схожий на цей: <a href="https://voting-app.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://voting-app.freecodecamp.rocks/</a>. Використайте будь-який конструктор сайтів на свій вибір, щоб завершити проєкт.
 
-Here are the specific user stories you should implement for this project:
+Ось конкретні історії користувача, які ви маєте реалізувати для цього проєкту:
 
-**User Story:** As an authenticated user, you can keep my polls and come back later to access them.
+**Історія користувача:** Як автентифікований користувач, ви можете зберігати свої опитування та повертатися до них пізніше для доступу.
 
-**User Story:** As an authenticated user, you can share my polls with my friends.
+**Історія користувача:** Як автентифікований користувач, ви можете ділитися своїми опитуваннями з друзями.
 
-**User Story:** As an authenticated user, you can see the aggregate results of my polls.
+**Історія користувача:** Як автентифікований користувач, ви можете бачити агреговані результати своїх опитувань.
 
-**User Story:** As an authenticated user, you can delete polls that I decide I don't want anymore.
+**Історія користувача:** Як автентифікований користувач, ви можете видаляти опитування, які вирішили більше не використовувати.
 
-**User Story:** As an authenticated user, you can create a poll with any number of possible items.
+**Історія користувача:** Як автентифікований користувач, ви можете створювати опитування з будь-якою кількістю можливих варіантів.
 
-**User Story:** As an unauthenticated or authenticated user, you can see and vote on everyone's polls.
+**Історія користувача:** Як неавтентифікований або автентифікований користувач, ви можете переглядати та голосувати в усіх опитуваннях.
 
-**User Story:** As an unauthenticated or authenticated user, you can see the results of polls in chart form. (This could be implemented using Chart.js or Google Charts.)
+**Історія користувача:** Як неавтентифікований або автентифікований користувач, ви можете бачити результати опитувань у вигляді діаграм. (Це можна реалізувати за допомогою Chart.js або Google Charts.)
 
-**User Story:** As an authenticated user, if you don't like the options on a poll, you can create a new option.
+**Історія користувача:** Як автентифікований користувач, якщо вам не подобаються варіанти в опитуванні, ви можете створити новий варіант.
 
-When you are done, make sure a working demo of your project is hosted somewhere public. Then submit the URL to it in the Solution Link field. Optionally, also submit a link to your project's source code in the GitHub Link field.
+Коли закінчите, переконайтеся, що робоча демонстрація вашого проєкту розміщена у публічному доступі. Потім надішліть URL-адресу в полі Solution Link. За бажанням також надайте посилання на вихідний код проєкту в полі GitHub Link.
 
 # --solutions--
 

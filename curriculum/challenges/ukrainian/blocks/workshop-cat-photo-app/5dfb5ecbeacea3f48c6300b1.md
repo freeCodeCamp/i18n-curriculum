@@ -1,15 +1,15 @@
 ---
 id: 5dfb5ecbeacea3f48c6300b1
-title: Step 23
+title: Крок 23
 challengeType: 0
 dashedName: step-23
 ---
 
 # --description--
 
-The `li` element is used to create a list item in an ordered or unordered list.
+Елемент `li` використовується для створення елемента списку у впорядкованому або невпорядкованому списку.
 
-Here is an example of list items in an unordered list:
+Ось приклад елементів списку у невпорядкованому списку:
 
 ```html
 <ul>
@@ -18,24 +18,24 @@ Here is an example of list items in an unordered list:
 </ul>
 ```
 
-Within the `ul` element nest three list items to display three things cats love:
+Всередині елемента `ul` вкладіть три елементи списку, щоб показати три речі, які люблять коти:
 
 `catnip`
 
 `laser pointers`
 
-`lasagna`
+`lasagna` 
 
 # --hints--
 
-You should have three `li` elements. Each `li` element should have its own opening and closing tag.
+У вас має бути три елементи `li`. Кожен елемент `li` повинен мати власний відкриваючий і кінцевий тег.
 
 ```js
 assert.lengthOf(document.querySelectorAll('li'), 3);
 assert.lengthOf(code.match(/<\/li\>/g), 3);
 ```
 
-You should have three `li` elements with the text `catnip`, `laser pointers` and `lasagna` in any order. You have either omitted some text or have a typo.
+У вас має бути три елементи `li` з текстом `catnip`, `laser pointers` і `lasagna` у будь-якому порядку. Ви або пропустили якийсь текст, або зробили помилку.
 
 ```js
 assert.deepStrictEqual(
@@ -46,7 +46,7 @@ assert.deepStrictEqual(
 );
 ```
 
-The three `li` elements should be located between the `ul` element's opening and closing tags.
+Три елементи `li` мають знаходитися між відкриваючим і кінцевим тегами елемента `ul`.
 
 ```js
 assert.lengthOf(
@@ -76,7 +76,7 @@ assert.lengthOf(
         <h3>Things cats love:</h3>
         <ul>
 --fcc-editable-region--
-
+          
 --fcc-editable-region--
         </ul>
       </section>

@@ -1,15 +1,15 @@
 ---
 id: 671a98fbaabfba994e3d9a7c
-title: CSS Variables Review
+title: Повторення CSS-змінних
 challengeType: 31
 dashedName: review-css-variables
 ---
 
 # --interactive--
 
-## CSS Custom Properties (CSS Variables)
+## Кастомні властивості CSS (CSS-змінні)
 
-- **Definition**: CSS custom properties, also known as CSS variables, are entities defined by CSS authors that contain specific values to be reused throughout a document. They are a powerful feature that allows for more efficient, maintainable, and flexible stylesheets. Custom properties are particularly useful in creating themeable designs. You can define a set of properties for different themes:
+- **Визначення**: Кастомні властивості CSS, також відомі як CSS-змінні, — це сутності, які визначають автори CSS і які містять конкретні значення для повторного використання по всьому документу. Вони є потужною функцією, що дозволяє створювати більш ефективні, підтримувані та гнучкі стилі. Кастомні властивості особливо корисні для створення дизайнів із можливістю темізації. Ви можете визначити множину властивостей для різних тем:
 
 ```css
 :root {
@@ -28,9 +28,9 @@ body {
 }
 ```
 
-## The `@property` Rule
+## Правило `@property`
 
-- **Definition**: The `@property` rule is a powerful CSS feature that allows developers to define custom properties with greater control over their behavior, including how they animate and their initial values.
+- **Визначення**: Правило `@property` — це потужна функція CSS, яка дозволяє розробникам визначати кастомні властивості з більшим контролем над їхньою поведінкою, включно з тим, як вони анімуються, та їхніми ініціальними значеннями.
 
 ```css
 @property --property-name {
@@ -40,10 +40,11 @@ body {
 }
 ```
 
-- **`--property-name`**: This is the name of the custom property you're defining. Like all custom properties, it must start with two dashes. **`syntax`**: This defines the type of the property, which can be things like `<color>`, `<length>`, `<number>`, `<percentage>`, or more complex types.
-- **`inherits`**: This specifies whether the property should inherit its value from its parent element.
-- **`initial-value`**: This sets the default value of the property.
-- **Gradient Example Using the `@property` Rule**: This example creates a gradient that smoothly animates when the element is hovered over.
+- **`--property-name`**: Це ім’я кастомної властивості, яку ви визначаєте. Як і всі кастомні властивості, вона має починатися з двох дефісів.
+**`syntax`**: Це визначає тип властивості, який може бути таким, як `<color>`, `<length>`, `<number>`, `<percentage>` або більш складні типи.
+- **`inherits`**: Це вказує, чи має властивість наслідувати своє значення від батьківського елемента.
+- **`initial-value`**: Це встановлює значення властивості за замовчуванням.
+- **Приклад градієнта з використанням правила `@property`**: Цей приклад створює градієнт, який плавно анімується при наведенні на елемент.
 
 :::interactive_editor
 
@@ -74,7 +75,7 @@ body {
 
 :::
 
-- **Fallbacks**: When using the custom property, you can provide a fallback value using the `var()` function, just as you would with standard custom properties:
+- **Запасні варіанти**: Коли ви використовуєте кастомну властивість, ви можете надати запасне значення за допомогою функції `var()`, так само як і зі стандартними кастомними властивостями:
 
 ```css
 .button {
@@ -84,4 +85,4 @@ body {
 
 # --assignment--
 
-Пригадайте поняття з теми «Змінні в CSS».
+Повторіть теми та концепції CSS-змінних.

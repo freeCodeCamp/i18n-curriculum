@@ -10,51 +10,51 @@ lang: en-US
 
 # --instructions--
 
-Прослухайте аудіозапис та дайте відповіді на запитання.
+Прослухайте аудіо та дайте відповідь на запитання нижче.  
 
 # --questions--
 
 ## --text--
 
-What does Maria mention as the most important request from the team?
+Що Марія називає найважливішим запитом від команди?  
 
 ## --answers--
 
-They need more help.
+Їм потрібна більша підтримка.  
 
 ---
 
-They want a longer deadline.
+Вони хочуть довший термін.  
 
 ### --feedback--
 
-Maria does not mention extending the deadline.
+Марія не згадує про продовження терміну.
 
 ---
 
-They would like to reduce the number of tasks.
+Вони хотіли б зменшити кількість завдань.
 
 ### --feedback--
 
-Maria does not mention reducing the number of tasks.
+Марія не згадує про зменшення кількості завдань.  
 
 ---
 
-They are asking for more meetings.
+Вони просять більше зустрічей.  
 
 ### --feedback--
 
-Maria does not mention additional meetings.
+Марія не згадує про додаткові зустрічі.
 
 ## --video-solution--
 
-1
+1  
 
 # --explanation--
 
-`First` is used when you want to number actions in order of importance or time. In this case, Maria is listing what the team needs, starting with what seems to be the most important request (having more support). Another example:
+`First` використовується, коли потрібно пронумерувати дії за важливістю або часом. У цьому випадку Марія перераховує, що потрібно команді, починаючи з того, що, здається, є найважливішим запитом (отримати більше підтримки). Ще один приклад:
 
-`First, we should analyze the problem. Then, we can discuss solutions.` - This means analyzing the problem comes before anything else.
+`First, we should analyze the problem. Then, we can discuss solutions.` - Це означає, що аналіз проблеми йде перед усім іншим.
 
 # --scene--
 

@@ -1,6 +1,6 @@
 ---
 id: 65a4f2c2d1bbdfbe82cb3fdd
-title: Task 94
+title: Завдання 94
 challengeType: 22
 dashedName: task-94
 lang: en-US
@@ -10,11 +10,11 @@ lang: en-US
 
 # --description--
 
-A `gadget` is a small tool or device, often clever or novel, that performs a specific function or makes something easier.
+`gadget` — це невеликий інструмент або пристрій, часто винахідливий або новаторський, який виконує певну функцію або полегшує щось.
 
-In tech, gadgets can include things like smartphones, smartwatches, or any cool, innovative electronic device.
+У технологіях гаджети можуть включати такі речі, як смартфони, смарт-годинники або будь-який крутий, інноваційний електронний пристрій.
 
-For example, `My new fitness tracker gadget helps me keep track of my steps and exercise.`
+Наприклад, `My new fitness tracker gadget helps me keep track of my steps and exercise.`
 
 # --fillInTheBlank--
 
@@ -28,7 +28,7 @@ For example, `My new fitness tracker gadget helps me keep track of my steps and 
 
 ### --feedback--
 
-This word means something causes a feeling or a reaction. Here, it's used to talk about what excites Bob about tech. It's conjugated in the third person singular.
+Це слово означає, що щось викликає почуття або реакцію. Тут воно використовується, щоб розповісти, що захоплює Боба у технологіях. Воно відмінюється в третій особі однини.
 
 ---
 
@@ -36,7 +36,7 @@ This word means something causes a feeling or a reaction. Here, it's used to tal
 
 ### --feedback--
 
-This word is used to point out specific things that are being talked about, in this case, the gadgets. Plural of `that`.
+Це слово використовується, щоб вказати на конкретні речі, про які йде мова, у цьому випадку — гаджети. Множина від `that`.
 
 ---
 
@@ -44,7 +44,7 @@ This word is used to point out specific things that are being talked about, in t
 
 ### --feedback--
 
-This word refers to small electronic devices or tools that are useful or interesting. It's often used to talk about cool tech items. It is in plural.
+Це слово позначає невеликі електронні пристрої або інструменти, які є корисними або цікавими. Часто використовується для опису крутих технічних речей. Воно в множині.
 
 # --scene--
 

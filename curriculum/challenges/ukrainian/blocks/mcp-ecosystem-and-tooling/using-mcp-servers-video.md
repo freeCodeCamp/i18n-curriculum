@@ -1,6 +1,6 @@
 ---
 id: 69ae767ab4a814be6a4f2be7
-title: Using MCP Servers
+title: Використання MCP серверів
 challengeType: 11
 videoId: PlILctA_czg
 dashedName: using-mcp-servers
@@ -8,29 +8,29 @@ dashedName: using-mcp-servers
 
 # --description--
 
-In this video, you will learn how to use MCP servers.
+У цьому відео ви дізнаєтеся, як використовувати MCP сервери.
 
 # --questions--
 
 ## --text--
 
-What are some things to consider when working with remote MCP servers?
+На що слід звертати увагу при роботі з віддаленими MCP серверами?
 
 ## --answers--
 
-You want to handle trust, data privacy, authorization and authentication.
+Вам потрібно враховувати довіру, конфіденційність даних, авторизацію та автентифікацію.
 
 ---
 
-You only need to worry about the server’s processing speed and memory usage.
+Вам потрібно турбуватися лише про швидкість обробки та використання пам’яті сервером.
 
 ---
 
-You need to make sure the server runs the latest version of your LLM locally.
+Вам потрібно переконатися, що сервер локально запускає останню версію вашої LLM.
 
 ---
 
-You need to ensure the server has enough disk space for temporary logs.
+Вам потрібно переконатися, що на сервері достатньо місця на диску для тимчасових журналів.
 
 ## --video-solution--
 

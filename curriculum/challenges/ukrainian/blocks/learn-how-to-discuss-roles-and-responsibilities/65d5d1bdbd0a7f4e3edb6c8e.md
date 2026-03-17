@@ -1,6 +1,6 @@
 ---
 id: 65d5d1bdbd0a7f4e3edb6c8e
-title: Task 35
+title: Завдання 35
 challengeType: 19
 dashedName: task-35
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --description--
 
-Listen to the audio and answer the question.
+Прослухайте аудіо та дайте відповідь на запитання.
 
 # --questions--
 
 ## --text--
 
-What is Tom asking about?
+Про що запитує Том?
 
 ## --answers--
 
-If Anna works in HR
+Якщо Анна працює в HR
 
 ### --feedback--
 
-Tom's question is specifically about whether the person has worked with Anna, not about Anna's role.
+Питання Тома стосується саме того, чи працювали ви з Анною, а не ролі Анни.
 
 ---
 
-If Alice has had any experience working with Anna.
+Якщо у Аліси був досвід роботи з Анною.
 
 ---
 
-If you like working in HR
+Якщо вам подобається працювати в HR
 
 ### --feedback--
 
-The question is about past experience with Anna, not personal feelings about working in HR.
+Питання стосується минулого досвіду з Анною, а не особистих уподобань щодо роботи в HR.
 
 ---
 
-If Anna has ever worked
+Якщо Анна коли-небудь працювала
 
 ### --feedback--
 
-The focus of Tom's question is on the listener's experience with Anna, not on Anna's work history.
+Фокус питання Тома — ваш досвід роботи з Анною, а не історія роботи Анни.
 
 ## --video-solution--
 

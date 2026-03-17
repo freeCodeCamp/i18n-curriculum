@@ -1,6 +1,6 @@
 ---
 id: 474c23ec0df6e7af920e0526
-title: While Loop
+title: цикл while
 challengeType: 11
 videoId: s6yz4Ew8dwQ
 dashedName: while-loop-learn-python-full-course-for-beginners
@@ -8,13 +8,13 @@ dashedName: while-loop-learn-python-full-course-for-beginners
 
 # --description--
 
-In this video, you will learn how to work with while loops to repeat code blocks as long as a condition is `True`.
+У цьому відео ви навчитеся працювати з циклами while, щоб повторювати блоки коду, доки умова є `True`.
 
 # --questions--
 
 ## --text--
 
-What will be the output for the following code?
+Яким буде вихід для наступного коду?
 
 ```python
 i = 1

@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c442eedfaeb5bd1c
-title: Створіть гру «Хрестики-нулики»
+title: Створіть гру хрестики-нулики
 challengeType: 3
 forumTopicId: 302358
 dashedName: build-a-tic-tac-toe-game
@@ -8,19 +8,19 @@ dashedName: build-a-tic-tac-toe-game
 
 # --description--
 
-**Мета:** створити застосунок, функціонально схожий до цього: <a href="https://codepen.io/freeCodeCamp/full/KzXQgy/" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/KzXQgy/</a>.
+**Мета:** Створіть застосунок, який функціонально схожий на цей: <a href="https://codepen.io/freeCodeCamp/full/KzXQgy/" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/KzXQgy/</a>.
 
-Виконайте історію користувача та пройдіть тести. Використовуйте необхідні вам бібліотеки чи API. Продемонструйте свій власний неповторний стиль.
+Виконайте наведені нижче історії користувача та пройдіть усі тести. Використовуйте будь-які бібліотеки або API, які вам потрібні. Додайте свій особистий стиль.
 
-**Історія користувача:** я можу грати в хрестики-нулики з комп’ютером.
+**Історія користувача:** Я можу грати в хрестики-нулики з комп’ютером.
 
-**Історія користувача:** моя гра по закінченню буде скинута, тому я зможу грати знову.
+**Історія користувача:** Моя гра скидається одразу після завершення, щоб я міг зіграти знову.
 
-**Історія користувача:** я можу вибирати між X та O.
+**Історія користувача:** Я можу обрати, чи хочу грати за X чи O.
 
-Коли закінчите, надайте посилання на свій проєкт на CodePen та натисніть кнопку «Я виконав(-ла) це завдання».
+Коли закінчите, додайте посилання на свій проєкт на CodePen і натисніть кнопку «Я завершив це завдання».
 
-Ви можете отримати фідбек до свого проєкту, поділившись ним на <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">форумі freeCodeCamp</a>.
+Ви можете отримати відгук про свій проєкт, поділившись ним на <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">форумі freeCodeCamp</a>.
 
 # --solutions--
 

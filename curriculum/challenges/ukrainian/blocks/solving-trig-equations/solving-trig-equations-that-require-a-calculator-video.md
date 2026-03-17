@@ -1,6 +1,6 @@
 ---
 id: 699e71f98f18cf77dfce5c17
-title: Solving Trig Equations that Require a Calculator
+title: Розв’язання тригонометричних рівнянь, які потребують калькулятора
 challengeType: 11
 videoId: 8IwkABil9qQ
 dashedName: solving-trig-equations-that-require-a-calculator
@@ -8,32 +8,30 @@ dashedName: solving-trig-equations-that-require-a-calculator
 
 # --description--
 
-In this video, you will learn how to solve trig equations that require a calculator.
+У цьому відео ви навчитеся розв’язувати тригонометричні рівняння, які потребують калькулятора.
 
 # --questions--
 
 ## --text--
 
-What is the main difference between solving basic trig equations with and without a calculator?
+Яка основна різниця між розв’язанням базових тригонометричних рівнянь з калькулятором і без нього?
 
 ## --answers--
 
-You can only solve sine and cosine equations with a calculator, not tangent equations.
+За допомогою калькулятора можна розв’язувати лише рівняння для синуса і косинуса, а не для тангенса.
 
 ---
 
-Using a calculator gives only approximate solutions, while without a calculator you always get exact answers.
+Використання калькулятора дає лише наближені розв’язки, тоді як без калькулятора ви завжди отримуєте точні відповіді.
 
 ---
 
-Solving without a calculator requires multiplying all angles by 2.
+Розв’язання без калькулятора вимагає помножити всі кути на 2.
 
 ---
 
-Using a calculator does not involve using the unit circle to find solutions.
+Використання калькулятора не передбачає використання одиничного кола для знаходження розв’язків.
 
 ## --video-solution--
 
 4
-
-

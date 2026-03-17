@@ -1,6 +1,6 @@
 ---
 id: 67ddb67d2bbf41bb5dce0fb3
-title: Task 36
+title: Завдання 36
 challengeType: 19
 dashedName: task-36
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Прослухайте аудіо та дайте відповідь на запитання нижче.
 
 # --questions--
 
 ## --text--
 
-What can we conclude from James's answer?
+Що ми можемо зробити висновок із відповіді Джеймса?
 
 ## --answers--
 
-He needs to solve a problem first.
+Йому потрібно спочатку вирішити проблему.
 
 ### --feedback--
 
-James does not say anything about another issue.
+Джеймс нічого не каже про іншу проблему.
 
 ---
 
-He is ending the conversation in a friendly way.
+Він дружньо завершує розмову.
 
 ---
 
-He wants to schedule a meeting now.
+Він хоче зараз запланувати зустріч.
 
 ### --feedback--
 
-There's no mention of scheduling anything.
+Немає жодної згадки про планування чогось.
 
 ---
 
-He is asking for more help.
+Він просить про додаткову допомогу.
 
 ### --feedback--
 
-James is not making a request.
+Джеймс не робить запиту.
 
 ## --video-solution--
 
@@ -52,9 +52,9 @@ James is not making a request.
 
 # --explanation--
 
-In conversation, you often omit words when the meaning is clear. In `Talk to you later`, the subject `I'll` (contraction of `I will`) is left out. The full sentence would be `I'll talk to you later`. This kind of omission is common in casual speech. Another example:
+У розмові часто опускають слова, коли значення зрозуміле. У `Talk to you later` пропущено підмет `I'll` (скорочення від `I will`). Повне речення було б `I'll talk to you later`. Такий тип опущення є загальним у неформальній мові. Ще один приклад:
 
-`See you tomorrow!` - This is a shorter way of saying `I'll see you tomorrow`.
+`See you tomorrow!` — це коротший спосіб сказати `I'll see you tomorrow`.
 
 # --scene--
 

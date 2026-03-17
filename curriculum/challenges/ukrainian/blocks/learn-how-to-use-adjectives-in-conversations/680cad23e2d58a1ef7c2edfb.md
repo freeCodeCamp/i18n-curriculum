@@ -1,6 +1,6 @@
 ---
 id: 680cad23e2d58a1ef7c2edfb
-title: Task 19
+title: Завдання 19
 challengeType: 22
 dashedName: task-19
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Прослухайте аудіо та доповніть речення нижче.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This word is used to point to specific items that are close to the speaker.
+Це слово використовується, щоб вказати на конкретні елементи, які знаходяться близько до мовця.
 
 ---
 
@@ -32,13 +32,13 @@ This word is used to point to specific items that are close to the speaker.
 
 ### --feedback--
 
-This compound word means something that can handle a large amount of work, storage, or energy. Remember to use `-`.
+Це складне слово означає щось, що може впоратися з великою кількістю роботи, зберігання або енергії. Не забудьте використати `-`.
 
 # --explanation--
 
-`High-capacity` describes something designed to manage or hold a large amount compared to standard versions. For example:
+`High-capacity` описує щось, створене для того, щоб управляти або зберігати велику кількість у порівнянні зі стандартними версіями. Наприклад:
 
-`We installed high-capacity batteries in the new devices.` – This means the batteries can store more power and last longer, which is useful in tech equipment.
+`We installed high-capacity batteries in the new devices.` – Це означає, що батареї можуть зберігати більше енергії і працювати довше, що корисно в технічному обладнанні.
 
 # --scene--
 

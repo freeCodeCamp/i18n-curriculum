@@ -1,6 +1,6 @@
 ---
 id: 675e6f0bf7f7eb69ddffef81
-title: Task 68
+title: Завдання 68
 challengeType: 22
 dashedName: task-68
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Прослухайте аудіо та доповніть речення нижче.
 
 # --fillInTheBlank--
 
@@ -24,13 +24,13 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This phrase of three words means to solve a problem or deal with a difficult situation.
+Цей вираз із трьох слів означає розв’язати проблему або впоратися зі складною ситуацією.
 
 # --explanation--
 
-`Sort this out` means to solve or fix a specific problem. It is a casual way of saying `figure out a solution` or `resolve an issue`. The general phrase `sort out` can also be used more broadly for organizing or dealing with problems. For example:
+`Sort this out` означає розв’язати або виправити конкретну проблему. Це неформальний спосіб сказати `figure out a solution` або `resolve an issue`. Загальний вираз `sort out` також можна використовувати ширше для організації або розв’язання проблем. Наприклад:
 
-`We need to sort out the issues with the payment system before launch.` - It means you need to fix or resolve the problems with the payment system to ensure everything works correctly before launching it.
+`We need to sort out the issues with the payment system before launch.` — це означає, що потрібно виправити або розв’язати проблеми з платіжною системою, щоб усе працювало правильно перед запуском.
 
 # --scene--
 

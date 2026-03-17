@@ -7,11 +7,11 @@ dashedName: step-47
 
 # --description--
 
-Щоб трохи відокремити елементи `fieldset`, виберіть їх та надайте `border-bottom` зі значенням `3px solid #3b3b4f`.
+Щоб надати елементам `fieldset` трохи відстані, виберіть їх і задайте їм `border-bottom` зі значенням `3px solid #3b3b4f`.
 
 # --hints--
 
-Ви повинні надати елементам `fieldset` властивість `border-bottom` зі значенням `3px solid #3b3b4f`.
+Ви маєте задати елементам `fieldset` `border-bottom` зі значенням `3px solid #3b3b4f`.
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('fieldset')?.borderBottom, '3px solid rgb(59, 59, 79)');

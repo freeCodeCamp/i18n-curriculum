@@ -1,6 +1,6 @@
 ---
 id: d4876f74547b26d5c330423e
-title: Building a Guessing Game
+title: Створення гри вгадування
 challengeType: 11
 videoId: sHyQCBFRoug
 dashedName: building-a-guessing-game-learn-python-full-course-for-beginners
@@ -8,13 +8,13 @@ dashedName: building-a-guessing-game-learn-python-full-course-for-beginners
 
 # --description--
 
-In this video, you will build a guessing game that uses loops and conditionals.
+У цьому відео ви створите гру вгадування, яка використовує цикли та умовні оператори.
 
 # --questions--
 
 ## --text--
 
-What does the condition `guess != secret_word` mean in this code?
+Що означає умова `guess != secret_word` у цьому коді?
 
 ```python
 secret_word = "giraffe"
@@ -26,19 +26,19 @@ while guess != secret_word:
 
 ## --answers--
 
-If `guess` is not equal to `secret_word`.
+Якщо `guess` не дорівнює `secret_word`.
 
 ---
 
-If `guess` is equal to `secret_word`.
+Якщо `guess` дорівнює `secret_word`.
 
 ---
 
-If `guess` is greater than `secret_word`.
+Якщо `guess` більше за `secret_word`.
 
 ---
 
-If `guess` is less than `secret_word`.
+Якщо `guess` менше за `secret_word`.
 
 ## --video-solution--
 

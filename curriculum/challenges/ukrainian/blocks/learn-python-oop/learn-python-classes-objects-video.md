@@ -1,6 +1,6 @@
 ---
 id: a0339c4075344cbfc2cd939c
-title: Classes and Objects
+title: Класи та об’єкти
 challengeType: 11
 videoId: fR3dh5_MPJs
 dashedName: classes-and-objects-learn-python-full-course-for-beginners
@@ -8,29 +8,29 @@ dashedName: classes-and-objects-learn-python-full-course-for-beginners
 
 # --description--
 
-In this video, you will learn how to create classes and objects in Python to write object-oriented programs.
+У цьому відео ви навчитеся створювати класи та об’єкти в Python для написання програм у стилі об’єктно-орієнтованого програмування.
 
 # --questions--
 
 ## --text--
 
-What is the role of `def __init__(self):` inside of a class?
+Яка роль `def __init__(self):` всередині класу?
 
 ## --answers--
 
-It represents a function for calling the method.
+Він представляє функцію для виклику методу.
 
 ---
 
-It specifies the type of the class.
+Він визначає тип класу.
 
 ---
 
-It allows a class to inherit methods from another class.
+Він дозволяє класу наслідувати методи від іншого класу.
 
 ---
 
-It represents an initializer method.
+Він представляє ініціальний метод.
 
 ## --video-solution--
 

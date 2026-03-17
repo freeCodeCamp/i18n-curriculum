@@ -1,6 +1,6 @@
 ---
 id: 08854a2c6f052efa1e5270d2
-title: If Statements
+title: оператори if
 challengeType: 11
 videoId: lruoyNlItfg
 dashedName: if-statements-learn-python-full-course-for-beginners
@@ -8,13 +8,13 @@ dashedName: if-statements-learn-python-full-course-for-beginners
 
 # --description--
 
-In this video, you will learn how to use if statements to control the flow of your Python programs based on conditions.
+У цьому відео ви навчитеся використовувати оператори if для керування потоком ваших програм на Python залежно від умов.
 
 # --questions--
 
 ## --text--
 
-What will be the output for the following code?
+Яким буде вихід для наступного коду?
 
 ```python
 is_male = True

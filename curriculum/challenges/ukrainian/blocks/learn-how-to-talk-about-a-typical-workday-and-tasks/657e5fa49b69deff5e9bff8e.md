@@ -1,6 +1,6 @@
 ---
 id: 657e5fa49b69deff5e9bff8e
-title: Task 105
+title: Завдання 105
 challengeType: 22
 dashedName: task-105
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --description--
 
-Listen to the audio and complete the sentence below.
+Прослухайте аудіо та доповніть речення нижче.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-These two words express obligation to do something.
+Ці два слова виражають обов’язок щось зробити.
 
 ---
 
@@ -32,7 +32,7 @@ These two words express obligation to do something.
 
 ### --feedback--
 
-This word means right away, without delay.
+Це слово означає «негайно», без затримки.
 
 # --scene--
 

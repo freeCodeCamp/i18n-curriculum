@@ -10,7 +10,7 @@ lang: en-US
 
 # --description--
 
-Прослухайте аудіозапис та дайте відповіді на запитання.
+Прослухайте аудіо та дайте відповідь на запитання нижче.
 
 # --questions--
 
@@ -20,11 +20,11 @@ lang: en-US
 
 ## --answers--
 
-Бо вона порадила застосунок для управління часом.
+За те, що вона дала йому застосунок для керування часом.
 
 ### --feedback--
 
-Tom is thanking Sophie for tips, not for giving him an app.
+Том дякує Софі за поради, а не за застосунок.
 
 ---
 
@@ -32,11 +32,11 @@ Tom is thanking Sophie for tips, not for giving him an app.
 
 ---
 
-Бо вона запросила його на обід.
+За те, що запросила його на обід.
 
 ### --feedback--
 
-He is thanking her for the advice, not for a lunch invitation.
+Він дякує їй за поради, а не за запрошення на обід.
 
 ---
 
@@ -44,7 +44,7 @@ He is thanking her for the advice, not for a lunch invitation.
 
 ### --feedback--
 
-Подяка Тома пов’язана з порадами щодо організації, а не проєктом.
+Вдячність Тома пов’язана з порадами щодо організації, а не з конкретною допомогою з проєктом.
 
 ## --video-solution--
 

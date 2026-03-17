@@ -7,25 +7,25 @@ dashedName: step-39
 
 # --description--
 
-Тепер, коли ви завершили тестування значення `entryDropdown.value`, можна видалити інструкцію `console.log`.
+Тепер, коли ви закінчили тестувати значення `entryDropdown.value`, ви можете видалити інструкцію `console.log`.
 
-Your next step is to allow users to add entries to the calorie counter. Declare an empty function `addEntry`. This function should not take any parameters.
+Ваш наступний крок — дозволити користувачам додавати записи до фішки калорій. Оголосіть порожню функцію `addEntry`. Ця функція не повинна приймати жодних параметрів.
 
 # --hints--
 
-Видаліть інструкцію `console.log`.
+Ви повинні видалити інструкцію `console.log`.
 
 ```js
 assert.notMatch(code, /console\.log\s*\(.*\)/)
 ```
 
-You should declare an `addEntry` function.
+Ви повинні оголосити функцію `addEntry`.
 
 ```js
 assert.isFunction(addEntry);
 ```
 
-Your `addEntry` function should not take any parameters.
+Ваша функція `addEntry` не повинна приймати жодних параметрів.
 
 ```js
 assert.match(addEntry?.toString(), /\(\s*\)/);

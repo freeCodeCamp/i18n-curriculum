@@ -1,6 +1,6 @@
 ---
 id: 69a774515a27934b29e1eac9
-title: AI Hallucinations
+title: Галюцинації штучного інтелекту
 challengeType: 11
 videoId: LbeAbfCszLg
 dashedName: ai-hallucinations-learn-prompting-fundamentals
@@ -8,31 +8,30 @@ dashedName: ai-hallucinations-learn-prompting-fundamentals
 
 # --description--
 
-In this video, you will learn about AI hallucinations.
+У цьому відео ви дізнаєтеся про галюцинації штучного інтелекту.
 
 # --questions--
 
 ## --text--
 
-What are AI hallucinations?
+Що таке галюцинації штучного інтелекту?
 
 ## --answers--
 
-When an AI model refuses to answer a question because it is unsafe.
+Коли модель штучного інтелекту відмовляється відповідати на запитання через небезпеку.
 
 ---
 
-When an AI system shuts down unexpectedly due to memory overload.
+Коли система штучного інтелекту несподівано вимикається через перевантаження пам’яті.
 
 ---
 
-When the AI model provides false information.
+Коли модель штучного інтелекту надає хибну інформацію.
 
 ---
 
-When an AI generates responses more slowly than expected due to large input size.
+Коли штучний інтелект генерує відповіді повільніше, ніж очікувалося, через великий обсяг вхідних даних.
 
 ## --video-solution--
 
 3
-

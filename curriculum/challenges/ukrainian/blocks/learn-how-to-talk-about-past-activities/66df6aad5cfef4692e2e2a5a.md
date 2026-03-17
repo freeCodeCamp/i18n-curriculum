@@ -5,7 +5,6 @@ challengeType: 22
 dashedName: task-74
 lang: en-US
 ---
-
 <!--
 AUDIO REFERENCE:
 Linda: Not yet, but I anticipate we'll start receiving more detailed reports as more users navigate the updated interface.
@@ -13,7 +12,7 @@ Linda: Not yet, but I anticipate we'll start receiving more detailed reports as 
 
 # --instructions--
 
-Послухайте аудіо та доповніть речення нижче.
+Прослухайте аудіо та доповніть речення нижче.
 
 # --fillInTheBlank--
 
@@ -27,7 +26,7 @@ Linda: Not yet, but I anticipate we'll start receiving more detailed reports as 
 
 ### --feedback--
 
-A word that shows two actions happening at the same time or one action depending on another.
+Слово, яке показує дві дії, що відбуваються одночасно, або одну дію, що залежить від іншої.
 
 ---
 
@@ -35,7 +34,7 @@ A word that shows two actions happening at the same time or one action depending
 
 ### --feedback--
 
-A word that indicates a greater quantity or number.
+Слово, яке вказує на більшу кількість або число.
 
 ---
 
@@ -43,7 +42,7 @@ A word that indicates a greater quantity or number.
 
 ### --feedback--
 
-A word that refers to the people navigating the updated interface.
+Слово, яке стосується людей, що переміщуються оновленим інтерфейсом.
 
 ---
 
@@ -51,15 +50,15 @@ A word that refers to the people navigating the updated interface.
 
 ### --feedback--
 
-A word that means to move around or through something, such as a website or an app.
+Слово, яке означає рухатися навколо або через щось, наприклад, вебсайт або застосунок.
 
 # --explanation--
 
-`As` can be used to mean "while" or "when", showing that one action will happen while another action is taking place. For example:
+`As` можна використовувати в значенні "поки" або "коли", показуючи, що одна дія відбуватиметься, поки триває інша. Наприклад:
 
-- `As I was walking home, they called me.` - They called you while you were walking home.
+- `As I was walking home, they called me.` - Вони подзвонили вам, поки ви йшли додому.
 
-- `You will get better at coding as you practice more.` - You will improve while or when you practice more.
+- `You will get better at coding as you practice more.` - Ви покращитесь, поки або коли більше практикуватиметесь.
 
 # --scene--
 

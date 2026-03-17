@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Послухайте аудіо та доповніть речення нижче.
+Прослухайте аудіо та доповніть речення нижче.
 
 # --fillInTheBlank--
 
@@ -24,13 +24,13 @@ lang: en-US
 
 ### --feedback--
 
-This word means that something can be changed or adjusted to meet individual preferences or needs.
+Це слово означає, що щось можна змінити або налаштувати відповідно до індивідуальних уподобань чи потреб.
 
 # --explanation--
 
-`Customizable` refers to something that can be changed or modified to suit different preferences, needs, or requirements. Наприклад:
+`Customizable` означає щось, що можна змінити або модифікувати, щоб відповідати різним уподобанням, потребам чи вимогам. Наприклад:
 
-`The dashboard in this project management tool is customizable, allowing each team to organize their tasks in their preferred way.` - This means that the dashboard can be modified according to each team's needs, helping them organize their work more efficiently.
+`The dashboard in this project management tool is customizable, allowing each team to organize their tasks in their preferred way.` — це означає, що панель керування можна змінювати відповідно до потреб кожної команди, що допомагає їм ефективніше організовувати свою роботу.
 
 # --scene--
 

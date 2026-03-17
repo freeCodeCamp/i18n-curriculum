@@ -1,28 +1,28 @@
 ---
 id: 68f1196f0fedc6f6ecc9aba6
-title: Step 4
+title: Крок 4
 challengeType: 20
 dashedName: step-4
 ---
 
 # --description--
 
-In Python, a return type hint indicates the expected return type of a function or method. You do this by adding `-> return_type` after the parameter list in the method definition.
+У Python підказка типу повернення вказує очікуваний тип повернення функції або методу. Ви робите це, додавши `-> return_type` після списку параметрів у визначенні методу.
 
-Here is an example of a method with both parameter and return type hints whose return type is `bool`:
+Ось приклад методу з підказками типів для параметрів і повернення, де тип повернення — `bool`:
 
 ```py
 def example_method(self, value: int) -> bool:
   pass
 ```
 
-Other return type hints you might use include `str`, `None`, `float` and more.
+Інші підказки типу повернення, які ви можете використовувати, включають `str`, `None`, `float` та інші.
 
-In the existing `__init__` method, add a return type hint of `None` since constructors do not return a value.
+У наявному методі `__init__` додайте підказку типу повернення `None`, оскільки конструктори не повертають значення.
 
 # --hints--
 
-Your `__init__` method should have a return type hint of `None`.
+Ваш метод `__init__` має мати підказку типу повернення `None`.
 
 ```js
 ({

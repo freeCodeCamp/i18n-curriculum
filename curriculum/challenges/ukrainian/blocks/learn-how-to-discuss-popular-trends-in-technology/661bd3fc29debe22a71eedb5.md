@@ -1,6 +1,6 @@
 ---
 id: 661bd3fc29debe22a71eedb5
-title: Task 69
+title: Завдання 69
 challengeType: 19
 dashedName: task-69
 lang: en-US
@@ -8,13 +8,13 @@ lang: en-US
 
 # --description--
 
-`Physical or behavioral traits` are special things about your body or how you act. It can be your face, fingerprints, or the way you move. Biometrics uses these things to keep things safe.
+`Physical or behavioral traits` — це особливі риси вашого тіла або поведінки. Це може бути ваше обличчя, відбитки пальців або спосіб руху. Біометрія використовує ці риси для забезпечення безпеки.
 
 # --questions--
 
 ## --text--
 
-What do `physical or behavioral traits` include in biometrics?
+Що включають `physical or behavioral traits` у біометрії?
 
 ## --answers--
 
@@ -22,7 +22,7 @@ Random objects
 
 ### --feedback--
 
-Random objects don't fit the idea of personal characteristics used in biometrics.
+Random objects не відповідають ідеї особистих характеристик, які використовуються в біометрії.
 
 ---
 
@@ -30,7 +30,7 @@ Magical powers
 
 ### --feedback--
 
-Magical powers are unrelated to the concept of unique personal features in biometrics.
+Magical powers не пов’язані з поняттям унікальних особистих рис у біометрії.
 
 ---
 
@@ -38,7 +38,7 @@ Colorful patterns
 
 ### --feedback--
 
-Colorful patterns do not represent the specific traits of your body or behavior.
+Colorful patterns не представляють конкретні риси вашого тіла або поведінки.
 
 ---
 

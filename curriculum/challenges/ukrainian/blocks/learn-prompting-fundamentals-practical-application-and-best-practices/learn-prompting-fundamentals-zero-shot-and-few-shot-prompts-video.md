@@ -1,6 +1,6 @@
 ---
 id: 69a773545a27934b29e1eac8
-title: Zero Shot and Few Shot Prompts
+title: Запити zero shot і few shot
 challengeType: 11
 videoId: 9SQRxWk4Myc
 dashedName: zero-shot-and-few-shot-prompts-learn-prompting-fundamentals
@@ -8,31 +8,30 @@ dashedName: zero-shot-and-few-shot-prompts-learn-prompting-fundamentals
 
 # --description--
 
-In this video, you will learn about zero shot and few shot prompting.
+У цьому відео ви дізнаєтеся про запити zero shot і few shot.
 
 # --questions--
 
 ## --text--
 
-What is few shot prompting?
+Що таке few shot запит?
 
 ## --answers--
 
-Reduces the model size so it can run efficiently on smaller devices.
+Зменшує розмір моделі, щоб вона могла ефективно працювати на менших пристроях.
 
 ---
 
-Provides the model with training examples through the prompt which avoids retraining.
+Надає моделі приклади для навчання через запит, що дозволяє уникнути повторного навчання.
 
 ---
 
-Retrains the model on a small custom dataset before generating responses.
+Повторно навчає модель на невеликому кастомному наборі даних перед генерацією відповідей.
 
 ---
 
-Uses reinforcement learning to improve the model after each prompt.
+Використовує підкріплювальне навчання для покращення моделі після кожного запиту.
 
 ## --video-solution--
 
 2
-

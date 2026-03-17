@@ -1,6 +1,6 @@
 ---
 id: 67f3c4903a5cdafdeda3c1dd
-title: Task 143
+title: Завдання 143
 challengeType: 22
 dashedName: task-143
 lang: en-US
@@ -10,13 +10,13 @@ lang: en-US
 
 # --description--
 
-This is a review of the entire dialogue you just studied.
+Це повторення всього діалогу, який ви щойно вивчили.
 
 # --instructions--
 
-Write the following words or phrases in the correct spot:
+Напишіть наступні слова або фрази у правильному місці:
 
-`mix-up`, `on track`, `ironing out`, `misunderstanding`, `supposed`, `the confusion`, and `on the same page`.
+`mix-up`, `on track`, `ironing out`, `misunderstanding`, `supposed`, `the confusion` та `on the same page`.
 
 # --fillInTheBlank--
 
@@ -52,7 +52,7 @@ Write the following words or phrases in the correct spot:
 
 ### --feedback--
 
-This noun refers to a failure to understand something correctly.
+Це іменник, який означає неправильне розуміння чогось.
 
 ---
 
@@ -60,7 +60,7 @@ This noun refers to a failure to understand something correctly.
 
 ### --feedback--
 
-These two words together indicate a lack of clarity or understanding. The first is an article the second is a noun.
+Ці два слова разом вказують на відсутність ясності або розуміння. Перше — артикль, друге — іменник.
 
 ---
 
@@ -68,7 +68,7 @@ These two words together indicate a lack of clarity or understanding. The first 
 
 ### --feedback--
 
-These two words together describe something progressing as planned.
+Ці два слова разом описують щось, що відбувається за планом.
 
 ---
 
@@ -76,7 +76,7 @@ These two words together describe something progressing as planned.
 
 ### --feedback--
 
-These two words describe resolving small problems or details. The first word ends with `-ing`.
+Ці два слова описують вирішення дрібних проблем або деталей. Перше слово закінчується на `-ing`.
 
 ---
 
@@ -84,7 +84,7 @@ These two words describe resolving small problems or details. The first word end
 
 ### --feedback--
 
-This is a `Past Participle` used to express expectation or intention.
+Це `Past Participle`, який використовується для вираження очікування або наміру.
 
 ---
 
@@ -92,7 +92,7 @@ This is a `Past Participle` used to express expectation or intention.
 
 ### --feedback--
 
-This noun describes a mistake or confusion due to things being confused. This is a compound word. Remember to use `-`.
+Цей іменник описує помилку або плутанину через змішування речей. Це складне слово. Не забудьте використати `-`.
 
 ---
 
@@ -100,4 +100,4 @@ This noun describes a mistake or confusion due to things being confused. This is
 
 ### --feedback--
 
-These four words together mean having a mutual understanding. The first word is a preposition.
+Ці чотири слова разом означають наявність взаєморозуміння. Перше слово — прийменник.

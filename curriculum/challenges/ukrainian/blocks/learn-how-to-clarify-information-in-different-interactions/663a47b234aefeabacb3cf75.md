@@ -1,6 +1,6 @@
 ---
 id: 663a47b234aefeabacb3cf75
-title: Task 27
+title: Завдання 27
 challengeType: 22
 dashedName: task-27
 lang: en-US
@@ -10,7 +10,8 @@ lang: en-US
 
 # --description--
 
-Another distinctive characteristic someone has is their height. You can say, for example, that someone is `tall` or `short`. A `tall` person is someone above the average in terms of their height. The opposite is when someone is `short`, when this person is below the average.
+Ще одна характерна риса людини — це її зріст. Ви можете сказати, наприклад, що хтось є `tall` або `short`.
+`tall` — це людина, яка вище за середній зріст. Протилежне — коли хтось є `short`, тобто ця людина нижча за середній зріст.
 
 # --fillInTheBlank--
 
@@ -24,7 +25,7 @@ Another distinctive characteristic someone has is their height. You can say, for
 
 ### --feedback--
 
-Above the average in terms of height.
+Вище за середній зріст.
 
 # --scene--
 

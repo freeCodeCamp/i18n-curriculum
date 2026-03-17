@@ -12,41 +12,41 @@ Sarah: Sure, I'm not busy. What's the problem? -->
 
 # --instructions--
 
-Послухайте аудіо та дайте відповідь на запитання.
+Прослухайте аудіо та дайте відповідь на запитання нижче.
 
 # --questions--
 
 ## --text--
 
-Is Sarah available to talk to Tom?
+Чи може Сара поговорити з Томом?
 
 ## --answers--
 
-No, she is busy and doesn't want to know about his problems.
+Ні, вона зайнята і не хоче знати про його проблеми.
 
 ### --feedback--
 
-Sarah says she is not busy.
+Сара каже, що вона не зайнята.
 
 ---
 
-Yes, she is available and wants to know what's the problem.
+Так, вона доступна і хоче дізнатися, у чому проблема.
 
 ---
 
-No, she cannot talk right now, she has her own problems.
+Ні, вона не може зараз говорити, у неї свої проблеми.
 
 ### --feedback--
 
-Sarah mentions that she is not busy.
+Сара згадує, що вона не зайнята.
 
 ---
 
-Yes, but only for a moment because she has her own problems.
+Так, але лише на хвилинку, бо у неї свої проблеми.
 
 ### --feedback--
 
-Sarah doesn't limit the time; she simply states that she is not busy.
+Сара не обмежує час; вона просто каже, що не зайнята.
 
 ## --video-solution--
 
@@ -54,11 +54,11 @@ Sarah doesn't limit the time; she simply states that she is not busy.
 
 # --explanation--
 
-Instead of directly saying she is free, Sarah uses the negative form `I'm not busy` to emphasize that she has time to help.
+Замість того, щоб прямо сказати, що вона вільна, Сара використовує заперечну форму `I'm not busy`, щоб підкреслити, що має час допомогти.
 
-This is a polite and indirect way to offer availability in English, commonly used to make the conversation more tactful.
+Це ввічливий і непрямий спосіб запропонувати свою доступність англійською, який часто використовують, щоб зробити розмову більш тактовною.
 
-Her follow-up sentence, `What's the problem?`, confirms she's willing to assist by inviting Tom to explain the issue.
+Її наступне речення `What's the problem?` підтверджує, що вона готова допомогти, запрошуючи Тома пояснити проблему.
 
 # --scene--
 

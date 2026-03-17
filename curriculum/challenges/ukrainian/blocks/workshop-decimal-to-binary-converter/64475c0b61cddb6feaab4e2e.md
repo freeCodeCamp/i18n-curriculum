@@ -7,21 +7,21 @@ dashedName: step-13
 
 # --description--
 
-Тепер можна попередити користувача, якщо він не вводить число або число недійсне, перш ніж спробувати перетворити його на двійкове.
+Тепер ви можете показувати повідомлення користувачу, якщо він не вводить число або число є недійсним, перш ніж намагатися перетворити його у двійковий формат.
 
-В тілі інструкції `if` використайте метод `alert()`, щоб відобразити текст `"Please provide a decimal number greater than or equal to 0"`.
+У тілі інструкції `if` використайте метод `alert()`, щоб відобразити текст `"Please provide a decimal number greater than or equal to 0"`.
 
-Зауважте, що `alert()` — це метод на об’єкті `window` у вебпереглядачі, тому можна використати `window.alert()` або `alert()`.
+Зверніть увагу, що `alert()` — це метод об’єкта `window` у браузері, тому ви можете використовувати або `window.alert()`, або `alert()`.
 
 # --hints--
 
-Викличте метод `alert()` в тілі інструкції `if` у `checkUserInput`.
+Ви повинні викликати метод `alert()` у тілі вашої інструкції `if` всередині `checkUserInput`.
 
 ```js
 assert.match(String(checkUserInput), /if\s*\(\s*.+\s*\)\s*\{\s*(window\s*.)?\s*alert\(/);
 ```
 
-Якщо в елементі `#number-input` є хибне значення та викликається функція `checkUserInput()`, метод `alert()` має відображати текст `"Please provide a decimal number greater than or equal to 0"`.
+Коли в елементі `#number-input` є хибне значення і викликається функція `checkUserInput()`, метод `alert()` має відобразити текст `"Please provide a decimal number greater than or equal to 0"`.
 
 ```js
 const numberInput = document.getElementById("number-input");

@@ -1,15 +1,15 @@
 ---
 id: 672bbeb6eefd7ca9c003ea00
-title: What Are Examples of Tree-structural Pseudo-classes?
+title: "Які приклади псевдокласів, що базуються на структурі дерева?"
 challengeType: 19
 dashedName: what-are-examples-of-tree-structural-pseudo-classes
 ---
 
 # --interactive--
 
-Tree-structural pseudo-classes allow you to target and style elements based on their position within the document tree. The document tree refers to the hierarchical structure of elements in an HTML document.
+Псевдокласи, що базуються на структурі дерева, дозволяють вам вибирати та стилізувати елементи залежно від їхнього розташування у дереві документа. Дерево документа — це ієрархічна структура елементів у HTML-документі.
 
-Here is a list of tree-structural pseudo-classes:
+Ось список псевдокласів, що базуються на структурі дерева:
 
 - `:root`
 - `:empty`
@@ -23,9 +23,9 @@ Here is a list of tree-structural pseudo-classes:
 - `:last-of-type`
 - `:only-of-type`
 
-Let's take a closer look at each of the tree-structural pseudo-classes, accompanied by examples.
+Давайте детальніше розглянемо кожен із цих псевдокласів із прикладами.
 
-​​The `:root` pseudo-class is usually the root `html` element. It helps you target the highest level in the document so you can apply a common style to the entire document.
+Псевдоклас `:root` зазвичай відповідає кореневому `html` елементу. Він допомагає вам вибрати найвищий рівень у документі, щоб застосувати загальний стиль до всього документа.
 
 :::interactive_editor
 
@@ -44,7 +44,7 @@ Let's take a closer look at each of the tree-structural pseudo-classes, accompan
 
 :::
 
-The `:root` pseudo-class is also commonly used in setting CSS variables:
+Псевдоклас `:root` також часто використовується для встановлення CSS-змінних:
 
 ```css
 :root {
@@ -54,9 +54,9 @@ The `:root` pseudo-class is also commonly used in setting CSS variables:
 }
 ```
 
-With CSS variables, you get to store values and reuse them in your stylesheet. You will learn more about these later on.
+За допомогою CSS-змінних ви можете зберігати значення та повторно використовувати їх у своєму стилі. Ви дізнаєтеся більше про це пізніше.
 
-Empty elements, that is, elements with no children other than white space, are also included in the document tree. That's why there's an `:empty` pseudo-class to target empty elements. For example, this HTML code has two empty list items. With the `:empty` pseudo-class, you can style the empty list items differently:
+Порожні елементи, тобто елементи без дочірніх, крім порожнього простору, також входять до дерева документа. Саме тому існує псевдоклас `:empty` для вибору порожніх елементів. Наприклад, у цьому HTML-коді є два порожні елементи списку. За допомогою псевдокласу `:empty` ви можете стилізувати порожні елементи списку інакше:
 
 :::interactive_editor
 
@@ -79,7 +79,7 @@ Empty elements, that is, elements with no children other than white space, are a
 
 :::
 
-The most practical thing to do with the empty list items is probably not displaying them at all:
+Найпрактичніше, мабуть, не відображати порожні елементи списку взагалі:
 
 :::interactive_editor
 
@@ -102,9 +102,9 @@ The most practical thing to do with the empty list items is probably not display
 
 :::
 
-`:nth-child(n)` allows you to select elements based on their position within a parent, while `:nth-last-child(n)` enables you to select elements by counting from the end. The `n` can be a specific number or a keyword like `odd` or `even`. This is incredibly useful in styling table cells based on position: even and odd.
+`:nth-child(n)` дозволяє вибирати елементи залежно від їхньої позиції в межах батьківського елемента, а `:nth-last-child(n)` дає змогу вибирати елементи, рахуючи з кінця. `n` може бути конкретним числом або ключовим словом, як `odd` чи `even`. Це надзвичайно корисно для стилізації клітинок таблиці залежно від позиції: парні та непарні.
 
-Here's an HTML example of a fruit price list table. The CSS is using the `:nth-child` pseudo-class to target the table cells based on odd and even positions:
+Ось HTML-приклад таблиці з цінами на фрукти. CSS використовує псевдоклас `:nth-child` для вибору клітинок таблиці залежно від парних і непарних позицій:
 
 :::interactive_editor
 
@@ -148,13 +148,13 @@ tr:nth-child(odd) {
 
 :::
 
-The `:first-child`, `:last-child`, and `:only-child` pseudo-classes all act on items within a parent container or the entire document.
+Псевдокласи `:first-child`, `:last-child` і `:only-child` діють на елементи всередині батьківського контейнера або всього документа.
 
-- `:first-child` selects the first element in a parent element or the document.
-- `:last-child` selects the last element in a parent element or the document.
-- `:only-child` selects the only element in a parent element or the document.
+- `:first-child` вибирає перший елемент у межах батьківського елемента або документа.
+- `:last-child` вибирає останній елемент у межах батьківського елемента або документа.
+- `:only-child` вибирає єдиний елемент у межах батьківського елемента або документа.
 
-Using the `:first-child` and `:last-child` pseudo-classes will select both `Item 1` and `Item 3` in this example:
+Використання псевдокласів `:first-child` і `:last-child` вибере одночасно `Item 1` і `Item 3` у цьому прикладі:
 
 :::interactive_editor
 
@@ -179,9 +179,9 @@ li:last-child {
 
 :::
 
-If you have more unordered lists on the page, you have to be more specific with the selection:
+Якщо на сторінці є кілька невпорядкованих списків, потрібно бути точнішим у виборі:
 
-To show you how the `:only-child` pseudo-class works, here's an HTML example with two separate `div` elements. Using the `:only-child` pseudo-class ensures only the `div` element with a single child is selected:
+Щоб показати, як працює псевдоклас `:only-child`, ось HTML-приклад із двома окремими `div` елементами. Використання псевдокласу `:only-child` гарантує, що буде вибрано лише `div` елемент із одним дочірнім елементом:
 
 :::interactive_editor
 
@@ -207,9 +207,9 @@ To show you how the `:only-child` pseudo-class works, here's an HTML example wit
 
 :::
 
-The `:first-of-type` and `:last-of-type` pseudo-classes select the first and last occurrence of a specific element type within its parent. They are useful for applying unique styles to the first or last instance of that element type among its siblings.
+Псевдокласи `:first-of-type` і `:last-of-type` вибирають перший і останній випадок певного типу елемента в межах батьківського елемента. Вони корисні для застосування унікальних стилів до першого або останнього екземпляра цього типу серед братських елементів.
 
-In the example below, `:first-of-type` and `:last-of-type` applies to the first element and last element within the `section` element:
+У наведеному нижче прикладі `:first-of-type` і `:last-of-type` застосовуються до першого та останнього елемента всередині `section` елемента:
 
 :::interactive_editor
 
@@ -240,7 +240,7 @@ section p:last-of-type {
 
 :::
 
-`:nth-of-type(n)` allows you to select a specific element within its parent based on its position among siblings of the same type. For instance, in the HTML below, `:nth-of-type(2)` targets the second element in the container:
+`:nth-of-type(n)` дозволяє вибрати конкретний елемент у межах батьківського елемента залежно від його позиції серед братських елементів того самого типу. Наприклад, у наведеному HTML `:nth-of-type(2)` вибирає другий елемент у контейнері:
 
 :::interactive_editor
 
@@ -263,9 +263,9 @@ p:nth-of-type(2) {
 
 :::
 
-`:only-of-type` selects an element if it's the only one of its type within its parent. This can be useful for emphasizing single items or ensuring that they are styled differently when they’re not part of a group.
+`:only-of-type` вибирає елемент, якщо він єдиний свого типу в межах батьківського елемента. Це може бути корисно для виділення одиничних елементів або для того, щоб вони стилізувалися інакше, коли не є частиною групи.
 
-In the example below, there are two `div` elements with one having a single element. The CSS only applies to the first container:
+У наведеному прикладі є два `div` елементи, один із яких має лише один елемент. CSS застосовується лише до першого контейнера:
 
 :::interactive_editor
 
@@ -294,35 +294,35 @@ p:only-of-type {
 
 ## --text--
 
-What is the difference between the `:first-of-type` and `:last-of-type` pseudo-classes?
+У чому різниця між псевдокласами `:first-of-type` і `:last-of-type`?
 
 ## --answers--
 
-`:first-of-type` targets the first element of a specific type within its parent, while `:last-of-type` targets the last element of a different type.
+`:first-of-type` вибирає перший елемент певного типу в межах батьківського елемента, тоді як `:last-of-type` вибирає останній елемент іншого типу.
 
 ### --feedback--
 
-Consider how these pseudo-classes help you style the first and last instances of a particular tag, like `p` or `h1`.
+Подумайте, як ці псевдокласи допомагають стилізувати перші та останні екземпляри певного тегу, наприклад `p` або `h1`.
 
 ---
 
-`:first-of-type` and `:last-of-type` both target the first occurrence of an element but in different sections of the document.
+`:first-of-type` і `:last-of-type` обидва вибирають перший випадок елемента, але в різних розділах документа.
 
 ### --feedback--
 
-Consider how these pseudo-classes help you style the first and last instances of a particular tag, like `p` or `h1`.
+Подумайте, як ці псевдокласи допомагають стилізувати перші та останні екземпляри певного тегу, наприклад `p` або `h1`.
 
 ---
 
-`:first-of-type` selects the first occurrence of a specific element type within its parent, while `:last-of-type` selects the last occurrence of that same element type within its parent.
+`:first-of-type` вибирає перший випадок певного типу елемента в межах батьківського елемента, тоді як `:last-of-type` вибирає останній випадок того самого типу в межах батьківського елемента.
 
 ---
 
-`:last-of-type` applies styles to the first and last elements within the document, while `:last-of-type` applies styles to all elements of a specific type.
+`:last-of-type` застосовує стилі до перших і останніх елементів у документі, тоді як `:last-of-type` застосовує стилі до всіх елементів певного типу.
 
 ### --feedback--
 
-Consider how these pseudo-classes help you style the first and last instances of a particular tag, like `p` or `h1`.
+Подумайте, як ці псевдокласи допомагають стилізувати перші та останні екземпляри певного тегу, наприклад `p` або `h1`.
 
 ## --video-solution--
 
@@ -330,35 +330,35 @@ Consider how these pseudo-classes help you style the first and last instances of
 
 ## --text--
 
-What is the difference between the `:first-child` and `:last-child` pseudo-classes?
+У чому різниця між псевдокласами `:first-child` і `:last-child`?
 
 ## --answers--
 
-`:first-child` targets the first element within its parent, while `:last-child` targets the last element within a different parent.
+`:first-child` вибирає перший елемент у межах свого батьківського елемента, тоді як `:last-child` вибирає останній елемент у межах іншого батьківського елемента.
 
 ### --feedback--
 
-Think about how the two pseudo-classes help you style the first and last elements within the same parent container.
+Подумайте, як ці два псевдокласи допомагають стилізувати перші та останні елементи в межах одного батьківського контейнера.
 
 ---
 
-`:first-child` targets the first element within its parent, while `:last-child` targets the last element within the same parent.
+`:first-child` вибирає перший елемент у межах свого батьківського елемента, тоді як `:last-child` вибирає останній елемент у межах того самого батьківського елемента.
 
 ---
 
-`:first-child` targets the first element of a specific type within its parent, while `:last-child` targets the last element of a different type within its parent.
+`:first-child` вибирає перший елемент певного типу в межах батьківського елемента, тоді як `:last-child` вибирає останній елемент іншого типу в межах того самого батьківського елемента.
 
 ### --feedback--
 
-Think about how the two pseudo-classes help you style the first and last elements within the same parent container.
+Подумайте, як ці два псевдокласи допомагають стилізувати перші та останні елементи в межах одного батьківського контейнера.
 
 ---
 
-`:first-child` targets the first and last elements within a parent, while `:last-child` targets all other elements.
+`:first-child` вибирає перші та останні елементи в межах батьківського елемента, тоді як `:last-child` вибирає всі інші елементи.
 
 ### --feedback--
 
-Think about how the two pseudo-classes help you style the first and last elements within the same parent container.
+Подумайте, як ці два псевдокласи допомагають стилізувати перші та останні елементи в межах одного батьківського контейнера.
 
 ## --video-solution--
 
@@ -366,7 +366,7 @@ Think about how the two pseudo-classes help you style the first and last element
 
 ## --text--
 
-Which pseudo-class allows you to target elements that have no children, including those that contain only whitespace?
+Який псевдоклас дозволяє вибирати елементи, які не мають дочірніх елементів, включно з тими, що містять лише порожній простір?
 
 ## --answers--
 
@@ -378,7 +378,7 @@ Which pseudo-class allows you to target elements that have no children, includin
 
 ### --feedback--
 
-Think about how you can style elements that do not have content.
+Подумайте, як можна стилізувати елементи, які не мають вмісту.
 
 ---
 
@@ -386,7 +386,7 @@ Think about how you can style elements that do not have content.
 
 ### --feedback--
 
-Think about how you can style elements that do not have content.
+Подумайте, як можна стилізувати елементи, які не мають вмісту.
 
 ---
 
@@ -394,7 +394,7 @@ Think about how you can style elements that do not have content.
 
 ### --feedback--
 
-Think about how you can style elements that do not have content.
+Подумайте, як можна стилізувати елементи, які не мають вмісту.
 
 ## --video-solution--
 

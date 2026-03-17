@@ -1,6 +1,6 @@
 ---
 id: edeae16d4bf9505165740c75
-title: Installing Python and PyCharm
+title: Встановлення Python і PyCharm
 challengeType: 11
 videoId: RgGQJDOms1M
 dashedName: installing-python-and-pycharm-learn-python-full-course-for-beginners
@@ -8,29 +8,29 @@ dashedName: installing-python-and-pycharm-learn-python-full-course-for-beginners
 
 # --description--
 
-In this video, you will learn how to install Python and PyCharm onto your computer.
+У цьому відео ви дізнаєтеся, як встановити Python і PyCharm на свій комп’ютер.
 
 # --questions--
 
 ## --text--
 
-What is PyCharm used for?
+Для чого використовується PyCharm?
 
 ## --answers--
 
-It is a programming language similar to Python used for developing mobile apps.
+Це мова програмування, схожа на Python, яка використовується для розробки мобільних застосунків.
 
 ---
 
-It is a Python library used for data analysis.
+Це бібліотека Python, яка використовується для аналізу даних.
 
 ---
 
-It is an IDE used to run Python programs.
+Це IDE, яка використовується для запуску програм на Python.
 
 ---
 
-It is an operating system designed for developers.
+Це операційна система, розроблена для розробників.
 
 ## --video-solution--
 

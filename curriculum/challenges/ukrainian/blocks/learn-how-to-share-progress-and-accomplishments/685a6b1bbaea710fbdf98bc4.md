@@ -1,6 +1,6 @@
 ---
 id: 685a6b1bbaea710fbdf98bc4
-title: Task 42
+title: Завдання 42
 challengeType: 22
 dashedName: task-42
 lang: en-US
@@ -10,13 +10,13 @@ lang: en-US
 
 # --description--
 
-This is a review of the entire dialogue you just studied.
+Це повторення всього діалогу, який ви щойно вивчили.
 
 # --instructions--
 
-Write the following words or phrases in the correct spot:
+Напишіть наступні слова або фрази у правильному місці:
 
-`last month`, `a while since`, `next phase`, `good news`, `yesterday`, and `green light`.
+`last month`, `a while since`, `next phase`, `good news`, `yesterday` та `green light`.
 
 # --fillInTheBlank--
 
@@ -40,7 +40,7 @@ Write the following words or phrases in the correct spot:
 
 ### --feedback--
 
-A way to say it has been some time since something happened.
+Спосіб сказати, що минув деякий час відтоді, як щось сталося.
 
 ---
 
@@ -48,7 +48,7 @@ A way to say it has been some time since something happened.
 
 ### --feedback--
 
-The day before today.
+День перед сьогоднішнім.
 
 ---
 
@@ -56,7 +56,7 @@ The day before today.
 
 ### --feedback--
 
-Positive or happy information.
+Позитивна або радісна інформація.
 
 ---
 
@@ -64,7 +64,7 @@ Positive or happy information.
 
 ### --feedback--
 
-The month before the current one.
+Місяць перед поточним.
 
 ---
 
@@ -72,7 +72,7 @@ The month before the current one.
 
 ### --feedback--
 
-Permission to start something.
+Дозвіл почати щось.
 
 ---
 
@@ -80,4 +80,4 @@ Permission to start something.
 
 ### --feedback--
 
-The following part or step in a plan or project.
+Наступна частина або крок у плані чи проєкті.

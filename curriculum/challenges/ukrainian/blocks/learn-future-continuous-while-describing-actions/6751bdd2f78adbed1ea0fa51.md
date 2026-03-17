@@ -1,6 +1,6 @@
 ---
 id: 6751bdd2f78adbed1ea0fa51
-title: Task 24
+title: Завдання 24
 challengeType: 19
 dashedName: task-24
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Прослухайте аудіо та дайте відповідь на запитання нижче.
 
 # --questions--
 
 ## --text--
 
-What is Brian's concern?
+Яка турбота Браяна?
 
 ## --answers--
 
-If users need to be informed about the downtime.
+Якщо потрібно повідомити користувачів про простій.
 
 ---
 
-If the downtime will last too long.
+Якщо простій триватиме занадто довго.
 
 ### --feedback--
 
-Brian is not asking about the length of the downtime.
+Браян не запитує про довжину простою.
 
 ---
 
-If the users will experience technical issues.
+Якщо користувачі зіткнуться з технічними проблемами.
 
 ### --feedback--
 
-Brian does not mention technical issues in his concern.
+Браян не згадує про технічні проблеми у своїй турботі.
 
 ---
 
-If the downtime will affect the server's performance.
+Якщо простій вплине на продуктивність сервера.
 
 ### --feedback--
 
-Brian's concern is not about the server's performance.
+Турбота Браяна не стосується продуктивності сервера.
 
 ## --video-solution--
 
@@ -52,7 +52,7 @@ Brian's concern is not about the server's performance.
 
 # --explanation--
 
-Brian is asking if they should update users about the downtime, showing his concern is about communication with the users rather than the length of downtime, technical issues, or server performance.
+Браян запитує, чи слід оновити інформацію для користувачів про простій, що показує, що його турбота стосується комунікації з користувачами, а не довжини простою, технічних проблем чи продуктивності сервера.
 
 # --scene--
 

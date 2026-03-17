@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Прослухайте аудіозапис та дайте відповіді на запитання.
+Прослухайте аудіо та дайте відповідь на запитання нижче.
 
 # --questions--
 
 ## --text--
 
-What is Bob explaining?
+Що пояснює Боб?
 
 ## --answers--
 
-That the emergency exit is blocked.
+Що аварійний вихід заблоковано.
 
 ### --feedback--
 
-Bob doesn't say the exit is blocked - he just mentions its location.
+Боб не каже, що вихід заблоковано — він лише вказує його розташування.
 
 ---
 
-That the back door needs a new lock.
+Що на задніх дверях потрібно замінити замок.
 
 ### --feedback--
 
-Bob doesn't mention anything about locks or a back door needing repairs.
+Боб нічого не згадує про замки чи ремонт задніх дверей.
 
 ---
 
-That the server room needs to be cleaned.
+Що серверну кімнату потрібно прибрати.
 
 ### --feedback--
 
-There is no mention of cleaning in Bob's sentence.
+У реченні Боба немає згадки про прибирання.
 
 ---
 
-That something is located near the emergency exit.
+Що щось розташоване біля аварійного виходу.
 
 ## --video-solution--
 
@@ -52,9 +52,9 @@ That something is located near the emergency exit.
 
 # --explanation--
 
-Bob says, `Exactly. It's in the back, next to the emergency exit`. This means he is confirming the location of something - right beside the emergency exit.
+Боб каже, `Exactly. It's in the back, next to the emergency exit`. Це означає, що він підтверджує розташування чогось — прямо біля аварійного виходу.
 
-He doesn't talk about repairs, cleaning, or problems.
+Він не говорить про ремонт, прибирання чи проблеми.
 
 # --scene--
 

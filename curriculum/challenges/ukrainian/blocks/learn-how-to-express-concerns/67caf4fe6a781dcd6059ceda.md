@@ -1,6 +1,6 @@
 ---
 id: 67caf4fe6a781dcd6059ceda
-title: Task 131
+title: Завдання 131
 challengeType: 22
 dashedName: task-131
 lang: en-US
@@ -10,39 +10,39 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Прослухайте аудіо та доповніть речення нижче.
 
 # --fillInTheBlank--
 
 ## --sentence--
 
-`It'd be BLANK if we had more BLANK check-ins.`
+`It'd be BLANK if we had more BLANK check-ins.`  
 
 ## --blanks--
 
-`helpful`
+`helpful`  
 
 ### --feedback--
 
-This means providing assistance or making something easier.
+Це означає надання допомоги або полегшення чогось.
 
----
+---  
 
-`regular`
+`regular`  
 
 ### --feedback--
 
-This means happening consistently or at set intervals.
+Це означає, що щось відбувається регулярно або через певні проміжки часу.
 
 # --explanation--
 
-`Helpful` means providing assistance or making something easier. For example:
+`Helpful` означає надання допомоги або полегшення чогось. Наприклад:
 
-`It was helpful to have clear instructions before starting the task.` - This means the instructions made the task easier to complete.
+`It was helpful to have clear instructions before starting the task.` - Це означає, що інструкції зробили завдання легшим для виконання.
 
-`Regular` means happening consistently or at set intervals. For example:
+`Regular` означає, що щось відбувається регулярно або через певні проміжки часу. Наприклад:
 
-`We have regular meetings every Monday.` - This means the meetings happen consistently on Mondays.
+`We have regular meetings every Monday.` - Це означає, що зустрічі відбуваються регулярно по понеділках.
 
 # --scene--
 

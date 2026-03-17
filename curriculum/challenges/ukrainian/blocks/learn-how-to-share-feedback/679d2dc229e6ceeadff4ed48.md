@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Послухайте аудіо та доповніть речення нижче.
+Прослухайте аудіо та доповніть речення нижче.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ lang: en-US
 
 ### --feedback--
 
-This word is used to avoid repeating the verb `update` from the previous sentence.
+Це слово використовується, щоб уникнути повторення дієслова `update` з попереднього речення.
 
 ---
 
@@ -32,17 +32,17 @@ This word is used to avoid repeating the verb `update` from the previous sentenc
 
 ### --feedback--
 
-This word means to postpone or make something happen later than planned.
+Це слово означає відкласти або зробити так, щоб щось відбулося пізніше, ніж планувалося.
 
 # --explanation--
 
-Instead of saying `If we update the software, it might delay other projects.`, James shortens it to `If we do`. The word `do` is often used to avoid repeating the verb or a complete phrase used in from the previous sentence. Приклад:
+Замість того, щоб казати `If we update the software, it might delay other projects.`, Джеймс скорочує це до `If we do`. Слово `do` часто використовується, щоб уникнути повторення дієслова або повної фрази з попереднього речення. Наприклад:
 
-`She wants to join the meeting, and if she does, she'll need the link.` - Instead of saying `if she joins the meeting`, you can use `does` to replace it and this way you can avoid the repetition.
+`She wants to join the meeting, and if she does, she'll need the link.` — замість того, щоб казати `if she joins the meeting`, ви можете використати `does`, щоб замінити це і таким чином уникнути повторення.
 
-`To delay` means to make something happen later than planned. For example:
+`To delay` означає зробити так, щоб щось відбулося пізніше, ніж планувалося. Наприклад:
 
-`The flight was delayed due to bad weather.` - This means the flight was postponed and did not leave on time.
+`The flight was delayed due to bad weather.` — це означає, що рейс було відкладено і він не вилетів вчасно.
 
 # --scene--
 

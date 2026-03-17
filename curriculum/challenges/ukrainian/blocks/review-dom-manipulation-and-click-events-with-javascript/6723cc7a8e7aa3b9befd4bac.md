@@ -1,25 +1,25 @@
 ---
 id: 6723cc7a8e7aa3b9befd4bac
-title: DOM Manipulation and Click Events with JavaScript Review
+title: Огляд маніпуляцій DOM і подій кліку з JavaScript
 challengeType: 31
 dashedName: review-dom-manipulation-and-click-events-with-javascript
 ---
 
 # --interactive--
 
-## Working with the DOM and Web APIs
+## Робота з DOM і веб-API
 
-- **API**: An API (Application Programming Interface) is a set of rules and protocols that allow software applications to communicate with each other and exchange data efficiently.
-- **Web API**: Web APIs are specifically designed for web applications. These types of APIs are often divided into two main categories: browser APIs and third-party APIs.
-- **Browser APIs**: These APIs expose data from the browser. As a web developer, you can access and manipulate this data using JavaScript.
-- **Third-Party APIs**: These are not built into the browser by default. You have to retrieve their code in some way. Usually, they will have detailed documentation explaining how to use their services. An example is the Google Maps API, which you can use to display interactive maps on your website.
-- **DOM**: The DOM stands for Document Object Model. It's a programming interface that lets you interact with HTML documents. With the DOM, you can add, modify, or delete elements on a webpage. The root of the DOM tree is the `html` element. It's the top-level container for all the content of an HTML document. All other nodes are descendants of this root node. Then, below the root node, we find other nodes in the hierarchy. A parent node is an element that contains other elements. A child node is an element that is contained within another element.
-- **`navigator` Interface**: This provides information about the browser environment, such as the user agent string, the platform, and the version of the browser. A user agent string is a text string that identifies the browser and operating system being used.
-- **`window` Interface**: This represents the browser window that contains the DOM document. It provides methods and properties for interacting with the browser window, such as resizing the window, opening new windows, and navigating to different URLs.
+- **API**: API (інтерфейс програмування застосунків) — це набір правил і протоколів, які дозволяють програмним застосункам ефективно взаємодіяти між собою та обмінюватися даними.
+- **Веб-API**: Веб-API спеціально розроблені для вебзастосунків. Ці типи API зазвичай поділяються на дві основні категорії: API браузера та сторонні API.
+- **API браузера**: Ці API відкривають доступ до даних браузера. Як веброзробник, ви можете отримувати доступ і маніпулювати цими даними за допомогою JavaScript.
+- **Сторонні API**: Вони не вбудовані в браузер за замовчуванням. Вам потрібно отримати їхній код якимось чином. Зазвичай вони мають детальну документацію, яка пояснює, як користуватися їхніми сервісами. Прикладом є Google Maps API, який можна використати для відображення інтерактивних карт на вашому сайті.
+- **DOM**: DOM означає Document Object Model (модель об’єктів документа). Це програмний інтерфейс, який дозволяє взаємодіяти з HTML-документами. За допомогою DOM ви можете додавати, змінювати або видаляти елементи на вебсторінці. Коренем дерева DOM є елемент `html`. Це контейнер найвищого рівня для всього вмісту HTML-документа. Всі інші вузли є нащадками цього кореневого вузла. Нижче кореневого вузла знаходяться інші вузли в ієрархії. Батьківський вузол — це елемент, який містить інші елементи. Дочірній вузол — це елемент, який міститься всередині іншого елемента.
+- **Інтерфейс `navigator`**: Він надає інформацію про середовище браузера, таку як рядок user agent, платформу та версію браузера. Рядок user agent — це текстовий рядок, який ідентифікує браузер і операційну систему, що використовується.
+- **Інтерфейс `window`**: Він представляє вікно браузера, яке містить документ DOM. Надає методи та властивості для взаємодії з вікном браузера, наприклад, зміни розміру вікна, відкриття нових вікон і навігації за різними URL.
 
-## Working with the `querySelector()`, `querySelectorAll()` and `getElementById()` Methods
+## Робота з методами `querySelector()`, `querySelectorAll()` і `getElementById()`
 
-- **`getElementById()` Method**: This method is used to get an object that represents the HTML element with the specified `id`. Remember that ids must be unique in every HTML document, so this method will only return one Element object.
+- **Метод `getElementById()`**: Цей метод використовується для отримання об’єкта, який представляє HTML-елемент із заданим `id`. Пам’ятайте, що ідентифікатори мають бути унікальними в кожному HTML-документі, тому цей метод поверне лише один об’єкт Element.
 
 :::interactive_editor
 
@@ -35,7 +35,7 @@ console.log(container)
 
 :::
 
-- **`querySelector()` Method**: This method is used to get the first element in the HTML document that matches the CSS selector passed as an argument.
+- **Метод `querySelector()`**: Цей метод використовується для отримання першого елемента в HTML-документі, який відповідає CSS-селектору, переданому як аргумент.
 
 :::interactive_editor
 
@@ -51,7 +51,7 @@ console.log(section)
 
 :::
 
-- **`querySelectorAll()` Method**: You can use this method to get a list of all the DOM elements that match a specific CSS selector.
+- **Метод `querySelectorAll()`**: Ви можете використати цей метод, щоб отримати список усіх елементів DOM, які відповідають певному CSS-селектору.
 
 :::interactive_editor
 
@@ -71,9 +71,9 @@ console.log(ingredients)
 
 :::
 
-## Working with the `innerText()`, `innerHTML()`, `createElement()` and `textContent()` Methods
+## Робота з методами `innerText()`, `innerHTML()`, `createElement()` і `textContent()`
 
-- **`innerHTML` Property**: This is a property of the `Element` that is used to set or update parts of the HTML markup.
+- **Властивість `innerHTML`**: Це властивість `Element`, яка використовується для встановлення або оновлення частин HTML-розмітки.
 
 :::interactive_editor
 
@@ -91,13 +91,13 @@ container.innerHTML = '<ul><li>Cheese</li><li>Tomato</li></ul>';
 
 :::
 
-- **`createElement` Method**: This is used to create an HTML element.
+- **Метод `createElement`**: Використовується для створення HTML-елемента.
 
 ```js
 const img = document.createElement("img");
 ```
 
-- **`innerText`**: This represents the visible text content of the HTML element and its descendants.
+- **`innerText`**: Представляє видимий текстовий вміст HTML-елемента та його нащадків.
 
 :::interactive_editor
 
@@ -116,7 +116,7 @@ console.log(container.innerText);
 
 :::
 
-- **`textContent`**: This returns the plain text content of an element, including all the text within its descendants.
+- **`textContent`**: Повертає простий текстовий вміст елемента, включно з усім текстом у його нащадках.
 
 :::interactive_editor
 
@@ -135,9 +135,9 @@ console.log(container.textContent);
 
 :::
 
-## Working with the `appendChild()` and `removeChild()` Methods
+## Робота з методами `appendChild()` і `removeChild()`
 
-- **`appendChild()` Method**: This method is used to add a node to the end of the list of children of a specified parent node.
+- **Метод `appendChild()`**: Цей метод використовується для додавання вузла в кінець списку дочірніх елементів заданого батьківського вузла.
 
 :::interactive_editor
 
@@ -159,7 +159,7 @@ dessertsList.appendChild(listItem);
 
 :::
 
-- **`removeChild()` Method**: This method is used to remove a node from the DOM.
+- **Метод `removeChild()`**: Цей метод використовується для видалення вузла з DOM.
 
 :::interactive_editor
 
@@ -181,9 +181,9 @@ sectionEl.removeChild(lastParagraph);
 
 :::
 
-## Work with the `setAttribute()` Method
+## Робота з методом `setAttribute()`
 
-- **Definition**: This method is used to set the attribute for a given element. If the attribute already exists, then the value is updated. Otherwise, a new attribute is added with a value.
+- **Визначення**: Цей метод використовується для встановлення атрибута для заданого елемента. Якщо атрибут уже існує, його значення оновлюється. Інакше додається новий атрибут зі значенням.
 
 :::interactive_editor
 
@@ -199,13 +199,13 @@ para.setAttribute("class", "my-class");
 
 :::
 
-## Event Object
+## Об’єкт події
 
-- **Definition**: The `Event` object is a payload that triggers when a user interacts with your web page in some way. These interactions can be anything from clicking on a button or focusing an input to shaking their mobile device. All `Event` objects will have the `type` property. This property reveals the type of event that triggered the payload, such as keydown or click. These values will correspond to the same values you might pass to `addEventListener()`, where you can capture and utilize the `Event` object.
+- **Визначення**: Об’єкт `Event` — це корисне навантаження, яке спрацьовує, коли користувач взаємодіє з вашою вебсторінкою певним чином. Ці взаємодії можуть бути будь-якими — від натискання кнопки або фокусу на вхідних даних до трясіння мобільного пристрою. Всі об’єкти `Event` матимуть властивість `type`. Ця властивість показує тип події, яка викликала корисне навантаження, наприклад keydown або click. Ці значення відповідатимуть тим самим значенням, які ви можете передати в `addEventListener()`, де можна захопити і використати об’єкт `Event`.
 
-## `addEventListener()` and `removeEventListener()` Methods
+## Методи `addEventListener()` і `removeEventListener()`
 
-- **`addEventListener` Method**: This method is used to listen for events. It takes two arguments: the event you want to listen for and a function that will be called when the event occurs. Some common examples of events would be click events, input events, and change events.
+- **Метод `addEventListener`**: Цей метод використовується для прослуховування подій. Він приймає два аргументи: подію, яку ви хочете прослухати, і функцію, яка буде викликана, коли ця подія відбудеться. Загальними прикладами подій є події кліку, введення та зміни.
 
 :::interactive_editor
 
@@ -222,7 +222,7 @@ btn.addEventListener("click", () => alert("You clicked the button"));
 
 :::
 
-- **`removeEventListener()` Method**: This method is used to remove an event listener that was previously added to an element using the `addEventListener()` method. This is useful when you want to stop listening for a particular event on an element.
+- **Метод `removeEventListener()`**: Цей метод використовується для видалення обробника події, який раніше було додано до елемента за допомогою методу `addEventListener()`. Це корисно, коли ви хочете припинити прослуховування певної події на елементі.
 
 :::interactive_editor
 
@@ -255,8 +255,7 @@ para.addEventListener("mouseover", () => {
 
 :::
 
-- **Inline Event Handlers**: Inline event handlers are special attributes on an HTML element that are used to execute JavaScript code when an event occurs. In modern JavaScript, inline event handlers are not considered best practice. It is preferred to use the `addEventListener` method instead.
-
+- **Рядкові обробники подій**: Рядкові обробники подій — це спеціальні атрибути HTML-елемента, які використовуються для виконання JavaScript-коду, коли відбувається подія. У сучасному JavaScript рядкові обробники подій не вважаються найкращою практикою. Натомість рекомендується використовувати метод `addEventListener`.
 
 :::interactive_editor
 
@@ -266,9 +265,9 @@ para.addEventListener("mouseover", () => {
 
 :::
 
-## The Change Event
+## Подія change
 
-- **Definition**: The change event is a special event which is fired when the user modifies the value of certain input elements. Examples would include when a checkbox or a radio button is ticked. Or when the user makes a selection from something like a date picker or dropdown menu.
+- **Визначення**: Подія change — це спеціальна подія, яка спрацьовує, коли користувач змінює значення певних вхідних елементів. Прикладами є встановлення прапорця або радіокнопки. Або коли користувач робить вибір у таких елементах, як вибір дати або випадаюче меню.
 
 :::interactive_editor
 
@@ -298,22 +297,22 @@ selectEl.addEventListener("change", (e) => {
 
 :::
 
-## Event Bubbling
+## Поширення подій (event bubbling)
 
-- **Definition**: Event bubbling, or propagation, refers to how an event "bubbles up" to parent objects when triggered.
-- **`stopPropagation()` Method**: This method prevents further propagation for an event.
+- **Визначення**: Поширення подій, або пропагування, означає, як подія «піднімається» до батьківських об’єктів після спрацьовування.
+- **Метод `stopPropagation()`**: Цей метод запобігає подальшому поширенню події.
 
-## Event Delegation
+## Делегування подій
 
-- **Definition**: Event delegation is the process of listening to events that have bubbled up to a parent, rather than handling them directly on the element that triggered them.
+- **Визначення**: Делегування подій — це процес прослуховування подій, які піднялися до батьківського елемента, замість обробки їх безпосередньо на елементі, що їх викликав.
 
-## DOMContentLoaded
+## Подія DOMContentLoaded
 
-- **Definition**: The `DOMContentLoaded` event is fired when everything in the HTML document has been loaded and parsed. If you have external stylesheets, or images, the `DOMContentLoaded` event will not wait for those to be loaded. It will only wait for the HTML to be loaded.
+- **Визначення**: Подія `DOMContentLoaded` спрацьовує, коли весь HTML-документ було завантажено та проаналізовано. Якщо у вас є зовнішні таблиці стилів або зображення, подія `DOMContentLoaded` не чекатиме їхнього завантаження. Вона чекатиме лише на завантаження HTML.
 
-## Working with `style` and `classList`
+## Робота з `style` і `classList`
 
-- **`Element.style` Property**: This property is a read-only property that represents the inline style of an element. You can use this property to get or set the style of an element.
+- **Властивість `Element.style`**: Це властивість лише для читання, яка представляє рядковий стиль елемента. Ви можете використати цю властивість, щоб отримати або встановити стиль елемента.
 
 :::interactive_editor
 
@@ -329,7 +328,7 @@ paraEl.style.color = "red";
 
 :::
 
-- **`Element.classList` Property**: This property is a read-only property that can be used to add, remove, or toggle classes on an element.
+- **Властивість `Element.classList`**: Це властивість лише для читання, яку можна використати для додавання, видалення або перемикання класів на елементі.
 
 :::interactive_editor
 
@@ -378,10 +377,9 @@ toggleBtn.addEventListener("click", () => menu.classList.toggle("show"));
 
 :::
 
+## Робота з методами `setTimeout()` і `setInterval()`
 
-## Working with the `setTimeout()` and `setInterval()` Methods
-
-- **`setTimeout()` Method**: This method lets you delay an action for a specified time.
+- **Метод `setTimeout()`**: Цей метод дозволяє затримати виконання дії на певний час.
 
 :::interactive_editor
 
@@ -393,7 +391,7 @@ setTimeout(() => {
 
 :::
 
-- **`setInterval()` Method**: This method keeps runs a piece of code repeatedly at a set interval. Since `setInterval()` keeps executing the provided function at the specified interval, you might want to stop it. For this, you have to use the `clearInterval()` method.
+- **Метод `setInterval()`**: Цей метод запускає фрагмент коду повторно через встановлений інтервал. Оскільки `setInterval()` продовжує виконувати передану функцію з вказаним інтервалом, можливо, ви захочете його зупинити. Для цього потрібно використати метод `clearInterval()`.
 
 :::interactive_editor
 
@@ -414,9 +412,9 @@ setTimeout(() => {
 
 :::
 
-## The `requestAnimationFrame()` Method
+## Метод `requestAnimationFrame()`
 
-- **Definition**: This method allows you to schedule the next step of your animation before the next screen repaint, resulting in a fluid and visually appealing experience. The next screen repaint refers to the moment when the browser refreshes the visual display of the web page. This happens multiple times per second, typically around 60 times (or 60 frames per second) on most displays.
+- **Визначення**: Цей метод дозволяє запланувати наступний крок анімації перед наступним оновленням екрану, що забезпечує плавний і привабливий візуальний ефект. Наступне оновлення екрану — це момент, коли браузер оновлює візуальне відображення вебсторінки. Це відбувається кілька разів на секунду, зазвичай близько 60 разів (або 60 кадрів на секунду) на більшості дисплеїв.
 
 ```js
 function animate() {
@@ -428,9 +426,9 @@ function animate() {
 }
 ```
 
-## Web Animations API
+## Веб-анімації API
 
-- **Definition**: The Web Animations API lets you create and control animations directly inside JavaScript. 
+- **Визначення**: Веб-анімації API дозволяють створювати та керувати анімаціями безпосередньо в JavaScript.
 
 :::interactive_editor
 
@@ -465,9 +463,9 @@ const animation = square.animate(
 
 :::
 
-## The Canvas API
+## Canvas API
 
-- **Definition**: The Canvas API is a powerful tool that lets you manipulate graphics right inside your JavaScript file. To work with the Canvas API, you first need to provide a `canvas` element in HTML. This element acts as a drawing surface you can manipulate with the instance methods and properties of the interfaces in the Canvas API. This API has interfaces like `HTMLCanvasElement`, `CanvasRenderingContext2D`, `CanvasGradient`, `CanvasPattern`, and `TextMetrics` which contain methods and properties you can use to create graphics in your JavaScript file.
+- **Визначення**: Canvas API — це потужний інструмент, який дозволяє маніпулювати графікою безпосередньо у вашому JavaScript-файлі. Щоб працювати з Canvas API, спочатку потрібно додати елемент `canvas` у HTML. Цей елемент слугує поверхнею для малювання, якою можна керувати за допомогою методів і властивостей інтерфейсів Canvas API. Цей API має інтерфейси, такі як `HTMLCanvasElement`, `CanvasRenderingContext2D`, `CanvasGradient`, `CanvasPattern` і `TextMetrics`, які містять методи та властивості для створення графіки у вашому JavaScript-файлі.
 
 :::interactive_editor
 
@@ -492,10 +490,10 @@ ctx.fillRect(1, 1, 150, 100);
 
 :::
 
-## Opening and Closing Dialogs and Modals with JavaScript
+## Відкриття та закриття діалогів і модальних вікон за допомогою JavaScript
 
-- **Modal and Dialog Definitions**: Dialogs let you display important information or actions to users. With the HTML built-in dialog element, you can easily create these dialogs (both modal and non-modal dialogs) in your web apps. A modal dialog is a type of dialog that forces the user to interact with it before they can access the rest of the application or webpage. In contrast, a non-modal dialog allows the user to continue interacting with other parts of the page or application even when the dialog is open. It doesn't prevent access to the rest of the content.
-- **`showModal()` Method**: This method is used to open a modal.
+- **Визначення модальних і діалогових вікон**: Діалоги дозволяють відображати важливу інформацію або дії для користувачів. За допомогою вбудованого HTML-елемента dialog ви можете легко створювати ці діалоги (як модальні, так і немодальні) у своїх вебзастосунках. Модальне діалогове вікно — це тип діалогу, який змушує користувача взаємодіяти з ним, перш ніж він зможе отримати доступ до решти застосунку або вебсторінки. Натомість немодальне діалогове вікно дозволяє користувачу продовжувати взаємодіяти з іншими частинами сторінки або застосунку, навіть коли діалог відкритий. Воно не блокує доступ до решти вмісту.
+- **Метод `showModal()`**: Цей метод використовується для відкриття модального вікна.
 
 :::interactive_editor
 
@@ -518,7 +516,7 @@ openButton.addEventListener('click', () => {
 
 :::
 
-- **`close()` Method**: This method is used to close the modal.
+- **Метод `close()`**: Цей метод використовується для закриття модального вікна.
 
 :::interactive_editor
 
@@ -549,4 +547,4 @@ closeButton.addEventListener('click', () => {
 
 # --assignment--
 
-Review the DOM Manipulation and Click Events with JavaScript topics and concepts.
+Повторіть теми та концепції маніпуляцій DOM і подій кліку з JavaScript.

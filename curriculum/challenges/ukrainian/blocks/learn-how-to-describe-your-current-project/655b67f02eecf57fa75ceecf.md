@@ -1,6 +1,6 @@
 ---
 id: 655b67f02eecf57fa75ceecf
-title: Task 8
+title: Завдання 8
 challengeType: 22
 dashedName: task-8
 lang: en-US
@@ -10,13 +10,13 @@ lang: en-US
 
 # --description--
 
-To `stay` is used to indicate remaining in a particular state or condition. It's often used in instructions or advice to keep oneself in a certain situation. For example:
+Для `stay` використовується, щоб позначити залишання в певному стані або умові. Його часто застосовують у інструкціях або порадах, щоб підтримувати себе в певній ситуації. Наприклад:
 
-- `Stay safe online.` - Continue being safe while using the internet.
+- `Stay safe online.` - Продовжуйте бути в безпеці під час користування інтернетом.
 
-- `Stay calm during the test.` - Continue being calm.
+- `Stay calm during the test.` - Продовжуйте залишатися спокійними.
 
-- `Stay focused on your work.` - Continue paying attention to your work.
+- `Stay focused on your work.` - Продовжуйте звертати увагу на свою роботу.
 
 # --fillInTheBlank--
 
@@ -30,7 +30,7 @@ To `stay` is used to indicate remaining in a particular state or condition. It's
 
 ### --feedback--
 
-This verb indicates that Sophie is actively providing assistance or support to her team. It ends in `-ing`.
+Цей дієслово вказує, що Софі активно надає допомогу або підтримку своїй команді. Воно закінчується на `-ing`.
 
 ---
 
@@ -38,7 +38,7 @@ This verb indicates that Sophie is actively providing assistance or support to h
 
 ### --feedback--
 
-This word is used to suggest maintaining a certain state, in this case, being safe while online.
+Це слово використовується, щоб запропонувати підтримувати певний стан, у цьому випадку — бути в безпеці під час роботи в мережі.
 
 # --scene--
 

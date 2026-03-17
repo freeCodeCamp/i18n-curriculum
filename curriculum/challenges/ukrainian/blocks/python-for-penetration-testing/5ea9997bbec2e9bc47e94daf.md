@@ -1,6 +1,6 @@
 ---
 id: 5ea9997bbec2e9bc47e94daf
-title: Understanding Sockets and Creating a TCP Server
+title: Розуміння сокетів і створення TCP-сервера
 challengeType: 11
 videoId: F1QI9tNuDQg
 bilibiliIds:
@@ -14,7 +14,7 @@ dashedName: understanding-sockets-and-creating-a-tcp-server
 
 ## --text--
 
-Which of the following functions creates a socket object?
+Яка з наведених функцій створює об’єкт сокета?
 
 ## --answers--
 
@@ -31,4 +31,3 @@ Which of the following functions creates a socket object?
 ## --video-solution--
 
 3
-

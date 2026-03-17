@@ -1,6 +1,6 @@
 ---
 id: bd7154d8c242eddfaeb5bd13
-title: Build the Game of Life
+title: Побудуйте гру життя
 challengeType: 3
 forumTopicId: 302362
 dashedName: build-the-game-of-life
@@ -8,36 +8,36 @@ dashedName: build-the-game-of-life
 
 # --description--
 
-**Objective:** Build an app that is functionally similar to this: <a href="https://codepen.io/freeCodeCamp/full/BpwMZv/" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/BpwMZv/</a>.
+**Мета:** Побудуйте застосунок, який функціонально схожий на цей: <a href="https://codepen.io/freeCodeCamp/full/BpwMZv/" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/BpwMZv/</a>.
 
-The Game of Life is a cellular automaton devised by the British mathematician John Horton Conway. It is a <em>zero-player game</em>, meaning that its evolution is determined by its initial state, requiring no further input. One interacts with the Game of Life by creating an initial configuration and observing how it evolves.
+Гра життя — це клітинний автомат, створений британським математиком Джоном Гортоном Конвеєм. Це <em>гра без гравця</em>, що означає, що її розвиток визначається ініціальним станом і не потребує подальших вхідних даних. Взаємодія з грою життя полягає у створенні початкової конфігурації та спостереженні за її розвитком.
 
-The universe of the Game of Life is an infinite, two-dimensional orthogonal grid of square cells, each of which is in one of two possible states, populated and unpopulated. Every cell interacts with its eight neighbors, which are the cells that are horizontally, vertically, or diagonally adjacent.
+Всесвіт гри життя — це нескінченна двовимірна ортогональна сітка квадратних клітинок, кожна з яких перебуває в одному з двох можливих станів: населена або порожня. Кожна клітинка взаємодіє зі своїми вісьмома сусідами, які розташовані горизонтально, вертикально або по діагоналі.
 
-At each step in time, the following transitions occur:
+На кожному кроці часу відбуваються такі переходи:
 
-- Any live cell with fewer than two live neighbors dies, as if by underpopulation.
-- Any live cell with two or three live neighbors lives on to the next generation.
-- Any live cell with more than three live neighbors dies, as if by overpopulation.
-- Any dead cell with exactly three live neighbors becomes a live cell, as if by reproduction.
+- Будь-яка жива клітинка з менш ніж двома живими сусідами вмирає, ніби через недостатню кількість населення.
+- Будь-яка жива клітинка з двома або трьома живими сусідами продовжує жити до наступного покоління.
+- Будь-яка жива клітинка з більш ніж трьома живими сусідами вмирає, ніби через перенаселення.
+- Будь-яка мертва клітинка з рівно трьома живими сусідами стає живою, ніби через розмноження.
 
-Fulfill the below user stories and get all of the tests to pass. Use whichever libraries or APIs you need. Give it your own personal style.
+Виконайте наведені нижче історії користувача і пройдіть усі тести. Використовуйте будь-які бібліотеки або API, які вам потрібні. Додайте свій особистий стиль.
 
-**User Story:** When I first arrive at the game, it will randomly generate a board and start playing.
+**Історія користувача:** Коли я вперше заходжу в гру, вона випадковим чином генерує поле і починає грати.
 
-**User Story:** I can start and stop the board.
+**Історія користувача:** Я можу запускати і зупиняти поле.
 
-**User Story:** I can set up the board.
+**Історія користувача:** Я можу налаштовувати поле.
 
-**User Story:** I can clear the board.
+**Історія користувача:** Я можу очищувати поле.
 
-**User Story:** When I press start, the game will play out.
+**Історія користувача:** Коли я натискаю старт, гра починає відтворюватися.
 
-**User Story:** Each time the board changes, I can see how many generations have gone by.
+**Історія користувача:** Кожного разу, коли поле змінюється, я бачу, скільки поколінь минуло.
 
-When you are finished, include a link to your project and click the "I've completed this challenge" button.
+Коли закінчите, додайте посилання на свій проєкт і натисніть кнопку «Я завершив це завдання».
 
-You can get feedback on your project by sharing it on the <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp forum</a>.
+Ви можете отримати відгук про свій проєкт, поділившись ним на <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">форумі freeCodeCamp</a>.
 
 # --solutions--
 

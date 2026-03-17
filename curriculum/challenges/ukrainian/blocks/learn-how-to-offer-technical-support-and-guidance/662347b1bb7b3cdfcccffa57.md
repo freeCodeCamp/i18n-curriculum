@@ -1,6 +1,6 @@
 ---
 id: 662347b1bb7b3cdfcccffa57
-title: Task 50
+title: Завдання 50
 challengeType: 22
 dashedName: task-50
 lang: en-US
@@ -10,9 +10,9 @@ lang: en-US
 
 # --description--
 
-`Heard` is the past tense of the verb `to hear`, which means to become aware of something through the ears or to be informed of something. For example, `I heard the news yesterday` means you became aware of the news the day before.
+`Heard` — це минулий час дієслова `to hear`, що означає дізнатися про щось через слух або отримати інформацію про щось. Наприклад, `I heard the news yesterday` означає, що ви дізналися новини напередодні.
 
-An `authentication module` in a software context is a part of a system responsible for verifying the identity of users. It's often used in login systems. For example, `The authentication module checks the username and password` means it verifies the user's credentials.
+`authentication module` у контексті програмного забезпечення — це частина системи, відповідальна за перевірку ідентичності користувачів. Його часто використовують у системах входу. Наприклад, `The authentication module checks the username and password` означає, що він перевіряє облікові дані користувача.
 
 # --fillInTheBlank--
 
@@ -26,7 +26,7 @@ An `authentication module` in a software context is a part of a system responsib
 
 ### --feedback--
 
-It is the past tense of `to hear`, indicating Brian was informed about Sophie's task.
+Це минулий час від `to hear`, що вказує на те, що Браян отримав інформацію про завдання Софі.
 
 ---
 
@@ -34,7 +34,7 @@ It is the past tense of `to hear`, indicating Brian was informed about Sophie's 
 
 ### --feedback--
 
-It refers to the act of repairing or resolving the issue (bug) in the software.
+Це стосується дії з виправлення або усунення проблеми (помилки) у програмному забезпеченні.
 
 ---
 
@@ -42,7 +42,7 @@ It refers to the act of repairing or resolving the issue (bug) in the software.
 
 ### --feedback--
 
-It refers to the process of verifying a user's identity in the software module.
+Це стосується процесу перевірки ідентичності користувача у програмному модулі.
 
 # --scene--
 

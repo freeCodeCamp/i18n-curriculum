@@ -1,65 +1,65 @@
 ---
 id: 67d2ff6f069dce9feacb7d25
-title: What Is Compatibility Testing?
+title: Що таке тестування сумісності?
 challengeType: 19
 dashedName: what-is-compatibility-testing
 ---
 
 # --description--
 
-When you build out web applications at scale, you will need to think beyond your personal computing environment. How will these applications work on a variety of devices, operating systems, and browsers? Well, this is where compatibility testing comes in.
+Коли ви створюєте веб-застосунки у великому масштабі, потрібно думати не лише про своє особисте комп’ютерне середовище. Як ці застосунки працюватимуть на різних пристроях, операційних системах і браузерах? Саме тут на допомогу приходить тестування сумісності.
 
-The goal of compatibility testing is to see how well your software works in a variety of different computing environments. This provides the team with the ability to catch bugs before they reach production and will help contribute to a smoother product launch.
+Мета тестування сумісності — перевірити, наскільки добре ваше програмне забезпечення працює в різних комп’ютерних середовищах. Це дає команді змогу виявити помилки до того, як вони потраплять у продакшн, і допомагає зробити запуск продукту більш плавним.
 
-Different types of compatibility testing include backwards and forwards compatibility, hardware testing, operating systems, networks, browsers, and mobile devices.
+Існують різні типи тестування сумісності: сумісність з попередніми та майбутніми версіями, тестування апаратного забезпечення, операційних систем, мереж, браузерів і мобільних пристроїв.
 
-Let's take a look at each of the types in more detail by starting with backwards and forwards compatibility. Backwards compatibility refers to when current software is compatible with earlier versions. Forwards compatibility is when software and systems will work with future versions of itself.
+Давайте розглянемо кожен тип детальніше, починаючи з сумісності з попередніми та майбутніми версіями. Сумісність з попередніми версіями означає, що поточне програмне забезпечення сумісне з ранніми версіями. Сумісність з майбутніми версіями — це коли програмне забезпечення і системи працюватимуть із майбутніми версіями самого себе.
 
-The next type of testing is for hardware. Hardware compatibility testing focuses on the software's ability to work properly in different hardware configurations. This includes different types of processors, memory, storage, and graphics cards.
+Наступний тип тестування — тестування апаратного забезпечення. Воно зосереджене на здатності програмного забезпечення правильно працювати в різних апаратних конфігураціях. Це включає різні типи процесорів, пам’яті, сховищ і відеокарт.
 
-Another type of compatibility testing is for operating systems. You don't want to design software that works smoothly on Mac devices but has bugs on Windows or vice versa. You also need to consider Linux distributions like Ubuntu and Fedora.
+Ще один тип тестування сумісності — тестування операційних систем. Ви не хочете створювати програмне забезпечення, яке добре працює на пристроях Mac, але має помилки на Windows, або навпаки. Також потрібно враховувати дистрибутиви Linux, такі як Ubuntu і Fedora.
 
-The next type of testing is network compatibility testing. You will have users working with different network speeds, protocols, security settings, and more. Therefore, software teams will need to be mindful of all of those different conditions when testing.
+Наступний тип тестування — тестування сумісності мереж. У користувачів будуть різні швидкості мережі, протоколи, налаштування безпеки та інше. Тому команди розробників повинні враховувати всі ці умови під час тестування.
 
-Then, there's browser compatibility testing. There are a few popular browsers in the market like Google Chrome, Safari, Firefox, and more. Since all browsers work slightly differently, it's important to test your web application thoroughly and make sure your web applications work consistently across many browsers.
+Далі йде тестування сумісності браузерів. На ринку є кілька популярних браузерів, таких як Google Chrome, Safari, Firefox та інші. Оскільки всі браузери працюють трохи по-різному, важливо ретельно тестувати ваш веб-застосунок і переконатися, що він стабільно працює у багатьох браузерах.
 
-The last type of testing is mobile testing. There was a time in web development when most developers didn't think about testing for mobile devices. This was because, in the early 2000s, mobile devices weren't nearly as powerful or widely used as they are today. But now, tens of millions of people visit websites on phones and tablets. So, it is important to ensure that your software applications work on a variety of Android and iOS devices.
+Останній тип тестування — мобільне тестування. Колись у веб-розробці більшість розробників не думали про тестування для мобільних пристроїв. Це було тому, що на початку 2000-х мобільні пристрої не були такими потужними і поширеними, як сьогодні. Але зараз десятки мільйонів людей заходять на сайти з телефонів і планшетів. Тому важливо переконатися, що ваші застосунки працюють на різних пристроях Android і iOS.
 
-Those are just a few types of testing that you will need to consider when building out your applications. While this might seem like a lot of extra work, it is important to perform compatibility tests because you do want to ensure that your applications work in a variety of computing environments.
+Це лише кілька типів тестування, які потрібно враховувати під час створення застосунків. Хоча це може здатися додатковою роботою, важливо проводити тестування сумісності, щоб переконатися, що ваші застосунки працюють у різних комп’ютерних середовищах.
 
 # --questions--
 
 ## --text--
 
-What is the main goal of compatibility testing?
+Яка основна мета тестування сумісності?
 
 ## --answers--
 
-To ensure that your applications have no accessibility errors.
+Щоб переконатися, що у ваших застосунках немає помилок доступності.
 
 ### --feedback--
 
-Refer to the beginning of the lesson where this was discussed.
+Зверніться до початку уроку, де це обговорювалося.
 
 ---
 
-To ensure that your applications are free from linting and formatting errors.
+Щоб переконатися, що у ваших застосунках немає помилок лінтингу та форматування.
 
 ### --feedback--
 
-Refer to the beginning of the lesson where this was discussed.
+Зверніться до початку уроку, де це обговорювалося.
 
 ---
 
-To ensure that your applications work in a variety of computing environments.
+Щоб переконатися, що ваші застосунки працюють у різних комп’ютерних середовищах.
 
 ---
 
-To ensure that your applications only work for different Linux distributions.
+Щоб переконатися, що ваші застосунки працюють лише для різних дистрибутивів Linux.
 
 ### --feedback--
 
-Refer to the beginning of the lesson where this was discussed.
+Зверніться до початку уроку, де це обговорювалося.
 
 ## --video-solution--
 
@@ -67,35 +67,35 @@ Refer to the beginning of the lesson where this was discussed.
 
 ## --text--
 
-Which of the following refers to when current software is compatible with earlier versions?
+Що з наведеного означає сумісність поточного програмного забезпечення з ранніми версіями?
 
 ## --answers--
 
-CPU compatibility
+Сумісність центрального процесора
 
 ### --feedback--
 
-Think about how software will work with older versions.
+Подумайте, як програмне забезпечення працюватиме з попередніми версіями.
 
 ---
 
-Accessible compatibility
+Сумісність доступності
 
 ### --feedback--
 
-Think about how software will work with older versions.
+Подумайте, як програмне забезпечення працюватиме з попередніми версіями.
 
 ---
 
-Forwards compatibility
+Сумісність з майбутніми версіями
 
 ### --feedback--
 
-Think about how software will work with older versions.
+Подумайте, як програмне забезпечення працюватиме з попередніми версіями.
 
 ---
 
-Backwards compatibility
+Сумісність з попередніми версіями
 
 ## --video-solution--
 
@@ -103,35 +103,35 @@ Backwards compatibility
 
 ## --text--
 
-Which of the following is NOT typically targeted in compatibility testing?
+Що з наведеного ЗАЗВИЧАЙ НЕ є ціллю тестування сумісності?
 
 ## --answers--
 
-Mobile operating systems
+Мобільні операційні системи
 
 ### --feedback--
 
-One of these options refers to computer memory.
+Один із варіантів стосується комп’ютерної пам’яті.
 
 ---
 
-RAM size
+Обсяг оперативної пам’яті
 
 ---
 
-Hardware configuration
+Апаратна конфігурація
 
 ### --feedback--
 
-One of these options refers to computer memory.
+Один із варіантів стосується комп’ютерної пам’яті.
 
 ---
 
-Network environments
+Мережеві середовища
 
 ### --feedback--
 
-One of these options refers to computer memory.
+Один із варіантів стосується комп’ютерної пам’яті.
 
 ## --video-solution--
 

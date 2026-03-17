@@ -1,6 +1,6 @@
 ---
 id: 67dd5baa84d2fcc56c09dce3
-title: Task 15
+title: Завдання 15
 challengeType: 22
 dashedName: task-15
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Прослухайте аудіо та доповніть речення нижче.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This means to make a choice or come to a conclusion about something.
+Це означає зробити вибір або дійти висновку щодо чогось.
 
 ---
 
@@ -32,17 +32,17 @@ This means to make a choice or come to a conclusion about something.
 
 ### --feedback--
 
-This refers to a specific stage or part of a process or project.
+Це стосується конкретного етапу або частини процесу чи проєкту.
 
 # --explanation--
 
-`To decide` means to choose something after thinking about it. For example:
+`To decide` означає вибрати щось після обдумування. Наприклад:
 
-`We need to decide which tools to use for the project.` – This means choosing the tools after considering the options.
+`We need to decide which tools to use for the project.` – Це означає вибрати інструменти після розгляду варіантів.
 
-A `phase` refers to one part or step in a larger process. For example:
+`phase` позначає одну частину або крок у більшому процесі. Наприклад:
 
-`We just finished the testing phase of the software.` – This means the testing step in the development process is complete.
+`We just finished the testing phase of the software.` – Це означає, що крок тестування в процесі розробки завершено.
 
 # --scene--
 
