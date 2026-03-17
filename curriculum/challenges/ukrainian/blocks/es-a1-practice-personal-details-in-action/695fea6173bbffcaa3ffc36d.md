@@ -1,6 +1,6 @@
 ---
 id: 695fea6173bbffcaa3ffc36d
-title: Task 10
+title: Завдання 10
 challengeType: 19
 dashedName: task-10
 lang: es
@@ -10,19 +10,19 @@ lang: es
 
 # --description--
 
-There are two common ways to ask for someone's name in Spanish.
+Існує два загальні способи запитати ім’я людини іспанською.
 
-Both are used in everyday Spanish and mean the same thing. They're just structured differently.
+Обидва використовуються в повсякденній іспанській мові і мають однакове значення. Вони просто побудовані по-різному.
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Прослухайте аудіо та дайте відповідь на запитання нижче.
 
 # --questions--
 
 ## --text--
 
-Which of the following questions **is similar** to what you hear in the audio?
+Яке з наведених запитань **схоже** на те, що ви чуєте в аудіо?
 
 ## --answers--
 
@@ -34,7 +34,7 @@ Which of the following questions **is similar** to what you hear in the audio?
 
 ### --feedback--
 
-This question asks where someone lives.
+Це запитання про те, де хтось живе.
 
 ---
 
@@ -42,7 +42,7 @@ This question asks where someone lives.
 
 ### --feedback--
 
-This asks for someone's last name.
+Це запитання про прізвище людини.
 
 ---
 
@@ -50,7 +50,7 @@ This asks for someone's last name.
 
 ### --feedback--
 
-This asks if someone has a nickname.
+Це запитання, чи має хтось прізвисько.
 
 ## --video-solution--
 
@@ -58,16 +58,16 @@ This asks if someone has a nickname.
 
 # --explanation--
 
-Esteban says `¿Cómo te llamas?`. This is one of the most common ways to ask for someone's name in Spanish. Another very common question with the same meaning is:
+Естебан каже `¿Cómo te llamas?`. Це один із найпоширеніших способів запитати ім’я людини іспанською. Інше дуже поширене запитання з таким самим значенням:
 
 `¿Cuál es tu nombre?`
 
-Both questions are used in everyday Spanish to ask for a person's name. They are simply structured differently:
+Обидва запитання використовуються в повсякденній іспанській, щоб дізнатися ім’я людини. Вони просто побудовані по-різному:
 
-- `¿Cómo te llamas?` uses the verb `llamarse` (to be called).
-- `¿Cuál es tu nombre?` asks directly for the name as a noun.
+- `¿Cómo te llamas?` використовує дієслово `llamarse` (називатися).
+- `¿Cuál es tu nombre?` запитує безпосередньо ім’я як іменник.
 
-In this task, the correct answer is the option that asks for someone's name.
+У цьому завданні правильною відповіддю є варіант, який запитує ім’я людини.
 
 # --scene--
 

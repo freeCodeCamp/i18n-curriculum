@@ -1,27 +1,27 @@
 ---
 id: 618a0b2befb143baefab632b
-title: Step 37
+title: Крок 37
 challengeType: 0
 dashedName: step-37
 ---
 
 # --description--
 
-Notice that the red and cyan colors are very bright right next to each other. This contrast can be distracting if it's overused on a website, and can make text hard to read if it's placed on a complementary-colored background.
+Зверніть увагу, що червоний і бірюзовий кольори дуже яскраві поруч один з одним. Такий контраст може відволікати, якщо його надмірно використовувати на сайті, і може ускладнити читання тексту, якщо він розміщений на доповнюючому кольоровому фоні.
 
-It's better practice to choose one color as the dominant color, and use its complementary color as an accent to bring attention to certain content on the page.
+Краще обрати один колір як домінантний, а доповнюючий колір використовувати як акцент, щоб привернути увагу до певного вмісту на сторінці.
 
-First, in the `h1` rule, use the `rgb` function to set its `background-color` to cyan.
+Спочатку у правилі `h1` використайте функцію `rgb`, щоб встановити його властивість `background-color` у бірюзовий колір.
 
 # --hints--
 
-You should not remove or modify the `text-align` property or its value.
+Ви не повинні видаляти або змінювати властивість `text-align` або її значення.
 
 ```js
 assert(new __helpers.CSSHelp(document).getStyle('h1')?.textAlign === 'center');
 ```
 
-Your `h1` CSS rule should have a `background-color` property set to `rgb(0, 255, 255)`.
+Ваше CSS-правило `h1` має містити властивість `background-color`, встановлену у `rgb(0, 255, 255)`.
 
 ```js
 assert(new __helpers.CSSHelp(document).getStyle('h1')?.backgroundColor === 'rgb(0, 255, 255)');

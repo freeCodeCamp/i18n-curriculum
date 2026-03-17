@@ -1,15 +1,15 @@
 ---
 id: 644a0eadcbccaf1d13c7d137
-title: Step 19
+title: Passaggio 19
 challengeType: 0
 dashedName: step-19
 ---
 
 # --description--
 
-In the base-2 number system, the rightmost digit represents the ones place, the next digit to the left represents the twos place, then the fours place, then the eights place, and so on. In this system, each digit's place value is two times greater than the digit to its right.
+Nel sistema numerico in base 2, la cifra più a destra rappresenta il posto delle unità, la cifra successiva a sinistra rappresenta il posto delle due, poi quello delle quattro, poi quello delle otto, e così via. In questo sistema, il valore del posto di ogni cifra è due volte maggiore rispetto alla cifra alla sua destra.
 
-Here are numbers zero to nine in the base-10 and base-2 number systems:
+Ecco i numeri da zero a nove nei sistemi numerici in base 10 e base 2:
 
 ```md
 | Base-10 | Base-2 |
@@ -26,25 +26,25 @@ Here are numbers zero to nine in the base-10 and base-2 number systems:
 |    9    |  1001  |
 ```
 
-Notice that binary numbers are formed from left to right, from the digit with the greatest place value on the left, to the least significant on the right. For example, the number `3` in binary is `11`, or `1` in the twos place and `1` in the ones place. Then for the number `4`, a digit to represent the fours place is included on the left and set to `1`, the twos place is `0`, and the ones place is `0`.
+Nota che i numeri binari si formano da sinistra a destra, dalla cifra con il valore di posto più grande a sinistra, a quella meno significativa a destra. Per esempio, il numero `3` in binario è `11`, o `1` nel posto delle due e `1` nel posto delle unità. Poi, per il numero `4`, viene inclusa a sinistra una cifra per rappresentare il posto delle quattro impostata su `1`, il posto delle due è `0` e il posto delle unità è `0`.
 
-In your `decimalToBinary` function, convert the number `10` into binary and `return` it as a string.
+Nella tua funzione `decimalToBinary`, converti il numero `10` in binario e `return` come stringa.
 
 # --hints--
 
-Your `decimalToBinary` function should return a string.
+La tua funzione `decimalToBinary` dovrebbe restituire una stringa.
 
 ```js
 assert.isString(decimalToBinary());
 ```
 
-Your `decimalToBinary` function should return a string with a length of `4`.
+La tua funzione `decimalToBinary` dovrebbe restituire una stringa con una lunghezza di `4`.
 
 ```js
 assert.strictEqual(decimalToBinary().length, 4);
 ```
 
-Your `decimalToBinary` function should return `"1010"` as a string.
+La tua funzione `decimalToBinary` dovrebbe restituire `"1010"` come stringa.
 
 ```js
 assert.strictEqual(decimalToBinary(), '1010');

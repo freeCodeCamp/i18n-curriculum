@@ -1,6 +1,6 @@
 ---
 id: bd7123c9c443eddfaeb5bdef
-title: Declare JavaScript Variables
+title: оголосити змінні JavaScript
 challengeType: 1
 forumTopicId: 17556
 dashedName: declare-javascript-variables
@@ -8,32 +8,32 @@ dashedName: declare-javascript-variables
 
 # --description--
 
-In computer science, <dfn>data</dfn> is anything that is meaningful to the computer. JavaScript provides eight different <dfn>data types</dfn> which are `undefined`, `null`, `boolean`, `string`, `symbol`, `bigint`, `number`, and `object`.
+У комп’ютерних науках <dfn>дані</dfn> — це все, що має значення для комп’ютера. JavaScript надає вісім різних <dfn>типів даних</dfn>, якими є `undefined`, `null`, `boolean`, `string`, `symbol`, `bigint`, `number` та `object`.
 
-For example, computers distinguish between numbers, such as the number `12`, and `strings`, such as `"12"`, `"dog"`, or `"123 cats"`, which are collections of characters. Computers can perform mathematical operations on a number, but not on a string.
+Наприклад, комп’ютери розрізняють числа, такі як число `12`, і `strings`, такі як `"12"`, `"dog"` або `"123 cats"`, які є колекціями символів. Комп’ютери можуть виконувати математичні операції над числом, але не над рядком.
 
-<dfn>Variables</dfn> allow computers to store and manipulate data in a dynamic fashion. They do this by using a "label" to point to the data rather than using the data itself. Any of the eight data types may be stored in a variable.
+<dfn>Змінні</dfn> дозволяють комп’ютерам зберігати та динамічно оперувати даними. Вони роблять це, використовуючи «мітку», щоб вказати на дані, а не самі дані. Будь-який із восьми типів даних може зберігатися у змінній.
 
-Variables are similar to the x and y variables you use in mathematics, which means they're a simple name to represent the data we want to refer to. Computer variables differ from mathematical variables in that they can store different values at different times.
+Змінні схожі на змінні x та y, які ви використовуєте в математиці, тобто це прості імена для представлення даних, на які ми хочемо посилатися. Комп’ютерні змінні відрізняються від математичних тим, що вони можуть зберігати різні значення в різний час.
 
-We tell JavaScript to create or <dfn>declare</dfn> a variable by putting the keyword `var` in front of it, like so:
+Ми кажемо JavaScript створити або <dfn>оголосити</dfn> змінну, поставивши ключове слово `var` перед нею, ось так:
 
 ```js
 var ourName;
 ```
 
-creates a variable called `ourName`. In JavaScript we end statements with semicolons. Variable names can be made up of numbers, letters, and `$` or `_`, but may not contain spaces or start with a number.
+створює змінну з ім’ям `ourName`. У JavaScript інструкції закінчуються крапкою з комою. Імена змінних можуть складатися з чисел, літер і `$` або `_`, але не можуть містити пробілів або починатися з числа.
 
 # --instructions--
 
-Use the `var` keyword to create a variable called `myName`.
+Використайте ключове слово `var`, щоб створити змінну з ім’ям `myName`.
 
-**Hint**  
-Look at the `ourName` example above if you get stuck.
+**Підказка**  
+Якщо застрягли, подивіться на приклад `ourName` вище.
 
 # --hints--
 
-You should declare `myName` with the `var` keyword, ending with a semicolon
+Ви повинні оголосити `myName` за допомогою ключового слова `var`, закінчуючи крапкою з комою
 
 ```js
 assert(/var\s+myName\s*;/.test(__helpers.removeJSComments(code)));

@@ -1,6 +1,6 @@
 ---
 id: 68da8dffcffd794e83de9d6c
-title: Task 10
+title: Attività 10
 challengeType: 19
 dashedName: task-10
 lang: zh-CN
@@ -10,13 +10,13 @@ lang: zh-CN
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Ascolta l'audio e rispondi alla domanda qui sotto.
 
 # --questions--
 
 ## --text--
 
-What is Chen Na saying to greet a group of people?
+Cosa dice Chen Na per salutare un gruppo di persone?
 
 ## --answers--
 
@@ -24,7 +24,7 @@ What is Chen Na saying to greet a group of people?
 
 ### --feedback--
 
-This is a greeting to one person, but Chen Na is greeting more than one.
+Questo è un saluto rivolto a una persona, ma Chen Na sta salutando più persone.
 
 ---
 
@@ -32,7 +32,7 @@ This is a greeting to one person, but Chen Na is greeting more than one.
 
 ### --feedback--
 
-This form is not standard in Chinese.
+Questa forma non è standard in cinese.
 
 ---
 
@@ -44,7 +44,7 @@ This form is not standard in Chinese.
 
 ### --feedback--
 
-This also means "Hello, everyone", but Chen Na uses a different phrase.
+Anche questa significa "ciao a tutti", ma Chen Na usa una frase diversa.
 
 ## --video-solution--
 
@@ -52,11 +52,11 @@ This also means "Hello, everyone", but Chen Na uses a different phrase.
 
 # --explanation--
 
-The question is asking what Chen Na is saying to greet **a group of people**.
+La domanda chiede cosa dice Chen Na per salutare **un gruppo di persone**.
 
-`你好 (nǐ hǎo)` is a greeting to one person, while `您好 (nín hǎo)` is a polite greeting to one person. `您们好 (nín men hǎo)` is not standard in Chinese; `您 (nín)` is polite singular, not usually pluralized.
+`你好 (nǐ hǎo)` è un saluto rivolto a una persona, mentre `您好 (nín hǎo)` è un saluto cortese rivolto a una persona. `您们好 (nín men hǎo)` non è standard in cinese; `您 (nín)` è cortese al singolare, di solito non si usa al plurale.
 
-The correct phrase for greeting a group is `你们好 (nǐ men hǎo)`, which is a common way to say "hello, everyone". `大家好 (dà jiā hǎo)` is another way to greet a group, which you'll learn as you progress.
+La frase corretta per salutare un gruppo è `你们好 (nǐ men hǎo)`, che è un modo comune per dire "ciao a tutti". `大家好 (dà jiā hǎo)` è un altro modo per salutare un gruppo, che imparerai man mano che procedi.
 
 # --scene--
 

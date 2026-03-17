@@ -1,6 +1,6 @@
 ---
 id: a4cfb218d22efcfa7cc49d80
-title: Exponent Functions
+title: Funzioni esponenziali
 challengeType: 11
 videoId: KLDvy0wFFX4
 dashedName: exponent-functions-learn-python-full-course-for-beginners
@@ -8,29 +8,29 @@ dashedName: exponent-functions-learn-python-full-course-for-beginners
 
 # --description--
 
-In this video, you will learn how to write a function that calculates exponents and powers in Python.
+In questo video imparerai come scrivere una funzione che calcola esponenti e potenze in Python.
 
 # --questions--
 
 ## --text--
 
-What does the `range()` function in Python do?
+Cosa fa la funzione `range()` in Python?
 
 ## --answers--
 
-It returns a number from a list.
+Restituisce un numero da una lista.
 
 ---
 
-It creates a list of random numbers.
+Crea una lista di numeri casuali.
 
 ---
 
-It generates a sequence of integers between a starting and stopping point.
+Genera una sequenza di numeri interi tra un punto di inizio e uno di fine.
 
 ---
 
-It generates a sequence of floats between a starting and stopping point.
+Genera una sequenza di numeri float tra un punto di inizio e uno di fine.
 
 ## --video-solution--
 

@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c242eddfaeb5bd13
-title: Build a Personal Portfolio
+title: створіть персональне портфоліо
 challengeType: 25
 dashedName: build-a-personal-portfolio
 demoType: onClick
@@ -9,34 +9,34 @@ saveSubmissionToDB: true
 
 # --description--
 
-**Objective:** Fulfill the user stories below and get all the tests to pass to complete the lab.
+**Мета:** Виконайте наведені нижче історії користувача та пройдіть усі тести, щоб завершити лабораторну роботу.
 
-**User Stories:**
+**Історії користувача:**
 
-1. Your portfolio should have a welcome section with an `id` of `welcome-section`.
-2. The welcome section should have an `h1` element that contains text.
-3. Your portfolio should have a projects section with an `id` of `project-section`.
-4. The projects section should contain at least one element with a `class` of `project-tile` to hold a project.
-5. The projects section should contain at least one link to a project.
-6. Your portfolio should have a navbar with an id of `navbar`.
-7. The navbar should contain at least one link that you can click on to navigate to different sections of the page.
-8. Your portfolio should have a link with an id of `profile-link`, which opens your GitHub or freeCodeCamp profile in a new tab.
-9. Your portfolio should have at least one media query.
-10. The height of the welcome section should be equal to the height of the viewport.
-11. The navbar should always be at the top of the viewport.
+1. Ваше портфоліо має містити розділ привітання з `id` `welcome-section`.
+2. Розділ привітання має містити елемент `h1`, який містить текст.
+3. Ваше портфоліо має містити розділ проєктів з `id` `project-section`.
+4. Розділ проєктів має містити принаймні один елемент з класом `class` `project-tile`, щоб розмістити проєкт.
+5. Розділ проєктів має містити принаймні одне посилання на проєкт.
+6. Ваше портфоліо має містити панель навігації з ідентифікатором `navbar`.
+7. Панель навігації має містити принаймні одне посилання, на яке можна натиснути, щоб перейти до різних розділів сторінки.
+8. Ваше портфоліо має містити посилання з ідентифікатором `profile-link`, яке відкриває ваш профіль GitHub або freeCodeCamp у новій вкладці.
+9. Ваше портфоліо має містити принаймні один медіазапит.
+10. Висота розділу привітання має дорівнювати висоті вікна перегляду.
+11. Панель навігації має завжди бути зверху вікна перегляду.
 
-**Note:** Be sure to link your stylesheet in your HTML and apply your CSS.
+**Примітка:** Обов’язково підключіть свій файл стилів у HTML і застосуйте CSS.
 
 # --hints--
 
-Your portfolio should have a "Welcome" section with an `id` of `welcome-section`.
+Ваше портфоліо має містити розділ "Welcome" з `id` `welcome-section`.
 
 ```js
 const el = document.getElementById('welcome-section');
 assert.isNotNull(el);
 ```
 
-Your `#welcome-section` element should contain an `h1` element.
+Ваш елемент `#welcome-section` має містити елемент `h1`.
 
 ```js
 assert.isAbove(
@@ -46,7 +46,7 @@ assert.isAbove(
 );
 ```
 
-You should not have any empty `h1` elements within `#welcome-section` element.
+У вас не має бути порожніх елементів `h1` всередині елемента `#welcome-section`.
 
 ```js
 assert.isAbove(
@@ -56,14 +56,14 @@ assert.isAbove(
 );
 ```
 
-You should have a "Projects" section with an `id` of `project-section`.
+Вам потрібно мати розділ "Projects" з `id` `project-section`.
 
 ```js
 const el = document.getElementById('project-section');
 assert.isNotNull(el);
 ```
 
-Your portfolio should contain at least one element with a class of `project-tile`.
+Ваше портфоліо має містити принаймні один елемент з класом `project-tile`.
 
 ```js
 assert.isAbove(
@@ -72,20 +72,20 @@ assert.isAbove(
 );
 ```
 
-Your `#project-section` element should contain at least one `a` element.
+Ваш елемент `#project-section` має містити принаймні один елемент `a`.
 
 ```js
 assert.isAbove(document.querySelectorAll('#project-section a').length, 0);
 ```
 
-Your portfolio should have a navbar with an `id` of `navbar`.
+Ваше портфоліо має містити панель навігації з `id` `navbar`.
 
 ```js
 const el = document.getElementById('navbar');
 assert.isNotNull(el);
 ```
 
-Your `#navbar` element should contain at least one `a` element whose `href` attribute starts with `#`.
+Ваш елемент `#navbar` має містити принаймні один елемент `a`, атрибут `href` якого починається з `#`.
 
 ```js
 const links = [...document.querySelectorAll('#navbar a')].filter(
@@ -95,7 +95,7 @@ const links = [...document.querySelectorAll('#navbar a')].filter(
 assert.isAbove(links.length, 0, 'Navbar should contain an anchor link ');
 ```
 
-Your portfolio should have an `a` element with an `id` of `profile-link`.
+Ваше портфоліо має містити елемент `a` з `id` `profile-link`.
 
 ```js
 const el = document.getElementById('profile-link');
@@ -103,7 +103,7 @@ assert.isNotNull(el);
 assert.strictEqual(el.tagName, 'A');
 ```
 
-Your `#profile-link` element should have a `target` attribute of `_blank`.
+Ваш елемент `#profile-link` має мати атрибут `target` зі значенням `_blank`.
 
 ```js
 const el = document.getElementById('profile-link');
@@ -111,7 +111,7 @@ assert.isNotNull(el);
 assert.strictEqual(el.target, '_blank');
 ```
 
-Your portfolio should use at least one media query.
+Ваше портфоліо має використовувати принаймні один медіазапит.
 
 ```js
 const htmlSourceAttr = Array.from(document.querySelectorAll('source')).map(el => el.getAttribute('media'))
@@ -119,7 +119,7 @@ const cssCheck = new __helpers.CSSHelp(document).getCSSRules('media')
 assert.isTrue(cssCheck.length > 0 || htmlSourceAttr.length > 0);
 ```
 
-Your `#navbar` element should always be at the top of the viewport.
+Ваш елемент `#navbar` має завжди бути зверху вікна перегляду.
 
 ```js
   const timeout = milliseconds =>

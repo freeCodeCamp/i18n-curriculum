@@ -1,38 +1,38 @@
 ---
 id: 647e21eb8acb466c97ccbeea
-title: 'Керований проєкт: розробіть структури foreach та if-elseif-else, щоб обробити дані масиву в C#'
+title: "Керований проєкт — розробка структур foreach та if-elseif-else для обробки даних масиву в C#"
 challengeType: 19
 dashedName: guided-project-develop-foreach-and-if-elseif-else-structures-to-process-array-data-in-c-sharp
 ---
 
 # --description--
 
-Це завдання буде частково виконано на платформі Microsoft Learn. Дотримуйтесь цих інструкцій, щоб виконати завдання:
+Це завдання частково буде виконано на платформі Microsoft Learn. Дотримуйтесь цих інструкцій, щоб завершити завдання:
 
-1. Перейдіть до <a href="https://learn.microsoft.com/training/modules/guided-project-arrays-iteration-selection/" target="_blank" rel="noreferrer">https://learn.microsoft.com/training/modules/guided-project-arrays-iteration-selection/</a> та виконайте всі завдання модуля «Керований проєкт: розробіть структури foreach та if-elseif-else, щоб обробити дані масиву в C#». Це **обов’язково**, щоб отримати трофей зі «Створення та запуск простих консольних застосунків C#» на Microsoft Learn та мати змогу скласти сертифікаційний екзамен.
-1. Як тільки завершите, поверніться та дайте правильну відповідь на запитання нижче.
+1. Перейдіть за посиланням <a href="https://learn.microsoft.com/training/modules/guided-project-arrays-iteration-selection/" target="_blank" rel="noreferrer">https://learn.microsoft.com/training/modules/guided-project-arrays-iteration-selection/</a> і виконайте всі завдання модуля "Керований проєкт — розробка структур foreach та if-elseif-else для обробки даних масиву в C#". Це **обов’язково** для отримання трофею "Створення та запуск простих консольних застосунків C#" на Microsoft Learn і для допуску до сертифікаційного екзамену.
+1. Коли закінчите, поверніться сюди і правильно відповідайте на запитання нижче.
 
 # --assignment--
 
-Виконайте керований проєкт <a href="https://learn.microsoft.com/training/modules/guided-project-arrays-iteration-selection/" target="_blank" rel="noreferrer">«Розробіть структури foreach та if-elseif-else, щоб обробити дані масиву в C#»</a> на Microsoft Learn. Потім дайте відповідь на запитання нижче.
+Виконайте керований проєкт <a href="https://learn.microsoft.com/training/modules/guided-project-arrays-iteration-selection/" target="_blank" rel="noreferrer">Розробка структур `foreach` та `if`-`elseif`-`else` для обробки даних масиву в C#</a> на Microsoft Learn. Потім дайте відповідь на запитання нижче.
 
 # --questions--
 
 ## --text--
 
-Розробник пише застосунок, який використовує цикл `foreach`, щоб перебрати масив з 20 елементами. Як тільки застосунок готовий, розробник дізнається, що масив повинен містити 40 елементів. Застосунок має розглянути усі 40 елементів масиву. Яке оновлення коду потрібно виконати?
+Розробник пише застосунок, який використовує цикл `foreach` для ітерації по масиву, що містить 20 елементів. Після завершення застосунку розробник дізнається, що масив потрібно оновити, щоб він містив 40 елементів. Застосунок має перевіряти всі 40 елементів масиву. Який із наведених варіантів описує необхідне оновлення коду?
 
 ## --answers--
 
-Створити другий цикл `foreach`, який перебирає додаткові елементи.
+Створити другий цикл `foreach`, який ітерує по додаткових елементах.
 
 ---
 
-До циклу `foreach` не потрібно вносити змін.
+Цикл `foreach` не потребує змін.
 
 ---
 
-Розмістити початковий цикл `foreach` всередині другого циклу `foreach`, який перебиратиметься двічі.
+Розмістити початковий цикл `foreach` всередині блоку коду другого циклу `foreach`, який ітерує двічі.
 
 ## --video-solution--
 

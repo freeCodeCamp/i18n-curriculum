@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9aedf0887a
-title: Headline with the h2 Element
+title: Заголовок із елементом h2
 challengeType: 0
 videoUrl: 'https://scrimba.com/p/pVMPUv/cE8Gqf3'
 forumTopicId: 18196
@@ -9,44 +9,44 @@ dashedName: headline-with-the-h2-element
 
 # --description--
 
-Over the next few lessons, we'll build an HTML5 cat photo web app piece-by-piece.
+У наступних кількох уроках ми поступово створимо HTML5 застосунок із фотографіями котів.
 
-The `h2` element you will be adding in this step will add a level two heading to the web page.
+Елемент `h2`, який ви додасте на цьому кроці, додасть заголовок другого рівня на вебсторінку.
 
-This element tells the browser about the structure of your website. `h1` elements are often used for main headings, while `h2` elements are generally used for subheadings. There are also `h3`, `h4`, `h5` and `h6` elements to indicate different levels of subheadings.
+Цей елемент повідомляє браузеру про структуру вашого сайту. Елементи `h1` часто використовують для основних заголовків, тоді як елементи `h2` зазвичай призначені для підзаголовків. Існують також елементи `h3`, `h4`, `h5` і `h6`, які позначають різні рівні підзаголовків.
 
 # --instructions--
 
-Add an `h2` tag that says "CatPhotoApp" to create a second HTML element below your "Hello World" `h1` element.
+Додайте тег `h2` із текстом "CatPhotoApp", щоб створити другий HTML-елемент під вашим елементом `h1` із текстом "Hello World".
 
 # --hints--
 
-You should create an `h2` element.
+Вам слід створити елемент `h2`.
 
 ```js
 assert.lengthOf(document.querySelectorAll('h2'),1);
 ```
 
-Your `h2` element should have a closing tag.
+Ваш елемент `h2` має мати кінцевий тег.
 
 ```js
 assert.match(code,/<\/h2>/g);
 assert.strictEqual(code.match(/<\/h2>/g).length,code.match(/<h2>/g).length);
 ```
 
-Your `h2` element should have the text `CatPhotoApp`.
+Ваш елемент `h2` має містити текст `CatPhotoApp`.
 
 ```js
 assert.match(document.querySelector('h2').textContent,/cat(\s)?photo(\s)?app/gi);
 ```
 
-Your `h1` element should have the text `Hello World`.
+Ваш елемент `h1` має містити текст `Hello World`.
 
 ```js
 assert.match(document.querySelector('h1').textContent,/hello(\s)+world/gi);
 ```
 
-Your `h1` element should be before your `h2` element.
+Ваш елемент `h1` має бути перед вашим елементом `h2`.
 
 ```js
 assert.match(code,/<h1>\s*?.*?\s*?<\/h1>\s*<h2>\s*?.*?\s*?<\/h2>/gi);

@@ -1,6 +1,6 @@
 ---
 id: 699e69db8f18cf77dfce5c12
-title: Graphs of Sinusoidal Functions
+title: Grafici delle funzioni sinusoidali
 challengeType: 11
 videoId: Jif_m8LkyMA
 dashedName: graphs-of-sinusoidal-functions
@@ -8,32 +8,30 @@ dashedName: graphs-of-sinusoidal-functions
 
 # --description--
 
-In this video, you will learn about the graphs of sinusoidal functions.
+In questo video imparerai i grafici delle funzioni sinusoidali.
 
 # --questions--
 
 ## --text--
 
-What are sinusoidal functions related to?
+A cosa sono correlate le funzioni sinusoidali?
 
 ## --answers--
 
-They are related to tangent and cotangent.
+Sono correlate alla tangente e alla cotangente.
 
 ---
 
-They are related to secant and cosecant.
+Sono correlate alla secante e alla cosecante.
 
 ---
 
-They are related to tangent and secant.
+Sono correlate alla tangente e alla secante.
 
 ---
 
-They are related to sine and cosine.
+Sono correlate al seno e al coseno.
 
 ## --video-solution--
 
 4
-
-

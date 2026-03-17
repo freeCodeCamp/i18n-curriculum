@@ -1,6 +1,6 @@
 ---
 id: 5a5d02bd919fcf9ca8cf46cb
-title: Build a Light-Bright App
+title: "Costruisci un'app light-bright"
 challengeType: 3
 forumTopicId: 302350
 dashedName: build-a-light-bright-app
@@ -8,27 +8,27 @@ dashedName: build-a-light-bright-app
 
 # --description--
 
-**Objective:** Build an app that is functionally similar to this: <https://codepen.io/freeCodeCamp/full/eyLYXE>.
+**Obiettivo:** Costruisci un'app che sia funzionalmente simile a questa: <https://codepen.io/freeCodeCamp/full/eyLYXE>.
 
-**Rule #1:** Don't look at the example project's code. Figure it out for yourself.
+**Regola n. 1:** Non guardare il codice del progetto di esempio. Scoprilo da solo.
 
-**Rule #2:** Fulfill the below user stories and get all of the tests to pass. Use whichever libraries or APIs you need. Give it your own personal style.
+**Regola n. 2:** Completa le seguenti storie utente e fai in modo che tutti i test vengano superati. Usa le librerie o le API che ti servono. Dai il tuo tocco personale.
 
-**User Story:** I can click or drag the mouse cursor to color the circles.
+**Storia utente:** Posso cliccare o trascinare il cursore del mouse per colorare i cerchi.
 
-**User Story:** I can double-click on a colored circle to remove the color.
+**Storia utente:** Posso fare doppio clic su un cerchio colorato per rimuovere il colore.
 
-**User Story:** I can click on a colored circle to change its color.
+**Storia utente:** Posso cliccare su un cerchio colorato per cambiarne il colore.
 
-**User Story:** I should get a circle of different color on each click.
+**Storia utente:** Dovrei ottenere un cerchio di colore diverso a ogni clic.
 
-**User Story:** I can click on the 'Reset' button to remove the recent color.
+**Storia utente:** Posso cliccare sul pulsante "Reset" per rimuovere l'ultimo colore applicato.
 
-**User Story:** I can click on the 'Reset All' button to remove all the colors from the circles.
+**Storia utente:** Posso cliccare sul pulsante "Reset All" per rimuovere tutti i colori dai cerchi.
 
-When you are finished, include a link to your project on CodePen and click the "I've completed this challenge" button.
+Quando hai finito, includi un collegamento al tuo progetto su CodePen e clicca il pulsante "Ho completato questa sfida".
 
-You can get feedback on your project by sharing it on the <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp forum</a>.
+Puoi ricevere feedback sul tuo progetto condividendolo sul <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">forum di freeCodeCamp</a>.
 
 # --solutions--
 

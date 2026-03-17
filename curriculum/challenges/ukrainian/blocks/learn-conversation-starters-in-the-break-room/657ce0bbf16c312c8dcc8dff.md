@@ -1,6 +1,6 @@
 ---
 id: 657ce0bbf16c312c8dcc8dff
-title: Task 63
+title: Завдання 63
 challengeType: 19
 dashedName: task-63
 lang: en-US
@@ -8,19 +8,19 @@ lang: en-US
 
 # --description--
 
-There are some words you can use in your sentence to express how often something happens. They are called **adverbs of frequency**.
+Існують слова, які ви можете використовувати у реченні, щоб виразити, як часто щось відбувається. Їх називають **прислівниками частоти**.
 
-`Usually` is a word that suggests that something happens often but is not constant.
+`Usually` — це слово, яке вказує, що щось трапляється часто, але не постійно.
 
-When `usually` is used with the verb `to be`, it is placed after the verb. For example, `She is usually on time for meetings`.
+Коли `usually` використовується з дієсловом `to be`, воно ставиться після дієслова. Наприклад, `She is usually on time for meetings`.
 
-With other verbs, `usually` comes before the main verb. For example, `He usually works late`.
+З іншими дієсловами `usually` ставиться перед основним дієсловом. Наприклад, `He usually works late`.
 
 # --questions--
 
 ## --text--
 
-Choose the sentence that correctly uses the adverb `usually`.
+Виберіть речення, яке правильно використовує прислівник `usually`.
 
 ## --answers--
 
@@ -28,7 +28,7 @@ Choose the sentence that correctly uses the adverb `usually`.
 
 ### --feedback--
 
-`Usually` should come before the main verb when not using `to be`. The correct sentence is `She is usually very careful with her work.`
+`Usually` має стояти перед основним дієсловом, якщо не використовується `to be`. Правильне речення — `She is usually very careful with her work.`
 
 ---
 
@@ -40,7 +40,7 @@ Choose the sentence that correctly uses the adverb `usually`.
 
 ### --feedback--
 
-`Usually` should come before the main verb in standard sentences. The correct sentence is `They usually play together on weekends.`
+`Usually` має стояти перед основним дієсловом у стандартних реченнях. Правильне речення — `They usually play together on weekends.`
 
 ---
 
@@ -48,7 +48,7 @@ Choose the sentence that correctly uses the adverb `usually`.
 
 ### --feedback--
 
-With the verb `to be`, `usually` comes after it. The correct sentence is `We are usually happy to help out with new projects.`
+З дієсловом `to be` `usually` ставиться після нього. Правильне речення — `We are usually happy to help out with new projects.`
 
 ## --video-solution--
 

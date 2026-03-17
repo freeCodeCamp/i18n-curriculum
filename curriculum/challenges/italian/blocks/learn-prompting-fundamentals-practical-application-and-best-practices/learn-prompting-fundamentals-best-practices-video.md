@@ -1,6 +1,6 @@
 ---
 id: 69a772165a27934b29e1eac7
-title: Best Practices
+title: Buone pratiche
 challengeType: 11
 videoId: z_4Esan2kus
 dashedName: best-practices-learn-prompting-fundamentals
@@ -8,31 +8,30 @@ dashedName: best-practices-learn-prompting-fundamentals
 
 # --description--
 
-In this video, you will learn about best practices when working with AI tools.
+In questo video imparerai le buone pratiche da seguire quando si lavora con strumenti di intelligenza artificiale.
 
 # --questions--
 
 ## --text--
 
-Why is it helpful to add a persona to the prompt?
+Perché è utile aggiungere una persona al prompt?
 
 ## --answers--
 
-Using a persona ensures that the result is at least 2 paragraphs long.
+Usare una persona garantisce che il risultato sia lungo almeno 2 paragrafi.
 
 ---
 
-Using a persona is required for the prompt to work.
+Usare una persona è necessario perché il prompt funzioni.
 
 ---
 
-Using a persona helps the model provide relevant and consistent feedback.
+Usare una persona aiuta il modello a fornire risposte pertinenti e coerenti.
 
 ---
 
-Using a persona will ensure no hallucinations happen.
+Usare una persona assicurerà che non si verifichino allucinazioni.
 
 ## --video-solution--
 
 3
-

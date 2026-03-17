@@ -1,6 +1,6 @@
 ---
 id: 68fa8b4ecf2cf649ff55f7fd
-title: Task 2
+title: Завдання 2
 challengeType: 19
 dashedName: task-2
 lang: es
@@ -8,13 +8,13 @@ lang: es
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Прослухайте аудіо та дайте відповідь на запитання нижче.
 
 # --questions--
 
 ## --text--
 
-What is the **second** letter pronounced in this audio?
+Яка **друга** літера вимовляється в цьому аудіо?
 
 ## --answers--
 
@@ -22,7 +22,7 @@ What is the **second** letter pronounced in this audio?
 
 ### --feedback--
 
-The letter `b` has a different sound.
+Літера `b` має інший звук.
 
 ---
 
@@ -34,7 +34,7 @@ The letter `b` has a different sound.
 
 ### --feedback--
 
-The letter `z` has a different sound.
+Літера `z` має інший звук.
 
 ---
 
@@ -42,7 +42,7 @@ The letter `z` has a different sound.
 
 ### --feedback--
 
-The letter `m` has a different sound.
+Літера `m` має інший звук.
 
 ## --video-solution--
 
@@ -50,9 +50,9 @@ The letter `m` has a different sound.
 
 # --explanation--
 
-These are the three letters pronounced in the audio: `b`, `x`, `z`.
+Це три літери, які вимовляються в аудіо: `b`, `x`, `z`.
 
-The letter `x` is the second one. Therefore, `x` is the correct answer.
+Літера `x` — друга за порядком. Тому `x` — правильна відповідь.
 
 # --scene--
 

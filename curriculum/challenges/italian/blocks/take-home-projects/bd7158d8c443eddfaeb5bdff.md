@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c443eddfaeb5bdff
-title: Build a Nightlife Coordination App
+title: "Crea un'app per coordinare la vita notturna"
 challengeType: 4
 forumTopicId: 302351
 dashedName: build-a-nightlife-coordination-app
@@ -8,21 +8,21 @@ dashedName: build-a-nightlife-coordination-app
 
 # --description--
 
-Build a full-stack JavaScript app that is functionally similar to this: <a href="https://yoyo44.herokuapp.com/" target="_blank" rel="noopener noreferrer nofollow">https://yoyo44.herokuapp.com/</a>. Use a site builder of your choice to complete the project.
+Crea un'app JavaScript full-stack che sia funzionalmente simile a questa: <a href="https://yoyo44.herokuapp.com/" target="_blank" rel="noopener noreferrer nofollow">https://yoyo44.herokuapp.com/</a>. Usa un site builder a tua scelta per completare il progetto.
 
-Here are the specific user stories you should implement for this project:
+Ecco le specifiche storie utente che dovresti implementare per questo progetto:
 
-**User Story:** As an unauthenticated user, you can view all bars in your area.
+**Storia utente:** Come utente non autenticato, puoi vedere tutti i bar nella tua area.
 
-**User Story:** As an authenticated user, you can add yourself to a bar to indicate you are going there tonight.
+**Storia utente:** Come utente autenticato, puoi aggiungerti a un bar per indicare che ci andrai stasera.
 
-**User Story:** As an authenticated user, you can remove yourself from a bar if you no longer want to go there.
+**Storia utente:** Come utente autenticato, puoi rimuovere te stesso da un bar se non vuoi più andarci.
 
-**User Story:** As an unauthenticated user, when you login you should not have to search again.
+**Storia utente:** Come utente non autenticato, quando effettui il login non dovresti dover cercare di nuovo.
 
-**Hint:** Try using the Yelp API to find venues in the cities your users search for. If you use Yelp's API, be sure to mention so in your app.
+**Suggerimento:** Prova a usare l'API di Yelp per trovare locali nelle città che i tuoi utenti cercano. Se usi l'API di Yelp, assicurati di menzionarlo nella tua app.
 
-When you are done, make sure a working demo of your project is hosted somewhere public. Then submit the URL to it in the Solution Link field. Optionally, also submit a link to your project's source code in the GitHub Link field.
+Quando hai finito, assicurati che una demo funzionante del tuo progetto sia ospitata in un luogo pubblico. Poi invia l'URL nel campo Solution Link. Opzionalmente, invia anche un collegamento al codice sorgente del progetto nel campo GitHub Link.
 
 # --solutions--
 

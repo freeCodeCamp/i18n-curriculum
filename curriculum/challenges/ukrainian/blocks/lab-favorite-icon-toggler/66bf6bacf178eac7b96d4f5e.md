@@ -1,6 +1,6 @@
 ---
 id: 66bf6bacf178eac7b96d4f5e
-title: Build a Favorite Icon Toggler
+title: Побудувати перемикач улюбленої іконки
 challengeType: 25
 dashedName: build-a-favorite-icon-toggler
 demoType: onClick
@@ -8,55 +8,55 @@ demoType: onClick
 
 # --description--
 
-In this lab you will use JavaScript click events to toggle the appearance of a favorite icon. When the heart icon is clicked, the appearance of the heart changes from empty to filled, and vice versa.
+У цій лабораторній роботі ви використаєте JavaScript події click, щоб перемикати вигляд іконки улюбленого. Коли натискають на іконку серця, її вигляд змінюється з порожнього на заповнений і навпаки.
 
-**Objective:** Fulfill the user stories below and get all the tests to pass to complete the lab.
+**Мета:** Виконайте наведені нижче історії користувача та пройдіть усі тести, щоб завершити лабораторну роботу.
 
-**User Stories:**
+**Історії користувача:**
 
-1. You should have an unordered list with three items.
-2. The unordered list should have the class `item-list`.
-3. The three list items should contain the item name followed by a `button` element with the class `favorite-icon`.
-4. The `button` element should contain the code `&#9825;` initially to represent an empty heart.
-5. When a `button` element containing a heart is clicked, you should add a class named `filled` to the clicked `button` if it's not already present, and remove it, if it is.
-6. You should have a class selector that targets the `filled` class and sets some CSS properties.
-7. When a `button` element containing a heart is clicked, the heart symbol should toggle between `&#9825;` (empty heart) and `&#10084;` (filled heart), depending on its current state.
+1. У вас має бути невпорядкований список із трьома елементами.
+2. Невпорядкований список має мати клас `item-list`.
+3. Три елементи списку повинні містити назву елемента, за якою йде елемент `button` з класом `favorite-icon`.
+4. Елемент `button` спочатку має містити код `&#9825;` для представлення порожнього серця.
+5. Коли натискають на елемент `button`, що містить серце, потрібно додати клас із назвою `filled` до натиснутого `button`, якщо його ще немає, і видалити, якщо він є.
+6. У вас має бути селектор класу, який націлений на клас `filled` і встановлює деякі CSS-властивості.
+7. Коли натискають на елемент `button`, що містить серце, символ серця має перемикатися між `&#9825;` (порожнє серце) і `&#10084;` (заповнене серце) залежно від поточного стану.
 
-**Note:** Be sure to link your JavaScript file in your HTML. (Ex. `<script src="script.js"></script>`)
+**Примітка:** Обов’язково підключіть свій JavaScript файл у HTML. (Наприклад, `<script src="script.js"></script>`)
 
 # --hints--
 
-You should have an unordered list.
+У вас має бути невпорядкований список.
 
 ```js
 assert.exists(document.querySelector('ul'));
 ```
 
-Your unordered list should have 3 items.
+Ваш невпорядкований список має містити 3 елементи.
 
 ```js
 assert.lengthOf(document.querySelectorAll('ul li'), 3);
 ```
 
-Your unordered list should have the class `item-list`.
+Ваш невпорядкований список має мати клас `item-list`.
 
 ```js
 assert.exists(document.querySelector('ul.item-list'));
 ```
 
-Your individual list items should contain the item name.
+Кожен елемент списку має містити назву елемента.
 
 ```js
 assert.exists(document.querySelector('ul li').textContent);
 ```
 
-Your individual list item should contain a `button` element with the class `favorite-icon`.
+Кожен елемент списку має містити елемент `button` з класом `favorite-icon`.
 
 ```js
 assert.exists(document.querySelector('ul li button.favorite-icon'));
 ```
 
-Initially, the `button` elements should contain the code `&#9825;` to represent an empty heart.
+Спочатку елементи `button` мають містити код `&#9825;` для представлення порожнього серця.
 
 ```js
 const inputs = document.querySelectorAll('ul li button.favorite-icon');
@@ -67,7 +67,7 @@ for (let input of inputs) {
 }
 ```
 
-You should have a `.filled` selector that sets some CSS properties.
+У вас має бути селектор `.filled`, який встановлює деякі CSS-властивості.
 
 ```js
 const filled = new __helpers.CSSHelp(document).getStyle('.filled');
@@ -75,7 +75,7 @@ assert.exists(filled);
 assert.isNotEmpty([...filled]); 
 ```
 
-When the `button` element is clicked, and it contains the class `filled`, you should remove the class `filled` from the `button` element and change the innerHTML of the `button` element to `&#9825;`.
+Коли натискають на елемент `button`, і він містить клас `filled`, потрібно видалити клас `filled` з елемента `button` і змінити innerHTML елемента `button` на `&#9825;`.
 
 ```js
 const buttonElements = document.querySelectorAll('.favorite-icon');
@@ -90,7 +90,7 @@ buttonElements.forEach(button => {
 });
 ```
 
-When the `button` element is clicked, and it doesn't contain the class `filled`, you should add the class `filled` to the `button` element and change the `innerHTML` of the `button` element to `&#10084;`.
+Коли натискають на елемент `button`, і він не містить клас `filled`, потрібно додати клас `filled` до елемента `button` і змінити `innerHTML` елемента `button` на `&#10084;`.
 
 ```js
 const buttonElements = document.querySelectorAll('.favorite-icon');
@@ -119,7 +119,7 @@ buttonElements.forEach(button => {
   </head>
 
   <body>
-
+  
   </body>
 </html>
 ```

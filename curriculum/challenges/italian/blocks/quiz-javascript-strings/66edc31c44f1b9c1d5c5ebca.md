@@ -1,13 +1,13 @@
 ---
 id: 66edc31c44f1b9c1d5c5ebca
-title: JavaScript Strings Quiz
+title: Quiz sulle stringhe in JavaScript
 challengeType: 8
 dashedName: quiz-javascript-strings
 ---
 
 # --description--
 
-To pass the quiz, you must correctly answer at least 18 of the 20 questions below.
+Per superare il quiz, devi rispondere correttamente ad almeno 18 delle 20 domande seguenti.
 
 # --quizzes--
 
@@ -17,29 +17,29 @@ To pass the quiz, you must correctly answer at least 18 of the 20 questions belo
 
 #### --text--
 
-What is the return value for the `includes()` method?
+Qual è il valore di ritorno del metodo `includes()`?
 
 #### --distractors--
 
-If the substring is found within the string, the method returns the string. Otherwise, it returns `undefined`.
+Se la sottostringa viene trovata all'interno della stringa, il metodo restituisce la stringa. Altrimenti, restituisce `undefined`.
 
 ---
 
-If the substring is found within the string, the method returns `true`. Otherwise, it returns an empty string.
+Se la sottostringa viene trovata all'interno della stringa, il metodo restituisce `true`. Altrimenti, restituisce una stringa vuota.
 
 ---
 
-If the substring is found within the string, the method returns the string. Otherwise, it returns `null`.
+Se la sottostringa viene trovata all'interno della stringa, il metodo restituisce la stringa. Altrimenti, restituisce `null`.
 
 #### --answer--
 
-If the substring is found within the string, the method returns `true`. Otherwise, it returns `false`.
+Se la sottostringa viene trovata all'interno della stringa, il metodo restituisce `true`. Altrimenti, restituisce `false`.
 
 ### --question--
 
 #### --text--
 
-Which option demonstrates string interpolation?
+Quale opzione dimostra l'interpolazione di stringhe?
 
 #### --distractors--
 
@@ -61,7 +61,7 @@ Which option demonstrates string interpolation?
 
 #### --text--
 
-Which of the following options is the newline character?
+Quale delle seguenti opzioni è il carattere di nuova riga?
 
 #### --distractors--
 
@@ -83,29 +83,29 @@ Which of the following options is the newline character?
 
 #### --text--
 
-Which of the following statements is correct about strings?
+Quale delle seguenti affermazioni è corretta riguardo alle stringhe?
 
 #### --distractors--
 
-Strings are mutable and can be changed after they are created.
+Le stringhe sono mutabili e possono essere modificate dopo la loro creazione.
 
 ---
 
-Strings are non primitive data types.
+Le stringhe sono tipi di dati non primitivi.
 
 ---
 
-Strings can only be created using single quotes.
+Le stringhe possono essere create solo usando virgolette singole.
 
 #### --answer--
 
-Strings are immutable.
+Le stringhe sono immutabili.
 
 ### --question--
 
 #### --text--
 
-What does ASCII stand for?
+Cosa significa ASCII?
 
 #### --distractors--
 
@@ -127,7 +127,7 @@ American Standard Code for Information Interchange
 
 #### --text--
 
-Which of the following methods extracts a portion of a string and returns a new string?
+Quale dei seguenti metodi estrae una porzione di una stringa e restituisce una nuova stringa?
 
 #### --distractors--
 
@@ -149,29 +149,29 @@ Which of the following methods extracts a portion of a string and returns a new 
 
 #### --text--
 
-What is the purpose of the `prompt()` method?
+Qual è lo scopo del metodo `prompt()`?
 
 #### --distractors--
 
-It displays a message in the console.
+Mostra un messaggio nella console.
 
 ---
 
-It displays an alert box with a message.
+Mostra un riquadro di avviso con un messaggio.
 
 ---
 
-It displays a confirmation box with a message.
+Mostra un riquadro di conferma con un messaggio.
 
 #### --answer--
 
-It displays a dialog box that waits for the user input.
+Mostra un riquadro di dialogo che attende l'input dell'utente.
 
 ### --question--
 
 #### --text--
 
-Which of the following is the correct way to access the third character of a string?
+Qual è il modo corretto per consultare il terzo carattere di una stringa?
 
 #### --distractors--
 
@@ -205,7 +205,7 @@ developer[2];
 
 #### --text--
 
-How can you obtain the ASCII value of the first character in the string `"hello"`?
+Come puoi ottenere il valore ASCII del primo carattere nella stringa `"hello"`?
 
 #### --distractors--
 
@@ -227,7 +227,7 @@ How can you obtain the ASCII value of the first character in the string `"hello"
 
 #### --text--
 
-Which method can you use to obtain the character corresponding to an ASCII value?
+Quale metodo puoi usare per ottenere il carattere corrispondente a un valore ASCII?
 
 #### --distractors--
 
@@ -249,7 +249,7 @@ Which method can you use to obtain the character corresponding to an ASCII value
 
 #### --text--
 
-Which of the following `indexOf` examples will log `-1` to the console?
+Quale dei seguenti esempi `indexOf` stamperà `-1` nella console?
 
 #### --distractors--
 
@@ -283,7 +283,7 @@ console.log(organization.indexOf("c"));
 
 #### --text--
 
-How can you check if the string `"JavaScript"` contains `"Script"`?
+Come puoi verificare se la stringa `"JavaScript"` contiene `"Script"`?
 
 #### --distractors--
 
@@ -305,7 +305,7 @@ How can you check if the string `"JavaScript"` contains `"Script"`?
 
 #### --text--
 
-Which of the following extracts the substring `"Script"` from the string `"JavaScript"`?
+Quale delle seguenti opzioni estrae la sottostringa `"Script"` dalla stringa `"JavaScript"`?
 
 #### --distractors--
 
@@ -327,7 +327,7 @@ Which of the following extracts the substring `"Script"` from the string `"JavaS
 
 #### --text--
 
-How do you convert the string `"JavaScript"` to uppercase?
+Come converti la stringa `"JavaScript"` in maiuscolo?
 
 #### --distractors--
 
@@ -349,7 +349,7 @@ How do you convert the string `"JavaScript"` to uppercase?
 
 #### --text--
 
-How do you convert the string `"JavaScript"` to lowercase?
+Come converti la stringa `"JavaScript"` in minuscolo?
 
 #### --distractors--
 
@@ -371,7 +371,7 @@ How do you convert the string `"JavaScript"` to lowercase?
 
 #### --text--
 
-Which of the following will replace `"dogs"` with `"cats"` in the string `"I love dogs"`.
+Quale delle seguenti opzioni sostituirà `"dogs"` con `"cats"` nella stringa `"I love dogs"`?
 
 #### --distractors--
 
@@ -393,7 +393,7 @@ Which of the following will replace `"dogs"` with `"cats"` in the string `"I lov
 
 #### --text--
 
-Which method is used to repeat a string a specified number of times?
+Quale metodo si usa per ripetere una stringa un numero specificato di volte?
 
 #### --distractors--
 
@@ -415,7 +415,7 @@ Which method is used to repeat a string a specified number of times?
 
 #### --text--
 
-What will the following code return: `"abc".repeat(3)`?
+Cosa restituirà il seguente codice: `"abc".repeat(3)`?
 
 #### --distractors--
 
@@ -427,7 +427,7 @@ What will the following code return: `"abc".repeat(3)`?
 
 ---
 
-It will throw an error.
+Genererà un errore.
 
 #### --answer--
 
@@ -437,7 +437,7 @@ It will throw an error.
 
 #### --text--
 
-Which method will remove whitespace from the beginning and end of a string?
+Quale metodo rimuove gli spazi bianchi dall'inizio e dalla fine di una stringa?
 
 #### --distractors--
 
@@ -459,7 +459,7 @@ Which method will remove whitespace from the beginning and end of a string?
 
 #### --text--
 
-Which of the following is the correct syntax for escaping quotes?
+Qual è la sintassi corretta per fare l'escape delle virgolette?
 
 #### --distractors--
 
@@ -484,4 +484,3 @@ Which of the following is the correct syntax for escaping quotes?
 ```js
 "She said, \"Hello!\""
 ```
-

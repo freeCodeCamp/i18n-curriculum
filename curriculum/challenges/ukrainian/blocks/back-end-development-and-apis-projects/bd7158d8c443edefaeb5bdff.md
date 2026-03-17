@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c443edefaeb5bdff
-title: Request Header Parser Microservice
+title: Мікросервіс для аналізу заголовків запитів
 challengeType: 4
 forumTopicId: 301507
 dashedName: request-header-parser-microservice
@@ -8,14 +8,14 @@ dashedName: request-header-parser-microservice
 
 # --description--
 
-Build a full-stack JavaScript app that is functionally similar to this: <a href="https://request-header-parser-microservice.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://request-header-parser-microservice.freecodecamp.rocks/</a>. Working on this project will involve you writing your code using one of the following methods:
+Створіть повноцінний JavaScript-застосунок, який функціонально схожий на цей: <a href="https://request-header-parser-microservice.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://request-header-parser-microservice.freecodecamp.rocks/</a>. Робота над цим проєктом передбачає написання коду одним із таких способів:
 
--   Clone <a href="https://github.com/freeCodeCamp/boilerplate-project-headerparser/" target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete your project locally.
--   Use a site builder of your choice to complete the project. Be sure to incorporate all the files from our GitHub repo.
+-   Клонуйте <a href="https://github.com/freeCodeCamp/boilerplate-project-headerparser/" target="_blank" rel="noopener noreferrer nofollow">цей репозиторій на GitHub</a> і завершіть проєкт локально.
+-   Використайте будь-який конструктор сайтів на свій вибір для завершення проєкту. Обов’язково включіть усі файли з нашого репозиторію на GitHub.
 
 # --hints--
 
-You should provide your own project, not the example URL.
+Ви маєте надати власний проєкт, а не приклад URL.
 
 ```js
   assert(
@@ -25,7 +25,7 @@ You should provide your own project, not the example URL.
   );
 ```
 
-A request to `/api/whoami` should return a JSON object with your IP address in the `ipaddress` key.
+Запит до `/api/whoami` має повертати JSON-об’єкт із вашою IP-адресою у ключі `ipaddress`.
 
 ```js
   const response = await fetch(code + '/api/whoami');
@@ -36,7 +36,7 @@ A request to `/api/whoami` should return a JSON object with your IP address in t
   assert(data.ipaddress && data.ipaddress.length > 0);
 ```
 
-A request to `/api/whoami` should return a JSON object with your preferred language in the `language` key.
+Запит до `/api/whoami` має повертати JSON-об’єкт із вашою мовою за замовчуванням у ключі `language`.
 
 ```js
   const response = await fetch(code + '/api/whoami');
@@ -47,7 +47,7 @@ A request to `/api/whoami` should return a JSON object with your preferred langu
   assert(data.language && data.language.length > 0);
 ```
 
-A request to `/api/whoami` should return a JSON object with your software in the `software` key.
+Запит до `/api/whoami` має повертати JSON-об’єкт із вашим програмним забезпеченням у ключі `software`.
 
 ```js
   const response = await fetch(code + '/api/whoami');
@@ -57,4 +57,3 @@ A request to `/api/whoami` should return a JSON object with your software in the
   const data = await response.json();
   assert(data.software && data.software.length > 0);
 ```
-

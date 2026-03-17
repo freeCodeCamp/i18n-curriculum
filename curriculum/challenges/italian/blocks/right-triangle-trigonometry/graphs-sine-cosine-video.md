@@ -1,6 +1,6 @@
 ---
 id: 699e5bab8f18cf77dfce5c11
-title: Graphs of Sine and Cosine
+title: Grafici di seno e coseno
 challengeType: 11
 videoId: OoP1Lav_i9A
 dashedName: graphs-sine-cosine
@@ -8,32 +8,30 @@ dashedName: graphs-sine-cosine
 
 # --description--
 
-In this video, you will learn about the graphs of sine and cosine functions.
+In questo video imparerai i grafici delle funzioni seno e coseno.
 
 # --questions--
 
 ## --text--
 
-What is the amplitude of a sine or cosine function?
+Qual è l'ampiezza di una funzione seno o coseno?
 
 ## --answers--
 
-Vertical distance between the maximum point and the midline.
+Distanza verticale tra il punto massimo e la linea mediana.
 
 ---
 
-Horizontal distance between two consecutive peaks
+Distanza orizzontale tra due picchi consecutivi
 
 ---
 
-The slope of the sine or cosine curve at the maximum point.
+La pendenza della curva seno o coseno nel punto massimo.
 
 ---
 
-Vertical distance between two minimum points.
+Distanza verticale tra due punti minimi.
 
 ## --video-solution--
 
 1
-
-

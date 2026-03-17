@@ -1,6 +1,6 @@
 ---
 id: 699e56ba8f18cf77dfce5c0c
-title: Linear and Radial Speed
+title: Лінійна та радіальна швидкість
 challengeType: 11
 videoId: nsZvoNqWCMo
 dashedName: linear-and-radial-speed
@@ -8,32 +8,30 @@ dashedName: linear-and-radial-speed
 
 # --description--
 
-In this video, you will learn about linear and radial speed for rotating circles.
+У цьому відео ви дізнаєтеся про лінійну та радіальну швидкість обертових кіл.
 
 # --questions--
 
 ## --text--
 
-What is linear speed?
+Що таке лінійна швидкість?
 
 ## --answers--
 
-The number of rotations completed in one minute.
+Кількість обертів, виконаних за одну хвилину.
 
 ---
 
-The distance from the center of a circle to its edge.
+Відстань від центру кола до його краю.
 
 ---
 
-The distance a point travels in a unit of time.
+Відстань, яку проходить точка за одиницю часу.
 
 ---
 
-The angle a point rotates through in a unit of time.
+Кут, на який точка повертається за одиницю часу.
 
 ## --video-solution--
 
 3
-
-

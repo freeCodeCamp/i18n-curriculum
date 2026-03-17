@@ -1,6 +1,6 @@
 ---
 id: 69a7672a5a27934b29e1eac3
-title: Linguistics
+title: Linguistica
 challengeType: 11
 videoId: ggfB0O9Pf64
 dashedName: linguistics-learn-prompting-fundamentals
@@ -8,31 +8,30 @@ dashedName: linguistics-learn-prompting-fundamentals
 
 # --description--
 
-In this video, you will learn what linguistics is and how it relates to AI.
+In questo video imparerai cos’è la linguistica e come si collega all’intelligenza artificiale.
 
 # --questions--
 
 ## --text--
 
-What is linguistics?
+Cos’è la linguistica?
 
 ## --answers--
 
-Study of language.
+Studio del linguaggio.
 
 ---
 
-Study of math.
+Studio della matematica.
 
 ---
 
-Study of machine learning.
+Studio del machine learning.
 
 ---
 
-Study of programming.
+Studio della programmazione.
 
 ## --video-solution--
 
 1
-

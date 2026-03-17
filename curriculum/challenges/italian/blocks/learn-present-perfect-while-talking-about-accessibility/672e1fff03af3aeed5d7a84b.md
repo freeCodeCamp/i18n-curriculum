@@ -1,6 +1,6 @@
 ---
 id: 672e1fff03af3aeed5d7a84b
-title: Task 117
+title: Attività 117
 challengeType: 19
 dashedName: task-117
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Ascolta l'audio e rispondi alla domanda qui sotto.
 
 # --questions--
 
 ## --text--
 
-What does Anna think about James' ideas, and what does she suggest?
+Cosa pensa Anna delle idee di James e cosa suggerisce?
 
 ## --answers--
 
-She disagrees with James' ideas and suggests starting a new approach.
+Non è d'accordo con le idee di James e suggerisce di iniziare un nuovo approccio.
 
 ### --feedback--
 
-Anna expresses agreement with James, not disagreement, and wants to stay updated rather than start over.
+Anna esprime accordo con James, non disaccordo, e vuole rimanere aggiornata invece di ricominciare da capo.
 
 ---
 
-She thinks James' ideas are confusing and suggests focusing only on accessibility goals.
+Pensa che le idee di James siano confuse e suggerisce di concentrarsi solo sugli obiettivi di accessibilità.
 
 ### --feedback--
 
-Anna doesn't find James' ideas confusing; she agrees and wants to monitor progress on their shared goals.
+Anna non trova confuse le idee di James; è d'accordo e vuole monitorare i progressi sui loro obiettivi condivisi.
 
 ---
 
-She agrees with James and suggests they stay in contact to monitor progress.
+È d'accordo con James e suggerisce di restare in contatto per monitorare i progressi.
 
 ---
 
-She thinks James' ideas are unnecessary and suggests stopping the project.
+Pensa che le idee di James siano inutili e suggerisce di fermare il progetto.
 
 ### --feedback--
 
-Anna doesn't suggest stopping; she supports James' ideas and wants to stay updated.
+Anna non suggerisce di fermare; supporta le idee di James e vuole rimanere aggiornata.
 
 ## --video-solution--
 
@@ -52,7 +52,7 @@ Anna doesn't suggest stopping; she supports James' ideas and wants to stay updat
 
 # --explanation--
 
-Anna agrees with James' approach, saying `That makes sense`, which shows she understands and supports his ideas. She also suggests `keeping in touch to monitor progress`, indicating her interest in staying updated to ensure they reach their shared goals.
+Anna è d'accordo con l'approccio di James, dicendo `That makes sense`, il che dimostra che comprende e supporta le sue idee. Suggerisce anche `keeping in touch to monitor progress`, indicando il suo interesse a rimanere aggiornata per assicurarsi che raggiungano i loro obiettivi condivisi.
 
 # --scene--
 

@@ -1,6 +1,6 @@
 ---
 id: 6856ddea73ea5fafe4d65cfc
-title: Task 95
+title: Завдання 95
 challengeType: 19
 dashedName: task-95
 lang: en-US
@@ -12,13 +12,13 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Прослухайте аудіо та дайте відповідь на запитання нижче.
 
 # --questions--
 
 ## --text--
 
-How could Linda praise Jake's idea?
+Як Лінда могла б похвалити ідею Джейка?
 
 ## --answers--
 
@@ -38,7 +38,7 @@ EN13416258
 
 ### --feedback--
 
-This sounds doubtful, not supportive.
+Це звучить сумнівно, а не підтримуюче.
 
 ## --video-solution--
 
@@ -46,11 +46,11 @@ This sounds doubtful, not supportive.
 
 # --explanation--
 
-`That's an excellent suggestion.` is a polite and positive way to praise someone's idea by showing strong agreement and approval. For example:
+`That's an excellent suggestion.` — це ввічливий і позитивний спосіб похвалити чиєсь ідею, показуючи сильну згоду та схвалення. Наприклад:
 
-- Person 1: `Let's add more visuals to the report.` – The first person suggests that they incorporate more graphics and images to the report to make it more vivid.
+- Person 1: `Let's add more visuals to the report.` – Перша людина пропонує додати більше графіки та зображень до звіту, щоб зробити його яскравішим.
 
-- Person 2: `That's an excellent suggestion.` – This means the person thinks the idea is very good and helpful.
+- Person 2: `That's an excellent suggestion.` – Це означає, що людина вважає ідею дуже доброю та корисною.
 
 # --scene--
 

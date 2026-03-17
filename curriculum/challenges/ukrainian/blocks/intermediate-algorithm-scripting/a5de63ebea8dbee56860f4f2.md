@@ -1,6 +1,6 @@
 ---
 id: a5de63ebea8dbee56860f4f2
-title: Diff Two Arrays
+title: Порівняти два масиви
 challengeType: 1
 forumTopicId: 16008
 dashedName: diff-two-arrays
@@ -8,19 +8,19 @@ dashedName: diff-two-arrays
 
 # --description--
 
-Compare two arrays and return a new array with any items only found in one of the two given arrays, but not both. In other words, return the symmetric difference of the two arrays.
+Порівняйте два масиви і поверніть новий масив із тими елементами, які зустрічаються лише в одному з двох заданих масивів, але не в обох одночасно. Іншими словами, поверніть симетричну різницю двох масивів.
 
-**Note:** You can return the array with its elements in any order.
+**Примітка:** Ви можете повернути масив із елементами у будь-якому порядку.
 
 # --hints--
 
-`diffArray([1, 2, 3, 5], [1, 2, 3, 4, 5])` should return an array.
+`diffArray([1, 2, 3, 5], [1, 2, 3, 4, 5])` має повертати масив.
 
 ```js
 assert(typeof diffArray([1, 2, 3, 5], [1, 2, 3, 4, 5]) === 'object');
 ```
 
-`["diorite", "andesite", "grass", "dirt", "pink wool", "dead shrub"], ["diorite", "andesite", "grass", "dirt", "dead shrub"]` should return `["pink wool"]`.
+`["diorite", "andesite", "grass", "dirt", "pink wool", "dead shrub"], ["diorite", "andesite", "grass", "dirt", "dead shrub"]` має повертати `["pink wool"]`.
 
 ```js
 assert.sameMembers(
@@ -32,7 +32,7 @@ assert.sameMembers(
 );
 ```
 
-`["diorite", "andesite", "grass", "dirt", "pink wool", "dead shrub"], ["diorite", "andesite", "grass", "dirt", "dead shrub"]` should return an array with one item.
+`["diorite", "andesite", "grass", "dirt", "pink wool", "dead shrub"], ["diorite", "andesite", "grass", "dirt", "dead shrub"]` має повертати масив з одним елементом.
 
 ```js
 assert(
@@ -43,7 +43,7 @@ assert(
 );
 ```
 
-`["andesite", "grass", "dirt", "pink wool", "dead shrub"], ["diorite", "andesite", "grass", "dirt", "dead shrub"]` should return `["diorite", "pink wool"]`.
+`["andesite", "grass", "dirt", "pink wool", "dead shrub"], ["diorite", "andesite", "grass", "dirt", "dead shrub"]` має повертати `["diorite", "pink wool"]`.
 
 ```js
 assert.sameMembers(
@@ -55,7 +55,7 @@ assert.sameMembers(
 );
 ```
 
-`["andesite", "grass", "dirt", "pink wool", "dead shrub"], ["diorite", "andesite", "grass", "dirt", "dead shrub"]` should return an array with two items.
+`["andesite", "grass", "dirt", "pink wool", "dead shrub"], ["diorite", "andesite", "grass", "dirt", "dead shrub"]` має повертати масив з двома елементами.
 
 ```js
 assert(
@@ -66,7 +66,7 @@ assert(
 );
 ```
 
-`["andesite", "grass", "dirt", "dead shrub"], ["andesite", "grass", "dirt", "dead shrub"]` should return `[]`.
+`["andesite", "grass", "dirt", "dead shrub"], ["andesite", "grass", "dirt", "dead shrub"]` має повертати `[]`.
 
 ```js
 assert.sameMembers(
@@ -78,7 +78,7 @@ assert.sameMembers(
 );
 ```
 
-`["andesite", "grass", "dirt", "dead shrub"], ["andesite", "grass", "dirt", "dead shrub"]` should return an empty array.
+`["andesite", "grass", "dirt", "dead shrub"], ["andesite", "grass", "dirt", "dead shrub"]` має повертати порожній масив.
 
 ```js
 assert(
@@ -89,19 +89,19 @@ assert(
 );
 ```
 
-`[1, 2, 3, 5], [1, 2, 3, 4, 5]` should return `[4]`.
+`[1, 2, 3, 5], [1, 2, 3, 4, 5]` має повертати `[4]`.
 
 ```js
 assert.sameMembers(diffArray([1, 2, 3, 5], [1, 2, 3, 4, 5]), [4]);
 ```
 
-`[1, 2, 3, 5], [1, 2, 3, 4, 5]` should return an array with one item.
+`[1, 2, 3, 5], [1, 2, 3, 4, 5]` має повертати масив з одним елементом.
 
 ```js
 assert(diffArray([1, 2, 3, 5], [1, 2, 3, 4, 5]).length === 1);
 ```
 
-`[1, "calf", 3, "piglet"], [1, "calf", 3, 4]` should return `["piglet", 4]`.
+`[1, "calf", 3, "piglet"], [1, "calf", 3, 4]` має повертати `["piglet", 4]`.
 
 ```js
 assert.sameMembers(diffArray([1, 'calf', 3, 'piglet'], [1, 'calf', 3, 4]), [
@@ -110,13 +110,13 @@ assert.sameMembers(diffArray([1, 'calf', 3, 'piglet'], [1, 'calf', 3, 4]), [
 ]);
 ```
 
-`[1, "calf", 3, "piglet"], [1, "calf", 3, 4]` should return an array with two items.
+`[1, "calf", 3, "piglet"], [1, "calf", 3, 4]` має повертати масив з двома елементами.
 
 ```js
 assert(diffArray([1, 'calf', 3, 'piglet'], [1, 'calf', 3, 4]).length === 2);
 ```
 
-`[], ["snuffleupagus", "cookie monster", "elmo"]` should return `["snuffleupagus", "cookie monster", "elmo"]`.
+`[], ["snuffleupagus", "cookie monster", "elmo"]` має повертати `["snuffleupagus", "cookie monster", "elmo"]`.
 
 ```js
 assert.sameMembers(diffArray([], ['snuffleupagus', 'cookie monster', 'elmo']), [
@@ -126,13 +126,13 @@ assert.sameMembers(diffArray([], ['snuffleupagus', 'cookie monster', 'elmo']), [
 ]);
 ```
 
-`[], ["snuffleupagus", "cookie monster", "elmo"]` should return an array with three items.
+`[], ["snuffleupagus", "cookie monster", "elmo"]` має повертати масив з трьома елементами.
 
 ```js
 assert(diffArray([], ['snuffleupagus', 'cookie monster', 'elmo']).length === 3);
 ```
 
-`[1, "calf", 3, "piglet"], [7, "filly"]` should return `[1, "calf", 3, "piglet", 7, "filly"]`.
+`[1, "calf", 3, "piglet"], [7, "filly"]` має повертати `[1, "calf", 3, "piglet", 7, "filly"]`.
 
 ```js
 assert.sameMembers(diffArray([1, 'calf', 3, 'piglet'], [7, 'filly']), [
@@ -145,7 +145,7 @@ assert.sameMembers(diffArray([1, 'calf', 3, 'piglet'], [7, 'filly']), [
 ]);
 ```
 
-`[1, "calf", 3, "piglet"], [7, "filly"]` should return an array with six items.
+`[1, "calf", 3, "piglet"], [7, "filly"]` має повертати масив з шістьма елементами.
 
 ```js
 assert(diffArray([1, 'calf', 3, 'piglet'], [7, 'filly']).length === 6);
@@ -173,7 +173,7 @@ function diffArray(arr1, arr2) {
 
   const set1 = new Set(arr1);
   const set2 = new Set(arr2);
-
+  
   const newArr = [];
 
   set1.forEach(element => {
@@ -187,7 +187,7 @@ function diffArray(arr1, arr2) {
   });
 
   return newArr;
-
+  
 }
 
 ```

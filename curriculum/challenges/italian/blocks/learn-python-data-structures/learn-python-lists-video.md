@@ -1,6 +1,6 @@
 ---
 id: 39a400e9163c5a0b33587e18
-title: Lists
+title: Liste
 challengeType: 11
 videoId: DtMPzGOHZ2M
 dashedName: lists-learn-python-full-course-for-beginners
@@ -8,13 +8,13 @@ dashedName: lists-learn-python-full-course-for-beginners
 
 # --description--
 
-In this video, you will learn about lists, list indexing, slicing, and basic list operations.
+In questo video imparerai cosa sono le liste, come funziona l'indicizzazione delle liste, il slicing e le operazioni base sulle liste.
 
 # --questions--
 
 ## --text--
 
-What will be the output for the following code?
+Quale sarà l'output del seguente codice?
 
 ```python
 friends = ["Kevin", "Karen", "Jim"]

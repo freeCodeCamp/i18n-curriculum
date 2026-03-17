@@ -1,36 +1,36 @@
 ---
 id: 697fe6c932baa3841ab62a65
-title: Python Interpreter
+title: interprete Python
 challengeType: 11
-videoId: '-c1vFEsIod4'
+videoId: -c1vFEsIod4
 dashedName: python-interpreter-learn-python-full-course-for-beginners
 ---
 
 # --description--
 
-In this video, you will learn how to work with the Python interpreter.
+In questo video imparerai come lavorare con l'interprete Python.
 
 # --questions--
 
 ## --text--
 
-What is the Python interpreter?
+Cos'è l'interprete Python?
 
 ## --answers--
 
-This is a program that writes Python code for you.
+Questo è un programma che scrive codice Python per te.
 
 ---
 
-This is a tool that compiles Python into Java or C++.
+Questo è uno strumento che compila Python in Java o C++.
 
 ---
 
-This is a library that stores Python functions.
+Questa è una libreria che archivia funzioni Python.
 
 ---
 
-This is a program that reads and executes Python code.
+Questo è un programma che legge ed esegue codice Python.
 
 ## --video-solution--
 

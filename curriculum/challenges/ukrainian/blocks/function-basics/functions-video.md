@@ -1,6 +1,6 @@
 ---
 id: 699dfa14138be64fa3131389
-title: Functions
+title: Функції
 challengeType: 11
 videoId: qyuFN2AKCBw
 dashedName: functions
@@ -8,29 +8,29 @@ dashedName: functions
 
 # --description--
 
-Instructor Dr. Linda Green, a lecturer at the University of North Carolina at Chapel Hill, will teach you the basics of functions.
+Інструкторка доктор Лінда Грін, лекторка Університету Північної Кароліни в Чапел-Гілл, навчить вас основам функцій.
 
 # --questions--
 
 ## --text--
 
-What is the domain of a function?
+Що таке область визначення функції?
 
 ## --answers--
 
-All possible a-values.
+Усі можливі значення a.
 
 ---
 
-All possible y-values.
+Усі можливі значення y.
 
 ---
 
-All possible x-values.
+Усі можливі значення x.
 
 ---
 
-All possible z-values.
+Усі можливі значення z.
 
 ## --video-solution--
 

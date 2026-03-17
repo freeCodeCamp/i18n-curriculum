@@ -1,6 +1,6 @@
 ---
 id: 67eeb0a9bfe9ce2ab1cbffd2
-title: Task 29
+title: Завдання 29
 challengeType: 19
 dashedName: task-29
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Прослухайте аудіо та дайте відповідь на запитання нижче.
 
 # --questions--
 
 ## --text--
 
-What else should Mark have done?
+Що ще мав зробити Марк?
 
 ## --answers--
 
-He should have rewritten his entire code.
+Він мав переписати весь свій код.
 
 ### --feedback--
 
-Mark didn't need to rewrite everything.
+Марк не мав потреби переписувати все.
 
 ---
 
-He should have tested his code first.
+Він мав спочатку протестувати свій код.
 
 ---
 
-He should have removed all comments.
+Він мав видалити всі коментарі.
 
 ### --feedback--
 
-Comments are useful and should not be removed.
+Коментарі корисні і їх не слід видаляти.
 
 ---
 
-He should have skipped testing because it takes too long.
+Він мав пропустити тестування, бо це займає забагато часу.
 
 ### --feedback--
 
-Testing is an important step before submitting code.
+Тестування — важливий крок перед відправленням коду.
 
 ## --video-solution--
 
@@ -52,11 +52,11 @@ Testing is an important step before submitting code.
 
 # --explanation--
 
-A `test suite` is a collection of tests that check if a program works correctly. For example:
+`test suite` — це набір тестів, які перевіряють, чи працює програма правильно. Наприклад:
 
-- `We ran the test suite to check if the app works properly.` - The team executed all the tests to ensure the app functions as expected.
+- `We ran the test suite to check if the app works properly.` — команда виконала всі тести, щоб переконатися, що застосунок працює як очікується.
 
-- `We need to add more tests to the test suite to check for edge cases.` - The team should include more tests to cover all possible situations.
+- `We need to add more tests to the test suite to check for edge cases.` — команді слід додати більше тестів, щоб охопити всі можливі ситуації.
 
 # --scene--
 

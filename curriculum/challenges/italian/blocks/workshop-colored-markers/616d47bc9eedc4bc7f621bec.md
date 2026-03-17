@@ -1,35 +1,35 @@
 ---
 id: 616d47bc9eedc4bc7f621bec
-title: Step 5
+title: Passaggio 5
 challengeType: 0
 dashedName: step-5
 ---
 
 # --description--
 
-Next, within the `div` element, add another `div` element and give it a class of `marker`.
+Successivamente, all'interno dell'elemento `div`, aggiungi un altro elemento `div` e assegna a questo una classe `marker`.
 
 # --hints--
 
-Your new `div` element should have an opening tag.
+Il tuo nuovo elemento `div` dovrebbe avere un tag di apertura.
 
 ```js
 assert.exists([...code.matchAll(/<div.*?>/gi)][1]);
 ```
 
-Your new `div` element should have a closing tag.
+Il tuo nuovo elemento `div` dovrebbe avere un tag di chiusura.
 
 ```js
 assert.exists([...code.matchAll(/<\/div\s*>/gi)][1]);
 ```
 
-You should nest your new `div` element within the `div` with the class `container`.
+Dovresti annidare il tuo nuovo elemento `div` all'interno dell'elemento `div` con la classe `container`.
 
 ```js
 assert.strictEqual(document.querySelector('.container')?.children[0]?.localName, 'div');
 ```
 
-You should give your new `div` element a class of `marker`.
+Dovresti assegnare al tuo nuovo elemento `div` una classe `marker`.
 
 ```js
 const containerChildren = [...document.querySelector('.container')?.children];
@@ -54,7 +54,7 @@ containerChildren.forEach(child => assert.isTrue(child.classList?.contains('mark
     <h1>CSS Color Markers</h1>
     <div class="container">
 --fcc-editable-region--
-
+      
 --fcc-editable-region--
     </div>
   </body>

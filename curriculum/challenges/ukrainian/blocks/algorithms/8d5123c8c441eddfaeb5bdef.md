@@ -1,6 +1,6 @@
 ---
 id: 8d5123c8c441eddfaeb5bdef
-title: Implement Bubble Sort
+title: реалізувати сортування бульбашкою
 challengeType: 1
 forumTopicId: 301612
 dashedName: implement-bubble-sort
@@ -8,23 +8,23 @@ dashedName: implement-bubble-sort
 
 # --description--
 
-This is the first of several challenges on sorting algorithms. Given an array of unsorted items, we want to be able to return a sorted array. We will see several different methods to do this and learn some tradeoffs between these different approaches. While most modern languages have built-in sorting methods for operations like this, it is still important to understand some of the common basic approaches and learn how they can be implemented.
+Це перше з кількох завдань зі сортувальних алгоритмів. Маючи масив несортованих елементів, ми хочемо мати можливість повернути відсортований масив. Ми розглянемо кілька різних методів для цього і дізнаємося про деякі компроміси між цими підходами. Хоча більшість сучасних мов мають вбудовані методи сортування для таких операцій, все одно важливо розуміти деякі загальні базові підходи і навчитися, як їх можна реалізувати.
 
-Here we will see bubble sort. The bubble sort method starts at the beginning of an unsorted array and 'bubbles up' unsorted values towards the end, iterating through the array until it is completely sorted. It does this by comparing adjacent items and swapping them if they are out of order. The method continues looping through the array until no swaps occur at which point the array is sorted.
+Тут ми розглянемо сортування бульбашкою. Метод сортування бульбашкою починається з початку несортованого масиву і «виштовхує» несортовані значення до кінця, проходячи масив ітеративно, доки він повністю не відсортується. Це відбувається шляхом порівняння сусідніх елементів і обміну їх місцями, якщо вони стоять у неправильному порядку. Метод продовжує проходити масив у циклі, доки не відбудеться жодного обміну, після чого масив вважається відсортованим.
 
-This method requires multiple iterations through the array and for average and worst cases has quadratic time complexity. While simple, it is usually impractical in most situations.
+Цей метод вимагає кількох ітерацій через масив і для середніх та найгірших випадків має квадратичну часову складність. Хоча він простий, зазвичай він є непрактичним у більшості ситуацій.
 
-**Instructions:** Write a function `bubbleSort` which takes an array of integers as input and returns an array of these integers in sorted order from least to greatest.
+**Інструкції:** Напишіть функцію `bubbleSort`, яка приймає масив цілих чисел як вхідні дані і повертає масив цих чисел, відсортований за зростанням.
 
 # --hints--
 
-`bubbleSort` should be a function.
+`bubbleSort` має бути функцією.
 
 ```js
 assert.isFunction(bubbleSort);
 ```
 
-`bubbleSort` should return a sorted array (least to greatest).
+`bubbleSort` має повертати відсортований масив (від найменшого до найбільшого).
 
 ```js
 function isSorted(a){
@@ -58,7 +58,7 @@ assert.isTrue(
 );
 ```
 
-`bubbleSort([1,4,2,8,345,123,43,32,5643,63,123,43,2,55,1,234,92])` should return an array that is unchanged except for order.
+`bubbleSort([1,4,2,8,345,123,43,32,5643,63,123,43,2,55,1,234,92])` має повертати масив, який не змінений, окрім порядку елементів.
 
 ```js
 assert.sameMembers(
@@ -85,7 +85,7 @@ assert.sameMembers(
 );
 ```
 
-`bubbleSort` should not use the built-in `.sort()` method.
+`bubbleSort` не має використовувати вбудований метод `.sort()`.
 
 ```js
 function isBuiltInSortUsed(){

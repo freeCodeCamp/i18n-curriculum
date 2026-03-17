@@ -1,31 +1,31 @@
 ---
 id: 68ec6e8d0caee3afaaf142ef
-title: Step 8
+title: Passaggio 8
 challengeType: 0
 dashedName: step-8
 ---
 
 # --description--
 
-You can add multiple elements inside a `div` element to group related content. Inside the element having a `class` of `card-container`, create another `div` element. This `div` will represent the first book card.
+Puoi aggiungere più elementi all’interno di un elemento `div` per raggruppare contenuti correlati. All’interno dell’elemento che ha un `class` di `card-container`, crea un altro elemento `div`. Questo `div` rappresenterà la prima scheda del libro.
 
-Add a `class` attribute to this new `div` element and set the value of the `class` attribute to `card`.
+Aggiungi un attributo `class` a questo nuovo elemento `div` e imposta il valore dell’attributo `class` su `card`.
 
 # --hints--
 
-You should have a `div` element nested inside the element with a class of `card-container`.
+Dovresti avere un elemento `div` annidato all’interno dell’elemento con una classe `card-container`.
 
 ```js
 assert.exists(document.querySelector('.card-container div'));
 ```
 
-Your new `div` element should have a `class` attribute.
+Il tuo nuovo elemento `div` dovrebbe avere un attributo `class`.
 
 ```js
 assert.isTrue(document.querySelector('.card-container div')?.hasAttribute('class'));
 ```
 
-Your new `div` element should have a `class` having the value of `card`.
+Il tuo nuovo elemento `div` dovrebbe avere un `class` con valore `card`.
 
 ```js
 assert.exists(document.querySelector('.card-container div.card'));
@@ -46,10 +46,10 @@ assert.exists(document.querySelector('.card-container div.card'));
 <body>
   <h1>XYZ Bookstore</h1>
   <p>Browse our collection of amazing books!</p>
-
+  
   <div class="card-container">
 --fcc-editable-region--
-
+    
 --fcc-editable-region--
   </div>
 </body>

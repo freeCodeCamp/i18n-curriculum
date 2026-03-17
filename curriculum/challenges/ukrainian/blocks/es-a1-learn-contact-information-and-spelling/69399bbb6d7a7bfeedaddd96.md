@@ -1,6 +1,6 @@
 ---
 id: 69399bbb6d7a7bfeedaddd96
-title: Task 13
+title: Завдання 13
 challengeType: 22
 dashedName: task-13
 lang: es
@@ -10,17 +10,17 @@ lang: es
 
 # --description--
 
-The verb `escribir` means "to write". When Spanish speakers want to explain how a word is written or spelled, they often use the expression `se escribe`.
+Дієслово `escribir` означає «писати». Коли іспаномовні хочуть пояснити, як пишеться або вимовляється слово, вони часто використовують вираз `se escribe`.
 
-This form comes from the verb `escribir` and is commonly used before spelling names, emails, or other words letter by letter. For example:
+Ця форма походить від дієслова `escribir` і зазвичай використовується перед тим, як по буквах назвати імена, е-пошту чи інші слова. Наприклад:
 
-- `Carlos se escribe C-a-r-l-o-s.` – Carlos is spelled C-a-r-l-o-s.
+- `Carlos se escribe C-a-r-l-o-s.` – Carlos пишеться C-a-r-l-o-s.  
 
-- `Mi apellido se escribe con z.` – My last name is spelled with z.
+- `Mi apellido se escribe con z.` – Моє прізвище пишеться з літерою z.
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Прослухайте аудіо і доповніть речення нижче.
 
 # --fillInTheBlank--
 
@@ -38,7 +38,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This small word is part of a common expression used when explaining how something is written.
+Це маленьке слово є частиною загального виразу, який використовують, коли пояснюють, як щось пишеться.
 
 ---
 
@@ -46,13 +46,13 @@ This small word is part of a common expression used when explaining how somethin
 
 ### --feedback--
 
-This verb form comes from `escribir` and is used when spelling a word.
+Ця форма дієслова походить від `escribir` і використовується, коли по буквах називають слово.
 
 # --explanation--
 
-`Se escribe` is used when explaining how a word or name is written.
+`Se escribe` використовують, коли пояснюють, як пишеться слово або ім’я.
 
-It comes from the verb `escribir` and is commonly used before spelling something letter by letter.
+Воно походить від дієслова `escribir` і зазвичай використовується перед тим, як по буквах назвати щось.
 
 # --scene--
 

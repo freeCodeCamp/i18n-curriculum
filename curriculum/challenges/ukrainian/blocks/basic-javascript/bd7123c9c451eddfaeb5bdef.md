@@ -1,6 +1,6 @@
 ---
 id: bd7123c9c451eddfaeb5bdef
-title: Use Bracket Notation to Find the Last Character in a String
+title: Використовуйте дужкову нотацію, щоб знайти останній символ у рядку
 challengeType: 1
 forumTopicId: 18342
 dashedName: use-bracket-notation-to-find-the-last-character-in-a-string
@@ -8,34 +8,34 @@ dashedName: use-bracket-notation-to-find-the-last-character-in-a-string
 
 # --description--
 
-In order to get the last letter of a string, you can subtract one from the string's length.
+Щоб отримати останню літеру рядка, можна відняти одиницю від довжини рядка.
 
-For example, if `const firstName = "Ada"`, you can get the value of the last letter of the string by using `firstName[firstName.length - 1]`.
+Наприклад, якщо `const firstName = "Ada"`, ви можете отримати значення останньої літери рядка, використовуючи `firstName[firstName.length - 1]`.
 
-Example:
+Приклад:
 
 ```js
 const firstName = "Ada";
 const lastLetter = firstName[firstName.length - 1];
 ```
 
-`lastLetter` would have a value of the string `a`.
+`lastLetter` матиме значення рядка `a`.
 
 # --instructions--
 
-Use <dfn>bracket notation</dfn> to find the last character in the `lastName` variable.
+Використайте <dfn>дужкову нотацію</dfn>, щоб знайти останній символ у змінній `lastName`.
 
-**Hint:** Try looking at the example above if you get stuck.
+**Підказка:** Якщо застрягли, спробуйте подивитися на приклад вище.
 
 # --hints--
 
-`lastLetterOfLastName` should be the letter `e`.
+`lastLetterOfLastName` має бути літерою `e`.
 
 ```js
 assert(lastLetterOfLastName === 'e');
 ```
 
-You should use `.length` to get the last letter.
+Вам слід використати `.length`, щоб отримати останню літеру.
 
 ```js
 assert(__helpers.removeJSComments(code).match(/\.length/g).length > 0);

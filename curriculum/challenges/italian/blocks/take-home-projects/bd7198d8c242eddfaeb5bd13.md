@@ -1,6 +1,6 @@
 ---
 id: bd7198d8c242eddfaeb5bd13
-title: Show National Contiguity with a Force Directed Graph
+title: Mostrare la contiguità nazionale con un grafo diretto dalla forza
 challengeType: 3
 forumTopicId: 302367
 dashedName: show-national-contiguity-with-a-force-directed-graph
@@ -8,21 +8,21 @@ dashedName: show-national-contiguity-with-a-force-directed-graph
 
 # --description--
 
-**Objective:** Build an app that is functionally similar to this: <https://codepen.io/freeCodeCamp/full/XWEONRz>.
+**Obiettivo:** Costruisci un'app che funzioni in modo simile a questa: <https://codepen.io/freeCodeCamp/full/XWEONRz>.
 
-Fulfill the below user stories and get all of the tests to pass. Use whichever libraries or APIs you need. Give it your own personal style.
+Completa le seguenti storie utente e fai in modo che tutti i test vengano superati. Usa le librerie o le API che preferisci. Dai un tocco personale al tuo stile.
 
-**User Story:** I can see a Force-directed Graph that shows which countries share borders.
+**Storia utente:** Posso vedere un grafo diretto dalla forza che mostra quali paesi condividono i bordi.
 
-**User Story:** I can see each country's flag on its node.
+**Storia utente:** Posso vedere la bandiera di ogni paese sul suo nodo.
 
-**Hint:** Here's a dataset you can use to build this: <https://raw.githubusercontent.com/DealPete/forceDirected/master/countries.json>
+**Suggerimento:** Ecco un dataset che puoi usare per costruire questo: <https://raw.githubusercontent.com/DealPete/forceDirected/master/countries.json>
 
-**Hint:** You can create a spritesheet of national flags at <https://www.flag-sprites.com>.
+**Suggerimento:** Puoi creare uno spritesheet di bandiere nazionali su <https://www.flag-sprites.com>.
 
-When you are finished, include a link to your project on CodePen and click the "I've completed this challenge" button.
+Quando hai finito, includi un collegamento al tuo progetto su CodePen e clicca il pulsante "Ho completato questa sfida".
 
-You can get feedback on your project by sharing it on the <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp forum</a>.
+Puoi ricevere feedback sul tuo progetto condividendolo sul <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">forum di freeCodeCamp</a>.
 
 # --solutions--
 

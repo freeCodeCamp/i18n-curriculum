@@ -1,6 +1,6 @@
 ---
 id: 67efebdf734ad521ace8a89e
-title: Task 57
+title: Завдання 57
 challengeType: 22
 dashedName: task-57
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Прослухайте аудіо та доповніть речення нижче.
 
 # --fillInTheBlank--
 
@@ -24,17 +24,17 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This two-word phrase refers to a security flaw in a system that lacks a fix or update to address it and can be exploited.
+Ця двослівна фраза означає вразливість у системі, для якої відсутнє виправлення або оновлення, і яку можна використати.
 
 # --explanation--
 
-`Unpatched` means that something has not been updated or fixed.
+`Unpatched` означає, що щось не було оновлено або виправлено.
 
-`Vulnerability` refers to a weakness in a system that can be exploited.
+`Vulnerability` позначає слабке місце в системі, яке можна використати.
 
-Together, an `unpatched vulnerability` is a security weakness that has not been fixed or updated. Hackers can exploit these weaknesses to attack a system. For example:
+Разом `unpatched vulnerability` — це вразливість без виправлення або оновлення. Хакери можуть використовувати такі слабкі місця для атаки на систему. Наприклад:
 
-`We need to fix the unpatched vulnerability now.` - The team knows about security problem but it hasn't been repaired yet.
+`We need to fix the unpatched vulnerability now.` — команда знає про проблему безпеки, але її ще не виправили.
 
 # --scene--
 

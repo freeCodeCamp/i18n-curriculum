@@ -1,6 +1,6 @@
 ---
 id: 08854a2c6f052efa1e5270d2
-title: If Statements
+title: Istruzioni if
 challengeType: 11
 videoId: lruoyNlItfg
 dashedName: if-statements-learn-python-full-course-for-beginners
@@ -8,13 +8,13 @@ dashedName: if-statements-learn-python-full-course-for-beginners
 
 # --description--
 
-In this video, you will learn how to use if statements to control the flow of your Python programs based on conditions.
+In questo video imparerai come usare le istruzioni if per controllare il flusso dei tuoi programmi Python in base a delle condizioni.
 
 # --questions--
 
 ## --text--
 
-What will be the output for the following code?
+Quale sarà l'output del seguente codice?
 
 ```python
 is_male = True

@@ -1,6 +1,6 @@
 ---
 id: 28119f9dc5f93e3ac5d7c58a
-title: 2D Lists and Nested Loops
+title: Liste 2D e loop annidati
 challengeType: 11
 videoId: 2lKgjX3gzmM
 dashedName: 2d-lists-and-nested-loops-learn-python-full-course-for-beginners
@@ -8,13 +8,13 @@ dashedName: 2d-lists-and-nested-loops-learn-python-full-course-for-beginners
 
 # --description--
 
-In this video, you will learn how to create 2D lists and use nested loops to work with multi-dimensional data structures.
+In questo video imparerai come creare liste 2D e usare loop annidati per lavorare con strutture dati multidimensionali.
 
 # --questions--
 
 ## --text--
 
-What will be the output for the following code?
+Quale sarà l'output del seguente codice?
 
 ```python
 number_grid = [

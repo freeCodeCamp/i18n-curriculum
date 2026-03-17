@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Прослухайте аудіозапис та дайте відповіді на запитання.
+Прослухайте аудіо та дайте відповідь на запитання нижче.
 
 # --questions--
 
 ## --text--
 
-What is Jake asking about?
+Про що питає Джейк?
 
 ## --answers--
 
-If the updates were applied.
+Чи були застосовані оновлення.
 
 ---
 
-If new security updates were released.
+Чи були випущені нові оновлення безпеки.
 
 ### --feedback--
 
-Jake is not asking if new updates exist.
+Джейк не питає, чи існують нові оновлення.
 
 ---
 
-Who is responsible for security updates.
+Хто відповідає за оновлення безпеки.
 
 ### --feedback--
 
-Jake is not asking about a specific person.
+Джейк не питає про конкретну особу.
 
 ---
 
-How security updates work.
+Як працюють оновлення безпеки.
 
 ### --feedback--
 
-Jake assumes Jessica knows about security updates.
+Джейк припускає, що Джессіка знає про оновлення безпеки.
 
 ## --video-solution--
 
@@ -52,11 +52,11 @@ Jake assumes Jessica knows about security updates.
 
 # --explanation--
 
-Jake wants to know if someone has verified that all updates have been installed.
+Джейк хоче дізнатися, чи хтось перевірив, що всі оновлення встановлені.
 
-By `Have you checked...?` he asks if Jessica has looked into something.
+За допомогою `Have you checked...?` він питає, чи Джессіка щось перевірила.
 
-By `whether all security updates were applied` he asks if updates were successfully installed.
+За допомогою `whether all security updates were applied` він питає, чи оновлення були успішно встановлені.
 
 # --scene--
 

@@ -1,6 +1,6 @@
 ---
 id: 69a76a395a27934b29e1eac6
-title: Using ChatGPT
+title: Usare ChatGPT
 challengeType: 11
 videoId: JFY9xLY2AXU
 dashedName: using-chatgpt-learn-prompting-fundamentals
@@ -8,15 +8,15 @@ dashedName: using-chatgpt-learn-prompting-fundamentals
 
 # --description--
 
-In this video, you will learn about effective ways to use ChatGPT.
+In questo video imparerai modi efficaci per usare ChatGPT.
 
-**NOTE**: This video covers Chat GPT-4. Even though this is an older version, the strategies mentioned in the video are still valid.
+**NOTA**: Questo video riguarda Chat GPT-4. Anche se si tratta di una versione più vecchia, le strategie menzionate nel video sono ancora valide.
 
 # --questions--
 
 ## --text--
 
-Who is the creator of ChatGPT?
+Chi è il creatore di ChatGPT?
 
 ## --answers--
 
@@ -37,4 +37,3 @@ OpenAI
 ## --video-solution--
 
 4
-

@@ -1,23 +1,23 @@
 ---
 id: 64fad9cd2eeb1e7ca2ca8c8b
-title: Step 36
+title: Passaggio 36
 challengeType: 0
 dashedName: step-36
 ---
 
 # --description--
 
-Use arrow syntax to create an `updateTaskContainer` function. Then move the `taskData.forEach()` and its content from the `taskForm`'s `submit` event listener into the newly created function.
+Usa la sintassi arrow per creare una funzione `updateTaskContainer`. Poi sposta `taskData.forEach()` e il suo contenuto dall'ascoltatore di eventi `taskForm` di `submit` nella funzione appena creata.
 
 # --hints--
 
-You should use `const` and arrow syntax to create a `updateTaskContainer` function.
+Dovresti usare `const` e la sintassi arrow per creare una funzione `updateTaskContainer`.
 
 ```js
 assert.match(code, /const\s+updateTaskContainer\s*=\s*\(\s*\)\s*=>\s*\{/)
 ```
 
-You should move `taskData.forEach()` and its content into the `updateTaskContainer()` function.
+Dovresti spostare `taskData.forEach()` e il suo contenuto nella funzione `updateTaskContainer()`.
 
 ```js
 assert.match(code, /const\s+updateTaskContainer\s*=\s*\(\s*\)\s*=>\s*\{\s*taskData\.forEach\(\s*\(\s*\{\s*id\s*,\s*title\s*,\s*date\s*,\s*description\s*\}\s*\)\s*=>\s*{\s*tasksContainer\.innerHTML\s*\+=\s*`\s*<div\s+class\s*=\s*('|")task\1\s*id\s*=\s*('|")\$\{id\}\2>\s*<p><strong>Title:<\/strong>\s*\$\{title\}<\/p>\s*<p><strong>Date:<\/strong>\s*\$\{date\}<\/p>\s*<p><strong>Description:<\/strong>\s*\$\{description\}<\/p>\s*<button\s+type\s*=\s*('|")button\3\s*class\s*=\s*('|")btn\4>Edit<\/button>\s*<button\s+type\s*=\s*('|")button\5\s*class\s*=\s*('|")btn\6>Delete<\/button>\s*<\/div>\s*`;?\s*}\s*\)\s*;?\s*\}\s*;?/)

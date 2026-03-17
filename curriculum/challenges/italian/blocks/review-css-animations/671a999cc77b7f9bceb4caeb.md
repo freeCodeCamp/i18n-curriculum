@@ -1,16 +1,16 @@
 ---
 id: 671a999cc77b7f9bceb4caeb
-title: CSS Animations Review
+title: Revisione delle animazioni CSS
 challengeType: 31
 dashedName: review-css-animations
 ---
 
 # --interactive--
 
-## CSS Animation Basics
+## Nozioni di base sulle animazioni CSS
 
-- **Definition**: CSS animations allow you to create dynamic, visually engaging effects on web pages without the need for JavaScript or complex programming. They provide a way to smoothly transition elements between different styles over a specified duration.
-- **The `@keyframes` Rule**: This rule defines the stages and styles of the animation. It specifies what styles the element should have at various points during the animation.
+- **Definizione**: Le animazioni CSS ti permettono di creare effetti dinamici e visivamente coinvolgenti sulle pagine web senza bisogno di JavaScript o programmazione complessa. Offrono un modo per passare in modo fluido tra stili diversi di un elemento in un intervallo di tempo specificato.
+- **La regola `@keyframes`**: Questa regola definisce le fasi e gli stili dell'animazione. Specifica quali stili l'elemento deve avere in vari momenti durante l'animazione.
 
 :::interactive_editor
 
@@ -40,19 +40,19 @@ dashedName: review-css-animations
 
 :::
 
-- **`animation` Property**: This is the shorthand property used to apply animations.
-- **`animation-name`**: This specifies the name for the `@keyframes` rule to use.
-- **`animation-duration`**: This sets how long the animation should take to complete.
-- **`animation-timing-function`**: This defines how the animation progresses over time (such as ease, linear, ease-in-out).
-- **`animation-delay`**: This specifies a delay before the animation starts.
-- **`animation-iteration-count`**: This sets how many times the animation should repeat.
-- **`animation-direction`**: This determines whether the animation should play forwards, backwards, or alternate.
-- **`animation-fill-mode`**: This specifies how the element should be styled before and after the animation.
-- **`animation-play-state`**: This allows you to pause and resume the animation.
+- **Proprietà `animation`**: Questa è la proprietà abbreviata usata per applicare le animazioni.
+- **`animation-name`**: Specifica il nome della regola `@keyframes` da usare.
+- **`animation-duration`**: Imposta la durata necessaria per completare l'animazione.
+- **`animation-timing-function`**: Definisce come l'animazione procede nel tempo (ad esempio ease, linear, ease-in-out).
+- **`animation-delay`**: Specifica un ritardo prima che l'animazione inizi.
+- **`animation-iteration-count`**: Imposta quante volte l'animazione deve ripetersi.
+- **`animation-direction`**: Determina se l'animazione deve andare avanti, indietro o alternare.
+- **`animation-fill-mode`**: Specifica come l'elemento deve essere stilizzato prima e dopo l'animazione.
+- **`animation-play-state`**: Permette di mettere in pausa e riprendere l'animazione.
 
-## Accessibility and the `prefers-reduced-motion` Media Query
+## Accessibilità e la media query `prefers-reduced-motion`
 
-- **The `prefers-reduced-motion` Media Query**: One of the primary accessibility concerns with animations is that they can cause discomfort or even physical harm to some users. People with vestibular disorders or motion sensitivity may experience dizziness, nausea, or headaches when exposed to certain types of movement on screen. The `prefers-reduced-motion` media query allows web developers to detect if the user has requested minimal animations or motion effects at the system level.
+- **La media query `prefers-reduced-motion`**: Una delle principali preoccupazioni di accessibilità con le animazioni è che possono causare disagio o addirittura danni fisici ad alcune persone. Chi soffre di disturbi vestibolari o sensibilità al movimento può provare vertigini, nausea o mal di testa quando è esposto a certi tipi di movimento sullo schermo. La media query `prefers-reduced-motion` permette agli sviluppatori web di rilevare se l’utente ha richiesto animazioni o effetti di movimento ridotti a livello di sistema.
 
 :::interactive_editor
 
@@ -82,4 +82,4 @@ dashedName: review-css-animations
 
 # --assignment--
 
-Review the CSS Animations topics and concepts.
+Rivedi gli argomenti e i concetti sulle animazioni CSS.

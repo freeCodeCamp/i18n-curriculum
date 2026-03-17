@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c443eddfaeb5bd0e
-title: Chart the Stock Market
+title: Tracciare il mercato azionario
 challengeType: 4
 forumTopicId: 302363
 dashedName: chart-the-stock-market
@@ -8,19 +8,19 @@ dashedName: chart-the-stock-market
 
 # --description--
 
-Build a full-stack JavaScript app that is functionally similar to this: <a href="https://chart-the-stock-market.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://chart-the-stock-market.freecodecamp.rocks/</a>. Use a site builder of your choice to complete the project.
+Crea un'app JavaScript full-stack che sia funzionalmente simile a questa: <a href="https://chart-the-stock-market.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://chart-the-stock-market.freecodecamp.rocks/</a>. Usa un site builder a tua scelta per completare il progetto.
 
-Here are the specific user stories you should implement for this project:
+Ecco le specifiche storie utente che dovresti implementare per questo progetto:
 
-**User Story:** You can view a graph displaying the recent trend lines for each added stock.
+**Storia utente:** Puoi visualizzare un grafico che mostra le linee di tendenza recenti per ogni azione aggiunta.
 
-**User Story:** You can add new stocks by their symbol name.
+**Storia utente:** Puoi aggiungere nuove azioni tramite il loro simbolo.
 
-**User Story:** You can remove stocks.
+**Storia utente:** Puoi rimuovere azioni.
 
-**User Story:** You can see changes in real-time when any other user adds or removes a stock. For this you will need to use Web Sockets.
+**Storia utente:** Puoi vedere i cambiamenti in tempo reale quando un altro utente aggiunge o rimuove un'azione. Per questo dovrai usare i Web Socket.
 
-When you are done, make sure a working demo of your project is hosted somewhere public. Then submit the URL to it in the Solution Link field. Optionally, also submit a link to your project's source code in the GitHub Link field.
+Quando hai finito, assicurati che una demo funzionante del tuo progetto sia ospitata pubblicamente da qualche parte. Poi invia l'URL nel campo Solution Link. In modo opzionale, invia anche un collegamento al codice sorgente del progetto nel campo GitHub Link.
 
 # --solutions--
 

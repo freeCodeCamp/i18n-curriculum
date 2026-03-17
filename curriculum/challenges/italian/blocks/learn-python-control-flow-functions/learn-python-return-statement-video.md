@@ -1,6 +1,6 @@
 ---
 id: c6c9dae4017830e187eeaf42
-title: Return Statement
+title: Istruzione return
 challengeType: 11
 videoId: Gx3VTsaMCHU
 dashedName: return-statement-learn-python-full-course-for-beginners
@@ -8,13 +8,13 @@ dashedName: return-statement-learn-python-full-course-for-beginners
 
 # --description--
 
-In this video, you will learn how to use the return statement in functions.
+In questo video imparerai come usare l'istruzione return nelle funzioni.
 
 # --questions--
 
 ## --text--
 
-What will be the output for the following code?
+Quale sarà l'output del seguente codice?
 
 ```python
 def cube(num):

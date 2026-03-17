@@ -1,6 +1,6 @@
 ---
 id: cf1391c1c11feddfaeb4bdef
-title: Create Decimal Numbers with JavaScript
+title: Створення десяткових чисел за допомогою JavaScript
 challengeType: 1
 forumTopicId: 16826
 dashedName: create-decimal-numbers-with-javascript
@@ -8,23 +8,23 @@ dashedName: create-decimal-numbers-with-javascript
 
 # --description--
 
-We can store decimal numbers in variables too. Decimal numbers are sometimes referred to as <dfn>floating point</dfn> numbers or <dfn>floats</dfn>.
+Ми також можемо зберігати десяткові числа у змінних. Десяткові числа іноді називають <dfn>числами з плаваючою комою</dfn> або <dfn>флоатами</dfn>.
 
-**Note:** when you compute numbers, they are computed with finite precision. Operations using floating points may lead to different results than the desired outcome. If you are getting one of these results, open a topic on the <a href="https://forum.freecodecamp.org/" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp forum</a>.
+**Примітка:** коли ви обчислюєте числа, вони обчислюються з кінцевою точністю. Операції з числами з плаваючою комою можуть призводити до результатів, які відрізняються від бажаного. Якщо ви отримуєте один із таких результатів, відкрийте тему на <a href="https://forum.freecodecamp.org/" target="_blank" rel="noopener noreferrer nofollow">форумі freeCodeCamp</a>.
 
 # --instructions--
 
-Create a variable `myDecimal` and give it a decimal value with a fractional part (e.g. `5.7`).
+Створіть змінну `myDecimal` і надайте їй десяткове значення з дробовою частиною (наприклад, `5.7`).
 
 # --hints--
 
-`myDecimal` should be a number.
+`myDecimal` має бути числом.
 
 ```js
 assert(typeof myDecimal === 'number');
 ```
 
-`myDecimal` should have a decimal point
+`myDecimal` має містити десяткову крапку
 
 ```js
 assert(myDecimal % 1 != 0);

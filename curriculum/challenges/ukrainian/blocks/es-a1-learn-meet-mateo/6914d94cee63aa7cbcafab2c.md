@@ -1,6 +1,6 @@
 ---
 id: 6914d94cee63aa7cbcafab2c
-title: Task 2
+title: Завдання 2
 challengeType: 22
 dashedName: task-2
 lang: es
@@ -10,13 +10,13 @@ lang: es
 
 # --description--
 
-Mateo is mentioning his name and profession in Spanish.
+Матео називає своє ім’я та професію іспанською.
 
-Here, the verb `ser` is used to express his identity and profession.
+Тут дієслово `ser` використовується, щоб висловити його особу та професію.
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Прослухайте аудіо та доповніть речення нижче.
 
 # --fillInTheBlank--
 
@@ -30,7 +30,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This verb form comes from the verb `ser` and is used to describe who you are or what you do.
+Ця форма дієслова походить від дієслова `ser` і використовується, щоб описати, хто ви є або чим ви займаєтеся.
 
 ---
 
@@ -38,14 +38,14 @@ This verb form comes from the verb `ser` and is used to describe who you are or 
 
 ### --feedback--
 
-This verb form comes from the verb `ser` and is used to describe who you are or what you do.
+Ця форма дієслова походить від дієслова `ser` і використовується, щоб описати, хто ви є або чим ви займаєтеся.
 
 # --explanation--
 
 
-`Soy` is a verb used to describe who you are or what you do. For example:
+`Soy` — це дієслово, яке використовується, щоб описати, хто ви є або чим ви займаєтеся. Наприклад:
 
-`Soy Mateo. Soy ingeniero de software.` - I'm Mateo. I'm a software engineer.
+`Soy Mateo. Soy ingeniero de software.` — Я Матео. Я інженер програмного забезпечення.
 
 # --scene--
 
@@ -103,4 +103,3 @@ This verb form comes from the verb `ser` and is used to describe who you are or 
   ]
 }
 ```
-

@@ -1,6 +1,6 @@
 ---
 id: 699e0359138be64fa3131390
-title: Inverse Functions
+title: Обернені функції
 challengeType: 11
 videoId: f9ph7m0zgD0
 dashedName: inverse-functions
@@ -8,29 +8,29 @@ dashedName: inverse-functions
 
 # --description--
 
-In this video, you will learn about inverse functions.
+У цьому відео ви дізнаєтеся про обернені функції.
 
 # --questions--
 
 ## --text--
 
-Do all functions have inverse functions?
+Чи мають усі функції обернені функції?
 
 ## --answers--
 
-No
+Ні
 
 ---
 
-Yes
+Так
 
 ---
 
-Only for functions with a finite domain.
+Тільки функції з кінцевою областю визначення.
 
 ---
 
-Only for functions that are increasing or decreasing everywhere.
+Тільки функції, що всюди зростають або спадають.
 
 ## --video-solution--
 

@@ -1,6 +1,6 @@
 ---
 id: 680aef568ac1bd591eceb0dc
-title: Task 98
+title: Завдання 98
 challengeType: 22
 dashedName: task-98
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Прослухайте аудіо та доповніть речення нижче.
 
 # --fillInTheBlank--
 
@@ -24,15 +24,15 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This is a short form for something that means messages or content created to promote a product, service, or event. Use the plural form.
+Це скорочена форма для чогось, що означає повідомлення або вміст, створений для просування продукту, послуги чи події. Використовуйте множину.
 
 # --explanation--
 
-An `ad` (short for `advertisement`) is a piece of content designed to get people's attention and encourage them to buy something, use a service, or take action. Ads can appear on social media, websites, TV, radio, and more. For example:
+`ad` (скорочено від `advertisement`) — це частина вмісту, створена, щоб привернути увагу людей і спонукати їх щось купити, скористатися послугою або вжити заходів. Реклама може з’являтися в соціальних мережах, на вебсайтах, телебаченні, радіо тощо. Наприклад:
 
-- `They launched a new ad campaign for their latest product.` – This means the company created and shared promotional content to raise interest in a product.
+- `They launched a new ad campaign for their latest product.` – це означає, що компанія створила та поширила рекламний вміст, щоб підвищити інтерес до продукту.
 
-- `We saw a lot of online ads for the holiday sale.` – This means there were many promotional messages about the sale on websites or apps.
+- `We saw a lot of online ads for the holiday sale.` – це означає, що на вебсайтах або в застосунках було багато рекламних повідомлень про розпродаж.
 
 # --scene--
 

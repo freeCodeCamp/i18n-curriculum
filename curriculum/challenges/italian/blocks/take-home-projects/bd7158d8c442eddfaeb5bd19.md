@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c442eddfaeb5bd19
-title: Costruisci un visualizzatore di Wikipedia
+title: Crea un visualizzatore di Wikipedia
 challengeType: 3
 forumTopicId: 302360
 dashedName: build-a-wikipedia-viewer
@@ -8,21 +8,21 @@ dashedName: build-a-wikipedia-viewer
 
 # --description--
 
-**Objective:** Build an app that is functionally similar to this: <a href="https://codepen.io/freeCodeCamp/full/wGqEga/" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/wGqEga/</a>.
+**Obiettivo:** Crea un'app che sia funzionalmente simile a questa: <a href="https://codepen.io/freeCodeCamp/full/wGqEga/" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/wGqEga/</a>.
 
-Il software MediaWiki potenzia Wikipedia e ti aiuta a raccogliere e organizzare le conoscenze e a renderle disponibili per le persone.
+Il software MediaWiki alimenta Wikipedia, e ti aiuta a raccogliere e organizzare conoscenze per renderle disponibili alle persone.
 
-Usando l'API MediaQiki, replica la funzione di ricerca e la funzione di articolo random, tipo l'app di esempio di sopra. Puoi usare Wikipedia come sorgente dei dati.
+Usando l'API di MediaWiki, replica la funzione di ricerca e la funzione di articolo casuale, simile all'app di esempio sopra. Puoi usare Wikipedia come fonte dei dati.
 
-Soddisfa le user story qui sotto e supera tutti i test. Utilizza le librerie o le API di cui hai bisogno. Usa il tuo stile personale.
+Completa le seguenti storie utente e fai superare tutti i test. Usa le librerie o le API che preferisci. Dai il tuo stile personale.
 
-**User Story:** Posso cercare articoli di Wikipedia usando una barra di ricerca, e vedere gli articoli trovati.
+**Storia utente:** Posso cercare elementi di Wikipedia in un riquadro di ricerca e vedere gli elementi risultanti di Wikipedia.
 
-**User Story:** Posso premere un bottone per vedere un articolo casuale di Wikipedia.
+**Storia utente:** Posso cliccare un pulsante per vedere un elemento casuale di Wikipedia.
 
-Quando hai finito, includi un link al tuo progetto su CodePen e clicca sul pulsante "Ho completato questa sfida".
+Quando hai finito, includi un collegamento al tuo progetto su CodePen e clicca il pulsante "Ho completato questa sfida".
 
-Puoi ottenere un feedback sul tuo progetto condividendolo sul <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">forum di freeCodeCamp</a>.
+Puoi ricevere feedback sul tuo progetto condividendolo sul <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">forum di freeCodeCamp</a>.
 
 # --solutions--
 

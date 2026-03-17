@@ -7,17 +7,17 @@ dashedName: step-97
 
 # --description--
 
-Використайте інструкцію `if`, щоб перевірити, чи існує `nextSongExists`, а потім викличте функцію `playNextSong()` в межах блоку `if`. Це автоматично відтворить наступну пісню, коли поточна пісня закінчиться.
+Використайте інструкцію `if`, щоб перевірити, чи існує `nextSongExists`, а потім викличте функцію `playNextSong()` у блоці `if`. Це автоматично відтворить наступну пісню, коли закінчиться поточна.
 
 # --hints--
 
-Створіть інструкцію `if` з умовою `nextSongExists`.
+Ви маєте створити інструкцію `if` з умовою `nextSongExists`.
 
 ```js
 assert.match(code, /if\s*\(\s*nextSongExists\s*\)\s*\{\s*/)
 ```
 
-Викличте функцію `playNextSong` у своєї інструкції `if`.
+Ви маєте викликати функцію `playNextSong` всередині вашої інструкції `if`.
 
 ```js
 assert.match(code, /if\s*\(\s*nextSongExists\s*\)\s*\{\s*playNextSong\(\s*\)\s*;?\s*\}/)
@@ -596,7 +596,7 @@ const playSong = (id) => {
 
 const pauseSong = () => {
   userData.songCurrentTime = audio.currentTime;
-
+  
   playButton.classList.remove("playing");
   audio.pause();
 };

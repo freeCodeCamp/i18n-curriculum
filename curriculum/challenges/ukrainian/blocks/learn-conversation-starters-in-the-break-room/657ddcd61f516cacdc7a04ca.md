@@ -1,6 +1,6 @@
 ---
 id: 657ddcd61f516cacdc7a04ca
-title: Task 128
+title: Завдання 128
 challengeType: 19
 dashedName: task-128
 lang: en-US
@@ -10,17 +10,17 @@ lang: en-US
 
 # --description--
 
-Maria informs Tom about public transportation options, specifically mentioning a transportation that stops nearby. This is important for getting around the city, especially to places that are not within walking distance.
+Марія повідомляє Тому про варіанти громадського транспорту, зокрема згадує транспорт, який зупиняється неподалік. Це важливо для пересування містом, особливо до місць, які не в межах пішої доступності.
 
-`Two blocks away` means that you need to walk past two street corners to get to a place. It's a short walk in a city.
+`Two blocks away` означає, що вам потрібно пройти повз два перехрестя, щоб дістатися до місця. Це коротка прогулянка містом.
 
-`Downtown` is the heart of a city where there are many shops, restaurants, and usually tall buildings.
+`Downtown` — це центр міста, де багато магазинів, ресторанів і зазвичай високі будівлі.
 
 # --questions--
 
 ## --text--
 
-What does Maria say stops two blocks away?
+Що, за словами Марії, зупиняється за два квартали?
 
 ## --answers--
 
@@ -28,7 +28,7 @@ A taxi
 
 ### --feedback--
 
-Maria mentions a public transportation option, not a private service.
+Марія згадує варіант громадського транспорту, а не приватну послугу.
 
 ---
 
@@ -36,7 +36,7 @@ A train
 
 ### --feedback--
 
-Trains don't typically stop at blocks; they stop at stations.
+Поїзди зазвичай не зупиняються на кварталах; вони зупиняються на станціях.
 
 ---
 
@@ -48,7 +48,7 @@ A bicycle rental
 
 ### --feedback--
 
-Rentals are usually stationary services, not something that stops.
+Прокат зазвичай є стаціонарною послугою, а не тим, що зупиняється. 
 
 ## --video-solution--
 

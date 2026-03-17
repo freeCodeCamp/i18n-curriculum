@@ -1,6 +1,6 @@
 ---
 id: bd7993c9c69feddfaeb7bdef
-title: Multiply Two Decimals with JavaScript
+title: Помножити два десяткові числа на JavaScript
 challengeType: 1
 forumTopicId: 301173
 dashedName: multiply-two-decimals-with-javascript
@@ -8,23 +8,23 @@ dashedName: multiply-two-decimals-with-javascript
 
 # --description--
 
-In JavaScript, you can also perform calculations with decimal numbers, just like whole numbers.
+У JavaScript ви також можете виконувати обчислення з десятковими числами, так само як і з цілими числами.
 
-Let's multiply two decimals together to get their product.
+Давайте помножимо два десяткові числа, щоб отримати їхній добуток.
 
 # --instructions--
 
-Change the `0.0` so that product will equal `5.0`.
+Змініть `0.0`, щоб product дорівнювало `5.0`.
 
 # --hints--
 
-The variable `product` should equal `5.0`.
+Змінна `product` має дорівнювати `5.0`.
 
 ```js
 assert(product === 5.0);
 ```
 
-You should use the `*` operator
+Ви маєте використати оператор `*`
 
 ```js
 assert(/\*/.test(__helpers.removeJSComments(code)));

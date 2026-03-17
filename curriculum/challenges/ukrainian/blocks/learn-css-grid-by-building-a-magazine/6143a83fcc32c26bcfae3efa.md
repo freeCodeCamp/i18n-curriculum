@@ -1,59 +1,59 @@
 ---
 id: 6143a83fcc32c26bcfae3efa
-title: Step 18
+title: Крок 18
 challengeType: 0
 dashedName: step-18
 ---
 
 # --description--
 
-Below your `.text` element, create a new `section` element and give it a `class` of `text text-with-images`. Within that, create an `article` element with a `class` set to `brief-history`, and an `aside` element with the `class` set to `image-wrapper`.
+Під вашим елементом `.text` створіть новий елемент `section` і надайте йому `class` зі значенням `text text-with-images`. Усередині нього створіть елемент `article` з множиною `class`, встановленою на `brief-history`, а також елемент `aside` з `class`, встановленим на `image-wrapper`.
 
 # --hints--
 
-You should create a new `section` element.
+Ви маєте створити новий елемент `section`.
 
 ```js
 assert(document.querySelectorAll('section')?.length === 3)
 ```
 
-Your new `section` element should come after your `.text` element.
+Ваш новий елемент `section` має йти після вашого елемента `.text`.
 
 ```js
 assert(document.querySelectorAll('section')?.[2]?.previousElementSibling?.className === 'text')
 ```
 
-Your new `section` element should have the `class` set to `text text-with-images`.
+Ваш новий елемент `section` має мати `class`, встановлений на `text text-with-images`.
 
 ```js
 assert(document.querySelectorAll('section')?.[2]?.className === 'text text-with-images')
 ```
 
-Your new `section` element should have an `article` element.
+Ваш новий елемент `section` має містити елемент `article`.
 
 ```js
 assert.exists(document.querySelector('.text-with-images article'));
 ```
 
-Your new `section` element should have an `aside` element.
+Ваш новий елемент `section` має містити елемент `aside`.
 
 ```js
 assert.exists(document.querySelector('.text-with-images aside'));
 ```
 
-The `article` element should come before the `aside` element.
+Елемент `article` має йти перед елементом `aside`.
 
 ```js
 assert(document.querySelector('.text-with-images article')?.nextElementSibling?.localName === 'aside');
 ```
 
-Your `article` element should have the `class` set to `brief-history`.
+Ваш елемент `article` має мати `class`, встановлений на `brief-history`.
 
 ```js
 assert(document.querySelector('.text-with-images article')?.className === 'brief-history');
 ```
 
-Your `aside` element should have the `class` set to `image-wrapper`.
+Ваш елемент `aside` має мати `class`, встановлений на `image-wrapper`.
 
 ```js
 assert(document.querySelector('.text-with-images aside')?.className === 'image-wrapper');

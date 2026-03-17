@@ -1,6 +1,6 @@
 ---
 id: 699e85518f18cf77dfce5c1f
-title: Law of Cosines
+title: закон косинусів
 challengeType: 11
 videoId: KGF52g-s4Rs
 dashedName: law-of-cosines
@@ -8,33 +8,30 @@ dashedName: law-of-cosines
 
 # --description--
 
-In this video, you will learn about the Law of Cosines.
+У цьому відео ви дізнаєтеся про закон косинусів.
 
 # --questions--
 
 ## --text--
 
-What is the Law of Cosines?
+Що таке закон косинусів?
 
 ## --answers--
 
-For any triangle with sides of length a, b, and c, and angle C opposite side c, the Law of Cosines states that `c^2 = a^2 + b^2 + 2ab * cos(C)`.
+Для будь-якого трикутника зі сторонами довжиною a, b і c, та кутом C, протилежним стороні c, закон косинусів стверджує, що $c^2 = a^2 + b^2 + 2ab\cos(C)$.
 
 ---
 
-For any triangle with sides of length a, b, and c, and angle C opposite side c, the Law of Cosines states that `c = a + b - 2 * cos(C)`.
-
-
----
-
-For any triangle with sides of length a, b, and c, and angle C opposite side c, the Law of Cosines states that `c^2 = a^2 + b^2 - 2ab * cos(C)`.
+Для будь-якого трикутника зі сторонами довжиною a, b і c, та кутом C, протилежним стороні c, закон косинусів стверджує, що $c = a + b - 2\cos(C)$.
 
 ---
 
-For any triangle with sides of length a, b, and c, and angle C opposite side c, the Law of Cosines states that `c = a * b * 2 * cos(C)`.
+Для будь-якого трикутника зі сторонами довжиною a, b і c, та кутом C, протилежним стороні c, закон косинусів стверджує, що $c^2 = a^2 + b^2 - 2ab\cos(C)$.
+
+---
+
+Для будь-якого трикутника зі сторонами довжиною a, b і c, та кутом C, протилежним стороні c, закон косинусів стверджує, що $c = a \cdot b \cdot 2\cos(C)$.
 
 ## --video-solution--
 
 3
-
-

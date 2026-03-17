@@ -1,35 +1,35 @@
 ---
 id: 5f3cade99dda4e6071a85dfd
-title: Step 42
+title: Passaggio 42
 challengeType: 0
 dashedName: step-42
 ---
 
 # --description--
 
-You will come back to styling the menu in a few steps, but for now, go ahead and add a second `section` element below the first for displaying the desserts offered by the cafe.
+Tornerai a occuparsi dello stile del menu tra qualche passaggio, ma per ora, procedi ad aggiungere un secondo elemento `section` sotto il primo per mostrare i dessert offerti dal caffè.
 
 # --hints--
 
-You should have an opening `section` tag.
+Dovresti avere un tag di apertura `section`.
 
 ```js
 assert.lengthOf(code.match(/<section>/ig) ,2);
 ```
 
-You should have a closing `section` tag.
+Dovresti avere un tag di chiusura `section`.
 
 ```js
 assert.lengthOf(code.match(/<\/section>/ig) ,2);
 ```
 
-You should not change the existing `main` element.
+Non dovresti modificare l'elemento `main` esistente.
 
 ```js
 assert.lengthOf(document.querySelectorAll('main'), 1);
 ```
 
-Your new `section` element should be nested in the `main` element.
+Il tuo nuovo elemento `section` dovrebbe essere annidato nell'elemento `main`.
 
 ```js
 const main = document.querySelector('main');
@@ -74,7 +74,7 @@ assert.lengthOf(sections,2);
           </article>
         </section>
 --fcc-editable-region--
-
+        
 --fcc-editable-region--
       </main>
     </div>
@@ -112,4 +112,3 @@ h1, h2, p {
   width: 25%
 }
 ```
-

@@ -1,6 +1,6 @@
 ---
 id: 699e85718f18cf77dfce5c26
-title: Parametric Equations
+title: Параметричні рівняння
 challengeType: 11
 videoId: VP5KJr2giwI
 dashedName: parametric-equations
@@ -8,32 +8,30 @@ dashedName: parametric-equations
 
 # --description--
 
-In this video, you will learn about parametric equations.
+У цьому відео ви дізнаєтеся про параметричні рівняння.
 
 # --questions--
 
 ## --text--
 
-What is a cartesian equation for a curve?
+Що таке декартове рівняння для кривої?
 
 ## --answers--
 
-An equation in terms of r and θ that describes a curve.
+Рівняння у термінах r і θ, яке описує криву.
 
 ---
 
-An equation in terms of x and y that describes a curve.
+Рівняння у термінах x і y, яке описує криву.
 
 ---
 
-An equation that only gives the slope of a curve at each point.
+Рівняння, яке дає лише нахил кривої в кожній точці.
 
 ---
 
-An equation in terms of distance from a fixed point only.
+Рівняння у термінах відстані лише від фіксованої точки.
 
 ## --video-solution--
 
 2
-
-

@@ -1,6 +1,6 @@
 ---
 id: 24a45b3960b3aa68dff2cd9e
-title: List Functions
+title: funzioni per le liste
 challengeType: 11
 videoId: _5FQ5f3RW5U
 dashedName: list-functions-learn-python-full-course-for-beginners
@@ -8,13 +8,13 @@ dashedName: list-functions-learn-python-full-course-for-beginners
 
 # --description--
 
-In this video, you will learn how to work with useful methods including the `append()`, `index()`, `clear()`, `sort()`, and `reverse()` methods.
+In questo video imparerai a lavorare con metodi utili tra cui i metodi `append()`, `index()`, `clear()`, `sort()` e `reverse()`.
 
 # --questions--
 
 ## --text--
 
-What will be the output for the following code?
+Quale sarà l'output del seguente codice?
 
 ```python
 friends = ["Kevin", "Karen", "Jim", "Oscar", "Toby"]

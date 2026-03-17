@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c442eddfaeb5bd10
-title: Show the Local Weather
+title: mostra il meteo locale
 challengeType: 3
 forumTopicId: 302368
 dashedName: show-the-local-weather
@@ -8,23 +8,23 @@ dashedName: show-the-local-weather
 
 # --description--
 
-**Objective:** Build an app that is functionally similar to this: <a href="https://codepen.io/freeCodeCamp/full/bELRjV" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/bELRjV</a>.
+**Obiettivo:** Crea un'app che funzioni in modo simile a questa: <a href="https://codepen.io/freeCodeCamp/full/bELRjV" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/bELRjV</a>.
 
-**Rule #1:** Don't look at the example project's code. Figure it out for yourself.
+**Regola n. 1:** Non guardare il codice del progetto di esempio. Scoprilo da solo.
 
-**Rule #2:** Fulfill the below user stories and get all of the tests to pass. Use whichever libraries or APIs you need. Give it your own personal style.
+**Regola n. 2:** Completa le seguenti storie utente e fai in modo che tutti i test vengano superati. Usa le librerie o le API che preferisci. Dai il tuo stile personale.
 
-**User Story:** I can see the weather in my current location.
+**Storia utente:** Posso vedere il meteo nella mia posizione attuale.
 
-**User Story:** I can see a different icon or background image (e.g. snowy mountain, hot desert) depending on the weather.
+**Storia utente:** Posso vedere un'icona o un'immagine di sfondo diversa (ad esempio montagna innevata, deserto caldo) a seconda del meteo.
 
-**User Story:** I can push a button to toggle between Fahrenheit and Celsius.
+**Storia utente:** Posso premere un pulsante per passare da Fahrenheit a Celsius.
 
-**Note:** Many internet browsers now require an HTTP Secure (`https://`) connection to obtain a user's locale via HTML5 Geolocation. For this reason, we recommend using HTML5 Geolocation to get user location and then use the freeCodeCamp Weather API <a href="https://weather-proxy.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://weather-proxy.freecodecamp.rocks/</a> which uses an HTTP Secure connection for the weather. Also, be sure to connect to <a href="https://codepen.io" target="_blank" rel="noopener noreferrer nofollow">CodePen.io</a> via `https://`.
+**Nota:** Molti browser internet ora richiedono una connessione HTTP sicura (`https://`) per ottenere la posizione dell'utente tramite HTML5 Geolocation. Per questo motivo, consigliamo di usare HTML5 Geolocation per ottenere la posizione dell'utente e poi usare la freeCodeCamp Weather API <a href="https://weather-proxy.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://weather-proxy.freecodecamp.rocks/</a> che usa una connessione HTTP sicura per il meteo. Inoltre, assicurati di connetterti a <a href="https://codepen.io" target="_blank" rel="noopener noreferrer nofollow">CodePen.io</a> tramite `https://`.
 
-When you are finished, include a link to your project on CodePen and click the "I've completed this challenge" button.
+Quando hai finito, includi un collegamento al tuo progetto su CodePen e clicca il pulsante "Ho completato questa sfida".
 
-You can get feedback on your project by sharing it on the <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp forum</a>.
+Puoi ricevere feedback sul tuo progetto condividendolo sul <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">forum di freeCodeCamp</a>.
 
 # --solutions--
 

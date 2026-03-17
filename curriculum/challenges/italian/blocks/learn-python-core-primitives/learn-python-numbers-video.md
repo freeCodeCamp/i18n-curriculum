@@ -1,6 +1,6 @@
 ---
 id: 8ad37ddb7a23050f71cc9cc9
-title: Working with Numbers
+title: Lavorare con i numeri
 challengeType: 11
 videoId: C7sxe5GAArQ
 dashedName: working-with-numbers-learn-python-full-course-for-beginners
@@ -8,13 +8,13 @@ dashedName: working-with-numbers-learn-python-full-course-for-beginners
 
 # --description--
 
-In this video, you will learn how to work with basic arithmetic operations and built-in number functions.
+In questo video imparerai a lavorare con le operazioni aritmetiche di base e le funzioni integrate per i numeri.
 
 # --questions--
 
 ## --text--
 
-Which of the following built-in functions is used to return the base number raised to a power?
+Quale delle seguenti funzioni integrate si usa per restituire un numero base elevato a una potenza?
 
 ## --answers--
 

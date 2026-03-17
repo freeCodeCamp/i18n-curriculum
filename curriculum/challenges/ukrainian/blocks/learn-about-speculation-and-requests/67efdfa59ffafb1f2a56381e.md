@@ -12,13 +12,13 @@ lang: en-US
 
 # --instructions--
 
-Прослухайте аудіозапис та дайте відповіді на запитання.
+Прослухайте аудіо та дайте відповідь на запитання нижче.
 
 # --questions--
 
 ## --text--
 
-Jake doesn't mind discussing an issue with Jessica. What can he say?
+Джейк не проти обговорити проблему з Джесікою. Що він може сказати?
 
 ## --answers--
 
@@ -38,21 +38,21 @@ EN9d00ecb9
 
 ### --feedback--
 
-This answer does not match the prompt because Jake doesn't mind discussing the issue.
+Ця відповідь не відповідає запиту, бо Джейк не проти обговорити проблему.
 
 ## --video-solution--
 
 1
 
-# --explanation--
+# --explanation-- 
 
-Jessica asks, `Do you have any ideas?`, which is a way of inviting someone to share their thoughts or opinions.
+Джесіка запитує, `Do you have any ideas?`, що є способом запросити когось поділитися своїми думками чи думкою.
 
-`Sure, Jessica` is a way to show that you're open to discussing the issue. Another example:
+`Sure, Jessica` — це спосіб показати, що ви відкриті до обговорення проблеми. Інший приклад:
 
-- Person 1: `Do you have any ideas how to fix it?` - This person is asking for suggestions or solutions.
+- Особа 1: `Do you have any ideas how to fix it?` — ця людина просить поради або рішення.
 
-- Person 2: `Sure. We could check the server logs and see what's wrong.` - This person is saying yes, and is ready to share a suggestion.
+- Особа 2: `Sure. We could check the server logs and see what's wrong.` — ця людина погоджується і готова поділитися пропозицією.
 
 # --scene--
 

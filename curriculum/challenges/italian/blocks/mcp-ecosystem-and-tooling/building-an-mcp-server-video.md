@@ -1,6 +1,6 @@
 ---
 id: 69ae767fb4a814be6a4f2be8
-title: Building an MCP Server
+title: Creare un server MCP
 challengeType: 11
 videoId: lidIujhu3XY
 dashedName: building-an-mcp-server
@@ -8,32 +8,30 @@ dashedName: building-an-mcp-server
 
 # --description--
 
-In this video, you will learn how to build an MCP server.
+In questo video imparerai come creare un server MCP.
 
 # --questions--
 
 ## --text--
 
-What are the three components of an MCP server?
+Quali sono i tre componenti di un server MCP?
 
 ## --answers--
 
-CPU, GPU, and RAM
+CPU, GPU e RAM
 
 ---
 
-Users, Permissions, and Logs
+Utenti, permessi e log
 
 ---
 
-Resources, Tools, Prompts
+Risorse, strumenti, prompt
 
 ---
 
-Input, Output, and Network
+Input, output e rete
 
 ## --video-solution--
 
 3
-
-

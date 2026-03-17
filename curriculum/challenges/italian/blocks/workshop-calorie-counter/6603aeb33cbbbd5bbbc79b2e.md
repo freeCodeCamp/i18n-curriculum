@@ -1,19 +1,19 @@
 ---
 id: 6603aeb33cbbbd5bbbc79b2e
-title: Step 26
+title: Passaggio 26
 challengeType: 0
 dashedName: step-26
 ---
 
 # --description--
 
-To see the results from the `cleanInputString` function, you will need to add a `console.log()` statement. Inside that console statement, call the `cleanInputString` function with the string value of `"+-99"` as an argument.
+Per vedere i risultati della funzione `cleanInputString`, devi aggiungere un'istruzione `console.log()`. All'interno di quell'istruzione console, chiama la funzione `cleanInputString` con la stringa `"+-99"` come argomento.
 
-Open up the console and you should see the original string followed by the cleaned string value with the `+-` removed.
+Apri la console e dovresti vedere la stringa originale seguita dal valore della stringa ripulita con `+-` rimosso.
 
 # --hints--
 
-You should have a `console.log(cleanInputString("+-99"))` statement.
+Dovresti avere un'istruzione `console.log(cleanInputString("+-99"))`.
 
 ```js
 assert.match(code, /console\.log\(\s*cleanInputString\(\s*('|")\s*\+\-9\s*9\s*\1\s*\)\s*\);?/);

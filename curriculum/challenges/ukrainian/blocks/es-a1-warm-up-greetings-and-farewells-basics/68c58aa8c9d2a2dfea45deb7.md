@@ -1,26 +1,25 @@
 ---
 id: 68c58aa8c9d2a2dfea45deb7
-title: Task 7
+title: Завдання 7
 challengeType: 19
 dashedName: task-7
 lang: es
 ---
-
 <!-- (Audio) Elena: Hasta luego -->
 
 # --description--
 
-Elena is saying goodbye, but she expects to see you again.
+Елена прощається, але очікує побачити вас знову.
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Прослухайте аудіо та дайте відповідь на запитання нижче.
 
 # --questions--
 
 ## --text--
 
-What phrase does Elena use to say "see you later"?
+Яку фразу використовує Елена, щоб сказати "побачимось пізніше"?
 
 ## --answers--
 
@@ -32,7 +31,7 @@ What phrase does Elena use to say "see you later"?
 
 ### --feedback--
 
-This is a goodbye, but it's more final. The speaker uses a different phrase.
+Це прощання, але більш остаточне. Говорячий використовує іншу фразу.
 
 ---
 
@@ -40,7 +39,7 @@ This is a goodbye, but it's more final. The speaker uses a different phrase.
 
 ### --feedback--
 
-This is also an informal way to say goodbye, but it's not the one in the audio.
+Це також неформальний спосіб попрощатися, але це не та фраза, що в аудіо.
 
 ---
 
@@ -48,7 +47,7 @@ This is also an informal way to say goodbye, but it's not the one in the audio.
 
 ### --feedback--
 
-This means "Hi", a general greeting, but it's not what Elena says.
+Це означає "Привіт", загальне вітання, але це не те, що каже Елена.
 
 ## --video-solution--
 
@@ -56,11 +55,11 @@ This means "Hi", a general greeting, but it's not what Elena says.
 
 # --explanation--
 
-`Hasta luego` is a common way to say goodbye in Spanish. It translates to "See you later".
+`Hasta luego` — це загальний спосіб сказати "до побачення" іспанською. Це перекладається як "побачимось пізніше".
 
-It's used when you expect to see the person again, but not necessarily soon. For example:
+Цю фразу використовують, коли ви очікуєте побачити людину знову, але не обов’язково скоро. Наприклад:  
 
-`Hasta luego, Marta.` – See you later, Marta.
+`Hasta luego, Marta.` – Побачимось пізніше, Марто.
 
 # --scene--
 

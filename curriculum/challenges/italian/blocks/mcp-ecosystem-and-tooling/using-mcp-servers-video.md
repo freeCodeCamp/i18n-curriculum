@@ -1,6 +1,6 @@
 ---
 id: 69ae767ab4a814be6a4f2be7
-title: Using MCP Servers
+title: Usare i server MCP
 challengeType: 11
 videoId: PlILctA_czg
 dashedName: using-mcp-servers
@@ -8,29 +8,29 @@ dashedName: using-mcp-servers
 
 # --description--
 
-In this video, you will learn how to use MCP servers.
+In questo video imparerai come usare i server MCP.
 
 # --questions--
 
 ## --text--
 
-What are some things to consider when working with remote MCP servers?
+Quali sono alcune cose da considerare quando si lavora con server MCP remoti?
 
 ## --answers--
 
-You want to handle trust, data privacy, authorization and authentication.
+Devi gestire la fiducia, la privacy dei dati, l'autorizzazione e l'autenticazione.
 
 ---
 
-You only need to worry about the server’s processing speed and memory usage.
+Devi preoccuparti solo della velocità di elaborazione e dell'utilizzo della memoria del server.
 
 ---
 
-You need to make sure the server runs the latest version of your LLM locally.
+Devi assicurarti che il server esegua localmente l'ultima versione del tuo LLM.
 
 ---
 
-You need to ensure the server has enough disk space for temporary logs.
+Devi garantire che il server abbia abbastanza spazio su disco per i log temporanei.
 
 ## --video-solution--
 

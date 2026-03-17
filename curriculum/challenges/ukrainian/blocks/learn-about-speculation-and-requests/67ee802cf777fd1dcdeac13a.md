@@ -1,6 +1,6 @@
 ---
 id: 67ee802cf777fd1dcdeac13a
-title: Task 19
+title: Завдання 19
 challengeType: 19
 dashedName: task-19
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Прослухайте аудіо та дайте відповідь на запитання нижче.
 
 # --questions--
 
 ## --text--
 
-What requirement does Sophie mention?
+Яку вимогу згадує Софі?
 
 ## --answers--
 
-Mark should delete unnecessary lines of code.
+Mark повинен видалити непотрібні лінії коду.
 
 ### --feedback--
 
-Sophie doesn't talk about removing code.
+Софі не говорить про видалення коду.
 
 ---
 
-Mark should rewrite his code completely.
+Mark повинен повністю переписати свій код.
 
 ### --feedback--
 
-Sophie doesn't suggest rewriting the entire code.
+Софі не пропонує переписувати весь код.
 
 ---
 
-Mark should avoid using loops.
+Mark повинен уникати використання циклів.
 
 ### --feedback--
 
-Sophie does not say anything about avoiding loops.
+Софі нічого не каже про уникнення циклів.
 
 ---
 
-Mark should use notes in his code.
+Mark повинен використовувати коментарі у своєму коді.
 
 ## --video-solution--
 
@@ -52,13 +52,13 @@ Mark should use notes in his code.
 
 # --explanation--
 
-A `comment` is a note in the code that helps explain what it does. For example:
+`comment` — це примітка в коді, яка допомагає пояснити, що він робить. Наприклад:
 
-- `I added a comment to explain why this loop is necessary.` - You wrote a comment to describe why certain loop is used.
+- `I added a comment to explain why this loop is necessary.` — ви написали коментар, щоб описати, чому використовується певний цикл.
 
-- `You can use comments to leave notes about issues that need fixing later.` - Comments can be added in the code as reminders for things that need to be fixed or improved.
+- `You can use comments to leave notes about issues that need fixing later.` — коментарі можна додавати в код як нагадування про речі, які потрібно виправити або покращити.
 
-Comments help others understand the code and remind you of important details when reviewing your code later.
+Коментарі допомагають іншим зрозуміти код і нагадують вам про важливі деталі під час повторного перегляду коду пізніше.
 
 # --scene--
 

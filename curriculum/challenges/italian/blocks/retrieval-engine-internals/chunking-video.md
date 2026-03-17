@@ -1,6 +1,6 @@
 ---
 id: 69ae6a0eb4a814be6a4f2bdf
-title: Chunking
+title: Suddivisione in blocchi
 challengeType: 11
 videoId: tFUkvObOaHc
 dashedName: chunking
@@ -8,31 +8,30 @@ dashedName: chunking
 
 # --description--
 
-In this video, you will learn about chunking.
+In questo video imparerai cos’è la suddivisione in blocchi.
 
 # --questions--
 
 ## --text--
 
-Which of the following is NOT a common type of chunking?
+Quale delle seguenti NON è una tipologia comune di suddivisione in blocchi?
 
 ## --answers--
 
-Fixed size chunking
+Suddivisione in blocchi di dimensione fissa
 
 ---
 
-Semantic chunking
+Suddivisione in blocchi semantica
 
 ---
 
-Agentic chunking
+Suddivisione in blocchi agentica
 
 ---
 
-Objective chunking
+Suddivisione in blocchi oggettiva
 
 ## --video-solution--
 
 4
-

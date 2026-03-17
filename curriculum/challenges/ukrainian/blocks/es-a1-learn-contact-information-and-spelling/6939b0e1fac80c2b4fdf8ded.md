@@ -1,6 +1,6 @@
 ---
 id: 6939b0e1fac80c2b4fdf8ded
-title: Task 17
+title: Завдання 17
 challengeType: 22
 dashedName: task-17
 lang: es
@@ -10,11 +10,11 @@ lang: es
 
 # --description--
 
-In this task, Basti spells out his nickname letter by letter.
+У цьому завданні Басті по буквах вимовляє свій нікнейм.
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Прослухайте аудіо та доповніть речення нижче.
 
 # --fillInTheBlank--
 
@@ -28,7 +28,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This is the first letter Basti uses to start spelling his nickname.
+Це перша літера, яку Басті використовує, щоб почати вимовляти свій нікнейм.
 
 ---
 
@@ -36,7 +36,7 @@ This is the first letter Basti uses to start spelling his nickname.
 
 ### --feedback--
 
-This letter comes after the "s" in "Basti".
+Ця літера йде після "s" у слові "Basti".
 
 ---
 
@@ -44,11 +44,11 @@ This letter comes after the "s" in "Basti".
 
 ### --feedback--
 
-This is the final letter in "Basti". Listen for the vowel sound at the end.
+Це остання літера в "Basti". Прислухайтеся до голосного звуку в кінці.
 
 # --explanation--
 
-Basti spells his nickname as `B-a-s-t-i`.
+Басті вимовляє свій нікнейм як `B-a-s-t-i`.
 
 # --scene--
 

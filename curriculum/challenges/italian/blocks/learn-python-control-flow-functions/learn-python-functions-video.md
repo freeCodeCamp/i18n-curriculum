@@ -1,6 +1,6 @@
 ---
 id: 58d5d031e969765037c1bebb
-title: Functions
+title: Funzioni
 challengeType: 11
 videoId: QN3UNoJVS9g
 dashedName: functions-learn-python-full-course-for-beginners
@@ -8,13 +8,13 @@ dashedName: functions-learn-python-full-course-for-beginners
 
 # --description--
 
-In this video, you will learn how to define and call a function.
+In questo video imparerai come definire e chiamare una funzione.
 
 # --questions--
 
 ## --text--
 
-Which of the following is the correct way to call a function?
+Qual è il modo corretto per chiamare una funzione?
 
 ## --answers--
 

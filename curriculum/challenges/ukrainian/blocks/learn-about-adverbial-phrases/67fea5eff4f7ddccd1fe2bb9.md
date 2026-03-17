@@ -1,6 +1,6 @@
 ---
 id: 67fea5eff4f7ddccd1fe2bb9
-title: Task 22
+title: Завдання 22
 challengeType: 22
 dashedName: task-22
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Прослухайте аудіо та доповніть речення нижче.
 
 # --fillInTheBlank--
 
@@ -24,13 +24,13 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This refers to something happening once a week.
+Це стосується чогось, що відбувається раз на тиждень.
 
 # --explanation--
 
-`Weekly` is used to describe something that happens only once every week. It indicates the frequency of an event or action occurring on a weekly basis. For example:
+`Weekly` використовується, щоб описати щось, що трапляється лише раз на тиждень. Це вказує на частоту події або дії, що відбувається щотижня. Наприклад:
 
-`The team has weekly meetings to discuss project progress.` – This means the meetings happen every week.
+`The team has weekly meetings to discuss project progress.` – Це означає, що зустрічі відбуваються кожного тижня.
 
 # --scene--
 

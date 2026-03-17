@@ -1,29 +1,29 @@
 ---
 id: 5efada803cbd2bbdab94e332
-title: Passo 31
+title: Passaggio 31
 challengeType: 0
 dashedName: step-31
 ---
 
 # --description--
 
-All'interno dell'elemento `figure` che hai appena aggiunto, annida un elemento `img` con l'attributo `src` impostato a `https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg`.
+All'interno dell'elemento `figure` che hai appena aggiunto, annida un elemento `img` con un attributo `src` impostato su `https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg`.
 
 # --hints--
 
-Il secondo elemento `figure` dovrebbe avere un tag di apertura. Opening tags have this syntax: `<elementName>`.
+Il tuo secondo elemento `figure` dovrebbe avere un tag di apertura. I tag di apertura hanno questa sintassi: `<elementName>`.
 
 ```js
 assert.isAtLeast(document.querySelectorAll('figure').length, 2);
 ```
 
-Il secondo elemento `figure` dovrebbe avere un tag di chiusura. Closing tags have a `/` just after the `<` character.
+Il tuo secondo elemento `figure` dovrebbe avere un tag di chiusura. I tag di chiusura hanno un `/` subito dopo il carattere `<`.
 
 ```js
 assert.isAtLeast(code.match(/<\/figure>/g)?.length, 2);
 ```
 
-Ci dovrebbe essere un secondo elemento `figure` proprio sopra il tag di chiusura del secondo elemento `section`. Sono nell'ordine sbagliato.
+Dovrebbe esserci un secondo elemento `figure` appena sopra il tag di chiusura del secondo elemento `section`. Li hai nell'ordine sbagliato.
 
 ```js
 assert.equal(document.querySelectorAll('main > section')[1]?.lastElementChild.nodeName, 'FIGURE');
@@ -38,7 +38,7 @@ assert.exists(
 );
 ```
 
-La terza immagine deve avere un attributo `src` impostato a `https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg`.
+La terza immagine dovrebbe avere un attributo `src` impostato su `https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg`.
 
 ```js
 const catsImg = document.querySelectorAll('figure > img')[1];
@@ -47,7 +47,7 @@ assert.equal(
 );
 ```
 
-Anche se hai inserito l'URL corretto nell'attributo `src` della nuova immagine, è raccomandato inserire sempre il valore di un attributo tra virgolette.
+Anche se hai impostato il `src` della nuova immagine sull'URL corretto, è consigliato racchiudere sempre il valore di un attributo tra virgolette.
 
 ```js
 assert.notMatch(code, /\<img\s+.+\s+src\s*=\s*https:\/\/cdn\.freecodecamp\.org\/curriculum\/cat-photo-app\/cats\.jpg/);
@@ -88,7 +88,7 @@ assert.notMatch(code, /\<img\s+.+\s+src\s*=\s*https:\/\/cdn\.freecodecamp\.org\/
         </ol>
         <figure>
 --fcc-editable-region--
-
+          
 --fcc-editable-region--
         </figure>
       </section>

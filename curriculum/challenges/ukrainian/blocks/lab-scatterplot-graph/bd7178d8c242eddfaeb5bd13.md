@@ -1,6 +1,6 @@
 ---
 id: bd7178d8c242eddfaeb5bd13
-title: Build a Scatterplot Graph
+title: Побудова точкової діаграми
 challengeType: 25
 dashedName: build-a-scatterplot-graph
 demoType: onClick
@@ -8,31 +8,31 @@ demoType: onClick
 
 # --description--
 
-In this project you will use the data from `https://cdn.freecodecamp.org/curriculum/labs/data/scatterplot/cyclist-data.json` to build a scatterplot graph.
+У цьому проєкті ви використаєте дані з `https://cdn.freecodecamp.org/curriculum/labs/data/scatterplot/cyclist-data.json` для побудови точкової діаграми.
 
-The tests require axes to be generated using the D3 axis property, which automatically generates ticks along the axis. These ticks are required for passing the D3 tests because their positions are used to determine alignment of graphed elements.
+Тести вимагають, щоб осі були згенеровані за допомогою властивості осі D3, яка автоматично створює поділки вздовж осі. Ці поділки потрібні для проходження тестів D3, оскільки їхні позиції використовуються для визначення вирівнювання побудованих елементів.
 
-**Objective:** Fulfill the user stories below and get all the tests to pass to complete the lab.
+**Мета:** Виконайте наведені нижче історії користувача та пройдіть усі тести, щоб завершити лабораторну роботу.
 
-**User Stories:**
+**Історії користувача:**
 
-1. Your chart should have a title with a corresponding `id="title"`.
-1. Your chart should have a `g` element x-axis with a corresponding `id="x-axis"`.
-1. Your chart should have a `g` element y-axis with a corresponding `id="y-axis"`.
-1. Both axes should contain multiple tick labels, each with a corresponding `class="tick"`.
-1. Your chart should have a `circle` element for each data point with a corresponding `class="dot"` displaying the data.
-1. Each `.dot` should have the attributes `data-xvalue` and `data-yvalue` containing `year` and `time` values. For `data-xvalue`, integers (full years) or Date objects are acceptable for test evaluation. For `data-yvalue` (minutes), use Date objects.
-1. The `.dot` elements' `data-xvalue` attributes should match the order of the provided data.
-1. The `.dot` elements' `data-yvalue` attributes should match the order of the provided data.
-1. Each `.dot` element should align with the corresponding value on the x-axis.
-1. Each `.dot` element should align with the corresponding value on the y-axis.
-1. There should be multiple tick labels on the y-axis with `%M:%S` time format.
-1. There should be multiple tick labels on the x-axis that show the year.
-1. The range of the x-axis labels should be within the range of the actual x-axis data.
-1. The range of the y-axis labels should be within the range of the actual y-axis data.
-1. There should be a legend containing descriptive text that has `id="legend"`.
-1. You should be able to mouse over an area and see a tooltip with a corresponding `id="tooltip"` which displays more information about the area.
-1. Your tooltip should have a `data-year` attribute that corresponds to the `data-xvalue` of the active area.
+1. Ваша діаграма повинна мати заголовок із відповідним `id="title"`.
+1. Ваша діаграма повинна мати `g` елемент осі x з відповідною `id="x-axis"`.
+1. Ваша діаграма повинна мати `g` елемент осі y з відповідною `id="y-axis"`.
+1. Обидві осі повинні містити кілька міток поділок, кожна з відповідною `class="tick"`.
+1. Ваша діаграма повинна мати `circle` елемент для кожної точки даних із відповідною `class="dot"`, що відображає дані.
+1. Кожен `.dot` повинен мати атрибути `data-xvalue` і `data-yvalue`, що містять значення `year` і `time`. Для `data-xvalue` прийнятні цілі числа (повні роки) або об’єкти Date для оцінки тесту. Для `data-yvalue` (хвилини) використовуйте об’єкти Date.
+1. Атрибути `.dot` елементів `data-xvalue` повинні відповідати порядку наданих даних.
+1. Атрибути `.dot` елементів `data-yvalue` повинні відповідати порядку наданих даних.
+1. Кожен елемент `.dot` повинен бути вирівняний із відповідним значенням на осі x.
+1. Кожен елемент `.dot` повинен бути вирівняний із відповідним значенням на осі y.
+1. На осі y має бути кілька міток поділок із форматом часу `%M:%S`.
+1. На осі x має бути кілька міток поділок, які показують рік.
+1. Діапазон міток осі x має бути в межах діапазону фактичних даних осі x.
+1. Діапазон міток осі y має бути в межах діапазону фактичних даних осі y.
+1. Має бути легенда з описовим текстом, що має `id="legend"`.
+1. Ви повинні мати змогу навести курсор на область і побачити підказку з відповідною `id="tooltip"`, яка відображає більше інформації про цю область.
+1. Ваша підказка повинна мати атрибут `data-year`, що відповідає `data-xvalue` активної області.
 
 # --before-all--
 
@@ -633,13 +633,13 @@ const timeout = (milliseconds) =>
 
 # --hints--
 
-The chart should have an element with the `id` of `title` to contain the title.
+Діаграма повинна мати елемент із `id` `title` для розміщення заголовка.
 
 ```js
 assert.exists(document.getElementById('title'));
 ```
 
-The chart should have an `x-axis` with a corresponding `id="x-axis"`.
+Діаграма повинна мати `x-axis` з відповідною `id="x-axis"`.
 
 ```js
 assert.isNotNull(
@@ -649,7 +649,7 @@ assert.isNotNull(
 assert.isNotEmpty(document.querySelectorAll('g#x-axis'));
 ```
 
-The chart should have a `y-axis` with a corresponding `id="y-axis"`.
+Діаграма повинна мати `y-axis` з відповідною `id="y-axis"`.
 
 ```js
 assert.isNotNull(
@@ -659,25 +659,25 @@ assert.isNotNull(
 assert.isNotEmpty(document.querySelectorAll('g#y-axis'));
 ```
 
-The x axis should contain multiple tick labels, each with the corresponding `class="tick"`.
+Вісь x повинна містити кілька міток поділок, кожна з відповідною `class="tick"`.
 
 ```js
 assert.isNotEmpty(document.querySelectorAll('#x-axis .tick'));
 ```
 
-The y axis should contain multiple tick labels, each with the corresponding `class="tick"`.
+Вісь y повинна містити кілька міток поділок, кожна з відповідною `class="tick"`.
 
 ```js
 assert.isNotEmpty(document.querySelectorAll('#y-axis .tick'));
 ```
 
-Your chart should have dots, that each have a class of `dot`, which represent the data being plotted.
+Ваша діаграма повинна мати точки, кожна з яких має клас `dot`, що представляє дані, побудовані на графіку.
 
 ```js
 assert.isNotEmpty(document.querySelectorAll('circle.dot'));
 ```
 
-Each dot should have the properties `data-xvalue` and `data-yvalue` containing their corresponding x and y values.
+Кожна точка повинна мати властивості `data-xvalue` і `data-yvalue`, що містять відповідні значення x і y.
 
 ```js
 const dots = document.getElementsByClassName('dot');
@@ -696,7 +696,7 @@ for (let i = 0; i < dots.length; i++) {
 }
 ```
 
-The `data-xvalue` and `data-yvalue` of each dot should be within the range of the actual data and in the correct data format. For `data-xvalue`, integers (full years) or Date objects are acceptable for test evaluation. For `data-yvalue` (minutes), use Date objects.
+`data-xvalue` і `data-yvalue` кожної точки повинні бути в межах діапазону фактичних даних і у правильному форматі даних. Для `data-xvalue` прийнятні цілі числа (повні роки) або об’єкти Date для оцінки тесту. Для `data-yvalue` (хвилини) використовуйте об’єкти Date.
 
 ```js
 const years = cyclistDataJson.map(d => d.Year);
@@ -740,7 +740,7 @@ dots.forEach((dot) => {
 });
 ```
 
-The `data-xvalue` and its corresponding dot should align with the corresponding point/value on the x-axis.
+`data-xvalue` і відповідна точка повинні бути вирівняні з відповідною точкою/значенням на осі x.
 
 ```js
 const axis = document.querySelector('#x-axis');
@@ -767,7 +767,7 @@ assert.isTrue(
 );
 ```
 
-The `data-yvalue` and its corresponding dot should align with the corresponding point/value on the y-axis.
+`data-yvalue` і відповідна точка повинні бути вирівняні з відповідною точкою/значенням на осі y.
 
 ```js
 const axis = document.querySelector('#y-axis');
@@ -794,7 +794,7 @@ assert.isTrue(
 );
 ```
 
-You can see multiple tick labels on the y-axis with `%M:%S` time format.
+Ви можете бачити кілька міток поділок на осі y з форматом часу `%M:%S`.
 
 ```js
 const yAxisTickLabels = document.querySelectorAll('#y-axis .tick');
@@ -809,7 +809,7 @@ yAxisTickLabels.forEach((label) => {
 });
 ```
 
-You can see multiple tick labels on the x-axis that show the year.
+Ви можете бачити кілька міток поділок на осі x, які показують рік.
 
 ```js
 const xAxisTickLabels = document.querySelectorAll('#x-axis .tick');
@@ -824,7 +824,7 @@ xAxisTickLabels.forEach((label) => {
 });
 ```
 
-The range of the x-axis labels are within the range of the actual x-axis data.
+Діапазон міток осі x знаходиться в межах діапазону фактичних даних осі x.
 
 ```js
 const xAxisTickLabels = document.querySelectorAll('#x-axis .tick');
@@ -848,7 +848,7 @@ xAxisTickLabels.forEach((label) => {
 });
 ```
 
-The range of the y-axis labels are within the range of the actual y-axis data.
+Діапазон міток осі y знаходиться в межах діапазону фактичних даних осі y.
 
 ```js
 const yAxisTickLabels = document.querySelectorAll('#y-axis .tick');
@@ -882,7 +882,7 @@ yAxisTickLabels.forEach((label) => {
 });
 ```
 
-You can see a legend containing descriptive text that has `id="legend"`.
+Ви можете бачити легенду з описовим текстом, що має `id="legend"`.
 
 ```js
 assert.isNotNull(document.getElementById('legend'));
@@ -896,7 +896,7 @@ if (document.querySelector('#legend text') !== null) {
 assert.isNotNull(legendText, 'The legend should contain text');
 ```
 
-When hovering over an area your scatter plot should have a tooltip with a corresponding `id="tooltip"` which displays more information about the area.
+При наведенні курсору на область ваша точкова діаграма повинна мати підказку з відповідною `id="tooltip"`, яка відображає більше інформації про цю область.
 
 ```js
 const areas = document.querySelectorAll('.dot');
@@ -940,7 +940,7 @@ assert.isTrue(
 );
 ```
 
-The tooltip should have a `data-year` attribute that corresponds to the `data-xvalue` of the active area.
+Підказка повинна мати атрибут `data-year`, що відповідає `data-xvalue` активної області.
 
 ```js
 const areas = document.querySelectorAll('.dot');
@@ -970,7 +970,7 @@ try {
 
   const tooltipYear = tooltip.getAttribute('data-year');
   const areaYear = new Date(randomArea.getAttribute('data-xvalue')).getFullYear();
-
+  
   assert.equal(
     tooltipYear,
     areaYear,

@@ -1,15 +1,15 @@
 ---
 id: 686fdcfe055bcda9f651dd2e
-title: Build an Adjacency List to Matrix Converter
+title: Побудувати конвертер зі списку суміжності у матрицю суміжності
 challengeType: 27
 dashedName: build-an-adjacency-list-to-matrix-converter
 ---
 
 # --description--
 
-In this lab, you will build a function that converts an adjacency list representation of a graph into an adjacency matrix. An adjacency list is a dictionary where each key represents a node, and the corresponding value is a list of nodes that the key node is connected to. An adjacency matrix is a 2D array where the entry at position `[i][j]` is `1` if there's an edge from node `i` to node `j`, and `0` otherwise.
+У цій лабораторній роботі ви створите функцію, яка конвертує подання графа у вигляді списку суміжності в матрицю суміжності. Список суміжності — це словник, де кожен ключ представляє вузол, а відповідне значення — це список вузлів, з якими пов’язаний ключовий вузол. Матриця суміжності — це двовимірний масив, де елемент на позиції `[i][j]` дорівнює `1`, якщо існує ребро від вузла `i` до вузла `j`, і `0` в іншому випадку.
 
-For example, given the adjacency list:
+Наприклад, для списку суміжності:
 
 ```py
 {
@@ -20,7 +20,7 @@ For example, given the adjacency list:
 }
 ```
 
-The corresponding adjacency matrix would be:
+Відповідна матриця суміжності буде:
 
 ```py
 [
@@ -31,18 +31,18 @@ The corresponding adjacency matrix would be:
 ]
 ```
 
-**Objective:** Fulfill the user stories below and get all the tests to pass to complete the lab.
+**Мета:** Виконайте наведені нижче історії користувача та пройдіть усі тести, щоб завершити лабораторну роботу.
 
-**Історія користувача:**
+**Історії користувача:**
 
-1. You should define a function named `adjacency_list_to_matrix` to convert an adjacency list to an adjacency matrix.
-2. The function should take a dictionary representing the adjacency list of an unweighted (either undirected or directed) graph as its argument.
-3. The function should:
-   - Convert the adjacency list to an adjacency matrix.
-   - Print each row in the adjacency matrix.
-   - Return the adjacency matrix.
+1. Ви повинні визначити функцію з іменем `adjacency_list_to_matrix`, яка конвертує список суміжності у матрицю суміжності.
+2. Функція має приймати словник, що представляє список суміжності неваженого (орієнтованого або неорієнтованого) графа, як свій параметр.
+3. Функція має:
+   - Конвертувати список суміжності у матрицю суміжності.
+   - Вивести кожен рядок матриці суміжності.
+   - Повернути матрицю суміжності.
 
-For example, `adjacency_list_to_matrix({0: [2], 1: [2, 3], 2: [0, 1, 3], 3: [1, 2]})` should print:
+Наприклад, `adjacency_list_to_matrix({0: [2], 1: [2, 3], 2: [0, 1, 3], 3: [1, 2]})` має вивести:
 
 ```md
 [0, 0, 1, 0]
@@ -51,12 +51,12 @@ For example, `adjacency_list_to_matrix({0: [2], 1: [2, 3], 2: [0, 1, 3], 3: [1, 
 [0, 1, 1, 0]
 ```
 
-and return `[[0, 0, 1, 0], [0, 0, 1, 1], [1, 1, 0, 1], [0, 1, 1, 0]]`.
+і повернути `[[0, 0, 1, 0], [0, 0, 1, 1], [1, 1, 0, 1], [0, 1, 1, 0]]`.
 
 
 # --hints--
 
-You should define a function named `adjacency_list_to_matrix`.
+Визначте функцію з іменем `adjacency_list_to_matrix`.
 
 ```js
 ({ 
@@ -66,7 +66,7 @@ You should define a function named `adjacency_list_to_matrix`.
 })
 ```
 
-The `adjacency_list_to_matrix` function should have one parameter.
+Функція `adjacency_list_to_matrix` має мати один параметр.
 
 ```js
 ({ test: () => assert(runPython(`
@@ -77,7 +77,7 @@ The `adjacency_list_to_matrix` function should have one parameter.
 })
 ```
 
-The function should correctly determine the number of nodes from the adjacency list.
+Функція має правильно визначити кількість вузлів зі списку суміжності.
 
 ```js
 ({ 
@@ -90,7 +90,7 @@ The function should correctly determine the number of nodes from the adjacency l
 })
 ```
 
-The function should correctly set matrix values to `1` for existing edges.
+Функція має правильно встановити значення матриці в `1` для існуючих ребер.
 
 ```js
 ({ 
@@ -105,30 +105,30 @@ The function should correctly set matrix values to `1` for existing edges.
 })
 ```
 
-The function should print each row of the matrix.
+Функція має вивести кожен рядок матриці.
 
 ```js
 ({ 
     test: () => runPython(`
         import io
         import sys
-
+        
         captured_output = io.StringIO()
         sys.stdout = captured_output
-
+        
         adj_list = {0: [1], 1: []}
         adjacency_list_to_matrix(adj_list)
-
+        
         sys.stdout = sys.__stdout__
         output = captured_output.getvalue()
-
+        
         assert "[0, 1]" in output
         assert "[0, 0]" in output
     `) 
 })
 ```
 
-The function should return the adjacency matrix.
+Функція має повернути матрицю суміжності.
 
 ```js
 ({ 
@@ -140,7 +140,7 @@ The function should return the adjacency matrix.
 })
 ```
 
-When given the adjacency list `{0: [1, 2], 1: [2], 2: [0, 3], 3: [2]}`, the function should return `[[0, 1, 1, 0], [0, 0, 1, 0], [1, 0, 0, 1], [0, 0, 1, 0]]`.
+При поданні списку суміжності `{0: [1, 2], 1: [2], 2: [0, 3], 3: [2]}` функція має повернути `[[0, 1, 1, 0], [0, 0, 1, 0], [1, 0, 0, 1], [0, 0, 1, 0]]`.
 
 ```js
 ({ 
@@ -153,7 +153,7 @@ When given the adjacency list `{0: [1, 2], 1: [2], 2: [0, 3], 3: [2]}`, the func
 })
 ```
 
-When given the adjacency list `{0: [1], 1: [0]}`, the function should return `[[0, 1], [1, 0]]`.
+При поданні списку суміжності `{0: [1], 1: [0]}` функція має повернути `[[0, 1], [1, 0]]`.
 
 ```js
 ({ 
@@ -166,7 +166,7 @@ When given the adjacency list `{0: [1], 1: [0]}`, the function should return `[[
 })
 ```
 
-When given the adjacency list `{0: [], 1: [], 2: []}`, the function should return `[[0, 0, 0], [0, 0, 0], [0, 0, 0]]`.
+При поданні списку суміжності `{0: [], 1: [], 2: []}` функція має повернути `[[0, 0, 0], [0, 0, 0], [0, 0, 0]]`.
 
 ```js
 ({ 
@@ -192,7 +192,7 @@ When given the adjacency list `{0: [], 1: [], 2: []}`, the function should retur
 ```py
 def adjacency_list_to_matrix(adj_list):
     n = len(adj_list)
-
+    
     adj_matrix = [[0] * n for _ in range(n)]
 
     for src_node, neighbors in adj_list.items(): 

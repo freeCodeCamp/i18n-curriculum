@@ -7,34 +7,34 @@ dashedName: step-99
 
 # --description--
 
-Коли все налаштовано, викличте функції `pauseSong()`, `setPlayerDisplay()`, `highlightCurrentSong()` та `setPlayButtonAccessibleText()` для коректного оновлення програвача.
+Коли все готово, викличте функції `pauseSong()`, `setPlayerDisplay()`, `highlightCurrentSong()` та `setPlayButtonAccessibleText()`, щоб правильно оновити плеєр.
 
-Вітаємо із завершенням створення музичного плеєра! Тепер, коли ми завершили тестування та використали коротші пісні, ми замінили їх на оригінальні треки, спеціально відібрані Квінсі для вашої насолоди.
+Вітаємо з завершенням вашого музичного плеєра! Тепер, коли ми закінчили тестувати та використовувати коротші пісні, ми замінили їх на оригінальні треки, спеціально підібрані Квінсі, щоб ви могли насолоджуватися.
 
 # --hints--
 
-Викличте функцію `pauseSong`.
+Ви повинні викликати функцію `pauseSong`.
 
 ```js
 const splitter = code.split('audio.addEventListener("ended", () => {')
 assert.match(splitter[1], /pauseSong\(\s*\)\s*;?/)
 ```
 
-Викличте функцію `setPlayerDisplay`.
+Ви повинні викликати функцію `setPlayerDisplay`.
 
 ```js
 const splitter = code.split('audio.addEventListener("ended", () => {')
 assert.match(splitter[1], /setPlayerDisplay\(\s*\)\s*;?/)
 ```
 
-Викличте функцію `highlightCurrentSong`.
+Ви повинні викликати функцію `highlightCurrentSong`.
 
 ```js
 const splitter = code.split('audio.addEventListener("ended", () => {')
 assert.match(splitter[1], /highlightCurrentSong\(\s*\)\s*;?/)
 ```
 
-Викличте функцію `setPlayButtonAccessibleText`.
+Ви повинні викликати функцію `setPlayButtonAccessibleText`.
 
 ```js
 const splitter = code.split('audio.addEventListener("ended", () => {')
@@ -649,7 +649,7 @@ const playSong = (id) => {
 
 const pauseSong = () => {
   userData.songCurrentTime = audio.currentTime;
-
+  
   playButton.classList.remove("playing");
   audio.pause();
 };
@@ -1436,7 +1436,7 @@ const playSong = (id) => {
 
 const pauseSong = () => {
   userData.songCurrentTime = audio.currentTime;
-
+  
   playButton.classList.remove("playing");
   audio.pause();
 };

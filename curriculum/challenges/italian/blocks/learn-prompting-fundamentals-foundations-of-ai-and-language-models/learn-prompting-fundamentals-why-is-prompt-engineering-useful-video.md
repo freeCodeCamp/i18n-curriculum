@@ -1,6 +1,6 @@
 ---
 id: 69a765395a27934b29e1eac2
-title: Why is Prompt Engineering Useful?
+title: "Perché l'ingegneria dei prompt è utile?"
 challengeType: 11
 videoId: kUfSMBysZE4
 dashedName: why-is-prompt-engineering-useful-useful-learn-prompting-fundamentals
@@ -8,31 +8,30 @@ dashedName: why-is-prompt-engineering-useful-useful-learn-prompting-fundamentals
 
 # --description--
 
-In this video, you will learn why prompt engineering is useful for everyday tasks and learning new skills.
+In questo video imparerai perché l'ingegneria dei prompt è utile per le attività quotidiane e per apprendere nuove competenze.
 
 # --questions--
 
 ## --text--
 
-Why is it important to write clear and specific prompts for AI tools?
+Perché è importante scrivere prompt chiari e specifici per gli strumenti di intelligenza artificiale?
 
 ## --answers--
 
-Writing clean and specific prompts will instantly remove all bugs from your codebase.
+Scrivere prompt puliti e specifici eliminerà istantaneamente tutti i bug dal tuo codice.
 
 ---
 
-Writing clear prompts will instantly make you 10x more productive at work.
+Scrivere prompt chiari ti renderà immediatamente 10 volte più produttivo al lavoro.
 
 ---
 
-There is no benefit of writing clear prompts because AI will always give you your desired outcome.
+Non c'è alcun vantaggio nello scrivere prompt chiari perché l'IA ti darà sempre il risultato desiderato.
 
 ---
 
-Writing clear and specific prompts will improve the results.
+Scrivere prompt chiari e specifici migliorerà i risultati.
 
 ## --video-solution--
 
 4
-

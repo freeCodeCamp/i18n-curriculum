@@ -1,32 +1,32 @@
 ---
 id: 68b7cadffed0e75a517da66f
-title: "Challenge 50: Longest Word"
+title: "Завдання 50: найдовше слово"
 challengeType: 28
 dashedName: challenge-50
 ---
 
 # --description--
 
-Given a sentence, return the longest word in the sentence.
+Дано речення, поверніть найдовше слово в реченні.
 
-- Ignore periods (`.`) when determining word length.
-- If multiple words are ties for the longest, return the first one that occurs.
+- Ігноруйте крапки (`.`) при визначенні довжини слова.
+- Якщо кілька слів мають однакову максимальну довжину, поверніть перше з них, що зустрічається.
 
 # --hints--
 
-`getLongestWord("coding is fun")` should return `"coding"`.
+`getLongestWord("coding is fun")` має повернути `"coding"`.
 
 ```js
 assert.equal(getLongestWord("coding is fun"), "coding");
 ```
 
-`getLongestWord("Coding challenges are fun and educational.")` should return `"educational"`.
+`getLongestWord("Coding challenges are fun and educational.")` має повернути `"educational"`.
 
 ```js
 assert.equal(getLongestWord("Coding challenges are fun and educational."), "educational");
 ```
 
-`getLongestWord("This sentence has multiple long words.")` should return `"sentence"`.
+`getLongestWord("This sentence has multiple long words.")` має повернути `"sentence"`.
 
 ```js
 assert.equal(getLongestWord("This sentence has multiple long words."), "sentence");

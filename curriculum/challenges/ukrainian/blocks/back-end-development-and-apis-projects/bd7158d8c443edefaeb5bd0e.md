@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c443edefaeb5bd0e
-title: URL Shortener Microservice
+title: Мікросервіс скорочення URL
 challengeType: 4
 forumTopicId: 301509
 dashedName: url-shortener-microservice
@@ -8,18 +8,18 @@ dashedName: url-shortener-microservice
 
 # --description--
 
-Build a full-stack JavaScript app that is functionally similar to this: <a href="https://url-shortener-microservice.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://url-shortener-microservice.freecodecamp.rocks</a>. Working on this project will involve you writing your code using one of the following methods:
+Створіть повноцінний JavaScript-застосунок, який функціонально схожий на цей: <a href="https://url-shortener-microservice.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://url-shortener-microservice.freecodecamp.rocks</a>. Робота над цим проєктом передбачає написання коду одним із таких способів:
 
--   Clone <a href="https://github.com/freeCodeCamp/boilerplate-project-urlshortener/" target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete your project locally.
--   Use a site builder of your choice to complete the project. Be sure to incorporate all the files from our GitHub repo.
+-   Клонуйте <a href="https://github.com/freeCodeCamp/boilerplate-project-urlshortener/" target="_blank" rel="noopener noreferrer nofollow">цей репозиторій GitHub</a> і завершіть проєкт локально.
+-   Використайте будь-який конструктор сайтів на свій вибір для завершення проєкту. Обов’язково включіть усі файли з нашого репозиторію GitHub.
 
 # --instructions--
 
-**HINT:** Do not forget to use a body parsing middleware to handle the POST requests. Also, you can use the function `dns.lookup(host, cb)` from the `dns` core module to verify a submitted URL.
+**ПІДКАЗКА:** Не забудьте використати підпрограмне забезпечення для парсингу тіла запитів, щоб обробляти POST-запити. Також ви можете використати функцію `dns.lookup(host, cb)` з основного модуля `dns` для перевірки надісланого URL.
 
 # --hints--
 
-You should provide your own project, not the example URL.
+Ви повинні надати свій власний проєкт, а не приклад URL.
 
 ```js
   assert(
@@ -29,7 +29,7 @@ You should provide your own project, not the example URL.
   );
 ```
 
-You can POST a URL to `/api/shorturl` and get a JSON response with `original_url` and `short_url` properties. Here's an example: `{ original_url : 'https://freeCodeCamp.org', short_url : 1}`
+Ви можете надіслати POST-запит із URL на `/api/shorturl` і отримати JSON-відповідь із властивостями `original_url` та `short_url`. Ось приклад: `{ original_url : 'https://freeCodeCamp.org', short_url : 1}`
 
 ```js
   const url = code;
@@ -49,7 +49,7 @@ You can POST a URL to `/api/shorturl` and get a JSON response with `original_url
   }
 ```
 
-When you visit `/api/shorturl/<short_url>`, you will be redirected to the original URL.
+Коли ви відвідаєте `/api/shorturl/<short_url>`, вас буде перенаправлено на оригінальний URL.
 
 ```js
   const url = code;
@@ -79,7 +79,7 @@ When you visit `/api/shorturl/<short_url>`, you will be redirected to the origin
   }
 ```
 
-If you pass an invalid URL that doesn't follow the valid `http://www.example.com` format, the JSON response will contain `{ error: 'invalid url' }`
+Якщо ви передасте недійсний URL, який не відповідає правильному формату `http://www.example.com`, у JSON-відповіді буде міститися `{ error: 'invalid url' }`
 
 ```js
   const url = code;
@@ -96,4 +96,3 @@ If you pass an invalid URL that doesn't follow the valid `http://www.example.com
     throw new Error(`${res.status} ${res.statusText}`);
   }
 ```
-

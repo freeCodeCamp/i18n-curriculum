@@ -1,6 +1,6 @@
 ---
 id: 69ae5c768491ca1dcd31440e
-title: What Is RAG?
+title: Cos’è rag?
 challengeType: 11
 videoId: XIU4eBuFVgM
 dashedName: what-is-rag
@@ -8,31 +8,30 @@ dashedName: what-is-rag
 
 # --description--
 
-In this video, you will learn more about RAG.
+In questo video imparerai di più su RAG.
 
 # --questions--
 
 ## --text--
 
-How does the retrieval portion of RAG work?
+Come funziona la parte di retrieval di RAG?
 
 ## --answers--
 
-It generates new context internally before answering the question.
+Genera internamente un nuovo contesto prima di rispondere alla domanda.
 
 ---
 
-It retrieves information from the language model's training data to provide context for the language model.
+Recupera informazioni dai dati di addestramento del modello linguistico per fornire un contesto al modello linguistico.
 
 ---
 
-It retrieves relevant documents from a knowledge base to provide context for the language model.
+Recupera documenti rilevanti da una base di conoscenza per fornire un contesto al modello linguistico.
 
 ---
 
-It retrieves relevant documents from the internet to provide context for the language model.
+Recupera documenti rilevanti da internet per fornire un contesto al modello linguistico.
 
 ## --video-solution--
 
 3
-

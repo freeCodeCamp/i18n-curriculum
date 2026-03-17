@@ -1,6 +1,6 @@
 ---
 id: 67ee4cbb541a7a0ae61bcc9f
-title: Task 4
+title: Завдання 4
 challengeType: 19
 dashedName: task-4
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Прослухайте аудіо та дайте відповідь на запитання нижче.
 
 # --questions--
 
 ## --text--
 
-Is this small error serious?
+Чи є ця невелика помилка серйозною?
 
 ## --answers--
 
-No, and they don't need to do anything about it.
+Ні, і їм не потрібно нічого з цим робити.
 
 ### --feedback--
 
-Sophie doesn't say it's a major issue, but they should fix it.
+Софі не каже, що це серйозна проблема, але її слід виправити.
 
 ---
 
-Yes, it will break the whole system.
+Так, це зламає всю систему.
 
 ### --feedback--
 
-Sophie doesn't say it's a major issue, just something they should fix.
+Софі не каже, що це серйозна проблема, лише що її слід виправити.
 
 ---
 
-Yes, Sophie is very worried about it.
+Так, Софі дуже хвилюється через це.
 
 ### --feedback--
 
-Sophie is not very worried, but she still thinks they should fix it.
+Софі не дуже хвилюється, але все одно вважає, що це треба виправити.
 
 ---
 
-No, but it should still be fixed.
+Ні, але це все одно слід виправити.
 
 ## --video-solution--
 
@@ -52,13 +52,13 @@ No, but it should still be fixed.
 
 # --explanation--
 
-`It's not a big deal` means the problem is not serious. For example:
+`It's not a big deal` означає, що проблема несерйозна. Наприклад:
 
-- Person 1: `I can't join the meeting today.`
+- Особа 1: `I can't join the meeting today.`
 
-- Person 2: `It's not a big deal. I'll take notes for you.` - Missing the meeting is okay, and this person can help.
+- Особа 2: `It's not a big deal. I'll take notes for you.` — Пропустити зустріч — це нормально, і ця людина може допомогти.
 
-Sophie also says `we should fix it before it causes problems`, meaning it's better to fix it now before it becomes serious.
+Софі також каже `we should fix it before it causes problems`, що означає, що краще виправити це зараз, перш ніж воно стане серйозним.
 
 # --scene--
 

@@ -1,6 +1,6 @@
 ---
 id: cf1111c1c11feddfaeb8bdef
-title: Modify Array Data With Indexes
+title: змінити дані масиву за індексами
 challengeType: 1
 forumTopicId: 18241
 dashedName: modify-array-data-with-indexes
@@ -8,26 +8,26 @@ dashedName: modify-array-data-with-indexes
 
 # --description--
 
-Unlike strings, the entries of arrays are <dfn>mutable</dfn> and can be changed freely, even if the array was declared with `const`.
+На відміну від рядків, записи масивів є <dfn>змінними</dfn> і їх можна вільно змінювати, навіть якщо масив було оголошено з `const`.
 
-**Example**
+**Приклад**
 
 ```js
 const ourArray = [50, 40, 30];
 ourArray[0] = 15;
 ```
 
-`ourArray` now has the value `[15, 40, 30]`.
+`ourArray` тепер має значення `[15, 40, 30]`.
 
-**Note:** There shouldn't be any spaces between the array name and the square brackets, like `array [0]`. Although JavaScript is able to process this correctly, this may confuse other programmers reading your code.
+**Примітка:** Між ім’ям масиву та квадратними дужками не повинно бути пробілів, як у `array [0]`. Хоча JavaScript може обробити це правильно, це може збити з пантелику інших програмістів, які читають ваш код.
 
 # --instructions--
 
-Modify the data stored at index `0` of `myArray` to a value of `45`.
+Змініть дані, що зберігаються за індексом `0` у `myArray`, на значення `45`.
 
 # --hints--
 
-`myArray` should now be `[45, 64, 99]`.
+`myArray` тепер має бути `[45, 64, 99]`.
 
 ```js
 assert(
@@ -46,7 +46,7 @@ assert(
 );
 ```
 
-You should be using correct index to modify the value in `myArray`.
+Ви повинні використовувати правильний індекс, щоб змінити значення в `myArray`.
 
 ```js
 assert(

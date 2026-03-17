@@ -1,6 +1,6 @@
 ---
 id: 5d712346c441eddfaeb5bdef
-title: Match All Numbers
+title: trova tutti i numeri
 challengeType: 1
 forumTopicId: 18181
 dashedName: match-all-numbers
@@ -8,59 +8,59 @@ dashedName: match-all-numbers
 
 # --description--
 
-You've learned shortcuts for common string patterns like alphanumerics. Another common pattern is looking for just digits or numbers.
+Hai imparato scorciatoie per pattern comuni nelle stringhe come quelli alfanumerici. Un altro pattern comune è cercare solo cifre o numeri.
 
-The shortcut to look for digit characters is `\d`, with a lowercase `d`. This is equal to the character class `[0-9]`, which looks for a single character of any number between zero and nine.
+La scorciatoia per cercare caratteri numerici è `\d`, con una `d` minuscola. Questo è uguale alla classe di caratteri `[0-9]`, che cerca un singolo carattere di qualsiasi numero tra zero e nove.
 
 # --instructions--
 
-Use the shorthand character class `\d` to count how many digits are in movie titles. Written out numbers ("six" instead of 6) do not count.
+Usa la classe di caratteri abbreviata `\d` per contare quante cifre ci sono nei titoli dei film. I numeri scritti per esteso ("six" invece di 6) non contano.
 
 # --hints--
 
-Your regex should use the shortcut character to match digit characters
+La tua espressione regolare dovrebbe usare la scorciatoia per i caratteri numerici
 
 ```js
 assert(/\\d/.test(numRegex.source));
 ```
 
-Your regex should use the global flag.
+La tua espressione regolare dovrebbe usare la flag globale.
 
 ```js
 assert(numRegex.global);
 ```
 
-Your regex should find 1 digit in the string `9`.
+La tua espressione regolare dovrebbe trovare 1 cifra nella stringa `9`.
 
 ```js
 assert('9'.match(numRegex).length == 1);
 ```
 
-Your regex should find 2 digits in the string `Catch 22`.
+La tua espressione regolare dovrebbe trovare 2 cifre nella stringa `Catch 22`.
 
 ```js
 assert('Catch 22'.match(numRegex).length == 2);
 ```
 
-Your regex should find 3 digits in the string `101 Dalmatians`.
+La tua espressione regolare dovrebbe trovare 3 cifre nella stringa `101 Dalmatians`.
 
 ```js
 assert('101 Dalmatians'.match(numRegex).length == 3);
 ```
 
-Your regex should find no digits in the string `One, Two, Three`.
+La tua espressione regolare non dovrebbe trovare cifre nella stringa `One, Two, Three`.
 
 ```js
 assert('One, Two, Three'.match(numRegex) == null);
 ```
 
-Your regex should find 2 digits in the string `21 Jump Street`.
+La tua espressione regolare dovrebbe trovare 2 cifre nella stringa `21 Jump Street`.
 
 ```js
 assert('21 Jump Street'.match(numRegex).length == 2);
 ```
 
-Your regex should find 4 digits in the string `2001: A Space Odyssey`.
+La tua espressione regolare dovrebbe trovare 4 cifre nella stringa `2001: A Space Odyssey`.
 
 ```js
 assert('2001: A Space Odyssey'.match(numRegex).length == 4);

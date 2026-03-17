@@ -1,31 +1,31 @@
 ---
 id: 60fad6dfcc0d930a59becf12
-title: Step 39
+title: Passaggio 39
 challengeType: 0
 dashedName: step-39
 ---
 
 # --description--
 
-The HTML for the registration form is finished. Now, you can spruce it up a bit.
+L'HTML per il modulo di registrazione è completo. Ora puoi abbellirlo un po'.
 
-Start by changing the font to `Tahoma`, and the font size to `16px` in the `body`.
+Inizia cambiando il carattere tipografico in `Tahoma` e la dimensione del carattere in `16px` nel `body`.
 
 # --hints--
 
-You should use the `font-family` property to change the font.
+Dovresti usare la proprietà `font-family` per cambiare il carattere tipografico.
 
 ```js
 assert.isNotEmpty(new __helpers.CSSHelp(document).getStyle('body')?.fontFamily);
 ```
 
-You should set the `font-family` property to `Tahoma`.
+Dovresti impostare la proprietà `font-family` su `Tahoma`.
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('body')?.fontFamily, 'Tahoma');
 ```
 
-You should set the `font-size` property to `16px`.
+Dovresti impostare la proprietà `font-size` su `16px`.
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('body')?.fontSize, '16px');
@@ -93,7 +93,7 @@ body {
   background-color: #1b1b32;
   color: #f5f6f7;
 --fcc-editable-region--
-
+  
 --fcc-editable-region--
 }
 

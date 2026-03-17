@@ -1,6 +1,6 @@
 ---
 id: d4876f74547b26d5c330423e
-title: Building a Guessing Game
+title: Creare un gioco di indovinelli
 challengeType: 11
 videoId: sHyQCBFRoug
 dashedName: building-a-guessing-game-learn-python-full-course-for-beginners
@@ -8,13 +8,13 @@ dashedName: building-a-guessing-game-learn-python-full-course-for-beginners
 
 # --description--
 
-In this video, you will build a guessing game that uses loops and conditionals.
+In questo video costruirai un gioco di indovinelli che usa loop e condizioni.
 
 # --questions--
 
 ## --text--
 
-What does the condition `guess != secret_word` mean in this code?
+Cosa significa la condizione `guess != secret_word` in questo codice?
 
 ```python
 secret_word = "giraffe"
@@ -26,19 +26,19 @@ while guess != secret_word:
 
 ## --answers--
 
-If `guess` is not equal to `secret_word`.
+Se `guess` non è uguale a `secret_word`.
 
 ---
 
-If `guess` is equal to `secret_word`.
+Se `guess` è uguale a `secret_word`.
 
 ---
 
-If `guess` is greater than `secret_word`.
+Se `guess` è maggiore di `secret_word`.
 
 ---
 
-If `guess` is less than `secret_word`.
+Se `guess` è minore di `secret_word`.
 
 ## --video-solution--
 

@@ -1,6 +1,6 @@
 ---
 id: 685a9aaee82fca9effece4bd
-title: Task 130
+title: Завдання 130
 challengeType: 22
 dashedName: task-130
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Прослухайте аудіо та доповніть речення нижче.
 
 # --fillInTheBlank--
 
@@ -24,13 +24,13 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This refers to a person who is present at an event or meeting.
+Це стосується людини, яка присутня на події або зустрічі.
 
 # --explanation--
 
-An `attendee` is someone who attends or is present at an event, such as a meeting, seminar, or conference. For example:
+`attendee` — це людина, яка відвідує або присутня на події, наприклад, на зустрічі, семінарі чи конференції. Наприклад:
 
-`Each attendee received a welcome packet when they arrived.` – This means every person who came to the event got a packet.
+`Each attendee received a welcome packet when they arrived.` – Це означає, що кожна людина, яка прийшла на подію, отримала пакет.
 
 # --scene--
 

@@ -1,6 +1,6 @@
 ---
 id: 699e8ca68f18cf77dfce5c27
-title: Difference Quotient
+title: Частка різниці
 challengeType: 11
 videoId: D5ajV73gC1k
 dashedName: difference-quotient
@@ -8,31 +8,30 @@ dashedName: difference-quotient
 
 # --description--
 
-In this video, you will learn about the difference quotient.
+У цьому відео ви дізнаєтеся про частку різниці.
 
 # --questions--
 
 ## --text--
 
-What is a secant line?
+Що таке січна лінія?
 
 ## --answers--
 
-A line that is always parallel to the x-axis.
+Лінія, яка завжди паралельна осі x.
 
 ---
 
-A vertical line that intersects the y-axis.
+Вертикальна лінія, що перетинає вісь y.
 
 ---
 
-A line that stretches between two points on the graph of a function.
+Лінія, що проходить між двома точками на графіку функції.
 
 ---
 
-A line that touches the graph of a function at exactly one point.
+Лінія, що торкається графіка функції в точно одній точці.
 
 ## --video-solution--
 
 3
-

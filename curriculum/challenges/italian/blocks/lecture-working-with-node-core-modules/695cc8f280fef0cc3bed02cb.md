@@ -1,21 +1,21 @@
 ---
 id: 695cc8f280fef0cc3bed02cb
-title: What Is the Process Module and How Does It Work?
+title: Cos’è il modulo process e come funziona?
 challengeType: 19
 dashedName: what-is-the-process-module-and-how-does-it-work
 ---
 
 # --description--
 
-`process` is one of the most important Node.js core modules. It gives you access to information about the current Node.js process, and lets you control it while your app is running.
+`process` è uno dei moduli core più importanti di Node.js. Ti permette di consultare informazioni sul processo Node.js corrente e di controllarlo mentre la tua app è in esecuzione.
 
-When you execute a command like `node script.js` in the terminal, Node.js starts a process, which is a running instance of the Node program that executes the `script.js` file. This process has its own memory, environment, and execution context. 
+Quando esegui un comando come `node script.js` nel terminale, Node.js avvia un processo, che è un’istanza in esecuzione del programma Node che esegue il file `script.js`. Questo processo ha una sua memoria, ambiente e contesto di esecuzione.
 
-The current process is exposed globally through the `process` module, so you don't even need to import it. As long as you have Node.js installed, then you can call it anywhere.
+Il processo corrente è esposto globalmente tramite il modulo `process`, quindi non devi nemmeno importarlo. Finché hai Node.js installato, puoi chiamarlo ovunque.
 
-The `process` module exposes properties and methods for you to get certain information about the current execution context.
+Il modulo `process` espone proprietà e metodi per ottenere alcune informazioni sul contesto di esecuzione corrente.
 
-`process.env` gets you information about the current environment Node is running on. This always returns a giant object with many parameters, so here's how you can access some of the most important information directly:
+`process.env` ti fornisce informazioni sull’ambiente corrente in cui Node è in esecuzione. Questo restituisce sempre un oggetto enorme con molti parametri, quindi ecco come puoi consultare direttamente alcune delle informazioni più importanti:
 
 ```js
 // Gets all environment variables available to the current Node.js process
@@ -37,7 +37,7 @@ console.log(process.env.PWD); // /Users/johndoe/projects/myapp
 console.log(process.env.USER); // johndoe
 ```
 
-`process.argv` lets you read command-line arguments:
+`process.argv` ti permette di leggere gli argomenti della riga di comando:
 
 ```js
 console.log(process.argv);
@@ -52,15 +52,15 @@ Hello world
 */
 ```
 
-The `cwd()` method shows the current working directory:
+Il metodo `cwd()` mostra la directory di lavoro corrente:
 
 ```js
 console.log(process.cwd());
 ```
 
-Process events are a core feature of Node.js that let your app respond to key moments in its lifecycle, like when it's about to exit, encounters an error, or receives a system signal.
+Gli eventi del processo sono una funzionalità fondamentale di Node.js che permettono alla tua app di rispondere a momenti chiave del suo ciclo di vita, come quando sta per terminare, incontra un errore o riceve un segnale di sistema.
 
-The `exit` event, for example, runs right before the Node.js process finishes:
+L’evento `exit`, per esempio, viene eseguito proprio prima che il processo Node.js finisca:
 
 ```js
 process.on("exit", (code) => {
@@ -70,7 +70,7 @@ process.on("exit", (code) => {
 // Process exiting with code: 0
 ```
 
-The `uncaughtException` event is triggered when an error is not caught in your code, which can help you prevent crashes:
+L’evento `uncaughtException` si attiva quando un errore non viene catturato nel tuo codice, il che può aiutarti a prevenire crash:
 
 ```js
 process.on("uncaughtException", (err) => {
@@ -78,7 +78,7 @@ process.on("uncaughtException", (err) => {
 });
 ```
 
-Lastly, the `warning` event is triggered when Node.js emits a process warning:
+Infine, l’evento `warning` si attiva quando Node.js emette un avviso di processo:
 
 ```js
 process.on("warning", (warning) => {
@@ -87,7 +87,7 @@ process.on("warning", (warning) => {
 });
 ```
 
-You can then use the `emitWarning()` method to trigger a custom warning:
+Puoi poi usare il metodo `emitWarning()` per generare un avviso personalizzato:
 
 ```js
 // Example warning with the emitWarning() method
@@ -103,35 +103,35 @@ process.emitWarning('This is a custom warning message', 'CustomWarning');
 
 ## --text--
 
-What does the `process.emitWarning()` method do?
+Che cosa fa il metodo `process.emitWarning()`?
 
 ## --answers--
 
-It stops the process when a custom warning occurs.
+Interrompe il processo quando si verifica un avviso personalizzato.
 
 ### --feedback--
 
-Think about how Node.js handles custom warnings through events.
+Pensa a come Node.js gestisce gli avvisi personalizzati tramite eventi.
 
 ---
 
-It triggers a custom warning event that can be handled by the warning listener.
+Genera un evento di avviso personalizzato che può essere gestito dal listener degli avvisi.
 
 ---
 
-It logs an error and exits the process immediately.
+Registra un errore e termina immediatamente il processo.
 
 ### --feedback--
 
-Think about how Node.js handles custom warnings through events.
+Pensa a come Node.js gestisce gli avvisi personalizzati tramite eventi.
 
 ---
 
-It restarts the Node.js process after showing a warning.
+Riavvia il processo Node.js dopo aver mostrato un avviso.
 
 ### --feedback--
 
-Think about how Node.js handles custom warnings through events.
+Pensa a come Node.js gestisce gli avvisi personalizzati tramite eventi.
 
 ## --video-solution--
 
@@ -139,35 +139,35 @@ Think about how Node.js handles custom warnings through events.
 
 ## --text--
 
-How do you use the process module?
+Come si usa il modulo process?
 
 ## --answers--
 
-By calling it directly since it's a global object.
+Chiamandolo direttamente dato che è un oggetto globale.
 
 ---
 
-By enabling it in the Node.js configuration file.
+Abilitandolo nel file di configurazione di Node.js.
 
 ### --feedback--
 
-Think about why you can access process anywhere without setup.
+Pensa al motivo per cui puoi consultare process ovunque senza configurazione.
 
 ---
 
-By installing it manually using npm before calling it.
+Installandolo manualmente con npm prima di chiamarlo.
 
 ### --feedback--
 
-Think about why you can access process anywhere without setup.
+Pensa al motivo per cui puoi consultare process ovunque senza configurazione.
 
 ---
 
-By importing it using require('process') before each use.
+Importandolo con require('process') prima di ogni uso.
 
 ### --feedback--
 
-Think about why you can access process anywhere without setup.
+Pensa al motivo per cui puoi consultare process ovunque senza configurazione.
 
 ## --video-solution--
 
@@ -175,35 +175,35 @@ Think about why you can access process anywhere without setup.
 
 ## --text--
 
-What are process events used for?
+A cosa servono gli eventi di processo?
 
 ## --answers--
 
-To define environment variables for the application.
+Per definire variabili d’ambiente per l’applicazione.
 
 ### --feedback--
 
-Think about how Node.js reacts to lifecycle changes during execution.
+Pensa a come Node.js reagisce ai cambiamenti del ciclo di vita durante l’esecuzione.
 
 ---
 
-To create new processes for parallel execution.
+Per creare nuovi processi per l’esecuzione parallela.
 
 ### --feedback--
 
-Think about how Node.js reacts to lifecycle changes during execution.
+Pensa a come Node.js reagisce ai cambiamenti del ciclo di vita durante l’esecuzione.
 
 ---
 
-To listen for and respond to important lifecycle moments like exit, errors, or system signals.
+Per ascoltare e rispondere a momenti importanti del ciclo di vita come l’uscita, gli errori o i segnali di sistema.
 
 ---
 
-To manage file paths and extensions in the system.
+Per gestire percorsi e estensioni di file nel sistema.
 
 ### --feedback--
 
-Think about how Node.js reacts to lifecycle changes during execution.
+Pensa a come Node.js reagisce ai cambiamenti del ciclo di vita durante l’esecuzione.
 
 ## --video-solution--
 

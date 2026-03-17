@@ -1,6 +1,6 @@
 ---
 id: 5ed596ba3306cf2c1a94bb92
-title: Tuples
+title: Tuple
 challengeType: 11
 videoId: g6fwjiEFG-Y
 dashedName: tuples-learn-python-full-course-for-beginners
@@ -8,13 +8,13 @@ dashedName: tuples-learn-python-full-course-for-beginners
 
 # --description--
 
-In this video, you will learn about tuples in Python and how they differ from lists.
+In questo video imparerai cosa sono le tuple in Python e in cosa si differenziano dalle liste.
 
 # --questions--
 
 ## --text--
 
-Which of the following is the correct way to create a tuple?
+Qual è il modo corretto per creare una tupla?
 
 ## --answers--
 

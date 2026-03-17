@@ -1,6 +1,6 @@
 ---
 id: bd7123c8c441eddfaeb5bdef
-title: Say Hello to HTML Elements
+title: Привітання елементам HTML
 challengeType: 0
 videoUrl: 'https://scrimba.com/p/pVMPUv/cE8Gpt2'
 forumTopicId: 18276
@@ -9,37 +9,37 @@ dashedName: say-hello-to-html-elements
 
 # --description--
 
-Welcome to freeCodeCamp's HTML coding challenges. These will walk you through web development step-by-step.
+Ласкаво просимо до завдань з кодування HTML на freeCodeCamp. Вони проведуть вас крок за кроком через розробку вебсторінок.
 
-First, you'll start by building a simple web page using HTML. You can edit code in your code editor, which is embedded into this web page.
+Спочатку ви почнете зі створення простої вебсторінки за допомогою HTML. Ви можете редагувати код у своєму редакторі коду, який вставлений у цю вебсторінку.
 
-Do you see the code in your code editor that says `<h1>Hello</h1>`? That's an HTML element.
+Чи бачите код у своєму редакторі коду, який каже `<h1>Hello</h1>`? Це HTML-елемент.
 
-Most HTML elements have an opening tag and a closing tag.
+Більшість HTML-елементів мають початковий тег і кінцевий тег.
 
-Opening tags look like this:
+Початкові теги виглядають так:
 
 ```html
 <h1>
 ```
 
-Closing tags look like this:
+Кінцеві теги виглядають так:
 
 ```html
 </h1>
 ```
 
-The only difference between opening and closing tags is the forward slash after the opening bracket of a closing tag.
+Єдина різниця між початковими та кінцевими тегами — це коса риска після відкриваючої дужки кінцевого тегу.
 
-Each challenge has tests you can run at any time by clicking the "Run tests" button. When you pass all tests, you'll be prompted to submit your solution and go to the next coding challenge.
+У кожному завданні є тести, які ви можете запускати в будь-який час, натиснувши на кнопку "Run tests". Коли ви пройдете всі тести, вам запропонують відправити своє рішення і перейти до наступного завдання з кодування.
 
 # --instructions--
 
-To pass the test on this challenge, change your `h1` element's text to say `Hello World`.
+Щоб пройти тест у цьому завданні, змініть текст вашого `h1` елемента на `Hello World`.
 
 # --hints--
 
-Your `h1` element should have the text `Hello World`.
+Ваш `h1` елемент повинен містити текст `Hello World`.
 
 ```js
 assert.match(document.querySelector('h1').textContent,/hello(\s)+world/gi);

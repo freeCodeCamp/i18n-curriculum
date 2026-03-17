@@ -1,6 +1,6 @@
 ---
 id: 699e033c138be64fa313138b
-title: Maximum and Minimum Values on a Graph
+title: Максимальні та мінімальні значення на графіку
 challengeType: 11
 videoId: E1JSGpO8i3w
 dashedName: maximum-and-minimum-values-on-a-graph
@@ -8,13 +8,13 @@ dashedName: maximum-and-minimum-values-on-a-graph
 
 # --description--
 
-In this video, you will learn about maximum and minimum values on a graph.
+У цьому відео ви дізнаєтеся про максимальні та мінімальні значення на графіку.
 
 # --questions--
 
 ## --text--
 
-What is another name for maximum and minimum values on a graph?
+Як ще називають максимальні та мінімальні значення на графіку?
 
 ## --answers--
 

@@ -1,6 +1,6 @@
 ---
 id: bd7993c9c69feddfaeb8bdef
-title: Зберігання декількох значень в одній змінній за допомогою масивів JavaScript
+title: Зберігання кількох значень в одній змінній за допомогою масивів JavaScript
 challengeType: 1
 forumTopicId: 18309
 dashedName: store-multiple-values-in-one-variable-using-javascript-arrays
@@ -8,9 +8,9 @@ dashedName: store-multiple-values-in-one-variable-using-javascript-arrays
 
 # --description--
 
-With JavaScript `array` variables, we can store several pieces of data in one place.
+За допомогою змінних JavaScript `array` ми можемо зберігати кілька даних в одному місці.
 
-Оголошення масиву починається з початкової квадратної дужки, закінчується кінцевою квадратною дужкою, а між кожним елементом ставиться кома:
+Оголошення масиву починається з відкриваючої квадратної дужки, закінчується закриваючою квадратною дужкою, а між кожним елементом ставиться кома, ось так:
 
 ```js
 const sandwich = ["peanut butter", "jelly", "bread"];
@@ -18,23 +18,23 @@ const sandwich = ["peanut butter", "jelly", "bread"];
 
 # --instructions--
 
-Змініть масив `myArray` так, щоб він містив і рядок, і число (у цьому порядку).
+Змініть новий масив `myArray`, щоб він містив і рядок, і число (у такому порядку).
 
 # --hints--
 
-`myArray` повинен бути масивом.
+`myArray` має бути масивом.
 
 ```js
 assert(typeof myArray == 'object');
 ```
 
-Першим елементом у масиві `myArray` має бути рядок.
+Перший елемент у `myArray` має бути рядком.
 
 ```js
 assert(typeof myArray[0] !== 'undefined' && typeof myArray[0] == 'string');
 ```
 
-Другим елементом у `myArray` повинне бути число.
+Другий елемент у `myArray` має бути числом.
 
 ```js
 assert(typeof myArray[1] !== 'undefined' && typeof myArray[1] == 'number');

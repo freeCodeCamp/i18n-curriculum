@@ -1,6 +1,6 @@
 ---
 id: 69602ccea37b20ccba6af9db
-title: Educational and Professional Background Quiz
+title: Тест на знання освіти та професійного досвіду
 challengeType: 8
 dashedName: en-a2-quiz-educational-professional-background
 lang: en-US
@@ -8,11 +8,11 @@ lang: en-US
 
 # --description--
 
-This quiz checks your understanding of job interviews, education, and the `past simple` tense.
+Цей тест перевіряє ваше розуміння співбесід на роботу, освіти та часу `past simple`.
 
-To pass the quiz, you must correctly answer at least 18 of the 20 questions below.
+Щоб пройти тест, потрібно правильно відповісти щонайменше на 18 із 20 запитань нижче.
 
-Read each question and choose the correct answer. There's only one correct answer for each question.
+Прочитайте кожне запитання і виберіть правильну відповідь. Для кожного запитання є лише одна правильна відповідь.
 
 # --quizzes--
 
@@ -22,73 +22,73 @@ Read each question and choose the correct answer. There's only one correct answe
 
 #### --text--
 
-Which of the following is true about this sentence: `I studied computer science at college`?
+Що з наведеного є правдою про це речення: `I studied computer science at college`?
 
 #### --distractors--
 
-The action is happening now.
+Дія відбувається зараз.
 
 ---
 
-The action will happen soon.
+Дія відбудеться незабаром.
 
 ---
 
-The action happens every day.
+Дія відбувається щодня.
 
 #### --answer--
 
-The action happened in the past.
+Дія відбулася в минулому.
 
 ### --question--
 
 #### --text--
 
-Which of the following is NOT an example of someone's `background`?
+Що з наведеного НЕ є прикладом чиєїсь `background`?
 
 #### --distractors--
 
-Their past job experience
+Їхній минулий досвід роботи
 
 ---
 
-Their education history
+Їхня історія освіти
 
 ---
 
-Their learned skills
+Їхні набуті навички
 
 #### --answer--
 
-Their favorite hobby
+Їхнє улюблене хобі
 
 ### --question--
 
 #### --text--
 
-What is an `interview`?
+Що таке `interview`?
 
 #### --distractors--
 
-A casual talk between coworkers
+Неформальна розмова між колегами
 
 ---
 
-A written test at school
+Письмовий тест у школі
 
 ---
 
-A team meeting at work
+Командна нарада на роботі
 
 #### --answer--
 
-A formal meeting with questions
+Офіційна зустріч із запитаннями
 
 ### --question--
 
 #### --text--
 
-Listen to the audio. What is the best answer to this question? <!-- (quiz audio) Anna: Can you tell me about your previous job experiences? -->
+Прослухайте аудіо. Яка найкраща відповідь на це запитання? <!-- (quiz audio) Anna: Can you tell me about your previous job experiences? -->
 
 #### --audio--
 
@@ -128,7 +128,7 @@ Listen to the audio. What is the best answer to this question? <!-- (quiz audio)
 
 #### --text--
 
-Which sentence uses `to be` correctly in the past?
+Яке речення правильно використовує `to be` у минулому часі?
 
 #### --distractors--
 
@@ -150,7 +150,7 @@ Which sentence uses `to be` correctly in the past?
 
 #### --text--
 
-What is the correct question form of this sentence: `He was responsible for maintaining the database`?
+Яка правильна форма питання для цього речення: `He was responsible for maintaining the database`?
 
 #### --distractors--
 
@@ -172,7 +172,7 @@ What is the correct question form of this sentence: `He was responsible for main
 
 #### --text--
 
-How would you ask about someone's educational background?
+Як би ви запитали про чийсь освітній досвід?
 
 #### --distractors--
 
@@ -194,29 +194,29 @@ How would you ask about someone's educational background?
 
 #### --text--
 
-What does this question ask about: `Could you tell me about your previous roles and responsibilities?`
+Про що запитує це питання: `Could you tell me about your previous roles and responsibilities?`
 
 #### --distractors--
 
-Your future career plans
+Ваші плани на майбутню кар’єру
 
 ---
 
-Your personal interests
+Ваші особисті інтереси
 
 ---
 
-Your current daily tasks
+Ваші поточні щоденні завдання
 
 #### --answer--
 
-Your past jobs and duties
+Ваші минулі роботи та обов’язки
 
 ### --question--
 
 #### --text--
 
-Which phrase shows possession incorrectly?
+Яка фраза неправильно показує володіння?
 
 #### --distractors--
 
@@ -238,7 +238,7 @@ Which phrase shows possession incorrectly?
 
 #### --text--
 
-What is the correct negative form of this sentence: `He studied data science`?
+Яка правильна від’ємна форма цього речення: `He studied data science`?
 
 #### --distractors--
 
@@ -260,7 +260,7 @@ What is the correct negative form of this sentence: `He studied data science`?
 
 #### --text--
 
-How do you say your main area of study?
+Як сказати про свою основну область навчання?
 
 #### --distractors--
 
@@ -282,7 +282,7 @@ How do you say your main area of study?
 
 #### --text--
 
-What is the correct question form of this sentence: `She worked with them for five years`?
+Яка правильна форма питання для цього речення: `She worked with them for five years`?
 
 #### --distractors--
 
@@ -304,7 +304,7 @@ What is the correct question form of this sentence: `She worked with them for fi
 
 #### --text--
 
-Listen to the audio. How would you answer this question? <!-- (quiz audio) Tom: Did you work on any projects during your self-study? -->
+Прослухайте аудіо. Як би ви відповіли на це запитання? <!-- (quiz audio) Tom: Did you work on any projects during your self-study? -->
 
 #### --audio--
 
@@ -344,7 +344,7 @@ Listen to the audio. How would you answer this question? <!-- (quiz audio) Tom: 
 
 #### --text--
 
-Which pair of irregular verbs is incorrect?
+Яка пара неправильних дієслів є неправильною?
 
 #### --distractors--
 
@@ -366,29 +366,29 @@ Which pair of irregular verbs is incorrect?
 
 #### --text--
 
-What does `to wear too many hats` mean?
+Що означає `to wear too many hats`?
 
 #### --distractors--
 
-To dress very formally
+Одягатися дуже офіційно
 
 ---
 
-To change jobs often
+Часто змінювати роботу
 
 ---
 
-To manage one task
+Керувати одним завданням
 
 #### --answer--
 
-To have many roles or duties
+Мати багато ролей або обов’язків
 
 ### --question--
 
 #### --text--
 
-How do you describe learning without a teacher or school?
+Як описати навчання без вчителя чи школи?
 
 #### --distractors--
 
@@ -410,7 +410,7 @@ How do you describe learning without a teacher or school?
 
 #### --text--
 
-Which sentence uses `actual` or `actually` correctly?
+Яке речення правильно використовує `actual` або `actually`?
 
 #### --distractors--
 
@@ -432,29 +432,29 @@ Which sentence uses `actual` or `actually` correctly?
 
 #### --text--
 
-Who is a `recruiter`?
+Хто такий `recruiter`?
 
 #### --distractors--
 
-A person who manages a team
+Особа, яка керує командою
 
 ---
 
-A person who trains employees
+Особа, яка навчає працівників
 
 ---
 
-A person who writes code
+Особа, яка пише код
 
 #### --answer--
 
-A person who hires candidates
+Особа, яка наймає кандидатів
 
 ### --question--
 
 #### --text--
 
-What do you call a person who works for a company?
+Як називають людину, яка працює на компанію?
 
 #### --distractors--
 
@@ -476,7 +476,7 @@ What do you call a person who works for a company?
 
 #### --text--
 
-Which tag question is correct?
+Яке питальне речення з тегом правильне?
 
 #### --distractors--
 

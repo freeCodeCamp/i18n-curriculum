@@ -1,6 +1,6 @@
 ---
 id: bd7108d8c242eddfaeb5bd13
-title: Mappa i dati in tutto il globo
+title: Mappare i dati in tutto il mondo
 challengeType: 3
 forumTopicId: 302365
 dashedName: map-data-across-the-globe
@@ -8,21 +8,21 @@ dashedName: map-data-across-the-globe
 
 # --description--
 
-**Objective:** Build an app that is functionally similar to this: <https://codepen.io/freeCodeCamp/full/mVEJag>.
+**Obiettivo:** Crea un'app che funzioni in modo simile a questa: <https://codepen.io/freeCodeCamp/full/mVEJag>.
 
-Soddisfa le user story qui sotto e supera tutti i test. Utilizza le librerie o le API di cui hai bisogno. Usa il tuo stile personale.
+Completa le seguenti storie utente e fai in modo che tutti i test vengano superati. Usa le librerie o le API che preferisci. Dai il tuo tocco personale allo stile.
 
-**User Story:** Posso vedere dove sono atterrate tutte le meteoriti su una mappa del mondo.
+**Storia utente:** Posso vedere dove sono caduti tutti i meteoriti su una mappa del mondo.
 
-**User Story:** Posso capire la dimensione relativa del meteorite, semplicemente vedendo come è rappresentato sulla mappa.
+**Storia utente:** Posso capire la dimensione relativa del meteorite semplicemente guardando come è rappresentato sulla mappa.
 
-**User Story:** Posso passare sul punto dato del meteorire per ulteriori informazioni.
+**Storia utente:** Posso passare il mouse sul punto dati del meteorite per vedere informazioni aggiuntive.
 
-**Suggerimento:** Ecco un set di dati che puoi usare per costruirlo: <https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/meteorite-strike-data.json>
+**Suggerimento:** Ecco un dataset che puoi usare per costruire questo: <https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/meteorite-strike-data.json>
 
-Quando hai finito, includi un link al tuo progetto su CodePen e clicca sul pulsante "Ho completato questa sfida".
+Quando hai finito, includi un collegamento al tuo progetto su CodePen e clicca il pulsante "Ho completato questa sfida".
 
-Puoi ottenere un feedback sul tuo progetto condividendolo sul <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">forum di freeCodeCamp</a>.
+Puoi ricevere feedback sul tuo progetto condividendolo sul <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">forum di freeCodeCamp</a>.
 
 # --solutions--
 

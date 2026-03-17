@@ -1,13 +1,13 @@
 ---
 id: 66ed8fa2f45ce3ece4053eab
-title: CSS Fundamentals Quiz
+title: quiz sui fondamenti di css
 challengeType: 8
 dashedName: quiz-basic-css
 ---
 
 # --description--
 
-To pass the quiz, you must correctly answer at least 18 of the 20 questions below.
+Per superare il quiz, devi rispondere correttamente ad almeno 18 delle 20 domande seguenti.
 
 # --quizzes--
 
@@ -17,7 +17,7 @@ To pass the quiz, you must correctly answer at least 18 of the 20 questions belo
 
 #### --text--
 
-What does CSS stand for?
+Cosa significa CSS?
 
 #### --distractors--
 
@@ -39,7 +39,7 @@ Cascading Style Sheets
 
 #### --text--
 
-Which of the following is a correct CSS rule?
+Quale delle seguenti è una regola CSS corretta?
 
 #### --distractors--
 
@@ -61,29 +61,29 @@ Which of the following is a correct CSS rule?
 
 #### --text--
 
-What does `<meta name="viewport">` do?
+Cosa fa `<meta name="viewport">`?
 
 #### --distractors--
 
-It links external stylesheets to a webpage for responsive design.
+Collega fogli di stile esterni a una pagina web per il design responsivo.
 
 ---
 
-It specifies the metadata used by search engines to index a webpage.
+Specifica i metadati usati dai motori di ricerca per indicizzare una pagina web.
 
 ---
 
-It specifies the character encoding used on the webpage.
+Specifica la codifica dei caratteri usata nella pagina web.
 
 #### --answer--
 
-It controls the shape and size of a web page on different screen sizes.
+Controlla la forma e la dimensione di una pagina web su diverse dimensioni dello schermo.
 
 ### --question--
 
 #### --text--
 
-Which syntax is correct to use inline CSS?
+Quale sintassi è corretta per usare CSS in linea?
 
 #### --distractors--
 
@@ -105,29 +105,29 @@ Which syntax is correct to use inline CSS?
 
 #### --text--
 
-When using internal CSS, where is the `style` element placed within the HTML?
+Quando si usa CSS interno, dove viene posizionato l'elemento `style` all'interno dell'HTML?
 
 #### --distractors--
 
-In the `meta` element.
+Nell'elemento `meta`.
 
 ---
 
-In the `script` element.
+Nell'elemento `script`.
 
 ---
 
-In the `body` element.
+Nell'elemento `body`.
 
 #### --answer--
 
-In the `head` element.
+Nell'elemento `head`.
 
 ### --question--
 
 #### --text--
 
-Which rule is correct for setting the width and height in CSS?
+Quale regola è corretta per impostare larghezza e altezza in CSS?
 
 #### --distractors--
 
@@ -149,7 +149,7 @@ Which rule is correct for setting the width and height in CSS?
 
 #### --text--
 
-Which selector correctly targets `h1` elements only when inside a `div`?
+Quale selettore seleziona correttamente solo gli elementi `h1` quando sono dentro un `div`?
 
 #### --distractors--
 
@@ -171,7 +171,7 @@ Which selector correctly targets `h1` elements only when inside a `div`?
 
 #### --text--
 
-Which selector is correct to target direct children of a `footer`?
+Quale selettore è corretto per selezionare i figli diretti di un `footer`?
 
 #### --distractors--
 
@@ -193,7 +193,7 @@ Which selector is correct to target direct children of a `footer`?
 
 #### --text--
 
-Which selector is correct to target the next sibling of an `img`?
+Quale selettore è corretto per selezionare il fratello immediatamente successivo di un `img`?
 
 #### --distractors--
 
@@ -215,7 +215,7 @@ Which selector is correct to target the next sibling of an `img`?
 
 #### --text--
 
-Which selector is correct to target all siblings preceded by an `img` element?
+Quale selettore è corretto per selezionare tutti i fratelli preceduti da un elemento `img`?
 
 #### --distractors--
 
@@ -237,51 +237,51 @@ Which selector is correct to target all siblings preceded by an `img` element?
 
 #### --text--
 
-What statement is TRUE about block-level elements?
+Quale affermazione è VERA sugli elementi a blocco?
 
 #### --distractors--
 
-Block-level elements stack horizontally by default.
+Gli elementi a blocco si sovrappongono orizzontalmente per impostazione predefinita.
 
 ---
 
-`width` and `height` properties usually do not apply to block-level elements unless you set their `display` property to `inline-block`.
+Le proprietà `width` e `height` di solito non si applicano agli elementi a blocco a meno che non imposti la loro proprietà `display` su `inline-block`.
 
 ---
 
-Block-level elements cannot contain inline elements inside them.
+Gli elementi a blocco non possono contenere elementi in linea al loro interno.
 
 #### --answer--
 
-Block-level elements start on a new line and take up the full width of their container.
+Gli elementi a blocco iniziano su una nuova riga e occupano tutta la larghezza del loro contenitore.
 
 ### --question--
 
 #### --text--
 
-What statement is TRUE when using the `inline-block` value?
+Quale affermazione è VERA quando si usa il valore `inline-block`?
 
 #### --distractors--
 
-Elements stack vertically, always taking up the full width of their container.
+Gli elementi si sovrappongono verticalmente, occupando sempre tutta la larghezza del loro contenitore.
 
 ---
 
-Elements align horizontally but cannot apply vertical padding or margin.
+Gli elementi si allineano orizzontalmente ma non possono applicare spaziatura interna o margine verticale.
 
 ---
 
-Elements respect width and height settings but cannot contain other elements inside them.
+Gli elementi rispettano le impostazioni di larghezza e altezza ma non possono contenere altri elementi al loro interno.
 
 #### --answer--
 
-Elements retain inline flow but allow setting width and height.
+Gli elementi mantengono il flusso in linea ma permettono di impostare larghezza e altezza.
 
 ### --question--
 
 #### --text--
 
-Given the following selectors, which has the highest specificity?
+Dato il seguente insieme di selettori, quale ha la specificità più alta?
 
 #### --distractors--
 
@@ -303,7 +303,7 @@ Given the following selectors, which has the highest specificity?
 
 #### --text--
 
-Given the following selectors, which has the lowest specificity?
+Dato il seguente insieme di selettori, quale ha la specificità più bassa?
 
 #### --distractors--
 
@@ -325,73 +325,73 @@ Given the following selectors, which has the lowest specificity?
 
 #### --text--
 
-What does the `*` selector do?
+Cosa fa il selettore `*`?
 
 #### --distractors--
 
-Targets some elements on the page.
+Seleziona alcuni elementi nella pagina.
 
 ---
 
-Targets elements that have children on the page.
+Seleziona elementi che hanno figli nella pagina.
 
 ---
 
-Targets all `p` elements on the page.
+Seleziona tutti gli elementi `p` nella pagina.
 
 #### --answer--
 
-Targets all elements on the page.
+Seleziona tutti gli elementi nella pagina.
 
 ### --question--
 
 #### --text--
 
-What does `!important` do in CSS?
+Cosa fa `!important` in CSS?
 
 #### --distractors--
 
-It makes the CSS rule work exclusively for inline styles and ignores styles defined in external or internal stylesheets.
+Fa funzionare la regola CSS esclusivamente per gli stili in linea e ignora gli stili definiti in fogli di stile esterni o interni.
 
 ---
 
-It disables all other CSS properties applied to the same element, effectively making it the only rule that affects the element's styling.
+Disabilita tutte le altre proprietà CSS applicate allo stesso elemento, rendendo effettivamente quella l'unica regola che influenza lo stile dell'elemento.
 
 ---
 
-It applies on to a certain selector or group of elements.
+Si applica a un certo selettore o gruppo di elementi.
 
 #### --answer--
 
-It overrides any other values applied to the property for that selector.
+Sovrascrive qualsiasi altro valore applicato alla proprietà per quel selettore.
 
 ### --question--
 
 #### --text--
 
-How does the CSS Cascade algorithm work?
+Come funziona l'algoritmo della cascata CSS?
 
 #### --distractors--
 
-It determines styles of the element based on order of declaration, regardless of other factors.
+Determina gli stili dell'elemento basandosi sull'ordine di dichiarazione, indipendentemente da altri fattori.
 
 ---
 
-It applies styles based solely on the order they are written, ignoring specificity.
+Applica gli stili basandosi solo sull'ordine in cui sono scritti, ignorando la specificità.
 
 ---
 
-It applies styles prioritizing specificity, ignoring origin and relevance.
+Applica gli stili dando priorità alla specificità, ignorando origine e rilevanza.
 
 #### --answer--
 
-It determines styles of the element based on specificity and order of declaration.
+Determina gli stili dell'elemento basandosi sulla specificità e sull'ordine di dichiarazione.
 
 ### --question--
 
 #### --text--
 
-Which rule applies `32px` of margin to all sides?
+Quale regola applica `32px` di margine su tutti i lati?
 
 #### --distractors--
 
@@ -413,7 +413,7 @@ Which rule applies `32px` of margin to all sides?
 
 #### --text--
 
-Which rule applies `24px` padding to the top and bottom?
+Quale regola applica `24px` di spaziatura interna in alto e in basso?
 
 #### --distractors--
 
@@ -435,23 +435,23 @@ Which rule applies `24px` padding to the top and bottom?
 
 #### --text--
 
-For `padding: 10px 20px 30px 40px`, what is the correct order of values?
+Per `padding: 10px 20px 30px 40px`, qual è l'ordine corretto dei valori?
 
 #### --distractors--
 
-Right, Top, Left, Bottom.
+Destra, alto, sinistra, basso.
 
 ---
 
-Top, Left, Bottom, Right.
+Alto, sinistra, basso, destra.
 
 ---
 
-Top, Bottom, Right, Left.
+Alto, basso, destra, sinistra.
 
 #### --answer--
 
-Top, Right, Bottom, Left.
+Alto, destra, basso, sinistra.
 
 ## --quiz--
 
@@ -459,29 +459,29 @@ Top, Right, Bottom, Left.
 
 #### --text--
 
-What are the main parts of a CSS rule?
+Quali sono le parti principali di una regola CSS?
 
 #### --distractors--
 
-Elements and attributes
+Elementi e attributi
 
 ---
 
-Style and sheets
+Stile e fogli
 
 ---
 
-Scripts and values
+Script e valori
 
 #### --answer--
 
-Selectors and declaration blocks
+Selettori e blocchi di dichiarazione
 
 ### --question--
 
 #### --text--
 
-Which of the following is the correct syntax for a CSS rule?
+Quale delle seguenti è la sintassi corretta per una regola CSS?
 
 #### --distractors--
 
@@ -519,29 +519,29 @@ body {
 
 #### --text--
 
-What are default browser styles?
+Cosa sono gli stili predefiniti del browser?
 
 #### --distractors--
 
-HTML elements that have the same styling properties regardless of the browser.
+Elementi HTML che hanno le stesse proprietà di stile indipendentemente dal browser.
 
 ---
 
-They are mandatory styles that you must use for specific HTML elements.
+Sono stili obbligatori che devi usare per specifici elementi HTML.
 
 ---
 
-They are the color themes for the various browsers.
+Sono i temi di colore per i vari browser.
 
 #### --answer--
 
-The CSS rules that browsers apply automatically.
+Le regole CSS che i browser applicano automaticamente.
 
 ### --question--
 
 #### --text--
 
-What is the default value for the `width` property?
+Qual è il valore predefinito per la proprietà `width`?
 
 #### --distractors--
 
@@ -563,51 +563,51 @@ What is the default value for the `width` property?
 
 #### --text--
 
-What does the `min-height` property specify?
+Cosa specifica la proprietà `min-height`?
 
 #### --distractors--
 
-The starting height for an element.
+L'altezza iniziale per un elemento.
 
 ---
 
-The height for an element.
+L'altezza per un elemento.
 
 ---
 
-The maximum height for an element.
+L'altezza massima per un elemento.
 
 #### --answer--
 
-The minimum height for an element.
+L'altezza minima per un elemento.
 
 ### --question--
 
 #### --text--
 
-Which of the following is TRUE about the universal selector `*`?
+Quale delle seguenti è VERA sul selettore universale `*`?
 
 #### --distractors--
 
-It has the highest specificity because it can style all the elements on a page.
+Ha la specificità più alta perché può stilizzare tutti gli elementi di una pagina.
 
 ---
 
-It contributes 1 to all parts of the specificity value.
+Contribuisce con 1 a tutte le parti del valore di specificità.
 
 ---
 
-It cannot reset styles across different browsers.
+Non può resettare gli stili tra diversi browser.
 
 #### --answer--
 
-It has the lowest specificity value of any selector.
+Ha il valore di specificità più basso di qualsiasi selettore.
 
 ### --question--
 
 #### --text--
 
-Which selector correctly targets `li` elements for an ordered list?
+Quale selettore seleziona correttamente gli elementi `li` per una lista ordinata?
 
 #### --distractors--
 
@@ -629,7 +629,7 @@ Which selector correctly targets `li` elements for an ordered list?
 
 #### --text--
 
-Which selector targets the paragraph elements of a `div` element?
+Quale selettore seleziona gli elementi paragrafo di un elemento `div`?
 
 #### --distractors--
 
@@ -651,117 +651,117 @@ Which selector targets the paragraph elements of a `div` element?
 
 #### --text--
 
-Where does the `margin` apply styling properties?
+Dove si applicano le proprietà di stile `margin`?
 
 #### --distractors--
 
-The space inside element.
+Lo spazio all'interno dell'elemento.
 
 ---
 
-Between the content and the border.
+Tra il contenuto e il bordo.
 
 ---
 
-On the border of the element.
+Sul bordo dell'elemento.
 
 #### --answer--
 
-The space outside the element.
+Lo spazio esterno all'elemento.
 
 ### --question--
 
 #### --text--
 
-Where does the `padding` property apply styling?
+Dove si applica la proprietà di stile `padding`?
 
 #### --distractors--
 
-Between the elements border and the surrounding elements.
+Tra il bordo dell'elemento e gli elementi circostanti.
 
 ---
 
-The space outside the element.
+Lo spazio esterno all'elemento.
 
 ---
 
-On the border of the element.
+Sul bordo dell'elemento.
 
 #### --answer--
 
-The space inside the element.
+Lo spazio all'interno dell'elemento.
 
 ### --question--
 
 #### --text--
 
-Which statement is FALSE about block-level elements?
+Quale affermazione è FALSA sugli elementi a blocco?
 
 #### --distractors--
 
-They can stretch to fit the width of their container.
+Possono estendersi per adattarsi alla larghezza del loro contenitore.
 
 ---
 
-Common block level elements include `div`, `paragraph`, and `section`.
+Gli elementi a blocco comuni includono `div`, `paragraph` e `section`.
 
 ---
 
-Block-level elements start on a new line and take up the full width of their container.
+Gli elementi a blocco iniziano su una nuova riga e occupano tutta la larghezza del loro contenitore.
 
 #### --answer--
 
-They cannot take up the full width available as they are blocked from doing so.
+Non possono occupare tutta la larghezza disponibile perché ne sono bloccati.
 
 ### --question--
 
 #### --text--
 
-Which statement is FALSE when using the `inline-block` value?
+Quale affermazione è FALSA quando si usa il valore `inline-block`?
 
 #### --distractors--
 
-`inline-block` elements behave like inline elements.
+Gli elementi `inline-block` si comportano come elementi in linea.
 
 ---
 
-They can have `width` and `height` properties.
+Possono avere proprietà `width` e `height`.
 
 ---
 
-Elements retain inline flow but allow setting `width` and `height`.
+Gli elementi mantengono il flusso in linea ma permettono di impostare `width` e `height`.
 
 #### --answer--
 
-They do not share properties with inline or block level elements.
+Non condividono proprietà con elementi in linea o a blocco.
 
 ### --question--
 
 #### --text--
 
-Which is TRUE about the `!important` keyword?
+Qual è VERO sulla parola chiave `!important`?
 
 #### --distractors--
 
-They are used to make comments for an important CSS property.
+Vengono usate per fare commenti su una proprietà CSS importante.
 
 ---
 
-They make sure a CSS property has the correct syntax.
+Garantiscono che una proprietà CSS abbia la sintassi corretta.
 
 ---
 
-They make CSS rules easier to maintain.
+Rendono le regole CSS più facili da mantenere.
 
 #### --answer--
 
-They override the specificity of other selectors.
+Sovrascrivono la specificità di altri selettori.
 
 ### --question--
 
 #### --text--
 
-What character precedes a class selector name?
+Quale carattere precede il nome di un selettore di classe?
 
 #### --distractors--
 
@@ -783,51 +783,51 @@ What character precedes a class selector name?
 
 #### --text--
 
-Which is FALSE about inline level elements?
+Quale affermazione è FALSA sugli elementi in linea?
 
 #### --distractors--
 
-They take up only as much space as they need.
+Occupano solo lo spazio di cui hanno bisogno.
 
 ---
 
-They do not start on a new line.
+Non iniziano su una nuova riga.
 
 ---
 
-Common inline elements include `span` and `img`.
+Gli elementi in linea comuni includono `span` e `img`.
 
 #### --answer--
 
-They always start on a new line.
+Iniziano sempre su una nuova riga.
 
 ### --question--
 
 #### --text--
 
-Where are internal CSS styles accessed?
+Dove si consultano gli stili CSS interni?
 
 #### --distractors--
 
-They are styles that are important to the project, so are not shared externally.
+Sono stili importanti per il progetto, quindi non sono condivisi esternamente.
 
 ---
 
-Since they form the core styling of the project, they are saved in the `styles.css` file so other web pages can access them.
+Poiché formano lo stile principale del progetto, sono salvati nel file `styles.css` così altre pagine web possono consultarli.
 
 ---
 
-They are stored inside the `body` element when there is only one web page to style.
+Sono archiviati dentro l'elemento `body` quando c'è solo una pagina web da stilizzare.
 
 #### --answer--
 
-They are written within the `style` section within the `head` element.
+Sono scritti all'interno della sezione `style` dentro l'elemento `head`.
 
 ### --question--
 
 #### --text--
 
-What is the order for applying the `padding` property when using the shorthand syntax?
+Qual è l'ordine per applicare la proprietà `padding` quando si usa la sintassi abbreviata?
 
 #### --distractors--
 
@@ -849,7 +849,7 @@ What is the order for applying the `padding` property when using the shorthand s
 
 #### --text--
 
-What is the order for applying the `margin` property when using the shorthand syntax?
+Qual è l'ordine per applicare la proprietà `margin` quando si usa la sintassi abbreviata?
 
 #### --distractors--
 
@@ -871,29 +871,29 @@ What is the order for applying the `margin` property when using the shorthand sy
 
 #### --text--
 
-What are inline CSS styles used for?
+A cosa servono gli stili CSS in linea?
 
 #### --distractors--
 
-They are used to style inline elements only.
+Servono a stilizzare solo elementi in linea.
 
 ---
 
-They are used to style elements only when they all appear on the same line of the browser viewport.
+Servono a stilizzare elementi solo quando appaiono tutti sulla stessa riga della viewport del browser.
 
 ---
 
-They are used to resolve the issue with separation of concerns.
+Servono a risolvere il problema della separazione delle responsabilità.
 
 #### --answer--
 
-They are used to directly style within the element, instead of using internal or external CSS.
+Servono a stilizzare direttamente all'interno dell'elemento, invece di usare CSS interno o esterno.
 
 ### --question--
 
 #### --text--
 
-What symbol precedes the ID selector?
+Quale simbolo precede il selettore ID?
 
 #### --distractors--
 
@@ -910,4 +910,3 @@ What symbol precedes the ID selector?
 #### --answer--
 
 `#`
-
