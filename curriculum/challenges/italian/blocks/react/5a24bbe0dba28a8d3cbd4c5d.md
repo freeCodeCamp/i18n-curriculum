@@ -1,6 +1,6 @@
 ---
 id: 5a24bbe0dba28a8d3cbd4c5d
-title: Crea un elemento JSX complesso
+title: Create a Complex JSX Element
 challengeType: 6
 forumTopicId: 301382
 dashedName: create-a-complex-jsx-element
@@ -18,7 +18,7 @@ Per esempio, diversi elementi JSX scritti come fratelli senza un elemento genito
 
 Ecco un esempio:
 
-**JSX valido:**
+**Valid JSX:**
 
 ```jsx
 <div>
@@ -28,7 +28,7 @@ Ecco un esempio:
 </div>
 ```
 
-**JSX non valido:**
+**Invalid JSX:**
 
 ```jsx
 <p>Paragraph One</p>
@@ -81,12 +81,6 @@ assert(
 ```
 
 # --seed--
-
-## --after-user-code--
-
-```jsx
-ReactDOM.render(JSX, document.getElementById('root'))
-```
 
 ## --seed-contents--
 

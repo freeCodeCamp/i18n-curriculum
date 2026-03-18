@@ -1,6 +1,6 @@
 ---
 id: 5a24bbe0dba28a8d3cbd4c5d
-title: 创建一个复杂的 JSX 元素
+title: Create a Complex JSX Element
 challengeType: 6
 forumTopicId: 301382
 dashedName: create-a-complex-jsx-element
@@ -18,7 +18,7 @@ dashedName: create-a-complex-jsx-element
 
 这是一个示例：
 
-**有效的 JSX：**
+**Valid JSX:**
 
 ```jsx
 <div>
@@ -28,7 +28,7 @@ dashedName: create-a-complex-jsx-element
 </div>
 ```
 
-**无效的 JSX：**
+**Invalid JSX:**
 
 ```jsx
 <p>Paragraph One</p>
@@ -81,12 +81,6 @@ assert(
 ```
 
 # --seed--
-
-## --after-user-code--
-
-```jsx
-ReactDOM.render(JSX, document.getElementById('root'))
-```
 
 ## --seed-contents--
 
