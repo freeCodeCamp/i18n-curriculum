@@ -1,6 +1,6 @@
 ---
 id: 5a24bbe0dba28a8d3cbd4c5d
-title: Crea un elemento JSX complejo
+title: Crear un elemento JSX complejo
 challengeType: 6
 forumTopicId: 301382
 dashedName: create-a-complex-jsx-element
@@ -8,13 +8,13 @@ dashedName: create-a-complex-jsx-element
 
 # --description--
 
-El último desafío fue un ejemplo sencillo de JSX, pero JSX también puede representar HTML más complejo.
+El último desafío fue un ejemplo simple de JSX, pero JSX también puede representar HTML más complejo.
 
 Una cosa importante que debes saber sobre JSX anidado es que debe devolver un solo elemento.
 
-Este elemento principal contendría a todos los demás niveles de elementos anidados.
+Este elemento padre envolvería todos los demás niveles de elementos anidados.
 
-Por ejemplo, varios elementos JSX escritos al mismo nivel sin elemento contenedor principal no se transpilarán.
+Por ejemplo, varios elementos JSX escritos como hermanos sin un elemento padre que los envuelva no se transpilarán.
 
 Aquí tienes un ejemplo:
 
@@ -40,9 +40,9 @@ Aquí tienes un ejemplo:
 
 Define una nueva constante `JSX` que renderice un `div` que contenga los siguientes elementos en orden:
 
-Un `h1`, un `p` y una lista desordenada que contiene tres elementos `li`. Puedes incluir cualquier texto que desees dentro de cada elemento.
+Un `h1`, un `p` y una lista desordenada que contenga tres elementos `li`. Puedes incluir cualquier texto que quieras dentro de cada elemento.
 
-**Nota:** Al renderizar varios elementos de esta forma, puedes envolverlos todos entre paréntesis, pero no es estrictamente necesario. Observa también que este desafío usa una etiqueta `div` para envolver a todos los elementos hijos dentro de un solo elemento principal. Si eliminas el `div`, JSX ya no se podrá transpilar. Ten esto en cuenta, ya que también será así cuando devuelvas elementos JSX en los componentes de React.
+**Nota:** Al renderizar múltiples elementos así, puedes envolverlos todos entre paréntesis, pero no es estrictamente necesario. También observa que este desafío usa una etiqueta `div` para envolver todos los elementos hijos dentro de un solo elemento padre. Si quitas el `div`, el JSX ya no se transpilará. Ten esto en cuenta, ya que también se aplicará cuando devuelvas elementos JSX en componentes React.
 
 # --hints--
 
@@ -58,7 +58,7 @@ El `div` debe contener una etiqueta `h1` como primer elemento.
 assert(JSX.props.children[0].type === 'h1');
 ```
 
-El elemento `div` debe contener una etiqueta `p` como segundo elemento.
+El `div` debe contener una etiqueta `p` como segundo elemento.
 
 ```js
 assert(JSX.props.children[1].type === 'p');
