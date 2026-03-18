@@ -1,6 +1,6 @@
 ---
 id: 5a24bbe0dba28a8d3cbd4c5e
-title: Aggiungere commenti in JSX
+title: Add Comments in JSX
 challengeType: 6
 forumTopicId: 301376
 dashedName: add-comments-in-jsx
@@ -24,13 +24,13 @@ La costante `JSX` dovrebbe restituire un elemento `div`.
 assert(JSX.type === 'div');
 ```
 
-L'elemento `div` dovrebbe contenere un tag `h1` come primo elemento.
+Il `div` dovrebbe contenere un tag `h1` come primo elemento.
 
 ```js
 assert(JSX.props.children[0].type === 'h1');
 ```
 
-L'elemento `div` dovrebbe contenere un tag `p` come secondo elemento.
+Il `div` dovrebbe contenere un tag `p` come secondo elemento.
 
 ```js
 assert(JSX.props.children[1].type === 'p');
@@ -52,12 +52,6 @@ assert(/<div>[\s\S]*{\s*\/\*[\s\S]*\*\/\s*}[\s\S]*<\/div>/.test(code));
 ```
 
 # --seed--
-
-## --after-user-code--
-
-```jsx
-ReactDOM.render(JSX, document.getElementById('root'))
-```
 
 ## --seed-contents--
 

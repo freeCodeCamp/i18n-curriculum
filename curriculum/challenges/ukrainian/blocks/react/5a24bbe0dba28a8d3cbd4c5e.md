@@ -1,6 +1,6 @@
 ---
 id: 5a24bbe0dba28a8d3cbd4c5e
-title: додати коментарі в JSX
+title: Add Comments in JSX
 challengeType: 6
 forumTopicId: 301376
 dashedName: add-comments-in-jsx
@@ -24,13 +24,13 @@ JSX — це синтаксис, який компілюється у валід
 assert(JSX.type === 'div');
 ```
 
-Елемент `div` повинен містити тег `h1` як перший елемент.
+`div` має містити тег `h1` як перший елемент.
 
 ```js
 assert(JSX.props.children[0].type === 'h1');
 ```
 
-Елемент `div` повинен містити тег `p` як другий елемент.
+`div` має містити тег `p` як другий елемент.
 
 ```js
 assert(JSX.props.children[1].type === 'p');
@@ -52,12 +52,6 @@ assert(/<div>[\s\S]*{\s*\/\*[\s\S]*\*\/\s*}[\s\S]*<\/div>/.test(code));
 ```
 
 # --seed--
-
-## --after-user-code--
-
-```jsx
-ReactDOM.render(JSX, document.getElementById('root'))
-```
 
 ## --seed-contents--
 
