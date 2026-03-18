@@ -206,7 +206,9 @@ jobs:
           auto_approve_imported: false
           import_eq_suggestions: false
 
-          # downloads
+          # downloads - Download sources only once. Don't need it for other languages.
+          download_sources: true
+          push_sources: false
           download_translations: true
           download_language: ja
           skip_untranslated_strings: false
