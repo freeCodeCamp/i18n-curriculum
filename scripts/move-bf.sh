@@ -6,8 +6,7 @@ source_file="scripts/59e0a8df964e4540d5abe599.md"
 # Define the destination directory
 destination_dir="curriculum/challenges"
 
-# Loop through all directories except english
-for dir in $(find "$destination_dir" -mindepth 1 -maxdepth 1 -type d ! -name 'english'); do
-    # Copy the file to each directory
-    cp "./$source_file" "./$dir/blocks/rosetta-code-challenges/"
+# Loop through only the specified language directories
+for lang in german swahili japanese korean; do
+    cp "./$source_file" "./$destination_dir/$lang/blocks/rosetta-code-challenges/"
 done
