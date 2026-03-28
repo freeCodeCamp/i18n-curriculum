@@ -1,6 +1,6 @@
 ---
 id: 672ab82c1a9bbd0e3aabc39d
-title: Como Você Pode Trabalhar Eficazmente Com Seu Teclado, Mouse e Outros Dispositivos Apontadores?
+title: "Como Você Pode Trabalhar Eficazmente Com Seu Teclado, Mouse e Outros Dispositivos Apontadores?"
 challengeType: 19
 dashedName: how-to-effectively-work-with-your-keyboard-mouse-and-other-pointing-devices
 ---

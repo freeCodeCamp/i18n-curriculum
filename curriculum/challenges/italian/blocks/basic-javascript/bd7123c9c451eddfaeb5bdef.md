@@ -1,6 +1,6 @@
 ---
 id: bd7123c9c451eddfaeb5bdef
-title: Usa la notazione a parentesi per trovare l'ultimo carattere di una stringa
+title: "Usa la notazione a parentesi per trovare l'ultimo carattere di una stringa"
 challengeType: 1
 forumTopicId: 18342
 dashedName: use-bracket-notation-to-find-the-last-character-in-a-string

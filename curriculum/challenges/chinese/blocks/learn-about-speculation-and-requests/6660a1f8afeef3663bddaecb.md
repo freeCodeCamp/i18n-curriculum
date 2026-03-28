@@ -1,6 +1,6 @@
 ---
 id: 6660a1f8afeef3663bddaecb
-title: "对话框 1：本不该忽略的"
+title: "对话 1：本不该忽略的"
 challengeType: 21
 dashedName: dialogue-1-should-have-noticed-that
 lang: en-US

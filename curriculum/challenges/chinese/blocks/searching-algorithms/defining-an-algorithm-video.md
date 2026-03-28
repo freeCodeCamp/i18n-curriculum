@@ -1,6 +1,6 @@
 ---
 id: 698dbf2b7932b3cc4b19c91d
-title: 定义一个 `Algorithm`
+title: "定义一个 `Algorithm`"
 challengeType: 11
 videoId: qH-e5VMAYwQ
 dashedName: defining-an-algorithm

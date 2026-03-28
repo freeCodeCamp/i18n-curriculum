@@ -30,11 +30,9 @@ Esta frase de dos palabras es una forma informal de decir "no" o "no exactamente
 
 `Not really` se usa comúnmente para dar una respuesta negativa, pero en un tono más suave. Es más informal que simplemente decir `No`. Por ejemplo:
 
-Persona 1: `Do you think this software is user-friendly?`
+- **Líder del equipo:** `Do you think this software is user-friendly?`
 
-Persona 2: `Not really.`
-
-Esto significa que no es muy amigable para el usuario, pero el hablante podría no estar completamente seguro.
+- **Practicante:** `Not really.` - Esto significa que no es muy amigable para el usuario, pero el hablante podría no estar completamente seguro.
 
 # --scene--
 

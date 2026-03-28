@@ -1,6 +1,6 @@
 ---
 id: 69ae9ce3a9e6da4eb0d5f7f8
-title: Comprendere l'ereditarietà
+title: "Comprendere l'ereditarietà"
 challengeType: 11
 videoId: 5SehMN6vRgA
 dashedName: understanding-inheritance

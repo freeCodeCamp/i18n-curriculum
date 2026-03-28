@@ -48,9 +48,9 @@ ENc50c4990
 
 `That makes sense` 是一种表达同意的自然方式。人们在接受或理解建议时会在对话中使用这个短语。例如：
 
-- 人物 1：`We should optimize the code before adding new features to avoid performance issues.`
+- **Developer:** `We should optimize the code before adding new features to avoid performance issues.`
 
-- 第 2 个人：`That makes sense. A slow app will frustrate users.`——此人同意并理解为什么先优化代码是个好主意。
+- **Manager:** `That makes sense. A slow app will frustrate users.`——此人同意并理解为什么先优化代码是个好主意。
 
 # --scene--
 

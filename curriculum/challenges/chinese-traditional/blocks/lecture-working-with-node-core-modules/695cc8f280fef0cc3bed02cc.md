@@ -1,6 +1,6 @@
 ---
 id: 695cc8f280fef0cc3bed02cc
-title: 什麼是 `Stream` 模組以及它如何運作？
+title: "什麼是 `Stream` 模組以及它如何運作？"
 challengeType: 19
 dashedName: what-is-the-stream-module-and-how-does-it-work
 ---

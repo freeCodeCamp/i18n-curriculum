@@ -16,7 +16,7 @@ lang: en-US
 
 ## --text--
 
-在对话框中，Brian 所说的 `by the end of it` 是什么意思？
+在对话中，Brian 所说的 `by the end of it` 是什么意思？
 
 ## --answers--
 

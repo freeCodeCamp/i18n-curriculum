@@ -1,6 +1,6 @@
 ---
 id: 695cc8f280fef0cc3bed02cc
-title: 什么是 `Stream` 模块及其工作原理？
+title: "什么是 `Stream` 模块及其工作原理？"
 challengeType: 19
 dashedName: what-is-the-stream-module-and-how-does-it-work
 ---

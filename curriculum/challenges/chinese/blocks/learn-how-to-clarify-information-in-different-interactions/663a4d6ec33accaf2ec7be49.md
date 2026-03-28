@@ -16,7 +16,7 @@ lang: en-US
 
 `A friendly smile` 是一种表现你友善和热情的微笑。它让别人感觉良好，并表明你想成为朋友。
 
-听对话框并填写空白。
+听对话并填写空白。
 
 # --fillInTheBlank--
 

@@ -1,6 +1,6 @@
 ---
 id: 699e855e8f18cf77dfce5c22
-title: Parábolas - Vértice, `focus`, Diretriz
+title: "Parábolas - Vértice, `focus`, Diretriz"
 challengeType: 11
 videoId: fAXpgprNFq0
 dashedName: parabolas-vertex-focus-directrix

@@ -46,11 +46,11 @@ Isso não está relacionado à pergunta sobre como definir o prazo.
 
 # --explanation--
 
-`Not yet.` é uma forma curta e natural de dizer que algo não aconteceu ou foi concluído até o momento presente, mas pode acontecer no futuro. Por exemplo:
+`Not yet` é uma forma curta e natural de dizer que algo não aconteceu ou foi concluído até o momento presente, mas pode acontecer no futuro. Por exemplo:
 
-- Pessoa 1: `Have you sent the email?` - Aqui, a pessoa está perguntando sobre um email que deveria ser enviado.
+- **Gerente:** `Have you sent the email?` - Aqui, a pessoa está perguntando sobre um e-mail que deveria ser enviado.
 
-- Pessoa 2: `Not yet.` – Isso significa que o email ainda não foi enviado, mas que a pessoa ainda planeja enviá-lo.
+- **Funcionário:** `Not yet.` – Isso significa que o e-mail ainda não foi enviado, mas que a pessoa ainda planeja enviá-lo.
 
 # --scene--
 

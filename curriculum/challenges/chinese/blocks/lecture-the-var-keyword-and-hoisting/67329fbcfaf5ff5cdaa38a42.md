@@ -1,6 +1,6 @@
 ---
 id: 67329fbcfaf5ff5cdaa38a42
-title: 什么是 `var` 关键字，为什么不再建议使用它？
+title: "什么是 `var` 关键字，为什么不再建议使用它？"
 challengeType: 19
 dashedName: what-is-the-var-keyword-and-why-is-it-no-longer-suggested-to-use-it
 ---

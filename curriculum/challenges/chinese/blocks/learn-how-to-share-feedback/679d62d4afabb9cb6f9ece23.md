@@ -56,7 +56,7 @@ Maria 并没有说他们应该避免更新。
 
 `Skipping the testing phase can lead to serious problems in the software.` - 这意味着如果没有正确进行测试，可能会导致严重的技术问题。
 
-在这个对话框中，Maria 担心匆忙可能会创建额外的问题。
+在这个对话中，Maria 担心匆忙可能会创建额外的问题。
 
 # --scene--
 

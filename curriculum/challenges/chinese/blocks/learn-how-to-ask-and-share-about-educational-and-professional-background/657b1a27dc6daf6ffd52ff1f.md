@@ -19,7 +19,7 @@ Second Candidate: Yes. I have a master's degree in computer science. -->
 
 ## --text--
 
-对话框上下文中的 `master's degree` 指的是什么？
+对话上下文中的 `master's degree` 指的是什么？
 
 ## --answers--
 

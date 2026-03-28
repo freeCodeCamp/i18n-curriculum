@@ -1,6 +1,6 @@
 ---
 id: 67fe85a3db9bad35f2b6a2bd
-title: Como Funcionam as Declarações Condicionais e os Operadores Lógicos?
+title: Como Funcionam as declarações condicionais e os operadores lógicos?
 challengeType: 19
 dashedName: how-do-conditional-statements-and-logical-operators-work
 ---
@@ -144,7 +144,7 @@ else:
     print('You are a child') # You are a child
 ```
 
-Observe que você pode usar quantas declarações `elif` quiser:
+Observe que você pode usar quantas cláusulas `elif` quiser:
 
 ```python
 age = 2

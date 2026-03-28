@@ -1,6 +1,6 @@
 ---
 id: 699e85568f18cf77dfce5c20
-title: Закон косинусів — стара версія
+title: "Закон косинусів — стара версія"
 challengeType: 11
 videoId: 3BMPsNLtcmA
 dashedName: law-of-cosines-old-version

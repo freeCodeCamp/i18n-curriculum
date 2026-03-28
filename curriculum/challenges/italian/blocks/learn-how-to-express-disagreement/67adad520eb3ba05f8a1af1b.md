@@ -48,9 +48,9 @@ ENc50c4990
 
 `That makes sense` è un modo naturale per mostrare accordo. Le persone usano questa frase nelle conversazioni quando accettano o comprendono un suggerimento. Per esempio:
 
-- Persona 1: `We should optimize the code before adding new features to avoid performance issues.`
+- **Sviluppatore:** `We should optimize the code before adding new features to avoid performance issues.`
 
-- Persona 2: `That makes sense. A slow app will frustrate users.` - Questa persona è d'accordo e capisce perché ottimizzare prima il codice è una buona idea.
+- **Manager:** `That makes sense. A slow app will frustrate users.` - Questa persona è d'accordo e capisce perché ottimizzare prima il codice è una buona idea.
 
 # --scene--
 

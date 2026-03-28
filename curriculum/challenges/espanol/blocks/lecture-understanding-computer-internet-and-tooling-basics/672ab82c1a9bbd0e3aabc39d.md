@@ -1,6 +1,6 @@
 ---
 id: 672ab82c1a9bbd0e3aabc39d
-title: ¿Cómo puedes trabajar eficazmente con tu teclado, mouse y otros dispositivos apuntadores?
+title: "¿Cómo puedes trabajar eficazmente con tu teclado, mouse y otros dispositivos apuntadores?"
 challengeType: 19
 dashedName: how-to-effectively-work-with-your-keyboard-mouse-and-other-pointing-devices
 ---

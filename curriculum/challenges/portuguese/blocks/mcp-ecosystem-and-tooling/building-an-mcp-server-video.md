@@ -1,6 +1,6 @@
 ---
 id: 69ae767fb4a814be6a4f2be8
-title: Construindo um `MCP Server`
+title: "Construindo um `MCP Server`"
 challengeType: 11
 videoId: lidIujhu3XY
 dashedName: building-an-mcp-server

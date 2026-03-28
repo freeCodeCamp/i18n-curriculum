@@ -1,6 +1,6 @@
 ---
 id: cf1111c1c12feddfaeb2bdef
-title: Generare numeri interi casuali all'interno di un intervallo
+title: "Generare numeri interi casuali all'interno di un intervallo"
 challengeType: 1
 forumTopicId: 18187
 dashedName: generate-random-whole-numbers-within-a-range

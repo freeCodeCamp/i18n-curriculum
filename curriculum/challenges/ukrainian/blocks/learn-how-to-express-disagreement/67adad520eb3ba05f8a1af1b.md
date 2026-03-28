@@ -48,9 +48,9 @@ ENc50c4990
 
 `That makes sense` — це природний спосіб показати згоду. Люди використовують цю фразу в розмовах, коли приймають або розуміють пропозицію. Наприклад:
 
-- Особа 1: `We should optimize the code before adding new features to avoid performance issues.`
+- **Розробник:** `We should optimize the code before adding new features to avoid performance issues.`
 
-- Особа 2: `That makes sense. A slow app will frustrate users.` — ця людина погоджується і розуміє, чому оптимізувати код спочатку — це хороша ідея.
+- **Менеджер:** `That makes sense. A slow app will frustrate users.` — ця людина погоджується і розуміє, чому оптимізувати код спочатку — це хороша ідея.
 
 # --scene--
 

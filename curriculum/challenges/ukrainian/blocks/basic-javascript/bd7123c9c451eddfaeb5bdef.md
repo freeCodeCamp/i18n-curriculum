@@ -1,6 +1,6 @@
 ---
 id: bd7123c9c451eddfaeb5bdef
-title: Використовуйте дужкову нотацію, щоб знайти останній символ у рядку
+title: "Використовуйте дужкову нотацію, щоб знайти останній символ у рядку"
 challengeType: 1
 forumTopicId: 18342
 dashedName: use-bracket-notation-to-find-the-last-character-in-a-string

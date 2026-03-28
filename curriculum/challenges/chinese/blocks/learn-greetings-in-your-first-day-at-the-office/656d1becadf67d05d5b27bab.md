@@ -14,7 +14,7 @@ Brian: But it's true. She's the person to go to if you need help.
 
 # --description--
 
-就像你学习代词 `he` 时一样，像 `she` 这样的代词用于指代女性个体。它们有助于避免对话中的重复。看看这部分对话框：
+就像你学习代词 `he` 时一样，像 `she` 这样的代词用于指代女性个体。它们有助于避免对话中的重复。看看这部分对话：
 
 - Sophie：`Oh, come on, Brian.`
 
@@ -26,7 +26,7 @@ Brian: But it's true. She's the person to go to if you need help.
 
 ## --text--
 
-在对话框中，Brian 使用哪个词来称呼 Sophie 而不重复她的名字？
+在对话中，Brian 使用哪个词来称呼 Sophie 而不重复她的名字？
 
 ## --answers--
 

@@ -50,9 +50,9 @@ EN9d00ecb9
 
 `Sure, Jessica` — це спосіб показати, що ви відкриті до обговорення проблеми. Інший приклад:
 
-- Особа 1: `Do you have any ideas how to fix it?` — ця людина просить поради або рішення.
+- **Noah:** `Do you have any ideas how to fix it?` - ця людина просить поради або рішення.
 
-- Особа 2: `Sure. We could check the server logs and see what's wrong.` — ця людина погоджується і готова поділитися пропозицією.
+- **David:** `Sure. We could check the server logs and see what's wrong.` - ця людина погоджується і готова поділитися пропозицією.
 
 # --scene--
 

@@ -1,6 +1,6 @@
 ---
 id: 698dd4cd7932b3cc4b19c92f
-title: Búsqueda, inserción y eliminación en arrays
+title: "Búsqueda, inserción y eliminación en arrays"
 challengeType: 11
 videoId: QvBI-LH2OMw
 dashedName: array-search-insert-delete

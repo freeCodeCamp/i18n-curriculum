@@ -1,6 +1,6 @@
 ---
 id: 655c0feadb1dd77f6cda623f
-title: "对话框 1：一次工作面试"
+title: "对话 1：一次工作面试"
 challengeType: 21
 dashedName: dialogue-1-a-job-interview
 lang: en-US
