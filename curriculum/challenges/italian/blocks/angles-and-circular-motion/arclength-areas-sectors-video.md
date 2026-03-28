@@ -1,6 +1,6 @@
 ---
 id: 699e56b58f18cf77dfce5c0b
-title: Lunghezza dell'arco e aree dei settori
+title: "Lunghezza dell'arco e aree dei settori"
 challengeType: 11
 videoId: hNtpuLx5i6Y
 dashedName: arclength-and-areas-of-sectors

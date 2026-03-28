@@ -144,7 +144,7 @@ else:
     print('You are a child') # You are a child
 ```
 
-请注意，你可以使用任意数量的 `elif` 语句：
+请注意，你可以使用任意数量的 `elif` 子句：
 
 ```python
 age = 2

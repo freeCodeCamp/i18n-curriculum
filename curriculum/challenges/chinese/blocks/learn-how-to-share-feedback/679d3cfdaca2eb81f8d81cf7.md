@@ -56,7 +56,7 @@ Maria 并没有要求 James 忽略这个问题。
 
 `Can you send me the report by noon?` - 这是一种礼貌地请求某人发送报告的方式。
 
-在这个对话框中，Maria 正在请求 James 调查该问题。
+在这个对话中，Maria 正在请求 James 调查该问题。
 
 # --scene--
 

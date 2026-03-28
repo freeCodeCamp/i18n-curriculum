@@ -1,6 +1,6 @@
 ---
 id: 699e783f8f18cf77dfce5c1d
-title: Formule dell'angolo metà
+title: "Formule dell'angolo metà"
 challengeType: 11
 videoId: aJRfi6KrCcM
 dashedName: half-angle-formulas

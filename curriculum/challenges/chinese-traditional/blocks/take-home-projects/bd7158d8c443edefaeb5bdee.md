@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c443edefaeb5bdee
-title: 建置一個 `Image Search Abstraction Layer`
+title: "建置一個 `Image Search Abstraction Layer`"
 challengeType: 4
 forumTopicId: 302361
 dashedName: build-an-image-search-abstraction-layer

@@ -1,6 +1,6 @@
 ---
 id: 698de0ca7932b3cc4b19c938
-title: Asegurando la corrección de `Merge Sort`
+title: "Asegurando la corrección de `Merge Sort`"
 challengeType: 11
 videoId: UHAYHvqxVKY
 dashedName: ensuring-the-correctness-of-merge-sort

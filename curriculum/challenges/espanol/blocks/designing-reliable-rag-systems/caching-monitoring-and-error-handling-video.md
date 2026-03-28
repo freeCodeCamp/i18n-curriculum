@@ -1,6 +1,6 @@
 ---
 id: 69ae6fd7b4a814be6a4f2be1
-title: Caché, Monitoreo y Manejo de Errores
+title: "Caché, Monitoreo y Manejo de Errores"
 challengeType: 11
 videoId: J0D7kfBORL8
 dashedName: caching-monitoring-and-error-handling

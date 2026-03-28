@@ -54,9 +54,9 @@ lang: en-US
 
 `It's not a big deal` означає, що проблема несерйозна. Наприклад:
 
-- Особа 1: `I can't join the meeting today.`
+- **Monica:** `I can't join the meeting today.`
 
-- Особа 2: `It's not a big deal. I'll take notes for you.` — Пропустити зустріч — це нормально, і ця людина може допомогти.
+- **Eva:** `It's not a big deal. I'll take notes for you.` — Пропустити зустріч — це нормально, і ця людина може допомогти.
 
 Софі також каже `we should fix it before it causes problems`, що означає, що краще виправити це зараз, перш ніж воно стане серйозним.
 

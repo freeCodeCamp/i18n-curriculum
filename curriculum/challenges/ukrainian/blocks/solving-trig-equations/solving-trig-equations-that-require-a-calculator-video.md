@@ -1,6 +1,6 @@
 ---
 id: 699e71f98f18cf77dfce5c17
-title: Розв’язання тригонометричних рівнянь, які потребують калькулятора
+title: "Розв’язання тригонометричних рівнянь, які потребують калькулятора"
 challengeType: 11
 videoId: 8IwkABil9qQ
 dashedName: solving-trig-equations-that-require-a-calculator

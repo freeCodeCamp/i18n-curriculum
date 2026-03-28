@@ -54,9 +54,9 @@ Sophie 並不是很擔心，但她仍然認為他們應該修復它。
 
 `It's not a big deal` 意味著問題不嚴重。 例如：
 
-- 使用者 1：`I can't join the meeting today.`
+- **Monica:** `I can't join the meeting today.`
 
-- 第二人：`It's not a big deal. I'll take notes for you.`－錯過會議沒關係，這個人可以幫忙。
+- **Eva:** `It's not a big deal. I'll take notes for you.`－錯過會議沒關係，這個人可以幫忙。
 
 Sophie 也說過 `we should fix it before it causes problems`，意思是現在修復比較好，勝過等到問題變嚴重。
 

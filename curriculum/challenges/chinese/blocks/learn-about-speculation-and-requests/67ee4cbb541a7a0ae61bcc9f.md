@@ -54,9 +54,9 @@ Sophie 没说这是一个重大问题，只是他们应该修复的东西。
 
 `It's not a big deal` 意味着问题不严重。例如：
 
-- 人员 1：`I can't join the meeting today.`
+- **Monica:** `I can't join the meeting today.`
 
-- 人物 2：`It's not a big deal. I'll take notes for you.`——错过会议没关系，这个人可以帮忙。
+- **Eva:** `It's not a big deal. I'll take notes for you.`——错过会议没关系，这个人可以帮忙。
 
 Sophie 还说 `we should fix it before it causes problems`，意思是现在修复它比等到问题严重时更好。
 

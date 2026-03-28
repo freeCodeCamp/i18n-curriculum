@@ -1,6 +1,6 @@
 ---
 id: 699e69e58f18cf77dfce5c14
-title: Grafici delle trasformazioni di tan, sec, cot, csc
+title: "Grafici delle trasformazioni di tan, sec, cot, csc"
 challengeType: 11
 videoId: 07CAThFU14c
 dashedName: graphs-of-transformations-of-tan-sec-cot-csc

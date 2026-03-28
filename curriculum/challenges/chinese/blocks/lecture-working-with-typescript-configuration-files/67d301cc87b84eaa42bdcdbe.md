@@ -1,6 +1,6 @@
 ---
 id: 67d301cc87b84eaa42bdcdbe
-title: 什么是 `tsconfig` 文件，为什么在你的 TypeScript 项目中包含它很重要？
+title: "什么是 `tsconfig` 文件，为什么在你的 TypeScript 项目中包含它很重要？"
 challengeType: 19
 dashedName: what-is-a-tsconfig-file-and-why-is-it-important-to-include-in-your-typescript-projects
 ---

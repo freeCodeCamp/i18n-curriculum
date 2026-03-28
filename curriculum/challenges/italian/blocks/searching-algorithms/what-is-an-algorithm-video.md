@@ -1,6 +1,6 @@
 ---
 id: 698dbbd47932b3cc4b19c91b
-title: Che cos'è un algoritmo?
+title: "Che cos'è un algoritmo?"
 challengeType: 11
 videoId: FUeqQSciTNI
 dashedName: what-is-an-algorithm

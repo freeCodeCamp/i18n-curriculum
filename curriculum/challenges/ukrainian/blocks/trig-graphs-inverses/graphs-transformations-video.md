@@ -1,6 +1,6 @@
 ---
 id: 699e69e58f18cf77dfce5c14
-title: Графіки перетворень тангенса, секанса, котангенса, косеканса
+title: "Графіки перетворень тангенса, секанса, котангенса, косеканса"
 challengeType: 11
 videoId: 07CAThFU14c
 dashedName: graphs-of-transformations-of-tan-sec-cot-csc

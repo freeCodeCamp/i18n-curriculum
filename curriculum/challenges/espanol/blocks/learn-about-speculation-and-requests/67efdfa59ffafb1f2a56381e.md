@@ -50,9 +50,9 @@ Jessica pregunta, `Do you have any ideas?`, que es una forma de invitar a alguie
 
 `Sure, Jessica` es una forma de mostrar que estás abierto a discutir el problema. Otro ejemplo:
 
-- Persona 1: `Do you have any ideas how to fix it?` - Esta persona está pidiendo sugerencias o soluciones.
+- **Noah:** `Do you have any ideas how to fix it?` - Esta persona está pidiendo sugerencias o soluciones.
 
-- Persona 2: `Sure. We could check the server logs and see what's wrong.` - Esta persona está diciendo que sí y está lista para compartir una sugerencia.
+- **David:** `Sure. We could check the server logs and see what's wrong.` - Esta persona está diciendo que sí y está lista para compartir una sugerencia.
 
 # --scene--
 

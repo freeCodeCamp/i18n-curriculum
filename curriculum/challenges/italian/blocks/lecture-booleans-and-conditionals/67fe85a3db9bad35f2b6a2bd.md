@@ -144,7 +144,7 @@ else:
     print('You are a child') # You are a child
 ```
 
-Nota che puoi usare quante istruzioni `elif` vuoi:
+Nota che puoi usare quante clausole `elif` vuoi:
 
 ```python
 age = 2

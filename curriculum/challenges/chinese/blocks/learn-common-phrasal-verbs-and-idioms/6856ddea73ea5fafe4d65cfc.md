@@ -46,11 +46,11 @@ EN13416258
 
 # --explanation--
 
-`That's an excellent suggestion.` 是一种礼貌且积极的方式，通过表达强烈的认同和赞同来称赞某人的想法。例如：
+`That's an excellent suggestion` 是一种礼貌且积极的方式，通过表达强烈的认同和赞同来称赞某人的想法。例如：
 
-- 人物 1：`Let's add more visuals to the report.` – 第一个人建议他们为报告添加更多图形和图像，使其更加生动。
+- **图形设计师：** `Let's add more visuals to the report.` – 这人建议他们为报告添加更多图形和图像，使其更加生动。
 
-- 人物 2：`That's an excellent suggestion.` – 这意味着此人认为这个想法非常好且有帮助。
+- **项目经理：** `That's an excellent suggestion.` – 这意味着此人认为这个想法非常好且有帮助。
 
 # --scene--
 

@@ -86,7 +86,7 @@ if age >= 18:
     print('You are an adult') # Nothing shows up in the terminal
 ```
 
-Pero, ¿qué pasa si también quieres imprimir algo si `edad` es menor que `18`? Ahí es donde entra la cláusula `else`. La cláusula `else` se ejecuta cuando la condición `if` es falsa. Aquí está la sintaxis para una sentencia `if…else`:
+Pero, ¿qué pasa si también quieres imprimir algo si `age` es menor que `18`? Ahí es donde entra la cláusula `else`. La cláusula `else` se ejecuta cuando la condición `if` es falsa. Aquí está la sintaxis para una sentencia `if…else`:
 
 ```python
 if condition:
@@ -144,7 +144,7 @@ else:
     print('You are a child') # You are a child
 ```
 
-Ten en cuenta que puedes usar tantas declaraciones `elif` como quieras:
+Ten en cuenta que puedes usar tantas cláusulas `elif` como quieras:
 
 ```python
 age = 2
@@ -220,7 +220,7 @@ else:
 
 ## --answers--
 
-`Usted es un adulto` se imprimirá en la consola.
+`You are an adult` se imprimirá en la consola.
 
 ### --feedback--
 
@@ -228,7 +228,7 @@ Revisa la última parte de la lección para la respuesta correcta.
 
 ---
 
-`Usted es un adolescente` se imprimirá en la consola.
+`You are a teenager` se imprimirá en la consola.
 
 ### --feedback--
 
@@ -236,7 +236,7 @@ Revisa la última parte de la lección para la respuesta correcta.
 
 ---
 
-`Usted es un niño` se imprimirá en la consola.
+`You are a child` se imprimirá en la consola.
 
 ---
 

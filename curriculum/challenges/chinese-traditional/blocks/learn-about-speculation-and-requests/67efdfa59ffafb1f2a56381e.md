@@ -50,9 +50,9 @@ Jessica 問，`Do you have any ideas?`，這是一種邀請某人分享他們想
 
 `Sure, Jessica` 是表示你願意討論此問題的一種方式。另一個範例：
 
-- Person 1: `Do you have any ideas how to fix it?`－這個人正在尋求建議或解決方案。
+- **Noah:** `Do you have any ideas how to fix it?`－這個人正在尋求建議或解決方案。
 
-- 第二個人：`Sure. We could check the server logs and see what's wrong.`－這個人表示同意，並準備分享一個建議。
+- **David:** `Sure. We could check the server logs and see what's wrong.`－這個人表示同意，並準備分享一個建議。
 
 # --scene--
 

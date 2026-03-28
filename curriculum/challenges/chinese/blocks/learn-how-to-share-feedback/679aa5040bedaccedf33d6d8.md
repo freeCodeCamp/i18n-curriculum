@@ -56,7 +56,7 @@ Brian 不是在谈论人们拒绝分享他们的观点。
 
 `If you studied more, you might pass the exam.`——这意味着如果这个人学习更多，就有可能通过考试。
 
-在这个对话框中，`If we all agreed on everything, we might miss important details` 表达了完全一致可能带来的负面后果。
+在这个对话中，`If we all agreed on everything, we might miss important details` 表达了完全一致可能带来的负面后果。
 
 # --scene--
 

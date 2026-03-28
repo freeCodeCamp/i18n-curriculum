@@ -1,6 +1,6 @@
 ---
 id: 699e69e18f18cf77dfce5c13
-title: Gráficos de Tan, Sec, Cot, Csc
+title: "Gráficos de Tan, Sec, Cot, Csc"
 challengeType: 11
 videoId: -AGLDRcJ4hk
 dashedName: graphs-of-tan-sec-cot-csc

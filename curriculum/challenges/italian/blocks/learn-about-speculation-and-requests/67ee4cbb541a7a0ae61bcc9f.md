@@ -52,11 +52,11 @@ No, ma dovrebbe comunque essere sistemato.
 
 # --explanation--
 
-`It's not a big deal` indica che il problema non è serio. Per esempio:
+`It's not a big deal` significa che il problema non è serio. Per esempio:
 
-- Persona 1: `I can't join the meeting today.`
+- **Monica:** `I can't join the meeting today.`
 
-- Persona 2: `It's not a big deal. I'll take notes for you.` - Saltare la riunione va bene, e questa persona può aiutare.
+- **Eva:** `It's not a big deal. I'll take notes for you.` - Saltare la riunione va bene, e questa persona può aiutare.
 
 Sophie dice anche `we should fix it before it causes problems`, cioè è meglio sistemarlo ora prima che diventi serio.
 

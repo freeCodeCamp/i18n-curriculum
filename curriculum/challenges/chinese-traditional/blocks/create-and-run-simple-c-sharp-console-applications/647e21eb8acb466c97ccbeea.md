@@ -1,6 +1,6 @@
 ---
 id: 647e21eb8acb466c97ccbeea
-title: 引導式專案－開發 `foreach` 和 `if-elseif-else` 結構以處理 C# 中的陣列資料
+title: "引導式專案－開發 `foreach` 和 `if-elseif-else` 結構以處理 C# 中的陣列資料"
 challengeType: 19
 dashedName: guided-project-develop-foreach-and-if-elseif-else-structures-to-process-array-data-in-c-sharp
 ---

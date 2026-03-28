@@ -26,7 +26,7 @@ Brian: But it's true. She's the person to go to if you need help.
 
 ## --text--
 
-在對話窗中，Brian 使用哪個字來指涉 Sophie 而不重複她的名字？
+在對話中，Brian 使用哪個字來指涉 Sophie 而不重複她的名字？
 
 ## --answers--
 

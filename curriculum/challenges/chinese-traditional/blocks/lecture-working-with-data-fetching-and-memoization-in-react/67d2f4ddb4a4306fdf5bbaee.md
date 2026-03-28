@@ -1,6 +1,6 @@
 ---
 id: 67d2f4ddb4a4306fdf5bbaee
-title: 什麼是記憶化，以及 `useMemo` 掛鉤如何運作？
+title: "什麼是記憶化，以及 `useMemo` 掛鉤如何運作？"
 challengeType: 19
 dashedName: what-is-memoization-and-how-does-the-usememo-hook-work
 ---

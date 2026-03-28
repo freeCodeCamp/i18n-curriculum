@@ -1,6 +1,6 @@
 ---
 id: 655c0feadb1dd77f6cda623f
-title: "對話窗 1：一場工作面試"
+title: "對話 1：一場工作面試"
 challengeType: 21
 dashedName: dialogue-1-a-job-interview
 lang: en-US

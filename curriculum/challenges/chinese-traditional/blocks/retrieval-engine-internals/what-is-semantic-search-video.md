@@ -1,6 +1,6 @@
 ---
 id: 69ae69fbb4a814be6a4f2bdc
-title: 什麼是語意 `Search`？
+title: "什麼是語意 `Search`？"
 challengeType: 11
 videoId: 1OxzFbEES_g
 dashedName: what-is-semantic-search

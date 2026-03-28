@@ -1,6 +1,6 @@
 ---
 id: 696ededdc66d0c4ff561e1ce
-title: "對話窗 1：我是 Tom"
+title: "對話 1：我是 Tom"
 challengeType: 21
 dashedName: dialogue-1-im-tom
 lang: es

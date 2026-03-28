@@ -30,11 +30,9 @@ lang: en-US
 
 `Not really` 通常用來給出否定的回答，但語氣較為柔和。它比單純說 `No` 更隨意。 例如：
 
-使用者 1：`Do you think this software is user-friendly?`
+- **Team lead:** `Do you think this software is user-friendly?`
 
-人物 2：`Not really.`
-
-這表示它不是很使用者友善，但講者可能不完全確定。
+- **Intern:** `Not really.` - 這表示它不是很使用者友善，但講者可能不完全確定。
 
 # --scene--
 

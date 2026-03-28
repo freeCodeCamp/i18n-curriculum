@@ -1,6 +1,6 @@
 ---
 id: 698de8fd7932b3cc4b19c93e
-title: Riepilogo dell'introduzione alle strutture dati
+title: "Riepilogo dell'introduzione alle strutture dati"
 challengeType: 11
 videoId: KUG1HNrchK0
 dashedName: recap-of-introduction-to-data-structures

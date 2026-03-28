@@ -1,6 +1,6 @@
 ---
 id: 699e5ba28f18cf77dfce5c0f
-title: 单位圆 `definition` 的正弦和余弦
+title: "单位圆 `definition` 的正弦和余弦"
 challengeType: 11
 videoId: zt4bkQc1nSw
 dashedName: unit-circle-definition-sine-cosine

@@ -14,7 +14,7 @@ lang: en-US
 
 例如，你可以说，`I enjoy playing video games`。这意味着玩视频游戏对你来说很有趣。
 
-在对话框中，Sophie 说了 Maria 喜欢她工作的某些事情。
+在对话中，Sophie 说了 Maria 喜欢她工作的某些事情。
 
 # --fillInTheBlank--
 

@@ -46,11 +46,11 @@ Isso soa duvidoso, não apoiador.
 
 # --explanation--
 
-`That's an excellent suggestion.` é uma forma educada e positiva de elogiar a ideia de alguém mostrando forte concordância e aprovação. Por exemplo:
+`That's an excellent suggestion` é uma forma educada e positiva de elogiar a ideia de alguém mostrando forte concordância e aprovação. Por exemplo:
 
-- Pessoa 1: `Let's add more visuals to the report.` – A primeira pessoa sugere que eles incorporem mais gráficos e imagens ao relatório para torná-lo mais vívido.
+- **Designer gráfico:** `Let's add more visuals to the report.` – Essa pessoa sugere que eles incorporem mais gráficos e imagens ao relatório para torná-lo mais vívido.
 
-- Pessoa 2: `That's an excellent suggestion.` – Isso significa que a pessoa acha que a ideia é muito boa e útil.
+- **Gerente de projeto:** `That's an excellent suggestion.` – Isso significa que a pessoa acha que a ideia é muito boa e útil.
 
 # --scene--
 

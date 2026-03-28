@@ -1,6 +1,6 @@
 ---
 id: bd7123c9c450eddfaeb5bdef
-title: Використовуйте дужкову нотацію, щоб знайти n-й символ у рядку
+title: "Використовуйте дужкову нотацію, щоб знайти n-й символ у рядку"
 challengeType: 1
 forumTopicId: 18343
 dashedName: use-bracket-notation-to-find-the-nth-character-in-a-string

@@ -1,6 +1,6 @@
 ---
 id: bd7123c9c549eddfaeb5bdef
-title: Використовуйте дужкову нотацію, щоб знайти перший символ у рядку
+title: "Використовуйте дужкову нотацію, щоб знайти перший символ у рядку"
 challengeType: 1
 forumTopicId: 18341
 dashedName: use-bracket-notation-to-find-the-first-character-in-a-string

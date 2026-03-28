@@ -1,6 +1,6 @@
 ---
 id: bd7123c9c452eddfaeb5bdef
-title: Використовуйте дужкову нотацію, щоб знайти N-й з кінця символ у рядку
+title: "Використовуйте дужкову нотацію, щоб знайти N-й з кінця символ у рядку"
 challengeType: 1
 forumTopicId: 18344
 dashedName: use-bracket-notation-to-find-the-nth-to-last-character-in-a-string

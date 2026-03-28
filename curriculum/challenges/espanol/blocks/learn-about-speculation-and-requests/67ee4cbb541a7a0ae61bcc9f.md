@@ -54,9 +54,9 @@ No, pero aún así debería estar arreglado.
 
 `It's not a big deal` significa que el problema no es serio. Por ejemplo:
 
-- Persona 1: `I can't join the meeting today.`
+- **Monica:** `I can't join the meeting today.`
 
-- Persona 2: `It's not a big deal. I'll take notes for you.` - Está bien perder la reunión, y esta persona puede ayudar.
+- **Eva:** `It's not a big deal. I'll take notes for you.` - Está bien perder la reunión, y esta persona puede ayudar.
 
 Sophie también dice que `we should fix it before it causes problems`, lo que significa que es mejor arreglarlo ahora antes de que se vuelva serio.
 

@@ -56,7 +56,7 @@ Maria 並沒有要求 James 忽略這個問題。
 
 `Can you send me the report by noon?`－這是一種禮貌地請求某人寄送報告的方式。
 
-在這個對話窗中，Maria 正在請求 James 調查這個問題。
+在這個對話中，Maria 正在請求 James 調查這個問題。
 
 # --scene--
 
