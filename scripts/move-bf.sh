@@ -7,6 +7,6 @@ source_file="scripts/59e0a8df964e4540d5abe599.md"
 destination_dir="curriculum/challenges"
 
 # Loop through only the specified language directories
-for lang in german swahili japanese korean; do
+for lang in german swahili japanese; do
     cp "./$source_file" "./$destination_dir/$lang/blocks/rosetta-code-challenges/"
 done
