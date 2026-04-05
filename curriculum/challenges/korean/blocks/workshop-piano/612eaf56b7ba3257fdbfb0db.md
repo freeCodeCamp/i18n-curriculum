@@ -7,19 +7,19 @@ dashedName: step-19
 
 # --description--
 
-The piano needs the freeCodeCamp logo to make it official.
+피아노에 freeCodeCamp 로고를 추가해 공식적으로 만드세요.
 
-Add an `img` element before your `.keys` element. Give the `img` a `class` of `logo`, and set the `src` to `https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg`. Give it an `alt` text of `freeCodeCamp Logo`.
+`img` 요소 앞에 `.keys` 요소를 추가하세요. `img`에 `class`를 `logo`로 지정하고, `src`를 `https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg`로 설정하세요. `alt` 텍스트는 `freeCodeCamp Logo`로 지정하세요.
 
 # --hints--
 
-You should add a new `img` element.
+새로운 `img` 요소를 추가해야 합니다.
 
 ```js
 assert.lengthOf(document.querySelectorAll('img'), 1);
 ```
 
-Your `img` element should come before your first `.keys` element.
+`img` 요소는 첫 번째 `.keys` 요소 앞에 와야 합니다.
 
 ```js
 const img = document.querySelector('img');
@@ -27,27 +27,27 @@ assert.equal(img?.nextElementSibling?.className, 'keys');
 assert.isNull(img?.previousElementSibling);
 ```
 
-Your `img` element should have a `class` set to `logo`.
+`img` 요소에 `class`가 `logo`로 설정되어야 합니다.
 
 ```js
 const img = document.querySelector('img');
 assert.equal(img?.className, 'logo');
 ```
 
-Your `img` element should have a `src` set to `https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg`.
+`img` 요소에 `src`가 `https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg`로 설정되어야 합니다.
 
 ```js
 const img = document.querySelector('img');
 assert.equal(img?.getAttribute('src'), 'https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg');
 ```
 
-Your `img` element should have an `alt` attribute set to `freeCodeCamp Logo`.
+`img` 요소에 `alt` 속성이 `freeCodeCamp Logo`로 설정되어야 합니다.
 
 ```js
 assert.equal(document.querySelector('img')?.getAttribute('alt')?.toLowerCase(), 'freecodecamp logo');
 ```
 
-Remember that casing and spelling matter.
+대소문자와 철자가 정확해야 합니다.
 
 ```js
 assert.equal(document.querySelector('img')?.getAttribute('alt'), 'freeCodeCamp Logo');

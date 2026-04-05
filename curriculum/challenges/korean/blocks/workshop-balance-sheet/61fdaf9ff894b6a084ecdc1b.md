@@ -7,11 +7,11 @@ dashedName: step-33
 
 # --description--
 
-To prevent the text content from overflowing, give your `span[class~="sr-only"]` selector an `overflow` property set to `hidden` and a `white-space` property set to `nowrap`.
+텍스트 내용이 오버플로우되지 않도록 `span[class~="sr-only"]` 선택자에 `overflow` 속성을 `hidden`로 설정하고 `white-space` 속성을 `nowrap`로 설정하세요.
 
 # --hints--
 
-Your `span[class~="sr-only"]` selector should have an `overflow` property set to `hidden`.
+`span[class~="sr-only"]` 선택자에 `overflow` 속성을 `hidden`로 설정하세요.
 
 ```js
 assert.strictEqual(
@@ -22,7 +22,7 @@ assert.strictEqual(
 );
 ```
 
-Your `span[class~="sr-only"]` selector should have a `white-space` property set to `nowrap`.
+`span[class~="sr-only"]` 선택자에 `white-space` 속성을 `nowrap`로 설정하세요.
 
 ```js
 assert.strictEqual(
@@ -175,7 +175,7 @@ span[class~="sr-only"] {
   clip-path: inset(50%);
   height: 1px;
   width: 1px;
-
+  
 }
 --fcc-editable-region--
 

@@ -1,19 +1,19 @@
 ---
 id: 686daa7ed79ceacd0b264e7d
-title: Step 2
+title: 2단계
 challengeType: 0
 dashedName: step-2
 ---
 
 # --description--
 
-You should nest one `path` element inside your `svg` element to give the image shape.
+이미지 모양을 만들기 위해 `path` 요소 안에 `svg` 요소를 중첩하세요.
 
-Create a `path` element.
+`path` 요소를 만드세요.
 
 # --hints--
 
-You should have a `path` element nested inside of your `svg` element.
+`path` 요소 안에 `svg` 요소가 중첩되어 있어야 합니다.
 
 ```js
 const path = document.querySelector('svg path');
@@ -34,7 +34,7 @@ assert.exists(path);
   <body>
     <svg>
     --fcc-editable-region--
-
+      
     --fcc-editable-region--
     </svg>
   </body>

@@ -1,23 +1,23 @@
 ---
 id: 64de4bccf5becb208a48ca97
-title: 13 단계
+title: 13단계
 challengeType: 20
 dashedName: step-13
 ---
 
 # --description--
 
-In the Tower of Hanoi puzzle, you can identify the three rods according to their purpose:
+하노이의 탑 퍼즐에서 세 개의 막대는 용도에 따라 구분할 수 있습니다:
 
-- The first rod is the source, where all the disks are stacked on top of each other at the beginning of the game.
-- The second rod is an auxiliary rod, and it helps in moving the disks to the target rod.
-- The third rod is the target, where all the disks should be placed in order at the end of the game.
+- 첫 번째 막대는 출발지로, 게임 시작 시 모든 원판이 차곡차곡 쌓여 있는 곳입니다.
+- 두 번째 막대는 보조 막대로, 원판을 목표 막대로 옮기는 데 도움을 줍니다.
+- 세 번째 막대는 목표지로, 게임이 끝날 때 모든 원판이 순서대로 놓여야 하는 곳입니다.
 
-Currently, the `move()` function does not take any parameters. Change the function declaration to take 4 parameters: `n`, `source`, `auxiliary`, and `target`. Then, pass `NUMBER_OF_DISKS` and the strings `'A'`, `'B'`, and `'C'` as arguments to your function call. The order matters.
+현재 `move()` 함수는 매개변수를 받지 않습니다. 함수 선언을 `n`, `source`, `auxiliary`, `target` 네 개의 매개변수를 받도록 변경하세요. 그런 다음 함수 호출 시 `NUMBER_OF_DISKS`와 문자열 `'A'`, `'B'`, `'C'`을 인수로 전달하세요. 순서가 중요합니다.
 
 # --hints--
 
-Your `move()` function should have `n`, `source`, `auxiliary`, and `target` as the parameters. The order matters.
+`move()` 함수는 `n`, `source`, `auxiliary`, `target` 네 개의 매개변수를 가져야 합니다. 순서가 중요합니다.
 
 ```js
 ({ test: () => assert(runPython(`
@@ -27,7 +27,7 @@ Your `move()` function should have `n`, `source`, `auxiliary`, and `target` as t
 })
 ```
 
-You should pass `NUMBER_OF_DISKS` and the strings `'A'`, `'B'`, and `'C'` to `move()`. The order matters.
+`NUMBER_OF_DISKS`와 문자열 `'A'`, `'B'`, `'C'`을 `move()`에 전달해야 합니다. 순서가 중요합니다.
 
 ```js
 ({test: () => assert.match(code, /^move\(\s*NUMBER_OF_DISKS\s*,\s*('|")A\1\s*,\s*('|")B\2\s*,\s*('|")C\3\s*\)/m)

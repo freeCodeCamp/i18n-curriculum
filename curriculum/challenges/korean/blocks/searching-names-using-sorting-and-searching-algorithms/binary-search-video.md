@@ -1,6 +1,6 @@
 ---
 id: 698dea3f7932b3cc4b19c94b
-title: Binary Search
+title: 이진 검색
 challengeType: 11
 videoId: VZ1u8vgVJwo
 dashedName: binary-search
@@ -8,29 +8,29 @@ dashedName: binary-search
 
 # --description--
 
-In this video, you will revisit the binary search algorithm and how it works in searching through a list of names.
+이 영상에서는 이진 검색 알고리즘과 이름 목록을 검색할 때 어떻게 작동하는지 다시 살펴봅니다.
 
 # --questions--
 
 ## --text--
 
-When might you use the binary search algorithm over the linear search algorithm?
+언제 선형 검색 알고리즘보다 이진 검색 알고리즘을 사용하나요?
 
 ## --answers--
 
-When the list is unsorted and frequently changing.
+목록이 정렬되어 있지 않고 자주 변경될 때.
 
 ---
 
-When you need to check every element one by one.
+모든 요소를 하나씩 확인해야 할 때.
 
 ---
 
-When you know you are searching through a large list of sorted results.
+정렬된 큰 목록에서 검색하고 있다는 것을 알 때.
 
 ---
 
-When the dataset is very small and performance does not matter.
+데이터셋이 매우 작고 성능이 중요하지 않을 때.
 
 ## --video-solution--
 

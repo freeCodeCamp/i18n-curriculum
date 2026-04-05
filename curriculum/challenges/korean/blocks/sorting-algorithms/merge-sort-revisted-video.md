@@ -1,6 +1,6 @@
 ---
 id: 698dea107932b3cc4b19c946
-title: Merge Sort Revisited
+title: 병합 정렬 다시 보기
 challengeType: 11
 videoId: Aj6ikfTns9o
 dashedName: merge-sort-revisited
@@ -8,29 +8,29 @@ dashedName: merge-sort-revisited
 
 # --description--
 
-In this video, you will revisit the merge sort algorithm.
+이 영상에서는 병합 정렬 알고리즘을 다시 살펴봅니다.
 
 # --questions--
 
 ## --text--
 
-What is a core difference between the merge sort and quicksort algorithms?
+병합 정렬과 퀵소트 알고리즘의 핵심 차이점은 무엇인가요?
 
 ## --answers--
 
-Merge sort swaps adjacent elements repeatedly until sorted.
+병합 정렬은 인접한 요소들을 반복해서 교환하여 정렬합니다.
 
 ---
 
-Quicksort will partition the list around a pivot and recursively sort sublists, while merge sort splits the list in half and merges sorted halves.
+퀵소트는 피벗을 기준으로 리스트를 분할하고 재귀적으로 하위 리스트를 정렬하는 반면, 병합 정렬은 리스트를 반으로 나누고 정렬된 절반들을 병합합니다.
 
 ---
 
-Merge sort uses a hash table to count elements, whereas quicksort uses a deque to reorder elements.
+병합 정렬은 요소를 세기 위해 해시 표를 사용하지만, 퀵소트는 요소 재정렬을 위해 덱을 사용합니다.
 
 ---
 
-Quicksort always uses a while loop to sort, while merge sort uses a for loop.
+퀵소트는 항상 while 루프를 사용해 정렬하는 반면, 병합 정렬은 for 루프를 사용합니다.
 
 ## --video-solution--
 

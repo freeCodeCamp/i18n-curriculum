@@ -1,6 +1,6 @@
 ---
 id: 8ca3a380a75d00443d9e09bd
-title: Hello World Program
+title: Hello World 프로그램
 challengeType: 11
 videoId: H2WnzGCeydQ
 dashedName: hello-world-program
@@ -8,13 +8,13 @@ dashedName: hello-world-program
 
 # --description--
 
-In this video, you will learn how to write your first program in Python.
+이 영상에서는 Python으로 첫 번째 프로그램을 작성하는 방법을 배우세요.
 
 # --questions--
 
 ## --text--
 
-Which of the following is the correct way to print `"Hello World"` to the console?
+다음 중 `"Hello World"`를 콘솔에 출력하는 올바른 방법은 무엇인가요?
 
 ## --answers--
 

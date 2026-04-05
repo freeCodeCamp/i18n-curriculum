@@ -1,6 +1,6 @@
 ---
 id: 699e5ba28f18cf77dfce5c0f
-title: Unit Circle Definition of Sine and Cosine
+title: 사인과 코사인의 단위원 정의
 challengeType: 11
 videoId: zt4bkQc1nSw
 dashedName: unit-circle-definition-sine-cosine
@@ -8,31 +8,30 @@ dashedName: unit-circle-definition-sine-cosine
 
 # --description--
 
-In this video, you will learn how to use the unit circle to find the sine and cosine of angles.
+이 영상에서는 단위원을 사용해 각도의 사인과 코사인을 구하는 방법을 배우세요.
 
 # --questions--
 
 ## --text--
 
-What is a unit circle?
+단위원이란 무엇인가요?
 
 ## --answers--
 
-A circle with a radius of 0 units.
+반지름이 0인 원입니다.
 
 ---
 
-A circle with a radius of 1 unit.
+반지름이 1인 원입니다.
 
 ---
 
-A circle with a radius of 2 units.
+반지름이 2인 원입니다.
 
 ---
 
-A circle with a radius of 0.5 units.
+반지름이 0.5인 원입니다.
 
 ## --video-solution--
 
 2
-

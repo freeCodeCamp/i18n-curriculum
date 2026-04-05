@@ -1,19 +1,19 @@
 ---
 id: 68caa8fb3bed34833ef24aee
-title: Step 29
+title: 29단계
 challengeType: 20
 dashedName: step-29
 ---
 
 # --description--
 
-When the level is modified, you need to update the salary as well.
+레벨이 변경되면 급여도 업데이트해야 합니다.
 
-Before setting `self._level`, set `self._salary` to the base salary for the new level.
+`self._level`를 설정하기 전에 `self._salary`을 새 레벨의 기본 급여로 설정하세요.
 
 # --hints--
 
-You should set `self._salary` to the base salary for the new level.
+`self._salary`를 새 레벨의 기본 급여로 설정해야 합니다.
 
 ```js
 ({ test: () => runPython(`
@@ -77,7 +77,7 @@ class Employee:
         if Employee._base_salaries[new_level] < Employee._base_salaries[self.level]:
             raise ValueError(f"Cannot change to lower level.")
 --fcc-editable-region--
-
+        
         self._level = new_level
 --fcc-editable-region--
     @property

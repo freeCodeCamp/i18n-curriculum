@@ -7,9 +7,9 @@ dashedName: step-23
 
 # --description--
 
-The `li` element is used to create a list item in an ordered or unordered list.
+`li` 요소는 순서 있는 목록이나 순서 없는 목록에서 목록 항목을 만드는 데 사용됩니다.
 
-Here is an example of list items in an unordered list:
+다음은 순서 없는 목록에서 목록 항목의 예입니다:
 
 ```html
 <ul>
@@ -18,24 +18,24 @@ Here is an example of list items in an unordered list:
 </ul>
 ```
 
-Within the `ul` element nest three list items to display three things cats love:
+`ul` 요소 안에 세 개의 목록 항목을 중첩하여 고양이가 좋아하는 세 가지를 표시하세요:
 
 `catnip`
 
 `laser pointers`
 
-`lasagna`
+`lasagna` 
 
 # --hints--
 
-You should have three `li` elements. Each `li` element should have its own opening and closing tag.
+세 개의 `li` 요소가 있어야 합니다. 각 `li` 요소는 자체 여는 태그와 닫는 태그가 있어야 합니다.
 
 ```js
 assert.lengthOf(document.querySelectorAll('li'), 3);
 assert.lengthOf(code.match(/<\/li\>/g), 3);
 ```
 
-You should have three `li` elements with the text `catnip`, `laser pointers` and `lasagna` in any order. You have either omitted some text or have a typo.
+세 개의 `li` 요소가 있어야 하며, 텍스트는 `catnip`, `laser pointers`, `lasagna` 중 어떤 순서로든 포함되어야 합니다. 텍스트를 누락했거나 오타가 있을 수 있습니다.
 
 ```js
 assert.deepStrictEqual(
@@ -46,7 +46,7 @@ assert.deepStrictEqual(
 );
 ```
 
-The three `li` elements should be located between the `ul` element's opening and closing tags.
+세 개의 `li` 요소는 `ul` 요소의 여는 태그와 닫는 태그 사이에 위치해야 합니다.
 
 ```js
 assert.lengthOf(
@@ -76,7 +76,7 @@ assert.lengthOf(
         <h3>Things cats love:</h3>
         <ul>
 --fcc-editable-region--
-
+          
 --fcc-editable-region--
         </ul>
       </section>

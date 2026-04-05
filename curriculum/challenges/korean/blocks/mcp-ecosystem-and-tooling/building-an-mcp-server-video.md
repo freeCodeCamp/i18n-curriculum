@@ -1,6 +1,6 @@
 ---
 id: 69ae767fb4a814be6a4f2be8
-title: Building an MCP Server
+title: MCP 서버 구축하기
 challengeType: 11
 videoId: lidIujhu3XY
 dashedName: building-an-mcp-server
@@ -8,13 +8,13 @@ dashedName: building-an-mcp-server
 
 # --description--
 
-In this video, you will learn how to build an MCP server.
+이 영상에서는 MCP 서버를 구축하는 방법을 배우세요.
 
 # --questions--
 
 ## --text--
 
-What are the three components of an MCP server?
+MCP 서버의 세 가지 컴포넌트는 무엇인가요?
 
 ## --answers--
 
@@ -35,5 +35,3 @@ Input, Output, and Network
 ## --video-solution--
 
 3
-
-

@@ -7,17 +7,17 @@ dashedName: step-36
 
 # --description--
 
-Use arrow syntax to create an `updateTaskContainer` function. Then move the `taskData.forEach()` and its content from the `taskForm`'s `submit` event listener into the newly created function.
+화살표 구문을 사용해 `updateTaskContainer` 함수를 만드세요. 그런 다음 `taskData.forEach()`의 `taskForm` 이벤트 리스너에서 `submit`과 그 내용을 새로 만든 함수로 옮기세요.
 
 # --hints--
 
-You should use `const` and arrow syntax to create a `updateTaskContainer` function.
+`const`와 화살표 구문을 사용해 `updateTaskContainer` 함수를 만드세요.
 
 ```js
 assert.match(code, /const\s+updateTaskContainer\s*=\s*\(\s*\)\s*=>\s*\{/)
 ```
 
-You should move `taskData.forEach()` and its content into the `updateTaskContainer()` function.
+`taskData.forEach()`과 그 내용을 `updateTaskContainer()` 함수로 옮기세요.
 
 ```js
 assert.match(code, /const\s+updateTaskContainer\s*=\s*\(\s*\)\s*=>\s*\{\s*taskData\.forEach\(\s*\(\s*\{\s*id\s*,\s*title\s*,\s*date\s*,\s*description\s*\}\s*\)\s*=>\s*{\s*tasksContainer\.innerHTML\s*\+=\s*`\s*<div\s+class\s*=\s*('|")task\1\s*id\s*=\s*('|")\$\{id\}\2>\s*<p><strong>Title:<\/strong>\s*\$\{title\}<\/p>\s*<p><strong>Date:<\/strong>\s*\$\{date\}<\/p>\s*<p><strong>Description:<\/strong>\s*\$\{description\}<\/p>\s*<button\s+type\s*=\s*('|")button\3\s*class\s*=\s*('|")btn\4>Edit<\/button>\s*<button\s+type\s*=\s*('|")button\5\s*class\s*=\s*('|")btn\6>Delete<\/button>\s*<\/div>\s*`;?\s*}\s*\)\s*;?\s*\}\s*;?/)

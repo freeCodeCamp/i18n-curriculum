@@ -1,13 +1,13 @@
 ---
 id: 66edcdd18a4ef8df16e6bb7e
-title: JavaScript Higher Order Functions Quiz
+title: JavaScript 고차 함수 퀴즈
 challengeType: 8
 dashedName: quiz-javascript-higher-order-functions
 ---
 
 # --description--
 
-To pass the quiz, you must correctly answer at least 18 of the 20 questions below.
+퀴즈를 통과하려면 아래 20문제 중 최소 18문제를 올바르게 답해야 합니다.
 
 # --quizzes--
 
@@ -17,51 +17,51 @@ To pass the quiz, you must correctly answer at least 18 of the 20 questions belo
 
 #### --text--
 
-Which of the following statements about JavaScript higher-order functions is NOT true?
+JavaScript 고차 함수에 관한 다음 설명 중 올바르지 않은 것은 무엇인가요?
 
 #### --distractors--
 
-Higher-order functions can greatly enhance code readability and maintainability by enabling functional programming techniques.
+고차 함수는 함수형 프로그래밍 기법을 가능하게 하여 코드 가독성과 유지보수성을 크게 향상할 수 있습니다.
 
 ---
 
-Higher-order functions like map, filter, and reduce are powerful tools for array manipulation, but they are not unique to functional programming.
+map, filter, reduce 같은 고차 함수는 배열 조작에 강력한 도구이지만 함수형 프로그래밍에만 국한되지 않습니다.
 
 ---
 
-Higher-order functions may introduce complexity in understanding code, but they can also lead to more expressive and concise solutions.
+고차 함수는 코드를 이해하는 데 복잡성을 더할 수 있지만, 더 표현력 있고 간결한 해결책을 만들 수도 있습니다.
 
 #### --answer--
 
-All functions in JavaScript, including those that do not take or return other functions, can be classified as higher-order functions.
+다른 함수를 인수로 받거나 반환하지 않는 함수도 포함하여 JavaScript의 모든 함수는 고차 함수로 분류할 수 있습니다.
 
 ### --question--
 
 #### --text--
 
-What is a factory function in the context of higher order functions?
+고차 함수 맥락에서 팩토리 함수란 무엇인가요?
 
 #### --distractors--
 
-A function that creates new variables.
+새 변수를 생성하는 함수입니다.
 
 ---
 
-A function that only works with strings.
+문자열만 처리하는 함수입니다.
 
 ---
 
-A function that automatically generates code comments.
+자동으로 코드 주석을 생성하는 함수입니다.
 
 #### --answer--
 
-A function that returns a new function based on specific parameters
+특정 매개변수를 기반으로 새 함수를 반환하는 함수입니다.
 
 ### --question--
 
 #### --text--
 
-After code execution, what will be the value of `forEachRes` and `mapRes`?
+코드 실행 후 `forEachRes`와 `mapRes`의 값은 무엇일까요?
 
 ```js
 const numbers = [1, 1, 1, 1, 1];
@@ -76,25 +76,25 @@ const mapRes = numbers.map(num => {
 
 #### --distractors--
 
-`forEachRes` is `undefined` and `mapRes` is `[1,2,3,4,5]`
+`forEachRes`는 `undefined`이고 `mapRes`는 `[1,2,3,4,5]`입니다.
 
 ---
 
-`forEachRes` is `0` and `mapRes` is `[1,2,3,4,5]`
+`forEachRes`는 `0`이고 `mapRes`는 `[1,2,3,4,5]`입니다.
 
 ---
 
-`forEachRes` is `5` and `mapRes` is `[1,2,3,4,5]`
+`forEachRes`는 `5`이고 `mapRes`는 `[1,2,3,4,5]`입니다.
 
 #### --answer--
 
-`forEachRes` is `undefined` and `mapRes` is `[6,7,8,9,10]`
+`forEachRes`는 `undefined`이고 `mapRes`는 `[6,7,8,9,10]`입니다.
 
 ### --question--
 
 #### --text--
 
-What is the result of this code?
+이 코드의 결과는 무엇인가요?
 
 ```js
 [, undefined, 'a', 'b', { 20: 5 }].sort();
@@ -102,11 +102,11 @@ What is the result of this code?
 
 #### --distractors--
 
-Unsupported elements for an array to be sorted, hence error.
+정렬할 수 없는 배열 요소가 있어 오류가 발생합니다.
 
 ---
 
-Callback not supplied, hence error.
+콜백이 제공되지 않아 오류가 발생합니다.
 
 ---
 
@@ -124,95 +124,95 @@ Callback not supplied, hence error.
 
 #### --text--
 
-Which of the following describes a callback function in JavaScript?
+JavaScript에서 콜백 함수를 설명하는 것은 무엇인가요?
 
 #### --distractors--
 
-A function that is called immediately upon declaration.
+선언 즉시 호출되는 함수입니다.
 
 ---
 
-A function that is invoked with a specific context.
+특정 컨텍스트에서 호출되는 함수입니다.
 
 ---
 
-A function that returns another function.
+다른 함수를 반환하는 함수입니다.
 
 #### --answer--
 
-A function passed as an argument to another function, to be executed by that function's logic.
+다른 함수에 인수로 전달되어 그 함수의 로직에 의해 실행되는 함수입니다.
 
 ### --question--
 
 #### --text--
 
-What is the result of using `reduce()` on an array?
+배열에 `reduce()`를 사용하면 결과는 무엇인가요?
 
 #### --distractors--
 
-A boolean indicating whether any elements meet a condition.
+조건을 만족하는 요소가 있는지 여부를 나타내는 불리언입니다.
 
 ---
 
-An array with all elements reduced by specified callback function.
+지정된 콜백 함수로 모든 요소를 축소한 배열입니다.
 
 ---
 
-An array of booleans.
+불리언 배열입니다.
 
 #### --answer--
 
-It varies depending on the accumulator's initial value and the callback function.
+누산기의 초기값과 콜백 함수에 따라 달라집니다.
 
 ### --question--
 
 #### --text--
 
-How does the `sort()` method behave if no compare function is provided in numerical sorting?
+숫자 정렬 시 비교 함수가 제공되지 않으면 `sort()` 메서드는 어떻게 동작하나요?
 
 #### --distractors--
 
-It fills the empty slots with `null`.
+빈 슬롯을 `null`로 채웁니다.
 
 ---
 
-It returns an array of special characters.
+특수 문자 배열을 반환합니다.
 
 ---
 
-It sorts the array in reverse order.
+배열을 역순으로 정렬합니다.
 
 #### --answer--
 
-It sorts the array as strings based on UTF-16 code units.
+UTF-16 코드 단위에 따라 문자열로 배열을 정렬합니다.
 
 ### --question--
 
 #### --text--
 
-What is the purpose of the `some()` method in JavaScript?
+JavaScript에서 `some()` 메서드의 목적은 무엇인가요?
 
 #### --distractors--
 
-To create a new array with the results of a function applied to each element.
+각 요소에 함수가 적용된 결과로 새 배열을 만듭니다.
 
 ---
 
-To iterate through an array without producing a result.
+결과를 생성하지 않고 배열을 순차적으로 반복합니다.
 
 ---
 
-To reduce an array to a single value based on a callback function.
+콜백 함수에 따라 배열을 단일 값으로 축소합니다.
 
 #### --answer--
 
-To determine if any elements in an array pass a specified test.
+배열의 어떤 요소가 지정된 테스트를 통과하는지 확인합니다.
 
 ### --question--
 
 #### --text--
 
-Which of the following is a valid example of method chaining?
+다음 중 메서드 체이닝의 유효한 예는 무엇인가요?
 
 #### --distractors--
 
@@ -242,7 +242,7 @@ str.toLowerCase().trim().replace(' ', '_');
 
 #### --text--
 
-What is the output of the following code?
+다음 코드의 출력 결과는 무엇인가요?
 
 ```js
 let numbers = [2, 4, 8, 10];
@@ -272,95 +272,95 @@ numbers.forEach(function(number) {
 
 #### --text--
 
-Which of the following is a benefit of method chaining?
+메서드 체이닝의 이점은 무엇인가요?
 
 #### --distractors--
 
-It inherently optimizes performance by reducing the execution time of functions.
+함수 실행 시간을 줄여 성능을 본질적으로 최적화합니다.
 
 ---
 
-It eliminates the need for temporary variables, but may increase memory usage in some cases.
+임시 변수를 없애지만 경우에 따라 메모리 사용량이 증가할 수 있습니다.
 
 ---
 
-It allows for error handling and debugging to be more straightforward.
+오류 처리와 디버깅이 더 간단해집니다.
 
 #### --answer--
 
-It promotes simplified syntax and more readable code by allowing multiple operations in a single expression.
+한 표현식에서 여러 작업을 가능하게 하여 구문을 단순화하고 코드를 더 읽기 쉽게 만듭니다.
 
 ### --question--
 
 #### --text--
 
-How can you sort an array of objects by a specific property using the `sort` method?
+`sort` 메서드를 사용해 특정 속성으로 객체 배열을 정렬하려면 어떻게 해야 하나요?
 
 #### --distractors--
 
-The `sort` method cannot sort objects.
+`sort` 메서드는 객체를 정렬할 수 없습니다.
 
 ---
 
-Use the `reverse` method after sorting.
+정렬 후 `reverse` 메서드를 사용하세요.
 
 ---
 
-Convert the objects to strings and sort them.
+객체를 문자열로 변환한 후 정렬하세요.
 
 #### --answer--
 
-Use a compare function that compares the property values.
+속성 값을 비교하는 비교 함수를 사용하세요.
 
 ### --question--
 
 #### --text--
 
-In method chaining, what is a common practice to enhance clarity and debugging?
+메서드 체이닝에서 명확성과 디버깅을 향상시키는 일반적인 방법은 무엇인가요?
 
 #### --distractors--
 
-Use fewer methods in the chain.
+체인에서 메서드 수를 줄이세요.
 
 ---
 
-Avoid chaining methods that return only primitive values.
+원시 값만 반환하는 메서드는 체이닝하지 마세요.
 
 ---
 
-Use only built-in methods.
+내장 메서드만 사용하세요.
 
 #### --answer--
 
-Break long chains into multiple steps.
+긴 체인을 여러 단계로 나누세요.
 
 ### --question--
 
 #### --text--
 
-What is a potential downside of using method chaining excessively in your code?
+코드에서 메서드 체이닝을 과도하게 사용하면 어떤 단점이 있나요?
 
 #### --distractors--
 
-It makes the code run slower.
+코드 실행 속도가 느려집니다.
 
 ---
 
-It prevents the use of comments.
+주석 사용이 불가능해집니다.
 
 ---
 
-It makes the file size larger.
+파일 크기가 커집니다.
 
 #### --answer--
 
-It can make the code harder to debug.
+코드 디버깅이 더 어려워질 수 있습니다.
 
 ### --question--
 
 #### --text--
 
-Which method would you use to determine if all elements in an array are strings?
+배열의 모든 요소가 문자열인지 확인하려면 어떤 메서드를 사용하나요?
 
 #### --distractors--
 
@@ -382,7 +382,7 @@ Which method would you use to determine if all elements in an array are strings?
 
 #### --text--
 
-What will be the value of `originalArray` after the following code is run?
+다음 코드를 실행한 후 `originalArray`의 값은 무엇인가요?
 
 ```js
 const originalArray = [{ id: 1 }, { id: 2 }, { id: 3 }];
@@ -405,11 +405,12 @@ filteredArray[0].id = 4;
 #### --answer--
 
 `[{ id: 1 }, { id: 4 }, { id: 3 }]`
+
 ### --question--
 
 #### --text--
 
-What will be the value of `shortWords` after the following code is run?
+다음 코드를 실행한 후 `shortWords`의 값은 무엇인가요?
 
 ```js
 const words = ['apple', 'banana', 'pear', 'kiwi'];
@@ -436,64 +437,64 @@ const shortWords = words.filter(word => word.length <= 5);
 
 #### --text--
 
-What is the purpose of providing an initial value as an argument to the `reduce()` method?
+`reduce()` 메서드에 초기값을 인수로 제공하는 목적은 무엇인가요?
 
 #### --distractors--
 
-To set the length of the array.
+배열 길이를 설정하기 위해서입니다.
 
 ---
 
-To limit the number of iterations.
+반복 횟수를 제한하기 위해서입니다.
 
 ---
 
-To specify the return type of the function.
+함수의 반환 타입을 지정하기 위해서입니다.
 
 #### --answer--
 
-To define the starting value for the accumulator.
+누산기의 시작 값을 정의하기 위해서입니다.
 
 ### --question--
 
 #### --text--
 
-Can the `map` method be used on objects that are not arrays?
+`map` 메서드는 배열이 아닌 객체에도 사용할 수 있나요?
 
 #### --distractors--
 
-Yes, it can be used on any object.
+네, 모든 객체에 사용할 수 있습니다.
 
 ---
 
-Yes, but only on objects with numeric properties.
+네, 숫자 속성이 있는 객체에만 사용할 수 있습니다.
 
 ---
 
-It depends on the JavaScript version.
+JavaScript 버전에 따라 다릅니다.
 
 #### --answer--
 
-No, it is specifically designed for arrays.
+아니요, 배열 전용으로 설계되었습니다.
 
 ### --question--
 
 #### --text--
 
-What is the primary purpose of the `map` method in JavaScript?
+JavaScript에서 `map` 메서드의 주요 목적은 무엇인가요?
 
 #### --distractors--
 
-To sort an array and return a new array while maintaining the original order.
+배열을 정렬하고 원본 순서를 유지하며 새 배열을 반환합니다.
 
 ---
 
-To filter elements from an array and remove or add elements based on a condition.
+조건에 따라 배열에서 요소를 필터링하거나 제거 및 추가합니다.
 
 ---
 
-To find a specific element in an array and return its index along with the element.
+특정 요소를 찾아 그 인덱스와 요소를 반환합니다.
 
 #### --answer--
 
-To create a new array containing the results of calling a provided function on each element in the starting array.
+시작 배열의 각 요소에 제공된 함수를 호출한 결과로 새 배열을 만듭니다.

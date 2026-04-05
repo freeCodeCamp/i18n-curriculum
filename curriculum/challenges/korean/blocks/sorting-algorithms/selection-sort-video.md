@@ -1,6 +1,6 @@
 ---
 id: 698de9f47932b3cc4b19c941
-title: Selection Sort
+title: 선택 정렬
 challengeType: 11
 videoId: 6kIttK2RzoU
 dashedName: selection-sort
@@ -8,29 +8,29 @@ dashedName: selection-sort
 
 # --description--
 
-In this video, you will learn about the selection sort algorithm.
+이 영상에서는 선택 정렬 알고리즘에 대해 배우세요.
 
 # --questions--
 
 ## --text--
 
-How does the selection sort algorithm work?
+선택 정렬 알고리즘은 어떻게 작동하나요?
 
 ## --answers--
 
-It repeatedly finds the smallest (or largest) element from the unsorted portion and moves it to the sorted portion.
+정렬되지 않은 부분에서 가장 작은(또는 가장 큰) 요소를 반복해서 찾아 정렬된 부분으로 옮깁니다.
 
 ---
 
-It repeatedly swaps adjacent elements until the entire list is sorted.
+인접한 요소들을 반복해서 교환하여 전체 리스트가 정렬될 때까지 진행합니다.
 
 ---
 
-It randomly shuffles the list until it becomes sorted.
+리스트를 무작위로 섞다가 정렬될 때까지 반복합니다.
 
 ---
 
-It divides the list into halves, sorts each half recursively, and merges them.
+리스트를 반으로 나누고, 각 반을 재귀적으로 정렬한 후 병합합니다.
 
 ## --video-solution--
 

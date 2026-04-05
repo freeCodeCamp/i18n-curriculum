@@ -1,6 +1,6 @@
 ---
 id: 69032acee355bfd2ac9aaa8b
-title: Task 13
+title: 작업 13
 challengeType: 24
 dashedName: task-13
 lang: zh-CN
@@ -8,23 +8,23 @@ lang: zh-CN
 
 # --description--
 
-## Tone Sandhi of `不 (bù)`
+## `不 (bù)`의 성조 변조
 
-`不 (bù)` means "no" or "not". When it is followed by a syllable which is in the first, second or the third tone, it remains in the fourth tone.
+`不 (bù)`은 "아니" 또는 "않다"를 의미합니다. 이것이 첫 번째, 두 번째 또는 세 번째 성조인 음절 뒤에 올 때는 네 번째 성조를 유지합니다.
 
-However, when `不 (bù)` is followed by a syllable which is in the fourth tone, it changes to the second tone.
+하지만 `不 (bù)`가 네 번째 성조인 음절 뒤에 올 때는 두 번째 성조로 변합니다.
 
-This tone change is a natural adjustment in speech to make pronunciation smoother.
+이 성조 변화는 발음을 더 부드럽게 하기 위한 자연스러운 조정입니다.
 
-### Examples
+### 예시
 
-| Written    | Pronounced as |
-| ---------- | ------------- |
-| `bù néng`  | `bù néng`     |
-| `bù xiǎng` | `bù xiǎng`    |
-| `bù shì`   | `bú shì`      |
-| `bù huì`   | `bú huì`      |
+| 쓰기    | 발음      |
+|------------|----------------|
+| `bù néng`   | `bù néng`      |
+| `bù xiǎng`   | `bù xiǎng`      |
+| `bù shì`    | `bú shì`       |
+| `bù huì`  | `bú huì`   |
 
 # --assignment--
 
-I've read this Pinyin rule.
+이 Pinyin 규칙을 읽었습니다.

@@ -1,13 +1,13 @@
 ---
 id: 66ed8fedf45ce3ece4053eb3
-title: CSS Grid Quiz
+title: CSS 그리드 퀴즈
 challengeType: 8
 dashedName: quiz-css-grid
 ---
 
 # --description--
 
-To pass the quiz, you must correctly answer at least 18 of the 20 questions below.
+퀴즈를 통과하려면 아래 20문제 중 최소 18문제를 올바르게 맞히세요.
 
 # --quizzes--
 
@@ -17,29 +17,29 @@ To pass the quiz, you must correctly answer at least 18 of the 20 questions belo
 
 #### --text--
 
-What is CSS Grid?
+CSS 그리드란 무엇인가요?
 
 #### --distractors--
 
-A method used for displaying tables on a website.
+웹사이트에서 표를 표시하는 데 사용되는 방법입니다.
 
 ---
 
-A method used for tiling images.
+이미지를 타일처럼 배열하는 방법입니다.
 
 ---
 
-A way to display outlines around HTML elements.
+HTML 요소 주위에 윤곽선을 표시하는 방법입니다.
 
 #### --answer--
 
-A two-dimensional layout for HTML documents.
+HTML 문서에 2차원 레이아웃을 제공하는 방법입니다.
 
 ### --question--
 
 #### --text--
 
-Which of the following is the correct way to create a grid container?
+그리드 컨테이너를 만드는 올바른 방법은 무엇인가요?
 
 #### --distractors--
 
@@ -61,73 +61,73 @@ Which of the following is the correct way to create a grid container?
 
 #### --text--
 
-What does the `grid-template-columns` property do?
+`grid-template-columns` 속성은 무엇을 하나요?
 
 #### --distractors--
 
-Defines two columns and three rows for a grid container.
+그리드 컨테이너에 두 개의 열과 세 개의 행을 정의합니다.
 
 ---
 
-Sets all columns for the grid layout to a fixed length.
+그리드 레이아웃의 모든 열을 고정 길이로 설정합니다.
 
 ---
 
-Creates a two column grid layout container.
+두 열로 된 그리드 레이아웃 컨테이너를 만듭니다.
 
 #### --answer--
 
-Defines the number of columns in a grid layout.
+그리드 레이아웃에서 열의 개수를 정의합니다.
 
 ### --question--
 
 #### --text--
 
-What does the `grid-template-rows` property do?
+`grid-template-rows` 속성은 무엇을 하나요?
 
 #### --distractors--
 
-Specifies a grid item's size and location in a grid layout.
+그리드 항목의 크기와 위치를 지정합니다.
 
 ---
 
-Creates a template for creating new grid rows.
+새로운 그리드 행을 만들기 위한 템플릿을 생성합니다.
 
 ---
 
-Specifies a default row size in the grid container.
+그리드 컨테이너에서 기본 행 크기를 지정합니다.
 
 #### --answer--
 
-Specifies the number and height for each row in a grid layout.
+그리드 레이아웃에서 각 행의 개수와 높이를 지정합니다.
 
 ### --question--
 
 #### --text--
 
-What does the `minmax()` function do?
+`minmax()` 함수는 무엇을 하나요?
 
 #### --distractors--
 
-Toggles between the first and second value, depending on available space.
+사용 가능한 공간에 따라 첫 번째 값과 두 번째 값 사이를 전환합니다.
 
 ---
 
-Returns the average of the two inputs.
+두 입력값의 평균을 반환합니다.
 
 ---
 
-Sets the minimal size of the element for browser working in full-screen mode.
+전체 화면 모드에서 브라우저가 요소의 최소 크기를 설정합니다.
 
 #### --answer--
 
-Sets the minimum and maximum sizes for a track.
+트랙의 최소 및 최대 크기를 설정합니다.
 
 ### --question--
 
 #### --text--
 
-What is the shorthand for the `column-gap` and `row-gap` properties?
+`column-gap`와 `row-gap` 속성의 축약형은 무엇인가요?
 
 #### --distractors--
 
@@ -149,29 +149,29 @@ What is the shorthand for the `column-gap` and `row-gap` properties?
 
 #### --text--
 
-What is the difference between an implicit and explicit grid?
+암시적 그리드와 명시적 그리드의 차이는 무엇인가요?
 
 #### --distractors--
 
-Implicit grids use the `grid-template-columns` property while explicit grids use the `grid-template-rows` property.
+암시적 그리드는 `grid-template-columns` 속성을 사용하고 명시적 그리드는 `grid-template-rows` 속성을 사용합니다.
 
 ---
 
-Explicit grids use the `grid-template-columns` property while implicit grids use the `grid-template-rows` property.
+명시적 그리드는 `grid-template-columns` 속성을 사용하고 암시적 그리드는 `grid-template-rows` 속성을 사용합니다.
 
 ---
 
-Implicit grids use the `grid-template-columns` or `grid-template-rows` properties to create columns while rows and columns are automatically created in explicit grids.
+암시적 그리드는 `grid-template-columns` 또는 `grid-template-rows` 속성으로 열을 만들고 명시적 그리드는 행과 열이 자동으로 생성됩니다.
 
 #### --answer--
 
-Explicit grids use the `grid-template-columns` or `grid-template-rows` properties to create columns while rows and columns are automatically created in implicit grids.
+명시적 그리드는 `grid-template-columns` 또는 `grid-template-rows` 속성으로 열을 만들고 암시적 그리드는 행과 열이 자동으로 생성됩니다.
 
 ### --question--
 
 #### --text--
 
-Which of the following units represents a fraction of the space within the grid container?
+그리드 컨테이너 내 공간의 분수를 나타내는 단위는 무엇인가요?
 
 #### --distractors--
 
@@ -193,51 +193,51 @@ Which of the following units represents a fraction of the space within the grid 
 
 #### --text--
 
-What are grid lines?
+그리드 선이란 무엇인가요?
 
 #### --distractors--
 
-Shorthand for rows and columns.
+행과 열의 축약형입니다.
 
 ---
 
-Outlines of a grid element.
+그리드 요소의 윤곽선입니다.
 
 ---
 
-Lines along which grid columns and rows are created.
+그리드 열과 행이 생성되는 선입니다.
 
 #### --answer--
 
-Lines on which each of the grid items begin and end.
+각 그리드 항목이 시작하고 끝나는 선입니다.
 
 ### --question--
 
 #### --text--
 
-What does the `grid-column` property do?
+`grid-column` 속성은 무엇을 하나요?
 
 #### --distractors--
 
-Adds a new grid element as a child of the element it's applied to.
+적용된 요소의 자식으로 새로운 그리드 요소를 추가합니다.
 
 ---
 
-Aligns text in the grid item vertically.
+그리드 항목 내 텍스트를 수직으로 정렬합니다.
 
 ---
 
-Sets two columns for a grid container.
+그리드 컨테이너에 두 개의 열을 설정합니다.
 
 #### --answer--
 
-Tells the grid item on which grid line it should start and end at.
+그리드 항목이 시작하고 끝날 그리드 선을 지정합니다.
 
 ### --question--
 
 #### --text--
 
-How do you create four columns of equal width?
+같은 너비의 네 개 열을 만드는 방법은 무엇인가요?
 
 #### --distractors--
 
@@ -259,51 +259,51 @@ How do you create four columns of equal width?
 
 #### --text--
 
-What does the `grid-template-areas` property do?
+`grid-template-areas` 속성은 무엇을 하나요?
 
 #### --distractors--
 
-It is used to specify where the item begins on a line in the grid container.
+그리드 컨테이너 내에서 항목이 시작하는 위치를 지정합니다.
 
 ---
 
-It is used to create gaps between tracks in the container.
+컨테이너 내 트랙 사이의 간격을 만듭니다.
 
 ---
 
-It is used to repeat sections in the track listing.
+트랙 목록에서 섹션을 반복하는 데 사용됩니다.
 
 #### --answer--
 
-It is used to provide a name for the items you are going to position on the grid.
+그리드에서 위치시킬 항목에 이름을 부여하는 데 사용됩니다.
 
 ### --question--
 
 #### --text--
 
-What does the `grid-auto-flow` property do?
+`grid-auto-flow` 속성은 무엇을 하나요?
 
 #### --distractors--
 
-Controls the order in which grid items are displayed.
+그리드 항목이 표시되는 순서를 제어합니다.
 
 ---
 
-Adjusts the spacing between the grid elements.
+그리드 요소 사이 간격을 조절합니다.
 
 ---
 
-Automatically adjusts the element to fit in the grid.
+요소가 그리드에 맞게 자동 조절됩니다.
 
 #### --answer--
 
-Controls how auto-placed elements get inserted to the grid.
+자동 배치된 요소가 그리드에 삽입되는 방식을 제어합니다.
 
 ### --question--
 
 #### --text--
 
-Which of the following is the correct way to use the `grid-template-areas` property?
+`grid-template-areas` 속성을 올바르게 사용하는 방법은 무엇인가요?
 
 #### --distractors--
 
@@ -368,7 +368,7 @@ Which of the following is the correct way to use the `grid-template-areas` prope
 
 #### --text--
 
-Which of the following is the correct way to work with the `grid-auto-flow` property?
+`grid-auto-flow` 속성을 올바르게 사용하는 방법은 무엇인가요?
 
 #### --distractors--
 
@@ -418,7 +418,7 @@ Which of the following is the correct way to work with the `grid-auto-flow` prop
 
 #### --text--
 
-Which of the following is NOT a valid grid property?
+다음 중 유효하지 않은 그리드 속성은 무엇인가요?
 
 #### --distractors--
 
@@ -440,7 +440,7 @@ Which of the following is NOT a valid grid property?
 
 #### --text--
 
-Which of these properties can be used to center items inside a grid element?
+그리드 요소 내부 항목을 가운데 정렬하는 데 사용할 수 있는 속성은 무엇인가요?
 
 #### --distractors--
 
@@ -462,7 +462,7 @@ Which of these properties can be used to center items inside a grid element?
 
 #### --text--
 
-Which of the following is a correct value to use with the `grid-auto-columns` property?
+`grid-auto-columns` 속성에 사용할 수 있는 올바른 값은 무엇인가요?
 
 #### --distractors--
 
@@ -484,29 +484,29 @@ Which of the following is a correct value to use with the `grid-auto-columns` pr
 
 #### --text--
 
-What are grid tracks?
+그리드 트랙이란 무엇인가요?
 
 #### --distractors--
 
-Shorthand for rows and columns.
+행과 열의 축약형입니다.
 
 ---
 
-Lines along which you can animate movement of the grid items.
+그리드 항목의 움직임을 애니메이션할 수 있는 선입니다.
 
 ---
 
-Lines on which each of the grid items begins and ends.
+각 그리드 항목이 시작하고 끝나는 선입니다.
 
 #### --answer--
 
-Spaces between two adjacent grid lines.
+인접한 두 그리드 선 사이의 공간입니다.
 
 ### --question--
 
 #### --text--
 
-Which of the following is the correct way to use the `minmax()` function?
+`minmax()` 함수를 올바르게 사용하는 방법은 무엇인가요?
 
 #### --distractors--
 
@@ -554,51 +554,51 @@ Which of the following is the correct way to use the `minmax()` function?
 
 #### --text--
 
-How do you position a grid item within a layout defined by `grid-template-areas`?
+`grid-template-areas`로 정의된 레이아웃 내에서 그리드 항목을 어떻게 위치시키나요?
 
 #### --distractors--
 
-By directly defining the item's size and location within the grid using `grid-template-rows` and `grid-template-columns`.
+`grid-template-rows`와 `grid-template-columns`을 사용해 항목의 크기와 위치를 직접 정의합니다.
 
 ---
 
-By using the `grid-area` property and specifying both row and column start and end positions.
+`grid-area` 속성을 사용해 행과 열의 시작과 끝 위치를 지정합니다.
 
 ---
 
-By setting both `grid-area` and explicit pixel coordinates.
+`grid-area`와 명시적 픽셀 좌표를 모두 설정합니다.
 
 #### --answer--
 
-By assigning the named area to the item's `grid-area` property.
+항목의 `grid-area` 속성에 명명된 영역을 할당합니다.
 
 ### --question--
 
 #### --text--
 
-What does the `grid-auto-rows` property control?
+`grid-auto-rows` 속성은 무엇을 제어하나요?
 
 #### --distractors--
 
-The height of explicitly defined rows.
+명시적으로 정의된 행의 높이입니다.
 
 ---
 
-The maximum width of grid columns.
+그리드 열의 최대 너비입니다.
 
 ---
 
-The spacing between rows.
+행 사이 간격입니다.
 
 #### --answer--
 
-The size of implicitly created rows.
+암시적으로 생성된 행의 크기입니다.
 
 ### --question--
 
 #### --text--
 
-Which property would you use to make a grid item span multiple rows?
+그리드 항목이 여러 행에 걸치도록 하려면 어떤 속성을 사용하나요?
 
 #### --distractors--
 
@@ -620,29 +620,29 @@ Which property would you use to make a grid item span multiple rows?
 
 #### --text--
 
-What defines an explicit grid?
+명시적 그리드를 정의하는 것은 무엇인가요?
 
 #### --distractors--
 
-Tracks created automatically to fit content.
+내용에 맞게 자동으로 생성된 트랙입니다.
 
 ---
 
-Tracks defined by the `fr` unit.
+`fr` 단위로 정의된 트랙입니다.
 
 ---
 
-Tracks added with `grid-auto-flow`.
+`grid-auto-flow`으로 추가된 트랙입니다.
 
 #### --answer--
 
-Tracks explicitly set by `grid-template-columns` or `grid-template-rows`.
+`grid-template-columns` 또는 `grid-template-rows`로 명시적으로 설정된 트랙입니다.
 
 ### --question--
 
 #### --text--
 
-Which value for `grid-auto-flow` would make new items fill columns first?
+`grid-auto-flow`에 어떤 값을 주면 새 항목이 열을 먼저 채우게 되나요?
 
 #### --distractors--
 
@@ -664,29 +664,29 @@ Which value for `grid-auto-flow` would make new items fill columns first?
 
 #### --text--
 
-What is the purpose of `grid-template-areas`?
+`grid-template-areas`의 목적은 무엇인가요?
 
 #### --distractors--
 
-To auto-generate implicit tracks.
+암시적 트랙을 자동 생성합니다.
 
 ---
 
-To replace the `fr` unit.
+`fr` 단위를 대체합니다.
 
 ---
 
-To set `z-index` values.
+`z-index` 값을 설정합니다.
 
 #### --answer--
 
-To visually map items to named grid areas.
+항목을 명명된 그리드 영역에 시각적으로 매핑합니다.
 
 ### --question--
 
 #### --text--
 
-How can you make a grid item start at column line 2 and end at column line 4?
+그리드 항목을 2열 선에서 시작해 4열 선에서 끝나도록 하려면 어떻게 하나요?
 
 #### --distractors--
 
@@ -708,29 +708,29 @@ How can you make a grid item start at column line 2 and end at column line 4?
 
 #### --text--
 
-What is the effect of `grid-template-columns: 1fr 2fr 1fr`?
+`grid-template-columns: 1fr 2fr 1fr`의 효과는 무엇인가요?
 
 #### --distractors--
 
-Creates three equal-width columns.
+세 개의 같은 너비 열을 만듭니다.
 
 ---
 
-Makes the middle column three times as wide as the others.
+가운데 열을 다른 열보다 세 배 넓게 만듭니다.
 
 ---
 
-Forces all columns to be exactly `1fr` wide.
+모든 열을 정확히 `1fr` 너비로 강제합니다.
 
 #### --answer--
 
-Creates three columns where the middle is twice as wide as the sides.
+가운데 열이 양쪽 열보다 두 배 넓은 세 개의 열을 만듭니다.
 
 ### --question--
 
 #### --text--
 
-How would you create a grid with 3 equal columns and a `20px` gap between them?
+3개의 같은 너비 열과 그 사이에 `20px` 간격을 가진 그리드를 만드는 방법은 무엇인가요?
 
 #### --distractors--
 
@@ -773,73 +773,73 @@ How would you create a grid with 3 equal columns and a `20px` gap between them?
 
 #### --text--
 
-What does `repeat(3, minmax(100px, 1fr))` create?
+`repeat(3, minmax(100px, 1fr))`은 무엇을 만드나요?
 
 #### --distractors--
 
-Three columns that can't shrink below `100px`.
+`100px` 이하로 줄어들 수 없는 세 개의 열입니다.
 
 ---
 
-Three fixed `100px` columns.
+고정된 `100px` 너비의 세 개 열입니다.
 
 ---
 
-Three rows with maximum height of `1fr`.
+최대 높이가 `1fr`인 세 개 행입니다.
 
 #### --answer--
 
-Three columns that grow proportionally but won't shrink below `100px`.
+비례적으로 커지지만 `100px` 이하로 줄어들지 않는 세 개 열입니다.
 
 ### --question--
 
 #### --text--
 
-Which statement about implicit grids is true?
+암시적 그리드에 관한 올바른 설명은 무엇인가요?
 
 #### --distractors--
 
-Implicit grids ignore the `gap` property.
+암시적 그리드는 `gap` 속성을 무시합니다.
 
 ---
 
-Implicit tracks must be defined with `grid-template-areas`.
+암시적 트랙은 `grid-template-areas`로 정의해야 합니다.
 
 ---
 
-Implicit tracks can only be created using the `grid-auto-flow` property.
+암시적 트랙은 `grid-auto-flow` 속성만으로 생성할 수 있습니다.
 
 #### --answer--
 
-Implicit tracks are created when content doesn't fit explicit tracks.
+내용이 명시적 트랙에 맞지 않을 때 암시적 트랙이 생성됩니다.
 
 ### --question--
 
 #### --text--
 
-What does the `place-items` property do in CSS Grid?
+CSS 그리드에서 `place-items` 속성은 무엇을 하나요?
 
 #### --distractors--
 
-It sets the size of grid items automatically based on available space.
+사용 가능한 공간에 따라 그리드 항목 크기를 자동으로 설정합니다.
 
 ---
 
-It controls the grid template's column and row definitions.
+그리드 템플릿의 열과 행 정의를 제어합니다.
 
 ---
 
-It adjusts the order of grid items within the container.
+컨테이너 내 그리드 항목의 순서를 조절합니다.
 
 #### --answer--
 
-It is a shorthand for aligning grid items in both the block and inline axes.
+그리드 항목을 블록 축과 인라인 축 모두에서 정렬하는 축약형입니다.
 
 ### --question--
 
 #### --text--
 
-What does this CSS accomplish?
+다음 CSS가 하는 일은 무엇인가요?
 
 ```css
 .container {
@@ -849,69 +849,69 @@ What does this CSS accomplish?
 
 #### --distractors--
 
-Creates fixed `150px` columns that overflow the container.
+컨테이너를 고정된 `150px` 너비 열로 만들고 오버플로우가 발생합니다.
 
 ---
 
-Creates columns that are exactly `1fr` wide regardless of content.
+내용과 상관없이 정확히 `1fr` 너비 열을 만듭니다.
 
 ---
 
-Creates a maximum of one column per `150px` of available width.
+사용 가능한 너비 `150px`당 최대 한 개 열을 만듭니다.
 
 #### --answer--
 
-Creates flexible columns that are at least `150px` and collapse when space is limited.
+최소 `150px` 너비를 가진 유연한 열을 만들고 공간이 부족하면 축소합니다.
 
 ### --question--
 
 #### --text--
 
-How can you create asymmetric grid layouts?
+비대칭 그리드 레이아웃을 만드는 방법은 무엇인가요?
 
 #### --distractors--
 
-By using only `fr` units.
+`fr` 단위만 사용합니다.
 
 ---
 
-By mixing different length units in `grid-template-columns`.
+`grid-template-columns`에서 서로 다른 길이 단위를 혼합합니다.
 
 ---
 
-By setting `grid-asymmetric: true`.
+`grid-asymmetric: true`을 설정합니다.
 
 #### --answer--
 
-By defining different sizes for each track.
+각 트랙에 대해 서로 다른 크기를 정의합니다.
 
 ### --question--
 
 #### --text--
 
-What does `grid-column-start: 2` do to a grid item?
+`grid-column-start: 2`이 그리드 항목에 하는 일은 무엇인가요?
 
 #### --distractors--
 
-Makes it span 2 columns.
+2열에 걸치게 만듭니다.
 
 ---
 
-Offsets it by 2 pixels.
+2픽셀만큼 오프셋합니다.
 
 ---
 
-Positions it starting at the second vertical grid line.
+두 번째 수직 그리드 선에서 시작하도록 위치시킵니다.
 
 #### --answer--
 
-Makes it start at the second column line.
+두 번째 열 선에서 시작하도록 만듭니다.
 
 ### --question--
 
 #### --text--
 
-Which property would you use to control overflow behavior in grid tracks?
+그리드 트랙에서 오버플로우 동작을 제어하려면 어떤 속성을 사용하나요?
 
 #### --distractors--
 
@@ -933,7 +933,7 @@ Which property would you use to control overflow behavior in grid tracks?
 
 #### --text--
 
-What will be the result for the following code?
+다음 코드를 실행하면 어떤 결과가 나오나요?
 
 ```css
 .container {
@@ -946,25 +946,25 @@ What will be the result for the following code?
 
 #### --distractors--
 
-The container will have three columns of equal width, and two rows with `150px` height each.
+컨테이너는 같은 너비의 세 열과 각각 `150px` 높이인 두 행을 가집니다.
 
 ---
 
-The container will have three columns, all with `100px` width, and two rows with `150px` height.
+컨테이너는 모두 `100px` 너비인 세 열과 각각 `150px` 높이인 두 행을 가집니다.
 
 ---
 
-The container will have two rows, each with a height of `1fr`.
+컨테이너는 각각 `1fr` 높이인 두 행을 가집니다.
 
 #### --answer--
 
-The container will have three columns: 100px, `1fr` and `2fr` wide and two rows: one auto and one with `150px` height.
+컨테이너는 100px, `1fr`, `2fr` 너비의 세 열과 auto와 `150px` 높이인 두 행을 가집니다.
 
 ### --question--
 
 #### --text--
 
-How would you make a grid item span all available rows?
+그리드 항목이 모든 행을 차지하도록 하려면 어떻게 하나요?
 
 #### --distractors--
 
@@ -986,7 +986,7 @@ How would you make a grid item span all available rows?
 
 #### --text--
 
-Which property controls the alignment of grid items along the block axis?
+그리드 항목의 블록 축 정렬을 제어하는 속성은 무엇인가요?
 
 #### --distractors--
 
@@ -1008,7 +1008,7 @@ Which property controls the alignment of grid items along the block axis?
 
 #### --text--
 
-How can you ensure a grid item stays in the first column regardless of grid changes?
+그리드가 변경되어도 그리드 항목이 첫 번째 열에 머무르게 하려면 어떻게 해야 하나요?
 
 #### --distractors--
 

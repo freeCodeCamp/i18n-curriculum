@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c443eddfaeb5bdee
-title: Build a Pinterest Clone
+title: 핀터레스트 클론 만들기
 challengeType: 4
 forumTopicId: 302352
 dashedName: build-a-pinterest-clone
@@ -8,27 +8,27 @@ dashedName: build-a-pinterest-clone
 
 # --description--
 
-**Objective:** Build an app that is functionally similar to this: <a href="https://build-a-pinterest-clone.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://build-a-pinterest-clone.freecodecamp.rocks/</a>.
+**목표:** 다음과 기능적으로 유사한 앱을 만드세요: <a href="https://build-a-pinterest-clone.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://build-a-pinterest-clone.freecodecamp.rocks/</a>.
 
-Fulfill the below user stories and get all of the tests to pass. Use whichever libraries or APIs you need. Give it your own personal style.
+아래 사용자 스토리를 모두 충족하고 모든 테스트를 통과하세요. 필요한 라이브러리나 API를 자유롭게 사용하세요. 자신만의 스타일을 더하세요.
 
-**User Story:** As an unauthenticated user, I can login with GitHub.
+**사용자 스토리:** 인증되지 않은 사용자로서 GitHub로 로그인할 수 있습니다.
 
-**User Story:** As an authenticated user, I can link to images.
+**사용자 스토리:** 인증된 사용자로서 이미지를 링크할 수 있습니다.
 
-**User Story:** As an authenticated user, I can delete images that I've linked to.
+**사용자 스토리:** 인증된 사용자로서 내가 링크한 이미지를 삭제할 수 있습니다.
 
-**User Story:** As an authenticated user, I can see a Pinterest-style wall of all the images I've linked to.
+**사용자 스토리:** 인증된 사용자로서 내가 링크한 모든 이미지가 핀터레스트 스타일의 벽에 표시되는 것을 볼 수 있습니다.
 
-**User Story:** As an unauthenticated user, I can browse other users' walls of images.
+**사용자 스토리:** 인증되지 않은 사용자로서 다른 사용자의 이미지 벽을 탐색할 수 있습니다.
 
-**User Story:** As an authenticated user, if I upload an image that is broken, it will be replaced by a placeholder image. (can use jQuery broken image detection)
+**사용자 스토리:** 인증된 사용자로서, 만약 업로드한 이미지가 깨져 있다면 자리 표시자 이미지로 교체됩니다. (jQuery 깨진 이미지 감지 기능 사용 가능)
 
-**Hint:** Masonry.js is a library that allows for Pinterest-style image grids.
+**힌트:** Masonry.js는 핀터레스트 스타일의 이미지 그리드를 만들 수 있는 라이브러리입니다.
 
-Once you've finished implementing these user stories, enter the URL to your live app and, optionally, your GitHub repository. Then click the "I've completed this challenge" button.
+이 사용자 스토리들을 구현한 후, 라이브 앱 URL과 선택적으로 GitHub 저장소 URL을 입력하세요. 그리고 "도전 과제 완료" 버튼을 클릭하세요.
 
-You can get feedback on your project by sharing it on the <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp forum</a>.
+프로젝트에 대한 피드백은 <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp 포럼</a>에서 받을 수 있습니다.
 
 # --solutions--
 

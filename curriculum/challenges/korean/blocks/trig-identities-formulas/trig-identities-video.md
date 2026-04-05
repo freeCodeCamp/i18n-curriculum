@@ -1,6 +1,6 @@
 ---
 id: 699e78258f18cf77dfce5c18
-title: Trig Identities
+title: 삼각함수 항등식
 challengeType: 11
 videoId: m4rl9OE5XTY
 dashedName: trig-identities
@@ -8,32 +8,30 @@ dashedName: trig-identities
 
 # --description--
 
-In this video, you will learn about trigonometric identities.
+이 영상에서는 삼각함수 항등식에 대해 배우세요.
 
 # --questions--
 
 ## --text--
 
-Why is the second equation in the first example called an identity?
+첫 번째 예제에서 두 번째 식이 항등식이라고 불리는 이유는 무엇인가요?
 
 ## --answers--
 
-Its tangent and cotangent functions are equal.
+탄젠트 함수와 코탄젠트 함수가 같기 때문입니다.
 
 ---
 
-Its cosine and secant functions are equal.
+코사인 함수와 시컨트 함수가 같기 때문입니다.
 
 ---
 
-It holds all values of the variable.
+변수의 모든 값을 만족하기 때문입니다.
 
 ---
 
-It holds none of the values of the variable.
+변수의 어떤 값도 만족하지 않기 때문입니다.
 
 ## --video-solution--
 
 3
-
-

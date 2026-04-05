@@ -1,19 +1,19 @@
 ---
 id: 6864ed58edec4b4aaeb571cc
-title: Step 17
+title: 17단계
 challengeType: 0
 dashedName: step-17
 ---
 
 # --description--
 
-Moving to the inner `div` in the **Listener plan**, give it the classes `grid`, `grid-rows-[auto_auto_auto_1fr]`, and `gap-y-2`.
+**Listener plan**의 내부 `div`로 이동하여 `grid`, `grid-rows-[auto_auto_auto_1fr]`, `gap-y-2` 클래스를 추가하세요.
 
-These classes will make the inner `div` a grid container, define four rows that stack on top of each other, with the first three set to `auto` and the last taking up the remaining spaces, and finally add a spacing of `0.5rem` between the rows.
+이 클래스들은 내부 `div`를 그리드 컨테이너로 만들고, 네 개의 행을 위에서 아래로 쌓이도록 정의합니다. 처음 세 행은 `auto`로 설정하고 마지막 행은 남은 공간을 차지하게 하며, 마지막으로 행 사이에 `0.5rem` 간격을 추가합니다.
 
 # --hints--
 
-Your inner `div` element should have the class `grid`.
+내부 `div` 요소에는 `grid` 클래스가 있어야 합니다.
 
 ```js
 const listenerPlanInnerDiv = document.querySelectorAll("div")[2]
@@ -21,7 +21,7 @@ const listenerPlanInnerDiv = document.querySelectorAll("div")[2]
 assert.isTrue(listenerPlanInnerDiv.classList.contains("grid"))
 ```
 
-Your inner `div` element should have the class `grid-rows-[auto_auto_auto_1fr]`.
+내부 `div` 요소에는 `grid-rows-[auto_auto_auto_1fr]` 클래스가 있어야 합니다.
 
 ```js
 const listenerPlanInnerDiv = document.querySelectorAll("div")[2]
@@ -29,7 +29,7 @@ const listenerPlanInnerDiv = document.querySelectorAll("div")[2]
 assert.isTrue(listenerPlanInnerDiv.classList.contains("grid-rows-[auto_auto_auto_1fr]"))
 ```
 
-Your inner `div` element should have the class `gap-y-2`.
+내부 `div` 요소에는 `gap-y-2` 클래스가 있어야 합니다.
 
 ```js
 const listenerPlanInnerDiv = document.querySelectorAll("div")[2]

@@ -1,35 +1,35 @@
 ---
 id: 612e8eebe3a6dc3fcc33a66f
-title: Step 11
+title: 11단계
 challengeType: 0
 dashedName: step-11
 ---
 
 # --description--
 
-Now target your `#piano` element with an `id` selector. Set `background-color` property to `#00471b`, the `width` property to `992px` and the `height` property to `290px`.
+이제 `#piano` 요소를 `id` 선택자로 지정하세요. `background-color` 속성을 `#00471b`로, `width` 속성을 `992px`로, `height` 속성을 `290px`로 설정하세요.
 
 # --hints--
 
-You should have a `#piano` selector.
+`#piano` 선택자가 있어야 합니다.
 
 ```js
 assert(new __helpers.CSSHelp(document).getStyle('#piano'));
 ```
 
-Your `#piano` selector should have the `background-color` property set to `#00471b`.
+`#piano` 선택자에 `background-color` 속성이 `#00471b`로 설정되어야 합니다.
 
 ```js
 assert(new __helpers.CSSHelp(document).getStyle('#piano')?.backgroundColor === 'rgb(0, 71, 27)');
 ```
 
-Your `#piano` selector should have a `width` property set to `992px`.
+`#piano` 선택자에 `width` 속성이 `992px`로 설정되어야 합니다.
 
 ```js
 assert(new __helpers.CSSHelp(document).getStyle('#piano')?.width === '992px');
 ```
 
-Your `#piano` selector should have the `height` set to `290px`.
+`#piano` 선택자에 `height`가 `290px`로 설정되어야 합니다.
 
 ```js
 assert(new __helpers.CSSHelp(document).getStyle('#piano')?.height === '290px');

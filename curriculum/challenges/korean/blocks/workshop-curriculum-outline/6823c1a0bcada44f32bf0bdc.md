@@ -1,35 +1,35 @@
 ---
 id: 6823c1a0bcada44f32bf0bdc
-title: Step 4
+title: 4단계
 challengeType: 0
 dashedName: step-4
 ---
 
 # --description--
 
-An `h1` element is the main heading of a webpage and you should only use one per page. `h2` elements represent subheadings. You can have multiple per page and they look like this:
+`h1` 요소는 웹페이지의 주요 제목이며, 한 페이지에 하나만 사용해야 합니다. `h2` 요소는 부제목을 나타냅니다. 한 페이지에 여러 개 있을 수 있으며 다음과 같이 생겼습니다:
 
 ```html
 <h2>This is a subheading.</h2>
 ```
 
-Turn the `Full-Stack Curriculum` text into an `h2` element by surrounding it with opening and closing `h2` tags.
+`Full-Stack Curriculum` 텍스트를 `h2` 요소로 바꾸려면, 여는 `h2` 태그와 닫는 `h2` 태그로 감싸세요.
 
 # --hints--
 
-Your `h2` element should have an opening `<h2>` tag.
+`h2` 요소는 여는 `<h2>` 태그가 있어야 합니다.
 
 ```js
 assert.exists(document.querySelector("h2"));
 ```
 
-Your `h2` element should have a closing `</h2>` tag.
+`h2` 요소는 닫는 `</h2>` 태그가 있어야 합니다.
 
 ```js
 assert.match(code, /<\/h2\s*\>/);
 ```
 
-Your `h2` element should look like this: `<h2>Full-Stack Curriculum</h2>`.
+`h2` 요소는 다음과 같아야 합니다: `<h2>Full-Stack Curriculum</h2>`.
 
 ```js
 // purposefully removing friction for early users to help improve retention in early lessons

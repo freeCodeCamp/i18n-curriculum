@@ -1,6 +1,6 @@
 ---
 id: 698dea447932b3cc4b19c94c
-title: Timing Our Search Scripts
+title: 검색 스크립트 시간 측정
 challengeType: 11
 videoId: F_YLFplzb94
 dashedName: timing-our-search-scripts
@@ -8,29 +8,29 @@ dashedName: timing-our-search-scripts
 
 # --description--
 
-In this video, you will see how the binary and linear search algorithms work with a list of names and how the results compare.
+이 영상에서는 이름 목록을 대상으로 이진 탐색과 선형 탐색 알고리즘이 어떻게 작동하는지, 그리고 결과가 어떻게 비교되는지 확인할 수 있습니다.
 
 # --questions--
 
 ## --text--
 
-What happened when the binary and linear search algorithm times were compared on a list of names?
+이진 탐색과 선형 탐색 알고리즘의 실행 시간을 이름 목록에서 비교했을 때 어떤 일이 일어났나요?
 
 ## --answers--
 
-Linear search took half as long to complete as binary search.
+선형 탐색이 이진 탐색보다 절반 정도 더 빨리 완료되었습니다.
 
 ---
 
-Binary search took half as long to complete as linear search.
+이진 탐색이 선형 탐색보다 절반 정도 더 빨리 완료되었습니다.
 
 ---
 
-Both algorithms took the same amount of time to complete.
+두 알고리즘 모두 같은 시간에 완료되었습니다.
 
 ---
 
-Both algorithms timed out and no results were displayed.
+두 알고리즘 모두 시간이 초과되어 결과가 표시되지 않았습니다.
 
 ## --video-solution--
 

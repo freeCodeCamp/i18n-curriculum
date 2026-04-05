@@ -1,13 +1,13 @@
 ---
 id: 66ed8ffcf45ce3ece4053eb5
-title: CSS Positioning Quiz
+title: CSS 위치 지정 퀴즈
 challengeType: 8
 dashedName: quiz-css-positioning
 ---
 
 # --description--
 
-To pass the quiz, you must correctly answer at least 18 of the 20 questions below.
+퀴즈를 통과하려면 아래 20문제 중 최소 18문제에 올바르게 답해야 합니다.
 
 # --quizzes--
 
@@ -17,7 +17,7 @@ To pass the quiz, you must correctly answer at least 18 of the 20 questions belo
 
 #### --text--
 
-Which of the following is NOT a valid value for the `position` property?
+다음 중 `position` 속성에 대해 유효하지 않은 값은 무엇인가요?
 
 #### --distractors--
 
@@ -39,29 +39,29 @@ Which of the following is NOT a valid value for the `position` property?
 
 #### --text--
 
-What is the main purpose of the `float` property in CSS?
+CSS에서 `float` 속성의 주요 목적은 무엇인가요?
 
 #### --distractors--
 
-Floats are used to remove an element from its normal flow on the page and automatically position it in the upper right hand side of the webpage.
+플로트는 요소를 페이지의 정상 흐름에서 제거하고 웹페이지 오른쪽 상단에 자동으로 위치시키는 데 사용됩니다.
 
 ---
 
-Floats are used to remove an element from its normal flow on the page and position it to the top of its container.
+플로트는 요소를 페이지의 정상 흐름에서 제거하고 컨테이너 상단에 위치시키는 데 사용됩니다.
 
 ---
 
-Floats are used to remove an element from its normal flow on the page and automatically position it to the bottom right hand side of webpage.
+플로트는 요소를 페이지의 정상 흐름에서 제거하고 웹페이지 오른쪽 하단에 자동으로 위치시키는 데 사용됩니다.
 
 #### --answer--
 
-Floats are used to remove an element from its normal flow on the page and position it either on the left or right side of its container.
+플로트는 요소를 페이지의 정상 흐름에서 제거하고 컨테이너의 왼쪽 또는 오른쪽에 위치시키는 데 사용됩니다.
 
 ### --question--
 
 #### --text--
 
-Which of the following is an example making a box element float to the left?
+박스 요소를 왼쪽으로 플로트하게 만드는 예시는 무엇인가요?
 
 #### --distractors--
 
@@ -115,29 +115,29 @@ Which of the following is an example making a box element float to the left?
 
 #### --text--
 
-What is the role of the `clear` property?
+`clear` 속성의 역할은 무엇인가요?
 
 #### --distractors--
 
-It is used to determine if an element needs to be moved to the bottom of the page.
+요소를 페이지 하단으로 이동해야 하는지 결정하는 데 사용됩니다.
 
 ---
 
-It is used to determine if an element needs to be completely cleared from the page.
+요소를 페이지에서 완전히 지워야 하는지 결정하는 데 사용됩니다.
 
 ---
 
-It is used to determine if an element needs to be fixed to the top of the page.
+요소를 페이지 상단에 고정해야 하는지 결정하는 데 사용됩니다.
 
 #### --answer--
 
-It is used to determine if an element needs to be moved below the floated content.
+플로트된 콘텐츠 아래로 요소를 이동해야 하는지 결정하는 데 사용됩니다.
 
 ### --question--
 
 #### --text--
 
-Which CSS property is used to control the vertical stacking order of positioned elements that overlap on the page?
+페이지에서 겹치는 위치 지정 요소의 수직 쌓임 순서를 제어하는 CSS 속성은 무엇인가요?
 
 #### --distractors--
 
@@ -159,7 +159,7 @@ Which CSS property is used to control the vertical stacking order of positioned 
 
 #### --text--
 
-Which of the following is the correct syntax for relative positioning?
+상대 위치 지정의 올바른 구문은 무엇인가요?
 
 #### --distractors--
 
@@ -205,7 +205,7 @@ Which of the following is the correct syntax for relative positioning?
 
 #### --text--
 
-Which CSS property would you use to fix an element at a certain position on the page so that it does not move when scrolling occurs?
+스크롤 시에도 요소가 움직이지 않고 페이지의 특정 위치에 고정되도록 하는 CSS 속성은 무엇인가요?
 
 #### --distractors--
 
@@ -227,29 +227,29 @@ Which CSS property would you use to fix an element at a certain position on the 
 
 #### --text--
 
-What does absolute positioning do to an element?
+절대 위치 지정이 요소에 하는 역할은 무엇인가요?
 
 #### --distractors--
 
-Absolute positioning is used to determine if an element needs to be moved below the floated content.
+절대 위치 지정은 요소를 플로트된 콘텐츠 아래로 이동해야 하는지 결정하는 데 사용됩니다.
 
 ---
 
-Absolute positioning is used to position the element within the normal document flow.
+절대 위치 지정은 요소를 정상 문서 흐름 내에 위치시키는 데 사용됩니다.
 
 ---
 
-Absolute positioning is used to control the vertical stacking order of positioned elements that overlap on the page.
+절대 위치 지정은 페이지에서 겹치는 위치 지정 요소의 수직 쌓임 순서를 제어하는 데 사용됩니다.
 
 #### --answer--
 
-Absolute positioning allows you to take an element out of the normal document flow, making it behave independently from other elements.
+절대 위치 지정은 요소를 정상 문서 흐름에서 분리하여 다른 요소와 독립적으로 동작하게 합니다.
 
 ### --question--
 
 #### --text--
 
-Which of the following is NOT a valid property that you can use for absolute positioning?
+절대 위치 지정에 사용할 수 없는 유효하지 않은 속성은 무엇인가요?
 
 #### --distractors--
 
@@ -271,29 +271,29 @@ Which of the following is NOT a valid property that you can use for absolute pos
 
 #### --text--
 
-What is the key difference between relative and absolute positioning?
+상대 위치 지정과 절대 위치 지정의 주요 차이점은 무엇인가요?
 
 #### --distractors--
 
-Absolute positioning sets the element in a sticky position while relative positioning takes an element out of the normal document flow.
+절대 위치 지정은 요소를 스티키 위치에 설정하고 상대 위치 지정은 요소를 정상 문서 흐름에서 분리합니다.
 
 ---
 
-Relative positioning sets the element in a fixed position while absolute positioning takes an element out of the normal document flow.
+상대 위치 지정은 요소를 고정 위치에 설정하고 절대 위치 지정은 요소를 정상 문서 흐름에서 분리합니다.
 
 ---
 
-Absolute positioning positions the element within the normal document flow while relative positioning takes an element out of the normal document flow.
+절대 위치 지정은 요소를 정상 문서 흐름 내에 위치시키고 상대 위치 지정은 요소를 정상 문서 흐름에서 분리합니다.
 
 #### --answer--
 
-Relative positioning positions the element within the normal document flow while absolute positioning takes an element out of the normal document flow.
+상대 위치 지정은 요소를 정상 문서 흐름 내에 위치시키고 절대 위치 지정은 요소를 정상 문서 흐름에서 분리합니다.
 
 ### --question--
 
 #### --text--
 
-Which of the following is an example of positioning a box in the upper left hand corner of the page?
+페이지 왼쪽 상단 모서리에 박스를 위치시키는 예시는 무엇인가요?
 
 #### --distractors--
 
@@ -351,29 +351,29 @@ Which of the following is an example of positioning a box in the upper left hand
 
 #### --text--
 
-Which positioning method allows an element to stick to a defined position only when you scroll past a certain point?
+어떤 위치 지정 방법이 특정 지점을 지나 스크롤할 때만 요소를 고정 위치에 붙게 하나요?
 
 #### --distractors--
 
-Float positioning.
+플로트 위치 지정.
 
 ---
 
-Fixed positioning.
+고정 위치 지정.
 
 ---
 
-Absolute positioning.
+절대 위치 지정.
 
 #### --answer--
 
-Sticky positioning.
+스티키 위치 지정.
 
 ### --question--
 
 #### --text--
 
-Which of the following is a correct example of using sticky positioning?
+스티키 위치 지정의 올바른 사용 예시는 무엇인가요?
 
 #### --distractors--
 
@@ -430,51 +430,51 @@ Which of the following is a correct example of using sticky positioning?
 
 #### --text--
 
-What is the difference between sticky and fixed positioning?
+스티키 위치 지정과 고정 위치 지정의 차이는 무엇인가요?
 
 #### --distractors--
 
-Sticky elements can only be used in table layouts while fixed elements can be used in any type of CSS layout.
+스티키 요소는 표 레이아웃에서만 사용 가능하고 고정 요소는 모든 CSS 레이아웃에서 사용 가능합니다.
 
 ---
 
-Sticky elements will always remain in the same position while fixed elements will stick to a certain point then behave like relative elements.
+스티키 요소는 항상 같은 위치에 머무르고 고정 요소는 특정 지점에 붙었다가 상대 요소처럼 동작합니다.
 
 ---
 
-Fixed elements will be positioned relative to its normal position while sticky elements will only stick to a certain point then behave like relative elements.
+고정 요소는 정상 위치를 기준으로 위치 지정되고 스티키 요소는 특정 지점에 붙었다가 상대 요소처럼 동작합니다.
 
 #### --answer--
 
-Fixed elements will remain in the same position on the screen while sticky elements will only stick to a certain point then behave like relative elements.
+고정 요소는 화면에서 항상 같은 위치에 머무르고 스티키 요소는 특정 지점에 붙었다가 상대 요소처럼 동작합니다.
 
 ### --question--
 
 #### --text--
 
-What problem did the `clearfix` hack solve when working with floats?
+`clearfix` 해킹이 플로트 작업 시 어떤 문제를 해결했나요?
 
 #### --distractors--
 
-The `clearfix` hack helped solve the issue of floated elements being removed from the normal document flow and being placed in a fixed position on the page.
+`clearfix` 해킹은 플로트된 요소가 정상 문서 흐름에서 제거되고 페이지에 고정 위치로 배치되는 문제를 해결했습니다.
 
 ---
 
-The `clearfix` hack helped solve the issue of floated elements not being responsive in mobile and tablet layouts.
+`clearfix` 해킹은 플로트된 요소가 모바일과 태블릿 레이아웃에서 반응형이 되지 않는 문제를 해결했습니다.
 
 ---
 
-The `clearfix` hack helped solve the issue of floated elements disappearing from the page.
+`clearfix` 해킹은 플로트된 요소가 페이지에서 사라지는 문제를 해결했습니다.
 
 #### --answer--
 
-The `clearfix` hack helped solve the issue of overlaps and collapsing in the layouts when multiple floated elements were stacked next to each other.
+`clearfix` 해킹은 여러 플로트된 요소가 나란히 쌓일 때 레이아웃에서 겹침과 붕괴 문제를 해결했습니다.
 
 ### --question--
 
 #### --text--
 
-Which of the following is a correct example for using the `clearfix` hack?
+`clearfix` 해킹을 사용하는 올바른 예시는 무엇인가요?
 
 #### --distractors--
 
@@ -521,29 +521,29 @@ Which of the following is a correct example for using the `clearfix` hack?
 
 #### --text--
 
-What is static positioning?
+정적 위치 지정이란 무엇인가요?
 
 #### --distractors--
 
-This is used to remove an element from its normal flow on the page and automatically position it in the upper right hand side of the webpage.
+요소를 페이지의 정상 흐름에서 제거하고 웹페이지 오른쪽 상단에 자동으로 위치시키는 데 사용됩니다.
 
 ---
 
-This allows you to take an element out of the normal document flow, making it behave independently from other elements.
+요소를 정상 문서 흐름에서 분리하여 다른 요소와 독립적으로 동작하게 합니다.
 
 ---
 
-This allows an element to stick to a defined position only when you scroll past a certain point.
+특정 지점을 지나 스크롤할 때만 요소를 고정 위치에 붙게 합니다.
 
 #### --answer--
 
-This is the normal flow for the document. Elements are positioned from top to bottom and left to right one after another.
+문서의 정상 흐름입니다. 요소는 위에서 아래, 왼쪽에서 오른쪽으로 차례대로 위치합니다.
 
 ### --question--
 
 #### --text--
 
-Which of the following is an example of setting the navbar to the top of the page using fixed positioning?
+고정 위치 지정을 사용해 내비게이션 바를 페이지 상단에 설정하는 예시는 무엇인가요?
 
 #### --distractors--
 
@@ -588,7 +588,7 @@ Which of the following is an example of setting the navbar to the top of the pag
 
 #### --text--
 
-Which of the following is a valid value to use for the `z-index` property?
+`z-index` 속성에 사용할 수 있는 유효한 값은 무엇인가요?
 
 #### --distractors--
 
@@ -610,7 +610,7 @@ Which of the following is a valid value to use for the `z-index` property?
 
 #### --text--
 
-Which of the following is the default value of the `position` property?
+`position` 속성의 기본값은 무엇인가요?
 
 #### --distractors--
 
@@ -634,7 +634,7 @@ Which of the following is the default value of the `position` property?
 
 #### --text--
 
-Which `position` value lets you adjust an element's position with `top` and `left` while keeping it within the normal document flow?
+`position` 값은 `top`와 `left`으로 요소 위치를 조정하면서도 정상 문서 흐름 내에 유지하게 해줍니다. 이 값은 무엇인가요?
 
 #### --distractors--
 
@@ -656,29 +656,29 @@ Which `position` value lets you adjust an element's position with `top` and `lef
 
 #### --text--
 
-How does an element with `position: sticky;` initially behave?
+`position: sticky;` 값을 가진 요소는 처음에 어떻게 동작하나요?
 
 #### --distractors--
 
-It behaves like a `fixed` element until a scroll position is reached.
+스크롤 위치에 도달할 때까지 `fixed` 요소처럼 동작합니다.
 
 ---
 
-It is always removed from the normal document flow.
+항상 정상 문서 흐름에서 제거됩니다.
 
 ---
 
-It behaves like an `absolute` element within its parent.
+부모 내에서 `absolute` 요소처럼 동작합니다.
 
 #### --answer--
 
-It behaves like a `relative` element until a specified scroll position is met.
+지정된 스크롤 위치에 도달할 때까지 `relative` 요소처럼 동작합니다.
 
 ### --question--
 
 #### --text--
 
-Which of the following demonstrates a valid and effective use of the `z-index` property to make `.box-two` appear on top of `.box-one`?
+`z-index` 속성을 사용해 `.box-two`이 `.box-one` 위에 나타나도록 하는 올바르고 효과적인 예시는 무엇인가요?
 
 #### --distractors--
 
@@ -736,51 +736,51 @@ Which of the following demonstrates a valid and effective use of the `z-index` p
 
 #### --text--
 
-What is the `z-index` property used for in CSS?
+CSS에서 `z-index` 속성은 무엇을 위해 사용되나요?
 
 #### --distractors--
 
-It sets the zoom level of the page.
+페이지의 줌 레벨을 설정합니다.
 
 ---
 
-It controls the horizontal alignment of elements within a flex container.
+플렉스 컨테이너 내 요소의 수평 정렬을 제어합니다.
 
 ---
 
-It defines the spacing between an element's content and its border.
+요소의 콘텐츠와 테두리 사이 간격을 정의합니다.
 
 #### --answer--
 
-It controls the vertical stacking order of positioned elements that overlap.
+겹치는 위치 지정 요소의 수직 쌓임 순서를 제어합니다.
 
 ### --question--
 
 #### --text--
 
-When you apply `top: 10%;` to an element with `position: fixed;`, what is the `10%` calculated in relation to?
+`top: 10%;`을 `position: fixed;`이 적용된 요소에 적용하면 `10%`는 무엇을 기준으로 계산되나요?
 
 #### --distractors--
 
-The height of the element itself.
+요소 자체의 높이.
 
 ---
 
-The height of its parent container.
+부모 컨테이너의 높이.
 
 ---
 
-The width of the viewport.
+뷰포트의 너비.
 
 #### --answer--
 
-The height of the viewport.
+뷰포트의 높이.
 
 ### --question--
 
 #### --text--
 
-Which of the code examples is a correct use of the `z-index` property to place an overlay above other content?
+다른 콘텐츠 위에 오버레이를 배치하기 위해 `z-index` 속성을 올바르게 사용한 코드 예시는 무엇인가요?
 
 #### --distractors--
 
@@ -825,7 +825,7 @@ Which of the code examples is a correct use of the `z-index` property to place a
 
 #### --text--
 
-Which CSS property is used to control whether an element should be moved below floated elements?
+플로트된 요소 아래로 이동해야 하는지 제어하는 CSS 속성은 무엇인가요?
 
 #### --distractors--
 
@@ -847,73 +847,73 @@ Which CSS property is used to control whether an element should be moved below f
 
 #### --text--
 
-How will an element with `position: relative;` and `bottom: 25px;` be moved?
+`position: relative;`와 `bottom: 25px;`가 적용된 요소는 어떻게 이동하나요?
 
 #### --distractors--
 
-It will move 25px down from its normal position.
+정상 위치에서 25px 아래로 이동합니다.
 
 ---
 
-It will move 25px to the right of its normal position.
+정상 위치에서 25px 오른쪽으로 이동합니다.
 
 ---
 
-It will be positioned 25px from the bottom of the viewport.
+뷰포트 하단에서 25px 위치합니다.
 
 #### --answer--
 
-It will move 25px up from its normal position.
+정상 위치에서 25px 위로 이동합니다.
 
 ### --question--
 
 #### --text--
 
-The `z-index` property will only affect elements that have what CSS property applied?
+`z-index` 속성은 어떤 CSS 속성이 적용된 요소에만 영향을 미치나요?
 
 #### --distractors--
 
-A `float` value other than `none`.
+`float` 값이 `none`가 아닌 경우.
 
 ---
 
-A `display` value of `inline-block`.
+`display` 값이 `inline-block`인 경우.
 
 ---
 
-A `background-color` set.
+`background-color`가 설정된 경우.
 
 #### --answer--
 
-A `position` value other than `static`.
+`position` 값이 `static`가 아닌 경우.
 
 ### --question--
 
 #### --text--
 
-What would be the effect of applying `float: right;` to a logo in a header?
+헤더의 로고에 `float: right;`를 적용하면 어떤 효과가 있나요?
 
 #### --distractors--
 
-The logo would be aligned to the right, but would remain in the normal document flow, preventing other content from wrapping.
+로고가 오른쪽으로 정렬되지만 정상 문서 흐름에 남아 다른 콘텐츠가 감싸지지 않습니다.
 
 ---
 
-The logo would be taken out of the flow and positioned on the right side of the entire browser viewport, not its container.
+로고가 흐름에서 분리되어 컨테이너가 아닌 전체 브라우저 뷰포트 오른쪽에 위치합니다.
 
 ---
 
-The logo would become a block-level element that takes up the full width of the header, pushing other elements below it.
+로고가 블록 요소가 되어 헤더 전체 너비를 차지하며 다른 요소를 아래로 밀어냅니다.
 
 #### --answer--
 
-The logo would be removed from its normal flow and placed on the right side of its container, with other content wrapping around it.
+로고가 정상 흐름에서 분리되어 컨테이너 오른쪽에 위치하며 다른 콘텐츠가 감싸게 됩니다.
 
 ### --question--
 
 #### --text--
 
-Which CSS snippet will keep an element fixed to the top of the viewport once it is scrolled to?
+스크롤 시 뷰포트 상단에 요소를 고정하는 올바른 CSS 코드는 무엇인가요?
 
 #### --distractors--
 
@@ -955,29 +955,29 @@ Which CSS snippet will keep an element fixed to the top of the viewport once it 
 
 #### --text--
 
-What is the specific purpose of `clear: both;` in CSS?
+CSS에서 `clear: both;`의 구체적인 목적은 무엇인가요?
 
 #### --distractors--
 
-It cancels out the `float` property on the element itself, returning it to the normal document flow.
+요소 자체에 적용된 `float` 속성을 취소하여 정상 문서 흐름으로 되돌립니다.
 
 ---
 
-It removes any `clear` properties that were inherited from a parent element, restoring the default floating behavior.
+부모 요소에서 상속된 `clear` 속성을 제거하여 기본 플로트 동작을 복원합니다.
 
 ---
 
-It only clears floated elements that are on the right side, allowing left-floated elements to remain as they are.
+오른쪽에 플로트된 요소만 지우고 왼쪽 플로트 요소는 그대로 둡니다.
 
 #### --answer--
 
-It ensures the element is moved below any floated elements that appear before it on both the left and right sides.
+왼쪽과 오른쪽에 나타나는 모든 플로트된 요소 아래로 요소가 이동하도록 보장합니다.
 
 ### --question--
 
 #### --text--
 
-Given the following code, how will `.child` be positioned?
+다음 코드를 기준으로 `.child`는 어떻게 위치 지정되나요?
 
 ```css
 .parent {
@@ -992,25 +992,25 @@ Given the following code, how will `.child` be positioned?
 
 #### --distractors--
 
-It will be positioned 10px from the top of the `.parent` element, as `absolute` positioning is always relative to the direct parent.
+부모가 위치 지정되지 않았으므로 `.parent` 위치 지정은 항상 직접 부모를 기준으로 하여 `absolute` 요소 상단에서 10px 떨어진 위치에 배치됩니다.
 
 ---
 
-It will remain in its default static position because the `absolute` value is invalid without a `z-index` property.
+`absolute` 값이 `z-index` 속성 없이 유효하지 않아 기본 정적 위치에 남습니다.
 
 ---
 
-It will be positioned 10px from the top of the browser window, remaining fixed in place even when the user scrolls the page.
+브라우저 창 상단에서 10px 떨어진 위치에 고정되어 스크롤해도 움직이지 않습니다.
 
 #### --answer--
 
-It will be positioned 10px from the top of the initial containing block, such as the `<body>`, because its parent is not positioned.
+부모가 위치 지정되지 않아 초기 컨테이너 블록(예: `<body>`) 상단에서 10px 떨어진 위치에 배치됩니다.
 
 ### --question--
 
 #### --text--
 
-What effect will the following CSS have on the `.box` element?
+다음 CSS가 `.box` 요소에 미치는 영향은 무엇인가요?
 
 ```css
 .box {
@@ -1022,25 +1022,25 @@ What effect will the following CSS have on the `.box` element?
 
 #### --distractors--
 
-The element will remain in its normal flow but will be indented by 50px from the top and left, pushing other elements away.
+요소는 정상 흐름에 남아 있지만 위와 왼쪽에서 50px 들여쓰기 되어 다른 요소를 밀어냅니다.
 
 ---
 
-The element will be fixed to the viewport and will stay 50px from the top and 50px from the left, even when the page is scrolled.
+요소는 뷰포트에 고정되어 페이지 스크롤 시에도 위와 왼쪽에서 50px 떨어진 위치에 머뭅니다.
 
 ---
 
-The element will be positioned relative to its own starting point, moving 50px down and 50px to the right without leaving the document flow.
+요소는 자신의 시작점을 기준으로 상대 위치 지정되어 문서 흐름을 벗어나지 않고 아래로 50px, 오른쪽으로 50px 이동합니다.
 
 #### --answer--
 
-The element will be taken out of the normal flow and placed 50px from the top and 50px from the left of its nearest positioned ancestor.
+요소가 정상 흐름에서 분리되어 가장 가까운 위치 지정 조상 요소의 위와 왼쪽에서 50px 떨어진 위치에 배치됩니다.
 
 ### --question--
 
 #### --text--
 
-Which of the following `position` values removes an element entirely from the document's normal flow?
+다음 중 요소를 문서의 정상 흐름에서 완전히 제거하는 `position` 값은 무엇인가요?
 
 #### --distractors--
 
@@ -1062,7 +1062,7 @@ Which of the following `position` values removes an element entirely from the do
 
 #### --text--
 
-Given a `.parent` and a `.child` element, which CSS snippet will correctly position the `.child` 20px from the top left corner of the `.parent` element?
+`.parent`와 `.child` 요소가 있을 때, `.child`을 `.parent` 요소의 왼쪽 상단에서 20px 떨어진 위치에 올바르게 배치하는 CSS 코드는 무엇인가요?
 
 #### --distractors--
 
@@ -1120,29 +1120,29 @@ Given a `.parent` and a `.child` element, which CSS snippet will correctly posit
 
 #### --text--
 
-What is the difference between `static` and `relative` positioning?
+`static`와 `relative` 위치 지정의 차이는 무엇인가요?
 
 #### --distractors--
 
-`static` positioning removes an element from the document flow, while `relative` positioning keeps it in the flow.
+`static` 위치 지정은 요소를 문서 흐름에서 제거하지만 `relative` 위치 지정은 흐름 내에 유지합니다.
 
 ---
 
-An element with `position: static;` can be offset with the `top` and `left` properties, while `position: relative;` cannot.
+`position: static;` 요소는 `top`와 `left` 속성으로 오프셋할 수 있지만 `position: relative;`는 할 수 없습니다.
 
 ---
 
-`static` positioning is for block-level elements, while `relative` positioning is only intended for inline elements.
+`static` 위치 지정은 블록 요소용이고 `relative` 위치 지정은 인라인 요소 전용입니다.
 
 #### --answer--
 
-Both keep an element in the normal document flow, but `relative` allows the element to be offset from its original position.
+두 위치 지정 모두 요소를 정상 문서 흐름에 유지하지만 `relative`는 요소를 원래 위치에서 오프셋할 수 있습니다.
 
 ### --question--
 
 #### --text--
 
-Which CSS snippet correctly floats an image to the left, allowing other content to wrap around it?
+이미지를 왼쪽으로 플로트하고 다른 콘텐츠가 감싸도록 하는 올바른 CSS 코드는 무엇인가요?
 
 #### --distractors--
 
@@ -1181,29 +1181,29 @@ Which CSS snippet correctly floats an image to the left, allowing other content 
 
 #### --text--
 
-What is the difference between `absolute` and `fixed` positioning?
+`absolute`와 `fixed` 위치 지정의 차이는 무엇인가요?
 
 #### --distractors--
 
-`absolute` positioning is relative to the viewport, while `fixed` positioning is relative to the nearest positioned ancestor.
+`absolute` 위치 지정은 뷰포트를 기준으로 하고 `fixed` 위치 지정은 가장 가까운 위치 지정 조상을 기준으로 합니다.
 
 ---
 
-`absolute` positioning keeps the element in the normal document flow, while `fixed` positioning removes it from the flow.
+`absolute` 위치 지정은 요소를 정상 문서 흐름에 유지하고 `fixed` 위치 지정은 흐름에서 제거합니다.
 
 ---
 
-Both are positioned relative to the viewport, but `fixed` elements will scroll with the page while `absolute` elements will not.
+두 위치 지정 모두 뷰포트를 기준으로 하지만 `fixed` 요소는 페이지와 함께 스크롤되고 `absolute` 요소는 스크롤되지 않습니다.
 
 #### --answer--
 
-`absolute` positioning is relative to the nearest positioned ancestor, while `fixed` positioning is relative to the browser viewport.
+`absolute` 위치 지정은 가장 가까운 위치 지정 조상을 기준으로 하고 `fixed` 위치 지정은 브라우저 뷰포트를 기준으로 합니다.
 
 ### --question--
 
 #### --text--
 
-Which `position` value places an element in the normal document flow and prevents offset properties like `top` and `left` from having any effect?
+`position` 값은 요소를 정상 문서 흐름에 두고 `top`와 `left` 같은 오프셋 속성의 영향을 받지 않게 합니다. 이 값은 무엇인가요?
 
 #### --distractors--
 
@@ -1220,4 +1220,3 @@ Which `position` value places an element in the normal document flow and prevent
 #### --answer--
 
 `position: static;`
-

@@ -1,17 +1,17 @@
 ---
 id: 685118ddcad14fa5d62faaef
-title: Step 33
+title: 33단계
 challengeType: 20
 dashedName: step-33
 ---
 
 # --description--
 
-Now add a key `diagnosis` to the `constraints` dictionary. For its value, write an expression that checks that `diagnosis` is either an instance of `str` or is `None`.
+이제 `diagnosis` 딕셔너리에 `constraints` 키를 추가하세요. 그 값으로 `diagnosis`가 `str`의 인스턴스이거나 `None`인지 확인하는 표현식을 작성하세요.
 
 # --hints--
 
-Your `constraints` dictionary should have a key `diagnosis`.
+`constraints` 딕셔너리에 `diagnosis` 키가 있어야 합니다.
 
 ```js
 ({ test: () => assert(runPython(`
@@ -21,7 +21,7 @@ _keys = [k.value for k in _ast_keys]
 `)) })
 ```
 
-The `diagnosis` key of your `constraints` dictionary should have the value of `isinstance(diagnosis, str) or diagnosis is None`.
+`diagnosis` 딕셔너리의 `constraints` 키는 `isinstance(diagnosis, str) or diagnosis is None` 값을 가져야 합니다.
 
 ```js
 ({ test: () => assert(runPython(`
@@ -83,7 +83,7 @@ def find_invalid_records(
         'age': isinstance(age, int) and age >= 18,
 --fcc-editable-region--
         'gender': isinstance(gender, str) and gender.lower() in ('male', 'female')
-
+        
 --fcc-editable-region--
     }
     return constraints
@@ -94,7 +94,7 @@ def validate(data):
     if not is_sequence:
         print('Invalid format: expected a list or tuple.')
         return False
-
+        
     is_invalid = False
     key_set = set(
         ['patient_id', 'age', 'gender', 'diagnosis', 'medications', 'last_visit_id']

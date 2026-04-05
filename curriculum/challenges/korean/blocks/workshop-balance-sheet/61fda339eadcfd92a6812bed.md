@@ -1,21 +1,21 @@
 ---
 id: 61fda339eadcfd92a6812bed
-title: Step 30
+title: 30단계
 challengeType: 0
 dashedName: step-30
 ---
 
 # --description--
 
-Before you get too far into your styling, you should make use of the `sr-only` class. You can use CSS to make elements with this class completely hidden from the visual page, but still be announced by screen readers.
+스타일링을 너무 많이 진행하기 전에 `sr-only` 클래스를 사용하세요. 이 클래스를 가진 요소를 CSS로 시각적으로 완전히 숨기면서도 화면 읽기 프로그램이 읽을 수 있게 만들 수 있습니다.
 
-The CSS you are about to write is a common set of properties used to ensure elements are completely hidden visually.
+작성할 CSS는 요소를 시각적으로 완전히 숨기기 위해 자주 사용하는 속성 집합입니다.
 
-The `span[class~="sr-only"]` selector will select any `span` element whose `class` _includes_ `sr-only`. Create that selector, and give it a `border` property set to `0`.
+`span[class~="sr-only"]` 선택자는 `span`가 `class`를 _포함하는_ 모든 `sr-only` 요소를 선택합니다. 그 선택자를 만들고 `border` 속성을 `0`으로 설정하세요.
 
 # --hints--
 
-You should have an `span[class~="sr-only"]` selector.
+`span[class~="sr-only"]` 선택자가 있어야 합니다.
 
 ```js
 assert.isNotNull(
@@ -23,7 +23,7 @@ assert.isNotNull(
 );
 ```
 
-Your `span[class~="sr-only"]` selector should have a `border` property set to `0`.
+`span[class~="sr-only"]` 선택자에 `border` 속성을 `0`으로 설정해야 합니다.
 
 ```js
 assert.strictEqual(

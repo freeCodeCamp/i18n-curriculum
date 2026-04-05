@@ -1,6 +1,6 @@
 ---
 id: 699e69db8f18cf77dfce5c12
-title: Graphs of Sinusoidal Functions
+title: 사인 함수 그래프
 challengeType: 11
 videoId: Jif_m8LkyMA
 dashedName: graphs-of-sinusoidal-functions
@@ -8,32 +8,30 @@ dashedName: graphs-of-sinusoidal-functions
 
 # --description--
 
-In this video, you will learn about the graphs of sinusoidal functions.
+이 영상에서는 사인 함수 그래프에 대해 배우세요.
 
 # --questions--
 
 ## --text--
 
-What are sinusoidal functions related to?
+사인 함수는 무엇과 관련이 있나요?
 
 ## --answers--
 
-They are related to tangent and cotangent.
+탄젠트와 코탄젠트와 관련이 있습니다.
 
 ---
 
-They are related to secant and cosecant.
+시컨트와 코시컨트와 관련이 있습니다.
 
 ---
 
-They are related to tangent and secant.
+탄젠트와 시컨트와 관련이 있습니다.
 
 ---
 
-They are related to sine and cosine.
+사인과 코사인과 관련이 있습니다.
 
 ## --video-solution--
 
 4
-
-

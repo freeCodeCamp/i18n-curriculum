@@ -1,21 +1,21 @@
 ---
 id: 672bbe9171a5cca90f2edeea
-title: What Are Examples of Element User Action Pseudo-classes?
+title: 요소 사용자 동작 가상 클래스의 예시는 무엇인가요?
 challengeType: 19
 dashedName: what-are-examples-of-element-user-action-pseudo-classes
 ---
 
 # --interactive--
 
-User feedback is a crucial element of web design. For instance, it's important for users to receive visual cues when they interact with elements on a website, such as hovering over a button or clicking a link. This feedback helps users understand the state of interactive elements, like indicating whether a link has been visited or not.
+사용자 피드백은 웹 디자인에서 매우 중요한 요소입니다. 예를 들어, 사용자가 버튼 위에 마우스를 올리거나 링크를 클릭할 때 시각적 신호를 받는 것이 중요합니다. 이러한 피드백은 사용자가 상호작용하는 요소의 상태를 이해하는 데 도움을 줍니다. 예를 들어, 링크가 방문되었는지 여부를 나타내는 것처럼요.
 
-User action pseudo-classes in CSS are special keywords that allow you to provide this kind of feedback without needing JavaScript or other programming languages.
+CSS의 사용자 동작 가상 클래스는 JavaScript나 다른 프로그래밍 언어 없이도 이런 종류의 피드백을 제공할 수 있게 해주는 특별한 키워드입니다.
 
-These pseudo-classes include `:hover`, `:active`, `:focus`, and `:visited`, among others. They enable you to change the appearance of elements based on user interactions, improving the overall user experience.
+이 가상 클래스에는 `:hover`, `:active`, `:focus`, `:visited` 등이 포함됩니다. 이들은 사용자 상호작용에 따라 요소의 모양을 변경할 수 있게 하여 전체적인 사용자 경험을 향상시킵니다.
 
-Let's dive into some of the user action pseudo-classes we have and see how they work.
+이제 우리가 가진 사용자 동작 가상 클래스 몇 가지를 살펴보고 어떻게 작동하는지 알아봅시다.
 
-The `:active` pseudo-class applies styles when an element is activated by the user. For example, when the user clicks a button or a link, it provides immediate visual feedback, showing users that their actions are being recognized.
+`:active` 가상 클래스는 사용자가 요소를 활성화할 때 스타일을 적용합니다. 예를 들어, 사용자가 버튼이나 링크를 클릭할 때 즉각적인 시각적 피드백을 제공하여 사용자의 동작이 인식되고 있음을 보여줍니다.
 
 :::interactive_editor
 
@@ -32,7 +32,7 @@ a:active {
 
 :::
 
-The `:hover` pseudo-class is triggered when a user hovers over an element with their mouse or other pointing device. Developers often use it to create visual feedback for buttons, links, or any element that should respond to user attention. Here's a button a user would hover over before clicking:
+`:hover` 가상 클래스는 사용자가 마우스나 다른 포인팅 장치로 요소 위에 마우스를 올릴 때 작동합니다. 개발자들은 버튼, 링크 또는 사용자 주의를 끌어야 하는 모든 요소에 시각적 피드백을 만들기 위해 자주 사용합니다. 다음은 사용자가 클릭하기 전에 마우스를 올리는 버튼 예시입니다:
 
 :::interactive_editor
 
@@ -51,9 +51,9 @@ The `:hover` pseudo-class is triggered when a user hovers over an element with t
 
 :::
 
-The `:focus` pseudo-class applies styles when an element gains focus, typically through keyboard navigation or when a user clicks into a form input. This is not just for feedback but also crucial for accessibility. It ensures that users who rely heavily on keyboards can easily identify which element they are interacting with.
+`:focus` 가상 클래스는 요소가 포커스를 얻을 때 스타일을 적용합니다. 보통 키보드 탐색을 통해서나 사용자가 폼 입력 필드를 클릭할 때 발생합니다. 이는 단순한 피드백뿐 아니라 접근성 측면에서도 매우 중요합니다. 키보드에 크게 의존하는 사용자가 상호작용 중인 요소를 쉽게 식별할 수 있도록 보장합니다.
 
-Here's an example of an input field that gains focus when clicked or navigated to via the keyboard:
+다음은 클릭하거나 키보드로 탐색할 때 포커스를 얻는 입력 필드 예시입니다:
 
 :::interactive_editor
 
@@ -73,7 +73,7 @@ input:focus {
 
 :::
 
-The `:visited` pseudo-class targets a link the user has visited. This can be useful for helping users distinguish between pages they have already visited and the ones they are yet to visit. Here is an example of changing the anchor text color to cyan when the link is visited:
+`:visited` 가상 클래스는 사용자가 방문한 링크를 대상으로 합니다. 이는 사용자가 이미 방문한 페이지와 아직 방문하지 않은 페이지를 구분하는 데 유용합니다. 다음은 링크가 방문되었을 때 앵커 텍스트 색상을 청록색으로 변경하는 예시입니다:
 
 :::interactive_editor
 
@@ -90,11 +90,11 @@ a:visited {
 
 :::
 
-The `:checked` pseudo-class in CSS allows you to style form elements such as checkboxes and radio buttons when they are selected (checked). This pseudo-class is useful for customizing the appearance of these elements to enhance user experience, even though browsers provide default styles for them.
+CSS의 `:checked` 가상 클래스는 체크박스나 라디오 버튼 같은 폼 요소가 선택(체크)되었을 때 스타일을 적용할 수 있게 해줍니다. 이 가상 클래스는 브라우저가 기본 스타일을 제공하지만, 사용자 경험을 향상시키기 위해 이러한 요소의 모양을 커스터마이징할 때 유용합니다.
 
-Here is an example with a checkbox to agree to terms on a website.
+다음은 웹사이트에서 약관 동의를 위한 체크박스 예시입니다.
 
-**NOTE**: Some of the CSS in this example uses properties that haven't been covered yet. This is just to give you an idea of how to create a custom checkbox. You will learn how all of this works in future lessons and workshops.
+**참고**: 이 예시의 일부 CSS는 아직 배우지 않은 속성을 사용합니다. 이는 커스텀 체크박스를 만드는 방법을 보여주기 위한 것이며, 앞으로 수업과 워크숍에서 자세히 배우게 됩니다.
 
 :::interactive_editor
 
@@ -151,48 +151,48 @@ Here is an example with a checkbox to agree to terms on a website.
 
 :::
 
-In this example, we are using the `appearance` property set to `none` to remove the default styling applied by the browser to checkbox inputs. When the user checks the box, it will have a background color of `green`.
+이 예시에서는 `appearance` 속성을 `none`으로 설정하여 브라우저가 체크박스 입력에 기본적으로 적용하는 스타일을 제거합니다. 사용자가 체크박스를 선택하면 배경색이 `green`으로 바뀝니다.
 
-Other examples of action pseudo-classes are:
+다른 동작 가상 클래스 예시는 다음과 같습니다:
 
-- `:focus-within`: for applying styles to an element when it or any of its descendants have focus.
-- `:enabled`: for targeting form buttons or other elements that are currently enabled.
-- `:disabled`: for targeting form buttons or other elements that are disabled.
-- `:target`: for applying styles to an element that is the target of a URL fragment (the part of a URL after the `#` symbol).
+- `:focus-within`: 요소나 그 자손 요소 중 하나가 포커스를 가질 때 스타일을 적용합니다.
+- `:enabled`: 현재 활성화된 폼 버튼이나 다른 요소를 대상으로 합니다.
+- `:disabled`: 비활성화된 폼 버튼이나 다른 요소를 대상으로 합니다.
+- `:target`: URL 조각(주소에서 `#` 기호 뒤 부분)의 대상이 되는 요소에 스타일을 적용합니다.
 
 # --questions--
 
 ## --text--
 
-What do user action pseudo-classes allow you to do?
+사용자 동작 가상 클래스를 사용하면 무엇을 할 수 있나요?
 
 ## --answers--
 
-They enable animations and transitions.
+애니메이션과 전환 효과를 적용할 수 있습니다.
 
 ### --feedback--
 
-Think about how you can interact with users purely with CSS.
+CSS만으로 사용자와 상호작용할 수 있는 방법을 생각해보세요.
 
 ---
 
-They allow you to modify the DOM structure dynamically.
+DOM 구조를 동적으로 수정할 수 있습니다.
 
 ### --feedback--
 
-Think about how you can interact with users purely with CSS.
+CSS만으로 사용자와 상호작용할 수 있는 방법을 생각해보세요.
 
 ---
 
-They let you provide feedback to the user without relying on JavaScript.
+JavaScript에 의존하지 않고 사용자에게 피드백을 제공할 수 있습니다.
 
 ---
 
-They let you style the last element in a list.
+목록에서 마지막 요소를 스타일링할 수 있습니다.
 
 ### --feedback--
 
-Think about how you can interact with users purely with CSS.
+CSS만으로 사용자와 상호작용할 수 있는 방법을 생각해보세요.
 
 ## --video-solution--
 
@@ -200,35 +200,35 @@ Think about how you can interact with users purely with CSS.
 
 ## --text--
 
-What does the `:checked` pseudo-class do in CSS?
+CSS에서 `:checked` 가상 클래스는 무엇을 하나요?
 
 ## --answers--
 
-It selects an element when it is disabled.
+비활성화된 요소를 선택합니다.
 
 ### --feedback--
 
-Think about how forms handle user selections.
+폼이 사용자 선택을 처리하는 방식을 생각해보세요.
 
 ---
 
-It selects an element when it is being hovered over.
+마우스를 올린 요소를 선택합니다.
 
 ### --feedback--
 
-Think about how forms handle user selections.
+폼이 사용자 선택을 처리하는 방식을 생각해보세요.
 
 ---
 
-It styles elements like checkboxes or radio buttons that are checked.
+체크된 체크박스나 라디오 버튼 같은 요소를 스타일링합니다.
 
 ---
 
-It styles an element when it gains focus.
+포커스를 얻은 요소를 스타일링합니다.
 
 ### --feedback--
 
-Think about how forms handle user selections.
+폼이 사용자 선택을 처리하는 방식을 생각해보세요.
 
 ## --video-solution--
 
@@ -236,35 +236,35 @@ Think about how forms handle user selections.
 
 ## --text--
 
-What does the `:focus` pseudo-class do?
+`:focus` 가상 클래스는 무엇을 하나요?
 
 ## --answers--
 
-It selects an element when it is hovered over by a mouse.
+마우스로 요소 위에 올려졌을 때 선택합니다.
 
 ### --feedback--
 
-Think about how users navigate forms using a keyboard.
+사용자가 키보드로 폼을 탐색하는 방식을 생각해보세요.
 
 ---
 
-It applies styles when an element gains focus, usually through keyboard navigation or a click.
+보통 키보드 탐색이나 클릭을 통해 요소가 포커스를 얻을 때 스타일을 적용합니다.
 
 ---
 
-It selects an element after a form is submitted.
+폼이 제출된 후 요소를 선택합니다.
 
 ### --feedback--
 
-Think about how users navigate forms using a keyboard.
+사용자가 키보드로 폼을 탐색하는 방식을 생각해보세요.
 
 ---
 
-It applies styles to an element when it is disabled.
+비활성화된 요소에 스타일을 적용합니다.
 
 ### --feedback--
 
-Think about how users navigate forms using a keyboard.
+사용자가 키보드로 폼을 탐색하는 방식을 생각해보세요.
 
 ## --video-solution--
 

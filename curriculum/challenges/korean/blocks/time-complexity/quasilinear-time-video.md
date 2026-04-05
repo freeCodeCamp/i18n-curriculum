@@ -1,6 +1,6 @@
 ---
 id: 698dc6f47932b3cc4b19c923
-title: Quasilinear Time
+title: 준선형 시간
 challengeType: 11
 videoId: p3UAfZZ3Nz0
 dashedName: quasilinear-time
@@ -8,13 +8,13 @@ dashedName: quasilinear-time
 
 # --description--
 
-In this video, you will about quasilinear times.
+이 영상에서는 준선형 시간에 대해 배우세요.
 
 # --questions--
 
 ## --text--
 
-Which of the following is the correct way to represent quasilinear time in Big O notation?
+다음 중 Big O 표기법으로 준선형 시간을 올바르게 나타낸 것은 무엇인가요?
 
 ## --answers--
 

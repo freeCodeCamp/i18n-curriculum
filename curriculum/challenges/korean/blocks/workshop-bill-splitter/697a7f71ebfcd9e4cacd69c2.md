@@ -1,30 +1,30 @@
 ---
 id: 697a7f71ebfcd9e4cacd69c2
-title: Step 8
+title: 8단계
 challengeType: 20
 dashedName: step-8
 ---
 
 # --description--
 
-The bill is split, but division often results in long decimal numbers. Since money is typically represented with two decimal places, you should round the final result.
+계산서가 나누어졌지만, 나누기 연산은 종종 긴 소수점 숫자를 만듭니다. 돈은 보통 소수점 둘째 자리까지 나타내므로 최종 결과를 반올림해야 합니다.
 
-Python provides a built-in `round()` function for this. It takes two arguments: the number you want to round and the number of decimal places to keep. Here's an example:
+Python은 이를 위한 내장 `round()` 함수를 제공합니다. 이 함수는 두 개의 인수를 받는데, 반올림할 숫자와 유지할 소수점 자리 수입니다. 예시는 다음과 같습니다:
 
 ```py
 num = 4.815162342
 round(num, 3) # 4.815
 ```
 
-Use the `round()` function to round `final_bill` to two decimal places and assign the result to a new variable named `each_pays`.
+`round()` 함수를 사용해 `final_bill`를 소수점 둘째 자리까지 반올림하고, 결과를 `each_pays`라는 새 변수에 할당하세요.
 
-Finally, use `print()` to display the string `Each person pays:` followed by a space and your `each_pays` variable.
+마지막으로 `print()`를 사용해 문자열 `Each person pays:`와 공백, 그리고 `each_pays` 변수를 출력하세요.
 
-With that, the bill splitter workshop is complete.
+이로써 계산서 분할 워크숍이 완료됩니다.
 
 # --hints--
 
-You should define a variable named `each_pays`.
+`each_pays`라는 변수를 정의하세요.
 
 ```js
 ({
@@ -34,7 +34,7 @@ You should define a variable named `each_pays`.
 })
 ```
 
-You should use the `round()` function to round `final_bill` to two decimal places and assign the result to your `each_pays` variable.
+`round()` 함수를 사용해 `final_bill`를 소수점 둘째 자리까지 반올림하고, 결과를 `each_pays` 변수에 할당하세요.
 
 ```js
 ({
@@ -44,7 +44,7 @@ You should use the `round()` function to round `final_bill` to two decimal place
 })
 ```
 
-You should use `print()` to display the string `Each person pays:` followed by a space and your `each_pays` variable.
+`print()`를 사용해 문자열 `Each person pays:`와 공백, 그리고 `each_pays` 변수를 출력하세요.
 
 ```js
 ({

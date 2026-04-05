@@ -7,25 +7,25 @@ dashedName: step-25
 
 # --description--
 
-To divide numbers in JavaScript, use the division operator (`/`). For example:
+JavaScript에서 숫자를 나누려면 나눗셈 연산자(`/`)를 사용하세요. 예를 들어:
 
 ```js
 const quotient = 5 / 2; // 2.5
 ```
 
-In the example above, `5` is the <dfn>dividend</dfn>, or the number to be divided, and `2` is the <dfn>divisor</dfn>, or the number to divide by. The result, `2.5`, is called the <dfn>quotient</dfn>.
+위 예제에서 `5`은 <dfn>피제수</dfn>, 즉 나눠질 숫자이고, `2`는 <dfn>제수</dfn>, 즉 나누는 숫자입니다. 결과인 `2.5`는 <dfn>몫</dfn>이라고 합니다.
 
-Inside your `while` loop, create a variable named `quotient` and assign it the value of `input` divided by `2`.
+`while` 반복문 안에서 `quotient`라는 변수를 만들고 `input`을 `2`로 나눈 값을 할당하세요.
 
 # --hints--
 
-You should create a variable named `quotient` inside your `while` loop.
+`quotient` 반복문 안에 `while`라는 변수를 만들어야 합니다.
 
 ```js
 assert.match(code, /while\s*\(\s*input\s*>\s*0\s*\)\s*\{\s*(var|let|const)\s+quotient\s*=/);
 ```
 
-You should assign `quotient` the value of `input` divided by `2`.
+`quotient`을 `input`로 나눈 값을 `2`에 할당해야 합니다.
 
 ```js
 assert.match(String(decimalToBinary), /(var|let|const)\s+quotient\s*=\s*input\s*\/\s*2\s*/);

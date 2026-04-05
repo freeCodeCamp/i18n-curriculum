@@ -1,24 +1,24 @@
 ---
 id: 672bbec3b86dbdaa07a5a5be
-title: What Are Examples of Functional Pseudo-classes?
+title: 함수형 가상 클래스의 예시는 무엇인가요?
 challengeType: 19
 dashedName: what-are-examples-of-functional-pseudo-classes
 ---
 
 # --interactive--
 
-Functional pseudo-classes allow you to select elements based on more complex conditions or relationships. Unlike regular pseudo-classes which target elements based on a state, for example, `:hover`, `:focus`, functional pseudo-classes accept arguments within parentheses, hence the name "functional pseudo-classes".
+함수형 가상 클래스는 더 복잡한 조건이나 관계를 기반으로 요소를 선택할 수 있게 해줍니다. 상태를 기준으로 요소를 선택하는 일반 가상 클래스와 달리, 예를 들어 `:hover`, `:focus`, 함수형 가상 클래스는 소괄호 안에 인수를 받기 때문에 "함수형 가상 클래스"라는 이름이 붙었습니다.
 
-Examples of functional pseudo-classes are:
+함수형 가상 클래스의 예시는 다음과 같습니다:
 
 - `:is()`
 - `:where()`
 - `:has()`
 - `:not()`
 
-Let's take a deeper look at each of these functional pseudo-classes with examples.
+각 함수형 가상 클래스를 예시와 함께 자세히 살펴보겠습니다.
 
-The `:is()` pseudo-class is useful when you want to style a group of elements that share some, but not all, characteristics. For example, you might want to style different types of buttons on your website, including `button` elements, links styled as buttons, and `input` elements with types `submit` and `reset`. Here's an example representing that. Without the `:is()` function, you would have to write a complex selector like this:
+`:is()` 가상 클래스는 일부 특성은 공유하지만 모두 같지는 않은 요소 그룹에 스타일을 적용할 때 유용합니다. 예를 들어, 웹사이트에서 `button` 요소, 버튼처럼 스타일이 적용된 링크, 그리고 `input` 요소 중 `submit`와 `reset` 타입을 포함한 다양한 버튼 유형에 스타일을 적용하고 싶을 수 있습니다. 이를 나타내는 예시는 다음과 같습니다. `:is()` 함수를 사용하지 않으면 다음과 같이 복잡한 선택자를 작성해야 합니다:
 
 :::interactive_editor
 
@@ -59,7 +59,7 @@ input[type='reset']:hover {
 
 :::
 
-With the `:is()` function, you can write a more compact and understandable selector like this:
+`:is()` 함수를 사용하면 다음과 같이 더 간결하고 이해하기 쉬운 선택자를 작성할 수 있습니다:
 
 :::interactive_editor
 
@@ -94,9 +94,9 @@ With the `:is()` function, you can write a more compact and understandable selec
 
 :::
 
-The `:where()` pseudo-class functions similarly to `:is()`, but it doesn't increase the specificity of your selectors. This makes it ideal for applying styles without affecting the specificity of other rules.
+`:where()` 가상 클래스는 `:is()`와 비슷하게 작동하지만 선택자의 특이성을 높이지 않습니다. 이로 인해 다른 규칙의 특이성에 영향을 주지 않고 스타일을 적용할 때 이상적입니다.
 
-For example, you can use the `:where()` function to apply zero `margin` and `padding` to heading elements. This ensures that the reset won't interfere with more specific styles you might apply later. Here's an example for that:
+예를 들어, `:where()` 함수를 사용해 제목 요소에 대해 0 `margin`와 `padding`를 적용할 수 있습니다. 이렇게 하면 나중에 더 구체적인 스타일을 적용해도 초기화가 방해하지 않습니다. 예시는 다음과 같습니다:
 
 :::interactive_editor
 
@@ -120,9 +120,9 @@ For example, you can use the `:where()` function to apply zero `margin` and `pad
 
 :::
 
-Styling a parent element based on its children's states was previously challenging until the `:has()` pseudo-class was introduced. It allows you to apply styles to a parent element based on the presence or state of its child elements.
+자식 요소의 상태를 기반으로 부모 요소에 스타일을 적용하는 것은 `:has()` 가상 클래스가 도입되기 전까지 어려웠습니다. 이 가상 클래스는 자식 요소의 존재나 상태에 따라 부모 요소에 스타일을 적용할 수 있게 해줍니다.
 
-For example, the CSS below will only apply to any `article` element that has an `h2` in it:
+예를 들어, 아래 CSS는 `article`가 포함된 모든 `h2` 요소에만 적용됩니다:
 
 :::interactive_editor
 
@@ -148,7 +148,7 @@ article:has(h2) {
 
 :::
 
-The `:not()` pseudo-class is ideal for situations where you want to apply styles to a group of elements, excluding one or more specific exceptions. In the CSS below, any button that is not a primary button will have a grey background:
+`:not()` 가상 클래스는 특정 예외 하나 이상을 제외한 요소 그룹에 스타일을 적용할 때 이상적입니다. 아래 CSS에서는 기본 버튼이 아닌 모든 버튼에 회색 배경이 적용됩니다:
 
 :::interactive_editor
 
@@ -184,7 +184,7 @@ button:not(.primary) {
 
 ## --text--
 
-Which pseudo-class works like `:is()`, but doesn't add any specificity to your selectors?
+어떤 가상 클래스가 `:is()`처럼 작동하지만 선택자의 특이성을 추가하지 않나요?
 
 ## --answers--
 
@@ -192,7 +192,7 @@ Which pseudo-class works like `:is()`, but doesn't add any specificity to your s
 
 ### --feedback--
 
-This pseudo-class is great for applying broad, non-invasive styles.
+이 가상 클래스는 광범위하지만 비침습적인 스타일을 적용할 때 좋습니다.
 
 ---
 
@@ -200,7 +200,7 @@ This pseudo-class is great for applying broad, non-invasive styles.
 
 ### --feedback--
 
-This pseudo-class is great for applying broad, non-invasive styles.
+이 가상 클래스는 광범위하지만 비침습적인 스타일을 적용할 때 좋습니다.
 
 ---
 
@@ -212,7 +212,7 @@ This pseudo-class is great for applying broad, non-invasive styles.
 
 ### --feedback--
 
-This pseudo-class is great for applying broad, non-invasive styles.
+이 가상 클래스는 광범위하지만 비침습적인 스타일을 적용할 때 좋습니다.
 
 ## --video-solution--
 
@@ -220,7 +220,7 @@ This pseudo-class is great for applying broad, non-invasive styles.
 
 ## --text--
 
-Which of these is not a functional pseudo-class?
+다음 중 함수형 가상 클래스가 아닌 것은 무엇인가요?
 
 ## --answers--
 
@@ -228,7 +228,7 @@ Which of these is not a functional pseudo-class?
 
 ### --feedback--
 
-Functional pseudo-classes use parentheses and accept arguments inside them.
+함수형 가상 클래스는 소괄호를 사용하며 그 안에 인수를 받습니다.
 
 ---
 
@@ -240,7 +240,7 @@ Functional pseudo-classes use parentheses and accept arguments inside them.
 
 ### --feedback--
 
-Functional pseudo-classes use parentheses and accept arguments inside them.
+함수형 가상 클래스는 소괄호를 사용하며 그 안에 인수를 받습니다.
 
 ---
 
@@ -248,7 +248,7 @@ Functional pseudo-classes use parentheses and accept arguments inside them.
 
 ### --feedback--
 
-Functional pseudo-classes use parentheses and accept arguments inside them.
+함수형 가상 클래스는 소괄호를 사용하며 그 안에 인수를 받습니다.
 
 ## --video-solution--
 
@@ -256,7 +256,7 @@ Functional pseudo-classes use parentheses and accept arguments inside them.
 
 ## --text--
 
-Which pseudo-class is perfect for a situation in which you want to apply styles to a group of elements without one or two exceptions?
+하나 또는 두 개의 예외를 제외한 요소 그룹에 스타일을 적용할 때 완벽한 가상 클래스는 무엇인가요?
 
 ## --answers--
 
@@ -264,7 +264,7 @@ Which pseudo-class is perfect for a situation in which you want to apply styles 
 
 ### --feedback--
 
-Think about how you can exclude specific elements from being styled.
+특정 요소를 스타일 적용에서 제외하는 방법을 생각해보세요.
 
 ---
 
@@ -272,7 +272,7 @@ Think about how you can exclude specific elements from being styled.
 
 ### --feedback--
 
-Think about how you can exclude specific elements from being styled.
+특정 요소를 스타일 적용에서 제외하는 방법을 생각해보세요.
 
 ---
 
@@ -284,7 +284,7 @@ Think about how you can exclude specific elements from being styled.
 
 ### --feedback--
 
-Think about how you can exclude specific elements from being styled.
+특정 요소를 스타일 적용에서 제외하는 방법을 생각해보세요.
 
 ## --video-solution--
 

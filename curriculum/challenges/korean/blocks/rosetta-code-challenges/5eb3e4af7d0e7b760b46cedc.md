@@ -1,6 +1,6 @@
 ---
 id: 5eb3e4af7d0e7b760b46cedc
-title: Set consolidation
+title: 집합 통합
 challengeType: 1
 forumTopicId: 385319
 dashedName: set-consolidation
@@ -8,58 +8,60 @@ dashedName: set-consolidation
 
 # --description--
 
-Given two sets of items then if any item is common to any set then the result of applying *consolidation* to those sets is a set of sets whose contents is:
+두 개의 항목 집합이 주어졌을 때, 두 집합에 공통된 항목이 하나라도 있으면 *통합*을 적용한 결과는 다음 내용을 포함하는 집합들의 집합입니다:
 
 <ul>
-  <li>The two input sets if no common item exists between the two input sets of items.</li>
-  <li>The single set that is the union of the two input sets if they share a common item.</li>
+  <li>두 입력 집합 사이에 공통 항목이 없으면 두 입력 집합 그대로입니다.</li>
+  <li>공통 항목이 있으면 두 입력 집합의 합집합인 단일 집합입니다.</li>
 </ul>
 
-Given N sets of items where N > 2 then the result is the same as repeatedly replacing all combinations of two sets by their consolidation until no further consolidation between set pairs is possible. If N &lt; 2 then consolidation has no strict meaning and the input can be returned.
+N > 2인 N개의 집합이 주어지면, 두 집합 조합을 반복적으로 통합하여 더 이상 통합할 수 없을 때까지 이 과정을 계속한 결과가 됩니다. N < 2이면 통합의 엄밀한 의미가 없으므로 입력을 그대로 반환할 수 있습니다.
 
-Here are some examples:
+예시는 다음과 같습니다:
 
-**Example 1:**
+**예시 1:**
 
-Given the two sets `{A,B}` and `{C,D}` then there is no common element between the sets and the result is the same as the input.
+두 집합 `{A,B}` 와 `{C,D}` 이 주어졌을 때, 두 집합 사이에 공통 요소가 없으므로 결과는 입력과 같습니다.
 
-**Example 2:**
+**예시 2:**
 
-Given the two sets `{A,B}` and `{B,D}` then there is a common element `B` between the sets and the result is the single set `{B,D,A}`. (Note that order of items in a set is immaterial: `{A,B,D}` is the same as `{B,D,A}` and `{D,A,B}`, etc).
+두 집합 `{A,B}` 와 `{B,D}` 이 주어졌을 때, 두 집합 사이에 공통 요소 `B` 가 있으므로 결과는 단일 집합 `{B,D,A}` 입니다. (집합 내 항목 순서는 중요하지 않습니다: `{A,B,D}` 는 `{B,D,A}` 와 `{D,A,B}` 와 동일합니다.)
 
-**Example 3:**
+**예시 3:**
 
-Given the three sets `{A,B}` and `{C,D}` and `{D,B}` then there is no common element between the sets `{A,B}` and `{C,D}` but the sets `{A,B}` and `{D,B}` do share a common element that consolidates to produce the result `{B,D,A}`. On examining this result with the remaining set, `{C,D}`, they share a common element and so consolidate to the final output of the single set `{A,B,C,D}`
+세 집합 `{A,B}` 와 `{C,D}` 와 `{D,B}` 이 주어졌을 때, `{A,B}` 와 `{C,D}` 사이에는 공통 요소가 없지만 `{A,B}` 와 `{D,B}` 는 공통 요소가 있어 통합되어 `{B,D,A}` 결과를 만듭니다. 이 결과와 남은 집합 `{C,D}` 을 비교하면 공통 요소가 있어 최종 출력은 단일 집합 `{A,B,C,D}` 입니다.
 
-**Example 4:**
+**예시 4:**
 
-The consolidation of the five sets:
+다섯 집합
 
-`{H,I,K}`, `{A,B}`, `{C,D}`, `{D,B}`, and `{F,G,H}`
+`{H,I,K}`, `{A,B}`, `{C,D}`, `{D,B}`, 그리고 `{F,G,H}`
 
-Is the two sets:
+의 통합 결과는 두 집합
 
-`{A, C, B, D}`, and `{G, F, I, H, K}`
+`{A, C, B, D}`, 그리고 `{G, F, I, H, K}`
+
+입니다.
 
 # --instructions--
 
-Write a function that takes an array of strings as a parameter. Each string is represents a set with the characters representing the set elements. The function should return a 2D array containing the consolidated sets. Note: Each set should be sorted.
+문자열 배열을 매개변수로 받는 함수를 작성하세요. 각 문자열은 집합을 나타내며, 문자는 집합 요소를 나타냅니다. 함수는 통합된 집합들을 포함하는 2차원 배열을 반환해야 합니다. 참고: 각 집합은 정렬되어 있어야 합니다.
 
 # --hints--
 
-`setConsolidation` should be a function.
+`setConsolidation` 는 함수여야 합니다.
 
 ```js
 assert(typeof setConsolidation === 'function');
 ```
 
-`setConsolidation(["AB", "CD"])` should return a array.
+`setConsolidation(["AB", "CD"])` 는 배열을 반환해야 합니다.
 
 ```js
 assert(Array.isArray(setConsolidation(['AB', 'CD'])));
 ```
 
-`setConsolidation(["AB", "CD"])` should return `[["C", "D"], ["A", "B"]]`.
+`setConsolidation(["AB", "CD"])` 는 `[["C", "D"], ["A", "B"]]` 를 반환해야 합니다.
 
 ```js
 assert.deepEqual(setConsolidation(['AB', 'CD']), [
@@ -68,19 +70,19 @@ assert.deepEqual(setConsolidation(['AB', 'CD']), [
 ]);
 ```
 
-`setConsolidation(["AB", "BD"])` should return `[["A", "B", "D"]]`.
+`setConsolidation(["AB", "BD"])` 는 `[["A", "B", "D"]]` 를 반환해야 합니다.
 
 ```js
 assert.deepEqual(setConsolidation(['AB', 'BD']), [['A', 'B', 'D']]);
 ```
 
-`setConsolidation(["AB", "CD", "DB"])` should return `[["A", "B", "C", "D"]]`.
+`setConsolidation(["AB", "CD", "DB"])` 는 `[["A", "B", "C", "D"]]` 를 반환해야 합니다.
 
 ```js
 assert.deepEqual(setConsolidation(['AB', 'CD', 'DB']), [['A', 'B', 'C', 'D']]);
 ```
 
-`setConsolidation(["HIK", "AB", "CD", "DB", "FGH"])` should return `[["F", "G", "H", "I", "K"], ["A", "B", "C", "D"]]`.
+`setConsolidation(["HIK", "AB", "CD", "DB", "FGH"])` 는 `[["F", "G", "H", "I", "K"], ["A", "B", "C", "D"]]` 를 반환해야 합니다.
 
 ```js
 assert.deepEqual(setConsolidation(['HIK', 'AB', 'CD', 'DB', 'FGH']), [

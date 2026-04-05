@@ -1,13 +1,13 @@
 ---
 id: 66f1adcf97e3e4c1bd89ebf5
-title: Web Performance Quiz
+title: 웹 성능 퀴즈
 challengeType: 8
 dashedName: quiz-web-performance
 ---
 
 # --description--
 
-To pass the quiz, you must correctly answer at least 18 of the 20 questions below.
+퀴즈를 통과하려면 아래 20문제 중 최소 18문제를 올바르게 답해야 합니다.
 
 # --quizzes--
 
@@ -17,29 +17,29 @@ To pass the quiz, you must correctly answer at least 18 of the 20 questions belo
 
 #### --text--
 
-What is the key difference between real performance and perceived performance in web development?
+웹 개발에서 실제 성능과 인지된 성능의 주요 차이점은 무엇인가요?
 
 #### --distractors--
 
-Real performance focuses on the number of HTTP requests made by the browser, while perceived performance is based on CSS rendering speed.
+실제 성능은 브라우저가 수행하는 HTTP 요청 수에 집중하고, 인지된 성능은 CSS 렌더링 속도에 기반합니다.
 
 ---
 
-Real performance is only about load times, while perceived performance relates to visual elements like animations and loading indicators.
+실제 성능은 로드 시간만을 의미하고, 인지된 성능은 애니메이션과 로딩 표시 같은 시각적 요소와 관련됩니다.
 
 ---
 
-Real performance only includes server-side processing times, while perceived performance is entirely client-side.
+실제 성능은 서버 측 처리 시간만 포함하고, 인지된 성능은 전적으로 클라이언트 측에 해당합니다.
 
 #### --answer--
 
-Real performance is how fast content is loaded, while perceived performance is how quickly users believe the page loads.
+실제 성능은 콘텐츠가 얼마나 빨리 로드되는지이고, 인지된 성능은 사용자가 페이지가 얼마나 빨리 로드된다고 느끼는지입니다.
 
 ### --question--
 
 #### --text--
 
-Which metric best indicates how quickly content appears on a web page?
+웹 페이지에서 콘텐츠가 얼마나 빨리 나타나는지를 가장 잘 나타내는 지표는 무엇인가요?
 
 #### --distractors--
 
@@ -61,73 +61,73 @@ First Contentful Paint (FCP)
 
 #### --text--
 
-Which of the following is NOT a way to reduce page loading times?
+다음 중 페이지 로딩 시간을 줄이는 방법이 아닌 것은 무엇인가요?
 
 #### --distractors--
 
-Optimizing Media Assets.
+미디어 자산 최적화.
 
 ---
 
-Leveraging Browser Caching.
+브라우저 캐싱 활용.
 
 ---
 
-Minifying and Compress Files.
+파일 압축 및 최소화.
 
 #### --answer--
 
-Using only JPEG files.
+JPEG 파일만 사용하는 것.
 
 ### --question--
 
 #### --text--
 
-What is "time to usable"?
+"time to usable"이란 무엇인가요?
 
 #### --distractors--
 
-It is the interval from when a user requests a page to when they can interact with forms on the page.
+사용자가 페이지를 요청한 시점부터 페이지 내 폼과 상호작용할 수 있을 때까지의 간격입니다.
 
 ---
 
-It is the time it takes for all images and animations to become available and usable.
+모든 이미지와 애니메이션이 사용 가능해지는 데 걸리는 시간입니다.
 
 ---
 
-This is the time it takes for all CSS and JavaScript animations to load on the screen.
+모든 CSS와 JavaScript 애니메이션이 화면에 로드되는 데 걸리는 시간입니다.
 
 #### --answer--
 
-It is the interval from when a user requests a page to when they can meaningfully interact with it.
+사용자가 페이지를 요청한 시점부터 의미 있게 상호작용할 수 있을 때까지의 간격입니다.
 
 ### --question--
 
 #### --text--
 
-What does First Contentful Paint (FCP) measure?
+First Contentful Paint (FCP)는 무엇을 측정하나요?
 
 #### --distractors--
 
-The overall load time for all JavaScript files on the page.
+페이지 내 모든 JavaScript 파일의 전체 로드 시간.
 
 ---
 
-The delay before a user can interact with any elements on the page.
+사용자가 페이지 내 어떤 요소와도 상호작용할 수 있기 전까지의 지연 시간.
 
 ---
 
-The time taken for all stylesheets to fully load and apply.
+모든 스타일시트가 완전히 로드되고 적용되는 데 걸리는 시간.
 
 #### --answer--
 
-The time it takes for the first piece of text or image to render.
+첫 번째 텍스트나 이미지가 렌더링되는 데 걸리는 시간.
 
 ### --question--
 
 #### --text--
 
-Which of the following is NOT a commonly used performance measurement tool?
+다음 중 일반적으로 사용되지 않는 성능 측정 도구는 무엇인가요?
 
 #### --distractors--
 
@@ -149,55 +149,55 @@ WebMeasure
 
 #### --text--
 
-What are Performance Web APIs used for?
+Performance Web API는 무엇에 사용되나요?
 
 #### --distractors--
 
-It is used to measure the performance for CSS animations only.
+CSS 애니메이션 성능만 측정하는 데 사용됩니다.
 
 ---
 
-It is used to automatically speed up the performance for a web page.
+웹 페이지 성능을 자동으로 향상시키는 데 사용됩니다.
 
 ---
 
-It provides a detailed table of performance metrics for the user.
+사용자에게 성능 지표를 상세한 표로 제공합니다.
 
 #### --answer--
 
-It lets developers track how efficiently a webpage loads and responds directly from code.
+개발자가 코드에서 직접 웹페이지가 얼마나 효율적으로 로드되고 반응하는지 추적할 수 있게 합니다.
 
 ### --question--
 
 #### --text--
 
-Which strategy can effectively enhance perceived performance?
+인지된 성능을 효과적으로 향상시키는 전략은 무엇인가요?
 
 #### --distractors--
 
-Using large images to improve the overall visual quality.
+전체적인 시각 품질 향상을 위해 큰 이미지를 사용하는 것.
 
 ---
 
-Loading CSS styles last to prioritize content rendering.
+콘텐츠 렌더링 우선순위를 위해 CSS 스타일을 마지막에 로드하는 것.
 
 ---
 
-Preloading all scripts to ensure they are ready when needed.
+필요할 때 바로 사용할 수 있도록 모든 스크립트를 미리 로드하는 것.
 
 #### --answer--
 
-Displaying a loading skeleton while content is being fetched.
+콘텐츠를 가져오는 동안 로딩 스켈레톤을 표시하는 것.
 
 ### --question--
 
 #### --text--
 
-Which of the following refers to the time it takes for a request to travel between the browser and the server?
+다음 중 브라우저와 서버 간 요청이 이동하는 데 걸리는 시간을 의미하는 것은 무엇인가요?
 
 #### --distractors--
 
-rendering
+렌더링
 
 ---
 
@@ -209,43 +209,43 @@ CDN
 
 #### --answer--
 
-latency
+지연 시간
 
 ### --question--
 
 #### --text--
 
-How does optimizing CSS impact page performance?
+CSS 최적화가 페이지 성능에 미치는 영향은 무엇인가요?
 
 #### --distractors--
 
-It prevents the browser from executing unnecessary JavaScript.
+브라우저가 불필요한 JavaScript를 실행하지 못하게 합니다.
 
 ---
 
-It reduces the overall file size of images.
+이미지 파일 크기를 줄입니다.
 
 ---
 
-It eliminates the need for lazy loading images.
+이미지의 지연 로딩 필요성을 없앱니다.
 
 #### --answer--
 
-It speeds up the parsing of HTML.
+HTML 파싱 속도를 높입니다.
 
 ### --question--
 
 #### --text--
 
-Which of the following shows how long the main thread is blocked by heavy JavaScript tasks?
+다음 중 무거운 JavaScript 작업으로 인해 메인 스레드가 차단된 시간을 보여주는 것은 무엇인가요?
 
 #### --distractors--
 
-Source order
+소스 순서
 
 ---
 
-Bounce rate
+이탈률
 
 ---
 
@@ -253,35 +253,35 @@ WebPageTest
 
 #### --answer--
 
-Total Blocking Time
+총 차단 시간
 
 ### --question--
 
 #### --text--
 
-When measuring Interaction to Next Paint (INP), what is being evaluated?
+Interaction to Next Paint (INP)를 측정할 때 평가하는 것은 무엇인가요?
 
 #### --distractors--
 
-The time it takes for the page to fully load all styles and images after a user interaction.
+사용자 상호작용 후 페이지가 모든 스타일과 이미지를 완전히 로드하는 데 걸리는 시간.
 
 ---
 
-The delay between a user's interaction and the browser's ability to register the next user input.
+사용자 상호작용과 브라우저가 다음 사용자 입력을 등록하는 능력 사이의 지연 시간.
 
 ---
 
-The interval between JavaScript execution and the browser refreshing the page content.
+JavaScript 실행과 브라우저가 페이지 콘텐츠를 새로 고침하는 간격.
 
 #### --answer--
 
-The time between a user's interaction and the browser responding by rendering the next frame.
+사용자 상호작용과 브라우저가 다음 프레임을 렌더링하며 반응하는 시간 사이의 간격.
 
 ### --question--
 
 #### --text--
 
-Which of the following APIs gives you high-precision timestamps (in milliseconds) to measure how long different parts of your site take to load?
+다음 중 사이트의 각 부분이 로드되는 데 걸리는 시간을 측정하기 위해 밀리초 단위의 고정밀 타임스탬프를 제공하는 API는 무엇인가요?
 
 #### --distractors--
 
@@ -303,7 +303,7 @@ Which of the following APIs gives you high-precision timestamps (in milliseconds
 
 #### --text--
 
-Which of the following APIs gives you a breakdown of every stage of page loading from DNS lookup to `DOMContentLoaded`?
+다음 중 DNS 조회부터 `DOMContentLoaded`까지 페이지 로딩의 모든 단계를 세분화해서 알려주는 API는 무엇인가요?
 
 #### --distractors--
 
@@ -325,7 +325,7 @@ Performance Timing API
 
 #### --text--
 
-Which of the following listens for performance events such as layout shifts, long tasks, and user interactions?
+다음 중 레이아웃 이동, 긴 작업, 사용자 상호작용 같은 성능 이벤트를 감지하는 API는 무엇인가요?
 
 #### --distractors--
 
@@ -379,51 +379,51 @@ observer.observe({ type: "longtask", buffered: true });
 
 #### --text--
 
-How does lazy loading images enhance page performance?
+이미지 지연 로딩이 페이지 성능을 어떻게 향상시키나요?
 
 #### --distractors--
 
-It ensures all images load immediately for a better user experience.
+모든 이미지를 즉시 로드하여 더 나은 사용자 경험을 보장합니다.
 
 ---
 
-It reduces the size of image files to speed up loading.
+이미지 파일 크기를 줄여 로딩 속도를 높입니다.
 
 ---
 
-It preloads images to prevent any loading delays.
+이미지를 미리 로드하여 로딩 지연을 방지합니다.
 
 #### --answer--
 
-It delays loading non-essential images until they are in view.
+필수적이지 않은 이미지는 화면에 보일 때까지 로딩을 지연시킵니다.
 
 ### --question--
 
 #### --text--
 
-What is code splitting?
+코드 스플리팅이란 무엇인가요?
 
 #### --distractors--
 
-It involves splitting your React code into modules that perform only critical tasks
+React 코드를 중요한 작업만 수행하는 모듈로 분할하는 것입니다.
 
 ---
 
-It involves splitting your HTML code into modules that perform only non-critical tasks.
+HTML 코드를 중요하지 않은 작업만 수행하는 모듈로 분할하는 것입니다.
 
 ---
 
-It involves splitting your CSS code into modules that perform critical and non-critical tasks.
+CSS 코드를 중요 작업과 중요하지 않은 작업을 수행하는 모듈로 분할하는 것입니다.
 
 #### --answer--
 
-It involves splitting your JavaScript code into modules that perform critical and non-critical tasks.
+JavaScript 코드를 중요 작업과 중요하지 않은 작업을 수행하는 모듈로 분할하는 것입니다.
 
 ### --question--
 
 #### --text--
 
-Which of the following is the correct way to lazy load an image?
+다음 중 이미지를 지연 로드하는 올바른 방법은 무엇인가요?
 
 #### --distractors--
 
@@ -453,43 +453,42 @@ Which of the following is the correct way to lazy load an image?
 
 #### --text--
 
-Which of the following is NOT a way to improve INP?
+다음 중 INP를 개선하는 방법이 아닌 것은 무엇인가요?
 
 #### --distractors--
 
-Reducing the main thread work by breaking up long JavaScript tasks.
+긴 JavaScript 작업을 나누어 메인 스레드 작업을 줄이는 것.
 
 ---
 
-Optimizing event handlers.
+이벤트 핸들러 최적화.
 
 ---
 
-Deferring or lazy-loading heavy assets.
+무거운 자산을 지연 로드하거나 미루는 것.
 
 #### --answer--
 
-Using only PNG and JPEG images.
+PNG와 JPEG 이미지만 사용하는 것.
 
 ### --question--
 
 #### --text--
 
-Why is energy efficiency a crucial aspect of web performance?
+왜 에너지 효율성이 웹 성능에서 중요한 측면인가요?
 
 #### --distractors--
 
-It enhances the overall visual appeal of the webpage.
+웹페이지의 전체적인 시각적 매력을 향상시킵니다.
 
 ---
 
-It minimizes the amount of JavaScript used on a webpage.
+웹페이지에서 사용하는 JavaScript 양을 최소화합니다.
 
 ---
 
-It decreases the number of CSS files needed and makes your CSS run faster.
+필요한 CSS 파일 수를 줄이고 CSS 실행 속도를 높입니다.
 
 #### --answer--
 
-It reduces the load on hardware, conserving energy and improving sustainability.
-
+하드웨어 부하를 줄여 에너지를 절약하고 지속 가능성을 높입니다.

@@ -7,23 +7,23 @@ dashedName: step-23
 
 # --description--
 
-Move the left ear into position by setting a position of `absolute`, a `top` of `-26px`, and a `left` of `-31px`.
+왼쪽 귀를 위치시키려면 `absolute`의 위치, `top`의 `-26px`, 그리고 `left`의 `-31px`를 설정하세요.
 
 # --hints--
 
-Your `.cat-left-ear` selector should have a `position` property set to `absolute`. Don't forget to add a semicolon.
+`.cat-left-ear` 선택자에 `position`로 설정된 `absolute` 속성이 있어야 합니다. 세미콜론을 잊지 마세요.
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('.cat-left-ear')?.position, 'absolute')
 ```
 
-Your `.cat-left-ear` selector should have a `top` property set to `-26px`
+`.cat-left-ear` 선택자에 `top`로 설정된 `-26px` 속성이 있어야 합니다.
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('.cat-left-ear')?.top, '-26px')
 ```
 
-Your `.cat-left-ear` selector should have a `left` property set to `-31px`
+`.cat-left-ear` 선택자에 `left`로 설정된 `-31px` 속성이 있어야 합니다.
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('.cat-left-ear')?.left, '-31px')
@@ -83,7 +83,7 @@ body {
 
 --fcc-editable-region--
 .cat-left-ear {
-
+  
   border-left: 35px solid transparent;
   border-right: 35px solid transparent;
   border-bottom: 70px solid #5e5e5e;

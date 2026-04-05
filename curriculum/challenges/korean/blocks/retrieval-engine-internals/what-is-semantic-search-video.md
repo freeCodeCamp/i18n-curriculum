@@ -1,6 +1,6 @@
 ---
 id: 69ae69fbb4a814be6a4f2bdc
-title: What is Semantic Search?
+title: 의미 기반 검색이란 무엇인가요?
 challengeType: 11
 videoId: 1OxzFbEES_g
 dashedName: what-is-semantic-search
@@ -8,31 +8,30 @@ dashedName: what-is-semantic-search
 
 # --description--
 
-In this video, you will learn about semantic search.
+이 영상에서는 의미 기반 검색에 대해 배우세요.
 
 # --questions--
 
 ## --text--
 
-What is semantic search?
+의미 기반 검색이란 무엇인가요?
 
 ## --answers--
 
-Searching only for documents that contain the exact keyword typed, without considering context or meaning.
+문맥이나 의미를 고려하지 않고 입력한 정확한 키워드가 포함된 문서만 검색하는 것.
 
 ---
 
-A system that converts every search query into random tags and retrieves documents with the most matching tags.
+모든 검색 쿼리를 무작위 태그로 변환하고 가장 많은 태그가 일치하는 문서를 검색하는 시스템.
 
 ---
 
-A search method that organizes results alphabetically by word length and popularity instead of relevance.
+관련성 대신 단어 길이와 인기도에 따라 결과를 알파벳순으로 정리하는 검색 방법.
 
 ---
 
-Searching documents based on the meaning of the words rather than just keyword matching.
+키워드 일치뿐 아니라 단어의 의미를 기반으로 문서를 검색하는 것.
 
 ## --video-solution--
 
 4
-

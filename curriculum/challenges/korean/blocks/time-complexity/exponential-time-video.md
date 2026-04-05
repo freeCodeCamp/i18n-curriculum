@@ -1,6 +1,6 @@
 ---
 id: 698dc79f7932b3cc4b19c924
-title: Exponential Time
+title: 지수 시간
 challengeType: 11
 videoId: GNnxIIYwYFM
 dashedName: exponential-time
@@ -8,13 +8,13 @@ dashedName: exponential-time
 
 # --description--
 
-In this video, you will learn about exponential runtimes.
+이 영상에서는 지수 실행 시간에 대해 배우세요.
 
 # --questions--
 
 ## --text--
 
-Which of the following popular problems is an example of an exponential algorithm?
+다음 중 지수 알고리즘의 예인 인기 문제는 무엇인가요?
 
 ## --answers--
 

@@ -7,11 +7,11 @@ dashedName: step-43
 
 # --description--
 
-To give the `fieldset` elements a bit of separation, select them and give them a `border-bottom` of `3px solid #3b3b4f`.
+`fieldset` 요소들에 약간의 간격을 주기 위해 선택한 다음 `border-bottom`을 `3px solid #3b3b4f`로 지정하세요.
 
 # --hints--
 
-You should give the `fieldset` elements a `border-bottom` of `3px solid #3b3b4f`.
+`fieldset` 요소들에 `border-bottom`을 `3px solid #3b3b4f`로 지정해야 합니다.
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('fieldset')?.borderBottom, '3px solid rgb(59, 59, 79)');
@@ -98,7 +98,7 @@ fieldset {
   border: none;
   padding: 2rem 0;
 --fcc-editable-region--
-
+  
 --fcc-editable-region--
 }
 

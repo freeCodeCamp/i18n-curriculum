@@ -1,13 +1,13 @@
 ---
 id: 66f1aeb60b11aec5abe83c2e
-title: CSS Libraries and Frameworks Quiz
+title: CSS 라이브러리와 프레임워크 퀴즈
 challengeType: 8
 dashedName: quiz-css-libraries-and-frameworks
 ---
 
 # --description--
 
-To pass the quiz, you must correctly answer at least 9 of the 10 questions below.
+퀴즈를 통과하려면 아래 10문제 중 최소 9문제를 올바르게 답해야 합니다.
 
 # --quizzes--
 
@@ -17,41 +17,41 @@ To pass the quiz, you must correctly answer at least 9 of the 10 questions below
 
 #### --text--
 
-What is a CSS framework?
+CSS 프레임워크란 무엇인가요?
 
 #### --distractors--
 
-A tool to fix CSS errors.
+CSS 오류를 고치는 도구입니다.
 
 ---
 
-A tool to lint CSS files.
+CSS 파일을 린트하는 도구입니다.
 
 ---
 
-A formatter for CSS files.
+CSS 파일을 포맷하는 도구입니다.
 
 #### --answer--
 
-A library for CSS styles.
+CSS 스타일을 위한 라이브러리입니다.
 
 ### --question--
 
 #### --text--
 
-Which of the following is a popular utility-first CSS framework?
+다음 중 인기 있는 유틸리티 우선 CSS 프레임워크는 무엇인가요?
 
 #### --distractors--
 
-Template CSS
+템플릿 CSS
 
 ---
 
-Loading CSS
+로딩 CSS
 
 ---
 
-Minimal CSS
+미니멀 CSS
 
 #### --answer--
 
@@ -61,41 +61,41 @@ Tailwind CSS
 
 #### --text--
 
-What is a disadvantage of CSS frameworks?
+CSS 프레임워크의 단점은 무엇인가요?
 
 #### --distractors--
 
-Too few components.
+컴포넌트가 너무 적습니다.
 
 ---
 
-No customization options.
+커스터마이징 옵션이 없습니다.
 
 ---
 
-Improved browser support.
+브라우저 지원이 향상됩니다.
 
 #### --answer--
 
-Can bloat CSS files.
+CSS 파일이 부풀려질 수 있습니다.
 
 ### --question--
 
 #### --text--
 
-What does SCSS stand for?
+SCSS는 무엇의 약자인가요?
 
 #### --distractors--
 
-Super Cascading Style Sheets.
+슈퍼 캐스케이딩 스타일 시트.
 
 ---
 
-Structured CSS.
+구조화된 CSS.
 
 ---
 
-Simple CSS.
+간단한 CSS.
 
 #### --answer--
 
@@ -105,29 +105,29 @@ Sassy CSS.
 
 #### --text--
 
-Which of the following is a feature of Sass?
+다음 중 Sass의 기능은 무엇인가요?
 
 #### --distractors--
 
-Comments
+주석
 
 ---
 
-CSS linting.
+CSS 린팅.
 
 ---
 
-Inline CSS.
+인라인 CSS.
 
 #### --answer--
 
-Mixins
+믹스인
 
 ### --question--
 
 #### --text--
 
-Which of the following is the correct way to use utility classes in Tailwind CSS?
+Tailwind CSS에서 유틸리티 클래스를 사용하는 올바른 방법은 무엇인가요?
 
 #### --distractors--
 
@@ -147,7 +147,6 @@ Which of the following is the correct way to use utility classes in Tailwind CSS
 
 ---
 
-
 ```html
 <button class="set-blue set-text set-font set-hover round-btn padding-full">
   Button
@@ -155,7 +154,6 @@ Which of the following is the correct way to use utility classes in Tailwind CSS
 ```
 
 #### --answer--
-
 
 ```html
 <button class="bg-blue-500 text-white font-bold py-2 px-4 rounded-full hover:bg-blue-700">
@@ -167,29 +165,29 @@ Which of the following is the correct way to use utility classes in Tailwind CSS
 
 #### --text--
 
-What are the two types of CSS frameworks?
+CSS 프레임워크의 두 가지 유형은 무엇인가요?
 
 #### --distractors--
 
-Tablet first CSS frameworks and Component-based CSS frameworks.
+태블릿 우선 CSS 프레임워크와 컴포넌트 기반 CSS 프레임워크.
 
 ---
 
-Utility-first CSS frameworks and Lazy loading CSS frameworks.
+유틸리티 우선 CSS 프레임워크와 지연 로딩 CSS 프레임워크.
 
 ---
 
-Minimal CSS frameworks and Utility-first CSS frameworks.
+미니멀 CSS 프레임워크와 유틸리티 우선 CSS 프레임워크.
 
 #### --answer--
 
-Utility-first CSS frameworks and Component-based CSS frameworks.
+유틸리티 우선 CSS 프레임워크와 컴포넌트 기반 CSS 프레임워크.
 
 ### --question--
 
 #### --text--
 
-What is the file extension for SCSS?
+SCSS의 파일 확장자는 무엇인가요?
 
 #### --distractors--
 
@@ -211,7 +209,7 @@ What is the file extension for SCSS?
 
 #### --text--
 
-Which of the following is the correct way to define a variable in SCSS?
+SCSS에서 변수를 정의하는 올바른 방법은 무엇인가요?
 
 #### --distractors--
 
@@ -257,7 +255,7 @@ header {
 
 #### --text--
 
-Which of the following is the correct way to define a mixin?
+믹스인을 정의하는 올바른 방법은 무엇인가요?
 
 #### --distractors--
 
@@ -298,4 +296,3 @@ mixin center-flex {
   align-items: center;
 }
 ```
-

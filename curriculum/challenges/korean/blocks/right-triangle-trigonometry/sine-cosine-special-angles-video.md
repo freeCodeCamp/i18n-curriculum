@@ -1,6 +1,6 @@
 ---
 id: 699e5b9e8f18cf77dfce5c0e
-title: Sine and Cosine of Special Angles
+title: 특수 각도의 사인과 코사인
 challengeType: 11
 videoId: X0Bh-NiQ3KQ
 dashedName: sine-cosine-special-angles
@@ -8,13 +8,13 @@ dashedName: sine-cosine-special-angles
 
 # --description--
 
-In this video, you will learn how to find the sine and cosine of special angles, such as 30°, 45°, and 60°.
+이 영상에서는 30°, 45°, 60°와 같은 특수 각도의 사인과 코사인을 구하는 방법을 배우세요.
 
 # --questions--
 
 ## --text--
 
-What is the cosine of 45° for a right triangle with the hypotenuse of length 5?
+빗변의 길이가 5인 직각삼각형에서 45°의 코사인은 얼마인가요?
 
 ## --answers--
 
@@ -35,5 +35,3 @@ $\frac{\sqrt{2}}{2}$
 ## --video-solution--
 
 4
-
-

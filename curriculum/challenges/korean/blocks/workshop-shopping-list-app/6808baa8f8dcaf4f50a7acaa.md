@@ -1,19 +1,19 @@
 ---
 id: 6808baa8f8dcaf4f50a7acaa
-title: Step 17
+title: 17단계
 challengeType: 0
 dashedName: step-17
 ---
 
 # --description--
 
-For the truthy condition, if `prev` includes `item`, return a filtered array with `item` removed.
+참인 조건에 대해 `prev`가 `item`을 포함하면 `item`가 제거된 필터링된 배열을 반환하세요.
 
-Chain the `filter()` method to `prev` and pass it an anonymous function that takes `i` as an argument. Inside the function, check that `i` is not strictly equal to `item`. This will return a new array with all items except `item`.
+`filter()`에 `prev` 메서드를 연결하고 `i`를 인수로 받는 익명 함수를 전달하세요. 함수 내부에서 `i`가 `item`와 엄격히 같지 않은지 확인하세요. 이렇게 하면 `item`를 제외한 모든 항목이 포함된 새 배열이 반환됩니다.
 
 # --hints--
 
-You should chain the `filter()` method to `prev` and pass it an anonymous function that takes `i` as an argument.
+`filter()`에 `prev` 메서드를 연결하고 `i`를 인수로 받는 익명 함수를 전달해야 합니다.
 
 ```js
 const script = [...document.querySelectorAll("script")].find((s) => s.dataset.src ===  "index.jsx").innerText;
@@ -24,7 +24,7 @@ const shoppingListString = exports.ShoppingList.toString();
 assert.match(shoppingListString, /prev\.includes\s*\(\s*item\s*\)\s*\?\s*prev\.filter\s*\(function\s*\(\s*i\s*\)\s*{/);
 ```
 
-Inside the anonymous `filter()` function, you should check that `i` is not strictly equal to `item`. Remember to return the result of that check.
+익명 `filter()` 함수 내부에서 `i`가 `item`와 엄격히 같지 않은지 확인하세요. 그 확인 결과를 반환하는 것도 잊지 마세요.
 
 ```js
 const script = [...document.querySelectorAll("script")].find((s) => s.dataset.src ===  "index.jsx").innerText;

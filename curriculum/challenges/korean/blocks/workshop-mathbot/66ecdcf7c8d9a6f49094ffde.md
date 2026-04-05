@@ -1,72 +1,72 @@
 ---
 id: 66ecdcf7c8d9a6f49094ffde
-title: Step 13
+title: 13단계
 challengeType: 1
 dashedName: step-13
 ---
 
 # --description--
 
-In previous lessons, you learned that the `Math.round()` method rounds the value to the nearest whole integer.
+이전 수업에서 `Math.round()` 메서드가 값을 가장 가까운 정수로 반올림한다는 것을 배웠습니다.
 
-Here are some examples:
+다음은 몇 가지 예시입니다:
 
 ```js
 Math.round(6.7); // 7
 Math.round(3.2); // 3
 ```
 
-This differs from the `Math.floor()` and `Math.ceil()` methods, which round down and up to the nearest whole integer, respectively.
+이는 각각 가장 가까운 정수로 내림과 올림을 하는 `Math.floor()` 및 `Math.ceil()` 메서드와 다릅니다.
 
-Create a new variable called `numRounded` and assign the result of rounding the number `2.7`. Then, log the value of `numRounded` to the console.
+`numRounded`라는 새 변수를 만들고 숫자 `2.7`를 반올림한 결과를 할당하세요. 그런 다음 `numRounded`의 값을 콘솔에 출력하세요.
 
-Below that, create another new variable called `numRounded2` and assign the result of rounding the number `11.2`. Then, log the value of `numRounded2` to the console.
+그 아래에 `numRounded2`라는 또 다른 새 변수를 만들고 숫자 `11.2`를 반올림한 결과를 할당하세요. 그런 다음 `numRounded2`의 값을 콘솔에 출력하세요.
 
 # --hints--
 
-You should have a variable called `numRounded`.
+`numRounded`라는 변수가 있어야 합니다.
 
 ```js
 assert.isNotNull(numRounded);
 ```
 
-You should assign the result of rounding the number `2.7` to the variable `numRounded`.
+숫자 `2.7`를 반올림한 결과를 `numRounded` 변수에 할당해야 합니다.
 
 ```js
 assert.equal(numRounded, 3);
 ```
 
-You should not hardcode the value of `3` for the variable `numRounded`. Make sure you are using the `Math.round()` method.
+`3` 변수에 `numRounded` 값을 하드코딩하지 마세요. `Math.round()` 메서드를 사용하고 있는지 확인하세요.
 
 ```js
 assert.notMatch(code, /numRounded\s*=\s*3/);
 ```
 
-You should log the value of `numRounded` to the console.
+`numRounded` 값을 콘솔에 출력해야 합니다.
 
 ```js
 assert.match(code, /console\.log\(\s*numRounded\s*\)/);
 ```
 
-You should have a variable called `numRounded2`.
+`numRounded2`라는 변수가 있어야 합니다.
 
 ```js
 assert.isNotNull(numRounded2);
 ```
 
-You should assign the result of rounding the number `11.2` to the variable `numRounded2`.
+숫자 `11.2`를 반올림한 결과를 `numRounded2` 변수에 할당해야 합니다.
 
 ```js
 assert.equal(numRounded2, 11);
 ```
 
-You should not hardcode the value of `11` for the variable `numRounded2`. Make sure you are using the `Math.round()` method.
+`11` 변수에 `numRounded2` 값을 하드코딩하지 마세요. `Math.round()` 메서드를 사용하고 있는지 확인하세요.
 
 ```js
 assert.notMatch(code, /numRounded2\s*=\s*11/);
 ```
 
-You should log the value of `numRounded2` to the console.
+`numRounded2` 값을 콘솔에 출력해야 합니다.
 
 ```js
 assert.match(code, /console\.log\(\s*numRounded2\s*\)/);

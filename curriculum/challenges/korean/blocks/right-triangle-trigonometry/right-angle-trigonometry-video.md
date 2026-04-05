@@ -1,6 +1,6 @@
 ---
 id: 699e5b998f18cf77dfce5c0d
-title: Right Angle Trigonometry
+title: 직각 삼각법
 challengeType: 11
 videoId: j81PeMJaju0
 dashedName: right-angle-trigonometry
@@ -8,32 +8,30 @@ dashedName: right-angle-trigonometry
 
 # --description--
 
-In this video, you will learn about common trig functions including sine, cosine, and tangent and how to calculate them for right triangles.
+이 영상에서는 사인, 코사인, 탄젠트 등 일반적인 삼각함수와 직각삼각형에서 이를 계산하는 방법을 배우세요.
 
 # --questions--
 
 ## --text--
 
-What is the sine of theta for a right triangle?
+직각삼각형에서 세타의 사인은 무엇인가요?
 
 ## --answers--
 
-Adjacent over opposite
+인접 변을 대변으로 나눈 값
 
 ---
 
-Opposite over hypotenuse
+대변을 빗변으로 나눈 값
 
 ---
 
-Hypotenuse over opposite
+빗변을 대변으로 나눈 값
 
 ---
 
-Adjacent over hypotenuse
+인접 변을 빗변으로 나눈 값
 
 ## --video-solution--
 
 2
-
-

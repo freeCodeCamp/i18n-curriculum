@@ -1,17 +1,17 @@
 ---
 id: 67f8eeab71f4f24ba1a3a7eb
-title: Step 11
+title: 11단계
 challengeType: 0
 dashedName: step-11
 ---
 
 # --description--
 
-After the form, add a `div` element with an `id` of `results` that will display the search results.
+폼 뒤에 `div` 요소를 추가하고, `id`의 `results`을 넣어 검색 결과를 표시하세요.
 
 # --hints--
 
-You should have a `div` element with the `id` of `results` after the form.
+폼 뒤에 `div`의 `id`인 `results` 요소가 있어야 합니다.
 
 ```js
 const searchContainer = document.getElementById("search-container");
@@ -122,7 +122,7 @@ export function FruitsSearch() {
           onChange={(e) => setQuery(e.target.value)}
         />
       </form>
-
+      
     --fcc-editable-region--
     </div>
   );

@@ -1,28 +1,28 @@
 ---
 id: 68f1196f0fedc6f6ecc9aba6
-title: Step 4
+title: 4단계
 challengeType: 20
 dashedName: step-4
 ---
 
 # --description--
 
-In Python, a return type hint indicates the expected return type of a function or method. You do this by adding `-> return_type` after the parameter list in the method definition.
+Python에서 반환 타입 힌트는 함수나 메서드가 반환할 것으로 예상되는 타입을 나타냅니다. 메서드 정의에서 매개변수 목록 뒤에 `-> return_type`를 추가하여 이 작업을 합니다.
 
-Here is an example of a method with both parameter and return type hints whose return type is `bool`:
+다음은 매개변수와 반환 타입 힌트가 모두 있는 메서드 예시로, 반환 타입은 `bool`입니다:
 
 ```py
 def example_method(self, value: int) -> bool:
   pass
 ```
 
-Other return type hints you might use include `str`, `None`, `float` and more.
+사용할 수 있는 다른 반환 타입 힌트로는 `str`, `None`, `float` 등이 있습니다.
 
-In the existing `__init__` method, add a return type hint of `None` since constructors do not return a value.
+기존 `__init__` 메서드에 생성자는 값을 반환하지 않으므로 `None` 반환 타입 힌트를 추가하세요.
 
 # --hints--
 
-Your `__init__` method should have a return type hint of `None`.
+`__init__` 메서드에는 `None` 반환 타입 힌트가 있어야 합니다.
 
 ```js
 ({

@@ -7,23 +7,23 @@ dashedName: step-57
 
 # --description--
 
-Now apply the `established` class to the `Est. 2020` text.
+이제 `established` 텍스트에 `Est. 2020` 클래스를 적용하세요.
 
 # --hints--
 
-You should set the `class` of the `p` element to `established`.
+`class` 요소의 `p`를 `established`로 설정하세요.
 
 ```js
 assert.match(code,/<p class=('|")established\1>/i);
 ```
 
-Your `established` class should be on the element with the text `Est. 2020`.
+`established` 텍스트가 있는 요소에 `Est. 2020` 클래스를 지정해야 합니다.
 
 ```js
 assert.match(document.querySelector('.established')?.innerText, /Est\.\s2020/i);
 ```
 
-Your `established` class element should have italic text.
+`established` 클래스가 있는 요소는 기울임꼴 텍스트여야 합니다.
 
 ```js
 const establishElement = document.querySelector('.established');

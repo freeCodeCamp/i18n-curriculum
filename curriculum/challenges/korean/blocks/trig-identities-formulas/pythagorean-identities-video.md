@@ -1,6 +1,6 @@
 ---
 id: 699e782a8f18cf77dfce5c19
-title: Pythagorean Identities
+title: 피타고라스 항등식
 challengeType: 11
 videoId: C1i_FlxW_uE
 dashedName: pythagorean-identities
@@ -8,13 +8,13 @@ dashedName: pythagorean-identities
 
 # --description--
 
-In this video, you will learn about the Pythagorean identities.
+이 영상에서는 피타고라스 항등식에 대해 배우세요.
 
 # --questions--
 
 ## --text--
 
-Which of the following is an example of a Pythagorean identity?
+다음 중 피타고라스 항등식의 예는 무엇인가요?
 
 ## --answers--
 
@@ -35,5 +35,3 @@ $\cot^2(x) - 1 = \csc^2(x)$
 ## --video-solution--
 
 2
-
-

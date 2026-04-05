@@ -1,15 +1,15 @@
 ---
 id: 66a97ca8c4cbae7d0bb6e0ad
-title: Step 29
+title: 29단계
 challengeType: 0
 dashedName: step-29
 ---
 
 # --description--
 
-Inside your `select` element, add the following five `option` elements with these corresponding values for the `option` text and `value` attribute:
+`select` 요소 안에 다음 다섯 개의 `option` 요소를 `option` 텍스트와 `value` 속성에 해당하는 값으로 추가하세요.
 
-**Value Attribute:**
+**value 속성:**
 
 - poor
 - satisfactory
@@ -17,7 +17,7 @@ Inside your `select` element, add the following five `option` elements with thes
 - very-good
 - excellent
 
-**Option Text:**
+**옵션 텍스트:**
 
 - Poor
 - Satisfactory
@@ -26,72 +26,72 @@ Inside your `select` element, add the following five `option` elements with thes
 - Excellent
 
 
-Don't forget to add the `selected` attribute to the `option` element with the value of `"excellent"`.
+`selected` 요소에 `option` 속성을 `"excellent"` 값으로 추가하는 것을 잊지 마세요.
 
 # --hints--
 
-You should have an `option` element with the value set to `"poor"`.
+`option` 요소가 `"poor"` 값으로 설정되어 있어야 합니다.
 
 ```js
 assert.exists(document.querySelector('fieldset:nth-of-type(4) select#food option[value="poor"]'));
 ```
 
-Your `option` with the `value` of `"poor"` should have the text `"Poor"`.
+`option`의 `value`가 `"poor"`인 요소는 `"Poor"` 텍스트를 가져야 합니다.
 
 ```js
 assert.strictEqual(document.querySelector('fieldset:nth-of-type(4) select#food option[value="poor"]')?.textContent.trim(), 'Poor');
 ```
 
-You should have an `option` element with the `value` set to `"satisfactory"`.
+`option` 요소가 `value`를 `"satisfactory"`로 설정해야 합니다.
 
 ```js
 assert.exists(document.querySelector('fieldset:nth-of-type(4) select#food option[value="satisfactory"]'));
 ```
 
-Your `option` with the `value` of `"satisfactory"` should have the text `"Satisfactory"`.
+`option`의 `value`가 `"satisfactory"`인 요소는 `"Satisfactory"` 텍스트를 가져야 합니다.
 
 ```js
 assert.strictEqual(document.querySelector('fieldset:nth-of-type(4) select#food option[value="satisfactory"]')?.textContent.trim(), 'Satisfactory');
 ```
 
-You should have an `option` element with the `value` set to `"good"`.
+`option` 요소가 `value`를 `"good"`로 설정해야 합니다.
 
 ```js
 assert.exists(document.querySelector('fieldset:nth-of-type(4) select#food option[value="good"]'));
 ```
 
-Your `option` with the `value` of `"good"` should have the text `"Good"`.
+`option`의 `value`가 `"good"`인 요소는 `"Good"` 텍스트를 가져야 합니다.
 
 ```js
 
 assert.strictEqual(document.querySelector('fieldset:nth-of-type(4) select#food option[value="good"]')?.textContent.trim(), 'Good');
 ```
 
-You should have an `option` element with the value set to `"very-good"`.
+`option` 요소가 `"very-good"` 값으로 설정되어야 합니다.
 
 ```js
 assert.exists(document.querySelector('fieldset:nth-of-type(4) select#food option[value="very-good"]'));
 ```
 
-Your `option` with the `value` of `"very-good"` should have the text `"Very Good"`.
+`option`의 `value`가 `"very-good"`인 요소는 `"Very Good"` 텍스트를 가져야 합니다.
 
 ```js
 assert.strictEqual(document.querySelector('fieldset:nth-of-type(4) select#food option[value="very-good"]')?.textContent.trim(), 'Very Good');
 ```
 
-You should have an `option` element with the value set to `"excellent"`.
+`option` 요소가 `"excellent"` 값으로 설정되어야 합니다.
 
 ```js
 assert.exists(document.querySelector('fieldset:nth-of-type(4) select#food option[value="excellent"]'));
 ```
 
-Your `option` with the `value` of `"excellent"` should have the text `"Excellent"`.
+`option`의 `value`가 `"excellent"`인 요소는 `"Excellent"` 텍스트를 가져야 합니다.
 
 ```js
 assert.strictEqual(document.querySelector('fieldset:nth-of-type(4) select#food option[value="excellent"]')?.textContent.trim(), 'Excellent');
 ```
 
-You should have an `option` element with the `selected` attribute set to `"excellent"`.
+`option` 요소가 `selected` 속성을 `"excellent"`로 설정해야 합니다.
 
 ```js
 assert.exists(document.querySelector('fieldset:nth-of-type(4) select#food option[value="excellent"][selected]'));
@@ -159,7 +159,7 @@ assert.exists(document.querySelector('fieldset:nth-of-type(4) select#food option
             value="recommendation"
           />
           <label for="recommendation">Personal Recommendation</label>
-
+          
           <input type="checkbox" id="location" name="choice" value="location" />
           <label for="location">Location</label>
 
@@ -171,7 +171,7 @@ assert.exists(document.querySelector('fieldset:nth-of-type(4) select#food option
             value="reputation"
           />
           <label for="reputation">Reputation</label>
-
+          
           <input type="checkbox" id="price" name="choice" value="price" />
           <label for="price">Price</label>
         </fieldset>
@@ -193,7 +193,7 @@ assert.exists(document.querySelector('fieldset:nth-of-type(4) select#food option
 
           <select name="food" id="food">
           --fcc-editable-region--
-
+            
           --fcc-editable-region--
           </select>
         </fieldset>

@@ -1,21 +1,21 @@
 ---
 id: 66cc1ccfefdd727e18c2ab20
-title: Step 14
+title: 14단계
 challengeType: 1
 dashedName: step-14
 ---
 
 # --description--
 
-Your `calculateQuotient` appears to be working correctly but there is one case that you have not tested yet.
+`calculateQuotient`가 제대로 작동하는 것 같지만 아직 테스트하지 않은 경우가 하나 있습니다.
 
-Add a `console.log` that calls the `calculateQuotient` function with the arguments `3` and `0`.
+`console.log`를 추가하여 `calculateQuotient` 함수를 인수 `3`과 `0`로 호출하세요.
 
-Make sure to take a close look at the output of this call.
+이 호출의 출력 결과를 꼼꼼히 확인하세요.
 
 # --hints--
 
-You should have a `console.log` that calls the `calculateQuotient` function with the arguments `3` and `0`.
+`console.log`가 `calculateQuotient` 함수를 인수 `3`과 `0`로 호출해야 합니다.
 
 ```js
 assert.match(code, /console\.log\s*\(\s*calculateQuotient\s*\(\s*3\s*,\s*0\s*\)\s*\)\s*;?/);

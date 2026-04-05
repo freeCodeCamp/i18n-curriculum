@@ -1,26 +1,26 @@
 ---
 id: 686daa7ed79ceacd0b264e7f
-title: Step 4
+title: 4단계
 challengeType: 0
 dashedName: step-4
 ---
 
 # --description--
 
-The next step is to set the `width` and `height` attributes for the `svg` element. As you are creating an icon, both values should be set small.
+다음 단계는 `width` 요소에 `height`와 `svg` 속성을 설정하는 것입니다. 아이콘을 만들고 있으므로 두 값 모두 작게 설정해야 합니다.
 
-Set both values to `24`.
+두 값을 `24`로 설정하세요.
 
 # --hints--
 
-Your `svg` element should have a `width` attribute of `24`.
+`svg` 요소는 `width`인 `24` 속성을 가져야 합니다.
 
 ```js
 const svg = document.querySelector('svg');
 assert.strictEqual(svg.getAttribute('width'), '24');
 ```
 
-Your `svg` element should have a `height` attribute of `24`.
+`svg` 요소는 `height`인 `24` 속성을 가져야 합니다.
 
 ```js
 const svg = document.querySelector('svg');

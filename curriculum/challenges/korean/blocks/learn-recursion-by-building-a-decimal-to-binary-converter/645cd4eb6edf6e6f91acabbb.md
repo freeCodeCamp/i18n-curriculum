@@ -1,24 +1,24 @@
 ---
 id: 645cd4eb6edf6e6f91acabbb
-title: Step 53
+title: 53단계
 challengeType: 0
 dashedName: step-53
 ---
 
 # --description--
 
-Now that `b()` has executed, pop it off the call stack. Then, update your mock call to `a()` to the following: `"a(): returns 'freeCodeCamp ' + 'is awesome!'"`.
+`b()`가 실행된 후, 호출 스택에서 제거하세요. 그런 다음 `a()`에 대한 모의 호출을 다음과 같이 업데이트하세요: `"a(): returns 'freeCodeCamp ' + 'is awesome!'"`.
 
 # --hints--
 
-`callStack` should have one element that is a string.
+`callStack`에는 문자열인 요소가 하나 있어야 합니다.
 
 ```js
 assert.lengthOf(callStack, 1);
 assert.isString(callStack[0]);
 ```
 
-The string in `callStack` should be the string `"a(): returns 'freeCodeCamp ' + 'is awesome!'"`.
+`callStack`의 문자열은 `"a(): returns 'freeCodeCamp ' + 'is awesome!'"` 문자열이어야 합니다.
 
 ```js
 assert.match(

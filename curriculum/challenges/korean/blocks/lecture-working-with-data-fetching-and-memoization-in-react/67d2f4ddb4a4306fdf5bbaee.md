@@ -1,43 +1,43 @@
 ---
 id: 67d2f4ddb4a4306fdf5bbaee
-title: What Is Memoization, and How Does the useMemo Hook Work?
+title: 메모이제이션이란 무엇이며 useMemo 훅은 어떻게 작동하나요?
 challengeType: 19
 dashedName: what-is-memoization-and-how-does-the-usememo-hook-work
 ---
 
 # --description--
 
-As your React app gets larger, unnecessary re-renders and expensive calculations can slow down performance, leading to slow UI updates and increased resource usage.
+React 앱이 커질수록 불필요한 재렌더링과 비용이 많이 드는 계산이 성능을 저하시켜 UI 업데이트가 느려지고 리소스 사용량이 증가할 수 있습니다.
 
-This can be especially problematic in apps with complex state management, large lists, functions that require heavy computations, and many components with a single parent.
+특히 복잡한 상태 관리, 큰 목록, 무거운 계산이 필요한 함수, 그리고 단일 부모를 가진 많은 컴포넌트가 있는 앱에서 이런 문제가 더 심각해질 수 있습니다.
 
-This gives rise to the need to optimize your React app for better performance by minimizing redundant computations and ensuring smoother interactions.
+이로 인해 중복 계산을 최소화하고 더 부드러운 상호작용을 보장하여 React 앱의 성능을 최적화할 필요가 생깁니다.
 
-React solves this problem with a process called memoization, a technique which caches values and functions to prevent unnecessary recalculations, so your app can be faster and more responsive.
+React는 메모이제이션이라는 과정을 통해 이 문제를 해결합니다. 메모이제이션은 값을 캐시하여 불필요한 재계산을 방지하는 기법으로, 앱이 더 빠르고 반응형이 되도록 합니다.
 
-By definition, memoization is an optimization technique in which the result of expensive function calls are cached (remembered) based on specific arguments. When the same arguments are provided again, the cached result is returned instead of re-computing the function.
+메모이제이션은 비용이 많이 드는 함수 호출 결과를 특정 인수에 따라 캐시(기억)하는 최적화 기법입니다. 같은 인수가 다시 주어지면, 함수를 다시 계산하지 않고 캐시된 결과를 반환합니다.
 
-The memoization process happens this way:
+메모이제이션 과정은 다음과 같습니다:
 
-- Store the results of function calls along with their input arguments.
+- 함수 호출 결과와 입력 인수를 저장합니다.
 
-- Before executing the function, check if the result for the current arguments already exists in the cache.
+- 함수를 실행하기 전에 현재 인수에 대한 결과가 캐시에 이미 있는지 확인합니다.
 
-- If it exists, return the cached result instead of running the computation again.
+- 있으면, 계산을 다시 하지 않고 캐시된 결과를 반환합니다.
 
-- If it doesn't exist, compute the result, store it in the cache, and then return it.
+- 없으면, 결과를 계산하고 캐시에 저장한 후 반환합니다.
 
-To improve developer experience with memoization, React provides three tools – `React.memo` (or `memo`), `useMemo` and `useCallback`. 
+메모이제이션을 더 쉽게 사용하도록 React는 세 가지 도구를 제공합니다 – `React.memo` (또는 `memo`), `useMemo` 그리고 `useCallback`.
 
-As you might guess, both `useMemo` and `useCallback` are hooks, but `React.memo` is a component wrapper, a higher-order component (HOC).
+예상하셨겠지만, `useMemo`와 `useCallback`는 훅이고 `React.memo`는 컴포넌트 래퍼인 고차 컴포넌트(HOC)입니다.
 
-In the next lesson, we will take a look at how the `useCallback` hook and `React.memo` work.
+다음 수업에서는 `useCallback` 훅과 `React.memo`이 어떻게 작동하는지 살펴보겠습니다.
 
-`useMemo` lets you memoize computed values while `useCallback` does the same for function references.
+`useMemo`는 계산된 값을 메모이제이션할 수 있게 해주고 `useCallback`는 함수 참조에 대해 같은 역할을 합니다.
 
-If you're wondering what computed values and function references are, computed values refer to the result of executing a function, while function references are the pointers to functions – the function object in memory.
+계산된 값과 함수 참조가 무엇인지 궁금하다면, 계산된 값은 함수 실행 결과를 의미하고 함수 참조는 함수에 대한 포인터, 즉 메모리 내 함수 객체를 뜻합니다.
 
-Let's see how to use the `useMemo` hook first. Here's the basic syntax of the `useMemo` hook:
+먼저 `useMemo` 훅을 사용하는 방법을 살펴보겠습니다. `useMemo` 훅의 기본 구문은 다음과 같습니다:
 
 ```js
 const memoizedValue = useMemo(
@@ -48,9 +48,9 @@ const memoizedValue = useMemo(
 );
 ```
 
-You can see all that's needed is to wrap the `useMemo` hook around the function.
+필요한 것은 `useMemo` 훅을 함수 주위에 감싸는 것뿐임을 알 수 있습니다.
 
-This `ExpensiveSquare` component will receive a `num` prop which it will use to calculate the square:
+이 `ExpensiveSquare` 컴포넌트는 제곱을 계산하는 데 사용할 `num` 프로프를 받습니다:
 
 ```jsx
 function ExpensiveSquare({ num }) {
@@ -69,7 +69,7 @@ function ExpensiveSquare({ num }) {
 export default ExpensiveSquare;
 ```
 
-Here's the `App` component where the `ExpensiveSquare` is being used:
+다음은 `App` 컴포넌트로 `ExpensiveSquare`가 사용되고 있습니다:
 
 ```jsx
 import { useState, useEffect } from "react";
@@ -96,9 +96,9 @@ function App() {
 export default App;
 ```
 
-The `timer` in the `useEffect`, running every second, will make the `calculateSquare` function run any time it runs, even when you don't increase the `num` state variable.
+`timer`가 `useEffect`에서 1초마다 실행되는데, `calculateSquare` 함수가 `num` 상태 변수를 증가시키지 않아도 매번 실행됩니다.
 
-To solve this problem, we can use the `useMemo` hook by wrapping the function call in it and specifying the `num` variable as the dependency:
+이 문제를 해결하려면 `useMemo` 훅을 사용해 함수 호출을 감싸고 `num` 변수를 의존성으로 지정하면 됩니다:
 
 ```jsx
 // import the useMemo hook
@@ -124,43 +124,43 @@ function ExpensiveSquare({ num }) {
 export default ExpensiveSquare;
 ```
 
-This will make sure the function is memoized by caching the result, so calculation happens only when the `num` variable changes, not when anything changes in the component it's being used in.
+이렇게 하면 함수가 결과를 캐시하여 메모이제이션되므로 `num` 변수가 변경될 때만 계산이 이루어지고, 컴포넌트 내 다른 변경 사항에는 영향을 받지 않습니다.
 
-The `calculateSquare` function call is not running any time `timer` changes anymore but on the initial render and when `num` changes.
+`calculateSquare` 함수 호출은 더 이상 `timer`가 변경될 때마다 실행되지 않고, 초기 렌더링 시와 `num`가 변경될 때만 실행됩니다.
 
 # --questions--
 
 ## --text--
 
-What is memoization in React?
+React에서 메모이제이션이란 무엇인가요?
 
 ## --answers--
 
-A technique that caches values and functions to prevent unnecessary recalculations.
+불필요한 재계산을 방지하기 위해 값과 함수를 캐시하는 기법입니다.
 
 ---
 
-A technique that lets you manage component state updates to prevent unnecessary recalculations.
+컴포넌트 상태 업데이트를 관리하여 불필요한 재계산을 방지하는 기법입니다.
 
 ### --feedback--
 
-It helps optimize performance by storing previously computed results.
+이전 계산 결과를 저장해 성능을 최적화하는 데 도움이 됩니다.
 
 ---
 
-A process of reconciling the Virtual DOM with the actual DOM.
+가상 DOM과 실제 DOM을 조정하는 과정입니다.
 
 ### --feedback--
 
-It helps optimize performance by storing previously computed results.
+이전 계산 결과를 저장해 성능을 최적화하는 데 도움이 됩니다.
 
 ---
 
-A way to handle side effects in functional components.
+함수형 컴포넌트에서 부수 효과를 처리하는 방법입니다.
 
 ### --feedback--
 
-It helps optimize performance by storing previously computed results.
+이전 계산 결과를 저장해 성능을 최적화하는 데 도움이 됩니다.
 
 ## --video-solution--
 
@@ -168,35 +168,35 @@ It helps optimize performance by storing previously computed results.
 
 ## --text--
 
-What is the difference between computed values and function references?
+계산된 값과 함수 참조의 차이는 무엇인가요?
 
 ## --answers--
 
-Computed values are function objects, while function references are execution results.
+계산된 값은 함수 객체이고, 함수 참조는 실행 결과입니다.
 
 ### --feedback--
 
-One is the output of a function, while the other is just a pointer to it.
+하나는 함수의 출력이고, 다른 하나는 함수에 대한 포인터입니다.
 
 ---
 
-Computed values are the result of executing a function, while function references are the function objects in memory.
+계산된 값은 함수 실행 결과이고, 함수 참조는 메모리 내 함수 객체입니다.
 
 ---
 
-Computed values and function references are the same thing.
+계산된 값과 함수 참조는 같은 것입니다.
 
 ### --feedback--
 
-One is the output of a function, while the other is just a pointer to it.
+하나는 함수의 출력이고, 다른 하나는 함수에 대한 포인터입니다.
 
 ---
 
-Function references store computed values.
+함수 참조는 계산된 값을 저장합니다.
 
 ### --feedback--
 
-One is the output of a function, while the other is just a pointer to it.
+하나는 함수의 출력이고, 다른 하나는 함수에 대한 포인터입니다.
 
 ## --video-solution--
 
@@ -204,7 +204,7 @@ One is the output of a function, while the other is just a pointer to it.
 
 ## --text--
 
-Which of these is NOT one of the tools React provides for memoization?
+다음 중 React가 메모이제이션을 위해 제공하지 않는 도구는 무엇인가요?
 
 ## --answers--
 
@@ -212,7 +212,7 @@ Which of these is NOT one of the tools React provides for memoization?
 
 ### --feedback--
 
-Memoization tools focus on caching values and functions, while this option handles side effects.
+메모이제이션 도구는 값과 함수를 캐시하는 데 집중하며, 이 옵션은 부수 효과를 처리합니다.
 
 ---
 
@@ -220,7 +220,7 @@ Memoization tools focus on caching values and functions, while this option handl
 
 ### --feedback--
 
-Memoization tools focus on caching values and functions, while this option handles side effects.
+메모이제이션 도구는 값과 함수를 캐시하는 데 집중하며, 이 옵션은 부수 효과를 처리합니다.
 
 ---
 
@@ -228,7 +228,7 @@ Memoization tools focus on caching values and functions, while this option handl
 
 ### --feedback--
 
-Memoization tools focus on caching values and functions, while this option handles side effects.
+메모이제이션 도구는 값과 함수를 캐시하는 데 집중하며, 이 옵션은 부수 효과를 처리합니다.
 
 ---
 

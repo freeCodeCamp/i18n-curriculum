@@ -1,25 +1,25 @@
 ---
 id: 6723cc7a8e7aa3b9befd4bac
-title: DOM Manipulation and Click Events with JavaScript Review
+title: JavaScript로 DOM 조작과 클릭 이벤트 복습
 challengeType: 31
 dashedName: review-dom-manipulation-and-click-events-with-javascript
 ---
 
 # --interactive--
 
-## Working with the DOM and Web APIs
+## DOM과 웹 API 다루기
 
-- **API**: An API (Application Programming Interface) is a set of rules and protocols that allow software applications to communicate with each other and exchange data efficiently.
-- **Web API**: Web APIs are specifically designed for web applications. These types of APIs are often divided into two main categories: browser APIs and third-party APIs.
-- **Browser APIs**: These APIs expose data from the browser. As a web developer, you can access and manipulate this data using JavaScript.
-- **Third-Party APIs**: These are not built into the browser by default. You have to retrieve their code in some way. Usually, they will have detailed documentation explaining how to use their services. An example is the Google Maps API, which you can use to display interactive maps on your website.
-- **DOM**: The DOM stands for Document Object Model. It's a programming interface that lets you interact with HTML documents. With the DOM, you can add, modify, or delete elements on a webpage. The root of the DOM tree is the `html` element. It's the top-level container for all the content of an HTML document. All other nodes are descendants of this root node. Then, below the root node, we find other nodes in the hierarchy. A parent node is an element that contains other elements. A child node is an element that is contained within another element.
-- **`navigator` Interface**: This provides information about the browser environment, such as the user agent string, the platform, and the version of the browser. A user agent string is a text string that identifies the browser and operating system being used.
-- **`window` Interface**: This represents the browser window that contains the DOM document. It provides methods and properties for interacting with the browser window, such as resizing the window, opening new windows, and navigating to different URLs.
+- **API**: API(애플리케이션 프로그래밍 인터페이스)는 소프트웨어 애플리케이션들이 서로 소통하고 데이터를 효율적으로 교환할 수 있게 하는 규칙과 프로토콜의 집합입니다.
+- **웹 API**: 웹 API는 웹 애플리케이션을 위해 특별히 설계된 API입니다. 이러한 API는 보통 브라우저 API와 서드파티 API 두 가지 주요 범주로 나뉩니다.
+- **브라우저 API**: 이 API들은 브라우저에서 데이터를 노출합니다. 웹 개발자는 JavaScript를 사용해 이 데이터를 접근하고 조작할 수 있습니다.
+- **서드파티 API**: 기본적으로 브라우저에 내장되어 있지 않습니다. 코드를 어떤 방식으로든 가져와야 합니다. 보통 서비스 사용법을 설명하는 자세한 문서가 제공됩니다. 예를 들어, Google Maps API는 웹사이트에 인터랙티브한 지도를 표시할 때 사용할 수 있습니다.
+- **DOM**: DOM은 문서 객체 모델(Document Object Model)의 약자입니다. HTML 문서와 상호작용할 수 있는 프로그래밍 인터페이스입니다. DOM을 통해 웹페이지의 요소를 추가, 수정, 삭제할 수 있습니다. DOM 트리의 루트는 `html` 요소입니다. 이는 HTML 문서의 모든 콘텐츠를 담는 최상위 컨테이너입니다. 다른 모든 노드는 이 루트 노드의 자손입니다. 루트 노드 아래에는 계층 구조에 따라 다른 노드들이 있습니다. 부모 노드는 다른 요소를 포함하는 요소이고, 자식 노드는 다른 요소 안에 포함된 요소입니다.
+- **`navigator` 인터페이스**: 사용자 에이전트 문자열, 플랫폼, 브라우저 버전 등 브라우저 환경 정보를 제공합니다. 사용자 에이전트 문자열은 사용 중인 브라우저와 운영체제를 식별하는 텍스트 문자열입니다.
+- **`window` 인터페이스**: DOM 문서를 포함하는 브라우저 창을 나타냅니다. 창 크기 조절, 새 창 열기, 다른 URL로 이동 같은 브라우저 창과 상호작용하는 메서드와 속성을 제공합니다.
 
-## Working with the `querySelector()`, `querySelectorAll()` and `getElementById()` Methods
+## `querySelector()`, `querySelectorAll()`, `getElementById()` 메서드 다루기
 
-- **`getElementById()` Method**: This method is used to get an object that represents the HTML element with the specified `id`. Remember that ids must be unique in every HTML document, so this method will only return one Element object.
+- **`getElementById()` 메서드**: 지정한 `id`을 가진 HTML 요소를 나타내는 객체를 가져오는 데 사용합니다. id는 HTML 문서마다 고유해야 하므로 이 메서드는 하나의 Element 객체만 반환합니다.
 
 :::interactive_editor
 
@@ -35,7 +35,7 @@ console.log(container)
 
 :::
 
-- **`querySelector()` Method**: This method is used to get the first element in the HTML document that matches the CSS selector passed as an argument.
+- **`querySelector()` 메서드**: 인수로 전달된 CSS 선택자와 일치하는 HTML 문서 내 첫 번째 요소를 가져오는 데 사용합니다.
 
 :::interactive_editor
 
@@ -51,7 +51,7 @@ console.log(section)
 
 :::
 
-- **`querySelectorAll()` Method**: You can use this method to get a list of all the DOM elements that match a specific CSS selector.
+- **`querySelectorAll()` 메서드**: 특정 CSS 선택자와 일치하는 모든 DOM 요소 목록을 가져오는 데 사용할 수 있습니다.
 
 :::interactive_editor
 
@@ -71,9 +71,9 @@ console.log(ingredients)
 
 :::
 
-## Working with the `innerText()`, `innerHTML()`, `createElement()` and `textContent()` Methods
+## `innerText()`, `innerHTML()`, `createElement()`, `textContent()` 메서드 다루기
 
-- **`innerHTML` Property**: This is a property of the `Element` that is used to set or update parts of the HTML markup.
+- **`innerHTML` 속성**: `Element`의 속성으로, HTML 마크업의 일부를 설정하거나 업데이트하는 데 사용합니다.
 
 :::interactive_editor
 
@@ -91,13 +91,13 @@ container.innerHTML = '<ul><li>Cheese</li><li>Tomato</li></ul>';
 
 :::
 
-- **`createElement` Method**: This is used to create an HTML element.
+- **`createElement` 메서드**: HTML 요소를 생성하는 데 사용합니다.
 
 ```js
 const img = document.createElement("img");
 ```
 
-- **`innerText`**: This represents the visible text content of the HTML element and its descendants.
+- **`innerText`**: HTML 요소와 그 자손의 보이는 텍스트 콘텐츠를 나타냅니다.
 
 :::interactive_editor
 
@@ -116,7 +116,7 @@ console.log(container.innerText);
 
 :::
 
-- **`textContent`**: This returns the plain text content of an element, including all the text within its descendants.
+- **`textContent`**: 자손을 포함한 요소 내 모든 텍스트를 포함하는 일반 텍스트 콘텐츠를 반환합니다.
 
 :::interactive_editor
 
@@ -135,9 +135,9 @@ console.log(container.textContent);
 
 :::
 
-## Working with the `appendChild()` and `removeChild()` Methods
+## `appendChild()`와 `removeChild()` 메서드 다루기
 
-- **`appendChild()` Method**: This method is used to add a node to the end of the list of children of a specified parent node.
+- **`appendChild()` 메서드**: 지정한 부모 노드의 자식 목록 끝에 노드를 추가하는 데 사용합니다.
 
 :::interactive_editor
 
@@ -159,7 +159,7 @@ dessertsList.appendChild(listItem);
 
 :::
 
-- **`removeChild()` Method**: This method is used to remove a node from the DOM.
+- **`removeChild()` 메서드**: DOM에서 노드를 삭제하는 데 사용합니다.
 
 :::interactive_editor
 
@@ -181,9 +181,9 @@ sectionEl.removeChild(lastParagraph);
 
 :::
 
-## Work with the `setAttribute()` Method
+## `setAttribute()` 메서드 다루기
 
-- **Definition**: This method is used to set the attribute for a given element. If the attribute already exists, then the value is updated. Otherwise, a new attribute is added with a value.
+- **정의**: 이 메서드는 주어진 요소의 속성을 설정하는 데 사용합니다. 속성이 이미 있으면 값을 업데이트하고, 없으면 새 속성을 값과 함께 추가합니다.
 
 :::interactive_editor
 
@@ -199,13 +199,13 @@ para.setAttribute("class", "my-class");
 
 :::
 
-## Event Object
+## 이벤트 객체
 
-- **Definition**: The `Event` object is a payload that triggers when a user interacts with your web page in some way. These interactions can be anything from clicking on a button or focusing an input to shaking their mobile device. All `Event` objects will have the `type` property. This property reveals the type of event that triggered the payload, such as keydown or click. These values will correspond to the same values you might pass to `addEventListener()`, where you can capture and utilize the `Event` object.
+- **정의**: `Event` 객체는 사용자가 웹 페이지와 상호작용할 때 발생하는 페이로드입니다. 이 상호작용은 버튼 클릭, 입력 포커스, 모바일 기기 흔들기 등 다양합니다. 모든 `Event` 객체는 `type` 속성을 가집니다. 이 속성은 keydown이나 click 같은 이벤트 유형을 나타냅니다. 이 값들은 `addEventListener()`에 전달할 수 있는 값과 일치하며, 여기서 `Event` 객체를 캡처하고 활용할 수 있습니다.
 
-## `addEventListener()` and `removeEventListener()` Methods
+## `addEventListener()`와 `removeEventListener()` 메서드
 
-- **`addEventListener` Method**: This method is used to listen for events. It takes two arguments: the event you want to listen for and a function that will be called when the event occurs. Some common examples of events would be click events, input events, and change events.
+- **`addEventListener` 메서드**: 이벤트를 듣는 데 사용합니다. 두 개의 인수를 받는데, 하나는 듣고자 하는 이벤트이고 다른 하나는 이벤트 발생 시 호출될 함수입니다. 일반적인 이벤트 예로는 클릭 이벤트, 입력 이벤트, 변경 이벤트가 있습니다.
 
 :::interactive_editor
 
@@ -222,7 +222,7 @@ btn.addEventListener("click", () => alert("You clicked the button"));
 
 :::
 
-- **`removeEventListener()` Method**: This method is used to remove an event listener that was previously added to an element using the `addEventListener()` method. This is useful when you want to stop listening for a particular event on an element.
+- **`removeEventListener()` 메서드**: `addEventListener()` 메서드로 이전에 추가한 이벤트 리스너를 제거하는 데 사용합니다. 특정 이벤트에 대한 청취를 중단하고 싶을 때 유용합니다.
 
 :::interactive_editor
 
@@ -255,8 +255,7 @@ para.addEventListener("mouseover", () => {
 
 :::
 
-- **Inline Event Handlers**: Inline event handlers are special attributes on an HTML element that are used to execute JavaScript code when an event occurs. In modern JavaScript, inline event handlers are not considered best practice. It is preferred to use the `addEventListener` method instead.
-
+- **인라인 이벤트 핸들러**: 인라인 이벤트 핸들러는 이벤트가 발생할 때 JavaScript 코드를 실행하기 위해 HTML 요소에 특별히 지정된 속성입니다. 현대 JavaScript에서는 인라인 이벤트 핸들러가 모범 사례로 간주되지 않습니다. 대신 `addEventListener` 메서드를 사용하는 것이 권장됩니다.
 
 :::interactive_editor
 
@@ -266,9 +265,9 @@ para.addEventListener("mouseover", () => {
 
 :::
 
-## The Change Event
+## 변경 이벤트
 
-- **Definition**: The change event is a special event which is fired when the user modifies the value of certain input elements. Examples would include when a checkbox or a radio button is ticked. Or when the user makes a selection from something like a date picker or dropdown menu.
+- **정의**: 변경 이벤트는 사용자가 특정 입력 요소의 값을 수정할 때 발생하는 특별한 이벤트입니다. 예를 들어 체크박스나 라디오 버튼을 선택하거나, 날짜 선택기나 드롭다운 메뉴에서 선택할 때 발생합니다.
 
 :::interactive_editor
 
@@ -298,22 +297,22 @@ selectEl.addEventListener("change", (e) => {
 
 :::
 
-## Event Bubbling
+## 이벤트 버블링
 
-- **Definition**: Event bubbling, or propagation, refers to how an event "bubbles up" to parent objects when triggered.
-- **`stopPropagation()` Method**: This method prevents further propagation for an event.
+- **정의**: 이벤트 버블링 또는 전파는 이벤트가 발생했을 때 부모 객체로 "거품처럼" 올라가는 방식을 말합니다.
+- **`stopPropagation()` 메서드**: 이 메서드는 이벤트의 추가 전파를 막습니다.
 
-## Event Delegation
+## 이벤트 위임
 
-- **Definition**: Event delegation is the process of listening to events that have bubbled up to a parent, rather than handling them directly on the element that triggered them.
+- **정의**: 이벤트 위임은 이벤트가 발생한 요소에서 직접 처리하는 대신, 버블링되어 올라온 이벤트를 부모에서 듣는 과정을 말합니다.
 
 ## DOMContentLoaded
 
-- **Definition**: The `DOMContentLoaded` event is fired when everything in the HTML document has been loaded and parsed. If you have external stylesheets, or images, the `DOMContentLoaded` event will not wait for those to be loaded. It will only wait for the HTML to be loaded.
+- **정의**: `DOMContentLoaded` 이벤트는 HTML 문서 내 모든 내용이 로드되고 파싱되었을 때 발생합니다. 외부 스타일시트나 이미지가 있다 해도 `DOMContentLoaded` 이벤트는 이들의 로드를 기다리지 않고 HTML 로드만 기다립니다.
 
-## Working with `style` and `classList`
+## `style`와 `classList` 다루기
 
-- **`Element.style` Property**: This property is a read-only property that represents the inline style of an element. You can use this property to get or set the style of an element.
+- **`Element.style` 속성**: 이 속성은 읽기 전용으로, 요소의 인라인 스타일을 나타냅니다. 이 속성을 사용해 요소의 스타일을 가져오거나 설정할 수 있습니다.
 
 :::interactive_editor
 
@@ -329,7 +328,7 @@ paraEl.style.color = "red";
 
 :::
 
-- **`Element.classList` Property**: This property is a read-only property that can be used to add, remove, or toggle classes on an element.
+- **`Element.classList` 속성**: 이 속성은 읽기 전용이며, 요소의 클래스를 추가, 삭제, 토글하는 데 사용할 수 있습니다.
 
 :::interactive_editor
 
@@ -378,10 +377,9 @@ toggleBtn.addEventListener("click", () => menu.classList.toggle("show"));
 
 :::
 
+## `setTimeout()`와 `setInterval()` 메서드 다루기
 
-## Working with the `setTimeout()` and `setInterval()` Methods
-
-- **`setTimeout()` Method**: This method lets you delay an action for a specified time.
+- **`setTimeout()` 메서드**: 이 메서드는 지정한 시간 동안 동작을 지연시키는 데 사용합니다.
 
 :::interactive_editor
 
@@ -393,7 +391,7 @@ setTimeout(() => {
 
 :::
 
-- **`setInterval()` Method**: This method keeps runs a piece of code repeatedly at a set interval. Since `setInterval()` keeps executing the provided function at the specified interval, you might want to stop it. For this, you have to use the `clearInterval()` method.
+- **`setInterval()` 메서드**: 이 메서드는 일정 간격으로 코드를 반복 실행합니다. `setInterval()`는 지정한 간격마다 함수를 계속 실행하므로, 중단하려면 `clearInterval()` 메서드를 사용해야 합니다.
 
 :::interactive_editor
 
@@ -414,9 +412,9 @@ setTimeout(() => {
 
 :::
 
-## The `requestAnimationFrame()` Method
+## `requestAnimationFrame()` 메서드
 
-- **Definition**: This method allows you to schedule the next step of your animation before the next screen repaint, resulting in a fluid and visually appealing experience. The next screen repaint refers to the moment when the browser refreshes the visual display of the web page. This happens multiple times per second, typically around 60 times (or 60 frames per second) on most displays.
+- **정의**: 이 메서드는 다음 화면 재생 전에 애니메이션의 다음 단계를 예약할 수 있게 해, 부드럽고 시각적으로 매끄러운 경험을 제공합니다. 다음 화면 재생은 브라우저가 웹 페이지의 시각적 표시를 새로 고치는 순간을 말합니다. 대부분 디스플레이에서 초당 약 60회(60프레임) 발생합니다.
 
 ```js
 function animate() {
@@ -428,9 +426,9 @@ function animate() {
 }
 ```
 
-## Web Animations API
+## 웹 애니메이션 API
 
-- **Definition**: The Web Animations API lets you create and control animations directly inside JavaScript. 
+- **정의**: 웹 애니메이션 API는 JavaScript 내에서 직접 애니메이션을 만들고 제어할 수 있게 해줍니다.
 
 :::interactive_editor
 
@@ -465,9 +463,9 @@ const animation = square.animate(
 
 :::
 
-## The Canvas API
+## 캔버스 API
 
-- **Definition**: The Canvas API is a powerful tool that lets you manipulate graphics right inside your JavaScript file. To work with the Canvas API, you first need to provide a `canvas` element in HTML. This element acts as a drawing surface you can manipulate with the instance methods and properties of the interfaces in the Canvas API. This API has interfaces like `HTMLCanvasElement`, `CanvasRenderingContext2D`, `CanvasGradient`, `CanvasPattern`, and `TextMetrics` which contain methods and properties you can use to create graphics in your JavaScript file.
+- **정의**: 캔버스 API는 JavaScript 파일 내에서 그래픽을 조작할 수 있는 강력한 도구입니다. 캔버스 API를 사용하려면 먼저 HTML에 `canvas` 요소를 제공해야 합니다. 이 요소는 캔버스 API 인터페이스의 인스턴스 메서드와 속성으로 조작할 수 있는 그리기 표면 역할을 합니다. 이 API에는 `HTMLCanvasElement`, `CanvasRenderingContext2D`, `CanvasGradient`, `CanvasPattern`, `TextMetrics` 같은 인터페이스가 포함되어 있으며, JavaScript 파일에서 그래픽을 생성하는 데 사용할 수 있는 메서드와 속성을 포함합니다.
 
 :::interactive_editor
 
@@ -492,10 +490,10 @@ ctx.fillRect(1, 1, 150, 100);
 
 :::
 
-## Opening and Closing Dialogs and Modals with JavaScript
+## JavaScript로 다이얼로그와 모달 열기 및 닫기
 
-- **Modal and Dialog Definitions**: Dialogs let you display important information or actions to users. With the HTML built-in dialog element, you can easily create these dialogs (both modal and non-modal dialogs) in your web apps. A modal dialog is a type of dialog that forces the user to interact with it before they can access the rest of the application or webpage. In contrast, a non-modal dialog allows the user to continue interacting with other parts of the page or application even when the dialog is open. It doesn't prevent access to the rest of the content.
-- **`showModal()` Method**: This method is used to open a modal.
+- **모달과 다이얼로그 정의**: 다이얼로그는 사용자에게 중요한 정보나 작업을 표시할 수 있게 해줍니다. HTML 내장 다이얼로그 요소를 사용하면 웹 애플리케이션에서 모달과 비모달 다이얼로그를 쉽게 만들 수 있습니다. 모달 다이얼로그는 사용자가 애플리케이션이나 웹페이지의 나머지 부분에 접근하기 전에 반드시 상호작용해야 하는 다이얼로그 유형입니다. 반면 비모달 다이얼로그는 다이얼로그가 열려 있어도 사용자가 페이지나 애플리케이션의 다른 부분과 계속 상호작용할 수 있게 하며, 나머지 콘텐츠 접근을 막지 않습니다.
+- **`showModal()` 메서드**: 이 메서드는 모달을 여는 데 사용합니다.
 
 :::interactive_editor
 
@@ -518,7 +516,7 @@ openButton.addEventListener('click', () => {
 
 :::
 
-- **`close()` Method**: This method is used to close the modal.
+- **`close()` 메서드**: 이 메서드는 모달을 닫는 데 사용합니다.
 
 :::interactive_editor
 
@@ -549,4 +547,4 @@ closeButton.addEventListener('click', () => {
 
 # --assignment--
 
-Review the DOM Manipulation and Click Events with JavaScript topics and concepts.
+JavaScript로 DOM 조작과 클릭 이벤트 주제와 개념을 복습하세요.

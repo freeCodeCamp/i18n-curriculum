@@ -1,15 +1,15 @@
 ---
 id: 6732b28eeadda1158cdbff7b
-title: How Can You Check if an Array Contains a Certain Value?
+title: 배열에 특정 값이 포함되어 있는지 어떻게 확인할 수 있나요?
 challengeType: 19
 dashedName: how-can-you-check-if-an-array-contains-a-certain-value
 ---
 
 # --interactive--
 
-In JavaScript, the `includes()` method is a simple and efficient way to check if an array contains a specific value. This method returns a boolean value: `true` if the array contains the specified element, and `false` otherwise.
+JavaScript에서 `includes()` 메서드는 배열에 특정 값이 포함되어 있는지 간단하고 효율적으로 확인하는 방법입니다. 이 메서드는 불리언 값을 반환하는데, 배열에 지정한 요소가 있으면 `true`을, 그렇지 않으면 `false`를 반환합니다.
 
-The `includes()` method is particularly useful when you need to quickly verify the presence of an element in an array without needing to know its exact position. Let's start with an example of how to use the `includes()` method:
+`includes()` 메서드는 배열에서 요소의 정확한 위치를 알 필요 없이 빠르게 존재 여부를 확인할 때 특히 유용합니다. `includes()` 메서드를 사용하는 예제로 시작해 보겠습니다:
 
 :::interactive_editor
 
@@ -21,9 +21,9 @@ console.log(fruits.includes("grape"));  // false
 
 :::
 
-In this example, we have an array of fruits. We use the `includes()` method to check if `banana` is in the array. It returns `true` because `banana` is indeed present. We then check for `grape`, which returns `false` because it's not in the array.
+이 예제에서는 과일 배열이 있습니다. `includes()` 메서드를 사용해 `banana`가 배열에 있는지 확인합니다. `true`가 실제로 존재하므로 `banana`를 반환합니다. 그다음 `grape`를 확인하는데, 배열에 없으므로 `false`를 반환합니다.
 
-The `includes()` method is case-sensitive when dealing with strings. This means that `Banana` with a capital B and `banana` with all lowercase letters are considered different values. Here's an example that illustrates this:
+`includes()` 메서드는 문자열을 다룰 때 대소문자를 구분합니다. 즉, 첫 글자가 대문자인 `Banana`와 모두 소문자인 `banana`는 서로 다른 값으로 간주됩니다. 다음 예제가 이를 보여줍니다:
 
 :::interactive_editor
 
@@ -35,9 +35,9 @@ console.log(fruits.includes("Banana")); // false
 
 :::
 
-In this case, `banana` (all in lowercase) is found in the array, but `Banana` (with the first letter capitalized) is not, so the second `includes()` call returns `false`.
+이 경우, 모두 소문자인 `banana`는 배열에서 찾을 수 있지만, 첫 글자가 대문자인 `Banana`는 없으므로 두 번째 `includes()` 호출은 `false`를 반환합니다.
 
-The `includes()` method can also accept an optional second parameter that specifies the position in the array to start the search. This is useful if you want to check for an element's presence in a specific part of the array. Here's how you can use this feature:
+`includes()` 메서드는 배열에서 검색을 시작할 위치를 지정하는 선택적 두 번째 매개변수를 받을 수도 있습니다. 배열의 특정 부분에서 요소 존재 여부를 확인하고 싶을 때 유용합니다. 이 기능을 사용하는 방법은 다음과 같습니다:
 
 :::interactive_editor
 
@@ -49,11 +49,11 @@ console.log(numbers.includes(30, 4)); // true
 
 :::
 
-For the first `console.log`, we are looking for the number `30` starting at index `3`. In this case, there is a number `30` that appears after index `3`, so the `includes()` method returns `true`.
+첫 번째 `console.log`에서는 인덱스 `30`부터 숫자 `3`를 찾고 있습니다. 이 경우, 인덱스 `30` 이후에 숫자 `3`가 나타나므로 `includes()` 메서드는 `true`를 반환합니다.
 
-The same is true for the second `console.log`. We are looking for the number `30` starting at index `4`. Since the number `30` does appear after that index, then it will return `true`.
+두 번째 `console.log`도 마찬가지입니다. 인덱스 `30`부터 숫자 `4`를 찾고 있습니다. 그 인덱스 이후에 숫자 `30`가 나타나므로 `true`를 반환합니다.
 
-It's worth noting that `includes()` uses the strict equality comparison (`===`), which means it can distinguish between different types. For example:
+`includes()`는 엄격한 동등 비교(`===`)를 사용한다는 점도 주목할 만합니다. 즉, 서로 다른 타입을 구분할 수 있습니다. 예를 들어:
 
 :::interactive_editor
 
@@ -65,15 +65,15 @@ console.log(mixedArray.includes("2")); // true
 
 :::
 
-In this case, the number `2` and the string `"2"` are considered different data types. So, the first `console.log` will return `false`, while the second `console.log` will return `true`.
+이 경우, 숫자 `2`와 문자열 `"2"`는 서로 다른 데이터 타입으로 간주됩니다. 따라서 첫 번째 `console.log`는 `false`를 반환하고, 두 번째 `console.log`는 `true`를 반환합니다.
 
-The `includes()` method is a powerful tool for checking the presence of elements in arrays. It's simple to use, efficient, and can save you from writing more complex loops or conditions to search through arrays. Whether you're working with strings, numbers, or mixed data types, `includes()` provides a straightforward way to verify if a value exists in your array.
+`includes()` 메서드는 배열에서 요소 존재 여부를 확인하는 강력한 도구입니다. 사용하기 간단하고 효율적이며, 배열을 탐색하는 더 복잡한 반복문이나 조건문을 작성하지 않아도 됩니다. 문자열, 숫자 또는 혼합 데이터 타입을 다루든 `includes()`는 배열에 값이 있는지 확인하는 직관적인 방법을 제공합니다.
 
 # --questions--
 
 ## --text--
 
-What will be the output of the following code?
+다음 코드의 출력 결과는 무엇인가요?
 
 ```js
 let arr = [1, 2, 3, 4, 5];
@@ -86,7 +86,7 @@ console.log(arr.includes(3, 3));
 
 ### --feedback--
 
-The second parameter of `includes()` specifies the starting position for the search.
+`includes()`의 두 번째 매개변수는 검색을 시작할 위치를 지정합니다.
 
 ---
 
@@ -98,15 +98,15 @@ The second parameter of `includes()` specifies the starting position for the sea
 
 ### --feedback--
 
-The second parameter of `includes()` specifies the starting position for the search.
+`includes()`의 두 번째 매개변수는 검색을 시작할 위치를 지정합니다.
 
 ---
 
-This will throw an error.
+오류가 발생합니다.
 
 ### --feedback--
 
-The second parameter of `includes()` specifies the starting position for the search.
+`includes()`의 두 번째 매개변수는 검색을 시작할 위치를 지정합니다.
 
 ## --video-solution--
 
@@ -114,7 +114,7 @@ The second parameter of `includes()` specifies the starting position for the sea
 
 ## --text--
 
-What will be the output of the following code?
+다음 코드의 출력 결과는 무엇인가요?
 
 ```js
 let arr = ["a", "b", "c", "d", "e"];
@@ -127,7 +127,7 @@ console.log(arr.includes("C"));
 
 ### --feedback--
 
-Remember that `includes()` is case-sensitive when dealing with strings.
+문자열을 다룰 때 `includes()`는 대소문자를 구분한다는 점을 기억하세요.
 
 ---
 
@@ -139,15 +139,15 @@ Remember that `includes()` is case-sensitive when dealing with strings.
 
 ### --feedback--
 
-Remember that `includes()` is case-sensitive when dealing with strings.
+문자열을 다룰 때 `includes()`는 대소문자를 구분한다는 점을 기억하세요.
 
 ---
 
-This will throw an error.
+오류가 발생합니다.
 
 ### --feedback--
 
-Remember that `includes()` is case-sensitive when dealing with strings.
+문자열을 다룰 때 `includes()`는 대소문자를 구분한다는 점을 기억하세요.
 
 ## --video-solution--
 
@@ -155,7 +155,7 @@ Remember that `includes()` is case-sensitive when dealing with strings.
 
 ## --text--
 
-What will be the output of the following code?
+다음 코드의 출력 결과는 무엇인가요?
 
 ```js
 let arr = [1, "2", 3, "4", 5];
@@ -168,7 +168,7 @@ console.log(arr.includes("3"));
 
 ### --feedback--
 
-The `includes()` method uses strict equality (`===`) for comparison.
+`includes()` 메서드는 비교에 엄격한 동등성(`===`)을 사용합니다.
 
 ---
 
@@ -180,15 +180,15 @@ The `includes()` method uses strict equality (`===`) for comparison.
 
 ### --feedback--
 
-The `includes()` method uses strict equality (`===`) for comparison.
+`includes()` 메서드는 비교에 엄격한 동등성(`===`)을 사용합니다.
 
 ---
 
-This will throw an error.
+오류가 발생합니다.
 
 ### --feedback--
 
-The `includes()` method uses strict equality (`===`) for comparison.
+`includes()` 메서드는 비교에 엄격한 동등성(`===`)을 사용합니다.
 
 ## --video-solution--
 

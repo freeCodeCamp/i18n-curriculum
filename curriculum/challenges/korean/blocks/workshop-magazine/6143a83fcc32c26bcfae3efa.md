@@ -7,53 +7,53 @@ dashedName: step-17
 
 # --description--
 
-Below your `.text` element, create a new `section` element and give it a `class` of `text text-with-images`. Within that, create an `article` element with a `class` set to `brief-history`, and an `aside` element with the `class` set to `image-wrapper`.
+`.text` 요소 아래에 새로운 `section` 요소를 만들고 `class`의 `text text-with-images`를 지정하세요. 그 안에 `article`로 설정된 `class`를 가진 `brief-history` 요소와 `aside`로 설정된 `class`를 가진 `image-wrapper` 요소를 만드세요.
 
 # --hints--
 
-You should create a new `section` element.
+새로운 `section` 요소를 만들어야 합니다.
 
 ```js
 assert.lengthOf(document.querySelectorAll('section'), 3);
 ```
 
-Your new `section` element should come after your `.text` element.
+새로운 `section` 요소는 `.text` 요소 뒤에 와야 합니다.
 
 ```js
 assert.equal(document.querySelectorAll('section')?.[2]?.previousElementSibling?.className, 'text');
 ```
 
-Your new `section` element should have the `class` set to `text text-with-images`.
+새로운 `section` 요소는 `class`로 설정된 `text text-with-images`를 가져야 합니다.
 
 ```js
 assert.equal(document.querySelectorAll('section')?.[2]?.className, 'text text-with-images');
 ```
 
-Your new `section` element should have an `article` element.
+새로운 `section` 요소는 `article` 요소를 가져야 합니다.
 
 ```js
 assert.exists(document.querySelector('.text-with-images article'));
 ```
 
-Your new `section` element should have an `aside` element.
+새로운 `section` 요소는 `aside` 요소를 가져야 합니다.
 
 ```js
 assert.exists(document.querySelector('.text-with-images aside'));
 ```
 
-The `article` element should come before the `aside` element.
+`article` 요소는 `aside` 요소 앞에 와야 합니다.
 
 ```js
 assert.equal(document.querySelector('.text-with-images article')?.nextElementSibling?.localName, 'aside');
 ```
 
-Your `article` element should have the `class` set to `brief-history`.
+`article` 요소는 `class`로 설정된 `brief-history`를 가져야 합니다.
 
 ```js
 assert.equal(document.querySelector('.text-with-images article')?.className, 'brief-history');
 ```
 
-Your `aside` element should have the `class` set to `image-wrapper`.
+`aside` 요소는 `class`로 설정된 `image-wrapper`를 가져야 합니다.
 
 ```js
 assert.equal(document.querySelector('.text-with-images aside')?.className, 'image-wrapper');

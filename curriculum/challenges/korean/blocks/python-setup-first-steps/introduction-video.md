@@ -1,6 +1,6 @@
 ---
 id: 05b8c9b04c6df84636956fab
-title: Introduction
+title: 소개
 challengeType: 11
 videoId: EgQZWE8in68
 dashedName: introduction
@@ -8,29 +8,29 @@ dashedName: introduction
 
 # --description--
 
-In this video, instructor Mike Dane explains why you should learn Python.
+이 영상에서 강사 Mike Dane가 Python을 배워야 하는 이유를 설명합니다.
 
 # --questions--
 
 ## --text--
 
-What is one reason to learn Python?
+Python을 배워야 하는 이유 중 하나는 무엇인가요?
 
 ## --answers--
 
-It is required to be learned before any other programming language.
+다른 프로그래밍 언어를 배우기 전에 반드시 배워야 합니다.
 
 ---
 
-It is one of the most popular programming languages used in the industry.
+업계에서 가장 널리 사용되는 프로그래밍 언어 중 하나입니다.
 
 ---
 
-It is the fastest programming language for all types of applications.
+모든 유형의 애플리케이션에서 가장 빠른 프로그래밍 언어입니다.
 
 ---
 
-It is only useful for complex gaming applications.
+복잡한 게임 애플리케이션에만 유용합니다.
 
 ## --video-solution--
 

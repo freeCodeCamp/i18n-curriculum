@@ -1,6 +1,6 @@
 ---
 id: 39a400e9163c5a0b33587e18
-title: Lists
+title: 리스트
 challengeType: 11
 videoId: DtMPzGOHZ2M
 dashedName: lists
@@ -8,13 +8,13 @@ dashedName: lists
 
 # --description--
 
-In this video, you will learn about lists, list indexing, slicing, and basic list operations.
+이 영상에서는 리스트, 리스트 인덱싱, 슬라이싱, 그리고 기본 리스트 연산에 대해 배우세요.
 
 # --questions--
 
 ## --text--
 
-What will be the output for the following code?
+다음 코드의 출력 결과는 무엇일까요?
 
 ```python
 friends = ["Kevin", "Karen", "Jim"]
