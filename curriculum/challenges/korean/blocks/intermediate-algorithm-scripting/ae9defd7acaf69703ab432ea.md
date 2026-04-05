@@ -1,6 +1,6 @@
 ---
 id: ae9defd7acaf69703ab432ea
-title: Smallest Common Multiple
+title: 가장 작은 공배수
 challengeType: 1
 forumTopicId: 16075
 dashedName: smallest-common-multiple
@@ -8,45 +8,45 @@ dashedName: smallest-common-multiple
 
 # --description--
 
-Find the smallest common multiple of the provided parameters that can be evenly divided by both, as well as by all sequential numbers in the range between these parameters.
+제공된 매개변수 두 개 모두와, 이 매개변수 사이의 모든 연속된 숫자로 나누어떨어지는 가장 작은 공배수를 찾으세요.
 
-The range will be an array of two numbers that will not necessarily be in numerical order.
+범위는 숫자 두 개로 이루어진 배열이며, 반드시 숫자 순서대로 정렬되어 있지 않을 수 있습니다.
 
-For example, if given 1 and 3, find the smallest common multiple of both 1 and 3 that is also evenly divisible by all numbers *between* 1 and 3. The answer here would be 6.
+예를 들어 1과 3이 주어지면, 1과 3 모두의 공배수이면서 1과 3 사이의 모든 숫자로 나누어떨어지는 가장 작은 공배수를 찾으세요. 이 경우 답은 6입니다.
 
 # --hints--
 
-`smallestCommons([1, 5])` should return a number.
+`smallestCommons([1, 5])` 는 숫자를 반환해야 합니다.
 
 ```js
 assert.deepEqual(typeof smallestCommons([1, 5]), 'number');
 ```
 
-`smallestCommons([1, 5])` should return 60.
+`smallestCommons([1, 5])` 는 60을 반환해야 합니다.
 
 ```js
 assert.deepEqual(smallestCommons([1, 5]), 60);
 ```
 
-`smallestCommons([5, 1])` should return 60.
+`smallestCommons([5, 1])` 는 60을 반환해야 합니다.
 
 ```js
 assert.deepEqual(smallestCommons([5, 1]), 60);
 ```
 
-`smallestCommons([2, 10])` should return 2520.
+`smallestCommons([2, 10])` 는 2520을 반환해야 합니다.
 
 ```js
 assert.deepEqual(smallestCommons([2, 10]), 2520);
 ```
 
-`smallestCommons([1, 13])` should return 360360.
+`smallestCommons([1, 13])` 는 360360을 반환해야 합니다.
 
 ```js
 assert.deepEqual(smallestCommons([1, 13]), 360360);
 ```
 
-`smallestCommons([23, 18])` should return 6056820.
+`smallestCommons([23, 18])` 는 6056820을 반환해야 합니다.
 
 ```js
 assert.deepEqual(smallestCommons([23, 18]), 6056820);

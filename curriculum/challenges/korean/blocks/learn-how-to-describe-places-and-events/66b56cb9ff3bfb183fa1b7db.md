@@ -1,6 +1,6 @@
 ---
 id: 66b56cb9ff3bfb183fa1b7db
-title: Task 83
+title: 작업 83
 challengeType: 22
 dashedName: task-83
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio to complete the sentence below.
+아래 문장을 완성하려면 오디오를 들으세요.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio to complete the sentence below.
 
 ### --feedback--
 
-This word is used to specify the module that is currently being discussed.
+이 단어는 현재 논의 중인 모듈을 지정할 때 사용합니다.
 
 ---
 
@@ -32,7 +32,7 @@ This word is used to specify the module that is currently being discussed.
 
 ### --feedback--
 
-Something recent.
+최근에 생긴 것을 의미합니다.
 
 ---
 
@@ -40,15 +40,15 @@ Something recent.
 
 ### --feedback--
 
-A specific part or section of the training program.
+교육 프로그램의 특정 부분이나 섹션을 뜻합니다.
 
 # --explanation--
 
-`Module` refers to a unit or section of a course or training program. For example:
+`Module`는 강의나 교육 프로그램의 단위 또는 섹션을 가리킵니다. 예를 들어:
 
-- `The new module on cybersecurity will be added next week.` - Here, `module` refers to a specific part of the training focused on cybersecurity.
+- `The new module on cybersecurity will be added next week.` - 여기서 `module`는 사이버보안에 집중한 교육의 특정 부분을 의미합니다.
 
-Pay attention to how the words `this`, `new`, and `module` are used. `This` is used to specify the module they are talking about, `new` shows that it's a recent addition, and `module` refers to a section of the training.
+`this`, `new`, `module`가 어떻게 사용되는지 주의하세요. `This`는 그들이 말하는 모듈을 지정하는 데 쓰이고, `new`은 최근에 추가된 것임을 나타내며, `module`는 교육의 섹션을 가리킵니다.
 
 # --scene--
 

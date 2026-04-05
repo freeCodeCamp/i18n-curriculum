@@ -1,23 +1,23 @@
 ---
 id: 660ae3eeef9ad289bece426b
-title: Step 11
+title: 11단계
 challengeType: 0
 dashedName: step-11
 ---
 
 # --description--
 
-In the previous projects, you used regular functions. But in the rest of the projects, you will be working with <dfn>arrow functions</dfn>. The next few steps will focus on teaching you the basics of arrow functions.
+이전 프로젝트에서는 일반 함수를 사용했습니다. 하지만 나머지 프로젝트에서는 <dfn>화살표 함수</dfn>를 사용하게 됩니다. 다음 몇 단계는 화살표 함수의 기본을 배우는 데 집중합니다.
 
-An arrow function is an anonymous function expression and a shorter way to write functions. Anonymous means that the function does not have a name. Arrow functions are always anonymous.
+화살표 함수는 익명 함수 표현식이며 함수를 작성하는 더 짧은 방법입니다. 익명이라는 것은 함수에 이름이 없다는 뜻입니다. 화살표 함수는 항상 익명입니다.
 
-Here is the basic syntax:
+기본 구문은 다음과 같습니다:
 
 ```js
 () => {}
 ```
 
-By assigning the arrow function definition to a variable, you bind it to an identifier.
+화살표 함수 정의를 변수에 할당하면 식별자에 바인딩됩니다.
 
 ```js
 const exampleFunction = () => {
@@ -25,23 +25,23 @@ const exampleFunction = () => {
 }
 ```
 
-Create a new arrow function and assign it to the variable `printGreeting`. Inside the function body, use the `console.log()` method to print the string `Hello there!`.
+새로운 화살표 함수를 만들고 `printGreeting` 변수에 할당하세요. 함수 본문 안에서 `console.log()` 메서드를 사용해 문자열 `Hello there!`를 출력하세요.
 
 # --hints--
 
-You should have a variable named `printGreeting` and assign it an arrow function.
+`printGreeting`라는 변수를 만들고 화살표 함수를 할당해야 합니다.
 
 ```js
 assert.isFunction(printGreeting);
 ```
 
-You should create an arrow function and assign it to the `printGreeting` variable.
+화살표 함수를 만들고 `printGreeting` 변수에 할당해야 합니다.
 
 ```js
 assert.match(code, /(let|const)\s+printGreeting\s*=\s*\(.*\)\s*=>\s*{\s*[\s\S]*}\s*;?/)
 ```
 
-Your `printGreeting` function should log `Hello there!` to the console.
+`printGreeting` 함수는 `Hello there!`를 콘솔에 출력해야 합니다.
 
 ```js
 assert.match(printGreeting.toString(), /console\.log\(['"]Hello\s+there!['"]\)/);

@@ -1,6 +1,6 @@
 ---
 id: 69399bbb6d7a7bfeedaddd96
-title: Task 13
+title: 작업 13
 challengeType: 22
 dashedName: task-13
 lang: es
@@ -10,17 +10,17 @@ lang: es
 
 # --description--
 
-The verb `escribir` means "to write". When Spanish speakers want to explain how a word is written or spelled, they often use the expression `se escribe`.
+동사 `escribir`는 "쓰다"라는 뜻입니다. 스페인어 사용자가 단어가 어떻게 쓰이는지 또는 철자가 어떻게 되는지 설명할 때, 종종 표현 `se escribe`을 사용합니다.
 
-This form comes from the verb `escribir` and is commonly used before spelling names, emails, or other words letter by letter. For example:
+이 형태는 동사 `escribir`에서 유래했으며, 이름, 이메일 또는 다른 단어를 철자 하나하나 말할 때 흔히 사용합니다. 예를 들어:
 
-- `Carlos se escribe C-a-r-l-o-s.` – Carlos is spelled C-a-r-l-o-s.
+- `Carlos se escribe C-a-r-l-o-s.` – Carlos는 C-a-r-l-o-s로 철자합니다.
 
-- `Mi apellido se escribe con z.` – My last name is spelled with z.
+- `Mi apellido se escribe con z.` – 내 성은 z로 철자합니다.
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+오디오를 듣고 아래 문장을 완성하세요.
 
 # --fillInTheBlank--
 
@@ -38,7 +38,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This small word is part of a common expression used when explaining how something is written.
+이 짧은 단어는 무언가가 어떻게 쓰이는지 설명할 때 자주 쓰이는 표현의 일부입니다.
 
 ---
 
@@ -46,13 +46,13 @@ This small word is part of a common expression used when explaining how somethin
 
 ### --feedback--
 
-This verb form comes from `escribir` and is used when spelling a word.
+이 동사 형태는 `escribir`에서 유래했으며, 단어를 철자할 때 사용합니다.
 
 # --explanation--
 
-`Se escribe` is used when explaining how a word or name is written.
+`Se escribe`은 단어나 이름이 어떻게 쓰이는지 설명할 때 사용합니다.
 
-It comes from the verb `escribir` and is commonly used before spelling something letter by letter.
+이것은 동사 `escribir`에서 유래했으며, 무언가를 철자 하나하나 말하기 전에 흔히 사용합니다.
 
 # --scene--
 

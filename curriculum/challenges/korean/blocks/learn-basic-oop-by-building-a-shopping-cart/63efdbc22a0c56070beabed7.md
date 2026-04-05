@@ -1,17 +1,17 @@
 ---
 id: 63efdbc22a0c56070beabed7
-title: Step 23
+title: 23단계
 challengeType: 0
 dashedName: step-23
 ---
 
 # --description--
 
-You’re on the right track! However, let’s take a moment to address a common issue when working with objects in JavaScript.
+잘하고 있습니다! 하지만 JavaScript에서 객체를 다룰 때 흔히 발생하는 문제를 잠시 살펴보겠습니다.
 
-When you try to access an object property that doesn’t exist, JavaScript returns `undefined`. If you then attempt to perform arithmetic operations on `undefined`, it can lead to unexpected results, such as `NaN`.
+존재하지 않는 객체 속성에 접근하려 하면 JavaScript는 `undefined`를 반환합니다. 그런 다음 `undefined`에 산술 연산을 시도하면 `NaN`와 같은 예상치 못한 결과가 발생할 수 있습니다.
 
-To prevent this, you can use the `||` (logical OR) operator to provide a default value.
+이를 방지하려면 기본값을 제공하기 위해 `||` (논리 OR) 연산자를 사용할 수 있습니다.
 
 ```js
   let scores = {}; 
@@ -22,27 +22,27 @@ To prevent this, you can use the `||` (logical OR) operator to provide a default
   });
 ```
 
-Now, let’s apply this concept to your `totalCountPerProduct` object in the `forEach` callback. Make sure that each `dessert.id` property is initialized properly.
+이제 이 개념을 `totalCountPerProduct` 콜백에서 `forEach` 객체에 적용해 보세요. 각 `dessert.id` 속성이 제대로 초기화되었는지 확인하세요.
 
-Initialize `totalCountPerProduct[dessert.id]` with a default value of `0` using the `||` operator.
+`totalCountPerProduct[dessert.id]` 연산자를 사용해 `0`을 기본값 `||`로 초기화하세요.
 
 # --hints--
 
-You should use dot notation to access the `id` property of `dessert`.
+`id`의 `dessert` 속성에 접근하려면 점 표기법을 사용하세요.
 
 ```js
 const cart = new ShoppingCart();
 assert.match(cart.addItem.toString(), /dessert\.id/);
 ```
 
-You should use bracket notation to access the property of `totalCountPerProduct` that corresponds to `dessert.id`.
+`totalCountPerProduct`의 `dessert.id`에 해당하는 속성에 접근하려면 대괄호 표기법을 사용하세요.
 
 ```js
 const cart = new ShoppingCart();
 assert.match(cart.addItem.toString(), /totalCountPerProduct\s*\[\s*dessert\.id\s*\]/);
 ```
 
-You should initialize `totalCountPerProduct[dessert.id]` with `0` as a default value using `||` operator at the end of the expression.
+표현식 끝에 `totalCountPerProduct[dessert.id]` 연산자를 사용해 `0`을 기본값 `||`로 초기화하세요.
 
 ```js
 const cart = new ShoppingCart();
@@ -324,7 +324,7 @@ class ShoppingCart {
 
     const totalCountPerProduct = {};
     this.items.forEach((dessert) => {
-
+      
     })
   }
 --fcc-editable-region--

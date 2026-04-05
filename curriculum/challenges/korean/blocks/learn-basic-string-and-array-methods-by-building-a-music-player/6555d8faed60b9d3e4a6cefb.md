@@ -1,37 +1,37 @@
 ---
 id: 6555d8faed60b9d3e4a6cefb
-title: Step 72
+title: 72단계
 challengeType: 0
 dashedName: step-72
 ---
 
 # --description--
 
-To make the application more accessible, it is important that the play button describes the current song or the first song in the playlist.
+애플리케이션을 더 접근하기 쉽게 만들려면 재생 버튼이 현재 노래나 재생 목록의 첫 번째 노래를 설명하는 것이 중요합니다.
 
-Start by creating an empty arrow function called `setPlayButtonAccessibleText`.
+빈 화살표 함수 `setPlayButtonAccessibleText`를 만드는 것부터 시작하세요.
 
 # --hints--
 
-You should use `const` to create an empty function named `setPlayButtonAccessibleText`.
+빈 함수를 만들려면 `const`을 사용해 `setPlayButtonAccessibleText`라는 이름으로 만드세요.
 
 ```js
 assert.match(code, /const\s+setPlayButtonAccessibleText\s*=\s*/)
 ```
 
-`setPlayButtonAccessibleText` should be a function.
+`setPlayButtonAccessibleText`는 함수여야 합니다.
 
 ```js
 assert.isFunction(setPlayButtonAccessibleText)
 ```
 
-Your `setPlayButtonAccessibleText` function should use an arrow syntax.
+`setPlayButtonAccessibleText` 함수는 화살표 구문을 사용해야 합니다.
 
 ```js
 assert.match(code, /const\s+setPlayButtonAccessibleText\s*=\s*\(\s*\)\s*=>\s*/)
 ```
 
-Your `setPlayButtonAccessibleText` function  should be empty.
+`setPlayButtonAccessibleText` 함수는 비어 있어야 합니다.
 
 ```js
 assert.match(code, /const\s+setPlayButtonAccessibleText\s*=\s*\(\s*\)\s*=>\s*\{\n?\s*?\}\s*;?/)
@@ -644,7 +644,7 @@ const playSong = (id) => {
 
 const pauseSong = () => {
   userData.songCurrentTime = audio.currentTime;
-
+  
   playButton.classList.remove("playing");
   audio.pause();
 };

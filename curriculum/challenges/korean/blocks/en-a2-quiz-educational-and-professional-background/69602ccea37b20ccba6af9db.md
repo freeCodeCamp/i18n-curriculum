@@ -1,6 +1,6 @@
 ---
 id: 69602ccea37b20ccba6af9db
-title: Educational and Professional Background Quiz
+title: 교육 및 직업 배경 퀴즈
 challengeType: 8
 dashedName: en-a2-quiz-educational-and-professional-background
 lang: en-US
@@ -8,11 +8,11 @@ lang: en-US
 
 # --description--
 
-This quiz checks your understanding of job interviews, education, and the `past simple` tense.
+이 퀴즈는 면접, 교육, 그리고 `past simple` 시제에 대한 이해도를 확인합니다.
 
-To pass the quiz, you must correctly answer at least 18 of the 20 questions below.
+퀴즈를 통과하려면 아래 20문제 중 최소 18문제를 올바르게 맞혀야 합니다.
 
-Read each question and choose the correct answer. There's only one correct answer for each question.
+각 질문을 읽고 정답을 선택하세요. 각 질문에는 정답이 하나뿐입니다.
 
 # --quizzes--
 
@@ -22,73 +22,73 @@ Read each question and choose the correct answer. There's only one correct answe
 
 #### --text--
 
-Which of the following is true about this sentence: `I studied computer science at college`?
+다음 문장 `I studied computer science at college`에 대해 옳은 설명은 무엇인가요?
 
 #### --distractors--
 
-The action is happening now.
+동작이 지금 일어나고 있습니다.
 
 ---
 
-The action will happen soon.
+동작이 곧 일어날 것입니다.
 
 ---
 
-The action happens every day.
+동작이 매일 일어납니다.
 
 #### --answer--
 
-The action happened in the past.
+동작이 과거에 일어났습니다.
 
 ### --question--
 
 #### --text--
 
-Which of the following is NOT an example of someone's `background`?
+다음 중 누군가의 `background`에 해당하지 않는 것은 무엇인가요?
 
 #### --distractors--
 
-Their past job experience
+그들의 과거 직장 경험
 
 ---
 
-Their education history
+그들의 교육 이력
 
 ---
 
-Their learned skills
+그들이 배운 기술
 
 #### --answer--
 
-Their favorite hobby
+그들의 좋아하는 취미
 
 ### --question--
 
 #### --text--
 
-What is an `interview`?
+`interview`란 무엇인가요?
 
 #### --distractors--
 
-A casual talk between coworkers
+동료들 간의 가벼운 대화
 
 ---
 
-A written test at school
+학교에서 보는 필기 시험
 
 ---
 
-A team meeting at work
+직장에서의 팀 회의
 
 #### --answer--
 
-A formal meeting with questions
+질문이 있는 공식적인 면담
 
 ### --question--
 
 #### --text--
 
-Listen to the audio. What is the best answer to this question? <!-- (quiz audio) Anna: Can you tell me about your previous job experiences? -->
+오디오를 들으세요. 이 질문에 가장 적절한 답변은 무엇인가요? <!-- (quiz audio) Anna: Can you tell me about your previous job experiences? -->
 
 #### --audio--
 
@@ -128,7 +128,7 @@ Listen to the audio. What is the best answer to this question? <!-- (quiz audio)
 
 #### --text--
 
-Which sentence uses `to be` correctly in the past?
+과거 시제에서 `to be`를 올바르게 사용한 문장은 어느 것인가요?
 
 #### --distractors--
 
@@ -150,7 +150,7 @@ Which sentence uses `to be` correctly in the past?
 
 #### --text--
 
-What is the correct question form of this sentence: `He was responsible for maintaining the database`?
+다음 문장 `He was responsible for maintaining the database`의 올바른 의문문 형태는 무엇인가요?
 
 #### --distractors--
 
@@ -172,7 +172,7 @@ What is the correct question form of this sentence: `He was responsible for main
 
 #### --text--
 
-How would you ask about someone's educational background?
+누군가의 교육 배경에 대해 어떻게 묻나요?
 
 #### --distractors--
 
@@ -194,29 +194,29 @@ How would you ask about someone's educational background?
 
 #### --text--
 
-What does this question ask about: `Could you tell me about your previous roles and responsibilities?`
+다음 질문은 무엇에 대해 묻고 있나요: `Could you tell me about your previous roles and responsibilities?`
 
 #### --distractors--
 
-Your future career plans
+미래의 직업 계획
 
 ---
 
-Your personal interests
+개인적인 관심사
 
 ---
 
-Your current daily tasks
+현재의 일상 업무
 
 #### --answer--
 
-Your past jobs and duties
+과거의 직업과 업무
 
 ### --question--
 
 #### --text--
 
-Which phrase shows possession incorrectly?
+어느 표현이 소유를 잘못 나타내고 있나요?
 
 #### --distractors--
 
@@ -238,7 +238,7 @@ Which phrase shows possession incorrectly?
 
 #### --text--
 
-What is the correct negative form of this sentence: `He studied data science`?
+다음 문장 `He studied data science`의 올바른 부정문 형태는 무엇인가요?
 
 #### --distractors--
 
@@ -260,7 +260,7 @@ What is the correct negative form of this sentence: `He studied data science`?
 
 #### --text--
 
-How do you say your main area of study?
+주요 전공 분야를 어떻게 말하나요?
 
 #### --distractors--
 
@@ -282,7 +282,7 @@ How do you say your main area of study?
 
 #### --text--
 
-What is the correct question form of this sentence: `She worked with them for five years`?
+다음 문장 `She worked with them for five years`의 올바른 의문문 형태는 무엇인가요?
 
 #### --distractors--
 
@@ -304,7 +304,7 @@ What is the correct question form of this sentence: `She worked with them for fi
 
 #### --text--
 
-Listen to the audio. How would you answer this question? <!-- (quiz audio) Tom: Did you work on any projects during your self-study? -->
+오디오를 들으세요. 이 질문에 어떻게 대답하겠습니까? <!-- (quiz audio) Tom: Did you work on any projects during your self-study? -->
 
 #### --audio--
 
@@ -344,7 +344,7 @@ Listen to the audio. How would you answer this question? <!-- (quiz audio) Tom: 
 
 #### --text--
 
-Which pair of irregular verbs is incorrect?
+어느 불규칙 동사 쌍이 틀렸나요?
 
 #### --distractors--
 
@@ -366,29 +366,29 @@ Which pair of irregular verbs is incorrect?
 
 #### --text--
 
-What does `to wear too many hats` mean?
+`to wear too many hats`는 무슨 뜻인가요?
 
 #### --distractors--
 
-To dress very formally
+아주 정장 차려입다
 
 ---
 
-To change jobs often
+자주 직장을 바꾸다
 
 ---
 
-To manage one task
+한 가지 일을 관리하다
 
 #### --answer--
 
-To have many roles or duties
+많은 역할이나 업무를 맡다
 
 ### --question--
 
 #### --text--
 
-How do you describe learning without a teacher or school?
+선생님이나 학교 없이 배우는 것을 어떻게 설명하나요?
 
 #### --distractors--
 
@@ -410,7 +410,7 @@ How do you describe learning without a teacher or school?
 
 #### --text--
 
-Which sentence uses `actual` or `actually` correctly?
+어느 문장이 `actual` 또는 `actually`를 올바르게 사용했나요?
 
 #### --distractors--
 
@@ -432,29 +432,29 @@ Which sentence uses `actual` or `actually` correctly?
 
 #### --text--
 
-Who is a `recruiter`?
+`recruiter`는 누구인가요?
 
 #### --distractors--
 
-A person who manages a team
+팀을 관리하는 사람
 
 ---
 
-A person who trains employees
+직원을 교육하는 사람
 
 ---
 
-A person who writes code
+코드를 작성하는 사람
 
 #### --answer--
 
-A person who hires candidates
+후보자를 채용하는 사람
 
 ### --question--
 
 #### --text--
 
-What do you call a person who works for a company?
+회사에서 일하는 사람을 무엇이라고 부르나요?
 
 #### --distractors--
 
@@ -476,7 +476,7 @@ What do you call a person who works for a company?
 
 #### --text--
 
-Which tag question is correct?
+어느 태그 질문이 올바른가요?
 
 #### --distractors--
 

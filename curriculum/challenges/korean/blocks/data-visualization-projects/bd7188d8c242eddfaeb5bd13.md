@@ -1,6 +1,6 @@
 ---
 id: bd7188d8c242eddfaeb5bd13
-title: Visualize Data with a Heat Map
+title: 히트맵으로 데이터 시각화
 challengeType: 3
 forumTopicId: 301466
 dashedName: visualize-data-with-a-heat-map
@@ -8,51 +8,51 @@ dashedName: visualize-data-with-a-heat-map
 
 # --description--
 
-**Objective:** Build an app that is functionally similar to this: <a href="https://heat-map.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://heat-map.freecodecamp.rocks</a>.
+**목표:** 다음과 기능적으로 유사한 앱을 만드세요: <a href="https://heat-map.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://heat-map.freecodecamp.rocks</a>.
 
-Fulfill the below user stories and get all of the tests to pass. Use whichever libraries or APIs you need. Give it your own personal style.
+아래 사용자 스토리를 충족하고 모든 테스트를 통과하세요. 필요한 라이브러리나 API를 자유롭게 사용하세요. 자신만의 스타일을 입히세요.
 
-You can use HTML, JavaScript, CSS, and the D3 svg-based visualization library. Required DOM elements are queried on the moment of each test. If you use a front-end framework (like Vue for example), the test results may be inaccurate for dynamic content. We hope to accommodate them eventually, but these frameworks are not currently supported for D3 projects.
+HTML, JavaScript, CSS, 그리고 D3 svg 기반 시각화 라이브러리를 사용할 수 있습니다. 필요한 DOM 요소는 각 테스트 시점에 쿼리됩니다. 프론트엔드 프레임워크(예: Vue)를 사용하면 동적 콘텐츠에 대해 테스트 결과가 정확하지 않을 수 있습니다. 앞으로 지원할 예정이지만 현재 D3 프로젝트에는 이들 프레임워크가 지원되지 않습니다.
 
-**User Story #1:** My heat map should have a title with a corresponding `id="title"`.
+**사용자 스토리 #1:** 내 히트맵에는 `id="title"`에 해당하는 제목이 있어야 합니다.
 
-**User Story #2:** My heat map should have a description with a corresponding `id="description"`.
+**사용자 스토리 #2:** 내 히트맵에는 `id="description"`에 해당하는 설명이 있어야 합니다.
 
-**User Story #3:** My heat map should have an x-axis with a corresponding `id="x-axis"`.
+**사용자 스토리 #3:** 내 히트맵에는 `id="x-axis"`에 해당하는 x축이 있어야 합니다.
 
-**User Story #4:** My heat map should have a y-axis with a corresponding `id="y-axis"`.
+**사용자 스토리 #4:** 내 히트맵에는 `id="y-axis"`에 해당하는 y축이 있어야 합니다.
 
-**User Story #5:** My heat map should have `rect` elements with a `class="cell"` that represent the data.
+**사용자 스토리 #5:** 내 히트맵에는 데이터를 나타내는 `rect`를 가진 `class="cell"` 요소가 있어야 합니다.
 
-**User Story #6:** There should be at least 4 different fill colors used for the cells.
+**사용자 스토리 #6:** 셀에는 최소 4가지 다른 채우기 색상이 사용되어야 합니다.
 
-**User Story #7:** Each cell will have the properties `data-month`, `data-year`, `data-temp` containing their corresponding `month`, `year`, and `temperature` values.
+**사용자 스토리 #7:** 각 셀은 해당하는 `data-month`, `data-year`, `data-temp` 값을 포함하는 `month`, `year`, `temperature` 속성을 가져야 합니다.
 
-**User Story #8:** The `data-month`, `data-year` of each cell should be within the range of the data.
+**사용자 스토리 #8:** 각 셀의 `data-month`, `data-year`은 데이터 범위 내에 있어야 합니다.
 
-**User Story #9:** My heat map should have cells that align with the corresponding month on the y-axis.
+**사용자 스토리 #9:** 내 히트맵의 셀은 y축의 해당 월과 정렬되어야 합니다.
 
-**User Story #10:** My heat map should have cells that align with the corresponding year on the x-axis.
+**사용자 스토리 #10:** 내 히트맵의 셀은 x축의 해당 연도와 정렬되어야 합니다.
 
-**User Story #11:** My heat map should have multiple tick labels on the y-axis with the full month name.
+**사용자 스토리 #11:** 내 히트맵의 y축에는 전체 월 이름을 가진 여러 틱 레이블이 있어야 합니다.
 
-**User Story #12:** My heat map should have multiple tick labels on the x-axis with the years between 1754 and 2015.
+**사용자 스토리 #12:** 내 히트맵의 x축에는 1754년부터 2015년 사이의 연도를 가진 여러 틱 레이블이 있어야 합니다.
 
-**User Story #13:** My heat map should have a legend with a corresponding `id="legend"`.
+**사용자 스토리 #13:** 내 히트맵에는 `id="legend"`에 해당하는 범례가 있어야 합니다.
 
-**User Story #14:** My legend should contain `rect` elements.
+**사용자 스토리 #14:** 내 범례에는 `rect` 요소가 포함되어야 합니다.
 
-**User Story #15:** The `rect` elements in the legend should use at least 4 different fill colors.
+**사용자 스토리 #15:** 범례의 `rect` 요소는 최소 4가지 다른 채우기 색상을 사용해야 합니다.
 
-**User Story #16:** I can mouse over an area and see a tooltip with a corresponding `id="tooltip"` which displays more information about the area.
+**사용자 스토리 #16:** 마우스를 영역 위에 올리면 해당 영역에 대한 추가 정보를 표시하는 `id="tooltip"`가 있는 툴팁이 보여야 합니다.
 
-**User Story #17:** My tooltip should have a `data-year` property that corresponds to the `data-year` of the active area.
+**사용자 스토리 #17:** 내 툴팁에는 활성 영역의 `data-year`에 해당하는 `data-year` 속성이 있어야 합니다.
 
-Here is the dataset you will need to complete this project: `https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/global-temperature.json`
+이 프로젝트를 완료하는 데 필요한 데이터셋은 다음과 같습니다: `https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/global-temperature.json`
 
-프로젝트를 만들려면 <a href='https://codepen.io/pen?template=MJjpwO' target="_blank" rel="noopener noreferrer nofollow">이 CodePen 템플릿을 사용</a>하여 `Save`를 클릭하여 자신의 펜을 만들 수 있습니다. 또는 원하는 환경에서 테스트를 실행하기 위해 이 CDN 링크를 사용할 수 있습니다.`https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js`
+<a href='https://codepen.io/pen?template=MJjpwO' target="_blank" rel="noopener noreferrer nofollow">이 CodePen 템플릿</a>을 사용해 프로젝트를 만들고 `Save`를 클릭해 자신만의 펜을 만드세요. 또는 이 CDN 링크를 사용해 원하는 환경에서 테스트를 실행할 수 있습니다: `https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js`
 
-완료되면 모든 테스트가 통과되는 작동 프로젝트의 URL을 제출하십시오.
+완료하면 모든 테스트를 통과한 작동하는 프로젝트의 URL을 제출하세요.
 
 # --solutions--
 

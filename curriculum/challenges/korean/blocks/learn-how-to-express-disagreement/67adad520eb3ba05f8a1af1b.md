@@ -1,6 +1,6 @@
 ---
 id: 67adad520eb3ba05f8a1af1b
-title: Task 33
+title: 작업 33
 challengeType: 19
 dashedName: task-33
 lang: en-US
@@ -12,13 +12,13 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+오디오를 듣고 아래 질문에 답하세요.
 
 # --questions--
 
 ## --text--
 
-What should Anna say to agree with Bob?
+Anna가 Bob의 의견에 동의하려면 무엇이라고 말해야 할까요?
 
 ## --answers--
 
@@ -30,7 +30,7 @@ ENd6da13d0
 
 ### --feedback--
 
-This phrase suggests confusion, but Anna needs to show agreement with Bob's idea.
+이 표현은 혼란스러움을 나타내지만, Anna는 Bob의 생각에 동의하는 모습을 보여야 합니다.
 
 ---
 
@@ -46,11 +46,11 @@ ENc50c4990
 
 # --explanation--
 
-`That makes sense` is a natural way to show agreement. People use this phrase in conversations when they accept or understand a suggestion. For example:
+`That makes sense`는 동의를 자연스럽게 표현하는 방법입니다. 사람들이 제안을 받아들이거나 이해할 때 대화에서 이 표현을 사용합니다. 예를 들어:
 
 - **Developer:** `We should optimize the code before adding new features to avoid performance issues.`
 
-- **Manager:** `That makes sense. A slow app will frustrate users.` - This person agrees and understands why optimizing the code first is a good idea.
+- **Manager:** `That makes sense. A slow app will frustrate users.` - 이 사람은 동의하며 코드 최적화를 먼저 하는 것이 좋은 생각임을 이해합니다.
 
 # --scene--
 

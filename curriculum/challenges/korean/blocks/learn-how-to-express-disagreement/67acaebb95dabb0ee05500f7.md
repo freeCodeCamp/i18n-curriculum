@@ -1,6 +1,6 @@
 ---
 id: 67acaebb95dabb0ee05500f7
-title: Task 21
+title: 작업 21
 challengeType: 22
 dashedName: task-21
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+오디오를 듣고 아래 문장을 완성하세요.
 
 # --fillInTheBlank--
 
@@ -24,15 +24,15 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This word means an obstacle or something that slows down progress.
+이 단어는 장애물이나 진행을 늦추는 무언가를 의미합니다.
 
 # --explanation--
 
-A `setback` is something that delays or prevents progress. Slow or inefficient computers might make tasks take longer, reducing efficiency. For example:
+`setback`는 진행을 지연시키거나 방해하는 것을 뜻합니다. 느리거나 비효율적인 컴퓨터는 작업을 더 오래 걸리게 하여 효율성을 떨어뜨릴 수 있습니다. 예를 들어:
 
-- `The project faced a setback due to a critical bug.` - The project was delayed or had problems because of a serious software issue.
+- `The project faced a setback due to a critical bug.` - 심각한 소프트웨어 문제 때문에 프로젝트가 지연되거나 문제가 생겼습니다.
 
-- `Losing important data was a major setback for the team.` - Losing data created difficulties and slowed down the team's work.
+- `Losing important data was a major setback for the team.` - 데이터 손실이 어려움을 초래하고 팀 작업을 늦추었습니다.
 
 # --scene--
 

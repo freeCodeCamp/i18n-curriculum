@@ -1,17 +1,17 @@
 ---
 id: 5f46ede1ff8fec5ba656b44c
-title: Step 77
+title: 77단계
 challengeType: 0
 dashedName: step-77
 ---
 
 # --description--
 
-Next, you are going to be styling the `footer` element. To keep the CSS organized, add a comment at the end of `styles.css` with the text `FOOTER`.
+다음으로 `footer` 요소에 스타일을 지정할 것입니다. CSS를 깔끔하게 정리하려면 `styles.css` 끝에 `FOOTER`라는 주석을 추가하세요.
 
 # --hints--
 
-You should have a CSS comment with the text `FOOTER`.
+`FOOTER`라는 텍스트가 있는 CSS 주석이 있어야 합니다.
 
 ```js
 assert(code.match(/\/\*\s*FOOTER\s*\*\//i));
@@ -150,4 +150,3 @@ h1, h2 {
 --fcc-editable-region--
 
 ```
-

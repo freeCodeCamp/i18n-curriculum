@@ -1,6 +1,6 @@
 ---
 id: 679afc19cfcee1abd9e60ce2
-title: Task 61
+title: 작업 61
 challengeType: 19
 dashedName: task-61
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+오디오를 듣고 아래 질문에 답하세요.
 
 # --questions--
 
 ## --text--
 
-What does Brian think might happen if we don't listen to those in the team who disagree?
+Brian은 팀 내에서 반대하는 사람들의 의견을 듣지 않으면 어떤 일이 일어날 수 있다고 생각하나요?
 
 ## --answers--
 
-They might lose motivation.
+사람들이 동기를 잃을 수 있습니다.
 
 ---
 
-They will stop having disagreements.
+그들은 더 이상 반대하지 않을 것입니다.
 
 ### --feedback--
 
-Ignoring people's opinions does not stop disagreements; it might just make people less engaged.
+사람들의 의견을 무시한다고 해서 반대가 멈추는 것이 아니라, 오히려 사람들이 덜 참여하게 될 수 있습니다.
 
 ---
 
-They will work harder to prove their point.
+그들은 자신의 주장을 증명하기 위해 더 열심히 일할 것입니다.
 
 ### --feedback--
 
-Brian does not suggest that feeling undervalued makes people work harder.
+Brian은 소중하게 여기지 않는다고 해서 사람들이 더 열심히 일한다고 말하지 않습니다.
 
 ---
 
-They will automatically agree with everything.
+그들은 자동으로 모든 것에 동의할 것입니다.
 
 ### --feedback--
 
-Not listening to people doesn't make them agree with everything — it can make them disengage instead.
+사람들의 말을 듣지 않는다고 해서 모두 동의하는 것이 아니라, 오히려 참여를 멀리할 수 있습니다.
 
 ## --video-solution--
 
@@ -52,13 +52,13 @@ Not listening to people doesn't make them agree with everything — it can make 
 
 # --explanation--
 
-`To feel valued` describes the sensation you have when you believe that your thoughts, efforts, and contributions are appreciated. For example:
+`To feel valued`는 자신의 생각, 노력, 기여가 인정받는다고 느낄 때 경험하는 감정을 설명합니다. 예를 들어:
 
-`The project manager always dedicates some time during the meeting to hear what we have to say. This makes everyone in the team feel valued.` - This means the attitude of the project manager is bringing good results to the team.
+`The project manager always dedicates some time during the meeting to hear what we have to say. This makes everyone in the team feel valued.` - 이것은 프로젝트 관리자의 태도가 팀에 좋은 결과를 가져오고 있다는 의미입니다.
 
-What Brian suggests is that if team members' opinions are ignored, they may feel unimportant. If team members feel valued, they are more likely to stay engaged and contribute new ideas.
+Brian이 제안하는 것은 팀원들의 의견이 무시되면 그들이 중요하지 않다고 느낄 수 있다는 점입니다. 팀원들이 소중하게 여겨지면 더 적극적으로 참여하고 새로운 아이디어를 기여할 가능성이 높아집니다.
 
-On the other hand, if people feel like their opinions don't matter, they might become disengaged and lose motivation to contribute, which can harm overall teamwork and productivity.
+반면, 자신의 의견이 중요하지 않다고 느끼면 참여를 멀리하고 기여할 동기를 잃어 전체 팀워크와 생산성에 해를 끼칠 수 있습니다.
 
 # --scene--
 

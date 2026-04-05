@@ -1,6 +1,6 @@
 ---
 id: 678a5e7dffffba38c5ad16c4
-title: Task 17
+title: 작업 17
 challengeType: 22
 dashedName: task-17
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+오디오를 듣고 아래 문장을 완성하세요.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This two-word phrase means something is very suitable or effective for a particular purpose.
+이 두 단어 구는 어떤 것이 특정 목적에 매우 적합하거나 효과적임을 의미합니다.
 
 ---
 
@@ -32,15 +32,15 @@ This two-word phrase means something is very suitable or effective for a particu
 
 ### --feedback--
 
-This two-word phrase means something is suitable or beneficial for a specific task or situation.
+이 두 단어 구는 어떤 것이 특정 작업이나 상황에 적합하거나 유익함을 의미합니다.
 
 # --explanation--
 
-Both `great for` and `good for` mean something is very helpful, suitable or effective for a specific purpose. For example:
+`great for`와 `good for` 모두 어떤 것이 특정 목적에 매우 도움이 되거나 적합하거나 효과적임을 뜻합니다. 예를 들어:
 
-- `This new software is great for managing large projects.` - This means the software is very suitable and effective for managing large projects.
+- `This new software is great for managing large projects.` - 이 표현은 소프트웨어가 대규모 프로젝트를 관리하는 데 매우 적합하고 효과적임을 의미합니다.
 
-- `Cloud storage is good for backing up large volumes of data.` - This means cloud storage is highly effective and well-suited for safely storing large amounts of data.
+- `Cloud storage is good for backing up large volumes of data.` - 이 표현은 클라우드 저장소가 대량의 데이터를 안전하게 저장하는 데 매우 효과적이고 적합함을 의미합니다.
 
 # --scene--
 

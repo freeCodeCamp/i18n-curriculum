@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c442eddfaeb5bd18
-title: Build a Tribute Page
+title: 헌정 페이지 만들기
 challengeType: 14
 saveSubmissionToDB: true
 forumTopicId: 301147
@@ -9,27 +9,27 @@ dashedName: build-a-tribute-page
 
 # --description--
 
-**Objective:** Build an app that is functionally similar to <a href="https://tribute-page.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://tribute-page.freecodecamp.rocks</a>. **Do not copy this demo project**.
+**목표:** <a href="https://tribute-page.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://tribute-page.freecodecamp.rocks</a>와 기능적으로 유사한 앱을 만드세요. **이 데모 프로젝트를 복사하지 마세요**.
 
-**User Stories:**
+**사용자 스토리:**
 
-1. Your tribute page should have a `main` element with a corresponding `id` of `main`, which contains all other elements
-1. You should see an element with an `id` of `title`, which contains a string (i.e. text), that describes the subject of the tribute page (e.g. "Dr. Norman Borlaug")
-1. You should see either a `figure` or a `div` element with an `id` of `img-div`
-1. Within the `#img-div` element, you should see an `img` element with a corresponding `id="image"`
-1. Within the `#img-div` element, you should see an element with a corresponding `id="img-caption"` that contains textual content describing the image shown in `#img-div`
-1. You should see an element with a corresponding `id="tribute-info"`, which contains textual content describing the subject of the tribute page
-1. You should see an `a` element with a corresponding `id="tribute-link"`, which links to an outside site, that contains additional information about the subject of the tribute page. HINT: You must give your element an attribute of `target` and set it to `_blank` in order for your link to open in a new tab
-1. Your `#image` should use `max-width` and `height` properties to resize responsively, relative to the width of its parent element, without exceeding its original size
-1. Your `img` element should be centered within its parent element
+1. 헌정 페이지에는 `main` 요소가 있어야 하며, 이 요소에는 모든 다른 요소를 포함하는 `id`가 `main`로 있어야 합니다.
+1. `id`가 `title`인 요소가 있어야 하며, 이 요소는 헌정 페이지 주제를 설명하는 문자열(예: "Dr. Norman Borlaug")을 포함해야 합니다.
+1. `figure` 또는 `div` 요소 중 하나가 `id`가 `img-div`인 요소를 포함해야 합니다.
+1. `#img-div` 요소 안에는 `img` 요소가 있어야 하며, 이 요소에는 대응하는 `id="image"`가 있어야 합니다.
+1. `#img-div` 요소 안에는 `id="img-caption"`에 표시된 이미지를 설명하는 텍스트 내용을 포함하는 `#img-div`가 있어야 합니다.
+1. 헌정 페이지 주제를 설명하는 텍스트 내용을 포함하는 대응하는 `id="tribute-info"`가 있는 요소가 있어야 합니다.
+1. 헌정 페이지 주제에 대한 추가 정보를 제공하는 외부 사이트로 링크하는 `a` 요소가 대응하는 `id="tribute-link"`와 함께 있어야 합니다. 힌트: 링크가 새 탭에서 열리도록 하려면 `target` 속성을 `_blank`로 설정해야 합니다.
+1. `#image`는 부모 요소 너비에 상대적으로 크기를 조절하되 원래 크기를 넘지 않도록 `max-width`와 `height` 속성을 사용해야 합니다.
+1. `img` 요소는 부모 요소 내에서 가운데 정렬되어야 합니다.
 
-Fulfill the user stories and pass all the tests below to complete this project. Give it your own personal style. Happy Coding!
+사용자 스토리를 모두 충족하고 아래 모든 테스트를 통과해야 이 프로젝트를 완료할 수 있습니다. 자신만의 스타일로 만들어 보세요. 즐거운 코딩 되세요!
 
-**Note:** Be sure to add `<link rel="stylesheet" href="styles.css">` in your HTML to link your stylesheet and apply your CSS
+**참고:** CSS를 적용하려면 HTML에 `<link rel="stylesheet" href="styles.css">`를 추가해 스타일시트를 링크하세요.
 
 # --hints--
 
-You should have a `main` element with an `id` of `main`.
+`main` 요소가 `id`가 `main`인 속성을 가져야 합니다.
 
 ```js
 const el = document.getElementById('main');
@@ -37,7 +37,7 @@ assert.isNotNull(el);
 assert.strictEqual(el.tagName, 'MAIN');
 ```
 
-Your `#img-div`, `#image`, `#img-caption`, `#tribute-info`, and `#tribute-link` should all be descendants of `#main`.
+`#img-div`, `#image`, `#img-caption`, `#tribute-info`, `#tribute-link`는 모두 `#main`의 자손 요소여야 합니다.
 
 ```js
 const el1 = document.querySelector('#main #img-div');
@@ -52,14 +52,14 @@ assert.isNotNull(el4);
 assert.isNotNull(el5);
 ```
 
-You should have an element with an `id` of `title`.
+`id`가 `title`인 요소가 있어야 합니다.
 
 ```js
 const el = document.getElementById('title');
 assert.isNotNull(el);
 ```
 
-Your `#title` should not be empty.
+`#title`는 비어 있으면 안 됩니다.
 
 ```js
 const el = document.getElementById('title');
@@ -67,7 +67,7 @@ assert.isNotNull(el);
 assert.isNotEmpty(el.innerText.trim());
 ```
 
-You should have a `figure` or `div` element with an `id` of `img-div`.
+`figure` 또는 `div` 요소가 `id`가 `img-div`인 속성을 가져야 합니다.
 
 ```js
 const el = document.getElementById('img-div');
@@ -75,7 +75,7 @@ assert.isNotNull(el);
 assert.isTrue(el.tagName === 'DIV' || el.tagName === 'FIGURE');
 ```
 
-You should have an `img` element with an `id` of `image`.
+`img` 요소가 `id`가 `image`인 속성을 가져야 합니다.
 
 ```js
 const el = document.getElementById('image');
@@ -83,14 +83,14 @@ assert.isNotNull(el);
 assert.strictEqual(el.tagName, 'IMG');
 ```
 
-Your `#image` should be a descendant of `#img-div`.
+`#image`는 `#img-div`의 자손 요소여야 합니다.
 
 ```js
 const el = document.querySelector('#img-div #image');
 assert.isNotNull(el);
 ```
 
-You should have a `figcaption` or `div` element with an `id` of `img-caption`.
+`figcaption` 또는 `div` 요소가 `id`가 `img-caption`인 속성을 가져야 합니다.
 
 ```js
 const el = document.getElementById('img-caption');
@@ -98,14 +98,14 @@ assert.isNotNull(el);
 assert.isTrue(el.tagName === 'DIV' || el.tagName === 'FIGCAPTION');
 ```
 
-Your `#img-caption` should be a descendant of `#img-div`.
+`#img-caption`는 `#img-div`의 자손 요소여야 합니다.
 
 ```js
 const el = document.querySelector('#img-div #img-caption');
 assert.isNotNull(el);
 ```
 
-Your `#img-caption` should not be empty.
+`#img-caption`는 비어 있으면 안 됩니다.
 
 ```js
 const el = document.getElementById('img-caption');
@@ -113,14 +113,14 @@ assert.isNotNull(el);
 assert.isNotEmpty(el.innerText);
 ```
 
-You should have an element with an `id` of `tribute-info`.
+`id`가 `tribute-info`인 요소가 있어야 합니다.
 
 ```js
 const el = document.getElementById('tribute-info');
 assert.isNotNull(el);
 ```
 
-Your `#tribute-info` should not be empty.
+`#tribute-info`는 비어 있으면 안 됩니다.
 
 ```js
 const el = document.getElementById('tribute-info');
@@ -128,7 +128,7 @@ assert.isNotNull(el);
 assert.isNotEmpty(el.innerText);
 ```
 
-You should have an `a` element with an `id` of `tribute-link`.
+`a` 요소가 `id`가 `tribute-link`인 속성을 가져야 합니다.
 
 ```js
 const el = document.getElementById('tribute-link');
@@ -136,7 +136,7 @@ assert.isNotNull(el);
 assert.strictEqual(el.tagName, 'A');
 ```
 
-Your `#tribute-link` should have an `href` attribute and value.
+`#tribute-link`는 `href` 속성과 값을 가져야 합니다.
 
 ```js
 const el = document.getElementById('tribute-link');
@@ -145,7 +145,7 @@ assert.isNotNull(el.href);
 assert.isNotEmpty(el.href);
 ```
 
-Your `#tribute-link` should have a `target` attribute set to `_blank`.
+`#tribute-link`는 `target` 속성을 `_blank`로 설정해야 합니다.
 
 ```js
 const el = document.getElementById('tribute-link');
@@ -153,7 +153,7 @@ assert.isNotNull(el);
 assert.strictEqual(el.target, '_blank');
 ```
 
-Your `img` element should have a `display` of `block`.
+`img` 요소가 `display`가 `block`인 속성을 가져야 합니다.
 
 ```js
 const img = document.getElementById('image');
@@ -162,7 +162,7 @@ const style = imgStyle?.getPropertyValue('display');
 assert.strictEqual(style, 'block');
 ```
 
-Your `#image` should have a `max-width` of `100%`.
+`#image`는 `max-width`가 `100%`인 속성을 가져야 합니다.
 
 ```js
 const img = document.getElementById('image');
@@ -171,7 +171,7 @@ const style = imgStyle?.getPropertyValue('max-width');
 assert.strictEqual(style, '100%');
 ```
 
-Your `#image` should have a `height` of `auto`.
+`#image`는 `height`가 `auto`인 속성을 가져야 합니다.
 
 ```js
 // taken from the testable-projects repo
@@ -185,7 +185,7 @@ img?.style.setProperty('display', oldDisplayValue, oldDisplayPriority);
 assert.strictEqual(heightValue, 'auto');
 ```
 
-Your `#image` should be centered within its parent.
+`#image`는 부모 요소 내에서 가운데 정렬되어야 합니다.
 
 ```js
 // taken from the testable-projects repo

@@ -1,6 +1,6 @@
 ---
 id: 65fc9be86f2ae26ddcdf0bb3
-title: Task 36
+title: 작업 36
 challengeType: 19
 dashedName: task-36
 lang: en-US
@@ -11,41 +11,41 @@ lang: en-US
 
 # --description--
 
-Listen to Maria and answer the question.
+Maria의 말을 듣고 질문에 답하세요.
 
 # --questions--
 
 ## --text--
 
-What can boost their motivation according to Maria?
+Maria에 따르면 무엇이 그들의 동기를 높일 수 있나요?
 
 ## --answers--
 
-Having a big team
+큰 팀을 갖는 것
 
 ### --feedback--
 
-Think about what specifically makes the team more motivated, not just the size of the team.
+팀의 크기뿐만 아니라 무엇이 팀을 더 동기부여하게 만드는지 생각해 보세요.
 
 ---
 
-Taking a long break
+오랜 휴식을 취하는 것
 
 ### --feedback--
 
-Consider if breaks are mentioned as a way to increase motivation.
+휴식이 동기를 높이는 방법으로 언급되는지 고려하세요.
 
 ---
 
-Seeing the team inspired
+팀이 영감을 받는 모습을 보는 것
 
 ---
 
-Solving problems quickly
+문제를 빠르게 해결하는 것
 
 ### --feedback--
 
-Reflect on whether the speed of solving problems is what Maria highlights as motivating.
+Maria가 동기부여에 대해 강조하는 것이 문제 해결 속도인지 생각해 보세요.
 
 ## --video-solution--
 

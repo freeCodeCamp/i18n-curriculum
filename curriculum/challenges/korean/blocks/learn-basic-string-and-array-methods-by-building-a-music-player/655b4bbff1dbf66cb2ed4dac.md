@@ -1,23 +1,23 @@
 ---
 id: 655b4bbff1dbf66cb2ed4dac
-title: Step 97
+title: 97단계
 challengeType: 0
 dashedName: step-97
 ---
 
 # --description--
 
-Use an `if` statement to check if `nextSongExists` exists, then call the `playNextSong()` function in the `if` block. This will automatically play the next song when the current song ends.
+`if` 문을 사용해 `nextSongExists`이 존재하는지 확인한 다음, `playNextSong()` 블록 안에서 `if` 함수를 호출하세요. 이렇게 하면 현재 노래가 끝나면 자동으로 다음 노래가 재생됩니다.
 
 # --hints--
 
-You should create an `if` statement with the condition `nextSongExists`.
+조건 `if`를 가진 `nextSongExists` 문을 만드세요.
 
 ```js
 assert.match(code, /if\s*\(\s*nextSongExists\s*\)\s*\{\s*/)
 ```
 
-You should call the `playNextSong` function inside your `if` statement.
+`playNextSong` 문 안에서 `if` 함수를 호출하세요.
 
 ```js
 assert.match(code, /if\s*\(\s*nextSongExists\s*\)\s*\{\s*playNextSong\(\s*\)\s*;?\s*\}/)
@@ -596,7 +596,7 @@ const playSong = (id) => {
 
 const pauseSong = () => {
   userData.songCurrentTime = audio.currentTime;
-
+  
   playButton.classList.remove("playing");
   audio.pause();
 };

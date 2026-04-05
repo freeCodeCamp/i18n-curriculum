@@ -1,6 +1,6 @@
 ---
 id: 657e4ec6dd27af9cc16addea
-title: Task 79
+title: 작업 79
 challengeType: 19
 dashedName: task-79
 lang: en-US
@@ -10,43 +10,43 @@ lang: en-US
 
 # --description--
 
-`Regulations` are official rules made by a government or authority. They are designed to control how something works or how people act, especially in businesses. For example:
+`Regulations`는 정부나 권위 기관에서 만든 공식 규칙입니다. 이들은 특히 기업에서 어떤 일이 어떻게 진행되는지 또는 사람들이 어떻게 행동하는지를 통제하기 위해 설계되었습니다. 예를 들어:
 
-`Health and safety regulations ensure a safe workplace.` - This means health and safety rules help make the workplace safe for everyone.
+`Health and safety regulations ensure a safe workplace.` - 이는 건강과 안전 규칙이 모든 사람에게 안전한 작업장을 만드는 데 도움을 준다는 뜻입니다.
 
 # --questions--
 
 ## --text--
 
-What are `regulations` usually in a business context?
+`regulations`는 보통 비즈니스 맥락에서 무엇인가요?
 
 ## --answers--
 
-Personal preferences.
+개인적인 선호.
 
 ### --feedback--
 
-`Regulations` are formal rules, not personal preferences.
+`Regulations`는 개인적인 선호가 아니라 공식적인 규칙입니다.
 
 ---
 
-Informal team agreements.
+비공식 팀 합의.
 
 ### --feedback--
 
-`Regulations` are more formal than informal agreements.
+`Regulations`는 비공식 합의보다 더 공식적입니다.
 
 ---
 
-Official rules set by authorities.
+권위 기관에서 정한 공식 규칙.
 
 ---
 
-Suggestions for leisure activities.
+여가 활동에 대한 제안.
 
 ### --feedback--
 
-`Regulations` are about professional conduct, not leisure.
+`Regulations`는 여가가 아니라 전문적인 행동에 관한 것입니다.
 
 ## --video-solution--
 

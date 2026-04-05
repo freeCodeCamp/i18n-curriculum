@@ -1,6 +1,6 @@
 ---
 id: 657cbef9aa43ceba8af6feb4
-title: Task 51
+title: 작업 51
 challengeType: 22
 dashedName: task-51
 lang: en-US
@@ -10,11 +10,11 @@ lang: en-US
 
 # --description--
 
-When you like doing something very much, you can say you `enjoy` it. It's a simple way to express that something makes you happy.
+무언가를 아주 좋아할 때, `enjoy`라고 말할 수 있습니다. 이것은 어떤 것이 당신을 행복하게 한다는 것을 표현하는 간단한 방법입니다.
 
-For example, you can say, `I enjoy playing video games`. This means playing video games is fun for you.
+예를 들어, `I enjoy playing video games`라고 말할 수 있습니다. 이것은 비디오 게임을 하는 것이 당신에게 재미있다는 뜻입니다.
 
-In the dialogue, Sophie tells something that Maria enjoys in her job.
+대화에서 Sophie는 Maria가 직장에서 즐기는 무언가에 대해 말합니다.
 
 # --fillInTheBlank--
 
@@ -28,7 +28,7 @@ In the dialogue, Sophie tells something that Maria enjoys in her job.
 
 ### --feedback--
 
-This verb means Maria likes something and feels happy doing it. It ends in `-s`.
+이 동사는 Maria가 무언가를 좋아하고 그것을 하면서 행복함을 느낀다는 뜻입니다. `-s`로 끝납니다.
 
 # --scene--
 

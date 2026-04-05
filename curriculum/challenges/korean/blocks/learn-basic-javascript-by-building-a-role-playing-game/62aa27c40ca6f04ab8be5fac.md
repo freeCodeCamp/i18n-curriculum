@@ -1,13 +1,13 @@
 ---
 id: 62aa27c40ca6f04ab8be5fac
-title: Step 167
+title: 167단계
 challengeType: 0
 dashedName: step-167
 ---
 
 # --description--
 
-In the previous project, you learned how to work with `for` loops like this:
+이전 프로젝트에서 `for` 반복문을 다루는 방법을 배웠습니다:
 
 ```js
 for (let i = 0; i < 5; i++) {
@@ -15,26 +15,26 @@ for (let i = 0; i < 5; i++) {
 }
 ```
 
-`for` loops are declared with three expressions separated by semicolons: `for (a; b; c)`, where `a` is the initialization expression, `b` is the condition, and `c` is the final expression.
+`for` 반복문은 세 개의 표현식이 세미콜론으로 구분되어 선언됩니다: `for (a; b; c)`, 여기서 `a`은 초기화 표현식이고, `b`는 조건이며, `c`는 마지막 표현식입니다.
 
-In this step, create a `for` loop where `i` is initialized to `0`, the loop runs as long as `i` is less than `10`, and `i` is incremented by `1` after each iteration using the increment operator `++`.
+이번 단계에서는 `for`이 `i`로 초기화되고, `0`가 `i`보다 작은 동안 반복문이 실행되며, 각 반복 후 증가 연산자 `10`를 사용해 `i`이 `1`만큼 증가하는 `++` 반복문을 만드세요.
 
 
 # --hints--
 
-Your `for` loop initialization should have `i` initialized to `0`.
+`for` 반복문 초기화에서 `i`가 `0`로 초기화되어야 합니다.
 
 ```js
 assert.match(pick.toString(), /for\s*\(\s*(let|var)\s+i\s*=\s*0\s*;/)
 ```
 
-Your loop condition should run as long as `i` is less than `10`.
+반복문 조건은 `i`가 `10`보다 작은 동안 실행되어야 합니다.
 
 ```js
 assert.match(pick.toString(), /for\s*\(\s*(let|var)\s+i\s*=\s*0\s*;\s*i\s*<\s*10\s*;/)
 ```
 
-Your loop should increment `i` by `1` after each iteration. Remember to use the increment operator `++`.
+반복문은 각 반복 후 `i`를 `1`만큼 증가시켜야 합니다. 증가 연산자 `++`를 사용하는 것을 잊지 마세요.
 
 ```js
 assert.match(pick.toString(), /for\s*\(\s*(let|var)\s+i\s*=\s*0\s*;\s*i\s*<\s*10\s*;\s*i\+\+\s*\)/)
@@ -399,7 +399,7 @@ function pick(guess) {
     numbers.push(Math.floor(Math.random() * 11));
   }
   text.innerText = "You picked " + guess + ". Here are the random numbers:\n";
-
+  
 }
 --fcc-editable-region--
 ```

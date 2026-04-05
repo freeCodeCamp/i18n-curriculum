@@ -1,6 +1,6 @@
 ---
 id: 679aa5040bedaccedf33d6d8
-title: Task 45
+title: 도전 과제 45
 challengeType: 19
 dashedName: task-45
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+오디오를 듣고 아래 질문에 답하세요.
 
 # --questions--
 
 ## --text--
 
-Why does Brian think it's not good when everyone thinks alike?
+왜 Brian은 모두가 똑같이 생각하는 것이 좋지 않다고 생각할까요?
 
 ## --answers--
 
-Because they might overlook important details.
+중요한 세부 사항을 간과할 수 있기 때문입니다.
 
 ---
 
-Because it would make decision-making faster.
+의사결정이 더 빨라지기 때문입니다.
 
 ### --feedback--
 
-Brian is not saying that agreement is beneficial.
+Brian은 합의가 유익하다고 말하지 않습니다.
 
 ---
 
-Because disagreements always cause problems.
+불일치는 항상 문제를 일으키기 때문입니다.
 
 ### --feedback--
 
-Brian is actually saying that some disagreement is useful, not that it causes problems.
+Brian은 불일치가 문제를 일으킨다고 말하는 것이 아니라, 어느 정도의 불일치는 유용하다고 말합니다.
 
 ---
 
-Because no one would share their opinions.
+아무도 의견을 공유하지 않을 것이기 때문입니다.
 
 ### --feedback--
 
-Brian isn't talking about people refusing to share their opinions.
+Brian은 사람들이 의견 공유를 거부한다고 말하지 않습니다.
 
 ## --video-solution--
 
@@ -52,11 +52,11 @@ Brian isn't talking about people refusing to share their opinions.
 
 # --explanation--
 
-The structure `if + verb in the Simple Past` followed by `might` in the consequence clause is used to describe a hypothetical situation with a possible outcome. For example:
+결과 절에서 `if + verb in the Simple Past` 다음에 `might` 구조는 가능한 결과가 있는 가상의 상황을 설명할 때 사용합니다. 예를 들어:
 
-`If you studied more, you might pass the exam.` - This means there is a possibility of passing if the person studies more.
+`If you studied more, you might pass the exam.` - 이는 그 사람이 더 공부하면 합격할 가능성이 있다는 뜻입니다.
 
-In this dialogue, `If we all agreed on everything, we might miss important details` expresses a possible negative consequence of complete agreement.
+이 대화에서 `If we all agreed on everything, we might miss important details`은 완전한 합의가 가져올 수 있는 부정적인 결과를 표현합니다.
 
 # --scene--
 

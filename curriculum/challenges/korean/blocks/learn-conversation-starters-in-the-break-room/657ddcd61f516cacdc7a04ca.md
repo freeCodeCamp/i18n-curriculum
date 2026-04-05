@@ -1,6 +1,6 @@
 ---
 id: 657ddcd61f516cacdc7a04ca
-title: Task 128
+title: 도전 과제 128
 challengeType: 19
 dashedName: task-128
 lang: en-US
@@ -10,45 +10,45 @@ lang: en-US
 
 # --description--
 
-Maria informs Tom about public transportation options, specifically mentioning a transportation that stops nearby. This is important for getting around the city, especially to places that are not within walking distance.
+Maria가 Tom에게 대중교통 수단에 대해 알려주며, 특히 가까운 곳에 정차하는 교통편을 언급합니다. 이는 도보로 갈 수 없는 곳을 포함해 도시 내 이동에 중요합니다.
 
-`Two blocks away` means that you need to walk past two street corners to get to a place. It's a short walk in a city.
+`Two blocks away`는 목적지까지 두 개의 거리 모퉁이를 지나 걸어야 한다는 뜻입니다. 도심에서 짧은 거리입니다.
 
-`Downtown` is the heart of a city where there are many shops, restaurants, and usually tall buildings.
+`Downtown`는 상점, 식당이 많고 보통 높은 건물이 있는 도시의 중심지입니다.
 
 # --questions--
 
 ## --text--
 
-What does Maria say stops two blocks away?
+Maria가 두 블록 떨어진 곳에 정차한다고 말한 것은 무엇인가요?
 
 ## --answers--
 
-A taxi
+택시
 
 ### --feedback--
 
-Maria mentions a public transportation option, not a private service.
+Maria는 개인 서비스가 아닌 대중교통 수단을 언급했습니다.
 
 ---
 
-A train
+기차
 
 ### --feedback--
 
-Trains don't typically stop at blocks; they stop at stations.
+기차는 보통 블록 단위가 아닌 역에 정차합니다.
 
 ---
 
-A bus
+버스
 
 ---
 
-A bicycle rental
+자전거 대여
 
 ### --feedback--
 
-Rentals are usually stationary services, not something that stops.
+대여 서비스는 보통 고정된 장소에 있으며, 정차하는 개념이 아닙니다.
 
 ## --video-solution--
 

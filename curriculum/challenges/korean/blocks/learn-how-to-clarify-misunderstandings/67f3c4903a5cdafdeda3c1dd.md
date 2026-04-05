@@ -1,6 +1,6 @@
 ---
 id: 67f3c4903a5cdafdeda3c1dd
-title: Task 143
+title: 도전 과제 143
 challengeType: 22
 dashedName: task-143
 lang: en-US
@@ -10,13 +10,13 @@ lang: en-US
 
 # --description--
 
-This is a review of the entire dialogue you just studied.
+방금 학습한 전체 대화를 검토합니다.
 
 # --instructions--
 
-Write the following words or phrases in the correct spot:
+다음 단어나 구를 올바른 위치에 작성하세요:
 
-`mix-up`, `on track`, `ironing out`, `misunderstanding`, `supposed`, `the confusion`, and `on the same page`.
+`mix-up`, `on track`, `ironing out`, `misunderstanding`, `supposed`, `the confusion`, 그리고 `on the same page`.
 
 # --fillInTheBlank--
 
@@ -52,7 +52,7 @@ Write the following words or phrases in the correct spot:
 
 ### --feedback--
 
-This noun refers to a failure to understand something correctly.
+이 명사는 무언가를 제대로 이해하지 못한 상태를 나타냅니다.
 
 ---
 
@@ -60,7 +60,7 @@ This noun refers to a failure to understand something correctly.
 
 ### --feedback--
 
-These two words together indicate a lack of clarity or understanding. The first is an article the second is a noun.
+이 두 단어는 함께 명확하지 않거나 이해가 부족한 상태를 나타냅니다. 첫 번째는 관사이고 두 번째는 명사입니다.
 
 ---
 
@@ -68,7 +68,7 @@ These two words together indicate a lack of clarity or understanding. The first 
 
 ### --feedback--
 
-These two words together describe something progressing as planned.
+이 두 단어는 함께 계획대로 진행되는 상황을 설명합니다.
 
 ---
 
@@ -76,7 +76,7 @@ These two words together describe something progressing as planned.
 
 ### --feedback--
 
-These two words describe resolving small problems or details. The first word ends with `-ing`.
+이 두 단어는 작은 문제나 세부 사항을 해결하는 것을 설명합니다. 첫 번째 단어는 `-ing`로 끝납니다.
 
 ---
 
@@ -84,7 +84,7 @@ These two words describe resolving small problems or details. The first word end
 
 ### --feedback--
 
-This is a `Past Participle` used to express expectation or intention.
+이것은 기대나 의도를 표현하는 `Past Participle`입니다.
 
 ---
 
@@ -92,7 +92,7 @@ This is a `Past Participle` used to express expectation or intention.
 
 ### --feedback--
 
-This noun describes a mistake or confusion due to things being confused. This is a compound word. Remember to use `-`.
+이 명사는 혼동으로 인한 실수나 혼란을 설명합니다. 합성어입니다. `-`를 사용해야 한다는 점을 기억하세요.
 
 ---
 
@@ -100,4 +100,4 @@ This noun describes a mistake or confusion due to things being confused. This is
 
 ### --feedback--
 
-These four words together mean having a mutual understanding. The first word is a preposition.
+이 네 단어는 상호 이해가 있음을 의미합니다. 첫 번째 단어는 전치사입니다.

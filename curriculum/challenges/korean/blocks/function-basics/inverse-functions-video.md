@@ -1,6 +1,6 @@
 ---
 id: 699e0359138be64fa3131390
-title: Inverse Functions
+title: 역함수
 challengeType: 11
 videoId: f9ph7m0zgD0
 dashedName: inverse-functions
@@ -8,29 +8,29 @@ dashedName: inverse-functions
 
 # --description--
 
-In this video, you will learn about inverse functions.
+이 영상에서는 역함수에 대해 배우세요.
 
 # --questions--
 
 ## --text--
 
-Do all functions have inverse functions?
+모든 함수가 역함수를 가질까요?
 
 ## --answers--
 
-No
+아니요
 
 ---
 
-Yes
+네
 
 ---
 
-Only for functions with a finite domain.
+유한한 정의역을 가진 함수에만 해당합니다.
 
 ---
 
-Only for functions that are increasing or decreasing everywhere.
+모든 구간에서 증가하거나 감소하는 함수에만 해당합니다.
 
 ## --video-solution--
 

@@ -1,6 +1,6 @@
 ---
 id: 698dd3ea7932b3cc4b19c92e
-title: Accessing a Value in an Array
+title: 배열에서 값에 접근하기
 challengeType: 11
 videoId: yN6_wlaNvHo
 dashedName: accessing-a-value-in-an-array
@@ -8,13 +8,13 @@ dashedName: accessing-a-value-in-an-array
 
 # --description--
 
-In this video, you will learn how to access elements from an array.
+이 영상에서는 배열에서 요소에 접근하는 방법을 배우세요.
 
 # --questions--
 
 ## --text--
 
-Which of the following is the correct way to access the first element from a Python list?
+다음 중 Python 리스트에서 첫 번째 요소에 접근하는 올바른 방법은 무엇인가요?
 
 ## --answers--
 

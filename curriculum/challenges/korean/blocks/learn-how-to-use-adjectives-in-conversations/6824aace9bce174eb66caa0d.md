@@ -1,6 +1,6 @@
 ---
 id: 6824aace9bce174eb66caa0d
-title: Task 149
+title: 작업 149
 challengeType: 19
 dashedName: task-149
 lang: en-US
@@ -10,13 +10,13 @@ lang: en-US
 
 # --instructions--
 
-Read the text and answer the question below.
+텍스트를 읽고 아래 질문에 답하세요.
 
 # --questions--
 
 ## --text--
 
-Jessica sent an email to the team the next day, summarizing her conversation with James about the new software version.
+Jessica는 다음 날 팀에 이메일을 보내 James와 나눈 새 소프트웨어 버전에 관한 대화를 요약했습니다.
 
 `Hi team,`
 
@@ -50,35 +50,35 @@ Jessica sent an email to the team the next day, summarizing her conversation wit
 
 `Jessica`
 
-What did Jessica report about the software's stability?
+Jessica가 소프트웨어 안정성에 대해 보고한 내용은 무엇인가요?
 
 ## --answers--
 
-It now requires more updates to stay stable.
+지금은 안정성을 유지하려면 더 많은 업데이트가 필요합니다.
 
 ### --feedback--
 
-Jessica does not mention the need for more updates.
+Jessica는 더 많은 업데이트가 필요하다고 언급하지 않았습니다.
 
 ---
 
-It crashes less and has fewer serious problems.
+충돌이 줄고 심각한 문제가 적어졌습니다.
 
 ---
 
-It works the same as the old version in terms of stability.
+안정성 면에서 이전 버전과 동일하게 작동합니다.
 
 ### --feedback--
 
-She clearly says the new version is `much more stable`.
+그녀는 새 버전이 `much more stable`라고 분명히 말했습니다.
 
 ---
 
-It still has many large bugs and stops working often.
+여전히 많은 큰 버그가 있고 자주 정지합니다.
 
 ### --feedback--
 
-Jessica reports fewer problems and less crashing, not frequent bugs.
+Jessica는 문제와 충돌이 줄었다고 보고했으며, 자주 버그가 발생한다고 하지 않았습니다.
 
 ## --video-solution--
 
@@ -86,6 +86,6 @@ Jessica reports fewer problems and less crashing, not frequent bugs.
 
 # --explanation--
 
-In the `Stability` section, Jessica says the new version `doesn't crash as often` and they've seen `fewer serious problems`.
+`Stability` 섹션에서 Jessica는 새 버전이 `doesn't crash as often`이며 `fewer serious problems`를 확인했다고 말합니다.
 
-This means it is more reliable and stable than before.
+이는 이전보다 더 신뢰할 수 있고 안정적임을 의미합니다.

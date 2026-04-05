@@ -1,6 +1,6 @@
 ---
 id: 67dd5baa84d2fcc56c09dce3
-title: Task 15
+title: 작업 15
 challengeType: 22
 dashedName: task-15
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+오디오를 듣고 아래 문장을 완성하세요.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This means to make a choice or come to a conclusion about something.
+이는 무언가에 대해 선택하거나 결론을 내리는 것을 의미합니다.
 
 ---
 
@@ -32,17 +32,17 @@ This means to make a choice or come to a conclusion about something.
 
 ### --feedback--
 
-This refers to a specific stage or part of a process or project.
+이는 과정이나 프로젝트의 특정 단계 또는 부분을 가리킵니다.
 
 # --explanation--
 
-`To decide` means to choose something after thinking about it. For example:
+`To decide`는 생각한 후에 무언가를 선택하는 것을 의미합니다. 예를 들어:
 
-`We need to decide which tools to use for the project.` – This means choosing the tools after considering the options.
+`We need to decide which tools to use for the project.` – 이는 옵션을 고려한 후 도구를 선택하는 것을 의미합니다.
 
-A `phase` refers to one part or step in a larger process. For example:
+`phase`는 더 큰 과정의 한 부분 또는 단계를 가리킵니다. 예를 들어:
 
-`We just finished the testing phase of the software.` – This means the testing step in the development process is complete.
+`We just finished the testing phase of the software.` – 이는 개발 과정에서 테스트 단계가 완료되었음을 의미합니다.
 
 # --scene--
 

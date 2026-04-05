@@ -1,6 +1,6 @@
 ---
 id: 662347b1bb7b3cdfcccffa57
-title: Task 50
+title: 작업 50
 challengeType: 22
 dashedName: task-50
 lang: en-US
@@ -10,9 +10,9 @@ lang: en-US
 
 # --description--
 
-`Heard` is the past tense of the verb `to hear`, which means to become aware of something through the ears or to be informed of something. For example, `I heard the news yesterday` means you became aware of the news the day before.
+`Heard`는 동사 `to hear`의 과거형으로, 귀를 통해 무언가를 알게 되거나 정보를 전달받는다는 뜻입니다. 예를 들어, `I heard the news yesterday`는 전날 그 소식을 알게 되었다는 의미입니다.
 
-An `authentication module` in a software context is a part of a system responsible for verifying the identity of users. It's often used in login systems. For example, `The authentication module checks the username and password` means it verifies the user's credentials.
+소프트웨어 맥락에서 `authentication module`는 사용자의 신원을 확인하는 시스템의 일부를 말합니다. 주로 로그인 시스템에서 사용됩니다. 예를 들어, `The authentication module checks the username and password`는 사용자의 자격 증명을 확인한다는 뜻입니다.
 
 # --fillInTheBlank--
 
@@ -26,7 +26,7 @@ An `authentication module` in a software context is a part of a system responsib
 
 ### --feedback--
 
-It is the past tense of `to hear`, indicating Brian was informed about Sophie's task.
+이는 `to hear`의 과거형으로, Brian이 Sophie의 작업에 대해 알게 되었음을 나타냅니다.
 
 ---
 
@@ -34,7 +34,7 @@ It is the past tense of `to hear`, indicating Brian was informed about Sophie's 
 
 ### --feedback--
 
-It refers to the act of repairing or resolving the issue (bug) in the software.
+소프트웨어의 문제(버그)를 고치거나 해결하는 행위를 의미합니다.
 
 ---
 
@@ -42,7 +42,7 @@ It refers to the act of repairing or resolving the issue (bug) in the software.
 
 ### --feedback--
 
-It refers to the process of verifying a user's identity in the software module.
+소프트웨어 모듈에서 사용자의 신원을 확인하는 과정을 의미합니다.
 
 # --scene--
 

@@ -1,31 +1,31 @@
 ---
 id: 63c9f24afbc9cf324dcaa9a4
-title: Step 95
+title: 95단계
 challengeType: 0
 dashedName: step-95
 ---
 
 # --description--
 
-You also need to clear the `output` element's text. You can do this by setting the `innerText` property to an empty string.
+`output` 요소의 텍스트도 지워야 합니다. `innerText` 속성을 빈 문자열로 설정하면 됩니다.
 
-The difference between `innerText` and `innerHTML` is that `innerText` will not render HTML elements, but will display the tags and content as raw text.
+`innerText`와 `innerHTML`의 차이는 `innerText`는 HTML 요소를 렌더링하지 않고 태그와 내용을 원시 텍스트로 표시한다는 점입니다.
 
 # --hints--
 
-Your `clearForm` function should access the `innerText` property of the `output` element.
+`clearForm` 함수는 `innerText` 요소의 `output` 속성에 접근해야 합니다.
 
 ```js
 assert.match(clearForm.toString(), /output\.innerText/);
 ```
 
-Your `clearForm` function should set the `innerText` property of the `output` element to an empty string.
+`clearForm` 함수는 `innerText` 요소의 `output` 속성을 빈 문자열로 설정해야 합니다.
 
 ```js
 assert.match(clearForm.toString(), /output\.innerText\s*=\s*('|"|`)\1/);
 ```
 
-You should modify `output` after modifying `budgetNumberInput`.
+`output`을 수정하기 전에 `budgetNumberInput`을 수정해야 합니다.
 
 ```js
 assert.isAbove(clearForm.toString().indexOf('output'), clearForm.toString().indexOf('budgetNumberInput'));

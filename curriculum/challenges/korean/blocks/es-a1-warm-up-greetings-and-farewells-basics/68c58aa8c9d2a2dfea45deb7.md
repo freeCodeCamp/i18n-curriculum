@@ -1,26 +1,25 @@
 ---
 id: 68c58aa8c9d2a2dfea45deb7
-title: Task 7
+title: 작업 7
 challengeType: 19
 dashedName: task-7
 lang: es
 ---
-
 <!-- (Audio) Elena: Hasta luego -->
 
 # --description--
 
-Elena is saying goodbye, but she expects to see you again.
+엘레나는 작별 인사를 하지만 다시 만날 것으로 기대합니다.
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+오디오를 듣고 아래 질문에 답하세요.
 
 # --questions--
 
 ## --text--
 
-What phrase does Elena use to say "see you later"?
+엘레나가 "나중에 봐"라고 말할 때 사용하는 표현은 무엇인가요?
 
 ## --answers--
 
@@ -32,7 +31,7 @@ What phrase does Elena use to say "see you later"?
 
 ### --feedback--
 
-This is a goodbye, but it's more final. The speaker uses a different phrase.
+이 표현은 작별 인사이지만 더 단호한 느낌입니다. 화자는 다른 표현을 사용합니다.
 
 ---
 
@@ -40,7 +39,7 @@ This is a goodbye, but it's more final. The speaker uses a different phrase.
 
 ### --feedback--
 
-This is also an informal way to say goodbye, but it's not the one in the audio.
+이것도 비공식적인 작별 인사이지만, 오디오에서 나온 표현은 아닙니다.
 
 ---
 
@@ -48,7 +47,7 @@ This is also an informal way to say goodbye, but it's not the one in the audio.
 
 ### --feedback--
 
-This means "Hi", a general greeting, but it's not what Elena says.
+이 표현은 "안녕"이라는 일반적인 인사말이지만, 엘레나가 말한 것은 아닙니다.
 
 ## --video-solution--
 
@@ -56,11 +55,11 @@ This means "Hi", a general greeting, but it's not what Elena says.
 
 # --explanation--
 
-`Hasta luego` is a common way to say goodbye in Spanish. It translates to "See you later".
+`Hasta luego`는 스페인어에서 흔히 쓰는 작별 인사입니다. "나중에 봐"라는 뜻입니다.
 
-It's used when you expect to see the person again, but not necessarily soon. For example:
+이 표현은 상대를 다시 만날 것으로 기대하지만 꼭 곧 만나는 것은 아닐 때 사용합니다. 예를 들어:  
 
-`Hasta luego, Marta.` – See you later, Marta.
+`Hasta luego, Marta.` – 나중에 봐, 마르타.
 
 # --scene--
 

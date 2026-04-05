@@ -1,6 +1,6 @@
 ---
 id: 6710e0e2cafeeb09e6cb2d8f
-title: Task 55
+title: 작업 55
 challengeType: 22
 dashedName: task-55
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+오디오를 듣고 아래 문장을 완성하세요.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This is the auxiliary verb used to form the `Past Continuous` in the singular first-person form.
+이것은 단수 1인칭 형태로 `Past Continuous`를 만들 때 사용하는 조동사입니다.
 
 ---
 
@@ -32,7 +32,7 @@ This is the auxiliary verb used to form the `Past Continuous` in the singular fi
 
 ### --feedback--
 
-This is the main verb in the `Past Continuous`, describing the act of laboring.
+이것은 `Past Continuous`에서 노동하는 행위를 나타내는 주요 동사입니다.
 
 ---
 
@@ -40,7 +40,7 @@ This is the main verb in the `Past Continuous`, describing the act of laboring.
 
 ### --feedback--
 
-This is the auxiliary verb used to form the `Past Continuous` in the plural first-person form.
+이것은 복수 1인칭 형태로 `Past Continuous`를 만들 때 사용하는 조동사입니다.
 
 ---
 
@@ -48,15 +48,15 @@ This is the auxiliary verb used to form the `Past Continuous` in the plural firs
 
 ### --feedback--
 
-This is the main verb in the `Past Continuous`, describing an ongoing action of improving or modernizing something.
+이것은 `Past Continuous`에서 무언가를 개선하거나 현대화하는 진행 중인 동작을 나타내는 주요 동사입니다.
 
 # --explanation--
 
-The `Past Continuous` tense is used to describe actions that were ongoing at a specific time in the past. When two `Past Continuous` sentences are used together, they often describe simultaneous actions or actions happening alongside each other.
+`Past Continuous` 시제는 과거 특정 시점에 진행 중이던 동작을 설명할 때 사용합니다. 두 개의 `Past Continuous` 문장이 함께 쓰일 때, 보통 동시에 일어나는 동작이나 서로 병행되는 동작을 나타냅니다.
 
-In this sentence, Linda is describing how she and her team were both working and updating the user interface continuously throughout the project. This shows two actions happening at the same time in the past, providing context or background for each other. For example:
+이 문장에서 Linda는 자신과 팀이 프로젝트 내내 계속해서 일하고 사용자 인터페이스를 업데이트하고 있었음을 설명합니다. 이는 과거에 동시에 일어난 두 동작을 보여 주며 서로에 대한 배경이나 맥락을 제공합니다. 예를 들어:
 
-`While I was preparing the report, they were testing the new features.` - This means the action of my preparing the report and the testing of the new features happened at the same time.
+`While I was preparing the report, they were testing the new features.` - 이것은 내가 보고서를 준비하는 동작과 새로운 기능을 테스트하는 동작이 동시에 일어났음을 의미합니다.
 
 # --scene--
 

@@ -1,6 +1,6 @@
 ---
 id: 3625fbc38b9428ae98d98f23
-title: Dictionaries
+title: 딕셔너리
 challengeType: 11
 videoId: FBfYADu3CIo
 dashedName: dictionaries
@@ -8,13 +8,13 @@ dashedName: dictionaries
 
 # --description--
 
-In this video, you will learn how to work with dictionaries in Python to store key-value pairs.
+이 영상에서는 Python에서 딕셔너리를 사용해 키-값 쌍을 저장하는 방법을 배우세요.
 
 # --questions--
 
 ## --text--
 
-Which of the following will correctly output the string `"March"` to the console?
+다음 중 문자열 `"March"`을 콘솔에 올바르게 출력하는 코드는 무엇인가요?
 
 ## --answers--
 

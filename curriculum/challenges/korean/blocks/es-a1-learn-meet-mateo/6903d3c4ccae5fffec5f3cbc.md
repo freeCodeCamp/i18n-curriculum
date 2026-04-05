@@ -1,6 +1,6 @@
 ---
 id: 6903d3c4ccae5fffec5f3cbc
-title: Task 4
+title: 작업 4
 challengeType: 19
 dashedName: task-4
 lang: es
@@ -10,13 +10,13 @@ lang: es
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+오디오를 듣고 아래 질문에 답하세요.
 
 # --questions--
 
 ## --text--
 
-What is Mateo's nationality?
+Mateo의 국적은 무엇인가요?
 
 ## --answers--
 
@@ -24,7 +24,7 @@ What is Mateo's nationality?
 
 ### --feedback--
 
-This option refers to someone from Chile.
+이 선택지는 칠레 출신을 가리킵니다.
 
 ---
 
@@ -32,7 +32,7 @@ This option refers to someone from Chile.
 
 ### --feedback--
 
-This word describes a person from Peru.
+이 단어는 페루 출신을 나타냅니다.
 
 ---
 
@@ -44,7 +44,7 @@ This word describes a person from Peru.
 
 ### --feedback--
 
-This refers to a woman from Colombia, and the ending `-a` indicates the feminine form, which does not match Mateo.
+이것은 콜롬비아 출신 여성에 해당하며, 끝의 `-a`는 여성형을 나타내 Mateo와 일치하지 않습니다.
 
 ## --video-solution--
 
@@ -52,17 +52,17 @@ This refers to a woman from Colombia, and the ending `-a` indicates the feminine
 
 # --explanation--
 
-`Soy` ("I am") comes from the verb `ser` and is used to express identity, nationality, or profession. For example:
+`Soy` ("나는 ~이다")는 동사 `ser`에서 왔으며 정체성, 국적, 직업을 표현할 때 사용합니다. 예를 들어:
 
-- `Soy chilena.` – I'm Chilean. (feminine)
+- `Soy chilena.` – 나는 칠레 사람입니다. (여성형)
 
-- `Soy chileno.` – I'm Chilean. (masculine)
+- `Soy chileno.` – 나는 칠레 사람입니다. (남성형)
 
-- `Soy puertorriqueña` - I'm Puerto Rican. (feminine)
+- `Soy puertorriqueña` - 나는 푸에르토리코 사람입니다. (여성형)
 
-- `Soy puertorriqueño` - I'm Puerto Rican. (masculine)
+- `Soy puertorriqueño` - 나는 푸에르토리코 사람입니다. (남성형)
 
-- `Soy canadiense.` – I'm Canadian. (neutral)
+- `Soy canadiense.` – 나는 캐나다 사람입니다. (중성형)
 
 # --scene--
 

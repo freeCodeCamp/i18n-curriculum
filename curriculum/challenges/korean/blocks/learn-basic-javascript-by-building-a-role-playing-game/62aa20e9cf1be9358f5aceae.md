@@ -1,23 +1,23 @@
 ---
 id: 62aa20e9cf1be9358f5aceae
-title: Step 151
+title: 151단계
 challengeType: 0
 dashedName: step-151
 ---
 
 # --description--
 
-Add an `else` statement to the first `if` statement inside your `attack()` function. In the `else` statement, use the `+=` operator to add the text `" You miss."` to the end of `text.innerText`.
+`else` 함수 안에 있는 첫 번째 `if` 문에 `attack()` 문을 추가하세요. `else` 문에서는 `+=` 연산자를 사용해 `" You miss."` 끝에 `text.innerText` 텍스트를 더하세요.
 
 # --hints--
 
-You should add an `else` block after your `if (isMonsterHit())` block.
+`else` 블록 뒤에 `if (isMonsterHit())` 블록을 추가해야 합니다.
 
 ```js
 assert.match(attack.toString(), /if\s*\(\s*isMonsterHit\(\s*\)\s*\)\s*\{\s*monsterHealth\s*-=\s*weapons\s*\[\s*currentWeaponIndex\s*\]\s*\.power\s*\+\s*Math\.floor\(\s*Math\.random\(\s*\)\s*\*\s*xp\s*\)\s*\+\s*1\s*;?\s*\}\s*else/)
 ```
 
-You should add the text `" You miss."` to the end of `text.innerText`. Remember to use compound assignment and make sure there is a space before the word `You`.
+`" You miss."` 끝에 `text.innerText` 텍스트를 추가해야 합니다. 복합 대입을 사용하고 `You` 단어 앞에 공백이 있는지 확인하세요.
 
 ```js
 assert.match(attack.toString(), /if\s*\(\s*isMonsterHit\(\s*\)\s*\)\s*\{\s*monsterHealth\s*-=\s*weapons\s*\[\s*currentWeaponIndex\s*\]\s*\.power\s*\+\s*Math\.floor\(\s*Math\.random\(\s*\)\s*\*\s*xp\s*\)\s*\+\s*1\s*;?\s*\}\s*else\s*\{\s*text\.innerText\s*\+=\s*('|")\sYou miss\.\1/)

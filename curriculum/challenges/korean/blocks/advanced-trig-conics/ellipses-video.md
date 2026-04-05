@@ -1,6 +1,6 @@
 ---
 id: 699e85648f18cf77dfce5c23
-title: Ellipses
+title: 타원
 challengeType: 11
 videoId: AwBM2AMwfu8
 dashedName: ellipses
@@ -8,32 +8,30 @@ dashedName: ellipses
 
 # --description--
 
-In this video, you will learn about ellipses, their standard equations, and how to identify their key features.
+이 영상에서는 타원, 그 표준 방정식, 그리고 주요 기능을 식별하는 방법에 대해 배우세요.
 
 # --questions--
 
 ## --text--
 
-What is an ellipse?
+타원이란 무엇인가요?
 
 ## --answers--
 
-The set of points such that the sum of the distances from two fixed points is constant.
+두 고정점으로부터의 거리 합이 일정한 점들의 집합입니다.
 
 ---
 
-The set of points such that the distance from one fixed point is constant.
+한 고정점으로부터의 거리가 일정한 점들의 집합입니다.
 
 ---
 
-The set of points such that the product of the distances from two fixed points is constant.
+두 고정점으로부터의 거리 곱이 일정한 점들의 집합입니다.
 
 ---
 
-The set of points equidistant from a line and a point.
+한 직선과 한 점으로부터 같은 거리에 있는 점들의 집합입니다.
 
 ## --video-solution--
 
 1
-
-

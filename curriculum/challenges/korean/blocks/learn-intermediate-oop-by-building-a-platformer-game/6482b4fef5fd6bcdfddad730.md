@@ -1,19 +1,19 @@
 ---
 id: 6482b4fef5fd6bcdfddad730
-title: Step 12
+title: 12단계
 challengeType: 0
 dashedName: step-12
 ---
 
 # --description--
 
-The next step is to define some characteristics for the main player of the game.
+다음 단계는 게임의 주요 플레이어에 대한 몇 가지 특성을 정의하는 것입니다.
 
-Start by creating a new `class` called `Player`.
+`class`라는 새 `Player`를 만드는 것부터 시작하세요.
 
 # --hints--
 
-`Player` should be a class.
+`Player`는 클래스여야 합니다.
 
 ```js
 assert(
@@ -21,13 +21,13 @@ assert(
 );
 ```
 
-The `class` keyword should be used.
+`class` 키워드를 사용해야 합니다.
 
 ```js
 assert.match(code, /^\s*class/m);
 ```
 
-You should create a new class called `Player`
+`Player`라는 새 클래스를 만들어야 합니다.
 
 ```js
 assert.match(code, /class\s+Player\s*{\s*}\s*/);

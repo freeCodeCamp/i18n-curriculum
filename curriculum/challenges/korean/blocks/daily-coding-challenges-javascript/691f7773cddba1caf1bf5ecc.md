@@ -1,79 +1,79 @@
 ---
 id: 691f7773cddba1caf1bf5ecc
-title: "Challenge 133: Daylight Hours"
+title: "도전 과제 133: 일조 시간"
 challengeType: 28
 dashedName: challenge-133
 ---
 
 # --description--
 
-December 21st is the winter solstice for the northern hemisphere and the summer solstice for the southern hemisphere. That means it's the day with the least daylight in the north and the most daylight in the south.
+12월 21일은 북반구의 동지이자 남반구의 하지입니다. 즉, 북쪽에서는 일조 시간이 가장 짧고 남쪽에서는 가장 긴 날입니다.
 
-Given a latitude number from -90 to 90, return a rough approximation of daylight hours on the solstice using the following table:
+-90에서 90 사이의 위도 숫자가 주어지면, 다음 표를 사용해 동지의 일조 시간을 대략적으로 계산해 반환하세요:
 
-| Latitude | Daylight Hours |
-| -------- | -------------- |
-| -90      | 24             |
-| -75      | 23             |
-| -60      | 21             |
-| -45      | 15             |
-| -30      | 13             |
-| -15      | 12             |
-| 0        | 12             |
-| 15       | 11             |
-| 30       | 10             |
-| 45       | 9              |
-| 60       | 6              |
-| 75       | 2              |
-| 90       | 0              |
+|위도|일조 시간|
+|-|-|
+|-90|24|
+|-75|23|
+|-60|21|
+|-45|15|
+|-30|13|
+|-15|12|
+|0|12|
+|15|11|
+|30|10|
+|45|9|
+|60|6|
+|75|2|
+|90|0|
 
-- If the given latitude does not exactly match a table entry, use the value of the closest latitude.
+- 주어진 위도가 표에 정확히 일치하지 않으면, 가장 가까운 위도의 값을 사용하세요.
 
 # --hints--
 
-`daylightHours(45)` should return `9`.
+`daylightHours(45)`는 `9`을 반환해야 합니다.
 
 ```js
 assert.equal(daylightHours(45), 9);
 ```
 
-`daylightHours(0)` should return `12`.
+`daylightHours(0)`는 `12`을 반환해야 합니다.
 
 ```js
 assert.equal(daylightHours(0), 12);
 ```
 
-`daylightHours(-90)` should return `24`.
+`daylightHours(-90)`는 `24`을 반환해야 합니다.
 
 ```js
 assert.equal(daylightHours(-90), 24);
 ```
 
-`daylightHours(-10)` should return `12`.
+`daylightHours(-10)`는 `12`을 반환해야 합니다.
 
 ```js
 assert.equal(daylightHours(-10), 12);
 ```
 
-`daylightHours(23)` should return `10`.
+`daylightHours(23)`는 `10`을 반환해야 합니다.
 
 ```js
 assert.equal(daylightHours(23), 10);
 ```
 
-`daylightHours(88)` should return `0`.
+`daylightHours(88)`는 `0`을 반환해야 합니다.
 
 ```js
 assert.equal(daylightHours(88), 0);
 ```
 
-`daylightHours(-33)` should return `13`.
+`daylightHours(-33)`는 `13`을 반환해야 합니다.
 
 ```js
 assert.equal(daylightHours(-33), 13);
 ```
 
-`daylightHours(70)` should return `2`.
+`daylightHours(70)`는 `2`을 반환해야 합니다.
 
 ```js
 assert.equal(daylightHours(70), 2);

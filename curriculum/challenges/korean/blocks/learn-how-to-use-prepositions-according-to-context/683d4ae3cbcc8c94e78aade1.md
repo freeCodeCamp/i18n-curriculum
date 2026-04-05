@@ -1,6 +1,6 @@
 ---
 id: 683d4ae3cbcc8c94e78aade1
-title: Task 19
+title: 작업 19
 challengeType: 19
 dashedName: task-19
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+오디오를 듣고 아래 질문에 답하세요.
 
 # --questions--
 
 ## --text--
 
-What is Bob explaining?
+Bob이 무엇을 설명하고 있나요?
 
 ## --answers--
 
-That the emergency exit is blocked.
+비상구가 막혀 있다고 말하는 것.
 
 ### --feedback--
 
-Bob doesn't say the exit is blocked - he just mentions its location.
+Bob은 출구가 막혔다고 말하지 않고 위치만 언급합니다.
 
 ---
 
-That the back door needs a new lock.
+뒷문에 새 자물쇠가 필요하다고 말하는 것.
 
 ### --feedback--
 
-Bob doesn't mention anything about locks or a back door needing repairs.
+Bob은 자물쇠나 뒷문 수리에 대해 언급하지 않습니다.
 
 ---
 
-That the server room needs to be cleaned.
+서버실을 청소해야 한다고 말하는 것.
 
 ### --feedback--
 
-There is no mention of cleaning in Bob's sentence.
+Bob의 문장에는 청소에 대한 언급이 없습니다.
 
 ---
 
-That something is located near the emergency exit.
+무언가가 비상구 근처에 있다고 말하는 것.
 
 ## --video-solution--
 
@@ -52,9 +52,9 @@ That something is located near the emergency exit.
 
 # --explanation--
 
-Bob says, `Exactly. It's in the back, next to the emergency exit`. This means he is confirming the location of something - right beside the emergency exit.
+Bob은 `Exactly. It's in the back, next to the emergency exit`라고 말합니다. 이는 무언가가 비상구 바로 옆에 있다는 위치를 확인하는 의미입니다.
 
-He doesn't talk about repairs, cleaning, or problems.
+수리, 청소, 문제에 대해서는 언급하지 않습니다.
 
 # --scene--
 

@@ -1,6 +1,6 @@
 ---
 id: 663a4d6ec33accaf2ec7be49
-title: Task 28
+title: 작업 28
 challengeType: 22
 dashedName: task-28
 lang: en-US
@@ -10,13 +10,13 @@ lang: en-US
 
 # --description--
 
-A `smile` is what happens when you turn up the corners of your mouth to show happiness. It is something you do with your face when you are happy or want to be nice.
+`smile`는 행복을 나타내기 위해 입꼬리를 올리는 행동입니다. 기쁘거나 친절하게 보이고 싶을 때 얼굴로 하는 표현입니다.
 
-`Friendly` describes someone who is kind, nice, and easy to talk to. A friendly person makes others feel comfortable and happy.
+`Friendly`는 친절하고 다정하며 이야기하기 편한 사람을 묘사합니다. 친근한 사람은 다른 사람을 편안하고 행복하게 만듭니다.
 
-`A friendly smile` is a smile that shows you are being kind and welcoming. It makes others feel good and shows you want to be friends.
+`A friendly smile`는 친절하고 환영하는 마음을 보여주는 미소입니다. 다른 사람을 기분 좋게 하고 친구가 되고 싶다는 뜻을 나타냅니다.
 
-Listen to the dialogue and fill in the blanks.
+대화를 듣고 빈칸을 채우세요.
 
 # --fillInTheBlank--
 
@@ -30,7 +30,7 @@ Listen to the dialogue and fill in the blanks.
 
 ### --feedback--
 
-This blank describes someone who is nice, easy to talk to and welcoming.
+이 빈칸은 친절하고 이야기하기 편하며 환영하는 사람을 묘사합니다.
 
 ---
 
@@ -38,7 +38,7 @@ This blank describes someone who is nice, easy to talk to and welcoming.
 
 ### --feedback--
 
-The action you do when you want to show happiness with your mouth.
+입으로 행복을 표현할 때 하는 행동입니다.
 
 # --scene--
 

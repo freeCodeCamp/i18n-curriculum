@@ -1,6 +1,6 @@
 ---
 id: 698dd9817932b3cc4b19c934
-title: Removing a Node
+title: 노드 제거하기
 challengeType: 11
 videoId: Jlu400ceY8g
 dashedName: removing-a-node
@@ -8,17 +8,17 @@ dashedName: removing-a-node
 
 # --description--
 
-In this video, you will learn how to remove a node from a linked list.
+이 영상에서는 연결 리스트에서 노드를 제거하는 방법을 배우세요.
 
 # --questions--
 
 ## --text--
 
-What is the worst-case runtime for removing a node when you must first search for it in a linked list?
+연결 리스트에서 노드를 먼저 찾아야 할 때, 노드를 제거하는 최악의 경우 실행 시간은 얼마인가요?
 
 ## --answers--
 
-exponential
+exponential 
 
 ---
 

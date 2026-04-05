@@ -1,35 +1,35 @@
 ---
 id: 5efae16e3cbd2bbdab94e334
-title: Step 33
+title: 33단계
 challengeType: 0
 dashedName: step-33
 ---
 
 # --description--
 
-After the last `img` element, add a `figcaption` element with the text `Cats hate other cats.`
+마지막 `img` 요소 뒤에 텍스트 `figcaption`를 가진 `Cats hate other cats.` 요소를 추가하세요
 
 # --hints--
 
-Your `figcaption` element should have an opening tag. Opening tags have the following syntax: `<elementName>`.
+`figcaption` 요소에는 여는 태그가 있어야 합니다. 여는 태그의 구문은 다음과 같습니다: `<elementName>`.
 
 ```js
 assert(document.querySelectorAll('figcaption').length === 2);
 ```
 
-Your `figcaption` element should have a closing tag. Closing tags have a `/` just after the `<` character.
+`figcaption` 요소에는 닫는 태그가 있어야 합니다. 닫는 태그는 `/` 문자 바로 뒤에 `<`가 있습니다.
 
 ```js
 assert(code.match(/<\/figcaption\>/g).length === 2);
 ```
 
-There should be a `figure` element right above the second `section` element's closing tag.
+두 번째 `figure` 요소의 닫는 태그 바로 위에 `section` 요소가 있어야 합니다.
 
 ```js
 assert.strictEqual(document.querySelectorAll('main > section')?.[1]?.lastElementChild?.nodeName, 'FIGURE');
 ```
 
-The last `img` element should be nested in the `figure` element.
+마지막 `img` 요소는 `figure` 요소 안에 중첩되어야 합니다.
 
 ```js
 const catsImg = document.querySelectorAll('figure > img')[1];
@@ -39,25 +39,25 @@ assert(
 );
 ```
 
-Your `figure` element should have an opening tag. Opening tags have the following syntax: `<elementName>`.
+`figure` 요소에는 여는 태그가 있어야 합니다. 여는 태그의 구문은 다음과 같습니다: `<elementName>`.
 
 ```js
 assert(document.querySelectorAll('figure').length === 2);
 ```
 
-Your `figure` element should have a closing tag. Closing tags have a `/` just after the `<` character.
+`figure` 요소에는 닫는 태그가 있어야 합니다. 닫는 태그는 `/` 문자 바로 뒤에 `<`가 있습니다.
 
 ```js
 assert(code.match(/<\/figure\>/g).length === 2);
 ```
 
-The `figcaption` element should be nested in the `figure` element.
+`figcaption` 요소는 `figure` 요소 안에 중첩되어야 합니다.
 
 ```js
 assert(document.querySelectorAll('figure > figcaption').length === 2);
 ```
 
-The `figcaption` element nested in the `figure` element should be below the `img` element. You have the `img` element and the `figcaption` element in the wrong order.
+`figcaption` 요소 안에 중첩된 `figure` 요소는 `img` 요소 아래에 있어야 합니다. `img` 요소와 `figcaption` 요소의 순서가 잘못되었습니다.
 
 ```js
 assert(
@@ -66,7 +66,7 @@ assert(
 );
 ```
 
-The `figcaption` element should have the text `Cats hate other cats.` You have omitted a word or have a typo.
+`figcaption` 요소에는 텍스트 `Cats hate other cats.`가 있어야 합니다. 단어가 빠졌거나 오타가 있습니다.
 
 ```js
 assert(
@@ -121,4 +121,3 @@ assert(
   </body>
 </html>
 ```
-

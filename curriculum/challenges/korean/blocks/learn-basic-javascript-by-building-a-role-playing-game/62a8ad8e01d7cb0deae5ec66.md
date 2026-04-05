@@ -1,47 +1,47 @@
 ---
 id: 62a8ad8e01d7cb0deae5ec66
-title: Step 57
+title: 57단계
 challengeType: 0
 dashedName: step-57
 ---
 
 # --description--
 
-Create another property in your object called `button functions`. Give this property an array containing the three functions assigned to the `onclick` properties in the `goTown` function. Remember that these functions are variables, not strings, and should not be wrapped in quotes.
+객체에 `button functions`라는 또 다른 속성을 만드세요. 이 속성에는 `onclick` 함수에서 `goTown` 속성에 할당된 세 개의 함수가 들어 있는 배열을 할당하세요. 이 함수들은 문자열이 아니라 변수이므로 따옴표로 감싸지 않아야 합니다.
 
 # --hints--
 
-Your first `locations` object should have a `button functions` property.
+첫 번째 `locations` 객체에는 `button functions` 속성이 있어야 합니다.
 
 ```js
 assert.isDefined(locations[0]["button functions"]);
 ```
 
-Your `button functions` property should be an array.
+`button functions` 속성은 배열이어야 합니다.
 
 ```js
 assert.isArray(locations[0]["button functions"]);
 ```
 
-Your `button functions` property should have three values in it.
+`button functions` 속성에는 세 개의 값이 있어야 합니다.
 
 ```js
 assert.lengthOf(locations[0]["button functions"], 3);
 ```
 
-Your first `button functions` array value should be the function `goStore`.
+첫 번째 `button functions` 배열 값은 `goStore` 함수여야 합니다.
 
 ```js
 assert.equal(locations[0]["button functions"][0], goStore);
 ```
 
-Your second `button functions` array value should be the function `goCave`.
+두 번째 `button functions` 배열 값은 `goCave` 함수여야 합니다.
 
 ```js
 assert.equal(locations[0]["button functions"][1], goCave);
 ```
 
-Your third `button functions` array value should be the function `fightDragon`.
+세 번째 `button functions` 배열 값은 `fightDragon` 함수여야 합니다.
 
 ```js
 assert.equal(locations[0]["button functions"][2], fightDragon);

@@ -1,6 +1,6 @@
 ---
 id: 2a486e3e521b79b874fb5e9a
-title: Try/Except
+title: Try/Except 사용법
 challengeType: 11
 videoId: 1tkhMom_SZw
 dashedName: try-except
@@ -8,13 +8,13 @@ dashedName: try-except
 
 # --description--
 
-In this video, you will learn how to handle exceptions using try/except blocks to make your programs more robust.
+이 영상에서는 try/except 블록을 사용해 예외를 처리하여 프로그램을 더 견고하게 만드는 방법을 배우세요.
 
 # --questions--
 
 ## --text--
 
-What will be the result for the following code if the user provides the string `"random"`?
+사용자가 문자열 `"random"`을 입력하면 다음 코드의 결과는 무엇일까요?
 
 ```python
 try:
@@ -26,19 +26,19 @@ except:
 
 ## --answers--
 
-Nothing will be output to the console.
+콘솔에 아무것도 출력되지 않습니다.
 
 ---
 
-The string `"random"` will be output to the console.
+콘솔에 문자열 `"random"`이 출력됩니다.
 
 ---
 
-The string `"Invalid Input"` will be output to the console.
+콘솔에 문자열 `"Invalid Input"`이 출력됩니다.
 
 ---
 
-The program will crash.
+프로그램이 충돌합니다.
 
 ## --video-solution--
 

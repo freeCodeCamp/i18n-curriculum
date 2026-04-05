@@ -7,10 +7,10 @@ dashedName: challenge-132
 
 # --description--
 
-Given an array of values, remove all occurrences of the most frequently occurring element and return the resulting array.
+값들의 배열이 주어졌을 때, 가장 자주 등장하는 요소를 모두 제거하고 결과 배열을 반환하세요.
 
-- If multiple values are tied for most frequent, remove all of them.
-- Do not change any of the other elements or their order.
+- 여러 값이 가장 자주 등장하는 경우, 모두 제거하세요.
+- 다른 요소들이나 그 순서는 변경하지 마세요.
 
 # --hints--
 

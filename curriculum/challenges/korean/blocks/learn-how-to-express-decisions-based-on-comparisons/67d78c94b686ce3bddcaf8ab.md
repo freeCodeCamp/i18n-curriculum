@@ -1,6 +1,6 @@
 ---
 id: 67d78c94b686ce3bddcaf8ab
-title: Task 117
+title: 작업 117
 challengeType: 22
 dashedName: task-117
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+오디오를 듣고 아래 문장을 완성하세요.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-These three words together mean to reduce the amount of time needed to complete a task.
+이 세 단어는 함께 작업을 완료하는 데 필요한 시간을 줄인다는 뜻입니다.  
 
 ---
 
@@ -32,17 +32,17 @@ These three words together mean to reduce the amount of time needed to complete 
 
 ### --feedback--
 
-This word in the plural form refers to schedules or deadlines for completing a project.
+복수형으로 프로젝트 완료를 위한 일정이나 마감일을 의미합니다.  
 
 # --explanation--
 
-`Save us time` means to reduce the time required to complete something, making the process more efficient. For example:
+`Save us time`는 어떤 일을 완료하는 데 필요한 시간을 줄여 과정을 더 효율적으로 만든다는 뜻입니다. 예를 들어:
 
-`Using automation tools can save us time on repetitive tasks.` – This means automation tools help complete tasks faster.
+`Using automation tools can save us time on repetitive tasks.` – 자동화 도구가 작업을 더 빠르게 완료하는 데 도움이 된다는 의미입니다.  
 
-`Timelines` refer to schedules or deadlines that show when different parts of a project should be completed. For example:
+`Timelines`는 프로젝트의 각 부분을 언제 완료해야 하는지 보여주는 일정이나 마감일을 의미합니다. 예를 들어:
 
-`We need to adjust our timelines to finish the project on schedule.` – This means changing the deadlines to ensure the project is completed on time.
+`We need to adjust our timelines to finish the project on schedule.` – 프로젝트가 제시간에 완료되도록 마감일을 변경한다는 뜻입니다.
 
 # --scene--
 

@@ -1,6 +1,6 @@
 ---
 id: 680cad23e2d58a1ef7c2edfb
-title: Task 19
+title: 작업 19
 challengeType: 22
 dashedName: task-19
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+오디오를 듣고 아래 문장을 완성하세요.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This word is used to point to specific items that are close to the speaker.
+이 단어는 화자 가까이에 있는 특정 항목을 가리킬 때 사용합니다.
 
 ---
 
@@ -32,13 +32,13 @@ This word is used to point to specific items that are close to the speaker.
 
 ### --feedback--
 
-This compound word means something that can handle a large amount of work, storage, or energy. Remember to use `-`.
+이 복합어는 많은 작업, 저장 또는 에너지를 처리할 수 있는 것을 의미합니다. `-`을 사용하세요.
 
 # --explanation--
 
-`High-capacity` describes something designed to manage or hold a large amount compared to standard versions. For example:
+`High-capacity`는 표준 버전과 비교해 많은 양을 관리하거나 보관하도록 설계된 것을 설명합니다. 예를 들어:
 
-`We installed high-capacity batteries in the new devices.` – This means the batteries can store more power and last longer, which is useful in tech equipment.
+`We installed high-capacity batteries in the new devices.` – 이 말은 배터리가 더 많은 전력을 저장하고 더 오래 지속할 수 있음을 의미하며, 기술 장비에서 유용합니다.
 
 # --scene--
 

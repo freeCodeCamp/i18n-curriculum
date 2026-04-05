@@ -1,6 +1,6 @@
 ---
 id: 67caefd11f4cf72cbf5bdd46
-title: Task 37
+title: 작업 37
 challengeType: 22
 dashedName: task-37
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+오디오를 듣고 아래 문장을 완성하세요.
 
 # --fillInTheBlank--
 
@@ -24,15 +24,15 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This two-word phrase is a casual way of saying "no" or "not exactly". It's often used when you want to politely disagree or give a softer, less direct response. The first letter of the first word is capitalized.
+이 두 단어 구문은 "아니요" 또는 "정확히는 아니에요"를 캐주얼하게 표현하는 방법입니다. 정중하게 반대하거나 부드럽고 직접적이지 않은 응답을 할 때 자주 사용합니다. 첫 단어의 첫 글자는 대문자입니다.
 
 # --explanation--
 
-`Not really` is commonly used to give a negative answer, but in a softer tone. It's more casual than simply saying `No`. For example:
+`Not really`는 부정적인 답변을 줄 때 흔히 쓰이지만, 더 부드러운 어조입니다. 단순히 `No`라고 말하는 것보다 더 캐주얼합니다. 예를 들어:
 
-- **Team lead:** `Do you think this software is user-friendly?`
+- **팀장:** `Do you think this software is user-friendly?`
 
-- **Intern:** `Not really.` - This means it's not very user-friendly, but the speaker might not be completely certain.
+- **인턴:** `Not really.` - 이것은 사용자 친화적이지 않다는 뜻이지만, 말하는 사람이 완전히 확신하지는 않을 수도 있습니다.
 
 # --scene--
 

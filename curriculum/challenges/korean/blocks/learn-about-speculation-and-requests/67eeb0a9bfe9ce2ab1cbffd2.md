@@ -1,6 +1,6 @@
 ---
 id: 67eeb0a9bfe9ce2ab1cbffd2
-title: Task 29
+title: 작업 29
 challengeType: 19
 dashedName: task-29
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+오디오를 듣고 아래 질문에 답하세요.
 
 # --questions--
 
 ## --text--
 
-What else should Mark have done?
+Mark가 무엇을 더 했어야 할까요?
 
 ## --answers--
 
-He should have rewritten his entire code.
+그는 전체 코드를 다시 작성했어야 했습니다.
 
 ### --feedback--
 
-Mark didn't need to rewrite everything.
+Mark는 모든 코드를 다시 작성할 필요가 없었습니다.
 
 ---
 
-He should have tested his code first.
+그는 먼저 코드를 테스트했어야 했습니다.
 
 ---
 
-He should have removed all comments.
+그는 모든 주석을 제거했어야 했습니다.
 
 ### --feedback--
 
-Comments are useful and should not be removed.
+주석은 유용하므로 제거하면 안 됩니다.
 
 ---
 
-He should have skipped testing because it takes too long.
+그는 테스트가 너무 오래 걸리기 때문에 테스트를 건너뛰었어야 했습니다.
 
 ### --feedback--
 
-Testing is an important step before submitting code.
+테스트는 코드를 제출하기 전에 중요한 단계입니다.
 
 ## --video-solution--
 
@@ -52,11 +52,11 @@ Testing is an important step before submitting code.
 
 # --explanation--
 
-A `test suite` is a collection of tests that check if a program works correctly. For example:
+`test suite`는 프로그램이 제대로 작동하는지 확인하는 테스트 모음입니다. 예를 들어:
 
-- `We ran the test suite to check if the app works properly.` - The team executed all the tests to ensure the app functions as expected.
+- `We ran the test suite to check if the app works properly.` - 팀은 앱이 예상대로 작동하는지 확인하기 위해 모든 테스트를 실행했습니다.
 
-- `We need to add more tests to the test suite to check for edge cases.` - The team should include more tests to cover all possible situations.
+- `We need to add more tests to the test suite to check for edge cases.` - 팀은 모든 가능한 상황을 포괄하기 위해 더 많은 테스트를 포함해야 합니다.
 
 # --scene--
 

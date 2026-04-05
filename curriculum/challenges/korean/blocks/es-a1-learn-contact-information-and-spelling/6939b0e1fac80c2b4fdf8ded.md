@@ -1,6 +1,6 @@
 ---
 id: 6939b0e1fac80c2b4fdf8ded
-title: Task 17
+title: 작업 17
 challengeType: 22
 dashedName: task-17
 lang: es
@@ -10,11 +10,11 @@ lang: es
 
 # --description--
 
-In this task, Basti spells out his nickname letter by letter.
+이번 도전 과제에서 Basti는 자신의 별명을 한 글자씩 철자합니다.
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+오디오를 듣고 아래 문장을 완성하세요.
 
 # --fillInTheBlank--
 
@@ -28,7 +28,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This is the first letter Basti uses to start spelling his nickname.
+Basti가 별명을 철자할 때 처음 사용하는 글자입니다.
 
 ---
 
@@ -36,7 +36,7 @@ This is the first letter Basti uses to start spelling his nickname.
 
 ### --feedback--
 
-This letter comes after the "s" in "Basti".
+이 글자는 "Basti"의 "s" 다음에 나옵니다.
 
 ---
 
@@ -44,11 +44,11 @@ This letter comes after the "s" in "Basti".
 
 ### --feedback--
 
-This is the final letter in "Basti". Listen for the vowel sound at the end.
+"Basti"의 마지막 글자입니다. 끝에 나는 모음 소리를 들어보세요.
 
 # --explanation--
 
-Basti spells his nickname as `B-a-s-t-i`.
+Basti는 자신의 별명을 `B-a-s-t-i`로 철자합니다.
 
 # --scene--
 

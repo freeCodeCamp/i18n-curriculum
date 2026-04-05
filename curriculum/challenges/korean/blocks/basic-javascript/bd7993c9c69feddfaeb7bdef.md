@@ -1,6 +1,6 @@
 ---
 id: bd7993c9c69feddfaeb7bdef
-title: Multiply Two Decimals with JavaScript
+title: JavaScript로 소수 두 개 곱하기
 challengeType: 1
 forumTopicId: 301173
 dashedName: multiply-two-decimals-with-javascript
@@ -8,23 +8,23 @@ dashedName: multiply-two-decimals-with-javascript
 
 # --description--
 
-In JavaScript, you can also perform calculations with decimal numbers, just like whole numbers.
+JavaScript에서는 정수처럼 소수로도 계산할 수 있습니다.
 
-Let's multiply two decimals together to get their product.
+두 소수를 곱해서 그 곱셈 결과를 구해보세요.
 
 # --instructions--
 
-Change the `0.0` so that product will equal `5.0`.
+`0.0`를 변경해서 product가 `5.0`과 같아지게 하세요.
 
 # --hints--
 
-The variable `product` should equal `5.0`.
+변수 `product`는 `5.0`과 같아야 합니다.
 
 ```js
 assert(product === 5.0);
 ```
 
-You should use the `*` operator
+`*` 연산자를 사용해야 합니다.
 
 ```js
 assert(/\*/.test(__helpers.removeJSComments(code)));

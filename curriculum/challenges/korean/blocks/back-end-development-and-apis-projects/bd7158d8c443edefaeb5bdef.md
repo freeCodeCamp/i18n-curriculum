@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c443edefaeb5bdef
-title: Timestamp Microservice
+title: 타임스탬프 마이크로서비스
 challengeType: 4
 forumTopicId: 301508
 dashedName: timestamp-microservice
@@ -8,16 +8,16 @@ dashedName: timestamp-microservice
 
 # --description--
 
-Build a full-stack JavaScript app that is functionally similar to this: <a href="https://timestamp-microservice.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://timestamp-microservice.freecodecamp.rocks</a>. Working on this project will involve you writing your code using one of the following methods:
+다음과 기능적으로 유사한 풀스택 JavaScript 앱을 만드세요: <a href="https://timestamp-microservice.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://timestamp-microservice.freecodecamp.rocks</a>. 이 프로젝트를 진행하려면 다음 방법 중 하나를 사용해 코드를 작성해야 합니다:
 
--   Clone <a href="https://github.com/freeCodeCamp/boilerplate-project-timestamp/"  target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete your project locally.
--   Use a site builder of your choice to complete the project. Be sure to incorporate all the files from our GitHub repo.
+- <a href="https://github.com/freeCodeCamp/boilerplate-project-timestamp/"  target="_blank" rel="noopener noreferrer nofollow">이 GitHub 저장소</a>를 클론하여 로컬에서 프로젝트를 완성하세요.
+- 원하는 사이트 빌더를 사용해 프로젝트를 완성하세요. GitHub 저장소의 모든 파일을 반드시 포함해야 합니다.
 
-**Note:** Time zones conversion is not a purpose of this project, so assume all sent valid dates will be parsed with `new Date()` as GMT dates.
+**참고:** 이 프로젝트의 목적은 시간대 변환이 아니므로, 모든 유효한 날짜는 `new Date()`를 GMT 날짜로 파싱한다고 가정하세요.
 
 # --hints--
 
-You should provide your own project, not the example URL.
+예시 URL이 아닌 직접 만든 프로젝트를 제출해야 합니다.
 
 ```js
   assert(
@@ -25,7 +25,7 @@ You should provide your own project, not the example URL.
   );
 ```
 
-A request to `/api/:date?` with a valid date should return a JSON object with a `unix` key that is a Unix timestamp of the input date in milliseconds (as type Number)
+유효한 날짜와 함께 `/api/:date?`에 요청하면, 입력 날짜의 Unix 타임스탬프(밀리초 단위, Number 타입)를 `unix` 키로 가진 JSON 객체를 반환해야 합니다.
 
 ```js
   const response = await fetch(code + '/api/2016-12-25');
@@ -40,7 +40,7 @@ A request to `/api/:date?` with a valid date should return a JSON object with a 
   );
 ```
 
-A request to `/api/:date?` with a valid date should return a JSON object with a `utc` key that is a string of the input date in the format: `Thu, 01 Jan 1970 00:00:00 GMT`
+유효한 날짜와 함께 `/api/:date?`에 요청하면, 입력 날짜를 `utc` 형식의 문자열로 변환한 값을 `Thu, 01 Jan 1970 00:00:00 GMT` 키로 가진 JSON 객체를 반환해야 합니다.
 
 ```js
   const response = await fetch(code + '/api/2016-12-25');
@@ -55,7 +55,7 @@ A request to `/api/:date?` with a valid date should return a JSON object with a 
   );
 ```
 
-A request to `/api/1451001600000` should return `{ unix: 1451001600000, utc: "Fri, 25 Dec 2015 00:00:00 GMT" }`
+`/api/1451001600000`에 요청하면 `{ unix: 1451001600000, utc: "Fri, 25 Dec 2015 00:00:00 GMT" }`를 반환해야 합니다.
 
 ```js
   const response = await fetch(code + '/api/1451001600000');
@@ -69,7 +69,7 @@ A request to `/api/1451001600000` should return `{ unix: 1451001600000, utc: "Fr
   );
 ```
 
-Your project can handle dates that can be successfully parsed by `new Date(date_string)`
+프로젝트는 `new Date(date_string)`가 성공적으로 파싱할 수 있는 날짜를 처리할 수 있어야 합니다.
 
 ```js
   const response = await fetch(code + '/api/05 October 2011, GMT');
@@ -83,7 +83,7 @@ Your project can handle dates that can be successfully parsed by `new Date(date_
   );
 ```
 
-If the input date string is invalid, the API returns an object having the structure `{ error : "Invalid Date" }`
+입력한 날짜 문자열이 유효하지 않으면, API는 `{ error : "Invalid Date" }` 구조의 객체를 반환합니다.
 
 ```js
   const response = await fetch(code + '/api/this-is-not-a-date');
@@ -96,7 +96,7 @@ If the input date string is invalid, the API returns an object having the struct
   }
 ```
 
-An empty date parameter should return the current time in a JSON object with a `unix` key
+빈 날짜 매개변수는 `unix` 키를 가진 현재 시간을 반환하는 JSON 객체를 반환해야 합니다.
 
 ```js
   const response = await fetch(code + '/api');
@@ -108,7 +108,7 @@ An empty date parameter should return the current time in a JSON object with a `
   assert.approximately(data.unix, now, 20000);
 ```
 
-An empty date parameter should return the current time in a JSON object with a `utc` key
+빈 날짜 매개변수는 `utc` 키를 가진 현재 시간을 반환하는 JSON 객체를 반환해야 합니다.
 
 ```js
   const response = await fetch(code + '/api');
@@ -120,4 +120,3 @@ An empty date parameter should return the current time in a JSON object with a `
   var serverTime = new Date(data.utc).getTime();
   assert.approximately(serverTime, now, 20000);
 ```
-

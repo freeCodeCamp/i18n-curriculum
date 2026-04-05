@@ -1,6 +1,6 @@
 ---
 id: 699e0342138be64fa313138c
-title: Even and Odd Functions
+title: 짝수 함수와 홀수 함수
 challengeType: 11
 videoId: OCGl-6nrCtM
 dashedName: even-and-odd-functions
@@ -8,29 +8,29 @@ dashedName: even-and-odd-functions
 
 # --description--
 
-In this video, you will learn about even and odd functions.
+이 영상에서는 짝수 함수와 홀수 함수에 대해 배우세요.
 
 # --questions--
 
 ## --text--
 
-What makes a graph symmetric with respect to the origin?
+원점을 기준으로 그래프가 대칭이 되는 조건은 무엇인가요?
 
 ## --answers--
 
-If it has a 30 degree rotational symmetry about the origin.
+원점을 중심으로 30도 회전 대칭이 있을 때.
 
 ---
 
-If it has a 180 degree rotational symmetry about the origin.
+원점을 중심으로 180도 회전 대칭이 있을 때.
 
 ---
 
-If it has a 90 degree rotational symmetry about the origin.
+원점을 중심으로 90도 회전 대칭이 있을 때.
 
 ---
 
-If it has a 360 degree rotational symmetry about the origin.
+원점을 중심으로 360도 회전 대칭이 있을 때.
 
 ## --video-solution--
 

@@ -1,6 +1,6 @@
 ---
 id: 693aebb31ed98f7aea7d1a5d
-title: Task 26
+title: 작업 26
 challengeType: 19
 dashedName: task-26
 lang: es
@@ -10,17 +10,17 @@ lang: es
 
 # --description--
 
-In this task, you will hear Basti share his full phone number, including the country code. The number is spoken in grouped digits.
+이번 작업에서는 Basti가 국가 번호를 포함한 전체 전화번호를 말하는 것을 듣게 됩니다. 번호는 그룹으로 묶인 숫자들로 발음됩니다.
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+오디오를 듣고 아래 질문에 답하세요.
 
 # --questions--
 
 ## --text--
 
-Which of the following is Basti's phone number?
+다음 중 Basti의 전화번호는 무엇인가요?
 
 ## --answers--
 
@@ -32,7 +32,7 @@ Which of the following is Basti's phone number?
 
 ### --feedback--
 
-The final digits are not what Basti says.
+마지막 숫자가 Basti가 말한 것과 다릅니다.
 
 ---
 
@@ -40,7 +40,7 @@ The final digits are not what Basti says.
 
 ### --feedback--
 
-The country code Basti says is not 520.
+Basti가 말한 국가 번호는 520이 아닙니다.
 
 ---
 
@@ -48,7 +48,7 @@ The country code Basti says is not 520.
 
 ### --feedback--
 
-There is a small error in the middle four digits.
+중간 네 자리 숫자에 작은 오류가 있습니다.
 
 ## --video-solution--
 
@@ -56,7 +56,7 @@ There is a small error in the middle four digits.
 
 # --explanation--
 
-`Y mi número es +502 4489 2201`, means "And my number is +502 4489 2201".
+`Y mi número es +502 4489 2201`, 는 "그리고 내 번호는 +502 4489 2201입니다"라는 뜻입니다.
 
 # --scene--
 

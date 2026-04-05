@@ -1,26 +1,26 @@
 ---
 id: 65b006efc74c675c2bdfccba
-title: Step 33
+title: 33단계
 challengeType: 0
 dashedName: step-33
 ---
 
 # --description--
 
-For the last condition, you will need to check if the player's `x` position has exceeded the right edge of the canvas. If it has, you will need to set the player's `x` position to the maximum value so the player does not accidentally go off screen to the right.
+마지막 조건에서는 플레이어의 `x` 위치가 캔버스의 오른쪽 가장자리를 넘었는지 확인해야 합니다. 만약 넘었다면, 플레이어가 오른쪽 화면 밖으로 나가지 않도록 플레이어의 `x` 위치를 최대값으로 설정해야 합니다.
 
-Inside your `update` method, create an `if` statement that checks if `this.position.x >= canvas.width - this.width * 2`.
+`update` 메서드 안에 `if` 문을 만들어 `this.position.x >= canvas.width - this.width * 2`인지 확인하세요.
 
 # --hints--
 
-You should have another `if` statement inside your `update` method.
+`if` 메서드 안에 또 다른 `update` 문이 있어야 합니다.
 
 ```js
 const player = new Player();
 assert.lengthOf(player?.update?.toString().match(/if\s*\(\s*.*\s*\)\s*{/g), 4);
 ```
 
-Your `if` statement should check if `this.position.x >= canvas.width - this.width * 2`.
+`if` 문은 `this.position.x >= canvas.width - this.width * 2`인지 확인해야 합니다.
 
 ```js
 const player = new Player();
@@ -197,7 +197,7 @@ class Player {
     ctx.fillStyle = "#99c9ff";
     ctx.fillRect(this.position.x, this.position.y, this.width, this.height);
   }
-
+  
   update() {
     this.draw();
     this.position.x += this.velocity.x;

@@ -1,19 +1,19 @@
 ---
 id: 64aced3e88b0a38cec824dea
-title: Step 43
+title: 43단계
 challengeType: 0
 dashedName: step-43
 ---
 
 # --description--
 
-The next step is to update the player's position as it moves throughout the game.
+다음 단계는 게임 진행 중 플레이어의 위치를 업데이트하는 것입니다.
 
-Below your `ctx.clearRect()`, call the `update()` method on the player.
+`ctx.clearRect()` 아래에 플레이어에서 `update()` 메서드를 호출하세요.
 
 # --hints--
 
-You should call the `update()` method on the player.
+플레이어에서 `update()` 메서드를 호출해야 합니다.
 
 ```js
 assert.match(code, /\s*player\s*\.\s*update\s*\(\s*\)\s*;?/);
@@ -189,7 +189,7 @@ class Player {
     ctx.fillStyle = "#99c9ff";
     ctx.fillRect(this.position.x, this.position.y, this.width, this.height);
   }
-
+  
   update() {
     this.draw();
     this.position.x += this.velocity.x;

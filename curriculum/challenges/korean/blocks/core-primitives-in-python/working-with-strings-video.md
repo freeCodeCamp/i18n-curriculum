@@ -1,6 +1,6 @@
 ---
 id: 0e2f4bd857b1edc70bfcd1f9
-title: Working with Strings
+title: 문자열 다루기
 challengeType: 11
 videoId: OrejgL7kP3M
 dashedName: working-with-strings
@@ -8,13 +8,13 @@ dashedName: working-with-strings
 
 # --description--
 
-In this video, you will learn about string concatenation, indexing, and useful string methods.
+이 영상에서는 문자열 연결, 인덱스, 그리고 유용한 문자열 메서드에 대해 배우세요.
 
 # --questions--
 
 ## --text--
 
-Which of the following is the correct way to access the first character of a string?
+다음 중 문자열의 첫 번째 문자를 접근하는 올바른 방법은 무엇인가요?
 
 ## --answers--
 

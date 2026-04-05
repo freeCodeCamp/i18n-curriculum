@@ -1,6 +1,6 @@
 ---
 id: 71ac60e6488b40e997219f15
-title: Comments
+title: 주석
 challengeType: 11
 videoId: CY-CMJIt1z8
 dashedName: comments
@@ -8,13 +8,13 @@ dashedName: comments
 
 # --description--
 
-In this video, you will learn how to write comments in Python to document your code and make it more readable.
+이 영상에서는 Python에서 주석을 작성하여 코드를 문서화하고 더 읽기 쉽게 만드는 방법을 배우세요.
 
 # --questions--
 
 ## --text--
 
-Which of the following is a single line comment in Python?
+다음 중 Python에서 한 줄 주석인 것은 무엇인가요?
 
 ## --answers--
 

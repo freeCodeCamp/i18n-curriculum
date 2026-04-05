@@ -1,6 +1,6 @@
 ---
 id: 699e0347138be64fa313138d
-title: Toolkit Functions
+title: 툴킷 함수
 challengeType: 11
 videoId: 3DbEglxB1HY
 dashedName: toolkit-functions
@@ -8,13 +8,13 @@ dashedName: toolkit-functions
 
 # --description--
 
-In this video, you will learn about toolkit functions.
+이 영상에서는 툴킷 함수에 대해 배우세요.
 
 # --questions--
 
 ## --text--
 
-Which of the following is NOT an example of a toolkit function?
+다음 중 툴킷 함수의 예가 아닌 것은 무엇인가요?
 
 ## --answers--
 

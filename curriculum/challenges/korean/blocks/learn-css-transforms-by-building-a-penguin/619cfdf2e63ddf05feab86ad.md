@@ -1,23 +1,23 @@
 ---
 id: 619cfdf2e63ddf05feab86ad
-title: Step 47
+title: 47단계
 challengeType: 0
 dashedName: step-47
 ---
 
 # --description--
 
-Position the `.face` elements so that they are `15%` from the top.
+`.face` 요소들을 위에서 `15%` 위치하도록 배치하세요.
 
 # --hints--
 
-You should give `.face` a `top` property.
+`.face`에 `top` 속성을 지정해야 합니다.
 
 ```js
 assert.notEmpty(new __helpers.CSSHelp(document).getStyle('.face')?.top);
 ```
 
-You should give `.face` a `top` of `--fcc-expected--`, but found `--fcc-actual--`.
+`.face`에 `top`가 `--fcc-expected--`이어야 하지만 `--fcc-actual--`이 발견되었습니다.
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('.face')?.top, '15%');

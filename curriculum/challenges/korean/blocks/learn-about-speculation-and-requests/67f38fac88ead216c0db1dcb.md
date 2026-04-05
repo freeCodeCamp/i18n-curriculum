@@ -1,6 +1,6 @@
 ---
 id: 67f38fac88ead216c0db1dcb
-title: Task 81
+title: 작업 81
 challengeType: 19
 dashedName: task-81
 lang: en-US
@@ -12,13 +12,13 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+오디오를 듣고 아래 질문에 답하세요.
 
 # --questions--
 
 ## --text--
 
-Jessica didn't check that yet, but will do. What should she say?
+Jessica는 아직 확인하지 않았지만 곧 할 예정입니다. 그녀가 뭐라고 말해야 할까요?
 
 ## --answers--
 
@@ -30,7 +30,7 @@ ENaa826774
 
 ### --feedback--
 
-`Won't` is the contraction for `will not`. Jessica plans to check it.
+`Won't`은 `will not`의 축약형입니다. Jessica는 확인할 계획입니다.
 
 ---
 
@@ -46,11 +46,11 @@ EN97950753
 
 # --explanation--
 
-Jessica is responding to Jake's question, acknowledging that she has not checked yet but will do so. This response shows that she is ready to complete the task, which is in line with what Jake is asking about.
+Jessica는 Jake의 질문에 아직 확인하지 않았지만 곧 할 것임을 인정하며 답변하고 있습니다. 이 응답은 그녀가 작업을 완료할 준비가 되었음을 보여주며, Jake가 묻는 내용과 일치합니다.
 
-`No, I didn't` confirms that she hasn't checked yet.
+`No, I didn't`는 그녀가 아직 확인하지 않았음을 확인시켜 줍니다.
 
-`I'll do that` shows her intention to complete the task soon.
+`I'll do that`는 곧 작업을 완료할 의도를 나타냅니다.
 
 # --scene--
 

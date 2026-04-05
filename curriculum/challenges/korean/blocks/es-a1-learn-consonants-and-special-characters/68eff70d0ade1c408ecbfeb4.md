@@ -1,6 +1,6 @@
 ---
 id: 68eff70d0ade1c408ecbfeb4
-title: Task 6
+title: 작업 6
 challengeType: 22
 dashedName: task-6
 lang: es
@@ -10,15 +10,15 @@ lang: es
 
 # --description--
 
-The letter `d` is called `de`.
+문자 `d`는 `de`라고 부릅니다.
 
-At the beginning of a word or after `l` or `n`, its sound is stronger, like in the word `dos` ("two"). However, it's softer between vowels, like in the word `idea` ("idea").
+단어의 처음이나 `l` 또는 `n` 뒤에서는 소리가 더 강하게 나며, 예를 들어 `dos`("two")라는 단어에서 그렇습니다. 그러나 모음 사이에서는 더 부드럽게 발음되며, 예를 들어 `idea`("idea")라는 단어에서 그렇습니다.
 
-An example is `doctor` ("doctor").
+예시로는 `doctor`("doctor")가 있습니다.
 
 # --instructions--
 
-Listen to the audio and write the letter in the blank space below.
+오디오를 듣고 빈칸에 문자를 적으세요.
 
 # --fillInTheBlank--
 
@@ -32,7 +32,7 @@ Listen to the audio and write the letter in the blank space below.
 
 ### --feedback--
 
-This is the fourth letter in the alphabet.
+알파벳에서 네 번째 글자입니다.
 
 # --scene--
 

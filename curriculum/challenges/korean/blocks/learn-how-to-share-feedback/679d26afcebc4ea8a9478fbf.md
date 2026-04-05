@@ -1,6 +1,6 @@
 ---
 id: 679d26afcebc4ea8a9478fbf
-title: Task 91
+title: 작업 91
 challengeType: 19
 dashedName: task-91
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+오디오를 듣고 아래 질문에 답하세요.
 
 # --questions--
 
 ## --text--
 
-Is James sure that they need to update the software?
+James는 소프트웨어를 업데이트해야 한다고 확신하나요?
 
 ## --answers--
 
-Not really, since he is asking for Maria's opinion.
+그렇지 않습니다. Maria의 의견을 묻고 있기 때문입니다.
 
 ---
 
-Yes, he has already decided to update it.
+네, 이미 업데이트하기로 결정했습니다.
 
 ### --feedback--
 
-James is asking Maria about it, so he probably hasn't decided it yet.
+James가 Maria에게 묻고 있으니 아직 결정하지 않은 것 같습니다.
 
 ---
 
-Yes, he has already started updating the software.
+네, 이미 소프트웨어 업데이트를 시작했습니다.
 
 ### --feedback--
 
-James is asking whether they should update the software or not.
+James는 소프트웨어를 업데이트해야 하는지 묻고 있습니다.
 
 ---
 
-On the contrary, he's sure they should not update the software.
+반대로, 업데이트하지 않아야 한다고 확신합니다.
 
 ### --feedback--
 
-James is not rejecting the idea altogether; he is actually asking Maria's opinion on the topic.
+James는 그 아이디어를 완전히 거부하는 것이 아니라 Maria의 의견을 묻고 있습니다.
 
 ## --video-solution--
 
@@ -52,9 +52,9 @@ James is not rejecting the idea altogether; he is actually asking Maria's opinio
 
 # --explanation--
 
-`To update` means to modify or improve software by releasing a new version. Updates can include bug fixes, new features, or performance improvements. For example:
+`To update`는 새 버전을 출시하여 소프트웨어를 수정하거나 개선하는 것을 의미합니다. 업데이트에는 버그 수정, 새로운 기능, 성능 향상이 포함될 수 있습니다. 예를 들어:
 
-`The company released an update to fix security vulnerabilities in the app.` - This means a new version was launched to address security issues.
+`The company released an update to fix security vulnerabilities in the app.` - 보안 문제를 해결하기 위해 새 버전이 출시되었다는 뜻입니다.
 
 # --scene--
 

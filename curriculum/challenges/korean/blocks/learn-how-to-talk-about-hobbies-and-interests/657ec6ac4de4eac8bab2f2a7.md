@@ -1,6 +1,6 @@
 ---
 id: 657ec6ac4de4eac8bab2f2a7
-title: Task 39
+title: 작업 39
 challengeType: 22
 dashedName: task-39
 lang: en-US
@@ -10,9 +10,9 @@ lang: en-US
 
 # --description--
 
-The word `date` can be used in different contexts. While it often refers to a romantic meeting between two people, it can also simply mean an appointment or a planned event between friends or colleagues. For example:
+단어 `date`는 다양한 상황에서 사용될 수 있습니다. 보통 두 사람 간의 로맨틱한 만남을 의미하지만, 친구나 동료 간의 약속이나 계획된 이벤트를 뜻할 수도 있습니다. 예를 들어:
 
-`Let's set a date for our next meeting.` - Here, `date` is used in a non-romantic way, referring to choosing a day for a meeting.
+`Let's set a date for our next meeting.` - 여기서는 `date`가 비로맨틱한 의미로 사용되어, 만남을 위한 날짜를 정하는 것을 나타냅니다.
 
 # --fillInTheBlank--
 
@@ -26,7 +26,7 @@ The word `date` can be used in different contexts. While it often refers to a ro
 
 ### --feedback--
 
-This word specifies the type of activity planned, indicating it's an outing involving bicycles.
+이 단어는 계획된 활동의 유형을 명확히 하며, 자전거를 타는 외출임을 나타냅니다.
 
 ---
 
@@ -34,7 +34,7 @@ This word specifies the type of activity planned, indicating it's an outing invo
 
 ### --feedback--
 
-This word refers to a scheduled meeting or event.
+이 단어는 예정된 만남이나 이벤트를 가리킵니다.
 
 # --scene--
 

@@ -1,6 +1,6 @@
 ---
 id: 68249d79d4ddca45eff7fafd
-title: Task 144
+title: 작업 144
 challengeType: 19
 dashedName: task-144
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+오디오를 듣고 아래 질문에 답하세요.
 
 # --questions--
 
 ## --text--
 
-What does Jessica plan to do with the information?
+Jessica는 이 정보를 가지고 무엇을 할 계획인가요?
 
 ## --answers--
 
-Ignore it for now and wait for more feedback.
+지금은 무시하고 더 많은 피드백을 기다린다.
 
 ### --feedback--
 
-Jessica says she will organize the information and share it, not ignore it.
+Jessica는 정보를 정리해서 공유할 것이라고 말했지 무시한다고 하지 않았습니다.
 
 ---
 
-Organize it into a report and discuss it with others.
+정보를 보고서로 정리하고 다른 사람들과 논의한다.
 
 ---
 
-Ask users to test it again before making changes.
+변경하기 전에 사용자에게 다시 테스트해 달라고 요청한다.
 
 ### --feedback--
 
-She does not mention anything about retesting or user feedback.
+재테스트나 사용자 피드백에 대해 언급하지 않았습니다.
 
 ---
 
-Send it directly to the client without review.
+검토 없이 바로 클라이언트에게 보낸다.
 
 ### --feedback--
 
-Jessica plans to talk with her team first, not send it straight to a client.
+Jessica는 먼저 팀과 이야기할 계획이지 바로 클라이언트에게 보내지 않습니다.
 
 ## --video-solution--
 
@@ -52,9 +52,9 @@ Jessica plans to talk with her team first, not send it straight to a client.
 
 # --explanation--
 
-Jessica says she will `put all this information into a report` and `talk about it with the team tomorrow`. This shows she plans to organize the details and have a discussion with her team.
+Jessica는 `put all this information into a report`와 `talk about it with the team tomorrow`를 하겠다고 말했습니다. 이는 정보를 정리하고 팀과 논의할 계획임을 보여줍니다.
 
-She also says the feedback `should help`, meaning it will guide their next steps.
+또한 피드백이 `should help`라고 말했는데, 이는 다음 단계를 안내할 것임을 의미합니다.
 
 # --scene--
 

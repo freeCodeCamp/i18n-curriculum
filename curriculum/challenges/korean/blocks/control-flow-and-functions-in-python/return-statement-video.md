@@ -1,6 +1,6 @@
 ---
 id: c6c9dae4017830e187eeaf42
-title: Return Statement
+title: return 문
 challengeType: 11
 videoId: Gx3VTsaMCHU
 dashedName: return-statement
@@ -8,13 +8,13 @@ dashedName: return-statement
 
 # --description--
 
-In this video, you will learn how to use the return statement in functions.
+이 영상에서는 함수에서 return 문을 사용하는 방법을 배우세요.
 
 # --questions--
 
 ## --text--
 
-What will be the output for the following code?
+다음 코드의 출력 결과는 무엇일까요?
 
 ```python
 def cube(num):

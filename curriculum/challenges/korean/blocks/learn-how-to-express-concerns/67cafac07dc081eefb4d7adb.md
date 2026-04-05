@@ -1,6 +1,6 @@
 ---
 id: 67cafac07dc081eefb4d7adb
-title: Task 135
+title: 작업 135
 challengeType: 19
 dashedName: task-135
 lang: en-US
@@ -10,51 +10,51 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+오디오를 듣고 아래 질문에 답하세요.  
 
 # --questions--
 
 ## --text--
 
-What is the objective of having weekly meetings?
+주간 회의를 하는 목적은 무엇인가요?
 
 ## --answers--
 
-To reduce the number of tasks the team has.
+팀이 가진 작업 수를 줄이기 위해서입니다.
 
 ### --feedback--
 
-Bob does not mention reducing tasks.
+Bob은 작업 수를 줄인다고 언급하지 않았습니다.  
 
 ---
 
-To avoid making any changes to the project.
+프로젝트에 어떤 변경도 하지 않기 위해서입니다.
 
 ### --feedback--
 
-Bob does not suggest that they avoid making changes.
+Bob은 변경을 피하자고 제안하지 않았습니다.
 
 ---
 
-To increase the number of meetings without a clear goal.
+명확한 목표 없이 회의 수를 늘리기 위해서입니다.
 
 ### --feedback--
 
-Bob has a specific goal and he mentions it.
+Bob은 구체적인 목표를 가지고 있다고 말했습니다.
 
 ---
 
-To make sure everyone stays updated on the project.
+모두가 프로젝트에 대해 최신 정보를 유지하도록 하기 위해서입니다.
 
 ## --video-solution--
 
-4
+4  
 
 # --explanation--
 
-`To keep someone in the loop` means to keep them informed about important updates and decisions. For example:
+`To keep someone in the loop`는 중요한 업데이트와 결정을 모두에게 알리는 것을 의미합니다. 예를 들어:
 
-`Please keep me in the loop about any changes to the schedule.` - This means the speaker wants to be updated if anything changes.
+`Please keep me in the loop about any changes to the schedule.` - 이는 화자가 어떤 변화가 있으면 업데이트를 받고 싶다는 뜻입니다.
 
 # --scene--
 

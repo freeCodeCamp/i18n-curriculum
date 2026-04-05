@@ -1,6 +1,6 @@
 ---
 id: 65ffa9d80e7ffb1ab9b4df1c
-title: Task 11
+title: 작업 11
 challengeType: 22
 dashedName: task-11
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --description--
 
-Listen to the audio and complete the sentence.
+오디오를 듣고 문장을 완성하세요.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence.
 
 ### --feedback--
 
-It indicates that the action to follow happens as soon as the section is found. Capitalize this word.
+이 단어는 섹션을 찾자마자 다음 행동이 일어난다는 것을 나타냅니다. 이 단어는 대문자로 시작하세요.
 
 ---
 
@@ -32,7 +32,7 @@ It indicates that the action to follow happens as soon as the section is found. 
 
 ### --feedback--
 
-It's used here to mean locating or discovering the needed section in the documentation.
+여기서는 문서에서 필요한 섹션을 찾거나 발견한다는 의미로 사용되었습니다.
 
 ---
 
@@ -40,7 +40,7 @@ It's used here to mean locating or discovering the needed section in the documen
 
 ### --feedback--
 
-This word refers to the beginning paragraphs that provide a basic understanding of the section.
+이 단어는 섹션의 기본적인 이해를 제공하는 시작 단락들을 가리킵니다.
 
 ---
 
@@ -48,7 +48,7 @@ This word refers to the beginning paragraphs that provide a basic understanding 
 
 ### --feedback--
 
-It means what the documentation includes or addresses in terms of content.
+문서가 어떤 내용을 포함하거나 다루는지를 의미합니다.
 
 # --scene--
 

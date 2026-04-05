@@ -1,6 +1,6 @@
 ---
 id: 699e855e8f18cf77dfce5c22
-title: Parabolas - Vertex, Focus, Directrix
+title: "포물선 - 꼭짓점, 포커스, 준선"
 challengeType: 11
 videoId: fAXpgprNFq0
 dashedName: parabolas-vertex-focus-directrix
@@ -8,13 +8,13 @@ dashedName: parabolas-vertex-focus-directrix
 
 # --description--
 
-In this video, you will learn about special forms for equations of parabolas, and how to find the vertex, focus, and directrix of a parabola.
+이 영상에서는 포물선의 방정식에 대한 특별한 형태와 포물선의 꼭짓점, 포커스, 준선을 찾는 방법을 배우세요.
 
 # --questions--
 
 ## --text--
 
-Which of the following is a valid form for the equation of a parabola?
+다음 중 포물선의 방정식으로 올바른 형태는 무엇인가요?
 
 ## --answers--
 
@@ -35,4 +35,3 @@ $y - k = 4p(x - h)^2$
 ## --video-solution--
 
 3
-

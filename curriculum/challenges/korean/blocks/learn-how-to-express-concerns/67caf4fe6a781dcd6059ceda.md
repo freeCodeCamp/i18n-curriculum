@@ -1,6 +1,6 @@
 ---
 id: 67caf4fe6a781dcd6059ceda
-title: Task 131
+title: 작업 131
 challengeType: 22
 dashedName: task-131
 lang: en-US
@@ -10,39 +10,39 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+오디오를 듣고 아래 문장을 완성하세요.  
 
 # --fillInTheBlank--
 
 ## --sentence--
 
-`It'd be BLANK if we had more BLANK check-ins.`
+`It'd be BLANK if we had more BLANK check-ins.`  
 
 ## --blanks--
 
-`helpful`
+`helpful`  
 
 ### --feedback--
 
-This means providing assistance or making something easier.
+이는 도움을 주거나 무언가를 더 쉽게 만드는 것을 의미합니다.  
 
----
+---  
 
-`regular`
+`regular`  
 
 ### --feedback--
 
-This means happening consistently or at set intervals.
+이는 규칙적으로 또는 정해진 간격으로 발생하는 것을 의미합니다.  
 
 # --explanation--
 
-`Helpful` means providing assistance or making something easier. For example:
+`Helpful`는 도움을 주거나 무언가를 더 쉽게 만드는 것을 의미합니다. 예를 들어:
 
-`It was helpful to have clear instructions before starting the task.` - This means the instructions made the task easier to complete.
+`It was helpful to have clear instructions before starting the task.` - 이 문장은 지시사항이 작업을 더 쉽게 완료하도록 만들었다는 뜻입니다.
 
-`Regular` means happening consistently or at set intervals. For example:
+`Regular`는 규칙적으로 또는 정해진 간격으로 발생하는 것을 의미합니다. 예를 들어:
 
-`We have regular meetings every Monday.` - This means the meetings happen consistently on Mondays.
+`We have regular meetings every Monday.` - 이 문장은 회의가 매주 월요일에 규칙적으로 열린다는 뜻입니다.
 
 # --scene--
 

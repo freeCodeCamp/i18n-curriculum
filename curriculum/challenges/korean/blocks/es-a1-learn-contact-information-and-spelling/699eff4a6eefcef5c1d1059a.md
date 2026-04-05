@@ -1,26 +1,25 @@
 ---
 id: 699eff4a6eefcef5c1d1059a
-title: Task 24
+title: 작업 24
 challengeType: 22
 dashedName: task-24
 lang: es
 ---
-
 <!-- (Audio) Basti: El dominio es q-u-e-t-z-a-l punto g-t. -->
 
 # --description--
 
-The word `dominio` refers to the main part of a web address, usually the section that comes after the `@` in an email or after `www` in a website.
+단어 `dominio`는 보통 이메일에서 `@` 다음에 오거나 웹사이트에서 `www` 다음에 오는 웹 주소의 주요 부분을 가리킵니다.
 
-It is commonly used when giving or confirming email addresses and URLs. For example:
+이 단어는 이메일 주소나 URL을 주거나 확인할 때 흔히 사용됩니다. 예를 들어:
 
-`El dominio es gmail punto com.` – The domain is gmail.com.
+`El dominio es gmail punto com.` – 도메인은 gmail.com입니다.
 
-`¿Cuál es el dominio?` – What is the domain?
+`¿Cuál es el dominio?` – 도메인이 무엇인가요?
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+오디오를 듣고 아래 문장을 완성하세요.
 
 # --fillInTheBlank--
 
@@ -34,13 +33,13 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This noun refers to the main part of a web or email address.
+이 명사는 웹 또는 이메일 주소의 주요 부분을 가리킵니다.
 
 # --explanation--
 
-`Dominio` is a noun used to name the domain portion of an email address or website.
+`Dominio`는 이메일 주소나 웹사이트의 도메인 부분을 지칭하는 명사입니다.
 
-It commonly appears when people spell or confirm digital contact information.
+사람들이 디지털 연락처 정보를 철자하거나 확인할 때 자주 등장합니다.
 
 # --scene--
 

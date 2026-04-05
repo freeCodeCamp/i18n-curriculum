@@ -1,6 +1,6 @@
 ---
 id: 67ddb23caaa58aa09eabf0f8
-title: Task 33
+title: 작업 33
 challengeType: 22
 dashedName: task-33
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+오디오를 듣고 아래 문장을 완성하세요.
 
 # --fillInTheBlank--
 
@@ -24,13 +24,13 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This means at the present time and shows the situation could change later.
+이는 현재 시점을 의미하며 상황이 나중에 바뀔 수 있음을 나타냅니다.
 
 # --explanation--
 
-`For now` means at this moment or for the time being. It suggests that things are complete at the moment, but more might happen later. For example:
+`For now`는 지금 이 순간 또는 당분간을 의미합니다. 현재는 완료된 상태지만 나중에 더 있을 수 있음을 암시합니다. 예를 들어:
 
-`Let's stop working here for now and continue tomorrow.` - This means they are pausing at the moment, but will continue later.
+`Let's stop working here for now and continue tomorrow.` - 이는 지금은 잠시 멈추었지만 나중에 계속할 것임을 의미합니다.
 
 # --scene--
 

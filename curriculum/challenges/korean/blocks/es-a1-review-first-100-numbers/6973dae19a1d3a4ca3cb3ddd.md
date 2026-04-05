@@ -1,6 +1,6 @@
 ---
 id: 6973dae19a1d3a4ca3cb3ddd
-title: 30 to 59 Pronunciation Review
+title: 30부터 59까지 발음 검토
 challengeType: 24
 dashedName: 30-to-59-pronunciation-review
 lang: es
@@ -10,11 +10,11 @@ lang: es
 
 # --description--
 
-Practice pronouncing the numbers from 30 to 59.
+30부터 59까지 숫자 발음을 연습하세요.
 
 # --assignment--
 
-I've practiced pronouncing the numbers from 30 to 59.
+30부터 59까지 숫자 발음을 연습했습니다.
 
 # --scene--
 

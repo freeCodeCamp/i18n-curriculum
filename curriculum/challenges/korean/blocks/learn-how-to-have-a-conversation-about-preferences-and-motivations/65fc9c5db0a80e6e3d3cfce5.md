@@ -1,6 +1,6 @@
 ---
 id: 65fc9c5db0a80e6e3d3cfce5
-title: Task 37
+title: 작업 37
 challengeType: 22
 dashedName: task-37
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --description--
 
-In this part of the conversation, Brian talks about how the talk made him feel and thanks Maria for sharing her perspective.
+이 대화 부분에서 Brian은 강연이 자신에게 어떤 느낌을 주었는지 이야기하고 Maria가 자신의 관점을 공유해 준 것에 감사를 전합니다.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ In this part of the conversation, Brian talks about how the talk made him feel a
 
 ### --feedback--
 
-This word means something that gives you energy or a reason to do something. It's like when someone's words make you want to try harder.
+이 단어는 에너지를 주거나 무언가를 하게 만드는 이유를 뜻합니다. 누군가의 말이 더 열심히 하도록 만들 때와 같습니다.
 
 ---
 
@@ -32,7 +32,7 @@ This word means something that gives you energy or a reason to do something. It'
 
 ### --feedback--
 
-This word means giving something that you have to others. It's like when you tell someone your ideas or feelings.
+이 단어는 자신이 가진 것을 다른 사람에게 주는 것을 의미합니다. 누군가에게 자신의 생각이나 감정을 말해 주는 것과 같습니다.
 
 # --scene--
 

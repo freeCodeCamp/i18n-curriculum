@@ -1,6 +1,6 @@
 ---
 id: 699e56ba8f18cf77dfce5c0c
-title: Linear and Radial Speed
+title: 선형 속도와 반지름 속도
 challengeType: 11
 videoId: nsZvoNqWCMo
 dashedName: linear-and-radial-speed
@@ -8,32 +8,30 @@ dashedName: linear-and-radial-speed
 
 # --description--
 
-In this video, you will learn about linear and radial speed for rotating circles.
+이 영상에서는 회전하는 원의 선형 속도와 반지름 속도에 대해 배우세요.
 
 # --questions--
 
 ## --text--
 
-What is linear speed?
+선형 속도란 무엇인가요?
 
 ## --answers--
 
-The number of rotations completed in one minute.
+1분 동안 완료되는 회전 수입니다.
 
 ---
 
-The distance from the center of a circle to its edge.
+원의 중심에서 가장자리까지의 거리입니다.
 
 ---
 
-The distance a point travels in a unit of time.
+한 단위 시간 동안 한 점이 이동하는 거리입니다.
 
 ---
 
-The angle a point rotates through in a unit of time.
+한 단위 시간 동안 한 점이 회전하는 각도입니다.
 
 ## --video-solution--
 
 3
-
-

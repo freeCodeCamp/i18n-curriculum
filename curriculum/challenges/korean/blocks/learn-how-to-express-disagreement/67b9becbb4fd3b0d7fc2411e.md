@@ -1,6 +1,6 @@
 ---
 id: 67b9becbb4fd3b0d7fc2411e
-title: Task 65
+title: 작업 65
 challengeType: 22
 dashedName: task-65
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+오디오를 듣고 아래 문장을 완성하세요.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This word refers to things taking longer than expected.
+이 단어는 예상보다 일이 더 오래 걸리는 상황을 가리킵니다.
 
 ---
 
@@ -32,13 +32,13 @@ This word refers to things taking longer than expected.
 
 ### --feedback--
 
-This word refers to misunderstandings caused by unclear or incorrect information.
+이 단어는 명확하지 않거나 잘못된 정보로 인해 발생하는 오해를 뜻합니다.
 
 # --explanation--
 
-David is concerned that asynchronous remote work might cause `delays` (slower responses and progress) and `miscommunication` (people misunderstanding each other).
+David는 비동기 원격 근무가 `delays` (응답과 진행이 느려지는 것)과 `miscommunication` (사람들이 서로를 오해하는 것)을 초래할 수 있다고 걱정합니다.
 
-Since employees work at different times, messages may take longer to be answered, and misunderstandings may happen if communication isn't clear.
+직원들이 서로 다른 시간에 일하기 때문에 메시지에 답하는 데 시간이 더 걸릴 수 있고, 소통이 명확하지 않으면 오해가 생길 수 있습니다.
 
 # --scene--
 

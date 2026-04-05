@@ -1,35 +1,35 @@
 ---
 id: 5efada803cbd2bbdab94e332
-title: Step 31
+title: 31단계
 challengeType: 0
 dashedName: step-31
 ---
 
 # --description--
 
-Inside the `figure` element you just added, nest an `img` element with a `src` attribute set to `https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg`.
+방금 추가한 `figure` 요소 안에 `img` 속성이 `src`로 설정된 `https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg` 요소를 중첩하세요.
 
 # --hints--
 
-Your second `figure` element should have an opening tag. Opening tags have this syntax: `<elementName>`.
+두 번째 `figure` 요소는 여는 태그가 있어야 합니다. 여는 태그의 구문은 다음과 같습니다: `<elementName>`.
 
 ```js
 assert(document.querySelectorAll('figure').length >= 2);
 ```
 
-Your second `figure` element should have a closing tag. Closing tags have a `/` just after the `<` character.
+두 번째 `figure` 요소는 닫는 태그가 있어야 합니다. 닫는 태그는 `/` 문자 바로 뒤에 `<`가 있습니다.
 
 ```js
 assert(code.match(/<\/figure>/g).length >= 2);
 ```
 
-There should be a second `figure` element right above the second `section` element's closing tag. You have them in the wrong order.
+두 번째 `figure` 요소의 닫는 태그 바로 위에 두 번째 `section` 요소가 있어야 합니다. 순서가 잘못되었습니다.
 
 ```js
 assert.strictEqual(document.querySelectorAll('main > section')?.[1]?.lastElementChild?.nodeName, 'FIGURE');
 ```
 
-You should have a third `img` element nested in the `figure` element.
+`img` 요소 안에 세 번째 `figure` 요소가 중첩되어 있어야 합니다.
 
 ```js
 const catsImg = document.querySelectorAll('figure > img')[1];
@@ -38,7 +38,7 @@ assert(
 );
 ```
 
-The third image should have a `src` attribute set to `https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg`.
+세 번째 이미지에는 `src` 속성이 `https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg`로 설정되어야 합니다.
 
 ```js
 const catsImg = document.querySelectorAll('figure > img')[1];
@@ -47,7 +47,7 @@ assert.strictEqual(
 );
 ```
 
-Although you have set the new image's `src` to the correct URL, it is recommended to always surround the value of an attribute with quotation marks.
+새 이미지의 `src`를 올바른 URL로 설정했지만, 속성 값은 항상 따옴표로 감싸는 것이 좋습니다.
 
 ```js
 assert.notMatch(code, /\<img\s+.+\s+src\s*=\s*https:\/\/cdn\.freecodecamp\.org\/curriculum\/cat-photo-app\/cats\.jpg/);
@@ -88,7 +88,7 @@ assert.notMatch(code, /\<img\s+.+\s+src\s*=\s*https:\/\/cdn\.freecodecamp\.org\/
         </ol>
 --fcc-editable-region--
         <figure>
-
+          
         </figure>
 --fcc-editable-region--
       </section>
@@ -96,4 +96,3 @@ assert.notMatch(code, /\<img\s+.+\s+src\s*=\s*https:\/\/cdn\.freecodecamp\.org\/
   </body>
 </html>
 ```
-

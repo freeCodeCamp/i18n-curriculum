@@ -1,6 +1,6 @@
 ---
 id: 58d5d031e969765037c1bebb
-title: Functions
+title: 함수
 challengeType: 11
 videoId: QN3UNoJVS9g
 dashedName: functions
@@ -8,13 +8,13 @@ dashedName: functions
 
 # --description--
 
-In this video, you will learn how to define and call a function.
+이 영상에서는 함수를 정의하고 호출하는 방법을 배우세요. 
 
 # --questions--
 
 ## --text--
 
-Which of the following is the correct way to call a function?
+다음 중 함수를 올바르게 호출하는 방법은 무엇인가요?
 
 ## --answers--
 

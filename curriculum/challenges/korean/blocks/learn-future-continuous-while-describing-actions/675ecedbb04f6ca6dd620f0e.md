@@ -1,6 +1,6 @@
 ---
 id: 675ecedbb04f6ca6dd620f0e
-title: Task 76
+title: 작업 76
 challengeType: 22
 dashedName: task-76
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+오디오를 듣고 아래 문장을 완성하세요.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This is a type of cyberattack where a hacker secretly gets in the middle of two people or systems talking to each other. The hacker can see, change, or steal information being shared without anyone knowing. This is a compound word, remember to use `-`. The first letters of the first and the forth word are capitalized.
+이것은 해커가 두 사람 또는 시스템 사이에 몰래 끼어드는 사이버 공격 유형입니다. 해커는 아무도 모르게 공유되는 정보를 보고, 변경하거나 훔칠 수 있습니다. 복합어이므로 `-`를 사용하세요. 첫 번째와 네 번째 단어의 첫 글자는 대문자입니다.
 
 ---
 
@@ -32,17 +32,17 @@ This is a type of cyberattack where a hacker secretly gets in the middle of two 
 
 ### --feedback--
 
-This word in the plural form means actions by hackers or criminals to harm a computer system, steal information, or cause problems.
+이 단어의 복수형은 해커나 범죄자가 컴퓨터 시스템을 해치거나 정보를 훔치거나 문제를 일으키는 행위를 의미합니다.
 
 # --explanation--
 
-`Man-in-the-Middle` (or `MITM`) is a type of attack where a hacker secretly gets between two people or systems that are communicating. The hacker listens to or changes the information being shared without anyone knowing. For example:
+`Man-in-the-Middle` (또는 `MITM`)는 해커가 통신하는 두 사람 또는 시스템 사이에 몰래 끼어드는 공격 유형입니다. 해커는 아무도 모르게 공유되는 정보를 듣거나 변경합니다. 예를 들어:
 
-`A Man-in-the-Middle attack (MITM) happened when a hacker intercepted the data sent between a user's computer and their bank.` - The hacker pretended to be the bank, intercepted the information, and stole the user's login credentials. This allowed the hacker to access the bank account without the user knowing.
+`A Man-in-the-Middle attack (MITM) happened when a hacker intercepted the data sent between a user's computer and their bank.` - 해커가 은행인 척하며 정보를 가로채 사용자의 로그인 자격 증명을 훔쳤습니다. 이를 통해 사용자가 모르는 사이에 은행 계좌에 접근할 수 있었습니다.
 
-`Attacks` are actions by hackers to harm computer systems, steal information, or cause problems. For example:
+`Attacks`는 해커가 컴퓨터 시스템을 해치거나 정보를 훔치거나 문제를 일으키는 행위입니다. 예를 들어:
 
-`The website was unavailable for hours because of a cyber attack that overloaded its server.` - It indicates the hacker sent too much fake traffic to the website, making it crash or slow down. This stopped real users from accessing it, causing disruption.
+`The website was unavailable for hours because of a cyber attack that overloaded its server.` - 해커가 웹사이트에 너무 많은 가짜 트래픽을 보내 사이트가 다운되거나 느려지게 했습니다. 이로 인해 실제 사용자가 접근하지 못해 서비스가 중단되었습니다.
 
 # --scene--
 

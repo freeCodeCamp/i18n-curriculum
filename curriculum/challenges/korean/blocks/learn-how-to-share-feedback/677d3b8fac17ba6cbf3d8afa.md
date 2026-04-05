@@ -1,6 +1,6 @@
 ---
 id: 677d3b8fac17ba6cbf3d8afa
-title: Task 3
+title: 작업 3
 challengeType: 22
 dashedName: task-3
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+오디오를 듣고 아래 문장을 완성하세요.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This is the `-ing` form of the verb `say`, used after the preposition `by` to indicate the method of starting.
+이것은 동사 `-ing`의 `say` 형태로, 전치사 `by` 뒤에 와서 시작하는 방법을 나타냅니다.
 
 ---
 
@@ -32,17 +32,17 @@ This is the `-ing` form of the verb `say`, used after the preposition `by` to in
 
 ### --feedback--
 
-This stands for `Quality Assurance`, referring to the process of ensuring products meet required standards.
+이는 `Quality Assurance`를 나타내며, 제품이 요구되는 기준을 충족하는지 확인하는 과정을 의미합니다.
 
 # --explanation--
 
-When a verb follows a preposition, it must take the `-ing` form (gerund). In this sentence, `saying` follows the preposition `by`, indicating the method Bob uses to start his statement. For example:
+동사가 전치사 뒤에 올 때는 `-ing` 형태(동명사)를 사용해야 합니다. 이 문장에서는 Bob이 자신의 말을 시작하는 방법을 나타내기 위해 전치사 `saying` 뒤에 `by`가 옵니다. 예를 들어:
 
-`She improved her skills by practicing regularly.` - Here, `practicing` follows the preposition `by`, showing how she improved her skills.
+`She improved her skills by practicing regularly.` - 여기서 `practicing`는 전치사 `by` 뒤에 와서 그녀가 어떻게 기술을 향상시켰는지 보여줍니다.
 
-Bob compliments Jessica for her work in `QA`. `QA` stands for `Quality Assurance`. It refers to the process of ensuring that products or services meet specific quality standards and function correctly. Another example:
+Bob은 Jessica의 `QA` 작업을 칭찬합니다. `QA`는 `Quality Assurance`를 의미하며, 제품이나 서비스가 특정 품질 기준을 충족하고 제대로 작동하는지 확인하는 과정을 말합니다. 또 다른 예:
 
-`The QA team identified several bugs during testing.` - This means that the people responsible for making sure the quality of the software is good managed to detect bugs in the software before its release.
+`The QA team identified several bugs during testing.` - 이는 소프트웨어 품질을 책임지는 사람들이 출시 전에 버그를 발견하는 데 성공했다는 뜻입니다.
 
 # --scene--
 

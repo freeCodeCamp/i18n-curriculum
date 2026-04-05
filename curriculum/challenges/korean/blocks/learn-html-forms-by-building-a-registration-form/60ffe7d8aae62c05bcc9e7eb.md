@@ -1,25 +1,25 @@
 ---
 id: 60ffe7d8aae62c05bcc9e7eb
-title: Step 58
+title: 58단계
 challengeType: 0
 dashedName: step-58
 ---
 
 # --description--
 
-With a `display` of `block` the submit button sits flush against the left edge of its parent.
+`display`가 `block`일 때 제출 버튼이 부모의 왼쪽 가장자리와 딱 맞닿아 있습니다.
 
-Use the same technique used to center the `form` to center the submit button.
+`form`를 가운데 정렬하는 데 사용한 것과 같은 기법으로 제출 버튼을 가운데 정렬하세요.
 
 # --hints--
 
-You should give the submit button a `margin` of `0 auto`.
+제출 버튼에 `margin`를 `0 auto`로 지정해야 합니다.
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('input[type="submit"]')?.margin, '0px auto');
 ```
 
-You should not give the submit button a `min-width` or `max-width`.
+제출 버튼에 `min-width`나 `max-width`를 지정하면 안 됩니다.
 
 ```js
 assert.isEmpty(new __helpers.CSSHelp(document).getStyle('input[type="submit"]')?.minWidth);

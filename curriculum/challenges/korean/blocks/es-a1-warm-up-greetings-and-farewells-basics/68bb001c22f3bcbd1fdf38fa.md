@@ -1,6 +1,6 @@
 ---
 id: 68bb001c22f3bcbd1fdf38fa
-title: Task 1
+title: 작업 1
 challengeType: 19
 dashedName: task-1
 lang: es
@@ -10,17 +10,18 @@ lang: es
 
 # --description--
 
-Elena wants to say "hi". You'll hear this word all the time in Spanish when people meet each other.
+Elena가 "안녕"이라고 말하려고 합니다. 스페인어에서 사람들이 만날 때 이 단어를 항상 듣게 됩니다.
 
 # --instructions--
 
-Listen to the audio and answer the question below. There's just **one** correct answer. If you need help, click on **explanation** at the bottom of the lesson.
+오디오를 듣고 아래 질문에 답하세요.
+정답은 **하나**뿐입니다. 도움이 필요하면 수업 하단의 **설명**을 클릭하세요.
 
 # --questions--
 
 ## --text--
 
-What word does Elena use to say "hi"?
+Elena가 "안녕"이라고 말할 때 사용하는 단어는 무엇인가요?
 
 ## --answers--
 
@@ -32,7 +33,7 @@ What word does Elena use to say "hi"?
 
 ### --feedback--
 
-This means the opposite of what the speaker says. Open the explanation section if you need further help.
+이 단어는 화자가 말한 것과 반대 의미입니다. 추가 도움이 필요하면 설명 섹션을 열어보세요.
 
 ---
 
@@ -40,7 +41,7 @@ This means the opposite of what the speaker says. Open the explanation section i
 
 ### --feedback--
 
-This means the opposite of what the speaker says. Open the explanation section if you need further help.
+이 단어는 화자가 말한 것과 반대 의미입니다. 추가 도움이 필요하면 설명 섹션을 열어보세요.
 
 ---
 
@@ -48,7 +49,7 @@ This means the opposite of what the speaker says. Open the explanation section i
 
 ### --feedback--
 
-This means "Good morning", but it's not what you hear in the audio.
+이 단어는 "좋은 아침"이라는 뜻이지만, 오디오에서 들은 단어는 아닙니다.
 
 ## --video-solution--
 
@@ -56,9 +57,9 @@ This means "Good morning", but it's not what you hear in the audio.
 
 # --explanation--
 
-The word `Hola` is a greeting. It's used when you meet someone, similar to "Hello" or "Hi". For example:
+단어 `Hola`는 인사말입니다. 누군가를 만날 때 사용하며, "Hello"나 "Hi"와 비슷합니다. 예를 들어:
 
-`¡Hola, buenos días!` – Hi, good morning!
+`¡Hola, buenos días!` – 안녕, 좋은 아침! 
 
 # --scene--
 

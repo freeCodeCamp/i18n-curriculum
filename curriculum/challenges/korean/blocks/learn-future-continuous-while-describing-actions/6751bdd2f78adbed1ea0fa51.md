@@ -1,6 +1,6 @@
 ---
 id: 6751bdd2f78adbed1ea0fa51
-title: Task 24
+title: 작업 24
 challengeType: 19
 dashedName: task-24
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+오디오를 듣고 아래 질문에 답하세요.
 
 # --questions--
 
 ## --text--
 
-What is Brian's concern?
+Brian의 걱정은 무엇인가요?
 
 ## --answers--
 
-If users need to be informed about the downtime.
+사용자에게 다운타임에 대해 알려야 하는지 여부.
 
 ---
 
-If the downtime will last too long.
+다운타임이 너무 오래 지속될지 여부.
 
 ### --feedback--
 
-Brian is not asking about the length of the downtime.
+Brian은 다운타임 길이에 대해 묻지 않았습니다.
 
 ---
 
-If the users will experience technical issues.
+사용자가 기술적 문제를 겪을지 여부.
 
 ### --feedback--
 
-Brian does not mention technical issues in his concern.
+Brian은 기술적 문제에 대해 언급하지 않았습니다.
 
 ---
 
-If the downtime will affect the server's performance.
+다운타임이 서버 성능에 영향을 미칠지 여부.
 
 ### --feedback--
 
-Brian's concern is not about the server's performance.
+Brian의 걱정은 서버 성능과 관련이 없습니다.
 
 ## --video-solution--
 
@@ -52,7 +52,7 @@ Brian's concern is not about the server's performance.
 
 # --explanation--
 
-Brian is asking if they should update users about the downtime, showing his concern is about communication with the users rather than the length of downtime, technical issues, or server performance.
+Brian은 사용자에게 다운타임에 대해 업데이트해야 하는지 묻고 있어, 그의 걱정은 다운타임 길이, 기술 문제, 서버 성능보다는 사용자와의 소통에 관한 것입니다.
 
 # --scene--
 

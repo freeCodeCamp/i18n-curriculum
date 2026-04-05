@@ -1,40 +1,40 @@
 ---
 id: 655b4dad1d38ff7cdd65cbfe
-title: Step 99
+title: 99단계
 challengeType: 0
 dashedName: step-99
 ---
 
 # --description--
 
-With everything set in place, call the `pauseSong()`, `setPlayerDisplay()`, `highlightCurrentSong()`, and `setPlayButtonAccessibleText()` functions to correctly update the player.
+모든 준비가 완료되었으니 `pauseSong()`, `setPlayerDisplay()`, `highlightCurrentSong()`, `setPlayButtonAccessibleText()` 함수를 호출하여 플레이어를 올바르게 업데이트하세요.
 
-Congratulations on completing your music player! Now that we've finished testing and using the shorter songs, we've replaced them with the original tracks specially selected by Quincy for you to enjoy.
+뮤직 플레이어 완성을 축하합니다! 이제 짧은 노래들을 테스트하고 사용을 마쳤으니, 퀸시가 특별히 선정한 원곡들로 교체했습니다. 즐기세요.
 
 # --hints--
 
-You should call the `pauseSong` function.
+`pauseSong` 함수를 호출해야 합니다.
 
 ```js
 const splitter = code.split('audio.addEventListener("ended", () => {')
 assert.match(splitter[1], /pauseSong\(\s*\)\s*;?/)
 ```
 
-You should call the `setPlayerDisplay` function.
+`setPlayerDisplay` 함수를 호출해야 합니다.
 
 ```js
 const splitter = code.split('audio.addEventListener("ended", () => {')
 assert.match(splitter[1], /setPlayerDisplay\(\s*\)\s*;?/)
 ```
 
-You should call the `highlightCurrentSong` function.
+`highlightCurrentSong` 함수를 호출해야 합니다.
 
 ```js
 const splitter = code.split('audio.addEventListener("ended", () => {')
 assert.match(splitter[1], /highlightCurrentSong\(\s*\)\s*;?/)
 ```
 
-You should call the `setPlayButtonAccessibleText` function.
+`setPlayButtonAccessibleText` 함수를 호출해야 합니다.
 
 ```js
 const splitter = code.split('audio.addEventListener("ended", () => {')
@@ -649,7 +649,7 @@ const playSong = (id) => {
 
 const pauseSong = () => {
   userData.songCurrentTime = audio.currentTime;
-
+  
   playButton.classList.remove("playing");
   audio.pause();
 };
@@ -1436,7 +1436,7 @@ const playSong = (id) => {
 
 const pauseSong = () => {
   userData.songCurrentTime = audio.currentTime;
-
+  
   playButton.classList.remove("playing");
   audio.pause();
 };

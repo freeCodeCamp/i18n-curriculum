@@ -1,6 +1,6 @@
 ---
 id: 699e85518f18cf77dfce5c1f
-title: Law of Cosines
+title: 코사인 법칙
 challengeType: 11
 videoId: KGF52g-s4Rs
 dashedName: law-of-cosines
@@ -8,32 +8,30 @@ dashedName: law-of-cosines
 
 # --description--
 
-In this video, you will learn about the Law of Cosines.
+이 영상에서는 코사인 법칙에 대해 배우세요.
 
 # --questions--
 
 ## --text--
 
-What is the Law of Cosines?
+코사인 법칙이란 무엇인가요?
 
 ## --answers--
 
-For any triangle with sides of length a, b, and c, and angle C opposite side c, the Law of Cosines states that $c^2 = a^2 + b^2 + 2ab\cos(C)$.
+변의 길이가 a, b, c이고, 변 c의 맞은편 각이 C인 삼각형에 대해 코사인 법칙은 $c^2 = a^2 + b^2 + 2ab\cos(C)$라고 말합니다.
 
 ---
 
-For any triangle with sides of length a, b, and c, and angle C opposite side c, the Law of Cosines states that $c = a + b - 2\cos(C)$.
+변의 길이가 a, b, c이고, 변 c의 맞은편 각이 C인 삼각형에 대해 코사인 법칙은 $c = a + b - 2\cos(C)$라고 말합니다.
 
 ---
 
-For any triangle with sides of length a, b, and c, and angle C opposite side c, the Law of Cosines states that $c^2 = a^2 + b^2 - 2ab\cos(C)$.
+변의 길이가 a, b, c이고, 변 c의 맞은편 각이 C인 삼각형에 대해 코사인 법칙은 $c^2 = a^2 + b^2 - 2ab\cos(C)$라고 말합니다.
 
 ---
 
-For any triangle with sides of length a, b, and c, and angle C opposite side c, the Law of Cosines states that $c = a \cdot b \cdot 2\cos(C)$.
+변의 길이가 a, b, c이고, 변 c의 맞은편 각이 C인 삼각형에 대해 코사인 법칙은 $c = a \cdot b \cdot 2\cos(C)$라고 말합니다.
 
 ## --video-solution--
 
 3
-
-

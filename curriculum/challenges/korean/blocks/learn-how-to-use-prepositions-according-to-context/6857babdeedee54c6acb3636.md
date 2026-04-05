@@ -1,6 +1,6 @@
 ---
 id: 6857babdeedee54c6acb3636
-title: Task 134
+title: 작업 134
 challengeType: 19
 dashedName: task-134
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+오디오를 듣고 아래 질문에 답하세요.
 
 # --questions--
 
 ## --text--
 
-Where are the monitors stored now?
+모니터는 지금 어디에 저장되어 있나요?
 
 ## --answers--
 
-At the end of the parking lot.
+주차장 끝에 있습니다.
 
 ### --feedback--
 
-Sarah doesn't mention the parking lot.
+Sarah가 주차장에 대해 언급하지 않았습니다.
 
 ---
 
-Inside the IT room.
+IT실 안에 있습니다.
 
 ### --feedback--
 
-They were moved out of the IT room earlier.
+모니터는 이전에 IT실에서 옮겨졌습니다.
 
 ---
 
-Next to the security desk.
+보안 데스크 옆에 있습니다.
 
 ### --feedback--
 
-There is no mention of a security desk.
+보안 데스크에 대한 언급이 없습니다.
 
 ---
 
-Right near the coffee machine.
+커피 머신 바로 근처에 있습니다.
 
 ## --video-solution--
 
@@ -52,9 +52,9 @@ Right near the coffee machine.
 
 # --explanation--
 
-Sarah gives clear directions ending with a reference point: `the coffee machine`.
+Sarah는 `the coffee machine`를 참조 지점으로 하여 명확한 길 안내를 제공합니다.
 
-She explains that after going down the corridor and turning left, the monitors can be found positioned across from it, making the coffee machine the closest visible landmark for finding them.
+복도를 따라 직진한 후 왼쪽으로 돌면 모니터가 그 맞은편에 위치해 있어, 커피 머신이 모니터를 찾는 데 가장 가까운 눈에 띄는 기준점임을 설명합니다.
 
 # --scene--
 

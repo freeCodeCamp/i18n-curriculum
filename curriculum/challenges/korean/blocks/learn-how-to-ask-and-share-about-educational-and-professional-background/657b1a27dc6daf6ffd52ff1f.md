@@ -1,6 +1,6 @@
 ---
 id: 657b1a27dc6daf6ffd52ff1f
-title: Task 30
+title: 과제 30
 challengeType: 19
 dashedName: task-30
 lang: en-US
@@ -11,43 +11,43 @@ Second Candidate: Yes. I have a master's degree in computer science. -->
 
 # --description--
 
-In English, the noun suffixed with `'s` followed by a second noun structure is used to show possession or belonging.
+영어에서 `'s`가 붙은 명사 다음에 또 다른 명사가 오는 구조는 소유나 소속을 나타낼 때 사용합니다.
 
-If the first noun is singular, as in `Sarah's laptop`, it indicates that the laptop belongs to Sarah. However, if the first noun is plural, the structure changes to noun suffixed with `'`, as in `teachers' office`, indicating an office for teachers.
+첫 번째 명사가 단수일 경우, `Sarah's laptop`처럼 노트북이 Sarah의 것임을 나타냅니다. 반면 첫 번째 명사가 복수일 경우, `'`가 붙은 명사 구조로 바뀌어 `teachers' office`처럼 교사들의 사무실을 의미합니다.
 
 # --questions--
 
 ## --text--
 
-What does `master's degree` in the context of the dialogue refer to?
+대화에서 `master's degree`는 무엇을 의미하나요?
 
 ## --answers--
 
-A degree for school teachers
+학교 교사를 위한 학위
 
 ### --feedback--
 
-`Master's degree` refers to an advanced academic degree, not specifically for teachers.
+`Master's degree`는 교사를 위한 특정 학위가 아니라 고급 학위를 의미합니다.
 
 ---
 
-A primary level educational degree
+초등 교육 수준의 학위
 
 ### --feedback--
 
-`Master's degree` is a higher education qualification, beyond the primary level.
+`Master's degree`는 초등 수준을 넘어선 고등 교육 자격입니다.
 
 ---
 
-A degree in mastering skills
+기술 숙달을 위한 학위
 
 ### --feedback--
 
-While it implies expertise, `master's degree` specifically refers to an academic qualification.
+전문성을 의미할 수 있으나 `master's degree`는 학문적 자격을 구체적으로 가리킵니다.
 
 ---
 
-An advanced academic degree
+고급 학문 학위
 
 ## --video-solution--
 

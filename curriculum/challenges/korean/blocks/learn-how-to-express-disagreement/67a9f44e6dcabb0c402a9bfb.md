@@ -1,6 +1,6 @@
 ---
 id: 67a9f44e6dcabb0c402a9bfb
-title: Task 5
+title: 작업 5
 challengeType: 19
 dashedName: task-5
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+오디오를 듣고 아래 질문에 답하세요.
 
 # --questions--
 
 ## --text--
 
-What does Bob want to know?
+Bob은 무엇을 알고 싶어 하나요?
 
 ## --answers--
 
-If employees have already bought office furniture.
+직원들이 이미 사무용 가구를 샀는지.
 
 ### --feedback--
 
-Bob isn't asking for confirmation of purchases.
+Bob은 구매 여부 확인을 묻는 것이 아닙니다.
 
 ---
 
-How much office furniture costs.
+사무용 가구가 얼마인지.
 
 ### --feedback--
 
-Bob does not ask about the price.
+Bob은 가격에 대해 묻지 않습니다.
 
 ---
 
-If the company will increase the stipend.
+회사가 수당을 인상할지 여부.
 
 ### --feedback--
 
-Bob is not discussing changes to the stipend.
+Bob은 수당 변경에 대해 이야기하지 않습니다.
 
 ---
 
-If Anna thinks using the stipend for office furniture is a good idea.
+Anna가 수당을 사무용 가구에 사용하는 것이 좋은 생각인지 어떻게 생각하는지.
 
 ## --video-solution--
 
@@ -52,7 +52,7 @@ If Anna thinks using the stipend for office furniture is a good idea.
 
 # --explanation--
 
-Bob asks, `Do you think that's a good idea?` This is a way to ask for someone's opinion about a suggestion or plan. Here's other ways to ask for an opinion:
+Bob은 `Do you think that's a good idea?`를 묻습니다. 이는 제안이나 계획에 대한 누군가의 의견을 묻는 방법입니다. 의견을 묻는 다른 표현은 다음과 같습니다:
 
 - `Do you think this will work?`
 
@@ -60,7 +60,7 @@ Bob asks, `Do you think that's a good idea?` This is a way to ask for someone's 
 
 - `How do you feel about this plan?`
 
-In this dialogue, Bob is referring to employees using the remote work stipend for office furniture. Instead of stating his own opinion, he is asking Anna what she thinks.
+이 대화에서 Bob은 직원들이 원격 근무 수당을 사무용 가구에 사용하는 것에 대해 말하고 있습니다. 자신의 의견을 말하는 대신 Anna가 어떻게 생각하는지 묻고 있습니다.
 
 # --scene--
 

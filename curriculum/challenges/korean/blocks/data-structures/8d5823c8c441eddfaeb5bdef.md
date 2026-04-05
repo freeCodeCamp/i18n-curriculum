@@ -1,6 +1,6 @@
 ---
 id: 8d5823c8c441eddfaeb5bdef
-title: Create a Map Data Structure
+title: 맵 자료 구조 만들기
 challengeType: 1
 forumTopicId: 301629
 dashedName: create-a-map-data-structure
@@ -8,25 +8,25 @@ dashedName: create-a-map-data-structure
 
 # --description--
 
-The next few challenges will cover maps and hash tables. Maps are data structures that store key-value pairs. In JavaScript, these are available to us as objects. Maps provide rapid lookup of stored items based on key values and are very common and useful data structures.
+다음 몇 개의 도전 과제에서는 맵과 해시 테이블을 다룹니다. 맵은 키-값 쌍을 저장하는 자료 구조입니다. JavaScript에서는 객체로 제공됩니다. 맵은 키 값을 기반으로 저장된 항목을 빠르게 조회할 수 있게 해주며, 매우 흔하고 유용한 자료 구조입니다.
 
 # --instructions--
 
-Let's get some practice creating our own map. Because JavaScript objects provide a much more efficient map structure than anything we could write here, this is intended primarily as a learning exercise. However, JavaScript objects only provide us with certain operations. What if we wanted to define custom operations? Use the `Map` object provided here as a wrapper around a JavaScript `object`. Create the following methods and operations on the Map object:
+직접 맵을 만들어보며 연습해 보세요. JavaScript 객체가 여기서 작성할 수 있는 어떤 것보다 훨씬 효율적인 맵 구조를 제공하기 때문에, 이 도전 과제는 주로 학습용 연습입니다. 하지만 JavaScript 객체는 특정한 연산만 제공합니다. 만약 사용자 정의 연산을 만들고 싶다면 어떻게 할까요? 여기 제공된 `Map` 객체를 JavaScript `object`를 감싸는 래퍼로 사용하세요. Map 객체에 다음 메서드와 연산을 만드세요:
 
 <ul>
-<li><code>add</code> accepts a <code>key, value</code> pair to add to the map.</li>
-<li><code>remove</code> accepts a key and removes the associated <code>key, value</code> pair</li>
-<li><code>get</code> accepts a <code>key</code> and returns the stored <code>value</code></li>
-<li><code>has</code> accepts a <code>key</code> and returns <dfn>true</dfn> if the key exists or <dfn>false</dfn> if it doesn't.</li>
-<li><code>values</code> returns an array of all the values in the map</li>
-<li><code>size</code> returns the number of items in the map</li>
-<li><code>clear</code> empties the map</li>
+<li><code>add</code>는 맵에 추가할 <code>key, value</code> 쌍을 받습니다.</li>
+<li><code>remove</code>는 키를 받아 해당 <code>key, value</code> 쌍을 제거합니다.</li>
+<li><code>get</code>는 <code>key</code>를 받아 저장된 <code>value</code>를 반환합니다.</li>
+<li><code>has</code>는 <code>key</code>를 받아 키가 존재하면 <dfn>true</dfn>, 없으면 <dfn>false</dfn>를 반환합니다.</li>
+<li><code>values</code>는 맵에 있는 모든 값의 배열을 반환합니다.</li>
+<li><code>size</code>는 맵에 있는 항목 수를 반환합니다.</li>
+<li><code>clear</code>는 맵을 비웁니다.</li>
 </ul>
 
 # --hints--
 
-The `Map` data structure should exist.
+`Map` 자료 구조가 존재해야 합니다.
 
 ```js
 assert(
@@ -40,7 +40,7 @@ assert(
 );
 ```
 
-The `Map` object should have the following methods: `add`, `remove`, `get`, `has`, `values`, `clear`, and `size`.
+`Map` 객체는 다음 메서드를 가져야 합니다: `add`, `remove`, `get`, `has`, `values`, `clear`, 그리고 `size`.
 
 ```js
 assert(
@@ -62,7 +62,7 @@ assert(
 );
 ```
 
-The `add` method should add items to the map.
+`add` 메서드는 맵에 항목을 추가해야 합니다.
 
 ```js
 assert(
@@ -79,7 +79,7 @@ assert(
 );
 ```
 
-The `has` method should return `true` for added items and `false` for absent items.
+`has` 메서드는 추가된 항목에 대해 `true`을, 없는 항목에 대해 `false`를 반환해야 합니다.
 
 ```js
 assert(
@@ -94,7 +94,7 @@ assert(
 );
 ```
 
-The `get` method should accept keys as input and should return the associated values.
+`get` 메서드는 키를 입력으로 받아 연관된 값을 반환해야 합니다.
 
 ```js
 assert(
@@ -109,7 +109,7 @@ assert(
 );
 ```
 
-The `values` method should return all the values stored in the map as strings in an array.
+`values` 메서드는 맵에 저장된 모든 값을 문자열로 배열에 담아 반환해야 합니다.
 
 ```js
 assert(
@@ -131,7 +131,7 @@ assert(
 );
 ```
 
-The `clear` method should empty the map and the `size` method should return the number of items present in the map.
+`clear` 메서드는 맵을 비워야 하며 `size` 메서드는 맵에 있는 항목 수를 반환해야 합니다.
 
 ```js
 assert(
@@ -158,7 +158,7 @@ assert(
 var Map = function() {
   this.collection = {};
   // Only change code below this line
-
+  
   // Only change code above this line
 };
 ```

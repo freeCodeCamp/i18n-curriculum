@@ -1,6 +1,6 @@
 ---
 id: 657eecb3b368badb3cc7fe4c
-title: Task 61
+title: 도전 과제 61
 challengeType: 22
 dashedName: task-61
 lang: en-US
@@ -10,9 +10,9 @@ lang: en-US
 
 # --description--
 
-`At least` is used when you want to say the smallest amount or number of something is okay or enough. It's like saying "no less than this amount". For example:
+`At least`는 어떤 것의 최솟값이 괜찮거나 충분하다는 뜻을 말하고 싶을 때 사용합니다. "이 양보다 적지 않다"라고 표현하는 것과 같습니다. 예를 들어:
 
-`I study English for at least 30 minutes every day.` - This means you spend 30 minutes or more studying English daily, but never less than 30 minutes.
+`I study English for at least 30 minutes every day.` - 이것은 매일 영어 공부를 30분 이상 하지만 30분 미만은 절대 하지 않는다는 뜻입니다.
 
 # --fillInTheBlank--
 
@@ -26,7 +26,7 @@ lang: en-US
 
 ### --feedback--
 
-These two words form an expression indicating a minimum amount.
+이 두 단어는 최솟값을 나타내는 표현을 이룹니다.
 
 # --scene--
 

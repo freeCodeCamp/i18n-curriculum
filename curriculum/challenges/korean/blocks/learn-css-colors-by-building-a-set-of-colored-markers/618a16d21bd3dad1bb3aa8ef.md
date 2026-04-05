@@ -1,26 +1,26 @@
 ---
 id: 618a16d21bd3dad1bb3aa8ef
-title: Step 41
+title: 41단계
 challengeType: 0
 dashedName: step-41
 ---
 
 # --description--
 
-Now it's time to add other details to the markers, starting with the first one.
+이제 첫 번째 마커부터 시작해 마커에 다른 세부 정보를 추가할 차례입니다.
 
-In the first marker `div` element, change the class `one` to `red`.
+첫 번째 마커 `div` 요소에서 클래스 `one`를 `red`로 변경하세요.
 
 # --hints--
 
-Your first marker `div` should not have the class `one`.
+첫 번째 마커 `div`에는 클래스 `one`가 없어야 합니다.
 
 ```js
 const containerFirstChild = [...document.querySelector('.container')?.children][0];
 assert(!containerFirstChild?.classList?.contains('one'));
 ```
 
-Your first marker `div` should have the classes `marker` and `red`.
+첫 번째 마커 `div`에는 클래스 `marker`와 `red`가 있어야 합니다.
 
 ```js
 const containerFirstChild = [...document.querySelector('.container')?.children][0];

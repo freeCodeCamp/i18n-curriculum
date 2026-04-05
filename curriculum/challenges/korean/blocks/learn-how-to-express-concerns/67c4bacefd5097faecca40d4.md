@@ -1,6 +1,6 @@
 ---
 id: 67c4bacefd5097faecca40d4
-title: Task 22
+title: 작업 22
 challengeType: 19
 dashedName: task-22
 lang: en-US
@@ -10,51 +10,51 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+오디오를 듣고 아래 질문에 답하세요.
 
 # --questions--
 
 ## --text--
 
-What does Bob want to know?
+Bob이 알고 싶어 하는 것은 무엇인가요?  
 
 ## --answers--
 
-If they should cancel the project.
+프로젝트를 취소해야 하는지.  
 
 ### --feedback--
 
-Bob is not asking about canceling the project.
+Bob은 프로젝트 취소에 대해 묻고 있지 않습니다.  
 
 ---
 
-If working fewer hours would be better.
+더 적게 일하는 것이 더 나을지.  
 
 ### --feedback--
 
-Bob is suggesting working more hours, not fewer.
+Bob은 더 적게 일하는 것이 아니라 더 많이 일하자고 제안하고 있습니다.  
 
 ---
 
-If the team has already solved the issue.
+팀이 이미 문제를 해결했는지.  
 
 ### --feedback--
 
-Bob is asking if his suggestion will help, not if the issue is already solved.
+Bob은 자신의 제안이 도움이 될지 묻고 있을 뿐, 문제가 이미 해결되었는지 묻고 있지 않습니다.  
 
 ---
 
-If working extra hours will improve the situation.
+추가 근무가 상황을 개선할지.  
 
 ## --video-solution--
 
-4
+4  
 
 # --explanation--
 
-Using negatives in questions with auxiliary or modal verbs (such as `wouldn't`, `isn't`, `doesn't`), which require direct `yes`/`no` answers, suggests that the speaker expects the answer to be positive — Bob assumes, in this case, that working extra hours will help. Another example:
+조동사나 법조동사(`wouldn't`, `isn't`, `doesn't`)가 포함된 부정문 질문은 직접적인 `yes`/`no` 대답을 요구하며, 화자가 긍정적인 답변을 기대한다는 뜻입니다 — 이 경우 Bob은 추가 근무가 도움이 될 것이라고 가정합니다. 또 다른 예:
 
-`Doesn't this plan seem like a good idea?` - The speaker expects the listener to agree that the plan is good.
+`Doesn't this plan seem like a good idea?` - 화자는 청자가 계획이 좋다고 동의할 것으로 기대합니다.
 
 # --scene--
 

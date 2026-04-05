@@ -1,6 +1,6 @@
 ---
 id: 6629ce6bffd1efa9c6c57eaa
-title: Task 1
+title: 작업 1
 challengeType: 22
 dashedName: task-1
 lang: en-US
@@ -10,9 +10,9 @@ lang: en-US
 
 # --description--
 
-The phrase `how's it going?` is a common way to ask someone how they are or what's happening in their life. It's often used as a friendly greeting.
+구문 `how's it going?`은 누군가의 안부나 근황을 묻는 흔한 표현입니다. 주로 친근한 인사말로 사용됩니다.
 
-For example, when you see an old friend, you may say `Hey, how's it going? I haven't seen you for a while!` This is a casual way to ask them about their life. If you want to ask them about a specific thing, like their new job, you can say `How's it going with your new job?`
+예를 들어, 오랜 친구를 만나면 `Hey, how's it going? I haven't seen you for a while!`라고 말할 수 있습니다. 이는 그들의 삶에 대해 편하게 묻는 방법입니다. 만약 새 직장 같은 특정한 일에 대해 묻고 싶다면 `How's it going with your new job?`라고 말할 수 있습니다.
 
 # --fillInTheBlank--
 
@@ -26,7 +26,7 @@ For example, when you see an old friend, you may say `Hey, how's it going? I hav
 
 ### --feedback--
 
-This contraction is commonly used in informal greetings. Capitalize the first word.
+이 축약형은 비공식적인 인사말에서 자주 사용됩니다. 첫 단어는 대문자로 시작하세요.
 
 ---
 
@@ -34,7 +34,7 @@ This contraction is commonly used in informal greetings. Capitalize the first wo
 
 ### --feedback--
 
-This word completes the common informal greeting asking about someone's general state.
+이 단어는 누군가의 전반적인 상태를 묻는 흔한 비공식 인사말을 완성합니다.
 
 # --scene--
 

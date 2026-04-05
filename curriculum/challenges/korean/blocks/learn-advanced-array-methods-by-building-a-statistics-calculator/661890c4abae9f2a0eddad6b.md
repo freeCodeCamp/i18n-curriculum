@@ -1,17 +1,17 @@
 ---
 id: 661890c4abae9f2a0eddad6b
-title: Step 22
+title: 22단계
 challengeType: 0
 dashedName: step-22
 ---
 
 # --description--
 
-In the next few steps, you'll learn how to determine if an array's length is even or odd, as well as how to find the median. You will then be able to apply what you learned to the `getMedian` function.
+다음 몇 단계에서는 배열의 길이가 짝수인지 홀수인지 확인하는 방법과 중앙값을 찾는 방법을 배우게 됩니다. 그런 다음 배운 내용을 `getMedian` 함수에 적용할 수 있습니다.
 
-To check if a number is even or odd, you can use the <dfn>modulus operator</dfn> `%`. The modulus operator returns the remainder of the division of two numbers.
+숫자가 짝수인지 홀수인지 확인하려면 <dfn>나머지 연산자</dfn> `%`를 사용할 수 있습니다. 나머지 연산자는 두 수를 나눈 나머지를 반환합니다.
 
-Here is an example checking if an array length is even or odd:
+다음은 배열 길이가 짝수인지 홀수인지 확인하는 예입니다:
 
 ```js
 // check if array length is even
@@ -21,29 +21,29 @@ arr.length % 2 === 0;
 arr.length % 2 === 1;
 ```
 
-If the remainder is `0`, the number is even. If the remainder is `1`, the number is odd.
+나머지가 `0`이면 숫자는 짝수입니다. 나머지가 `1`이면 숫자는 홀수입니다.
 
-Create a variable called `isEven`. Then use the modulus operator to check if the length of the `testArr2` array is even. Assign that expression to the `isEven` variable.
+`isEven`라는 변수를 만드세요. 그런 다음 나머지 연산자를 사용해 `testArr2` 배열의 길이가 짝수인지 확인하세요. 그 표현식을 `isEven` 변수에 할당하세요.
 
-Below your `isEven` variable, log out the `isEven` variable to the console.
+`isEven` 변수 아래에 `isEven` 변수를 콘솔에 출력하세요.
 
-Open up the console to see the result.
+결과를 확인하려면 콘솔을 열어보세요.
 
 # --hints--
 
-You should have an `isEven` variable.
+`isEven` 변수가 있어야 합니다.
 
 ```js
 assert.isDefined(isEven);
 ```
 
-You should check if the length of the `testArr2` array is even. Refer back to the example provided for you: `arr.length % 2 === 0;`
+`testArr2` 배열의 길이가 짝수인지 확인해야 합니다. 제공된 예제를 참고하세요: `arr.length % 2 === 0;`
 
 ```js
 assert.isTrue(isEven);
 ```
 
-You should have a `console.log` statement that logs the `isEven` variable.
+`console.log` 변수를 출력하는 `isEven` 문장이 있어야 합니다.
 
 ```js
 assert.match(code, /console\.log\(isEven\)/);
@@ -151,7 +151,7 @@ const calculate = () => {
   const value = document.querySelector("#numbers").value;
   const array = value.split(/,\s*/g);
   const numbers = array.map(el => Number(el)).filter(el => !isNaN(el));
-
+  
   const mean = getMean(numbers);
 
   document.querySelector("#mean").textContent = mean;

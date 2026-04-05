@@ -1,6 +1,6 @@
 ---
 id: 67e5a6e34bfc4b5af2c00ddf
-title: Task 51
+title: 작업 51
 challengeType: 22
 dashedName: task-51
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+오디오를 듣고 아래 문장을 완성하세요.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This means very serious or important. It is often used when something needs immediate attention.
+이는 매우 심각하거나 중요한 것을 의미합니다. 보통 즉각적인 주의가 필요할 때 사용합니다.
 
 ---
 
@@ -32,17 +32,17 @@ This means very serious or important. It is often used when something needs imme
 
 ### --feedback--
 
-This means to change or influence something. It often describes how one thing causes a change in another.
+이는 무언가를 바꾸거나 영향을 준다는 뜻입니다. 한 가지가 다른 것에 변화를 일으키는 상황을 설명할 때 자주 쓰입니다.
 
 # --explanation--
 
-`Critical` means extremely important or serious. For example:
+`Critical`는 매우 중요하거나 심각하다는 뜻입니다. 예를 들어:
 
-`We have a critical deadline tomorrow.` – This means the deadline is very important and cannot be missed.
+`We have a critical deadline tomorrow.` – 이는 마감일이 매우 중요해서 놓칠 수 없다는 뜻입니다.
 
-`To affect` means to have an influence on something or cause a change. For example:
+`To affect`는 무언가에 영향을 주거나 변화를 일으킨다는 뜻입니다. 예를 들어:
 
-`The new policy may affect employee performance.` – This means the policy might change how employees perform.
+`The new policy may affect employee performance.` – 이는 정책이 직원들의 업무 수행 방식에 변화를 줄 수 있다는 뜻입니다.
 
 # --scene--
 

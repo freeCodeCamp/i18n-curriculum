@@ -1,6 +1,6 @@
 ---
 id: 65f6f9e9cfbda7f9c04e8af7
-title: Task 41
+title: 작업 41
 challengeType: 19
 dashedName: task-41
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --description--
 
-The phrase `by the end of it` is commonly used in English to refer to the conclusion or final part of a process or period of time. It implies that at the completion of a certain activity, a specific result or understanding will be achieved.
+영어에서 `by the end of it`라는 표현은 어떤 과정이나 기간의 결론 또는 마지막 부분을 가리킬 때 흔히 사용됩니다. 이는 특정 활동이 완료되면 특정 결과나 이해가 이루어질 것임을 의미합니다.
 
 # --questions--
 
 ## --text--
 
-In the dialogue, what does Brian mean by `by the end of it`?
+대화에서 Brian이 `by the end of it`로 의미하는 것은 무엇인가요?
 
 ## --answers--
 
-They will stop the investigation.
+조사를 중단할 것입니다.
 
 ### --feedback--
 
-This phrase is about reaching a conclusion, not necessarily stopping the activity.
+이 표현은 활동을 중단한다기보다 결론에 도달하는 것에 관한 것입니다.
 
 ---
 
-They will start another activity.
+다른 활동을 시작할 것입니다.
 
 ### --feedback--
 
-Brian is referring to the end of the current investigation, not starting something new.
+Brian은 현재 조사의 끝을 말하는 것이지, 새로운 것을 시작하는 것이 아닙니다.
 
 ---
 
-They will take a break.
+휴식을 취할 것입니다.
 
 ### --feedback--
 
-The phrase focuses on reaching an understanding at the end of the process, not taking a break.
+이 표현은 과정의 끝에서 이해에 도달하는 것에 초점을 맞추고 있으며, 휴식을 의미하지 않습니다.
 
 ---
 
-They will have a clearer understanding of the situation after the investigation.
+조사 후 상황에 대해 더 명확한 이해를 갖게 될 것입니다.
 
 ## --video-solution--
 

@@ -1,6 +1,6 @@
 ---
 id: d4876f74547b26d5c330423e
-title: Building a Guessing Game
+title: 추측 게임 만들기
 challengeType: 11
 videoId: sHyQCBFRoug
 dashedName: building-a-guessing-game
@@ -8,13 +8,13 @@ dashedName: building-a-guessing-game
 
 # --description--
 
-In this video, you will build a guessing game that uses loops and conditionals.
+이 영상에서는 반복문과 조건문을 사용하는 추측 게임을 만듭니다.
 
 # --questions--
 
 ## --text--
 
-What does the condition `guess != secret_word` mean in this code?
+이 코드에서 조건 `guess != secret_word`는 무엇을 의미하나요?
 
 ```python
 secret_word = "giraffe"
@@ -26,19 +26,19 @@ while guess != secret_word:
 
 ## --answers--
 
-If `guess` is not equal to `secret_word`.
+`guess`이 `secret_word`와 같지 않을 때.
 
 ---
 
-If `guess` is equal to `secret_word`.
+`guess`이 `secret_word`와 같을 때.
 
 ---
 
-If `guess` is greater than `secret_word`.
+`guess`이 `secret_word`보다 클 때.
 
 ---
 
-If `guess` is less than `secret_word`.
+`guess`이 `secret_word`보다 작을 때.
 
 ## --video-solution--
 

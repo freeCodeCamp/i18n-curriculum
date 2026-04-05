@@ -1,6 +1,6 @@
 ---
 id: 67a75c6d5ea4deeee6ffb507
-title: Task 21
+title: 작업 21
 challengeType: 19
 dashedName: task-21
 lang: en-US
@@ -10,55 +10,55 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+오디오를 듣고 아래 질문에 답하세요.
 
 # --questions--
 
 ## --text--
 
-What does Linda offer to do?
+Linda가 무엇을 하겠다고 제안하나요?  
 
-## --answers--
+## --answers--  
 
-Prepare user scenarios for testing.
+테스트를 위한 사용자 시나리오를 준비한다.  
 
----
+---  
 
-Skip the testing phase.
+테스트 단계를 건너뛴다.  
 
-### --feedback--
+### --feedback--  
 
-Linda does not suggest skipping testing; she is actively contributing to it.
+Linda는 테스트를 건너뛰자고 제안하지 않고, 적극적으로 기여하고 있습니다.  
 
----
+---  
 
-Ask someone else to handle user testing.
+다른 사람에게 사용자 테스트를 맡긴다.  
 
-### --feedback--
+### --feedback--  
 
-Linda does not delegate the task to someone else.
+Linda는 이 작업을 다른 사람에게 위임하지 않습니다.  
 
----
+---  
 
-Redesign the user interface from scratch.
+사용자 인터페이스를 처음부터 다시 설계한다.  
 
-### --feedback--
+### --feedback--  
 
-Linda does not talk about redesigning the interface.
+Linda는 인터페이스를 다시 설계하는 것에 대해 말하지 않습니다.  
 
-## --video-solution--
+## --video-solution--  
 
-1
+1  
 
-# --explanation--
+# --explanation--  
 
-Listen for key words that indicate what Linda is offering to do.
+Linda가 무엇을 하겠다고 제안하는지 나타내는 핵심 단어를 들어보세요.  
 
-`I can also` – This shows she is volunteering to contribute.
+`I can also` – 이것은 그녀가 자발적으로 기여하겠다는 뜻입니다.  
 
-`Prepare some user scenarios for testing` – This clearly states the task she is taking responsibility for.
+`Prepare some user scenarios for testing` – 그녀가 책임지려는 작업을 명확히 나타냅니다.  
 
-`Ensure a smooth user experience` – This explains why testing is important and reinforces her commitment to the project.
+`Ensure a smooth user experience` – 테스트가 왜 중요한지 설명하며 프로젝트에 대한 그녀의 의지를 강화합니다.  
 
 # --scene--
 

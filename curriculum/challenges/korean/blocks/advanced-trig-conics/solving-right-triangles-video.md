@@ -1,6 +1,6 @@
 ---
 id: 699e854b8f18cf77dfce5c1e
-title: Solving Right Triangles
+title: 직각삼각형 풀기
 challengeType: 11
 videoId: AkRnIZDdq04
 dashedName: solving-right-triangles
@@ -8,32 +8,30 @@ dashedName: solving-right-triangles
 
 # --description--
 
-In this video, you will learn how to solve right triangles.
+이 영상에서는 직각삼각형을 푸는 방법을 배우세요.
 
 # --questions--
 
 ## --text--
 
-What does it mean to solve a right triangle?
+직각삼각형을 푼다는 것은 무엇을 의미하나요?
 
 ## --answers--
 
-To solve a right triangle means to find the area of the triangle only.
+직각삼각형을 푼다는 것은 삼각형의 넓이만 구하는 것을 의미합니다.
 
 ---
 
-To solve a right triangle means to find only the length of the hypotenuse.
+직각삼각형을 푼다는 것은 빗변의 길이만 구하는 것을 의미합니다.
 
 ---
 
-To solve a right triangle means to find the lengths of all sides and the measures of all angles.
+직각삼각형을 푼다는 것은 모든 변의 길이와 모든 각의 크기를 구하는 것을 의미합니다.
 
 ---
 
-To solve a right triangle means to draw the triangle without calculating any sides or angles.
+직각삼각형을 푼다는 것은 변이나 각을 계산하지 않고 삼각형을 그리는 것을 의미합니다.
 
 ## --video-solution--
 
 3
-
-
