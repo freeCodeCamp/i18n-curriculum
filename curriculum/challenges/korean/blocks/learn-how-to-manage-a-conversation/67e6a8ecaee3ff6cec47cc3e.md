@@ -1,6 +1,6 @@
 ---
 id: 67e6a8ecaee3ff6cec47cc3e
-title: Task 75
+title: 작업 75
 challengeType: 19
 dashedName: task-75
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+오디오를 듣고 아래 질문에 답하세요.
 
 # --questions--
 
 ## --text--
 
-Why does Jessica want to explain the bug to the team quickly?
+Jessica가 버그를 팀에게 빨리 설명하려는 이유는 무엇인가요?
 
 ## --answers--
 
-Because she wants to return to the main topic of the meeting.
+회의의 주요 주제로 돌아가고 싶기 때문입니다.
 
 ---
 
-Because she wants to leave the meeting early.
+회의를 일찍 끝내고 싶기 때문입니다.
 
 ### --feedback--
 
-Jessica doesn't mention leaving the meeting.
+Jessica는 회의를 일찍 끝내려는 언급을 하지 않았습니다.
 
 ---
 
-Because the team already knows about the bug.
+팀이 이미 버그를 알고 있기 때문입니다.
 
 ### --feedback--
 
-Jessica is explaining the bug because it might affect the team.
+Jessica는 버그가 팀에 영향을 줄 수 있어서 설명하고 있습니다.
 
 ---
 
-Because she doesn't think the bug is important.
+버그가 중요하지 않다고 생각하기 때문입니다.
 
 ### --feedback--
 
-Jessica thinks the issue is important, but she also wants to respect the meeting agenda.
+Jessica는 이 문제가 중요하다고 생각하지만, 회의 안건도 존중하고 싶어 합니다.
 
 ## --video-solution--
 
@@ -52,13 +52,13 @@ Jessica thinks the issue is important, but she also wants to respect the meeting
 
 # --explanation--
 
-`So we can` is used to show purpose — it means the next thing you mention is what you intend to do. It explains why someone is doing something. For example:
+`So we can`는 목적을 나타내는 표현으로, 다음에 언급하는 내용이 의도하는 바임을 뜻합니다. 누군가가 왜 어떤 행동을 하는지 설명할 때 사용합니다. 예를 들어:
 
-`I'll finish this now so we can start the next task.` – This means the speaker wants to finish one thing to begin another soon.
+`I'll finish this now so we can start the next task.` – 화자가 한 가지를 끝내고 곧 다른 일을 시작하고 싶다는 의미입니다.
 
-`The main agenda` refers to the primary topics or plan of a meeting or event. For example:
+`The main agenda`는 회의나 행사에서 주요 주제나 계획을 가리킵니다. 예를 들어:
 
-`Let's stick to the main agenda and avoid side discussions.` – This means to stay focused on the most important items in the meeting.
+`Let's stick to the main agenda and avoid side discussions.` – 회의에서 가장 중요한 항목에 집중하라는 뜻입니다.
 
 # --scene--
 

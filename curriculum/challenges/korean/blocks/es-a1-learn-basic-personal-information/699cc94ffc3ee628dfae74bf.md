@@ -1,34 +1,33 @@
 ---
 id: 699cc94ffc3ee628dfae74bf
-title: Task 31
+title: 작업 31
 challengeType: 22
 dashedName: task-31
 lang: es
 ---
-
 <!-- (Audio) Mateo: Es m-a-t-e-o punto d-e-l-g-a-d-o arroba s-a-n-j-u-a-n punto p-r. -->
 
 # --description--
 
-`Es` comes from the verb `ser` and is used to identify or present something. For example:
+`Es`는 동사 `ser`에서 파생되었으며 무언가를 식별하거나 나타내는 데 사용됩니다. 예를 들어:
 
-- `Es mi número.` - It is my number.
+- `Es mi número.` - 내 번호입니다.
+  
+- `Es mi correo.` - 내 이메일입니다.
 
-- `Es mi correo.` - It is my email.
+이메일 주소를 철자할 때 특정 기호는 소리 내어 말합니다:
 
-When spelling an email address, certain symbols are said aloud:
+`Punto`는 기호 `.`를 나타낼 때 사용됩니다. 예를 들어:
 
-`Punto` is used for the symbol `.` For example:
+`ana.lopez`는 `ana punto lopez`로 읽힙니다.
 
-`ana.lopez` is read as `ana punto lopez`.
+`Arroba`는 기호 `@`를 나타낼 때 사용됩니다. 예를 들어:
 
-`Arroba` is used for the symbol `@`. For example:
-
-`ana.lopez@ejemplo.com` is read as `ana punto lopez arroba ejemplo punto com`.
+`ana.lopez@ejemplo.com`는 `ana punto lopez arroba ejemplo punto com`로 읽힙니다.
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+오디오를 듣고 아래 문장을 완성하세요.
 
 # --fillInTheBlank--
 
@@ -42,7 +41,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This form of `ser` is used to present or identify something.
+이 형태의 `ser`는 무언가를 나타내거나 식별할 때 사용됩니다.
 
 ---
 
@@ -50,7 +49,7 @@ This form of `ser` is used to present or identify something.
 
 ### --feedback--
 
-This word is used when saying the symbol `.` in an email address.
+이 단어는 이메일 주소에서 기호 `.`를 말할 때 사용됩니다.
 
 ---
 
@@ -58,7 +57,7 @@ This word is used when saying the symbol `.` in an email address.
 
 ### --feedback--
 
-This word is used when saying the symbol `@`.
+이 단어는 기호 `@`를 말할 때 사용됩니다.
 
 ---
 
@@ -66,21 +65,21 @@ This word is used when saying the symbol `@`.
 
 ### --feedback--
 
-This word appears again before the final letters `p r`.
+이 단어는 마지막 글자 `p r` 앞에 다시 나타납니다.
 
 # --explanation--
 
-The complete sentence is:
+전체 문장은 다음과 같습니다:
 
 `Es m-a-t-e-o punto d-e-l-g-a-d-o arroba s-a-n-j-u-a-n punto p-r.`
 
-`Es` introduces the information.
+`Es`는 정보를 소개합니다.
 
-`Punto` represents the symbol `.`
+`Punto`는 기호 `.`를 나타냅니다.
 
-`Arroba` represents the symbol `@`
+`Arroba`는 기호 `@`를 나타냅니다.
 
-These words are commonly used when spelling an email address aloud.
+이 단어들은 이메일 주소를 소리 내어 철자할 때 흔히 사용됩니다.
 
 # --scene--
 
@@ -129,4 +128,3 @@ These words are commonly used when spelling an email address aloud.
   ]
 }
 ```
-

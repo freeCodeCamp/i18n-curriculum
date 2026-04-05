@@ -1,6 +1,6 @@
 ---
 id: 67dd5cfeacc0cad2fc967438
-title: Task 16
+title: 작업 16
 challengeType: 19
 dashedName: task-16
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+오디오를 듣고 아래 질문에 답하세요.
 
 # --questions--
 
 ## --text--
 
-What does James want to know?
+James가 알고 싶어 하는 것은 무엇인가요?
 
 ## --answers--
 
-If they agreed on the deadline for the first phase.
+첫 번째 단계의 마감일에 합의했는지 여부.
 
 ---
 
-If the project has been canceled.
+프로젝트가 취소되었는지 여부.
 
 ### --feedback--
 
-James doesn't mention canceling the project.
+James는 프로젝트 취소에 대해 언급하지 않습니다.
 
 ---
 
-If Alice is responsible for the first phase.
+Alice가 첫 번째 단계를 담당하는지 여부.
 
 ### --feedback--
 
-James is not asking about responsibilities.
+James는 책임에 대해 묻지 않습니다.
 
 ---
 
-If the team finished the final phase.
+팀이 마지막 단계를 완료했는지 여부.
 
 ### --feedback--
 
-James does not talk about the final phase.
+James는 마지막 단계에 대해 이야기하지 않습니다.
 
 ## --video-solution--
 
@@ -52,9 +52,9 @@ James does not talk about the final phase.
 
 # --explanation--
 
-`By the way` is used to introduce a new but related topic into the conversation. It often brings up something that the speaker just remembered or wants to check. For example:
+`By the way`는 대화에 새롭지만 관련된 주제를 도입할 때 사용합니다. 보통 화자가 방금 기억해낸 것이나 확인하고 싶은 것을 꺼낼 때 쓰입니다. 예를 들어:
 
-`By the way, have you seen the updated report?` – This introduces a new question related to what was already being discussed.
+`By the way, have you seen the updated report?` – 이미 논의 중인 내용과 관련된 새로운 질문을 도입합니다.
 
 # --scene--
 

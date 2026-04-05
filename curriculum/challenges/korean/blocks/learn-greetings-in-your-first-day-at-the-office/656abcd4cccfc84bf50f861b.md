@@ -1,6 +1,6 @@
 ---
 id: 656abcd4cccfc84bf50f861b
-title: Task 80
+title: 작업 80
 challengeType: 19
 dashedName: task-80
 lang: en-US
@@ -8,13 +8,13 @@ lang: en-US
 
 # --description--
 
-In an office setting, it's common to point out items using `these` and `those`. Remember, `these` points to items near you, while `those` points to items further away.
+사무실 환경에서는 `these`와 `those`를 사용해 물건을 가리키는 경우가 흔합니다. `these`는 가까운 물건을 가리키고, `those`는 더 먼 물건을 가리킨다는 점을 기억하세요.
 
 # --questions--
 
 ## --text--
 
-Which sentence correctly differentiates between `these` and `those`?
+어떤 문장이 `these`와 `those`를 올바르게 구분하고 있나요?
 
 ## --answers--
 
@@ -22,7 +22,7 @@ Which sentence correctly differentiates between `these` and `those`?
 
 ### --feedback--
 
-Look for a sentence that uses `these` for multiple items nearby and `those` for multiple items at a distance or not being directly addressed.
+가까운 여러 개의 물건에는 `these`를, 멀리 있거나 직접 지칭하지 않는 여러 개의 물건에는 `those`를 사용하는 문장을 찾으세요.
 
 ---
 
@@ -30,7 +30,7 @@ Look for a sentence that uses `these` for multiple items nearby and `those` for 
 
 ### --feedback--
 
-Look for a sentence that uses `these` for multiple items nearby and `those` for multiple items at a distance or not being directly addressed.
+가까운 여러 개의 물건에는 `these`를, 멀리 있거나 직접 지칭하지 않는 여러 개의 물건에는 `those`를 사용하는 문장을 찾으세요.
 
 ---
 
@@ -42,7 +42,7 @@ Look for a sentence that uses `these` for multiple items nearby and `those` for 
 
 ### --feedback--
 
-Look for a sentence that uses `these` for multiple items nearby and `those` for multiple items at a distance or not being directly addressed.
+가까운 여러 개의 물건에는 `these`를, 멀리 있거나 직접 지칭하지 않는 여러 개의 물건에는 `those`를 사용하는 문장을 찾으세요.
 
 ## --video-solution--
 

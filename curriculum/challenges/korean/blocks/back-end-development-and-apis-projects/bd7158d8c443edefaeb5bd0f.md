@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c443edefaeb5bd0f
-title: File Metadata Microservice
+title: 파일 메타데이터 마이크로서비스
 challengeType: 4
 forumTopicId: 301506
 dashedName: file-metadata-microservice
@@ -8,18 +8,18 @@ dashedName: file-metadata-microservice
 
 # --description--
 
-Build a full-stack JavaScript app that is functionally similar to this: <a href="https://file-metadata-microservice.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://file-metadata-microservice.freecodecamp.rocks</a>. Working on this project will involve you writing your code using one of the following methods:
+다음과 기능적으로 유사한 풀스택 JavaScript 앱을 만드세요: <a href="https://file-metadata-microservice.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://file-metadata-microservice.freecodecamp.rocks</a>. 이 프로젝트를 진행하려면 다음 방법 중 하나를 사용해 코드를 작성해야 합니다:
 
--   Clone <a href="https://github.com/freeCodeCamp/boilerplate-project-filemetadata/" target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete your project locally.
--   Use a site builder of your choice to complete the project. Be sure to incorporate all the files from our GitHub repo.
+- <a href="https://github.com/freeCodeCamp/boilerplate-project-filemetadata/" target="_blank" rel="noopener noreferrer nofollow">이 GitHub 저장소</a>를 클론하여 로컬에서 프로젝트를 완성하세요.
+- 원하는 사이트 빌더를 사용해 프로젝트를 완성하세요. GitHub 저장소의 모든 파일을 반드시 포함해야 합니다.
 
 # --instructions--
 
-**HINT:** You can use the `multer` npm package to handle file uploading.
+**힌트:** 파일 업로드를 처리하려면 `multer` npm 패키지를 사용할 수 있습니다.
 
 # --hints--
 
-You should provide your own project, not the example URL.
+예시 URL이 아닌 직접 만든 프로젝트를 제출하세요.
 
 ```js
   assert(
@@ -29,7 +29,7 @@ You should provide your own project, not the example URL.
   );
 ```
 
-You can submit a form that includes a file upload.
+파일 업로드가 포함된 폼을 제출할 수 있습니다.
 
 ```js
   const site = await fetch(code);
@@ -38,7 +38,7 @@ You can submit a form that includes a file upload.
   assert(doc.querySelector('input[type="file"]'));
 ```
 
-The form file input field has the `name` attribute set to `upfile`.
+폼의 파일 입력 필드에는 `name` 속성이 `upfile`로 설정되어 있습니다.
 
 ```js
   const site = await fetch(code);
@@ -47,7 +47,7 @@ The form file input field has the `name` attribute set to `upfile`.
   assert(doc.querySelector('input[name="upfile"]'));
 ```
 
-When you submit a file, you receive the file `name`, `type`, and `size` in bytes within the JSON response.
+파일을 제출하면 JSON 응답 내에서 파일 `name`, `type`, `size`가 바이트 단위로 반환됩니다.
 
 ```js
   const formData = new FormData();
@@ -65,4 +65,3 @@ When you submit a file, you receive the file `name`, `type`, and `size` in bytes
   assert.equal(parsed.name, 'icon');
   assert.equal(parsed.type, 'image/png');
 ```
-

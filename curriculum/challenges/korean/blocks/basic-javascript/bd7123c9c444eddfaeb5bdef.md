@@ -1,6 +1,6 @@
 ---
 id: bd7123c9c444eddfaeb5bdef
-title: Declare String Variables
+title: 문자열 변수 선언하기
 challengeType: 1
 forumTopicId: 17557
 dashedName: declare-string-variables
@@ -8,27 +8,27 @@ dashedName: declare-string-variables
 
 # --description--
 
-Previously you used the following code to declare a variable:
+이전에 변수를 선언할 때 다음 코드를 사용했습니다:
 
 ```js
 var myName;
 ```
 
-But you can also declare a string variable like this:
+하지만 문자열 변수를 이렇게 선언할 수도 있습니다:
 
 ```js
 var myName = "your name";
 ```
 
-`"your name"` is called a <dfn>string</dfn> <dfn>literal</dfn>. A string literal, or string, is a series of zero or more characters enclosed in single or double quotes.
+`"your name"`는 <dfn>문자열</dfn> <dfn>리터럴</dfn>이라고 합니다. 문자열 리터럴, 즉 문자열은 작은따옴표나 큰따옴표로 둘러싸인 0개 이상의 문자들로 이루어진 연속입니다.
 
 # --instructions--
 
-Create two new string variables: `myFirstName` and `myLastName` and assign them the values of your first and last name, respectively.
+두 개의 새로운 문자열 변수를 만드세요: `myFirstName`과 `myLastName`를 각각 이름과 성의 값으로 할당하세요.
 
 # --hints--
 
-`myFirstName` should be a string with at least one character in it.
+`myFirstName`는 최소 한 글자 이상의 문자열이어야 합니다.
 
 ```js
 assert(
@@ -46,7 +46,7 @@ assert(
 );
 ```
 
-`myLastName` should be a string with at least one character in it.
+`myLastName`는 최소 한 글자 이상의 문자열이어야 합니다.
 
 ```js
 assert(

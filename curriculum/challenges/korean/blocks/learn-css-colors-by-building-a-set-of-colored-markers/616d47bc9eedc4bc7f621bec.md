@@ -1,35 +1,35 @@
 ---
 id: 616d47bc9eedc4bc7f621bec
-title: Step 10
+title: 10단계
 challengeType: 0
 dashedName: step-10
 ---
 
 # --description--
 
-Next, within the `div` element, add another `div` element and give it a class of `marker`.
+다음으로, `div` 요소 안에 또 다른 `div` 요소를 추가하고 `marker` 클래스를 부여하세요.
 
 # --hints--
 
-Your new `div` element should have an opening tag.
+새로운 `div` 요소는 여는 태그가 있어야 합니다.
 
 ```js
 assert([...code.matchAll(/<div.*?>/gi)][1]);
 ```
 
-Your new `div` element should have a closing tag.
+새로운 `div` 요소는 닫는 태그가 있어야 합니다.
 
 ```js
 assert([...code.matchAll(/<\/div\s*>/gi)][1]);
 ```
 
-You should nest your new `div` element within the `div` with the class `container`.
+새로운 `div` 요소는 `div` 클래스를 가진 `container` 안에 중첩되어야 합니다.
 
 ```js
 assert(document.querySelector('.container')?.children[0]?.localName === 'div');
 ```
 
-You should give your new `div` element a class of `marker`.
+새로운 `div` 요소에 `marker` 클래스를 부여해야 합니다.
 
 ```js
 const containerChildren = [...document.querySelector('.container')?.children];

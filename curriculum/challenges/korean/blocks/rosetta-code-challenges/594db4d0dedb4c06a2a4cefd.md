@@ -1,6 +1,6 @@
 ---
 id: 594db4d0dedb4c06a2a4cefd
-title: Babbage problem
+title: 배비지 문제
 challengeType: 1
 forumTopicId: 302229
 dashedName: babbage-problem
@@ -8,30 +8,30 @@ dashedName: babbage-problem
 
 # --description--
 
-Charles Babbage, looking ahead to the sorts of problems his Analytical Engine would be able to solve, gave this example:
+찰스 배비지는 자신의 해석 기관이 해결할 수 있을 문제 유형을 미리 생각하며 다음 예를 들었습니다:
 
 <blockquote>
-  What is the smallest positive integer whose square ends in the digits 269,696?
-  <footer style='margin-left: 2em;'>Babbage, letter to Lord Bowden, 1837; see Hollingdale and Tootill, <i>Electronic Computers</i>, second edition, 1970, p. 125.</footer>
+  제곱수가 끝자리로 269,696를 가지는 가장 작은 양의 정수는 무엇일까요?
+  <footer style='margin-left: 2em;'>배비지, 1837년 로드 보든에게 보낸 편지; Hollingdale와 Tootill, <i>Electronic Computers</i>, 2판, 1970, p. 125 참조.</footer>
 </blockquote>
 
-He thought the answer might be 99,736, whose square is 9,947,269,696; but he couldn't be certain.
+그는 답이 99,736일 것이라고 생각했는데, 이 수의 제곱은 9,947,269,696입니다; 하지만 확신하지는 못했습니다.
 
-The task is to find out if Babbage had the right answer.
+과제는 배비지가 맞았는지 알아내는 것입니다.
 
 # --instructions--
 
-Implement a function to return the lowest integer that satisfies the Babbage problem. If Babbage was right, return Babbage's number.
+배비지 문제를 만족하는 가장 작은 정수를 반환하는 함수를 구현하세요. 배비지가 맞았다면 배비지의 수를 반환하세요.
 
 # --hints--
 
-`babbage` should be a function.
+`babbage`는 함수여야 합니다.
 
 ```js
 assert(typeof babbage === 'function');
 ```
 
-`babbage(99736, 269696)` should not return 99736 (there is a smaller answer).
+`babbage(99736, 269696)`는 99736을 반환하면 안 됩니다 (더 작은 답이 있습니다).
 
 ```js
 const babbageAns = 99736;

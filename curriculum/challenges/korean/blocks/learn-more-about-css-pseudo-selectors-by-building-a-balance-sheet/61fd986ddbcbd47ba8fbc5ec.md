@@ -1,67 +1,67 @@
 ---
 id: 61fd986ddbcbd47ba8fbc5ec
-title: Step 23
+title: 23단계
 challengeType: 0
 dashedName: step-23
 ---
 
 # --description--
 
-Within the third `tr`, add a `th` element with the text `Credit The outstanding balance on our credit card.`. Wrap that text, except for `Credit`, within a `span` element with the `class` set to `description`.
+세 번째 `tr` 안에 텍스트 `th`를 가진 `Credit The outstanding balance on our credit card.` 요소를 추가하세요. `Credit `를 제외한 그 텍스트를 `span`가 `class`로 설정된 `description` 요소로 감싸세요.
 
-Add three `td` elements below that, and give them the following text, in order: `$50`, `$50`, and `$75`. Give the third `td` element a `class` set to `current`.
+그 아래에 `td` 요소 세 개를 추가하고, 순서대로 `$50`, `$50`, `$75` 텍스트를 넣으세요. 세 번째 `td` 요소에는 `class`가 `current`로 설정되어야 합니다.
 
 # --hints--
 
-Your third `tr` should have a `th` element.
+세 번째 `tr`에는 `th` 요소가 있어야 합니다.
 
 ```js
 assert(document.querySelectorAll('table')?.[1]?.querySelector('tbody')?.querySelectorAll('tr')?.[2]?.querySelector('th'));
 ```
 
-Your `th` element should have the text `Credit The outstanding balance on our credit card.`.
+`th` 요소에는 텍스트 `Credit The outstanding balance on our credit card.`가 있어야 합니다.
 
 ```js
 assert(document.querySelectorAll('table')?.[1]?.querySelector('tbody')?.querySelectorAll('tr')?.[2]?.querySelector('th')?.innerText === 'Credit The outstanding balance on our credit card.');
 ```
 
-You should wrap the text `The outstanding balance on our credit card.` in a `span` element.
+텍스트 `The outstanding balance on our credit card.`는 `span` 요소로 감싸야 합니다.
 
 ```js
 assert(document.querySelectorAll('table')?.[1]?.querySelector('tbody')?.querySelectorAll('tr')?.[2]?.querySelector('th > span')?.textContent === 'The outstanding balance on our credit card.');
 ```
 
-Your `span` element should have the `class` attribute set to `description`.
+`span` 요소에는 `class` 속성이 `description`로 설정되어야 합니다.
 
 ```js
 assert(document.querySelectorAll('table')?.[1]?.querySelector('tbody')?.querySelectorAll('tr')?.[2]?.querySelector('th > span')?.classList?.contains('description'));
 ```
 
-You should have three `td` elements.
+`td` 요소가 세 개 있어야 합니다.
 
 ```js
 assert(document.querySelectorAll('table')?.[1]?.querySelector('tbody')?.querySelectorAll('tr')?.[2]?.querySelectorAll('td').length === 3);
 ```
 
-Your first `td` element should have the text `$50`.
+첫 번째 `td` 요소에는 텍스트 `$50`가 있어야 합니다.
 
 ```js
 assert(document.querySelectorAll('table')?.[1]?.querySelector('tbody')?.querySelectorAll('tr')?.[2]?.querySelectorAll('td')?.[0]?.textContent === '$50');
 ```
 
-Your second `td` element should have the text `$50`.
+두 번째 `td` 요소에는 텍스트 `$50`가 있어야 합니다.
 
 ```js
 assert(document.querySelectorAll('table')?.[1]?.querySelector('tbody')?.querySelectorAll('tr')?.[2]?.querySelectorAll('td')?.[1]?.textContent === '$50');
 ```
 
-Your third `td` element should have the text `$75`.
+세 번째 `td` 요소에는 텍스트 `$75`가 있어야 합니다.
 
 ```js
 assert(document.querySelectorAll('table')?.[1]?.querySelector('tbody')?.querySelectorAll('tr')?.[2]?.querySelectorAll('td')?.[2]?.textContent === '$75');
 ```
 
-Your third `td` element should have the `class` set to `current`.
+세 번째 `td` 요소에는 `class`가 `current`로 설정되어야 합니다.
 
 ```js
 assert(document.querySelectorAll('table')?.[1]?.querySelector('tbody')?.querySelectorAll('tr')?.[2]?.querySelectorAll('td')?.[2]?.classList?.contains('current'));

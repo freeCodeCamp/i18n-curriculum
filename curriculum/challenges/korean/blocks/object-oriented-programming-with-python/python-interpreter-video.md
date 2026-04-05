@@ -1,36 +1,36 @@
 ---
 id: 697fe6c932baa3841ab62a65
-title: Python Interpreter
+title: 파이썬 인터프리터
 challengeType: 11
-videoId: '-c1vFEsIod4'
+videoId: -c1vFEsIod4
 dashedName: python-interpreter
 ---
 
 # --description--
 
-In this video, you will learn how to work with the Python interpreter.
+이 영상에서는 파이썬 인터프리터를 사용하는 방법을 배우세요.
 
 # --questions--
 
 ## --text--
 
-What is the Python interpreter?
+파이썬 인터프리터란 무엇인가요?
 
 ## --answers--
 
-This is a program that writes Python code for you.
+파이썬 코드를 작성해 주는 프로그램입니다.
 
 ---
 
-This is a tool that compiles Python into Java or C++.
+파이썬을 자바나 C++로 컴파일하는 도구입니다.
 
 ---
 
-This is a library that stores Python functions.
+파이썬 함수를 저장하는 라이브러리입니다.
 
 ---
 
-This is a program that reads and executes Python code.
+파이썬 코드를 읽고 실행하는 프로그램입니다.
 
 ## --video-solution--
 

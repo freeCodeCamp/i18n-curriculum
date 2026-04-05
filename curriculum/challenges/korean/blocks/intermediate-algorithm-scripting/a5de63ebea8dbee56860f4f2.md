@@ -1,6 +1,6 @@
 ---
 id: a5de63ebea8dbee56860f4f2
-title: Diff Two Arrays
+title: 두 배열의 차이
 challengeType: 1
 forumTopicId: 16008
 dashedName: diff-two-arrays
@@ -8,19 +8,19 @@ dashedName: diff-two-arrays
 
 # --description--
 
-Compare two arrays and return a new array with any items only found in one of the two given arrays, but not both. In other words, return the symmetric difference of the two arrays.
+두 배열을 비교하여 두 배열 중 하나에만 존재하고 두 배열 모두에 존재하지 않는 항목들로 이루어진 새 배열을 반환하세요. 다시 말해, 두 배열의 대칭 차집합을 반환하세요.
 
-**Note:** You can return the array with its elements in any order.
+**참고:** 배열의 요소 순서는 상관없습니다.
 
 # --hints--
 
-`diffArray([1, 2, 3, 5], [1, 2, 3, 4, 5])` should return an array.
+`diffArray([1, 2, 3, 5], [1, 2, 3, 4, 5])`는 배열을 반환해야 합니다.
 
 ```js
 assert(typeof diffArray([1, 2, 3, 5], [1, 2, 3, 4, 5]) === 'object');
 ```
 
-`["diorite", "andesite", "grass", "dirt", "pink wool", "dead shrub"], ["diorite", "andesite", "grass", "dirt", "dead shrub"]` should return `["pink wool"]`.
+`["diorite", "andesite", "grass", "dirt", "pink wool", "dead shrub"], ["diorite", "andesite", "grass", "dirt", "dead shrub"]`는 `["pink wool"]`를 반환해야 합니다.
 
 ```js
 assert.sameMembers(
@@ -32,7 +32,7 @@ assert.sameMembers(
 );
 ```
 
-`["diorite", "andesite", "grass", "dirt", "pink wool", "dead shrub"], ["diorite", "andesite", "grass", "dirt", "dead shrub"]` should return an array with one item.
+`["diorite", "andesite", "grass", "dirt", "pink wool", "dead shrub"], ["diorite", "andesite", "grass", "dirt", "dead shrub"]`는 한 개의 항목이 있는 배열을 반환해야 합니다.
 
 ```js
 assert(
@@ -43,7 +43,7 @@ assert(
 );
 ```
 
-`["andesite", "grass", "dirt", "pink wool", "dead shrub"], ["diorite", "andesite", "grass", "dirt", "dead shrub"]` should return `["diorite", "pink wool"]`.
+`["andesite", "grass", "dirt", "pink wool", "dead shrub"], ["diorite", "andesite", "grass", "dirt", "dead shrub"]`는 `["diorite", "pink wool"]`를 반환해야 합니다.
 
 ```js
 assert.sameMembers(
@@ -55,7 +55,7 @@ assert.sameMembers(
 );
 ```
 
-`["andesite", "grass", "dirt", "pink wool", "dead shrub"], ["diorite", "andesite", "grass", "dirt", "dead shrub"]` should return an array with two items.
+`["andesite", "grass", "dirt", "pink wool", "dead shrub"], ["diorite", "andesite", "grass", "dirt", "dead shrub"]`는 두 개의 항목이 있는 배열을 반환해야 합니다.
 
 ```js
 assert(
@@ -66,7 +66,7 @@ assert(
 );
 ```
 
-`["andesite", "grass", "dirt", "dead shrub"], ["andesite", "grass", "dirt", "dead shrub"]` should return `[]`.
+`["andesite", "grass", "dirt", "dead shrub"], ["andesite", "grass", "dirt", "dead shrub"]`는 `[]`를 반환해야 합니다.
 
 ```js
 assert.sameMembers(
@@ -78,7 +78,7 @@ assert.sameMembers(
 );
 ```
 
-`["andesite", "grass", "dirt", "dead shrub"], ["andesite", "grass", "dirt", "dead shrub"]` should return an empty array.
+`["andesite", "grass", "dirt", "dead shrub"], ["andesite", "grass", "dirt", "dead shrub"]`는 빈 배열을 반환해야 합니다.
 
 ```js
 assert(
@@ -89,19 +89,19 @@ assert(
 );
 ```
 
-`[1, 2, 3, 5], [1, 2, 3, 4, 5]` should return `[4]`.
+`[1, 2, 3, 5], [1, 2, 3, 4, 5]`는 `[4]`를 반환해야 합니다.
 
 ```js
 assert.sameMembers(diffArray([1, 2, 3, 5], [1, 2, 3, 4, 5]), [4]);
 ```
 
-`[1, 2, 3, 5], [1, 2, 3, 4, 5]` should return an array with one item.
+`[1, 2, 3, 5], [1, 2, 3, 4, 5]`는 한 개의 항목이 있는 배열을 반환해야 합니다.
 
 ```js
 assert(diffArray([1, 2, 3, 5], [1, 2, 3, 4, 5]).length === 1);
 ```
 
-`[1, "calf", 3, "piglet"], [1, "calf", 3, 4]` should return `["piglet", 4]`.
+`[1, "calf", 3, "piglet"], [1, "calf", 3, 4]`는 `["piglet", 4]`를 반환해야 합니다.
 
 ```js
 assert.sameMembers(diffArray([1, 'calf', 3, 'piglet'], [1, 'calf', 3, 4]), [
@@ -110,13 +110,13 @@ assert.sameMembers(diffArray([1, 'calf', 3, 'piglet'], [1, 'calf', 3, 4]), [
 ]);
 ```
 
-`[1, "calf", 3, "piglet"], [1, "calf", 3, 4]` should return an array with two items.
+`[1, "calf", 3, "piglet"], [1, "calf", 3, 4]`는 두 개의 항목이 있는 배열을 반환해야 합니다.
 
 ```js
 assert(diffArray([1, 'calf', 3, 'piglet'], [1, 'calf', 3, 4]).length === 2);
 ```
 
-`[], ["snuffleupagus", "cookie monster", "elmo"]` should return `["snuffleupagus", "cookie monster", "elmo"]`.
+`[], ["snuffleupagus", "cookie monster", "elmo"]`는 `["snuffleupagus", "cookie monster", "elmo"]`를 반환해야 합니다.
 
 ```js
 assert.sameMembers(diffArray([], ['snuffleupagus', 'cookie monster', 'elmo']), [
@@ -126,13 +126,13 @@ assert.sameMembers(diffArray([], ['snuffleupagus', 'cookie monster', 'elmo']), [
 ]);
 ```
 
-`[], ["snuffleupagus", "cookie monster", "elmo"]` should return an array with three items.
+`[], ["snuffleupagus", "cookie monster", "elmo"]`는 세 개의 항목이 있는 배열을 반환해야 합니다.
 
 ```js
 assert(diffArray([], ['snuffleupagus', 'cookie monster', 'elmo']).length === 3);
 ```
 
-`[1, "calf", 3, "piglet"], [7, "filly"]` should return `[1, "calf", 3, "piglet", 7, "filly"]`.
+`[1, "calf", 3, "piglet"], [7, "filly"]`는 `[1, "calf", 3, "piglet", 7, "filly"]`를 반환해야 합니다.
 
 ```js
 assert.sameMembers(diffArray([1, 'calf', 3, 'piglet'], [7, 'filly']), [
@@ -145,7 +145,7 @@ assert.sameMembers(diffArray([1, 'calf', 3, 'piglet'], [7, 'filly']), [
 ]);
 ```
 
-`[1, "calf", 3, "piglet"], [7, "filly"]` should return an array with six items.
+`[1, "calf", 3, "piglet"], [7, "filly"]`는 여섯 개의 항목이 있는 배열을 반환해야 합니다.
 
 ```js
 assert(diffArray([1, 'calf', 3, 'piglet'], [7, 'filly']).length === 6);
@@ -173,7 +173,7 @@ function diffArray(arr1, arr2) {
 
   const set1 = new Set(arr1);
   const set2 = new Set(arr2);
-
+  
   const newArr = [];
 
   set1.forEach(element => {
@@ -187,7 +187,7 @@ function diffArray(arr1, arr2) {
   });
 
   return newArr;
-
+  
 }
 
 ```

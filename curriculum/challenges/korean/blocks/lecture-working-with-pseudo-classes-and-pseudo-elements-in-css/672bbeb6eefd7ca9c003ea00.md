@@ -1,15 +1,15 @@
 ---
 id: 672bbeb6eefd7ca9c003ea00
-title: What Are Examples of Tree-structural Pseudo-classes?
+title: 트리 구조 가상 클래스의 예시는 무엇인가요?
 challengeType: 19
 dashedName: what-are-examples-of-tree-structural-pseudo-classes
 ---
 
 # --interactive--
 
-Tree-structural pseudo-classes allow you to target and style elements based on their position within the document tree. The document tree refers to the hierarchical structure of elements in an HTML document.
+트리 구조 가상 클래스는 문서 트리 내에서 요소의 위치를 기준으로 요소를 선택하고 스타일을 적용할 수 있게 해줍니다. 문서 트리는 HTML 문서 내 요소들의 계층 구조를 의미합니다.
 
-Here is a list of tree-structural pseudo-classes:
+다음은 트리 구조 가상 클래스 목록입니다:
 
 - `:root`
 - `:empty`
@@ -23,9 +23,9 @@ Here is a list of tree-structural pseudo-classes:
 - `:last-of-type`
 - `:only-of-type`
 
-Let's take a closer look at each of the tree-structural pseudo-classes, accompanied by examples.
+각 트리 구조 가상 클래스를 예제와 함께 자세히 살펴보겠습니다.
 
-​​The `:root` pseudo-class is usually the root `html` element. It helps you target the highest level in the document so you can apply a common style to the entire document.
+​​`:root` 가상 클래스는 보통 루트 `html` 요소입니다. 문서에서 가장 상위 레벨을 선택할 수 있어 문서 전체에 공통 스타일을 적용할 때 유용합니다.     
 
 :::interactive_editor
 
@@ -44,7 +44,7 @@ Let's take a closer look at each of the tree-structural pseudo-classes, accompan
 
 :::
 
-The `:root` pseudo-class is also commonly used in setting CSS variables:
+`:root` 가상 클래스는 CSS 변수 설정에도 자주 사용됩니다:
 
 ```css
 :root {
@@ -54,9 +54,9 @@ The `:root` pseudo-class is also commonly used in setting CSS variables:
 }
 ```
 
-With CSS variables, you get to store values and reuse them in your stylesheet. You will learn more about these later on.
+CSS 변수를 사용하면 값을 저장하고 스타일시트에서 재사용할 수 있습니다. 이에 대해서는 나중에 더 배우게 됩니다.
 
-Empty elements, that is, elements with no children other than white space, are also included in the document tree. That's why there's an `:empty` pseudo-class to target empty elements. For example, this HTML code has two empty list items. With the `:empty` pseudo-class, you can style the empty list items differently:
+빈 요소, 즉 공백 외에 자식이 없는 요소도 문서 트리에 포함됩니다. 그래서 빈 요소를 선택할 수 있는 `:empty` 가상 클래스가 있습니다. 예를 들어, 이 HTML 코드에는 두 개의 빈 목록 항목이 있습니다. `:empty` 가상 클래스를 사용하면 빈 목록 항목에 다르게 스타일을 적용할 수 있습니다:
 
 :::interactive_editor
 
@@ -79,7 +79,7 @@ Empty elements, that is, elements with no children other than white space, are a
 
 :::
 
-The most practical thing to do with the empty list items is probably not displaying them at all:
+빈 목록 항목에 가장 실용적인 처리는 아마도 아예 표시하지 않는 것입니다:
 
 :::interactive_editor
 
@@ -102,9 +102,9 @@ The most practical thing to do with the empty list items is probably not display
 
 :::
 
-`:nth-child(n)` allows you to select elements based on their position within a parent, while `:nth-last-child(n)` enables you to select elements by counting from the end. The `n` can be a specific number or a keyword like `odd` or `even`. This is incredibly useful in styling table cells based on position: even and odd.
+`:nth-child(n)` 는 부모 내에서 위치를 기준으로 요소를 선택할 수 있게 해주고, `:nth-last-child(n)` 는 끝에서부터 요소를 셉니다. `n` 은 특정 숫자이거나 `odd` 또는 `even` 같은 키워드일 수 있습니다. 이는 위치에 따라 표 셀을 스타일링할 때 매우 유용합니다: 짝수와 홀수.
 
-Here's an HTML example of a fruit price list table. The CSS is using the `:nth-child` pseudo-class to target the table cells based on odd and even positions:
+다음은 과일 가격 목록 표의 HTML 예제입니다. CSS는 `:nth-child` 가상 클래스를 사용해 홀수와 짝수 위치에 있는 표 셀을 선택합니다:
 
 :::interactive_editor
 
@@ -148,13 +148,13 @@ tr:nth-child(odd) {
 
 :::
 
-The `:first-child`, `:last-child`, and `:only-child` pseudo-classes all act on items within a parent container or the entire document.
+`:first-child`, `:last-child`, `:only-child` 가상 클래스는 모두 부모 컨테이너 내 또는 문서 전체에서 항목을 선택합니다.
 
-- `:first-child` selects the first element in a parent element or the document.
-- `:last-child` selects the last element in a parent element or the document.
-- `:only-child` selects the only element in a parent element or the document.
+- `:first-child` 는 부모 요소나 문서 내 첫 번째 요소를 선택합니다.
+- `:last-child` 는 부모 요소나 문서 내 마지막 요소를 선택합니다.
+- `:only-child` 는 부모 요소나 문서 내 유일한 요소를 선택합니다.
 
-Using the `:first-child` and `:last-child` pseudo-classes will select both `Item 1` and `Item 3` in this example:
+이 예제에서 `:first-child` 와 `:last-child` 가상 클래스를 사용하면 `Item 1` 과 `Item 3` 둘 다 선택됩니다:
 
 :::interactive_editor
 
@@ -179,9 +179,9 @@ li:last-child {
 
 :::
 
-If you have more unordered lists on the page, you have to be more specific with the selection:
+페이지에 순서 없는 목록이 더 있다면 선택을 더 구체적으로 해야 합니다: 
 
-To show you how the `:only-child` pseudo-class works, here's an HTML example with two separate `div` elements. Using the `:only-child` pseudo-class ensures only the `div` element with a single child is selected:
+`:only-child` 가상 클래스가 어떻게 작동하는지 보여주기 위해, 두 개의 별도 `div` 요소가 있는 HTML 예제를 준비했습니다. `:only-child` 가상 클래스를 사용하면 자식이 하나인 `div` 요소만 선택됩니다:
 
 :::interactive_editor
 
@@ -207,9 +207,9 @@ To show you how the `:only-child` pseudo-class works, here's an HTML example wit
 
 :::
 
-The `:first-of-type` and `:last-of-type` pseudo-classes select the first and last occurrence of a specific element type within its parent. They are useful for applying unique styles to the first or last instance of that element type among its siblings.
+`:first-of-type` 와 `:last-of-type` 가상 클래스는 부모 내에서 특정 요소 유형의 첫 번째와 마지막 발생을 선택합니다. 이는 형제 요소 중 첫 번째 또는 마지막 인스턴스에 고유한 스타일을 적용할 때 유용합니다.
 
-In the example below, `:first-of-type` and `:last-of-type` applies to the first element and last element within the `section` element:
+아래 예제에서 `:first-of-type` 와 `:last-of-type` 는 `section` 요소 내 첫 번째 요소와 마지막 요소에 적용됩니다:
 
 :::interactive_editor
 
@@ -240,7 +240,7 @@ section p:last-of-type {
 
 :::
 
-`:nth-of-type(n)` allows you to select a specific element within its parent based on its position among siblings of the same type. For instance, in the HTML below, `:nth-of-type(2)` targets the second element in the container:
+`:nth-of-type(n)` 는 부모 내에서 같은 유형의 형제 중 위치를 기준으로 특정 요소를 선택할 수 있게 해줍니다. 예를 들어, 아래 HTML에서 `:nth-of-type(2)` 는 컨테이너 내 두 번째 요소를 선택합니다:
 
 :::interactive_editor
 
@@ -263,9 +263,9 @@ p:nth-of-type(2) {
 
 :::
 
-`:only-of-type` selects an element if it's the only one of its type within its parent. This can be useful for emphasizing single items or ensuring that they are styled differently when they’re not part of a group.
+`:only-of-type` 는 부모 내에서 해당 유형의 유일한 요소인 경우 선택합니다. 이는 단일 항목을 강조하거나 그룹에 속하지 않은 경우 다르게 스타일을 적용할 때 유용합니다.
 
-In the example below, there are two `div` elements with one having a single element. The CSS only applies to the first container:
+아래 예제에는 두 개의 `div` 요소가 있는데, 그중 하나는 단일 요소를 포함합니다. CSS는 첫 번째 컨테이너에만 적용됩니다:
 
 :::interactive_editor
 
@@ -294,35 +294,35 @@ p:only-of-type {
 
 ## --text--
 
-What is the difference between the `:first-of-type` and `:last-of-type` pseudo-classes?
+`:first-of-type` 와 `:last-of-type` 가상 클래스의 차이는 무엇인가요?
 
 ## --answers--
 
-`:first-of-type` targets the first element of a specific type within its parent, while `:last-of-type` targets the last element of a different type.
+`:first-of-type` 는 부모 내 특정 유형의 첫 번째 요소를 선택하고, `:last-of-type` 는 다른 유형의 마지막 요소를 선택합니다.
 
 ### --feedback--
 
-Consider how these pseudo-classes help you style the first and last instances of a particular tag, like `p` or `h1`.
+이 가상 클래스들이 `p` 또는 `h1` 같은 특정 태그의 첫 번째와 마지막 인스턴스를 스타일링하는 데 어떻게 도움이 되는지 생각해보세요.
 
 ---
 
-`:first-of-type` and `:last-of-type` both target the first occurrence of an element but in different sections of the document.
+`:first-of-type` 와 `:last-of-type` 는 모두 요소의 첫 번째 발생을 선택하지만 문서 내 서로 다른 섹션에서 선택합니다.
 
 ### --feedback--
 
-Consider how these pseudo-classes help you style the first and last instances of a particular tag, like `p` or `h1`.
+이 가상 클래스들이 `p` 또는 `h1` 같은 특정 태그의 첫 번째와 마지막 인스턴스를 스타일링하는 데 어떻게 도움이 되는지 생각해보세요.
 
 ---
 
-`:first-of-type` selects the first occurrence of a specific element type within its parent, while `:last-of-type` selects the last occurrence of that same element type within its parent.
+`:first-of-type` 는 부모 내 특정 요소 유형의 첫 번째 발생을 선택하고, `:last-of-type` 는 같은 부모 내 해당 요소 유형의 마지막 발생을 선택합니다.
 
 ---
 
-`:last-of-type` applies styles to the first and last elements within the document, while `:last-of-type` applies styles to all elements of a specific type.
+`:last-of-type` 는 문서 내 첫 번째와 마지막 요소에 스타일을 적용하고, `:last-of-type` 는 특정 유형의 모든 요소에 스타일을 적용합니다.
 
 ### --feedback--
 
-Consider how these pseudo-classes help you style the first and last instances of a particular tag, like `p` or `h1`.
+이 가상 클래스들이 `p` 또는 `h1` 같은 특정 태그의 첫 번째와 마지막 인스턴스를 스타일링하는 데 어떻게 도움이 되는지 생각해보세요.
 
 ## --video-solution--
 
@@ -330,35 +330,35 @@ Consider how these pseudo-classes help you style the first and last instances of
 
 ## --text--
 
-What is the difference between the `:first-child` and `:last-child` pseudo-classes?
+`:first-child` 와 `:last-child` 가상 클래스의 차이는 무엇인가요?
 
 ## --answers--
 
-`:first-child` targets the first element within its parent, while `:last-child` targets the last element within a different parent.
+`:first-child` 는 부모 내 첫 번째 요소를 선택하고, `:last-child` 는 다른 부모 내 마지막 요소를 선택합니다.
 
 ### --feedback--
 
-Think about how the two pseudo-classes help you style the first and last elements within the same parent container.
+두 가상 클래스가 같은 부모 컨테이너 내 첫 번째와 마지막 요소를 스타일링하는 데 어떻게 도움이 되는지 생각해보세요.
 
 ---
 
-`:first-child` targets the first element within its parent, while `:last-child` targets the last element within the same parent.
+`:first-child` 는 부모 내 첫 번째 요소를 선택하고, `:last-child` 는 같은 부모 내 마지막 요소를 선택합니다.
 
 ---
 
-`:first-child` targets the first element of a specific type within its parent, while `:last-child` targets the last element of a different type within its parent.
+`:first-child` 는 부모 내 특정 유형의 첫 번째 요소를 선택하고, `:last-child` 는 같은 부모 내 다른 유형의 마지막 요소를 선택합니다.
 
 ### --feedback--
 
-Think about how the two pseudo-classes help you style the first and last elements within the same parent container.
+두 가상 클래스가 같은 부모 컨테이너 내 첫 번째와 마지막 요소를 스타일링하는 데 어떻게 도움이 되는지 생각해보세요.
 
 ---
 
-`:first-child` targets the first and last elements within a parent, while `:last-child` targets all other elements.
+`:first-child` 는 부모 내 첫 번째와 마지막 요소를 선택하고, `:last-child` 는 나머지 모든 요소를 선택합니다.
 
 ### --feedback--
 
-Think about how the two pseudo-classes help you style the first and last elements within the same parent container.
+두 가상 클래스가 같은 부모 컨테이너 내 첫 번째와 마지막 요소를 스타일링하는 데 어떻게 도움이 되는지 생각해보세요.
 
 ## --video-solution--
 
@@ -366,7 +366,7 @@ Think about how the two pseudo-classes help you style the first and last element
 
 ## --text--
 
-Which pseudo-class allows you to target elements that have no children, including those that contain only whitespace?
+자식이 없고 공백만 포함하는 요소도 선택할 수 있는 가상 클래스는 무엇인가요?
 
 ## --answers--
 
@@ -378,7 +378,7 @@ Which pseudo-class allows you to target elements that have no children, includin
 
 ### --feedback--
 
-Think about how you can style elements that do not have content.
+내용이 없는 요소를 어떻게 스타일링할 수 있을지 생각해보세요.
 
 ---
 
@@ -386,7 +386,7 @@ Think about how you can style elements that do not have content.
 
 ### --feedback--
 
-Think about how you can style elements that do not have content.
+내용이 없는 요소를 어떻게 스타일링할 수 있을지 생각해보세요.
 
 ---
 
@@ -394,7 +394,7 @@ Think about how you can style elements that do not have content.
 
 ### --feedback--
 
-Think about how you can style elements that do not have content.
+내용이 없는 요소를 어떻게 스타일링할 수 있을지 생각해보세요.
 
 ## --video-solution--
 

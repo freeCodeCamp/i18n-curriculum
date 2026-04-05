@@ -1,31 +1,31 @@
 ---
 id: 60fad6dfcc0d930a59becf12
-title: Step 39
+title: 39단계
 challengeType: 0
 dashedName: step-39
 ---
 
 # --description--
 
-The HTML for the registration form is finished. Now, you can spruce it up a bit.
+회원가입 폼의 HTML이 완성되었습니다. 이제 약간 꾸며보세요.
 
-Start by changing the font to `Tahoma`, and the font size to `16px` in the `body`.
+먼저 `Tahoma`에서 폰트를 `16px`로, 폰트 크기를 `body`로 변경하세요.
 
 # --hints--
 
-You should use the `font-family` property to change the font.
+폰트를 변경하려면 `font-family` 속성을 사용하세요.
 
 ```js
 assert.isNotEmpty(new __helpers.CSSHelp(document).getStyle('body')?.fontFamily);
 ```
 
-You should set the `font-family` property to `Tahoma`.
+`font-family` 속성을 `Tahoma`로 설정해야 합니다.
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('body')?.fontFamily, 'Tahoma');
 ```
 
-You should set the `font-size` property to `16px`.
+`font-size` 속성을 `16px`로 설정해야 합니다.
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('body')?.fontSize, '16px');
@@ -93,7 +93,7 @@ body {
   background-color: #1b1b32;
   color: #f5f6f7;
 --fcc-editable-region--
-
+  
 --fcc-editable-region--
 }
 

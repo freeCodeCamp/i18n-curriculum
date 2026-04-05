@@ -1,6 +1,6 @@
 ---
 id: 69ae7688b4a814be6a4f2bea
-title: Building an MCP Client
+title: MCP 클라이언트 만들기
 challengeType: 11
 videoId: pzvQoPwNQN0
 dashedName: building-an-mcp-client
@@ -8,13 +8,13 @@ dashedName: building-an-mcp-client
 
 # --description--
 
-In this video, you will learn how to build an MCP client.
+이 영상에서는 MCP 클라이언트를 만드는 방법을 배우세요.
 
 # --questions--
 
 ## --text--
 
-Which of the following is NOT an example feature of an MCP client?
+다음 중 MCP 클라이언트의 예시 기능이 아닌 것은 무엇인가요?
 
 ## --answers--
 
@@ -35,5 +35,3 @@ Elicitation
 ## --video-solution--
 
 3
-
-

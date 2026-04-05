@@ -1,6 +1,6 @@
 ---
 id: 67caefddb5ddbc2cfc69bc6e
-title: Task 38
+title: 작업 38
 challengeType: 22
 dashedName: task-38
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+오디오를 듣고 아래 문장을 완성하세요.
 
 # --fillInTheBlank--
 
@@ -24,13 +24,13 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-These three words together mean that SafeGuard prioritizes or pays more attention to security compared to other features.
+이 세 단어는 SafeGuard가 다른 기능보다 보안을 더 우선시하거나 더 신경 쓴다는 뜻입니다.
 
 # --explanation--
 
-`More focused on` is used to show what something or someone pays attention to the most. For example:
+`More focused on`는 무엇이나 누군가가 가장 신경 쓰는 부분을 나타낼 때 사용합니다. 예를 들어:
 
-`This software is more focused on performance than on design.` - This means the software is mainly built for good performance, not necessarily for an attractive design.
+`This software is more focused on performance than on design.` - 이 문장은 소프트웨어가 반드시 매력적인 디자인보다는 주로 좋은 성능을 위해 만들어졌다는 뜻입니다.
 
 # --scene--
 

@@ -1,6 +1,6 @@
 ---
 id: 67c03f86bccfec0be6de656b
-title: Task 113
+title: 작업 113
 challengeType: 19
 dashedName: task-113
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+오디오를 듣고 아래 질문에 답하세요.
 
 # --questions--
 
 ## --text--
 
-What is Anna communicating?
+Anna가 무엇을 전달하고 있나요?
 
 ## --answers--
 
-She completely disagrees with Bob and rejects his concern.
+그녀는 Bob의 의견에 전적으로 동의하지 않고 그의 우려를 거부합니다.
 
 ### --feedback--
 
-Anna acknowledges Bob's point before giving her own opinion.
+Anna는 자신의 의견을 말하기 전에 Bob의 의견을 인정합니다.
 
 ---
 
-She understands Bob's concern but still thinks flexibility is a better option.
+그녀는 Bob의 우려를 이해하지만 여전히 유연성이 더 나은 선택이라고 생각합니다.
 
 ---
 
-She does not understand Bob's concern.
+그녀는 Bob의 우려를 이해하지 못합니다.
 
 ### --feedback--
 
-Anna understands Bob's argument.
+Anna는 Bob의 인수를 이해합니다.
 
 ---
 
-She agrees with Bob and changes her mind.
+그녀는 Bob의 의견에 동의하고 마음을 바꿉니다.
 
 ### --feedback--
 
-Anna does not fully agree with Bob.
+Anna는 Bob의 의견에 완전히 동의하지 않습니다.
 
 ## --video-solution--
 
@@ -52,9 +52,9 @@ Anna does not fully agree with Bob.
 
 # --explanation--
 
-Anna uses `I see your point, but` to show that she understands Bob's concern while presenting a different opinion.
+Anna는 `I see your point, but`를 사용해 Bob의 우려를 이해하면서도 다른 의견을 제시합니다.
 
-She believes that flexibility is a better solution than sticking with one category.
+그녀는 한 가지 범주에만 고집하는 것보다 유연성이 더 나은 해결책이라고 믿습니다.
 
 # --scene--
 

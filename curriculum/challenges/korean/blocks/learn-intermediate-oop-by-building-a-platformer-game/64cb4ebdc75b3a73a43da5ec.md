@@ -1,45 +1,45 @@
 ---
 id: 64cb4ebdc75b3a73a43da5ec
-title: Step 108
+title: 108단계
 challengeType: 0
 dashedName: step-108
 ---
 
 # --description--
 
-Create an `if` statement that checks if `isCheckpointCollisionDetectionActive` is true.
+`if` 문을 만들어 `isCheckpointCollisionDetectionActive`이 true인지 확인하세요.
 
-Inside the `if` statement, add a `setTimeout()` that takes in a callback function and a delay of 2000 milliseconds.
+`if` 문 안에 콜백 함수와 2000밀리초 지연 시간을 받는 `setTimeout()`를 추가하세요.
 
-For the callback function, it should set the `checkpointScreen` `style.display` property to `"none"`.
+콜백 함수는 `checkpointScreen` `style.display` 속성을 `"none"`로 설정해야 합니다.
 
 # --hints--
 
-You should have an `if` statement that checks if `isCheckpointCollisionDetectionActive` is true.
+`if`이 true인지 확인하는 `isCheckpointCollisionDetectionActive` 문이 있어야 합니다.
 
 ```js
 assert.match(code, /\s*if\s*\(\s*isCheckpointCollisionDetectionActive\s*\)\s*{/s);
 ```
 
-You should have a `setTimeout()` function inside the `if` statement.
+`setTimeout()` 문 안에 `if` 함수가 있어야 합니다.
 
 ```js
 assert.match(code, /\s*if\s*\(\s*isCheckpointCollisionDetectionActive\s*\)\s*{\s*setTimeout\s*\(/s);
 ```
 
-Your `setTimeout()` function should have a callback function as the first argument.
+`setTimeout()` 함수는 첫 번째 인수로 콜백 함수를 가져야 합니다.
 
 ```js
 assert.match(code, /\s*setTimeout\s*\(\s*\(\s*\)\s*=>/s);
 ```
 
-Your `setTimeout()` function should have a delay of 2000 milliseconds as the second argument.
+`setTimeout()` 함수는 두 번째 인수로 2000밀리초 지연 시간을 가져야 합니다.
 
 ```js
 assert.match(code, /\s*setTimeout\s*\(\s*\(\s*\)\s*=>[^,]*,\s*2000\s*\)/s);
 ```
 
-Your callback function should set the `checkpointScreen` `style.display` property to `"none"`.
+콜백 함수는 `checkpointScreen` `style.display` 속성을 `"none"`로 설정해야 합니다.
 
 ```js
 assert.match(code, /\s*if\s*\(\s*isCheckpointCollisionDetectionActive\s*\)\s*{\s*setTimeout\s*\(\s*\(\s*\)\s*=>\s*(\(\s*checkpointScreen\.style\.display\s*=\s*("|')none\2\s*\)|\{\s*checkpointScreen\.style\.display\s*=\s*("|')none\3\s*;?\s*\}|\s*checkpointScreen\.style\.display\s*=\s*("|')none\4\s*)\s*,\s*2000\s*\)\s*;?\s*}/s);

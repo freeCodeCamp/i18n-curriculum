@@ -7,23 +7,23 @@ dashedName: step-43
 
 # --description--
 
-Add an `h2` element in the new section and give it the text `Desserts`.
+새 섹션에 `h2` 요소를 추가하고 텍스트를 `Desserts`로 지정하세요.
 
 # --hints--
 
-You should not change your existing `section` element.
+기존 `section` 요소는 변경하지 마세요.
 
 ```js
 assert.lengthOf(document.querySelectorAll('section'), 2);
 ```
 
-You should add an `h2` element in your second `section` element.
+두 번째 `h2` 요소 안에 `section` 요소를 추가해야 합니다.
 
 ```js
 assert.strictEqual(document.querySelectorAll('section')?.[1]?.children?.[0]?.tagName, 'H2');
 ```
 
-Your new `h2` element should have the text `Desserts`.
+새 `h2` 요소의 텍스트는 `Desserts`이어야 합니다.
 
 ```js
 assert.match(document.querySelectorAll('h2')?.[1]?.innerText, /Desserts/i);
@@ -67,7 +67,7 @@ assert.match(document.querySelectorAll('h2')?.[1]?.innerText, /Desserts/i);
         </section>
         <section>
 --fcc-editable-region--
-
+          
 --fcc-editable-region--
         </section>
       </main>

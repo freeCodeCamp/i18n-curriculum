@@ -1,23 +1,23 @@
 ---
 id: 68eb1f4e8ccb1cb263b81efe
-title: Step 22
+title: 22단계
 challengeType: 0
 dashedName: step-22
 ---
 
 # --description--
 
-The description text needs to be a bit larger. Select the element with the class `description` and set its `font-size` to `1.2rem`.
+설명 텍스트를 좀 더 크게 만들어야 합니다. `description` 클래스를 가진 요소를 선택하고 그 `font-size`을 `1.2rem`로 설정하세요.
 
 # --hints--
 
-You should target the element with the class `description`.
+`description` 클래스를 가진 요소를 대상으로 해야 합니다.
 
 ```js
 assert.exists(new __helpers.CSSHelp(document).getStyle('.description'));
 ```
 
-Set the `font-size` property to `1.2rem`.
+`font-size` 속성을 `1.2rem`로 설정하세요.
 
 ```js
 const style = new __helpers.CSSHelp(document).getStyle('.description')
@@ -139,4 +139,3 @@ body {
 
 --fcc-editable-region--
 ```
-

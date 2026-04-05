@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c442eddfaeb5bd10
-title: Show the Local Weather
+title: 지역 날씨 표시하기
 challengeType: 3
 forumTopicId: 302368
 dashedName: show-the-local-weather
@@ -8,23 +8,23 @@ dashedName: show-the-local-weather
 
 # --description--
 
-**Objective:** Build an app that is functionally similar to this: <a href="https://codepen.io/freeCodeCamp/full/bELRjV" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/bELRjV</a>.
+**목표:** 다음과 기능적으로 유사한 앱을 만드세요: <a href="https://codepen.io/freeCodeCamp/full/bELRjV" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/bELRjV</a>.
 
-**Rule #1:** Don't look at the example project's code. Figure it out for yourself.
+**규칙 #1:** 예제 프로젝트의 코드를 보지 마세요. 스스로 해결하세요.
 
-**Rule #2:** Fulfill the below user stories and get all of the tests to pass. Use whichever libraries or APIs you need. Give it your own personal style.
+**규칙 #2:** 아래 사용자 스토리를 충족하고 모든 테스트를 통과하세요. 필요한 라이브러리나 API를 자유롭게 사용하세요. 자신만의 스타일을 적용하세요.
 
-**User Story:** I can see the weather in my current location.
+**사용자 스토리:** 현재 위치의 날씨를 볼 수 있습니다.
 
-**User Story:** I can see a different icon or background image (e.g. snowy mountain, hot desert) depending on the weather.
+**사용자 스토리:** 날씨에 따라 다른 아이콘이나 배경 이미지(예: 눈 덮인 산, 뜨거운 사막)를 볼 수 있습니다.
 
-**User Story:** I can push a button to toggle between Fahrenheit and Celsius.
+**사용자 스토리:** 버튼을 눌러 화씨와 섭씨를 전환할 수 있습니다.
 
-**Note:** Many internet browsers now require an HTTP Secure (`https://`) connection to obtain a user's locale via HTML5 Geolocation. For this reason, we recommend using HTML5 Geolocation to get user location and then use the freeCodeCamp Weather API <a href="https://weather-proxy.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://weather-proxy.freecodecamp.rocks/</a> which uses an HTTP Secure connection for the weather. Also, be sure to connect to <a href="https://codepen.io" target="_blank" rel="noopener noreferrer nofollow">CodePen.io</a> via `https://`.
+**참고:** 많은 인터넷 브라우저가 이제 HTML5 지리 위치를 통해 사용자의 위치를 얻으려면 HTTP 보안(`https://`) 연결을 요구합니다. 이 때문에 HTML5 지리 위치를 사용해 사용자 위치를 얻고, HTTP 보안 연결을 사용하는 freeCodeCamp 날씨 API <a href="https://weather-proxy.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://weather-proxy.freecodecamp.rocks/</a>를 사용하는 것을 권장합니다. 또한 <a href="https://codepen.io" target="_blank" rel="noopener noreferrer nofollow">CodePen.io</a>에 `https://`로 연결하세요.
 
-When you are finished, include a link to your project on CodePen and click the "I've completed this challenge" button.
+완료하면 CodePen에 프로젝트 링크를 포함하고 "도전 과제 완료" 버튼을 클릭하세요.
 
-You can get feedback on your project by sharing it on the <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp forum</a>.
+프로젝트에 대한 피드백은 <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp 포럼</a>에 공유하여 받을 수 있습니다.
 
 # --solutions--
 

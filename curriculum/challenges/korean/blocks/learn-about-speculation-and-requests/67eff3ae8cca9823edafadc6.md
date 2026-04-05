@@ -1,6 +1,6 @@
 ---
 id: 67eff3ae8cca9823edafadc6
-title: Task 59
+title: 작업 59
 challengeType: 19
 dashedName: task-59
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+오디오를 듣고 아래 질문에 답하세요.
 
 # --questions--
 
 ## --text--
 
-What is Jake asking about?
+Jake가 무엇에 대해 묻고 있나요?
 
 ## --answers--
 
-If the updates were applied.
+업데이트가 적용되었는지 여부.
 
 ---
 
-If new security updates were released.
+새로운 보안 업데이트가 출시되었는지 여부.
 
 ### --feedback--
 
-Jake is not asking if new updates exist.
+Jake는 새로운 업데이트가 있는지 묻는 것이 아닙니다.
 
 ---
 
-Who is responsible for security updates.
+누가 보안 업데이트를 담당하는지.
 
 ### --feedback--
 
-Jake is not asking about a specific person.
+Jake는 특정 인물에 대해 묻는 것이 아닙니다.
 
 ---
 
-How security updates work.
+보안 업데이트가 어떻게 작동하는지.
 
 ### --feedback--
 
-Jake assumes Jessica knows about security updates.
+Jake는 Jessica가 보안 업데이트에 대해 알고 있다고 가정합니다.
 
 ## --video-solution--
 
@@ -52,11 +52,11 @@ Jake assumes Jessica knows about security updates.
 
 # --explanation--
 
-Jake wants to know if someone has verified that all updates have been installed.
+Jake는 누군가가 모든 업데이트가 설치되었는지 확인했는지 알고 싶어 합니다.
 
-By `Have you checked...?` he asks if Jessica has looked into something.
+`Have you checked...?`에서 Jessica가 어떤 것을 살펴봤는지 묻고 있습니다.
 
-By `whether all security updates were applied` he asks if updates were successfully installed.
+`whether all security updates were applied`에서 업데이트가 성공적으로 설치되었는지 묻고 있습니다.
 
 # --scene--
 

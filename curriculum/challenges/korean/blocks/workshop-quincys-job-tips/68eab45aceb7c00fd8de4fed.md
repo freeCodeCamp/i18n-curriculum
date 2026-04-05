@@ -1,51 +1,51 @@
 ---
 id: 68eab45aceb7c00fd8de4fed
-title: Step 11
+title: 11단계
 challengeType: 0
 dashedName: step-11
 ---
 
 # --description--
 
-Inside the second `section` element, nest an `h2` element with the text `Importance of Networking`.
+두 번째 `section` 요소 안에 텍스트 `h2`를 가진 `Importance of Networking` 요소를 중첩하세요.
 
-Below this heading, add a block quotation element with a `cite` attribute with the value `https://www.freecodecamp.org/news/learn-to-code-book/`.
+이 제목 아래에 값이 `cite`인 `https://www.freecodecamp.org/news/learn-to-code-book/` 속성을 가진 인용 블록 요소를 추가하세요.
 
 # --hints--
 
-You should have an `h2` element nested inside the second section.
+두 번째 섹션 안에 `h2` 요소가 중첩되어 있어야 합니다.
 
 ```js
 assert.exists(document.querySelector('main > section:nth-of-type(2) > h2'));
 ```
 
-Your `h2` element should have the text `Importance of Networking`.
+`h2` 요소에는 텍스트 `Importance of Networking`가 있어야 합니다.
 
 ```js
 const h2El = document.querySelector('main > section:nth-of-type(2) > h2');
 assert.equal(h2El?.innerText.trim(), 'Importance of Networking');
 ```
 
-You should have a `blockquote` element nested inside the second section.
+두 번째 섹션 안에 `blockquote` 요소가 중첩되어 있어야 합니다.
 
 ```js
 assert.exists(document.querySelector('main > section:nth-of-type(2) > blockquote'));
 ```
 
-Your `blockquote` element should be below your `h2` element.
+`blockquote` 요소는 `h2` 요소 아래에 있어야 합니다.
 
 ```js
 assert.exists(document.querySelector('main > section:nth-of-type(2) > h2 + blockquote'));
 ```
 
-Your `blockquote` element should have a `cite` attribute.
+`blockquote` 요소에는 `cite` 속성이 있어야 합니다.
 
 ```js
 const blockquoteEl = document.querySelector('main > section:nth-of-type(2) > blockquote');
 assert.exists(blockquoteEl?.getAttribute('cite'));
 ```
 
-The `cite` attribute of your `blockquote` element should have the value `https://www.freecodecamp.org/news/learn-to-code-book/`.
+`cite` 요소의 `blockquote` 속성은 값이 `https://www.freecodecamp.org/news/learn-to-code-book/`여야 합니다.
 
 ```js
 const blockquoteEl = document.querySelector('main > section:nth-of-type(2) > blockquote');
@@ -83,7 +83,7 @@ assert.equal(blockquoteEl?.getAttribute('cite'), 'https://www.freecodecamp.org/n
       </section>
       <section>
 --fcc-editable-region--
-
+        
 --fcc-editable-region--
       </section>
       <section>

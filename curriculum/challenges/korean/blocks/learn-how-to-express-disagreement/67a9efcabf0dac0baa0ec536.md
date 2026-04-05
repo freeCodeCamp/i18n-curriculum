@@ -1,6 +1,6 @@
 ---
 id: 67a9efcabf0dac0baa0ec536
-title: Task 4
+title: 작업 4
 challengeType: 22
 dashedName: task-4
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+오디오를 듣고 아래 문장을 완성하세요.
 
 # --fillInTheBlank--
 
@@ -24,13 +24,13 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-Think about what people need to improve their home workspace. This includes desks, chairs, and shelves.
+사람들이 집에서 일하는 공간을 개선하는 데 필요한 것이 무엇인지 생각해 보세요. 여기에는 책상, 의자, 선반 등이 포함됩니다.
 
 # --explanation--
 
-`Office furniture` refers to desks, chairs, shelves, and other items used in a workspace.
+`Office furniture`는 책상, 의자, 선반 등 작업 공간에서 사용하는 물건을 가리킵니다.
 
-In this dialogue, Bob is talking about how employees are choosing to spend their remote work stipend. Since working from home requires a comfortable and productive setup, many people use the stipend to buy office furniture such as ergonomic chairs or spacious desks.
+이 대화에서 Bob은 직원들이 원격 근무 수당을 어떻게 쓰는지 이야기하고 있습니다. 집에서 일하려면 편안하고 생산적인 환경이 필요하기 때문에 많은 사람이 인체공학적 의자나 넓은 책상 같은 사무용 가구를 사는 데 수당을 사용합니다.
 
 # --scene--
 

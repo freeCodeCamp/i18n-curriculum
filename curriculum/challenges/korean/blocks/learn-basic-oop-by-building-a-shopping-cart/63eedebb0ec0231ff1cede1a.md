@@ -1,45 +1,45 @@
 ---
 id: 63eedebb0ec0231ff1cede1a
-title: Step 22
+title: 22단계
 challengeType: 0
 dashedName: step-22
 ---
 
 # --description--
 
-Use the `.forEach()` method to loop through the `items` array. Pass an empty callback function that takes a single parameter `dessert`.
+`.forEach()` 메서드를 사용해 `items` 배열을 반복하세요. 매개변수 `dessert` 하나를 받는 빈 콜백 함수를 전달하세요.
 
 # --hints--
 
-You should use the `.forEach()` method on your `items` array.
+`.forEach()` 배열에 `items` 메서드를 사용해야 합니다.
 
 ```js
 const cart = new ShoppingCart();
 assert.match(cart.addItem.toString(), /items\.forEach\(/);
 ```
 
-Remember to use the `this` keyword to access the `items` array.
+`this` 배열에 접근하려면 `items` 키워드를 사용하세요.
 
 ```js
 const cart = new ShoppingCart();
 assert.match(cart.addItem.toString(), /this\.items\.forEach\(/);
 ```
 
-You should pass a callback function to the `.forEach()` method.
+`.forEach()` 메서드에 콜백 함수를 전달해야 합니다.
 
 ```js
 const cart = new ShoppingCart();
 assert.match(cart.addItem.toString(), /this\.items\.forEach\(\s*function\s*\(/);
 ```
 
-Your callback function should take a single parameter.
+콜백 함수는 매개변수 하나를 받아야 합니다.
 
 ```js
 const cart = new ShoppingCart();
 assert.match(cart.addItem.toString(), /this\.items\.forEach\(\s*function\s*\(\s*dessert\s*\)/);
 ```
 
-Your callback function should be empty.
+콜백 함수는 비워 두세요.
 
 ```js
 const cart = new ShoppingCart();

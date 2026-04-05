@@ -1,26 +1,26 @@
 ---
 id: 6482b07e8a3dcacbbbfa43f6
-title: Step 9
+title: 9단계
 challengeType: 0
 dashedName: step-9
 ---
 
 # --description--
 
-In the game, the player will have the opportunity to cross different checkpoints. You will need to keep track of the status for the checkpoint collision detection.
+게임에서 플레이어는 여러 체크포인트를 통과할 기회를 갖습니다. 체크포인트 충돌 감지를 위해 상태를 추적해야 합니다.
 
-Use `let` to create a new variable called `isCheckpointCollisionDetectionActive` and assign it the value of `true`.
+`let`를 사용해 `isCheckpointCollisionDetectionActive`이라는 새 변수를 만들고 `true` 값을 할당하세요.
 
 # --hints--
 
-You should use the `let` keyword to declare your `isCheckpointCollisionDetectionActive` variable.
+`let` 키워드를 사용해 `isCheckpointCollisionDetectionActive` 변수를 선언해야 합니다.
 
 ```js
 assert.match(code, /let\s+isCheckpointCollisionDetectionActive/);
 ```
 
 
-You should assign the value of `true` to `isCheckpointCollisionDetectionActive`
+`true` 값을 `isCheckpointCollisionDetectionActive`에 할당해야 합니다.
 
 ```js
 assert.match(code, /let\s+isCheckpointCollisionDetectionActive\s*=\s*true/);

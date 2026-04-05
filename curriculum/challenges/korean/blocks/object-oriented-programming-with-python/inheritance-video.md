@@ -1,6 +1,6 @@
 ---
 id: 697fe5c032baa3841ab62a64
-title: Inheritance
+title: 상속
 challengeType: 11
 videoId: uHdNSULVpgY
 dashedName: inheritance
@@ -8,29 +8,29 @@ dashedName: inheritance
 
 # --description--
 
-In this video, you will learn about inheritance in object oriented programming.
+이 영상에서는 객체 지향 프로그래밍에서 상속에 대해 배우세요.
 
 # --questions--
 
 ## --text--
 
-What is inheritance in object oriented programming?
+객체 지향 프로그래밍에서 상속이란 무엇인가요?
 
 ## --answers--
 
-This is when a class reuses code from a function.
+이것은 클래스가 함수의 코드를 재사용하는 경우입니다.
 
 ---
 
-This is when a class creates a copy of another class.
+이것은 클래스가 다른 클래스의 복사본을 만드는 경우입니다.
 
 ---
 
-This is when a class inherits properties and behaviors from another class.
+이것은 클래스가 다른 클래스의 속성과 동작을 상속받는 경우입니다.
 
 ---
 
-This is when a class hides its methods and variables from other classes.
+이것은 클래스가 다른 클래스에서 자신의 메서드와 변수를 숨기는 경우입니다.
 
 ## --video-solution--
 

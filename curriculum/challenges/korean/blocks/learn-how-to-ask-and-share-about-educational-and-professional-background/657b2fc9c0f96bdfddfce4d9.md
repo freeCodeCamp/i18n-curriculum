@@ -1,6 +1,6 @@
 ---
 id: 657b2fc9c0f96bdfddfce4d9
-title: Task 90
+title: 작업 90
 challengeType: 22
 dashedName: task-90
 lang: en-US
@@ -10,11 +10,11 @@ lang: en-US
 
 # --description--
 
-To `pique one's interest` means to make someone curious or make them want to know more. You use it when something catches your attention and makes you interested. For example:
+`pique one's interest`는 누군가의 호기심을 자극하거나 더 알고 싶게 만드는 것을 의미합니다. 무언가가 관심을 끌어 흥미를 느끼게 할 때 사용합니다. 예를 들어:
 
-- `The new AI tool really piqued my interest.` - It made you curious, and you wanted to learn more about it.
+- `The new AI tool really piqued my interest.` - 그것이 당신의 호기심을 자극해서 더 알고 싶게 만들었습니다.
 
-- `Her presentation on cybersecurity piqued the team's interest.` - The team became more curious and wanted to know more.
+- `Her presentation on cybersecurity piqued the team's interest.` - 팀이 더 호기심을 갖고 더 알고 싶어졌습니다.
 
 # --fillInTheBlank--
 
@@ -28,7 +28,7 @@ To `pique one's interest` means to make someone curious or make them want to kno
 
 ### --feedback--
 
-This word refers to the action of participating in or completing a course. You should correctly use its past form.
+이 단어는 강좌에 참여하거나 완료하는 행위를 가리킵니다. 과거형을 올바르게 사용해야 합니다.
 
 ---
 
@@ -36,7 +36,7 @@ This word refers to the action of participating in or completing a course. You s
 
 ### --feedback--
 
-This word describes the study of the mind and behavior, particularly in a workplace setting in this context.
+이 단어는 특히 직장 환경에서 마음과 행동을 연구하는 학문을 설명합니다.
 
 ---
 
@@ -44,7 +44,7 @@ This word describes the study of the mind and behavior, particularly in a workpl
 
 ### --feedback--
 
-This word means to arouse or stimulate interest or curiosity. You should correctly use its past form.
+이 단어는 관심이나 호기심을 불러일으키거나 자극하는 뜻입니다. 과거형을 올바르게 사용해야 합니다.
 
 # --scene--
 

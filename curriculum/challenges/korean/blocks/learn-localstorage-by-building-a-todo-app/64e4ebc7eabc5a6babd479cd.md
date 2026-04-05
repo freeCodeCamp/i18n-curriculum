@@ -1,43 +1,43 @@
 ---
 id: 64e4ebc7eabc5a6babd479cd
-title: Step 9
+title: 9단계
 challengeType: 0
 dashedName: step-9
 ---
 
 # --description--
 
-If the user clicks the `Discard` button, you want to close the modal showing the `Cancel` and `Discard` buttons, then hide the form modal.
+사용자가 `Discard` 버튼을 클릭하면 `Cancel`과 `Discard` 버튼이 있는 모달을 닫고, 그다음에 폼 모달을 숨기고 싶습니다.
 
-Add a click event listener to `discardBtn`, then use the `close()` method on the `confirmCloseDialog` variable. Also, use `classList` to toggle the class `hidden` on `taskForm` so the form modal will close too.
+`discardBtn`에 클릭 이벤트 리스너를 추가한 다음, `close()` 변수에서 `confirmCloseDialog` 메서드를 사용하세요. 또한, `classList`를 사용해 `hidden`에서 클래스 `taskForm`을 토글하여 폼 모달도 닫히도록 하세요.
 
 # --hints--
 
-You should call the `addEventListener()` method on your `discardBtn` variable.
+`addEventListener()` 변수에서 `discardBtn` 메서드를 호출해야 합니다.
 
 ```js
 assert.match(code, /discardBtn\.addEventListener\(/)
 ```
 
-Your event listener should listen for a `click` event.
+이벤트 리스너는 `click` 이벤트를 들어야 합니다.
 
 ```js
 assert.match(code, /discardBtn\.addEventListener\(\s*('|"|`)click\1/)
 ```
 
-You should use arrow syntax to set your event listener to an empty pair of curly braces.
+화살표 구문을 사용해 이벤트 리스너를 빈 중괄호 쌍으로 설정하세요.
 
 ```js
 assert.match(code, /discardBtn\.addEventListener\(\s*('|"|`)click\1\s*,\s*\(\s*\)\s*=>\s*\{/)
 ```
 
-Your event listener should use the `close()` method on `confirmCloseDialog`.
+이벤트 리스너는 `close()`에서 `confirmCloseDialog` 메서드를 사용해야 합니다.
 
 ```js
 assert.match(code, /discardBtn\.addEventListener\(\s*('|"|`)click\1\s*,\s*\(\s*\)\s*=>\s*\{\s*confirmCloseDialog\.close\(\s*\)\s*;?/)
 ```
 
-Your event listener should use `classList` to toggle the class `hidden` on `taskForm`.
+이벤트 리스너는 `classList`에서 클래스 `hidden`를 토글하기 위해 `taskForm`를 사용해야 합니다.
 
 ```js
 assert.match(code, /discardBtn\.addEventListener\(\s*('|"|`)click\1\s*,\s*\(\s*\)\s*=>\s*\{\s*confirmCloseDialog\.close\(\s*\)\s*;?\s*taskForm\.classList\.toggle\(\s*('|"|`)hidden\2\s*\)\s*;?\s*\}\s*\)\s*;?/)

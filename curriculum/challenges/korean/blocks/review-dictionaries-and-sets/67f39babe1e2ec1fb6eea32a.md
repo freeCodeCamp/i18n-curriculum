@@ -1,15 +1,15 @@
 ---
 id: 67f39babe1e2ec1fb6eea32a
-title: Dictionaries and Sets Review
+title: 딕셔너리와 세트 검토
 challengeType: 31
 dashedName: review-dictionaries-and-sets
 ---
 
 # --description--
 
-## Dictionaries
+## 딕셔너리
 
-- **Dictionaries**: Dictionaries are built-in data structures that store collections of key-value pairs. Keys need to be immutable data types. This is the general syntax of a Python dictionary:
+- **딕셔너리**: 딕셔너리는 키-값 쌍 컬렉션을 저장하는 내장 자료 구조입니다. 키는 변경 불가능한 데이터 타입이어야 합니다. 파이썬 딕셔너리의 일반 구문은 다음과 같습니다:
 
 ```python
 dictionary = {
@@ -18,27 +18,27 @@ dictionary = {
 }
 ```
 
-- **`dict()` Constructor**: The `dict()` constructor is an alternative way to build the dictionary. You pass a list of tuples as an argument to the `dict()` constructor. These tuples contain the key as the first element and the value as the second element.
+- **`dict()` 생성자**: `dict()` 생성자는 딕셔너리를 만드는 또 다른 방법입니다. `dict()` 생성자에 튜플 리스트를 인수로 전달합니다. 이 튜플들은 첫 번째 요소로 키를, 두 번째 요소로 값을 포함합니다.
 
 ```python
 pizza = dict([('name', 'Margherita Pizza'), ('price', 8.9), ('calories_per_slice', 250), ('toppings', ['mozzarella', 'basil'])])
 ```
 
-- **Bracket Notation**: To access the value of a key-value pair, you can use the syntax known as bracket notation.
+- **대괄호 표기법**: 키-값 쌍의 값을 접근하려면 대괄호 표기법으로 알려진 구문을 사용할 수 있습니다.
 
 ```python
 dictionary[key]
 ```
 
-## Common Dictionary Methods
+## 일반적인 딕셔너리 메서드
 
-- **`get()` Method**: The `get()` method retrieves the value associated with a key. It's similar to the bracket notation, but it lets you set a default value, preventing errors if the key doesn't exist.
+- **`get()` 메서드**: `get()` 메서드는 키와 연결된 값을 가져옵니다. 대괄호 표기법과 비슷하지만, 키가 없을 때 오류를 방지하기 위해 기본값을 설정할 수 있습니다.
 
 ```python
 dictionary.get(key, default)
 ```
 
-- **`keys()` and `values()` Methods**: The `keys()` and `values()` methods return a view object with all the keys and values in the dictionary, respectively. A view object is a way to see the content of a dictionary without creating a separate copy of the data.
+- **`keys()` 및 `values()` 메서드**: `keys()` 와 `values()` 메서드는 각각 딕셔너리의 모든 키와 값을 포함하는 뷰 객체를 반환합니다. 뷰 객체는 데이터를 별도로 복사하지 않고 딕셔너리 내용을 볼 수 있는 방법입니다.
 
 ```python
 pizza = {
@@ -54,41 +54,41 @@ pizza.values()
 # dict_values(['Margherita Pizza', 8.9, 250])
 ```
 
-- **`items()` Method**: The `items()` method returns a view object with all the key-value pairs in the dictionary, including both the keys and the values.
+- **`items()` 메서드**: `items()` 메서드는 키와 값 모두를 포함하는 모든 키-값 쌍의 뷰 객체를 반환합니다.
 
 ```python
 pizza.items()
 # dict_items([('name', 'Margherita Pizza'), ('price', 8.9), ('calories_per_slice', 250)])
 ```
 
-- **`clear()` Method**: The `clear()` method removes all the key-value pairs from the dictionary.
+- **`clear()` 메서드**: `clear()` 메서드는 딕셔너리의 모든 키-값 쌍을 제거합니다.
 
 ```python
 pizza.clear()
 ```
 
-- **`pop()` Method**: The `pop()` method removes the key-value pair with the key specified as the first argument and returns its value. If the key doesn't exist, it returns the default value specified as the second argument. If the key doesn't exist and the default value is not specified, a `KeyError` is raised.
+- **`pop()` 메서드**: `pop()` 메서드는 첫 번째 인수로 지정된 키를 가진 키-값 쌍을 제거하고 그 값을 반환합니다. 키가 없으면 두 번째 인수로 지정된 기본값을 반환합니다. 기본값이 없고 키가 없으면 `KeyError` 예외가 발생합니다.
 
 ```python
 pizza.pop('price', 10)
 pizza.pop('total_price') # KeyError
 ```
 
-- **`popitem()` Method**: In Python 3.7 and above, the `popitem()` method removes the last inserted item.
+- **`popitem()` 메서드**: 파이썬 3.7 이상에서 `popitem()` 메서드는 마지막에 삽입된 항목을 제거합니다.
 
 ```python
 pizza.popitem()
 ```
 
-- **`update()` Method**: The `update()` method updates the key-value pairs with the key-value pairs of another dictionary. If they have keys in common, their values are overwritten. New keys will be added to the dictionary as new key-value pairs.
+- **`update()` 메서드**: `update()` 메서드는 다른 딕셔너리의 키-값 쌍으로 현재 딕셔너리를 업데이트합니다. 공통 키가 있으면 값이 덮어쓰여지고, 새 키는 새로운 키-값 쌍으로 추가됩니다.
 
 ```python
 pizza.update({ 'price': 15, 'total_time': 25 })
 ```
 
-## Looping Over a Dictionary
+## 딕셔너리 순회하기
 
-- **Iterating Over Values**: If you need to iterate over the values in a dictionary, you can write a `for` loop with `values()` to get all the values of a dictionary.
+- **값 순회하기**: 딕셔너리의 값을 순회해야 할 때는 `for` 루프를 `values()` 와 함께 작성하여 딕셔너리의 모든 값을 얻을 수 있습니다.
 
 ```python
 products = {
@@ -102,7 +102,7 @@ for price in products.values():
     print(price)
 ```
 
-Output:
+출력:
 
 ```md
 990
@@ -111,7 +111,7 @@ Output:
 70
 ```
 
-- **Iterating Over Keys**: If you need to iterate over the keys in the `products` dictionary above, you can write `products.keys()` or `products` directly.
+- **키 순회하기**: 위 `products` 딕셔너리의 키를 순회해야 할 때는 `products.keys()` 또는 `products` 를 직접 작성할 수 있습니다.
 
 ```python
 for product in products.keys():
@@ -123,7 +123,7 @@ for product in products:
     print(product)
 ```
 
-Output:
+출력:
 
 ```md
 Laptop
@@ -132,14 +132,14 @@ Tablet
 Headphones
 ```
 
-- **Iterating Over Key-Value Pairs**: If you need to iterate over the keys and their corresponding values simultaneously, you can iterate over `products.items()`. You get individual tuples with the keys and their corresponding values.
+- **키-값 쌍 순회하기**: 키와 해당 값을 동시에 순회해야 할 때는 `products.items()` 를 순회할 수 있습니다. 키와 해당 값이 포함된 개별 튜플을 얻습니다.
 
 ```python
 for product in products.items():
     print(product)
 ```
 
-Output:
+출력:
 
 ```md
 ('Laptop', 990)
@@ -148,14 +148,14 @@ Output:
 ('Headphones', 70)
 ```
 
-To store the key and value in separate loop variables, you need to separate them with a comma. The first variable stores the key, and the second stores the value.
+키와 값을 별도의 루프 변수에 저장하려면 쉼표로 구분해야 합니다. 첫 번째 변수는 키를, 두 번째 변수는 값을 저장합니다.
 
 ```python
 for product, price in products.items():
     print(product, price)
 ```
 
-Output:
+출력:
 
 ```md
 Laptop 990
@@ -164,16 +164,16 @@ Tablet 250
 Headphones 70
 ```
 
-- **`enumerate()` Function**: If you need to iterate over a dictionary while keeping track of a counter, you can call the `enumerate()` function. The function returns an `enumerate` object, which assigns an integer to each item, like a counter. You can start the counter from any number, but by default, it starts from 0.
+- **`enumerate()` 함수**: 카운터를 추적하면서 딕셔너리를 순회해야 할 때 `enumerate()` 함수를 호출할 수 있습니다. 이 함수는 각 항목에 정수를 할당하는 `enumerate` 객체를 반환합니다. 카운터는 기본적으로 0부터 시작하지만 원하는 숫자부터 시작할 수 있습니다.
 
-Assigning the index and item to separate loop variables is the common way to use `enumerate()`. For example, with `products.items()`, you can get the entire key-value pair in addition to the index:
+인덱스와 항목을 별도의 루프 변수에 할당하는 것이 `enumerate()` 를 사용하는 일반적인 방법입니다. 예를 들어 `products.items()` 을 사용하면 인덱스뿐 아니라 전체 키-값 쌍도 얻을 수 있습니다:
 
 ```python
 for index, product in enumerate(products.items()):
     print(index, product)
 ```
 
-Output:
+출력:
 
 ```md
 0 ('Laptop', 990)
@@ -182,14 +182,14 @@ Output:
 3 ('Headphones', 70)
 ```
 
-To customize the initial value of the count, you can pass a second argument to `enumerate()`. For example, here we are starting the count from 1.
+카운트의 초기값을 사용자 지정하려면 `enumerate()` 에 두 번째 인수를 전달할 수 있습니다. 예를 들어 여기서는 1부터 카운트를 시작합니다.
 
 ```python
 for index, product in enumerate(products.items(), 1):
     print(index, product)
 ```
 
-Output:
+출력:
 
 ```md
 1 ('Laptop', 990)
@@ -198,47 +198,47 @@ Output:
 4 ('Headphones', 70)
 ```
 
-## Sets
+## 세트
 
-- **Sets**: Sets are built-in data structures in Python that do not allow duplicate values. Sets are mutable and unordered, which means that their elements are not stored in any specific order, so you cannot use indices or keys to access them. Also, sets can only contain values of immutable data types, like numbers, strings, and tuples.
+- **세트**: 세트는 파이썬 내장 자료 구조로 중복 값을 허용하지 않습니다. 세트는 변경 가능하고 순서가 없으므로 특정 순서로 저장되지 않아 인덱스나 키로 접근할 수 없습니다. 또한 세트는 숫자, 문자열, 튜플 같은 변경 불가능한 데이터 타입의 값만 포함할 수 있습니다.
 
-- **Defining a Set**: To define a set, you need to write its elements within curly brackets and separate them with commas.
+- **세트 정의하기**: 세트를 정의하려면 중괄호 안에 요소를 작성하고 쉼표로 구분하세요.
 
 ```python
 my_set = {1, 2, 3, 4, 5}
 ```
 
-- **Defining an Empty Set**: If you need to define an empty set, you must use the `set()` function. Only writing empty curly braces will automatically create a dictionary.
+- **빈 세트 정의하기**: 빈 세트를 정의하려면 `set()` 함수를 사용해야 합니다. 빈 중괄호만 작성하면 자동으로 딕셔너리가 생성됩니다.
 
 ```python
 set() # Set
 {}    # Dictionary
 ```
 
-## Common Set Methods
+## 일반적인 세트 메서드
 
-- **`add()` Method**: You can add an element to a set with the `add()` method, passing the new element as an argument.
+- **`add()` 메서드**: `add()` 메서드로 세트에 요소를 추가할 수 있으며, 새 요소를 인수로 전달합니다.
 
 ```python
 my_set.add(6)
 ```
 
-- **`remove()` and `discard()` Methods**: To remove an element from a set, you can either use the `remove()` method or the `discard()` method, passing the element you want to remove as an argument. The `remove()` method will raise a `KeyError` if the element is not found while the `discard()` method will not.
+- **`remove()` 및 `discard()` 메서드**: 세트에서 요소를 제거하려면 `remove()` 메서드 또는 `discard()` 메서드를 사용할 수 있으며, 제거할 요소를 인수로 전달합니다. `remove()` 메서드는 요소가 없으면 `KeyError` 예외를 발생시키지만 `discard()` 메서드는 발생시키지 않습니다.
 
 ```python
 my_set.remove(4)
 my_set.discard(4)
 ```
 
-- **`clear()` method**:  The `clear()` method removes all the elements from the set.
+- **`clear()` 메서드**: `clear()` 메서드는 세트의 모든 요소를 제거합니다.
 
 ```python
 my_set.clear()
 ```
 
-## Mathematical Set Operations
+## 수학적 세트 연산
 
-- **`issubset()` and `issuperset()` Methods**: The `issubset()` and the `issuperset()` methods check if a set is a subset or superset of another set, respectively.
+- **`issubset()` 및 `issuperset()` 메서드**: `issubset()` 와 `issuperset()` 메서드는 각각 한 세트가 다른 세트의 부분집합인지 또는 상위집합인지 확인합니다.
 
 ```python
 my_set = {1, 2, 3, 4, 5}
@@ -248,7 +248,7 @@ print(your_set.issubset(my_set)) # True
 print(my_set.issuperset(your_set)) # True
 ```
 
-- **`isdisjoint()` Method**: The `isdisjoint()` method checks if two sets are disjoint, if they don't have elements in common.
+- **`isdisjoint()` 메서드**: `isdisjoint()` 메서드는 두 세트가 공통 요소가 없으면 서로소인지 확인합니다.
 
 ```python
 my_set = {1, 2, 3}
@@ -257,7 +257,7 @@ your_set = {4, 5, 6}
 print(my_set.isdisjoint(your_set)) # True
 ```
 
-- **Union Operator (`|`)**: The union operator `|` returns a new set with all the elements from both sets.
+- **합집합 연산자 (`|`)**: 합집합 연산자 `|` 는 두 세트의 모든 요소를 포함하는 새 세트를 반환합니다.
 
 ```python
 my_set = {1, 2, 3}
@@ -266,7 +266,7 @@ your_set = {4, 5, 6}
 my_set | your_set # {1, 2, 3, 4, 5, 6}
 ```
 
-- **Intersection Operator (`&`)**: The intersection operator `&` returns a new set with only the elements that the sets have in common.
+- **교집합 연산자 (`&`)**: 교집합 연산자 `&` 는 두 세트가 공통으로 가진 요소만 포함하는 새 세트를 반환합니다.
 
 ```python
 my_set = {1, 2, 3, 4, 5}
@@ -275,7 +275,7 @@ your_set = {2, 3, 4, 6}
 my_set & your_set # {2, 3, 4}
 ```
 
-- **Difference Operator (`-`)**: The difference operator `-` returns a new set with the elements of the first set that are not in the other sets.
+- **차집합 연산자 (`-`)**: 차집합 연산자 `-` 는 첫 번째 세트에만 있고 다른 세트에는 없는 요소를 포함하는 새 세트를 반환합니다.
 
 ```python
 my_set = {1, 2, 3, 4, 5}
@@ -284,7 +284,7 @@ your_set = {2, 3, 4, 6}
 my_set - your_set # {1, 5}
 ```
 
-- **Symmetric Difference Operator (`^`)**: The symmetric difference operator `^` returns a new set with the elements that are either in the first or the second set, but not both.
+- **대칭 차집합 연산자 (`^`)**: 대칭 차집합 연산자 `^` 는 첫 번째 세트 또는 두 번째 세트 중 하나에만 있는 요소를 포함하는 새 세트를 반환합니다.
 
 ```python
 my_set = {1, 2, 3, 4, 5}
@@ -293,33 +293,33 @@ your_set = {2, 3, 4, 6}
 my_set ^ your_set # {1, 5, 6}
 ```
 
-- **`in` Operator**: You can check if an element is in a set or not with the `in` operator.
+- **`in` 연산자**: `in` 연산자로 요소가 세트에 있는지 확인할 수 있습니다.
 
 ```python
 print(5 in my_set) # True
 ```
 
-## Python Standard Library
+## 파이썬 표준 라이브러리
 
-- **Python Standard Library**: A library gives you pre-written and reusable code, like functions, classes, and data structures, that you can reuse in your projects. Python has an extensive standard library with built-in modules that implement standardized solutions for many problems and tasks. Some examples of popular built-in modules are `math`, `random`, `re` (short for "regular expressions"), and `datetime`.
+- **파이썬 표준 라이브러리**: 라이브러리는 함수, 클래스, 자료 구조 같은 미리 작성되고 재사용 가능한 코드를 제공하여 프로젝트에서 재사용할 수 있게 합니다. 파이썬은 많은 문제와 작업에 표준화된 솔루션을 구현하는 내장 모듈을 포함하는 광범위한 표준 라이브러리를 갖추고 있습니다. 인기 있는 내장 모듈 예로는 `math`, `random`, `re` (정규 표현식의 약자), `datetime` 등이 있습니다.
 
-## Import Statement
+## import 문
 
-- **Import Statement**: To access the elements defined in built-in modules, you use an import statement. Import statements are generally written at the top of the file. Import statements work the same for functions, classes, constants, variables, and any other elements defined in the module.
+- **import 문**: 내장 모듈에 정의된 요소에 접근하려면 import 문을 사용하세요. import 문은 일반적으로 파일 상단에 작성합니다. import 문은 함수, 클래스, 상수, 변수 및 모듈에 정의된 다른 모든 요소에 대해 동일하게 작동합니다.
 
-- **Basic Import Statement**: You can use the `import` keyword followed by the name of the module:
+- **기본 import 문**: `import` 키워드 다음에 모듈 이름을 작성할 수 있습니다:
 
 ```python
 import module_name
 ```
 
-Then, if you need to call a function from that module, you would use dot notation, with the name of the module followed by the name of the function.
+그런 다음 해당 모듈의 함수를 호출하려면 모듈 이름 다음에 함수 이름을 점 표기법으로 작성합니다.
 
 ```python
 module_name.function_name()
 ```
 
-For example, you would write the following in your code to import the `math` module and get the square root of 36:
+예를 들어, `math` 모듈을 가져와 36의 제곱근을 구하려면 다음과 같이 작성합니다:
 
 ```python
 import math
@@ -327,31 +327,31 @@ import math
 math.sqrt(36)
 ```
 
-- **Importing a Module with a Different Name**: If you need to import the module with a different name (also known as an "alias"), you can use `as` followed by the alias at the end of the import statement. This is often used for long module names or to avoid naming conflicts.
+- **다른 이름으로 모듈 가져오기**: 모듈을 다른 이름(별칭)으로 가져와야 할 때는 import 문 끝에 `as` 다음에 별칭을 작성하세요. 긴 모듈 이름이나 이름 충돌을 피하려고 자주 사용합니다.
 
 ```python
 import module_name as module_alias
 ```
 
-For example, to refer to the `math` module as `m` in your code, you can assign an alias like this:
+예를 들어, `math` 모듈을 코드에서 `m` 로 참조하려면 다음과 같이 별칭을 지정할 수 있습니다:
 
 ```python
 import math as m
 ```
 
-Then, you can access the elements of the module using the alias:
+그런 다음 별칭을 사용해 모듈의 요소에 접근할 수 있습니다:
 
 ```python
 m.sqrt(36)
 ```
 
-- **Importing Specific Elements**: If you don't need everything from a module, you can import specific elements using `from`. In this case, the import statement starts with `from`, followed by the module name, then the `import` keyword, and finally the names of the elements you want to import.
+- **특정 요소 가져오기**: 모듈 전체가 필요 없으면 `from` 를 사용해 특정 요소만 가져올 수 있습니다. 이 경우 import 문은 `from` 로 시작하고 모듈 이름, `import` 키워드, 가져올 요소 이름을 차례로 작성합니다.
 
 ```python
 from module_name import name1, name2
 ```
 
-Then, you can use these names without the module prefix in your Python script. For example:
+그런 다음 파이썬 스크립트에서 모듈 접두사 없이 이 이름들을 사용할 수 있습니다. 예를 들어:
 
 ```python
 from math import radians, sin, cos
@@ -365,35 +365,35 @@ cos_value = cos(angle_radians)
 print(sine_value) # 0.6427876096865393
 print(cos_value)  # 0.766044443118978
 ```
+ 
+이 방법은 유용하지만, 이미 같은 이름의 함수나 변수가 있을 경우 이름 충돌이 발생할 수 있으니 주의하세요.
 
-This is helpful, but it can result in naming conflicts if you already have functions or variables with the same name. Keep it in mind when choosing which type of import statement you want to use.
-
-If you need to assign aliases to these names, you can do so as well, using the `as` keyword followed by the alias.
+이 이름들에 별칭을 지정해야 할 경우 `as` 키워드 다음에 별칭을 작성해 지정할 수 있습니다.
 
 ```python
 from module_name import name1 as alias1, name2 as alias2
 ```
 
-- **Import Statement with Asterisk (`*`)**: The asterisk tells Python that you want to import everything in that module, but you want to import it so that you don't need to use the name of the module as a prefix.
+- **별표(*)를 사용한 import 문 (`*`)**: 별표는 해당 모듈의 모든 것을 가져오지만 모듈 이름을 접두사로 사용하지 않아도 된다는 뜻입니다.
 
 ```python
 from module_name import *
 ```
 
-For example, if you use this to import the `math` module, you'll be able to call any function defined in that module without specifying the name of the module as a prefix.
+예를 들어 `math` 모듈을 이렇게 가져오면 모듈 이름 접두사 없이 그 모듈에 정의된 모든 함수를 호출할 수 있습니다.
 
 ```python
 from math import *
 print(sqrt(36))  # 6.0
 ```
 
-However, this is generally discouraged because it can lead to namespace collisions and make it harder to know where names come from.
+하지만 일반적으로 권장하지 않습니다. 네임스페이스 충돌이 발생하고 이름 출처를 알기 어려워질 수 있기 때문입니다.
 
 ## `if __name__ == '__main__'`
 
-- **`__name__` Variable**: `__name__` is a special built-in variable in Python. When a Python file is executed directly, Python sets the value of this variable to the string `"__main__"`. But if the Python file is imported as a module into another Python script, the value of the `__name__` variable is set to the name of that module.
+- **`__name__` 변수**: `__name__` 은 파이썬의 특별한 내장 변수입니다. 파이썬 파일을 직접 실행하면 이 변수의 값이 문자열 `"__main__"` 로 설정됩니다. 하지만 파이썬 파일이 다른 스크립트에 모듈로 가져와지면 `__name__` 변수의 값은 그 모듈 이름으로 설정됩니다.
 
-This is why you'll often find this conditional in Python scripts. It contains the code that you only want to run **only** if the Python script is running as the main program.
+이 때문에 파이썬 스크립트에서 이 조건문을 자주 볼 수 있습니다. 이 조건문 안에는 파이썬 스크립트가 메인 프로그램으로 실행될 때만 실행하고 싶은 코드가 들어 있습니다.
 
 ```python
 if __name__ == '__main__': 
@@ -402,4 +402,4 @@ if __name__ == '__main__':
 
 # --assignment--
 
-Review the Dictionaries and Sets topics and concepts.
+딕셔너리와 세트 주제 및 개념을 검토하세요.

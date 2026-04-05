@@ -1,13 +1,13 @@
 ---
 id: 67d301cc87b84eaa42bdcdbe
-title: What Is a tsconfig File, and Why Is It Important to Include in Your TypeScript Projects?
+title: tsconfig 파일이란 무엇이며 TypeScript 프로젝트에 포함하는 것이 왜 중요한가요?
 challengeType: 19
 dashedName: what-is-a-tsconfig-file-and-why-is-it-important-to-include-in-your-typescript-projects
 ---
 
 # --description--
 
-TypeScript's compiler settings can be configured to meet your project's needs. That configuration lives in a `tsconfig.json` file in the root directory of your project. In fact, without it, the compiler will not run unless you pass it command flags directly. But what exactly does this file do? Well, let's take a look at an example file:
+TypeScript 컴파일러 설정은 프로젝트 요구에 맞게 구성할 수 있습니다. 이 구성은 프로젝트 루트 디렉터리에 있는 `tsconfig.json` 파일에 저장됩니다. 사실, 이 파일이 없으면 컴파일러는 명령어 플래그를 직접 전달하지 않는 한 실행되지 않습니다. 그렇다면 이 파일은 정확히 무엇을 할까요? 예시 파일을 살펴보겠습니다:
 
 ```json
 {
@@ -26,27 +26,27 @@ TypeScript's compiler settings can be configured to meet your project's needs. T
 }
 ```
 
-This seems like a lot! So let's break it down. The `compilerOptions` property is going to contain the "meat" of your configuration - this is where you control how the TypeScript compiler behaves. Looking at that nested object…
+내용이 꽤 많아 보이네요! 하나씩 살펴보겠습니다. `compilerOptions` 속성은 구성의 핵심 부분을 담고 있습니다 - 여기서 TypeScript 컴파일러의 동작 방식을 제어합니다. 중첩된 객체를 보면…
 
-The `rootDir` and `outDir` tell TypeScript which directory holds your source files, and which directory should contain the transpiled JavaScript code.
+`rootDir`와 `outDir`는 TypeScript에 소스 파일이 있는 디렉터리와 트랜스파일된 JavaScript 코드가 들어갈 디렉터리를 알려줍니다.
 
-The `lib` property determines which type definitions the compiler uses, and allows you to include support for specific ES releases, the DOM, and more.
+`lib` 속성은 컴파일러가 사용할 타입 정의를 결정하며, 특정 ES 버전, DOM 등 지원을 포함할 수 있게 합니다.
 
-`module` and `moduleResolution` effectively work in tandem to manage how your package uses modules - either CommonJS or ECMAScript.
+`module`와 `moduleResolution`는 모듈 사용 방식을 관리하는 데 함께 작동합니다 - CommonJS 또는 ECMAScript 중 하나를 선택합니다.
 
-`esModuleInterop` allows for smoother interoperability between CommonJS and ES modules by automatically creating namespace objects for imports, making it easier to use modules from different systems together in your TypeScript projects, and the `skipLibCheck` option skips validating `.d.ts` files that aren't referenced by imports in your code.
+`esModuleInterop`은 CommonJS와 ES 모듈 간의 원활한 상호 운용성을 지원하는데, import에 대해 네임스페이스 객체를 자동 생성하여 서로 다른 시스템의 모듈을 TypeScript 프로젝트에서 쉽게 사용할 수 있게 합니다. `skipLibCheck` 옵션은 코드에서 import로 참조되지 않는 `.d.ts` 파일의 검증을 건너뜁니다.
 
-And finally we reach the `strict` mode. One might argue that TypeScript isn't truly helpful without this flag enabled, as it toggles quite a few other checks, such as requiring you to properly handle nullable types, or warn when TypeScript can't infer a type and falls back to any.
+마지막으로 `strict` 모드에 도달합니다. 이 플래그가 활성화되지 않으면 TypeScript가 진정으로 유용하지 않다고 주장할 수 있는데, nullable 타입을 제대로 처리하도록 요구하거나 TypeScript가 타입을 추론하지 못해 any로 대체할 때 경고하는 등 여러 검사를 켭니다.
 
-Before we finish, a quick note about the top-level `exclude` property - when you've defined a source directory, you may have TypeScript code outside of that directory which you don't want compiled as part of your production code. For example, your test code. The `exclude` array tells the compiler to ignore these TypeScript files during compilation, but still allows tooling like Intellisense to expose potential issues.
+마지막으로 최상위 `exclude` 속성에 대해 간단히 언급하겠습니다 - 소스 디렉터리를 정의했을 때, 그 디렉터리 밖에 있지만 프로덕션 코드로 컴파일하고 싶지 않은 TypeScript 코드가 있을 수 있습니다. 예를 들어 테스트 코드가 그렇습니다. `exclude` 배열은 컴파일러가 이 TypeScript 파일들을 컴파일에서 무시하도록 지시하지만, Intellisense 같은 도구가 잠재적 문제를 노출하는 것은 허용합니다.
 
-There are a ton of other compiler options you can explore - over 50! I encourage you to explore the documentation and experiment to find the configuration that works for your project's needs.
+탐색할 수 있는 컴파일러 옵션이 50개 이상이나 많습니다! 문서를 참고하고 실험해 보면서 프로젝트 요구에 맞는 구성을 찾아보세요.
 
 # --questions--
 
 ## --text--
 
-Which property in the `tsconfig.json` file affects how the compiler behaves?
+`tsconfig.json` 파일에서 컴파일러 동작에 영향을 주는 속성은 무엇인가요?
 
 ## --answers--
 
@@ -54,7 +54,7 @@ Which property in the `tsconfig.json` file affects how the compiler behaves?
 
 ### --feedback--
 
-This property is an object containing options for the compiler.
+이 속성은 컴파일러 옵션을 담은 객체입니다.
 
 ---
 
@@ -66,7 +66,7 @@ This property is an object containing options for the compiler.
 
 ### --feedback--
 
-This property is an object containing options for the compiler.
+이 속성은 컴파일러 옵션을 담은 객체입니다.
 
 ---
 
@@ -74,7 +74,7 @@ This property is an object containing options for the compiler.
 
 ### --feedback--
 
-This property is an object containing options for the compiler.
+이 속성은 컴파일러 옵션을 담은 객체입니다.
 
 ## --video-solution--
 
@@ -82,35 +82,35 @@ This property is an object containing options for the compiler.
 
 ## --text--
 
-What does the `strict` option in the `tsconfig.json` file do?
+`strict` 옵션이 `tsconfig.json` 파일에서 하는 역할은 무엇인가요?
 
 ## --answers--
 
-It only checks for nullable types.
+nullable 타입만 검사합니다.
 
 ### --feedback--
 
-This option enables various checks, including handling of nullable types.
+이 옵션은 nullable 타입 처리 등 다양한 검사를 활성화합니다.
 
 ---
 
-It enforces the use of CommonJS modules.
+CommonJS 모듈 사용을 강제합니다.
 
 ### --feedback--
 
-This option enables various checks, including handling of nullable types.
+이 옵션은 nullable 타입 처리 등 다양한 검사를 활성화합니다.
 
 ---
 
-It toggles several type-checking options.
+여러 타입 검사 옵션을 전환합니다.
 
 ---
 
-It excludes test files from compilation.
+테스트 파일을 컴파일에서 제외합니다.
 
 ### --feedback--
 
-This option enables various checks, including handling of nullable types.
+이 옵션은 nullable 타입 처리 등 다양한 검사를 활성화합니다.
 
 ## --video-solution--
 
@@ -118,35 +118,35 @@ This option enables various checks, including handling of nullable types.
 
 ## --text--
 
-What is the purpose of the `exclude` array in the `tsconfig.json` file?
+`exclude` 배열이 `tsconfig.json` 파일에서 하는 목적은 무엇인가요?
 
 ## --answers--
 
-To specify which files to compile.
+컴파일할 파일을 지정합니다.
 
 ### --feedback--
 
-You can use this to exclude test code from compilation.
+테스트 코드를 컴파일에서 제외할 때 사용할 수 있습니다.
 
 ---
 
-To list additional libraries to include.
+추가로 포함할 라이브러리를 나열합니다.
 
 ### --feedback--
 
-You can use this to exclude test code from compilation.
+테스트 코드를 컴파일에서 제외할 때 사용할 수 있습니다.
 
 ---
 
-To ignore certain files during compilation.
+컴파일 중 특정 파일을 무시합니다.
 
 ---
 
-To define output directories for compiled files.
+컴파일된 파일의 출력 디렉터리를 정의합니다.
 
 ### --feedback--
 
-You can use this to exclude test code from compilation.
+테스트 코드를 컴파일에서 제외할 때 사용할 수 있습니다.
 
 ## --video-solution--
 

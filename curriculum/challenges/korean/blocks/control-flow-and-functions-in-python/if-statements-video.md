@@ -1,6 +1,6 @@
 ---
 id: 08854a2c6f052efa1e5270d2
-title: If Statements
+title: if 문
 challengeType: 11
 videoId: lruoyNlItfg
 dashedName: if-statements
@@ -8,13 +8,13 @@ dashedName: if-statements
 
 # --description--
 
-In this video, you will learn how to use if statements to control the flow of your Python programs based on conditions.
+이 영상에서는 조건에 따라 Python 프로그램의 흐름을 제어하는 if 문 사용법을 배우세요.
 
 # --questions--
 
 ## --text--
 
-What will be the output for the following code?
+다음 코드의 출력 결과는 무엇일까요?
 
 ```python
 is_male = True

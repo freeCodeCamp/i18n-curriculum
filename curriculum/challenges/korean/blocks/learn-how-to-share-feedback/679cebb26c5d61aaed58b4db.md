@@ -1,6 +1,6 @@
 ---
 id: 679cebb26c5d61aaed58b4db
-title: Task 79
+title: 도전 과제 79
 challengeType: 19
 dashedName: task-79
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+오디오를 듣고 아래 질문에 답하세요.
 
 # --questions--
 
 ## --text--
 
-What does James know about the issue with the latest update?
+James는 최신 업데이트 문제에 대해 무엇을 알고 있나요?
 
 ## --answers--
 
-He knows exactly what the issue is.
+그는 문제를 정확히 알고 있습니다.
 
 ### --feedback--
 
-James clearly says he didn't hear anything.
+James는 분명히 아무것도 듣지 못했다고 말합니다.
 
 ---
 
-He doesn't know anything about it.
+그는 그 문제에 대해 아무것도 모릅니다.
 
 ---
 
-He already talked to the client.
+그는 이미 클라이언트와 이야기했습니다.
 
 ### --feedback--
 
-James does not mention speaking to the client.
+James는 클라이언트와 이야기했다고 언급하지 않습니다.
 
 ---
 
-He received an email about the issue.
+그는 문제에 관한 이메일을 받았습니다.
 
 ### --feedback--
 
-James states that he didn't hear anything.
+James는 아무것도 듣지 못했다고 말합니다.
 
 ## --video-solution--
 
@@ -52,7 +52,7 @@ James states that he didn't hear anything.
 
 # --explanation--
 
-Short answers with auxiliary verbs repeat the auxiliary from the question to confirm or deny something. In this case, Maria asks, `Did you hear anything?`, and James responds, `No, I didn't.` instead of just saying `No.` Here are some other examples:
+조동사를 포함한 짧은 대답은 질문에서 조동사를 반복하여 무언가를 확인하거나 부인합니다. 이 경우 Maria가 `Did you hear anything?`라고 묻자 James는 `No, I didn't.`라고 대답하며 단순히 `No.`라고 말하지 않습니다. 다음은 다른 예시입니다:
 
 - `Are you coming to the meeting?` → `Yes, I am.`
 
@@ -60,7 +60,7 @@ Short answers with auxiliary verbs repeat the auxiliary from the question to con
 
 - `Will she be here on time?` → `Yes, she will.`
 
-Short answers make responses sound natural and complete while avoiding repetition of the full sentence.
+짧은 대답은 응답을 자연스럽고 완전하게 들리게 하면서 전체 문장의 반복을 피합니다.
 
 # --scene--
 

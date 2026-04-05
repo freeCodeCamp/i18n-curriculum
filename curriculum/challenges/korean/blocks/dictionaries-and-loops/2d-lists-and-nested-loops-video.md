@@ -1,6 +1,6 @@
 ---
 id: 28119f9dc5f93e3ac5d7c58a
-title: 2D Lists and Nested Loops
+title: 2차원 리스트와 중첩 반복문
 challengeType: 11
 videoId: 2lKgjX3gzmM
 dashedName: 2d-lists-and-nested-loops
@@ -8,13 +8,13 @@ dashedName: 2d-lists-and-nested-loops
 
 # --description--
 
-In this video, you will learn how to create 2D lists and use nested loops to work with multi-dimensional data structures.
+이 영상에서는 2차원 리스트를 만드는 방법과 중첩 반복문을 사용해 다차원 자료 구조를 다루는 방법을 배우세요.
 
 # --questions--
 
 ## --text--
 
-What will be the output for the following code?
+다음 코드의 출력 결과는 무엇일까요?
 
 ```python
 number_grid = [

@@ -1,6 +1,6 @@
 ---
 id: 698dca057932b3cc4b19c926
-title: Linear Search in Code
+title: 코드에서 선형 탐색
 challengeType: 11
 videoId: bKkgjdPkL3A
 dashedName: linear-search-in-code
@@ -8,13 +8,13 @@ dashedName: linear-search-in-code
 
 # --description--
 
-In this video, you will code out the linear search algorithm using Python.
+이 영상에서는 Python을 사용해 선형 탐색 알고리즘을 코딩합니다.
 
 # --questions--
 
 ## --text--
 
-Which of the following is the correct way to write a linear search function?
+다음 중 선형 탐색 함수를 올바르게 작성한 것은 무엇인가요?
 
 ## --answers--
 

@@ -1,6 +1,6 @@
 ---
 id: 6821b0fc7feba25dfba3d6ae
-title: Task 105
+title: 작업 105
 challengeType: 19
 dashedName: task-105
 lang: en-US
@@ -10,13 +10,13 @@ lang: en-US
 
 # --instructions--
 
-Read the text and answer the question below.
+텍스트를 읽고 아래 질문에 답하세요.
 
 # --questions--
 
 ## --text--
 
-After receiving Alice's feedback and making improvements, Jake finalized his pitch like this:
+앨리스의 피드백을 받고 개선한 후, 제이크는 다음과 같이 피치를 완성했습니다:
 
 `In today's fast-changing world, startups need a robust and secure way to protect their data. GuardianTech is not just helpful, it's an essential and critical solution for your digital environment.`
 
@@ -28,35 +28,35 @@ After receiving Alice's feedback and making improvements, Jake finalized his pit
 
 `In short, GuardianTech is a unique cybersecurity solution. It gives you everything you need — now and in the future — to stay protected, grow safely, and succeed.`
 
-Why is GuardianTech described as `cost-effective`?
+왜 GuardianTech가 `cost-effective`로 설명되었나요?
 
 ## --answers--
 
-It is only available to large companies with big budgets.
+예산이 큰 대기업에서만 사용할 수 있기 때문입니다.
 
 ### --feedback--
 
-Jake talks about startups, not big-budget corporations.
+제이크는 대규모 예산 기업이 아닌 스타트업에 대해 이야기합니다.
 
 ---
 
-It includes many free advertisements.
+많은 무료 광고를 포함하고 있기 때문입니다.
 
 ### --feedback--
 
-The pitch doesn't mention marketing or ads.
+피치에는 마케팅이나 광고에 대한 언급이 없습니다.
 
 ---
 
-It provides strong protection without a high price.
+높은 가격 없이 강력한 보호를 제공하기 때문입니다.
 
 ---
 
-It replaces the need for customer support.
+고객 지원의 필요성을 대체하기 때문입니다.
 
 ### --feedback--
 
-The text never says it replaces support.
+텍스트에는 지원을 대체한다고 전혀 말하지 않습니다.
 
 ## --video-solution--
 
@@ -64,8 +64,8 @@ The text never says it replaces support.
 
 # --explanation--
 
-To find the answer, look at the sentence about GuardianTech being `cost-effective`.
+정답을 찾으려면 GuardianTech가 `cost-effective`라고 한 문장을 보세요.
 
-The pitch explains it gives `high-quality protection without a big price tag`, which means strong value at low cost.
+피치에서는 `high-quality protection without a big price tag`를 제공한다고 설명하는데, 이는 낮은 비용에 강력한 가치를 의미합니다.
 
-Look for the option that reflects this.
+이 점을 반영한 선택지를 찾으세요.

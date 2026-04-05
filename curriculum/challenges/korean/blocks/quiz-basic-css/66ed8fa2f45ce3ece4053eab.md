@@ -1,13 +1,13 @@
 ---
 id: 66ed8fa2f45ce3ece4053eab
-title: CSS Fundamentals Quiz
+title: CSS 기본 퀴즈
 challengeType: 8
 dashedName: quiz-basic-css
 ---
 
 # --description--
 
-To pass the quiz, you must correctly answer at least 18 of the 20 questions below.
+퀴즈를 통과하려면 아래 20문제 중 최소 18문제를 올바르게 답해야 합니다.
 
 # --quizzes--
 
@@ -17,7 +17,7 @@ To pass the quiz, you must correctly answer at least 18 of the 20 questions belo
 
 #### --text--
 
-What does CSS stand for?
+CSS는 무엇의 약자인가요?
 
 #### --distractors--
 
@@ -39,7 +39,7 @@ Cascading Style Sheets
 
 #### --text--
 
-Which of the following is a correct CSS rule?
+다음 중 올바른 CSS 규칙은 무엇인가요?
 
 #### --distractors--
 
@@ -61,29 +61,29 @@ Which of the following is a correct CSS rule?
 
 #### --text--
 
-What does `<meta name="viewport">` do?
+`<meta name="viewport">`는 무엇을 하나요?
 
 #### --distractors--
 
-It links external stylesheets to a webpage for responsive design.
+반응형 디자인을 위해 외부 스타일시트를 웹 페이지에 연결합니다.
 
 ---
 
-It specifies the metadata used by search engines to index a webpage.
+검색 엔진이 웹 페이지를 인덱싱하는 데 사용하는 메타데이터를 지정합니다.
 
 ---
 
-It specifies the character encoding used on the webpage.
+웹 페이지에서 사용하는 문자 인코딩을 지정합니다.
 
 #### --answer--
 
-It controls the shape and size of a web page on different screen sizes.
+다양한 화면 크기에서 웹 페이지의 모양과 크기를 제어합니다.
 
 ### --question--
 
 #### --text--
 
-Which syntax is correct to use inline CSS?
+인라인 CSS를 사용할 때 올바른 구문은 무엇인가요?
 
 #### --distractors--
 
@@ -105,29 +105,29 @@ Which syntax is correct to use inline CSS?
 
 #### --text--
 
-When using internal CSS, where is the `style` element placed within the HTML?
+내부 CSS를 사용할 때 `style` 요소는 HTML의 어디에 위치하나요?
 
 #### --distractors--
 
-In the `meta` element.
+`meta` 요소 안에 있습니다.
 
 ---
 
-In the `script` element.
+`script` 요소 안에 있습니다.
 
 ---
 
-In the `body` element.
+`body` 요소 안에 있습니다.
 
 #### --answer--
 
-In the `head` element.
+`head` 요소 안에 있습니다.
 
 ### --question--
 
 #### --text--
 
-Which rule is correct for setting the width and height in CSS?
+CSS에서 너비와 높이를 설정하는 올바른 규칙은 무엇인가요?
 
 #### --distractors--
 
@@ -149,7 +149,7 @@ Which rule is correct for setting the width and height in CSS?
 
 #### --text--
 
-Which selector correctly targets `h1` elements only when inside a `div`?
+어떤 선택자가 `h1` 안에 있을 때만 `div` 요소를 올바르게 선택하나요?
 
 #### --distractors--
 
@@ -171,7 +171,7 @@ Which selector correctly targets `h1` elements only when inside a `div`?
 
 #### --text--
 
-Which selector is correct to target direct children of a `footer`?
+`footer`의 직계 자식을 선택하는 올바른 선택자는 무엇인가요?
 
 #### --distractors--
 
@@ -193,7 +193,7 @@ Which selector is correct to target direct children of a `footer`?
 
 #### --text--
 
-Which selector is correct to target the next sibling of an `img`?
+`img`의 다음 형제 요소를 선택하는 올바른 선택자는 무엇인가요?
 
 #### --distractors--
 
@@ -215,7 +215,7 @@ Which selector is correct to target the next sibling of an `img`?
 
 #### --text--
 
-Which selector is correct to target all siblings preceded by an `img` element?
+`img` 요소 다음에 오는 모든 형제 요소를 선택하는 올바른 선택자는 무엇인가요?
 
 #### --distractors--
 
@@ -237,51 +237,51 @@ Which selector is correct to target all siblings preceded by an `img` element?
 
 #### --text--
 
-What statement is TRUE about block-level elements?
+블록 레벨 요소에 대해 TRUE인 설명은 무엇인가요?
 
 #### --distractors--
 
-Block-level elements stack horizontally by default.
+블록 레벨 요소는 기본적으로 수평으로 쌓입니다.
 
 ---
 
-`width` and `height` properties usually do not apply to block-level elements unless you set their `display` property to `inline-block`.
+`width`와 `height` 속성은 `display` 속성을 `inline-block`로 설정하지 않으면 보통 블록 레벨 요소에 적용되지 않습니다.
 
 ---
 
-Block-level elements cannot contain inline elements inside them.
+블록 레벨 요소는 내부에 인라인 요소를 포함할 수 없습니다.
 
 #### --answer--
 
-Block-level elements start on a new line and take up the full width of their container.
+블록 레벨 요소는 새 줄에서 시작하며 컨테이너의 전체 너비를 차지합니다.
 
 ### --question--
 
 #### --text--
 
-What statement is TRUE when using the `inline-block` value?
+`inline-block` 값을 사용할 때 TRUE인 설명은 무엇인가요?
 
 #### --distractors--
 
-Elements stack vertically, always taking up the full width of their container.
+요소는 수직으로 쌓이며 항상 컨테이너의 전체 너비를 차지합니다.
 
 ---
 
-Elements align horizontally but cannot apply vertical padding or margin.
+요소는 수평으로 정렬되지만 수직 패딩이나 여백을 적용할 수 없습니다.
 
 ---
 
-Elements respect width and height settings but cannot contain other elements inside them.
+요소는 너비와 높이 설정을 존중하지만 내부에 다른 요소를 포함할 수 없습니다.
 
 #### --answer--
 
-Elements retain inline flow but allow setting width and height.
+요소는 인라인 흐름을 유지하면서 너비와 높이 설정을 허용합니다.
 
 ### --question--
 
 #### --text--
 
-Given the following selectors, which has the highest specificity?
+다음 선택자 중 가장 높은 특이성을 가진 것은 무엇인가요?
 
 #### --distractors--
 
@@ -303,7 +303,7 @@ Given the following selectors, which has the highest specificity?
 
 #### --text--
 
-Given the following selectors, which has the lowest specificity?
+다음 선택자 중 가장 낮은 특이성을 가진 것은 무엇인가요?
 
 #### --distractors--
 
@@ -325,73 +325,73 @@ Given the following selectors, which has the lowest specificity?
 
 #### --text--
 
-What does the `*` selector do?
+`*` 선택자는 무엇을 하나요?
 
 #### --distractors--
 
-Targets some elements on the page.
+페이지의 일부 요소를 선택합니다.
 
 ---
 
-Targets elements that have children on the page.
+자식이 있는 요소를 선택합니다.
 
 ---
 
-Targets all `p` elements on the page.
+페이지의 모든 `p` 요소를 선택합니다.
 
 #### --answer--
 
-Targets all elements on the page.
+페이지의 모든 요소를 선택합니다.
 
 ### --question--
 
 #### --text--
 
-What does `!important` do in CSS?
+CSS에서 `!important`는 무엇을 하나요?
 
 #### --distractors--
 
-It makes the CSS rule work exclusively for inline styles and ignores styles defined in external or internal stylesheets.
+인라인 스타일에만 배타적으로 적용되어 외부나 내부 스타일시트의 스타일을 무시합니다.
 
 ---
 
-It disables all other CSS properties applied to the same element, effectively making it the only rule that affects the element's styling.
+같은 요소에 적용된 다른 모든 CSS 속성을 비활성화하여 해당 요소 스타일에 영향을 주는 유일한 규칙이 됩니다.
 
 ---
 
-It applies on to a certain selector or group of elements.
+특정 선택자나 요소 그룹에만 적용됩니다.
 
 #### --answer--
 
-It overrides any other values applied to the property for that selector.
+해당 선택자에 적용된 속성의 다른 값을 재정의합니다.
 
 ### --question--
 
 #### --text--
 
-How does the CSS Cascade algorithm work?
+CSS 캐스케이드 알고리즘은 어떻게 작동하나요?
 
 #### --distractors--
 
-It determines styles of the element based on order of declaration, regardless of other factors.
+선언 순서에 따라 요소 스타일을 결정하며 다른 요소는 무시합니다.
 
 ---
 
-It applies styles based solely on the order they are written, ignoring specificity.
+작성된 순서만으로 스타일을 적용하며 특이성은 무시합니다.
 
 ---
 
-It applies styles prioritizing specificity, ignoring origin and relevance.
+특이성을 우선 적용하며 출처와 관련성은 무시합니다.
 
 #### --answer--
 
-It determines styles of the element based on specificity and order of declaration.
+특이성과 선언 순서에 따라 요소 스타일을 결정합니다.
 
 ### --question--
 
 #### --text--
 
-Which rule applies `32px` of margin to all sides?
+모든 면에 `32px` 여백을 적용하는 규칙은 무엇인가요?
 
 #### --distractors--
 
@@ -413,7 +413,7 @@ Which rule applies `32px` of margin to all sides?
 
 #### --text--
 
-Which rule applies `24px` padding to the top and bottom?
+위와 아래에 `24px` 패딩을 적용하는 규칙은 무엇인가요?
 
 #### --distractors--
 
@@ -435,23 +435,23 @@ Which rule applies `24px` padding to the top and bottom?
 
 #### --text--
 
-For `padding: 10px 20px 30px 40px`, what is the correct order of values?
+`padding: 10px 20px 30px 40px`에 대해 올바른 값 순서는 무엇인가요?
 
 #### --distractors--
 
-Right, Top, Left, Bottom.
+오른쪽, 위, 왼쪽, 아래.
 
 ---
 
-Top, Left, Bottom, Right.
+위, 왼쪽, 아래, 오른쪽.
 
 ---
 
-Top, Bottom, Right, Left.
+위, 아래, 오른쪽, 왼쪽.
 
 #### --answer--
 
-Top, Right, Bottom, Left.
+위, 오른쪽, 아래, 왼쪽.
 
 ## --quiz--
 
@@ -459,29 +459,29 @@ Top, Right, Bottom, Left.
 
 #### --text--
 
-What are the main parts of a CSS rule?
+CSS 규칙의 주요 구성 요소는 무엇인가요?
 
 #### --distractors--
 
-Elements and attributes
+요소와 속성
 
 ---
 
-Style and sheets
+스타일과 시트
 
 ---
 
-Scripts and values
+스크립트와 값
 
 #### --answer--
 
-Selectors and declaration blocks
+선택자와 선언 블록
 
 ### --question--
 
 #### --text--
 
-Which of the following is the correct syntax for a CSS rule?
+다음 중 올바른 CSS 규칙 구문은 무엇인가요?
 
 #### --distractors--
 
@@ -519,29 +519,29 @@ body {
 
 #### --text--
 
-What are default browser styles?
+기본 브라우저 스타일이란 무엇인가요?
 
 #### --distractors--
 
-HTML elements that have the same styling properties regardless of the browser.
+브라우저와 상관없이 동일한 스타일 속성을 가진 HTML 요소입니다.
 
 ---
 
-They are mandatory styles that you must use for specific HTML elements.
+특정 HTML 요소에 반드시 사용해야 하는 필수 스타일입니다.
 
 ---
 
-They are the color themes for the various browsers.
+다양한 브라우저의 색상 테마입니다.
 
 #### --answer--
 
-The CSS rules that browsers apply automatically.
+브라우저가 자동으로 적용하는 CSS 규칙입니다.
 
 ### --question--
 
 #### --text--
 
-What is the default value for the `width` property?
+`width` 속성의 기본값은 무엇인가요?
 
 #### --distractors--
 
@@ -563,51 +563,51 @@ What is the default value for the `width` property?
 
 #### --text--
 
-What does the `min-height` property specify?
+`min-height` 속성은 무엇을 지정하나요?
 
 #### --distractors--
 
-The starting height for an element.
+요소의 시작 높이입니다.
 
 ---
 
-The height for an element.
+요소의 높이입니다.
 
 ---
 
-The maximum height for an element.
+요소의 최대 높이입니다.
 
 #### --answer--
 
-The minimum height for an element.
+요소의 최솟값 높이입니다.
 
 ### --question--
 
 #### --text--
 
-Which of the following is TRUE about the universal selector `*`?
+범용 선택자 `*`에 대해 TRUE인 설명은 무엇인가요?
 
 #### --distractors--
 
-It has the highest specificity because it can style all the elements on a page.
+페이지의 모든 요소를 스타일링할 수 있어 가장 높은 특이성을 가집니다.
 
 ---
 
-It contributes 1 to all parts of the specificity value.
+특이성 값의 모든 부분에 1을 더합니다.
 
 ---
 
-It cannot reset styles across different browsers.
+다른 브라우저 간 스타일을 초기화할 수 없습니다.
 
 #### --answer--
 
-It has the lowest specificity value of any selector.
+모든 선택자 중 가장 낮은 특이성 값을 가집니다.
 
 ### --question--
 
 #### --text--
 
-Which selector correctly targets `li` elements for an ordered list?
+순서 있는 목록에 대해 `li` 요소를 올바르게 선택하는 선택자는 무엇인가요?
 
 #### --distractors--
 
@@ -629,7 +629,7 @@ Which selector correctly targets `li` elements for an ordered list?
 
 #### --text--
 
-Which selector targets the paragraph elements of a `div` element?
+`div` 요소의 단락 요소를 선택하는 선택자는 무엇인가요?
 
 #### --distractors--
 
@@ -651,117 +651,117 @@ Which selector targets the paragraph elements of a `div` element?
 
 #### --text--
 
-Where does the `margin` apply styling properties?
+`margin`는 어디에 스타일 속성을 적용하나요?
 
 #### --distractors--
 
-The space inside element.
+요소 내부 공간입니다.
 
 ---
 
-Between the content and the border.
+내용과 테두리 사이입니다.
 
 ---
 
-On the border of the element.
+요소의 테두리 위입니다.
 
 #### --answer--
 
-The space outside the element.
+요소 외부 공간입니다.
 
 ### --question--
 
 #### --text--
 
-Where does the `padding` property apply styling?
+`padding` 속성은 어디에 스타일을 적용하나요?
 
 #### --distractors--
 
-Between the elements border and the surrounding elements.
+요소 테두리와 주변 요소 사이입니다.
 
 ---
 
-The space outside the element.
+요소 외부 공간입니다.
 
 ---
 
-On the border of the element.
+요소의 테두리 위입니다.
 
 #### --answer--
 
-The space inside the element.
+요소 내부 공간입니다.
 
 ### --question--
 
 #### --text--
 
-Which statement is FALSE about block-level elements?
+블록 레벨 요소에 대해 FALSE인 설명은 무엇인가요?
 
 #### --distractors--
 
-They can stretch to fit the width of their container.
+컨테이너 너비에 맞게 늘어날 수 있습니다.
 
 ---
 
-Common block level elements include `div`, `paragraph`, and `section`.
+일반적인 블록 레벨 요소에는 `div`, `paragraph`, `section`이 포함됩니다.
 
 ---
 
-Block-level elements start on a new line and take up the full width of their container.
+블록 레벨 요소는 새 줄에서 시작하며 컨테이너의 전체 너비를 차지합니다.
 
 #### --answer--
 
-They cannot take up the full width available as they are blocked from doing so.
+사용 가능한 전체 너비를 차지할 수 없으며 그렇게 차단됩니다.
 
 ### --question--
 
 #### --text--
 
-Which statement is FALSE when using the `inline-block` value?
+`inline-block` 값을 사용할 때 FALSE인 설명은 무엇인가요?
 
 #### --distractors--
 
-`inline-block` elements behave like inline elements.
+`inline-block` 요소는 인라인 요소처럼 동작합니다.
 
 ---
 
-They can have `width` and `height` properties.
+`width`와 `height` 속성을 가질 수 있습니다.
 
 ---
 
-Elements retain inline flow but allow setting `width` and `height`.
+요소는 인라인 흐름을 유지하면서 `width`와 `height` 설정을 허용합니다.
 
 #### --answer--
 
-They do not share properties with inline or block level elements.
+인라인 또는 블록 레벨 요소와 속성을 공유하지 않습니다.
 
 ### --question--
 
 #### --text--
 
-Which is TRUE about the `!important` keyword?
+`!important` 키워드에 대해 TRUE인 설명은 무엇인가요?
 
 #### --distractors--
 
-They are used to make comments for an important CSS property.
+중요한 CSS 속성에 주석을 달 때 사용합니다.
 
 ---
 
-They make sure a CSS property has the correct syntax.
+CSS 속성의 올바른 구문을 보장합니다.
 
 ---
 
-They make CSS rules easier to maintain.
+CSS 규칙을 더 쉽게 유지 관리할 수 있게 합니다.
 
 #### --answer--
 
-They override the specificity of other selectors.
+다른 선택자의 특이성을 재정의합니다.
 
 ### --question--
 
 #### --text--
 
-What character precedes a class selector name?
+클래스 선택자 이름 앞에 오는 문자는 무엇인가요?
 
 #### --distractors--
 
@@ -783,51 +783,51 @@ What character precedes a class selector name?
 
 #### --text--
 
-Which is FALSE about inline level elements?
+인라인 레벨 요소에 대해 FALSE인 설명은 무엇인가요?
 
 #### --distractors--
 
-They take up only as much space as they need.
+필요한 만큼만 공간을 차지합니다.
 
 ---
 
-They do not start on a new line.
+새 줄에서 시작하지 않습니다.
 
 ---
 
-Common inline elements include `span` and `img`.
+일반적인 인라인 요소에는 `span`와 `img`이 포함됩니다.
 
 #### --answer--
 
-They always start on a new line.
+항상 새 줄에서 시작합니다.
 
 ### --question--
 
 #### --text--
 
-Where are internal CSS styles accessed?
+내부 CSS 스타일은 어디에서 접근하나요?
 
 #### --distractors--
 
-They are styles that are important to the project, so are not shared externally.
+프로젝트에 중요한 스타일이라 외부에 공유하지 않습니다.
 
 ---
 
-Since they form the core styling of the project, they are saved in the `styles.css` file so other web pages can access them.
+프로젝트의 핵심 스타일이므로 다른 웹 페이지가 접근할 수 있도록 `styles.css` 파일에 저장합니다.
 
 ---
 
-They are stored inside the `body` element when there is only one web page to style.
+스타일이 한 웹 페이지만 적용될 때 `body` 요소 안에 저장합니다.
 
 #### --answer--
 
-They are written within the `style` section within the `head` element.
+`style` 요소 내 `head` 섹션 안에 작성합니다.
 
 ### --question--
 
 #### --text--
 
-What is the order for applying the `padding` property when using the shorthand syntax?
+축약 구문을 사용할 때 `padding` 속성 적용 순서는 무엇인가요?
 
 #### --distractors--
 
@@ -849,7 +849,7 @@ What is the order for applying the `padding` property when using the shorthand s
 
 #### --text--
 
-What is the order for applying the `margin` property when using the shorthand syntax?
+축약 구문을 사용할 때 `margin` 속성 적용 순서는 무엇인가요?
 
 #### --distractors--
 
@@ -871,29 +871,29 @@ What is the order for applying the `margin` property when using the shorthand sy
 
 #### --text--
 
-What are inline CSS styles used for?
+인라인 CSS 스타일은 무엇에 사용되나요?
 
 #### --distractors--
 
-They are used to style inline elements only.
+인라인 요소만 스타일링하는 데 사용합니다.
 
 ---
 
-They are used to style elements only when they all appear on the same line of the browser viewport.
+브라우저 뷰포트에서 모두 같은 줄에 있을 때만 요소를 스타일링하는 데 사용합니다.
 
 ---
 
-They are used to resolve the issue with separation of concerns.
+관심사의 분리 문제를 해결하는 데 사용합니다.
 
 #### --answer--
 
-They are used to directly style within the element, instead of using internal or external CSS.
+내부 또는 외부 CSS 대신 요소 내에서 직접 스타일링하는 데 사용합니다.
 
 ### --question--
 
 #### --text--
 
-What symbol precedes the ID selector?
+ID 선택자 앞에 오는 기호는 무엇인가요?
 
 #### --distractors--
 
@@ -910,4 +910,3 @@ What symbol precedes the ID selector?
 #### --answer--
 
 `#`
-

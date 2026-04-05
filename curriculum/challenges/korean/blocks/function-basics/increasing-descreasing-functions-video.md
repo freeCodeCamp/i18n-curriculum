@@ -1,6 +1,6 @@
 ---
 id: 699e0333138be64fa313138a
-title: Increasing and Decreasing Functions
+title: 증가 함수와 감소 함수
 challengeType: 11
 videoId: GRYrrT_aQ1U
 dashedName: increasing-and-decreasing-functions
@@ -8,29 +8,29 @@ dashedName: increasing-and-decreasing-functions
 
 # --description--
 
-In this video, you will learn about increasing and decreasing functions on a graph.
+이 영상에서는 그래프에서 증가 함수와 감소 함수에 대해 배우세요.
 
 # --questions--
 
 ## --text--
 
-What is an increasing function?
+증가 함수란 무엇인가요?
 
 ## --answers--
 
-This is where the x values are increasing and the y values are increasing.
+x 값이 증가하고 y 값도 증가하는 경우입니다.
 
 ---
 
-This is where the x values are increasing and the y values are decreasing.
+x 값이 증가하지만 y 값이 감소하는 경우입니다.
 
 ---
 
-This is where the x values are decreasing and the y values are increasing.
+x 값이 감소하지만 y 값이 증가하는 경우입니다.
 
 ---
 
-This is where the x values are decreasing and the y values are decreasing.
+x 값과 y 값이 모두 감소하는 경우입니다.
 
 ## --video-solution--
 

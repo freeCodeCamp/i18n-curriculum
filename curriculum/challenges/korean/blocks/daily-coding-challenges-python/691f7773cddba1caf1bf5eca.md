@@ -7,14 +7,14 @@ dashedName: challenge-131
 
 # --description--
 
-Given an array of integers and a target number, find all pairs of elements in the array whose values add up to the target and return the sum of their indices.
+정수 배열과 목표 숫자가 주어졌을 때, 배열에서 값의 합이 목표 숫자가 되는 모든 요소 쌍을 찾아 그들의 인덱스 합을 반환하세요.
 
-For example, given `[2, 3, 4, 6, 8]` and `10`, you will find two valid pairs:
+예를 들어 `[2, 3, 4, 6, 8]`와 `10`가 주어지면, 두 개의 유효한 쌍을 찾을 수 있습니다:
 
-- `2` and `8` (2 + 8 = 10), whose indices are `0` and `4`
-- `4` and `6` (4 + 6 = 10), whose indices are `2` and `3`
+- `2`와 `8` (2 + 8 = 10), 인덱스는 `0`와 `4`
+- `4`와 `6` (4 + 6 = 10), 인덱스는 `2`와 `3`
 
-Add all the indices together to get a return value of `9`.
+모든 인덱스를 더해 반환값 `9`을 얻으세요.
 
 # --hints--
 

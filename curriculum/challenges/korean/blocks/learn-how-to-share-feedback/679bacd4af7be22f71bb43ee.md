@@ -1,6 +1,6 @@
 ---
 id: 679bacd4af7be22f71bb43ee
-title: Task 65
+title: 도전 과제 65
 challengeType: 22
 dashedName: task-65
 lang: en-US
@@ -10,13 +10,13 @@ lang: en-US
 
 # --description--
 
-This is a review of the entire dialogue you just studied.
+방금 학습한 전체 대화를 검토합니다. 
 
 # --instructions--
 
-Write the following words or phrases in the correct spot:
+다음 단어나 구를 올바른 위치에 작성하세요:
 
-`deadlines`, `debating`, `disagreement`, `healthy`, `keeping things on track`, `lose motivation`, `make progress`, `perspectives`, and `strong opinions`.
+`deadlines`, `debating`, `disagreement`, `healthy`, `keeping things on track`, `lose motivation`, `make progress`, `perspectives`, 그리고 `strong opinions`.
 
 # --fillInTheBlank--
 
@@ -45,7 +45,7 @@ Write the following words or phrases in the correct spot:
 
 ### --feedback--
 
-This phrase refers to firm or intense beliefs about a topic.
+이 구는 어떤 주제에 대해 확고하거나 강한 신념을 나타냅니다.
 
 ---
 
@@ -53,7 +53,7 @@ This phrase refers to firm or intense beliefs about a topic.
 
 ### --feedback--
 
-This phrase means to move forward or improve a situation.
+이 구는 앞으로 나아가거나 상황을 개선한다는 뜻입니다.
 
 ---
 
@@ -61,7 +61,7 @@ This phrase means to move forward or improve a situation.
 
 ### --feedback--
 
-This word means beneficial or good for a situation.
+이 단어는 유익하거나 상황에 좋은 것을 의미합니다.
 
 ---
 
@@ -69,7 +69,7 @@ This word means beneficial or good for a situation.
 
 ### --feedback--
 
-This word refers to having different opinions or viewpoints.
+이 단어는 서로 다른 의견이나 관점을 가리킵니다.
 
 ---
 
@@ -77,7 +77,7 @@ This word refers to having different opinions or viewpoints.
 
 ### --feedback--
 
-This word refers to specific dates or times by which tasks must be completed.
+이 단어는 작업을 완료해야 하는 특정 날짜나 시간을 의미합니다.
 
 ---
 
@@ -85,7 +85,7 @@ This word refers to specific dates or times by which tasks must be completed.
 
 ### --feedback--
 
-This word refers to different viewpoints or ways of thinking about something.
+이 단어는 서로 다른 관점이나 사고방식을 나타냅니다.
 
 ---
 
@@ -93,7 +93,7 @@ This word refers to different viewpoints or ways of thinking about something.
 
 ### --feedback--
 
-This word refers to discussing different viewpoints, sometimes extensively.
+이 단어는 때로는 광범위하게 서로 다른 관점을 논의하는 것을 의미합니다.
 
 ---
 
@@ -101,7 +101,7 @@ This word refers to discussing different viewpoints, sometimes extensively.
 
 ### --feedback--
 
-This phrase means to stop feeling driven or enthusiastic about something.
+이 구는 어떤 것에 대한 열정이나 동기가 사라지는 것을 뜻합니다.
 
 ---
 
@@ -109,4 +109,4 @@ This phrase means to stop feeling driven or enthusiastic about something.
 
 ### --feedback--
 
-This phrase means maintaining focus and ensuring progress continues.
+이 구는 포커스를 유지하고 진행이 계속되도록 하는 것을 의미합니다.

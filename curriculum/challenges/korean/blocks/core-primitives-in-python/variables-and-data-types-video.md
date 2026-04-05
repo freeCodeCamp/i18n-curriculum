@@ -1,6 +1,6 @@
 ---
 id: 315017f4457c19d45c2be034
-title: Variables and Data Types
+title: 변수와 데이터 유형
 challengeType: 11
 videoId: sIw317W39X0
 dashedName: variables-and-data-types
@@ -8,29 +8,29 @@ dashedName: variables-and-data-types
 
 # --description--
 
-In this video, you will learn about the different data types in Python including integers, strings and booleans.
+이 영상에서는 정수, 문자열, 불리언을 포함한 Python의 다양한 데이터 유형에 대해 배우세요.
 
 # --questions--
 
 ## --text--
 
-What is a boolean?
+불리언이란 무엇인가요?
 
 ## --answers--
 
-It is a data type that represents an `undefined` value.
+`undefined` 값을 나타내는 데이터 유형입니다.
 
 ---
 
-It is a data type that represents a sequence of characters.
+문자들의 수열을 나타내는 데이터 유형입니다.
 
 ---
 
-It is a data type that represents `True` or `False`.
+`True` 또는 `False`를 나타내는 데이터 유형입니다.
 
 ---
 
-It is a data type that represents a float.
+부동소수점을 나타내는 데이터 유형입니다.
 
 ## --video-solution--
 

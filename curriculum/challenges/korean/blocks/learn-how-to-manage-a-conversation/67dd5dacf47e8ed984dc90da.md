@@ -1,6 +1,6 @@
 ---
 id: 67dd5dacf47e8ed984dc90da
-title: Task 17
+title: 작업 17
 challengeType: 19
 dashedName: task-17
 lang: en-US
@@ -12,13 +12,13 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+오디오를 듣고 아래 질문에 답하세요.
 
 # --questions--
 
 ## --text--
 
-How could Alice answer briefly that there is no decision concerning the deadline at the moment?
+앨리스가 현재 마감일에 대한 결정이 없다는 것을 간단히 어떻게 대답할 수 있을까요?
 
 ## --answers--
 
@@ -38,7 +38,7 @@ EN391abad4
 
 ### --feedback--
 
-This doesn't relate to the question about setting the deadline.
+이 답변은 마감일 설정에 관한 질문과 관련이 없습니다.
 
 ## --video-solution--
 
@@ -46,11 +46,11 @@ This doesn't relate to the question about setting the deadline.
 
 # --explanation--
 
-`Not yet` is a short and natural way to say that something hasn't happened or been completed up to the present moment, but it may happen in the future. For example:
+`Not yet`는 어떤 일이 지금까지 일어나지 않았거나 완료되지 않았지만 앞으로 일어날 수도 있음을 짧고 자연스럽게 표현하는 방법입니다. 예를 들어:
 
-- **Manager:** `Have you sent the email?` - Here, the person is asking about an email that should be sent.
+- **Manager:** `Have you sent the email?` - 여기서는 이메일이 발송되었는지 묻고 있습니다.
 
-- **Employee:** `Not yet.` – This means the email hasn't been sent, but that the person still plans to send it.
+- **Employee:** `Not yet.` – 이 말은 이메일이 아직 발송되지 않았지만 발송할 계획임을 의미합니다.
 
 # --scene--
 

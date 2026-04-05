@@ -1,15 +1,15 @@
 ---
 id: 684fd85424ffdb2edff3afd1
-title: Step 26
+title: 26단계
 challengeType: 20
 dashedName: step-26
 ---
 
 # --description--
 
-Now you can see `{'patient_id': None}` printed to the terminal because the lowercase `p` does not match `P1001` and the `and` operator returns the first falsy value of the expression.
+소문자 `{'patient_id': None}`가 `p`와 일치하지 않고 `P1001` 연산자가 표현식의 첫 번째 거짓 같은 값을 반환하기 때문에 `and`가 터미널에 출력되는 것을 볼 수 있습니다.
 
-You want to ensure that the patient ID starts with the letter `p`, but it can be either lowercase or uppercase. To modify the matching behavior of regular expressions, you can use flags. For example, `re.search` accepts a third argument to specify any flags:
+환자 ID가 `p` 문자로 시작하는지 확인하고 싶지만, 소문자나 대문자 모두 허용됩니다. 정규 표현식의 일치 동작을 수정하려면 플래그를 사용할 수 있습니다. 예를 들어, `re.search`는 세 번째 인수로 플래그를 지정할 수 있습니다.
 
 ```py
 import re
@@ -21,13 +21,13 @@ print(re.search('hello', greeting, re.IGNORECASE))
 # <re.Match object; span=(0, 5), match='Hello'>
 ```
 
-Add `re.IGNORECASE` as the third argument to your `re.search` call. This will make your regex search case insensitive.
+`re.IGNORECASE` 호출에 세 번째 인수로 `re.search`를 추가하세요. 이렇게 하면 정규식 검색이 대소문자를 구분하지 않게 됩니다.
 
-After that, you'll see `None` replaced by the match object `<re.Match object; span=(0, 1), match='P'>`, where `match` indicates the match and `span` indicates its location in the string.
+그 후에는 `None`가 일치 객체 `<re.Match object; span=(0, 1), match='P'>`로 교체된 것을 볼 수 있는데, 여기서 `match`은 일치를 나타내고 `span`은 문자열 내 위치를 나타냅니다.
 
 # --hints--
 
-You should add `re.IGNORECASE` as the third argument to your `re.search` call.
+`re.IGNORECASE` 호출에 세 번째 인수로 `re.search`를 추가해야 합니다.
 
 ```js
 ({ test: () => assert(runPython(`
@@ -96,7 +96,7 @@ def validate(data):
     if not is_sequence:
         print('Invalid format: expected a list or tuple.')
         return False
-
+        
     is_invalid = False
     key_set = set(
         ['patient_id', 'age', 'gender', 'diagnosis', 'medications', 'last_visit_id']

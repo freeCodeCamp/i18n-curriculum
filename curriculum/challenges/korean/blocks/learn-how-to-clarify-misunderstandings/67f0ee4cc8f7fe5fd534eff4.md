@@ -1,6 +1,6 @@
 ---
 id: 67f0ee4cc8f7fe5fd534eff4
-title: Task 87
+title: 작업 87
 challengeType: 22
 dashedName: task-87
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+오디오를 듣고 아래 문장을 완성하세요.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This two-word phrase is used to show agreement or approval of an idea or suggestion. The first word ends with `-s`.
+이 두 단어 구문은 아이디어나 제안에 동의하거나 찬성할 때 사용합니다. 첫 번째 단어는 `-s`로 끝납니다.
 
 ---
 
@@ -32,17 +32,17 @@ This two-word phrase is used to show agreement or approval of an idea or suggest
 
 ### --feedback--
 
-This word means to be grateful for something. It shows thanks for help, support, or something done for you.
+이 단어는 무언가에 대해 감사함을 나타냅니다. 도움, 지원, 또는 누군가가 해준 일에 대한 고마움을 표현합니다.
 
 # --explanation--
 
-`Sounds good` means that the speaker agrees with or approves of what was said. For example:
+`Sounds good`는 화자가 말한 내용에 동의하거나 찬성함을 의미합니다. 예를 들어:
 
-`Your idea sounds good.` – This means the speaker thinks the idea is good and agrees with it.
+`Your idea sounds good.` – 이는 화자가 그 아이디어가 좋다고 생각하며 동의한다는 뜻입니다.
 
-`I appreciate` is a way of saying thank you or showing gratitude. For example:
+`I appreciate`는 감사함을 표현하는 방법입니다. 예를 들어:
 
-`I appreciate your help with the project.` – This means you're grateful for the help you received.
+`I appreciate your help with the project.` – 이는 받은 도움에 대해 고마워한다는 뜻입니다.
 
 # --scene--
 

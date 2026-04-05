@@ -1,6 +1,6 @@
 ---
 id: 69ae5c728491ca1dcd31440d
-title: When Not To RAG
+title: RAG를 사용하지 말아야 할 때
 challengeType: 11
 videoId: 3HY38scJb54
 dashedName: when-not-to-rag
@@ -8,31 +8,30 @@ dashedName: when-not-to-rag
 
 # --description--
 
-In this video, you will learn when it is not appropriate to use RAG and the potential pitfalls of using RAG in certain scenarios.
+이 영상에서는 RAG를 사용하기에 적절하지 않은 경우와 특정 상황에서 RAG를 사용할 때 발생할 수 있는 문제점을 배우세요.
 
 # --questions--
 
 ## --text--
 
-What is another solution to get AI to give good responses when RAG is not appropriate?
+RAG가 적절하지 않을 때 AI가 좋은 응답을 하도록 하는 또 다른 방법은 무엇인가요?
 
 ## --answers--
 
-Tuning the model
+모델 튜닝
 
 ---
 
-Lint prompting
+린트 프롬프트 사용
 
 ---
 
-Prompt engineering
+프롬프트 엔지니어링
 
 ---
 
-Cascading prompts
+계단식 프롬프트
 
 ## --video-solution--
 
 3
-

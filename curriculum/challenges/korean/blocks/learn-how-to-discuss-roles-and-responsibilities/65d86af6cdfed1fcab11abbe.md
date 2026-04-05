@@ -1,6 +1,6 @@
 ---
 id: 65d86af6cdfed1fcab11abbe
-title: Task 70
+title: 작업 70
 challengeType: 22
 dashedName: task-70
 lang: en-US
@@ -10,9 +10,9 @@ lang: en-US
 
 # --description--
 
-`Follow security procedures` means to act according to rules or steps designed to keep a place or people safe. It's important in many areas, especially in workplaces, to prevent problems or dangers.
+`Follow security procedures`는 장소나 사람들을 안전하게 지키기 위해 고안된 규칙이나 단계를 따라 행동하는 것을 의미합니다. 문제나 위험을 예방하기 위해 특히 직장 등 여러 영역에서 중요합니다.
 
-You learned that after `everyone`, you should use the third-party singular form of the verb because `everyone` is considered as each person in a group, treated individually.
+`everyone` 후에는 `everyone`가 그룹 내 각 개인으로 간주되어 개별적으로 취급되기 때문에 동사의 3인칭 단수형을 사용해야 한다는 것을 배웠습니다.
 
 # --fillInTheBlank--
 
@@ -26,7 +26,7 @@ You learned that after `everyone`, you should use the third-party singular form 
 
 ### --feedback--
 
-This is the singular form of the verb meaning each person does the action.
+각 개인이 그 행동을 한다는 의미의 동사 단수형입니다.
 
 ---
 
@@ -34,7 +34,7 @@ This is the singular form of the verb meaning each person does the action.
 
 ### --feedback--
 
-This word means keeping people, places, or things safe from danger or harm.
+이 단어는 사람, 장소 또는 사물을 위험이나 해로부터 안전하게 지키는 것을 의미합니다.
 
 ---
 
@@ -42,7 +42,7 @@ This word means keeping people, places, or things safe from danger or harm.
 
 ### --feedback--
 
-These are the steps or rules that need to be followed for safety.
+안전을 위해 따라야 하는 단계나 규칙들입니다.
 
 # --scene--
 

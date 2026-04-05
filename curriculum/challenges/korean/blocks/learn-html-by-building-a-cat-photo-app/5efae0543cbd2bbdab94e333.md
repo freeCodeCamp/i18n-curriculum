@@ -1,44 +1,44 @@
 ---
 id: 5efae0543cbd2bbdab94e333
-title: Step 32
+title: 32단계
 challengeType: 0
 dashedName: step-32
 ---
 
 # --description--
 
-To improve accessibility of the image you added, add an `alt` attribute with the text:
+추가한 이미지의 접근성을 향상하려면, 다음 텍스트가 포함된 `alt` 속성을 추가하세요:
 
 `Two tabby kittens sleeping together on a couch.`
 
 # --hints--
 
-Your `figure` element should have an opening tag. Opening tags have this syntax: `<elementName>`.
+`figure` 요소에는 여는 태그가 있어야 합니다. 여는 태그의 구문은 다음과 같습니다: `<elementName>`.
 
 ```js
 assert(document.querySelectorAll('figure').length === 2);
 ```
 
-Your `figure` element should have a closing tag. Closing tags have a `/` just after the `<` character.
+`figure` 요소에는 닫는 태그가 있어야 합니다. 닫는 태그는 `/` 문자 바로 뒤에 `<`가 있습니다.
 
 ```js
 assert(code.match(/<\/figure>/g).length === 2);
 ```
 
-There should be a `figure` element right above the last `section` element's closing tag.
+마지막 `figure` 요소의 닫는 태그 바로 위에 `section` 요소가 있어야 합니다.
 
 ```js
 assert.strictEqual(document.querySelectorAll('main > section')?.[1]?.lastElementChild?.nodeName, 'FIGURE');
 ```
 
-The Cats `img` element should be nested in the `figure` element.
+Cats `img` 요소는 `figure` 요소 안에 중첩되어야 합니다.
 
 ```js
 const catsImg = document.querySelectorAll('figure > img')[1];
 assert.exists(catsImg);
 ```
 
-The third image should have a `src` attribute set to `https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg`.
+세 번째 이미지에는 `src` 속성이 `https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg`로 설정되어 있어야 합니다.
 
 ```js
 const catsImg = document.querySelectorAll('figure > img')[1];
@@ -47,7 +47,7 @@ assert.strictEqual(
 );
 ```
 
-The Cats `img` element should have an `alt` attribute with the value `Two tabby kittens sleeping together on a couch.`
+Cats `img` 요소에는 값이 `alt`인 `Two tabby kittens sleeping together on a couch.` 속성이 있어야 합니다.
 
 ```js
 const catsImg = document.querySelectorAll('figure > img')[1];
@@ -97,4 +97,3 @@ assert.match(catsImg?.getAttribute('alt')?.replace(/\s+/g, ' '), /^Two tabby kit
   </body>
 </html>
 ```
-

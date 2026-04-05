@@ -1,6 +1,6 @@
 ---
 id: 67d81e8afbcfb390dd7fc1e0
-title: Task 133
+title: 작업 133
 challengeType: 19
 dashedName: task-133
 lang: en-US
@@ -12,13 +12,13 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+오디오를 듣고 아래 질문에 답하세요.
 
 # --questions--
 
 ## --text--
 
-Jake hasn't checked that yet and says the team should focus on something else. What would he say?
+Jake는 아직 확인하지 않았고 팀이 다른 것에 포커스를 맞춰야 한다고 말합니다. 그는 무엇이라고 말할까요?  
 
 ## --answers--
 
@@ -38,7 +38,7 @@ EN4ec0b91b
 
 ### --feedback--
 
-Jake hasn't checked yet, so he wouldn't be able to confirm this.
+Jake는 아직 확인하지 않았기 때문에 이를 확실히 말할 수 없습니다.
 
 ## --video-solution--
 
@@ -46,11 +46,11 @@ Jake hasn't checked yet, so he wouldn't be able to confirm this.
 
 # --explanation--
 
-Securing critical systems is usually the first priority before assessing individual files.
+중요 시스템을 보호하는 것이 개별 파일을 평가하기 전에 보통 가장 우선순위입니다.
 
-`Not yet.` means Jake hasn't checked which files were compromised.
+`Not yet.`는 Jake가 어떤 파일이 손상되었는지 확인하지 않았다는 뜻입니다.
 
-`We should focus on the critical systems first.` means that instead of looking at files, the team should prioritize protecting essential parts of the system.
+`We should focus on the critical systems first.`는 파일을 보는 대신 팀이 시스템의 중요한 부분을 보호하는 데 우선순위를 둬야 한다는 뜻입니다.
 
 # --scene--
 

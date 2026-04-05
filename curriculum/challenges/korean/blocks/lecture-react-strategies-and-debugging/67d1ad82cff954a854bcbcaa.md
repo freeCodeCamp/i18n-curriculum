@@ -1,23 +1,23 @@
 ---
 id: 67d1ad82cff954a854bcbcaa
-title: What Is Prop Drilling?
+title: 프로프 드릴링이란 무엇인가요?
 challengeType: 19
 dashedName: what-is-prop-drilling
 ---
 
 # --description--
 
-Prop drilling is the most basic approach to state management in React applications. It looks simple, but can get messy quickly, and is very hard to scale.
+프로프 드릴링은 React 애플리케이션에서 상태 관리를 하는 가장 기본적인 방법입니다. 간단해 보이지만 금방 복잡해지고 확장하기 매우 어렵습니다.
 
-Let's look at what prop drilling is, why it's a problem, and a good replacement for it as an application grows.
+프로프 드릴링이 무엇인지, 왜 문제가 되는지, 그리고 애플리케이션이 커질 때 좋은 대체 방법이 무엇인지 살펴보겠습니다.
 
-Prop drilling is the process of passing props from a parent component to deeply nested child components, even when some of the child components don't need the props.
+프로프 드릴링은 부모 컴포넌트에서 깊게 중첩된 자식 컴포넌트로 프로프를 전달하는 과정입니다. 이때 일부 자식 컴포넌트는 그 프로프가 필요하지 않아도 전달됩니다.
 
-For example, say you have three components named `Parent`, `Child`, and `Grandchild`. If you want to use some data in the `Grandchild` component, but it's in the `Parent` component, you'd need to pass it from the `Parent` to the `Child` component, then from the `Child` to the `Grandchild` component.
+예를 들어, `Parent`, `Child`, `Grandchild`라는 세 개의 컴포넌트가 있다고 가정해 보겠습니다. `Grandchild` 컴포넌트에서 어떤 데이터를 사용하고 싶은데 그 데이터가 `Parent` 컴포넌트에 있다면, `Parent`에서 `Child` 컴포넌트로, 그리고 `Child`에서 `Grandchild` 컴포넌트로 데이터를 전달해야 합니다.
 
-Or if the data is even further up the chain, the data might have to be passed to the `Parent` component, too.
+또는 데이터가 더 상위에 있다면, `Parent` 컴포넌트에도 데이터를 전달해야 할 수 있습니다.
 
-Here, the data I want to display is the string `Hello, Prop Drilling!`. It's assigned to the `greeting` variable in the root `App` component:
+여기서 제가 표시하고 싶은 데이터는 문자열 `Hello, Prop Drilling!`입니다. 이 문자열은 루트 `greeting` 컴포넌트의 `App` 변수에 할당되어 있습니다:
 
 ```jsx
 import "./App.css";
@@ -32,7 +32,7 @@ function App() {
 export default App;
 ```
 
-You can see the `Parent` component is also receiving the `greeting` variable as the value of a `greeting` prop. Here's the `Parent` component passing it into the `Child` component as the value of another `greeting` prop in the `Child`:
+`Parent` 컴포넌트가 `greeting` 변수를 `greeting` 프로프의 값으로 받고 있는 것도 볼 수 있습니다. `Parent` 컴포넌트가 `Child` 컴포넌트에 또 다른 `greeting` 프로프의 값으로 전달하는 모습입니다 `Child`:
 
 ```jsx
 import Child from "./Child";
@@ -44,7 +44,7 @@ const Parent = ({ greeting }) => {
 export default Parent;
 ```
 
-And here's the `Child` component that passes it to the `Grandchild` component:
+그리고 `Child` 컴포넌트가 `Grandchild` 컴포넌트에 전달하는 모습입니다:
 
 ```jsx
 import Grandchild from "./Grandchild";
@@ -56,7 +56,7 @@ const Child = ({ greeting }) => {
 export default Child;
 ```
 
-And finally the `Grandchild` component receives the greeting and uses it as the content of an `h1` element:
+마지막으로 `Grandchild` 컴포넌트가 인사를 받아 `h1` 요소의 내용으로 사용합니다:
 
 ```jsx
 const Grandchild = ({ greeting }) => {
@@ -66,13 +66,13 @@ const Grandchild = ({ greeting }) => {
 export default Grandchild;
 ```
 
-In the browser, you'll see a page with a single `h1` element that has the text `Hello, Prop Drilling!`.
+브라우저에서는 `h1` 요소 하나에 `Hello, Prop Drilling!` 텍스트가 있는 페이지가 보일 것입니다.
 
-At first, prop drilling might not seem like such a big deal. But as your app grows, it gets harder to understand, debug, and maintain.
+처음에는 프로프 드릴링이 그렇게 큰 문제처럼 보이지 않을 수 있습니다. 하지만 애플리케이션이 커질수록 이해하고 디버그하며 유지보수하기가 점점 어려워집니다.
 
-If you need to pass props around, try to keep them all in a single parent component. This approach of centralizing all necessary data is called the "single source of truth".
+프로프를 전달해야 한다면, 가능한 한 모두 한 부모 컴포넌트에 모아 두세요. 이렇게 필요한 모든 데이터를 중앙 집중화하는 방식을 "단일 진실의 출처"라고 합니다.
 
-For instance, say you want to add a new `response` to go with your `greeting`, and that you want to use both of them in the `Grandchild` component. Since `greeting` is already in the `App` component, it makes sense to put `response` there, too, and pass both of them down the chain:
+예를 들어, `response`와 함께 사용할 새로운 `greeting`을 추가하고 싶고, 둘 다 `Grandchild` 컴포넌트에서 사용하고 싶다고 가정해 보겠습니다. `greeting`가 이미 `App` 컴포넌트에 있으니 `response`도 거기에 두고 둘 다 하위 컴포넌트로 전달하는 것이 합리적입니다:
 
 ```jsx
 function App() {
@@ -102,45 +102,45 @@ const Grandchild = ({ greeting, response }) => {
 export default App;
 ```
 
-In the browser, you'll see a page with an `h1` element that has the text `Hello, Prop Drilling!` and an `h2` element that has the text `I'm not here to play!`.
+브라우저에서는 `h1` 요소에 `Hello, Prop Drilling!` 텍스트가, `h2` 요소에 `I'm not here to play!` 텍스트가 있는 페이지가 보일 것입니다.
 
-To avoid prop drilling, especially in large, complex applications, consider using the Context API or state management libraries like Redux and Redux Toolkit, Zustand, Recoil, and others.
+특히 크고 복잡한 애플리케이션에서는 프로프 드릴링을 피하려면 Context API나 Redux, Redux Toolkit, Zustand, Recoil 같은 상태 관리 라이브러리를 사용하는 것을 고려하세요.
 
-You'll learn more about these in the coming lessons.
+이 내용들은 앞으로 수업에서 더 자세히 배우게 됩니다.
 
 # --questions--
 
 ## --text--
 
-How would a prop flow from a parent to a grandchild component?
+부모 컴포넌트에서 손자 컴포넌트로 프로프가 어떻게 전달되나요?
 
 ## --answers--
 
-By defining the prop inside the grandchild component.
+손자 컴포넌트 내부에 프로프를 정의함으로써.
 
 ### --feedback--
 
-The prop must go through the child before reaching the grandchild.
+프로프는 손자 컴포넌트에 도달하기 전에 반드시 자식 컴포넌트를 거쳐야 합니다.
 
 ---
 
-By passing it from parent to child, then from child to grandchild.
+부모에서 자식으로, 그리고 자식에서 손자로 전달함으로써.
 
 ---
 
-By using the `useEffect` hook to fetch the prop dynamically.
+프로프를 동적으로 가져오기 위해 `useEffect` 훅을 사용함으로써.
 
 ### --feedback--
 
-The prop must go through the child before reaching grandchild.
+프로프는 손자 컴포넌트에 도달하기 전에 반드시 자식 컴포넌트를 거쳐야 합니다.
 
 ---
 
-By using the `useState` hook in the grandchild.
+손자 컴포넌트에서 `useState` 훅을 사용함으로써.
 
 ### --feedback--
 
-The prop must go through the child before reaching grandchild.
+프로프는 손자 컴포넌트에 도달하기 전에 반드시 자식 컴포넌트를 거쳐야 합니다.
 
 ## --video-solution--
 
@@ -148,35 +148,35 @@ The prop must go through the child before reaching grandchild.
 
 ## --text--
 
-What is prop drilling in React?
+React에서 프로프 드릴링이란 무엇인가요?
 
 ## --answers--
 
-Passing props directly to only the components that need them.
+프로프를 필요한 컴포넌트에만 직접 전달하는 것.
 
 ### --feedback--
 
-It happens when props are passed through multiple levels unnecessarily.
+프로프가 불필요하게 여러 단계로 전달될 때 발생합니다.
 
 ---
 
-Using context to share state between components.
+컴포넌트 간 상태 공유를 위해 컨텍스트를 사용하는 것.
 
 ### --feedback--
 
-It happens when props are passed through multiple levels unnecessarily.
+프로프가 불필요하게 여러 단계로 전달될 때 발생합니다.
 
 ---
 
-Passing props from a parent to deeply nested child components.
+부모에서 깊게 중첩된 자식 컴포넌트로 프로프를 전달하는 것.
 
 ---
 
-Drilling down into component state using hooks.
+훅을 사용해 컴포넌트 상태를 깊게 탐색하는 것.
 
 ### --feedback--
 
-It happens when props are passed through multiple levels unnecessarily.
+프로프가 불필요하게 여러 단계로 전달될 때 발생합니다.
 
 ## --video-solution--
 
@@ -184,35 +184,35 @@ It happens when props are passed through multiple levels unnecessarily.
 
 ## --text--
 
-Why is prop drilling considered a problem in larger applications?
+왜 프로프 드릴링이 큰 애플리케이션에서 문제로 여겨지나요?
 
 ## --answers--
 
-It makes it easier to manage state.
+상태 관리를 더 쉽게 만들어 줍니다.
 
 ### --feedback--
 
-Too many props passing through multiple components can make the code messy.
+너무 많은 프로프가 여러 컴포넌트를 거치면 코드가 복잡해집니다.
 
 ---
 
-It improves performance by reducing re-renders.
+리렌더링을 줄여 성능을 향상시킵니다.
 
 ### --feedback--
 
-Too many props passing through multiple components can make the code messy.
+너무 많은 프로프가 여러 컴포넌트를 거치면 코드가 복잡해집니다.
 
 ---
 
-It makes the code harder to read, debug, and maintain.
+코드를 읽고 디버그하며 유지보수하기 어렵게 만듭니다.
 
 ---
 
-It eliminates the need for state management libraries.
+상태 관리 라이브러리가 필요 없게 만듭니다.
 
 ### --feedback--
 
-Too many props passing through multiple components can make the code messy.
+너무 많은 프로프가 여러 컴포넌트를 거치면 코드가 복잡해집니다.
 
 ## --video-solution--
 

@@ -1,6 +1,6 @@
 ---
 id: 699e78398f18cf77dfce5c1c
-title: Double Angle Formulas
+title: 이중 각 공식
 challengeType: 11
 videoId: QMaQImbBe0M
 dashedName: double-angle-formulas
@@ -8,13 +8,13 @@ dashedName: double-angle-formulas
 
 # --description--
 
-In this video, you will learn about the double angle formulas.
+이 영상에서는 이중 각 공식에 대해 배우세요.
 
 # --questions--
 
 ## --text--
 
-What is the double angle formula for $\sin(2\theta)$?
+$\sin(2\theta)$의 이중 각 공식은 무엇인가요?
 
 ## --answers--
 
@@ -35,5 +35,3 @@ $\sin(2\theta) = \sin^2(\theta) - \cos^2(\theta)$
 ## --video-solution--
 
 3
-
-

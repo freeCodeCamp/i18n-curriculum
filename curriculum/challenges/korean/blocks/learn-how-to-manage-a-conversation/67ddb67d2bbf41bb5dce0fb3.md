@@ -1,6 +1,6 @@
 ---
 id: 67ddb67d2bbf41bb5dce0fb3
-title: Task 36
+title: 작업 36
 challengeType: 19
 dashedName: task-36
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+오디오를 듣고 아래 질문에 답하세요.
 
 # --questions--
 
 ## --text--
 
-What can we conclude from James's answer?
+James의 대답에서 무엇을 알 수 있나요?
 
 ## --answers--
 
-He needs to solve a problem first.
+그는 먼저 문제를 해결해야 합니다.
 
 ### --feedback--
 
-James does not say anything about another issue.
+James는 다른 문제에 대해 언급하지 않습니다.
 
 ---
 
-He is ending the conversation in a friendly way.
+그는 친근하게 대화를 마무리하고 있습니다.
 
 ---
 
-He wants to schedule a meeting now.
+그는 지금 회의를 잡으려고 합니다.
 
 ### --feedback--
 
-There's no mention of scheduling anything.
+회의 일정을 잡는다는 언급이 없습니다.
 
 ---
 
-He is asking for more help.
+그는 더 많은 도움을 요청하고 있습니다.
 
 ### --feedback--
 
-James is not making a request.
+James는 요청을 하지 않습니다.
 
 ## --video-solution--
 
@@ -52,9 +52,9 @@ James is not making a request.
 
 # --explanation--
 
-In conversation, you often omit words when the meaning is clear. In `Talk to you later`, the subject `I'll` (contraction of `I will`) is left out. The full sentence would be `I'll talk to you later`. This kind of omission is common in casual speech. Another example:
+대화에서는 의미가 명확할 때 종종 단어를 생략합니다. `Talk to you later`에서 주어 `I'll` (`I will`의 축약형)이 생략되었습니다. 전체 문장은 `I'll talk to you later`일 것입니다. 이런 생략은 일상 대화에서 흔합니다. 또 다른 예:
 
-`See you tomorrow!` - This is a shorter way of saying `I'll see you tomorrow`.
+`See you tomorrow!` - 이것은 `I'll see you tomorrow`를 더 짧게 표현한 방식입니다.
 
 # --scene--
 

@@ -1,6 +1,6 @@
 ---
 id: 67f04ef2be95eedffb5bde99
-title: Task 103
+title: 작업 103
 challengeType: 22
 dashedName: task-103
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+오디오를 듣고 아래 문장을 완성하세요.
 
 # --fillInTheBlank--
 
@@ -24,13 +24,13 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-Followed by `down`, this means making something move or happen more slowly than normal. Use the `-ing` form.
+`down`에 이어서, 이것은 무언가를 정상보다 더 느리게 움직이거나 발생하게 만드는 것을 의미합니다. `-ing` 형태를 사용하세요.
 
 # --explanation--
 
-`To slow down` means to reduce speed or to make something happen more slowly. In work or project contexts, it can refer to anything that delays progress. For example:
+`To slow down`는 속도를 줄이거나 무언가가 더 천천히 일어나도록 만드는 것을 의미합니다. 업무나 프로젝트 상황에서는 진행을 지연시키는 모든 것을 가리킬 수 있습니다. 예를 들어:
 
-`Traffic is slowing down the delivery.` – This means the delivery is taking longer because of traffic.
+`Traffic is slowing down the delivery.` – 이것은 교통 때문에 배송이 더 오래 걸린다는 뜻입니다.  
 
 # --scene--
 

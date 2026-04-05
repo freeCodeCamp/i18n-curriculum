@@ -1,15 +1,15 @@
 ---
 id: 63e94dae6dcedbad73f2f6ee
-title: Step 24
+title: 24단계
 challengeType: 0
 dashedName: step-24
 ---
 
 # --description--
 
-`arr` contains a series of objects that each contains a `name`, `position`, `number`, `isCaptain` and `nickname` property. In order to access each of those properties inside the callback function, you will need to use object destructuring to unpack them into variables.
+`arr`에는 각각 `name`, `position`, `number`, `isCaptain` 그리고 `nickname` 속성을 포함하는 객체들이 연속으로 들어 있습니다. 콜백 함수 안에서 이 속성들에 접근하려면, 객체 구조 분해를 사용해 변수로 풀어야 합니다.
 
-Here is an example:
+예시는 다음과 같습니다:
 
 ```js
 function myExampleFunction({ name, age, job, city }) {
@@ -17,11 +17,11 @@ function myExampleFunction({ name, age, job, city }) {
 }
 ```
 
-Inside the parameter list in the callback function for the `map` method, unpack all 5 object properties from objects in `arr` using object destructuring.
+`map` 메서드의 콜백 함수 매개변수 목록 안에서, `arr`에 있는 객체들로부터 5개의 속성을 모두 객체 구조 분해로 풀어내세요.
 
 # --hints--
 
-You should unpack all 5 object properties from objects in `arr` using object destructuring.
+객체 구조 분해를 사용해 `arr`에 있는 객체들로부터 5개의 속성을 모두 풀어내야 합니다.
 
 ```js
 

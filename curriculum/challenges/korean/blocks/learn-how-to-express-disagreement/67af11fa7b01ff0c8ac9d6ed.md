@@ -1,6 +1,6 @@
 ---
 id: 67af11fa7b01ff0c8ac9d6ed
-title: Task 45
+title: 작업 45
 challengeType: 19
 dashedName: task-45
 lang: en-US
@@ -10,13 +10,13 @@ lang: en-US
 
 # --instructions--
 
-Read the text and answer the question below.
+텍스트를 읽고 아래 질문에 답하세요.
 
 # --questions--
 
 ## --text--
 
-After reviewing the survey results for the remote work stipend, Bob decided to write an article:
+원격 근무 수당에 대한 설문 결과를 검토한 후, Bob이 기사를 작성했습니다:
 
 `The Remote Work Stipend Debate: Comfort or Productivity?`
 
@@ -30,35 +30,35 @@ After reviewing the survey results for the remote work stipend, Bob decided to w
 
 `As remote work grows, companies need to support their workers in the best way possible. A well-equipped home office isn't just a nice extra — it's key to doing great work.`
 
-Why do some workers prefer to use the stipend for office furniture?
+왜 일부 근로자들은 수당을 사무용 가구 구입에 사용하기를 선호할까요?
 
 ## --answers--
 
-Because they don't like working remotely.
+원격 근무를 싫어해서요.
 
 ### --feedback--
 
-The article does not suggest that these workers dislike remote work.
+기사에서는 이 근로자들이 원격 근무를 싫어한다는 내용이 없습니다.
 
 ---
 
-To improve comfort and prevent back pain.
+편안함을 높이고 허리 통증을 예방하기 위해서요.
 
 ---
 
-To buy decorations for their home office.
+재택 사무실 장식을 위해서요.
 
 ### --feedback--
 
-The article doesn't discuss furniture that improves decorations.
+기사는 장식을 개선하는 가구에 대해 언급하지 않습니다.
 
 ---
 
-To impress their coworkers.
+동료들에게 인상을 주기 위해서요.
 
 ### --feedback--
 
-The reason given in the article isn't appearances.
+기사에서 제시한 이유는 외모가 아닙니다.
 
 ## --video-solution--
 
@@ -66,6 +66,6 @@ The reason given in the article isn't appearances.
 
 # --explanation--
 
-The article explains that `a bad chair and desk can cause health problems` and make it harder to focus. This is why some workers prioritize using the stipend for office furniture instead of technology.
+기사는 `a bad chair and desk can cause health problems`가 포커스를 방해한다고 설명합니다. 그래서 일부 근로자들은 기술 장비보다 사무용 가구에 수당을 우선 사용합니다.
 
-Focus on how the article highlights ergonomics and well-being as key reasons for choosing furniture over computers.
+기사가 인체공학과 웰빙을 가구 선택의 주요 이유로 강조하는 점에 주목하세요.

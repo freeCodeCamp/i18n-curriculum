@@ -1,99 +1,99 @@
 ---
 id: 694acade1d4afdbce71e5840
-title: Build a Travel Weather Planner
+title: 여행 날씨 계획표 만들기
 challengeType: 27
 dashedName: build-a-travel-weather-planner
 ---
 
 # --description--
 
-For this lab, you will use conditional statements to determine whether commuting is possible based on the weather, the distance to travel, and the availability of a vehicle.
+이 실습에서는 조건문을 사용해 날씨, 이동 거리, 차량 보유 여부에 따라 통근이 가능한지 판단합니다.
 
-**Objective:** Fulfill the user stories below and get all the tests to pass to complete the lab.
+**목표:** 아래 사용자 스토리를 충족하고 모든 테스트를 통과해 실습을 완료하세요.
 
-1. You should create the following variables:
-   * `distance_mi` (a number representing the distance to travel in miles)
-   * `is_raining` (a boolean representing if the user is currently experiencing rainy weather)
-   * `has_bike` (a boolean representing if the user has a bicycle)
-   * `has_car` (a boolean representing if the user has a car)
-   * `has_ride_share_app` (a boolean representing if the user has an app that allows them to request a ride)
-1. You should use conditional statements to determine whether commuting is possible based on the values of these variables.
-1. You should use `if`, `elif`, and `else` statements to evaluate the distance categories in ascending order.
-1. If `distance_mi` is a falsy value:
-   * You should print `False`.
-1. If the distance is **less than or equal to 1 mile**:
-   * You should print `True` only if it is **not raining**.
-   * Otherwise, you should print `False`.
-1. If the distance is **greater than 1 mile and less than or equal to 6 miles**:
-   * You should print `True` only if the person has a bike **and** it is not raining.
-   * Otherwise, you should print `False`.
-1. If the distance is **greater than 6 miles**:
-   * You should print `True` if the person has a car **or** has a ride-share app.
-   * Otherwise, you should print `False`.
+1. 다음 변수를 만들어야 합니다:
+   * `distance_mi` (이동 거리를 마일 단위로 나타내는 숫자)
+   * `is_raining` (사용자가 현재 비가 오는 날씨인지 나타내는 불리언)
+   * `has_bike` (사용자가 자전거를 가지고 있는지 나타내는 불리언)
+   * `has_car` (사용자가 자동차를 가지고 있는지 나타내는 불리언)
+   * `has_ride_share_app` (사용자가 호출 요청이 가능한 앱을 가지고 있는지 나타내는 불리언)
+1. 이 변수들의 값에 따라 조건문을 사용해 통근 가능 여부를 판단해야 합니다.
+1. `if`, `elif`, `else` 문을 사용해 거리에 따른 범주를 오름차순으로 평가해야 합니다.
+1. `distance_mi`가 거짓 같은 값이라면:
+   * `False`를 출력해야 합니다.
+1. 거리가 **1마일 이하**라면:
+   * 비가 오지 않을 때만 `True`을 출력해야 합니다.
+   * 그렇지 않으면 `False`을 출력해야 합니다.
+1. 거리가 **1마일 초과 6마일 이하**라면:
+   * 자전거가 있고 비가 오지 않을 때만 `True`를 출력해야 합니다.
+   * 그렇지 않으면 `False`을 출력해야 합니다.
+1. 거리가 **6마일 초과**라면:
+   * 자동차가 있거나 호출 앱이 있을 때 `True`를 출력해야 합니다.
+   * 그렇지 않으면 `False`를 출력해야 합니다.
 
 # --hints--
 
-You should have a variable named `distance_mi`.
+`distance_mi`라는 변수를 만들어야 합니다.
 
 ```js
 ({ test: () => runPython(`assert _Node(_code).has_variable("distance_mi")`) })
 ```
 
-You should assign a number to your `distance_mi` variable.
+`distance_mi` 변수에 숫자를 할당해야 합니다.
 
 ```js
 ({ test: () => runPython(`assert isinstance(distance_mi, (int, float))`) })
 ```
 
-You should have a variable named `is_raining`.
+`is_raining`라는 변수를 만들어야 합니다.
 
 ```js
 ({ test: () => runPython(`assert _Node(_code).has_variable("is_raining")`) })
 ```
 
-You should assign a boolean to your `is_raining` variable.
+`is_raining` 변수에 불리언을 할당해야 합니다.
 
 ```js
 ({ test: () => runPython(`assert isinstance(is_raining, bool)`) })
 ```
 
-You should have a variable named `has_bike`.
+`has_bike`라는 변수를 만들어야 합니다.
 
 ```js
 ({ test: () => runPython(`assert _Node(_code).has_variable("has_bike")`) })
 ```
 
-You should assign a boolean to your `has_bike` variable.
+`has_bike` 변수에 불리언을 할당해야 합니다.
 
 ```js
 ({ test: () => runPython(`assert isinstance(has_bike, bool)`) })
 ```
 
-You should have a variable named `has_car`.
+`has_car`라는 변수를 만들어야 합니다.
 
 ```js
 ({ test: () => runPython(`assert _Node(_code).has_variable("has_car")`) })
 ```
 
-You should assign a boolean to your `has_car` variable.
+`has_car` 변수에 불리언을 할당해야 합니다.
 
 ```js
 ({ test: () => runPython(`assert isinstance(has_car, bool)`) })
 ```
 
-You should have a variable named `has_ride_share_app`.
+`has_ride_share_app`라는 변수를 만들어야 합니다.
 
 ```js
 ({ test: () => runPython(`assert _Node(_code).has_variable("has_ride_share_app")`) })
 ```
 
-You should assign a boolean to your `has_ride_share_app` variable.
+`has_ride_share_app` 변수에 불리언을 할당해야 합니다.
 
 ```js
 ({ test: () => runPython(`assert isinstance(has_ride_share_app, bool)`) })
 ```
 
-You should use at least one `if` statement.
+적어도 하나의 `if` 문을 사용해야 합니다.
 
 ```js
 ({ test: () => runPython(`
@@ -105,7 +105,7 @@ assert len(ifs) >= 1
 `) })
 ```
 
-You should use at least one `elif` branch in your program.
+프로그램에 적어도 하나의 `elif` 분기를 사용해야 합니다.
 
 ```js
 ({ test: () => runPython(`
@@ -123,7 +123,7 @@ assert len(elifs) >= 1
 `) })
 ```
 
-You should use at least one boolean operator (`and`, `or`, or `not`) in your code.
+코드에 적어도 하나의 불리언 연산자(`and`, `or`, 또는 `not`)를 사용해야 합니다.
 
 ```js
 ({ test: () => runPython(`
@@ -140,13 +140,13 @@ assert len(bool_ops) >= 1
 `) })
 ```
 
-You should use the `print()` function to display the result.
+결과를 표시하려면 `print()` 함수를 사용해야 합니다.
 
 ```js
 ({ test: () => runPython(`assert _Node(_code).block_has_call("print")`) })
 ```
 
-When `distance_mi` is a falsy value, the program should print `False`.
+`distance_mi`가 거짓 같은 값일 때 프로그램은 `False`를 출력해야 합니다.
 
 ```js
 ({ test: () => runPython(`
@@ -205,7 +205,7 @@ run_case(
 `) })
 ```
 
-When the distance is `1` mile or less and it is not raining, the program should print `True`.
+거리가 `1` 마일 이하이고 비가 오지 않을 때 프로그램은 `True`를 출력해야 합니다.
 
 ```js
 ({ test: () => runPython(`
@@ -264,7 +264,7 @@ run_case(
 `) })
 ```
 
-When the distance is `1` mile or less and it is raining, the program should print `False`.
+거리가 `1` 마일 이하이고 비가 올 때 프로그램은 `False`를 출력해야 합니다.
 
 ```js
 ({ test: () => runPython(`
@@ -323,7 +323,7 @@ run_case(
 `) })
 ```
 
-When the distance is between `1` mile (excluded) and `6` miles (included), and it is raining with no bike, the program should print `False`.
+거리가 `1` 마일(제외) 초과 `6` 마일(포함) 이하이고 비가 오며 자전거가 없을 때 프로그램은 `False`를 출력해야 합니다.
 
 ```js
 ({ test: () => runPython(`
@@ -393,7 +393,7 @@ run_case(
 `) })
 ```
 
-When the distance is between `1` mile (excluded) and `6` miles (included), it is not raining but no bike is available, the program should print `False`.
+거리가 `1` 마일(제외) 초과 `6` 마일(포함) 이하이고 비가 오지 않으며 자전거가 없을 때 프로그램은 `False`를 출력해야 합니다.
 
 ```js
 ({ test: () => runPython(`
@@ -463,7 +463,7 @@ run_case(
 `) })
 ```
 
-When the distance is between `1` mile (excluded) and `6` miles (included), a bike is available, and it is not raining, the program should print `True`.
+거리가 `1` 마일(제외) 초과 `6` 마일(포함) 이하이고 자전거가 있으며 비가 오지 않을 때 프로그램은 `True`를 출력해야 합니다.
 
 ```js
 ({ test: () => runPython(`
@@ -531,7 +531,7 @@ run_case(
 `) })
 ```
 
-When the distance is greater than `6` miles and a ride share app is available, the program should print `True`.
+거리가 `6` 마일 초과이고 호출 앱이 있을 때 프로그램은 `True`를 출력해야 합니다.
 
 ```js
 ({ test: () => runPython(`
@@ -579,7 +579,7 @@ run_case(
 `) })
 ```
 
-When the distance is greater than `6` miles and a car is available, the program should print `True`.
+거리가 `6` 마일 초과이고 자동차가 있을 때 프로그램은 `True`를 출력해야 합니다.
 
 ```js
 ({ test: () => runPython(`
@@ -627,7 +627,7 @@ run_case(
 `) })
 ```
 
-When the distance is greater than `6` miles and no car nor a ride share app is available, the program should print `False`.
+거리가 `6` 마일 초과이고 자동차도 호출 앱도 없을 때 프로그램은 `False`를 출력해야 합니다.
 
 ```js
 ({ test: () => runPython(`
@@ -704,4 +704,3 @@ elif distance_mi <= 6:
 else:
     print(has_car or has_ride_share_app)
 ```
-

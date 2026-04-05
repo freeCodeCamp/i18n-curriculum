@@ -1,6 +1,6 @@
 ---
 id: 67dbf936fe4d33ccbccae40d
-title: Task 1
+title: 작업 1
 challengeType: 22
 dashedName: task-1
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+오디오를 듣고 아래 문장을 완성하세요.
 
 # --fillInTheBlank--
 
@@ -24,13 +24,13 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This is used to apologize for something that happened. Don't forget to capitalize.
+이 표현은 무언가에 대해 사과할 때 사용합니다. 대문자 표기를 잊지 마세요.
 
 # --explanation--
 
-`To be sorry for something` is used when apologizing for an action that may have caused inconvenience or harm. For example:
+`To be sorry for something`는 불편이나 피해를 끼쳤을 때 사과할 때 사용합니다. 예를 들어:
 
-`I'm sorry for being late to the meeting.` - This means the speaker regrets arriving late and is apologizing. Notice that `being` is in the `-ing` form as it is right after `for` (a preposition).
+`I'm sorry for being late to the meeting.` - 화자가 늦게 도착한 것을 후회하며 사과하는 뜻입니다. `being`가 `-ing` 형태인 점에 주목하세요. 이는 `for` (전치사) 바로 뒤에 있기 때문입니다.
 
 # --scene--
 

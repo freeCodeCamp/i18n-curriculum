@@ -1,6 +1,6 @@
 ---
 id: 699e8ca68f18cf77dfce5c27
-title: Difference Quotient
+title: 차분 몫
 challengeType: 11
 videoId: D5ajV73gC1k
 dashedName: difference-quotient
@@ -8,31 +8,30 @@ dashedName: difference-quotient
 
 # --description--
 
-In this video, you will learn about the difference quotient.
+이 영상에서는 차분 몫에 대해 배우세요.
 
 # --questions--
 
 ## --text--
 
-What is a secant line?
+할선이란 무엇인가요?
 
 ## --answers--
 
-A line that is always parallel to the x-axis.
+항상 x축과 평행한 직선입니다.
 
 ---
 
-A vertical line that intersects the y-axis.
+y축과 교차하는 수직선입니다.
 
 ---
 
-A line that stretches between two points on the graph of a function.
+함수 그래프의 두 점 사이를 잇는 직선입니다.
 
 ---
 
-A line that touches the graph of a function at exactly one point.
+함수 그래프와 정확히 한 점에서만 접하는 직선입니다.
 
 ## --video-solution--
 
 3
-

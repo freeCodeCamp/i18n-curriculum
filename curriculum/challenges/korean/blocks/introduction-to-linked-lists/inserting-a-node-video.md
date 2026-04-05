@@ -1,6 +1,6 @@
 ---
 id: 698dd8b47932b3cc4b19c933
-title: Inserting a Node
+title: 노드 삽입하기
 challengeType: 11
 videoId: HKCIczy-v90
 dashedName: inserting-a-node
@@ -8,29 +8,29 @@ dashedName: inserting-a-node
 
 # --description--
 
-In this video, you will learn how to insert a node in a linked list.
+이 영상에서는 연결 리스트에 노드를 삽입하는 방법을 배우세요.
 
 # --questions--
 
 ## --text--
 
-What is the runtime for inserting a node at a known position in a linked list?
+연결 리스트에서 알려진 위치에 노드를 삽입할 때 실행 시간은 어떻게 되나요?
 
 ## --answers--
 
-constant time
+상수 시간
 
 ---
 
-linear time
+선형 시간
 
 ---
 
-quadratic time
+이차 시간
 
 ---
 
-exponential time
+지수 시간
 
 ## --video-solution--
 

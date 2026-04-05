@@ -1,6 +1,6 @@
 ---
 id: 679d2dc229e6ceeadff4ed48
-title: Task 92
+title: 작업 92
 challengeType: 22
 dashedName: task-92
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+오디오를 듣고 아래 문장을 완성하세요.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This word is used to avoid repeating the verb `update` from the previous sentence.
+이 단어는 이전 문장에서 사용된 동사 `update`를 반복하지 않기 위해 사용됩니다.
 
 ---
 
@@ -32,17 +32,17 @@ This word is used to avoid repeating the verb `update` from the previous sentenc
 
 ### --feedback--
 
-This word means to postpone or make something happen later than planned.
+이 단어는 미루거나 예정된 시간보다 늦게 하다는 뜻입니다.
 
 # --explanation--
 
-Instead of saying `If we update the software, it might delay other projects.`, James shortens it to `If we do`. The word `do` is often used to avoid repeating the verb or a complete phrase used in from the previous sentence. For example:
+James는 `If we update the software, it might delay other projects.`라고 말하는 대신 `If we do`로 줄였습니다. `do`는 이전 문장에서 사용된 동사나 전체 구를 반복하지 않기 위해 자주 사용됩니다. 예를 들어:
 
-`She wants to join the meeting, and if she does, she'll need the link.` - Instead of saying `if she joins the meeting`, you can use `does` to replace it and this way you can avoid the repetition.
+`She wants to join the meeting, and if she does, she'll need the link.` - `if she joins the meeting`라고 말하는 대신 `does`를 사용해 반복을 피할 수 있습니다.
 
-`To delay` means to make something happen later than planned. For example:
+`To delay`는 예정된 시간보다 늦게 하다는 뜻입니다. 예를 들어:
 
-`The flight was delayed due to bad weather.` - This means the flight was postponed and did not leave on time.
+`The flight was delayed due to bad weather.` - 이 문장은 비행기가 연기되어 제시간에 출발하지 않았다는 뜻입니다.
 
 # --scene--
 

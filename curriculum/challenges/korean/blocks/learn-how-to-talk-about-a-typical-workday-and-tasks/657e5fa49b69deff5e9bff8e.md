@@ -1,6 +1,6 @@
 ---
 id: 657e5fa49b69deff5e9bff8e
-title: Task 105
+title: 작업 105
 challengeType: 22
 dashedName: task-105
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --description--
 
-Listen to the audio and complete the sentence below.
+오디오를 듣고 아래 문장을 완성하세요.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-These two words express obligation to do something.
+이 두 단어는 어떤 일을 해야 한다는 의무를 나타냅니다.
 
 ---
 
@@ -32,7 +32,7 @@ These two words express obligation to do something.
 
 ### --feedback--
 
-This word means right away, without delay.
+이 단어는 즉시, 지체 없이라는 뜻입니다.
 
 # --scene--
 

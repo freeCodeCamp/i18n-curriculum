@@ -1,6 +1,6 @@
 ---
 id: 65d5d1bdbd0a7f4e3edb6c8e
-title: Task 35
+title: 작업 35
 challengeType: 19
 dashedName: task-35
 lang: en-US
@@ -10,13 +10,13 @@ lang: en-US
 
 # --description--
 
-Listen to the audio and answer the question.
+오디오를 듣고 질문에 답하세요.
 
 # --questions--
 
 ## --text--
 
-What is Tom asking about?
+Tom이 무엇에 대해 묻고 있나요?
 
 ## --answers--
 
@@ -24,7 +24,7 @@ If Anna works in HR
 
 ### --feedback--
 
-Tom's question is specifically about whether the person has worked with Anna, not about Anna's role.
+Tom의 질문은 Anna의 역할에 관한 것이 아니라, Anna와 함께 일한 적이 있는지에 관한 것입니다.
 
 ---
 
@@ -36,7 +36,7 @@ If you like working in HR
 
 ### --feedback--
 
-The question is about past experience with Anna, not personal feelings about working in HR.
+질문은 Anna와 함께 일한 과거 경험에 관한 것이며, HR에서 일하는 것에 대한 개인적인 감정에 관한 것이 아닙니다.
 
 ---
 
@@ -44,7 +44,7 @@ If Anna has ever worked
 
 ### --feedback--
 
-The focus of Tom's question is on the listener's experience with Anna, not on Anna's work history.
+Tom의 질문은 Anna의 근무 이력보다는 청자의 Anna와의 경험에 초점이 맞춰져 있습니다.
 
 ## --video-solution--
 

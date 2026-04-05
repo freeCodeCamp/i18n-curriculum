@@ -1,6 +1,6 @@
 ---
 id: 66193b1deee8db8cfe3bc5c1
-title: Task 41
+title: 작업 41
 challengeType: 19
 dashedName: task-41
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --description--
 
-Listen to the audio and answer the question.
+오디오를 듣고 질문에 답하세요.
 
 # --questions--
 
 ## --text--
 
-What collaboration tools does Alice mention?
+앨리스가 언급한 협업 도구는 무엇인가요?
 
 ## --answers--
 
-`Project management tools` and `cloud storage services`
+`Project management tools` 그리고 `cloud storage services`
 
 ---
 
-`The internet` and `computer networks`
+`The internet` 그리고 `computer networks`
 
 ### --feedback--
 
-Although these are important tools in today's world, they are not the tools Alice mentions.
+이것들은 오늘날 중요한 도구이지만, 앨리스가 언급한 도구는 아닙니다.
 
 ---
 
-`Screwdrivers` and `hammers`
+`Screwdrivers` 그리고 `hammers`
 
 ### --feedback--
 
-These are manual tools, not collaboration tools.
+이것들은 수동 도구이며 협업 도구가 아닙니다.
 
 ---
 
-`Chat apps` and `email`
+`Chat apps` 그리고 `email`
 
 ### --feedback--
 
-These can be considered collaboration tools in a virtual environment, but Alice does not mention them.
+이것들은 가상 환경에서 협업 도구로 볼 수 있지만, 앨리스는 언급하지 않았습니다.
 
 ## --video-solution--
 

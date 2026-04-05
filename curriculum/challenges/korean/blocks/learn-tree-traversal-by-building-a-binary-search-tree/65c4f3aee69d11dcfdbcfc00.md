@@ -1,24 +1,25 @@
 ---
 id: 65c4f3aee69d11dcfdbcfc00
-title: Step 18
+title: 18단계
 challengeType: 20
 dashedName: step-18
 ---
 
 # --description--
 
-Now, inside the `insert` method, you need to call the helper method `_insert()` that we defined earlier. Here, `_insert` has encapsulated the implementation of the insertion logic. This is useful for recursion and for keeping the implementation details hidden from the user.
+이제 `insert` 메서드 안에서, 앞서 정의한 도우미 메서드 `_insert()`를 호출해야 합니다.  
+여기서 `_insert`는 삽입 로직 구현을 캡슐화했습니다. 이는 재귀에 유용하며 구현 세부사항을 사용자로부터 숨기는 데 도움이 됩니다.
 
-Delete `pass` and assign `self._insert(self.root, key)` to `self.root`.
+`pass`를 삭제하고 `self._insert(self.root, key)`를 `self.root`에 할당하세요.
 
-Note that:
+다음 사항을 참고하세요:
 
-- `self.root` passes the root node of the tree as the first argument. This is the starting point for the insertion process.
-- `key`: passes the `key` value you want to insert as the second argument.
+- `self.root`는 트리의 루트 노드를 첫 번째 인수로 전달합니다. 이것이 삽입 과정의 시작점입니다.
+- `key`: 삽입하려는 `key` 값을 두 번째 인수로 전달합니다.
 
 # --hints--
 
-You should remove the `pass` keyword from the `insert` method.
+`pass` 메서드에서 `insert` 키워드를 제거해야 합니다.
 
 ```js
 ({
@@ -33,7 +34,7 @@ You should remove the `pass` keyword from the `insert` method.
 
 ```
 
-You should recursively call the `_insert()` method using `self._insert()`
+`_insert()`를 사용하여 `self._insert()` 메서드를 재귀적으로 호출해야 합니다.
 
 ```js
 ({ test: () =>
@@ -46,7 +47,7 @@ You should recursively call the `_insert()` method using `self._insert()`
 })
 ```
 
-You should pass `self.root` and `key` to your `_insert()` call.
+`self.root` 호출에 `key`과 `_insert()`를 전달해야 합니다.
 
 ```js
 ({ test: () =>
@@ -59,7 +60,7 @@ You should pass `self.root` and `key` to your `_insert()` call.
 })
 ```
 
-You should assign the return value of your `_insert()` call to `self.root`.
+`_insert()` 호출의 반환값을 `self.root`에 할당해야 합니다.
 
 ```js
 ({ test: () =>

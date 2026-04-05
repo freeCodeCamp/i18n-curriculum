@@ -1,6 +1,6 @@
 ---
 id: 657cfddfaca4b58b1279aaf9
-title: Task 74
+title: 작업 74
 challengeType: 22
 dashedName: task-74
 lang: en-US
@@ -10,11 +10,11 @@ lang: en-US
 
 # --description--
 
-To `encourage` means to give support, confidence, or hope to someone. It's what a good coach does to motivate their team to do their best.
+`encourage`는 누군가에게 지지, 자신감, 희망을 주는 것을 의미합니다. 좋은 코치가 팀이 최선을 다하도록 동기를 부여하는 방식입니다.
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+오디오를 듣고 아래 문장을 완성하세요.
 
 # --fillInTheBlank--
 
@@ -28,7 +28,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This verb is about motivating or inspiring someone to do something. It's similar to cheering someone on. Don't forget about the ending `-s`.
+이 동사는 누군가가 무언가를 하도록 동기를 부여하거나 영감을 주는 것과 관련 있습니다. 누군가를 응원하는 것과 비슷합니다. 끝나는 `-s`를 잊지 마세요.
 
 # --scene--
 

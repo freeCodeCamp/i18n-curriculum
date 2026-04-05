@@ -1,25 +1,25 @@
 ---
 id: 65ef1aacca094bbcc2e2a3c8
-title: Step 9
+title: 9단계
 challengeType: 20
 dashedName: step-9
 ---
 
 # --description--
 
-In Python, the `max()` function returns the largest of the input values.
+Python에서 `max()` 함수는 입력값 중 가장 큰 값을 반환합니다.
 
 ```python
 max(1, 2, 3) # Output: 3
 ```
 
-The variables `low` and `high` will be used to define the initial interval where the square root lies.
+변수 `low`과 `high`는 제곱근이 위치하는 초기 구간을 정의하는 데 사용됩니다.
 
-Inside the `else` clause, initialize the `low` variable to `0` and the `high` variable to be the maximum of either `1` or `square_target` as the square root of a number is always less than or equal to the number itself.
+`else` 절 안에서 `low` 변수를 `0`로 초기화하고, `high` 변수를 `1`과 `square_target` 중 최대값으로 할당하세요. 숫자의 제곱근은 항상 그 숫자보다 작거나 같기 때문입니다.
 
 # --hints--
 
-You should remove the `pass` keyword.
+`pass` 키워드를 제거하세요.
 
 ```js
 ({
@@ -30,7 +30,7 @@ You should remove the `pass` keyword.
 })
 ```
 
-You should declare a variable `low` and assign it `0`.
+변수 `low`을 선언하고 `0`을 할당하세요.
 
 ```js
 ({
@@ -41,7 +41,7 @@ You should declare a variable `low` and assign it `0`.
 
 ```
 
-You should declare a variable `high` and use the `max()` function to assign it the maximum value between `1` and `square_target`.
+변수 `high`을 선언하고 `max()` 함수를 사용해 `1`와 `square_target` 중 최대값을 할당하세요.
 
 ```js
 

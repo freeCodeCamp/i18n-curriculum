@@ -1,32 +1,32 @@
 ---
 id: 60f85a62fb30c80bcea0cedb
-title: Step 20
+title: 20단계
 challengeType: 0
 dashedName: step-20
 ---
 
 # --description--
 
-Users will be able to choose whether their account is for `Personal` or `Business` purposes.
+사용자가 자신의 계정이 `Personal` 용인지 `Business` 용인지 선택할 수 있게 하세요.
 
-To do this, within each of the first two `label` elements, add one `input` element with `type="radio"`.
+이를 위해, 처음 두 `label` 요소 각각에 `input` 속성을 가진 `type="radio"` 요소를 하나씩 추가하세요.
 
 # --hints--
 
-You should add two `input` elements.
+두 개의 `input` 요소를 추가해야 합니다.
 
 ```js
 assert.lengthOf(document.querySelectorAll('fieldset:nth-child(2) input'), 2);
 ```
 
-You should add one `input` to each of the first two `label` elements.
+처음 두 `input` 요소 각각에 `label` 하나를 추가해야 합니다.
 
 ```js
 assert.exists(document.querySelector('fieldset:nth-child(2) > label:nth-child(1) > input'));
 assert.exists(document.querySelector('fieldset:nth-child(2) > label:nth-child(2) > input'));
 ```
 
-You should give both `input` elements a `type` of `radio`.
+두 `input` 요소 모두에 `type` 값을 가진 `radio` 속성을 부여해야 합니다.
 
 ```js
 assert.lengthOf(document.querySelectorAll('fieldset:nth-child(2) input[type="radio"]'), 2);

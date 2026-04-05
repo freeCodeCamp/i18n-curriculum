@@ -1,19 +1,19 @@
 ---
 id: 657efdcf7fe23b76c0cff9ec
-title: Step 7
+title: 7단계
 challengeType: 20
 dashedName: step-7
 ---
 
 # --description--
 
-You need to handle the characters that are already in lowercase by adding them to the list of converted characters.
+이미 소문자인 문자를 변환된 문자 목록에 추가해서 처리해야 합니다.
 
-Right after the `if` statement within the `for` loop, add an `else` clause and use the `.append()` method to add `char` to the `snake_cased_char_list` variable.
+`if` 반복문 내 `for` 문장 바로 뒤에 `else` 절을 추가하고 `.append()` 메서드를 사용해 `char`를 `snake_cased_char_list` 변수에 추가하세요.
 
 # --hints--
 
-You should add an `else` clause inside the `for` loop. Don't forget the colon at the end.
+`else` 반복문 안에 `for` 절을 추가해야 합니다. 끝에 콜론을 잊지 마세요.
 
 ```js
 ({
@@ -27,7 +27,7 @@ You should add an `else` clause inside the `for` loop. Don't forget the colon at
 })
 ```
 
-You should use the `.append()` method to add `char` to the `snake_cased_char_list` variable.
+`.append()` 메서드를 사용해 `char`를 `snake_cased_char_list` 변수에 추가하세요.
 
 ```js
 ({

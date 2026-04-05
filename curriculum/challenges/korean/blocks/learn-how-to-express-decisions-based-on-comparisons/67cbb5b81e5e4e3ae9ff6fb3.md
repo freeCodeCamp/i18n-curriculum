@@ -1,6 +1,6 @@
 ---
 id: 67cbb5b81e5e4e3ae9ff6fb3
-title: Task 42
+title: 작업 42
 challengeType: 19
 dashedName: task-42
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+오디오를 듣고 아래 질문에 답하세요.
 
 # --questions--
 
 ## --text--
 
-What does Jake mean?
+Jake가 무슨 뜻인가요?
 
 ## --answers--
 
-SafeGuard is easy to integrate with other tools.
-
+SafeGuard는 다른 도구와 쉽게 통합할 수 있습니다.
+  
 ### --feedback--
 
-What Jake says implies it is not easy.
+Jake가 말하는 내용은 쉽지 않다는 것을 암시합니다.
 
 ---
 
-SafeGuard costs more when integrated.
+SafeGuard는 통합 시 비용이 더 듭니다.
 
 ### --feedback--
 
-Jake doesn't mention the cost.
+Jake는 비용에 대해 언급하지 않습니다.
 
 ---
 
-Integration with SafeGuard may require additional effort.
+SafeGuard와의 통합에는 추가 노력이 필요할 수 있습니다.
 
 ---
 
-SafeGuard is not flexible with integration.
+SafeGuard는 통합에 유연하지 않습니다.
 
 ### --feedback--
 
-Jake doesn't mention flexibility but focuses on the need for extra work.
+Jake는 유연성에 대해 언급하지 않고 추가 작업의 필요성에 포커스를 맞춥니다.
 
 ## --video-solution--
 
@@ -52,9 +52,9 @@ Jake doesn't mention flexibility but focuses on the need for extra work.
 
 # --explanation--
 
-`Extra work` means additional effort or time needed to achieve a goal.
+`Extra work`는 목표를 달성하기 위해 추가적인 노력이나 시간이 필요함을 의미합니다.
 
-Jake is suggesting that `if integration is crucial` (very important), Sophie might face challenges with SafeGuard, and therefore, additional work or effort will be required to integrate it with other platforms.
+Jake는 `if integration is crucial` (매우 중요하다면), Sophie가 SafeGuard와 관련해 도전 과제를 겪을 수 있으며, 따라서 다른 플랫폼과 통합하려면 추가 작업이나 노력이 필요할 것이라고 제안하고 있습니다.
 
 # --scene--
 

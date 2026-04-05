@@ -1,6 +1,6 @@
 ---
 id: 6914d94cee63aa7cbcafab2c
-title: Task 2
+title: 작업 2
 challengeType: 22
 dashedName: task-2
 lang: es
@@ -10,13 +10,13 @@ lang: es
 
 # --description--
 
-Mateo is mentioning his name and profession in Spanish.
+Mateo가 스페인어로 자신의 이름과 직업을 말하고 있습니다.
 
-Here, the verb `ser` is used to express his identity and profession.
+여기서 동사 `ser`는 자신의 정체성과 직업을 표현하는 데 사용됩니다.
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+오디오를 듣고 아래 문장을 완성하세요.
 
 # --fillInTheBlank--
 
@@ -30,7 +30,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This verb form comes from the verb `ser` and is used to describe who you are or what you do.
+이 동사 형태는 동사 `ser`에서 왔으며, 자신이 누구인지 또는 무엇을 하는지 설명할 때 사용됩니다.
 
 ---
 
@@ -38,14 +38,14 @@ This verb form comes from the verb `ser` and is used to describe who you are or 
 
 ### --feedback--
 
-This verb form comes from the verb `ser` and is used to describe who you are or what you do.
+이 동사 형태는 동사 `ser`에서 왔으며, 자신이 누구인지 또는 무엇을 하는지 설명할 때 사용됩니다.
 
 # --explanation--
 
 
-`Soy` is a verb used to describe who you are or what you do. For example:
+`Soy`는 자신이 누구인지 또는 무엇을 하는지 설명할 때 사용하는 동사입니다. 예를 들어:
 
-`Soy Mateo. Soy ingeniero de software.` - I'm Mateo. I'm a software engineer.
+`Soy Mateo. Soy ingeniero de software.` - 저는 Mateo입니다. 저는 소프트웨어 엔지니어입니다.
 
 # --scene--
 
@@ -103,4 +103,3 @@ This verb form comes from the verb `ser` and is used to describe who you are or 
   ]
 }
 ```
-

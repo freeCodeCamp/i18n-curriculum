@@ -1,6 +1,6 @@
 ---
 id: 685322cee8cbfeaacebe4e85
-title: Task 28
+title: 작업 28
 challengeType: 22
 dashedName: task-28
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+오디오를 듣고 아래 문장을 완성하세요.
 
 # --fillInTheBlank--
 
@@ -24,13 +24,13 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This means progress or development, especially in skills or knowledge.
+이는 특히 기술이나 지식에서의 진전 또는 개발을 의미합니다.
 
 # --explanation--
 
-`Growth` means improvement or development, often in knowledge, skills, or ability. For example:
+`Growth`는 지식, 기술 또는 능력에서의 향상이나 개발을 의미합니다. 예를 들어:
 
-`The company supports professional growth through regular training sessions.` – This means the company helps employees improve and develop their skills.
+`The company supports professional growth through regular training sessions.` – 이 문장은 회사가 직원들의 기술 향상과 개발을 돕는다는 뜻입니다.
 
 # --scene--
 

@@ -1,6 +1,6 @@
 ---
 id: 04e25c4fdc9ee0e71a844fd6
-title: Reading Files
+title: 파일 읽기
 challengeType: 11
 videoId: enOW7u6LWyg
 dashedName: reading-files
@@ -8,29 +8,29 @@ dashedName: reading-files
 
 # --description--
 
-In this video, you will learn how to read files in Python and process their contents.
+이 영상에서는 Python에서 파일을 읽고 그 내용을 처리하는 방법을 배우세요.
 
 # --questions--
 
 ## --text--
 
-What is the role of the `"r"` in the `open()` function?
+`"r"`가 `open()` 함수에서 하는 역할은 무엇인가요?
 
 ## --answers--
 
-It specifies the range mode.
+범위 모드를 지정합니다.
 
 ---
 
-It specifies the rename mode.
+이름 바꾸기 모드를 지정합니다.
 
 ---
 
-It specifies the random access mode.
+임의 접근 모드를 지정합니다.
 
 ---
 
-It specifies the read mode.
+읽기 모드를 지정합니다.
 
 ## --video-solution--
 

@@ -1,6 +1,6 @@
 ---
 id: 6557dc1aa6be93c1eb4e9efb
-title: Task 29
+title: 작업 29
 challengeType: 19
 dashedName: task-29
 lang: en-US
@@ -10,47 +10,47 @@ lang: en-US
 
 # --description--
 
-The word `if` means "whether or not". For example:
+단어 `if`는 "여부"를 의미합니다. 예를 들어:
 
-`She checks her emails to see if there are any urgent updates.` - This means she is looking to find out whether updates exist.
+`She checks her emails to see if there are any urgent updates.` - 이것은 그녀가 업데이트가 있는지 알아보려 한다는 뜻입니다.
 
-`If` can also be part of a conditional statement, which shows a possible situation and its result. For example:
+`If`는 조건문 일부로도 사용될 수 있으며, 가능한 상황과 그 결과를 보여줍니다. 예를 들어:
 
-`If there are urgent updates, I will reply immediately.` - This means replying depends on the condition of having urgent updates.
+`If there are urgent updates, I will reply immediately.` - 이것은 긴급 업데이트가 있는지 여부에 따라 답장이 달라진다는 뜻입니다.
 
 # --questions--
 
 ## --text--
 
-What does Sarah imply by using `if` in her statement about checking emails and messages?
+Sarah가 이메일과 메시지를 확인한다고 말할 때 `if`를 사용한 의미는 무엇인가요?
 
 ## --answers--
 
-She always finds urgent updates from her team.
+그녀는 항상 팀에서 긴급 업데이트를 찾습니다.
 
 ### --feedback--
 
-`If` doesn't suggest certainty of finding urgent updates.
+`If`는 긴급 업데이트를 반드시 찾는다는 뜻이 아닙니다.
 
 ---
 
-Sometimes there are urgent updates, sometimes not.
+때로는 긴급 업데이트가 있고, 때로는 없습니다.
 
 ---
 
-She never checks her emails and messages.
+그녀는 절대 이메일과 메시지를 확인하지 않습니다.
 
 ### --feedback--
 
-Sarah actually states that she does check her emails and messages.
+Sarah는 실제로 이메일과 메시지를 확인한다고 말했습니다.
 
 ---
 
-Checking emails is not part of her routine.
+이메일 확인은 그녀의 일상에 포함되지 않습니다.
 
 ### --feedback--
 
-Sarah mentions that checking emails and messages is part of her routine.
+Sarah는 이메일과 메시지 확인이 일상의 일부라고 언급했습니다.
 
 ## --video-solution--
 

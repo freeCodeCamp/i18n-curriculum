@@ -1,6 +1,6 @@
 ---
 id: bd7168d8c242eddfaeb5bd13
-title: Build a Bar Chart
+title: 막대 그래프 만들기
 challengeType: 25
 dashedName: build-a-bar-chart
 demoType: onClick
@@ -8,27 +8,27 @@ demoType: onClick
 
 # --description--
 
-In this project you will use the data from `https://cdn.freecodecamp.org/curriculum/labs/data/bar-chart/GDP-data.json` to build a bar chart.
+이 프로젝트에서는 `https://cdn.freecodecamp.org/curriculum/labs/data/bar-chart/GDP-data.json`의 데이터를 사용해 막대 그래프를 만드세요.
 
-The tests require axes to be generated using the D3 axis property, which automatically generates ticks along the axis. These ticks are required for passing the D3 tests because their positions are used to determine alignment of graphed elements.
+테스트는 D3 axis 속성을 사용해 축을 생성해야 하며, 이 속성은 축을 따라 눈금을 자동으로 생성합니다. 이 눈금들은 그래프 요소의 정렬을 결정하는 데 사용되므로 D3 테스트를 통과하려면 반드시 필요합니다.
 
-**Objective:** Fulfill the user stories below and get all the tests to pass to complete the lab.
+**목표:** 아래 사용자 스토리를 모두 충족하고 모든 테스트를 통과해 실습을 완료하세요.
 
-**User Stories:**
+**사용자 스토리:**
 
-1. Your chart should have a title with a corresponding `id="title"`.
-1. Your chart should have a `g` element x-axis with a corresponding `id="x-axis"`.
-1. Your chart should have a `g` element y-axis with a corresponding `id="y-axis"`.
-1. Both axes should contain multiple tick labels, each with a corresponding `class="tick"`.
-1. Your chart should have a `rect` element for each data point with a corresponding `class="bar"` displaying the data.
-1. Each `.bar` should have the attributes `data-date` and `data-gdp` containing `date` and `GDP` values.
-1. The `.bar` elements' `data-date` attributes should match the order of the provided data.
-1. The `.bar` elements' `data-gdp` attributes should match the order of the provided data.
-1. Each `.bar` element's height should accurately represent the data's corresponding `GDP`.
-1. The `data-date` attribute and its corresponding `.bar` element should align with the corresponding value on the x-axis.
-1. The `data-gdp` attribute and its corresponding `.bar` element should align with the corresponding value on the y-axis.
-1. You should be able to mouse over an area and see a tooltip with a corresponding `id="tooltip"` which displays more information about the area.
-1. Your tooltip should have a `data-date` attribute that corresponds to the `data-date` of the active area.
+1. 차트에는 해당 `id="title"`가 있는 제목이 있어야 합니다.
+1. 차트에는 해당 `g`가 있는 `id="x-axis"` 요소 x축이 있어야 합니다.
+1. 차트에는 해당 `g`가 있는 `id="y-axis"` 요소 y축이 있어야 합니다.
+1. 두 축 모두 여러 개의 눈금 레이블이 있어야 하며, 각각에 해당하는 `class="tick"`가 있어야 합니다.
+1. 차트에는 각 데이터 포인트마다 `rect` 요소가 있어야 하며, 해당 데이터를 표시하는 `class="bar"`가 있어야 합니다.
+1. 각 `.bar`는 `data-date`과 `data-gdp` 속성을 가지고 있으며, `date`와 `GDP` 값을 포함해야 합니다.
+1. `.bar` 요소들의 `data-date` 속성은 제공된 데이터 순서와 일치해야 합니다.
+1. `.bar` 요소들의 `data-gdp` 속성은 제공된 데이터 순서와 일치해야 합니다.
+1. 각 `.bar` 요소의 높이는 데이터의 해당 `GDP`를 정확히 나타내야 합니다.
+1. `data-date` 속성과 해당 `.bar` 요소는 x축의 해당 값과 정렬되어야 합니다.
+1. `data-gdp` 속성과 해당 `.bar` 요소는 y축의 해당 값과 정렬되어야 합니다.
+1. 마우스를 영역 위에 올리면 해당 영역에 대한 추가 정보를 표시하는 `id="tooltip"`가 있는 툴팁이 보여야 합니다.
+1. 툴팁에는 활성 영역의 `data-date`에 대응하는 `data-date` 속성이 있어야 합니다.
 
 # --before-all--
 
@@ -1401,43 +1401,43 @@ const timeout = (milliseconds) =>
 
 # --hints--
 
-The chart should have an element with the `id` of `title` to contain the title.
+차트에는 제목을 담기 위해 `id`의 `title` 속성을 가진 요소가 있어야 합니다.
 
 ```js
 assert.exists(document.getElementById('title'));
 ```
 
-The chart should have a `g` element x-axis with a corresponding id `x-axis`.
+차트에는 해당 id `g`가 있는 `x-axis` 요소 x축이 있어야 합니다.
 
 ```js
 assert.isNotEmpty(document.querySelector('g#x-axis'))
 ```
 
-The chart should have a `g` element y-axis with a corresponding id `y-axis`.
+차트에는 해당 id `g`가 있는 `y-axis` 요소 y축이 있어야 합니다.
 
 ```js
 assert.isNotEmpty(document.querySelector('g#y-axis'))
 ```
 
-The x axis should contain multiple tick labels, each with the corresponding `class="tick"`.
+x축에는 여러 개의 눈금 레이블이 있어야 하며, 각각에 해당하는 `class="tick"`가 있어야 합니다.
 
 ```js
 assert.isNotEmpty(document.querySelectorAll('#x-axis .tick'));
 ```
 
-The y axis should contain multiple tick labels, each with the corresponding `class="tick"`.
+y축에는 여러 개의 눈금 레이블이 있어야 하며, 각각에 해당하는 `class="tick"`가 있어야 합니다.
 
 ```js
 assert.isNotEmpty(document.querySelectorAll('#y-axis .tick'));
 ```
 
-Your chart should have a `rect` element for each data point with a corresponding `class="bar"` displaying the data.
+차트에는 각 데이터 포인트마다 `rect` 요소가 있어야 하며, 해당 데이터를 표시하는 `class="bar"`가 있어야 합니다.
 
 ```js
 assert.lengthOf(document.querySelectorAll('rect.bar'), GDPDataJson.data.length);
 ```
 
-Each bar should have the attributes `data-date` and `data-gdp` containing date and GDP values.
+각 막대는 날짜와 GDP 값을 포함하는 `data-date`과 `data-gdp` 속성을 가져야 합니다.
 
 ```js
 const bars = document.querySelectorAll('rect.bar');
@@ -1449,7 +1449,7 @@ bars.forEach(function (bar) {
 });
 ```
 
-The bar elements' `data-date` attributes should match the order of the provided data.
+막대 요소들의 `data-date` 속성은 제공된 데이터 순서와 일치해야 합니다.
 
 ```js
 const bars = document.querySelectorAll('rect.bar');
@@ -1464,7 +1464,7 @@ const currentBarDate = bar.getAttribute('data-date');
 
 ```
 
-The bar elements' `data-gdp` attributes should match the order of the provided data.
+막대 요소들의 `data-gdp` 속성은 제공된 데이터 순서와 일치해야 합니다.
 
 ```js
 const bars = document.querySelectorAll('rect.bar');
@@ -1478,7 +1478,7 @@ bars.forEach(function (bar, i) {
 });
 ```
 
-Each bar element's height should accurately represent the data's corresponding GDP
+각 막대 요소의 높이는 데이터의 해당 GDP를 정확히 나타내야 합니다.
 
 ```js
 const bars = document.querySelectorAll('rect.bar');
@@ -1501,7 +1501,7 @@ bars.forEach(function (bar) {
 });
 ```
 
-The `data-date` attribute and its corresponding bar element should align with the corresponding value on the x-axis. You can use `d3.scaleTime()` to create a time scale for the x-axis.
+`data-date` 속성과 해당 막대 요소는 x축의 해당 값과 정렬되어야 합니다. x축에 시간 스케일을 만들려면 `d3.scaleTime()`를 사용할 수 있습니다.
 
 ```js
 const axis = document.querySelector('#x-axis');
@@ -1531,7 +1531,7 @@ assert.isTrue(
 );
 ```
 
-The `data-gdp` attribute and its corresponding bar element should align with the corresponding value on the y-axis. You can use `d3.scaleLinear()` to create a linear scale for the y-axis.
+`data-gdp` 속성과 해당 막대 요소는 y축의 해당 값과 정렬되어야 합니다. y축에 선형 스케일을 만들려면 `d3.scaleLinear()`를 사용할 수 있습니다.
 
 ```js
 const axis = document.querySelector('#y-axis');
@@ -1558,7 +1558,7 @@ assert.isTrue(
 );
 ```
 
-When hovering over an area your bar chart should have a tooltip with a corresponding `id="tooltip"` which displays more information about the area.
+영역 위에 마우스를 올리면 막대 그래프에 해당 영역에 대한 추가 정보를 표시하는 `id="tooltip"`가 있는 툴팁이 있어야 합니다.
 
 ```js
 const areas = document.querySelectorAll('.bar');
@@ -1604,7 +1604,7 @@ assert.isTrue(
 );
 ```
 
-The tooltip should have a `data-date` attribute that corresponds to the `data-date` of the active area.
+툴팁에는 활성 영역의 `data-date`에 대응하는 `data-date` 속성이 있어야 합니다.
 
 ```js
 const areas = document.querySelectorAll('.bar');

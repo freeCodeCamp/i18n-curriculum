@@ -1,13 +1,13 @@
 ---
 id: 66edcccbba6dacdb65a59067
-title: JavaScript Arrays Quiz
+title: JavaScript 배열 퀴즈
 challengeType: 8
 dashedName: quiz-javascript-arrays
 ---
 
 # --description--
 
-To pass the quiz, you must correctly answer at least 18 of the 20 questions below.
+퀴즈를 통과하려면 아래 20문제 중 최소 18문제를 올바르게 답해야 합니다.
 
 # --quizzes--
 
@@ -17,7 +17,7 @@ To pass the quiz, you must correctly answer at least 18 of the 20 questions belo
 
 #### --text--
 
-What will be the output for the following code?
+다음 코드의 출력 결과는 무엇일까요?
 
 ```js
 const numbers = [1, 2, 3];
@@ -44,7 +44,7 @@ console.log(numbers[10]);
 
 #### --text--
 
-Which of the following is the correct way to access the string `"Jessica"` from the `developers` array?
+다음 중 `"Jessica"` 배열에서 문자열 `developers`에 접근하는 올바른 방법은 무엇인가요?
 
 #### --distractors--
 
@@ -78,7 +78,7 @@ developers[0]
 
 #### --text--
 
-What value will be assigned to the `index` variable?
+`index` 변수에 할당될 값은 무엇인가요?
 
 ```js
 const numbers = [10, 20, 30, 40];
@@ -106,51 +106,51 @@ console.log(index);
 
 #### --text--
 
-What does the rest syntax do?
+나머지 구문은 무엇을 하나요?
 
 #### --distractors--
 
-It is used to divide a string into an array of substrings.
+문자열을 하위 문자열 배열로 나누는 데 사용됩니다.
 
 ---
 
-It is used to add or remove elements from any position in an array.
+배열의 어느 위치에서든 요소를 추가하거나 제거하는 데 사용됩니다.
 
 ---
 
-It is used to add elements to the end of the array and will return the new length.
+배열 끝에 요소를 추가하고 새 길이를 반환하는 데 사용됩니다.
 
 #### --answer--
 
-It captures the remaining elements of an array into a new array.
+배열의 나머지 요소들을 새 배열로 캡처합니다.
 
 ### --question--
 
 #### --text--
 
-What is array destructuring?
+배열 구조 분해란 무엇인가요?
 
 #### --distractors--
 
-It is used to concatenate all of the elements of an array into a single string.
+배열의 모든 요소를 하나의 문자열로 연결하는 데 사용됩니다.
 
 ---
 
-It is used to check if an array contains a specific value.
+배열에 특정 값이 포함되어 있는지 확인하는 데 사용됩니다.
 
 ---
 
-It is used to remove the last element from an array and will return that removed element.
+배열에서 마지막 요소를 제거하고 제거된 요소를 반환하는 데 사용됩니다.
 
 #### --answer--
 
-It is used to extract values from arrays and assign them to variables in a more concise and readable way.
+배열에서 값을 추출해 변수에 더 간결하고 읽기 쉽게 할당하는 데 사용됩니다.
 
 ### --question--
 
 #### --text--
 
-What value will be assigned to the `arr2` variable?
+`arr2` 변수에 할당될 값은 무엇인가요?
 
 ```js
 const arr1 = [1, 2, 3];
@@ -178,7 +178,7 @@ console.log(arr2);
 
 #### --text--
 
-What will this code log to the console?
+이 코드는 콘솔에 무엇을 출력할까요?
 
 ```js
 const colors = ["red", "blue", "green", "yellow"];
@@ -206,7 +206,7 @@ console.log(colors);
 
 #### --text--
 
-What value will be assigned to the `slicedArr` variable?
+`slicedArr` 변수에 할당될 값은 무엇인가요?
 
 ```js
 const arr = ["apple", "banana", "cherry", "date"];
@@ -234,7 +234,7 @@ console.log(slicedArr);
 
 #### --text--
 
-Which method returns the first index of a given element in an array?
+주어진 요소의 첫 번째 인덱스를 반환하는 메서드는 무엇인가요?
 
 #### --distractors--
 
@@ -256,7 +256,7 @@ Which method returns the first index of a given element in an array?
 
 #### --text--
 
-Which method is used to remove the first element from an array and returns that removed element?
+배열에서 첫 번째 요소를 제거하고 제거된 요소를 반환하는 메서드는 무엇인가요?
 
 #### --distractors--
 
@@ -278,29 +278,29 @@ Which method is used to remove the first element from an array and returns that 
 
 #### --text--
 
-What does the `concat()` method do?
+`concat()` 메서드는 무엇을 하나요?
 
 #### --distractors--
 
-Joins array elements into a string.
+배열 요소를 문자열로 연결합니다.
 
 ---
 
-Adds an element to the beginning of an array.
+배열 앞에 요소를 추가합니다.
 
 ---
 
-Removes an element from the array.
+배열에서 요소를 제거합니다.
 
 #### --answer--
 
-Merges two arrays into a new array.
+두 배열을 새 배열로 병합합니다.
 
 ### --question--
 
 #### --text--
 
-What will be the output of this code?
+이 코드의 출력 결과는 무엇일까요?
 
 ```js
 const fruits = ["apple", "banana", "cherry", "apple", "orange"];
@@ -330,29 +330,29 @@ console.log(fruits);
 
 #### --text--
 
-What does the `includes()` method do?
+`includes()` 메서드는 무엇을 하나요?
 
 #### --distractors--
 
-It is used to divide a string into an array of substrings.
+문자열을 하위 문자열 배열로 나누는 데 사용됩니다.
 
 ---
 
-It is used to concatenate all of the elements of an array into a single string.
+배열의 모든 요소를 하나의 문자열로 연결하는 데 사용됩니다.
 
 ---
 
-It is used to add or remove elements from any position in an array.
+배열의 어느 위치에서든 요소를 추가하거나 제거하는 데 사용됩니다.
 
 #### --answer--
 
-It is used to check if an array contains a specific value.
+배열에 특정 값이 포함되어 있는지 확인하는 데 사용됩니다.
 
 ### --question--
 
 #### --text--
 
-Which of the following methods is used to reverse an array in place?
+다음 중 배열을 제자리에서 뒤집는 데 사용되는 메서드는 무엇인가요?
 
 #### --distractors--
 
@@ -374,51 +374,51 @@ Which of the following methods is used to reverse an array in place?
 
 #### --text--
 
-What is a two dimensional array?
+2차원 배열이란 무엇인가요?
 
 #### --distractors--
 
-An array that only contains object literals.
+객체 리터럴만 포함하는 배열입니다.
 
 ---
 
-An array of fixed length.
+고정 길이 배열입니다.
 
 ---
 
-An array of floating point numbers.
+부동 소수점 숫자 배열입니다.
 
 #### --answer--
 
-An array of arrays.
+배열의 배열입니다.
 
 ### --question--
 
 #### --text--
 
-Which of the following is true about the `indexOf()` method in arrays?
+배열에서 `indexOf()` 메서드에 대해 올바른 설명은 무엇인가요?
 
 #### --distractors--
 
-It always returns the last occurrence of the element.
+항상 요소의 마지막 발생 위치를 반환합니다.
 
 ---
 
-It throws an error if the element is not found.
+요소를 찾지 못하면 오류를 발생시킵니다.
 
 ---
 
-It requires the array to be sorted.
+배열이 정렬되어 있어야 합니다.
 
 #### --answer--
 
-It returns `-1` if the element is not found.
+요소를 찾지 못하면 `-1`를 반환합니다.
 
 ### --question--
 
 #### --text--
 
-Which of the following is NOT an array method?
+다음 중 배열 메서드가 아닌 것은 무엇인가요?
 
 #### --distractors--
 
@@ -440,7 +440,7 @@ Which of the following is NOT an array method?
 
 #### --text--
 
-What will be the output for the following code?
+다음 코드의 출력 결과는 무엇일까요?
 
 ```js
 const arr = ["o", "l", "l", "e", "h"];
@@ -467,8 +467,7 @@ console.log(arr.join(""));
 
 #### --text--
 
-What will be the result of using the `shift()` method on an empty array?
-
+빈 배열에 `shift()` 메서드를 사용하면 어떤 결과가 나오나요?
 
 #### --distractors--
 
@@ -490,7 +489,7 @@ What will be the result of using the `shift()` method on an empty array?
 
 #### --text--
 
-Which method will return a new array without changing the original array?
+원본 배열을 변경하지 않고 새 배열을 반환하는 메서드는 무엇인가요?
 
 #### --distractors--
 

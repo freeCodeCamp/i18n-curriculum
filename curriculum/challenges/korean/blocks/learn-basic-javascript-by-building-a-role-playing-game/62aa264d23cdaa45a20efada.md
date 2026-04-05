@@ -1,15 +1,15 @@
 ---
 id: 62aa264d23cdaa45a20efada
-title: Step 163
+title: 163단계
 challengeType: 0
 dashedName: step-163
 ---
 
 # --description--
 
-After your `numbers` array, create a `while` loop that runs as long as `numbers.length` is less than `10`.
+`numbers` 배열 다음에 `while`가 `numbers.length`보다 작을 동안 실행되는 `10` 반복문을 만드세요.
 
-In the previous project, you learned how to work with `while` loops like this:
+이전 프로젝트에서는 `while` 반복문을 이렇게 다루는 방법을 배웠습니다:
 
 ```js
 while (condition) {
@@ -19,13 +19,13 @@ while (condition) {
 
 # --hints--
 
-Your `pick` function should have a `while` loop.
+`pick` 함수에는 `while` 반복문이 있어야 합니다.
 
 ```js
 assert.match(pick.toString(), /while\s*\(/);
 ```
 
-Your `while` loop should run while `numbers.length < 10`.
+`while` 반복문은 `numbers.length < 10` 동안 실행되어야 합니다.
 
 ```js
 assert.match(pick.toString(), /while\s*\(\s*numbers\.length\s*<\s*10\s*\)/);
@@ -386,7 +386,7 @@ function pickEight() {
 --fcc-editable-region--
 function pick(guess) {
   const numbers = [];
-
+  
 }
 --fcc-editable-region--
 ```

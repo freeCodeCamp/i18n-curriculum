@@ -1,6 +1,6 @@
 ---
 id: 67d3f4b1be72cc09bd3ac4be
-title: Task 4
+title: 작업 4
 challengeType: 22
 dashedName: task-4
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+오디오를 듣고 아래 문장을 완성하세요.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This modal verb expresses necessity or obligation.
+이 조동사는 필요성이나 의무를 나타냅니다.
 
 ---
 
@@ -32,17 +32,17 @@ This modal verb expresses necessity or obligation.
 
 ### --feedback--
 
-This verb follows `must` to indicate an action that is required.
+이 동사는 `must` 다음에 와서 요구되는 행동을 나타냅니다.
 
 # --explanation--
 
-`Must` is a modal verb used to express necessity or obligation. For example:
+`Must`는 필요성이나 의무를 표현하는 조동사입니다. 예를 들어:
 
-- `You must wear a seatbelt while driving.` - It is required.
+- `You must wear a seatbelt while driving.` - 이것은 요구됩니다.
 
-- `We must submit the report by Friday.` - It is necessary.
+- `We must submit the report by Friday.` - 이것은 필요합니다.
 
-Modal verbs are always followed by the base form of the verb (without `to`).
+조동사 다음에는 항상 동사의 기본형(원형)이 옵니다 (`to` 없이).
 
 # --scene--
 

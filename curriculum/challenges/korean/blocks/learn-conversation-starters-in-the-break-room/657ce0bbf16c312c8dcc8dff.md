@@ -1,6 +1,6 @@
 ---
 id: 657ce0bbf16c312c8dcc8dff
-title: Task 63
+title: 작업 63
 challengeType: 19
 dashedName: task-63
 lang: en-US
@@ -8,19 +8,19 @@ lang: en-US
 
 # --description--
 
-There are some words you can use in your sentence to express how often something happens. They are called **adverbs of frequency**.
+어떤 일이 얼마나 자주 일어나는지 표현할 때 사용할 수 있는 단어들이 있습니다. 이것들을 **빈도 부사**라고 합니다.
 
-`Usually` is a word that suggests that something happens often but is not constant.
+`Usually`는 어떤 일이 자주 일어나지만 항상 그런 것은 아님을 나타내는 단어입니다.
 
-When `usually` is used with the verb `to be`, it is placed after the verb. For example, `She is usually on time for meetings`.
+`usually`가 동사 `to be`와 함께 사용될 때는 동사 뒤에 위치합니다. 예를 들어, `She is usually on time for meetings`.
 
-With other verbs, `usually` comes before the main verb. For example, `He usually works late`.
+다른 동사들과 함께 사용할 때는 `usually`가 주동사 앞에 옵니다. 예를 들어, `He usually works late`.
 
 # --questions--
 
 ## --text--
 
-Choose the sentence that correctly uses the adverb `usually`.
+부사 `usually`를 올바르게 사용한 문장을 고르세요.
 
 ## --answers--
 
@@ -28,7 +28,7 @@ Choose the sentence that correctly uses the adverb `usually`.
 
 ### --feedback--
 
-`Usually` should come before the main verb when not using `to be`. The correct sentence is `She is usually very careful with her work.`
+`Usually`는 `to be`를 사용하지 않을 때 주동사 앞에 와야 합니다. 올바른 문장은 `She is usually very careful with her work.`입니다.
 
 ---
 
@@ -40,7 +40,7 @@ Choose the sentence that correctly uses the adverb `usually`.
 
 ### --feedback--
 
-`Usually` should come before the main verb in standard sentences. The correct sentence is `They usually play together on weekends.`
+`Usually`는 일반 문장에서 주동사 앞에 와야 합니다. 올바른 문장은 `They usually play together on weekends.`입니다.
 
 ---
 
@@ -48,7 +48,7 @@ Choose the sentence that correctly uses the adverb `usually`.
 
 ### --feedback--
 
-With the verb `to be`, `usually` comes after it. The correct sentence is `We are usually happy to help out with new projects.`
+동사 `to be`와 함께 사용할 때 `usually`는 그 뒤에 옵니다. 올바른 문장은 `We are usually happy to help out with new projects.`입니다.
 
 ## --video-solution--
 

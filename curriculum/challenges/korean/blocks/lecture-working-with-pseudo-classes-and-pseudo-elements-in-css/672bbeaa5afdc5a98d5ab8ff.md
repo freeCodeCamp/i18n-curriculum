@@ -1,15 +1,15 @@
 ---
 id: 672bbeaa5afdc5a98d5ab8ff
-title: What Are Examples of Location Pseudo-classes?
+title: 위치 가상 클래스의 예시는 무엇인가요?
 challengeType: 19
 dashedName: what-are-examples-of-location-pseudo-classes
 ---
 
 # --interactive--
 
-Location pseudo-classes are used for styling links and elements that are targeted within the current document. They offer a way to apply styles based on whether a link is visited or whether an element is currently in focus.
+위치 가상 클래스는 현재 문서 내에서 대상이 되는 링크와 요소를 스타일링하는 데 사용됩니다. 방문한 링크인지, 요소가 현재 포커스 상태인지에 따라 스타일을 적용하는 방법을 제공합니다.
 
-Examples of location pseudo-classes are:
+위치 가상 클래스의 예시는 다음과 같습니다:
 
 - `:link`
 - `:visited`
@@ -17,9 +17,9 @@ Examples of location pseudo-classes are:
 - `:local-link`
 - `:target`
 
-Let's take a deeper look at each of these pseudo-classes.
+각 가상 클래스를 좀 더 자세히 살펴보겠습니다.
 
-The `:link` pseudo-class allows you to target all unvisited links on a webpage. You can use it to style links differently before the user clicks on them. For example, you might want to make all unvisited links blue or your website's primary color:
+`:link` 가상 클래스는 웹페이지에서 방문하지 않은 모든 링크를 대상으로 지정할 수 있게 해줍니다. 사용자가 클릭하기 전 링크를 다르게 스타일링할 때 사용할 수 있습니다. 예를 들어, 방문하지 않은 모든 링크를 파란색이나 웹사이트의 기본 색상으로 만들고 싶을 수 있습니다:
 
 :::interactive_editor
 
@@ -36,9 +36,9 @@ a:link {
 
 :::
 
-In this case, any link the user hasn't clicked yet will appear magenta. Once the user clicks the link, the `:link` style no longer applies, and the `:visited` pseudo-class takes over. The `:visited` pseudo-class comes into play after the user clicks the link, so you can use it to target links the user has already clicked.
+이 경우, 사용자가 아직 클릭하지 않은 모든 링크는 마젠타색으로 표시됩니다. 사용자가 링크를 클릭하면 `:link` 스타일은 더 이상 적용되지 않고 `:visited` 가상 클래스가 적용됩니다. `:visited` 가상 클래스는 사용자가 링크를 클릭한 후에 작동하므로, 이미 클릭한 링크를 대상으로 지정할 때 사용할 수 있습니다.
 
-Here is an example of changing the visited link state to the color `purple`:
+다음은 방문한 링크 상태를 `purple` 색상으로 변경하는 예시입니다:
 
 :::interactive_editor
 
@@ -55,11 +55,11 @@ a:visited {
 
 :::
 
-The `:visited` pseudo-class helps users distinguish between links they have visited and those they have not.
+`:visited` 가상 클래스는 사용자가 방문한 링크와 방문하지 않은 링크를 구분하는 데 도움을 줍니다.
 
-The `:any-link` pseudo-class is a combination of the `:link` and `:visited` pseudo-classes. So it matches any anchor element with an `href` attribute, regardless of whether it's visited or not.
+`:any-link` 가상 클래스는 `:link`와 `:visited` 가상 클래스의 조합입니다. 따라서 방문 여부와 상관없이 `href` 속성이 있는 모든 앵커 요소와 일치합니다.
 
-Here is an example of changing the link color for the `:any-link` pseudo-class to `crimson`:
+다음은 `:any-link` 가상 클래스의 링크 색상을 `crimson`으로 변경하는 예시입니다:
 
 :::interactive_editor
 
@@ -76,11 +76,11 @@ a:any-link {
 
 :::
 
-The `:local-link` pseudo-class targets links that point to the same document. It can be useful when you want to differentiate internal links from external ones. Currently, no browser supports the `:local-link` pseudo-class.
+`:local-link` 가상 클래스는 같은 문서를 가리키는 링크를 대상으로 지정합니다. 내부 링크와 외부 링크를 구분할 때 유용합니다. 현재 어떤 브라우저도 `:local-link` 가상 클래스를 지원하지 않습니다.
 
-The `:target` pseudo-class selects an element that matches the current URL fragment identifier, for example, `#section1`. It's very useful for pages with in-page navigation.
+`:target` 가상 클래스는 현재 URL 조각 식별자와 일치하는 요소를 선택합니다. 예를 들어 `#section1`입니다. 페이지 내 내비게이션이 있는 경우 매우 유용합니다.
 
-Here's an HTML example that represents an in-page navigation. The CSS uses the `:target` pseudo-class to style the section that matches where the user navigates to:
+다음은 페이지 내 내비게이션을 나타내는 HTML 예시입니다. CSS는 `:target` 가상 클래스를 사용해 사용자가 이동한 섹션을 스타일링합니다:
 
 :::interactive_editor
 
@@ -114,13 +114,13 @@ section:target {
 
 :::
 
-When the user clicks on one of the navigation links, the background color for that respective section will change to green.
+사용자가 내비게이션 링크 중 하나를 클릭하면 해당 섹션의 배경색이 초록색으로 변경됩니다.
 
 # --questions--
 
 ## --text--
 
-Which pseudo-class allows you to style an element that matches the current URL fragment identifier, such as `#section1`?
+현재 URL 조각 식별자와 일치하는 요소를 스타일링할 수 있게 하는 가상 클래스는 무엇인가요? 예를 들어 `#section1` 같은 경우입니다.
 
 ## --answers--
 
@@ -128,7 +128,7 @@ Which pseudo-class allows you to style an element that matches the current URL f
 
 ### --feedback--
 
-Think about how you can highlight a specific section when navigating through in-page links.
+페이지 내 링크를 통해 특정 섹션을 강조하는 방법을 생각해 보세요.
 
 ---
 
@@ -136,7 +136,7 @@ Think about how you can highlight a specific section when navigating through in-
 
 ### --feedback--
 
-Think about how you can highlight a specific section when navigating through in-page links.
+페이지 내 링크를 통해 특정 섹션을 강조하는 방법을 생각해 보세요.
 
 ---
 
@@ -148,7 +148,7 @@ Think about how you can highlight a specific section when navigating through in-
 
 ### --feedback--
 
-Think about how you can highlight a specific section when navigating through in-page links.
+페이지 내 링크를 통해 특정 섹션을 강조하는 방법을 생각해 보세요.
 
 ## --video-solution--
 
@@ -156,35 +156,35 @@ Think about how you can highlight a specific section when navigating through in-
 
 ## --text--
 
-When are location pseudo-classes particularly useful?
+위치 가상 클래스가 특히 유용한 경우는 언제인가요?
 
 ## --answers--
 
-When styling elements based on their sibling relationships.
+형제 관계에 따라 요소를 스타일링할 때입니다.
 
 ### --feedback--
 
-Think about how you can style links and targeted elements depending on user interaction.
+사용자 상호작용에 따라 링크와 대상 요소를 어떻게 스타일링할 수 있을지 생각해 보세요.
 
 ---
 
-When applying styles based on whether a link is visited or an element is currently in focus.
+링크가 방문되었는지, 요소가 현재 포커스 상태인지에 따라 스타일을 적용할 때입니다.
 
 ---
 
-When styling elements based on their parent element's attributes.
+부모 요소의 속성에 따라 요소를 스타일링할 때입니다.
 
 ### --feedback--
 
-Think about how you can style links and targeted elements depending on user interaction.
+사용자 상호작용에 따라 링크와 대상 요소를 어떻게 스타일링할 수 있을지 생각해 보세요.
 
 ---
 
-When adjusting the layout of a webpage dynamically.
+웹페이지 레이아웃을 동적으로 조정할 때입니다.
 
 ### --feedback--
 
-Think about how you can style links and targeted elements depending on user interaction.
+사용자 상호작용에 따라 링크와 대상 요소를 어떻게 스타일링할 수 있을지 생각해 보세요.
 
 ## --video-solution--
 
@@ -192,7 +192,7 @@ Think about how you can style links and targeted elements depending on user inte
 
 ## --text--
 
-Which pseudo-class is designed to target links that point to the same document but is not currently supported by any browser?
+같은 문서를 가리키는 링크를 대상으로 하지만 현재 어떤 브라우저도 지원하지 않는 가상 클래스는 무엇인가요?
 
 ## --answers--
 
@@ -200,7 +200,7 @@ Which pseudo-class is designed to target links that point to the same document b
 
 ### --feedback--
 
-Consider the pseudo-class intended for distinguishing internal links from external ones, even though it's not yet supported.
+내부 링크와 외부 링크를 구분하기 위해 설계되었지만 아직 지원되지 않는 가상 클래스를 생각해 보세요.
 
 ---
 
@@ -212,7 +212,7 @@ Consider the pseudo-class intended for distinguishing internal links from extern
 
 ### --feedback--
 
-Consider the pseudo-class intended for distinguishing internal links from external ones, even though it's not yet supported.
+내부 링크와 외부 링크를 구분하기 위해 설계되었지만 아직 지원되지 않는 가상 클래스를 생각해 보세요.
 
 ---
 
@@ -220,7 +220,7 @@ Consider the pseudo-class intended for distinguishing internal links from extern
 
 ### --feedback--
 
-Consider the pseudo-class intended for distinguishing internal links from external ones, even though it's not yet supported.
+내부 링크와 외부 링크를 구분하기 위해 설계되었지만 아직 지원되지 않는 가상 클래스를 생각해 보세요.
 
 ## --video-solution--
 

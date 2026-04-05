@@ -1,6 +1,6 @@
 ---
 id: 656d1becadf67d05d5b27bab
-title: Task 149
+title: 작업 149
 challengeType: 19
 dashedName: task-149
 lang: en-US
@@ -14,19 +14,19 @@ Brian: But it's true. She's the person to go to if you need help.
 
 # --description--
 
-Just like when you learned about the pronoun `he`, pronouns like `she` are used to refer to female individuals. They help avoid repetition in conversation. Look at this part of the dialogue:
+`he` 대명사를 배웠을 때처럼, `she` 같은 대명사는 여성 개인을 가리킬 때 사용합니다. 대화에서 반복을 피하는 데 도움이 됩니다. 다음 대화 부분을 보세요:
 
 - Sophie: `Oh, come on, Brian.`
 
 - Brian: `But it's true. She's the person to go to if you need help.`
 
-Here, `she` is used by Brian to refer to Sophie. Instead of repeating Sophie's name, Brian uses the pronoun `she` to make the conversation smoother and avoid repetition.
+여기서 Brian은 Sophie를 가리키기 위해 `she`를 사용합니다. Sophie의 이름을 반복하는 대신, Brian은 대명사 `she`를 사용해 대화를 더 자연스럽게 하고 반복을 피합니다.
 
 # --questions--
 
 ## --text--
 
-In the dialogue, which word does Brian use to refer to Sophie without repeating her name?
+대화에서 Brian이 Sophie의 이름을 반복하지 않고 가리키기 위해 사용하는 단어는 무엇인가요?
 
 ## --answers--
 
@@ -34,7 +34,7 @@ In the dialogue, which word does Brian use to refer to Sophie without repeating 
 
 ### --feedback--
 
-`He` refers to a male.
+`He`는 남성을 가리킵니다.
 
 ---
 
@@ -42,7 +42,7 @@ In the dialogue, which word does Brian use to refer to Sophie without repeating 
 
 ### --feedback--
 
-`They` is plural and refers to more than one person.
+`They`는 복수형으로 두 명 이상을 가리킵니다.
 
 ---
 
@@ -50,7 +50,7 @@ In the dialogue, which word does Brian use to refer to Sophie without repeating 
 
 ### --feedback--
 
-`It` is usually used for things or animals.
+`It`는 보통 사물이나 동물을 가리킬 때 사용합니다.
 
 ---
 

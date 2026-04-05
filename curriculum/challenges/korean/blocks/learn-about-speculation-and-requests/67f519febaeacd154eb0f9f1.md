@@ -1,6 +1,6 @@
 ---
 id: 67f519febaeacd154eb0f9f1
-title: Task 96
+title: 작업 96
 challengeType: 22
 dashedName: task-96
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+오디오를 듣고 아래 문장을 완성하세요.
 
 # --fillInTheBlank--
 
@@ -24,15 +24,15 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This word means being alert and watching carefully for potential dangers or problems.
+이 단어는 경계하며 잠재적 위험이나 문제를 주의 깊게 살피는 것을 의미합니다.
 
 # --explanation--
 
-`Vigilant` means being watchful and cautious to detect possible threats. For example:
+`Vigilant`는 가능한 위협을 감지하기 위해 주의 깊고 조심하는 상태를 뜻합니다. 예를 들어:
 
-- `The IT team is always vigilant when monitoring the network.` - The IT team stays alert and careful while checking the network.
+- `The IT team is always vigilant when monitoring the network.` - IT 팀은 네트워크를 점검할 때 경계하며 신중하게 행동합니다.
 
-- `You should be vigilant when clicking on unknown links in emails.` - You need to be careful and pay attention to suspicious email links.
+- `You should be vigilant when clicking on unknown links in emails.` - 의심스러운 이메일 링크에 주의하고 신경 써야 합니다.
 
 # --scene--
 

@@ -1,6 +1,6 @@
 ---
 id: 65a74dae1b3acd9fad3a068e
-title: Task 132
+title: 작업 132
 challengeType: 22
 dashedName: task-132
 lang: en-US
@@ -10,9 +10,9 @@ lang: en-US
 
 # --description--
 
-`To recognize` means to identify someone or something from before, or to acknowledge the existence or validity of something. For example, `I recognize your efforts in completing this project.`
+`To recognize`는 이전에 누군가 또는 무언가를 식별하거나, 무언가의 존재나 타당성을 인정하는 것을 의미합니다. 예를 들어, `I recognize your efforts in completing this project.`
 
-`Recognition` is the noun form of `recognize` and refers to the act of acknowledging or giving credit to someone for their efforts or achievements. For example, `He received recognition for his innovative work.`
+`Recognition`는 `recognize`의 명사형으로, 누군가의 노력이나 성과에 대해 인정하거나 공로를 인정하는 행위를 가리킵니다. 예를 들어, `He received recognition for his innovative work.`
 
 # --fillInTheBlank--
 
@@ -26,7 +26,7 @@ lang: en-US
 
 ### --feedback--
 
-This verb means to perform an activity or exercise repeatedly or regularly in order to improve or maintain one's proficiency.
+이 동사는 능력을 향상하거나 유지하기 위해 어떤 활동이나 운동을 반복하거나 규칙적으로 수행하는 것을 의미합니다.
 
 ---
 
@@ -34,7 +34,7 @@ This verb means to perform an activity or exercise repeatedly or regularly in or
 
 ### --feedback--
 
-This noun refers to the action or process of acknowledging someone's efforts, achievements, or qualities.
+이 명사는 누군가의 노력, 성취 또는 특성을 인정하는 행위나 과정을 가리킵니다.
 
 # --scene--
 

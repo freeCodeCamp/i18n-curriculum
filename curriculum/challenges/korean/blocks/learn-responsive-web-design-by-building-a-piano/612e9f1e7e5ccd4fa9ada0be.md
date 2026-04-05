@@ -1,23 +1,23 @@
 ---
 id: 612e9f1e7e5ccd4fa9ada0be
-title: Step 17
+title: 17단계
 challengeType: 0
 dashedName: step-17
 ---
 
 # --description--
 
-Give the `.key` a `margin` of `2px` and a `float` property set to `left`.
+`.key`에 `margin` 값을 가진 `2px`과 `float`로 설정된 `left` 속성을 주세요.
 
 # --hints--
 
-Your `.key` selector should have a `margin` property set to `2px`.
+`.key` 선택자에 `margin`로 설정된 `2px` 속성이 있어야 합니다.
 
 ```js
 assert(new __helpers.CSSHelp(document).getStyle('.key')?.margin === '2px');
 ```
 
-Your `.key` selector should have a `float` property set to `left`.
+`.key` 선택자에 `float`로 설정된 `left` 속성이 있어야 합니다.
 
 ```js
 assert(new __helpers.CSSHelp(document).getStyle('.key')?.float === 'left');

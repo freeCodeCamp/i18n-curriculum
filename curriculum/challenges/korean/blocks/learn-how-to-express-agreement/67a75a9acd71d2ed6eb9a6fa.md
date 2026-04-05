@@ -1,6 +1,6 @@
 ---
 id: 67a75a9acd71d2ed6eb9a6fa
-title: Task 20
+title: 작업 20
 challengeType: 22
 dashedName: task-20
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+오디오를 듣고 아래 문장을 완성하세요.
 
 # --fillInTheBlank--
 
@@ -24,13 +24,13 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This two-word phrase refers to different situations that represent how a person might interact with a product.
+이 두 단어 구는 사용자가 제품과 상호작용하는 다양한 상황을 나타냅니다.
 
 # --explanation--
 
-`User scenarios` refers to different situations that describe how users interact with a product to achieve a goal. It helps teams test and improve the user experience. For example:
+`User scenarios`는 사용자가 목표를 달성하기 위해 제품과 상호작용하는 다양한 상황을 설명합니다. 이는 팀이 사용자 경험을 테스트하고 개선하는 데 도움이 됩니다. 예를 들어:
 
-`We created user scenarios to see how customers navigate the checkout process.` – This means the team simulated different ways users complete a purchase to identify any issues.
+`We created user scenarios to see how customers navigate the checkout process.` – 이는 팀이 사용자가 구매를 완료하는 다양한 방법을 시뮬레이션하여 문제를 찾아낸다는 뜻입니다.  
 
 # --scene--
 

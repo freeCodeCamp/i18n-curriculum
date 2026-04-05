@@ -1,27 +1,27 @@
 ---
 id: 695cc8f280fef0cc3bed02ca
-title: What Is the Path Module and How Does It Work?
+title: 경로 모듈이란 무엇이며 어떻게 작동하나요?
 challengeType: 19
 dashedName: what-is-the-path-module-and-how-does-it-work
 ---
 
 # --description--
 
-The Node.js `path` module lets you work with files and directory paths. It provides several useful methods for handling and transforming directories, including joining, normalizing, and resolving the directories across different platforms and operating systems.
+Node.js `path` 모듈은 파일과 디렉터리 경로를 다룰 수 있게 해줍니다. 이 모듈은 서로 다른 플랫폼과 운영체제에서 디렉터리를 연결, 표준화, 해결하는 등 디렉터리를 처리하고 변환하는 데 유용한 여러 메서드를 제공합니다.
 
-To use the `path` module, you can import it like this:
+`path` 모듈을 사용하려면 다음과 같이 가져오세요:
 
 ```js
 const path = require("path");
 ```
 
-Let's look at some of the methods the `path` module provides and how they work.
+`path` 모듈이 제공하는 몇 가지 메서드와 그 작동 방식을 살펴보겠습니다.
 
-First, you should be aware of the Node.js global variables `__filename` and `__dirname`, AKA "common JS" variables. You don't need the `path` module to access them, which is why they are called global variables.
+먼저, Node.js 전역 변수인 `__filename`와 `__dirname`, 즉 "common JS" 변수를 알아두세요. 이 변수들은 `path` 모듈 없이 접근할 수 있어서 전역 변수라고 부릅니다.
 
-`__filename` is the absolute path of the current file and `__dirname` is the absolute path of the directory containing the current file.
+`__filename`는 현재 파일의 절대 경로이고 `__dirname`는 현재 파일이 포함된 디렉터리의 절대 경로입니다.
 
-For example, I have a `script.js` file I'm currently working with. Here's what the two methods return:
+예를 들어, 제가 작업 중인 `script.js` 파일이 있습니다. 두 메서드가 반환하는 값은 다음과 같습니다:
 
 ```js
 console.log(__filename);
@@ -31,55 +31,55 @@ console.log(__dirname);
 // /Users/user/Desktop/fCC/script-code/node/node-path
 ```
 
-You should also be aware of relative and absolute paths.
+상대 경로와 절대 경로도 알아두세요.
 
-A relative path points to a file or folder based on your current working directory. For example, `./assets/src/text-files`.
+상대 경로는 현재 작업 디렉터리를 기준으로 파일이나 폴더를 가리킵니다. 예를 들어, `./assets/src/text-files`입니다.
 
-An absolute path, on the other hand, gives the complete address of a file or folder from the root of your system, such as `/Users/johndoe/projects/app/assets/src/text-files.`
+반면 절대 경로는 시스템의 루트부터 시작하는 파일이나 폴더의 전체 주소를 제공합니다. 예를 들어 `/Users/johndoe/projects/app/assets/src/text-files.`입니다.
 
-The `basename()` method shows the last part of the file, that is, the filename:
+`basename()` 메서드는 파일의 마지막 부분, 즉 파일 이름을 보여줍니다:
 
 ```js
 console.log(path.basename(__filename)); // script.js
 ```
 
-`dirname()` returns the directory name of a path:
+`dirname()`는 경로의 디렉터리 이름을 반환합니다:
 
 ```js
 console.log(path.dirname(__dirname)); // node-path
 ```
 
-`extname()` returns the extension of the current file:
+`extname()`는 현재 파일의 확장자를 반환합니다:
 
 ```js
 console.log(path.extname(__filename)); // .js
 ```
 
-You can also specify a different file to return the extension of:
+다른 파일의 확장자를 반환하도록 지정할 수도 있습니다:
 
 ```js
 console.log(path.extname('text-files/text1.txt')); // .txt
 ```
 
-The `join()` method takes all the path segments you pass in and joins them into one clean, normalized path. 
+`join()` 메서드는 전달한 모든 경로 세그먼트를 하나의 깔끔하고 표준화된 경로로 연결합니다.
 
-This could be useful if you want to merge related files in different folders so you can work with them together:
+이것은 서로 다른 폴더에 있는 관련 파일들을 병합하여 함께 작업할 때 유용할 수 있습니다:
 
 ```js
 const joinedPath = path.join("src", "assets", "text-files");
 console.log(joinedPath); // src/assets/text-files
 ```
 
-Windows uses backslashes to separate directories, so the result will be `src\assets\text-files`.
+Windows는 디렉터리를 구분할 때 역슬래시를 사용하므로 결과는 `src\assets\text-files`가 됩니다.
 
-In addition, the `join()` method automatically fixes wrong slashes and removes extra ones:
+또한 `join()` 메서드는 잘못된 슬래시를 자동으로 고치고 불필요한 슬래시를 제거합니다:
 
 ```js
 const wrongPath = path.join("/src//", "assets", "text-files");
 console.log(wrongPath); // /src/assets/text-files
 ```
 
-The `resolve()` method turns a sequence of path segments into an absolute path. It starts from your current working directory and results in a full path that points to the exact location on the device:
+`resolve()` 메서드는 경로 세그먼트 수열을 절대 경로로 변환합니다. 현재 작업 디렉터리에서 시작해 장치 내 정확한 위치를 가리키는 전체 경로를 만듭니다:
 
 ```js
 const absolutePath = path.resolve("assets", "src", "text-files");
@@ -87,11 +87,11 @@ console.log(absolutePath);
 // /Users/user/Desktop/fCC/script-code/node/node-path/assets/src/text-files
 ```
 
-The difference between `join()` and `resolve()` is that `join()` creates a relative path, while `resolve()` returns an absolute path.
+`join()`와 `resolve()`의 차이는 `join()`이 상대 경로를 만들고 `resolve()`이 절대 경로를 반환한다는 점입니다.
 
-Lastly, there are the `parse()` and `format()` methods.
+마지막으로 `parse()`와 `format()` 메서드가 있습니다.
 
-`parse()` takes a directory or file and returns an object that contains the breakdown of its parts, such as the system root, its directory, extension, and the filename:
+`parse()`는 디렉터리나 파일을 받아 시스템 루트, 디렉터리, 확장자, 파일 이름 등 그 구성 요소를 포함하는 객체를 반환합니다:
 
 ```js
 const parsedFile = path.parse(__filename);
@@ -108,7 +108,7 @@ console.log(parsedFile);
 */
 ```
 
-`format()`, on the other hand, builds a path from an object containing directory, name, and extension:
+반면 `format()`는 디렉터리, 이름, 확장자를 포함하는 객체에서 경로를 만듭니다:
 
 ```js
 const formattedDirectory = path.format({
@@ -124,35 +124,35 @@ console.log(formattedDirectory); // /users/johndoe/docs/file.txt
 
 ## --text--
 
-What is the difference between `path.dirname()` and `path.extname()` in Node.js?
+Node.js에서 `path.dirname()`와 `path.extname()`의 차이는 무엇인가요?
 
 ## --answers--
 
-`dirname()` removes the file extension, while `extname()` removes the directory name.
+`dirname()`는 파일 확장자를 제거하고 `extname()`는 디렉터리 이름을 제거합니다.
 
 ### --feedback--
 
-Focus on which one deals with directories and which one deals with file extensions.
+어떤 메서드가 디렉터리를 다루고 어떤 메서드가 파일 확장자를 다루는지 집중하세요.
 
 ---
 
-`dirname()` returns the full file path, while `extname()` returns the directory name.
+`dirname()`는 전체 파일 경로를 반환하고 `extname()`는 디렉터리 이름을 반환합니다.
 
 ### --feedback--
 
-Focus on which one deals with directories and which one deals with file extensions.
+어떤 메서드가 디렉터리를 다루고 어떤 메서드가 파일 확장자를 다루는지 집중하세요.
 
 ---
 
-`dirname()` returns the directory name of a path, while `extname()` returns the file's extension.
+`dirname()`는 경로의 디렉터리 이름을 반환하고 `extname()`는 파일 확장자를 반환합니다.
 
 ---
 
-`dirname()` and `extname()` both return the same value but in different formats.
+`dirname()`와 `extname()`는 모두 같은 값을 반환하지만 서로 다른 형식입니다.
 
 ### --feedback--
 
-Focus on which one deals with directories and which one deals with file extensions.
+어떤 메서드가 디렉터리를 다루고 어떤 메서드가 파일 확장자를 다루는지 집중하세요.
 
 ## --video-solution--
 
@@ -160,7 +160,7 @@ Focus on which one deals with directories and which one deals with file extensio
 
 ## --text--
 
-Which `path` method builds a complete file path from an object containing directory, name, and extension properties?
+디렉터리, 이름, 확장자 프로퍼티를 포함하는 객체에서 완전한 파일 경로를 만드는 `path` 메서드는 무엇인가요?
 
 ## --answers--
 
@@ -168,7 +168,7 @@ Which `path` method builds a complete file path from an object containing direct
 
 ### --feedback--
 
-Think about what the opposite of `parse()` is.
+`parse()`의 반대 기능이 무엇인지 생각하세요.
 
 ---
 
@@ -180,7 +180,7 @@ Think about what the opposite of `parse()` is.
 
 ### --feedback--
 
-Think about what the opposite of `parse()` is.
+`parse()`의 반대 기능이 무엇인지 생각하세요.
 
 ---
 
@@ -188,7 +188,7 @@ Think about what the opposite of `parse()` is.
 
 ### --feedback--
 
-Think about what the opposite of `parse()` is.
+`parse()`의 반대 기능이 무엇인지 생각하세요.
 
 ## --video-solution--
 
@@ -196,35 +196,35 @@ Think about what the opposite of `parse()` is.
 
 ## --text--
 
-What do the Node.js global variables `__filename` and `__dirname` provide access to?
+Node.js 전역 변수 `__filename`와 `__dirname`는 무엇에 접근할 수 있게 해주나요?
 
 ## --answers--
 
-The absolute path of the current file and its containing directory.
+현재 파일의 절대 경로와 그 파일이 포함된 디렉터리입니다.
 
 ---
 
-The name of the current module and its dependencies.
+현재 모듈 이름과 그 의존성입니다.
 
 ### --feedback--
 
-Think about which variables automatically give you full file and folder paths without using the path module.
+path 모듈을 사용하지 않고도 전체 파일과 폴더 경로를 자동으로 제공하는 변수가 무엇인지 생각하세요.
 
 ---
 
-The relative path to the Node.js installation directory.
+Node.js 설치 디렉터리의 상대 경로입니다.
 
 ### --feedback--
 
-Think about which variables automatically give you full file and folder paths without using the path module.
+path 모듈을 사용하지 않고도 전체 파일과 폴더 경로를 자동으로 제공하는 변수가 무엇인지 생각하세요.
 
 ---
 
-The URL of the running web server and its hostname.
+실행 중인 웹 서버의 URL과 호스트 이름입니다.
 
 ### --feedback--
 
-Think about which variables automatically give you full file and folder paths without using the path module.
+path 모듈을 사용하지 않고도 전체 파일과 폴더 경로를 자동으로 제공하는 변수가 무엇인지 생각하세요.
 
 ## --video-solution--
 

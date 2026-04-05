@@ -1,6 +1,6 @@
 ---
 id: 680ae6fa6f3bb82a094cffcf
-title: Task 91
+title: 작업 91
 challengeType: 19
 dashedName: task-91
 lang: en-US
@@ -12,13 +12,13 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+오디오를 듣고 아래 질문에 답하세요.
 
 # --questions--
 
 ## --text--
 
-What could Maria say to show she is positively surprised by the results?
+결과에 대해 마리아가 긍정적으로 놀랐다는 것을 보여주려면 무엇이라고 말할 수 있을까요?
 
 ## --answers--
 
@@ -38,7 +38,7 @@ EN342dc19a
 
 ### --feedback--
 
-This shows a lack of confidence, not excitement about the results.
+이것은 결과에 대한 흥분이 아니라 자신감 부족을 보여줍니다.
 
 ## --video-solution--
 
@@ -46,9 +46,9 @@ This shows a lack of confidence, not excitement about the results.
 
 # --explanation--
 
-`Impressive` means something is worthy of attention, admiration, or respect because it is unusually good, large, or effective. For example:
+`Impressive`는 어떤 것이 평소보다 뛰어나거나 크거나 효과적이어서 주목, 감탄, 존경받을 만하다는 뜻입니다. 예를 들어:
 
-`Your presentation was really impressive! It covered everything clearly and confidently.` – This means the presentation was high-quality and left a strong positive impact.
+`Your presentation was really impressive! It covered everything clearly and confidently.` – 이는 발표가 고품질이었고 강한 긍정적 인상을 남겼다는 의미입니다.
 
 # --scene--
 

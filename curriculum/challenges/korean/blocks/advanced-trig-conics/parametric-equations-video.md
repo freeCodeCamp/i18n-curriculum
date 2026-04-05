@@ -1,6 +1,6 @@
 ---
 id: 699e85718f18cf77dfce5c26
-title: Parametric Equations
+title: 매개변수 방정식
 challengeType: 11
 videoId: VP5KJr2giwI
 dashedName: parametric-equations
@@ -8,32 +8,30 @@ dashedName: parametric-equations
 
 # --description--
 
-In this video, you will learn about parametric equations.
+이 영상에서는 매개변수 방정식에 대해 배우세요.
 
 # --questions--
 
 ## --text--
 
-What is a cartesian equation for a curve?
+곡선의 데카르트 방정식이란 무엇인가요? 
 
 ## --answers--
 
-An equation in terms of r and θ that describes a curve.
+곡선을 나타내는 r과 θ에 관한 방정식입니다.
 
 ---
 
-An equation in terms of x and y that describes a curve.
+곡선을 나타내는 x와 y에 관한 방정식입니다.
 
 ---
 
-An equation that only gives the slope of a curve at each point.
+각 점에서 곡선의 기울기만을 나타내는 방정식입니다.
 
 ---
 
-An equation in terms of distance from a fixed point only.
+고정된 점으로부터의 거리만을 나타내는 방정식입니다.
 
 ## --video-solution--
 
 2
-
-

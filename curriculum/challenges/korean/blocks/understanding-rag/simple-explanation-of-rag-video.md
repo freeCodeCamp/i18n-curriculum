@@ -1,6 +1,6 @@
 ---
 id: 69ae5c6d8491ca1dcd31440c
-title: Simple Explanation of RAG
+title: RAG에 대한 간단한 설명
 challengeType: 11
 videoId: _KPPqvJ9ig4
 dashedName: simple-explanation-of-rag
@@ -8,13 +8,13 @@ dashedName: simple-explanation-of-rag
 
 # --description--
 
-In this video, you will be introduced to the concept of RAG.
+이 영상에서는 RAG 개념을 소개합니다.
 
 # --questions--
 
 ## --text--
 
-What does RAG stand for?
+RAG는 무엇의 약자인가요?
 
 ## --answers--
 
@@ -35,4 +35,3 @@ Response-Action Generation
 ## --video-solution--
 
 1
-

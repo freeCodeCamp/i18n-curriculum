@@ -1,6 +1,6 @@
 ---
 id: bd7178d8c242eddfaeb5bd13
-title: Build a Scatterplot Graph
+title: 산점도 그래프 만들기
 challengeType: 25
 dashedName: build-a-scatterplot-graph
 demoType: onClick
@@ -8,31 +8,31 @@ demoType: onClick
 
 # --description--
 
-In this project you will use the data from `https://cdn.freecodecamp.org/curriculum/labs/data/scatterplot/cyclist-data.json` to build a scatterplot graph.
+이 프로젝트에서는 `https://cdn.freecodecamp.org/curriculum/labs/data/scatterplot/cyclist-data.json`의 데이터를 사용해 산점도 그래프를 만드세요.
 
-The tests require axes to be generated using the D3 axis property, which automatically generates ticks along the axis. These ticks are required for passing the D3 tests because their positions are used to determine alignment of graphed elements.
+테스트는 D3 axis 속성을 사용해 축을 생성해야 하며, 이 속성은 축을 따라 자동으로 눈금을 생성합니다. 이 눈금들은 그래프 요소의 정렬을 결정하는 데 사용되므로 D3 테스트를 통과하려면 반드시 필요합니다.
 
-**Objective:** Fulfill the user stories below and get all the tests to pass to complete the lab.
+**목표:** 아래 사용자 스토리를 모두 충족하고 모든 테스트를 통과해 실습을 완료하세요.
 
-**User Stories:**
+**사용자 스토리:**
 
-1. Your chart should have a title with a corresponding `id="title"`.
-1. Your chart should have a `g` element x-axis with a corresponding `id="x-axis"`.
-1. Your chart should have a `g` element y-axis with a corresponding `id="y-axis"`.
-1. Both axes should contain multiple tick labels, each with a corresponding `class="tick"`.
-1. Your chart should have a `circle` element for each data point with a corresponding `class="dot"` displaying the data.
-1. Each `.dot` should have the attributes `data-xvalue` and `data-yvalue` containing `year` and `time` values. For `data-xvalue`, integers (full years) or Date objects are acceptable for test evaluation. For `data-yvalue` (minutes), use Date objects.
-1. The `.dot` elements' `data-xvalue` attributes should match the order of the provided data.
-1. The `.dot` elements' `data-yvalue` attributes should match the order of the provided data.
-1. Each `.dot` element should align with the corresponding value on the x-axis.
-1. Each `.dot` element should align with the corresponding value on the y-axis.
-1. There should be multiple tick labels on the y-axis with `%M:%S` time format.
-1. There should be multiple tick labels on the x-axis that show the year.
-1. The range of the x-axis labels should be within the range of the actual x-axis data.
-1. The range of the y-axis labels should be within the range of the actual y-axis data.
-1. There should be a legend containing descriptive text that has `id="legend"`.
-1. You should be able to mouse over an area and see a tooltip with a corresponding `id="tooltip"` which displays more information about the area.
-1. Your tooltip should have a `data-year` attribute that corresponds to the `data-xvalue` of the active area.
+1. 차트에는 해당 `id="title"`가 있는 제목이 있어야 합니다.
+1. 차트에는 해당 `g`가 있는 `id="x-axis"` 요소 x축이 있어야 합니다.
+1. 차트에는 해당 `g`가 있는 `id="y-axis"` 요소 y축이 있어야 합니다.
+1. 두 축 모두 여러 개의 눈금 레이블이 있어야 하며, 각각에 해당하는 `class="tick"`가 있어야 합니다.
+1. 차트에는 각 데이터 포인트마다 `circle` 요소가 있어야 하며, 해당 데이터를 표시하는 `class="dot"`가 있어야 합니다.
+1. 각 `.dot`는 `data-xvalue`과 `data-yvalue` 속성을 가지고 있어야 하며, 각각 `year`와 `time` 값을 포함해야 합니다. `data-xvalue`의 경우, 테스트 평가를 위해 정수(연도 전체) 또는 날짜 객체가 허용됩니다. `data-yvalue` (분)는 날짜 객체를 사용하세요.
+1. `.dot` 요소의 `data-xvalue` 속성은 제공된 데이터 순서와 일치해야 합니다.
+1. `.dot` 요소의 `data-yvalue` 속성은 제공된 데이터 순서와 일치해야 합니다.
+1. 각 `.dot` 요소는 x축의 해당 값과 정렬되어야 합니다.
+1. 각 `.dot` 요소는 y축의 해당 값과 정렬되어야 합니다.
+1. y축에는 `%M:%S` 시간 형식의 여러 눈금 레이블이 있어야 합니다.
+1. x축에는 연도를 표시하는 여러 눈금 레이블이 있어야 합니다.
+1. x축 레이블의 범위는 실제 x축 데이터 범위 내에 있어야 합니다.
+1. y축 레이블의 범위는 실제 y축 데이터 범위 내에 있어야 합니다.
+1. 설명 텍스트가 포함된 범례가 있어야 하며, 이 텍스트는 `id="legend"`를 포함해야 합니다.
+1. 마우스를 영역 위에 올리면 해당 영역에 대한 추가 정보를 표시하는 `id="tooltip"`가 있는 툴팁이 보여야 합니다.
+1. 툴팁에는 활성 영역의 `data-year`에 해당하는 `data-xvalue` 속성이 있어야 합니다.
 
 # --before-all--
 
@@ -633,13 +633,13 @@ const timeout = (milliseconds) =>
 
 # --hints--
 
-The chart should have an element with the `id` of `title` to contain the title.
+차트에는 제목을 포함할 `id`의 `title` 속성을 가진 요소가 있어야 합니다.
 
 ```js
 assert.exists(document.getElementById('title'));
 ```
 
-The chart should have an `x-axis` with a corresponding `id="x-axis"`.
+차트에는 해당 `x-axis`가 있는 `id="x-axis"`가 있어야 합니다.
 
 ```js
 assert.isNotNull(
@@ -649,7 +649,7 @@ assert.isNotNull(
 assert.isNotEmpty(document.querySelectorAll('g#x-axis'));
 ```
 
-The chart should have a `y-axis` with a corresponding `id="y-axis"`.
+차트에는 해당 `y-axis`가 있는 `id="y-axis"`가 있어야 합니다.
 
 ```js
 assert.isNotNull(
@@ -659,25 +659,25 @@ assert.isNotNull(
 assert.isNotEmpty(document.querySelectorAll('g#y-axis'));
 ```
 
-The x axis should contain multiple tick labels, each with the corresponding `class="tick"`.
+x축에는 여러 개의 눈금 레이블이 있어야 하며, 각각에 해당하는 `class="tick"`가 있어야 합니다.
 
 ```js
 assert.isNotEmpty(document.querySelectorAll('#x-axis .tick'));
 ```
 
-The y axis should contain multiple tick labels, each with the corresponding `class="tick"`.
+y축에는 여러 개의 눈금 레이블이 있어야 하며, 각각에 해당하는 `class="tick"`가 있어야 합니다.
 
 ```js
 assert.isNotEmpty(document.querySelectorAll('#y-axis .tick'));
 ```
 
-Your chart should have dots, that each have a class of `dot`, which represent the data being plotted.
+차트에는 데이터가 표시되는 `dot` 클래스를 가진 점들이 있어야 합니다.
 
 ```js
 assert.isNotEmpty(document.querySelectorAll('circle.dot'));
 ```
 
-Each dot should have the properties `data-xvalue` and `data-yvalue` containing their corresponding x and y values.
+각 점은 해당 x와 y 값을 포함하는 `data-xvalue`과 `data-yvalue` 속성을 가져야 합니다.
 
 ```js
 const dots = document.getElementsByClassName('dot');
@@ -696,7 +696,7 @@ for (let i = 0; i < dots.length; i++) {
 }
 ```
 
-The `data-xvalue` and `data-yvalue` of each dot should be within the range of the actual data and in the correct data format. For `data-xvalue`, integers (full years) or Date objects are acceptable for test evaluation. For `data-yvalue` (minutes), use Date objects.
+각 점의 `data-xvalue`과 `data-yvalue`는 실제 데이터 범위 내에 있어야 하며 올바른 데이터 형식이어야 합니다. `data-xvalue`의 경우, 테스트 평가를 위해 정수(연도 전체) 또는 날짜 객체가 허용됩니다. `data-yvalue` (분)은 날짜 객체를 사용하세요.
 
 ```js
 const years = cyclistDataJson.map(d => d.Year);
@@ -740,7 +740,7 @@ dots.forEach((dot) => {
 });
 ```
 
-The `data-xvalue` and its corresponding dot should align with the corresponding point/value on the x-axis.
+`data-xvalue`와 해당 점은 x축의 해당 점/값과 정렬되어야 합니다.
 
 ```js
 const axis = document.querySelector('#x-axis');
@@ -767,7 +767,7 @@ assert.isTrue(
 );
 ```
 
-The `data-yvalue` and its corresponding dot should align with the corresponding point/value on the y-axis.
+`data-yvalue`와 해당 점은 y축의 해당 점/값과 정렬되어야 합니다.
 
 ```js
 const axis = document.querySelector('#y-axis');
@@ -794,7 +794,7 @@ assert.isTrue(
 );
 ```
 
-You can see multiple tick labels on the y-axis with `%M:%S` time format.
+y축에는 `%M:%S` 시간 형식의 여러 눈금 레이블이 보여야 합니다.
 
 ```js
 const yAxisTickLabels = document.querySelectorAll('#y-axis .tick');
@@ -809,7 +809,7 @@ yAxisTickLabels.forEach((label) => {
 });
 ```
 
-You can see multiple tick labels on the x-axis that show the year.
+x축에는 연도를 표시하는 여러 눈금 레이블이 보여야 합니다.
 
 ```js
 const xAxisTickLabels = document.querySelectorAll('#x-axis .tick');
@@ -824,7 +824,7 @@ xAxisTickLabels.forEach((label) => {
 });
 ```
 
-The range of the x-axis labels are within the range of the actual x-axis data.
+x축 레이블의 범위는 실제 x축 데이터 범위 내에 있어야 합니다.
 
 ```js
 const xAxisTickLabels = document.querySelectorAll('#x-axis .tick');
@@ -848,7 +848,7 @@ xAxisTickLabels.forEach((label) => {
 });
 ```
 
-The range of the y-axis labels are within the range of the actual y-axis data.
+y축 레이블의 범위는 실제 y축 데이터 범위 내에 있어야 합니다.
 
 ```js
 const yAxisTickLabels = document.querySelectorAll('#y-axis .tick');
@@ -882,7 +882,7 @@ yAxisTickLabels.forEach((label) => {
 });
 ```
 
-You can see a legend containing descriptive text that has `id="legend"`.
+설명 텍스트가 포함된 `id="legend"`가 있는 범례가 보여야 합니다.
 
 ```js
 assert.isNotNull(document.getElementById('legend'));
@@ -896,7 +896,7 @@ if (document.querySelector('#legend text') !== null) {
 assert.isNotNull(legendText, 'The legend should contain text');
 ```
 
-When hovering over an area your scatter plot should have a tooltip with a corresponding `id="tooltip"` which displays more information about the area.
+영역 위에 마우스를 올리면 산점도에 해당 영역에 대한 추가 정보를 표시하는 `id="tooltip"`가 있는 툴팁이 있어야 합니다.
 
 ```js
 const areas = document.querySelectorAll('.dot');
@@ -940,7 +940,7 @@ assert.isTrue(
 );
 ```
 
-The tooltip should have a `data-year` attribute that corresponds to the `data-xvalue` of the active area.
+툴팁에는 활성 영역의 `data-year`에 해당하는 `data-xvalue` 속성이 있어야 합니다.
 
 ```js
 const areas = document.querySelectorAll('.dot');
@@ -970,7 +970,7 @@ try {
 
   const tooltipYear = tooltip.getAttribute('data-year');
   const areaYear = new Date(randomArea.getAttribute('data-xvalue')).getFullYear();
-
+  
   assert.equal(
     tooltipYear,
     areaYear,

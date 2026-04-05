@@ -1,6 +1,6 @@
 ---
 id: 67f07fdfe8c5aaef48d3d35a
-title: Task 130
+title: 작업 130
 challengeType: 19
 dashedName: task-130
 lang: en-US
@@ -10,13 +10,13 @@ lang: en-US
 
 # --instructions--
 
-Read the text and answer the question below.
+아래 글을 읽고 질문에 답하세요.
 
 # --questions--
 
 ## --text--
 
-After the check-in with Sarah, Brian decides to write to Bob, from management, to update him on the situation.
+Sarah와의 체크인 후, Brian은 상황을 업데이트하기 위해 경영진인 Bob에게 이메일을 쓰기로 결정합니다.
 
 `Subject: Quick Update – Resources, Integration Issues, and Training`
 
@@ -36,35 +36,35 @@ After the check-in with Sarah, Brian decides to write to Bob, from management, t
 
 `Brian`
 
-Based on the `Subject` line, why did Brian write this email?
+`Subject` 줄을 바탕으로, Brian이 이 이메일을 쓴 이유는 무엇인가요?
 
 ## --answers--
 
-To give an update about the team's progress and ask for information.
+팀의 진행 상황을 업데이트하고 정보를 요청하기 위해서입니다.
 
 ---
 
-To remind management about their last meeting.
+경영진에게 지난 회의를 상기시키기 위해서입니다.
 
 ### --feedback--
 
-There is no mention of a past meeting between Brian and management.
+Brian과 경영진 간의 과거 회의에 대한 언급이 없습니다.
 
 ---
 
-To tell management that the project is almost finished.
+프로젝트가 거의 완료되었음을 경영진에게 알리기 위해서입니다.
 
 ### --feedback--
 
-The email says there are still some challenges, so the project is not close to being finished.
+이메일에는 아직 몇 가지 도전 과제가 있다고 하여 프로젝트가 거의 완료되지 않았음을 알 수 있습니다.
 
 ---
 
-To ask Sarah about the new software integration.
+Sarah에게 새로운 소프트웨어 통합에 대해 묻기 위해서입니다.
 
 ### --feedback--
 
-Brian already spoke to Sarah. He is now sharing that update with management.
+Brian은 이미 Sarah와 이야기를 나눴습니다. 이제 그 업데이트를 경영진과 공유하는 중입니다.
 
 ## --video-solution--
 
@@ -72,4 +72,4 @@ Brian already spoke to Sarah. He is now sharing that update with management.
 
 # --explanation--
 
-The `Subject` line normally brings the topics which are going to be dealt with in the body of the message. Read this line to find out the correct answer for this question.
+`Subject` 줄은 보통 메시지 본문에서 다룰 주제를 제시합니다. 이 줄을 읽어 이 질문에 대한 정답을 찾으세요.

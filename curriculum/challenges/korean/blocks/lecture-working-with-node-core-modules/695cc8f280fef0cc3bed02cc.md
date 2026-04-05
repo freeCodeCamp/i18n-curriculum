@@ -1,34 +1,34 @@
 ---
 id: 695cc8f280fef0cc3bed02cc
-title: What Is the Stream Module and How Does It Work?
+title: 스트림 모듈이란 무엇이며 어떻게 작동하나요?
 challengeType: 19
 dashedName: what-is-the-stream-module-and-how-does-it-work
 ---
 
 # --description--
 
-The last core Node.js module we'll look at is `stream`. This module helps you handle data efficiently, especially when the data is too large to load all at once, like reading a big text file or downloading a large video.
+마지막으로 살펴볼 Node.js 핵심 모듈은 `stream`입니다. 이 모듈은 특히 데이터가 너무 커서 한 번에 모두 불러올 수 없을 때, 예를 들어 큰 텍스트 파일을 읽거나 큰 동영상을 다운로드할 때 데이터를 효율적으로 처리하는 데 도움을 줍니다.
 
-Instead of waiting to read or write all the data before doing anything, streams process chunks of data as they arrive, similar to how you can start watching a YouTube video before the whole video finishes loading.
+모든 데이터를 읽거나 쓰기 전에 기다리는 대신, 스트림은 데이터가 도착하는 대로 조각 단위로 처리합니다. 이는 전체 동영상이 다 로드되기 전에 유튜브 영상을 바로 볼 수 있는 것과 비슷합니다.
 
-There are four main types of streams in Node.js: readable, writable, duplex, and transform:
+Node.js에는 네 가지 주요 스트림 유형이 있습니다: readable, writable, duplex, transform입니다.
 
-- Readable streams let you read data in chunks (for example, reading a large file).
-- Writable streams let you write data in chunks (for example, saving a file).
-- Duplex streams can both read and write data.
-- Transform streams are a special kind of duplex stream that can change or process the data as it flows through.
+- Readable 스트림은 데이터를 조각 단위로 읽을 수 있게 해줍니다(예: 큰 파일 읽기).
+- Writable 스트림은 데이터를 조각 단위로 쓸 수 있게 해줍니다(예: 파일 저장).
+- Duplex 스트림은 읽기와 쓰기를 모두 할 수 있습니다.
+- Transform 스트림은 데이터를 흐르는 동안 변경하거나 처리할 수 있는 특별한 duplex 스트림입니다.
 
-You can import the stream classes you need by destructuring them from the stream module:
+필요한 스트림 클래스를 stream 모듈에서 구조 분해하여 가져올 수 있습니다:
 
 ```js
 const { Readable, Writable, Transform } = require("stream");
 ```
 
-Most of the time, you don't need to create custom stream classes yourself. For everyday file operations, built-in methods like `fs.createReadStream()` and `fs.createWriteStream()` are usually all you need.
+대부분의 경우, 직접 커스텀 스트림 클래스를 만들 필요가 없습니다. 일상적인 파일 작업에는 `fs.createReadStream()`과 `fs.createWriteStream()` 같은 내장 메서드만으로 충분한 경우가 많습니다.
 
-These two methods take the path of the file to read or write. This means you also need the `fs` and `path` modules to implement streaming on many occasions.
+이 두 메서드는 읽거나 쓸 파일의 경로를 받습니다. 따라서 많은 경우 스트리밍을 구현하려면 `fs`과 `path` 모듈도 필요합니다.
 
-Here's how you can read data from a file, say an `input.txt` file:
+예를 들어 `input.txt` 파일에서 데이터를 읽는 방법은 다음과 같습니다:
 
 ```js
 const fs = require("fs");
@@ -41,7 +41,7 @@ const readInputFileStream = fs.createReadStream(inputFilePath);
 console.log(readInputFileStream);
 ```
 
-This will not do anything yet, as you need to use the events from the stream to read the data. For example, you can listen to the `data` event this way:
+아직 아무 일도 일어나지 않습니다. 스트림의 이벤트를 사용해 데이터를 읽어야 하기 때문입니다. 예를 들어 `data` 이벤트를 이렇게 들을 수 있습니다:
 
 ```js
 readInputFileStream.on("data", (chunk) => {
@@ -49,7 +49,7 @@ readInputFileStream.on("data", (chunk) => {
 }); // Received 622 bytes of data
 ```
 
-You can also log the chunk of data to the console:
+데이터 조각을 콘솔에 기록할 수도 있습니다:
 
 ```js
 readInputFileStream.on("data", (chunk) => {
@@ -65,7 +65,7 @@ Received data: <Buffer 4c 6f 72 65 6d 20 69 70 73 75 6d
 */
 ```
 
-Since it returns a buffer, you can call the `toString()` method to convert it into readable text:
+버퍼를 반환하므로 `toString()` 메서드를 호출해 읽을 수 있는 텍스트로 변환할 수 있습니다:
 
 ```js
 const fs = require("fs");
@@ -93,7 +93,7 @@ eaque doloribus assumenda, minima fuga tempore, porro, debitis rem harum in
 */
 ```
 
-To implement a writable stream, particularly when you're reading from one file and writing to another, you need to create the read stream first, followed by the write stream:
+쓰기 가능한 스트림을 구현하려면, 특히 한 파일에서 읽고 다른 파일에 쓸 때는 먼저 읽기 스트림을 만들고 그다음 쓰기 스트림을 만들어야 합니다:
 
 ```js
 const fs = require("fs");
@@ -109,7 +109,7 @@ const readInputFileStream = fs.createReadStream(inputFilePath);
 const writeOutputFileStream = fs.createWriteStream(outputFilePath);
 ```
 
-Next, use the `.pipe()` method to connect the readable stream to the writable stream. This lets Node.js automatically read data from the source and write it to the destination, chunk by chunk:
+다음으로 `.pipe()` 메서드를 사용해 읽기 스트림을 쓰기 스트림에 연결하세요. 이렇게 하면 Node.js가 자동으로 소스에서 데이터를 읽어 대상에 조각 단위로 씁니다:
 
 ```js
 const fs = require("fs");
@@ -128,7 +128,7 @@ const writeOutputFileStream = fs.createWriteStream(outputFilePath);
 readInputFileStream.pipe(writeOutputFileStream);
 ```
 
-Then you can listen for the `finish` and `error` events on the writable stream to know when the streaming is complete or if something goes wrong:
+그다음 쓰기 스트림에서 `finish`와 `error` 이벤트를 들어 스트리밍이 완료되었는지 또는 문제가 발생했는지 알 수 있습니다:
 
 ```js
 const fs = require("fs");
@@ -154,13 +154,13 @@ writeOutputFileStream.on("error", (err) => {
 });
 ```
 
-The `finish` event tells you that the stream is complete and there is no more data to write, while the error event helps you catch problems that might happen during writing, like permissions issues or missing directories.
+`finish` 이벤트는 스트림이 완료되어 더 이상 쓸 데이터가 없음을 알려주고, error 이벤트는 권한 문제나 디렉터리 누락 같은 쓰기 중 발생할 수 있는 문제를 잡아줍니다.
 
 # --questions--
 
 ## --text--
 
-Which of these are the four main types of streams?
+다음 중 네 가지 주요 스트림 유형은 무엇인가요?
 
 ## --answers--
 
@@ -168,7 +168,7 @@ Request, Response, Event, and Error streams.
 
 ### --feedback--
 
-Think about how Node.js handles reading, writing, and transforming data.
+Node.js가 데이터를 읽고 쓰며 변환하는 방식을 생각해 보세요.
 
 ---
 
@@ -176,7 +176,7 @@ Readable, Editable, Duplex, and Transform streams.
 
 ### --feedback--
 
-Think about how Node.js handles reading, writing, and transforming data.
+Node.js가 데이터를 읽고 쓰며 변환하는 방식을 생각해 보세요.
 
 ---
 
@@ -184,7 +184,7 @@ Data, File, HTTP, and Buffer streams.
 
 ### --feedback--
 
-Think about how Node.js handles reading, writing, and transforming data.
+Node.js가 데이터를 읽고 쓰며 변환하는 방식을 생각해 보세요.
 
 ---
 
@@ -196,35 +196,35 @@ Readable, Writable, Duplex, and Transform streams.
 
 ## --text--
 
-What lets you implement a custom readable and writable stream?
+커스텀 readable 및 writable 스트림을 구현하려면 무엇이 필요할까요?
 
 ## --answers--
 
-The `stream` module using Readable and Writable classes.
+Readable 및 Writable 클래스를 사용하는 `stream` 모듈.
 
 ---
 
-The `http` module.
+`http` 모듈.
 
 ### --feedback--
 
-Think about the module that provides base classes for creating custom streams.
+커스텀 스트림을 만들기 위한 기본 클래스를 제공하는 모듈을 생각해 보세요.
 
 ---
 
-The `fs` module using `createReadStream()` and `createWriteStream()`.
+`fs` 모듈에서 `createReadStream()`와 `createWriteStream()`을 사용하는 방법.
 
 ### --feedback--
 
-Think about how Node.js handles reading, writing, and transforming data.
+Node.js가 데이터를 읽고 쓰며 변환하는 방식을 생각해 보세요.
 
 ---
 
-The events module.
+events 모듈.
 
 ### --feedback--
 
-Think about how Node.js handles reading, writing, and transforming data.
+Node.js가 데이터를 읽고 쓰며 변환하는 방식을 생각해 보세요.
 
 ## --video-solution--
 
@@ -232,35 +232,35 @@ Think about how Node.js handles reading, writing, and transforming data.
 
 ## --text--
 
-What events can you use on a writable stream to know when streaming completes or an error occurs?
+스트리밍이 완료되거나 오류가 발생했을 때 알 수 있는 writable 스트림 이벤트는 무엇인가요?
 
 ## --answers--
 
-`end` and `close`.
+`end`와 `close`.
 
 ### --feedback--
 
-Think about the writable stream events that signal completion and failure.
+완료와 실패를 알리는 writable 스트림 이벤트를 생각해 보세요.
 
 ---
 
-`finish` and `error`.
+`finish`와 `error`.
 
 ---
 
-`start` and `stop`.
+`start`와 `stop`.
 
 ### --feedback--
 
-Think about the writable stream events that signal completion and failure.
+완료와 실패를 알리는 writable 스트림 이벤트를 생각해 보세요.
 
 ---
 
-`done` and `fail`.
+`done`와 `fail`.
 
 ### --feedback--
 
-Think about the writable stream events that signal completion and failure.
+완료와 실패를 알리는 writable 스트림 이벤트를 생각해 보세요.
 
 ## --video-solution--
 

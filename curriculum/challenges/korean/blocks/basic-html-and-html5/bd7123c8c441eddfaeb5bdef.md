@@ -1,6 +1,6 @@
 ---
 id: bd7123c8c441eddfaeb5bdef
-title: Say Hello to HTML Elements
+title: HTML 요소에 인사하기
 challengeType: 0
 videoUrl: 'https://scrimba.com/p/pVMPUv/cE8Gpt2'
 forumTopicId: 18276
@@ -9,37 +9,37 @@ dashedName: say-hello-to-html-elements
 
 # --description--
 
-Welcome to freeCodeCamp's HTML coding challenges. These will walk you through web development step-by-step.
+freeCodeCamp의 HTML 코딩 도전 과제에 오신 것을 환영합니다. 이 과정은 웹 개발을 단계별로 안내합니다.
 
-First, you'll start by building a simple web page using HTML. You can edit code in your code editor, which is embedded into this web page.
+먼저 HTML을 사용해 간단한 웹 페이지를 만드는 것부터 시작하세요. 이 웹 페이지에 임베드된 코드 편집기에서 코드를 수정할 수 있습니다.
 
-Do you see the code in your code editor that says `<h1>Hello</h1>`? That's an HTML element.
+코드 편집기에서 `<h1>Hello</h1>`라고 적힌 코드를 보나요? 그것이 HTML 요소입니다.
 
-Most HTML elements have an opening tag and a closing tag.
+대부분의 HTML 요소는 여는 태그와 닫는 태그가 있습니다.
 
-Opening tags look like this:
+여는 태그는 다음과 같습니다:
 
 ```html
 <h1>
 ```
 
-Closing tags look like this:
+닫는 태그는 다음과 같습니다:
 
 ```html
 </h1>
 ```
 
-The only difference between opening and closing tags is the forward slash after the opening bracket of a closing tag.
+여는 태그와 닫는 태그의 유일한 차이는 닫는 태그의 여는 괄호 뒤에 있는 슬래시입니다.
 
-Each challenge has tests you can run at any time by clicking the "Run tests" button. When you pass all tests, you'll be prompted to submit your solution and go to the next coding challenge.
+각 도전 과제에는 언제든지 "Run tests" 버튼을 클릭해 실행할 수 있는 테스트가 있습니다. 모든 테스트를 통과하면 솔루션을 제출하고 다음 코딩 도전 과제로 넘어가라는 안내가 표시됩니다.
 
 # --instructions--
 
-To pass the test on this challenge, change your `h1` element's text to say `Hello World`.
+이 도전 과제의 테스트를 통과하려면 `h1` 요소의 텍스트를 `Hello World`로 변경하세요.
 
 # --hints--
 
-Your `h1` element should have the text `Hello World`.
+`h1` 요소의 텍스트는 `Hello World`여야 합니다.
 
 ```js
 assert.match(document.querySelector('h1').textContent,/hello(\s)+world/gi);

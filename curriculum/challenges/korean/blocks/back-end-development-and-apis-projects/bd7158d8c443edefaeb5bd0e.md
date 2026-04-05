@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c443edefaeb5bd0e
-title: URL Shortener Microservice
+title: URL 단축 마이크로서비스
 challengeType: 4
 forumTopicId: 301509
 dashedName: url-shortener-microservice
@@ -8,18 +8,18 @@ dashedName: url-shortener-microservice
 
 # --description--
 
-Build a full-stack JavaScript app that is functionally similar to this: <a href="https://url-shortener-microservice.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://url-shortener-microservice.freecodecamp.rocks</a>. Working on this project will involve you writing your code using one of the following methods:
+다음과 기능적으로 유사한 풀스택 JavaScript 앱을 만드세요: <a href="https://url-shortener-microservice.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://url-shortener-microservice.freecodecamp.rocks</a>. 이 프로젝트를 진행하려면 다음 방법 중 하나를 사용해 코드를 작성해야 합니다:
 
--   Clone <a href="https://github.com/freeCodeCamp/boilerplate-project-urlshortener/" target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete your project locally.
--   Use a site builder of your choice to complete the project. Be sure to incorporate all the files from our GitHub repo.
+- <a href="https://github.com/freeCodeCamp/boilerplate-project-urlshortener/" target="_blank" rel="noopener noreferrer nofollow">이 GitHub 저장소</a>를 클론하여 로컬에서 프로젝트를 완성하세요.
+- 원하는 사이트 빌더를 사용해 프로젝트를 완성하세요. GitHub 저장소의 모든 파일을 반드시 포함해야 합니다.
 
 # --instructions--
 
-**HINT:** Do not forget to use a body parsing middleware to handle the POST requests. Also, you can use the function `dns.lookup(host, cb)` from the `dns` core module to verify a submitted URL.
+**힌트:** POST 요청을 처리하려면 body 파싱 미들웨어를 사용하는 것을 잊지 마세요. 또한, `dns.lookup(host, cb)` 코어 모듈의 `dns` 함수를 사용해 제출된 URL을 검증할 수 있습니다.
 
 # --hints--
 
-You should provide your own project, not the example URL.
+예시 URL이 아닌 직접 만든 프로젝트를 제출해야 합니다.
 
 ```js
   assert(
@@ -29,7 +29,7 @@ You should provide your own project, not the example URL.
   );
 ```
 
-You can POST a URL to `/api/shorturl` and get a JSON response with `original_url` and `short_url` properties. Here's an example: `{ original_url : 'https://freeCodeCamp.org', short_url : 1}`
+`/api/shorturl`에 URL을 POST하면 `original_url`와 `short_url` 프로퍼티가 포함된 JSON 응답을 받을 수 있습니다. 예시는 다음과 같습니다: `{ original_url : 'https://freeCodeCamp.org', short_url : 1}`
 
 ```js
   const url = code;
@@ -49,7 +49,7 @@ You can POST a URL to `/api/shorturl` and get a JSON response with `original_url
   }
 ```
 
-When you visit `/api/shorturl/<short_url>`, you will be redirected to the original URL.
+`/api/shorturl/<short_url>`에 접속하면 원래 URL로 리다이렉트됩니다.
 
 ```js
   const url = code;
@@ -79,7 +79,7 @@ When you visit `/api/shorturl/<short_url>`, you will be redirected to the origin
   }
 ```
 
-If you pass an invalid URL that doesn't follow the valid `http://www.example.com` format, the JSON response will contain `{ error: 'invalid url' }`
+유효한 `http://www.example.com` 형식을 따르지 않는 잘못된 URL을 전달하면 JSON 응답에 `{ error: 'invalid url' }`가 포함됩니다.
 
 ```js
   const url = code;
@@ -96,4 +96,3 @@ If you pass an invalid URL that doesn't follow the valid `http://www.example.com
     throw new Error(`${res.status} ${res.statusText}`);
   }
 ```
-

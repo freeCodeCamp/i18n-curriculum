@@ -1,6 +1,6 @@
 ---
 id: bd7156d8c242eddfaeb5bd13
-title: Build a freeCodeCamp Forum Homepage
+title: freeCodeCamp 포럼 홈페이지 만들기
 challengeType: 3
 forumTopicId: 302349
 dashedName: build-a-freecodecamp-forum-homepage
@@ -8,21 +8,21 @@ dashedName: build-a-freecodecamp-forum-homepage
 
 # --description--
 
-**Objective:** Build an app that is functionally similar to this: <https://codepen.io/freeCodeCamp/full/JqdoMV>.
+**목표:** 다음과 기능적으로 유사한 앱을 만드세요: <https://codepen.io/freeCodeCamp/full/JqdoMV>.
 
-Fulfill the below user stories and get all of the tests to pass. Use whichever libraries or APIs you need. Give it your own personal style.
+아래 사용자 스토리를 충족하고 모든 테스트를 통과하세요. 필요한 라이브러리나 API를 자유롭게 사용하세요. 자신만의 스타일을 반영하세요.
 
-**User Story:** I can see a list of the most recent posts on the freeCodeCamp forum.
+**사용자 스토리:** freeCodeCamp 포럼에서 가장 최근 게시물 목록을 볼 수 있습니다.
 
-**User Story:** For each topic, I can see the title and a list of links to users who have recently posted in it.
+**사용자 스토리:** 각 주제별로 제목과 최근에 게시한 사용자들의 링크 목록을 볼 수 있습니다.
 
-**User Story:** I can see the number of replies and views that each topic has had, and a timestamp of when the topic was last active.
+**사용자 스토리:** 각 주제의 답글 수와 조회 수, 그리고 마지막 활동 시각을 볼 수 있습니다.
 
-**Hint:** To get the 30 most recent forum posts: <https://forum-proxy.freecodecamp.rocks/latest>.
+**힌트:** 가장 최근 30개의 포럼 게시물을 가져오려면 다음을 참조하세요: <https://forum-proxy.freecodecamp.rocks/latest>.
 
-When you are finished, include a link to your project on CodePen and click the "I've completed this challenge" button.
+완료하면 CodePen에 프로젝트 링크를 포함하고 "도전 과제 완료" 버튼을 클릭하세요.
 
-You can get feedback on your project by sharing it on the <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp forum</a>.
+프로젝트에 대한 피드백은 <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp 포럼</a>에서 공유하여 받을 수 있습니다.
 
 # --solutions--
 

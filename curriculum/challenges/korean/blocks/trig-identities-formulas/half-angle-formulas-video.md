@@ -1,6 +1,6 @@
 ---
 id: 699e783f8f18cf77dfce5c1d
-title: Half Angle Formulas
+title: 반각 공식
 challengeType: 11
 videoId: aJRfi6KrCcM
 dashedName: half-angle-formulas
@@ -8,13 +8,13 @@ dashedName: half-angle-formulas
 
 # --description--
 
-In this video, you will learn about half angle formulas.
+이 영상에서는 반각 공식에 대해 배우세요.
 
 # --questions--
 
 ## --text--
 
-What is the half angle formula for $\cos\left(\frac{\theta}{2}\right)$?
+$\cos\left(\frac{\theta}{2}\right)$의 반각 공식은 무엇인가요?
 
 ## --answers--
 
@@ -35,5 +35,3 @@ $\cos\left(\frac{\theta}{2}\right) = \sqrt{1 - \cos^2(\theta)}$
 ## --video-solution--
 
 2
-
-

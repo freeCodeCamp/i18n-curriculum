@@ -1,32 +1,32 @@
 ---
 id: 68b7cadffed0e75a517da66f
-title: "Challenge 50: Longest Word"
+title: "도전 과제 50: 가장 긴 단어"
 challengeType: 28
 dashedName: challenge-50
 ---
 
 # --description--
 
-Given a sentence, return the longest word in the sentence.
+문장이 주어지면, 문장에서 가장 긴 단어를 반환하세요.
 
-- Ignore periods (`.`) when determining word length.
-- If multiple words are ties for the longest, return the first one that occurs.
+- 단어 길이를 판단할 때 마침표(`.`)는 무시하세요.
+- 가장 긴 단어가 여러 개라면, 문장에 처음 나오는 단어를 반환하세요.
 
 # --hints--
 
-`getLongestWord("coding is fun")` should return `"coding"`.
+`getLongestWord("coding is fun")`은 `"coding"`를 반환해야 합니다.
 
 ```js
 assert.equal(getLongestWord("coding is fun"), "coding");
 ```
 
-`getLongestWord("Coding challenges are fun and educational.")` should return `"educational"`.
+`getLongestWord("Coding challenges are fun and educational.")`은 `"educational"`를 반환해야 합니다.
 
 ```js
 assert.equal(getLongestWord("Coding challenges are fun and educational."), "educational");
 ```
 
-`getLongestWord("This sentence has multiple long words.")` should return `"sentence"`.
+`getLongestWord("This sentence has multiple long words.")`은 `"sentence"`를 반환해야 합니다.
 
 ```js
 assert.equal(getLongestWord("This sentence has multiple long words."), "sentence");

@@ -1,6 +1,6 @@
 ---
 id: 66c4ef1cb275e86febc9fe2c
-title: Task 113
+title: 작업 113
 challengeType: 22
 dashedName: task-113
 lang: en-US
@@ -9,13 +9,12 @@ lang: en-US
 <!-- Audio Reference:
 Sarah: It should, but it's not displaying because the live server extension might not be running. -->
 
-
 <!-- Audio Reference:
 Sarah: It should, but it's not displaying because the live server extension might not be running. -->
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+오디오를 듣고 아래 문장을 완성하세요.
 
 # --fillInTheBlank--
 
@@ -29,7 +28,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-The action of showing or rendering something. This word ends in `-ing`.
+무언가를 보여주거나 렌더링하는 동작입니다. 이 단어는 `-ing`로 끝납니다.
 
 ---
 
@@ -37,15 +36,15 @@ The action of showing or rendering something. This word ends in `-ing`.
 
 ### --feedback--
 
-Indicates the extension is active and functioning. This word ends in `-ing`.
+확장 기능이 활성화되어 작동 중임을 나타냅니다. 이 단어는 `-ing`로 끝납니다.
 
 # --explanation--
 
-A gerund is a verb form ending in `-ing` that functions as a noun. In this sentence, `displaying` and `running` are gerunds that describe ongoing actions. For example:
+동명사는 `-ing`로 끝나면서 명사 역할을 하는 동사 형태입니다. 이 문장에서는 `displaying`와 `running`가 진행 중인 동작을 설명하는 동명사입니다. 예를 들어:
 
-- `Updating the software is essential.` - Here, `Updating` is a gerund describing an action.
+- `Updating the software is essential.` - 여기서 `Updating`는 동작을 설명하는 동명사입니다.
 
-In Sarah's sentence, `displaying` and `running` describe actions related to the live server extension and how it functions.
+Sarah의 문장에서는 `displaying`와 `running`가 라이브 서버 확장 기능과 그 작동 방식에 관련된 동작을 설명합니다.
 
 # --scene--
 

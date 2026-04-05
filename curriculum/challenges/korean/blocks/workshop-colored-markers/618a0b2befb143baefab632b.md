@@ -7,21 +7,21 @@ dashedName: step-32
 
 # --description--
 
-Notice that the red and cyan colors are very bright right next to each other. This contrast can be distracting if it's overused on a website, and can make text hard to read if it's placed on a complementary-colored background.
+빨간색과 청록색이 서로 바로 옆에 있을 때 매우 밝게 보이는 것을 확인하세요. 이런 대비는 웹사이트에서 과도하게 사용하면 산만해 보일 수 있고, 보색 배경 위에 텍스트를 배치하면 읽기 어려울 수 있습니다.
 
-It's better practice to choose one color as the dominant color, and use its complementary color as an accent to bring attention to certain content on the page.
+하나의 색상을 주된 색상으로 선택하고, 보색을 강조 색상으로 사용해 페이지 내 특정 콘텐츠에 주의를 끄는 것이 더 좋은 방법입니다.
 
-First, in the `h1` rule, use the `rgb` function to set its `background-color` to cyan.
+먼저 `h1` 규칙에서 `rgb` 함수를 사용해 `background-color`를 청록색으로 설정하세요.
 
 # --hints--
 
-You should not remove or modify the `text-align` property or its value.
+`text-align` 속성이나 그 값을 제거하거나 수정하지 마세요.
 
 ```js
 assert.strictEqual(new __helpers.CSSHelp(document).getStyle('h1')?.textAlign, 'center');
 ```
 
-Your `h1` CSS rule should have a `background-color` property set to `rgb(0, 255, 255)`.
+`h1` CSS 규칙에 `background-color` 속성을 `rgb(0, 255, 255)`로 설정해야 합니다.
 
 ```js
 assert.strictEqual(new __helpers.CSSHelp(document).getStyle('h1')?.backgroundColor, 'rgb(0, 255, 255)');
@@ -58,7 +58,7 @@ assert.strictEqual(new __helpers.CSSHelp(document).getStyle('h1')?.backgroundCol
 h1 {
   text-align: center;
 --fcc-editable-region--
-
+  
 --fcc-editable-region--
 }
 

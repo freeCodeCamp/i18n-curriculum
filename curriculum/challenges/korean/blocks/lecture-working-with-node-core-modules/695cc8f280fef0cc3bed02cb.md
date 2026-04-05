@@ -1,21 +1,21 @@
 ---
 id: 695cc8f280fef0cc3bed02cb
-title: What Is the Process Module and How Does It Work?
+title: 프로세스 모듈이란 무엇이며 어떻게 작동하나요?
 challengeType: 19
 dashedName: what-is-the-process-module-and-how-does-it-work
 ---
 
 # --description--
 
-`process` is one of the most important Node.js core modules. It gives you access to information about the current Node.js process, and lets you control it while your app is running.
+`process`는 가장 중요한 Node.js 코어 모듈 중 하나입니다. 현재 Node.js 프로세스에 관한 정보를 접근할 수 있게 해주며, 애플리케이션이 실행되는 동안 이를 제어할 수 있게 합니다.
 
-When you execute a command like `node script.js` in the terminal, Node.js starts a process, which is a running instance of the Node program that executes the `script.js` file. This process has its own memory, environment, and execution context. 
+터미널에서 `node script.js` 같은 명령어를 실행하면, Node.js는 프로세스를 시작하는데, 이 프로세스는 `script.js` 파일을 실행하는 Node 프로그램의 실행 인스턴스입니다. 이 프로세스는 자체 메모리, 환경, 실행 컨텍스트를 가집니다.
 
-The current process is exposed globally through the `process` module, so you don't even need to import it. As long as you have Node.js installed, then you can call it anywhere.
+현재 프로세스는 `process` 모듈을 통해 전역으로 노출되어 있어서, 가져오지 않아도 됩니다. Node.js가 설치되어 있다면 어디서든 호출할 수 있습니다.
 
-The `process` module exposes properties and methods for you to get certain information about the current execution context.
+`process` 모듈은 현재 실행 컨텍스트에 관한 특정 정보를 얻을 수 있는 속성과 메서드를 노출합니다.
 
-`process.env` gets you information about the current environment Node is running on. This always returns a giant object with many parameters, so here's how you can access some of the most important information directly:
+`process.env`는 Node가 실행 중인 현재 환경에 관한 정보를 제공합니다. 항상 많은 매개변수를 가진 거대한 객체를 반환하므로, 가장 중요한 정보를 직접 접근하는 방법은 다음과 같습니다:
 
 ```js
 // Gets all environment variables available to the current Node.js process
@@ -37,7 +37,7 @@ console.log(process.env.PWD); // /Users/johndoe/projects/myapp
 console.log(process.env.USER); // johndoe
 ```
 
-`process.argv` lets you read command-line arguments:
+`process.argv`는 명령줄 인수를 읽을 수 있게 해줍니다:
 
 ```js
 console.log(process.argv);
@@ -52,15 +52,15 @@ Hello world
 */
 ```
 
-The `cwd()` method shows the current working directory:
+`cwd()` 메서드는 현재 작업 디렉터리를 보여줍니다:
 
 ```js
 console.log(process.cwd());
 ```
 
-Process events are a core feature of Node.js that let your app respond to key moments in its lifecycle, like when it's about to exit, encounters an error, or receives a system signal.
+프로세스 이벤트는 Node.js의 핵심 기능으로, 애플리케이션이 종료 직전, 오류 발생 시, 시스템 신호를 받을 때 등 중요한 생명주기 순간에 반응할 수 있게 합니다.
 
-The `exit` event, for example, runs right before the Node.js process finishes:
+예를 들어 `exit` 이벤트는 Node.js 프로세스가 종료되기 직전에 실행됩니다:
 
 ```js
 process.on("exit", (code) => {
@@ -70,7 +70,7 @@ process.on("exit", (code) => {
 // Process exiting with code: 0
 ```
 
-The `uncaughtException` event is triggered when an error is not caught in your code, which can help you prevent crashes:
+`uncaughtException` 이벤트는 코드에서 잡히지 않은 오류가 발생했을 때 트리거되어, 충돌을 방지하는 데 도움을 줍니다:
 
 ```js
 process.on("uncaughtException", (err) => {
@@ -78,7 +78,7 @@ process.on("uncaughtException", (err) => {
 });
 ```
 
-Lastly, the `warning` event is triggered when Node.js emits a process warning:
+마지막으로 `warning` 이벤트는 Node.js가 프로세스 경고를 발생시킬 때 트리거됩니다:
 
 ```js
 process.on("warning", (warning) => {
@@ -87,7 +87,7 @@ process.on("warning", (warning) => {
 });
 ```
 
-You can then use the `emitWarning()` method to trigger a custom warning:
+그다음 `emitWarning()` 메서드를 사용해 사용자 정의 경고를 발생시킬 수 있습니다:
 
 ```js
 // Example warning with the emitWarning() method
@@ -103,35 +103,35 @@ process.emitWarning('This is a custom warning message', 'CustomWarning');
 
 ## --text--
 
-What does the `process.emitWarning()` method do?
+`process.emitWarning()` 메서드는 무엇을 하나요?
 
 ## --answers--
 
-It stops the process when a custom warning occurs.
+사용자 정의 경고가 발생할 때 프로세스를 정지합니다.
 
 ### --feedback--
 
-Think about how Node.js handles custom warnings through events.
+Node.js가 이벤트를 통해 사용자 정의 경고를 어떻게 처리하는지 생각해보세요.
 
 ---
 
-It triggers a custom warning event that can be handled by the warning listener.
+사용자 정의 경고 이벤트를 발생시켜 경고 리스너가 처리할 수 있게 합니다.
 
 ---
 
-It logs an error and exits the process immediately.
+오류를 기록하고 즉시 프로세스를 종료합니다.
 
 ### --feedback--
 
-Think about how Node.js handles custom warnings through events.
+Node.js가 이벤트를 통해 사용자 정의 경고를 어떻게 처리하는지 생각해보세요.
 
 ---
 
-It restarts the Node.js process after showing a warning.
+경고를 표시한 후 Node.js 프로세스를 재시작합니다.
 
 ### --feedback--
 
-Think about how Node.js handles custom warnings through events.
+Node.js가 이벤트를 통해 사용자 정의 경고를 어떻게 처리하는지 생각해보세요.
 
 ## --video-solution--
 
@@ -139,35 +139,35 @@ Think about how Node.js handles custom warnings through events.
 
 ## --text--
 
-How do you use the process module?
+프로세스 모듈은 어떻게 사용하나요?
 
 ## --answers--
 
-By calling it directly since it's a global object.
+전역 객체이므로 직접 호출해서 사용합니다.
 
 ---
 
-By enabling it in the Node.js configuration file.
+Node.js 설정 파일에서 활성화해야 합니다.
 
 ### --feedback--
 
-Think about why you can access process anywhere without setup.
+프로세스에 어디서든 설정 없이 접근할 수 있는 이유를 생각해보세요.
 
 ---
 
-By installing it manually using npm before calling it.
+호출하기 전에 npm으로 수동 설치해야 합니다.
 
 ### --feedback--
 
-Think about why you can access process anywhere without setup.
+프로세스에 어디서든 설정 없이 접근할 수 있는 이유를 생각해보세요.
 
 ---
 
-By importing it using require('process') before each use.
+사용할 때마다 require('process')로 가져와야 합니다.
 
 ### --feedback--
 
-Think about why you can access process anywhere without setup.
+프로세스에 어디서든 설정 없이 접근할 수 있는 이유를 생각해보세요.
 
 ## --video-solution--
 
@@ -175,35 +175,35 @@ Think about why you can access process anywhere without setup.
 
 ## --text--
 
-What are process events used for?
+프로세스 이벤트는 무엇에 사용되나요?
 
 ## --answers--
 
-To define environment variables for the application.
+애플리케이션의 환경 변수를 정의하기 위해서입니다.
 
 ### --feedback--
 
-Think about how Node.js reacts to lifecycle changes during execution.
+Node.js가 실행 중 생명주기 변화에 어떻게 반응하는지 생각해보세요.
 
 ---
 
-To create new processes for parallel execution.
+병렬 실행을 위해 새 프로세스를 생성하기 위해서입니다.
 
 ### --feedback--
 
-Think about how Node.js reacts to lifecycle changes during execution.
+Node.js가 실행 중 생명주기 변화에 어떻게 반응하는지 생각해보세요.
 
 ---
 
-To listen for and respond to important lifecycle moments like exit, errors, or system signals.
+종료, 오류, 시스템 신호 같은 중요한 생명주기 순간을 듣고 반응하기 위해서입니다.
 
 ---
 
-To manage file paths and extensions in the system.
+시스템에서 파일 경로와 확장자를 관리하기 위해서입니다.
 
 ### --feedback--
 
-Think about how Node.js reacts to lifecycle changes during execution.
+Node.js가 실행 중 생명주기 변화에 어떻게 반응하는지 생각해보세요.
 
 ## --video-solution--
 

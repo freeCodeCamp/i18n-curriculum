@@ -1,6 +1,6 @@
 ---
 id: 698dbf2b7932b3cc4b19c91d
-title: Defining an Algorithm
+title: 알고리즘 정의하기
 challengeType: 11
 videoId: qH-e5VMAYwQ
 dashedName: defining-an-algorithm
@@ -8,17 +8,17 @@ dashedName: defining-an-algorithm
 
 # --description--
 
-In this video, you will learn about a commonly used search algorithm.
+이 영상에서는 자주 사용되는 검색 알고리즘에 대해 배우세요.
 
 # --questions--
 
 ## --text--
 
-What is the name of the algorithm talked about in the video?
+영상에서 다룬 알고리즘의 이름은 무엇인가요?
 
 ## --answers--
 
-Optical Search
+Optical Search 
 
 ---
 

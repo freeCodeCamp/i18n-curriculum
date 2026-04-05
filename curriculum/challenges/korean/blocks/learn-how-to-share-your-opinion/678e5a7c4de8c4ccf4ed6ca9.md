@@ -1,6 +1,6 @@
 ---
 id: 678e5a7c4de8c4ccf4ed6ca9
-title: Task 66
+title: 작업 66
 challengeType: 22
 dashedName: task-66
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+오디오를 듣고 아래 문장을 완성하세요.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This word means to have the same opinion or to reach a mutual understanding.
+이 단어는 같은 의견을 갖거나 상호 이해에 도달하는 것을 의미합니다.
 
 ---
 
@@ -32,17 +32,17 @@ This word means to have the same opinion or to reach a mutual understanding.
 
 ### --feedback--
 
-This word means to have a different opinion or to not be in agreement.
+이 단어는 다른 의견을 갖거나 동의하지 않는 것을 의미합니다.
 
 # --explanation--
 
-`Agree` means to be in agreement or have the same opinion as someone. For example:
+`Agree`는 동의하거나 누군가와 같은 의견을 갖는 것을 의미합니다. 예를 들어:  
 
-`We both agree that improving security is important.` - This means you share the same opinion about security with other person.
+`We both agree that improving security is important.` - 이것은 다른 사람과 보안에 대해 같은 의견을 공유한다는 뜻입니다.
 
-`Disagree` means to have a different opinion or not be in agreement. For example:
+`Disagree`는 다른 의견을 갖거나 동의하지 않는 것을 의미합니다. 예를 들어:  
 
-`Jake and Maria disagree on which software to use.` - This shows that Jake and Maria have different opinions on the choice of software.
+`Jake and Maria disagree on which software to use.` - 이것은 Jake와 Maria가 소프트웨어 선택에 대해 다른 의견을 갖고 있음을 보여줍니다.
 
 # --scene--
 

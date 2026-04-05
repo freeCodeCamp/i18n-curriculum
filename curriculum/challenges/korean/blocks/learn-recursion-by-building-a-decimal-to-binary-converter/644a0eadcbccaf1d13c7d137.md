@@ -1,15 +1,15 @@
 ---
 id: 644a0eadcbccaf1d13c7d137
-title: Step 19
+title: 19단계
 challengeType: 0
 dashedName: step-19
 ---
 
 # --description--
 
-In the base-2 number system, the rightmost digit represents the ones place, the next digit to the left represents the twos place, then the fours place, then the eights place, and so on. In this system, each digit's place value is two times greater than the digit to its right.
+밑변에 2 진법에서는 가장 오른쪽 숫자가 1의 자리이고, 그 왼쪽 숫자는 2의 자리, 그다음은 4의 자리, 8의 자리 순입니다. 이 체계에서 각 숫자의 자리값은 오른쪽 숫자 자리값의 두 배입니다.
 
-Here are numbers zero to nine in the base-10 and base-2 number systems:
+다음은 10진법과 2진법에서 0부터 9까지 숫자입니다:
 
 ```md
 | Base-10 | Base-2 |
@@ -26,25 +26,25 @@ Here are numbers zero to nine in the base-10 and base-2 number systems:
 |    9    |  1001  |
 ```
 
-Notice that binary numbers are formed from left to right, from the digit with the greatest place value on the left, to the least significant on the right. For example, the number `3` in binary is `11`, or `1` in the twos place and `1` in the ones place. Then for the number `4`, a digit to represent the fours place is included on the left and set to `1`, the twos place is `0`, and the ones place is `0`.
+이진수는 왼쪽에서 오른쪽으로, 가장 큰 자리값을 가진 숫자부터 가장 작은 자리값 숫자 순으로 만들어집니다. 예를 들어, 숫자 `3`는 이진수로 `11`이며, 2의 자리에는 `1`, 1의 자리에는 `1`가 있습니다. 숫자 `4`의 경우, 왼쪽에 4의 자리를 나타내는 숫자가 `1`로 추가되고, 2의 자리는 `0`, 1의 자리는 `0`입니다.
 
-In your `decimalToBinary` function, convert the number `10` into binary and `return` it as a string.
+`decimalToBinary` 함수에서 숫자 `10`를 이진수로 변환하고 `return`로 문자열로 반환하세요.
 
 # --hints--
 
-Your `decimalToBinary` function should return a string.
+`decimalToBinary` 함수는 문자열을 반환해야 합니다.
 
 ```js
 assert.isString(decimalToBinary());
 ```
 
-Your `decimalToBinary` function should return a string with a length of `4`.
+`decimalToBinary` 함수는 길이가 `4`인 문자열을 반환해야 합니다.
 
 ```js
 assert.strictEqual(decimalToBinary().length, 4);
 ```
 
-Your `decimalToBinary` function should return `"1010"` as a string.
+`decimalToBinary` 함수는 `"1010"`를 문자열로 반환해야 합니다.
 
 ```js
 assert.strictEqual(decimalToBinary(), '1010');

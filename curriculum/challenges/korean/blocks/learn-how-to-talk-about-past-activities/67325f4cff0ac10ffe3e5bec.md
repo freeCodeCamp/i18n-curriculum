@@ -1,6 +1,6 @@
 ---
 id: 67325f4cff0ac10ffe3e5bec
-title: Task 114
+title: 작업 114
 challengeType: 19
 dashedName: task-114
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+오디오를 듣고 아래 질문에 답하세요.
 
 # --questions--
 
 ## --text--
 
-What is James describing about his approach to coding?
+James가 코딩 접근 방식에 대해 무엇을 설명하고 있나요?
 
 ## --answers--
 
-A habit he had in the past.
+과거에 가졌던 습관입니다.
 
 ---
 
-Something he plans to do in the future.
+미래에 하려고 계획하는 일입니다.
 
 ### --feedback--
 
-James isn't talking about future plans; he is reflecting on something he did before.
+James는 미래 계획에 대해 말하는 것이 아니라 과거에 했던 일을 되돌아보고 있습니다.
 
 ---
 
-A habit he continues now.
+지금도 계속하는 습관입니다.
 
 ### --feedback--
 
-James uses the phrase `used to`, which shows he is describing something he did in the past, not currently.
+James는 `used to`라는 표현을 사용해 과거에 했던 일을 설명하고 있음을 보여줍니다. 현재 하는 일이 아닙니다.
 
 ---
 
-A process he never followed.
+한 번도 따르지 않았던 과정입니다.
 
 ### --feedback--
 
-James describes a habit he once had, so it is not something he never did.
+James는 한때 가졌던 습관을 설명하므로 한 번도 하지 않은 것은 아닙니다.
 
 ## --video-solution--
 
@@ -52,11 +52,11 @@ James describes a habit he once had, so it is not something he never did.
 
 # --explanation--
 
-James says, `I used to just write code without thinking much about the end user.`
+James는 `I used to just write code without thinking much about the end user.`라고 말합니다.
 
-`Used to` indicates a past habit or action that is no longer true.
+`Used to`는 더 이상 사실이 아닌 과거의 습관이나 행동을 나타냅니다.
 
-This sentence shows that he previously wrote code without considering the end user but has since changed his approach.
+이 문장은 그가 이전에는 최종 사용자를 고려하지 않고 코드를 작성했지만 이후 접근 방식을 바꿨음을 보여줍니다.
 
 # --scene--
 

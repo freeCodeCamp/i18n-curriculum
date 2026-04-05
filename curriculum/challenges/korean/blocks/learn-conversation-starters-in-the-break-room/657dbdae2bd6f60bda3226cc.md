@@ -1,6 +1,6 @@
 ---
 id: 657dbdae2bd6f60bda3226cc
-title: Task 81
+title: 작업 81
 challengeType: 22
 dashedName: task-81
 lang: en-US
@@ -10,13 +10,13 @@ lang: en-US
 
 # --description--
 
-When you want to know how often something happens, you can use `every` followed by a time period like `day`, `week`, or `year`.
+무엇인가가 얼마나 자주 일어나는지 알고 싶을 때 `every` 다음에 `day`, `week`, 또는 `year` 같은 시간 단위를 사용할 수 있습니다.
 
-In the dialogue, Tom is asking about the frequency of the team meetings.
+대화에서 Tom은 팀 회의가 얼마나 자주 열리는지 묻고 있습니다.
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+오디오를 듣고 아래 문장을 완성하세요.
 
 # --fillInTheBlank--
 
@@ -30,7 +30,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This word is used to ask if the meetings happen weekly.
+이 단어는 회의가 매주 열리는지 묻는 데 사용됩니다.
 
 # --scene--
 

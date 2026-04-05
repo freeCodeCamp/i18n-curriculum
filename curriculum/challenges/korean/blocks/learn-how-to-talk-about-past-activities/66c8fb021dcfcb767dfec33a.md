@@ -1,62 +1,61 @@
 ---
 id: 66c8fb021dcfcb767dfec33a
-title: Task 16
+title: 작업 16
 challengeType: 19
 dashedName: task-16
 lang: en-US
 ---
-
 <!-- (Audio) Linda: No, we haven't. But we've solved similar issues on other projects. -->
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+오디오를 듣고 아래 질문에 답하세요.
 
 # --questions--
 
 ## --text--
 
-Which statement below is true?
+아래 문장 중 옳은 것은 무엇인가요?
 
 ## --answers--
 
-They have never fixed any issues like this before.
+그들은 이런 문제를 한 번도 고친 적이 없습니다.
 
 ### --feedback--
 
-Think about whether Linda mentions any experience with similar issues.
+Linda가 비슷한 문제에 대한 경험을 언급하는지 생각해 보세요.
 
 ---
 
-They have already fixed this exact issue on another project.
+그들은 이미 다른 프로젝트에서 이 정확한 문제를 고친 적이 있습니다.
 
 ### --feedback--
 
-Consider whether Linda says they have experience with this specific issue or something similar.
+Linda가 이 특정 문제에 대한 경험인지 아니면 비슷한 문제인지 말하는지 고려하세요.
 
 ---
 
-They haven't fixed this exact issue, but they have fixed similar ones before.
+그들은 이 정확한 문제를 고치지는 않았지만, 비슷한 문제는 이전에 고친 적이 있습니다.
 
 ---
 
-They have fixed this issue many times before.
+그들은 이 문제를 여러 번 고친 적이 있습니다.
 
 ### --feedback--
 
-Reflect on whether Linda is talking about having fixed this exact issue or something similar.
-
+Linda가 이 정확한 문제를 고쳤다고 말하는지 아니면 비슷한 문제를 고쳤다고 말하는지 생각해 보세요.
+  
 ## --video-solution--
 
 3
 
 # --explanation--
 
-To find the correct answer, focus on whether Linda is talking about fixing the `exact issue` or `similar issues`.
+정답을 찾으려면 Linda가 `exact issue`를 고쳤다고 말하는지 아니면 `similar issues`를 고쳤다고 말하는지에 포커스를 맞추세요.
 
-Linda makes it clear that they haven't fixed this exact problem before, but she also mentions that they have solved similar issues in the past.
+Linda는 이 정확한 문제를 고친 적은 없지만, 과거에 비슷한 문제를 해결한 적이 있다고 분명히 말합니다.
 
-The correct answer should show this balance—acknowledging no exact match but confirming past experience with related problems.
+정답은 이 균형을 보여야 합니다—정확히 일치하는 문제는 없지만 관련 문제에 대한 경험은 있다고 인정하는 문장입니다.
 
 # --scene--
 

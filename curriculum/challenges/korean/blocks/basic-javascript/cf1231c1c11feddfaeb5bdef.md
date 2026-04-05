@@ -1,6 +1,6 @@
 ---
 id: cf1231c1c11feddfaeb5bdef
-title: Multiply Two Numbers with JavaScript
+title: JavaScript로 두 숫자 곱하기
 challengeType: 1
 forumTopicId: 18243
 dashedName: multiply-two-numbers-with-javascript
@@ -8,31 +8,31 @@ dashedName: multiply-two-numbers-with-javascript
 
 # --description--
 
-We can also multiply one number by another.
+한 숫자를 다른 숫자와 곱할 수도 있습니다.
 
-JavaScript uses the `*` symbol for multiplication of two numbers.
+JavaScript는 두 숫자를 곱할 때 `*` 기호를 사용합니다.
 
-**Example**
+**예시**
 
 ```js
 const myVar = 13 * 13;
 ```
 
-`myVar` would have the value `169`.
+`myVar`의 값은 `169`가 됩니다.
 
 # --instructions--
 
-Change the `0` so that product will equal `80`.
+곱셈 결과가 `0`가 되도록 `80`를 변경하세요.
 
 # --hints--
 
-The variable `product` should be equal to 80.
+변수 `product`는 80과 같아야 합니다.
 
 ```js
 assert(product === 80);
 ```
 
-You should use the `*` operator.
+`*` 연산자를 사용해야 합니다.
 
 ```js
 assert(/\*/.test(__helpers.removeJSComments(code)));

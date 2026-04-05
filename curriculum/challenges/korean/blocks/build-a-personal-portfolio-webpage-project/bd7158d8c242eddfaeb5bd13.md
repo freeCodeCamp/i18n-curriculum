@@ -9,36 +9,36 @@ dashedName: build-a-personal-portfolio-webpage
 
 # --description--
 
-**목표:** <a href="https://personal-portfolio.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://personal-portfolio.freecodecamp.rocks</a> 와 기능적으로 유사한 웹페이지를 만드세요. **이 데모 프로젝트를 복사하지 마세요.**.
+**목표:** <a href="https://personal-portfolio.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://personal-portfolio.freecodecamp.rocks</a>와 기능적으로 유사한 앱을 만드세요. **이 데모 프로젝트를 복사하지 마세요**.
 
-**유저 스토리:**
+**사용자 스토리:**
 
-1. 당신의 포트폴리오에는 `welcome-section`이라는 `id`를 가진 환영 섹션이 있어야 합니다.
-1. 환영 섹션에는 텍스트가 포함된 `h1` 요소가 있어야 합니다.
-1. 당신의 포트폴리오에는 `id`가 `projects`인 프로젝트 섹션이 있어야 합니다.
-1. 프로젝트 섹션에는 프로젝트를 담을 수 있는 `class`가 `project-tile`인 요소가 최소 하나 이상 포함되어야 합니다.
-1. 프로젝트 섹션에는 최소 하나 이상의 프로젝트 링크가 포함되어야 합니다.
-1. 당신의 포트폴리오에는 id가 `navbar`인 네비게이션 바가 있어야 합니다.
-1. 네비게이션 바에는 클릭하여 페이지의 다른 섹션으로 이동할 수 있는 링크가 최소 하나 이상 포함되어야 합니다.
-1. 포트폴리오에는 `profile-link` 아이디를 가진 링크가 있어야 하며, 이 링크를 클릭하면 깃헙 또는 프리코드캠프 프로필이 새 탭에서 열려야 합니다.
-1. 포트폴리오에는 최소 하나 이상의 미디어 쿼리가 포함되어야 합니다.
-1. 환영 섹션의 높이는 뷰포트의 높이와 같아야 합니다.
-1. 네비게이션 바는 항상 뷰포트의 상단에 위치해야 합니다.
+1. 포트폴리오에는 `id`가 `welcome-section`인 환영 섹션이 있어야 합니다.
+1. 환영 섹션에는 텍스트를 포함하는 `h1` 요소가 있어야 합니다.
+1. 포트폴리오에는 `id`가 `projects`인 프로젝트 섹션이 있어야 합니다.
+1. 프로젝트 섹션에는 프로젝트를 담을 `class`가 `project-tile`인 요소가 최소 하나 있어야 합니다.
+1. 프로젝트 섹션에는 프로젝트로 연결되는 링크가 최소 하나 있어야 합니다.
+1. 포트폴리오에는 `navbar`인 id를 가진 내비게이션 바가 있어야 합니다.
+1. 내비게이션 바에는 페이지의 다른 섹션으로 이동할 수 있는 클릭 가능한 링크가 최소 하나 있어야 합니다.
+1. 포트폴리오에는 `profile-link`인 id를 가진 링크가 있어야 하며, 이 링크는 GitHub 또는 freeCodeCamp 프로필을 새 탭에서 엽니다.
+1. 포트폴리오에는 미디어 쿼리가 최소 하나 있어야 합니다.
+1. 환영 섹션의 높이는 뷰포트 높이와 같아야 합니다.
+1. 내비게이션 바는 항상 뷰포트 상단에 있어야 합니다.
 
-아래의 사용자 스토리를 충족시키고 모든 테스트를 통과하여 이 프로젝트를 완료하세요. 자신만의 개성을 담아 디자인을 꾸며보세요. 즐거운 코딩 하세요!
+사용자 스토리를 모두 충족하고 아래 모든 테스트를 통과하면 이 프로젝트를 완료할 수 있습니다. 자신만의 스타일을 입히세요. 코딩을 즐기세요!
 
-**참고:** 스타일시트를 연결하고 CSS를 적용하려면 HTML에 `<link rel="stylesheet" href="styles.css">`를 추가하세요.
+**참고:** 스타일시트를 연결하고 CSS를 적용하려면 HTML에 `<link rel="stylesheet" href="styles.css">`를 반드시 추가하세요.
 
 # --hints--
 
-당신의 포트폴리오에는 `welcome-section`이라는 `id`를 가진 "Welcome" 섹션이 있어야 합니다.
+포트폴리오에는 `id`가 `welcome-section`인 "Welcome" 섹션이 있어야 합니다.
 
 ```js
 const el = document.getElementById('welcome-section');
 assert.isNotNull(el);
 ```
 
-당신의 `#welcome-section` 요소에는 `h1` 요소가 포함되어 있어야 합니다.
+`#welcome-section` 요소 안에는 `h1` 요소가 포함되어야 합니다.
 
 ```js
 assert.isAbove(
@@ -48,7 +48,7 @@ assert.isAbove(
 );
 ```
 
-`#welcome-section` 요소 내에는 빈 `h1` 요소가 있어서는 안 됩니다.
+`h1` 요소 안에 빈 `#welcome-section` 요소가 없어야 합니다.
 
 ```js
 assert.isAbove(
@@ -58,33 +58,33 @@ assert.isAbove(
 );
 ```
 
-"Projects" 섹션에는 `projects`라는 `id`가 있어야 합니다.
+"Projects" 섹션에는 `id`가 `projects`인 요소가 있어야 합니다.
 
 ```js
 const el = document.getElementById('projects');
 assert.isNotNull(el);
 ```
 
-당신의 포트폴리오에는 최소한 하나의 `project-tile` 클래스가 있는 요소가 포함되어야 합니다.
+포트폴리오에는 `project-tile` 클래스를 가진 요소가 최소 하나 있어야 합니다.
 
 ```js
 assert.isAbove(document.querySelectorAll('#projects .project-tile').length, 0);
 ```
 
-`#projects` 요소에는 최소한 하나의 `a` 요소가 포함되어야 합니다.
+`#projects` 요소 안에는 최소 하나의 `a` 요소가 포함되어야 합니다.
 
 ```js
 assert.isAbove(document.querySelectorAll('#projects a').length, 0);
 ```
 
-당신의 포트폴리오에는 navbar라는 `id`를 가진 `내비게이션 바(navbar)`가 있어야 합니다.
+포트폴리오에는 `id`가 `navbar`인 id를 가진 내비게이션 바가 있어야 합니다.
 
 ```js
 const el = document.getElementById('navbar');
 assert.isNotNull(el);
 ```
 
-`#navbar` 요소에는 `href` 속성이 `#`로 시작하는 최소한 하나의 `a` 요소가 포함되어야 합니다.
+`#navbar` 요소 안에는 `a` 속성이 `href`로 시작하는 `#` 요소가 최소 하나 있어야 합니다.
 
 ```js
 const links = [...document.querySelectorAll('#navbar a')].filter(
@@ -94,7 +94,7 @@ const links = [...document.querySelectorAll('#navbar a')].filter(
 assert.isAbove(links.length, 0, 'Navbar should contain an anchor link ');
 ```
 
-당신의 포트폴리오에는 `profile-link`라는 `id`를 가진 `a` 요소가 있어야 합니다.
+포트폴리오에는 `a` 요소가 있고 `id`가 `profile-link`인 id가 있어야 합니다.
 
 ```js
 const el = document.getElementById('profile-link');
@@ -102,7 +102,7 @@ assert.isNotNull(el);
 assert.strictEqual(el.tagName, 'A');
 ```
 
-`#profile-link` 요소는 `target` 속성으로 `_blank`를 가져야 합니다.
+`#profile-link` 요소에는 `target` 속성이 `_blank`로 설정되어 있어야 합니다.
 
 ```js
 const el = document.getElementById('profile-link');
@@ -110,7 +110,7 @@ assert.isNotNull(el);
 assert.strictEqual(el.target, '_blank');
 ```
 
-당신의 포트폴리오에는 최소한 하나의 미디어 쿼리를 사용해야 합니다.
+포트폴리오에는 미디어 쿼리가 최소 하나 있어야 합니다.
 
 ```js
 const htmlSourceAttr = Array.from(document.querySelectorAll('source')).map(el => el.getAttribute('media'))
@@ -118,7 +118,7 @@ const cssCheck = new __helpers.CSSHelp(document).getCSSRules('media')
 assert.isTrue(cssCheck.length > 0 || htmlSourceAttr.length > 0);
 ```
 
-`#navbar` 요소는 항상 뷰포트의 상단에 위치해야 합니다.
+`#navbar` 요소는 항상 뷰포트 상단에 있어야 합니다.
 
 ```js
   const timeout = milliseconds =>

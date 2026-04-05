@@ -1,6 +1,6 @@
 ---
 id: 699e5ba78f18cf77dfce5c10
-title: Properties of Trigonometric Functions
+title: 삼각함수의 속성
 challengeType: 11
 videoId: x0_G0dA02uU
 dashedName: properties-of-trig-functions
@@ -8,32 +8,30 @@ dashedName: properties-of-trig-functions
 
 # --description--
 
-In this video, you will learn about the properties of trigonometric functions.
+이 영상에서는 삼각함수의 속성에 대해 배우세요.
 
 # --questions--
 
 ## --text--
 
-What is the Pythagorean property of trigonometric functions?
+삼각함수의 피타고라스 속성은 무엇인가요?
 
 ## --answers--
 
-For any angle, the square of the sine of the angle minus the square of the cosine of the angle equals 1.
+어떤 각도에 대해서든, 그 각도의 사인 제곱에서 코사인 제곱을 뺀 값은 1입니다.
 
 ---
 
-For any angle, the sine of the angle plus the cosine of the angle equals 1.
+어떤 각도에 대해서든, 그 각도의 사인과 코사인의 합은 1입니다.
 
 ---
 
-For any angle, the square of the sine of the angle plus the square of the cosine of the angle equals 1.
+어떤 각도에 대해서든, 그 각도의 사인 제곱과 코사인 제곱의 합은 1입니다.
 
 ---
 
-For any angle, the square of the tangent of the angle plus the square of the cosine of the angle equals 1.
+어떤 각도에 대해서든, 그 각도의 탄젠트 제곱과 코사인 제곱의 합은 1입니다.
 
 ## --video-solution--
 
 3
-
-

@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9aedf0887a
-title: Headline with the h2 Element
+title: h2 요소로 제목 만들기
 challengeType: 0
 videoUrl: 'https://scrimba.com/p/pVMPUv/cE8Gqf3'
 forumTopicId: 18196
@@ -9,44 +9,44 @@ dashedName: headline-with-the-h2-element
 
 # --description--
 
-Over the next few lessons, we'll build an HTML5 cat photo web app piece-by-piece.
+앞으로 몇 개의 수업에서 HTML5 고양이 사진 웹 앱을 한 단계씩 만들어 나가겠습니다.
 
-The `h2` element you will be adding in this step will add a level two heading to the web page.
+이 단계에서 추가할 `h2` 요소는 웹 페이지에 두 번째 수준 제목을 추가합니다.
 
-This element tells the browser about the structure of your website. `h1` elements are often used for main headings, while `h2` elements are generally used for subheadings. There are also `h3`, `h4`, `h5` and `h6` elements to indicate different levels of subheadings.
+이 요소는 브라우저에 웹사이트 구조를 알려줍니다. `h1` 요소는 주로 주요 제목에 사용되고, `h2` 요소는 일반적으로 부제목에 사용됩니다. 또한 서로 다른 수준의 부제목을 나타내는 `h3`, `h4`, `h5`, `h6` 요소도 있습니다.
 
 # --instructions--
 
-Add an `h2` tag that says "CatPhotoApp" to create a second HTML element below your "Hello World" `h1` element.
+"Hello World" `h2` 요소 아래에 두 번째 HTML 요소로 "CatPhotoApp"이라는 텍스트를 가진 `h1` 태그를 추가하세요.
 
 # --hints--
 
-You should create an `h2` element.
+`h2` 요소를 만들어야 합니다.
 
 ```js
 assert.lengthOf(document.querySelectorAll('h2'),1);
 ```
 
-Your `h2` element should have a closing tag.
+`h2` 요소에는 닫는 태그가 있어야 합니다.
 
 ```js
 assert.match(code,/<\/h2>/g);
 assert.strictEqual(code.match(/<\/h2>/g).length,code.match(/<h2>/g).length);
 ```
 
-Your `h2` element should have the text `CatPhotoApp`.
+`h2` 요소에는 `CatPhotoApp` 텍스트가 있어야 합니다.
 
 ```js
 assert.match(document.querySelector('h2').textContent,/cat(\s)?photo(\s)?app/gi);
 ```
 
-Your `h1` element should have the text `Hello World`.
+`h1` 요소에는 `Hello World` 텍스트가 있어야 합니다.
 
 ```js
 assert.match(document.querySelector('h1').textContent,/hello(\s)+world/gi);
 ```
 
-Your `h1` element should be before your `h2` element.
+`h1` 요소는 `h2` 요소 앞에 있어야 합니다.
 
 ```js
 assert.match(code,/<h1>\s*?.*?\s*?<\/h1>\s*<h2>\s*?.*?\s*?<\/h2>/gi);

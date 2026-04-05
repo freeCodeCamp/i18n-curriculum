@@ -1,6 +1,6 @@
 ---
 id: 67c70abfeb7c6fb8cbd3fed7
-title: Task 57
+title: 작업 57
 challengeType: 19
 dashedName: task-57
 lang: en-US
@@ -10,51 +10,51 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+오디오를 듣고 아래 질문에 답하세요.  
 
 # --questions--
 
 ## --text--
 
-What does Maria want to discuss with James?
+Maria가 James와 무엇에 대해 이야기하고 싶어 하나요?  
 
 ## --answers--
 
-Bob's schedule for the week.
+Bob의 이번 주 일정.  
 
 ### --feedback--
 
-Maria does not mention Bob's schedule.
+Maria는 Bob의 일정에 대해 언급하지 않습니다.  
 
 ---
 
-Her most recent meeting with Bob.
+Bob과의 가장 최근 회의.  
 
 ---
 
-A future project deadline.
+앞으로 있을 프로젝트 마감일.  
 
 ### --feedback--
 
-Maria does not mention a deadline, only her meeting with Bob.
+Maria는 마감일에 대해 언급하지 않고, 오직 Bob과의 회의만 말합니다.  
 
 ---
 
-The client's budget request.
+클라이언트의 예산 요청.  
 
 ### --feedback--
 
-Maria does not refer to a client request in this sentence.
+Maria는 이 문장에서 클라이언트 요청에 대해 언급하지 않습니다.  
 
 ## --video-solution--
 
-2
+2  
 
 # --explanation--
 
-`Can we talk about...` is used to introduce a topic for discussion. It is a polite way to request a conversation about something important. For example:
+`Can we talk about...`는 토론할 주제를 소개할 때 사용합니다. 중요한 내용에 대해 정중하게 대화를 요청하는 표현입니다. 예를 들어:
 
-`Can we talk about the changes to the project timeline?` - This means the speaker wants to discuss the project timeline adjustments.
+`Can we talk about the changes to the project timeline?` - 이는 화자가 프로젝트 일정 조정에 대해 논의하고 싶다는 뜻입니다.
 
 # --scene--
 

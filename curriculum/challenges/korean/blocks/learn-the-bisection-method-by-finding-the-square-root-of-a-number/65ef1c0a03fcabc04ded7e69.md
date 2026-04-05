@@ -1,50 +1,50 @@
 ---
 id: 65ef1c0a03fcabc04ded7e69
-title: Step 12
+title: 12단계
 challengeType: 20
 dashedName: step-12
 ---
 
 # --description--
 
-Inside the for loop, calculate the midpoint of the interval ranging from `low` to `high`. Assign this value to a variable `mid`.
+for 루프 안에서 `low`부터 `high`까지 구간의 중간값을 계산하세요. 이 값을 변수 `mid`에 할당하세요.
 
-Also, calculate the square of the midpoint (`mid`) and store it in the variable `square_mid`.
-
+또한, 중간값(`mid`)의 제곱을 계산하여 변수 `square_mid`에 저장하세요.
+    
 # --hints--
 
-You should remove the `pass` keyword.
+`pass` 키워드를 제거하세요.
 
 ```js
 ({
     test: () => 
     {
         assert.isFalse(runPython(`_Node(_code).find_function("square_root_bisection").find_ifs()[1].find_bodies()[2].find_for_loops()[0].find_bodies()[0].has_pass()`))
-
+        
     }
 
 })
 
 ```
 
-You should declare a variable `mid` and assign it `(low + high) / 2` inside the body of the `for` loop.
+`mid` 루프 본문 안에 변수 `(low + high) / 2`를 선언하고 `for`을 할당하세요.
 
 ```js
 ({
     test: () => 
     {
         assert(runPython(`
-    node = _Node(_code).find_function("square_root_bisection").find_ifs()[1].find_bodies()[2].find_for_loops()[0].find_bodies()[0].find_variable("mid")
-    values = ["mid = (low + high) / 2", "mid = (high + low) / 2"]
-    any(node.is_equivalent(val) for val in values)
-    `))
-
+	node = _Node(_code).find_function("square_root_bisection").find_ifs()[1].find_bodies()[2].find_for_loops()[0].find_bodies()[0].find_variable("mid")
+	values = ["mid = (low + high) / 2", "mid = (high + low) / 2"]
+	any(node.is_equivalent(val) for val in values)
+	`))
+        
     }
 
 })
 ```
 
-You should declare a variable `square_mid` and assign it `mid**2` inside the body of the for loop.
+for 루프 본문 안에 변수 `square_mid`를 선언하고 `mid**2`을 할당하세요.
 
 ```js
 ({ test: () => assert(runPython(`_Node(_code).find_function("square_root_bisection").find_ifs()[1].find_bodies()[2].find_for_loops()[0].find_bodies()[0].find_variable("square_mid").is_equivalent("square_mid = mid**2")`)) })
@@ -69,7 +69,7 @@ def square_root_bisection(square_target, tolerance=1e-7, max_iterations=100):
         low = 0
         high = max(1, square_target)
         root = None
-
+        
 --fcc-editable-region--
         for _ in range(max_iterations):
             pass

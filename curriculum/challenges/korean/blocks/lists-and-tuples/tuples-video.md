@@ -1,6 +1,6 @@
 ---
 id: 5ed596ba3306cf2c1a94bb92
-title: Tuples
+title: 튜플
 challengeType: 11
 videoId: g6fwjiEFG-Y
 dashedName: tuples
@@ -8,13 +8,13 @@ dashedName: tuples
 
 # --description--
 
-In this video, you will learn about tuples in Python and how they differ from lists.
+이 영상에서는 Python의 튜플에 대해 배우고, 튜플이 리스트와 어떻게 다른지 알아보세요.
 
 # --questions--
 
 ## --text--
 
-Which of the following is the correct way to create a tuple?
+다음 중 튜플을 만드는 올바른 방법은 무엇인가요?
 
 ## --answers--
 

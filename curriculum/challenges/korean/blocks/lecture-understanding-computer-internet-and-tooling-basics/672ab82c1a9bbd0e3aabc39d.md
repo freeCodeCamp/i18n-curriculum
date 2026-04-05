@@ -1,67 +1,67 @@
 ---
 id: 672ab82c1a9bbd0e3aabc39d
-title: How Can You Effectively Work With Your Keyboard, Mouse, and Other Pointing Devices?
+title: "키보드, 마우스 및 기타 포인팅 장치를 효과적으로 사용하는 방법"
 challengeType: 19
 dashedName: how-to-effectively-work-with-your-keyboard-mouse-and-other-pointing-devices
 ---
 
 # --description--
 
-Many of you have been used to working with your keyboard and mouse for years on end for a variety of activities like gaming, performing tasks for work, or surfing the web.
+여러분 중 많은 분이 게임, 업무 수행, 웹 서핑 등 다양한 활동을 위해 수년간 키보드와 마우스를 사용해 왔을 것입니다.
 
-But prolonged misuse of these devices can lead to serious health problems down the road.
+하지만 이러한 장치를 장시간 잘못 사용하면 나중에 심각한 건강 문제로 이어질 수 있습니다.
 
-In this lesson, we will cover ways to work with your computer’s keyboard and mouse in healthy ways.
+이번 수업에서는 컴퓨터의 키보드와 마우스를 건강하게 사용하는 방법을 다룹니다.
 
-The first tip is to be mindful of the mouse grip. When working on serious tasks for work or during intense gaming moments, you may tend to grip the mouse too hard. However, this can lead to serious hand and wrist issues. To prevent this, you want to make sure to hold the mouse gently and keep your fingers nice and relaxed.
+첫 번째 팁은 마우스 잡는 법에 주의하는 것입니다. 업무에 집중하거나 격렬한 게임을 할 때 마우스를 너무 세게 잡는 경향이 있을 수 있습니다. 하지만 이렇게 하면 손과 손목에 심각한 문제가 생길 수 있습니다. 이를 예방하려면 마우스를 부드럽게 잡고 손가락을 편안하게 유지하세요.
 
-The second tip is to consider using an ergonomic keyboard and mouse. These tools are designed to reduce wrist strain by keeping your hands in a more natural position.
+두 번째 팁은 인체공학적 키보드와 마우스를 사용하는 것을 고려하는 것입니다. 이 도구들은 손을 보다 자연스러운 위치에 두어 손목 부담을 줄이도록 설계되었습니다.
 
-While prices for these devices can vary and may be a costly purchase for your current budget, they can be a good investment in your overall long-term health. So, you might consider starting to research an ergonomic keyboard and mouse to use.
+이 장치들의 가격은 다양하며 현재 예산에 부담이 될 수 있지만, 장기적인 건강을 위한 좋은 투자일 수 있습니다. 따라서 인체공학적 키보드와 마우스에 대해 조사해 보는 것을 권장합니다.
 
-Another tip is to keep your mouse the same height as your keyboard. You don't want to have to reach up or down to use the mouse, as this can strain your wrist and arm muscles over time.
+또 다른 팁은 마우스 높이를 키보드와 같게 유지하는 것입니다. 마우스를 사용하기 위해 위아래로 손을 뻗으면 시간이 지남에 따라 손목과 팔 근육에 부담이 될 수 있습니다.
 
-You also want to be mindful of your overall posture when sitting at the computer for long periods. Being slouched over your computer and putting your wrists in an unnatural position at the keyboard can lead to long-term health issues.
+컴퓨터 앞에 오래 앉아 있을 때는 전체적인 자세에도 주의해야 합니다. 컴퓨터에 몸을 구부리고 손목을 비정상적인 위치에 두면 장기적인 건강 문제로 이어질 수 있습니다.
 
-While maintaining good posture is important, modern ergonomics emphasizes the importance of movement and dynamic sitting. The human body is designed for movement, and staying in any fixed position, even a straight one, for too long can place continuous pressure on the spine. Taking regular breaks, adjusting your position throughout the day, and maintaining a natural wrist position can help improve circulation, reduce fatigue, and support long-term spinal health.
+좋은 자세를 유지하는 것도 중요하지만, 현대 인체공학은 움직임과 역동적인 앉기를 강조합니다. 인체는 움직이도록 설계되었으며, 똑바른 자세라도 너무 오래 고정되어 있으면 척추에 지속적인 압력이 가해집니다. 규칙적으로 휴식을 취하고, 하루 동안 자세를 조절하며, 손목을 자연스러운 위치에 두면 혈액 순환이 개선되고 피로가 줄며 척추 건강을 유지하는 데 도움이 됩니다.
 
-The last tip would be to use keyboard shortcuts whenever possible to help minimize typing. There are dozens of shortcuts available for tasks such as navigating the web, navigating around your operating system, working within a code editor, and more. So, it’s best to research some of these keyboard shortcuts and start incorporating them into your daily computer usage.
+마지막 팁은 가능한 한 키보드 단축키를 사용해 타이핑을 최소화하는 것입니다. 웹 탐색, 운영체제 내비게이션, 코드 편집기 작업 등 다양한 작업에 수십 가지 단축키가 있습니다. 따라서 이러한 키보드 단축키를 조사하고 일상적인 컴퓨터 사용에 적용하는 것이 좋습니다.
 
-As you continue using your mouse and keyboard for upcoming coding projects and other activities, remember to keep these health tips in mind.
+앞으로 코딩 프로젝트와 기타 활동에 마우스와 키보드를 계속 사용할 때 이 건강 팁들을 기억하세요.
 
 # --questions--
 
 ## --text--
 
-What is one of the risks of gripping the mouse too tightly?
+마우스를 너무 세게 잡으면 어떤 위험이 있나요?
 
 ## --answers--
 
-It can improve your accuracy in gaming.
+게임에서 정확도가 향상될 수 있습니다.
 
 ### --feedback--
 
-Pay attention to the advice about mouse grip at the beginning of the lesson.
+수업 초반의 마우스 잡는 법에 관한 조언을 주의 깊게 보세요.
 
 ---
 
-It helps you complete tasks faster.
+작업을 더 빨리 완료하는 데 도움이 됩니다.
 
 ### --feedback--
 
-Pay attention to the advice about mouse grip at the beginning of the lesson.
+수업 초반의 마우스 잡는 법에 관한 조언을 주의 깊게 보세요.
 
 ---
 
-It can cause hand and wrist issues.
+손과 손목 문제를 일으킬 수 있습니다.
 
 ---
 
-It improves your overall performance.
+전반적인 성능이 향상됩니다.
 
 ### --feedback--
 
-Pay attention to the advice about mouse grip at the beginning of the lesson.
+수업 초반의 마우스 잡는 법에 관한 조언을 주의 깊게 보세요.
 
 ## --video-solution--
 
@@ -69,35 +69,35 @@ Pay attention to the advice about mouse grip at the beginning of the lesson.
 
 ## --text--
 
-What is the benefit of using an ergonomic keyboard and mouse?
+인체공학적 키보드와 마우스를 사용하면 어떤 이점이 있나요?
 
 ## --answers--
 
-They help you type faster.
+더 빠르게 타이핑할 수 있습니다.
 
 ### --feedback--
 
-The second tip in the lesson mentions ergonomic devices as a way to protect your hands and wrists.
+수업의 두 번째 팁에서 손과 손목 보호를 위해 인체공학적 장치를 언급합니다.
 
 ---
 
-They are designed for gaming performance.
+게임 성능을 위해 설계되었습니다.
 
 ### --feedback--
 
-The second tip in the lesson mentions ergonomic devices as a way to protect your hands and wrists.
+수업의 두 번째 팁에서 손과 손목 보호를 위해 인체공학적 장치를 언급합니다.
 
 ---
 
-They reduce wrist strain by keeping your hands in a more natural position.
+손을 보다 자연스러운 위치에 두어 손목 부담을 줄여줍니다.
 
 ---
 
-They increase screen resolution.
+화면 해상도를 높여줍니다.
 
 ### --feedback--
 
-The second tip in the lesson mentions ergonomic devices as a way to protect your hands and wrists.
+수업의 두 번째 팁에서 손과 손목 보호를 위해 인체공학적 장치를 언급합니다.
 
 ## --video-solution--
 
@@ -105,35 +105,35 @@ The second tip in the lesson mentions ergonomic devices as a way to protect your
 
 ## --text--
 
-What is the recommendation for the height of your mouse in relation to your keyboard?
+마우스 높이를 키보드와 비교했을 때 어떻게 하는 것이 좋나요?
 
 ## --answers--
 
-The mouse should be far above the keyboard.
+마우스가 키보드보다 훨씬 높아야 합니다.
 
 ### --feedback--
 
-Think about how to position your mouse to avoid wrist and arm strain.
+손목과 팔의 부담을 피하기 위해 마우스 위치를 어떻게 해야 할지 생각해 보세요.
 
 ---
 
-The mouse should be at the same height as the keyboard.
+마우스가 키보드와 같은 높이에 있어야 합니다.
 
 ---
 
-The mouse should be lower than the keyboard.
+마우스가 키보드보다 낮아야 합니다.
 
 ### --feedback--
 
-Think about how to position your mouse to avoid wrist and arm strain.
+손목과 팔의 부담을 피하기 위해 마우스 위치를 어떻게 해야 할지 생각해 보세요.
 
 ---
 
-The mouse should be higher than the keyboard.
+마우스가 키보드보다 높아야 합니다.
 
 ### --feedback--
 
-Think about how to position your mouse to avoid wrist and arm strain.
+손목과 팔의 부담을 피하기 위해 마우스 위치를 어떻게 해야 할지 생각해 보세요.
 
 ## --video-solution--
 

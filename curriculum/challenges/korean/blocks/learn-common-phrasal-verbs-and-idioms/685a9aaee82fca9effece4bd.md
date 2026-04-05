@@ -1,6 +1,6 @@
 ---
 id: 685a9aaee82fca9effece4bd
-title: Task 130
+title: 작업 130
 challengeType: 22
 dashedName: task-130
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+오디오를 듣고 아래 문장을 완성하세요.
 
 # --fillInTheBlank--
 
@@ -24,13 +24,13 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This refers to a person who is present at an event or meeting.
+이것은 이벤트나 회의에 참석한 사람을 가리킵니다.
 
 # --explanation--
 
-An `attendee` is someone who attends or is present at an event, such as a meeting, seminar, or conference. For example:
+`attendee`는 회의, 세미나, 컨퍼런스 같은 이벤트에 참석하거나 그 자리에 있는 사람을 뜻합니다. 예를 들어:
 
-`Each attendee received a welcome packet when they arrived.` – This means every person who came to the event got a packet.
+`Each attendee received a welcome packet when they arrived.` – 이 문장은 이벤트에 온 모든 사람이 자료를 받았다는 의미입니다.
 
 # --scene--
 

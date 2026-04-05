@@ -1,6 +1,6 @@
 ---
 id: 67ee6d7bcacdc02ff7d9beb2
-title: Task 69
+title: 작업 69
 challengeType: 22
 dashedName: task-69
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+오디오를 듣고 아래 문장을 완성하세요.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This word is used to talk about the existence of something or to say that something is present or happening. It's the contraction of `there is`.
+이 단어는 무언가가 존재하거나 발생하고 있음을 말할 때 사용합니다. `there is`의 축약형입니다.
 
 ---
 
@@ -32,7 +32,7 @@ This word is used to talk about the existence of something or to say that someth
 
 ### --feedback--
 
-This word refers to an issue or difficulty that needs to be solved or fixed.
+이 단어는 해결하거나 고쳐야 할 문제나 어려움을 나타냅니다.
 
 ---
 
@@ -40,7 +40,7 @@ This word refers to an issue or difficulty that needs to be solved or fixed.
 
 ### --feedback--
 
-This preposition shows the relationship or connection between two things.
+이 전치사는 두 가지 사이의 관계나 연결을 나타냅니다.
 
 ---
 
@@ -48,17 +48,17 @@ This preposition shows the relationship or connection between two things.
 
 ### --feedback--
 
-This two-word phrase refers to the way software or websites respond to actions, like clicks or keystrokes, performed by the user. The second word ends with `-ing`.
+이 두 단어 구는 소프트웨어나 웹사이트가 사용자의 클릭이나 키 입력 같은 동작에 반응하는 방식을 나타냅니다. 두 번째 단어는 `-ing`로 끝납니다.
 
 # --explanation--
 
-`There's a problem with` is used to describe that something is not working correctly. It means there is an issue or difficulty related to a specific thing. For example:
+`There's a problem with`는 무언가가 제대로 작동하지 않는 상태를 설명할 때 사용합니다. 특정한 것과 관련된 문제나 어려움이 있음을 의미합니다. 예를 들어:
 
-`There's a problem with the network.` – This means the network is not functioning properly.
+`There's a problem with the network.` – 네트워크가 제대로 작동하지 않는다는 뜻입니다.
 
-`Event handling` refers to how a program or website manages user actions like clicks, keyboard presses, or mouse movements. For example:
+`Event handling`는 프로그램이나 웹사이트가 클릭, 키보드 입력, 마우스 움직임 같은 사용자 동작을 어떻게 처리하는지를 나타냅니다. 예를 들어:
 
-`There's an issue with event handling.` - This mean the software isn't responding properly to user actions.
+`There's an issue with event handling.` - 소프트웨어가 사용자 동작에 제대로 반응하지 않는다는 뜻입니다.
 
 # --scene--
 

@@ -1,6 +1,6 @@
 ---
 id: 698dcfd57932b3cc4b19c92a
-title: Space Complexity
+title: 공간 복잡도
 challengeType: 11
 videoId: BFMvhQdqYgc
 dashedName: space-complexity
@@ -8,29 +8,29 @@ dashedName: space-complexity
 
 # --description--
 
-In this video, you will learn about space complexity.
+이 영상에서는 공간 복잡도에 대해 배우세요.
 
 # --questions--
 
 ## --text--
 
-What is space complexity?
+공간 복잡도란 무엇인가요?
 
 ## --answers--
 
-The amount of memory an algorithm uses relative to the input size.
+알고리즘이 입력 크기에 비례해 사용하는 메모리 양입니다.
 
 ---
 
-The amount of time an algorithm takes to run.
+알고리즘이 실행되는 데 걸리는 시간입니다.
 
 ---
 
-The number of CPU cores used by an algorithm.
+알고리즘이 사용하는 CPU 코어 수입니다.
 
 ---
 
-The number of input elements an algorithm can process per second.
+알고리즘이 초당 처리할 수 있는 입력 요소 수입니다.
 
 ## --video-solution--
 

@@ -1,6 +1,6 @@
 ---
 id: 67caeb9a6a3aedb94bc912dd
-title: Task 129
+title: 작업 129
 challengeType: 22
 dashedName: task-129
 lang: en-US
@@ -10,39 +10,39 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+오디오를 듣고 아래 문장을 완성하세요.  
 
 # --fillInTheBlank--
 
 ## --sentence--
 
-`They BLANK said the communication isn't great because they BLANK don't hear about changes until it's too late.`
+`They BLANK said the communication isn't great because they BLANK don't hear about changes until it's too late.`  
 
 ## --blanks--
 
-`also`
+`also`  
 
 ### --feedback--
 
-This means in addition or as well.
+이는 추가로 또는 또한이라는 뜻입니다.
 
----
+---  
 
-`often`
+`often`  
 
 ### --feedback--
 
-This means frequently or many times.
+이는 자주 또는 여러 번이라는 뜻입니다.
 
 # --explanation--
 
-`Also` means in addition to something previously mentioned. For example:
+`Also`는 앞서 언급한 것에 덧붙여서라는 뜻입니다. 예를 들어:
 
-`She speaks English and also knows French.` - This means she knows French in addition to English.
+`She speaks English and also knows French.` - 이는 그녀가 영어뿐 아니라 프랑스어도 안다는 뜻입니다.  
 
-`Often` means frequently or regularly. For example:
+`Often`는 자주 또는 규칙적으로라는 뜻입니다. 예를 들어:
 
-`He often works late on Fridays.` - This means he works late many times or regularly on Fridays.
+`He often works late on Fridays.` - 이는 그가 금요일마다 여러 번 또는 규칙적으로 늦게까지 일한다는 뜻입니다.
 
 # --scene--
 

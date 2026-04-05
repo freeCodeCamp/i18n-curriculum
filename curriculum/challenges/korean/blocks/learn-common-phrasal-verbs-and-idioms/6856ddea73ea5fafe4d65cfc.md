@@ -1,6 +1,6 @@
 ---
 id: 6856ddea73ea5fafe4d65cfc
-title: Task 95
+title: 작업 95
 challengeType: 19
 dashedName: task-95
 lang: en-US
@@ -12,13 +12,13 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+오디오를 듣고 아래 질문에 답하세요.
 
 # --questions--
 
 ## --text--
 
-How could Linda praise Jake's idea?
+Linda가 Jake의 아이디어를 어떻게 칭찬할 수 있을까요?
 
 ## --answers--
 
@@ -38,7 +38,7 @@ EN13416258
 
 ### --feedback--
 
-This sounds doubtful, not supportive.
+이 답변은 의심스러운 어조로, 지지하는 느낌이 아닙니다.
 
 ## --video-solution--
 
@@ -46,11 +46,11 @@ This sounds doubtful, not supportive.
 
 # --explanation--
 
-`That's an excellent suggestion` is a polite and positive way to praise someone's idea by showing strong agreement and approval. For example:
+`That's an excellent suggestion`는 누군가의 아이디어에 대해 강한 동의와 찬성을 표현하며 정중하고 긍정적으로 칭찬하는 방법입니다. 예를 들어:
 
-- **Graphic designer:** `Let's add more visuals to the report.` – This person suggests that they incorporate more graphics and images to the report to make it more vivid.
+- **그래픽 디자이너:** `Let's add more visuals to the report.` – 이 사람은 보고서를 더 생생하게 만들기 위해 그래픽과 이미지를 더 많이 포함하자고 제안합니다.
 
-- **Project manager:** `That's an excellent suggestion.` – This means the person thinks the idea is very good and helpful.
+- **프로젝트 매니저:** `That's an excellent suggestion.` – 이 표현은 아이디어가 매우 좋고 도움이 된다고 생각한다는 뜻입니다.
 
 # --scene--
 

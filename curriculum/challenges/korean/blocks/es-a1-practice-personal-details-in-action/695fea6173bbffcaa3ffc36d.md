@@ -1,6 +1,6 @@
 ---
 id: 695fea6173bbffcaa3ffc36d
-title: Task 10
+title: 작업 10
 challengeType: 19
 dashedName: task-10
 lang: es
@@ -10,19 +10,19 @@ lang: es
 
 # --description--
 
-There are two common ways to ask for someone's name in Spanish.
+스페인어로 누군가의 이름을 묻는 두 가지 일반적인 방법이 있습니다.
 
-Both are used in everyday Spanish and mean the same thing. They're just structured differently.
+두 가지 모두 일상적인 스페인어에서 사용되며 같은 의미입니다. 단지 구조가 다를 뿐입니다.
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+오디오를 듣고 아래 질문에 답하세요.
 
 # --questions--
 
 ## --text--
 
-Which of the following questions **is similar** to what you hear in the audio?
+다음 질문 중 오디오에서 들은 내용과 **비슷한** 것은 무엇인가요?
 
 ## --answers--
 
@@ -34,7 +34,7 @@ Which of the following questions **is similar** to what you hear in the audio?
 
 ### --feedback--
 
-This question asks where someone lives.
+이 질문은 누군가가 어디에 사는지 묻습니다.
 
 ---
 
@@ -42,7 +42,7 @@ This question asks where someone lives.
 
 ### --feedback--
 
-This asks for someone's last name.
+이 질문은 누군가의 성을 묻습니다.
 
 ---
 
@@ -50,7 +50,7 @@ This asks for someone's last name.
 
 ### --feedback--
 
-This asks if someone has a nickname.
+이 질문은 누군가 별명이 있는지 묻습니다.
 
 ## --video-solution--
 
@@ -58,16 +58,16 @@ This asks if someone has a nickname.
 
 # --explanation--
 
-Esteban says `¿Cómo te llamas?`. This is one of the most common ways to ask for someone's name in Spanish. Another very common question with the same meaning is:
+Esteban은 `¿Cómo te llamas?`라고 말합니다. 이것은 스페인어로 누군가의 이름을 묻는 가장 일반적인 방법 중 하나입니다. 같은 의미를 가진 또 다른 매우 흔한 질문은 다음과 같습니다:
 
 `¿Cuál es tu nombre?`
 
-Both questions are used in everyday Spanish to ask for a person's name. They are simply structured differently:
+두 질문 모두 일상 스페인어에서 사람의 이름을 묻는 데 사용됩니다. 단지 구조가 다를 뿐입니다:
 
-- `¿Cómo te llamas?` uses the verb `llamarse` (to be called).
-- `¿Cuál es tu nombre?` asks directly for the name as a noun.
+- `¿Cómo te llamas?`는 동사 `llamarse` (호출되다)을 사용합니다.
+- `¿Cuál es tu nombre?`는 이름을 명사로 직접 묻습니다.
 
-In this task, the correct answer is the option that asks for someone's name.
+이 도전 과제에서 정답은 누군가의 이름을 묻는 선택지입니다.
 
 # --scene--
 

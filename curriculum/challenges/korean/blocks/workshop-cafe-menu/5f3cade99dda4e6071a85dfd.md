@@ -7,29 +7,29 @@ dashedName: step-42
 
 # --description--
 
-You will come back to styling the menu in a few steps, but for now, go ahead and add a second `section` element below the first for displaying the desserts offered by the cafe.
+메뉴 스타일링은 몇 단계 후에 다시 다루겠지만, 지금은 카페에서 제공하는 디저트를 표시하기 위해 첫 번째 `section` 요소 아래에 두 번째 `section` 요소를 추가하세요.
 
 # --hints--
 
-You should have an opening `section` tag.
+열린 `section` 태그가 있어야 합니다.
 
 ```js
 assert.lengthOf(code.match(/<section>/ig) ,2);
 ```
 
-You should have a closing `section` tag.
+닫힌 `section` 태그가 있어야 합니다.
 
 ```js
 assert.lengthOf(code.match(/<\/section>/ig) ,2);
 ```
 
-You should not change the existing `main` element.
+기존 `main` 요소는 변경하지 마세요.
 
 ```js
 assert.lengthOf(document.querySelectorAll('main'), 1);
 ```
 
-Your new `section` element should be nested in the `main` element.
+새로운 `section` 요소는 `main` 요소 안에 중첩되어야 합니다.
 
 ```js
 const main = document.querySelector('main');
@@ -74,7 +74,7 @@ assert.lengthOf(sections,2);
           </article>
         </section>
 --fcc-editable-region--
-
+        
 --fcc-editable-region--
       </main>
     </div>

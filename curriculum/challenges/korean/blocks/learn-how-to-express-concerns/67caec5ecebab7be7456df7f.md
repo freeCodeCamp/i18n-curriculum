@@ -1,6 +1,6 @@
 ---
 id: 67caec5ecebab7be7456df7f
-title: Task 130
+title: 작업 130
 challengeType: 19
 dashedName: task-130
 lang: en-US
@@ -10,53 +10,53 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+오디오를 듣고 아래 질문에 답하세요.  
 
 # --questions--
 
 ## --text--
 
-What other issue did the team raise?
+팀이 제기한 다른 문제는 무엇인가요?
 
 ## --answers--
 
-That they receive updates too early.
+업데이트를 너무 일찍 받는다는 점입니다.
 
 ### --feedback--
 
-Maria mentions the exact opposite.
+Maria는 정반대의 내용을 언급합니다.
 
 ---
 
-That they don't want to communicate as much.
+그들이 의사소통을 많이 하고 싶어하지 않는다는 점입니다.
 
 ### --feedback--
 
-Maria doesn't mention the team's willingness to communicate.
+Maria는 팀의 의사소통 의지에 대해 언급하지 않습니다.  
 
 ---
 
-That they often don't hear about changes in time.
+변경 사항을 제때 듣지 못하는 경우가 많다는 점입니다.
 
 ---
 
-That they think too many people are involved in communication.
+의사소통에 너무 많은 사람이 관여한다고 생각한다는 점입니다.
 
 ### --feedback--
 
-Maria does not mention the number of people involved.
+Maria는 관여하는 사람 수에 대해 언급하지 않습니다.
 
 ## --video-solution--
 
-3
+3  
 
 # --explanation--
 
-When you say something `isn't great`, you are softening a negative message (instead of saying `it is bad`, for instance). It makes criticism sound more polite or indirect. Take a look at the following sentences:
+`isn't great`라고 말할 때는 부정적인 메시지를 완화하는 표현입니다 (예를 들어 `it is bad`라고 말하는 대신). 이렇게 하면 비판이 더 공손하거나 간접적으로 들립니다. 다음 문장들을 살펴보세요:
 
-- `The design is bad.` - This is a strong negative statement, which often sounds impolite.
+- `The design is bad.` - 이것은 강한 부정적 진술로, 종종 무례하게 들립니다.
 
-- `The design isn't great. Maybe we can improve it.` - Saying this sound less harsh and more constructive.
+- `The design isn't great. Maybe we can improve it.` - 이렇게 말하면 덜 거칠고 더 건설적으로 들립니다.
 
 # --scene--
 

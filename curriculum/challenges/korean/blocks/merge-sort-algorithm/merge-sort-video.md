@@ -1,6 +1,6 @@
 ---
 id: 698dda7a7932b3cc4b19c935
-title: Merge Sort
+title: 병합 정렬
 challengeType: 11
 videoId: oqcS-Jw8JXM
 dashedName: merge-sort
@@ -8,29 +8,29 @@ dashedName: merge-sort
 
 # --description--
 
-In this video, you will learn about the merge sort algorithm.
+이 영상에서는 병합 정렬 알고리즘에 대해 배우세요. 
 
 # --questions--
 
 ## --text--
 
-What algorithmic strategy is used for the merge sort algorithm?
+병합 정렬 알고리즘에 사용되는 알고리즘 전략은 무엇인가요? 
 
 ## --answers--
 
-Greedy
+탐욕법
 
 ---
 
-Dynamic Programming
+동적 계획법
 
 ---
 
-Divide and Conquer
+분할 정복
 
 ---
 
-Backtracking
+백트래킹 
 
 ## --video-solution--
 

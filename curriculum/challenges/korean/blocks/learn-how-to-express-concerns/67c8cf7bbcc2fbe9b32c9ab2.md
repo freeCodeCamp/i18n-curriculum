@@ -1,6 +1,6 @@
 ---
 id: 67c8cf7bbcc2fbe9b32c9ab2
-title: Task 92
+title: 작업 92
 challengeType: 19
 dashedName: task-92
 lang: en-US
@@ -10,53 +10,53 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+오디오를 듣고 아래 질문에 답하세요.  
 
 # --questions--
 
 ## --text--
 
-What will Maria do with the comments she got from James?
+Maria는 James에게서 받은 주석을 어떻게 할까요?  
 
 ## --answers--
 
-She will ignore them.
+그녀는 무시할 것입니다.  
 
 ### --feedback--
 
-Maria acknowledges James's point and plans to take action.
+Maria는 James의 의견을 인정하고 행동할 계획입니다.
 
 ---
 
-She will tell the team to stop worrying about communication.
+그녀는 팀에게 소통에 대해 걱정하지 말라고 말할 것입니다.
 
 ### --feedback--
 
-Maria wants to improve communication, not dismiss concerns.
+Maria는 우려를 무시하는 것이 아니라 소통을 개선하려고 합니다. 
 
 ---
 
-She will cancel the team's check-ins.
+그녀는 팀의 점검 회의를 취소할 것입니다.
 
 ### --feedback--
 
-Maria does not say she will cancel the check-ins.
+Maria는 점검 회의를 취소하겠다고 말하지 않았습니다.
 
 ---
 
-She will propose having more check-ins to improve communication.
+그녀는 소통을 개선하기 위해 점검 회의를 더 자주 하자고 제안할 것입니다.
 
 ## --video-solution--
 
-4
+4  
 
 # --explanation--
 
-When using the verb `suggest`, use the following verb in the `-ing` form instead of the infinitive. For example:
+동사 `suggest`를 사용할 때는 부정사 대신 `-ing` 형태의 동사를 사용하세요. 예를 들어:
 
-- `She suggested taking a break.` - This means the idea proposed is to take a break.
+- `She suggested taking a break.` - 이는 휴식을 취하자는 제안임을 의미합니다.
 
-- `He suggested starting the meeting earlier to avoid delays.` - This means he proposed beginning the meeting sooner.
+- `He suggested starting the meeting earlier to avoid delays.` - 이는 회의를 더 일찍 시작하자고 제안한 것입니다.
 
 # --scene--
 

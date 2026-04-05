@@ -1,13 +1,13 @@
 ---
 id: 672bc4ff5e7a4bbdee8ba013
-title: What Are Named Colors in CSS, and When to Use Them?
+title: CSS에서 명명된 색상이란 무엇이며 언제 사용하나요?
 challengeType: 19
 dashedName: what-are-named-colors-in-css
 ---
 
 # --interactive--
 
-In CSS, colors play a crucial role in designing web pages, enhancing readability, setting the mood, and improving user experience. One of the simplest ways to define colors in CSS is by using named colors. Named colors are predefined color names recognized by browsers. Here is an example of using a named color for a paragraph element:
+CSS에서 색상은 웹 페이지 디자인, 가독성 향상, 분위기 설정, 사용자 경험 개선에 중요한 역할을 합니다. CSS에서 색상을 정의하는 가장 간단한 방법 중 하나는 명명된 색상을 사용하는 것입니다. 명명된 색상은 브라우저가 인식하는 미리 정의된 색상 이름입니다. 다음은 단락 요소에 명명된 색상을 사용하는 예시입니다:
 
 :::interactive_editor
 
@@ -24,11 +24,11 @@ p {
 
 :::
 
-In this example, we're using the named color `red` to style the text in a paragraph.
+이 예시에서는 단락 텍스트에 스타일을 적용하기 위해 `red`라는 명명된 색상을 사용하고 있습니다.
 
-Named colors in CSS are a collection of 140 standard color names like `red`, `blue`, `yellow`, `aqua`, `fuchsia`, `black`, and so on. These names are simple to use and make your code more readable, and they are self-descriptive.
+CSS의 명명된 색상은 `red`, `blue`, `yellow`, `aqua`, `fuchsia`, `black` 등과 같은 140개의 표준 색상 이름 모음입니다. 이 이름들은 사용하기 간단하고 코드를 더 읽기 쉽게 하며, 자체적으로 의미를 전달합니다.
 
-Named colors are useful for quick prototyping, simple designs, and improving code readability. Here is an another example of using named colors for an `h1` selector:
+명명된 색상은 빠른 프로토타이핑, 간단한 디자인, 코드 가독성 향상에 유용합니다. 다음은 `h1` 선택자에 명명된 색상을 사용하는 또 다른 예시입니다:
 
 :::interactive_editor
 
@@ -46,47 +46,47 @@ h1 {
 
 :::
 
-In this example, the heading text will be styled in navy, with a light gray background. The readability of the code improves since named colors provide an immediate visual understanding of the intended style.
+이 예시에서는 제목 텍스트가 네이비 색상으로 스타일링되고, 배경은 연한 회색으로 설정됩니다. 명명된 색상은 의도한 스타일을 즉시 시각적으로 이해할 수 있게 해주어 코드 가독성을 높입니다.
 
-Named colors in CSS are convenient but limited, with only 140 available options. They may not offer the precise shade needed for more detailed designs.
+CSS의 명명된 색상은 편리하지만 140가지 옵션으로 제한되어 있습니다. 더 세밀한 디자인에 필요한 정확한 색조를 제공하지 못할 수 있습니다.
 
-Named colors in CSS are a great way to apply colors quickly and descriptively. While they are useful for basic designs, prototyping, and improving code readability, their limited range makes them less suitable for complex designs requiring precise color control.
+CSS의 명명된 색상은 빠르고 설명적으로 색상을 적용하는 좋은 방법입니다. 기본 디자인, 프로토타이핑, 코드 가독성 향상에 유용하지만, 제한된 범위 때문에 정밀한 색상 제어가 필요한 복잡한 디자인에는 적합하지 않습니다.
 
-By understanding the strengths and limitations of named colors, you can determine when it’s best to use them over more detailed color models like RGB or HSL, which you will learn about in future lessons.
+명명된 색상의 장점과 한계를 이해하면, 앞으로 배울 RGB나 HSL 같은 더 상세한 색상 모델보다 언제 명명된 색상을 사용하는 것이 좋은지 판단할 수 있습니다.
 
 # --questions--
 
 ## --text--
 
-What is a key benefit of using named colors in CSS?
+CSS에서 명명된 색상을 사용하는 주요 이점은 무엇인가요?
 
 ## --answers--
 
-Named colors allow you to create gradients.
+명명된 색상은 그라디언트를 만들 수 있게 해줍니다.
 
 ### --feedback--
 
-Think about the simplicity and readability aspect of named colors.
+명명된 색상의 간단함과 가독성 측면을 생각해 보세요.
 
 ---
 
-Named colors are simpler to write and make code more readable.
+명명된 색상은 작성하기 더 간단하고 코드를 더 읽기 쉽게 만듭니다.
 
 ---
 
-Named colors provide a wider range of color options than hex codes.
+명명된 색상은 16진수 코드보다 더 다양한 색상 옵션을 제공합니다.
 
 ### --feedback--
 
-Think about the simplicity and readability aspect of named colors.
+명명된 색상의 간단함과 가독성 측면을 생각해 보세요.
 
 ---
 
-Named colors are the most precise way to define colors in web design.
+명명된 색상은 웹 디자인에서 가장 정밀한 색상 정의 방법입니다.
 
 ### --feedback--
 
-Think about the simplicity and readability aspect of named colors.
+명명된 색상의 간단함과 가독성 측면을 생각해 보세요.
 
 ## --video-solution--
 
@@ -94,35 +94,35 @@ Think about the simplicity and readability aspect of named colors.
 
 ## --text--
 
-In what scenario might named colors not be the best choice?
+어떤 상황에서 명명된 색상이 최선의 선택이 아닐 수 있나요?
 
 ## --answers--
 
-When you need to quickly prototype a design.
+디자인을 빠르게 프로토타이핑해야 할 때.
 
 ### --feedback--
 
-Think about the limitations of named colors in more complex designs.
+복잡한 디자인에서 명명된 색상의 한계를 생각해 보세요.
 
 ---
 
-When your design requires very specific or nuanced shades of color.
+디자인에 매우 구체적이거나 미묘한 색조가 필요할 때.
 
 ---
 
-When your design involves only primary colors.
+디자인에 기본 색상만 포함될 때.
 
 ### --feedback--
 
-Think about the limitations of named colors in more complex designs.
+복잡한 디자인에서 명명된 색상의 한계를 생각해 보세요.
 
 ---
 
-When collaborating with others on a simple project.
+간단한 프로젝트에서 다른 사람과 협업할 때.
 
 ### --feedback--
 
-Think about the limitations of named colors in more complex designs.
+복잡한 디자인에서 명명된 색상의 한계를 생각해 보세요.
 
 ## --video-solution--
 
@@ -130,7 +130,7 @@ Think about the limitations of named colors in more complex designs.
 
 ## --text--
 
-Which of the following is an example of a named color in CSS?
+다음 중 CSS에서 명명된 색상의 예시는 무엇인가요?
 
 ## --answers--
 
@@ -138,7 +138,7 @@ Which of the following is an example of a named color in CSS?
 
 ### --feedback--
 
-Named colors are descriptive words, not numerical codes.
+명명된 색상은 숫자 코드가 아니라 설명적인 단어입니다.
 
 ---
 
@@ -146,7 +146,7 @@ Named colors are descriptive words, not numerical codes.
 
 ### --feedback--
 
-Named colors are descriptive words, not numerical codes.
+명명된 색상은 숫자 코드가 아니라 설명적인 단어입니다.
 
 ---
 
@@ -158,7 +158,7 @@ Named colors are descriptive words, not numerical codes.
 
 ### --feedback--
 
-Named colors are descriptive words, not numerical codes.
+명명된 색상은 숫자 코드가 아니라 설명적인 단어입니다.
 
 ## --video-solution--
 

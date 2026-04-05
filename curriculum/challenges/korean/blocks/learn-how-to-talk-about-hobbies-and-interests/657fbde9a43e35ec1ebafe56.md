@@ -1,6 +1,6 @@
 ---
 id: 657fbde9a43e35ec1ebafe56
-title: Task 77
+title: 작업 77
 challengeType: 19
 dashedName: task-77
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --description--
 
-Listen to the audio and answer the question below.
+오디오를 듣고 아래 질문에 답하세요.
 
 # --questions--
 
 ## --text--
 
-What does the phrase `Would you like to come?` convey in this context?
+이 문맥에서 `Would you like to come?` 구절은 무엇을 전달하나요?
 
 ## --answers--
 
-Declining an invitation.
+초대를 거절하는 것.
 
 ### --feedback--
 
-The phrase doesn't mean saying "no". It is about offering an invitation.
+이 구절은 "아니요"라고 말하는 것이 아닙니다. 초대를 제안하는 내용입니다.
 
 ---
 
-Extending an invitation.
+초대를 하는 것.
 
 ---
 
-Expressing gratitude.
+감사를 표현하는 것.
 
 ### --feedback--
 
-The phrase doesn't mean "thank you". It is about inviting someone.
+이 구절은 "감사합니다"라는 뜻이 아닙니다. 누군가를 초대하는 내용입니다.
 
 ---
 
-Asking for information.
+정보를 요청하는 것.
 
 ### --feedback--
 
-The phrase isn't a question to get information, but a polite invitation to an event.
+이 구절은 정보를 묻는 질문이 아니라 정중하게 이벤트에 초대하는 표현입니다.
 
 ## --video-solution--
 

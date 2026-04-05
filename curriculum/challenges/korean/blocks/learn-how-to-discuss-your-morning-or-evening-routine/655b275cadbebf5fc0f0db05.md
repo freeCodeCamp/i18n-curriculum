@@ -1,6 +1,6 @@
 ---
 id: 655b275cadbebf5fc0f0db05
-title: Task 82
+title: 작업 82
 challengeType: 22
 dashedName: task-82
 lang: en-US
@@ -10,13 +10,13 @@ lang: en-US
 
 # --description--
 
-To `take` can mean different things depending on the situation. In the context of learning, to `take` means to attend or participate in a class or course. For example:
+`take`는 상황에 따라 여러 가지 의미가 될 수 있습니다. 학습 맥락에서 `take`는 수업이나 강좌에 참석하거나 참여하는 것을 의미합니다. 예를 들어:
 
-- `I take online lessons at 7.` - Here, `take` means to attend the lessons.
+- `I take online lessons at 7.` - 여기서 `take`는 수업에 참석하는 것을 의미합니다.
 
-- `She is taking a programming course this semester.` - Here, `taking` means she is enrolled in and attending the course.
+- `She is taking a programming course this semester.` - 여기서 `taking`는 그녀가 강좌에 등록하고 참석하고 있음을 뜻합니다.
 
-So, when you say `take lessons` or `take a course`, you are talking about joining or attending them, not physically taking something.
+따라서 `take lessons` 또는 `take a course`라고 말할 때는 무언가를 물리적으로 가져가는 것이 아니라, 그 수업이나 강좌에 참여하거나 참석하는 것을 말하는 것입니다.
 
 # --fillInTheBlank--
 
@@ -30,7 +30,7 @@ So, when you say `take lessons` or `take a course`, you are talking about joinin
 
 ### --feedback--
 
-This verb describes the action of participating in the lessons.
+이 동사는 수업에 참여하는 행동을 설명합니다.
 
 ---
 
@@ -38,7 +38,7 @@ This verb describes the action of participating in the lessons.
 
 ### --feedback--
 
-This word refers to a virtual environment.
+이 단어는 가상 환경을 가리킵니다.
 
 # --scene--
 

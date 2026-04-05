@@ -1,31 +1,31 @@
 ---
 id: 63eeb8e86becbf1e75c2cb0d
-title: Step 21
+title: 21단계
 challengeType: 0
 dashedName: step-21
 ---
 
 # --description--
 
-You now need a total count of each product that the user has in the cart. Declare a `totalCountPerProduct` variable, and assign it an empty object.
+사용자가 장바구니에 담은 각 제품의 총 개수가 필요합니다. `totalCountPerProduct` 변수를 선언하고 빈 객체를 할당하세요.
 
 # --hints--
 
-You should declare a `totalCountPerProduct` variable in your `addItem` function.
+`totalCountPerProduct` 함수 안에 `addItem` 변수를 선언해야 합니다.
 
 ```js
 const cart = new ShoppingCart();
 assert.match(cart.addItem.toString(), /totalCountPerProduct\s*=/);
 ```
 
-You should use `const` to declare `totalCountPerProduct`.
+`const`를 선언하려면 `totalCountPerProduct`를 사용하세요.
 
 ```js
 const afterAdd = code.split("addItem")[1];
 assert.match(afterAdd, /const\s+totalCountPerProduct\s*=/);
 ```
 
-You should assign an empty object to `totalCountPerProduct`.
+`totalCountPerProduct`에 빈 객체를 할당해야 합니다.
 
 ```js
 const afterAdd = code.split("addItem")[1];

@@ -1,6 +1,6 @@
 ---
 id: 6579cf3ada08bdcfd5eae689
-title: Task 5
+title: 작업 5
 challengeType: 19
 dashedName: task-5
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --description--
 
-In this dialogue, Sophie is making a request to Bob. Understanding the nature of her request is essential for effective team communication and collaboration, especially in technical environments where solving problems together is common.
+이 대화에서 Sophie는 Bob에게 요청을 하고 있습니다. 그녀의 요청 내용을 이해하는 것은 특히 함께 문제를 해결하는 기술 환경에서 효과적인 팀 소통과 협업에 필수적입니다.
 
 # --questions--
 
 ## --text--
 
-What is Sophie asking for in her conversation with Bob?
+Sophie가 Bob과의 대화에서 무엇을 요청하고 있나요?
 
 ## --answers--
 
-She's asking for help with a coding problem
+그녀는 코딩 문제에 대한 도움을 요청하고 있습니다
 
 ---
 
-She wants Bob to solve the problem for her
+그녀는 Bob이 문제를 대신 해결해주길 원합니다
 
 ### --feedback--
 
-Sophie is asking for help, not necessarily for Bob to solve it entirely on his own.
+Sophie는 도움을 요청하고 있을 뿐, Bob이 혼자서 문제를 완전히 해결하길 바라는 것은 아닙니다.
 
 ---
 
-She is offering to help Bob with a problem
+그녀는 Bob에게 문제 해결을 제안하고 있습니다
 
 ### --feedback--
 
-Sophie is the one requesting assistance, not offering it.
+Sophie가 도움을 요청하는 쪽이지, 제안하는 쪽이 아닙니다.
 
 ---
 
-She's discussing a future project
+그녀는 미래 프로젝트에 대해 이야기하고 있습니다
 
 ### --feedback--
 
-Sophie's request is about a current coding issue she's facing, not a future project.
+Sophie의 요청은 현재 직면한 코딩 문제에 관한 것이며, 미래 프로젝트에 관한 것이 아닙니다.
 
 ## --video-solution--
 

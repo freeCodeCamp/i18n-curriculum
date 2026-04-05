@@ -1,6 +1,6 @@
 ---
 id: 5e601c0d5ac9d0ecd8b94afe
-title: American British Translator
+title: 미국식 영어와 영국식 영어 번역기
 challengeType: 4
 forumTopicId: 462358
 dashedName: american-british-translator
@@ -8,59 +8,59 @@ dashedName: american-british-translator
 
 # --description--
 
-Build a full-stack JavaScript app that is functionally similar to this: <a href="https://american-british-translator.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://american-british-translator.freecodecamp.rocks/</a>. Working on this project will involve you writing your code using one of the following methods:
+다음과 기능적으로 유사한 풀스택 JavaScript 애플리케이션을 만드세요: <a href="https://american-british-translator.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://american-british-translator.freecodecamp.rocks/</a>. 이 프로젝트를 진행하려면 다음 방법 중 하나를 사용해 코드를 작성해야 합니다:
 
--   Clone <a href="https://github.com/freeCodeCamp/boilerplate-project-american-british-english-translator/" target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete your project locally.
--   Use a site builder of your choice to complete the project. Be sure to incorporate all the files from our GitHub repo.
+- <a href="https://github.com/freeCodeCamp/boilerplate-project-american-british-english-translator/" target="_blank" rel="noopener noreferrer nofollow">이 GitHub 저장소</a>를 클론하여 로컬에서 프로젝트를 완성하세요.
+- 원하는 사이트 빌더를 사용해 프로젝트를 완성하세요. GitHub 저장소의 모든 파일을 반드시 포함해야 합니다.
 
 # --instructions--
 
--   All logic can go into `/components/translator.js`
--   Complete the `/api/translate` route in `/routes/api.js`
--   Create all of the unit/functional tests in `tests/1_unit-tests.js` and `tests/2_functional-tests.js`
--   See the JavaScript files in `/components` for the different spelling and terms your application should translate
--   To run the tests automatically, set `NODE_ENV` to `test` without quotes in the `.env` file
--   To run the tests in the console, use the command `npm run test`.
+- 모든 로직은 `/components/translator.js`에 작성하세요
+- `/api/translate`에서 `/routes/api.js` 라우트를 완성하세요
+- `tests/1_unit-tests.js`와 `tests/2_functional-tests.js`에 단위/기능 테스트를 모두 작성하세요
+- 애플리케이션이 번역해야 하는 다양한 철자와 용어는 `/components`의 JavaScript 파일을 참조하세요
+- 테스트를 자동으로 실행하려면 `NODE_ENV` 파일에서 `test`를 따옴표 없이 `.env`로 설정하세요
+- 콘솔에서 테스트를 실행하려면 `npm run test` 명령어를 사용하세요
 
-Write the following tests in `tests/1_unit-tests.js`:
+`tests/1_unit-tests.js`에 다음 테스트를 작성하세요:
 
--   Translate `Mangoes are my favorite fruit.` to British English
--   Translate `I ate yogurt for breakfast.` to British English
--   Translate `We had a party at my friend's condo.` to British English
--   Translate `Can you toss this in the trashcan for me?` to British English
--   Translate `The parking lot was full.` to British English
--   Translate `Like a high tech Rube Goldberg machine.` to British English
--   Translate `To play hooky means to skip class or work.` to British English
--   Translate `No Mr. Bond, I expect you to die.` to British English
--   Translate `Dr. Grosh will see you now.` to British English
--   Translate `Lunch is at 12:15 today.` to British English
--   Translate `We watched the footie match for a while.` to American English
--   Translate `Paracetamol takes up to an hour to work.` to American English
--   Translate `First, caramelise the onions.` to American English
--   Translate `I spent the bank holiday at the funfair.` to American English
--   Translate `I had a bicky then went to the chippy.` to American English
--   Translate `I've just got bits and bobs in my bum bag.` to American English
--   Translate `The car boot sale at Boxted Airfield was called off.` to American English
--   Translate `Have you met Mrs Kalyani?` to American English
--   Translate `Prof Joyner of King's College, London.` to American English
--   Translate `Tea time is usually around 4 or 4.30.` to American English
--   Highlight translation in `Mangoes are my favorite fruit.`
--   Highlight translation in `I ate yogurt for breakfast.`
--   Highlight translation in `We watched the footie match for a while.`
--   Highlight translation in `Paracetamol takes up to an hour to work.`
+- `Mangoes are my favorite fruit.`을 영국식 영어로 번역하기
+- `I ate yogurt for breakfast.`을 영국식 영어로 번역하기
+- `We had a party at my friend's condo.`을 영국식 영어로 번역하기
+- `Can you toss this in the trashcan for me?`을 영국식 영어로 번역하기
+- `The parking lot was full.`을 영국식 영어로 번역하기
+- `Like a high tech Rube Goldberg machine.`을 영국식 영어로 번역하기
+- `To play hooky means to skip class or work.`을 영국식 영어로 번역하기
+- `No Mr. Bond, I expect you to die.`을 영국식 영어로 번역하기
+- `Dr. Grosh will see you now.`을 영국식 영어로 번역하기
+- `Lunch is at 12:15 today.`을 영국식 영어로 번역하기
+- `We watched the footie match for a while.`을 미국식 영어로 번역하기
+- `Paracetamol takes up to an hour to work.`을 미국식 영어로 번역하기
+- `First, caramelise the onions.`을 미국식 영어로 번역하기
+- `I spent the bank holiday at the funfair.`을 미국식 영어로 번역하기
+- `I had a bicky then went to the chippy.`을 미국식 영어로 번역하기
+- `I've just got bits and bobs in my bum bag.`을 미국식 영어로 번역하기
+- `The car boot sale at Boxted Airfield was called off.`을 미국식 영어로 번역하기
+- `Have you met Mrs Kalyani?`을 미국식 영어로 번역하기
+- `Prof Joyner of King's College, London.`을 미국식 영어로 번역하기
+- `Tea time is usually around 4 or 4.30.`을 미국식 영어로 번역하기
+- `Mangoes are my favorite fruit.`에서 번역 부분 강조하기
+- `I ate yogurt for breakfast.`에서 번역 부분 강조하기
+- `We watched the footie match for a while.`에서 번역 부분 강조하기
+- `Paracetamol takes up to an hour to work.`에서 번역 부분 강조하기
 
-Write the following tests in `tests/2_functional-tests.js`:
+`tests/2_functional-tests.js`에 다음 테스트를 작성하세요:
 
--   Translation with text and locale fields: POST request to `/api/translate`
--   Translation with text and invalid locale field: POST request to `/api/translate`
--   Translation with missing text field: POST request to `/api/translate`
--   Translation with missing locale field: POST request to `/api/translate`
--   Translation with empty text: POST request to `/api/translate`
--   Translation with text that needs no translation: POST request to `/api/translate`
+- 텍스트와 로케일 필드가 있는 번역: `/api/translate`에 POST 요청
+- 텍스트와 잘못된 로케일 필드가 있는 번역: `/api/translate`에 POST 요청
+- 텍스트 필드가 누락된 번역: `/api/translate`에 POST 요청
+- 로케일 필드가 누락된 번역: `/api/translate`에 POST 요청
+- 빈 텍스트가 있는 번역: `/api/translate`에 POST 요청
+- 번역이 필요 없는 텍스트가 있는 번역: `/api/translate`에 POST 요청
 
 # --hints--
 
-You should provide your own project, not the example URL.
+자신만의 프로젝트를 제공해야 하며, 예시 URL을 사용하지 마세요.
 
 ```js
   assert(
@@ -70,7 +70,7 @@ You should provide your own project, not the example URL.
   );
 ```
 
-You can `POST` to `/api/translate` with a body containing `text` with the text to translate and `locale` with either `american-to-british` or `british-to-american`. The returned object should contain the submitted `text` and `translation` with the translated text.
+`POST`를 `/api/translate`에 `text`에 번역할 텍스트를 포함하고 `locale`에 `american-to-british` 또는 `british-to-american`을 포함하는 본문과 함께 요청할 수 있습니다. 반환된 객체는 제출한 `text`과 번역된 텍스트가 포함된 `translation`를 포함해야 합니다.
 
 ```js
   try {
@@ -96,7 +96,7 @@ You can `POST` to `/api/translate` with a body containing `text` with the text t
   }
 ```
 
-The `/api/translate` route should handle the way time is written in American and British English. For example, ten thirty is written as "10.30" in British English and "10:30" in American English. The `span` element should wrap the entire time string, i.e. `<span class="highlight">10:30</span>`.
+`/api/translate` 라우트는 미국식과 영국식 영어에서 시간 표기 방식을 처리해야 합니다. 예를 들어, 10시 30분은 영국식 영어에서 "10.30"으로, 미국식 영어에서 "10:30"으로 표기합니다. `span` 요소는 전체 시간 문자열을 감싸야 하며, 즉 `<span class="highlight">10:30</span>`입니다.
 
 ```js
   try {
@@ -121,7 +121,7 @@ The `/api/translate` route should handle the way time is written in American and
   }
 ```
 
-The `/api/translate` route should also handle the way titles/honorifics are abbreviated in American and British English. For example, Doctor Wright is abbreviated as "Dr Wright" in British English and "Dr. Wright" in American English. See `/components/american-to-british-titles.js` for the different titles your application should handle.
+`/api/translate` 라우트는 미국식과 영국식 영어에서 호칭/경칭의 축약 방식도 처리해야 합니다. 예를 들어, Doctor Wright는 영국식 영어에서 "Dr Wright"로, 미국식 영어에서 "Dr. Wright"로 축약합니다. 애플리케이션이 처리해야 하는 다양한 호칭은 `/components/american-to-british-titles.js`를 참조하세요.
 
 ```js
   try {
@@ -146,7 +146,7 @@ The `/api/translate` route should also handle the way titles/honorifics are abbr
   }
 ```
 
-Wrap any translated spelling or terms with `<span class="highlight">...</span>` tags so they appear in green.
+번역된 철자나 용어는 `<span class="highlight">...</span>` 태그로 감싸 녹색으로 표시되게 하세요.
 
 ```js
   try {
@@ -172,7 +172,7 @@ Wrap any translated spelling or terms with `<span class="highlight">...</span>` 
   }
 ```
 
-If one or more of the required fields is missing, return `{ error: 'Required field(s) missing' }`.
+필수 필드가 하나 이상 누락되면 `{ error: 'Required field(s) missing' }`를 반환하세요.
 
 ```js
   try {
@@ -191,7 +191,7 @@ If one or more of the required fields is missing, return `{ error: 'Required fie
   }
 ```
 
-If `text` is empty, return `{ error: 'No text to translate' }`
+`text`가 비어 있으면 `{ error: 'No text to translate' }`를 반환하세요.
 
 ```js
   try {
@@ -210,7 +210,7 @@ If `text` is empty, return `{ error: 'No text to translate' }`
   }
 ```
 
-If `locale` does not match one of the two specified locales, return `{ error: 'Invalid value for locale field' }`.
+`locale`가 지정된 두 로케일 중 하나와 일치하지 않으면 `{ error: 'Invalid value for locale field' }`를 반환하세요.
 
 ```js
   try {
@@ -230,7 +230,7 @@ If `locale` does not match one of the two specified locales, return `{ error: 'I
   }
 ```
 
-If `text` requires no translation, return `"Everything looks good to me!"` for the `translation` value.
+`text`에 번역이 필요 없으면 `"Everything looks good to me!"`를 `translation` 값으로 반환하세요.
 
 ```js
   try {
@@ -255,7 +255,7 @@ If `text` requires no translation, return `"Everything looks good to me!"` for t
   }
 ```
 
-All 24 unit tests are complete and passing.
+24개의 단위 테스트가 모두 완료되어 통과했습니다.
 
 ```js
   try {
@@ -282,7 +282,7 @@ All 24 unit tests are complete and passing.
   }
 ```
 
-All 6 functional tests are complete and passing.
+6개의 기능 테스트가 모두 완료되어 통과했습니다.
 
 ```js
   try {

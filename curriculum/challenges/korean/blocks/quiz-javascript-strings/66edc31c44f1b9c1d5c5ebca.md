@@ -1,13 +1,13 @@
 ---
 id: 66edc31c44f1b9c1d5c5ebca
-title: JavaScript Strings Quiz
+title: JavaScript 문자열 퀴즈
 challengeType: 8
 dashedName: quiz-javascript-strings
 ---
 
 # --description--
 
-To pass the quiz, you must correctly answer at least 18 of the 20 questions below.
+퀴즈를 통과하려면 아래 20문제 중 최소 18문제를 올바르게 맞히세요.
 
 # --quizzes--
 
@@ -17,29 +17,29 @@ To pass the quiz, you must correctly answer at least 18 of the 20 questions belo
 
 #### --text--
 
-What is the return value for the `includes()` method?
+`includes()` 메서드의 반환값은 무엇인가요?
 
 #### --distractors--
 
-If the substring is found within the string, the method returns the string. Otherwise, it returns `undefined`.
+문자열 내에 부분 문자열이 있으면 메서드는 문자열을 반환합니다. 그렇지 않으면 `undefined`를 반환합니다.
 
 ---
 
-If the substring is found within the string, the method returns `true`. Otherwise, it returns an empty string.
+문자열 내에 부분 문자열이 있으면 메서드는 `true`를 반환합니다. 그렇지 않으면 빈 문자열을 반환합니다.
 
 ---
 
-If the substring is found within the string, the method returns the string. Otherwise, it returns `null`.
+문자열 내에 부분 문자열이 있으면 메서드는 문자열을 반환합니다. 그렇지 않으면 `null`를 반환합니다.
 
 #### --answer--
 
-If the substring is found within the string, the method returns `true`. Otherwise, it returns `false`.
+문자열 내에 부분 문자열이 있으면 메서드는 `true`를 반환합니다. 그렇지 않으면 `false`를 반환합니다.
 
 ### --question--
 
 #### --text--
 
-Which option demonstrates string interpolation?
+어떤 옵션이 문자열 보간을 보여주나요?
 
 #### --distractors--
 
@@ -61,7 +61,7 @@ Which option demonstrates string interpolation?
 
 #### --text--
 
-Which of the following options is the newline character?
+다음 중 줄바꿈 문자는 무엇인가요?
 
 #### --distractors--
 
@@ -83,29 +83,29 @@ Which of the following options is the newline character?
 
 #### --text--
 
-Which of the following statements is correct about strings?
+문자열에 대해 올바른 설명은 무엇인가요?
 
 #### --distractors--
 
-Strings are mutable and can be changed after they are created.
+문자열은 변경 가능하며 생성 후 변경할 수 있습니다.
 
 ---
 
-Strings are non primitive data types.
+문자열은 원시 데이터 타입이 아닙니다.
 
 ---
 
-Strings can only be created using single quotes.
+문자열은 작은따옴표만 사용해 생성할 수 있습니다.
 
 #### --answer--
 
-Strings are immutable.
+문자열은 변경 불가능합니다.
 
 ### --question--
 
 #### --text--
 
-What does ASCII stand for?
+ASCII는 무엇의 약자인가요?
 
 #### --distractors--
 
@@ -127,7 +127,7 @@ American Standard Code for Information Interchange
 
 #### --text--
 
-Which of the following methods extracts a portion of a string and returns a new string?
+다음 중 문자열의 일부를 추출해 새 문자열을 반환하는 메서드는 무엇인가요?
 
 #### --distractors--
 
@@ -149,29 +149,29 @@ Which of the following methods extracts a portion of a string and returns a new 
 
 #### --text--
 
-What is the purpose of the `prompt()` method?
+`prompt()` 메서드의 목적은 무엇인가요?
 
 #### --distractors--
 
-It displays a message in the console.
+콘솔에 메시지를 표시합니다.
 
 ---
 
-It displays an alert box with a message.
+메시지와 함께 경고 상자를 표시합니다.
 
 ---
 
-It displays a confirmation box with a message.
+메시지와 함께 확인 상자를 표시합니다.
 
 #### --answer--
 
-It displays a dialog box that waits for the user input.
+사용자 입력을 기다리는 대화 상자를 표시합니다.
 
 ### --question--
 
 #### --text--
 
-Which of the following is the correct way to access the third character of a string?
+문자열의 세 번째 문자를 접근하는 올바른 방법은 무엇인가요?
 
 #### --distractors--
 
@@ -205,7 +205,7 @@ developer[2];
 
 #### --text--
 
-How can you obtain the ASCII value of the first character in the string `"hello"`?
+문자열 `"hello"`의 첫 번째 문자의 ASCII 값을 얻으려면 어떻게 해야 하나요?
 
 #### --distractors--
 
@@ -227,7 +227,7 @@ How can you obtain the ASCII value of the first character in the string `"hello"
 
 #### --text--
 
-Which method can you use to obtain the character corresponding to an ASCII value?
+ASCII 값에 해당하는 문자를 얻으려면 어떤 메서드를 사용하나요?
 
 #### --distractors--
 
@@ -249,7 +249,7 @@ Which method can you use to obtain the character corresponding to an ASCII value
 
 #### --text--
 
-Which of the following `indexOf` examples will log `-1` to the console?
+다음 `indexOf` 예제 중 콘솔에 `-1`를 출력하는 것은 무엇인가요?
 
 #### --distractors--
 
@@ -283,7 +283,7 @@ console.log(organization.indexOf("c"));
 
 #### --text--
 
-How can you check if the string `"JavaScript"` contains `"Script"`?
+문자열 `"JavaScript"`가 `"Script"`를 포함하는지 어떻게 확인하나요?
 
 #### --distractors--
 
@@ -305,7 +305,7 @@ How can you check if the string `"JavaScript"` contains `"Script"`?
 
 #### --text--
 
-Which of the following extracts the substring `"Script"` from the string `"JavaScript"`?
+문자열 `"Script"`에서 부분 문자열 `"JavaScript"`를 추출하는 방법은 무엇인가요?
 
 #### --distractors--
 
@@ -327,7 +327,7 @@ Which of the following extracts the substring `"Script"` from the string `"JavaS
 
 #### --text--
 
-How do you convert the string `"JavaScript"` to uppercase?
+문자열 `"JavaScript"`를 대문자로 변환하려면 어떻게 해야 하나요?
 
 #### --distractors--
 
@@ -349,7 +349,7 @@ How do you convert the string `"JavaScript"` to uppercase?
 
 #### --text--
 
-How do you convert the string `"JavaScript"` to lowercase?
+문자열 `"JavaScript"`를 소문자로 변환하려면 어떻게 해야 하나요?
 
 #### --distractors--
 
@@ -371,7 +371,7 @@ How do you convert the string `"JavaScript"` to lowercase?
 
 #### --text--
 
-Which of the following will replace `"dogs"` with `"cats"` in the string `"I love dogs"`.
+문자열 `"dogs"`에서 `"cats"`를 `"I love dogs"`로 바꾸려면 어떤 방법을 사용하나요?
 
 #### --distractors--
 
@@ -393,7 +393,7 @@ Which of the following will replace `"dogs"` with `"cats"` in the string `"I lov
 
 #### --text--
 
-Which method is used to repeat a string a specified number of times?
+문자열을 지정한 횟수만큼 반복하려면 어떤 메서드를 사용하나요?
 
 #### --distractors--
 
@@ -415,7 +415,7 @@ Which method is used to repeat a string a specified number of times?
 
 #### --text--
 
-What will the following code return: `"abc".repeat(3)`?
+다음 코드는 무엇을 반환하나요: `"abc".repeat(3)`?
 
 #### --distractors--
 
@@ -427,7 +427,7 @@ What will the following code return: `"abc".repeat(3)`?
 
 ---
 
-It will throw an error.
+오류를 발생시킵니다.
 
 #### --answer--
 
@@ -437,7 +437,7 @@ It will throw an error.
 
 #### --text--
 
-Which method will remove whitespace from the beginning and end of a string?
+문자열의 앞뒤 공백을 제거하는 메서드는 무엇인가요?
 
 #### --distractors--
 
@@ -459,7 +459,7 @@ Which method will remove whitespace from the beginning and end of a string?
 
 #### --text--
 
-Which of the following is the correct syntax for escaping quotes?
+따옴표를 이스케이프하는 올바른 구문은 무엇인가요?
 
 #### --distractors--
 
@@ -484,4 +484,3 @@ Which of the following is the correct syntax for escaping quotes?
 ```js
 "She said, \"Hello!\""
 ```
-

@@ -1,6 +1,6 @@
 ---
 id: 679d3cfdaca2eb81f8d81cf7
-title: Task 97
+title: 작업 97
 challengeType: 19
 dashedName: task-97
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+오디오를 듣고 아래 질문에 답하세요.
 
 # --questions--
 
 ## --text--
 
-What is Maria asking James to do?
+Maria가 James에게 무엇을 하라고 요청하고 있나요?
 
 ## --answers--
 
-To fix the problem immediately.
+문제를 즉시 고치라고 요청하는 것.
 
 ### --feedback--
 
-Maria is not asking James to fix the issue right away.
+Maria는 James에게 문제를 바로 고치라고 요청하지 않았습니다.
 
 ---
 
-To report the issue to the client.
+문제를 클라이언트에게 보고하라고 요청하는 것.
 
 ### --feedback--
 
-Maria does not mention informing the client.
+Maria는 클라이언트에게 알리라고 말하지 않았습니다.
 
 ---
 
-To investigate the problem.
+문제를 조사하라고 요청하는 것.
 
 ---
 
-To ignore the problem for now.
+지금은 문제를 무시하라고 요청하는 것.
 
 ### --feedback--
 
-Maria is not asking James to ignore the issue.
+Maria는 James에게 문제를 무시하라고 요청하지 않았습니다.
 
 ## --video-solution--
 
@@ -52,11 +52,11 @@ Maria is not asking James to ignore the issue.
 
 # --explanation--
 
-`Can` is commonly used to make polite requests, asking someone to do something in an informal way. For example:
+`Can`는 누군가에게 정중하게 무언가를 해달라고 비공식적으로 요청할 때 흔히 사용됩니다. 예를 들어:
 
-`Can you send me the report by noon?` - This is a polite way to ask someone to send a report.
+`Can you send me the report by noon?` - 누군가에게 보고서를 보내달라고 정중하게 요청하는 방법입니다.
 
-In this dialogue, Maria is requesting James to investigate the problem.
+이 대화에서 Maria는 James에게 문제를 조사해 달라고 요청하고 있습니다.
 
 # --scene--
 

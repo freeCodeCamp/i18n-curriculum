@@ -1,6 +1,6 @@
 ---
 id: 698dc6467932b3cc4b19c922
-title: Linear and Quadratic Time
+title: 선형 시간과 이차 시간
 challengeType: 11
 videoId: jS7vtk-JLZ0
 dashedName: linear-and-quadratic-time
@@ -8,29 +8,29 @@ dashedName: linear-and-quadratic-time
 
 # --description--
 
-In this video, you will learn about linear and quadratic times.
+이 영상에서는 선형 시간과 이차 시간에 대해 배우세요.
 
 # --questions--
 
 ## --text--
 
-What does quadratic mean?
+이차라는 것은 무엇을 의미하나요?
 
 ## --answers--
 
-An operation raised to the first power.
+1차 거듭제곱된 연산입니다.
 
 ---
 
-An operation raised to the third power.
+3차 거듭제곱된 연산입니다.
 
 ---
 
-An operation raised to the second power.
+2차 거듭제곱된 연산입니다.
 
 ---
 
-An operation raised to the tenth power.
+10차 거듭제곱된 연산입니다.
 
 ## --video-solution--
 

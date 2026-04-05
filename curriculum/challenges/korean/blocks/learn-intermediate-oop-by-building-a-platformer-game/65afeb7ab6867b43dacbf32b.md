@@ -1,31 +1,31 @@
 ---
 id: 65afeb7ab6867b43dacbf32b
-title: Step 10
+title: 10단계
 challengeType: 0
 dashedName: step-10
 ---
 
 # --description--
 
-As you are designing the game, you will need to make sure that the size of the elements in the game are responsive and adapt to different screen sizes.
+게임을 설계할 때, 게임 내 요소들의 크기가 반응형이어야 하며 다양한 화면 크기에 맞게 조정되는지 확인해야 합니다.
 
-Start by creating an arrow function called `proportionalSize` that takes in a `size` parameter.
+먼저 `proportionalSize` 매개변수를 받는 `size`라는 화살표 함수를 만드세요.
 
 # --hints--
 
-`proportionalSize` should be a function.
+`proportionalSize`는 함수여야 합니다.
 
 ```js
 assert.isFunction(proportionalSize);
 ```
 
-Your `proportionalSize` function should use arrow syntax.
+`proportionalSize` 함수는 화살표 함수 구문을 사용해야 합니다.
 
 ```js
 assert.match(code, /const\s+proportionalSize\s*=\s*\(?\s*.*\s*\)?\s*=>/);
 ```
 
-Your `proportionalSize` function should have a `size` parameter.
+`proportionalSize` 함수는 `size` 매개변수를 가져야 합니다.
 
 ```js
 assert.match(code, /const\s+proportionalSize\s*=\s*\(?\s*size\s*\)?\s*=>/);

@@ -1,15 +1,15 @@
 ---
 id: 671a98fbaabfba994e3d9a7c
-title: CSS Variables Review
+title: CSS 변수 검토
 challengeType: 31
 dashedName: review-css-variables
 ---
 
 # --interactive--
 
-## CSS Custom Properties (CSS Variables)
+## CSS 사용자 정의 속성(CSS 변수)
 
-- **Definition**: CSS custom properties, also known as CSS variables, are entities defined by CSS authors that contain specific values to be reused throughout a document. They are a powerful feature that allows for more efficient, maintainable, and flexible stylesheets. Custom properties are particularly useful in creating themeable designs. You can define a set of properties for different themes:
+- **정의**: CSS 사용자 정의 속성, 즉 CSS 변수는 CSS 작성자가 문서 전체에서 재사용할 특정 값을 담기 위해 정의하는 항목입니다. 이는 더 효율적이고 유지 관리가 쉽고 유연한 스타일시트를 만들 수 있게 하는 강력한 기능입니다. 사용자 정의 속성은 특히 테마 디자인을 만들 때 유용합니다. 서로 다른 테마에 대해 속성 집합을 정의할 수 있습니다:
 
 ```css
 :root {
@@ -28,9 +28,9 @@ body {
 }
 ```
 
-## The `@property` Rule
+## `@property` 규칙
 
-- **Definition**: The `@property` rule is a powerful CSS feature that allows developers to define custom properties with greater control over their behavior, including how they animate and their initial values.
+- **정의**: `@property` 규칙은 개발자가 사용자 정의 속성을 더 세밀하게 제어할 수 있게 하는 강력한 CSS 기능으로, 애니메이션 방식과 초기 값 설정 등을 포함합니다.
 
 ```css
 @property --property-name {
@@ -40,10 +40,11 @@ body {
 }
 ```
 
-- **`--property-name`**: This is the name of the custom property you're defining. Like all custom properties, it must start with two dashes. **`syntax`**: This defines the type of the property, which can be things like `<color>`, `<length>`, `<number>`, `<percentage>`, or more complex types.
-- **`inherits`**: This specifies whether the property should inherit its value from its parent element.
-- **`initial-value`**: This sets the default value of the property.
-- **Gradient Example Using the `@property` Rule**: This example creates a gradient that smoothly animates when the element is hovered over.
+- **`--property-name`**: 정의하는 사용자 정의 속성의 이름입니다. 모든 사용자 정의 속성처럼 두 개의 대시로 시작해야 합니다.
+**`syntax`**: 속성의 유형을 정의하며, `<color>`, `<length>`, `<number>`, `<percentage>` 또는 더 복잡한 유형일 수 있습니다.
+- **`inherits`**: 이 속성이 부모 요소로부터 값을 상속받을지 여부를 지정합니다.
+- **`initial-value`**: 속성의 기본값을 설정합니다.
+- **`@property` 규칙을 사용한 그라디언트 예시**: 이 예시는 요소에 마우스를 올렸을 때 부드럽게 애니메이션되는 그라디언트를 만듭니다.
 
 :::interactive_editor
 
@@ -74,7 +75,7 @@ body {
 
 :::
 
-- **Fallbacks**: When using the custom property, you can provide a fallback value using the `var()` function, just as you would with standard custom properties:
+- **대체 수단**: 사용자 정의 속성을 사용할 때, 표준 사용자 정의 속성과 마찬가지로 `var()` 함수를 사용해 대체 수단 값을 제공할 수 있습니다:
 
 ```css
 .button {
@@ -84,4 +85,4 @@ body {
 
 # --assignment--
 
-Review the CSS Variables topics and concepts.
+CSS 변수 주제와 개념을 검토하세요.

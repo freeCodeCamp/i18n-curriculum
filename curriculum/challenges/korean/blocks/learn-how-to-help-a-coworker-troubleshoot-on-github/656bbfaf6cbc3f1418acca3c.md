@@ -1,6 +1,6 @@
 ---
 id: 656bbfaf6cbc3f1418acca3c
-title: Task 6
+title: 작업 6
 challengeType: 22
 dashedName: task-6
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --description--
 
-Listen to the audio and complete the sentence.
+오디오를 듣고 문장을 완성하세요.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence.
 
 ### --feedback--
 
-`What` and `is` are in abbreviated form. Remember to capitalize `What`.
+`What`와 `is`는 축약형입니다. `What`는 대문자로 시작하는 것을 기억하세요.
 
 # --scene--
 

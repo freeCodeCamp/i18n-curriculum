@@ -1,26 +1,26 @@
 ---
 id: 64aaf2aff7f1fc7a550f40cb
-title: Step 36
+title: 36단계
 challengeType: 0
 dashedName: step-36
 ---
 
 # --description--
 
-Now it is time to see your new player drawn on the screen.
+이제 새 플레이어가 화면에 그려지는 것을 확인할 시간입니다.
 
-Start by creating an empty arrow function called `startGame`.
+먼저 `startGame`라는 빈 화살표 함수를 만드세요.
 
 # --hints--
 
 
-`startGame` should be a function
+`startGame`는 함수여야 합니다
 
 ```js
 assert.isFunction(startGame);
 ```
 
-`startGame` should be an arrow function
+`startGame`는 화살표 함수여야 합니다
 
 
 ```js
@@ -199,7 +199,7 @@ class Player {
     ctx.fillStyle = "#99c9ff";
     ctx.fillRect(this.position.x, this.position.y, this.width, this.height);
   }
-
+  
   update() {
     this.draw();
     this.position.x += this.velocity.x;

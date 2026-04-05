@@ -1,6 +1,6 @@
 ---
 id: 698de0ca7932b3cc4b19c938
-title: Ensuring the Correctness of Merge Sort
+title: 병합 정렬의 정확성 보장
 challengeType: 11
 videoId: UHAYHvqxVKY
 dashedName: ensuring-the-correctness-of-merge-sort
@@ -8,29 +8,29 @@ dashedName: ensuring-the-correctness-of-merge-sort
 
 # --description--
 
-In this video, you will learn how to evaluate the merge sort algorithm and determine its correctness.
+이 영상에서는 병합 정렬 알고리즘을 평가하고 그 정확성을 판단하는 방법을 배우세요.
 
 # --questions--
 
 ## --text--
 
-What technique is used in the `verify_sorted` function?
+`verify_sorted` 함수에서 사용된 기법은 무엇인가요?
 
 ## --answers--
 
-recursion
+재귀
 
 ---
 
-dynamic programming
+동적 프로그래밍
 
 ---
 
-iteration
+반복
 
 ---
 
-backtracking
+백트래킹
 
 ## --video-solution--
 

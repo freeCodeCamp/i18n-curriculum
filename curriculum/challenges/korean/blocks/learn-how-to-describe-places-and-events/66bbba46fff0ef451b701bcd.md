@@ -1,6 +1,6 @@
 ---
 id: 66bbba46fff0ef451b701bcd
-title: Task 103
+title: 작업 103
 challengeType: 19
 dashedName: task-103
 lang: en-US
@@ -12,41 +12,41 @@ Sarah: Sure, I'm not busy. What's the problem? -->
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+오디오를 듣고 아래 질문에 답하세요.
 
 # --questions--
 
 ## --text--
 
-Is Sarah available to talk to Tom?
+Sarah가 Tom과 이야기할 수 있나요?
 
 ## --answers--
 
-No, she is busy and doesn't want to know about his problems.
+아니요, 그녀는 바빠서 그의 문제에 관심이 없어요.
 
 ### --feedback--
 
-Sarah says she is not busy.
+Sarah는 자신이 바쁘지 않다고 말합니다.
 
 ---
 
-Yes, she is available and wants to know what's the problem.
+네, 그녀는 시간이 있고 무슨 문제인지 알고 싶어 합니다.
 
 ---
 
-No, she cannot talk right now, she has her own problems.
+아니요, 지금은 이야기할 수 없어요. 그녀도 자신의 문제가 있어요.
 
 ### --feedback--
 
-Sarah mentions that she is not busy.
+Sarah는 자신이 바쁘지 않다고 말합니다.
 
 ---
 
-Yes, but only for a moment because she has her own problems.
+네, 하지만 잠깐만요. 그녀도 자신의 문제가 있기 때문이에요.
 
 ### --feedback--
 
-Sarah doesn't limit the time; she simply states that she is not busy.
+Sarah는 시간을 제한하지 않고 단지 바쁘지 않다고 말합니다.
 
 ## --video-solution--
 
@@ -54,11 +54,11 @@ Sarah doesn't limit the time; she simply states that she is not busy.
 
 # --explanation--
 
-Instead of directly saying she is free, Sarah uses the negative form `I'm not busy` to emphasize that she has time to help.
+Sarah는 자신이 시간이 있다고 직접 말하는 대신 부정형 `I'm not busy`을 사용해 도울 시간이 있음을 강조합니다.
 
-This is a polite and indirect way to offer availability in English, commonly used to make the conversation more tactful.
+이는 영어에서 정중하고 간접적으로 시간을 내줄 수 있음을 표현하는 방법으로, 대화를 더 신중하게 만듭니다.
 
-Her follow-up sentence, `What's the problem?`, confirms she's willing to assist by inviting Tom to explain the issue.
+그녀의 다음 문장 `What's the problem?`은 Tom이 문제를 설명하도록 초대하며 도울 의사가 있음을 확인시켜 줍니다.
 
 # --scene--
 

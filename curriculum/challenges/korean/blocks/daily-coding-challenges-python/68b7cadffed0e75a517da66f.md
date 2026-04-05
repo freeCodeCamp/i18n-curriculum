@@ -7,10 +7,10 @@ dashedName: challenge-50
 
 # --description--
 
-Given a sentence, return the longest word in the sentence.
+문장이 주어지면, 문장에서 가장 긴 단어를 반환하세요.
 
-- Ignore periods (`.`) when determining word length.
-- If multiple words are ties for the longest, return the first one that occurs.
+- 단어 길이를 판단할 때 마침표(`.`)는 무시하세요.
+- 가장 긴 단어가 여러 개라면, 문장에 처음 나오는 단어를 반환하세요.
 
 # --hints--
 

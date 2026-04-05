@@ -7,43 +7,43 @@ dashedName: step-26
 
 # --description--
 
-You haven't written the code to generate the HTML yet, but if a product has already been added to the user's cart then there will be a matching element which you'll need.
+아직 HTML을 생성하는 코드를 작성하지 않았지만, 사용자의 장바구니에 이미 상품이 추가되어 있다면 일치하는 요소가 있을 것입니다.
 
-Use `.getElementById()` to get the matching element - you'll be setting the `id` value to `product-count-for-id${product.id}`, so use a template literal to query that value.
+`.getElementById()`을 사용해 일치하는 요소를 가져오세요 - `id` 값을 `product-count-for-id${product.id}`로 설정할 것이므로, 해당 값을 쿼리할 때 템플릿 리터럴을 사용하세요.
 
-Assign your query to a `currentProductCountSpan` variable.
+쿼리를 `currentProductCountSpan` 변수에 할당하세요.
 
 # --hints--
 
-You should declare a `currentProductCountSpan` variable.
+`currentProductCountSpan` 변수를 선언하세요.
 
 ```js
 const cart = new ShoppingCart();
 assert.match(cart.addItem.toString(), /currentProductCountSpan\s*=/);
 ```
 
-You should use `const` to declare `currentProductCountSpan`.
+`const`를 사용해 `currentProductCountSpan`를 선언하세요.
 
 ```js
 const afterAdd = code.split("addItem")[1];
 assert.match(afterAdd, /const\s+currentProductCountSpan\s*=/);
 ```
 
-You should use `document.getElementById()` to get the matching element.
+`document.getElementById()`를 사용해 일치하는 요소를 가져오세요.
 
 ```js
 const cart = new ShoppingCart();
 assert.match(cart.addItem.toString(), /document\.getElementById\(/);
 ```
 
-You should use a template literal to query the `id` value.
+템플릿 리터럴을 사용해 `id` 값을 쿼리하세요.
 
 ```js
 const afterAdd = code.split("addItem")[1];
 assert.match(afterAdd, /document\.getElementById\(\s*`product-count-for-id\$\{(product\.)?id\}`\s*\)/);
 ```
 
-You should assign the value of `document.getElementById()` to `currentProductCountSpan`.
+`document.getElementById()` 값을 `currentProductCountSpan`에 할당하세요.
 
 ```js
 const cart = new ShoppingCart();

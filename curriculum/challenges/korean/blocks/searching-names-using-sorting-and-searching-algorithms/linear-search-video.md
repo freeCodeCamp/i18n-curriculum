@@ -1,6 +1,6 @@
 ---
 id: 698dea367932b3cc4b19c949
-title: Linear Search
+title: 선형 탐색
 challengeType: 11
 videoId: aC9uj1nYJLI
 dashedName: linear-search
@@ -8,29 +8,29 @@ dashedName: linear-search
 
 # --description--
 
-In this video, you will examine how linear search works on a list of names.
+이 영상에서는 이름 목록에서 선형 탐색이 어떻게 작동하는지 살펴보겠습니다.
 
 # --questions--
 
 ## --text--
 
-When might you use linear search over binary search?
+언제 선형 탐색을 이진 탐색 대신 사용하나요?
 
 ## --answers--
 
-When the list is very large and already sorted.
+목록이 매우 크고 이미 정렬되어 있을 때.
 
 ---
 
-If you need logarithmic time complexity.
+로그 시간 복잡도가 필요할 때.
 
 ---
 
-If you know the list is unsorted.
+목록이 정렬되어 있지 않다는 것을 알 때.
 
 ---
 
-When you can repeatedly divide the dataset in half.
+데이터셋을 반복해서 반으로 나눌 수 있을 때.
 
 ## --video-solution--
 

@@ -1,11 +1,10 @@
 ---
 id: 66df6aad5cfef4692e2e2a5a
-title: Task 74
+title: 작업 74
 challengeType: 22
 dashedName: task-74
 lang: en-US
 ---
-
 <!--
 AUDIO REFERENCE:
 Linda: Not yet, but I anticipate we'll start receiving more detailed reports as more users navigate the updated interface.
@@ -13,7 +12,7 @@ Linda: Not yet, but I anticipate we'll start receiving more detailed reports as 
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+오디오를 듣고 아래 문장을 완성하세요.
 
 # --fillInTheBlank--
 
@@ -27,7 +26,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-A word that shows two actions happening at the same time or one action depending on another.
+두 가지 행동이 동시에 일어나거나 한 행동이 다른 행동에 의존함을 나타내는 단어입니다.
 
 ---
 
@@ -35,7 +34,7 @@ A word that shows two actions happening at the same time or one action depending
 
 ### --feedback--
 
-A word that indicates a greater quantity or number.
+더 많은 양이나 수를 나타내는 단어입니다.
 
 ---
 
@@ -43,7 +42,7 @@ A word that indicates a greater quantity or number.
 
 ### --feedback--
 
-A word that refers to the people navigating the updated interface.
+업데이트된 인터페이스를 탐색하는 사람들을 가리키는 단어입니다.
 
 ---
 
@@ -51,15 +50,15 @@ A word that refers to the people navigating the updated interface.
 
 ### --feedback--
 
-A word that means to move around or through something, such as a website or an app.
+웹사이트나 앱 같은 것을 돌아다니거나 통과하는 것을 의미하는 단어입니다.
 
 # --explanation--
 
-`As` can be used to mean "while" or "when", showing that one action will happen while another action is taking place. For example:
+`As`는 "while" 또는 "when"의 의미로 사용되어 한 행동이 일어나는 동안 다른 행동이 일어남을 나타낼 수 있습니다. 예를 들어:
 
-- `As I was walking home, they called me.` - They called you while you were walking home.
+- `As I was walking home, they called me.` - 그들은 당신이 집에 걸어가는 동안 전화했어요.
 
-- `You will get better at coding as you practice more.` - You will improve while or when you practice more.
+- `You will get better at coding as you practice more.` - 연습을 더 하면 실력이 향상될 거예요. 
 
 # --scene--
 

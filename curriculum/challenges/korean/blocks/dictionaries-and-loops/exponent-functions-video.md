@@ -1,6 +1,6 @@
 ---
 id: a4cfb218d22efcfa7cc49d80
-title: Exponent Functions
+title: 지수 함수
 challengeType: 11
 videoId: KLDvy0wFFX4
 dashedName: exponent-functions
@@ -8,29 +8,29 @@ dashedName: exponent-functions
 
 # --description--
 
-In this video, you will learn how to write a function that calculates exponents and powers in Python.
+이 영상에서는 Python에서 지수와 거듭제곱을 계산하는 함수를 작성하는 방법을 배우세요.
 
 # --questions--
 
 ## --text--
 
-What does the `range()` function in Python do?
+Python에서 `range()` 함수는 무엇을 하나요?
 
 ## --answers--
 
-It returns a number from a list.
+목록에서 숫자를 반환합니다.
 
 ---
 
-It creates a list of random numbers.
+무작위 숫자 목록을 만듭니다.
 
 ---
 
-It generates a sequence of integers between a starting and stopping point.
+시작점과 끝점 사이의 정수 수열을 생성합니다.
 
 ---
 
-It generates a sequence of floats between a starting and stopping point.
+시작점과 끝점 사이의 실수 수열을 생성합니다.
 
 ## --video-solution--
 

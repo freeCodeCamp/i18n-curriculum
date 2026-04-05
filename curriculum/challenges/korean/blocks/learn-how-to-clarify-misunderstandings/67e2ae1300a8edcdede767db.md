@@ -1,6 +1,6 @@
 ---
 id: 67e2ae1300a8edcdede767db
-title: Task 4
+title: 작업 4
 challengeType: 22
 dashedName: task-4
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+오디오를 듣고 아래 문장을 완성하세요.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This verb is used when someone wants to get information or permission.
+이 동사는 누군가가 정보를 얻거나 허락을 구할 때 사용합니다.
 
 ---
 
@@ -32,17 +32,17 @@ This verb is used when someone wants to get information or permission.
 
 ### --feedback--
 
-This preposition connects related topic or subject.
+이 전치사는 관련된 주제나 대상을 연결합니다.
 
 # --explanation--
 
-`Ask about` means to request information related to a specific topic. For example:
+`Ask about`는 특정 주제와 관련된 정보를 요청하는 것을 의미합니다. 예를 들어:
 
-`I asked about the new feature.` – You wanted information on the feature.
+`I asked about the new feature.` – 기능에 대한 정보를 원했습니다.
 
-`Can I ask you about...` is a polite way to start a question when you want information or help. It shows that you're asking for permission to talk about a specific topic. For example:
+`Can I ask you about...`는 정보를 원하거나 도움을 요청할 때 정중하게 질문을 시작하는 방법입니다. 특정 주제에 대해 이야기할 허락을 구하는 표현입니다. 예를 들어:
 
-`Can I ask you about the project deadline?` – This means you want to talk about the deadline and get more details.
+`Can I ask you about the project deadline?` – 마감일에 대해 이야기하고 더 자세한 내용을 알고 싶다는 뜻입니다.
 
 # --scene--
 

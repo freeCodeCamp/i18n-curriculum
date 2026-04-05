@@ -1,31 +1,31 @@
 ---
 id: 6406adbca6b41d3d7cef85ab
-title: Step 5
+title: 5단계
 challengeType: 0
 dashedName: step-5
 ---
 
 # --description--
 
-Back in your `sortInputArray` function, you need to get the values from your `select` elements. Since they all have the class `values-dropdown`, you can query them all at once.
+`sortInputArray` 함수로 돌아가서 `select` 요소들의 값을 가져와야 합니다. 이 요소들은 모두 `values-dropdown` 클래스를 가지고 있으므로 한 번에 모두 쿼리할 수 있습니다.
 
-Use `document.getElementsByClassName()` to get all the elements with this class by passing in the argument `"values-dropdown"`. Assign that to an `inputValues` variable with `const`.
+`document.getElementsByClassName()`를 사용해 인수로 `"values-dropdown"`를 전달하여 이 클래스를 가진 모든 요소를 가져오세요. 그리고 `inputValues`를 사용해 `const` 변수에 할당하세요.
 
 # --hints--
 
-You should use `document.getElementsByClassName()` to get all the elements with the class `"values-dropdown"`.
+`document.getElementsByClassName()`를 사용해 `"values-dropdown"` 클래스를 가진 모든 요소를 가져와야 합니다.
 
 ```js
 assert.match(sortInputArray.toString(), /document\.getElementsByClassName\(\s*('|"|`)values-dropdown\1\s*\)/);
 ```
 
-You should assign the result of `document.getElementsByClassName()` to a variable named `inputValues`.
+`document.getElementsByClassName()`의 결과를 `inputValues`이라는 변수에 할당해야 합니다.
 
 ```js
 assert.match(sortInputArray.toString(), /inputValues\s*=\s*document\.getElementsByClassName\(\s*('|"|`)values-dropdown\1\s*\)/);
 ```
 
-You should use `const` to declare `inputValues`.
+`const`를 사용해 `inputValues`를 선언해야 합니다.
 
 ```js
 assert.match(code, /const\s+inputValues\s*=\s*document\.getElementsByClassName\(\s*('|"|`)values-dropdown\1\s*\)/);

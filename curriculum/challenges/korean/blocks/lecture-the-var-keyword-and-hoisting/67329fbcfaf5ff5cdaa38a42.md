@@ -1,17 +1,17 @@
 ---
 id: 67329fbcfaf5ff5cdaa38a42
-title: What Is the var Keyword, and Why Is It No Longer Suggested to Use It?
+title: "var 키워드란 무엇이며, 왜 더 이상 사용을 권장하지 않을까요?"
 challengeType: 19
 dashedName: what-is-the-var-keyword-and-why-is-it-no-longer-suggested-to-use-it
 ---
 
 # --interactive--
 
-The `var` keyword in JavaScript is one of the original ways to declare variables. It has been part of the language since its inception and for many years it remained the primary method for creating variables. However as JavaScript evolved and developers gained more experience with the language, certain drawbacks of using `var` became apparent leading to the introduction of `let` and `const` in 2015.
+JavaScript에서 `var` 키워드는 변수를 선언하는 원래 방법 중 하나입니다. 이 키워드는 언어가 처음 만들어질 때부터 포함되어 있었고, 오랫동안 변수를 만드는 주요 방법으로 사용되었습니다. 하지만 JavaScript가 발전하고 개발자들이 언어에 익숙해지면서 `var` 사용의 단점이 드러났고, 2015년에 `let`와 `const`가 도입되었습니다.
 
-When you declare a variable with `var`, it becomes function-scoped or globally-scoped. This means that if you declare a variable inside a function using `var` it's only accessible within that function. However if you declare it outside any function, it becomes a global variable accessible throughout your entire script. This behavior can sometimes lead to unexpected results and make your code harder to understand.
+`var`로 변수를 선언하면 함수 범위(function-scoped) 또는 전역 범위(global-scoped)를 갖게 됩니다. 즉, 함수 내부에서 `var`로 변수를 선언하면 그 함수 내에서만 접근할 수 있습니다. 하지만 함수 외부에서 선언하면 전역 변수로서 전체 스크립트에서 접근할 수 있습니다. 이런 동작은 때때로 예상치 못한 결과를 낳고 코드를 이해하기 어렵게 만듭니다.
 
-A problem with `var` is that it allows you to redeclare the same variable multiple times without throwing an error. This can lead to accidental overwrites and make debugging more difficult.
+`var`의 문제점 중 하나는 같은 변수를 여러 번 재선언해도 오류를 발생시키지 않는다는 점입니다. 이로 인해 실수로 덮어쓰기가 발생하고 디버깅이 더 어려워질 수 있습니다.
 
 :::interactive_editor
 
@@ -26,7 +26,7 @@ console.log(num); // 10
 
 :::
 
-The most significant issue with `var` is its lack of block scoping. Variables declared with `var` inside a block like an `if` statement or a `for` loop are still accessible outside that block.
+`var`의 가장 큰 문제는 블록 범위(block scoping)가 없다는 점입니다. `var`로 선언된 변수는 `if` 문이나 `for` 반복문 같은 블록 내부에 있어도 그 블록 외부에서 여전히 접근할 수 있습니다.
 
 :::interactive_editor
 
@@ -39,47 +39,47 @@ console.log(num); // 5
 
 :::
 
-This behavior can lead to unintended variable leaks and make your code more prone to bugs.
+이런 동작은 의도치 않은 변수 누출을 일으키고 코드가 버그에 더 취약해지게 만듭니다.
 
-Due to these issues, modern JavaScript development has largely moved away from `var` in favor of `let` and `const`. These keywords provide block scoping which aligns more closely with how scoping works in many other programming languages.
+이러한 문제들 때문에 현대 JavaScript 개발에서는 `var` 대신 `let`와 `const`를 주로 사용합니다. 이 키워드들은 블록 범위를 제공하여 많은 다른 프로그래밍 언어의 범위 규칙과 더 잘 맞습니다.
 
-They also don't allow redeclaration within the same scope helping to prevent accidental overrides.
+또한 같은 범위 내에서 재선언을 허용하지 않아 실수로 덮어쓰는 일을 방지합니다.
 
-While `var` is still part of JavaScript and works in all browsers, it's generally recommended to use `let` and `const` in modern JavaScript development. They provide clear scoping rules, help prevent common pitfalls, and make your code's behavior more predictable.
+`var`는 여전히 JavaScript의 일부이며 모든 브라우저에서 작동하지만, 현대 JavaScript 개발에서는 `let`와 `const`를 사용하는 것이 일반적으로 권장됩니다. 이들은 명확한 범위 규칙을 제공하고, 흔한 실수를 막으며, 코드 동작을 더 예측 가능하게 만듭니다.
 
 # --questions--
 
 ## --text--
 
-What is the scope of a variable declared with `var` outside of any function?
+함수 외부에서 `var`로 선언된 변수의 범위는 무엇인가요?
 
 ## --answers--
 
-Block scope.
+블록 범위.
 
 ### --feedback--
 
-Think about where a `var` variable declared outside a function can be accessed.
+함수 외부에서 선언된 `var` 변수에 어디서 접근할 수 있는지 생각해 보세요.
 
 ---
 
-Function scope.
+함수 범위.
 
 ### --feedback--
 
-Think about where a `var` variable declared outside a function can be accessed.
+함수 외부에서 선언된 `var` 변수에 어디서 접근할 수 있는지 생각해 보세요.
 
 ---
 
-Global scope.
+전역 범위.
 
 ---
 
-Module scope.
+모듈 범위.
 
 ### --feedback--
 
-Think about where a `var` variable declared outside a function can be accessed.
+함수 외부에서 선언된 `var` 변수에 어디서 접근할 수 있는지 생각해 보세요.
 
 ## --video-solution--
 
@@ -87,7 +87,7 @@ Think about where a `var` variable declared outside a function can be accessed.
 
 ## --text--
 
-What will be the output of the following code?
+다음 코드의 출력 결과는 무엇일까요?
 
 ```js
 var x = 10;
@@ -109,7 +109,7 @@ console.log(x);
 
 ### --feedback--
 
-Remember that `var` is function-scoped or globally-scoped, and it allows redeclaration within the same scope.
+`var`는 함수 범위 또는 전역 범위이며, 같은 범위 내에서 재선언을 허용한다는 점을 기억하세요.
 
 ---
 
@@ -127,7 +127,7 @@ Remember that `var` is function-scoped or globally-scoped, and it allows redecla
 
 ### --feedback--
 
-Remember that `var` is function-scoped or globally-scoped, and it allows redeclaration within the same scope.
+`var`는 함수 범위 또는 전역 범위이며, 같은 범위 내에서 재선언을 허용한다는 점을 기억하세요.
 
 ---
 
@@ -138,7 +138,7 @@ Remember that `var` is function-scoped or globally-scoped, and it allows redecla
 
 ### --feedback--
 
-Remember that `var` is function-scoped or globally-scoped, and it allows redeclaration within the same scope.
+`var`는 함수 범위 또는 전역 범위이며, 같은 범위 내에서 재선언을 허용한다는 점을 기억하세요.
 
 ## --video-solution--
 
@@ -146,35 +146,35 @@ Remember that `var` is function-scoped or globally-scoped, and it allows redecla
 
 ## --text--
 
-Which of the following is NOT a reason to avoid using `var` in modern JavaScript?
+다음 중 현대 JavaScript에서 `var` 사용을 피해야 하는 이유가 아닌 것은 무엇인가요?
 
 ## --answers--
 
-`var` allows redeclaration of variables in the same scope.
+`var`는 같은 범위 내에서 변수 재선언을 허용한다.
 
 ### --feedback--
 
-Consider which statement is false about `var`'s behavior or support.
+`var`의 동작이나 지원에 대해 거짓인 설명이 무엇인지 생각해 보세요.
 
 ---
 
-`var` is not supported in modern browsers.
+`var`는 현대 브라우저에서 지원되지 않는다.
 
 ---
 
-`var` variables are function-scoped, not block-scoped.
+`var` 변수는 함수 범위이며, 블록 범위가 아니다.
 
 ### --feedback--
 
-Consider which statement is false about `var`'s behavior or support.
+`var`의 동작이나 지원에 대해 거짓인 설명이 무엇인지 생각해 보세요.
 
 ---
 
-`var` variables are hoisted.
+`var` 변수는 호이스팅된다.
 
 ### --feedback--
 
-Consider which statement is false about `var`'s behavior or support.
+`var`의 동작이나 지원에 대해 거짓인 설명이 무엇인지 생각해 보세요.
 
 ## --video-solution--
 

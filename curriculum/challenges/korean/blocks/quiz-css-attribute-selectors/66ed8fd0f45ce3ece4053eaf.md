@@ -1,13 +1,13 @@
 ---
 id: 66ed8fd0f45ce3ece4053eaf
-title: CSS Attribute Selectors Quiz
+title: CSS 속성 선택자 퀴즈
 challengeType: 8
 dashedName: quiz-css-attribute-selectors
 ---
 
 # --description--
 
-To pass the quiz, you must correctly answer at least 9 of the 10 questions below.
+퀴즈를 통과하려면 아래 10문제 중 최소 9문제를 올바르게 답해야 합니다.
 
 # --quizzes--
 
@@ -17,29 +17,29 @@ To pass the quiz, you must correctly answer at least 9 of the 10 questions below
 
 #### --text--
 
-What are CSS attribute selectors used for?
+CSS 속성 선택자는 무엇에 사용되나요?
 
 #### --distractors--
 
-To apply styles to elements based on their tag name.
+태그 이름을 기준으로 요소에 스타일을 적용할 때 사용합니다.
 
 ---
 
-To apply styles to elements based on their class name.
+클래스 이름을 기준으로 요소에 스타일을 적용할 때 사용합니다.
 
 ---
 
-To apply styles to elements based on their parent element.
+부모 요소를 기준으로 스타일을 적용할 때 사용합니다.
 
 #### --answer--
 
-To apply styles to elements based on their attributes.
+속성을 기준으로 요소에 스타일을 적용할 때 사용합니다.
 
 ### --question--
 
 #### --text--
 
-Which of the following will NOT be selected by this CSS selector?
+다음 중 이 CSS 선택자로 선택되지 않는 것은 무엇인가요?
 
 ```css
 [title~="flower"] {
@@ -75,7 +75,7 @@ Which of the following will NOT be selected by this CSS selector?
 
 #### --text--
 
-Which CSS selector matches all `p` elements with a `lang` attribute set to `"fr"`?
+어떤 CSS 선택자가 `p` 속성이 `lang`로 설정된 모든 `"fr"` 요소와 일치하나요?
 
 #### --distractors--
 
@@ -105,7 +105,7 @@ p[lang="fr"] { color: blue; }
 
 #### --text--
 
-Which CSS selector matches all `a` elements with an `href` attribute?
+어떤 CSS 선택자가 `a` 속성이 있는 모든 `href` 요소와 일치하나요?
 
 #### --distractors--
 
@@ -135,7 +135,7 @@ a[href] { color: blue; }
 
 #### --text--
 
-Which CSS selector matches all ordered lists with uppercase Roman numerals?
+대문자 로마 숫자가 있는 모든 순서 있는 목록과 일치하는 CSS 선택자는 무엇인가요?
 
 #### --distractors--
 
@@ -165,29 +165,29 @@ ol[type="I"] { border-color: black; }
 
 #### --text--
 
-What is the `data-lang` attribute commonly used for?
+`data-lang` 속성은 일반적으로 무엇에 사용되나요?
 
 #### --distractors--
 
-To specify the language of the document.
+문서의 언어를 지정하는 데 사용합니다.
 
 ---
 
-To define the character encoding of the document.
+문서의 문자 인코딩을 정의하는 데 사용합니다.
 
 ---
 
-To set the language of an element based on its parent element.
+부모 요소를 기준으로 요소의 언어를 설정하는 데 사용합니다.
 
 #### --answer--
 
-To apply styles to elements based on this custom data attribute.
+이 사용자 정의 데이터 속성을 기준으로 요소에 스타일을 적용하는 데 사용합니다.
 
 ### --question--
 
 #### --text--
 
-Which CSS selector should you use to style `img` elements only if their `alt` attribute is equal to `"code"`?
+`img` 속성이 `alt`과 같을 때만 `"code"` 요소에 스타일을 적용하려면 어떤 CSS 선택자를 사용해야 하나요?
 
 #### --distractors--
 
@@ -217,7 +217,7 @@ img[alt="code"] { border: 1px solid red; }
 
 #### --text--
 
-Which CSS selector matches ordered lists with a numerical numbering type?
+숫자 번호 매기기 유형을 가진 순서 있는 목록과 일치하는 CSS 선택자는 무엇인가요?
 
 #### --distractors--
 
@@ -247,7 +247,7 @@ ol[type="1"] { color: purple; }
 
 #### --text--
 
-Which of the following CSS selectors would you use to style `a` elements with both `href` and `title` attributes?
+`a`과 `href` 속성을 모두 가진 `title` 요소에 스타일을 적용하려면 어떤 CSS 선택자를 사용해야 하나요?
 
 #### --distractors--
 
@@ -277,7 +277,7 @@ a[href][title] { text-decoration: underline dotted; }
 
 #### --text--
 
-Which CSS selector would you use if you are developing a website for a restaurant and want to style all elements with the `menu-item` class that have a `data-special` attribute?
+레스토랑 웹사이트를 개발 중이며 `menu-item` 속성이 있는 `data-special` 클래스를 가진 모든 요소에 스타일을 적용하려면 어떤 CSS 선택자를 사용해야 하나요?
 
 #### --distractors--
 
@@ -302,4 +302,3 @@ menu-item[data-special] { background-color: blue; }
 ```css
 .menu-item[data-special] { background-color: blue; }
 ```
-

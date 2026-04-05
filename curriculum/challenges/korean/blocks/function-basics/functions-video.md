@@ -1,6 +1,6 @@
 ---
 id: 699dfa14138be64fa3131389
-title: Functions
+title: 함수
 challengeType: 11
 videoId: qyuFN2AKCBw
 dashedName: functions
@@ -8,29 +8,29 @@ dashedName: functions
 
 # --description--
 
-Instructor Dr. Linda Green, a lecturer at the University of North Carolina at Chapel Hill, will teach you the basics of functions.
+노스캐롤라이나 대학교 채플힐 캠퍼스의 강사인 Linda Green 박사가 함수의 기본을 가르쳐 드립니다.
 
 # --questions--
 
 ## --text--
 
-What is the domain of a function?
+함수의 정의역이란 무엇인가요?
 
 ## --answers--
 
-All possible a-values.
+모든 가능한 a값입니다.
 
 ---
 
-All possible y-values.
+모든 가능한 y값입니다.
 
 ---
 
-All possible x-values.
+모든 가능한 x값입니다.
 
 ---
 
-All possible z-values.
+모든 가능한 z값입니다.
 
 ## --video-solution--
 

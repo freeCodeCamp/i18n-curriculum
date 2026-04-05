@@ -1,6 +1,6 @@
 ---
 id: bd7993c9c69feddfaeb8bdef
-title: 자바스크립트 배열을 사용해서 1개의 변수에 여러 개의 값을 넣기
+title: JavaScript 배열을 사용해 하나의 변수에 여러 값을 저장하기
 challengeType: 1
 forumTopicId: 18309
 dashedName: store-multiple-values-in-one-variable-using-javascript-arrays
@@ -8,9 +8,9 @@ dashedName: store-multiple-values-in-one-variable-using-javascript-arrays
 
 # --description--
 
-With JavaScript `array` variables, we can store several pieces of data in one place.
+JavaScript `array` 변수로 여러 데이터를 한곳에 저장할 수 있습니다.
 
-배열을 선언하기 위해서는 다음과 같이, 시작 대괄호를 써서 선언을 시작하고, 각 항목 사이에 쉼표를 넣고, 마지막으로 종료 대괄호를 씁니다.
+배열 선언은 대괄호 여는 기호로 시작해 닫는 기호로 끝내고, 각 항목 사이에 쉼표를 넣어 이렇게 작성합니다:
 
 ```js
 const sandwich = ["peanut butter", "jelly", "bread"];
@@ -18,7 +18,7 @@ const sandwich = ["peanut butter", "jelly", "bread"];
 
 # --instructions--
 
-문자열과 숫자 모두가 (이 순서로) 포함되도록, 새로운 배열 `myArray`를 수정하세요.
+새 배열 `myArray`이 문자열과 숫자(그 순서대로)를 모두 포함하도록 수정하세요.
 
 # --hints--
 

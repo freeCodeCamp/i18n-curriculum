@@ -1,6 +1,6 @@
 ---
 id: 698ddfc37932b3cc4b19c937
-title: Recursively Merging Sublists
+title: 하위 리스트를 재귀적으로 병합하기
 challengeType: 11
 videoId: aLZglY5hO-A
 dashedName: recursively-merging-sublists
@@ -8,29 +8,29 @@ dashedName: recursively-merging-sublists
 
 # --description--
 
-In this video, you will learn more about the merge sort algorithm and see how to recursively merge sublists.
+이 영상에서는 병합 정렬 알고리즘에 대해 더 배우고 하위 리스트를 재귀적으로 병합하는 방법을 살펴봅니다.
 
 # --questions--
 
 ## --text--
 
-What is the purpose of the merge function in the merge sort algorithm?
+병합 정렬 알고리즘에서 병합 함수의 목적은 무엇인가요?
 
 ## --answers--
 
-It combines two sorted sublists into a single sorted list.
+두 개의 정렬된 하위 리스트를 하나의 정렬된 리스트로 결합합니다.
 
 ---
 
-It splits the list into smaller sublists.
+리스트를 더 작은 하위 리스트로 나눕니다.
 
 ---
 
-It selects the largest element from the list.
+리스트에서 가장 큰 요소를 선택합니다.
 
 ---
 
-It reverses the order of the list.
+리스트의 순서를 반대로 바꿉니다.
 
 ## --video-solution--
 

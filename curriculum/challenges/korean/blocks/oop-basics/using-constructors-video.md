@@ -1,6 +1,6 @@
 ---
 id: 69ae96dfa9e6da4eb0d5f7f5
-title: Using Constructors
+title: 생성자 사용하기
 challengeType: 11
 videoId: CDFRHw4SACU
 dashedName: using-constructors
@@ -8,13 +8,13 @@ dashedName: using-constructors
 
 # --description--
 
-In this video, you will learn how to work with constructors in classes.
+이 영상에서는 클래스에서 생성자를 다루는 방법을 배우세요.
 
 # --questions--
 
 ## --text--
 
-Which of the following is the correct way to write a constructor?
+다음 중 생성자를 올바르게 작성한 방법은 무엇인가요?
 
 ## --answers--
 
@@ -63,5 +63,3 @@ class Dog:
 ## --video-solution--
 
 3
-
-

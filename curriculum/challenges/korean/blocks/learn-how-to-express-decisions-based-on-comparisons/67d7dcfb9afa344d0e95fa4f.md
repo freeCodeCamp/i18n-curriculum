@@ -1,6 +1,6 @@
 ---
 id: 67d7dcfb9afa344d0e95fa4f
-title: Task 122
+title: 작업 122
 challengeType: 22
 dashedName: task-122
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+오디오를 듣고 아래 문장을 완성하세요.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This two-word phrase means to cause or result in something happening.
+이 두 단어 구문은 어떤 일이 일어나게 하거나 결과를 초래한다는 뜻입니다.  
 
 ---
 
@@ -32,17 +32,17 @@ This two-word phrase means to cause or result in something happening.
 
 ### --feedback--
 
-This means to make something take longer than expected.
+이것은 어떤 일이 예상보다 오래 걸리게 하거나 지연시키는 것을 의미합니다.  
 
 # --explanation--
 
-`Lead to` means to cause something to happen or result in a certain outcome. For example:
+`Lead to`는 어떤 일이 일어나게 하거나 특정 결과를 초래한다는 뜻입니다. 예를 들어:
 
-`Poor planning can lead to missed deadlines.` – This means that if planning is not done well, deadlines may not be met.
+`Poor planning can lead to missed deadlines.` – 계획이 잘 안 되면 마감일을 맞추지 못할 수도 있다는 의미입니다.  
 
-`Delay` means to make something take longer than expected or to postpone it. For example:
+`Delay`는 어떤 일이 예상보다 오래 걸리게 하거나 연기한다는 뜻입니다. 예를 들어:
 
-`The software release was delayed due to unexpected bugs.` – This means the launch was pushed back because of technical issues.
+`The software release was delayed due to unexpected bugs.` – 기술 문제로 인해 출시가 미뤄졌다는 의미입니다.  
 
 # --scene--
 

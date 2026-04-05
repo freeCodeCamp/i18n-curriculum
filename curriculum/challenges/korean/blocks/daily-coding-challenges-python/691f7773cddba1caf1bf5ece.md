@@ -7,15 +7,15 @@ dashedName: challenge-135
 
 # --description--
 
-Given a string representing the subject line of an email, determine how many times the email has been forwarded or replied to.
+이메일 제목을 나타내는 문자열이 주어졌을 때, 이메일이 몇 번 전달되었거나 회신되었는지 확인하세요.
 
-For simplicity, consider an email forwarded or replied to if the string contains any of the following markers (case-insensitive):
+간단히 하기 위해, 문자열에 다음 표시 중 하나라도 포함되어 있으면 이메일이 전달되었거나 회신된 것으로 간주하세요(대소문자 구분 없음):
 
 - `"fw:"`
 - `"fwd:"`
 - `"re:"`
 
-Return the total number of occurrences of these markers.
+이 표시들의 총 출현 횟수를 반환하세요.
 
 # --hints--
 

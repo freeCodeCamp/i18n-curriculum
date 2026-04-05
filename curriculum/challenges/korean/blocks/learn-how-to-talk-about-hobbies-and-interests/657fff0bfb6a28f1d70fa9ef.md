@@ -1,6 +1,6 @@
 ---
 id: 657fff0bfb6a28f1d70fa9ef
-title: Task 80
+title: 도전 과제 80
 challengeType: 22
 dashedName: task-80
 lang: en-US
@@ -10,9 +10,9 @@ lang: en-US
 
 # --description--
 
-`I appreciate it, but...` is used to express gratitude for an offer or gesture while politely declining or stating a personal limitation or preference.
+`I appreciate it, but...`는 제안을 고마워하면서도 정중하게 거절하거나 개인적인 한계나 선호를 표현할 때 사용합니다.
 
-For example, if your friend offers to help you with coding challenge, and you're thankful but want to try it on your own first, you might say, `I appreciate it, but I want to give it a shot by myself first`.
+예를 들어, 친구가 코딩 도전 과제를 도와주겠다고 제안했는데, 고마우면서도 먼저 혼자 해보고 싶다면 `I appreciate it, but I want to give it a shot by myself first`라고 말할 수 있습니다.
 
 # --fillInTheBlank--
 
@@ -26,7 +26,7 @@ For example, if your friend offers to help you with coding challenge, and you're
 
 ### --feedback--
 
-This word is often used to show thankfulness or gratitude.
+이 단어는 감사나 고마움을 표현할 때 자주 사용합니다.
 
 ---
 
@@ -34,7 +34,7 @@ This word is often used to show thankfulness or gratitude.
 
 ### --feedback--
 
-This word is used to introduce a phrase or clause contrasting with what has already been mentioned.
+이 단어는 이미 언급한 내용과 대조되는 구나 절을 도입할 때 사용합니다.
 
 # --scene--
 

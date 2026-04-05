@@ -1,6 +1,6 @@
 ---
 id: 68feee5abac0c3186f90b3ad
-title: Task 9
+title: 작업 9
 challengeType: 19
 dashedName: task-9
 lang: zh-CN
@@ -10,13 +10,13 @@ lang: zh-CN
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+오디오를 듣고 아래 질문에 답하세요.
 
 # --questions--
 
 ## --text--
 
-Which option is the correct Pinyin for what Wang Hua says?
+Wang Hua가 말하는 내용의 올바른 병음은 어느 것인가요?
 
 ## --answers--
 
@@ -28,7 +28,7 @@ Which option is the correct Pinyin for what Wang Hua says?
 
 ### --feedback--
 
-The tone of the first syllable doesn't match what you hear in the audio.
+첫 음절의 성조가 오디오에서 들리는 것과 일치하지 않습니다.
 
 ---
 
@@ -36,7 +36,7 @@ The tone of the first syllable doesn't match what you hear in the audio.
 
 ### --feedback--
 
-The final of the first syllable is not what she says.
+첫 음절의 운모가 그녀가 말하는 것과 다릅니다.
 
 ---
 
@@ -44,7 +44,7 @@ The final of the first syllable is not what she says.
 
 ### --feedback--
 
-The initial of the second syllable is different from what you hear in the audio.
+두 번째 음절의 초성이 오디오에서 들리는 것과 다릅니다.
 
 ## --video-solution--
 
@@ -52,7 +52,7 @@ The initial of the second syllable is different from what you hear in the audio.
 
 # --explanation--
 
-Wang Hua is saying `míng zi`. The first syllable has a nasal final `ing` and a rising tone. The second syllable is a whole syllable with a neutral tone, pronounced lightly.
+Wang Hua는 `míng zi`라고 말하고 있습니다. 첫 음절은 비음 운모 `ing`와 상승 성조를 가지고 있습니다. 두 번째 음절은 경성으로 가볍게 발음되는 온전한 음절입니다.
 
 # --scene--
 

@@ -1,6 +1,6 @@
 ---
 id: 675e6f0bf7f7eb69ddffef81
-title: Task 68
+title: 작업 68
 challengeType: 22
 dashedName: task-68
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+오디오를 듣고 아래 문장을 완성하세요.
 
 # --fillInTheBlank--
 
@@ -24,13 +24,13 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This phrase of three words means to solve a problem or deal with a difficult situation.
+세 단어로 된 이 구절은 문제를 해결하거나 어려운 상황을 처리한다는 뜻입니다.
 
 # --explanation--
 
-`Sort this out` means to solve or fix a specific problem. It is a casual way of saying `figure out a solution` or `resolve an issue`. The general phrase `sort out` can also be used more broadly for organizing or dealing with problems. For example:
+`Sort this out`는 특정 문제를 해결하거나 고친다는 뜻입니다. 이는 `figure out a solution` 또는 `resolve an issue`를 좀 더 편하게 표현한 말입니다. 일반적인 구절인 `sort out`는 문제를 정리하거나 처리하는 데 더 넓게 사용할 수 있습니다. 예를 들어:
 
-`We need to sort out the issues with the payment system before launch.` - It means you need to fix or resolve the problems with the payment system to ensure everything works correctly before launching it.
+`We need to sort out the issues with the payment system before launch.` - 결제 시스템의 문제를 고치거나 해결해야 모든 것이 제대로 작동하도록 출시 전에 준비한다는 뜻입니다.
 
 # --scene--
 

@@ -1,13 +1,13 @@
 ---
 id: 66ed8fc9f45ce3ece4053eae
-title: CSS Animations Quiz
+title: CSS 애니메이션 퀴즈
 challengeType: 8
 dashedName: quiz-css-animations
 ---
 
 # --description--
 
-To pass the quiz, you must correctly answer at least 18 of the 20 questions below.
+퀴즈를 통과하려면 아래 20문제 중 최소 18문제를 올바르게 답해야 합니다.
 
 # --quizzes--
 
@@ -17,51 +17,51 @@ To pass the quiz, you must correctly answer at least 18 of the 20 questions belo
 
 #### --text--
 
-What is the purpose of the `transform` property in CSS?
+CSS에서 `transform` 속성의 목적은 무엇인가요?
 
 #### --distractors--
 
-To change the visibility of an element.
+요소의 가시성을 변경합니다.
 
 ---
 
-To apply a visual effect to text.
+텍스트에 시각 효과를 적용합니다.
 
 ---
 
-To set the dimensions of an element.
+요소의 크기를 설정합니다.
 
 #### --answer--
 
-To modify the position, size, and shape of an element.
+요소의 위치, 크기, 모양을 수정합니다.
 
 ### --question--
 
 #### --text--
 
-How does the CSS `animation-direction` property affect an animation?
+CSS `animation-direction` 속성은 애니메이션에 어떻게 영향을 미치나요?
 
 #### --distractors--
 
-It specifies if an animation should be repeated.
+애니메이션을 반복할지 지정합니다.
 
 ---
 
-It sets the duration of the animation.
+애니메이션의 지속 시간을 설정합니다.
 
 ---
 
-It defines the speed of the animation.
+애니메이션의 속도를 정의합니다.
 
 #### --answer--
 
-It defines how an animation should play.
+애니메이션이 어떻게 재생될지 정의합니다.
 
 ### --question--
 
 #### --text--
 
-Which CSS property makes an animation run 3 times?
+어떤 CSS 속성이 애니메이션을 3번 실행하게 하나요?
 
 #### --distractors--
 
@@ -83,7 +83,7 @@ Which CSS property makes an animation run 3 times?
 
 #### --text--
 
-Which CSS timing function makes an animation run at a consistent speed from start to end?
+어떤 CSS 타이밍 함수가 애니메이션을 시작부터 끝까지 일정한 속도로 실행하게 하나요?
 
 #### --distractors--
 
@@ -105,95 +105,95 @@ Which CSS timing function makes an animation run at a consistent speed from star
 
 #### --text--
 
-What does the `@keyframes` at-rule define in CSS?
+CSS에서 `@keyframes` @규칙은 무엇을 정의하나요?
 
 #### --distractors--
 
-The colors of a CSS gradient.
+CSS 그라디언트의 색상입니다.
 
 ---
 
-The angles of a CSS rotation.
+CSS 회전의 각도입니다.
 
 ---
 
-The dimensions of an element.
+요소의 크기입니다.
 
 #### --answer--
 
-The stages of a CSS animation.
+CSS 애니메이션의 단계입니다.
 
 ### --question--
 
 #### --text--
 
-What is the purpose of the `translateX()` function in CSS?
+CSS에서 `translateX()` 함수의 목적은 무엇인가요?
 
 #### --distractors--
 
-It changes the opacity of the element.
+요소의 불투명도를 변경합니다.
 
 ---
 
-It rotates the element.
+요소를 회전시킵니다.
 
 ---
 
-It repositions the element vertically.
+요소를 수직으로 재배치합니다.
 
 #### --answer--
 
-It repositions the element horizontally.
+요소를 수평으로 재배치합니다.
 
 ### --question--
 
 #### --text--
 
-Which of the following is NOT a potential concern with CSS animations?
+다음 중 CSS 애니메이션과 관련해 문제가 될 수 없는 것은 무엇인가요?
 
 #### --distractors--
 
-They may cause discomfort or physical harm to certain users.
+특정 사용자에게 불편함이나 신체적 해를 줄 수 있습니다.
 
 ---
 
-Users may find them distracting.
+사용자가 산만하게 느낄 수 있습니다.
 
 ---
 
-Overuse can lead to poor performance.
+과도한 사용은 성능 저하를 초래할 수 있습니다.
 
 #### --answer--
 
-They can enhance user experience.
+사용자 경험을 향상시킬 수 있습니다.
 
 ### --question--
 
 #### --text--
 
-Where is the `@keyframes` at-rule defined?
+`@keyframes` @규칙은 어디에 정의되나요?
 
 #### --distractors--
 
-Within the `body` element of an HTML file.
+HTML 파일의 `body` 요소 내에 있습니다.
 
 ---
 
-Within the `head` element of an HTML file.
+HTML 파일의 `head` 요소 내에 있습니다.
 
 ---
 
-Within a CSS class definition.
+CSS 클래스 정의 내에 있습니다.
 
 #### --answer--
 
-At the top level, outside of any CSS selectors.
+CSS 선택자 밖 최상위에 있습니다.
 
 ### --question--
 
 #### --text--
 
-Which CSS property allows you to pause and resume an animation?
+애니메이션을 일시 정지하고 다시 시작할 수 있게 하는 CSS 속성은 무엇인가요?
 
 #### --distractors--
 
@@ -215,29 +215,29 @@ Which CSS property allows you to pause and resume an animation?
 
 #### --text--
 
-What value should be assigned to the `animation-name` property in CSS?
+CSS에서 `animation-name` 속성에 어떤 값을 할당해야 하나요?
 
 #### --distractors--
 
-The duration of the animation in seconds.
+애니메이션의 지속 시간을 초 단위로 지정합니다.
 
 ---
 
-The timing function used for the animation.
+애니메이션에 사용되는 타이밍 함수를 지정합니다.
 
 ---
 
-The delay before the animation starts in seconds.
+애니메이션 시작 전 지연 시간을 초 단위로 지정합니다.
 
 #### --answer--
 
-The name of the animation defined by the `@keyframes`.
+`@keyframes`에 정의된 애니메이션 이름입니다.
 
 ### --question--
 
 #### --text--
 
-What does this `@keyframe` at-rule do to the animated element?
+이 `@keyframe` @규칙은 애니메이션된 요소에 어떤 동작을 하나요?
 
 ```css
 @keyframes animation {
@@ -252,25 +252,25 @@ What does this `@keyframe` at-rule do to the animated element?
 
 #### --distractors--
 
-It rotates the element 90 degrees clockwise.
+요소를 시계 방향으로 90도 회전시킵니다.
 
 ---
 
-It changes the color of the element to blue.
+요소의 색상을 파란색으로 변경합니다.
 
 ---
 
-It scales the element to 50% of its initial size and then to 100% of its initial size.
+요소를 초기 크기의 50%로 축소했다가 다시 100%로 확대합니다.
 
 #### --answer--
 
-It moves the element horizontally from -50px to 100px, relative to its starting point.
+요소를 시작점 기준으로 수평 방향 -50px에서 100px까지 이동시킵니다.
 
 ### --question--
 
 #### --text--
 
-Which CSS property defines how an animation progresses over time?
+어떤 CSS 속성이 애니메이션이 시간에 따라 어떻게 진행되는지 정의하나요?
 
 #### --distractors--
 
@@ -292,7 +292,7 @@ Which CSS property defines how an animation progresses over time?
 
 #### --text--
 
-Which CSS property is used to specify that an animation should take 5 seconds to complete?
+애니메이션이 5초 동안 실행되도록 지정하는 CSS 속성은 무엇인가요?
 
 #### --distractors--
 
@@ -322,7 +322,7 @@ animation-duration: 5s;
 
 #### --text--
 
-What does `50%` represent in the following CSS `@keyframe` at-rule?
+다음 CSS `50%` @규칙에서 `@keyframe`은 무엇을 나타내나요?
 
 ```css
 @keyframes animation {
@@ -340,69 +340,69 @@ What does `50%` represent in the following CSS `@keyframe` at-rule?
 
 #### --distractors--
 
-The starting point of the animation.
+애니메이션의 시작점입니다.
 
 ---
 
-The ending point of the animation.
+애니메이션의 끝점입니다.
 
 ---
 
-The speed of the animation.
+애니메이션의 속도입니다.
 
 #### --answer--
 
-The halfway point of the animation.
+애니메이션의 중간 지점입니다.
 
 ### --question--
 
 #### --text--
 
-What will happen when the property `transform: translateX(200px);` is applied?
+`transform: translateX(200px);` 속성이 적용되면 어떤 일이 발생하나요?
 
 #### --distractors--
 
-The element will move 200px to the left.
+요소가 왼쪽으로 200px 이동합니다.
 
 ---
 
-The element will move 200px to the bottom.
+요소가 아래쪽으로 200px 이동합니다.
 
 ---
 
-The element will rotate 200 degrees clockwise.
+요소가 시계 방향으로 200도 회전합니다.
 
 #### --answer--
 
-The element will move 200px to the right.
+요소가 오른쪽으로 200px 이동합니다.
 
 ### --question--
 
 #### --text--
 
-How will the animation behave if `animation-iteration-count` is set to `infinite`?
+`animation-iteration-count`가 `infinite`으로 설정되면 애니메이션은 어떻게 동작하나요?
 
 #### --distractors--
 
-It will run once and stop.
+한 번 실행 후 멈춥니다.
 
 ---
 
-It will pause after the first iteration.
+첫 번째 반복 후 일시 정지합니다.
 
 ---
 
-It will stop after three iterations.
+세 번 반복 후 멈춥니다.
 
 #### --answer--
 
-It will repeat indefinitely.
+무한 반복됩니다.
 
 ### --question--
 
 #### --text--
 
-Which `@keyframes` selector specifies the starting point of an animation?
+어떤 `@keyframes` 선택자가 애니메이션의 시작점을 지정하나요?
 
 #### --distractors--
 
@@ -424,29 +424,29 @@ Which `@keyframes` selector specifies the starting point of an animation?
 
 #### --text--
 
-What properties can be specified using the `animation` shorthand CSS property?
+`animation` 축약 CSS 속성으로 지정할 수 있는 것은 무엇인가요?
 
 #### --distractors--
 
-Only the name of the animation.
+애니메이션 이름만 지정합니다.
 
 ---
 
-The name and duration of the animation.
+애니메이션 이름과 지속 시간을 지정합니다.
 
 ---
 
-The name, duration, and delay of the animation.
+애니메이션 이름, 지속 시간, 지연 시간을 지정합니다.
 
 #### --answer--
 
-All animation properties.
+모든 애니메이션 속성을 지정합니다.
 
 ### --question--
 
 #### --text--
 
-Which CSS property is used to apply an animation defined by an `@keyframes` at-rule?
+어떤 CSS 속성이 `@keyframes` @규칙으로 정의된 애니메이션을 적용하나요?
 
 #### --distractors--
 
@@ -468,7 +468,7 @@ Which CSS property is used to apply an animation defined by an `@keyframes` at-r
 
 #### --text--
 
-Which CSS property allows you to set a time before the animation begins?
+애니메이션 시작 전 시간을 설정할 수 있는 CSS 속성은 무엇인가요?
 
 #### --distractors--
 
@@ -492,29 +492,29 @@ Which CSS property allows you to set a time before the animation begins?
 
 #### --text--
 
-What does the CSS `animation-delay` property do?
+CSS `animation-delay` 속성은 무엇을 하나요?
 
 #### --distractors--
 
-Sets how long the animation lasts.
+애니메이션 지속 시간을 설정합니다.
 
 ---
 
-Specifies the timing function.
+타이밍 함수를 지정합니다.
 
 ---
 
-Defines animation direction.
+애니메이션 방향을 정의합니다.
 
 #### --answer--
 
-Delays the start of the animation.
+애니메이션 시작을 지연시킵니다.
 
 ### --question--
 
 #### --text--
 
-Which animation property specifies how the element should be styled before and after the animation?
+어떤 애니메이션 속성이 애니메이션 전후 요소의 스타일을 지정하나요?
 
 #### --distractors--
 
@@ -536,29 +536,29 @@ Which animation property specifies how the element should be styled before and a
 
 #### --text--
 
-Why should CSS animations be used in moderation?
+왜 CSS 애니메이션을 적당히 사용해야 하나요?
 
 #### --distractors--
 
-Too many CSS animations can lead to styles breaking as well as inconsistent styles across different browsers.
+너무 많은 CSS 애니메이션은 스타일이 깨지거나 브라우저마다 스타일이 일관되지 않을 수 있습니다.
 
 ---
 
-Too many CSS animations can lead to lower or non existent rankings in search engine results.
+너무 많은 CSS 애니메이션은 검색 엔진 결과에서 낮거나 없는 순위를 초래할 수 있습니다.
 
 ---
 
-Too many CSS animations will automatically crash the server and increase the likelihood for security risks.
+너무 많은 CSS 애니메이션은 서버를 자동으로 다운시키고 보안 위험을 높입니다.
 
 #### --answer--
 
-Too many CSS animations can lead to poor performance and may be distracting or problematic for users with certain accessibility needs.
+너무 많은 CSS 애니메이션은 성능 저하를 일으키고 특정 접근성 요구가 있는 사용자에게 산만하거나 문제를 일으킬 수 있습니다.
 
 ### --question--
 
 #### --text--
 
-Which animation property determines whether the animation should play forwards, backwards, or alternate?
+어떤 애니메이션 속성이 애니메이션이 앞으로, 뒤로, 또는 교대로 재생될지 결정하나요?
 
 #### --distractors--
 
@@ -580,7 +580,7 @@ Which animation property determines whether the animation should play forwards, 
 
 #### --text--
 
-Which CSS media query detects if the user has requested minimal animations or motion effects?
+어떤 CSS 미디어 쿼리가 사용자가 최소한의 애니메이션 또는 모션 효과를 요청했는지 감지하나요?
 
 #### --distractors--
 
@@ -602,7 +602,7 @@ Which CSS media query detects if the user has requested minimal animations or mo
 
 #### --text--
 
-Which property sets how many times an `animation` repeats?
+어떤 속성이 `animation`가 반복되는 횟수를 설정하나요?
 
 #### --distractors--
 
@@ -624,7 +624,7 @@ Which property sets how many times an `animation` repeats?
 
 #### --text--
 
-Which CSS rule is used to define the stages and styles of an animation at various points during its duration?
+어떤 CSS 규칙이 애니메이션 지속 시간 동안 다양한 시점에서 단계와 스타일을 정의하나요?
 
 #### --distractors--
 
@@ -646,7 +646,7 @@ Which CSS rule is used to define the stages and styles of an animation at variou
 
 #### --text--
 
-Inside the `reduced‑motion` media query, which declaration disables transitions?
+`reduced‑motion` 미디어 쿼리 내에서 어떤 선언이 전환을 비활성화하나요?
 
 #### --distractors--
 
@@ -668,95 +668,95 @@ Inside the `reduced‑motion` media query, which declaration disables transition
 
 #### --text--
 
-What does the `animation-play-state` property allow you to do?
+`animation-play-state` 속성은 무엇을 할 수 있게 하나요?
 
 #### --distractors--
 
-Set how many times the animation repeats.
+애니메이션 반복 횟수를 설정합니다.
 
 ---
 
-Specify how long the animation takes to complete.
+애니메이션 완료까지 걸리는 시간을 지정합니다.
 
 ---
 
-Determine the direction in which the animation plays.
+애니메이션 재생 방향을 결정합니다.
 
 #### --answer--
 
-Pause and resume the animation.
+애니메이션을 일시 정지하고 다시 시작할 수 있습니다.
 
 ### --question--
 
 #### --text--
 
-Which of the following is a good practice when working with animations?
+애니메이션 작업 시 좋은 실천 방법은 무엇인가요?
 
 #### --distractors--
 
-Use as many flashing colors and rapid movements as possible to grab attention.
+주의를 끌기 위해 가능한 한 많은 깜빡이는 색상과 빠른 움직임을 사용하세요.
 
 ---
 
-Avoid testing animations on different devices or screen sizes.
+다양한 기기나 화면 크기에서 애니메이션 테스트를 피하세요.
 
 ---
 
-Make animations last as long as possible to ensure users notice them.
+사용자가 애니메이션을 확실히 인지하도록 가능한 오래 지속되게 만드세요.
 
 #### --answer--
 
-Avoid content that flashes more than three times per second to prevent triggering seizures or causing discomfort.
+발작 유발이나 불편함을 방지하려면 초당 3회 이상 깜빡이는 콘텐츠를 피하세요.
 
 ### --question--
 
 #### --text--
 
-Why is the `!important` declaration used in the CSS rules?
+왜 CSS 규칙에서 `!important` 선언을 사용하나요?
 
 #### --distractors--
 
-To prevent other media queries from loading.
+다른 미디어 쿼리 로딩을 방지하기 위해서입니다.
 
 ---
 
-To limit styles to the first child element.
+첫 번째 자식 요소에만 스타일을 제한하기 위해서입니다.
 
 ---
 
-To debug CSS more easily.
+CSS 디버그를 쉽게 하기 위해서입니다.
 
 #### --answer--
 
-To ensure these rules take precedence over other styles.
+이 규칙들이 다른 스타일보다 우선 적용되도록 하기 위해서입니다.
 
 ### --question--
 
 #### --text--
 
-What does `animation-iteration-count: 1 !important;` ensure in CSS?
+CSS에서 `animation-iteration-count: 1 !important;`은 무엇을 보장하나요?
 
 #### --distractors--
 
-That animations are paused.
+애니메이션이 일시 정지됨을 보장합니다.
 
 ---
 
-That animations run infinitely.
+애니메이션이 무한히 실행됨을 보장합니다.
 
 ---
 
-That animations reverse direction each cycle.
+애니메이션이 매 사이클마다 방향을 반대로 바꿈을 보장합니다.
 
 #### --answer--
 
-That any looping animations only play once.
+반복되는 애니메이션이 한 번만 실행되도록 보장합니다.
 
 ### --question--
 
 #### --text--
 
-What CSS property is used to specify how long an animation should take to complete?
+애니메이션 완료까지 걸리는 시간을 지정하는 CSS 속성은 무엇인가요?
 
 #### --distractors--
 
@@ -778,7 +778,7 @@ What CSS property is used to specify how long an animation should take to comple
 
 #### --text--
 
-Which property is NOT part of the `animation` shorthand?
+`animation` 축약 속성에 포함되지 않는 것은 무엇인가요?
 
 #### --distractors--
 
@@ -800,29 +800,29 @@ Which property is NOT part of the `animation` shorthand?
 
 #### --text--
 
-What does the `@keyframes` rule define?
+`@keyframes` 규칙은 무엇을 정의하나요?
 
 #### --distractors--
 
-The timing function of an animation.
+애니메이션의 타이밍 함수입니다.
 
 ---
 
-The default state of an element.
+요소의 기본 상태입니다.
 
 ---
 
-The media queries for animations.
+애니메이션용 미디어 쿼리입니다.
 
 #### --answer--
 
-The sequence of styles at different points in an animation.
+애니메이션의 다양한 시점에서 스타일 수열입니다.
 
 ### --question--
 
 #### --text--
 
-What does this `@keyframe` at-rule do to the animated element?
+이 `@keyframe` @규칙은 애니메이션된 요소에 어떤 동작을 하나요?
 
 ```css
 @keyframes fade-in {
@@ -837,47 +837,47 @@ What does this `@keyframe` at-rule do to the animated element?
 
 #### --distractors--
 
-It scales the element up from 0% to 100%.
+요소를 0%에서 100%까지 확대합니다.
 
 ---
 
-It moves the element from left to right.
+요소를 왼쪽에서 오른쪽으로 이동시킵니다.
 
 ---
 
-It changes the text color to black.
+텍스트 색상을 검은색으로 변경합니다.
 
 #### --answer--
 
-It makes the element fade in by gradually decreasing its transparency.
+투명도를 점차 줄여 요소가 서서히 나타나게 합니다.
 
 ### --question--
 
 #### --text--
 
-In a keyframes rule, what does `100%` represent?
+키프레임 규칙에서 `100%`은 무엇을 나타내나요?
 
 #### --distractors--
 
-The start of the animation.
+애니메이션 시작입니다.
 
 ---
 
-The halfway point.
+중간 지점입니다.
 
 ---
 
-The easing function.
+이징 함수입니다.
 
 #### --answer--
 
-The end of the animation.
+애니메이션 끝입니다.
 
 ### --question--
 
 #### --text--
 
-Which property controls the pace of an `animation` over its duration?
+어떤 속성이 `animation`의 진행 속도를 제어하나요?
 
 #### --distractors--
 
@@ -899,29 +899,29 @@ Which property controls the pace of an `animation` over its duration?
 
 #### --text--
 
-What should developers consider when implementing animations to maintain accessibility?
+접근성을 유지하며 애니메이션을 구현할 때 개발자가 고려해야 할 점은 무엇인가요?
 
 #### --distractors--
 
-Rely entirely on JavaScript for all animations.
+모든 애니메이션을 전적으로 JavaScript에 의존합니다.
 
 ---
 
-Add frequent and intense animations for impact.
+강렬하고 빈번한 애니메이션을 추가합니다.
 
 ---
 
-Include only bold, fast, and surprising effects.
+굵고 빠르며 놀라운 효과만 포함합니다.
 
 #### --answer--
 
-Use subtle, intentional effects, honor preferences, and offer user control.
+미묘하고 의도적인 효과를 사용하고, 사용자 선호를 존중하며, 사용자 제어를 제공합니다.
 
 ### --question--
 
 #### --text--
 
-Which of the following is the correct syntax to slide an element in from the left?
+왼쪽에서 요소가 슬라이드 인하는 올바른 구문은 무엇인가요?
 
 #### --distractors--
 

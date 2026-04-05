@@ -1,32 +1,32 @@
 ---
 id: 60f85a62fb30c80bcea0cedb
-title: Step 25
+title: 25단계
 challengeType: 0
 dashedName: step-25
 ---
 
 # --description--
 
-Users will be allowed to choose either a `Personal` or `Business`.
+사용자가 `Personal` 또는 `Business` 중 하나를 선택할 수 있게 하세요.
 
-To do this, within each of the first two `label` elements, add one `input` element with `type="radio"`.
+이를 위해, 처음 두 `label` 요소 각각에 `input`를 가진 `type="radio"` 요소를 하나씩 추가하세요.
 
 # --hints--
 
-You should add two `input` elements.
+`input` 요소 두 개를 추가해야 합니다.
 
 ```js
 assert.equal(document.querySelectorAll('fieldset:nth-child(2) input')?.length, 2);
 ```
 
-You should add one `input` to each of the first two `label` elements.
+처음 두 `input` 요소 각각에 `label` 하나를 추가해야 합니다.
 
 ```js
 assert.exists(document.querySelector('fieldset:nth-child(2) > label:nth-child(1) > input'));
 assert.exists(document.querySelector('fieldset:nth-child(2) > label:nth-child(2) > input'));
 ```
 
-You should give both `input` elements a `type` of `radio`.
+두 `input` 요소 모두에 `type` 값을 가진 `radio`를 지정해야 합니다.
 
 ```js
 assert.equal(document.querySelectorAll('fieldset:nth-child(2) input[type="radio"]')?.length, 2);

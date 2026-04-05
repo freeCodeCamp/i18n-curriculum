@@ -7,23 +7,23 @@ dashedName: challenge-134
 
 # --description--
 
-Given an amount of money you have, and an array of items you want to buy, determine how many of them you can afford.
+가지고 있는 금액과 구매하려는 항목들의 배열이 주어졌을 때, 몇 개를 살 수 있는지 결정하세요.
 
-- The given amount will be in the format `["Amount", "Currency Code"]`. For example: `["150.00", "USD"]` or `["6000", "JPY"]`.
-- Each array item you want to purchase will be in the same format.
+- 주어진 금액은 `["Amount", "Currency Code"]` 형식입니다. 예를 들어: `["150.00", "USD"]` 또는 `["6000", "JPY"]`.
+- 구매하려는 각 배열 항목도 같은 형식입니다.
 
-Use the following exchange rates to convert values:
+다음 환율을 사용해 값을 변환하세요:
 
-| Currency | 1 Unit Equals |
-| -------- | ------------- |
-| USD      | 1.00 USD      |
-| EUR      | 1.10 USD      |
-| GBP      | 1.25 USD      |
-| JPY      | 0.0070 USD    |
-| CAD      | 0.75 USD      |
+|통화|1 단위는 다음과 같습니다|
+|-|-|
+|USD|1.00 USD|
+|EUR|1.10 USD|
+|GBP|1.25 USD|
+|JPY|0.0070 USD|
+|CAD|0.75 USD|
 
-- If you can afford all the items in the list, return `"Buy them all!"`.
-- Otherwise, return `"Buy the first X items."`, where `X` is the number of items you can afford when purchased in the order given.
+- 목록에 있는 모든 항목을 살 수 있으면 `"Buy them all!"`를 반환하세요.
+- 그렇지 않으면, `"Buy the first X items."`를 반환하세요. 여기서 `X`는 주어진 순서대로 구매할 때 살 수 있는 항목 수입니다.
 
 
 # --hints--

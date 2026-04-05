@@ -1,6 +1,6 @@
 ---
 id: 69ae9ce3a9e6da4eb0d5f7f8
-title: Understanding Inheritance
+title: 상속 이해하기
 challengeType: 11
 videoId: 5SehMN6vRgA
 dashedName: understanding-inheritance
@@ -8,32 +8,30 @@ dashedName: understanding-inheritance
 
 # --description--
 
-In this video, you will learn about inheritance.
+이 영상에서는 상속에 대해 배우세요.
 
 # --questions--
 
 ## --text--
 
-What is inheritance?
+상속이란 무엇인가요?
 
 ## --answers--
 
-The ability of a child class to acquire the properties and methods of a parent class.
+자식 클래스가 부모 클래스의 속성과 메서드를 획득하는 능력입니다.
 
 ---
 
-A way for an object to automatically delete its parent class’s attributes.
+객체가 부모 클래스의 속성을 자동으로 삭제하는 방법입니다.
 
 ---
 
-A mechanism where a class can only use global variables.
+클래스가 전역 변수만 사용할 수 있는 메커니즘입니다.
 
 ---
 
-The process of copying methods from one object to another unrelated object.
+한 객체에서 다른 관련 없는 객체로 메서드를 복사하는 과정입니다.
 
 ## --video-solution--
 
 1
-
-

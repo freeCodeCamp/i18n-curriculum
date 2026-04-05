@@ -1,65 +1,65 @@
 ---
 id: 67d2ff6f069dce9feacb7d25
-title: What Is Compatibility Testing?
+title: 호환성 테스트란 무엇인가?
 challengeType: 19
 dashedName: what-is-compatibility-testing
 ---
 
 # --description--
 
-When you build out web applications at scale, you will need to think beyond your personal computing environment. How will these applications work on a variety of devices, operating systems, and browsers? Well, this is where compatibility testing comes in.
+대규모로 웹 애플리케이션을 개발할 때는 개인 컴퓨팅 환경을 넘어서 생각해야 합니다. 이러한 애플리케이션이 다양한 기기, 운영체제, 브라우저에서 어떻게 작동할까요? 바로 이때 호환성 테스트가 필요합니다.
 
-The goal of compatibility testing is to see how well your software works in a variety of different computing environments. This provides the team with the ability to catch bugs before they reach production and will help contribute to a smoother product launch.
+호환성 테스트의 목표는 소프트웨어가 다양한 컴퓨팅 환경에서 얼마나 잘 작동하는지 확인하는 것입니다. 이를 통해 팀은 버그가 실제 서비스에 도달하기 전에 발견할 수 있고, 보다 원활한 제품 출시를 도울 수 있습니다.
 
-Different types of compatibility testing include backwards and forwards compatibility, hardware testing, operating systems, networks, browsers, and mobile devices.
+호환성 테스트의 여러 유형에는 이전 버전과의 호환성, 이후 버전과의 호환성, 하드웨어 테스트, 운영체제, 네트워크, 브라우저, 모바일 기기 테스트가 포함됩니다.
 
-Let's take a look at each of the types in more detail by starting with backwards and forwards compatibility. Backwards compatibility refers to when current software is compatible with earlier versions. Forwards compatibility is when software and systems will work with future versions of itself.
+먼저 이전 버전과 이후 버전 호환성부터 자세히 살펴보겠습니다. 이전 버전 호환성은 현재 소프트웨어가 이전 버전과 호환되는 경우를 말합니다. 이후 버전 호환성은 소프트웨어와 시스템이 미래 버전과도 작동하는 경우를 의미합니다.
 
-The next type of testing is for hardware. Hardware compatibility testing focuses on the software's ability to work properly in different hardware configurations. This includes different types of processors, memory, storage, and graphics cards.
+다음은 하드웨어 테스트입니다. 하드웨어 호환성 테스트는 소프트웨어가 다양한 하드웨어 구성에서 제대로 작동하는지에 초점을 맞춥니다. 여기에는 다양한 종류의 프로세서, 메모리, 저장장치, 그래픽 카드가 포함됩니다.
 
-Another type of compatibility testing is for operating systems. You don't want to design software that works smoothly on Mac devices but has bugs on Windows or vice versa. You also need to consider Linux distributions like Ubuntu and Fedora.
+또 다른 호환성 테스트 유형은 운영체제 테스트입니다. Mac 기기에서는 원활히 작동하지만 Windows에서는 버그가 발생하는 소프트웨어를 설계하고 싶지 않을 것입니다. Ubuntu, Fedora 같은 Linux 배포판도 고려해야 합니다.
 
-The next type of testing is network compatibility testing. You will have users working with different network speeds, protocols, security settings, and more. Therefore, software teams will need to be mindful of all of those different conditions when testing.
+다음은 네트워크 호환성 테스트입니다. 사용자는 서로 다른 네트워크 속도, 프로토콜, 보안 설정 등을 사용할 수 있습니다. 따라서 소프트웨어 팀은 테스트할 때 이러한 다양한 조건을 신경 써야 합니다.
 
-Then, there's browser compatibility testing. There are a few popular browsers in the market like Google Chrome, Safari, Firefox, and more. Since all browsers work slightly differently, it's important to test your web application thoroughly and make sure your web applications work consistently across many browsers.
+그다음은 브라우저 호환성 테스트입니다. 시장에는 Google Chrome, Safari, Firefox 등 인기 있는 브라우저가 몇 가지 있습니다. 모든 브라우저가 약간씩 다르게 작동하기 때문에 웹 애플리케이션을 철저히 테스트하고 여러 브라우저에서 일관되게 작동하는지 확인하는 것이 중요합니다.
 
-The last type of testing is mobile testing. There was a time in web development when most developers didn't think about testing for mobile devices. This was because, in the early 2000s, mobile devices weren't nearly as powerful or widely used as they are today. But now, tens of millions of people visit websites on phones and tablets. So, it is important to ensure that your software applications work on a variety of Android and iOS devices.
+마지막 테스트 유형은 모바일 테스트입니다. 웹 개발 초창기인 2000년대 초반에는 대부분 개발자가 모바일 기기 테스트를 고려하지 않았습니다. 당시 모바일 기기는 지금처럼 강력하거나 널리 사용되지 않았기 때문입니다. 하지만 지금은 수천만 명이 휴대폰과 태블릿으로 웹사이트를 방문합니다. 따라서 다양한 Android와 iOS 기기에서 소프트웨어 애플리케이션이 작동하는지 확인하는 것이 중요합니다.
 
-Those are just a few types of testing that you will need to consider when building out your applications. While this might seem like a lot of extra work, it is important to perform compatibility tests because you do want to ensure that your applications work in a variety of computing environments.
+이것들은 애플리케이션을 개발할 때 고려해야 할 몇 가지 테스트 유형에 불과합니다. 다소 번거로워 보여도 호환성 테스트를 수행하는 것이 중요합니다. 다양한 컴퓨팅 환경에서 애플리케이션이 제대로 작동하는지 확인해야 하기 때문입니다.
 
 # --questions--
 
 ## --text--
 
-What is the main goal of compatibility testing?
+호환성 테스트의 주요 목표는 무엇인가요?
 
 ## --answers--
 
-To ensure that your applications have no accessibility errors.
+애플리케이션에 접근성 오류가 없도록 보장하는 것입니다.
 
 ### --feedback--
 
-Refer to the beginning of the lesson where this was discussed.
+수업 초반부를 참고하세요.
 
 ---
 
-To ensure that your applications are free from linting and formatting errors.
+애플리케이션에 린팅 및 포맷팅 오류가 없도록 보장하는 것입니다.
 
 ### --feedback--
 
-Refer to the beginning of the lesson where this was discussed.
+수업 초반부를 참고하세요.
 
 ---
 
-To ensure that your applications work in a variety of computing environments.
+애플리케이션이 다양한 컴퓨팅 환경에서 작동하도록 보장하는 것입니다.
 
 ---
 
-To ensure that your applications only work for different Linux distributions.
+애플리케이션이 오직 다양한 Linux 배포판에서만 작동하도록 보장하는 것입니다.
 
 ### --feedback--
 
-Refer to the beginning of the lesson where this was discussed.
+수업 초반부를 참고하세요.
 
 ## --video-solution--
 
@@ -67,35 +67,35 @@ Refer to the beginning of the lesson where this was discussed.
 
 ## --text--
 
-Which of the following refers to when current software is compatible with earlier versions?
+다음 중 현재 소프트웨어가 이전 버전과 호환되는 경우를 가리키는 것은 무엇인가요?
 
 ## --answers--
 
-CPU compatibility
+CPU 호환성
 
 ### --feedback--
 
-Think about how software will work with older versions.
+소프트웨어가 이전 버전과 어떻게 작동하는지 생각해 보세요.
 
 ---
 
-Accessible compatibility
+접근성 호환성
 
 ### --feedback--
 
-Think about how software will work with older versions.
+소프트웨어가 이전 버전과 어떻게 작동하는지 생각해 보세요.
 
 ---
 
-Forwards compatibility
+이후 버전 호환성
 
 ### --feedback--
 
-Think about how software will work with older versions.
+소프트웨어가 이전 버전과 어떻게 작동하는지 생각해 보세요.
 
 ---
 
-Backwards compatibility
+이전 버전 호환성
 
 ## --video-solution--
 
@@ -103,35 +103,35 @@ Backwards compatibility
 
 ## --text--
 
-Which of the following is NOT typically targeted in compatibility testing?
+다음 중 호환성 테스트에서 일반적으로 대상이 아닌 것은 무엇인가요?
 
 ## --answers--
 
-Mobile operating systems
+모바일 운영체제
 
 ### --feedback--
 
-One of these options refers to computer memory.
+이 옵션들 중 하나는 컴퓨터 메모리를 가리킵니다.
 
 ---
 
-RAM size
+RAM 크기
 
 ---
 
-Hardware configuration
+하드웨어 구성
 
 ### --feedback--
 
-One of these options refers to computer memory.
+이 옵션들 중 하나는 컴퓨터 메모리를 가리킵니다.
 
 ---
 
-Network environments
+네트워크 환경
 
 ### --feedback--
 
-One of these options refers to computer memory.
+이 옵션들 중 하나는 컴퓨터 메모리를 가리킵니다.
 
 ## --video-solution--
 

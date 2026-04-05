@@ -1,6 +1,6 @@
 ---
 id: 69ae6fd0b4a814be6a4f2be0
-title: RAG Architecture
+title: RAG 아키텍처
 challengeType: 11
 videoId: OVn_ykvG4LE
 dashedName: rag-architecture
@@ -8,13 +8,13 @@ dashedName: rag-architecture
 
 # --description--
 
-In this video, you will learn about the architecture of a RAG system.
+이 영상에서는 RAG 시스템의 아키텍처에 대해 배우세요.
 
 # --questions--
 
 ## --text--
 
-Which of the following is the correct pipeline flow for a RAG system?
+다음 중 RAG 시스템의 올바른 파이프라인 흐름은 무엇인가요?
 
 ## --answers--
 
@@ -35,5 +35,3 @@ Chunking → LLM → Vector Database → Embedding
 ## --video-solution--
 
 2
-
-

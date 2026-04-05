@@ -1,6 +1,6 @@
 ---
 id: 698de74b7932b3cc4b19c93c
-title: The Conquer Step
+title: 정복 단계
 challengeType: 11
 videoId: 4-ycdUhn30U
 dashedName: the-conquer-step
@@ -8,29 +8,29 @@ dashedName: the-conquer-step
 
 # --description--
 
-In this video, you will learn to implement the merge sort algorithm on linked lists by practicing the conquer step.
+이 영상에서는 연결 리스트에 병합 정렬 알고리즘을 구현하는 방법을 배우며 정복 단계를 연습합니다.
 
 # --questions--
 
 ## --text--
 
-What is the purpose of the `merge` function in this merge sort implementation?
+이 병합 정렬 구현에서 `merge` 함수의 목적은 무엇인가요?
 
 ## --answers--
 
-The purpose is to split a linked list into smaller sublists for recursive sorting.
+목적은 재귀 정렬을 위해 연결 리스트를 더 작은 하위 리스트로 나누는 것입니다.
 
 ---
 
-The purpose is to select nodes from each list without sorting and combine them.
+목적은 정렬하지 않고 각 리스트에서 노드를 선택해 결합하는 것입니다.
 
 ---
 
-The purpose is to merge two linked list, sorting by data in nodes and returning a new merged list.
+목적은 두 연결 리스트를 노드의 데이터 기준으로 정렬하며 병합해 새로운 리스트를 반환하는 것입니다.
 
 ---
 
-The purpose is to rearrange nodes in a linked list in reverse order and return the result.
+목적은 연결 리스트의 노드를 역순으로 재배열해 결과를 반환하는 것입니다.
 
 ## --video-solution--
 

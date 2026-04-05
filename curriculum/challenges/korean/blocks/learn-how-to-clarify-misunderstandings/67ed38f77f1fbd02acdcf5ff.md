@@ -1,6 +1,6 @@
 ---
 id: 67ed38f77f1fbd02acdcf5ff
-title: Task 53
+title: 작업 53
 challengeType: 22
 dashedName: task-53
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+오디오를 듣고 아래 문장을 완성하세요.
 
 # --fillInTheBlank--
 
@@ -24,13 +24,13 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This two-word phrase is used to ask about what is happening or what the situation is. The first word ends with `-ing`.
+이 두 단어 구문은 무슨 일이 일어나고 있는지, 상황이 어떤지 묻는 데 사용됩니다. 첫 번째 단어는 `-ing`로 끝납니다.
 
 # --explanation--
 
-`What's going on?` is a common way to ask someone what is happening, what the situation is, or what problem or event is taking place. For example:
+`What's going on?`는 누군가에게 무슨 일이 일어나고 있는지, 상황이 어떤지, 어떤 문제나 이벤트가 발생하고 있는지 묻는 일반적인 표현입니다. 예를 들어:
 
-`What's going on at the meeting?` – Someone is asking what is happening during the meeting.
+`What's going on at the meeting?` – 누군가 회의 중에 무슨 일이 일어나고 있는지 묻고 있습니다.
 
 # --scene--
 

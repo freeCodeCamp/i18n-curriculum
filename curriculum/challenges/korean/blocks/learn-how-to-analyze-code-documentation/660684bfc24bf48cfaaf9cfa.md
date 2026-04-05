@@ -1,6 +1,6 @@
 ---
 id: 660684bfc24bf48cfaaf9cfa
-title: Task 8
+title: 작업 8
 challengeType: 22
 dashedName: task-8
 lang: en-US
@@ -10,9 +10,9 @@ lang: en-US
 
 # --description--
 
-`Give it a shot` means to try doing something. It's like saying `Try it`.
+`Give it a shot`는 무언가를 시도해 본다는 뜻입니다. `Try it`라고 말하는 것과 같습니다.
 
-For example, if your friend is hesitant about joining a coding class because they think it might be too difficult, you could say `Why not give it a shot? You might enjoy it more than you think.` to encourage them to try joining this class.
+예를 들어, 친구가 코딩 수업이 너무 어려울 것 같아 망설이고 있다면, 이 수업에 참여해 보라고 격려하며 `Why not give it a shot? You might enjoy it more than you think.`라고 말할 수 있습니다.
 
 # --fillInTheBlank--
 
@@ -26,7 +26,7 @@ For example, if your friend is hesitant about joining a coding class because the
 
 ### --feedback--
 
-It is short for `I will`. Sophie is expressing her decision to try what Brian suggested.
+`I will`의 줄임말입니다. Sophie가 Brian이 제안한 것을 시도해 보겠다는 결정을 표현하고 있습니다.
 
 ---
 
@@ -34,7 +34,7 @@ It is short for `I will`. Sophie is expressing her decision to try what Brian su
 
 ### --feedback--
 
-In this context, it means an attempt or try at doing something. Sophie is saying she will try what Brian has recommended.
+이 문맥에서 시도나 도전을 의미합니다. Sophie가 Brian이 추천한 것을 시도해 보겠다고 말하고 있습니다.
 
 # --scene--
 

@@ -1,15 +1,15 @@
 ---
 id: 5dfa30b9eacea3f48c6300ad
-title: Step 17
+title: 17단계
 challengeType: 0
 dashedName: step-17
 ---
 
 # --description--
 
-In previous steps you used an anchor element to turn text into a link. Other types of content can also be turned into a link by wrapping it in anchor tags.
+이전 단계에서는 텍스트를 링크로 만들기 위해 앵커 요소를 사용했습니다. 다른 유형의 콘텐츠도 앵커 태그로 감싸서 링크로 만들 수 있습니다.
 
-Here is an example of turning an image into a link:
+다음은 이미지를 링크로 만드는 예시입니다:
 
 ```html
 <a href="example-link">
@@ -17,11 +17,11 @@ Here is an example of turning an image into a link:
 </a>
 ```
 
-Turn the image into a link by surrounding it with necessary element tags. Use `https://freecatphotoapp.com` as the anchor's `href` attribute value.
+필요한 요소 태그로 이미지를 감싸서 링크로 만드세요. 앵커의 `https://freecatphotoapp.com` 속성 값으로 `href`를 사용하세요.
 
 # --hints--
 
-You should have an `img` element with a `src` value of `https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg`. You may have accidentally deleted it.
+`img` 값이 `src`인 `https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg` 요소가 있어야 합니다. 실수로 삭제했을 수 있습니다.
 
 ```js
 assert(
@@ -31,37 +31,37 @@ assert(
 );
 ```
 
-Your anchor (`a`) element should have an opening tag. Opening tags have this syntax: `<elementName>`.
+앵커(`a`) 요소에는 여는 태그가 있어야 합니다. 여는 태그 구문은 다음과 같습니다: `<elementName>`.
 
 ```js
 assert(document.querySelectorAll('a').length >= 2);
 ```
 
-You are missing a closing (`a`) tag after the image.
+이미지 뒤에 닫는(`a`) 태그가 없습니다.
 
 ```js
 assert.lengthOf(document.querySelectorAll('a'), 3);
 ```
 
-Your anchor (`a`) element should have a closing tag. Closing tags have a `/` just after the `<` character.
+앵커(`a`) 요소에는 닫는 태그가 있어야 합니다. 닫는 태그는 `/` 문자 바로 뒤에 `<`가 있습니다.
 
 ```js
 assert(code.match(/<\/a>/g).length >= 2);
 ```
 
-You should only add one closing anchor (`a`) tag. Please remove any extras.
+닫는 앵커(`a`) 태그는 하나만 추가해야 합니다. 추가된 태그가 있으면 삭제하세요.
 
 ```js
 assert.lengthOf(code.match(/<\/a>/g), 3);
 ```
 
-Your anchor (`a`) element does not have an `href` attribute. Check that there is a space after the opening tag's name and/or there are spaces before all attribute names.
+앵커(`a`) 요소에 `href` 속성이 없습니다. 여는 태그 이름 뒤에 공백이 있거나 모든 속성 이름 앞에 공백이 있는지 확인하세요.
 
 ```js
 assert(document.querySelector('a').hasAttribute('href'));
 ```
 
-Your anchor (`a`) element should link to `https://freecatphotoapp.com`. You have either omitted the URL or have a typo.
+앵커(`a`) 요소는 `https://freecatphotoapp.com`로 링크해야 합니다. URL을 누락했거나 오타가 있을 수 있습니다.
 
 ```js
 assert(
@@ -70,13 +70,13 @@ assert(
 );
 ```
 
-Your anchor (`a`) element does not have an `href` attribute. Check that there is a space after the opening tag's name and/or there are spaces before all attribute names.
+앵커(`a`) 요소에 `href` 속성이 없습니다. 여는 태그 이름 뒤에 공백이 있거나 모든 속성 이름 앞에 공백이 있는지 확인하세요.
 
 ```js
 assert.isTrue(document.querySelectorAll('a')[2]?.hasAttribute('href'));
 ```
 
-Your anchor (`a`) element should link to `https://freecatphotoapp.com`. You have either omitted the URL or have a typo.
+앵커(`a`) 요소는 `https://freecatphotoapp.com`로 링크해야 합니다. URL을 누락했거나 오타가 있을 수 있습니다.
 
 ```js
 assert.equal(
@@ -85,7 +85,7 @@ assert.equal(
 );
 ```
 
-Your `img` element should be nested within the anchor (`a`) element. The entire `img` element should be inside the opening and closing tags of the anchor (`a`) element.
+`img` 요소는 앵커(`a`) 요소 안에 중첩되어야 합니다. 전체 `img` 요소가 앵커(`a`) 요소의 여는 태그와 닫는 태그 사이에 있어야 합니다.
 
 ```js
 assert(document.querySelector('img').parentNode.nodeName === 'A');
@@ -110,4 +110,3 @@ assert(document.querySelector('img').parentNode.nodeName === 'A');
   </body>
 </html>
 ```
-

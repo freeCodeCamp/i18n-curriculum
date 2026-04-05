@@ -1,6 +1,6 @@
 ---
 id: 698dd14c7932b3cc4b19c92c
-title: Introduction to Data Structures
+title: 자료 구조 소개
 challengeType: 11
 videoId: QIZSbUquPdY
 dashedName: introduction-to-data-structures
@@ -8,29 +8,29 @@ dashedName: introduction-to-data-structures
 
 # --description--
 
-In this video, Treehouse instructor Pasan will talk about what to expect in the data structures portion of this course.
+이 영상에서 Treehouse 강사 Pasan이 이 과정의 자료 구조 부분에서 무엇을 기대할 수 있는지 설명합니다. 
 
 # --questions--
 
 ## --text--
 
-What are the four common operations that will be studied when working with data structures?
+자료 구조를 다룰 때 공부할 네 가지 일반적인 작업은 무엇인가요?
 
 ## --answers--
 
-Accessing values, deleting values, traversing, and sorting.
+값에 접근하기, 값 삭제하기, 순회하기, 정렬하기.
 
 ---
 
-Accessing values, searching, inserting values, and deleting values.
+값에 접근하기, 검색하기, 값 삽입하기, 값 삭제하기.
 
 ---
 
-Searching, merging, splitting, and iterating values.
+검색하기, 병합하기, 분할하기, 값 반복하기.
 
 ---
 
-Inserting values, updating values, printing values, and counting elements.
+값 삽입하기, 값 업데이트하기, 값 출력하기, 요소 세기.
 
 ## --video-solution--
 

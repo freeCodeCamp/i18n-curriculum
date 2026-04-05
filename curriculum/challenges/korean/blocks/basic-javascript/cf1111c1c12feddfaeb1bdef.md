@@ -1,6 +1,6 @@
 ---
 id: cf1111c1c12feddfaeb1bdef
-title: 자바스크립트로 무작위 정수 생성하기
+title: JavaScript로 무작위 정수 생성하기
 challengeType: 1
 forumTopicId: 18186
 dashedName: generate-random-whole-numbers-with-javascript
@@ -8,29 +8,29 @@ dashedName: generate-random-whole-numbers-with-javascript
 
 # --description--
 
-You can generate random decimal numbers with `Math.random()`, but sometimes you need to generate random whole numbers. The following process will give you a random whole number less than `20`:
+`Math.random()`으로 무작위 소수를 생성할 수 있지만, 때로는 무작위 정수를 생성해야 할 때가 있습니다. 다음 과정은 `20`보다 작은 무작위 정수를 생성합니다:
 
-1. Use `Math.random()` to generate a random decimal number.
-2. 무작위 십진수에 `20`을 곱하시오.
-3. 가장 근사한 정수로 내림하도록 `Math.floor()`을 사용하시오.
+1. `Math.random()`를 사용해 무작위 소수를 생성하세요.
+2. 그 무작위 소수에 `20`을 곱하세요.
+3. `Math.floor()`를 사용해 이 숫자를 가장 가까운 정수로 내림하세요.
 
-`Math.floor()`로 내림 시 `Math.random()`가 `1`을 절대 반환할 수 없으므로 `20`을 얻을 수 없다는 것에 주의하시기 바랍니다. 이 과정은 `0`에서 `19` 사이의 무작위 정수를 줄 것입니다.
+`Math.random()`는 절대 `1`를 반환하지 못하므로, `20`로 내림하기 때문에 실제로 `Math.floor()`를 얻는 것은 불가능하다는 점을 기억하세요. 이 과정은 `0`부터 `19`까지 범위 내의 무작위 정수를 생성합니다.
 
-모두 함께 넣어보면, 코드는 다음과 같을 것입니다:
+모든 과정을 합치면, 코드는 다음과 같습니다:
 
 ```js
 Math.floor(Math.random() * 20);
 ```
 
-`Math.random()`을 호출하여 결과에 20을 곱한 다음에 가장 근사한 정수로 내림하도록 `Math.floor()`에 해당 값을 을 전달합니다.
+`Math.random()`를 호출하고, 결과에 20을 곱한 뒤, 그 값을 `Math.floor()`에 전달해 가장 가까운 정수로 내림합니다.
 
 # --instructions--
 
-`0`과 `9` 사이의 무작위 정수를 생성하고 반환하도록 이 방법을 사용하시오.
+이 기법을 사용해 `0`부터 `9`까지 범위 내의 무작위 정수를 생성하고 반환하세요.
 
 # --hints--
 
-`randomWholeNum`의 결과는 정수이어야 합니다.
+`randomWholeNum`의 결과는 정수여야 합니다.
 
 ```js
 assert(
@@ -42,13 +42,13 @@ assert(
 );
 ```
 
-무작위 십진수를 생성하기 위해 `Math.random`을 사용해야 합니다.
+무작위 숫자를 생성하려면 `Math.random`를 사용하세요.
 
 ```js
 assert(__helpers.removeJSComments(code).match(/Math.random/g).length >= 1);
 ```
 
-`Math.random`의 결과를 0과 9사이의 숫자로 만들도록 10을 곱해야 합니다.
+`Math.random`의 결과에 10을 곱해 0부터 9까지 범위의 숫자를 만드세요.
 
 ```js
 assert(
@@ -57,7 +57,7 @@ assert(
 );
 ```
 
-해당 숫자의 소숫점을 제거하기 위해 `Math.floor`를 사용해야 합니다.
+숫자의 소수 부분을 제거하려면 `Math.floor`를 사용하세요.
 
 ```js
 assert(__helpers.removeJSComments(code).match(/Math.floor/g).length >= 1);

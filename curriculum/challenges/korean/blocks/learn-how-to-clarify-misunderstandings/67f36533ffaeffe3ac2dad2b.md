@@ -1,6 +1,6 @@
 ---
 id: 67f36533ffaeffe3ac2dad2b
-title: Task 131
+title: 작업 131
 challengeType: 19
 dashedName: task-131
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+오디오를 듣고 아래 질문에 답하세요.
 
 # --questions--
 
 ## --text--
 
-What is Jessica explaining?
+Jessica가 무엇을 설명하고 있나요?
 
 ## --answers--
 
-There was a problem with the current update's schedule.
+현재 업데이트 일정에 문제가 있었습니다.
 
 ### --feedback--
 
-Jessica is talking about the feature's timing, not the schedule of the update itself.
+Jessica는 업데이트 일정 자체가 아니라 기능의 시기에 대해 이야기하고 있습니다.
 
 ---
 
-The budget tracking feature will be in the next update, not the current one.
+예산 추적 기능은 현재 업데이트가 아니라 다음 업데이트에 포함될 예정입니다.
 
 ---
 
-The budget tracking feature has been removed from the current update.
+예산 추적 기능이 현재 업데이트에서 제거되었습니다.
 
 ### --feedback--
 
-Jessica doesn't mention that the feature has been removed.
+Jessica는 기능이 제거되었다고 말하지 않습니다.
 
 ---
 
-The feature was mistakenly included in this update.
+기능이 실수로 이번 업데이트에 포함되었습니다.
 
 ### --feedback--
 
-Jessica doesn't say the feature was mistakenly included.
+Jessica는 기능이 실수로 포함되었다고 말하지 않습니다.
 
 ## --video-solution--
 
@@ -52,9 +52,9 @@ Jessica doesn't say the feature was mistakenly included.
 
 # --explanation--
 
-Jessica says, `The budget tracking feature is planned for the next update`, explaining that the feature is not included in the current update but will be added in the next one.
+Jessica는 `The budget tracking feature is planned for the next update`라고 말하며, 이 기능이 현재 업데이트에는 포함되지 않고 다음 업데이트에 추가될 것이라고 설명합니다.
 
-This clears up the confusion about the feature's timing.
+이로써 기능 시기에 대한 혼란이 해소됩니다.
 
 # --scene--
 

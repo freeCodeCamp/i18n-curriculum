@@ -7,21 +7,21 @@ dashedName: step-30
 
 # --description--
 
-If you attempt to add another task now, you'll notice that the input fields retain the values you entered for the previous task. To resolve this, you need to clear the input fields after adding a task.
+지금 다른 작업을 추가하려고 하면, 입력 필드가 이전 작업에 입력한 값을 그대로 유지하는 것을 알 수 있습니다. 이를 해결하려면 작업을 추가한 후 입력 필드를 지워야 합니다.
 
-Instead of clearing the input fields one by one, it's a good practice to create a function that handles clearing those fields. You can then call this function whenever you need to clear the input fields again.
+입력 필드를 하나씩 지우는 대신, 입력 필드를 지우는 작업을 처리하는 함수를 만드는 것이 좋은 방법입니다. 그런 다음 입력 필드를 다시 지워야 할 때마다 이 함수를 호출할 수 있습니다.
 
-Use arrow syntax to create a `reset` function and set it to a pair of curly braces.
+화살표 구문을 사용해 `reset` 함수를 만들고 중괄호 쌍으로 설정하세요.
 
 # --hints--
 
-You should use `const` and arrow syntax to create a `reset` function.
+`const`와 화살표 구문을 사용해 `reset` 함수를 만들어야 합니다.
 
 ```js
 assert.match(code, /const\s+reset\s*=\s*\(\s*\)\s*=>\s*\{\s*/)
 ```
 
-Your `reset` function should be empty.
+`reset` 함수는 비워 두어야 합니다.
 
 ```js
 assert.match(reset.toString(), /\(\s*\)\s*\{\s*\}/);

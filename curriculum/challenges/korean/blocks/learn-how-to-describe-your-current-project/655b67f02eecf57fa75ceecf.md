@@ -1,6 +1,6 @@
 ---
 id: 655b67f02eecf57fa75ceecf
-title: Task 8
+title: 작업 8
 challengeType: 22
 dashedName: task-8
 lang: en-US
@@ -10,13 +10,13 @@ lang: en-US
 
 # --description--
 
-To `stay` is used to indicate remaining in a particular state or condition. It's often used in instructions or advice to keep oneself in a certain situation. For example:
+To `stay`는 특정 상태나 조건을 유지하는 것을 나타내는 데 사용됩니다. 주로 자신을 특정 상황에 계속 두도록 하는 지시나 조언에 자주 쓰입니다. 예를 들어:
 
-- `Stay safe online.` - Continue being safe while using the internet.
+- `Stay safe online.` - 인터넷을 사용하는 동안 안전을 유지하세요.
 
-- `Stay calm during the test.` - Continue being calm.
+- `Stay calm during the test.` - 침착함을 유지하세요.
 
-- `Stay focused on your work.` - Continue paying attention to your work.
+- `Stay focused on your work.` - 작업에 계속 집중하세요.
 
 # --fillInTheBlank--
 
@@ -30,7 +30,7 @@ To `stay` is used to indicate remaining in a particular state or condition. It's
 
 ### --feedback--
 
-This verb indicates that Sophie is actively providing assistance or support to her team. It ends in `-ing`.
+이 동사는 Sophie가 팀을 적극적으로 돕거나 지원하고 있음을 나타냅니다. `-ing`로 끝납니다.
 
 ---
 
@@ -38,7 +38,7 @@ This verb indicates that Sophie is actively providing assistance or support to h
 
 ### --feedback--
 
-This word is used to suggest maintaining a certain state, in this case, being safe while online.
+이 단어는 특정 상태, 이 경우 온라인에서 안전한 상태를 유지하도록 제안할 때 사용됩니다.
 
 # --scene--
 

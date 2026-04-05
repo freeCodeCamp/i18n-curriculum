@@ -1,6 +1,6 @@
 ---
 id: 698dea0c7932b3cc4b19c945
-title: Implementing Quicksort
+title: 퀵소트 구현하기
 challengeType: 11
 videoId: 7k5rxhK3X_Y
 dashedName: implementing-quicksort
@@ -8,13 +8,13 @@ dashedName: implementing-quicksort
 
 # --description--
 
-In this video, you will learn how to implement the quicksort algorithm in Python.
+이 영상에서는 Python으로 퀵소트 알고리즘을 구현하는 방법을 배우세요.
 
 # --questions--
 
 ## --text--
 
-What is the base case for this quicksort implementation in Python?
+이 Python 퀵소트 구현에서 기본 사례(base case)는 무엇인가요?
 
 ## --answers--
 

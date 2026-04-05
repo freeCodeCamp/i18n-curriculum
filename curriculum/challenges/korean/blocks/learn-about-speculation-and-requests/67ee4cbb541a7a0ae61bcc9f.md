@@ -1,6 +1,6 @@
 ---
 id: 67ee4cbb541a7a0ae61bcc9f
-title: Task 4
+title: 작업 4
 challengeType: 19
 dashedName: task-4
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+오디오를 듣고 아래 질문에 답하세요.
 
 # --questions--
 
 ## --text--
 
-Is this small error serious?
+이 작은 오류가 심각한가요?
 
 ## --answers--
 
-No, and they don't need to do anything about it.
+아니요, 그리고 아무 조치도 필요하지 않습니다.
 
 ### --feedback--
 
-Sophie doesn't say it's a major issue, but they should fix it.
+Sophie는 이것이 큰 문제라고 말하지 않지만, 고쳐야 한다고 생각합니다.
 
 ---
 
-Yes, it will break the whole system.
+네, 이 오류가 전체 시스템을 망가뜨릴 것입니다.
 
 ### --feedback--
 
-Sophie doesn't say it's a major issue, just something they should fix.
+Sophie는 이것이 큰 문제라고 말하지 않고, 단지 고쳐야 할 문제라고 말합니다.
 
 ---
 
-Yes, Sophie is very worried about it.
+네, Sophie는 이것에 대해 매우 걱정하고 있습니다.
 
 ### --feedback--
 
-Sophie is not very worried, but she still thinks they should fix it.
+Sophie는 크게 걱정하지 않지만, 그래도 고쳐야 한다고 생각합니다.
 
 ---
 
-No, but it should still be fixed.
+아니요, 하지만 여전히 고쳐야 합니다.
 
 ## --video-solution--
 
@@ -52,13 +52,13 @@ No, but it should still be fixed.
 
 # --explanation--
 
-`It's not a big deal` means the problem is not serious. For example:
+`It's not a big deal`는 문제가 심각하지 않다는 뜻입니다. 예를 들어:
 
 - **Monica:** `I can't join the meeting today.`
 
-- **Eva:** `It's not a big deal. I'll take notes for you.` - Missing the meeting is okay, and this person can help.
+- **Eva:** `It's not a big deal. I'll take notes for you.` - 회의를 빠져도 괜찮고, 이 사람이 도울 수 있습니다.
 
-Sophie also says `we should fix it before it causes problems`, meaning it's better to fix it now before it becomes serious.
+Sophie는 또한 `we should fix it before it causes problems`라고 말하는데, 심각해지기 전에 지금 고치는 게 낫다는 뜻입니다.
 
 # --scene--
 
