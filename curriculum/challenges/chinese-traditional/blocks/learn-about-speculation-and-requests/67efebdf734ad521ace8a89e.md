@@ -32,9 +32,9 @@ lang: en-US
 
 `Vulnerability` 是指系統中可被利用的弱點。
 
-總結來說，`unpatched vulnerability` 是尚未修復或更新的安全弱點。駭客可以利用這些弱點來攻擊系統。例如：
+總結來說，`unpatched vulnerability` 是尚未修復或更新的安全弱點。駭客可以利用這些弱點來攻擊系統。 例如：
 
-`We need to fix the unpatched vulnerability now.`－團隊知道安全問題但尚未修復。
+`We need to fix the unpatched vulnerability now.`－團隊知道一個安全問題但尚未修復。
 
 # --scene--
 
