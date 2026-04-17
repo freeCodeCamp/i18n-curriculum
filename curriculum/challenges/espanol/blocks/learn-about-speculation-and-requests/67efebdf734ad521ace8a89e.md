@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Escucha el audio para completar la oración de abajo.
+Escucha el audio y completa la oración de abajo.
 
 # --fillInTheBlank--
 
@@ -34,7 +34,7 @@ Esta frase de dos palabras se refiere a una falla de seguridad en un sistema que
 
 Juntas, una `unpatched vulnerability` es una debilidad de seguridad que no ha sido corregida ni actualizada. Los hackers pueden explotar estas debilidades para atacar un sistema. Por ejemplo:
 
-`We need to fix the unpatched vulnerability now.` - El equipo sabe del problema de seguridad pero aún no ha sido reparado.
+`We need to fix the unpatched vulnerability now.` - El equipo sabe de un problema de seguridad pero aún no ha sido reparado.
 
 # --scene--
 

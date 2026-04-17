@@ -34,7 +34,7 @@ lang: en-US
 
 综合来看，`unpatched vulnerability` 是一种尚未修复或更新的安全性弱点。黑客可以利用这些弱点攻击系统。例如：
 
-`We need to fix the unpatched vulnerability now.` - 团队知道这个安全性问题但尚未修复。
+`We need to fix the unpatched vulnerability now.` - 团队知道一个安全性问题但尚未修复。
 
 # --scene--
 
