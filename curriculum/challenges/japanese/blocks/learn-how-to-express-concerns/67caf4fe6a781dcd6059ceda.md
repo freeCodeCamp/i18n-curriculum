@@ -1,6 +1,6 @@
 ---
 id: 67caf4fe6a781dcd6059ceda
-title: Task 131
+title: タスク 131
 challengeType: 22
 dashedName: task-131
 lang: en-US
@@ -10,39 +10,39 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+音声を聞いて、以下の文を完成させてください。  
 
 # --fillInTheBlank--
 
 ## --sentence--
 
-`It'd be BLANK if we had more BLANK check-ins.`
+`It'd be BLANK if we had more BLANK check-ins.`  
 
 ## --blanks--
 
-`helpful`
+`helpful`  
 
 ### --feedback--
 
-This means providing assistance or making something easier.
+これは支援を提供したり、何かを簡単にすることを意味します。  
 
----
+---  
 
-`regular`
+`regular`  
 
 ### --feedback--
 
-This means happening consistently or at set intervals.
+これは一定の間隔で、または規則的に起こることを意味します。  
 
 # --explanation--
 
-`Helpful` means providing assistance or making something easier. For example:
+`Helpful` は支援を提供したり、何かを簡単にすることを意味します。例えば：
 
-`It was helpful to have clear instructions before starting the task.` - This means the instructions made the task easier to complete.
+`It was helpful to have clear instructions before starting the task.` - これは指示がタスクの完了を簡単にしたことを意味します。
 
-`Regular` means happening consistently or at set intervals. For example:
+`Regular` は一定の間隔で、または規則的に起こることを意味します。例えば：
 
-`We have regular meetings every Monday.` - This means the meetings happen consistently on Mondays.
+`We have regular meetings every Monday.` - これは会議が毎週月曜日に規則的に行われることを意味します。
 
 # --scene--
 

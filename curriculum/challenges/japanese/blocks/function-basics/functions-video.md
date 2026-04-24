@@ -1,6 +1,6 @@
 ---
 id: 699dfa14138be64fa3131389
-title: Functions
+title: 関数
 challengeType: 11
 videoId: qyuFN2AKCBw
 dashedName: functions
@@ -8,29 +8,29 @@ dashedName: functions
 
 # --description--
 
-Instructor Dr. Linda Green, a lecturer at the University of North Carolina at Chapel Hill, will teach you the basics of functions.
+ノースカロライナ大学チャペルヒル校の講師、リンダ・グリーン博士が関数の基本を教えます。
 
 # --questions--
 
 ## --text--
 
-What is the domain of a function?
+関数の定義域とは何ですか？
 
 ## --answers--
 
-All possible a-values.
+すべての可能なaの値。
 
 ---
 
-All possible y-values.
+すべての可能なyの値。
 
 ---
 
-All possible x-values.
+すべての可能なxの値。
 
 ---
 
-All possible z-values.
+すべての可能なzの値。
 
 ## --video-solution--
 

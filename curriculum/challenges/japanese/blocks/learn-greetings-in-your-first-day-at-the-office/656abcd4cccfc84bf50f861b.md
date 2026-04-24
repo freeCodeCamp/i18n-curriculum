@@ -1,6 +1,6 @@
 ---
 id: 656abcd4cccfc84bf50f861b
-title: Task 80
+title: タスク 80
 challengeType: 19
 dashedName: task-80
 lang: en-US
@@ -8,13 +8,13 @@ lang: en-US
 
 # --description--
 
-In an office setting, it's common to point out items using `these` and `those`. Remember, `these` points to items near you, while `those` points to items further away.
+オフィスの環境では、`these` と `those` を使って物を指し示すことがよくあります。`these` は近くの物を指し示し、`those` は遠くの物を指し示すことを覚えておいてください。
 
 # --questions--
 
 ## --text--
 
-Which sentence correctly differentiates between `these` and `those`?
+どの文が `these` と `those` の違いを正しく説明していますか？
 
 ## --answers--
 
@@ -22,7 +22,7 @@ Which sentence correctly differentiates between `these` and `those`?
 
 ### --feedback--
 
-Look for a sentence that uses `these` for multiple items nearby and `those` for multiple items at a distance or not being directly addressed.
+近くにある複数の物には `these` を使い、遠くにあるか直接話しかけていない複数の物には `those` を使っている文を探してください。
 
 ---
 
@@ -30,7 +30,7 @@ Look for a sentence that uses `these` for multiple items nearby and `those` for 
 
 ### --feedback--
 
-Look for a sentence that uses `these` for multiple items nearby and `those` for multiple items at a distance or not being directly addressed.
+近くにある複数の物には `these` を使い、遠くにあるか直接話しかけていない複数の物には `those` を使っている文を探してください。
 
 ---
 
@@ -42,7 +42,7 @@ Look for a sentence that uses `these` for multiple items nearby and `those` for 
 
 ### --feedback--
 
-Look for a sentence that uses `these` for multiple items nearby and `those` for multiple items at a distance or not being directly addressed.
+近くにある複数の物には `these` を使い、遠くにあるか直接話しかけていない複数の物には `those` を使っている文を探してください。
 
 ## --video-solution--
 

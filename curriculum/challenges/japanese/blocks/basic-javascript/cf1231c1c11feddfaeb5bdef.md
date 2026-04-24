@@ -1,6 +1,6 @@
 ---
 id: cf1231c1c11feddfaeb5bdef
-title: Multiply Two Numbers with JavaScript
+title: JavaScriptで2つの数字を乗算する
 challengeType: 1
 forumTopicId: 18243
 dashedName: multiply-two-numbers-with-javascript
@@ -8,31 +8,31 @@ dashedName: multiply-two-numbers-with-javascript
 
 # --description--
 
-We can also multiply one number by another.
+1つの数字を別の数字で乗算することもできます。
 
-JavaScript uses the `*` symbol for multiplication of two numbers.
+JavaScriptでは、2つの数字の乗算に`*`記号を使います。
 
-**Example**
+**例**
 
 ```js
 const myVar = 13 * 13;
 ```
 
-`myVar` would have the value `169`.
+`myVar`は`169`の値になります。
 
 # --instructions--
 
-Change the `0` so that product will equal `80`.
+`0`を変更して、積が`80`になるようにしてください。
 
 # --hints--
 
-The variable `product` should be equal to 80.
+変数`product`は80と等しくなる必要があります。
 
 ```js
 assert(product === 80);
 ```
 
-You should use the `*` operator.
+`*`演算子を使うべきです。
 
 ```js
 assert(/\*/.test(__helpers.removeJSComments(code)));

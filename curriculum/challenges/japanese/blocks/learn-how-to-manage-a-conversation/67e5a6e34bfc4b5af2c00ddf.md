@@ -1,6 +1,6 @@
 ---
 id: 67e5a6e34bfc4b5af2c00ddf
-title: Task 51
+title: タスク 51
 challengeType: 22
 dashedName: task-51
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+音声を聞いて、下の文を完成させてください。
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This means very serious or important. It is often used when something needs immediate attention.
+これは非常に深刻または重要であることを意味します。何かがすぐに対応を必要とするときによく使われます。
 
 ---
 
@@ -32,17 +32,17 @@ This means very serious or important. It is often used when something needs imme
 
 ### --feedback--
 
-This means to change or influence something. It often describes how one thing causes a change in another.
+これは何かを変えたり影響を与えたりすることを意味します。あるものが別のものに変化をもたらす様子を表すことが多いです。
 
 # --explanation--
 
-`Critical` means extremely important or serious. For example:
+`Critical` は非常に重要または深刻であることを意味します。例えば：
 
-`We have a critical deadline tomorrow.` – This means the deadline is very important and cannot be missed.
+`We have a critical deadline tomorrow.` – これは締め切りが非常に重要で、絶対に逃せないことを意味します。
 
-`To affect` means to have an influence on something or cause a change. For example:
+`To affect` は何かに影響を与えたり変化をもたらしたりすることを意味します。例えば：
 
-`The new policy may affect employee performance.` – This means the policy might change how employees perform.
+`The new policy may affect employee performance.` – これは方針が従業員の働き方に影響を与えるかもしれないことを意味します。
 
 # --scene--
 

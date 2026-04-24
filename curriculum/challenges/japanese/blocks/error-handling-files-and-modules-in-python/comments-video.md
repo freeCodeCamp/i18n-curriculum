@@ -1,6 +1,6 @@
 ---
 id: 71ac60e6488b40e997219f15
-title: Comments
+title: コメント
 challengeType: 11
 videoId: CY-CMJIt1z8
 dashedName: comments
@@ -8,13 +8,13 @@ dashedName: comments
 
 # --description--
 
-In this video, you will learn how to write comments in Python to document your code and make it more readable.
+このビデオでは、Pythonでコメントを書く方法を学び、コードのドキュメント化と可読性の向上を目指します。
 
 # --questions--
 
 ## --text--
 
-Which of the following is a single line comment in Python?
+次のうち、Pythonの一行コメントはどれですか？
 
 ## --answers--
 

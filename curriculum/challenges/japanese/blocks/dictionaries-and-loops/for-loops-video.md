@@ -1,6 +1,6 @@
 ---
 id: 030401977064585ddd4c7746
-title: For Loops
+title: Forループ
 challengeType: 11
 videoId: x13V1UMMQeI
 dashedName: for-loops
@@ -8,13 +8,13 @@ dashedName: for-loops
 
 # --description--
 
-In this video, you will learn how to use for loops to iterate over sequences like lists and ranges.
+このビデオでは、リストやrangeのようなシーケンスを繰り返すためにforループを使う方法を学びます。
 
 # --questions--
 
 ## --text--
 
-Which of the following is the correct way to iterate over each letter in the string `"Giraffe Academy"`?
+次のうち、文字列`"Giraffe Academy"`の各文字を繰り返す正しい方法はどれですか？
 
 ## --answers--
 

@@ -7,14 +7,14 @@ dashedName: challenge-131
 
 # --description--
 
-Given an array of integers and a target number, find all pairs of elements in the array whose values add up to the target and return the sum of their indices.
+整数の配列と目標の数が与えられたとき、配列内の値の合計が目標の数になるすべての要素のペアを見つけ、それらのインデックスの合計を戻り値として返してください。
 
-For example, given `[2, 3, 4, 6, 8]` and `10`, you will find two valid pairs:
+例えば、`[2, 3, 4, 6, 8]` と `10` が与えられた場合、2つの有効なペアが見つかります：
 
-- `2` and `8` (2 + 8 = 10), whose indices are `0` and `4`
-- `4` and `6` (4 + 6 = 10), whose indices are `2` and `3`
+- `2` と `8` （2 + 8 = 10）、インデックスは `0` と `4`
+- `4` と `6` （4 + 6 = 10）、インデックスは `2` と `3`
 
-Add all the indices together to get a return value of `9`.
+すべてのインデックスを合計して、戻り値として `9` を得ます。
 
 # --hints--
 

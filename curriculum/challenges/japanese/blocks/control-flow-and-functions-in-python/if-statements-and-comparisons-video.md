@@ -1,6 +1,6 @@
 ---
 id: 8314d0bbddb0aa027a144705
-title: If Statements and Comparisons
+title: if文と比較演算子
 challengeType: 11
 videoId: frb0CCrS9X8
 dashedName: if-statements-and-comparisons
@@ -8,13 +8,13 @@ dashedName: if-statements-and-comparisons
 
 # --description--
 
-In this video, you will learn about comparison operators.
+このビデオでは、比較演算子について学びます。
 
 # --questions--
 
 ## --text--
 
-Which of the following operators is used to check if one number is greater than or equal to another number?
+次のうち、ある数が別の数以上かどうかを確認するために使われる演算子はどれですか？
 
 ## --answers--
 

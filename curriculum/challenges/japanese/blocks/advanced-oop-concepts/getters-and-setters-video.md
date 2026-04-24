@@ -1,6 +1,6 @@
 ---
 id: 69ae9f3ca9e6da4eb0d5f7f9
-title: Getters and Setters
+title: ゲッターとセッター
 challengeType: 11
 videoId: o8zKHbpd87s
 dashedName: getters-and-setters
@@ -8,32 +8,30 @@ dashedName: getters-and-setters
 
 # --description--
 
-In this video, you will learn about getters and setters.
+このビデオでは、ゲッターとセッターについて学びます。
 
 # --questions--
 
 ## --text--
 
-What is a setter?
+セッターとは何ですか？
 
 ## --answers--
 
-A function that automatically deletes an object when it goes out of scope.
+スコープ外になると自動的にオブジェクトを削除する関数。
 
 ---
 
-A method that retrieves or reads the value of an attribute.
+属性の値を取得または読み取るメソッド。
 
 ---
 
-A method in a class used to set or update the value of a private or protected attribute.
+プライベートまたは保護された属性の値を設定または更新するためにクラスで使われるメソッド。
 
 ---
 
-A method that creates a new class instance without modifying any attributes.
+属性を変更せずに新しいクラスインスタンスを作成するメソッド。
 
 ## --video-solution--
 
 3
-
-

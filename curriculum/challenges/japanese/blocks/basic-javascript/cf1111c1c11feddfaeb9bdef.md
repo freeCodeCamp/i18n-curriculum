@@ -1,6 +1,6 @@
 ---
 id: cf1111c1c11feddfaeb9bdef
-title: JavaScript で小数の乱数を生成する
+title: JavaScriptでランダムな分数を生成する
 challengeType: 1
 forumTopicId: 18185
 dashedName: generate-random-fractions-with-javascript
@@ -8,31 +8,31 @@ dashedName: generate-random-fractions-with-javascript
 
 # --description--
 
-乱数はランダムな動作を作成するのに便利です。
+ランダムな数はランダムな動作を作るのに役立ちます。
 
-JavaScript には、`0` (含む) から `1` (含まない) の間の小数の乱数を生成する `Math.random()` 関数があります。 つまり、`Math.random()` は `0` を返すことはありますが、`1` を返すことは決してありません。
+JavaScriptには`Math.random()`という関数があり、`0`（含む）から`1`（含まない）までのランダムな小数を生成します。したがって`Math.random()`は`0`を返すことがありますが、`1`を返すことはありません。
 
-**注意:** <a href="/japanese/learn/javascript-algorithms-and-data-structures/basic-javascript/storing-values-with-the-assignment-operator" target="_blank" rel="noopener noreferrer nofollow">代入演算子による値の格納</a>の場合と同様に、すべての関数呼び出しは `return` が実行される前に解決されるため、`Math.random()` 関数の値を `return` することができます。
+**注意：** <a href="/learn/javascript-algorithms-and-data-structures/basic-javascript/storing-values-with-the-assignment-operator" target="_blank" rel="noopener noreferrer nofollow">代入演算子で値を保存する</a>と同様に、すべての関数呼び出しは`return`が実行される前に解決されるため、`return`関数の値を`Math.random()`できます。
 
 # --instructions--
 
-`0` の代わりに乱数を返すように、`randomFraction` を変更してください。
+`randomFraction`を変更して、`0`を返す代わりにランダムな数を返すようにしてください。
 
 # --hints--
 
-`randomFraction` は乱数を返す必要があります。
+`randomFraction`はランダムな数を返す必要があります。
 
 ```js
 assert(typeof randomFraction() === 'number');
 ```
 
-`randomFraction` が返す数値は小数である必要があります。
+`randomFraction`が返す数は小数であるべきです。
 
 ```js
 assert((randomFraction() + '').match(/\./g));
 ```
 
-`Math.random` を使用して、小数の乱数を生成する必要があります。
+ランダムな小数を生成するには`Math.random`を使うべきです。
 
 ```js
 assert(__helpers.removeJSComments(code).match(/Math\.random/g).length >= 0);

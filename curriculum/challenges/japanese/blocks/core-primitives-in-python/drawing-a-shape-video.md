@@ -1,6 +1,6 @@
 ---
 id: 62baa9d28e8723f635a0093e
-title: Drawing a Shape
+title: 形を描く
 challengeType: 11
 videoId: vcNZZSeyZkY
 dashedName: drawing-a-shape
@@ -8,13 +8,13 @@ dashedName: drawing-a-shape
 
 # --description--
 
-In this video, you will learn how to print a basic shape to the console using `print` statements.
+この動画では、`print`文を使って基本的な形をコンソールに出力する方法を学びます。
 
 # --questions--
 
 ## --text--
 
-Which of the following is the correct way to print a triangle to the console?
+次のうち、三角形をコンソールに出力する正しい方法はどれですか？
 
 ## --answers--
 

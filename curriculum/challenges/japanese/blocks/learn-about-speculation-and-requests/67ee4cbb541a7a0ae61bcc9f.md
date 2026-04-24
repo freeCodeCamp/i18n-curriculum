@@ -1,6 +1,6 @@
 ---
 id: 67ee4cbb541a7a0ae61bcc9f
-title: Task 4
+title: タスク4
 challengeType: 19
 dashedName: task-4
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+音声を聞いて、以下の質問に答えてください。
 
 # --questions--
 
 ## --text--
 
-Is this small error serious?
+この小さなエラーは深刻ですか？
 
 ## --answers--
 
-No, and they don't need to do anything about it.
+いいえ、何もしなくても大丈夫です。
 
 ### --feedback--
 
-Sophie doesn't say it's a major issue, but they should fix it.
+ソフィーは大きな問題だとは言っていませんが、修正すべきだと言っています。
 
 ---
 
-Yes, it will break the whole system.
+はい、システム全体が壊れてしまいます。
 
 ### --feedback--
 
-Sophie doesn't say it's a major issue, just something they should fix.
+ソフィーは大きな問題だとは言っておらず、ただ修正すべきだと言っています。
 
 ---
 
-Yes, Sophie is very worried about it.
+はい、ソフィーはとても心配しています。
 
 ### --feedback--
 
-Sophie is not very worried, but she still thinks they should fix it.
+ソフィーはあまり心配していませんが、それでも修正すべきだと思っています。
 
 ---
 
-No, but it should still be fixed.
+いいえ、でも修正すべきです。
 
 ## --video-solution--
 
@@ -52,13 +52,13 @@ No, but it should still be fixed.
 
 # --explanation--
 
-`It's not a big deal` means the problem is not serious. For example:
+`It's not a big deal` は問題が深刻ではないことを意味します。例えば：
 
 - **Monica:** `I can't join the meeting today.`
 
-- **Eva:** `It's not a big deal. I'll take notes for you.` - Missing the meeting is okay, and this person can help.
+- **Eva:** `It's not a big deal. I'll take notes for you.` - 会議を欠席しても大丈夫で、この人が助けられます。
 
-Sophie also says `we should fix it before it causes problems`, meaning it's better to fix it now before it becomes serious.
+ソフィーはまた `we should fix it before it causes problems` と言っており、深刻になる前に今修正したほうが良いという意味です。
 
 # --scene--
 

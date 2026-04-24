@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c443edefaeb5bd0f
-title: File Metadata Microservice
+title: ファイルメタデータマイクロサービス
 challengeType: 4
 forumTopicId: 301506
 dashedName: file-metadata-microservice
@@ -8,18 +8,18 @@ dashedName: file-metadata-microservice
 
 # --description--
 
-Build a full-stack JavaScript app that is functionally similar to this: <a href="https://file-metadata-microservice.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://file-metadata-microservice.freecodecamp.rocks</a>. Working on this project will involve you writing your code using one of the following methods:
+このプロジェクトでは、次のサイトと機能的に似たフルスタックJavaScriptアプリを作成します：<a href="https://file-metadata-microservice.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://file-metadata-microservice.freecodecamp.rocks</a>。このプロジェクトに取り組む際は、以下のいずれかの方法でコードを書いてください。
 
--   Clone <a href="https://github.com/freeCodeCamp/boilerplate-project-filemetadata/" target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete your project locally.
--   Use a site builder of your choice to complete the project. Be sure to incorporate all the files from our GitHub repo.
+- <a href="https://github.com/freeCodeCamp/boilerplate-project-filemetadata/" target="_blank" rel="noopener noreferrer nofollow">このGitHubリポジトリ</a>をクローンして、ローカルでプロジェクトを完成させる。
+- お好みのサイトビルダーを使ってプロジェクトを完成させる。必ずGitHubリポジトリのすべてのファイルを組み込んでください。
 
 # --instructions--
 
-**HINT:** You can use the `multer` npm package to handle file uploading.
+**ヒント：** ファイルアップロードを扱うには`multer` npmパッケージを使うことができます。
 
 # --hints--
 
-You should provide your own project, not the example URL.
+自分のプロジェクトを用意し、例のURLは使わないでください。
 
 ```js
   assert(
@@ -29,7 +29,7 @@ You should provide your own project, not the example URL.
   );
 ```
 
-You can submit a form that includes a file upload.
+ファイルアップロードを含むフォームを提出できます。
 
 ```js
   const site = await fetch(code);
@@ -38,7 +38,7 @@ You can submit a form that includes a file upload.
   assert(doc.querySelector('input[type="file"]'));
 ```
 
-The form file input field has the `name` attribute set to `upfile`.
+フォームのファイル入力フィールドには`name`属性が`upfile`に設定されています。
 
 ```js
   const site = await fetch(code);
@@ -47,7 +47,7 @@ The form file input field has the `name` attribute set to `upfile`.
   assert(doc.querySelector('input[name="upfile"]'));
 ```
 
-When you submit a file, you receive the file `name`, `type`, and `size` in bytes within the JSON response.
+ファイルを提出すると、JSONレスポンス内でファイルの`name`、`type`、`size`（バイト単位）を受け取ります。
 
 ```js
   const formData = new FormData();
@@ -65,4 +65,3 @@ When you submit a file, you receive the file `name`, `type`, and `size` in bytes
   assert.equal(parsed.name, 'icon');
   assert.equal(parsed.type, 'image/png');
 ```
-

@@ -1,6 +1,6 @@
 ---
 id: 698a5b056fac9afc70ef3cad
-title: Task 10
+title: タスク 10
 challengeType: 22
 dashedName: task-10
 lang: es
@@ -10,25 +10,25 @@ lang: es
 
 # --description--
 
-Let's review a few of the countries you've learned so far.
+これまでに学んだ国をいくつか復習しましょう。
 
-| Country                | Nationality (Feminine) | Nationality (Masculine) |
-|:---------------------- |:---------------------- |:----------------------- |
-| `Brasil`               | `brasileña`            | `brasileño`             |
-| `Colombia`             | `colombiana`           | `colombiano`            |
-| `México`               | `mexicana`             | `mexicano`              |
-| `Panamá`               | `panameña`             | `panameño`              |
-| `República Dominicana` | `dominicana`           | `dominicano`            |
+| 国名 | 国籍（女性形） | 国籍（男性形） |
+| :--- | :--- | :--- |
+| `Brasil` | `brasileña` | `brasileño` |
+| `Colombia` | `colombiana` | `colombiano` |
+| `México` | `mexicana` | `mexicano` |
+| `Panamá` | `panameña` | `panameño` |
+| `República Dominicana` | `dominicana` | `dominicano` |
 
-In Spanish, country names are proper nouns and always start with a capital letter.
+スペイン語では、国名は固有名詞であり、常に大文字で始まります。
 
-Note that the nationalities `brasileño`/`brasileña` and `panameño`/`panameña` use the unique letter `eñe` (`ñ`).
+国籍の `brasileño`/`brasileña` と `panameño`/`panameña` は、特別な文字 `eñe`（`ñ`）を使うことに注意してください。
 
-Camila is practicing a few of these countries. Can you identify them?
+カミラはこれらの国のいくつかを練習しています。どの国か分かりますか？
 
 # --instructions--
 
-Listen to the audio and complete the sequence below.
+音声を聞いて、以下のシーケンスを完成させてください。
 
 # --fillInTheBlank--
 
@@ -42,7 +42,7 @@ Listen to the audio and complete the sequence below.
 
 ### --feedback--
 
-This country is the largest in South America and starts with a capital letter.
+この国は南アメリカで最も大きく、大文字で始まります。
 
 ---
 
@@ -50,11 +50,11 @@ This country is the largest in South America and starts with a capital letter.
 
 ### --feedback--
 
-This country is known for its famous canal. Remember to include an accent mark on the last letter `a` and to capitalize the first letter.
+この国は有名な運河で知られています。最後の文字 `a` にアクセント記号を付け、最初の文字を大文字にすることを忘れないでください。
 
 # --explanation--
 
-The sequence is `Brasil` - `Colombia` - `Panamá`.
+シーケンスは `Brasil` - `Colombia` - `Panamá` です。
 
 # --scene--
 

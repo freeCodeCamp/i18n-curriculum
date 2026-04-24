@@ -1,6 +1,6 @@
 ---
 id: bd7123c9c441eddfaeb5bdef
-title: Understanding Boolean Values
+title: ブール値の理解
 challengeType: 1
 forumTopicId: 301176
 dashedName: understanding-boolean-values
@@ -8,23 +8,23 @@ dashedName: understanding-boolean-values
 
 # --description--
 
-Another data type is the <dfn>Boolean</dfn>. Booleans may only be one of two values: `true` or `false`. They are basically little on-off switches, where `true` is on and `false` is off. These two states are mutually exclusive.
+もう一つのデータ型は<dfn>ブール値</dfn>です。ブール値は `true` または `false` のどちらかの値しか取りません。これは基本的に小さなオン・オフのスイッチのようなもので、`true` がオン、`false` がオフです。この二つの状態は排他的です。
 
-**Note:** Boolean values are never written with quotes. The strings `"true"` and `"false"` are not Boolean and have no special meaning in JavaScript.
+**注意:** ブール値は決して引用符で囲まれません。文字列の `"true"` と `"false"` はブール値ではなく、JavaScriptでは特別な意味を持ちません。
 
 # --instructions--
 
-Modify the `welcomeToBooleans` function so that it returns `true` instead of `false`.
+`welcomeToBooleans` 関数を修正して、`true` の代わりに `false` を返すようにしてください。
 
 # --hints--
 
-The `welcomeToBooleans()` function should return a Boolean (`true` or `false`) value.
+`welcomeToBooleans()` 関数はブール値（`true` または `false`）を返す必要があります。
 
 ```js
 assert(typeof welcomeToBooleans() === 'boolean');
 ```
 
-`welcomeToBooleans()` should return `true`.
+`welcomeToBooleans()` は `true` を返すべきです。
 
 ```js
 assert(welcomeToBooleans() === true);

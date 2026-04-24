@@ -1,6 +1,6 @@
 ---
 id: 698dce727932b3cc4b19c928
-title: Recursive Binary Search
+title: 再帰的な二分探索
 challengeType: 11
 videoId: RQNBzDoG_gA
 dashedName: recursive-binary-search
@@ -8,29 +8,29 @@ dashedName: recursive-binary-search
 
 # --description--
 
-In this video, you will learn how to create a recursive solution for binary search.
+この動画では、二分探索の再帰的な解法を作成する方法を学びます。
 
 # --questions--
 
 ## --text--
 
-What is a recursive function?
+再帰的な関数とは何ですか？
 
 ## --answers--
 
-A function that performs a calculation only once.
+計算を一度だけ行う関数。
 
 ---
 
-A function that calls itself.
+自分自身を呼び出す関数。
 
 ---
 
-A function that never returns a value.
+値を返さない関数。
 
 ---
 
-A function that can only run in a loop.
+ループ内でしか実行できない関数。
 
 ## --video-solution--
 

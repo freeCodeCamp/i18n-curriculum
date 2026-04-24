@@ -1,31 +1,31 @@
 ---
 id: 60fad6dfcc0d930a59becf12
-title: Step 43
+title: ステップ 43
 challengeType: 0
 dashedName: step-43
 ---
 
 # --description--
 
-The HTML for the registration form is finished. Now, you can spruce it up a bit.
+登録フォームのHTMLは完成しました。次に、少し見た目を整えましょう。
 
-Start by adding `Tahoma` as the font with a font size of `16px` in the `body` selector.
+まず、`Tahoma` セレクターでフォントを `16px` に、フォントサイズを `body` に設定してください。
 
 # --hints--
 
-You should use the `font-family` property to change the font.
+フォントを変更するには `font-family` プロパティを使う必要があります。
 
 ```js
 assert.isNotEmpty(new __helpers.CSSHelp(document).getStyle('body')?.fontFamily);
 ```
 
-You should set the `font-family` property to `Tahoma`.
+`font-family` プロパティを `Tahoma` に設定してください。
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('body')?.fontFamily, 'Tahoma');
 ```
 
-You should set the `font-size` property to `16px`.
+`font-size` プロパティを `16px` に設定してください。
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('body')?.fontSize, '16px');

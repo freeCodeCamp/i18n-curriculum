@@ -1,6 +1,6 @@
 ---
 id: 699e0333138be64fa313138a
-title: Increasing and Decreasing Functions
+title: 増加関数と減少関数
 challengeType: 11
 videoId: GRYrrT_aQ1U
 dashedName: increasing-and-decreasing-functions
@@ -8,29 +8,29 @@ dashedName: increasing-and-decreasing-functions
 
 # --description--
 
-In this video, you will learn about increasing and decreasing functions on a graph.
+このビデオでは、グラフ上の増加関数と減少関数について学びます。
 
 # --questions--
 
 ## --text--
 
-What is an increasing function?
+増加関数とは何ですか？
 
 ## --answers--
 
-This is where the x values are increasing and the y values are increasing.
+これは x の値が増加し、y の値も増加している場合です。
 
 ---
 
-This is where the x values are increasing and the y values are decreasing.
+これは x の値が増加し、y の値が減少している場合です。
 
 ---
 
-This is where the x values are decreasing and the y values are increasing.
+これは x の値が減少し、y の値が増加している場合です。
 
 ---
 
-This is where the x values are decreasing and the y values are decreasing.
+これは x の値が減少し、y の値も減少している場合です。
 
 ## --video-solution--
 

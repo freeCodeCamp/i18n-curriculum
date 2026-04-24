@@ -1,38 +1,38 @@
 ---
 id: 647e21eb8acb466c97ccbeea
-title: 'ガイド付きプロジェクト - C# で配列データを処理するための foreach および if-elseif-else 構造を開発する'
+title: ガイド付きプロジェクト - C#で配列データを処理するforeachおよびif-elseif-else構造を開発する
 challengeType: 19
 dashedName: guided-project-develop-foreach-and-if-elseif-else-structures-to-process-array-data-in-c-sharp
 ---
 
 # --description--
 
-このチャレンジには Microsoft Learn プラットフォームで実行するパートがあります。 下記の手順に従ってチャレンジを完了させてください:
+このチャレンジは一部をMicrosoft Learnプラットフォーム上で進めます。以下の手順に従ってチャレンジを完了してください。
 
-1. <a href="https://learn.microsoft.com/training/modules/guided-project-arrays-iteration-selection/" target="_blank" rel="noreferrer">https://learn.microsoft.com/training/modules/guided-project-arrays-iteration-selection/</a> へ移動し、「ガイド付きプロジェクト - C# で配列データを処理するための foreach および if-elseif-else 構造を開発する (Guided Project - Develop foreach and if-elseif-else Structures to Process Array Data in C#)」モジュール内のすべてのタスクを完了してください。 これは、Microsoft Learn のトロフィー「単純な C# コンソール アプリケーションを作成して実行する」を獲得し、認定試験の受験資格を得るために**必須**となります。
-1. 完了後、このページに戻り、下記の質問に正しく回答してください。
+1. <a href="https://learn.microsoft.com/training/modules/guided-project-arrays-iteration-selection/" target="_blank" rel="noreferrer">https://learn.microsoft.com/training/modules/guided-project-arrays-iteration-selection/</a> にアクセスし、「ガイド付きプロジェクト - C#で配列データを処理するforeachおよびif-elseif-else構造」モジュールのすべてのタスクを完了してください。これはMicrosoft Learnで「Create and Run Simple C# Console Applications」トロフィーを獲得し、認定試験の受験資格を得るために**必須**です。
+1. 完了したら、戻ってきて下記の質問に正しく回答してください。
 
 # --assignment--
 
-Microsoft Learn でガイド付きプロジェクト「<a href="https://learn.microsoft.com/training/modules/guided-project-arrays-iteration-selection/" target="_blank" rel="noreferrer">C# で配列データを処理するための `foreach` および `if`-`elseif`-`else` 構造を開発する</a>」を完了してください。 次に、下記の質問に回答してください。
+<a href="https://learn.microsoft.com/training/modules/guided-project-arrays-iteration-selection/" target="_blank" rel="noreferrer">Develop `foreach` and `if`-`elseif`-`else` Structures to Process Array Data in C#</a> のガイド付きプロジェクトをMicrosoft Learnで完了してください。その後、下記の質問に回答してください。
 
 # --questions--
 
 ## --text--
 
-ある開発者が、`foreach` ループを使用して 20 個の要素を持つ配列を反復処理するアプリケーションを開発しています。 アプリケーションが完成した後で、配列を変更して 40 個の要素を持つようにしなければならないことが分かりました。 アプリケーションは配列内の要素 40 個すべてを検査する必要があります。 次のうち、コードに必要となる変更を説明しているのはどれですか？
+開発者が、20個の要素を持つ配列を繰り返し処理するために`foreach`ループを使ったアプリケーションを作成しました。アプリケーション完成後、配列を40個の要素に更新する必要があることが分かりました。アプリケーションは40個すべての配列要素を調べる必要があります。必要なコードの修正内容として正しいものはどれですか？
 
 ## --answers--
 
-追加の項目を反復処理する 2 つ目の `foreach` ループを作成する。
+追加の要素を繰り返し処理するために、2つ目の`foreach`ループを作成します。
 
 ---
 
-`foreach` ループには変更は必要ない。
+`foreach`ループには変更は必要ありません。
 
 ---
 
-元の `foreach` ループを、処理を 2 回繰り返す 2 つ目の `foreach` ループの中に入れる。
+元の`foreach`ループを、2回繰り返す2つ目の`foreach`ループのコードブロック内に配置します。
 
 ## --video-solution--
 

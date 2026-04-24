@@ -1,6 +1,6 @@
 ---
 id: 67f07fdfe8c5aaef48d3d35a
-title: Task 130
+title: タスク130
 challengeType: 19
 dashedName: task-130
 lang: en-US
@@ -10,13 +10,13 @@ lang: en-US
 
 # --instructions--
 
-Read the text and answer the question below.
+テキストを読んで、以下の質問に答えてください。
 
 # --questions--
 
 ## --text--
 
-After the check-in with Sarah, Brian decides to write to Bob, from management, to update him on the situation.
+サラとのチェックインの後、ブライアンはマネジメントのボブに状況を報告するためにメールを書くことにしました。
 
 `Subject: Quick Update – Resources, Integration Issues, and Training`
 
@@ -36,35 +36,35 @@ After the check-in with Sarah, Brian decides to write to Bob, from management, t
 
 `Brian`
 
-Based on the `Subject` line, why did Brian write this email?
+`Subject`の行に基づいて、なぜブライアンはこのメールを書いたのでしょうか？
 
 ## --answers--
 
-To give an update about the team's progress and ask for information.
+チームの進捗状況を報告し、情報を求めるため。
 
 ---
 
-To remind management about their last meeting.
+マネジメントに前回の会議を思い出させるため。
 
 ### --feedback--
 
-There is no mention of a past meeting between Brian and management.
+ブライアンとマネジメントの間で過去の会議についての言及はありません。
 
 ---
 
-To tell management that the project is almost finished.
+プロジェクトがほぼ完了したことをマネジメントに伝えるため。
 
 ### --feedback--
 
-The email says there are still some challenges, so the project is not close to being finished.
+メールにはまだいくつかのチャレンジがあると書かれているため、プロジェクトは完了に近くありません。
 
 ---
 
-To ask Sarah about the new software integration.
+サラに新しいソフトウェアの統合について尋ねるため。
 
 ### --feedback--
 
-Brian already spoke to Sarah. He is now sharing that update with management.
+ブライアンはすでにサラと話しています。今はその更新をマネジメントに共有しています。
 
 ## --video-solution--
 
@@ -72,4 +72,4 @@ Brian already spoke to Sarah. He is now sharing that update with management.
 
 # --explanation--
 
-The `Subject` line normally brings the topics which are going to be dealt with in the body of the message. Read this line to find out the correct answer for this question.
+`Subject`の行は通常、メッセージ本文で扱うトピックを示します。この行を読んで、この質問の正しい答えを見つけてください。

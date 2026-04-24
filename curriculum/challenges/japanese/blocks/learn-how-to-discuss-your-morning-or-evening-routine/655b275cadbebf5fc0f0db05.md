@@ -1,6 +1,6 @@
 ---
 id: 655b275cadbebf5fc0f0db05
-title: Task 82
+title: タスク 82
 challengeType: 22
 dashedName: task-82
 lang: en-US
@@ -10,13 +10,13 @@ lang: en-US
 
 # --description--
 
-To `take` can mean different things depending on the situation. In the context of learning, to `take` means to attend or participate in a class or course. For example:
+`take` は状況によって異なる意味を持つことがあります。学習の文脈では、`take` はクラスやコースに参加することを意味します。例えば：
 
-- `I take online lessons at 7.` - Here, `take` means to attend the lessons.
+- `I take online lessons at 7.` - ここでの `take` はレッスンに参加することを意味します。
 
-- `She is taking a programming course this semester.` - Here, `taking` means she is enrolled in and attending the course.
+- `She is taking a programming course this semester.` - ここでの `taking` は彼女がコースに登録して参加していることを意味します。
 
-So, when you say `take lessons` or `take a course`, you are talking about joining or attending them, not physically taking something.
+ですので、`take lessons` や `take a course` と言うときは、何かを物理的に取るのではなく、それらに参加したり出席したりすることを話しています。
 
 # --fillInTheBlank--
 
@@ -30,7 +30,7 @@ So, when you say `take lessons` or `take a course`, you are talking about joinin
 
 ### --feedback--
 
-This verb describes the action of participating in the lessons.
+この動詞はレッスンに参加する動作を表しています。
 
 ---
 
@@ -38,7 +38,7 @@ This verb describes the action of participating in the lessons.
 
 ### --feedback--
 
-This word refers to a virtual environment.
+この言葉は仮想環境を指しています。
 
 # --scene--
 

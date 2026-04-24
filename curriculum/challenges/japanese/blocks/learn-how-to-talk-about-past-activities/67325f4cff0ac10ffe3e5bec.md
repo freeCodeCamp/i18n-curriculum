@@ -1,6 +1,6 @@
 ---
 id: 67325f4cff0ac10ffe3e5bec
-title: Task 114
+title: タスク114
 challengeType: 19
 dashedName: task-114
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+音声を聞いて、以下の質問に答えてください。
 
 # --questions--
 
 ## --text--
 
-What is James describing about his approach to coding?
+ジェームズは自分のコーディングの取り組みについて何を説明していますか？
 
 ## --answers--
 
-A habit he had in the past.
+過去に持っていた習慣。
 
 ---
 
-Something he plans to do in the future.
+将来やろうと考えていること。
 
 ### --feedback--
 
-James isn't talking about future plans; he is reflecting on something he did before.
+ジェームズは未来の計画について話しているのではなく、以前にしていたことを振り返っています。
 
 ---
 
-A habit he continues now.
+今も続けている習慣。
 
 ### --feedback--
 
-James uses the phrase `used to`, which shows he is describing something he did in the past, not currently.
+ジェームズは`used to`という表現を使っており、過去にしていたことを説明しているので、現在のことではありません。
 
 ---
 
-A process he never followed.
+一度もしたことがないプロセス。
 
 ### --feedback--
 
-James describes a habit he once had, so it is not something he never did.
+ジェームズはかつて持っていた習慣について話しているので、一度もしたことがないわけではありません。
 
 ## --video-solution--
 
@@ -52,11 +52,11 @@ James describes a habit he once had, so it is not something he never did.
 
 # --explanation--
 
-James says, `I used to just write code without thinking much about the end user.`
+ジェームズは`I used to just write code without thinking much about the end user.`と言っています。
 
-`Used to` indicates a past habit or action that is no longer true.
+`Used to`は、過去の習慣や現在は当てはまらない行動を示しています。
 
-This sentence shows that he previously wrote code without considering the end user but has since changed his approach.
+この文から、彼は以前はエンドユーザーのことをあまり考えずにコードを書いていたが、その後アプローチを変えたことがわかります。
 
 # --scene--
 

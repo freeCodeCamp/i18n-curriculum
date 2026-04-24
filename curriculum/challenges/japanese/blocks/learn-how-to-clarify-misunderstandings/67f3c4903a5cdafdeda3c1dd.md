@@ -1,6 +1,6 @@
 ---
 id: 67f3c4903a5cdafdeda3c1dd
-title: Task 143
+title: タスク 143
 challengeType: 22
 dashedName: task-143
 lang: en-US
@@ -10,13 +10,13 @@ lang: en-US
 
 # --description--
 
-This is a review of the entire dialogue you just studied.
+これは、あなたが学習したばかりの対話全体のレビューです。
 
 # --instructions--
 
-Write the following words or phrases in the correct spot:
+次の単語やフレーズを正しい場所に書いてください：
 
-`mix-up`, `on track`, `ironing out`, `misunderstanding`, `supposed`, `the confusion`, and `on the same page`.
+`mix-up`, `on track`, `ironing out`, `misunderstanding`, `supposed`, `the confusion`, および `on the same page`。
 
 # --fillInTheBlank--
 
@@ -52,7 +52,7 @@ Write the following words or phrases in the correct spot:
 
 ### --feedback--
 
-This noun refers to a failure to understand something correctly.
+この名詞は、何かを正しく理解できなかったことを指します。
 
 ---
 
@@ -60,7 +60,7 @@ This noun refers to a failure to understand something correctly.
 
 ### --feedback--
 
-These two words together indicate a lack of clarity or understanding. The first is an article the second is a noun.
+この2語は一緒に、明確さや理解の欠如を示します。最初は冠詞で、次は名詞です。
 
 ---
 
@@ -68,7 +68,7 @@ These two words together indicate a lack of clarity or understanding. The first 
 
 ### --feedback--
 
-These two words together describe something progressing as planned.
+この2語は一緒に、物事が計画通りに進んでいることを表します。
 
 ---
 
@@ -76,7 +76,7 @@ These two words together describe something progressing as planned.
 
 ### --feedback--
 
-These two words describe resolving small problems or details. The first word ends with `-ing`.
+この2語は、小さな問題や細かい点を解決することを表します。最初の単語は`-ing`で終わります。
 
 ---
 
@@ -84,7 +84,7 @@ These two words describe resolving small problems or details. The first word end
 
 ### --feedback--
 
-This is a `Past Participle` used to express expectation or intention.
+これは、期待や意図を表すために使われる`Past Participle`です。
 
 ---
 
@@ -92,7 +92,7 @@ This is a `Past Participle` used to express expectation or intention.
 
 ### --feedback--
 
-This noun describes a mistake or confusion due to things being confused. This is a compound word. Remember to use `-`.
+この名詞は、混同による間違いや混乱を表します。複合語です。`-`を使うことを忘れないでください。
 
 ---
 
@@ -100,4 +100,4 @@ This noun describes a mistake or confusion due to things being confused. This is
 
 ### --feedback--
 
-These four words together mean having a mutual understanding. The first word is a preposition.
+この4語は一緒に、相互理解があることを意味します。最初の単語は前置詞です。

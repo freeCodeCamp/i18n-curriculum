@@ -1,6 +1,6 @@
 ---
 id: 6620102deeab45aeeffa84ac
-title: Task 5
+title: タスク 5
 challengeType: 22
 dashedName: task-5
 lang: en-US
@@ -10,13 +10,13 @@ lang: en-US
 
 # --description--
 
-When describing the color of a person's eyes, you normally identify them first by their color. Common eye colors are `black`, `brown`, `blue`, and `green`. Depending on the color if can have a tendency to `white` or to `black` (the color itself is stronger or weaker). In this case, you can add the words `light` (tending to `white`) and `dark` (tending to `black`) before the color to express it. Another characteristic that you normally use to identify another person's eyes is the shape - `round` when it is more like a circle and `narrow` when it is more similar to a line. Finally, you can refer to them in terms of their size, `large` (when they are big) or `small` (when they are not). Tom also expresses an opinion, saying Lisa's eyes are full of energy and vitality. In this case, you say one's eyes is `bright`.
+人の目の色を説明するときは、通常、最初に色で識別します。一般的な目の色は `black`、`brown`、`blue`、`green` です。色によっては `white` または `black` の傾向があります（色自体が強いか弱いか）。この場合、色の前に `light`（`white` の傾向がある）や `dark`（`black` の傾向がある）という言葉を加えて表現できます。もう一つ、他人の目を識別するために通常使う特徴は形で、円に近い場合は `round`、線に近い場合は `narrow` です。最後に、目の大きさで表現することもでき、大きい場合は `large`、そうでない場合は `small` です。トム はまた意見を表現しており、リサ の目はエネルギーと活力に満ちていると言っています。この場合、目は `bright` と言います。
 
-As you do with `hair`, the adjectives to identify a person's eyes also follow an order in English. First, you express this opinion, then move on to the size, then the shape and finally the color (preceded or not by `light` or `dark`).
+`hair` と同様に、人の目を表す形容詞も英語では順序があります。最初に意見を表現し、次に大きさ、次に形、最後に色（`light` または `dark` があってもなくてもよい）を述べます。
 
-Example: `Tom has beautiful, small, narrow, light green eyes.`
+例：`Tom has beautiful, small, narrow, light green eyes.`
 
-Now listen and fill in the blanks with Tom's description of Lisa's eyes.
+では、トム が リサ の目を説明する内容を聞いて、空欄を埋めてください。
 
 # --fillInTheBlank--
 
@@ -30,7 +30,7 @@ Now listen and fill in the blanks with Tom's description of Lisa's eyes.
 
 ### --feedback--
 
-Tom expresses an opinion first. He says Lisa's eyes are full of energy.
+トム は最初に意見を述べています。リサ の目はエネルギーに満ちていると言っています。
 
 ---
 
@@ -38,7 +38,7 @@ Tom expresses an opinion first. He says Lisa's eyes are full of energy.
 
 ### --feedback--
 
-Tom finally talks about Lisa's eye color. It is a shade close to `black`, and neither `blue` nor `green`.
+トム は最後に リサ の目の色について話しています。`black` に近い色合いで、`blue` でも `green` でもありません。
 
 # --scene--
 

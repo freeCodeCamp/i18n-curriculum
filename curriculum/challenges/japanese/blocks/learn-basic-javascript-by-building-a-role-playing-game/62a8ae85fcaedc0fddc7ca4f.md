@@ -1,43 +1,42 @@
 ---
 id: 62a8ae85fcaedc0fddc7ca4f
-title: Step 59
+title: ステップ 59
 challengeType: 0
 dashedName: step-59
 ---
 
 # --description--
 
-Add a second object to your `locations` array (remember to separate them with a comma). Following the pattern you used in the first object, create the same properties but use the values from the `goStore` function. Set the `name` property to `store`.
+`locations` 配列に2つ目のオブジェクトを追加してください（カンマで区切るのを忘れずに）。最初のオブジェクトで使ったパターンに従い、同じプロパティを作成しますが、値は `goStore` 関数から取得してください。`name` プロパティは `store` に設定してください。
 
 # --hints--
 
-Your `locations` array should have two values.
+`locations` 配列には2つの値が必要です。
 
 ```js
 assert.lengthOf(locations, 2);
 ```
 
-Both `locations` values should be objects.
-
+両方の `locations` の値はオブジェクトである必要があります。
 
 ```js
 assert.isObject(locations[0]);
 assert.isObject(locations[1]);
 ```
 
-Your second `locations` object should have a `name` property with the value of `store`.
+2つ目の `locations` オブジェクトには、`name` プロパティがあり、その値は `store` である必要があります。
 
 ```js
 assert.equal(locations[1].name, "store");
 ```
 
-Your second `locations` object should have a `button text` property which is an array.
+2つ目の `locations` オブジェクトには、配列である `button text` プロパティが必要です。
 
 ```js
 assert.isArray(locations[1]["button text"]);
 ```
 
-Your `button text` property should have the string values `"Buy 10 health (10 gold)"`, `"Buy weapon (30 gold)"`, and `"Go to town square"`.
+`button text` プロパティには、文字列の値 `"Buy 10 health (10 gold)"`、`"Buy weapon (30 gold)"`、`"Go to town square"` が含まれている必要があります。
 
 ```js
 assert.equal(locations[1]["button text"][0], "Buy 10 health (10 gold)");
@@ -45,13 +44,13 @@ assert.equal(locations[1]["button text"][1], "Buy weapon (30 gold)");
 assert.equal(locations[1]["button text"][2], "Go to town square");
 ```
 
-Your second `locations` object should have a `button functions` property which is an array.
+2つ目の `locations` オブジェクトには、配列である `button functions` プロパティが必要です。
 
 ```js
 assert.isArray(locations[1]["button functions"]);
 ```
 
-Your `button functions` property should have the function values `buyHealth`, `buyWeapon`, and `goTown`.
+`button functions` プロパティには、関数の値 `buyHealth`、`buyWeapon`、`goTown` が含まれている必要があります。
 
 ```js
 assert.equal(locations[1]["button functions"][0], buyHealth);
@@ -59,19 +58,19 @@ assert.equal(locations[1]["button functions"][1], buyWeapon);
 assert.equal(locations[1]["button functions"][2], goTown);
 ```
 
-Your second `locations` object should have a `text` property which is a string.
+2つ目の `locations` オブジェクトには、文字列である `text` プロパティが必要です。
 
 ```js
 assert.isString(locations[1].text);
 ```
 
-Your second `locations` object should have a `text` property with the value of `"You enter the store."`.
+2つ目の `locations` オブジェクトには、`text` プロパティがあり、その値は `"You enter the store."` である必要があります。
 
 ```js
 assert.equal(locations[1].text, "You enter the store.");
 ```
 
-You should not modify the first `locations` object.
+最初の `locations` オブジェクトは変更しないでください。
 
 ```js
 assert.deepEqual(locations[0], {

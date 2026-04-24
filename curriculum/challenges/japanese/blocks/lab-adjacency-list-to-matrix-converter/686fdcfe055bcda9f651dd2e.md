@@ -1,15 +1,15 @@
 ---
 id: 686fdcfe055bcda9f651dd2e
-title: Build an Adjacency List to Matrix Converter
+title: 隣接リストから隣接行列への変換器を作成する
 challengeType: 27
 dashedName: build-an-adjacency-list-to-matrix-converter
 ---
 
 # --description--
 
-In this lab, you will build a function that converts an adjacency list representation of a graph into an adjacency matrix. An adjacency list is a dictionary where each key represents a node, and the corresponding value is a list of nodes that the key node is connected to. An adjacency matrix is a 2D array where the entry at position `[i][j]` is `1` if there's an edge from node `i` to node `j`, and `0` otherwise.
+このラボでは、グラフの隣接リスト表現を隣接行列に変換する関数を作成します。隣接リストは、各キーがノードを表し、そのキーのノードに接続されているノードのリストが対応する値となっている辞書です。隣接行列は2次元配列で、位置`[i][j]`の要素は、ノード`1`からノード`i`への辺がある場合は`j`、そうでなければ`0`となります。
 
-For example, given the adjacency list:
+例えば、次の隣接リストが与えられた場合：
 
 ```py
 {
@@ -20,7 +20,7 @@ For example, given the adjacency list:
 }
 ```
 
-The corresponding adjacency matrix would be:
+対応する隣接行列は次のようになります：
 
 ```py
 [
@@ -31,18 +31,18 @@ The corresponding adjacency matrix would be:
 ]
 ```
 
-**Objective:** Fulfill the user stories below and get all the tests to pass to complete the lab.
+**目的：** 以下のユーザーストーリーを満たし、すべてのテストに合格してラボを完了してください。
 
-**User Stories:**
+**ユーザーストーリー：**
 
-1. You should define a function named `adjacency_list_to_matrix` to convert an adjacency list to an adjacency matrix.
-2. The function should take a dictionary representing the adjacency list of an unweighted (either undirected or directed) graph as its argument.
-3. The function should:
-   - Convert the adjacency list to an adjacency matrix.
-   - Print each row in the adjacency matrix.
-   - Return the adjacency matrix.
+1. 隣接リストを隣接行列に変換するために、`adjacency_list_to_matrix`という名前の関数を定義してください。
+2. 関数は、重みなし（無向または有向）グラフの隣接リストを表す辞書を引数として受け取る必要があります。
+3. 関数は以下を行う必要があります：
+   - 隣接リストを隣接行列に変換する。
+   - 隣接行列の各行を出力する。
+   - 隣接行列を返す。
 
-For example, `adjacency_list_to_matrix({0: [2], 1: [2, 3], 2: [0, 1, 3], 3: [1, 2]})` should print:
+例えば、`adjacency_list_to_matrix({0: [2], 1: [2, 3], 2: [0, 1, 3], 3: [1, 2]})`は次のように出力し：
 
 ```md
 [0, 0, 1, 0]
@@ -51,12 +51,12 @@ For example, `adjacency_list_to_matrix({0: [2], 1: [2, 3], 2: [0, 1, 3], 3: [1, 
 [0, 1, 1, 0]
 ```
 
-and return `[[0, 0, 1, 0], [0, 0, 1, 1], [1, 1, 0, 1], [0, 1, 1, 0]]`.
+`[[0, 0, 1, 0], [0, 0, 1, 1], [1, 1, 0, 1], [0, 1, 1, 0]]`を返すべきです。
 
 
 # --hints--
 
-You should define a function named `adjacency_list_to_matrix`.
+`adjacency_list_to_matrix`という名前の関数を定義してください。
 
 ```js
 ({ 
@@ -66,7 +66,7 @@ You should define a function named `adjacency_list_to_matrix`.
 })
 ```
 
-The `adjacency_list_to_matrix` function should have one parameter.
+`adjacency_list_to_matrix`関数は1つのパラメータを持つべきです。
 
 ```js
 ({ test: () => assert(runPython(`
@@ -77,7 +77,7 @@ The `adjacency_list_to_matrix` function should have one parameter.
 })
 ```
 
-The function should correctly determine the number of nodes from the adjacency list.
+関数は隣接リストからノード数を正しく判別する必要があります。
 
 ```js
 ({ 
@@ -90,7 +90,7 @@ The function should correctly determine the number of nodes from the adjacency l
 })
 ```
 
-The function should correctly set matrix values to `1` for existing edges.
+関数は存在する辺に対して行列の値を`1`に正しく設定する必要があります。
 
 ```js
 ({ 
@@ -105,30 +105,30 @@ The function should correctly set matrix values to `1` for existing edges.
 })
 ```
 
-The function should print each row of the matrix.
+関数は行列の各行を出力する必要があります。
 
 ```js
 ({ 
     test: () => runPython(`
         import io
         import sys
-
+        
         captured_output = io.StringIO()
         sys.stdout = captured_output
-
+        
         adj_list = {0: [1], 1: []}
         adjacency_list_to_matrix(adj_list)
-
+        
         sys.stdout = sys.__stdout__
         output = captured_output.getvalue()
-
+        
         assert "[0, 1]" in output
         assert "[0, 0]" in output
     `) 
 })
 ```
 
-The function should return the adjacency matrix.
+関数は隣接行列を返す必要があります。
 
 ```js
 ({ 
@@ -140,7 +140,7 @@ The function should return the adjacency matrix.
 })
 ```
 
-When given the adjacency list `{0: [1, 2], 1: [2], 2: [0, 3], 3: [2]}`, the function should return `[[0, 1, 1, 0], [0, 0, 1, 0], [1, 0, 0, 1], [0, 0, 1, 0]]`.
+隣接リスト`{0: [1, 2], 1: [2], 2: [0, 3], 3: [2]}`が与えられた場合、関数は`[[0, 1, 1, 0], [0, 0, 1, 0], [1, 0, 0, 1], [0, 0, 1, 0]]`を返すべきです。
 
 ```js
 ({ 
@@ -153,7 +153,7 @@ When given the adjacency list `{0: [1, 2], 1: [2], 2: [0, 3], 3: [2]}`, the func
 })
 ```
 
-When given the adjacency list `{0: [1], 1: [0]}`, the function should return `[[0, 1], [1, 0]]`.
+隣接リスト`{0: [1], 1: [0]}`が与えられた場合、関数は`[[0, 1], [1, 0]]`を返すべきです。
 
 ```js
 ({ 
@@ -166,7 +166,7 @@ When given the adjacency list `{0: [1], 1: [0]}`, the function should return `[[
 })
 ```
 
-When given the adjacency list `{0: [], 1: [], 2: []}`, the function should return `[[0, 0, 0], [0, 0, 0], [0, 0, 0]]`.
+隣接リスト`{0: [], 1: [], 2: []}`が与えられた場合、関数は`[[0, 0, 0], [0, 0, 0], [0, 0, 0]]`を返すべきです。
 
 ```js
 ({ 
@@ -192,7 +192,7 @@ When given the adjacency list `{0: [], 1: [], 2: []}`, the function should retur
 ```py
 def adjacency_list_to_matrix(adj_list):
     n = len(adj_list)
-
+    
     adj_matrix = [[0] * n for _ in range(n)]
 
     for src_node, neighbors in adj_list.items(): 

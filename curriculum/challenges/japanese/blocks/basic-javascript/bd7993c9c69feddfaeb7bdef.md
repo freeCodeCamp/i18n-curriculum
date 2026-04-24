@@ -1,6 +1,6 @@
 ---
 id: bd7993c9c69feddfaeb7bdef
-title: Multiply Two Decimals with JavaScript
+title: JavaScriptで小数を乗算する
 challengeType: 1
 forumTopicId: 301173
 dashedName: multiply-two-decimals-with-javascript
@@ -8,23 +8,23 @@ dashedName: multiply-two-decimals-with-javascript
 
 # --description--
 
-In JavaScript, you can also perform calculations with decimal numbers, just like whole numbers.
+JavaScriptでは、整数と同じように小数の計算もできます。
 
-Let's multiply two decimals together to get their product.
+2つの小数を乗算して、その積を求めましょう。
 
 # --instructions--
 
-Change the `0.0` so that product will equal `5.0`.
+`0.0` を変更して、productが `5.0` と等しくなるようにしてください。
 
 # --hints--
 
-The variable `product` should equal `5.0`.
+変数`product`は`5.0`と等しくなる必要があります。
 
 ```js
 assert(product === 5.0);
 ```
 
-You should use the `*` operator
+`*`演算子を使うべきです。
 
 ```js
 assert(/\*/.test(__helpers.removeJSComments(code)));

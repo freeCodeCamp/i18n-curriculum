@@ -1,6 +1,6 @@
 ---
 id: 679d62d4afabb9cb6f9ece23
-title: Task 106
+title: タスク 106
 challengeType: 19
 dashedName: task-106
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+音声を聞いて、以下の質問に答えてください。
 
 # --questions--
 
 ## --text--
 
-What does Maria want to avoid doing, and why?
+マリアは何を避けたいと思っていて、その理由は何ですか？
 
 ## --answers--
 
-She wants to avoid fixing the problem.
+問題を修正することを避けたい。
 
 ### --feedback--
 
-Maria is not saying they shouldn't fix the problem.
+マリアは問題を修正すべきでないとは言っていません。
 
 ---
 
-She wants to avoid asking for help.
+助けを求めることを避けたい。
 
 ### --feedback--
 
-Maria does not mention asking for help.
+マリアは助けを求めることについて言及していません。
 
 ---
 
-She wants to avoid rushing because it could cause more problems.
+急ぐことを避けたい、なぜならそれがさらなる問題を引き起こす可能性があるから。
 
 ---
 
-She wants to avoid updating the software.
+ソフトウェアの更新を避けたい。
 
 ### --feedback--
 
-Maria does not say they should avoid updating.
+マリアは更新を避けるべきとは言っていません。
 
 ## --video-solution--
 
@@ -52,11 +52,11 @@ Maria does not say they should avoid updating.
 
 # --explanation--
 
-`To lead to problems` means that an action or decision could result in difficulties or negative consequences. For example:
+`To lead to problems` は、ある行動や決定が困難や悪影響をもたらす可能性があることを意味します。例えば：
 
-`Skipping the testing phase can lead to serious problems in the software.` - This means that not testing properly might cause major technical issues.
+`Skipping the testing phase can lead to serious problems in the software.` - これは、適切にテストしないと重大な技術的問題が起こるかもしれないという意味です。
 
-In this dialogue, Maria is concerned that rushing could create additional issues.
+この会話では、マリアは急ぐことで追加の問題が生じることを懸念しています。
 
 # --scene--
 

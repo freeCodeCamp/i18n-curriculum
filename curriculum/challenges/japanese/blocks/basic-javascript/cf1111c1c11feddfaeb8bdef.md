@@ -1,6 +1,6 @@
 ---
 id: cf1111c1c11feddfaeb8bdef
-title: Modify Array Data With Indexes
+title: インデックスで配列のデータを変更する
 challengeType: 1
 forumTopicId: 18241
 dashedName: modify-array-data-with-indexes
@@ -8,26 +8,26 @@ dashedName: modify-array-data-with-indexes
 
 # --description--
 
-Unlike strings, the entries of arrays are <dfn>mutable</dfn> and can be changed freely, even if the array was declared with `const`.
+文字列とは異なり、配列のエントリーは<dfn>変更可能</dfn>であり、配列が`const`で宣言されていても自由に変更できます。
 
-**Example**
+**例**
 
 ```js
 const ourArray = [50, 40, 30];
 ourArray[0] = 15;
 ```
 
-`ourArray` now has the value `[15, 40, 30]`.
+`ourArray`は現在`[15, 40, 30]`の値を持っています。
 
-**Note:** There shouldn't be any spaces between the array name and the square brackets, like `array [0]`. Although JavaScript is able to process this correctly, this may confuse other programmers reading your code.
+**注意:** 配列名と大括弧の間にスペースを入れてはいけません。例えば`array [0]`のようにしてください。JavaScriptはこれを正しく処理できますが、他のプログラマーがコードを読む際に混乱する可能性があります。
 
 # --instructions--
 
-Modify the data stored at index `0` of `myArray` to a value of `45`.
+`0`のインデックス`myArray`に格納されているデータを`45`の値に変更してください。
 
 # --hints--
 
-`myArray` should now be `[45, 64, 99]`.
+`myArray`は現在`[45, 64, 99]`であるはずです。
 
 ```js
 assert(
@@ -46,7 +46,7 @@ assert(
 );
 ```
 
-You should be using correct index to modify the value in `myArray`.
+`myArray`の値を変更するには正しいインデックスを使う必要があります。
 
 ```js
 assert(

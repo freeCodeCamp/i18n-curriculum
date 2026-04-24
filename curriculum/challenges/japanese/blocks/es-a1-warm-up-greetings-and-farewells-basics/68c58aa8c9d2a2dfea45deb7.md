@@ -1,26 +1,25 @@
 ---
 id: 68c58aa8c9d2a2dfea45deb7
-title: Task 7
+title: タスク7
 challengeType: 19
 dashedName: task-7
 lang: es
 ---
-
 <!-- (Audio) Elena: Hasta luego -->
 
 # --description--
 
-Elena is saying goodbye, but she expects to see you again.
+エレナはさよならを言っていますが、また会うことを期待しています。
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+音声を聞いて、以下の質問に答えてください。
 
 # --questions--
 
 ## --text--
 
-What phrase does Elena use to say "see you later"?
+エレナは「またね」と言うためにどのフレーズを使っていますか？
 
 ## --answers--
 
@@ -32,7 +31,7 @@ What phrase does Elena use to say "see you later"?
 
 ### --feedback--
 
-This is a goodbye, but it's more final. The speaker uses a different phrase.
+これはさよならですが、より決定的な別れを意味します。話者は別のフレーズを使っています。
 
 ---
 
@@ -40,7 +39,7 @@ This is a goodbye, but it's more final. The speaker uses a different phrase.
 
 ### --feedback--
 
-This is also an informal way to say goodbye, but it's not the one in the audio.
+これもカジュアルな別れの挨拶ですが、音声で使われているものではありません。
 
 ---
 
@@ -48,7 +47,7 @@ This is also an informal way to say goodbye, but it's not the one in the audio.
 
 ### --feedback--
 
-This means "Hi", a general greeting, but it's not what Elena says.
+これは「こんにちは」という意味の一般的な挨拶ですが、エレナが言っているのはこれではありません。
 
 ## --video-solution--
 
@@ -56,11 +55,11 @@ This means "Hi", a general greeting, but it's not what Elena says.
 
 # --explanation--
 
-`Hasta luego` is a common way to say goodbye in Spanish. It translates to "See you later".
+`Hasta luego` はスペイン語でよく使われるさよならの言い方です。「またね」と訳されます。
 
-It's used when you expect to see the person again, but not necessarily soon. For example:
+これは相手にまた会うことを期待して使われますが、必ずしもすぐに会うわけではありません。例えば：
 
-`Hasta luego, Marta.` – See you later, Marta.
+`Hasta luego, Marta.` – またね、マルタ。
 
 # --scene--
 

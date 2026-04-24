@@ -1,6 +1,6 @@
 ---
 id: 67eeb0a9bfe9ce2ab1cbffd2
-title: Task 29
+title: タスク 29
 challengeType: 19
 dashedName: task-29
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+音声を聞いて、以下の質問に答えてください。
 
 # --questions--
 
 ## --text--
 
-What else should Mark have done?
+マークは他に何をすべきでしたか？
 
 ## --answers--
 
-He should have rewritten his entire code.
+彼はコード全体を書き直すべきでした。
 
 ### --feedback--
 
-Mark didn't need to rewrite everything.
+マークはすべてを書き直す必要はありませんでした。
 
 ---
 
-He should have tested his code first.
+彼は最初にコードをテストするべきでした。
 
 ---
 
-He should have removed all comments.
+彼はすべてのコメントを削除するべきでした。
 
 ### --feedback--
 
-Comments are useful and should not be removed.
+コメントは役に立つので削除すべきではありません。
 
 ---
 
-He should have skipped testing because it takes too long.
+彼はテストに時間がかかるのでスキップするべきでした。
 
 ### --feedback--
 
-Testing is an important step before submitting code.
+テストはコードを提出する前の重要なステップです。
 
 ## --video-solution--
 
@@ -52,11 +52,11 @@ Testing is an important step before submitting code.
 
 # --explanation--
 
-A `test suite` is a collection of tests that check if a program works correctly. For example:
+A `test suite` はプログラムが正しく動作するかを確認するためのテストの集合です。例えば：
 
-- `We ran the test suite to check if the app works properly.` - The team executed all the tests to ensure the app functions as expected.
+- `We ran the test suite to check if the app works properly.` - チームはアプリが期待通りに動作することを確認するためにすべてのテストを実行しました。
 
-- `We need to add more tests to the test suite to check for edge cases.` - The team should include more tests to cover all possible situations.
+- `We need to add more tests to the test suite to check for edge cases.` - チームはすべての可能な状況をカバーするためにもっと多くのテストを含めるべきです。
 
 # --scene--
 

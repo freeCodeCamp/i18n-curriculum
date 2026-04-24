@@ -1,6 +1,6 @@
 ---
 id: 67c70abfeb7c6fb8cbd3fed7
-title: Task 57
+title: タスク 57
 challengeType: 19
 dashedName: task-57
 lang: en-US
@@ -10,51 +10,51 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+音声を聞いて、以下の質問に答えてください。  
 
 # --questions--
 
 ## --text--
 
-What does Maria want to discuss with James?
+マリアはジェームズと何について話したいですか？  
 
 ## --answers--
 
-Bob's schedule for the week.
+ボブの今週のスケジュール。  
 
 ### --feedback--
 
-Maria does not mention Bob's schedule.
+マリアはボブのスケジュールについては言及していません。  
 
 ---
 
-Her most recent meeting with Bob.
+彼女のボブとの最近のミーティング。  
 
 ---
 
-A future project deadline.
+将来のプロジェクトの締め切り。  
 
 ### --feedback--
 
-Maria does not mention a deadline, only her meeting with Bob.
+マリアは締め切りについては言及しておらず、ボブとのミーティングだけを話しています。  
 
 ---
 
-The client's budget request.
+クライアントの予算リクエスト。  
 
 ### --feedback--
 
-Maria does not refer to a client request in this sentence.
+マリアはこの文でクライアントのリクエストについては言及していません。  
 
 ## --video-solution--
 
-2
+2  
 
 # --explanation--
 
-`Can we talk about...` is used to introduce a topic for discussion. It is a polite way to request a conversation about something important. For example:
+`Can we talk about...` は話題を紹介するために使われます。これは何か重要なことについて話をしたいと丁寧にお願いする表現です。例えば：
 
-`Can we talk about the changes to the project timeline?` - This means the speaker wants to discuss the project timeline adjustments.
+`Can we talk about the changes to the project timeline?` - これは話者がプロジェクトのタイムライン調整について話したいことを意味します。
 
 # --scene--
 

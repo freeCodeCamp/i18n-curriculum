@@ -1,29 +1,29 @@
 ---
 id: 5f3ef6e087d56ed3ffdc36be
-title: Step 61
+title: ステップ 61
 challengeType: 0
 dashedName: step-61
 ---
 
 # --description--
 
-Now apply the `established` class to the `Est. 2020` text.
+`established` のテキストに `Est. 2020` クラスを適用してください。
 
 # --hints--
 
-You should set the `class` of the `p` element to `established`.
+`class` 要素の `p` を `established` に設定する必要があります。
 
 ```js
 assert.match(code,/<p class=('|")established\1>/i);
 ```
 
-Your `established` class should be on the element with the text `Est. 2020`.
+`established` のテキストがある要素に `Est. 2020` クラスを付けてください。
 
 ```js
 assert.match(document.querySelector('.established')?.innerText, /Est\.\s2020/i);
 ```
 
-Your `established` class element should have italic text.
+`established` クラスの要素はイタリック体のテキストである必要があります。
 
 ```js
 const establishElement = document.querySelector('.established');

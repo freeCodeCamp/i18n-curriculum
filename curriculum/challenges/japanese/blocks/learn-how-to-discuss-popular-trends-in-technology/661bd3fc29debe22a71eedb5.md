@@ -1,6 +1,6 @@
 ---
 id: 661bd3fc29debe22a71eedb5
-title: Task 69
+title: タスク 69
 challengeType: 19
 dashedName: task-69
 lang: en-US
@@ -8,41 +8,41 @@ lang: en-US
 
 # --description--
 
-`Physical or behavioral traits` are special things about your body or how you act. It can be your face, fingerprints, or the way you move. Biometrics uses these things to keep things safe.
+`Physical or behavioral traits` は、体や行動の特別な特徴です。顔や指紋、動き方などが含まれます。バイオメトリクスはこれらの特徴を使って安全を守ります。
 
 # --questions--
 
 ## --text--
 
-What do `physical or behavioral traits` include in biometrics?
+バイオメトリクスにおける `physical or behavioral traits` には何が含まれますか？
 
 ## --answers--
 
-Random objects
+ランダムな物体
 
 ### --feedback--
 
-Random objects don't fit the idea of personal characteristics used in biometrics.
+ランダムな物体は、バイオメトリクスで使われる個人の特徴の概念に合いません。
 
 ---
 
-Magical powers
+魔法の力
 
 ### --feedback--
 
-Magical powers are unrelated to the concept of unique personal features in biometrics.
+魔法の力は、バイオメトリクスにおける独特な個人の特徴の概念とは無関係です。
 
 ---
 
-Colorful patterns
+カラフルな模様
 
 ### --feedback--
 
-Colorful patterns do not represent the specific traits of your body or behavior.
+カラフルな模様は、体や行動の特定の特徴を表しません。
 
 ---
 
-Special characteristics of your body or behavior
+体や行動の特別な特徴
 
 ## --video-solution--
 

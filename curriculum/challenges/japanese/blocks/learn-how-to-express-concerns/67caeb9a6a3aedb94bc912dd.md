@@ -1,6 +1,6 @@
 ---
 id: 67caeb9a6a3aedb94bc912dd
-title: Task 129
+title: タスク129
 challengeType: 22
 dashedName: task-129
 lang: en-US
@@ -10,39 +10,39 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+音声を聞いて、以下の文を完成させてください。  
 
 # --fillInTheBlank--
 
 ## --sentence--
 
-`They BLANK said the communication isn't great because they BLANK don't hear about changes until it's too late.`
+`They BLANK said the communication isn't great because they BLANK don't hear about changes until it's too late.`  
 
 ## --blanks--
 
-`also`
+`also`  
 
 ### --feedback--
 
-This means in addition or as well.
+これは「加えて」や「～もまた」という意味です。
 
----
+---  
 
-`often`
+`often`  
 
 ### --feedback--
 
-This means frequently or many times.
+これは「頻繁に」や「何度も」という意味です。
 
 # --explanation--
 
-`Also` means in addition to something previously mentioned. For example:
+`Also` は、前に述べたことに加えてという意味です。例えば：
 
-`She speaks English and also knows French.` - This means she knows French in addition to English.
+`She speaks English and also knows French.` - これは彼女が英語に加えてフランス語も知っているという意味です。  
 
-`Often` means frequently or regularly. For example:
+`Often` は、頻繁にまたは定期的にという意味です。例えば：
 
-`He often works late on Fridays.` - This means he works late many times or regularly on Fridays.
+`He often works late on Fridays.` - これは彼が金曜日に何度もまたは定期的に遅くまで働くという意味です。
 
 # --scene--
 

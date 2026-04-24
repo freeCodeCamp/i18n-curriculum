@@ -1,6 +1,6 @@
 ---
 id: 67b9becbb4fd3b0d7fc2411e
-title: Task 65
+title: タスク 65
 challengeType: 22
 dashedName: task-65
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+音声を聞いて、以下の文を完成させてください。
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This word refers to things taking longer than expected.
+この単語は、予想よりも時間がかかることを指します。
 
 ---
 
@@ -32,13 +32,13 @@ This word refers to things taking longer than expected.
 
 ### --feedback--
 
-This word refers to misunderstandings caused by unclear or incorrect information.
+この単語は、不明瞭または誤った情報によって引き起こされる誤解を指します。
 
 # --explanation--
 
-David is concerned that asynchronous remote work might cause `delays` (slower responses and progress) and `miscommunication` (people misunderstanding each other).
+デイビッドは、非同期のリモートワークが`delays`（レスポンスや進捗の遅れ）や`miscommunication`（人々の誤解）を引き起こすのではないかと懸念しています。
 
-Since employees work at different times, messages may take longer to be answered, and misunderstandings may happen if communication isn't clear.
+従業員が異なる時間に働くため、メッセージの返信に時間がかかることがあり、コミュニケーションが明確でないと誤解が生じる場合があります。
 
 # --scene--
 

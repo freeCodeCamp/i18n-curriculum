@@ -1,6 +1,6 @@
 ---
 id: 683d4ae3cbcc8c94e78aade1
-title: Task 19
+title: タスク 19
 challengeType: 19
 dashedName: task-19
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+音声を聞いて、以下の質問に答えてください。
 
 # --questions--
 
 ## --text--
 
-What is Bob explaining?
+ボブは何を説明していますか？
 
 ## --answers--
 
-That the emergency exit is blocked.
+非常口が塞がれていること。
 
 ### --feedback--
 
-Bob doesn't say the exit is blocked - he just mentions its location.
+ボブは出口が塞がれているとは言っていません。場所について話しています。
 
 ---
 
-That the back door needs a new lock.
+裏口の鍵を新しくする必要があること。
 
 ### --feedback--
 
-Bob doesn't mention anything about locks or a back door needing repairs.
+ボブは鍵や裏口の修理については何も言っていません。
 
 ---
 
-That the server room needs to be cleaned.
+サーバールームを掃除する必要があること。
 
 ### --feedback--
 
-There is no mention of cleaning in Bob's sentence.
+ボブの発言には掃除についての言及はありません。
 
 ---
 
-That something is located near the emergency exit.
+何かが非常口の近くにあること。
 
 ## --video-solution--
 
@@ -52,9 +52,9 @@ That something is located near the emergency exit.
 
 # --explanation--
 
-Bob says, `Exactly. It's in the back, next to the emergency exit`. This means he is confirming the location of something - right beside the emergency exit.
+ボブは `Exactly. It's in the back, next to the emergency exit` と言っています。これは何かの場所を非常口のすぐそばであると確認していることを意味します。
 
-He doesn't talk about repairs, cleaning, or problems.
+修理や掃除、問題については話していません。
 
 # --scene--
 

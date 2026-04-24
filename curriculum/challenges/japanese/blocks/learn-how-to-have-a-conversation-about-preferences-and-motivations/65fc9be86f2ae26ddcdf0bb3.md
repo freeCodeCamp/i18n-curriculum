@@ -1,6 +1,6 @@
 ---
 id: 65fc9be86f2ae26ddcdf0bb3
-title: Task 36
+title: タスク 36
 challengeType: 19
 dashedName: task-36
 lang: en-US
@@ -11,41 +11,41 @@ lang: en-US
 
 # --description--
 
-Listen to Maria and answer the question.
+マリアの話を聞いて質問に答えてください。
 
 # --questions--
 
 ## --text--
 
-What can boost their motivation according to Maria?
+マリアによると、何が彼らのモチベーションを高めることができますか？
 
 ## --answers--
 
-Having a big team
+大きなチームを持つこと
 
 ### --feedback--
 
-Think about what specifically makes the team more motivated, not just the size of the team.
+チームの規模だけでなく、具体的に何がチームのモチベーションを高めるのか考えてみてください。
 
 ---
 
-Taking a long break
+長い休憩を取ること
 
 ### --feedback--
 
-Consider if breaks are mentioned as a way to increase motivation.
+休憩がモチベーションを高める方法として言及されているか考えてみてください。
 
 ---
 
-Seeing the team inspired
+チームがやる気に満ちているのを見ること
 
 ---
 
-Solving problems quickly
+問題を素早く解決すること
 
 ### --feedback--
 
-Reflect on whether the speed of solving problems is what Maria highlights as motivating.
+マリアがモチベーションの源として強調しているのが問題解決の速さかどうか考えてみてください。
 
 ## --video-solution--
 

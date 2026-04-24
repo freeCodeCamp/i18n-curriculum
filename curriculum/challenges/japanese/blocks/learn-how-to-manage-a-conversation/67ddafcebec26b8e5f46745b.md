@@ -1,6 +1,6 @@
 ---
 id: 67ddafcebec26b8e5f46745b
-title: Task 31
+title: タスク 31
 challengeType: 22
 dashedName: task-31
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+音声を聞いて、以下の文を完成させてください。
 
 # --fillInTheBlank--
 
@@ -24,13 +24,13 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This means in addition to something or other than what has already been mentioned.
+これは「～に加えて」や「すでに言及されたこと以外に」という意味です。
 
 # --explanation--
 
-`Else` in the expression `anything else` is used to ask if there is something in addition to what has already been said or done. For example:
+`Else` は、`anything else` という表現の中で、すでに言われたことや行われたことに加えて何かあるかどうかを尋ねるために使われます。例えば：
 
-`Would you like anything else with your order?` - Here, you are asking if the other person wants something in addition to what they already asked for.
+`Would you like anything else with your order?` - ここでは、相手がすでに頼んだものに加えて何か欲しいかどうかを尋ねています。
 
 # --scene--
 

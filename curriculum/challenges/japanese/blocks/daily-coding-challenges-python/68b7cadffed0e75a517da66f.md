@@ -7,10 +7,10 @@ dashedName: challenge-50
 
 # --description--
 
-Given a sentence, return the longest word in the sentence.
+文章が与えられたとき、その文章の中で最も長い単語を返してください。
 
-- Ignore periods (`.`) when determining word length.
-- If multiple words are ties for the longest, return the first one that occurs.
+- 単語の長さを判断するときは、ピリオド（`.`）を無視してください。
+- 最長の単語が複数ある場合は、最初に出現する単語を返してください。
 
 # --hints--
 

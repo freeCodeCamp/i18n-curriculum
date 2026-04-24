@@ -1,6 +1,6 @@
 ---
 id: 6856ddea73ea5fafe4d65cfc
-title: Task 95
+title: タスク 95
 challengeType: 19
 dashedName: task-95
 lang: en-US
@@ -12,13 +12,13 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+音声を聞いて、以下の質問に答えてください。
 
 # --questions--
 
 ## --text--
 
-How could Linda praise Jake's idea?
+リンダはどのようにしてジェイクのアイデアを褒めることができるでしょうか？
 
 ## --answers--
 
@@ -38,7 +38,7 @@ EN13416258
 
 ### --feedback--
 
-This sounds doubtful, not supportive.
+これは疑わしい響きで、支持的ではありません。
 
 ## --video-solution--
 
@@ -46,11 +46,11 @@ This sounds doubtful, not supportive.
 
 # --explanation--
 
-`That's an excellent suggestion` is a polite and positive way to praise someone's idea by showing strong agreement and approval. For example:
+`That's an excellent suggestion` は、強い同意と承認を示して誰かのアイデアを丁寧かつ肯定的に褒める方法です。例えば：
 
-- **Graphic designer:** `Let's add more visuals to the report.` – This person suggests that they incorporate more graphics and images to the report to make it more vivid.
+- **グラフィックデザイナー:** `Let's add more visuals to the report.` – この人は、レポートをより鮮やかにするために、もっとグラフィックや画像を取り入れることを提案しています。
 
-- **Project manager:** `That's an excellent suggestion.` – This means the person thinks the idea is very good and helpful.
+- **プロジェクトマネージャー:** `That's an excellent suggestion.` – これは、その人がそのアイデアを非常に良くて役立つと考えていることを意味します。
 
 # --scene--
 

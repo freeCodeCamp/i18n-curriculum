@@ -8,13 +8,13 @@ dashedName: try-except
 
 # --description--
 
-In this video, you will learn how to handle exceptions using try/except blocks to make your programs more robust.
+このビデオでは、try/except ブロックを使って例外を処理し、プログラムをより堅牢にする方法を学びます。
 
 # --questions--
 
 ## --text--
 
-What will be the result for the following code if the user provides the string `"random"`?
+ユーザーが文字列 `"random"` を入力した場合、次のコードの結果はどうなりますか？
 
 ```python
 try:
@@ -26,19 +26,19 @@ except:
 
 ## --answers--
 
-Nothing will be output to the console.
+コンソールには何も出力されません。
 
 ---
 
-The string `"random"` will be output to the console.
+コンソールに文字列 `"random"` が出力されます。
 
 ---
 
-The string `"Invalid Input"` will be output to the console.
+コンソールに文字列 `"Invalid Input"` が出力されます。
 
 ---
 
-The program will crash.
+プログラムがクラッシュします。
 
 ## --video-solution--
 

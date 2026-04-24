@@ -7,17 +7,17 @@ dashedName: step-11
 
 # --description--
 
-ここまでのプロジェクトでは、通常の関数を使用しました。 ここからのプロジェクトでは<dfn>アロー関数</dfn>を使用します。 ここからいくつかのステップで、アロー関数の基本について学びます。
+これまでのプロジェクトでは通常の関数を使ってきましたが、残りのプロジェクトでは<dfn>アロー関数</dfn>を使っていきます。次の数ステップではアロー関数の基本を学びます。
 
-アロー関数は無名関数式であり、関数をより短く書ける方法です。 無名 (Anonymous) とは、関数に名前がないことを意味します。 アロー関数は常に無名です。
+アロー関数は無名関数の式であり、関数を書く短い方法です。無名とは関数に名前がないことを意味します。アロー関数は常に無名です。
 
-基本的な構文は次のとおりです。
+基本的な構文は以下の通りです。
 
 ```js
 () => {}
 ```
 
-By assigning the arrow function definition to a variable, you bind it to an identifier.
+アロー関数の定義を変数に代入すると、識別子にバインドされます。
 
 ```js
 const exampleFunction = () => {
@@ -25,23 +25,23 @@ const exampleFunction = () => {
 }
 ```
 
-Create a new arrow function and assign it to the variable `printGreeting`. Inside the function body, use the `console.log()` method to print the string `Hello there!`.
+新しいアロー関数を作成し、変数`printGreeting`に代入してください。関数本体の中で、`console.log()`メソッドを使って文字列`Hello there!`を出力してください。
 
 # --hints--
 
-You should have a variable named `printGreeting` and assign it an arrow function.
+`printGreeting`という名前の変数を作り、アロー関数を代入してください。
 
 ```js
 assert.isFunction(printGreeting);
 ```
 
-You should create an arrow function and assign it to the `printGreeting` variable.
+アロー関数を作成し、`printGreeting`変数に代入してください。
 
 ```js
 assert.match(code, /(let|const)\s+printGreeting\s*=\s*\(.*\)\s*=>\s*{\s*[\s\S]*}\s*;?/)
 ```
 
-Your `printGreeting` function should log `Hello there!` to the console.
+`printGreeting`関数はコンソールに`Hello there!`を出力する必要があります。
 
 ```js
 assert.match(printGreeting.toString(), /console\.log\(['"]Hello\s+there!['"]\)/);

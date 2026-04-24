@@ -1,6 +1,6 @@
 ---
 id: 69399bbb6d7a7bfeedaddd96
-title: Task 13
+title: タスク 13
 challengeType: 22
 dashedName: task-13
 lang: es
@@ -10,17 +10,17 @@ lang: es
 
 # --description--
 
-The verb `escribir` means "to write". When Spanish speakers want to explain how a word is written or spelled, they often use the expression `se escribe`.
+動詞 `escribir` は「書く」という意味です。スペイン語話者が単語の書き方やつづり方を説明したいとき、よく `se escribe` という表現を使います。
 
-This form comes from the verb `escribir` and is commonly used before spelling names, emails, or other words letter by letter. For example:
+この形は動詞 `escribir` から来ていて、名前やメールアドレス、その他の単語を文字ごとにつづる前によく使われます。例えば：
 
-- `Carlos se escribe C-a-r-l-o-s.` – Carlos is spelled C-a-r-l-o-s.
+- `Carlos se escribe C-a-r-l-o-s.` – カルロス は C-a-r-l-o-s とつづります。  
 
-- `Mi apellido se escribe con z.` – My last name is spelled with z.
+- `Mi apellido se escribe con z.` – 私の苗字は z でつづります。
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+音声を聞いて、下の文を完成させてください。
 
 # --fillInTheBlank--
 
@@ -38,7 +38,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This small word is part of a common expression used when explaining how something is written.
+この小さな単語は、何かの書き方を説明するときによく使われる表現の一部です。
 
 ---
 
@@ -46,13 +46,13 @@ This small word is part of a common expression used when explaining how somethin
 
 ### --feedback--
 
-This verb form comes from `escribir` and is used when spelling a word.
+この動詞の形は `escribir` から来ていて、単語をつづるときに使われます。
 
 # --explanation--
 
-`Se escribe` is used when explaining how a word or name is written.
+`Se escribe` は単語や名前の書き方を説明するときに使われます。
 
-It comes from the verb `escribir` and is commonly used before spelling something letter by letter.
+動詞 `escribir` から来ていて、文字ごとにつづる前によく使われます。
 
 # --scene--
 

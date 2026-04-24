@@ -1,6 +1,6 @@
 ---
 id: 699e85568f18cf77dfce5c20
-title: Law of Cosines - Old Version
+title: 余弦定理 - 古いバージョン
 challengeType: 11
 videoId: 3BMPsNLtcmA
 dashedName: law-of-cosines-old-version
@@ -8,13 +8,13 @@ dashedName: law-of-cosines-old-version
 
 # --description--
 
-In this video, you will continue to learn about the Law of Cosines.
+このビデオでは、余弦定理について引き続き学習します。
 
 # --questions--
 
 ## --text--
 
-How many forms can the Law of Cosines be written in?
+余弦定理は何通りの形で表すことができますか？
 
 ## --answers--
 
@@ -35,4 +35,3 @@ How many forms can the Law of Cosines be written in?
 ## --video-solution--
 
 4
-

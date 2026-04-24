@@ -1,6 +1,6 @@
 ---
 id: 678a5e7dffffba38c5ad16c4
-title: Task 17
+title: タスク 17
 challengeType: 22
 dashedName: task-17
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+音声を聞いて、下の文を完成させてください。
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This two-word phrase means something is very suitable or effective for a particular purpose.
+この2語のフレーズは、何かが特定の目的に非常に適している、または効果的であることを意味します。
 
 ---
 
@@ -32,15 +32,15 @@ This two-word phrase means something is very suitable or effective for a particu
 
 ### --feedback--
 
-This two-word phrase means something is suitable or beneficial for a specific task or situation.
+この2語のフレーズは、何かが特定の作業や状況に適している、または有益であることを意味します。
 
 # --explanation--
 
-Both `great for` and `good for` mean something is very helpful, suitable or effective for a specific purpose. For example:
+`great for` と `good for` はどちらも、何かが特定の目的に非常に役立ち、適している、または効果的であることを意味します。例えば：
 
-- `This new software is great for managing large projects.` - This means the software is very suitable and effective for managing large projects.
+- `This new software is great for managing large projects.` - これは、そのソフトウェアが大規模なプロジェクトの管理に非常に適していて効果的であることを意味します。
 
-- `Cloud storage is good for backing up large volumes of data.` - This means cloud storage is highly effective and well-suited for safely storing large amounts of data.
+- `Cloud storage is good for backing up large volumes of data.` - これは、クラウドストレージが大量のデータを安全に保存するのに非常に効果的で適していることを意味します。
 
 # --scene--
 

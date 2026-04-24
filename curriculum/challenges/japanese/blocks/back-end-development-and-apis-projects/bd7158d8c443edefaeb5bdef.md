@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c443edefaeb5bdef
-title: Timestamp Microservice
+title: タイムスタンプマイクロサービス
 challengeType: 4
 forumTopicId: 301508
 dashedName: timestamp-microservice
@@ -8,16 +8,16 @@ dashedName: timestamp-microservice
 
 # --description--
 
-Build a full-stack JavaScript app that is functionally similar to this: <a href="https://timestamp-microservice.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://timestamp-microservice.freecodecamp.rocks</a>. Working on this project will involve you writing your code using one of the following methods:
+このリンク先の機能と同様のフルスタックJavaScriptアプリを作成してください：<a href="https://timestamp-microservice.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://timestamp-microservice.freecodecamp.rocks</a>。このプロジェクトに取り組むには、以下のいずれかの方法でコードを書いてください。
 
--   Clone <a href="https://github.com/freeCodeCamp/boilerplate-project-timestamp/"  target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete your project locally.
--   Use a site builder of your choice to complete the project. Be sure to incorporate all the files from our GitHub repo.
+- <a href="https://github.com/freeCodeCamp/boilerplate-project-timestamp/"  target="_blank" rel="noopener noreferrer nofollow">このGitHubリポジトリ</a>をクローンして、ローカルでプロジェクトを完成させる。
+- お好みのサイトビルダーを使ってプロジェクトを完成させる。必ずGitHubリポジトリのすべてのファイルを組み込んでください。
 
-**Note:** Time zones conversion is not a purpose of this project, so assume all sent valid dates will be parsed with `new Date()` as GMT dates.
+**注意：** タイムゾーンの変換はこのプロジェクトの目的ではないため、送信された有効な日付はすべて`new Date()`をGMT日付として解析するものとします。
 
 # --hints--
 
-You should provide your own project, not the example URL.
+プロジェクトは例のURLではなく、自分のものを提出してください。
 
 ```js
   assert(
@@ -25,7 +25,7 @@ You should provide your own project, not the example URL.
   );
 ```
 
-A request to `/api/:date?` with a valid date should return a JSON object with a `unix` key that is a Unix timestamp of the input date in milliseconds (as type Number)
+有効な日付を含む`/api/:date?`へのリクエストは、入力日付のUnixタイムスタンプ（ミリ秒単位、Number型）を持つ`unix`キーを含むJSONオブジェクトを返す必要があります。
 
 ```js
   const response = await fetch(code + '/api/2016-12-25');
@@ -40,7 +40,7 @@ A request to `/api/:date?` with a valid date should return a JSON object with a 
   );
 ```
 
-A request to `/api/:date?` with a valid date should return a JSON object with a `utc` key that is a string of the input date in the format: `Thu, 01 Jan 1970 00:00:00 GMT`
+有効な日付を含む`/api/:date?`へのリクエストは、入力日付を`utc`形式の文字列として持つ`Thu, 01 Jan 1970 00:00:00 GMT`キーを含むJSONオブジェクトを返す必要があります。
 
 ```js
   const response = await fetch(code + '/api/2016-12-25');
@@ -55,7 +55,7 @@ A request to `/api/:date?` with a valid date should return a JSON object with a 
   );
 ```
 
-A request to `/api/1451001600000` should return `{ unix: 1451001600000, utc: "Fri, 25 Dec 2015 00:00:00 GMT" }`
+`/api/1451001600000`へのリクエストは`{ unix: 1451001600000, utc: "Fri, 25 Dec 2015 00:00:00 GMT" }`を返す必要があります。
 
 ```js
   const response = await fetch(code + '/api/1451001600000');
@@ -69,7 +69,7 @@ A request to `/api/1451001600000` should return `{ unix: 1451001600000, utc: "Fr
   );
 ```
 
-Your project can handle dates that can be successfully parsed by `new Date(date_string)`
+プロジェクトは`new Date(date_string)`で正常に解析できる日付を処理できます。
 
 ```js
   const response = await fetch(code + '/api/05 October 2011, GMT');
@@ -83,7 +83,7 @@ Your project can handle dates that can be successfully parsed by `new Date(date_
   );
 ```
 
-If the input date string is invalid, the API returns an object having the structure `{ error : "Invalid Date" }`
+入力された日付文字列が無効な場合、APIは`{ error : "Invalid Date" }`構造のオブジェクトを返します。
 
 ```js
   const response = await fetch(code + '/api/this-is-not-a-date');
@@ -96,7 +96,7 @@ If the input date string is invalid, the API returns an object having the struct
   }
 ```
 
-An empty date parameter should return the current time in a JSON object with a `unix` key
+空のdateパラメータは、`unix`キーを持つJSONオブジェクトで現在時刻を返す必要があります。
 
 ```js
   const response = await fetch(code + '/api');
@@ -108,7 +108,7 @@ An empty date parameter should return the current time in a JSON object with a `
   assert.approximately(data.unix, now, 20000);
 ```
 
-An empty date parameter should return the current time in a JSON object with a `utc` key
+空のdateパラメータは、`utc`キーを持つJSONオブジェクトで現在時刻を返す必要があります。
 
 ```js
   const response = await fetch(code + '/api');
@@ -120,4 +120,3 @@ An empty date parameter should return the current time in a JSON object with a `
   var serverTime = new Date(data.utc).getTime();
   assert.approximately(serverTime, now, 20000);
 ```
-

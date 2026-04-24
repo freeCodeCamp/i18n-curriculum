@@ -1,6 +1,6 @@
 ---
 id: 657ddcd61f516cacdc7a04ca
-title: Task 128
+title: タスク128
 challengeType: 19
 dashedName: task-128
 lang: en-US
@@ -10,45 +10,45 @@ lang: en-US
 
 # --description--
 
-Maria informs Tom about public transportation options, specifically mentioning a transportation that stops nearby. This is important for getting around the city, especially to places that are not within walking distance.
+マリアはトムに公共交通機関の選択肢について伝えています。特に近くに停まる交通手段について言及しています。これは、徒歩圏外の場所へ移動する際に重要です。
 
-`Two blocks away` means that you need to walk past two street corners to get to a place. It's a short walk in a city.
+`Two blocks away` は、目的地までに2つの交差点を通り過ぎる必要があることを意味します。都市内での短い徒歩距離です。
 
-`Downtown` is the heart of a city where there are many shops, restaurants, and usually tall buildings.
+`Downtown` は、多くの店やレストランがあり、通常は高層ビルが立ち並ぶ都市の中心部です。
 
 # --questions--
 
 ## --text--
 
-What does Maria say stops two blocks away?
+マリアは何が2ブロック先で停まると言っていますか？
 
 ## --answers--
 
-A taxi
+タクシー
 
 ### --feedback--
 
-Maria mentions a public transportation option, not a private service.
+マリアは公共交通機関について話しており、個人のサービスではありません。
 
 ---
 
-A train
+電車
 
 ### --feedback--
 
-Trains don't typically stop at blocks; they stop at stations.
+電車は通常ブロック単位で停まらず、駅で停車します。
 
 ---
 
-A bus
+バス
 
 ---
 
-A bicycle rental
+自転車レンタル
 
 ### --feedback--
 
-Rentals are usually stationary services, not something that stops.
+レンタルは通常、固定されたサービスであり、停車するものではありません。
 
 ## --video-solution--
 

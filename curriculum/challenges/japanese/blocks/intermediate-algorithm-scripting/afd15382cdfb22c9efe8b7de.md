@@ -1,6 +1,6 @@
 ---
 id: afd15382cdfb22c9efe8b7de
-title: DNA Pairing
+title: DNAの塩基対
 challengeType: 1
 forumTopicId: 16009
 dashedName: dna-pairing
@@ -8,17 +8,17 @@ dashedName: dna-pairing
 
 # --description--
 
-Pairs of DNA strands consist of nucleobase pairs. Base pairs are represented by the characters <em>AT</em> and <em>CG</em>, which form building blocks of the DNA double helix.
+DNAの鎖は塩基対のペアで構成されています。塩基対は文字で表され、<em>AT</em> と <em>CG</em> がDNA二重らせんの構成要素となっています。
 
-The DNA strand is missing the pairing element. Write a function to match the missing base pairs for the provided DNA strand. For each character in the provided string, find the base pair character. Return the results as a 2d array.
+DNAの鎖には対になる塩基が欠けています。与えられたDNA鎖の欠けている塩基対を見つける関数を書いてください。与えられた文字列の各文字に対して、対応する塩基対の文字を見つけてください。結果は2次元配列として返してください。
 
-For example, for the input `GCG`, return `[["G", "C"], ["C","G"], ["G", "C"]]`
+例えば、入力が `GCG` の場合、 `[["G", "C"], ["C","G"], ["G", "C"]]` を返します。
 
-The character and its pair are paired up in an array, and all the arrays are grouped into one encapsulating array.
+文字とその対になる塩基は配列でペアにされ、すべてのペア配列は1つの大きな配列にまとめられます。
 
 # --hints--
 
-`pairElement("ATCGA")` should return `[["A","T"],["T","A"],["C","G"],["G","C"],["A","T"]]`.
+`pairElement("ATCGA")` は `[["A","T"],["T","A"],["C","G"],["G","C"],["A","T"]]` を返すべきです。
 
 ```js
 assert.deepEqual(pairElement('ATCGA'), [
@@ -30,7 +30,7 @@ assert.deepEqual(pairElement('ATCGA'), [
 ]);
 ```
 
-`pairElement("TTGAG")` should return `[["T","A"],["T","A"],["G","C"],["A","T"],["G","C"]]`.
+`pairElement("TTGAG")` は `[["T","A"],["T","A"],["G","C"],["A","T"],["G","C"]]` を返すべきです。
 
 ```js
 assert.deepEqual(pairElement('TTGAG'), [
@@ -42,7 +42,7 @@ assert.deepEqual(pairElement('TTGAG'), [
 ]);
 ```
 
-`pairElement("CTCTA")` should return `[["C","G"],["T","A"],["C","G"],["T","A"],["A","T"]]`.
+`pairElement("CTCTA")` は `[["C","G"],["T","A"],["C","G"],["T","A"],["A","T"]]` を返すべきです。
 
 ```js
 assert.deepEqual(pairElement('CTCTA'), [

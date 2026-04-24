@@ -1,6 +1,6 @@
 ---
 id: 67baf3ed288e8b06f4ab0dfb
-title: Task 76
+title: タスク 76
 challengeType: 22
 dashedName: task-76
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+音声を聞いて、以下の文を完成させてください。
 
 # --fillInTheBlank--
 
@@ -22,23 +22,23 @@ Listen to the audio and complete the sentence below.
 
 `team spirit`
 
-### --feedback--
+### --feedback--  
 
-These two words together refer to the sense of unity and cooperation among coworkers. The first word refers to a group working together, and the second word relates to shared enthusiasm or motivation.
+この2つの単語は一緒に、同僚間の団結感や協力の気持ちを指します。最初の単語は一緒に働くグループを意味し、2つ目の単語は共有された熱意ややる気に関係しています。
 
 ---
 
 `problem-solving`
 
-### --feedback--
+### --feedback--  
 
-This compound word refers to the process of finding solutions to challenges. The first part refers to an issue that needs to be fixed, and the second part is a verb meaning finding a solution. Remember to use `-` between the two parts.
+この複合語は、チャレンジの解決策を見つけるプロセスを指します。最初の部分は修正が必要な問題を意味し、2つ目の部分は解決策を見つけることを意味する動詞です。2つの部分の間には`-`を使うことを忘れないでください。
 
 # --explanation--
 
-David believes that working in the office helps strengthen `team spirit` (a sense of connection and unity among coworkers) and improves `problem-solving` (finding solutions to challenges more efficiently).
+デイビッドは、オフィスで働くことが`team spirit`（同僚間のつながりや団結感）を強め、`problem-solving`（チャレンジの解決策をより効率的に見つけること）を改善すると考えています。
 
-He argues that being in the same physical space makes it easier for employees to collaborate and support one another.
+彼は、同じ物理的空間にいることで、従業員同士が協力し支え合うことが容易になると主張しています。
 
 # --scene--
 

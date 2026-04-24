@@ -1,6 +1,6 @@
 ---
 id: 65d5d1bdbd0a7f4e3edb6c8e
-title: Task 35
+title: タスク 35
 challengeType: 19
 dashedName: task-35
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --description--
 
-Listen to the audio and answer the question.
+音声を聞いて質問に答えてください。
 
 # --questions--
 
 ## --text--
 
-What is Tom asking about?
+トムは何について尋ねていますか？
 
 ## --answers--
 
-If Anna works in HR
+アンナが人事部で働いているかどうか
 
 ### --feedback--
 
-Tom's question is specifically about whether the person has worked with Anna, not about Anna's role.
+トムの質問は、アンナの役割ではなく、その人と一緒に働いたことがあるかどうかに関するものです。
 
 ---
 
-If Alice has had any experience working with Anna.
+アリスがアンナと一緒に働いた経験があるかどうか
 
 ---
 
-If you like working in HR
+人事部で働くことが好きかどうか
 
 ### --feedback--
 
-The question is about past experience with Anna, not personal feelings about working in HR.
+質問はアンナとの過去の経験についてであり、人事部で働くことに対する個人的な感情についてではありません。
 
 ---
 
-If Anna has ever worked
+アンナがこれまでに働いたことがあるかどうか
 
 ### --feedback--
 
-The focus of Tom's question is on the listener's experience with Anna, not on Anna's work history.
+トムの質問のフォーカスは、アンナの職歴ではなく、聞き手がアンナと働いた経験にあります。
 
 ## --video-solution--
 

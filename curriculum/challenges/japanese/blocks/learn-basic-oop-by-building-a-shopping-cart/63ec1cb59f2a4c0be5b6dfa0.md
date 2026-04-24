@@ -1,23 +1,23 @@
 ---
 id: 63ec1cb59f2a4c0be5b6dfa0
-title: Step 5
+title: ステップ 5
 challengeType: 0
 dashedName: step-5
 ---
 
 # --description--
 
-A shopping cart does not serve much purpose without products. Declare a `products` variable and set it to an empty array. Using an array will allow you to store multiple products.
+ショッピングカートは商品がなければあまり意味がありません。`products` 変数を宣言して、空の配列に設定してください。配列を使うことで複数の商品をストアできます。
 
 # --hints--
 
-You should declare a `products` variable with `const`.
+`products` を使って `const` 変数を宣言してください。
 
 ```js
 assert.match(code, /const\s+products\b/);
 ```
 
-You should set the `products` variable to an empty array.
+`products` 変数を空の配列に設定してください。
 
 ```js
 assert.match(code, /const\s+products\s*=\s*\[\s*\]/);

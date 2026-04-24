@@ -1,6 +1,6 @@
 ---
 id: 67cbbe41bccb0840a852edfc
-title: Task 44
+title: タスク 44
 challengeType: 22
 dashedName: task-44
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+音声を聞いて、下の文を完成させてください。
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This three-word phrase is used to acknowledge and show appreciation for receiving useful or important information. It's often used when you learn something helpful.
+この3語のフレーズは、有益または重要な情報を受け取ったことを認め感謝を示すために使われます。役立つことを知ったときによく使われます。
 
 ---
 
@@ -32,7 +32,7 @@ This three-word phrase is used to acknowledge and show appreciation for receivin
 
 ### --feedback--
 
-This two-word phrase means to choose or select something, especially after considering different options.
+この2語のフレーズは、特にいくつかの選択肢を考慮した後に、何かを選ぶことを意味します。
 
 ---
 
@@ -40,21 +40,21 @@ This two-word phrase means to choose or select something, especially after consi
 
 ### --feedback--
 
-This two-word phrase refers to something that is the most important or urgent.
+この2語のフレーズは、最も重要または緊急であることを指します。
 
 # --explanation--
 
-`Good to know` is used to show that the information shared is useful or appreciated. For example:
+`Good to know` は、共有された情報が役に立ったり感謝されていることを示すために使われます。例えば：
 
-`It's good to know that the software is easy to use.` - This means the speaker appreciates learning that the software is easy to use.
+`It's good to know that the software is easy to use.` - これは、話者がソフトウェアが使いやすいことを知って感謝していることを意味します。
 
-`Go with` means to choose something, usually after some thought or comparison. For example:
+`Go with` は、通常いくつかの選択肢を比較したり考えた後に何かを選ぶことを意味します。例えば：
 
-`After much discussion, we went with the cheaper option.` - This means you chose the less expensive option after considering different choices.
+`After much discussion, we went with the cheaper option.` - これは、いくつかの選択肢を考慮した後でより安い方を選んだことを意味します。
 
-`Top priority` means that something is the most important thing to consider or focus on. It's often used in work or decision-making contexts. For example:
+`Top priority` は、何かが最も重要なことや注目すべきことを意味します。仕事や意思決定の場面でよく使われます。例えば：
 
-`Our top priority right now is improving the website's performance.` - This means the most important task at the moment is to improve how well the website works, making it a main focus.
+`Our top priority right now is improving the website's performance.` - これは、今最も重要なタスクがウェブサイトのパフォーマンスを改善することであり、それが主なフォーカスであることを意味します。
 
 # --scene--
 

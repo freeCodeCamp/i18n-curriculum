@@ -1,6 +1,6 @@
 ---
 id: 67ddb67d2bbf41bb5dce0fb3
-title: Task 36
+title: タスク 36
 challengeType: 19
 dashedName: task-36
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+音声を聞いて、以下の質問に答えてください。
 
 # --questions--
 
 ## --text--
 
-What can we conclude from James's answer?
+ジェームズの返答から何がわかりますか？
 
 ## --answers--
 
-He needs to solve a problem first.
+彼はまず問題を解決する必要があります。
 
 ### --feedback--
 
-James does not say anything about another issue.
+ジェームズは別の問題については何も言っていません。
 
 ---
 
-He is ending the conversation in a friendly way.
+彼は友好的に会話を終えようとしています。
 
 ---
 
-He wants to schedule a meeting now.
+彼は今すぐミーティングを予定したいと思っています。
 
 ### --feedback--
 
-There's no mention of scheduling anything.
+予定についての言及はありません。
 
 ---
 
-He is asking for more help.
+彼はもっと助けを求めています。
 
 ### --feedback--
 
-James is not making a request.
+ジェームズはリクエストをしていません。
 
 ## --video-solution--
 
@@ -52,9 +52,9 @@ James is not making a request.
 
 # --explanation--
 
-In conversation, you often omit words when the meaning is clear. In `Talk to you later`, the subject `I'll` (contraction of `I will`) is left out. The full sentence would be `I'll talk to you later`. This kind of omission is common in casual speech. Another example:
+会話では、意味が明確な場合に単語を省略することがよくあります。`Talk to you later`では、主語`I'll`（`I will`の短縮形）が省略されています。完全な文は`I'll talk to you later`となります。このような省略はカジュアルな会話でよく見られます。別の例：
 
-`See you tomorrow!` - This is a shorter way of saying `I'll see you tomorrow`.
+`See you tomorrow!` - これは`I'll see you tomorrow`を短く言ったものです。
 
 # --scene--
 

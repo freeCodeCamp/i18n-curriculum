@@ -1,6 +1,6 @@
 ---
 id: 6557dc1aa6be93c1eb4e9efb
-title: Task 29
+title: タスク 29
 challengeType: 19
 dashedName: task-29
 lang: en-US
@@ -10,47 +10,47 @@ lang: en-US
 
 # --description--
 
-The word `if` means "whether or not". For example:
+`if` は「～かどうか」という意味です。例えば：
 
-`She checks her emails to see if there are any urgent updates.` - This means she is looking to find out whether updates exist.
+`She checks her emails to see if there are any urgent updates.` - これは彼女が更新があるかどうかを知ろうとしていることを意味します。
 
-`If` can also be part of a conditional statement, which shows a possible situation and its result. For example:
+`If` は条件文の一部としても使われ、ある状況とその結果を示します。例えば：
 
-`If there are urgent updates, I will reply immediately.` - This means replying depends on the condition of having urgent updates.
+`If there are urgent updates, I will reply immediately.` - これは返信が緊急の更新があるかどうかに依存することを意味します。
 
 # --questions--
 
 ## --text--
 
-What does Sarah imply by using `if` in her statement about checking emails and messages?
+サラがメールやメッセージを確認すると言ったときに`if`を使ったことで、何を示唆していますか？
 
 ## --answers--
 
-She always finds urgent updates from her team.
+彼女はいつもチームから緊急の更新を見つけます。
 
 ### --feedback--
 
-`If` doesn't suggest certainty of finding urgent updates.
+`If` は緊急の更新が必ず見つかることを示していません。
 
 ---
 
-Sometimes there are urgent updates, sometimes not.
+時々緊急の更新があり、時々ありません。
 
 ---
 
-She never checks her emails and messages.
+彼女はメールやメッセージを決して確認しません。
 
 ### --feedback--
 
-Sarah actually states that she does check her emails and messages.
+サラは実際にメールやメッセージを確認すると述べています。
 
 ---
 
-Checking emails is not part of her routine.
+メールの確認は彼女のルーティンの一部ではありません。
 
 ### --feedback--
 
-Sarah mentions that checking emails and messages is part of her routine.
+サラはメールやメッセージの確認がルーティンの一部であると言っています。
 
 ## --video-solution--
 

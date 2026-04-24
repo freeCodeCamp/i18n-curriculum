@@ -1,6 +1,6 @@
 ---
 id: 6995dd999dec0afeec52dbba
-title: Task 13
+title: タスク 13
 challengeType: 22
 dashedName: task-13
 lang: es
@@ -10,13 +10,13 @@ lang: es
 
 # --description--
 
-The word `oficina` means "office".
+単語 `oficina` は「オフィス」を意味します。
 
-Luna is using this word to reply to Sebastián's question.
+ルナはこの単語を使ってセバスティアンの質問に答えています。
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+音声を聞いて、以下の文を完成させてください。
 
 # --fillInTheBlank--
 
@@ -30,15 +30,15 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This word refers to the place where people work.
+この単語は人々が働く場所を指します。
 
 # --explanation--
 
-Luna says that Carlos `trabaja en la oficina de Medellín`.
+ルナはカルロスが `trabaja en la oficina de Medellín` と言っています。
 
-This means that he works at the Medellín office.
+これは彼がメデジンのオフィスで働いていることを意味します。
 
-You should write the word `oficina` to complete the sentence.
+文を完成させるには単語 `oficina` を書いてください。
 
 # --scene--
 

@@ -1,6 +1,6 @@
 ---
 id: 67f36533ffaeffe3ac2dad2b
-title: Task 131
+title: タスク131
 challengeType: 19
 dashedName: task-131
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+音声を聞いて、以下の質問に答えてください。
 
 # --questions--
 
 ## --text--
 
-What is Jessica explaining?
+ジェシカは何を説明していますか？
 
 ## --answers--
 
-There was a problem with the current update's schedule.
+現在のアップデートのスケジュールに問題がありました。
 
 ### --feedback--
 
-Jessica is talking about the feature's timing, not the schedule of the update itself.
+ジェシカはアップデート自体のスケジュールではなく、機能のタイミングについて話しています。
 
 ---
 
-The budget tracking feature will be in the next update, not the current one.
+予算追跡機能は現在のアップデートではなく、次のアップデートに含まれます。
 
 ---
 
-The budget tracking feature has been removed from the current update.
+予算追跡機能は現在のアップデートから削除されました。
 
 ### --feedback--
 
-Jessica doesn't mention that the feature has been removed.
+ジェシカは機能が削除されたとは言っていません。
 
 ---
 
-The feature was mistakenly included in this update.
+その機能は誤って今回のアップデートに含まれていました。
 
 ### --feedback--
 
-Jessica doesn't say the feature was mistakenly included.
+ジェシカは機能が誤って含まれたとは言っていません。
 
 ## --video-solution--
 
@@ -52,9 +52,9 @@ Jessica doesn't say the feature was mistakenly included.
 
 # --explanation--
 
-Jessica says, `The budget tracking feature is planned for the next update`, explaining that the feature is not included in the current update but will be added in the next one.
+ジェシカは `The budget tracking feature is planned for the next update` と言い、機能は現在のアップデートには含まれておらず、次のアップデートで追加されると説明しています。
 
-This clears up the confusion about the feature's timing.
+これにより、機能のタイミングに関する混乱が解消されます。
 
 # --scene--
 

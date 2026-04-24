@@ -1,6 +1,6 @@
 ---
 id: 65a4f2c2d1bbdfbe82cb3fdd
-title: Task 94
+title: タスク 94
 challengeType: 22
 dashedName: task-94
 lang: en-US
@@ -10,11 +10,11 @@ lang: en-US
 
 # --description--
 
-A `gadget` is a small tool or device, often clever or novel, that performs a specific function or makes something easier.
+`gadget` は、小さな道具や装置で、しばしば巧妙または斬新で、特定の関数を実行したり何かを簡単にしたりします。
 
-In tech, gadgets can include things like smartphones, smartwatches, or any cool, innovative electronic device.
+テクノロジーの分野では、ガジェットにはスマートフォン、スマートウォッチ、またはクールで革新的な電子機器などが含まれます。
 
-For example, `My new fitness tracker gadget helps me keep track of my steps and exercise.`
+例えば、`My new fitness tracker gadget helps me keep track of my steps and exercise.`
 
 # --fillInTheBlank--
 
@@ -28,7 +28,7 @@ For example, `My new fitness tracker gadget helps me keep track of my steps and 
 
 ### --feedback--
 
-This word means something causes a feeling or a reaction. Here, it's used to talk about what excites Bob about tech. It's conjugated in the third person singular.
+この単語は、何かが感情や反応を引き起こすことを意味します。ここでは、ボブがテクノロジーに興奮する理由を話すために使われています。三人称単数形で活用されています。
 
 ---
 
@@ -36,7 +36,7 @@ This word means something causes a feeling or a reaction. Here, it's used to tal
 
 ### --feedback--
 
-This word is used to point out specific things that are being talked about, in this case, the gadgets. Plural of `that`.
+この単語は、話題にしている特定のものを指し示すために使われています。ここではガジェットを指します。`that` の複数形です。
 
 ---
 
@@ -44,7 +44,7 @@ This word is used to point out specific things that are being talked about, in t
 
 ### --feedback--
 
-This word refers to small electronic devices or tools that are useful or interesting. It's often used to talk about cool tech items. It is in plural.
+この単語は、小さな電子機器や便利な道具を指します。クールなテクノロジーアイテムについて話すときによく使われます。複数形です。
 
 # --scene--
 

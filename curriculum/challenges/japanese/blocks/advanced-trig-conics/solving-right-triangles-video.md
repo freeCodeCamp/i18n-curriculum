@@ -1,6 +1,6 @@
 ---
 id: 699e854b8f18cf77dfce5c1e
-title: Solving Right Triangles
+title: 直角三角形の解き方
 challengeType: 11
 videoId: AkRnIZDdq04
 dashedName: solving-right-triangles
@@ -8,32 +8,30 @@ dashedName: solving-right-triangles
 
 # --description--
 
-In this video, you will learn how to solve right triangles.
+このビデオでは、直角三角形の解き方を学びます。
 
 # --questions--
 
 ## --text--
 
-What does it mean to solve a right triangle?
+直角三角形を解くとはどういう意味ですか？
 
 ## --answers--
 
-To solve a right triangle means to find the area of the triangle only.
+直角三角形を解くとは、三角形の面積だけを求めることを意味します。
 
 ---
 
-To solve a right triangle means to find only the length of the hypotenuse.
+直角三角形を解くとは、斜辺の長さだけを求めることを意味します。
 
 ---
 
-To solve a right triangle means to find the lengths of all sides and the measures of all angles.
+直角三角形を解くとは、すべての辺の長さとすべての角度の大きさを求めることを意味します。
 
 ---
 
-To solve a right triangle means to draw the triangle without calculating any sides or angles.
+直角三角形を解くとは、辺や角度を計算せずに三角形を描くことを意味します。
 
 ## --video-solution--
 
 3
-
-

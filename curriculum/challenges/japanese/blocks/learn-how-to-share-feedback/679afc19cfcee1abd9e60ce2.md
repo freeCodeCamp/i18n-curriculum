@@ -1,6 +1,6 @@
 ---
 id: 679afc19cfcee1abd9e60ce2
-title: Task 61
+title: タスク 61
 challengeType: 19
 dashedName: task-61
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+音声を聞いて、以下の質問に答えてください。
 
 # --questions--
 
 ## --text--
 
-What does Brian think might happen if we don't listen to those in the team who disagree?
+チーム内で意見が合わない人の話を聞かないと、ブライアン は何が起こると考えていますか？
 
 ## --answers--
 
-They might lose motivation.
+彼らはやる気を失うかもしれません。
 
 ---
 
-They will stop having disagreements.
+彼らは意見の対立をやめるでしょう。
 
 ### --feedback--
 
-Ignoring people's opinions does not stop disagreements; it might just make people less engaged.
+人の意見を無視しても意見の対立はなくなりません。むしろ人々の関与が薄れるだけです。
 
 ---
 
-They will work harder to prove their point.
+彼らは自分の主張を証明するためにもっと頑張るでしょう。
 
 ### --feedback--
 
-Brian does not suggest that feeling undervalued makes people work harder.
+ブライアン は、評価されないと人がもっと頑張るとは言っていません。
 
 ---
 
-They will automatically agree with everything.
+彼らは自動的にすべてに同意するでしょう。
 
 ### --feedback--
 
-Not listening to people doesn't make them agree with everything — it can make them disengage instead.
+人の話を聞かないからといって、すべてに同意するわけではありません。むしろ関与しなくなる場合があります。
 
 ## --video-solution--
 
@@ -52,13 +52,13 @@ Not listening to people doesn't make them agree with everything — it can make 
 
 # --explanation--
 
-`To feel valued` describes the sensation you have when you believe that your thoughts, efforts, and contributions are appreciated. For example:
+`To feel valued` は、自分の考えや努力、貢献が評価されていると感じる感覚を表しています。例えば、
 
-`The project manager always dedicates some time during the meeting to hear what we have to say. This makes everyone in the team feel valued.` - This means the attitude of the project manager is bringing good results to the team.
+`The project manager always dedicates some time during the meeting to hear what we have to say. This makes everyone in the team feel valued.` - これはプロジェクトマネージャーの態度がチームに良い結果をもたらしていることを意味します。
 
-What Brian suggests is that if team members' opinions are ignored, they may feel unimportant. If team members feel valued, they are more likely to stay engaged and contribute new ideas.
+ブライアン が示唆しているのは、チームメンバーの意見が無視されると、彼らは重要視されていないと感じるかもしれないということです。メンバーが評価されていると感じると、より積極的に関わり、新しいアイデアを出す可能性が高まります。
 
-On the other hand, if people feel like their opinions don't matter, they might become disengaged and lose motivation to contribute, which can harm overall teamwork and productivity.
+一方で、自分の意見が重要でないと感じると、関与が薄れ、貢献する意欲を失い、チームワークや生産性に悪影響を及ぼすことがあります。
 
 # --scene--
 

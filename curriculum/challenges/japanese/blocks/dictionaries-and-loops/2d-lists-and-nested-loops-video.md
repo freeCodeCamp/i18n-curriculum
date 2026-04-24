@@ -1,6 +1,6 @@
 ---
 id: 28119f9dc5f93e3ac5d7c58a
-title: 2D Lists and Nested Loops
+title: 2Dリストとネストされたループ
 challengeType: 11
 videoId: 2lKgjX3gzmM
 dashedName: 2d-lists-and-nested-loops
@@ -8,13 +8,13 @@ dashedName: 2d-lists-and-nested-loops
 
 # --description--
 
-In this video, you will learn how to create 2D lists and use nested loops to work with multi-dimensional data structures.
+このビデオでは、2Dリストの作成方法と、ネストされたループを使って多次元のデータ構造を操作する方法を学びます。
 
 # --questions--
 
 ## --text--
 
-What will be the output for the following code?
+次のコードの出力は何になりますか？
 
 ```python
 number_grid = [

@@ -1,6 +1,6 @@
 ---
 id: 8d1323c8c441eddfaeb5bdef
-title: Create a Set Class
+title: Setクラスを作成する
 challengeType: 1
 forumTopicId: 301632
 dashedName: create-a-set-class
@@ -8,7 +8,7 @@ dashedName: create-a-set-class
 
 # --description--
 
-In this exercise we are going to create a class named `Set` to emulate an abstract data structure called "set". A set is like an array, but it cannot contain duplicate values. The typical use for a set is to simply check for the presence of an item. We can see how the ES6 `Set` object works in the example below:
+この演習では、`Set`という名前のクラスを作成して、「セット」と呼ばれる抽象的なデータ構造をエミュレートします。セットは配列のようなものですが、重複する値を含むことはできません。セットの典型的な使い方は、単にアイテムの存在を確認することです。以下の例でES6の`Set`オブジェクトがどのように動作するかを見てみましょう。
 
 ```js
 const set1 = new Set([1, 2, 3, 5, 5, 2, 0]);
@@ -20,17 +20,17 @@ console.log(set1.has(6));
 // output: false
 ```
 
-First, we will create an add method that adds a value to our set collection as long as the value does not already exist in the set. Then we will create a remove method that removes a value from the set collection if it already exists. And finally, we will create a size method that returns the number of elements inside the set collection.
+まず、セットに値がまだ存在しない場合にその値を追加するaddメソッドを作成します。次に、セットに値が存在する場合にその値を削除するremoveメソッドを作成します。最後に、セット内の要素数を返すsizeメソッドを作成します。
 
 # --instructions--
 
-Create an `add` method that adds a unique value to the set collection and returns `true` if the value was successfully added and `false` otherwise.
+セットコレクションに一意の値を追加し、値が正常に追加された場合は`add`を、そうでなければ`true`を返す`false`メソッドを作成してください。
 
-Create a `remove` method that accepts a value and checks if it exists in the set. If it does, then this method should remove it from the set collection, and return `true`. Otherwise, it should return `false`. Create a `size` method that returns the size of the set collection.
+値を受け取り、その値がセットに存在するかどうかをチェックする`remove`メソッドを作成してください。存在する場合はセットコレクションからその値を削除し、`true`を返します。存在しない場合は`false`を返します。セットコレクションのサイズを返す`size`メソッドも作成してください。
 
 # --hints--
 
-Your `Set` class should have an `add` method.
+`Set`クラスには`add`メソッドが必要です。
 
 ```js
 assert(
@@ -41,7 +41,7 @@ assert(
 );
 ```
 
-Your `add` method should not add duplicate values.
+`add`メソッドは重複する値を追加しないようにしてください。
 
 ```js
 assert(
@@ -56,7 +56,7 @@ assert(
 );
 ```
 
-Your `add` method should return `true` when a value has been successfully added.
+`add`メソッドは値が正常に追加された場合に`true`を返すべきです。
 
 ```js
 assert(
@@ -68,7 +68,7 @@ assert(
 );
 ```
 
-Your `add` method should return `false` when a duplicate value is added.
+`add`メソッドは重複する値が追加された場合に`false`を返すべきです。
 
 ```js
 assert(
@@ -81,7 +81,7 @@ assert(
 );
 ```
 
-Your `Set` class should have a `remove` method.
+`Set`クラスには`remove`メソッドが必要です。
 
 ```js
 assert(
@@ -92,7 +92,7 @@ assert(
 );
 ```
 
-Your `remove` method should only remove items that are present in the set.
+`remove`メソッドはセットに存在するアイテムのみを削除するべきです。
 
 ```js
 assert.deepEqual(
@@ -107,7 +107,7 @@ assert.deepEqual(
 );
 ```
 
-Your `remove` method should remove the given item from the set.
+`remove`メソッドは指定されたアイテムをセットから削除するべきです。
 
 ```js
 assert(
@@ -122,7 +122,7 @@ assert(
 );
 ```
 
-Your `Set` class should have a `size` method.
+`Set`クラスには`size`メソッドが必要です。
 
 ```js
 assert(
@@ -133,7 +133,7 @@ assert(
 );
 ```
 
-The `size` method should return the number of elements in the collection.
+`size`メソッドはコレクション内の要素数を返すべきです。
 
 ```js
 assert(
@@ -170,7 +170,7 @@ class Set {
   }
 
   // Only change code below this line
-
+  
   // Only change code above this line
 }
 ```

@@ -1,6 +1,6 @@
 ---
 id: 6903d3c4ccae5fffec5f3cbc
-title: Task 4
+title: タスク4
 challengeType: 19
 dashedName: task-4
 lang: es
@@ -10,13 +10,13 @@ lang: es
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+音声を聞いて、以下の質問に答えてください。
 
 # --questions--
 
 ## --text--
 
-What is Mateo's nationality?
+マテオの国籍は何ですか？
 
 ## --answers--
 
@@ -24,7 +24,7 @@ What is Mateo's nationality?
 
 ### --feedback--
 
-This option refers to someone from Chile.
+この選択肢はチリ出身の人を指します。
 
 ---
 
@@ -32,7 +32,7 @@ This option refers to someone from Chile.
 
 ### --feedback--
 
-This word describes a person from Peru.
+この単語はペルー出身の人を表します。
 
 ---
 
@@ -44,7 +44,7 @@ This word describes a person from Peru.
 
 ### --feedback--
 
-This refers to a woman from Colombia, and the ending `-a` indicates the feminine form, which does not match Mateo.
+これはコロンビア出身の女性を指し、末尾の`-a`は女性形を示しているため、マテオには合いません。
 
 ## --video-solution--
 
@@ -52,17 +52,17 @@ This refers to a woman from Colombia, and the ending `-a` indicates the feminine
 
 # --explanation--
 
-`Soy` ("I am") comes from the verb `ser` and is used to express identity, nationality, or profession. For example:
+`Soy`（「私は～です」）は動詞`ser`から来ており、身元、国籍、職業を表すために使われます。例えば：
 
-- `Soy chilena.` – I'm Chilean. (feminine)
+- `Soy chilena.` – 私はチリ人です。（女性形）
 
-- `Soy chileno.` – I'm Chilean. (masculine)
+- `Soy chileno.` – 私はチリ人です。（男性形）
 
-- `Soy puertorriqueña` - I'm Puerto Rican. (feminine)
+- `Soy puertorriqueña` - 私はプエルトリコ人です。（女性形）
 
-- `Soy puertorriqueño` - I'm Puerto Rican. (masculine)
+- `Soy puertorriqueño` - 私はプエルトリコ人です。（男性形）
 
-- `Soy canadiense.` – I'm Canadian. (neutral)
+- `Soy canadiense.` – 私はカナダ人です。（中性形）
 
 # --scene--
 

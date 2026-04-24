@@ -7,13 +7,13 @@ dashedName: step-12
 
 # --description--
 
-The next step is to define some characteristics for the main player of the game.
+次のステップは、ゲームのメインプレイヤーのいくつかの特徴を定義することです。
 
-Start by creating a new `class` called `Player`.
+`class` という新しい `Player` を作成することから始めてください。
 
 # --hints--
 
-`Player` should be a class.
+`Player` はクラスであるべきです。
 
 ```js
 assert(
@@ -21,13 +21,13 @@ assert(
 );
 ```
 
-The `class` keyword should be used.
+`class` キーワードを使うべきです。
 
 ```js
 assert.match(code, /^\s*class/m);
 ```
 
-You should create a new class called `Player`
+`Player` という新しいクラスを作成してください。
 
 ```js
 assert.match(code, /class\s+Player\s*{\s*}\s*/);

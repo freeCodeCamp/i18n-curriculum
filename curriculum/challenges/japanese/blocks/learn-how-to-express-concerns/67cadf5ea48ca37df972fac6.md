@@ -1,6 +1,6 @@
 ---
 id: 67cadf5ea48ca37df972fac6
-title: Task 124
+title: タスク124
 challengeType: 19
 dashedName: task-124
 lang: en-US
@@ -10,51 +10,51 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+音声を聞いて、以下の質問に答えてください。  
 
 # --questions--
 
 ## --text--
 
-What does Maria mention as the most important request from the team?
+マリアがチームからの最も重要なリクエストとして挙げているのは何ですか？  
 
 ## --answers--
 
-They need more help.
+彼らはもっと助けが必要です。  
 
 ---
 
-They want a longer deadline.
+彼らは締め切りを延ばしてほしいです。  
 
 ### --feedback--
 
-Maria does not mention extending the deadline.
+マリアは締め切りの延長については言及していません。
 
 ---
 
-They would like to reduce the number of tasks.
+彼らはタスクの数を減らしたいと思っています。  
 
 ### --feedback--
 
-Maria does not mention reducing the number of tasks.
+マリアはタスクの数を減らすことについては言及していません。  
 
 ---
 
-They are asking for more meetings.
+彼らはもっとミーティングを増やしてほしいと言っています。  
 
 ### --feedback--
 
-Maria does not mention additional meetings.
+マリアは追加のミーティングについては言及していません。
 
 ## --video-solution--
 
-1
+1  
 
 # --explanation--
 
-`First` is used when you want to number actions in order of importance or time. In this case, Maria is listing what the team needs, starting with what seems to be the most important request (having more support). Another example:
+`First` は、重要度や時間の順に行動を番号付けしたいときに使います。この場合、マリアはチームが必要としていることを挙げており、最も重要なリクエスト（もっとサポートが必要）から始めています。別の例：
 
-`First, we should analyze the problem. Then, we can discuss solutions.` - This means analyzing the problem comes before anything else.
+`First, we should analyze the problem. Then, we can discuss solutions.` - これは問題の分析が他の何よりも先に来ることを意味します。
 
 # --scene--
 

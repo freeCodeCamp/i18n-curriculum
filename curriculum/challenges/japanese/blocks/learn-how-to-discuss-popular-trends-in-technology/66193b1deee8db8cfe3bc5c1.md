@@ -1,6 +1,6 @@
 ---
 id: 66193b1deee8db8cfe3bc5c1
-title: Task 41
+title: タスク 41
 challengeType: 19
 dashedName: task-41
 lang: en-US
@@ -10,13 +10,13 @@ lang: en-US
 
 # --description--
 
-Listen to the audio and answer the question.
+音声を聞いて質問に答えてください。
 
 # --questions--
 
 ## --text--
 
-What collaboration tools does Alice mention?
+アリスはどのようなコラボレーションツールについて話していますか？
 
 ## --answers--
 
@@ -28,7 +28,7 @@ What collaboration tools does Alice mention?
 
 ### --feedback--
 
-Although these are important tools in today's world, they are not the tools Alice mentions.
+これらは現代において重要なツールですが、アリスが言及したツールではありません。
 
 ---
 
@@ -36,7 +36,7 @@ Although these are important tools in today's world, they are not the tools Alic
 
 ### --feedback--
 
-These are manual tools, not collaboration tools.
+これらは手動のツールであり、コラボレーションツールではありません。
 
 ---
 
@@ -44,7 +44,7 @@ These are manual tools, not collaboration tools.
 
 ### --feedback--
 
-These can be considered collaboration tools in a virtual environment, but Alice does not mention them.
+これらは仮想環境でのコラボレーションツールと考えられますが、アリスは言及していません。
 
 ## --video-solution--
 

@@ -1,6 +1,6 @@
 ---
 id: 66bf6bacf178eac7b96d4f5e
-title: Build a Favorite Icon Toggler
+title: お気に入りアイコンのトグルを作成する
 challengeType: 25
 dashedName: build-a-favorite-icon-toggler
 demoType: onClick
@@ -8,55 +8,55 @@ demoType: onClick
 
 # --description--
 
-In this lab you will use JavaScript click events to toggle the appearance of a favorite icon. When the heart icon is clicked, the appearance of the heart changes from empty to filled, and vice versa.
+このラボでは、JavaScriptのクリックイベントを使ってお気に入りアイコンの見た目を切り替えます。ハートのアイコンをクリックすると、ハートの見た目が空の状態から塗りつぶされた状態に、またその逆に変わります。
 
-**Objective:** Fulfill the user stories below and get all the tests to pass to complete the lab.
+**目的:** 以下のユーザーストーリーを満たし、すべてのテストに合格してラボを完了してください。
 
-**User Stories:**
+**ユーザーストーリー:**
 
-1. You should have an unordered list with three items.
-2. The unordered list should have the class `item-list`.
-3. The three list items should contain the item name followed by a `button` element with the class `favorite-icon`.
-4. The `button` element should contain the code `&#9825;` initially to represent an empty heart.
-5. When a `button` element containing a heart is clicked, you should add a class named `filled` to the clicked `button` if it's not already present, and remove it, if it is.
-6. You should have a class selector that targets the `filled` class and sets some CSS properties.
-7. When a `button` element containing a heart is clicked, the heart symbol should toggle between `&#9825;` (empty heart) and `&#10084;` (filled heart), depending on its current state.
+1. 番号なしリストが3つの項目を持っている必要があります。
+2. 番号なしリストにはクラス`item-list`が付いている必要があります。
+3. 3つのリスト項目には、項目名の後にクラス`button`を持つ`favorite-icon`要素が含まれている必要があります。
+4. `button`要素は最初に空のハートを表すコード`&#9825;`を含んでいる必要があります。
+5. ハートを含む`button`要素がクリックされたとき、クリックされた`filled`にクラス名`button`がなければ追加し、あれば削除する必要があります。
+6. `filled`クラスをターゲットにしてCSSプロパティを設定するクラスセレクターが必要です。
+7. ハートを含む`button`要素がクリックされたとき、現在の状態に応じてハートの記号が`&#9825;`（空のハート）と`&#10084;`（塗りつぶされたハート）で切り替わる必要があります。
 
-**Note:** Be sure to link your JavaScript file in your HTML. (Ex. `<script src="script.js"></script>`)
+**注意:** JavaScriptファイルをHTMLにリンクするのを忘れないでください。（例：`<script src="script.js"></script>`）
 
 # --hints--
 
-You should have an unordered list.
+番号なしリストを用意してください。
 
 ```js
 assert.exists(document.querySelector('ul'));
 ```
 
-Your unordered list should have 3 items.
+番号なしリストには3つの項目が必要です。
 
 ```js
 assert.lengthOf(document.querySelectorAll('ul li'), 3);
 ```
 
-Your unordered list should have the class `item-list`.
+番号なしリストにはクラス`item-list`を付けてください。
 
 ```js
 assert.exists(document.querySelector('ul.item-list'));
 ```
 
-Your individual list items should contain the item name.
+各リスト項目には項目名を含めてください。
 
 ```js
 assert.exists(document.querySelector('ul li').textContent);
 ```
 
-Your individual list item should contain a `button` element with the class `favorite-icon`.
+各リスト項目にはクラス`button`を持つ`favorite-icon`要素を含めてください。
 
 ```js
 assert.exists(document.querySelector('ul li button.favorite-icon'));
 ```
 
-Initially, the `button` elements should contain the code `&#9825;` to represent an empty heart.
+最初は`button`要素に空のハートを表すコード`&#9825;`を入れてください。
 
 ```js
 const inputs = document.querySelectorAll('ul li button.favorite-icon');
@@ -67,7 +67,7 @@ for (let input of inputs) {
 }
 ```
 
-You should have a `.filled` selector that sets some CSS properties.
+CSSプロパティを設定する`.filled`セレクターを用意してください。
 
 ```js
 const filled = new __helpers.CSSHelp(document).getStyle('.filled');
@@ -75,7 +75,7 @@ assert.exists(filled);
 assert.isNotEmpty([...filled]); 
 ```
 
-When the `button` element is clicked, and it contains the class `filled`, you should remove the class `filled` from the `button` element and change the innerHTML of the `button` element to `&#9825;`.
+`button`要素がクリックされ、クラス`filled`を持っている場合は、`filled`要素からクラス`button`を削除し、`button`要素のinnerHTMLを`&#9825;`に変更してください。
 
 ```js
 const buttonElements = document.querySelectorAll('.favorite-icon');
@@ -90,7 +90,7 @@ buttonElements.forEach(button => {
 });
 ```
 
-When the `button` element is clicked, and it doesn't contain the class `filled`, you should add the class `filled` to the `button` element and change the `innerHTML` of the `button` element to `&#10084;`.
+`button`要素がクリックされ、クラス`filled`を持っていない場合は、`filled`要素にクラス`button`を追加し、`innerHTML`要素の`button`を`&#10084;`に変更してください。
 
 ```js
 const buttonElements = document.querySelectorAll('.favorite-icon');
@@ -119,7 +119,7 @@ buttonElements.forEach(button => {
   </head>
 
   <body>
-
+  
   </body>
 </html>
 ```

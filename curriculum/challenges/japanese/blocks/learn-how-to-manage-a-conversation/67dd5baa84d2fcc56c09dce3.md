@@ -1,6 +1,6 @@
 ---
 id: 67dd5baa84d2fcc56c09dce3
-title: Task 15
+title: タスク 15
 challengeType: 22
 dashedName: task-15
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+音声を聞いて、下の文を完成させてください。
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This means to make a choice or come to a conclusion about something.
+これは何かについて選択したり結論を出したりすることを意味します。
 
 ---
 
@@ -32,17 +32,17 @@ This means to make a choice or come to a conclusion about something.
 
 ### --feedback--
 
-This refers to a specific stage or part of a process or project.
+これはプロセスやプロジェクトの特定の段階や部分を指します。
 
 # --explanation--
 
-`To decide` means to choose something after thinking about it. For example:
+`To decide` は、よく考えた上で何かを選ぶことを意味します。例えば：
 
-`We need to decide which tools to use for the project.` – This means choosing the tools after considering the options.
+`We need to decide which tools to use for the project.` – これは選択肢を検討した後にツールを選ぶことを意味します。
 
-A `phase` refers to one part or step in a larger process. For example:
+`phase` は、より大きなプロセスの一部やステップを指します。例えば：
 
-`We just finished the testing phase of the software.` – This means the testing step in the development process is complete.
+`We just finished the testing phase of the software.` – これは開発プロセスのテスト段階が完了したことを意味します。
 
 # --scene--
 

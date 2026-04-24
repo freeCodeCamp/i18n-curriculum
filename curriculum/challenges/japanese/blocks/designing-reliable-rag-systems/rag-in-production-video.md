@@ -1,6 +1,6 @@
 ---
 id: 69ae6fdbb4a814be6a4f2be2
-title: RAG in Production
+title: 本番環境におけるRAG
 challengeType: 11
 videoId: EVZRatDET7Y
 dashedName: rag-in-production
@@ -8,13 +8,13 @@ dashedName: rag-in-production
 
 # --description--
 
-In this video, you will learn about how RAG works in a production environment.
+このビデオでは、本番環境でRAGがどのように機能するかについて学びます。
 
 # --questions--
 
 ## --text--
 
-Which of the following is NOT a layer of a RAG system in Kubernetes?
+KubernetesのRAGシステムのレイヤーでないものはどれですか？
 
 ## --answers--
 
@@ -35,5 +35,3 @@ Monitoring Layer
 ## --video-solution--
 
 1
-
-

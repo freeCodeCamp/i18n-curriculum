@@ -1,6 +1,6 @@
 ---
 id: 698dd3ea7932b3cc4b19c92e
-title: Accessing a Value in an Array
+title: 配列の値にアクセスする方法
 challengeType: 11
 videoId: yN6_wlaNvHo
 dashedName: accessing-a-value-in-an-array
@@ -8,13 +8,13 @@ dashedName: accessing-a-value-in-an-array
 
 # --description--
 
-In this video, you will learn how to access elements from an array.
+このビデオでは、配列から要素にアクセスする方法を学びます。
 
 # --questions--
 
 ## --text--
 
-Which of the following is the correct way to access the first element from a Python list?
+Pythonのリストから最初の要素にアクセスする正しい方法はどれですか？
 
 ## --answers--
 

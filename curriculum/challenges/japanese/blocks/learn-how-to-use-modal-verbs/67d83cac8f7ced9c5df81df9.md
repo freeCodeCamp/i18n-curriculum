@@ -1,6 +1,6 @@
 ---
 id: 67d83cac8f7ced9c5df81df9
-title: Task 144
+title: タスク 144
 challengeType: 22
 dashedName: task-144
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+音声を聞いて、下の文を完成させてください。
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This modal verb expresses possibility or uncertainty about a past event.
+この助動詞は、過去の出来事についての可能性や不確実性を表します。
 
 ---
 
@@ -32,15 +32,15 @@ This modal verb expresses possibility or uncertainty about a past event.
 
 ### --feedback--
 
-This verb is the `Past Perfect` form, used to talk about something that could have happened in the past. Use two words.
+この動詞は`Past Perfect`形で、過去に起こったかもしれないことを話すときに使います。2語で答えてください。
 
-# --explanation--
+# --explanation--  
 
-`Might` expresses possibility.
+`Might`は可能性を表します。  
 
-`Have taken` is the `Past Perfect` form of `take`, used to talk about a possible past action. For example:
+`Have taken`は`Past Perfect`の`take`形で、過去に起こったかもしれないことを話すときに使います。例えば：
 
-`The attacker might have taken sensitive files.` - You don't know for sure, but it is possible.
+`The attacker might have taken sensitive files.` - 確実ではないが、可能性があることを示します。
 
 # --scene--
 

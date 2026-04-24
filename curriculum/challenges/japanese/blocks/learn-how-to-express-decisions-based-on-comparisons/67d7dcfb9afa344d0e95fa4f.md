@@ -1,6 +1,6 @@
 ---
 id: 67d7dcfb9afa344d0e95fa4f
-title: Task 122
+title: タスク 122
 challengeType: 22
 dashedName: task-122
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+音声を聞いて、下の文を完成させてください。
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This two-word phrase means to cause or result in something happening.
+この2語のフレーズは、何かを引き起こす、または結果として生じさせることを意味します。  
 
 ---
 
@@ -32,17 +32,17 @@ This two-word phrase means to cause or result in something happening.
 
 ### --feedback--
 
-This means to make something take longer than expected.
+これは、何かを予想より長くかかるようにすることを意味します。  
 
 # --explanation--
 
-`Lead to` means to cause something to happen or result in a certain outcome. For example:
+`Lead to` は、何かを引き起こしたり、特定の結果をもたらしたりすることを意味します。例えば：
 
-`Poor planning can lead to missed deadlines.` – This means that if planning is not done well, deadlines may not be met.
+`Poor planning can lead to missed deadlines.` – これは、計画がうまくいかないと締め切りに間に合わないかもしれないという意味です。  
 
-`Delay` means to make something take longer than expected or to postpone it. For example:
+`Delay` は、何かを予想より長くかかるようにしたり、延期したりすることを意味します。例えば：
 
-`The software release was delayed due to unexpected bugs.` – This means the launch was pushed back because of technical issues.
+`The software release was delayed due to unexpected bugs.` – これは、技術的な問題のために発売が遅れたという意味です。  
 
 # --scene--
 

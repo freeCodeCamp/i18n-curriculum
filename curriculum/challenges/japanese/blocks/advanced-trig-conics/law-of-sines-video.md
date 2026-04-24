@@ -1,6 +1,6 @@
 ---
 id: 699e855a8f18cf77dfce5c21
-title: Law of Sines
+title: 正弦定理
 challengeType: 11
 videoId: Arm0baqLKTo
 dashedName: law-of-sines
@@ -8,32 +8,30 @@ dashedName: law-of-sines
 
 # --description--
 
-In this video, you will learn about the Law of Sines.
+このビデオでは、正弦定理について学びます。
 
 # --questions--
 
 ## --text--
 
-What can the Law of Sines be used to find?
+正弦定理は何を求めるために使えますか？
 
 ## --answers--
 
-To solve triangles that are right triangles.
+直角三角形を解くため。
 
 ---
 
-To solve triangles that are not necessarily right triangles.
+必ずしも直角でない三角形を解くため。
 
 ---
 
-To solve triangles that are equilateral triangles.
+正三角形を解くため。
 
 ---
 
-To solve triangles that are isosceles triangles.
+二等辺三角形を解くため。
 
 ## --video-solution--
 
 2
-
-

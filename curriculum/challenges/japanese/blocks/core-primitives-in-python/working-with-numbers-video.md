@@ -1,6 +1,6 @@
 ---
 id: 8ad37ddb7a23050f71cc9cc9
-title: Working with Numbers
+title: 数値の操作
 challengeType: 11
 videoId: C7sxe5GAArQ
 dashedName: working-with-numbers
@@ -8,13 +8,13 @@ dashedName: working-with-numbers
 
 # --description--
 
-In this video, you will learn how to work with basic arithmetic operations and built-in number functions.
+このビデオでは、基本的な算術演算と組み込みの数値関数の使い方を学びます。
 
 # --questions--
 
 ## --text--
 
-Which of the following built-in functions is used to return the base number raised to a power?
+次の組み込み関数のうち、底の数をべき乗するために使われるものはどれですか？
 
 ## --answers--
 

@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c443edefaeb5bd0e
-title: URL Shortener Microservice
+title: URLショートナー・マイクロサービス
 challengeType: 4
 forumTopicId: 301509
 dashedName: url-shortener-microservice
@@ -8,18 +8,18 @@ dashedName: url-shortener-microservice
 
 # --description--
 
-Build a full-stack JavaScript app that is functionally similar to this: <a href="https://url-shortener-microservice.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://url-shortener-microservice.freecodecamp.rocks</a>. Working on this project will involve you writing your code using one of the following methods:
+このリンク先の機能と同様のフルスタックJavaScriptアプリを作成してください：<a href="https://url-shortener-microservice.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://url-shortener-microservice.freecodecamp.rocks</a>。このプロジェクトに取り組むには、以下のいずれかの方法でコードを書いてください。
 
--   Clone <a href="https://github.com/freeCodeCamp/boilerplate-project-urlshortener/" target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete your project locally.
--   Use a site builder of your choice to complete the project. Be sure to incorporate all the files from our GitHub repo.
+- <a href="https://github.com/freeCodeCamp/boilerplate-project-urlshortener/" target="_blank" rel="noopener noreferrer nofollow">このGitHubリポジトリ</a>をクローンして、ローカルでプロジェクトを完成させる。
+- お好みのサイトビルダーを使ってプロジェクトを完成させる。ただし、GitHubリポジトリのすべてのファイルを組み込むことを忘れないでください。
 
 # --instructions--
 
-**HINT:** Do not forget to use a body parsing middleware to handle the POST requests. Also, you can use the function `dns.lookup(host, cb)` from the `dns` core module to verify a submitted URL.
+**ヒント：** POSTリクエストを処理するためにボディパース用のミドルウェアを使うことを忘れないでください。また、提出されたURLを検証するために`dns.lookup(host, cb)`コアモジュールの`dns`関数を使うことができます。
 
 # --hints--
 
-You should provide your own project, not the example URL.
+例のURLではなく、自分のプロジェクトを提出してください。
 
 ```js
   assert(
@@ -29,7 +29,7 @@ You should provide your own project, not the example URL.
   );
 ```
 
-You can POST a URL to `/api/shorturl` and get a JSON response with `original_url` and `short_url` properties. Here's an example: `{ original_url : 'https://freeCodeCamp.org', short_url : 1}`
+`/api/shorturl`にURLをPOSTすると、`original_url`と`short_url`プロパティを含むJSONレスポンスが返されます。例は以下の通りです：`{ original_url : 'https://freeCodeCamp.org', short_url : 1}`
 
 ```js
   const url = code;
@@ -49,7 +49,7 @@ You can POST a URL to `/api/shorturl` and get a JSON response with `original_url
   }
 ```
 
-When you visit `/api/shorturl/<short_url>`, you will be redirected to the original URL.
+`/api/shorturl/<short_url>`にアクセスすると、元のURLにリダイレクトされます。
 
 ```js
   const url = code;
@@ -79,7 +79,7 @@ When you visit `/api/shorturl/<short_url>`, you will be redirected to the origin
   }
 ```
 
-If you pass an invalid URL that doesn't follow the valid `http://www.example.com` format, the JSON response will contain `{ error: 'invalid url' }`
+有効な`http://www.example.com`形式に従わない無効なURLを渡すと、JSONレスポンスに`{ error: 'invalid url' }`が含まれます。
 
 ```js
   const url = code;
@@ -96,4 +96,3 @@ If you pass an invalid URL that doesn't follow the valid `http://www.example.com
     throw new Error(`${res.status} ${res.statusText}`);
   }
 ```
-

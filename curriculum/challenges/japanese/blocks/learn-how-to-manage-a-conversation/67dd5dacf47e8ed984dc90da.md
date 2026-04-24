@@ -1,6 +1,6 @@
 ---
 id: 67dd5dacf47e8ed984dc90da
-title: Task 17
+title: タスク 17
 challengeType: 19
 dashedName: task-17
 lang: en-US
@@ -12,13 +12,13 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+音声を聞いて、以下の質問に答えてください。
 
 # --questions--
 
 ## --text--
 
-How could Alice answer briefly that there is no decision concerning the deadline at the moment?
+アリスは、現時点で締め切りに関する決定がないことを短くどう答えられますか？
 
 ## --answers--
 
@@ -38,7 +38,7 @@ EN391abad4
 
 ### --feedback--
 
-This doesn't relate to the question about setting the deadline.
+これは締め切りの設定に関する質問とは関係がありません。
 
 ## --video-solution--
 
@@ -46,11 +46,11 @@ This doesn't relate to the question about setting the deadline.
 
 # --explanation--
 
-`Not yet` is a short and natural way to say that something hasn't happened or been completed up to the present moment, but it may happen in the future. For example:
+`Not yet` は、何かが現在までに起こっていない、または完了していないが、将来的には起こる可能性があることを短く自然に表現する方法です。例えば：
 
-- **Manager:** `Have you sent the email?` - Here, the person is asking about an email that should be sent.
+- **Manager:** `Have you sent the email?` - ここでは、送るべきメールについて尋ねています。
 
-- **Employee:** `Not yet.` – This means the email hasn't been sent, but that the person still plans to send it.
+- **Employee:** `Not yet.` – これはメールはまだ送られていないが、送る予定であることを意味します。
 
 # --scene--
 

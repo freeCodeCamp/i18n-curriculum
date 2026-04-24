@@ -1,6 +1,6 @@
 ---
 id: 68443eddeab5bb2d7d6e44bf
-title: Task 45
+title: タスク 45
 challengeType: 22
 dashedName: task-45
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+音声を聞いて、下の文を完成させてください。
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This two-word phrase means to arrange or prepare something for use.
+この2語のフレーズは、何かを使えるように準備または手配することを意味します。
 
 ---
 
@@ -32,17 +32,17 @@ This two-word phrase means to arrange or prepare something for use.
 
 ### --feedback--
 
-This two-word phrase refers to a space where employees can relax from work.
+この2語のフレーズは、従業員が仕事から離れてくつろげる場所を指します。
 
 # --explanation--
 
-`Set up` means to prepare or arrange something for use. For example:
+`Set up` は、何かを使えるように準備または手配することを意味します。例えば：
 
-`We need to set up the new computers before the meeting.` – This means to make them ready.
+`We need to set up the new computers before the meeting.` – これはそれらを準備することを意味します。
 
-`Break room` is a place in an office where people rest, eat, or relax. For example:
+`Break room` は、オフィス内で人々が休憩したり、食事をしたり、くつろいだりする場所です。例えば：
 
-`Let's meet in the break room after lunch.` – This refers to a space meant for taking a break.
+`Let's meet in the break room after lunch.` – これは休憩用のスペースを指します。
 
 # --scene--
 

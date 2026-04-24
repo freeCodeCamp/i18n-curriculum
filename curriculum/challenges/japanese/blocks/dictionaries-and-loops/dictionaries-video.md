@@ -1,6 +1,6 @@
 ---
 id: 3625fbc38b9428ae98d98f23
-title: Dictionaries
+title: 辞書
 challengeType: 11
 videoId: FBfYADu3CIo
 dashedName: dictionaries
@@ -8,13 +8,13 @@ dashedName: dictionaries
 
 # --description--
 
-In this video, you will learn how to work with dictionaries in Python to store key-value pairs.
+このビデオでは、Pythonで辞書を使ってキーと値のペアを保存する方法を学びます。
 
 # --questions--
 
 ## --text--
 
-Which of the following will correctly output the string `"March"` to the console?
+次のうち、文字列`"March"`をコンソールに正しく出力するものはどれですか？
 
 ## --answers--
 

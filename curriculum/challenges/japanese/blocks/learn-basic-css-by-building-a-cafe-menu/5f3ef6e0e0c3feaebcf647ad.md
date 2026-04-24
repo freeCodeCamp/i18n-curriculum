@@ -7,23 +7,23 @@ dashedName: step-47
 
 # --description--
 
-新しいセクションの中に `h2` 要素を 1 つ追加し、`Desserts` というテキストを入れてください。
+新しいセクションに`h2`要素を追加し、テキストを`Desserts`にしてください。
 
 # --hints--
 
-既存の `section` 要素を変更しないようにしてください。
+既存の`section`要素は変更しないでください。
 
 ```js
 assert.lengthOf(document.querySelectorAll('section'), 2);
 ```
 
-2 つ目の `section` 要素内に、`h2` 要素を 1 つ追加する必要があります。
+2番目の`h2`要素に`section`要素を追加してください。
 
 ```js
 assert.strictEqual(document.querySelectorAll('section')?.[1]?.children?.[0]?.tagName, 'H2');
 ```
 
-新しい `h2` 要素は `Desserts` というテキストをもつ必要があります。
+新しい`h2`要素のテキストは`Desserts`にしてください。
 
 ```js
 assert.match(document.querySelectorAll('h2')?.[1]?.innerText, /Desserts/i);
@@ -105,4 +105,3 @@ h1, h2, p {
   width: 25%;
 }
 ```
-

@@ -1,6 +1,6 @@
 ---
 id: 677d3b8fac17ba6cbf3d8afa
-title: Task 3
+title: タスク 3
 challengeType: 22
 dashedName: task-3
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+音声を聞いて、以下の文を完成させてください。
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This is the `-ing` form of the verb `say`, used after the preposition `by` to indicate the method of starting.
+これは動詞 `-ing` の `say` 形で、前置詞 `by` の後に使われ、開始の方法を示します。
 
 ---
 
@@ -32,17 +32,17 @@ This is the `-ing` form of the verb `say`, used after the preposition `by` to in
 
 ### --feedback--
 
-This stands for `Quality Assurance`, referring to the process of ensuring products meet required standards.
+これは `Quality Assurance` を表し、製品が必要な基準を満たしているかを確認するプロセスを指します。
 
 # --explanation--
 
-When a verb follows a preposition, it must take the `-ing` form (gerund). In this sentence, `saying` follows the preposition `by`, indicating the method Bob uses to start his statement. For example:
+動詞が前置詞の後に続く場合、`-ing` 形（動名詞）を使う必要があります。この文では、`saying` が前置詞 `by` の後に続き、ボブ が発言を始める方法を示しています。例えば：
 
-`She improved her skills by practicing regularly.` - Here, `practicing` follows the preposition `by`, showing how she improved her skills.
+`She improved her skills by practicing regularly.` - ここでは、`practicing` が前置詞 `by` の後に続き、彼女がスキルを向上させた方法を示しています。
 
-Bob compliments Jessica for her work in `QA`. `QA` stands for `Quality Assurance`. It refers to the process of ensuring that products or services meet specific quality standards and function correctly. Another example:
+ボブ は ジェシカ の `QA` の仕事を褒めています。`QA` は `Quality Assurance` を表します。これは、製品やサービスが特定の品質基準を満たし、正しく機能することを保証するプロセスを指します。別の例：
 
-`The QA team identified several bugs during testing.` - This means that the people responsible for making sure the quality of the software is good managed to detect bugs in the software before its release.
+`The QA team identified several bugs during testing.` - これは、ソフトウェアの品質を確保する責任者がリリース前にバグを検出できたことを意味します。
 
 # --scene--
 

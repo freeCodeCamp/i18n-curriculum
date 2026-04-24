@@ -1,6 +1,6 @@
 ---
 id: bd7123c8c441eddfaeb5bdef
-title: Say Hello to HTML Elements
+title: HTML要素に挨拶しよう
 challengeType: 0
 videoUrl: 'https://scrimba.com/p/pVMPUv/cE8Gpt2'
 forumTopicId: 18276
@@ -9,37 +9,37 @@ dashedName: say-hello-to-html-elements
 
 # --description--
 
-Welcome to freeCodeCamp's HTML coding challenges. These will walk you through web development step-by-step.
+freeCodeCampのHTMLコーディングチャレンジへようこそ。これらはウェブ開発をステップごとに案内します。
 
-First, you'll start by building a simple web page using HTML. You can edit code in your code editor, which is embedded into this web page.
+まず、HTMLを使ってシンプルなウェブページを作成することから始めます。コードエディターはこのウェブページに埋め込まれているので、そこでコードを編集できます。
 
-Do you see the code in your code editor that says `<h1>Hello</h1>`? That's an HTML element.
+コードエディターに`<h1>Hello</h1>`と書かれたコードが見えますか？それはHTML要素です。
 
-Most HTML elements have an opening tag and a closing tag.
+ほとんどのHTML要素は開始タグと終了タグを持っています。
 
-Opening tags look like this:
+開始タグはこのように見えます：
 
 ```html
 <h1>
 ```
 
-Closing tags look like this:
+終了タグはこのように見えます：
 
 ```html
 </h1>
 ```
 
-The only difference between opening and closing tags is the forward slash after the opening bracket of a closing tag.
+開始タグと終了タグの違いは、終了タグの開始ブラケットの後にスラッシュがあることだけです。
 
-Each challenge has tests you can run at any time by clicking the "Run tests" button. When you pass all tests, you'll be prompted to submit your solution and go to the next coding challenge.
+各チャレンジには「Run tests」ボタンをクリックすればいつでも実行できるテストがあります。すべてのテストに合格すると、解答を提出して次のコーディングチャレンジに進むよう促されます。
 
 # --instructions--
 
-To pass the test on this challenge, change your `h1` element's text to say `Hello World`.
+このチャレンジのテストに合格するには、`h1`要素のテキストを`Hello World`に変更してください。
 
 # --hints--
 
-Your `h1` element should have the text `Hello World`.
+`h1`要素のテキストは`Hello World`であるべきです。
 
 ```js
 assert.match(document.querySelector('h1').textContent,/hello(\s)+world/gi);

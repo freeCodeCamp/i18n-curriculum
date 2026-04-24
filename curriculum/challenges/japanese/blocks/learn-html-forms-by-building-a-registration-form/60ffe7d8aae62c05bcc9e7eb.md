@@ -7,19 +7,19 @@ dashedName: step-58
 
 # --description--
 
-`display` を `block` に設定すると、送信ボタンは親要素の左端に表示されます。
+`display` の `block` を設定すると、送信ボタンは親要素の左端にぴったりと配置されます。
 
-`form` を中央揃えにする際に使ったのとテクニックを使って、送信ボタンを中央揃えにしてください。
+`form` を中央に配置するのに使った手法と同じものを使って、送信ボタンを中央に配置してください。
 
 # --hints--
 
-送信ボタンの `margin` を `0 auto` に設定する必要があります。
+送信ボタンに `margin` の `0 auto` を設定する必要があります。
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('input[type="submit"]')?.margin, '0px auto');
 ```
 
-送信ボタンには `min-width` と `max-width` は必要ありません。
+送信ボタンに `min-width` や `max-width` を設定してはいけません。
 
 ```js
 assert.isEmpty(new __helpers.CSSHelp(document).getStyle('input[type="submit"]')?.minWidth);

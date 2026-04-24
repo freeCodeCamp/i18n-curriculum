@@ -1,6 +1,6 @@
 ---
 id: 67cafac07dc081eefb4d7adb
-title: Task 135
+title: タスク135
 challengeType: 19
 dashedName: task-135
 lang: en-US
@@ -10,51 +10,51 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+音声を聞いて、以下の質問に答えてください。  
 
 # --questions--
 
 ## --text--
 
-What is the objective of having weekly meetings?
+週次ミーティングを行う目的は何ですか？
 
 ## --answers--
 
-To reduce the number of tasks the team has.
+チームのタスク数を減らすため。
 
 ### --feedback--
 
-Bob does not mention reducing tasks.
+ボブはタスクを減らすことについては言及していません。  
 
 ---
 
-To avoid making any changes to the project.
+プロジェクトに変更を加えないようにするため。
 
 ### --feedback--
 
-Bob does not suggest that they avoid making changes.
+ボブは変更を避けることを提案していません。
 
 ---
 
-To increase the number of meetings without a clear goal.
+明確な目的なしにミーティングの回数を増やすため。
 
 ### --feedback--
 
-Bob has a specific goal and he mentions it.
+ボブは具体的な目的を持っていると述べています。
 
 ---
 
-To make sure everyone stays updated on the project.
+全員がプロジェクトの最新情報を把握できるようにするため。
 
 ## --video-solution--
 
-4
+4  
 
 # --explanation--
 
-`To keep someone in the loop` means to keep them informed about important updates and decisions. For example:
+`To keep someone in the loop` は、重要な更新や決定事項について情報を共有し続けることを意味します。例えば：
 
-`Please keep me in the loop about any changes to the schedule.` - This means the speaker wants to be updated if anything changes.
+`Please keep me in the loop about any changes to the schedule.` - これは、何か変更があればスピーカーに知らせてほしいという意味です。
 
 # --scene--
 

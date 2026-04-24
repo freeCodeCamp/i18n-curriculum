@@ -1,6 +1,6 @@
 ---
 id: 685a6b1bbaea710fbdf98bc4
-title: Task 42
+title: タスク 42
 challengeType: 22
 dashedName: task-42
 lang: en-US
@@ -10,13 +10,13 @@ lang: en-US
 
 # --description--
 
-This is a review of the entire dialogue you just studied.
+これは、あなたが学習したばかりの対話全体のレビューです。
 
 # --instructions--
 
-Write the following words or phrases in the correct spot:
+次の単語やフレーズを正しい場所に書いてください：
 
-`last month`, `a while since`, `next phase`, `good news`, `yesterday`, and `green light`.
+`last month`, `a while since`, `next phase`, `good news`, `yesterday`, および `green light`。
 
 # --fillInTheBlank--
 
@@ -40,7 +40,7 @@ Write the following words or phrases in the correct spot:
 
 ### --feedback--
 
-A way to say it has been some time since something happened.
+何かが起こってからしばらく時間が経ったことを表す言い方です。
 
 ---
 
@@ -48,7 +48,7 @@ A way to say it has been some time since something happened.
 
 ### --feedback--
 
-The day before today.
+今日の前の日のことです。
 
 ---
 
@@ -56,7 +56,7 @@ The day before today.
 
 ### --feedback--
 
-Positive or happy information.
+ポジティブまたは嬉しい情報です。
 
 ---
 
@@ -64,7 +64,7 @@ Positive or happy information.
 
 ### --feedback--
 
-The month before the current one.
+現在の月の前の月のことです。
 
 ---
 
@@ -72,7 +72,7 @@ The month before the current one.
 
 ### --feedback--
 
-Permission to start something.
+何かを始める許可を表します。
 
 ---
 
@@ -80,4 +80,4 @@ Permission to start something.
 
 ### --feedback--
 
-The following part or step in a plan or project.
+計画やプロジェクトの次の部分やステップです。

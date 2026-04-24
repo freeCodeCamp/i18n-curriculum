@@ -1,6 +1,6 @@
 ---
 id: a9f9c5bf295034800d6c77ad
-title: Building a Better Calculator
+title: より良い電卓を作る
 challengeType: 11
 videoId: lOltMrA6kuY
 dashedName: building-a-better-calculator
@@ -8,13 +8,13 @@ dashedName: building-a-better-calculator
 
 # --description--
 
-In this video, you will learn how to build an improved calculator program using if statements.
+このビデオでは、if文を使って改良された電卓プログラムを作る方法を学びます。
 
 # --questions--
 
 ## --text--
 
-Which of the following built-in functions is used to convert a string to a float?
+次の組み込み関数のうち、文字列を浮動小数点数に変換するために使われるのはどれですか？
 
 ## --answers--
 

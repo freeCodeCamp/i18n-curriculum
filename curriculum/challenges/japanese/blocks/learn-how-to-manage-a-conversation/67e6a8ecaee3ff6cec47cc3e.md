@@ -1,6 +1,6 @@
 ---
 id: 67e6a8ecaee3ff6cec47cc3e
-title: Task 75
+title: タスク 75
 challengeType: 19
 dashedName: task-75
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+音声を聞いて、以下の質問に答えてください。
 
 # --questions--
 
 ## --text--
 
-Why does Jessica want to explain the bug to the team quickly?
+なぜジェシカはバグについてチームに素早く説明したいのでしょうか？
 
 ## --answers--
 
-Because she wants to return to the main topic of the meeting.
+会議の主な議題に戻りたいからです。
 
 ---
 
-Because she wants to leave the meeting early.
+会議を早く終わらせたいからです。
 
 ### --feedback--
 
-Jessica doesn't mention leaving the meeting.
+ジェシカは会議を早く終わらせたいとは言っていません。
 
 ---
 
-Because the team already knows about the bug.
+チームはすでにバグを知っているからです。
 
 ### --feedback--
 
-Jessica is explaining the bug because it might affect the team.
+ジェシカはバグがチームに影響を与えるかもしれないので説明しています。
 
 ---
 
-Because she doesn't think the bug is important.
+バグは重要だと思っていないからです。
 
 ### --feedback--
 
-Jessica thinks the issue is important, but she also wants to respect the meeting agenda.
+ジェシカは問題を重要だと考えていますが、会議の議題も尊重したいと思っています。
 
 ## --video-solution--
 
@@ -52,13 +52,13 @@ Jessica thinks the issue is important, but she also wants to respect the meeting
 
 # --explanation--
 
-`So we can` is used to show purpose — it means the next thing you mention is what you intend to do. It explains why someone is doing something. For example:
+`So we can` は目的を示すために使われます。これは、次に述べることが話者の意図であることを意味します。なぜ誰かが何かをするのかを説明します。例えば：
 
-`I'll finish this now so we can start the next task.` – This means the speaker wants to finish one thing to begin another soon.
+`I'll finish this now so we can start the next task.` – これは話者が一つのことを終えて、すぐに別のことを始めたいという意味です。
 
-`The main agenda` refers to the primary topics or plan of a meeting or event. For example:
+`The main agenda` は会議やイベントの主要な議題や計画を指します。例えば：
 
-`Let's stick to the main agenda and avoid side discussions.` – This means to stay focused on the most important items in the meeting.
+`Let's stick to the main agenda and avoid side discussions.` – これは会議の最も重要な項目にフォーカスし続けることを意味します。
 
 # --scene--
 

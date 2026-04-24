@@ -1,6 +1,6 @@
 ---
 id: 679bacd4af7be22f71bb43ee
-title: Task 65
+title: タスク 65
 challengeType: 22
 dashedName: task-65
 lang: en-US
@@ -10,13 +10,13 @@ lang: en-US
 
 # --description--
 
-This is a review of the entire dialogue you just studied.
+これは、あなたが学習したばかりの対話全体のレビューです。
 
 # --instructions--
 
-Write the following words or phrases in the correct spot:
+次の単語やフレーズを正しい場所に書いてください：
 
-`deadlines`, `debating`, `disagreement`, `healthy`, `keeping things on track`, `lose motivation`, `make progress`, `perspectives`, and `strong opinions`.
+`deadlines`, `debating`, `disagreement`, `healthy`, `keeping things on track`, `lose motivation`, `make progress`, `perspectives`, および `strong opinions`。
 
 # --fillInTheBlank--
 
@@ -45,7 +45,7 @@ Write the following words or phrases in the correct spot:
 
 ### --feedback--
 
-This phrase refers to firm or intense beliefs about a topic.
+このフレーズは、あるトピックに対する強いまたは激しい信念を指します。
 
 ---
 
@@ -53,7 +53,7 @@ This phrase refers to firm or intense beliefs about a topic.
 
 ### --feedback--
 
-This phrase means to move forward or improve a situation.
+このフレーズは、前進することや状況を改善することを意味します。
 
 ---
 
@@ -61,7 +61,7 @@ This phrase means to move forward or improve a situation.
 
 ### --feedback--
 
-This word means beneficial or good for a situation.
+この単語は、有益であることや状況にとって良いことを意味します。
 
 ---
 
@@ -69,7 +69,7 @@ This word means beneficial or good for a situation.
 
 ### --feedback--
 
-This word refers to having different opinions or viewpoints.
+この単語は、異なる意見や見解を持つことを指します。
 
 ---
 
@@ -77,7 +77,7 @@ This word refers to having different opinions or viewpoints.
 
 ### --feedback--
 
-This word refers to specific dates or times by which tasks must be completed.
+この単語は、タスクを完了しなければならない特定の日付や時間を指します。
 
 ---
 
@@ -85,7 +85,7 @@ This word refers to specific dates or times by which tasks must be completed.
 
 ### --feedback--
 
-This word refers to different viewpoints or ways of thinking about something.
+この単語は、異なる視点や考え方を指します。
 
 ---
 
@@ -93,7 +93,7 @@ This word refers to different viewpoints or ways of thinking about something.
 
 ### --feedback--
 
-This word refers to discussing different viewpoints, sometimes extensively.
+この単語は、異なる見解を議論すること、時には広範囲にわたって議論することを指します。
 
 ---
 
@@ -101,7 +101,7 @@ This word refers to discussing different viewpoints, sometimes extensively.
 
 ### --feedback--
 
-This phrase means to stop feeling driven or enthusiastic about something.
+このフレーズは、何かに対する意欲や熱意を失うことを意味します。
 
 ---
 
@@ -109,4 +109,4 @@ This phrase means to stop feeling driven or enthusiastic about something.
 
 ### --feedback--
 
-This phrase means maintaining focus and ensuring progress continues.
+このフレーズは、フォーカスを維持し、進捗を続けることを意味します。

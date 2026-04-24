@@ -1,6 +1,6 @@
 ---
 id: 65fc9c5db0a80e6e3d3cfce5
-title: Task 37
+title: タスク 37
 challengeType: 22
 dashedName: task-37
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --description--
 
-In this part of the conversation, Brian talks about how the talk made him feel and thanks Maria for sharing her perspective.
+この会話の部分では、ブライアンがトークを聞いて感じたことについて話し、マリアが視点を共有してくれたことに感謝しています。
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ In this part of the conversation, Brian talks about how the talk made him feel a
 
 ### --feedback--
 
-This word means something that gives you energy or a reason to do something. It's like when someone's words make you want to try harder.
+この言葉は、エネルギーや何かをする理由を与えるものを意味します。誰かの言葉がもっと頑張りたいと思わせるような時のことです。
 
 ---
 
@@ -32,7 +32,7 @@ This word means something that gives you energy or a reason to do something. It'
 
 ### --feedback--
 
-This word means giving something that you have to others. It's like when you tell someone your ideas or feelings.
+この言葉は、自分が持っているものを他の人に与えることを意味します。自分の考えや気持ちを誰かに伝える時のことです。
 
 # --scene--
 

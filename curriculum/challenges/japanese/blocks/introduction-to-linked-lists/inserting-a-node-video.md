@@ -1,6 +1,6 @@
 ---
 id: 698dd8b47932b3cc4b19c933
-title: Inserting a Node
+title: ノードの挿入
 challengeType: 11
 videoId: HKCIczy-v90
 dashedName: inserting-a-node
@@ -8,29 +8,29 @@ dashedName: inserting-a-node
 
 # --description--
 
-In this video, you will learn how to insert a node in a linked list.
+このビデオでは、連結リストにノードを挿入する方法を学びます。
 
 # --questions--
 
 ## --text--
 
-What is the runtime for inserting a node at a known position in a linked list?
+連結リストの既知の位置にノードを挿入する際の実行時間はどれですか？
 
 ## --answers--
 
-constant time
+定数時間
 
 ---
 
-linear time
+線形時間
 
 ---
 
-quadratic time
+二次時間
 
 ---
 
-exponential time
+指数時間
 
 ## --video-solution--
 

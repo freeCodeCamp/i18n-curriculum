@@ -8,43 +8,43 @@ dashedName: visualize-data-with-a-bar-chart
 
 # --description--
 
-**目標:** こちらと似た機能を持つアプリを構築してください: <a href="https://bar-chart.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://bar-chart.freecodecamp.rocks</a>
+**目的:** 次のような機能を持つアプリを作成してください：<a href="https://bar-chart.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://bar-chart.freecodecamp.rocks</a>。
 
-以下のユーザーストーリーを満たし、すべてのテストが成功するようにしてください。 必要に応じて、どのようなライブラリあるいは API を使用してもかまいません。 あなた独自のアレンジを加えましょう。
+以下のユーザーストーリーを満たし、すべてのテストに合格してください。必要なライブラリやAPIは自由に使って構いません。自分なりのスタイルを加えてください。
 
-HTML、JavaScript、CSS、および D3 の SVG ベースのビジュアライゼーションライブラリを使用できます。 テストでは、軸に沿って自動的に目盛りを生成する D3 軸プロパティを使用して軸を生成する必要があります。 グラフ化された要素の配置を調べるために目盛りの位置が使用されるので、D3 テストを成功させるためにはこの目盛りが必要です。 軸の生成については、<https://d3js.org/d3-axis> を参照してください。 必要な DOM 要素は、各テストの時にクエリされます。 If you use a front-end framework (like Vue for example), the test results may be inaccurate for dynamic content. 最終的には対応したいと考えていますが、現在の D3 プロジェクトではこれらのフレームワークはサポートされていません。
+HTML、JavaScript、CSS、そしてD3のSVGベースの可視化ライブラリを使うことができます。テストではD3のaxisプロパティを使って軸を生成する必要があり、これにより軸に沿った目盛りが自動的に生成されます。これらの目盛りは、グラフ要素の整列を判定するために使われるため、D3のテストに合格するには必須です。軸の生成方法については<https://d3js.org/d3-axis>で確認できます。必要なDOM要素は各テストの瞬間にクエリされます。Vueのようなフロントエンドフレームワークを使う場合、動的コンテンツのテスト結果が正確でない場合があります。将来的には対応を検討していますが、現時点ではD3プロジェクトでこれらのフレームワークはサポートされていません。
 
-**ユーザーストーリー #1:** 私のチャートには、タイトルとそれに対応する `id="title"` が必要です。
+**ユーザーストーリー #1:** チャートには対応する`id="title"`を持つタイトルがあること。
 
-**ユーザーストーリー #2:** 私のチャートには、`g` 要素の x 軸とそれに対応する `id="x-axis"` が必要です。
+**ユーザーストーリー #2:** チャートには対応する`g`を持つ`id="x-axis"`要素のx軸があること。
 
-**ユーザーストーリー #3:** 私のチャートには、`g` 要素の y 軸とそれに対応する `id="y-axis"` が必要です。
+**ユーザーストーリー #3:** チャートには対応する`g`を持つ`id="y-axis"`要素のy軸があること。
 
-**ユーザー ストーリー#4:** 両軸には、複数の目盛りラベルと、それぞれに対応する `class="tick"` が含まれている必要があります。
+**ユーザーストーリー #4:** 両方の軸には複数の目盛りラベルがあり、それぞれに対応する`class="tick"`があること。
 
-**ユーザーストーリー #5:** 私のチャートには、各データポイントに対して、`rect` 要素と、それに対応してデータを表示する `class="bar"` が必要です。
+**ユーザーストーリー #5:** チャートには各データポイントに対応する`rect`を表示する`class="bar"`要素があること。
 
-**ユーザーストーリー #6:** `.bar` の各要素には、`date` 値を格納している `data-date` プロパティと、`GDP` 値を格納している `data-gdp` プロパティが必要です。
+**ユーザーストーリー #6:** 各`.bar`は`data-date`と`data-gdp`のプロパティを持ち、それぞれ`date`と`GDP`の値を含むこと。
 
-**ユーザーストーリー #7:** `.bar` の要素の `data-date` プロパティは、提供されたデータの順序と一致する必要があります。
+**ユーザーストーリー #7:** `.bar`要素の`data-date`プロパティは提供されたデータの順序と一致すること。
 
-**ユーザーストーリー #8:** `.bar` の要素の `data-gdp` プロパティは、提供されたデータの順序と一致する必要があります。
+**ユーザーストーリー #8:** `.bar`要素の`data-gdp`プロパティは提供されたデータの順序と一致すること。
 
-**ユーザーストーリー #9:** `.bar` の各要素の高さは、そのデータに対応する `GDP` を正確に表す必要があります。
+**ユーザーストーリー #9:** 各`.bar`要素の高さはデータの対応する`GDP`を正確に表していること。
 
-**ユーザーストーリー #10:** `data-date` 属性とそれに対応する `.bar` の要素は、x 軸上の対応する値と一致している必要があります。
+**ユーザーストーリー #10:** `data-date`属性と対応する`.bar`要素はx軸の対応する値と整列していること。
 
-**ユーザーストーリー #11:** `data-gdp` 属性とそれに対応する `.bar` の要素は、y 軸上の対応する値と一致している必要があります。
+**ユーザーストーリー #11:** `data-gdp`属性と対応する`.bar`要素はy軸の対応する値と整列していること。
 
-**ユーザーストーリー #12:** ある領域にマウスカーソルを合わせると、その領域の詳細情報を表示するための、対応する `id="tooltip"` を持つツールチップが表示されます。
+**ユーザーストーリー #12:** マウスをエリアに重ねると、そのエリアに関する詳細情報を表示する対応する`id="tooltip"`を持つツールチップが表示されること。
 
-**ユーザーストーリー #13:** 私のツールチップには、アクティブな領域の `data-date` に対応する `data-date` プロパティが必要です。
+**ユーザーストーリー #13:** ツールチップはアクティブなエリアの`data-date`に対応する`data-date`プロパティを持つこと。
 
-このプロジェクトを完了するために必要なデータセットはこちらにあります: `https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/GDP-data.json`
+このプロジェクトを完成させるために必要なデータセットはこちらです：`https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/GDP-data.json`
 
-<a href='https://codepen.io/pen?template=MJjpwO' target="_blank" rel="noopener noreferrer nofollow">この CodePen テンプレートを使用して</a> あなたのプロジェクトを構築することができます。`Save` をクリックすると、あなた用の pen を作成することができます。 または、下記の CDN リンクを使用して、使い慣れている環境でテストを実行することもできます:`https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js`
+<a href='https://codepen.io/pen?template=MJjpwO' target="_blank" rel="noopener noreferrer nofollow">このCodePenテンプレート</a>を使ってプロジェクトを作成し、`Save`をクリックして自分のペンを作成できます。または、このCDNリンクを使って任意の環境でテストを実行できます：`https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js`。
 
-完了したら、すべてのテストが成功する状態の作業プロジェクトの URL を送信してください。
+完成したら、すべてのテストに合格した動作中のプロジェクトのURLを提出してください。
 
 # --solutions--
 

@@ -1,6 +1,6 @@
 ---
 id: 67dd5cfeacc0cad2fc967438
-title: Task 16
+title: タスク16
 challengeType: 19
 dashedName: task-16
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+音声を聞いて、以下の質問に答えてください。
 
 # --questions--
 
 ## --text--
 
-What does James want to know?
+ジェームズは何を知りたいと思っていますか？
 
 ## --answers--
 
-If they agreed on the deadline for the first phase.
+最初のフェーズの締め切りについて合意したかどうか。
 
 ---
 
-If the project has been canceled.
+プロジェクトがキャンセルされたかどうか。
 
 ### --feedback--
 
-James doesn't mention canceling the project.
+ジェームズはプロジェクトのキャンセルについては言及していません。
 
 ---
 
-If Alice is responsible for the first phase.
+アリスが最初のフェーズの責任者かどうか。
 
 ### --feedback--
 
-James is not asking about responsibilities.
+ジェームズは責任については尋ねていません。
 
 ---
 
-If the team finished the final phase.
+チームが最終フェーズを終えたかどうか。
 
 ### --feedback--
 
-James does not talk about the final phase.
+ジェームズは最終フェーズについて話していません。
 
 ## --video-solution--
 
@@ -52,9 +52,9 @@ James does not talk about the final phase.
 
 # --explanation--
 
-`By the way` is used to introduce a new but related topic into the conversation. It often brings up something that the speaker just remembered or wants to check. For example:
+`By the way` は会話に新しいが関連した話題を導入するために使われます。話し手がちょうど思い出したことや確認したいことを持ち出すことが多いです。例えば：
 
-`By the way, have you seen the updated report?` – This introduces a new question related to what was already being discussed.
+`By the way, have you seen the updated report?` – これはすでに話されている内容に関連した新しい質問を導入します。
 
 # --scene--
 

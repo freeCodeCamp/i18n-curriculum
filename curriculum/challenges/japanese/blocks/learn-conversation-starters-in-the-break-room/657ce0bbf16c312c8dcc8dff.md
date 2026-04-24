@@ -1,6 +1,6 @@
 ---
 id: 657ce0bbf16c312c8dcc8dff
-title: Task 63
+title: タスク 63
 challengeType: 19
 dashedName: task-63
 lang: en-US
@@ -8,19 +8,19 @@ lang: en-US
 
 # --description--
 
-There are some words you can use in your sentence to express how often something happens. They are called **adverbs of frequency**.
+何かがどのくらいの頻度で起こるかを表すために使える単語があります。これらは**頻度の副詞**と呼ばれます。
 
-`Usually` is a word that suggests that something happens often but is not constant.
+`Usually` は、何かがよく起こるけれども常にではないことを示す単語です。
 
-When `usually` is used with the verb `to be`, it is placed after the verb. For example, `She is usually on time for meetings`.
+`usually` が動詞 `to be` と一緒に使われる場合、それは動詞の後に置かれます。例えば、`She is usually on time for meetings`。
 
-With other verbs, `usually` comes before the main verb. For example, `He usually works late`.
+他の動詞の場合、`usually` は主要な動詞の前に置かれます。例えば、`He usually works late`。
 
 # --questions--
 
 ## --text--
 
-Choose the sentence that correctly uses the adverb `usually`.
+副詞 `usually` を正しく使っている文を選んでください。
 
 ## --answers--
 
@@ -28,7 +28,7 @@ Choose the sentence that correctly uses the adverb `usually`.
 
 ### --feedback--
 
-`Usually` should come before the main verb when not using `to be`. The correct sentence is `She is usually very careful with her work.`
+`Usually` は `to be` を使わない場合、主要な動詞の前に置く必要があります。正しい文は `She is usually very careful with her work.` です。
 
 ---
 
@@ -40,7 +40,7 @@ Choose the sentence that correctly uses the adverb `usually`.
 
 ### --feedback--
 
-`Usually` should come before the main verb in standard sentences. The correct sentence is `They usually play together on weekends.`
+`Usually` は標準的な文では主要な動詞の前に置く必要があります。正しい文は `They usually play together on weekends.` です。
 
 ---
 
@@ -48,7 +48,7 @@ Choose the sentence that correctly uses the adverb `usually`.
 
 ### --feedback--
 
-With the verb `to be`, `usually` comes after it. The correct sentence is `We are usually happy to help out with new projects.`
+動詞 `to be` と一緒の場合、`usually` はその後に置かれます。正しい文は `We are usually happy to help out with new projects.` です。
 
 ## --video-solution--
 

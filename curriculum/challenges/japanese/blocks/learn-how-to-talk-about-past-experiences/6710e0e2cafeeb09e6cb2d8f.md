@@ -1,6 +1,6 @@
 ---
 id: 6710e0e2cafeeb09e6cb2d8f
-title: Task 55
+title: タスク 55
 challengeType: 22
 dashedName: task-55
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+音声を聞いて、以下の文を完成させてください。
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This is the auxiliary verb used to form the `Past Continuous` in the singular first-person form.
+これは単数の一人称で`Past Continuous`を作るために使われる助動詞です。
 
 ---
 
@@ -32,7 +32,7 @@ This is the auxiliary verb used to form the `Past Continuous` in the singular fi
 
 ### --feedback--
 
-This is the main verb in the `Past Continuous`, describing the act of laboring.
+これは`Past Continuous`の主動詞で、労働する行為を表しています。
 
 ---
 
@@ -40,7 +40,7 @@ This is the main verb in the `Past Continuous`, describing the act of laboring.
 
 ### --feedback--
 
-This is the auxiliary verb used to form the `Past Continuous` in the plural first-person form.
+これは複数の一人称で`Past Continuous`を作るために使われる助動詞です。
 
 ---
 
@@ -48,15 +48,15 @@ This is the auxiliary verb used to form the `Past Continuous` in the plural firs
 
 ### --feedback--
 
-This is the main verb in the `Past Continuous`, describing an ongoing action of improving or modernizing something.
+これは`Past Continuous`の主動詞で、何かを改善または近代化している継続的な行動を表しています。
 
 # --explanation--
 
-The `Past Continuous` tense is used to describe actions that were ongoing at a specific time in the past. When two `Past Continuous` sentences are used together, they often describe simultaneous actions or actions happening alongside each other.
+`Past Continuous`時制は、過去の特定の時点で継続していた行動を表すために使われます。2つの`Past Continuous`文が一緒に使われる場合、それらは同時に起こっている行動や並行している行動を表すことが多いです。
 
-In this sentence, Linda is describing how she and her team were both working and updating the user interface continuously throughout the project. This shows two actions happening at the same time in the past, providing context or background for each other. For example:
+この文では、リンダが自分とチームがプロジェクトの間ずっと働きながらユーザーインターフェースを継続的に更新していたことを説明しています。これは過去に同時に起こっていた2つの行動を示し、お互いの背景や状況を提供しています。例えば：
 
-`While I was preparing the report, they were testing the new features.` - This means the action of my preparing the report and the testing of the new features happened at the same time.
+`While I was preparing the report, they were testing the new features.` - これは、私がレポートを準備している行動と新機能のテストが同時に行われたことを意味します。
 
 # --scene--
 

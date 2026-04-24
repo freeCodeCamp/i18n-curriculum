@@ -1,6 +1,6 @@
 ---
 id: 67d3fba28a7b770be2fef2ce
-title: Task 6
+title: タスク6
 challengeType: 19
 dashedName: task-6
 lang: en-US
@@ -12,13 +12,13 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+音声を聞いて、以下の質問に答えてください。
 
 # --questions--
 
 ## --text--
 
-Mark doesn't mind talking with Jessica and wants to know what he needs to do. What would he say?
+マークはジェシカと話すことに抵抗がなく、何をすればいいのか知りたいと思っています。彼は何と言うでしょうか？
 
 ## --answers--
 
@@ -30,7 +30,7 @@ EN415e8cd4
 
 ### --feedback--
 
-This response does not match Mark's willingness to talk.
+この返答はマークが話す意欲を示していません。
 
 ---
 
@@ -46,11 +46,11 @@ EN61f614de
 
 # --explanation--
 
-The correct answer shows that Mark is willing to talk and wants to know the necessary steps.
+正しい答えは、マークが話す意欲を示し、必要なステップを知りたがっていることを表しています。
 
-`Sure, Jessica` expresses agreement and openness to the conversation.
+`Sure, Jessica` は同意と会話への前向きな姿勢を示しています。
 
-`What do I need to do?` shows that Mark is asking for instructions, which matches Jessica's statement about what he must do to ensure compliance.
+`What do I need to do?` はマークが指示を求めていることを示しており、ジェシカの「遵守を確実にするためにしなければならないこと」についての発言と一致します。
 
 # --scene--
 

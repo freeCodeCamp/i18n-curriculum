@@ -1,6 +1,6 @@
 ---
 id: 67d78c94b686ce3bddcaf8ab
-title: Task 117
+title: タスク117
 challengeType: 22
 dashedName: task-117
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+音声を聞いて、以下の文を完成させてください。
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-These three words together mean to reduce the amount of time needed to complete a task.
+これら3つの単語は一緒に、タスクを完了するのに必要な時間を短縮することを意味します。  
 
 ---
 
@@ -32,17 +32,17 @@ These three words together mean to reduce the amount of time needed to complete 
 
 ### --feedback--
 
-This word in the plural form refers to schedules or deadlines for completing a project.
+この単語の複数形は、プロジェクトを完了するためのスケジュールや締め切りを指します。  
 
 # --explanation--
 
-`Save us time` means to reduce the time required to complete something, making the process more efficient. For example:
+`Save us time` は、何かを完了するのに必要な時間を短縮し、プロセスをより効率的にすることを意味します。例えば：
 
-`Using automation tools can save us time on repetitive tasks.` – This means automation tools help complete tasks faster.
+`Using automation tools can save us time on repetitive tasks.` – これは自動化ツールがタスクをより速く完了するのに役立つことを意味します。  
 
-`Timelines` refer to schedules or deadlines that show when different parts of a project should be completed. For example:
+`Timelines` は、プロジェクトの異なる部分がいつ完了すべきかを示すスケジュールや締め切りを指します。例えば：
 
-`We need to adjust our timelines to finish the project on schedule.` – This means changing the deadlines to ensure the project is completed on time.
+`We need to adjust our timelines to finish the project on schedule.` – これはプロジェクトが期限内に完了するように締め切りを変更することを意味します。
 
 # --scene--
 

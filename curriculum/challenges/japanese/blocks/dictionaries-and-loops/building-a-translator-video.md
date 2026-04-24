@@ -1,6 +1,6 @@
 ---
 id: 703bcd12c0edae7773eeec64
-title: Building a Translator
+title: 翻訳プログラムの作成
 challengeType: 11
 videoId: 3Sa5rwlKdGQ
 dashedName: building-a-translator
@@ -8,13 +8,13 @@ dashedName: building-a-translator
 
 # --description--
 
-In this video, you will build a simple translator program using dictionaries and user input.
+この動画では、辞書とユーザーの入力を使ってシンプルな翻訳プログラムを作成します。
 
 # --questions--
 
 ## --text--
 
-Which of the following methods is used to check if all characters in a string are uppercase?
+文字列のすべての文字が大文字かどうかを確認するには、どのメソッドを使いますか？
 
 ## --answers--
 

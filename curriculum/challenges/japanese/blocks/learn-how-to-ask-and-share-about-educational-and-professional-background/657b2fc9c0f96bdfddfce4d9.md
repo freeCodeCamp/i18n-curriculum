@@ -1,6 +1,6 @@
 ---
 id: 657b2fc9c0f96bdfddfce4d9
-title: Task 90
+title: タスク 90
 challengeType: 22
 dashedName: task-90
 lang: en-US
@@ -10,11 +10,11 @@ lang: en-US
 
 # --description--
 
-To `pique one's interest` means to make someone curious or make them want to know more. You use it when something catches your attention and makes you interested. For example:
+`pique one's interest` とは、誰かの好奇心を刺激したり、もっと知りたいと思わせることを意味します。何かがあなたの注意を引き、興味を持たせるときに使います。例えば：
 
-- `The new AI tool really piqued my interest.` - It made you curious, and you wanted to learn more about it.
+- `The new AI tool really piqued my interest.` - それがあなたの好奇心を刺激し、もっと知りたいと思わせました。
 
-- `Her presentation on cybersecurity piqued the team's interest.` - The team became more curious and wanted to know more.
+- `Her presentation on cybersecurity piqued the team's interest.` - チームはより好奇心を持ち、もっと知りたいと思いました。
 
 # --fillInTheBlank--
 
@@ -28,7 +28,7 @@ To `pique one's interest` means to make someone curious or make them want to kno
 
 ### --feedback--
 
-This word refers to the action of participating in or completing a course. You should correctly use its past form.
+この単語は、コースに参加したり修了したりする行為を指します。過去形を正しく使う必要があります。
 
 ---
 
@@ -36,7 +36,7 @@ This word refers to the action of participating in or completing a course. You s
 
 ### --feedback--
 
-This word describes the study of the mind and behavior, particularly in a workplace setting in this context.
+この単語は、特に職場環境における心と行動の研究を表します。
 
 ---
 
@@ -44,7 +44,7 @@ This word describes the study of the mind and behavior, particularly in a workpl
 
 ### --feedback--
 
-This word means to arouse or stimulate interest or curiosity. You should correctly use its past form.
+この単語は、興味や好奇心を引き起こすことを意味します。過去形を正しく使う必要があります。
 
 # --scene--
 

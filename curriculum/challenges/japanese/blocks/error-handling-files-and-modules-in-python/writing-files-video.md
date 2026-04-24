@@ -1,6 +1,6 @@
 ---
 id: bfab38e6a6c1165f7774514d
-title: Writing to Files
+title: ファイルへの書き込み
 challengeType: 11
 videoId: QR95sRxsehY
 dashedName: writing-to-files
@@ -8,29 +8,29 @@ dashedName: writing-to-files
 
 # --description--
 
-In this video, you will learn how to write data to files in Python.
+このビデオでは、Pythonでファイルにデータを書き込む方法を学びます。
 
 # --questions--
 
 ## --text--
 
-What is the role of the `"a"` in the `open()` function?
+`"a"`は`open()`関数でどのような役割を果たしますか？
 
 ## --answers--
 
-It specifies the append mode.
+追記モードを指定します。
 
 ---
 
-It specifies the alternate mode.
+代替モードを指定します。
 
 ---
 
-It specifies the access mode.
+アクセスモードを指定します。
 
 ---
 
-It specifies the apply mode.
+適用モードを指定します。
 
 ## --video-solution--
 

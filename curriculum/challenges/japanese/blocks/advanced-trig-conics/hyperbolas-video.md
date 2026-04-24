@@ -1,6 +1,6 @@
 ---
 id: 699e85688f18cf77dfce5c24
-title: Hyperbolas
+title: 双曲線
 challengeType: 11
 videoId: rQnuydK6bBE
 dashedName: hyperbolas
@@ -8,31 +8,30 @@ dashedName: hyperbolas
 
 # --description--
 
-In this video, you will learn about hyperbolas.
+このビデオでは、双曲線について学びます。
 
 # --questions--
 
 ## --text--
 
-What is a hyperbola?
+双曲線とは何ですか？
 
 ## --answers--
 
-The set of points such that the distance from one fixed point is constant.
+1つの固定点からの距離が一定となる点の集合。
 
 ---
 
-A set of points such that the difference of the distances from two fixed points is constant.
+2つの固定点からの距離の差が一定となる点の集合。
 
 ---
 
-The set of points such that the sum of the distances from two fixed points is constant.
+2つの固定点からの距離の和が一定となる点の集合。
 
 ---
 
-The set of points equidistant from a line and a point.
+直線と点から等距離にある点の集合。
 
 ## --video-solution--
 
 2
-

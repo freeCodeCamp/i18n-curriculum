@@ -1,6 +1,6 @@
 ---
 id: 6629ce6bffd1efa9c6c57eaa
-title: Task 1
+title: タスク 1
 challengeType: 22
 dashedName: task-1
 lang: en-US
@@ -10,9 +10,9 @@ lang: en-US
 
 # --description--
 
-The phrase `how's it going?` is a common way to ask someone how they are or what's happening in their life. It's often used as a friendly greeting.
+フレーズ `how's it going?` は、相手の調子や近況を尋ねる一般的な表現です。親しみを込めた挨拶としてよく使われます。
 
-For example, when you see an old friend, you may say `Hey, how's it going? I haven't seen you for a while!` This is a casual way to ask them about their life. If you want to ask them about a specific thing, like their new job, you can say `How's it going with your new job?`
+例えば、久しぶりに友達に会ったとき、`Hey, how's it going? I haven't seen you for a while!` と言うことがあります。これはカジュアルに相手の近況を尋ねる方法です。もし新しい仕事のことなど特定のことを聞きたい場合は、`How's it going with your new job?` と言うことができます。
 
 # --fillInTheBlank--
 
@@ -26,7 +26,7 @@ For example, when you see an old friend, you may say `Hey, how's it going? I hav
 
 ### --feedback--
 
-This contraction is commonly used in informal greetings. Capitalize the first word.
+この短縮形は、カジュアルな挨拶でよく使われます。最初の単語は大文字にしてください。
 
 ---
 
@@ -34,7 +34,7 @@ This contraction is commonly used in informal greetings. Capitalize the first wo
 
 ### --feedback--
 
-This word completes the common informal greeting asking about someone's general state.
+この単語は、相手の一般的な状態を尋ねるカジュアルな挨拶を完成させます。
 
 # --scene--
 

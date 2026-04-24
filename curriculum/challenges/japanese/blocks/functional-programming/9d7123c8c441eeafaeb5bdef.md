@@ -1,6 +1,6 @@
 ---
 id: 9d7123c8c441eeafaeb5bdef
-title: Remove Elements from an Array Using slice Instead of splice
+title: slice を使って配列から要素を削除する（splice の代わりに）
 challengeType: 1
 forumTopicId: 301236
 dashedName: remove-elements-from-an-array-using-slice-instead-of-splice
@@ -8,38 +8,38 @@ dashedName: remove-elements-from-an-array-using-slice-instead-of-splice
 
 # --description--
 
-A common pattern while working with arrays is when you want to remove items and keep the rest of the array. JavaScript offers the `splice` method for this, which takes arguments for the index of where to start removing items, then the number of items to remove. If the second argument is not provided, the default is to remove items through the end. However, the `splice` method mutates the original array it is called on. Here's an example:
+配列を扱う際によくあるパターンとして、特定の要素を削除して残りの配列を保持したい場合があります。JavaScript にはこれを実現するための `splice` メソッドがあり、削除を開始するインデックスと削除する要素数を引数として受け取ります。2番目の引数が指定されない場合は、配列の最後まで削除されるのがデフォルトです。ただし、`splice` メソッドは呼び出された元の配列を変更します。例を見てみましょう。
 
 ```js
 const cities = ["Chicago", "Delhi", "Islamabad", "London", "Berlin"];
 cities.splice(3, 1);
 ```
 
-Here `splice` returns the string `London` and deletes it from the cities array. `cities` will have the value `["Chicago", "Delhi", "Islamabad", "Berlin"]`.
+ここで `splice` は文字列 `London` を返し、cities 配列からそれを削除します。`cities` は `["Chicago", "Delhi", "Islamabad", "Berlin"]` の値を持ちます。
 
-As we saw in the last challenge, the `slice` method does not mutate the original array, but returns a new one which can be saved into a variable. Recall that the `slice` method takes two arguments for the indices to begin and end the slice (the end is non-inclusive), and returns those items in a new array. Using the `slice` method instead of `splice` helps to avoid any array-mutating side effects.
+前のチャレンジで見たように、`slice` メソッドは元の配列を変更せず、新しい配列を返すため、変数に保存できます。`slice` メソッドはスライスの開始と終了のインデックス（終了は含まれません）を2つの引数として受け取り、その範囲の要素を新しい配列として返します。`slice` メソッドを `splice` の代わりに使うことで、配列を変更する副作用を避けられます。
 
 # --instructions--
 
-Rewrite the function `nonMutatingSplice` by using `slice` instead of `splice`. It should limit the provided `cities` array to a length of 3, and return a new array with only the first three items.
+`nonMutatingSplice` 関数を `slice` を使って書き換えてください。`splice` の代わりに使います。渡された `cities` 配列の長さを3に制限し、最初の3つの要素だけを含む新しい配列を返すようにしてください。
 
-Do not mutate the original array provided to the function.
+元の配列は変更しないでください。
 
 # --hints--
 
-Your code should use the `slice` method.
+コードは `slice` メソッドを使うべきです。
 
 ```js
 assert(__helpers.removeJSComments(code).match(/\.slice/g));
 ```
 
-Your code should not use the `splice` method.
+コードは `splice` メソッドを使ってはいけません。
 
 ```js
 assert(!__helpers.removeJSComments(code).match(/\.?[\s\S]*?splice/g));
 ```
 
-You should not mutate the original array passed to the function.
+関数に渡された元の配列を変更してはいけません。
 
 ```js
 assert(
@@ -54,7 +54,7 @@ assert(
 );
 ```
 
-`nonMutatingSplice(["Chicago", "Delhi", "Islamabad", "London", "Berlin"])` should return `["Chicago", "Delhi", "Islamabad"]`.
+`nonMutatingSplice(["Chicago", "Delhi", "Islamabad", "London", "Berlin"])` は `["Chicago", "Delhi", "Islamabad"]` を返すべきです。
 
 ```js
 assert.deepEqual(

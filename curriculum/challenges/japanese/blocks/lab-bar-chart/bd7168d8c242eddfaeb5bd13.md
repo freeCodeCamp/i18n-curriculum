@@ -1,6 +1,6 @@
 ---
 id: bd7168d8c242eddfaeb5bd13
-title: Build a Bar Chart
+title: 棒グラフを作成する
 challengeType: 25
 dashedName: build-a-bar-chart
 demoType: onClick
@@ -8,27 +8,27 @@ demoType: onClick
 
 # --description--
 
-In this project you will use the data from `https://cdn.freecodecamp.org/curriculum/labs/data/bar-chart/GDP-data.json` to build a bar chart.
+このプロジェクトでは、`https://cdn.freecodecamp.org/curriculum/labs/data/bar-chart/GDP-data.json` のデータを使って棒グラフを作成します。
 
-The tests require axes to be generated using the D3 axis property, which automatically generates ticks along the axis. These ticks are required for passing the D3 tests because their positions are used to determine alignment of graphed elements.
+テストでは、D3のaxisプロパティを使って軸を生成する必要があります。これにより軸に沿って目盛りが自動的に生成されます。この目盛りは、グラフ要素の整列を判断するために使われるため、D3のテストに合格するには必須です。
 
-**Objective:** Fulfill the user stories below and get all the tests to pass to complete the lab.
+**目的:** 以下のストーリーを満たし、すべてのテストに合格してラボを完了してください。
 
-**User Stories:**
+**ユーザーストーリー:**
 
-1. Your chart should have a title with a corresponding `id="title"`.
-1. Your chart should have a `g` element x-axis with a corresponding `id="x-axis"`.
-1. Your chart should have a `g` element y-axis with a corresponding `id="y-axis"`.
-1. Both axes should contain multiple tick labels, each with a corresponding `class="tick"`.
-1. Your chart should have a `rect` element for each data point with a corresponding `class="bar"` displaying the data.
-1. Each `.bar` should have the attributes `data-date` and `data-gdp` containing `date` and `GDP` values.
-1. The `.bar` elements' `data-date` attributes should match the order of the provided data.
-1. The `.bar` elements' `data-gdp` attributes should match the order of the provided data.
-1. Each `.bar` element's height should accurately represent the data's corresponding `GDP`.
-1. The `data-date` attribute and its corresponding `.bar` element should align with the corresponding value on the x-axis.
-1. The `data-gdp` attribute and its corresponding `.bar` element should align with the corresponding value on the y-axis.
-1. You should be able to mouse over an area and see a tooltip with a corresponding `id="tooltip"` which displays more information about the area.
-1. Your tooltip should have a `data-date` attribute that corresponds to the `data-date` of the active area.
+1. チャートには対応する`id="title"`を持つタイトルが必要です。
+1. チャートには対応する`g`を持つ`id="x-axis"`要素のx軸が必要です。
+1. チャートには対応する`g`を持つ`id="y-axis"`要素のy軸が必要です。
+1. 両方の軸には複数の目盛りラベルが含まれ、それぞれに対応する`class="tick"`があります。
+1. チャートには各データポイントに対応する`rect`を表示する`class="bar"`要素が必要です。
+1. 各`.bar`は`data-date`と`data-gdp`属性を持ち、`date`と`GDP`の値を含みます。
+1. `.bar`要素の`data-date`属性は提供されたデータの順序と一致する必要があります。
+1. `.bar`要素の`data-gdp`属性は提供されたデータの順序と一致する必要があります。
+1. 各`.bar`要素の高さはデータの対応する`GDP`を正確に表す必要があります。
+1. `data-date`属性と対応する`.bar`要素はx軸の対応する値と整列する必要があります。
+1. `data-gdp`属性と対応する`.bar`要素はy軸の対応する値と整列する必要があります。
+1. マウスをエリアに重ねると、対応する`id="tooltip"`を表示するツールチップが表示され、エリアの詳細情報を示します。
+1. ツールチップにはアクティブなエリアの`data-date`に対応する`data-date`属性が必要です。
 
 # --before-all--
 
@@ -1401,43 +1401,43 @@ const timeout = (milliseconds) =>
 
 # --hints--
 
-The chart should have an element with the `id` of `title` to contain the title.
+チャートにはタイトルを含むために`id`の`title`属性を持つ要素が必要です。
 
 ```js
 assert.exists(document.getElementById('title'));
 ```
 
-The chart should have a `g` element x-axis with a corresponding id `x-axis`.
+チャートには対応するid `g`を持つ`x-axis`要素のx軸が必要です。
 
 ```js
 assert.isNotEmpty(document.querySelector('g#x-axis'))
 ```
 
-The chart should have a `g` element y-axis with a corresponding id `y-axis`.
+チャートには対応するid `g`を持つ`y-axis`要素のy軸が必要です。
 
 ```js
 assert.isNotEmpty(document.querySelector('g#y-axis'))
 ```
 
-The x axis should contain multiple tick labels, each with the corresponding `class="tick"`.
+x軸には複数の目盛りラベルが含まれ、それぞれに対応する`class="tick"`があります。
 
 ```js
 assert.isNotEmpty(document.querySelectorAll('#x-axis .tick'));
 ```
 
-The y axis should contain multiple tick labels, each with the corresponding `class="tick"`.
+y軸には複数の目盛りラベルが含まれ、それぞれに対応する`class="tick"`があります。
 
 ```js
 assert.isNotEmpty(document.querySelectorAll('#y-axis .tick'));
 ```
 
-Your chart should have a `rect` element for each data point with a corresponding `class="bar"` displaying the data.
+チャートには各データポイントに対応する`rect`を表示する`class="bar"`要素が必要です。
 
 ```js
 assert.lengthOf(document.querySelectorAll('rect.bar'), GDPDataJson.data.length);
 ```
 
-Each bar should have the attributes `data-date` and `data-gdp` containing date and GDP values.
+各棒グラフには日付とGDPの値を含む`data-date`と`data-gdp`属性が必要です。
 
 ```js
 const bars = document.querySelectorAll('rect.bar');
@@ -1449,7 +1449,7 @@ bars.forEach(function (bar) {
 });
 ```
 
-The bar elements' `data-date` attributes should match the order of the provided data.
+棒グラフ要素の`data-date`属性は提供されたデータの順序と一致する必要があります。
 
 ```js
 const bars = document.querySelectorAll('rect.bar');
@@ -1464,7 +1464,7 @@ const currentBarDate = bar.getAttribute('data-date');
 
 ```
 
-The bar elements' `data-gdp` attributes should match the order of the provided data.
+棒グラフ要素の`data-gdp`属性は提供されたデータの順序と一致する必要があります。
 
 ```js
 const bars = document.querySelectorAll('rect.bar');
@@ -1478,7 +1478,7 @@ bars.forEach(function (bar, i) {
 });
 ```
 
-Each bar element's height should accurately represent the data's corresponding GDP
+各棒グラフ要素の高さはデータの対応するGDPを正確に表す必要があります。
 
 ```js
 const bars = document.querySelectorAll('rect.bar');
@@ -1501,7 +1501,7 @@ bars.forEach(function (bar) {
 });
 ```
 
-The `data-date` attribute and its corresponding bar element should align with the corresponding value on the x-axis. You can use `d3.scaleTime()` to create a time scale for the x-axis.
+`data-date`属性と対応する棒グラフ要素はx軸の対応する値と整列する必要があります。x軸の時間スケールを作成するには`d3.scaleTime()`を使えます。
 
 ```js
 const axis = document.querySelector('#x-axis');
@@ -1531,7 +1531,7 @@ assert.isTrue(
 );
 ```
 
-The `data-gdp` attribute and its corresponding bar element should align with the corresponding value on the y-axis. You can use `d3.scaleLinear()` to create a linear scale for the y-axis.
+`data-gdp`属性と対応する棒グラフ要素はy軸の対応する値と整列する必要があります。y軸の線形スケールを作成するには`d3.scaleLinear()`を使えます。
 
 ```js
 const axis = document.querySelector('#y-axis');
@@ -1558,7 +1558,7 @@ assert.isTrue(
 );
 ```
 
-When hovering over an area your bar chart should have a tooltip with a corresponding `id="tooltip"` which displays more information about the area.
+エリアにマウスを重ねると、対応する`id="tooltip"`を表示するツールチップが棒グラフに表示されます。
 
 ```js
 const areas = document.querySelectorAll('.bar');
@@ -1604,7 +1604,7 @@ assert.isTrue(
 );
 ```
 
-The tooltip should have a `data-date` attribute that corresponds to the `data-date` of the active area.
+ツールチップにはアクティブなエリアの`data-date`に対応する`data-date`属性が必要です。
 
 ```js
 const areas = document.querySelectorAll('.bar');

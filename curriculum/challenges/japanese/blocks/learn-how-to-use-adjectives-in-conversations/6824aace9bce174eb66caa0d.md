@@ -1,6 +1,6 @@
 ---
 id: 6824aace9bce174eb66caa0d
-title: Task 149
+title: タスク149
 challengeType: 19
 dashedName: task-149
 lang: en-US
@@ -10,13 +10,13 @@ lang: en-US
 
 # --instructions--
 
-Read the text and answer the question below.
+テキストを読んで、以下の質問に答えてください。
 
 # --questions--
 
 ## --text--
 
-Jessica sent an email to the team the next day, summarizing her conversation with James about the new software version.
+ジェシカは翌日、ジェームズとの新しいソフトウェアバージョンに関する会話をまとめたメールをチームに送りました。
 
 `Hi team,`
 
@@ -50,35 +50,35 @@ Jessica sent an email to the team the next day, summarizing her conversation wit
 
 `Jessica`
 
-What did Jessica report about the software's stability?
+ジェシカはソフトウェアの安定性について何と報告しましたか？
 
 ## --answers--
 
-It now requires more updates to stay stable.
+安定を保つために、今はより多くのアップデートが必要です。
 
 ### --feedback--
 
-Jessica does not mention the need for more updates.
+ジェシカはより多くのアップデートが必要だとは言っていません。
 
 ---
 
-It crashes less and has fewer serious problems.
+クラッシュが減り、重大な問題も少なくなっています。
 
 ---
 
-It works the same as the old version in terms of stability.
+安定性に関しては、旧バージョンと同じように動作します。
 
 ### --feedback--
 
-She clearly says the new version is `much more stable`.
+彼女は新しいバージョンが`much more stable`だとはっきり言っています。
 
 ---
 
-It still has many large bugs and stops working often.
+まだ多くの大きなバグがあり、頻繁に動作が停止します。
 
 ### --feedback--
 
-Jessica reports fewer problems and less crashing, not frequent bugs.
+ジェシカは問題が減り、クラッシュも少なくなったと報告しており、頻繁なバグとは言っていません。
 
 ## --video-solution--
 
@@ -86,6 +86,6 @@ Jessica reports fewer problems and less crashing, not frequent bugs.
 
 # --explanation--
 
-In the `Stability` section, Jessica says the new version `doesn't crash as often` and they've seen `fewer serious problems`.
+`Stability`セクションで、ジェシカは新しいバージョンが`doesn't crash as often`であり、`fewer serious problems`が見られたと言っています。
 
-This means it is more reliable and stable than before.
+これは以前よりも信頼性が高く安定していることを意味します。

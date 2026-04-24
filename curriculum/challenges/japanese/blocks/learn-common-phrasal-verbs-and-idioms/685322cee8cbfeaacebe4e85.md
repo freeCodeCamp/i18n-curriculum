@@ -1,6 +1,6 @@
 ---
 id: 685322cee8cbfeaacebe4e85
-title: Task 28
+title: タスク 28
 challengeType: 22
 dashedName: task-28
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+音声を聞いて、以下の文を完成させてください。
 
 # --fillInTheBlank--
 
@@ -24,13 +24,13 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This means progress or development, especially in skills or knowledge.
+これは特にスキルや知識の進歩や開発を意味します。
 
 # --explanation--
 
-`Growth` means improvement or development, often in knowledge, skills, or ability. For example:
+`Growth` は、知識、スキル、能力の向上や開発を意味します。例えば：
 
-`The company supports professional growth through regular training sessions.` – This means the company helps employees improve and develop their skills.
+`The company supports professional growth through regular training sessions.` – これは会社が従業員のスキルの向上と開発を支援していることを意味します。
 
 # --scene--
 

@@ -1,6 +1,6 @@
 ---
 id: 67efd8debbd3992137adbf7f
-title: Task 91
+title: タスク 91
 challengeType: 22
 dashedName: task-91
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+音声を聞いて、以下の文を完成させてください。
 
 # --fillInTheBlank--
 
@@ -24,13 +24,13 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-Preceded by `on your`, this refers to a specific person's situation, side, or location.
+`on your` に続いて、これは特定の人の状況や側面、場所を指します。
 
 # --explanation--
 
-`On your end` is used to refer to someone's situation or what is happening with them, often in a conversation or work context. For example:
+`On your end` は、誰かの状況やその人に起きていることを指すときに使われます。会話や仕事の文脈でよく使われます。例えば：
 
-`Let me know if you need any help on your end.` – This means the speaker wants to know if the other person needs help on their work or situation.
+`Let me know if you need any help on your end.` – これは話し手が相手の仕事や状況で助けが必要かどうかを知りたいという意味です。
 
 # --scene--
 

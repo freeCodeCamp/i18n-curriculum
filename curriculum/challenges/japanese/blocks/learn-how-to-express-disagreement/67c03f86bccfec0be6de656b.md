@@ -1,6 +1,6 @@
 ---
 id: 67c03f86bccfec0be6de656b
-title: Task 113
+title: タスク 113
 challengeType: 19
 dashedName: task-113
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+音声を聞いて、以下の質問に答えてください。
 
 # --questions--
 
 ## --text--
 
-What is Anna communicating?
+アンナは何を伝えていますか？
 
 ## --answers--
 
-She completely disagrees with Bob and rejects his concern.
+彼女はボブに完全に反対し、彼の懸念を否定しています。
 
 ### --feedback--
 
-Anna acknowledges Bob's point before giving her own opinion.
+アンナはボブの意見を認めた上で、自分の考えを述べています。
 
 ---
 
-She understands Bob's concern but still thinks flexibility is a better option.
+彼女はボブの懸念を理解していますが、それでも柔軟性の方が良いと考えています。
 
 ---
 
-She does not understand Bob's concern.
+彼女はボブの懸念を理解していません。
 
 ### --feedback--
 
-Anna understands Bob's argument.
+アンナはボブの主張を理解しています。
 
 ---
 
-She agrees with Bob and changes her mind.
+彼女はボブに同意し、考えを変えました。
 
 ### --feedback--
 
-Anna does not fully agree with Bob.
+アンナはボブに完全には同意していません。
 
 ## --video-solution--
 
@@ -52,9 +52,9 @@ Anna does not fully agree with Bob.
 
 # --explanation--
 
-Anna uses `I see your point, but` to show that she understands Bob's concern while presenting a different opinion.
+アンナは`I see your point, but`を使って、ボブの懸念を理解しつつも異なる意見を示しています。
 
-She believes that flexibility is a better solution than sticking with one category.
+彼女は、1つのカテゴリーに固執するよりも柔軟性の方が良い解決策だと考えています。
 
 # --scene--
 

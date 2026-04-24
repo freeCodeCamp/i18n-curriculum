@@ -1,6 +1,6 @@
 ---
 id: 6857babdeedee54c6acb3636
-title: Task 134
+title: タスク 134
 challengeType: 19
 dashedName: task-134
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+音声を聞いて、以下の質問に答えてください。
 
 # --questions--
 
 ## --text--
 
-Where are the monitors stored now?
+モニターは今どこに保管されていますか？
 
 ## --answers--
 
-At the end of the parking lot.
+駐車場の端です。
 
 ### --feedback--
 
-Sarah doesn't mention the parking lot.
+サラは駐車場については言及していません。
 
 ---
 
-Inside the IT room.
+ITルームの中です。
 
 ### --feedback--
 
-They were moved out of the IT room earlier.
+モニターは以前にITルームから移動されました。
 
 ---
 
-Next to the security desk.
+警備デスクの隣です。
 
 ### --feedback--
 
-There is no mention of a security desk.
+警備デスクについての言及はありません。
 
 ---
 
-Right near the coffee machine.
+コーヒーマシンのすぐ近くです。
 
 ## --video-solution--
 
@@ -52,9 +52,9 @@ Right near the coffee machine.
 
 # --explanation--
 
-Sarah gives clear directions ending with a reference point: `the coffee machine`.
+サラは明確な道順を示し、参照点として`the coffee machine`を挙げています。
 
-She explains that after going down the corridor and turning left, the monitors can be found positioned across from it, making the coffee machine the closest visible landmark for finding them.
+廊下をまっすぐ進み、休憩エリアで左に曲がると、モニターはその向かい側に保管されていると説明しているため、コーヒーマシンがモニターを見つけるための最も近い目印となっています。
 
 # --scene--
 

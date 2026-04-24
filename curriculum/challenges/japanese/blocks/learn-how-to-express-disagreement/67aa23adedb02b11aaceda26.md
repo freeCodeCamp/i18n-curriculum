@@ -1,6 +1,6 @@
 ---
 id: 67aa23adedb02b11aaceda26
-title: Task 8
+title: タスク8
 challengeType: 19
 dashedName: task-8
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+音声を聞いて、以下の質問に答えてください。
 
 # --questions--
 
 ## --text--
 
-What is more important, according to Anna?
+アンナによると、何がより重要ですか？
 
 ## --answers--
 
-Upgrading computers.
+コンピューターのアップグレード。
 
 ---
 
-Buying new office furniture.
+新しいオフィス家具の購入。
 
 ### --feedback--
 
-Anna acknowledges that furniture is important but says that many people mentioned needing something else.
+アンナは家具が重要だと認めていますが、多くの人が別のものが必要だと言っていると述べています。
 
 ---
 
-Getting a bigger remote work stipend.
+リモートワーク手当の増額。
 
 ### --feedback--
 
-Anna does not talk about increasing the stipend, only how people want to use it.
+アンナは手当の増額については話しておらず、人々がそれをどう使いたいかについて話しています。
 
 ---
 
-Changing the survey questions.
+調査質問の変更。
 
 ### --feedback--
 
-Anna does not mention anything about the survey questions.
+アンナは調査質問については何も言及していません。
 
 ## --video-solution--
 
@@ -52,11 +52,11 @@ Anna does not mention anything about the survey questions.
 
 # --explanation--
 
-A `computer upgrade` means improving a computer by adding or replacing parts like more memory (RAM), a faster processor, or a better screen. For example:
+`computer upgrade`とは、メモリ（RAM）を増やしたり、より高速なプロセッサーやより良い画面に交換したりすることでコンピューターを改善することを意味します。例えば：
 
-- `I need a computer upgrade to run the latest software.` - The speaker's current computer is not powerful enough, so they need a better one.
+- `I need a computer upgrade to run the latest software.` - 話者の現在のコンピューターは十分な性能がないため、より良いものが必要です。
 
-- `After the computer upgrade, everything runs much faster.` -  The system's performance improved after updating or replacing components.
+- `After the computer upgrade, everything runs much faster.` - コンポーネントを更新または交換した後、システムの性能が向上しました。
 
 # --scene--
 
