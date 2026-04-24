@@ -1,72 +1,72 @@
 ---
 id: 66ecdcf7c8d9a6f49094ffde
-title: Step 13
+title: ステップ 13
 challengeType: 1
 dashedName: step-13
 ---
 
 # --description--
 
-In previous lessons, you learned that the `Math.round()` method rounds the value to the nearest whole integer.
+前のレッスンで、`Math.round()` メソッドが値を最も近い整数に丸めることを学びました。
 
-Here are some examples:
+いくつか例を示します：
 
 ```js
 Math.round(6.7); // 7
 Math.round(3.2); // 3
 ```
 
-This differs from the `Math.floor()` and `Math.ceil()` methods, which round down and up to the nearest whole integer, respectively.
+これは、`Math.floor()` と `Math.ceil()` メソッドとは異なり、それぞれ最も近い整数に切り下げと切り上げを行います。
 
-Create a new variable called `numRounded` and assign the result of rounding the number `2.7`. Then, log the value of `numRounded` to the console.
+`numRounded` の数値を丸めた結果を代入する `2.7` という新しい変数を作成してください。その後、`numRounded` の値をコンソールに出力してください。
 
-Below that, create another new variable called `numRounded2` and assign the result of rounding the number `11.2`. Then, log the value of `numRounded2` to the console.
+その下に、`numRounded2` の数値を丸めた結果を代入する `11.2` という別の新しい変数を作成してください。その後、`numRounded2` の値をコンソールに出力してください。
 
 # --hints--
 
-You should have a variable called `numRounded`.
+`numRounded` という変数があるはずです。
 
 ```js
 assert.isNotNull(numRounded);
 ```
 
-You should assign the result of rounding the number `2.7` to the variable `numRounded`.
+`2.7` の数値を丸めた結果を `numRounded` という変数に代入してください。
 
 ```js
 assert.equal(numRounded, 3);
 ```
 
-You should not hardcode the value of `3` for the variable `numRounded`. Make sure you are using the `Math.round()` method.
+`3` の変数に `numRounded` の値をハードコードしないでください。`Math.round()` メソッドを使っていることを確認してください。
 
 ```js
 assert.notMatch(code, /numRounded\s*=\s*3/);
 ```
 
-You should log the value of `numRounded` to the console.
+`numRounded` の値をコンソールに出力してください。
 
 ```js
 assert.match(code, /console\.log\(\s*numRounded\s*\)/);
 ```
 
-You should have a variable called `numRounded2`.
+`numRounded2` という変数があるはずです。
 
 ```js
 assert.isNotNull(numRounded2);
 ```
 
-You should assign the result of rounding the number `11.2` to the variable `numRounded2`.
+`11.2` の数値を丸めた結果を `numRounded2` という変数に代入してください。
 
 ```js
 assert.equal(numRounded2, 11);
 ```
 
-You should not hardcode the value of `11` for the variable `numRounded2`. Make sure you are using the `Math.round()` method.
+`11` の変数に `numRounded2` の値をハードコードしないでください。`Math.round()` メソッドを使っていることを確認してください。
 
 ```js
 assert.notMatch(code, /numRounded2\s*=\s*11/);
 ```
 
-You should log the value of `numRounded2` to the console.
+`numRounded2` の値をコンソールに出力してください。
 
 ```js
 assert.match(code, /console\.log\(\s*numRounded2\s*\)/);

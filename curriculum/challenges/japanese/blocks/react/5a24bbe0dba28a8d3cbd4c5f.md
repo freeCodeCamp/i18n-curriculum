@@ -1,6 +1,6 @@
 ---
 id: 5a24bbe0dba28a8d3cbd4c5f
-title: Render HTML Elements to the DOM
+title: DOMにHTML要素をレンダリングする
 challengeType: 6
 forumTopicId: 301406
 dashedName: render-html-elements-to-the-dom
@@ -8,37 +8,37 @@ dashedName: render-html-elements-to-the-dom
 
 # --description--
 
-So far, you've learned that JSX is a convenient tool to write readable HTML within JavaScript. With React, we can render this JSX directly to the HTML DOM using React's rendering API known as ReactDOM.
+これまでに、JSXはJavaScript内で読みやすいHTMLを書くための便利なツールであることを学びました。Reactでは、ReactDOMと呼ばれるReactのレンダリングAPIを使って、このJSXを直接HTMLのDOMにレンダリングできます。
 
-ReactDOM offers a simple method to render React elements to the DOM which looks like this: `ReactDOM.render(componentToRender, targetNode)`, where the first argument is the React element or component that you want to render, and the second argument is the DOM node that you want to render the component to.
+ReactDOMはReact要素やコンポーネントをDOMにレンダリングするためのシンプルなメソッドを提供しており、次のように使います：`ReactDOM.render(componentToRender, targetNode)`。ここで最初の引数はレンダリングしたいReact要素やコンポーネントで、2番目の引数はそのコンポーネントをレンダリングしたいDOMノードです。
 
-As you would expect, `ReactDOM.render()` must be called after the JSX element declarations, just like how you must declare variables before using them.
+予想通り、`ReactDOM.render()`はJSX要素の宣言の後に呼び出す必要があります。変数を使う前に宣言するのと同じです。
 
 # --instructions--
 
-The code editor has a simple JSX component. Use the `ReactDOM.render()` method to render this component to the page. You can pass defined JSX elements directly in as the first argument and use `document.getElementById()` to select the DOM node to render them to. There is a `div` with `id='challenge-node'` available for you to use. Make sure you don't change the `JSX` constant.
+コードエディターにはシンプルなJSXコンポーネントがあります。`ReactDOM.render()`メソッドを使ってこのコンポーネントをページにレンダリングしてください。定義済みのJSX要素を最初の引数として直接渡し、`document.getElementById()`を使ってレンダリング先のDOMノードを選択できます。`div`に`id='challenge-node'`が用意されています。`JSX`定数は変更しないでください。
 
 # --hints--
 
-The constant `JSX` should return a `div` element.
+定数`JSX`は`div`要素を返すはずです。
 
 ```js
 assert(JSX.type === 'div');
 ```
 
-The `div` should contain an `h1` tag as the first element.
+`div`は最初の要素として`h1`タグを含むべきです。
 
 ```js
 assert(JSX.props.children[0].type === 'h1');
 ```
 
-The `div` should contain a `p` tag as the second element.
+`div`は2番目の要素として`p`タグを含むべきです。
 
 ```js
 assert(JSX.props.children[1].type === 'p');
 ```
 
-The provided JSX element should render to the DOM node with id `challenge-node`.
+提供されたJSX要素はidが`challenge-node`のDOMノードにレンダリングされるべきです。
 
 ```js
 assert(

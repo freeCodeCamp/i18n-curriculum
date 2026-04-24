@@ -1,6 +1,6 @@
 ---
 id: 698de9f07932b3cc4b19c940
-title: Bogosort
+title: ボゴソート
 challengeType: 11
 videoId: kz_PpX_ZnpQ
 dashedName: bogosort
@@ -8,29 +8,29 @@ dashedName: bogosort
 
 # --description--
 
-In this video, you will learn how to work with the bogosort algorithm.
+このビデオでは、ボゴソートアルゴリズムの使い方を学びます。
 
 # --questions--
 
 ## --text--
 
-How does the bogosort algorithm work?
+ボゴソートアルゴリズムはどのように動作しますか？
 
 ## --answers--
 
-It repeatedly swaps adjacent elements in a deterministic pattern until sorted.
+決定的なパターンで隣接する要素を繰り返し入れ替え、ソートされるまで続けます。
 
 ---
 
-It splits the list into halves, sorts each recursively, then merges them.
+リストを半分に分割し、それぞれを再帰的にソートしてからマージします。
 
 ---
 
-It randomly shuffles the list until it happens to be sorted.
+リストをランダムにシャッフルし、たまたまソートされるまで続けます。
 
 ---
 
-It selects the smallest element and places it in order, like selection sort.
+最小の要素を選んで順番に配置します。選択ソートのように動作します。
 
 ## --video-solution--
 

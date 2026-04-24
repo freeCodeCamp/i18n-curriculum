@@ -1,13 +1,13 @@
 ---
 id: 66ed8fedf45ce3ece4053eb3
-title: CSS Grid Quiz
+title: CSS Grid クイズ
 challengeType: 8
 dashedName: quiz-css-grid
 ---
 
 # --description--
 
-To pass the quiz, you must correctly answer at least 18 of the 20 questions below.
+このクイズに合格するには、以下の20問のうち少なくとも18問に正しく答える必要があります。
 
 # --quizzes--
 
@@ -17,29 +17,29 @@ To pass the quiz, you must correctly answer at least 18 of the 20 questions belo
 
 #### --text--
 
-What is CSS Grid?
+CSS Gridとは何ですか？
 
 #### --distractors--
 
-A method used for displaying tables on a website.
+ウェブサイト上でテーブルを表示するための方法。
 
 ---
 
-A method used for tiling images.
+画像をタイル状に並べるための方法。
 
 ---
 
-A way to display outlines around HTML elements.
+HTML要素の周りにアウトラインを表示する方法。
 
 #### --answer--
 
-A two-dimensional layout for HTML documents.
+HTMLドキュメントのための二次元レイアウト。
 
 ### --question--
 
 #### --text--
 
-Which of the following is the correct way to create a grid container?
+グリッドコンテナを作成する正しい方法はどれですか？
 
 #### --distractors--
 
@@ -61,73 +61,73 @@ Which of the following is the correct way to create a grid container?
 
 #### --text--
 
-What does the `grid-template-columns` property do?
+`grid-template-columns` プロパティは何をしますか？
 
 #### --distractors--
 
-Defines two columns and three rows for a grid container.
+グリッドコンテナに対して2列3行を定義する。
 
 ---
 
-Sets all columns for the grid layout to a fixed length.
+グリッドレイアウトのすべての列を固定長に設定する。
 
 ---
 
-Creates a two column grid layout container.
+2列のグリッドレイアウトコンテナを作成する。
 
 #### --answer--
 
-Defines the number of columns in a grid layout.
+グリッドレイアウトの列数を定義する。
 
 ### --question--
 
 #### --text--
 
-What does the `grid-template-rows` property do?
+`grid-template-rows` プロパティは何をしますか？
 
 #### --distractors--
 
-Specifies a grid item's size and location in a grid layout.
+グリッドアイテムのサイズと位置を指定する。
 
 ---
 
-Creates a template for creating new grid rows.
+新しいグリッド行を作成するテンプレートを作る。
 
 ---
 
-Specifies a default row size in the grid container.
+グリッドコンテナ内のデフォルトの行サイズを指定する。
 
 #### --answer--
 
-Specifies the number and height for each row in a grid layout.
+グリッドレイアウトの各行の数と高さを指定する。
 
 ### --question--
 
 #### --text--
 
-What does the `minmax()` function do?
+`minmax()` 関数は何をしますか？
 
 #### --distractors--
 
-Toggles between the first and second value, depending on available space.
+利用可能なスペースに応じて最初と2番目の値を切り替える。
 
 ---
 
-Returns the average of the two inputs.
+2つの入力の平均を返す。
 
 ---
 
-Sets the minimal size of the element for browser working in full-screen mode.
+ブラウザの全画面モードで要素の最小サイズを設定する。
 
 #### --answer--
 
-Sets the minimum and maximum sizes for a track.
+トラックの最小サイズと最大サイズを設定する。
 
 ### --question--
 
 #### --text--
 
-What is the shorthand for the `column-gap` and `row-gap` properties?
+`column-gap` と `row-gap` プロパティの省略形は何ですか？
 
 #### --distractors--
 
@@ -149,29 +149,29 @@ What is the shorthand for the `column-gap` and `row-gap` properties?
 
 #### --text--
 
-What is the difference between an implicit and explicit grid?
+暗黙のグリッドと明示的なグリッドの違いは何ですか？
 
 #### --distractors--
 
-Implicit grids use the `grid-template-columns` property while explicit grids use the `grid-template-rows` property.
+暗黙のグリッドは `grid-template-columns` プロパティを使い、明示的なグリッドは `grid-template-rows` プロパティを使う。
 
 ---
 
-Explicit grids use the `grid-template-columns` property while implicit grids use the `grid-template-rows` property.
+明示的なグリッドは `grid-template-columns` プロパティを使い、暗黙のグリッドは `grid-template-rows` プロパティを使う。
 
 ---
 
-Implicit grids use the `grid-template-columns` or `grid-template-rows` properties to create columns while rows and columns are automatically created in explicit grids.
+暗黙のグリッドは `grid-template-columns` または `grid-template-rows` プロパティで列を作成し、明示的なグリッドでは行と列が自動的に作成される。
 
 #### --answer--
 
-Explicit grids use the `grid-template-columns` or `grid-template-rows` properties to create columns while rows and columns are automatically created in implicit grids.
+明示的なグリッドは `grid-template-columns` または `grid-template-rows` プロパティで列を作成し、暗黙のグリッドでは行と列が自動的に作成される。
 
 ### --question--
 
 #### --text--
 
-Which of the following units represents a fraction of the space within the grid container?
+グリッドコンテナ内のスペースの分数を表す単位はどれですか？
 
 #### --distractors--
 
@@ -193,51 +193,51 @@ Which of the following units represents a fraction of the space within the grid 
 
 #### --text--
 
-What are grid lines?
+グリッドラインとは何ですか？
 
 #### --distractors--
 
-Shorthand for rows and columns.
+行と列の省略形。
 
 ---
 
-Outlines of a grid element.
+グリッド要素のアウトライン。
 
 ---
 
-Lines along which grid columns and rows are created.
+グリッドの列と行が作成される線。
 
 #### --answer--
 
-Lines on which each of the grid items begin and end.
+各グリッドアイテムが始まりと終わりを持つ線。
 
 ### --question--
 
 #### --text--
 
-What does the `grid-column` property do?
+`grid-column` プロパティは何をしますか？
 
 #### --distractors--
 
-Adds a new grid element as a child of the element it's applied to.
+適用された要素の子として新しいグリッド要素を追加する。
 
 ---
 
-Aligns text in the grid item vertically.
+グリッドアイテム内のテキストを垂直方向に整列させる。
 
 ---
 
-Sets two columns for a grid container.
+グリッドコンテナに2列を設定する。
 
 #### --answer--
 
-Tells the grid item on which grid line it should start and end at.
+グリッドアイテムがどのグリッドラインで始まり、終わるかを指定する。
 
 ### --question--
 
 #### --text--
 
-How do you create four columns of equal width?
+幅が等しい4列を作成するにはどうしますか？
 
 #### --distractors--
 
@@ -259,51 +259,51 @@ How do you create four columns of equal width?
 
 #### --text--
 
-What does the `grid-template-areas` property do?
+`grid-template-areas` プロパティは何をしますか？
 
 #### --distractors--
 
-It is used to specify where the item begins on a line in the grid container.
+グリッドコンテナ内のアイテムがどのラインで始まるかを指定する。
 
 ---
 
-It is used to create gaps between tracks in the container.
+コンテナ内のトラック間のギャップを作成する。
 
 ---
 
-It is used to repeat sections in the track listing.
+トラックリスト内のセクションを繰り返すために使う。
 
 #### --answer--
 
-It is used to provide a name for the items you are going to position on the grid.
+グリッド上で位置指定するアイテムに名前を付けるために使う。
 
 ### --question--
 
 #### --text--
 
-What does the `grid-auto-flow` property do?
+`grid-auto-flow` プロパティは何をしますか？
 
 #### --distractors--
 
-Controls the order in which grid items are displayed.
+グリッドアイテムの表示順序を制御する。
 
 ---
 
-Adjusts the spacing between the grid elements.
+グリッド要素間の間隔を調整する。
 
 ---
 
-Automatically adjusts the element to fit in the grid.
+要素を自動的にグリッドに合わせる。
 
 #### --answer--
 
-Controls how auto-placed elements get inserted to the grid.
+自動配置された要素がグリッドに挿入される方法を制御する。
 
 ### --question--
 
 #### --text--
 
-Which of the following is the correct way to use the `grid-template-areas` property?
+`grid-template-areas` プロパティを使う正しい方法はどれですか？
 
 #### --distractors--
 
@@ -368,7 +368,7 @@ Which of the following is the correct way to use the `grid-template-areas` prope
 
 #### --text--
 
-Which of the following is the correct way to work with the `grid-auto-flow` property?
+`grid-auto-flow` プロパティを使う正しい方法はどれですか？
 
 #### --distractors--
 
@@ -418,7 +418,7 @@ Which of the following is the correct way to work with the `grid-auto-flow` prop
 
 #### --text--
 
-Which of the following is NOT a valid grid property?
+次のうち有効なグリッドプロパティでないものはどれですか？
 
 #### --distractors--
 
@@ -440,7 +440,7 @@ Which of the following is NOT a valid grid property?
 
 #### --text--
 
-Which of these properties can be used to center items inside a grid element?
+グリッド要素内のアイテムを中央に配置するために使えるプロパティはどれですか？
 
 #### --distractors--
 
@@ -462,7 +462,7 @@ Which of these properties can be used to center items inside a grid element?
 
 #### --text--
 
-Which of the following is a correct value to use with the `grid-auto-columns` property?
+`grid-auto-columns` プロパティで使える正しい値はどれですか？
 
 #### --distractors--
 
@@ -484,29 +484,29 @@ Which of the following is a correct value to use with the `grid-auto-columns` pr
 
 #### --text--
 
-What are grid tracks?
+グリッドトラックとは何ですか？
 
 #### --distractors--
 
-Shorthand for rows and columns.
+行と列の省略形。
 
 ---
 
-Lines along which you can animate movement of the grid items.
+グリッドアイテムの動きをアニメーションできる線。
 
 ---
 
-Lines on which each of the grid items begins and ends.
+各グリッドアイテムが始まりと終わりを持つ線。
 
 #### --answer--
 
-Spaces between two adjacent grid lines.
+隣接する2つのグリッドライン間のスペース。
 
 ### --question--
 
 #### --text--
 
-Which of the following is the correct way to use the `minmax()` function?
+`minmax()` 関数を使う正しい方法はどれですか？
 
 #### --distractors--
 
@@ -554,51 +554,51 @@ Which of the following is the correct way to use the `minmax()` function?
 
 #### --text--
 
-How do you position a grid item within a layout defined by `grid-template-areas`?
+`grid-template-areas` で定義されたレイアウト内でグリッドアイテムを配置するにはどうしますか？
 
 #### --distractors--
 
-By directly defining the item's size and location within the grid using `grid-template-rows` and `grid-template-columns`.
+`grid-template-rows` と `grid-template-columns` を使ってアイテムのサイズと位置を直接定義する。
 
 ---
 
-By using the `grid-area` property and specifying both row and column start and end positions.
+`grid-area` プロパティを使い、行と列の開始と終了位置を指定する。
 
 ---
 
-By setting both `grid-area` and explicit pixel coordinates.
+`grid-area` と明示的なピクセル座標の両方を設定する。
 
 #### --answer--
 
-By assigning the named area to the item's `grid-area` property.
+アイテムの `grid-area` プロパティに名前付きエリアを割り当てる。
 
 ### --question--
 
 #### --text--
 
-What does the `grid-auto-rows` property control?
+`grid-auto-rows` プロパティは何を制御しますか？
 
 #### --distractors--
 
-The height of explicitly defined rows.
+明示的に定義された行の高さ。
 
 ---
 
-The maximum width of grid columns.
+グリッド列の最大幅。
 
 ---
 
-The spacing between rows.
+行間の間隔。
 
 #### --answer--
 
-The size of implicitly created rows.
+暗黙的に作成された行のサイズ。
 
 ### --question--
 
 #### --text--
 
-Which property would you use to make a grid item span multiple rows?
+グリッドアイテムを複数行にまたがらせるにはどのプロパティを使いますか？
 
 #### --distractors--
 
@@ -620,29 +620,29 @@ Which property would you use to make a grid item span multiple rows?
 
 #### --text--
 
-What defines an explicit grid?
+明示的なグリッドを定義するものは何ですか？
 
 #### --distractors--
 
-Tracks created automatically to fit content.
+コンテンツに合わせて自動的に作成されたトラック。
 
 ---
 
-Tracks defined by the `fr` unit.
+`fr` 単位で定義されたトラック。
 
 ---
 
-Tracks added with `grid-auto-flow`.
+`grid-auto-flow` で追加されたトラック。
 
 #### --answer--
 
-Tracks explicitly set by `grid-template-columns` or `grid-template-rows`.
+`grid-template-columns` または `grid-template-rows` で明示的に設定されたトラック。
 
 ### --question--
 
 #### --text--
 
-Which value for `grid-auto-flow` would make new items fill columns first?
+`grid-auto-flow` のどの値が新しいアイテムを最初に列に埋めるようにしますか？
 
 #### --distractors--
 
@@ -664,29 +664,29 @@ Which value for `grid-auto-flow` would make new items fill columns first?
 
 #### --text--
 
-What is the purpose of `grid-template-areas`?
+`grid-template-areas` の目的は何ですか？
 
 #### --distractors--
 
-To auto-generate implicit tracks.
+暗黙のトラックを自動生成するため。
 
 ---
 
-To replace the `fr` unit.
+`fr` 単位を置き換えるため。
 
 ---
 
-To set `z-index` values.
+`z-index` の値を設定するため。
 
 #### --answer--
 
-To visually map items to named grid areas.
+名前付きグリッドエリアにアイテムを視覚的にマッピングするため。
 
 ### --question--
 
 #### --text--
 
-How can you make a grid item start at column line 2 and end at column line 4?
+グリッドアイテムを列ライン2で開始し、列ライン4で終了させるにはどうしますか？
 
 #### --distractors--
 
@@ -708,29 +708,29 @@ How can you make a grid item start at column line 2 and end at column line 4?
 
 #### --text--
 
-What is the effect of `grid-template-columns: 1fr 2fr 1fr`?
+`grid-template-columns: 1fr 2fr 1fr` の効果は何ですか？
 
 #### --distractors--
 
-Creates three equal-width columns.
+幅が等しい3列を作成する。
 
 ---
 
-Makes the middle column three times as wide as the others.
+中央の列を他の列の3倍の幅にする。
 
 ---
 
-Forces all columns to be exactly `1fr` wide.
+すべての列を正確に `1fr` の幅にする。
 
 #### --answer--
 
-Creates three columns where the middle is twice as wide as the sides.
+中央の列が両側の2倍の幅の3列を作成する。
 
 ### --question--
 
 #### --text--
 
-How would you create a grid with 3 equal columns and a `20px` gap between them?
+3つの等しい列と `20px` のギャップを持つグリッドを作成するにはどうしますか？
 
 #### --distractors--
 
@@ -773,73 +773,73 @@ How would you create a grid with 3 equal columns and a `20px` gap between them?
 
 #### --text--
 
-What does `repeat(3, minmax(100px, 1fr))` create?
+`repeat(3, minmax(100px, 1fr))` は何を作成しますか？
 
 #### --distractors--
 
-Three columns that can't shrink below `100px`.
+`100px` 以下に縮小できない3列。
 
 ---
 
-Three fixed `100px` columns.
+固定幅 `100px` の3列。
 
 ---
 
-Three rows with maximum height of `1fr`.
+最大高さ `1fr` の3行。
 
 #### --answer--
 
-Three columns that grow proportionally but won't shrink below `100px`.
+比例的に成長しつつ `100px` 以下に縮小しない3列。
 
 ### --question--
 
 #### --text--
 
-Which statement about implicit grids is true?
+暗黙のグリッドについて正しい説明はどれですか？
 
 #### --distractors--
 
-Implicit grids ignore the `gap` property.
+暗黙のグリッドは `gap` プロパティを無視する。
 
 ---
 
-Implicit tracks must be defined with `grid-template-areas`.
+暗黙のトラックは `grid-template-areas` で定義する必要がある。
 
 ---
 
-Implicit tracks can only be created using the `grid-auto-flow` property.
+暗黙のトラックは `grid-auto-flow` プロパティでしか作成できない。
 
 #### --answer--
 
-Implicit tracks are created when content doesn't fit explicit tracks.
+コンテンツが明示的なトラックに収まらない場合に暗黙のトラックが作成される。
 
 ### --question--
 
 #### --text--
 
-What does the `place-items` property do in CSS Grid?
+CSS Gridで `place-items` プロパティは何をしますか？
 
 #### --distractors--
 
-It sets the size of grid items automatically based on available space.
+利用可能なスペースに基づいてグリッドアイテムのサイズを自動設定する。
 
 ---
 
-It controls the grid template's column and row definitions.
+グリッドテンプレートの列と行の定義を制御する。
 
 ---
 
-It adjusts the order of grid items within the container.
+コンテナ内のグリッドアイテムの順序を調整する。
 
 #### --answer--
 
-It is a shorthand for aligning grid items in both the block and inline axes.
+ブロック軸とインライン軸の両方でグリッドアイテムの整列を省略形で指定する。
 
 ### --question--
 
 #### --text--
 
-What does this CSS accomplish?
+このCSSは何を実現しますか？
 
 ```css
 .container {
@@ -849,69 +849,69 @@ What does this CSS accomplish?
 
 #### --distractors--
 
-Creates fixed `150px` columns that overflow the container.
+コンテナをオーバーフローさせる固定幅 `150px` の列を作成する。
 
 ---
 
-Creates columns that are exactly `1fr` wide regardless of content.
+内容に関係なく正確に `1fr` 幅の列を作成する。
 
 ---
 
-Creates a maximum of one column per `150px` of available width.
+利用可能な幅 `150px` ごとに最大1列を作成する。
 
 #### --answer--
 
-Creates flexible columns that are at least `150px` and collapse when space is limited.
+少なくとも `150px` の柔軟な列を作成し、スペースが限られると縮小する。
 
 ### --question--
 
 #### --text--
 
-How can you create asymmetric grid layouts?
+非対称のグリッドレイアウトを作成するにはどうしますか？
 
 #### --distractors--
 
-By using only `fr` units.
+`fr` 単位だけを使う。
 
 ---
 
-By mixing different length units in `grid-template-columns`.
+`grid-template-columns` で異なる長さの単位を混ぜる。
 
 ---
 
-By setting `grid-asymmetric: true`.
+`grid-asymmetric: true` を設定する。
 
 #### --answer--
 
-By defining different sizes for each track.
+各トラックに異なるサイズを定義する。
 
 ### --question--
 
 #### --text--
 
-What does `grid-column-start: 2` do to a grid item?
+`grid-column-start: 2` はグリッドアイテムに何をしますか？
 
 #### --distractors--
 
-Makes it span 2 columns.
+2列にまたがらせる。
 
 ---
 
-Offsets it by 2 pixels.
+2ピクセルオフセットする。
 
 ---
 
-Positions it starting at the second vertical grid line.
+2番目の垂直グリッドラインから配置する。
 
 #### --answer--
 
-Makes it start at the second column line.
+2番目の列ラインから開始させる。
 
 ### --question--
 
 #### --text--
 
-Which property would you use to control overflow behavior in grid tracks?
+グリッドトラックのオーバーフロー動作を制御するにはどのプロパティを使いますか？
 
 #### --distractors--
 
@@ -933,7 +933,7 @@ Which property would you use to control overflow behavior in grid tracks?
 
 #### --text--
 
-What will be the result for the following code?
+次のコードの結果はどうなりますか？
 
 ```css
 .container {
@@ -946,25 +946,25 @@ What will be the result for the following code?
 
 #### --distractors--
 
-The container will have three columns of equal width, and two rows with `150px` height each.
+コンテナは幅が等しい3列と高さ `150px` の2行を持つ。
 
 ---
 
-The container will have three columns, all with `100px` width, and two rows with `150px` height.
+コンテナは幅 `100px` の3列と高さ `150px` の2行を持つ。
 
 ---
 
-The container will have two rows, each with a height of `1fr`.
+コンテナは高さ `1fr` の2行を持つ。
 
 #### --answer--
 
-The container will have three columns: 100px, `1fr` and `2fr` wide and two rows: one auto and one with `150px` height.
+コンテナは幅100px、`1fr`、`2fr` の3列と高さが1つは自動、もう1つは `150px` の2行を持つ。
 
 ### --question--
 
 #### --text--
 
-How would you make a grid item span all available rows?
+グリッドアイテムを利用可能なすべての行にまたがらせるにはどうしますか？
 
 #### --distractors--
 
@@ -986,7 +986,7 @@ How would you make a grid item span all available rows?
 
 #### --text--
 
-Which property controls the alignment of grid items along the block axis?
+グリッドアイテムのブロック軸方向の整列を制御するプロパティはどれですか？
 
 #### --distractors--
 
@@ -1008,7 +1008,7 @@ Which property controls the alignment of grid items along the block axis?
 
 #### --text--
 
-How can you ensure a grid item stays in the first column regardless of grid changes?
+グリッドの変更に関係なくグリッドアイテムを最初の列に固定するにはどうしますか？
 
 #### --distractors--
 

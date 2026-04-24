@@ -1,6 +1,6 @@
 ---
 id: 698dc6467932b3cc4b19c922
-title: Linear and Quadratic Time
+title: 線形時間と二次時間
 challengeType: 11
 videoId: jS7vtk-JLZ0
 dashedName: linear-and-quadratic-time
@@ -8,29 +8,29 @@ dashedName: linear-and-quadratic-time
 
 # --description--
 
-In this video, you will learn about linear and quadratic times.
+このビデオでは、線形時間と二次時間について学びます。
 
 # --questions--
 
 ## --text--
 
-What does quadratic mean?
+二次とはどういう意味ですか？
 
 ## --answers--
 
-An operation raised to the first power.
+1乗された操作。
 
 ---
 
-An operation raised to the third power.
+3乗された操作。
 
 ---
 
-An operation raised to the second power.
+2乗された操作。
 
 ---
 
-An operation raised to the tenth power.
+10乗された操作。
 
 ## --video-solution--
 

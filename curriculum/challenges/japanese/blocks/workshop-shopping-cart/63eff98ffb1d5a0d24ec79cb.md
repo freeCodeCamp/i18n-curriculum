@@ -1,49 +1,49 @@
 ---
 id: 63eff98ffb1d5a0d24ec79cb
-title: ステップ 26
+title: Step 26
 challengeType: 0
 dashedName: step-26
 ---
 
 # --description--
 
-You haven't written the code to generate the HTML yet, but if a product has already been added to the user's cart then there will be a matching element which you'll need.
+まだHTMLを生成するコードは書いていませんが、もしユーザーのカートにすでに商品が追加されている場合は、それに対応する要素が存在します。
 
-Use `.getElementById()` to get the matching element - you'll be setting the `id` value to `product-count-for-id${product.id}`, so use a template literal to query that value.
+`.getElementById()` を使って対応する要素を取得してください。`id` の値を `product-count-for-id${product.id}` に代入するので、その値をクエリするためにテンプレートリテラルを使いましょう。
 
-Assign your query to a `currentProductCountSpan` variable.
+クエリの結果は `currentProductCountSpan` 変数に代入してください。
 
 # --hints--
 
-You should declare a `currentProductCountSpan` variable.
+`currentProductCountSpan` 変数を宣言してください。
 
 ```js
 const cart = new ShoppingCart();
 assert.match(cart.addItem.toString(), /currentProductCountSpan\s*=/);
 ```
 
-You should use `const` to declare `currentProductCountSpan`.
+`const` を使って `currentProductCountSpan` を宣言してください。
 
 ```js
 const afterAdd = code.split("addItem")[1];
 assert.match(afterAdd, /const\s+currentProductCountSpan\s*=/);
 ```
 
-You should use `document.getElementById()` to get the matching element.
+`document.getElementById()` を使って対応する要素を取得してください。
 
 ```js
 const cart = new ShoppingCart();
 assert.match(cart.addItem.toString(), /document\.getElementById\(/);
 ```
 
-You should use a template literal to query the `id` value.
+テンプレートリテラルを使って `id` の値をクエリしてください。
 
 ```js
 const afterAdd = code.split("addItem")[1];
 assert.match(afterAdd, /document\.getElementById\(\s*`product-count-for-id\$\{(product\.)?id\}`\s*\)/);
 ```
 
-You should assign the value of `document.getElementById()` to `currentProductCountSpan`.
+`document.getElementById()` の値を `currentProductCountSpan` に代入してください。
 
 ```js
 const cart = new ShoppingCart();

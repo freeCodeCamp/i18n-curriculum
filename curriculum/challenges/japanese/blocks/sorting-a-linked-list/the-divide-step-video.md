@@ -1,6 +1,6 @@
 ---
 id: 698de6a07932b3cc4b19c93b
-title: The Divide Step
+title: マージソートの分割ステップ
 challengeType: 11
 videoId: HW3cLmVfSw0
 dashedName: the-divide-step
@@ -8,29 +8,29 @@ dashedName: the-divide-step
 
 # --description--
 
-In this video, you will continue to learn how to implement the divide step of the merge sort algorithm on linked lists.
+このビデオでは、連結リストに対するマージソートアルゴリズムの分割ステップの実装方法を引き続き学びます。
 
 # --questions--
 
 ## --text--
 
-What is the point of the `split` function?
+`split` 関数の目的は何ですか？
 
 ## --answers--
 
-To select a pivot element for dividing the list.
+リストを分割するためのピボット要素を選択すること。
 
 ---
 
-To merge two sorted sublists into one list.
+2つのソート済みの部分リストを1つのリストにマージすること。
 
 ---
 
-To split the list into two halves without considering order.
+順序を考慮せずにリストを2つの半分に分割すること。
 
 ---
 
-To divide the unsorted list at the midpoint into sublists.
+未ソートのリストを中間点で分割して部分リストにすること。
 
 ## --video-solution--
 

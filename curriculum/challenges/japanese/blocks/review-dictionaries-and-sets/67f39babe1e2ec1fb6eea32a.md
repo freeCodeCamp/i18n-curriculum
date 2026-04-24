@@ -1,15 +1,15 @@
 ---
 id: 67f39babe1e2ec1fb6eea32a
-title: Dictionaries and Sets Review
+title: 辞書とセットのレビュー
 challengeType: 31
 dashedName: review-dictionaries-and-sets
 ---
 
 # --description--
 
-## Dictionaries
+## 辞書
 
-- **Dictionaries**: Dictionaries are built-in data structures that store collections of key-value pairs. Keys need to be immutable data types. This is the general syntax of a Python dictionary:
+- **辞書**: 辞書はキーと値のペアのコレクションを格納する組み込みのデータ構造です。キーは不変のデータ型である必要があります。Pythonの辞書の一般的な構文は以下の通りです。
 
 ```python
 dictionary = {
@@ -18,27 +18,27 @@ dictionary = {
 }
 ```
 
-- **`dict()` Constructor**: The `dict()` constructor is an alternative way to build the dictionary. You pass a list of tuples as an argument to the `dict()` constructor. These tuples contain the key as the first element and the value as the second element.
+- **`dict()` コンストラクタ**: `dict()` コンストラクタは辞書を作成する別の方法です。`dict()` コンストラクタにタプルのリストを引数として渡します。これらのタプルは、最初の要素にキー、2番目の要素に値を含みます。
 
 ```python
 pizza = dict([('name', 'Margherita Pizza'), ('price', 8.9), ('calories_per_slice', 250), ('toppings', ['mozzarella', 'basil'])])
 ```
 
-- **Bracket Notation**: To access the value of a key-value pair, you can use the syntax known as bracket notation.
+- **ブラケット記法**: キーと値のペアの値にアクセスするには、ブラケット記法として知られる構文を使うことができます。
 
 ```python
 dictionary[key]
 ```
 
-## Common Dictionary Methods
+## 一般的な辞書のメソッド
 
-- **`get()` Method**: The `get()` method retrieves the value associated with a key. It's similar to the bracket notation, but it lets you set a default value, preventing errors if the key doesn't exist.
+- **`get()` メソッド**: `get()` メソッドはキーに関連付けられた値を取得します。ブラケット記法に似ていますが、キーが存在しない場合にエラーを防ぐためにデフォルト値を設定できます。
 
 ```python
 dictionary.get(key, default)
 ```
 
-- **`keys()` and `values()` Methods**: The `keys()` and `values()` methods return a view object with all the keys and values in the dictionary, respectively. A view object is a way to see the content of a dictionary without creating a separate copy of the data.
+- **`keys()` と `values()` メソッド**: `keys()` と `values()` メソッドは、それぞれ辞書内のすべてのキーと値を含むビューオブジェクトを返します。ビューオブジェクトは、データの別コピーを作成せずに辞書の内容を見る方法です。
 
 ```python
 pizza = {
@@ -54,41 +54,41 @@ pizza.values()
 # dict_values(['Margherita Pizza', 8.9, 250])
 ```
 
-- **`items()` Method**: The `items()` method returns a view object with all the key-value pairs in the dictionary, including both the keys and the values.
+- **`items()` メソッド**: `items()` メソッドは、キーと値の両方を含む辞書内のすべてのキーと値のペアを含むビューオブジェクトを返します。
 
 ```python
 pizza.items()
 # dict_items([('name', 'Margherita Pizza'), ('price', 8.9), ('calories_per_slice', 250)])
 ```
 
-- **`clear()` Method**: The `clear()` method removes all the key-value pairs from the dictionary.
+- **`clear()` メソッド**: `clear()` メソッドは辞書からすべてのキーと値のペアを削除します。
 
 ```python
 pizza.clear()
 ```
 
-- **`pop()` Method**: The `pop()` method removes the key-value pair with the key specified as the first argument and returns its value. If the key doesn't exist, it returns the default value specified as the second argument. If the key doesn't exist and the default value is not specified, a `KeyError` is raised.
+- **`pop()` メソッド**: `pop()` メソッドは、最初の引数で指定されたキーのキーと値のペアを削除し、その値を返します。キーが存在しない場合は、2番目の引数で指定されたデフォルト値を返します。キーが存在せず、デフォルト値が指定されていない場合は `KeyError` が発生します。
 
 ```python
 pizza.pop('price', 10)
 pizza.pop('total_price') # KeyError
 ```
 
-- **`popitem()` Method**: In Python 3.7 and above, the `popitem()` method removes the last inserted item.
+- **`popitem()` メソッド**: Python 3.7以降では、`popitem()` メソッドは最後に挿入されたアイテムを削除します。
 
 ```python
 pizza.popitem()
 ```
 
-- **`update()` Method**: The `update()` method updates the key-value pairs with the key-value pairs of another dictionary. If they have keys in common, their values are overwritten. New keys will be added to the dictionary as new key-value pairs.
+- **`update()` メソッド**: `update()` メソッドは、別の辞書のキーと値のペアで辞書を更新します。共通のキーがある場合は、その値が上書きされます。新しいキーは新しいキーと値のペアとして辞書に追加されます。
 
 ```python
 pizza.update({ 'price': 15, 'total_time': 25 })
 ```
 
-## Looping Over a Dictionary
+## 辞書のループ処理
 
-- **Iterating Over Values**: If you need to iterate over the values in a dictionary, you can write a `for` loop with `values()` to get all the values of a dictionary.
+- **値の繰り返し**: 辞書の値を繰り返す必要がある場合は、`for` ループを `values()` と書いて辞書のすべての値を取得できます。
 
 ```python
 products = {
@@ -102,7 +102,7 @@ for price in products.values():
     print(price)
 ```
 
-Output:
+出力:
 
 ```md
 990
@@ -111,7 +111,7 @@ Output:
 70
 ```
 
-- **Iterating Over Keys**: If you need to iterate over the keys in the `products` dictionary above, you can write `products.keys()` or `products` directly.
+- **キーの繰り返し**: 上記の `products` 辞書のキーを繰り返す必要がある場合は、`products.keys()` または `products` を直接書くことができます。
 
 ```python
 for product in products.keys():
@@ -123,7 +123,7 @@ for product in products:
     print(product)
 ```
 
-Output:
+出力:
 
 ```md
 Laptop
@@ -132,14 +132,14 @@ Tablet
 Headphones
 ```
 
-- **Iterating Over Key-Value Pairs**: If you need to iterate over the keys and their corresponding values simultaneously, you can iterate over `products.items()`. You get individual tuples with the keys and their corresponding values.
+- **キーと値のペアの繰り返し**: キーと対応する値を同時に繰り返す必要がある場合は、`products.items()` を繰り返します。キーと対応する値を含む個別のタプルが得られます。
 
 ```python
 for product in products.items():
     print(product)
 ```
 
-Output:
+出力:
 
 ```md
 ('Laptop', 990)
@@ -148,14 +148,14 @@ Output:
 ('Headphones', 70)
 ```
 
-To store the key and value in separate loop variables, you need to separate them with a comma. The first variable stores the key, and the second stores the value.
+キーと値を別々のループ変数に格納するには、カンマで区切る必要があります。最初の変数がキーを格納し、2番目の変数が値を格納します。
 
 ```python
 for product, price in products.items():
     print(product, price)
 ```
 
-Output:
+出力:
 
 ```md
 Laptop 990
@@ -164,16 +164,16 @@ Tablet 250
 Headphones 70
 ```
 
-- **`enumerate()` Function**: If you need to iterate over a dictionary while keeping track of a counter, you can call the `enumerate()` function. The function returns an `enumerate` object, which assigns an integer to each item, like a counter. You can start the counter from any number, but by default, it starts from 0.
+- **`enumerate()` 関数**: カウンターを追跡しながら辞書を繰り返す必要がある場合は、`enumerate()` 関数を呼び出せます。この関数は `enumerate` オブジェクトを返し、各アイテムに整数を割り当てます。カウンターは任意の数から開始できますが、デフォルトでは0から始まります。
 
-Assigning the index and item to separate loop variables is the common way to use `enumerate()`. For example, with `products.items()`, you can get the entire key-value pair in addition to the index:
+インデックスとアイテムを別々のループ変数に代入するのが `enumerate()` の一般的な使い方です。例えば、`products.items()` を使うと、インデックスに加えてキーと値のペア全体を取得できます。
 
 ```python
 for index, product in enumerate(products.items()):
     print(index, product)
 ```
 
-Output:
+出力:
 
 ```md
 0 ('Laptop', 990)
@@ -182,14 +182,14 @@ Output:
 3 ('Headphones', 70)
 ```
 
-To customize the initial value of the count, you can pass a second argument to `enumerate()`. For example, here we are starting the count from 1.
+カウントの初期値をカスタマイズするには、`enumerate()` に2番目の引数を渡します。例えば、ここではカウントを1から開始しています。
 
 ```python
 for index, product in enumerate(products.items(), 1):
     print(index, product)
 ```
 
-Output:
+出力:
 
 ```md
 1 ('Laptop', 990)
@@ -198,47 +198,47 @@ Output:
 4 ('Headphones', 70)
 ```
 
-## Sets
+## セット
 
-- **Sets**: Sets are built-in data structures in Python that do not allow duplicate values. Sets are mutable and unordered, which means that their elements are not stored in any specific order, so you cannot use indices or keys to access them. Also, sets can only contain values of immutable data types, like numbers, strings, and tuples.
+- **セット**: セットはPythonの組み込みデータ構造で、重複する値を許しません。セットは変更可能で順序付けられていないため、要素は特定の順序で格納されず、インデックスやキーでアクセスできません。また、セットには数値、文字列、タプルなどの不変データ型の値のみを含めることができます。
 
-- **Defining a Set**: To define a set, you need to write its elements within curly brackets and separate them with commas.
+- **セットの定義**: セットを定義するには、中括弧内に要素を書き、カンマで区切ります。
 
 ```python
 my_set = {1, 2, 3, 4, 5}
 ```
 
-- **Defining an Empty Set**: If you need to define an empty set, you must use the `set()` function. Only writing empty curly braces will automatically create a dictionary.
+- **空のセットの定義**: 空のセットを定義する必要がある場合は、`set()` 関数を使う必要があります。空の中括弧だけを書くと自動的に辞書が作成されます。
 
 ```python
 set() # Set
 {}    # Dictionary
 ```
 
-## Common Set Methods
+## 一般的なセットのメソッド
 
-- **`add()` Method**: You can add an element to a set with the `add()` method, passing the new element as an argument.
+- **`add()` メソッド**: `add()` メソッドを使ってセットに要素を追加できます。新しい要素を引数として渡します。
 
 ```python
 my_set.add(6)
 ```
 
-- **`remove()` and `discard()` Methods**: To remove an element from a set, you can either use the `remove()` method or the `discard()` method, passing the element you want to remove as an argument. The `remove()` method will raise a `KeyError` if the element is not found while the `discard()` method will not.
+- **`remove()` と `discard()` メソッド**: セットから要素を削除するには、`remove()` メソッドか `discard()` メソッドを使い、削除したい要素を引数として渡します。`remove()` メソッドは要素が見つからない場合に `KeyError` を発生させますが、`discard()` メソッドは発生させません。
 
 ```python
 my_set.remove(4)
 my_set.discard(4)
 ```
 
-- **`clear()` method**:  The `clear()` method removes all the elements from the set.
+- **`clear()` メソッド**: `clear()` メソッドはセットからすべての要素を削除します。
 
 ```python
 my_set.clear()
 ```
 
-## Mathematical Set Operations
+## 集合の数学的操作
 
-- **`issubset()` and `issuperset()` Methods**: The `issubset()` and the `issuperset()` methods check if a set is a subset or superset of another set, respectively.
+- **`issubset()` と `issuperset()` メソッド**: `issubset()` と `issuperset()` メソッドは、それぞれあるセットが別のセットの部分集合か超集合かをチェックします。
 
 ```python
 my_set = {1, 2, 3, 4, 5}
@@ -248,7 +248,7 @@ print(your_set.issubset(my_set)) # True
 print(my_set.issuperset(your_set)) # True
 ```
 
-- **`isdisjoint()` Method**: The `isdisjoint()` method checks if two sets are disjoint, if they don't have elements in common.
+- **`isdisjoint()` メソッド**: `isdisjoint()` メソッドは、2つのセットが共通の要素を持たないかどうか（互いに素かどうか）をチェックします。
 
 ```python
 my_set = {1, 2, 3}
@@ -257,7 +257,7 @@ your_set = {4, 5, 6}
 print(my_set.isdisjoint(your_set)) # True
 ```
 
-- **Union Operator (`|`)**: The union operator `|` returns a new set with all the elements from both sets.
+- **和集合演算子 (`|`)**: 和集合演算子 `|` は、両方のセットのすべての要素を含む新しいセットを返します。
 
 ```python
 my_set = {1, 2, 3}
@@ -266,7 +266,7 @@ your_set = {4, 5, 6}
 my_set | your_set # {1, 2, 3, 4, 5, 6}
 ```
 
-- **Intersection Operator (`&`)**: The intersection operator `&` returns a new set with only the elements that the sets have in common.
+- **積集合演算子 (`&`)**: 積集合演算子 `&` は、セットが共通して持つ要素だけを含む新しいセットを返します。
 
 ```python
 my_set = {1, 2, 3, 4, 5}
@@ -275,7 +275,7 @@ your_set = {2, 3, 4, 6}
 my_set & your_set # {2, 3, 4}
 ```
 
-- **Difference Operator (`-`)**: The difference operator `-` returns a new set with the elements of the first set that are not in the other sets.
+- **差集合演算子 (`-`)**: 差集合演算子 `-` は、最初のセットにあって他のセットにない要素を含む新しいセットを返します。
 
 ```python
 my_set = {1, 2, 3, 4, 5}
@@ -284,7 +284,7 @@ your_set = {2, 3, 4, 6}
 my_set - your_set # {1, 5}
 ```
 
-- **Symmetric Difference Operator (`^`)**: The symmetric difference operator `^` returns a new set with the elements that are either in the first or the second set, but not both.
+- **対称差演算子 (`^`)**: 対称差演算子 `^` は、最初か2番目のセットのいずれかに含まれるが両方には含まれない要素を含む新しいセットを返します。
 
 ```python
 my_set = {1, 2, 3, 4, 5}
@@ -293,33 +293,33 @@ your_set = {2, 3, 4, 6}
 my_set ^ your_set # {1, 5, 6}
 ```
 
-- **`in` Operator**: You can check if an element is in a set or not with the `in` operator.
+- **`in` 演算子**: `in` 演算子を使って、要素がセットに含まれているかどうかをチェックできます。
 
 ```python
 print(5 in my_set) # True
 ```
 
-## Python Standard Library
+## Python標準ライブラリ
 
-- **Python Standard Library**: A library gives you pre-written and reusable code, like functions, classes, and data structures, that you can reuse in your projects. Python has an extensive standard library with built-in modules that implement standardized solutions for many problems and tasks. Some examples of popular built-in modules are `math`, `random`, `re` (short for "regular expressions"), and `datetime`.
+- **Python標準ライブラリ**: ライブラリは、関数、クラス、データ構造などの再利用可能なコードを提供し、プロジェクトで再利用できます。Pythonには多くの問題やタスクに対する標準化された解決策を実装した組み込みモジュールを含む広範な標準ライブラリがあります。人気のある組み込みモジュールの例には `math`、`random`、`re`（「正規表現」の略）、`datetime` があります。
 
-## Import Statement
+## インポート文
 
-- **Import Statement**: To access the elements defined in built-in modules, you use an import statement. Import statements are generally written at the top of the file. Import statements work the same for functions, classes, constants, variables, and any other elements defined in the module.
+- **インポート文**: 組み込みモジュールで定義された要素にアクセスするには、インポート文を使います。インポート文は通常ファイルの先頭に書きます。インポート文は、関数、クラス、定数、変数、その他モジュール内で定義された要素すべてに対して同じように機能します。
 
-- **Basic Import Statement**: You can use the `import` keyword followed by the name of the module:
+- **基本的なインポート文**: `import` キーワードの後にモジュール名を書きます。
 
 ```python
 import module_name
 ```
 
-Then, if you need to call a function from that module, you would use dot notation, with the name of the module followed by the name of the function.
+その後、そのモジュールの関数を呼び出す必要がある場合は、モジュール名の後に関数名をドット記法で書きます。
 
 ```python
 module_name.function_name()
 ```
 
-For example, you would write the following in your code to import the `math` module and get the square root of 36:
+例えば、`math` モジュールをインポートして36の平方根を取得するには、次のようにコードに書きます。
 
 ```python
 import math
@@ -327,31 +327,31 @@ import math
 math.sqrt(36)
 ```
 
-- **Importing a Module with a Different Name**: If you need to import the module with a different name (also known as an "alias"), you can use `as` followed by the alias at the end of the import statement. This is often used for long module names or to avoid naming conflicts.
+- **別名でモジュールをインポートする**: モジュールを別名（エイリアス）でインポートする必要がある場合は、インポート文の最後に `as` とエイリアスを書きます。これは長いモジュール名や名前の衝突を避けるためによく使われます。
 
 ```python
 import module_name as module_alias
 ```
 
-For example, to refer to the `math` module as `m` in your code, you can assign an alias like this:
+例えば、`math` モジュールをコード内で `m` として参照するには、次のようにエイリアスを割り当てます。
 
 ```python
 import math as m
 ```
 
-Then, you can access the elements of the module using the alias:
+その後、エイリアスを使ってモジュールの要素にアクセスできます。
 
 ```python
 m.sqrt(36)
 ```
 
-- **Importing Specific Elements**: If you don't need everything from a module, you can import specific elements using `from`. In this case, the import statement starts with `from`, followed by the module name, then the `import` keyword, and finally the names of the elements you want to import.
+- **特定の要素だけをインポートする**: モジュールのすべてが必要ない場合は、`from` を使って特定の要素だけをインポートできます。この場合、インポート文は `from` で始まり、モジュール名、`import` キーワード、そしてインポートしたい要素名が続きます。
 
 ```python
 from module_name import name1, name2
 ```
 
-Then, you can use these names without the module prefix in your Python script. For example:
+その後、Pythonスクリプト内でこれらの名前をモジュールの接頭辞なしで使えます。例えば：
 
 ```python
 from math import radians, sin, cos
@@ -365,35 +365,35 @@ cos_value = cos(angle_radians)
 print(sine_value) # 0.6427876096865393
 print(cos_value)  # 0.766044443118978
 ```
+ 
+これは便利ですが、同じ名前の関数や変数がすでにある場合に名前の衝突が起こる可能性があります。どのタイプのインポート文を使うか選ぶ際に注意してください。
 
-This is helpful, but it can result in naming conflicts if you already have functions or variables with the same name. Keep it in mind when choosing which type of import statement you want to use.
-
-If you need to assign aliases to these names, you can do so as well, using the `as` keyword followed by the alias.
+これらの名前にエイリアスを割り当てることもでき、`as` キーワードの後にエイリアスを書きます。
 
 ```python
 from module_name import name1 as alias1, name2 as alias2
 ```
 
-- **Import Statement with Asterisk (`*`)**: The asterisk tells Python that you want to import everything in that module, but you want to import it so that you don't need to use the name of the module as a prefix.
+- **アスタリスク付きインポート文 (`*`)**: アスタリスクは、そのモジュール内のすべてをインポートしたいことをPythonに伝えますが、モジュール名を接頭辞として使う必要がなくなります。
 
 ```python
 from module_name import *
 ```
 
-For example, if you use this to import the `math` module, you'll be able to call any function defined in that module without specifying the name of the module as a prefix.
+例えば、これを使って `math` モジュールをインポートすると、そのモジュール内で定義された関数をモジュール名を指定せずに呼び出せます。
 
 ```python
 from math import *
 print(sqrt(36))  # 6.0
 ```
 
-However, this is generally discouraged because it can lead to namespace collisions and make it harder to know where names come from.
+しかし、これは名前空間の衝突を引き起こしやすく、名前の由来がわかりにくくなるため、一般的には推奨されません。
 
 ## `if __name__ == '__main__'`
 
-- **`__name__` Variable**: `__name__` is a special built-in variable in Python. When a Python file is executed directly, Python sets the value of this variable to the string `"__main__"`. But if the Python file is imported as a module into another Python script, the value of the `__name__` variable is set to the name of that module.
+- **`__name__` 変数**: `__name__` はPythonの特別な組み込み変数です。Pythonファイルが直接実行されると、この変数の値は文字列 `"__main__"` に設定されます。しかし、Pythonファイルが別のPythonスクリプトにモジュールとしてインポートされると、`__name__` 変数の値はそのモジュールの名前に設定されます。
 
-This is why you'll often find this conditional in Python scripts. It contains the code that you only want to run **only** if the Python script is running as the main program.
+このため、Pythonスクリプトでこの条件文をよく見かけます。これはPythonスクリプトがメインプログラムとして実行されている場合に**のみ**実行したいコードを含みます。
 
 ```python
 if __name__ == '__main__': 
@@ -402,4 +402,4 @@ if __name__ == '__main__':
 
 # --assignment--
 
-Review the Dictionaries and Sets topics and concepts.
+辞書とセットのトピックと概念を復習してください。

@@ -1,6 +1,6 @@
 ---
 id: 698dea3b7932b3cc4b19c94a
-title: Sorting Names
+title: 名前のソート
 challengeType: 11
 videoId: DpuNKrUDr40
 dashedName: sorting-names
@@ -8,13 +8,13 @@ dashedName: sorting-names
 
 # --description--
 
-In this video, you will implement the quicksort algorithm in Python to sort a list of names.
+この動画では、Pythonでクイックソートアルゴリズムを実装して名前のリストをソートします。
 
 # --questions--
 
 ## --text--
 
-What symbol does the instructor use in the video the redirect the program's output to another file in linux?
+動画で講師がLinuxでプログラムの出力を別のファイルにリダイレクトするために使う記号は何ですか？
 
 ## --answers--
 

@@ -7,19 +7,19 @@ dashedName: step-54
 
 # --description--
 
-With a `display` of `block` the submit button sits flush against the left edge of its parent.
+`display` の `block` を設定すると、送信ボタンは親要素の左端にぴったりと配置されます。
 
-Use the same technique used to center the `form` to center the submit button.
+`form` を中央に配置するのに使った手法と同じものを使って、送信ボタンを中央に配置してください。
 
 # --hints--
 
-You should give the submit button a `margin` of `0 auto`.
+送信ボタンに `margin` の `0 auto` を設定する必要があります。
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('input[type="submit"]')?.margin, '0px auto');
 ```
 
-You should not give the submit button a `min-width` or `max-width`.
+送信ボタンに `min-width` や `max-width` を設定してはいけません。
 
 ```js
 assert.isEmpty(new __helpers.CSSHelp(document).getStyle('input[type="submit"]')?.minWidth);
@@ -142,7 +142,7 @@ input[type="submit"] {
   display: block;
   width: 60%;
 --fcc-editable-region--
-
+  
 --fcc-editable-region--
 }
 

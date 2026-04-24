@@ -7,37 +7,37 @@ dashedName: step-16
 
 # --description--
 
-`div` 要素はこれまで使用してきた他のコンテンツ要素とは異なり、主にレイアウトデザイン目的で使用されます。 `body` 要素内に `div` 要素を追加し、他のすべての要素を新しい `div` の中に移動させてください。
+`div` 要素は、これまで使ってきた他のコンテンツ要素とは異なり、主にデザインレイアウトの目的で使われます。`div` 要素の中に `body` 要素を追加し、他のすべての要素を新しい `div` の中に移動してください。
 
-そして `div` の開始タグには、`id` 属性と `menu` という値を追加してください。
+開く `div` タグの中に、値が `id` の `menu` 属性を追加してください。
 
 # --hints--
 
-`<div>` の開始タグは、`id` 属性が `menu` に設定されている必要があります。
+開く `<div>` タグには、`id` 属性が `menu` に設定されている必要があります。
 
 ```js
 assert.strictEqual(document.querySelector('div')?.id, 'menu');
 ```
 
-終了タグ `</div>` が必要です。
+閉じる `</div>` タグがあるはずです。
 
 ```js
 assert.match(code, /<\/div>/i);
 ```
 
-既存の `body` 要素を変更しないでください。 終了タグを削除していないか確認してください。
+既存の `body` 要素は変更しないでください。終了タグを削除していないことを確認してください。
 
 ```js
 assert.lengthOf(document.querySelectorAll('body'), 1);
 ```
 
-`div` 要素は `body` 要素の中に入れる必要があります。
+`div` 要素は `body` の中にネストされている必要があります。
 
 ```js
 assert.equal(document.querySelector('div')?.parentElement?.tagName, 'BODY');
 ```
 
-他のすべての要素を新しい `div` の中に移動させてください。
+他のすべての要素を新しい `div` の中に移動してください。
 
 ```js
 assert.lengthOf(document.querySelector('body > div#menu > main')?.children, 3);

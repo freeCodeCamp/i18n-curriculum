@@ -1,15 +1,15 @@
 ---
 id: 644a0eadcbccaf1d13c7d137
-title: Step 19
+title: ステップ 19
 challengeType: 0
 dashedName: step-19
 ---
 
 # --description--
 
-In the base-2 number system, the rightmost digit represents the ones place, the next digit to the left represents the twos place, then the fours place, then the eights place, and so on. In this system, each digit's place value is two times greater than the digit to its right.
+2進数の数値システムでは、一番右の桁が1の位を表し、その左隣の桁が2の位、次が4の位、次が8の位というように続きます。このシステムでは、各桁の値は右隣の桁の2倍になります。
 
-Here are numbers zero to nine in the base-10 and base-2 number systems:
+以下は、10進数と2進数での0から9までの数字です：
 
 ```md
 | Base-10 | Base-2 |
@@ -26,25 +26,25 @@ Here are numbers zero to nine in the base-10 and base-2 number systems:
 |    9    |  1001  |
 ```
 
-Notice that binary numbers are formed from left to right, from the digit with the greatest place value on the left, to the least significant on the right. For example, the number `3` in binary is `11`, or `1` in the twos place and `1` in the ones place. Then for the number `4`, a digit to represent the fours place is included on the left and set to `1`, the twos place is `0`, and the ones place is `0`.
+2進数は左から右へ、左側が最も大きな位の桁で、右側が最も小さな位の桁となることに注意してください。例えば、数値`3`は2進数で`11`となり、2の位が`1`、1の位が`1`です。次に、数値`4`では、4の位を表す桁が左に追加されて`1`に設定され、2の位が`0`、1の位が`0`となります。
 
-In your `decimalToBinary` function, convert the number `10` into binary and `return` it as a string.
+あなたの`decimalToBinary`関数では、数値`10`を2進数に変換し、文字列として`return`してください。
 
 # --hints--
 
-Your `decimalToBinary` function should return a string.
+あなたの`decimalToBinary`関数は文字列を返す必要があります。
 
 ```js
 assert.isString(decimalToBinary());
 ```
 
-Your `decimalToBinary` function should return a string with a length of `4`.
+あなたの`decimalToBinary`関数は長さが`4`の文字列を返す必要があります。
 
 ```js
 assert.strictEqual(decimalToBinary().length, 4);
 ```
 
-Your `decimalToBinary` function should return `"1010"` as a string.
+あなたの`decimalToBinary`関数は`"1010"`を文字列として返す必要があります。
 
 ```js
 assert.strictEqual(decimalToBinary(), '1010');

@@ -1,6 +1,6 @@
 ---
 id: 698dbbd47932b3cc4b19c91b
-title: What is an Algorithm?
+title: アルゴリズムとは何ですか？
 challengeType: 11
 videoId: FUeqQSciTNI
 dashedName: what-is-an-algorithm
@@ -8,29 +8,29 @@ dashedName: what-is-an-algorithm
 
 # --description--
 
-In this video, you will learn what an algorithm is.
+この動画では、アルゴリズムとは何かを学びます。
 
 # --questions--
 
 ## --text--
 
-What is an algorithm?
+アルゴリズムとは何ですか？
 
 ## --answers--
 
-A special JavaScript framework.
+特別なJavaScriptフレームワークです。
 
 ---
 
-A commonly used linter.
+よく使われるリンターです。
 
 ---
 
-A set of steps for completing a task.
+タスクを完了するための一連のステップです。
 
 ---
 
-A special type of compiler.
+特別な種類のコンパイラーです。
 
 ## --video-solution--
 

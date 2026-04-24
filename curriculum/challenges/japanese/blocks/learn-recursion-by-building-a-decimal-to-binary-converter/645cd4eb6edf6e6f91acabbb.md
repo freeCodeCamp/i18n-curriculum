@@ -1,24 +1,24 @@
 ---
 id: 645cd4eb6edf6e6f91acabbb
-title: Step 53
+title: ステップ 53
 challengeType: 0
 dashedName: step-53
 ---
 
 # --description--
 
-Now that `b()` has executed, pop it off the call stack. Then, update your mock call to `a()` to the following: `"a(): returns 'freeCodeCamp ' + 'is awesome!'"`.
+`b()` が実行されたので、コールスタックからそれを取り除いてください。その後、`a()` へのモック呼び出しを次のように更新してください：`"a(): returns 'freeCodeCamp ' + 'is awesome!'"`。
 
 # --hints--
 
-`callStack` should have one element that is a string.
+`callStack` は文字列を1つ含む要素を持つべきです。
 
 ```js
 assert.lengthOf(callStack, 1);
 assert.isString(callStack[0]);
 ```
 
-The string in `callStack` should be the string `"a(): returns 'freeCodeCamp ' + 'is awesome!'"`.
+`callStack` の中の文字列は `"a(): returns 'freeCodeCamp ' + 'is awesome!'"` であるべきです。
 
 ```js
 assert.match(

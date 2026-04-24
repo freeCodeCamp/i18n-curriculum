@@ -1,6 +1,6 @@
 ---
 id: 698dea0c7932b3cc4b19c945
-title: Implementing Quicksort
+title: クイックソートの実装
 challengeType: 11
 videoId: 7k5rxhK3X_Y
 dashedName: implementing-quicksort
@@ -8,13 +8,13 @@ dashedName: implementing-quicksort
 
 # --description--
 
-In this video, you will learn how to implement the quicksort algorithm in Python.
+このビデオでは、Pythonでクイックソートアルゴリズムを実装する方法を学びます。
 
 # --questions--
 
 ## --text--
 
-What is the base case for this quicksort implementation in Python?
+このPythonでのクイックソート実装における基本ケースは何ですか？
 
 ## --answers--
 

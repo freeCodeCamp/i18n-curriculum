@@ -1,6 +1,6 @@
 ---
 id: 69ae7684b4a814be6a4f2be9
-title: MCP Inspector
+title: MCPインスペクター
 challengeType: 11
 videoId: OIr0TIWc0Bs
 dashedName: mcp-inspector
@@ -8,31 +8,30 @@ dashedName: mcp-inspector
 
 # --description--
 
-In this video, you will learn about the MCP Inspector.
+このビデオでは、MCPインスペクターについて学びます。
 
 # --questions--
 
 ## --text--
 
-What is the primary function of the MCP Inspector?
+MCPインスペクターの主な機能は何ですか？
 
 ## --answers--
 
-A component that stores datasets and embeddings for retrieval.
+データセットと埋め込みを保存して検索できるコンポーネント。
 
 ---
 
-A feature that automatically generates prompts for AI applications.
+AIアプリケーションのために自動的にプロンプトを生成する機能。
 
 ---
 
-A tool used to train new LLMs directly on the MCP server.
+MCPサーバー上で新しいLLMを直接トレーニングするためのツール。
 
 ---
 
-A tools used to inspect and debug MCP servers and clients.
+MCPサーバーとクライアントを検査およびデバッグするためのツール。
 
 ## --video-solution--
 
 4
-

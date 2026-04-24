@@ -1,6 +1,6 @@
 ---
 id: 698dcf297932b3cc4b19c929
-title: Recursive Functions
+title: 再帰関数
 challengeType: 11
 videoId: nRK4wRqKe1k
 dashedName: recursive-functions
@@ -8,29 +8,29 @@ dashedName: recursive-functions
 
 # --description--
 
-In this video, you will learn about recursion.
+このビデオでは、再帰について学びます。
 
 # --questions--
 
 ## --text--
 
-What is an important aspect that all recursive functions should have?
+すべての再帰関数が持つべき重要な要素は何ですか？
 
 ## --answers--
 
-They must run in a loop indefinitely.
+それらは無限にループして実行し続ける必要があります。
 
 ---
 
-They must not use any variables.
+それらは変数を一切使ってはいけません。
 
 ---
 
-A base case.
+基本ケースです。
 
 ---
 
-They must always print output.
+それらは常に出力を出す必要があります。
 
 ## --video-solution--
 

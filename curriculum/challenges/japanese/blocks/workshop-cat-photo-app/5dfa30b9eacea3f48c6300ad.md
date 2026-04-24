@@ -1,15 +1,15 @@
 ---
 id: 5dfa30b9eacea3f48c6300ad
-title: Step 17
+title: ステップ 17
 challengeType: 0
 dashedName: step-17
 ---
 
 # --description--
 
-In previous steps, you used an anchor element to turn text into a link. Other types of content can also be turned into a link by wrapping it in anchor tags.
+前のステップでは、アンカー要素を使ってテキストをリンクにしました。ほかの種類のコンテンツも、アンカータグで囲むことでリンクにできます。
 
-Here is an example of turning an image into a link:
+画像をリンクにする例を示します：
 
 ```html
 <a href="example-link">
@@ -17,11 +17,11 @@ Here is an example of turning an image into a link:
 </a>
 ```
 
-Turn the image into a link by surrounding it with necessary element tags. Use `https://freecatphotoapp.com` as the anchor's `href` attribute value.
+画像を必要な要素タグで囲んでリンクにしてください。アンカーの`https://freecatphotoapp.com`属性値には`href`を使います。
 
 # --hints--
 
-You should have an `img` element with a `src` value of `https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg`. You may have accidentally deleted it.
+`img`要素があり、その`src`の値が`https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg`であるはずです。誤って削除しているかもしれません。
 
 ```js
 assert.equal(
@@ -30,37 +30,37 @@ assert.equal(
 );
 ```
 
-Your anchor (`a`) element should have an opening tag. Opening tags have this syntax: `<elementName>`.
+アンカー（`a`）要素には開始タグが必要です。開始タグの構文は`<elementName>`です。
 
 ```js
 assert.isAtLeast(document.querySelectorAll('a').length, 3);
 ```
 
-You are missing a closing (`a`) tag after the image.
+画像の後に終了（`a`）タグがありません。
 
 ```js
 assert.lengthOf(document.querySelectorAll('a'), 3);
 ```
 
-Your anchor (`a`) element should have a closing tag. Closing tags have a `/` just after the `<` character.
+アンカー（`a`）要素には終了タグが必要です。終了タグは`/`が`<`の直後にあります。
 
 ```js
 assert.isAtLeast(code.match(/<\/a>/g)?.length, 3);
 ```
 
-You should only add one closing anchor (`a`) tag. Please remove any extras.
+終了アンカー（`a`）タグは1つだけ追加してください。余分なものは削除してください。
 
 ```js
 assert.lengthOf(code.match(/<\/a>/g), 3);
 ```
 
-Your anchor (`a`) element does not have an `href` attribute. Check that there is a space after the opening tag's name and/or there are spaces before all attribute names.
+アンカー（`a`）要素に`href`属性がありません。開始タグの名前の後にスペースがあるか、すべての属性名の前にスペースがあるか確認してください。
 
 ```js
 assert.isTrue(document.querySelectorAll('a')[2]?.hasAttribute('href'));
 ```
 
-Your anchor (`a`) element should link to `https://freecatphotoapp.com`. You have either omitted the URL or have a typo.
+アンカー（`a`）要素は`https://freecatphotoapp.com`にリンクする必要があります。URLを省略しているか、タイプミスがあります。
 
 ```js
 assert.equal(
@@ -69,7 +69,7 @@ assert.equal(
 );
 ```
 
-Your `img` element should be nested within the anchor (`a`) element. The entire `img` element should be inside the opening and closing tags of the anchor (`a`) element.
+`img`要素はアンカー（`a`）要素の中にネストされている必要があります。`img`要素全体がアンカー（`a`）要素の開始タグと終了タグの間にあるべきです。
 
 ```js
 assert.equal(document.querySelector('img')?.parentNode.nodeName, 'A');

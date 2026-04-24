@@ -1,15 +1,15 @@
 ---
 id: 63e94dae6dcedbad73f2f6ee
-title: Step 24
+title: ステップ 24
 challengeType: 0
 dashedName: step-24
 ---
 
 # --description--
 
-`arr` contains a series of objects that each contains a `name`, `position`, `number`, `isCaptain` and `nickname` property. In order to access each of those properties inside the callback function, you will need to use object destructuring to unpack them into variables.
+`arr` は、それぞれに `name`、`position`、`number`、`isCaptain`、`nickname` プロパティを含むオブジェクトの配列です。コールバック関数内でこれらのプロパティにアクセスするには、分割代入を使って変数に展開する必要があります。
 
-Here is an example:
+例を示します：
 
 ```js
 function myExampleFunction({ name, age, job, city }) {
@@ -17,11 +17,11 @@ function myExampleFunction({ name, age, job, city }) {
 }
 ```
 
-Inside the parameter list in the callback function for the `map` method, unpack all 5 object properties from objects in `arr` using object destructuring.
+`map` メソッドのコールバック関数のパラメータリスト内で、`arr` のオブジェクトから5つのプロパティすべてを分割代入で展開してください。
 
 # --hints--
 
-You should unpack all 5 object properties from objects in `arr` using object destructuring.
+`arr` のオブジェクトから5つのプロパティすべてを分割代入で展開してください。
 
 ```js
 

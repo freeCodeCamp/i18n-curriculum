@@ -1,6 +1,6 @@
 ---
 id: 698dcfd57932b3cc4b19c92a
-title: Space Complexity
+title: 空間計算量
 challengeType: 11
 videoId: BFMvhQdqYgc
 dashedName: space-complexity
@@ -8,29 +8,29 @@ dashedName: space-complexity
 
 # --description--
 
-In this video, you will learn about space complexity.
+このビデオでは、空間計算量について学びます。
 
 # --questions--
 
 ## --text--
 
-What is space complexity?
+空間計算量とは何ですか？
 
 ## --answers--
 
-The amount of memory an algorithm uses relative to the input size.
+アルゴリズムが入力サイズに対して使用するメモリの量。
 
 ---
 
-The amount of time an algorithm takes to run.
+アルゴリズムが実行にかかる時間の量。
 
 ---
 
-The number of CPU cores used by an algorithm.
+アルゴリズムが使用するCPUコアの数。
 
 ---
 
-The number of input elements an algorithm can process per second.
+アルゴリズムが1秒あたりに処理できる入力要素の数。
 
 ## --video-solution--
 

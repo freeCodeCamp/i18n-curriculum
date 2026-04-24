@@ -1,15 +1,15 @@
 ---
 id: 672bbeb6eefd7ca9c003ea00
-title: What Are Examples of Tree-structural Pseudo-classes?
+title: ツリー構造疑似クラスの例とは？
 challengeType: 19
 dashedName: what-are-examples-of-tree-structural-pseudo-classes
 ---
 
 # --interactive--
 
-Tree-structural pseudo-classes allow you to target and style elements based on their position within the document tree. The document tree refers to the hierarchical structure of elements in an HTML document.
+ツリー構造疑似クラスは、ドキュメントツリー内の位置に基づいて要素をターゲットにし、スタイルを適用できます。ドキュメントツリーとは、HTMLドキュメント内の要素の階層構造を指します。
 
-Here is a list of tree-structural pseudo-classes:
+以下はツリー構造疑似クラスの一覧です：
 
 - `:root`
 - `:empty`
@@ -23,9 +23,9 @@ Here is a list of tree-structural pseudo-classes:
 - `:last-of-type`
 - `:only-of-type`
 
-Let's take a closer look at each of the tree-structural pseudo-classes, accompanied by examples.
+それぞれのツリー構造疑似クラスを例とともに詳しく見ていきましょう。
 
-​​The `:root` pseudo-class is usually the root `html` element. It helps you target the highest level in the document so you can apply a common style to the entire document.
+​​`:root` 疑似クラスは通常、ルート`html`要素を指します。ドキュメントの最上位をターゲットにして、ドキュメント全体に共通のスタイルを適用するのに役立ちます。     
 
 :::interactive_editor
 
@@ -44,7 +44,7 @@ Let's take a closer look at each of the tree-structural pseudo-classes, accompan
 
 :::
 
-The `:root` pseudo-class is also commonly used in setting CSS variables:
+`:root` 疑似クラスもCSS変数の設定でよく使われます：
 
 ```css
 :root {
@@ -54,9 +54,9 @@ The `:root` pseudo-class is also commonly used in setting CSS variables:
 }
 ```
 
-With CSS variables, you get to store values and reuse them in your stylesheet. You will learn more about these later on.
+CSS変数を使うと値を保存してスタイルシート内で再利用できます。これについては後ほど詳しく学びます。
 
-Empty elements, that is, elements with no children other than white space, are also included in the document tree. That's why there's an `:empty` pseudo-class to target empty elements. For example, this HTML code has two empty list items. With the `:empty` pseudo-class, you can style the empty list items differently:
+空の要素、つまり子要素が空白以外にない要素もドキュメントツリーに含まれます。だから空の要素をターゲットにする`:empty` 疑似クラスがあります。例えば、このHTMLコードには空のリスト項目が2つあります。`:empty` 疑似クラスを使うと空のリスト項目に異なるスタイルを適用できます：
 
 :::interactive_editor
 
@@ -79,7 +79,7 @@ Empty elements, that is, elements with no children other than white space, are a
 
 :::
 
-The most practical thing to do with the empty list items is probably not displaying them at all:
+空のリスト項目に対して最も実用的なのは、おそらく表示しないことです：
 
 :::interactive_editor
 
@@ -102,9 +102,9 @@ The most practical thing to do with the empty list items is probably not display
 
 :::
 
-`:nth-child(n)` allows you to select elements based on their position within a parent, while `:nth-last-child(n)` enables you to select elements by counting from the end. The `n` can be a specific number or a keyword like `odd` or `even`. This is incredibly useful in styling table cells based on position: even and odd.
+`:nth-child(n)` は親内での位置に基づいて要素を選択でき、`:nth-last-child(n)` は末尾から数えて要素を選択できます。`n` は特定の数字や`odd`、`even` のようなキーワードを指定できます。これは位置に基づいてテーブルセルをスタイル付けする際に非常に便利です：偶数番目と奇数番目。
 
-Here's an HTML example of a fruit price list table. The CSS is using the `:nth-child` pseudo-class to target the table cells based on odd and even positions:
+以下は果物の価格リストテーブルのHTML例です。CSSは`:nth-child` 疑似クラスを使って奇数番目と偶数番目のテーブルセルをターゲットにしています：
 
 :::interactive_editor
 
@@ -148,13 +148,13 @@ tr:nth-child(odd) {
 
 :::
 
-The `:first-child`, `:last-child`, and `:only-child` pseudo-classes all act on items within a parent container or the entire document.
+`:first-child`、`:last-child`、`:only-child` 疑似クラスはすべて親コンテナ内またはドキュメント全体のアイテムに作用します。
 
-- `:first-child` selects the first element in a parent element or the document.
-- `:last-child` selects the last element in a parent element or the document.
-- `:only-child` selects the only element in a parent element or the document.
+- `:first-child` は親要素またはドキュメント内の最初の要素を選択します。
+- `:last-child` は親要素またはドキュメント内の最後の要素を選択します。
+- `:only-child` は親要素またはドキュメント内で唯一の要素を選択します。
 
-Using the `:first-child` and `:last-child` pseudo-classes will select both `Item 1` and `Item 3` in this example:
+この例では`:first-child` と `:last-child` 疑似クラスを使うと、`Item 1` と `Item 3` の両方が選択されます：
 
 :::interactive_editor
 
@@ -179,9 +179,9 @@ li:last-child {
 
 :::
 
-If you have more unordered lists on the page, you have to be more specific with the selection:
+ページに複数の番号なしリストがある場合は、選択をより具体的にする必要があります：
 
-To show you how the `:only-child` pseudo-class works, here's an HTML example with two separate `div` elements. Using the `:only-child` pseudo-class ensures only the `div` element with a single child is selected:
+`:only-child` 疑似クラスの動作を示すために、2つの別々の`div`要素を含むHTML例を示します。`:only-child` 疑似クラスを使うと、子要素が1つだけの`div` 要素だけが選択されます：
 
 :::interactive_editor
 
@@ -207,9 +207,9 @@ To show you how the `:only-child` pseudo-class works, here's an HTML example wit
 
 :::
 
-The `:first-of-type` and `:last-of-type` pseudo-classes select the first and last occurrence of a specific element type within its parent. They are useful for applying unique styles to the first or last instance of that element type among its siblings.
+`:first-of-type` と `:last-of-type` 疑似クラスは、親内で特定の要素タイプの最初と最後の出現を選択します。これは兄弟要素の中でその要素タイプの最初または最後のインスタンスにユニークなスタイルを適用するのに便利です。
 
-In the example below, `:first-of-type` and `:last-of-type` applies to the first element and last element within the `section` element:
+以下の例では、`:first-of-type` と `:last-of-type` は`section` 要素内の最初の要素と最後の要素に適用されます：
 
 :::interactive_editor
 
@@ -240,7 +240,7 @@ section p:last-of-type {
 
 :::
 
-`:nth-of-type(n)` allows you to select a specific element within its parent based on its position among siblings of the same type. For instance, in the HTML below, `:nth-of-type(2)` targets the second element in the container:
+`:nth-of-type(n)` は、同じタイプの兄弟の中での位置に基づいて親内の特定の要素を選択できます。例えば、以下のHTMLでは`:nth-of-type(2)` がコンテナ内の2番目の要素をターゲットにしています：
 
 :::interactive_editor
 
@@ -263,9 +263,9 @@ p:nth-of-type(2) {
 
 :::
 
-`:only-of-type` selects an element if it's the only one of its type within its parent. This can be useful for emphasizing single items or ensuring that they are styled differently when they’re not part of a group.
+`:only-of-type` は、親内でそのタイプの要素が1つだけの場合に選択します。これは単一のアイテムを強調したり、グループの一部でない場合に異なるスタイルを適用したりするのに役立ちます。
 
-In the example below, there are two `div` elements with one having a single element. The CSS only applies to the first container:
+以下の例では、2つの`div` 要素があり、そのうち1つは単一の要素を持っています。CSSは最初のコンテナにのみ適用されます：
 
 :::interactive_editor
 
@@ -294,35 +294,35 @@ p:only-of-type {
 
 ## --text--
 
-What is the difference between the `:first-of-type` and `:last-of-type` pseudo-classes?
+`:first-of-type` と `:last-of-type` 疑似クラスの違いは何ですか？
 
 ## --answers--
 
-`:first-of-type` targets the first element of a specific type within its parent, while `:last-of-type` targets the last element of a different type.
+`:first-of-type` は親内の特定のタイプの最初の要素をターゲットにし、`:last-of-type` は異なるタイプの最後の要素をターゲットにします。
 
 ### --feedback--
 
-Consider how these pseudo-classes help you style the first and last instances of a particular tag, like `p` or `h1`.
+これらの疑似クラスが、`p` や `h1` のような特定のタグの最初と最後のインスタンスのスタイル付けにどのように役立つか考えてみてください。
 
 ---
 
-`:first-of-type` and `:last-of-type` both target the first occurrence of an element but in different sections of the document.
+`:first-of-type` と `:last-of-type` はどちらも要素の最初の出現をターゲットにしますが、ドキュメントの異なるセクションで作用します。
 
 ### --feedback--
 
-Consider how these pseudo-classes help you style the first and last instances of a particular tag, like `p` or `h1`.
+これらの疑似クラスが、`p` や `h1` のような特定のタグの最初と最後のインスタンスのスタイル付けにどのように役立つか考えてみてください。
 
 ---
 
-`:first-of-type` selects the first occurrence of a specific element type within its parent, while `:last-of-type` selects the last occurrence of that same element type within its parent.
+`:first-of-type` は親内の特定のタイプの最初の出現を選択し、`:last-of-type` は同じタイプの最後の出現を選択します。
 
 ---
 
-`:last-of-type` applies styles to the first and last elements within the document, while `:last-of-type` applies styles to all elements of a specific type.
+`:last-of-type` はドキュメント内の最初と最後の要素にスタイルを適用し、`:last-of-type` は特定のタイプのすべての要素にスタイルを適用します。
 
 ### --feedback--
 
-Consider how these pseudo-classes help you style the first and last instances of a particular tag, like `p` or `h1`.
+これらの疑似クラスが、`p` や `h1` のような特定のタグの最初と最後のインスタンスのスタイル付けにどのように役立つか考えてみてください。
 
 ## --video-solution--
 
@@ -330,35 +330,35 @@ Consider how these pseudo-classes help you style the first and last instances of
 
 ## --text--
 
-What is the difference between the `:first-child` and `:last-child` pseudo-classes?
+`:first-child` と `:last-child` 疑似クラスの違いは何ですか？
 
 ## --answers--
 
-`:first-child` targets the first element within its parent, while `:last-child` targets the last element within a different parent.
+`:first-child` は親内の最初の要素をターゲットにし、`:last-child` は異なる親内の最後の要素をターゲットにします。
 
 ### --feedback--
 
-Think about how the two pseudo-classes help you style the first and last elements within the same parent container.
+これら2つの疑似クラスが同じ親コンテナ内の最初と最後の要素のスタイル付けにどのように役立つか考えてみてください。
 
 ---
 
-`:first-child` targets the first element within its parent, while `:last-child` targets the last element within the same parent.
+`:first-child` は親内の最初の要素をターゲットにし、`:last-child` は同じ親内の最後の要素をターゲットにします。
 
 ---
 
-`:first-child` targets the first element of a specific type within its parent, while `:last-child` targets the last element of a different type within its parent.
+`:first-child` は親内の特定のタイプの最初の要素をターゲットにし、`:last-child` は親内の異なるタイプの最後の要素をターゲットにします。
 
 ### --feedback--
 
-Think about how the two pseudo-classes help you style the first and last elements within the same parent container.
+これら2つの疑似クラスが同じ親コンテナ内の最初と最後の要素のスタイル付けにどのように役立つか考えてみてください。
 
 ---
 
-`:first-child` targets the first and last elements within a parent, while `:last-child` targets all other elements.
+`:first-child` は親内の最初と最後の要素をターゲットにし、`:last-child` はその他すべての要素をターゲットにします。
 
 ### --feedback--
 
-Think about how the two pseudo-classes help you style the first and last elements within the same parent container.
+これら2つの疑似クラスが同じ親コンテナ内の最初と最後の要素のスタイル付けにどのように役立つか考えてみてください。
 
 ## --video-solution--
 
@@ -366,7 +366,7 @@ Think about how the two pseudo-classes help you style the first and last element
 
 ## --text--
 
-Which pseudo-class allows you to target elements that have no children, including those that contain only whitespace?
+子要素がなく、空白のみを含む要素も含めてターゲットにできる疑似クラスはどれですか？
 
 ## --answers--
 
@@ -378,7 +378,7 @@ Which pseudo-class allows you to target elements that have no children, includin
 
 ### --feedback--
 
-Think about how you can style elements that do not have content.
+内容がない要素にどのようにスタイルを適用できるか考えてみてください。
 
 ---
 
@@ -386,7 +386,7 @@ Think about how you can style elements that do not have content.
 
 ### --feedback--
 
-Think about how you can style elements that do not have content.
+内容がない要素にどのようにスタイルを適用できるか考えてみてください。
 
 ---
 
@@ -394,7 +394,7 @@ Think about how you can style elements that do not have content.
 
 ### --feedback--
 
-Think about how you can style elements that do not have content.
+内容がない要素にどのようにスタイルを適用できるか考えてみてください。
 
 ## --video-solution--
 

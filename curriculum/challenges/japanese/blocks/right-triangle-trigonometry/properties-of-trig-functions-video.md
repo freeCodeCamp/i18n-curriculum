@@ -1,6 +1,6 @@
 ---
 id: 699e5ba78f18cf77dfce5c10
-title: Properties of Trigonometric Functions
+title: 三角関数の性質
 challengeType: 11
 videoId: x0_G0dA02uU
 dashedName: properties-of-trig-functions
@@ -8,32 +8,30 @@ dashedName: properties-of-trig-functions
 
 # --description--
 
-In this video, you will learn about the properties of trigonometric functions.
+このビデオでは、三角関数の性質について学びます。
 
 # --questions--
 
 ## --text--
 
-What is the Pythagorean property of trigonometric functions?
+三角関数のピタゴラスの性質とは何ですか？
 
 ## --answers--
 
-For any angle, the square of the sine of the angle minus the square of the cosine of the angle equals 1.
+任意の角度について、その角度の正弦の二乗からその角度の余弦の二乗を引いた値は1に等しい。
 
 ---
 
-For any angle, the sine of the angle plus the cosine of the angle equals 1.
+任意の角度に対して、その角度の正弦と余弦の和は1に等しい。
 
 ---
 
-For any angle, the square of the sine of the angle plus the square of the cosine of the angle equals 1.
+任意の角度について、その角度の正弦の二乗と余弦の二乗の和は1に等しい。
 
 ---
 
-For any angle, the square of the tangent of the angle plus the square of the cosine of the angle equals 1.
+任意の角度について、その角度の正接の二乗と余弦の二乗の和は1に等しい。
 
 ## --video-solution--
 
 3
-
-

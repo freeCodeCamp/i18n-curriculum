@@ -1,6 +1,6 @@
 ---
 id: 699e5b9e8f18cf77dfce5c0e
-title: Sine and Cosine of Special Angles
+title: 特別な角度の正弦と余弦
 challengeType: 11
 videoId: X0Bh-NiQ3KQ
 dashedName: sine-cosine-special-angles
@@ -8,13 +8,13 @@ dashedName: sine-cosine-special-angles
 
 # --description--
 
-In this video, you will learn how to find the sine and cosine of special angles, such as 30°, 45°, and 60°.
+このビデオでは、30°、45°、60°などの特別な角度の正弦と余弦の求め方を学びます。
 
 # --questions--
 
 ## --text--
 
-What is the cosine of 45° for a right triangle with the hypotenuse of length 5?
+斜辺の長さが5の直角三角形における45°の余弦はいくつですか？
 
 ## --answers--
 
@@ -35,5 +35,3 @@ $\frac{\sqrt{2}}{2}$
 ## --video-solution--
 
 4
-
-

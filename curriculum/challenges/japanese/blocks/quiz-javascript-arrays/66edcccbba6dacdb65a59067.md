@@ -1,13 +1,13 @@
 ---
 id: 66edcccbba6dacdb65a59067
-title: JavaScript Arrays Quiz
+title: JavaScript 配列クイズ
 challengeType: 8
 dashedName: quiz-javascript-arrays
 ---
 
 # --description--
 
-To pass the quiz, you must correctly answer at least 18 of the 20 questions below.
+このクイズに合格するには、以下の20問のうち少なくとも18問に正しく答える必要があります。
 
 # --quizzes--
 
@@ -17,7 +17,7 @@ To pass the quiz, you must correctly answer at least 18 of the 20 questions belo
 
 #### --text--
 
-What will be the output for the following code?
+次のコードの出力は何になりますか？
 
 ```js
 const numbers = [1, 2, 3];
@@ -44,7 +44,7 @@ console.log(numbers[10]);
 
 #### --text--
 
-Which of the following is the correct way to access the string `"Jessica"` from the `developers` array?
+次のうち、`"Jessica"` 配列から文字列 `developers` にアクセスする正しい方法はどれですか？
 
 #### --distractors--
 
@@ -78,7 +78,7 @@ developers[0]
 
 #### --text--
 
-What value will be assigned to the `index` variable?
+`index` 変数にはどの値が代入されますか？
 
 ```js
 const numbers = [10, 20, 30, 40];
@@ -106,51 +106,51 @@ console.log(index);
 
 #### --text--
 
-What does the rest syntax do?
+rest構文は何をしますか？
 
 #### --distractors--
 
-It is used to divide a string into an array of substrings.
+文字列を部分文字列の配列に分割するために使われます。
 
 ---
 
-It is used to add or remove elements from any position in an array.
+配列の任意の位置に要素を追加または削除するために使われます。
 
 ---
 
-It is used to add elements to the end of the array and will return the new length.
+配列の末尾に要素を追加し、新しい長さを返します。
 
 #### --answer--
 
-It captures the remaining elements of an array into a new array.
+配列の残りの要素を新しい配列にまとめます。
 
 ### --question--
 
 #### --text--
 
-What is array destructuring?
+配列の分割代入とは何ですか？
 
 #### --distractors--
 
-It is used to concatenate all of the elements of an array into a single string.
+配列のすべての要素を連結して1つの文字列にするために使われます。
 
 ---
 
-It is used to check if an array contains a specific value.
+配列に特定の値が含まれているかを確認するために使われます。
 
 ---
 
-It is used to remove the last element from an array and will return that removed element.
+配列の最後の要素を削除し、その削除した要素を返します。
 
 #### --answer--
 
-It is used to extract values from arrays and assign them to variables in a more concise and readable way.
+配列から値を取り出して、より簡潔で読みやすい方法で変数に代入するために使われます。
 
 ### --question--
 
 #### --text--
 
-What value will be assigned to the `arr2` variable?
+`arr2` 変数にはどの値が代入されますか？
 
 ```js
 const arr1 = [1, 2, 3];
@@ -178,7 +178,7 @@ console.log(arr2);
 
 #### --text--
 
-What will this code log to the console?
+このコードはコンソールに何を表示しますか？
 
 ```js
 const colors = ["red", "blue", "green", "yellow"];
@@ -206,7 +206,7 @@ console.log(colors);
 
 #### --text--
 
-What value will be assigned to the `slicedArr` variable?
+`slicedArr` 変数にはどの値が代入されますか？
 
 ```js
 const arr = ["apple", "banana", "cherry", "date"];
@@ -234,7 +234,7 @@ console.log(slicedArr);
 
 #### --text--
 
-Which method returns the first index of a given element in an array?
+配列の中で指定した要素の最初のインデックスを返すメソッドはどれですか？
 
 #### --distractors--
 
@@ -256,7 +256,7 @@ Which method returns the first index of a given element in an array?
 
 #### --text--
 
-Which method is used to remove the first element from an array and returns that removed element?
+配列の最初の要素を削除し、その削除した要素を返すメソッドはどれですか？
 
 #### --distractors--
 
@@ -278,29 +278,29 @@ Which method is used to remove the first element from an array and returns that 
 
 #### --text--
 
-What does the `concat()` method do?
+`concat()` メソッドは何をしますか？
 
 #### --distractors--
 
-Joins array elements into a string.
+配列の要素を文字列に結合します。
 
 ---
 
-Adds an element to the beginning of an array.
+配列の先頭に要素を追加します。
 
 ---
 
-Removes an element from the array.
+配列から要素を削除します。
 
 #### --answer--
 
-Merges two arrays into a new array.
+2つの配列を新しい配列にマージします。
 
 ### --question--
 
 #### --text--
 
-What will be the output of this code?
+このコードの出力は何になりますか？
 
 ```js
 const fruits = ["apple", "banana", "cherry", "apple", "orange"];
@@ -330,29 +330,29 @@ console.log(fruits);
 
 #### --text--
 
-What does the `includes()` method do?
+`includes()` メソッドは何をしますか？
 
 #### --distractors--
 
-It is used to divide a string into an array of substrings.
+文字列を部分文字列の配列に分割するために使われます。
 
 ---
 
-It is used to concatenate all of the elements of an array into a single string.
+配列のすべての要素を連結して1つの文字列にするために使われます。
 
 ---
 
-It is used to add or remove elements from any position in an array.
+配列の任意の位置に要素を追加または削除するために使われます。
 
 #### --answer--
 
-It is used to check if an array contains a specific value.
+配列に特定の値が含まれているかを確認するために使われます。
 
 ### --question--
 
 #### --text--
 
-Which of the following methods is used to reverse an array in place?
+配列をその場で反転させるために使われるメソッドはどれですか？
 
 #### --distractors--
 
@@ -374,51 +374,51 @@ Which of the following methods is used to reverse an array in place?
 
 #### --text--
 
-What is a two dimensional array?
+二次元配列とは何ですか？
 
 #### --distractors--
 
-An array that only contains object literals.
+オブジェクトリテラルだけを含む配列。
 
 ---
 
-An array of fixed length.
+固定長の配列。
 
 ---
 
-An array of floating point numbers.
+浮動小数点数の配列。
 
 #### --answer--
 
-An array of arrays.
+配列の配列。
 
 ### --question--
 
 #### --text--
 
-Which of the following is true about the `indexOf()` method in arrays?
+配列の `indexOf()` メソッドについて正しいのはどれですか？
 
 #### --distractors--
 
-It always returns the last occurrence of the element.
+常に要素の最後の出現位置を返します。
 
 ---
 
-It throws an error if the element is not found.
+要素が見つからない場合はエラーをスローします。
 
 ---
 
-It requires the array to be sorted.
+配列がソートされている必要があります。
 
 #### --answer--
 
-It returns `-1` if the element is not found.
+要素が見つからない場合は `-1` を返します。
 
 ### --question--
 
 #### --text--
 
-Which of the following is NOT an array method?
+次のうち配列のメソッドではないものはどれですか？
 
 #### --distractors--
 
@@ -440,7 +440,7 @@ Which of the following is NOT an array method?
 
 #### --text--
 
-What will be the output for the following code?
+次のコードの出力は何になりますか？
 
 ```js
 const arr = ["o", "l", "l", "e", "h"];
@@ -467,8 +467,7 @@ console.log(arr.join(""));
 
 #### --text--
 
-What will be the result of using the `shift()` method on an empty array?
-
+空の配列に `shift()` メソッドを使うとどうなりますか？
 
 #### --distractors--
 
@@ -490,7 +489,7 @@ What will be the result of using the `shift()` method on an empty array?
 
 #### --text--
 
-Which method will return a new array without changing the original array?
+元の配列を変更せずに新しい配列を返すメソッドはどれですか？
 
 #### --distractors--
 

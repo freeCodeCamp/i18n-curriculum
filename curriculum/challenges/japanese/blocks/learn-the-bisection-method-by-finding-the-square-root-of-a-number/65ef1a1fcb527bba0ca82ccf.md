@@ -1,17 +1,17 @@
 ---
 id: 65ef1a1fcb527bba0ca82ccf
-title: Step 6
+title: ステップ 6
 challengeType: 20
 dashedName: step-6
 ---
 
 # --description--
 
-If the `square_target` is equal to  `1`, declare a variable `root` and assign it the value `1` . Also, print the message `'The square root of {square_target} is 1'`. Remember to format the message using an f-string.
+もし `square_target` が `1` と等しい場合、変数 `root` を宣言し、その値に `1` を代入してください。また、メッセージ `'The square root of {square_target} is 1'` を出力してください。メッセージは f-string を使ってフォーマットすることを忘れないでください。
 
 # --hints--
 
-You should remove the `pass` keyword.
+`pass` キーワードは削除してください。
 
 ```js
 ({
@@ -22,7 +22,7 @@ You should remove the `pass` keyword.
 })
 ```
 
-You should assign the value `1` to the `root` variable and print the message `'The square root of {square_target} is 1'` inside the `if` body.
+`1` の値を `root` 変数に代入し、`'The square root of {square_target} is 1'` の中でメッセージ `if` を出力してください。
 
 ```js
 

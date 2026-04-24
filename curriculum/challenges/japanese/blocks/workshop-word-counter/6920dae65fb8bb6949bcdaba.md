@@ -1,17 +1,17 @@
 ---
 id: 6920dae65fb8bb6949bcdaba
-title: Step 4
+title: ステップ 4
 challengeType: 1
 dashedName: step-4
 ---
 
 # --description--
 
-To see how the loop inside `printCharacters` behaves, call it with the argument `"hello"`.
+`printCharacters` 内のループがどのように動作するかを見るには、引数 `"hello"` を使って呼び出してください。
 
 # --hints--
 
-You should call the function `printCharacters` with `"hello"` as its argument.
+`printCharacters` 関数を `"hello"` を引数にして呼び出す必要があります。
 
 ```js
 const codeWithoutJSComments = __helpers.removeJSComments(code);

@@ -1,21 +1,21 @@
 ---
 id: 695cc8f280fef0cc3bed02cb
-title: What Is the Process Module and How Does It Work?
+title: プロセスモジュールとは何か、そしてどのように動作するのか？
 challengeType: 19
 dashedName: what-is-the-process-module-and-how-does-it-work
 ---
 
 # --description--
 
-`process` is one of the most important Node.js core modules. It gives you access to information about the current Node.js process, and lets you control it while your app is running.
+`process` はNode.jsの最も重要なコアモジュールの一つです。現在のNode.jsプロセスに関する情報にアクセスでき、アプリが実行中にそれを制御できます。
 
-When you execute a command like `node script.js` in the terminal, Node.js starts a process, which is a running instance of the Node program that executes the `script.js` file. This process has its own memory, environment, and execution context. 
+ターミナルで`node script.js`のようなコマンドを実行すると、Node.jsはプロセスを開始します。これは`script.js`ファイルを実行するNodeプログラムの実行中のインスタンスです。このプロセスは独自のメモリ、環境、実行コンテキストを持っています。
 
-The current process is exposed globally through the `process` module, so you don't even need to import it. As long as you have Node.js installed, then you can call it anywhere.
+現在のプロセスは`process`モジュールを通じてグローバルに公開されているため、インポートする必要すらありません。Node.jsがインストールされていれば、どこからでも呼び出せます。
 
-The `process` module exposes properties and methods for you to get certain information about the current execution context.
+`process`モジュールは、現在の実行コンテキストに関する特定の情報を取得するためのプロパティやメソッドを公開しています。
 
-`process.env` gets you information about the current environment Node is running on. This always returns a giant object with many parameters, so here's how you can access some of the most important information directly:
+`process.env`はNodeが実行されている現在の環境に関する情報を取得します。これは常に多くのパラメータを含む巨大なオブジェクトを返すので、ここでは最も重要な情報に直接アクセスする方法を示します。
 
 ```js
 // Gets all environment variables available to the current Node.js process
@@ -37,7 +37,7 @@ console.log(process.env.PWD); // /Users/johndoe/projects/myapp
 console.log(process.env.USER); // johndoe
 ```
 
-`process.argv` lets you read command-line arguments:
+`process.argv`はコマンドライン引数を読み取れます：
 
 ```js
 console.log(process.argv);
@@ -52,15 +52,15 @@ Hello world
 */
 ```
 
-The `cwd()` method shows the current working directory:
+`cwd()`メソッドは現在の作業ディレクトリを表示します：
 
 ```js
 console.log(process.cwd());
 ```
 
-Process events are a core feature of Node.js that let your app respond to key moments in its lifecycle, like when it's about to exit, encounters an error, or receives a system signal.
+プロセスイベントはNode.jsのコア機能で、アプリが終了しようとしている時、エラーが発生した時、システムシグナルを受け取った時など、ライフサイクルの重要な瞬間に対応できます。
 
-The `exit` event, for example, runs right before the Node.js process finishes:
+例えば`exit`イベントはNode.jsプロセスが終了する直前に実行されます：
 
 ```js
 process.on("exit", (code) => {
@@ -70,7 +70,7 @@ process.on("exit", (code) => {
 // Process exiting with code: 0
 ```
 
-The `uncaughtException` event is triggered when an error is not caught in your code, which can help you prevent crashes:
+`uncaughtException`イベントはコード内でキャッチされなかったエラーが発生した時にトリガーされ、クラッシュを防ぐのに役立ちます：
 
 ```js
 process.on("uncaughtException", (err) => {
@@ -78,7 +78,7 @@ process.on("uncaughtException", (err) => {
 });
 ```
 
-Lastly, the `warning` event is triggered when Node.js emits a process warning:
+最後に`warning`イベントはNode.jsがプロセス警告を発した時にトリガーされます：
 
 ```js
 process.on("warning", (warning) => {
@@ -87,7 +87,7 @@ process.on("warning", (warning) => {
 });
 ```
 
-You can then use the `emitWarning()` method to trigger a custom warning:
+その後`emitWarning()`メソッドを使ってカスタム警告を発生させることができます：
 
 ```js
 // Example warning with the emitWarning() method
@@ -103,35 +103,35 @@ process.emitWarning('This is a custom warning message', 'CustomWarning');
 
 ## --text--
 
-What does the `process.emitWarning()` method do?
+`process.emitWarning()`メソッドは何をしますか？
 
 ## --answers--
 
-It stops the process when a custom warning occurs.
+カスタム警告が発生した時にプロセスを停止します。
 
 ### --feedback--
 
-Think about how Node.js handles custom warnings through events.
+Node.jsがカスタム警告をイベントでどのように扱うかを考えてみてください。
 
 ---
 
-It triggers a custom warning event that can be handled by the warning listener.
+カスタム警告イベントをトリガーし、警告リスナーで処理できます。
 
 ---
 
-It logs an error and exits the process immediately.
+エラーをログに記録し、すぐにプロセスを終了します。
 
 ### --feedback--
 
-Think about how Node.js handles custom warnings through events.
+Node.jsがカスタム警告をイベントでどのように扱うかを考えてみてください。
 
 ---
 
-It restarts the Node.js process after showing a warning.
+警告を表示した後にNode.jsプロセスを再起動します。
 
 ### --feedback--
 
-Think about how Node.js handles custom warnings through events.
+Node.jsがカスタム警告をイベントでどのように扱うかを考えてみてください。
 
 ## --video-solution--
 
@@ -139,35 +139,35 @@ Think about how Node.js handles custom warnings through events.
 
 ## --text--
 
-How do you use the process module?
+processモジュールはどのように使いますか？
 
 ## --answers--
 
-By calling it directly since it's a global object.
+グローバルオブジェクトなので直接呼び出します。
 
 ---
 
-By enabling it in the Node.js configuration file.
+Node.jsの設定ファイルで有効にします。
 
 ### --feedback--
 
-Think about why you can access process anywhere without setup.
+なぜ設定なしでどこからでもprocessにアクセスできるか考えてみてください。
 
 ---
 
-By installing it manually using npm before calling it.
+npmで手動インストールしてから呼び出します。
 
 ### --feedback--
 
-Think about why you can access process anywhere without setup.
+なぜ設定なしでどこからでもprocessにアクセスできるか考えてみてください。
 
 ---
 
-By importing it using require('process') before each use.
+使う前にrequire('process')でインポートします。
 
 ### --feedback--
 
-Think about why you can access process anywhere without setup.
+なぜ設定なしでどこからでもprocessにアクセスできるか考えてみてください。
 
 ## --video-solution--
 
@@ -175,35 +175,35 @@ Think about why you can access process anywhere without setup.
 
 ## --text--
 
-What are process events used for?
+processイベントは何のために使いますか？
 
 ## --answers--
 
-To define environment variables for the application.
+アプリケーションの環境変数を定義するため。
 
 ### --feedback--
 
-Think about how Node.js reacts to lifecycle changes during execution.
+Node.jsが実行中のライフサイクル変化にどう反応するか考えてみてください。
 
 ---
 
-To create new processes for parallel execution.
+並列実行のために新しいプロセスを作成するため。
 
 ### --feedback--
 
-Think about how Node.js reacts to lifecycle changes during execution.
+Node.jsが実行中のライフサイクル変化にどう反応するか考えてみてください。
 
 ---
 
-To listen for and respond to important lifecycle moments like exit, errors, or system signals.
+終了、エラー、システムシグナルなど重要なライフサイクルの瞬間を監視し対応するため。
 
 ---
 
-To manage file paths and extensions in the system.
+システムのファイルパスや拡張子を管理するため。
 
 ### --feedback--
 
-Think about how Node.js reacts to lifecycle changes during execution.
+Node.jsが実行中のライフサイクル変化にどう反応するか考えてみてください。
 
 ## --video-solution--
 

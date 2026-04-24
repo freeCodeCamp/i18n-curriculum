@@ -1,6 +1,6 @@
 ---
 id: 698ddfc37932b3cc4b19c937
-title: Recursively Merging Sublists
+title: 再帰的にサブリストをマージする
 challengeType: 11
 videoId: aLZglY5hO-A
 dashedName: recursively-merging-sublists
@@ -8,29 +8,29 @@ dashedName: recursively-merging-sublists
 
 # --description--
 
-In this video, you will learn more about the merge sort algorithm and see how to recursively merge sublists.
+このビデオでは、マージソートアルゴリズムについてさらに学び、サブリストを再帰的にマージする方法を見ていきます。
 
 # --questions--
 
 ## --text--
 
-What is the purpose of the merge function in the merge sort algorithm?
+マージソートアルゴリズムにおけるマージ関数の目的は何ですか？
 
 ## --answers--
 
-It combines two sorted sublists into a single sorted list.
+2つのソート済みサブリストを1つのソート済みリストに結合します。
 
 ---
 
-It splits the list into smaller sublists.
+リストをより小さなサブリストに分割します。
 
 ---
 
-It selects the largest element from the list.
+リストから最大の要素を選びます。
 
 ---
 
-It reverses the order of the list.
+リストの順序を逆にします。
 
 ## --video-solution--
 

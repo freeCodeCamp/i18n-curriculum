@@ -1,6 +1,6 @@
 ---
 id: 698dea447932b3cc4b19c94c
-title: Timing Our Search Scripts
+title: 検索スクリプトの実行時間の計測
 challengeType: 11
 videoId: F_YLFplzb94
 dashedName: timing-our-search-scripts
@@ -8,29 +8,29 @@ dashedName: timing-our-search-scripts
 
 # --description--
 
-In this video, you will see how the binary and linear search algorithms work with a list of names and how the results compare.
+このビデオでは、名前のリストに対してバイナリ検索と線形検索のアルゴリズムがどのように動作するか、そしてその結果がどのように比較されるかを確認します。
 
 # --questions--
 
 ## --text--
 
-What happened when the binary and linear search algorithm times were compared on a list of names?
+名前のリストに対してバイナリ検索と線形検索の実行時間を比較したとき、何が起こりましたか？
 
 ## --answers--
 
-Linear search took half as long to complete as binary search.
+線形検索はバイナリ検索の半分の時間で完了しました。
 
 ---
 
-Binary search took half as long to complete as linear search.
+バイナリ検索は線形検索の半分の時間で完了しました。
 
 ---
 
-Both algorithms took the same amount of time to complete.
+両方のアルゴリズムは同じ時間で完了しました。
 
 ---
 
-Both algorithms timed out and no results were displayed.
+両方のアルゴリズムはタイムアウトし、結果は表示されませんでした。
 
 ## --video-solution--
 

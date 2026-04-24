@@ -1,6 +1,6 @@
 ---
 id: 699e71f98f18cf77dfce5c17
-title: Solving Trig Equations that Require a Calculator
+title: 計算機が必要な三角関数の方程式の解き方
 challengeType: 11
 videoId: 8IwkABil9qQ
 dashedName: solving-trig-equations-that-require-a-calculator
@@ -8,32 +8,30 @@ dashedName: solving-trig-equations-that-require-a-calculator
 
 # --description--
 
-In this video, you will learn how to solve trig equations that require a calculator.
+この動画では、計算機が必要な三角関数の方程式の解き方を学びます。
 
 # --questions--
 
 ## --text--
 
-What is the main difference between solving basic trig equations with and without a calculator?
+計算機を使う場合と使わない場合で、基本的な三角関数の方程式を解く際の主な違いは何ですか？
 
 ## --answers--
 
-You can only solve sine and cosine equations with a calculator, not tangent equations.
+計算機では正接の方程式は解けず、正弦と余弦の方程式だけ解ける。
 
 ---
 
-Using a calculator gives only approximate solutions, while without a calculator you always get exact answers.
+計算機を使うと近似解しか得られませんが、使わない場合は常に正確な答えが得られます。
 
 ---
 
-Solving without a calculator requires multiplying all angles by 2.
+計算機を使わずに解く場合は、すべての角度を2倍にする必要があります。
 
 ---
 
-Using a calculator does not involve using the unit circle to find solutions.
+計算機を使う場合は、単位円を使って解を見つけることはありません。
 
 ## --video-solution--
 
 4
-
-

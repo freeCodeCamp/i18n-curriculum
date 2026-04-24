@@ -1,6 +1,6 @@
 ---
 id: 698dea057932b3cc4b19c944
-title: Quicksort
+title: クイックソート
 challengeType: 11
 videoId: IAeOxoWnKU0
 dashedName: quicksort
@@ -8,13 +8,13 @@ dashedName: quicksort
 
 # --description--
 
-In this video, you will learn how the quicksort algorithm works.
+このビデオでは、クイックソートアルゴリズムの仕組みを学びます。
 
 # --questions--
 
 ## --text--
 
-Which technique is used in the quicksort algorithm?
+クイックソートアルゴリズムで使われている手法はどれですか？
 
 ## --answers--
 

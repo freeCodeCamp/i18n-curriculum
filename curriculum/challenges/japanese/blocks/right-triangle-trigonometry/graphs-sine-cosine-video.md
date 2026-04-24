@@ -1,6 +1,6 @@
 ---
 id: 699e5bab8f18cf77dfce5c11
-title: Graphs of Sine and Cosine
+title: 正弦波と余弦波のグラフ
 challengeType: 11
 videoId: OoP1Lav_i9A
 dashedName: graphs-sine-cosine
@@ -8,32 +8,30 @@ dashedName: graphs-sine-cosine
 
 # --description--
 
-In this video, you will learn about the graphs of sine and cosine functions.
+このビデオでは、正弦関数と余弦関数のグラフについて学びます。
 
 # --questions--
 
 ## --text--
 
-What is the amplitude of a sine or cosine function?
+正弦関数または余弦関数の振幅とは何ですか？
 
 ## --answers--
 
-Vertical distance between the maximum point and the midline.
+最大点と中間線の間の垂直距離。
 
 ---
 
-Horizontal distance between two consecutive peaks
+連続する2つのピーク間の水平距離。
 
 ---
 
-The slope of the sine or cosine curve at the maximum point.
+最大点における正弦曲線または余弦曲線の傾き。
 
 ---
 
-Vertical distance between two minimum points.
+2つの最小点間の垂直距離。
 
 ## --video-solution--
 
 1
-
-

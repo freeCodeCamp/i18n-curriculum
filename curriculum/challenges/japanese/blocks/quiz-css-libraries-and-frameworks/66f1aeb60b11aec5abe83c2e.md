@@ -1,13 +1,13 @@
 ---
 id: 66f1aeb60b11aec5abe83c2e
-title: CSS Libraries and Frameworks Quiz
+title: CSSライブラリとフレームワークのクイズ
 challengeType: 8
 dashedName: quiz-css-libraries-and-frameworks
 ---
 
 # --description--
 
-To pass the quiz, you must correctly answer at least 9 of the 10 questions below.
+このクイズに合格するには、以下の10問中少なくとも9問に正しく答える必要があります。
 
 # --quizzes--
 
@@ -17,41 +17,41 @@ To pass the quiz, you must correctly answer at least 9 of the 10 questions below
 
 #### --text--
 
-What is a CSS framework?
+CSSフレームワークとは何ですか？
 
 #### --distractors--
 
-A tool to fix CSS errors.
+CSSのエラーを修正するツール。
 
 ---
 
-A tool to lint CSS files.
+CSSファイルをリントするツール。
 
 ---
 
-A formatter for CSS files.
+CSSファイルのフォーマッター。
 
 #### --answer--
 
-A library for CSS styles.
+CSSスタイルのためのライブラリ。
 
 ### --question--
 
 #### --text--
 
-Which of the following is a popular utility-first CSS framework?
+次のうち、人気のあるユーティリティファーストのCSSフレームワークはどれですか？
 
 #### --distractors--
 
-Template CSS
+テンプレートCSS
 
 ---
 
-Loading CSS
+ローディングCSS
 
 ---
 
-Minimal CSS
+ミニマルCSS
 
 #### --answer--
 
@@ -61,73 +61,73 @@ Tailwind CSS
 
 #### --text--
 
-What is a disadvantage of CSS frameworks?
+CSSフレームワークの欠点は何ですか？
 
 #### --distractors--
 
-Too few components.
+コンポーネントが少なすぎる。
 
 ---
 
-No customization options.
+カスタマイズオプションがない。
 
 ---
 
-Improved browser support.
+ブラウザサポートが向上する。
 
 #### --answer--
 
-Can bloat CSS files.
+CSSファイルが肥大化する可能性がある。
 
 ### --question--
 
 #### --text--
 
-What does SCSS stand for?
+SCSSは何の略ですか？
 
 #### --distractors--
 
-Super Cascading Style Sheets.
+スーパー・カスケーディング・スタイル・シート。
 
 ---
 
-Structured CSS.
+構造化されたCSS。
 
 ---
 
-Simple CSS.
+シンプルなCSS。
 
 #### --answer--
 
-Sassy CSS.
+サッシーCSS。
 
 ### --question--
 
 #### --text--
 
-Which of the following is a feature of Sass?
+次のうち、Sassの機能はどれですか？
 
 #### --distractors--
 
-Comments
+コメント
 
 ---
 
-CSS linting.
+CSSのリント。
 
 ---
 
-Inline CSS.
+インラインCSS。
 
 #### --answer--
 
-Mixins
+ミックスイン
 
 ### --question--
 
 #### --text--
 
-Which of the following is the correct way to use utility classes in Tailwind CSS?
+Tailwind CSSでユーティリティクラスを使う正しい方法はどれですか？
 
 #### --distractors--
 
@@ -147,7 +147,6 @@ Which of the following is the correct way to use utility classes in Tailwind CSS
 
 ---
 
-
 ```html
 <button class="set-blue set-text set-font set-hover round-btn padding-full">
   Button
@@ -155,7 +154,6 @@ Which of the following is the correct way to use utility classes in Tailwind CSS
 ```
 
 #### --answer--
-
 
 ```html
 <button class="bg-blue-500 text-white font-bold py-2 px-4 rounded-full hover:bg-blue-700">
@@ -167,29 +165,29 @@ Which of the following is the correct way to use utility classes in Tailwind CSS
 
 #### --text--
 
-What are the two types of CSS frameworks?
+CSSフレームワークにはどの2種類がありますか？
 
 #### --distractors--
 
-Tablet first CSS frameworks and Component-based CSS frameworks.
+タブレットファーストCSSフレームワークとコンポーネントベースCSSフレームワーク。
 
 ---
 
-Utility-first CSS frameworks and Lazy loading CSS frameworks.
+ユーティリティファーストCSSフレームワークとレイジーローディングCSSフレームワーク。
 
 ---
 
-Minimal CSS frameworks and Utility-first CSS frameworks.
+ミニマルCSSフレームワークとユーティリティファーストCSSフレームワーク。
 
 #### --answer--
 
-Utility-first CSS frameworks and Component-based CSS frameworks.
+ユーティリティファーストCSSフレームワークとコンポーネントベースCSSフレームワーク。
 
 ### --question--
 
 #### --text--
 
-What is the file extension for SCSS?
+SCSSのファイル拡張子は何ですか？
 
 #### --distractors--
 
@@ -211,7 +209,7 @@ What is the file extension for SCSS?
 
 #### --text--
 
-Which of the following is the correct way to define a variable in SCSS?
+SCSSで変数を定義する正しい方法はどれですか？
 
 #### --distractors--
 
@@ -257,7 +255,7 @@ header {
 
 #### --text--
 
-Which of the following is the correct way to define a mixin?
+ミックスインを定義する正しい方法はどれですか？
 
 #### --distractors--
 
@@ -298,4 +296,3 @@ mixin center-flex {
   align-items: center;
 }
 ```
-

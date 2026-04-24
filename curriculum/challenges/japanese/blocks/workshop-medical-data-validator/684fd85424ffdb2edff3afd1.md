@@ -1,15 +1,15 @@
 ---
 id: 684fd85424ffdb2edff3afd1
-title: Step 26
+title: ステップ 26
 challengeType: 20
 dashedName: step-26
 ---
 
 # --description--
 
-Now you can see `{'patient_id': None}` printed to the terminal because the lowercase `p` does not match `P1001` and the `and` operator returns the first falsy value of the expression.
+小文字の `{'patient_id': None}` が `p` と一致しないため、`P1001` がターミナルに出力され、`and` 演算子は式の最初の偽値を返します。
 
-You want to ensure that the patient ID starts with the letter `p`, but it can be either lowercase or uppercase. To modify the matching behavior of regular expressions, you can use flags. For example, `re.search` accepts a third argument to specify any flags:
+患者IDが文字 `p` で始まることを保証したいですが、小文字でも大文字でもかまいません。正規表現のマッチング動作を変更するには、フラグを使うことができます。たとえば、`re.search` は3番目の引数として任意のフラグを指定できます。
 
 ```py
 import re
@@ -21,13 +21,13 @@ print(re.search('hello', greeting, re.IGNORECASE))
 # <re.Match object; span=(0, 5), match='Hello'>
 ```
 
-Add `re.IGNORECASE` as the third argument to your `re.search` call. This will make your regex search case insensitive.
+`re.IGNORECASE` を `re.search` の呼び出しの3番目の引数として追加してください。これにより、正規表現の検索が大文字小文字を区別しなくなります。
 
-After that, you'll see `None` replaced by the match object `<re.Match object; span=(0, 1), match='P'>`, where `match` indicates the match and `span` indicates its location in the string.
+その後、`None` がマッチオブジェクト `<re.Match object; span=(0, 1), match='P'>` に置き換えられます。ここで `match` はマッチした部分を示し、`span` は文字列内の位置を示します。
 
 # --hints--
 
-You should add `re.IGNORECASE` as the third argument to your `re.search` call.
+`re.IGNORECASE` を `re.search` の呼び出しの3番目の引数として追加してください。
 
 ```js
 ({ test: () => assert(runPython(`
@@ -96,7 +96,7 @@ def validate(data):
     if not is_sequence:
         print('Invalid format: expected a list or tuple.')
         return False
-
+        
     is_invalid = False
     key_set = set(
         ['patient_id', 'age', 'gender', 'diagnosis', 'medications', 'last_visit_id']

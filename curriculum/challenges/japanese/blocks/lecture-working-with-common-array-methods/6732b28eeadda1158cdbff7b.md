@@ -1,15 +1,15 @@
 ---
 id: 6732b28eeadda1158cdbff7b
-title: How Can You Check if an Array Contains a Certain Value?
+title: 配列に特定の値が含まれているかどうかを確認するには？
 challengeType: 19
 dashedName: how-can-you-check-if-an-array-contains-a-certain-value
 ---
 
 # --interactive--
 
-In JavaScript, the `includes()` method is a simple and efficient way to check if an array contains a specific value. This method returns a boolean value: `true` if the array contains the specified element, and `false` otherwise.
+JavaScriptでは、`includes()`メソッドが配列に特定の値が含まれているかどうかを簡単かつ効率的に確認する方法です。このメソッドはブール値を返します。配列に指定した要素が含まれていれば`true`、そうでなければ`false`です。
 
-The `includes()` method is particularly useful when you need to quickly verify the presence of an element in an array without needing to know its exact position. Let's start with an example of how to use the `includes()` method:
+`includes()`メソッドは、要素の正確な位置を知る必要がない場合に、配列内に要素が存在するかどうかを素早く確認するのに特に便利です。まずは`includes()`メソッドの使い方の例を見てみましょう。
 
 :::interactive_editor
 
@@ -21,9 +21,9 @@ console.log(fruits.includes("grape"));  // false
 
 :::
 
-In this example, we have an array of fruits. We use the `includes()` method to check if `banana` is in the array. It returns `true` because `banana` is indeed present. We then check for `grape`, which returns `false` because it's not in the array.
+この例では、果物の配列があります。`includes()`メソッドを使って`banana`が配列にあるかどうかを確認しています。`true`が確かに存在するので`banana`を返します。次に`grape`を確認すると、配列にないため`false`を返します。
 
-The `includes()` method is case-sensitive when dealing with strings. This means that `Banana` with a capital B and `banana` with all lowercase letters are considered different values. Here's an example that illustrates this:
+`includes()`メソッドは文字列を扱う場合に大文字と小文字を区別します。つまり、先頭が大文字の`Banana`とすべて小文字の`banana`は異なる値とみなされます。これを示す例を見てみましょう。
 
 :::interactive_editor
 
@@ -35,9 +35,9 @@ console.log(fruits.includes("Banana")); // false
 
 :::
 
-In this case, `banana` (all in lowercase) is found in the array, but `Banana` (with the first letter capitalized) is not, so the second `includes()` call returns `false`.
+この場合、すべて小文字の`banana`は配列に見つかりますが、先頭が大文字の`Banana`は見つからないため、2回目の`includes()`の呼び出しは`false`を返します。
 
-The `includes()` method can also accept an optional second parameter that specifies the position in the array to start the search. This is useful if you want to check for an element's presence in a specific part of the array. Here's how you can use this feature:
+`includes()`メソッドは、検索を開始する配列内の位置を指定するオプションの第2パラメータも受け取れます。これは配列の特定の部分で要素の存在を確認したい場合に便利です。この機能の使い方は次の通りです。
 
 :::interactive_editor
 
@@ -49,11 +49,11 @@ console.log(numbers.includes(30, 4)); // true
 
 :::
 
-For the first `console.log`, we are looking for the number `30` starting at index `3`. In this case, there is a number `30` that appears after index `3`, so the `includes()` method returns `true`.
+最初の`console.log`では、インデックス`30`から始めて数値`3`を探しています。この場合、インデックス`30`以降に数値`3`が現れるので、`includes()`メソッドは`true`を返します。
 
-The same is true for the second `console.log`. We are looking for the number `30` starting at index `4`. Since the number `30` does appear after that index, then it will return `true`.
+2回目の`console.log`も同様です。インデックス`30`から始めて数値`4`を探しています。そのインデックス以降に数値`30`が現れるため、`true`を返します。
 
-It's worth noting that `includes()` uses the strict equality comparison (`===`), which means it can distinguish between different types. For example:
+`includes()`は厳密な等価比較（`===`）を使うため、異なる型を区別できます。例えば：
 
 :::interactive_editor
 
@@ -65,15 +65,15 @@ console.log(mixedArray.includes("2")); // true
 
 :::
 
-In this case, the number `2` and the string `"2"` are considered different data types. So, the first `console.log` will return `false`, while the second `console.log` will return `true`.
+この場合、数値の`2`と文字列の`"2"`は異なるデータ型とみなされます。したがって、最初の`console.log`は`false`を返し、2回目の`console.log`は`true`を返します。
 
-The `includes()` method is a powerful tool for checking the presence of elements in arrays. It's simple to use, efficient, and can save you from writing more complex loops or conditions to search through arrays. Whether you're working with strings, numbers, or mixed data types, `includes()` provides a straightforward way to verify if a value exists in your array.
+`includes()`メソッドは配列内の要素の存在を確認する強力なツールです。使い方が簡単で効率的なため、配列を検索するために複雑なループや条件を書く手間を省けます。文字列、数値、または混合データ型を扱う場合でも、`includes()`は値が配列に存在するかどうかを簡単に確認できます。
 
 # --questions--
 
 ## --text--
 
-What will be the output of the following code?
+次のコードの出力は何になりますか？
 
 ```js
 let arr = [1, 2, 3, 4, 5];
@@ -86,7 +86,7 @@ console.log(arr.includes(3, 3));
 
 ### --feedback--
 
-The second parameter of `includes()` specifies the starting position for the search.
+`includes()`の第2パラメータは検索開始位置を指定します。
 
 ---
 
@@ -98,15 +98,15 @@ The second parameter of `includes()` specifies the starting position for the sea
 
 ### --feedback--
 
-The second parameter of `includes()` specifies the starting position for the search.
+`includes()`の第2パラメータは検索開始位置を指定します。
 
 ---
 
-This will throw an error.
+エラーが発生します。
 
 ### --feedback--
 
-The second parameter of `includes()` specifies the starting position for the search.
+`includes()`の第2パラメータは検索開始位置を指定します。
 
 ## --video-solution--
 
@@ -114,7 +114,7 @@ The second parameter of `includes()` specifies the starting position for the sea
 
 ## --text--
 
-What will be the output of the following code?
+次のコードの出力は何になりますか？
 
 ```js
 let arr = ["a", "b", "c", "d", "e"];
@@ -127,7 +127,7 @@ console.log(arr.includes("C"));
 
 ### --feedback--
 
-Remember that `includes()` is case-sensitive when dealing with strings.
+文字列を扱う場合、`includes()`は大文字と小文字を区別することを覚えておいてください。
 
 ---
 
@@ -139,15 +139,15 @@ Remember that `includes()` is case-sensitive when dealing with strings.
 
 ### --feedback--
 
-Remember that `includes()` is case-sensitive when dealing with strings.
+文字列を扱う場合、`includes()`は大文字と小文字を区別することを覚えておいてください。
 
 ---
 
-This will throw an error.
+エラーが発生します。
 
 ### --feedback--
 
-Remember that `includes()` is case-sensitive when dealing with strings.
+文字列を扱う場合、`includes()`は大文字と小文字を区別することを覚えておいてください。
 
 ## --video-solution--
 
@@ -155,7 +155,7 @@ Remember that `includes()` is case-sensitive when dealing with strings.
 
 ## --text--
 
-What will be the output of the following code?
+次のコードの出力は何になりますか？
 
 ```js
 let arr = [1, "2", 3, "4", 5];
@@ -168,7 +168,7 @@ console.log(arr.includes("3"));
 
 ### --feedback--
 
-The `includes()` method uses strict equality (`===`) for comparison.
+`includes()`メソッドは比較に厳密な等価（`===`）を使います。
 
 ---
 
@@ -180,15 +180,15 @@ The `includes()` method uses strict equality (`===`) for comparison.
 
 ### --feedback--
 
-The `includes()` method uses strict equality (`===`) for comparison.
+`includes()`メソッドは比較に厳密な等価（`===`）を使います。
 
 ---
 
-This will throw an error.
+エラーが発生します。
 
 ### --feedback--
 
-The `includes()` method uses strict equality (`===`) for comparison.
+`includes()`メソッドは比較に厳密な等価（`===`）を使います。
 
 ## --video-solution--
 

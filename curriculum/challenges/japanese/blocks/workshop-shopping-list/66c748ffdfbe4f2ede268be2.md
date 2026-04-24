@@ -1,21 +1,21 @@
 ---
 id: 66c748ffdfbe4f2ede268be2
-title: Step 20
+title: ステップ 20
 challengeType: 1
 dashedName: step-20
 ---
 
 # --description--
 
-In this final step of the workshop, log the final grocery list to the console.
+このワークショップの最後のステップでは、最終的な買い物リストをコンソールにログ出力してください。
 
-To do this, call the `getShoppingListMsg` function with the `shoppingList` array as an argument inside `console.log`.
+これを行うには、`getShoppingListMsg` 関数を `shoppingList` の中で `console.log` 配列を引数として呼び出してください。
 
-And with this last step your grocery list is complete!
+そして、この最後のステップで買い物リストが完成します！
 
 # --hints--
 
-You should call `getShoppingListMsg(shoppingList)` inside of the `console.log`.
+`getShoppingListMsg(shoppingList)` の中で `console.log` を呼び出す必要があります。
 
 ```js
 assert.lengthOf(code.match(/console\.log\(\s*getShoppingListMsg\(\s*shoppingList\s*\)\s*\)/g), 7);

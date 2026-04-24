@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c442eedfaeb5bd1c
-title: まるばつゲームを作成する
+title: 三目並べゲームを作る
 challengeType: 3
 forumTopicId: 302358
 dashedName: build-a-tic-tac-toe-game
@@ -8,19 +8,19 @@ dashedName: build-a-tic-tac-toe-game
 
 # --description--
 
-**目標:** こちらと似た機能を持つアプリを構築してください: <a href="https://codepen.io/freeCodeCamp/full/KzXQgy/" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/KzXQgy/</a>
+**目的:** 次のアプリと機能的に似たものを作ってください：<a href="https://codepen.io/freeCodeCamp/full/KzXQgy/" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/KzXQgy/</a>。
 
-以下のユーザーストーリーを満たし、すべてのテストが成功するようにしてください。 必要に応じて、どのようなライブラリあるいは API を使用してもかまいません。 あなた独自のアレンジを加えましょう。
+以下のユーザーストーリーを満たし、すべてのテストに合格してください。必要なライブラリやAPIは自由に使って構いません。自分なりのスタイルを加えてください。
 
-**ユーザーストーリー:** コンピュータでまるばつゲームをプレイできます。
+**ユーザーストーリー:** コンピューターと三目並べのゲームができます。
 
-**ユーザーストーリー:** ゲームは終わるとすぐにリセットするので、もう一度プレイできます。
+**ユーザーストーリー:** ゲームが終わるとすぐにリセットされ、再度プレイできます。
 
-**ユーザーストーリー:** X または O のどちらでプレイしたいかを選択できます。
+**ユーザーストーリー:** XかOのどちらでプレイするか選べます。
 
-完了したら、CodePen のプロジェクトへのリンクを入れて、「このチャレンジを完了しました」ボタンをクリックしてください。
+完成したら、CodePenのプロジェクトへのリンクを含めて、「チャレンジを完了しました」ボタンをクリックしてください。
 
-<a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp フォーラム</a>でプロジェクトを共有することにより、フィードバックを得ることができます。
+<a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCampフォーラム</a>でプロジェクトのフィードバックをもらうこともできます。
 
 # --solutions--
 

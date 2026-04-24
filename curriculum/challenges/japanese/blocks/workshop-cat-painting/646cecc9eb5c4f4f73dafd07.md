@@ -1,29 +1,29 @@
 ---
 id: 646cecc9eb5c4f4f73dafd07
-title: ステップ 23
+title: Step 23
 challengeType: 0
 dashedName: step-23
 ---
 
 # --description--
 
-position を `absolute` に、`top` を `-26px` に、`left` を `-31px` に設定して、向かって左の耳を適切な位置に動かしましょう。
+`absolute` の位置を、`top` の `-26px` と `left` の `-31px` を設定して調整してください。
 
 # --hints--
 
-`.cat-left-ear` セレクターの `position` プロパティを `absolute` に設定してください。 セミコロンを忘れないようにしましょう。
+`.cat-left-ear` セレクターには、`position` に設定された `absolute` プロパティが必要です。セミコロンを忘れないでください。
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('.cat-left-ear')?.position, 'absolute')
 ```
 
-`.cat-left-ear` セレクターの `top` プロパティを `-26px` に設定してください。
+`.cat-left-ear` セレクターには、`top` に設定された `-26px` プロパティが必要です。
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('.cat-left-ear')?.top, '-26px')
 ```
 
-`.cat-left-ear` セレクターの `left` プロパティを `-31px` に設定してください。
+`.cat-left-ear` セレクターには、`left` に設定された `-31px` プロパティが必要です。
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('.cat-left-ear')?.left, '-31px')
@@ -83,7 +83,7 @@ body {
 
 --fcc-editable-region--
 .cat-left-ear {
-
+  
   border-left: 35px solid transparent;
   border-right: 35px solid transparent;
   border-bottom: 70px solid #5e5e5e;

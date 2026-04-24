@@ -1,15 +1,15 @@
 ---
 id: 672bccc8ea33bad87abb3c56
-title: What Is the Difference Between content-box and border-box?
+title: content-box と border-box の違いとは？
 challengeType: 19
 dashedName: what-is-the-difference-between-content-box-and-border-box
 ---
 
 # --interactive--
 
-The `box-sizing` property can be set to either `content-box` or `border-box` to control how the width and height of elements are calculated.
+`box-sizing` プロパティは、要素の幅と高さの計算方法を制御するために `content-box` または `border-box` のいずれかに設定できます。
 
-This property can be set on the universal selector (`*`) to apply to all the elements in the document:
+このプロパティはユニバーサルセレクター（`*`）に設定して、ドキュメント内のすべての要素に適用することもできます。
 
 ```css
 * {
@@ -17,20 +17,20 @@ This property can be set on the universal selector (`*`) to apply to all the ele
 }
 ```
 
-The value of the `box-sizing` property is `content-box` by default, but you can choose `border-box` if you need to. We will explore `content-box` first and then we will go into `border-box`.
+`box-sizing` プロパティの値はデフォルトでは `content-box` ですが、必要に応じて `border-box` を選ぶこともできます。まず `content-box` を見てから、`border-box` を説明します。
 
-To understand how the models work, you need to be familiar with the four core concepts from the CSS box model. Let's review them quickly.
+モデルの仕組みを理解するには、CSSボックスモデルの4つの基本概念に慣れている必要があります。さっと復習しましょう。
 
-- The content area is the space occupied by the element's content.
-- The padding is the space between the content area and the border.
-- The border is the outline that surrounds the content area and the padding.
-- The margin is the space outside the border that separates the element from other elements.
+- コンテンツエリアは要素の内容が占めるスペースです。
+- `padding` はコンテンツエリアと `border` の間のスペースです。
+- `border` はコンテンツエリアと `padding` を囲む枠線です。
+- `margin` は `border` の外側にあり、要素と他の要素を分けるスペースです。
 
-In the `content-box` model, the width and height that you set for an element determine the dimensions of the content area, but they don't include the padding, border, or margin. Use `content-box` when you need precise control over the content area. When you set `width` and `height`, you're only setting the size of the content itself.
+`content-box` モデルでは、要素に設定した幅と高さはコンテンツエリアの寸法を決めますが、`padding`、`border`、`margin` は含まれません。コンテンツエリアを正確に制御したい場合は `content-box` を使います。`width` と `height` を設定すると、コンテンツ自体のサイズだけが決まります。
 
-To find the total width of the element, you will need to add the left and right padding, and the left and right borders. Likewise, the total height of an element can be found by adding the content height, the top and bottom padding, and the top and bottom borders.
+要素の合計幅を求めるには、左右の `padding` と左右の `border` を加算する必要があります。同様に、要素の合計高さはコンテンツの高さに上下の `padding` と上下の `border` を加えたものです。
 
-For example, here we have a CSS type selector for all the `div` elements.
+例えば、ここにすべての `div` 要素に対する CSS 型セレクターがあります。
 
 :::interactive_editor
 
@@ -50,13 +50,13 @@ div {
 
 :::
 
-In this case, if `content-box` is used the content area will be 300px by 200px. The total rendered size includes padding and borders — for example, total width = 300px (content) + 40px (padding) + 8px (borders) = 348px; the total height is calculated in the same way.
+この場合、`content-box` が使われるとコンテンツエリアは 300px × 200px になります。合計のレンダリングサイズには `padding` と `border` が含まれます。例えば、合計幅 = 300px（コンテンツ）+ 40px（`padding`）+ 8px（`border`）= 348px、合計高さも同様に計算されます。
 
-Great! Now let's explore `border-box`. It's different because the width and height you set include the element's content, padding, and border (but not its margin). Use `border-box` when you want the element's total size to stay fixed even if padding or borders change — that's often helpful in responsive layouts.
+素晴らしいです！次に `border-box` を見てみましょう。これは設定した幅と高さに要素のコンテンツ、`padding`、`border` が含まれます（`margin` は含まれません）。`border-box` は、`padding` や `border` が変わっても要素の合計サイズを固定したい場合に便利で、レスポンシブレイアウトでよく使われます。
 
-With `border-box`, padding and borders are included inside the element's specified size. The `width` and `height` you set become the element's total dimensions: content + padding + border; margins remain excluded.
+`border-box` では、`padding` と `border` が要素の指定サイズ内に含まれます。設定した `width` と `height` が要素の合計寸法になります：コンテンツ + `padding` + `border`。`margin` は除外されます。
 
-In the following example, there are two `div` elements with the same dimensions but different `box-sizing` values. Notice how this results in different total sizes when viewed in the browser:
+次の例では、同じ寸法で `div` 要素が2つありますが、`box-sizing` の値が異なります。ブラウザで見ると合計サイズが異なることに注目してください。
 
 :::interactive_editor
 
@@ -89,15 +89,15 @@ In the following example, there are two `div` elements with the same dimensions 
 
 :::
 
-You can see that they both have the same `width`, `height`, `padding`, `border` and `margin`. The only differences are in the colors and the value of the `box-sizing` property. This small difference has a very important impact on the final dimensions.
+両方とも `width`、`height`、`padding`、`border`、`margin` は同じです。違いは色と `box-sizing` プロパティの値だけです。この小さな違いが最終的な寸法に大きな影響を与えます。
 
-Choosing between `content-box` and `border-box` really depends on the specific needs of your project. While `border-box` is becoming increasingly popular for its simplicity and flexibility, understanding both models is important for implementing effective CSS layouts.
+`content-box` と `border-box` のどちらを選ぶかは、プロジェクトの具体的なニーズによります。`border-box` はそのシンプルさと柔軟性からますます人気が高まっていますが、両方のモデルを理解することが効果的な CSS レイアウトを実装する上で重要です。
 
 # --questions--
 
 ## --text--
 
-Which of the following is the default value for the `box-sizing` property in most browsers?
+ほとんどのブラウザで `box-sizing` プロパティのデフォルト値はどれですか？
 
 ## --answers--
 
@@ -109,7 +109,7 @@ Which of the following is the default value for the `box-sizing` property in mos
 
 ### --feedback--
 
-Think about the default behavior for element sizing.
+要素のサイズ指定のデフォルトの動作を考えてみてください。
 
 ---
 
@@ -117,7 +117,7 @@ Think about the default behavior for element sizing.
 
 ### --feedback--
 
-Think about the default behavior for element sizing.
+要素のサイズ指定のデフォルトの動作を考えてみてください。
 
 ---
 
@@ -125,7 +125,7 @@ Think about the default behavior for element sizing.
 
 ### --feedback--
 
-Think about the default behavior for element sizing.
+要素のサイズ指定のデフォルトの動作を考えてみてください。
 
 ## --video-solution--
 
@@ -133,35 +133,35 @@ Think about the default behavior for element sizing.
 
 ## --text--
 
-What is the primary advantage of using `border-box` for creating responsive layouts?
+レスポンシブレイアウトを作成する際に `border-box` を使う主な利点は何ですか？
 
 ## --answers--
 
-It makes the calculations more complicated.
+計算がより複雑になる。
 
 ### --feedback--
 
-Think about how the `border-box` model handles `padding` and `border` within the specified `width` and `height`.
+`border-box` モデルが指定した `width` と `height` の中で `padding` と `border` をどのように扱うかを考えてみてください。
 
 ---
 
-It allows for more precise control over element dimensions.
+要素の寸法をより正確に制御できる。
 
 ### --feedback--
 
-Think about how the `border-box` model handles `padding` and `border` within the specified `width` and `height`.
+`border-box` モデルが指定した `width` と `height` の中で `padding` と `border` をどのように扱うかを考えてみてください。
 
 ---
 
-It ensures that elements maintain their specified dimensions regardless of changes in `padding` or `border`.
+`padding` や `border` が変わっても要素の指定寸法を維持できる。
 
 ---
 
-It improves browser compatibility.
+ブラウザの互換性が向上する。
 
 ### --feedback--
 
-Think about how the `border-box` model handles `padding` and `border` within the specified `width` and `height`.
+`border-box` モデルが指定した `width` と `height` の中で `padding` と `border` をどのように扱うかを考えてみてください。
 
 ## --video-solution--
 
@@ -169,35 +169,35 @@ Think about how the `border-box` model handles `padding` and `border` within the
 
 ## --text--
 
-In the `content-box` model, what does the specified `width` of an element represent?
+`content-box` モデルでは、要素に指定した `width` は何を表しますか？
 
 ## --answers--
 
-The total `width` of the element, including `padding`, `border`, and `margin`.
+`padding`、`border`、`margin` を含む要素の合計 `width`。
 
 ### --feedback--
 
-Think about the relationship between the content area and the overall element dimensions in the `content-box` model.
+`content-box` モデルにおけるコンテンツエリアと要素全体の寸法の関係を考えてみてください。
 
 ---
 
-The `width` of the content area only.
+コンテンツエリアの `width` のみ。
 
 ---
 
-The `width` of the `border`.
+`border` の `width`。
 
 ### --feedback--
 
-Think about the relationship between the content area and the overall element dimensions in the `content-box` model.
+`content-box` モデルにおけるコンテンツエリアと要素全体の寸法の関係を考えてみてください。
 
 ---
 
-The `width` of the `padding`.
+`padding` の `width`。
 
 ### --feedback--
 
-Think about the relationship between the content area and the overall element dimensions in the `content-box` model.
+`content-box` モデルにおけるコンテンツエリアと要素全体の寸法の関係を考えてみてください。
 
 ## --video-solution--
 

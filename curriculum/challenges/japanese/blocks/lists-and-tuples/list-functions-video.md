@@ -1,6 +1,6 @@
 ---
 id: 24a45b3960b3aa68dff2cd9e
-title: List Functions
+title: リストのメソッド
 challengeType: 11
 videoId: _5FQ5f3RW5U
 dashedName: list-functions
@@ -8,13 +8,13 @@ dashedName: list-functions
 
 # --description--
 
-In this video, you will learn how to work with useful methods including the `append()`, `index()`, `clear()`, `sort()`, and `reverse()` methods.
+このビデオでは、`append()`、`index()`、`clear()`、`sort()`、および`reverse()`の便利なメソッドの使い方を学びます。
 
 # --questions--
 
 ## --text--
 
-What will be the output for the following code?
+次のコードの出力は何になりますか？
 
 ```python
 friends = ["Kevin", "Karen", "Jim", "Oscar", "Toby"]

@@ -1,65 +1,65 @@
 ---
 id: 67d2ff6f069dce9feacb7d25
-title: What Is Compatibility Testing?
+title: 互換性テストとは何か？
 challengeType: 19
 dashedName: what-is-compatibility-testing
 ---
 
 # --description--
 
-When you build out web applications at scale, you will need to think beyond your personal computing environment. How will these applications work on a variety of devices, operating systems, and browsers? Well, this is where compatibility testing comes in.
+大規模にウェブアプリケーションを構築するときは、自分のパソコン環境だけでなく、さまざまなデバイスやオペレーティングシステム、ブラウザでどのように動作するかを考える必要があります。ここで重要になるのが互換性テストです。
 
-The goal of compatibility testing is to see how well your software works in a variety of different computing environments. This provides the team with the ability to catch bugs before they reach production and will help contribute to a smoother product launch.
+互換性テストの目的は、ソフトウェアがさまざまなコンピューティング環境でどれだけうまく動作するかを確認することです。これにより、バグが本番環境に到達する前に発見でき、よりスムーズな製品リリースに貢献します。
 
-Different types of compatibility testing include backwards and forwards compatibility, hardware testing, operating systems, networks, browsers, and mobile devices.
+互換性テストには、後方互換性と前方互換性、ハードウェアテスト、オペレーティングシステム、ネットワーク、ブラウザ、モバイルデバイスなど、さまざまな種類があります。
 
-Let's take a look at each of the types in more detail by starting with backwards and forwards compatibility. Backwards compatibility refers to when current software is compatible with earlier versions. Forwards compatibility is when software and systems will work with future versions of itself.
+まずは後方互換性と前方互換性から詳しく見ていきましょう。後方互換性とは、現在のソフトウェアが以前のバージョンと互換性があることを指します。前方互換性は、ソフトウェアやシステムが将来のバージョンでも動作することを意味します。
 
-The next type of testing is for hardware. Hardware compatibility testing focuses on the software's ability to work properly in different hardware configurations. This includes different types of processors, memory, storage, and graphics cards.
+次にハードウェアのテストです。ハードウェア互換性テストは、異なるハードウェア構成でソフトウェアが正しく動作するかに焦点を当てています。これには、さまざまな種類のプロセッサー、メモリ、ストレージ、グラフィックスカードが含まれます。
 
-Another type of compatibility testing is for operating systems. You don't want to design software that works smoothly on Mac devices but has bugs on Windows or vice versa. You also need to consider Linux distributions like Ubuntu and Fedora.
+また、オペレーティングシステムの互換性テストもあります。Macデバイスでスムーズに動作するソフトウェアを設計しても、Windowsでバグが出るのは避けたいですよね。UbuntuやFedoraなどのLinuxディストリビューションも考慮する必要があります。
 
-The next type of testing is network compatibility testing. You will have users working with different network speeds, protocols, security settings, and more. Therefore, software teams will need to be mindful of all of those different conditions when testing.
+次はネットワーク互換性テストです。ユーザーは異なるネットワーク速度、プロトコル、セキュリティ設定などで作業します。そのため、ソフトウェアチームはこれらのさまざまな条件を考慮してテストを行う必要があります。
 
-Then, there's browser compatibility testing. There are a few popular browsers in the market like Google Chrome, Safari, Firefox, and more. Since all browsers work slightly differently, it's important to test your web application thoroughly and make sure your web applications work consistently across many browsers.
+そしてブラウザ互換性テストです。Google Chrome、Safari、Firefoxなど、人気のあるブラウザはいくつかあります。ブラウザごとに動作が少しずつ異なるため、ウェブアプリケーションを徹底的にテストし、多くのブラウザで一貫して動作することを確認することが重要です。
 
-The last type of testing is mobile testing. There was a time in web development when most developers didn't think about testing for mobile devices. This was because, in the early 2000s, mobile devices weren't nearly as powerful or widely used as they are today. But now, tens of millions of people visit websites on phones and tablets. So, it is important to ensure that your software applications work on a variety of Android and iOS devices.
+最後にモバイルテストです。かつては多くの開発者がモバイルデバイス向けのテストをあまり考慮していませんでした。2000年代初頭は、モバイルデバイスは今ほど強力でも広く使われてもいなかったからです。しかし今では、何千万もの人がスマートフォンやタブレットでウェブサイトを訪れています。したがって、AndroidやiOSのさまざまなデバイスでソフトウェアアプリケーションが動作することを確認することが重要です。
 
-Those are just a few types of testing that you will need to consider when building out your applications. While this might seem like a lot of extra work, it is important to perform compatibility tests because you do want to ensure that your applications work in a variety of computing environments.
+これらはアプリケーションを構築するときに考慮すべきテストの一部です。多くの追加作業に思えるかもしれませんが、さまざまなコンピューティング環境でアプリケーションが動作することを確実にするために、互換性テストを行うことが重要です。
 
 # --questions--
 
 ## --text--
 
-What is the main goal of compatibility testing?
+互換性テストの主な目的は何ですか？
 
 ## --answers--
 
-To ensure that your applications have no accessibility errors.
+アプリケーションにアクセシビリティのエラーがないことを確認すること。
 
 ### --feedback--
 
-Refer to the beginning of the lesson where this was discussed.
+この内容はレッスンの最初で説明されています。
 
 ---
 
-To ensure that your applications are free from linting and formatting errors.
+アプリケーションにリンティングやフォーマットのエラーがないことを確認すること。
 
 ### --feedback--
 
-Refer to the beginning of the lesson where this was discussed.
+この内容はレッスンの最初で説明されています。
 
 ---
 
-To ensure that your applications work in a variety of computing environments.
+アプリケーションがさまざまなコンピューティング環境で動作することを確認すること。
 
 ---
 
-To ensure that your applications only work for different Linux distributions.
+アプリケーションが異なるLinuxディストリビューションでのみ動作することを確認すること。
 
 ### --feedback--
 
-Refer to the beginning of the lesson where this was discussed.
+この内容はレッスンの最初で説明されています。
 
 ## --video-solution--
 
@@ -67,7 +67,7 @@ Refer to the beginning of the lesson where this was discussed.
 
 ## --text--
 
-Which of the following refers to when current software is compatible with earlier versions?
+次のうち、現在のソフトウェアが以前のバージョンと互換性があることを指すのはどれですか？
 
 ## --answers--
 
@@ -75,7 +75,7 @@ CPU compatibility
 
 ### --feedback--
 
-Think about how software will work with older versions.
+ソフトウェアが古いバージョンとどのように動作するかを考えてみてください。
 
 ---
 
@@ -83,7 +83,7 @@ Accessible compatibility
 
 ### --feedback--
 
-Think about how software will work with older versions.
+ソフトウェアが古いバージョンとどのように動作するかを考えてみてください。
 
 ---
 
@@ -91,7 +91,7 @@ Forwards compatibility
 
 ### --feedback--
 
-Think about how software will work with older versions.
+ソフトウェアが古いバージョンとどのように動作するかを考えてみてください。
 
 ---
 
@@ -103,15 +103,15 @@ Backwards compatibility
 
 ## --text--
 
-Which of the following is NOT typically targeted in compatibility testing?
+次のうち、互換性テストで通常対象とされないのはどれですか？
 
 ## --answers--
 
-Mobile operating systems
+モバイルオペレーティングシステム
 
 ### --feedback--
 
-One of these options refers to computer memory.
+この中の1つはコンピュータのメモリに関するものです。
 
 ---
 
@@ -119,19 +119,19 @@ RAM size
 
 ---
 
-Hardware configuration
+ハードウェア構成
 
 ### --feedback--
 
-One of these options refers to computer memory.
+この中の1つはコンピュータのメモリに関するものです。
 
 ---
 
-Network environments
+ネットワーク環境
 
 ### --feedback--
 
-One of these options refers to computer memory.
+この中の1つはコンピュータのメモリに関するものです。
 
 ## --video-solution--
 

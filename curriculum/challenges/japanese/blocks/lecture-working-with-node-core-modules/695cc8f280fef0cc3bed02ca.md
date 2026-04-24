@@ -1,27 +1,27 @@
 ---
 id: 695cc8f280fef0cc3bed02ca
-title: What Is the Path Module and How Does It Work?
+title: Path モジュールとは何か、そしてどのように動作するのか？
 challengeType: 19
 dashedName: what-is-the-path-module-and-how-does-it-work
 ---
 
 # --description--
 
-The Node.js `path` module lets you work with files and directory paths. It provides several useful methods for handling and transforming directories, including joining, normalizing, and resolving the directories across different platforms and operating systems.
+Node.js の `path` モジュールは、ファイルやディレクトリのパスを扱うためのものです。異なるプラットフォームやオペレーティングシステム間でディレクトリを結合、正規化、解決するなど、ディレクトリを操作・変換するための便利なメソッドをいくつか提供しています。
 
-To use the `path` module, you can import it like this:
+`path` モジュールを使うには、次のようにインポートしてください。
 
 ```js
 const path = require("path");
 ```
 
-Let's look at some of the methods the `path` module provides and how they work.
+`path` モジュールが提供するいくつかのメソッドとその動作を見てみましょう。
 
-First, you should be aware of the Node.js global variables `__filename` and `__dirname`, AKA "common JS" variables. You don't need the `path` module to access them, which is why they are called global variables.
+まず、Node.js のグローバル変数 `__filename` と `__dirname`、別名「common JS」変数について知っておく必要があります。これらは `path` モジュールを使わなくてもアクセスできるため、グローバル変数と呼ばれています。
 
-`__filename` is the absolute path of the current file and `__dirname` is the absolute path of the directory containing the current file.
+`__filename` は現在のファイルの絶対パスで、`__dirname` は現在のファイルを含むディレクトリの絶対パスです。
 
-For example, I have a `script.js` file I'm currently working with. Here's what the two methods return:
+例えば、現在作業中の `script.js` ファイルがあります。これら2つのメソッドが返す値は次の通りです。
 
 ```js
 console.log(__filename);
@@ -31,55 +31,55 @@ console.log(__dirname);
 // /Users/user/Desktop/fCC/script-code/node/node-path
 ```
 
-You should also be aware of relative and absolute paths.
+相対パスと絶対パスについても知っておくべきです。
 
-A relative path points to a file or folder based on your current working directory. For example, `./assets/src/text-files`.
+相対パスは、現在の作業ディレクトリを基準にファイルやフォルダーを指します。例えば、`./assets/src/text-files` です。
 
-An absolute path, on the other hand, gives the complete address of a file or folder from the root of your system, such as `/Users/johndoe/projects/app/assets/src/text-files.`
+一方、絶対パスはシステムのルートからファイルやフォルダーの完全なアドレスを示します。例えば、`/Users/johndoe/projects/app/assets/src/text-files.` です。
 
-The `basename()` method shows the last part of the file, that is, the filename:
+`basename()` メソッドはファイルの最後の部分、つまりファイル名を表示します。
 
 ```js
 console.log(path.basename(__filename)); // script.js
 ```
 
-`dirname()` returns the directory name of a path:
+`dirname()` はパスのディレクトリ名を返します。
 
 ```js
 console.log(path.dirname(__dirname)); // node-path
 ```
 
-`extname()` returns the extension of the current file:
+`extname()` は現在のファイルの拡張子を返します。
 
 ```js
 console.log(path.extname(__filename)); // .js
 ```
 
-You can also specify a different file to return the extension of:
+別のファイルの拡張子を返すこともできます。
 
 ```js
 console.log(path.extname('text-files/text1.txt')); // .txt
 ```
 
-The `join()` method takes all the path segments you pass in and joins them into one clean, normalized path. 
+`join()` メソッドは渡されたすべてのパスセグメントを結合し、きれいで正規化されたパスにします。
 
-This could be useful if you want to merge related files in different folders so you can work with them together:
+これは、異なるフォルダーにある関連ファイルをマージして一緒に扱いたい場合に便利です。
 
 ```js
 const joinedPath = path.join("src", "assets", "text-files");
 console.log(joinedPath); // src/assets/text-files
 ```
 
-Windows uses backslashes to separate directories, so the result will be `src\assets\text-files`.
+Windows はディレクトリの区切りにバックスラッシュを使うため、結果は `src\assets\text-files` になります。
 
-In addition, the `join()` method automatically fixes wrong slashes and removes extra ones:
+さらに、`join()` メソッドは間違ったスラッシュを自動で修正し、余分なスラッシュを取り除きます。
 
 ```js
 const wrongPath = path.join("/src//", "assets", "text-files");
 console.log(wrongPath); // /src/assets/text-files
 ```
 
-The `resolve()` method turns a sequence of path segments into an absolute path. It starts from your current working directory and results in a full path that points to the exact location on the device:
+`resolve()` メソッドはパスセグメントのシーケンスを絶対パスに変換します。現在の作業ディレクトリから始まり、デバイス上の正確な場所を指す完全なパスを返します。
 
 ```js
 const absolutePath = path.resolve("assets", "src", "text-files");
@@ -87,11 +87,11 @@ console.log(absolutePath);
 // /Users/user/Desktop/fCC/script-code/node/node-path/assets/src/text-files
 ```
 
-The difference between `join()` and `resolve()` is that `join()` creates a relative path, while `resolve()` returns an absolute path.
+`join()` と `resolve()` の違いは、`join()` が相対パスを作成し、`resolve()` が絶対パスを返すことです。
 
-Lastly, there are the `parse()` and `format()` methods.
+最後に、`parse()` と `format()` メソッドがあります。
 
-`parse()` takes a directory or file and returns an object that contains the breakdown of its parts, such as the system root, its directory, extension, and the filename:
+`parse()` はディレクトリやファイルを受け取り、その構成要素（システムのルート、ディレクトリ、拡張子、ファイル名など）を含むオブジェクトを返します。
 
 ```js
 const parsedFile = path.parse(__filename);
@@ -108,7 +108,7 @@ console.log(parsedFile);
 */
 ```
 
-`format()`, on the other hand, builds a path from an object containing directory, name, and extension:
+一方、`format()` はディレクトリ、名前、拡張子を含むオブジェクトからパスを構築します。
 
 ```js
 const formattedDirectory = path.format({
@@ -124,35 +124,35 @@ console.log(formattedDirectory); // /users/johndoe/docs/file.txt
 
 ## --text--
 
-What is the difference between `path.dirname()` and `path.extname()` in Node.js?
+Node.js における `path.dirname()` と `path.extname()` の違いは何ですか？
 
 ## --answers--
 
-`dirname()` removes the file extension, while `extname()` removes the directory name.
+`dirname()` はファイルの拡張子を取り除き、`extname()` はディレクトリ名を取り除きます。
 
 ### --feedback--
 
-Focus on which one deals with directories and which one deals with file extensions.
+どちらがディレクトリを扱い、どちらがファイルの拡張子を扱うかに注目してください。
 
 ---
 
-`dirname()` returns the full file path, while `extname()` returns the directory name.
+`dirname()` はファイルの完全なパスを返し、`extname()` はディレクトリ名を返します。
 
 ### --feedback--
 
-Focus on which one deals with directories and which one deals with file extensions.
+どちらがディレクトリを扱い、どちらがファイルの拡張子を扱うかに注目してください。
 
 ---
 
-`dirname()` returns the directory name of a path, while `extname()` returns the file's extension.
+`dirname()` はパスのディレクトリ名を返し、`extname()` はファイルの拡張子を返します。
 
 ---
 
-`dirname()` and `extname()` both return the same value but in different formats.
+`dirname()` と `extname()` はどちらも同じ値を返しますが、異なる形式です。
 
 ### --feedback--
 
-Focus on which one deals with directories and which one deals with file extensions.
+どちらがディレクトリを扱い、どちらがファイルの拡張子を扱うかに注目してください。
 
 ## --video-solution--
 
@@ -160,7 +160,7 @@ Focus on which one deals with directories and which one deals with file extensio
 
 ## --text--
 
-Which `path` method builds a complete file path from an object containing directory, name, and extension properties?
+ディレクトリ、名前、拡張子のプロパティを含むオブジェクトから完全なファイルパスを構築する `path` メソッドはどれですか？
 
 ## --answers--
 
@@ -168,7 +168,7 @@ Which `path` method builds a complete file path from an object containing direct
 
 ### --feedback--
 
-Think about what the opposite of `parse()` is.
+`parse()` の逆の動作を考えてみてください。
 
 ---
 
@@ -180,7 +180,7 @@ Think about what the opposite of `parse()` is.
 
 ### --feedback--
 
-Think about what the opposite of `parse()` is.
+`parse()` の逆の動作を考えてみてください。
 
 ---
 
@@ -188,7 +188,7 @@ Think about what the opposite of `parse()` is.
 
 ### --feedback--
 
-Think about what the opposite of `parse()` is.
+`parse()` の逆の動作を考えてみてください。
 
 ## --video-solution--
 
@@ -196,35 +196,35 @@ Think about what the opposite of `parse()` is.
 
 ## --text--
 
-What do the Node.js global variables `__filename` and `__dirname` provide access to?
+Node.js のグローバル変数 `__filename` と `__dirname` は何にアクセスできますか？
 
 ## --answers--
 
-The absolute path of the current file and its containing directory.
+現在のファイルの絶対パスとそれを含むディレクトリの絶対パスです。
 
 ---
 
-The name of the current module and its dependencies.
+現在のモジュール名とその依存関係です。
 
 ### --feedback--
 
-Think about which variables automatically give you full file and folder paths without using the path module.
+path モジュールを使わずにファイルやフォルダーの完全なパスを自動で取得できる変数はどれか考えてみてください。
 
 ---
 
-The relative path to the Node.js installation directory.
+Node.js インストールディレクトリへの相対パスです。
 
 ### --feedback--
 
-Think about which variables automatically give you full file and folder paths without using the path module.
+path モジュールを使わずにファイルやフォルダーの完全なパスを自動で取得できる変数はどれか考えてみてください。
 
 ---
 
-The URL of the running web server and its hostname.
+実行中のウェブサーバーの URL とホスト名です。
 
 ### --feedback--
 
-Think about which variables automatically give you full file and folder paths without using the path module.
+path モジュールを使わずにファイルやフォルダーの完全なパスを自動で取得できる変数はどれか考えてみてください。
 
 ## --video-solution--
 

@@ -7,24 +7,24 @@ dashedName: step-15
 
 # --description--
 
-If you look in the console, you will see the `Infinity` value. `Infinity` is a special value in JavaScript that represents a number that is greater than any other number.
+コンソールを見ると、`Infinity` の値が表示されているのがわかります。`Infinity` は、JavaScriptで他のどんな数よりも大きい数を表す特別な値です。
 
-The division by zero is not a valid operation in mathematics.
+数学では、ゼロで割ることは有効な操作ではありません。
 
-To account for this edge case, you should update your `calculateQuotient` function to instead check if `num2` is zero.
+この例外的なケースに対応するために、`calculateQuotient` 関数を更新して、代わりに `num2` がゼロかどうかを確認してください。
 
-If it is, the function should return the string `"Error: Division by zero"`. Otherwise, it should return the result of dividing `num1` by `num2`.
+もしゼロであれば、関数は文字列 `"Error: Division by zero"` を返すべきです。そうでなければ、`num1` を `num2` で割った結果を返してください。
 
 # --hints--
 
-Your `calculateQuotient` function should return the string `"Error: Division by zero"` if `num2` is zero.
+`calculateQuotient` 関数は、`"Error: Division by zero"` がゼロの場合に文字列 `num2` を返すべきです。
 
 ```js
 assert.strictEqual(calculateQuotient(10, 0), 'Error: Division by zero');
 assert.strictEqual(calculateQuotient(3, 0), 'Error: Division by zero');
 ```
 
-Your `calculateQuotient` function should return the result of dividing `num1` by `num2` if `num2` is not zero.
+`calculateQuotient` 関数は、`num1` がゼロでない場合に `num2` を `num2` で割った結果を返すべきです。
 
 ```js
 assert.strictEqual(calculateQuotient(10, 2), 5);

@@ -1,6 +1,6 @@
 ---
 id: 698dc4a27932b3cc4b19c920
-title: Efficiency of an Algorithm
+title: アルゴリズムの効率性
 challengeType: 11
 videoId: EHxx4yawPT0
 dashedName: efficiency-of-an-algorithm
@@ -8,29 +8,29 @@ dashedName: efficiency-of-an-algorithm
 
 # --description--
 
-In this video, you will learn how to measure the efficiency of an algorithm.
+このビデオでは、アルゴリズムの効率性を測る方法を学びます。
 
 # --questions--
 
 ## --text--
 
-What is Big O notation?
+ビッグO記法とは何ですか？
 
 ## --answers--
 
-A notation used to calculate the memory address of variables in a program.
+プログラム内の変数のメモリアドレスを計算するために使われる記法。
 
 ---
 
-The exact running time of a program measured in seconds.
+プログラムの正確な実行時間を秒単位で測定したもの。
 
 ---
 
-A method for debugging errors in large software systems.
+大規模なソフトウェアシステムのバグをデバッグするための方法。
 
 ---
 
-Theoretical definition of the complexity of an algorithm as a function of the size.
+アルゴリズムの複雑さをサイズの関数として理論的に定義したもの。
 
 ## --video-solution--
 

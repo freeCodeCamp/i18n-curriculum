@@ -7,53 +7,53 @@ dashedName: step-17
 
 # --description--
 
-Below your `.text` element, create a new `section` element and give it a `class` of `text text-with-images`. Within that, create an `article` element with a `class` set to `brief-history`, and an `aside` element with the `class` set to `image-wrapper`.
+`.text` 要素の下に、新しい `section` 要素を作成し、`class` の `text text-with-images` を設定してください。その中に、`article` の `class` を持つ `brief-history` 要素と、`aside` の `class` を持つ `image-wrapper` 要素を作成してください。
 
 # --hints--
 
-You should create a new `section` element.
+新しい `section` 要素を作成してください。
 
 ```js
 assert.lengthOf(document.querySelectorAll('section'), 3);
 ```
 
-Your new `section` element should come after your `.text` element.
+新しい `section` 要素は `.text` 要素の後に配置してください。
 
 ```js
 assert.equal(document.querySelectorAll('section')?.[2]?.previousElementSibling?.className, 'text');
 ```
 
-Your new `section` element should have the `class` set to `text text-with-images`.
+新しい `section` 要素は `class` に設定された `text text-with-images` を持つ必要があります。
 
 ```js
 assert.equal(document.querySelectorAll('section')?.[2]?.className, 'text text-with-images');
 ```
 
-Your new `section` element should have an `article` element.
+新しい `section` 要素は `article` 要素を持つ必要があります。
 
 ```js
 assert.exists(document.querySelector('.text-with-images article'));
 ```
 
-Your new `section` element should have an `aside` element.
+新しい `section` 要素は `aside` 要素を持つ必要があります。
 
 ```js
 assert.exists(document.querySelector('.text-with-images aside'));
 ```
 
-The `article` element should come before the `aside` element.
+`article` 要素は `aside` 要素の前に配置してください。
 
 ```js
 assert.equal(document.querySelector('.text-with-images article')?.nextElementSibling?.localName, 'aside');
 ```
 
-Your `article` element should have the `class` set to `brief-history`.
+`article` 要素は `class` に設定された `brief-history` を持つ必要があります。
 
 ```js
 assert.equal(document.querySelector('.text-with-images article')?.className, 'brief-history');
 ```
 
-Your `aside` element should have the `class` set to `image-wrapper`.
+`aside` 要素は `class` に設定された `image-wrapper` を持つ必要があります。
 
 ```js
 assert.equal(document.querySelector('.text-with-images aside')?.className, 'image-wrapper');

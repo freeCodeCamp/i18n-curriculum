@@ -7,18 +7,19 @@ dashedName: step-18
 
 # --description--
 
-Now, inside the `insert` method, you need to call the helper method `_insert()` that we defined earlier. Here, `_insert` has encapsulated the implementation of the insertion logic. This is useful for recursion and for keeping the implementation details hidden from the user.
+今、`insert` メソッドの中で、先に定義したヘルパーメソッド `_insert()` を呼び出す必要があります。  
+ここで、`_insert` は挿入ロジックの実装をカプセル化しています。これは再帰処理に便利で、実装の詳細をユーザーから隠す役割も果たします。
 
-Delete `pass` and assign `self._insert(self.root, key)` to `self.root`.
+`pass` を削除し、`self._insert(self.root, key)` を `self.root` に代入してください。
 
-Note that:
+注意点：
 
-- `self.root` passes the root node of the tree as the first argument. This is the starting point for the insertion process.
-- `key`: passes the `key` value you want to insert as the second argument.
+- `self.root` はツリーのルートノードを最初の引数として渡します。これは挿入処理の開始点です。
+- `key` は挿入したい `key` の値を2番目の引数として渡します。
 
 # --hints--
 
-You should remove the `pass` keyword from the `insert` method.
+`pass` メソッドから `insert` キーワードを削除してください。
 
 ```js
 ({
@@ -33,7 +34,7 @@ You should remove the `pass` keyword from the `insert` method.
 
 ```
 
-You should recursively call the `_insert()` method using `self._insert()`
+`_insert()` メソッドを `self._insert()` を使って再帰的に呼び出してください。
 
 ```js
 ({ test: () =>
@@ -46,7 +47,7 @@ You should recursively call the `_insert()` method using `self._insert()`
 })
 ```
 
-You should pass `self.root` and `key` to your `_insert()` call.
+`self.root` の呼び出しに `key` と `_insert()` を渡してください。
 
 ```js
 ({ test: () =>
@@ -59,7 +60,7 @@ You should pass `self.root` and `key` to your `_insert()` call.
 })
 ```
 
-You should assign the return value of your `_insert()` call to `self.root`.
+`_insert()` の呼び出しの戻り値を `self.root` に代入してください。
 
 ```js
 ({ test: () =>

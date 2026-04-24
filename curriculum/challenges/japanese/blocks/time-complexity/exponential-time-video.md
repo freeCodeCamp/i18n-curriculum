@@ -1,6 +1,6 @@
 ---
 id: 698dc79f7932b3cc4b19c924
-title: Exponential Time
+title: 指数時間
 challengeType: 11
 videoId: GNnxIIYwYFM
 dashedName: exponential-time
@@ -8,13 +8,13 @@ dashedName: exponential-time
 
 # --description--
 
-In this video, you will learn about exponential runtimes.
+このビデオでは、指数時間の実行時間について学びます。
 
 # --questions--
 
 ## --text--
 
-Which of the following popular problems is an example of an exponential algorithm?
+次のうち、指数アルゴリズムの例として挙げられる有名な問題はどれですか？
 
 ## --answers--
 

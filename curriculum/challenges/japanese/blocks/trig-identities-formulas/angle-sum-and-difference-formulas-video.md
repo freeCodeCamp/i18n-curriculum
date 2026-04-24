@@ -1,6 +1,6 @@
 ---
 id: 699e782f8f18cf77dfce5c1a
-title: Angle Sum and Difference Formulas
+title: 角の和と差の公式
 challengeType: 11
 videoId: cWSkoA9jshQ
 dashedName: angle-sum-and-difference-formulas
@@ -8,13 +8,13 @@ dashedName: angle-sum-and-difference-formulas
 
 # --description--
 
-In this video, you will learn about the angle sum and difference formulas.
+このビデオでは、角の和と差の公式について学びます。
 
 # --questions--
 
 ## --text--
 
-What is the exact value for $\sin(105°)$?
+$\sin(105°)$ の正確な値はいくらですか？
 
 ## --answers--
 
@@ -35,5 +35,3 @@ $\sin(60° + 45°) = \sin(60°)\cos(45°) + \cos(60°)\sin(45°) = \frac{\sqrt{3
 ## --video-solution--
 
 4
-
-

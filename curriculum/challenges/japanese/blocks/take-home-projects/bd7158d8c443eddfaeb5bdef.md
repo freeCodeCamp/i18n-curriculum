@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c443eddfaeb5bdef
-title: Build a Voting App
+title: 投票アプリを作成する
 challengeType: 4
 forumTopicId: 302359
 dashedName: build-a-voting-app
@@ -8,27 +8,27 @@ dashedName: build-a-voting-app
 
 # --description--
 
-Build a full-stack JavaScript app that is functionally similar to this: <a href="https://voting-app.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://voting-app.freecodecamp.rocks/</a>. Use a site builder of your choice to complete the project.
+このリンク先の機能と同様のフルスタックJavaScriptアプリを作成してください：<a href="https://voting-app.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://voting-app.freecodecamp.rocks/</a>。お好きなサイトビルダーを使ってプロジェクトを完成させてください。
 
-Here are the specific user stories you should implement for this project:
+このプロジェクトで実装すべき具体的なユーザーストーリーは以下の通りです：
 
-**User Story:** As an authenticated user, you can keep my polls and come back later to access them.
+**ユーザーストーリー：** 認証されたユーザーとして、自分の投票を保存して後でアクセスできるようにしたい。
 
-**User Story:** As an authenticated user, you can share my polls with my friends.
+**ユーザーストーリー：** 認証されたユーザーとして、自分の投票を友達と共有できるようにしたい。
 
-**User Story:** As an authenticated user, you can see the aggregate results of my polls.
+**ユーザーストーリー：** 認証されたユーザーとして、自分の投票の集計結果を見られるようにしたい。
 
-**User Story:** As an authenticated user, you can delete polls that I decide I don't want anymore.
+**ユーザーストーリー：** 認証されたユーザーとして、もう必要なくなった投票を削除できるようにしたい。
 
-**User Story:** As an authenticated user, you can create a poll with any number of possible items.
+**ユーザーストーリー：** 認証されたユーザーとして、任意の数の選択肢を持つ投票を作成できるようにしたい。
 
-**User Story:** As an unauthenticated or authenticated user, you can see and vote on everyone's polls.
+**ユーザーストーリー：** 認証されていないユーザーまたは認証されたユーザーとして、みんなの投票を見て投票できるようにしたい。
 
-**User Story:** As an unauthenticated or authenticated user, you can see the results of polls in chart form. (This could be implemented using Chart.js or Google Charts.)
+**ユーザーストーリー：** 認証されていないユーザーまたは認証されたユーザーとして、投票結果をチャート形式で見られるようにしたい。（Chart.jsやGoogle Chartsを使って実装することもできます。）
 
-**User Story:** As an authenticated user, if you don't like the options on a poll, you can create a new option.
+**ユーザーストーリー：** 認証されたユーザーとして、投票の選択肢が気に入らなければ新しい選択肢を作成できるようにしたい。
 
-When you are done, make sure a working demo of your project is hosted somewhere public. Then submit the URL to it in the Solution Link field. Optionally, also submit a link to your project's source code in the GitHub Link field.
+完成したら、プロジェクトの動作するデモをどこかの公開場所にホストしてください。そのURLをSolution Link欄に提出してください。オプションで、GitHub Link欄にプロジェクトのソースコードへのリンクも提出できます。
 
 # --solutions--
 

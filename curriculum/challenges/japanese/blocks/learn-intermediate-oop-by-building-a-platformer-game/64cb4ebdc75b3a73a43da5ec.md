@@ -7,39 +7,39 @@ dashedName: step-108
 
 # --description--
 
-Create an `if` statement that checks if `isCheckpointCollisionDetectionActive` is true.
+`if` 文を作成して、`isCheckpointCollisionDetectionActive` が true かどうかをチェックしてください。
 
-Inside the `if` statement, add a `setTimeout()` that takes in a callback function and a delay of 2000 milliseconds.
+`if` 文の中に、コールバック関数と 2000 ミリ秒の遅延を受け取る `setTimeout()` を追加してください。
 
-For the callback function, it should set the `checkpointScreen` `style.display` property to `"none"`.
+コールバック関数では、`checkpointScreen` の `style.display` プロパティを `"none"` に設定する必要があります。
 
 # --hints--
 
-You should have an `if` statement that checks if `isCheckpointCollisionDetectionActive` is true.
+`if` が true かどうかをチェックする `isCheckpointCollisionDetectionActive` 文があるはずです。
 
 ```js
 assert.match(code, /\s*if\s*\(\s*isCheckpointCollisionDetectionActive\s*\)\s*{/s);
 ```
 
-You should have a `setTimeout()` function inside the `if` statement.
+`setTimeout()` 文の中に `if` 関数があるはずです。
 
 ```js
 assert.match(code, /\s*if\s*\(\s*isCheckpointCollisionDetectionActive\s*\)\s*{\s*setTimeout\s*\(/s);
 ```
 
-Your `setTimeout()` function should have a callback function as the first argument.
+`setTimeout()` 関数の最初の引数はコールバック関数であるべきです。
 
 ```js
 assert.match(code, /\s*setTimeout\s*\(\s*\(\s*\)\s*=>/s);
 ```
 
-Your `setTimeout()` function should have a delay of 2000 milliseconds as the second argument.
+`setTimeout()` 関数の 2 番目の引数は 2000 ミリ秒の遅延であるべきです。
 
 ```js
 assert.match(code, /\s*setTimeout\s*\(\s*\(\s*\)\s*=>[^,]*,\s*2000\s*\)/s);
 ```
 
-Your callback function should set the `checkpointScreen` `style.display` property to `"none"`.
+コールバック関数は `checkpointScreen` の `style.display` プロパティを `"none"` に設定するべきです。
 
 ```js
 assert.match(code, /\s*if\s*\(\s*isCheckpointCollisionDetectionActive\s*\)\s*{\s*setTimeout\s*\(\s*\(\s*\)\s*=>\s*(\(\s*checkpointScreen\.style\.display\s*=\s*("|')none\2\s*\)|\{\s*checkpointScreen\.style\.display\s*=\s*("|')none\3\s*;?\s*\}|\s*checkpointScreen\.style\.display\s*=\s*("|')none\4\s*)\s*,\s*2000\s*\)\s*;?\s*}/s);

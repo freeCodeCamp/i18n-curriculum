@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c443eddfaeb5bdee
-title: Build a Pinterest Clone
+title: Pinterestクローンを作る
 challengeType: 4
 forumTopicId: 302352
 dashedName: build-a-pinterest-clone
@@ -8,27 +8,27 @@ dashedName: build-a-pinterest-clone
 
 # --description--
 
-**Objective:** Build an app that is functionally similar to this: <a href="https://build-a-pinterest-clone.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://build-a-pinterest-clone.freecodecamp.rocks/</a>.
+**目的:** 次の機能的に似たアプリを作成してください：<a href="https://build-a-pinterest-clone.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://build-a-pinterest-clone.freecodecamp.rocks/</a>。
 
-Fulfill the below user stories and get all of the tests to pass. Use whichever libraries or APIs you need. Give it your own personal style.
+以下のユーザーストーリーを満たし、すべてのテストに合格してください。必要なライブラリやAPIは自由に使ってください。あなた自身のスタイルを加えてください。
 
-**User Story:** As an unauthenticated user, I can login with GitHub.
+**ユーザーストーリー:** 認証されていないユーザーとして、GitHubでログインできます。
 
-**User Story:** As an authenticated user, I can link to images.
+**ユーザーストーリー:** 認証されたユーザーとして、画像にリンクできます。
 
-**User Story:** As an authenticated user, I can delete images that I've linked to.
+**ユーザーストーリー:** 認証されたユーザーとして、リンクした画像を削除できます。
 
-**User Story:** As an authenticated user, I can see a Pinterest-style wall of all the images I've linked to.
+**ユーザーストーリー:** 認証されたユーザーとして、リンクしたすべての画像のPinterestスタイルのウォールを見ることができます。
 
-**User Story:** As an unauthenticated user, I can browse other users' walls of images.
+**ユーザーストーリー:** 認証されていないユーザーとして、他のユーザーの画像ウォールを閲覧できます。
 
-**User Story:** As an authenticated user, if I upload an image that is broken, it will be replaced by a placeholder image. (can use jQuery broken image detection)
+**ユーザーストーリー:** 認証されたユーザーとして、壊れた画像をアップロードした場合、プレースホルダー画像に置き換えられます。（jQueryの壊れた画像検出を使うことができます）
 
-**Hint:** Masonry.js is a library that allows for Pinterest-style image grids.
+**ヒント:** Masonry.jsはPinterestスタイルの画像グリッドを作成できるライブラリです。
 
-Once you've finished implementing these user stories, enter the URL to your live app and, optionally, your GitHub repository. Then click the "I've completed this challenge" button.
+これらのユーザーストーリーを実装し終えたら、ライブアプリのURLと、任意でGitHubリポジトリのURLを入力してください。それから「このチャレンジを完了しました」ボタンをクリックしてください。
 
-You can get feedback on your project by sharing it on the <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp forum</a>.
+プロジェクトのフィードバックは<a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCampフォーラム</a>で共有してもらえます。
 
 # --solutions--
 

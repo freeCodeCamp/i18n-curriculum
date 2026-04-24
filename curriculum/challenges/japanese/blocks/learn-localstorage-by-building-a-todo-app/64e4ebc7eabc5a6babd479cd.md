@@ -7,13 +7,13 @@ dashedName: step-9
 
 # --description--
 
-ユーザーが `Discard` ボタンをクリックした場合は、`Cancel` と `Discard` のボタンが表示されたモーダルを閉じて、フォームモーダルも隠すようにします。
+ユーザーが `Discard` ボタンをクリックしたら、`Cancel` と `Discard` ボタンを表示しているモーダルを閉じてから、フォームモーダルを非表示にしたいです。
 
-`discardBtn` にクリックイベントリスナーを追加して、`confirmCloseDialog` 変数に `close()` メソッドを使用してください。 また、フォームモーダルも閉じるようにするため、`classList` を使って `taskForm` のクラス `hidden` をトグルしてください。
+`discardBtn` にクリックイベントリスナーを追加し、`close()` 変数に対して `confirmCloseDialog` メソッドを呼び出してください。また、`classList` に対して `hidden` を使って `taskForm` クラスを切り替え、フォームモーダルも閉じるようにしてください。
 
 # --hints--
 
-`discardBtn` 変数に対して `addEventListener()` メソッドを呼び出してください。
+`addEventListener()` 変数に対して `discardBtn` メソッドを呼び出す必要があります。
 
 ```js
 assert.match(code, /discardBtn\.addEventListener\(/)
@@ -25,19 +25,19 @@ assert.match(code, /discardBtn\.addEventListener\(/)
 assert.match(code, /discardBtn\.addEventListener\(\s*('|"|`)click\1/)
 ```
 
-アロー構文を使って、イベントリスナーをまずは空の波括弧のペアに設定してください。
+イベントリスナーはアロー構文を使って空の波括弧で設定してください。
 
 ```js
 assert.match(code, /discardBtn\.addEventListener\(\s*('|"|`)click\1\s*,\s*\(\s*\)\s*=>\s*\{/)
 ```
 
-イベントリスナーは `confirmCloseDialog` に対して `close()` メソッドを使う必要があります。
+イベントリスナーは `close()` に対して `confirmCloseDialog` メソッドを使う必要があります。
 
 ```js
 assert.match(code, /discardBtn\.addEventListener\(\s*('|"|`)click\1\s*,\s*\(\s*\)\s*=>\s*\{\s*confirmCloseDialog\.close\(\s*\)\s*;?/)
 ```
 
-イベントリスナーは `taskForm` に対し、`classList` を利用してクラス `hidden` をトグルする必要があります。
+イベントリスナーは `classList` に対して `hidden` を使い、`taskForm` クラスを切り替えてください。
 
 ```js
 assert.match(code, /discardBtn\.addEventListener\(\s*('|"|`)click\1\s*,\s*\(\s*\)\s*=>\s*\{\s*confirmCloseDialog\.close\(\s*\)\s*;?\s*taskForm\.classList\.toggle\(\s*('|"|`)hidden\2\s*\)\s*;?\s*\}\s*\)\s*;?/)

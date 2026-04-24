@@ -1,13 +1,13 @@
 ---
 id: 66f1adcf97e3e4c1bd89ebf5
-title: Web Performance Quiz
+title: ウェブパフォーマンスクイズ
 challengeType: 8
 dashedName: quiz-web-performance
 ---
 
 # --description--
 
-To pass the quiz, you must correctly answer at least 18 of the 20 questions below.
+このクイズに合格するには、以下の20問のうち少なくとも18問に正しく答える必要があります。
 
 # --quizzes--
 
@@ -17,29 +17,29 @@ To pass the quiz, you must correctly answer at least 18 of the 20 questions belo
 
 #### --text--
 
-What is the key difference between real performance and perceived performance in web development?
+ウェブ開発における実際のパフォーマンスと知覚されるパフォーマンスの主な違いは何ですか？
 
 #### --distractors--
 
-Real performance focuses on the number of HTTP requests made by the browser, while perceived performance is based on CSS rendering speed.
+実際のパフォーマンスはブラウザが行うHTTPリクエストの数に焦点を当て、知覚されるパフォーマンスはCSSのレンダリング速度に基づいています。
 
 ---
 
-Real performance is only about load times, while perceived performance relates to visual elements like animations and loading indicators.
+実際のパフォーマンスは読み込み時間のみで、知覚されるパフォーマンスはアニメーションや読み込みインジケーターなどの視覚要素に関係しています。
 
 ---
 
-Real performance only includes server-side processing times, while perceived performance is entirely client-side.
+実際のパフォーマンスはサーバー側の処理時間のみを含み、知覚されるパフォーマンスは完全にクライアント側です。
 
 #### --answer--
 
-Real performance is how fast content is loaded, while perceived performance is how quickly users believe the page loads.
+実際のパフォーマンスはコンテンツがどれだけ速く読み込まれるかで、知覚されるパフォーマンスはユーザーがページの読み込みをどれだけ速く感じるかです。
 
 ### --question--
 
 #### --text--
 
-Which metric best indicates how quickly content appears on a web page?
+ウェブページ上でコンテンツがどれだけ速く表示されるかを最もよく示す指標はどれですか？
 
 #### --distractors--
 
@@ -61,73 +61,73 @@ First Contentful Paint (FCP)
 
 #### --text--
 
-Which of the following is NOT a way to reduce page loading times?
+ページの読み込み時間を短縮する方法でないものはどれですか？
 
 #### --distractors--
 
-Optimizing Media Assets.
+メディア資産の最適化。
 
 ---
 
-Leveraging Browser Caching.
+ブラウザキャッシュの活用。
 
 ---
 
-Minifying and Compress Files.
+ファイルの縮小と圧縮。
 
 #### --answer--
 
-Using only JPEG files.
+JPEGファイルのみを使用すること。
 
 ### --question--
 
 #### --text--
 
-What is "time to usable"?
+「time to usable」とは何ですか？
 
 #### --distractors--
 
-It is the interval from when a user requests a page to when they can interact with forms on the page.
+ユーザーがページをリクエストしてからフォームに入力できるまでの間隔です。
 
 ---
 
-It is the time it takes for all images and animations to become available and usable.
+すべての画像とアニメーションが利用可能かつ使用可能になるまでの時間です。
 
 ---
 
-This is the time it takes for all CSS and JavaScript animations to load on the screen.
+すべてのCSSとJavaScriptアニメーションが画面に読み込まれるまでの時間です。
 
 #### --answer--
 
-It is the interval from when a user requests a page to when they can meaningfully interact with it.
+ユーザーがページをリクエストしてから意味のある操作ができるまでの間隔です。
 
 ### --question--
 
 #### --text--
 
-What does First Contentful Paint (FCP) measure?
+First Contentful Paint (FCP) は何を測定しますか？
 
 #### --distractors--
 
-The overall load time for all JavaScript files on the page.
+ページ上のすべてのJavaScriptファイルの総読み込み時間。
 
 ---
 
-The delay before a user can interact with any elements on the page.
+ユーザーがページ上の要素と操作できるまでの遅延。
 
 ---
 
-The time taken for all stylesheets to fully load and apply.
+すべてのスタイルシートが完全に読み込まれ適用されるまでの時間。
 
 #### --answer--
 
-The time it takes for the first piece of text or image to render.
+最初のテキストまたは画像がレンダリングされるまでの時間。
 
 ### --question--
 
 #### --text--
 
-Which of the following is NOT a commonly used performance measurement tool?
+一般的に使われるパフォーマンス測定ツールでないものはどれですか？
 
 #### --distractors--
 
@@ -149,55 +149,55 @@ WebMeasure
 
 #### --text--
 
-What are Performance Web APIs used for?
+Performance Web APIは何に使われますか？
 
 #### --distractors--
 
-It is used to measure the performance for CSS animations only.
+CSSアニメーションのパフォーマンス測定にのみ使われます。
 
 ---
 
-It is used to automatically speed up the performance for a web page.
+ウェブページのパフォーマンスを自動的に高速化します。
 
 ---
 
-It provides a detailed table of performance metrics for the user.
+ユーザーにパフォーマンス指標の詳細なテーブルを提供します。
 
 #### --answer--
 
-It lets developers track how efficiently a webpage loads and responds directly from code.
+開発者がコードから直接ウェブページの読み込みと応答の効率を追跡できるようにします。
 
 ### --question--
 
 #### --text--
 
-Which strategy can effectively enhance perceived performance?
+知覚されるパフォーマンスを効果的に向上させる戦略はどれですか？
 
 #### --distractors--
 
-Using large images to improve the overall visual quality.
+全体の視覚品質を向上させるために大きな画像を使う。
 
 ---
 
-Loading CSS styles last to prioritize content rendering.
+コンテンツのレンダリングを優先するためにCSSスタイルを最後に読み込む。
 
 ---
 
-Preloading all scripts to ensure they are ready when needed.
+必要なときに備えてすべてのスクリプトを事前読み込みする。
 
 #### --answer--
 
-Displaying a loading skeleton while content is being fetched.
+コンテンツ取得中にローディングスケルトンを表示する。
 
 ### --question--
 
 #### --text--
 
-Which of the following refers to the time it takes for a request to travel between the browser and the server?
+ブラウザとサーバー間のリクエストが往復する時間を指すのはどれですか？
 
 #### --distractors--
 
-rendering
+レンダリング
 
 ---
 
@@ -209,43 +209,43 @@ CDN
 
 #### --answer--
 
-latency
+レイテンシー
 
 ### --question--
 
 #### --text--
 
-How does optimizing CSS impact page performance?
+CSSの最適化はページパフォーマンスにどのように影響しますか？
 
 #### --distractors--
 
-It prevents the browser from executing unnecessary JavaScript.
+ブラウザが不要なJavaScriptを実行するのを防ぎます。
 
 ---
 
-It reduces the overall file size of images.
+画像のファイルサイズを減らします。
 
 ---
 
-It eliminates the need for lazy loading images.
+画像の遅延読み込みの必要をなくします。
 
 #### --answer--
 
-It speeds up the parsing of HTML.
+HTMLの解析を速くします。
 
 ### --question--
 
 #### --text--
 
-Which of the following shows how long the main thread is blocked by heavy JavaScript tasks?
+重いJavaScriptタスクによってメインスレッドがどれだけブロックされているかを示すのはどれですか？
 
 #### --distractors--
 
-Source order
+ソース順
 
 ---
 
-Bounce rate
+直帰率
 
 ---
 
@@ -259,29 +259,29 @@ Total Blocking Time
 
 #### --text--
 
-When measuring Interaction to Next Paint (INP), what is being evaluated?
+Interaction to Next Paint (INP) を測定するとき、何が評価されていますか？
 
 #### --distractors--
 
-The time it takes for the page to fully load all styles and images after a user interaction.
+ユーザーの操作後にページがすべてのスタイルと画像を完全に読み込むまでの時間。
 
 ---
 
-The delay between a user's interaction and the browser's ability to register the next user input.
+ユーザーの操作とブラウザが次のユーザー入力を登録できるまでの遅延。
 
 ---
 
-The interval between JavaScript execution and the browser refreshing the page content.
+JavaScriptの実行とブラウザがページ内容を更新する間の間隔。
 
 #### --answer--
 
-The time between a user's interaction and the browser responding by rendering the next frame.
+ユーザーの操作とブラウザが次のフレームをレンダリングして応答するまでの時間。
 
 ### --question--
 
 #### --text--
 
-Which of the following APIs gives you high-precision timestamps (in milliseconds) to measure how long different parts of your site take to load?
+サイトの各部分が読み込まれるまでの時間をミリ秒単位で高精度に測定できるAPIはどれですか？
 
 #### --distractors--
 
@@ -303,7 +303,7 @@ Which of the following APIs gives you high-precision timestamps (in milliseconds
 
 #### --text--
 
-Which of the following APIs gives you a breakdown of every stage of page loading from DNS lookup to `DOMContentLoaded`?
+DNSルックアップから`DOMContentLoaded`までのページ読み込みの各段階を詳細に示すAPIはどれですか？
 
 #### --distractors--
 
@@ -325,7 +325,7 @@ Performance Timing API
 
 #### --text--
 
-Which of the following listens for performance events such as layout shifts, long tasks, and user interactions?
+レイアウトシフト、長時間タスク、ユーザー操作などのパフォーマンスイベントを監視するAPIはどれですか？
 
 #### --distractors--
 
@@ -379,51 +379,51 @@ observer.observe({ type: "longtask", buffered: true });
 
 #### --text--
 
-How does lazy loading images enhance page performance?
+画像の遅延読み込みはページパフォーマンスをどのように向上させますか？
 
 #### --distractors--
 
-It ensures all images load immediately for a better user experience.
+すべての画像を即座に読み込んでユーザー体験を向上させます。
 
 ---
 
-It reduces the size of image files to speed up loading.
+画像ファイルのサイズを減らして読み込みを速くします。
 
 ---
 
-It preloads images to prevent any loading delays.
+画像を事前に読み込んで読み込み遅延を防ぎます。
 
 #### --answer--
 
-It delays loading non-essential images until they are in view.
+重要でない画像は表示範囲に入るまで読み込みを遅らせます。
 
 ### --question--
 
 #### --text--
 
-What is code splitting?
+コードスプリッティングとは何ですか？
 
 #### --distractors--
 
-It involves splitting your React code into modules that perform only critical tasks
+Reactコードを重要なタスクのみを実行するモジュールに分割すること。
 
 ---
 
-It involves splitting your HTML code into modules that perform only non-critical tasks.
+HTMLコードを重要でないタスクのみを実行するモジュールに分割すること。
 
 ---
 
-It involves splitting your CSS code into modules that perform critical and non-critical tasks.
+CSSコードを重要なタスクと重要でないタスクに分割すること。
 
 #### --answer--
 
-It involves splitting your JavaScript code into modules that perform critical and non-critical tasks.
+JavaScriptコードを重要なタスクと重要でないタスクを実行するモジュールに分割すること。
 
 ### --question--
 
 #### --text--
 
-Which of the following is the correct way to lazy load an image?
+画像を遅延読み込みする正しい方法はどれですか？
 
 #### --distractors--
 
@@ -453,43 +453,42 @@ Which of the following is the correct way to lazy load an image?
 
 #### --text--
 
-Which of the following is NOT a way to improve INP?
+INPを改善する方法でないものはどれですか？
 
 #### --distractors--
 
-Reducing the main thread work by breaking up long JavaScript tasks.
+長いJavaScriptタスクを分割してメインスレッドの作業を減らす。
 
 ---
 
-Optimizing event handlers.
+イベントハンドラの最適化。
 
 ---
 
-Deferring or lazy-loading heavy assets.
+重い資産の遅延読み込みまたは先送り。
 
 #### --answer--
 
-Using only PNG and JPEG images.
+PNGとJPEG画像のみを使用すること。
 
 ### --question--
 
 #### --text--
 
-Why is energy efficiency a crucial aspect of web performance?
+なぜエネルギー効率はウェブパフォーマンスの重要な側面なのですか？
 
 #### --distractors--
 
-It enhances the overall visual appeal of the webpage.
+ウェブページの全体的な視覚的魅力を高めるからです。
 
 ---
 
-It minimizes the amount of JavaScript used on a webpage.
+ウェブページで使用するJavaScriptの量を最小限にするからです。
 
 ---
 
-It decreases the number of CSS files needed and makes your CSS run faster.
+必要なCSSファイルの数を減らし、CSSの実行を速くするからです。
 
 #### --answer--
 
-It reduces the load on hardware, conserving energy and improving sustainability.
-
+ハードウェアへの負荷を減らし、エネルギーを節約して持続可能性を向上させるからです。

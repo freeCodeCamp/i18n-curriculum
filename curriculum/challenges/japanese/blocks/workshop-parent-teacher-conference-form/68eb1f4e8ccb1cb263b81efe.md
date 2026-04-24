@@ -1,23 +1,23 @@
 ---
 id: 68eb1f4e8ccb1cb263b81efe
-title: Step 22
+title: ステップ 22
 challengeType: 0
 dashedName: step-22
 ---
 
 # --description--
 
-The description text needs to be a bit larger. Select the element with the class `description` and set its `font-size` to `1.2rem`.
+説明文のテキストを少し大きくする必要があります。`description` クラスを持つ要素を選択し、その `font-size` を `1.2rem` に設定してください。
 
 # --hints--
 
-You should target the element with the class `description`.
+`description` クラスを持つ要素を対象にしてください。
 
 ```js
 assert.exists(new __helpers.CSSHelp(document).getStyle('.description'));
 ```
 
-Set the `font-size` property to `1.2rem`.
+`font-size` プロパティを `1.2rem` に設定してください。
 
 ```js
 const style = new __helpers.CSSHelp(document).getStyle('.description')
@@ -139,4 +139,3 @@ body {
 
 --fcc-editable-region--
 ```
-

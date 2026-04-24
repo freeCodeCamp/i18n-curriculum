@@ -1,6 +1,6 @@
 ---
 id: 699e71f58f18cf77dfce5c16
-title: Solving Basic Trig Equations
+title: 基本的な三角関数の方程式の解き方
 challengeType: 11
 videoId: JfTpmqwIzzc
 dashedName: solving-basic-trig-equations
@@ -8,32 +8,30 @@ dashedName: solving-basic-trig-equations
 
 # --description--
 
-In this video, you will learn how to solve basic trigonometric equations.
+このビデオでは、基本的な三角関数の方程式の解き方を学びます。
 
 # --questions--
 
 ## --text--
 
-What was the first step in solving the trig equation in the first example?
+最初の例で三角関数の方程式を解く際の最初のステップは何でしたか？
 
 ## --answers--
 
-Isolating the cosine function.
+余弦関数を孤立させること。
 
 ---
 
-Maximizing the cosine function.
+余弦関数を最大化すること。
 
 ---
 
-Minimizing the cosine function.
+余弦関数を最小化すること。
 
 ---
 
-Replacing the cosine function with the sine function.
+余弦関数を正弦関数に置き換えること。
 
 ## --video-solution--
 
 1
-
-

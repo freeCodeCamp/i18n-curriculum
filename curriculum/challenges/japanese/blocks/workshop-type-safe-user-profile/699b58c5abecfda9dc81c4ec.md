@@ -1,25 +1,25 @@
 ---
 id: 699b58c5abecfda9dc81c4ec
-title: Step 3
+title: ステップ 3
 challengeType: 1
 dashedName: step-3
 ---
 
 # --description--
 
-Right now the `profile` object only has three properties. But it would be nice to have a few more.
+現在、`profile` オブジェクトには3つのプロパティしかありません。でも、もう少し増やせるといいですね。
 
-Add a property called `mood` to the `profile` object. Its value should be `null`.
+`mood` オブジェクトに `profile` という名前のプロパティを追加してください。その値は `null` にしてください。
 
 # --hints--
 
-Your `profile` object should have a `mood` property.
+あなたの `profile` オブジェクトには `mood` プロパティがあるはずです。
 
 ```js
 assert.property(profile, "mood");
 ```
 
-Your `mood` property should have a value of `null`.
+あなたの `mood` プロパティの値は `null` であるべきです。
 
 ```js
 assert.isNull(profile?.mood);

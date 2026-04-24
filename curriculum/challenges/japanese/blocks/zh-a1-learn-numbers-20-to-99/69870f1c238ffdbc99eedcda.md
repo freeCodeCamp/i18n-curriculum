@@ -1,6 +1,6 @@
 ---
 id: 69870f1c238ffdbc99eedcda
-title: Task 2
+title: タスク 2
 challengeType: 22
 dashedName: task-2
 lang: zh-CN
@@ -9,26 +9,26 @@ inputType: pinyin-to-hanzi
 
 # --description--
 
-You'll now practice writing a few numbers that are between 20 and 29. To complete this task, keep in mind that in Chinese, the number 20 is called `二十 (èr shí)`.
+今から20から29の間のいくつかの数字を書く練習をします。このタスクを完了するには、中国語で20は`二十 (èr shí)`と呼ばれることを覚えておいてください。
 
-Also, the numbers from 0 to 9 are:
+また、0から9までの数字は次の通りです：
 
-| Number | Chinese    |
-|:------ |:---------- |
-| 0      | `零 (líng)` |
-| 1      | `一 (yī)`   |
-| 2      | `二 (èr)`   |
-| 3      | `三 (sān)`  |
-| 4      | `四 (sì)`   |
-| 5      | `五 (wǔ)`   |
-| 6      | `六 (liù)`  |
-| 7      | `七 (qī)`   |
-| 8      | `八 (bā)`   |
-| 9      | `九 (jiǔ)`  |
+| 数字 | 中国語 |
+| :--- | :--- |
+| 0 | `零 (líng)` |
+| 1 | `一 (yī)` |
+| 2 | `二 (èr)` |
+| 3 | `三 (sān)` |
+| 4 | `四 (sì)` |
+| 5 | `五 (wǔ)` |
+| 6 | `六 (liù)` |
+| 7 | `七 (qī)` |
+| 8 | `八 (bā)` |
+| 9 | `九 (jiǔ)` |
 
 # --instructions--
 
-This task doesn't have audio. Complete the blanks below with the corresponding numbers in Chinese.
+このタスクには音声はありません。以下の空欄を中国語の対応する数字で埋めてください。
 
 # --fillInTheBlank--
 
@@ -46,7 +46,7 @@ This task doesn't have audio. Complete the blanks below with the corresponding n
 
 ### --feedback--
 
-This number in Chinese is formed by adding `一 (yī)` after `二十 (shí)`.
+この数字は、中国語で`一 (yī)`の後に`二十 (shí)`を付け加えて作られます。
 
 ---
 
@@ -54,7 +54,7 @@ This number in Chinese is formed by adding `一 (yī)` after `二十 (shí)`.
 
 ### --feedback--
 
-This number in Chinese is formed by adding `五 (wǔ)` after `二十 (shí)`.
+この数字は、中国語で`五 (wǔ)`の後に`二十 (shí)`を付け加えて作られます。
 
 ---
 
@@ -62,16 +62,16 @@ This number in Chinese is formed by adding `五 (wǔ)` after `二十 (shí)`.
 
 ### --feedback--
 
-This number in Chinese is formed by adding `九 (jiǔ)` after `二十 (shí)`.
+この数字は、中国語で`九 (jiǔ)`の後に`二十 (shí)`を付け加えて作られます。
 
 # --explanation--
 
-The numbers are:
+数字は次の通りです：
 
 `二十一 (èr shí yī)` - 21
 
 `二十五 (èr shí wǔ)` - 25
 
-`二十九 (èr shí jiǔ)` - 29
+`二十九 (èr shí jiǔ)` - 29 
 
-They are formed by adding the Chinese for 1, 5 and 9 after `二十 (èr shí)` (20).
+これらは`二十 (èr shí)`（20）の後に、それぞれ1、5、9の中国語を付け加えて作られます。

@@ -1,6 +1,6 @@
 ---
 id: a0339c4075344cbfc2cd939c
-title: Classes and Objects
+title: クラスとオブジェクト
 challengeType: 11
 videoId: fR3dh5_MPJs
 dashedName: classes-and-objects
@@ -8,29 +8,29 @@ dashedName: classes-and-objects
 
 # --description--
 
-In this video, you will learn how to create classes and objects in Python to write object-oriented programs.
+このビデオでは、Pythonでクラスとオブジェクトを作成してオブジェクト指向プログラムを書く方法を学びます。
 
 # --questions--
 
 ## --text--
 
-What is the role of `def __init__(self):` inside of a class?
+クラスの中の`def __init__(self):`の役割は何ですか？
 
 ## --answers--
 
-It represents a function for calling the method.
+メソッドを呼び出すための関数を表します。
 
 ---
 
-It specifies the type of the class.
+クラスの型を指定します。
 
 ---
 
-It allows a class to inherit methods from another class.
+クラスが別のクラスからメソッドを継承できるようにします。
 
 ---
 
-It represents an initializer method.
+初期化メソッドを表します。
 
 ## --video-solution--
 

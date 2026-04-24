@@ -1,6 +1,6 @@
 ---
 id: 698dc59b7932b3cc4b19c921
-title: Constant and Logarithmic Time
+title: 定数時間と対数時間
 challengeType: 11
 videoId: KOMvBi-DabE
 dashedName: constant-and-logarithmic-time
@@ -8,13 +8,13 @@ dashedName: constant-and-logarithmic-time
 
 # --description--
 
-In this video, you will learn about constant and logarithmic times for algorithms.
+このビデオでは、アルゴリズムの定数時間と対数時間について学びます。
 
 # --questions--
 
 ## --text--
 
-Which of the following is the correct way to represent constant time in Big O notation?
+次のうち、Big O表記で定数時間を正しく表す方法はどれですか？
 
 ## --answers--
 

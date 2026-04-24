@@ -1,13 +1,13 @@
 ---
 id: 66ed8fb9f45ce3ece4053eac
-title: Computer Basics Quiz
+title: コンピュータ基礎クイズ
 challengeType: 8
 dashedName: quiz-computer-basics
 ---
 
 # --description--
 
-To pass the quiz, you must correctly answer at least 18 of the 20 questions below.
+クイズに合格するには、以下の20問のうち少なくとも18問に正しく答える必要があります。
 
 # --quizzes--
 
@@ -17,51 +17,51 @@ To pass the quiz, you must correctly answer at least 18 of the 20 questions belo
 
 #### --text--
 
-What part of a computer is used to connect the other internal components together?
+コンピュータの内部の他のコンポーネントを接続するために使われる部分はどれですか？
 
 #### --distractors--
 
-Processor
+プロセッサー
 
 ---
 
-Graphics card
+グラフィックスカード
 
 ---
 
-Memory
+メモリ
 
 #### --answer--
 
-Motherboard
+マザーボード
 
 ### --question--
 
 #### --text--
 
-What are browser developer tools?
+ブラウザの開発者ツールとは何ですか？
 
 #### --distractors--
 
-Tools for editing browser settings and managing user profiles.
+ブラウザの設定を編集したりユーザープロファイルを管理するためのツール。
 
 ---
 
-Utilities for blocking ads and improving web page performance.
+広告をブロックしたりウェブページのパフォーマンスを向上させるユーティリティ。
 
 ---
 
-Software for managing browser extensions and plug-ins.
+ブラウザの拡張機能やプラグインを管理するソフトウェア。
 
 #### --answer--
 
-Built-in features in browsers that help developers debug and inspect websites.
+開発者がウェブサイトのデバッグや検査を行うためにブラウザに組み込まれている機能。
 
 ### --question--
 
 #### --text--
 
-Which of the following ISP connections are typically the fastest?
+次のうち、一般的に最も高速なISP接続はどれですか？
 
 #### --distractors--
 
@@ -69,43 +69,43 @@ DSL
 
 ---
 
-Satellite
+衛星
 
 ---
 
-Cable
+ケーブル
 
 #### --answer--
 
-Fiber optic
+光ファイバー
 
 ### --question--
 
 #### --text--
 
-Which of the following is NOT a safe practice when signing in?
+サインイン時に安全でない行為はどれですか？
 
 #### --distractors--
 
-Using a fingerprint or face scanner.
+指紋や顔認証を使うこと。
 
 ---
 
-Making a long and complex password like `@ppl3_+B@nana34823`.
+`@ppl3_+B@nana34823`のような長く複雑なパスワードを作ること。
 
 ---
 
-Setting up two-factor authentication (2FA).
+二要素認証（2FA）を設定すること。
 
 #### --answer--
 
-Using passwords based on personal information like your birthday.
+誕生日など個人情報に基づくパスワードを使うこと。
 
 ### --question--
 
 #### --text--
 
-Which of the following is NOT a web browser?
+次のうちウェブブラウザではないものはどれですか？
 
 #### --distractors--
 
@@ -127,7 +127,7 @@ Google Drive
 
 #### --text--
 
-When you need to edit a piece of code, which of the following are you most likely going to use?
+コードを編集する必要があるとき、最も使われる可能性が高いのはどれですか？
 
 #### --distractors--
 
@@ -149,7 +149,7 @@ Visual Studio Code
 
 #### --text--
 
-Which of the following is used primarily for managing files stored on a local hard drive?
+主にローカルハードドライブに保存されたファイルを管理するために使われるのはどれですか？
 
 #### --distractors--
 
@@ -165,101 +165,101 @@ Google Drive
 
 #### --answer--
 
-Windows File Explorer
+Windows ファイルエクスプローラー
 
 ### --question--
 
 #### --text--
 
-What is NOT a good practice when naming files?
+ファイル名を付ける際に良くない習慣はどれですか？
 
 #### --distractors--
 
-Putting an underscore or hyphen between words.
+単語の間にアンダースコアやハイフンを入れること。
 
 ---
 
-Use a casing style such as camelCase and sticking with it.
+キャメルケースなどの大文字小文字のスタイルを使い、それを守ること。
 
 ---
 
-Putting a version number at the end of a document like `summaryReport_v2.docx`.
+`summaryReport_v2.docx`のように文書の最後にバージョン番号を付けること。
 
 #### --answer--
 
-Using non-descriptive names like `file1.txt`.
+`file1.txt`のような説明的でない名前を使うこと。
 
 ### --question--
 
 #### --text--
 
-What does the term "domain name" refer to?
+「ドメイン名」という用語は何を指しますか？
 
 #### --distractors--
 
-A type of software that manages website files and databases.
+ウェブサイトのファイルやデータベースを管理するソフトウェアの一種。
 
 ---
 
-The physical location of a web server in a data center.
+データセンター内のウェブサーバーの物理的な場所。
 
 ---
 
-None of the other choices.
+他の選択肢のどれでもない。
 
 #### --answer--
 
-The address used to identify websites on the internet.
+インターネット上でウェブサイトを識別するために使われるアドレス。
 
 ### --question--
 
 #### --text--
 
-Which of the following is a way to send a file to the Recycle Bin/Trash?
+ファイルをゴミ箱に送る方法はどれですか？
 
 #### --distractors--
 
-All of the other choices.
+他のすべての選択肢。
 
 ---
 
-Pressing the `Backspace` key on the keyboard.
+キーボードの`Backspace`キーを押すこと。
 
 ---
 
-Moving it to an Archived folder.
+アーカイブフォルダーに移動すること。
 
 #### --answer--
 
-Right-click on it and select the Delete/Move to trash option.
+右クリックして「削除」または「ゴミ箱に移動」を選択すること。
 
 ### --question--
 
 #### --text--
 
-What is a RAM?
+RAMとは何ですか？
 
 #### --distractors--
 
-A network protocol used for transferring files between devices.
+デバイス間でファイルを転送するためのネットワークプロトコル。
 
 ---
 
-A permanent storage device used for saving files and applications.
+ファイルやアプリケーションを保存するための永久的な記憶装置。
 
 ---
 
-A component in a computer responsible for generating graphics and rendering images.
+グラフィックス生成や画像レンダリングを担当するコンポーネント。
 
 #### --answer--
 
-A temporary memory for fast data access by the processor.
+プロセッサーが高速にデータにアクセスするための一時的なメモリ。
 
 ### --question--
 
 #### --text--
 
-What file type will be best suited for writing a `README` file?
+`README`ファイルを書くのに最適なファイルタイプは何ですか？
 
 #### --distractors--
 
@@ -281,143 +281,143 @@ What file type will be best suited for writing a `README` file?
 
 #### --text--
 
-What is an Integrated Development Environment (IDE)?
+統合開発環境（IDE）とは何ですか？
 
 #### --distractors--
 
-A platform designed for deploying and hosting web applications.
+ウェブアプリケーションのデプロイとホスティングのために設計されたプラットフォーム。
 
 ---
 
-A type of hardware device used for testing and debugging electronic circuits.
+電子回路のテストとデバッグに使われるハードウェアデバイスの一種。
 
 ---
 
-A version control system that helps developers track changes in source code during software development.
+ソフトウェア開発中にソースコードの変更を追跡するバージョン管理システム。
 
 #### --answer--
 
-A program that integrates tools for writing, debugging, and running code.
+コードの作成、デバッグ、実行のためのツールを統合したプログラム。
 
 ### --question--
 
 #### --text--
 
-What is a piece of software that allows you to look at online content called?
+オンラインコンテンツを見るためのソフトウェアは何と呼ばれますか？
 
 #### --distractors--
 
-Internet content displayer
+インターネットコンテンツディスプレイヤー
 
 ---
 
-Search engine
+検索エンジン
 
 ---
 
-Website
+ウェブサイト
 
 #### --answer--
 
-Web browser
+ウェブブラウザ
 
 ### --question--
 
 #### --text--
 
-What is a piece of software that lists web pages related to a user's query called?
+ユーザーのクエリに関連するウェブページを一覧表示するソフトウェアは何と呼ばれますか？
 
 #### --distractors--
 
-Page finder
+ページファインダー
 
 ---
 
-Web browser
+ウェブブラウザ
 
 ---
 
-Website
+ウェブサイト
 
 #### --answer--
 
-Search engine
+検索エンジン
 
 ### --question--
 
 #### --text--
 
-What is a set of one or more web pages under one domain name called?
+1つ以上のウェブページが1つのドメイン名の下にあるものは何と呼ばれますか？
 
 #### --distractors--
 
-Web browser
+ウェブブラウザ
 
 ---
 
-Hyperlink
+ハイパーリンク
 
 ---
 
-Search engine
+検索エンジン
 
 #### --answer--
 
-Website
+ウェブサイト
 
 ### --question--
 
 #### --text--
 
-To search for an exact phrase, what should you enclose your search query with?
+正確なフレーズを検索するには、検索クエリを何で囲むべきですか？
 
 #### --distractors--
 
-Backticks
+バックティック
 
 ---
 
-Parentheses
+丸括弧
 
 ---
 
-Brackets
+括弧
 
 #### --answer--
 
-Quotation marks
+引用符
 
 ### --question--
 
 #### --text--
 
-Which is NOT a way to install a web browser?
+ウェブブラウザをインストールする方法でないものはどれですか？
 
 #### --distractors--
 
-Using a package manager.
+パッケージマネージャーを使うこと。
 
 ---
 
-Directly downloading from the website.
+ウェブサイトから直接ダウンロードすること。
 
 ---
 
-Using an App Store like Microsoft Store.
+Microsoft Storeのようなアプリストアを使うこと。
 
 #### --answer--
 
-Pressing the Network/Internet button in Settings.
+設定のネットワーク／インターネットボタンを押すこと。
 
 ### --question--
 
 #### --text--
 
-Which of the following formats does NOT preserve image quality after compression?
+圧縮後に画像の品質を保持しないフォーマットはどれですか？
 
 #### --distractors--
 
-All of the other choices.
+他のすべての選択肢。
 
 ---
 
@@ -435,23 +435,23 @@ JPEG
 
 #### --text--
 
-Which of the following parts is located in a socket on the motherboard?
+マザーボードのソケットにある部品はどれですか？
 
 #### --distractors--
 
-The router
+ルーター
 
 ---
 
-The keyboard
+キーボード
 
 ---
 
-The hard drive (HDD)
+ハードドライブ（HDD）
 
 #### --answer--
 
-The CPU
+CPU
 
 ## --quiz--
 
@@ -459,63 +459,63 @@ The CPU
 
 #### --text--
 
-Which of the following is a basic part of the computer?
+コンピュータの基本的な部分はどれですか？
 
 #### --distractors--
 
-The word processor
+ワードプロセッサー
 
 ---
 
-The task manager
+タスクマネージャー
 
 ---
 
-The memory manager
+メモリマネージャー
 
 #### --answer--
 
-The central processing unit
+中央処理装置
 
 ### --question--
 
 #### --text--
 
-What is a pointing device for a computer?
+コンピュータのポインティングデバイスは何ですか？
 
 #### --distractors--
 
-A stick for pointing at computers
+コンピュータを指すための棒
 
 ---
 
-A retractable device used in PowerPoint presentations
+PowerPointプレゼンテーションで使う伸縮式デバイス
 
 ---
 
-A laser pointer
+レーザーポインター
 
 #### --answer--
 
-A mouse or touchpad
+マウスまたはタッチパッド
 
 ### --question--
 
 #### --text--
 
-What is a type of ISP provider?
+ISPプロバイダーの種類はどれですか？
 
 #### --distractors--
 
-Satellite
+衛星
 
 ---
 
-Fiber optic
+光ファイバー
 
 ---
 
-Dial up
+ダイヤルアップ
 
 #### --answer--
 
@@ -525,29 +525,29 @@ Tier 1
 
 #### --text--
 
-What is a best practice when naming files for a web application?
+ウェブアプリケーションのファイル名を付ける際のベストプラクティスは何ですか？
 
 #### --distractors--
 
-Using special characters.
+特殊文字を使うこと。
 
 ---
 
-Using spaces to separate the words.
+単語の間にスペースを使うこと。
 
 ---
 
-Using generic words.
+一般的な単語を使うこと。
 
 #### --answer--
 
-Using hyphens instead of spaces.
+スペースの代わりにハイフンを使うこと。
 
 ### --question--
 
 #### --text--
 
-Which of the following is a common file type when working with web applications?
+ウェブアプリケーションでよく使われるファイルタイプはどれですか？
 
 #### --distractors--
 
@@ -569,7 +569,7 @@ Which of the following is a common file type when working with web applications?
 
 #### --text--
 
-What is a common file type for a video file?
+動画ファイルの一般的なファイルタイプはどれですか？
 
 #### --distractors--
 
@@ -591,7 +591,7 @@ What is a common file type for a video file?
 
 #### --text--
 
-Which of the following types is commonly used for image files?
+画像ファイルでよく使われるタイプはどれですか？
 
 #### --distractors--
 
@@ -613,7 +613,7 @@ Which of the following types is commonly used for image files?
 
 #### --text--
 
-Microsoft Edge is the default web browser of which operating system?
+Microsoft Edgeはどのオペレーティングシステムのデフォルトウェブブラウザですか？
 
 #### --distractors--
 
@@ -635,29 +635,29 @@ Windows
 
 #### --text--
 
-What is a search engine?
+検索エンジンとは何ですか？
 
 #### --distractors--
 
-A part of the hard drive of a computer.
+コンピュータのハードドライブの一部。
 
 ---
 
-Advanced software that is only used by academic researchers.
+学術研究者だけが使う高度なソフトウェア。
 
 ---
 
-A tool for finding web components.
+ウェブコンポーネントを探すためのツール。
 
 #### --answer--
 
-A web based tool for searching information on the internet.
+インターネット上の情報を検索するためのウェブベースのツール。
 
 ### --question--
 
 #### --text--
 
-Which of the following is NOT a type of browser?
+次のうちブラウザの種類でないものはどれですか？
 
 #### --distractors--
 
@@ -679,7 +679,7 @@ GitHub
 
 #### --text--
 
-Which of the following is NOT a cloud-based hosting service for repositories?
+次のうちリポジトリのクラウドベースホスティングサービスでないものはどれですか？
 
 #### --distractors--
 
@@ -701,59 +701,59 @@ Ona
 
 #### --text--
 
-Which of the following is not primarily a part of an integrated development environment?
+統合開発環境の主な部分でないものはどれですか？
 
 #### --distractors--
 
-A tool for writing.
+コードを書くためのツール。
 
 ---
 
-A tool for testing code.
+コードをテストするためのツール。
 
 ---
 
-A tool for debugging code.
+コードをデバッグするためのツール。
 
 #### --answer--
 
-A tool for storing code.
+コードを保存するためのツール。
 
 ### --question--
 
 #### --text--
 
-What is a best practice for naming files?
+ファイル名を付ける際のベストプラクティスは何ですか？
 
 #### --distractors--
 
-Creating a script that uses the same file names for all your projects.
+すべてのプロジェクトで同じファイル名を使うスクリプトを作ること。
 
 ---
 
-Naming the main file with the same name as the folder it is in.
+メインファイルの名前をそのフォルダー名と同じにすること。
 
 ---
 
-Using a unique sequence of numbers at the end of the file name.
+ファイル名の最後にユニークな数字のシーケンスを使うこと。
 
 #### --answer--
 
-Using a descriptive name for each file.
+各ファイルに説明的な名前を付けること。
 
 ### --question--
 
 #### --text--
 
-What is the built-in way you can use to search for files on your computer?
+コンピュータでファイルを検索するための組み込みの方法は何ですか？
 
 #### --distractors--
 
-Google or Firefox
+GoogleやFirefox
 
 ---
 
-A search engine
+検索エンジン
 
 ---
 
@@ -761,13 +761,13 @@ GitHub
 
 #### --answer--
 
-The file explorer
+ファイルエクスプローラー
 
 ### --question--
 
 #### --text--
 
-What is a common search strategy to search for file types?
+ファイルタイプを検索する一般的な検索戦略は何ですか？
 
 #### --distractors--
 
@@ -789,7 +789,7 @@ What is a common search strategy to search for file types?
 
 #### --text--
 
-What is the default page for a website?
+ウェブサイトのデフォルトページは何ですか？
 
 #### --distractors--
 
@@ -811,73 +811,73 @@ What is the default page for a website?
 
 #### --text--
 
-Which file managers can you use to create, move, and delete files?
+ファイルの作成、移動、削除に使えるファイルマネージャーはどれですか？
 
 #### --distractors--
 
-Google or Bing
+GoogleやBing
 
 ---
 
-Windows or macOS
+WindowsやmacOS
 
 ---
 
-Findex or Firefox
+FindexやFirefox
 
 #### --answer--
 
-Explorer or Finder
+ExplorerやFinder
 
 ### --question--
 
 #### --text--
 
-What is Git?
+Gitとは何ですか？
 
 #### --distractors--
 
-A centralized storage location for code repositories.
+コードリポジトリの集中管理場所。
 
 ---
 
-A tool for adding, updating, and removing libraries and project dependencies.
+ライブラリやプロジェクト依存関係の追加、更新、削除ツール。
 
 ---
 
-A cloud-based hosting service for repositories.
+リポジトリのクラウドベースホスティングサービス。
 
 #### --answer--
 
-A version control system for tracking changes and collaborating with others.
+変更を追跡し他者と協力するためのバージョン管理システム。
 
 ### --question--
 
 #### --text--
 
-What is random access memory?
+ランダムアクセスメモリとは何ですか？
 
 #### --distractors--
 
-A permanent storage location that is used to store data.
+データを保存するための永久的な記憶場所。
 
 ---
 
-A volatile way to access data in a sequential manner.
+順次的にデータにアクセスする揮発性の方法。
 
 ---
 
-A processor used for generating passwords.
+パスワード生成に使われるプロセッサー。
 
 #### --answer--
 
-A temporary storage location for the computer's central processing unit.
+コンピュータの中央処理装置が使う一時的な記憶場所。
 
 ### --question--
 
 #### --text--
 
-Which file format is used to compress files?
+ファイルを圧縮するために使われるファイル形式はどれですか？
 
 #### --distractors--
 
@@ -894,4 +894,3 @@ Which file format is used to compress files?
 #### --answer--
 
 `ZIP`
-

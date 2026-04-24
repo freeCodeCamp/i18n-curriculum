@@ -1,6 +1,6 @@
 ---
 id: 698dda7a7932b3cc4b19c935
-title: Merge Sort
+title: マージソート
 challengeType: 11
 videoId: oqcS-Jw8JXM
 dashedName: merge-sort
@@ -8,29 +8,29 @@ dashedName: merge-sort
 
 # --description--
 
-In this video, you will learn about the merge sort algorithm.
+このビデオでは、マージソートアルゴリズムについて学びます。
 
 # --questions--
 
 ## --text--
 
-What algorithmic strategy is used for the merge sort algorithm?
+マージソートアルゴリズムにはどのようなアルゴリズム戦略が使われていますか？
 
 ## --answers--
 
-Greedy
+貪欲法
 
 ---
 
-Dynamic Programming
+動的計画法
 
 ---
 
-Divide and Conquer
+分割統治法
 
 ---
 
-Backtracking
+バックトラッキング
 
 ## --video-solution--
 

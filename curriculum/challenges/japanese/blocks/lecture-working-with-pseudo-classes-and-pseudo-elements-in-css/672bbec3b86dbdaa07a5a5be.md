@@ -1,24 +1,24 @@
 ---
 id: 672bbec3b86dbdaa07a5a5be
-title: What Are Examples of Functional Pseudo-classes?
+title: 関数型疑似クラスの例とは何ですか？
 challengeType: 19
 dashedName: what-are-examples-of-functional-pseudo-classes
 ---
 
 # --interactive--
 
-Functional pseudo-classes allow you to select elements based on more complex conditions or relationships. Unlike regular pseudo-classes which target elements based on a state, for example, `:hover`, `:focus`, functional pseudo-classes accept arguments within parentheses, hence the name "functional pseudo-classes".
+関数型疑似クラスは、より複雑な条件や関係に基づいて要素を選択できるようにします。状態に基づいて要素を対象とする通常の疑似クラスとは異なり、例えば `:hover`、`:focus`、関数型疑似クラスは丸括弧内に引数を受け取るため、「関数型疑似クラス」と呼ばれます。
 
-Examples of functional pseudo-classes are:
+関数型疑似クラスの例は以下の通りです：
 
 - `:is()`
 - `:where()`
 - `:has()`
 - `:not()`
 
-Let's take a deeper look at each of these functional pseudo-classes with examples.
+これらの関数型疑似クラスそれぞれを例とともに詳しく見ていきましょう。
 
-The `:is()` pseudo-class is useful when you want to style a group of elements that share some, but not all, characteristics. For example, you might want to style different types of buttons on your website, including `button` elements, links styled as buttons, and `input` elements with types `submit` and `reset`. Here's an example representing that. Without the `:is()` function, you would have to write a complex selector like this:
+`:is()` 疑似クラスは、いくつかの特徴を共有するがすべてではない要素のグループにスタイルを適用したい場合に便利です。例えば、ウェブサイト上の異なる種類のボタン、`button` 要素、ボタンとしてスタイル付けされたリンク、`input` 要素でタイプが `submit` と `reset` のものなどをスタイル付けしたい場合です。以下はそれを表す例です。`:is()` 関数がなければ、次のような複雑なセレクターを書く必要があります：
 
 :::interactive_editor
 
@@ -59,7 +59,7 @@ input[type='reset']:hover {
 
 :::
 
-With the `:is()` function, you can write a more compact and understandable selector like this:
+`:is()` 関数を使えば、より簡潔で理解しやすいセレクターを書くことができます：
 
 :::interactive_editor
 
@@ -94,9 +94,9 @@ With the `:is()` function, you can write a more compact and understandable selec
 
 :::
 
-The `:where()` pseudo-class functions similarly to `:is()`, but it doesn't increase the specificity of your selectors. This makes it ideal for applying styles without affecting the specificity of other rules.
+`:where()` 疑似クラスは `:is()` と似ていますが、セレクターの特異性を高めません。これにより、他のルールの特異性に影響を与えずにスタイルを適用するのに最適です。
 
-For example, you can use the `:where()` function to apply zero `margin` and `padding` to heading elements. This ensures that the reset won't interfere with more specific styles you might apply later. Here's an example for that:
+例えば、`:where()` 関数を使って見出し要素にゼロの `margin` と `padding` を適用できます。これにより、リセットが後で適用するより特異性の高いスタイルに干渉しません。以下はその例です：
 
 :::interactive_editor
 
@@ -120,9 +120,9 @@ For example, you can use the `:where()` function to apply zero `margin` and `pad
 
 :::
 
-Styling a parent element based on its children's states was previously challenging until the `:has()` pseudo-class was introduced. It allows you to apply styles to a parent element based on the presence or state of its child elements.
+子要素の状態に基づいて親要素をスタイル付けすることは、`:has()` 疑似クラスが導入されるまでは難しかったです。これにより、子要素の存在や状態に基づいて親要素にスタイルを適用できます。
 
-For example, the CSS below will only apply to any `article` element that has an `h2` in it:
+例えば、以下のCSSは `article` 要素の中に `h2` がある場合にのみ適用されます：
 
 :::interactive_editor
 
@@ -148,7 +148,7 @@ article:has(h2) {
 
 :::
 
-The `:not()` pseudo-class is ideal for situations where you want to apply styles to a group of elements, excluding one or more specific exceptions. In the CSS below, any button that is not a primary button will have a grey background:
+`:not()` 疑似クラスは、1つまたは複数の特定の例外を除外して要素のグループにスタイルを適用したい場合に最適です。以下のCSSでは、プライマリーボタンでないボタンすべてにグレーの背景が適用されます：
 
 :::interactive_editor
 
@@ -184,7 +184,7 @@ button:not(.primary) {
 
 ## --text--
 
-Which pseudo-class works like `:is()`, but doesn't add any specificity to your selectors?
+`:is()` のように動作しますが、セレクターの特異性を増やさない疑似クラスはどれですか？
 
 ## --answers--
 
@@ -192,7 +192,7 @@ Which pseudo-class works like `:is()`, but doesn't add any specificity to your s
 
 ### --feedback--
 
-This pseudo-class is great for applying broad, non-invasive styles.
+この疑似クラスは広範囲にわたる、影響の少ないスタイルを適用するのに最適です。
 
 ---
 
@@ -200,7 +200,7 @@ This pseudo-class is great for applying broad, non-invasive styles.
 
 ### --feedback--
 
-This pseudo-class is great for applying broad, non-invasive styles.
+この疑似クラスは広範囲にわたる、影響の少ないスタイルを適用するのに最適です。
 
 ---
 
@@ -212,7 +212,7 @@ This pseudo-class is great for applying broad, non-invasive styles.
 
 ### --feedback--
 
-This pseudo-class is great for applying broad, non-invasive styles.
+この疑似クラスは広範囲にわたる、影響の少ないスタイルを適用するのに最適です。
 
 ## --video-solution--
 
@@ -220,7 +220,7 @@ This pseudo-class is great for applying broad, non-invasive styles.
 
 ## --text--
 
-Which of these is not a functional pseudo-class?
+次のうち関数型疑似クラスでないものはどれですか？
 
 ## --answers--
 
@@ -228,7 +228,7 @@ Which of these is not a functional pseudo-class?
 
 ### --feedback--
 
-Functional pseudo-classes use parentheses and accept arguments inside them.
+関数型疑似クラスは丸括弧を使い、その中に引数を受け取ります。
 
 ---
 
@@ -240,7 +240,7 @@ Functional pseudo-classes use parentheses and accept arguments inside them.
 
 ### --feedback--
 
-Functional pseudo-classes use parentheses and accept arguments inside them.
+関数型疑似クラスは丸括弧を使い、その中に引数を受け取ります。
 
 ---
 
@@ -248,7 +248,7 @@ Functional pseudo-classes use parentheses and accept arguments inside them.
 
 ### --feedback--
 
-Functional pseudo-classes use parentheses and accept arguments inside them.
+関数型疑似クラスは丸括弧を使い、その中に引数を受け取ります。
 
 ## --video-solution--
 
@@ -256,7 +256,7 @@ Functional pseudo-classes use parentheses and accept arguments inside them.
 
 ## --text--
 
-Which pseudo-class is perfect for a situation in which you want to apply styles to a group of elements without one or two exceptions?
+1つか2つの例外を除いて要素のグループにスタイルを適用したい場合に最適な疑似クラスはどれですか？
 
 ## --answers--
 
@@ -264,7 +264,7 @@ Which pseudo-class is perfect for a situation in which you want to apply styles 
 
 ### --feedback--
 
-Think about how you can exclude specific elements from being styled.
+特定の要素をスタイル適用から除外する方法を考えてみてください。
 
 ---
 
@@ -272,7 +272,7 @@ Think about how you can exclude specific elements from being styled.
 
 ### --feedback--
 
-Think about how you can exclude specific elements from being styled.
+特定の要素をスタイル適用から除外する方法を考えてみてください。
 
 ---
 
@@ -284,7 +284,7 @@ Think about how you can exclude specific elements from being styled.
 
 ### --feedback--
 
-Think about how you can exclude specific elements from being styled.
+特定の要素をスタイル適用から除外する方法を考えてみてください。
 
 ## --video-solution--
 

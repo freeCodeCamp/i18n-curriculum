@@ -7,19 +7,19 @@ dashedName: step-21
 
 # --description--
 
-ピアノを公式なものにするため、freeCodeCamp のロゴを追加しましょう。
+ピアノを公式にするために freeCodeCamp のロゴが必要です。
 
-`img` 要素を `.keys` 要素の前に 1 つ追加してください。 その `img` の `class` 属性の値を `logo` に、`src` 属性の値を `https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg` に設定してください。 また、`freeCodeCamp Logo` という `alt` テキストを加えてください。
+`img` 要素の前に `.keys` 要素を追加してください。`img` に `class` を `logo` に設定し、`src` を `https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg` に設定してください。`alt` のテキストを `freeCodeCamp Logo` にしてください。
 
 # --hints--
 
-新しい `img` 要素を 1 つ追加してください。
+新しい `img` 要素を追加する必要があります。
 
 ```js
 assert(document.querySelectorAll('img')?.length === 1);
 ```
 
-`img` 要素は最初の `.keys` 要素の前に来る必要があります。
+`img` 要素は最初の `.keys` 要素の前に来るべきです。
 
 ```js
 const img = document.querySelector('img');
@@ -27,27 +27,27 @@ assert(img?.nextElementSibling?.className === 'keys');
 assert(img?.previousElementSibling === null);
 ```
 
-`img` 要素には値が `logo` に設定されている `class` が必要です。
+`img` 要素には `class` を `logo` に設定してください。
 
 ```js
 const img = document.querySelector('img');
 assert(img?.className === 'logo');
 ```
 
-`img` 要素には値が `https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg` に設定されている `src` 属性が必要です。
+`img` 要素には `src` を `https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg` に設定してください。
 
 ```js
 const img = document.querySelector('img');
 assert(img?.getAttribute('src') === 'https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg');
 ```
 
-`img` 要素には値が `freeCodeCamp Logo` に設定されている `alt` 属性が必要です。
+`img` 要素には `alt` 属性を `freeCodeCamp Logo` に設定してください。
 
 ```js
 assert(document.querySelector('img')?.getAttribute('alt')?.toLowerCase() === 'freecodecamp logo');
 ```
 
-大文字小文字の区別とスペルに気をつけましょう。
+大文字・小文字やスペルが重要であることを忘れないでください。
 
 ```js
 assert(document.querySelector('img')?.getAttribute('alt') === 'freeCodeCamp Logo');

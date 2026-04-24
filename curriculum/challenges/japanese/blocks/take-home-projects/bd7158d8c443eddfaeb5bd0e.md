@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c443eddfaeb5bd0e
-title: Chart the Stock Market
+title: 株式市場のチャート
 challengeType: 4
 forumTopicId: 302363
 dashedName: chart-the-stock-market
@@ -8,19 +8,19 @@ dashedName: chart-the-stock-market
 
 # --description--
 
-Build a full-stack JavaScript app that is functionally similar to this: <a href="https://chart-the-stock-market.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://chart-the-stock-market.freecodecamp.rocks/</a>. Use a site builder of your choice to complete the project.
+このプロジェクトでは、次のサイトに機能的に似たフルスタックJavaScriptアプリを作成してください：<a href="https://chart-the-stock-market.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://chart-the-stock-market.freecodecamp.rocks/</a>。お好きなサイトビルダーを使ってプロジェクトを完成させてください。
 
-Here are the specific user stories you should implement for this project:
+このプロジェクトで実装すべき具体的なユーザーストーリーは以下の通りです：
 
-**User Story:** You can view a graph displaying the recent trend lines for each added stock.
+**ユーザーストーリー：** 追加した各株式の最近のトレンドラインを表示するグラフを閲覧できます。
 
-**User Story:** You can add new stocks by their symbol name.
+**ユーザーストーリー：** 株式のシンボル名で新しい株式を追加できます。
 
-**User Story:** You can remove stocks.
+**ユーザーストーリー：** 株式を削除できます。
 
-**User Story:** You can see changes in real-time when any other user adds or removes a stock. For this you will need to use Web Sockets.
+**ユーザーストーリー：** 他のユーザーが株式を追加または削除したときにリアルタイムで変化を確認できます。そのためにはWeb Socketsを使用する必要があります。
 
-When you are done, make sure a working demo of your project is hosted somewhere public. Then submit the URL to it in the Solution Link field. Optionally, also submit a link to your project's source code in the GitHub Link field.
+完成したら、プロジェクトの動作するデモをどこかの公開場所にホストしてください。そのURLをSolution Link欄に提出してください。オプションで、GitHub Link欄にプロジェクトのソースコードのリンクも提出できます。
 
 # --solutions--
 

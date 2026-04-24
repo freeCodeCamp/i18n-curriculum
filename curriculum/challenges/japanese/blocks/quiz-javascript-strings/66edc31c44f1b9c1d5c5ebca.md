@@ -1,13 +1,13 @@
 ---
 id: 66edc31c44f1b9c1d5c5ebca
-title: JavaScript Strings Quiz
+title: JavaScriptの文字列クイズ
 challengeType: 8
 dashedName: quiz-javascript-strings
 ---
 
 # --description--
 
-To pass the quiz, you must correctly answer at least 18 of the 20 questions below.
+このクイズに合格するには、以下の20問中少なくとも18問に正しく答える必要があります。
 
 # --quizzes--
 
@@ -17,29 +17,29 @@ To pass the quiz, you must correctly answer at least 18 of the 20 questions belo
 
 #### --text--
 
-What is the return value for the `includes()` method?
+`includes()` メソッドの戻り値は何ですか？
 
 #### --distractors--
 
-If the substring is found within the string, the method returns the string. Otherwise, it returns `undefined`.
+部分文字列が文字列内に見つかった場合、メソッドは文字列を返します。そうでなければ、`undefined` を返します。
 
 ---
 
-If the substring is found within the string, the method returns `true`. Otherwise, it returns an empty string.
+部分文字列が文字列内に見つかった場合、メソッドは `true` を返します。そうでなければ、空の文字列を返します。
 
 ---
 
-If the substring is found within the string, the method returns the string. Otherwise, it returns `null`.
+部分文字列が文字列内に見つかった場合、メソッドは文字列を返します。そうでなければ、`null` を返します。
 
 #### --answer--
 
-If the substring is found within the string, the method returns `true`. Otherwise, it returns `false`.
+部分文字列が文字列内に見つかった場合、メソッドは `true` を返します。そうでなければ、`false` を返します。
 
 ### --question--
 
 #### --text--
 
-Which option demonstrates string interpolation?
+どの選択肢が文字列の補間を示していますか？
 
 #### --distractors--
 
@@ -61,7 +61,7 @@ Which option demonstrates string interpolation?
 
 #### --text--
 
-Which of the following options is the newline character?
+次のうち改行文字はどれですか？
 
 #### --distractors--
 
@@ -83,29 +83,29 @@ Which of the following options is the newline character?
 
 #### --text--
 
-Which of the following statements is correct about strings?
+文字列について正しい説明はどれですか？
 
 #### --distractors--
 
-Strings are mutable and can be changed after they are created.
+文字列は変更可能で、作成後に変更できます。
 
 ---
 
-Strings are non primitive data types.
+文字列は非プリミティブなデータ型です。
 
 ---
 
-Strings can only be created using single quotes.
+文字列はシングルクォートでしか作成できません。
 
 #### --answer--
 
-Strings are immutable.
+文字列は不変です。
 
 ### --question--
 
 #### --text--
 
-What does ASCII stand for?
+ASCIIは何の略ですか？
 
 #### --distractors--
 
@@ -127,7 +127,7 @@ American Standard Code for Information Interchange
 
 #### --text--
 
-Which of the following methods extracts a portion of a string and returns a new string?
+次のうち、文字列の一部を抽出して新しい文字列を返すメソッドはどれですか？
 
 #### --distractors--
 
@@ -149,29 +149,29 @@ Which of the following methods extracts a portion of a string and returns a new 
 
 #### --text--
 
-What is the purpose of the `prompt()` method?
+`prompt()` メソッドの目的は何ですか？
 
 #### --distractors--
 
-It displays a message in the console.
+コンソールにメッセージを表示します。
 
 ---
 
-It displays an alert box with a message.
+メッセージ付きのアラートボックスを表示します。
 
 ---
 
-It displays a confirmation box with a message.
+メッセージ付きの確認ボックスを表示します。
 
 #### --answer--
 
-It displays a dialog box that waits for the user input.
+ユーザーの入力を待つダイアログボックスを表示します。
 
 ### --question--
 
 #### --text--
 
-Which of the following is the correct way to access the third character of a string?
+文字列の3番目の文字にアクセスする正しい方法はどれですか？
 
 #### --distractors--
 
@@ -205,7 +205,7 @@ developer[2];
 
 #### --text--
 
-How can you obtain the ASCII value of the first character in the string `"hello"`?
+文字列 `"hello"` の最初の文字のASCII値を取得するにはどうしますか？
 
 #### --distractors--
 
@@ -227,7 +227,7 @@ How can you obtain the ASCII value of the first character in the string `"hello"
 
 #### --text--
 
-Which method can you use to obtain the character corresponding to an ASCII value?
+ASCII値に対応する文字を取得するにはどのメソッドを使いますか？
 
 #### --distractors--
 
@@ -249,7 +249,7 @@ Which method can you use to obtain the character corresponding to an ASCII value
 
 #### --text--
 
-Which of the following `indexOf` examples will log `-1` to the console?
+次の `indexOf` の例のうち、`-1` をコンソールにログ出力するのはどれですか？
 
 #### --distractors--
 
@@ -283,7 +283,7 @@ console.log(organization.indexOf("c"));
 
 #### --text--
 
-How can you check if the string `"JavaScript"` contains `"Script"`?
+文字列 `"JavaScript"` が `"Script"` を含むかどうかを確認するにはどうしますか？
 
 #### --distractors--
 
@@ -305,7 +305,7 @@ How can you check if the string `"JavaScript"` contains `"Script"`?
 
 #### --text--
 
-Which of the following extracts the substring `"Script"` from the string `"JavaScript"`?
+文字列 `"Script"` から部分文字列 `"JavaScript"` を抽出するのはどれですか？
 
 #### --distractors--
 
@@ -327,7 +327,7 @@ Which of the following extracts the substring `"Script"` from the string `"JavaS
 
 #### --text--
 
-How do you convert the string `"JavaScript"` to uppercase?
+文字列 `"JavaScript"` を大文字に変換するにはどうしますか？
 
 #### --distractors--
 
@@ -349,7 +349,7 @@ How do you convert the string `"JavaScript"` to uppercase?
 
 #### --text--
 
-How do you convert the string `"JavaScript"` to lowercase?
+文字列 `"JavaScript"` を小文字に変換するにはどうしますか？
 
 #### --distractors--
 
@@ -371,7 +371,7 @@ How do you convert the string `"JavaScript"` to lowercase?
 
 #### --text--
 
-Which of the following will replace `"dogs"` with `"cats"` in the string `"I love dogs"`.
+文字列 `"dogs"` の中で `"cats"` を `"I love dogs"` に置き換えるのはどれですか？
 
 #### --distractors--
 
@@ -393,7 +393,7 @@ Which of the following will replace `"dogs"` with `"cats"` in the string `"I lov
 
 #### --text--
 
-Which method is used to repeat a string a specified number of times?
+文字列を指定した回数繰り返すメソッドはどれですか？
 
 #### --distractors--
 
@@ -415,7 +415,7 @@ Which method is used to repeat a string a specified number of times?
 
 #### --text--
 
-What will the following code return: `"abc".repeat(3)`?
+次のコードは何を返しますか：`"abc".repeat(3)`？
 
 #### --distractors--
 
@@ -427,7 +427,7 @@ What will the following code return: `"abc".repeat(3)`?
 
 ---
 
-It will throw an error.
+エラーをスローします。
 
 #### --answer--
 
@@ -437,7 +437,7 @@ It will throw an error.
 
 #### --text--
 
-Which method will remove whitespace from the beginning and end of a string?
+文字列の先頭と末尾の空白を取り除くメソッドはどれですか？
 
 #### --distractors--
 
@@ -459,7 +459,7 @@ Which method will remove whitespace from the beginning and end of a string?
 
 #### --text--
 
-Which of the following is the correct syntax for escaping quotes?
+引用符をエスケープする正しい構文はどれですか？
 
 #### --distractors--
 
@@ -484,4 +484,3 @@ Which of the following is the correct syntax for escaping quotes?
 ```js
 "She said, \"Hello!\""
 ```
-

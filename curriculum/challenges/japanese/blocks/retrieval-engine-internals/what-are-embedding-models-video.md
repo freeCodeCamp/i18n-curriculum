@@ -1,6 +1,6 @@
 ---
 id: 69ae6a04b4a814be6a4f2bdd
-title: What are Embedding Models?
+title: 埋め込みモデルとは何ですか？
 challengeType: 11
 videoId: _B6lL3WM_hQ
 dashedName: what-are-embedding-models
@@ -8,31 +8,30 @@ dashedName: what-are-embedding-models
 
 # --description--
 
-In this video, you will learn about embedding models.
+このビデオでは、埋め込みモデルについて学びます。
 
 # --questions--
 
 ## --text--
 
-What is an embedding model?
+埋め込みモデルとは何ですか？
 
 ## --answers--
 
-A model that compresses text files to make them smaller for faster downloads.
+テキストファイルを圧縮してダウンロードを速くするモデル。
 
 ---
 
-A system that automatically translates text from one language into another.
+ある言語のテキストを自動的に別の言語に翻訳するシステム。
 
 ---
 
-A model that takes text and converts it into a vector of numbers that represent meaning.
+テキストを受け取り、その意味を表す数値のベクトルに変換するモデル。
 
 ---
 
-A model that generates images based on a written description.
+書かれた説明に基づいて画像を生成するモデル。
 
 ## --video-solution--
 
 3
-

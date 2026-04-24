@@ -1,17 +1,17 @@
 ---
 id: 67329fbcfaf5ff5cdaa38a42
-title: What Is the var Keyword, and Why Is It No Longer Suggested to Use It?
+title: var キーワードとは何か、そしてなぜもう使うことが推奨されないのか？
 challengeType: 19
 dashedName: what-is-the-var-keyword-and-why-is-it-no-longer-suggested-to-use-it
 ---
 
 # --interactive--
 
-The `var` keyword in JavaScript is one of the original ways to declare variables. It has been part of the language since its inception and for many years it remained the primary method for creating variables. However as JavaScript evolved and developers gained more experience with the language, certain drawbacks of using `var` became apparent leading to the introduction of `let` and `const` in 2015.
+JavaScriptの`var`キーワードは、変数を宣言する元々の方法の一つです。言語の初期から存在し、長年にわたり変数を作成する主要な方法でした。しかし、JavaScriptが進化し開発者が言語に慣れてくるにつれて、`var`を使うことのいくつかの欠点が明らかになり、2015年に`let`と`const`が導入されました。
 
-When you declare a variable with `var`, it becomes function-scoped or globally-scoped. This means that if you declare a variable inside a function using `var` it's only accessible within that function. However if you declare it outside any function, it becomes a global variable accessible throughout your entire script. This behavior can sometimes lead to unexpected results and make your code harder to understand.
+`var`で変数を宣言すると、その変数は関数スコープまたはグローバルスコープになります。つまり、関数内で`var`を使って変数を宣言すると、その関数内でのみアクセス可能です。しかし、関数の外で宣言すると、スクリプト全体でアクセス可能なグローバル変数になります。この動作は時に予期しない結果を招き、コードの理解を難しくします。
 
-A problem with `var` is that it allows you to redeclare the same variable multiple times without throwing an error. This can lead to accidental overwrites and make debugging more difficult.
+`var`の問題点の一つは、同じ変数を複数回再宣言してもエラーが発生しないことです。これにより、誤って上書きしてしまい、デバッグが難しくなる場合があります。
 
 :::interactive_editor
 
@@ -26,7 +26,7 @@ console.log(num); // 10
 
 :::
 
-The most significant issue with `var` is its lack of block scoping. Variables declared with `var` inside a block like an `if` statement or a `for` loop are still accessible outside that block.
+`var`の最も大きな問題は、ブロックスコープがないことです。`var`でブロック内（例えば`if`文や`for`ループ）で宣言された変数は、そのブロックの外でもアクセス可能です。
 
 :::interactive_editor
 
@@ -39,47 +39,47 @@ console.log(num); // 5
 
 :::
 
-This behavior can lead to unintended variable leaks and make your code more prone to bugs.
+この動作は意図しない変数の漏れを引き起こし、コードがバグを起こしやすくなります。
 
-Due to these issues, modern JavaScript development has largely moved away from `var` in favor of `let` and `const`. These keywords provide block scoping which aligns more closely with how scoping works in many other programming languages.
+これらの問題のため、現代のJavaScript開発では主に`var`の代わりに`let`と`const`が使われています。これらのキーワードはブロックスコープを提供し、多くの他のプログラミング言語のスコープの仕組みにより近い動作をします。
 
-They also don't allow redeclaration within the same scope helping to prevent accidental overrides.
+また、同じスコープ内での再宣言を許さず、誤った上書きを防ぐのに役立ちます。
 
-While `var` is still part of JavaScript and works in all browsers, it's generally recommended to use `let` and `const` in modern JavaScript development. They provide clear scoping rules, help prevent common pitfalls, and make your code's behavior more predictable.
+`var`は依然としてJavaScriptの一部であり、すべてのブラウザで動作しますが、現代のJavaScript開発では`let`と`const`を使うことが一般的に推奨されています。これらは明確なスコープルールを提供し、よくある落とし穴を防ぎ、コードの動作をより予測可能にします。
 
 # --questions--
 
 ## --text--
 
-What is the scope of a variable declared with `var` outside of any function?
+関数の外で`var`で宣言された変数のスコープは何ですか？
 
 ## --answers--
 
-Block scope.
+ブロックスコープ。
 
 ### --feedback--
 
-Think about where a `var` variable declared outside a function can be accessed.
+関数の外で宣言された`var`変数がどこでアクセスできるか考えてみてください。
 
 ---
 
-Function scope.
+関数スコープ。
 
 ### --feedback--
 
-Think about where a `var` variable declared outside a function can be accessed.
+関数の外で宣言された`var`変数がどこでアクセスできるか考えてみてください。
 
 ---
 
-Global scope.
+グローバルスコープ。
 
 ---
 
-Module scope.
+モジュールスコープ。
 
 ### --feedback--
 
-Think about where a `var` variable declared outside a function can be accessed.
+関数の外で宣言された`var`変数がどこでアクセスできるか考えてみてください。
 
 ## --video-solution--
 
@@ -87,7 +87,7 @@ Think about where a `var` variable declared outside a function can be accessed.
 
 ## --text--
 
-What will be the output of the following code?
+次のコードの出力は何になりますか？
 
 ```js
 var x = 10;
@@ -109,7 +109,7 @@ console.log(x);
 
 ### --feedback--
 
-Remember that `var` is function-scoped or globally-scoped, and it allows redeclaration within the same scope.
+`var`は関数スコープまたはグローバルスコープであり、同じスコープ内での再宣言を許すことを覚えておいてください。
 
 ---
 
@@ -127,7 +127,7 @@ Remember that `var` is function-scoped or globally-scoped, and it allows redecla
 
 ### --feedback--
 
-Remember that `var` is function-scoped or globally-scoped, and it allows redeclaration within the same scope.
+`var`は関数スコープまたはグローバルスコープであり、同じスコープ内での再宣言を許すことを覚えておいてください。
 
 ---
 
@@ -138,7 +138,7 @@ Remember that `var` is function-scoped or globally-scoped, and it allows redecla
 
 ### --feedback--
 
-Remember that `var` is function-scoped or globally-scoped, and it allows redeclaration within the same scope.
+`var`は関数スコープまたはグローバルスコープであり、同じスコープ内での再宣言を許すことを覚えておいてください。
 
 ## --video-solution--
 
@@ -146,35 +146,35 @@ Remember that `var` is function-scoped or globally-scoped, and it allows redecla
 
 ## --text--
 
-Which of the following is NOT a reason to avoid using `var` in modern JavaScript?
+現代のJavaScriptで`var`の使用を避ける理由ではないものはどれですか？
 
 ## --answers--
 
-`var` allows redeclaration of variables in the same scope.
+`var`は同じスコープ内での変数の再宣言を許します。
 
 ### --feedback--
 
-Consider which statement is false about `var`'s behavior or support.
+`var`の動作やサポートについて誤っている記述はどれか考えてみてください。
 
 ---
 
-`var` is not supported in modern browsers.
+`var`は現代のブラウザでサポートされていません。
 
 ---
 
-`var` variables are function-scoped, not block-scoped.
+`var`変数は関数スコープであり、ブロックスコープではありません。
 
 ### --feedback--
 
-Consider which statement is false about `var`'s behavior or support.
+`var`の動作やサポートについて誤っている記述はどれか考えてみてください。
 
 ---
 
-`var` variables are hoisted.
+`var`変数はホイスティングされます。
 
 ### --feedback--
 
-Consider which statement is false about `var`'s behavior or support.
+`var`の動作やサポートについて誤っている記述はどれか考えてみてください。
 
 ## --video-solution--
 

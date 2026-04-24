@@ -1,13 +1,13 @@
 ---
 id: 66ed8fc1f45ce3ece4053ead
-title: CSS Accessibility Quiz
+title: CSSアクセシビリティクイズ
 challengeType: 8
 dashedName: quiz-css-accessibility
 ---
 
 # --description--
 
-To pass the quiz, you must correctly answer at least 9 of the 10 questions below.
+クイズに合格するには、以下の10問中少なくとも9問に正しく答える必要があります。
 
 # --quizzes--
 
@@ -17,29 +17,29 @@ To pass the quiz, you must correctly answer at least 9 of the 10 questions below
 
 #### --text--
 
-Why do you need to have good color contrast on your webpage?
+なぜウェブページで良い色のコントラストが必要なのでしょうか？
 
 #### --distractors--
 
-To make the page more vibrant.
+ページをより鮮やかにするため。
 
 ---
 
-To meet requirements for search engine optimization (SEO).
+検索エンジン最適化（SEO）の要件を満たすため。
 
 ---
 
-To make important elements of the page stand out.
+ページの重要な要素を目立たせるため。
 
 #### --answer--
 
-To make the page content accessible and readable.
+ページの内容をアクセシブルで読みやすくするため。
 
 ### --question--
 
 #### --text--
 
-Which of the following tools allows you to enter background and foreground colors and check their contrast ratio?
+背景色と前景色を入力してコントラスト比をチェックできるツールはどれですか？
 
 #### --distractors--
 
@@ -61,7 +61,7 @@ WebAIM's Color Contrast Checker
 
 #### --text--
 
-Which of the following tools allows you to pick background and foreground colors from content displayed on your screen and check for their contrast ratio?
+画面に表示されているコンテンツから背景色と前景色を選択し、コントラスト比をチェックできるツールはどれですか？
 
 #### --distractors--
 
@@ -83,51 +83,51 @@ TPGi Colour Contrast Analyzer
 
 #### --text--
 
-Why should you NOT use `display: none` and `visibility: hidden` to visually hide content?
+なぜ`display: none`と`visibility: hidden`を使ってコンテンツを視覚的に隠してはいけないのでしょうか？
 
 #### --distractors--
 
-These methods make it so that only assistive technologies like screen readers can access the hidden content.
+これらの方法はスクリーンリーダーなどの支援技術だけが隠されたコンテンツにアクセスできるようにします。
 
 ---
 
-These methods make it so that the content is only hidden until users move their mouse over the content.
+これらの方法はユーザーがマウスをコンテンツに移動させるまでコンテンツを隠します。
 
 ---
 
-These methods do not work with some browsers.
+これらの方法は一部のブラウザで動作しません。
 
 #### --answer--
 
-These methods remove the content from the accessibility tree, making it impossible for screen readers to access the hidden content.
+これらの方法はアクセシビリティツリーからコンテンツを削除し、スクリーンリーダーが隠されたコンテンツにアクセスできなくします。
 
 ### --question--
 
 #### --text--
 
-What is an accessibility tree?
+アクセシビリティツリーとは何ですか？
 
 #### --distractors--
 
-A visual representation of the layout of a webpage.
+ウェブページのレイアウトの視覚的な表現。
 
 ---
 
-A structure used by screen readers to read the text content of a webpage.
+スクリーンリーダーがウェブページのテキスト内容を読み上げるために使う構造。
 
 ---
 
-A copy of the DOM tree.
+DOMツリーのコピー。
 
 #### --answer--
 
-A structure used by screen readers to interpret and interact with the content on a webpage.
+スクリーンリーダーがウェブページの内容を解釈し操作するために使う構造。
 
 ### --question--
 
 #### --text--
 
-Which of the following ensures that an image has a minimum width of `400px`, but becomes wider when the viewport width is greater than `1000px`?
+次のうち、画像の最小幅を`400px`に設定しつつ、ビューポート幅が`1000px`を超えた場合に幅が広がるようにするものはどれですか？
 
 #### --distractors--
 
@@ -165,7 +165,7 @@ img {
 
 #### --text--
 
-Which of the following `scroll-behavior` value allows a smooth scrolling behavior?
+次のうち、スムーズなスクロール動作を可能にする`scroll-behavior`の値はどれですか？
 
 #### --distractors--
 
@@ -187,7 +187,7 @@ Which of the following `scroll-behavior` value allows a smooth scrolling behavio
 
 #### --text--
 
-Which of the following features is used to detect the user's animation preference?
+ユーザーのアニメーションの好みを検出するために使われる機能はどれですか？
 
 #### --distractors--
 
@@ -209,42 +209,42 @@ Which of the following features is used to detect the user's animation preferenc
 
 #### --text--
 
-Which of the following is an accessibility issue of the `placeholder` attribute in an `input` element?
+`placeholder`要素の`input`属性に関するアクセシビリティの問題はどれですか？
 
 #### --distractors--
 
-Placeholder text prevents screen readers from reading the input label text.
+プレースホルダーテキストがスクリーンリーダーによる入力ラベルの読み上げを妨げる。
 
 ---
 
-Placeholder text prevents screen readers from reading the input value.
+プレースホルダーテキストがスクリーンリーダーによる入力値の読み上げを妨げる。
 
 ---
 
-Placeholder text is too small to be readable.
+プレースホルダーテキストが小さすぎて読みにくい。
 
 #### --answer--
 
-Placeholder text can be confused with an actual input value.
+プレースホルダーテキストが実際の入力値と混同される可能性がある。
 
 ### --question--
 
 #### --text--
 
-What does the `hidden` attribute do?
+`hidden`属性は何をしますか？
 
 #### --distractors--
 
-It hides content and reveals on hover.
+コンテンツを隠し、ホバー時に表示する。
 
 ---
 
-It hides content only from the accessibility tree.
+アクセシビリティツリーからのみコンテンツを隠す。
 
 ---
 
-It hides content visually, but the content is available in the accessibility tree.
+視覚的にコンテンツを隠すが、アクセシビリティツリーには存在する。
 
 #### --answer--
 
-It hides content both visually and from the accessibility tree.
+視覚的にもアクセシビリティツリーからもコンテンツを隠す。

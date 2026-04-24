@@ -1,37 +1,37 @@
 ---
 id: 694afa3fcd55df0cbc49a3cf
-title: Step 2
+title: ステップ 2
 challengeType: 0
 dashedName: step-2
 ---
 
 # --description--
 
-Now link your `styles.css` file to the HTML document.
+`styles.css` ファイルを HTML ドキュメントにリンクしてください。
 
 # --hints--
 
-You should have a `link` element inside the `head` element.
+`link` 要素の中に `head` 要素があるはずです。
 
 ```js
 assert.exists(document.querySelector('head > link'));
 ```
 
-Your `link` element should have a `rel` attribute.
+`link` 要素には `rel` 属性が必要です。
 
 ```js
 const linkEl = document.querySelector('head > link');
 assert.exists(linkEl?.getAttribute('rel'));
 ```
 
-Your `link` element should have a `rel` attribute set to `stylesheet`.
+`link` 要素には `rel` 属性が `stylesheet` に設定されている必要があります。
 
 ```js
 const linkEl = document.querySelector('head > link');
 assert.equal(linkEl?.getAttribute('rel'), 'stylesheet');
 ```
 
-Your `link` element should have an `href` attribute set to `styles.css`.
+`link` 要素には `href` 属性が `styles.css` に設定されている必要があります。
 
 ```js
 const linkHrefValue = document.querySelector('head > link')?.dataset?.href;
@@ -46,17 +46,17 @@ assert.match(linkHrefValue, /^(\.\/)?styles\.css$/);
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Colored Boxes</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Colored Boxes</title>
 --fcc-editable-region--
-
+	
 --fcc-editable-region-- 
 </head> 
 <body>
-    <header>
-        <h1>Colored Boxes Layout</h1>
-    </header>
+	<header>
+		<h1>Colored Boxes Layout</h1>
+	</header>
 </body>
 </html>
 ```

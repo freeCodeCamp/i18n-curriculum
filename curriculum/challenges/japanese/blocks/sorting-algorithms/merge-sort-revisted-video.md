@@ -1,6 +1,6 @@
 ---
 id: 698dea107932b3cc4b19c946
-title: Merge Sort Revisited
+title: マージソートの再確認
 challengeType: 11
 videoId: Aj6ikfTns9o
 dashedName: merge-sort-revisited
@@ -8,17 +8,17 @@ dashedName: merge-sort-revisited
 
 # --description--
 
-In this video, you will revisit the merge sort algorithm.
+このビデオでは、マージソートアルゴリズムを再確認します。
 
 # --questions--
 
 ## --text--
 
-What is a core difference between the merge sort and quicksort algorithms?
+マージソートとクイックソートのアルゴリズムの主な違いは何ですか？
 
 ## --answers--
 
-Merge sort swaps adjacent elements repeatedly until sorted.
+マージソートは隣接する要素を繰り返し入れ替えてソートします。
 
 ---
 
@@ -26,11 +26,11 @@ Quicksort will partition the list around a pivot and recursively sort sublists, 
 
 ---
 
-Merge sort uses a hash table to count elements, whereas quicksort uses a deque to reorder elements.
+マージソートはハッシュテーブルを使って要素をカウントしますが、クイックソートはデックを使って要素を並べ替えます。
 
 ---
 
-Quicksort always uses a while loop to sort, while merge sort uses a for loop.
+クイックソートは常にwhileループを使ってソートしますが、マージソートはforループを使います。
 
 ## --video-solution--
 

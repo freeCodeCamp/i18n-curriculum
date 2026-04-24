@@ -1,19 +1,19 @@
 ---
 id: 672bccae6e556cd81cef6af2
-title: What Is Margin Collapsing, and How Does It Work?
+title: マージンの重なりとは何か、そしてどのように機能するのか？
 challengeType: 19
 dashedName: what-is-margin-collapsing
 ---
 
 # --interactive--
 
-Margin collapsing is a fundamental concept in CSS that often confuses newcomers to web development.
+マージンの重なりは、CSSの基本的な概念であり、ウェブ開発の初心者をよく混乱させます。
 
-This behavior occurs when the vertical margins of adjacent elements overlap, resulting in a single margin equal to the larger of the two.
+この動作は、隣接する要素の垂直マージンが重なり合い、2つのうち大きい方のマージンと同じ単一のマージンになるときに発生します。
 
-Understanding margin collapsing is important for precise control over spacing and layout in web design. So, let's get into how margin collapsing works and explore some common scenarios where it occurs.
+マージンの重なりを理解することは、ウェブデザインでの間隔やレイアウトを正確にコントロールするために重要です。では、マージンの重なりがどのように機能するのかを見ていき、よくあるシナリオを探ってみましょう。
 
-In CSS when two vertical margins come into contact with each other they'll collapse, this means that instead of adding together, the larger margin wins and determines the space between the elements. This behavior applies only to vertical margins (top and bottom) and not to horizontal margins (left and right). So, here's an example to illustrate this concept:
+CSSでは、2つの垂直マージンが接触すると重なり合います。つまり、合計されるのではなく、大きい方のマージンが勝ち、要素間のスペースを決定します。この動作は垂直マージン（上と下）にのみ適用され、水平方向のマージン（左と右）には適用されません。以下の例でこの概念を説明します。
 
 :::interactive_editor
 
@@ -35,11 +35,11 @@ In CSS when two vertical margins come into contact with each other they'll colla
 
 :::
 
-In this example, you might expect the total space between `.box1` and `.box2` to be 50 pixels (20 pixels plus 30 pixels). However, due to margin collapsing the actual space will be 30 pixels, which is the larger of the two margins.
+この例では、`.box1` と `.box2` の間の合計スペースが50ピクセル（20ピクセルと30ピクセルの合計）になると思うかもしれません。しかし、マージンの重なりにより、実際のスペースは2つのうち大きい30ピクセルになります。
 
-As we saw in the previous example, margins of the adjacent sibling elements will collapse. This is the most straight forward case of margin collapsing. Let's explore more cases where margin collapsing can occur.
+前の例で見たように、隣接する兄弟要素のマージンは重なります。これはマージンの重なりの最も単純なケースです。次に、マージンの重なりが起こる他のケースを見てみましょう。
 
-Margins can also collapse between a parent element and its first or last child. If there's no border, padding, inline content, or clearance to separate the parent's margin from the child's, they will collapse.
+マージンは親要素とその最初または最後の子要素の間でも重なることがあります。親のマージンと子のマージンを分けるボーダー、パディング、インラインコンテンツ、クリアランスがなければ、重なります。
 
 :::interactive_editor
 
@@ -62,9 +62,9 @@ Margins can also collapse between a parent element and its first or last child. 
 
 :::
 
-In this case, you might expect the child to be 70 pixels from the top (40 pixels plus 30 pixels). However, the margins collapse and the larger margin of 40 pixels is used.
+この場合、子要素は上から70ピクセル（40ピクセルと30ピクセルの合計）離れていると思うかもしれません。しかし、マージンは重なり合い、大きい方の40ピクセルが使われます。
 
-If an element has no content, padding, or border, its top and bottom margins can collapse into a single margin.
+要素にコンテンツ、パディング、ボーダーがない場合、その上下のマージンは1つのマージンに重なることがあります。
 
 :::interactive_editor
 
@@ -86,9 +86,9 @@ If an element has no content, padding, or border, its top and bottom margins can
 
 :::
 
-In this example, the `empty-block`'s top and bottom margins collapse into a single 20 pixels margin, the larger of the two.
+この例では、`empty-block` の上下のマージンが1つの20ピクセルのマージンに重なり合い、2つのうち大きい方が使われています。
 
-Here's an example of preventing collapse using padding:
+パディングを使って重なりを防ぐ例を示します。
 
 :::interactive_editor
 
@@ -112,43 +112,43 @@ Here's an example of preventing collapse using padding:
 
 :::
 
-In this case, the one pixel padding on the parent prevents the margin from collapsing resulting in a total space of 71 pixels from the top of the parent to the top of the child content.
+この場合、親の1ピクセルのパディングがマージンの重なりを防ぎ、親の上端から子のコンテンツの上端までの合計スペースが71ピクセルになります。
 
-Understanding margin collapsing is important for precise control over layout and spacing in CSS. While it can sometimes lead to unexpected results, it's a feature designed to create more aesthetically pleasing and consistent spacing in documents. By knowing when margin collapsing occurs and how to prevent it when necessary, you can create more predictable and maintainable layouts in your web designs.
+マージンの重なりを理解することは、CSSでレイアウトや間隔を正確にコントロールするために重要です。時には予期しない結果を招くこともありますが、文書内でより美しく一貫した間隔を作るための機能です。マージンの重なりがいつ起こるか、必要に応じてどのように防ぐかを知ることで、より予測可能で保守しやすいレイアウトをウェブデザインで作成できます。
 
 # --questions--
 
 ## --text--
 
-In which direction does margin collapsing occur?
+マージンの重なりはどの方向で起こりますか？
 
 ## --answers--
 
-Horizontal margins only.
+水平方向のマージンのみ。
 
 ### --feedback--
 
-Think about which margins (top, bottom, left, right) are affected by this behavior.
+どのマージン（上、下、左、右）がこの動作に影響されるか考えてみてください。
 
 ---
 
-Vertical margins only.
+垂直方向のマージンのみ。
 
 ---
 
-Both horizontal and vertical margins.
+水平方向と垂直方向の両方のマージン。
 
 ### --feedback--
 
-Think about which margins (top, bottom, left, right) are affected by this behavior.
+どのマージン（上、下、左、右）がこの動作に影響されるか考えてみてください。
 
 ---
 
-Diagonal margins.
+斜め方向のマージン。
 
 ### --feedback--
 
-Think about which margins (top, bottom, left, right) are affected by this behavior.
+どのマージン（上、下、左、右）がこの動作に影響されるか考えてみてください。
 
 ## --video-solution--
 
@@ -156,35 +156,35 @@ Think about which margins (top, bottom, left, right) are affected by this behavi
 
 ## --text--
 
-What happens when two adjacent elements have different margin values?
+隣接する2つの要素が異なるマージン値を持つ場合、何が起こりますか？
 
 ## --answers--
 
-The margins add up.
+マージンは合計されます。
 
 ### --feedback--
 
-Consider which margin "wins" when collapsing occurs.
+マージンの重なりが起こるとき、どのマージンが「勝つ」か考えてみてください。
 
 ---
 
-The smaller margin is used.
+小さい方のマージンが使われます。
 
 ### --feedback--
 
-Consider which margin "wins" when collapsing occurs.
+マージンの重なりが起こるとき、どのマージンが「勝つ」か考えてみてください。
 
 ---
 
-The larger margin is used.
+大きい方のマージンが使われます。
 
 ---
 
-The average of the two margins is used.
+2つのマージンの平均が使われます。
 
 ### --feedback--
 
-Consider which margin "wins" when collapsing occurs.
+マージンの重なりが起こるとき、どのマージンが「勝つ」か考えてみてください。
 
 ## --video-solution--
 
@@ -192,35 +192,35 @@ Consider which margin "wins" when collapsing occurs.
 
 ## --text--
 
-Which of the following will NOT prevent margin collapsing between a parent and its first child?
+親要素とその最初の子要素の間のマージンの重なりを防がないものはどれですか？
 
 ## --answers--
 
-Adding a `border` to the parent.
+親に`border`を追加する。
 
 ### --feedback--
 
-Think about which properties create a separation between the parent and child margins.
+親と子のマージンの間に分離を作るプロパティは何か考えてみてください。
 
 ---
 
-Setting `padding-top: 1px;` on the parent.
+親に`padding-top: 1px;`を設定する。
 
 ### --feedback--
 
-Think about which properties create a separation between the parent and child margins.
+親と子のマージンの間に分離を作るプロパティは何か考えてみてください。
 
 ---
 
-Using `display: inline-block;` on the child.
+子に`display: inline-block;`を使う。
 
 ### --feedback--
 
-Think about which properties create a separation between the parent and child margins.
+親と子のマージンの間に分離を作るプロパティは何か考えてみてください。
 
 ---
 
-Setting `margin-top: 0;` on the child.
+子に`margin-top: 0;`を設定する。
 
 ## --video-solution--
 

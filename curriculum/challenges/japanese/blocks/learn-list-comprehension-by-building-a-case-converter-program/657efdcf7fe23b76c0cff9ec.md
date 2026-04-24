@@ -1,19 +1,19 @@
 ---
 id: 657efdcf7fe23b76c0cff9ec
-title: Step 7
+title: ステップ 7
 challengeType: 20
 dashedName: step-7
 ---
 
 # --description--
 
-You need to handle the characters that are already in lowercase by adding them to the list of converted characters.
+すでに小文字になっている文字は、変換済みの文字のリストに追加して処理する必要があります。
 
-Right after the `if` statement within the `for` loop, add an `else` clause and use the `.append()` method to add `char` to the `snake_cased_char_list` variable.
+`if` ループ内の `for` 文の直後に `else` 節を追加し、`.append()` メソッドを使って `char` を `snake_cased_char_list` 変数に追加してください。
 
 # --hints--
 
-You should add an `else` clause inside the `for` loop. Don't forget the colon at the end.
+`else` ループの中に `for` 節を追加してください。最後のコロンを忘れないでください。
 
 ```js
 ({
@@ -27,7 +27,7 @@ You should add an `else` clause inside the `for` loop. Don't forget the colon at
 })
 ```
 
-You should use the `.append()` method to add `char` to the `snake_cased_char_list` variable.
+`.append()` メソッドを使って `char` を `snake_cased_char_list` 変数に追加してください。
 
 ```js
 ({

@@ -1,17 +1,17 @@
 ---
 id: 61fdaf9ff894b6a084ecdc1b
-title: ステップ 33
+title: Step 33
 challengeType: 0
 dashedName: step-33
 ---
 
 # --description--
 
-テキストコンテンツがはみ出すことを防ぐため、`span[class~="sr-only"]` セレクターの `overflow` プロパティを `hidden` に、`white-space` プロパティを `nowrap` に設定してください。
+テキストの内容がオーバーフローしないように、`span[class~="sr-only"]` セレクターに `overflow` プロパティを `hidden` に設定し、`white-space` プロパティを `nowrap` に設定してください。
 
 # --hints--
 
-`span[class~="sr-only"]` セレクターの `overflow` プロパティを `hidden` に設定する必要があります。
+`span[class~="sr-only"]` セレクターには `overflow` プロパティを `hidden` に設定してください。
 
 ```js
 assert.strictEqual(
@@ -22,7 +22,7 @@ assert.strictEqual(
 );
 ```
 
-`span[class~="sr-only"]` セレクターの `white-space` プロパティを `nowrap` に設定する必要があります。
+`span[class~="sr-only"]` セレクターには `white-space` プロパティを `nowrap` に設定してください。
 
 ```js
 assert.strictEqual(
@@ -175,7 +175,7 @@ span[class~="sr-only"] {
   clip-path: inset(50%);
   height: 1px;
   width: 1px;
-
+  
 }
 --fcc-editable-region--
 

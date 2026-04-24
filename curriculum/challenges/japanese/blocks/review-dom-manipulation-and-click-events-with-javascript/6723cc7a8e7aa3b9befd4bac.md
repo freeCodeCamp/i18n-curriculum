@@ -1,25 +1,25 @@
 ---
 id: 6723cc7a8e7aa3b9befd4bac
-title: DOM Manipulation and Click Events with JavaScript Review
+title: JavaScriptによるDOM操作とクリックイベントのレビュー
 challengeType: 31
 dashedName: review-dom-manipulation-and-click-events-with-javascript
 ---
 
 # --interactive--
 
-## Working with the DOM and Web APIs
+## DOMとウェブAPIの操作
 
-- **API**: An API (Application Programming Interface) is a set of rules and protocols that allow software applications to communicate with each other and exchange data efficiently.
-- **Web API**: Web APIs are specifically designed for web applications. These types of APIs are often divided into two main categories: browser APIs and third-party APIs.
-- **Browser APIs**: These APIs expose data from the browser. As a web developer, you can access and manipulate this data using JavaScript.
-- **Third-Party APIs**: These are not built into the browser by default. You have to retrieve their code in some way. Usually, they will have detailed documentation explaining how to use their services. An example is the Google Maps API, which you can use to display interactive maps on your website.
-- **DOM**: The DOM stands for Document Object Model. It's a programming interface that lets you interact with HTML documents. With the DOM, you can add, modify, or delete elements on a webpage. The root of the DOM tree is the `html` element. It's the top-level container for all the content of an HTML document. All other nodes are descendants of this root node. Then, below the root node, we find other nodes in the hierarchy. A parent node is an element that contains other elements. A child node is an element that is contained within another element.
-- **`navigator` Interface**: This provides information about the browser environment, such as the user agent string, the platform, and the version of the browser. A user agent string is a text string that identifies the browser and operating system being used.
-- **`window` Interface**: This represents the browser window that contains the DOM document. It provides methods and properties for interacting with the browser window, such as resizing the window, opening new windows, and navigating to different URLs.
+- **API**: API（アプリケーションプログラミングインターフェース）は、ソフトウェアアプリケーション同士が効率的に通信しデータを交換するためのルールとプロトコルのセットです。
+- **ウェブAPI**: ウェブAPIはウェブアプリケーション向けに特化されたAPIです。これらのAPIは主にブラウザAPIとサードパーティAPIの2つのカテゴリに分けられます。
+- **ブラウザAPI**: これらのAPIはブラウザからデータを公開します。ウェブ開発者はJavaScriptを使ってこのデータにアクセスし操作できます。
+- **サードパーティAPI**: これらはデフォルトではブラウザに組み込まれていません。何らかの方法でコードを取得する必要があります。通常、サービスの使い方を説明した詳細なドキュメントがあります。例として、Google Maps APIがあり、ウェブサイト上にインタラクティブな地図を表示できます。
+- **DOM**: DOMはDocument Object Modelの略で、HTMLドキュメントとやり取りするためのプログラミングインターフェースです。DOMを使うと、ウェブページ上の要素を追加、変更、削除できます。DOMツリーのルートは`html`要素です。これはHTMLドキュメントの全コンテンツの最上位コンテナです。その他のノードはすべてこのルートノードの子孫要素です。ルートノードの下には階層的に他のノードがあります。親ノードは他の要素を含む要素で、子ノードは他の要素に含まれる要素です。
+- **`navigator`インターフェース**: これはユーザーエージェント文字列、プラットフォーム、ブラウザのバージョンなど、ブラウザ環境に関する情報を提供します。ユーザーエージェント文字列は使用中のブラウザとOSを識別するテキスト文字列です。
+- **`window`インターフェース**: これはDOMドキュメントを含むブラウザウィンドウを表します。ウィンドウのサイズ変更、新しいウィンドウの開閉、異なるURLへの移動など、ブラウザウィンドウとやり取りするためのメソッドやプロパティを提供します。
 
-## Working with the `querySelector()`, `querySelectorAll()` and `getElementById()` Methods
+## `querySelector()`、`querySelectorAll()`、`getElementById()`メソッドの操作
 
-- **`getElementById()` Method**: This method is used to get an object that represents the HTML element with the specified `id`. Remember that ids must be unique in every HTML document, so this method will only return one Element object.
+- **`getElementById()`メソッド**: 指定した`id`を持つHTML要素を表すオブジェクトを取得するために使います。idはHTMLドキュメント内で一意である必要があるため、このメソッドは1つのElementオブジェクトだけを返します。
 
 :::interactive_editor
 
@@ -35,7 +35,7 @@ console.log(container)
 
 :::
 
-- **`querySelector()` Method**: This method is used to get the first element in the HTML document that matches the CSS selector passed as an argument.
+- **`querySelector()`メソッド**: 引数として渡されたCSSセレクターに一致するHTMLドキュメント内の最初の要素を取得するために使います。
 
 :::interactive_editor
 
@@ -51,7 +51,7 @@ console.log(section)
 
 :::
 
-- **`querySelectorAll()` Method**: You can use this method to get a list of all the DOM elements that match a specific CSS selector.
+- **`querySelectorAll()`メソッド**: 特定のCSSセレクターに一致するすべてのDOM要素のリストを取得するために使います。
 
 :::interactive_editor
 
@@ -71,9 +71,9 @@ console.log(ingredients)
 
 :::
 
-## Working with the `innerText()`, `innerHTML()`, `createElement()` and `textContent()` Methods
+## `innerText()`、`innerHTML()`、`createElement()`、`textContent()`メソッドの操作
 
-- **`innerHTML` Property**: This is a property of the `Element` that is used to set or update parts of the HTML markup.
+- **`innerHTML`プロパティ**: `Element`のプロパティで、HTMLマークアップの一部を設定または更新するために使います。
 
 :::interactive_editor
 
@@ -91,13 +91,13 @@ container.innerHTML = '<ul><li>Cheese</li><li>Tomato</li></ul>';
 
 :::
 
-- **`createElement` Method**: This is used to create an HTML element.
+- **`createElement`メソッド**: HTML要素を作成するために使います。
 
 ```js
 const img = document.createElement("img");
 ```
 
-- **`innerText`**: This represents the visible text content of the HTML element and its descendants.
+- **`innerText`**: HTML要素とその子孫の可視テキストコンテンツを表します。
 
 :::interactive_editor
 
@@ -116,7 +116,7 @@ console.log(container.innerText);
 
 :::
 
-- **`textContent`**: This returns the plain text content of an element, including all the text within its descendants.
+- **`textContent`**: 子孫を含む要素内のプレーンテキストコンテンツを返します。
 
 :::interactive_editor
 
@@ -135,9 +135,9 @@ console.log(container.textContent);
 
 :::
 
-## Working with the `appendChild()` and `removeChild()` Methods
+## `appendChild()`と`removeChild()`メソッドの操作
 
-- **`appendChild()` Method**: This method is used to add a node to the end of the list of children of a specified parent node.
+- **`appendChild()`メソッド**: 指定した親ノードの子ノードリストの末尾にノードを追加するために使います。
 
 :::interactive_editor
 
@@ -159,7 +159,7 @@ dessertsList.appendChild(listItem);
 
 :::
 
-- **`removeChild()` Method**: This method is used to remove a node from the DOM.
+- **`removeChild()`メソッド**: DOMからノードを削除するために使います。
 
 :::interactive_editor
 
@@ -181,9 +181,9 @@ sectionEl.removeChild(lastParagraph);
 
 :::
 
-## Work with the `setAttribute()` Method
+## `setAttribute()`メソッドの操作
 
-- **Definition**: This method is used to set the attribute for a given element. If the attribute already exists, then the value is updated. Otherwise, a new attribute is added with a value.
+- **定義**: 指定した要素の属性を設定するために使います。属性がすでに存在する場合は値を更新し、存在しない場合は新しい属性を値付きで追加します。
 
 :::interactive_editor
 
@@ -199,13 +199,13 @@ para.setAttribute("class", "my-class");
 
 :::
 
-## Event Object
+## イベントオブジェクト
 
-- **Definition**: The `Event` object is a payload that triggers when a user interacts with your web page in some way. These interactions can be anything from clicking on a button or focusing an input to shaking their mobile device. All `Event` objects will have the `type` property. This property reveals the type of event that triggered the payload, such as keydown or click. These values will correspond to the same values you might pass to `addEventListener()`, where you can capture and utilize the `Event` object.
+- **定義**: `Event`オブジェクトは、ユーザーがウェブページと何らかの形でやり取りしたときに発生するペイロードです。これらのやり取りは、ボタンのクリックや入力へのフォーカス、モバイル端末の振動など様々です。すべての`Event`オブジェクトは`type`プロパティを持ちます。このプロパティはkeydownやclickなど、ペイロードを発生させたイベントの種類を示します。これらの値は`addEventListener()`に渡す値と対応しており、`Event`オブジェクトをキャプチャして利用できます。
 
-## `addEventListener()` and `removeEventListener()` Methods
+## `addEventListener()`と`removeEventListener()`メソッド
 
-- **`addEventListener` Method**: This method is used to listen for events. It takes two arguments: the event you want to listen for and a function that will be called when the event occurs. Some common examples of events would be click events, input events, and change events.
+- **`addEventListener`メソッド**: イベントを監視するために使います。2つの引数を取り、1つ目は監視したいイベント、2つ目はイベント発生時に呼び出される関数です。よくあるイベントの例はクリックイベント、入力イベント、変更イベントです。
 
 :::interactive_editor
 
@@ -222,7 +222,7 @@ btn.addEventListener("click", () => alert("You clicked the button"));
 
 :::
 
-- **`removeEventListener()` Method**: This method is used to remove an event listener that was previously added to an element using the `addEventListener()` method. This is useful when you want to stop listening for a particular event on an element.
+- **`removeEventListener()`メソッド**: 以前に`addEventListener()`メソッドで追加したイベントリスナーを削除するために使います。特定の要素でイベントの監視を停止したい場合に便利です。
 
 :::interactive_editor
 
@@ -255,8 +255,7 @@ para.addEventListener("mouseover", () => {
 
 :::
 
-- **Inline Event Handlers**: Inline event handlers are special attributes on an HTML element that are used to execute JavaScript code when an event occurs. In modern JavaScript, inline event handlers are not considered best practice. It is preferred to use the `addEventListener` method instead.
-
+- **インラインイベントハンドラ**: インラインイベントハンドラは、イベント発生時にJavaScriptコードを実行するためのHTML要素の特別な属性です。現代のJavaScriptでは、インラインイベントハンドラはベストプラクティスとは見なされません。代わりに`addEventListener`メソッドを使うことが推奨されます。
 
 :::interactive_editor
 
@@ -266,9 +265,9 @@ para.addEventListener("mouseover", () => {
 
 :::
 
-## The Change Event
+## changeイベント
 
-- **Definition**: The change event is a special event which is fired when the user modifies the value of certain input elements. Examples would include when a checkbox or a radio button is ticked. Or when the user makes a selection from something like a date picker or dropdown menu.
+- **定義**: changeイベントは、ユーザーが特定の入力要素の値を変更したときに発生する特別なイベントです。例としては、チェックボックスやラジオボタンの選択、日付ピッカーやドロップダウンメニューからの選択があります。
 
 :::interactive_editor
 
@@ -298,22 +297,22 @@ selectEl.addEventListener("change", (e) => {
 
 :::
 
-## Event Bubbling
+## イベントバブリング
 
-- **Definition**: Event bubbling, or propagation, refers to how an event "bubbles up" to parent objects when triggered.
-- **`stopPropagation()` Method**: This method prevents further propagation for an event.
+- **定義**: イベントバブリング（伝播）は、イベントが発生したときに親オブジェクトへ「バブルアップ」する仕組みを指します。
+- **`stopPropagation()`メソッド**: このメソッドはイベントのさらなる伝播を防ぎます。
 
-## Event Delegation
+## イベントデリゲーション
 
-- **Definition**: Event delegation is the process of listening to events that have bubbled up to a parent, rather than handling them directly on the element that triggered them.
+- **定義**: イベントデリゲーションは、イベントがバブルアップして親で監視されるのを利用し、イベント発生元の要素で直接処理するのではなく親で処理する方法です。
 
 ## DOMContentLoaded
 
-- **Definition**: The `DOMContentLoaded` event is fired when everything in the HTML document has been loaded and parsed. If you have external stylesheets, or images, the `DOMContentLoaded` event will not wait for those to be loaded. It will only wait for the HTML to be loaded.
+- **定義**: `DOMContentLoaded`イベントは、HTMLドキュメントのすべてが読み込みと解析を終えたときに発生します。外部スタイルシートや画像がある場合、`DOMContentLoaded`イベントはそれらの読み込みを待ちません。HTMLの読み込み完了のみを待ちます。
 
-## Working with `style` and `classList`
+## `style`と`classList`の操作
 
-- **`Element.style` Property**: This property is a read-only property that represents the inline style of an element. You can use this property to get or set the style of an element.
+- **`Element.style`プロパティ**: このプロパティは読み取り専用で、要素のインラインスタイルを表します。要素のスタイルを取得または設定するために使えます。
 
 :::interactive_editor
 
@@ -329,7 +328,7 @@ paraEl.style.color = "red";
 
 :::
 
-- **`Element.classList` Property**: This property is a read-only property that can be used to add, remove, or toggle classes on an element.
+- **`Element.classList`プロパティ**: このプロパティは読み取り専用で、要素のクラスを追加、削除、切り替えするために使えます。
 
 :::interactive_editor
 
@@ -378,10 +377,9 @@ toggleBtn.addEventListener("click", () => menu.classList.toggle("show"));
 
 :::
 
+## `setTimeout()`と`setInterval()`メソッドの操作
 
-## Working with the `setTimeout()` and `setInterval()` Methods
-
-- **`setTimeout()` Method**: This method lets you delay an action for a specified time.
+- **`setTimeout()`メソッド**: 指定した時間だけ処理を遅延させるために使います。
 
 :::interactive_editor
 
@@ -393,7 +391,7 @@ setTimeout(() => {
 
 :::
 
-- **`setInterval()` Method**: This method keeps runs a piece of code repeatedly at a set interval. Since `setInterval()` keeps executing the provided function at the specified interval, you might want to stop it. For this, you have to use the `clearInterval()` method.
+- **`setInterval()`メソッド**: 指定した間隔でコードを繰り返し実行します。`setInterval()`は指定した間隔で関数を実行し続けるため、停止したい場合は`clearInterval()`メソッドを使います。
 
 :::interactive_editor
 
@@ -414,9 +412,9 @@ setTimeout(() => {
 
 :::
 
-## The `requestAnimationFrame()` Method
+## `requestAnimationFrame()`メソッド
 
-- **Definition**: This method allows you to schedule the next step of your animation before the next screen repaint, resulting in a fluid and visually appealing experience. The next screen repaint refers to the moment when the browser refreshes the visual display of the web page. This happens multiple times per second, typically around 60 times (or 60 frames per second) on most displays.
+- **定義**: このメソッドは次の画面再描画の前にアニメーションの次のステップをスケジュールでき、滑らかで視覚的に魅力的な体験を実現します。次の画面再描画とは、ブラウザがウェブページの表示を更新する瞬間のことで、通常は1秒間に約60回（60fps）行われます。
 
 ```js
 function animate() {
@@ -430,7 +428,7 @@ function animate() {
 
 ## Web Animations API
 
-- **Definition**: The Web Animations API lets you create and control animations directly inside JavaScript. 
+- **定義**: Web Animations APIはJavaScript内で直接アニメーションを作成・制御できるAPIです。
 
 :::interactive_editor
 
@@ -465,9 +463,9 @@ const animation = square.animate(
 
 :::
 
-## The Canvas API
+## Canvas API
 
-- **Definition**: The Canvas API is a powerful tool that lets you manipulate graphics right inside your JavaScript file. To work with the Canvas API, you first need to provide a `canvas` element in HTML. This element acts as a drawing surface you can manipulate with the instance methods and properties of the interfaces in the Canvas API. This API has interfaces like `HTMLCanvasElement`, `CanvasRenderingContext2D`, `CanvasGradient`, `CanvasPattern`, and `TextMetrics` which contain methods and properties you can use to create graphics in your JavaScript file.
+- **定義**: Canvas APIはJavaScriptファイル内でグラフィックスを操作できる強力なツールです。Canvas APIを使うには、まずHTMLに`canvas`要素を用意します。この要素は描画面として機能し、Canvas APIのインターフェースのメソッドやプロパティで操作できます。このAPIには`HTMLCanvasElement`、`CanvasRenderingContext2D`、`CanvasGradient`、`CanvasPattern`、`TextMetrics`などのインターフェースがあり、JavaScriptファイル内でグラフィックスを作成するためのメソッドやプロパティを含みます。
 
 :::interactive_editor
 
@@ -492,10 +490,10 @@ ctx.fillRect(1, 1, 150, 100);
 
 :::
 
-## Opening and Closing Dialogs and Modals with JavaScript
+## JavaScriptでのダイアログとモーダルの開閉
 
-- **Modal and Dialog Definitions**: Dialogs let you display important information or actions to users. With the HTML built-in dialog element, you can easily create these dialogs (both modal and non-modal dialogs) in your web apps. A modal dialog is a type of dialog that forces the user to interact with it before they can access the rest of the application or webpage. In contrast, a non-modal dialog allows the user to continue interacting with other parts of the page or application even when the dialog is open. It doesn't prevent access to the rest of the content.
-- **`showModal()` Method**: This method is used to open a modal.
+- **モーダルとダイアログの定義**: ダイアログはユーザーに重要な情報や操作を表示するためのものです。HTMLの組み込みdialog要素を使うと、ウェブアプリで簡単にモーダルおよび非モーダルダイアログを作成できます。モーダルダイアログは、ユーザーがそれとやり取りしないと他のアプリやウェブページの部分にアクセスできないタイプのダイアログです。一方、非モーダルダイアログは開いていても他の部分とやり取りを続けられ、他のコンテンツへのアクセスを妨げません。
+- **`showModal()`メソッド**: モーダルを開くために使います。
 
 :::interactive_editor
 
@@ -518,7 +516,7 @@ openButton.addEventListener('click', () => {
 
 :::
 
-- **`close()` Method**: This method is used to close the modal.
+- **`close()`メソッド**: モーダルを閉じるために使います。
 
 :::interactive_editor
 
@@ -549,4 +547,4 @@ closeButton.addEventListener('click', () => {
 
 # --assignment--
 
-Review the DOM Manipulation and Click Events with JavaScript topics and concepts.
+JavaScriptによるDOM操作とクリックイベントのトピックと概念を復習してください。

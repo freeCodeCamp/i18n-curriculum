@@ -7,13 +7,13 @@ dashedName: step-17
 
 # --description--
 
-For the truthy condition, if `prev` includes `item`, return a filtered array with `item` removed.
+真の条件の場合、`prev` が `item` を含むなら、`item` を除いたフィルター済みの配列を返してください。
 
-Chain the `filter()` method to `prev` and pass it an anonymous function that takes `i` as an argument. Inside the function, check that `i` is not strictly equal to `item`. This will return a new array with all items except `item`.
+`filter()` に `prev` メソッドをチェーンし、`i` を引数に取る無名関数を渡してください。その関数内で `i` が `item` と厳密に等しくないことを確認します。これにより `item` を除くすべての要素を含む新しい配列が返されます。
 
 # --hints--
 
-You should chain the `filter()` method to `prev` and pass it an anonymous function that takes `i` as an argument.
+`filter()` に `prev` メソッドをチェーンし、`i` を引数に取る無名関数を渡す必要があります。
 
 ```js
 const script = [...document.querySelectorAll("script")].find((s) => s.dataset.src ===  "index.jsx").innerText;
@@ -24,7 +24,7 @@ const shoppingListString = exports.ShoppingList.toString();
 assert.match(shoppingListString, /prev\.includes\s*\(\s*item\s*\)\s*\?\s*prev\.filter\s*\(function\s*\(\s*i\s*\)\s*{/);
 ```
 
-Inside the anonymous `filter()` function, you should check that `i` is not strictly equal to `item`. Remember to return the result of that check.
+無名の `filter()` 関数内で、`i` が `item` と厳密に等しくないことを確認してください。そのチェックの結果を返すことを忘れないでください。
 
 ```js
 const script = [...document.querySelectorAll("script")].find((s) => s.dataset.src ===  "index.jsx").innerText;

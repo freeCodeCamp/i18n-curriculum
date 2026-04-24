@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c442eddfaeb5bd19
-title: ウィキペディアビューアを作成する
+title: Wikipediaビューアを作る
 challengeType: 3
 forumTopicId: 302360
 dashedName: build-a-wikipedia-viewer
@@ -8,21 +8,21 @@ dashedName: build-a-wikipedia-viewer
 
 # --description--
 
-**目標:** こちらと似た機能を持つアプリを構築してください: <a href="https://codepen.io/freeCodeCamp/full/wGqEga/" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/wGqEga/</a>
+**目的:** 次のような機能を持つアプリを作成してください：<a href="https://codepen.io/freeCodeCamp/full/wGqEga/" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/wGqEga/</a>。
 
-MediaWiki のソフトウェアにより運営されているウィキペディアは、知識を収集して整理し、人々に利用できるようにするのに役立っています。
+MediaWikiソフトウェアはWikipediaを支えており、知識を収集・整理して人々に提供するのに役立ちます。
 
-MediaWiki API を使用して、上記のサンプルアプリと似たような検索関数とランダム記事関数を作成してください。 ウィキペディアをデータソースとして利用することができます。
+MediaWiki APIを使って、上記の例のアプリのように検索機能とランダム記事機能を再現してください。データソースとしてWikipediaを使用できます。
 
-以下のユーザーストーリーを満たし、すべてのテストが成功するようにしてください。 必要に応じて、どのようなライブラリあるいは API を使用してもかまいません。 あなた独自のアレンジを加えましょう。
+以下のユーザーストーリーを満たし、すべてのテストに合格してください。必要なライブラリやAPIは自由に使って構いません。自分なりのスタイルを加えてください。
 
-**ユーザーストーリー:** Wikipedia の項目を検索ボックスで検索し、その検索結果の Wikipedia の項目を参照することができます。
+**ユーザーストーリー:** 検索ボックスでWikipediaのエントリーを検索し、結果のWikipediaエントリーを表示できます。
 
-**ユーザーストーリー:** ボタンをクリックすることで、ランダムに Wikipedia の項目を表示できます。
+**ユーザーストーリー:** ボタンをクリックしてランダムなWikipediaエントリーを表示できます。
 
-完了したら、CodePen のプロジェクトへのリンクを入れて、「このチャレンジを完了しました」ボタンをクリックしてください。
+完成したら、CodePen上のプロジェクトへのリンクを含め、「このチャレンジを完了しました」ボタンをクリックしてください。
 
-<a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp フォーラム</a>でプロジェクトのフィードバックを得ることができます。
+<a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCampフォーラム</a>でプロジェクトのフィードバックをもらうこともできます。
 
 # --solutions--
 

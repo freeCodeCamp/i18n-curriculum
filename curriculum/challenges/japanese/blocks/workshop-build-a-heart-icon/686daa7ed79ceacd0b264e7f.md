@@ -7,20 +7,20 @@ dashedName: step-4
 
 # --description--
 
-The next step is to set the `width` and `height` attributes for the `svg` element. As you are creating an icon, both values should be set small.
+次のステップは、`width` 要素の `height` と `svg` 属性を設定することです。アイコンを作成しているので、両方の値は小さく設定してください。
 
-Set both values to `24`.
+両方の値を `24` に設定してください。
 
 # --hints--
 
-Your `svg` element should have a `width` attribute of `24`.
+`svg` 要素には `width` の `24` 属性が必要です。
 
 ```js
 const svg = document.querySelector('svg');
 assert.strictEqual(svg.getAttribute('width'), '24');
 ```
 
-Your `svg` element should have a `height` attribute of `24`.
+`svg` 要素には `height` の `24` 属性が必要です。
 
 ```js
 const svg = document.querySelector('svg');

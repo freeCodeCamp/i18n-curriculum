@@ -1,13 +1,13 @@
 ---
 id: 6551eebe6cbb2e6cadf9b468
-title: Step 2
+title: ステップ 2
 challengeType: 20
 dashedName: step-2
 ---
 
 # --description--
 
-Variables can store values of different data types. You just assigned an integer value, but if you want to represent some text, you need to assign a string. Strings are sequences of characters enclosed by single or double quotes, but you cannot start a string with a single quote and end it with a double quote or vice versa:
+変数はさまざまなデータ型の値をストアできます。今は整数値を代入しましたが、テキストを表したい場合は文字列を代入する必要があります。文字列はシングルクォートか二重引用符で囲まれた文字のシーケンスですが、シングルクォートで始めて二重引用符で終わる、またはその逆はできません。
 
 ```py
 string_1 = "I am a string"
@@ -15,30 +15,30 @@ string_2 = 'I am also a string'
 string_3 = 'This is not valid"
 ```
 
-Delete your `number` variable and its value. Then, declare another variable called `text` and assign the string `'Hello World'` to this variable.
+`number` 変数とその値を削除してください。それから、`text` という名前の別の変数を宣言し、この変数に文字列 `'Hello World'` を代入してください。
 
 # --hints--
 
-You should not have `number = 5` in your code.
+コードに `number = 5` があってはいけません。
 
 ```js
 const commentless_code = __helpers.python.removeComments(code);
 assert.isFalse(/number\s*=\s*5/.test(commentless_code))
 ```
 
-You should declare a variable called `text`. Pay attention to place the variable name at the beginning of the line.
+`text` という名前の変数を宣言してください。変数名は行の先頭に置くよう注意してください。
 
 ```js
 assert.match(code, /^text\s*=/m)
 ```
 
-You should assign the string `'Hello World'` to your `text` variable. Remember to use either single or double quotes to enclose the string and pay attention to the letter case.
+`'Hello World'` 変数に文字列 `text` を代入してください。文字列を囲むのにシングルクォートか二重引用符のどちらかを使い、文字の大文字・小文字にも注意してください。
 
 ```js
 assert.match(code, /^text\s*=\s*("|')Hello World\1\s*(#.*)?$/m)
 ```
 
-Your code contains invalid syntax and/or invalid indentation.
+コードに無効な構文や無効なインデントがあります。
 
 ```js
 ({test: () => assert(true) })

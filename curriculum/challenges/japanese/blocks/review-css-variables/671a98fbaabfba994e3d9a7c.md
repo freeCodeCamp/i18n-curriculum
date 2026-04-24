@@ -1,15 +1,15 @@
 ---
 id: 671a98fbaabfba994e3d9a7c
-title: CSS Variables Review
+title: CSS変数のレビュー
 challengeType: 31
 dashedName: review-css-variables
 ---
 
 # --interactive--
 
-## CSS Custom Properties (CSS Variables)
+## CSSカスタムプロパティ（CSS変数）
 
-- **Definition**: CSS custom properties, also known as CSS variables, are entities defined by CSS authors that contain specific values to be reused throughout a document. They are a powerful feature that allows for more efficient, maintainable, and flexible stylesheets. Custom properties are particularly useful in creating themeable designs. You can define a set of properties for different themes:
+- **定義**: CSSカスタムプロパティ、別名CSS変数は、CSSの作成者が定義し、ドキュメント全体で再利用できる特定の値を含む要素です。これは、より効率的で保守しやすく柔軟なスタイルシートを作成できる強力な機能です。カスタムプロパティは、テーマ対応デザインを作成する際に特に役立ちます。異なるテーマ用に一連のプロパティを定義できます。
 
 ```css
 :root {
@@ -28,9 +28,9 @@ body {
 }
 ```
 
-## The `@property` Rule
+## `@property`ルール
 
-- **Definition**: The `@property` rule is a powerful CSS feature that allows developers to define custom properties with greater control over their behavior, including how they animate and their initial values.
+- **定義**: `@property`ルールは、開発者がカスタムプロパティの動作をより細かく制御できる強力なCSS機能で、アニメーションの仕方や初期値の設定も含まれます。
 
 ```css
 @property --property-name {
@@ -40,10 +40,11 @@ body {
 }
 ```
 
-- **`--property-name`**: This is the name of the custom property you're defining. Like all custom properties, it must start with two dashes. **`syntax`**: This defines the type of the property, which can be things like `<color>`, `<length>`, `<number>`, `<percentage>`, or more complex types.
-- **`inherits`**: This specifies whether the property should inherit its value from its parent element.
-- **`initial-value`**: This sets the default value of the property.
-- **Gradient Example Using the `@property` Rule**: This example creates a gradient that smoothly animates when the element is hovered over.
+- **`--property-name`**: 定義するカスタムプロパティの名前です。すべてのカスタムプロパティと同様に、必ず2つのダッシュで始まらなければなりません。
+**`syntax`**: プロパティの型を定義します。`<color>`、`<length>`、`<number>`、`<percentage>`などや、より複雑な型が指定できます。
+- **`inherits`**: プロパティが親要素から値を継承するかどうかを指定します。
+- **`initial-value`**: プロパティのデフォルト値を設定します。
+- **`@property`ルールを使ったグラデーションの例**: この例は、要素にホバーしたときに滑らかにアニメーションするグラデーションを作成します。
 
 :::interactive_editor
 
@@ -74,7 +75,7 @@ body {
 
 :::
 
-- **Fallbacks**: When using the custom property, you can provide a fallback value using the `var()` function, just as you would with standard custom properties:
+- **フォールバック**: カスタムプロパティを使う際、標準のカスタムプロパティと同様に`var()`関数を使ってフォールバック値を指定できます。
 
 ```css
 .button {
@@ -84,4 +85,4 @@ body {
 
 # --assignment--
 
-Review the CSS Variables topics and concepts.
+CSS変数のトピックと概念をレビューしてください。

@@ -1,43 +1,43 @@
 ---
 id: 67d2f4ddb4a4306fdf5bbaee
-title: What Is Memoization, and How Does the useMemo Hook Work?
+title: メモ化とは何か、そして useMemo フックはどのように動作するのか？
 challengeType: 19
 dashedName: what-is-memoization-and-how-does-the-usememo-hook-work
 ---
 
 # --description--
 
-As your React app gets larger, unnecessary re-renders and expensive calculations can slow down performance, leading to slow UI updates and increased resource usage.
+React アプリが大きくなるにつれて、不必要な再レンダリングや高コストな計算がパフォーマンスを低下させ、UI の更新が遅くなったりリソースの使用量が増えたりします。
 
-This can be especially problematic in apps with complex state management, large lists, functions that require heavy computations, and many components with a single parent.
+これは特に、複雑な状態管理、大きなリスト、重い計算を必要とする関数、そして単一の親を持つ多くのコンポーネントがあるアプリで問題になります。
 
-This gives rise to the need to optimize your React app for better performance by minimizing redundant computations and ensuring smoother interactions.
+このため、冗長な計算を最小限に抑え、よりスムーズな操作を実現することで、React アプリのパフォーマンスを最適化する必要があります。
 
-React solves this problem with a process called memoization, a technique which caches values and functions to prevent unnecessary recalculations, so your app can be faster and more responsive.
+React はこの問題をメモ化というプロセスで解決します。メモ化は値や関数をキャッシュして不必要な再計算を防ぐ手法で、アプリをより高速かつレスポンシブにします。
 
-By definition, memoization is an optimization technique in which the result of expensive function calls are cached (remembered) based on specific arguments. When the same arguments are provided again, the cached result is returned instead of re-computing the function.
+メモ化とは、高コストな関数呼び出しの結果を特定の引数に基づいてキャッシュ（記憶）する最適化手法です。同じ引数が再度与えられた場合、関数を再計算する代わりにキャッシュされた結果を返します。
 
-The memoization process happens this way:
+メモ化の流れは次の通りです：
 
-- Store the results of function calls along with their input arguments.
+- 関数呼び出しの結果とその入力引数を保存する。
 
-- Before executing the function, check if the result for the current arguments already exists in the cache.
+- 関数を実行する前に、現在の引数に対する結果がキャッシュに存在するか確認する。
 
-- If it exists, return the cached result instead of running the computation again.
+- 存在すれば、計算を再度行わずにキャッシュされた結果を返す。
 
-- If it doesn't exist, compute the result, store it in the cache, and then return it.
+- 存在しなければ、結果を計算しキャッシュに保存してから返す。
 
-To improve developer experience with memoization, React provides three tools – `React.memo` (or `memo`), `useMemo` and `useCallback`. 
+メモ化の開発者体験を向上させるために、React は `React.memo`（または `memo`）、`useMemo`、`useCallback` の3つのツールを提供しています。
 
-As you might guess, both `useMemo` and `useCallback` are hooks, but `React.memo` is a component wrapper, a higher-order component (HOC).
+ご想像の通り、`useMemo` と `useCallback` はフックですが、`React.memo` はコンポーネントラッパーであり、高階コンポーネント（HOC）です。
 
-In the next lesson, we will take a look at how the `useCallback` hook and `React.memo` work.
+次のレッスンでは、`useCallback` フックと `React.memo` の動作を見ていきます。
 
-`useMemo` lets you memoize computed values while `useCallback` does the same for function references.
+`useMemo` は計算された値をメモ化し、`useCallback` は関数の参照をメモ化します。
 
-If you're wondering what computed values and function references are, computed values refer to the result of executing a function, while function references are the pointers to functions – the function object in memory.
+計算された値と関数の参照とは何か気になる場合、計算された値は関数を実行した結果を指し、関数の参照は関数へのポインタ、つまりメモリ上の関数オブジェクトを指します。
 
-Let's see how to use the `useMemo` hook first. Here's the basic syntax of the `useMemo` hook:
+まずは `useMemo` フックの使い方を見てみましょう。`useMemo` フックの基本構文は以下の通りです：
 
 ```js
 const memoizedValue = useMemo(
@@ -48,9 +48,9 @@ const memoizedValue = useMemo(
 );
 ```
 
-You can see all that's needed is to wrap the `useMemo` hook around the function.
+必要なのは `useMemo` フックを関数の周りにラップするだけです。
 
-This `ExpensiveSquare` component will receive a `num` prop which it will use to calculate the square:
+この `ExpensiveSquare` コンポーネントは `num` プロップを受け取り、それを使って平方を計算します：
 
 ```jsx
 function ExpensiveSquare({ num }) {
@@ -69,7 +69,7 @@ function ExpensiveSquare({ num }) {
 export default ExpensiveSquare;
 ```
 
-Here's the `App` component where the `ExpensiveSquare` is being used:
+こちらは `App` コンポーネントで `ExpensiveSquare` が使われている例です：
 
 ```jsx
 import { useState, useEffect } from "react";
@@ -96,9 +96,9 @@ function App() {
 export default App;
 ```
 
-The `timer` in the `useEffect`, running every second, will make the `calculateSquare` function run any time it runs, even when you don't increase the `num` state variable.
+`timer` の中の `useEffect` は毎秒実行され、`calculateSquare` 関数を実行します。これにより、`num` 状態変数を増やさなくても関数が毎回実行されてしまいます。
 
-To solve this problem, we can use the `useMemo` hook by wrapping the function call in it and specifying the `num` variable as the dependency:
+この問題を解決するために、関数呼び出しを `useMemo` フックでラップし、`num` 変数を依存関係として指定します：
 
 ```jsx
 // import the useMemo hook
@@ -124,43 +124,43 @@ function ExpensiveSquare({ num }) {
 export default ExpensiveSquare;
 ```
 
-This will make sure the function is memoized by caching the result, so calculation happens only when the `num` variable changes, not when anything changes in the component it's being used in.
+これにより、関数は結果をキャッシュしてメモ化され、`num` 変数が変わった時だけ計算が行われ、コンポーネント内の他の変更では計算されません。
 
-The `calculateSquare` function call is not running any time `timer` changes anymore but on the initial render and when `num` changes.
+`calculateSquare` 関数呼び出しは `timer` が変わるたびに実行されるのではなく、初回レンダリング時と `num` が変わった時だけ実行されます。
 
 # --questions--
 
 ## --text--
 
-What is memoization in React?
+React におけるメモ化とは何ですか？
 
 ## --answers--
 
-A technique that caches values and functions to prevent unnecessary recalculations.
+不必要な再計算を防ぐために値や関数をキャッシュする手法です。
 
 ---
 
-A technique that lets you manage component state updates to prevent unnecessary recalculations.
+コンポーネントの状態更新を管理して不必要な再計算を防ぐ手法です。
 
 ### --feedback--
 
-It helps optimize performance by storing previously computed results.
+以前計算した結果を保存することでパフォーマンスを最適化します。
 
 ---
 
-A process of reconciling the Virtual DOM with the actual DOM.
+仮想 DOM と実際の DOM を調整するプロセスです。
 
 ### --feedback--
 
-It helps optimize performance by storing previously computed results.
+以前計算した結果を保存することでパフォーマンスを最適化します。
 
 ---
 
-A way to handle side effects in functional components.
+関数コンポーネントで副作用を扱う方法です。
 
 ### --feedback--
 
-It helps optimize performance by storing previously computed results.
+以前計算した結果を保存することでパフォーマンスを最適化します。
 
 ## --video-solution--
 
@@ -168,35 +168,35 @@ It helps optimize performance by storing previously computed results.
 
 ## --text--
 
-What is the difference between computed values and function references?
+計算された値と関数の参照の違いは何ですか？
 
 ## --answers--
 
-Computed values are function objects, while function references are execution results.
+計算された値は関数オブジェクトで、関数の参照は実行結果です。
 
 ### --feedback--
 
-One is the output of a function, while the other is just a pointer to it.
+一方は関数の出力で、もう一方は関数へのポインタです。
 
 ---
 
-Computed values are the result of executing a function, while function references are the function objects in memory.
+計算された値は関数を実行した結果で、関数の参照はメモリ上の関数オブジェクトです。
 
 ---
 
-Computed values and function references are the same thing.
+計算された値と関数の参照は同じものです。
 
 ### --feedback--
 
-One is the output of a function, while the other is just a pointer to it.
+一方は関数の出力で、もう一方は関数へのポインタです。
 
 ---
 
-Function references store computed values.
+関数の参照は計算された値を保存します。
 
 ### --feedback--
 
-One is the output of a function, while the other is just a pointer to it.
+一方は関数の出力で、もう一方は関数へのポインタです。
 
 ## --video-solution--
 
@@ -204,7 +204,7 @@ One is the output of a function, while the other is just a pointer to it.
 
 ## --text--
 
-Which of these is NOT one of the tools React provides for memoization?
+次のうち、React がメモ化のために提供しているツールではないものはどれですか？
 
 ## --answers--
 
@@ -212,7 +212,7 @@ Which of these is NOT one of the tools React provides for memoization?
 
 ### --feedback--
 
-Memoization tools focus on caching values and functions, while this option handles side effects.
+メモ化ツールは値や関数のキャッシュに焦点を当てていますが、この選択肢は副作用を扱います。
 
 ---
 
@@ -220,7 +220,7 @@ Memoization tools focus on caching values and functions, while this option handl
 
 ### --feedback--
 
-Memoization tools focus on caching values and functions, while this option handles side effects.
+メモ化ツールは値や関数のキャッシュに焦点を当てていますが、この選択肢は副作用を扱います。
 
 ---
 
@@ -228,7 +228,7 @@ Memoization tools focus on caching values and functions, while this option handl
 
 ### --feedback--
 
-Memoization tools focus on caching values and functions, while this option handles side effects.
+メモ化ツールは値や関数のキャッシュに焦点を当てていますが、この選択肢は副作用を扱います。
 
 ---
 

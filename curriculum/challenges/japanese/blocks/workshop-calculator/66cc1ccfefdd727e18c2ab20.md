@@ -1,21 +1,21 @@
 ---
 id: 66cc1ccfefdd727e18c2ab20
-title: Step 14
+title: ステップ 14
 challengeType: 1
 dashedName: step-14
 ---
 
 # --description--
 
-Your `calculateQuotient` appears to be working correctly but there is one case that you have not tested yet.
+あなたの`calculateQuotient`は正しく動作しているようですが、まだテストしていないケースがあります。
 
-Add a `console.log` that calls the `calculateQuotient` function with the arguments `3` and `0`.
+`console.log`を追加して、`calculateQuotient`関数を引数`3`と`0`で呼び出してください。
 
-Make sure to take a close look at the output of this call.
+この呼び出しの出力をよく確認してください。
 
 # --hints--
 
-You should have a `console.log` that calls the `calculateQuotient` function with the arguments `3` and `0`.
+`console.log`を用意して、`calculateQuotient`関数を引数`3`と`0`で呼び出す必要があります。
 
 ```js
 assert.match(code, /console\.log\s*\(\s*calculateQuotient\s*\(\s*3\s*,\s*0\s*\)\s*\)\s*;?/);

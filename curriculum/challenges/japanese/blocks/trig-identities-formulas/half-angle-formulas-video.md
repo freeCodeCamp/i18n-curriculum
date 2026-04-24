@@ -1,6 +1,6 @@
 ---
 id: 699e783f8f18cf77dfce5c1d
-title: Half Angle Formulas
+title: 半角の公式
 challengeType: 11
 videoId: aJRfi6KrCcM
 dashedName: half-angle-formulas
@@ -8,13 +8,13 @@ dashedName: half-angle-formulas
 
 # --description--
 
-In this video, you will learn about half angle formulas.
+このビデオでは、半角の公式について学びます。
 
 # --questions--
 
 ## --text--
 
-What is the half angle formula for $\cos\left(\frac{\theta}{2}\right)$?
+$\cos\left(\frac{\theta}{2}\right)$ の半角の公式は何ですか？
 
 ## --answers--
 
@@ -35,5 +35,3 @@ $\cos\left(\frac{\theta}{2}\right) = \sqrt{1 - \cos^2(\theta)}$
 ## --video-solution--
 
 2
-
-

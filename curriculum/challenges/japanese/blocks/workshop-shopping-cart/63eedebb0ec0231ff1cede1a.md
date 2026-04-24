@@ -7,39 +7,39 @@ dashedName: step-22
 
 # --description--
 
-Use the `.forEach()` method to loop through the `items` array. Pass an empty callback function that takes a single parameter `dessert`.
+`.forEach()` メソッドを使って `items` 配列をループしてください。パラメータが1つの空のコールバック関数 `dessert` を渡してください。
 
 # --hints--
 
-You should use the `.forEach()` method on your `items` array.
+`.forEach()` 配列に `items` メソッドを使うべきです。
 
 ```js
 const cart = new ShoppingCart();
 assert.match(cart.addItem.toString(), /items\.forEach\(/);
 ```
 
-Remember to use the `this` keyword to access the `items` array.
+`this` 配列にアクセスするには `items` キーワードを使うことを忘れないでください。
 
 ```js
 const cart = new ShoppingCart();
 assert.match(cart.addItem.toString(), /this\.items\.forEach\(/);
 ```
 
-You should pass a callback function to the `.forEach()` method.
+`.forEach()` メソッドにはコールバック関数を渡すべきです。
 
 ```js
 const cart = new ShoppingCart();
 assert.match(cart.addItem.toString(), /this\.items\.forEach\(\s*function\s*\(/);
 ```
 
-Your callback function should take a single parameter.
+コールバック関数はパラメータを1つ受け取るべきです。
 
 ```js
 const cart = new ShoppingCart();
 assert.match(cart.addItem.toString(), /this\.items\.forEach\(\s*function\s*\(\s*dessert\s*\)/);
 ```
 
-Your callback function should be empty.
+コールバック関数は空であるべきです。
 
 ```js
 const cart = new ShoppingCart();

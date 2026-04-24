@@ -1,6 +1,6 @@
 ---
 id: 69ae767fb4a814be6a4f2be8
-title: Building an MCP Server
+title: MCPサーバーの構築
 challengeType: 11
 videoId: lidIujhu3XY
 dashedName: building-an-mcp-server
@@ -8,32 +8,30 @@ dashedName: building-an-mcp-server
 
 # --description--
 
-In this video, you will learn how to build an MCP server.
+このビデオでは、MCPサーバーの構築方法を学びます。
 
 # --questions--
 
 ## --text--
 
-What are the three components of an MCP server?
+MCPサーバーの3つのコンポーネントは何ですか？
 
 ## --answers--
 
-CPU, GPU, and RAM
+CPU、GPU、およびRAM
 
 ---
 
-Users, Permissions, and Logs
+ユーザー、権限、およびログ
 
 ---
 
-Resources, Tools, Prompts
+リソース、ツール、プロンプト
 
 ---
 
-Input, Output, and Network
+入力、出力、およびネットワーク
 
 ## --video-solution--
 
 3
-
-

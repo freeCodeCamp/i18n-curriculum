@@ -1,6 +1,6 @@
 ---
 id: 5ed596ba3306cf2c1a94bb92
-title: Tuples
+title: タプル
 challengeType: 11
 videoId: g6fwjiEFG-Y
 dashedName: tuples
@@ -8,13 +8,13 @@ dashedName: tuples
 
 # --description--
 
-In this video, you will learn about tuples in Python and how they differ from lists.
+このビデオでは、Pythonのタプルについて学び、リストとの違いを理解します。
 
 # --questions--
 
 ## --text--
 
-Which of the following is the correct way to create a tuple?
+次のうち、タプルを作成する正しい方法はどれですか？
 
 ## --answers--
 

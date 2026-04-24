@@ -1,44 +1,44 @@
 ---
 id: 5efae0543cbd2bbdab94e333
-title: Step 32
+title: ステップ 32
 challengeType: 0
 dashedName: step-32
 ---
 
 # --description--
 
-To improve the accessibility of the image you added, add an `alt` attribute with the text:
+追加した画像のアクセシビリティを向上させるために、次のテキストを持つ`alt`属性を追加してください：
 
 `Two tabby kittens sleeping together on a couch.`
 
 # --hints--
 
-Your `figure` element should have an opening tag. Opening tags have this syntax: `<elementName>`.
+`figure`要素には開始タグが必要です。開始タグの構文は次の通りです：`<elementName>`。
 
 ```js
 assert.lengthOf(document.querySelectorAll('figure'), 2);
 ```
 
-Your `figure` element should have a closing tag. Closing tags have a `/` just after the `<` character.
+`figure`要素には終了タグが必要です。終了タグは`/`文字の直後に`<`があります。
 
 ```js
 assert.lengthOf(code.match(/<\/figure>/g), 2);
 ```
 
-There should be a `figure` element right above the last `section` element's closing tag.
+最後の`figure`要素の終了タグのすぐ上に`section`要素があるはずです。
 
 ```js
 assert.equal(document.querySelectorAll('main > section')[1]?.lastElementChild.nodeName, 'FIGURE');
 ```
 
-The Cats `img` element should be nested in the `figure` element.
+Catsの`img`要素は`figure`要素にネストされている必要があります。
 
 ```js
 const catsImg = document.querySelectorAll('figure > img')[1];
 assert.exists(catsImg);
 ```
 
-The third image should have a `src` attribute set to `https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg`.
+3番目の画像には`src`属性が`https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg`に設定されている必要があります。
 
 ```js
 const catsImg = document.querySelectorAll('figure > img')[1];
@@ -47,7 +47,7 @@ assert.strictEqual(
 );
 ```
 
-The Cats `img` element should have an `alt` attribute with the value `Two tabby kittens sleeping together on a couch.`
+Catsの`img`要素には値が`alt`の`Two tabby kittens sleeping together on a couch.`属性が必要です。
 
 ```js
 const catsImg = document.querySelectorAll('figure > img')[1];

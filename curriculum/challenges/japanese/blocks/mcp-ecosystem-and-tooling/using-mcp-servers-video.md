@@ -1,6 +1,6 @@
 ---
 id: 69ae767ab4a814be6a4f2be7
-title: Using MCP Servers
+title: MCPサーバーの使い方
 challengeType: 11
 videoId: PlILctA_czg
 dashedName: using-mcp-servers
@@ -8,29 +8,29 @@ dashedName: using-mcp-servers
 
 # --description--
 
-In this video, you will learn how to use MCP servers.
+このビデオでは、MCPサーバーの使い方を学びます。
 
 # --questions--
 
 ## --text--
 
-What are some things to consider when working with remote MCP servers?
+リモートのMCPサーバーを扱う際に考慮すべきことは何ですか？
 
 ## --answers--
 
-You want to handle trust, data privacy, authorization and authentication.
+信頼性、データのプライバシー、認可と認証を適切に扱う必要があります。
 
 ---
 
-You only need to worry about the server’s processing speed and memory usage.
+サーバーの処理速度とメモリ使用量だけを気にすればよいです。
 
 ---
 
-You need to make sure the server runs the latest version of your LLM locally.
+サーバーが最新バージョンのLLMをローカルで実行していることを確認する必要があります。
 
 ---
 
-You need to ensure the server has enough disk space for temporary logs.
+サーバーに一時ログ用の十分なディスク容量があることを確認する必要があります。
 
 ## --video-solution--
 
