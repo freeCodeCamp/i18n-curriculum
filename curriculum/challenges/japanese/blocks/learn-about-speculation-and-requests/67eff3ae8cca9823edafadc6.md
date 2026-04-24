@@ -1,6 +1,6 @@
 ---
 id: 67eff3ae8cca9823edafadc6
-title: Task 59
+title: タスク 59
 challengeType: 19
 dashedName: task-59
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+音声を聞いて、以下の質問に答えてください。
 
 # --questions--
 
 ## --text--
 
-What is Jake asking about?
+ジェイクは何について尋ねていますか？
 
 ## --answers--
 
-If the updates were applied.
+アップデートが適用されたかどうか。
 
 ---
 
-If new security updates were released.
+新しいセキュリティアップデートがリリースされたかどうか。
 
 ### --feedback--
 
-Jake is not asking if new updates exist.
+ジェイクは新しいアップデートが存在するかどうかは尋ねていません。
 
 ---
 
-Who is responsible for security updates.
+誰がセキュリティアップデートの責任者か。
 
 ### --feedback--
 
-Jake is not asking about a specific person.
+ジェイクは特定の人物については尋ねていません。
 
 ---
 
-How security updates work.
+セキュリティアップデートがどのように機能するか。
 
 ### --feedback--
 
-Jake assumes Jessica knows about security updates.
+ジェイクはジェシカがセキュリティアップデートについて知っていると想定しています。
 
 ## --video-solution--
 
@@ -52,11 +52,11 @@ Jake assumes Jessica knows about security updates.
 
 # --explanation--
 
-Jake wants to know if someone has verified that all updates have been installed.
+ジェイクは、誰かがすべてのアップデートがインストールされているか確認したか知りたいのです。
 
-By `Have you checked...?` he asks if Jessica has looked into something.
+`Have you checked...?`で、ジェシカが何かを調べたか尋ねています。
 
-By `whether all security updates were applied` he asks if updates were successfully installed.
+`whether all security updates were applied`で、アップデートが正常にインストールされたか尋ねています。
 
 # --scene--
 

@@ -1,6 +1,6 @@
 ---
 id: 68fa8b4ecf2cf649ff55f7fd
-title: Task 2
+title: タスク 2
 challengeType: 19
 dashedName: task-2
 lang: es
@@ -8,13 +8,13 @@ lang: es
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+音声を聞いて、以下の質問に答えてください。
 
 # --questions--
 
 ## --text--
 
-What is the **second** letter pronounced in this audio?
+この音声で発音される**2番目の**文字は何ですか？
 
 ## --answers--
 
@@ -22,7 +22,7 @@ What is the **second** letter pronounced in this audio?
 
 ### --feedback--
 
-The letter `b` has a different sound.
+文字 `b` は異なる音です。
 
 ---
 
@@ -34,7 +34,7 @@ The letter `b` has a different sound.
 
 ### --feedback--
 
-The letter `z` has a different sound.
+文字 `z` は異なる音です。
 
 ---
 
@@ -42,7 +42,7 @@ The letter `z` has a different sound.
 
 ### --feedback--
 
-The letter `m` has a different sound.
+文字 `m` は異なる音です。
 
 ## --video-solution--
 
@@ -50,9 +50,9 @@ The letter `m` has a different sound.
 
 # --explanation--
 
-These are the three letters pronounced in the audio: `b`, `x`, `z`.
+音声で発音される3つの文字は次の通りです：`b`、`x`、`z`。
 
-The letter `x` is the second one. Therefore, `x` is the correct answer.
+2番目の文字は `x` です。したがって、`x` が正しい答えです。
 
 # --scene--
 

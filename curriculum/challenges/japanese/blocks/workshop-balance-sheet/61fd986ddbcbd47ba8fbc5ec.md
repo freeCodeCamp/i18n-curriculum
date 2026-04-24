@@ -1,19 +1,19 @@
 ---
 id: 61fd986ddbcbd47ba8fbc5ec
-title: ステップ 23
+title: Step 23
 challengeType: 0
 dashedName: step-23
 ---
 
 # --description--
 
-3 つ目の `tr` 内に `th` 要素を追加して、テキストを `Credit The outstanding balance on our credit card.` に設定してください。 テキストの `Credit` 以外の文を `span` 要素で囲み、`class` 属性を `description` に設定してください。
+3番目の `tr` の中に、テキスト `th` を持つ `Credit The outstanding balance on our credit card.` 要素を追加してください。`Credit ` を除くそのテキストを、`span` が `class` に設定された `description` 要素で囲んでください。
 
-その下に `td` 要素を 3 つ追加して、`$50`、`$50`、`$75` というテキストをこの順で追加してください。 3 つ目の `td` 要素の `class` を `current` に設定してください。
+その下に3つの `td` 要素を追加し、それぞれに順番に `$50`、`$50`、`$75` のテキストを設定してください。3番目の `td` 要素には `class` が `current` に設定されている必要があります。
 
 # --hints--
 
-3 つ目の `tr` 要素内に `th` 要素が 1 つ必要です。
+3番目の `tr` には `th` 要素が必要です。
 
 ```js
 const table = document.querySelectorAll('table')?.[1];
@@ -22,7 +22,7 @@ const tableRow = tbody?.querySelectorAll('tr')?.[2];
 assert.isNotNull(tableRow?.querySelector('th'));
 ```
 
-`th` 要素のテキストは `Credit The outstanding balance on our credit card.` にする必要があります。
+`th` 要素にはテキスト `Credit The outstanding balance on our credit card.` を設定してください。
 
 ```js
 const table = document.querySelectorAll('table')?.[1];
@@ -34,7 +34,7 @@ assert.strictEqual(
 );
 ```
 
-`The outstanding balance on our credit card.` というテキストを `span` 要素で囲む必要があります。
+テキスト `The outstanding balance on our credit card.` は `span` 要素で囲む必要があります。
 
 ```js
 const table = document.querySelectorAll('table')?.[1];
@@ -46,7 +46,7 @@ assert.strictEqual(
 );
 ```
 
-`span` 要素の `class` 属性を `description` に設定する必要があります。
+`span` 要素には `class` 属性が `description` に設定されている必要があります。
 
 ```js
 const table = document.querySelectorAll('table')?.[1];
@@ -57,7 +57,7 @@ assert.isTrue(
 );
 ```
 
-`td` 要素が 3 つ必要です。
+3つの `td` 要素を持つべきです。
 
 ```js
 const table = document.querySelectorAll('table')?.[1];
@@ -66,7 +66,7 @@ const tableRow = tbody?.querySelectorAll('tr')?.[2];
 assert.lengthOf(tableRow?.querySelectorAll('td'), 3);
 ```
 
-1 つ目の `td` 要素には `$50` というテキストが必要です。
+1番目の `td` 要素にはテキスト `$50` を設定してください。
 
 ```js
 const table = document.querySelectorAll('table')?.[1];
@@ -75,7 +75,7 @@ const tableRow = tbody?.querySelectorAll('tr')?.[2];
 assert.strictEqual(tableRow?.querySelectorAll('td')?.[0]?.textContent.trim(), '$50');
 ```
 
-2 つ目の `td` 要素には `$50` というテキストが必要です。
+2番目の `td` 要素にはテキスト `$50` を設定してください。
 
 ```js
 const table = document.querySelectorAll('table')?.[1];
@@ -84,7 +84,7 @@ const tableRow = tbody?.querySelectorAll('tr')?.[2];
 assert.strictEqual(tableRow?.querySelectorAll('td')?.[1]?.textContent.trim(), '$50');
 ```
 
-3 つ目の `td` 要素には `$75` というテキストが必要です。
+3番目の `td` 要素にはテキスト `$75` を設定してください。
 
 ```js
 const table = document.querySelectorAll('table')?.[1];
@@ -93,7 +93,7 @@ const tableRow = tbody?.querySelectorAll('tr')?.[2];
 assert.strictEqual(tableRow?.querySelectorAll('td')?.[2]?.textContent.trim(), '$75');
 ```
 
-3 つ目の `td` 要素の `class` を `current` に設定する必要があります。
+3番目の `td` 要素は `class` が `current` に設定されているべきです。
 
 ```js
 const table = document.querySelectorAll('table')?.[1];

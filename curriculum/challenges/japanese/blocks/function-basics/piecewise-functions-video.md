@@ -1,6 +1,6 @@
 ---
 id: 699e0353138be64fa313138f
-title: Piecewise Functions
+title: 区分的関数
 challengeType: 11
 videoId: C9hCmH9nj4o
 dashedName: piecewise-functions
@@ -8,29 +8,29 @@ dashedName: piecewise-functions
 
 # --description--
 
-In this video, you will learn about piecewise functions.
+このビデオでは、区分的関数について学びます。
 
 # --questions--
 
 ## --text--
 
-What is a piecewise function?
+区分的関数とは何ですか？
 
 ## --answers--
 
-A function that is defined by multiple sub-functions on the y-axis.
+y軸上の複数の部分関数によって定義される関数。
 
 ---
 
-A function that is defined by a single formula for all values of x.
+すべてのxの値に対して単一の式で定義される関数。
 
 ---
 
-A function that is defined by the x and y values of a set of points.
+一連の点のxとyの値によって定義される関数。
 
 ---
 
-A function that is defined by multiple sub-functions.
+複数の部分関数によって定義される関数。
 
 ## --video-solution--
 

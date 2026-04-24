@@ -1,35 +1,35 @@
 ---
 id: 612e8eebe3a6dc3fcc33a66f
-title: Step 9
+title: ステップ 9
 challengeType: 0
 dashedName: step-9
 ---
 
 # --description--
 
-Now target your `#piano` element with an `id` selector. Set its `background-color` property to `#00471b`, the `width` property to `992px` and the `height` property to `290px`.
+今、`#piano` 要素を `id` セレクターで指定してください。`background-color` プロパティを `#00471b` に、`width` プロパティを `992px` に、`height` プロパティを `290px` に設定してください。
 
 # --hints--
 
-You should have a `#piano` selector.
+`#piano` セレクターが必要です。
 
 ```js
 assert.exists(new __helpers.CSSHelp(document).getStyle('#piano'));
 ```
 
-Your `#piano` selector should have the `background-color` property set to `#00471b`.
+`#piano` セレクターには `background-color` プロパティを `#00471b` に設定してください。
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('#piano')?.backgroundColor, 'rgb(0, 71, 27)');
 ```
 
-Your `#piano` selector should have a `width` property set to `992px`.
+`#piano` セレクターには `width` プロパティを `992px` に設定してください。
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('#piano')?.width, '992px');
 ```
 
-Your `#piano` selector should have the `height` set to `290px`.
+`#piano` セレクターには `height` を `290px` に設定してください。
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('#piano')?.height, '290px');

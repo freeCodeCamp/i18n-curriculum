@@ -1,6 +1,6 @@
 ---
 id: 67caefd11f4cf72cbf5bdd46
-title: Task 37
+title: タスク 37
 challengeType: 22
 dashedName: task-37
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+音声を聞いて、下の文を完成させてください。
 
 # --fillInTheBlank--
 
@@ -24,15 +24,15 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This two-word phrase is a casual way of saying "no" or "not exactly". It's often used when you want to politely disagree or give a softer, less direct response. The first letter of the first word is capitalized.
+この2語のフレーズは、「いいえ」や「正確には違う」という意味をカジュアルに表現する方法です。丁寧に反対したり、やわらかく直接的でない返答をしたいときによく使われます。最初の単語の最初の文字は大文字です。
 
 # --explanation--
 
-`Not really` is commonly used to give a negative answer, but in a softer tone. It's more casual than simply saying `No`. For example:
+`Not really` は否定の答えをやわらかく伝えるときによく使われます。単に `No` と言うよりもカジュアルです。例えば：
 
-- **Team lead:** `Do you think this software is user-friendly?`
+- **チームリーダー:** `Do you think this software is user-friendly?`
 
-- **Intern:** `Not really.` - This means it's not very user-friendly, but the speaker might not be completely certain.
+- **インターン:** `Not really.` - これは「使いやすくはないけど、話者は完全に確信しているわけではない」という意味です。
 
 # --scene--
 

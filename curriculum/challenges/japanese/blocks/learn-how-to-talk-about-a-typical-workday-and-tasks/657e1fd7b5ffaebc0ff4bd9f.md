@@ -1,6 +1,6 @@
 ---
 id: 657e1fd7b5ffaebc0ff4bd9f
-title: Task 26
+title: タスク 26
 challengeType: 19
 dashedName: task-26
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --description--
 
-Listen to the audio and answer the question below.
+音声を聞いて、以下の質問に答えてください。
 
 # --questions--
 
 ## --text--
 
-Why is Tom thanking Sophie?
+なぜトムはソフィーに感謝しているのでしょうか？
 
 ## --answers--
 
-For giving him a time management app.
+時間管理アプリを教えてくれたから。
 
 ### --feedback--
 
-Tom is thanking Sophie for tips, not for giving him an app.
+トムはアプリをもらったのではなく、アドバイスに感謝しています。
 
 ---
 
-Because he finds Sophie's tips helpful.
+ソフィーのアドバイスが役に立つから。
 
 ---
 
-For inviting him to lunch.
+ランチに誘ってくれたから。
 
 ### --feedback--
 
-He is thanking her for the advice, not for a lunch invitation.
+感謝しているのはアドバイスに対してで、ランチの誘いではありません。
 
 ---
 
-For helping him with a project.
+プロジェクトを手伝ってくれたから。
 
 ### --feedback--
 
-Tom's gratitude is related to the tips about organization, not specific project help.
+トムの感謝は組織化のアドバイスに関するもので、特定のプロジェクトの手助けではありません。
 
 ## --video-solution--
 

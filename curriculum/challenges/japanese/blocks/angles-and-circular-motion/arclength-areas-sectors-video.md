@@ -1,6 +1,6 @@
 ---
 id: 699e56b58f18cf77dfce5c0b
-title: Arclength and Areas of Sectors
+title: 弧の長さと扇形のエリア
 challengeType: 11
 videoId: hNtpuLx5i6Y
 dashedName: arclength-and-areas-of-sectors
@@ -8,31 +8,30 @@ dashedName: arclength-and-areas-of-sectors
 
 # --description--
 
-In this video, you will learn about arcs, sectors and areas of sectors.
+このビデオでは、弧、扇形、および扇形のエリアについて学びます。
 
 # --questions--
 
 ## --text--
 
-What is a sector?
+扇形とは何ですか？
 
 ## --answers--
 
-A wedge of pi for a circle.
+円のπのくさび形の部分。
 
 ---
 
-A line that cuts a circle into two equal halves.
+円を2つの等しい半分に切る線。
 
 ---
 
-The distance around the outside of a circle.
+円の外周の長さ。
 
 ---
 
-The center point of a circle.
+円の中心点。
 
 ## --video-solution--
 
 1
-

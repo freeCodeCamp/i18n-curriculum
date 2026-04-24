@@ -1,13 +1,13 @@
 ---
 id: 66edcdd18a4ef8df16e6bb7e
-title: JavaScript Higher Order Functions Quiz
+title: JavaScript 高階関数クイズ
 challengeType: 8
 dashedName: quiz-javascript-higher-order-functions
 ---
 
 # --description--
 
-To pass the quiz, you must correctly answer at least 18 of the 20 questions below.
+このクイズに合格するには、以下の20問中少なくとも18問に正しく答える必要があります。
 
 # --quizzes--
 
@@ -17,51 +17,51 @@ To pass the quiz, you must correctly answer at least 18 of the 20 questions belo
 
 #### --text--
 
-Which of the following statements about JavaScript higher-order functions is NOT true?
+JavaScriptの高階関数について、正しくない説明はどれですか？
 
 #### --distractors--
 
-Higher-order functions can greatly enhance code readability and maintainability by enabling functional programming techniques.
+高階関数は関数型プログラミングの手法を可能にし、コードの可読性と保守性を大幅に向上させることができます。
 
 ---
 
-Higher-order functions like map, filter, and reduce are powerful tools for array manipulation, but they are not unique to functional programming.
+map、filter、reduceのような高階関数は配列操作に強力なツールですが、関数型プログラミングに特有のものではありません。
 
 ---
 
-Higher-order functions may introduce complexity in understanding code, but they can also lead to more expressive and concise solutions.
+高階関数はコードの理解を複雑にする場合がありますが、より表現力豊かで簡潔な解決策につながることもあります。
 
 #### --answer--
 
-All functions in JavaScript, including those that do not take or return other functions, can be classified as higher-order functions.
+JavaScriptのすべての関数は、他の関数を引数に取ったり返したりしなくても高階関数として分類されます。
 
 ### --question--
 
 #### --text--
 
-What is a factory function in the context of higher order functions?
+高階関数の文脈で、ファクトリー関数とは何ですか？
 
 #### --distractors--
 
-A function that creates new variables.
+新しい変数を作成する関数。
 
 ---
 
-A function that only works with strings.
+文字列だけを扱う関数。
 
 ---
 
-A function that automatically generates code comments.
+自動的にコードコメントを生成する関数。
 
 #### --answer--
 
-A function that returns a new function based on specific parameters
+特定のパラメータに基づいて新しい関数を返す関数。
 
 ### --question--
 
 #### --text--
 
-After code execution, what will be the value of `forEachRes` and `mapRes`?
+コード実行後、`forEachRes` と `mapRes` の値は何になりますか？
 
 ```js
 const numbers = [1, 1, 1, 1, 1];
@@ -76,25 +76,25 @@ const mapRes = numbers.map(num => {
 
 #### --distractors--
 
-`forEachRes` is `undefined` and `mapRes` is `[1,2,3,4,5]`
+`forEachRes` は `undefined` で、`mapRes` は `[1,2,3,4,5]`
 
 ---
 
-`forEachRes` is `0` and `mapRes` is `[1,2,3,4,5]`
+`forEachRes` は `0` で、`mapRes` は `[1,2,3,4,5]`
 
 ---
 
-`forEachRes` is `5` and `mapRes` is `[1,2,3,4,5]`
+`forEachRes` は `5` で、`mapRes` は `[1,2,3,4,5]`
 
 #### --answer--
 
-`forEachRes` is `undefined` and `mapRes` is `[6,7,8,9,10]`
+`forEachRes` は `undefined` で、`mapRes` は `[6,7,8,9,10]`
 
 ### --question--
 
 #### --text--
 
-What is the result of this code?
+このコードの結果は何ですか？
 
 ```js
 [, undefined, 'a', 'b', { 20: 5 }].sort();
@@ -102,11 +102,11 @@ What is the result of this code?
 
 #### --distractors--
 
-Unsupported elements for an array to be sorted, hence error.
+配列をソートするためのサポートされていない要素があるためエラー。
 
 ---
 
-Callback not supplied, hence error.
+コールバックが渡されていないためエラー。
 
 ---
 
@@ -124,95 +124,95 @@ Callback not supplied, hence error.
 
 #### --text--
 
-Which of the following describes a callback function in JavaScript?
+JavaScriptにおけるコールバック関数とはどのようなものですか？
 
 #### --distractors--
 
-A function that is called immediately upon declaration.
+宣言と同時に即座に呼び出される関数。
 
 ---
 
-A function that is invoked with a specific context.
+特定のコンテキストで呼び出される関数。
 
 ---
 
-A function that returns another function.
+別の関数を返す関数。
 
 #### --answer--
 
-A function passed as an argument to another function, to be executed by that function's logic.
+別の関数に引数として渡され、その関数のロジックによって実行される関数。
 
 ### --question--
 
 #### --text--
 
-What is the result of using `reduce()` on an array?
+配列に`reduce()`を使うとどのような結果になりますか？
 
 #### --distractors--
 
-A boolean indicating whether any elements meet a condition.
+条件を満たす要素があるかどうかを示すブール値。
 
 ---
 
-An array with all elements reduced by specified callback function.
+指定したコールバック関数で全要素を縮小した配列。
 
 ---
 
-An array of booleans.
+ブール値の配列。
 
 #### --answer--
 
-It varies depending on the accumulator's initial value and the callback function.
+アキュムレータの初期値とコールバック関数によって結果が異なります。
 
 ### --question--
 
 #### --text--
 
-How does the `sort()` method behave if no compare function is provided in numerical sorting?
+数値のソートで比較関数が提供されない場合、`sort()`メソッドはどのように動作しますか？
 
 #### --distractors--
 
-It fills the empty slots with `null`.
+空のスロットを`null`で埋める。
 
 ---
 
-It returns an array of special characters.
+特殊文字の配列を返す。
 
 ---
 
-It sorts the array in reverse order.
+配列を逆順にソートする。
 
 #### --answer--
 
-It sorts the array as strings based on UTF-16 code units.
+UTF-16コード単位に基づいて文字列として配列をソートします。
 
 ### --question--
 
 #### --text--
 
-What is the purpose of the `some()` method in JavaScript?
+JavaScriptの`some()`メソッドの目的は何ですか？
 
 #### --distractors--
 
-To create a new array with the results of a function applied to each element.
+各要素に関数を適用した結果で新しい配列を作成する。
 
 ---
 
-To iterate through an array without producing a result.
+結果を生成せずに配列を繰り返し処理する。
 
 ---
 
-To reduce an array to a single value based on a callback function.
+コールバック関数に基づいて配列を単一の値に縮小する。
 
 #### --answer--
 
-To determine if any elements in an array pass a specified test.
+配列内のいずれかの要素が指定されたテストに合格するかどうかを判定する。
 
 ### --question--
 
 #### --text--
 
-Which of the following is a valid example of method chaining?
+次のうちメソッドチェーンの有効な例はどれですか？
 
 #### --distractors--
 
@@ -242,7 +242,7 @@ str.toLowerCase().trim().replace(' ', '_');
 
 #### --text--
 
-What is the output of the following code?
+次のコードの出力は何ですか？
 
 ```js
 let numbers = [2, 4, 8, 10];
@@ -272,95 +272,95 @@ numbers.forEach(function(number) {
 
 #### --text--
 
-Which of the following is a benefit of method chaining?
+メソッドチェーンの利点はどれですか？
 
 #### --distractors--
 
-It inherently optimizes performance by reducing the execution time of functions.
+関数の実行時間を短縮してパフォーマンスを自動的に最適化する。
 
 ---
 
-It eliminates the need for temporary variables, but may increase memory usage in some cases.
+一時変数の必要性をなくすが、場合によってはメモリ使用量が増える。
 
 ---
 
-It allows for error handling and debugging to be more straightforward.
+エラー処理やデバッグがより簡単になる。
 
 #### --answer--
 
-It promotes simplified syntax and more readable code by allowing multiple operations in a single expression.
+複数の操作を1つの式で行えるため、構文が簡潔でコードの可読性が向上する。
 
 ### --question--
 
 #### --text--
 
-How can you sort an array of objects by a specific property using the `sort` method?
+`sort`メソッドを使って特定のプロパティでオブジェクトの配列をソートするにはどうしますか？
 
 #### --distractors--
 
-The `sort` method cannot sort objects.
+`sort`メソッドはオブジェクトをソートできない。
 
 ---
 
-Use the `reverse` method after sorting.
+ソート後に`reverse`メソッドを使う。
 
 ---
 
-Convert the objects to strings and sort them.
+オブジェクトを文字列に変換してからソートする。
 
 #### --answer--
 
-Use a compare function that compares the property values.
+プロパティの値を比較する比較関数を使う。
 
 ### --question--
 
 #### --text--
 
-In method chaining, what is a common practice to enhance clarity and debugging?
+メソッドチェーンで明確さとデバッグを向上させる一般的な方法は何ですか？
 
 #### --distractors--
 
-Use fewer methods in the chain.
+チェーン内のメソッド数を減らす。
 
 ---
 
-Avoid chaining methods that return only primitive values.
+プリミティブ値のみを返すメソッドのチェーンは避ける。
 
 ---
 
-Use only built-in methods.
+組み込みメソッドのみを使う。
 
 #### --answer--
 
-Break long chains into multiple steps.
+長いチェーンは複数のステップに分ける。
 
 ### --question--
 
 #### --text--
 
-What is a potential downside of using method chaining excessively in your code?
+コードでメソッドチェーンを過度に使うことの潜在的な欠点は何ですか？
 
 #### --distractors--
 
-It makes the code run slower.
+コードの実行速度が遅くなる。
 
 ---
 
-It prevents the use of comments.
+コメントの使用ができなくなる。
 
 ---
 
-It makes the file size larger.
+ファイルサイズが大きくなる。
 
 #### --answer--
 
-It can make the code harder to debug.
+コードのデバッグが難しくなる可能性がある。
 
 ### --question--
 
 #### --text--
 
-Which method would you use to determine if all elements in an array are strings?
+配列のすべての要素が文字列かどうかを判定するにはどのメソッドを使いますか？
 
 #### --distractors--
 
@@ -382,7 +382,7 @@ Which method would you use to determine if all elements in an array are strings?
 
 #### --text--
 
-What will be the value of `originalArray` after the following code is run?
+次のコード実行後、`originalArray`の値は何になりますか？
 
 ```js
 const originalArray = [{ id: 1 }, { id: 2 }, { id: 3 }];
@@ -409,7 +409,7 @@ filteredArray[0].id = 4;
 
 #### --text--
 
-What will be the value of `shortWords` after the following code is run?
+次のコード実行後、`shortWords`の値は何になりますか？
 
 ```js
 const words = ['apple', 'banana', 'pear', 'kiwi'];
@@ -436,64 +436,64 @@ const shortWords = words.filter(word => word.length <= 5);
 
 #### --text--
 
-What is the purpose of providing an initial value as an argument to the `reduce()` method?
+`reduce()`メソッドに初期値を引数として渡す目的は何ですか？
 
 #### --distractors--
 
-To set the length of the array.
+配列の長さを設定するため。
 
 ---
 
-To limit the number of iterations.
+反復回数を制限するため。
 
 ---
 
-To specify the return type of the function.
+関数の戻り値の型を指定するため。
 
 #### --answer--
 
-To define the starting value for the accumulator.
+アキュムレータの開始値を定義するため。
 
 ### --question--
 
 #### --text--
 
-Can the `map` method be used on objects that are not arrays?
+`map`メソッドは配列以外のオブジェクトに使えますか？
 
 #### --distractors--
 
-Yes, it can be used on any object.
+はい、どんなオブジェクトにも使えます。
 
 ---
 
-Yes, but only on objects with numeric properties.
+はい、ただし数値プロパティを持つオブジェクトのみ。
 
 ---
 
-It depends on the JavaScript version.
+JavaScriptのバージョンによります。
 
 #### --answer--
 
-No, it is specifically designed for arrays.
+いいえ、配列専用に設計されています。
 
 ### --question--
 
 #### --text--
 
-What is the primary purpose of the `map` method in JavaScript?
+JavaScriptの`map`メソッドの主な目的は何ですか？
 
 #### --distractors--
 
-To sort an array and return a new array while maintaining the original order.
+配列をソートし、元の順序を維持しながら新しい配列を返す。
 
 ---
 
-To filter elements from an array and remove or add elements based on a condition.
+条件に基づいて配列の要素をフィルターし、削除または追加する。
 
 ---
 
-To find a specific element in an array and return its index along with the element.
+特定の要素を見つけ、そのインデックスと要素を返す。
 
 #### --answer--
 
-To create a new array containing the results of calling a provided function on each element in the starting array.
+元の配列の各要素に指定した関数を呼び出した結果を含む新しい配列を作成する。

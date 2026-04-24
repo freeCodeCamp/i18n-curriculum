@@ -1,6 +1,6 @@
 ---
 id: 69ae766eb4a814be6a4f2be4
-title: What Is MCP?
+title: MCPとは何ですか？
 challengeType: 11
 videoId: OaK6n8Yg3fA
 dashedName: what-is-mcp
@@ -8,32 +8,30 @@ dashedName: what-is-mcp
 
 # --description--
 
-In this video, you will continue to learn about MCP.
+このビデオでは、MCPについて引き続き学習します。
 
 # --questions--
 
 ## --text--
 
-What is MCP?
+MCPとは何ですか？
 
 ## --answers--
 
-A programming language used specifically for AI development.
+AI開発専用に使われるプログラミング言語です。
 
 ---
 
-A cloud platform for hosting AI applications.
+AIアプリケーションをホスティングするためのクラウドプラットフォームです。
 
 ---
 
-A set of standards that define how AI applications can work with each other.
+AIアプリケーション同士が連携できる方法を定義した一連の標準です。
 
 ---
 
-A type of machine learning model for predicting stock prices.
+株価を予測するための機械学習モデルの一種です。
 
 ## --video-solution--
 
 3
-
-

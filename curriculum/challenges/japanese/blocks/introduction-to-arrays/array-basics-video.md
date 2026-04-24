@@ -1,6 +1,6 @@
 ---
 id: 698dd3547932b3cc4b19c92d
-title: Array Basics
+title: 配列の基本
 challengeType: 11
 videoId: G_kHMzPOwG8
 dashedName: array-basics
@@ -8,29 +8,29 @@ dashedName: array-basics
 
 # --description--
 
-In this video, you will learn about arrays.
+このビデオでは、配列について学びます。
 
 # --questions--
 
 ## --text--
 
-What is an array?
+配列とは何ですか？
 
 ## --answers--
 
-A collection of unrelated data stored randomly in memory.
+メモリ上にランダムに保存された関連のないデータの集合。
 
 ---
 
-A function that stores numbers temporarily.
+数値を一時的にストアする関数。
 
 ---
 
-An ordered collection of values where each element can be referenced by an index.
+各要素がインデックスで参照できる順序付けられた値の集合。
 
 ---
 
-A type of loop used to iterate over numbers.
+数値を繰り返すために使われるループの一種。
 
 ## --video-solution--
 

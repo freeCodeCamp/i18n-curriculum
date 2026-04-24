@@ -7,17 +7,17 @@ dashedName: step-13
 
 # --description--
 
-In the Tower of Hanoi puzzle, you can identify the three rods according to their purpose:
+ハノイの塔のパズルでは、3本の棒をそれぞれの役割に応じて識別できます。
 
-- The first rod is the source, where all the disks are stacked on top of each other at the beginning of the game.
-- The second rod is an auxiliary rod, and it helps in moving the disks to the target rod.
-- The third rod is the target, where all the disks should be placed in order at the end of the game.
+- 最初の棒はソースで、ゲーム開始時にすべての円盤が積み重ねられています。
+- 2番目の棒は補助棒で、円盤をターゲットの棒に移動するのを助けます。
+- 3番目の棒はターゲットで、ゲーム終了時にすべての円盤が順番に置かれる場所です。
 
-Currently, the `move()` function does not take any parameters. Change the function declaration to take 4 parameters: `n`, `source`, `auxiliary`, and `target`. Then, pass `NUMBER_OF_DISKS` and the strings `'A'`, `'B'`, and `'C'` as arguments to your function call. The order matters.
+現在、`move()` 関数はパラメータを受け取っていません。関数宣言を変更して、`n`、`source`、`auxiliary`、`target` の4つのパラメータを受け取るようにしてください。そして、`NUMBER_OF_DISKS` と文字列の `'A'`、`'B'`、`'C'` を引数として関数呼び出しに渡してください。順序が重要です。
 
 # --hints--
 
-Your `move()` function should have `n`, `source`, `auxiliary`, and `target` as the parameters. The order matters.
+`move()` 関数は `n`、`source`、`auxiliary`、`target` をパラメータとして持つ必要があります。順序が重要です。
 
 ```js
 ({ test: () => assert(runPython(`
@@ -27,7 +27,7 @@ Your `move()` function should have `n`, `source`, `auxiliary`, and `target` as t
 })
 ```
 
-You should pass `NUMBER_OF_DISKS` and the strings `'A'`, `'B'`, and `'C'` to `move()`. The order matters.
+`NUMBER_OF_DISKS` と文字列の `'A'`、`'B'`、`'C'` を `move()` に渡す必要があります。順序が重要です。
 
 ```js
 ({test: () => assert.match(code, /^move\(\s*NUMBER_OF_DISKS\s*,\s*('|")A\1\s*,\s*('|")B\2\s*,\s*('|")C\3\s*\)/m)

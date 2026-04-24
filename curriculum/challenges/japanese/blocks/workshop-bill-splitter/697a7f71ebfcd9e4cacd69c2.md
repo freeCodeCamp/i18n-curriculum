@@ -1,30 +1,30 @@
 ---
 id: 697a7f71ebfcd9e4cacd69c2
-title: Step 8
+title: ステップ 8
 challengeType: 20
 dashedName: step-8
 ---
 
 # --description--
 
-The bill is split, but division often results in long decimal numbers. Since money is typically represented with two decimal places, you should round the final result.
+請求額は分割されますが、割り算はしばしば長い小数点以下の数字になります。お金は通常、小数点以下2桁で表されるため、最終結果を四捨五入する必要があります。
 
-Python provides a built-in `round()` function for this. It takes two arguments: the number you want to round and the number of decimal places to keep. Here's an example:
+Python にはこれを行う組み込みの `round()` 関数があります。この関数は2つの引数を取ります：四捨五入したい数値と保持したい小数点以下の桁数です。例を示します。
 
 ```py
 num = 4.815162342
 round(num, 3) # 4.815
 ```
 
-Use the `round()` function to round `final_bill` to two decimal places and assign the result to a new variable named `each_pays`.
+`round()` 関数を使って `final_bill` を小数点以下2桁に四捨五入し、その結果を `each_pays` という新しい変数に代入してください。
 
-Finally, use `print()` to display the string `Each person pays:` followed by a space and your `each_pays` variable.
+最後に、`print()` を使って文字列 `Each person pays:` とスペース、その後に `each_pays` 変数を表示してください。
 
-With that, the bill splitter workshop is complete.
+これで請求額分割のワークショップは完了です。
 
 # --hints--
 
-You should define a variable named `each_pays`.
+`each_pays` という名前の変数を定義してください。
 
 ```js
 ({
@@ -34,7 +34,7 @@ You should define a variable named `each_pays`.
 })
 ```
 
-You should use the `round()` function to round `final_bill` to two decimal places and assign the result to your `each_pays` variable.
+`round()` 関数を使って `final_bill` を小数点以下2桁に四捨五入し、その結果を `each_pays` 変数に代入してください。
 
 ```js
 ({
@@ -44,7 +44,7 @@ You should use the `round()` function to round `final_bill` to two decimal place
 })
 ```
 
-You should use `print()` to display the string `Each person pays:` followed by a space and your `each_pays` variable.
+`print()` を使って文字列 `Each person pays:` とスペース、その後に `each_pays` 変数を表示してください。
 
 ```js
 ({

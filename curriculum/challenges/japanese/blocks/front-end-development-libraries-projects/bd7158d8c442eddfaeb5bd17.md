@@ -1,60 +1,60 @@
 ---
 id: bd7158d8c442eddfaeb5bd17
-title: Build a JavaScript Calculator
+title: JavaScript電卓を作る
 challengeType: 3
 forumTopicId: 301371
 dashedName: build-a-javascript-calculator
 ---
 
 # --description--
-**Note:** **React 18 has known incompatibilities with the tests for this project (see [issue](https://github.com/freeCodeCamp/freeCodeCamp/issues/45922))**
+**注意:** **React 18はこのプロジェクトのテストと既知の非互換性があります（[issue](https://github.com/freeCodeCamp/freeCodeCamp/issues/45922)を参照してください）**
 
-**Objective:** Build an app that is functionally similar to this: <a href="https://javascript-calculator.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://javascript-calculator.freecodecamp.rocks/</a>.
+**目的:** 次のような機能を持つアプリを作成してください：<a href="https://javascript-calculator.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://javascript-calculator.freecodecamp.rocks/</a>。
 
-Fulfill the below user stories and get all of the tests to pass. Use whichever libraries or APIs you need. Give it your own personal style.
+以下のユーザーストーリーを満たし、すべてのテストをパスさせてください。必要なライブラリやAPIは自由に使って構いません。自分なりのスタイルを加えてください。
 
-You can use any mix of HTML, JavaScript, CSS, Bootstrap, SASS, React, Redux, and jQuery to complete this project. You should use a front-end framework (like React for example) because this section is about learning front-end frameworks. Additional technologies not listed above are not recommended and using them is at your own risk. We are looking at supporting other front-end frameworks like Angular and Vue, but they are not currently supported. We will accept and try to fix all issue reports that use the suggested technology stack for this project. Happy coding!
+HTML、JavaScript、CSS、ブートストラップ、SASS、React、Redux、jQueryのいずれか、または組み合わせを使ってこのプロジェクトを完成させてください。フロントエンドフレームワーク（例えばReact）を使うことをお勧めします。このセクションはフロントエンドフレームワークの学習が目的だからです。上記にない追加技術の使用は推奨されず、使用は自己責任となります。AngularやVueなど他のフロントエンドフレームワークのサポートも検討していますが、現時点では対応していません。このプロジェクトで推奨されている技術スタックを使った問題報告はすべて受け付け、修正を試みます。楽しくコーディングしましょう！
 
-**User Story #1:** My calculator should contain a clickable element containing an `=` (equal sign) with a corresponding `id="equals"`.
+**ユーザーストーリー #1:** 電卓には、対応する`=`を持つ`id="equals"`（等号）を含むクリック可能な要素が必要です。
 
-**User Story #2:** My calculator should contain 10 clickable elements containing one number each from 0-9, with the following corresponding IDs: `id="zero"`, `id="one"`, `id="two"`, `id="three"`, `id="four"`, `id="five"`, `id="six"`, `id="seven"`, `id="eight"`, and `id="nine"`.
+**ユーザーストーリー #2:** 電卓には、0～9の数字をそれぞれ1つずつ含む10個のクリック可能な要素が必要で、対応するIDは`id="zero"`、`id="one"`、`id="two"`、`id="three"`、`id="four"`、`id="five"`、`id="six"`、`id="seven"`、`id="eight"`、`id="nine"`です。
 
-**User Story #3:** My calculator should contain 4 clickable elements each containing one of the 4 primary mathematical operators with the following corresponding IDs: `id="add"`, `id="subtract"`, `id="multiply"`, `id="divide"`.
+**ユーザーストーリー #3:** 電卓には、4つの主要な数学演算子のそれぞれを含む4つのクリック可能な要素が必要で、対応するIDは`id="add"`、`id="subtract"`、`id="multiply"`、`id="divide"`です。
 
-**User Story #4:** My calculator should contain a clickable element containing a `.` (decimal point) symbol with a corresponding `id="decimal"`.
+**ユーザーストーリー #4:** 電卓には、対応する`.`を持つ`id="decimal"`（小数点）記号を含むクリック可能な要素が必要です。
 
-**User Story #5:** My calculator should contain a clickable element with an `id="clear"`.
+**ユーザーストーリー #5:** 電卓には、`id="clear"`を含むクリック可能な要素が必要です。
 
-**User Story #6:** My calculator should contain an element to display values with a corresponding `id="display"`.
+**ユーザーストーリー #6:** 電卓には、対応する`id="display"`を持つ値を表示する要素が必要です。
 
-**User Story #7:** At any time, pressing the `clear` button clears the input and output values, and returns the calculator to its initialized state; 0 should be shown in the element with the id of `display`.
+**ユーザーストーリー #7:** いつでも`clear`ボタンを押すと、入力値と出力値がクリアされ、電卓は初期状態に戻ります。IDが`display`の要素には0が表示されるべきです。
 
-**User Story #8:** As I input numbers, I should be able to see my input in the element with the id of `display`.
+**ユーザーストーリー #8:** 数字を入力すると、IDが`display`の要素に入力内容が表示されるべきです。
 
-**User Story #9:** In any order, I should be able to add, subtract, multiply and divide a chain of numbers of any length, and when I hit `=`, the correct result should be shown in the element with the id of `display`.
+**ユーザーストーリー #9:** 任意の順序で、任意の長さの数列に対して加算、減算、乗算、除算ができ、`=`を押すと、正しい結果がIDが`display`の要素に表示されるべきです。
 
-**User Story #10:** When inputting numbers, my calculator should not allow a number to begin with multiple zeros.
+**ユーザーストーリー #10:** 数字を入力する際、複数の先頭ゼロで始まる数字は許可されません。
 
-**User Story #11:** When the decimal element is clicked, a `.` should append to the currently displayed value; two `.` in one number should not be accepted.
+**ユーザーストーリー #11:** 小数点要素をクリックすると、現在表示されている値に`.`が追加されます。同じ数字内に`.`が2つ以上あることは許可されません。
 
-**User Story #12:** I should be able to perform any operation (`+`, `-`, `*`, `/`) on numbers containing decimal points.
+**ユーザーストーリー #12:** 小数点を含む数字に対して、任意の演算（`+`、`-`、`*`、`/`）を実行できます。
 
-**User Story #13:** If 2 or more operators are entered consecutively, the operation performed should be the last operator entered (excluding the negative (`-`) sign). For example, if `5 + * 7 =` is entered, the result should be `35` (i.e. `5 * 7`); if `5 * - 5 =` is entered, the result should be `-25` (i.e. `5 * (-5)`).
+**ユーザーストーリー #13:** 2つ以上の演算子が連続して入力された場合、実行される演算は最後に入力された演算子になります（負の符号`-`は除く）。例えば、`5 + * 7 =`が入力された場合、結果は`35`（つまり`5 * 7`）になります。`5 * - 5 =`が入力された場合、結果は`-25`（つまり`5 * (-5)`）になります。
 
-**User Story #14:** Pressing an operator immediately following `=` should start a new calculation that operates on the result of the previous evaluation.
+**ユーザーストーリー #14:** `=`の直後に演算子を押すと、前回の評価結果に対して新しい計算が始まります。
 
-**User Story #15:** My calculator should have several decimal places of precision when it comes to rounding (note that there is no exact standard, but you should be able to handle calculations like `2 / 7` with reasonable precision to at least 4 decimal places).
+**ユーザーストーリー #15:** 電卓は丸めに関して複数の小数点以下の精度を持つべきです（正確な基準はありませんが、`2 / 7`のような計算を少なくとも小数点以下4桁の精度で扱える必要があります）。
 
-**Note On Calculator Logic:** It should be noted that there are two main schools of thought on calculator input logic: <dfn>immediate execution logic</dfn> and <dfn>formula logic</dfn>. Our example utilizes formula logic and observes order of operation precedence, immediate execution does not. Either is acceptable, but please note that depending on which you choose, your calculator may yield different results than ours for certain equations (see below example). As long as your math can be verified by another production calculator, please do not consider this a bug.
+**電卓ロジックについての注意:** 電卓の入力ロジックには主に2つの考え方があります：<dfn>即時実行ロジック</dfn>と<dfn>式ロジック</dfn>です。例では式ロジックを使い、演算の優先順位を考慮しています。即時実行ロジックは優先順位を考慮しません。どちらも許容されますが、選択によっては特定の式で結果が異なる場合があります（以下の例を参照）。他の市販電卓で検証可能な計算結果であれば、バグとはみなさないでください。
 
-**EXAMPLE:** `3 + 5 x 6 - 2 / 4 =`
+**例:** `3 + 5 x 6 - 2 / 4 =`
 
--   **Immediate Execution Logic:** `11.5`
--   **Formula/Expression Logic:** `32.5`
+-   **即時実行ロジック:** `11.5`
+-   **式/表現ロジック:** `32.5`
 
-You can build your project by <a href='https://codepen.io/pen?template=MJjpwO' target='_blank' rel="noopener noreferrer nofollow">using this CodePen template</a> and clicking `Save` to create your own pen. If you prefer to use another environment, then put this `<script>` tag into the body of your `index.html` file: `<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>`
+<a href='https://codepen.io/pen?template=MJjpwO' target='_blank' rel="noopener noreferrer nofollow">このCodePenテンプレート</a>を使ってプロジェクトを作成し、`Save`をクリックして自分のペンを作成できます。別の環境を使いたい場合は、`<script>`ファイルの本文にこの`index.html`タグを入れてください：`<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>`
 
-Once you're done, submit the URL to your working project with all its tests passing.
+完成したら、すべてのテストに合格した動作中のプロジェクトのURLを提出してください。
 
 # --solutions--
 

@@ -1,6 +1,6 @@
 ---
 id: bd7123c9c452eddfaeb5bdef
-title: Use Bracket Notation to Find the Nth-to-Last Character in a String
+title: ブラケット記法を使って文字列の後ろからN番目の文字を取得する
 challengeType: 1
 forumTopicId: 18344
 dashedName: use-bracket-notation-to-find-the-nth-to-last-character-in-a-string
@@ -8,34 +8,34 @@ dashedName: use-bracket-notation-to-find-the-nth-to-last-character-in-a-string
 
 # --description--
 
-You can use the same principle we just used to retrieve the last character in a string to retrieve the Nth-to-last character.
+文字列の最後の文字を取得するのに使ったのと同じ原理で、後ろからN番目の文字を取得できます。
 
-For example, you can get the value of the third-to-last letter of the `const firstName = "Augusta"` string by using `firstName[firstName.length - 3]`
+例えば、`const firstName = "Augusta"` 文字列の後ろから3番目の文字の値は `firstName[firstName.length - 3]` を使って取得できます。
 
-Example:
+例：
 
 ```js
 const firstName = "Augusta";
 const thirdToLastLetter = firstName[firstName.length - 3];
 ```
 
-`thirdToLastLetter` would have a value of the string `s`.
+`thirdToLastLetter` は文字列 `s` の値になります。
 
 # --instructions--
 
-Use <dfn>bracket notation</dfn> to find the second-to-last character in the `lastName` string.
+<dfn>ブラケット記法</dfn>を使って、`lastName` 文字列の後ろから2番目の文字を見つけてください。
 
-**Hint:** Try looking at the example above if you get stuck.
+**ヒント：** もし詰まったら、上の例を見てみてください。
 
 # --hints--
 
-`secondToLastLetterOfLastName` should be the letter `c`.
+`secondToLastLetterOfLastName` は文字 `c` であるべきです。
 
 ```js
 assert(secondToLastLetterOfLastName === 'c');
 ```
 
-You should use `.length` to get the second last letter.
+後ろから2番目の文字を取得するには `.length` を使うべきです。
 
 ```js
 assert(__helpers.removeJSComments(code).match(/\.length/g).length > 0);

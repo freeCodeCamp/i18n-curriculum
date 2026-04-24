@@ -1,6 +1,6 @@
 ---
 id: 698dc6f47932b3cc4b19c923
-title: Quasilinear Time
+title: 準線形時間
 challengeType: 11
 videoId: p3UAfZZ3Nz0
 dashedName: quasilinear-time
@@ -8,13 +8,13 @@ dashedName: quasilinear-time
 
 # --description--
 
-In this video, you will about quasilinear times.
+このビデオでは、準線形時間について学びます。
 
 # --questions--
 
 ## --text--
 
-Which of the following is the correct way to represent quasilinear time in Big O notation?
+次のうち、ビッグO記法で準線形時間を正しく表す方法はどれですか？
 
 ## --answers--
 

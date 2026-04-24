@@ -1,6 +1,6 @@
 ---
 id: 67caec5ecebab7be7456df7f
-title: Task 130
+title: タスク130
 challengeType: 19
 dashedName: task-130
 lang: en-US
@@ -10,53 +10,53 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+音声を聞いて、以下の質問に答えてください。  
 
 # --questions--
 
 ## --text--
 
-What other issue did the team raise?
+チームが指摘した他の問題は何ですか？
 
 ## --answers--
 
-That they receive updates too early.
+更新が早すぎること。
 
 ### --feedback--
 
-Maria mentions the exact opposite.
+マリアはまったく逆のことを言っています。
 
 ---
 
-That they don't want to communicate as much.
+コミュニケーションをあまり取りたくないこと。
 
 ### --feedback--
 
-Maria doesn't mention the team's willingness to communicate.
+マリアはチームのコミュニケーション意欲については言及していません。  
 
 ---
 
-That they often don't hear about changes in time.
+変更についてタイムリーに聞けないことが多い。
 
 ---
 
-That they think too many people are involved in communication.
+コミュニケーションに関わる人が多すぎると思っていること。
 
 ### --feedback--
 
-Maria does not mention the number of people involved.
+マリアは関わる人数については言及していません。
 
 ## --video-solution--
 
-3
+3  
 
 # --explanation--
 
-When you say something `isn't great`, you are softening a negative message (instead of saying `it is bad`, for instance). It makes criticism sound more polite or indirect. Take a look at the following sentences:
+`isn't great`と言うと、否定的なメッセージを和らげる表現になります（例えば`it is bad`と言う代わりに）。批判をより丁寧で間接的に聞こえるようにします。以下の文を見てみましょう：
 
-- `The design is bad.` - This is a strong negative statement, which often sounds impolite.
+- `The design is bad.` - これは強い否定的な表現で、しばしば失礼に聞こえます。
 
-- `The design isn't great. Maybe we can improve it.` - Saying this sound less harsh and more constructive.
+- `The design isn't great. Maybe we can improve it.` - これを言うと、きつくなく建設的に聞こえます。
 
 # --scene--
 

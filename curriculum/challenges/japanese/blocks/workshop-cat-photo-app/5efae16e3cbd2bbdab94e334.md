@@ -1,35 +1,35 @@
 ---
 id: 5efae16e3cbd2bbdab94e334
-title: ステップ 33
+title: Step 33
 challengeType: 0
 dashedName: step-33
 ---
 
 # --description--
 
-最後の `img` 要素の後に `figcaption` 要素を追加して、テキストを `Cats hate other cats.` としてください。
+最後の `img` 要素の後に、テキスト `figcaption` を持つ `Cats hate other cats.` 要素を追加してください。
 
 # --hints--
 
-`figcaption` 要素には開始タグが必要です。 開始タグは `<elementName>` のような形式の構文です。
+`figcaption` 要素には開始タグが必要です。開始タグの構文は次の通りです：`<elementName>`。
 
 ```js
 assert.lengthOf(document.querySelectorAll('figcaption'), 2);
 ```
 
-`figcaption` 要素には終了タグが必要です。 Closing tags have a `/` just after the `<` character.
+`figcaption` 要素には終了タグが必要です。終了タグは `/` 文字の直後に `<` があります。
 
 ```js
 assert.lengthOf(code.match(/<\/figcaption\>/g), 2);
 ```
 
-2 つ目の `section` 要素の終了タグのすぐ上に `figure` 要素が必要です。
+2番目の `figure` 要素の終了タグのすぐ上に `section` 要素があるはずです。
 
 ```js
 assert.equal(document.querySelectorAll('main > section')[1]?.lastElementChild.nodeName, 'FIGURE');
 ```
 
-最後の `img` 要素は `figure` 要素内にネストされている必要があります。
+最後の `img` 要素は `figure` 要素の中にネストされている必要があります。
 
 ```js
 const catsImg = document.querySelectorAll('figure > img')[1];
@@ -38,25 +38,25 @@ assert.equal(
 );
 ```
 
-`figure` 要素には開始タグが必要です。 開始タグは `<elementName>` のような形式の構文です。
+`figure` 要素には開始タグが必要です。開始タグの構文は次の通りです：`<elementName>`。
 
 ```js
 assert.lengthOf(document.querySelectorAll('figure'), 2);
 ```
 
-`figure` 要素には終了タグが必要です。 Closing tags have a `/` just after the `<` character.
+`figure` 要素には終了タグが必要です。終了タグは `/` 文字の直後に `<` があります。
 
 ```js
 assert.lengthOf(code.match(/<\/figure\>/g), 2);
 ```
 
-`figcaption` 要素は `figure` 要素内にネストされている必要があります。
+`figcaption` 要素は `figure` 要素の中にネストされている必要があります。
 
 ```js
 assert.lengthOf(document.querySelectorAll('figure > figcaption'), 2);
 ```
 
-`figure` 要素内にネストされた `figcaption` 要素は、`img` 要素の下に置く必要があります。 `img` 要素と `figcaption` 要素の順番が誤っているようです。
+`figcaption` 要素にネストされた `figure` 要素は `img` 要素の下にあるべきです。`img` 要素と `figcaption` 要素の順序が間違っています。
 
 ```js
 assert.equal(
@@ -65,7 +65,7 @@ assert.equal(
 );
 ```
 
-`figcaption` 要素のテキストは `Cats hate other cats.` でなければなりません。 テキストに誤字脱字があります。
+`figcaption` 要素にはテキスト `Cats hate other cats.` が必要です。単語の省略かタイプミスがあります。
 
 ```js
 assert.match(
@@ -112,7 +112,7 @@ assert.match(
         <figure>
           <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" alt="Two tabby kittens sleeping together on a couch.">
 --fcc-editable-region--
-
+          
 --fcc-editable-region--
         </figure>
       </section>

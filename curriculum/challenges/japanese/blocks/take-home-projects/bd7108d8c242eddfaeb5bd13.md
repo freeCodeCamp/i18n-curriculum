@@ -1,6 +1,6 @@
 ---
 id: bd7108d8c242eddfaeb5bd13
-title: 世界地図にデータをマッピングする
+title: 世界中のデータを地図に表示する
 challengeType: 3
 forumTopicId: 302365
 dashedName: map-data-across-the-globe
@@ -8,21 +8,21 @@ dashedName: map-data-across-the-globe
 
 # --description--
 
-**目標:** こちらと似た機能を持つアプリを構築してください: <https://codepen.io/freeCodeCamp/full/mVEJag>
+**目的:** 次のアプリと機能的に似たものを作成してください: <https://codepen.io/freeCodeCamp/full/mVEJag>。
 
-以下のユーザーストーリーを満たし、すべてのテストが成功するようにしてください。 必要に応じて、どのようなライブラリあるいは API を使用してもかまいません。 あなた独自のアレンジを加えましょう。
+以下のユーザーストーリーを満たし、すべてのテストに合格してください。必要なライブラリやAPIは自由に使って構いません。自分なりのスタイルを加えてください。
 
-**ユーザーストーリー:** 隕石が落下した世界地図上のすべての場所を見ることができます。
+**ユーザーストーリー:** 世界地図上で全ての隕石落下地点が見られます。
 
-**ユーザーストーリー:** マップ上に示された箇所を見るだけで、隕石の相対的な大きさを伝えられます。
+**ユーザーストーリー:** 隕石の相対的な大きさが、地図上の表現からわかります。
 
-**ユーザーストーリー:** 隕石のデータポイントにマウスポインターを合わせることで、追加のデータを取得することができます。
+**ユーザーストーリー:** 隕石のデータポイントにマウスオーバーすると、追加のデータが表示されます。
 
-**ヒント:** アプリを構築するために使用できるデータセットはこちらです: <https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/meteorite-strike-data.json>
+**ヒント:** こちらのデータセットを使って作成できます: <https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/meteorite-strike-data.json>
 
-完了したら、CodePen のプロジェクトへのリンクを入れて、「このチャレンジを完了しました」ボタンをクリックしてください。
+完成したら、CodePenのプロジェクトへのリンクを含め、「I've completed this challenge」ボタンをクリックしてください。
 
-<a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp フォーラム</a>でプロジェクトのフィードバックを得ることができます。
+プロジェクトのフィードバックは<a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCampフォーラム</a>で共有して受け取ることができます。
 
 # --solutions--
 

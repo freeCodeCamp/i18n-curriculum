@@ -1,6 +1,6 @@
 ---
 id: 699e5ba28f18cf77dfce5c0f
-title: Unit Circle Definition of Sine and Cosine
+title: 正弦と余弦の単位円による定義
 challengeType: 11
 videoId: zt4bkQc1nSw
 dashedName: unit-circle-definition-sine-cosine
@@ -8,31 +8,30 @@ dashedName: unit-circle-definition-sine-cosine
 
 # --description--
 
-In this video, you will learn how to use the unit circle to find the sine and cosine of angles.
+このビデオでは、単位円を使って角度の正弦と余弦を求める方法を学びます。
 
 # --questions--
 
 ## --text--
 
-What is a unit circle?
+単位円とは何ですか？
 
 ## --answers--
 
-A circle with a radius of 0 units.
+半径が0の円。
 
 ---
 
-A circle with a radius of 1 unit.
+半径が1の円。
 
 ---
 
-A circle with a radius of 2 units.
+半径が2の円。
 
 ---
 
-A circle with a radius of 0.5 units.
+半径が0.5の円。
 
 ## --video-solution--
 
 2
-

@@ -1,6 +1,6 @@
 ---
 id: 699e0342138be64fa313138c
-title: Even and Odd Functions
+title: 偶関数と奇関数
 challengeType: 11
 videoId: OCGl-6nrCtM
 dashedName: even-and-odd-functions
@@ -8,29 +8,29 @@ dashedName: even-and-odd-functions
 
 # --description--
 
-In this video, you will learn about even and odd functions.
+このビデオでは、偶関数と奇関数について学びます。
 
 # --questions--
 
 ## --text--
 
-What makes a graph symmetric with respect to the origin?
+原点に関してグラフが対称になるのはどのような場合ですか？
 
 ## --answers--
 
-If it has a 30 degree rotational symmetry about the origin.
+原点を中心に30度の回転対称性がある場合。
 
 ---
 
-If it has a 180 degree rotational symmetry about the origin.
+原点を中心に180度の回転対称性がある場合。
 
 ---
 
-If it has a 90 degree rotational symmetry about the origin.
+原点を中心に90度の回転対称性がある場合。
 
 ---
 
-If it has a 360 degree rotational symmetry about the origin.
+原点を中心に360度の回転対称性がある場合。
 
 ## --video-solution--
 

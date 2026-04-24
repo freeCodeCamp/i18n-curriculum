@@ -7,11 +7,11 @@ dashedName: step-11
 
 # --description--
 
-After the form, add a `div` element with an `id` of `results` that will display the search results.
+フォームの後に、検索結果を表示する`div`要素を、`id`の`results`で追加してください。
 
 # --hints--
 
-You should have a `div` element with the `id` of `results` after the form.
+フォームの後に、`div`の`id`を持つ`results`要素があるはずです。
 
 ```js
 const searchContainer = document.getElementById("search-container");
@@ -122,7 +122,7 @@ export function FruitsSearch() {
           onChange={(e) => setQuery(e.target.value)}
         />
       </form>
-
+      
     --fcc-editable-region--
     </div>
   );

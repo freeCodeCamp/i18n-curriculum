@@ -1,6 +1,6 @@
 ---
 id: 315017f4457c19d45c2be034
-title: Variables and Data Types
+title: 変数とデータ型
 challengeType: 11
 videoId: sIw317W39X0
 dashedName: variables-and-data-types
@@ -8,29 +8,29 @@ dashedName: variables-and-data-types
 
 # --description--
 
-In this video, you will learn about the different data types in Python including integers, strings and booleans.
+このビデオでは、Pythonのさまざまなデータ型について学びます。整数、文字列、ブール値が含まれます。
 
 # --questions--
 
 ## --text--
 
-What is a boolean?
+ブール値とは何ですか？
 
 ## --answers--
 
-It is a data type that represents an `undefined` value.
+`undefined` の値を表すデータ型です。
 
 ---
 
-It is a data type that represents a sequence of characters.
+文字のシーケンスを表すデータ型です。
 
 ---
 
-It is a data type that represents `True` or `False`.
+`True` または `False` を表すデータ型です。
 
 ---
 
-It is a data type that represents a float.
+浮動小数点数を表すデータ型です。
 
 ## --video-solution--
 

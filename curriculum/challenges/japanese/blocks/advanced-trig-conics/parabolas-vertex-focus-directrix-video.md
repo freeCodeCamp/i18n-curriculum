@@ -1,6 +1,6 @@
 ---
 id: 699e855e8f18cf77dfce5c22
-title: Parabolas - Vertex, Focus, Directrix
+title: 放物線の頂点、フォーカス、準線
 challengeType: 11
 videoId: fAXpgprNFq0
 dashedName: parabolas-vertex-focus-directrix
@@ -8,13 +8,13 @@ dashedName: parabolas-vertex-focus-directrix
 
 # --description--
 
-In this video, you will learn about special forms for equations of parabolas, and how to find the vertex, focus, and directrix of a parabola.
+このビデオでは、放物線の方程式の特別な形と、放物線の頂点、フォーカス、準線の見つけ方について学びます。
 
 # --questions--
 
 ## --text--
 
-Which of the following is a valid form for the equation of a parabola?
+次のうち、放物線の方程式として正しい形はどれですか？
 
 ## --answers--
 
@@ -35,4 +35,3 @@ $y - k = 4p(x - h)^2$
 ## --video-solution--
 
 3
-

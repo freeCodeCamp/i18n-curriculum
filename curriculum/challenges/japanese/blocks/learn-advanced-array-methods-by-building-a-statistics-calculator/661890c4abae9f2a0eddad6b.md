@@ -7,11 +7,11 @@ dashedName: step-22
 
 # --description--
 
-In the next few steps, you'll learn how to determine if an array's length is even or odd, as well as how to find the median. You will then be able to apply what you learned to the `getMedian` function.
+次のいくつかのステップで、配列の長さが偶数か奇数かを判定する方法と中央値を見つける方法を学びます。その後、学んだことを`getMedian`関数に適用できるようになります。
 
-To check if a number is even or odd, you can use the <dfn>modulus operator</dfn> `%`. The modulus operator returns the remainder of the division of two numbers.
+数が偶数か奇数かを確認するには、<dfn>モジュラス演算子</dfn>`%`を使います。モジュラス演算子は2つの数の割り算の余りを返します。
 
-Here is an example checking if an array length is even or odd:
+以下は配列の長さが偶数か奇数かをチェックする例です：
 
 ```js
 // check if array length is even
@@ -21,29 +21,29 @@ arr.length % 2 === 0;
 arr.length % 2 === 1;
 ```
 
-If the remainder is `0`, the number is even. If the remainder is `1`, the number is odd.
+余りが`0`の場合、その数は偶数です。余りが`1`の場合、その数は奇数です。
 
-Create a variable called `isEven`. Then use the modulus operator to check if the length of the `testArr2` array is even. Assign that expression to the `isEven` variable.
+`isEven`という変数を作成してください。次にモジュラス演算子を使って`testArr2`配列の長さが偶数かどうかをチェックし、その式を`isEven`変数に代入してください。
 
-Below your `isEven` variable, log out the `isEven` variable to the console.
+`isEven`変数の下に、`isEven`変数をコンソールに出力してください。
 
-Open up the console to see the result.
+結果を見るためにコンソールを開いてください。
 
 # --hints--
 
-You should have an `isEven` variable.
+`isEven`変数があるはずです。
 
 ```js
 assert.isDefined(isEven);
 ```
 
-You should check if the length of the `testArr2` array is even. Refer back to the example provided for you: `arr.length % 2 === 0;`
+`testArr2`配列の長さが偶数かどうかをチェックする必要があります。提供された例を参照してください：`arr.length % 2 === 0;`
 
 ```js
 assert.isTrue(isEven);
 ```
 
-You should have a `console.log` statement that logs the `isEven` variable.
+`console.log`変数をログに出力する`isEven`文があるはずです。
 
 ```js
 assert.match(code, /console\.log\(isEven\)/);
@@ -151,7 +151,7 @@ const calculate = () => {
   const value = document.querySelector("#numbers").value;
   const array = value.split(/,\s*/g);
   const numbers = array.map(el => Number(el)).filter(el => !isNaN(el));
-
+  
   const mean = getMean(numbers);
 
   document.querySelector("#mean").textContent = mean;

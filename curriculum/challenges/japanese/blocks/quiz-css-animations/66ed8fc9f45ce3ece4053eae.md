@@ -1,13 +1,13 @@
 ---
 id: 66ed8fc9f45ce3ece4053eae
-title: CSS Animations Quiz
+title: CSSアニメーション クイズ
 challengeType: 8
 dashedName: quiz-css-animations
 ---
 
 # --description--
 
-To pass the quiz, you must correctly answer at least 18 of the 20 questions below.
+クイズに合格するには、以下の20問のうち少なくとも18問に正しく答える必要があります。
 
 # --quizzes--
 
@@ -17,51 +17,51 @@ To pass the quiz, you must correctly answer at least 18 of the 20 questions belo
 
 #### --text--
 
-What is the purpose of the `transform` property in CSS?
+CSSの`transform`プロパティの目的は何ですか？
 
 #### --distractors--
 
-To change the visibility of an element.
+要素の可視性を変更するため。
 
 ---
 
-To apply a visual effect to text.
+テキストに視覚効果を適用するため。
 
 ---
 
-To set the dimensions of an element.
+要素の寸法を設定するため。
 
 #### --answer--
 
-To modify the position, size, and shape of an element.
+要素の位置、大きさ、形状を変更するため。
 
 ### --question--
 
 #### --text--
 
-How does the CSS `animation-direction` property affect an animation?
+CSSの`animation-direction`プロパティはアニメーションにどのように影響しますか？
 
 #### --distractors--
 
-It specifies if an animation should be repeated.
+アニメーションを繰り返すかどうかを指定する。
 
 ---
 
-It sets the duration of the animation.
+アニメーションの継続時間を設定する。
 
 ---
 
-It defines the speed of the animation.
+アニメーションの速度を定義する。
 
 #### --answer--
 
-It defines how an animation should play.
+アニメーションの再生方法を定義する。
 
 ### --question--
 
 #### --text--
 
-Which CSS property makes an animation run 3 times?
+アニメーションを3回実行するCSSプロパティはどれですか？
 
 #### --distractors--
 
@@ -83,7 +83,7 @@ Which CSS property makes an animation run 3 times?
 
 #### --text--
 
-Which CSS timing function makes an animation run at a consistent speed from start to end?
+アニメーションを開始から終了まで一定の速度で実行するCSSのタイミング関数はどれですか？
 
 #### --distractors--
 
@@ -105,95 +105,95 @@ Which CSS timing function makes an animation run at a consistent speed from star
 
 #### --text--
 
-What does the `@keyframes` at-rule define in CSS?
+CSSの`@keyframes`アットルールは何を定義しますか？
 
 #### --distractors--
 
-The colors of a CSS gradient.
+CSSグラデーションの色。
 
 ---
 
-The angles of a CSS rotation.
+CSS回転の角度。
 
 ---
 
-The dimensions of an element.
+要素の寸法。
 
 #### --answer--
 
-The stages of a CSS animation.
+CSSアニメーションの段階。
 
 ### --question--
 
 #### --text--
 
-What is the purpose of the `translateX()` function in CSS?
+CSSの`translateX()`関数の目的は何ですか？
 
 #### --distractors--
 
-It changes the opacity of the element.
+要素の不透明度を変更する。
 
 ---
 
-It rotates the element.
+要素を回転させる。
 
 ---
 
-It repositions the element vertically.
+要素を垂直方向に再配置する。
 
 #### --answer--
 
-It repositions the element horizontally.
+要素を水平方向に再配置する。
 
 ### --question--
 
 #### --text--
 
-Which of the following is NOT a potential concern with CSS animations?
+次のうち、CSSアニメーションに関する懸念事項ではないものはどれですか？
 
 #### --distractors--
 
-They may cause discomfort or physical harm to certain users.
+特定のユーザーに不快感や身体的な害を引き起こす場合がある。
 
 ---
 
-Users may find them distracting.
+ユーザーが気を散らされる場合がある。
 
 ---
 
-Overuse can lead to poor performance.
+過剰使用はパフォーマンス低下につながる。
 
 #### --answer--
 
-They can enhance user experience.
+ユーザー体験を向上させることができる。
 
 ### --question--
 
 #### --text--
 
-Where is the `@keyframes` at-rule defined?
+`@keyframes`アットルールはどこに定義されていますか？
 
 #### --distractors--
 
-Within the `body` element of an HTML file.
+HTMLファイルの`body`要素内。
 
 ---
 
-Within the `head` element of an HTML file.
+HTMLファイルの`head`要素内。
 
 ---
 
-Within a CSS class definition.
+CSSクラス定義内。
 
 #### --answer--
 
-At the top level, outside of any CSS selectors.
+CSSセレクターの外側、トップレベルにある。
 
 ### --question--
 
 #### --text--
 
-Which CSS property allows you to pause and resume an animation?
+アニメーションを一時停止および再開できるCSSプロパティはどれですか？
 
 #### --distractors--
 
@@ -215,29 +215,29 @@ Which CSS property allows you to pause and resume an animation?
 
 #### --text--
 
-What value should be assigned to the `animation-name` property in CSS?
+CSSの`animation-name`プロパティにはどの値を代入すべきですか？
 
 #### --distractors--
 
-The duration of the animation in seconds.
+アニメーションの継続時間（秒単位）。
 
 ---
 
-The timing function used for the animation.
+アニメーションに使うタイミング関数。
 
 ---
 
-The delay before the animation starts in seconds.
+アニメーション開始前の遅延時間（秒単位）。
 
 #### --answer--
 
-The name of the animation defined by the `@keyframes`.
+`@keyframes`で定義されたアニメーションの名前。
 
 ### --question--
 
 #### --text--
 
-What does this `@keyframe` at-rule do to the animated element?
+この`@keyframe`アットルールはアニメーション要素に何をしますか？
 
 ```css
 @keyframes animation {
@@ -252,25 +252,25 @@ What does this `@keyframe` at-rule do to the animated element?
 
 #### --distractors--
 
-It rotates the element 90 degrees clockwise.
+要素を時計回りに90度回転させる。
 
 ---
 
-It changes the color of the element to blue.
+要素の色を青に変える。
 
 ---
 
-It scales the element to 50% of its initial size and then to 100% of its initial size.
+要素を初期サイズの50%に縮小し、その後100%に戻す。
 
 #### --answer--
 
-It moves the element horizontally from -50px to 100px, relative to its starting point.
+要素を開始点から水平方向に-50pxから100pxへ移動させる。
 
 ### --question--
 
 #### --text--
 
-Which CSS property defines how an animation progresses over time?
+アニメーションの進行を時間経過で定義するCSSプロパティはどれですか？
 
 #### --distractors--
 
@@ -292,7 +292,7 @@ Which CSS property defines how an animation progresses over time?
 
 #### --text--
 
-Which CSS property is used to specify that an animation should take 5 seconds to complete?
+アニメーションの完了に5秒かかることを指定するCSSプロパティはどれですか？
 
 #### --distractors--
 
@@ -322,7 +322,7 @@ animation-duration: 5s;
 
 #### --text--
 
-What does `50%` represent in the following CSS `@keyframe` at-rule?
+次のCSS `50%`アットルール内の`@keyframe`は何を表していますか？
 
 ```css
 @keyframes animation {
@@ -340,69 +340,69 @@ What does `50%` represent in the following CSS `@keyframe` at-rule?
 
 #### --distractors--
 
-The starting point of the animation.
+アニメーションの開始点。
 
 ---
 
-The ending point of the animation.
+アニメーションの終了点。
 
 ---
 
-The speed of the animation.
+アニメーションの速度。
 
 #### --answer--
 
-The halfway point of the animation.
+アニメーションの中間点。
 
 ### --question--
 
 #### --text--
 
-What will happen when the property `transform: translateX(200px);` is applied?
+`transform: translateX(200px);`プロパティを適用すると何が起こりますか？
 
 #### --distractors--
 
-The element will move 200px to the left.
+要素が左に200px移動する。
 
 ---
 
-The element will move 200px to the bottom.
+要素が下に200px移動する。
 
 ---
 
-The element will rotate 200 degrees clockwise.
+要素が時計回りに200度回転する。
 
 #### --answer--
 
-The element will move 200px to the right.
+要素が右に200px移動する。
 
 ### --question--
 
 #### --text--
 
-How will the animation behave if `animation-iteration-count` is set to `infinite`?
+`animation-iteration-count`が`infinite`に設定されている場合、アニメーションはどのように動作しますか？
 
 #### --distractors--
 
-It will run once and stop.
+1回だけ実行して停止する。
 
 ---
 
-It will pause after the first iteration.
+最初の繰り返し後に一時停止する。
 
 ---
 
-It will stop after three iterations.
+3回の繰り返し後に停止する。
 
 #### --answer--
 
-It will repeat indefinitely.
+無限に繰り返す。
 
 ### --question--
 
 #### --text--
 
-Which `@keyframes` selector specifies the starting point of an animation?
+アニメーションの開始点を指定する`@keyframes`セレクターはどれですか？
 
 #### --distractors--
 
@@ -424,29 +424,29 @@ Which `@keyframes` selector specifies the starting point of an animation?
 
 #### --text--
 
-What properties can be specified using the `animation` shorthand CSS property?
+`animation`の省略形CSSプロパティで指定できるのはどのプロパティですか？
 
 #### --distractors--
 
-Only the name of the animation.
+アニメーションの名前のみ。
 
 ---
 
-The name and duration of the animation.
+アニメーションの名前と継続時間。
 
 ---
 
-The name, duration, and delay of the animation.
+アニメーションの名前、継続時間、遅延時間。
 
 #### --answer--
 
-All animation properties.
+すべてのアニメーションプロパティ。
 
 ### --question--
 
 #### --text--
 
-Which CSS property is used to apply an animation defined by an `@keyframes` at-rule?
+`@keyframes`アットルールで定義されたアニメーションを適用するCSSプロパティはどれですか？
 
 #### --distractors--
 
@@ -468,7 +468,7 @@ Which CSS property is used to apply an animation defined by an `@keyframes` at-r
 
 #### --text--
 
-Which CSS property allows you to set a time before the animation begins?
+アニメーション開始前の時間を設定できるCSSプロパティはどれですか？
 
 #### --distractors--
 
@@ -492,29 +492,29 @@ Which CSS property allows you to set a time before the animation begins?
 
 #### --text--
 
-What does the CSS `animation-delay` property do?
+CSSの`animation-delay`プロパティは何をしますか？
 
 #### --distractors--
 
-Sets how long the animation lasts.
+アニメーションの継続時間を設定する。
 
 ---
 
-Specifies the timing function.
+タイミング関数を指定する。
 
 ---
 
-Defines animation direction.
+アニメーションの方向を定義する。
 
 #### --answer--
 
-Delays the start of the animation.
+アニメーションの開始を遅らせる。
 
 ### --question--
 
 #### --text--
 
-Which animation property specifies how the element should be styled before and after the animation?
+アニメーションの前後で要素のスタイルを指定するプロパティはどれですか？
 
 #### --distractors--
 
@@ -536,29 +536,29 @@ Which animation property specifies how the element should be styled before and a
 
 #### --text--
 
-Why should CSS animations be used in moderation?
+なぜCSSアニメーションは適度に使うべきですか？
 
 #### --distractors--
 
-Too many CSS animations can lead to styles breaking as well as inconsistent styles across different browsers.
+多すぎるとスタイルが壊れたり、ブラウザ間で不一致が起こる。
 
 ---
 
-Too many CSS animations can lead to lower or non existent rankings in search engine results.
+多すぎると検索エンジンのランキングが下がる。
 
 ---
 
-Too many CSS animations will automatically crash the server and increase the likelihood for security risks.
+多すぎるとサーバーが自動的にクラッシュし、セキュリティリスクが増える。
 
 #### --answer--
 
-Too many CSS animations can lead to poor performance and may be distracting or problematic for users with certain accessibility needs.
+多すぎるとパフォーマンスが悪化し、特定のアクセシビリティニーズを持つユーザーにとって気が散ったり問題になる場合がある。
 
 ### --question--
 
 #### --text--
 
-Which animation property determines whether the animation should play forwards, backwards, or alternate?
+アニメーションが前方、後方、または交互に再生されるかを決めるプロパティはどれですか？
 
 #### --distractors--
 
@@ -580,7 +580,7 @@ Which animation property determines whether the animation should play forwards, 
 
 #### --text--
 
-Which CSS media query detects if the user has requested minimal animations or motion effects?
+ユーザーが最小限のアニメーションや動きの効果を要求しているかを検出するCSSメディアクエリはどれですか？
 
 #### --distractors--
 
@@ -602,7 +602,7 @@ Which CSS media query detects if the user has requested minimal animations or mo
 
 #### --text--
 
-Which property sets how many times an `animation` repeats?
+`animation`が繰り返される回数を設定するプロパティはどれですか？
 
 #### --distractors--
 
@@ -624,7 +624,7 @@ Which property sets how many times an `animation` repeats?
 
 #### --text--
 
-Which CSS rule is used to define the stages and styles of an animation at various points during its duration?
+アニメーションの期間中のさまざまなポイントでの段階とスタイルを定義するCSSルールはどれですか？
 
 #### --distractors--
 
@@ -646,7 +646,7 @@ Which CSS rule is used to define the stages and styles of an animation at variou
 
 #### --text--
 
-Inside the `reduced‑motion` media query, which declaration disables transitions?
+`reduced‑motion`メディアクエリ内で、トランジションを無効にする宣言はどれですか？
 
 #### --distractors--
 
@@ -668,95 +668,95 @@ Inside the `reduced‑motion` media query, which declaration disables transition
 
 #### --text--
 
-What does the `animation-play-state` property allow you to do?
+`animation-play-state`プロパティで何ができますか？
 
 #### --distractors--
 
-Set how many times the animation repeats.
+アニメーションの繰り返し回数を設定する。
 
 ---
 
-Specify how long the animation takes to complete.
+アニメーションの完了にかかる時間を指定する。
 
 ---
 
-Determine the direction in which the animation plays.
+アニメーションの再生方向を決める。
 
 #### --answer--
 
-Pause and resume the animation.
+アニメーションを一時停止および再開する。
 
 ### --question--
 
 #### --text--
 
-Which of the following is a good practice when working with animations?
+アニメーションを扱う際の良い実践はどれですか？
 
 #### --distractors--
 
-Use as many flashing colors and rapid movements as possible to grab attention.
+注意を引くためにできるだけ多くの点滅色や急速な動きを使う。
 
 ---
 
-Avoid testing animations on different devices or screen sizes.
+異なるデバイスや画面サイズでアニメーションをテストしない。
 
 ---
 
-Make animations last as long as possible to ensure users notice them.
+ユーザーが気づくようにアニメーションをできるだけ長く続ける。
 
 #### --answer--
 
-Avoid content that flashes more than three times per second to prevent triggering seizures or causing discomfort.
+発作や不快感を引き起こさないように、1秒間に3回以上点滅するコンテンツは避ける。
 
 ### --question--
 
 #### --text--
 
-Why is the `!important` declaration used in the CSS rules?
+なぜCSSルールで`!important`宣言が使われるのですか？
 
 #### --distractors--
 
-To prevent other media queries from loading.
+他のメディアクエリの読み込みを防ぐため。
 
 ---
 
-To limit styles to the first child element.
+スタイルを最初の子要素に限定するため。
 
 ---
 
-To debug CSS more easily.
+CSSのデバッグを容易にするため。
 
 #### --answer--
 
-To ensure these rules take precedence over other styles.
+これらのルールが他のスタイルより優先されるようにするため。
 
 ### --question--
 
 #### --text--
 
-What does `animation-iteration-count: 1 !important;` ensure in CSS?
+CSSで`animation-iteration-count: 1 !important;`は何を保証しますか？
 
 #### --distractors--
 
-That animations are paused.
+アニメーションが一時停止されること。
 
 ---
 
-That animations run infinitely.
+アニメーションが無限に実行されること。
 
 ---
 
-That animations reverse direction each cycle.
+アニメーションが各サイクルで方向を逆にすること。
 
 #### --answer--
 
-That any looping animations only play once.
+ループするアニメーションが1回だけ再生されること。
 
 ### --question--
 
 #### --text--
 
-What CSS property is used to specify how long an animation should take to complete?
+アニメーションの完了にかかる時間を指定するCSSプロパティはどれですか？
 
 #### --distractors--
 
@@ -778,7 +778,7 @@ What CSS property is used to specify how long an animation should take to comple
 
 #### --text--
 
-Which property is NOT part of the `animation` shorthand?
+`animation`の省略形に含まれないプロパティはどれですか？
 
 #### --distractors--
 
@@ -800,29 +800,29 @@ Which property is NOT part of the `animation` shorthand?
 
 #### --text--
 
-What does the `@keyframes` rule define?
+`@keyframes`ルールは何を定義しますか？
 
 #### --distractors--
 
-The timing function of an animation.
+アニメーションのタイミング関数。
 
 ---
 
-The default state of an element.
+要素のデフォルト状態。
 
 ---
 
-The media queries for animations.
+アニメーションのメディアクエリ。
 
 #### --answer--
 
-The sequence of styles at different points in an animation.
+アニメーションの異なるポイントでのスタイルのシーケンス。
 
 ### --question--
 
 #### --text--
 
-What does this `@keyframe` at-rule do to the animated element?
+この`@keyframe`アットルールはアニメーション要素に何をしますか？
 
 ```css
 @keyframes fade-in {
@@ -837,47 +837,47 @@ What does this `@keyframe` at-rule do to the animated element?
 
 #### --distractors--
 
-It scales the element up from 0% to 100%.
+要素を0%から100%に拡大する。
 
 ---
 
-It moves the element from left to right.
+要素を左から右に移動させる。
 
 ---
 
-It changes the text color to black.
+テキストの色を黒に変える。
 
 #### --answer--
 
-It makes the element fade in by gradually decreasing its transparency.
+要素の透明度を徐々に下げてフェードインさせる。
 
 ### --question--
 
 #### --text--
 
-In a keyframes rule, what does `100%` represent?
+キーフレームルール内で`100%`は何を表しますか？
 
 #### --distractors--
 
-The start of the animation.
+アニメーションの開始。
 
 ---
 
-The halfway point.
+中間点。
 
 ---
 
-The easing function.
+イージング関数。
 
 #### --answer--
 
-The end of the animation.
+アニメーションの終了。
 
 ### --question--
 
 #### --text--
 
-Which property controls the pace of an `animation` over its duration?
+`animation`の進行速度を制御するプロパティはどれですか？
 
 #### --distractors--
 
@@ -899,29 +899,29 @@ Which property controls the pace of an `animation` over its duration?
 
 #### --text--
 
-What should developers consider when implementing animations to maintain accessibility?
+アクセシビリティを維持しながらアニメーションを実装する際に開発者が考慮すべきことは何ですか？
 
 #### --distractors--
 
-Rely entirely on JavaScript for all animations.
+すべてのアニメーションを完全にJavaScriptに依存させる。
 
 ---
 
-Add frequent and intense animations for impact.
+頻繁で強烈なアニメーションを追加してインパクトを与える。
 
 ---
 
-Include only bold, fast, and surprising effects.
+太字で速く驚きを与える効果のみを含める。
 
 #### --answer--
 
-Use subtle, intentional effects, honor preferences, and offer user control.
+控えめで意図的な効果を使い、ユーザーの好みを尊重し、ユーザーが制御できるようにする。
 
 ### --question--
 
 #### --text--
 
-Which of the following is the correct syntax to slide an element in from the left?
+要素を左からスライドインさせる正しい構文はどれですか？
 
 #### --distractors--
 

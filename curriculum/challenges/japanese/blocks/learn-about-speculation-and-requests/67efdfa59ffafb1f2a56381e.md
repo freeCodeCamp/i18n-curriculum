@@ -1,6 +1,6 @@
 ---
 id: 67efdfa59ffafb1f2a56381e
-title: Task 55
+title: タスク 55
 challengeType: 19
 dashedName: task-55
 lang: en-US
@@ -12,13 +12,13 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+音声を聞いて、以下の質問に答えてください。
 
 # --questions--
 
 ## --text--
 
-Jake doesn't mind discussing an issue with Jessica. What can he say?
+ジェイクはジェシカと問題について話すことを気にしていません。彼は何と言えますか？
 
 ## --answers--
 
@@ -38,21 +38,21 @@ EN9d00ecb9
 
 ### --feedback--
 
-This answer does not match the prompt because Jake doesn't mind discussing the issue.
+この答えは、ジェイクが問題について話すことを気にしていないという条件に合っていません。
 
 ## --video-solution--
 
 1
 
-# --explanation--
+# --explanation-- 
 
-Jessica asks, `Do you have any ideas?`, which is a way of inviting someone to share their thoughts or opinions.
+ジェシカは`Do you have any ideas?`と尋ねています。これは誰かに考えや意見を共有するよう促す表現です。
 
-`Sure, Jessica` is a way to show that you're open to discussing the issue. Another example:
+`Sure, Jessica`は問題について話すことに前向きであることを示す言い方です。別の例：
 
-- **Noah:** `Do you have any ideas how to fix it?` - This person is asking for suggestions or solutions.
+- **Noah:** `Do you have any ideas how to fix it?` - この人は提案や解決策を求めています。
 
-- **David:** `Sure. We could check the server logs and see what's wrong.` - This person is saying yes, and is ready to share a suggestion.
+- **デイビッド:** `Sure. We could check the server logs and see what's wrong.` - この人は「はい」と答え、提案を共有する準備ができています。
 
 # --scene--
 

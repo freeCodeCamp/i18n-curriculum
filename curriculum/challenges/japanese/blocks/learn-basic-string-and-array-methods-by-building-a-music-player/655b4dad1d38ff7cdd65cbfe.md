@@ -7,34 +7,34 @@ dashedName: step-99
 
 # --description--
 
-With everything set in place, call the `pauseSong()`, `setPlayerDisplay()`, `highlightCurrentSong()`, and `setPlayButtonAccessibleText()` functions to correctly update the player.
+すべての準備が整ったら、`pauseSong()`、`setPlayerDisplay()`、`highlightCurrentSong()`、`setPlayButtonAccessibleText()` 関数を呼び出して、プレイヤーを正しく更新してください。
 
-Congratulations on completing your music player! Now that we've finished testing and using the shorter songs, we've replaced them with the original tracks specially selected by Quincy for you to enjoy.
+ミュージックプレイヤーの完成、おめでとうございます！短い曲のテストと使用が終わったので、Quincyが特別に選んだ元のトラックに置き換えました。どうぞお楽しみください。
 
 # --hints--
 
-You should call the `pauseSong` function.
+`pauseSong` 関数を呼び出す必要があります。
 
 ```js
 const splitter = code.split('audio.addEventListener("ended", () => {')
 assert.match(splitter[1], /pauseSong\(\s*\)\s*;?/)
 ```
 
-You should call the `setPlayerDisplay` function.
+`setPlayerDisplay` 関数を呼び出す必要があります。
 
 ```js
 const splitter = code.split('audio.addEventListener("ended", () => {')
 assert.match(splitter[1], /setPlayerDisplay\(\s*\)\s*;?/)
 ```
 
-You should call the `highlightCurrentSong` function.
+`highlightCurrentSong` 関数を呼び出す必要があります。
 
 ```js
 const splitter = code.split('audio.addEventListener("ended", () => {')
 assert.match(splitter[1], /highlightCurrentSong\(\s*\)\s*;?/)
 ```
 
-You should call the `setPlayButtonAccessibleText` function.
+`setPlayButtonAccessibleText` 関数を呼び出す必要があります。
 
 ```js
 const splitter = code.split('audio.addEventListener("ended", () => {')
@@ -649,7 +649,7 @@ const playSong = (id) => {
 
 const pauseSong = () => {
   userData.songCurrentTime = audio.currentTime;
-
+  
   playButton.classList.remove("playing");
   audio.pause();
 };
@@ -1436,7 +1436,7 @@ const playSong = (id) => {
 
 const pauseSong = () => {
   userData.songCurrentTime = audio.currentTime;
-
+  
   playButton.classList.remove("playing");
   audio.pause();
 };

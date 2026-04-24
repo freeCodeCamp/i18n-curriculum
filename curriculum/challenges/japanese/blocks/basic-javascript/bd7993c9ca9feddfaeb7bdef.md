@@ -1,6 +1,6 @@
 ---
 id: bd7993c9ca9feddfaeb7bdef
-title: Divide One Decimal by Another with JavaScript
+title: JavaScriptで小数を小数で割る
 challengeType: 1
 forumTopicId: 18255
 dashedName: divide-one-decimal-by-another-with-javascript
@@ -8,27 +8,27 @@ dashedName: divide-one-decimal-by-another-with-javascript
 
 # --description--
 
-Now let's divide one decimal by another.
+今度は小数を別の小数で割ってみましょう。
 
 # --instructions--
 
-Change the `0.0` so that `quotient` will equal to `2.2`.
+`0.0` を変更して、`quotient` が `2.2` と等しくなるようにしてください。
 
 # --hints--
 
-The variable `quotient` should equal `2.2`
+変数 `quotient` は `2.2` と等しくなるべきです
 
 ```js
 assert(quotient === 2.2);
 ```
 
-You should use the `/` operator to divide 4.4 by 2
+4.4 を 2 で割るには `/` 演算子を使うべきです
 
 ```js
 assert(/4\.40*\s*\/\s*2\.*0*/.test(__helpers.removeJSComments(code)));
 ```
 
-The quotient variable should only be assigned once
+quotient 変数には一度だけ代入してください
 
 ```js
 assert(__helpers.removeJSComments(code).match(/quotient\s*=/g).length === 1);

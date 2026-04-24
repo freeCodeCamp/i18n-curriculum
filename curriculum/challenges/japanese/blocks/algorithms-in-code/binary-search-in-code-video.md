@@ -1,6 +1,6 @@
 ---
 id: 698dcc2c7932b3cc4b19c927
-title: Binary Search in Code
+title: コードで学ぶ二分探索
 challengeType: 11
 videoId: mg7F5D8Wk5o
 dashedName: binary-search-in-code
@@ -8,29 +8,29 @@ dashedName: binary-search-in-code
 
 # --description--
 
-In this video, you will code out the binary search algorithm using Python.
+この動画では、Pythonを使って二分探索アルゴリズムをコード化します。
 
 # --questions--
 
 ## --text--
 
-Why was the `while first <= last:` condition used in the solution?
+なぜ解答で`while first <= last:`の条件が使われたのでしょうか？
 
 ## --answers--
 
-To ensure only the first half of the array is ever checked.
+配列の前半部分だけを常にチェックするためです。
 
 ---
 
-To make the loop run forever until manually stopped.
+ループを手動で停止するまで永遠に実行させるためです。
 
 ---
 
-To skip checking the last element in the search range.
+検索範囲の最後の要素のチェックをスキップするためです。
 
 ---
 
-To keep searching while there are still elements in the range and stop when the range is empty.
+範囲内にまだ要素がある間は検索を続け、範囲が空になると停止するためです。
 
 ## --video-solution--
 

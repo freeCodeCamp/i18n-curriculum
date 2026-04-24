@@ -1,6 +1,6 @@
 ---
 id: 660684bfc24bf48cfaaf9cfa
-title: Task 8
+title: タスク 8
 challengeType: 22
 dashedName: task-8
 lang: en-US
@@ -10,9 +10,9 @@ lang: en-US
 
 # --description--
 
-`Give it a shot` means to try doing something. It's like saying `Try it`.
+`Give it a shot` は何かを試してみることを意味します。これは `Try it` と言うようなものです。
 
-For example, if your friend is hesitant about joining a coding class because they think it might be too difficult, you could say `Why not give it a shot? You might enjoy it more than you think.` to encourage them to try joining this class.
+例えば、友達がコーディングクラスに参加するのをためらっているとき、難しすぎると思っている場合、`Why not give it a shot? You might enjoy it more than you think.` と言って参加を勧めることができます。
 
 # --fillInTheBlank--
 
@@ -26,7 +26,7 @@ For example, if your friend is hesitant about joining a coding class because the
 
 ### --feedback--
 
-It is short for `I will`. Sophie is expressing her decision to try what Brian suggested.
+これは `I will` の短縮形です。ソフィーはブライアンの提案を試してみる決心を表しています。
 
 ---
 
@@ -34,7 +34,7 @@ It is short for `I will`. Sophie is expressing her decision to try what Brian su
 
 ### --feedback--
 
-In this context, it means an attempt or try at doing something. Sophie is saying she will try what Brian has recommended.
+この文脈では、何かを試みることや挑戦を意味します。ソフィーはブライアンの勧めを試してみると言っています。
 
 # --scene--
 

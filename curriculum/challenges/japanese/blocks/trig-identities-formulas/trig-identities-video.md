@@ -1,6 +1,6 @@
 ---
 id: 699e78258f18cf77dfce5c18
-title: Trig Identities
+title: 三角関数の恒等式
 challengeType: 11
 videoId: m4rl9OE5XTY
 dashedName: trig-identities
@@ -8,32 +8,30 @@ dashedName: trig-identities
 
 # --description--
 
-In this video, you will learn about trigonometric identities.
+このビデオでは、三角関数の恒等式について学びます。
 
 # --questions--
 
 ## --text--
 
-Why is the second equation in the first example called an identity?
+なぜ最初の例の2番目の式は恒等式と呼ばれるのでしょうか？
 
 ## --answers--
 
-Its tangent and cotangent functions are equal.
+そのタンジェント関数とコタンジェント関数が等しいからです。
 
 ---
 
-Its cosine and secant functions are equal.
+そのコサイン関数とセカント関数が等しいからです。
 
 ---
 
-It holds all values of the variable.
+変数のすべての値に対して成り立つからです。
 
 ---
 
-It holds none of the values of the variable.
+変数のどの値に対しても成り立たないからです。
 
 ## --video-solution--
 
 3
-
-

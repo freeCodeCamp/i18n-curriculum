@@ -1,6 +1,6 @@
 ---
 id: 698a5aa1ff49e32ceeaaccec
-title: Task 6
+title: タスク 6
 challengeType: 22
 dashedName: task-6
 lang: es
@@ -10,13 +10,13 @@ lang: es
 
 # --description--
 
-Now Camila is practicing how to say `número de teléfono` in Spanish, which means "phone number".
+今、カミラはスペイン語で`número de teléfono`（「電話番号」を意味します）と言う練習をしています。
 
-Notice that the word `número` carries an accent mark in the letter `u` and the word `teléfono` carries an accent mark in the second letter `e`.
+`número`という単語は`u`の文字にアクセント記号があり、`teléfono`という単語は2番目の文字`e`にアクセント記号があることに注意してください。
 
 # --instructions--
 
-Listen to the audio and write the word below.
+音声を聞いて、下に単語を書いてください。
 
 # --fillInTheBlank--
 
@@ -30,7 +30,7 @@ Listen to the audio and write the word below.
 
 ### --feedback--
 
-This word literally means "number" in Spanish. Remember to write the accent mark in the letter `u` and to capitalize the first letter.
+この単語はスペイン語で文字通り「数字」を意味します。`u`の文字にアクセント記号を付け、最初の文字を大文字にすることを忘れないでください。
 
 ---
 
@@ -38,11 +38,11 @@ This word literally means "number" in Spanish. Remember to write the accent mark
 
 ### --feedback--
 
-This word literally means "phone" in Spanish. Remember to write the accent mark in the second letter `e`.
+この単語はスペイン語で文字通り「電話」を意味します。2番目の文字`e`にアクセント記号を付けることを忘れないでください。
 
 # --explanation--
 
-`Número de teléfono` means "phone number" in Spanish.
+`Número de teléfono`はスペイン語で「電話番号」を意味します。
 
 # --scene--
 

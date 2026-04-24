@@ -1,6 +1,6 @@
 ---
 id: 65d6bc21bbb3fb20d47cd7ed
-title: Task 43
+title: タスク 43
 challengeType: 22
 dashedName: task-43
 lang: en-US
@@ -11,7 +11,7 @@ lang: en-US
 
 # --description--
 
-Asking `What's her role?` is a way to find out about someone's job or position in a group or project. `Role` means the part or job someone does in a particular situation. For example, if someone's `role` at a school is a teacher, it means their job is to teach students.
+`What's her role?` に尋ねることは、誰かの仕事やグループやプロジェクトでの役割を知る方法です。`Role` は、特定の状況で誰かが果たす役割や仕事を意味します。たとえば、誰かの `role` が学校で教師であれば、それはその人の仕事が生徒に教えることであることを意味します。
 
 # --fillInTheBlank--
 
@@ -25,7 +25,7 @@ Asking `What's her role?` is a way to find out about someone's job or position i
 
 ### --feedback--
 
-This word shows Tom is talking about a female person's job or part in something.
+この単語は、トムが女性の仕事や何かにおける役割について話していることを示しています。
 
 ---
 
@@ -33,7 +33,7 @@ This word shows Tom is talking about a female person's job or part in something.
 
 ### --feedback--
 
-This word means the job or position someone has in a situation.
+この単語は、誰かがある状況で持つ仕事や地位を意味します。
 
 # --scene--
 

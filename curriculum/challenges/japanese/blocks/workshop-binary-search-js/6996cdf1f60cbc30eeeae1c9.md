@@ -1,19 +1,19 @@
 ---
 id: 6996cdf1f60cbc30eeeae1c9
-title: Step 12
+title: ステップ 12
 challengeType: 1
 dashedName: step-12
 ---
 
 # --description--
 
-If the condition in the `else if` is true, update the value of the `low` variable by adding `1` to the `mid` variable.
+`else if` の条件が true の場合、`low` 変数に `1` を加えて `mid` 変数の値を更新してください。
 
-This will extend the search to the right half of the current search areas in the list, because if the `value` is greater than `valueAtMiddle`, it means the `value` must be in the right half of the current search area.
+これは、`value` が `valueAtMiddle` より大きい場合、`value` は現在の検索エリアの右半分にあることを意味するため、リスト内の現在の検索エリアの右半分に検索範囲を拡張します。
 
 # --hints--
 
-You should update the `low` variable to `mid + 1`.
+`low` 変数を `mid + 1` に更新してください。
 
 ```js
 assert.match(__helpers.removeJSComments(String(binarySearch)), /low\s*=\s*mid\s*\+\s*1/);
@@ -37,10 +37,10 @@ function binarySearch(searchList, value) {
       return pathToTarget;
     } else if (value > valueAtMiddle) {
 --fcc-editable-region--
-
+        
 --fcc-editable-region--     
     }
-
+    
     break;
   }
   return [];

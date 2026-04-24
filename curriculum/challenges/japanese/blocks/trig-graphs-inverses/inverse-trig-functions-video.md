@@ -1,6 +1,6 @@
 ---
 id: 699e69ea8f18cf77dfce5c15
-title: Inverse Trig Functions
+title: 逆三角関数
 challengeType: 11
 videoId: hlzdIVKJCdA
 dashedName: inverse-trig-functions
@@ -8,32 +8,30 @@ dashedName: inverse-trig-functions
 
 # --description--
 
-In this video, you will learn about inverse trig functions.
+このビデオでは、逆三角関数について学びます。
 
 # --questions--
 
 ## --text--
 
-How can you find the graph of an inverse of a function?
+関数の逆関数のグラフはどのように見つけられますか？
 
 ## --answers--
 
-Flipping the graph of the original function across the line $y = 2x$ and then across the line $y = x$.
+元の関数のグラフを直線 $y = 2x$ に沿って反転させてから、直線 $y = x$ に沿って反転させます。
 
 ---
 
-Flipping the graph of the original function across the line $y = x$ and then across the line $y = -x$.
+元の関数のグラフを直線 $y = x$ に沿って反転させてから、直線 $y = -x$ に沿って反転させます。
 
 ---
 
-Flipping the graph of the original function across the line $y = x$.
+元の関数のグラフを直線 $y = x$ に沿って反転させます。
 
 ---
 
-Flipping the graph of the original function across the line $y = -x$.
+元の関数のグラフを直線 $y = -x$ に沿って反転させます。
 
 ## --video-solution--
 
 3
-
-

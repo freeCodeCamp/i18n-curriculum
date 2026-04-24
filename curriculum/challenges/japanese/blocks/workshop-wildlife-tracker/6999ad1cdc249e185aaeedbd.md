@@ -1,15 +1,15 @@
 ---
 id: 6999ad1cdc249e185aaeedbd
-title: Step 8
+title: ステップ 8
 challengeType: 1
 dashedName: step-8
 ---
 
 # --description--
 
-In this step, you will create a function that adds a new property to an object.
+このステップでは、オブジェクトに新しいプロパティを追加する関数を作成します。
 
-Here is an example of adding a property inside a function:
+関数内でプロパティを追加する例を示します：
 
 ```js
 const cat = {
@@ -28,38 +28,38 @@ console.log(addColor(cat, "White"));
 // }
 ```
 
-In this example, the `color` property is added to the `cat` object.
+この例では、`color` プロパティが `cat` オブジェクトに追加されています。
 
-Now create a function called `addHabitat`. The function should take two parameters: `animal` and `habitat`.
+次に、`addHabitat` という名前の関数を作成してください。この関数は2つのパラメータ、`animal` と `habitat` を受け取ります。
 
-Inside the function, add a new property called `habitat` to the `animal` object. Set its value equal to the `habitat` parameter.
+関数内で、`habitat` オブジェクトに `animal` という新しいプロパティを追加してください。その値は `habitat` パラメータと等しく設定します。
 
-Return the updated `animal` object.
+更新された `animal` オブジェクトを返してください。
 
-After creating the function, use `console.log` to call `addHabitat(tiger, "Rainforest")` so you can see the updated `tiger` object in the console.
+関数を作成したら、`console.log` を使って `addHabitat(tiger, "Rainforest")` を呼び出し、更新された `tiger` オブジェクトをコンソールで確認してください。
 
 # --hints--
 
-You should create a function named `addHabitat`.
+`addHabitat` という名前の関数を作成してください。
 
 ```js
 assert.isFunction(addHabitat);
 ```
 
-The `addHabitat` function should have two parameters: `animal` and `habitat`.
+`addHabitat` 関数は2つのパラメータ、`animal` と `habitat` を持つべきです。
 
 ```js
 const regex = __helpers.functionRegex('addHabitat', ['animal', 'habitat']);
 assert.match(__helpers.removeJSComments(code), regex);
 ```
 
-`addHabitat` should use dot notation to add the `habitat` property.
+`addHabitat` はドット記法を使って `habitat` プロパティを追加してください。
 
 ```js
 assert.match(code, /animal\.habitat\s*=\s*habitat/);
 ```
 
-The `addHabitat` function should return the updated `animal` object.
+`addHabitat` 関数は更新された `animal` オブジェクトを返すべきです。
 
 ```js
 const testAnimal = { species: "Cat" };
@@ -67,7 +67,7 @@ const result = addHabitat(testAnimal, "Forest");
 assert.strictEqual(result, testAnimal);
 ```
 
-You should log `addHabitat(tiger, "Rainforest")` to the console.
+`addHabitat(tiger, "Rainforest")` をコンソールにログ出力してください。
 
 ```js
 assert.match(
@@ -76,7 +76,7 @@ assert.match(
 );
 ```
 
-Calling `addHabitat(tiger, "Rainforest")` should add a habitat property to tiger.
+`addHabitat(tiger, "Rainforest")` を呼び出すと、tiger に habitat プロパティが追加されるはずです。
 
 ```js
 const updatedTiger = addHabitat(tiger, "Rainforest");
@@ -89,7 +89,7 @@ assert.deepEqual(updatedTiger, {
 });
 ```
 
-`addHabitat` should use the function parameters and work with any object.
+`addHabitat` は関数のパラメータを使い、どんなオブジェクトでも扱えるようにしてください。
 
 ```js
 const lion = { species: "Lion" };

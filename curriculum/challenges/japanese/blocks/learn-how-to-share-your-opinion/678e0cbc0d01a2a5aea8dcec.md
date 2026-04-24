@@ -1,6 +1,6 @@
 ---
 id: 678e0cbc0d01a2a5aea8dcec
-title: Task 47
+title: タスク 47
 challengeType: 19
 dashedName: task-47
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+音声を聞いて、以下の質問に答えてください。
 
 # --questions--
 
 ## --text--
 
-Why does Jake prefer using Visual Studio Code?
+なぜジェイクはVisual Studio Codeの使用を好むのでしょうか？
 
 ## --answers--
 
-Because it's expensive and has many features.
+高価で機能が多いからです。
 
 ### --feedback--
 
-Jake doesn't mention price or cost in his reason for preferring Visual Studio Code.
+ジェイクはVisual Studio Codeを好む理由として価格や費用については言及していません。
 
 ---
 
-Because it's slow and not secure.
+遅くて安全でないからです。
 
 ### --feedback--
 
-Jake's reason for preferring Visual Studio Code is not related to speed or security issues.
+ジェイクがVisual Studio Codeを好む理由は速度やセキュリティの問題とは関係ありません。
 
 ---
 
-Because it's hard to use and has limited features.
+使いにくく機能が限られているからです。
 
 ### --feedback--
 
-Jake describes Visual Studio Code positively, with no mention of it being difficult to use or lacking features.
+ジェイクはVisual Studio Codeを肯定的に説明しており、使いにくいとか機能が不足しているとは言っていません。
 
 ---
 
-Because it's lightweight and has excellent security features.
+軽量で優れたセキュリティ機能があるからです。
 
 ## --video-solution--
 
@@ -52,13 +52,13 @@ Because it's lightweight and has excellent security features.
 
 # --explanation--
 
-Listen for key words that explain Jake's preference.
+ジェイクの好みを説明するキーワードに注目してください。
 
-`Lightweight` – This means Visual Studio Code doesn't use a lot of system resources.
+`Lightweight` – これはVisual Studio Codeが多くのシステムリソースを使わないことを意味します。
 
-`Security features` – This shows that Jake values how the tool helps protect against potential risks.
+`Security features` – これはジェイクがツールの潜在的なリスクからの保護機能を重視していることを示しています。
 
-These key words help you see that Jake prefers Visual Studio Code because it is lightweight and has strong security features.
+これらのキーワードから、ジェイクがVisual Studio Codeを好むのは軽量で強力なセキュリティ機能があるからだとわかります。
 
 # --scene--
 

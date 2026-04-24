@@ -1,6 +1,6 @@
 ---
 id: 698dea367932b3cc4b19c949
-title: Linear Search
+title: 線形探索
 challengeType: 11
 videoId: aC9uj1nYJLI
 dashedName: linear-search
@@ -8,29 +8,29 @@ dashedName: linear-search
 
 # --description--
 
-In this video, you will examine how linear search works on a list of names.
+このビデオでは、名前のリストに対して線形探索がどのように機能するかを確認します。
 
 # --questions--
 
 ## --text--
 
-When might you use linear search over binary search?
+線形探索を二分探索より使うのはどんな場合ですか？
 
 ## --answers--
 
-When the list is very large and already sorted.
+リストが非常に大きく、すでにソートされている場合。
 
 ---
 
-If you need logarithmic time complexity.
+対数時間の計算量が必要な場合。
 
 ---
 
-If you know the list is unsorted.
+リストがソートされていないことがわかっている場合。
 
 ---
 
-When you can repeatedly divide the dataset in half.
+データセットを繰り返し半分に分割できる場合。
 
 ## --video-solution--
 

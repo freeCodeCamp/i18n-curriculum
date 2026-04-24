@@ -1,6 +1,6 @@
 ---
 id: 698dea3f7932b3cc4b19c94b
-title: Binary Search
+title: バイナリサーチ
 challengeType: 11
 videoId: VZ1u8vgVJwo
 dashedName: binary-search
@@ -8,29 +8,29 @@ dashedName: binary-search
 
 # --description--
 
-In this video, you will revisit the binary search algorithm and how it works in searching through a list of names.
+このビデオでは、バイナリサーチアルゴリズムと名前のリストを検索する際の動作について再確認します。
 
 # --questions--
 
 ## --text--
 
-When might you use the binary search algorithm over the linear search algorithm?
+線形検索アルゴリズムよりもバイナリサーチアルゴリズムを使うのはどんな場合ですか？
 
 ## --answers--
 
-When the list is unsorted and frequently changing.
+リストがソートされておらず、頻繁に変わる場合。
 
 ---
 
-When you need to check every element one by one.
+すべての要素を一つずつ確認する必要がある場合。
 
 ---
 
-When you know you are searching through a large list of sorted results.
+ソートされた大きなリストを検索していることがわかっている場合。
 
 ---
 
-When the dataset is very small and performance does not matter.
+データセットが非常に小さく、パフォーマンスが重要でない場合。
 
 ## --video-solution--
 

@@ -1,6 +1,6 @@
 ---
 id: 66bbba46fff0ef451b701bcd
-title: Task 103
+title: タスク 103
 challengeType: 19
 dashedName: task-103
 lang: en-US
@@ -12,41 +12,41 @@ Sarah: Sure, I'm not busy. What's the problem? -->
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+音声を聞いて、以下の質問に答えてください。
 
 # --questions--
 
 ## --text--
 
-Is Sarah available to talk to Tom?
+サラはトムと話す時間がありますか？
 
 ## --answers--
 
-No, she is busy and doesn't want to know about his problems.
+いいえ、彼女は忙しくて彼の問題を知りたくありません。
 
 ### --feedback--
 
-Sarah says she is not busy.
+サラは忙しくないと言っています。
 
 ---
 
-Yes, she is available and wants to know what's the problem.
+はい、彼女は時間があり、問題が何か知りたがっています。
 
 ---
 
-No, she cannot talk right now, she has her own problems.
+いいえ、今は話せません。彼女自身の問題を抱えています。
 
 ### --feedback--
 
-Sarah mentions that she is not busy.
+サラは忙しくないと言っています。
 
 ---
 
-Yes, but only for a moment because she has her own problems.
+はい、でも自分の問題があるので少しだけです。
 
 ### --feedback--
 
-Sarah doesn't limit the time; she simply states that she is not busy.
+サラは時間を制限していません。単に忙しくないと言っています。
 
 ## --video-solution--
 
@@ -54,11 +54,11 @@ Sarah doesn't limit the time; she simply states that she is not busy.
 
 # --explanation--
 
-Instead of directly saying she is free, Sarah uses the negative form `I'm not busy` to emphasize that she has time to help.
+サラは直接「自由です」と言う代わりに、否定形の`I'm not busy`を使って、助ける時間があることを強調しています。
 
-This is a polite and indirect way to offer availability in English, commonly used to make the conversation more tactful.
+これは英語で利用可能であることを丁寧かつ間接的に伝える方法で、会話をより配慮あるものにします。
 
-Her follow-up sentence, `What's the problem?`, confirms she's willing to assist by inviting Tom to explain the issue.
+続く彼女の文、`What's the problem?`は、トムに問題を説明するよう促して、助ける意志を示しています。
 
 # --scene--
 

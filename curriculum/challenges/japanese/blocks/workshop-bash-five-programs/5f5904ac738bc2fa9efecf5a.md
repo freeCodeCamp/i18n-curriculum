@@ -1,6 +1,6 @@
 ---
 id: 5f5904ac738bc2fa9efecf5a
-title: Build Five Programs
+title: 5つのプログラムを作成する
 challengeType: 12
 url: freeCodeCamp/learn-bash-scripting-by-building-five-programs
 dashedName: build-five-programs
@@ -8,7 +8,7 @@ dashedName: build-five-programs
 
 # --description--
 
-In this 220-lesson workshop, you will learn more terminal commands and how to use them within Bash scripts by creating five small programs.
+この220レッスンのワークショップでは、さらに多くのターミナルコマンドと、それらをBashスクリプト内で使う方法を学びながら、5つの小さなプログラムを作成します。
 
 # --instructions--
 

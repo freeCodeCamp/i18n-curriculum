@@ -1,6 +1,6 @@
 ---
 id: 680e2de44baaad7305adc8ee
-title: Task 46
+title: タスク 46
 challengeType: 22
 dashedName: task-46
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+音声を聞いて、以下の文を完成させてください。
 
 # --fillInTheBlank--
 
@@ -24,13 +24,13 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-These three words together are used to politely ask if a plan or suggestion is acceptable. The first letter of the first word is capitalized.
+これら3つの単語は一緒に使われて、計画や提案が問題ないか丁寧に尋ねる表現です。最初の単語の最初の文字は大文字です。
 
 # --explanation--
 
-`Does that work` is a polite way to check if a suggestion or arrangement is okay for someone. For example:
+`Does that work` は、提案や取り決めが相手にとって問題ないかを丁寧に確認する表現です。例えば：
 
-`We can meet at 3 PM. Does that work for you?` – This asks if the time is good or convenient for the other person.
+`We can meet at 3 PM. Does that work for you?` – これは時間が相手にとって都合が良いかどうかを尋ねています。
 
 # --scene--
 

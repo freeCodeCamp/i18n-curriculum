@@ -7,20 +7,20 @@ dashedName: step-41
 
 # --description--
 
-では最初のマーカーから、ディテールを追加し始めましょう。
+マーカーに他の詳細を追加する時間です。まずは最初のマーカーから始めましょう。
 
-最初のマーカーの `div` 要素について、クラスを `one` から `red` に変更してください。
+最初のマーカーの `div` 要素で、クラス `one` を `red` に変更してください。
 
 # --hints--
 
-最初のマーカーの `div` にクラス `one` は必要ありません。
+最初のマーカー `div` はクラス `one` を持ってはいけません。
 
 ```js
 const containerFirstChild = [...document.querySelector('.container')?.children][0];
 assert(!containerFirstChild?.classList?.contains('one'));
 ```
 
-最初のマーカーの `div` には `marker` と `red` というクラスが必要です。
+最初のマーカー `div` はクラス `marker` と `red` を持っている必要があります。
 
 ```js
 const containerFirstChild = [...document.querySelector('.container')?.children][0];

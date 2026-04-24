@@ -1,6 +1,6 @@
 ---
 id: cf1111c1c11feddfaeb6bdef
-title: Divide One Number by Another with JavaScript
+title: JavaScriptで数値を割り算する
 challengeType: 1
 forumTopicId: 17566
 dashedName: divide-one-number-by-another-with-javascript
@@ -8,30 +8,30 @@ dashedName: divide-one-number-by-another-with-javascript
 
 # --description--
 
-We can also divide one number by another.
+数値を別の数値で割ることもできます。
 
-JavaScript uses the `/` symbol for division.
+JavaScriptでは割り算に`/`記号を使います。
 
-**Example**
+**例**
 
 ```js
 const myVar = 16 / 2;
 ```
 
-`myVar` now has the value `8`.
+`myVar`は今、`8`の値を持っています。
 # --instructions--
 
-Change the `0` so that the `quotient` is equal to `2`.
+`0`を変更して、`quotient`が`2`と等しくなるようにしてください。
 
 # --hints--
 
-The variable `quotient` should be equal to 2.
+変数`quotient`は2と等しくなる必要があります。
 
 ```js
 assert(quotient === 2);
 ```
 
-You should use the `/` operator.
+`/`演算子を使うべきです。
 
 ```js
 assert(/\d+\s*\/\s*\d+/.test(__helpers.removeJSComments(code)));

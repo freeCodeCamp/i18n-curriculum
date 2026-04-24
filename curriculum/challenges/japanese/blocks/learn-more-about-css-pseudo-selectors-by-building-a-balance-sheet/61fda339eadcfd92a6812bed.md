@@ -7,21 +7,21 @@ dashedName: step-30
 
 # --description--
 
-スタイル設定を進める前に、`sr-only` クラスを活用しましょう。 このクラスを持つ要素を、CSS を使って、視覚的なページでは非表示にしながらスクリーンリーダーでは読み上げられるようにできます。
+スタイリングを進める前に、`sr-only` クラスを使うべきです。このクラスを持つ要素をCSSで視覚的に完全に隠しつつ、スクリーンリーダーには読み上げられるようにできます。
 
-これから書く CSS は、要素を視覚的に隠すためによくセットで使われるプロパティです。
+これから書くCSSは、要素を視覚的に完全に隠すためによく使われるプロパティのセットです。
 
-`span[class~="sr-only"]` セレクターを使うと、`class` に `sr-only` を*含む*すべての `span` 要素が選択されます。 このセレクターを作成し、`border` プロパティを `0` に設定してください。
+`span[class~="sr-only"]` セレクターは、`span` に `class` を*含む*任意の `sr-only` 要素を選択します。そのセレクターを作成し、`border` プロパティを `0` に設定してください。
 
 # --hints--
 
-`span[class~="sr-only"]` セレクターが必要です。
+`span[class~="sr-only"]` セレクターを作成してください。
 
 ```js
 assert(new __helpers.CSSHelp(document).getStyle('span[class~="sr-only"]'));
 ```
 
-`span[class~="sr-only"]` セレクターの `border` プロパティを `0` に設定する必要があります。
+`span[class~="sr-only"]` セレクターには `border` プロパティを `0` に設定してください。
 
 ```js
 assert(new __helpers.CSSHelp(document).getStyle('span[class~="sr-only"]')?.getPropertyValue('border-width') === '0px');

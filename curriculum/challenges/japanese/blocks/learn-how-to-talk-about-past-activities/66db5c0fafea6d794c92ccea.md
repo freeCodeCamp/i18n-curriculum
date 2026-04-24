@@ -1,11 +1,10 @@
 ---
 id: 66db5c0fafea6d794c92ccea
-title: Task 58
+title: タスク 58
 challengeType: 19
 dashedName: task-58
 lang: en-US
 ---
-
 <!--
 AUDIO REFERENCE:
 Linda: Yes. The navigation bar and footer adjustments have already made a big difference.
@@ -13,41 +12,41 @@ Linda: Yes. The navigation bar and footer adjustments have already made a big di
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+音声を聞いて、以下の質問に答えてください。
 
 # --questions--
 
 ## --text--
 
-How are the updated elements performing?
+更新された要素はどのように機能していますか？
 
 ## --answers--
 
-They are not working correctly across all devices, and this has made a big difference.
+すべてのデバイスで正しく動作しておらず、これが大きな違いを生んでいます。
 
 ### --feedback--
 
-Linda did not mention any issues with the updates.
+リンダは更新に関して問題を言及していません。
 
 ---
 
-They need further adjustments to work properly and this has made no difference.
+正しく動作するためにさらに調整が必要で、これが何の違いも生んでいません。
 
 ### --feedback--
 
-Linda did not mention the need for further adjustments.
+リンダはさらなる調整の必要性を言及していません。
 
 ---
 
-They are causing new problems with the user interface and this has made a big difference.
+ユーザーインターフェースに新たな問題を引き起こしており、これが大きな違いを生んでいます。
 
 ### --feedback--
 
-Linda did not say that the updates caused new problems.
+リンダは更新が新たな問題を引き起こしたとは言っていません。
 
 ---
 
-They are performing well and the adjustments have made a big difference.
+うまく機能しており、調整が大きな違いを生んでいます。
 
 ## --video-solution--
 
@@ -55,13 +54,13 @@ They are performing well and the adjustments have made a big difference.
 
 # --explanation--
 
-To know if something is performing well, look for words or phrases that indicate a good result or improvement.
+何かがうまく機能しているかどうかを知るには、良い結果や改善を示す言葉やフレーズを探してください。
 
-Linda uses the phrase `have already made a big difference`.
+リンダは `have already made a big difference` というフレーズを使っています。
 
-`Made a big difference` suggests an important or noticeable change. When something has `made a big difference` in a positive context, it usually means that the change is helpful or effective.
+`Made a big difference` は重要または目立つ変化を示唆します。何かが肯定的な文脈で `made a big difference` を持つ場合、それは通常、その変化が役立つか効果的であることを意味します。
 
-So, Linda's response indicates that the updated elements are working well and have improved the situation.
+つまり、リンダの返答は更新された要素がうまく機能しており、状況が改善されたことを示しています。
 
 # --scene--
 

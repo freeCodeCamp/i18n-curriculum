@@ -1,6 +1,6 @@
 ---
 id: 662e4f2edbb46a1dc6efc94f
-title: Task 37
+title: タスク 37
 challengeType: 22
 dashedName: task-37
 lang: en-US
@@ -10,9 +10,9 @@ lang: en-US
 
 # --description--
 
-`Common` is used to describe something that happens often or is widely shared among many people. For example, `Colds are a common illness during the winter.` This means it's a usual health issue many people face during that time of year.
+`Common` は、頻繁に起こることや多くの人に広く共有されていることを表すために使われます。例えば、`Colds are a common illness during the winter.` これは、その時期に多くの人が直面する一般的な健康問題であることを意味します。
 
-`Challenge` refers to a task or situation that requires special effort to accomplish because it is difficult. For instance, `Learning to ride a bike was a big challenge for her at first.` This sentence describes how learning to ride a bike presented difficulties initially.
+`Challenge` は、困難であるために特別な努力を要する課題や状況を指します。例えば、`Learning to ride a bike was a big challenge for her at first.` この文は、自転車の乗り方を学ぶことが最初は難しかったことを説明しています。
 
 # --fillInTheBlank--
 
@@ -26,7 +26,7 @@ lang: en-US
 
 ### --feedback--
 
-This adjective describes something that occurs frequently or is usual among a group.
+この形容詞は、ある集団の中で頻繁に起こる、または通常のことであるものを表します。
 
 ---
 
@@ -34,7 +34,7 @@ This adjective describes something that occurs frequently or is usual among a gr
 
 ### --feedback--
 
-This noun refers to a difficult task or problem that requires effort to solve or overcome.
+この名詞は、解決や克服に努力を要する困難な課題や問題を指します。
 
 # --scene--
 

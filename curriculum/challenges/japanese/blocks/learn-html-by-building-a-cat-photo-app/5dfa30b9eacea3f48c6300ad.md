@@ -7,9 +7,9 @@ dashedName: step-17
 
 # --description--
 
-以前のステップでは、アンカー要素を使用してテキストをリンクに変換しました。 他の種類のコンテンツも、アンカータグで囲むことでリンクにすることができます。
+前のステップでは、テキストをリンクにするためにアンカー要素を使いました。ほかの種類のコンテンツも、アンカータグで囲むことでリンクにできます。
 
-下記は画像をリンクに変換する例です:
+ここでは画像をリンクにする例を示します。
 
 ```html
 <a href="example-link">
@@ -17,11 +17,11 @@ dashedName: step-17
 </a>
 ```
 
-画像を適切な要素のタグで囲んで、リンクに変換してください。 アンカーの `href` 属性値には `https://freecatphotoapp.com` を使用してください。
+画像を必要な要素タグで囲んでリンクにしてください。アンカーの`https://freecatphotoapp.com`属性の値には`href`を使います。
 
 # --hints--
 
-`src` の値が `https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg` に設定された `img` 要素が必要です。 誤って削除された可能性があります。
+`img`要素があり、その`src`の値が`https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg`である必要があります。誤って削除しているかもしれません。
 
 ```js
 assert(
@@ -31,37 +31,37 @@ assert(
 );
 ```
 
-アンカー (`a`) 要素には開始タグが必要です。 Opening tags have this syntax: `<elementName>`.
+アンカー（`a`）要素には開始タグが必要です。開始タグの構文は`<elementName>`です。
 
 ```js
 assert(document.querySelectorAll('a').length >= 2);
 ```
 
-画像の後に、`a` タグの終了タグがありません。
+画像の後に終了（`a`）タグがありません。
 
 ```js
 assert.lengthOf(document.querySelectorAll('a'), 3);
 ```
 
-アンカー (`a`) 要素には終了タグが必要です。 Closing tags have a `/` just after the `<` character.
+アンカー（`a`）要素には終了タグが必要です。終了タグは`/`文字の直後に`<`があります。
 
 ```js
 assert(code.match(/<\/a>/g).length >= 2);
 ```
 
-アンカー (`a`) の終了タグは 1 つだけ追加してください。 余分なものは削除してください。
+終了アンカー（`a`）タグは1つだけ追加してください。余分なものは削除してください。
 
 ```js
 assert.lengthOf(code.match(/<\/a>/g), 3);
 ```
 
-アンカー (`a`) 要素に `href` 属性がありません。 開始タグのタグ名の後にスペースがあることと、すべての属性名の前にスペースがあることを確認してください。
+アンカー（`a`）要素に`href`属性がありません。開始タグの名前の後にスペースがあるか、すべての属性名の前にスペースがあるか確認してください。
 
 ```js
 assert(document.querySelector('a').hasAttribute('href'));
 ```
 
-アンカー (`a`) 要素は `https://freecatphotoapp.com` にリンクされる必要があります。 URL が設定されていないか、誤字脱字があります。
+アンカー（`a`）要素は`https://freecatphotoapp.com`にリンクする必要があります。URLを省略しているか、タイプミスがあります。
 
 ```js
 assert(
@@ -70,13 +70,13 @@ assert(
 );
 ```
 
-アンカー (`a`) 要素に `href` 属性がありません。 開始タグのタグ名の後にスペースがあることと、すべての属性名の前にスペースがあることを確認してください。
+アンカー（`a`）要素に`href`属性がありません。開始タグの名前の後にスペースがあるか、すべての属性名の前にスペースがあるか確認してください。
 
 ```js
 assert.isTrue(document.querySelectorAll('a')[2]?.hasAttribute('href'));
 ```
 
-アンカー (`a`) 要素は `https://freecatphotoapp.com` にリンクされる必要があります。 URL が設定されていないか、誤字脱字があります。
+アンカー（`a`）要素は`https://freecatphotoapp.com`にリンクする必要があります。URLを省略しているか、タイプミスがあります。
 
 ```js
 assert.equal(
@@ -85,7 +85,7 @@ assert.equal(
 );
 ```
 
-Your `img` element should be nested within the anchor (`a`) element. The entire `img` element should be inside the opening and closing tags of the anchor (`a`) element.
+`img`要素はアンカー（`a`）要素の中にネストされている必要があります。`img`要素全体がアンカー（`a`）要素の開始タグと終了タグの間にある必要があります。
 
 ```js
 assert(document.querySelector('img').parentNode.nodeName === 'A');
@@ -110,4 +110,3 @@ assert(document.querySelector('img').parentNode.nodeName === 'A');
   </body>
 </html>
 ```
-

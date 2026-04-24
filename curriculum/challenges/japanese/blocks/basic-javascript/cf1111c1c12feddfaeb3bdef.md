@@ -1,6 +1,6 @@
 ---
 id: cf1111c1c12feddfaeb3bdef
-title: if ステートメントで条件分岐処理を行う
+title: if文を使った条件分岐の利用
 challengeType: 1
 forumTopicId: 18348
 dashedName: use-conditional-logic-with-if-statements
@@ -8,13 +8,13 @@ dashedName: use-conditional-logic-with-if-statements
 
 # --description--
 
-`if` ステートメントはコード内の判定に使用されます。 キーワード `if` は、丸括弧内で定義された特定の条件に基づいて中括弧内のコードを実行するように JavaScript に指示します。 これらの条件のことを `Boolean` (ブール) 条件と呼び、`true` または `false` のみを使用できます。
+`if`文はコード内での判断に使われます。キーワード`if`はJavaScriptに対して、丸括弧内で定義された特定の条件下で波括弧内のコードを実行するよう指示します。これらの条件は`Boolean`条件と呼ばれ、`true`または`false`のいずれかでなければなりません。
 
-条件判定が `true` となった場合、プログラムは中括弧内のステートメントを実行します。 条件判定が `false` となった場合は、中括弧内のステートメントは実行されません。
+条件が`true`と評価されると、プログラムは波括弧内の文を実行します。ブール値の条件が`false`と評価されると、波括弧内の文は実行されません。
 
-**擬似コード**
+**疑似コード**
 
-<blockquote>if (<i>条件が true</i>) {<br>  <i>ステートメントを実行する</i><br>}</blockquote>
+<blockquote>if (<i>条件が真の場合</i>) {<br>  <i>文が実行される</i><br>}</blockquote>
 
 **例**
 
@@ -30,41 +30,41 @@ test(true);
 test(false);
 ```
 
-`test(true)` は文字列 `It was true` を返し、`test(false)` は文字列 `It was false` を返します。
+`test(true)`は文字列`It was true`を返し、`test(false)`は文字列`It was false`を返します。
 
-`test` が `true` の値で呼び出された場合、`if` ステートメントは `myCondition` を評価し、条件が `true` かどうかを判定します。 条件が `true` なので、関数は `It was true` を返します。 `test` が `false` の値で呼び出された場合、`myCondition` は `true` *ではなく*、波括弧内の文は実行されません。そして、関数は `It was false` を返します。
+`test`が`true`の値で呼び出されると、`if`文は`myCondition`が`true`かどうかを評価します。`true`なので、関数は`It was true`を返します。`test`が`false`の値で呼び出されると、`myCondition`は*`true`ではなく*、波括弧内の文は実行されず、関数は`It was false`を返します。
 
 # --instructions--
 
-パラメーター `wasThatTrue` が `true` の場合は `Yes, that was true` を、そうでない場合は `No, that was false` を返すように、関数内に `if` ステートメントを作成してください。
+関数内に`if`文を作成し、パラメータ`Yes, that was true`が`wasThatTrue`の場合は`true`を返し、それ以外の場合は`No, that was false`を返してください。
 
 # --hints--
 
-`trueOrFalse` は関数である必要があります。
+`trueOrFalse`は関数であるべきです
 
 ```js
 assert(typeof trueOrFalse === 'function');
 ```
 
-`trueOrFalse(true)` は文字列を返す必要があります。
+`trueOrFalse(true)`は文字列を返すべきです
 
 ```js
 assert(typeof trueOrFalse(true) === 'string');
 ```
 
-`trueOrFalse(false)` は文字列を返す必要があります。
+`trueOrFalse(false)`は文字列を返すべきです
 
 ```js
 assert(typeof trueOrFalse(false) === 'string');
 ```
 
-`trueOrFalse(true)` は文字列 `Yes, that was true` を返す必要があります。
+`trueOrFalse(true)`は文字列`Yes, that was true`を返すべきです
 
 ```js
 assert(trueOrFalse(true) === 'Yes, that was true');
 ```
 
-`trueOrFalse(false)` は文字列 `No, that was false` を返す必要があります。
+`trueOrFalse(false)`は文字列`No, that was false`を返すべきです
 
 ```js
 assert(trueOrFalse(false) === 'No, that was false');

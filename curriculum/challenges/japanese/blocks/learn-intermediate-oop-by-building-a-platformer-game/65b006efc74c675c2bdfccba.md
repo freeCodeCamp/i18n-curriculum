@@ -7,20 +7,20 @@ dashedName: step-33
 
 # --description--
 
-For the last condition, you will need to check if the player's `x` position has exceeded the right edge of the canvas. If it has, you will need to set the player's `x` position to the maximum value so the player does not accidentally go off screen to the right.
+最後の条件では、プレイヤーの`x`位置がキャンバスの右端を超えているかどうかを確認する必要があります。もし超えていたら、プレイヤーが誤って画面の右側からはみ出さないように、プレイヤーの`x`位置を最大値に設定する必要があります。
 
-Inside your `update` method, create an `if` statement that checks if `this.position.x >= canvas.width - this.width * 2`.
+`update`メソッドの中で、`if`をチェックする`this.position.x >= canvas.width - this.width * 2`文を作成してください。
 
 # --hints--
 
-You should have another `if` statement inside your `update` method.
+`if`メソッドの中にもう1つ`update`文があるはずです。
 
 ```js
 const player = new Player();
 assert.lengthOf(player?.update?.toString().match(/if\s*\(\s*.*\s*\)\s*{/g), 4);
 ```
 
-Your `if` statement should check if `this.position.x >= canvas.width - this.width * 2`.
+`if`文は`this.position.x >= canvas.width - this.width * 2`をチェックする必要があります。
 
 ```js
 const player = new Player();
@@ -197,7 +197,7 @@ class Player {
     ctx.fillStyle = "#99c9ff";
     ctx.fillRect(this.position.x, this.position.y, this.width, this.height);
   }
-
+  
   update() {
     this.draw();
     this.position.x += this.velocity.x;

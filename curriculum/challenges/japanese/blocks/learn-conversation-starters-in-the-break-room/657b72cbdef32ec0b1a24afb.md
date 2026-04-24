@@ -1,6 +1,6 @@
 ---
 id: 657b72cbdef32ec0b1a24afb
-title: Task 30
+title: タスク 30
 challengeType: 19
 dashedName: task-30
 lang: en-US
@@ -10,15 +10,15 @@ lang: en-US
 
 # --description--
 
-When you hear about different types of guitars, two common kinds might come up: `electric` and `acoustic`.
+ギターの種類について話すとき、よく出てくる2つの一般的なタイプがあります：`electric` と `acoustic`。
 
-`Electric guitars` usually need something called an amplifier to be loud enough to hear, while `acoustic guitars` can be heard without any extra equipment.
+`Electric guitars` は音を大きくするためにアンプというものが必要な場合が多いですが、`acoustic guitars` は特別な機器なしで音が聞こえます。
 
 # --questions--
 
 ## --text--
 
-What type of guitar does Sophie prefer?
+ソフィーはどのタイプのギターを好みますか？
 
 ## --answers--
 
@@ -30,7 +30,7 @@ Acoustic guitar
 
 ### --feedback--
 
-Sophie makes it very clear which type of guitar she likes. The one she prefers needs an amplifier to be loud.
+ソフィーはどのタイプのギターが好きかをはっきり示しています。彼女が好むのは、音を大きくするためにアンプが必要なタイプです。
 
 ## --video-solution--
 

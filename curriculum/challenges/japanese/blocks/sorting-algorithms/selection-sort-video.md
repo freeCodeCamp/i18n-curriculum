@@ -1,6 +1,6 @@
 ---
 id: 698de9f47932b3cc4b19c941
-title: Selection Sort
+title: 選択ソート
 challengeType: 11
 videoId: 6kIttK2RzoU
 dashedName: selection-sort
@@ -8,29 +8,29 @@ dashedName: selection-sort
 
 # --description--
 
-In this video, you will learn about the selection sort algorithm.
+この動画では、選択ソートアルゴリズムについて学びます。
 
 # --questions--
 
 ## --text--
 
-How does the selection sort algorithm work?
+選択ソートアルゴリズムはどのように動作しますか？
 
 ## --answers--
 
-It repeatedly finds the smallest (or largest) element from the unsorted portion and moves it to the sorted portion.
+未ソート部分から最小（または最大）の要素を繰り返し見つけて、ソート済み部分に移動します。
 
 ---
 
-It repeatedly swaps adjacent elements until the entire list is sorted.
+隣接する要素を繰り返し交換して、リスト全体がソートされるまで続けます。
 
 ---
 
-It randomly shuffles the list until it becomes sorted.
+リストをランダムにシャッフルして、ソートされるまで繰り返します。
 
 ---
 
-It divides the list into halves, sorts each half recursively, and merges them.
+リストを半分に分割し、それぞれを再帰的にソートしてからマージします。
 
 ## --video-solution--
 

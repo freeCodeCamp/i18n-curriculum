@@ -1,6 +1,6 @@
 ---
 id: 698de74b7932b3cc4b19c93c
-title: The Conquer Step
+title: マージステップ
 challengeType: 11
 videoId: 4-ycdUhn30U
 dashedName: the-conquer-step
@@ -8,29 +8,29 @@ dashedName: the-conquer-step
 
 # --description--
 
-In this video, you will learn to implement the merge sort algorithm on linked lists by practicing the conquer step.
+この動画では、連結リストに対してマージソートアルゴリズムを実装する方法を、マージステップを練習しながら学びます。
 
 # --questions--
 
 ## --text--
 
-What is the purpose of the `merge` function in this merge sort implementation?
+このマージソートの実装における`merge`関数の目的は何ですか？
 
 ## --answers--
 
-The purpose is to split a linked list into smaller sublists for recursive sorting.
+目的は、連結リストをより小さなサブリストに分割して再帰的にソートすることです。
 
 ---
 
-The purpose is to select nodes from each list without sorting and combine them.
+目的は、各リストからノードを選択してソートせずに結合することです。
 
 ---
 
-The purpose is to merge two linked list, sorting by data in nodes and returning a new merged list.
+目的は、2つの連結リストをノード内のデータでソートしながらマージし、新しいマージ済みリストを返すことです。
 
 ---
 
-The purpose is to rearrange nodes in a linked list in reverse order and return the result.
+目的は、連結リスト内のノードを逆順に並べ替えて結果を返すことです。
 
 ## --video-solution--
 

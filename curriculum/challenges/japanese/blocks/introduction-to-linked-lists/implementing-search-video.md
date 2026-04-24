@@ -1,6 +1,6 @@
 ---
 id: 698dd7f67932b3cc4b19c932
-title: Implementing Search
+title: 検索の実装
 challengeType: 11
 videoId: 2X7ysO7o-Kc
 dashedName: implementing-search
@@ -8,29 +8,29 @@ dashedName: implementing-search
 
 # --description--
 
-In this video, you will learn how to implement a search method for linked lists in code using the Python programming language.
+このビデオでは、Pythonプログラミング言語を使って連結リストの検索メソッドをコードで実装する方法を学びます。
 
 # --questions--
 
 ## --text--
 
-What is the worst case runtime for searching a linked list?
+連結リストの検索における最悪ケースの実行時間はどれですか？
 
 ## --answers--
 
-constant
+定数時間
 
 ---
 
-linear
+線形時間
 
 ---
 
-quadratic
+二次時間
 
 ---
 
-logarithmic
+対数時間
 
 ## --video-solution--
 

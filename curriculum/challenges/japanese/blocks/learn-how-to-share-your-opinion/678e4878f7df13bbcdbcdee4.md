@@ -1,6 +1,6 @@
 ---
 id: 678e4878f7df13bbcdbcdee4
-title: Task 54
+title: タスク 54
 challengeType: 22
 dashedName: task-54
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+音声を聞いて、以下の文を完成させてください。
 
 # --fillInTheBlank--
 
@@ -24,13 +24,13 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This word means that something can be changed or adjusted to meet individual preferences or needs.
+この単語は、何かが個々の好みやニーズに合わせて変更や調整ができることを意味します。
 
 # --explanation--
 
-`Customizable` refers to something that can be changed or modified to suit different preferences, needs, or requirements. 例:
+`Customizable` は、異なる好みやニーズ、要件に合わせて変更や修正ができるものを指します。例えば：
 
-`The dashboard in this project management tool is customizable, allowing each team to organize their tasks in their preferred way.` - This means that the dashboard can be modified according to each team's needs, helping them organize their work more efficiently.
+`The dashboard in this project management tool is customizable, allowing each team to organize their tasks in their preferred way.` - これは、ダッシュボードが各チームのニーズに応じて変更できることを意味し、作業をより効率的に整理するのに役立ちます。
 
 # --scene--
 

@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c442eddfaeb5bd18
-title: Build a Tribute Page
+title: トリビュートページを作成する
 challengeType: 14
 saveSubmissionToDB: true
 forumTopicId: 301147
@@ -9,27 +9,27 @@ dashedName: build-a-tribute-page
 
 # --description--
 
-**Objective:** Build an app that is functionally similar to <a href="https://tribute-page.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://tribute-page.freecodecamp.rocks</a>. **Do not copy this demo project**.
+**目的:** <a href="https://tribute-page.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://tribute-page.freecodecamp.rocks</a> と機能的に似たアプリを作成してください。**このデモプロジェクトをコピーしないでください**。
 
-**User Stories:**
+**ユーザーストーリー:**
 
-1. Your tribute page should have a `main` element with a corresponding `id` of `main`, which contains all other elements
-1. You should see an element with an `id` of `title`, which contains a string (i.e. text), that describes the subject of the tribute page (e.g. "Dr. Norman Borlaug")
-1. You should see either a `figure` or a `div` element with an `id` of `img-div`
-1. Within the `#img-div` element, you should see an `img` element with a corresponding `id="image"`
-1. Within the `#img-div` element, you should see an element with a corresponding `id="img-caption"` that contains textual content describing the image shown in `#img-div`
-1. You should see an element with a corresponding `id="tribute-info"`, which contains textual content describing the subject of the tribute page
-1. You should see an `a` element with a corresponding `id="tribute-link"`, which links to an outside site, that contains additional information about the subject of the tribute page. HINT: You must give your element an attribute of `target` and set it to `_blank` in order for your link to open in a new tab
-1. Your `#image` should use `max-width` and `height` properties to resize responsively, relative to the width of its parent element, without exceeding its original size
-1. Your `img` element should be centered within its parent element
+1. トリビュートページには、対応する `main` が `id` の `main` 要素があり、他のすべての要素を含んでいる必要があります
+1. `id` が `title` の要素があり、その中にトリビュートページの対象を説明する文字列（例："Dr. Norman Borlaug"）が含まれている必要があります
+1. `figure` または `div` の要素があり、`id` が `img-div` である必要があります
+1. `#img-div` 要素の中に、対応する `img` を持つ `id="image"` 要素がある必要があります
+1. `#img-div` 要素の中に、`id="img-caption"` に表示されている画像を説明するテキストコンテンツを含む対応する `#img-div` の要素がある必要があります
+1. トリビュートページの対象を説明するテキストコンテンツを含む対応する `id="tribute-info"` の要素がある必要があります
+1. トリビュートページの対象に関する追加情報を含む外部サイトにリンクする対応する `a` を持つ `id="tribute-link"` 要素がある必要があります。ヒント：リンクを新しいタブで開くには、`target` 属性を `_blank` に設定してください
+1. `#image` は、親要素の幅に対してレスポンシブにサイズ変更できるように `max-width` と `height` プロパティを使い、元のサイズを超えないようにしてください
+1. `img` 要素は親要素の中央に配置されている必要があります
 
-Fulfill the user stories and pass all the tests below to complete this project. Give it your own personal style. Happy Coding!
+ユーザーストーリーを満たし、以下のすべてのテストに合格してこのプロジェクトを完成させてください。自分のスタイルを加えてください。楽しいコーディングを！
 
-**Note:** Be sure to add `<link rel="stylesheet" href="styles.css">` in your HTML to link your stylesheet and apply your CSS
+**注意:** CSSを適用するために、HTMLに `<link rel="stylesheet" href="styles.css">` を追加してスタイルシートをリンクしてください
 
 # --hints--
 
-You should have a `main` element with an `id` of `main`.
+`main` 要素が `id` の `main` を持っている必要があります。
 
 ```js
 const el = document.getElementById('main');
@@ -37,7 +37,7 @@ assert.isNotNull(el);
 assert.strictEqual(el.tagName, 'MAIN');
 ```
 
-Your `#img-div`, `#image`, `#img-caption`, `#tribute-info`, and `#tribute-link` should all be descendants of `#main`.
+`#img-div`、`#image`、`#img-caption`、`#tribute-info`、`#tribute-link` はすべて `#main` の子孫要素である必要があります。
 
 ```js
 const el1 = document.querySelector('#main #img-div');
@@ -52,14 +52,14 @@ assert.isNotNull(el4);
 assert.isNotNull(el5);
 ```
 
-You should have an element with an `id` of `title`.
+`id` が `title` の要素が必要です。
 
 ```js
 const el = document.getElementById('title');
 assert.isNotNull(el);
 ```
 
-Your `#title` should not be empty.
+`#title` は空であってはいけません。
 
 ```js
 const el = document.getElementById('title');
@@ -67,7 +67,7 @@ assert.isNotNull(el);
 assert.isNotEmpty(el.innerText.trim());
 ```
 
-You should have a `figure` or `div` element with an `id` of `img-div`.
+`figure` または `div` の要素が `id` の `img-div` を持っている必要があります。
 
 ```js
 const el = document.getElementById('img-div');
@@ -75,7 +75,7 @@ assert.isNotNull(el);
 assert.isTrue(el.tagName === 'DIV' || el.tagName === 'FIGURE');
 ```
 
-You should have an `img` element with an `id` of `image`.
+`img` 要素が `id` の `image` を持っている必要があります。
 
 ```js
 const el = document.getElementById('image');
@@ -83,14 +83,14 @@ assert.isNotNull(el);
 assert.strictEqual(el.tagName, 'IMG');
 ```
 
-Your `#image` should be a descendant of `#img-div`.
+`#image` は `#img-div` の子孫要素である必要があります。
 
 ```js
 const el = document.querySelector('#img-div #image');
 assert.isNotNull(el);
 ```
 
-You should have a `figcaption` or `div` element with an `id` of `img-caption`.
+`figcaption` または `div` の要素が `id` の `img-caption` を持っている必要があります。
 
 ```js
 const el = document.getElementById('img-caption');
@@ -98,14 +98,14 @@ assert.isNotNull(el);
 assert.isTrue(el.tagName === 'DIV' || el.tagName === 'FIGCAPTION');
 ```
 
-Your `#img-caption` should be a descendant of `#img-div`.
+`#img-caption` は `#img-div` の子孫要素である必要があります。
 
 ```js
 const el = document.querySelector('#img-div #img-caption');
 assert.isNotNull(el);
 ```
 
-Your `#img-caption` should not be empty.
+`#img-caption` は空であってはいけません。
 
 ```js
 const el = document.getElementById('img-caption');
@@ -113,14 +113,14 @@ assert.isNotNull(el);
 assert.isNotEmpty(el.innerText);
 ```
 
-You should have an element with an `id` of `tribute-info`.
+`id` の `tribute-info` を持つ要素が必要です。
 
 ```js
 const el = document.getElementById('tribute-info');
 assert.isNotNull(el);
 ```
 
-Your `#tribute-info` should not be empty.
+`#tribute-info` は空であってはいけません。
 
 ```js
 const el = document.getElementById('tribute-info');
@@ -128,7 +128,7 @@ assert.isNotNull(el);
 assert.isNotEmpty(el.innerText);
 ```
 
-You should have an `a` element with an `id` of `tribute-link`.
+`a` 要素が `id` の `tribute-link` を持っている必要があります。
 
 ```js
 const el = document.getElementById('tribute-link');
@@ -136,7 +136,7 @@ assert.isNotNull(el);
 assert.strictEqual(el.tagName, 'A');
 ```
 
-Your `#tribute-link` should have an `href` attribute and value.
+`#tribute-link` は `href` 属性と値を持っている必要があります。
 
 ```js
 const el = document.getElementById('tribute-link');
@@ -145,7 +145,7 @@ assert.isNotNull(el.href);
 assert.isNotEmpty(el.href);
 ```
 
-Your `#tribute-link` should have a `target` attribute set to `_blank`.
+`#tribute-link` は `target` 属性を `_blank` に設定している必要があります。
 
 ```js
 const el = document.getElementById('tribute-link');
@@ -153,7 +153,7 @@ assert.isNotNull(el);
 assert.strictEqual(el.target, '_blank');
 ```
 
-Your `img` element should have a `display` of `block`.
+`img` 要素が `display` の `block` を持っている必要があります。
 
 ```js
 const img = document.getElementById('image');
@@ -162,7 +162,7 @@ const style = imgStyle?.getPropertyValue('display');
 assert.strictEqual(style, 'block');
 ```
 
-Your `#image` should have a `max-width` of `100%`.
+`#image` は `max-width` の `100%` を持っている必要があります。
 
 ```js
 const img = document.getElementById('image');
@@ -171,7 +171,7 @@ const style = imgStyle?.getPropertyValue('max-width');
 assert.strictEqual(style, '100%');
 ```
 
-Your `#image` should have a `height` of `auto`.
+`#image` は `height` の `auto` を持っている必要があります。
 
 ```js
 // taken from the testable-projects repo
@@ -185,7 +185,7 @@ img?.style.setProperty('display', oldDisplayValue, oldDisplayPriority);
 assert.strictEqual(heightValue, 'auto');
 ```
 
-Your `#image` should be centered within its parent.
+`#image` は親要素の中央に配置されている必要があります。
 
 ```js
 // taken from the testable-projects repo

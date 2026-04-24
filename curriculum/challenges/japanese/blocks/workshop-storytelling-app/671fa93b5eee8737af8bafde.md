@@ -1,23 +1,23 @@
 ---
 id: 671fa93b5eee8737af8bafde
-title: Step 10
+title: ステップ 10
 challengeType: 0
 dashedName: step-10
 ---
 
 # --description--
 
-Create a function called `displayStory`. Inside the function, log `"You clicked the button"` to the console.
+`displayStory` という関数を作成してください。関数の中で、`"You clicked the button"` をコンソールにログ出力してください。
 
 # --hints--
 
-You should have a function called `displayStory`.
+`displayStory` という関数があるはずです。
 
 ```js
 assert.isFunction(displayStory);
 ```
 
-You should log `"You clicked the button"` to the console inside the `displayStory` function.
+`"You clicked the button"` 関数の中で `displayStory` をコンソールにログ出力してください。
 
 ```js
 assert.match(displayStory.toString(), /console\.log\(["']You clicked the button["']\)/);

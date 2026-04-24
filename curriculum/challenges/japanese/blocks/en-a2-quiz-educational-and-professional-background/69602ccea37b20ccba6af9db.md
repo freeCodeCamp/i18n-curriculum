@@ -8,13 +8,13 @@ lang: en-US
 
 # --description--
 
-This quiz checks your understanding of job interviews, education, and the `past simple` tense.
+このクイズは、面接、教育、そして`past simple`時制の理解度を確認します。
 
-To pass the quiz, you must correctly answer at least 18 of the 20 questions below.
+このクイズに合格するには、以下の20問のうち少なくとも18問に正しく答える必要があります。
 
-Read each question and choose the correct answer. There's only one correct answer for each question.
+各質問を読み、正しい答えを選んでください。各質問には正しい答えが1つだけあります。
 
-For accessibility, transcripts are available for learners with hearing impairments; we recommend using them only if needed.
+アクセシビリティのために、聴覚に障害のある学習者向けにトランスクリプトが用意されています。必要な場合のみ使用することをお勧めします。
 
 # --quizzes--
 
@@ -24,73 +24,73 @@ For accessibility, transcripts are available for learners with hearing impairmen
 
 #### --text--
 
-Which of the following is true about this sentence: `I studied computer science at college`?
+次の文について正しいものはどれですか：`I studied computer science at college`？
 
 #### --distractors--
 
-The action is happening now.
+その行動は今起こっている。
 
 ---
 
-The action will happen soon.
+動作はすぐに起こります。
 
 ---
 
-The action happens every day.
+その行動は毎日起こる。
 
 #### --answer--
 
-The action happened in the past.
+その行動は過去に起こった。
 
 ### --question--
 
 #### --text--
 
-Which of the following is NOT an example of someone's `background`?
+次のうち、誰かの`background`の例ではないものはどれですか？
 
 #### --distractors--
 
-Their past job experience
+過去の職務経験
 
 ---
 
-Their education history
+教育歴
 
 ---
 
-Their learned skills
+習得したスキル
 
 #### --answer--
 
-Their favorite hobby
+好きな趣味
 
 ### --question--
 
 #### --text--
 
-What is an `interview`?
+`interview`とは何ですか？
 
 #### --distractors--
 
-A casual talk between coworkers
+同僚同士のカジュアルな会話
 
 ---
 
-A written test at school
+学校での筆記試験
 
 ---
 
-A team meeting at work
+職場でのチームミーティング
 
 #### --answer--
 
-A formal meeting with questions
+質問がある正式な面談
 
 ### --question--
 
 #### --text--
 
-Listen to the audio. What is the best answer to this question? <!-- (quiz audio) Anna: Can you tell me about your previous job experiences? -->
+音声を聞いてください。この質問に対する最適な答えはどれですか？ <!-- (quiz audio) Anna: Can you tell me about your previous job experiences? -->
 
 #### --audio--
 
@@ -130,7 +130,7 @@ Listen to the audio. What is the best answer to this question? <!-- (quiz audio)
 
 #### --text--
 
-Which sentence uses `to be` correctly in the past?
+過去形で`to be`を正しく使っている文はどれですか？
 
 #### --distractors--
 
@@ -152,7 +152,7 @@ Which sentence uses `to be` correctly in the past?
 
 #### --text--
 
-What is the correct question form of this sentence: `He was responsible for maintaining the database`?
+この文の正しい疑問文はどれですか：`He was responsible for maintaining the database`？
 
 #### --distractors--
 
@@ -174,7 +174,7 @@ What is the correct question form of this sentence: `He was responsible for main
 
 #### --text--
 
-How would you ask about someone's educational background?
+誰かの教育背景について尋ねるにはどう言いますか？
 
 #### --distractors--
 
@@ -196,29 +196,29 @@ How would you ask about someone's educational background?
 
 #### --text--
 
-What does this question ask about: `Could you tell me about your previous roles and responsibilities?`
+この質問は何について尋ねていますか：`Could you tell me about your previous roles and responsibilities?`
 
 #### --distractors--
 
-Your future career plans
+将来のキャリアプラン
 
 ---
 
-Your personal interests
+個人的な興味
 
 ---
 
-Your current daily tasks
+現在の毎日の仕事
 
 #### --answer--
 
-Your past jobs and duties
+過去の職務と業務内容
 
 ### --question--
 
 #### --text--
 
-Which phrase shows possession incorrectly?
+所有を誤って示しているフレーズはどれですか？
 
 #### --distractors--
 
@@ -240,7 +240,7 @@ Which phrase shows possession incorrectly?
 
 #### --text--
 
-What is the correct negative form of this sentence: `He studied data science`?
+この文の正しい否定形はどれですか：`He studied data science`？
 
 #### --distractors--
 
@@ -262,7 +262,7 @@ What is the correct negative form of this sentence: `He studied data science`?
 
 #### --text--
 
-How do you say your main area of study?
+専攻分野をどう言いますか？
 
 #### --distractors--
 
@@ -284,7 +284,7 @@ How do you say your main area of study?
 
 #### --text--
 
-What is the correct question form of this sentence: `She worked with them for five years`?
+この文の正しい疑問文はどれですか：`She worked with them for five years`？
 
 #### --distractors--
 
@@ -306,7 +306,7 @@ What is the correct question form of this sentence: `She worked with them for fi
 
 #### --text--
 
-Listen to the audio. How would you answer this question? <!-- (quiz audio) Tom: Did you work on any projects during your self-study? -->
+音声を聞いてください。この質問にどう答えますか？ <!-- (quiz audio) Tom: Did you work on any projects during your self-study? -->
 
 #### --audio--
 
@@ -346,7 +346,7 @@ Listen to the audio. How would you answer this question? <!-- (quiz audio) Tom: 
 
 #### --text--
 
-Which pair of irregular verbs is incorrect?
+誤っている不規則動詞の組み合わせはどれですか？
 
 #### --distractors--
 
@@ -368,29 +368,29 @@ Which pair of irregular verbs is incorrect?
 
 #### --text--
 
-What does `to wear too many hats` mean?
+`to wear too many hats`はどういう意味ですか？
 
 #### --distractors--
 
-To dress very formally
+とてもフォーマルな服装をすること
 
 ---
 
-To change jobs often
+頻繁に転職すること
 
 ---
 
-To manage one task
+1つの仕事を管理すること
 
 #### --answer--
 
-To have many roles or duties
+多くの役割や業務を持つこと
 
 ### --question--
 
 #### --text--
 
-How do you describe learning without a teacher or school?
+先生や学校なしで学ぶことをどう表現しますか？
 
 #### --distractors--
 
@@ -412,7 +412,7 @@ How do you describe learning without a teacher or school?
 
 #### --text--
 
-Which sentence uses `actual` or `actually` correctly?
+`actual`または`actually`を正しく使っている文はどれですか？
 
 #### --distractors--
 
@@ -438,25 +438,25 @@ Who is a `recruiter`?
 
 #### --distractors--
 
-A person who manages a team
+チームを管理する人
 
 ---
 
-A person who trains employees
+従業員を訓練する人
 
 ---
 
-A person who writes code
+コードを書く人
 
 #### --answer--
 
-A person who hires candidates
+候補者を採用する人
 
 ### --question--
 
 #### --text--
 
-What do you call a person who works for a company?
+会社で働く人を何と呼びますか？
 
 #### --distractors--
 
@@ -478,7 +478,7 @@ What do you call a person who works for a company?
 
 #### --text--
 
-Which tag question is correct?
+正しい付加疑問文はどれですか？
 
 #### --distractors--
 

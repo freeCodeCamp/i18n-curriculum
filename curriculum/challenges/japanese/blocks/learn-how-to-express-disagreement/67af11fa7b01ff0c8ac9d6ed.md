@@ -1,6 +1,6 @@
 ---
 id: 67af11fa7b01ff0c8ac9d6ed
-title: Task 45
+title: タスク 45
 challengeType: 19
 dashedName: task-45
 lang: en-US
@@ -10,13 +10,13 @@ lang: en-US
 
 # --instructions--
 
-Read the text and answer the question below.
+テキストを読んで、以下の質問に答えてください。
 
 # --questions--
 
 ## --text--
 
-After reviewing the survey results for the remote work stipend, Bob decided to write an article:
+リモートワーク手当の調査結果をレビューした後、ボブは記事を書くことにしました：
 
 `The Remote Work Stipend Debate: Comfort or Productivity?`
 
@@ -30,35 +30,35 @@ After reviewing the survey results for the remote work stipend, Bob decided to w
 
 `As remote work grows, companies need to support their workers in the best way possible. A well-equipped home office isn't just a nice extra — it's key to doing great work.`
 
-Why do some workers prefer to use the stipend for office furniture?
+なぜ一部の労働者はオフィス家具に手当を使うことを好むのでしょうか？
 
 ## --answers--
 
-Because they don't like working remotely.
+リモートワークが好きではないからです。
 
 ### --feedback--
 
-The article does not suggest that these workers dislike remote work.
+記事はこれらの労働者がリモートワークを嫌っているとは示していません。
 
 ---
 
-To improve comfort and prevent back pain.
+快適さを向上させ、腰痛を防ぐためです。
 
 ---
 
-To buy decorations for their home office.
+自宅オフィスの装飾品を買うためです。
 
 ### --feedback--
 
-The article doesn't discuss furniture that improves decorations.
+記事は装飾を良くする家具については触れていません。
 
 ---
 
-To impress their coworkers.
+同僚に良く見せるためです。
 
 ### --feedback--
 
-The reason given in the article isn't appearances.
+記事で示された理由は見た目ではありません。
 
 ## --video-solution--
 
@@ -66,6 +66,6 @@ The reason given in the article isn't appearances.
 
 # --explanation--
 
-The article explains that `a bad chair and desk can cause health problems` and make it harder to focus. This is why some workers prioritize using the stipend for office furniture instead of technology.
+記事は`a bad chair and desk can cause health problems`がフォーカスを妨げることを説明しています。これが、一部の労働者がテクノロジーよりもオフィス家具に手当を使うことを優先する理由です。
 
-Focus on how the article highlights ergonomics and well-being as key reasons for choosing furniture over computers.
+記事が人間工学と健康を家具選択の重要な理由として強調している点に注目してください。

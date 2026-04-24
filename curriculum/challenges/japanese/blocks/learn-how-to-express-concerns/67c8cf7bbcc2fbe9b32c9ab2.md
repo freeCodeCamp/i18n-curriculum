@@ -1,6 +1,6 @@
 ---
 id: 67c8cf7bbcc2fbe9b32c9ab2
-title: Task 92
+title: タスク 92
 challengeType: 19
 dashedName: task-92
 lang: en-US
@@ -10,53 +10,53 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+音声を聞いて、以下の質問に答えてください。  
 
 # --questions--
 
 ## --text--
 
-What will Maria do with the comments she got from James?
+マリアはジェームズからのコメントをどうしますか？  
 
 ## --answers--
 
-She will ignore them.
+彼女はそれらを無視します。  
 
 ### --feedback--
 
-Maria acknowledges James's point and plans to take action.
+マリアはジェームズの指摘を認め、行動を起こすつもりです。
 
 ---
 
-She will tell the team to stop worrying about communication.
+彼女はチームにコミュニケーションを気にしないように伝えます。
 
 ### --feedback--
 
-Maria wants to improve communication, not dismiss concerns.
+マリアは懸念を否定するのではなく、コミュニケーションを改善したいと考えています。 
 
 ---
 
-She will cancel the team's check-ins.
+彼女はチームの定期的なチェックインをキャンセルします。
 
 ### --feedback--
 
-Maria does not say she will cancel the check-ins.
+マリアはチェックインをキャンセルすると言っていません。
 
 ---
 
-She will propose having more check-ins to improve communication.
+彼女はコミュニケーションを改善するために、より多くのチェックインを提案します。
 
 ## --video-solution--
 
-4
+4  
 
 # --explanation--
 
-When using the verb `suggest`, use the following verb in the `-ing` form instead of the infinitive. For example:
+動詞`suggest`を使う場合、動詞の不定詞ではなく`-ing`形を使います。例えば：
 
-- `She suggested taking a break.` - This means the idea proposed is to take a break.
+- `She suggested taking a break.` - これは提案されたアイデアが休憩を取ることを意味します。
 
-- `He suggested starting the meeting earlier to avoid delays.` - This means he proposed beginning the meeting sooner.
+- `He suggested starting the meeting earlier to avoid delays.` - これは彼が会議を早く始めることを提案したことを意味します。
 
 # --scene--
 

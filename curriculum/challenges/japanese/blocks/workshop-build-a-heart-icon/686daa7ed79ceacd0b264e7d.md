@@ -1,19 +1,19 @@
 ---
 id: 686daa7ed79ceacd0b264e7d
-title: Step 2
+title: ステップ 2
 challengeType: 0
 dashedName: step-2
 ---
 
 # --description--
 
-You should nest one `path` element inside your `svg` element to give the image shape.
+画像の形を作るために、`path` 要素の中に `svg` 要素をネストしてください。
 
-Create a `path` element.
+`path` 要素を作成してください。
 
 # --hints--
 
-You should have a `path` element nested inside of your `svg` element.
+`path` 要素の中に `svg` 要素がネストされている必要があります。
 
 ```js
 const path = document.querySelector('svg path');
@@ -34,7 +34,7 @@ assert.exists(path);
   <body>
     <svg>
     --fcc-editable-region--
-
+      
     --fcc-editable-region--
     </svg>
   </body>

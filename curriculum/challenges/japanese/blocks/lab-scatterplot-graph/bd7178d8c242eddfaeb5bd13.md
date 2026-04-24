@@ -1,6 +1,6 @@
 ---
 id: bd7178d8c242eddfaeb5bd13
-title: Build a Scatterplot Graph
+title: 散布図グラフを作成する
 challengeType: 25
 dashedName: build-a-scatterplot-graph
 demoType: onClick
@@ -8,31 +8,31 @@ demoType: onClick
 
 # --description--
 
-In this project you will use the data from `https://cdn.freecodecamp.org/curriculum/labs/data/scatterplot/cyclist-data.json` to build a scatterplot graph.
+このプロジェクトでは、`https://cdn.freecodecamp.org/curriculum/labs/data/scatterplot/cyclist-data.json` のデータを使って散布図グラフを作成します。
 
-The tests require axes to be generated using the D3 axis property, which automatically generates ticks along the axis. These ticks are required for passing the D3 tests because their positions are used to determine alignment of graphed elements.
+テストでは、D3の axis プロパティを使って軸を生成する必要があります。これにより軸に沿って目盛りが自動的に生成されます。この目盛りは、グラフ要素の整列を判定するために使われるため、D3のテストに合格するには必須です。
 
-**Objective:** Fulfill the user stories below and get all the tests to pass to complete the lab.
+**目的:** 以下のユーザーストーリーを満たし、すべてのテストに合格してラボを完了してください。
 
-**User Stories:**
+**ユーザーストーリー:**
 
-1. Your chart should have a title with a corresponding `id="title"`.
-1. Your chart should have a `g` element x-axis with a corresponding `id="x-axis"`.
-1. Your chart should have a `g` element y-axis with a corresponding `id="y-axis"`.
-1. Both axes should contain multiple tick labels, each with a corresponding `class="tick"`.
-1. Your chart should have a `circle` element for each data point with a corresponding `class="dot"` displaying the data.
-1. Each `.dot` should have the attributes `data-xvalue` and `data-yvalue` containing `year` and `time` values. For `data-xvalue`, integers (full years) or Date objects are acceptable for test evaluation. For `data-yvalue` (minutes), use Date objects.
-1. The `.dot` elements' `data-xvalue` attributes should match the order of the provided data.
-1. The `.dot` elements' `data-yvalue` attributes should match the order of the provided data.
-1. Each `.dot` element should align with the corresponding value on the x-axis.
-1. Each `.dot` element should align with the corresponding value on the y-axis.
-1. There should be multiple tick labels on the y-axis with `%M:%S` time format.
-1. There should be multiple tick labels on the x-axis that show the year.
-1. The range of the x-axis labels should be within the range of the actual x-axis data.
-1. The range of the y-axis labels should be within the range of the actual y-axis data.
-1. There should be a legend containing descriptive text that has `id="legend"`.
-1. You should be able to mouse over an area and see a tooltip with a corresponding `id="tooltip"` which displays more information about the area.
-1. Your tooltip should have a `data-year` attribute that corresponds to the `data-xvalue` of the active area.
+1. グラフには対応する `id="title"` を持つタイトルが必要です。
+1. グラフには対応する `g` を持つ `id="x-axis"` 要素の x軸が必要です。
+1. グラフには対応する `g` を持つ `id="y-axis"` 要素の y軸が必要です。
+1. 両方の軸には複数の目盛りラベルがあり、それぞれに対応する `class="tick"` が必要です。
+1. グラフには各データポイントに対応する `circle` を表示する `class="dot"` 要素が必要です。
+1. 各 `.dot` は `data-xvalue` と `data-yvalue` の属性を持ち、`year` と `time` の値を含む必要があります。`data-xvalue` については、テスト評価に整数（完全な年）または日付オブジェクトが許容されます。`data-yvalue`（分）については日付オブジェクトを使用してください。
+1. `.dot` 要素の `data-xvalue` 属性は提供されたデータの順序と一致する必要があります。
+1. `.dot` 要素の `data-yvalue` 属性は提供されたデータの順序と一致する必要があります。
+1. 各 `.dot` 要素は x軸の対応する値に整列している必要があります。
+1. 各 `.dot` 要素は y軸の対応する値に整列している必要があります。
+1. y軸には `%M:%S` の時間形式の複数の目盛りラベルが必要です。
+1. x軸には年を表示する複数の目盛りラベルが必要です。
+1. x軸ラベルの範囲は実際の x軸データの範囲内である必要があります。
+1. y軸ラベルの範囲は実際の y軸データの範囲内である必要があります。
+1. 説明的なテキストを含む凡例があり、`id="legend"` を持つ必要があります。
+1. エリアにマウスを乗せると、対応する `id="tooltip"` を持つツールチップが表示され、エリアの詳細情報を表示する必要があります。
+1. ツールチップには、アクティブなエリアの `data-year` に対応する `data-xvalue` 属性が必要です。
 
 # --before-all--
 
@@ -633,13 +633,13 @@ const timeout = (milliseconds) =>
 
 # --hints--
 
-The chart should have an element with the `id` of `title` to contain the title.
+グラフにはタイトルを含むために `id` の `title` を持つ要素が必要です。
 
 ```js
 assert.exists(document.getElementById('title'));
 ```
 
-The chart should have an `x-axis` with a corresponding `id="x-axis"`.
+グラフには対応する `x-axis` を持つ `id="x-axis"` が必要です。
 
 ```js
 assert.isNotNull(
@@ -649,7 +649,7 @@ assert.isNotNull(
 assert.isNotEmpty(document.querySelectorAll('g#x-axis'));
 ```
 
-The chart should have a `y-axis` with a corresponding `id="y-axis"`.
+グラフには対応する `y-axis` を持つ `id="y-axis"` が必要です。
 
 ```js
 assert.isNotNull(
@@ -659,25 +659,25 @@ assert.isNotNull(
 assert.isNotEmpty(document.querySelectorAll('g#y-axis'));
 ```
 
-The x axis should contain multiple tick labels, each with the corresponding `class="tick"`.
+x軸には複数の目盛りラベルがあり、それぞれに対応する `class="tick"` が必要です。
 
 ```js
 assert.isNotEmpty(document.querySelectorAll('#x-axis .tick'));
 ```
 
-The y axis should contain multiple tick labels, each with the corresponding `class="tick"`.
+y軸には複数の目盛りラベルがあり、それぞれに対応する `class="tick"` が必要です。
 
 ```js
 assert.isNotEmpty(document.querySelectorAll('#y-axis .tick'));
 ```
 
-Your chart should have dots, that each have a class of `dot`, which represent the data being plotted.
+グラフには、プロットされるデータを表す `dot` クラスを持つドットが必要です。
 
 ```js
 assert.isNotEmpty(document.querySelectorAll('circle.dot'));
 ```
 
-Each dot should have the properties `data-xvalue` and `data-yvalue` containing their corresponding x and y values.
+各ドットは対応する x と y の値を含む `data-xvalue` と `data-yvalue` のプロパティを持つ必要があります。
 
 ```js
 const dots = document.getElementsByClassName('dot');
@@ -696,7 +696,7 @@ for (let i = 0; i < dots.length; i++) {
 }
 ```
 
-The `data-xvalue` and `data-yvalue` of each dot should be within the range of the actual data and in the correct data format. For `data-xvalue`, integers (full years) or Date objects are acceptable for test evaluation. For `data-yvalue` (minutes), use Date objects.
+各ドットの `data-xvalue` と `data-yvalue` は実際のデータの範囲内で、正しいデータ形式である必要があります。`data-xvalue` については、テスト評価に整数（完全な年）または日付オブジェクトが許容されます。`data-yvalue`（分）については日付オブジェクトを使用してください。
 
 ```js
 const years = cyclistDataJson.map(d => d.Year);
@@ -740,7 +740,7 @@ dots.forEach((dot) => {
 });
 ```
 
-The `data-xvalue` and its corresponding dot should align with the corresponding point/value on the x-axis.
+`data-xvalue` と対応するドットは x軸の対応する点／値に整列している必要があります。
 
 ```js
 const axis = document.querySelector('#x-axis');
@@ -767,7 +767,7 @@ assert.isTrue(
 );
 ```
 
-The `data-yvalue` and its corresponding dot should align with the corresponding point/value on the y-axis.
+`data-yvalue` と対応するドットは y軸の対応する点／値に整列している必要があります。
 
 ```js
 const axis = document.querySelector('#y-axis');
@@ -794,7 +794,7 @@ assert.isTrue(
 );
 ```
 
-You can see multiple tick labels on the y-axis with `%M:%S` time format.
+y軸には `%M:%S` の時間形式の複数の目盛りラベルが表示されます。
 
 ```js
 const yAxisTickLabels = document.querySelectorAll('#y-axis .tick');
@@ -809,7 +809,7 @@ yAxisTickLabels.forEach((label) => {
 });
 ```
 
-You can see multiple tick labels on the x-axis that show the year.
+x軸には年を表示する複数の目盛りラベルが表示されます。
 
 ```js
 const xAxisTickLabels = document.querySelectorAll('#x-axis .tick');
@@ -824,7 +824,7 @@ xAxisTickLabels.forEach((label) => {
 });
 ```
 
-The range of the x-axis labels are within the range of the actual x-axis data.
+x軸ラベルの範囲は実際の x軸データの範囲内です。
 
 ```js
 const xAxisTickLabels = document.querySelectorAll('#x-axis .tick');
@@ -848,7 +848,7 @@ xAxisTickLabels.forEach((label) => {
 });
 ```
 
-The range of the y-axis labels are within the range of the actual y-axis data.
+y軸ラベルの範囲は実際の y軸データの範囲内です。
 
 ```js
 const yAxisTickLabels = document.querySelectorAll('#y-axis .tick');
@@ -882,7 +882,7 @@ yAxisTickLabels.forEach((label) => {
 });
 ```
 
-You can see a legend containing descriptive text that has `id="legend"`.
+説明的なテキストを含む凡例があり、`id="legend"` を持っています。
 
 ```js
 assert.isNotNull(document.getElementById('legend'));
@@ -896,7 +896,7 @@ if (document.querySelector('#legend text') !== null) {
 assert.isNotNull(legendText, 'The legend should contain text');
 ```
 
-When hovering over an area your scatter plot should have a tooltip with a corresponding `id="tooltip"` which displays more information about the area.
+エリアにマウスを乗せると、対応する `id="tooltip"` を持つツールチップが表示され、エリアの詳細情報を示します。
 
 ```js
 const areas = document.querySelectorAll('.dot');
@@ -940,7 +940,7 @@ assert.isTrue(
 );
 ```
 
-The tooltip should have a `data-year` attribute that corresponds to the `data-xvalue` of the active area.
+ツールチップには、アクティブなエリアの `data-year` に対応する `data-xvalue` 属性があります。
 
 ```js
 const areas = document.querySelectorAll('.dot');
@@ -970,7 +970,7 @@ try {
 
   const tooltipYear = tooltip.getAttribute('data-year');
   const areaYear = new Date(randomArea.getAttribute('data-xvalue')).getFullYear();
-
+  
   assert.equal(
     tooltipYear,
     areaYear,

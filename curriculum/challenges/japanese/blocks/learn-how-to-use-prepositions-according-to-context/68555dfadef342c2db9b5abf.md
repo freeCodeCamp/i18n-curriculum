@@ -1,6 +1,6 @@
 ---
 id: 68555dfadef342c2db9b5abf
-title: Task 83
+title: タスク 83
 challengeType: 22
 dashedName: task-83
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+音声を聞いて、以下の文を完成させてください。
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This two-word phrase means introduced or caused something to appear or become an issue. The first word is the past tense form of `bring`.
+この2語のフレーズは、何かを引き起こしたり問題として現れさせたりしたことを意味します。最初の単語は`bring`の過去形です。
 
 ---
 
@@ -32,17 +32,17 @@ This two-word phrase means introduced or caused something to appear or become an
 
 ### --feedback--
 
-This word means something happened that was not planned or predicted. It ends with `-ed`.
+この単語は、計画されていなかったり予測されていなかったことが起きたことを意味します。`-ed`で終わります。
 
 # --explanation--
 
-`Brought up` means caused something to appear, especially a problem or issue. Here, `brought` is the past tense form of `bring`. For example:
+`Brought up`は、特に問題や課題を引き起こしたことを意味します。ここで、`brought`は`bring`の過去形です。例えば：
 
-`The new feature brought up several bugs.` – This means the feature caused the bugs to be noticed.
+`The new feature brought up several bugs.` – これは機能がバグを引き起こしたことを意味します。
 
-`Unexpected` describes something that happens without warning or planning. For example:
+`Unexpected`は、警告や計画なしに起きたことを表します。例えば：
 
-`We had an unexpected delay due to server issues.` – This means the delay was not anticipated.
+`We had an unexpected delay due to server issues.` – これは遅延が予期されていなかったことを意味します。
 
 # --scene--
 

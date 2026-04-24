@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c443eddfaeb5bdff
-title: Build a Nightlife Coordination App
+title: ナイトライフ調整アプリを作成する
 challengeType: 4
 forumTopicId: 302351
 dashedName: build-a-nightlife-coordination-app
@@ -8,21 +8,21 @@ dashedName: build-a-nightlife-coordination-app
 
 # --description--
 
-Build a full-stack JavaScript app that is functionally similar to this: <a href="https://yoyo44.herokuapp.com/" target="_blank" rel="noopener noreferrer nofollow">https://yoyo44.herokuapp.com/</a>. Use a site builder of your choice to complete the project.
+このプロジェクトでは、次のサイトに機能的に似たフルスタックJavaScriptアプリを作成してください：<a href="https://yoyo44.herokuapp.com/" target="_blank" rel="noopener noreferrer nofollow">https://yoyo44.herokuapp.com/</a>。お好きなサイトビルダーを使ってプロジェクトを完成させてください。
 
-Here are the specific user stories you should implement for this project:
+このプロジェクトで実装すべき具体的なユーザーストーリーは以下の通りです：
 
-**User Story:** As an unauthenticated user, you can view all bars in your area.
+**ユーザーストーリー：** 認証されていないユーザーとして、自分のエリア内のすべてのバーを閲覧できます。
 
-**User Story:** As an authenticated user, you can add yourself to a bar to indicate you are going there tonight.
+**ユーザーストーリー：** 認証されたユーザーとして、今夜行くことを示すために自分をバーに追加できます。
 
-**User Story:** As an authenticated user, you can remove yourself from a bar if you no longer want to go there.
+**ユーザーストーリー：** 認証されたユーザーとして、もう行きたくない場合は自分をバーから削除できます。
 
-**User Story:** As an unauthenticated user, when you login you should not have to search again.
+**ユーザーストーリー：** 認証されていないユーザーとして、ログインしたときに再度検索する必要はありません。
 
-**Hint:** Try using the Yelp API to find venues in the cities your users search for. If you use Yelp's API, be sure to mention so in your app.
+**ヒント：** Yelp APIを使って、ユーザーが検索した都市の会場を見つけることを試してみてください。YelpのAPIを使う場合は、アプリ内でそのことを必ず明記してください。
 
-When you are done, make sure a working demo of your project is hosted somewhere public. Then submit the URL to it in the Solution Link field. Optionally, also submit a link to your project's source code in the GitHub Link field.
+完了したら、プロジェクトの動作するデモをどこかの公開された場所にホストしてください。その後、Solution Link欄にそのURLを提出してください。オプションで、GitHub Link欄にプロジェクトのソースコードへのリンクも提出できます。
 
 # --solutions--
 

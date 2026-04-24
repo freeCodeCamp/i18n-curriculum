@@ -1,6 +1,6 @@
 ---
 id: 66b56cb9ff3bfb183fa1b7db
-title: Task 83
+title: タスク 83
 challengeType: 22
 dashedName: task-83
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio to complete the sentence below.
+音声を聞いて、以下の文を完成させてください。
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio to complete the sentence below.
 
 ### --feedback--
 
-This word is used to specify the module that is currently being discussed.
+この単語は、現在話題になっているモジュールを特定するために使われます。
 
 ---
 
@@ -32,7 +32,7 @@ This word is used to specify the module that is currently being discussed.
 
 ### --feedback--
 
-Something recent.
+最近のものを指します。
 
 ---
 
@@ -40,15 +40,15 @@ Something recent.
 
 ### --feedback--
 
-A specific part or section of the training program.
+トレーニングプログラムの特定の部分やセクションを指します。
 
 # --explanation--
 
-`Module` refers to a unit or section of a course or training program. For example:
+`Module` は、コースやトレーニングプログラムの単位やセクションを指します。例えば：
 
-- `The new module on cybersecurity will be added next week.` - Here, `module` refers to a specific part of the training focused on cybersecurity.
+- `The new module on cybersecurity will be added next week.` - ここでは、`module` がサイバーセキュリティに焦点を当てたトレーニングの特定の部分を指しています。
 
-Pay attention to how the words `this`, `new`, and `module` are used. `This` is used to specify the module they are talking about, `new` shows that it's a recent addition, and `module` refers to a section of the training.
+`this`、`new`、`module` の使い方に注目してください。`This` は話しているモジュールを特定するために使われ、`new` はそれが最近追加されたことを示し、`module` はトレーニングのセクションを指しています。
 
 # --scene--
 

@@ -1,61 +1,61 @@
 ---
 id: ae9defd7acaf69703ab432ea
-title: Implement a Range-Based LCM Calculator
+title: 範囲ベースのLCM計算機を実装する
 challengeType: 26
 dashedName: implement-a-range-based-lcm-calculator
 ---
 
 # --description--
 
-In this lab, you will create a function that takes an array of two numbers and returns the least common multiple (LCM) of those two numbers and all the numbers between them.
+このラボでは、2つの数字の配列を受け取り、その2つの数字とその間のすべての数字の最小公倍数（LCM）を返す関数を作成します。
 
-**Objective**: Fulfill the user stories below and get all the tests to pass to complete the lab.
+**目的**：以下のストーリーを満たし、すべてのテストに合格してラボを完了してください。
 
-**User Stories**
+**ストーリー**
 
-1. You should have a `smallestCommons` function that accepts an array of two numbers as an argument.
-1. The `smallestCommons` function should return the smallest common multiple that is evenly divisible by both numbers and all sequential numbers in the range between them.
-1. The function should handle input where the two numbers are not in numerical order.
+1. `smallestCommons` 関数は、2つの数字の配列を引数として受け取る必要があります。
+1. `smallestCommons` 関数は、両方の数字とその間の連続したすべての数字で割り切れる最小の公倍数を返す必要があります。
+1. 関数は、2つの数字が数値の順序になっていない入力も処理できる必要があります。
 
 # --hints--
 
-You should have a `smallestCommons` function.
+`smallestCommons` 関数を用意してください。
 
 ```js
 assert.isFunction(smallestCommons);
 ```
 
-`smallestCommons([1, 5])` should return a number.
+`smallestCommons([1, 5])` は数値を返す必要があります。
 
 ```js
 assert.isNumber(smallestCommons([1, 5]));
 ```
 
-`smallestCommons([1, 5])` should return `60`.
+`smallestCommons([1, 5])` は `60` を返す必要があります。
 
 ```js
 assert.strictEqual(smallestCommons([1, 5]), 60);
 ```
 
-`smallestCommons([5, 1])` should return `60`.
+`smallestCommons([5, 1])` は `60` を返す必要があります。
 
 ```js
 assert.strictEqual(smallestCommons([5, 1]), 60);
 ```
 
-`smallestCommons([2, 10])` should return `2520`.
+`smallestCommons([2, 10])` は `2520` を返す必要があります。
 
 ```js
 assert.strictEqual(smallestCommons([2, 10]), 2520);
 ```
 
-`smallestCommons([1, 13])` should return `360360`.
+`smallestCommons([1, 13])` は `360360` を返す必要があります。
 
 ```js
 assert.strictEqual(smallestCommons([1, 13]), 360360);
 ```
 
-`smallestCommons([23, 18])` should return `6056820`.
+`smallestCommons([23, 18])` は `6056820` を返す必要があります。
 
 ```js
 assert.strictEqual(smallestCommons([23, 18]), 6056820);

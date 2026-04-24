@@ -1,6 +1,6 @@
 ---
 id: cf1111c1c12feddfaeb1bdef
-title: JavaScript で整数の乱数を生成する
+title: JavaScriptでランダムな整数を生成する
 challengeType: 1
 forumTopicId: 18186
 dashedName: generate-random-whole-numbers-with-javascript
@@ -8,29 +8,29 @@ dashedName: generate-random-whole-numbers-with-javascript
 
 # --description--
 
-`Math.random()` を使って小数の乱数を生成できますが、整数の乱数が必要なこともあります。 以下の方法で、`20` 未満のランダムな整数が得られます。
+`Math.random()`を使ってランダムな小数を生成できますが、時にはランダムな整数を生成する必要があります。以下の手順で`20`未満のランダムな整数を得られます。
 
-1. `Math.random()` を使用して小数の乱数を生成する
-2. その小数の乱数に `20` を掛ける
-3. `Math.floor()` を使用して小数点以下の端数を切り捨て、最も近い整数を得る
+1. `Math.random()`を使ってランダムな小数を生成します。
+2. そのランダムな小数に`20`を乗算します。
+3. `Math.floor()`を使ってこの数値を最も近い整数に切り捨てます。
 
-`Math.random()` は決して `1` を返しません。そして `Math.floor()` で切り捨てを行うため、結果が `20` となる可能性はありません。 この方法では `0` ～ `19` のランダムな整数が得られます。
+`Math.random()`は決して`1`を返さないため、`20`で切り捨てているので実際に`Math.floor()`を得ることは不可能です。この手順で`0`から`19`の範囲のランダムな整数が得られます。
 
-すべてをまとめると次のようなコードになります。
+これらをまとめると、コードは次のようになります。
 
 ```js
 Math.floor(Math.random() * 20);
 ```
 
-`Math.random()` を呼び出して、その結果に 20 を掛け、その値を `Math.floor()` に渡して端数を切り捨て、最も近い整数を求めています。
+`Math.random()`を呼び出し、その結果に20を乗算し、さらに`Math.floor()`に渡して最も近い整数に切り捨てています。
 
 # --instructions--
 
-ここで紹介した方法で、`0` ～ `9` の整数の乱数を生成して返してください。
+この手法を使って、`0`から`9`の範囲のランダムな整数を生成して返してください。
 
 # --hints--
 
-`randomWholeNum` の結果は整数である必要があります。
+`randomWholeNum`の結果は整数である必要があります。
 
 ```js
 assert(
@@ -42,13 +42,13 @@ assert(
 );
 ```
 
-`Math.random` を使用して、乱数を生成する必要があります。
+ランダムな数を生成するには`Math.random`を使うべきです。
 
 ```js
 assert(__helpers.removeJSComments(code).match(/Math.random/g).length >= 1);
 ```
 
-`Math.random` の結果に 10 を掛けて、0 ～ 9 の数値を求める必要があります。
+`Math.random`の結果に10を乗算して、0から9の範囲の数にする必要があります。
 
 ```js
 assert(
@@ -57,7 +57,7 @@ assert(
 );
 ```
 
-`Math.floor` を使用して、小数点以下の端数を切り捨てる必要があります。
+数値の小数部分を取り除くには`Math.floor`を使うべきです。
 
 ```js
 assert(__helpers.removeJSComments(code).match(/Math.floor/g).length >= 1);

@@ -1,6 +1,6 @@
 ---
 id: 680cad23e2d58a1ef7c2edfb
-title: Task 19
+title: タスク19
 challengeType: 22
 dashedName: task-19
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+音声を聞いて、以下の文を完成させてください。
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This word is used to point to specific items that are close to the speaker.
+この単語は話者の近くにある特定のものを指すときに使います。
 
 ---
 
@@ -32,13 +32,13 @@ This word is used to point to specific items that are close to the speaker.
 
 ### --feedback--
 
-This compound word means something that can handle a large amount of work, storage, or energy. Remember to use `-`.
+この複合語は、大量の作業、ストレージ、またはエネルギーを扱えるものを意味します。`-`を使うことを忘れないでください。
 
 # --explanation--
 
-`High-capacity` describes something designed to manage or hold a large amount compared to standard versions. For example:
+`High-capacity`は、標準のバージョンと比べて大量のものを管理または保持するように設計されたものを表します。例えば：
 
-`We installed high-capacity batteries in the new devices.` – This means the batteries can store more power and last longer, which is useful in tech equipment.
+`We installed high-capacity batteries in the new devices.` – これはバッテリーがより多くの電力を蓄え、長持ちすることを意味し、技術機器で役立ちます。
 
 # --scene--
 

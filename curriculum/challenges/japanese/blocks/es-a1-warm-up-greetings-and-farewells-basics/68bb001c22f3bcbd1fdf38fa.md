@@ -1,6 +1,6 @@
 ---
 id: 68bb001c22f3bcbd1fdf38fa
-title: Task 1
+title: タスク 1
 challengeType: 19
 dashedName: task-1
 lang: es
@@ -10,17 +10,18 @@ lang: es
 
 # --description--
 
-Elena wants to say "hi". You'll hear this word all the time in Spanish when people meet each other.
+エレナは「こんにちは」と言いたいです。スペイン語で人と会うときに、この言葉をよく耳にします。
 
 # --instructions--
 
-Listen to the audio and answer the question below. There's just **one** correct answer. If you need help, click on **explanation** at the bottom of the lesson.
+音声を聞いて、下の質問に答えてください。
+正しい答えは**1つだけ**です。助けが必要な場合は、レッスンの一番下にある**説明**をクリックしてください。
 
 # --questions--
 
 ## --text--
 
-What word does Elena use to say "hi"?
+エレナは「こんにちは」と言うときにどの言葉を使っていますか？
 
 ## --answers--
 
@@ -32,7 +33,7 @@ What word does Elena use to say "hi"?
 
 ### --feedback--
 
-This means the opposite of what the speaker says. Open the explanation section if you need further help.
+これは話者が言っていることの反対の意味です。さらに助けが必要な場合は説明セクションを開いてください。
 
 ---
 
@@ -40,7 +41,7 @@ This means the opposite of what the speaker says. Open the explanation section i
 
 ### --feedback--
 
-This means the opposite of what the speaker says. Open the explanation section if you need further help.
+これは話者が言っていることの反対の意味です。さらに助けが必要な場合は説明セクションを開いてください。
 
 ---
 
@@ -48,7 +49,7 @@ This means the opposite of what the speaker says. Open the explanation section i
 
 ### --feedback--
 
-This means "Good morning", but it's not what you hear in the audio.
+これは「おはようございます」という意味ですが、音声で聞こえる言葉ではありません。
 
 ## --video-solution--
 
@@ -56,9 +57,9 @@ This means "Good morning", but it's not what you hear in the audio.
 
 # --explanation--
 
-The word `Hola` is a greeting. It's used when you meet someone, similar to "Hello" or "Hi". For example:
+`Hola` は挨拶の言葉です。誰かに会うときに使われ、「Hello」や「Hi」と似ています。例えば：
 
-`¡Hola, buenos días!` – Hi, good morning!
+`¡Hola, buenos días!` – こんにちは、おはようございます！
 
 # --scene--
 

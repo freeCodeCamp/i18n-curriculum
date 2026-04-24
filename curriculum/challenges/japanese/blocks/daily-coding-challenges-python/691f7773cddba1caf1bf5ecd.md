@@ -7,23 +7,23 @@ dashedName: challenge-134
 
 # --description--
 
-Given an amount of money you have, and an array of items you want to buy, determine how many of them you can afford.
+所持している金額と、購入したいアイテムの配列が与えられたとき、いくつ購入できるかを判定してください。
 
-- The given amount will be in the format `["Amount", "Currency Code"]`. For example: `["150.00", "USD"]` or `["6000", "JPY"]`.
-- Each array item you want to purchase will be in the same format.
+- 与えられる金額は `["Amount", "Currency Code"]` の形式です。例えば `["150.00", "USD"]` や `["6000", "JPY"]` のようになります。
+- 購入したい各アイテムも同じ形式です。
 
-Use the following exchange rates to convert values:
+以下の為替レートを使って値を変換してください：
 
-| Currency | 1 Unit Equals |
-| -------- | ------------- |
-| USD      | 1.00 USD      |
-| EUR      | 1.10 USD      |
-| GBP      | 1.25 USD      |
-| JPY      | 0.0070 USD    |
-| CAD      | 0.75 USD      |
+|通貨|1単位あたりのUSD換算|
+|-|-|
+|USD|1.00 USD|
+|EUR|1.10 USD|
+|GBP|1.25 USD|
+|JPY|0.0070 USD|
+|CAD|0.75 USD|
 
-- If you can afford all the items in the list, return `"Buy them all!"`.
-- Otherwise, return `"Buy the first X items."`, where `X` is the number of items you can afford when purchased in the order given.
+- リスト内のすべてのアイテムを購入できる場合は `"Buy them all!"` を返してください。
+- そうでなければ、`"Buy the first X items."` を返してください。ただし `X` は与えられた順番で購入できるアイテムの数です。
 
 
 # --hints--

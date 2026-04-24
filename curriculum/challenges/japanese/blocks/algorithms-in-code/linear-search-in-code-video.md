@@ -1,6 +1,6 @@
 ---
 id: 698dca057932b3cc4b19c926
-title: Linear Search in Code
+title: コードでの線形探索
 challengeType: 11
 videoId: bKkgjdPkL3A
 dashedName: linear-search-in-code
@@ -8,13 +8,13 @@ dashedName: linear-search-in-code
 
 # --description--
 
-In this video, you will code out the linear search algorithm using Python.
+この動画では、Pythonを使って線形探索アルゴリズムをコード化します。
 
 # --questions--
 
 ## --text--
 
-Which of the following is the correct way to write a linear search function?
+次のうち、線形探索の関数を正しく書いているのはどれですか？
 
 ## --answers--
 

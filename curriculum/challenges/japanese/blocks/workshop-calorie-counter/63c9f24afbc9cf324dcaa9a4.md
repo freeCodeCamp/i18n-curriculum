@@ -7,25 +7,25 @@ dashedName: step-95
 
 # --description--
 
-You also need to clear the `output` element's text. You can do this by setting the `innerText` property to an empty string.
+`output` 要素のテキストもクリアする必要があります。これは `innerText` プロパティを空の文字列に設定することでできます。
 
-The difference between `innerText` and `innerHTML` is that `innerText` will not render HTML elements, but will display the tags and content as raw text.
+`innerText` と `innerHTML` の違いは、`innerText` は HTML 要素をレンダリングせず、タグと内容をそのままのテキストとして表示する点です。
 
 # --hints--
 
-Your `clearForm` function should access the `innerText` property of the `output` element.
+`clearForm` 関数は `innerText` 要素の `output` プロパティにアクセスする必要があります。
 
 ```js
 assert.match(clearForm.toString(), /output\.innerText/);
 ```
 
-Your `clearForm` function should set the `innerText` property of the `output` element to an empty string.
+`clearForm` 関数は `innerText` 要素の `output` プロパティを空の文字列に設定する必要があります。
 
 ```js
 assert.match(clearForm.toString(), /output\.innerText\s*=\s*('|"|`)\1/);
 ```
 
-You should modify `output` after modifying `budgetNumberInput`.
+`output` を変更した後に `budgetNumberInput` を修正してください。
 
 ```js
 assert.isAbove(clearForm.toString().indexOf('output'), clearForm.toString().indexOf('budgetNumberInput'));

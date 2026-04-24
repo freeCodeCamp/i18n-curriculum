@@ -1,6 +1,6 @@
 ---
 id: 67a9f44e6dcabb0c402a9bfb
-title: Task 5
+title: タスク 5
 challengeType: 19
 dashedName: task-5
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+音声を聞いて、以下の質問に答えてください。
 
 # --questions--
 
 ## --text--
 
-What does Bob want to know?
+ボブは何を知りたいと思っていますか？
 
 ## --answers--
 
-If employees have already bought office furniture.
+従業員がすでにオフィス家具を購入したかどうか。
 
 ### --feedback--
 
-Bob isn't asking for confirmation of purchases.
+ボブは購入の確認を求めていません。
 
 ---
 
-How much office furniture costs.
+オフィス家具の費用がどれくらいかかるか。
 
 ### --feedback--
 
-Bob does not ask about the price.
+ボブは価格について尋ねていません。
 
 ---
 
-If the company will increase the stipend.
+会社が手当を増やすかどうか。
 
 ### --feedback--
 
-Bob is not discussing changes to the stipend.
+ボブは手当の変更について話していません。
 
 ---
 
-If Anna thinks using the stipend for office furniture is a good idea.
+アンナが手当をオフィス家具に使うことを良いアイデアだと思っているかどうか。
 
 ## --video-solution--
 
@@ -52,7 +52,7 @@ If Anna thinks using the stipend for office furniture is a good idea.
 
 # --explanation--
 
-Bob asks, `Do you think that's a good idea?` This is a way to ask for someone's opinion about a suggestion or plan. Here's other ways to ask for an opinion:
+ボブは、`Do you think that's a good idea?` これは提案や計画について誰かの意見を尋ねる方法です。意見を尋ねる他の表現は以下の通りです：
 
 - `Do you think this will work?`
 
@@ -60,7 +60,7 @@ Bob asks, `Do you think that's a good idea?` This is a way to ask for someone's 
 
 - `How do you feel about this plan?`
 
-In this dialogue, Bob is referring to employees using the remote work stipend for office furniture. Instead of stating his own opinion, he is asking Anna what she thinks.
+この会話では、ボブは従業員がリモートワーク手当をオフィス家具に使うことについて話しています。自分の意見を述べる代わりに、アンナがどう思うかを尋ねています。
 
 # --scene--
 

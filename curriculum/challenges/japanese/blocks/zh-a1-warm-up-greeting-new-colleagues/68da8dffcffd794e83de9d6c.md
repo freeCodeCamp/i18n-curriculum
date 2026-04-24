@@ -1,6 +1,6 @@
 ---
 id: 68da8dffcffd794e83de9d6c
-title: Task 10
+title: タスク 10
 challengeType: 19
 dashedName: task-10
 lang: zh-CN
@@ -10,13 +10,13 @@ lang: zh-CN
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+音声を聞いて、以下の質問に答えてください。
 
 # --questions--
 
 ## --text--
 
-What is Chen Na saying to greet a group of people?
+チェン・ナは複数の人に対してどのように挨拶していますか？
 
 ## --answers--
 
@@ -24,7 +24,7 @@ What is Chen Na saying to greet a group of people?
 
 ### --feedback--
 
-This is a greeting to one person, but Chen Na is greeting more than one.
+これは一人に対する挨拶ですが、チェン・ナは複数の人に挨拶しています。
 
 ---
 
@@ -32,7 +32,7 @@ This is a greeting to one person, but Chen Na is greeting more than one.
 
 ### --feedback--
 
-This form is not standard in Chinese.
+この形は中国語では標準的ではありません。
 
 ---
 
@@ -44,7 +44,7 @@ This form is not standard in Chinese.
 
 ### --feedback--
 
-This also means "Hello, everyone", but Chen Na uses a different phrase.
+これも「みなさん、こんにちは」という意味ですが、チェン・ナは別の表現を使っています。
 
 ## --video-solution--
 
@@ -52,11 +52,11 @@ This also means "Hello, everyone", but Chen Na uses a different phrase.
 
 # --explanation--
 
-The question is asking what Chen Na is saying to greet **a group of people**.
+この質問はチェン・ナが**複数の人に対して**どのように挨拶しているかを尋ねています。
 
-`你好 (nǐ hǎo)` is a greeting to one person, while `您好 (nín hǎo)` is a polite greeting to one person. `您们好 (nín men hǎo)` is not standard in Chinese; `您 (nín)` is polite singular, not usually pluralized.
+`你好 (nǐ hǎo)`は一人に対する挨拶で、`您好 (nín hǎo)`は一人に対する丁寧な挨拶です。`您们好 (nín men hǎo)`は中国語では標準的ではなく、`您 (nín)`は丁寧な単数形で、通常は複数形にはなりません。
 
-The correct phrase for greeting a group is `你们好 (nǐ men hǎo)`, which is a common way to say "hello, everyone". `大家好 (dà jiā hǎo)` is another way to greet a group, which you'll learn as you progress.
+複数の人に挨拶する正しい表現は`你们好 (nǐ men hǎo)`で、「みなさん、こんにちは」と言う一般的な方法です。`大家好 (dà jiā hǎo)`は別の複数への挨拶方法で、今後学習していきます。
 
 # --scene--
 

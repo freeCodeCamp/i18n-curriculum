@@ -7,29 +7,29 @@ dashedName: step-31
 
 # --description--
 
-先ほど追加した `figure` 要素の中に、`img` 要素をネストして、その `src` 属性を `https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg` に設定してください。
+先ほど追加した`figure`要素の中に、`img`属性が`src`に設定された`https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg`要素をネストしてください。
 
 # --hints--
 
-2 つ目の `figure` 要素に開始タグが必要です。 Opening tags have this syntax: `<elementName>`.
+2つ目の`figure`要素には開始タグが必要です。開始タグの構文は次の通りです：`<elementName>`。
 
 ```js
 assert(document.querySelectorAll('figure').length >= 2);
 ```
 
-2 つ目の `figure` 要素に終了タグが必要です。 Closing tags have a `/` just after the `<` character.
+2つ目の`figure`要素には終了タグが必要です。終了タグは`/`文字の直後に`<`があります。
 
 ```js
 assert(code.match(/<\/figure>/g).length >= 2);
 ```
 
-2 つ目の `section` 要素の終了タグのすぐ上に 2 つ目の `figure` 要素が必要です。 順番が誤っているようです。
+2つ目の`figure`要素の終了タグのすぐ上に、2つ目の`section`要素があるはずです。順序が間違っています。
 
 ```js
 assert.strictEqual(document.querySelectorAll('main > section')?.[1]?.lastElementChild?.nodeName, 'FIGURE');
 ```
 
-3 つ目の `img` 要素を `figure` 要素内にネストする必要があります。
+`img`要素の中に3つ目の`figure`要素がネストされている必要があります。
 
 ```js
 const catsImg = document.querySelectorAll('figure > img')[1];
@@ -38,7 +38,7 @@ assert(
 );
 ```
 
-3 つ目の画像の `src` 属性を `https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg` に設定する必要があります。
+3つ目の画像には`src`属性が`https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg`に設定されている必要があります。
 
 ```js
 const catsImg = document.querySelectorAll('figure > img')[1];
@@ -47,7 +47,7 @@ assert.strictEqual(
 );
 ```
 
-新しい画像の `src` は正しい URL に設定されていますが、属性の値は常に引用符で囲むことが推奨されています。
+新しい画像の`src`が正しいURLに設定されていても、属性の値は常に引用符で囲むことをお勧めします。
 
 ```js
 assert.notMatch(code, /\<img\s+.+\s+src\s*=\s*https:\/\/cdn\.freecodecamp\.org\/curriculum\/cat-photo-app\/cats\.jpg/);
@@ -88,7 +88,7 @@ assert.notMatch(code, /\<img\s+.+\s+src\s*=\s*https:\/\/cdn\.freecodecamp\.org\/
         </ol>
 --fcc-editable-region--
         <figure>
-
+          
         </figure>
 --fcc-editable-region--
       </section>
@@ -96,4 +96,3 @@ assert.notMatch(code, /\<img\s+.+\s+src\s*=\s*https:\/\/cdn\.freecodecamp\.org\/
   </body>
 </html>
 ```
-

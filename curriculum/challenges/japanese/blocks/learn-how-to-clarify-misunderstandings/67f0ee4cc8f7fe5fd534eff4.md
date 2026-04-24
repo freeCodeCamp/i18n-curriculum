@@ -1,6 +1,6 @@
 ---
 id: 67f0ee4cc8f7fe5fd534eff4
-title: Task 87
+title: タスク 87
 challengeType: 22
 dashedName: task-87
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+音声を聞いて、下の文を完成させてください。
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This two-word phrase is used to show agreement or approval of an idea or suggestion. The first word ends with `-s`.
+この2語のフレーズは、アイデアや提案に対する同意や承認を示すために使われます。最初の単語は`-s`で終わります。
 
 ---
 
@@ -32,17 +32,17 @@ This two-word phrase is used to show agreement or approval of an idea or suggest
 
 ### --feedback--
 
-This word means to be grateful for something. It shows thanks for help, support, or something done for you.
+この単語は、何かに感謝していることを意味します。助けやサポート、してもらったことに対して感謝の気持ちを表します。
 
 # --explanation--
 
-`Sounds good` means that the speaker agrees with or approves of what was said. For example:
+`Sounds good`は、話者が言われたことに同意または承認していることを意味します。例えば：
 
-`Your idea sounds good.` – This means the speaker thinks the idea is good and agrees with it.
+`Your idea sounds good.` – これは話者がそのアイデアを良いと思い、同意していることを意味します。
 
-`I appreciate` is a way of saying thank you or showing gratitude. For example:
+`I appreciate`は、感謝の気持ちを伝える方法です。例えば：
 
-`I appreciate your help with the project.` – This means you're grateful for the help you received.
+`I appreciate your help with the project.` – これは受けた助けに感謝していることを意味します。
 
 # --scene--
 

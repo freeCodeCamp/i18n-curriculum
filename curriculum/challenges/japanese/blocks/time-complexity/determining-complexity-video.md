@@ -1,6 +1,6 @@
 ---
 id: 698dc8ae7932b3cc4b19c925
-title: Determining Complexity
+title: 複雑さの判定
 challengeType: 11
 videoId: 8bglWlQYTPQ
 dashedName: determining-complexity
@@ -8,13 +8,13 @@ dashedName: determining-complexity
 
 # --description--
 
-In this video, you will learn how to determine the worst case complexity for an algorithm.
+このビデオでは、アルゴリズムの最悪ケースの複雑さを判定する方法を学びます。
 
 # --questions--
 
 ## --text--
 
-What is the worst case runtime for binary search?
+二分探索の最悪ケースの実行時間はどれですか？
 
 ## --answers--
 

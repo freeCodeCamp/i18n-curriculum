@@ -1,6 +1,6 @@
 ---
 id: 69ae5c6d8491ca1dcd31440c
-title: Simple Explanation of RAG
+title: RAGの簡単な説明
 challengeType: 11
 videoId: _KPPqvJ9ig4
 dashedName: simple-explanation-of-rag
@@ -8,13 +8,13 @@ dashedName: simple-explanation-of-rag
 
 # --description--
 
-In this video, you will be introduced to the concept of RAG.
+このビデオでは、RAGの概念について紹介します。
 
 # --questions--
 
 ## --text--
 
-What does RAG stand for?
+RAGは何の略ですか？
 
 ## --answers--
 
@@ -35,4 +35,3 @@ Response-Action Generation
 ## --video-solution--
 
 1
-

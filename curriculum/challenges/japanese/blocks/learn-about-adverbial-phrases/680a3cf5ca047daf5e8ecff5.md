@@ -1,6 +1,6 @@
 ---
 id: 680a3cf5ca047daf5e8ecff5
-title: Task 66
+title: タスク 66
 challengeType: 22
 dashedName: task-66
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+音声を聞いて、下の文を完成させてください。
 
 # --fillInTheBlank--
 
@@ -24,15 +24,15 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This is used to show that something happens earlier in time than something else.
+これは、ある出来事が別の出来事よりも前に起こることを示すために使われます。
 
 # --explanation--
 
-`Before` is used to show that one action happens earlier than another. 例:
+`Before` は、ある動作が別の動作よりも先に起こることを示すために使われます。例えば：
 
-- `Please save your work before you close the program.` – This means saving should happen earlier than closing the program.
+- `Please save your work before you close the program.` – これは、保存がプログラムを閉じるよりも先に行われるべきだという意味です。
 
-- `He always checks his code carefully before submitting it.` – This means checking happens first, before the action of submitting.
+- `He always checks his code carefully before submitting it.` – これは、提出する前にチェックが最初に行われることを意味します。
 
 # --scene--
 

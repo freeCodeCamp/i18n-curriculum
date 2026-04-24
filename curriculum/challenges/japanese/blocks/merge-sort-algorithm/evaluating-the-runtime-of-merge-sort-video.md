@@ -1,6 +1,6 @@
 ---
 id: 698de2547932b3cc4b19c939
-title: Evaluating the Runtime of Merge Sort
+title: マージソートの実行時間の評価
 challengeType: 11
 videoId: QJoIVAzN1LM
 dashedName: evaluating-the-runtime-of-merge-sort
@@ -8,29 +8,29 @@ dashedName: evaluating-the-runtime-of-merge-sort
 
 # --description--
 
-In this video, you will learn about the runtimes for the merge sort algorithm.
+このビデオでは、マージソートアルゴリズムの実行時間について学びます。
 
 # --questions--
 
 ## --text--
 
-What is the space complexity for merge sort?
+マージソートの空間計算量はどれですか？
 
 ## --answers--
 
-exponential
+指数的
 
 ---
 
-linear
+線形
 
 ---
 
-quadratic
+二次的
 
 ---
 
-constant
+定数
 
 ## --video-solution--
 

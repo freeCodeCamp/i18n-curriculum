@@ -1,32 +1,32 @@
 ---
 id: 60f85a62fb30c80bcea0cedb
-title: Step 25
+title: ステップ 25
 challengeType: 0
 dashedName: step-25
 ---
 
 # --description--
 
-Users will be allowed to choose either a `Personal` or `Business`.
+ユーザーが `Personal` または `Business` のどちらかを選べるようにします。
 
-To do this, within each of the first two `label` elements, add one `input` element with `type="radio"`.
+これを行うには、最初の2つの `label` 要素のそれぞれに、`input` を持つ `type="radio"` 要素を1つ追加してください。
 
 # --hints--
 
-You should add two `input` elements.
+`input` 要素を2つ追加してください。
 
 ```js
 assert.equal(document.querySelectorAll('fieldset:nth-child(2) input')?.length, 2);
 ```
 
-You should add one `input` to each of the first two `label` elements.
+最初の2つの `input` 要素のそれぞれに `label` を1つ追加してください。
 
 ```js
 assert.exists(document.querySelector('fieldset:nth-child(2) > label:nth-child(1) > input'));
 assert.exists(document.querySelector('fieldset:nth-child(2) > label:nth-child(2) > input'));
 ```
 
-You should give both `input` elements a `type` of `radio`.
+両方の `input` 要素に `type` の `radio` を付けてください。
 
 ```js
 assert.equal(document.querySelectorAll('fieldset:nth-child(2) input[type="radio"]')?.length, 2);

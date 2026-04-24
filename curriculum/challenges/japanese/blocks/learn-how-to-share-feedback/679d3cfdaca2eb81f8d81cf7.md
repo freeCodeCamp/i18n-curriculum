@@ -1,6 +1,6 @@
 ---
 id: 679d3cfdaca2eb81f8d81cf7
-title: Task 97
+title: タスク 97
 challengeType: 19
 dashedName: task-97
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+音声を聞いて、以下の質問に答えてください。
 
 # --questions--
 
 ## --text--
 
-What is Maria asking James to do?
+マリアはジェームズに何をしてほしいと頼んでいますか？
 
 ## --answers--
 
-To fix the problem immediately.
+問題をすぐに修正すること。
 
 ### --feedback--
 
-Maria is not asking James to fix the issue right away.
+マリアはジェームズにすぐに問題を修正するよう頼んでいません。
 
 ---
 
-To report the issue to the client.
+問題をクライアントに報告すること。
 
 ### --feedback--
 
-Maria does not mention informing the client.
+マリアはクライアントに報告することには触れていません。
 
 ---
 
-To investigate the problem.
+問題を調査すること。
 
 ---
 
-To ignore the problem for now.
+今は問題を無視すること。
 
 ### --feedback--
 
-Maria is not asking James to ignore the issue.
+マリアはジェームズに問題を無視するよう頼んでいません。
 
 ## --video-solution--
 
@@ -52,11 +52,11 @@ Maria is not asking James to ignore the issue.
 
 # --explanation--
 
-`Can` is commonly used to make polite requests, asking someone to do something in an informal way. For example:
+`Can` は、誰かに何かをしてほしいと丁寧に頼むときによく使われる表現です。例えば、
 
-`Can you send me the report by noon?` - This is a polite way to ask someone to send a report.
+`Can you send me the report by noon?` - これは誰かにレポートを送るよう丁寧に頼む言い方です。
 
-In this dialogue, Maria is requesting James to investigate the problem.
+この会話では、マリアがジェームズに問題を調査するよう頼んでいます。
 
 # --scene--
 

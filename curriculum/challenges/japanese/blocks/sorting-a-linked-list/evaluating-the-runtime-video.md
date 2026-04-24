@@ -1,6 +1,6 @@
 ---
 id: 698de83d7932b3cc4b19c93d
-title: Evaluating the Runtime
+title: ランタイムの評価
 challengeType: 11
 videoId: 4eQyFkVtkvk
 dashedName: evaluating-the-runtime
@@ -8,13 +8,13 @@ dashedName: evaluating-the-runtime
 
 # --description--
 
-In this video, you will learn about how to evaluate runtimes for merge sort on linked lists.
+このビデオでは、連結リストに対するマージソートのランタイムの評価方法について学びます。
 
 # --questions--
 
 ## --text--
 
-What is the runtime of the `split` function in the implementation of merge sort?
+マージソートの実装における`split`関数のランタイムはどれですか？
 
 ## --answers--
 

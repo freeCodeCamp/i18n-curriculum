@@ -1,6 +1,6 @@
 ---
 id: 698de9ea7932b3cc4b19c93f
-title: Sorting and Searching
+title: ソートと検索
 challengeType: 11
 videoId: j0NR0IDAU-0
 dashedName: sorting-and-searching
@@ -8,13 +8,13 @@ dashedName: sorting-and-searching
 
 # --description--
 
-In this video, instructor Jay McGavren will talk about what to expect in the next portion of the course in regards to sorting and searching algorithms.
+このビデオでは、講師のJay McGavrenが、ソートと検索アルゴリズムに関してコースの次の部分で何を期待できるかについて話します。
 
 # --questions--
 
 ## --text--
 
-Which sorting algorithm would you use if you want to search a large sorted list of items in an efficient amount of time?
+効率的な時間で大量のソート済みアイテムのリストを検索したい場合、どのソートアルゴリズムを使いますか？
 
 ## --answers--
 

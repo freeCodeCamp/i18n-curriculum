@@ -1,6 +1,6 @@
 ---
 id: 67f519febaeacd154eb0f9f1
-title: Task 96
+title: タスク 96
 challengeType: 22
 dashedName: task-96
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+音声を聞いて、以下の文を完成させてください。
 
 # --fillInTheBlank--
 
@@ -24,15 +24,15 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This word means being alert and watching carefully for potential dangers or problems.
+この単語は、潜在的な危険や問題に注意を払い、警戒していることを意味します。
 
 # --explanation--
 
-`Vigilant` means being watchful and cautious to detect possible threats. 例:
+`Vigilant` は、可能な脅威を見つけるために注意深く警戒していることを意味します。例えば：
 
-- `The IT team is always vigilant when monitoring the network.` - The IT team stays alert and careful while checking the network.
+- `The IT team is always vigilant when monitoring the network.` - ITチームはネットワークをチェックするときに警戒して注意を払っています。
 
-- `You should be vigilant when clicking on unknown links in emails.` - You need to be careful and pay attention to suspicious email links.
+- `You should be vigilant when clicking on unknown links in emails.` - 怪しいメールのリンクには注意して気をつける必要があります。
 
 # --scene--
 

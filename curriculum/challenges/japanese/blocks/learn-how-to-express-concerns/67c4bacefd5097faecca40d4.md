@@ -1,6 +1,6 @@
 ---
 id: 67c4bacefd5097faecca40d4
-title: Task 22
+title: タスク 22
 challengeType: 19
 dashedName: task-22
 lang: en-US
@@ -10,51 +10,51 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+音声を聞いて、以下の質問に答えてください。
 
 # --questions--
 
 ## --text--
 
-What does Bob want to know?
+ボブは何を知りたいと思っていますか？  
 
 ## --answers--
 
-If they should cancel the project.
+もしプロジェクトをキャンセルすべきかどうか。  
 
 ### --feedback--
 
-Bob is not asking about canceling the project.
+ボブはプロジェクトのキャンセルについては尋ねていません。  
 
 ---
 
-If working fewer hours would be better.
+もし労働時間を減らしたほうが良いかどうか。  
 
 ### --feedback--
 
-Bob is suggesting working more hours, not fewer.
+ボブは労働時間を減らすのではなく、増やすことを提案しています。  
 
 ---
 
-If the team has already solved the issue.
+チームがすでに問題を解決したかどうか。  
 
 ### --feedback--
 
-Bob is asking if his suggestion will help, not if the issue is already solved.
+ボブは自分の提案が役立つかどうかを尋ねており、問題がすでに解決されたかどうかではありません。  
 
 ---
 
-If working extra hours will improve the situation.
+もし残業が状況を改善するかどうか。  
 
 ## --video-solution--
 
-4
+4  
 
 # --explanation--
 
-Using negatives in questions with auxiliary or modal verbs (such as `wouldn't`, `isn't`, `doesn't`), which require direct `yes`/`no` answers, suggests that the speaker expects the answer to be positive — Bob assumes, in this case, that working extra hours will help. Another example:
+助動詞やモーダル動詞（`wouldn't`、`isn't`、`doesn't`など）を使った否定疑問文は、直接的な`yes`/`no`の答えを必要とし、話者が肯定的な答えを期待していることを示します。今回の場合、ボブは残業が効果的だと考えています。別の例：
 
-`Doesn't this plan seem like a good idea?` - The speaker expects the listener to agree that the plan is good.
+`Doesn't this plan seem like a good idea?` - 話者は聞き手がその計画に賛成すると期待しています。
 
 # --scene--
 

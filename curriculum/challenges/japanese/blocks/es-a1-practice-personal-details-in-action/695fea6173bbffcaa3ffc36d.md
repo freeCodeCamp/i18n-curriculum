@@ -1,6 +1,6 @@
 ---
 id: 695fea6173bbffcaa3ffc36d
-title: Task 10
+title: タスク 10
 challengeType: 19
 dashedName: task-10
 lang: es
@@ -10,19 +10,19 @@ lang: es
 
 # --description--
 
-There are two common ways to ask for someone's name in Spanish.
+スペイン語で名前を尋ねる一般的な方法は2つあります。
 
-Both are used in everyday Spanish and mean the same thing. They're just structured differently.
+どちらも日常的に使われており、意味は同じです。ただし、構造が異なります。
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+音声を聞いて、以下の質問に答えてください。
 
 # --questions--
 
 ## --text--
 
-Which of the following questions **is similar** to what you hear in the audio?
+音声で聞いたものと**似ている**質問はどれですか？
 
 ## --answers--
 
@@ -34,7 +34,7 @@ Which of the following questions **is similar** to what you hear in the audio?
 
 ### --feedback--
 
-This question asks where someone lives.
+この質問は誰かの住んでいる場所を尋ねています。
 
 ---
 
@@ -42,7 +42,7 @@ This question asks where someone lives.
 
 ### --feedback--
 
-This asks for someone's last name.
+これは誰かの苗字を尋ねています。
 
 ---
 
@@ -50,7 +50,7 @@ This asks for someone's last name.
 
 ### --feedback--
 
-This asks if someone has a nickname.
+これは誰かのニックネームがあるかどうかを尋ねています。
 
 ## --video-solution--
 
@@ -58,16 +58,16 @@ This asks if someone has a nickname.
 
 # --explanation--
 
-Esteban says `¿Cómo te llamas?`. This is one of the most common ways to ask for someone's name in Spanish. Another very common question with the same meaning is:
+エステバンは`¿Cómo te llamas?`と言っています。これはスペイン語で名前を尋ねる最も一般的な方法の一つです。同じ意味を持つもう一つの非常に一般的な質問は次の通りです：
 
 `¿Cuál es tu nombre?`
 
-Both questions are used in everyday Spanish to ask for a person's name. They are simply structured differently:
+どちらの質問も日常のスペイン語で名前を尋ねるために使われます。単に構造が異なるだけです：
 
-- `¿Cómo te llamas?` uses the verb `llamarse` (to be called).
-- `¿Cuál es tu nombre?` asks directly for the name as a noun.
+- `¿Cómo te llamas?`は動詞`llamarse`（呼び出す、呼ばれる）を使っています。
+- `¿Cuál es tu nombre?`は名前を名詞として直接尋ねています。
 
-In this task, the correct answer is the option that asks for someone's name.
+このタスクでは、誰かの名前を尋ねている選択肢が正解です。
 
 # --scene--
 

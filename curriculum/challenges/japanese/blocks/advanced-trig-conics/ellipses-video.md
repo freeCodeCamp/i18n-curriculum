@@ -1,6 +1,6 @@
 ---
 id: 699e85648f18cf77dfce5c23
-title: Ellipses
+title: 楕円
 challengeType: 11
 videoId: AwBM2AMwfu8
 dashedName: ellipses
@@ -8,32 +8,30 @@ dashedName: ellipses
 
 # --description--
 
-In this video, you will learn about ellipses, their standard equations, and how to identify their key features.
+このビデオでは、楕円、その標準方程式、および主要な機能の識別方法について学びます。
 
 # --questions--
 
 ## --text--
 
-What is an ellipse?
+楕円とは何ですか？
 
 ## --answers--
 
-The set of points such that the sum of the distances from two fixed points is constant.
+2つの固定点からの距離の和が一定となる点の集合。
 
 ---
 
-The set of points such that the distance from one fixed point is constant.
+1つの固定点からの距離が一定となる点の集合。
 
 ---
 
-The set of points such that the product of the distances from two fixed points is constant.
+2つの固定点からの距離の積が一定となる点の集合。
 
 ---
 
-The set of points equidistant from a line and a point.
+直線と点から等距離にある点の集合。
 
 ## --video-solution--
 
 1
-
-

@@ -7,25 +7,25 @@ dashedName: step-95
 
 # --description--
 
-`output` の要素のテキストもクリアする必要があります。 `innerText` プロパティを空の文字列に設定することでクリアできます。
+`output` 要素のテキストもクリアする必要があります。これは `innerText` プロパティを空の文字列に設定することでできます。
 
-`innerText` と `innerHTML` の違いは、`innerText` は HTML 要素をレンダリングせず、タグやコンテンツをテキストとしてそのまま表示するということです。
+`innerText` と `innerHTML` の違いは、`innerText` は HTML 要素をレンダリングせず、タグと内容をそのままのテキストとして表示する点です。
 
 # --hints--
 
-`clearForm` 関数内で `output` の要素の `innerText` プロパティにアクセスする必要があります。
+`clearForm` 関数は `innerText` 要素の `output` プロパティにアクセスする必要があります。
 
 ```js
 assert.match(clearForm.toString(), /output\.innerText/);
 ```
 
-`clearForm` 関数は `output` の要素の `innerText` プロパティを空の文字列に設定する必要があります。
+`clearForm` 関数は `innerText` 要素の `output` プロパティを空の文字列に設定する必要があります。
 
 ```js
 assert.match(clearForm.toString(), /output\.innerText\s*=\s*('|"|`)\1/);
 ```
 
-`output` の変更は、`budgetNumberInput` の変更より後に記述してください。
+`output` を変更した後に `budgetNumberInput` を修正してください。
 
 ```js
 assert.isAbove(clearForm.toString().indexOf('output'), clearForm.toString().indexOf('budgetNumberInput'));

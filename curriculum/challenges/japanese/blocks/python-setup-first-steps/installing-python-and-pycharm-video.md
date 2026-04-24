@@ -1,6 +1,6 @@
 ---
 id: edeae16d4bf9505165740c75
-title: Installing Python and PyCharm
+title: Python と PyCharm のインストール
 challengeType: 11
 videoId: RgGQJDOms1M
 dashedName: installing-python-and-pycharm
@@ -8,29 +8,29 @@ dashedName: installing-python-and-pycharm
 
 # --description--
 
-In this video, you will learn how to install Python and PyCharm onto your computer.
+このビデオでは、Python と PyCharm をコンピューターにインストールする方法を学びます。
 
 # --questions--
 
 ## --text--
 
-What is PyCharm used for?
+PyCharm は何に使われますか？
 
 ## --answers--
 
-It is a programming language similar to Python used for developing mobile apps.
+Python に似たプログラミング言語で、モバイルアプリの開発に使われます。
 
 ---
 
-It is a Python library used for data analysis.
+データ分析に使われる Python のライブラリです。
 
 ---
 
-It is an IDE used to run Python programs.
+Python プログラムを実行するための IDE です。
 
 ---
 
-It is an operating system designed for developers.
+開発者向けに設計されたオペレーティングシステムです。
 
 ## --video-solution--
 

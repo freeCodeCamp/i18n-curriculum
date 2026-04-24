@@ -1,6 +1,6 @@
 ---
 id: 67ee6d7bcacdc02ff7d9beb2
-title: Task 69
+title: タスク 69
 challengeType: 22
 dashedName: task-69
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+音声を聞いて、下の文を完成させてください。
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This word is used to talk about the existence of something or to say that something is present or happening. It's the contraction of `there is`.
+この単語は、何かが存在していることや、何かが起こっていることを表すときに使います。`there is` の短縮形です。
 
 ---
 
@@ -32,7 +32,7 @@ This word is used to talk about the existence of something or to say that someth
 
 ### --feedback--
 
-This word refers to an issue or difficulty that needs to be solved or fixed.
+この単語は、解決や修正が必要な問題や困難を指します。
 
 ---
 
@@ -40,7 +40,7 @@ This word refers to an issue or difficulty that needs to be solved or fixed.
 
 ### --feedback--
 
-This preposition shows the relationship or connection between two things.
+この前置詞は、2つのものの関係やつながりを示します。
 
 ---
 
@@ -48,17 +48,17 @@ This preposition shows the relationship or connection between two things.
 
 ### --feedback--
 
-This two-word phrase refers to the way software or websites respond to actions, like clicks or keystrokes, performed by the user. The second word ends with `-ing`.
+この2語のフレーズは、ユーザーが行うクリックやキーストロークなどの操作に対して、ソフトウェアやウェブサイトがどのように反応するかを指します。2語目は`-ing`で終わります。
 
 # --explanation--
 
-`There's a problem with` is used to describe that something is not working correctly. It means there is an issue or difficulty related to a specific thing. For example:
+`There's a problem with` は、何かが正しく動作していないことを表すときに使います。特定のものに関する問題や困難があることを意味します。例えば：
 
-`There's a problem with the network.` – This means the network is not functioning properly.
+`There's a problem with the network.` – これはネットワークが正しく機能していないことを意味します。
 
-`Event handling` refers to how a program or website manages user actions like clicks, keyboard presses, or mouse movements. For example:
+`Event handling` は、プログラムやウェブサイトがクリックやキーボードの押下、マウスの動きなどのユーザーの操作をどのように管理しているかを指します。例えば：
 
-`There's an issue with event handling.` - This mean the software isn't responding properly to user actions.
+`There's an issue with event handling.` - これはソフトウェアがユーザーの操作に正しく反応していないことを意味します。
 
 # --scene--
 

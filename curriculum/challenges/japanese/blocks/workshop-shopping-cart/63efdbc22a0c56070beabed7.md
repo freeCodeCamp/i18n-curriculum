@@ -7,11 +7,11 @@ dashedName: step-23
 
 # --description--
 
-You’re on the right track! However, let’s take a moment to address a common issue when working with objects in JavaScript.
+順調に進んでいますね！ただし、JavaScriptでオブジェクトを扱う際によくある問題について少し説明します。
 
-When you try to access an object property that doesn’t exist, JavaScript returns `undefined`. If you then attempt to perform arithmetic operations on `undefined`, it can lead to unexpected results, such as `NaN`.
+存在しないオブジェクトのプロパティにアクセスしようとすると、JavaScriptは`undefined`を返します。もしその`undefined`に対して算術演算を行おうとすると、`NaN`のような予期しない結果になることがあります。
 
-To prevent this, you can use the `||` (logical OR) operator to provide a default value.
+これを防ぐために、`||`（論理OR）演算子を使ってデフォルト値を設定できます。
 
 ```js
   let scores = {}; 
@@ -22,27 +22,27 @@ To prevent this, you can use the `||` (logical OR) operator to provide a default
   });
 ```
 
-Now, let’s apply this concept to your `totalCountPerProduct` object in the `forEach` callback. Make sure that each `dessert.id` property is initialized properly.
+では、この考え方を`totalCountPerProduct`のコールバック内の`forEach`オブジェクトに適用しましょう。各`dessert.id`プロパティが適切に初期化されていることを確認してください。
 
-Initialize `totalCountPerProduct[dessert.id]` with a default value of `0` using the `||` operator.
+`totalCountPerProduct[dessert.id]`演算子を使って、`0`を`||`のデフォルト値で初期化してください。
 
 # --hints--
 
-You should use dot notation to access the `id` property of `dessert`.
+`id`の`dessert`プロパティにアクセスするにはドット記法を使うべきです。
 
 ```js
 const cart = new ShoppingCart();
 assert.match(cart.addItem.toString(), /dessert\.id/);
 ```
 
-You should use bracket notation to access the property of `totalCountPerProduct` that corresponds to `dessert.id`.
+`totalCountPerProduct`の`dessert.id`に対応するプロパティにアクセスするにはブラケット記法を使うべきです。
 
 ```js
 const cart = new ShoppingCart();
 assert.match(cart.addItem.toString(), /totalCountPerProduct\s*\[\s*dessert\.id\s*\]/);
 ```
 
-You should initialize `totalCountPerProduct[dessert.id]` with `0` as a default value using `||` operator at the end of the expression.
+`totalCountPerProduct[dessert.id]`を`0`のデフォルト値で、式の最後に`||`演算子を使って初期化するべきです。
 
 ```js
 const cart = new ShoppingCart();
@@ -324,7 +324,7 @@ class ShoppingCart {
 
     const totalCountPerProduct = {};
     this.items.forEach((dessert) => {
-
+      
     })
   }
 --fcc-editable-region--

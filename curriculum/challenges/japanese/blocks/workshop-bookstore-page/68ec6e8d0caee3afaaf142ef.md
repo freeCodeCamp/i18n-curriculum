@@ -1,31 +1,31 @@
 ---
 id: 68ec6e8d0caee3afaaf142ef
-title: Step 8
+title: ステップ 8
 challengeType: 0
 dashedName: step-8
 ---
 
 # --description--
 
-You can add multiple elements inside a `div` element to group related content. Inside the element having a `class` of `card-container`, create another `div` element. This `div` will represent the first book card.
+関連するコンテンツをグループ化するために、`div` 要素の中に複数の要素を追加できます。`class` の `card-container` を持つ要素の中に、別の `div` 要素を作成してください。この `div` は最初の本のカードを表します。
 
-Add a `class` attribute to this new `div` element and set the value of the `class` attribute to `card`.
+この新しい `class` 要素に `div` 属性を追加し、`class` 属性の値を `card` に設定してください。
 
 # --hints--
 
-You should have a `div` element nested inside the element with a class of `card-container`.
+`div` クラスを持つ要素の中に `card-container` 要素がネストされているはずです。
 
 ```js
 assert.exists(document.querySelector('.card-container div'));
 ```
 
-Your new `div` element should have a `class` attribute.
+新しい `div` 要素には `class` 属性が必要です。
 
 ```js
 assert.isTrue(document.querySelector('.card-container div')?.hasAttribute('class'));
 ```
 
-Your new `div` element should have a `class` having the value of `card`.
+新しい `div` 要素には、値が `class` の `card` が必要です。
 
 ```js
 assert.exists(document.querySelector('.card-container div.card'));
@@ -46,10 +46,10 @@ assert.exists(document.querySelector('.card-container div.card'));
 <body>
   <h1>XYZ Bookstore</h1>
   <p>Browse our collection of amazing books!</p>
-
+  
   <div class="card-container">
 --fcc-editable-region--
-
+    
 --fcc-editable-region--
   </div>
 </body>

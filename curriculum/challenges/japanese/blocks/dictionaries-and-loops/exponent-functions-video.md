@@ -1,6 +1,6 @@
 ---
 id: a4cfb218d22efcfa7cc49d80
-title: Exponent Functions
+title: 指数関数
 challengeType: 11
 videoId: KLDvy0wFFX4
 dashedName: exponent-functions
@@ -8,29 +8,29 @@ dashedName: exponent-functions
 
 # --description--
 
-In this video, you will learn how to write a function that calculates exponents and powers in Python.
+このビデオでは、Pythonで指数やべき乗を計算する関数の書き方を学びます。
 
 # --questions--
 
 ## --text--
 
-What does the `range()` function in Python do?
+Pythonの`range()`関数は何をしますか？
 
 ## --answers--
 
-It returns a number from a list.
+リストから数値を返します。
 
 ---
 
-It creates a list of random numbers.
+ランダムな数値のリストを作成します。
 
 ---
 
-It generates a sequence of integers between a starting and stopping point.
+開始点と停止点の間の整数のシーケンスを生成します。
 
 ---
 
-It generates a sequence of floats between a starting and stopping point.
+開始点と停止点の間の浮動小数点数のシーケンスを生成します。
 
 ## --video-solution--
 

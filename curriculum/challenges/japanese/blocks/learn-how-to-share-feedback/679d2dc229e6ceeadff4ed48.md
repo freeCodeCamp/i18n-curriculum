@@ -1,6 +1,6 @@
 ---
 id: 679d2dc229e6ceeadff4ed48
-title: Task 92
+title: タスク 92
 challengeType: 22
 dashedName: task-92
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+音声を聞いて、下の文を完成させてください。
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This word is used to avoid repeating the verb `update` from the previous sentence.
+この単語は、前の文で使われた動詞 `update` を繰り返さないために使われています。
 
 ---
 
@@ -32,17 +32,17 @@ This word is used to avoid repeating the verb `update` from the previous sentenc
 
 ### --feedback--
 
-This word means to postpone or make something happen later than planned.
+この単語は、予定より遅らせる、延期するという意味です。
 
 # --explanation--
 
-Instead of saying `If we update the software, it might delay other projects.`, James shortens it to `If we do`. The word `do` is often used to avoid repeating the verb or a complete phrase used in from the previous sentence. For example:
+ジェームズは `If we update the software, it might delay other projects.` と言う代わりに `If we do` と短く言っています。単語 `do` は、前の文で使われた動詞やフレーズの繰り返しを避けるためによく使われます。例えば：
 
-`She wants to join the meeting, and if she does, she'll need the link.` - Instead of saying `if she joins the meeting`, you can use `does` to replace it and this way you can avoid the repetition.
+`She wants to join the meeting, and if she does, she'll need the link.` - `if she joins the meeting` と言う代わりに `does` を使うことで繰り返しを避けられます。
 
-`To delay` means to make something happen later than planned. For example:
+`To delay` は、予定より遅らせるという意味です。例えば：
 
-`The flight was delayed due to bad weather.` - This means the flight was postponed and did not leave on time.
+`The flight was delayed due to bad weather.` - これは飛行機が延期されて、予定通りに出発しなかったことを意味します。
 
 # --scene--
 

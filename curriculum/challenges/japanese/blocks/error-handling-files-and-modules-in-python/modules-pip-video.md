@@ -1,6 +1,6 @@
 ---
 id: 2ccc34bd3f7bb4ae97a67ea3
-title: Modules and pip
+title: モジュールとpip
 challengeType: 11
 videoId: HJ-dHUXmpcg
 dashedName: modules-and-pip
@@ -8,29 +8,29 @@ dashedName: modules-and-pip
 
 # --description--
 
-In this video, you will learn how to use modules and pip to extend Python's functionality with external packages.
+このビデオでは、モジュールとpipを使って外部パッケージでPythonの機能を拡張する方法を学びます。
 
 # --questions--
 
 ## --text--
 
-What is pip used for?
+pipは何のために使われますか？
 
 ## --answers--
 
-It is used to sort python modules.
+Pythonのモジュールを並べ替えるために使われます。
 
 ---
 
-It is used to explain python modules.
+Pythonのモジュールを説明するために使われます。
 
 ---
 
-It is used to install python modules.
+Pythonのモジュールをインストールするために使われます。
 
 ---
 
-It is used to lint Python programs.
+Pythonプログラムのリントをするために使われます。
 
 ## --video-solution--
 

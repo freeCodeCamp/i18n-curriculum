@@ -1,6 +1,6 @@
 ---
 id: 474c23ec0df6e7af920e0526
-title: While Loop
+title: Whileループ
 challengeType: 11
 videoId: s6yz4Ew8dwQ
 dashedName: while-loop
@@ -8,13 +8,13 @@ dashedName: while-loop
 
 # --description--
 
-In this video, you will learn how to work with while loops to repeat code blocks as long as a condition is `True`.
+このビデオでは、条件が`True`の間、コードブロックを繰り返すためのwhileループの使い方を学びます。
 
 # --questions--
 
 ## --text--
 
-What will be the output for the following code?
+次のコードの出力は何になりますか？
 
 ```python
 i = 1

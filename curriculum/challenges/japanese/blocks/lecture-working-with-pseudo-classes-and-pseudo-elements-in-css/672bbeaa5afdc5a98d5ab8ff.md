@@ -1,15 +1,15 @@
 ---
 id: 672bbeaa5afdc5a98d5ab8ff
-title: What Are Examples of Location Pseudo-classes?
+title: ロケーション疑似クラスの例とは？
 challengeType: 19
 dashedName: what-are-examples-of-location-pseudo-classes
 ---
 
 # --interactive--
 
-Location pseudo-classes are used for styling links and elements that are targeted within the current document. They offer a way to apply styles based on whether a link is visited or whether an element is currently in focus.
+ロケーション疑似クラスは、現在のドキュメント内でターゲットにされているリンクや要素のスタイルを指定するために使われます。リンクが訪問済みかどうかや、要素が現在フォーカスされているかどうかに基づいてスタイルを適用する方法を提供します。
 
-Examples of location pseudo-classes are:
+ロケーション疑似クラスの例は以下の通りです：
 
 - `:link`
 - `:visited`
@@ -17,9 +17,9 @@ Examples of location pseudo-classes are:
 - `:local-link`
 - `:target`
 
-Let's take a deeper look at each of these pseudo-classes.
+これらの疑似クラスそれぞれを詳しく見ていきましょう。
 
-The `:link` pseudo-class allows you to target all unvisited links on a webpage. You can use it to style links differently before the user clicks on them. For example, you might want to make all unvisited links blue or your website's primary color:
+`:link` 疑似クラスは、ウェブページ上のすべての未訪問リンクをターゲットにできます。ユーザーがクリックする前にリンクのスタイルを変えたい場合に使えます。例えば、すべての未訪問リンクを青色やウェブサイトのメインカラーにしたい場合です：
 
 :::interactive_editor
 
@@ -36,9 +36,9 @@ a:link {
 
 :::
 
-In this case, any link the user hasn't clicked yet will appear magenta. Once the user clicks the link, the `:link` style no longer applies, and the `:visited` pseudo-class takes over. The `:visited` pseudo-class comes into play after the user clicks the link, so you can use it to target links the user has already clicked.
+この場合、ユーザーがまだクリックしていないリンクはマゼンタ色で表示されます。ユーザーがリンクをクリックすると、`:link` スタイルは適用されなくなり、`:visited` 疑似クラスが適用されます。`:visited` 疑似クラスはユーザーがリンクをクリックした後に適用されるので、すでにクリック済みのリンクをターゲットにできます。
 
-Here is an example of changing the visited link state to the color `purple`:
+訪問済みリンクの状態を `purple` 色に変える例はこちらです：
 
 :::interactive_editor
 
@@ -55,11 +55,11 @@ a:visited {
 
 :::
 
-The `:visited` pseudo-class helps users distinguish between links they have visited and those they have not.
+`:visited` 疑似クラスは、ユーザーが訪問済みのリンクと未訪問のリンクを区別しやすくします。
 
-The `:any-link` pseudo-class is a combination of the `:link` and `:visited` pseudo-classes. So it matches any anchor element with an `href` attribute, regardless of whether it's visited or not.
+`:any-link` 疑似クラスは `:link` と `:visited` 疑似クラスの組み合わせです。つまり、訪問済みかどうかに関わらず `href` 属性を持つアンカー要素にマッチします。
 
-Here is an example of changing the link color for the `:any-link` pseudo-class to `crimson`:
+`:any-link` 疑似クラスのリンク色を `crimson` に変える例はこちらです：
 
 :::interactive_editor
 
@@ -76,11 +76,11 @@ a:any-link {
 
 :::
 
-The `:local-link` pseudo-class targets links that point to the same document. It can be useful when you want to differentiate internal links from external ones. Currently, no browser supports the `:local-link` pseudo-class.
+`:local-link` 疑似クラスは同じドキュメントを指すリンクをターゲットにします。内部リンクと外部リンクを区別したい場合に便利です。現在、どのブラウザも `:local-link` 疑似クラスをサポートしていません。
 
-The `:target` pseudo-class selects an element that matches the current URL fragment identifier, for example, `#section1`. It's very useful for pages with in-page navigation.
+`:target` 疑似クラスは現在のURLのフラグメント識別子にマッチする要素を選択します。例えば `#section1` のような場合です。ページ内ナビゲーションがあるページで非常に役立ちます。
 
-Here's an HTML example that represents an in-page navigation. The CSS uses the `:target` pseudo-class to style the section that matches where the user navigates to:
+以下はページ内ナビゲーションを表すHTMLの例です。CSSは `:target` 疑似クラスを使って、ユーザーがナビゲートした場所にマッチするセクションのスタイルを指定しています：
 
 :::interactive_editor
 
@@ -114,13 +114,13 @@ section:target {
 
 :::
 
-When the user clicks on one of the navigation links, the background color for that respective section will change to green.
+ユーザーがナビゲーションリンクのいずれかをクリックすると、その該当セクションの背景色が緑色に変わります。
 
 # --questions--
 
 ## --text--
 
-Which pseudo-class allows you to style an element that matches the current URL fragment identifier, such as `#section1`?
+現在のURLのフラグメント識別子にマッチする要素のスタイルを指定できる疑似クラスはどれですか？例えば `#section1` のようなものです。
 
 ## --answers--
 
@@ -128,7 +128,7 @@ Which pseudo-class allows you to style an element that matches the current URL f
 
 ### --feedback--
 
-Think about how you can highlight a specific section when navigating through in-page links.
+ページ内リンクで特定のセクションを強調表示する方法を考えてみてください。
 
 ---
 
@@ -136,7 +136,7 @@ Think about how you can highlight a specific section when navigating through in-
 
 ### --feedback--
 
-Think about how you can highlight a specific section when navigating through in-page links.
+ページ内リンクで特定のセクションを強調表示する方法を考えてみてください。
 
 ---
 
@@ -148,7 +148,7 @@ Think about how you can highlight a specific section when navigating through in-
 
 ### --feedback--
 
-Think about how you can highlight a specific section when navigating through in-page links.
+ページ内リンクで特定のセクションを強調表示する方法を考えてみてください。
 
 ## --video-solution--
 
@@ -156,35 +156,35 @@ Think about how you can highlight a specific section when navigating through in-
 
 ## --text--
 
-When are location pseudo-classes particularly useful?
+ロケーション疑似クラスはどんな場合に特に役立ちますか？
 
 ## --answers--
 
-When styling elements based on their sibling relationships.
+兄弟関係にある要素のスタイルを指定するとき。
 
 ### --feedback--
 
-Think about how you can style links and targeted elements depending on user interaction.
+ユーザーの操作に応じてリンクやターゲット要素のスタイルを変える方法を考えてみてください。
 
 ---
 
-When applying styles based on whether a link is visited or an element is currently in focus.
+リンクが訪問済みかどうかや、要素が現在フォーカスされているかどうかに基づいてスタイルを適用するとき。
 
 ---
 
-When styling elements based on their parent element's attributes.
+親要素の属性に基づいて要素のスタイルを指定するとき。
 
 ### --feedback--
 
-Think about how you can style links and targeted elements depending on user interaction.
+ユーザーの操作に応じてリンクやターゲット要素のスタイルを変える方法を考えてみてください。
 
 ---
 
-When adjusting the layout of a webpage dynamically.
+ウェブページのレイアウトを動的に調整するとき。
 
 ### --feedback--
 
-Think about how you can style links and targeted elements depending on user interaction.
+ユーザーの操作に応じてリンクやターゲット要素のスタイルを変える方法を考えてみてください。
 
 ## --video-solution--
 
@@ -192,7 +192,7 @@ Think about how you can style links and targeted elements depending on user inte
 
 ## --text--
 
-Which pseudo-class is designed to target links that point to the same document but is not currently supported by any browser?
+同じドキュメントを指すリンクをターゲットにするために設計されたが、現在どのブラウザもサポートしていない疑似クラスはどれですか？
 
 ## --answers--
 
@@ -200,7 +200,7 @@ Which pseudo-class is designed to target links that point to the same document b
 
 ### --feedback--
 
-Consider the pseudo-class intended for distinguishing internal links from external ones, even though it's not yet supported.
+内部リンクと外部リンクを区別するために意図された疑似クラスですが、まだサポートされていません。
 
 ---
 
@@ -212,7 +212,7 @@ Consider the pseudo-class intended for distinguishing internal links from extern
 
 ### --feedback--
 
-Consider the pseudo-class intended for distinguishing internal links from external ones, even though it's not yet supported.
+内部リンクと外部リンクを区別するために意図された疑似クラスですが、まだサポートされていません。
 
 ---
 
@@ -220,7 +220,7 @@ Consider the pseudo-class intended for distinguishing internal links from extern
 
 ### --feedback--
 
-Consider the pseudo-class intended for distinguishing internal links from external ones, even though it's not yet supported.
+内部リンクと外部リンクを区別するために意図された疑似クラスですが、まだサポートされていません。
 
 ## --video-solution--
 

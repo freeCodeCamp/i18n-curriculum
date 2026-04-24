@@ -8,11 +8,11 @@ lang: en-US
 
 # --description--
 
-Watch the video below to understand the context of the upcoming lessons.
+以下のビデオを見て、これからのレッスンの背景を理解してください。
 
 # --assignment--
 
-Watch the video.
+ビデオを見てください。
 
 # --scene--
 

@@ -1,23 +1,23 @@
 ---
 id: 64dceadec3c9cf2ca7b56de6
-title: Step 25
+title: ステップ 25
 challengeType: 20
 dashedName: step-25
 ---
 
 # --description--
 
-Next, below the nested `elif` statement, add another `if` statement that should be executed when `forward` is `True`. Inside this conditional, print the following f-string: `f'Moving disk {rods[source][-1]} from {source} to {target}'`.
+次に、ネストされた `elif` 文の下に、`if` が `forward` のときに実行される別の `True` 文を追加してください。この条件文の中で、次の f-string を出力してください：`f'Moving disk {rods[source][-1]} from {source} to {target}'`。
 
 # --hints--
 
-You should add an `if` statement to execute when `forward` is `True` after the `elif` block.
+`if` ブロックの後に、`forward` が `True` のときに実行される `elif` 文を追加してください。
 
 ```js
 ({ test: () => assert.match(code, /^\s{12}if\s+forward(\s*==\s*True)?\s*:/m) })
 ```
 
-You should print the provide string inside your new `if` statement.
+新しい `if` 文の中で、指定された文字列を出力してください。
 
 ```js
 ({ test: () => assert.match(code, /if\s+forward(\s*==\s*True)?\s*:\s+print\s*\(\s*f('|")Moving\sdisk\s\{\s*rods\s*\[\s*source\s*\]\s*\[\s*-\s*1\s*\]\s*\}\sfrom\s\{\s*source\s*\}\sto\s\{\s*target\s*\}\2\s*\)/) })

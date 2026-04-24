@@ -1,13 +1,13 @@
 ---
 id: 66ed8ffcf45ce3ece4053eb5
-title: CSS Positioning Quiz
+title: CSSの位置指定クイズ
 challengeType: 8
 dashedName: quiz-css-positioning
 ---
 
 # --description--
 
-To pass the quiz, you must correctly answer at least 18 of the 20 questions below.
+このクイズに合格するには、以下の20問のうち少なくとも18問に正しく答える必要があります。
 
 # --quizzes--
 
@@ -17,7 +17,7 @@ To pass the quiz, you must correctly answer at least 18 of the 20 questions belo
 
 #### --text--
 
-Which of the following is NOT a valid value for the `position` property?
+次のうち、`position` プロパティの有効な値ではないものはどれですか？
 
 #### --distractors--
 
@@ -39,29 +39,29 @@ Which of the following is NOT a valid value for the `position` property?
 
 #### --text--
 
-What is the main purpose of the `float` property in CSS?
+CSSの`float`プロパティの主な目的は何ですか？
 
 #### --distractors--
 
-Floats are used to remove an element from its normal flow on the page and automatically position it in the upper right hand side of the webpage.
+フロートは、要素をページの通常のフローから外し、自動的にウェブページの右上に配置するために使われます。
 
 ---
 
-Floats are used to remove an element from its normal flow on the page and position it to the top of its container.
+フロートは、要素をページの通常のフローから外し、そのコンテナの上部に配置するために使われます。
 
 ---
 
-Floats are used to remove an element from its normal flow on the page and automatically position it to the bottom right hand side of webpage.
+フロートは、要素をページの通常のフローから外し、自動的にウェブページの右下に配置するために使われます。
 
 #### --answer--
 
-Floats are used to remove an element from its normal flow on the page and position it either on the left or right side of its container.
+フロートは、要素をページの通常のフローから外し、そのコンテナの左側または右側に配置するために使われます。
 
 ### --question--
 
 #### --text--
 
-Which of the following is an example making a box element float to the left?
+ボックス要素を左にフロートさせる例はどれですか？
 
 #### --distractors--
 
@@ -115,29 +115,29 @@ Which of the following is an example making a box element float to the left?
 
 #### --text--
 
-What is the role of the `clear` property?
+`clear` プロパティの役割は何ですか？
 
 #### --distractors--
 
-It is used to determine if an element needs to be moved to the bottom of the page.
+要素をページの下部に移動させる必要があるかどうかを判断するために使われます。
 
 ---
 
-It is used to determine if an element needs to be completely cleared from the page.
+要素をページから完全にクリアする必要があるかどうかを判断するために使われます。
 
 ---
 
-It is used to determine if an element needs to be fixed to the top of the page.
+要素をページの上部に固定する必要があるかどうかを判断するために使われます。
 
 #### --answer--
 
-It is used to determine if an element needs to be moved below the floated content.
+フロートされたコンテンツの下に要素を移動させる必要があるかどうかを判断するために使われます。
 
 ### --question--
 
 #### --text--
 
-Which CSS property is used to control the vertical stacking order of positioned elements that overlap on the page?
+ページ上で重なっている位置指定要素の垂直の重なり順を制御するCSSプロパティはどれですか？
 
 #### --distractors--
 
@@ -159,7 +159,7 @@ Which CSS property is used to control the vertical stacking order of positioned 
 
 #### --text--
 
-Which of the following is the correct syntax for relative positioning?
+相対位置指定の正しい構文はどれですか？
 
 #### --distractors--
 
@@ -205,7 +205,7 @@ Which of the following is the correct syntax for relative positioning?
 
 #### --text--
 
-Which CSS property would you use to fix an element at a certain position on the page so that it does not move when scrolling occurs?
+スクロールしても動かないように、ページ上の特定の位置に要素を固定するために使うCSSプロパティはどれですか？
 
 #### --distractors--
 
@@ -227,29 +227,29 @@ Which CSS property would you use to fix an element at a certain position on the 
 
 #### --text--
 
-What does absolute positioning do to an element?
+絶対位置指定は要素にどのような影響を与えますか？
 
 #### --distractors--
 
-Absolute positioning is used to determine if an element needs to be moved below the floated content.
+絶対位置指定は、要素をフロートされたコンテンツの下に移動させる必要があるかどうかを判断するために使われます。
 
 ---
 
-Absolute positioning is used to position the element within the normal document flow.
+絶対位置指定は、要素を通常のドキュメントフロー内に配置するために使われます。
 
 ---
 
-Absolute positioning is used to control the vertical stacking order of positioned elements that overlap on the page.
+絶対位置指定は、ページ上で重なっている位置指定要素の垂直の重なり順を制御するために使われます。
 
 #### --answer--
 
-Absolute positioning allows you to take an element out of the normal document flow, making it behave independently from other elements.
+絶対位置指定は、要素を通常のドキュメントフローから外し、他の要素とは独立して動作させることを可能にします。
 
 ### --question--
 
 #### --text--
 
-Which of the following is NOT a valid property that you can use for absolute positioning?
+絶対位置指定で使える有効なプロパティではないものはどれですか？
 
 #### --distractors--
 
@@ -271,29 +271,29 @@ Which of the following is NOT a valid property that you can use for absolute pos
 
 #### --text--
 
-What is the key difference between relative and absolute positioning?
+相対位置指定と絶対位置指定の主な違いは何ですか？
 
 #### --distractors--
 
-Absolute positioning sets the element in a sticky position while relative positioning takes an element out of the normal document flow.
+絶対位置指定は要素をスティッキーな位置に設定し、相対位置指定は要素を通常のドキュメントフローから外します。
 
 ---
 
-Relative positioning sets the element in a fixed position while absolute positioning takes an element out of the normal document flow.
+相対位置指定は要素を固定位置に設定し、絶対位置指定は要素を通常のドキュメントフローから外します。
 
 ---
 
-Absolute positioning positions the element within the normal document flow while relative positioning takes an element out of the normal document flow.
+絶対位置指定は要素を通常のドキュメントフロー内に配置し、相対位置指定は要素を通常のドキュメントフローから外します。
 
 #### --answer--
 
-Relative positioning positions the element within the normal document flow while absolute positioning takes an element out of the normal document flow.
+相対位置指定は要素を通常のドキュメントフロー内に配置し、絶対位置指定は要素を通常のドキュメントフローから外します。
 
 ### --question--
 
 #### --text--
 
-Which of the following is an example of positioning a box in the upper left hand corner of the page?
+ページの左上隅にボックスを配置する例はどれですか？
 
 #### --distractors--
 
@@ -351,29 +351,29 @@ Which of the following is an example of positioning a box in the upper left hand
 
 #### --text--
 
-Which positioning method allows an element to stick to a defined position only when you scroll past a certain point?
+あるポイントを超えてスクロールしたときだけ要素が特定の位置に固定される位置指定方法はどれですか？
 
 #### --distractors--
 
-Float positioning.
+フロート位置指定。
 
 ---
 
-Fixed positioning.
+固定位置指定。
 
 ---
 
-Absolute positioning.
+絶対位置指定。
 
 #### --answer--
 
-Sticky positioning.
+スティッキー位置指定。
 
 ### --question--
 
 #### --text--
 
-Which of the following is a correct example of using sticky positioning?
+スティッキー位置指定の正しい使用例はどれですか？
 
 #### --distractors--
 
@@ -430,51 +430,51 @@ Which of the following is a correct example of using sticky positioning?
 
 #### --text--
 
-What is the difference between sticky and fixed positioning?
+スティッキー位置指定と固定位置指定の違いは何ですか？
 
 #### --distractors--
 
-Sticky elements can only be used in table layouts while fixed elements can be used in any type of CSS layout.
+スティッキー要素はテーブルレイアウトでのみ使え、固定要素はどんなCSSレイアウトでも使えます。
 
 ---
 
-Sticky elements will always remain in the same position while fixed elements will stick to a certain point then behave like relative elements.
+スティッキー要素は常に同じ位置に留まり、固定要素は特定のポイントに固定された後、相対要素のように振る舞います。
 
 ---
 
-Fixed elements will be positioned relative to its normal position while sticky elements will only stick to a certain point then behave like relative elements.
+固定要素は通常の位置に相対的に配置され、スティッキー要素は特定のポイントに固定された後、相対要素のように振る舞います。
 
 #### --answer--
 
-Fixed elements will remain in the same position on the screen while sticky elements will only stick to a certain point then behave like relative elements.
+固定要素は画面上の同じ位置に留まり、スティッキー要素は特定のポイントに固定された後、相対要素のように振る舞います。
 
 ### --question--
 
 #### --text--
 
-What problem did the `clearfix` hack solve when working with floats?
+`clearfix` ハックはフロートを使う際にどんな問題を解決しましたか？
 
 #### --distractors--
 
-The `clearfix` hack helped solve the issue of floated elements being removed from the normal document flow and being placed in a fixed position on the page.
+`clearfix` ハックは、フロートされた要素が通常のドキュメントフローから外れ、ページ上で固定位置に配置される問題を解決しました。
 
 ---
 
-The `clearfix` hack helped solve the issue of floated elements not being responsive in mobile and tablet layouts.
+`clearfix` ハックは、フロートされた要素がモバイルやタブレットのレスポンシブレイアウトでうまく動作しない問題を解決しました。
 
 ---
 
-The `clearfix` hack helped solve the issue of floated elements disappearing from the page.
+`clearfix` ハックは、フロートされた要素がページから消えてしまう問題を解決しました。
 
 #### --answer--
 
-The `clearfix` hack helped solve the issue of overlaps and collapsing in the layouts when multiple floated elements were stacked next to each other.
+`clearfix` ハックは、複数のフロート要素が隣接して積み重なったときの重なりやレイアウトの崩れの問題を解決しました。
 
 ### --question--
 
 #### --text--
 
-Which of the following is a correct example for using the `clearfix` hack?
+`clearfix` ハックの正しい使用例はどれですか？
 
 #### --distractors--
 
@@ -521,29 +521,29 @@ Which of the following is a correct example for using the `clearfix` hack?
 
 #### --text--
 
-What is static positioning?
+静的位置指定とは何ですか？
 
 #### --distractors--
 
-This is used to remove an element from its normal flow on the page and automatically position it in the upper right hand side of the webpage.
+これは要素をページの通常のフローから外し、自動的にウェブページの右上に配置するために使われます。
 
 ---
 
-This allows you to take an element out of the normal document flow, making it behave independently from other elements.
+これは要素を通常のドキュメントフローから外し、他の要素とは独立して動作させることを可能にします。
 
 ---
 
-This allows an element to stick to a defined position only when you scroll past a certain point.
+これはあるポイントを超えてスクロールしたときだけ要素が特定の位置に固定されることを可能にします。
 
 #### --answer--
 
-This is the normal flow for the document. Elements are positioned from top to bottom and left to right one after another.
+これはドキュメントの通常のフローです。要素は上から下、左から右へ順に配置されます。
 
 ### --question--
 
 #### --text--
 
-Which of the following is an example of setting the navbar to the top of the page using fixed positioning?
+固定位置指定を使ってナビゲーションバーをページの上部に設定する例はどれですか？
 
 #### --distractors--
 
@@ -588,7 +588,7 @@ Which of the following is an example of setting the navbar to the top of the pag
 
 #### --text--
 
-Which of the following is a valid value to use for the `z-index` property?
+`z-index` プロパティに使える有効な値はどれですか？
 
 #### --distractors--
 
@@ -610,7 +610,7 @@ Which of the following is a valid value to use for the `z-index` property?
 
 #### --text--
 
-Which of the following is the default value of the `position` property?
+`position` プロパティのデフォルト値はどれですか？
 
 #### --distractors--
 
@@ -634,7 +634,7 @@ Which of the following is the default value of the `position` property?
 
 #### --text--
 
-Which `position` value lets you adjust an element's position with `top` and `left` while keeping it within the normal document flow?
+`position` の値で、要素を通常のドキュメントフロー内に保ちながら `top` と `left` で位置調整できるものはどれですか？
 
 #### --distractors--
 
@@ -656,29 +656,29 @@ Which `position` value lets you adjust an element's position with `top` and `lef
 
 #### --text--
 
-How does an element with `position: sticky;` initially behave?
+`position: sticky;` を持つ要素は最初どのように振る舞いますか？
 
 #### --distractors--
 
-It behaves like a `fixed` element until a scroll position is reached.
+スクロール位置に達するまで `fixed` 要素のように振る舞います。
 
 ---
 
-It is always removed from the normal document flow.
+常に通常のドキュメントフローから外れています。
 
 ---
 
-It behaves like an `absolute` element within its parent.
+親要素内で `absolute` 要素のように振る舞います。
 
 #### --answer--
 
-It behaves like a `relative` element until a specified scroll position is met.
+指定されたスクロール位置に達するまで `relative` 要素のように振る舞います。
 
 ### --question--
 
 #### --text--
 
-Which of the following demonstrates a valid and effective use of the `z-index` property to make `.box-two` appear on top of `.box-one`?
+`z-index` プロパティを使って `.box-two` を `.box-one` の上に表示させる正しい例はどれですか？
 
 #### --distractors--
 
@@ -736,51 +736,51 @@ Which of the following demonstrates a valid and effective use of the `z-index` p
 
 #### --text--
 
-What is the `z-index` property used for in CSS?
+CSSで`z-index` プロパティは何に使われますか？
 
 #### --distractors--
 
-It sets the zoom level of the page.
+ページのズームレベルを設定します。
 
 ---
 
-It controls the horizontal alignment of elements within a flex container.
+フレックスコンテナ内の要素の水平方向の整列を制御します。
 
 ---
 
-It defines the spacing between an element's content and its border.
+要素のコンテンツとボーダーの間の間隔を定義します。
 
 #### --answer--
 
-It controls the vertical stacking order of positioned elements that overlap.
+重なっている位置指定要素の垂直の重なり順を制御します。
 
 ### --question--
 
 #### --text--
 
-When you apply `top: 10%;` to an element with `position: fixed;`, what is the `10%` calculated in relation to?
+`top: 10%;` を `position: fixed;` を持つ要素に適用した場合、`10%` は何に対して計算されますか？
 
 #### --distractors--
 
-The height of the element itself.
+要素自身の高さ。
 
 ---
 
-The height of its parent container.
+親コンテナの高さ。
 
 ---
 
-The width of the viewport.
+ビューポートの幅。
 
 #### --answer--
 
-The height of the viewport.
+ビューポートの高さ。
 
 ### --question--
 
 #### --text--
 
-Which of the code examples is a correct use of the `z-index` property to place an overlay above other content?
+`z-index` プロパティを使ってオーバーレイを他のコンテンツの上に配置する正しいコード例はどれですか？
 
 #### --distractors--
 
@@ -825,7 +825,7 @@ Which of the code examples is a correct use of the `z-index` property to place a
 
 #### --text--
 
-Which CSS property is used to control whether an element should be moved below floated elements?
+フロートされた要素の下に要素を移動させるかどうかを制御するCSSプロパティはどれですか？
 
 #### --distractors--
 
@@ -847,73 +847,73 @@ Which CSS property is used to control whether an element should be moved below f
 
 #### --text--
 
-How will an element with `position: relative;` and `bottom: 25px;` be moved?
+`position: relative;` と `bottom: 25px;` を持つ要素はどのように移動しますか？
 
 #### --distractors--
 
-It will move 25px down from its normal position.
+通常位置から25px下に移動します。
 
 ---
 
-It will move 25px to the right of its normal position.
+通常位置から25px右に移動します。
 
 ---
 
-It will be positioned 25px from the bottom of the viewport.
+ビューポートの下から25pxの位置に配置されます。
 
 #### --answer--
 
-It will move 25px up from its normal position.
+通常位置から25px上に移動します。
 
 ### --question--
 
 #### --text--
 
-The `z-index` property will only affect elements that have what CSS property applied?
+`z-index` プロパティはどのCSSプロパティが適用された要素にのみ影響しますか？
 
 #### --distractors--
 
-A `float` value other than `none`.
+`float` の値が `none` 以外。
 
 ---
 
-A `display` value of `inline-block`.
+`display` の値が `inline-block`。
 
 ---
 
-A `background-color` set.
+`background-color` が設定されている。
 
 #### --answer--
 
-A `position` value other than `static`.
+`position` の値が `static` 以外。
 
 ### --question--
 
 #### --text--
 
-What would be the effect of applying `float: right;` to a logo in a header?
+ヘッダーのロゴに`float: right;`を適用するとどんな効果がありますか？
 
 #### --distractors--
 
-The logo would be aligned to the right, but would remain in the normal document flow, preventing other content from wrapping.
+ロゴは右に整列しますが、通常のドキュメントフロー内にあり、他のコンテンツの回り込みは起きません。
 
 ---
 
-The logo would be taken out of the flow and positioned on the right side of the entire browser viewport, not its container.
+ロゴはフローから外れ、コンテナではなくブラウザのビューポートの右側に配置されます。
 
 ---
 
-The logo would become a block-level element that takes up the full width of the header, pushing other elements below it.
+ロゴはブロックレベル要素になり、ヘッダーの幅いっぱいに広がり、他の要素を下に押し下げます。
 
 #### --answer--
 
-The logo would be removed from its normal flow and placed on the right side of its container, with other content wrapping around it.
+ロゴは通常のフローから外れ、コンテナの右側に配置され、他のコンテンツが回り込みます。
 
 ### --question--
 
 #### --text--
 
-Which CSS snippet will keep an element fixed to the top of the viewport once it is scrolled to?
+スクロールしても要素をビューポートの上部に固定するCSSスニペットはどれですか？
 
 #### --distractors--
 
@@ -955,29 +955,29 @@ Which CSS snippet will keep an element fixed to the top of the viewport once it 
 
 #### --text--
 
-What is the specific purpose of `clear: both;` in CSS?
+CSSで`clear: both;`の具体的な目的は何ですか？
 
 #### --distractors--
 
-It cancels out the `float` property on the element itself, returning it to the normal document flow.
+要素自身の`float`プロパティをキャンセルし、通常のドキュメントフローに戻します。
 
 ---
 
-It removes any `clear` properties that were inherited from a parent element, restoring the default floating behavior.
+親要素から継承した`clear`プロパティを削除し、デフォルトのフロート動作を復元します。
 
 ---
 
-It only clears floated elements that are on the right side, allowing left-floated elements to remain as they are.
+右側のフロート要素のみをクリアし、左側のフロート要素はそのままにします。
 
 #### --answer--
 
-It ensures the element is moved below any floated elements that appear before it on both the left and right sides.
+左右両方の前にあるフロート要素の下に要素を移動させることを保証します。
 
 ### --question--
 
 #### --text--
 
-Given the following code, how will `.child` be positioned?
+次のコードで`.child`はどのように配置されますか？
 
 ```css
 .parent {
@@ -992,25 +992,25 @@ Given the following code, how will `.child` be positioned?
 
 #### --distractors--
 
-It will be positioned 10px from the top of the `.parent` element, as `absolute` positioning is always relative to the direct parent.
+`.parent`要素の上から10pxの位置に配置されます。`absolute`位置指定は常に直接の親に対して相対的です。
 
 ---
 
-It will remain in its default static position because the `absolute` value is invalid without a `z-index` property.
+`absolute`プロパティがないため`z-index`の値は無効で、デフォルトの静的位置のままです。
 
 ---
 
-It will be positioned 10px from the top of the browser window, remaining fixed in place even when the user scrolls the page.
+ブラウザウィンドウの上から10pxの位置に配置され、ユーザーがスクロールしても固定されます。
 
 #### --answer--
 
-It will be positioned 10px from the top of the initial containing block, such as the `<body>`, because its parent is not positioned.
+親が位置指定されていないため、初期コンテイニングブロック（例えば`<body>`）の上から10pxの位置に配置されます。
 
 ### --question--
 
 #### --text--
 
-What effect will the following CSS have on the `.box` element?
+次のCSSは`.box`要素にどのような影響を与えますか？
 
 ```css
 .box {
@@ -1022,25 +1022,25 @@ What effect will the following CSS have on the `.box` element?
 
 #### --distractors--
 
-The element will remain in its normal flow but will be indented by 50px from the top and left, pushing other elements away.
+要素は通常のフローに残りますが、上と左から50pxインデントされ、他の要素を押しのけます。
 
 ---
 
-The element will be fixed to the viewport and will stay 50px from the top and 50px from the left, even when the page is scrolled.
+要素はビューポートに固定され、ページがスクロールされても上から50px、左から50pxの位置に留まります。
 
 ---
 
-The element will be positioned relative to its own starting point, moving 50px down and 50px to the right without leaving the document flow.
+要素は自身の開始点に対して相対的に配置され、ドキュメントフローから外れずに50px下と50px右に移動します。
 
 #### --answer--
 
-The element will be taken out of the normal flow and placed 50px from the top and 50px from the left of its nearest positioned ancestor.
+要素は通常のフローから外れ、最も近い位置指定された祖先の上から50px、左から50pxの位置に配置されます。
 
 ### --question--
 
 #### --text--
 
-Which of the following `position` values removes an element entirely from the document's normal flow?
+次のうち、`position`の値で要素をドキュメントの通常のフローから完全に外すものはどれですか？
 
 #### --distractors--
 
@@ -1062,7 +1062,7 @@ Which of the following `position` values removes an element entirely from the do
 
 #### --text--
 
-Given a `.parent` and a `.child` element, which CSS snippet will correctly position the `.child` 20px from the top left corner of the `.parent` element?
+`.parent` と `.child` 要素がある場合、`.child` を `.parent` の左上から20pxの位置に正しく配置するCSSスニペットはどれですか？
 
 #### --distractors--
 
@@ -1120,29 +1120,29 @@ Given a `.parent` and a `.child` element, which CSS snippet will correctly posit
 
 #### --text--
 
-What is the difference between `static` and `relative` positioning?
+`static` と `relative` の位置指定の違いは何ですか？
 
 #### --distractors--
 
-`static` positioning removes an element from the document flow, while `relative` positioning keeps it in the flow.
+`static` は要素をドキュメントフローから外し、`relative` はフロー内に保持します。
 
 ---
 
-An element with `position: static;` can be offset with the `top` and `left` properties, while `position: relative;` cannot.
+`position: static;` の要素は `top` と `left` でオフセット可能ですが、`position: relative;` はできません。
 
 ---
 
-`static` positioning is for block-level elements, while `relative` positioning is only intended for inline elements.
+`static` はブロックレベル要素用で、`relative` はインライン要素専用です。
 
 #### --answer--
 
-Both keep an element in the normal document flow, but `relative` allows the element to be offset from its original position.
+どちらも要素を通常のドキュメントフロー内に保持しますが、`relative` は元の位置からオフセット可能です。
 
 ### --question--
 
 #### --text--
 
-Which CSS snippet correctly floats an image to the left, allowing other content to wrap around it?
+画像を左にフロートさせ、他のコンテンツが回り込むようにする正しいCSSスニペットはどれですか？
 
 #### --distractors--
 
@@ -1181,29 +1181,29 @@ Which CSS snippet correctly floats an image to the left, allowing other content 
 
 #### --text--
 
-What is the difference between `absolute` and `fixed` positioning?
+`absolute` と `fixed` の位置指定の違いは何ですか？
 
 #### --distractors--
 
-`absolute` positioning is relative to the viewport, while `fixed` positioning is relative to the nearest positioned ancestor.
+`absolute` はビューポートに対して相対的で、`fixed` は最も近い位置指定された祖先に対して相対的です。
 
 ---
 
-`absolute` positioning keeps the element in the normal document flow, while `fixed` positioning removes it from the flow.
+`absolute` は要素を通常のドキュメントフローに保持し、`fixed` はフローから外します。
 
 ---
 
-Both are positioned relative to the viewport, but `fixed` elements will scroll with the page while `absolute` elements will not.
+どちらもビューポートに対して位置指定されますが、`fixed` 要素はページと一緒にスクロールし、`absolute` 要素はしません。
 
 #### --answer--
 
-`absolute` positioning is relative to the nearest positioned ancestor, while `fixed` positioning is relative to the browser viewport.
+`absolute` は最も近い位置指定された祖先に対して相対的で、`fixed` はブラウザのビューポートに対して相対的です。
 
 ### --question--
 
 #### --text--
 
-Which `position` value places an element in the normal document flow and prevents offset properties like `top` and `left` from having any effect?
+`position` の値で、要素を通常のドキュメントフローに置き、`top` や `left` のようなオフセットプロパティの効果を無効にするものはどれですか？
 
 #### --distractors--
 
@@ -1220,4 +1220,3 @@ Which `position` value places an element in the normal document flow and prevent
 #### --answer--
 
 `position: static;`
-

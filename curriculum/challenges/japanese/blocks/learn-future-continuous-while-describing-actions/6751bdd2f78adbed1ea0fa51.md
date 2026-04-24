@@ -1,6 +1,6 @@
 ---
 id: 6751bdd2f78adbed1ea0fa51
-title: Task 24
+title: タスク 24
 challengeType: 19
 dashedName: task-24
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+音声を聞いて、以下の質問に答えてください。
 
 # --questions--
 
 ## --text--
 
-What is Brian's concern?
+ブライアンの懸念は何ですか？
 
 ## --answers--
 
-If users need to be informed about the downtime.
+ユーザーにダウンタイムについて知らせる必要があるかどうか。
 
 ---
 
-If the downtime will last too long.
+ダウンタイムが長引くかどうか。
 
 ### --feedback--
 
-Brian is not asking about the length of the downtime.
+ブライアンはダウンタイムの長さについては尋ねていません。
 
 ---
 
-If the users will experience technical issues.
+ユーザーが技術的な問題を経験するかどうか。
 
 ### --feedback--
 
-Brian does not mention technical issues in his concern.
+ブライアンは技術的な問題については言及していません。
 
 ---
 
-If the downtime will affect the server's performance.
+ダウンタイムがサーバーのパフォーマンスに影響を与えるかどうか。
 
 ### --feedback--
 
-Brian's concern is not about the server's performance.
+ブライアンの懸念はサーバーのパフォーマンスではありません。
 
 ## --video-solution--
 
@@ -52,7 +52,7 @@ Brian's concern is not about the server's performance.
 
 # --explanation--
 
-Brian is asking if they should update users about the downtime, showing his concern is about communication with the users rather than the length of downtime, technical issues, or server performance.
+ブライアンはユーザーにダウンタイムについて更新すべきかどうかを尋ねており、彼の懸念はダウンタイムの長さや技術的な問題、サーバーのパフォーマンスではなく、ユーザーとのコミュニケーションに関するものです。
 
 # --scene--
 

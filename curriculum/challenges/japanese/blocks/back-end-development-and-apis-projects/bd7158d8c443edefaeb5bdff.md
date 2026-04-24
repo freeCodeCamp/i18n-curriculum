@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c443edefaeb5bdff
-title: Request Header Parser Microservice
+title: リクエストヘッダーパーサーマイクロサービス
 challengeType: 4
 forumTopicId: 301507
 dashedName: request-header-parser-microservice
@@ -8,14 +8,14 @@ dashedName: request-header-parser-microservice
 
 # --description--
 
-Build a full-stack JavaScript app that is functionally similar to this: <a href="https://request-header-parser-microservice.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://request-header-parser-microservice.freecodecamp.rocks/</a>. Working on this project will involve you writing your code using one of the following methods:
+このプロジェクトでは、次のサイトと機能的に似たフルスタックJavaScriptアプリを作成します：<a href="https://request-header-parser-microservice.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://request-header-parser-microservice.freecodecamp.rocks/</a>。このプロジェクトに取り組む際は、以下のいずれかの方法でコードを書いてください。
 
--   Clone <a href="https://github.com/freeCodeCamp/boilerplate-project-headerparser/" target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete your project locally.
--   Use a site builder of your choice to complete the project. Be sure to incorporate all the files from our GitHub repo.
+- <a href="https://github.com/freeCodeCamp/boilerplate-project-headerparser/" target="_blank" rel="noopener noreferrer nofollow">このGitHubリポジトリ</a>をクローンして、ローカルでプロジェクトを完成させる。
+- お好きなサイトビルダーを使ってプロジェクトを完成させる。ただし、GitHubリポジトリのすべてのファイルを必ず組み込んでください。
 
 # --hints--
 
-You should provide your own project, not the example URL.
+例のURLではなく、自分のプロジェクトを提供してください。
 
 ```js
   assert(
@@ -25,7 +25,7 @@ You should provide your own project, not the example URL.
   );
 ```
 
-A request to `/api/whoami` should return a JSON object with your IP address in the `ipaddress` key.
+`/api/whoami`へのリクエストは、`ipaddress`キーにあなたのIPアドレスを含むJSONオブジェクトを返す必要があります。
 
 ```js
   const response = await fetch(code + '/api/whoami');
@@ -36,7 +36,7 @@ A request to `/api/whoami` should return a JSON object with your IP address in t
   assert(data.ipaddress && data.ipaddress.length > 0);
 ```
 
-A request to `/api/whoami` should return a JSON object with your preferred language in the `language` key.
+`/api/whoami`へのリクエストは、`language`キーにあなたの優先言語を含むJSONオブジェクトを返す必要があります。
 
 ```js
   const response = await fetch(code + '/api/whoami');
@@ -47,7 +47,7 @@ A request to `/api/whoami` should return a JSON object with your preferred langu
   assert(data.language && data.language.length > 0);
 ```
 
-A request to `/api/whoami` should return a JSON object with your software in the `software` key.
+`/api/whoami`へのリクエストは、`software`キーにあなたのソフトウェア情報を含むJSONオブジェクトを返す必要があります。
 
 ```js
   const response = await fetch(code + '/api/whoami');
@@ -57,4 +57,3 @@ A request to `/api/whoami` should return a JSON object with your software in the
   const data = await response.json();
   assert(data.software && data.software.length > 0);
 ```
-

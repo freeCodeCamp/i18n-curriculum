@@ -1,6 +1,6 @@
 ---
 id: 698dea167932b3cc4b19c947
-title: Actual Run Time for Sorting Algorithms
+title: ソートアルゴリズムの実際の実行時間
 challengeType: 11
 videoId: AcHX25M4Cvk
 dashedName: actual-run-time-for-sorting-algorithms
@@ -8,29 +8,29 @@ dashedName: actual-run-time-for-sorting-algorithms
 
 # --description--
 
-In this video, you will compare the actual runtimes for the merge sort, quicksort and selection sort algorithms.
+このビデオでは、マージソート、クイックソート、選択ソートのアルゴリズムの実際の実行時間を比較します。
 
 # --questions--
 
 ## --text--
 
-What happened in the demo when the quicksort and merge sort algorithms were compared with a dataset of 1 million numbers?
+100万件のデータセットでクイックソートとマージソートのアルゴリズムを比較したとき、デモでは何が起こりましたか？
 
 ## --answers--
 
-Quicksort and merge sort were equal in their times.
+クイックソートとマージソートは実行時間が同じでした。
 
 ---
 
-Quicksort was slightly slower in sorting the numbers than merge sort.
+クイックソートはマージソートよりもわずかに遅く数字をソートしました。
 
 ---
 
-Quicksort was slightly faster in sorting the numbers than merge sort.
+クイックソートはマージソートよりもわずかに速く数字をソートしました。
 
 ---
 
-Quicksort and merge sort both timed out and didn't provide any information.
+クイックソートとマージソートは両方ともタイムアウトし、情報を提供しませんでした。
 
 ## --video-solution--
 

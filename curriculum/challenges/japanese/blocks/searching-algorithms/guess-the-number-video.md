@@ -1,6 +1,6 @@
 ---
 id: 698dbdec7932b3cc4b19c91c
-title: Guess the Number
+title: 数字を当てよう
 challengeType: 11
 videoId: zNAzkdpIrqU
 dashedName: guess-the-number
@@ -8,13 +8,13 @@ dashedName: guess-the-number
 
 # --description--
 
-In this video, you will see a demonstration of individuals playing a guessing game to illustrate how algorithms work.
+このビデオでは、アルゴリズムの仕組みを説明するために、数字当てゲームをしている人たちの様子を紹介します。
 
 # --questions--
 
 ## --text--
 
-How many tries did it take Britney and John to guess the correct number?
+ブリトニーとジョンは正しい数字を当てるのに何回試しましたか？
 
 ## --answers--
 

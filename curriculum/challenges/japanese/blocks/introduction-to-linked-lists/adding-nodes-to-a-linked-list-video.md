@@ -1,6 +1,6 @@
 ---
 id: 698dd6627932b3cc4b19c931
-title: Adding Nodes to a Linked List
+title: 連結リストへのノードの追加
 challengeType: 11
 videoId: DcsHC78sfdk
 dashedName: adding-nodes-to-a-linked-list
@@ -8,13 +8,13 @@ dashedName: adding-nodes-to-a-linked-list
 
 # --description--
 
-In this video, you will learn how to add nodes to a linked list.
+このビデオでは、連結リストにノードを追加する方法を学びます。
 
 # --questions--
 
 ## --text--
 
-What is a commonly used term for searching through a linked list?
+連結リストを検索する際によく使われる用語は何ですか？
 
 ## --answers--
 

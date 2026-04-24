@@ -1,6 +1,6 @@
 ---
 id: c6c9dae4017830e187eeaf42
-title: Return Statement
+title: return文
 challengeType: 11
 videoId: Gx3VTsaMCHU
 dashedName: return-statement
@@ -8,13 +8,13 @@ dashedName: return-statement
 
 # --description--
 
-In this video, you will learn how to use the return statement in functions.
+このビデオでは、関数でのreturn文の使い方を学びます。
 
 # --questions--
 
 ## --text--
 
-What will be the output for the following code?
+次のコードの出力は何になりますか？
 
 ```python
 def cube(num):

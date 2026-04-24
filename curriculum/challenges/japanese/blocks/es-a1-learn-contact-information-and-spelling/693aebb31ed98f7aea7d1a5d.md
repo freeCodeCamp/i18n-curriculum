@@ -1,6 +1,6 @@
 ---
 id: 693aebb31ed98f7aea7d1a5d
-title: Task 26
+title: タスク 26
 challengeType: 19
 dashedName: task-26
 lang: es
@@ -10,17 +10,17 @@ lang: es
 
 # --description--
 
-In this task, you will hear Basti share his full phone number, including the country code. The number is spoken in grouped digits.
+このタスクでは、Bastiが国番号を含む電話番号全体を話すのを聞きます。番号は数字のグループごとに話されます。
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+音声を聞いて、以下の質問に答えてください。
 
 # --questions--
 
 ## --text--
 
-Which of the following is Basti's phone number?
+次のうち、Bastiの電話番号はどれですか？
 
 ## --answers--
 
@@ -32,7 +32,7 @@ Which of the following is Basti's phone number?
 
 ### --feedback--
 
-The final digits are not what Basti says.
+最後の数字がBastiの言っているものと違います。
 
 ---
 
@@ -40,7 +40,7 @@ The final digits are not what Basti says.
 
 ### --feedback--
 
-The country code Basti says is not 520.
+Bastiが言っている国番号は520ではありません。
 
 ---
 
@@ -48,7 +48,7 @@ The country code Basti says is not 520.
 
 ### --feedback--
 
-There is a small error in the middle four digits.
+中央の4桁に小さな間違いがあります。
 
 ## --video-solution--
 
@@ -56,7 +56,7 @@ There is a small error in the middle four digits.
 
 # --explanation--
 
-`Y mi número es +502 4489 2201`, means "And my number is +502 4489 2201".
+`Y mi número es +502 4489 2201`、は「そして私の番号は+502 4489 2201です」という意味です。
 
 # --scene--
 

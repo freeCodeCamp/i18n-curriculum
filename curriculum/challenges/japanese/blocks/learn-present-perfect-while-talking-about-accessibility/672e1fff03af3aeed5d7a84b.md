@@ -1,6 +1,6 @@
 ---
 id: 672e1fff03af3aeed5d7a84b
-title: Task 117
+title: タスク 117
 challengeType: 19
 dashedName: task-117
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+音声を聞いて、以下の質問に答えてください。
 
 # --questions--
 
 ## --text--
 
-What does Anna think about James' ideas, and what does she suggest?
+アンナはジェームズのアイデアについてどう思っていて、何を提案していますか？
 
 ## --answers--
 
-She disagrees with James' ideas and suggests starting a new approach.
+彼女はジェームズのアイデアに反対して、新しいアプローチを始めることを提案しています。
 
 ### --feedback--
 
-Anna expresses agreement with James, not disagreement, and wants to stay updated rather than start over.
+アンナはジェームズに同意しており、反対していません。また、最初からやり直すのではなく、進捗を把握したいと考えています。
 
 ---
 
-She thinks James' ideas are confusing and suggests focusing only on accessibility goals.
+彼女はジェームズのアイデアが混乱を招くと考え、アクセシビリティ目標のみにフォーカスすることを提案しています。
 
 ### --feedback--
 
-Anna doesn't find James' ideas confusing; she agrees and wants to monitor progress on their shared goals.
+アンナはジェームズのアイデアを混乱しているとは思っておらず、同意していて、共有の目標の進捗を監視したいと考えています。
 
 ---
 
-She agrees with James and suggests they stay in contact to monitor progress.
+彼女はジェームズに同意して、進捗を監視するために連絡を取り続けることを提案しています。
 
 ---
 
-She thinks James' ideas are unnecessary and suggests stopping the project.
+彼女はジェームズのアイデアは不要だと考え、プロジェクトを中止することを提案しています。
 
 ### --feedback--
 
-Anna doesn't suggest stopping; she supports James' ideas and wants to stay updated.
+アンナは中止を提案しておらず、ジェームズのアイデアを支持し、最新情報を得たいと考えています。
 
 ## --video-solution--
 
@@ -52,7 +52,7 @@ Anna doesn't suggest stopping; she supports James' ideas and wants to stay updat
 
 # --explanation--
 
-Anna agrees with James' approach, saying `That makes sense`, which shows she understands and supports his ideas. She also suggests `keeping in touch to monitor progress`, indicating her interest in staying updated to ensure they reach their shared goals.
+アンナはジェームズのアプローチに同意しており、`That makes sense`と言っています。これは彼女が彼のアイデアを理解し支持していることを示しています。また、`keeping in touch to monitor progress`を提案しており、共有の目標を達成するために進捗を把握したいという関心を示しています。
 
 # --scene--
 

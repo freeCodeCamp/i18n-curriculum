@@ -1,6 +1,6 @@
 ---
 id: 6939b0e1fac80c2b4fdf8ded
-title: Task 17
+title: タスク 17
 challengeType: 22
 dashedName: task-17
 lang: es
@@ -10,11 +10,11 @@ lang: es
 
 # --description--
 
-In this task, Basti spells out his nickname letter by letter.
+このタスクでは、Bastiがニックネームを一文字ずつつづります。
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+音声を聞いて、下の文を完成させてください。
 
 # --fillInTheBlank--
 
@@ -28,7 +28,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This is the first letter Basti uses to start spelling his nickname.
+これはBastiがニックネームのつづりを始める最初の文字です。
 
 ---
 
@@ -36,7 +36,7 @@ This is the first letter Basti uses to start spelling his nickname.
 
 ### --feedback--
 
-This letter comes after the "s" in "Basti".
+この文字は「Basti」の「s」の後に続きます。
 
 ---
 
@@ -44,11 +44,11 @@ This letter comes after the "s" in "Basti".
 
 ### --feedback--
 
-This is the final letter in "Basti". Listen for the vowel sound at the end.
+これは「Basti」の最後の文字です。語尾の母音の音に注意してください。
 
 # --explanation--
 
-Basti spells his nickname as `B-a-s-t-i`.
+Bastiはニックネームを`B-a-s-t-i`とつづります。
 
 # --scene--
 

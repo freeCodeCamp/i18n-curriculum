@@ -1,37 +1,37 @@
 ---
 id: bd7157d8c242eddfaeb5bd13
-title: Build a Markdown Previewer
+title: マークダウンプレビューアーを作成する
 challengeType: 3
 forumTopicId: 301372
 dashedName: build-a-markdown-previewer
 ---
 
 # --description--
-**Note:** **React 18 has known incompatibilities with the tests for this project (see [issue](https://github.com/freeCodeCamp/freeCodeCamp/issues/45922))**
+**注意:** **React 18はこのプロジェクトのテストと互換性の問題が知られています（[issue](https://github.com/freeCodeCamp/freeCodeCamp/issues/45922)を参照してください）**
 
-**Objective:** Build an app that is functionally similar to this: <a href="https://markdown-previewer.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://markdown-previewer.freecodecamp.rocks/</a>.
+**目的:** 次のような機能を持つアプリを作成してください：<a href="https://markdown-previewer.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://markdown-previewer.freecodecamp.rocks/</a>。
 
-Fulfill the below user stories and get all of the tests to pass. Use whichever libraries or APIs you need. Give it your own personal style.
+以下のユーザーストーリーを満たし、すべてのテストに合格してください。必要なライブラリやAPIは自由に使って構いません。自分なりのスタイルを加えてください。
 
-You can use any mix of HTML, JavaScript, CSS, Bootstrap, SASS, React, Redux, and jQuery to complete this project. You should use a front-end framework (like React for example) because this section is about learning front-end frameworks. Additional technologies not listed above are not recommended and using them is at your own risk. We are looking at supporting other front-end frameworks like Angular and Vue, but they are not currently supported. We will accept and try to fix all issue reports that use the suggested technology stack for this project. Happy coding!
+HTML、JavaScript、CSS、ブートストラップ、SASS、React、Redux、jQueryのいずれかの組み合わせを使ってこのプロジェクトを完成させてください。フロントエンドフレームワーク（例えばReact）を使うことをお勧めします。このセクションはフロントエンドフレームワークの学習が目的だからです。上記に挙げていない追加の技術は推奨されず、使用は自己責任となります。AngularやVueなど他のフロントエンドフレームワークのサポートも検討していますが、現時点では対応していません。このプロジェクトで推奨されている技術スタックを使った問題報告はすべて受け付け、修正を試みます。楽しくコーディングしましょう！
 
-**User Story #1:** I can see a `textarea` element with a corresponding `id="editor"`.
+**ユーザーストーリー #1:** `textarea` 要素と対応する `id="editor"` が見えます。
 
-**User Story #2:** I can see an element with a corresponding `id="preview"`.
+**ユーザーストーリー #2:** `id="preview"` に対応する要素が見えます。
 
-**User Story #3:** When I enter text into the `#editor` element, the `#preview` element is updated as I type to display the content of the textarea.
+**ユーザーストーリー #3:** `#editor` 要素にテキストを入力すると、textareaの内容を表示するために `#preview` 要素が入力に合わせて更新されます。
 
-**User Story #4:** When I enter GitHub flavored markdown into the `#editor` element, the text is rendered as HTML in the `#preview` element as I type (HINT: You don't need to parse Markdown yourself - you can import the Marked library for this: <https://cdnjs.com/libraries/marked>).
+**ユーザーストーリー #4:** GitHub風マークダウンを `#editor` 要素に入力すると、テキストが `#preview` 要素にHTMLとしてレンダリングされます（ヒント：マークダウンの解析は自分で行う必要はありません。Markedライブラリをインポートして使えます：<https://cdnjs.com/libraries/marked>）。
 
-**User Story #5:** When my markdown previewer first loads, the default text in the `#editor` field should contain valid markdown that represents at least one of each of the following elements: a heading element (H1 size), a sub heading element (H2 size), a link, inline code, a code block, a list item, a blockquote, an image, and bolded text.
+**ユーザーストーリー #5:** マークダウンプレビューアーが最初に読み込まれたとき、`#editor` フィールドのデフォルトテキストには、以下の各要素が少なくとも1つずつ含まれている有効なマークダウンが入っています：見出し要素（H1サイズ）、サブ見出し要素（H2サイズ）、リンク、インラインコード、コードブロック、リストアイテム、引用ブロック、画像、太字テキスト。
 
-**User Story #6:** When my markdown previewer first loads, the default markdown in the `#editor` field should be rendered as HTML in the `#preview` element.
+**ユーザーストーリー #6:** マークダウンプレビューアーが最初に読み込まれたとき、`#editor` フィールドのデフォルトマークダウンは `#preview` 要素にHTMLとしてレンダリングされます。
 
-**Optional Bonus (you do not need to make this test pass):** My markdown previewer interprets carriage returns and renders them as `br` (line break) elements.
+**オプションのボーナス（このテストに合格する必要はありません）:** マークダウンプレビューアーはキャリッジリターンを解釈し、`br`（改行）要素としてレンダリングします。
 
-You can build your project by <a href='https://codepen.io/pen?template=MJjpwO' target='_blank' rel="noopener noreferrer nofollow">using this CodePen template</a> and clicking `Save` to create your own pen. If you prefer to use another environment, then put this `<script>` tag into the body of your `index.html` file: `<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>`
+<a href='https://codepen.io/pen?template=MJjpwO' target='_blank' rel="noopener noreferrer nofollow">このCodePenテンプレート</a>を使ってプロジェクトを作成し、`Save` をクリックして自分のペンを作成できます。別の環境を使いたい場合は、`<script>` ファイルの本文に `index.html` タグを入れてください：`<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>`
 
-Once you're done, submit the URL to your working project with all its tests passing.
+完成したら、すべてのテストに合格した動作中のプロジェクトのURLを提出してください。
 
 # --solutions--
 

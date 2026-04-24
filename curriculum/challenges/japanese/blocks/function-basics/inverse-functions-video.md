@@ -1,6 +1,6 @@
 ---
 id: 699e0359138be64fa3131390
-title: Inverse Functions
+title: 逆関数
 challengeType: 11
 videoId: f9ph7m0zgD0
 dashedName: inverse-functions
@@ -8,29 +8,29 @@ dashedName: inverse-functions
 
 # --description--
 
-In this video, you will learn about inverse functions.
+このビデオでは、逆関数について学びます。
 
 # --questions--
 
 ## --text--
 
-Do all functions have inverse functions?
+すべての関数に逆関数はありますか？
 
 ## --answers--
 
-No
+いいえ
 
 ---
 
-Yes
+はい
 
 ---
 
-Only for functions with a finite domain.
+定義域が有限の関数に限ります。
 
 ---
 
-Only for functions that are increasing or decreasing everywhere.
+すべての点で単調増加または単調減少の関数に限ります。
 
 ## --video-solution--
 

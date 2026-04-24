@@ -1,6 +1,6 @@
 ---
 id: 699e85718f18cf77dfce5c26
-title: Parametric Equations
+title: パラメトリック方程式
 challengeType: 11
 videoId: VP5KJr2giwI
 dashedName: parametric-equations
@@ -8,32 +8,30 @@ dashedName: parametric-equations
 
 # --description--
 
-In this video, you will learn about parametric equations.
+このビデオでは、パラメトリック方程式について学びます。
 
 # --questions--
 
 ## --text--
 
-What is a cartesian equation for a curve?
+曲線のデカルト方程式とは何ですか？
 
 ## --answers--
 
-An equation in terms of r and θ that describes a curve.
+r と θ を使って曲線を表す方程式。
 
 ---
 
-An equation in terms of x and y that describes a curve.
+x と y を使って曲線を表す方程式。
 
 ---
 
-An equation that only gives the slope of a curve at each point.
+各点での曲線の傾きだけを示す方程式。
 
 ---
 
-An equation in terms of distance from a fixed point only.
+固定点からの距離だけを使った方程式。
 
 ## --video-solution--
 
 2
-
-

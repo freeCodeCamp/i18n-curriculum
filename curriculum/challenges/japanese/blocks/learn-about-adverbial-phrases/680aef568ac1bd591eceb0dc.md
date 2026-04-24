@@ -1,6 +1,6 @@
 ---
 id: 680aef568ac1bd591eceb0dc
-title: Task 98
+title: タスク 98
 challengeType: 22
 dashedName: task-98
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+音声を聞いて、以下の文を完成させてください。
 
 # --fillInTheBlank--
 
@@ -24,15 +24,15 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This is a short form for something that means messages or content created to promote a product, service, or event. Use the plural form.
+これは、商品、サービス、またはイベントを宣伝するために作られたメッセージやコンテンツを意味する短縮形です。複数形を使ってください。
 
 # --explanation--
 
-An `ad` (short for `advertisement`) is a piece of content designed to get people's attention and encourage them to buy something, use a service, or take action. Ads can appear on social media, websites, TV, radio, and more. For example:
+`ad`（`advertisement`の略）は、人々の注意を引き、何かを購入したりサービスを利用したり行動を起こしたりするよう促すために作られたコンテンツのことです。広告はソーシャルメディア、ウェブサイト、テレビ、ラジオなどに表示されます。例えば：
 
-- `They launched a new ad campaign for their latest product.` – This means the company created and shared promotional content to raise interest in a product.
+- `They launched a new ad campaign for their latest product.` – これは会社が商品への関心を高めるために宣伝コンテンツを作成し共有したことを意味します。
 
-- `We saw a lot of online ads for the holiday sale.` – This means there were many promotional messages about the sale on websites or apps.
+- `We saw a lot of online ads for the holiday sale.` – これはセールに関する多くの宣伝メッセージがウェブサイトやアプリにあったことを意味します。
 
 # --scene--
 

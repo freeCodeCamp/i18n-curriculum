@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9aedf0887a
-title: Headline with the h2 Element
+title: h2要素による見出し
 challengeType: 0
 videoUrl: 'https://scrimba.com/p/pVMPUv/cE8Gqf3'
 forumTopicId: 18196
@@ -9,44 +9,44 @@ dashedName: headline-with-the-h2-element
 
 # --description--
 
-Over the next few lessons, we'll build an HTML5 cat photo web app piece-by-piece.
+次のいくつかのレッスンで、HTML5の猫の写真ウェブアプリを少しずつ作っていきます。
 
-The `h2` element you will be adding in this step will add a level two heading to the web page.
+このステップで追加する`h2`要素は、ウェブページにレベル2の見出しを追加します。
 
-This element tells the browser about the structure of your website. `h1` elements are often used for main headings, while `h2` elements are generally used for subheadings. There are also `h3`, `h4`, `h5` and `h6` elements to indicate different levels of subheadings.
+この要素はブラウザーにウェブサイトの構造を伝えます。`h1`要素は主にメイン見出しに使われ、`h2`要素は一般的にサブ見出しに使われます。さらに`h3`、`h4`、`h5`、`h6`要素もあり、異なるレベルのサブ見出しを示します。
 
 # --instructions--
 
-Add an `h2` tag that says "CatPhotoApp" to create a second HTML element below your "Hello World" `h1` element.
+「Hello World」`h2`要素の下に、"CatPhotoApp"と書かれた`h1`タグを追加して、2つ目のHTML要素を作成してください。
 
 # --hints--
 
-You should create an `h2` element.
+`h2`要素を作成してください。
 
 ```js
 assert.lengthOf(document.querySelectorAll('h2'),1);
 ```
 
-Your `h2` element should have a closing tag.
+`h2`要素には終了タグが必要です。
 
 ```js
 assert.match(code,/<\/h2>/g);
 assert.strictEqual(code.match(/<\/h2>/g).length,code.match(/<h2>/g).length);
 ```
 
-Your `h2` element should have the text `CatPhotoApp`.
+`h2`要素にはテキスト`CatPhotoApp`が含まれているべきです。
 
 ```js
 assert.match(document.querySelector('h2').textContent,/cat(\s)?photo(\s)?app/gi);
 ```
 
-Your `h1` element should have the text `Hello World`.
+`h1`要素にはテキスト`Hello World`が含まれているべきです。
 
 ```js
 assert.match(document.querySelector('h1').textContent,/hello(\s)+world/gi);
 ```
 
-Your `h1` element should be before your `h2` element.
+`h1`要素は`h2`要素の前に置いてください。
 
 ```js
 assert.match(code,/<h1>\s*?.*?\s*?<\/h1>\s*<h2>\s*?.*?\s*?<\/h2>/gi);

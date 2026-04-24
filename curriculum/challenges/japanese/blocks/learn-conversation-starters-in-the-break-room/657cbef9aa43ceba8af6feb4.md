@@ -1,6 +1,6 @@
 ---
 id: 657cbef9aa43ceba8af6feb4
-title: Task 51
+title: タスク 51
 challengeType: 22
 dashedName: task-51
 lang: en-US
@@ -10,11 +10,11 @@ lang: en-US
 
 # --description--
 
-When you like doing something very much, you can say you `enjoy` it. It's a simple way to express that something makes you happy.
+何かをとても好きなとき、「you `enjoy` it」と言えます。これは、何かがあなたを幸せにすることを表す簡単な方法です。
 
-For example, you can say, `I enjoy playing video games`. This means playing video games is fun for you.
+たとえば、「`I enjoy playing video games`」と言えます。これは、ビデオゲームをするのが楽しいという意味です。
 
-In the dialogue, Sophie tells something that Maria enjoys in her job.
+会話では、ソフィーがマリアが仕事で楽しんでいることを話しています。
 
 # --fillInTheBlank--
 
@@ -28,7 +28,7 @@ In the dialogue, Sophie tells something that Maria enjoys in her job.
 
 ### --feedback--
 
-This verb means Maria likes something and feels happy doing it. It ends in `-s`.
+この動詞は、マリアが何かを好きで、それをしていると幸せに感じることを意味します。`-s`で終わります。
 
 # --scene--
 

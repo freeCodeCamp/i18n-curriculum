@@ -1,6 +1,6 @@
 ---
 id: 8d5823c8c441eddfaeb5bdef
-title: Create a Map Data Structure
+title: マップデータ構造を作成する
 challengeType: 1
 forumTopicId: 301629
 dashedName: create-a-map-data-structure
@@ -8,25 +8,25 @@ dashedName: create-a-map-data-structure
 
 # --description--
 
-The next few challenges will cover maps and hash tables. Maps are data structures that store key-value pairs. In JavaScript, these are available to us as objects. Maps provide rapid lookup of stored items based on key values and are very common and useful data structures.
+次のいくつかのチャレンジでは、マップとハッシュテーブルについて学びます。マップはキーと値のペアをストアするデータ構造です。JavaScriptでは、これらはオブジェクトとして利用できます。マップはキーの値に基づいて格納されたアイテムを素早く検索できるため、とても一般的で便利なデータ構造です。
 
 # --instructions--
 
-Let's get some practice creating our own map. Because JavaScript objects provide a much more efficient map structure than anything we could write here, this is intended primarily as a learning exercise. However, JavaScript objects only provide us with certain operations. What if we wanted to define custom operations? Use the `Map` object provided here as a wrapper around a JavaScript `object`. Create the following methods and operations on the Map object:
+自分でマップを作成する練習をしましょう。JavaScriptのオブジェクトはここで書けるものよりもはるかに効率的なマップ構造を提供するため、これは主に学習用の演習です。しかし、JavaScriptのオブジェクトは特定の操作しか提供しません。もしカスタムの操作を定義したい場合はどうでしょう？ここで提供される`Map`オブジェクトをJavaScriptの`object`のラッパーとして使ってください。Mapオブジェクトに以下のメソッドと操作を作成してください。
 
 <ul>
-<li><code>add</code> accepts a <code>key, value</code> pair to add to the map.</li>
-<li><code>remove</code> accepts a key and removes the associated <code>key, value</code> pair</li>
-<li><code>get</code> accepts a <code>key</code> and returns the stored <code>value</code></li>
-<li><code>has</code> accepts a <code>key</code> and returns <dfn>true</dfn> if the key exists or <dfn>false</dfn> if it doesn't.</li>
-<li><code>values</code> returns an array of all the values in the map</li>
-<li><code>size</code> returns the number of items in the map</li>
-<li><code>clear</code> empties the map</li>
+<li><code>add</code>は<code>key, value</code>のペアを受け取り、マップに追加します。</li>
+<li><code>remove</code>はキーを受け取り、関連する<code>key, value</code>のペアを削除します。</li>
+<li><code>get</code>は<code>key</code>を受け取り、格納された<code>value</code>を返します。</li>
+<li><code>has</code>は<code>key</code>を受け取り、そのキーが存在すれば<dfn>true</dfn>、存在しなければ<dfn>false</dfn>を返します。</li>
+<li><code>values</code>はマップ内のすべての値を配列で返します。</li>
+<li><code>size</code>はマップ内のアイテム数を返します。</li>
+<li><code>clear</code>はマップを空にします。</li>
 </ul>
 
 # --hints--
 
-The `Map` data structure should exist.
+`Map`データ構造が存在しているはずです。
 
 ```js
 assert(
@@ -40,7 +40,7 @@ assert(
 );
 ```
 
-The `Map` object should have the following methods: `add`, `remove`, `get`, `has`, `values`, `clear`, and `size`.
+`Map`オブジェクトは次のメソッドを持つべきです：`add`、`remove`、`get`、`has`、`values`、`clear`、および`size`。
 
 ```js
 assert(
@@ -62,7 +62,7 @@ assert(
 );
 ```
 
-The `add` method should add items to the map.
+`add`メソッドはマップにアイテムを追加するべきです。
 
 ```js
 assert(
@@ -79,7 +79,7 @@ assert(
 );
 ```
 
-The `has` method should return `true` for added items and `false` for absent items.
+`has`メソッドは追加されたアイテムに対して`true`を返し、存在しないアイテムに対して`false`を返すべきです。
 
 ```js
 assert(
@@ -94,7 +94,7 @@ assert(
 );
 ```
 
-The `get` method should accept keys as input and should return the associated values.
+`get`メソッドはキーを入力として受け取り、関連する値を返すべきです。
 
 ```js
 assert(
@@ -109,7 +109,7 @@ assert(
 );
 ```
 
-The `values` method should return all the values stored in the map as strings in an array.
+`values`メソッドはマップに格納されたすべての値を文字列の配列として返すべきです。
 
 ```js
 assert(
@@ -131,7 +131,7 @@ assert(
 );
 ```
 
-The `clear` method should empty the map and the `size` method should return the number of items present in the map.
+`clear`メソッドはマップを空にし、`size`メソッドはマップに存在するアイテム数を返すべきです。
 
 ```js
 assert(
@@ -158,7 +158,7 @@ assert(
 var Map = function() {
   this.collection = {};
   // Only change code below this line
-
+  
   // Only change code above this line
 };
 ```

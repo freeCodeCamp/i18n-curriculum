@@ -1,6 +1,6 @@
 ---
 id: 698de3bb7932b3cc4b19c93a
-title: The Merge Function
+title: マージ関数
 challengeType: 11
 videoId: nXhW8WE8rFU
 dashedName: the-merge-function
@@ -8,29 +8,29 @@ dashedName: the-merge-function
 
 # --description--
 
-In this video, you will learn how to implement the merge sort algorithm on a linked list.
+このビデオでは、連結リストに対してマージソートアルゴリズムを実装する方法を学びます。
 
 # --questions--
 
 ## --text--
 
-What are the three functions that will be used in this merge sort implementation?
+このマージソートの実装で使われる3つの関数は何ですか？
 
 ## --answers--
 
-`merge_sort`, `split` and `merge`
+`merge_sort`, `split` と `merge`
 
 ---
 
-`merge_sort`, `insert` and `delete`
+`merge_sort`, `insert` と `delete`
 
 ---
 
-`sort`, `combine` and `partition`
+`sort`, `combine` と `partition`
 
 ---
 
-`search`, `split` and `merge`
+`search`, `split` と `merge`
 
 ## --video-solution--
 

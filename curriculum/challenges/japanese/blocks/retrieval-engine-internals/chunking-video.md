@@ -1,6 +1,6 @@
 ---
 id: 69ae6a0eb4a814be6a4f2bdf
-title: Chunking
+title: チャンク処理
 challengeType: 11
 videoId: tFUkvObOaHc
 dashedName: chunking
@@ -8,13 +8,13 @@ dashedName: chunking
 
 # --description--
 
-In this video, you will learn about chunking.
+このビデオでは、チャンク処理について学びます。
 
 # --questions--
 
 ## --text--
 
-Which of the following is NOT a common type of chunking?
+次のうち、一般的なチャンク処理の種類ではないものはどれですか？
 
 ## --answers--
 
@@ -35,4 +35,3 @@ Objective chunking
 ## --video-solution--
 
 4
-

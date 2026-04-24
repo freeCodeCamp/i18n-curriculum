@@ -1,13 +1,13 @@
 ---
 id: 67d301cc87b84eaa42bdcdbe
-title: What Is a tsconfig File, and Why Is It Important to Include in Your TypeScript Projects?
+title: tsconfigファイルとは何か、そしてTypeScriptプロジェクトに含めることが重要な理由
 challengeType: 19
 dashedName: what-is-a-tsconfig-file-and-why-is-it-important-to-include-in-your-typescript-projects
 ---
 
 # --description--
 
-TypeScript's compiler settings can be configured to meet your project's needs. That configuration lives in a `tsconfig.json` file in the root directory of your project. In fact, without it, the compiler will not run unless you pass it command flags directly. But what exactly does this file do? Well, let's take a look at an example file:
+TypeScriptのコンパイラ設定は、プロジェクトのニーズに合わせて構成できます。その設定は、プロジェクトのルートディレクトリにある`tsconfig.json`ファイルに保存されます。実際、このファイルがなければ、コマンドフラグを直接渡さない限りコンパイラは実行されません。しかし、このファイルは具体的に何をするのでしょうか？では、例のファイルを見てみましょう。
 
 ```json
 {
@@ -26,27 +26,27 @@ TypeScript's compiler settings can be configured to meet your project's needs. T
 }
 ```
 
-This seems like a lot! So let's break it down. The `compilerOptions` property is going to contain the "meat" of your configuration - this is where you control how the TypeScript compiler behaves. Looking at that nested object…
+かなり多くの設定があるように見えますね。では分解して説明します。`compilerOptions`プロパティには設定の「本体」が含まれており、ここでTypeScriptコンパイラの動作を制御します。そのネストされたオブジェクトを見てみると…
 
-The `rootDir` and `outDir` tell TypeScript which directory holds your source files, and which directory should contain the transpiled JavaScript code.
+`rootDir`と`outDir`は、TypeScriptにどのディレクトリがソースファイルを保持し、どのディレクトリにトランスパイルされたJavaScriptコードを置くかを伝えます。
 
-The `lib` property determines which type definitions the compiler uses, and allows you to include support for specific ES releases, the DOM, and more.
+`lib`プロパティは、コンパイラが使用する型定義を決定し、特定のESリリースやDOMなどのサポートを含めることを可能にします。
 
-`module` and `moduleResolution` effectively work in tandem to manage how your package uses modules - either CommonJS or ECMAScript.
+`module`と`moduleResolution`は、パッケージがモジュールをどのように使うか（CommonJSかECMAScriptか）を管理するために連携して動作します。
 
-`esModuleInterop` allows for smoother interoperability between CommonJS and ES modules by automatically creating namespace objects for imports, making it easier to use modules from different systems together in your TypeScript projects, and the `skipLibCheck` option skips validating `.d.ts` files that aren't referenced by imports in your code.
+`esModuleInterop`は、CommonJSとESモジュール間の相互運用性をスムーズにし、インポートのために名前空間オブジェクトを自動的に作成することで、異なるシステムのモジュールをTypeScriptプロジェクトで一緒に使いやすくします。また、`skipLibCheck`オプションは、コード内でインポートされていない`.d.ts`ファイルの検証をスキップします。
 
-And finally we reach the `strict` mode. One might argue that TypeScript isn't truly helpful without this flag enabled, as it toggles quite a few other checks, such as requiring you to properly handle nullable types, or warn when TypeScript can't infer a type and falls back to any.
+そして最後に`strict`モードに到達します。このフラグが有効でなければ、TypeScriptは本当に役立つとは言えないかもしれません。なぜなら、nullable型の適切な処理を要求したり、型推論ができずanyにフォールバックした場合に警告を出したりと、いくつかのチェックを切り替えるからです。
 
-Before we finish, a quick note about the top-level `exclude` property - when you've defined a source directory, you may have TypeScript code outside of that directory which you don't want compiled as part of your production code. For example, your test code. The `exclude` array tells the compiler to ignore these TypeScript files during compilation, but still allows tooling like Intellisense to expose potential issues.
+最後に、トップレベルの`exclude`プロパティについての簡単な注意点です。ソースディレクトリを定義した場合、そのディレクトリ外にあるTypeScriptコードは、本番コードの一部としてコンパイルしたくないことがあります。例えばテストコードです。`exclude`配列は、これらのTypeScriptファイルをコンパイル時に無視するようコンパイラに指示しますが、Intellisenseのようなツールが潜在的な問題を公開することは可能にします。
 
-There are a ton of other compiler options you can explore - over 50! I encourage you to explore the documentation and experiment to find the configuration that works for your project's needs.
+他にも50以上のコンパイラオプションがあり、ドキュメントを調べて試しながら、プロジェクトのニーズに合った設定を見つけることをお勧めします。
 
 # --questions--
 
 ## --text--
 
-Which property in the `tsconfig.json` file affects how the compiler behaves?
+`tsconfig.json`ファイルのどのプロパティがコンパイラの動作に影響しますか？
 
 ## --answers--
 
@@ -54,7 +54,7 @@ Which property in the `tsconfig.json` file affects how the compiler behaves?
 
 ### --feedback--
 
-This property is an object containing options for the compiler.
+このプロパティはコンパイラのオプションを含むオブジェクトです。
 
 ---
 
@@ -66,7 +66,7 @@ This property is an object containing options for the compiler.
 
 ### --feedback--
 
-This property is an object containing options for the compiler.
+このプロパティはコンパイラのオプションを含むオブジェクトです。
 
 ---
 
@@ -74,7 +74,7 @@ This property is an object containing options for the compiler.
 
 ### --feedback--
 
-This property is an object containing options for the compiler.
+このプロパティはコンパイラのオプションを含むオブジェクトです。
 
 ## --video-solution--
 
@@ -82,35 +82,35 @@ This property is an object containing options for the compiler.
 
 ## --text--
 
-What does the `strict` option in the `tsconfig.json` file do?
+`strict`ファイルの`tsconfig.json`オプションは何をしますか？
 
 ## --answers--
 
-It only checks for nullable types.
+nullable型のみをチェックします。
 
 ### --feedback--
 
-This option enables various checks, including handling of nullable types.
+このオプションはnullable型の処理を含むさまざまなチェックを有効にします。
 
 ---
 
-It enforces the use of CommonJS modules.
+CommonJSモジュールの使用を強制します。
 
 ### --feedback--
 
-This option enables various checks, including handling of nullable types.
+このオプションはnullable型の処理を含むさまざまなチェックを有効にします。
 
 ---
 
-It toggles several type-checking options.
+いくつかの型チェックオプションを切り替えます。
 
 ---
 
-It excludes test files from compilation.
+テストファイルをコンパイルから除外します。
 
 ### --feedback--
 
-This option enables various checks, including handling of nullable types.
+このオプションはnullable型の処理を含むさまざまなチェックを有効にします。
 
 ## --video-solution--
 
@@ -118,35 +118,35 @@ This option enables various checks, including handling of nullable types.
 
 ## --text--
 
-What is the purpose of the `exclude` array in the `tsconfig.json` file?
+`exclude`ファイルの`tsconfig.json`配列の目的は何ですか？
 
 ## --answers--
 
-To specify which files to compile.
+どのファイルをコンパイルするかを指定するため。
 
 ### --feedback--
 
-You can use this to exclude test code from compilation.
+これを使ってテストコードをコンパイルから除外できます。
 
 ---
 
-To list additional libraries to include.
+追加で含めるライブラリをリストアップするため。
 
 ### --feedback--
 
-You can use this to exclude test code from compilation.
+これを使ってテストコードをコンパイルから除外できます。
 
 ---
 
-To ignore certain files during compilation.
+コンパイル時に特定のファイルを無視するため。
 
 ---
 
-To define output directories for compiled files.
+コンパイルされたファイルの出力ディレクトリを定義するため。
 
 ### --feedback--
 
-You can use this to exclude test code from compilation.
+これを使ってテストコードをコンパイルから除外できます。
 
 ## --video-solution--
 

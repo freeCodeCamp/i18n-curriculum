@@ -1,6 +1,6 @@
 ---
 id: 698dc0277932b3cc4b19c91e
-title: Evaluating Linear Search
+title: 線形探索の評価
 challengeType: 11
 videoId: 0bipiTtnXIA
 dashedName: evaluating-linear-search
@@ -8,13 +8,13 @@ dashedName: evaluating-linear-search
 
 # --description--
 
-In this video, you will learn more about the linear search algorithm and how to evaluate its runtime.
+このビデオでは、線形探索アルゴリズムについてさらに学び、その実行時間の評価方法を理解します。
 
 # --questions--
 
 ## --text--
 
-What are the two measures of efficiency?
+効率の2つの指標は何ですか？
 
 ## --answers--
 

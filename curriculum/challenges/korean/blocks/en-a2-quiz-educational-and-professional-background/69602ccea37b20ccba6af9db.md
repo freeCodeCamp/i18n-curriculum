@@ -1,6 +1,6 @@
 ---
 id: 69602ccea37b20ccba6af9db
-title: 교육 및 직업 배경 퀴즈
+title: Educational and Professional Background Quiz
 challengeType: 8
 dashedName: en-a2-quiz-educational-and-professional-background
 lang: en-US
@@ -10,9 +10,11 @@ lang: en-US
 
 이 퀴즈는 면접, 교육, 그리고 `past simple` 시제에 대한 이해도를 확인합니다.
 
-퀴즈를 통과하려면 아래 20문제 중 최소 18문제를 올바르게 맞혀야 합니다.
+퀴즈를 통과하려면 아래 20문제 중 최소 18문제를 올바르게 답해야 합니다.
 
 각 질문을 읽고 정답을 선택하세요. 각 질문에는 정답이 하나뿐입니다.
+
+접근성을 위해 청각 장애 학습자를 위한 대본이 제공됩니다; 필요할 때만 사용하는 것을 권장합니다.
 
 # --quizzes--
 
@@ -26,7 +28,7 @@ lang: en-US
 
 #### --distractors--
 
-동작이 지금 일어나고 있습니다.
+행동이 지금 일어나고 있다.
 
 ---
 
@@ -34,11 +36,11 @@ lang: en-US
 
 ---
 
-동작이 매일 일어납니다.
+행동이 매일 일어난다.
 
 #### --answer--
 
-동작이 과거에 일어났습니다.
+행동이 과거에 일어났다.
 
 ### --question--
 
@@ -432,7 +434,7 @@ lang: en-US
 
 #### --text--
 
-`recruiter`는 누구인가요?
+Who is a `recruiter`?
 
 #### --distractors--
 

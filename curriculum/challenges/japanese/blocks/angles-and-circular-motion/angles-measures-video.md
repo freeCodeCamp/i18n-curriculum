@@ -1,6 +1,6 @@
 ---
 id: 699e54288f18cf77dfce5c0a
-title: Angles and Their Measures
+title: 角度とその測定方法
 challengeType: 11
 videoId: Ycu5Xn5rFuc
 dashedName: angles-and-their-measures
@@ -8,31 +8,30 @@ dashedName: angles-and-their-measures
 
 # --description--
 
-In this video, you will learn about the different ways to describe angles.
+このビデオでは、角度を表すさまざまな方法について学びます。
 
 # --questions--
 
 ## --text--
 
-How are angles usually measured?
+角度は通常どのように測定されますか？
 
 ## --answers--
 
-They are measured by lines or curves.
+線や曲線で測定されます。
 
 ---
 
-They are measured by degrees or radians.
+度数やラジアンで測定されます。
 
 ---
 
-They are measured by feet or meters.
+フィートやメートルで測定されます。
 
 ---
 
-They are measured by miles or kilometers.
+マイルやキロメートルで測定されます。
 
 ## --video-solution--
 
 2
-

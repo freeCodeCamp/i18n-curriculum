@@ -7,25 +7,25 @@ dashedName: step-39
 
 # --description--
 
-Now that you have finished testing the value of `entryDropdown.value`, you can remove the `console.log` statement.
+`entryDropdown.value` の値のテストが終わったので、`console.log` 文を削除できます。
 
-Your next step is to allow users to add entries to the calorie counter. Declare an empty function `addEntry`. This function should not take any parameters.
+次のステップは、ユーザーがカロリーカウンターにエントリーを追加できるようにすることです。空の関数 `addEntry` を宣言してください。この関数はパラメータを受け取らないようにしてください。
 
 # --hints--
 
-You should remove the `console.log` statement.
+`console.log` 文を削除してください。
 
 ```js
 assert.notMatch(code, /console\.log\s*\(.*\)/)
 ```
 
-You should declare an `addEntry` function.
+`addEntry` 関数を宣言してください。
 
 ```js
 assert.isFunction(addEntry);
 ```
 
-Your `addEntry` function should not take any parameters.
+`addEntry` 関数はパラメータを受け取らないようにしてください。
 
 ```js
 assert.match(addEntry?.toString(), /\(\s*\)/);

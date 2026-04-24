@@ -1,6 +1,6 @@
 ---
 id: 67d81e8afbcfb390dd7fc1e0
-title: Task 133
+title: タスク 133
 challengeType: 19
 dashedName: task-133
 lang: en-US
@@ -12,13 +12,13 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+音声を聞いて、以下の質問に答えてください。
 
 # --questions--
 
 ## --text--
 
-Jake hasn't checked that yet and says the team should focus on something else. What would he say?
+ジェイク はまだ確認しておらず、チームは別のことにフォーカスすべきだと言っています。彼は何と言うでしょうか？  
 
 ## --answers--
 
@@ -38,7 +38,7 @@ EN4ec0b91b
 
 ### --feedback--
 
-Jake hasn't checked yet, so he wouldn't be able to confirm this.
+ジェイク はまだ確認していないので、これを確かめることはできません。
 
 ## --video-solution--
 
@@ -46,11 +46,11 @@ Jake hasn't checked yet, so he wouldn't be able to confirm this.
 
 # --explanation--
 
-Securing critical systems is usually the first priority before assessing individual files.
+重要なシステムの保護が、個々のファイルの評価よりも通常は優先されます。
 
-`Not yet.` means Jake hasn't checked which files were compromised.
+`Not yet.` は ジェイク がどのファイルが侵害されたかまだ確認していないことを意味します。
 
-`We should focus on the critical systems first.` means that instead of looking at files, the team should prioritize protecting essential parts of the system.
+`We should focus on the critical systems first.` はファイルを見る代わりに、チームがシステムの重要な部分の保護を優先すべきだという意味です。
 
 # --scene--
 

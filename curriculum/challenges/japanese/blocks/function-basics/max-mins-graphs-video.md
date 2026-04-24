@@ -1,6 +1,6 @@
 ---
 id: 699e033c138be64fa313138b
-title: Maximum and Minimum Values on a Graph
+title: グラフ上の最大値と最小値
 challengeType: 11
 videoId: E1JSGpO8i3w
 dashedName: maximum-and-minimum-values-on-a-graph
@@ -8,13 +8,13 @@ dashedName: maximum-and-minimum-values-on-a-graph
 
 # --description--
 
-In this video, you will learn about maximum and minimum values on a graph.
+このビデオでは、グラフ上の最大値と最小値について学びます。
 
 # --questions--
 
 ## --text--
 
-What is another name for maximum and minimum values on a graph?
+グラフ上の最大値と最小値の別名は何ですか？
 
 ## --answers--
 

@@ -1,13 +1,13 @@
 ---
 id: 66ed8fd0f45ce3ece4053eaf
-title: CSS Attribute Selectors Quiz
+title: CSS属性セレクター クイズ
 challengeType: 8
 dashedName: quiz-css-attribute-selectors
 ---
 
 # --description--
 
-To pass the quiz, you must correctly answer at least 9 of the 10 questions below.
+このクイズに合格するには、以下の10問中少なくとも9問に正しく答える必要があります。
 
 # --quizzes--
 
@@ -17,29 +17,29 @@ To pass the quiz, you must correctly answer at least 9 of the 10 questions below
 
 #### --text--
 
-What are CSS attribute selectors used for?
+CSS属性セレクターは何のために使われますか？
 
 #### --distractors--
 
-To apply styles to elements based on their tag name.
+タグ名に基づいて要素にスタイルを適用するため。
 
 ---
 
-To apply styles to elements based on their class name.
+クラス名に基づいて要素にスタイルを適用するため。
 
 ---
 
-To apply styles to elements based on their parent element.
+親要素に基づいて要素にスタイルを適用するため。
 
 #### --answer--
 
-To apply styles to elements based on their attributes.
+属性に基づいて要素にスタイルを適用するため。
 
 ### --question--
 
 #### --text--
 
-Which of the following will NOT be selected by this CSS selector?
+次のうち、このCSSセレクターで選択されないものはどれですか？
 
 ```css
 [title~="flower"] {
@@ -75,7 +75,7 @@ Which of the following will NOT be selected by this CSS selector?
 
 #### --text--
 
-Which CSS selector matches all `p` elements with a `lang` attribute set to `"fr"`?
+どのCSSセレクターが、`p`属性が`lang`に設定されているすべての`"fr"`要素にマッチしますか？
 
 #### --distractors--
 
@@ -105,7 +105,7 @@ p[lang="fr"] { color: blue; }
 
 #### --text--
 
-Which CSS selector matches all `a` elements with an `href` attribute?
+どのCSSセレクターが、`a`属性を持つすべての`href`要素にマッチしますか？
 
 #### --distractors--
 
@@ -135,7 +135,7 @@ a[href] { color: blue; }
 
 #### --text--
 
-Which CSS selector matches all ordered lists with uppercase Roman numerals?
+どのCSSセレクターが、大文字のローマ数字を持つすべての番号付きリストにマッチしますか？
 
 #### --distractors--
 
@@ -165,29 +165,29 @@ ol[type="I"] { border-color: black; }
 
 #### --text--
 
-What is the `data-lang` attribute commonly used for?
+`data-lang`属性は一般的に何に使われますか？
 
 #### --distractors--
 
-To specify the language of the document.
+ドキュメントの言語を指定するため。
 
 ---
 
-To define the character encoding of the document.
+ドキュメントの文字エンコーディングを定義するため。
 
 ---
 
-To set the language of an element based on its parent element.
+親要素に基づいて要素の言語を設定するため。
 
 #### --answer--
 
-To apply styles to elements based on this custom data attribute.
+このカスタムデータ属性に基づいて要素にスタイルを適用するため。
 
 ### --question--
 
 #### --text--
 
-Which CSS selector should you use to style `img` elements only if their `alt` attribute is equal to `"code"`?
+`img`属性が`alt`に等しい場合にのみ`"code"`要素をスタイルするには、どのCSSセレクターを使うべきですか？
 
 #### --distractors--
 
@@ -217,7 +217,7 @@ img[alt="code"] { border: 1px solid red; }
 
 #### --text--
 
-Which CSS selector matches ordered lists with a numerical numbering type?
+数値の番号付けタイプを持つ番号付きリストにマッチするCSSセレクターはどれですか？
 
 #### --distractors--
 
@@ -247,7 +247,7 @@ ol[type="1"] { color: purple; }
 
 #### --text--
 
-Which of the following CSS selectors would you use to style `a` elements with both `href` and `title` attributes?
+`a`属性と`href`属性の両方を持つ`title`要素をスタイルするには、次のうちどのCSSセレクターを使いますか？
 
 #### --distractors--
 
@@ -277,7 +277,7 @@ a[href][title] { text-decoration: underline dotted; }
 
 #### --text--
 
-Which CSS selector would you use if you are developing a website for a restaurant and want to style all elements with the `menu-item` class that have a `data-special` attribute?
+レストランのウェブサイトを開発していて、`menu-item`属性を持つ`data-special`クラスのすべての要素をスタイルしたい場合、どのCSSセレクターを使いますか？
 
 #### --distractors--
 
@@ -302,4 +302,3 @@ menu-item[data-special] { background-color: blue; }
 ```css
 .menu-item[data-special] { background-color: blue; }
 ```
-

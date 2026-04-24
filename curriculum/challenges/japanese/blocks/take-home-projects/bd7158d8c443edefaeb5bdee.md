@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c443edefaeb5bdee
-title: Build an Image Search Abstraction Layer
+title: 画像検索抽象化レイヤーを構築する
 challengeType: 4
 forumTopicId: 302361
 dashedName: build-an-image-search-abstraction-layer
@@ -8,17 +8,17 @@ dashedName: build-an-image-search-abstraction-layer
 
 # --description--
 
-Build a full-stack JavaScript app that allows you to search for images like this: <a href="https://image-search-abstraction-layer.freecodecamp.rocks/query/lolcats%20funny?page=10" target="_blank" rel="noopener noreferrer nofollow">https://image-search-abstraction-layer.freecodecamp.rocks/query/lolcats%20funny?page=10</a> and browse recent search queries like this: <a href="https://image-search-abstraction-layer.freecodecamp.rocks/recent/" target="_blank" rel="noopener noreferrer nofollow">https://image-search-abstraction-layer.freecodecamp.rocks/recent/</a>. Use a site builder of your choice to complete the project.
+このプロジェクトでは、次のように画像を検索できるフルスタックJavaScriptアプリを作成します：<a href="https://image-search-abstraction-layer.freecodecamp.rocks/query/lolcats%20funny?page=10" target="_blank" rel="noopener noreferrer nofollow">https://image-search-abstraction-layer.freecodecamp.rocks/query/lolcats%20funny?page=10</a>。また、最近の検索クエリを次のように閲覧できます：<a href="https://image-search-abstraction-layer.freecodecamp.rocks/recent/" target="_blank" rel="noopener noreferrer nofollow">https://image-search-abstraction-layer.freecodecamp.rocks/recent/</a>。お好きなサイトビルダーを使ってプロジェクトを完成させてください。
 
-Here are the specific user stories you should implement for this project:
+このプロジェクトで実装すべき具体的なユーザーストーリーは以下の通りです：
 
-**User Story:** You can get the image URLs, description and page URLs for a set of images relating to a given search string.
+**ユーザーストーリー：** 指定された検索文字列に関連する画像のURL、説明、ページURLのセットを取得できます。
 
-**User Story:** You can paginate through the responses by adding a `?page=2` parameter to the URL.
+**ユーザーストーリー：** URLに`?page=2`パラメータを追加してレスポンスをページネーションできます。
 
-**User Story:** You can get a list of the most recently submitted search strings.
+**ユーザーストーリー：** 最近提出された検索文字列のリストを取得できます。
 
-When you are done, make sure a working demo of your project is hosted somewhere public. Then submit the URL to it in the Solution Link field. Optionally, also submit a link to your project's source code in the GitHub Link field.
+完成したら、プロジェクトの動作するデモをどこかの公開場所にホストしてください。その後、ソリューションリンク欄にそのURLを提出してください。オプションで、GitHubリンク欄にプロジェクトのソースコードへのリンクも提出できます。
 
 # --solutions--
 

@@ -7,10 +7,10 @@ dashedName: challenge-132
 
 # --description--
 
-Given an array of values, remove all occurrences of the most frequently occurring element and return the resulting array.
+配列が与えられたとき、最も頻繁に出現する要素をすべて削除し、結果の配列を返してください。
 
-- If multiple values are tied for most frequent, remove all of them.
-- Do not change any of the other elements or their order.
+- 複数の値が最頻出で同率の場合は、それらすべてを削除してください。
+- 他の要素やその順序は変更しないでください。
 
 # --hints--
 

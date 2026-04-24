@@ -1,6 +1,6 @@
 ---
 id: 698dbbcf7932b3cc4b19c91a
-title: Introduction
+title: はじめに
 challengeType: 11
 videoId: 0tlFSgUJt4Q
 dashedName: introduction
@@ -8,13 +8,13 @@ dashedName: introduction
 
 # --description--
 
-Listen to Beau Carnes introduce this Algorithms and Data Structures course.
+Beau Carnesがこのアルゴリズムとデータ構造のコースを紹介します。
 
 # --questions--
 
 ## --text--
 
-Who created this course?
+このコースを作成したのは誰ですか？
 
 ## --answers--
 
@@ -22,7 +22,7 @@ Treehouse
 
 ---
 
-CodeAcademy
+CodeAcademy 
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 id: bd7154d8c242eddfaeb5bd13
-title: Build the Game of Life
+title: ライフゲームを作る
 challengeType: 3
 forumTopicId: 302362
 dashedName: build-the-game-of-life
@@ -8,36 +8,36 @@ dashedName: build-the-game-of-life
 
 # --description--
 
-**Objective:** Build an app that is functionally similar to this: <a href="https://codepen.io/freeCodeCamp/full/BpwMZv/" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/BpwMZv/</a>.
+**目的:** 次のアプリと機能的に似たものを作ってください：<a href="https://codepen.io/freeCodeCamp/full/BpwMZv/" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/BpwMZv/</a>。
 
-The Game of Life is a cellular automaton devised by the British mathematician John Horton Conway. It is a <em>zero-player game</em>, meaning that its evolution is determined by its initial state, requiring no further input. One interacts with the Game of Life by creating an initial configuration and observing how it evolves.
+ライフゲームは、イギリスの数学者ジョン・ホートン・コンウェイによって考案されたセル・オートマトンです。これは<em>ゼロプレイヤーゲーム</em>であり、進化は初期状態によって決まり、それ以降の入力は必要ありません。ライフゲームとのやりとりは、初期配置を作成し、その進化を観察することによって行います。
 
-The universe of the Game of Life is an infinite, two-dimensional orthogonal grid of square cells, each of which is in one of two possible states, populated and unpopulated. Every cell interacts with its eight neighbors, which are the cells that are horizontally, vertically, or diagonally adjacent.
+ライフゲームの世界は、無限の二次元直交格子の正方形セルで構成され、それぞれのセルは「生」か「死」のどちらかの状態にあります。各セルは、水平、垂直、斜めに隣接する8つの隣接セルと相互作用します。
 
-At each step in time, the following transitions occur:
+各ステップで、次の変化が起こります：
 
-- Any live cell with fewer than two live neighbors dies, as if by underpopulation.
-- Any live cell with two or three live neighbors lives on to the next generation.
-- Any live cell with more than three live neighbors dies, as if by overpopulation.
-- Any dead cell with exactly three live neighbors becomes a live cell, as if by reproduction.
+- 生きているセルで隣接する生きたセルが2つ未満の場合、過疎により死にます。
+- 生きているセルで隣接する生きたセルが2つか3つの場合、次の世代も生き続けます。
+- 生きているセルで隣接する生きたセルが3つより多い場合、過密により死にます。
+- 死んでいるセルで隣接する生きたセルがちょうど3つの場合、誕生して生きたセルになります。
 
-Fulfill the below user stories and get all of the tests to pass. Use whichever libraries or APIs you need. Give it your own personal style.
+以下のユーザーストーリーを満たし、すべてのテストをクリアしてください。必要なライブラリやAPIは自由に使ってください。自分なりのスタイルを加えても構いません。
 
-**User Story:** When I first arrive at the game, it will randomly generate a board and start playing.
+**ユーザーストーリー:** ゲームに初めてアクセスしたとき、ランダムにボードが生成されて再生が始まる。
 
-**User Story:** I can start and stop the board.
+**ユーザーストーリー:** ボードの再生を開始および停止できる。
 
-**User Story:** I can set up the board.
+**ユーザーストーリー:** ボードを設定できる。
 
-**User Story:** I can clear the board.
+**ユーザーストーリー:** ボードをクリアできる。
 
-**User Story:** When I press start, the game will play out.
+**ユーザーストーリー:** スタートを押すと、ゲームが進行する。
 
-**User Story:** Each time the board changes, I can see how many generations have gone by.
+**ユーザーストーリー:** ボードが変化するたびに、何世代経過したかが見える。
 
-When you are finished, include a link to your project and click the "I've completed this challenge" button.
+完成したら、プロジェクトへのリンクを含め、「チャレンジをクリアしました」ボタンをクリックしてください。
 
-You can get feedback on your project by sharing it on the <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp forum</a>.
+プロジェクトのフィードバックは<a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCampフォーラム</a>で共有して得ることができます。
 
 # --solutions--
 

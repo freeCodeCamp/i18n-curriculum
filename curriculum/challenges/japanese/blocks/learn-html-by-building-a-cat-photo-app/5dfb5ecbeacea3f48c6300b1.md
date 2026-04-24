@@ -1,15 +1,15 @@
 ---
 id: 5dfb5ecbeacea3f48c6300b1
-title: Step 23
+title: ステップ 23
 challengeType: 0
 dashedName: step-23
 ---
 
 # --description--
 
-The `li` element is used to create a list item in an ordered or unordered list.
+`li` 要素は、番号付きリストまたは番号なしリストのリスト項目を作成するために使います。
 
-Here is an example of list items in an unordered list:
+以下は番号なしリストのリスト項目の例です：
 
 ```html
 <ul>
@@ -18,24 +18,24 @@ Here is an example of list items in an unordered list:
 </ul>
 ```
 
-Within the `ul` element nest three list items to display three things cats love:
+`ul` 要素の中に3つのリスト項目をネストして、猫が好きなものを3つ表示してください：
 
 `catnip`
 
 `laser pointers`
 
-`lasagna`
+`lasagna` 
 
 # --hints--
 
-You should have three `li` elements. Each `li` element should have its own opening and closing tag.
+`li` 要素が3つあるはずです。各 `li` 要素は独自の開始タグと終了タグを持つ必要があります。
 
 ```js
 assert.lengthOf(document.querySelectorAll('li'),3)
 assert.lengthOf(code.match(/<\/li\>/g),3);
 ```
 
-You should have three `li` elements with the text `catnip`, `laser pointers` and `lasagna` in any order. You have either omitted some text or have a typo.
+テキストが `li`、`catnip`、`laser pointers` の3つの `lasagna` 要素があるはずです。テキストを省略しているか、タイプミスがあります。
 
 ```js
 assert.deepStrictEqual(
@@ -46,7 +46,7 @@ assert.deepStrictEqual(
 );
 ```
 
-The three `li` elements should be located between the `ul` element's opening and closing tags.
+3つの `li` 要素は `ul` 要素の開始タグと終了タグの間に配置してください。
 
 ```js
 assert(
@@ -76,7 +76,7 @@ assert(
         <h3>Things cats love:</h3>
 --fcc-editable-region--
         <ul>
-
+          
         </ul>
 --fcc-editable-region--
       </section>
@@ -84,4 +84,3 @@ assert(
   </body>
 </html>
 ```
-

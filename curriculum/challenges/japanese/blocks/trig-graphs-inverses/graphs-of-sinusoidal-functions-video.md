@@ -1,6 +1,6 @@
 ---
 id: 699e69db8f18cf77dfce5c12
-title: Graphs of Sinusoidal Functions
+title: 正弦波関数のグラフ
 challengeType: 11
 videoId: Jif_m8LkyMA
 dashedName: graphs-of-sinusoidal-functions
@@ -8,32 +8,30 @@ dashedName: graphs-of-sinusoidal-functions
 
 # --description--
 
-In this video, you will learn about the graphs of sinusoidal functions.
+このビデオでは、正弦波関数のグラフについて学びます。
 
 # --questions--
 
 ## --text--
 
-What are sinusoidal functions related to?
+正弦波関数は何に関連していますか？
 
 ## --answers--
 
-They are related to tangent and cotangent.
+正接と余接に関連しています。
 
 ---
 
-They are related to secant and cosecant.
+正割と余割に関連しています。
 
 ---
 
-They are related to tangent and secant.
+正接と正割に関連しています。
 
 ---
 
-They are related to sine and cosine.
+正弦と余弦に関連しています。
 
 ## --video-solution--
 
 4
-
-

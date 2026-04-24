@@ -1,6 +1,6 @@
 ---
 id: 699e8ca68f18cf77dfce5c27
-title: Difference Quotient
+title: 差分商
 challengeType: 11
 videoId: D5ajV73gC1k
 dashedName: difference-quotient
@@ -8,31 +8,30 @@ dashedName: difference-quotient
 
 # --description--
 
-In this video, you will learn about the difference quotient.
+このビデオでは、差分商について学びます。
 
 # --questions--
 
 ## --text--
 
-What is a secant line?
+割線とは何ですか？
 
 ## --answers--
 
-A line that is always parallel to the x-axis.
+常にx軸に平行な直線。
 
 ---
 
-A vertical line that intersects the y-axis.
+y軸と交わる垂直な直線。
 
 ---
 
-A line that stretches between two points on the graph of a function.
+関数のグラフ上の2点を結ぶ直線。
 
 ---
 
-A line that touches the graph of a function at exactly one point.
+関数のグラフにちょうど1点で接する直線。
 
 ## --video-solution--
 
 3
-

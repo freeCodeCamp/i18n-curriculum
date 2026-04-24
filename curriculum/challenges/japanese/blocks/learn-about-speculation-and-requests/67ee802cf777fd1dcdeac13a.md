@@ -1,6 +1,6 @@
 ---
 id: 67ee802cf777fd1dcdeac13a
-title: Task 19
+title: タスク19
 challengeType: 19
 dashedName: task-19
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+音声を聞いて、以下の質問に答えてください。
 
 # --questions--
 
 ## --text--
 
-What requirement does Sophie mention?
+ソフィーはどんな要件について話していますか？
 
 ## --answers--
 
-Mark should delete unnecessary lines of code.
+マークは不要なコード行を削除するべきです。
 
 ### --feedback--
 
-Sophie doesn't talk about removing code.
+ソフィーはコードの削除については話していません。
 
 ---
 
-Mark should rewrite his code completely.
+マークはコードを完全に書き直すべきです。
 
 ### --feedback--
 
-Sophie doesn't suggest rewriting the entire code.
+ソフィーはコード全体の書き直しを提案していません。
 
 ---
 
-Mark should avoid using loops.
+マークはループの使用を避けるべきです。
 
 ### --feedback--
 
-Sophie does not say anything about avoiding loops.
+ソフィーはループの使用を避けることについては何も言っていません。
 
 ---
 
-Mark should use notes in his code.
+マークはコードにメモを使うべきです。
 
 ## --video-solution--
 
@@ -52,13 +52,13 @@ Mark should use notes in his code.
 
 # --explanation--
 
-A `comment` is a note in the code that helps explain what it does. For example:
+`comment`はコード内の注釈で、コードの動作を説明するのに役立ちます。例えば：
 
-- `I added a comment to explain why this loop is necessary.` - You wrote a comment to describe why certain loop is used.
+- `I added a comment to explain why this loop is necessary.` - あるループを使う理由を説明するコメントを書きました。
 
-- `You can use comments to leave notes about issues that need fixing later.` - Comments can be added in the code as reminders for things that need to be fixed or improved.
+- `You can use comments to leave notes about issues that need fixing later.` - コメントは、修正や改善が必要な点を思い出すためにコード内に追加できます。
 
-Comments help others understand the code and remind you of important details when reviewing your code later.
+コメントは他の人がコードを理解するのを助け、後でコードをレビューするときに重要なポイントを思い出させてくれます。
 
 # --scene--
 

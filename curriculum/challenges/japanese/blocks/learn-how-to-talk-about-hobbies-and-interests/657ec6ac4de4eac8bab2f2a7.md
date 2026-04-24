@@ -1,6 +1,6 @@
 ---
 id: 657ec6ac4de4eac8bab2f2a7
-title: Task 39
+title: タスク 39
 challengeType: 22
 dashedName: task-39
 lang: en-US
@@ -10,9 +10,9 @@ lang: en-US
 
 # --description--
 
-The word `date` can be used in different contexts. While it often refers to a romantic meeting between two people, it can also simply mean an appointment or a planned event between friends or colleagues. For example:
+`date` という言葉はさまざまな文脈で使われます。多くの場合、2人のロマンチックな出会いを指しますが、友人や同僚同士の約束や予定されたイベントを意味することもあります。例えば：
 
-`Let's set a date for our next meeting.` - Here, `date` is used in a non-romantic way, referring to choosing a day for a meeting.
+`Let's set a date for our next meeting.` - ここでは、`date` はロマンチックな意味ではなく、会う日の選択を指しています。
 
 # --fillInTheBlank--
 
@@ -26,7 +26,7 @@ The word `date` can be used in different contexts. While it often refers to a ro
 
 ### --feedback--
 
-This word specifies the type of activity planned, indicating it's an outing involving bicycles.
+この言葉は計画された活動の種類を示しており、自転車に関わる外出であることを表しています。
 
 ---
 
@@ -34,7 +34,7 @@ This word specifies the type of activity planned, indicating it's an outing invo
 
 ### --feedback--
 
-This word refers to a scheduled meeting or event.
+この言葉は予定された会合やイベントを指しています。
 
 # --scene--
 

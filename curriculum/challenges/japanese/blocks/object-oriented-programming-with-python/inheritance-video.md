@@ -1,6 +1,6 @@
 ---
 id: 697fe5c032baa3841ab62a64
-title: Inheritance
+title: 継承
 challengeType: 11
 videoId: uHdNSULVpgY
 dashedName: inheritance
@@ -8,29 +8,29 @@ dashedName: inheritance
 
 # --description--
 
-In this video, you will learn about inheritance in object oriented programming.
+このビデオでは、オブジェクト指向プログラミングにおける継承について学びます。
 
 # --questions--
 
 ## --text--
 
-What is inheritance in object oriented programming?
+オブジェクト指向プログラミングにおける継承とは何ですか？
 
 ## --answers--
 
-This is when a class reuses code from a function.
+これはクラスが関数のコードを再利用することです。
 
 ---
 
-This is when a class creates a copy of another class.
+これはクラスが別のクラスのコピーを作成することです。
 
 ---
 
-This is when a class inherits properties and behaviors from another class.
+これはクラスが別のクラスからプロパティと振る舞いを継承することです。
 
 ---
 
-This is when a class hides its methods and variables from other classes.
+これはクラスが他のクラスからメソッドや変数を隠すことです。
 
 ## --video-solution--
 

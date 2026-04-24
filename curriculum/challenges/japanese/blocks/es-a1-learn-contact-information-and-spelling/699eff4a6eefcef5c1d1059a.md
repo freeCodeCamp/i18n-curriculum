@@ -1,26 +1,25 @@
 ---
 id: 699eff4a6eefcef5c1d1059a
-title: Task 24
+title: タスク 24
 challengeType: 22
 dashedName: task-24
 lang: es
 ---
-
 <!-- (Audio) Basti: El dominio es q-u-e-t-z-a-l punto g-t. -->
 
 # --description--
 
-The word `dominio` refers to the main part of a web address, usually the section that comes after the `@` in an email or after `www` in a website.
+`dominio` という言葉は、ウェブアドレスの主要な部分を指し、通常はメールの`@`の後やウェブサイトの`www`の後に続くセクションです。
 
-It is commonly used when giving or confirming email addresses and URLs. For example:
+メールアドレスやURLを伝えたり確認したりするときによく使われます。例えば：
 
-`El dominio es gmail punto com.` – The domain is gmail.com.
+`El dominio es gmail punto com.` – ドメインは gmail.com です。
 
-`¿Cuál es el dominio?` – What is the domain?
+`¿Cuál es el dominio?` – ドメインは何ですか？
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+音声を聞いて、下の文を完成させてください。
 
 # --fillInTheBlank--
 
@@ -34,13 +33,13 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This noun refers to the main part of a web or email address.
+この名詞は、ウェブやメールアドレスの主要な部分を指します。
 
 # --explanation--
 
-`Dominio` is a noun used to name the domain portion of an email address or website.
+`Dominio` は、メールアドレスやウェブサイトのドメイン部分を指す名詞です。
 
-It commonly appears when people spell or confirm digital contact information.
+デジタルの連絡先情報をつづったり確認したりするときによく使われます。
 
 # --scene--
 

@@ -1,6 +1,6 @@
 ---
 id: 679d26afcebc4ea8a9478fbf
-title: Task 91
+title: タスク 91
 challengeType: 19
 dashedName: task-91
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+音声を聞いて、以下の質問に答えてください。
 
 # --questions--
 
 ## --text--
 
-Is James sure that they need to update the software?
+ジェームズはソフトウェアを更新する必要があると確信していますか？
 
 ## --answers--
 
-Not really, since he is asking for Maria's opinion.
+あまりそうではありません。彼はマリアの意見を求めています。
 
 ---
 
-Yes, he has already decided to update it.
+はい、彼はすでに更新することを決めています。
 
 ### --feedback--
 
-James is asking Maria about it, so he probably hasn't decided it yet.
+ジェームズはマリアに尋ねているので、まだ決めていない可能性が高いです。
 
 ---
 
-Yes, he has already started updating the software.
+はい、彼はすでにソフトウェアの更新を始めています。
 
 ### --feedback--
 
-James is asking whether they should update the software or not.
+ジェームズはソフトウェアを更新すべきかどうかを尋ねています。
 
 ---
 
-On the contrary, he's sure they should not update the software.
+逆に、彼は更新すべきではないと確信しています。
 
 ### --feedback--
 
-James is not rejecting the idea altogether; he is actually asking Maria's opinion on the topic.
+ジェームズはその考えを完全に否定しているわけではなく、実際にはマリアの意見を求めています。
 
 ## --video-solution--
 
@@ -52,9 +52,9 @@ James is not rejecting the idea altogether; he is actually asking Maria's opinio
 
 # --explanation--
 
-`To update` means to modify or improve software by releasing a new version. Updates can include bug fixes, new features, or performance improvements. For example:
+`To update` は、新しいバージョンをリリースしてソフトウェアを修正または改善することを意味します。更新にはバグ修正、新機能、またはパフォーマンスの向上が含まれる場合があります。例えば：
 
-`The company released an update to fix security vulnerabilities in the app.` - This means a new version was launched to address security issues.
+`The company released an update to fix security vulnerabilities in the app.` - これはセキュリティ問題に対処するために新しいバージョンがリリースされたことを意味します。
 
 # --scene--
 

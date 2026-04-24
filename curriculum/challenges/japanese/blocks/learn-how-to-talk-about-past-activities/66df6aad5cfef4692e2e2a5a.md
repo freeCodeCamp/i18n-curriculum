@@ -1,11 +1,10 @@
 ---
 id: 66df6aad5cfef4692e2e2a5a
-title: Task 74
+title: タスク 74
 challengeType: 22
 dashedName: task-74
 lang: en-US
 ---
-
 <!--
 AUDIO REFERENCE:
 Linda: Not yet, but I anticipate we'll start receiving more detailed reports as more users navigate the updated interface.
@@ -13,7 +12,7 @@ Linda: Not yet, but I anticipate we'll start receiving more detailed reports as 
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+音声を聞いて、下の文を完成させてください。
 
 # --fillInTheBlank--
 
@@ -27,7 +26,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-A word that shows two actions happening at the same time or one action depending on another.
+2つの動作が同時に起こっていることや、1つの動作が別の動作に依存していることを示す言葉です。
 
 ---
 
@@ -35,7 +34,7 @@ A word that shows two actions happening at the same time or one action depending
 
 ### --feedback--
 
-A word that indicates a greater quantity or number.
+より多い量や数を示す言葉です。
 
 ---
 
@@ -43,7 +42,7 @@ A word that indicates a greater quantity or number.
 
 ### --feedback--
 
-A word that refers to the people navigating the updated interface.
+更新されたインターフェースを操作している人々を指す言葉です。
 
 ---
 
@@ -51,15 +50,15 @@ A word that refers to the people navigating the updated interface.
 
 ### --feedback--
 
-A word that means to move around or through something, such as a website or an app.
+ウェブサイトやアプリなどの中を移動することを意味する言葉です。
 
 # --explanation--
 
-`As` can be used to mean "while" or "when", showing that one action will happen while another action is taking place. For example:
+`As` は「～している間」や「～するとき」を意味し、ある動作が別の動作の最中に起こることを示すのに使えます。例えば：
 
-- `As I was walking home, they called me.` - They called you while you were walking home.
+- `As I was walking home, they called me.` - 彼らはあなたが家に歩いている間に電話をかけました。
 
-- `You will get better at coding as you practice more.` - You will improve while or when you practice more.
+- `You will get better at coding as you practice more.` - 練習すればするほど上達します。
 
 # --scene--
 

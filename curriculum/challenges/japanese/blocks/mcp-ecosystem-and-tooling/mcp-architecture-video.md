@@ -1,6 +1,6 @@
 ---
 id: 69ae7672b4a814be6a4f2be5
-title: MCP Architecture
+title: MCPアーキテクチャ
 challengeType: 11
 videoId: i0sJXMyGLQY
 dashedName: mcp-architecture
@@ -8,32 +8,30 @@ dashedName: mcp-architecture
 
 # --description--
 
-In this video, you will learn about the architecture of MCP.
+このビデオでは、MCPのアーキテクチャについて学びます。
 
 # --questions--
 
 ## --text--
 
-What is the resources portion of an MCP server used for?
+MCPサーバーのリソース部分は何に使われますか？
 
 ## --answers--
 
-This is used to run the LLMs and process AI queries in real time.
+これはLLMを実行し、AIクエリをリアルタイムで処理するために使われます。
 
 ---
 
-This portion handles network connections and user authentication for the server.
+この部分はサーバーのネットワーク接続とユーザー認証を処理します。
 
 ---
 
-This is used to monitor server performance and generate system logs.
+これはサーバーのパフォーマンスを監視し、システムログを生成するために使われます。
 
 ---
 
-This is used for storing and managing the assets or data that AI applications can access.
+これはAIアプリケーションがアクセスできるアセットやデータを保存・管理するために使われます。
 
 ## --video-solution--
 
 4
-
-

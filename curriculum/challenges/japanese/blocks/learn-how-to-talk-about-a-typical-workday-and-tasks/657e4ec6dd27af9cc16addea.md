@@ -1,6 +1,6 @@
 ---
 id: 657e4ec6dd27af9cc16addea
-title: Task 79
+title: タスク 79
 challengeType: 19
 dashedName: task-79
 lang: en-US
@@ -10,43 +10,43 @@ lang: en-US
 
 # --description--
 
-`Regulations` are official rules made by a government or authority. They are designed to control how something works or how people act, especially in businesses. For example:
+`Regulations` は政府や権限を持つ機関によって定められた公式のルールです。これらは特にビジネスにおいて、物事の仕組みや人々の行動を管理するために設計されています。例えば：
 
-`Health and safety regulations ensure a safe workplace.` - This means health and safety rules help make the workplace safe for everyone.
+`Health and safety regulations ensure a safe workplace.` - これは健康と安全に関するルールが、職場を全員にとって安全な場所にするのに役立つことを意味します。
 
 # --questions--
 
 ## --text--
 
-What are `regulations` usually in a business context?
+ビジネスの文脈で`regulations`は通常何ですか？
 
 ## --answers--
 
-Personal preferences.
+個人的な好み。
 
 ### --feedback--
 
-`Regulations` are formal rules, not personal preferences.
+`Regulations` は個人的な好みではなく、正式なルールです。
 
 ---
 
-Informal team agreements.
+非公式なチームの合意。
 
 ### --feedback--
 
-`Regulations` are more formal than informal agreements.
+`Regulations` は非公式な合意よりも正式なものです。
 
 ---
 
-Official rules set by authorities.
+権限を持つ機関によって定められた公式のルール。
 
 ---
 
-Suggestions for leisure activities.
+余暇活動の提案。
 
 ### --feedback--
 
-`Regulations` are about professional conduct, not leisure.
+`Regulations` は専門的な行動に関するものであり、余暇に関するものではありません。
 
 ## --video-solution--
 

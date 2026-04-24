@@ -1,6 +1,6 @@
 ---
 id: 024ffa91a50a44335be33ee7
-title: Mad Libs Game
+title: マッドリブゲーム
 challengeType: 11
 videoId: XRmMTKa-xlc
 dashedName: mad-libs-game
@@ -8,13 +8,13 @@ dashedName: mad-libs-game
 
 # --description--
 
-In this video, you will create a Mad Libs game that takes user input and creates funny stories.
+このビデオでは、ユーザーの入力を受け取り、面白いストーリーを作成するマッドリブゲームを作成します。
 
 # --questions--
 
 ## --text--
 
-Which of the following is the correct way to get input from a user and print the result to the console?
+ユーザーから入力を受け取り、その結果をコンソールに出力する正しい方法はどれですか？
 
 ## --answers--
 

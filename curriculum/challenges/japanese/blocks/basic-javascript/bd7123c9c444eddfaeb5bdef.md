@@ -1,6 +1,6 @@
 ---
 id: bd7123c9c444eddfaeb5bdef
-title: Declare String Variables
+title: 文字列変数を宣言する
 challengeType: 1
 forumTopicId: 17557
 dashedName: declare-string-variables
@@ -8,27 +8,27 @@ dashedName: declare-string-variables
 
 # --description--
 
-Previously you used the following code to declare a variable:
+以前は次のコードを使って変数を宣言しました：
 
 ```js
 var myName;
 ```
 
-But you can also declare a string variable like this:
+しかし、文字列変数は次のように宣言することもできます：
 
 ```js
 var myName = "your name";
 ```
 
-`"your name"` is called a <dfn>string</dfn> <dfn>literal</dfn>. A string literal, or string, is a series of zero or more characters enclosed in single or double quotes.
+`"your name"` は <dfn>文字列</dfn>の <dfn>リテラル</dfn>と呼ばれます。文字列リテラル、または文字列とは、シングルクォートまたは二重引用符で囲まれた0文字以上の文字の並びです。
 
 # --instructions--
 
-Create two new string variables: `myFirstName` and `myLastName` and assign them the values of your first and last name, respectively.
+2つの新しい文字列変数、`myFirstName` と `myLastName` を作成し、それぞれ自分の名前と苗字の値を代入してください。
 
 # --hints--
 
-`myFirstName` should be a string with at least one character in it.
+`myFirstName` は少なくとも1文字以上の文字列である必要があります。
 
 ```js
 assert(
@@ -46,7 +46,7 @@ assert(
 );
 ```
 
-`myLastName` should be a string with at least one character in it.
+`myLastName` は少なくとも1文字以上の文字列である必要があります。
 
 ```js
 assert(

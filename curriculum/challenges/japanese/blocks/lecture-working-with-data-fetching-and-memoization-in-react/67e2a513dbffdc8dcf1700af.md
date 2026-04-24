@@ -1,45 +1,45 @@
 ---
 id: 67e2a513dbffdc8dcf1700af
-title: What Is the useOptimistic Hook, and How Does It Work?
+title: useOptimistic フックとは何か、そしてどのように機能するのか？
 challengeType: 19
 dashedName: what-is-the-useoptimistic-hook-and-how-does-it-work
 ---
 
 # --description--
 
-Recent versions of React introduced server components and server actions to shift some of the rendering and logic responsibilities to the server.
+最近の React のバージョンでは、サーバーコンポーネントやサーバーアクションが導入され、レンダリングやロジックの一部をサーバー側に移す仕組みが加わりました。
 
-Along with those updates, React added a new hook called `useOptimistic` to keep UIs responsive while waiting for an async action to complete in the background.
+これらのアップデートとともに、React は `useOptimistic` という新しいフックを追加しました。これは、非同期アクションがバックグラウンドで完了するのを待つ間も UI をレスポンシブに保つためのものです。
 
-While this is often used for fetching data from a server, it's not limited to that. The hook is generally useful for handling async operations, ensuring the UI remains smooth and interactive while the action runs.
+このフックはサーバーからのデータ取得に使われることが多いですが、それに限定されません。非同期処理を扱う際に一般的に役立ち、アクションが実行されている間も UI がスムーズでインタラクティブなままでいられるようにします。
 
-Let's take a look at what the `useOptimistic` hook is and how it contributes to making snappy and responsive UIs. 
+では、`useOptimistic` フックとは何か、そしてどのように素早くレスポンシブな UI を実現するのに役立つのかを見ていきましょう。
 
-The `useOptimistic` hook helps manage "optimistic updates" in the UI, a strategy in which you provide immediate updates to the UI based on the expected outcome of an action, like waiting for a server response.
+`useOptimistic` フックは UI の「楽観的更新」を管理するのに役立ちます。これは、サーバーからのレスポンスを待つようなアクションの予想結果に基づいて、即座に UI を更新する戦略です。
 
-Here's the basic syntax of the `useOptimistic` hook:
+`useOptimistic` フックの基本的な構文は以下の通りです：
 
 ```js
 const [optimisticState, addOptimistic] = useOptimistic(actualState, updateFunction);
 ```
 
-- `optimisticState` is the temporary state that updates right away for a better user experience.
+- `optimisticState` は、より良いユーザー体験のためにすぐに更新される一時的な状態です。
 
-- `addOptimistic` is the function that applies the optimistic update before the actual state changes.
+- `addOptimistic` は、実際の状態が変わる前に楽観的更新を適用する関数です。
 
-- `actualState` is the real state value that comes from the result of an action, like fetching data from a server.
+- `actualState` は、サーバーからのデータ取得などのアクション結果に基づく本当の状態の値です。
 
-- `updateFunction` is the function that determines how the optimistic state should update when called.
+- `updateFunction` は、呼び出されたときに楽観的状態をどのように更新するかを決める関数です。
 
-At first glance, it might seem like the `useOptimistic` hook is just another way to handle loading states in React. But it's more than that.
+一見すると、`useOptimistic` フックは React のローディング状態を扱う別の方法のように思えるかもしれません。しかし、それ以上のものです。
 
-A loading state controls whether you see a spinner, message, or some other indicator in the UI while something happens in the background.
+ローディング状態は、バックグラウンドで何かが起きている間にスピナーやメッセージなどのインジケーターを UI に表示するかどうかを制御します。
 
-However, the `useOptimistic` hook updates the UI instantaneously based on an expected outcome, even before you, say, make a call to an API. This hook gives you a chance to show a loading indicator or message, handle potential errors gracefully, and show instant feedback to make the UI feel snappy.
+しかし、`useOptimistic` フックは、例えば API を呼び出す前であっても、予想される結果に基づいて UI を即座に更新します。このフックは、ローディングインジケーターやメッセージを表示したり、潜在的なエラーを優雅に処理したり、即時のフィードバックを示して UI を素早く感じさせる機会を与えます。
 
-This will become clearer as we go through some examples showing how the `useOptimistic` hook works.
+`useOptimistic` フックの動作を示すいくつかの例を通して、これがより明確になるでしょう。
 
-Here's an action that simulates saving a task to a server. It returns the task after a 1 second delay, as it could happen with a real-world API request:
+以下は、タスクをサーバーに保存する動作をシミュレートしたものです。実際の API リクエストのように 1 秒の遅延の後にタスクを返します：
 
 ```js
 export async function saveTask(task) {
@@ -49,7 +49,7 @@ export async function saveTask(task) {
 }
 ```
 
-Here's the code that sets up the `useOptimistic` hook by importing and initializing it, with an `handleSubmit` function that sends an input to the action:
+次に、`useOptimistic` フックをインポートして初期化し、入力をアクションに送る `handleSubmit` 関数を設定したコードです：
 
 ```jsx
 "use client";
@@ -76,13 +76,13 @@ export default function TaskList({ tasks, addTask }) {
 }
 ```
 
-In the code, the `useOptimistic` hook keeps a temporary list of tasks that updates immediately when you add a new task.
+このコードでは、`useOptimistic` フックが新しいタスクを追加したときに即座に更新される一時的なタスクリストを保持しています。
 
-The line, `(state, newTask) => [...state, { text: newTask, pending: true }]` ensures that a new task appears with a pending status even before the server confirms something is coming from the form.
+`(state, newTask) => [...state, { text: newTask, pending: true }]` の行は、サーバーがフォームから何かを受け取る前に、新しいタスクが保留中の状態で表示されることを保証しています。
 
-When the form is submitted, the `handleSubmit` function extracts the task and adds it "optimistically" with the `addOptimisticTask` parameter. Then `addTask` is passed as a prop which sends the task to the server. Finally, the form is reset by calling `e.target.reset()`.
+フォームが提出されると、`handleSubmit` 関数がタスクを抽出し、`addOptimisticTask` パラメータで「楽観的に」追加します。次に `addTask` がプロップとして渡され、タスクをサーバーに送信します。最後に `e.target.reset()` を呼び出してフォームをリセットします。
 
-Here's the `TaskList` component:
+こちらが `TaskList` コンポーネントです：
 
 ```jsx
 "use client";
@@ -139,9 +139,9 @@ export default function TaskList({ tasks, addTask }) {
 }
 ```
 
-Here, we are looping through the `optimisticTask` parameter to display the task. When `task.pending` is `true`, the text `Adding Task...` is displayed next to the task, confirming that the task has been added optimistically before the server confirms it.
+ここでは、`optimisticTask` パラメータをループしてタスクを表示しています。`task.pending` が `true` の場合、タスクの横に `Adding Task...` というテキストが表示され、サーバーの確認前に楽観的にタスクが追加されたことを示しています。
 
-Here's the `Task` component that manages the state for the form. It calls the `saveTask` function from the action so it can add the task, and appends the new task once it is received by the server:
+次に、フォームの状態を管理する `Task` コンポーネントです。アクションの `saveTask` 関数を呼び出してタスクを追加し、サーバーから受け取った新しいタスクを追加します：
 
 ```jsx
 "use client";
@@ -164,13 +164,13 @@ export default function Tasks() {
 }
 ```
 
-This ensures snappy UI updates by showing instant feedback instead of waiting for a response. Once the task is saved, the `pending` property is removed, and the final task list updates accordingly.
+これにより、レスポンスを待つ代わりに即時のフィードバックを表示して素早い UI 更新が保証されます。タスクが保存されると、`pending` プロパティは削除され、最終的なタスクリストが更新されます。
 
-In the UI, there are two things happening that are not supposed to happen. First, you can't see the `Adding Task...` text since it appears and disappears too quickly. Next, there's an error occurring after adding the task.
+UI では、起きてはいけないことが二つ起きています。まず、`Adding Task...` テキストが表示されるとすぐに消えてしまい見えません。次に、タスク追加後にエラーが発生しています。
 
-There are two things we need to do to address those issues.
+これらの問題に対処するために二つのことを行う必要があります。
 
-First, we need to import `startTransition` from React and use it to wrap the line `addOptimisticTask(formData.get('task'))`:
+まず、React から `startTransition` をインポートし、`addOptimisticTask(formData.get('task'))` の行をこれでラップします：
 
 ```js
 startTransition(() => {
@@ -178,9 +178,9 @@ startTransition(() => {
 });
 ```
 
-Second, we need to make the `Adding Task...` text visible for some time before it goes away.
+次に、`Adding Task...` テキストが消える前にしばらく表示されるようにします。
 
-To do this, we can modify the `addTask` function with a pending state and simulate a delay of a few seconds before marking the task as completed. `setTimeout()` is ideal for this:
+これには、保留中の状態を持つように `addTask` 関数を修正し、タスクを完了済みにマークする前に数秒の遅延をシミュレートします。`setTimeout()` がこれに最適です：
 
 ```js
 async function addTask(formData) {
@@ -205,41 +205,41 @@ async function addTask(formData) {
 }
 ```
 
-And once you do that, everything works fine.
+これを行うと、すべてが正常に動作します。
 
 # --questions--
 
 ## --text--
 
-What is the purpose of the `useOptimistic` hook?
+`useOptimistic` フックの目的は何ですか？
 
 ## --answers--
 
-It allows components to fetch data from the server before rendering the UI.
+コンポーネントが UI をレンダリングする前にサーバーからデータを取得できるようにします。
 
 ### --feedback--
 
-This hook ensures the UI reflects expected changes before an async operation completes.
+このフックは、非同期処理が完了する前に UI が期待される変化を反映することを保証します。
 
 ---
 
-It helps manage optimistic updates by updating the UI immediately while waiting for an async operation, like a server response.
+非同期処理（例えばサーバーからのレスポンス）を待つ間に UI を即座に更新することで、楽観的更新を管理するのに役立ちます。
 
 ---
 
-It enables automatic error handling and rollback for failed API requests in React applications.
+React アプリケーションで失敗した API リクエストの自動エラー処理とロールバックを可能にします。
 
 ### --feedback--
 
-This hook ensures the UI reflects expected changes before an async operation completes.
+このフックは、非同期処理が完了する前に UI が期待される変化を反映することを保証します。
 
 ---
 
-It optimizes state updates by batching them together to improve performance.
+パフォーマンス向上のために状態更新をまとめて最適化します。
 
 ### --feedback--
 
-This hook ensures the UI reflects expected changes before an async operation completes.
+このフックは、非同期処理が完了する前に UI が期待される変化を反映することを保証します。
 
 ## --video-solution--
 
@@ -247,35 +247,35 @@ This hook ensures the UI reflects expected changes before an async operation com
 
 ## --text--
 
-How is the `useOptimistic` hook different from a loading state?
+`useOptimistic` フックはローディング状態とどのように異なりますか？
 
 ## --answers--
 
-A loading state shows UI feedback while waiting for a response, whereas `useOptimistic` updates the UI immediately based on an expected outcome.
+ローディング状態はレスポンスを待つ間に UI フィードバックを表示しますが、`useOptimistic` は予想される結果に基づいて即座に UI を更新します。
 
 ---
 
-A loading state modifies server data instantly while `useOptimistic` only updates the client UI.
+ローディング状態はサーバーデータを即座に変更しますが、`useOptimistic` はクライアントの UI のみを更新します。
 
 ### --feedback--
 
-One updates the UI before the server even knows about the request.
+一方はサーバーがリクエストを認識する前に UI を更新します。
 
 ---
 
-The `useOptimistic` hook is used for handling errors, whereas a loading state is only for showing spinners.
+`useOptimistic` フックはエラー処理に使われ、ローディング状態はスピナー表示だけに使われます。
 
 ### --feedback--
 
-One updates the UI before the server even knows about the request.
+一方はサーバーがリクエストを認識する前に UI を更新します。
 
 ---
 
-Both are the same, but `useOptimistic` provides automatic retries for failed requests.
+両者は同じですが、`useOptimistic` は失敗したリクエストの自動再試行を提供します。
 
 ### --feedback--
 
-One updates the UI before the server even knows about the request.
+一方はサーバーがリクエストを認識する前に UI を更新します。
 
 ## --video-solution--
 
@@ -283,7 +283,7 @@ One updates the UI before the server even knows about the request.
 
 ## --text--
 
-What does `addOptimistic` do in the `useOptimistic` hook syntax below?
+以下の `addOptimistic` フック構文で `useOptimistic` は何をしますか？
 
 ```js
 const [optimisticState, addOptimistic] = useOptimistic(actualState, updateFunction);
@@ -291,31 +291,31 @@ const [optimisticState, addOptimistic] = useOptimistic(actualState, updateFuncti
 
 ## --answers--
 
-It applies the optimistic update before the actual state changes, providing a smoother user experience.
+実際の状態が変わる前に楽観的更新を適用し、よりスムーズなユーザー体験を提供します。
 
 ---
 
-It fetches the real state from the server and updates the UI accordingly.
+サーバーから本当の状態を取得し、それに応じて UI を更新します。
 
 ### --feedback--
 
-This function updates the UI before the actual state changes.
+この関数は実際の状態が変わる前に UI を更新します。
 
 ---
 
-It replaces the actual state with a temporary state after receiving a server response.
+サーバーのレスポンスを受け取った後に一時的な状態を実際の状態に置き換えます。
 
 ### --feedback--
 
-This function updates the UI before the actual state changes.
+この関数は実際の状態が変わる前に UI を更新します。
 
 ---
 
-It validates server data before applying the optimistic update to the UI.
+楽観的更新を UI に適用する前にサーバーデータを検証します。
 
 ### --feedback--
 
-This function updates the UI before the actual state changes.
+この関数は実際の状態が変わる前に UI を更新します。
 
 ## --video-solution--
 

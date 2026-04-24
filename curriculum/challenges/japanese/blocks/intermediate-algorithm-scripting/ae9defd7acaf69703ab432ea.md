@@ -1,6 +1,6 @@
 ---
 id: ae9defd7acaf69703ab432ea
-title: Smallest Common Multiple
+title: 最小公倍数
 challengeType: 1
 forumTopicId: 16075
 dashedName: smallest-common-multiple
@@ -8,45 +8,45 @@ dashedName: smallest-common-multiple
 
 # --description--
 
-Find the smallest common multiple of the provided parameters that can be evenly divided by both, as well as by all sequential numbers in the range between these parameters.
+指定されたパラメータのうち、両方で割り切れるだけでなく、そのパラメータ間のすべての連続した数字でも割り切れる最小の公倍数を見つけてください。
 
-The range will be an array of two numbers that will not necessarily be in numerical order.
+範囲は2つの数字の配列で、必ずしも数値の順序通りではありません。
 
-For example, if given 1 and 3, find the smallest common multiple of both 1 and 3 that is also evenly divisible by all numbers *between* 1 and 3. The answer here would be 6.
+たとえば、1と3が与えられた場合、1と3の両方で割り切れ、かつ1から3の間のすべての数字でも割り切れる最小の公倍数を見つけてください。この場合の答えは6です。
 
 # --hints--
 
-`smallestCommons([1, 5])` should return a number.
+`smallestCommons([1, 5])` は数値を返す必要があります。
 
 ```js
 assert.deepEqual(typeof smallestCommons([1, 5]), 'number');
 ```
 
-`smallestCommons([1, 5])` should return 60.
+`smallestCommons([1, 5])` は60を返す必要があります。
 
 ```js
 assert.deepEqual(smallestCommons([1, 5]), 60);
 ```
 
-`smallestCommons([5, 1])` should return 60.
+`smallestCommons([5, 1])` は60を返す必要があります。
 
 ```js
 assert.deepEqual(smallestCommons([5, 1]), 60);
 ```
 
-`smallestCommons([2, 10])` should return 2520.
+`smallestCommons([2, 10])` は2520を返す必要があります。
 
 ```js
 assert.deepEqual(smallestCommons([2, 10]), 2520);
 ```
 
-`smallestCommons([1, 13])` should return 360360.
+`smallestCommons([1, 13])` は360360を返す必要があります。
 
 ```js
 assert.deepEqual(smallestCommons([1, 13]), 360360);
 ```
 
-`smallestCommons([23, 18])` should return 6056820.
+`smallestCommons([23, 18])` は6056820を返す必要があります。
 
 ```js
 assert.deepEqual(smallestCommons([23, 18]), 6056820);

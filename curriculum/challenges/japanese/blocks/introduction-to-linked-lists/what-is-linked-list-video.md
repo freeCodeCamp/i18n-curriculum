@@ -1,6 +1,6 @@
 ---
 id: 698dd5a27932b3cc4b19c930
-title: What is a Linked List?
+title: 連結リストとは何ですか？
 challengeType: 11
 videoId: rnGKSsh97q0
 dashedName: what-is-a-linked-list
@@ -8,13 +8,13 @@ dashedName: what-is-a-linked-list
 
 # --description--
 
-In this video, you will learn about linked lists.
+このビデオでは、連結リストについて学びます。
 
 # --questions--
 
 ## --text--
 
-What is the name of the node that is placed at the beginning of a linked list?
+連結リストの先頭に置かれるノードの名前は何ですか？
 
 ## --answers--
 

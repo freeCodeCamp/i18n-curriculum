@@ -7,13 +7,13 @@ dashedName: step-35
 
 # --description--
 
-It's time to test your new setter. Try to assign invalid values such as a random string or the current level (`trainee`) to `charlie_brown.level` and see the error messages in the console.
+新しいセッターをテストする時間です。ランダムな文字列や現在のレベル（`trainee`）などの無効な値を`charlie_brown.level`に代入して、コンソールに表示されるエラーメッセージを確認してください。
 
-Once you've done, remove the lines raising errors and set `charlie_brown.level` to the string `junior`.
+終わったら、エラーを発生させる行を削除し、`charlie_brown.level`に文字列`junior`を代入してください。
 
 # --hints--
 
-You should set `charlie_brown.level` to the string `junior`.
+`charlie_brown.level`に文字列`junior`を代入してください。
 
 ```js
 ({ test: () => assert(runPython(`_Node(_code).has_stmt("charlie_brown.level = 'junior'")`)) })

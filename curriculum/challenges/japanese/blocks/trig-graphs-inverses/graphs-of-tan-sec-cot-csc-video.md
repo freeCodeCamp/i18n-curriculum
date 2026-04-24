@@ -1,20 +1,20 @@
 ---
 id: 699e69e18f18cf77dfce5c13
-title: Graphs of Tan, Sec, Cot, Csc
+title: タンジェント、セカント、コタンジェント、コセカントのグラフ
 challengeType: 11
-videoId: '-AGLDRcJ4hk'
+videoId: -AGLDRcJ4hk
 dashedName: graphs-of-tan-sec-cot-csc
 ---
 
 # --description--
 
-In this video, you will learn how to graph the tangent, secant, cotangent, and cosecant functions.
+このビデオでは、タンジェント、セカント、コタンジェント、コセカントの関数のグラフの描き方を学びます。
 
 # --questions--
 
 ## --text--
 
-What would be the slope when the angle is zero for the first example graph shown in the video?
+ビデオで最初に示されたグラフの角度がゼロのとき、傾きはいくつになりますか？
 
 ## --answers--
 
@@ -35,5 +35,3 @@ What would be the slope when the angle is zero for the first example graph shown
 ## --video-solution--
 
 3
-
-

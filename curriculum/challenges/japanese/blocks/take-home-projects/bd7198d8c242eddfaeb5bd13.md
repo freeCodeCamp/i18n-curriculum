@@ -1,6 +1,6 @@
 ---
 id: bd7198d8c242eddfaeb5bd13
-title: Show National Contiguity with a Force Directed Graph
+title: 力指向グラフで国の隣接を表示する
 challengeType: 3
 forumTopicId: 302367
 dashedName: show-national-contiguity-with-a-force-directed-graph
@@ -8,21 +8,21 @@ dashedName: show-national-contiguity-with-a-force-directed-graph
 
 # --description--
 
-**Objective:** Build an app that is functionally similar to this: <https://codepen.io/freeCodeCamp/full/XWEONRz>.
+**目的:** 次のアプリと機能的に似たものを作成してください：<https://codepen.io/freeCodeCamp/full/XWEONRz>。
 
-Fulfill the below user stories and get all of the tests to pass. Use whichever libraries or APIs you need. Give it your own personal style.
+以下のユーザーストーリーを満たし、すべてのテストに合格してください。必要なライブラリやAPIは自由に使ってください。自分なりのスタイルを加えてください。
 
-**User Story:** I can see a Force-directed Graph that shows which countries share borders.
+**ユーザーストーリー:** 国同士がどの国境を共有しているかを示す力指向グラフが見えます。
 
-**User Story:** I can see each country's flag on its node.
+**ユーザーストーリー:** 各国のノードに国旗が表示されます。
 
-**Hint:** Here's a dataset you can use to build this: <https://raw.githubusercontent.com/DealPete/forceDirected/master/countries.json>
+**ヒント:** これを作るために使えるデータセットはこちらです：<https://raw.githubusercontent.com/DealPete/forceDirected/master/countries.json>
 
-**Hint:** You can create a spritesheet of national flags at <https://www.flag-sprites.com>.
+**ヒント:** 国旗のスプライトシートは <https://www.flag-sprites.com> で作成できます。
 
-When you are finished, include a link to your project on CodePen and click the "I've completed this challenge" button.
+完成したら、CodePenのプロジェクトへのリンクを含め、「このチャレンジを完了しました」ボタンをクリックしてください。
 
-You can get feedback on your project by sharing it on the <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp forum</a>.
+プロジェクトのフィードバックは<a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCampフォーラム</a>で共有してもらえます。
 
 # --solutions--
 

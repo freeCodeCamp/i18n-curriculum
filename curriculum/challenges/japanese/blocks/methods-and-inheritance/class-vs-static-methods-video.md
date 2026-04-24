@@ -1,6 +1,6 @@
 ---
 id: 69ae9cdfa9e6da4eb0d5f7f7
-title: Class vs. Static Methods
+title: クラスメソッドとスタティックメソッドの違い
 challengeType: 11
 videoId: Vo84LQ14yI4
 dashedName: class-vs-static-methods
@@ -8,32 +8,30 @@ dashedName: class-vs-static-methods
 
 # --description--
 
-In this video, you will learn the difference between class and static methods.
+この動画では、クラスメソッドとスタティックメソッドの違いについて学びます。
 
 # --questions--
 
 ## --text--
 
-What is a class method?
+クラスメソッドとは何ですか？
 
 ## --answers--
 
-A method that only works with global variables and is unrelated to the class or its instances.
+グローバル変数だけを扱い、クラスやそのインスタンスとは関係のないメソッド。
 
 ---
 
-A method that can only be called on an instance of a class and cannot access class-level attributes.
+クラスのインスタンスでのみ呼び出せて、クラスレベルの属性にアクセスできないメソッド。
 
 ---
 
-A method that automatically runs when an object is deleted.
+オブジェクトが削除されると自動的に実行されるメソッド。
 
 ---
 
-A method that is bound to the class itself, rather than an instance of the class.
+クラスのインスタンスではなく、クラス自体に結びついているメソッド。
 
 ## --video-solution--
 
 4
-
-

@@ -1,6 +1,6 @@
 ---
 id: 04e25c4fdc9ee0e71a844fd6
-title: Reading Files
+title: ファイルの読み取り
 challengeType: 11
 videoId: enOW7u6LWyg
 dashedName: reading-files
@@ -8,29 +8,29 @@ dashedName: reading-files
 
 # --description--
 
-In this video, you will learn how to read files in Python and process their contents.
+このビデオでは、Pythonでファイルを読み取り、その内容を処理する方法を学びます。
 
 # --questions--
 
 ## --text--
 
-What is the role of the `"r"` in the `open()` function?
+`"r"`は`open()`関数でどのような役割を果たしますか？
 
 ## --answers--
 
-It specifies the range mode.
+範囲モードを指定します。
 
 ---
 
-It specifies the rename mode.
+名前変更モードを指定します。
 
 ---
 
-It specifies the random access mode.
+ランダムアクセスモードを指定します。
 
 ---
 
-It specifies the read mode.
+読み取りモードを指定します。
 
 ## --video-solution--
 

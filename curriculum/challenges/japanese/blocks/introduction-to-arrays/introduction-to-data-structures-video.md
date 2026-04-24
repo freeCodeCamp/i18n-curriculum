@@ -1,6 +1,6 @@
 ---
 id: 698dd14c7932b3cc4b19c92c
-title: Introduction to Data Structures
+title: データ構造の概要
 challengeType: 11
 videoId: QIZSbUquPdY
 dashedName: introduction-to-data-structures
@@ -8,29 +8,29 @@ dashedName: introduction-to-data-structures
 
 # --description--
 
-In this video, Treehouse instructor Pasan will talk about what to expect in the data structures portion of this course.
+このビデオでは、TreehouseのインストラクターPasanが、このコースのデータ構造の部分で何を学ぶかについて説明します。
 
 # --questions--
 
 ## --text--
 
-What are the four common operations that will be studied when working with data structures?
+データ構造を扱う際に学ぶ代表的な4つの操作は何ですか？
 
 ## --answers--
 
-Accessing values, deleting values, traversing, and sorting.
+値へのアクセス、値の削除、走査、並べ替え。
 
 ---
 
-Accessing values, searching, inserting values, and deleting values.
+値へのアクセス、検索、値の挿入、値の削除。
 
 ---
 
-Searching, merging, splitting, and iterating values.
+検索、結合、分割、値の反復。
 
 ---
 
-Inserting values, updating values, printing values, and counting elements.
+値の挿入、値の更新、値の出力、要素のカウント。
 
 ## --video-solution--
 

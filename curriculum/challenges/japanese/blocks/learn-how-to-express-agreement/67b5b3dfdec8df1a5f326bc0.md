@@ -1,6 +1,6 @@
 ---
 id: 67b5b3dfdec8df1a5f326bc0
-title: Task 110
+title: タスク 110
 challengeType: 22
 dashedName: task-110
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+音声を聞いて、下の文を完成させてください。
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This means something that is not strong or obvious. It's something gentle or soft that you might not notice right away.
+これは強くはっきりしていないことを意味します。優しくて柔らかく、すぐには気づかないかもしれません。
 
 ---
 
@@ -32,17 +32,17 @@ This means something that is not strong or obvious. It's something gentle or sof
 
 ### --feedback--
 
-This refers to the range of colors used in a design or artwork. In this case, a `color palette` refers to the selection of colors chosen for the design of the app or project.
+これはデザインや作品で使われる色の範囲を指します。この場合、`color palette`はアプリやプロジェクトのデザインに選ばれた色のセットを意味します。
 
 # --explanation--
 
-`Subtle` refers to something that is delicate or not obvious. For example:
+`Subtle`は繊細で目立たないものを指します。例えば：
 
-`The artist used subtle shades of blue in the painting.` - This means the artist used light or soft shades of blue that are not very strong or attention-grabbing.
+`The artist used subtle shades of blue in the painting.` - これはアーティストが強くなく目を引かない、淡いまたは柔らかい青の色合いを使ったことを意味します。
 
-`Palette` refers to the range of colors or materials an artist or designer uses. For example:
+`Palette`はアーティストやデザイナーが使う色や素材の範囲を指します。例えば：
 
-`The designer chose a warm palette for the website, using reds, oranges, and yellows.` - This means the designer selected a set of warm colors, such as red, orange, and yellow, for the website's design.
+`The designer chose a warm palette for the website, using reds, oranges, and yellows.` - これはデザイナーがウェブサイトのデザインに赤、オレンジ、黄色などの暖色系の色を選んだことを意味します。
 
 # --scene--
 

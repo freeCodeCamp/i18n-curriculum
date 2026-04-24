@@ -1,26 +1,26 @@
 ---
 id: 64aaf2aff7f1fc7a550f40cb
-title: Step 36
+title: ステップ 36
 challengeType: 0
 dashedName: step-36
 ---
 
 # --description--
 
-Now it is time to see your new player drawn on the screen.
+新しいプレイヤーが画面に描画されるのを見てみましょう。
 
-Start by creating an empty arrow function called `startGame`.
+まず、空のアロー関数 `startGame` を作成してください。
 
 # --hints--
 
 
-`startGame` should be a function
+`startGame` は関数である必要があります
 
 ```js
 assert.isFunction(startGame);
 ```
 
-`startGame` should be an arrow function
+`startGame` はアロー関数である必要があります
 
 
 ```js
@@ -199,7 +199,7 @@ class Player {
     ctx.fillStyle = "#99c9ff";
     ctx.fillRect(this.position.x, this.position.y, this.width, this.height);
   }
-
+  
   update() {
     this.draw();
     this.position.x += this.velocity.x;

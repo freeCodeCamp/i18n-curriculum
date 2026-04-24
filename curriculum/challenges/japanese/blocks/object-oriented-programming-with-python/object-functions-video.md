@@ -1,6 +1,6 @@
 ---
 id: 697fe3cb32baa3841ab62a63
-title: Object Functions
+title: オブジェクトの関数
 challengeType: 11
 videoId: 3Mla2uUDSu8
 dashedName: object-functions
@@ -8,13 +8,13 @@ dashedName: object-functions
 
 # --description--
 
-In this video, you will learn how to work with functions inside of classes.
+このビデオでは、クラスの中で関数を扱う方法を学びます。
 
 # --questions--
 
 ## --text--
 
-Which of the following is the correct way to create a function inside of a class?
+次のうち、クラスの中に関数を作成する正しい方法はどれですか？
 
 ## --answers--
 

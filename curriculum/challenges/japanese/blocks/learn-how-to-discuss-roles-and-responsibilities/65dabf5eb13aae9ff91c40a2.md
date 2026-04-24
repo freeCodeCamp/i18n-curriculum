@@ -1,6 +1,6 @@
 ---
 id: 65dabf5eb13aae9ff91c40a2
-title: Task 108
+title: タスク108
 challengeType: 22
 dashedName: task-108
 lang: en-US
@@ -10,13 +10,13 @@ lang: en-US
 
 # --description--
 
-The phrase `search for` means to look for something or try to find something through exploration. For example, `I need to search for my lost keys` means looking for the keys.
+フレーズ`search for`は、探検を通じて何かを探したり見つけようとしたりすることを意味します。例えば、`I need to search for my lost keys`は鍵を探すことを意味します。
 
-The word `expensive` describes something that costs a lot of money. For example, `That car is too expensive for me` means the car costs a lot.
+単語`expensive`は、多くのお金がかかるものを表します。例えば、`That car is too expensive for me`はその車が高価であることを意味します。
 
-A `solution` is an answer to a problem or a way to fix an issue.
+`solution`は問題への答えや問題を解決する方法です。
 
-`Doesn't/don't have to` is used to express that there is no need or requirement to do something.
+`Doesn't/don't have to`は、何かをする必要や要求がないことを表現するために使われます。
 
 # --fillInTheBlank--
 
@@ -30,7 +30,7 @@ A `solution` is an answer to a problem or a way to fix an issue.
 
 ### --feedback--
 
-This word means to look for something carefully.
+この単語は、何かを注意深く探すことを意味します。
 
 ---
 
@@ -38,7 +38,7 @@ This word means to look for something carefully.
 
 ### --feedback--
 
-This preposition is used with `search` to indicate what you are trying to find.
+この前置詞は、探そうとしているものを示すために`search`と一緒に使われます。
 
 ---
 
@@ -46,7 +46,7 @@ This preposition is used with `search` to indicate what you are trying to find.
 
 ### --feedback--
 
-This word describes something that costs a lot of money.
+この単語は、多くのお金がかかるものを表します。
 
 ---
 
@@ -54,7 +54,7 @@ This word describes something that costs a lot of money.
 
 ### --feedback--
 
-These are answers or ways to solve a problem.
+これらは問題を解決する答えや方法です。
 
 # --scene--
 

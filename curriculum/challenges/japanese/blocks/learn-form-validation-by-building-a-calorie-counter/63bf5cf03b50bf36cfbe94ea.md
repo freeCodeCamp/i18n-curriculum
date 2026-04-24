@@ -7,25 +7,25 @@ dashedName: step-39
 
 # --description--
 
-`entryDropdown.value` の値のテストが完了したので、`console.log` ステートメントを削除してください。
+`entryDropdown.value` の値のテストが終わったので、`console.log` 文を削除できます。
 
-次は、カロリー計算機にユーザーが記録を追加できるようにします。 空の関数 `addEntry` を宣言してください。 この関数は引数を取りません。
+次のステップは、ユーザーがカロリーカウンターにエントリーを追加できるようにすることです。空の関数 `addEntry` を宣言してください。この関数はパラメータを受け取らないようにしてください。
 
 # --hints--
 
-`console.log` ステートメントを削除してください。
+`console.log` 文を削除してください。
 
 ```js
 assert.notMatch(code, /console\.log\s*\(.*\)/)
 ```
 
-関数 `addEntry` を宣言してください。
+`addEntry` 関数を宣言してください。
 
 ```js
 assert.isFunction(addEntry);
 ```
 
-関数 `addEntry` は引数を取りません。
+`addEntry` 関数はパラメータを受け取らないようにしてください。
 
 ```js
 assert.match(addEntry?.toString(), /\(\s*\)/);

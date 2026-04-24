@@ -1,57 +1,57 @@
 ---
 id: 691f7773cddba1caf1bf5ecd
-title: "Challenge 134: Traveling Shopper"
+title: "チャレンジ 134: 旅行中の買い物客"
 challengeType: 28
 dashedName: challenge-134
 ---
 
 # --description--
 
-Given an amount of money you have, and an array of items you want to buy, determine how many of them you can afford.
+所持している金額と、購入したいアイテムの配列が与えられたとき、いくつ購入できるかを判定してください。
 
-- The given amount will be in the format `["Amount", "Currency Code"]`. For example: `["150.00", "USD"]` or `["6000", "JPY"]`.
-- Each array item you want to purchase will be in the same format.
+- 与えられる金額は `["Amount", "Currency Code"]` の形式です。例えば `["150.00", "USD"]` や `["6000", "JPY"]` のようになります。
+- 購入したい各アイテムも同じ形式です。
 
-Use the following exchange rates to convert values:
+以下の為替レートを使って値を変換してください：
 
-| Currency | 1 Unit Equals |
-| -------- | ------------- |
-| USD      | 1.00 USD      |
-| EUR      | 1.10 USD      |
-| GBP      | 1.25 USD      |
-| JPY      | 0.0070 USD    |
-| CAD      | 0.75 USD      |
+|通貨|1単位あたりのUSD換算|
+|-|-|
+|USD|1.00 USD|
+|EUR|1.10 USD|
+|GBP|1.25 USD|
+|JPY|0.0070 USD|
+|CAD|0.75 USD|
 
-- If you can afford all the items in the list, return `"Buy them all!"`.
-- Otherwise, return `"Buy the first X items."`, where `X` is the number of items you can afford when purchased in the order given.
+- リスト内のすべてのアイテムを購入できる場合は `"Buy them all!"` を返してください。
+- そうでなければ、`"Buy the first X items."` を返してください。ただし `X` は与えられた順番で購入できるアイテムの数です。
 
 # --hints--
 
-`buyItems(["150.00", "USD"], [["50.00", "USD"], ["75.00", "USD"], ["30.00", "USD"]])` should return `"Buy the first 2 items."`.
+`buyItems(["150.00", "USD"], [["50.00", "USD"], ["75.00", "USD"], ["30.00", "USD"]])` は `"Buy the first 2 items."` を返すべきです。
 
 ```js
 assert.equal(buyItems(["150.00", "USD"], [["50.00", "USD"], ["75.00", "USD"], ["30.00", "USD"]]), "Buy the first 2 items.");
 ```
 
-`buyItems(["200.00", "EUR"], [["50.00", "USD"], ["50.00", "USD"]])` should return `"Buy them all!"`.
+`buyItems(["200.00", "EUR"], [["50.00", "USD"], ["50.00", "USD"]])` は `"Buy them all!"` を返すべきです。
 
 ```js
 assert.equal(buyItems(["200.00", "EUR"], [["50.00", "USD"], ["50.00", "USD"]]), "Buy them all!");
 ```
 
-`buyItems(["100.00", "CAD"], [["20.00", "USD"], ["15.00", "EUR"], ["10.00", "GBP"], ["6000", "JPY"], ["5.00", "CAD"], ["10.00", "USD"]])` should return `"Buy the first 3 items."`.
+`buyItems(["100.00", "CAD"], [["20.00", "USD"], ["15.00", "EUR"], ["10.00", "GBP"], ["6000", "JPY"], ["5.00", "CAD"], ["10.00", "USD"]])` は `"Buy the first 3 items."` を返すべきです。
 
 ```js
 assert.equal(buyItems(["100.00", "CAD"], [["20.00", "USD"], ["15.00", "EUR"], ["10.00", "GBP"], ["6000", "JPY"], ["5.00", "CAD"], ["10.00", "USD"]]), "Buy the first 3 items.");
 ```
 
-`buyItems(["5000", "JPY"], [["3.00", "USD"], ["1000", "JPY"], ["5.00", "CAD"], ["2.00", "EUR"], ["4.00", "USD"], ["2000", "JPY"]])` should return `"Buy them all!"`.
+`buyItems(["5000", "JPY"], [["3.00", "USD"], ["1000", "JPY"], ["5.00", "CAD"], ["2.00", "EUR"], ["4.00", "USD"], ["2000", "JPY"]])` は `"Buy them all!"` を返すべきです。
 
 ```js
 assert.equal(buyItems(["5000", "JPY"], [["3.00", "USD"], ["1000", "JPY"], ["5.00", "CAD"], ["2.00", "EUR"], ["4.00", "USD"], ["2000", "JPY"]]), "Buy them all!");
 ```
 
-`buyItems(["200.00", "USD"], [["50.00", "USD"], ["40.00", "EUR"], ["30.00", "GBP"], ["5000", "JPY"], ["25.00", "CAD"], ["20.00", "USD"]])` should return `"Buy the first 5 items."`.
+`buyItems(["200.00", "USD"], [["50.00", "USD"], ["40.00", "EUR"], ["30.00", "GBP"], ["5000", "JPY"], ["25.00", "CAD"], ["20.00", "USD"]])` は `"Buy the first 5 items."` を返すべきです。
 
 ```js
 assert.equal(buyItems(["200.00", "USD"], [["50.00", "USD"], ["40.00", "EUR"], ["30.00", "GBP"], ["5000", "JPY"], ["25.00", "CAD"], ["20.00", "USD"]]), "Buy the first 5 items.");

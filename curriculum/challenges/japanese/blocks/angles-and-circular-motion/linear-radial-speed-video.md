@@ -1,6 +1,6 @@
 ---
 id: 699e56ba8f18cf77dfce5c0c
-title: Linear and Radial Speed
+title: 線速度と角速度
 challengeType: 11
 videoId: nsZvoNqWCMo
 dashedName: linear-and-radial-speed
@@ -8,32 +8,30 @@ dashedName: linear-and-radial-speed
 
 # --description--
 
-In this video, you will learn about linear and radial speed for rotating circles.
+このビデオでは、回転する円の線速度と角速度について学びます。
 
 # --questions--
 
 ## --text--
 
-What is linear speed?
+線速度とは何ですか？
 
 ## --answers--
 
-The number of rotations completed in one minute.
+1分間に完了する回転数。
 
 ---
 
-The distance from the center of a circle to its edge.
+円の中心から縁までの距離。
 
 ---
 
-The distance a point travels in a unit of time.
+単位時間あたりに点が移動する距離。
 
 ---
 
-The angle a point rotates through in a unit of time.
+単位時間あたりに点が回転する角度。
 
 ## --video-solution--
 
 3
-
-

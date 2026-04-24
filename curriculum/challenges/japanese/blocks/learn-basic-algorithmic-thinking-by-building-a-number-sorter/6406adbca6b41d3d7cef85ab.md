@@ -1,31 +1,31 @@
 ---
 id: 6406adbca6b41d3d7cef85ab
-title: Step 5
+title: ステップ 5
 challengeType: 0
 dashedName: step-5
 ---
 
 # --description--
 
-Back in your `sortInputArray` function, you need to get the values from your `select` elements. Since they all have the class `values-dropdown`, you can query them all at once.
+`sortInputArray` 関数に戻り、`select` 要素から値を取得する必要があります。すべて `values-dropdown` クラスを持っているので、一度にすべてクエリできます。
 
-Use `document.getElementsByClassName()` to get all the elements with this class by passing in the argument `"values-dropdown"`. Assign that to an `inputValues` variable with `const`.
+`document.getElementsByClassName()` を使って引数に `"values-dropdown"` を渡し、このクラスを持つすべての要素を取得してください。それを `inputValues` で `const` 変数に代入します。
 
 # --hints--
 
-You should use `document.getElementsByClassName()` to get all the elements with the class `"values-dropdown"`.
+`document.getElementsByClassName()` を使って `"values-dropdown"` クラスを持つすべての要素を取得してください。
 
 ```js
 assert.match(sortInputArray.toString(), /document\.getElementsByClassName\(\s*('|"|`)values-dropdown\1\s*\)/);
 ```
 
-You should assign the result of `document.getElementsByClassName()` to a variable named `inputValues`.
+`document.getElementsByClassName()` の結果を `inputValues` という名前の変数に代入してください。
 
 ```js
 assert.match(sortInputArray.toString(), /inputValues\s*=\s*document\.getElementsByClassName\(\s*('|"|`)values-dropdown\1\s*\)/);
 ```
 
-You should use `const` to declare `inputValues`.
+`const` を使って `inputValues` を宣言してください。
 
 ```js
 assert.match(code, /const\s+inputValues\s*=\s*document\.getElementsByClassName\(\s*('|"|`)values-dropdown\1\s*\)/);

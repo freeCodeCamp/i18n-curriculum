@@ -1,6 +1,6 @@
 ---
 id: 685a9aaee82fca9effece4bd
-title: Task 130
+title: タスク130
 challengeType: 22
 dashedName: task-130
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+音声を聞いて、下の文を完成させてください。
 
 # --fillInTheBlank--
 
@@ -24,13 +24,13 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This refers to a person who is present at an event or meeting.
+これはイベントや会議に出席している人を指します。
 
 # --explanation--
 
-An `attendee` is someone who attends or is present at an event, such as a meeting, seminar, or conference. For example:
+`attendee`は、会議、セミナー、カンファレンスなどのイベントに参加または出席している人のことです。例えば：
 
-`Each attendee received a welcome packet when they arrived.` – This means every person who came to the event got a packet.
+`Each attendee received a welcome packet when they arrived.` – これはイベントに来た全員が資料を受け取ったことを意味します。
 
 # --scene--
 

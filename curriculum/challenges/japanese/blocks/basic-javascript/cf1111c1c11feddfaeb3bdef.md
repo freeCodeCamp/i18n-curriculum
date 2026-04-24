@@ -1,6 +1,6 @@
 ---
 id: cf1111c1c11feddfaeb3bdef
-title: JavaScript で 2 つの数値を足し算する
+title: JavaScriptで2つの数字を足す
 challengeType: 1
 forumTopicId: 16650
 dashedName: add-two-numbers-with-javascript
@@ -8,33 +8,33 @@ dashedName: add-two-numbers-with-javascript
 
 # --description--
 
-`Number` は数値データを表す JavaScript のデータ型です。
+`Number` はJavaScriptのデータ型で、数値データを表します。
 
-では、JavaScript で 2 つの数字の足し算をしてみましょう。
+では、JavaScriptを使って2つの数字を足してみましょう。
 
-JavaScript では `+` 記号を加算演算子として 2 つの数字の間に置いて使用します。
+JavaScriptでは、2つの数字の間に`+`記号を置くと、足し算の演算子として使われます。
 
-**例:**
+**例：**
 
 ```js
 const myVar = 5 + 10;
 ```
 
-`myVar` の値はいま `15` になりました。
+`myVar` は今、`15` の値を持っています。
 
 # --instructions--
 
-`0` を、和が `20` と等しくなるように変更してください。
+`0` を変更して、sumが`20`と等しくなるようにしてください。
 
 # --hints--
 
-`sum` は `20` と等しくなければいけません。
+`sum` は`20`と等しくなるはずです。
 
 ```js
 assert(sum === 20);
 ```
 
-`+` 演算子を使用してください。
+`+` 演算子を使うべきです。
 
 ```js
 assert(/\+/.test(__helpers.removeJSComments(code)));

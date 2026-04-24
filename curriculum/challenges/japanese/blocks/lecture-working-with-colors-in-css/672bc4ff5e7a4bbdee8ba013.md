@@ -1,13 +1,13 @@
 ---
 id: 672bc4ff5e7a4bbdee8ba013
-title: What Are Named Colors in CSS, and When to Use Them?
+title: CSSの名前付きカラーとは何か、そしていつ使うべきか？
 challengeType: 19
 dashedName: what-are-named-colors-in-css
 ---
 
 # --interactive--
 
-In CSS, colors play a crucial role in designing web pages, enhancing readability, setting the mood, and improving user experience. One of the simplest ways to define colors in CSS is by using named colors. Named colors are predefined color names recognized by browsers. Here is an example of using a named color for a paragraph element:
+CSSでは、色はウェブページのデザイン、読みやすさの向上、雰囲気の設定、ユーザー体験の改善において重要な役割を果たします。CSSで色を定義する最も簡単な方法の一つが名前付きカラーの使用です。名前付きカラーはブラウザーが認識するあらかじめ定義された色の名前です。以下は段落要素に名前付きカラーを使う例です。
 
 :::interactive_editor
 
@@ -24,11 +24,11 @@ p {
 
 :::
 
-In this example, we're using the named color `red` to style the text in a paragraph.
+この例では、段落のテキストに`red`という名前付きカラーを使ってスタイルを適用しています。
 
-Named colors in CSS are a collection of 140 standard color names like `red`, `blue`, `yellow`, `aqua`, `fuchsia`, `black`, and so on. These names are simple to use and make your code more readable, and they are self-descriptive.
+CSSの名前付きカラーは、`red`、`blue`、`yellow`、`aqua`、`fuchsia`、`black`など、140種類の標準的な色名のコレクションです。これらの名前は使いやすく、コードの読みやすさを高め、直感的に理解できます。
 
-Named colors are useful for quick prototyping, simple designs, and improving code readability. Here is an another example of using named colors for an `h1` selector:
+名前付きカラーは、素早いプロトタイピング、シンプルなデザイン、コードの読みやすさ向上に役立ちます。以下は`h1`セレクターに名前付きカラーを使う別の例です。
 
 :::interactive_editor
 
@@ -46,47 +46,47 @@ h1 {
 
 :::
 
-In this example, the heading text will be styled in navy, with a light gray background. The readability of the code improves since named colors provide an immediate visual understanding of the intended style.
+この例では、見出しのテキストがネイビーでスタイルされ、背景は薄いグレーになります。名前付きカラーは意図したスタイルをすぐに視覚的に理解できるため、コードの読みやすさが向上します。
 
-Named colors in CSS are convenient but limited, with only 140 available options. They may not offer the precise shade needed for more detailed designs.
+CSSの名前付きカラーは便利ですが、140種類しかないため制限があります。より詳細なデザインに必要な正確な色合いを提供できない場合があります。
 
-Named colors in CSS are a great way to apply colors quickly and descriptively. While they are useful for basic designs, prototyping, and improving code readability, their limited range makes them less suitable for complex designs requiring precise color control.
+名前付きカラーは、色を素早くかつ説明的に適用するのに最適です。基本的なデザインやプロトタイピング、コードの読みやすさ向上には役立ちますが、色の精密な制御が必要な複雑なデザインには向いていません。
 
-By understanding the strengths and limitations of named colors, you can determine when it’s best to use them over more detailed color models like RGB or HSL, which you will learn about in future lessons.
+名前付きカラーの強みと限界を理解することで、今後のレッスンで学ぶRGBやHSLのような詳細なカラーモデルよりも名前付きカラーを使うべきタイミングを判断できます。
 
 # --questions--
 
 ## --text--
 
-What is a key benefit of using named colors in CSS?
+CSSで名前付きカラーを使う主な利点は何ですか？
 
 ## --answers--
 
-Named colors allow you to create gradients.
+名前付きカラーはグラデーションを作成できます。
 
 ### --feedback--
 
-Think about the simplicity and readability aspect of named colors.
+名前付きカラーのシンプルさと読みやすさの面を考えてみてください。
 
 ---
 
-Named colors are simpler to write and make code more readable.
+名前付きカラーは書きやすく、コードの読みやすさを高めます。
 
 ---
 
-Named colors provide a wider range of color options than hex codes.
+名前付きカラーは16進コードよりも幅広い色の選択肢を提供します。
 
 ### --feedback--
 
-Think about the simplicity and readability aspect of named colors.
+名前付きカラーのシンプルさと読みやすさの面を考えてみてください。
 
 ---
 
-Named colors are the most precise way to define colors in web design.
+名前付きカラーはウェブデザインで最も正確な色の定義方法です。
 
 ### --feedback--
 
-Think about the simplicity and readability aspect of named colors.
+名前付きカラーのシンプルさと読みやすさの面を考えてみてください。
 
 ## --video-solution--
 
@@ -94,35 +94,35 @@ Think about the simplicity and readability aspect of named colors.
 
 ## --text--
 
-In what scenario might named colors not be the best choice?
+どのような場合に名前付きカラーは最適でない可能性がありますか？
 
 ## --answers--
 
-When you need to quickly prototype a design.
+デザインを素早くプロトタイプする必要がある場合。
 
 ### --feedback--
 
-Think about the limitations of named colors in more complex designs.
+名前付きカラーの制限が複雑なデザインでどう影響するか考えてみてください。
 
 ---
 
-When your design requires very specific or nuanced shades of color.
+デザインに非常に特定または微妙な色合いが必要な場合。
 
 ---
 
-When your design involves only primary colors.
+デザインが基本色のみを使う場合。
 
 ### --feedback--
 
-Think about the limitations of named colors in more complex designs.
+名前付きカラーの制限が複雑なデザインでどう影響するか考えてみてください。
 
 ---
 
-When collaborating with others on a simple project.
+シンプルなプロジェクトで他の人と協力する場合。
 
 ### --feedback--
 
-Think about the limitations of named colors in more complex designs.
+名前付きカラーの制限が複雑なデザインでどう影響するか考えてみてください。
 
 ## --video-solution--
 
@@ -130,7 +130,7 @@ Think about the limitations of named colors in more complex designs.
 
 ## --text--
 
-Which of the following is an example of a named color in CSS?
+次のうちCSSの名前付きカラーの例はどれですか？
 
 ## --answers--
 
@@ -138,7 +138,7 @@ Which of the following is an example of a named color in CSS?
 
 ### --feedback--
 
-Named colors are descriptive words, not numerical codes.
+名前付きカラーは数値コードではなく説明的な単語です。
 
 ---
 
@@ -146,7 +146,7 @@ Named colors are descriptive words, not numerical codes.
 
 ### --feedback--
 
-Named colors are descriptive words, not numerical codes.
+名前付きカラーは数値コードではなく説明的な単語です。
 
 ---
 
@@ -158,7 +158,7 @@ Named colors are descriptive words, not numerical codes.
 
 ### --feedback--
 
-Named colors are descriptive words, not numerical codes.
+名前付きカラーは数値コードではなく説明的な単語です。
 
 ## --video-solution--
 

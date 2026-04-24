@@ -1,6 +1,6 @@
 ---
 id: 657fb5afeeba2de5d01dda0e
-title: Task 81
+title: タスク 81
 challengeType: 19
 dashedName: task-81
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --description--
 
-Listen to the audio and answer the question below.
+音声を聞いて、以下の質問に答えてください。
 
 # --questions--
 
 ## --text--
 
-How does Tom respond to Sarah's invitation to the sci-fi convention?
+トムはサラのSFコンベンションへの招待にどのように応じていますか？
 
 ## --answers--
 
-Accepts immediately.
+すぐに受け入れる。
 
 ### --feedback--
 
-Tom does not accept the invitation. He mentions his lack of interest in sci-fi.
+トムは招待を受け入れていません。SFに興味がないことを述べています。
 
 ---
 
-Declines politely.
+丁寧に断る。
 
 ---
 
-Shows disinterest.
+興味がないことを示す。
 
 ### --feedback--
 
-While Tom expresses a lack of interest, his response is more about declining the invitation politely rather than just showing disinterest.
+トムは興味がないことを表現していますが、単に興味を示さないのではなく、丁寧に招待を断っています。
 
 ---
 
-Ignores the invitation.
+招待を無視する。
 
 ### --feedback--
 
-Tom acknowledges the invitation and responds, so he does not ignore it.
+トムは招待を認識して応答しているので、無視はしていません。
 
 ## --video-solution--
 

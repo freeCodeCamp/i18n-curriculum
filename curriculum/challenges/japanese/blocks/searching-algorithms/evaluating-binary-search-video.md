@@ -1,6 +1,6 @@
 ---
 id: 698dc20d7932b3cc4b19c91f
-title: Evaluating Binary Search
+title: 二分探索の評価
 challengeType: 11
 videoId: dnVWNeBCOEA
 dashedName: evaluating-binary-search
@@ -8,29 +8,29 @@ dashedName: evaluating-binary-search
 
 # --description--
 
-In this video, you will learn more about the binary search algorithm.
+このビデオでは、二分探索アルゴリズムについてさらに学びます。
 
 # --questions--
 
 ## --text--
 
-What condition needs to be true in order for binary search to work?
+二分探索が機能するためには、どの条件が満たされている必要がありますか？
 
 ## --answers--
 
-The data must contain less than 1,000 entries.
+データには1,000未満のエントリーが含まれている必要があります。
 
 ---
 
-The data must contain more than 1,000 entries.
+データには1,000を超えるエントリーが含まれている必要があります。
 
 ---
 
-The data must be unsorted.
+データはソートされていない必要があります。
 
 ---
 
-The data must be sorted.
+データはソートされている必要があります。
 
 ## --video-solution--
 

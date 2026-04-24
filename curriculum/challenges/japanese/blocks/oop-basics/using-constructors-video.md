@@ -1,6 +1,6 @@
 ---
 id: 69ae96dfa9e6da4eb0d5f7f5
-title: Using Constructors
+title: コンストラクタの使い方
 challengeType: 11
 videoId: CDFRHw4SACU
 dashedName: using-constructors
@@ -8,13 +8,13 @@ dashedName: using-constructors
 
 # --description--
 
-In this video, you will learn how to work with constructors in classes.
+このビデオでは、クラスのコンストラクタの使い方を学びます。
 
 # --questions--
 
 ## --text--
 
-Which of the following is the correct way to write a constructor?
+次のうち、コンストラクタの正しい書き方はどれですか？
 
 ## --answers--
 
@@ -63,5 +63,3 @@ class Dog:
 ## --video-solution--
 
 3
-
-

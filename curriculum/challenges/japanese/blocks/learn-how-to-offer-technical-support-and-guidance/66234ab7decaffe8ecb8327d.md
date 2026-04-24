@@ -1,6 +1,6 @@
 ---
 id: 66234ab7decaffe8ecb8327d
-title: Task 56
+title: タスク 56
 challengeType: 22
 dashedName: task-56
 lang: en-US
@@ -10,9 +10,9 @@ lang: en-US
 
 # --description--
 
-`To affect` means to have an impact on or influence something. In programming, `affecting` a part of the system means that changes in one area might impact how other areas function.
+`To affect` は何かに影響を与えることを意味します。プログラミングでは、`affecting` がシステムの一部である場合、あるエリアの変更が他のエリアの動作に影響を与える可能性があります。
 
-For example, `Changing the database structure could affect the application's performance` indicates that modifications might influence the performance.
+例えば、`Changing the database structure could affect the application's performance` は変更がパフォーマンスに影響を与えるかもしれないことを示しています。
 
 # --fillInTheBlank--
 
@@ -26,7 +26,7 @@ For example, `Changing the database structure could affect the application's per
 
 ### --feedback--
 
-In this context, it refers to the potential impact of Sophie's changes on other parts of the system.
+この文脈では、ソフィーの変更がシステムの他の部分に与える可能性のある影響を指しています。
 
 ---
 
@@ -34,7 +34,7 @@ In this context, it refers to the potential impact of Sophie's changes on other 
 
 ### --feedback--
 
-They are the various operations or features of the system that might be impacted by the changes.
+これらは、変更によって影響を受ける可能性のあるシステムのさまざまな操作や機能です。
 
 # --scene--
 

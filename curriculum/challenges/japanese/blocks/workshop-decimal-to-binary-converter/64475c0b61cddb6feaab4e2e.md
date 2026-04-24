@@ -1,27 +1,27 @@
 ---
 id: 64475c0b61cddb6feaab4e2e
-title: ステップ 13
+title: Step 13
 challengeType: 0
 dashedName: step-13
 ---
 
 # --description--
 
-Now you can alert the user if they don't enter a number, or the number is invalid before you attempt to convert it into binary.
+ユーザーが数字を入力しなかったり、数字が無効な場合に、2進数に変換する前に警告を表示できるようになりました。
 
-In the body of the `if` statement, use the `alert()` method to display the text `"Please provide a decimal number greater than or equal to 0"`.
+`if` 文の中で、`alert()` メソッドを使ってテキスト `"Please provide a decimal number greater than or equal to 0"` を表示してください。
 
-Note that `alert()` is a method on the `window` object in the browser, so you can use either `window.alert()` or `alert()`.
+`alert()` はブラウザの `window` オブジェクトのメソッドなので、`window.alert()` または `alert()` のどちらかを使えます。
 
 # --hints--
 
-You should call the `alert()` method within the body of your `if` statement within `checkUserInput`.
+`alert()` の中の `if` 文の中で `checkUserInput` メソッドを呼び出す必要があります。
 
 ```js
 assert.match(String(checkUserInput), /if\s*\(\s*.+\s*\)\s*\{\s*(window\s*.)?\s*alert\(/);
 ```
 
-When there is a falsy value in the `#number-input` element and the `checkUserInput()` function is called, the `alert()` method should display the text `"Please provide a decimal number greater than or equal to 0"`.
+`#number-input` 要素に偽値がある場合に `checkUserInput()` 関数が呼び出されると、`alert()` メソッドがテキスト `"Please provide a decimal number greater than or equal to 0"` を表示するはずです。
 
 ```js
 const numberInput = document.getElementById("number-input");

@@ -1,13 +1,13 @@
 ---
 id: 66ed8fa2f45ce3ece4053eab
-title: CSS Fundamentals Quiz
+title: CSS基礎クイズ
 challengeType: 8
 dashedName: quiz-basic-css
 ---
 
 # --description--
 
-To pass the quiz, you must correctly answer at least 18 of the 20 questions below.
+クイズに合格するには、以下の20問中少なくとも18問に正しく答える必要があります。
 
 # --quizzes--
 
@@ -17,7 +17,7 @@ To pass the quiz, you must correctly answer at least 18 of the 20 questions belo
 
 #### --text--
 
-What does CSS stand for?
+CSSは何の略ですか？
 
 #### --distractors--
 
@@ -39,7 +39,7 @@ Cascading Style Sheets
 
 #### --text--
 
-Which of the following is a correct CSS rule?
+次のうち正しいCSSルールはどれですか？
 
 #### --distractors--
 
@@ -61,29 +61,29 @@ Which of the following is a correct CSS rule?
 
 #### --text--
 
-What does `<meta name="viewport">` do?
+`<meta name="viewport">`は何をしますか？
 
 #### --distractors--
 
-It links external stylesheets to a webpage for responsive design.
+レスポンシブデザインのために外部スタイルシートをウェブページにリンクします。
 
 ---
 
-It specifies the metadata used by search engines to index a webpage.
+検索エンジンがウェブページをインデックスするために使うメタデータを指定します。
 
 ---
 
-It specifies the character encoding used on the webpage.
+ウェブページで使われる文字エンコーディングを指定します。
 
 #### --answer--
 
-It controls the shape and size of a web page on different screen sizes.
+異なる画面サイズでウェブページの形状とサイズを制御します。
 
 ### --question--
 
 #### --text--
 
-Which syntax is correct to use inline CSS?
+インラインCSSを使う正しい構文はどれですか？
 
 #### --distractors--
 
@@ -105,29 +105,29 @@ Which syntax is correct to use inline CSS?
 
 #### --text--
 
-When using internal CSS, where is the `style` element placed within the HTML?
+内部CSSを使う場合、`style`要素はHTMLのどこに配置されますか？
 
 #### --distractors--
 
-In the `meta` element.
+`meta`要素内。
 
 ---
 
-In the `script` element.
+`script`要素内。
 
 ---
 
-In the `body` element.
+`body`要素内。
 
 #### --answer--
 
-In the `head` element.
+`head`要素内。
 
 ### --question--
 
 #### --text--
 
-Which rule is correct for setting the width and height in CSS?
+CSSで幅と高さを設定する正しいルールはどれですか？
 
 #### --distractors--
 
@@ -149,7 +149,7 @@ Which rule is correct for setting the width and height in CSS?
 
 #### --text--
 
-Which selector correctly targets `h1` elements only when inside a `div`?
+`h1`内にある場合のみ`div`要素を正しくターゲットにするセレクターはどれですか？
 
 #### --distractors--
 
@@ -171,7 +171,7 @@ Which selector correctly targets `h1` elements only when inside a `div`?
 
 #### --text--
 
-Which selector is correct to target direct children of a `footer`?
+`footer`の直下の子要素をターゲットにする正しいセレクターはどれですか？
 
 #### --distractors--
 
@@ -193,7 +193,7 @@ Which selector is correct to target direct children of a `footer`?
 
 #### --text--
 
-Which selector is correct to target the next sibling of an `img`?
+`img`の次の兄弟要素をターゲットにする正しいセレクターはどれですか？
 
 #### --distractors--
 
@@ -215,7 +215,7 @@ Which selector is correct to target the next sibling of an `img`?
 
 #### --text--
 
-Which selector is correct to target all siblings preceded by an `img` element?
+`img`要素に先行するすべての兄弟要素をターゲットにする正しいセレクターはどれですか？
 
 #### --distractors--
 
@@ -237,51 +237,51 @@ Which selector is correct to target all siblings preceded by an `img` element?
 
 #### --text--
 
-What statement is TRUE about block-level elements?
+ブロックレベル要素について正しい記述はどれですか？
 
 #### --distractors--
 
-Block-level elements stack horizontally by default.
+ブロックレベル要素はデフォルトで横に積み重なります。
 
 ---
 
-`width` and `height` properties usually do not apply to block-level elements unless you set their `display` property to `inline-block`.
+`width`と`height`のプロパティは、`display`プロパティを`inline-block`に設定しない限り通常ブロックレベル要素には適用されません。
 
 ---
 
-Block-level elements cannot contain inline elements inside them.
+ブロックレベル要素はインライン要素を内部に含めることができません。
 
 #### --answer--
 
-Block-level elements start on a new line and take up the full width of their container.
+ブロックレベル要素は新しい行から始まり、コンテナの幅いっぱいに広がります。
 
 ### --question--
 
 #### --text--
 
-What statement is TRUE when using the `inline-block` value?
+`inline-block`値を使う場合に正しい記述はどれですか？
 
 #### --distractors--
 
-Elements stack vertically, always taking up the full width of their container.
+要素は縦に積み重なり、常にコンテナの幅いっぱいに広がります。
 
 ---
 
-Elements align horizontally but cannot apply vertical padding or margin.
+要素は横に並びますが、縦のパディングやマージンは適用できません。
 
 ---
 
-Elements respect width and height settings but cannot contain other elements inside them.
+要素は幅と高さの設定を尊重しますが、他の要素を内部に含めることはできません。
 
 #### --answer--
 
-Elements retain inline flow but allow setting width and height.
+要素はインラインの流れを維持しつつ、幅と高さの設定を可能にします。
 
 ### --question--
 
 #### --text--
 
-Given the following selectors, which has the highest specificity?
+次のセレクターのうち、最も特異性が高いのはどれですか？
 
 #### --distractors--
 
@@ -303,7 +303,7 @@ Given the following selectors, which has the highest specificity?
 
 #### --text--
 
-Given the following selectors, which has the lowest specificity?
+次のセレクターのうち、最も特異性が低いのはどれですか？
 
 #### --distractors--
 
@@ -325,73 +325,73 @@ Given the following selectors, which has the lowest specificity?
 
 #### --text--
 
-What does the `*` selector do?
+`*`セレクターは何をしますか？
 
 #### --distractors--
 
-Targets some elements on the page.
+ページ上の一部の要素をターゲットにします。
 
 ---
 
-Targets elements that have children on the page.
+子要素を持つ要素をターゲットにします。
 
 ---
 
-Targets all `p` elements on the page.
+ページ上のすべての`p`要素をターゲットにします。
 
 #### --answer--
 
-Targets all elements on the page.
+ページ上のすべての要素をターゲットにします。
 
 ### --question--
 
 #### --text--
 
-What does `!important` do in CSS?
+CSSで`!important`は何をしますか？
 
 #### --distractors--
 
-It makes the CSS rule work exclusively for inline styles and ignores styles defined in external or internal stylesheets.
+インラインスタイルにのみ排他的に適用し、外部や内部スタイルシートのスタイルを無視します。
 
 ---
 
-It disables all other CSS properties applied to the same element, effectively making it the only rule that affects the element's styling.
+同じ要素に適用された他のすべてのCSSプロパティを無効にし、その要素のスタイルに影響を与える唯一のルールにします。
 
 ---
 
-It applies on to a certain selector or group of elements.
+特定のセレクターや要素グループに適用されます。
 
 #### --answer--
 
-It overrides any other values applied to the property for that selector.
+そのセレクターに適用されたプロパティの他の値をすべてオーバーライドします。
 
 ### --question--
 
 #### --text--
 
-How does the CSS Cascade algorithm work?
+CSSのカスケードアルゴリズムはどのように動作しますか？
 
 #### --distractors--
 
-It determines styles of the element based on order of declaration, regardless of other factors.
+宣言の順序に基づいて要素のスタイルを決定し、他の要因は無視します。
 
 ---
 
-It applies styles based solely on the order they are written, ignoring specificity.
+書かれた順序だけに基づいてスタイルを適用し、特異性は無視します。
 
 ---
 
-It applies styles prioritizing specificity, ignoring origin and relevance.
+特異性を優先し、起源や関連性は無視してスタイルを適用します。
 
 #### --answer--
 
-It determines styles of the element based on specificity and order of declaration.
+特異性と宣言の順序に基づいて要素のスタイルを決定します。
 
 ### --question--
 
 #### --text--
 
-Which rule applies `32px` of margin to all sides?
+すべての辺に`32px`のマージンを適用するルールはどれですか？
 
 #### --distractors--
 
@@ -413,7 +413,7 @@ Which rule applies `32px` of margin to all sides?
 
 #### --text--
 
-Which rule applies `24px` padding to the top and bottom?
+上下に`24px`のパディングを適用するルールはどれですか？
 
 #### --distractors--
 
@@ -435,23 +435,23 @@ Which rule applies `24px` padding to the top and bottom?
 
 #### --text--
 
-For `padding: 10px 20px 30px 40px`, what is the correct order of values?
+`padding: 10px 20px 30px 40px`の場合、値の正しい順序はどれですか？
 
 #### --distractors--
 
-Right, Top, Left, Bottom.
+右、上、左、下。
 
 ---
 
-Top, Left, Bottom, Right.
+上、左、下、右。
 
 ---
 
-Top, Bottom, Right, Left.
+上、下、右、左。
 
 #### --answer--
 
-Top, Right, Bottom, Left.
+上、右、下、左。
 
 ## --quiz--
 
@@ -459,29 +459,29 @@ Top, Right, Bottom, Left.
 
 #### --text--
 
-What are the main parts of a CSS rule?
+CSSルールの主な部分は何ですか？
 
 #### --distractors--
 
-Elements and attributes
+要素と属性
 
 ---
 
-Style and sheets
+スタイルとシート
 
 ---
 
-Scripts and values
+スクリプトと値
 
 #### --answer--
 
-Selectors and declaration blocks
+セレクターと宣言ブロック
 
 ### --question--
 
 #### --text--
 
-Which of the following is the correct syntax for a CSS rule?
+正しいCSSルールの構文はどれですか？
 
 #### --distractors--
 
@@ -519,29 +519,29 @@ body {
 
 #### --text--
 
-What are default browser styles?
+デフォルトのブラウザスタイルとは何ですか？
 
 #### --distractors--
 
-HTML elements that have the same styling properties regardless of the browser.
+ブラウザに関係なく同じスタイルプロパティを持つHTML要素。
 
 ---
 
-They are mandatory styles that you must use for specific HTML elements.
+特定のHTML要素に必ず使わなければならないスタイル。
 
 ---
 
-They are the color themes for the various browsers.
+さまざまなブラウザのカラーテーマ。
 
 #### --answer--
 
-The CSS rules that browsers apply automatically.
+ブラウザが自動的に適用するCSSルール。
 
 ### --question--
 
 #### --text--
 
-What is the default value for the `width` property?
+`width`プロパティのデフォルト値は何ですか？
 
 #### --distractors--
 
@@ -563,51 +563,51 @@ What is the default value for the `width` property?
 
 #### --text--
 
-What does the `min-height` property specify?
+`min-height`プロパティは何を指定しますか？
 
 #### --distractors--
 
-The starting height for an element.
+要素の開始高さ。
 
 ---
 
-The height for an element.
+要素の高さ。
 
 ---
 
-The maximum height for an element.
+要素の最大高さ。
 
 #### --answer--
 
-The minimum height for an element.
+要素の最小高さ。
 
 ### --question--
 
 #### --text--
 
-Which of the following is TRUE about the universal selector `*`?
+ユニバーサルセレクター`*`について正しい記述はどれですか？
 
 #### --distractors--
 
-It has the highest specificity because it can style all the elements on a page.
+ページ上のすべての要素をスタイルできるため、最も特異性が高い。
 
 ---
 
-It contributes 1 to all parts of the specificity value.
+特異性のすべての部分に1を加算する。
 
 ---
 
-It cannot reset styles across different browsers.
+異なるブラウザ間でスタイルをリセットできない。
 
 #### --answer--
 
-It has the lowest specificity value of any selector.
+どのセレクターよりも特異性が最も低い。
 
 ### --question--
 
 #### --text--
 
-Which selector correctly targets `li` elements for an ordered list?
+番号付きリストの`li`要素を正しくターゲットにするセレクターはどれですか？
 
 #### --distractors--
 
@@ -629,7 +629,7 @@ Which selector correctly targets `li` elements for an ordered list?
 
 #### --text--
 
-Which selector targets the paragraph elements of a `div` element?
+`div`要素の段落要素をターゲットにするセレクターはどれですか？
 
 #### --distractors--
 
@@ -651,117 +651,117 @@ Which selector targets the paragraph elements of a `div` element?
 
 #### --text--
 
-Where does the `margin` apply styling properties?
+`margin`はどこにスタイルプロパティを適用しますか？
 
 #### --distractors--
 
-The space inside element.
+要素の内側の空間。
 
 ---
 
-Between the content and the border.
+コンテンツとボーダーの間。
 
 ---
 
-On the border of the element.
+要素のボーダー上。
 
 #### --answer--
 
-The space outside the element.
+要素の外側の空間。
 
 ### --question--
 
 #### --text--
 
-Where does the `padding` property apply styling?
+`padding`プロパティはどこにスタイルを適用しますか？
 
 #### --distractors--
 
-Between the elements border and the surrounding elements.
+要素のボーダーと周囲の要素の間。
 
 ---
 
-The space outside the element.
+要素の外側の空間。
 
 ---
 
-On the border of the element.
+要素のボーダー上。
 
 #### --answer--
 
-The space inside the element.
+要素の内側の空間。
 
 ### --question--
 
 #### --text--
 
-Which statement is FALSE about block-level elements?
+ブロックレベル要素について誤っている記述はどれですか？
 
 #### --distractors--
 
-They can stretch to fit the width of their container.
+コンテナの幅に合わせて伸縮できます。
 
 ---
 
-Common block level elements include `div`, `paragraph`, and `section`.
+一般的なブロックレベル要素には`div`、`paragraph`、`section`があります。
 
 ---
 
-Block-level elements start on a new line and take up the full width of their container.
+ブロックレベル要素は新しい行から始まり、コンテナの幅いっぱいに広がります。
 
 #### --answer--
 
-They cannot take up the full width available as they are blocked from doing so.
+利用可能な幅いっぱいに広がることはできません。
 
 ### --question--
 
 #### --text--
 
-Which statement is FALSE when using the `inline-block` value?
+`inline-block`値を使う場合に誤っている記述はどれですか？
 
 #### --distractors--
 
-`inline-block` elements behave like inline elements.
+`inline-block`要素はインライン要素のように振る舞います。
 
 ---
 
-They can have `width` and `height` properties.
+`width`と`height`のプロパティを持つことができます。
 
 ---
 
-Elements retain inline flow but allow setting `width` and `height`.
+要素はインラインの流れを維持しつつ、`width`と`height`の設定を可能にします。
 
 #### --answer--
 
-They do not share properties with inline or block level elements.
+インライン要素やブロックレベル要素とプロパティを共有しません。
 
 ### --question--
 
 #### --text--
 
-Which is TRUE about the `!important` keyword?
+`!important`キーワードについて正しい記述はどれですか？
 
 #### --distractors--
 
-They are used to make comments for an important CSS property.
+重要なCSSプロパティのコメントを作るために使われます。
 
 ---
 
-They make sure a CSS property has the correct syntax.
+CSSプロパティの構文が正しいことを確認します。
 
 ---
 
-They make CSS rules easier to maintain.
+CSSルールの保守を容易にします。
 
 #### --answer--
 
-They override the specificity of other selectors.
+他のセレクターの特異性をオーバーライドします。
 
 ### --question--
 
 #### --text--
 
-What character precedes a class selector name?
+クラスセレクター名の前に付く文字は何ですか？
 
 #### --distractors--
 
@@ -783,51 +783,51 @@ What character precedes a class selector name?
 
 #### --text--
 
-Which is FALSE about inline level elements?
+インラインレベル要素について誤っている記述はどれですか？
 
 #### --distractors--
 
-They take up only as much space as they need.
+必要な分だけのスペースを取ります。
 
 ---
 
-They do not start on a new line.
+新しい行から始まりません。
 
 ---
 
-Common inline elements include `span` and `img`.
+一般的なインライン要素には`span`と`img`があります。
 
 #### --answer--
 
-They always start on a new line.
+常に新しい行から始まります。
 
 ### --question--
 
 #### --text--
 
-Where are internal CSS styles accessed?
+内部CSSスタイルはどこでアクセスされますか？
 
 #### --distractors--
 
-They are styles that are important to the project, so are not shared externally.
+プロジェクトに重要なスタイルなので外部共有されません。
 
 ---
 
-Since they form the core styling of the project, they are saved in the `styles.css` file so other web pages can access them.
+プロジェクトのコアスタイルなので`styles.css`ファイルに保存され、他のウェブページがアクセスできます。
 
 ---
 
-They are stored inside the `body` element when there is only one web page to style.
+スタイルが1ページだけの場合、`body`要素内に保存されます。
 
 #### --answer--
 
-They are written within the `style` section within the `head` element.
+`style`要素内の`head`セクション内に記述されます。
 
 ### --question--
 
 #### --text--
 
-What is the order for applying the `padding` property when using the shorthand syntax?
+ショートハンド構文で`padding`プロパティを適用する順序は何ですか？
 
 #### --distractors--
 
@@ -849,7 +849,7 @@ What is the order for applying the `padding` property when using the shorthand s
 
 #### --text--
 
-What is the order for applying the `margin` property when using the shorthand syntax?
+ショートハンド構文で`margin`プロパティを適用する順序は何ですか？
 
 #### --distractors--
 
@@ -871,29 +871,29 @@ What is the order for applying the `margin` property when using the shorthand sy
 
 #### --text--
 
-What are inline CSS styles used for?
+インラインCSSスタイルは何のために使われますか？
 
 #### --distractors--
 
-They are used to style inline elements only.
+インライン要素だけをスタイルするために使われます。
 
 ---
 
-They are used to style elements only when they all appear on the same line of the browser viewport.
+ブラウザのビューポートで同じ行にある要素だけをスタイルするために使われます。
 
 ---
 
-They are used to resolve the issue with separation of concerns.
+関心の分離の問題を解決するために使われます。
 
 #### --answer--
 
-They are used to directly style within the element, instead of using internal or external CSS.
+内部や外部のCSSを使わずに、要素内で直接スタイルを指定するために使われます。
 
 ### --question--
 
 #### --text--
 
-What symbol precedes the ID selector?
+IDセレクターの前に付く記号は何ですか？
 
 #### --distractors--
 
@@ -910,4 +910,3 @@ What symbol precedes the ID selector?
 #### --answer--
 
 `#`
-

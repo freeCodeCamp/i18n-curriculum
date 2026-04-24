@@ -1,6 +1,6 @@
 ---
 id: 67e2ae1300a8edcdede767db
-title: Task 4
+title: タスク 4
 challengeType: 22
 dashedName: task-4
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+音声を聞いて、以下の文を完成させてください。
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This verb is used when someone wants to get information or permission.
+この動詞は、誰かが情報や許可を得たいときに使います。
 
 ---
 
@@ -32,17 +32,17 @@ This verb is used when someone wants to get information or permission.
 
 ### --feedback--
 
-This preposition connects related topic or subject.
+この前置詞は、関連する話題や主題をつなげます。
 
 # --explanation--
 
-`Ask about` means to request information related to a specific topic. For example:
+`Ask about` は、特定の話題に関する情報を求めることを意味します。例えば：
 
-`I asked about the new feature.` – You wanted information on the feature.
+`I asked about the new feature.` – 機能についての情報が欲しかった場合です。
 
-`Can I ask you about...` is a polite way to start a question when you want information or help. It shows that you're asking for permission to talk about a specific topic. For example:
+`Can I ask you about...` は、情報や助けを求めるときに丁寧に質問を始める方法です。特定の話題について話す許可を求めていることを示します。例えば：
 
-`Can I ask you about the project deadline?` – This means you want to talk about the deadline and get more details.
+`Can I ask you about the project deadline?` – これは締め切りについて話し、詳細を知りたいという意味です。
 
 # --scene--
 

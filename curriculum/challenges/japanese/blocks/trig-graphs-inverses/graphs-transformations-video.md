@@ -1,6 +1,6 @@
 ---
 id: 699e69e58f18cf77dfce5c14
-title: Graphs of Transformations of Tan, Sec, Cot, Csc
+title: タンジェント、セカント、コタンジェント、コセカントの変換のグラフ
 challengeType: 11
 videoId: 07CAThFU14c
 dashedName: graphs-of-transformations-of-tan-sec-cot-csc
@@ -8,32 +8,30 @@ dashedName: graphs-of-transformations-of-tan-sec-cot-csc
 
 # --description--
 
-In this video, you will learn how to graph the transformations of tangent, secant, cotangent, and cosecant functions.
+このビデオでは、タンジェント、セカント、コタンジェント、コセカントの関数の変換のグラフの描き方を学びます。
 
 # --questions--
 
 ## --text--
 
-What is the shape of the second graph shown in the video?
+ビデオで示された2番目のグラフの形は何ですか？
 
 ## --answers--
 
-Secant graph.
+セカントのグラフ。
 
 ---
 
-Tangent graph.
+タンジェントのグラフ。
 
 ---
 
-Sinusoidal graph.
+正弦波のグラフ。
 
 ---
 
-Cosecant graph.
+コセカントのグラフ。
 
 ## --video-solution--
 
 2
-
-

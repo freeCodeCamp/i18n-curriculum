@@ -1,6 +1,6 @@
 ---
 id: 67a75c6d5ea4deeee6ffb507
-title: Task 21
+title: タスク 21
 challengeType: 19
 dashedName: task-21
 lang: en-US
@@ -10,55 +10,55 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+音声を聞いて、以下の質問に答えてください。
 
 # --questions--
 
 ## --text--
 
-What does Linda offer to do?
+リンダは何をすると申し出ていますか？  
 
-## --answers--
+## --answers--  
 
-Prepare user scenarios for testing.
+テスト用のユーザーシナリオを準備する。  
 
----
+---  
 
-Skip the testing phase.
+テスト段階をスキップする。  
 
-### --feedback--
+### --feedback--  
 
-Linda does not suggest skipping testing; she is actively contributing to it.
+リンダはテストをスキップすることを提案していません。積極的にテストに貢献しています。  
 
----
+---  
 
-Ask someone else to handle user testing.
+他の誰かにユーザーテストを任せる。  
 
-### --feedback--
+### --feedback--  
 
-Linda does not delegate the task to someone else.
+リンダはその作業を他の人に任せるとは言っていません。  
 
----
+---  
 
-Redesign the user interface from scratch.
+ユーザーインターフェースを一から再設計する。  
 
-### --feedback--
+### --feedback--  
 
-Linda does not talk about redesigning the interface.
+リンダはインターフェースの再設計について話していません。  
 
-## --video-solution--
+## --video-solution--  
 
-1
+1  
 
-# --explanation--
+# --explanation--  
 
-Listen for key words that indicate what Linda is offering to do.
+リンダが何を申し出ているかを示すキーワードに注目してください。  
 
-`I can also` – This shows she is volunteering to contribute.
+`I can also` – これは彼女が自発的に貢献しようとしていることを示しています。  
 
-`Prepare some user scenarios for testing` – This clearly states the task she is taking responsibility for.
+`Prepare some user scenarios for testing` – 彼女が責任を持つタスクを明確に述べています。  
 
-`Ensure a smooth user experience` – This explains why testing is important and reinforces her commitment to the project.
+`Ensure a smooth user experience` – テストが重要である理由を説明し、プロジェクトへのコミットメントを強調しています。  
 
 # --scene--
 

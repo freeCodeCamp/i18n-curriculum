@@ -1,46 +1,46 @@
 ---
 id: afd15382cdfb22c9efe8b7de
-title: Implement a DNA Pair Generator
+title: DNAペアジェネレーターを実装する
 challengeType: 26
 dashedName: implement-a-dna-pair-generator
 ---
 
 # --description--
 
-In the double helix of the DNA, the bases are always paired together: if on one strand there is an <em>A</em> base, on the other strand directly in front there is a <em>T</em> base, the other pair is <em>C</em> and <em>G</em>.
+DNAの二重らせんでは、塩基は常にペアになっています。片方の鎖に<em>A</em>塩基があれば、向かい合うもう一方の鎖には<em>T</em>塩基があり、もう一方のペアは<em>C</em>と<em>G</em>です。
 
-In this lab, you will write a function to match the missing base pairs for the provided DNA strand. For each character in the provided string, find the base pair character.
+このラボでは、与えられたDNA鎖の欠けている塩基ペアを見つける関数を書きます。与えられた文字列の各文字に対して、対応する塩基ペアの文字を見つけてください。
 
-For example, for the input `ATCG`, return `[["A", "T"], ["T", "A"], ["C", "G"], ["G", "C"]]`
+例えば、入力が`ATCG`の場合、`[["A", "T"], ["T", "A"], ["C", "G"], ["G", "C"]]`を返します。
 
-The <em>A</em> base gets paired with a <em>T</em> base, the <em>T</em> base is paired with a <em>A</em> base, the <em>C</em> is paired with the <em>G</em> base, and finally the <em>G</em> base is paired with a <em>C</em> base.
+<em>A</em>塩基は<em>T</em>塩基とペアになり、<em>T</em>塩基は<em>A</em>塩基とペアになり、<em>C</em>は<em>G</em>塩基とペアになり、最後に<em>G</em>塩基は<em>C</em>塩基とペアになります。
 
-**Objective**: Fulfill the user stories below and get all the tests to pass to complete the lab.
+**目的**：以下のユーザーストーリーを満たし、すべてのテストに合格してラボを完了してください。
 
-**User Stories:**
+**ユーザーストーリー：**
 
-1. You should have a `pairElement` function that takes a string of any length as an argument.
-1. The `pairElement` function should return a 2d array, where each inner array has two strings inside, the first string is one base from the input, and the second string the paired base.
-1. When given `A`, the function should pair it with `T`.
-1. When given `T`, the function should pair it with `A`.
-1. When given `C`, the function should pair it with `G`.
-1. When given `G`, the function should pair it with `C`.
+1. `pairElement`という名前の関数があり、任意の長さの文字列を引数として受け取る必要があります。
+1. `pairElement`関数は2次元配列を返す必要があり、各内側の配列には2つの文字列が含まれます。最初の文字列は入力の1つの塩基で、2番目の文字列はペアの塩基です。
+1. `A`が与えられた場合、関数は`T`とペアにする必要があります。
+1. `T`が与えられた場合、関数は`A`とペアにする必要があります。
+1. `C`が与えられた場合、関数は`G`とペアにする必要があります。
+1. `G`が与えられた場合、関数は`C`とペアにする必要があります。
 
 # --hints--
 
-You should create a function named `pairElement`.
+`pairElement`という名前の関数を作成してください。
 
 ```js
 assert.isFunction(pairElement);
 ```
 
-`pairElement` should take a single argument.
+`pairElement`は1つの引数を取る必要があります。
 
 ```js
 assert.lengthOf(pairElement, 1);
 ```
 
-`pairElement("ATCGA")` should return `[["A","T"],["T","A"],["C","G"],["G","C"],["A","T"]]`.
+`pairElement("ATCGA")`は`[["A","T"],["T","A"],["C","G"],["G","C"],["A","T"]]`を返す必要があります。
 
 ```js
 assert.deepEqual(pairElement('ATCGA'), [
@@ -52,7 +52,7 @@ assert.deepEqual(pairElement('ATCGA'), [
 ]);
 ```
 
-`pairElement("TTGAG")` should return `[["T","A"],["T","A"],["G","C"],["A","T"],["G","C"]]`.
+`pairElement("TTGAG")`は`[["T","A"],["T","A"],["G","C"],["A","T"],["G","C"]]`を返す必要があります。
 
 ```js
 assert.deepEqual(pairElement('TTGAG'), [
@@ -64,7 +64,7 @@ assert.deepEqual(pairElement('TTGAG'), [
 ]);
 ```
 
-`pairElement("CTCTA")` should return `[["C","G"],["T","A"],["C","G"],["T","A"],["A","T"]]`.
+`pairElement("CTCTA")`は`[["C","G"],["T","A"],["C","G"],["T","A"],["A","T"]]`を返す必要があります。
 
 ```js
 assert.deepEqual(pairElement('CTCTA'), [

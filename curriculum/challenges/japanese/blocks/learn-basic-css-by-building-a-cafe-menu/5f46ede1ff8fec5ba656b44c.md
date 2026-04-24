@@ -1,17 +1,17 @@
 ---
 id: 5f46ede1ff8fec5ba656b44c
-title: Step 77
+title: ステップ 77
 challengeType: 0
 dashedName: step-77
 ---
 
 # --description--
 
-Next, you are going to be styling the `footer` element. To keep the CSS organized, add a comment at the end of `styles.css` with the text `FOOTER`.
+次に、`footer` 要素のスタイルを設定します。CSSを整理するために、`styles.css` の最後に `FOOTER` というテキストのコメントを追加してください。
 
 # --hints--
 
-You should have a CSS comment with the text `FOOTER`.
+`FOOTER` というテキストのCSSコメントがあるはずです。
 
 ```js
 assert(code.match(/\/\*\s*FOOTER\s*\*\//i));
@@ -150,4 +150,3 @@ h1, h2 {
 --fcc-editable-region--
 
 ```
-

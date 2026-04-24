@@ -1,6 +1,6 @@
 ---
 id: 67d3f4b1be72cc09bd3ac4be
-title: Task 4
+title: タスク 4
 challengeType: 22
 dashedName: task-4
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+音声を聞いて、以下の文を完成させてください。
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This modal verb expresses necessity or obligation.
+このモーダル動詞は必要性や義務を表します。
 
 ---
 
@@ -32,17 +32,17 @@ This modal verb expresses necessity or obligation.
 
 ### --feedback--
 
-This verb follows `must` to indicate an action that is required.
+この動詞は`must`の後に続き、必要な行動を示します。
 
 # --explanation--
 
-`Must` is a modal verb used to express necessity or obligation. For example:
+`Must`は必要性や義務を表すモーダル動詞です。例えば：
 
-- `You must wear a seatbelt while driving.` - It is required.
+- `You must wear a seatbelt while driving.` - 必要とされます。
 
-- `We must submit the report by Friday.` - It is necessary.
+- `We must submit the report by Friday.` - 必要です。
 
-Modal verbs are always followed by the base form of the verb (without `to`).
+モーダル動詞の後には常に動詞の原形（`to`なし）が続きます。
 
 # --scene--
 

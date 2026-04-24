@@ -1,6 +1,6 @@
 ---
 id: 67f38fac88ead216c0db1dcb
-title: Task 81
+title: タスク81
 challengeType: 19
 dashedName: task-81
 lang: en-US
@@ -12,13 +12,13 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+音声を聞いて、以下の質問に答えてください。
 
 # --questions--
 
 ## --text--
 
-Jessica didn't check that yet, but will do. What should she say?
+ジェシカはまだ確認していませんが、これから行う予定です。彼女は何と言うべきでしょうか？
 
 ## --answers--
 
@@ -30,7 +30,7 @@ ENaa826774
 
 ### --feedback--
 
-`Won't` is the contraction for `will not`. Jessica plans to check it.
+`Won't` は `will not` の短縮形です。ジェシカは確認する予定です。
 
 ---
 
@@ -46,11 +46,11 @@ EN97950753
 
 # --explanation--
 
-Jessica is responding to Jake's question, acknowledging that she has not checked yet but will do so. This response shows that she is ready to complete the task, which is in line with what Jake is asking about.
+ジェシカはジェイクの質問に対して、まだ確認していないがこれから行うことを認めています。この返答は、ジェイクが尋ねている内容に沿って、タスクを完了する準備ができていることを示しています。
 
-`No, I didn't` confirms that she hasn't checked yet.
+`No, I didn't` はまだ確認していないことを示しています。
 
-`I'll do that` shows her intention to complete the task soon.
+`I'll do that` はすぐにタスクを完了する意図を示しています。
 
 # --scene--
 

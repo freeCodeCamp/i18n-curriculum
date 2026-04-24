@@ -1,6 +1,6 @@
 ---
 id: 68eff70d0ade1c408ecbfeb4
-title: Task 6
+title: タスク 6
 challengeType: 22
 dashedName: task-6
 lang: es
@@ -10,15 +10,15 @@ lang: es
 
 # --description--
 
-The letter `d` is called `de`.
+文字 `d` は `de` と呼ばれます。
 
-At the beginning of a word or after `l` or `n`, its sound is stronger, like in the word `dos` ("two"). However, it's softer between vowels, like in the word `idea` ("idea").
+単語の最初や `l` または `n` の後では、その音は強くなり、単語 `dos`（「two」）のようになります。しかし、母音の間ではより柔らかくなり、単語 `idea`（「idea」）のようになります。
 
-An example is `doctor` ("doctor").
+例として `doctor`（「doctor」）があります。
 
 # --instructions--
 
-Listen to the audio and write the letter in the blank space below.
+音声を聞いて、下の空欄に文字を書いてください。
 
 # --fillInTheBlank--
 
@@ -32,7 +32,7 @@ Listen to the audio and write the letter in the blank space below.
 
 ### --feedback--
 
-This is the fourth letter in the alphabet.
+これはアルファベットの4番目の文字です。
 
 # --scene--
 

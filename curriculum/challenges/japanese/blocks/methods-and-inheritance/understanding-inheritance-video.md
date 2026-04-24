@@ -1,6 +1,6 @@
 ---
 id: 69ae9ce3a9e6da4eb0d5f7f8
-title: Understanding Inheritance
+title: 継承の理解
 challengeType: 11
 videoId: 5SehMN6vRgA
 dashedName: understanding-inheritance
@@ -8,32 +8,30 @@ dashedName: understanding-inheritance
 
 # --description--
 
-In this video, you will learn about inheritance.
+このビデオでは、継承について学びます。
 
 # --questions--
 
 ## --text--
 
-What is inheritance?
+継承とは何ですか？
 
 ## --answers--
 
-The ability of a child class to acquire the properties and methods of a parent class.
+子クラスが親クラスの属性やメソッドを取得できる能力。
 
 ---
 
-A way for an object to automatically delete its parent class’s attributes.
+オブジェクトが親クラスの属性を自動的に削除する方法。
 
 ---
 
-A mechanism where a class can only use global variables.
+クラスがグローバル変数のみを使用できる仕組み。
 
 ---
 
-The process of copying methods from one object to another unrelated object.
+あるオブジェクトから無関係な別のオブジェクトへメソッドをコピーするプロセス。
 
 ## --video-solution--
 
 1
-
-

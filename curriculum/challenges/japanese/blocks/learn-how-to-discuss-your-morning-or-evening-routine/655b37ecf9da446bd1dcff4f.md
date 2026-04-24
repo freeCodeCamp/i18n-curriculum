@@ -1,6 +1,6 @@
 ---
 id: 655b37ecf9da446bd1dcff4f
-title: Task 96
+title: タスク 96
 challengeType: 22
 dashedName: task-96
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --description--
 
-Listen to the audio and complete the sentence below.
+音声を聞いて、下の文を完成させてください。
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This adjective describes the relaxed nature of Sophie's Sunday morning.
+この形容詞は、ソフィーのゆったりした日曜日の朝の様子を表しています。
 
 ---
 
@@ -32,7 +32,7 @@ This adjective describes the relaxed nature of Sophie's Sunday morning.
 
 ### --feedback--
 
-This word indicates the time Sophie chooses to go to sleep on Sunday evening.
+この単語は、ソフィーが日曜日の夜に寝る時間を示しています。
 
 # --scene--
 

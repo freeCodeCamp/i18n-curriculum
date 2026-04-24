@@ -1,6 +1,6 @@
 ---
 id: cf1111c1c11feddfaeb7bdef
-title: Nest one Array within Another Array
+title: 配列の中に別の配列をネストする
 challengeType: 1
 forumTopicId: 18247
 dashedName: nest-one-array-within-another-array
@@ -8,21 +8,21 @@ dashedName: nest-one-array-within-another-array
 
 # --description--
 
-You can also nest arrays within other arrays, like below:
+配列の中に別の配列をネストすることもできます。以下のように：
 
 ```js
 const teams = [["Bulls", 23], ["White Sox", 45]];
 ```
 
-This is also called a <dfn>multi-dimensional array</dfn>.
+これは<dfn>多次元配列</dfn>とも呼ばれます。
 
 # --instructions--
 
-Create a nested array called `myArray`.
+`myArray`という名前のネストされた配列を作成してください。
 
 # --hints--
 
-`myArray` should have at least one array nested within another array.
+`myArray`は少なくとも1つの配列が別の配列の中にネストされている必要があります。
 
 ```js
 assert(Array.isArray(myArray) && myArray.some(Array.isArray));

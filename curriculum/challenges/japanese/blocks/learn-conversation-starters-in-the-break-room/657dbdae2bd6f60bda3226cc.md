@@ -1,6 +1,6 @@
 ---
 id: 657dbdae2bd6f60bda3226cc
-title: Task 81
+title: タスク 81
 challengeType: 22
 dashedName: task-81
 lang: en-US
@@ -10,13 +10,13 @@ lang: en-US
 
 # --description--
 
-When you want to know how often something happens, you can use `every` followed by a time period like `day`, `week`, or `year`.
+何かがどのくらいの頻度で起こるか知りたいときは、`every` の後に `day`、`week`、または `year` のような期間を続けて使うことができます。
 
-In the dialogue, Tom is asking about the frequency of the team meetings.
+この会話では、トム がチームミーティングの頻度について尋ねています。
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+音声を聞いて、下の文を完成させてください。
 
 # --fillInTheBlank--
 
@@ -30,7 +30,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This word is used to ask if the meetings happen weekly.
+この単語はミーティングが毎週行われるかどうかを尋ねるときに使います。
 
 # --scene--
 

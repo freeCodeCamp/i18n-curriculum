@@ -1,6 +1,6 @@
 ---
 id: 58d5d031e969765037c1bebb
-title: Functions
+title: 関数
 challengeType: 11
 videoId: QN3UNoJVS9g
 dashedName: functions
@@ -8,13 +8,13 @@ dashedName: functions
 
 # --description--
 
-In this video, you will learn how to define and call a function.
+このビデオでは、関数の定義方法と呼び出し方を学びます。
 
 # --questions--
 
 ## --text--
 
-Which of the following is the correct way to call a function?
+次のうち、関数を呼び出す正しい方法はどれですか？
 
 ## --answers--
 

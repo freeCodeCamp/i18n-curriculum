@@ -1,6 +1,6 @@
 ---
 id: bd7123c9c443eddfaeb5bdef
-title: Declare JavaScript Variables
+title: JavaScriptの変数を宣言する
 challengeType: 1
 forumTopicId: 17556
 dashedName: declare-javascript-variables
@@ -8,32 +8,32 @@ dashedName: declare-javascript-variables
 
 # --description--
 
-In computer science, <dfn>data</dfn> is anything that is meaningful to the computer. JavaScript provides eight different <dfn>data types</dfn> which are `undefined`, `null`, `boolean`, `string`, `symbol`, `bigint`, `number`, and `object`.
+コンピューターサイエンスでは、<dfn>データ</dfn>とはコンピューターにとって意味のあるものすべてを指します。JavaScriptは8つの異なる<dfn>データ型</dfn>を提供しており、それらは`undefined`、`null`、`boolean`、`string`、`symbol`、`bigint`、`number`、および`object`です。
 
-For example, computers distinguish between numbers, such as the number `12`, and `strings`, such as `"12"`, `"dog"`, or `"123 cats"`, which are collections of characters. Computers can perform mathematical operations on a number, but not on a string.
+たとえば、コンピューターは`12`のような数字と、`strings`のような`"12"`、`"dog"`、または`"123 cats"`のような文字の集合を区別します。コンピューターは数字に対して数学的な操作を行えますが、文字列に対してはできません。
 
-<dfn>Variables</dfn> allow computers to store and manipulate data in a dynamic fashion. They do this by using a "label" to point to the data rather than using the data itself. Any of the eight data types may be stored in a variable.
+<dfn>変数</dfn>は、コンピューターがデータを動的にストアし操作できるようにします。これは、データ自体を使うのではなく、「ラベル」を使ってデータを指し示すことで実現されます。8つのデータ型のいずれも変数にストアできます。
 
-Variables are similar to the x and y variables you use in mathematics, which means they're a simple name to represent the data we want to refer to. Computer variables differ from mathematical variables in that they can store different values at different times.
+変数は数学で使うxやyの変数に似ており、参照したいデータを表す単純な名前です。コンピューターの変数は、異なる時点で異なる値をストアできる点で数学の変数とは異なります。
 
-We tell JavaScript to create or <dfn>declare</dfn> a variable by putting the keyword `var` in front of it, like so:
+JavaScriptに変数を作成または<dfn>宣言</dfn>するよう指示するには、変数の前にキーワード`var`を付けます。例えば：
 
 ```js
 var ourName;
 ```
 
-creates a variable called `ourName`. In JavaScript we end statements with semicolons. Variable names can be made up of numbers, letters, and `$` or `_`, but may not contain spaces or start with a number.
+は`ourName`という変数を作成します。JavaScriptでは文の終わりにセミコロンを付けます。変数名は数字、文字、`$`または`_`で構成できますが、スペースを含んだり数字で始めたりすることはできません。
 
 # --instructions--
 
-Use the `var` keyword to create a variable called `myName`.
+`var`キーワードを使って`myName`という変数を作成してください。
 
-**Hint**  
-Look at the `ourName` example above if you get stuck.
+**ヒント**  
+詰まったら上の`ourName`の例を見てください。
 
 # --hints--
 
-You should declare `myName` with the `var` keyword, ending with a semicolon
+`myName`は`var`キーワードで宣言し、セミコロンで終わらせてください。
 
 ```js
 assert(/var\s+myName\s*;/.test(__helpers.removeJSComments(code)));

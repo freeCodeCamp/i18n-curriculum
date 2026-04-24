@@ -1,47 +1,47 @@
 ---
 id: 62a8ad8e01d7cb0deae5ec66
-title: Step 57
+title: ステップ 57
 challengeType: 0
 dashedName: step-57
 ---
 
 # --description--
 
-Create another property in your object called `button functions`. Give this property an array containing the three functions assigned to the `onclick` properties in the `goTown` function. Remember that these functions are variables, not strings, and should not be wrapped in quotes.
+オブジェクトに `button functions` という名前の別のプロパティを作成してください。このプロパティには、`onclick` 関数内の `goTown` プロパティに代入された3つの関数を含む配列を代入してください。これらの関数は文字列ではなく変数なので、引用符で囲まないでください。
 
 # --hints--
 
-Your first `locations` object should have a `button functions` property.
+最初の `locations` オブジェクトには `button functions` プロパティが必要です。
 
 ```js
 assert.isDefined(locations[0]["button functions"]);
 ```
 
-Your `button functions` property should be an array.
+`button functions` プロパティは配列である必要があります。
 
 ```js
 assert.isArray(locations[0]["button functions"]);
 ```
 
-Your `button functions` property should have three values in it.
+`button functions` プロパティには3つの値が含まれている必要があります。
 
 ```js
 assert.lengthOf(locations[0]["button functions"], 3);
 ```
 
-Your first `button functions` array value should be the function `goStore`.
+最初の `button functions` 配列の値は関数 `goStore` である必要があります。
 
 ```js
 assert.equal(locations[0]["button functions"][0], goStore);
 ```
 
-Your second `button functions` array value should be the function `goCave`.
+2番目の `button functions` 配列の値は関数 `goCave` である必要があります。
 
 ```js
 assert.equal(locations[0]["button functions"][1], goCave);
 ```
 
-Your third `button functions` array value should be the function `fightDragon`.
+3番目の `button functions` 配列の値は関数 `fightDragon` である必要があります。
 
 ```js
 assert.equal(locations[0]["button functions"][2], fightDragon);

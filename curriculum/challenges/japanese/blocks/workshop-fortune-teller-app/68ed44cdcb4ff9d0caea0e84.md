@@ -1,24 +1,24 @@
 ---
 id: 68ed44cdcb4ff9d0caea0e84
-title: Step 23
+title: ステップ 23
 challengeType: 0
 dashedName: step-23
 ---
 
 # --description--
 
-Since you're calling `fetchCardsData` and `initializeEventListeners` inside the constructor, you now need to define them inside the class. Create both as `private` methods. Make sure `fetchCardsData` is asynchronous since it will handle API calls.
+コンストラクタ内で `fetchCardsData` と `initializeEventListeners` を呼び出しているので、これらをクラス内で定義する必要があります。どちらも `private` メソッドとして作成してください。API 呼び出しを扱うため、`fetchCardsData` は非同期にしてください。
 
 # --hints--
 
-You should have a `private` method named `fetchCardsData`.
+`private` メソッドで `fetchCardsData` という名前のものがあるはずです。
 
 ```js
 const explorer = await __helpers.Explorer(code);
 assert.isTrue(explorer.classes.Game.methods.fetchCardsData.isPrivate());
 ```
 
-Your `fetchCardsData` method should be `async`.
+`fetchCardsData` メソッドは `async` であるべきです。
 
 ```js
 const explorer = await __helpers.Explorer(code);
@@ -26,7 +26,7 @@ const method = explorer.classes.Game.methods.fetchCardsData.toString();
 assert.match(method, /async/);
 ```
 
-You should have a `private` method named `initializeEventListeners`.
+`private` メソッドで `initializeEventListeners` という名前のものがあるはずです。
 
 ```js
 const explorer = await __helpers.Explorer(code);

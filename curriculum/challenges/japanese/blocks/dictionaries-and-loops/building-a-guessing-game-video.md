@@ -1,6 +1,6 @@
 ---
 id: d4876f74547b26d5c330423e
-title: Building a Guessing Game
+title: 推測ゲームの作成
 challengeType: 11
 videoId: sHyQCBFRoug
 dashedName: building-a-guessing-game
@@ -8,13 +8,13 @@ dashedName: building-a-guessing-game
 
 # --description--
 
-In this video, you will build a guessing game that uses loops and conditionals.
+このビデオでは、ループと条件分岐を使った推測ゲームを作成します。
 
 # --questions--
 
 ## --text--
 
-What does the condition `guess != secret_word` mean in this code?
+このコードの条件 `guess != secret_word` は何を意味していますか？
 
 ```python
 secret_word = "giraffe"
@@ -26,19 +26,19 @@ while guess != secret_word:
 
 ## --answers--
 
-If `guess` is not equal to `secret_word`.
+`guess` が `secret_word` と等しくない場合。
 
 ---
 
-If `guess` is equal to `secret_word`.
+`guess` が `secret_word` と等しい場合。
 
 ---
 
-If `guess` is greater than `secret_word`.
+`guess` が `secret_word` より大きい場合。
 
 ---
 
-If `guess` is less than `secret_word`.
+`guess` が `secret_word` より小さい場合。
 
 ## --video-solution--
 

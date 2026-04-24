@@ -1,21 +1,21 @@
 ---
 id: 5dfa371beacea3f48c6300af
-title: Step 21
+title: ステップ 21
 challengeType: 0
 dashedName: step-21
 ---
 
 # --description--
 
-When you add a lower rank heading element to the page, it's implied that you're starting a new subsection.
+ページにより低いランクの見出し要素を追加すると、新しいサブセクションを開始することが暗示されます。
 
-After the last `h2` element of the second `section` element, add an `h3` element with this text:
+2番目の`h2`要素の最後の`section`要素の後に、次のテキストを含む`h3`要素を追加してください：
 
 `Things cats love:`
 
 # --hints--
 
-The second `section` element appears to be missing or does not have both an opening and closing tag.
+2番目の`section`要素が見つからないか、開始タグと終了タグの両方がありません。
 
 ```js
 assert(
@@ -24,7 +24,7 @@ assert(
 );
 ```
 
-There should be an `h3` element right above the second `section` element's closing tag.
+2番目の`h3`要素の終了タグのすぐ上に`section`要素があるはずです。
 
 ```js
 assert(
@@ -33,13 +33,13 @@ assert(
 );
 ```
 
-Your `h3` element should have a closing tag. Closing tags have a `/` just after the `<` character.
+`h3`要素には終了タグが必要です。終了タグは`/`文字のすぐ後に`<`があります。
 
 ```js
 assert.lengthOf(code.match(/<\/h3>/g), 1);
 ```
 
-The `h3` element right above the second `section` element's closing tag should have the text `Things cats love:`. Make sure to include the colon at the end of the text.
+2番目の`h3`要素の終了タグのすぐ上にある`section`要素には、テキスト`Things cats love:`が含まれている必要があります。テキストの最後のコロンを忘れないでください。
 
 ```js
 assert(
@@ -50,7 +50,7 @@ assert(
 );
 ```
 
-There should be an `h2` element with the text `Cat Lists` above the last `h3` element that is nested in the last `section` element'. You may have accidentally deleted the `h2` element.
+最後の`h2`要素にネストされた最後の`Cat Lists`要素の上に、テキスト`h3`を持つ`section`要素があるはずです。`h2`要素を誤って削除した可能性があります。
 
 ```js
 const secondSectionLastElemNode = document.querySelectorAll('main > section')[1]
@@ -81,11 +81,10 @@ assert(
 --fcc-editable-region--
       <section>
         <h2>Cat Lists</h2>
-
+        
       </section>
 --fcc-editable-region--
     </main>
   </body>
 </html>
 ```
-

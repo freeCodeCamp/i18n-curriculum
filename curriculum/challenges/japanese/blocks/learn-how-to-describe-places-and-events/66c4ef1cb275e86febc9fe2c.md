@@ -1,6 +1,6 @@
 ---
 id: 66c4ef1cb275e86febc9fe2c
-title: Task 113
+title: タスク 113
 challengeType: 22
 dashedName: task-113
 lang: en-US
@@ -9,13 +9,12 @@ lang: en-US
 <!-- Audio Reference:
 Sarah: It should, but it's not displaying because the live server extension might not be running. -->
 
-
 <!-- Audio Reference:
 Sarah: It should, but it's not displaying because the live server extension might not be running. -->
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+音声を聞いて、以下の文を完成させてください。
 
 # --fillInTheBlank--
 
@@ -29,7 +28,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-The action of showing or rendering something. This word ends in `-ing`.
+何かを表示したりレンダリングしたりする動作です。この単語は`-ing`で終わります。
 
 ---
 
@@ -37,15 +36,15 @@ The action of showing or rendering something. This word ends in `-ing`.
 
 ### --feedback--
 
-Indicates the extension is active and functioning. This word ends in `-ing`.
+拡張機能が有効で動作していることを示します。この単語は`-ing`で終わります。
 
 # --explanation--
 
-A gerund is a verb form ending in `-ing` that functions as a noun. In this sentence, `displaying` and `running` are gerunds that describe ongoing actions. For example:
+動名詞は`-ing`で終わる動詞の形で、名詞として機能します。この文では、`displaying`と`running`が進行中の動作を表す動名詞です。例えば：
 
-- `Updating the software is essential.` - Here, `Updating` is a gerund describing an action.
+- `Updating the software is essential.` - ここで`Updating`は動作を表す動名詞です。
 
-In Sarah's sentence, `displaying` and `running` describe actions related to the live server extension and how it functions.
+サラの文では、`displaying`と`running`がライブサーバー拡張機能とその動作に関連する動作を表しています。
 
 # --scene--
 

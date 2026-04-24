@@ -1,6 +1,6 @@
 ---
 id: 698dbf2b7932b3cc4b19c91d
-title: Defining an Algorithm
+title: アルゴリズムの定義
 challengeType: 11
 videoId: qH-e5VMAYwQ
 dashedName: defining-an-algorithm
@@ -8,17 +8,17 @@ dashedName: defining-an-algorithm
 
 # --description--
 
-In this video, you will learn about a commonly used search algorithm.
+このビデオでは、よく使われる探索アルゴリズムについて学びます。
 
 # --questions--
 
 ## --text--
 
-What is the name of the algorithm talked about in the video?
+ビデオで紹介されたアルゴリズムの名前は何ですか？
 
 ## --answers--
 
-Optical Search
+Optical Search 
 
 ---
 

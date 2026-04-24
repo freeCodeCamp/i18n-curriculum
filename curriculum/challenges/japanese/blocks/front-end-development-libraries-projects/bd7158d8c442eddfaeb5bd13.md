@@ -1,47 +1,47 @@
 ---
 id: bd7158d8c442eddfaeb5bd13
-title: Build a Random Quote Machine
+title: ランダム引用マシンを作成する
 challengeType: 3
 forumTopicId: 301374
 dashedName: build-a-random-quote-machine
 ---
 
 # --description--
-**Note:** **React 18 has known incompatibilities with the tests for this project (see [issue](https://github.com/freeCodeCamp/freeCodeCamp/issues/45922))**
+**注意:** **React 18 はこのプロジェクトのテストと既知の互換性問題があります（[issue](https://github.com/freeCodeCamp/freeCodeCamp/issues/45922)を参照してください）**
 
-**Objective:** Build an app that is functionally similar to this: <a href="https://random-quote-machine.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://random-quote-machine.freecodecamp.rocks/</a>.
+**目的:** 次のように機能的に似たアプリを作成してください：<a href="https://random-quote-machine.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://random-quote-machine.freecodecamp.rocks/</a>。
 
-Fulfill the below user stories and get all of the tests to pass. Use whichever libraries or APIs you need. Give it your own personal style.
+以下のユーザーストーリーを満たし、すべてのテストを通過させてください。必要なライブラリやAPIは自由に使ってください。自分なりのスタイルを加えてください。
 
-You can use any mix of HTML, JavaScript, CSS, Bootstrap, SASS, React, Redux, and jQuery to complete this project. You should use a front-end framework (like React for example) because this section is about learning front-end frameworks. Additional technologies not listed above are not recommended and using them is at your own risk. We are looking at supporting other front-end frameworks like Angular and Vue, but they are not currently supported. We will accept and try to fix all issue reports that use the suggested technology stack for this project. Happy coding!
+HTML、JavaScript、CSS、ブートストラップ、SASS、React、Redux、jQueryのいずれかまたは組み合わせを使ってこのプロジェクトを完成させてください。フロントエンドフレームワーク（例えばReact）を使うことをお勧めします。このセクションはフロントエンドフレームワークの学習が目的だからです。上記にない追加技術の使用は推奨されず、使用は自己責任となります。AngularやVueなど他のフロントエンドフレームワークのサポートも検討していますが、現時点では対応していません。このプロジェクトで推奨されている技術スタックを使った問題報告はすべて受け付け、修正を試みます。楽しくコーディングしましょう！
 
-**User Story #1:** I can see a wrapper element with a corresponding `id="quote-box"`.
+**ユーザーストーリー #1:** `id="quote-box"`に対応するラッパー要素が見えます。
 
-**User Story #2:** Within `#quote-box`, I can see an element with a corresponding `id="text"`.
+**ユーザーストーリー #2:** `#quote-box`の中に`id="text"`に対応する要素が見えます。
 
-**User Story #3:** Within `#quote-box`, I can see an element with a corresponding `id="author"`.
+**ユーザーストーリー #3:** `#quote-box`の中に`id="author"`に対応する要素が見えます。
 
-**User Story #4:** Within `#quote-box`, I can see a clickable element with a corresponding `id="new-quote"`.
+**ユーザーストーリー #4:** `#quote-box`の中に`id="new-quote"`に対応するクリック可能な要素が見えます。
 
-**User Story #5:** Within `#quote-box`, I can see a clickable `a` element with a corresponding `id="tweet-quote"`.
+**ユーザーストーリー #5:** `#quote-box`の中に`a`に対応するクリック可能な`id="tweet-quote"`要素が見えます。
 
-**User Story #6:** On first load, my quote machine displays a random quote in the element with `id="text"`.
+**ユーザーストーリー #6:** 最初の読み込み時に、引用マシンは`id="text"`を持つ要素にランダムな引用を表示します。
 
-**User Story #7:** On first load, my quote machine displays the random quote's author in the element with `id="author"`.
+**ユーザーストーリー #7:** 最初の読み込み時に、引用マシンは`id="author"`を持つ要素にランダムな引用の著者を表示します。
 
-**User Story #8:** When the `#new-quote` button is clicked, my quote machine should fetch a new quote and display it in the `#text` element.
+**ユーザーストーリー #8:** `#new-quote`ボタンがクリックされると、引用マシンは新しい引用を取得して`#text`要素に表示します。
 
-**User Story #9:** My quote machine should fetch the new quote's author when the `#new-quote` button is clicked and display it in the `#author` element.
+**ユーザーストーリー #9:** `#new-quote`ボタンがクリックされると、引用マシンは新しい引用の著者を取得して`#author`要素に表示します。
 
-**User Story #10:** I can tweet the current quote by clicking on the `#tweet-quote` `a` element. This `a` element should include the `"twitter.com/intent/tweet"` path in its `href` attribute to tweet the current quote.
+**ユーザーストーリー #10:** `#tweet-quote` `a`要素をクリックすると、現在の引用をツイートできます。この`a`要素は、現在の引用をツイートするために`"twitter.com/intent/tweet"`パスを`href`属性に含める必要があります。
 
-**User Story #11:** The `#quote-box` wrapper element should be horizontally centered. Please run tests with browser's zoom level at 100% and page maximized.
+**ユーザーストーリー #11:** `#quote-box`ラッパー要素は水平方向に中央揃えにしてください。ブラウザのズームレベルを100％、ページを最大化した状態でテストを実行してください。
 
-You can build your project by <a href='https://codepen.io/pen?template=MJjpwO' target='_blank' rel="noopener noreferrer nofollow">using this CodePen template</a> and clicking `Save` to create your own pen. If you prefer to use another environment, then put this `<script>` tag into the body of your `index.html` file: `<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>`
+<a href='https://codepen.io/pen?template=MJjpwO' target='_blank' rel="noopener noreferrer nofollow">このCodePenテンプレート</a>を使ってプロジェクトを作成し、`Save`をクリックして自分のペンを作成できます。別の環境を使う場合は、`<script>`ファイルのbody内に`index.html`タグを入れてください：`<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>`
 
-Once you're done, submit the URL to your working project with all its tests passing.
+完成したら、すべてのテストに合格した動作中のプロジェクトのURLを提出してください。
 
-**Note:** Twitter does not allow links to be loaded in an iframe. Try using the `target="_blank"` or `target="_top"` attribute on the `#tweet-quote` element if your tweet won't load. `target="_top"` will replace the current tab so make sure your work is saved.
+**注意:** Twitterはiframe内でのリンク読み込みを許可していません。ツイートが読み込まれない場合は、`target="_blank"`要素に`target="_top"`または`#tweet-quote`属性を使ってみてください。`target="_top"`は現在のタブを置き換えるので、作業内容が保存されていることを確認してください。
 
 # --solutions--
 

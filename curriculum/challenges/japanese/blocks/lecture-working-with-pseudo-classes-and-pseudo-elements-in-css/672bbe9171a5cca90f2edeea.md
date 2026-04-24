@@ -1,21 +1,21 @@
 ---
 id: 672bbe9171a5cca90f2edeea
-title: What Are Examples of Element User Action Pseudo-classes?
+title: 要素のユーザー操作疑似クラスの例とは何ですか？
 challengeType: 19
 dashedName: what-are-examples-of-element-user-action-pseudo-classes
 ---
 
 # --interactive--
 
-User feedback is a crucial element of web design. For instance, it's important for users to receive visual cues when they interact with elements on a website, such as hovering over a button or clicking a link. This feedback helps users understand the state of interactive elements, like indicating whether a link has been visited or not.
+ユーザーフィードバックはウェブデザインの重要な要素です。たとえば、ユーザーがボタンにマウスを乗せたりリンクをクリックしたりしたときに視覚的な手がかりを受け取ることは大切です。このフィードバックは、リンクが訪問済みかどうかなど、インタラクティブな要素の状態をユーザーに理解させるのに役立ちます。
 
-User action pseudo-classes in CSS are special keywords that allow you to provide this kind of feedback without needing JavaScript or other programming languages.
+CSSのユーザー操作疑似クラスは、JavaScriptや他のプログラミング言語を使わずにこのようなフィードバックを提供できる特別なキーワードです。
 
-These pseudo-classes include `:hover`, `:active`, `:focus`, and `:visited`, among others. They enable you to change the appearance of elements based on user interactions, improving the overall user experience.
+これらの疑似クラスには`:hover`、`:active`、`:focus`、`:visited`などがあります。これらを使うことで、ユーザーの操作に応じて要素の見た目を変え、全体のユーザー体験を向上させることができます。
 
-Let's dive into some of the user action pseudo-classes we have and see how they work.
+それでは、いくつかのユーザー操作疑似クラスを見て、その動作を確認しましょう。
 
-The `:active` pseudo-class applies styles when an element is activated by the user. For example, when the user clicks a button or a link, it provides immediate visual feedback, showing users that their actions are being recognized.
+`:active`疑似クラスは、ユーザーが要素をアクティブにしたときにスタイルを適用します。たとえば、ユーザーがボタンやリンクをクリックしたときに即座に視覚的なフィードバックを提供し、操作が認識されたことを示します。
 
 :::interactive_editor
 
@@ -32,7 +32,7 @@ a:active {
 
 :::
 
-The `:hover` pseudo-class is triggered when a user hovers over an element with their mouse or other pointing device. Developers often use it to create visual feedback for buttons, links, or any element that should respond to user attention. Here's a button a user would hover over before clicking:
+`:hover`疑似クラスは、ユーザーがマウスや他のポインティングデバイスで要素にホバーしたときに発動します。開発者はこれを使って、ボタンやリンク、ユーザーの注目を集めたい要素に視覚的なフィードバックを作成します。以下は、ユーザーがクリックする前にホバーするボタンの例です。
 
 :::interactive_editor
 
@@ -51,9 +51,9 @@ The `:hover` pseudo-class is triggered when a user hovers over an element with t
 
 :::
 
-The `:focus` pseudo-class applies styles when an element gains focus, typically through keyboard navigation or when a user clicks into a form input. This is not just for feedback but also crucial for accessibility. It ensures that users who rely heavily on keyboards can easily identify which element they are interacting with.
+`:focus`疑似クラスは、要素がフォーカスを得たときにスタイルを適用します。通常はキーボード操作やフォーム入力へのクリックでフォーカスが移動します。これは単なるフィードバックだけでなく、アクセシビリティにとっても重要です。キーボードを多用するユーザーがどの要素とやり取りしているかを簡単に識別できるようにします。
 
-Here's an example of an input field that gains focus when clicked or navigated to via the keyboard:
+以下は、クリックやキーボード操作でフォーカスが当たる入力フィールドの例です。
 
 :::interactive_editor
 
@@ -73,7 +73,7 @@ input:focus {
 
 :::
 
-The `:visited` pseudo-class targets a link the user has visited. This can be useful for helping users distinguish between pages they have already visited and the ones they are yet to visit. Here is an example of changing the anchor text color to cyan when the link is visited:
+`:visited`疑似クラスは、ユーザーが訪問済みのリンクにスタイルを適用します。これにより、ユーザーはすでに訪れたページとまだ訪れていないページを区別しやすくなります。以下は、リンクが訪問済みのときにアンカーテキストの色をシアンに変える例です。
 
 :::interactive_editor
 
@@ -90,11 +90,11 @@ a:visited {
 
 :::
 
-The `:checked` pseudo-class in CSS allows you to style form elements such as checkboxes and radio buttons when they are selected (checked). This pseudo-class is useful for customizing the appearance of these elements to enhance user experience, even though browsers provide default styles for them.
+`:checked`疑似クラスは、チェックボックスやラジオボタンなどのフォーム要素が選択（チェック）されたときにスタイルを適用できます。この疑似クラスは、ブラウザがデフォルトで提供するスタイルをカスタマイズしてユーザー体験を向上させるのに役立ちます。
 
-Here is an example with a checkbox to agree to terms on a website.
+以下は、ウェブサイトの利用規約に同意するためのチェックボックスの例です。
 
-**NOTE**: Some of the CSS in this example uses properties that haven't been covered yet. This is just to give you an idea of how to create a custom checkbox. You will learn how all of this works in future lessons and workshops.
+**注意**：この例のCSSにはまだ学習していないプロパティも含まれています。これはカスタムチェックボックスの作り方のイメージを持ってもらうためのもので、今後のレッスンやワークショップで詳しく学びます。
 
 :::interactive_editor
 
@@ -151,48 +151,48 @@ Here is an example with a checkbox to agree to terms on a website.
 
 :::
 
-In this example, we are using the `appearance` property set to `none` to remove the default styling applied by the browser to checkbox inputs. When the user checks the box, it will have a background color of `green`.
+この例では、`appearance`プロパティを`none`に設定して、ブラウザがチェックボックス入力に適用するデフォルトのスタイルを削除しています。ユーザーがチェックを入れると、背景色が`green`になります。
 
-Other examples of action pseudo-classes are:
+他のアクション疑似クラスの例は以下の通りです：
 
-- `:focus-within`: for applying styles to an element when it or any of its descendants have focus.
-- `:enabled`: for targeting form buttons or other elements that are currently enabled.
-- `:disabled`: for targeting form buttons or other elements that are disabled.
-- `:target`: for applying styles to an element that is the target of a URL fragment (the part of a URL after the `#` symbol).
+- `:focus-within`：要素自身またはその子孫要素がフォーカスを持つときにスタイルを適用します。
+- `:enabled`：現在有効なフォームボタンや他の要素を対象にします。
+- `:disabled`：無効なフォームボタンや他の要素を対象にします。
+- `:target`：URLのフラグメント（`#`記号以降の部分）がターゲットの要素にスタイルを適用します。
 
 # --questions--
 
 ## --text--
 
-What do user action pseudo-classes allow you to do?
+ユーザー操作疑似クラスで何ができるようになりますか？
 
 ## --answers--
 
-They enable animations and transitions.
+アニメーションやトランジションを可能にします。
 
 ### --feedback--
 
-Think about how you can interact with users purely with CSS.
+CSSだけでユーザーとどのようにやり取りできるか考えてみてください。
 
 ---
 
-They allow you to modify the DOM structure dynamically.
+DOM構造を動的に変更できます。
 
 ### --feedback--
 
-Think about how you can interact with users purely with CSS.
+CSSだけでユーザーとどのようにやり取りできるか考えてみてください。
 
 ---
 
-They let you provide feedback to the user without relying on JavaScript.
+JavaScriptに頼らずにユーザーにフィードバックを提供できます。
 
 ---
 
-They let you style the last element in a list.
+リストの最後の要素にスタイルを適用できます。
 
 ### --feedback--
 
-Think about how you can interact with users purely with CSS.
+CSSだけでユーザーとどのようにやり取りできるか考えてみてください。
 
 ## --video-solution--
 
@@ -200,35 +200,35 @@ Think about how you can interact with users purely with CSS.
 
 ## --text--
 
-What does the `:checked` pseudo-class do in CSS?
+CSSの`:checked`疑似クラスは何をしますか？
 
 ## --answers--
 
-It selects an element when it is disabled.
+無効な要素を選択します。
 
 ### --feedback--
 
-Think about how forms handle user selections.
+フォームがユーザーの選択をどのように扱うか考えてみてください。
 
 ---
 
-It selects an element when it is being hovered over.
+ホバーされている要素を選択します。
 
 ### --feedback--
 
-Think about how forms handle user selections.
+フォームがユーザーの選択をどのように扱うか考えてみてください。
 
 ---
 
-It styles elements like checkboxes or radio buttons that are checked.
+チェックされたチェックボックスやラジオボタンのような要素にスタイルを適用します。
 
 ---
 
-It styles an element when it gains focus.
+フォーカスを得た要素にスタイルを適用します。
 
 ### --feedback--
 
-Think about how forms handle user selections.
+フォームがユーザーの選択をどのように扱うか考えてみてください。
 
 ## --video-solution--
 
@@ -236,35 +236,35 @@ Think about how forms handle user selections.
 
 ## --text--
 
-What does the `:focus` pseudo-class do?
+`:focus`疑似クラスは何をしますか？
 
 ## --answers--
 
-It selects an element when it is hovered over by a mouse.
+マウスでホバーされた要素を選択します。
 
 ### --feedback--
 
-Think about how users navigate forms using a keyboard.
+ユーザーがキーボードでフォームを操作する方法を考えてみてください。
 
 ---
 
-It applies styles when an element gains focus, usually through keyboard navigation or a click.
+通常はキーボード操作やクリックでフォーカスを得たときにスタイルを適用します。
 
 ---
 
-It selects an element after a form is submitted.
+フォームが送信された後の要素を選択します。
 
 ### --feedback--
 
-Think about how users navigate forms using a keyboard.
+ユーザーがキーボードでフォームを操作する方法を考えてみてください。
 
 ---
 
-It applies styles to an element when it is disabled.
+無効な要素にスタイルを適用します。
 
 ### --feedback--
 
-Think about how users navigate forms using a keyboard.
+ユーザーがキーボードでフォームを操作する方法を考えてみてください。
 
 ## --video-solution--
 

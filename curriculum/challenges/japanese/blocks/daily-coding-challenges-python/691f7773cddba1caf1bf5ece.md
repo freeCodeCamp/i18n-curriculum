@@ -7,15 +7,15 @@ dashedName: challenge-135
 
 # --description--
 
-Given a string representing the subject line of an email, determine how many times the email has been forwarded or replied to.
+メールの件名を表す文字列が与えられたとき、そのメールが何回転送または返信されたかを判定してください。
 
-For simplicity, consider an email forwarded or replied to if the string contains any of the following markers (case-insensitive):
+簡単にするために、文字列に以下のいずれかのマーカーが含まれていれば、そのメールは転送または返信されたとみなします（大文字・小文字は区別しません）。
 
 - `"fw:"`
 - `"fwd:"`
 - `"re:"`
 
-Return the total number of occurrences of these markers.
+これらのマーカーの合計出現回数を返してください。
 
 # --hints--
 

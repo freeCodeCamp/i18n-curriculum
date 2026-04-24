@@ -7,13 +7,13 @@ dashedName: step-33
 
 # --description--
 
-When the level is modified, you need to update the salary as well.
+レベルが変更されたときは、給与も更新する必要があります。
 
-Before setting `self._level`, set `self._salary` to the base salary for the new level.
+`self._level` を設定する前に、新しいレベルの基本給を `self._salary` に設定してください。
 
 # --hints--
 
-You should set `self._salary` to the base salary for the new level.
+新しいレベルの基本給を `self._salary` に設定する必要があります。
 
 ```js
 ({ test: () => runPython(`
@@ -75,7 +75,7 @@ class Employee:
         if hasattr(self, '_level') and Employee._base_salaries[new_level] < Employee._base_salaries[self.level]:
             raise ValueError("Cannot change to lower level.")
 --fcc-editable-region--
-
+        
 --fcc-editable-region--
         self._level = new_level
 

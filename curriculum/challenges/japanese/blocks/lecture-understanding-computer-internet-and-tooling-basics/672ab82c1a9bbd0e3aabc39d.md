@@ -1,67 +1,67 @@
 ---
 id: 672ab82c1a9bbd0e3aabc39d
-title: How Can You Effectively Work With Your Keyboard, Mouse, and Other Pointing Devices?
+title: キーボード、マウス、その他のポインティングデバイスを効果的に使うには？
 challengeType: 19
 dashedName: how-to-effectively-work-with-your-keyboard-mouse-and-other-pointing-devices
 ---
 
 # --description--
 
-Many of you have been used to working with your keyboard and mouse for years on end for a variety of activities like gaming, performing tasks for work, or surfing the web.
+多くの方は、ゲームをしたり、仕事の作業をしたり、ウェブを閲覧したりと、長年にわたってキーボードやマウスを使い慣れていると思います。
 
-But prolonged misuse of these devices can lead to serious health problems down the road.
+しかし、これらのデバイスを長時間誤った使い方をすると、将来的に深刻な健康問題を引き起こすことがあります。
 
-In this lesson, we will cover ways to work with your computer’s keyboard and mouse in healthy ways.
+このレッスンでは、コンピューターのキーボードやマウスを健康的に使う方法について説明します。
 
-The first tip is to be mindful of the mouse grip. When working on serious tasks for work or during intense gaming moments, you may tend to grip the mouse too hard. However, this can lead to serious hand and wrist issues. To prevent this, you want to make sure to hold the mouse gently and keep your fingers nice and relaxed.
+最初のポイントは、マウスの握り方に注意することです。仕事の重要な作業中や激しいゲームの最中には、ついマウスを強く握りがちです。しかし、これが手や手首の深刻な問題につながることがあります。これを防ぐためには、マウスを優しく持ち、指をリラックスさせておくことが大切です。
 
-The second tip is to consider using an ergonomic keyboard and mouse. These tools are designed to reduce wrist strain by keeping your hands in a more natural position.
+次のポイントは、エルゴノミクス（人間工学）に基づいたキーボードやマウスの使用を検討することです。これらのツールは、手をより自然な位置に保つことで手首への負担を軽減するよう設計されています。
 
-While prices for these devices can vary and may be a costly purchase for your current budget, they can be a good investment in your overall long-term health. So, you might consider starting to research an ergonomic keyboard and mouse to use.
+これらのデバイスの価格はさまざまで、現在の予算では高価に感じるかもしれませんが、長期的な健康への良い投資になる場合があります。ですので、エルゴノミクスに基づいたキーボードやマウスの調査を始めてみることをお勧めします。
 
-Another tip is to keep your mouse the same height as your keyboard. You don't want to have to reach up or down to use the mouse, as this can strain your wrist and arm muscles over time.
+また、マウスの高さはキーボードと同じに保つこともポイントです。マウスを使うために手を上げたり下げたりすると、手首や腕の筋肉に負担がかかることがあります。
 
-You also want to be mindful of your overall posture when sitting at the computer for long periods. Being slouched over your computer and putting your wrists in an unnatural position at the keyboard can lead to long-term health issues.
+さらに、長時間コンピューターの前に座るときは、全体的な姿勢にも気をつけてください。猫背になったり、キーボードで手首を不自然な位置に置いたりすると、長期的な健康問題につながります。
 
-While maintaining good posture is important, modern ergonomics emphasizes the importance of movement and dynamic sitting. The human body is designed for movement, and staying in any fixed position, even a straight one, for too long can place continuous pressure on the spine. Taking regular breaks, adjusting your position throughout the day, and maintaining a natural wrist position can help improve circulation, reduce fatigue, and support long-term spinal health.
+良い姿勢を保つことは重要ですが、現代のエルゴノミクスでは動きや動的な座り方の重要性も強調されています。人間の体は動くようにできており、どんなにまっすぐな姿勢でも長時間同じ姿勢を続けると背骨に継続的な負担がかかります。定期的に休憩を取り、日中に姿勢を変え、手首を自然な位置に保つことで血行が良くなり、疲労が軽減され、背骨の健康を長期的に支えることができます。
 
-The last tip would be to use keyboard shortcuts whenever possible to help minimize typing. There are dozens of shortcuts available for tasks such as navigating the web, navigating around your operating system, working within a code editor, and more. So, it’s best to research some of these keyboard shortcuts and start incorporating them into your daily computer usage.
+最後のポイントは、可能な限りキーボードショートカットを使ってタイピングを減らすことです。ウェブのナビゲーション、OSの操作、コードエディターでの作業など、多くのショートカットが利用できます。ですので、これらのキーボードショートカットを調べて、日々のコンピューター作業に取り入れていくことをお勧めします。
 
-As you continue using your mouse and keyboard for upcoming coding projects and other activities, remember to keep these health tips in mind.
+今後のコーディングプロジェクトやその他の活動でマウスやキーボードを使い続ける際は、これらの健康に関するポイントを忘れないでください。
 
 # --questions--
 
 ## --text--
 
-What is one of the risks of gripping the mouse too tightly?
+マウスを強く握りすぎることのリスクの一つは何ですか？
 
 ## --answers--
 
-It can improve your accuracy in gaming.
+ゲームの精度が上がる。
 
 ### --feedback--
 
-Pay attention to the advice about mouse grip at the beginning of the lesson.
+レッスンの最初にあるマウスの握り方のアドバイスに注目してください。
 
 ---
 
-It helps you complete tasks faster.
+作業をより速く終わらせるのに役立つ。
 
 ### --feedback--
 
-Pay attention to the advice about mouse grip at the beginning of the lesson.
+レッスンの最初にあるマウスの握り方のアドバイスに注目してください。
 
 ---
 
-It can cause hand and wrist issues.
+手や手首の問題を引き起こす可能性がある。
 
 ---
 
-It improves your overall performance.
+全体的なパフォーマンスが向上する。
 
 ### --feedback--
 
-Pay attention to the advice about mouse grip at the beginning of the lesson.
+レッスンの最初にあるマウスの握り方のアドバイスに注目してください。
 
 ## --video-solution--
 
@@ -69,35 +69,35 @@ Pay attention to the advice about mouse grip at the beginning of the lesson.
 
 ## --text--
 
-What is the benefit of using an ergonomic keyboard and mouse?
+エルゴノミクスに基づいたキーボードとマウスを使う利点は何ですか？
 
 ## --answers--
 
-They help you type faster.
+タイピングが速くなる。
 
 ### --feedback--
 
-The second tip in the lesson mentions ergonomic devices as a way to protect your hands and wrists.
+レッスンの2つ目のポイントで、手や手首を守るためのエルゴノミクス機器について説明しています。
 
 ---
 
-They are designed for gaming performance.
+ゲームのパフォーマンス向上のために設計されている。
 
 ### --feedback--
 
-The second tip in the lesson mentions ergonomic devices as a way to protect your hands and wrists.
+レッスンの2つ目のポイントで、手や手首を守るためのエルゴノミクス機器について説明しています。
 
 ---
 
-They reduce wrist strain by keeping your hands in a more natural position.
+手をより自然な位置に保つことで手首の負担を軽減する。
 
 ---
 
-They increase screen resolution.
+画面の解像度が上がる。
 
 ### --feedback--
 
-The second tip in the lesson mentions ergonomic devices as a way to protect your hands and wrists.
+レッスンの2つ目のポイントで、手や手首を守るためのエルゴノミクス機器について説明しています。
 
 ## --video-solution--
 
@@ -105,35 +105,35 @@ The second tip in the lesson mentions ergonomic devices as a way to protect your
 
 ## --text--
 
-What is the recommendation for the height of your mouse in relation to your keyboard?
+マウスの高さはキーボードに対してどのようにするのが推奨されていますか？
 
 ## --answers--
 
-The mouse should be far above the keyboard.
+マウスはキーボードよりかなり高い位置にあるべき。
 
 ### --feedback--
 
-Think about how to position your mouse to avoid wrist and arm strain.
+手首や腕の負担を避けるためのマウスの位置について考えてみてください。
 
 ---
 
-The mouse should be at the same height as the keyboard.
+マウスはキーボードと同じ高さにあるべき。
 
 ---
 
-The mouse should be lower than the keyboard.
+マウスはキーボードより低い位置にあるべき。
 
 ### --feedback--
 
-Think about how to position your mouse to avoid wrist and arm strain.
+手首や腕の負担を避けるためのマウスの位置について考えてみてください。
 
 ---
 
-The mouse should be higher than the keyboard.
+マウスはキーボードより高い位置にあるべき。
 
 ### --feedback--
 
-Think about how to position your mouse to avoid wrist and arm strain.
+手首や腕の負担を避けるためのマウスの位置について考えてみてください。
 
 ## --video-solution--
 

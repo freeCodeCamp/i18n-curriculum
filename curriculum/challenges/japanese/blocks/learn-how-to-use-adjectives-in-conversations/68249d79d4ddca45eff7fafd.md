@@ -1,6 +1,6 @@
 ---
 id: 68249d79d4ddca45eff7fafd
-title: Task 144
+title: タスク 144
 challengeType: 19
 dashedName: task-144
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+音声を聞いて、以下の質問に答えてください。
 
 # --questions--
 
 ## --text--
 
-What does Jessica plan to do with the information?
+ジェシカ はこの情報をどうするつもりですか？
 
 ## --answers--
 
-Ignore it for now and wait for more feedback.
+今は無視して、さらなるフィードバックを待つ。
 
 ### --feedback--
 
-Jessica says she will organize the information and share it, not ignore it.
+ジェシカ は情報を整理して共有すると言っており、無視すると言っていません。
 
 ---
 
-Organize it into a report and discuss it with others.
+情報をレポートにまとめて、他の人と話し合う。
 
 ---
 
-Ask users to test it again before making changes.
+変更を加える前にユーザーに再テストを依頼する。
 
 ### --feedback--
 
-She does not mention anything about retesting or user feedback.
+再テストやユーザーフィードバックについては言及していません。
 
 ---
 
-Send it directly to the client without review.
+レビューなしでクライアントに直接送る。
 
 ### --feedback--
 
-Jessica plans to talk with her team first, not send it straight to a client.
+ジェシカ はまずチームと話すと言っており、クライアントに直接送るとは言っていません。
 
 ## --video-solution--
 
@@ -52,9 +52,9 @@ Jessica plans to talk with her team first, not send it straight to a client.
 
 # --explanation--
 
-Jessica says she will `put all this information into a report` and `talk about it with the team tomorrow`. This shows she plans to organize the details and have a discussion with her team.
+ジェシカ は `put all this information into a report` と `talk about it with the team tomorrow` をすると言っています。これは詳細を整理してチームと話し合うつもりであることを示しています。
 
-She also says the feedback `should help`, meaning it will guide their next steps.
+また、フィードバックが `should help` とも言っており、次のステップの指針になることを意味しています。
 
 # --scene--
 

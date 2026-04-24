@@ -8,32 +8,30 @@ dashedName: json-rpc
 
 # --description--
 
-In this video, you will learn about the JSON-RPC protocol.
+このビデオでは、JSON-RPCプロトコルについて学びます。
 
 # --questions--
 
 ## --text--
 
-What is the JSON-RPC protocol?
+JSON-RPCプロトコルとは何ですか？
 
 ## --answers--
 
-A protocol for storing large datasets in a vector database.
+ベクターデータベースに大規模なデータセットを保存するためのプロトコル。
 
 ---
 
-This defines a standard way for clients and servers to communicate using JSON messages.
+クライアントとサーバーがJSONメッセージを使って通信するための標準的な方法を定義したもの。
 
 ---
 
-A file format for compressing and encrypting AI model weights.
+AIモデルの重みを圧縮および暗号化するためのファイル形式。
 
 ---
 
-A markup language used to style web pages and UI components.
+ウェブページやUIコンポーネントのスタイルを指定するためのマークアップ言語。
 
 ## --video-solution--
 
 2
-
-

@@ -1,6 +1,6 @@
 ---
 id: 69ae69fbb4a814be6a4f2bdc
-title: What is Semantic Search?
+title: セマンティック検索とは何か？
 challengeType: 11
 videoId: 1OxzFbEES_g
 dashedName: what-is-semantic-search
@@ -8,31 +8,30 @@ dashedName: what-is-semantic-search
 
 # --description--
 
-In this video, you will learn about semantic search.
+このビデオでは、セマンティック検索について学びます。
 
 # --questions--
 
 ## --text--
 
-What is semantic search?
+セマンティック検索とは何ですか？
 
 ## --answers--
 
-Searching only for documents that contain the exact keyword typed, without considering context or meaning.
+入力したキーワードと完全に一致する文書だけを、文脈や意味を考慮せずに検索すること。
 
 ---
 
-A system that converts every search query into random tags and retrieves documents with the most matching tags.
+すべての検索クエリをランダムなタグに変換し、最も多くのタグが一致する文書を取得するシステム。
 
 ---
 
-A search method that organizes results alphabetically by word length and popularity instead of relevance.
+関連性ではなく、単語の長さや人気順に結果をアルファベット順で整理する検索方法。
 
 ---
 
-Searching documents based on the meaning of the words rather than just keyword matching.
+キーワードの一致だけでなく、単語の意味に基づいて文書を検索すること。
 
 ## --video-solution--
 
 4
-

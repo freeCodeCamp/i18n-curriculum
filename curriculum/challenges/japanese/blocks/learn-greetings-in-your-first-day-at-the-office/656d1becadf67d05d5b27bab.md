@@ -1,6 +1,6 @@
 ---
 id: 656d1becadf67d05d5b27bab
-title: Task 149
+title: タスク149
 challengeType: 19
 dashedName: task-149
 lang: en-US
@@ -14,19 +14,19 @@ Brian: But it's true. She's the person to go to if you need help.
 
 # --description--
 
-Just like when you learned about the pronoun `he`, pronouns like `she` are used to refer to female individuals. They help avoid repetition in conversation. Look at this part of the dialogue:
+`he`の代名詞を学んだときと同様に、`she`のような代名詞は女性を指すために使われます。会話の中で繰り返しを避けるのに役立ちます。次の会話の部分を見てください：
 
-- Sophie: `Oh, come on, Brian.`
+- ソフィー: `Oh, come on, Brian.`
 
-- Brian: `But it's true. She's the person to go to if you need help.`
+- ブライアン: `But it's true. She's the person to go to if you need help.`
 
-Here, `she` is used by Brian to refer to Sophie. Instead of repeating Sophie's name, Brian uses the pronoun `she` to make the conversation smoother and avoid repetition.
+ここで、ブライアンはソフィーを指すために`she`を使っています。ソフィーの名前を繰り返す代わりに、ブライアンは代名詞`she`を使って会話をスムーズにし、繰り返しを避けています。
 
 # --questions--
 
 ## --text--
 
-In the dialogue, which word does Brian use to refer to Sophie without repeating her name?
+この会話で、ブライアンはソフィーの名前を繰り返さずに指すためにどの単語を使っていますか？
 
 ## --answers--
 
@@ -34,7 +34,7 @@ In the dialogue, which word does Brian use to refer to Sophie without repeating 
 
 ### --feedback--
 
-`He` refers to a male.
+`He`は男性を指します。
 
 ---
 
@@ -42,7 +42,7 @@ In the dialogue, which word does Brian use to refer to Sophie without repeating 
 
 ### --feedback--
 
-`They` is plural and refers to more than one person.
+`They`は複数形で、複数の人を指します。
 
 ---
 
@@ -50,7 +50,7 @@ In the dialogue, which word does Brian use to refer to Sophie without repeating 
 
 ### --feedback--
 
-`It` is usually used for things or animals.
+`It`は通常、物や動物を指すときに使います。
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c442eddfaeb5bd1c
-title: Build a Memory Light Game
+title: メモリーライトゲームを作ろう
 challengeType: 3
 forumTopicId: 302357
 dashedName: build-a-memory-light-game
@@ -8,36 +8,36 @@ dashedName: build-a-memory-light-game
 
 # --description--
 
-**目標:** こちらと似た機能を持つアプリを構築してください: <a href="https://codepen.io/freeCodeCamp/full/obYBjE" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/obYBjE</a>
+**目的:** 次のアプリと機能的に似たものを作成してください：<a href="https://codepen.io/freeCodeCamp/full/obYBjE" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/obYBjE</a>。
 
-以下のユーザーストーリーを満たし、すべてのテストが成功するようにしてください。 必要に応じて、どのようなライブラリあるいは API を使用してもかまいません。 あなた独自のアレンジを加えましょう。
+以下のユーザーストーリーを満たし、すべてのテストに合格してください。必要なライブラリやAPIは自由に使って構いません。自分なりのスタイルを加えてください。
 
-**ユーザーストーリー:** 連続してボタンを押す順番を、ランダムに提示されます。
+**ユーザーストーリー:** ランダムなボタンの押下の連続が表示されます。
 
-**ユーザーストーリー:** 連続してボタンを押す順番を正しく入力するたびに、入力したものと同じボタンを押す順番とともに、追加の 1 ステップ を見ることができます。
+**ユーザーストーリー:** ボタンの連続を正しく入力するたびに、同じ連続に新しいステップが追加されて表示されます。
 
-**ユーザーストーリー:** 連続してボタンを押す順番を提示する時と、自らボタンを押すときに、それぞれのボタンに応じた音が聞こえます。
+**ユーザーストーリー:** ボタンの連続が再生されるときと、自分でボタンを押したときに、それぞれのボタンに対応した音が聞こえます。
 
-**ユーザーストーリー:** もし間違ったボタンを押したら、そのことを通知されますが、連続してボタンを押す順番を再度提示して思い出させてくれるので、もう一度挑戦できます。
+**ユーザーストーリー:** 間違ったボタンを押すと通知され、その連続が最初から再生されてパターンを思い出せるようになります。
 
-**ユーザーストーリー:** 連続してボタンを押す現在の順番に、何回のステップがあるのかを見ることができます。
+**ユーザーストーリー:** 現在のボタンの連続に何ステップあるかが見えます。
 
-**ユーザーストーリー:** 再開したい場合には、再開ボタンをたたくいてゲームを 1 つ目のステップの状態まで復帰できます。
+**ユーザーストーリー:** やり直したい場合はボタンを押してゲームをリセットでき、ゲームは1ステップの状態に戻ります。
 
-**ユーザーストーリー:** 間違ったボタンを押して、そのことを通知されてから、連続してボタンを押す順番が新しくランダムな状態からゲームが再開する、ストリクトモードでプレイできます。
+**ユーザーストーリー:** ストリクトモードでプレイでき、間違ったボタンを押すと通知されてゲームが新しいランダムな連続から再スタートします。
 
-**ユーザーストーリー:** 連続で 20 のステップを正しく入力できれば、ゲームに勝利できます。 私がゲームに勝利したことが通知され、ゲームをもう一度やり直します。
+**ユーザーストーリー:** 20ステップの連続を正しく入力するとゲームに勝利し、勝利の通知が表示されてゲームが再スタートします。
 
-**Hint:** Here are mp3s you can use for each button:
+**ヒント:** 各ボタンに使えるmp3はこちらです：
 
 - `https://cdn.freecodecamp.org/curriculum/take-home-projects/memory-light-game/sound-1.mp3`
 - `https://cdn.freecodecamp.org/curriculum/take-home-projects/memory-light-game/sound-2.mp3`
 - `https://cdn.freecodecamp.org/curriculum/take-home-projects/memory-light-game/sound-3.mp3`
 - `https://cdn.freecodecamp.org/curriculum/take-home-projects/memory-light-game/sound-4.mp3`
 
-完了したら、CodePen のプロジェクトへのリンクを入れて、「このチャレンジを完了しました」ボタンをクリックしてください。
+完成したら、CodePenのプロジェクトへのリンクを含めて、「I've completed this challenge」ボタンをクリックしてください。
 
-<a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp フォーラム</a>でプロジェクトを共有することにより、フィードバックを得ることができます。
+プロジェクトのフィードバックは<a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCampフォーラム</a>で共有すると得られます。
 
 # --solutions--
 

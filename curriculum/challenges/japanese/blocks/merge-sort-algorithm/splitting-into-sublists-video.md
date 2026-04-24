@@ -1,6 +1,6 @@
 ---
 id: 698ddca77932b3cc4b19c936
-title: Splitting Into Sublists
+title: サブリストへの分割
 challengeType: 11
 videoId: HBzKVr-AwjQ
 dashedName: splitting-into-sublists
@@ -8,29 +8,29 @@ dashedName: splitting-into-sublists
 
 # --description--
 
-In this video, you will learn more about the merge sort algorithm and how to split a list into sublists.
+このビデオでは、マージソートアルゴリズムについてさらに学び、リストをサブリストに分割する方法を説明します。
 
 # --questions--
 
 ## --text--
 
-What does splitting the list into sublists represent in the merge sort algorithm?
+マージソートアルゴリズムにおいて、リストをサブリストに分割することは何を表していますか？
 
 ## --answers--
 
-It represents the sort step.
+それはソートのステップを表しています。
 
 ---
 
-It represents the merge step.
+それはマージのステップを表しています。
 
 ---
 
-It represents the conquer step.
+それは征服のステップを表しています。
 
 ---
 
-It represents the divide step.
+それは分割のステップを表しています。
 
 ## --video-solution--
 

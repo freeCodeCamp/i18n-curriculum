@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c442eddfaeb5bd1f
-title: Twitch JSON API を使用する
+title: Twitch JSON API を使う
 challengeType: 3
 forumTopicId: 19541
 dashedName: use-the-twitch-json-api
@@ -8,25 +8,25 @@ dashedName: use-the-twitch-json-api
 
 # --description--
 
-**目標:** こちらと似た機能を持つアプリを構築してください: <a href="https://codepen.io/freeCodeCamp/full/Myvqmo/" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/Myvqmo</a>
+**目的:** 次のアプリと機能的に似たアプリを作成してください：<a href="https://codepen.io/freeCodeCamp/full/Myvqmo/" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/Myvqmo/</a>。
 
-Twitch API は RESTful API で、開発者はより広範な Twitch コミュニティ向けにクリエイティブな統合を構築できます。
+Twitch API は RESTful API で、開発者がより広い Twitch コミュニティ向けにクリエイティブな統合を構築できます。
 
-以下のユーザーストーリーを満たし、すべてのテストが成功するようにしてください。 必要に応じて、どのようなライブラリあるいは API を使用してもかまいません。 あなた独自のアレンジを加えましょう。
+以下のユーザーストーリーを満たし、すべてのテストを通過させてください。必要なライブラリや API は自由に使って構いません。自分なりのスタイルで仕上げてください。
 
-**ユーザーストーリー:** freeCodeCamp が現在 Twitch.tv にストリーミングしているかどうかがわかります。
+**ユーザーストーリー:** freeCodeCamp が現在 Twitch.tv で配信中かどうか確認できます。
 
-**ユーザーストーリー:** ステータス出力をクリックすると、freeCodeCamp の Twitch.tv チャンネルに直接移動することができます。
+**ユーザーストーリー:** ステータスの出力をクリックすると、freeCodeCamp の Twitch.tv チャンネルに直接移動できます。
 
-**ユーザーストーリー:** ストリーミング中の Twitch ユーザーがストリーミングしているものについて、詳細を見ることができます。
+**ユーザーストーリー:** Twitch ユーザーが現在配信中の場合、その配信内容の詳細を確認できます。
 
-**ヒント:** 定期的にストリーミングする人の Twitch.tv ユーザー名の配列は次のとおりです: `["ESL_SC2", "OgamingSC2", "cretetion", "freecodecamp", "storbeck", "habathcx", "RobotCaleb", "noobs2ninjas"]`
+**ヒント:** こちらは定期的に配信している Twitch.tv ユーザー名の配列です：`["ESL_SC2", "OgamingSC2", "cretetion", "freecodecamp", "storbeck", "habathcx", "RobotCaleb", "noobs2ninjas"]`
 
-**更新:** API の使用状況の変化によって、Twitch.tv は API キーを必要としますが、私達は回避策を作りました。 Twitch API の ベース URL の代わりに <a href="https://twitch-proxy.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://twitch-proxy.freecodecamp.rocks/</a> を使用することで、API キーにサインアップしなくても、アカウント情報を取得できます。
+**更新:** API 利用条件の変更により、Twitch.tv は API キーを必要としますが、回避策を用意しました。Twitch の API ベース URL の代わりに <a href="https://twitch-proxy.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://twitch-proxy.freecodecamp.rocks/</a> を使えば、API キー登録なしでアカウント情報を取得できます。
 
-完了したら、CodePen のプロジェクトへのリンクを入れて、「このチャレンジを完了しました」ボタンをクリックしてください。
+完成したら、CodePen のプロジェクトリンクを含めて「チャレンジを完了しました」ボタンをクリックしてください。
 
-<a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp フォーラム</a>でプロジェクトを共有することにより、フィードバックを得ることができます。
+プロジェクトのフィードバックは <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp フォーラム</a>で共有してもらえます。
 
 # --solutions--
 

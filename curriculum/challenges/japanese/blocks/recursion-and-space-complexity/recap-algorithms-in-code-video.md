@@ -1,6 +1,6 @@
 ---
 id: 698dd0707932b3cc4b19c92b
-title: Recap for Algorithms in Code
+title: コードにおけるアルゴリズムのまとめ
 challengeType: 11
 videoId: paBfWYrScAg
 dashedName: recap-algorithms-in-code
@@ -8,29 +8,29 @@ dashedName: recap-algorithms-in-code
 
 # --description--
 
-In this video, you will review the key concepts taught so far including algorithmic thinking, and Big O notation.
+このビデオでは、これまでに学んだアルゴリズム思考やビッグO記法などの重要な概念をレビューします。
 
 # --questions--
 
 ## --text--
 
-Which of the following should be true when it comes to algorithms?
+アルゴリズムについて、次のうち正しいものはどれですか？
 
 ## --answers--
 
-It should always use the maximum amount of memory available.
+常に利用可能な最大のメモリ量を使うべきである。
 
 ---
 
-It should never repeat any steps, even if needed.
+必要でも、どんなステップも繰り返してはいけない。
 
 ---
 
-It should finish in a finite amount of time.
+有限の時間内に終了するべきである。
 
 ---
 
-It should produce random results each time it runs.
+実行するたびにランダムな結果を出すべきである。
 
 ## --video-solution--
 

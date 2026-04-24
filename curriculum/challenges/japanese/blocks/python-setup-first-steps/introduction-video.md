@@ -1,6 +1,6 @@
 ---
 id: 05b8c9b04c6df84636956fab
-title: Introduction
+title: はじめに
 challengeType: 11
 videoId: EgQZWE8in68
 dashedName: introduction
@@ -8,29 +8,29 @@ dashedName: introduction
 
 # --description--
 
-In this video, instructor Mike Dane explains why you should learn Python.
+このビデオでは、インストラクターのMike DaneがPythonを学ぶべき理由を説明します。
 
 # --questions--
 
 ## --text--
 
-What is one reason to learn Python?
+Pythonを学ぶ理由の一つは何ですか？
 
 ## --answers--
 
-It is required to be learned before any other programming language.
+他のどのプログラミング言語よりも先に学ぶ必要があるからです。
 
 ---
 
-It is one of the most popular programming languages used in the industry.
+業界で最も人気のあるプログラミング言語の一つだからです。
 
 ---
 
-It is the fastest programming language for all types of applications.
+すべての種類のアプリケーションで最も速いプログラミング言語だからです。
 
 ---
 
-It is only useful for complex gaming applications.
+複雑なゲーム用アプリケーションにしか役立たないからです。
 
 ## --video-solution--
 

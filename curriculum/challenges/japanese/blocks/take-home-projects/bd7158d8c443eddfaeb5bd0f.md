@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c443eddfaeb5bd0f
-title: 書籍交換クラブを運営する
+title: 本の交換クラブを管理する
 challengeType: 4
 forumTopicId: 302364
 dashedName: manage-a-book-trading-club
@@ -8,21 +8,21 @@ dashedName: manage-a-book-trading-club
 
 # --description--
 
-**目標:** こちらと似た機能を持つアプリを構築してください: <a href="https://manage-a-book-trading-club.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://manage-a-book-trading-club.freecodecamp.rocks/</a>
+**目的:** 次のライブアプリと機能的に似たアプリを作成してください：<a href="https://manage-a-book-trading-club.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://manage-a-book-trading-club.freecodecamp.rocks/</a>。
 
-以下のユーザーストーリーを満たし、すべてのテストが成功するようにしてください。 必要に応じて、どのようなライブラリあるいは API を使用してもかまいません。 あなた独自のアレンジを加えましょう。
+以下のユーザーストーリーを満たし、すべてのテストに合格してください。必要なライブラリやAPIは自由に使って構いません。自分なりのスタイルで仕上げてください。
 
-**ユーザーストーリー:** すべてのユーザに投稿された本を見ることができます。
+**ユーザーストーリー:** すべてのユーザーが投稿した本をすべて閲覧できます。
 
-**ユーザーストーリー:** 新しい本を追加することができます。
+**ユーザーストーリー:** 新しい本を追加できます。
 
-**ユーザーストーリー:** 設定を更新して、自分のフルネーム、市、州を保存できます。
+**ユーザーストーリー:** 自分の設定を更新して、フルネーム、都市、州を保存できます。
 
-**ユーザーストーリー:** 交換を提案でき、他のユーザーがその提案を承諾するのを待つことができます。
+**ユーザーストーリー:** 交換を提案し、相手のユーザーが交換を承認するのを待てます。
 
-これらのユーザーストーリーの実装を終えたら、動作可能なアプリの URL を入力し、必要に応じて GitHub リポジトリの URL を入力してください。 それから「このチャレンジを完了しました」ボタンをクリックしてください。
+これらのユーザーストーリーの実装が完了したら、ライブアプリのURLと、任意でGitHubリポジトリのURLを入力してください。その後、「チャレンジを完了しました」ボタンをクリックしてください。
 
-<a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp フォーラム</a>でプロジェクトのフィードバックを得ることができます。
+プロジェクトのフィードバックは<a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCampフォーラム</a>で共有して得ることができます。
 
 # --solutions--
 

@@ -1,6 +1,6 @@
 ---
 id: 698de0ca7932b3cc4b19c938
-title: Ensuring the Correctness of Merge Sort
+title: マージソートの正確性を保証する方法
 challengeType: 11
 videoId: UHAYHvqxVKY
 dashedName: ensuring-the-correctness-of-merge-sort
@@ -8,29 +8,29 @@ dashedName: ensuring-the-correctness-of-merge-sort
 
 # --description--
 
-In this video, you will learn how to evaluate the merge sort algorithm and determine its correctness.
+このビデオでは、マージソートアルゴリズムを評価し、その正確性を判断する方法を学びます。
 
 # --questions--
 
 ## --text--
 
-What technique is used in the `verify_sorted` function?
+`verify_sorted` 関数で使われている手法は何ですか？
 
 ## --answers--
 
-recursion
+再帰
 
 ---
 
-dynamic programming
+動的計画法
 
 ---
 
-iteration
+反復
 
 ---
 
-backtracking
+バックトラッキング
 
 ## --video-solution--
 

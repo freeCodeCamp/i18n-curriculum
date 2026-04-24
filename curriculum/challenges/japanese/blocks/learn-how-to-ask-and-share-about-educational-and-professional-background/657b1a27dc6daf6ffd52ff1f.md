@@ -1,6 +1,6 @@
 ---
 id: 657b1a27dc6daf6ffd52ff1f
-title: Task 30
+title: タスク 30
 challengeType: 19
 dashedName: task-30
 lang: en-US
@@ -11,43 +11,43 @@ Second Candidate: Yes. I have a master's degree in computer science. -->
 
 # --description--
 
-In English, the noun suffixed with `'s` followed by a second noun structure is used to show possession or belonging.
+英語では、`'s`が付いた名詞に続けて別の名詞を置く構造は、所有や所属を示すために使われます。
 
-If the first noun is singular, as in `Sarah's laptop`, it indicates that the laptop belongs to Sarah. However, if the first noun is plural, the structure changes to noun suffixed with `'`, as in `teachers' office`, indicating an office for teachers.
+最初の名詞が単数の場合、`Sarah's laptop`のように、そのノートパソコンがサラのものであることを示します。しかし、最初の名詞が複数の場合は、`'`が付いた名詞の構造に変わり、`teachers' office`のように教師たちのためのオフィスを示します。
 
 # --questions--
 
 ## --text--
 
-What does `master's degree` in the context of the dialogue refer to?
+対話の文脈で`master's degree`は何を指していますか？
 
 ## --answers--
 
-A degree for school teachers
+学校の教師のための学位
 
 ### --feedback--
 
-`Master's degree` refers to an advanced academic degree, not specifically for teachers.
+`Master's degree`は教師専用ではなく、高度な学術学位を指します。
 
 ---
 
-A primary level educational degree
+初等教育レベルの学位
 
 ### --feedback--
 
-`Master's degree` is a higher education qualification, beyond the primary level.
+`Master's degree`は初等教育を超えた高等教育の資格です。
 
 ---
 
-A degree in mastering skills
+スキル習得のための学位
 
 ### --feedback--
 
-While it implies expertise, `master's degree` specifically refers to an academic qualification.
+専門知識を示唆しますが、`master's degree`は特に学術的な資格を指します。
 
 ---
 
-An advanced academic degree
+高度な学術学位
 
 ## --video-solution--
 

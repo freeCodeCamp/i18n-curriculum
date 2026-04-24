@@ -1,26 +1,26 @@
 ---
 id: 647e1f4e8acb466c97ccbedf
-title: 'Add Looping Logic to Your Code Using the do-while and while Statements in C#'
+title: "C# の `do-while` と `while` 文を使ってコードにループ処理を追加する"
 challengeType: 19
 dashedName: add-looping-logic-to-your-code-using-the-do-while-and-while-statements-in-c-sharp
 ---
 
 # --description--
 
-This challenge will be partially completed on the Microsoft Learn platform. Follow these instructions to complete the challenge:
+このチャレンジは Microsoft Learn プラットフォームで一部完了します。チャレンジを完了するには、以下の手順に従ってください。
 
-1. Go to <a href="https://learn.microsoft.com/training/modules/csharp-do-while/" target="_blank" rel="noreferrer">https://learn.microsoft.com/training/modules/csharp-do-while/</a> and complete all the tasks for the "Add Looping Logic to Your Code Using the do-while and while Statements in C#" module. This is **required** to earn the "Add Logic to C# Console Applications" trophy on Microsoft Learn, and qualify for the certification exam.
-1. When you are finished, come back and correctly answer the question below.
+1. <a href="https://learn.microsoft.com/training/modules/csharp-do-while/" target="_blank" rel="noreferrer">https://learn.microsoft.com/training/modules/csharp-do-while/</a> にアクセスし、「C# の `do-while` と `while` 文を使ってコードにループ処理を追加する」モジュールのすべてのタスクを完了してください。これは Microsoft Learn で「C# コンソールアプリケーションにロジックを追加する」トロフィーを獲得し、認定試験の受験資格を得るために**必須**です。
+1. 完了したら戻ってきて、以下の質問に正しく答えてください。
 
 # --assignment--
 
-Complete the <a href="https://learn.microsoft.com/training/modules/csharp-do-while/" target="_blank" rel="noreferrer">Add Looping Logic to Your Code Using the `do`-`while` and `while` Statements in C#</a> module on Microsoft Learn. Then, answer the question below.
+Microsoft Learn の <a href="https://learn.microsoft.com/training/modules/csharp-do-while/" target="_blank" rel="noreferrer">C# の `do`-`while` と `while` 文を使ってコードにループ処理を追加する</a> モジュールを完了してください。その後、以下の質問に答えてください。
 
 # --questions--
 
 ## --text--
 
-A developer needs to iterate through an array of items to find one that matches a certain criteria. Which is the best iteration statement for this purpose?
+開発者が特定の条件に合うアイテムを見つけるために配列を繰り返し処理する必要があります。この目的に最適な繰り返し文はどれですか？
 
 ## --answers--
 

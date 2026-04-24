@@ -1,6 +1,6 @@
 ---
 id: 5a5d02bd919fcf9ca8cf46cb
-title: Build a Light-Bright App
+title: Light-Brightアプリを作ろう
 challengeType: 3
 forumTopicId: 302350
 dashedName: build-a-light-bright-app
@@ -8,27 +8,27 @@ dashedName: build-a-light-bright-app
 
 # --description--
 
-**Objective:** Build an app that is functionally similar to this: <https://codepen.io/freeCodeCamp/full/eyLYXE>.
+**目的：** 次のような機能を持つアプリを作成してください：<https://codepen.io/freeCodeCamp/full/eyLYXE>。
 
-**Rule #1:** Don't look at the example project's code. Figure it out for yourself.
+**ルール1：** 例のプロジェクトのコードは見ないでください。自分で考えて作ってください。
 
-**Rule #2:** Fulfill the below user stories and get all of the tests to pass. Use whichever libraries or APIs you need. Give it your own personal style.
+**ルール2：** 以下のユーザーストーリーを満たし、すべてのテストに合格してください。必要なライブラリやAPIは自由に使ってください。自分のスタイルを加えても構いません。
 
-**User Story:** I can click or drag the mouse cursor to color the circles.
+**ユーザーストーリー：** マウスカーソルをクリックまたはドラッグして円を色付けできます。
 
-**User Story:** I can double-click on a colored circle to remove the color.
+**ユーザーストーリー：** 色が付いた円をダブルクリックすると色を消せます。
 
-**User Story:** I can click on a colored circle to change its color.
+**ユーザーストーリー：** 色が付いた円をクリックすると色を変えられます。
 
-**User Story:** I should get a circle of different color on each click.
+**ユーザーストーリー：** クリックするたびに異なる色の円が表示されます。
 
-**User Story:** I can click on the 'Reset' button to remove the recent color.
+**ユーザーストーリー：** 「Reset」ボタンをクリックすると直近の色を消せます。
 
-**User Story:** I can click on the 'Reset All' button to remove all the colors from the circles.
+**ユーザーストーリー：** 「Reset All」ボタンをクリックするとすべての円の色を消せます。
 
-When you are finished, include a link to your project on CodePen and click the "I've completed this challenge" button.
+完成したら、CodePenのプロジェクトへのリンクを含め、「I've completed this challenge」ボタンをクリックしてください。
 
-You can get feedback on your project by sharing it on the <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp forum</a>.
+プロジェクトのフィードバックは<a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCampフォーラム</a>で共有してもらえます。
 
 # --solutions--
 

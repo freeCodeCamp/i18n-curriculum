@@ -1,6 +1,6 @@
 ---
 id: 663a47b234aefeabacb3cf75
-title: Task 27
+title: タスク 27
 challengeType: 22
 dashedName: task-27
 lang: en-US
@@ -10,7 +10,8 @@ lang: en-US
 
 # --description--
 
-Another distinctive characteristic someone has is their height. You can say, for example, that someone is `tall` or `short`. A `tall` person is someone above the average in terms of their height. The opposite is when someone is `short`, when this person is below the average.
+もう一つの特徴的な要素は身長です。例えば、誰かが `tall` または `short` と言うことができます。
+`tall` な人は、身長が平均より高い人のことです。反対に、誰かが `short` の場合は、その人の身長が平均より低いことを意味します。
 
 # --fillInTheBlank--
 
@@ -24,7 +25,7 @@ Another distinctive characteristic someone has is their height. You can say, for
 
 ### --feedback--
 
-Above the average in terms of height.
+身長が平均より高いことを意味します。
 
 # --scene--
 

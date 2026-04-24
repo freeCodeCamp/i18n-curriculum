@@ -1,35 +1,35 @@
 ---
 id: 5efae16e3cbd2bbdab94e334
-title: Step 33
+title: ステップ 33
 challengeType: 0
 dashedName: step-33
 ---
 
 # --description--
 
-After the last `img` element, add a `figcaption` element with the text `Cats hate other cats.`
+最後の `img` 要素の後に、テキスト `figcaption` を持つ `Cats hate other cats.` 要素を追加してください。
 
 # --hints--
 
-Your `figcaption` element should have an opening tag. Opening tags have the following syntax: `<elementName>`.
+`figcaption` 要素には開始タグが必要です。開始タグの構文は次の通りです：`<elementName>`。
 
 ```js
 assert(document.querySelectorAll('figcaption').length === 2);
 ```
 
-Your `figcaption` element should have a closing tag. Closing tags have a `/` just after the `<` character.
+`figcaption` 要素には終了タグが必要です。終了タグは `/` 文字の直後に `<` があります。
 
 ```js
 assert(code.match(/<\/figcaption\>/g).length === 2);
 ```
 
-There should be a `figure` element right above the second `section` element's closing tag.
+2番目の `figure` 要素の終了タグのすぐ上に `section` 要素があるはずです。
 
 ```js
 assert.strictEqual(document.querySelectorAll('main > section')?.[1]?.lastElementChild?.nodeName, 'FIGURE');
 ```
 
-The last `img` element should be nested in the `figure` element.
+最後の `img` 要素は `figure` 要素の中にネストされている必要があります。
 
 ```js
 const catsImg = document.querySelectorAll('figure > img')[1];
@@ -39,25 +39,25 @@ assert(
 );
 ```
 
-Your `figure` element should have an opening tag. Opening tags have the following syntax: `<elementName>`.
+`figure` 要素には開始タグが必要です。開始タグの構文は次の通りです：`<elementName>`。
 
 ```js
 assert(document.querySelectorAll('figure').length === 2);
 ```
 
-Your `figure` element should have a closing tag. Closing tags have a `/` just after the `<` character.
+`figure` 要素には終了タグが必要です。終了タグは `/` 文字の直後に `<` があります。
 
 ```js
 assert(code.match(/<\/figure\>/g).length === 2);
 ```
 
-The `figcaption` element should be nested in the `figure` element.
+`figcaption` 要素は `figure` 要素の中にネストされている必要があります。
 
 ```js
 assert(document.querySelectorAll('figure > figcaption').length === 2);
 ```
 
-The `figcaption` element nested in the `figure` element should be below the `img` element. You have the `img` element and the `figcaption` element in the wrong order.
+`figcaption` 要素にネストされた `figure` 要素は `img` 要素の下にあるべきです。`img` 要素と `figcaption` 要素の順序が間違っています。
 
 ```js
 assert(
@@ -66,7 +66,7 @@ assert(
 );
 ```
 
-The `figcaption` element should have the text `Cats hate other cats.` You have omitted a word or have a typo.
+`figcaption` 要素にはテキスト `Cats hate other cats.` が必要です。単語の省略かタイプミスがあります。
 
 ```js
 assert(
@@ -121,4 +121,3 @@ assert(
   </body>
 </html>
 ```
-

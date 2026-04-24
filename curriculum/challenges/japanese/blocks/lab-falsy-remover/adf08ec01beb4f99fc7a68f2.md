@@ -1,59 +1,59 @@
 ---
 id: adf08ec01beb4f99fc7a68f2
-title: Implement a Falsy Remover
+title: 偽値を除去する関数を実装する
 challengeType: 26
 dashedName: implement-a-falsy-remover
 ---
 
 # --description--
 
-In this lab you will create a function that removes all falsy values from an array.
+このラボでは、配列からすべての偽値を除去する関数を作成します。
 
-Falsy values in JavaScript are `false`, `null`, `0`, `""`, `undefined`, and `NaN`.
+JavaScriptの偽値には `false`、`null`、`0`、`""`、`undefined`、および `NaN` があります。
 
-**Objective**: Fulfill the user stories below and get all the tests to pass to complete the lab.
+**目的**：以下のストーリーを満たし、すべてのテストに合格してラボを完了してください。
 
-**User Stories:**
+**ストーリー：**
 
-1. You should have a `bouncer` function that takes an array as argument.
-1. The `bouncer` function should return a new array that contains the same elements as the array passed in as argument with the falsy elements removed.
-1. The `bouncer` function should not change the array passed in as an argument.
+1. 配列を引数に取る `bouncer` 関数が必要です。
+1. `bouncer` 関数は、引数として渡された配列と同じ要素を含みつつ、偽値の要素が除かれた新しい配列を返す必要があります。
+1. `bouncer` 関数は、引数として渡された配列を変更してはいけません。
 
-Hint: Try converting each value to a Boolean.
+ヒント：各値をブール値に変換してみてください。
 
 # --hints--
 
-You should have a `bouncer` function.
+`bouncer` 関数が必要です。
 
 ```js
 assert.isFunction(bouncer);
 ```
 
-`bouncer([7, "ate", "", false, 9])` should return `[7, "ate", 9]`.
+`bouncer([7, "ate", "", false, 9])` は `[7, "ate", 9]` を返すべきです。
 
 ```js
 assert.deepEqual(bouncer([7, 'ate', '', false, 9]), [7, 'ate', 9]);
 ```
 
-`bouncer(["a", "b", "c"])` should return `["a", "b", "c"]`.
+`bouncer(["a", "b", "c"])` は `["a", "b", "c"]` を返すべきです。
 
 ```js
 assert.deepEqual(bouncer(['a', 'b', 'c']), ['a', 'b', 'c']);
 ```
 
-`bouncer([false, null, 0, NaN, undefined, ""])` should return `[]`.
+`bouncer([false, null, 0, NaN, undefined, ""])` は `[]` を返すべきです。
 
 ```js
 assert.deepEqual(bouncer([false, null, 0, NaN, undefined, '']), []);
 ```
 
-`bouncer([null, NaN, 1, 2, undefined])` should return `[1, 2]`.
+`bouncer([null, NaN, 1, 2, undefined])` は `[1, 2]` を返すべきです。
 
 ```js
 assert.deepEqual(bouncer([null, NaN, 1, 2, undefined]), [1, 2]);
 ```
 
-The `bouncer` function should not mutate the array passed in as argument.
+`bouncer` 関数は、引数として渡された配列を変更してはいけません。
 
 ```js
 const arr = ['a', false, 0, 'Naomi'];
@@ -61,11 +61,11 @@ bouncer(arr);
 assert.deepEqual(arr, ['a', false, 0, 'Naomi']);
 ```
 
-`bouncer([])` should return `[]`.
+`bouncer([])` は `[]` を返すべきです。  
 
 ```js  
 assert.deepEqual(bouncer([]), []);  
-```
+```  
 
 # --seed--
 

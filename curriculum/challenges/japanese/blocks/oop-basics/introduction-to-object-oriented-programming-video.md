@@ -1,6 +1,6 @@
 ---
 id: 69ae9744a9e6da4eb0d5f7f6
-title: Introduction to Object-Oriented Programming
+title: オブジェクト指向プログラミング入門
 challengeType: 11
 videoId: sQjvwm8P1iY
 dashedName: introduction-to-object-oriented-programming
@@ -8,32 +8,30 @@ dashedName: introduction-to-object-oriented-programming
 
 # --description--
 
-In this video, instructor Jim from `JimShapedCoding` will explain what to expect from this course on Object-Oriented Programming with Python.
+このビデオでは、`JimShapedCoding`のジム講師がPythonによるオブジェクト指向プログラミングのコースで何を学べるかを説明します。
 
 # --questions--
 
 ## --text--
 
-Which of the following is NOT an OOP concept?
+次のうち、OOPの概念ではないものはどれですか？
 
 ## --answers--
 
-Encapsulation
+カプセル化
 
 ---
 
-Polymorphism
+ポリモーフィズム
 
 ---
 
-Recursion
+再帰
 
 ---
 
-Abstract Classes
+抽象クラス
 
 ## --video-solution--
 
 3
-
-

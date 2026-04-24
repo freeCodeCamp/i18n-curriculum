@@ -1,6 +1,6 @@
 ---
 id: 6914d94cee63aa7cbcafab2c
-title: Task 2
+title: タスク 2
 challengeType: 22
 dashedName: task-2
 lang: es
@@ -10,13 +10,13 @@ lang: es
 
 # --description--
 
-Mateo is mentioning his name and profession in Spanish.
+マテオ はスペイン語で自分の名前と職業を述べています。
 
-Here, the verb `ser` is used to express his identity and profession.
+ここでは、動詞 `ser` が自分の身元や職業を表現するために使われています。
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+音声を聞いて、下の文を完成させてください。
 
 # --fillInTheBlank--
 
@@ -30,7 +30,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This verb form comes from the verb `ser` and is used to describe who you are or what you do.
+この動詞の形は動詞 `ser` から来ており、自分が誰であるか、何をしているかを説明するために使われます。
 
 ---
 
@@ -38,14 +38,14 @@ This verb form comes from the verb `ser` and is used to describe who you are or 
 
 ### --feedback--
 
-This verb form comes from the verb `ser` and is used to describe who you are or what you do.
+この動詞の形は動詞 `ser` から来ており、自分が誰であるか、何をしているかを説明するために使われます。
 
 # --explanation--
 
 
-`Soy` is a verb used to describe who you are or what you do. For example:
+`Soy` は自分が誰であるか、何をしているかを説明するために使われる動詞です。例えば：
 
-`Soy Mateo. Soy ingeniero de software.` - I'm Mateo. I'm a software engineer.
+`Soy Mateo. Soy ingeniero de software.` - 私はマテオです。ソフトウェアエンジニアです。
 
 # --scene--
 
@@ -103,4 +103,3 @@ This verb form comes from the verb `ser` and is used to describe who you are or 
   ]
 }
 ```
-

@@ -1,6 +1,6 @@
 ---
 id: 6994ea79a4cface895ccb5ab
-title: Task 8
+title: タスク 8
 challengeType: 22
 dashedName: task-8
 lang: es
@@ -10,13 +10,13 @@ lang: es
 
 # --description--
 
-Usernames may have special symbols.
+ユーザー名には特殊な記号が含まれる場合があります。
 
-Now you'll hear Luna saying Carlos' username. You'll notice that it has this symbol `-`, which is called `guión` in Spanish.
+これからルナがカルロスのユーザー名を言うのを聞きます。このユーザー名には`-`という記号があり、スペイン語では`guión`と呼ばれています。
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+音声を聞いて、下の文を完成させてください。
 
 # --fillInTheBlank--
 
@@ -30,13 +30,13 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-Luna mentions that this is Carlos' username. Remember to include the hyphen (`-`) between the names.
+ルナはこれがカルロスのユーザー名だと言っています。名前の間のハイフン（`-`）を忘れずに含めてください。
 
 # --explanation--
 
-Luna says: `Su usuario es carlos-velez.`
+ルナはこう言っています：`Su usuario es carlos-velez.`
 
-The symbol `-` is known as `guión` in Spanish. Remember to include the accent mark on the letter `o`.
+記号`-`はスペイン語で`guión`と呼ばれています。`o`の文字にアクセント記号を付けるのを忘れないでください。
 
 # --scene--
 

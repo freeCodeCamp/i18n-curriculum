@@ -7,19 +7,19 @@ dashedName: step-9
 
 # --description--
 
-In Python, the `max()` function returns the largest of the input values.
+Pythonでは、`max()` 関数は入力値の中で最大の値を返します。
 
 ```python
 max(1, 2, 3) # Output: 3
 ```
 
-The variables `low` and `high` will be used to define the initial interval where the square root lies.
+変数`low`と`high`は、平方根が存在する初期区間を定義するために使われます。
 
-Inside the `else` clause, initialize the `low` variable to `0` and the `high` variable to be the maximum of either `1` or `square_target` as the square root of a number is always less than or equal to the number itself.
+`else` 節の中で、`low` 変数を`0` に初期化し、`high` 変数を`1` と`square_target` のうちの最大値に設定してください。平方根は常に元の数以下だからです。
 
 # --hints--
 
-You should remove the `pass` keyword.
+`pass` キーワードは削除してください。
 
 ```js
 ({
@@ -30,7 +30,7 @@ You should remove the `pass` keyword.
 })
 ```
 
-You should declare a variable `low` and assign it `0`.
+`low` という変数を宣言し、`0` を代入してください。
 
 ```js
 ({
@@ -41,7 +41,7 @@ You should declare a variable `low` and assign it `0`.
 
 ```
 
-You should declare a variable `high` and use the `max()` function to assign it the maximum value between `1` and `square_target`.
+`high` という変数を宣言し、`max()` 関数を使って`1` と`square_target` の最大値を代入してください。
 
 ```js
 

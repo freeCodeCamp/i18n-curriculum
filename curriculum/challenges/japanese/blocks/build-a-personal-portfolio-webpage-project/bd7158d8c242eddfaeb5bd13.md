@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c242eddfaeb5bd13
-title: 個人ポートフォリオのウェブページを作成する
+title: パーソナルポートフォリオウェブページを作成する
 challengeType: 14
 saveSubmissionToDB: true
 forumTopicId: 301143
@@ -9,36 +9,36 @@ dashedName: build-a-personal-portfolio-webpage
 
 # --description--
 
-**目標:** <a href="https://personal-portfolio.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://personal-portfolio.freecodecamp.rocks</a> と似た機能を持つアプリを作成してください。 **このデモプロジェクトをコピーしないでください**。
+**目的:** <a href="https://personal-portfolio.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://personal-portfolio.freecodecamp.rocks</a> と機能的に似たアプリを作成してください。**このデモプロジェクトをコピーしないでください**。
 
 **ユーザーストーリー:**
 
-1. あなたのポートフォリオには `id` が `welcome-section` に設定されているウェルカムセクションが 1 つあります
-1. そのウェルカムセクションにはテキストを含む `h1` 要素が 1 つあります
-1. あなたのポートフォリオには `id` が `projects` に設定されているプロジェクトセクションが 1 つあります
-1. プロジェクトセクションには、プロジェクトを入れるために、`class` の値が `project-tile` である要素が少なくとも 1 つあります
-1. プロジェクトセクションには、プロジェクトへのリンクが少なくとも 1 つ含まれます
-1. あなたのポートフォリオには id が `navbar` に設定されているナビゲーションバーが 1 つあります
-1. ナビゲーションバーには、クリックするとページ上の別のセクションに移動できるリンクが少なくとも 1 つあります
-1. あなたのポートフォリオには、id が `profile-link` のリンクが 1 つあり、あなたの GitHub または freeCodeCamp のプロフィールを新しいタブで開きます
-1. あなたのポートフォリオにはメディアクエリが少なくとも 1 つ必要です
-1. ウェルカムセクションの高さはビューポートの高さと等しくなっています
-1. ナビゲーションバーは常にビューポートの上部に表示されます
+1. ポートフォリオには `id` が `welcome-section` のウェルカムセクションが必要です
+1. ウェルカムセクションにはテキストを含む `h1` 要素が必要です
+1. ポートフォリオには `id` が `projects` のプロジェクトセクションが必要です
+1. プロジェクトセクションにはプロジェクトを格納するための `class` が `project-tile` の要素が少なくとも1つ必要です
+1. プロジェクトセクションには少なくとも1つのプロジェクトへのリンクが必要です
+1. ポートフォリオには `navbar` の id を持つナビゲーションバーが必要です
+1. ナビゲーションバーにはページの異なるセクションに移動できる少なくとも1つのリンクが必要です
+1. ポートフォリオには `profile-link` の id を持つリンクがあり、新しいタブで GitHub または freeCodeCamp のプロフィールを開く必要があります
+1. ポートフォリオには少なくとも1つのメディアクエリが必要です
+1. ウェルカムセクションの高さはビューポートの高さと同じである必要があります
+1. ナビゲーションバーは常にビューポートの上部に表示されている必要があります
 
-上記のユーザーストーリーを満たし、以下のすべてのテストが通るようにして、このプロジェクトを完成させてください。 あなた独自のアレンジを加えましょう。 ハッピーコーディング！
+ユーザーストーリーを満たし、以下のすべてのテストに合格してこのプロジェクトを完成させてください。自分の個性を出して楽しんでコーディングしましょう！
 
-**注:** スタイルシートをリンクして CSS を適用するため、HTML のコード内に必ず `<link rel="stylesheet" href="styles.css">` を追加してください。
+**注意:** CSSを適用するために、HTMLに `<link rel="stylesheet" href="styles.css">` を追加してスタイルシートをリンクしてください。
 
 # --hints--
 
-ポートフォリオには `id` が `welcome-section` であるウェルカムセクションが 1 つ必要です。
+ポートフォリオには `id` の `welcome-section` を持つ「Welcome」セクションが必要です。
 
 ```js
 const el = document.getElementById('welcome-section');
 assert.isNotNull(el);
 ```
 
-`#welcome-section` 要素内には `h1` 要素が必要です。
+`#welcome-section` 要素には `h1` 要素を含めてください。
 
 ```js
 assert.isAbove(
@@ -48,7 +48,7 @@ assert.isAbove(
 );
 ```
 
-空の `h1` 要素を `#welcome-section` 要素内に入れないようにしてください。
+`h1` 要素内に空の `#welcome-section` 要素があってはいけません。
 
 ```js
 assert.isAbove(
@@ -58,33 +58,33 @@ assert.isAbove(
 );
 ```
 
-`id` が `projects` であるプロジェクトセクションが 1 つ必要です。
+「Projects」セクションには `id` の `projects` が必要です。
 
 ```js
 const el = document.getElementById('projects');
 assert.isNotNull(el);
 ```
 
-ポートフォリオにはクラスの値が `project-tile` に設定されている要素が少なくとも 1 つ必要です。
+ポートフォリオには `project-tile` クラスを持つ要素が少なくとも1つ必要です。
 
 ```js
 assert.isAbove(document.querySelectorAll('#projects .project-tile').length, 0);
 ```
 
-`#projects` 要素には `a` 要素を少なくとも 1 つ入れる必要があります。
+`#projects` 要素には少なくとも1つの `a` 要素を含めてください。
 
 ```js
 assert.isAbove(document.querySelectorAll('#projects a').length, 0);
 ```
 
-ポートフォリオには `id` が `navbar` であるナビゲーションバーが 1 つ必要です。
+ポートフォリオには `id` の `navbar` を持つナビゲーションバーが必要です。
 
 ```js
 const el = document.getElementById('navbar');
 assert.isNotNull(el);
 ```
 
-`#navbar` 要素には `href` 属性の値が `#` で始まる `a` 要素を少なくとも 1 つ入れる必要があります。
+`#navbar` 要素には `a` 属性が `href` で始まる少なくとも1つの `#` 要素を含めてください。
 
 ```js
 const links = [...document.querySelectorAll('#navbar a')].filter(
@@ -94,7 +94,7 @@ const links = [...document.querySelectorAll('#navbar a')].filter(
 assert.isAbove(links.length, 0, 'Navbar should contain an anchor link ');
 ```
 
-ポートフォリオには `id` が `profile-link` である `a` 要素が 1 つ必要です。
+ポートフォリオには `a` の `id` を持つ `profile-link` 要素が必要です。
 
 ```js
 const el = document.getElementById('profile-link');
@@ -102,7 +102,7 @@ assert.isNotNull(el);
 assert.strictEqual(el.tagName, 'A');
 ```
 
-`#profile-link` 要素は値が `_blank` に設定されている `target` 属性をもつ必要があります。
+`#profile-link` 要素には `target` 属性が `_blank` である必要があります。
 
 ```js
 const el = document.getElementById('profile-link');
@@ -110,7 +110,7 @@ assert.isNotNull(el);
 assert.strictEqual(el.target, '_blank');
 ```
 
-ポートフォリオはメディアクエリを少なくとも 1 つ使用する必要があります。
+ポートフォリオには少なくとも1つのメディアクエリを使用してください。
 
 ```js
 const htmlSourceAttr = Array.from(document.querySelectorAll('source')).map(el => el.getAttribute('media'))
@@ -118,7 +118,7 @@ const cssCheck = new __helpers.CSSHelp(document).getCSSRules('media')
 assert.isTrue(cssCheck.length > 0 || htmlSourceAttr.length > 0);
 ```
 
-`#navbar` 要素は常にビューポートの上部にある必要があります。
+`#navbar` 要素は常にビューポートの上部に表示されている必要があります。
 
 ```js
   const timeout = milliseconds =>

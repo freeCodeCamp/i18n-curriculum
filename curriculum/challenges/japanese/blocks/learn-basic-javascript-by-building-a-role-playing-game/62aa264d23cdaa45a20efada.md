@@ -7,9 +7,9 @@ dashedName: step-163
 
 # --description--
 
-配列 `numbers` の後に、`numbers.length` が `10` 未満の間実行される `while` ループを作成しましょう。
+`numbers` 配列の後に、`while` が `numbers.length` より小さい間実行される `10` ループを作成してください。
 
-以前のプロジェクトで、次のような `while` ループの使い方を学びました:
+前のプロジェクトでは、このような `while` ループの使い方を学びました。
 
 ```js
 while (condition) {
@@ -19,13 +19,13 @@ while (condition) {
 
 # --hints--
 
-`pick` 関数に `while` ループを持たせてください。
+`pick` 関数には `while` ループが必要です。
 
 ```js
 assert.match(pick.toString(), /while\s*\(/);
 ```
 
-`while` ループは `numbers.length < 10` の間だけ実行するようにしてください。
+`while` ループは `numbers.length < 10` 間実行されるべきです。
 
 ```js
 assert.match(pick.toString(), /while\s*\(\s*numbers\.length\s*<\s*10\s*\)/);
@@ -386,7 +386,7 @@ function pickEight() {
 --fcc-editable-region--
 function pick(guess) {
   const numbers = [];
-
+  
 }
 --fcc-editable-region--
 ```

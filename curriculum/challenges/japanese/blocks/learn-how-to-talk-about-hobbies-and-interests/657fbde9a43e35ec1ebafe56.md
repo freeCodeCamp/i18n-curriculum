@@ -1,6 +1,6 @@
 ---
 id: 657fbde9a43e35ec1ebafe56
-title: Task 77
+title: タスク 77
 challengeType: 19
 dashedName: task-77
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --description--
 
-Listen to the audio and answer the question below.
+音声を聞いて、以下の質問に答えてください。
 
 # --questions--
 
 ## --text--
 
-What does the phrase `Would you like to come?` convey in this context?
+この文脈でのフレーズ `Would you like to come?` は何を伝えていますか？
 
 ## --answers--
 
-Declining an invitation.
+招待を断っている。
 
 ### --feedback--
 
-The phrase doesn't mean saying "no". It is about offering an invitation.
+このフレーズは「いいえ」と言っているわけではありません。招待を申し出ている内容です。
 
 ---
 
-Extending an invitation.
+招待をしている。
 
 ---
 
-Expressing gratitude.
+感謝の気持ちを表している。
 
 ### --feedback--
 
-The phrase doesn't mean "thank you". It is about inviting someone.
+このフレーズは「ありがとう」という意味ではありません。誰かを招待している内容です。
 
 ---
 
-Asking for information.
+情報を求めている。
 
 ### --feedback--
 
-The phrase isn't a question to get information, but a polite invitation to an event.
+このフレーズは情報を尋ねる質問ではなく、イベントへの丁寧な招待です。
 
 ## --video-solution--
 
