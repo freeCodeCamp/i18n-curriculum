@@ -9,7 +9,7 @@ dashedName: step-8
 
 Il conto è diviso, ma la divisione spesso produce numeri decimali lunghi. Poiché il denaro è solitamente rappresentato con due cifre decimali, dovresti arrotondare il risultato finale.
 
-Python fornisce una funzione integrata `round()` per questo. Prende due argomenti: il numero che vuoi arrotondare e il numero di cifre decimali da mantenere. Ecco un esempio:
+In una lezione precedente, hai imparato la funzione `round()` che prende due argomenti: il numero che vuoi arrotondare e il numero di cifre decimali da mantenere. Ecco un esempio:
 
 ```py
 num = 4.815162342
