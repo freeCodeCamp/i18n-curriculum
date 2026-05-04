@@ -9,7 +9,7 @@ dashedName: step-8
 
 A conta é dividida, mas a divisão frequentemente resulta em números decimais longos. Como o dinheiro normalmente é representado com duas casas decimais, você deve arredondar o resultado final.
 
-Python fornece uma `round()` função embutida para isso. Ela recebe dois argumentos: o número que você quer arredondar e o número de casas decimais a manter. Aqui está um exemplo:
+Em uma lição anterior, você aprendeu sobre a `round()` função que recebe dois argumentos: o número que você quer arredondar e o número de casas decimais a manter. Aqui está um exemplo:
 
 ```py
 num = 4.815162342

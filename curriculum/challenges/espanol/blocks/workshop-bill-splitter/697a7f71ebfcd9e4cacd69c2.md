@@ -9,14 +9,14 @@ dashedName: step-8
 
 La cuenta se divide, pero la división a menudo resulta en números decimales largos. Dado que el dinero generalmente se representa con dos decimales, debes redondear el resultado final.
 
-Python proporciona una `round()` función incorporada para esto. Toma dos argumentos: el número que quieres redondear y la cantidad de decimales que quieres conservar. Aquí tienes un ejemplo:
+En una lección anterior, aprendiste sobre la función `round()` que toma dos argumentos: el número que quieres redondear y la cantidad de decimales que quieres conservar. Aquí tienes un ejemplo:
 
 ```py
 num = 4.815162342
 round(num, 3) # 4.815
 ```
 
-Usa la `round()` función para redondear `final_bill` a dos decimales y asigna el resultado a una nueva variable llamada `each_pays`.
+Usa la función `round()` para redondear `final_bill` a dos decimales y asigna el resultado a una nueva variable llamada `each_pays`.
 
 Finalmente, usa `print()` para mostrar la cadena `Each person pays:` seguida de un espacio y tu variable `each_pays`.
 
