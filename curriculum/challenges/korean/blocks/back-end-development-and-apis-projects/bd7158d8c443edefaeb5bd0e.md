@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c443edefaeb5bd0e
-title: URL 단축 마이크로서비스
+title: URL Shortener Microservice
 challengeType: 4
 forumTopicId: 301509
 dashedName: url-shortener-microservice
@@ -19,7 +19,7 @@ dashedName: url-shortener-microservice
 
 # --hints--
 
-예시 URL이 아닌 직접 만든 프로젝트를 제출해야 합니다.
+자신만의 프로젝트를 제공해야 하며, 예시 URL을 사용하지 마세요.
 
 ```js
   assert(
@@ -67,16 +67,28 @@ dashedName: url-shortener-microservice
   } else {
     throw new Error(`${postResponse.status} ${postResponse.statusText}`);
   }
+  // Ensure a new URL is reached
   const getResponse = await fetch(
-    url + '/api/shorturl/' + shortenedUrlVariable
+    url + '/api/shorturl/' + shortenedUrlVariable, {redirect:'follow'}
   );
   if (getResponse) {
-    const { redirected, url } = getResponse;
-    assert.isTrue(redirected);
+    const { url } = getResponse; // status is always 200 for some reason
     assert.strictEqual(url,fullUrl);
   } else {
     throw new Error(`${getResponse.status} ${getResponse.statusText}`);
   }
+
+  // No more auto follow
+  const getManualResponse = await fetch(
+    url + '/api/shorturl/' + shortenedUrlVariable, {redirect:'manual'}
+  );
+  if (getManualResponse) {
+    const { status } = getManualResponse; // if a redirect happens, it won't reach the new resource
+    assert.strictEqual(status,0);
+  } else {
+    throw new Error(`${getManualResponse.status} ${getManualResponse.statusText}`);
+  }
+
 ```
 
 유효한 `http://www.example.com` 형식을 따르지 않는 잘못된 URL을 전달하면 JSON 응답에 `{ error: 'invalid url' }`가 포함됩니다.
@@ -96,3 +108,4 @@ dashedName: url-shortener-microservice
     throw new Error(`${res.status} ${res.statusText}`);
   }
 ```
+

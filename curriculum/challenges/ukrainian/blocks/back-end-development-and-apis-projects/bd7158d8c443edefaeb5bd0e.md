@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c443edefaeb5bd0e
-title: Мікросервіс скорочення URL
+title: URL Shortener Microservice
 challengeType: 4
 forumTopicId: 301509
 dashedName: url-shortener-microservice
@@ -19,7 +19,7 @@ dashedName: url-shortener-microservice
 
 # --hints--
 
-Ви повинні надати свій власний проєкт, а не приклад URL.
+Ви маєте надати власний проєкт, а не приклад за URL.
 
 ```js
   assert(
@@ -67,16 +67,28 @@ dashedName: url-shortener-microservice
   } else {
     throw new Error(`${postResponse.status} ${postResponse.statusText}`);
   }
+  // Ensure a new URL is reached
   const getResponse = await fetch(
-    url + '/api/shorturl/' + shortenedUrlVariable
+    url + '/api/shorturl/' + shortenedUrlVariable, {redirect:'follow'}
   );
   if (getResponse) {
-    const { redirected, url } = getResponse;
-    assert.isTrue(redirected);
+    const { url } = getResponse; // status is always 200 for some reason
     assert.strictEqual(url,fullUrl);
   } else {
     throw new Error(`${getResponse.status} ${getResponse.statusText}`);
   }
+
+  // No more auto follow
+  const getManualResponse = await fetch(
+    url + '/api/shorturl/' + shortenedUrlVariable, {redirect:'manual'}
+  );
+  if (getManualResponse) {
+    const { status } = getManualResponse; // if a redirect happens, it won't reach the new resource
+    assert.strictEqual(status,0);
+  } else {
+    throw new Error(`${getManualResponse.status} ${getManualResponse.statusText}`);
+  }
+
 ```
 
 Якщо ви передасте недійсний URL, який не відповідає правильному формату `http://www.example.com`, у JSON-відповіді буде міститися `{ error: 'invalid url' }`
@@ -96,3 +108,4 @@ dashedName: url-shortener-microservice
     throw new Error(`${res.status} ${res.statusText}`);
   }
 ```
+

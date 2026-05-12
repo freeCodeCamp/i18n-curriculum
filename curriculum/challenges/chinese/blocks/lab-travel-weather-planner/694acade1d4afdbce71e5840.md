@@ -1,6 +1,6 @@
 ---
 id: 694acade1d4afdbce71e5840
-title: 构建一个旅行天气规划器
+title: Build a Travel Weather Planner
 challengeType: 27
 dashedName: build-a-travel-weather-planner
 ---
@@ -10,6 +10,8 @@ dashedName: build-a-travel-weather-planner
 在本实验中，你将使用条件式语句来根据天气、旅行距离和车辆可用性判断是否可以通勤。
 
 **目标：**实现以下用户需求并通过所有测试以完成实验。
+
+**User Stories:**
 
 1. 你应该创建以下变量：
    * `distance_mi`（表示要行驶的英里数的数字）

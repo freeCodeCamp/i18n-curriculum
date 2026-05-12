@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c443edefaeb5bd0e
-title: URL 縮短器微服務
+title: URL Shortener Microservice
 challengeType: 4
 forumTopicId: 301509
 dashedName: url-shortener-microservice
@@ -19,7 +19,7 @@ dashedName: url-shortener-microservice
 
 # --hints--
 
-你應該提供你自己的專案，而不是範例 URL。
+將以下測試寫入 `tests/2_functional-tests.js`：
 
 ```js
   assert(
@@ -67,16 +67,28 @@ dashedName: url-shortener-microservice
   } else {
     throw new Error(`${postResponse.status} ${postResponse.statusText}`);
   }
+  // Ensure a new URL is reached
   const getResponse = await fetch(
-    url + '/api/shorturl/' + shortenedUrlVariable
+    url + '/api/shorturl/' + shortenedUrlVariable, {redirect:'follow'}
   );
   if (getResponse) {
-    const { redirected, url } = getResponse;
-    assert.isTrue(redirected);
+    const { url } = getResponse; // status is always 200 for some reason
     assert.strictEqual(url,fullUrl);
   } else {
     throw new Error(`${getResponse.status} ${getResponse.statusText}`);
   }
+
+  // No more auto follow
+  const getManualResponse = await fetch(
+    url + '/api/shorturl/' + shortenedUrlVariable, {redirect:'manual'}
+  );
+  if (getManualResponse) {
+    const { status } = getManualResponse; // if a redirect happens, it won't reach the new resource
+    assert.strictEqual(status,0);
+  } else {
+    throw new Error(`${getManualResponse.status} ${getManualResponse.statusText}`);
+  }
+
 ```
 
 如果你傳遞不符合有效 `http://www.example.com` 格式的無效 URL，JSON 回應將包含 `{ error: 'invalid url' }`

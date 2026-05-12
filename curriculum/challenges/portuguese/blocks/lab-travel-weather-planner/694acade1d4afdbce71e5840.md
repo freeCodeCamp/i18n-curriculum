@@ -1,6 +1,6 @@
 ---
 id: 694acade1d4afdbce71e5840
-title: Crie um Planejador de Clima para Viagens
+title: Build a Travel Weather Planner
 challengeType: 27
 dashedName: build-a-travel-weather-planner
 ---
@@ -10,6 +10,8 @@ dashedName: build-a-travel-weather-planner
 Para este laboratório, você usará declarações condicionais para determinar se o deslocamento é possível com base no clima, na distância a percorrer e na disponibilidade de um veículo.
 
 **Objetivo:** Cumprir as user stories abaixo e fazer todos os testes passarem para completar o laboratório.
+
+**User Stories:**
 
 1. Você deve criar as seguintes variáveis:
    * `distance_mi` (um número que representa a distância a percorrer em milhas)

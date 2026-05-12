@@ -1,6 +1,6 @@
 ---
 id: ae9defd7acaf69703ab432ea
-title: 範囲ベースのLCM計算機を実装する
+title: Implement a Range-Based LCM Calculator
 challengeType: 26
 dashedName: implement-a-range-based-lcm-calculator
 ---
@@ -11,7 +11,7 @@ dashedName: implement-a-range-based-lcm-calculator
 
 **目的**：以下のストーリーを満たし、すべてのテストに合格してラボを完了してください。
 
-**ストーリー**
+**User Stories:**
 
 1. `smallestCommons` 関数は、2つの数字の配列を引数として受け取る必要があります。
 1. `smallestCommons` 関数は、両方の数字とその間の連続したすべての数字で割り切れる最小の公倍数を返す必要があります。
@@ -31,31 +31,31 @@ assert.isFunction(smallestCommons);
 assert.isNumber(smallestCommons([1, 5]));
 ```
 
-`smallestCommons([1, 5])` は `60` を返す必要があります。
+`smallestCommons([1, 5])` should return `60`.
 
 ```js
 assert.strictEqual(smallestCommons([1, 5]), 60);
 ```
 
-`smallestCommons([5, 1])` は `60` を返す必要があります。
+`smallestCommons([5, 1])` should return `60`.
 
 ```js
 assert.strictEqual(smallestCommons([5, 1]), 60);
 ```
 
-`smallestCommons([2, 10])` は `2520` を返す必要があります。
+`smallestCommons([2, 10])` should return `2520`.
 
 ```js
 assert.strictEqual(smallestCommons([2, 10]), 2520);
 ```
 
-`smallestCommons([1, 13])` は `360360` を返す必要があります。
+`smallestCommons([1, 13])` should return `360360`.
 
 ```js
 assert.strictEqual(smallestCommons([1, 13]), 360360);
 ```
 
-`smallestCommons([23, 18])` は `6056820` を返す必要があります。
+`smallestCommons([23, 18])` should return `6056820`.
 
 ```js
 assert.strictEqual(smallestCommons([23, 18]), 6056820);

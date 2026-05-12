@@ -1,6 +1,6 @@
 ---
 id: ae9defd7acaf69703ab432ea
-title: 實作一個基於區間的 LCM 計算器
+title: Implement a Range-Based LCM Calculator
 challengeType: 26
 dashedName: implement-a-range-based-lcm-calculator
 ---
@@ -11,7 +11,7 @@ dashedName: implement-a-range-based-lcm-calculator
 
 **目標**：完成以下使用者故事並通過所有測試以完成實驗。
 
-**使用者故事**
+**User Stories:**
 
 1. 你應該有一個 `smallestCommons` 函式（程式），它接受一個包含兩個數字的陣列作為引數。
 1. `smallestCommons` 函式（程式）應該傳回能被兩個數字及它們之間所有連續數字整除的最小公倍數。
@@ -31,31 +31,31 @@ assert.isFunction(smallestCommons);
 assert.isNumber(smallestCommons([1, 5]));
 ```
 
-`smallestCommons([1, 5])` 應該傳回 `60`。
+`smallestCommons([1, 5])` should return `60`.
 
 ```js
 assert.strictEqual(smallestCommons([1, 5]), 60);
 ```
 
-`smallestCommons([5, 1])` 應該傳回 `60`。
+`smallestCommons([5, 1])` should return `60`.
 
 ```js
 assert.strictEqual(smallestCommons([5, 1]), 60);
 ```
 
-`smallestCommons([2, 10])` 應該傳回 `2520`。
+`smallestCommons([2, 10])` should return `2520`.
 
 ```js
 assert.strictEqual(smallestCommons([2, 10]), 2520);
 ```
 
-`smallestCommons([1, 13])` 應該傳回 `360360`。
+`smallestCommons([1, 13])` should return `360360`.
 
 ```js
 assert.strictEqual(smallestCommons([1, 13]), 360360);
 ```
 
-`smallestCommons([23, 18])` 應該傳回 `6056820`。
+`smallestCommons([23, 18])` should return `6056820`.
 
 ```js
 assert.strictEqual(smallestCommons([23, 18]), 6056820);

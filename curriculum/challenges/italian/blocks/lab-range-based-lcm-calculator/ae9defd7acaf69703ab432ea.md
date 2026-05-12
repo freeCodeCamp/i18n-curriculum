@@ -1,6 +1,6 @@
 ---
 id: ae9defd7acaf69703ab432ea
-title: implementare un calcolatore di mcm basato su un intervallo
+title: Implement a Range-Based LCM Calculator
 challengeType: 26
 dashedName: implement-a-range-based-lcm-calculator
 ---
@@ -11,7 +11,7 @@ In questo laboratorio, creerai una funzione che prende un array di due numeri e 
 
 **Obiettivo**: soddisfa le storie utente qui sotto e fai superare tutti i test per completare il laboratorio.
 
-**Storie utente**
+**User Stories:**
 
 1. Dovresti avere una funzione `smallestCommons` che accetta un array di due numeri come argomento.
 1. La funzione `smallestCommons` dovrebbe restituire il minimo comune multiplo che è divisibile senza resto sia per i due numeri sia per tutti i numeri sequenziali nell’intervallo tra di essi.
@@ -31,31 +31,31 @@ assert.isFunction(smallestCommons);
 assert.isNumber(smallestCommons([1, 5]));
 ```
 
-`smallestCommons([1, 5])` dovrebbe restituire `60`.
+`smallestCommons([1, 5])` should return `60`.
 
 ```js
 assert.strictEqual(smallestCommons([1, 5]), 60);
 ```
 
-`smallestCommons([5, 1])` dovrebbe restituire `60`.
+`smallestCommons([5, 1])` should return `60`.
 
 ```js
 assert.strictEqual(smallestCommons([5, 1]), 60);
 ```
 
-`smallestCommons([2, 10])` dovrebbe restituire `2520`.
+`smallestCommons([2, 10])` should return `2520`.
 
 ```js
 assert.strictEqual(smallestCommons([2, 10]), 2520);
 ```
 
-`smallestCommons([1, 13])` dovrebbe restituire `360360`.
+`smallestCommons([1, 13])` should return `360360`.
 
 ```js
 assert.strictEqual(smallestCommons([1, 13]), 360360);
 ```
 
-`smallestCommons([23, 18])` dovrebbe restituire `6056820`.
+`smallestCommons([23, 18])` should return `6056820`.
 
 ```js
 assert.strictEqual(smallestCommons([23, 18]), 6056820);

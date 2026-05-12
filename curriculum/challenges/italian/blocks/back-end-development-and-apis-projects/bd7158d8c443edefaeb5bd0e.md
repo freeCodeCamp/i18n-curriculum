@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c443edefaeb5bd0e
-title: Microservizio per accorciare URL
+title: URL Shortener Microservice
 challengeType: 4
 forumTopicId: 301509
 dashedName: url-shortener-microservice
@@ -67,16 +67,28 @@ Quando visiti `/api/shorturl/<short_url>`, verrai reindirizzato all'URL original
   } else {
     throw new Error(`${postResponse.status} ${postResponse.statusText}`);
   }
+  // Ensure a new URL is reached
   const getResponse = await fetch(
-    url + '/api/shorturl/' + shortenedUrlVariable
+    url + '/api/shorturl/' + shortenedUrlVariable, {redirect:'follow'}
   );
   if (getResponse) {
-    const { redirected, url } = getResponse;
-    assert.isTrue(redirected);
+    const { url } = getResponse; // status is always 200 for some reason
     assert.strictEqual(url,fullUrl);
   } else {
     throw new Error(`${getResponse.status} ${getResponse.statusText}`);
   }
+
+  // No more auto follow
+  const getManualResponse = await fetch(
+    url + '/api/shorturl/' + shortenedUrlVariable, {redirect:'manual'}
+  );
+  if (getManualResponse) {
+    const { status } = getManualResponse; // if a redirect happens, it won't reach the new resource
+    assert.strictEqual(status,0);
+  } else {
+    throw new Error(`${getManualResponse.status} ${getManualResponse.statusText}`);
+  }
+
 ```
 
 Se invii un URL non valido che non segue il formato `http://www.example.com` valido, la risposta JSON conterrà `{ error: 'invalid url' }`
@@ -96,3 +108,4 @@ Se invii un URL non valido che non segue il formato `http://www.example.com` val
     throw new Error(`${res.status} ${res.statusText}`);
   }
 ```
+
