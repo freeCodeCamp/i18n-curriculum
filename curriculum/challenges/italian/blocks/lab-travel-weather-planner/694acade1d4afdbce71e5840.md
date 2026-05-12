@@ -1,6 +1,6 @@
 ---
 id: 694acade1d4afdbce71e5840
-title: crea un pianificatore meteo per viaggi
+title: Build a Travel Weather Planner
 challengeType: 27
 dashedName: build-a-travel-weather-planner
 ---
@@ -9,7 +9,9 @@ dashedName: build-a-travel-weather-planner
 
 Per questo laboratorio, userai istruzioni condizionali per determinare se è possibile spostarsi in base al meteo, alla distanza da percorrere e alla disponibilità di un veicolo.
 
-**Obiettivo:** Completa le storie utente qui sotto e fai superare tutti i test per completare il laboratorio.
+**Obiettivo:** Completa le storie utente qui sotto e fai passare tutti i test per completare il laboratorio.
+
+**User Stories:**
 
 1. Dovresti creare le seguenti variabili:
    * `distance_mi` (un numero che rappresenta la distanza da percorrere in miglia)
@@ -29,7 +31,7 @@ Per questo laboratorio, userai istruzioni condizionali per determinare se è pos
    * Altrimenti, dovresti stampare `False`.
 1. Se la distanza è **maggiore di 6 miglia**:
    * Dovresti stampare `True` se la persona ha un’auto **o** ha un’app per il ride-share.
-   * Altrimenti, dovresti stampare `False`. 
+   * Altrimenti, dovresti stampare `False`.
 
 # --hints--
 
@@ -704,3 +706,4 @@ elif distance_mi <= 6:
 else:
     print(has_car or has_ride_share_app)
 ```
+

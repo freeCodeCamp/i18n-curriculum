@@ -1,6 +1,6 @@
 ---
 id: 694acade1d4afdbce71e5840
-title: 旅行の天気プランナーを作ろう
+title: Build a Travel Weather Planner
 challengeType: 27
 dashedName: build-a-travel-weather-planner
 ---
@@ -9,7 +9,9 @@ dashedName: build-a-travel-weather-planner
 
 このラボでは、天気、移動距離、車両の有無に基づいて通勤が可能かどうかを条件分岐で判断します。
 
-**目的:** 以下のユーザーストーリーを満たし、すべてのテストに合格してラボを完了してください。
+**目的：** 以下のユーザーストーリーを満たし、すべてのテストに合格してラボを完了してください。
+
+**User Stories:**
 
 1. 次の変数を作成してください：
    * `distance_mi`（移動距離をマイルで表す数値）
@@ -704,3 +706,4 @@ elif distance_mi <= 6:
 else:
     print(has_car or has_ride_share_app)
 ```
+

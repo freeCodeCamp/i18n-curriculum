@@ -1,6 +1,6 @@
 ---
 id: 694acade1d4afdbce71e5840
-title: 여행 날씨 계획표 만들기
+title: Build a Travel Weather Planner
 challengeType: 27
 dashedName: build-a-travel-weather-planner
 ---
@@ -9,7 +9,9 @@ dashedName: build-a-travel-weather-planner
 
 이 실습에서는 조건문을 사용해 날씨, 이동 거리, 차량 보유 여부에 따라 통근이 가능한지 판단합니다.
 
-**목표:** 아래 사용자 스토리를 충족하고 모든 테스트를 통과해 실습을 완료하세요.
+**목표:** 아래 사용자 스토리를 충족하고 모든 테스트를 통과하여 실습을 완료하세요.
+
+**User Stories:**
 
 1. 다음 변수를 만들어야 합니다:
    * `distance_mi` (이동 거리를 마일 단위로 나타내는 숫자)
@@ -704,3 +706,4 @@ elif distance_mi <= 6:
 else:
     print(has_car or has_ride_share_app)
 ```
+
