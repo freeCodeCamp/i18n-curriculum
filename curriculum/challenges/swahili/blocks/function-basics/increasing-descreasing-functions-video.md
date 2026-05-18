@@ -1,6 +1,6 @@
 ---
 id: 699e0333138be64fa313138a
-title: Increasing and Decreasing Functions
+title: Kitendakazi kinachoongezeka na kinapungua
 challengeType: 11
 videoId: GRYrrT_aQ1U
 dashedName: increasing-and-decreasing-functions
@@ -8,29 +8,29 @@ dashedName: increasing-and-decreasing-functions
 
 # --description--
 
-In this video, you will learn about increasing and decreasing functions on a graph.
+Katika video hii, utafundishwa kuhusu vitendakazi vinavyoongezeka na vinavyopungua kwenye mchoro wa grafu.
 
 # --questions--
 
 ## --text--
 
-What is an increasing function?
+Kitendakazi kinachoongezeka ni nini?
 
 ## --answers--
 
-This is where the x values are increasing and the y values are increasing.
+Hiki ndicho ambapo thamani za x zinaongezeka na thamani za y zinaongezeka pia.
 
 ---
 
-This is where the x values are increasing and the y values are decreasing.
+Hiki ndicho ambapo thamani za x zinaongezeka na thamani za y zinapungua.
 
 ---
 
-This is where the x values are decreasing and the y values are increasing.
+Hiki ndicho ambapo thamani za x zinapungua na thamani za y zinaongezeka.
 
 ---
 
-This is where the x values are decreasing and the y values are decreasing.
+Hiki ndicho ambapo thamani za x zinapungua na thamani za y zinapungua.
 
 ## --video-solution--
 

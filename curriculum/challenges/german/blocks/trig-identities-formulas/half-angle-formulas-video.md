@@ -1,6 +1,6 @@
 ---
 id: 699e783f8f18cf77dfce5c1d
-title: Half Angle Formulas
+title: Halbwinkel-Formeln
 challengeType: 11
 videoId: aJRfi6KrCcM
 dashedName: half-angle-formulas
@@ -8,13 +8,13 @@ dashedName: half-angle-formulas
 
 # --description--
 
-In this video, you will learn about half angle formulas.
+In diesem Video lernen Sie die Halbwinkel-Formeln kennen.
 
 # --questions--
 
 ## --text--
 
-What is the half angle formula for $\cos\left(\frac{\theta}{2}\right)$?
+Wie lautet die Halbwinkel-Formel für $\cos\left(\frac{\theta}{2}\right)$?
 
 ## --answers--
 

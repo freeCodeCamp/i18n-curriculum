@@ -1,6 +1,6 @@
 ---
 id: 04e25c4fdc9ee0e71a844fd6
-title: Reading Files
+title: Kusoma mafaili
 challengeType: 11
 videoId: enOW7u6LWyg
 dashedName: reading-files
@@ -8,29 +8,29 @@ dashedName: reading-files
 
 # --description--
 
-In this video, you will learn how to read files in Python and process their contents.
+Katika video hii, utafundishwa jinsi ya kusoma mafaili katika Python na kuchakata yaliyomo ndani yake.
 
 # --questions--
 
 ## --text--
 
-What is the role of the `"r"` in the `open()` function?
+Jukumu la `"r"` katika kitendakazi cha `open()` ni lipi?
 
 ## --answers--
 
-It specifies the range mode.
+Inabainisha hali ya anuwai.
 
 ---
 
-It specifies the rename mode.
+Inabainisha hali ya kubadilisha jina.
 
 ---
 
-It specifies the random access mode.
+Inabainisha hali ya upatikanaji wa nasibu.
 
 ---
 
-It specifies the read mode.
+Inabainisha hali ya kusoma.
 
 ## --video-solution--
 

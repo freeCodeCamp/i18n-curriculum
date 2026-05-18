@@ -1,24 +1,24 @@
 ---
 id: 645cd4eb6edf6e6f91acabbb
-title: Step 53
+title: Schritt 53
 challengeType: 0
 dashedName: step-53
 ---
 
 # --description--
 
-Now that `b()` has executed, pop it off the call stack. Then, update your mock call to `a()` to the following: `"a(): returns 'freeCodeCamp ' + 'is awesome!'"`.
+Nachdem `b()` ausgeführt wurde, entfernen Sie es vom Aufrufstapel. Aktualisieren Sie dann Ihren Mock-Aufruf von `a()` wie folgt: `"a(): returns 'freeCodeCamp ' + 'is awesome!'"`.
 
 # --hints--
 
-`callStack` should have one element that is a string.
+`callStack` sollte ein Element enthalten, das ein String ist.
 
 ```js
 assert.lengthOf(callStack, 1);
 assert.isString(callStack[0]);
 ```
 
-The string in `callStack` should be the string `"a(): returns 'freeCodeCamp ' + 'is awesome!'"`.
+Der String in `callStack` sollte der String `"a(): returns 'freeCodeCamp ' + 'is awesome!'"` sein.
 
 ```js
 assert.match(

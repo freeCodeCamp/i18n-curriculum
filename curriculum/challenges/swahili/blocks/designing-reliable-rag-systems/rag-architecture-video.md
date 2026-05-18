@@ -1,6 +1,6 @@
 ---
 id: 69ae6fd0b4a814be6a4f2be0
-title: RAG Architecture
+title: Mimarisha ya RAG
 challengeType: 11
 videoId: OVn_ykvG4LE
 dashedName: rag-architecture
@@ -8,13 +8,13 @@ dashedName: rag-architecture
 
 # --description--
 
-In this video, you will learn about the architecture of a RAG system.
+Katika video hii, utafundishwa kuhusu mimarisha ya mfumo wa RAG.
 
 # --questions--
 
 ## --text--
 
-Which of the following is the correct pipeline flow for a RAG system?
+Ni ipi kati ya zifuatazo ndiyo mtiririko sahihi wa mchakato kwa mfumo wa RAG?
 
 ## --answers--
 
@@ -35,5 +35,3 @@ Chunking → LLM → Vector Database → Embedding
 ## --video-solution--
 
 2
-
-

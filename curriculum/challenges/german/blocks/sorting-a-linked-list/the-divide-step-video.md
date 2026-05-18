@@ -1,6 +1,6 @@
 ---
 id: 698de6a07932b3cc4b19c93b
-title: The Divide Step
+title: Der Teilungsschritt
 challengeType: 11
 videoId: HW3cLmVfSw0
 dashedName: the-divide-step
@@ -8,29 +8,29 @@ dashedName: the-divide-step
 
 # --description--
 
-In this video, you will continue to learn how to implement the divide step of the merge sort algorithm on linked lists.
+In diesem Video lernen Sie weiter, wie Sie den Teilungsschritt des Merge-Sort-Algorithmus bei verketteten Listen implementieren.
 
 # --questions--
 
 ## --text--
 
-What is the point of the `split` function?
+Was ist der Zweck der `split`-Funktion?
 
 ## --answers--
 
-To select a pivot element for dividing the list.
+Um ein Pivot-Element auszuwählen, mit dem die Liste geteilt wird.
 
 ---
 
-To merge two sorted sublists into one list.
+Um zwei sortierte Teillisten zu einer Liste zusammenzuführen.
 
 ---
 
-To split the list into two halves without considering order.
+Um die Liste in zwei Hälften zu teilen, ohne die Reihenfolge zu berücksichtigen.
 
 ---
 
-To divide the unsorted list at the midpoint into sublists.
+Um die unsortierte Liste an der Mitte in Teillisten zu unterteilen.
 
 ## --video-solution--
 

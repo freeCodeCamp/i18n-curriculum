@@ -1,6 +1,6 @@
 ---
 id: 69870f1c238ffdbc99eedcda
-title: Task 2
+title: Aufgabe 2
 challengeType: 22
 dashedName: task-2
 lang: zh-CN
@@ -9,26 +9,26 @@ inputType: pinyin-to-hanzi
 
 # --description--
 
-You'll now practice writing a few numbers that are between 20 and 29. To complete this task, keep in mind that in Chinese, the number 20 is called `二十 (èr shí)`.
+Sie üben jetzt, einige Zahlen zwischen 20 und 29 zu schreiben. Um diese Aufgabe zu erfüllen, bedenken Sie, dass die Zahl 20 auf Chinesisch `二十 (èr shí)` genannt wird.
 
-Also, the numbers from 0 to 9 are:
+Außerdem sind die Zahlen von 0 bis 9:
 
-| Number | Chinese    |
-|:------ |:---------- |
-| 0      | `零 (líng)` |
-| 1      | `一 (yī)`   |
-| 2      | `二 (èr)`   |
-| 3      | `三 (sān)`  |
-| 4      | `四 (sì)`   |
-| 5      | `五 (wǔ)`   |
-| 6      | `六 (liù)`  |
-| 7      | `七 (qī)`   |
-| 8      | `八 (bā)`   |
-| 9      | `九 (jiǔ)`  |
+| Zahl | Chinesisch |
+| :--- | :--- |
+| 0 | `零 (líng)` |
+| 1 | `一 (yī)` |
+| 2 | `二 (èr)` |
+| 3 | `三 (sān)` |
+| 4 | `四 (sì)` |
+| 5 | `五 (wǔ)` |
+| 6 | `六 (liù)` |
+| 7 | `七 (qī)` |
+| 8 | `八 (bā)` |
+| 9 | `九 (jiǔ)` |
 
 # --instructions--
 
-This task doesn't have audio. Complete the blanks below with the corresponding numbers in Chinese.
+Diese Aufgabe hat keinen Ton. Füllen Sie die Lücken unten mit den entsprechenden Zahlen auf Chinesisch aus.
 
 # --fillInTheBlank--
 
@@ -46,7 +46,7 @@ This task doesn't have audio. Complete the blanks below with the corresponding n
 
 ### --feedback--
 
-This number in Chinese is formed by adding `一 (yī)` after `二十 (shí)`.
+Diese Zahl auf Chinesisch wird gebildet, indem `一 (yī)` nach `二十 (shí)` hinzugefügt wird.
 
 ---
 
@@ -54,7 +54,7 @@ This number in Chinese is formed by adding `一 (yī)` after `二十 (shí)`.
 
 ### --feedback--
 
-This number in Chinese is formed by adding `五 (wǔ)` after `二十 (shí)`.
+Diese Zahl auf Chinesisch wird gebildet, indem `五 (wǔ)` nach `二十 (shí)` hinzugefügt wird.
 
 ---
 
@@ -62,16 +62,16 @@ This number in Chinese is formed by adding `五 (wǔ)` after `二十 (shí)`.
 
 ### --feedback--
 
-This number in Chinese is formed by adding `九 (jiǔ)` after `二十 (shí)`.
+Diese Zahl auf Chinesisch wird gebildet, indem `九 (jiǔ)` nach `二十 (shí)` hinzugefügt wird.
 
 # --explanation--
 
-The numbers are:
+Die Zahlen sind:
 
-`二十一 (èr shí yī)` - 21
+`二十一 (èr shí yī)` – 21
 
-`二十五 (èr shí wǔ)` - 25
+`二十五 (èr shí wǔ)` – 25
 
-`二十九 (èr shí jiǔ)` - 29
+`二十九 (èr shí jiǔ)` – 29
 
-They are formed by adding the Chinese for 1, 5 and 9 after `二十 (èr shí)` (20).
+Sie werden gebildet, indem das Chinesische für 1, 5 und 9 nach `二十 (èr shí)` (20) hinzugefügt wird.

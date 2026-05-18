@@ -1,6 +1,6 @@
 ---
 id: 58d5d031e969765037c1bebb
-title: Functions
+title: Kitendakazi
 challengeType: 11
 videoId: QN3UNoJVS9g
 dashedName: functions
@@ -8,13 +8,13 @@ dashedName: functions
 
 # --description--
 
-In this video, you will learn how to define and call a function.
+Katika video hii, utafundishwa jinsi ya kufafanua na kuita kitendakazi. 
 
 # --questions--
 
 ## --text--
 
-Which of the following is the correct way to call a function?
+Ni ipi kati ya zifuatazo njia sahihi ya kuita kitendakazi?
 
 ## --answers--
 

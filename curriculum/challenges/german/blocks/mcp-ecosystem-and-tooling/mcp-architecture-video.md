@@ -1,6 +1,6 @@
 ---
 id: 69ae7672b4a814be6a4f2be5
-title: MCP Architecture
+title: MCP-Architektur
 challengeType: 11
 videoId: i0sJXMyGLQY
 dashedName: mcp-architecture
@@ -8,29 +8,29 @@ dashedName: mcp-architecture
 
 # --description--
 
-In this video, you will learn about the architecture of MCP.
+In diesem Video lernen Sie die Architektur von MCP kennen.
 
 # --questions--
 
 ## --text--
 
-What is the resources portion of an MCP server used for?
+Wofür wird der Ressourcenbereich eines MCP-Servers verwendet?
 
 ## --answers--
 
-This is used to run the LLMs and process AI queries in real time.
+Dieser Bereich wird genutzt, um die LLMs auszuführen und KI-Anfragen in Echtzeit zu verarbeiten.
 
 ---
 
-This portion handles network connections and user authentication for the server.
+Dieser Bereich kümmert sich um Netzwerkverbindungen und die Authentifizierung der Benutzer für den Server.
 
 ---
 
-This is used to monitor server performance and generate system logs.
+Dieser Bereich wird verwendet, um die Serverleistung zu überwachen und Systemprotokolle zu erstellen.
 
 ---
 
-This is used for storing and managing the assets or data that AI applications can access.
+Dieser Bereich dient zur Speicherung und Verwaltung der Assets oder Daten, auf die KI-Anwendungen zugreifen können.
 
 ## --video-solution--
 

@@ -1,6 +1,6 @@
 ---
 id: 698dce727932b3cc4b19c928
-title: Recursive Binary Search
+title: Utafutaji wa Binary wa Kurudia
 challengeType: 11
 videoId: RQNBzDoG_gA
 dashedName: recursive-binary-search
@@ -8,29 +8,29 @@ dashedName: recursive-binary-search
 
 # --description--
 
-In this video, you will learn how to create a recursive solution for binary search.
+Katika video hii, utafundishwa jinsi ya kuunda suluhisho la kurudia kwa ajili ya utafutaji wa binary.
 
 # --questions--
 
 ## --text--
 
-What is a recursive function?
+Kitendakazi cha kurudia ni nini?
 
 ## --answers--
 
-A function that performs a calculation only once.
+Kitendakazi kinachofanya hesabu mara moja tu.
 
 ---
 
-A function that calls itself.
+Kitendakazi kinachojita wito.
 
 ---
 
-A function that never returns a value.
+Kitendakazi ambacho hakirudishi thamani yoyote.
 
 ---
 
-A function that can only run in a loop.
+Kitendakazi kinachoweza kuendeshwa tu katika mzunguko.
 
 ## --video-solution--
 

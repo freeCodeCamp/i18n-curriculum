@@ -1,6 +1,6 @@
 ---
 id: 67d2f4ddb4a4306fdf5bbaee
-title: "O que é Memoization e Como o Hook `useMemo` Funciona?"
+title: "O que é memoization e como o hook `useMemo` funciona?"
 challengeType: 19
 dashedName: what-is-memoization-and-how-does-the-usememo-hook-work
 ---
@@ -124,9 +124,7 @@ function ExpensiveSquare({ num }) {
 export default ExpensiveSquare;
 ```
 
-Isso garantirá que a função seja memorizada armazenando em cache o resultado, para que o cálculo aconteça apenas quando a variável `num` mudar, não quando qualquer coisa mudar no componente em que está sendo usada.
-
-A chamada da função `calculateSquare` não está mais sendo executada toda vez que `timer` muda, apenas na renderização inicial e quando `num` muda.
+Isso garantirá que a função seja memorizada armazenando em cache o resultado. Mesmo que o componente `ExpensiveSquare` ainda seja re-renderizado toda vez que o estado `timer` do componente pai for atualizado, o cálculo da função `calculateSquare` só será executado novamente na renderização inicial e quando `num` mudar.
 
 # --questions--
 

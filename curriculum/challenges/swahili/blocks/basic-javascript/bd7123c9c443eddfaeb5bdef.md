@@ -1,6 +1,6 @@
 ---
 id: bd7123c9c443eddfaeb5bdef
-title: Declare JavaScript Variables
+title: Tangaza vigezo vya JavaScript
 challengeType: 1
 forumTopicId: 17556
 dashedName: declare-javascript-variables
@@ -8,32 +8,32 @@ dashedName: declare-javascript-variables
 
 # --description--
 
-In computer science, <dfn>data</dfn> is anything that is meaningful to the computer. JavaScript provides eight different <dfn>data types</dfn> which are `undefined`, `null`, `boolean`, `string`, `symbol`, `bigint`, `number`, and `object`.
+Katika sayansi ya kompyuta, <dfn>data</dfn> ni chochote chenye maana kwa kompyuta. JavaScript hutoa aina nane tofauti za <dfn>data</dfn> ambazo ni `undefined`, `null`, `boolean`, `string`, `symbol`, `bigint`, `number`, na `object`.
 
-For example, computers distinguish between numbers, such as the number `12`, and `strings`, such as `"12"`, `"dog"`, or `"123 cats"`, which are collections of characters. Computers can perform mathematical operations on a number, but not on a string.
+Kwa mfano, kompyuta hutofautisha kati ya nambari, kama nambari `12`, na `strings`, kama `"12"`, `"dog"`, au `"123 cats"`, ambazo ni makusanyo ya herufi. Kompyuta zinaweza kufanya operesheni za kihesabu kwa nambari, lakini si kwa mfuatano wa herufi.
 
-<dfn>Variables</dfn> allow computers to store and manipulate data in a dynamic fashion. They do this by using a "label" to point to the data rather than using the data itself. Any of the eight data types may be stored in a variable.
+<dfn>Vigezo</dfn> huruhusu kompyuta kuhifadhi na kushughulikia data kwa njia inayobadilika. Hufanya hivi kwa kutumia "lebo" kuonyesha data badala ya kutumia data yenyewe. Aina yoyote kati ya aina nane za data inaweza kuhifadhiwa katika kigezo.
 
-Variables are similar to the x and y variables you use in mathematics, which means they're a simple name to represent the data we want to refer to. Computer variables differ from mathematical variables in that they can store different values at different times.
+Vigezo ni sawa na vigezo x na y unavyotumia katika hisabati, ambayo ina maana ni jina rahisi la kuwakilisha data tunayotaka kurejelea. Vigezo vya kompyuta hutofautiana na vigezo vya hisabati kwa kuwa vinaweza kuhifadhi thamani tofauti wakati tofauti.
 
-We tell JavaScript to create or <dfn>declare</dfn> a variable by putting the keyword `var` in front of it, like so:
+Tunaambia JavaScript kuunda au <dfn>kutangaza</dfn> kigezo kwa kuweka neno kuu `var` mbele yake, kama ifuatavyo:
 
 ```js
 var ourName;
 ```
 
-creates a variable called `ourName`. In JavaScript we end statements with semicolons. Variable names can be made up of numbers, letters, and `$` or `_`, but may not contain spaces or start with a number.
+huunda kigezo kinachoitwa `ourName`. Katika JavaScript tunamaliza sentensi kwa alama ya nukta mbili. Majina ya vigezo yanaweza kujumuisha nambari, herufi, na `$` au `_`, lakini hayawezi kuwa na nafasi au kuanza na nambari.
 
 # --instructions--
 
-Use the `var` keyword to create a variable called `myName`.
+Tumia neno kuu la `var` kuunda kigezo kinachoitwa `myName`.
 
-**Hint**  
-Look at the `ourName` example above if you get stuck.
+**Kibali**  
+Tazama mfano wa `ourName` hapo juu ikiwa utakumbwa na shida.
 
 # --hints--
 
-You should declare `myName` with the `var` keyword, ending with a semicolon
+Unapaswa kutangaza `myName` kwa neno kuu la `var`, ukimaliza kwa alama ya nukta mbili
 
 ```js
 assert(/var\s+myName\s*;/.test(__helpers.removeJSComments(code)));

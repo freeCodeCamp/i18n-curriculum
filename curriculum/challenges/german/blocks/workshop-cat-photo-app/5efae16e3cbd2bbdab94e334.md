@@ -1,35 +1,35 @@
 ---
 id: 5efae16e3cbd2bbdab94e334
-title: Schritt 33
+title: Step 33
 challengeType: 0
 dashedName: step-33
 ---
 
 # --description--
 
-Füge nach dem letzten `img`-Element ein `figcaption`-Element mit dem Text `Cats hate other cats.` hinzu
+Fügen Sie nach dem letzten `img`-Element ein `figcaption`-Element mit dem Text `Cats hate other cats.` hinzu.
 
 # --hints--
 
-Dein `figcaption`-Element sollte ein öffnendes Tag haben. Öffnende Tags haben die folgende Syntax: `<elementName>`.
+Ihr `figcaption`-Element sollte ein öffnendes Tag haben. Öffnende Tags haben folgende Syntax: `<elementName>`.
 
 ```js
 assert.lengthOf(document.querySelectorAll('figcaption'), 2);
 ```
 
-Dein `figcaption`-Element sollte ein schließendes Tag haben. Closing tags have a `/` just after the `<` character.
+Ihr `figcaption`-Element sollte ein schließendes Tag haben. Schließende Tags haben ein `/` direkt nach dem `<`-Zeichen.
 
 ```js
 assert.lengthOf(code.match(/<\/figcaption\>/g), 2);
 ```
 
-Genau über dem abschließenden Tag des zweiten `section`-Elements sollte ein `figure`-Element stehen.
+Es sollte ein `figure`-Element direkt über dem schließenden Tag des zweiten `section`-Elements stehen.
 
 ```js
 assert.equal(document.querySelectorAll('main > section')[1]?.lastElementChild.nodeName, 'FIGURE');
 ```
 
-Das letzte `img`-Element sollte im `figure`-Element eingebettet sein.
+Das letzte `img`-Element sollte im `figure`-Element verschachtelt sein.
 
 ```js
 const catsImg = document.querySelectorAll('figure > img')[1];
@@ -38,25 +38,25 @@ assert.equal(
 );
 ```
 
-Dein `figure`-Element sollte ein öffnendes Tag haben. Öffnende Tags haben die folgende Syntax: `<elementName>`.
+Ihr `figure`-Element sollte ein öffnendes Tag haben. Öffnende Tags haben folgende Syntax: `<elementName>`.
 
 ```js
 assert.lengthOf(document.querySelectorAll('figure'), 2);
 ```
 
-Dein `figure`-Element sollte ein schließendes Tag haben. Closing tags have a `/` just after the `<` character.
+Ihr `figure`-Element sollte ein schließendes Tag haben. Schließende Tags haben ein `/` direkt nach dem `<`-Zeichen.
 
 ```js
 assert.lengthOf(code.match(/<\/figure\>/g), 2);
 ```
 
-Das `figcaption`-Element sollte im `figure`-Element eingebettet sein.
+Das `figcaption`-Element sollte im `figure`-Element verschachtelt sein.
 
 ```js
 assert.lengthOf(document.querySelectorAll('figure > figcaption'), 2);
 ```
 
-Das `figcaption`-Element, das im `figure`-Element eingebettet wurde, sollte über dem `img`-Element sein. Das `img`-Element und das `figcaption`-Element sind in der falschen Reihenfolge.
+Das `figcaption`-Element, verschachtelt im `figure`-Element, sollte unter dem `img`-Element stehen. Sie haben das `img`-Element und das `figcaption`-Element in der falschen Reihenfolge.
 
 ```js
 assert.equal(
@@ -65,7 +65,7 @@ assert.equal(
 );
 ```
 
-Das `figcaption`-Element sollte den Text `Cats hate other cats.` haben. Du hast ein Wort vergessen, oder einen Tippfehler.
+Das `figcaption`-Element sollte den Text `Cats hate other cats.` haben. Sie haben ein Wort ausgelassen oder einen Tippfehler gemacht.
 
 ```js
 assert.match(
@@ -112,7 +112,7 @@ assert.match(
         <figure>
           <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" alt="Two tabby kittens sleeping together on a couch.">
 --fcc-editable-region--
-
+          
 --fcc-editable-region--
         </figure>
       </section>

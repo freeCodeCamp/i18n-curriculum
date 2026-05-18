@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c443edefaeb5bd0e
-title: URL Shortener Microservice
+title: Huduma ndogo ya kufupisha URL
 challengeType: 4
 forumTopicId: 301509
 dashedName: url-shortener-microservice
@@ -8,18 +8,18 @@ dashedName: url-shortener-microservice
 
 # --description--
 
-Build a full-stack JavaScript app that is functionally similar to this: <a href="https://url-shortener-microservice.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://url-shortener-microservice.freecodecamp.rocks</a>. Working on this project will involve you writing your code using one of the following methods:
+Jenga programu ya JavaScript ya upande wa mteja na seva inayofanana kiutendaji na hii: <a href="https://url-shortener-microservice.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://url-shortener-microservice.freecodecamp.rocks</a>. Kufanya kazi kwenye mradi huu kutahusisha kuandika msimbo wako kwa kutumia mojawapo ya njia zifuatazo:
 
--   Clone <a href="https://github.com/freeCodeCamp/boilerplate-project-urlshortener/" target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete your project locally.
--   Use a site builder of your choice to complete the project. Be sure to incorporate all the files from our GitHub repo.
+-   Nakili <a href="https://github.com/freeCodeCamp/boilerplate-project-urlshortener/" target="_blank" rel="noopener noreferrer nofollow">hii repo ya GitHub</a> na ukamilishe mradi wako kwa ndani ya kompyuta yako.
+-   Tumia mtengenezaji wa tovuti unayempenda kukamilisha mradi. Hakikisha unajumuisha mafaili yote kutoka kwenye repo yetu ya GitHub.
 
 # --instructions--
 
-**HINT:** Do not forget to use a body parsing middleware to handle the POST requests. Also, you can use the function `dns.lookup(host, cb)` from the `dns` core module to verify a submitted URL.
+**KUNYONYESHA:** Usisahau kutumia programu ya kati ya kuchambua mwili wa ombi ili kushughulikia maombi ya POST. Pia, unaweza kutumia kitendakazi `dns.lookup(host, cb)` kutoka kwenye moduli kuu ya `dns` kuthibitisha URL iliyowasilishwa.
 
 # --hints--
 
-You should provide your own project, not the example URL.
+Unapaswa kutoa mradi wako mwenyewe, si URL ya mfano.
 
 ```js
   assert(
@@ -29,7 +29,7 @@ You should provide your own project, not the example URL.
   );
 ```
 
-You can POST a URL to `/api/shorturl` and get a JSON response with `original_url` and `short_url` properties. Here's an example: `{ original_url : 'https://freeCodeCamp.org', short_url : 1}`
+Unaweza kutuma URL kwa `/api/shorturl` kwa njia ya POST na upate jibu la JSON lenye vigezo `original_url` na `short_url`. Hapa kuna mfano: `{ original_url : 'https://freeCodeCamp.org', short_url : 1}`
 
 ```js
   const url = code;
@@ -49,7 +49,7 @@ You can POST a URL to `/api/shorturl` and get a JSON response with `original_url
   }
 ```
 
-When you visit `/api/shorturl/<short_url>`, you will be redirected to the original URL.
+Unapotembelea `/api/shorturl/<short_url>`, utaelekezwa upya kwa URL halisi.
 
 ```js
   const url = code;
@@ -91,7 +91,7 @@ When you visit `/api/shorturl/<short_url>`, you will be redirected to the origin
 
 ```
 
-If you pass an invalid URL that doesn't follow the valid `http://www.example.com` format, the JSON response will contain `{ error: 'invalid url' }`
+Ikiwa utapita URL isiyo halali ambayo haifuati muundo halali wa `http://www.example.com`, jibu la JSON litakuwa na `{ error: 'invalid url' }`
 
 ```js
   const url = code;
@@ -108,4 +108,3 @@ If you pass an invalid URL that doesn't follow the valid `http://www.example.com
     throw new Error(`${res.status} ${res.statusText}`);
   }
 ```
-

@@ -1,6 +1,6 @@
 ---
 id: 698dd0707932b3cc4b19c92b
-title: Recap for Algorithms in Code
+title: Rückblick auf Algorithmen im Code
 challengeType: 11
 videoId: paBfWYrScAg
 dashedName: recap-algorithms-in-code
@@ -8,29 +8,29 @@ dashedName: recap-algorithms-in-code
 
 # --description--
 
-In this video, you will review the key concepts taught so far including algorithmic thinking, and Big O notation.
+In diesem Video überprüfen Sie die bisher behandelten Schlüsselkonzepte, darunter algorithmisches Denken und die Big-O-Notation.
 
 # --questions--
 
 ## --text--
 
-Which of the following should be true when it comes to algorithms?
+Welche der folgenden Aussagen sollte im Zusammenhang mit Algorithmen zutreffen?
 
 ## --answers--
 
-It should always use the maximum amount of memory available.
+Er sollte immer die maximal verfügbare Menge an Speicher verwenden.
 
 ---
 
-It should never repeat any steps, even if needed.
+Er sollte niemals Schritte wiederholen, auch wenn es nötig ist.
 
 ---
 
-It should finish in a finite amount of time.
+Er sollte in endlicher Zeit fertig werden.
 
 ---
 
-It should produce random results each time it runs.
+Er sollte jedes Mal, wenn er ausgeführt wird, zufällige Ergebnisse liefern.
 
 ## --video-solution--
 

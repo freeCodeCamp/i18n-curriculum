@@ -1,6 +1,6 @@
 ---
 id: 698dc59b7932b3cc4b19c921
-title: Constant and Logarithmic Time
+title: Konstante und logarithmische Zeit 
 challengeType: 11
 videoId: KOMvBi-DabE
 dashedName: constant-and-logarithmic-time
@@ -8,13 +8,13 @@ dashedName: constant-and-logarithmic-time
 
 # --description--
 
-In this video, you will learn about constant and logarithmic times for algorithms.
+In diesem Video lernen Sie konstante und logarithmische Zeiten für Algorithmen kennen.
 
 # --questions--
 
 ## --text--
 
-Which of the following is the correct way to represent constant time in Big O notation?
+Welche der folgenden Darstellungen ist die korrekte Art, konstante Zeit in der Big-O-Notation darzustellen?
 
 ## --answers--
 

@@ -1,6 +1,6 @@
 ---
 id: 69ae6fd7b4a814be6a4f2be1
-title: Caching, Monitoring, and Error Handling
+title: "Kuhifadhi, Kufuatilia, na Kushughulikia Makosa"
 challengeType: 11
 videoId: J0D7kfBORL8
 dashedName: caching-monitoring-and-error-handling
@@ -8,13 +8,13 @@ dashedName: caching-monitoring-and-error-handling
 
 # --description--
 
-In this video, you will learn about the importance of caching, monitoring, and error handling in RAG systems.
+Katika video hii, utafundishwa kuhusu umuhimu wa kuhifadhi, kufuatilia, na kushughulikia makosa katika mifumo ya RAG.
 
 # --questions--
 
 ## --text--
 
-Which of the following is NOT a common metric used for monitoring RAG systems?
+Ni ipi kati ya zifuatazo SIyo kipimo cha kawaida kinachotumika kufuatilia mifumo ya RAG?
 
 ## --answers--
 
@@ -35,5 +35,3 @@ Throughput
 ## --video-solution--
 
 2
-
-

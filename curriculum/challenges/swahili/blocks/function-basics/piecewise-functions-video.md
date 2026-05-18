@@ -1,6 +1,6 @@
 ---
 id: 699e0353138be64fa313138f
-title: Piecewise Functions
+title: Kitendakazi cha vipande-vipande
 challengeType: 11
 videoId: C9hCmH9nj4o
 dashedName: piecewise-functions
@@ -8,29 +8,29 @@ dashedName: piecewise-functions
 
 # --description--
 
-In this video, you will learn about piecewise functions.
+Katika video hii, utafundishwa kuhusu kitendakazi cha vipande-vipande.
 
 # --questions--
 
 ## --text--
 
-What is a piecewise function?
+Kitendakazi cha vipande-vipande ni nini?
 
 ## --answers--
 
-A function that is defined by multiple sub-functions on the y-axis.
+Kitendakazi kinachofafanuliwa na vitendakazi vidogo vingi kwenye mhimili wa y.
 
 ---
 
-A function that is defined by a single formula for all values of x.
+Kitendakazi kinachofafanuliwa na fomula moja kwa thamani zote za x.
 
 ---
 
-A function that is defined by the x and y values of a set of points.
+Kitendakazi kinachofafanuliwa na thamani za x na y za seti ya pointi.
 
 ---
 
-A function that is defined by multiple sub-functions.
+Kitendakazi kinachofafanuliwa na vitendakazi vidogo vingi.
 
 ## --video-solution--
 

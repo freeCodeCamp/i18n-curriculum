@@ -1,17 +1,17 @@
 ---
 id: 6920dae65fb8bb6949bcdaba
-title: Step 4
+title: Schritt 4
 challengeType: 1
 dashedName: step-4
 ---
 
 # --description--
 
-To see how the loop inside `printCharacters` behaves, call it with the argument `"hello"`.
+Um zu sehen, wie die Schleife innerhalb von `printCharacters` funktioniert, rufen Sie sie mit dem Argument `"hello"` auf.
 
 # --hints--
 
-You should call the function `printCharacters` with `"hello"` as its argument.
+Sie sollten die Funktion `printCharacters` mit `"hello"` als Argument aufrufen.
 
 ```js
 const codeWithoutJSComments = __helpers.removeJSComments(code);

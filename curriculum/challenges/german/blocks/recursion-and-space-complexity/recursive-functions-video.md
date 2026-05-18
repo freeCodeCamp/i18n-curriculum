@@ -1,6 +1,6 @@
 ---
 id: 698dcf297932b3cc4b19c929
-title: Recursive Functions
+title: Rekursive Funktionen
 challengeType: 11
 videoId: nRK4wRqKe1k
 dashedName: recursive-functions
@@ -8,29 +8,29 @@ dashedName: recursive-functions
 
 # --description--
 
-In this video, you will learn about recursion.
+In diesem Video lernen Sie etwas über Rekursion.
 
 # --questions--
 
 ## --text--
 
-What is an important aspect that all recursive functions should have?
+Was ist ein wichtiger Aspekt, den alle rekursiven Funktionen haben sollten?
 
 ## --answers--
 
-They must run in a loop indefinitely.
+Sie müssen in einer Endlosschleife laufen.
 
 ---
 
-They must not use any variables.
+Sie dürfen keine Variablen verwenden.
 
 ---
 
-A base case.
+Ein Basisfall.
 
 ---
 
-They must always print output.
+Sie müssen immer eine Ausgabe ausgeben.
 
 ## --video-solution--
 

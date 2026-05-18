@@ -1,15 +1,15 @@
 ---
 id: 644a0eadcbccaf1d13c7d137
-title: Step 19
+title: Schritt 19
 challengeType: 0
 dashedName: step-19
 ---
 
 # --description--
 
-In the base-2 number system, the rightmost digit represents the ones place, the next digit to the left represents the twos place, then the fours place, then the eights place, and so on. In this system, each digit's place value is two times greater than the digit to its right.
+Im Zahlensystem zur Basis 2 stellt die ganz rechts stehende Ziffer die Einerstelle dar, die nächste Ziffer links davon die Zweierstelle, dann die Viererstelle, dann die Achterstelle und so weiter. In diesem System ist der Stellenwert jeder Ziffer doppelt so groß wie der der Ziffer rechts von ihr.
 
-Here are numbers zero to nine in the base-10 and base-2 number systems:
+Hier sind die Zahlen von null bis neun im Dezimal- und Binärsystem:
 
 ```md
 | Base-10 | Base-2 |
@@ -26,25 +26,25 @@ Here are numbers zero to nine in the base-10 and base-2 number systems:
 |    9    |  1001  |
 ```
 
-Notice that binary numbers are formed from left to right, from the digit with the greatest place value on the left, to the least significant on the right. For example, the number `3` in binary is `11`, or `1` in the twos place and `1` in the ones place. Then for the number `4`, a digit to represent the fours place is included on the left and set to `1`, the twos place is `0`, and the ones place is `0`.
+Beachten Sie, dass Binärzahlen von links nach rechts gebildet werden, von der Ziffer mit dem größten Stellenwert links bis zur Ziffer mit dem geringsten Stellenwert rechts. Zum Beispiel ist die Zahl `3` im Binärsystem `11`, oder `1` an der Zweierstelle und `1` an der Einerstelle. Für die Zahl `4` wird dann eine Ziffer für die Viererstelle links hinzugefügt und auf `1` gesetzt, die Zweierstelle ist `0` und die Einerstelle `0`.
 
-In your `decimalToBinary` function, convert the number `10` into binary and `return` it as a string.
+Konvertieren Sie in Ihrer `decimalToBinary`-Funktion die Zahl `10` in eine Binärzahl und `return` Sie als String.
 
 # --hints--
 
-Your `decimalToBinary` function should return a string.
+Ihre `decimalToBinary`-Funktion sollte einen String zurückgeben.
 
 ```js
 assert.isString(decimalToBinary());
 ```
 
-Your `decimalToBinary` function should return a string with a length of `4`.
+Ihre `decimalToBinary`-Funktion sollte einen String mit einer Länge von `4` zurückgeben.
 
 ```js
 assert.strictEqual(decimalToBinary().length, 4);
 ```
 
-Your `decimalToBinary` function should return `"1010"` as a string.
+Ihre `decimalToBinary`-Funktion sollte `"1010"` als String zurückgeben.
 
 ```js
 assert.strictEqual(decimalToBinary(), '1010');

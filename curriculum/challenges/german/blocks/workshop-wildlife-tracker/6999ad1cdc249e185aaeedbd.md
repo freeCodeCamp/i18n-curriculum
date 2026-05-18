@@ -1,15 +1,15 @@
 ---
 id: 6999ad1cdc249e185aaeedbd
-title: Step 8
+title: Schritt 8
 challengeType: 1
 dashedName: step-8
 ---
 
 # --description--
 
-In this step, you will create a function that adds a new property to an object.
+In diesem Schritt erstellen Sie eine Funktion, die einem Objekt eine neue Eigenschaft hinzufügt.
 
-Here is an example of adding a property inside a function:
+Hier ist ein Beispiel, wie man innerhalb einer Funktion eine Eigenschaft hinzufügt:
 
 ```js
 const cat = {
@@ -28,38 +28,38 @@ console.log(addColor(cat, "White"));
 // }
 ```
 
-In this example, the `color` property is added to the `cat` object.
+In diesem Beispiel wird die Eigenschaft `color` zum Objekt `cat` hinzugefügt.
 
-Now create a function called `addHabitat`. The function should take two parameters: `animal` and `habitat`.
+Erstellen Sie nun eine Funktion namens `addHabitat`. Die Funktion soll zwei Parameter haben: `animal` und `habitat`.
 
-Inside the function, add a new property called `habitat` to the `animal` object. Set its value equal to the `habitat` parameter.
+Fügen Sie innerhalb der Funktion dem Objekt `habitat` eine neue Eigenschaft namens `animal` hinzu. Setzen Sie ihren Wert auf den Parameter `habitat`.
 
-Return the updated `animal` object.
+Geben Sie das aktualisierte Objekt `animal` zurück.
 
-After creating the function, use `console.log` to call `addHabitat(tiger, "Rainforest")` so you can see the updated `tiger` object in the console.
+Nachdem Sie die Funktion erstellt haben, verwenden Sie `console.log`, um `addHabitat(tiger, "Rainforest")` aufzurufen, damit Sie das aktualisierte Objekt `tiger` in der Konsole sehen können.
 
 # --hints--
 
-You should create a function named `addHabitat`.
+Sie sollten eine Funktion mit dem Namen `addHabitat` erstellen.
 
 ```js
 assert.isFunction(addHabitat);
 ```
 
-The `addHabitat` function should have two parameters: `animal` and `habitat`.
+Die Funktion `addHabitat` sollte zwei Parameter haben: `animal` und `habitat`.
 
 ```js
 const regex = __helpers.functionRegex('addHabitat', ['animal', 'habitat']);
 assert.match(__helpers.removeJSComments(code), regex);
 ```
 
-`addHabitat` should use dot notation to add the `habitat` property.
+`addHabitat` sollte die Punktnotation verwenden, um die Eigenschaft `habitat` hinzuzufügen.
 
 ```js
 assert.match(code, /animal\.habitat\s*=\s*habitat/);
 ```
 
-The `addHabitat` function should return the updated `animal` object.
+Die Funktion `addHabitat` sollte das aktualisierte Objekt `animal` zurückgeben.
 
 ```js
 const testAnimal = { species: "Cat" };
@@ -67,7 +67,7 @@ const result = addHabitat(testAnimal, "Forest");
 assert.strictEqual(result, testAnimal);
 ```
 
-You should log `addHabitat(tiger, "Rainforest")` to the console.
+Sie sollten `addHabitat(tiger, "Rainforest")` in der Konsole ausgeben.
 
 ```js
 assert.match(
@@ -76,7 +76,7 @@ assert.match(
 );
 ```
 
-Calling `addHabitat(tiger, "Rainforest")` should add a habitat property to tiger.
+Das Aufrufen von `addHabitat(tiger, "Rainforest")` sollte dem Objekt tiger eine Eigenschaft habitat hinzufügen.
 
 ```js
 const updatedTiger = addHabitat(tiger, "Rainforest");
@@ -89,7 +89,7 @@ assert.deepEqual(updatedTiger, {
 });
 ```
 
-`addHabitat` should use the function parameters and work with any object.
+`addHabitat` sollte die Funktionsparameter verwenden und mit jedem Objekt funktionieren.
 
 ```js
 const lion = { species: "Lion" };

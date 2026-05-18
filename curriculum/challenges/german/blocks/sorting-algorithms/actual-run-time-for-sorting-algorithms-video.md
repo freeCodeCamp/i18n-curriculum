@@ -1,6 +1,6 @@
 ---
 id: 698dea167932b3cc4b19c947
-title: Actual Run Time for Sorting Algorithms
+title: Tatsächliche Laufzeit von Sortieralgorithmen
 challengeType: 11
 videoId: AcHX25M4Cvk
 dashedName: actual-run-time-for-sorting-algorithms
@@ -8,29 +8,29 @@ dashedName: actual-run-time-for-sorting-algorithms
 
 # --description--
 
-In this video, you will compare the actual runtimes for the merge sort, quicksort and selection sort algorithms.
+In diesem Video vergleichen Sie die tatsächlichen Laufzeiten der Algorithmen Merge Sort, Quicksort und Selection Sort.
 
 # --questions--
 
 ## --text--
 
-What happened in the demo when the quicksort and merge sort algorithms were compared with a dataset of 1 million numbers?
+Was geschah in der Demo, als die Algorithmen Quicksort und Merge Sort mit einem Datensatz von 1 Million Zahlen verglichen wurden?
 
 ## --answers--
 
-Quicksort and merge sort were equal in their times.
+Quicksort und Merge Sort waren in ihren Zeiten gleichauf.
 
 ---
 
-Quicksort was slightly slower in sorting the numbers than merge sort.
+Quicksort war beim Sortieren der Zahlen etwas langsamer als Merge Sort.
 
 ---
 
-Quicksort was slightly faster in sorting the numbers than merge sort.
+Quicksort war beim Sortieren der Zahlen etwas schneller als Merge Sort.
 
 ---
 
-Quicksort and merge sort both timed out and didn't provide any information.
+Quicksort und Merge Sort haben beide eine Zeitüberschreitung verursacht und keine Informationen geliefert.
 
 ## --video-solution--
 

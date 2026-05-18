@@ -1,25 +1,25 @@
 ---
 id: 612eaf56b7ba3257fdbfb0db
-title: Schritt 19
+title: Step 19
 challengeType: 0
 dashedName: step-19
 ---
 
 # --description--
 
-Das Klavier benötigt das freeCodeCamp-Logo, um es offiziell aussehen zu lassen.
+Das Klavier benötigt das freeCodeCamp-Logo, um offiziell zu sein.
 
-Füge ein `img`-Element vor deinem `.keys`-Element ein. Weise dem `img` eine `class` von `logo` zu und setze die `src` auf `https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg`. Weise ihm den `alt`-Text `freeCodeCamp Logo` zu.
+Fügen Sie ein `img`-Element vor Ihrem `.keys`-Element hinzu. Geben Sie dem `img` ein `class` von `logo` und setzen Sie das `src` auf `https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg`. Geben Sie ihm einen `alt`-Text von `freeCodeCamp Logo`.
 
 # --hints--
 
-Du solltest ein neues `img`-Element hinzufügen.
+Sie sollten ein neues `img`-Element hinzufügen.
 
 ```js
 assert.lengthOf(document.querySelectorAll('img'), 1);
 ```
 
-Dein `img`-Element sollte vor deinem ersten `.keys`-Element stehen.
+Ihr `img`-Element sollte vor Ihrem ersten `.keys`-Element stehen.
 
 ```js
 const img = document.querySelector('img');
@@ -27,27 +27,27 @@ assert.equal(img?.nextElementSibling?.className, 'keys');
 assert.isNull(img?.previousElementSibling);
 ```
 
-Dein `img`-Element sollte eine `class` auf `logo` gesetzt haben.
+Ihr `img`-Element sollte ein `class` mit dem Wert `logo` haben.
 
 ```js
 const img = document.querySelector('img');
 assert.equal(img?.className, 'logo');
 ```
 
-Dein `img`-Element sollte einen `src` auf `https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg` gesetzt haben.
+Ihr `img`-Element sollte ein `src` mit dem Wert `https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg` haben.
 
 ```js
 const img = document.querySelector('img');
 assert.equal(img?.getAttribute('src'), 'https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg');
 ```
 
-Dein `img`-Element sollte ein `alt`-Attribut auf `freeCodeCamp Logo` gesetzt haben.
+Ihr `img`-Element sollte ein `alt`-Attribut mit dem Wert `freeCodeCamp Logo` haben.
 
 ```js
 assert.equal(document.querySelector('img')?.getAttribute('alt')?.toLowerCase(), 'freecodecamp logo');
 ```
 
-Denke daran, dass Groß- und Kleinschreibung sowie Rechtschreibung wichtig sind.
+Denken Sie daran, dass Groß- und Kleinschreibung sowie Rechtschreibung wichtig sind.
 
 ```js
 assert.equal(document.querySelector('img')?.getAttribute('alt'), 'freeCodeCamp Logo');

@@ -1,19 +1,19 @@
 ---
 id: 6864ed58edec4b4aaeb571cc
-title: Step 17
+title: Schritt 17
 challengeType: 0
 dashedName: step-17
 ---
 
 # --description--
 
-Moving to the inner `div` in the **Listener plan**, give it the classes `grid`, `grid-rows-[auto_auto_auto_1fr]`, and `gap-y-2`.
+Wechseln Sie zum inneren `div` im **Listener-Plan** und geben Sie ihm die Klassen `grid`, `grid-rows-[auto_auto_auto_1fr]` und `gap-y-2`.
 
-These classes will make the inner `div` a grid container, define four rows that stack on top of each other, with the first three set to `auto` and the last taking up the remaining spaces, and finally add a spacing of `0.5rem` between the rows.
+Diese Klassen machen den inneren `div` zu einem Grid-Container, definieren vier Reihen, die übereinander gestapelt sind, wobei die ersten drei auf `auto` gesetzt sind und die letzte den verbleibenden Platz einnimmt, und fügen schließlich einen Abstand von `0.5rem` zwischen den Reihen hinzu.
 
 # --hints--
 
-Your inner `div` element should have the class `grid`.
+Ihr inneres `div`-Element sollte die Klasse `grid` haben.
 
 ```js
 const listenerPlanInnerDiv = document.querySelectorAll("div")[2]
@@ -21,7 +21,7 @@ const listenerPlanInnerDiv = document.querySelectorAll("div")[2]
 assert.isTrue(listenerPlanInnerDiv.classList.contains("grid"))
 ```
 
-Your inner `div` element should have the class `grid-rows-[auto_auto_auto_1fr]`.
+Ihr inneres `div`-Element sollte die Klasse `grid-rows-[auto_auto_auto_1fr]` haben.
 
 ```js
 const listenerPlanInnerDiv = document.querySelectorAll("div")[2]
@@ -29,7 +29,7 @@ const listenerPlanInnerDiv = document.querySelectorAll("div")[2]
 assert.isTrue(listenerPlanInnerDiv.classList.contains("grid-rows-[auto_auto_auto_1fr]"))
 ```
 
-Your inner `div` element should have the class `gap-y-2`.
+Ihr inneres `div`-Element sollte die Klasse `gap-y-2` haben.
 
 ```js
 const listenerPlanInnerDiv = document.querySelectorAll("div")[2]

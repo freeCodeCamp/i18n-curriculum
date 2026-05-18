@@ -1,6 +1,6 @@
 ---
 id: ae9defd7acaf69703ab432ea
-title: Smallest Common Multiple
+title: Nambari ndogo kabisa inayogawanyika kwa wote
 challengeType: 1
 forumTopicId: 16075
 dashedName: smallest-common-multiple
@@ -8,45 +8,45 @@ dashedName: smallest-common-multiple
 
 # --description--
 
-Find the smallest common multiple of the provided parameters that can be evenly divided by both, as well as by all sequential numbers in the range between these parameters.
+Tafuta nambari ndogo kabisa inayogawanyika kwa usawa na vigezo vilivyotolewa, na pia na nambari zote mfululizo zilizopo katika safu ya nambari kati ya vigezo hivyo.
 
-The range will be an array of two numbers that will not necessarily be in numerical order.
+Safu ya nambari itakuwa na nambari mbili ambazo si lazima ziwe katika mpangilio wa nambari.
 
-For example, if given 1 and 3, find the smallest common multiple of both 1 and 3 that is also evenly divisible by all numbers *between* 1 and 3. The answer here would be 6.
+Kwa mfano, ukipata nambari 1 na 3, tafuta nambari ndogo kabisa inayogawanyika kwa usawa na 1 na 3, na pia inayogawanyika kwa usawa na nambari zote *katika* 1 na 3. Jibu hapa litakuwa 6.
 
 # --hints--
 
-`smallestCommons([1, 5])` should return a number.
+`smallestCommons([1, 5])` inapaswa kurudisha nambari.
 
 ```js
 assert.deepEqual(typeof smallestCommons([1, 5]), 'number');
 ```
 
-`smallestCommons([1, 5])` should return 60.
+`smallestCommons([1, 5])` inapaswa kurudisha 60.
 
 ```js
 assert.deepEqual(smallestCommons([1, 5]), 60);
 ```
 
-`smallestCommons([5, 1])` should return 60.
+`smallestCommons([5, 1])` inapaswa kurudisha 60.
 
 ```js
 assert.deepEqual(smallestCommons([5, 1]), 60);
 ```
 
-`smallestCommons([2, 10])` should return 2520.
+`smallestCommons([2, 10])` inapaswa kurudisha 2520.
 
 ```js
 assert.deepEqual(smallestCommons([2, 10]), 2520);
 ```
 
-`smallestCommons([1, 13])` should return 360360.
+`smallestCommons([1, 13])` inapaswa kurudisha 360360.
 
 ```js
 assert.deepEqual(smallestCommons([1, 13]), 360360);
 ```
 
-`smallestCommons([23, 18])` should return 6056820.
+`smallestCommons([23, 18])` inapaswa kurudisha 6056820.
 
 ```js
 assert.deepEqual(smallestCommons([23, 18]), 6056820);

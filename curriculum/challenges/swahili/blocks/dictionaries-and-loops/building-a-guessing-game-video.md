@@ -1,6 +1,6 @@
 ---
 id: d4876f74547b26d5c330423e
-title: Building a Guessing Game
+title: Kujenga mchezo wa kukisia
 challengeType: 11
 videoId: sHyQCBFRoug
 dashedName: building-a-guessing-game
@@ -8,13 +8,13 @@ dashedName: building-a-guessing-game
 
 # --description--
 
-In this video, you will build a guessing game that uses loops and conditionals.
+Katika video hii, utaweka mchezo wa kukisia unaotumia mizunguko na masharti.
 
 # --questions--
 
 ## --text--
 
-What does the condition `guess != secret_word` mean in this code?
+Masharti ya `guess != secret_word` yanamaanisha nini katika msimbo huu?
 
 ```python
 secret_word = "giraffe"
@@ -26,19 +26,19 @@ while guess != secret_word:
 
 ## --answers--
 
-If `guess` is not equal to `secret_word`.
+Kama `guess` si sawa na `secret_word`.
 
 ---
 
-If `guess` is equal to `secret_word`.
+Kama `guess` ni sawa na `secret_word`.
 
 ---
 
-If `guess` is greater than `secret_word`.
+Kama `guess` ni kubwa kuliko `secret_word`.
 
 ---
 
-If `guess` is less than `secret_word`.
+Kama `guess` ni ndogo kuliko `secret_word`.
 
 ## --video-solution--
 

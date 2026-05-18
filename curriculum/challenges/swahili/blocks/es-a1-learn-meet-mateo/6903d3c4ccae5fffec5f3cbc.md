@@ -1,6 +1,6 @@
 ---
 id: 6903d3c4ccae5fffec5f3cbc
-title: Task 4
+title: Zoezi la 4
 challengeType: 19
 dashedName: task-4
 lang: es
@@ -10,13 +10,13 @@ lang: es
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Sikiliza sauti na jibu swali lililopo hapa chini.
 
 # --questions--
 
 ## --text--
 
-What is Mateo's nationality?
+Uraia wa Mateo ni upi?
 
 ## --answers--
 
@@ -24,7 +24,7 @@ What is Mateo's nationality?
 
 ### --feedback--
 
-This option refers to someone from Chile.
+Chaguo hili linahusu mtu kutoka Chile.
 
 ---
 
@@ -32,7 +32,7 @@ This option refers to someone from Chile.
 
 ### --feedback--
 
-This word describes a person from Peru.
+Neno hili linaelezea mtu kutoka Peru.
 
 ---
 
@@ -44,7 +44,7 @@ This word describes a person from Peru.
 
 ### --feedback--
 
-This refers to a woman from Colombia, and the ending `-a` indicates the feminine form, which does not match Mateo.
+Hii inahusu mwanamke kutoka Colombia, na mwisho `-a` unaonyesha umbo la kike, ambalo halilingani na Mateo.
 
 ## --video-solution--
 
@@ -52,17 +52,17 @@ This refers to a woman from Colombia, and the ending `-a` indicates the feminine
 
 # --explanation--
 
-`Soy` ("I am") comes from the verb `ser` and is used to express identity, nationality, or profession. For example:
+`Soy` ("Mimi ni") hutoka kwenye kitenzi `ser` na hutumika kuonyesha utambulisho, uraia, au taaluma. Kwa mfano:
 
-- `Soy chilena.` – I'm Chilean. (feminine)
+- `Soy chilena.` – Mimi ni Mchile. (kike)
 
-- `Soy chileno.` – I'm Chilean. (masculine)
+- `Soy chileno.` – Mimi ni Mchile. (kiume)
 
-- `Soy puertorriqueña` - I'm Puerto Rican. (feminine)
+- `Soy puertorriqueña` - Mimi ni Mpuertoriko. (kike)
 
-- `Soy puertorriqueño` - I'm Puerto Rican. (masculine)
+- `Soy puertorriqueño` - Mimi ni Mpuertoriko. (kiume)
 
-- `Soy canadiense.` – I'm Canadian. (neutral)
+- `Soy canadiense.` – Mimi ni Mkanada. (isiyo na jinsia)
 
 # --scene--
 

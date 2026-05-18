@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c442eddfaeb5bd0f
-title: Build a 25 + 5 Clock
+title: Jenga saa ya 25 + 5
 challengeType: 3
 forumTopicId: 301373
 dashedName: build-a-25--5-clock
@@ -8,73 +8,73 @@ dashedName: build-a-25--5-clock
 
 # --description--
 
-**Note:** **React 18 has known incompatibilities with the tests for this project (see [issue](https://github.com/freeCodeCamp/freeCodeCamp/issues/45922))**
+**Kumbuka:** **React 18 ina matatizo yanayojulikana na vipimo vya mradi huu (angalia [issue](https://github.com/freeCodeCamp/freeCodeCamp/issues/45922))**
 
-**Objective:** Build an app that is functionally similar to this: <a href="https://25--5-clock.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://25--5-clock.freecodecamp.rocks</a>.
+**Lengo:** Jenga programu inayofanya kazi kama hii: <a href="https://25--5-clock.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://25--5-clock.freecodecamp.rocks</a>.
 
-Fulfill the below user stories and get all of the tests to pass. Use whichever libraries or APIs you need. Give it your own personal style.
+Kamilisha hadithi za mtumiaji zilizo hapa chini na upite vipimo vyote. Tumia maktaba au API yoyote unayohitaji. Toa mtindo wako binafsi.
 
-You can use any mix of HTML, JavaScript, CSS, Bootstrap, SASS, React, Redux, and jQuery to complete this project. You should use a front-end framework (like React for example) because this section is about learning front-end frameworks. Additional technologies not listed above are not recommended and using them is at your own risk. We are looking at supporting other front-end frameworks like Angular and Vue, but they are not currently supported. We will accept and try to fix all issue reports that use the suggested technology stack for this project. Happy coding!
+Unaweza kutumia mchanganyiko wowote wa HTML, JavaScript, CSS, Bootstrap, SASS, React, Redux, na jQuery kukamilisha mradi huu. Inashauriwa kutumia mfumo wa kazi wa mbele (kama React kwa mfano) kwa sababu sehemu hii ni kuhusu kujifunza mifumo ya kazi ya mbele. Teknolojia nyingine zisizotajwa hapo juu hazipendekezwi na kuzitumia ni kwa hatari yako mwenyewe. Tunatazamia kusaidia mifumo mingine ya kazi ya mbele kama Angular na Vue, lakini hazijaungwa mkono kwa sasa. Tutakubali na kujaribu kurekebisha ripoti zote za matatizo zinazotumia teknolojia iliyopendekezwa kwa mradi huu. Furahia kuandika msimbo!
 
-**User Story #1:** I can see an element with `id="break-label"` that contains a string (e.g. "Break Length").
+**Hadithi ya mtumiaji #1:** Naona kipengele chenye `id="break-label"` kinachojumuisha mfuatano wa herufi (mfano "Break Length").
 
-**User Story #2:** I can see an element with `id="session-label"` that contains a string (e.g. "Session Length").
+**Hadithi ya mtumiaji #2:** Naona kipengele chenye `id="session-label"` kinachojumuisha mfuatano wa herufi (mfano "Session Length").
 
-**User Story #3:** I can see two clickable elements with corresponding IDs: `id="break-decrement"` and `id="session-decrement"`.
+**Hadithi ya mtumiaji #3:** Naona vipengele viwili vinavyoweza kubofywa vyenye vitambulisho vinavyolingana: `id="break-decrement"` na `id="session-decrement"`.
 
-**User Story #4:** I can see two clickable elements with corresponding IDs: `id="break-increment"` and `id="session-increment"`.
+**Hadithi ya mtumiaji #4:** Naona vipengele viwili vinavyoweza kubofywa vyenye vitambulisho vinavyolingana: `id="break-increment"` na `id="session-increment"`.
 
-**User Story #5:** I can see an element with a corresponding `id="break-length"`, which by default (on load) displays a value of 5.
+**Hadithi ya mtumiaji #5:** Naona kipengele chenye `id="break-length"`, ambacho kwa chaguo-msingi (wakati wa kupakia) kinaonyesha thamani ya 5.
 
-**User Story #6:** I can see an element with a corresponding `id="session-length"`, which by default displays a value of 25.
+**Hadithi ya mtumiaji #6:** Naona kipengele chenye `id="session-length"`, ambacho kwa chaguo-msingi kinaonyesha thamani ya 25.
 
-**User Story #7:** I can see an element with a corresponding `id="timer-label"`, that contains a string indicating a session is initialized (e.g. "Session").
+**Hadithi ya mtumiaji #7:** Naona kipengele chenye `id="timer-label"`, kinachojumuisha mfuatano wa herufi unaoonyesha kikao kimeanzishwa (mfano "Session").
 
-**User Story #8:** I can see an element with corresponding `id="time-left"`. NOTE: Paused or running, the value in this field should always be displayed in `mm:ss` format (i.e. 25:00).
+**Hadithi ya mtumiaji #8:** Naona kipengele chenye `id="time-left"`. KUMBUKA: Ikiwa kimezimwa au kinaendelea, thamani katika uwanja huu inapaswa kuonyeshwa kila wakati kwa muundo wa `mm:ss` (yaani 25:00).
 
-**User Story #9:** I can see a clickable element with a corresponding `id="start_stop"`.
+**Hadithi ya mtumiaji #9:** Naona kipengele kinachoweza kubofywa chenye `id="start_stop"`.
 
-**User Story #10:** I can see a clickable element with a corresponding `id="reset"`.
+**Hadithi ya mtumiaji #10:** Naona kipengele kinachoweza kubofywa chenye `id="reset"`.
 
-**User Story #11:** When I click the element with the id of `reset`, any running timer should be stopped, the value within `id="break-length"` should return to `5`, the value within `id="session-length"` should return to 25, and the element with `id="time-left"` should reset to its default state.
+**Hadithi ya mtumiaji #11:** Ninapobofya kipengele chenye kitambulisho `reset`, kipima muda chochote kinachokimbia kinapaswa kusimama, thamani ndani ya `id="break-length"` inapaswa kurudi `5`, thamani ndani ya `id="session-length"` inapaswa kurudi 25, na kipengele chenye `id="time-left"` kinapaswa kurejeshwa katika hali yake ya chaguo-msingi.
 
-**User Story #12:** When I click the element with the id of `break-decrement`, the value within `id="break-length"` decrements by a value of 1, and I can see the updated value.
+**Hadithi ya mtumiaji #12:** Ninapobofya kipengele chenye kitambulisho `break-decrement`, thamani ndani ya `id="break-length"` inapungua kwa thamani ya 1, na naona thamani iliyosasishwa.
 
-**User Story #13:** When I click the element with the id of `break-increment`, the value within `id="break-length"` increments by a value of 1, and I can see the updated value.
+**Hadithi ya mtumiaji #13:** Ninapobofya kipengele chenye kitambulisho `break-increment`, thamani ndani ya `id="break-length"` inaongezeka kwa thamani ya 1, na naona thamani iliyosasishwa.
 
-**User Story #14:** When I click the element with the id of `session-decrement`, the value within `id="session-length"` decrements by a value of 1, and I can see the updated value.
+**Hadithi ya mtumiaji #14:** Ninapobofya kipengele chenye kitambulisho `session-decrement`, thamani ndani ya `id="session-length"` inapungua kwa thamani ya 1, na naona thamani iliyosasishwa.
 
-**User Story #15:** When I click the element with the id of `session-increment`, the value within `id="session-length"` increments by a value of 1, and I can see the updated value.
+**Hadithi ya mtumiaji #15:** Ninapobofya kipengele chenye kitambulisho `session-increment`, thamani ndani ya `id="session-length"` inaongezeka kwa thamani ya 1, na naona thamani iliyosasishwa.
 
-**User Story #16:** I should not be able to set a session or break length to &lt;= 0.
+**Hadithi ya mtumiaji #16:** Sipaswi kuweka muda wa kikao au mapumziko kuwa &lt;= 0.
 
-**User Story #17:** I should not be able to set a session or break length to > 60.
+**Hadithi ya mtumiaji #17:** Sipaswi kuweka muda wa kikao au mapumziko kuwa > 60.
 
-**User Story #18:** When I first click the element with `id="start_stop"`, the timer should begin running from the value currently displayed in `id="session-length"`, even if the value has been incremented or decremented from the original value of 25.
+**Hadithi ya mtumiaji #18:** Ninapobofya kipengele chenye `id="start_stop"` kwa mara ya kwanza, kipima muda kinapaswa kuanza kutoka thamani inayojitokeza sasa hivi katika `id="session-length"`, hata kama thamani imeongezwa au kupunguzwa kutoka thamani ya awali ya 25.
 
-**User Story #19:** If the timer is running, the element with the id of `time-left` should display the remaining time in `mm:ss` format (decrementing by a value of 1 and updating the display every 1000ms).
+**Hadithi ya mtumiaji #19:** Ikiwa kipima muda kinaendelea, kipengele chenye kitambulisho `time-left` kinapaswa kuonyesha muda uliobaki kwa muundo wa `mm:ss` (ukipungua kwa thamani ya 1 na kusasisha onyesho kila 1000ms).
 
-**User Story #20:** If the timer is running and I click the element with `id="start_stop"`, the countdown should pause.
+**Hadithi ya mtumiaji #20:** Ikiwa kipima muda kinaendelea na ninabofya kipengele chenye `id="start_stop"`, kuhesabu chini kunapaswa kusitishwa.
 
-**User Story #21:** If the timer is paused and I click the element with `id="start_stop"`, the countdown should resume running from the point at which it was paused.
+**Hadithi ya mtumiaji #21:** Ikiwa kipima muda kimesitishwa na ninabofya kipengele chenye `id="start_stop"`, kuhesabu chini kunapaswa kuendelea kutoka sehemu ilipositishwa.
 
-**User Story #22:** When a session countdown reaches zero (NOTE: timer MUST reach 00:00), and a new countdown begins, the element with the id of `timer-label` should display a string indicating a break has begun.
+**Hadithi ya mtumiaji #22:** Wakati kuhesabu chini kwa kikao kufikia sifuri (KUMBUKA: kipima muda LAZIMA lifikie 00:00), na kuhesabu chini mpya kuanza, kipengele chenye kitambulisho `timer-label` kinapaswa kuonyesha mfuatano wa herufi unaoonyesha mapumziko yameanza.
 
-**User Story #23:** When a session countdown reaches zero (NOTE: timer MUST reach 00:00), a new break countdown should begin, counting down from the value currently displayed in the `id="break-length"` element.
+**Hadithi ya mtumiaji #23:** Wakati kuhesabu chini kwa kikao kufikia sifuri (KUMBUKA: kipima muda LAZIMA lifikie 00:00), kuhesabu chini mpya ya mapumziko inapaswa kuanza, ikihesabu chini kutoka thamani inayojitokeza sasa hivi katika kipengele cha `id="break-length"`.
 
-**User Story #24:** When a break countdown reaches zero (NOTE: timer MUST reach 00:00), and a new countdown begins, the element with the id of `timer-label` should display a string indicating a session has begun.
+**Hadithi ya mtumiaji #24:** Wakati kuhesabu chini kwa mapumziko kufikia sifuri (KUMBUKA: kipima muda LAZIMA lifikie 00:00), na kuhesabu chini mpya kuanza, kipengele chenye kitambulisho `timer-label` kinapaswa kuonyesha mfuatano wa herufi unaoonyesha kikao kimeanza.
 
-**User Story #25:** When a break countdown reaches zero (NOTE: timer MUST reach 00:00), a new session countdown should begin, counting down from the value currently displayed in the `id="session-length"` element.
+**Hadithi ya mtumiaji #25:** Wakati kuhesabu chini kwa mapumziko kufikia sifuri (KUMBUKA: kipima muda LAZIMA lifikie 00:00), kuhesabu chini mpya ya kikao inapaswa kuanza, ikihesabu chini kutoka thamani inayojitokeza sasa hivi katika kipengele cha `id="session-length"`.
 
-**User Story #26:** When a countdown reaches zero (NOTE: timer MUST reach 00:00), a sound indicating that time is up should play. This should utilize an HTML5 `audio` tag and have a corresponding `id="beep"`.
+**Hadithi ya mtumiaji #26:** Wakati kuhesabu chini kufikia sifuri (KUMBUKA: kipima muda LAZIMA lifikie 00:00), sauti inayoashiria muda umekwisha inapaswa kuchezwa. Hii inapaswa kutumia lebo ya HTML5 `audio` na kuwa na `id="beep"` inayolingana.
 
-**User Story #27:** The audio element with `id="beep"` must be 1 second or longer.
+**Hadithi ya mtumiaji #27:** Kipengele cha sauti chenye `id="beep"` lazima kiwe na muda wa sekunde 1 au zaidi.
 
-**User Story #28:** The audio element with id of `beep` must stop playing and be rewound to the beginning when the element with the id of `reset` is clicked.
+**Hadithi ya mtumiaji #28:** Kipengele cha sauti chenye kitambulisho `beep` kinapaswa kusitisha kucheza na kurudi mwanzo wakati kipengele chenye kitambulisho `reset` kinapobofya.
 
-You can build your project by <a href='https://codepen.io/pen?template=MJjpwO' target='_blank' rel="noopener noreferrer nofollow">using this CodePen template</a> and clicking `Save` to create your own pen. If you prefer to use another environment, then put this `<script>` tag into the body of your `index.html` file: `<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>`
+Unaweza kujenga mradi wako kwa <a href='https://codepen.io/pen?template=MJjpwO' target='_blank' rel="noopener noreferrer nofollow">kutumia kiolezo hiki cha CodePen</a> na kubofya `Save` kuunda peni yako mwenyewe. Ikiwa unapendelea kutumia mazingira mengine, basi weka lebo ya `<script>` ndani ya mwili wa faili yako ya `index.html`: `<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>`
 
-Once you're done, submit the URL to your working project with all its tests passing.
+Ukiisha, wasilisha URL ya mradi wako unaofanya kazi na vipimo vyote vikipita.
 
 # --solutions--
 

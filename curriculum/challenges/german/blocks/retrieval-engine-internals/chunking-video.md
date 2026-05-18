@@ -8,13 +8,13 @@ dashedName: chunking
 
 # --description--
 
-In this video, you will learn about chunking.
+In diesem Video lernen Sie etwas über Chunking.
 
 # --questions--
 
 ## --text--
 
-Which of the following is NOT a common type of chunking?
+Welche der folgenden Optionen ist KEINE gängige Art des Chunkings?
 
 ## --answers--
 

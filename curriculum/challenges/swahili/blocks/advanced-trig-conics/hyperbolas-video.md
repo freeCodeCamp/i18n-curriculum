@@ -8,31 +8,31 @@ dashedName: hyperbolas
 
 # --description--
 
-In this video, you will learn about hyperbolas.
+Katika video hii, utafundishwa kuhusu hyperbolas.
 
 # --questions--
 
 ## --text--
 
-What is a hyperbola?
+Hyperbola ni nini?
 
 ## --answers--
 
-The set of points such that the distance from one fixed point is constant.
+Seti ya pointi ambapo umbali kutoka kwa pointi moja iliyowekwa ni thabiti.
 
 ---
 
-A set of points such that the difference of the distances from two fixed points is constant.
+Seti ya pointi ambapo tofauti ya umbali kutoka kwa pointi mbili zilizowekwa ni thabiti.
 
 ---
 
-The set of points such that the sum of the distances from two fixed points is constant.
+Seti ya pointi ambapo jumla ya umbali kutoka kwa pointi mbili zilizowekwa ni thabiti.
 
 ---
 
-The set of points equidistant from a line and a point.
+Seti ya pointi zilizo na umbali sawa kutoka kwa mstari na pointi.
+
 
 ## --video-solution--
 
 2
-

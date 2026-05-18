@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c442eddfaeb5bd19
-title: Erstelle einen Wikipedia-Viewer
+title: Einen Wikipedia-Viewer erstellen
 challengeType: 3
 forumTopicId: 302360
 dashedName: build-a-wikipedia-viewer
@@ -8,21 +8,21 @@ dashedName: build-a-wikipedia-viewer
 
 # --description--
 
-**Objective:** Build an app that is functionally similar to this: <a href="https://codepen.io/freeCodeCamp/full/wGqEga/" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/wGqEga/</a>.
+**Ziel:** Erstellen Sie eine App, die funktional ähnlich ist wie diese: <a href="https://codepen.io/freeCodeCamp/full/wGqEga/" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/wGqEga/</a>.
 
-Wikipedia nutzt die MediaWiki-Software, die dir dabei hilft, Wissen zu sammeln, zu organisieren und den Menschen zugänglich zu machen.
+Die MediaWiki-Software betreibt Wikipedia und hilft Ihnen dabei, Wissen zu sammeln, zu organisieren und für Menschen zugänglich zu machen.
 
-Kreiere mithilfe der MediaWiki-API eine Suchfunktion und eine Funktion, die dich auf einen zufälligen Artikel weiterleitet – ähnlich wie in der obigen Anwendung. Du kannst Wikipedia als deine Datenquelle verwenden.
+Verwenden Sie die MediaWiki-API, um die Suchfunktion und die Funktion für zufällige Artikel nachzubilden, ähnlich wie in der Beispiel-App oben. Sie können Wikipedia als Ihre Datenquelle nutzen.
 
-Erfülle die folgenden User Stories und bestehe alle Tests. Verwende Bibliotheken und APIs deiner Wahl. Gib dem Ganzen deinen persönlichen Stil.
+Erfüllen Sie die folgenden User Stories und bestehen Sie alle Tests. Verwenden Sie beliebige Bibliotheken oder APIs, die Sie benötigen. Verleihen Sie der App Ihren eigenen Stil.
 
-**User Story:** Ich kann nach Wikipedia-Einträgen in einem Suchfeld suchen und mir die Ergebnisse anzeigen lassen.
+**User Story:** Ich kann Wikipedia-Einträge in einem Suchfeld suchen und die entsprechenden Wikipedia-Einträge sehen.
 
-**User Story:** Ich kann einen Button klicken, um einen zufälligen Wikipedia-Eintrag zu sehen.
+**User Story:** Ich kann auf eine Schaltfläche klicken, um einen zufälligen Wikipedia-Eintrag zu sehen.
 
-Wenn du fertig bist, fügst du einen Link zu deinem Projekt auf CodePen ein und klickst auf den Button "Ich habe diese Herausforderung abgeschlossen".
+Wenn Sie fertig sind, fügen Sie einen Link zu Ihrem Projekt auf CodePen hinzu und klicken Sie auf die Schaltfläche „Ich habe diese Aufgabe abgeschlossen“.
 
-Du kannst Feedback zu deinem Projekt erhalten, indem du es auf dem <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp Forum</a> teilst.
+Sie können Feedback zu Ihrem Projekt erhalten, indem Sie es im <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp-Forum</a> teilen.
 
 # --solutions--
 

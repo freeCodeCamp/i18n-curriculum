@@ -1,17 +1,17 @@
 ---
 id: 67f8eeab71f4f24ba1a3a7eb
-title: Schitt 11
+title: Schritt 11
 challengeType: 0
 dashedName: step-11
 ---
 
 # --description--
 
-After the form, add a `div` element with an `id` of `results` that will display the search results.
+Fügen Sie nach dem Formular ein `div`-Element mit einem `id` von `results` hinzu, das die Suchergebnisse anzeigt.
 
 # --hints--
 
-You should have a `div` element with the `id` of `results` after the form.
+Sie sollten ein `div`-Element mit dem `id` von `results` nach dem Formular haben.
 
 ```js
 const searchContainer = document.getElementById("search-container");
@@ -122,7 +122,7 @@ export function FruitsSearch() {
           onChange={(e) => setQuery(e.target.value)}
         />
       </form>
-
+      
     --fcc-editable-region--
     </div>
   );

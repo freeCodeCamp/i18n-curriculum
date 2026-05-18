@@ -1,6 +1,6 @@
 ---
 id: 698de74b7932b3cc4b19c93c
-title: The Conquer Step
+title: Der conquer-Schritt
 challengeType: 11
 videoId: 4-ycdUhn30U
 dashedName: the-conquer-step
@@ -8,29 +8,29 @@ dashedName: the-conquer-step
 
 # --description--
 
-In this video, you will learn to implement the merge sort algorithm on linked lists by practicing the conquer step.
+In diesem Video lernen Sie, den Merge-Sort-Algorithmus auf verketteten Listen zu implementieren, indem Sie den conquer-Schritt üben.
 
 # --questions--
 
 ## --text--
 
-What is the purpose of the `merge` function in this merge sort implementation?
+Was ist der Zweck der `merge`-Funktion in dieser Merge-Sort-Implementierung?
 
 ## --answers--
 
-The purpose is to split a linked list into smaller sublists for recursive sorting.
+Der Zweck ist es, eine verkettete Liste in kleinere Teillisten zum rekursiven Sortieren aufzuteilen.
 
 ---
 
-The purpose is to select nodes from each list without sorting and combine them.
+Der Zweck ist es, Knoten aus jeder Liste ohne Sortierung auszuwählen und zu kombinieren.
 
 ---
 
-The purpose is to merge two linked list, sorting by data in nodes and returning a new merged list.
+Der Zweck ist es, zwei verkettete Listen zusammenzuführen, dabei die Daten in den Knoten zu sortieren und eine neue zusammengeführte Liste zurückzugeben.
 
 ---
 
-The purpose is to rearrange nodes in a linked list in reverse order and return the result.
+Der Zweck ist es, die Knoten in einer verketteten Liste in umgekehrter Reihenfolge anzuordnen und das Ergebnis zurückzugeben.
 
 ## --video-solution--
 

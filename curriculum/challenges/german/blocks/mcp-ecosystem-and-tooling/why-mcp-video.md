@@ -1,6 +1,6 @@
 ---
 id: 69ae766ab4a814be6a4f2be3
-title: Why MCP?
+title: Warum MCP?
 challengeType: 11
 videoId: G1bjz6QcgRU
 dashedName: why-mcp
@@ -8,13 +8,13 @@ dashedName: why-mcp
 
 # --description--
 
-In this video, you will you will be introduced to MCP.
+In diesem Video werden Sie mit MCP vertraut gemacht.
 
 # --questions--
 
 ## --text--
 
-What does MCP stand for?
+Wofür steht MCP?
 
 ## --answers--
 

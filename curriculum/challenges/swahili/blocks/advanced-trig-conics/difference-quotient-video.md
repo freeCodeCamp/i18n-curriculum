@@ -1,6 +1,6 @@
 ---
 id: 699e8ca68f18cf77dfce5c27
-title: Difference Quotient
+title: Gawio la Tofauti
 challengeType: 11
 videoId: D5ajV73gC1k
 dashedName: difference-quotient
@@ -8,31 +8,30 @@ dashedName: difference-quotient
 
 # --description--
 
-In this video, you will learn about the difference quotient.
+Katika video hii, utajifunza kuhusu gawio la tofauti.
 
 # --questions--
 
 ## --text--
 
-What is a secant line?
+Mstari wa sekanti ni nini?
 
 ## --answers--
 
-A line that is always parallel to the x-axis.
+Mstari ambao daima uko sambamba na mhimili wa x.
 
 ---
 
-A vertical line that intersects the y-axis.
+Mstari wima unaokatiza mhimili wa y.
 
 ---
 
-A line that stretches between two points on the graph of a function.
+Mstari unaotambaa kati ya pointi mbili kwenye mchoro wa kitendakazi.
 
 ---
 
-A line that touches the graph of a function at exactly one point.
+Mstari unaogusa mchoro wa kitendakazi kwa pointi moja tu.
 
 ## --video-solution--
 
 3
-

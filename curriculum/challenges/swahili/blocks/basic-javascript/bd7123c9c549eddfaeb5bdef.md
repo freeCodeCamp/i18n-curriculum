@@ -1,6 +1,6 @@
 ---
 id: bd7123c9c549eddfaeb5bdef
-title: Use Bracket Notation to Find the First Character in a String
+title: Tumia uandishi wa mabano kupata herufi ya kwanza katika mfuatano wa herufi
 challengeType: 1
 forumTopicId: 18341
 dashedName: use-bracket-notation-to-find-the-first-character-in-a-string
@@ -8,36 +8,36 @@ dashedName: use-bracket-notation-to-find-the-first-character-in-a-string
 
 # --description--
 
-<dfn>Bracket notation</dfn> is a way to get a character at a specific index within a string.
+<dfn>Uandishi wa mabano</dfn> ni njia ya kupata herufi katika kielezo maalum ndani ya mfuatano wa herufi.
 
-Most modern programming languages, like JavaScript, don't start counting at 1 like humans do. They start at 0. This is referred to as <dfn>Zero-based</dfn> indexing.
+Lugha nyingi za kisasa za programu, kama JavaScript, hazianzi kuhesabu kwa 1 kama wanadamu wanavyofanya. Huanza kwa 0. Hii inajulikana kama <dfn>kielezo kuanzia sufuri</dfn>.
 
-For example, the character at index 0 in the word `Charles` is `C`. So if `const firstName = "Charles"`, you can get the value of the first letter of the string by using `firstName[0]`.
+Kwa mfano, herufi katika kielezo 0 katika neno `Charles` ni `C`. Hivyo kama `const firstName = "Charles"`, unaweza kupata thamani ya herufi ya kwanza ya mfuatano kwa kutumia `firstName[0]`.
 
-Example:
+Mfano:
 
 ```js
 const firstName = "Charles";
 const firstLetter = firstName[0];
 ```
 
-`firstLetter` would have a value of the string `C`.
+`firstLetter` itakuwa na thamani ya mfuatano wa herufi `C`.
 
 # --instructions--
 
-Use bracket notation to find the first character in the `lastName` variable and assign it to `firstLetterOfLastName`.
+Tumia uandishi wa mabano kupata herufi ya kwanza katika mabadiliko ya `lastName` na weka thamani yake katika `firstLetterOfLastName`.
 
-**Hint:** Try looking at the example above if you get stuck.
+**Kidokezo:** Jaribu kuangalia mfano ulio juu ikiwa unashindwa.
 
 # --hints--
 
-The `firstLetterOfLastName` variable should have the value of `L`.
+Mabadiliko ya `firstLetterOfLastName` yanapaswa kuwa na thamani ya `L`.
 
 ```js
 assert(firstLetterOfLastName === 'L');
 ```
 
-You should use bracket notation.
+Unapaswa kutumia uandishi wa mabano.
 
 ```js
 assert(__helpers.removeJSComments(code).match(/firstLetterOfLastName\s*=\s*lastName\s*\[\s*\d\s*\]/));

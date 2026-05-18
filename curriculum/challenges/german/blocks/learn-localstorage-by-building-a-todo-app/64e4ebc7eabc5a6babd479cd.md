@@ -7,37 +7,37 @@ dashedName: step-9
 
 # --description--
 
-If the user clicks the `Discard` button, you want to close the modal showing the `Cancel` and `Discard` buttons, then hide the form modal.
+Wenn der Benutzer auf die `Discard`-Schaltfläche klickt, möchten Sie das Modal schließen, das die `Cancel`- und `Discard`-Schaltflächen anzeigt, und dann das Formularmodal ausblenden.
 
-Add a click event listener to `discardBtn`, then use the `close()` method on the `confirmCloseDialog` variable. Also, use `classList` to toggle the class `hidden` on `taskForm` so the form modal will close too.
+Fügen Sie einen Klick-Ereignislistener zu `discardBtn` hinzu und verwenden Sie dann die `close()`-Methode für die `confirmCloseDialog`-Variable. Verwenden Sie außerdem `classList`, um die Klasse `hidden` auf `taskForm` umzuschalten, damit auch das Formularmodal geschlossen wird.
 
 # --hints--
 
-Du solltest die `addEventListener()`-Methode für deine `discardBtn`-Variable aufrufen.
+Sie sollten die `addEventListener()`-Methode für Ihre `discardBtn`-Variable aufrufen.
 
 ```js
 assert.match(code, /discardBtn\.addEventListener\(/)
 ```
 
-Dein Ereignis-Listener sollte auf das `click`-Ereignis hören.
+Ihr Ereignislistener sollte auf ein `click`-Ereignis hören.
 
 ```js
 assert.match(code, /discardBtn\.addEventListener\(\s*('|"|`)click\1/)
 ```
 
-You should use arrow syntax to set your event listener to an empty pair of curly braces.
+Sie sollten Pfeilsyntax verwenden, um Ihren Ereignislistener auf ein leeres Paar geschweifter Klammern zu setzen.
 
 ```js
 assert.match(code, /discardBtn\.addEventListener\(\s*('|"|`)click\1\s*,\s*\(\s*\)\s*=>\s*\{/)
 ```
 
-Your event listener should use the `close()` method on `confirmCloseDialog`.
+Ihr Ereignislistener sollte die `close()`-Methode für `confirmCloseDialog` verwenden.
 
 ```js
 assert.match(code, /discardBtn\.addEventListener\(\s*('|"|`)click\1\s*,\s*\(\s*\)\s*=>\s*\{\s*confirmCloseDialog\.close\(\s*\)\s*;?/)
 ```
 
-Your event listener should use `classList` to toggle the class `hidden` on `taskForm`.
+Ihr Ereignislistener sollte `classList` verwenden, um die Klasse `hidden` auf `taskForm` umzuschalten.
 
 ```js
 assert.match(code, /discardBtn\.addEventListener\(\s*('|"|`)click\1\s*,\s*\(\s*\)\s*=>\s*\{\s*confirmCloseDialog\.close\(\s*\)\s*;?\s*taskForm\.classList\.toggle\(\s*('|"|`)hidden\2\s*\)\s*;?\s*\}\s*\)\s*;?/)

@@ -1,6 +1,6 @@
 ---
 id: 5a24bbe0dba28a8d3cbd4c5d
-title: Ein komplexes JSX-Element erstellen
+title: Erstellen Sie ein komplexes JSX-Element
 challengeType: 6
 forumTopicId: 301382
 dashedName: create-a-complex-jsx-element
@@ -8,13 +8,13 @@ dashedName: create-a-complex-jsx-element
 
 # --description--
 
-The last challenge was a simple example of JSX, but JSX can represent more complex HTML as well.
+Die letzte Aufgabe war ein einfaches Beispiel für JSX, aber JSX kann auch komplexeres HTML darstellen.
 
-Eine wichtige Sache, die du über verschachtelte JSX wissen musst, ist, dass sie ein einzelnes Element zurückgeben müssen.
+Eine wichtige Sache, die Sie über verschachteltes JSX wissen sollten, ist, dass es ein einzelnes Element zurückgeben muss.
 
 Dieses eine Elternelement würde alle anderen Ebenen der verschachtelten Elemente umschließen.
 
-Zum Beispiel werden mehrere JSX-Elemente, die als Geschwister ohne elterliches Wrapper-Element geschrieben wurden, nicht transpiliert.
+Zum Beispiel werden mehrere JSX-Elemente, die als Geschwister ohne ein umschließendes Elternelement geschrieben sind, nicht transpiliert.
 
 Hier ist ein Beispiel:
 
@@ -38,11 +38,11 @@ Hier ist ein Beispiel:
 
 # --instructions--
 
-Definiere eine neue Konstante `JSX`, die ein `div` rendert, das die folgenden Elemente in dieser Reihenfolge enthält:
+Definieren Sie eine neue Konstante `JSX`, die ein `div` rendert, das die folgenden Elemente in dieser Reihenfolge enthält:
 
-Ein `h1`, ein `p` und eine ungeordnete Liste, die drei `li` Elemente enthält. Du kannst jeden beliebigen Text in jedes Element einfügen.
+Ein `h1`, ein `p` und eine ungeordnete Liste, die drei `li`-Elemente enthält. Sie können in jedem Element beliebigen Text einfügen.
 
-**Hinweis:** Wenn du mehrere Elemente wie dieses darstellst, kannst du sie alle in Klammern einschließen, aber das ist nicht unbedingt erforderlich. Beachte auch, dass diese Aufgabe ein `div`-Tag verwendet, um alle Kindelemente in einem einzigen Elternelement zu verpacken. Wenn du das `div` entfernst, wird das JSX nicht mehr transpiliert. Behalte dies im Hinterkopf, denn es gilt auch, wenn du JSX-Elemente in React-Komponenten zurückgibst.
+**Hinweis:** Wenn Sie mehrere Elemente so rendern, können Sie sie alle in runde Klammern setzen, aber das ist nicht zwingend erforderlich. Beachten Sie auch, dass diese Aufgabe ein `div`-Tag verwendet, um alle Kind-Elemente innerhalb eines einzigen Elternelements zu umschließen. Wenn Sie das `div` entfernen, wird das JSX nicht mehr transpiliert. Behalten Sie das im Hinterkopf, da dies auch gilt, wenn Sie JSX-Elemente in React-Komponenten zurückgeben.
 
 # --hints--
 
@@ -52,19 +52,19 @@ Die Konstante `JSX` sollte ein `div`-Element zurückgeben.
 assert(JSX.type === 'div');
 ```
 
-Das `div` sollte ein `h1`-Tag als erstes Element enthalten.
+Das `div` sollte als erstes Element ein `h1`-Tag enthalten.
 
 ```js
 assert(JSX.props.children[0].type === 'h1');
 ```
 
-Das `div` sollte ein `p`-Tag als zweites Element enthalten.
+Das `div` sollte als zweites Element ein `p`-Tag enthalten.
 
 ```js
 assert(JSX.props.children[1].type === 'p');
 ```
 
-Das `div` sollte ein `ul`-Tag als drittes Element enthalten.
+Das `div` sollte als drittes Element ein `ul`-Tag enthalten.
 
 ```js
 assert(JSX.props.children[2].type === 'ul');

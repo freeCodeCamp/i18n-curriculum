@@ -1,6 +1,6 @@
 ---
 id: 67ee4cbb541a7a0ae61bcc9f
-title: Task 4
+title: Zoezi la 4
 challengeType: 19
 dashedName: task-4
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Sikiliza sauti na jibu swali lililopo hapa chini.
 
 # --questions--
 
 ## --text--
 
-Is this small error serious?
+Je, kosa hili dogo ni kubwa?
 
 ## --answers--
 
-No, and they don't need to do anything about it.
+Hapana, na hawahitaji kufanya chochote kuhusu hilo.
 
 ### --feedback--
 
-Sophie doesn't say it's a major issue, but they should fix it.
+Sophie haisemi ni tatizo kubwa, lakini wanapaswa kulirekebisha.
 
 ---
 
-Yes, it will break the whole system.
+Ndiyo, litaangamiza mfumo mzima.
 
 ### --feedback--
 
-Sophie doesn't say it's a major issue, just something they should fix.
+Sophie haisemi ni tatizo kubwa, ni jambo tu wanapaswa kulirekebisha.
 
 ---
 
-Yes, Sophie is very worried about it.
+Ndiyo, Sophie ana wasiwasi mkubwa kuhusu hilo.
 
 ### --feedback--
 
-Sophie is not very worried, but she still thinks they should fix it.
+Sophie hana wasiwasi mkubwa, lakini bado anadhani wanapaswa kulirekebisha.
 
 ---
 
-No, but it should still be fixed.
+Hapana, lakini linapaswa kulirekebishwa bado.
 
 ## --video-solution--
 
@@ -52,13 +52,13 @@ No, but it should still be fixed.
 
 # --explanation--
 
-`It's not a big deal` means the problem is not serious. For example:
+`It's not a big deal` ina maana tatizo si kubwa. Kwa mfano:
 
 - **Monica:** `I can't join the meeting today.`
 
-- **Eva:** `It's not a big deal. I'll take notes for you.` - Missing the meeting is okay, and this person can help.
+- **Eva:** `It's not a big deal. I'll take notes for you.` - Kukosa mkutano ni sawa, na mtu huyu anaweza kusaidia.
 
-Sophie also says `we should fix it before it causes problems`, meaning it's better to fix it now before it becomes serious.
+Sophie pia anasema `we should fix it before it causes problems`, ikimaanisha ni bora kulirekebisha sasa kabla halijawa tatizo kubwa.
 
 # --scene--
 

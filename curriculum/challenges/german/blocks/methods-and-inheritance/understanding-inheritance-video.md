@@ -1,6 +1,6 @@
 ---
 id: 69ae9ce3a9e6da4eb0d5f7f8
-title: Understanding Inheritance
+title: Vererbung verstehen
 challengeType: 11
 videoId: 5SehMN6vRgA
 dashedName: understanding-inheritance
@@ -8,29 +8,29 @@ dashedName: understanding-inheritance
 
 # --description--
 
-In this video, you will learn about inheritance.
+In diesem Video lernen Sie die Vererbung kennen.
 
 # --questions--
 
 ## --text--
 
-What is inheritance?
+Was ist Vererbung?
 
 ## --answers--
 
-The ability of a child class to acquire the properties and methods of a parent class.
+Die Fähigkeit einer Kindklasse, die Eigenschaften und Methoden einer Elternklasse zu übernehmen.
 
 ---
 
-A way for an object to automatically delete its parent class’s attributes.
+Eine Möglichkeit für ein Objekt, automatisch die Attribute seiner Elternklasse zu löschen.
 
 ---
 
-A mechanism where a class can only use global variables.
+Ein Mechanismus, bei dem eine Klasse nur globale Variablen verwenden kann.
 
 ---
 
-The process of copying methods from one object to another unrelated object.
+Der Vorgang, Methoden von einem Objekt auf ein anderes, nicht verwandtes Objekt zu kopieren.
 
 ## --video-solution--
 

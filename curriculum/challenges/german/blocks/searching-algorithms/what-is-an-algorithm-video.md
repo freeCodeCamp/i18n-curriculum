@@ -1,6 +1,6 @@
 ---
 id: 698dbbd47932b3cc4b19c91b
-title: What is an Algorithm?
+title: Was ist ein Algorithmus?
 challengeType: 11
 videoId: FUeqQSciTNI
 dashedName: what-is-an-algorithm
@@ -8,29 +8,29 @@ dashedName: what-is-an-algorithm
 
 # --description--
 
-In this video, you will learn what an algorithm is.
+In diesem Video lernen Sie, was ein Algorithmus ist.
 
 # --questions--
 
 ## --text--
 
-What is an algorithm?
+Was ist ein Algorithmus?
 
 ## --answers--
 
-A special JavaScript framework.
+Ein spezielles JavaScript-Framework.
 
 ---
 
-A commonly used linter.
+Ein häufig verwendeter Linter.
 
 ---
 
-A set of steps for completing a task.
+Eine Reihe von Schritten zur Durchführung einer Aufgabe.
 
 ---
 
-A special type of compiler.
+Eine spezielle Art von Compiler.
 
 ## --video-solution--
 

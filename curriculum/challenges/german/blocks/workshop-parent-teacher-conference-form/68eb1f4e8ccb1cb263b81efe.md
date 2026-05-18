@@ -1,23 +1,23 @@
 ---
 id: 68eb1f4e8ccb1cb263b81efe
-title: Step 22
+title: Schritt 22
 challengeType: 0
 dashedName: step-22
 ---
 
 # --description--
 
-The description text needs to be a bit larger. Select the element with the class `description` and set its `font-size` to `1.2rem`.
+Der Beschreibungstext muss etwas größer sein. Wählen Sie das Element mit der Klasse `description` aus und setzen Sie seine `font-size` auf `1.2rem`.
 
 # --hints--
 
-You should target the element with the class `description`.
+Sie sollten das Element mit der Klasse `description` anvisieren.
 
 ```js
 assert.exists(new __helpers.CSSHelp(document).getStyle('.description'));
 ```
 
-Set the `font-size` property to `1.2rem`.
+Setzen Sie die `font-size`-Eigenschaft auf `1.2rem`.
 
 ```js
 const style = new __helpers.CSSHelp(document).getStyle('.description')

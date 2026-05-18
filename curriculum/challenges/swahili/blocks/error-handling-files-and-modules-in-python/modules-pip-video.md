@@ -1,6 +1,6 @@
 ---
 id: 2ccc34bd3f7bb4ae97a67ea3
-title: Modules and pip
+title: Moduli na pip
 challengeType: 11
 videoId: HJ-dHUXmpcg
 dashedName: modules-and-pip
@@ -8,29 +8,29 @@ dashedName: modules-and-pip
 
 # --description--
 
-In this video, you will learn how to use modules and pip to extend Python's functionality with external packages.
+Katika video hii, utafundishwa jinsi ya kutumia moduli na pip kuongeza uwezo wa Python kwa vifurushi vya nje.
 
 # --questions--
 
 ## --text--
 
-What is pip used for?
+pip hutumika kwa ajili gani?
 
 ## --answers--
 
-It is used to sort python modules.
+Inatumika kupanga moduli za python.
 
 ---
 
-It is used to explain python modules.
+Inatumika kuelezea moduli za python.
 
 ---
 
-It is used to install python modules.
+Inatumika kusakinisha moduli za python.
 
 ---
 
-It is used to lint Python programs.
+Inatumika kufanya lint kwa programu za Python.
 
 ## --video-solution--
 

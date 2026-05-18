@@ -7,25 +7,25 @@ dashedName: step-25
 
 # --description--
 
-To divide numbers in JavaScript, use the division operator (`/`). For example:
+Um Zahlen in JavaScript zu dividieren, verwenden Sie den Divisionsoperator (`/`). Zum Beispiel:
 
 ```js
 const quotient = 5 / 2; // 2.5
 ```
 
-In the example above, `5` is the <dfn>dividend</dfn>, or the number to be divided, and `2` is the <dfn>divisor</dfn>, or the number to divide by. The result, `2.5`, is called the <dfn>quotient</dfn>.
+Im obigen Beispiel ist `5` der <dfn>Dividend</dfn>, also die zu teilende Zahl, und `2` der <dfn>Divisor</dfn>, also die Zahl, durch die geteilt wird. Das Ergebnis, `2.5`, nennt man den <dfn>Quotienten</dfn>.
 
-Inside your `while` loop, create a variable named `quotient` and assign it the value of `input` divided by `2`.
+Erstellen Sie innerhalb Ihrer `while`-Schleife eine Variable namens `quotient` und weisen Sie ihr den Wert von `input` geteilt durch `2` zu.
 
 # --hints--
 
-You should create a variable named `quotient` inside your `while` loop.
+Sie sollten innerhalb Ihrer `quotient`-Schleife eine Variable namens `while` erstellen.
 
 ```js
 assert.match(code, /while\s*\(\s*input\s*>\s*0\s*\)\s*\{\s*(var|let|const)\s+quotient\s*=/);
 ```
 
-You should assign `quotient` the value of `input` divided by `2`.
+Sie sollten `quotient` den Wert von `input` geteilt durch `2` zuweisen.
 
 ```js
 assert.match(String(decimalToBinary), /(var|let|const)\s+quotient\s*=\s*input\s*\/\s*2\s*/);

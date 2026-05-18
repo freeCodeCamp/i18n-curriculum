@@ -1,6 +1,6 @@
 ---
 id: 698dc20d7932b3cc4b19c91f
-title: Evaluating Binary Search
+title: Binäre Suche bewerten
 challengeType: 11
 videoId: dnVWNeBCOEA
 dashedName: evaluating-binary-search
@@ -8,29 +8,29 @@ dashedName: evaluating-binary-search
 
 # --description--
 
-In this video, you will learn more about the binary search algorithm.
+In diesem Video lernen Sie mehr über den Algorithmus der binären Suche.
 
 # --questions--
 
 ## --text--
 
-What condition needs to be true in order for binary search to work?
+Welche Bedingung muss erfüllt sein, damit die binäre Suche funktioniert?
 
 ## --answers--
 
-The data must contain less than 1,000 entries.
+Die Daten müssen weniger als 1.000 Einträge enthalten.
 
 ---
 
-The data must contain more than 1,000 entries.
+Die Daten müssen mehr als 1.000 Einträge enthalten.
 
 ---
 
-The data must be unsorted.
+Die Daten müssen unsortiert sein.
 
 ---
 
-The data must be sorted.
+Die Daten müssen sortiert sein.
 
 ## --video-solution--
 

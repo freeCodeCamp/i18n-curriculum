@@ -1,6 +1,6 @@
 ---
 id: 69ae7688b4a814be6a4f2bea
-title: Building an MCP Client
+title: Einen MCP-Client erstellen
 challengeType: 11
 videoId: pzvQoPwNQN0
 dashedName: building-an-mcp-client
@@ -8,13 +8,13 @@ dashedName: building-an-mcp-client
 
 # --description--
 
-In this video, you will learn how to build an MCP client.
+In diesem Video lernen Sie, wie Sie einen MCP-Client erstellen.
 
 # --questions--
 
 ## --text--
 
-Which of the following is NOT an example feature of an MCP client?
+Welche der folgenden Optionen ist KEINE Beispiel-Funktion eines MCP-Clients?
 
 ## --answers--
 

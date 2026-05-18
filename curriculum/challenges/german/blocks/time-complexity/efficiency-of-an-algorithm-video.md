@@ -1,6 +1,6 @@
 ---
 id: 698dc4a27932b3cc4b19c920
-title: Efficiency of an Algorithm
+title: Effizienz eines Algorithmus
 challengeType: 11
 videoId: EHxx4yawPT0
 dashedName: efficiency-of-an-algorithm
@@ -8,29 +8,29 @@ dashedName: efficiency-of-an-algorithm
 
 # --description--
 
-In this video, you will learn how to measure the efficiency of an algorithm.
+In diesem Video lernen Sie, wie Sie die Effizienz eines Algorithmus messen.
 
 # --questions--
 
 ## --text--
 
-What is Big O notation?
+Was ist die Big-O-Notation?
 
 ## --answers--
 
-A notation used to calculate the memory address of variables in a program.
+Eine Notation, die verwendet wird, um die Speicheradresse von Variablen in einem Programm zu berechnen.
 
 ---
 
-The exact running time of a program measured in seconds.
+Die genaue Laufzeit eines Programms, gemessen in Sekunden.
 
 ---
 
-A method for debugging errors in large software systems.
+Eine Methode zum Debuggen von Fehlern in großen Softwaresystemen.
 
 ---
 
-Theoretical definition of the complexity of an algorithm as a function of the size.
+Theoretische Definition der Komplexität eines Algorithmus als Funktion der Größe.
 
 ## --video-solution--
 

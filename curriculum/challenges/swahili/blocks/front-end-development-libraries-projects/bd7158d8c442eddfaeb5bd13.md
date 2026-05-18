@@ -1,47 +1,47 @@
 ---
 id: bd7158d8c442eddfaeb5bd13
-title: Build a Random Quote Machine
+title: Jenga mashine ya nukuu za nasibu
 challengeType: 3
 forumTopicId: 301374
 dashedName: build-a-random-quote-machine
 ---
 
 # --description--
-**Note:** **React 18 has known incompatibilities with the tests for this project (see [issue](https://github.com/freeCodeCamp/freeCodeCamp/issues/45922))**
+**Kumbuka:** **React 18 ina matatizo yanayojulikana na vipimo vya mradi huu (angalia [issue](https://github.com/freeCodeCamp/freeCodeCamp/issues/45922))**
 
-**Objective:** Build an app that is functionally similar to this: <a href="https://random-quote-machine.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://random-quote-machine.freecodecamp.rocks/</a>.
+**Lengo:** Jenga programu inayofanya kazi kama hii: <a href="https://random-quote-machine.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://random-quote-machine.freecodecamp.rocks/</a>.
 
-Fulfill the below user stories and get all of the tests to pass. Use whichever libraries or APIs you need. Give it your own personal style.
+Kamilisha hadithi za mtumiaji zilizo hapa chini na upite vipimo vyote. Tumia maktaba au API yoyote unayohitaji. Toa mtindo wako binafsi.
 
-You can use any mix of HTML, JavaScript, CSS, Bootstrap, SASS, React, Redux, and jQuery to complete this project. You should use a front-end framework (like React for example) because this section is about learning front-end frameworks. Additional technologies not listed above are not recommended and using them is at your own risk. We are looking at supporting other front-end frameworks like Angular and Vue, but they are not currently supported. We will accept and try to fix all issue reports that use the suggested technology stack for this project. Happy coding!
+Unaweza kutumia mchanganyiko wowote wa HTML, JavaScript, CSS, Bootstrap, SASS, React, Redux, na jQuery kukamilisha mradi huu. Inashauriwa kutumia mfumo wa kazi wa mbele (kama React kwa mfano) kwa sababu sehemu hii ni kuhusu kujifunza mifumo ya kazi ya mbele. Teknolojia nyingine zisizotajwa hapo juu hazipendekezwi na kuzitumia ni kwa hatari yako mwenyewe. Tunapanga kusaidia mifumo mingine ya kazi ya mbele kama Angular na Vue, lakini hazijaungwa mkono kwa sasa. Tutakubali na kujaribu kurekebisha ripoti zote za matatizo zinazotumia teknolojia iliyopendekezwa kwa mradi huu. K coding yenye furaha!
 
-**User Story #1:** I can see a wrapper element with a corresponding `id="quote-box"`.
+**Hadithi ya mtumiaji #1:** Naona kipengele cha kufunika chenye `id="quote-box"` kinacholingana.
 
-**User Story #2:** Within `#quote-box`, I can see an element with a corresponding `id="text"`.
+**Hadithi ya mtumiaji #2:** Ndani ya `#quote-box`, naona kipengele chenye `id="text"` kinacholingana.
 
-**User Story #3:** Within `#quote-box`, I can see an element with a corresponding `id="author"`.
+**Hadithi ya mtumiaji #3:** Ndani ya `#quote-box`, naona kipengele chenye `id="author"` kinacholingana.
 
-**User Story #4:** Within `#quote-box`, I can see a clickable element with a corresponding `id="new-quote"`.
+**Hadithi ya mtumiaji #4:** Ndani ya `#quote-box`, naona kipengele kinachoweza kubofywa chenye `id="new-quote"` kinacholingana.
 
-**User Story #5:** Within `#quote-box`, I can see a clickable `a` element with a corresponding `id="tweet-quote"`.
+**Hadithi ya mtumiaji #5:** Ndani ya `#quote-box`, naona kipengele kinachoweza kubofywa cha `a` chenye `id="tweet-quote"` kinacholingana.
 
-**User Story #6:** On first load, my quote machine displays a random quote in the element with `id="text"`.
+**Hadithi ya mtumiaji #6:** Mara ya kwanza kupakia, mashine yangu ya nukuu inaonyesha nukuu ya nasibu katika kipengele chenye `id="text"`.
 
-**User Story #7:** On first load, my quote machine displays the random quote's author in the element with `id="author"`.
+**Hadithi ya mtumiaji #7:** Mara ya kwanza kupakia, mashine yangu ya nukuu inaonyesha mwandishi wa nukuu ya nasibu katika kipengele chenye `id="author"`.
 
-**User Story #8:** When the `#new-quote` button is clicked, my quote machine should fetch a new quote and display it in the `#text` element.
+**Hadithi ya mtumiaji #8:** Wakati kitufe cha `#new-quote` kinapobofyiwa, mashine yangu ya nukuu inapaswa kupata nukuu mpya na kuionyesha katika kipengele cha `#text`.
 
-**User Story #9:** My quote machine should fetch the new quote's author when the `#new-quote` button is clicked and display it in the `#author` element.
+**Hadithi ya mtumiaji #9:** Mashine yangu ya nukuu inapaswa kupata mwandishi wa nukuu mpya wakati kitufe cha `#new-quote` kinapobofyiwa na kuionyesha katika kipengele cha `#author`.
 
-**User Story #10:** I can tweet the current quote by clicking on the `#tweet-quote` `a` element. This `a` element should include the `"twitter.com/intent/tweet"` path in its `href` attribute to tweet the current quote.
+**Hadithi ya mtumiaji #10:** Naweza kutuma nukuu ya sasa kwa Twitter kwa kubofya kipengele cha `#tweet-quote` `a`. Kipengele hiki cha `a` kinapaswa kujumuisha njia ya `"twitter.com/intent/tweet"` katika sifa ya `href` ili kutuma nukuu ya sasa.
 
-**User Story #11:** The `#quote-box` wrapper element should be horizontally centered. Please run tests with browser's zoom level at 100% and page maximized.
+**Hadithi ya mtumiaji #11:** Kipengele cha kufunika cha `#quote-box` kinapaswa kuwekwa katikati kwa usawa. Tafadhali endesha vipimo ukiwa na kiwango cha kuongezea cha kivinjari cha 100% na ukurasa ukiwa umeongezwa kwa ukubwa kamili.
 
-You can build your project by <a href='https://codepen.io/pen?template=MJjpwO' target='_blank' rel="noopener noreferrer nofollow">using this CodePen template</a> and clicking `Save` to create your own pen. If you prefer to use another environment, then put this `<script>` tag into the body of your `index.html` file: `<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>`
+Unaweza kujenga mradi wako kwa <a href='https://codepen.io/pen?template=MJjpwO' target='_blank' rel="noopener noreferrer nofollow">kutumia kiolezo hiki cha CodePen</a> na kubofya `Save` kuunda pen yako mwenyewe. Ikiwa unapendelea kutumia mazingira mengine, basi weka lebo ya `<script>` ndani ya mwili wa faili yako ya `index.html`: `<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>`
 
-Once you're done, submit the URL to your working project with all its tests passing.
+Ukipomaliza, wasilisha URL ya mradi wako unaofanya kazi na vipimo vyote vikipita.
 
-**Note:** Twitter does not allow links to be loaded in an iframe. Try using the `target="_blank"` or `target="_top"` attribute on the `#tweet-quote` element if your tweet won't load. `target="_top"` will replace the current tab so make sure your work is saved.
+**Kumbuka:** Twitter hairuhusu viungo kupakiwa ndani ya iframe. Jaribu kutumia sifa ya `target="_blank"` au `target="_top"` kwenye kipengele cha `#tweet-quote` ikiwa tweet yako haitapakia. `target="_top"` itabadilisha kichupo cha sasa hivyo hakikisha kazi yako imehifadhiwa.
 
 # --solutions--
 

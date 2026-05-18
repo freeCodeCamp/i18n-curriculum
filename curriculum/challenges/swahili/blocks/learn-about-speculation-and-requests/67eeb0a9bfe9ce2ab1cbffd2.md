@@ -1,6 +1,6 @@
 ---
 id: 67eeb0a9bfe9ce2ab1cbffd2
-title: Task 29
+title: Zoezi la 29
 challengeType: 19
 dashedName: task-29
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Sikiliza sauti na ujibu swali hapa chini.
 
 # --questions--
 
 ## --text--
 
-What else should Mark have done?
+Nini kingine Mark angepaswa kufanya?
 
 ## --answers--
 
-He should have rewritten his entire code.
+Angepaswa kuandika upya msimbo wake wote.
 
 ### --feedback--
 
-Mark didn't need to rewrite everything.
+Mark hakuhitaji kuandika upya kila kitu.
 
 ---
 
-He should have tested his code first.
+Angepaswa kujaribu msimbo wake kwanza.
 
 ---
 
-He should have removed all comments.
+Angepaswa kuondoa maoni yote.
 
 ### --feedback--
 
-Comments are useful and should not be removed.
+Maoni ni muhimu na hayapaswi kuondolewa.
 
 ---
 
-He should have skipped testing because it takes too long.
+Angepaswa kuruka majaribio kwa sababu huchukua muda mrefu sana.
 
 ### --feedback--
 
-Testing is an important step before submitting code.
+Kujaribu ni hatua muhimu kabla ya kuwasilisha msimbo.
 
 ## --video-solution--
 
@@ -52,11 +52,11 @@ Testing is an important step before submitting code.
 
 # --explanation--
 
-A `test suite` is a collection of tests that check if a program works correctly. For example:
+`test suite` ni mkusanyiko wa majaribio yanayokagua kama programu inafanya kazi ipasavyo. Kwa mfano:
 
-- `We ran the test suite to check if the app works properly.` - The team executed all the tests to ensure the app functions as expected.
+- `We ran the test suite to check if the app works properly.` - Timu ilitekeleza majaribio yote kuhakikisha programu inafanya kazi kama inavyotarajiwa.
 
-- `We need to add more tests to the test suite to check for edge cases.` - The team should include more tests to cover all possible situations.
+- `We need to add more tests to the test suite to check for edge cases.` - Timu inapaswa kujumuisha majaribio zaidi kufunika hali zote zinazowezekana.
 
 # --scene--
 

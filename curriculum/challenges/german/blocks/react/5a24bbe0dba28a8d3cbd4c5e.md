@@ -8,13 +8,13 @@ dashedName: add-comments-in-jsx
 
 # --description--
 
-JSX is a syntax that gets compiled into valid JavaScript. Sometimes, for readability, you might need to add comments to your code. Like most programming languages, JSX has its own way to do this.
+JSX ist eine Syntax, die in gültiges JavaScript kompiliert wird. Manchmal müssen Sie zur besseren Lesbarkeit Kommentare in Ihren Code einfügen. Wie die meisten Programmiersprachen hat auch JSX eine eigene Art, dies zu tun.
 
-Um Kommentare in JSX einzufügen, verwendest du die Syntax `{/* */}`, um den Kommentartext einzuschließen.
+Um Kommentare innerhalb von JSX zu setzen, verwenden Sie die Syntax `{/* */}`, um den Kommentartext einzuschließen.
 
 # --instructions--
 
-Der Code-Editor hat ein JSX-Element, das dem ähnelt, das du in der letzten Aufgabe erstellt hast. Füge irgendwo innerhalb des bereitgestellten `div`-Elements einen Kommentar hinzu, ohne die bestehenden `h1`- oder `p`-Elemente zu verändern.
+Der Code-Editor enthält ein JSX-Element, das dem ähnelt, was Sie in der letzten Aufgabe erstellt haben. Fügen Sie irgendwo innerhalb des bereitgestellten `div`-Elements einen Kommentar hinzu, ohne die vorhandenen `h1`- oder `p`-Elemente zu verändern.
 
 # --hints--
 
@@ -24,19 +24,19 @@ Die Konstante `JSX` sollte ein `div`-Element zurückgeben.
 assert(JSX.type === 'div');
 ```
 
-Das `div` sollte ein `h1`-Tag als erstes Element enthalten.
+Das `div` sollte als erstes Element ein `h1`-Tag enthalten.
 
 ```js
 assert(JSX.props.children[0].type === 'h1');
 ```
 
-Das `div` sollte ein `p`-Tag als zweites Element enthalten.
+Das `div` sollte als zweites Element ein `p`-Tag enthalten.
 
 ```js
 assert(JSX.props.children[1].type === 'p');
 ```
 
-Die bestehenden `h1`- und `p`-Elemente sollten nicht verändert werden.
+Die vorhandenen `h1`- und `p`-Elemente sollten nicht verändert werden.
 
 ```js
 assert(
@@ -45,7 +45,7 @@ assert(
 );
 ```
 
-Das `JSX` sollte eine gültige Kommentarsyntax verwenden.
+Das `JSX` sollte gültige Kommentarsyntax verwenden.
 
 ```js
 assert(/<div>[\s\S]*{\s*\/\*[\s\S]*\*\/\s*}[\s\S]*<\/div>/.test(code));

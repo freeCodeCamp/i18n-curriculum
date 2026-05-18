@@ -1,6 +1,6 @@
 ---
 id: bd7154d8c242eddfaeb5bd13
-title: Build the Game of Life
+title: Das Spiel des Lebens bauen
 challengeType: 3
 forumTopicId: 302362
 dashedName: build-the-game-of-life
@@ -8,36 +8,36 @@ dashedName: build-the-game-of-life
 
 # --description--
 
-**Objective:** Build an app that is functionally similar to this: <a href="https://codepen.io/freeCodeCamp/full/BpwMZv/" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/BpwMZv/</a>.
+**Ziel:** Bauen Sie eine App, die funktional ähnlich ist wie diese: <a href="https://codepen.io/freeCodeCamp/full/BpwMZv/" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/BpwMZv/</a>.
 
-The Game of Life is a cellular automaton devised by the British mathematician John Horton Conway. It is a <em>zero-player game</em>, meaning that its evolution is determined by its initial state, requiring no further input. One interacts with the Game of Life by creating an initial configuration and observing how it evolves.
+Das Spiel des Lebens ist ein zellulärer Automat, der vom britischen Mathematiker John Horton Conway entwickelt wurde. Es ist ein <em>Null-Spieler-Spiel</em>, was bedeutet, dass seine Entwicklung durch den Anfangszustand bestimmt wird und keine weitere Eingabe erfordert. Man interagiert mit dem Spiel des Lebens, indem man eine Anfangskonfiguration erstellt und beobachtet, wie sie sich entwickelt.
 
-The universe of the Game of Life is an infinite, two-dimensional orthogonal grid of square cells, each of which is in one of two possible states, populated and unpopulated. Every cell interacts with its eight neighbors, which are the cells that are horizontally, vertically, or diagonally adjacent.
+Das Universum des Spiels des Lebens ist ein unendliches, zweidimensionales orthogonales Raster aus quadratischen Zellen, von denen jede sich in einem von zwei möglichen Zuständen befindet: bewohnt oder unbewohnt. Jede Zelle interagiert mit ihren acht Nachbarn, das sind die Zellen, die horizontal, vertikal oder diagonal angrenzen.
 
-At each step in time, the following transitions occur:
+Bei jedem Zeitschritt treten folgende Übergänge auf:
 
-- Any live cell with fewer than two live neighbors dies, as if by underpopulation.
-- Any live cell with two or three live neighbors lives on to the next generation.
-- Any live cell with more than three live neighbors dies, as if by overpopulation.
-- Any dead cell with exactly three live neighbors becomes a live cell, as if by reproduction.
+- Jede lebende Zelle mit weniger als zwei lebenden Nachbarn stirbt, als ob sie unterbevölkert wäre.
+- Jede lebende Zelle mit zwei oder drei lebenden Nachbarn lebt in die nächste Generation weiter.
+- Jede lebende Zelle mit mehr als drei lebenden Nachbarn stirbt, als ob sie überbevölkert wäre.
+- Jede tote Zelle mit genau drei lebenden Nachbarn wird zu einer lebenden Zelle, als ob sie sich reproduziert hätte.
 
-Fulfill the below user stories and get all of the tests to pass. Use whichever libraries or APIs you need. Give it your own personal style.
+Erfüllen Sie die folgenden User Stories und bringen Sie alle Tests zum Bestehen. Verwenden Sie beliebige Bibliotheken oder APIs, die Sie benötigen. Verleihen Sie dem Projekt Ihren eigenen Stil.
 
-**User Story:** When I first arrive at the game, it will randomly generate a board and start playing.
+**User Story:** Wenn ich das Spiel zum ersten Mal öffne, wird es zufällig ein Spielfeld generieren und mit dem Spiel beginnen.
 
-**User Story:** I can start and stop the board.
+**User Story:** Ich kann das Spielfeld starten und stoppen.
 
-**User Story:** I can set up the board.
+**User Story:** Ich kann das Spielfeld einrichten.
 
-**User Story:** I can clear the board.
+**User Story:** Ich kann das Spielfeld löschen.
 
-**User Story:** When I press start, the game will play out.
+**User Story:** Wenn ich auf Start drücke, läuft das Spiel ab.
 
-**User Story:** Each time the board changes, I can see how many generations have gone by.
+**User Story:** Jedes Mal, wenn sich das Spielfeld ändert, kann ich sehen, wie viele Generationen vergangen sind.
 
-When you are finished, include a link to your project and click the "I've completed this challenge" button.
+Wenn Sie fertig sind, fügen Sie einen Link zu Ihrem Projekt hinzu und klicken Sie auf die Schaltfläche „Ich habe diese Aufgabe abgeschlossen“.
 
-You can get feedback on your project by sharing it on the <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp forum</a>.
+Sie können Feedback zu Ihrem Projekt erhalten, indem Sie es im <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp-Forum</a> teilen.
 
 # --solutions--
 

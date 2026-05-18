@@ -1,6 +1,6 @@
 ---
 id: 698dea367932b3cc4b19c949
-title: Linear Search
+title: Lineare Suche
 challengeType: 11
 videoId: aC9uj1nYJLI
 dashedName: linear-search
@@ -8,29 +8,29 @@ dashedName: linear-search
 
 # --description--
 
-In this video, you will examine how linear search works on a list of names.
+In diesem Video sehen Sie, wie die lineare Suche in einer Liste von Namen funktioniert.
 
 # --questions--
 
 ## --text--
 
-When might you use linear search over binary search?
+Wann würden Sie die lineare Suche der binären Suche vorziehen?
 
 ## --answers--
 
-When the list is very large and already sorted.
+Wenn die Liste sehr groß und bereits sortiert ist.
 
 ---
 
-If you need logarithmic time complexity.
+Wenn Sie eine logarithmische Zeitkomplexität benötigen.
 
 ---
 
-If you know the list is unsorted.
+Wenn Sie wissen, dass die Liste unsortiert ist.
 
 ---
 
-When you can repeatedly divide the dataset in half.
+Wenn Sie den Datensatz wiederholt halbieren können.
 
 ## --video-solution--
 

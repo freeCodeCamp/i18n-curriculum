@@ -1,6 +1,6 @@
 ---
 id: bd7178d8c242eddfaeb5bd13
-title: Build a Scatterplot Graph
+title: Jenga chati ya kutawanyika
 challengeType: 25
 dashedName: build-a-scatterplot-graph
 demoType: onClick
@@ -8,31 +8,31 @@ demoType: onClick
 
 # --description--
 
-In this project you will use the data from `https://cdn.freecodecamp.org/curriculum/labs/data/scatterplot/cyclist-data.json` to build a scatterplot graph.
+Katika mradi huu utatumia data kutoka `https://cdn.freecodecamp.org/curriculum/labs/data/scatterplot/cyclist-data.json` kujenga chati ya kutawanyika.
 
-The tests require axes to be generated using the D3 axis property, which automatically generates ticks along the axis. These ticks are required for passing the D3 tests because their positions are used to determine alignment of graphed elements.
+Vipimo vinahitaji mhimili kuundwa kwa kutumia sifa ya mhimili ya D3, ambayo huunda alama za kupigia moja kwa moja kando ya mhimili. Alama hizi za kupigia zinahitajika ili kupitisha vipimo vya D3 kwa sababu nafasi zao hutumika kuamua ulinganifu wa vitu vilivyochorwa kwenye chati.
 
-**Objective:** Fulfill the user stories below and get all the tests to pass to complete the lab.
+**Lengo:** Timiza hadithi za watumizi zilizo hapa chini na upite vipimo vyote ili kumaliza maabara.
 
-**User Stories:**
+**Hadithi za watumizi:**
 
-1. Your chart should have a title with a corresponding `id="title"`.
-1. Your chart should have a `g` element x-axis with a corresponding `id="x-axis"`.
-1. Your chart should have a `g` element y-axis with a corresponding `id="y-axis"`.
-1. Both axes should contain multiple tick labels, each with a corresponding `class="tick"`.
-1. Your chart should have a `circle` element for each data point with a corresponding `class="dot"` displaying the data.
-1. Each `.dot` should have the attributes `data-xvalue` and `data-yvalue` containing `year` and `time` values. For `data-xvalue`, integers (full years) or Date objects are acceptable for test evaluation. For `data-yvalue` (minutes), use Date objects.
-1. The `.dot` elements' `data-xvalue` attributes should match the order of the provided data.
-1. The `.dot` elements' `data-yvalue` attributes should match the order of the provided data.
-1. Each `.dot` element should align with the corresponding value on the x-axis.
-1. Each `.dot` element should align with the corresponding value on the y-axis.
-1. There should be multiple tick labels on the y-axis with `%M:%S` time format.
-1. There should be multiple tick labels on the x-axis that show the year.
-1. The range of the x-axis labels should be within the range of the actual x-axis data.
-1. The range of the y-axis labels should be within the range of the actual y-axis data.
-1. There should be a legend containing descriptive text that has `id="legend"`.
-1. You should be able to mouse over an area and see a tooltip with a corresponding `id="tooltip"` which displays more information about the area.
-1. Your tooltip should have a `data-year` attribute that corresponds to the `data-xvalue` of the active area.
+1. Chati yako inapaswa kuwa na kichwa chenye `id="title"` inayolingana.
+1. Chati yako inapaswa kuwa na kipengele cha `g` cha mhimili wa x chenye `id="x-axis"` inayolingana.
+1. Chati yako inapaswa kuwa na kipengele cha `g` cha mhimili wa y chenye `id="y-axis"` inayolingana.
+1. Mhimili yote miwili inapaswa kuwa na lebo nyingi za alama za kupigia, kila moja ikiwa na `class="tick"` inayolingana.
+1. Chati yako inapaswa kuwa na kipengele cha `circle` kwa kila nukta ya data chenye `class="dot"` inayowakilisha data.
+1. Kila `.dot` inapaswa kuwa na sifa za `data-xvalue` na `data-yvalue` zenye thamani za `year` na `time`. Kwa `data-xvalue`, nambari kamili (miaka kamili) au vitu vya tarehe vinakubalika kwa tathmini ya kipimo. Kwa `data-yvalue` (dakika), tumia vitu vya tarehe.
+1. Sifa za `.dot` za vipengele vya `data-xvalue` zinapaswa kuendana na mpangilio wa data iliyotolewa.
+1. Sifa za `.dot` za vipengele vya `data-yvalue` zinapaswa kuendana na mpangilio wa data iliyotolewa.
+1. Kila kipengele cha `.dot` kinapaswa kuendana na thamani inayolingana kwenye mhimili wa x.
+1. Kila kipengele cha `.dot` kinapaswa kuendana na thamani inayolingana kwenye mhimili wa y.
+1. Inapaswa kuwepo na lebo nyingi za alama za kupigia kwenye mhimili wa y zenye muundo wa wakati wa `%M:%S`.
+1. Inapaswa kuwepo na lebo nyingi za alama za kupigia kwenye mhimili wa x zinazoonyesha mwaka.
+1. Eneo la lebo za mhimili wa x linapaswa kuwa ndani ya eneo la data halisi ya mhimili wa x.
+1. Eneo la lebo za mhimili wa y linapaswa kuwa ndani ya eneo la data halisi ya mhimili wa y.
+1. Inapaswa kuwepo na hadithi zenye maandishi ya maelezo yenye `id="legend"`.
+1. Unapaswa kuweza kupeleka kipanya juu ya eneo na kuona kidokezo cha muda chenye `id="tooltip"` kinachoonyesha taarifa zaidi kuhusu eneo hilo.
+1. Kidokezo chako cha muda kinapaswa kuwa na sifa ya `data-year` inayolingana na `data-xvalue` ya eneo linalofanya kazi.
 
 # --before-all--
 
@@ -633,13 +633,13 @@ const timeout = (milliseconds) =>
 
 # --hints--
 
-The chart should have an element with the `id` of `title` to contain the title.
+Chati inapaswa kuwa na kipengele chenye `id` ya `title` ili kuhusisha kichwa.
 
 ```js
 assert.exists(document.getElementById('title'));
 ```
 
-The chart should have an `x-axis` with a corresponding `id="x-axis"`.
+Chati inapaswa kuwa na `x-axis` yenye `id="x-axis"` inayolingana.
 
 ```js
 assert.isNotNull(
@@ -649,7 +649,7 @@ assert.isNotNull(
 assert.isNotEmpty(document.querySelectorAll('g#x-axis'));
 ```
 
-The chart should have a `y-axis` with a corresponding `id="y-axis"`.
+Chati inapaswa kuwa na `y-axis` yenye `id="y-axis"` inayolingana.
 
 ```js
 assert.isNotNull(
@@ -659,25 +659,25 @@ assert.isNotNull(
 assert.isNotEmpty(document.querySelectorAll('g#y-axis'));
 ```
 
-The x axis should contain multiple tick labels, each with the corresponding `class="tick"`.
+Mhimili wa x unapaswa kuwa na lebo nyingi za alama za kupigia, kila moja ikiwa na `class="tick"` inayolingana.
 
 ```js
 assert.isNotEmpty(document.querySelectorAll('#x-axis .tick'));
 ```
 
-The y axis should contain multiple tick labels, each with the corresponding `class="tick"`.
+Mhimili wa y unapaswa kuwa na lebo nyingi za alama za kupigia, kila moja ikiwa na `class="tick"` inayolingana.
 
 ```js
 assert.isNotEmpty(document.querySelectorAll('#y-axis .tick'));
 ```
 
-Your chart should have dots, that each have a class of `dot`, which represent the data being plotted.
+Chati yako inapaswa kuwa na nukta, kila moja ikiwa na darasa la vitu la `dot`, linalowakilisha data inayochorwa.
 
 ```js
 assert.isNotEmpty(document.querySelectorAll('circle.dot'));
 ```
 
-Each dot should have the properties `data-xvalue` and `data-yvalue` containing their corresponding x and y values.
+Kila nukta inapaswa kuwa na sifa za `data-xvalue` na `data-yvalue` zenye thamani zao za x na y zinazolingana.
 
 ```js
 const dots = document.getElementsByClassName('dot');
@@ -696,7 +696,7 @@ for (let i = 0; i < dots.length; i++) {
 }
 ```
 
-The `data-xvalue` and `data-yvalue` of each dot should be within the range of the actual data and in the correct data format. For `data-xvalue`, integers (full years) or Date objects are acceptable for test evaluation. For `data-yvalue` (minutes), use Date objects.
+`data-xvalue` na `data-yvalue` za kila nukta zinapaswa kuwa ndani ya eneo la data halisi na katika muundo sahihi wa data. Kwa `data-xvalue`, nambari kamili (miaka kamili) au vitu vya tarehe vinakubalika kwa tathmini ya kipimo. Kwa `data-yvalue` (dakika), tumia vitu vya tarehe.
 
 ```js
 const years = cyclistDataJson.map(d => d.Year);
@@ -740,7 +740,7 @@ dots.forEach((dot) => {
 });
 ```
 
-The `data-xvalue` and its corresponding dot should align with the corresponding point/value on the x-axis.
+`data-xvalue` na nukta inayolingana inapaswa kuendana na nukta/thamani inayolingana kwenye mhimili wa x.
 
 ```js
 const axis = document.querySelector('#x-axis');
@@ -767,7 +767,7 @@ assert.isTrue(
 );
 ```
 
-The `data-yvalue` and its corresponding dot should align with the corresponding point/value on the y-axis.
+`data-yvalue` na nukta inayolingana inapaswa kuendana na nukta/thamani inayolingana kwenye mhimili wa y.
 
 ```js
 const axis = document.querySelector('#y-axis');
@@ -794,7 +794,7 @@ assert.isTrue(
 );
 ```
 
-You can see multiple tick labels on the y-axis with `%M:%S` time format.
+Unaweza kuona lebo nyingi za alama za kupigia kwenye mhimili wa y zenye muundo wa wakati wa `%M:%S`.
 
 ```js
 const yAxisTickLabels = document.querySelectorAll('#y-axis .tick');
@@ -809,7 +809,7 @@ yAxisTickLabels.forEach((label) => {
 });
 ```
 
-You can see multiple tick labels on the x-axis that show the year.
+Unaweza kuona lebo nyingi za alama za kupigia kwenye mhimili wa x zinazoonyesha mwaka.
 
 ```js
 const xAxisTickLabels = document.querySelectorAll('#x-axis .tick');
@@ -824,7 +824,7 @@ xAxisTickLabels.forEach((label) => {
 });
 ```
 
-The range of the x-axis labels are within the range of the actual x-axis data.
+Eneo la lebo za mhimili wa x liko ndani ya eneo la data halisi ya mhimili wa x.
 
 ```js
 const xAxisTickLabels = document.querySelectorAll('#x-axis .tick');
@@ -848,7 +848,7 @@ xAxisTickLabels.forEach((label) => {
 });
 ```
 
-The range of the y-axis labels are within the range of the actual y-axis data.
+Eneo la lebo za mhimili wa y liko ndani ya eneo la data halisi ya mhimili wa y.
 
 ```js
 const yAxisTickLabels = document.querySelectorAll('#y-axis .tick');
@@ -882,7 +882,7 @@ yAxisTickLabels.forEach((label) => {
 });
 ```
 
-You can see a legend containing descriptive text that has `id="legend"`.
+Unaweza kuona hadithi zenye maandishi ya maelezo yenye `id="legend"`.
 
 ```js
 assert.isNotNull(document.getElementById('legend'));
@@ -896,7 +896,7 @@ if (document.querySelector('#legend text') !== null) {
 assert.isNotNull(legendText, 'The legend should contain text');
 ```
 
-When hovering over an area your scatter plot should have a tooltip with a corresponding `id="tooltip"` which displays more information about the area.
+Unapobofya juu ya eneo, chati yako ya kutawanyika inapaswa kuwa na kidokezo cha muda chenye `id="tooltip"` kinachoonyesha taarifa zaidi kuhusu eneo hilo.
 
 ```js
 const areas = document.querySelectorAll('.dot');
@@ -940,7 +940,7 @@ assert.isTrue(
 );
 ```
 
-The tooltip should have a `data-year` attribute that corresponds to the `data-xvalue` of the active area.
+Kidokezo cha muda kinapaswa kuwa na sifa ya `data-year` inayolingana na `data-xvalue` ya eneo linalofanya kazi.
 
 ```js
 const areas = document.querySelectorAll('.dot');
@@ -970,7 +970,7 @@ try {
 
   const tooltipYear = tooltip.getAttribute('data-year');
   const areaYear = new Date(randomArea.getAttribute('data-xvalue')).getFullYear();
-
+  
   assert.equal(
     tooltipYear,
     areaYear,

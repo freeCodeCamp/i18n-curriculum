@@ -1,6 +1,6 @@
 ---
 id: 698dc6467932b3cc4b19c922
-title: Linear and Quadratic Time
+title: Lineare und quadratische Zeit
 challengeType: 11
 videoId: jS7vtk-JLZ0
 dashedName: linear-and-quadratic-time
@@ -8,29 +8,29 @@ dashedName: linear-and-quadratic-time
 
 # --description--
 
-In this video, you will learn about linear and quadratic times.
+In diesem Video lernen Sie etwas über lineare und quadratische Zeiten.
 
 # --questions--
 
 ## --text--
 
-What does quadratic mean?
+Was bedeutet quadratisch?
 
 ## --answers--
 
-An operation raised to the first power.
+Eine Operation, die zur ersten Potenz erhoben wird.
 
 ---
 
-An operation raised to the third power.
+Eine Operation, die zur dritten Potenz erhoben wird.
 
 ---
 
-An operation raised to the second power.
+Eine Operation, die zur zweiten Potenz erhoben wird.
 
 ---
 
-An operation raised to the tenth power.
+Eine Operation, die zur zehnten Potenz erhoben wird.
 
 ## --video-solution--
 

@@ -1,6 +1,6 @@
 ---
 id: 698dbdec7932b3cc4b19c91c
-title: Guess the Number
+title: Erraten Sie die Zahl
 challengeType: 11
 videoId: zNAzkdpIrqU
 dashedName: guess-the-number
@@ -8,13 +8,13 @@ dashedName: guess-the-number
 
 # --description--
 
-In this video, you will see a demonstration of individuals playing a guessing game to illustrate how algorithms work.
+In diesem Video sehen Sie eine Demonstration von Personen, die ein Ratespiel spielen, um zu veranschaulichen, wie Algorithmen funktionieren.
 
 # --questions--
 
 ## --text--
 
-How many tries did it take Britney and John to guess the correct number?
+Wie viele Versuche brauchten Britney und John, um die richtige Zahl zu erraten?
 
 ## --answers--
 

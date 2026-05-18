@@ -7,23 +7,23 @@ dashedName: step-57
 
 # --description--
 
-Now apply the `established` class to the `Est. 2020` text.
+Wenden Sie nun die Klasse `established` auf den Text `Est. 2020` an.
 
 # --hints--
 
-You should set the `class` of the `p` element to `established`.
+Sie sollten die `class` des `p`-Elements auf `established` setzen.
 
 ```js
 assert.match(code,/<p class=('|")established\1>/i);
 ```
 
-Your `established` class should be on the element with the text `Est. 2020`.
+Ihre `established`-Klasse sollte sich auf dem Element mit dem Text `Est. 2020` befinden.
 
 ```js
 assert.match(document.querySelector('.established')?.innerText, /Est\.\s2020/i);
 ```
 
-Your `established` class element should have italic text.
+Ihr `established`-Klassen-Element sollte kursiven Text haben.
 
 ```js
 const establishElement = document.querySelector('.established');

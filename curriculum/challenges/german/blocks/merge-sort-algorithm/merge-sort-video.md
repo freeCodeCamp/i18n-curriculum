@@ -1,6 +1,6 @@
 ---
 id: 698dda7a7932b3cc4b19c935
-title: Merge Sort
+title: Merge-Sort
 challengeType: 11
 videoId: oqcS-Jw8JXM
 dashedName: merge-sort
@@ -8,13 +8,13 @@ dashedName: merge-sort
 
 # --description--
 
-In this video, you will learn about the merge sort algorithm.
+In diesem Video lernen Sie den Merge-Sort-Algorithmus kennen.
 
 # --questions--
 
 ## --text--
 
-What algorithmic strategy is used for the merge sort algorithm?
+Welche algorithmische Strategie wird beim Merge-Sort-Algorithmus verwendet?
 
 ## --answers--
 
@@ -22,11 +22,11 @@ Greedy
 
 ---
 
-Dynamic Programming
+Dynamische Programmierung
 
 ---
 
-Divide and Conquer
+Teile und herrsche
 
 ---
 

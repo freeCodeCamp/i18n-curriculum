@@ -1,6 +1,6 @@
 ---
 id: 698dea4b7932b3cc4b19c94d
-title: Big O Runtime of Search Algorithms
+title: Big-O-Laufzeit von Suchalgorithmen
 challengeType: 11
 videoId: V9ID1JG7BpU
 dashedName: big-o-runtime-of-search-algorithms
@@ -8,13 +8,13 @@ dashedName: big-o-runtime-of-search-algorithms
 
 # --description--
 
-In this video, you will look at the Big O runtimes for linear and binary search.
+In diesem Video betrachten Sie die Big-O-Laufzeiten für lineare und binäre Suche.
 
 # --questions--
 
 ## --text--
 
-What is the big O runtime for linear search?
+Wie lautet die Big-O-Laufzeit für die lineare Suche?
 
 ## --answers--
 

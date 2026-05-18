@@ -1,6 +1,6 @@
 ---
 id: 67fea5eff4f7ddccd1fe2bb9
-title: Task 22
+title: Zoezi la 22
 challengeType: 22
 dashedName: task-22
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Sikiliza sauti na ukamilishe sentensi ifuatayo.
 
 # --fillInTheBlank--
 
@@ -24,13 +24,13 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This refers to something happening once a week.
+Hii inahusu jambo linalotokea mara moja kwa wiki.
 
 # --explanation--
 
-`Weekly` is used to describe something that happens only once every week. It indicates the frequency of an event or action occurring on a weekly basis. For example:
+`Weekly` hutumika kuelezea jambo linalotokea mara moja tu kila wiki. Inaonyesha mara kwa mara ya tukio au tendo linalotokea kila wiki. Kwa mfano:
 
-`The team has weekly meetings to discuss project progress.` – This means the meetings happen every week.
+`The team has weekly meetings to discuss project progress.` – Hii ina maana mikutano hutokea kila wiki.
 
 # --scene--
 

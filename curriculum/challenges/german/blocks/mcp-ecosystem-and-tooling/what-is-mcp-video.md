@@ -1,6 +1,6 @@
 ---
 id: 69ae766eb4a814be6a4f2be4
-title: What Is MCP?
+title: Was ist MCP?
 challengeType: 11
 videoId: OaK6n8Yg3fA
 dashedName: what-is-mcp
@@ -8,29 +8,29 @@ dashedName: what-is-mcp
 
 # --description--
 
-In this video, you will continue to learn about MCP.
+In diesem Video lernen Sie weiterhin über MCP.
 
 # --questions--
 
 ## --text--
 
-What is MCP?
+Was ist MCP?
 
 ## --answers--
 
-A programming language used specifically for AI development.
+Eine Programmiersprache, die speziell für die Entwicklung von KI verwendet wird.
 
 ---
 
-A cloud platform for hosting AI applications.
+Eine Cloud-Plattform zum Hosting von KI-Anwendungen.
 
 ---
 
-A set of standards that define how AI applications can work with each other.
+Ein Satz von Standards, die definieren, wie KI-Anwendungen miteinander arbeiten können.
 
 ---
 
-A type of machine learning model for predicting stock prices.
+Ein Typ von Machine-Learning-Modell zur Vorhersage von Aktienkursen.
 
 ## --video-solution--
 

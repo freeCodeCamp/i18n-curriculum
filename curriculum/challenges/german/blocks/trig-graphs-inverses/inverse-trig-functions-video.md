@@ -1,6 +1,6 @@
 ---
 id: 699e69ea8f18cf77dfce5c15
-title: Inverse Trig Functions
+title: Inverse trigonometrische Funktionen
 challengeType: 11
 videoId: hlzdIVKJCdA
 dashedName: inverse-trig-functions
@@ -8,29 +8,29 @@ dashedName: inverse-trig-functions
 
 # --description--
 
-In this video, you will learn about inverse trig functions.
+In diesem Video lernen Sie inverse trigonometrische Funktionen kennen.
 
 # --questions--
 
 ## --text--
 
-How can you find the graph of an inverse of a function?
+Wie können Sie den Graphen der Umkehrfunktion einer Funktion finden?
 
 ## --answers--
 
-Flipping the graph of the original function across the line $y = 2x$ and then across the line $y = x$.
+Den Graphen der ursprünglichen Funktion zuerst an der Linie $y = 2x$ und dann an der Linie $y = x$ spiegeln.
 
 ---
 
-Flipping the graph of the original function across the line $y = x$ and then across the line $y = -x$.
+Den Graphen der ursprünglichen Funktion zuerst an der Linie $y = x$ und dann an der Linie $y = -x$ spiegeln.
 
 ---
 
-Flipping the graph of the original function across the line $y = x$.
+Den Graphen der ursprünglichen Funktion an der Linie $y = x$ spiegeln.
 
 ---
 
-Flipping the graph of the original function across the line $y = -x$.
+Den Graphen der ursprünglichen Funktion an der Linie $y = -x$ spiegeln.
 
 ## --video-solution--
 

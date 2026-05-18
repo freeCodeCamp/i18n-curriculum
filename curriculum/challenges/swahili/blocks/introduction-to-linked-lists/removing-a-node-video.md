@@ -1,6 +1,6 @@
 ---
 id: 698dd9817932b3cc4b19c934
-title: Removing a Node
+title: Kuondoa nodi
 challengeType: 11
 videoId: Jlu400ceY8g
 dashedName: removing-a-node
@@ -8,17 +8,17 @@ dashedName: removing-a-node
 
 # --description--
 
-In this video, you will learn how to remove a node from a linked list.
+Katika video hii, utafundishwa jinsi ya kuondoa nodi kutoka katika orodha iliyounganishwa.
 
 # --questions--
 
 ## --text--
 
-What is the worst-case runtime for removing a node when you must first search for it in a linked list?
+Ni muda gani mbaya zaidi wa utekelezaji wa kuondoa nodi wakati lazima kwanza uitafute katika orodha iliyounganishwa?
 
 ## --answers--
 
-exponential
+exponential 
 
 ---
 

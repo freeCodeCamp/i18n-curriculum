@@ -1,6 +1,6 @@
 ---
 id: cf1111c1c11feddfaeb9bdef
-title: Generate Random Fractions with JavaScript
+title: Tengeneza sehemu za nambari za kihesabu za bahati nasibu kwa JavaScript
 challengeType: 1
 forumTopicId: 18185
 dashedName: generate-random-fractions-with-javascript
@@ -8,31 +8,31 @@ dashedName: generate-random-fractions-with-javascript
 
 # --description--
 
-Random numbers are useful for creating random behavior.
+Nambari za bahati nasibu ni muhimu kwa kuunda tabia za bahati nasibu.
 
-JavaScript has a `Math.random()` function that generates a random decimal number between `0` (inclusive) and `1` (exclusive). Thus `Math.random()` can return a `0` but never return a `1`.
+JavaScript ina kitendakazi cha `Math.random()` kinachozalisha nambari ya desimali ya bahati nasibu kati ya `0` (ikiwa ni pamoja na) na `1` (isipokuwa). Hivyo `Math.random()` inaweza kurudisha `0` lakini hawezi kurudisha `1`.
 
-**Note:** Like <a href="/learn/javascript-algorithms-and-data-structures/basic-javascript/storing-values-with-the-assignment-operator" target="_blank" rel="noopener noreferrer nofollow">Storing Values with the Assignment Operator</a>, all function calls will be resolved before the `return` executes, so we can `return` the value of the `Math.random()` function.
+**Kumbuka:** Kama ilivyo katika <a href="/learn/javascript-algorithms-and-data-structures/basic-javascript/storing-values-with-the-assignment-operator" target="_blank" rel="noopener noreferrer nofollow">Kuhifadhi Thamani kwa Opereta ya Mgawo</a>, wito wote wa kitendakazi utatatuliwa kabla ya `return` kutekelezwa, hivyo tunaweza `return` thamani ya kitendakazi cha `Math.random()`.
 
 # --instructions--
 
-Change `randomFraction` to return a random number instead of returning `0`.
+Badilisha `randomFraction` ili irudishe nambari ya bahati nasibu badala ya kurudisha `0`.
 
 # --hints--
 
-`randomFraction` should return a random number.
+`randomFraction` inapaswa kurudisha nambari ya bahati nasibu.
 
 ```js
 assert(typeof randomFraction() === 'number');
 ```
 
-The number returned by `randomFraction` should be a decimal.
+Nambari inayorudishwa na `randomFraction` inapaswa kuwa desimali.
 
 ```js
 assert((randomFraction() + '').match(/\./g));
 ```
 
-You should be using `Math.random` to generate the random decimal number.
+Unapaswa kutumia `Math.random` kuzalisha nambari ya desimali ya bahati nasibu.
 
 ```js
 assert(__helpers.removeJSComments(code).match(/Math\.random/g).length >= 0);

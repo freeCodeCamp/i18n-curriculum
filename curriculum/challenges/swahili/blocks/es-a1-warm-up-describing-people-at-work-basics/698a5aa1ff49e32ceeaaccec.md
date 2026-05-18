@@ -1,6 +1,6 @@
 ---
 id: 698a5aa1ff49e32ceeaaccec
-title: Task 6
+title: Zoezi la 6
 challengeType: 22
 dashedName: task-6
 lang: es
@@ -10,13 +10,13 @@ lang: es
 
 # --description--
 
-Now Camila is practicing how to say `número de teléfono` in Spanish, which means "phone number".
+Sasa Camila anajifunza jinsi ya kusema `número de teléfono` kwa Kihispania, ambayo inamaanisha "nambari ya simu".
 
-Notice that the word `número` carries an accent mark in the letter `u` and the word `teléfono` carries an accent mark in the second letter `e`.
+Tambua kwamba neno `número` lina alama ya msisitizo kwenye herufi ya `u` na neno `teléfono` lina alama ya msisitizo kwenye herufi ya pili `e`.
 
 # --instructions--
 
-Listen to the audio and write the word below.
+Sikiliza sauti na andika neno hapa chini.
 
 # --fillInTheBlank--
 
@@ -30,7 +30,7 @@ Listen to the audio and write the word below.
 
 ### --feedback--
 
-This word literally means "number" in Spanish. Remember to write the accent mark in the letter `u` and to capitalize the first letter.
+Neno hili lina maana ya "nambari" kwa Kihispania. Kumbuka kuandika alama ya msisitizo kwenye herufi ya `u` na kuandika herufi ya kwanza kwa herufi kubwa.
 
 ---
 
@@ -38,11 +38,11 @@ This word literally means "number" in Spanish. Remember to write the accent mark
 
 ### --feedback--
 
-This word literally means "phone" in Spanish. Remember to write the accent mark in the second letter `e`.
+Neno hili lina maana ya "simu" kwa Kihispania. Kumbuka kuandika alama ya msisitizo kwenye herufi ya pili `e`.
 
 # --explanation--
 
-`Número de teléfono` means "phone number" in Spanish.
+`Número de teléfono` inamaanisha "nambari ya simu" kwa Kihispania.
 
 # --scene--
 

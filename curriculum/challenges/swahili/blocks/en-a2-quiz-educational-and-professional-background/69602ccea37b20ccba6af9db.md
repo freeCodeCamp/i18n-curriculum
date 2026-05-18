@@ -1,6 +1,6 @@
 ---
 id: 69602ccea37b20ccba6af9db
-title: Educational and Professional Background Quiz
+title: Jaribio fupi la asili ya elimu na taaluma
 challengeType: 8
 dashedName: en-a2-quiz-educational-and-professional-background
 lang: en-US
@@ -8,13 +8,13 @@ lang: en-US
 
 # --description--
 
-This quiz checks your understanding of job interviews, education, and the `past simple` tense.
+Jaribio hili linakagua uelewa wako kuhusu mahojiano ya kazi, elimu, na wakati wa `past simple`.
 
-To pass the quiz, you must correctly answer at least 18 of the 20 questions below.
+Ili kupita jaribio hili, lazima ujibu maswali 18 kati ya 20 kwa usahihi.
 
-Read each question and choose the correct answer. There's only one correct answer for each question.
+Soma kila swali na chagua jibu sahihi. Kila swali lina jibu moja tu sahihi.
 
-For accessibility, transcripts are available for learners with hearing impairments; we recommend using them only if needed.
+Kwa ajili ya Ufikikaji, nakala za maandishi zinapatikana kwa wanafunzi wenye ulemavu wa kusikia; tunapendekeza kuzitumia tu ikiwa ni lazima.
 
 # --quizzes--
 
@@ -24,73 +24,73 @@ For accessibility, transcripts are available for learners with hearing impairmen
 
 #### --text--
 
-Which of the following is true about this sentence: `I studied computer science at college`?
+Ni ipi kati ya zifuatazo ni kweli kuhusu sentensi hii: `I studied computer science at college`?
 
 #### --distractors--
 
-The action is happening now.
+Kitendo kinaendelea sasa.
 
 ---
 
-The action will happen soon.
+Kitendo kitaendelea hivi karibuni.
 
 ---
 
-The action happens every day.
+Kitendo hufanyika kila siku.
 
 #### --answer--
 
-The action happened in the past.
+Kitendo kilitokea zamani.
 
 ### --question--
 
 #### --text--
 
-Which of the following is NOT an example of someone's `background`?
+Ni ipi kati ya zifuatazo SI mfano wa `background` ya mtu?
 
 #### --distractors--
 
-Their past job experience
+Uzoefu wao wa kazi wa zamani
 
 ---
 
-Their education history
+Historia yao ya elimu
 
 ---
 
-Their learned skills
+Ujuzi waliopata
 
 #### --answer--
 
-Their favorite hobby
+Hobby yao wanayopenda
 
 ### --question--
 
 #### --text--
 
-What is an `interview`?
+`interview` ni nini?
 
 #### --distractors--
 
-A casual talk between coworkers
+Mazungumzo ya kawaida kati ya wafanyakazi
 
 ---
 
-A written test at school
+Mtihani wa maandishi shuleni
 
 ---
 
-A team meeting at work
+Mkutano wa timu kazini
 
 #### --answer--
 
-A formal meeting with questions
+Mkutano rasmi wenye maswali
 
 ### --question--
 
 #### --text--
 
-Listen to the audio. What is the best answer to this question? <!-- (quiz audio) Anna: Can you tell me about your previous job experiences? -->
+Sikiliza sauti. Jibu bora zaidi kwa swali hili ni lipi? <!-- (quiz audio) Anna: Can you tell me about your previous job experiences? -->
 
 #### --audio--
 
@@ -130,7 +130,7 @@ Listen to the audio. What is the best answer to this question? <!-- (quiz audio)
 
 #### --text--
 
-Which sentence uses `to be` correctly in the past?
+Ni sentensi gani inayotumia `to be` kwa usahihi katika zamani?
 
 #### --distractors--
 
@@ -152,7 +152,7 @@ Which sentence uses `to be` correctly in the past?
 
 #### --text--
 
-What is the correct question form of this sentence: `He was responsible for maintaining the database`?
+Ni namna gani sahihi ya kuuliza swali la sentensi hii: `He was responsible for maintaining the database`?
 
 #### --distractors--
 
@@ -174,7 +174,7 @@ What is the correct question form of this sentence: `He was responsible for main
 
 #### --text--
 
-How would you ask about someone's educational background?
+Unaulaje kuhusu asili ya elimu ya mtu?
 
 #### --distractors--
 
@@ -196,29 +196,29 @@ How would you ask about someone's educational background?
 
 #### --text--
 
-What does this question ask about: `Could you tell me about your previous roles and responsibilities?`
+Swali hili linauliza kuhusu nini: `Could you tell me about your previous roles and responsibilities?`
 
 #### --distractors--
 
-Your future career plans
+Mipango yako ya kazi ya baadaye
 
 ---
 
-Your personal interests
+Mambo unayopenda binafsi
 
 ---
 
-Your current daily tasks
+Kazi zako za kila siku sasa
 
 #### --answer--
 
-Your past jobs and duties
+Kazi na majukumu yako ya zamani
 
 ### --question--
 
 #### --text--
 
-Which phrase shows possession incorrectly?
+Ni msemo gani unaonyesha umiliki kwa njia isiyo sahihi?
 
 #### --distractors--
 
@@ -240,7 +240,7 @@ Which phrase shows possession incorrectly?
 
 #### --text--
 
-What is the correct negative form of this sentence: `He studied data science`?
+Ni namna gani hasi sahihi ya sentensi hii: `He studied data science`?
 
 #### --distractors--
 
@@ -262,7 +262,7 @@ What is the correct negative form of this sentence: `He studied data science`?
 
 #### --text--
 
-How do you say your main area of study?
+Unasemaje eneo lako kuu la masomo?
 
 #### --distractors--
 
@@ -284,7 +284,7 @@ How do you say your main area of study?
 
 #### --text--
 
-What is the correct question form of this sentence: `She worked with them for five years`?
+Ni namna gani sahihi ya kuuliza swali la sentensi hii: `She worked with them for five years`?
 
 #### --distractors--
 
@@ -306,7 +306,7 @@ What is the correct question form of this sentence: `She worked with them for fi
 
 #### --text--
 
-Listen to the audio. How would you answer this question? <!-- (quiz audio) Tom: Did you work on any projects during your self-study? -->
+Sikiliza sauti. Ungejibuje swali hili? <!-- (quiz audio) Tom: Did you work on any projects during your self-study? -->
 
 #### --audio--
 
@@ -346,7 +346,7 @@ Listen to the audio. How would you answer this question? <!-- (quiz audio) Tom: 
 
 #### --text--
 
-Which pair of irregular verbs is incorrect?
+Ni jozi gani ya vitenzi visivyo vya kawaida si sahihi?
 
 #### --distractors--
 
@@ -368,29 +368,29 @@ Which pair of irregular verbs is incorrect?
 
 #### --text--
 
-What does `to wear too many hats` mean?
+`to wear too many hats` inamaanisha nini?
 
 #### --distractors--
 
-To dress very formally
+Kuvaa kwa njia rasmi sana
 
 ---
 
-To change jobs often
+Kubadilisha kazi mara kwa mara
 
 ---
 
-To manage one task
+Kusimamia kazi moja
 
 #### --answer--
 
-To have many roles or duties
+Kuwa na majukumu au jukumu nyingi
 
 ### --question--
 
 #### --text--
 
-How do you describe learning without a teacher or school?
+Unaelezaje kujifunza bila mwalimu au shule?
 
 #### --distractors--
 
@@ -412,7 +412,7 @@ How do you describe learning without a teacher or school?
 
 #### --text--
 
-Which sentence uses `actual` or `actually` correctly?
+Ni sentensi gani inayotumia `actual` au `actually` kwa usahihi?
 
 #### --distractors--
 
@@ -434,29 +434,29 @@ Which sentence uses `actual` or `actually` correctly?
 
 #### --text--
 
-Who is a `recruiter`?
+`recruiter` ni nani?
 
 #### --distractors--
 
-A person who manages a team
+Mtu anayesimamia timu
 
 ---
 
-A person who trains employees
+Mtu anayefundisha wafanyakazi
 
 ---
 
-A person who writes code
+Mtu anayefanya msimbo
 
 #### --answer--
 
-A person who hires candidates
+Mtu anayemchagua mwombaji
 
 ### --question--
 
 #### --text--
 
-What do you call a person who works for a company?
+Unamwita nani mtu anayefanya kazi kwa kampuni?
 
 #### --distractors--
 
@@ -478,7 +478,7 @@ What do you call a person who works for a company?
 
 #### --text--
 
-Which tag question is correct?
+Ni swali gani la lebo sahihi?
 
 #### --distractors--
 

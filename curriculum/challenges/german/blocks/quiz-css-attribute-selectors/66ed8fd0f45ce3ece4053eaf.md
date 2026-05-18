@@ -1,13 +1,13 @@
 ---
 id: 66ed8fd0f45ce3ece4053eaf
-title: CSS Attribute Selectors Quiz
+title: Quiz zu CSS-Attributselektoren
 challengeType: 8
 dashedName: quiz-css-attribute-selectors
 ---
 
 # --description--
 
-To pass the quiz, you must correctly answer at least 9 of the 10 questions below.
+Um das Quiz zu bestehen, müssen Sie mindestens 9 der 10 Fragen unten richtig beantworten.
 
 # --quizzes--
 
@@ -17,29 +17,29 @@ To pass the quiz, you must correctly answer at least 9 of the 10 questions below
 
 #### --text--
 
-What are CSS attribute selectors used for?
+Wofür werden CSS-Attributselektoren verwendet?
 
 #### --distractors--
 
-To apply styles to elements based on their tag name.
+Um Stile auf Elemente basierend auf ihrem Tag-Namen anzuwenden.
 
 ---
 
-To apply styles to elements based on their class name.
+Um Stile auf Elemente basierend auf ihrem Klassennamen anzuwenden.
 
 ---
 
-To apply styles to elements based on their parent element.
+Um Stile auf Elemente basierend auf ihrem Elternelement anzuwenden.
 
 #### --answer--
 
-To apply styles to elements based on their attributes.
+Um Stile auf Elemente basierend auf ihren Attributen anzuwenden.
 
 ### --question--
 
 #### --text--
 
-Which of the following will NOT be selected by this CSS selector?
+Welches der folgenden Elemente wird von diesem CSS-Selektor NICHT ausgewählt?
 
 ```css
 [title~="flower"] {
@@ -75,7 +75,7 @@ Which of the following will NOT be selected by this CSS selector?
 
 #### --text--
 
-Which CSS selector matches all `p` elements with a `lang` attribute set to `"fr"`?
+Welcher CSS-Selektor wählt alle `p`-Elemente aus, deren `lang`-Attribut auf `"fr"` gesetzt ist?
 
 #### --distractors--
 
@@ -105,7 +105,7 @@ p[lang="fr"] { color: blue; }
 
 #### --text--
 
-Which CSS selector matches all `a` elements with an `href` attribute?
+Welcher CSS-Selektor wählt alle `a`-Elemente aus, die ein `href`-Attribut besitzen?
 
 #### --distractors--
 
@@ -135,7 +135,7 @@ a[href] { color: blue; }
 
 #### --text--
 
-Which CSS selector matches all ordered lists with uppercase Roman numerals?
+Welcher CSS-Selektor wählt alle geordneten Listen mit Großbuchstaben in römischer Zahlenschreibweise aus?
 
 #### --distractors--
 
@@ -165,29 +165,29 @@ ol[type="I"] { border-color: black; }
 
 #### --text--
 
-What is the `data-lang` attribute commonly used for?
+Wofür wird das `data-lang`-Attribut üblicherweise verwendet?
 
 #### --distractors--
 
-To specify the language of the document.
+Um die Sprache des Dokuments anzugeben.
 
 ---
 
-To define the character encoding of the document.
+Um die Zeichenkodierung des Dokuments zu definieren.
 
 ---
 
-To set the language of an element based on its parent element.
+Um die Sprache eines Elements basierend auf seinem Elternelement festzulegen.
 
 #### --answer--
 
-To apply styles to elements based on this custom data attribute.
+Um Stile auf Elemente basierend auf diesem benutzerdefinierten Datenattribut anzuwenden.
 
 ### --question--
 
 #### --text--
 
-Which CSS selector should you use to style `img` elements only if their `alt` attribute is equal to `"code"`?
+Welchen CSS-Selektor sollten Sie verwenden, um `img`-Elemente nur dann zu stylen, wenn ihr `alt`-Attribut gleich `"code"` ist?
 
 #### --distractors--
 
@@ -217,7 +217,7 @@ img[alt="code"] { border: 1px solid red; }
 
 #### --text--
 
-Which CSS selector matches ordered lists with a numerical numbering type?
+Welcher CSS-Selektor wählt geordnete Listen mit numerischer Nummerierung aus?
 
 #### --distractors--
 
@@ -247,7 +247,7 @@ ol[type="1"] { color: purple; }
 
 #### --text--
 
-Which of the following CSS selectors would you use to style `a` elements with both `href` and `title` attributes?
+Welchen der folgenden CSS-Selektoren würden Sie verwenden, um `a`-Elemente mit sowohl `href`- als auch `title`-Attributen zu stylen?
 
 #### --distractors--
 
@@ -277,7 +277,7 @@ a[href][title] { text-decoration: underline dotted; }
 
 #### --text--
 
-Which CSS selector would you use if you are developing a website for a restaurant and want to style all elements with the `menu-item` class that have a `data-special` attribute?
+Welchen CSS-Selektor würden Sie verwenden, wenn Sie eine Website für ein Restaurant entwickeln und alle Elemente mit der `menu-item`-Klasse stylen möchten, die ein `data-special`-Attribut besitzen?
 
 #### --distractors--
 

@@ -1,6 +1,6 @@
 ---
 id: bd7123c9c451eddfaeb5bdef
-title: Use Bracket Notation to Find the Last Character in a String
+title: Tumia uandishi wa mabano kupata herufi ya mwisho katika mfuatano wa herufi
 challengeType: 1
 forumTopicId: 18342
 dashedName: use-bracket-notation-to-find-the-last-character-in-a-string
@@ -8,34 +8,34 @@ dashedName: use-bracket-notation-to-find-the-last-character-in-a-string
 
 # --description--
 
-In order to get the last letter of a string, you can subtract one from the string's length.
+Ili kupata herufi ya mwisho ya mfuatano wa herufi, unaweza kutoa moja kutoka kwa urefu wa mfuatano huo.
 
-For example, if `const firstName = "Ada"`, you can get the value of the last letter of the string by using `firstName[firstName.length - 1]`.
+Kwa mfano, ikiwa `const firstName = "Ada"`, unaweza kupata thamani ya herufi ya mwisho ya mfuatano kwa kutumia `firstName[firstName.length - 1]`.
 
-Example:
+Mfano:
 
 ```js
 const firstName = "Ada";
 const lastLetter = firstName[firstName.length - 1];
 ```
 
-`lastLetter` would have a value of the string `a`.
+`lastLetter` ingekuwa na thamani ya mfuatano `a`.
 
 # --instructions--
 
-Use <dfn>bracket notation</dfn> to find the last character in the `lastName` variable.
+Tumia <dfn>uandishi wa mabano</dfn> kupata herufi ya mwisho katika mabadiliko ya `lastName`.
 
-**Hint:** Try looking at the example above if you get stuck.
+**Kidokezo:** Jaribu kuangalia mfano ulio juu ikiwa unashindwa.
 
 # --hints--
 
-`lastLetterOfLastName` should be the letter `e`.
+`lastLetterOfLastName` inapaswa kuwa herufi `e`.
 
 ```js
 assert(lastLetterOfLastName === 'e');
 ```
 
-You should use `.length` to get the last letter.
+Unapaswa kutumia `.length` kupata herufi ya mwisho.
 
 ```js
 assert(__helpers.removeJSComments(code).match(/\.length/g).length > 0);

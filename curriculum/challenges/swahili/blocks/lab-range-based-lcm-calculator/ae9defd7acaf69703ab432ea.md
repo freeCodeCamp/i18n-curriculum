@@ -1,61 +1,61 @@
 ---
 id: ae9defd7acaf69703ab432ea
-title: Implement a Range-Based LCM Calculator
+title: Tekeleza kalkuleta ya LCM inayotegemea safu ya nambari
 challengeType: 26
 dashedName: implement-a-range-based-lcm-calculator
 ---
 
 # --description--
 
-In this lab, you will create a function that takes an array of two numbers and returns the least common multiple (LCM) of those two numbers and all the numbers between them.
+Katika maabara hii, utaunda kitendakazi kinachopokea safu ya data yenye nambari mbili na kurudisha nambari ndogo kabisa ya kawaida (LCM) ya nambari hizo mbili na nambari zote zilizo kati yao.
 
-**Objective**: Fulfill the user stories below and get all the tests to pass to complete the lab.
+**Lengo**: Timiza hadithi za watumizi zilizo hapa chini na upite vipimo vyote ili kumaliza maabara hii.
 
-**User Stories:**
+**Hadithi za watumizi:**
 
-1. You should have a `smallestCommons` function that accepts an array of two numbers as an argument.
-1. The `smallestCommons` function should return the smallest common multiple that is evenly divisible by both numbers and all sequential numbers in the range between them.
-1. The function should handle input where the two numbers are not in numerical order.
+1. Unapaswa kuwa na kitendakazi `smallestCommons` kinachokubali safu ya data yenye nambari mbili kama hoja.
+1. Kitendakazi `smallestCommons` kinapaswa kurudisha nambari ndogo kabisa ya kawaida inayogawika sawasawa na nambari zote mbili pamoja na nambari zote mfululizo zilizo katika safu kati yao.
+1. Kitendakazi kinapaswa kushughulikia ingizo ambapo nambari hizo mbili haziko kwa mpangilio wa nambari.
 
 # --hints--
 
-You should have a `smallestCommons` function.
+Unapaswa kuwa na kitendakazi `smallestCommons`.
 
 ```js
 assert.isFunction(smallestCommons);
 ```
 
-`smallestCommons([1, 5])` should return a number.
+`smallestCommons([1, 5])` inapaswa kurudisha nambari.
 
 ```js
 assert.isNumber(smallestCommons([1, 5]));
 ```
 
-`smallestCommons([1, 5])` should return `60`.
+`smallestCommons([1, 5])` inapaswa kurudisha `60`.
 
 ```js
 assert.strictEqual(smallestCommons([1, 5]), 60);
 ```
 
-`smallestCommons([5, 1])` should return `60`.
+`smallestCommons([5, 1])` inapaswa kurudisha `60`.
 
 ```js
 assert.strictEqual(smallestCommons([5, 1]), 60);
 ```
 
-`smallestCommons([2, 10])` should return `2520`.
+`smallestCommons([2, 10])` inapaswa kurudisha `2520`.
 
 ```js
 assert.strictEqual(smallestCommons([2, 10]), 2520);
 ```
 
-`smallestCommons([1, 13])` should return `360360`.
+`smallestCommons([1, 13])` inapaswa kurudisha `360360`.
 
 ```js
 assert.strictEqual(smallestCommons([1, 13]), 360360);
 ```
 
-`smallestCommons([23, 18])` should return `6056820`.
+`smallestCommons([23, 18])` inapaswa kurudisha `6056820`.
 
 ```js
 assert.strictEqual(smallestCommons([23, 18]), 6056820);

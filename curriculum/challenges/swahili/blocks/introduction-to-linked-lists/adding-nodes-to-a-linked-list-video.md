@@ -1,6 +1,6 @@
 ---
 id: 698dd6627932b3cc4b19c931
-title: Adding Nodes to a Linked List
+title: Kuongeza Nodi katika Orodha Iliyounganishwa
 challengeType: 11
 videoId: DcsHC78sfdk
 dashedName: adding-nodes-to-a-linked-list
@@ -8,13 +8,13 @@ dashedName: adding-nodes-to-a-linked-list
 
 # --description--
 
-In this video, you will learn how to add nodes to a linked list.
+Katika video hii, utafundishwa jinsi ya kuongeza nodi katika orodha iliyounganishwa.
 
 # --questions--
 
 ## --text--
 
-What is a commonly used term for searching through a linked list?
+Ni neno gani linalotumika sana kwa ajili ya utatafutaji katika orodha iliyounganishwa?
 
 ## --answers--
 

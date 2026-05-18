@@ -1,6 +1,6 @@
 ---
 id: 698dea1c7932b3cc4b19c948
-title: Big-O Run Times of Sorting Algorithms
+title: Big-O-Laufzeiten von Sortieralgorithmen
 challengeType: 11
 videoId: DQ1lQ0IxNgE
 dashedName: big-o-run-times-of-sorting-algorithms
@@ -8,29 +8,29 @@ dashedName: big-o-run-times-of-sorting-algorithms
 
 # --description--
 
-In this video, you will learn about the different Big O runtimes for the sorting algorithms covered so far.
+In diesem Video lernen Sie die verschiedenen Big-O-Laufzeiten der bisher behandelten Sortieralgorithmen kennen.
 
 # --questions--
 
 ## --text--
 
-What is the worst case scenario for quicksort?
+Was ist das Worst-Case-Szenario für Quicksort?
 
 ## --answers--
 
-quadratic time
+quadratische Laufzeit
 
 ---
 
-linear time
+lineare Laufzeit
 
 ---
 
-constant time
+konstante Laufzeit
 
 ---
 
-exponential time
+exponentielle Laufzeit
 
 ## --video-solution--
 

@@ -1,6 +1,6 @@
 ---
 id: 67efdfa59ffafb1f2a56381e
-title: Task 55
+title: Zoezi la 55
 challengeType: 19
 dashedName: task-55
 lang: en-US
@@ -12,13 +12,13 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Sikiliza sauti na jibu swali lililopo hapa chini.
 
 # --questions--
 
 ## --text--
 
-Jake doesn't mind discussing an issue with Jessica. What can he say?
+Jake hana shida kujadili tatizo na Jessica. Anaweza kusema nini?
 
 ## --answers--
 
@@ -38,21 +38,21 @@ EN9d00ecb9
 
 ### --feedback--
 
-This answer does not match the prompt because Jake doesn't mind discussing the issue.
+Jibu hili halilingani na ombi kwa sababu Jake hana shida kujadili tatizo.
 
 ## --video-solution--
 
 1
 
-# --explanation--
+# --explanation-- 
 
-Jessica asks, `Do you have any ideas?`, which is a way of inviting someone to share their thoughts or opinions.
+Jessica anauliza, `Do you have any ideas?`, ambayo ni njia ya kumkaribisha mtu kushiriki mawazo au maoni yake.
 
-`Sure, Jessica` is a way to show that you're open to discussing the issue. Another example:
+`Sure, Jessica` ni njia ya kuonyesha kuwa uko tayari kujadili tatizo. Mfano mwingine:
 
-- **Noah:** `Do you have any ideas how to fix it?` - This person is asking for suggestions or solutions.
+- **Noah:** `Do you have any ideas how to fix it?` - Mtu huyu anauliza mapendekezo au suluhisho.
 
-- **David:** `Sure. We could check the server logs and see what's wrong.` - This person is saying yes, and is ready to share a suggestion.
+- **David:** `Sure. We could check the server logs and see what's wrong.` - Mtu huyu anasema ndiyo, na yuko tayari kushiriki pendekezo.
 
 # --scene--
 

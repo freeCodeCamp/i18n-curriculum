@@ -1,6 +1,6 @@
 ---
 id: 698de9ea7932b3cc4b19c93f
-title: Sorting and Searching
+title: Sortieren und suchen
 challengeType: 11
 videoId: j0NR0IDAU-0
 dashedName: sorting-and-searching
@@ -8,13 +8,13 @@ dashedName: sorting-and-searching
 
 # --description--
 
-In this video, instructor Jay McGavren will talk about what to expect in the next portion of the course in regards to sorting and searching algorithms.
+In diesem Video erklärt Ihnen der Lehrende Jay McGavren, was Sie im nächsten Abschnitt des Kurses zu Sortier- und Suchalgorithmen erwartet.
 
 # --questions--
 
 ## --text--
 
-Which sorting algorithm would you use if you want to search a large sorted list of items in an efficient amount of time?
+Welchen Sortieralgorithmus würden Sie verwenden, wenn Sie eine große sortierte Liste von Elementen in effizienter Zeit durchsuchen möchten?
 
 ## --answers--
 

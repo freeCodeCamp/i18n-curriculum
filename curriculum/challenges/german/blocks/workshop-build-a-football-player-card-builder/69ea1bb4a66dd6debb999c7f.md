@@ -1,28 +1,28 @@
 ---
 id: 69ea1bb4a66dd6debb999c7f
-title: Step 49
+title: Schritt 49
 challengeType: 0
 dashedName: step-49
 ---
 
 # --description--
 
-Now you will handle the player position selection. You have to refactor the input to a select, then map over an array of valid football positions as the value of the select options.
+Jetzt kümmern Sie sich um die Auswahl der Spielerposition. Sie müssen die Eingabe in ein Auswahlfeld umwandeln und dann über ein Array gültiger Fußballpositionen als Werte der Auswahloptionen iterieren.
 
-To start, create a `POSITIONS` array with the string values of `GK`, `CB`, `LB`, `RB`, `CDM`, `CM`, `CAM`, `LW`, `RW`, `ST`, and `CF`. Add `as const` right after the closing square brackets so Typescript narrows the type from a general `string[]` to a readonly tuple of those exact literal values.
+Erstellen Sie zunächst ein `POSITIONS`-Array mit den String-Werten `GK`, `CB`, `LB`, `RB`, `CDM`, `CM`, `CAM`, `LW`, `RW`, `ST` und `CF`. Fügen Sie `as const` direkt nach den schließenden eckigen Klammern hinzu, damit TypeScript den Typ von einem allgemeinen `string[]` auf ein readonly Tuple dieser genauen Literalwerte einschränkt.
 
-This means TypeScript knows precisely what strings are valid, rather than just knowing it's some array of strings.
+Das bedeutet, TypeScript weiß genau, welche Strings gültig sind, anstatt nur zu wissen, dass es sich um ein Array von Strings handelt.
 
 # --hints--
 
-You should declare a `POSITIONS` constant.
+Sie sollten eine `POSITIONS`-Konstante deklarieren.
 
 ```js
 const explorer = await __helpers.Explorer(code);
 assert.exists(explorer.variables.POSITIONS);
 ```
 
-Your `POSITIONS` array should contain all the required football position strings use `as const` to narrow its type to readonly string literals.
+Ihr `POSITIONS`-Array sollte alle erforderlichen Fußballpositions-Strings enthalten. Verwenden Sie `as const`, um den Typ auf readonly String-Literale einzuschränken.
 
 ```js
 const explorer = await __helpers.Explorer(code);

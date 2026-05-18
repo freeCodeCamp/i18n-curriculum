@@ -1,6 +1,6 @@
 ---
 id: 68da8dffcffd794e83de9d6c
-title: Task 10
+title: Aufgabe 10
 challengeType: 19
 dashedName: task-10
 lang: zh-CN
@@ -10,13 +10,13 @@ lang: zh-CN
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Hören Sie sich die Audiodatei an und beantworten Sie die folgende Frage.
 
 # --questions--
 
 ## --text--
 
-What is Chen Na saying to greet a group of people?
+Was sagt Chen Na, um eine Gruppe von Personen zu begrüßen?
 
 ## --answers--
 
@@ -24,7 +24,7 @@ What is Chen Na saying to greet a group of people?
 
 ### --feedback--
 
-This is a greeting to one person, but Chen Na is greeting more than one.
+Dies ist eine Begrüßung für eine einzelne Person, aber Chen Na begrüßt mehrere Personen.
 
 ---
 
@@ -32,7 +32,7 @@ This is a greeting to one person, but Chen Na is greeting more than one.
 
 ### --feedback--
 
-This form is not standard in Chinese.
+Diese Form ist im Chinesischen nicht standardmäßig.
 
 ---
 
@@ -44,7 +44,7 @@ This form is not standard in Chinese.
 
 ### --feedback--
 
-This also means "Hello, everyone", but Chen Na uses a different phrase.
+Das bedeutet ebenfalls „Hallo, alle zusammen“, aber Chen Na verwendet einen anderen Ausdruck.
 
 ## --video-solution--
 
@@ -52,11 +52,11 @@ This also means "Hello, everyone", but Chen Na uses a different phrase.
 
 # --explanation--
 
-The question is asking what Chen Na is saying to greet **a group of people**.
+Die Frage lautet, was Chen Na sagt, um **eine Gruppe von Personen** zu begrüßen.
 
-`你好 (nǐ hǎo)` is a greeting to one person, while `您好 (nín hǎo)` is a polite greeting to one person. `您们好 (nín men hǎo)` is not standard in Chinese; `您 (nín)` is polite singular, not usually pluralized.
+`你好 (nǐ hǎo)` ist eine Begrüßung für eine einzelne Person, während `您好 (nín hǎo)` eine höfliche Begrüßung für eine einzelne Person ist. `您们好 (nín men hǎo)` ist im Chinesischen nicht standardmäßig; `您 (nín)` ist höflich und singular, wird normalerweise nicht im Plural verwendet.
 
-The correct phrase for greeting a group is `你们好 (nǐ men hǎo)`, which is a common way to say "hello, everyone". `大家好 (dà jiā hǎo)` is another way to greet a group, which you'll learn as you progress.
+Der korrekte Ausdruck, um eine Gruppe zu begrüßen, ist `你们好 (nǐ men hǎo)`, was eine gebräuchliche Art ist, „Hallo, alle zusammen“ zu sagen. `大家好 (dà jiā hǎo)` ist eine weitere Möglichkeit, eine Gruppe zu begrüßen, die Sie im Verlauf noch lernen werden.
 
 # --scene--
 

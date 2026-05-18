@@ -1,6 +1,6 @@
 ---
 id: 5a5d02bd919fcf9ca8cf46cb
-title: Build a Light-Bright App
+title: Eine Light-Bright-App erstellen
 challengeType: 3
 forumTopicId: 302350
 dashedName: build-a-light-bright-app
@@ -8,27 +8,27 @@ dashedName: build-a-light-bright-app
 
 # --description--
 
-**Objective:** Build an app that is functionally similar to this: <https://codepen.io/freeCodeCamp/full/eyLYXE>.
+**Ziel:** Erstellen Sie eine App, die funktional ähnlich ist wie diese: <https://codepen.io/freeCodeCamp/full/eyLYXE>.
 
-**Rule #1:** Don't look at the example project's code. Figure it out for yourself.
+**Regel Nr. 1:** Schauen Sie sich nicht den Code des Beispielprojekts an. Finden Sie es selbst heraus.
 
-**Rule #2:** Fulfill the below user stories and get all of the tests to pass. Use whichever libraries or APIs you need. Give it your own personal style.
+**Regel Nr. 2:** Erfüllen Sie die untenstehenden User Stories und bringen Sie alle Tests zum Bestehen. Verwenden Sie beliebige Bibliotheken oder APIs. Verleihen Sie der App Ihren eigenen Stil.
 
-**User Story:** I can click or drag the mouse cursor to color the circles.
+**User Story:** Ich kann mit einem Klick oder durch Ziehen des Mauszeigers die Kreise einfärben.
 
-**User Story:** I can double-click on a colored circle to remove the color.
+**User Story:** Ich kann einen farbigen Kreis durch Doppelklick von der Farbe befreien.
 
-**User Story:** I can click on a colored circle to change its color.
+**User Story:** Ich kann auf einen farbigen Kreis klicken, um seine Farbe zu ändern.
 
-**User Story:** I should get a circle of different color on each click.
+**User Story:** Bei jedem Klick sollte ich einen Kreis in einer anderen Farbe erhalten.
 
-**User Story:** I can click on the 'Reset' button to remove the recent color.
+**User Story:** Ich kann auf die Schaltfläche „Zurücksetzen“ klicken, um die zuletzt gesetzte Farbe zu entfernen.
 
-**User Story:** I can click on the 'Reset All' button to remove all the colors from the circles.
+**User Story:** Ich kann auf die Schaltfläche „Alles zurücksetzen“ klicken, um alle Farben der Kreise zu entfernen.
 
-When you are finished, include a link to your project on CodePen and click the "I've completed this challenge" button.
+Wenn Sie fertig sind, fügen Sie einen Link zu Ihrem Projekt auf CodePen hinzu und klicken Sie auf die Schaltfläche „Ich habe diese Aufgabe abgeschlossen“.
 
-You can get feedback on your project by sharing it on the <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp forum</a>.
+Sie können Feedback zu Ihrem Projekt erhalten, indem Sie es im <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp-Forum</a> teilen.
 
 # --solutions--
 

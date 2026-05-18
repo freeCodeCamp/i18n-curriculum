@@ -1,6 +1,6 @@
 ---
 id: cf1111c1c12feddfaeb1bdef
-title: Generate Random Whole Numbers with JavaScript
+title: Tengeneza nambari kamili za bahati nasibu kwa JavaScript
 challengeType: 1
 forumTopicId: 18186
 dashedName: generate-random-whole-numbers-with-javascript
@@ -8,29 +8,29 @@ dashedName: generate-random-whole-numbers-with-javascript
 
 # --description--
 
-You can generate random decimal numbers with `Math.random()`, but sometimes you need to generate random whole numbers. The following process will give you a random whole number less than `20`:
+Unaweza kutengeneza nambari za desimali za bahati nasibu kwa `Math.random()`, lakini wakati mwingine unahitaji kutengeneza nambari kamili za bahati nasibu. Mchakato ufuatao utakupa nambari kamili ya bahati nasibu isiyozidi `20`:
 
-1. Use `Math.random()` to generate a random decimal number.
-2. Multiply that random decimal number by `20`.
-3. Use `Math.floor()` to round this number down to its nearest whole number.
+1. Tumia `Math.random()` kutengeneza nambari ya desimali ya bahati nasibu.
+2. Zidisha nambari hiyo ya desimali ya bahati nasibu kwa `20`.
+3. Tumia `Math.floor()` kuzungusha nambari hii chini hadi nambari kamili iliyo karibu nayo.
 
-Remember that `Math.random()` can never quite return a `1`, so it's impossible to actually get `20` since you are rounding down with `Math.floor()`. This process will give you a random whole number in the range from `0` to `19`.
+Kumbuka kwamba `Math.random()` haiwezi kamwe kurudisha `1`, kwa hivyo haiwezekani kupata `20` kwa sababu unazungusha chini kwa `Math.floor()`. Mchakato huu utakupa nambari kamili ya bahati nasibu katika anuwai kutoka `0` hadi `19`.
 
-Putting everything together, this is what your code looks like:
+Ukichanganya yote pamoja, msimbo wako utaonekana hivi:
 
 ```js
 Math.floor(Math.random() * 20);
 ```
 
-You are calling `Math.random()`, multiplying the result by 20, then passing the value to `Math.floor()` to round the value down to the nearest whole number.
+Unafanya wito wa `Math.random()`, ukizidisha matokeo kwa 20, kisha kupitisha thamani kwa `Math.floor()` kuzungusha thamani chini hadi nambari kamili iliyo karibu.
 
 # --instructions--
 
-Use this technique to generate and return a random whole number in the range from `0` to `9`.
+Tumia mbinu hii kutengeneza na kurudisha nambari kamili ya bahati nasibu katika anuwai kutoka `0` hadi `9`.
 
 # --hints--
 
-The result of `randomWholeNum` should be a whole number.
+Matokeo ya `randomWholeNum` yanapaswa kuwa nambari kamili.
 
 ```js
 assert(
@@ -42,13 +42,13 @@ assert(
 );
 ```
 
-You should use `Math.random` to generate a random number.
+Unapaswa kutumia `Math.random` kutengeneza nambari ya bahati nasibu.
 
 ```js
 assert(__helpers.removeJSComments(code).match(/Math.random/g).length >= 1);
 ```
 
-You should have multiplied the result of `Math.random` by 10 to make it a number in the range from zero to nine.
+Unapaswa kuwa umezidisha matokeo ya `Math.random` kwa 10 ili kuifanya kuwa nambari katika anuwai kutoka sifuri hadi tisa.
 
 ```js
 assert(
@@ -57,7 +57,7 @@ assert(
 );
 ```
 
-You should use `Math.floor` to remove the decimal part of the number.
+Unapaswa kutumia `Math.floor` kuondoa sehemu ya desimali ya nambari.
 
 ```js
 assert(__helpers.removeJSComments(code).match(/Math.floor/g).length >= 1);

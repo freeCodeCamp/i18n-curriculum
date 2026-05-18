@@ -1,37 +1,37 @@
 ---
 id: 694afa3fcd55df0cbc49a3cf
-title: Step 2
+title: Schritt 2
 challengeType: 0
 dashedName: step-2
 ---
 
 # --description--
 
-Now link your `styles.css` file to the HTML document.
+Verknüpfen Sie nun Ihre `styles.css`-Datei mit dem HTML-Dokument.
 
 # --hints--
 
-You should have a `link` element inside the `head` element.
+Sie sollten ein `link`-Element innerhalb des `head`-Elements haben.
 
 ```js
 assert.exists(document.querySelector('head > link'));
 ```
 
-Your `link` element should have a `rel` attribute.
+Ihr `link`-Element sollte ein `rel`-Attribut besitzen.
 
 ```js
 const linkEl = document.querySelector('head > link');
 assert.exists(linkEl?.getAttribute('rel'));
 ```
 
-Your `link` element should have a `rel` attribute set to `stylesheet`.
+Ihr `link`-Element sollte ein `rel`-Attribut mit dem Wert `stylesheet` besitzen.
 
 ```js
 const linkEl = document.querySelector('head > link');
 assert.equal(linkEl?.getAttribute('rel'), 'stylesheet');
 ```
 
-Your `link` element should have an `href` attribute set to `styles.css`.
+Ihr `link`-Element sollte ein `href`-Attribut mit dem Wert `styles.css` besitzen.
 
 ```js
 const linkHrefValue = document.querySelector('head > link')?.dataset?.href;
@@ -46,17 +46,17 @@ assert.match(linkHrefValue, /^(\.\/)?styles\.css$/);
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Colored Boxes</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Colored Boxes</title>
 --fcc-editable-region--
-
+	
 --fcc-editable-region-- 
 </head> 
 <body>
-    <header>
-        <h1>Colored Boxes Layout</h1>
-    </header>
+	<header>
+		<h1>Colored Boxes Layout</h1>
+	</header>
 </body>
 </html>
 ```

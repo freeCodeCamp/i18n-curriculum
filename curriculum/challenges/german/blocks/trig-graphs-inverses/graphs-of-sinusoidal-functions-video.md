@@ -1,6 +1,6 @@
 ---
 id: 699e69db8f18cf77dfce5c12
-title: Graphs of Sinusoidal Functions
+title: Graphen von Sinusfunktionen
 challengeType: 11
 videoId: Jif_m8LkyMA
 dashedName: graphs-of-sinusoidal-functions
@@ -8,29 +8,29 @@ dashedName: graphs-of-sinusoidal-functions
 
 # --description--
 
-In this video, you will learn about the graphs of sinusoidal functions.
+In diesem Video lernen Sie die Graphen von Sinusfunktionen kennen.
 
 # --questions--
 
 ## --text--
 
-What are sinusoidal functions related to?
+Worauf beziehen sich Sinusfunktionen?
 
 ## --answers--
 
-They are related to tangent and cotangent.
+Sie beziehen sich auf Tangens und Kotangens.
 
 ---
 
-They are related to secant and cosecant.
+Sie beziehen sich auf Sekans und Kosekans.
 
 ---
 
-They are related to tangent and secant.
+Sie beziehen sich auf Tangens und Sekans.
 
 ---
 
-They are related to sine and cosine.
+Sie beziehen sich auf Sinus und Kosinus.
 
 ## --video-solution--
 

@@ -7,10 +7,10 @@ dashedName: challenge-132
 
 # --description--
 
-Given an array of values, remove all occurrences of the most frequently occurring element and return the resulting array.
+Ukitoa safu ya data yenye thamani mbalimbali, ondoa matukio yote ya kipengele kinachojirudia mara nyingi zaidi na urudishe safu ya data iliyobaki.
 
-- If multiple values are tied for most frequent, remove all of them.
-- Do not change any of the other elements or their order.
+- Ikiwa thamani nyingi zimefanana kuwa zinajirudia mara nyingi zaidi, ziondoe zote.
+- Usibadilishe vipengele vingine au mpangilio wake.
 
 # --hints--
 

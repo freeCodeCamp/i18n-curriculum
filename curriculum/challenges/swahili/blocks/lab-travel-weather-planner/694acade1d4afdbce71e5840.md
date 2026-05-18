@@ -1,101 +1,101 @@
 ---
 id: 694acade1d4afdbce71e5840
-title: Build a Travel Weather Planner
+title: Tengeneza mpango wa hali ya hewa ya kusafiri
 challengeType: 27
 dashedName: build-a-travel-weather-planner
 ---
 
 # --description--
 
-For this lab, you will use conditional statements to determine whether commuting is possible based on the weather, the distance to travel, and the availability of a vehicle.
+Kwa maabara hii, utatumia sentensi za masharti kuamua kama kusafiri kwa njia ya usafiri wa kawaida kunawezekana kulingana na hali ya hewa, umbali wa kusafiri, na upatikanaji wa gari.
 
-**Objective:** Fulfill the user stories below and get all the tests to pass to complete the lab.
+**Lengo:** Timiza hadithi za watumizi zilizo hapa chini na upite vipimo vyote ili kumaliza maabara.
 
-**User Stories:**
+**Hadithi za watumizi:**
 
-1. You should create the following variables:
-   * `distance_mi` (a number representing the distance to travel in miles)
-   * `is_raining` (a boolean representing if the user is currently experiencing rainy weather)
-   * `has_bike` (a boolean representing if the user has a bicycle)
-   * `has_car` (a boolean representing if the user has a car)
-   * `has_ride_share_app` (a boolean representing if the user has an app that allows them to request a ride)
-1. You should use conditional statements to determine whether commuting is possible based on the values of these variables.
-1. You should use `if`, `elif`, and `else` statements to evaluate the distance categories in ascending order.
-1. If `distance_mi` is a falsy value:
-   * You should print `False`.
-1. If the distance is **less than or equal to 1 mile**:
-   * You should print `True` only if it is **not raining**.
-   * Otherwise, you should print `False`.
-1. If the distance is **greater than 1 mile and less than or equal to 6 miles**:
-   * You should print `True` only if the person has a bike **and** it is not raining.
-   * Otherwise, you should print `False`.
-1. If the distance is **greater than 6 miles**:
-   * You should print `True` if the person has a car **or** has a ride-share app.
-   * Otherwise, you should print `False`.
+1. Unapaswa kuunda vigezo vifuatavyo:
+   * `distance_mi` (nambari inayowakilisha umbali wa kusafiri kwa maili)
+   * `is_raining` (thamani ya kweli au siyo kweli inayowakilisha kama mtumizi kwa sasa anakutana na mvua)
+   * `has_bike` (thamani ya kweli au siyo kweli inayowakilisha kama mtumizi ana baiskeli)
+   * `has_car` (thamani ya kweli au siyo kweli inayowakilisha kama mtumizi ana gari)
+   * `has_ride_share_app` (thamani ya kweli au siyo kweli inayowakilisha kama mtumizi ana programu inayomruhusu kuomba usafiri)
+1. Unapaswa kutumia sentensi za masharti kuamua kama kusafiri kunawezekana kulingana na thamani za vigezo hivi.
+1. Unapaswa kutumia sentensi za `if`, `elif`, na `else` kutathmini makundi ya umbali kwa mpangilio wa kuongezeka.
+1. Ikiwa `distance_mi` ni thamani ya uongo:
+   * Unapaswa chapisha `False`.
+1. Ikiwa umbali ni **chini au sawa na maili 1**:
+   * Unapaswa chapisha `True` tu ikiwa **hakuna mvua**.
+   * Vinginevyo, unapaswa chapisha `False`.
+1. Ikiwa umbali ni **zaidi ya maili 1 na chini au sawa na maili 6**:
+   * Unapaswa chapisha `True` tu ikiwa mtu ana baiskeli **na** hakuna mvua.
+   * Vinginevyo, unapaswa chapisha `False`.
+1. Ikiwa umbali ni **zaidi ya maili 6**:
+   * Unapaswa chapisha `True` ikiwa mtu ana gari **au** ana programu ya kuomba usafiri.
+   * Vinginevyo, unapaswa chapisha `False`. 
 
 # --hints--
 
-You should have a variable named `distance_mi`.
+Unapaswa kuwa na kigezo kinachoitwa `distance_mi`.
 
 ```js
 ({ test: () => runPython(`assert _Node(_code).has_variable("distance_mi")`) })
 ```
 
-You should assign a number to your `distance_mi` variable.
+Unapaswa weka thamani ya nambari kwa kigezo chako cha `distance_mi`.
 
 ```js
 ({ test: () => runPython(`assert isinstance(distance_mi, (int, float))`) })
 ```
 
-You should have a variable named `is_raining`.
+Unapaswa kuwa na kigezo kinachoitwa `is_raining`.
 
 ```js
 ({ test: () => runPython(`assert _Node(_code).has_variable("is_raining")`) })
 ```
 
-You should assign a boolean to your `is_raining` variable.
+Unapaswa weka thamani ya kweli au siyo kweli kwa kigezo chako cha `is_raining`.
 
 ```js
 ({ test: () => runPython(`assert isinstance(is_raining, bool)`) })
 ```
 
-You should have a variable named `has_bike`.
+Unapaswa kuwa na kigezo kinachoitwa `has_bike`.
 
 ```js
 ({ test: () => runPython(`assert _Node(_code).has_variable("has_bike")`) })
 ```
 
-You should assign a boolean to your `has_bike` variable.
+Unapaswa weka thamani ya kweli au siyo kweli kwa kigezo chako cha `has_bike`.
 
 ```js
 ({ test: () => runPython(`assert isinstance(has_bike, bool)`) })
 ```
 
-You should have a variable named `has_car`.
+Unapaswa kuwa na kigezo kinachoitwa `has_car`.
 
 ```js
 ({ test: () => runPython(`assert _Node(_code).has_variable("has_car")`) })
 ```
 
-You should assign a boolean to your `has_car` variable.
+Unapaswa weka thamani ya kweli au siyo kweli kwa kigezo chako cha `has_car`.
 
 ```js
 ({ test: () => runPython(`assert isinstance(has_car, bool)`) })
 ```
 
-You should have a variable named `has_ride_share_app`.
+Unapaswa kuwa na kigezo kinachoitwa `has_ride_share_app`.
 
 ```js
 ({ test: () => runPython(`assert _Node(_code).has_variable("has_ride_share_app")`) })
 ```
 
-You should assign a boolean to your `has_ride_share_app` variable.
+Unapaswa weka thamani ya kweli au siyo kweli kwa kigezo chako cha `has_ride_share_app`.
 
 ```js
 ({ test: () => runPython(`assert isinstance(has_ride_share_app, bool)`) })
 ```
 
-You should use at least one `if` statement.
+Unapaswa tumia angalau sentensi moja ya `if`.
 
 ```js
 ({ test: () => runPython(`
@@ -107,7 +107,7 @@ assert len(ifs) >= 1
 `) })
 ```
 
-You should use at least one `elif` branch in your program.
+Unapaswa tumia angalau tawi moja la `elif` katika programu yako.
 
 ```js
 ({ test: () => runPython(`
@@ -125,7 +125,7 @@ assert len(elifs) >= 1
 `) })
 ```
 
-You should use at least one boolean operator (`and`, `or`, or `not`) in your code.
+Unapaswa tumia angalau mtaalamu mmoja wa thamani ya kweli au siyo kweli (`and`, `or`, au `not`) katika msimbo wako.
 
 ```js
 ({ test: () => runPython(`
@@ -142,13 +142,13 @@ assert len(bool_ops) >= 1
 `) })
 ```
 
-You should use the `print()` function to display the result.
+Unapaswa tumia kitendakazi cha `print()` kuonyesha matokeo.
 
 ```js
 ({ test: () => runPython(`assert _Node(_code).block_has_call("print")`) })
 ```
 
-When `distance_mi` is a falsy value, the program should print `False`.
+Wakati `distance_mi` ni thamani ya uongo, programu inapaswa chapisha `False`.
 
 ```js
 ({ test: () => runPython(`
@@ -207,7 +207,7 @@ run_case(
 `) })
 ```
 
-When the distance is `1` mile or less and it is not raining, the program should print `True`.
+Wakati umbali ni `1` maili au chini na hakuna mvua, programu inapaswa chapisha `True`.
 
 ```js
 ({ test: () => runPython(`
@@ -266,7 +266,7 @@ run_case(
 `) })
 ```
 
-When the distance is `1` mile or less and it is raining, the program should print `False`.
+Wakati umbali ni `1` maili au chini na kuna mvua, programu inapaswa chapisha `False`.
 
 ```js
 ({ test: () => runPython(`
@@ -325,7 +325,7 @@ run_case(
 `) })
 ```
 
-When the distance is between `1` mile (excluded) and `6` miles (included), and it is raining with no bike, the program should print `False`.
+Wakati umbali uko kati ya `1` maili (haijajumuishwa) na `6` maili (imejumuishwa), na kuna mvua bila baiskeli, programu inapaswa chapisha `False`.
 
 ```js
 ({ test: () => runPython(`
@@ -395,7 +395,7 @@ run_case(
 `) })
 ```
 
-When the distance is between `1` mile (excluded) and `6` miles (included), it is not raining but no bike is available, the program should print `False`.
+Wakati umbali uko kati ya `1` maili (haijajumuishwa) na `6` maili (imejumuishwa), hakuna mvua lakini hakuna baiskeli, programu inapaswa chapisha `False`.
 
 ```js
 ({ test: () => runPython(`
@@ -465,7 +465,7 @@ run_case(
 `) })
 ```
 
-When the distance is between `1` mile (excluded) and `6` miles (included), a bike is available, and it is not raining, the program should print `True`.
+Wakati umbali uko kati ya `1` maili (haijajumuishwa) na `6` maili (imejumuishwa), baiskeli inapatikana, na hakuna mvua, programu inapaswa chapisha `True`.
 
 ```js
 ({ test: () => runPython(`
@@ -533,7 +533,7 @@ run_case(
 `) })
 ```
 
-When the distance is greater than `6` miles and a ride share app is available, the program should print `True`.
+Wakati umbali ni zaidi ya `6` maili na programu ya kuomba usafiri inapatikana, programu inapaswa chapisha `True`.
 
 ```js
 ({ test: () => runPython(`
@@ -581,7 +581,7 @@ run_case(
 `) })
 ```
 
-When the distance is greater than `6` miles and a car is available, the program should print `True`.
+Wakati umbali ni zaidi ya `6` maili na gari linapatikana, programu inapaswa chapisha `True`.
 
 ```js
 ({ test: () => runPython(`
@@ -629,7 +629,7 @@ run_case(
 `) })
 ```
 
-When the distance is greater than `6` miles and no car nor a ride share app is available, the program should print `False`.
+Wakati umbali ni zaidi ya `6` maili na hakuna gari wala programu ya kuomba usafiri inapatikana, programu inapaswa chapisha `False`.
 
 ```js
 ({ test: () => runPython(`
@@ -706,4 +706,3 @@ elif distance_mi <= 6:
 else:
     print(has_car or has_ride_share_app)
 ```
-

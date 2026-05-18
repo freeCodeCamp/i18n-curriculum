@@ -1,35 +1,35 @@
 ---
 id: 6823c1a0bcada44f32bf0bdc
-title: Step 4
+title: Schritt 4
 challengeType: 0
 dashedName: step-4
 ---
 
 # --description--
 
-An `h1` element is the main heading of a webpage and you should only use one per page. `h2` elements represent subheadings. You can have multiple per page and they look like this:
+Ein `h1`-Element ist die Hauptüberschrift einer Webseite, und Sie sollten pro Seite nur eine verwenden. `h2`-Elemente stellen Unterüberschriften dar. Sie können mehrere pro Seite haben, und sie sehen so aus:
 
 ```html
 <h2>This is a subheading.</h2>
 ```
 
-Turn the `Full-Stack Curriculum` text into an `h2` element by surrounding it with opening and closing `h2` tags.
+Verwandeln Sie den `Full-Stack Curriculum`-Text in ein `h2`-Element, indem Sie ihn mit öffnenden und schließenden `h2`-Tags umgeben.
 
 # --hints--
 
-Your `h2` element should have an opening `<h2>` tag.
+Ihr `h2`-Element sollte ein öffnendes `<h2>`-Tag haben.
 
 ```js
 assert.exists(document.querySelector("h2"));
 ```
 
-Your `h2` element should have a closing `</h2>` tag.
+Ihr `h2`-Element sollte ein schließendes `</h2>`-Tag haben.
 
 ```js
 assert.match(code, /<\/h2\s*\>/);
 ```
 
-Your `h2` element should look like this: `<h2>Full-Stack Curriculum</h2>`.
+Ihr `h2`-Element sollte so aussehen: `<h2>Full-Stack Curriculum</h2>`.
 
 ```js
 // purposefully removing friction for early users to help improve retention in early lessons

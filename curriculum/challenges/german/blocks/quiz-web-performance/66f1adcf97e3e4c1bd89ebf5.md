@@ -1,13 +1,13 @@
 ---
 id: 66f1adcf97e3e4c1bd89ebf5
-title: Web Performance Quiz
+title: Quiz zur Web-Performance
 challengeType: 8
 dashedName: quiz-web-performance
 ---
 
 # --description--
 
-To pass the quiz, you must correctly answer at least 18 of the 20 questions below.
+Um das Quiz zu bestehen, müssen Sie mindestens 18 der 20 Fragen unten richtig beantworten.
 
 # --quizzes--
 
@@ -17,29 +17,29 @@ To pass the quiz, you must correctly answer at least 18 of the 20 questions belo
 
 #### --text--
 
-What is the key difference between real performance and perceived performance in web development?
+Was ist der entscheidende Unterschied zwischen echter Performance und wahrgenommener Performance in der Webentwicklung?
 
 #### --distractors--
 
-Real performance focuses on the number of HTTP requests made by the browser, while perceived performance is based on CSS rendering speed.
+Echte Performance konzentriert sich auf die Anzahl der HTTP-Anfragen, die der Browser stellt, während sich die wahrgenommene Performance auf die Geschwindigkeit des CSS-Renderns stützt.
 
 ---
 
-Real performance is only about load times, while perceived performance relates to visual elements like animations and loading indicators.
+Echte Performance bezieht sich nur auf Ladezeiten, während sich die wahrgenommene Performance auf visuelle Elemente wie Animationen und Ladeanzeigen bezieht.
 
 ---
 
-Real performance only includes server-side processing times, while perceived performance is entirely client-side.
+Echte Performance umfasst nur serverseitige Verarbeitungszeiten, während sich die wahrgenommene Performance vollständig auf die Client-Seite bezieht.
 
 #### --answer--
 
-Real performance is how fast content is loaded, while perceived performance is how quickly users believe the page loads.
+Echte Performance beschreibt, wie schnell Inhalte geladen werden, während wahrgenommene Performance angibt, wie schnell Nutzer glauben, dass die Seite lädt.
 
 ### --question--
 
 #### --text--
 
-Which metric best indicates how quickly content appears on a web page?
+Welche Metrik zeigt am besten an, wie schnell Inhalte auf einer Webseite erscheinen?
 
 #### --distractors--
 
@@ -61,73 +61,73 @@ First Contentful Paint (FCP)
 
 #### --text--
 
-Which of the following is NOT a way to reduce page loading times?
+Welche der folgenden Maßnahmen ist KEIN Weg, um Ladezeiten von Seiten zu reduzieren?
 
 #### --distractors--
 
-Optimizing Media Assets.
+Optimierung von Medieninhalten.
 
 ---
 
-Leveraging Browser Caching.
+Nutzung von Browser-Caching.
 
 ---
 
-Minifying and Compress Files.
+Minimierung und Komprimierung von Dateien.
 
 #### --answer--
 
-Using only JPEG files.
+Nur JPEG-Dateien verwenden.
 
 ### --question--
 
 #### --text--
 
-What is "time to usable"?
+Was bedeutet „time to usable“?
 
 #### --distractors--
 
-It is the interval from when a user requests a page to when they can interact with forms on the page.
+Es ist das Intervall von der Anforderung einer Seite durch den Nutzer bis zu dem Zeitpunkt, an dem er mit Formularen auf der Seite interagieren kann.
 
 ---
 
-It is the time it takes for all images and animations to become available and usable.
+Es ist die Zeit, die benötigt wird, bis alle Bilder und Animationen verfügbar und nutzbar sind.
 
 ---
 
-This is the time it takes for all CSS and JavaScript animations to load on the screen.
+Dies ist die Zeit, die alle CSS- und JavaScript-Animationen benötigen, um auf dem Bildschirm zu laden.
 
 #### --answer--
 
-It is the interval from when a user requests a page to when they can meaningfully interact with it.
+Es ist das Intervall von der Anforderung einer Seite durch den Nutzer bis zu dem Zeitpunkt, an dem er sinnvoll mit ihr interagieren kann.
 
 ### --question--
 
 #### --text--
 
-What does First Contentful Paint (FCP) measure?
+Was misst First Contentful Paint (FCP)?
 
 #### --distractors--
 
-The overall load time for all JavaScript files on the page.
+Die Gesamtzeit zum Laden aller JavaScript-Dateien auf der Seite.
 
 ---
 
-The delay before a user can interact with any elements on the page.
+Die Verzögerung, bevor ein Nutzer mit Elementen auf der Seite interagieren kann.
 
 ---
 
-The time taken for all stylesheets to fully load and apply.
+Die Zeit, die alle Stylesheets benötigen, um vollständig zu laden und angewendet zu werden.
 
 #### --answer--
 
-The time it takes for the first piece of text or image to render.
+Die Zeit, die benötigt wird, bis das erste Textstück oder Bild gerendert wird.
 
 ### --question--
 
 #### --text--
 
-Which of the following is NOT a commonly used performance measurement tool?
+Welches der folgenden Tools ist KEIN häufig verwendetes Werkzeug zur Performance-Messung?
 
 #### --distractors--
 
@@ -149,55 +149,55 @@ WebMeasure
 
 #### --text--
 
-What are Performance Web APIs used for?
+Wofür werden Performance Web APIs verwendet?
 
 #### --distractors--
 
-It is used to measure the performance for CSS animations only.
+Sie werden nur zur Messung der Performance von CSS-Animationen verwendet.
 
 ---
 
-It is used to automatically speed up the performance for a web page.
+Sie werden verwendet, um die Performance einer Webseite automatisch zu beschleunigen.
 
 ---
 
-It provides a detailed table of performance metrics for the user.
+Sie liefern eine detaillierte Tabelle mit Performance-Metriken für den Nutzer.
 
 #### --answer--
 
-It lets developers track how efficiently a webpage loads and responds directly from code.
+Sie ermöglichen Entwicklern, direkt im Code zu verfolgen, wie effizient eine Webseite lädt und reagiert.
 
 ### --question--
 
 #### --text--
 
-Which strategy can effectively enhance perceived performance?
+Welche Strategie kann die wahrgenommene Performance effektiv verbessern?
 
 #### --distractors--
 
-Using large images to improve the overall visual quality.
+Große Bilder verwenden, um die visuelle Qualität insgesamt zu verbessern.
 
 ---
 
-Loading CSS styles last to prioritize content rendering.
+CSS-Stile zuletzt laden, um das Rendern von Inhalten zu priorisieren.
 
 ---
 
-Preloading all scripts to ensure they are ready when needed.
+Alle Skripte vorladen, damit sie bei Bedarf bereitstehen.
 
 #### --answer--
 
-Displaying a loading skeleton while content is being fetched.
+Ein Lade-Skelett anzeigen, während Inhalte geladen werden.
 
 ### --question--
 
 #### --text--
 
-Which of the following refers to the time it takes for a request to travel between the browser and the server?
+Welcher Begriff beschreibt die Zeit, die eine Anfrage benötigt, um zwischen Browser und Server hin- und zurückzureisen?
 
 #### --distractors--
 
-rendering
+Rendering
 
 ---
 
@@ -209,35 +209,35 @@ CDN
 
 #### --answer--
 
-latency
+Latenz
 
 ### --question--
 
 #### --text--
 
-How does optimizing CSS impact page performance?
+Wie wirkt sich die Optimierung von CSS auf die Seitenperformance aus?
 
 #### --distractors--
 
-It prevents the browser from executing unnecessary JavaScript.
+Sie verhindert, dass der Browser unnötiges JavaScript ausführt.
 
 ---
 
-It reduces the overall file size of images.
+Sie reduziert die Gesamtgröße von Bilddateien.
 
 ---
 
-It eliminates the need for lazy loading images.
+Sie macht Lazy Loading von Bildern überflüssig.
 
 #### --answer--
 
-It speeds up the parsing of HTML.
+Sie beschleunigt das Parsen von HTML.
 
 ### --question--
 
 #### --text--
 
-Which of the following shows how long the main thread is blocked by heavy JavaScript tasks?
+Welche der folgenden Metriken zeigt, wie lange der Hauptthread durch schwere JavaScript-Aufgaben blockiert ist?
 
 #### --distractors--
 
@@ -259,29 +259,29 @@ Total Blocking Time
 
 #### --text--
 
-When measuring Interaction to Next Paint (INP), what is being evaluated?
+Was wird bei der Messung von Interaction to Next Paint (INP) bewertet?
 
 #### --distractors--
 
-The time it takes for the page to fully load all styles and images after a user interaction.
+Die Zeit, die die Seite benötigt, um nach einer Nutzerinteraktion alle Stile und Bilder vollständig zu laden.
 
 ---
 
-The delay between a user's interaction and the browser's ability to register the next user input.
+Die Verzögerung zwischen einer Nutzerinteraktion und der Fähigkeit des Browsers, die nächste Eingabe zu registrieren.
 
 ---
 
-The interval between JavaScript execution and the browser refreshing the page content.
+Das Intervall zwischen der Ausführung von JavaScript und dem Aktualisieren des Seiteninhalts durch den Browser.
 
 #### --answer--
 
-The time between a user's interaction and the browser responding by rendering the next frame.
+Die Zeit zwischen einer Nutzerinteraktion und der Reaktion des Browsers durch das Rendern des nächsten Frames.
 
 ### --question--
 
 #### --text--
 
-Which of the following APIs gives you high-precision timestamps (in milliseconds) to measure how long different parts of your site take to load?
+Welche der folgenden APIs liefert hochpräzise Zeitstempel (in Millisekunden), um zu messen, wie lange verschiedene Teile Ihrer Seite zum Laden benötigen?
 
 #### --distractors--
 
@@ -303,7 +303,7 @@ Which of the following APIs gives you high-precision timestamps (in milliseconds
 
 #### --text--
 
-Which of the following APIs gives you a breakdown of every stage of page loading from DNS lookup to `DOMContentLoaded`?
+Welche der folgenden APIs liefert eine Aufschlüsselung jeder Phase des Seitenladens vom DNS-Lookup bis zu `DOMContentLoaded`?
 
 #### --distractors--
 
@@ -325,7 +325,7 @@ Performance Timing API
 
 #### --text--
 
-Which of the following listens for performance events such as layout shifts, long tasks, and user interactions?
+Welche der folgenden APIs hört auf Performance-Ereignisse wie Layout-Verschiebungen, lange Tasks und Nutzerinteraktionen?
 
 #### --distractors--
 
@@ -379,51 +379,51 @@ observer.observe({ type: "longtask", buffered: true });
 
 #### --text--
 
-How does lazy loading images enhance page performance?
+Wie verbessert Lazy Loading von Bildern die Seitenperformance?
 
 #### --distractors--
 
-It ensures all images load immediately for a better user experience.
+Es sorgt dafür, dass alle Bilder sofort laden, um die Nutzererfahrung zu verbessern.
 
 ---
 
-It reduces the size of image files to speed up loading.
+Es reduziert die Größe der Bilddateien, um das Laden zu beschleunigen.
 
 ---
 
-It preloads images to prevent any loading delays.
+Es lädt Bilder vor, um Ladeverzögerungen zu vermeiden.
 
 #### --answer--
 
-It delays loading non-essential images until they are in view.
+Es verzögert das Laden von nicht wesentlichen Bildern, bis sie im Sichtbereich sind.
 
 ### --question--
 
 #### --text--
 
-What is code splitting?
+Was versteht man unter Code Splitting?
 
 #### --distractors--
 
-It involves splitting your React code into modules that perform only critical tasks
+Es bedeutet, Ihren React-Code in Module aufzuteilen, die nur kritische Aufgaben ausführen.
 
 ---
 
-It involves splitting your HTML code into modules that perform only non-critical tasks.
+Es bedeutet, Ihren HTML-Code in Module aufzuteilen, die nur nicht-kritische Aufgaben ausführen.
 
 ---
 
-It involves splitting your CSS code into modules that perform critical and non-critical tasks.
+Es bedeutet, Ihren CSS-Code in Module aufzuteilen, die kritische und nicht-kritische Aufgaben ausführen.
 
 #### --answer--
 
-It involves splitting your JavaScript code into modules that perform critical and non-critical tasks.
+Es bedeutet, Ihren JavaScript-Code in Module aufzuteilen, die kritische und nicht-kritische Aufgaben ausführen.
 
 ### --question--
 
 #### --text--
 
-Which of the following is the correct way to lazy load an image?
+Welche der folgenden Methoden ist der korrekte Weg, ein Bild per Lazy Loading zu laden?
 
 #### --distractors--
 
@@ -453,43 +453,43 @@ Which of the following is the correct way to lazy load an image?
 
 #### --text--
 
-Which of the following is NOT a way to improve INP?
+Welche der folgenden Maßnahmen ist KEIN Weg, um INP zu verbessern?
 
 #### --distractors--
 
-Reducing the main thread work by breaking up long JavaScript tasks.
+Reduzierung der Hauptthread-Arbeit durch Aufteilung langer JavaScript-Aufgaben.
 
 ---
 
-Optimizing event handlers.
+Optimierung von Event-Handlern.
 
 ---
 
-Deferring or lazy-loading heavy assets.
+Aufschieben oder Lazy Loading von schweren Assets.
 
 #### --answer--
 
-Using only PNG and JPEG images.
+Nur PNG- und JPEG-Bilder verwenden.
 
 ### --question--
 
 #### --text--
 
-Why is energy efficiency a crucial aspect of web performance?
+Warum ist Energieeffizienz ein wichtiger Aspekt der Web-Performance?
 
 #### --distractors--
 
-It enhances the overall visual appeal of the webpage.
+Sie verbessert die visuelle Attraktivität der Webseite insgesamt.
 
 ---
 
-It minimizes the amount of JavaScript used on a webpage.
+Sie minimiert die Menge an JavaScript, die auf einer Webseite verwendet wird.
 
 ---
 
-It decreases the number of CSS files needed and makes your CSS run faster.
+Sie verringert die Anzahl der benötigten CSS-Dateien und lässt Ihr CSS schneller laufen.
 
 #### --answer--
 
-It reduces the load on hardware, conserving energy and improving sustainability.
+Sie reduziert die Belastung der Hardware, spart Energie und verbessert die Nachhaltigkeit.
 

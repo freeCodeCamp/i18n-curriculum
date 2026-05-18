@@ -1,6 +1,6 @@
 ---
 id: 68bb001c22f3bcbd1fdf38fa
-title: Task 1
+title: Zoezi la 1
 challengeType: 19
 dashedName: task-1
 lang: es
@@ -10,17 +10,18 @@ lang: es
 
 # --description--
 
-Elena wants to say "hi". You'll hear this word all the time in Spanish when people meet each other.
+Elena anataka kusema "habari". Utasikia neno hili kila wakati kwa Kihispania wakati watu wanapokutana.
 
 # --instructions--
 
-Listen to the audio and answer the question below. There's just **one** correct answer. If you need help, click on **explanation** at the bottom of the lesson.
+Sikiliza sauti na jibu swali lililopo hapa chini.
+Kuna jibu **moja** tu sahihi. Ikiwa unahitaji msaada, bofya **maelezo** chini ya funzo.
 
 # --questions--
 
 ## --text--
 
-What word does Elena use to say "hi"?
+Elena anatumia neno gani kusema "habari"?
 
 ## --answers--
 
@@ -32,7 +33,7 @@ What word does Elena use to say "hi"?
 
 ### --feedback--
 
-This means the opposite of what the speaker says. Open the explanation section if you need further help.
+Hii ina maana kinyume na kile anachosema msemaji. Fungua sehemu ya maelezo ikiwa unahitaji msaada zaidi.
 
 ---
 
@@ -40,7 +41,7 @@ This means the opposite of what the speaker says. Open the explanation section i
 
 ### --feedback--
 
-This means the opposite of what the speaker says. Open the explanation section if you need further help.
+Hii ina maana kinyume na kile anachosema msemaji. Fungua sehemu ya maelezo ikiwa unahitaji msaada zaidi.
 
 ---
 
@@ -48,7 +49,7 @@ This means the opposite of what the speaker says. Open the explanation section i
 
 ### --feedback--
 
-This means "Good morning", but it's not what you hear in the audio.
+Hii ina maana "Habari za asubuhi", lakini siyo kile unachosikia kwenye sauti.
 
 ## --video-solution--
 
@@ -56,9 +57,9 @@ This means "Good morning", but it's not what you hear in the audio.
 
 # --explanation--
 
-The word `Hola` is a greeting. It's used when you meet someone, similar to "Hello" or "Hi". For example:
+Neno `Hola` ni salamu. Linatumika unapokutana na mtu, sawa na "Hello" au "Hi". Kwa mfano:
 
-`¡Hola, buenos días!` – Hi, good morning!
+`¡Hola, buenos días!` – Habari, habari za asubuhi!
 
 # --scene--
 

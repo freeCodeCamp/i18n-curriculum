@@ -1,6 +1,6 @@
 ---
 id: 5eb3e4af7d0e7b760b46cedc
-title: Set consolidation
+title: Mengen-Konsolidierung
 challengeType: 1
 forumTopicId: 385319
 dashedName: set-consolidation
@@ -8,58 +8,58 @@ dashedName: set-consolidation
 
 # --description--
 
-Given two sets of items then if any item is common to any set then the result of applying *consolidation* to those sets is a set of sets whose contents is:
+Gegeben sind zwei Mengen von Elementen. Wenn ein Element in beiden Mengen vorkommt, dann ist das Ergebnis der *Konsolidierung* dieser Mengen eine Menge von Mengen, deren Inhalt Folgendes ist:
 
 <ul>
-  <li>The two input sets if no common item exists between the two input sets of items.</li>
-  <li>The single set that is the union of the two input sets if they share a common item.</li>
+  <li>Die beiden Eingabemengen, falls kein gemeinsames Element zwischen den beiden Eingabemengen existiert.</li>
+  <li>Die einzelne Menge, die die Vereinigung der beiden Eingabemengen ist, falls sie ein gemeinsames Element teilen.</li>
 </ul>
 
-Given N sets of items where N > 2 then the result is the same as repeatedly replacing all combinations of two sets by their consolidation until no further consolidation between set pairs is possible. If N &lt; 2 then consolidation has no strict meaning and the input can be returned.
+Gegeben sind N Mengen von Elementen, wobei N > 2 gilt. Dann ist das Ergebnis dasselbe, als ob man wiederholt alle Kombinationen von zwei Mengen durch ihre Konsolidierung ersetzt, bis keine weitere Konsolidierung zwischen Mengenpaaren möglich ist. Falls N &lt; 2 gilt, hat Konsolidierung keine strikte Bedeutung und die Eingabe kann zurückgegeben werden.
 
-Here are some examples:
+Hier sind einige Beispiele:
 
-**Example 1:**
+**Beispiel 1:**
 
-Given the two sets `{A,B}` and `{C,D}` then there is no common element between the sets and the result is the same as the input.
+Gegeben sind die beiden Mengen `{A,B}` und `{C,D}`. Es gibt kein gemeinsames Element zwischen den Mengen, und das Ergebnis ist dasselbe wie die Eingabe.
 
-**Example 2:**
+**Beispiel 2:**
 
-Given the two sets `{A,B}` and `{B,D}` then there is a common element `B` between the sets and the result is the single set `{B,D,A}`. (Note that order of items in a set is immaterial: `{A,B,D}` is the same as `{B,D,A}` and `{D,A,B}`, etc).
+Gegeben sind die beiden Mengen `{A,B}` und `{B,D}`. Es gibt ein gemeinsames Element `B` zwischen den Mengen, und das Ergebnis ist die einzelne Menge `{B,D,A}`. (Beachten Sie, dass die Reihenfolge der Elemente in einer Menge unerheblich ist: `{A,B,D}` ist dasselbe wie `{B,D,A}` und `{D,A,B}` usw.).
 
-**Example 3:**
+**Beispiel 3:**
 
-Given the three sets `{A,B}` and `{C,D}` and `{D,B}` then there is no common element between the sets `{A,B}` and `{C,D}` but the sets `{A,B}` and `{D,B}` do share a common element that consolidates to produce the result `{B,D,A}`. On examining this result with the remaining set, `{C,D}`, they share a common element and so consolidate to the final output of the single set `{A,B,C,D}`
+Gegeben sind die drei Mengen `{A,B}`, `{C,D}` und `{D,B}`. Es gibt kein gemeinsames Element zwischen den Mengen `{A,B}` und `{C,D}`, aber die Mengen `{A,B}` und `{D,B}` teilen ein gemeinsames Element, das konsolidiert wird und das Ergebnis `{B,D,A}` erzeugt. Wenn man dieses Ergebnis mit der verbleibenden Menge `{C,D}` betrachtet, teilen sie ein gemeinsames Element und konsolidieren daher zur endgültigen Ausgabe der einzelnen Menge `{A,B,C,D}`.
 
-**Example 4:**
+**Beispiel 4:**
 
-The consolidation of the five sets:
+Die Konsolidierung der fünf Mengen:
 
-`{H,I,K}`, `{A,B}`, `{C,D}`, `{D,B}`, and `{F,G,H}`
+`{H,I,K}`, `{A,B}`, `{C,D}`, `{D,B}` und `{F,G,H}`
 
-Is the two sets:
+ist die zwei Mengen:
 
-`{A, C, B, D}`, and `{G, F, I, H, K}`
+`{A, C, B, D}` und `{G, F, I, H, K}`
 
 # --instructions--
 
-Write a function that takes an array of strings as a parameter. Each string is represents a set with the characters representing the set elements. The function should return a 2D array containing the consolidated sets. Note: Each set should be sorted.
+Schreiben Sie eine Funktion, die ein Array von Strings als Parameter erhält. Jeder String stellt eine Menge dar, wobei die Zeichen die Elemente der Menge repräsentieren. Die Funktion soll ein zweidimensionales Array mit den konsolidierten Mengen zurückgeben. Hinweis: Jede Menge sollte sortiert sein.
 
 # --hints--
 
-`setConsolidation` should be a function.
+`setConsolidation` sollte eine Funktion sein.
 
 ```js
 assert(typeof setConsolidation === 'function');
 ```
 
-`setConsolidation(["AB", "CD"])` should return a array.
+`setConsolidation(["AB", "CD"])` sollte ein Array zurückgeben.
 
 ```js
 assert(Array.isArray(setConsolidation(['AB', 'CD'])));
 ```
 
-`setConsolidation(["AB", "CD"])` should return `[["C", "D"], ["A", "B"]]`.
+`setConsolidation(["AB", "CD"])` sollte `[["C", "D"], ["A", "B"]]` zurückgeben.
 
 ```js
 assert.deepEqual(setConsolidation(['AB', 'CD']), [
@@ -68,19 +68,19 @@ assert.deepEqual(setConsolidation(['AB', 'CD']), [
 ]);
 ```
 
-`setConsolidation(["AB", "BD"])` should return `[["A", "B", "D"]]`.
+`setConsolidation(["AB", "BD"])` sollte `[["A", "B", "D"]]` zurückgeben.
 
 ```js
 assert.deepEqual(setConsolidation(['AB', 'BD']), [['A', 'B', 'D']]);
 ```
 
-`setConsolidation(["AB", "CD", "DB"])` should return `[["A", "B", "C", "D"]]`.
+`setConsolidation(["AB", "CD", "DB"])` sollte `[["A", "B", "C", "D"]]` zurückgeben.
 
 ```js
 assert.deepEqual(setConsolidation(['AB', 'CD', 'DB']), [['A', 'B', 'C', 'D']]);
 ```
 
-`setConsolidation(["HIK", "AB", "CD", "DB", "FGH"])` should return `[["F", "G", "H", "I", "K"], ["A", "B", "C", "D"]]`.
+`setConsolidation(["HIK", "AB", "CD", "DB", "FGH"])` sollte `[["F", "G", "H", "I", "K"], ["A", "B", "C", "D"]]` zurückgeben.
 
 ```js
 assert.deepEqual(setConsolidation(['HIK', 'AB', 'CD', 'DB', 'FGH']), [

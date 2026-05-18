@@ -7,19 +7,19 @@ dashedName: step-54
 
 # --description--
 
-With a `display` of `block` the submit button sits flush against the left edge of its parent.
+Mit einem `display` von `block` sitzt die Absenden-Schaltfläche bündig am linken Rand ihres übergeordneten Elements.
 
-Use the same technique used to center the `form` to center the submit button.
+Verwenden Sie die gleiche Technik, die zum Zentrieren des `form` verwendet wurde, um die Absenden-Schaltfläche zu zentrieren.
 
 # --hints--
 
-You should give the submit button a `margin` of `0 auto`.
+Sie sollten der Absenden-Schaltfläche einen `margin` von `0 auto` geben.
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('input[type="submit"]')?.margin, '0px auto');
 ```
 
-You should not give the submit button a `min-width` or `max-width`.
+Sie sollten der Absenden-Schaltfläche keinen `min-width` oder `max-width` geben.
 
 ```js
 assert.isEmpty(new __helpers.CSSHelp(document).getStyle('input[type="submit"]')?.minWidth);
@@ -142,7 +142,7 @@ input[type="submit"] {
   display: block;
   width: 60%;
 --fcc-editable-region--
-
+  
 --fcc-editable-region--
 }
 

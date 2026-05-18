@@ -1,6 +1,6 @@
 ---
 id: 699e034d138be64fa313138e
-title: Transformations of Functions
+title: Mabadiliko ya kazi
 challengeType: 11
 videoId: xSPh80M3f84
 dashedName: transformations-of-functions
@@ -8,29 +8,29 @@ dashedName: transformations-of-functions
 
 # --description--
 
-In this video, you will learn about transformations of functions.
+Katika video hii, utafundishwa kuhusu mabadiliko ya kazi.
 
 # --questions--
 
 ## --text--
 
-Which of the following is a valid rule for a transformation of a function?
+Ni ipi kati ya zifuatazo ni sheria halali ya mabadiliko ya kitendakazi?
 
 ## --answers--
 
-Numbers on the inside of the function result in a vertical shift.
+Nambari zilizo ndani ya kitendakazi husababisha mabadiliko wima.
 
 ---
 
-Numbers on the outside of the function result in a horizontal shift.
+Nambari zilizo nje ya kitendakazi husababisha mabadiliko usawa.
 
 ---
 
-A negative sign results in a reflection.
+Alama hasi husababisha kuakisiwa.
 
 ---
 
-A negative sign results in a vertical shift.
+Alama hasi husababisha mabadiliko wima.
 
 ## --video-solution--
 

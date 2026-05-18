@@ -1,34 +1,34 @@
 ---
 id: 681dbcca65bbda5f286dc0ca
-title: Implement the Quicksort Algorithm
+title: Tekeleza algoriti ya quicksort
 challengeType: 27
 dashedName: implement-the-quicksort-algorithm
 ---
 
 # --description--
 
-**Objective:** Fulfill the user stories below and get all the tests to pass to complete the lab.
+**Lengo:** Timiza hadithi za watumizi zilizo hapa chini na upite vipimo vyote ili ukamilishe maabara.
 
-**User Stories:**
+**Hadithi za watumizi:**
 
-1. You should define a function named `quick_sort` to implement the quicksort algorithm.
+1. Unapaswa kufafanua kitendakazi kinachoitwa `quick_sort` ili kutekeleza algoriti ya quicksort.
 
-1. The `quick_sort` function should take a list of integers as input and return a new list of these integers in sorted order from least to greatest.
+1. Kitendakazi cha `quick_sort` kinapaswa kuchukua orodha ya nambari kamili kama ingizo na kurudisha orodha mpya ya nambari hizi zikiwa zimepangwa kutoka ndogo hadi kubwa.
 
-1. To implement the algorithm, you should:
-   - Choose a pivot value from the elements of the input list (use the first or the last element of the list).
-   - Partition the input list into three sublists: one with elements less than the pivot, one with elements equal to the pivot, and one with elements greater than the pivot.
-   - Recursively call `quick_sort` to sort the sublists and concatenate the sorted sublists to produce the final sorted list.
+1. Ili kutekeleza algoriti, unapaswa:
+   - Chagua thamani ya pivot kutoka kwa vipengele vya orodha ya ingizo (tumia kipengele cha kwanza au cha mwisho cha orodha).
+   - Gawanya orodha ya ingizo katika orodha ndogo tatu: moja yenye vipengele vidogo kuliko pivot, moja yenye vipengele sawa na pivot, na moja yenye vipengele vikubwa kuliko pivot.
+   - Fanya wito wa kurudia wa `quick_sort` kupangilia orodha ndogo na kuunganisha orodha ndogo zilizopangwa ili kuzalisha orodha ya mwisho iliyopangwa.
 
 # --hints--
 
-You should have a function named `quick_sort`.
+Unapaswa kuwa na kitendakazi kinachoitwa `quick_sort`.
 
 ```js
 ({ test: () => runPython(`assert _Node(_code).has_function("quick_sort")`) })
 ```
 
-Your `quick_sort` function should take a single parameter.
+Kitendakazi chako cha `quick_sort` kinapaswa kuchukua kigezo kimoja.
 
 ```js
 ({ test: () => runPython(`
@@ -38,13 +38,13 @@ assert len(sig.parameters) == 1
 `) })
 ```
 
-`quick_sort([])` should return an empty list.
+`quick_sort([])` inapaswa kurudisha orodha tupu.
 
 ```js
 ({ test: () => runPython(`assert quick_sort([]) == []`) })
 ```
 
-Your `quick_sort` function should not modify the list passed to it as the argument.
+Kitendakazi chako cha `quick_sort` hakipaswi kubadilisha orodha iliyotumwa kama hoja.
 
 ```js
 ({ test: () => runPython(`
@@ -54,31 +54,31 @@ assert _test_list == [20, 3, 14, 1, 5]
 `) })
 ```
 
-`quick_sort([20, 3, 14, 1, 5])` should return `[1, 3, 5, 14, 20]`.
+`quick_sort([20, 3, 14, 1, 5])` inapaswa kurudisha `[1, 3, 5, 14, 20]`.
 
 ```js
 ({ test: () => runPython(`assert quick_sort([20, 3, 14, 1, 5]) == [1, 3, 5, 14, 20]`) })
 ```
 
-`quick_sort([83, 4, 24, 2])` should return `[2, 4, 24, 83]`.
+`quick_sort([83, 4, 24, 2])` inapaswa kurudisha `[2, 4, 24, 83]`.
 
 ```js
 ({ test: () => runPython(`assert quick_sort([83, 4, 24, 2]) == [2, 4, 24, 83]`) })
 ```
 
-`quick_sort([4, 42, 16, 23, 15, 8])` should return `[4, 8, 15, 16, 23, 42]`.
+`quick_sort([4, 42, 16, 23, 15, 8])` inapaswa kurudisha `[4, 8, 15, 16, 23, 42]`.
 
 ```js
 ({ test: () => runPython(`assert quick_sort([4, 42, 16, 23, 15, 8]) == [4, 8, 15, 16, 23, 42]`) })
 ```
 
-`quick_sort([87, 11, 23, 18, 18, 23, 11, 56, 87, 56])` should return `[11, 11, 18, 18, 23, 23, 56, 56, 87, 87]`.
+`quick_sort([87, 11, 23, 18, 18, 23, 11, 56, 87, 56])` inapaswa kurudisha `[11, 11, 18, 18, 23, 23, 56, 56, 87, 87]`.
 
 ```js
 ({ test: () => runPython(`assert quick_sort([87, 11, 23, 18, 18, 23, 11, 56, 87, 56]) == [11, 11, 18, 18, 23, 23, 56, 56, 87, 87]`) })
 ```
 
-You should not import any module or use built-in sorting methods in your code.
+Hupaswi kuleta moduli yoyote au kutumia njia zilizojengwa ndani za kupanga katika msimbo wako.
 
 ```js
 ({ test: () => runPython(`

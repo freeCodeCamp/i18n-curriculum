@@ -1,6 +1,6 @@
 ---
 id: 69ae96dfa9e6da4eb0d5f7f5
-title: Using Constructors
+title: Konstruktoren verwenden
 challengeType: 11
 videoId: CDFRHw4SACU
 dashedName: using-constructors
@@ -8,13 +8,13 @@ dashedName: using-constructors
 
 # --description--
 
-In this video, you will learn how to work with constructors in classes.
+In diesem Video lernen Sie, wie Sie mit Konstruktoren in Klassen arbeiten.
 
 # --questions--
 
 ## --text--
 
-Which of the following is the correct way to write a constructor?
+Welche der folgenden Möglichkeiten ist die korrekte Schreibweise für einen Konstruktor?
 
 ## --answers--
 

@@ -1,6 +1,6 @@
 ---
 id: 699e5b9e8f18cf77dfce5c0e
-title: Sine and Cosine of Special Angles
+title: Sinus und Kosinus spezieller Winkel
 challengeType: 11
 videoId: X0Bh-NiQ3KQ
 dashedName: sine-cosine-special-angles
@@ -8,13 +8,13 @@ dashedName: sine-cosine-special-angles
 
 # --description--
 
-In this video, you will learn how to find the sine and cosine of special angles, such as 30°, 45°, and 60°.
+In diesem Video lernen Sie, wie Sie den Sinus und Kosinus spezieller Winkel wie 30°, 45° und 60° bestimmen.
 
 # --questions--
 
 ## --text--
 
-What is the cosine of 45° for a right triangle with the hypotenuse of length 5?
+Wie groß ist der Kosinus von 45° in einem rechtwinkligen Dreieck mit der Hypotenuse der Länge 5?
 
 ## --answers--
 

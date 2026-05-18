@@ -1,6 +1,6 @@
 ---
 id: 699e5bab8f18cf77dfce5c11
-title: Graphs of Sine and Cosine
+title: Graphen von Sinus und Kosinus
 challengeType: 11
 videoId: OoP1Lav_i9A
 dashedName: graphs-sine-cosine
@@ -8,29 +8,29 @@ dashedName: graphs-sine-cosine
 
 # --description--
 
-In this video, you will learn about the graphs of sine and cosine functions.
+In diesem Video lernen Sie die Graphen der Sinus- und Kosinusfunktionen kennen.
 
 # --questions--
 
 ## --text--
 
-What is the amplitude of a sine or cosine function?
+Was ist die Amplitude einer Sinus- oder Kosinusfunktion?
 
 ## --answers--
 
-Vertical distance between the maximum point and the midline.
+Vertikaler Abstand zwischen dem Höchstpunkt und der Mittellinie.
 
 ---
 
-Horizontal distance between two consecutive peaks
+Horizontaler Abstand zwischen zwei aufeinanderfolgenden Spitzen.
 
 ---
 
-The slope of the sine or cosine curve at the maximum point.
+Die Steigung der Sinus- oder Kosinuskurve am Höchstpunkt.
 
 ---
 
-Vertical distance between two minimum points.
+Vertikaler Abstand zwischen zwei Tiefpunkten.
 
 ## --video-solution--
 

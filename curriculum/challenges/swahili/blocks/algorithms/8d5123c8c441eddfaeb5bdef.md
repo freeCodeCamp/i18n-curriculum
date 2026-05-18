@@ -1,6 +1,6 @@
 ---
 id: 8d5123c8c441eddfaeb5bdef
-title: Implement Bubble Sort
+title: Tekeleza bubble sort
 challengeType: 1
 forumTopicId: 301612
 dashedName: implement-bubble-sort
@@ -8,23 +8,23 @@ dashedName: implement-bubble-sort
 
 # --description--
 
-This is the first of several challenges on sorting algorithms. Given an array of unsorted items, we want to be able to return a sorted array. We will see several different methods to do this and learn some tradeoffs between these different approaches. While most modern languages have built-in sorting methods for operations like this, it is still important to understand some of the common basic approaches and learn how they can be implemented.
+Hii ni changamoto ya kwanza kati ya changamoto kadhaa kuhusu algoriti za kupanga (sorting). Ikiwa umetolewa safu ya data isiyo pangwa, tunataka kuwa na uwezo wa kurudisha safu ya data iliyopangwa. Tutaona njia kadhaa tofauti za kufanya hivi na kujifunza baadhi ya mabadiliko kati ya mbinu hizi tofauti. Ingawa lugha nyingi za kisasa zina njia zilizojengwa ndani za kupanga kwa shughuli kama hizi, bado ni muhimu kuelewa baadhi ya mbinu za msingi zinazotumika na kujifunza jinsi zinavyoweza kutekelezwa.
 
-Here we will see bubble sort. The bubble sort method starts at the beginning of an unsorted array and 'bubbles up' unsorted values towards the end, iterating through the array until it is completely sorted. It does this by comparing adjacent items and swapping them if they are out of order. The method continues looping through the array until no swaps occur at which point the array is sorted.
+Hapa tutaangalia bubble sort. Njia ya bubble sort huanza mwanzoni mwa safu ya data isiyo pangwa na 'huinua' thamani zisizopangwa kuelekea mwisho, ikirudia kupitia safu ya data hadi ipangwe kabisa. Hii hufanyika kwa kulinganisha vitu viwili vinavyopakana na kubadilishana nafasi ikiwa viko katika mpangilio usio sahihi. Njia hii inaendelea kurudia kupitia safu ya data hadi hakuna kubadilishana tena, wakati huo safu ya data imeshapangwa.
 
-This method requires multiple iterations through the array and for average and worst cases has quadratic time complexity. While simple, it is usually impractical in most situations.
+Njia hii inahitaji kurudia mara nyingi kupitia safu ya data na kwa hali za wastani na mbaya ina ugumu wa wakati wa mduara wa mraba (quadratic time complexity). Ingawa ni rahisi, kawaida haifai katika hali nyingi.
 
-**Instructions:** Write a function `bubbleSort` which takes an array of integers as input and returns an array of these integers in sorted order from least to greatest.
+**Maelekezo:** Andika kitendakazi `bubbleSort` kinachopokea safu ya data ya nambari kamili kama ingizo na kurudisha safu ya data ya nambari hizi kamili zikiwa zimepangwa kutoka ndogo hadi kubwa.
 
 # --hints--
 
-`bubbleSort` should be a function.
+`bubbleSort` inapaswa kuwa kitendakazi.
 
 ```js
 assert.isFunction(bubbleSort);
 ```
 
-`bubbleSort` should return a sorted array (least to greatest).
+`bubbleSort` inapaswa kurudisha safu ya data iliyopangwa (kutoka ndogo hadi kubwa).
 
 ```js
 function isSorted(a){
@@ -58,7 +58,7 @@ assert.isTrue(
 );
 ```
 
-`bubbleSort([1,4,2,8,345,123,43,32,5643,63,123,43,2,55,1,234,92])` should return an array that is unchanged except for order.
+`bubbleSort([1,4,2,8,345,123,43,32,5643,63,123,43,2,55,1,234,92])` inapaswa kurudisha safu ya data isiyobadilika isipokuwa kwa mpangilio.
 
 ```js
 assert.sameMembers(
@@ -85,7 +85,7 @@ assert.sameMembers(
 );
 ```
 
-`bubbleSort` should not use the built-in `.sort()` method.
+`bubbleSort` haipaswi kutumia njia iliyo ndani ya `.sort()`.
 
 ```js
 function isBuiltInSortUsed(){

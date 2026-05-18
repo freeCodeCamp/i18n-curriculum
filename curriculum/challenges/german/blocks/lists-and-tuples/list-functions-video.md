@@ -1,6 +1,6 @@
 ---
 id: 24a45b3960b3aa68dff2cd9e
-title: List Functions
+title: Listenfunktionen
 challengeType: 11
 videoId: _5FQ5f3RW5U
 dashedName: list-functions
@@ -8,13 +8,13 @@ dashedName: list-functions
 
 # --description--
 
-In this video, you will learn how to work with useful methods including the `append()`, `index()`, `clear()`, `sort()`, and `reverse()` methods.
+In diesem Video lernen Sie, wie Sie mit nützlichen Methoden arbeiten, darunter die Methoden `append()`, `index()`, `clear()`, `sort()` und `reverse()`.
 
 # --questions--
 
 ## --text--
 
-What will be the output for the following code?
+Was wird die Ausgabe für den folgenden Code sein?
 
 ```python
 friends = ["Kevin", "Karen", "Jim", "Oscar", "Toby"]

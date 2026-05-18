@@ -1,6 +1,6 @@
 ---
 id: 67f519febaeacd154eb0f9f1
-title: Task 96
+title: Zoezi la 96
 challengeType: 22
 dashedName: task-96
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Sikiliza sauti na ukamilishe sentensi iliyo hapa chini.
 
 # --fillInTheBlank--
 
@@ -24,15 +24,15 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This word means being alert and watching carefully for potential dangers or problems.
+Neno hili linamaanisha kuwa macho na kuangalia kwa makini hatari au matatizo yanayoweza kutokea.
 
 # --explanation--
 
-`Vigilant` means being watchful and cautious to detect possible threats. For example:
+`Vigilant` linamaanisha kuwa makini na tahadhari ili kugundua vitisho vinavyoweza kutokea. Kwa mfano:
 
-- `The IT team is always vigilant when monitoring the network.` - The IT team stays alert and careful while checking the network.
+- `The IT team is always vigilant when monitoring the network.` - Timu ya IT hubaki macho na makini wakati wa kukagua mtandao.
 
-- `You should be vigilant when clicking on unknown links in emails.` - You need to be careful and pay attention to suspicious email links.
+- `You should be vigilant when clicking on unknown links in emails.` - Unahitaji kuwa makini na kuzingatia viungo vya barua pepe vinavyoshukiwa.
 
 # --scene--
 

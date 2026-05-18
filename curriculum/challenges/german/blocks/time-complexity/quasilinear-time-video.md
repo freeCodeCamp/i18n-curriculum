@@ -1,6 +1,6 @@
 ---
 id: 698dc6f47932b3cc4b19c923
-title: Quasilinear Time
+title: Quasilineare Zeit
 challengeType: 11
 videoId: p3UAfZZ3Nz0
 dashedName: quasilinear-time
@@ -8,13 +8,13 @@ dashedName: quasilinear-time
 
 # --description--
 
-In this video, you will about quasilinear times.
+In diesem Video lernen Sie etwas über quasilineare Zeiten.
 
 # --questions--
 
 ## --text--
 
-Which of the following is the correct way to represent quasilinear time in Big O notation?
+Welche der folgenden Darstellungen ist die korrekte Schreibweise für quasilineare Zeit in der Big-O-Notation?
 
 ## --answers--
 

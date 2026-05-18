@@ -1,6 +1,6 @@
 ---
 id: 699e033c138be64fa313138b
-title: Maximum and Minimum Values on a Graph
+title: Thamani kubwa zaidi na kiwango cha chini kwenye grafu
 challengeType: 11
 videoId: E1JSGpO8i3w
 dashedName: maximum-and-minimum-values-on-a-graph
@@ -8,29 +8,29 @@ dashedName: maximum-and-minimum-values-on-a-graph
 
 # --description--
 
-In this video, you will learn about maximum and minimum values on a graph.
+Katika video hii, utafundishwa kuhusu thamani kubwa zaidi na kiwango cha chini kwenye grafu.
 
 # --questions--
 
 ## --text--
 
-What is another name for maximum and minimum values on a graph?
+Jina lingine la thamani kubwa zaidi na kiwango cha chini kwenye grafu ni lipi?
 
 ## --answers--
 
-Cosine maximums and minimum values.
+Thamani kubwa zaidi na kiwango cha chini za kosaini.
 
 ---
 
-Variable maximum and minimum values.
+Thamani kubwa zaidi na kiwango cha chini za vigezo.
 
 ---
 
-Sine maximum and minimum values.
+Thamani kubwa zaidi na kiwango cha chini za saaini.
 
 ---
 
-Global maximum and minimum values.
+Thamani kubwa zaidi na kiwango cha chini za ulimwengu.
 
 ## --video-solution--
 

@@ -1,17 +1,17 @@
 ---
 id: 61fdaf9ff894b6a084ecdc1b
-title: Schritt 33
+title: Step 33
 challengeType: 0
 dashedName: step-33
 ---
 
 # --description--
 
-Weise deinem `span[class~="sr-only"]`-Selektor eine `overflow`-Eigenschaft mit dem Wert `hidden` und eine `white-space`-Eigenschaft mit dem Wert `nowrap` zu, um zu verhindern, dass der Textinhalt überläuft.
+Um zu verhindern, dass der Textinhalt überläuft, geben Sie Ihrem `span[class~="sr-only"]`-Selektor eine `overflow`-Eigenschaft mit dem Wert `hidden` und eine `white-space`-Eigenschaft mit dem Wert `nowrap`.
 
 # --hints--
 
-Dein `span[class~="sr-only"]`-Selektor sollte eine `overflow`-Eigenschaft auf `hidden` gesetzt haben.
+Ihr `span[class~="sr-only"]`-Selektor sollte eine `overflow`-Eigenschaft mit dem Wert `hidden` haben.
 
 ```js
 assert.strictEqual(
@@ -22,7 +22,7 @@ assert.strictEqual(
 );
 ```
 
-Dein `span[class~="sr-only"]`-Selektor sollte eine `white-space`-Eigenschaft auf `nowrap` gesetzt haben.
+Ihr `span[class~="sr-only"]`-Selektor sollte eine `white-space`-Eigenschaft mit dem Wert `nowrap` haben.
 
 ```js
 assert.strictEqual(
@@ -175,7 +175,7 @@ span[class~="sr-only"] {
   clip-path: inset(50%);
   height: 1px;
   width: 1px;
-
+  
 }
 --fcc-editable-region--
 

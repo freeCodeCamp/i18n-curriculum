@@ -1,6 +1,6 @@
 ---
 id: bd7153d8c242eddfaeb5bd13
-title: Build a Roguelike Dungeon Crawler Game
+title: Ein Roguelike-Dungeon-Crawler-Spiel erstellen
 challengeType: 3
 forumTopicId: 302355
 dashedName: build-a-roguelike-dungeon-crawler-game
@@ -8,31 +8,31 @@ dashedName: build-a-roguelike-dungeon-crawler-game
 
 # --description--
 
-**Objective:** Build an app that is functionally similar to this: <a href="https://codepen.io/freeCodeCamp/full/apLXEJ/" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/apLXEJ/</a>.
+**Ziel:** Erstellen Sie eine App, die funktional ähnlich ist wie diese: <a href="https://codepen.io/freeCodeCamp/full/apLXEJ/" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/apLXEJ/</a>.
 
-Erfülle die untenstehenden User Stories und bringe alle Tests zum Bestehen. Verwende die Bibliotheken oder APIs deiner Wahl. Gib dem Ganzen deinen persönlichen Stil.
+Erfüllen Sie die untenstehenden User Stories und bringen Sie alle Tests zum Bestehen. Verwenden Sie beliebige Bibliotheken oder APIs, die Sie benötigen. Verleihen Sie dem Spiel Ihren eigenen Stil.
 
-**User Story:** Ich habe Gesundheit, eine Stufe und eine Waffe. Ich kann mir eine bessere Waffe besorgen. Ich kann Gesundheitsgegenstände aufheben.
+**User Story:** Ich habe Gesundheit, ein Level und eine Waffe. Ich kann eine bessere Waffe aufnehmen. Ich kann Gesundheitsgegenstände aufnehmen.
 
 **User Story:** Alle Gegenstände und Gegner auf der Karte sind zufällig angeordnet.
 
-**User Story:** Ich kann mich durch eine Karte bewegen und Gegenstände entdecken.
+**User Story:** Ich kann mich auf der Karte bewegen und Gegenstände entdecken.
 
-**User Story:** Ich kann mich überall innerhalb der Kartengrenzen bewegen, aber ich kann mich nicht durch einen Feind bewegen, bevor ich ihn besiegt habe.
+**User Story:** Ich kann mich überall innerhalb der Grenzen der Karte bewegen, aber ich kann nicht durch einen Gegner hindurchgehen, bis ich ihn besiegt habe.
 
-**User Story:** Ein Großteil der Karte ist versteckt. Wenn ich einen Schritt mache, werden alle Räume, die sich innerhalb einer bestimmten Anzahl von Räumen von mir befinden, aufgedeckt.
+**User Story:** Ein Großteil der Karte ist verborgen. Wenn ich einen Schritt mache, werden alle Felder sichtbar, die sich innerhalb einer bestimmten Entfernung von mir befinden.
 
-**User Story:** Wenn ich einen Feind besiege, verschwindet der Feind und ich erhalte Erfahrungspunkte, die schließlich meine Stufe erhöhen.
+**User Story:** Wenn ich einen Gegner besiege, verschwindet der Gegner und ich erhalte XP, die schließlich mein Level erhöhen.
 
-**User Story:** Wenn ich gegen einen Feind kämpfe, schaden wir uns abwechselnd, bis einer von uns verloren hat. Ich verursache Schaden, der von meiner Stufe und meiner Waffe abhängt. Der Gegner erleidet Schaden, der von seinem Level abhängt. Der Schaden ist innerhalb eines Bereichs eher zufällig.
+**User Story:** Wenn ich gegen einen Gegner kämpfe, wechseln wir uns ab und fügen uns gegenseitig Schaden zu, bis einer von uns verliert. Ich füge Schaden basierend auf meinem Level und meiner Waffe zu. Der Gegner fügt Schaden basierend auf seinem Level zu. Der Schaden ist innerhalb eines Bereichs etwas zufällig.
 
-**User Story:** Wenn ich den Boss finde und besiege, habe ich gewonnen.
+**User Story:** Wenn ich den Boss finde und besiege, gewinne ich.
 
-**User Story:** Das Spiel sollte anspruchsvoll, aber theoretisch gewinnbar sein.
+**User Story:** Das Spiel sollte herausfordernd, aber theoretisch gewinnbar sein.
 
-Wenn du fertig bist, fügst du einen Link zu deinem Projekt auf CodePen ein und klickst auf die Schaltfläche "Ich habe diese Herausforderung abgeschlossen".
+Wenn Sie fertig sind, fügen Sie einen Link zu Ihrem Projekt auf CodePen hinzu und klicken Sie auf die Schaltfläche „Ich habe diese Aufgabe abgeschlossen“.
 
-Du kannst Feedback zu deinem Projekt erhalten, indem du es auf dem <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp Forum</a> teilst.
+Sie können Feedback zu Ihrem Projekt erhalten, indem Sie es im <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp-Forum</a> teilen.
 
 # --solutions--
 

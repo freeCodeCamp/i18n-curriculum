@@ -1,6 +1,6 @@
 ---
 id: 698de8fd7932b3cc4b19c93e
-title: Recap of Introduction to Data Structures
+title: Rückblick auf die Einführung in Datenstrukturen
 challengeType: 11
 videoId: KUG1HNrchK0
 dashedName: recap-of-introduction-to-data-structures
@@ -8,13 +8,13 @@ dashedName: recap-of-introduction-to-data-structures
 
 # --description--
 
-In this video, you will recap the concepts you learned about data structures.
+In diesem Video wiederholen Sie die Konzepte, die Sie über Datenstrukturen gelernt haben.
 
 # --questions--
 
 ## --text--
 
-What is the name of the data structure in Python that is similar to arrays and can store a sequence of elements?
+Wie heißt die Datenstruktur in Python, die Arrays ähnelt und eine Folge von Elementen speichern kann?
 
 ## --answers--
 

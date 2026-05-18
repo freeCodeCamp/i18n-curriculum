@@ -1,6 +1,6 @@
 ---
 id: 5f1a4ef5d5d6b5ab580fc6ae
-title: Build a Celestial Bodies Database
+title: Jenga hifadhidata ya viumbe vya angani
 challengeType: 13
 url: freeCodeCamp/learn-celestial-bodies-database
 dashedName: lab-celestial-bodies-database
@@ -9,15 +9,15 @@ saveSubmissionToDB: true
 
 # --description--
 
-For this project, you will build a database of celestial bodies using PostgreSQL.
+Kwa mradi huu, utajenga hifadhidata ya viumbe vya angani kwa kutumia PostgreSQL.
 
 # --instructions--
 
-**Important:** After you pass all the project tests, save a dump of your database into a `universe.sql` file so you can complete step 2. There will be instructions on how to do that within the virtual machine.
+**Muhimu:** Baada ya kupita vipimo vyote vya mradi, hifadhi nakala ya hifadhidata yako katika faili la `universe.sql` ili uweze kumaliza hatua ya 2. Kutakuwa na maelekezo ya jinsi ya kufanya hivyo ndani ya mashine pepe.
 
 # --notes--
 
-Required files: `universe.sql`
+Mafaili yanayohitajika: `universe.sql`
 
 # --hints--
 

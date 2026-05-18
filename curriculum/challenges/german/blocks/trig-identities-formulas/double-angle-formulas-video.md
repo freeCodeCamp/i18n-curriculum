@@ -1,6 +1,6 @@
 ---
 id: 699e78398f18cf77dfce5c1c
-title: Double Angle Formulas
+title: Doppelwinkel-Formeln
 challengeType: 11
 videoId: QMaQImbBe0M
 dashedName: double-angle-formulas
@@ -8,13 +8,13 @@ dashedName: double-angle-formulas
 
 # --description--
 
-In this video, you will learn about the double angle formulas.
+In diesem Video lernen Sie die Doppelwinkel-Formeln kennen.
 
 # --questions--
 
 ## --text--
 
-What is the double angle formula for $\sin(2\theta)$?
+Wie lautet die Doppelwinkel-Formel für $\sin(2\theta)$?
 
 ## --answers--
 

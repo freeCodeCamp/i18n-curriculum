@@ -1,6 +1,6 @@
 ---
 id: 697fe3cb32baa3841ab62a63
-title: Object Functions
+title: Funktionen in Objekten
 challengeType: 11
 videoId: 3Mla2uUDSu8
 dashedName: object-functions
@@ -8,13 +8,13 @@ dashedName: object-functions
 
 # --description--
 
-In this video, you will learn how to work with functions inside of classes.
+In diesem Video lernen Sie, wie Sie mit Funktionen innerhalb von Klassen arbeiten.
 
 # --questions--
 
 ## --text--
 
-Which of the following is the correct way to create a function inside of a class?
+Welche der folgenden Möglichkeiten ist der richtige Weg, um eine Funktion innerhalb einer Klasse zu erstellen?
 
 ## --answers--
 

@@ -1,19 +1,19 @@
 ---
 id: 672bccae6e556cd81cef6af2
-title: What Is Margin Collapsing, and How Does It Work?
+title: Was ist margin collapsing und wie funktioniert es?
 challengeType: 19
 dashedName: what-is-margin-collapsing
 ---
 
 # --interactive--
 
-Margin collapsing is a fundamental concept in CSS that often confuses newcomers to web development.
+Margin collapsing ist ein grundlegendes Konzept in CSS, das Einsteiger in die Webentwicklung oft verwirrt.
 
-This behavior occurs when the vertical margins of adjacent elements overlap, resulting in a single margin equal to the larger of the two.
+Dieses Verhalten tritt auf, wenn sich die vertikalen Außenabstände benachbarter Elemente überlappen, sodass ein einziger Außenabstand entsteht, der dem größeren der beiden entspricht.
 
-Understanding margin collapsing is important for precise control over spacing and layout in web design. So, let's get into how margin collapsing works and explore some common scenarios where it occurs.
+Das Verständnis von margin collapsing ist wichtig, um den Abstand und das Layout im Webdesign präzise steuern zu können. Also schauen wir uns an, wie margin collapsing funktioniert, und betrachten einige typische Situationen, in denen es auftritt.
 
-In CSS when two vertical margins come into contact with each other they'll collapse, this means that instead of adding together, the larger margin wins and determines the space between the elements. This behavior applies only to vertical margins (top and bottom) and not to horizontal margins (left and right). So, here's an example to illustrate this concept:
+In CSS kollabieren zwei vertikale Außenabstände, wenn sie aufeinandertreffen. Das bedeutet, dass sie sich nicht addieren, sondern der größere Außenabstand gewinnt und den Abstand zwischen den Elementen bestimmt. Dieses Verhalten gilt nur für vertikale Außenabstände (oben und unten), nicht für horizontale (links und rechts). Hier ein Beispiel zur Veranschaulichung:
 
 :::interactive_editor
 
@@ -35,11 +35,11 @@ In CSS when two vertical margins come into contact with each other they'll colla
 
 :::
 
-In this example, you might expect the total space between `.box1` and `.box2` to be 50 pixels (20 pixels plus 30 pixels). However, due to margin collapsing the actual space will be 30 pixels, which is the larger of the two margins.
+In diesem Beispiel würden Sie vielleicht erwarten, dass der Gesamtabstand zwischen `.box1` und `.box2` 50 Pixel beträgt (20 Pixel plus 30 Pixel). Aufgrund von margin collapsing beträgt der tatsächliche Abstand jedoch 30 Pixel, also der größere der beiden Außenabstände.
 
-As we saw in the previous example, margins of the adjacent sibling elements will collapse. This is the most straight forward case of margin collapsing. Let's explore more cases where margin collapsing can occur.
+Wie wir im vorherigen Beispiel gesehen haben, kollabieren die Außenabstände benachbarter Geschwisterelemente. Dies ist der einfachste Fall von margin collapsing. Schauen wir uns weitere Fälle an, in denen margin collapsing auftreten kann.
 
-Margins can also collapse between a parent element and its first or last child. If there's no border, padding, inline content, or clearance to separate the parent's margin from the child's, they will collapse.
+Außenabstände können auch zwischen einem Elternelement und seinem ersten oder letzten Kindelement kollabieren. Wenn kein Rahmen, Innenabstand, inline Inhalt oder Clearance den Außenabstand des Elternteils vom Kind trennt, kollabieren sie.
 
 :::interactive_editor
 
@@ -62,9 +62,9 @@ Margins can also collapse between a parent element and its first or last child. 
 
 :::
 
-In this case, you might expect the child to be 70 pixels from the top (40 pixels plus 30 pixels). However, the margins collapse and the larger margin of 40 pixels is used.
+In diesem Fall würden Sie erwarten, dass das Kind 70 Pixel vom oberen Rand entfernt ist (40 Pixel plus 30 Pixel). Die Außenabstände kollabieren jedoch, und der größere Außenabstand von 40 Pixel wird verwendet.
 
-If an element has no content, padding, or border, its top and bottom margins can collapse into a single margin.
+Hat ein Element keinen Inhalt, keinen Innenabstand und keinen Rahmen, können seine oberen und unteren Außenabstände zu einem einzigen Außenabstand kollabieren.
 
 :::interactive_editor
 
@@ -86,9 +86,9 @@ If an element has no content, padding, or border, its top and bottom margins can
 
 :::
 
-In this example, the `empty-block`'s top and bottom margins collapse into a single 20 pixels margin, the larger of the two.
+In diesem Beispiel kollabieren die oberen und unteren Außenabstände von `empty-block` zu einem einzigen Außenabstand von 20 Pixel, dem größeren der beiden.
 
-Here's an example of preventing collapse using padding:
+Hier ein Beispiel, wie man das Kollabieren mit Innenabstand verhindert:
 
 :::interactive_editor
 
@@ -112,43 +112,43 @@ Here's an example of preventing collapse using padding:
 
 :::
 
-In this case, the one pixel padding on the parent prevents the margin from collapsing resulting in a total space of 71 pixels from the top of the parent to the top of the child content.
+In diesem Fall verhindert der ein Pixel Innenabstand beim Elternteil das Kollabieren der Außenabstände, sodass sich ein Gesamtabstand von 71 Pixel vom oberen Rand des Elternteils bis zum oberen Rand des Kindinhalts ergibt.
 
-Understanding margin collapsing is important for precise control over layout and spacing in CSS. While it can sometimes lead to unexpected results, it's a feature designed to create more aesthetically pleasing and consistent spacing in documents. By knowing when margin collapsing occurs and how to prevent it when necessary, you can create more predictable and maintainable layouts in your web designs.
+Das Verständnis von margin collapsing ist wichtig, um Layout und Abstände in CSS präzise zu steuern. Obwohl es manchmal zu unerwarteten Ergebnissen führen kann, ist es eine Funktion, die für ästhetisch ansprechendere und konsistentere Abstände in Dokumenten sorgt. Wenn Sie wissen, wann margin collapsing auftritt und wie Sie es bei Bedarf verhindern, können Sie in Ihren Webdesigns vorhersehbarere und besser wartbare Layouts erstellen.
 
 # --questions--
 
 ## --text--
 
-In which direction does margin collapsing occur?
+In welche Richtung tritt margin collapsing auf?
 
 ## --answers--
 
-Horizontal margins only.
+Nur bei horizontalen Außenabständen.
 
 ### --feedback--
 
-Think about which margins (top, bottom, left, right) are affected by this behavior.
+Überlegen Sie, welche Außenabstände (oben, unten, links, rechts) von diesem Verhalten betroffen sind.
 
 ---
 
-Vertical margins only.
+Nur bei vertikalen Außenabständen.
 
 ---
 
-Both horizontal and vertical margins.
+Sowohl bei horizontalen als auch bei vertikalen Außenabständen.
 
 ### --feedback--
 
-Think about which margins (top, bottom, left, right) are affected by this behavior.
+Überlegen Sie, welche Außenabstände (oben, unten, links, rechts) von diesem Verhalten betroffen sind.
 
 ---
 
-Diagonal margins.
+Bei diagonalen Außenabständen.
 
 ### --feedback--
 
-Think about which margins (top, bottom, left, right) are affected by this behavior.
+Überlegen Sie, welche Außenabstände (oben, unten, links, rechts) von diesem Verhalten betroffen sind.
 
 ## --video-solution--
 
@@ -156,35 +156,35 @@ Think about which margins (top, bottom, left, right) are affected by this behavi
 
 ## --text--
 
-What happens when two adjacent elements have different margin values?
+Was passiert, wenn zwei benachbarte Elemente unterschiedliche Außenabstände haben?
 
 ## --answers--
 
-The margins add up.
+Die Außenabstände werden addiert.
 
 ### --feedback--
 
-Consider which margin "wins" when collapsing occurs.
+Überlegen Sie, welcher Außenabstand „gewinnt“, wenn das Kollabieren auftritt.
 
 ---
 
-The smaller margin is used.
+Der kleinere Außenabstand wird verwendet.
 
 ### --feedback--
 
-Consider which margin "wins" when collapsing occurs.
+Überlegen Sie, welcher Außenabstand „gewinnt“, wenn das Kollabieren auftritt.
 
 ---
 
-The larger margin is used.
+Der größere Außenabstand wird verwendet.
 
 ---
 
-The average of the two margins is used.
+Der Durchschnitt der beiden Außenabstände wird verwendet.
 
 ### --feedback--
 
-Consider which margin "wins" when collapsing occurs.
+Überlegen Sie, welcher Außenabstand „gewinnt“, wenn das Kollabieren auftritt.
 
 ## --video-solution--
 
@@ -192,35 +192,35 @@ Consider which margin "wins" when collapsing occurs.
 
 ## --text--
 
-Which of the following will NOT prevent margin collapsing between a parent and its first child?
+Welches der folgenden verhindert KEIN margin collapsing zwischen einem Elternteil und seinem ersten Kindelement?
 
 ## --answers--
 
-Adding a `border` to the parent.
+Hinzufügen eines `border` zum Elternteil.
 
 ### --feedback--
 
-Think about which properties create a separation between the parent and child margins.
+Überlegen Sie, welche Eigenschaften eine Trennung zwischen den Außenabständen von Elternteil und Kind schaffen.
 
 ---
 
-Setting `padding-top: 1px;` on the parent.
+Setzen von `padding-top: 1px;` beim Elternteil.
 
 ### --feedback--
 
-Think about which properties create a separation between the parent and child margins.
+Überlegen Sie, welche Eigenschaften eine Trennung zwischen den Außenabständen von Elternteil und Kind schaffen.
 
 ---
 
-Using `display: inline-block;` on the child.
+Verwenden von `display: inline-block;` beim Kind.
 
 ### --feedback--
 
-Think about which properties create a separation between the parent and child margins.
+Überlegen Sie, welche Eigenschaften eine Trennung zwischen den Außenabständen von Elternteil und Kind schaffen.
 
 ---
 
-Setting `margin-top: 0;` on the child.
+Setzen von `margin-top: 0;` beim Kind.
 
 ## --video-solution--
 

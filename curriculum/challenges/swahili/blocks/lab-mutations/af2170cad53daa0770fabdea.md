@@ -1,91 +1,91 @@
 ---
 id: af2170cad53daa0770fabdea
-title: Implement the Mutations Algorithm
+title: Tekeleza algoriti ya mabadiliko
 challengeType: 26
 dashedName: implement-the-mutations-algorithm
 ---
 
 # --description--
 
-**Objective:** Fulfill the user stories below and get all the tests to pass to complete the lab.
+**Lengo:** Timiza hadithi za watumizi zilizo hapa chini na upite mitihani yote ili ukamilishe maabara.
 
-**User Stories:**
+**Hadithi za watumizi:**
 
-1. Create a function named `mutation` that takes an array as its argument.
-1. `mutation` should return `true` if the string in the first element of the array contains all of the letters of the string in the second element of the array, and `false` otherwise. For example:
-    - `mutation(["hello", "Hello"])`, should return `true` because all of the letters in the second string are present in the first, ignoring case.
-    - `mutation(["hello", "hey"])` should return `false` because the string `hello` does not contain a `y`.
-    - `mutation(["Alien", "line"])`, should return `true` because all of the letters in `line` are present in `Alien`.
+1. Unda kitendakazi kinachoitwa `mutation` kinachopokea safu ya data kama hoja yake.
+1. `mutation` inapaswa kurudisha `true` ikiwa mfuatano wa herufi katika kipengele cha kwanza cha safu ya data una herufi zote za mfuatano wa herufi katika kipengele cha pili cha safu ya data, na `false` vinginevyo. Kwa mfano:
+    - `mutation(["hello", "Hello"])`, inapaswa kurudisha `true` kwa sababu herufi zote katika mfuatano wa herufi wa pili zipo katika wa kwanza, bila kuzingatia herufi kubwa au ndogo.
+    - `mutation(["hello", "hey"])` inapaswa kurudisha `false` kwa sababu mfuatano wa herufi `hello` huna `y`.
+    - `mutation(["Alien", "line"])`, inapaswa kurudisha `true` kwa sababu herufi zote katika `line` zipo katika `Alien`.
 
 # --hints--
 
-`mutation(["hello", "hey"])` should return `false`.
+`mutation(["hello", "hey"])` inapaswa kurudisha `false`.
 
 ```js
 assert.isFalse(mutation(['hello', 'hey']));
 ```
 
-`mutation(["hello", "Hello"])` should return `true`.
+`mutation(["hello", "Hello"])` inapaswa kurudisha `true`.
 
 ```js
 assert.isTrue(mutation(['hello', 'Hello']));
 ```
 
-`mutation(["zyxwvutsrqponmlkjihgfedcba", "qrstu"])` should return `true`.
+`mutation(["zyxwvutsrqponmlkjihgfedcba", "qrstu"])` inapaswa kurudisha `true`.
 
 ```js
 assert.isTrue(mutation(['zyxwvutsrqponmlkjihgfedcba', 'qrstu']));
 ```
 
-`mutation(["Mary", "Army"])` should return `true`.
+`mutation(["Mary", "Army"])` inapaswa kurudisha `true`.
 
 ```js
 assert.isTrue(mutation(['Mary', 'Army']));
 ```
 
-`mutation(["Mary", "Aarmy"])` should return `true`.
+`mutation(["Mary", "Aarmy"])` inapaswa kurudisha `true`.
 
 ```js
 assert.isTrue(mutation(['Mary', 'Aarmy']));
 ```
 
-`mutation(["Alien", "line"])` should return `true`.
+`mutation(["Alien", "line"])` inapaswa kurudisha `true`.
 
 ```js
 assert.isTrue(mutation(['Alien', 'line']));
 ```
 
-`mutation(["floor", "for"])` should return `true`.
+`mutation(["floor", "for"])` inapaswa kurudisha `true`.
 
 ```js
 assert.isTrue(mutation(['floor', 'for']));
 ```
 
-`mutation(["hello", "neo"])` should return `false`.
+`mutation(["hello", "neo"])` inapaswa kurudisha `false`.
 
 ```js
 assert.isFalse(mutation(['hello', 'neo']));
 ```
 
-`mutation(["voodoo", "no"])` should return `false`.
+`mutation(["voodoo", "no"])` inapaswa kurudisha `false`.
 
 ```js
 assert.isFalse(mutation(['voodoo', 'no']));
 ```
 
-`mutation(["ate", "date"])` should return `false`.
+`mutation(["ate", "date"])` inapaswa kurudisha `false`.
 
 ```js
 assert.isFalse(mutation(['ate', 'date']));
 ```
 
-`mutation(["Tiger", "Zebra"])` should return `false`.
+`mutation(["Tiger", "Zebra"])` inapaswa kurudisha `false`.
 
 ```js
 assert.isFalse(mutation(['Tiger', 'Zebra']));
 ```
 
-`mutation(["Noel", "Ole"])` should return `true`.
+`mutation(["Noel", "Ole"])` inapaswa kurudisha `true`.
 
 ```js
 assert.isTrue(mutation(['Noel', 'Ole']));
@@ -94,6 +94,7 @@ assert.isTrue(mutation(['Noel', 'Ole']));
 # --seed--
 
 ## --seed-contents--
+
 ```js
 ```
 

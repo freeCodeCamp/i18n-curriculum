@@ -1,6 +1,6 @@
 ---
 id: cf1111c1c11feddfaeb8bdef
-title: Modify Array Data With Indexes
+title: Badilisha data ya safu ya data kwa kutumia vielezo
 challengeType: 1
 forumTopicId: 18241
 dashedName: modify-array-data-with-indexes
@@ -8,26 +8,26 @@ dashedName: modify-array-data-with-indexes
 
 # --description--
 
-Unlike strings, the entries of arrays are <dfn>mutable</dfn> and can be changed freely, even if the array was declared with `const`.
+Tofauti na mfuatano wa herufi, maingizo ya safu ya data ni <dfn>yanayobadilika</dfn> na yanaweza kubadilishwa kwa uhuru, hata kama safu ya data ilitangazwa na `const`.
 
-**Example**
+**Mfano**
 
 ```js
 const ourArray = [50, 40, 30];
 ourArray[0] = 15;
 ```
 
-`ourArray` now has the value `[15, 40, 30]`.
+`ourArray` sasa ina thamani ya `[15, 40, 30]`.
 
-**Note:** There shouldn't be any spaces between the array name and the square brackets, like `array [0]`. Although JavaScript is able to process this correctly, this may confuse other programmers reading your code.
+**Kumbuka:** Hakuna nafasi zinapaswa kuwepo kati ya jina la safu ya data na mabano ya mraba, kama `array [0]`. Ingawa JavaScript inaweza kushughulikia hili kwa usahihi, hii inaweza kuwachanganya programu wengine wanaosoma msimbo wako.
 
 # --instructions--
 
-Modify the data stored at index `0` of `myArray` to a value of `45`.
+Badilisha data iliyohifadhiwa katika kielezo `0` cha `myArray` kuwa thamani ya `45`.
 
 # --hints--
 
-`myArray` should now be `[45, 64, 99]`.
+`myArray` inapaswa sasa kuwa `[45, 64, 99]`.
 
 ```js
 assert(
@@ -46,7 +46,7 @@ assert(
 );
 ```
 
-You should be using correct index to modify the value in `myArray`.
+Unapaswa kutumia kielezo sahihi kubadilisha thamani katika `myArray`.
 
 ```js
 assert(

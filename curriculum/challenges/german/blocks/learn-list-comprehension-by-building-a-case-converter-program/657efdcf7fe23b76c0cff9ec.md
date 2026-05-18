@@ -1,19 +1,19 @@
 ---
 id: 657efdcf7fe23b76c0cff9ec
-title: Step 7
+title: Schritt 7
 challengeType: 20
 dashedName: step-7
 ---
 
 # --description--
 
-You need to handle the characters that are already in lowercase by adding them to the list of converted characters.
+Sie müssen die Zeichen, die bereits in Kleinbuchstaben sind, behandeln, indem Sie sie zur Liste der umgewandelten Zeichen hinzufügen.
 
-Right after the `if` statement within the `for` loop, add an `else` clause and use the `.append()` method to add `char` to the `snake_cased_char_list` variable.
+Direkt nach der `if`-Anweisung innerhalb der `for`-Schleife fügen Sie eine `else`-Klausel hinzu und verwenden die `.append()`-Methode, um `char` zur `snake_cased_char_list`-Variablen hinzuzufügen.
 
 # --hints--
 
-You should add an `else` clause inside the `for` loop. Don't forget the colon at the end.
+Sie sollten eine `else`-Klausel innerhalb der `for`-Schleife hinzufügen. Vergessen Sie nicht den Doppelpunkt am Ende.
 
 ```js
 ({
@@ -27,7 +27,7 @@ You should add an `else` clause inside the `for` loop. Don't forget the colon at
 })
 ```
 
-You should use the `.append()` method to add `char` to the `snake_cased_char_list` variable.
+Sie sollten die `.append()`-Methode verwenden, um `char` zur `snake_cased_char_list`-Variablen hinzuzufügen.
 
 ```js
 ({

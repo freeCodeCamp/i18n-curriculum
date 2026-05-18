@@ -1,6 +1,6 @@
 ---
 id: 698dc0277932b3cc4b19c91e
-title: Evaluating Linear Search
+title: Bewertung der linearen Suche
 challengeType: 11
 videoId: 0bipiTtnXIA
 dashedName: evaluating-linear-search
@@ -8,29 +8,29 @@ dashedName: evaluating-linear-search
 
 # --description--
 
-In this video, you will learn more about the linear search algorithm and how to evaluate its runtime.
+In diesem Video lernen Sie mehr über den Algorithmus der linearen Suche und wie Sie seine Laufzeit bewerten.
 
 # --questions--
 
 ## --text--
 
-What are the two measures of efficiency?
+Was sind die zwei Maße für Effizienz?
 
 ## --answers--
 
-Linear and Space complexity
+Linear- und Speicherkomplexität
 
 ---
 
-Time and Space complexity
+Zeit- und Speicherkomplexität
 
 ---
 
-Recursive and Space complexity
+Rekursive und Speicherkomplexität
 
 ---
 
-Binary and Space complexity
+Binäre und Speicherkomplexität
 
 ## --video-solution--
 

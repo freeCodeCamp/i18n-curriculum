@@ -1,6 +1,6 @@
 ---
 id: 699e854b8f18cf77dfce5c1e
-title: Solving Right Triangles
+title: Kutatua Pembetatu Zenye Kona Haki
 challengeType: 11
 videoId: AkRnIZDdq04
 dashedName: solving-right-triangles
@@ -8,32 +8,30 @@ dashedName: solving-right-triangles
 
 # --description--
 
-In this video, you will learn how to solve right triangles.
+Katika video hii, utafundishwa jinsi ya kutatua pembetatu zenye kona haki.
 
 # --questions--
 
 ## --text--
 
-What does it mean to solve a right triangle?
+Kutatua pembetatu yenye kona haki kunamaanisha nini?
 
 ## --answers--
 
-To solve a right triangle means to find the area of the triangle only.
+Kutatua pembetatu yenye kona haki kunamaanisha kupata eneo la pembetatu tu.
 
 ---
 
-To solve a right triangle means to find only the length of the hypotenuse.
+Kutatua pembetatu yenye kona haki kunamaanisha kupata urefu wa upande mrefu tu.
 
 ---
 
-To solve a right triangle means to find the lengths of all sides and the measures of all angles.
+Kutatua pembetatu yenye kona haki kunamaanisha kupata urefu wa pande zote na vipimo vya kona zote.
 
 ---
 
-To solve a right triangle means to draw the triangle without calculating any sides or angles.
+Kutatua pembetatu yenye kona haki kunamaanisha kuchora pembetatu bila kuhesabu pande au kona yoyote.
 
 ## --video-solution--
 
 3
-
-

@@ -7,37 +7,37 @@ dashedName: step-16
 
 # --description--
 
-Das `div`-Element wird im Gegensatz zu anderen Inhaltselementen, die du bisher verwendet hast, hauptsächlich für Layoutzwecke verwendet. Füge ein `div`-Element im `body`-Element hinzu und verschiebe dann alle anderen Elemente innerhalb des neuen `div`.
+Das `div`-Element wird hauptsächlich für das Design-Layout verwendet, im Gegensatz zu den anderen Inhaltselementen, die Sie bisher verwendet haben. Fügen Sie ein `div`-Element innerhalb des `body`-Elements hinzu und verschieben Sie dann alle anderen Elemente in das neue `div`.
 
-Füge innerhalb des öffnenden `div`-Tags das `id`-Attribut mit dem Wert `menu` hinzu.
+Fügen Sie im öffnenden `div`-Tag das `id`-Attribut mit dem Wert `menu` hinzu.
 
 # --hints--
 
-Dein öffnendes `<div>`-Tag sollte ein `id`-Attribut auf `menu` gesetzt haben.
+Ihr öffnendes `<div>`-Tag sollte ein `id`-Attribut mit dem Wert `menu` haben.
 
 ```js
 assert.strictEqual(document.querySelector('div')?.id, 'menu');
 ```
 
-Du solltest ein abschließendes `</div>`-Tag haben.
+Sie sollten ein schließendes `</div>`-Tag haben.
 
 ```js
 assert.match(code, /<\/div>/i);
 ```
 
-Du solltest dein vorhandenes `body`-Element nicht verändern. Stelle sicher, dass du das abschließende Tag nicht gelöscht hast.
+Sie sollten Ihr bestehendes `body`-Element nicht ändern. Stellen Sie sicher, dass Sie das schließende Tag nicht gelöscht haben.
 
 ```js
 assert.lengthOf(document.querySelectorAll('body'), 1);
 ```
 
-Dein `div`-Element sollte innerhalb des `body`-Elements eingebettet sein.
+Ihr `div`-Element sollte im `body` verschachtelt sein.
 
 ```js
 assert.equal(document.querySelector('div')?.parentElement?.tagName, 'BODY');
 ```
 
-Du solltest alle anderen Elemente in das neue `Div` verschieben.
+Sie sollten alle anderen Elemente in das neue `div` verschieben.
 
 ```js
 assert.lengthOf(document.querySelector('body > div#menu > main')?.children, 3);

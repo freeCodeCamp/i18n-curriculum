@@ -1,6 +1,6 @@
 ---
 id: 699e855e8f18cf77dfce5c22
-title: Parabolas - Vertex, Focus, Directrix
+title: "Parabolas - kilele, makini, mstari wa mwelekeo"
 challengeType: 11
 videoId: fAXpgprNFq0
 dashedName: parabolas-vertex-focus-directrix
@@ -8,13 +8,13 @@ dashedName: parabolas-vertex-focus-directrix
 
 # --description--
 
-In this video, you will learn about special forms for equations of parabolas, and how to find the vertex, focus, and directrix of a parabola.
+Katika video hii, utafundishwa kuhusu aina maalum za mlinganyo wa parabolas, na jinsi ya kupata kilele, makini, na mstari wa mwelekeo wa parabola.
 
 # --questions--
 
 ## --text--
 
-Which of the following is a valid form for the equation of a parabola?
+Ni ipi kati ya hizi ifuatayo ni aina halali ya mlinganyo wa parabola?
 
 ## --answers--
 
@@ -35,4 +35,3 @@ $y - k = 4p(x - h)^2$
 ## --video-solution--
 
 3
-

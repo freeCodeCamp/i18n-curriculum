@@ -1,6 +1,6 @@
 ---
 id: 698de9ff7932b3cc4b19c943
-title: Recursion
+title: Rekursion
 challengeType: 11
 videoId: XPIF44IXf1I
 dashedName: recursion
@@ -8,29 +8,29 @@ dashedName: recursion
 
 # --description--
 
-In this video, you will review how recursive functions work.
+In diesem Video überprüfen Sie, wie rekursive Funktionen funktionieren.
 
 # --questions--
 
 ## --text--
 
-What is recursion?
+Was ist Rekursion?
 
 ## --answers--
 
-A type of loop that never ends.
+Eine Art von Schleife, die niemals endet.
 
 ---
 
-A function that calls itself.
+Eine Funktion, die sich selbst aufruft.
 
 ---
 
-A function that only runs once and then stops.
+Eine Funktion, die nur einmal ausgeführt wird und dann stoppt.
 
 ---
 
-A function that automatically sorts data.
+Eine Funktion, die Daten automatisch sortiert.
 
 ## --video-solution--
 

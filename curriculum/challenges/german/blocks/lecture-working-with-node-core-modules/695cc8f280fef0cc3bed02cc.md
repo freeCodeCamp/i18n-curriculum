@@ -1,34 +1,34 @@
 ---
 id: 695cc8f280fef0cc3bed02cc
-title: What Is the Stream Module and How Does It Work?
+title: Was ist das Stream-Modul und wie funktioniert es?
 challengeType: 19
 dashedName: what-is-the-stream-module-and-how-does-it-work
 ---
 
 # --description--
 
-The last core Node.js module we'll look at is `stream`. This module helps you handle data efficiently, especially when the data is too large to load all at once, like reading a big text file or downloading a large video.
+Das letzte Kernmodul von Node.js, das wir uns ansehen, ist `stream`. Dieses Modul hilft Ihnen, Daten effizient zu verarbeiten, besonders wenn die Daten zu groß sind, um sie auf einmal zu laden, wie beim Lesen einer großen Textdatei oder beim Herunterladen eines langen Videos.
 
-Instead of waiting to read or write all the data before doing anything, streams process chunks of data as they arrive, similar to how you can start watching a YouTube video before the whole video finishes loading.
+Anstatt zu warten, bis alle Daten gelesen oder geschrieben sind, verarbeiten Streams Datenstücke, sobald sie eintreffen – ähnlich wie Sie ein YouTube-Video schon ansehen können, bevor es vollständig geladen ist.
 
-There are four main types of streams in Node.js: readable, writable, duplex, and transform:
+Es gibt vier Haupttypen von Streams in Node.js: lesbare, beschreibbare, duplex und Transformationsstreams:
 
-- Readable streams let you read data in chunks (for example, reading a large file).
-- Writable streams let you write data in chunks (for example, saving a file).
-- Duplex streams can both read and write data.
-- Transform streams are a special kind of duplex stream that can change or process the data as it flows through.
+- Lesbare Streams erlauben es Ihnen, Daten in Stücken zu lesen (zum Beispiel beim Lesen einer großen Datei).
+- Beschreibbare Streams erlauben es Ihnen, Daten in Stücken zu schreiben (zum Beispiel beim Speichern einer Datei).
+- Duplex-Streams können sowohl lesen als auch schreiben.
+- Transformationsstreams sind eine spezielle Art von Duplex-Streams, die die Daten während des Durchflusses verändern oder verarbeiten können.
 
-You can import the stream classes you need by destructuring them from the stream module:
+Sie können die benötigten Stream-Klassen importieren, indem Sie sie aus dem Stream-Modul destrukturieren:
 
 ```js
 const { Readable, Writable, Transform } = require("stream");
 ```
 
-Most of the time, you don't need to create custom stream classes yourself. For everyday file operations, built-in methods like `fs.createReadStream()` and `fs.createWriteStream()` are usually all you need.
+Meistens müssen Sie keine eigenen Stream-Klassen erstellen. Für alltägliche Dateioperationen reichen eingebaute Methoden wie `fs.createReadStream()` und `fs.createWriteStream()` normalerweise aus.
 
-These two methods take the path of the file to read or write. This means you also need the `fs` and `path` modules to implement streaming on many occasions.
+Diese beiden Methoden nehmen den Pfad der Datei, die gelesen oder geschrieben werden soll. Das bedeutet, dass Sie in vielen Fällen auch die `fs` und `path` Module benötigen, um Streaming zu implementieren.
 
-Here's how you can read data from a file, say an `input.txt` file:
+So können Sie Daten aus einer Datei lesen, zum Beispiel einer `input.txt` Datei:
 
 ```js
 const fs = require("fs");
@@ -41,7 +41,7 @@ const readInputFileStream = fs.createReadStream(inputFilePath);
 console.log(readInputFileStream);
 ```
 
-This will not do anything yet, as you need to use the events from the stream to read the data. For example, you can listen to the `data` event this way:
+Dies bewirkt noch nichts, da Sie die Ereignisse des Streams nutzen müssen, um die Daten zu lesen. Zum Beispiel können Sie so auf das `data` Ereignis hören:
 
 ```js
 readInputFileStream.on("data", (chunk) => {
@@ -49,7 +49,7 @@ readInputFileStream.on("data", (chunk) => {
 }); // Received 622 bytes of data
 ```
 
-You can also log the chunk of data to the console:
+Sie können auch das Datenstück in der Konsole ausgeben:
 
 ```js
 readInputFileStream.on("data", (chunk) => {
@@ -65,7 +65,7 @@ Received data: <Buffer 4c 6f 72 65 6d 20 69 70 73 75 6d
 */
 ```
 
-Since it returns a buffer, you can call the `toString()` method to convert it into readable text:
+Da es einen Puffer zurückgibt, können Sie die `toString()` Methode aufrufen, um ihn in lesbaren Text umzuwandeln:
 
 ```js
 const fs = require("fs");
@@ -93,7 +93,7 @@ eaque doloribus assumenda, minima fuga tempore, porro, debitis rem harum in
 */
 ```
 
-To implement a writable stream, particularly when you're reading from one file and writing to another, you need to create the read stream first, followed by the write stream:
+Um einen beschreibbaren Stream zu implementieren, besonders wenn Sie von einer Datei lesen und in eine andere schreiben, müssen Sie zuerst den lesbaren Stream erstellen, gefolgt vom beschreibbaren Stream:
 
 ```js
 const fs = require("fs");
@@ -109,7 +109,7 @@ const readInputFileStream = fs.createReadStream(inputFilePath);
 const writeOutputFileStream = fs.createWriteStream(outputFilePath);
 ```
 
-Next, use the `.pipe()` method to connect the readable stream to the writable stream. This lets Node.js automatically read data from the source and write it to the destination, chunk by chunk:
+Verwenden Sie dann die `.pipe()` Methode, um den lesbaren Stream mit dem beschreibbaren Stream zu verbinden. So liest Node.js automatisch Daten von der Quelle und schreibt sie Stück für Stück ins Ziel:
 
 ```js
 const fs = require("fs");
@@ -128,7 +128,7 @@ const writeOutputFileStream = fs.createWriteStream(outputFilePath);
 readInputFileStream.pipe(writeOutputFileStream);
 ```
 
-Then you can listen for the `finish` and `error` events on the writable stream to know when the streaming is complete or if something goes wrong:
+Anschließend können Sie auf die `finish` und `error` Ereignisse des beschreibbaren Streams hören, um zu wissen, wann das Streaming abgeschlossen ist oder ob ein Fehler aufgetreten ist:
 
 ```js
 const fs = require("fs");
@@ -154,41 +154,41 @@ writeOutputFileStream.on("error", (err) => {
 });
 ```
 
-The `finish` event tells you that the stream is complete and there is no more data to write, while the error event helps you catch problems that might happen during writing, like permissions issues or missing directories.
+Das `finish` Ereignis zeigt an, dass der Stream abgeschlossen ist und keine Daten mehr geschrieben werden, während das Fehler-Ereignis Ihnen hilft, Probleme während des Schreibens zu erkennen, wie Berechtigungsfehler oder fehlende Verzeichnisse.
 
 # --questions--
 
 ## --text--
 
-Which of these are the four main types of streams?
+Welche der folgenden sind die vier Haupttypen von Streams?
 
 ## --answers--
 
-Request, Response, Event, and Error streams.
+Request, Response, Event und Error Streams.
 
 ### --feedback--
 
-Think about how Node.js handles reading, writing, and transforming data.
+Denken Sie daran, wie Node.js Daten liest, schreibt und transformiert.
 
 ---
 
-Readable, Editable, Duplex, and Transform streams.
+Readable, Editable, Duplex und Transform Streams.
 
 ### --feedback--
 
-Think about how Node.js handles reading, writing, and transforming data.
+Denken Sie daran, wie Node.js Daten liest, schreibt und transformiert.
 
 ---
 
-Data, File, HTTP, and Buffer streams.
+Data, File, HTTP und Buffer Streams.
 
 ### --feedback--
 
-Think about how Node.js handles reading, writing, and transforming data.
+Denken Sie daran, wie Node.js Daten liest, schreibt und transformiert.
 
 ---
 
-Readable, Writable, Duplex, and Transform streams.
+Readable, Writable, Duplex und Transform Streams.
 
 ## --video-solution--
 
@@ -196,35 +196,35 @@ Readable, Writable, Duplex, and Transform streams.
 
 ## --text--
 
-What lets you implement a custom readable and writable stream?
+Was ermöglicht es Ihnen, einen benutzerdefinierten lesbaren und beschreibbaren Stream zu implementieren?
 
 ## --answers--
 
-The `stream` module using Readable and Writable classes.
+Das `stream` Modul mit den Klassen Readable und Writable.
 
 ---
 
-The `http` module.
+Das `http` Modul.
 
 ### --feedback--
 
-Think about the module that provides base classes for creating custom streams.
+Denken Sie an das Modul, das Basisklassen für benutzerdefinierte Streams bereitstellt.
 
 ---
 
-The `fs` module using `createReadStream()` and `createWriteStream()`.
+Das `fs` Modul mit `createReadStream()` und `createWriteStream()`.
 
 ### --feedback--
 
-Think about how Node.js handles reading, writing, and transforming data.
+Denken Sie daran, wie Node.js Daten liest, schreibt und transformiert.
 
 ---
 
-The events module.
+Das events-Modul.
 
 ### --feedback--
 
-Think about how Node.js handles reading, writing, and transforming data.
+Denken Sie daran, wie Node.js Daten liest, schreibt und transformiert.
 
 ## --video-solution--
 
@@ -232,35 +232,35 @@ Think about how Node.js handles reading, writing, and transforming data.
 
 ## --text--
 
-What events can you use on a writable stream to know when streaming completes or an error occurs?
+Welche Ereignisse können Sie bei einem beschreibbaren Stream verwenden, um zu wissen, wann das Streaming abgeschlossen ist oder ein Fehler auftritt?
 
 ## --answers--
 
-`end` and `close`.
+`end` und `close`.
 
 ### --feedback--
 
-Think about the writable stream events that signal completion and failure.
+Denken Sie an die Ereignisse des beschreibbaren Streams, die Abschluss und Fehler signalisieren.
 
 ---
 
-`finish` and `error`.
+`finish` und `error`.
 
 ---
 
-`start` and `stop`.
+`start` und `stop`.
 
 ### --feedback--
 
-Think about the writable stream events that signal completion and failure.
+Denken Sie an die Ereignisse des beschreibbaren Streams, die Abschluss und Fehler signalisieren.
 
 ---
 
-`done` and `fail`.
+`done` und `fail`.
 
 ### --feedback--
 
-Think about the writable stream events that signal completion and failure.
+Denken Sie an die Ereignisse des beschreibbaren Streams, die Abschluss und Fehler signalisieren.
 
 ## --video-solution--
 

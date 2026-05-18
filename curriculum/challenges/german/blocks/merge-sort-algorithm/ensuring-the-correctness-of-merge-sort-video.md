@@ -1,6 +1,6 @@
 ---
 id: 698de0ca7932b3cc4b19c938
-title: Ensuring the Correctness of Merge Sort
+title: Sicherstellen der Korrektheit von Merge Sort
 challengeType: 11
 videoId: UHAYHvqxVKY
 dashedName: ensuring-the-correctness-of-merge-sort
@@ -8,29 +8,29 @@ dashedName: ensuring-the-correctness-of-merge-sort
 
 # --description--
 
-In this video, you will learn how to evaluate the merge sort algorithm and determine its correctness.
+In diesem Video lernen Sie, wie Sie den Merge-Sort-Algorithmus bewerten und seine Korrektheit bestimmen.
 
 # --questions--
 
 ## --text--
 
-What technique is used in the `verify_sorted` function?
+Welche Technik wird in der `verify_sorted`-Funktion verwendet?
 
 ## --answers--
 
-recursion
+Rekursion
 
 ---
 
-dynamic programming
+dynamische Programmierung
 
 ---
 
-iteration
+Iteration
 
 ---
 
-backtracking
+Backtracking
 
 ## --video-solution--
 

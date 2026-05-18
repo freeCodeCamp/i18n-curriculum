@@ -1,6 +1,6 @@
 ---
 id: bd7123c9c452eddfaeb5bdef
-title: Use Bracket Notation to Find the Nth-to-Last Character in a String
+title: Tumia uandishi wa mabano kupata herufi ya Nth-to-last katika mfuatano wa herufi
 challengeType: 1
 forumTopicId: 18344
 dashedName: use-bracket-notation-to-find-the-nth-to-last-character-in-a-string
@@ -8,34 +8,34 @@ dashedName: use-bracket-notation-to-find-the-nth-to-last-character-in-a-string
 
 # --description--
 
-You can use the same principle we just used to retrieve the last character in a string to retrieve the Nth-to-last character.
+Unaweza kutumia kanuni ile ile tuliyotumia kupata herufi ya mwisho katika mfuatano wa herufi ili kupata herufi ya Nth-to-last.
 
-For example, you can get the value of the third-to-last letter of the `const firstName = "Augusta"` string by using `firstName[firstName.length - 3]`
+Kwa mfano, unaweza kupata thamani ya herufi ya tatu kutoka mwisho ya mfuatano wa herufi `const firstName = "Augusta"` kwa kutumia `firstName[firstName.length - 3]`
 
-Example:
+Mfano:
 
 ```js
 const firstName = "Augusta";
 const thirdToLastLetter = firstName[firstName.length - 3];
 ```
 
-`thirdToLastLetter` would have a value of the string `s`.
+`thirdToLastLetter` ingekuwa na thamani ya mfuatano wa herufi `s`.
 
 # --instructions--
 
-Use <dfn>bracket notation</dfn> to find the second-to-last character in the `lastName` string.
+Tumia <dfn>uandishi wa mabano</dfn> kupata herufi ya pili kutoka mwisho katika mfuatano wa herufi `lastName`.
 
-**Hint:** Try looking at the example above if you get stuck.
+**Kidokezo:** Jaribu kuangalia mfano ulio juu ikiwa utakumbwa na shida.
 
 # --hints--
 
-`secondToLastLetterOfLastName` should be the letter `c`.
+`secondToLastLetterOfLastName` inapaswa kuwa herufi `c`.
 
 ```js
 assert(secondToLastLetterOfLastName === 'c');
 ```
 
-You should use `.length` to get the second last letter.
+Unapaswa kutumia `.length` kupata herufi ya pili kutoka mwisho.
 
 ```js
 assert(__helpers.removeJSComments(code).match(/\.length/g).length > 0);

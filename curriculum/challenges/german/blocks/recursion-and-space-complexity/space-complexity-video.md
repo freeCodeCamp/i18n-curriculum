@@ -1,6 +1,6 @@
 ---
 id: 698dcfd57932b3cc4b19c92a
-title: Space Complexity
+title: Speicherkomplexität
 challengeType: 11
 videoId: BFMvhQdqYgc
 dashedName: space-complexity
@@ -8,29 +8,29 @@ dashedName: space-complexity
 
 # --description--
 
-In this video, you will learn about space complexity.
+In diesem Video lernen Sie die Speicherkomplexität kennen.
 
 # --questions--
 
 ## --text--
 
-What is space complexity?
+Was versteht man unter Speicherkomplexität?
 
 ## --answers--
 
-The amount of memory an algorithm uses relative to the input size.
+Die Menge an Speicher, die ein Algorithmus im Verhältnis zur Eingabegröße verwendet.
 
 ---
 
-The amount of time an algorithm takes to run.
+Die Zeit, die ein Algorithmus zur Ausführung benötigt.
 
 ---
 
-The number of CPU cores used by an algorithm.
+Die Anzahl der CPU-Kerne, die ein Algorithmus nutzt.
 
 ---
 
-The number of input elements an algorithm can process per second.
+Die Anzahl der Eingabeelemente, die ein Algorithmus pro Sekunde verarbeiten kann.
 
 ## --video-solution--
 
