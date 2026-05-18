@@ -1,31 +1,31 @@
 ---
 id: 644b6ad4fa8dfd600a9dff2c
-title: Hatua ya 25
+title: Hatua 25
 challengeType: 0
 dashedName: step-25
 ---
 
 # --description--
 
-To divide numbers in JavaScript, use the division operator (`/`). For example:
+Ili kugawanya nambari katika JavaScript, tumia kiendeshaji cha kugawanya (`/`). Kwa mfano:
 
 ```js
 const quotient = 5 / 2; // 2.5
 ```
 
-In the example above, `5` is the <dfn>dividend</dfn>, or the number to be divided, and `2` is the <dfn>divisor</dfn>, or the number to divide by. The result, `2.5`, is called the <dfn>quotient</dfn>.
+Katika mfano hapo juu, `5` ni <dfn>anayegawanywa</dfn>, au nambari inayogawanywa, na `2` ni <dfn>mgawanyiko</dfn>, au nambari ya kugawanya nayo. Matokeo, `2.5`, huitwa <dfn>gawio</dfn>.
 
-Inside your `while` loop, create a variable named `quotient` and assign it the value of `input` divided by `2`.
+Ndani ya mzunguko wako wa `while`, tengeneza kigezo kinachoitwa `quotient` na weka thamani ya `input` iliyogawanywa na `2`.
 
 # --hints--
 
-You should create a variable named `quotient` inside your `while` loop.
+Unapaswa kutengeneza kigezo kinachoitwa `quotient` ndani ya mzunguko wako wa `while`.
 
 ```js
 assert.match(code, /while\s*\(\s*input\s*>\s*0\s*\)\s*\{\s*(var|let|const)\s+quotient\s*=/);
 ```
 
-You should assign `quotient` the value of `input` divided by `2`.
+Unapaswa kuweka thamani ya `quotient` kuwa `input` iliyogawanywa na `2`.
 
 ```js
 assert.match(String(decimalToBinary), /(var|let|const)\s+quotient\s*=\s*input\s*\/\s*2\s*/);

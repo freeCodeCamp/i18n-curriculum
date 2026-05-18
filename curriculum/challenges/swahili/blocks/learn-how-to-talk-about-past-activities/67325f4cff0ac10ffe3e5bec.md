@@ -1,6 +1,6 @@
 ---
 id: 67325f4cff0ac10ffe3e5bec
-title: Task 114
+title: Zoezi la 114
 challengeType: 19
 dashedName: task-114
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Sikiliza sauti na jibu swali lililopo hapa chini.
 
 # --questions--
 
 ## --text--
 
-What is James describing about his approach to coding?
+James anafafanua nini kuhusu mtazamo wake wa kuandika msimbo?
 
 ## --answers--
 
-A habit he had in the past.
+Tabia aliyokuwa nayo zamani.
 
 ---
 
-Something he plans to do in the future.
+Kitu anachopanga kufanya siku za usoni.
 
 ### --feedback--
 
-James isn't talking about future plans; he is reflecting on something he did before.
+James hatazungumzii mipango ya baadaye; anatafakari kuhusu kile alichokifanya zamani.
 
 ---
 
-A habit he continues now.
+Tabia anaendelea nayo sasa.
 
 ### --feedback--
 
-James uses the phrase `used to`, which shows he is describing something he did in the past, not currently.
+James anatumia usemi `used to`, unaoonyesha anafafanua jambo alilofanya zamani, si sasa hivi.
 
 ---
 
-A process he never followed.
+Mchakato ambaye hakuwahi kufuata.
 
 ### --feedback--
 
-James describes a habit he once had, so it is not something he never did.
+James anaelezea tabia aliyokuwa nayo hapo awali, hivyo si jambo ambalo hakuwahi kulifanya.
 
 ## --video-solution--
 
@@ -52,11 +52,11 @@ James describes a habit he once had, so it is not something he never did.
 
 # --explanation--
 
-James says, `I used to just write code without thinking much about the end user.`
+James anasema, `I used to just write code without thinking much about the end user.`
 
-`Used to` indicates a past habit or action that is no longer true.
+`Used to` inaonyesha tabia au tendo la zamani ambalo si kweli tena.
 
-This sentence shows that he previously wrote code without considering the end user but has since changed his approach.
+Sentensi hii inaonyesha kwamba hapo awali aliandika msimbo bila kuzingatia mtumizi wa mwisho lakini tangu wakati huo ameanza kubadilisha mtazamo wake.
 
 # --scene--
 

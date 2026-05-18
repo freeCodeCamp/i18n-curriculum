@@ -1,13 +1,13 @@
 ---
 id: 66ed8fb9f45ce3ece4053eac
-title: Computer Basics Quiz
+title: Jaribio fupi la misingi ya kompyuta
 challengeType: 8
 dashedName: quiz-computer-basics
 ---
 
 # --description--
 
-To pass the quiz, you must correctly answer at least 18 of the 20 questions below.
+Ili kupita jaribio fupi, lazima ujibu kwa usahihi angalau maswali 18 kati ya 20 yaliyo hapa chini.
 
 # --quizzes--
 
@@ -17,19 +17,19 @@ To pass the quiz, you must correctly answer at least 18 of the 20 questions belo
 
 #### --text--
 
-What part of a computer is used to connect the other internal components together?
+Ni sehemu gani ya kompyuta inayotumika kuunganisha sehemu nyingine za ndani pamoja?
 
 #### --distractors--
 
-Processor
+Prosesa (CPU)
 
 ---
 
-Graphics card
+Kadi ya picha
 
 ---
 
-Memory
+Kumbukumbu
 
 #### --answer--
 
@@ -39,29 +39,29 @@ Motherboard
 
 #### --text--
 
-What are browser developer tools?
+Nini maana ya zana za msanidi programu za kivinjari?
 
 #### --distractors--
 
-Tools for editing browser settings and managing user profiles.
+Zana za kuhariri mipangilio ya kivinjari na kusimamia wasifu wa watumizi.
 
 ---
 
-Utilities for blocking ads and improving web page performance.
+Zana za kuzuia matangazo na kuboresha utendaji wa ukurasa wa mtandao.
 
 ---
 
-Software for managing browser extensions and plug-ins.
+Programu za kusimamia nyongeza na viendelezi vya kivinjari.
 
 #### --answer--
 
-Built-in features in browsers that help developers debug and inspect websites.
+Vipengele vilivyojengwa ndani ya vivinjari vinavyosaidia wasanidi programu kutafuta makosa na kukagua tovuti.
 
 ### --question--
 
 #### --text--
 
-Which of the following ISP connections are typically the fastest?
+Ni muunganisho gani wa ISP ambao kwa kawaida huwa wa kasi zaidi?
 
 #### --distractors--
 
@@ -83,29 +83,29 @@ Fiber optic
 
 #### --text--
 
-Which of the following is NOT a safe practice when signing in?
+Ni ipi kati ya zifuatazo SIyo mbinu salama wakati wa kuingia akaunti?
 
 #### --distractors--
 
-Using a fingerprint or face scanner.
+Kutumia skana ya alama za vidole au uso.
 
 ---
 
-Making a long and complex password like `@ppl3_+B@nana34823`.
+Kutengeneza nenosiri refu na tata kama `@ppl3_+B@nana34823`.
 
 ---
 
-Setting up two-factor authentication (2FA).
+Kuweka uthibitisho wa hatua mbili (2FA).
 
 #### --answer--
 
-Using passwords based on personal information like your birthday.
+Kutumia nywila zinazotegemea taarifa binafsi kama tarehe ya kuzaliwa.
 
 ### --question--
 
 #### --text--
 
-Which of the following is NOT a web browser?
+Ni ipi kati ya zifuatazo SIyo kivinjari cha mtandao?
 
 #### --distractors--
 
@@ -127,7 +127,7 @@ Google Drive
 
 #### --text--
 
-When you need to edit a piece of code, which of the following are you most likely going to use?
+Unapohitaji kuhariri kipande cha msimbo, ni ipi kati ya zifuatazo unazotegemea kutumia zaidi?
 
 #### --distractors--
 
@@ -149,7 +149,7 @@ Visual Studio Code
 
 #### --text--
 
-Which of the following is used primarily for managing files stored on a local hard drive?
+Ni ipi kati ya zifuatazo hutumika hasa kusimamia mafaili yaliyohifadhiwa kwenye diski kuu ya ndani?
 
 #### --distractors--
 
@@ -171,95 +171,95 @@ Windows File Explorer
 
 #### --text--
 
-What is NOT a good practice when naming files?
+Ni nini si mbinu nzuri wakati wa kuitia majina mafaili?
 
 #### --distractors--
 
-Putting an underscore or hyphen between words.
+Kuweka mstari chini au alama ya mnyororo kati ya maneno.
 
 ---
 
-Use a casing style such as camelCase and sticking with it.
+Kutumia mtindo wa camelCase na kuufuata.
 
 ---
 
-Putting a version number at the end of a document like `summaryReport_v2.docx`.
+Kuweka nambari ya toleo mwishoni mwa hati kama `summaryReport_v2.docx`.
 
 #### --answer--
 
-Using non-descriptive names like `file1.txt`.
+Kutumia majina yasiyoelezea kama `file1.txt`.
 
 ### --question--
 
 #### --text--
 
-What does the term "domain name" refer to?
+Nini maana ya neno "jina la kikoa"?
 
 #### --distractors--
 
-A type of software that manages website files and databases.
+Aina ya programu inayosimamia mafaili ya tovuti na hifadhidata.
 
 ---
 
-The physical location of a web server in a data center.
+Mahali halisi pa seva ya mtandao katika kituo cha data.
 
 ---
 
-None of the other choices.
+Hakuna kati ya chaguzi zingine.
 
 #### --answer--
 
-The address used to identify websites on the internet.
+Anwani inayotumika kutambua tovuti kwenye mtandao.
 
 ### --question--
 
 #### --text--
 
-Which of the following is a way to send a file to the Recycle Bin/Trash?
+Ni njia gani ya kutuma faili kwenye Recycle Bin/Trash?
 
 #### --distractors--
 
-All of the other choices.
+Chaguzi zote zingine.
 
 ---
 
-Pressing the `Backspace` key on the keyboard.
+Kubofya kitufe cha `Backspace` kwenye kibodi.
 
 ---
 
-Moving it to an Archived folder.
+Kuhamisha faili kwenye folda ya Archived.
 
 #### --answer--
 
-Right-click on it and select the Delete/Move to trash option.
+Bofya kulia juu yake na chagua chaguo la Futa/Hamisha kwenye takataka.
 
 ### --question--
 
 #### --text--
 
-What is a RAM?
+RAM ni nini?
 
 #### --distractors--
 
-A network protocol used for transferring files between devices.
+Itifaki ya mtandao inayotumika kuhamisha mafaili kati ya vifaa.
 
 ---
 
-A permanent storage device used for saving files and applications.
+Kifaa cha kuhifadhi cha kudumu kinachotumika kuhifadhi mafaili na programu.
 
 ---
 
-A component in a computer responsible for generating graphics and rendering images.
+Sehemu ya kompyuta inayohusika na kuzalisha picha na kuonyesha michoro.
 
 #### --answer--
 
-A temporary memory for fast data access by the processor.
+Kumbukumbu ya muda kwa upatikanaji wa haraka wa data na prosesa.
 
 ### --question--
 
 #### --text--
 
-What file type will be best suited for writing a `README` file?
+Ni aina gani ya faili itakayofaa zaidi kwa kuandika faili la `README`?
 
 #### --distractors--
 
@@ -281,143 +281,143 @@ What file type will be best suited for writing a `README` file?
 
 #### --text--
 
-What is an Integrated Development Environment (IDE)?
+Nini maana ya Mazingira ya Ukuzaji Yaliyojumuishwa (IDE)?
 
 #### --distractors--
 
-A platform designed for deploying and hosting web applications.
+Jukwaa lililoundwa kwa ajili ya kupeleka na kuhudumia programu za mtandao.
 
 ---
 
-A type of hardware device used for testing and debugging electronic circuits.
+Aina ya kifaa cha vifaa kinachotumika kwa ajili ya kupima na kurekebisha mizunguko ya umeme.
 
 ---
 
-A version control system that helps developers track changes in source code during software development.
+Mfumo wa udhibiti wa toleo unaosaidia wasanidi programu kufuatilia mabadiliko ya msimbo wa chanzo wakati wa ukuzaji wa programu.
 
 #### --answer--
 
-A program that integrates tools for writing, debugging, and running code.
+Programu inayojumuisha zana za kuandika, kurekebisha makosa, na kuendesha msimbo.
 
 ### --question--
 
 #### --text--
 
-What is a piece of software that allows you to look at online content called?
+Programu gani inakuwezesha kuangalia maudhui ya mtandaoni?
 
 #### --distractors--
 
-Internet content displayer
+Mtaonyesha maudhui ya mtandao
 
 ---
 
-Search engine
+Mafuta ya utafutaji
 
 ---
 
-Website
+Tovuti
 
 #### --answer--
 
-Web browser
+Kivinjari cha mtandao
 
 ### --question--
 
 #### --text--
 
-What is a piece of software that lists web pages related to a user's query called?
+Programu gani inaorodhesha kurasa za mtandao zinazohusiana na hoja ya mtumizi?
 
 #### --distractors--
 
-Page finder
+Mtafuta ukurasa
 
 ---
 
-Web browser
+Kivinjari cha mtandao
 
 ---
 
-Website
+Tovuti
 
 #### --answer--
 
-Search engine
+Mafuta ya utafutaji
 
 ### --question--
 
 #### --text--
 
-What is a set of one or more web pages under one domain name called?
+Ni seti gani ya kurasa za mtandao chini ya jina moja la kikoa?
 
 #### --distractors--
 
-Web browser
+Kivinjari cha mtandao
 
 ---
 
-Hyperlink
+Kiungo cha mtandao
 
 ---
 
-Search engine
+Mafuta ya utafutaji
 
 #### --answer--
 
-Website
+Tovuti
 
 ### --question--
 
 #### --text--
 
-To search for an exact phrase, what should you enclose your search query with?
+Ili kutafuta msemo halisi, unapaswa kuzungusha hoja yako ya utafutaji na nini?
 
 #### --distractors--
 
-Backticks
+Mabano ya kawaida
 
 ---
 
-Parentheses
+Mabano
 
 ---
 
-Brackets
+Alama za mshazari
 
 #### --answer--
 
-Quotation marks
+Alama za nukuu
 
 ### --question--
 
 #### --text--
 
-Which is NOT a way to install a web browser?
+Ni ipi SIyo njia ya kusakinisha kivinjari cha mtandao?
 
 #### --distractors--
 
-Using a package manager.
+Kutumia meneja wa kifurushi.
 
 ---
 
-Directly downloading from the website.
+Kupakua moja kwa moja kutoka kwenye tovuti.
 
 ---
 
-Using an App Store like Microsoft Store.
+Kutumia Duka la Programu kama Microsoft Store.
 
 #### --answer--
 
-Pressing the Network/Internet button in Settings.
+Kubofya kitufe cha Mtandao/Intaneti katika Mipangilio.
 
 ### --question--
 
 #### --text--
 
-Which of the following formats does NOT preserve image quality after compression?
+Ni muundo gani kati ya zifuatazo hauhifadhi ubora wa picha baada ya kubana?
 
 #### --distractors--
 
-All of the other choices.
+Chaguzi zote zingine.
 
 ---
 
@@ -435,23 +435,23 @@ JPEG
 
 #### --text--
 
-Which of the following parts is located in a socket on the motherboard?
+Ni sehemu gani kati ya zifuatazo ziko kwenye soketi kwenye motherboard?
 
 #### --distractors--
 
-The router
+Kipanga-njia
 
 ---
 
-The keyboard
+Kibodi
 
 ---
 
-The hard drive (HDD)
+Diski kuu (HDD)
 
 #### --answer--
 
-The CPU
+Prosesa (CPU)
 
 ## --quiz--
 
@@ -459,51 +459,51 @@ The CPU
 
 #### --text--
 
-Which of the following is a basic part of the computer?
+Ni ipi kati ya zifuatazo ni sehemu ya msingi ya kompyuta?
 
 #### --distractors--
 
-The word processor
+Msimamizi wa maneno
 
 ---
 
-The task manager
+Msimamizi wa kazi
 
 ---
 
-The memory manager
+Msimamizi wa kumbukumbu
 
 #### --answer--
 
-The central processing unit
+Kitengo cha usindikaji mkuu
 
 ### --question--
 
 #### --text--
 
-What is a pointing device for a computer?
+Ni kifaa gani cha kuonyesha kinachotumika kwa kompyuta?
 
 #### --distractors--
 
-A stick for pointing at computers
+Fimbo ya kuonyesha kompyuta
 
 ---
 
-A retractable device used in PowerPoint presentations
+Kifaa kinachoweza kufungwa na kutolewa kinachotumika katika maonyesho ya PowerPoint
 
 ---
 
-A laser pointer
+Kipiga mionzi cha laser
 
 #### --answer--
 
-A mouse or touchpad
+Panya au touchpad
 
 ### --question--
 
 #### --text--
 
-What is a type of ISP provider?
+Ni aina gani ya mtoa huduma wa ISP?
 
 #### --distractors--
 
@@ -525,29 +525,29 @@ Tier 1
 
 #### --text--
 
-What is a best practice when naming files for a web application?
+Ni mbinu gani bora wakati wa kuitia majina mafaili kwa programu ya mtandao?
 
 #### --distractors--
 
-Using special characters.
+Kutumia herufi maalum.
 
 ---
 
-Using spaces to separate the words.
+Kutumia nafasi kutenganisha maneno.
 
 ---
 
-Using generic words.
+Kutumia maneno ya jumla.
 
 #### --answer--
 
-Using hyphens instead of spaces.
+Kutumia alama za mnyororo badala ya nafasi.
 
 ### --question--
 
 #### --text--
 
-Which of the following is a common file type when working with web applications?
+Ni aina gani ya faili inayotumika sana wakati wa kufanya kazi na programu za mtandao?
 
 #### --distractors--
 
@@ -569,7 +569,7 @@ Which of the following is a common file type when working with web applications?
 
 #### --text--
 
-What is a common file type for a video file?
+Ni aina gani ya faili ya kawaida kwa faili la video?
 
 #### --distractors--
 
@@ -591,7 +591,7 @@ What is a common file type for a video file?
 
 #### --text--
 
-Which of the following types is commonly used for image files?
+Ni aina gani ya faili hutumika sana kwa mafaili ya picha?
 
 #### --distractors--
 
@@ -613,7 +613,7 @@ Which of the following types is commonly used for image files?
 
 #### --text--
 
-Microsoft Edge is the default web browser of which operating system?
+Microsoft Edge ni kivinjari cha mtandao cha chaguo-msingi cha mfumo gani wa uendeshaji?
 
 #### --distractors--
 
@@ -635,29 +635,29 @@ Windows
 
 #### --text--
 
-What is a search engine?
+Nini maana ya mafuta ya utafutaji?
 
 #### --distractors--
 
-A part of the hard drive of a computer.
+Sehemu ya diski kuu ya kompyuta.
 
 ---
 
-Advanced software that is only used by academic researchers.
+Programu ya hali ya juu inayotumika tu na watafiti wa kitaaluma.
 
 ---
 
-A tool for finding web components.
+Zana ya kutafuta sehemu za mtandao.
 
 #### --answer--
 
-A web based tool for searching information on the internet.
+Zana ya mtandao inayotumika kutafuta taarifa kwenye mtandao.
 
 ### --question--
 
 #### --text--
 
-Which of the following is NOT a type of browser?
+Ni ipi kati ya zifuatazo SIyo aina ya kivinjari?
 
 #### --distractors--
 
@@ -679,7 +679,7 @@ GitHub
 
 #### --text--
 
-Which of the following is NOT a cloud-based hosting service for repositories?
+Ni ipi kati ya zifuatazo SIyo huduma ya kuhudumia hifadhidata kwa njia ya wingu?
 
 #### --distractors--
 
@@ -701,59 +701,59 @@ Ona
 
 #### --text--
 
-Which of the following is not primarily a part of an integrated development environment?
+Ni ipi kati ya zifuatazo si sehemu kuu ya mazingira ya ukuzaji yaliyojumuishwa?
 
 #### --distractors--
 
-A tool for writing.
+Zana ya kuandika.
 
 ---
 
-A tool for testing code.
+Zana ya kupima msimbo.
 
 ---
 
-A tool for debugging code.
+Zana ya kurekebisha makosa ya msimbo.
 
 #### --answer--
 
-A tool for storing code.
+Zana ya kuhifadhi msimbo.
 
 ### --question--
 
 #### --text--
 
-What is a best practice for naming files?
+Ni mbinu gani bora ya kuitia majina mafaili?
 
 #### --distractors--
 
-Creating a script that uses the same file names for all your projects.
+Kutengeneza script inayotumia majina sawa ya mafaili kwa miradi yote.
 
 ---
 
-Naming the main file with the same name as the folder it is in.
+Kuitia jina faili kuu jina sawa na la folda ilipo.
 
 ---
 
-Using a unique sequence of numbers at the end of the file name.
+Kutumia mfululizo wa nambari za kipekee mwishoni mwa jina la faili.
 
 #### --answer--
 
-Using a descriptive name for each file.
+Kutumia jina linaloelezea faili kila moja.
 
 ### --question--
 
 #### --text--
 
-What is the built-in way you can use to search for files on your computer?
+Ni njia gani iliyojengwa ndani unayotumia kutafuta mafaili kwenye kompyuta yako?
 
 #### --distractors--
 
-Google or Firefox
+Google au Firefox
 
 ---
 
-A search engine
+Mafuta ya utafutaji
 
 ---
 
@@ -761,13 +761,13 @@ GitHub
 
 #### --answer--
 
-The file explorer
+Mchunguzi wa faili
 
 ### --question--
 
 #### --text--
 
-What is a common search strategy to search for file types?
+Ni mbinu gani ya kawaida ya utafutaji wa aina za faili?
 
 #### --distractors--
 
@@ -789,7 +789,7 @@ What is a common search strategy to search for file types?
 
 #### --text--
 
-What is the default page for a website?
+Ni ukurasa gani wa chaguo-msingi kwa tovuti?
 
 #### --distractors--
 
@@ -811,73 +811,73 @@ What is the default page for a website?
 
 #### --text--
 
-Which file managers can you use to create, move, and delete files?
+Ni wasimamizi gani wa faili unaweza kutumia kuunda, kuhamisha, na kufuta mafaili?
 
 #### --distractors--
 
-Google or Bing
+Google au Bing
 
 ---
 
-Windows or macOS
+Windows au macOS
 
 ---
 
-Findex or Firefox
+Findex au Firefox
 
 #### --answer--
 
-Explorer or Finder
+Explorer au Finder
 
 ### --question--
 
 #### --text--
 
-What is Git?
+Git ni nini?
 
 #### --distractors--
 
-A centralized storage location for code repositories.
+Mahali pa kuhifadhi msimbo wa chanzo kwa njia ya katikati.
 
 ---
 
-A tool for adding, updating, and removing libraries and project dependencies.
+Zana ya kuongeza, kusahihisha, na kufuta maktaba na utegemezi wa miradi.
 
 ---
 
-A cloud-based hosting service for repositories.
+Huduma ya kuhudumia hifadhidata kwa njia ya wingu.
 
 #### --answer--
 
-A version control system for tracking changes and collaborating with others.
+Mfumo wa udhibiti wa toleo unaosaidia kufuatilia mabadiliko na kushirikiana na wengine.
 
 ### --question--
 
 #### --text--
 
-What is random access memory?
+Kumbukumbu ya upatikanaji wa nasibu ni nini?
 
 #### --distractors--
 
-A permanent storage location that is used to store data.
+Mahali pa kuhifadhi wa kudumu pa kuhifadhi data.
 
 ---
 
-A volatile way to access data in a sequential manner.
+Njia ya kupoteza data kwa kufuata mfululizo.
 
 ---
 
-A processor used for generating passwords.
+Prosesa inayotumika kuzalisha nywila.
 
 #### --answer--
 
-A temporary storage location for the computer's central processing unit.
+Mahali pa kuhifadhi kwa muda kwa kitengo cha usindikaji mkuu cha kompyuta.
 
 ### --question--
 
 #### --text--
 
-Which file format is used to compress files?
+Ni muundo gani wa faili hutumika kubana mafaili?
 
 #### --distractors--
 
@@ -894,4 +894,3 @@ Which file format is used to compress files?
 #### --answer--
 
 `ZIP`
-

@@ -1,6 +1,6 @@
 ---
 id: 05b8c9b04c6df84636956fab
-title: Introduction
+title: Utangulizi
 challengeType: 11
 videoId: EgQZWE8in68
 dashedName: introduction
@@ -8,29 +8,29 @@ dashedName: introduction
 
 # --description--
 
-In this video, instructor Mike Dane explains why you should learn Python.
+Katika video hii, mwalimu Mike Dane anaeleza kwanini unapaswa kujifunza Python.
 
 # --questions--
 
 ## --text--
 
-What is one reason to learn Python?
+Ni sababu gani moja ya kujifunza Python?
 
 ## --answers--
 
-It is required to be learned before any other programming language.
+Inahitajika kujifunza kabla ya lugha nyingine yoyote ya programu.
 
 ---
 
-It is one of the most popular programming languages used in the industry.
+Ni mojawapo ya lugha maarufu zaidi za programu zinazotumika katika sekta.
 
 ---
 
-It is the fastest programming language for all types of applications.
+Ni lugha ya programu yenye kasi zaidi kwa aina zote za programu.
 
 ---
 
-It is only useful for complex gaming applications.
+Inatumika tu kwa programu ngumu za michezo.
 
 ## --video-solution--
 

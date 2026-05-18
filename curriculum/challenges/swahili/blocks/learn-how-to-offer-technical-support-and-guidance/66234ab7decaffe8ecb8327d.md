@@ -1,6 +1,6 @@
 ---
 id: 66234ab7decaffe8ecb8327d
-title: Task 56
+title: Zoezi la 56
 challengeType: 22
 dashedName: task-56
 lang: en-US
@@ -10,9 +10,9 @@ lang: en-US
 
 # --description--
 
-`To affect` means to have an impact on or influence something. In programming, `affecting` a part of the system means that changes in one area might impact how other areas function.
+`To affect` ina maana ya kuwa na athari au kuathiri kitu fulani. Katika programu, `affecting` sehemu ya mfumo ina maana kwamba mabadiliko katika eneo moja yanaweza kuathiri jinsi maeneo mengine yanavyofanya kazi.
 
-For example, `Changing the database structure could affect the application's performance` indicates that modifications might influence the performance.
+Kwa mfano, `Changing the database structure could affect the application's performance` inaonyesha kwamba marekebisho yanaweza kuathiri utendaji.
 
 # --fillInTheBlank--
 
@@ -26,7 +26,7 @@ For example, `Changing the database structure could affect the application's per
 
 ### --feedback--
 
-In this context, it refers to the potential impact of Sophie's changes on other parts of the system.
+Katika muktadha huu, inahusu athari inayoweza kutokea kutokana na mabadiliko ya Sophie kwenye sehemu nyingine za mfumo.
 
 ---
 
@@ -34,7 +34,7 @@ In this context, it refers to the potential impact of Sophie's changes on other 
 
 ### --feedback--
 
-They are the various operations or features of the system that might be impacted by the changes.
+Hizi ni shughuli mbalimbali au vipengele vya mfumo ambavyo vinaweza kuathiriwa na mabadiliko hayo.
 
 # --scene--
 

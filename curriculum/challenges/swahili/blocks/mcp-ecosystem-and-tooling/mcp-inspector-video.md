@@ -1,6 +1,6 @@
 ---
 id: 69ae7684b4a814be6a4f2be9
-title: MCP Inspector
+title: Mkaguzi wa MCP
 challengeType: 11
 videoId: OIr0TIWc0Bs
 dashedName: mcp-inspector
@@ -8,31 +8,30 @@ dashedName: mcp-inspector
 
 # --description--
 
-In this video, you will learn about the MCP Inspector.
+Katika video hii, utafundishwa kuhusu Mkaguzi wa MCP.
 
 # --questions--
 
 ## --text--
 
-What is the primary function of the MCP Inspector?
+Kitendakazi kikuu cha Mkaguzi wa MCP ni kipi?
 
 ## --answers--
 
-A component that stores datasets and embeddings for retrieval.
+Sehemu inayohifadhi seti za data na uingizaji kwa ajili ya upokezi.
 
 ---
 
-A feature that automatically generates prompts for AI applications.
+Kipengele kinachotengeneza moja kwa moja maelekezo kwa programu za AI.
 
 ---
 
-A tool used to train new LLMs directly on the MCP server.
+Chombo kinachotumika kufundisha LLM mpya moja kwa moja kwenye seva ya MCP.
 
 ---
 
-A tools used to inspect and debug MCP servers and clients.
+Vifaa vinavyotumika kuchunguza na kutafuta makosa kwenye seva na wateja wa MCP.
 
 ## --video-solution--
 
 4
-

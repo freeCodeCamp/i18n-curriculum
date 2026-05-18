@@ -1,6 +1,6 @@
 ---
 id: 67a9f44e6dcabb0c402a9bfb
-title: Task 5
+title: Zoezi la 5
 challengeType: 19
 dashedName: task-5
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Sikiliza sauti na jibu swali lililopo hapa chini.
 
 # --questions--
 
 ## --text--
 
-What does Bob want to know?
+Bob anataka kujua nini?
 
 ## --answers--
 
-If employees have already bought office furniture.
+Je, wafanyakazi tayari wamekununua samani za ofisi.
 
 ### --feedback--
 
-Bob isn't asking for confirmation of purchases.
+Bob haulizi kuthibitisha ununuzi.
 
 ---
 
-How much office furniture costs.
+Gharama ya samani za ofisi.
 
 ### --feedback--
 
-Bob does not ask about the price.
+Bob haulizi kuhusu bei.
 
 ---
 
-If the company will increase the stipend.
+Je, kampuni itapandisha kiasi cha ruzuku.
 
 ### --feedback--
 
-Bob is not discussing changes to the stipend.
+Bob haongei kuhusu mabadiliko ya ruzuku.
 
 ---
 
-If Anna thinks using the stipend for office furniture is a good idea.
+Je, Anna anafikiri kutumia ruzuku kwa ajili ya samani za ofisi ni wazo nzuri.
 
 ## --video-solution--
 
@@ -52,7 +52,7 @@ If Anna thinks using the stipend for office furniture is a good idea.
 
 # --explanation--
 
-Bob asks, `Do you think that's a good idea?` This is a way to ask for someone's opinion about a suggestion or plan. Here's other ways to ask for an opinion:
+Bob anauliza, `Do you think that's a good idea?` Hii ni njia ya kuuliza maoni ya mtu kuhusu pendekezo au mpango. Hapa kuna njia nyingine za kuuliza maoni:
 
 - `Do you think this will work?`
 
@@ -60,7 +60,7 @@ Bob asks, `Do you think that's a good idea?` This is a way to ask for someone's 
 
 - `How do you feel about this plan?`
 
-In this dialogue, Bob is referring to employees using the remote work stipend for office furniture. Instead of stating his own opinion, he is asking Anna what she thinks.
+Katika mazungumzo haya, Bob anarejelea wafanyakazi kutumia ruzuku ya kazi ya mbali kununua samani za ofisi. Badala ya kutoa maoni yake mwenyewe, anauliza Anna anafikiri nini.
 
 # --scene--
 

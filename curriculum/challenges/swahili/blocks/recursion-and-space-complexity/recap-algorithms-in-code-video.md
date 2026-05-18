@@ -1,6 +1,6 @@
 ---
 id: 698dd0707932b3cc4b19c92b
-title: Recap for Algorithms in Code
+title: Muhtasari wa algoriti katika msimbo
 challengeType: 11
 videoId: paBfWYrScAg
 dashedName: recap-algorithms-in-code
@@ -8,29 +8,29 @@ dashedName: recap-algorithms-in-code
 
 # --description--
 
-In this video, you will review the key concepts taught so far including algorithmic thinking, and Big O notation.
+Katika video hii, utakagua dhana kuu zilizofundishwa hadi sasa ikiwa ni pamoja na kufikiri kwa algoriti, na noti ya Big O.
 
 # --questions--
 
 ## --text--
 
-Which of the following should be true when it comes to algorithms?
+Ni ipi kati ya zifuatazo inapaswa kuwa kweli linapokuja suala la algoriti?
 
 ## --answers--
 
-It should always use the maximum amount of memory available.
+Inapaswa kila mara kutumia kiasi kikubwa cha kumbukumbu kinachopatikana.
 
 ---
 
-It should never repeat any steps, even if needed.
+Haipaswi kurudia hatua yoyote, hata ikihitajika.
 
 ---
 
-It should finish in a finite amount of time.
+Inapaswa kumalizika ndani ya muda usio na kikomo.
 
 ---
 
-It should produce random results each time it runs.
+Inapaswa kutoa matokeo ya bahati nasibu kila mara inapoendeshwa.
 
 ## --video-solution--
 

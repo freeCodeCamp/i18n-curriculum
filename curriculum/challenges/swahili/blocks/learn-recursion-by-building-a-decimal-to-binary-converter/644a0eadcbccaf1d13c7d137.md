@@ -1,15 +1,15 @@
 ---
 id: 644a0eadcbccaf1d13c7d137
-title: Step 19
+title: Hatua 19
 challengeType: 0
 dashedName: step-19
 ---
 
 # --description--
 
-In the base-2 number system, the rightmost digit represents the ones place, the next digit to the left represents the twos place, then the fours place, then the eights place, and so on. In this system, each digit's place value is two times greater than the digit to its right.
+Katika mfumo wa nambari wa msingi-2, tarakimu ya kulia kabisa inawakilisha nafasi ya moja, tarakimu inayofuata kushoto inawakilisha nafasi ya mbili, kisha nafasi ya nne, kisha nafasi ya nane, na kadhalika. Katika mfumo huu, thamani ya nafasi ya kila tarakimu ni mara mbili zaidi kuliko tarakimu iliyo upande wake wa kulia.
 
-Here are numbers zero to nine in the base-10 and base-2 number systems:
+Hapa kuna nambari kutoka sifuri hadi tisa katika mifumo ya nambari ya msingi-10 na msingi-2:
 
 ```md
 | Base-10 | Base-2 |
@@ -26,25 +26,25 @@ Here are numbers zero to nine in the base-10 and base-2 number systems:
 |    9    |  1001  |
 ```
 
-Notice that binary numbers are formed from left to right, from the digit with the greatest place value on the left, to the least significant on the right. For example, the number `3` in binary is `11`, or `1` in the twos place and `1` in the ones place. Then for the number `4`, a digit to represent the fours place is included on the left and set to `1`, the twos place is `0`, and the ones place is `0`.
+Angalia kwamba nambari za binary zinaundwa kutoka kushoto kwenda kulia, kutoka tarakimu yenye thamani kubwa zaidi upande wa kushoto, hadi tarakimu yenye thamani ndogo kabisa upande wa kulia. Kwa mfano, nambari `3` katika binary ni `11`, au `1` katika nafasi ya mbili na `1` katika nafasi ya moja. Kisha kwa nambari `4`, tarakimu ya kuwakilisha nafasi ya nne inaongezwa upande wa kushoto na kuwekwa kuwa `1`, nafasi ya mbili ni `0`, na nafasi ya moja ni `0`.
 
-In your `decimalToBinary` function, convert the number `10` into binary and `return` it as a string.
+Katika kitendakazi chako cha `decimalToBinary`, badilisha nambari `10` kuwa binary na `return` kama mfuatano wa herufi.
 
 # --hints--
 
-Your `decimalToBinary` function should return a string.
+Kitendakazi chako cha `decimalToBinary` kinapaswa kurudisha mfuatano wa herufi.
 
 ```js
 assert.isString(decimalToBinary());
 ```
 
-Your `decimalToBinary` function should return a string with a length of `4`.
+Kitendakazi chako cha `decimalToBinary` kinapaswa kurudisha mfuatano wa herufi wenye urefu wa `4`.
 
 ```js
 assert.strictEqual(decimalToBinary().length, 4);
 ```
 
-Your `decimalToBinary` function should return `"1010"` as a string.
+Kitendakazi chako cha `decimalToBinary` kinapaswa kurudisha `"1010"` kama mfuatano wa herufi.
 
 ```js
 assert.strictEqual(decimalToBinary(), '1010');

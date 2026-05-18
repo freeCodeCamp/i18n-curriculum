@@ -1,6 +1,6 @@
 ---
 id: 68443eddeab5bb2d7d6e44bf
-title: Task 45
+title: Zoezi la 45
 challengeType: 22
 dashedName: task-45
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Sikiliza sauti na ukamilishe sentensi ifuatayo.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This two-word phrase means to arrange or prepare something for use.
+Usemi huu wa maneno mawili unamaanisha kupanga au kuandaa kitu kwa ajili ya matumizi.
 
 ---
 
@@ -32,17 +32,17 @@ This two-word phrase means to arrange or prepare something for use.
 
 ### --feedback--
 
-This two-word phrase refers to a space where employees can relax from work.
+Usemi huu wa maneno mawili unahusu sehemu ambapo wafanyakazi wanaweza kupumzika kutoka kazini.
 
 # --explanation--
 
-`Set up` means to prepare or arrange something for use. For example:
+`Set up` inamaanisha kuandaa au kupanga kitu kwa ajili ya matumizi. Kwa mfano:
 
-`We need to set up the new computers before the meeting.` – This means to make them ready.
+`We need to set up the new computers before the meeting.` – Hii inamaanisha kuvitayarisha.
 
-`Break room` is a place in an office where people rest, eat, or relax. For example:
+`Break room` ni sehemu katika ofisi ambapo watu hupumzika, kula, au kupumzika. Kwa mfano:
 
-`Let's meet in the break room after lunch.` – This refers to a space meant for taking a break.
+`Let's meet in the break room after lunch.` – Hii inahusu nafasi iliyotengwa kwa ajili ya kupumzika.
 
 # --scene--
 

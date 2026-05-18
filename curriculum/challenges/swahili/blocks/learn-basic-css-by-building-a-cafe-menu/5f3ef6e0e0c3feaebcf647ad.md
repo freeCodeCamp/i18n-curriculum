@@ -1,29 +1,29 @@
 ---
 id: 5f3ef6e0e0c3feaebcf647ad
-title: Hatua ya 47
+title: Hatua 47
 challengeType: 0
 dashedName: step-47
 ---
 
 # --description--
 
-Add an `h2` element in the new section and give it the text `Desserts`.
+Ongeza kipengele cha `h2` katika sehemu mpya na kimpatie maandishi ya `Desserts`.
 
 # --hints--
 
-Hupaswi kubadilisha kipengele chako cha `section` kilichopo.
+Haupasi kubadilisha kipengele chako cha `section` kilichopo.
 
 ```js
 assert.lengthOf(document.querySelectorAll('section'), 2);
 ```
 
-Unapaswa kuongeza kipengele cha `h2` katika kipengele chako cha pili cha `section`.
+Unapaswa kuongeza kipengele cha `h2` katika kipengele chako cha `section` cha pili.
 
 ```js
 assert.strictEqual(document.querySelectorAll('section')?.[1]?.children?.[0]?.tagName, 'H2');
 ```
 
-Kipengele chako kipya cha `h2` kinafaa kuwa na maandishi `Desserts`.
+Kipengele chako kipya cha `h2` kinapaswa kuwa na maandishi ya `Desserts`.
 
 ```js
 assert.match(document.querySelectorAll('h2')?.[1]?.innerText, /Desserts/i);
@@ -105,4 +105,3 @@ h1, h2, p {
   width: 25%;
 }
 ```
-

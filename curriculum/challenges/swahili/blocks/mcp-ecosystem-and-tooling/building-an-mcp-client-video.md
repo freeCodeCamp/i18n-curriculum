@@ -1,6 +1,6 @@
 ---
 id: 69ae7688b4a814be6a4f2bea
-title: Building an MCP Client
+title: Kujenga mteja wa MCP
 challengeType: 11
 videoId: pzvQoPwNQN0
 dashedName: building-an-mcp-client
@@ -8,13 +8,13 @@ dashedName: building-an-mcp-client
 
 # --description--
 
-In this video, you will learn how to build an MCP client.
+Katika video hii, utafundishwa jinsi ya kujenga mteja wa MCP.
 
 # --questions--
 
 ## --text--
 
-Which of the following is NOT an example feature of an MCP client?
+Ni ipi kati ya zifuatazo SI mfano wa kipengele cha mteja wa MCP?
 
 ## --answers--
 
@@ -35,5 +35,3 @@ Elicitation
 ## --video-solution--
 
 3
-
-

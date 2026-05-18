@@ -1,6 +1,6 @@
 ---
 id: 679d62d4afabb9cb6f9ece23
-title: Task 106
+title: Zoezi la 106
 challengeType: 19
 dashedName: task-106
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Sikiliza sauti na jibu swali lililopo hapa chini.
 
 # --questions--
 
 ## --text--
 
-What does Maria want to avoid doing, and why?
+Maria anataka kuepuka kufanya nini, na kwa nini?
 
 ## --answers--
 
-She wants to avoid fixing the problem.
+Anataka kuepuka kutatua tatizo.
 
 ### --feedback--
 
-Maria is not saying they shouldn't fix the problem.
+Maria hasemi kwamba wasitatue tatizo.
 
 ---
 
-She wants to avoid asking for help.
+Anataka kuepuka kuomba msaada.
 
 ### --feedback--
 
-Maria does not mention asking for help.
+Maria hakutaja kuomba msaada.
 
 ---
 
-She wants to avoid rushing because it could cause more problems.
+Anataka kuepuka kuharaka kwa sababu inaweza kusababisha matatizo zaidi.
 
 ---
 
-She wants to avoid updating the software.
+Anataka kuepuka kusasisha programu.
 
 ### --feedback--
 
-Maria does not say they should avoid updating.
+Maria hasemi kwamba wanapaswa kuepuka kusasisha.
 
 ## --video-solution--
 
@@ -52,11 +52,11 @@ Maria does not say they should avoid updating.
 
 # --explanation--
 
-`To lead to problems` means that an action or decision could result in difficulties or negative consequences. For example:
+`To lead to problems` ina maana kwamba kitendo au uamuzi unaweza kusababisha matatizo au matokeo mabaya. Kwa mfano:
 
-`Skipping the testing phase can lead to serious problems in the software.` - This means that not testing properly might cause major technical issues.
+`Skipping the testing phase can lead to serious problems in the software.` - Hii ina maana kwamba kutofanya majaribio ipasavyo kunaweza kusababisha matatizo makubwa ya kiufundi.
 
-In this dialogue, Maria is concerned that rushing could create additional issues.
+Katika mazungumzo haya, Maria ana wasiwasi kwamba kuharaka kunaweza kuleta matatizo zaidi.
 
 # --scene--
 

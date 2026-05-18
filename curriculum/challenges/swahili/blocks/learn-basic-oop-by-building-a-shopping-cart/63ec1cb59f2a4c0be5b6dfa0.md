@@ -1,23 +1,23 @@
 ---
 id: 63ec1cb59f2a4c0be5b6dfa0
-title: Step 5
+title: Hatua 5
 challengeType: 0
 dashedName: step-5
 ---
 
 # --description--
 
-A shopping cart does not serve much purpose without products. Declare a `products` variable and set it to an empty array. Using an array will allow you to store multiple products.
+Gari la ununuzi halina maana kubwa bila bidhaa. Tangaza mabadiliko wa `products` na uweke kuwa safu ya data tupu. Kutumia safu ya data kutakuwezesha kuhifadhi bidhaa nyingi.
 
 # --hints--
 
-You should declare a `products` variable with `const`.
+Unapaswa kutangaza mabadiliko wa `products` kwa `const`.
 
 ```js
 assert.match(code, /const\s+products\b/);
 ```
 
-You should set the `products` variable to an empty array.
+Unapaswa kuweka mabadiliko wa `products` kuwa safu ya data tupu.
 
 ```js
 assert.match(code, /const\s+products\s*=\s*\[\s*\]/);

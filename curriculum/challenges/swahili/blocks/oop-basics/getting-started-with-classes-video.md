@@ -1,6 +1,6 @@
 ---
 id: 69ae96daa9e6da4eb0d5f7f4
-title: Getting Started with Classes
+title: Kuanzisha na darasa la vitu
 challengeType: 11
 videoId: _066KcCuaYM
 dashedName: getting-started-with-classes
@@ -8,13 +8,13 @@ dashedName: getting-started-with-classes
 
 # --description--
 
-In this video, you will learn the basics of OOP by getting started working with classes in Python.
+Katika video hii, utafundishwa misingi ya OOP kwa kuanza kufanya kazi na madarasa ya vitu katika Python.
 
 # --questions--
 
 ## --text--
 
-Which of the following is the correct way to add a method to a class?
+Ni njia gani kati ya zifuatazo ndiyo sahihi ya kuongeza njia katika darasa la vitu?
 
 ## --answers--
 
@@ -51,5 +51,3 @@ class Dog:
 ## --video-solution--
 
 2
-
-

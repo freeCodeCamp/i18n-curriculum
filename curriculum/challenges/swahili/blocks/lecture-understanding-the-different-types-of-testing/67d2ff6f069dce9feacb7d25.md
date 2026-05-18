@@ -1,65 +1,65 @@
 ---
 id: 67d2ff6f069dce9feacb7d25
-title: What Is Compatibility Testing?
+title: "Je, upimaji wa ulinganifu ni nini?"
 challengeType: 19
 dashedName: what-is-compatibility-testing
 ---
 
 # --description--
 
-When you build out web applications at scale, you will need to think beyond your personal computing environment. How will these applications work on a variety of devices, operating systems, and browsers? Well, this is where compatibility testing comes in.
+Unapojenga programu za mtandao kwa kiwango kikubwa, utahitaji kufikiria zaidi ya mazingira yako binafsi ya kompyuta. Je, programu hizi zitafanya kazi vipi kwenye vifaa mbalimbali, mifumo ya uendeshaji, na vivinjari? Hapa ndipo upimaji wa ulinganifu unapoingia.
 
-The goal of compatibility testing is to see how well your software works in a variety of different computing environments. This provides the team with the ability to catch bugs before they reach production and will help contribute to a smoother product launch.
+Lengo la upimaji wa ulinganifu ni kuona jinsi programu zako zinavyofanya kazi vizuri katika mazingira tofauti ya kompyuta. Hii huwapa timu uwezo wa kugundua hitilafu kabla hazijafika kwenye uzalishaji na itasaidia kuchangia uzinduzi laini wa bidhaa.
 
-Different types of compatibility testing include backwards and forwards compatibility, hardware testing, operating systems, networks, browsers, and mobile devices.
+Aina tofauti za upimaji wa ulinganifu ni pamoja na ulinganifu wa nyuma na wa mbele, upimaji wa vifaa, mifumo ya uendeshaji, mitandao, vivinjari, na vifaa vya mkononi.
 
-Let's take a look at each of the types in more detail by starting with backwards and forwards compatibility. Backwards compatibility refers to when current software is compatible with earlier versions. Forwards compatibility is when software and systems will work with future versions of itself.
+Tuchunguze kila aina kwa undani zaidi kwa kuanza na ulinganifu wa nyuma na wa mbele. Ulinganifu wa nyuma unahusu wakati programu za sasa zina ulinganifu na matoleo ya awali. Ulinganifu wa mbele ni wakati programu na mifumo zitakavyofanya kazi na matoleo ya baadaye ya programu hiyo yenyewe.
 
-The next type of testing is for hardware. Hardware compatibility testing focuses on the software's ability to work properly in different hardware configurations. This includes different types of processors, memory, storage, and graphics cards.
+Aina inayofuata ya upimaji ni kwa ajili ya vifaa. Upimaji wa ulinganifu wa vifaa unazingatia uwezo wa programu kufanya kazi ipasavyo katika usanidi tofauti wa vifaa. Hii ni pamoja na aina tofauti za prosesa, kumbukumbu, hifadhi, na kadi za picha.
 
-Another type of compatibility testing is for operating systems. You don't want to design software that works smoothly on Mac devices but has bugs on Windows or vice versa. You also need to consider Linux distributions like Ubuntu and Fedora.
+Aina nyingine ya upimaji wa ulinganifu ni kwa mifumo ya uendeshaji. Hutaki kubuni programu inayofanya kazi vizuri kwenye vifaa vya Mac lakini ina hitilafu kwenye Windows au kinyume chake. Pia unahitaji kuzingatia usambazaji wa Linux kama Ubuntu na Fedora.
 
-The next type of testing is network compatibility testing. You will have users working with different network speeds, protocols, security settings, and more. Therefore, software teams will need to be mindful of all of those different conditions when testing.
+Aina inayofuata ya upimaji ni upimaji wa ulinganifu wa mitandao. Utakuwa na watumizi wanaofanya kazi na kasi tofauti za mtandao, itifaki, mipangilio ya usalama, na zaidi. Kwa hivyo, timu za programu zitahitaji kuwa makini na hali zote hizi tofauti wakati wa kupima.
 
-Then, there's browser compatibility testing. There are a few popular browsers in the market like Google Chrome, Safari, Firefox, and more. Since all browsers work slightly differently, it's important to test your web application thoroughly and make sure your web applications work consistently across many browsers.
+Kisha, kuna upimaji wa ulinganifu wa vivinjari. Kuna vivinjari maarufu kadhaa sokoni kama Google Chrome, Safari, Firefox, na vingine. Kwa kuwa vivinjari vyote hufanya kazi kwa njia tofauti kidogo, ni muhimu kupima programu yako ya mtandao kwa kina na kuhakikisha programu zako za mtandao zinafanya kazi kwa uthabiti katika vivinjari vingi.
 
-The last type of testing is mobile testing. There was a time in web development when most developers didn't think about testing for mobile devices. This was because, in the early 2000s, mobile devices weren't nearly as powerful or widely used as they are today. But now, tens of millions of people visit websites on phones and tablets. So, it is important to ensure that your software applications work on a variety of Android and iOS devices.
+Aina ya mwisho ya upimaji ni upimaji wa vifaa vya mkononi. Kulikuwa na wakati katika ukuzaji wa mtandao ambapo wasanidi programu wengi hawakufikiria kupima kwa ajili ya vifaa vya mkononi. Hii ilikuwa kwa sababu, mwanzoni mwa miaka ya 2000, vifaa vya mkononi havikuwa na nguvu au kutumika sana kama ilivyo leo. Lakini sasa, mamilioni ya watu hutembelea tovuti kwa kutumia simu na vidonge. Kwa hivyo, ni muhimu kuhakikisha kuwa programu zako zinafanya kazi kwenye aina mbalimbali za vifaa vya Android na iOS.
 
-Those are just a few types of testing that you will need to consider when building out your applications. While this might seem like a lot of extra work, it is important to perform compatibility tests because you do want to ensure that your applications work in a variety of computing environments.
+Hizo ni baadhi tu ya aina za upimaji utakazohitaji kuzingatia unapoendelea kujenga programu zako. Ingawa hii inaweza kuonekana kama kazi ya ziada, ni muhimu kufanya upimaji wa ulinganifu kwa sababu unataka kuhakikisha programu zako zinafanya kazi katika mazingira mbalimbali ya kompyuta.
 
 # --questions--
 
 ## --text--
 
-What is the main goal of compatibility testing?
+Lengo kuu la upimaji wa ulinganifu ni lipi?
 
 ## --answers--
 
-To ensure that your applications have no accessibility errors.
+Kuhakikisha kuwa programu zako hazina makosa ya upatikanaji.
 
 ### --feedback--
 
-Refer to the beginning of the lesson where this was discussed.
+Rejelea mwanzo wa funzo ambapo hili lilijadiliwa.
 
 ---
 
-To ensure that your applications are free from linting and formatting errors.
+Kuhakikisha kuwa programu zako hazina makosa ya linting na muundo.
 
 ### --feedback--
 
-Refer to the beginning of the lesson where this was discussed.
+Rejelea mwanzo wa funzo ambapo hili lilijadiliwa.
 
 ---
 
-To ensure that your applications work in a variety of computing environments.
+Kuhakikisha kuwa programu zako zinafanya kazi katika mazingira mbalimbali ya kompyuta.
 
 ---
 
-To ensure that your applications only work for different Linux distributions.
+Kuhakikisha kuwa programu zako zinafanya kazi tu kwa usambazaji tofauti wa Linux.
 
 ### --feedback--
 
-Refer to the beginning of the lesson where this was discussed.
+Rejelea mwanzo wa funzo ambapo hili lilijadiliwa.
 
 ## --video-solution--
 
@@ -67,35 +67,35 @@ Refer to the beginning of the lesson where this was discussed.
 
 ## --text--
 
-Which of the following refers to when current software is compatible with earlier versions?
+Ni ipi kati ya zifuatazo inahusu wakati programu za sasa zina ulinganifu na matoleo ya awali?
 
 ## --answers--
 
-CPU compatibility
+Ulinganifu wa prosesa (CPU)
 
 ### --feedback--
 
-Think about how software will work with older versions.
+Fikiria jinsi programu itakavyofanya kazi na matoleo ya zamani.
 
 ---
 
-Accessible compatibility
+Ulinganifu wa upatikanaji
 
 ### --feedback--
 
-Think about how software will work with older versions.
+Fikiria jinsi programu itakavyofanya kazi na matoleo ya zamani.
 
 ---
 
-Forwards compatibility
+Ulinganifu wa mbele
 
 ### --feedback--
 
-Think about how software will work with older versions.
+Fikiria jinsi programu itakavyofanya kazi na matoleo ya zamani.
 
 ---
 
-Backwards compatibility
+Ulinganifu wa nyuma
 
 ## --video-solution--
 
@@ -103,35 +103,35 @@ Backwards compatibility
 
 ## --text--
 
-Which of the following is NOT typically targeted in compatibility testing?
+Ni ipi kati ya zifuatazo HAIJALENGWA kawaida katika upimaji wa ulinganifu?
 
 ## --answers--
 
-Mobile operating systems
+Mifumo ya uendeshaji ya vifaa vya mkononi
 
 ### --feedback--
 
-One of these options refers to computer memory.
+Moja ya chaguzi hizi inahusu kumbukumbu ya kompyuta.
 
 ---
 
-RAM size
+Ukubwa wa RAM
 
 ---
 
-Hardware configuration
+Usanidi wa vifaa
 
 ### --feedback--
 
-One of these options refers to computer memory.
+Moja ya chaguzi hizi inahusu kumbukumbu ya kompyuta.
 
 ---
 
-Network environments
+Mazingira ya mtandao
 
 ### --feedback--
 
-One of these options refers to computer memory.
+Moja ya chaguzi hizi inahusu kumbukumbu ya kompyuta.
 
 ## --video-solution--
 

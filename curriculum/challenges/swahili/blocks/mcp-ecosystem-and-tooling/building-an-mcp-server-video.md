@@ -1,6 +1,6 @@
 ---
 id: 69ae767fb4a814be6a4f2be8
-title: Building an MCP Server
+title: Kujenga seva ya MCP
 challengeType: 11
 videoId: lidIujhu3XY
 dashedName: building-an-mcp-server
@@ -8,32 +8,30 @@ dashedName: building-an-mcp-server
 
 # --description--
 
-In this video, you will learn how to build an MCP server.
+Katika video hii, utafundishwa jinsi ya kujenga seva ya MCP.
 
 # --questions--
 
 ## --text--
 
-What are the three components of an MCP server?
+Ni sehemu gani tatu za seva ya MCP?
 
 ## --answers--
 
-CPU, GPU, and RAM
+CPU, GPU, na RAM
 
 ---
 
-Users, Permissions, and Logs
+Watumizi, Ruhusa, na Rekodi
 
 ---
 
-Resources, Tools, Prompts
+Rasilimali, Vifaa, Maelekezo
 
 ---
 
-Input, Output, and Network
+Ingizo, Matokeo, na Mtandao
 
 ## --video-solution--
 
 3
-
-

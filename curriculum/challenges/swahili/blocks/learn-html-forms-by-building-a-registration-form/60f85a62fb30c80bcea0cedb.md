@@ -1,32 +1,32 @@
 ---
 id: 60f85a62fb30c80bcea0cedb
-title: Step 25
+title: Hatua 25
 challengeType: 0
 dashedName: step-25
 ---
 
 # --description--
 
-Users will be allowed to choose either a `Personal` or `Business`.
+Watumizi wataruhusiwa kuchagua kati ya `Personal` au `Business`.
 
-To do this, within each of the first two `label` elements, add one `input` element with `type="radio"`.
+Ili kufanya hivyo, ndani ya kila mojawapo ya vipengele viwili vya kwanza vya `label`, ongeza kipengele kimoja cha `input` chenye `type="radio"`.
 
 # --hints--
 
-You should add two `input` elements.
+Unapaswa kuongeza vipengele viwili vya `input`.
 
 ```js
 assert.equal(document.querySelectorAll('fieldset:nth-child(2) input')?.length, 2);
 ```
 
-You should add one `input` to each of the first two `label` elements.
+Unapaswa kuongeza kipengele kimoja cha `input` kwa kila mojawapo ya vipengele viwili vya kwanza vya `label`.
 
 ```js
 assert.exists(document.querySelector('fieldset:nth-child(2) > label:nth-child(1) > input'));
 assert.exists(document.querySelector('fieldset:nth-child(2) > label:nth-child(2) > input'));
 ```
 
-You should give both `input` elements a `type` of `radio`.
+Unapaswa kuwapa vipengele vyote vya `input` `type` ya `radio`.
 
 ```js
 assert.equal(document.querySelectorAll('fieldset:nth-child(2) input[type="radio"]')?.length, 2);

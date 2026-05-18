@@ -1,6 +1,6 @@
 ---
 id: 65d6bc21bbb3fb20d47cd7ed
-title: Task 43
+title: Zoezi la 43
 challengeType: 22
 dashedName: task-43
 lang: en-US
@@ -11,7 +11,7 @@ lang: en-US
 
 # --description--
 
-Asking `What's her role?` is a way to find out about someone's job or position in a group or project. `Role` means the part or job someone does in a particular situation. For example, if someone's `role` at a school is a teacher, it means their job is to teach students.
+Kuuliza `What's her role?` ni njia ya kujua kuhusu kazi au nafasi ya mtu katika kundi au mradi. `Role` inamaanisha sehemu au kazi ambayo mtu hufanya katika hali fulani. Kwa mfano, kama `role` ya mtu shuleni ni mwalimu, inamaanisha kazi yake ni kufundisha wanafunzi.
 
 # --fillInTheBlank--
 
@@ -25,7 +25,7 @@ Asking `What's her role?` is a way to find out about someone's job or position i
 
 ### --feedback--
 
-This word shows Tom is talking about a female person's job or part in something.
+Neno hili linaonyesha Tom anazungumzia kazi au sehemu ya mwanamke katika jambo fulani.
 
 ---
 
@@ -33,7 +33,7 @@ This word shows Tom is talking about a female person's job or part in something.
 
 ### --feedback--
 
-This word means the job or position someone has in a situation.
+Neno hili linamaanisha kazi au nafasi ambayo mtu ana katika hali fulani.
 
 # --scene--
 

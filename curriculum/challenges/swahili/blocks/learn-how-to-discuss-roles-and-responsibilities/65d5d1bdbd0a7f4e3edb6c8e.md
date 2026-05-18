@@ -1,6 +1,6 @@
 ---
 id: 65d5d1bdbd0a7f4e3edb6c8e
-title: Task 35
+title: Zoezi la 35
 challengeType: 19
 dashedName: task-35
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --description--
 
-Listen to the audio and answer the question.
+Sikiliza sauti na ujibu swali.
 
 # --questions--
 
 ## --text--
 
-What is Tom asking about?
+Tom anaulizia nini?
 
 ## --answers--
 
-If Anna works in HR
+Je, Anna anafanya kazi katika HR
 
 ### --feedback--
 
-Tom's question is specifically about whether the person has worked with Anna, not about Anna's role.
+Swali la Tom linahusu hasa kama mtu huyo amewahi kufanya kazi na Anna, si kuhusu jukumu la Anna.
 
 ---
 
-If Alice has had any experience working with Anna.
+Je, Alice amewahi kupata uzoefu wa kufanya kazi na Anna.
 
 ---
 
-If you like working in HR
+Je, unapenda kufanya kazi katika HR
 
 ### --feedback--
 
-The question is about past experience with Anna, not personal feelings about working in HR.
+Swali linahusu uzoefu wa zamani na Anna, si hisia binafsi kuhusu kufanya kazi katika HR.
 
 ---
 
-If Anna has ever worked
+Je, Anna amewahi kufanya kazi
 
 ### --feedback--
 
-The focus of Tom's question is on the listener's experience with Anna, not on Anna's work history.
+Makini ya swali la Tom ni uzoefu wa msikilizaji na Anna, si historia ya kazi ya Anna.
 
 ## --video-solution--
 

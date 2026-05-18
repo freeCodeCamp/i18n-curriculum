@@ -1,6 +1,6 @@
 ---
 id: 66193b1deee8db8cfe3bc5c1
-title: Task 41
+title: Zoezi la 41
 challengeType: 19
 dashedName: task-41
 lang: en-US
@@ -10,13 +10,13 @@ lang: en-US
 
 # --description--
 
-Listen to the audio and answer the question.
+Sikiliza sauti na jibu swali.
 
 # --questions--
 
 ## --text--
 
-What collaboration tools does Alice mention?
+Ni zana gani za ushirikiano Alice anazotaja?
 
 ## --answers--
 
@@ -28,7 +28,7 @@ What collaboration tools does Alice mention?
 
 ### --feedback--
 
-Although these are important tools in today's world, they are not the tools Alice mentions.
+Ingawa hizi ni zana muhimu katika dunia ya leo, si zana ambazo Alice anazitaja.
 
 ---
 
@@ -36,7 +36,7 @@ Although these are important tools in today's world, they are not the tools Alic
 
 ### --feedback--
 
-These are manual tools, not collaboration tools.
+Hizi ni zana za mikono, si zana za ushirikiano.
 
 ---
 
@@ -44,7 +44,7 @@ These are manual tools, not collaboration tools.
 
 ### --feedback--
 
-These can be considered collaboration tools in a virtual environment, but Alice does not mention them.
+Hizi zinaweza kuzingatiwa kama zana za ushirikiano katika mazingira ya mtandao, lakini Alice hazizitaji.
 
 ## --video-solution--
 

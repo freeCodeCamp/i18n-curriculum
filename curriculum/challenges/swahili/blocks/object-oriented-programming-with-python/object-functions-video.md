@@ -1,6 +1,6 @@
 ---
 id: 697fe3cb32baa3841ab62a63
-title: Object Functions
+title: Kitendakazi cha vitu
 challengeType: 11
 videoId: 3Mla2uUDSu8
 dashedName: object-functions
@@ -8,13 +8,13 @@ dashedName: object-functions
 
 # --description--
 
-In this video, you will learn how to work with functions inside of classes.
+Katika video hii, utafundishwa jinsi ya kufanya kazi na vitendakazi ndani ya madarasa ya vitu.
 
 # --questions--
 
 ## --text--
 
-Which of the following is the correct way to create a function inside of a class?
+Ni ipi kati ya zifuatazo njia sahihi ya kuunda kitendakazi ndani ya darasa la vitu?
 
 ## --answers--
 

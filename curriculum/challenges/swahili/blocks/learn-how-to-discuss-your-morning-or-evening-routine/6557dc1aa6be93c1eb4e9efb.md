@@ -1,6 +1,6 @@
 ---
 id: 6557dc1aa6be93c1eb4e9efb
-title: Task 29
+title: Zoezi la 29
 challengeType: 19
 dashedName: task-29
 lang: en-US
@@ -10,47 +10,47 @@ lang: en-US
 
 # --description--
 
-The word `if` means "whether or not". For example:
+Neno `if` linamaanisha "iwepo au la". Kwa mfano:
 
-`She checks her emails to see if there are any urgent updates.` - This means she is looking to find out whether updates exist.
+`She checks her emails to see if there are any urgent updates.` - Hii ina maana anatafuta kujua iwepo au la masasisho.
 
-`If` can also be part of a conditional statement, which shows a possible situation and its result. For example:
+`If` pia linaweza kuwa sehemu ya usemi wa kihesabu wa masharti, unaoonyesha hali inayowezekana na matokeo yake. Kwa mfano:
 
-`If there are urgent updates, I will reply immediately.` - This means replying depends on the condition of having urgent updates.
+`If there are urgent updates, I will reply immediately.` - Hii ina maana kujibu kunategemea hali ya kuwa na masasisho ya dharura.
 
 # --questions--
 
 ## --text--
 
-What does Sarah imply by using `if` in her statement about checking emails and messages?
+Sarah anamaanisha nini kwa kutumia `if` katika kauli yake kuhusu kukagua barua pepe na ujumbe?
 
 ## --answers--
 
-She always finds urgent updates from her team.
+Daima hupata masasisho ya dharura kutoka kwa timu yake.
 
 ### --feedback--
 
-`If` doesn't suggest certainty of finding urgent updates.
+`If` haionyeshi uhakika wa kupata masasisho ya dharura.
 
 ---
 
-Sometimes there are urgent updates, sometimes not.
+Wakati mwingine kuna masasisho ya dharura, wakati mwingine hayapo.
 
 ---
 
-She never checks her emails and messages.
+Hapendi kabisa kukagua barua pepe na ujumbe wake.
 
 ### --feedback--
 
-Sarah actually states that she does check her emails and messages.
+Sarah kwa kweli anasema kwamba anakagua barua pepe na ujumbe wake.
 
 ---
 
-Checking emails is not part of her routine.
+Kukagua barua pepe si sehemu ya ratiba yake.
 
 ### --feedback--
 
-Sarah mentions that checking emails and messages is part of her routine.
+Sarah anataja kwamba kukagua barua pepe na ujumbe ni sehemu ya ratiba yake.
 
 ## --video-solution--
 

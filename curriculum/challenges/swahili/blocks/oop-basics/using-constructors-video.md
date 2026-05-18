@@ -1,6 +1,6 @@
 ---
 id: 69ae96dfa9e6da4eb0d5f7f5
-title: Using Constructors
+title: Kutumia kijenzi
 challengeType: 11
 videoId: CDFRHw4SACU
 dashedName: using-constructors
@@ -8,13 +8,13 @@ dashedName: using-constructors
 
 # --description--
 
-In this video, you will learn how to work with constructors in classes.
+Katika video hii, utafundishwa jinsi ya kufanya kazi na kijenzi katika madarasa ya vitu.
 
 # --questions--
 
 ## --text--
 
-Which of the following is the correct way to write a constructor?
+Ni ipi kati ya zifuatazo njia sahihi ya kuandika kijenzi?
 
 ## --answers--
 
@@ -63,5 +63,3 @@ class Dog:
 ## --video-solution--
 
 3
-
-

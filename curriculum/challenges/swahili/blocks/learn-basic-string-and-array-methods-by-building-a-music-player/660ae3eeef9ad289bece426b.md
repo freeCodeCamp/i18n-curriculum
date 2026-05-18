@@ -1,23 +1,23 @@
 ---
 id: 660ae3eeef9ad289bece426b
-title: Hatua ya 11
+title: Hatua 11
 challengeType: 0
 dashedName: step-11
 ---
 
 # --description--
 
-In the previous projects, you used regular functions. But in the rest of the projects, you will be working with <dfn>arrow functions</dfn>. The next few steps will focus on teaching you the basics of arrow functions.
+Katika miradi iliyopita, ulitumia kitendakazi cha kawaida. Lakini katika miradi mingine, utakuwa ukifanya kazi na <dfn>kitendakazi cha mshale</dfn>. Hatua chache zinazofuata zitazingatia kukuonyesha misingi ya kitendakazi cha mshale.
 
-An arrow function is an anonymous function expression and a shorter way to write functions. Anonymous means that the function does not have a name. Arrow functions are always anonymous.
+Kitendakazi cha mshale ni usemi wa kihesabu wa kitendakazi kisicho na jina na ni njia fupi ya kuandika kitendakazi. Kisicho na jina maana yake ni kwamba kitendakazi hakina jina. Kitendakazi cha mshale huwa daima kisicho na jina.
 
-Here is the basic syntax:
+Hii ndiyo sintaksia ya msingi:
 
 ```js
 () => {}
 ```
 
-By assigning the arrow function definition to a variable, you bind it to an identifier.
+Kwa kuweka ufafanuzi wa kitendakazi cha mshale kwenye kigezo, unakiunganisha na kitambulisho.
 
 ```js
 const exampleFunction = () => {
@@ -25,23 +25,23 @@ const exampleFunction = () => {
 }
 ```
 
-Create a new arrow function and assign it to the variable `printGreeting`. Inside the function body, use the `console.log()` method to print the string `Hello there!`.
+Unda kitendakazi kipya cha mshale na uweke thamani yake kwenye kigezo `printGreeting`. Ndani ya mwili wa kitendakazi, tumia njia ya `console.log()` kuchapisha mfuatano wa herufi `Hello there!`.
 
 # --hints--
 
-You should have a variable named `printGreeting` and assign it an arrow function.
+Unapaswa kuwa na kigezo kinachoitwa `printGreeting` na ukaweke thamani ya kitendakazi cha mshale.
 
 ```js
 assert.isFunction(printGreeting);
 ```
 
-You should create an arrow function and assign it to the `printGreeting` variable.
+Unapaswa kuunda kitendakazi cha mshale na ukaweke kwenye kigezo `printGreeting`.
 
 ```js
 assert.match(code, /(let|const)\s+printGreeting\s*=\s*\(.*\)\s*=>\s*{\s*[\s\S]*}\s*;?/)
 ```
 
-Your `printGreeting` function should log `Hello there!` to the console.
+Kitendakazi chako cha `printGreeting` kinapaswa kuchapisha `Hello there!` kwenye konsoli.
 
 ```js
 assert.match(printGreeting.toString(), /console\.log\(['"]Hello\s+there!['"]\)/);

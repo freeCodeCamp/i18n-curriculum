@@ -1,6 +1,6 @@
 ---
 id: 697fe5c032baa3841ab62a64
-title: Inheritance
+title: Urithi
 challengeType: 11
 videoId: uHdNSULVpgY
 dashedName: inheritance
@@ -8,29 +8,29 @@ dashedName: inheritance
 
 # --description--
 
-In this video, you will learn about inheritance in object oriented programming.
+Katika video hii, utafundishwa kuhusu urithi katika uprogramaji unaozingatia vitu.
 
 # --questions--
 
 ## --text--
 
-What is inheritance in object oriented programming?
+Urithi ni nini katika uprogramaji unaozingatia vitu?
 
 ## --answers--
 
-This is when a class reuses code from a function.
+Hii ni pale darasa la vitu linapotumia tena msimbo kutoka kwa kitendakazi.
 
 ---
 
-This is when a class creates a copy of another class.
+Hii ni pale darasa la vitu linapotengeneza nakala ya darasa lingine.
 
 ---
 
-This is when a class inherits properties and behaviors from another class.
+Hii ni pale darasa la vitu linaporithi vigezo na tabia kutoka kwa darasa lingine.
 
 ---
 
-This is when a class hides its methods and variables from other classes.
+Hii ni pale darasa la vitu linapoficha njia zake na vigezo vyake kutoka kwa madarasa mengine.
 
 ## --video-solution--
 

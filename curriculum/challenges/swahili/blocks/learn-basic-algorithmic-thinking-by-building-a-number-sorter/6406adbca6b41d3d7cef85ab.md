@@ -1,31 +1,31 @@
 ---
 id: 6406adbca6b41d3d7cef85ab
-title: Step 5
+title: Hatua 5
 challengeType: 0
 dashedName: step-5
 ---
 
 # --description--
 
-Back in your `sortInputArray` function, you need to get the values from your `select` elements. Since they all have the class `values-dropdown`, you can query them all at once.
+Rudi kwenye kitendakazi chako cha `sortInputArray`, unahitaji kupata thamani kutoka kwa vipengele vyako vya `select`. Kwa kuwa vyote vina darasa la vitu la `values-dropdown`, unaweza kuvitafuta vyote kwa wakati mmoja.
 
-Use `document.getElementsByClassName()` to get all the elements with this class by passing in the argument `"values-dropdown"`. Assign that to an `inputValues` variable with `const`.
+Tumia `document.getElementsByClassName()` kupata vipengele vyote vyenye darasa hili kwa kuingiza hoja `"values-dropdown"`. Weka thamani hiyo kwenye kigezo cha `inputValues` kwa kutumia `const`.
 
 # --hints--
 
-You should use `document.getElementsByClassName()` to get all the elements with the class `"values-dropdown"`.
+Unapaswa kutumia `document.getElementsByClassName()` kupata vipengele vyote vyenye darasa la vitu la `"values-dropdown"`.
 
 ```js
 assert.match(sortInputArray.toString(), /document\.getElementsByClassName\(\s*('|"|`)values-dropdown\1\s*\)/);
 ```
 
-You should assign the result of `document.getElementsByClassName()` to a variable named `inputValues`.
+Unapaswa kuweka thamani ya `document.getElementsByClassName()` kwenye kigezo kinachoitwa `inputValues`.
 
 ```js
 assert.match(sortInputArray.toString(), /inputValues\s*=\s*document\.getElementsByClassName\(\s*('|"|`)values-dropdown\1\s*\)/);
 ```
 
-You should use `const` to declare `inputValues`.
+Unapaswa kutumia `const` kutangaza `inputValues`.
 
 ```js
 assert.match(code, /const\s+inputValues\s*=\s*document\.getElementsByClassName\(\s*('|"|`)values-dropdown\1\s*\)/);

@@ -1,43 +1,43 @@
 ---
 id: 67d2f4ddb4a4306fdf5bbaee
-title: What Is Memoization, and How Does the useMemo Hook Work?
+title: "Memoization ni nini, na Hook ya useMemo inafanya kazi vipi?"
 challengeType: 19
 dashedName: what-is-memoization-and-how-does-the-usememo-hook-work
 ---
 
 # --description--
 
-As your React app gets larger, unnecessary re-renders and expensive calculations can slow down performance, leading to slow UI updates and increased resource usage.
+Kadiri programu yako ya React inavyokua, upitishaji upya usiohitajika na mahesabu ghali yanaweza kupunguza utendaji, na kusababisha masasisho ya UI kuwa polepole na matumizi ya rasilimali kuongezeka.
 
-This can be especially problematic in apps with complex state management, large lists, functions that require heavy computations, and many components with a single parent.
+Hii inaweza kuwa tatizo hasa katika programu zilizo na usimamizi mgumu wa hali, orodha kubwa, vitendakazi vinavyohitaji mahesabu mazito, na sehemu nyingi zenye mzazi mmoja.
 
-This gives rise to the need to optimize your React app for better performance by minimizing redundant computations and ensuring smoother interactions.
+Hii huleta haja ya kuboresha programu yako ya React kwa utendaji bora kwa kupunguza mahesabu rudufu na kuhakikisha mwingiliano laini zaidi.
 
-React solves this problem with a process called memoization, a technique which caches values and functions to prevent unnecessary recalculations, so your app can be faster and more responsive.
+React inatatua tatizo hili kwa mchakato unaoitwa memoization, mbinu inayohifadhi thamani na vitendakazi ili kuzuia mahesabu yasiyo ya lazima, ili programu yako iwe haraka na inayojibadilisha kulingana na kifaa.
 
-By definition, memoization is an optimization technique in which the result of expensive function calls are cached (remembered) based on specific arguments. When the same arguments are provided again, the cached result is returned instead of re-computing the function.
+Kwa ufafanuzi, memoization ni mbinu ya kuboresha utendaji ambapo matokeo ya wito wa vitendakazi ghali huhifadhiwa (kumbukwa) kulingana na hoja maalum. Wakati hoja zile zile zinapotolewa tena, matokeo yaliyohifadhiwa hurudishwa badala ya kuhesabu tena kitendakazi hicho.
 
-The memoization process happens this way:
+Mchakato wa memoization hufanyika kwa njia hii:
 
-- Store the results of function calls along with their input arguments.
+- Hifadhi matokeo ya wito wa vitendakazi pamoja na hoja zake za ingizo.
 
-- Before executing the function, check if the result for the current arguments already exists in the cache.
+- Kabla ya kutekeleza kitendakazi, angalia kama matokeo kwa hoja za sasa tayari yapo kwenye hifadhi.
 
-- If it exists, return the cached result instead of running the computation again.
+- Ikiwa yapo, rudisha matokeo yaliyohifadhiwa badala ya kuendesha mahesabu tena.
 
-- If it doesn't exist, compute the result, store it in the cache, and then return it.
+- Ikiwa hayapo, hesabu matokeo, uyahifadhi kwenye hifadhi, kisha uyarudishe.
 
-To improve developer experience with memoization, React provides three tools – `React.memo` (or `memo`), `useMemo` and `useCallback`. 
+Ili kuboresha uzoefu wa msanidi programu na memoization, React hutoa zana tatu – `React.memo` (au `memo`), `useMemo` na `useCallback`. 
 
-As you might guess, both `useMemo` and `useCallback` are hooks, but `React.memo` is a component wrapper, a higher-order component (HOC).
+Kama unavyoweza kubashiri, `useMemo` na `useCallback` zote ni hooks, lakini `React.memo` ni kifuniko cha sehemu, sehemu ya daraja la juu (HOC).
 
-In the next lesson, we will take a look at how the `useCallback` hook and `React.memo` work.
+Katika funzo lijalo, tutaangalia jinsi hook ya `useCallback` na `React.memo` zinavyofanya kazi.
 
-`useMemo` lets you memoize computed values while `useCallback` does the same for function references.
+`useMemo` inakuwezesha kuhifadhi thamani zilizohesabiwa wakati `useCallback` hufanya vivyo hivyo kwa rejea za vitendakazi.
 
-If you're wondering what computed values and function references are, computed values refer to the result of executing a function, while function references are the pointers to functions – the function object in memory.
+Ikiwa unajiuliza thamani zilizohesabiwa na rejea za vitendakazi ni nini, thamani zilizohesabiwa zinahusu matokeo ya kutekeleza kitendakazi, wakati rejea za vitendakazi ni viashiria vya vitendakazi – kitu cha kitendakazi katika kumbukumbu.
 
-Let's see how to use the `useMemo` hook first. Here's the basic syntax of the `useMemo` hook:
+Tuchunguze jinsi ya kutumia hook ya `useMemo` kwanza. Hii ndiyo sintaksia ya msingi ya hook ya `useMemo`:
 
 ```js
 const memoizedValue = useMemo(
@@ -48,9 +48,9 @@ const memoizedValue = useMemo(
 );
 ```
 
-You can see all that's needed is to wrap the `useMemo` hook around the function.
+Unaweza kuona kinachohitajika ni kufunika hook ya `useMemo` karibu na kitendakazi.
 
-This `ExpensiveSquare` component will receive a `num` prop which it will use to calculate the square:
+Sehemu hii ya `ExpensiveSquare` itapokea vigezo vya `num` ambavyo itatumia kuhesabu mraba:
 
 ```jsx
 function ExpensiveSquare({ num }) {
@@ -69,7 +69,7 @@ function ExpensiveSquare({ num }) {
 export default ExpensiveSquare;
 ```
 
-Here's the `App` component where the `ExpensiveSquare` is being used:
+Hii ni sehemu ya `App` ambapo `ExpensiveSquare` inatumika:
 
 ```jsx
 import { useState, useEffect } from "react";
@@ -96,9 +96,9 @@ function App() {
 export default App;
 ```
 
-The `timer` in the `useEffect`, running every second, will make the `calculateSquare` function run any time it runs, even when you don't increase the `num` state variable.
+`timer` katika `useEffect`, inayoendesha kila sekunde moja, itafanya kitendakazi cha `calculateSquare` kitekeke wakati wowote kinapoendeshwa, hata kama hauongezi thamani ya hali ya `num`.
 
-To solve this problem, we can use the `useMemo` hook by wrapping the function call in it and specifying the `num` variable as the dependency:
+Ili kutatua tatizo hili, tunaweza kutumia hook ya `useMemo` kwa kufunika wito wa kitendakazi ndani yake na kubainisha mabadiliko ya `num` kama utegemezi:
 
 ```jsx
 // import the useMemo hook
@@ -124,43 +124,41 @@ function ExpensiveSquare({ num }) {
 export default ExpensiveSquare;
 ```
 
-This will make sure the function is memoized by caching the result, so calculation happens only when the `num` variable changes, not when anything changes in the component it's being used in.
-
-The `calculateSquare` function call is not running any time `timer` changes anymore but on the initial render and when `num` changes.
+Hii itahakikisha kitendakazi kinahifadhiwa kwa kuhifadhi matokeo. Hata kama sehemu ya `ExpensiveSquare` bado inapitisha upya kila wakati hali ya mzazi `timer` inaposasishwa, mahesabu ya `calculateSquare` hufanyika tena tu wakati wa onyesho la awali na wakati `num` inabadilika.
 
 # --questions--
 
 ## --text--
 
-What is memoization in React?
+Memoization ni nini katika React?
 
 ## --answers--
 
-A technique that caches values and functions to prevent unnecessary recalculations.
+Mbinu inayohifadhi thamani na vitendakazi ili kuzuia mahesabu yasiyo ya lazima.
 
 ---
 
-A technique that lets you manage component state updates to prevent unnecessary recalculations.
+Mbinu inayokuwezesha kusimamia masasisho ya hali ya sehemu ili kuzuia mahesabu yasiyo ya lazima.
 
 ### --feedback--
 
-It helps optimize performance by storing previously computed results.
+Husaidia kuboresha utendaji kwa kuhifadhi matokeo yaliyohesabiwa awali.
 
 ---
 
-A process of reconciling the Virtual DOM with the actual DOM.
+Mchakato wa kulinganisha Virtual DOM na DOM halisi.
 
 ### --feedback--
 
-It helps optimize performance by storing previously computed results.
+Husaidia kuboresha utendaji kwa kuhifadhi matokeo yaliyohesabiwa awali.
 
 ---
 
-A way to handle side effects in functional components.
+Njia ya kushughulikia athari za pembeni katika sehemu za kitendakazi.
 
 ### --feedback--
 
-It helps optimize performance by storing previously computed results.
+Husaidia kuboresha utendaji kwa kuhifadhi matokeo yaliyohesabiwa awali.
 
 ## --video-solution--
 
@@ -168,35 +166,35 @@ It helps optimize performance by storing previously computed results.
 
 ## --text--
 
-What is the difference between computed values and function references?
+Tofauti gani kati ya thamani zilizohesabiwa na rejea za vitendakazi?
 
 ## --answers--
 
-Computed values are function objects, while function references are execution results.
+Thamani zilizohesabiwa ni vitu vya kitendakazi, wakati rejea za vitendakazi ni matokeo ya utekelezaji.
 
 ### --feedback--
 
-One is the output of a function, while the other is just a pointer to it.
+Moja ni matokeo ya kitendakazi, jingine ni kiashiria tu cha kitendakazi hicho.
 
 ---
 
-Computed values are the result of executing a function, while function references are the function objects in memory.
+Thamani zilizohesabiwa ni matokeo ya kutekeleza kitendakazi, wakati rejea za vitendakazi ni vitu vya kitendakazi katika kumbukumbu.
 
 ---
 
-Computed values and function references are the same thing.
+Thamani zilizohesabiwa na rejea za vitendakazi ni vitu sawa.
 
 ### --feedback--
 
-One is the output of a function, while the other is just a pointer to it.
+Moja ni matokeo ya kitendakazi, jingine ni kiashiria tu cha kitendakazi hicho.
 
 ---
 
-Function references store computed values.
+Rejea za vitendakazi huhifadhi thamani zilizohesabiwa.
 
 ### --feedback--
 
-One is the output of a function, while the other is just a pointer to it.
+Moja ni matokeo ya kitendakazi, jingine ni kiashiria tu cha kitendakazi hicho.
 
 ## --video-solution--
 
@@ -204,7 +202,7 @@ One is the output of a function, while the other is just a pointer to it.
 
 ## --text--
 
-Which of these is NOT one of the tools React provides for memoization?
+Ni ipi kati ya hizi SI mojawapo ya zana ambazo React hutoa kwa memoization?
 
 ## --answers--
 
@@ -212,7 +210,7 @@ Which of these is NOT one of the tools React provides for memoization?
 
 ### --feedback--
 
-Memoization tools focus on caching values and functions, while this option handles side effects.
+Zana za memoization zinazingatia kuhifadhi thamani na vitendakazi, wakati chaguo hili linashughulikia athari za pembeni.
 
 ---
 
@@ -220,7 +218,7 @@ Memoization tools focus on caching values and functions, while this option handl
 
 ### --feedback--
 
-Memoization tools focus on caching values and functions, while this option handles side effects.
+Zana za memoization zinazingatia kuhifadhi thamani na vitendakazi, wakati chaguo hili linashughulikia athari za pembeni.
 
 ---
 
@@ -228,7 +226,7 @@ Memoization tools focus on caching values and functions, while this option handl
 
 ### --feedback--
 
-Memoization tools focus on caching values and functions, while this option handles side effects.
+Zana za memoization zinazingatia kuhifadhi thamani na vitendakazi, wakati chaguo hili linashughulikia athari za pembeni.
 
 ---
 

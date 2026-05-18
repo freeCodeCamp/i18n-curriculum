@@ -1,6 +1,6 @@
 ---
 id: 5e601c0d5ac9d0ecd8b94afe
-title: American British Translator
+title: Mtafsiri wa Kiingereza cha Marekani na Uingereza
 challengeType: 4
 forumTopicId: 462358
 dashedName: american-british-translator
@@ -8,59 +8,59 @@ dashedName: american-british-translator
 
 # --description--
 
-Build a full-stack JavaScript app that is functionally similar to this: <a href="https://american-british-translator.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://american-british-translator.freecodecamp.rocks/</a>. Working on this project will involve you writing your code using one of the following methods:
+Jenga programu ya JavaScript ya full-stack ambayo inaendana kiutendaji na hii: <a href="https://american-british-translator.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://american-british-translator.freecodecamp.rocks/</a>. Kufanya kazi kwenye mradi huu kutahusisha wewe kuandika msimbo wako ukitumia mojawapo ya njia zifuatazo:
 
--   Clone <a href="https://github.com/freeCodeCamp/boilerplate-project-american-british-english-translator/" target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete your project locally.
--   Use a site builder of your choice to complete the project. Be sure to incorporate all the files from our GitHub repo.
+-   Nakili <a href="https://github.com/freeCodeCamp/boilerplate-project-american-british-english-translator/" target="_blank" rel="noopener noreferrer nofollow">hii repo ya GitHub</a> na ukamilishe mradi wako kwa ndani.
+-   Tumia mtengenezaji wa tovuti unayempenda kukamilisha mradi. Hakikisha umejumuisha mafaili yote kutoka kwenye repo yetu ya GitHub.
 
 # --instructions--
 
--   All logic can go into `/components/translator.js`
--   Complete the `/api/translate` route in `/routes/api.js`
--   Create all of the unit/functional tests in `tests/1_unit-tests.js` and `tests/2_functional-tests.js`
--   See the JavaScript files in `/components` for the different spelling and terms your application should translate
--   To run the tests automatically, set `NODE_ENV` to `test` without quotes in the `.env` file
--   To run the tests in the console, use the command `npm run test`.
+-   Mantiki yote inaweza kuwekwa ndani ya `/components/translator.js`
+-   Kamilisha njia ya `/api/translate` katika `/routes/api.js`
+-   Unda majaribio yote ya kitengo/utendaji katika `tests/1_unit-tests.js` na `tests/2_functional-tests.js`
+-   Tazama mafaili ya JavaScript katika `/components` kwa herufi na maneno tofauti ambayo programu yako inapaswa kutafsiri
+-   Ili kuendesha majaribio moja kwa moja, weka `NODE_ENV` kuwa `test` bila nukuu katika faili la `.env`
+-   Ili kuendesha majaribio kwenye konsoli, tumia amri `npm run test`.
 
-Write the following tests in `tests/1_unit-tests.js`:
+Andika majaribio yafuatayo katika `tests/1_unit-tests.js`:
 
--   Translate `Mangoes are my favorite fruit.` to British English
--   Translate `I ate yogurt for breakfast.` to British English
--   Translate `We had a party at my friend's condo.` to British English
--   Translate `Can you toss this in the trashcan for me?` to British English
--   Translate `The parking lot was full.` to British English
--   Translate `Like a high tech Rube Goldberg machine.` to British English
--   Translate `To play hooky means to skip class or work.` to British English
--   Translate `No Mr. Bond, I expect you to die.` to British English
--   Translate `Dr. Grosh will see you now.` to British English
--   Translate `Lunch is at 12:15 today.` to British English
--   Translate `We watched the footie match for a while.` to American English
--   Translate `Paracetamol takes up to an hour to work.` to American English
--   Translate `First, caramelise the onions.` to American English
--   Translate `I spent the bank holiday at the funfair.` to American English
--   Translate `I had a bicky then went to the chippy.` to American English
--   Translate `I've just got bits and bobs in my bum bag.` to American English
--   Translate `The car boot sale at Boxted Airfield was called off.` to American English
--   Translate `Have you met Mrs Kalyani?` to American English
--   Translate `Prof Joyner of King's College, London.` to American English
--   Translate `Tea time is usually around 4 or 4.30.` to American English
--   Highlight translation in `Mangoes are my favorite fruit.`
--   Highlight translation in `I ate yogurt for breakfast.`
--   Highlight translation in `We watched the footie match for a while.`
--   Highlight translation in `Paracetamol takes up to an hour to work.`
+-   Tafsiri `Mangoes are my favorite fruit.` kuwa Kiingereza cha Uingereza
+-   Tafsiri `I ate yogurt for breakfast.` kuwa Kiingereza cha Uingereza
+-   Tafsiri `We had a party at my friend's condo.` kuwa Kiingereza cha Uingereza
+-   Tafsiri `Can you toss this in the trashcan for me?` kuwa Kiingereza cha Uingereza
+-   Tafsiri `The parking lot was full.` kuwa Kiingereza cha Uingereza
+-   Tafsiri `Like a high tech Rube Goldberg machine.` kuwa Kiingereza cha Uingereza
+-   Tafsiri `To play hooky means to skip class or work.` kuwa Kiingereza cha Uingereza
+-   Tafsiri `No Mr. Bond, I expect you to die.` kuwa Kiingereza cha Uingereza
+-   Tafsiri `Dr. Grosh will see you now.` kuwa Kiingereza cha Uingereza
+-   Tafsiri `Lunch is at 12:15 today.` kuwa Kiingereza cha Uingereza
+-   Tafsiri `We watched the footie match for a while.` kuwa Kiingereza cha Marekani
+-   Tafsiri `Paracetamol takes up to an hour to work.` kuwa Kiingereza cha Marekani
+-   Tafsiri `First, caramelise the onions.` kuwa Kiingereza cha Marekani
+-   Tafsiri `I spent the bank holiday at the funfair.` kuwa Kiingereza cha Marekani
+-   Tafsiri `I had a bicky then went to the chippy.` kuwa Kiingereza cha Marekani
+-   Tafsiri `I've just got bits and bobs in my bum bag.` kuwa Kiingereza cha Marekani
+-   Tafsiri `The car boot sale at Boxted Airfield was called off.` kuwa Kiingereza cha Marekani
+-   Tafsiri `Have you met Mrs Kalyani?` kuwa Kiingereza cha Marekani
+-   Tafsiri `Prof Joyner of King's College, London.` kuwa Kiingereza cha Marekani
+-   Tafsiri `Tea time is usually around 4 or 4.30.` kuwa Kiingereza cha Marekani
+-   Angazia tafsiri katika `Mangoes are my favorite fruit.`
+-   Angazia tafsiri katika `I ate yogurt for breakfast.`
+-   Angazia tafsiri katika `We watched the footie match for a while.`
+-   Angazia tafsiri katika `Paracetamol takes up to an hour to work.`
 
-Write the following tests in `tests/2_functional-tests.js`:
+Andika majaribio yafuatayo katika `tests/2_functional-tests.js`:
 
--   Translation with text and locale fields: POST request to `/api/translate`
--   Translation with text and invalid locale field: POST request to `/api/translate`
--   Translation with missing text field: POST request to `/api/translate`
--   Translation with missing locale field: POST request to `/api/translate`
--   Translation with empty text: POST request to `/api/translate`
--   Translation with text that needs no translation: POST request to `/api/translate`
+-   Tafsiri na sehemu za maandishi na eneo: ombi la POST kwa `/api/translate`
+-   Tafsiri na sehemu za maandishi na eneo lisilo sahihi: ombi la POST kwa `/api/translate`
+-   Tafsiri na sehemu ya maandishi iliyokosekana: ombi la POST kwa `/api/translate`
+-   Tafsiri na sehemu ya eneo iliyokosekana: ombi la POST kwa `/api/translate`
+-   Tafsiri na maandishi tupu: ombi la POST kwa `/api/translate`
+-   Tafsiri na maandishi ambayo hayahitaji tafsiri: ombi la POST kwa `/api/translate`
 
 # --hints--
 
-You should provide your own project, not the example URL.
+Unapaswa kutoa mradi wako mwenyewe, si URL ya mfano.
 
 ```js
   assert(
@@ -70,7 +70,7 @@ You should provide your own project, not the example URL.
   );
 ```
 
-You can `POST` to `/api/translate` with a body containing `text` with the text to translate and `locale` with either `american-to-british` or `british-to-american`. The returned object should contain the submitted `text` and `translation` with the translated text.
+Unaweza `POST` kwa `/api/translate` ukiwa na mwili unaojumuisha `text` na maandishi ya kutafsiri na `locale` ikiwa ni `american-to-british` au `british-to-american`. Kitu kilichorejeshwa kinapaswa kujumuisha `text` na `translation` zilizo wasilishwa pamoja na maandishi yaliyotafsiriwa.
 
 ```js
   try {
@@ -96,7 +96,7 @@ You can `POST` to `/api/translate` with a body containing `text` with the text t
   }
 ```
 
-The `/api/translate` route should handle the way time is written in American and British English. For example, ten thirty is written as "10.30" in British English and "10:30" in American English. The `span` element should wrap the entire time string, i.e. `<span class="highlight">10:30</span>`.
+Njia ya `/api/translate` inapaswa kushughulikia jinsi wakati unavyoandikwa katika Kiingereza cha Marekani na Uingereza. Kwa mfano, saa kumi na thelathini inaandikwa kama "10.30" katika Kiingereza cha Uingereza na "10:30" katika Kiingereza cha Marekani. Kipengele cha `span` kinapaswa kufunika mfuatano mzima wa wakati, yaani `<span class="highlight">10:30</span>`.
 
 ```js
   try {
@@ -121,7 +121,7 @@ The `/api/translate` route should handle the way time is written in American and
   }
 ```
 
-The `/api/translate` route should also handle the way titles/honorifics are abbreviated in American and British English. For example, Doctor Wright is abbreviated as "Dr Wright" in British English and "Dr. Wright" in American English. See `/components/american-to-british-titles.js` for the different titles your application should handle.
+Njia ya `/api/translate` inapaswa pia kushughulikia jinsi vyeo/honorifics vinavyopunguzwa katika Kiingereza cha Marekani na Uingereza. Kwa mfano, Daktari Wright hupunguzwa kuwa "Dr Wright" katika Kiingereza cha Uingereza na "Dr. Wright" katika Kiingereza cha Marekani. Tazama `/components/american-to-british-titles.js` kwa vyeo tofauti ambavyo programu yako inapaswa kushughulikia.
 
 ```js
   try {
@@ -146,7 +146,7 @@ The `/api/translate` route should also handle the way titles/honorifics are abbr
   }
 ```
 
-Wrap any translated spelling or terms with `<span class="highlight">...</span>` tags so they appear in green.
+Zungusha herufi au maneno yaliyotafsiriwa kwa lebo za `<span class="highlight">...</span>` ili yaonekane kwa rangi ya kijani.
 
 ```js
   try {
@@ -172,7 +172,7 @@ Wrap any translated spelling or terms with `<span class="highlight">...</span>` 
   }
 ```
 
-If one or more of the required fields is missing, return `{ error: 'Required field(s) missing' }`.
+Kama sehemu moja au zaidi zinazohitajika zitakosekana, rudisha `{ error: 'Required field(s) missing' }`.
 
 ```js
   try {
@@ -191,7 +191,7 @@ If one or more of the required fields is missing, return `{ error: 'Required fie
   }
 ```
 
-If `text` is empty, return `{ error: 'No text to translate' }`
+Kama `text` ni tupu, rudisha `{ error: 'No text to translate' }`
 
 ```js
   try {
@@ -210,7 +210,7 @@ If `text` is empty, return `{ error: 'No text to translate' }`
   }
 ```
 
-If `locale` does not match one of the two specified locales, return `{ error: 'Invalid value for locale field' }`.
+Kama `locale` haitalingani na mojawapo ya maeneo mawili yaliyotajwa, rudisha `{ error: 'Invalid value for locale field' }`.
 
 ```js
   try {
@@ -230,7 +230,7 @@ If `locale` does not match one of the two specified locales, return `{ error: 'I
   }
 ```
 
-If `text` requires no translation, return `"Everything looks good to me!"` for the `translation` value.
+Kama `text` haitaji tafsiri yoyote, rudisha `"Everything looks good to me!"` kwa thamani ya `translation`.
 
 ```js
   try {
@@ -255,7 +255,7 @@ If `text` requires no translation, return `"Everything looks good to me!"` for t
   }
 ```
 
-All 24 unit tests are complete and passing.
+Majaribio yote 24 ya kitengo yamekamilika na kupita.
 
 ```js
   try {
@@ -282,7 +282,7 @@ All 24 unit tests are complete and passing.
   }
 ```
 
-All 6 functional tests are complete and passing.
+Majaribio yote 6 ya utendaji yamekamilika na kupita.
 
 ```js
   try {

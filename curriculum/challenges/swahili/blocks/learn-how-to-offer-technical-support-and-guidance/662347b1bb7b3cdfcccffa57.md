@@ -1,6 +1,6 @@
 ---
 id: 662347b1bb7b3cdfcccffa57
-title: Task 50
+title: Zoezi la 50
 challengeType: 22
 dashedName: task-50
 lang: en-US
@@ -10,9 +10,9 @@ lang: en-US
 
 # --description--
 
-`Heard` is the past tense of the verb `to hear`, which means to become aware of something through the ears or to be informed of something. For example, `I heard the news yesterday` means you became aware of the news the day before.
+`Heard` ni wakati uliopita wa kitenzi `to hear`, ambalo lina maana ya kupata taarifa kuhusu jambo kupitia masikio au kufahamishwa kuhusu jambo fulani. Kwa mfano, `I heard the news yesterday` ina maana ulipata taarifa za habari siku iliyopita.
 
-An `authentication module` in a software context is a part of a system responsible for verifying the identity of users. It's often used in login systems. For example, `The authentication module checks the username and password` means it verifies the user's credentials.
+`authentication module` katika muktadha wa programu ni sehemu ya mfumo inayohusika na kuthibitisha utambulisho wa watumizi. Mara nyingi hutumika katika mifumo ya kuingia (login). Kwa mfano, `The authentication module checks the username and password` ina maana inathibitisha sifa za mtumizi.
 
 # --fillInTheBlank--
 
@@ -26,7 +26,7 @@ An `authentication module` in a software context is a part of a system responsib
 
 ### --feedback--
 
-It is the past tense of `to hear`, indicating Brian was informed about Sophie's task.
+Ni wakati uliopita wa `to hear`, unaoonyesha Brian alifahamishwa kuhusu zoezi la Sophie.
 
 ---
 
@@ -34,7 +34,7 @@ It is the past tense of `to hear`, indicating Brian was informed about Sophie's 
 
 ### --feedback--
 
-It refers to the act of repairing or resolving the issue (bug) in the software.
+Inahusu tendo la kurekebisha au kutatua hitilafu katika programu.
 
 ---
 
@@ -42,7 +42,7 @@ It refers to the act of repairing or resolving the issue (bug) in the software.
 
 ### --feedback--
 
-It refers to the process of verifying a user's identity in the software module.
+Inahusu mchakato wa kuthibitisha utambulisho wa mtumizi katika moduli ya programu.
 
 # --scene--
 

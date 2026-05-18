@@ -1,6 +1,6 @@
 ---
 id: 67acaebb95dabb0ee05500f7
-title: Task 21
+title: Zoezi la 21
 challengeType: 22
 dashedName: task-21
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Sikiliza sauti na ukamilishe sentensi iliyo hapa chini.
 
 # --fillInTheBlank--
 
@@ -24,15 +24,15 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This word means an obstacle or something that slows down progress.
+Neno hili linamaanisha kikwazo au kitu kinachochelewesha maendeleo.
 
 # --explanation--
 
-A `setback` is something that delays or prevents progress. Slow or inefficient computers might make tasks take longer, reducing efficiency. For example:
+`setback` ni kitu kinachochelewesha au kuzuia maendeleo. Kompyuta polepole au zisizofanya kazi vizuri zinaweza kufanya kazi zichukue muda mrefu, na kupunguza ufanisi. Kwa mfano:
 
-- `The project faced a setback due to a critical bug.` - The project was delayed or had problems because of a serious software issue.
+- `The project faced a setback due to a critical bug.` - Mradi ulichelewa au ukaathirika kwa sababu ya tatizo kubwa la programu.
 
-- `Losing important data was a major setback for the team.` - Losing data created difficulties and slowed down the team's work.
+- `Losing important data was a major setback for the team.` - Kupoteza data kulileta matatizo na kuchelewesha kazi ya timu.
 
 # --scene--
 

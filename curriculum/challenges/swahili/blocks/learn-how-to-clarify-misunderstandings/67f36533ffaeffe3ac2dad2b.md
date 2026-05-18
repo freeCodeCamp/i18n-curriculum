@@ -1,6 +1,6 @@
 ---
 id: 67f36533ffaeffe3ac2dad2b
-title: Task 131
+title: Zoezi la 131
 challengeType: 19
 dashedName: task-131
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Sikiliza sauti na jibu swali lililopo hapa chini.
 
 # --questions--
 
 ## --text--
 
-What is Jessica explaining?
+Jessica anafafanua nini?
 
 ## --answers--
 
-There was a problem with the current update's schedule.
+Kulikuwa na tatizo na ratiba ya sasisho la sasa.
 
 ### --feedback--
 
-Jessica is talking about the feature's timing, not the schedule of the update itself.
+Jessica anazungumzia wakati wa kipengele, si ratiba ya sasisho yenyewe.
 
 ---
 
-The budget tracking feature will be in the next update, not the current one.
+Kipengele cha kufuatilia bajeti kitakuwa katika sasisho lijalo, si la sasa.
 
 ---
 
-The budget tracking feature has been removed from the current update.
+Kipengele cha kufuatilia bajeti kimeondolewa katika sasisho la sasa.
 
 ### --feedback--
 
-Jessica doesn't mention that the feature has been removed.
+Jessica hakutaja kwamba kipengele kimeondolewa.
 
 ---
 
-The feature was mistakenly included in this update.
+Kipengele kilijumuishwa kwa makosa katika sasisho hili.
 
 ### --feedback--
 
-Jessica doesn't say the feature was mistakenly included.
+Jessica hajasema kwamba kipengele kilijumuishwa kwa makosa.
 
 ## --video-solution--
 
@@ -52,9 +52,9 @@ Jessica doesn't say the feature was mistakenly included.
 
 # --explanation--
 
-Jessica says, `The budget tracking feature is planned for the next update`, explaining that the feature is not included in the current update but will be added in the next one.
+Jessica anasema, `The budget tracking feature is planned for the next update`, akifafanua kwamba kipengele hakijajumuishwa katika sasisho la sasa lakini kitaongezwa katika lile lijalo.
 
-This clears up the confusion about the feature's timing.
+Hii inaondoa mkanganyiko kuhusu wakati wa kipengele.
 
 # --scene--
 

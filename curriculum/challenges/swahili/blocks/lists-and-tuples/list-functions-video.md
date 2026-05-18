@@ -1,6 +1,6 @@
 ---
 id: 24a45b3960b3aa68dff2cd9e
-title: List Functions
+title: Njia za orodha
 challengeType: 11
 videoId: _5FQ5f3RW5U
 dashedName: list-functions
@@ -8,13 +8,13 @@ dashedName: list-functions
 
 # --description--
 
-In this video, you will learn how to work with useful methods including the `append()`, `index()`, `clear()`, `sort()`, and `reverse()` methods.
+Katika video hii, utafundishwa jinsi ya kutumia njia muhimu ikiwa ni pamoja na njia za `append()`, `index()`, `clear()`, `sort()`, na `reverse()`.
 
 # --questions--
 
 ## --text--
 
-What will be the output for the following code?
+Nini kitakuwa matokeo ya msimbo ufuatao?
 
 ```python
 friends = ["Kevin", "Karen", "Jim", "Oscar", "Toby"]

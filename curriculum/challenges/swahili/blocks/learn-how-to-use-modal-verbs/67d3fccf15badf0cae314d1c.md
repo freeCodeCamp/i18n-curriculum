@@ -1,6 +1,6 @@
 ---
 id: 67d3fccf15badf0cae314d1c
-title: Task 7
+title: Zoezi la 7
 challengeType: 22
 dashedName: task-7
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Sikiliza sauti na ukamilishe sentensi iliyo hapa chini.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This verb shows necessity, meaning something is required.
+Kitenzi hiki kinaonyesha hitaji, maana kuna jambo linalohitajika kufanyika.
 
 ---
 
@@ -32,15 +32,15 @@ This verb shows necessity, meaning something is required.
 
 ### --feedback--
 
-This verb follows `need` to when asking about an action.
+Kitenzi hiki huambatana na `need` wakati wa kuuliza kuhusu kitendo.
 
 # --explanation--
 
-`Need to` is used when asking about necessary actions. It is followed by the base form of the verb (`do`). For example:
+`Need to` hutumika wakati wa kuuliza kuhusu vitendo vinavyohitajika. Kinafuatwa na aina ya msingi ya kitenzi (`do`). Kwa mfano:
 
-- `We need to do more testing before releasing the app.` - It is necessary to test the app before launching it.
+- `We need to do more testing before releasing the app.` - Ni lazima kupima programu kabla ya kuizindua.
 
-- `We need to do some updates to fix the bugs.` - It is necessary to update the system to solve problems.
+- `We need to do some updates to fix the bugs.` - Ni lazima kusahihisha mfumo ili kutatua matatizo.
 
 # --scene--
 

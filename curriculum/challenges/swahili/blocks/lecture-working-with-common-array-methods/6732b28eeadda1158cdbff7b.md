@@ -1,15 +1,15 @@
 ---
 id: 6732b28eeadda1158cdbff7b
-title: How Can You Check if an Array Contains a Certain Value?
+title: Jinsi ya Kukagua Ikiwa Safu ya Data Ina Thamani Fulani?
 challengeType: 19
 dashedName: how-can-you-check-if-an-array-contains-a-certain-value
 ---
 
 # --interactive--
 
-In JavaScript, the `includes()` method is a simple and efficient way to check if an array contains a specific value. This method returns a boolean value: `true` if the array contains the specified element, and `false` otherwise.
+Katika JavaScript, njia ya `includes()` ni njia rahisi na yenye ufanisi ya kukagua ikiwa safu ya data ina thamani maalum. Njia hii hurudisha thamani ya kweli au siyo kweli: `true` ikiwa safu ya data ina kipengele kilichotajwa, na `false` vinginevyo.
 
-The `includes()` method is particularly useful when you need to quickly verify the presence of an element in an array without needing to know its exact position. Let's start with an example of how to use the `includes()` method:
+Njia ya `includes()` ni muhimu hasa unapohitaji kuthibitisha haraka uwepo wa kipengele katika safu ya data bila kujua nafasi yake halisi. Tuanze na mfano wa jinsi ya kutumia njia ya `includes()`:
 
 :::interactive_editor
 
@@ -21,9 +21,9 @@ console.log(fruits.includes("grape"));  // false
 
 :::
 
-In this example, we have an array of fruits. We use the `includes()` method to check if `banana` is in the array. It returns `true` because `banana` is indeed present. We then check for `grape`, which returns `false` because it's not in the array.
+Katika mfano huu, tuna safu ya matunda. Tunatumia njia ya `includes()` kukagua ikiwa `banana` iko katika safu ya data. Inarudisha `true` kwa sababu `banana` kwa kweli ipo. Kisha tunakagua `grape`, ambayo inarudisha `false` kwa sababu haipo katika safu ya data.
 
-The `includes()` method is case-sensitive when dealing with strings. This means that `Banana` with a capital B and `banana` with all lowercase letters are considered different values. Here's an example that illustrates this:
+Njia ya `includes()` ina hisia kwa herufi ndogo na kubwa wakati wa kushughulikia mfuatano wa herufi. Hii inamaanisha kuwa `Banana` yenye herufi kubwa B na `banana` yenye herufi ndogo zote zinachukuliwa kuwa thamani tofauti. Hapa kuna mfano unaoonyesha hili:
 
 :::interactive_editor
 
@@ -35,9 +35,9 @@ console.log(fruits.includes("Banana")); // false
 
 :::
 
-In this case, `banana` (all in lowercase) is found in the array, but `Banana` (with the first letter capitalized) is not, so the second `includes()` call returns `false`.
+Katika kesi hii, `banana` (zote kwa herufi ndogo) hupatikana katika safu ya data, lakini `Banana` (ikiwa na herufi ya kwanza kubwa) haipo, hivyo wito wa pili wa `includes()` unarudisha `false`.
 
-The `includes()` method can also accept an optional second parameter that specifies the position in the array to start the search. This is useful if you want to check for an element's presence in a specific part of the array. Here's how you can use this feature:
+Njia ya `includes()` pia inaweza kupokea kigezo cha pili cha hiari kinachoelezea nafasi katika safu ya data kuanzia ambapo utaanza kutafuta. Hii ni muhimu ikiwa unataka kukagua uwepo wa kipengele katika sehemu maalum ya safu ya data. Hapa ni jinsi unavyoweza kutumia kipengele hiki:
 
 :::interactive_editor
 
@@ -49,11 +49,11 @@ console.log(numbers.includes(30, 4)); // true
 
 :::
 
-For the first `console.log`, we are looking for the number `30` starting at index `3`. In this case, there is a number `30` that appears after index `3`, so the `includes()` method returns `true`.
+Kwa wito wa kwanza wa `console.log`, tunatafuta nambari `30` kuanzia kielezo `3`. Katika kesi hii, kuna nambari `30` inayojitokeza baada ya kielezo `3`, hivyo njia ya `includes()` inarudisha `true`.
 
-The same is true for the second `console.log`. We are looking for the number `30` starting at index `4`. Since the number `30` does appear after that index, then it will return `true`.
+Hali hiyo hiyo ni kweli kwa wito wa pili wa `console.log`. Tunatafuta nambari `30` kuanzia kielezo `4`. Kwa kuwa nambari `30` inaonekana baada ya kielezo hicho, basi itarudisha `true`.
 
-It's worth noting that `includes()` uses the strict equality comparison (`===`), which means it can distinguish between different types. For example:
+Ni muhimu kutambua kuwa `includes()` hutumia kulinganisha kwa usawa mkali (`===`), ambayo inamaanisha inaweza kutofautisha kati ya aina tofauti. Kwa mfano:
 
 :::interactive_editor
 
@@ -65,15 +65,15 @@ console.log(mixedArray.includes("2")); // true
 
 :::
 
-In this case, the number `2` and the string `"2"` are considered different data types. So, the first `console.log` will return `false`, while the second `console.log` will return `true`.
+Katika kesi hii, nambari `2` na mfuatano wa herufi `"2"` zinachukuliwa kuwa aina tofauti za data. Hivyo, wito wa kwanza wa `console.log` utarudisha `false`, wakati wito wa pili wa `console.log` utarudisha `true`.
 
-The `includes()` method is a powerful tool for checking the presence of elements in arrays. It's simple to use, efficient, and can save you from writing more complex loops or conditions to search through arrays. Whether you're working with strings, numbers, or mixed data types, `includes()` provides a straightforward way to verify if a value exists in your array.
+Njia ya `includes()` ni chombo chenye nguvu cha kukagua uwepo wa vipengele katika safu za data. Ni rahisi kutumia, yenye ufanisi, na inaweza kukuokoa kuandika mizunguko au masharti magumu zaidi ya kutafuta katika safu za data. Iwe unafanya kazi na mfuatano wa herufi, nambari, au aina mchanganyiko za data, `includes()` hutoa njia rahisi ya kuthibitisha ikiwa thamani ipo katika safu yako ya data.
 
 # --questions--
 
 ## --text--
 
-What will be the output of the following code?
+Nini kitakuwa matokeo ya msimbo ufuatao?
 
 ```js
 let arr = [1, 2, 3, 4, 5];
@@ -86,7 +86,7 @@ console.log(arr.includes(3, 3));
 
 ### --feedback--
 
-The second parameter of `includes()` specifies the starting position for the search.
+Kigezo cha pili cha `includes()` kinaelezea nafasi ya kuanzia kwa ajili ya utafutaji.
 
 ---
 
@@ -98,15 +98,15 @@ The second parameter of `includes()` specifies the starting position for the sea
 
 ### --feedback--
 
-The second parameter of `includes()` specifies the starting position for the search.
+Kigezo cha pili cha `includes()` kinaelezea nafasi ya kuanzia kwa ajili ya utafutaji.
 
 ---
 
-This will throw an error.
+Hii itatupa kosa.
 
 ### --feedback--
 
-The second parameter of `includes()` specifies the starting position for the search.
+Kigezo cha pili cha `includes()` kinaelezea nafasi ya kuanzia kwa ajili ya utafutaji.
 
 ## --video-solution--
 
@@ -114,7 +114,7 @@ The second parameter of `includes()` specifies the starting position for the sea
 
 ## --text--
 
-What will be the output of the following code?
+Nini kitakuwa matokeo ya msimbo ufuatao?
 
 ```js
 let arr = ["a", "b", "c", "d", "e"];
@@ -127,7 +127,7 @@ console.log(arr.includes("C"));
 
 ### --feedback--
 
-Remember that `includes()` is case-sensitive when dealing with strings.
+Kumbuka kuwa `includes()` ina hisia kwa herufi ndogo na kubwa wakati wa kushughulikia mfuatano wa herufi.
 
 ---
 
@@ -139,15 +139,15 @@ Remember that `includes()` is case-sensitive when dealing with strings.
 
 ### --feedback--
 
-Remember that `includes()` is case-sensitive when dealing with strings.
+Kumbuka kuwa `includes()` ina hisia kwa herufi ndogo na kubwa wakati wa kushughulikia mfuatano wa herufi.
 
 ---
 
-This will throw an error.
+Hii itatupa kosa.
 
 ### --feedback--
 
-Remember that `includes()` is case-sensitive when dealing with strings.
+Kumbuka kuwa `includes()` ina hisia kwa herufi ndogo na kubwa wakati wa kushughulikia mfuatano wa herufi.
 
 ## --video-solution--
 
@@ -155,7 +155,7 @@ Remember that `includes()` is case-sensitive when dealing with strings.
 
 ## --text--
 
-What will be the output of the following code?
+Nini kitakuwa matokeo ya msimbo ufuatao?
 
 ```js
 let arr = [1, "2", 3, "4", 5];
@@ -168,7 +168,7 @@ console.log(arr.includes("3"));
 
 ### --feedback--
 
-The `includes()` method uses strict equality (`===`) for comparison.
+Njia ya `includes()` hutumia usawa mkali (`===`) kwa ajili ya kulinganisha.
 
 ---
 
@@ -180,15 +180,15 @@ The `includes()` method uses strict equality (`===`) for comparison.
 
 ### --feedback--
 
-The `includes()` method uses strict equality (`===`) for comparison.
+Njia ya `includes()` hutumia usawa mkali (`===`) kwa ajili ya kulinganisha.
 
 ---
 
-This will throw an error.
+Hii itatupa kosa.
 
 ### --feedback--
 
-The `includes()` method uses strict equality (`===`) for comparison.
+Njia ya `includes()` hutumia usawa mkali (`===`) kwa ajili ya kulinganisha.
 
 ## --video-solution--
 

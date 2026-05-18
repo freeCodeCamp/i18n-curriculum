@@ -1,13 +1,13 @@
 ---
 id: 66ed8fc9f45ce3ece4053eae
-title: CSS Animations Quiz
+title: Jaribio fupi la michoro ya CSS
 challengeType: 8
 dashedName: quiz-css-animations
 ---
 
 # --description--
 
-To pass the quiz, you must correctly answer at least 18 of the 20 questions below.
+Ili kupita jaribio fupi, lazima ujibu kwa usahihi angalau maswali 18 kati ya 20 yaliyo hapa chini.
 
 # --quizzes--
 
@@ -17,51 +17,51 @@ To pass the quiz, you must correctly answer at least 18 of the 20 questions belo
 
 #### --text--
 
-What is the purpose of the `transform` property in CSS?
+Lengo la sifa ya `transform` katika CSS ni nini?
 
 #### --distractors--
 
-To change the visibility of an element.
+Kubadilisha uonekano wa kipengele.
 
 ---
 
-To apply a visual effect to text.
+Kutumia athari ya kuona kwa maandishi.
 
 ---
 
-To set the dimensions of an element.
+Kuweka vipimo vya kipengele.
 
 #### --answer--
 
-To modify the position, size, and shape of an element.
+Kubadilisha nafasi, ukubwa, na umbo la kipengele.
 
 ### --question--
 
 #### --text--
 
-How does the CSS `animation-direction` property affect an animation?
+Sifa ya CSS `animation-direction` inaathirije michoro?
 
 #### --distractors--
 
-It specifies if an animation should be repeated.
+Inaeleza kama michoro inapaswa kurudiwa.
 
 ---
 
-It sets the duration of the animation.
+Inaweka muda wa michoro.
 
 ---
 
-It defines the speed of the animation.
+Inaeleza kasi ya michoro.
 
 #### --answer--
 
-It defines how an animation should play.
+Inaeleza jinsi michoro inavyopaswa kuchezwa.
 
 ### --question--
 
 #### --text--
 
-Which CSS property makes an animation run 3 times?
+Ni sifa gani ya CSS inayofanya michoro ifanyike mara 3?
 
 #### --distractors--
 
@@ -83,7 +83,7 @@ Which CSS property makes an animation run 3 times?
 
 #### --text--
 
-Which CSS timing function makes an animation run at a consistent speed from start to end?
+Ni kitendakazi gani cha wakati wa CSS kinachofanya michoro ifanye kwa kasi thabiti kutoka mwanzo hadi mwisho?
 
 #### --distractors--
 
@@ -105,95 +105,95 @@ Which CSS timing function makes an animation run at a consistent speed from star
 
 #### --text--
 
-What does the `@keyframes` at-rule define in CSS?
+Kanuni ya at ya `@keyframes` inaeleza nini katika CSS?
 
 #### --distractors--
 
-The colors of a CSS gradient.
+Rangi za mchanganyiko wa rangi wa CSS.
 
 ---
 
-The angles of a CSS rotation.
+Pembe za mzunguko wa CSS.
 
 ---
 
-The dimensions of an element.
+Vipimo vya kipengele.
 
 #### --answer--
 
-The stages of a CSS animation.
+Hatua za michoro ya CSS.
 
 ### --question--
 
 #### --text--
 
-What is the purpose of the `translateX()` function in CSS?
+Lengo la kitendakazi cha `translateX()` katika CSS ni nini?
 
 #### --distractors--
 
-It changes the opacity of the element.
+Hubadilisha uwazi wa kipengele.
 
 ---
 
-It rotates the element.
+Hubadilisha mzunguko wa kipengele.
 
 ---
 
-It repositions the element vertically.
+Hubadilisha nafasi ya kipengele wima.
 
 #### --answer--
 
-It repositions the element horizontally.
+Hubadilisha nafasi ya kipengele usawa.
 
 ### --question--
 
 #### --text--
 
-Which of the following is NOT a potential concern with CSS animations?
+Ni ipi kati ya zifuatazo SIYO tatizo linaloweza kutokea na michoro ya CSS?
 
 #### --distractors--
 
-They may cause discomfort or physical harm to certain users.
+Inaweza kusababisha usumbufu au madhara kwa watumizi fulani.
 
 ---
 
-Users may find them distracting.
+Watumizi wanaweza kuipata kuwa ya kuvuruga.
 
 ---
 
-Overuse can lead to poor performance.
+Matumizi kupita kiasi yanaweza kusababisha utendaji mbaya.
 
 #### --answer--
 
-They can enhance user experience.
+Inaweza kuboresha uzoefu wa mtumizi.
 
 ### --question--
 
 #### --text--
 
-Where is the `@keyframes` at-rule defined?
+Kanuni ya at ya `@keyframes` imewekwa wapi?
 
 #### --distractors--
 
-Within the `body` element of an HTML file.
+Ndani ya kipengele cha `body` cha faili ya HTML.
 
 ---
 
-Within the `head` element of an HTML file.
+Ndani ya kipengele cha `head` cha faili ya HTML.
 
 ---
 
-Within a CSS class definition.
+Ndani ya ufafanuzi wa darasa la vitu la CSS.
 
 #### --answer--
 
-At the top level, outside of any CSS selectors.
+Kiwango cha juu kabisa, nje ya vichaguzi vyovyote vya CSS.
 
 ### --question--
 
 #### --text--
 
-Which CSS property allows you to pause and resume an animation?
+Ni sifa gani ya CSS inayokuwezesha kusitisha na kuendelea na michoro?
 
 #### --distractors--
 
@@ -215,29 +215,29 @@ Which CSS property allows you to pause and resume an animation?
 
 #### --text--
 
-What value should be assigned to the `animation-name` property in CSS?
+Ni thamani gani inapaswa kuwekwa kwa sifa ya `animation-name` katika CSS?
 
 #### --distractors--
 
-The duration of the animation in seconds.
+Muda wa michoro kwa sekunde.
 
 ---
 
-The timing function used for the animation.
+Kitendakazi cha wakati kinachotumika kwa michoro.
 
 ---
 
-The delay before the animation starts in seconds.
+Kuchelewesha kabla ya michoro kuanza kwa sekunde.
 
 #### --answer--
 
-The name of the animation defined by the `@keyframes`.
+Jina la michoro lililoelezwa na `@keyframes`.
 
 ### --question--
 
 #### --text--
 
-What does this `@keyframe` at-rule do to the animated element?
+Kanuni ya at ya `@keyframe` inafanyaje kwa kipengele kilichochorwa?
 
 ```css
 @keyframes animation {
@@ -252,25 +252,25 @@ What does this `@keyframe` at-rule do to the animated element?
 
 #### --distractors--
 
-It rotates the element 90 degrees clockwise.
+Hubadilisha kipengele kwa mzunguko wa digrii 90 kwa mwelekeo wa saa.
 
 ---
 
-It changes the color of the element to blue.
+Hubadilisha rangi ya kipengele kuwa buluu.
 
 ---
 
-It scales the element to 50% of its initial size and then to 100% of its initial size.
+Hubadilisha ukubwa wa kipengele kuwa asilimia 50 ya ukubwa wa awali kisha asilimia 100 ya ukubwa wa awali.
 
 #### --answer--
 
-It moves the element horizontally from -50px to 100px, relative to its starting point.
+Hubadilisha kipengele usawa kutoka -50px hadi 100px, kulingana na mahali kilipo mwanzo.
 
 ### --question--
 
 #### --text--
 
-Which CSS property defines how an animation progresses over time?
+Ni sifa gani ya CSS inaeleza jinsi michoro inavyosonga kwa muda?
 
 #### --distractors--
 
@@ -292,7 +292,7 @@ Which CSS property defines how an animation progresses over time?
 
 #### --text--
 
-Which CSS property is used to specify that an animation should take 5 seconds to complete?
+Ni sifa gani ya CSS hutumika kuonyesha kuwa michoro inapaswa kuchukua sekunde 5 kukamilika?
 
 #### --distractors--
 
@@ -322,7 +322,7 @@ animation-duration: 5s;
 
 #### --text--
 
-What does `50%` represent in the following CSS `@keyframe` at-rule?
+`50%` inawakilisha nini katika kanuni ya at ya CSS `@keyframe` ifuatayo?
 
 ```css
 @keyframes animation {
@@ -340,69 +340,69 @@ What does `50%` represent in the following CSS `@keyframe` at-rule?
 
 #### --distractors--
 
-The starting point of the animation.
+Mahali pa kuanza kwa michoro.
 
 ---
 
-The ending point of the animation.
+Mahali pa mwisho wa michoro.
 
 ---
 
-The speed of the animation.
+Kasi ya michoro.
 
 #### --answer--
 
-The halfway point of the animation.
+Mahali pa katikati ya michoro.
 
 ### --question--
 
 #### --text--
 
-What will happen when the property `transform: translateX(200px);` is applied?
+Nini kitakachotokea wakati sifa ya `transform: translateX(200px);` itatumika?
 
 #### --distractors--
 
-The element will move 200px to the left.
+Kipengele kitahamia 200px kushoto.
 
 ---
 
-The element will move 200px to the bottom.
+Kipengele kitahamia 200px chini.
 
 ---
 
-The element will rotate 200 degrees clockwise.
+Kipengele kitazunguka digrii 200 kwa mwelekeo wa saa.
 
 #### --answer--
 
-The element will move 200px to the right.
+Kipengele kitahamia 200px kulia.
 
 ### --question--
 
 #### --text--
 
-How will the animation behave if `animation-iteration-count` is set to `infinite`?
+Michoro itafanyaje ikiwa `animation-iteration-count` itakuwa `infinite`?
 
 #### --distractors--
 
-It will run once and stop.
+Itacheza mara moja kisha kusimama.
 
 ---
 
-It will pause after the first iteration.
+Itasitishwa baada ya mzunguko wa kwanza.
 
 ---
 
-It will stop after three iterations.
+Itasimama baada ya mizunguko mitatu.
 
 #### --answer--
 
-It will repeat indefinitely.
+Itarudiwa bila kikomo.
 
 ### --question--
 
 #### --text--
 
-Which `@keyframes` selector specifies the starting point of an animation?
+Kichaguzi gani cha `@keyframes` kinaeleza mahali pa kuanza kwa michoro?
 
 #### --distractors--
 
@@ -424,29 +424,29 @@ Which `@keyframes` selector specifies the starting point of an animation?
 
 #### --text--
 
-What properties can be specified using the `animation` shorthand CSS property?
+Ni sifa gani zinaweza kuwekwa kwa kutumia sifa fupi ya `animation` ya CSS?
 
 #### --distractors--
 
-Only the name of the animation.
+Jina tu la michoro.
 
 ---
 
-The name and duration of the animation.
+Jina na muda wa michoro.
 
 ---
 
-The name, duration, and delay of the animation.
+Jina, muda, na kuchelewesha kwa michoro.
 
 #### --answer--
 
-All animation properties.
+Sifa zote za michoro.
 
 ### --question--
 
 #### --text--
 
-Which CSS property is used to apply an animation defined by an `@keyframes` at-rule?
+Ni sifa gani ya CSS hutumika kutekeleza michoro iliyobainishwa na kanuni ya at ya `@keyframes`?
 
 #### --distractors--
 
@@ -468,7 +468,7 @@ Which CSS property is used to apply an animation defined by an `@keyframes` at-r
 
 #### --text--
 
-Which CSS property allows you to set a time before the animation begins?
+Ni sifa gani ya CSS inaruhusu kuweka muda kabla ya michoro kuanza?
 
 #### --distractors--
 
@@ -492,29 +492,29 @@ Which CSS property allows you to set a time before the animation begins?
 
 #### --text--
 
-What does the CSS `animation-delay` property do?
+Sifa ya CSS `animation-delay` hufanya nini?
 
 #### --distractors--
 
-Sets how long the animation lasts.
+Inaweka muda wa michoro.
 
 ---
 
-Specifies the timing function.
+Inaeleza kitendakazi cha wakati.
 
 ---
 
-Defines animation direction.
+Inaeleza mwelekeo wa michoro.
 
 #### --answer--
 
-Delays the start of the animation.
+Inachelewesha kuanza kwa michoro.
 
 ### --question--
 
 #### --text--
 
-Which animation property specifies how the element should be styled before and after the animation?
+Ni sifa gani ya michoro inaeleza jinsi kipengele kinavyopaswa kupambwa kabla na baada ya michoro?
 
 #### --distractors--
 
@@ -536,29 +536,29 @@ Which animation property specifies how the element should be styled before and a
 
 #### --text--
 
-Why should CSS animations be used in moderation?
+Kwa nini michoro ya CSS inapaswa kutumika kwa kiasi?
 
 #### --distractors--
 
-Too many CSS animations can lead to styles breaking as well as inconsistent styles across different browsers.
+Michoro mingi ya CSS inaweza kusababisha mitindo kuvunjika na mitindo isiyo thabiti katika vivinjari tofauti.
 
 ---
 
-Too many CSS animations can lead to lower or non existent rankings in search engine results.
+Michoro mingi ya CSS inaweza kusababisha nafasi za chini au kutokuwepo kabisa katika matokeo ya injini za utafutaji.
 
 ---
 
-Too many CSS animations will automatically crash the server and increase the likelihood for security risks.
+Michoro mingi ya CSS itasababisha seva kuanguka moja kwa moja na kuongeza hatari za usalama.
 
 #### --answer--
 
-Too many CSS animations can lead to poor performance and may be distracting or problematic for users with certain accessibility needs.
+Michoro mingi ya CSS inaweza kusababisha utendaji mbaya na inaweza kuwa ya kuvuruga au kuwa tatizo kwa watumizi wenye mahitaji fulani ya ufikikaji.
 
 ### --question--
 
 #### --text--
 
-Which animation property determines whether the animation should play forwards, backwards, or alternate?
+Ni sifa gani ya michoro inaamua kama michoro itachezwa mbele, nyuma, au kubadilishana?
 
 #### --distractors--
 
@@ -580,7 +580,7 @@ Which animation property determines whether the animation should play forwards, 
 
 #### --text--
 
-Which CSS media query detects if the user has requested minimal animations or motion effects?
+Ni media query gani ya CSS inagundua kama mtumizi ameomba michoro au athari za mwendo kidogo?
 
 #### --distractors--
 
@@ -602,7 +602,7 @@ Which CSS media query detects if the user has requested minimal animations or mo
 
 #### --text--
 
-Which property sets how many times an `animation` repeats?
+Ni sifa gani inaweka ni mara ngapi `animation` inarudiwa?
 
 #### --distractors--
 
@@ -624,7 +624,7 @@ Which property sets how many times an `animation` repeats?
 
 #### --text--
 
-Which CSS rule is used to define the stages and styles of an animation at various points during its duration?
+Ni kanuni gani ya CSS hutumika kufafanua hatua na mitindo ya michoro katika sehemu mbalimbali za muda wake?
 
 #### --distractors--
 
@@ -646,7 +646,7 @@ Which CSS rule is used to define the stages and styles of an animation at variou
 
 #### --text--
 
-Inside the `reduced‑motion` media query, which declaration disables transitions?
+Ndani ya media query ya `reduced‑motion`, tamko gani linazima mabadiliko ya hatua?
 
 #### --distractors--
 
@@ -668,95 +668,95 @@ Inside the `reduced‑motion` media query, which declaration disables transition
 
 #### --text--
 
-What does the `animation-play-state` property allow you to do?
+Sifa ya `animation-play-state` inakuwezesha kufanya nini?
 
 #### --distractors--
 
-Set how many times the animation repeats.
+Kuweka ni mara ngapi michoro inarudiwa.
 
 ---
 
-Specify how long the animation takes to complete.
+Kuweka muda wa michoro kukamilika.
 
 ---
 
-Determine the direction in which the animation plays.
+Kudhibiti mwelekeo wa michoro.
 
 #### --answer--
 
-Pause and resume the animation.
+Kusitisha na kuendelea na michoro.
 
 ### --question--
 
 #### --text--
 
-Which of the following is a good practice when working with animations?
+Ni tabia gani nzuri wakati wa kufanya kazi na michoro?
 
 #### --distractors--
 
-Use as many flashing colors and rapid movements as possible to grab attention.
+Tumia rangi nyingi zinazong'aa na mwendo wa haraka ili kuvutia macho.
 
 ---
 
-Avoid testing animations on different devices or screen sizes.
+Epuka kujaribu michoro kwenye vifaa au saizi tofauti za skrini.
 
 ---
 
-Make animations last as long as possible to ensure users notice them.
+Fanya michoro idumu muda mrefu iwezekanavyo ili watumizi waiangalie.
 
 #### --answer--
 
-Avoid content that flashes more than three times per second to prevent triggering seizures or causing discomfort.
+Epuka maudhui yanayong'aa zaidi ya mara tatu kwa sekunde ili kuzuia kusababisha kifafa au usumbufu.
 
 ### --question--
 
 #### --text--
 
-Why is the `!important` declaration used in the CSS rules?
+Kwa nini tamko la `!important` linatumika katika kanuni za CSS?
 
 #### --distractors--
 
-To prevent other media queries from loading.
+Kuzuia media queries nyingine kupakia.
 
 ---
 
-To limit styles to the first child element.
+Kukataza mitindo kwa kipengele cha mtoto wa kwanza.
 
 ---
 
-To debug CSS more easily.
+Kufanya tafutizi ya hitilafu ya CSS iwe rahisi.
 
 #### --answer--
 
-To ensure these rules take precedence over other styles.
+Kuhakikisha kanuni hizi zinapata kipaumbele juu ya mitindo mingine.
 
 ### --question--
 
 #### --text--
 
-What does `animation-iteration-count: 1 !important;` ensure in CSS?
+`animation-iteration-count: 1 !important;` huhakikisha nini katika CSS?
 
 #### --distractors--
 
-That animations are paused.
+Michoro imesitishwa.
 
 ---
 
-That animations run infinitely.
+Michoro inaendelea bila kikomo.
 
 ---
 
-That animations reverse direction each cycle.
+Michoro hubadilisha mwelekeo kila mzunguko.
 
 #### --answer--
 
-That any looping animations only play once.
+Michoro yoyote inayorudiwa huchezwa mara moja tu.
 
 ### --question--
 
 #### --text--
 
-What CSS property is used to specify how long an animation should take to complete?
+Ni sifa gani ya CSS hutumika kuonyesha muda gani michoro inapaswa kuchukua kukamilika?
 
 #### --distractors--
 
@@ -778,7 +778,7 @@ What CSS property is used to specify how long an animation should take to comple
 
 #### --text--
 
-Which property is NOT part of the `animation` shorthand?
+Ni sifa gani SIYO sehemu ya sifa fupi ya `animation`?
 
 #### --distractors--
 
@@ -800,29 +800,29 @@ Which property is NOT part of the `animation` shorthand?
 
 #### --text--
 
-What does the `@keyframes` rule define?
+Kanuni ya `@keyframes` inaeleza nini?
 
 #### --distractors--
 
-The timing function of an animation.
+Kitendakazi cha wakati wa michoro.
 
 ---
 
-The default state of an element.
+Hali ya kawaida ya kipengele.
 
 ---
 
-The media queries for animations.
+Media queries za michoro.
 
 #### --answer--
 
-The sequence of styles at different points in an animation.
+Mfululizo wa mitindo katika sehemu tofauti za michoro.
 
 ### --question--
 
 #### --text--
 
-What does this `@keyframe` at-rule do to the animated element?
+Kanuni ya at ya `@keyframe` inafanyaje kwa kipengele kilichochorwa?
 
 ```css
 @keyframes fade-in {
@@ -837,47 +837,47 @@ What does this `@keyframe` at-rule do to the animated element?
 
 #### --distractors--
 
-It scales the element up from 0% to 100%.
+Hubadilisha ukubwa wa kipengele kutoka 0% hadi 100%.
 
 ---
 
-It moves the element from left to right.
+Hubadilisha kipengele kutoka kushoto kwenda kulia.
 
 ---
 
-It changes the text color to black.
+Hubadilisha rangi ya maandishi kuwa nyeusi.
 
 #### --answer--
 
-It makes the element fade in by gradually decreasing its transparency.
+Hufanya kipengele kuonekana kwa kupunguza uwazi polepole.
 
 ### --question--
 
 #### --text--
 
-In a keyframes rule, what does `100%` represent?
+Katika kanuni ya fremu muhimu, `100%` inawakilisha nini?
 
 #### --distractors--
 
-The start of the animation.
+Mwanzo wa michoro.
 
 ---
 
-The halfway point.
+Mahali pa katikati.
 
 ---
 
-The easing function.
+Kitendakazi cha kupunguza kasi.
 
 #### --answer--
 
-The end of the animation.
+Mwisho wa michoro.
 
 ### --question--
 
 #### --text--
 
-Which property controls the pace of an `animation` over its duration?
+Ni sifa gani hudhibiti kasi ya `animation` kwa muda wake?
 
 #### --distractors--
 
@@ -899,29 +899,29 @@ Which property controls the pace of an `animation` over its duration?
 
 #### --text--
 
-What should developers consider when implementing animations to maintain accessibility?
+Wasanidi programu wanapaswa kuzingatia nini wanapotekeleza michoro ili kudumisha ufikikaji?
 
 #### --distractors--
 
-Rely entirely on JavaScript for all animations.
+Kutegemea JavaScript kabisa kwa michoro yote.
 
 ---
 
-Add frequent and intense animations for impact.
+Kuongeza michoro mingi na yenye nguvu kwa athari.
 
 ---
 
-Include only bold, fast, and surprising effects.
+Kujumuisha athari nzito, za haraka, na za kushangaza tu.
 
 #### --answer--
 
-Use subtle, intentional effects, honor preferences, and offer user control.
+Kutumia athari nyepesi, kwa makusudi, kuheshimu mapendeleo, na kutoa udhibiti kwa mtumizi.
 
 ### --question--
 
 #### --text--
 
-Which of the following is the correct syntax to slide an element in from the left?
+Ni sintaksia gani sahihi ya kusogeza kipengele kutoka kushoto?
 
 #### --distractors--
 

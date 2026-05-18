@@ -1,6 +1,6 @@
 ---
 id: 685a9aaee82fca9effece4bd
-title: Task 130
+title: Zoezi la 130
 challengeType: 22
 dashedName: task-130
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Sikiliza sauti na ukamilishe sentensi ifuatayo.
 
 # --fillInTheBlank--
 
@@ -24,13 +24,13 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This refers to a person who is present at an event or meeting.
+Hii inahusu mtu aliyeko katika tukio au mkutano.
 
 # --explanation--
 
-An `attendee` is someone who attends or is present at an event, such as a meeting, seminar, or conference. For example:
+`attendee` ni mtu anayehudhuria au kuwepo katika tukio, kama mkutano, semina, au kongamano. Kwa mfano:
 
-`Each attendee received a welcome packet when they arrived.` – This means every person who came to the event got a packet.
+`Each attendee received a welcome packet when they arrived.` – Hii inamaanisha kila mtu aliyekuja kwenye tukio alipata kifurushi.
 
 # --scene--
 

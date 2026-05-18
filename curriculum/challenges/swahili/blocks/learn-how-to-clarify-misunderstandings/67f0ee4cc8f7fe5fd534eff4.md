@@ -1,6 +1,6 @@
 ---
 id: 67f0ee4cc8f7fe5fd534eff4
-title: Task 87
+title: Zoezi la 87
 challengeType: 22
 dashedName: task-87
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Sikiliza sauti na ukamilishe sentensi ifuatayo.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This two-word phrase is used to show agreement or approval of an idea or suggestion. The first word ends with `-s`.
+Usemi huu wa maneno mawili hutumika kuonyesha kukubaliana au kuidhinisha wazo au pendekezo. Neno la kwanza linaishia na `-s`.
 
 ---
 
@@ -32,17 +32,17 @@ This two-word phrase is used to show agreement or approval of an idea or suggest
 
 ### --feedback--
 
-This word means to be grateful for something. It shows thanks for help, support, or something done for you.
+Neno hili linamaanisha kushukuru kwa jambo fulani. Linaonyesha shukrani kwa msaada, sapoti, au jambo lililofanywa kwa ajili yako.
 
 # --explanation--
 
-`Sounds good` means that the speaker agrees with or approves of what was said. For example:
+`Sounds good` ina maana kwamba msemaji anakubaliana na au kuidhinisha kile kilichosemwa. Kwa mfano:
 
-`Your idea sounds good.` – This means the speaker thinks the idea is good and agrees with it.
+`Your idea sounds good.` – Hii ina maana msemaji anadhani wazo ni zuri na anakubaliana nalo.
 
-`I appreciate` is a way of saying thank you or showing gratitude. For example:
+`I appreciate` ni njia ya kusema asante au kuonyesha shukrani. Kwa mfano:
 
-`I appreciate your help with the project.` – This means you're grateful for the help you received.
+`I appreciate your help with the project.` – Hii ina maana unashukuru kwa msaada uliopokea.
 
 # --scene--
 

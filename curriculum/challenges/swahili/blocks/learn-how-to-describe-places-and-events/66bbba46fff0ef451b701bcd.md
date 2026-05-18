@@ -1,6 +1,6 @@
 ---
 id: 66bbba46fff0ef451b701bcd
-title: Task 103
+title: Zoezi la 103
 challengeType: 19
 dashedName: task-103
 lang: en-US
@@ -12,41 +12,41 @@ Sarah: Sure, I'm not busy. What's the problem? -->
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Sikiliza sauti na jibu swali lililopo hapa chini.
 
 # --questions--
 
 ## --text--
 
-Is Sarah available to talk to Tom?
+Je, Sarah yuko tayari kuzungumza na Tom?
 
 ## --answers--
 
-No, she is busy and doesn't want to know about his problems.
+Hapana, yuko na shughuli na hataki kujua kuhusu matatizo yake.
 
 ### --feedback--
 
-Sarah says she is not busy.
+Sarah anasema hana shughuli.
 
 ---
 
-Yes, she is available and wants to know what's the problem.
+Ndiyo, yuko tayari na anataka kujua tatizo ni nini.
 
 ---
 
-No, she cannot talk right now, she has her own problems.
+Hapana, hawezi kuzungumza sasa hivi, ana matatizo yake mwenyewe.
 
 ### --feedback--
 
-Sarah mentions that she is not busy.
+Sarah anataja kwamba hana shughuli.
 
 ---
 
-Yes, but only for a moment because she has her own problems.
+Ndiyo, lakini kwa muda mfupi tu kwa sababu ana matatizo yake mwenyewe.
 
 ### --feedback--
 
-Sarah doesn't limit the time; she simply states that she is not busy.
+Sarah haweka kikomo cha muda; anasema tu kwamba hana shughuli.
 
 ## --video-solution--
 
@@ -54,11 +54,11 @@ Sarah doesn't limit the time; she simply states that she is not busy.
 
 # --explanation--
 
-Instead of directly saying she is free, Sarah uses the negative form `I'm not busy` to emphasize that she has time to help.
+Badala ya kusema moja kwa moja kwamba yuko huru, Sarah anatumia aina hasi `I'm not busy` kuonyesha kwamba ana wakati wa kusaidia.
 
-This is a polite and indirect way to offer availability in English, commonly used to make the conversation more tactful.
+Hii ni njia ya heshima na isiyo ya moja kwa moja ya kutoa upatikanaji kwa Kiingereza, inayotumika sana kufanya mazungumzo kuwa na adabu zaidi.
 
-Her follow-up sentence, `What's the problem?`, confirms she's willing to assist by inviting Tom to explain the issue.
+Sentensi yake inayofuata, `What's the problem?`, inathibitisha kwamba yuko tayari kusaidia kwa kumkaribisha Tom kuelezea tatizo.
 
 # --scene--
 

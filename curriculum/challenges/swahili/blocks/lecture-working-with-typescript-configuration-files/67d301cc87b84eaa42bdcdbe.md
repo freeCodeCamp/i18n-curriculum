@@ -1,13 +1,13 @@
 ---
 id: 67d301cc87b84eaa42bdcdbe
-title: What Is a tsconfig File, and Why Is It Important to Include in Your TypeScript Projects?
+title: "Faili la tsconfig ni nini, na kwa nini ni muhimu kuingiza katika miradi yako ya TypeScript?"
 challengeType: 19
 dashedName: what-is-a-tsconfig-file-and-why-is-it-important-to-include-in-your-typescript-projects
 ---
 
 # --description--
 
-TypeScript's compiler settings can be configured to meet your project's needs. That configuration lives in a `tsconfig.json` file in the root directory of your project. In fact, without it, the compiler will not run unless you pass it command flags directly. But what exactly does this file do? Well, let's take a look at an example file:
+Mipangilio ya compiler ya TypeScript inaweza kusanidiwa ili kukidhi mahitaji ya mradi wako. Usanidi huo unaishi katika faili la `tsconfig.json` katika saraka kuu ya mradi wako. Kwa kweli, bila hilo, compiler haitafanya kazi isipokuwa ukipitisha bendera za amri moja kwa moja. Lakini faili hili hasa hufanya nini? Sawa, tuchunguze faili la mfano:
 
 ```json
 {
@@ -26,27 +26,27 @@ TypeScript's compiler settings can be configured to meet your project's needs. T
 }
 ```
 
-This seems like a lot! So let's break it down. The `compilerOptions` property is going to contain the "meat" of your configuration - this is where you control how the TypeScript compiler behaves. Looking at that nested object…
+Hii inaonekana ni nyingi! Hivyo basi, tuchambue. Sifa ya `compilerOptions` itakuwa na "kiini" cha usanidi wako - hapa ndipo unadhibiti jinsi compiler ya TypeScript inavyotenda. Ukiangalia kwenye kitu kilichopangwa ndani…
 
-The `rootDir` and `outDir` tell TypeScript which directory holds your source files, and which directory should contain the transpiled JavaScript code.
+`rootDir` na `outDir` zinaambia TypeScript saraka gani ina faili zako za chanzo, na saraka gani inapaswa kuwa na msimbo wa JavaScript uliotafsiriwa.
 
-The `lib` property determines which type definitions the compiler uses, and allows you to include support for specific ES releases, the DOM, and more.
+Sifa ya `lib` inaamua ni aina gani za maelezo ya aina compiler inazitumia, na inakuwezesha kuingiza msaada kwa matoleo maalum ya ES, DOM, na zaidi.
 
-`module` and `moduleResolution` effectively work in tandem to manage how your package uses modules - either CommonJS or ECMAScript.
+`module` na `moduleResolution` hufanya kazi pamoja kudhibiti jinsi kifurushi chako kinavyotumia moduli - iwe CommonJS au ECMAScript.
 
-`esModuleInterop` allows for smoother interoperability between CommonJS and ES modules by automatically creating namespace objects for imports, making it easier to use modules from different systems together in your TypeScript projects, and the `skipLibCheck` option skips validating `.d.ts` files that aren't referenced by imports in your code.
+`esModuleInterop` hurahisisha ushirikiano kati ya moduli za CommonJS na ES kwa kuunda moja kwa moja vitu vya namespace kwa imports, na kufanya iwe rahisi kutumia moduli kutoka kwa mifumo tofauti pamoja katika miradi yako ya TypeScript, na chaguo la `skipLibCheck` linapita bila kuthibitisha faili za `.d.ts` ambazo hazijatajwa na imports katika msimbo wako.
 
-And finally we reach the `strict` mode. One might argue that TypeScript isn't truly helpful without this flag enabled, as it toggles quite a few other checks, such as requiring you to properly handle nullable types, or warn when TypeScript can't infer a type and falls back to any.
+Na hatimaye tunafikia hali ya `strict`. Mtu anaweza kusema kuwa TypeScript haifaidiki kweli bila bendera hii kuwezeshwa, kwani inawasha ukaguzi mwingine mwingi, kama vile kuhitaji kushughulikia aina zinazoweza kuwa na thamani ya null ipasavyo, au kutoa onyo wakati TypeScript haiwezi kubaini aina na inarudi kwa any.
 
-Before we finish, a quick note about the top-level `exclude` property - when you've defined a source directory, you may have TypeScript code outside of that directory which you don't want compiled as part of your production code. For example, your test code. The `exclude` array tells the compiler to ignore these TypeScript files during compilation, but still allows tooling like Intellisense to expose potential issues.
+Kabla hatujamaliza, kumbuka kidogo kuhusu sifa ya ngazi ya juu ya `exclude` - wakati umeeleza saraka ya chanzo, unaweza kuwa na msimbo wa TypeScript nje ya saraka hiyo ambao hutaki uandikwe kama sehemu ya msimbo wako wa uzalishaji. Kwa mfano, msimbo wako wa majaribio. Safu ya `exclude` inaambia compiler kuacha kuzingatia faili hizi za TypeScript wakati wa uandikishaji, lakini bado inaruhusu zana kama Intellisense kuonyesha matatizo yanayoweza kutokea.
 
-There are a ton of other compiler options you can explore - over 50! I encourage you to explore the documentation and experiment to find the configuration that works for your project's needs.
+Kuna chaguzi nyingi zaidi za compiler unazoweza kuchunguza - zaidi ya 50! Nakuhimiza uchunguze nyaraka na ujaribu kupata usanidi unaofaa kwa mahitaji ya mradi wako.
 
 # --questions--
 
 ## --text--
 
-Which property in the `tsconfig.json` file affects how the compiler behaves?
+Ni sifa gani katika faili la `tsconfig.json` inayogusa jinsi compiler inavyotenda?
 
 ## --answers--
 
@@ -54,7 +54,7 @@ Which property in the `tsconfig.json` file affects how the compiler behaves?
 
 ### --feedback--
 
-This property is an object containing options for the compiler.
+Sifa hii ni kitu chenye chaguzi za compiler.
 
 ---
 
@@ -66,7 +66,7 @@ This property is an object containing options for the compiler.
 
 ### --feedback--
 
-This property is an object containing options for the compiler.
+Sifa hii ni kitu chenye chaguzi za compiler.
 
 ---
 
@@ -74,7 +74,7 @@ This property is an object containing options for the compiler.
 
 ### --feedback--
 
-This property is an object containing options for the compiler.
+Sifa hii ni kitu chenye chaguzi za compiler.
 
 ## --video-solution--
 
@@ -82,35 +82,35 @@ This property is an object containing options for the compiler.
 
 ## --text--
 
-What does the `strict` option in the `tsconfig.json` file do?
+Chaguo la `strict` katika faili la `tsconfig.json` hufanya nini?
 
 ## --answers--
 
-It only checks for nullable types.
+Linakagua tu aina zinazoweza kuwa na null.
 
 ### --feedback--
 
-This option enables various checks, including handling of nullable types.
+Chaguo hili huwezesha ukaguzi mbalimbali, ikiwa ni pamoja na kushughulikia aina zinazoweza kuwa na null.
 
 ---
 
-It enforces the use of CommonJS modules.
+Linahimiza matumizi ya moduli za CommonJS.
 
 ### --feedback--
 
-This option enables various checks, including handling of nullable types.
+Chaguo hili huwezesha ukaguzi mbalimbali, ikiwa ni pamoja na kushughulikia aina zinazoweza kuwa na null.
 
 ---
 
-It toggles several type-checking options.
+Linabadilisha chaguzi kadhaa za ukaguzi wa aina.
 
 ---
 
-It excludes test files from compilation.
+Linatoa faili za majaribio nje ya uandikishaji.
 
 ### --feedback--
 
-This option enables various checks, including handling of nullable types.
+Chaguo hili huwezesha ukaguzi mbalimbali, ikiwa ni pamoja na kushughulikia aina zinazoweza kuwa na null.
 
 ## --video-solution--
 
@@ -118,35 +118,35 @@ This option enables various checks, including handling of nullable types.
 
 ## --text--
 
-What is the purpose of the `exclude` array in the `tsconfig.json` file?
+Madhumuni ya safu ya `exclude` katika faili la `tsconfig.json` ni yapi?
 
 ## --answers--
 
-To specify which files to compile.
+Kueleza ni faili gani zaandikwe.
 
 ### --feedback--
 
-You can use this to exclude test code from compilation.
+Unaweza kutumia hii kuondoa msimbo wa majaribio katika uandikishaji.
 
 ---
 
-To list additional libraries to include.
+Kutoa orodha ya maktaba za ziada za kuingiza.
 
 ### --feedback--
 
-You can use this to exclude test code from compilation.
+Unaweza kutumia hii kuondoa msimbo wa majaribio katika uandikishaji.
 
 ---
 
-To ignore certain files during compilation.
+Kusahau baadhi ya faili wakati wa uandikishaji.
 
 ---
 
-To define output directories for compiled files.
+Kueleza saraka za matokeo kwa faili zilizotafsiriwa.
 
 ### --feedback--
 
-You can use this to exclude test code from compilation.
+Unaweza kutumia hii kuondoa msimbo wa majaribio katika uandikishaji.
 
 ## --video-solution--
 

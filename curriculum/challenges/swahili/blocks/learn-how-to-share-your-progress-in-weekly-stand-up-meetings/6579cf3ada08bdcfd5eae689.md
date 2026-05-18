@@ -1,6 +1,6 @@
 ---
 id: 6579cf3ada08bdcfd5eae689
-title: Task 5
+title: Zoezi la 5
 challengeType: 19
 dashedName: task-5
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --description--
 
-In this dialogue, Sophie is making a request to Bob. Understanding the nature of her request is essential for effective team communication and collaboration, especially in technical environments where solving problems together is common.
+Katika mazungumzo haya, Sophie anafanya ombi kwa Bob. Kuelewa asili ya ombi lake ni muhimu kwa mawasiliano na ushirikiano mzuri wa timu, hasa katika mazingira ya kiufundi ambapo kutatua matatizo pamoja ni jambo la kawaida.
 
 # --questions--
 
 ## --text--
 
-What is Sophie asking for in her conversation with Bob?
+Sophie anaomba nini katika mazungumzo yake na Bob?
 
 ## --answers--
 
-She's asking for help with a coding problem
+Anamuomba msaada kuhusu tatizo la kuandika programu
 
 ---
 
-She wants Bob to solve the problem for her
+Anataka Bob atatue tatizo hilo kwa niaba yake
 
 ### --feedback--
 
-Sophie is asking for help, not necessarily for Bob to solve it entirely on his own.
+Sophie anaomba msaada, si lazima Bob atatue tatizo hilo peke yake kabisa.
 
 ---
 
-She is offering to help Bob with a problem
+Anatoa msaada kwa Bob kuhusu tatizo fulani
 
 ### --feedback--
 
-Sophie is the one requesting assistance, not offering it.
+Sophie ndiye anayeomba msaada, siyo kutoa msaada.
 
 ---
 
-She's discussing a future project
+Anazungumzia mradi wa baadaye
 
 ### --feedback--
 
-Sophie's request is about a current coding issue she's facing, not a future project.
+Ombi la Sophie linahusu tatizo la sasa la kuandika programu analokumbana nalo, siyo mradi wa baadaye.
 
 ## --video-solution--
 

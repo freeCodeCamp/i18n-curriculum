@@ -1,6 +1,6 @@
 ---
 id: 65a74dae1b3acd9fad3a068e
-title: Task 132
+title: Zoezi la 132
 challengeType: 22
 dashedName: task-132
 lang: en-US
@@ -10,9 +10,9 @@ lang: en-US
 
 # --description--
 
-`To recognize` means to identify someone or something from before, or to acknowledge the existence or validity of something. For example, `I recognize your efforts in completing this project.`
+`To recognize` inamaanisha kumtambua mtu au kitu kutoka zamani, au kutambua kuwepo au uhalali wa kitu. Kwa mfano, `I recognize your efforts in completing this project.`
 
-`Recognition` is the noun form of `recognize` and refers to the act of acknowledging or giving credit to someone for their efforts or achievements. For example, `He received recognition for his innovative work.`
+`Recognition` ni nomino ya `recognize` na inahusu kitendo cha kutambua au kutoa sifa kwa mtu kwa juhudi au mafanikio yake. Kwa mfano, `He received recognition for his innovative work.`
 
 # --fillInTheBlank--
 
@@ -26,7 +26,7 @@ lang: en-US
 
 ### --feedback--
 
-This verb means to perform an activity or exercise repeatedly or regularly in order to improve or maintain one's proficiency.
+Kitenzi hiki kinamaanisha kufanya shughuli au mazoezi mara kwa mara ili kuboresha au kudumisha ujuzi wa mtu.
 
 ---
 
@@ -34,7 +34,7 @@ This verb means to perform an activity or exercise repeatedly or regularly in or
 
 ### --feedback--
 
-This noun refers to the action or process of acknowledging someone's efforts, achievements, or qualities.
+Nomino hii inahusu kitendo au mchakato wa kutambua juhudi, mafanikio, au sifa za mtu.
 
 # --scene--
 

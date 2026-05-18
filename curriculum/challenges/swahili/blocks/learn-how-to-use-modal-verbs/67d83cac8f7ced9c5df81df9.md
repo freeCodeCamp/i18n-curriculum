@@ -1,6 +1,6 @@
 ---
 id: 67d83cac8f7ced9c5df81df9
-title: Task 144
+title: Zoezi la 144
 challengeType: 22
 dashedName: task-144
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Sikiliza sauti na ukamilishe sentensi ifuatayo.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This modal verb expresses possibility or uncertainty about a past event.
+Kitenzi hiki cha modal kinadhihirisha uwezekano au kutokuwa na uhakika kuhusu tukio la zamani.
 
 ---
 
@@ -32,15 +32,15 @@ This modal verb expresses possibility or uncertainty about a past event.
 
 ### --feedback--
 
-This verb is the `Past Perfect` form, used to talk about something that could have happened in the past. Use two words.
+Kitenzi hiki ni aina ya `Past Perfect`, kinachotumika kuzungumzia jambo ambalo linaweza kuwa limetokea zamani. Tumia maneno mawili.
 
-# --explanation--
+# --explanation--  
 
-`Might` expresses possibility.
+`Might` kinadhihirisha uwezekano.  
 
-`Have taken` is the `Past Perfect` form of `take`, used to talk about a possible past action. For example:
+`Have taken` ni aina ya `Past Perfect` ya `take`, kinachotumika kuzungumzia tendo la zamani linaloweza kutokea. Kwa mfano:
 
-`The attacker might have taken sensitive files.` - You don't know for sure, but it is possible.
+`The attacker might have taken sensitive files.` - Hujui kwa hakika, lakini kuna uwezekano.
 
 # --scene--
 

@@ -1,31 +1,31 @@
 ---
 id: 63eeb8e86becbf1e75c2cb0d
-title: Hatua ya 21
+title: Hatua 21
 challengeType: 0
 dashedName: step-21
 ---
 
 # --description--
 
-You now need a total count of each product that the user has in the cart. Declare a `totalCountPerProduct` variable, and assign it an empty object.
+Sasa unahitaji jumla ya kila bidhaa ambayo mtumizi ana katika gari la manunuzi. Tangaza variable ya `totalCountPerProduct`, na weka thamani yake kuwa kitu tupu.
 
 # --hints--
 
-You should declare a `totalCountPerProduct` variable in your `addItem` function.
+Unapaswa kutangaza variable ya `totalCountPerProduct` katika kitendakazi chako cha `addItem`.
 
 ```js
 const cart = new ShoppingCart();
 assert.match(cart.addItem.toString(), /totalCountPerProduct\s*=/);
 ```
 
-You should use `const` to declare `totalCountPerProduct`.
+Unapaswa kutumia `const` kutangaza `totalCountPerProduct`.
 
 ```js
 const afterAdd = code.split("addItem")[1];
 assert.match(afterAdd, /const\s+totalCountPerProduct\s*=/);
 ```
 
-You should assign an empty object to `totalCountPerProduct`.
+Unapaswa kuweka thamani ya kitu tupu kwa `totalCountPerProduct`.
 
 ```js
 const afterAdd = code.split("addItem")[1];

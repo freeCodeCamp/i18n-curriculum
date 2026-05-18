@@ -1,6 +1,6 @@
 ---
 id: 69ae766eb4a814be6a4f2be4
-title: What Is MCP?
+title: MCP ni nini?
 challengeType: 11
 videoId: OaK6n8Yg3fA
 dashedName: what-is-mcp
@@ -8,32 +8,30 @@ dashedName: what-is-mcp
 
 # --description--
 
-In this video, you will continue to learn about MCP.
+Katika video hii, utaendelea kujifunza kuhusu MCP.
 
 # --questions--
 
 ## --text--
 
-What is MCP?
+MCP ni nini?
 
 ## --answers--
 
-A programming language used specifically for AI development.
+Lugha ya programu inayotumika mahsusi kwa ajili ya ukuzaji wa AI.
 
 ---
 
-A cloud platform for hosting AI applications.
+Jukwaa la wingu la kuhudumia programu za AI.
 
 ---
 
-A set of standards that define how AI applications can work with each other.
+Seti ya viwango vinavyoelezea jinsi programu za AI zinavyoweza kushirikiana.
 
 ---
 
-A type of machine learning model for predicting stock prices.
+Aina ya mfano wa kujifunza kwa mashine kwa ajili ya kutabiri bei za hisa.
 
 ## --video-solution--
 
 3
-
-

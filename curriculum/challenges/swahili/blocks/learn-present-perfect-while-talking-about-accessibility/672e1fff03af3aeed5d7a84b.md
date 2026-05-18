@@ -1,6 +1,6 @@
 ---
 id: 672e1fff03af3aeed5d7a84b
-title: Task 117
+title: Zoezi la 117
 challengeType: 19
 dashedName: task-117
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Sikiliza sauti na jibu swali lililopo hapa chini.
 
 # --questions--
 
 ## --text--
 
-What does Anna think about James' ideas, and what does she suggest?
+Anna anafikiri nini kuhusu mawazo ya James, na anapendekeza nini?
 
 ## --answers--
 
-She disagrees with James' ideas and suggests starting a new approach.
+Hana makubaliano na mawazo ya James na anapendekeza kuanzisha njia mpya.
 
 ### --feedback--
 
-Anna expresses agreement with James, not disagreement, and wants to stay updated rather than start over.
+Anna anaonyesha makubaliano na James, si kutokubaliana, na anataka kufuatilia maendeleo badala ya kuanza upya.
 
 ---
 
-She thinks James' ideas are confusing and suggests focusing only on accessibility goals.
+Anafikiri mawazo ya James ni ya kuchanganya na anapendekeza kuzingatia malengo ya ufikikaji pekee.
 
 ### --feedback--
 
-Anna doesn't find James' ideas confusing; she agrees and wants to monitor progress on their shared goals.
+Anna haoni mawazo ya James kama ya kuchanganya; anakubaliana na anataka kufuatilia maendeleo ya malengo yao ya pamoja.
 
 ---
 
-She agrees with James and suggests they stay in contact to monitor progress.
+Anakubaliana na James na anapendekeza waendelee kuwasiliana kufuatilia maendeleo.
 
 ---
 
-She thinks James' ideas are unnecessary and suggests stopping the project.
+Anafikiri mawazo ya James hayahitajiki na anapendekeza kusitisha mradi.
 
 ### --feedback--
 
-Anna doesn't suggest stopping; she supports James' ideas and wants to stay updated.
+Anna hapendekezi kusitisha; anasaidia mawazo ya James na anataka kufuatilia taarifa.
 
 ## --video-solution--
 
@@ -52,7 +52,7 @@ Anna doesn't suggest stopping; she supports James' ideas and wants to stay updat
 
 # --explanation--
 
-Anna agrees with James' approach, saying `That makes sense`, which shows she understands and supports his ideas. She also suggests `keeping in touch to monitor progress`, indicating her interest in staying updated to ensure they reach their shared goals.
+Anna anakubaliana na njia ya James, akisema `That makes sense`, ambayo inaonyesha anaelewa na kuunga mkono mawazo yake. Pia anapendekeza `keeping in touch to monitor progress`, kuonyesha nia yake ya kufuatilia maendeleo ili kuhakikisha wanatimiza malengo yao ya ufikikaji.
 
 # --scene--
 

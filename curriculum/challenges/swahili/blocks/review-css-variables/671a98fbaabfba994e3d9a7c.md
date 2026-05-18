@@ -1,15 +1,15 @@
 ---
 id: 671a98fbaabfba994e3d9a7c
-title: CSS Variables Review
+title: Ukagua wa vigezo vya CSS
 challengeType: 31
 dashedName: review-css-variables
 ---
 
 # --interactive--
 
-## CSS Custom Properties (CSS Variables)
+## Sifa maalum za CSS (vigezo vya CSS)
 
-- **Definition**: CSS custom properties, also known as CSS variables, are entities defined by CSS authors that contain specific values to be reused throughout a document. They are a powerful feature that allows for more efficient, maintainable, and flexible stylesheets. Custom properties are particularly useful in creating themeable designs. You can define a set of properties for different themes:
+- **Ufafanuzi**: Sifa maalum za CSS, zinazojulikana pia kama vigezo vya CSS, ni vitu vilivyoainishwa na waandishi wa CSS vinavyoshikilia thamani maalum zinazotumika tena katika hati nzima. Ni kipengele chenye nguvu kinachoruhusu mitindo kuwa na ufanisi zaidi, rahisi kudumishwa, na yenye kubadilika. Sifa maalum ni muhimu hasa katika kuunda miundo inayoweza kubadilishwa mandhari. Unaweza kuainisha seti ya sifa kwa mandhari tofauti:
 
 ```css
 :root {
@@ -28,9 +28,9 @@ body {
 }
 ```
 
-## The `@property` Rule
+## Sheria ya `@property`
 
-- **Definition**: The `@property` rule is a powerful CSS feature that allows developers to define custom properties with greater control over their behavior, including how they animate and their initial values.
+- **Ufafanuzi**: Sheria ya `@property` ni kipengele chenye nguvu cha CSS kinachomruhusu msanidi programu kuainisha sifa maalum kwa udhibiti mkubwa juu ya tabia zao, ikiwa ni pamoja na jinsi zinavyobadilika kwa uhuishaji na thamani zao za awali.
 
 ```css
 @property --property-name {
@@ -40,10 +40,11 @@ body {
 }
 ```
 
-- **`--property-name`**: This is the name of the custom property you're defining. Like all custom properties, it must start with two dashes. **`syntax`**: This defines the type of the property, which can be things like `<color>`, `<length>`, `<number>`, `<percentage>`, or more complex types.
-- **`inherits`**: This specifies whether the property should inherit its value from its parent element.
-- **`initial-value`**: This sets the default value of the property.
-- **Gradient Example Using the `@property` Rule**: This example creates a gradient that smoothly animates when the element is hovered over.
+- **`--property-name`**: Huu ni jina la sifa maalum unayoainisha. Kama sifa zote maalum, lazima ianze na alama mbili za mnyororo.
+**`syntax`**: Hii inaainisha aina ya sifa, ambayo inaweza kuwa vitu kama `<color>`, `<length>`, `<number>`, `<percentage>`, au aina ngumu zaidi.
+- **`inherits`**: Hii inaeleza kama sifa inapaswa kurithi thamani yake kutoka kwa kipengele mzazi.
+- **`initial-value`**: Hii inaweka thamani ya msingi ya sifa.
+- **Mfano wa mwelekeo wa rangi ukitumia Sheria ya `@property`**: Mfano huu huunda mwelekeo wa rangi unaobadilika kwa uhuishaji taratibu wakati kipengele kinapobofyanwa.
 
 :::interactive_editor
 
@@ -74,7 +75,7 @@ body {
 
 :::
 
-- **Fallbacks**: When using the custom property, you can provide a fallback value using the `var()` function, just as you would with standard custom properties:
+- **Njia mbadala**: Unapotumia sifa maalum, unaweza kutoa thamani ya njia mbadala kwa kutumia kitendakazi cha `var()`, kama unavyofanya na sifa maalum za kawaida:
 
 ```css
 .button {
@@ -84,4 +85,4 @@ body {
 
 # --assignment--
 
-Review the CSS Variables topics and concepts.
+Kagua mada na dhana za vigezo vya CSS.

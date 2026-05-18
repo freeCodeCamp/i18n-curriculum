@@ -1,6 +1,6 @@
 ---
 id: 698de2547932b3cc4b19c939
-title: Evaluating the Runtime of Merge Sort
+title: Kutathmini muda wa utekelezaji wa merge sort
 challengeType: 11
 videoId: QJoIVAzN1LM
 dashedName: evaluating-the-runtime-of-merge-sort
@@ -8,13 +8,13 @@ dashedName: evaluating-the-runtime-of-merge-sort
 
 # --description--
 
-In this video, you will learn about the runtimes for the merge sort algorithm.
+Katika video hii, utafundishwa kuhusu muda wa utekelezaji wa algoriti ya merge sort.
 
 # --questions--
 
 ## --text--
 
-What is the space complexity for merge sort?
+Je, ugumu wa nafasi kwa merge sort ni upi?
 
 ## --answers--
 

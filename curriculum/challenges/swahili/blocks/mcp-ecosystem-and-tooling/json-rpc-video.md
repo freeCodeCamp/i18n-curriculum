@@ -8,32 +8,30 @@ dashedName: json-rpc
 
 # --description--
 
-In this video, you will learn about the JSON-RPC protocol.
+Katika video hii, utafundishwa kuhusu itifaki ya JSON-RPC.
 
 # --questions--
 
 ## --text--
 
-What is the JSON-RPC protocol?
+Itifaki ya JSON-RPC ni nini?
 
 ## --answers--
 
-A protocol for storing large datasets in a vector database.
+Itifaki ya mawasiliano kati ya mteja na seva kwa kutumia ujumbe za JSON.
 
 ---
 
-This defines a standard way for clients and servers to communicate using JSON messages.
+Itifaki ya kuhifadhi seti kubwa za data katika hifadhidata ya vector.
 
 ---
 
-A file format for compressing and encrypting AI model weights.
+Muundo wa faili wa kusindika na kuficha uzito wa modeli za AI.
 
 ---
 
-A markup language used to style web pages and UI components.
+Lugha ya alama inayotumika kupamba ukurasa wa mtandao na sehemu za kiolesura cha mtumiaji.
 
 ## --video-solution--
 
 2
-
-

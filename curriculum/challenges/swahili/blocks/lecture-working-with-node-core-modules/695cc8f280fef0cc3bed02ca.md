@@ -1,27 +1,27 @@
 ---
 id: 695cc8f280fef0cc3bed02ca
-title: What Is the Path Module and How Does It Work?
+title: Moduli ya path ni nini na inafanya kazi vipi?
 challengeType: 19
 dashedName: what-is-the-path-module-and-how-does-it-work
 ---
 
 # --description--
 
-The Node.js `path` module lets you work with files and directory paths. It provides several useful methods for handling and transforming directories, including joining, normalizing, and resolving the directories across different platforms and operating systems.
+Moduli ya Node.js `path` inakuwezesha kufanya kazi na mafaili na njia za saraka. Inatoa njia kadhaa muhimu za kushughulikia na kubadilisha saraka, ikiwa ni pamoja na kuunganisha, kawaisha, na kutatua saraka katika majukwaa na mifumo tofauti ya uendeshaji.
 
-To use the `path` module, you can import it like this:
+Ili kutumia moduli ya `path`, unaweza kuileta (import) hivi:
 
 ```js
 const path = require("path");
 ```
 
-Let's look at some of the methods the `path` module provides and how they work.
+Tuchunguze baadhi ya njia ambazo moduli ya `path` inatoa na jinsi zinavyofanya kazi.
 
-First, you should be aware of the Node.js global variables `__filename` and `__dirname`, AKA "common JS" variables. You don't need the `path` module to access them, which is why they are called global variables.
+Kwanza, unapaswa kujua kuhusu vigezo vya kimataifa vya Node.js `__filename` na `__dirname`, vinavyojulikana pia kama vigezo vya "common JS". Huhitaji moduli ya `path` kupata upatikanaji wake, ndiyo maana huitwa vigezo vya kimataifa.
 
-`__filename` is the absolute path of the current file and `__dirname` is the absolute path of the directory containing the current file.
+`__filename` ni njia kamili ya faili ya sasa na `__dirname` ni njia kamili ya saraka inayoshikilia faili ya sasa.
 
-For example, I have a `script.js` file I'm currently working with. Here's what the two methods return:
+Kwa mfano, nina faili la `script.js` ambalo kwa sasa ninafanya kazi nalo. Hivi ndivyo njia hizo mbili zinavyorudisha:
 
 ```js
 console.log(__filename);
@@ -31,55 +31,55 @@ console.log(__dirname);
 // /Users/user/Desktop/fCC/script-code/node/node-path
 ```
 
-You should also be aware of relative and absolute paths.
+Pia unapaswa kujua kuhusu njia za jamaa na njia kamili.
 
-A relative path points to a file or folder based on your current working directory. For example, `./assets/src/text-files`.
+Njia ya jamaa inaelekeza faili au folda kulingana na saraka yako ya kazi ya sasa. Kwa mfano, `./assets/src/text-files`.
 
-An absolute path, on the other hand, gives the complete address of a file or folder from the root of your system, such as `/Users/johndoe/projects/app/assets/src/text-files.`
+Njia kamili, kwa upande mwingine, hutoa anwani kamili ya faili au folda kutoka mzizi wa mfumo wako, kama `/Users/johndoe/projects/app/assets/src/text-files.`
 
-The `basename()` method shows the last part of the file, that is, the filename:
+Njia ya `basename()` inaonyesha sehemu ya mwisho ya faili, yaani, jina la faili:
 
 ```js
 console.log(path.basename(__filename)); // script.js
 ```
 
-`dirname()` returns the directory name of a path:
+`dirname()` inarudisha jina la saraka la njia:
 
 ```js
 console.log(path.dirname(__dirname)); // node-path
 ```
 
-`extname()` returns the extension of the current file:
+`extname()` inarudisha kiendelezi cha faili ya sasa:
 
 ```js
 console.log(path.extname(__filename)); // .js
 ```
 
-You can also specify a different file to return the extension of:
+Unaweza pia kubainisha faili tofauti ili kurudisha kiendelezi chake:
 
 ```js
 console.log(path.extname('text-files/text1.txt')); // .txt
 ```
 
-The `join()` method takes all the path segments you pass in and joins them into one clean, normalized path. 
+Njia ya `join()` huchukua sehemu zote za njia unazozipatia na kuziunganisha kuwa njia moja safi, iliyokawaishwa.
 
-This could be useful if you want to merge related files in different folders so you can work with them together:
+Hii inaweza kuwa muhimu ikiwa unataka kuunganisha mafaili yanayohusiana katika saraka tofauti ili uweze kufanya kazi nayo pamoja:
 
 ```js
 const joinedPath = path.join("src", "assets", "text-files");
 console.log(joinedPath); // src/assets/text-files
 ```
 
-Windows uses backslashes to separate directories, so the result will be `src\assets\text-files`.
+Windows hutumia mkwaju wa nyuma kutenganisha saraka, hivyo matokeo yatakuwa `src\assets\text-files`.
 
-In addition, the `join()` method automatically fixes wrong slashes and removes extra ones:
+Zaidi ya hayo, njia ya `join()` huondoa mkwaju mbaya na kuondoa ziada:
 
 ```js
 const wrongPath = path.join("/src//", "assets", "text-files");
 console.log(wrongPath); // /src/assets/text-files
 ```
 
-The `resolve()` method turns a sequence of path segments into an absolute path. It starts from your current working directory and results in a full path that points to the exact location on the device:
+Njia ya `resolve()` hubadilisha mfululizo wa sehemu za njia kuwa njia kamili. Huanza kutoka saraka yako ya kazi ya sasa na matokeo yake ni njia kamili inayoweka alama mahali halisi kwenye kifaa:
 
 ```js
 const absolutePath = path.resolve("assets", "src", "text-files");
@@ -87,11 +87,11 @@ console.log(absolutePath);
 // /Users/user/Desktop/fCC/script-code/node/node-path/assets/src/text-files
 ```
 
-The difference between `join()` and `resolve()` is that `join()` creates a relative path, while `resolve()` returns an absolute path.
+Tofauti kati ya `join()` na `resolve()` ni kwamba `join()` huunda njia ya jamaa, wakati `resolve()` inarudisha njia kamili.
 
-Lastly, there are the `parse()` and `format()` methods.
+Mwishowe, kuna njia za `parse()` na `format()`.
 
-`parse()` takes a directory or file and returns an object that contains the breakdown of its parts, such as the system root, its directory, extension, and the filename:
+`parse()` huchukua saraka au faili na kurudisha kitu chenye mgawanyo wa sehemu zake, kama mzizi wa mfumo, saraka yake, kiendelezi, na jina la faili:
 
 ```js
 const parsedFile = path.parse(__filename);
@@ -108,7 +108,7 @@ console.log(parsedFile);
 */
 ```
 
-`format()`, on the other hand, builds a path from an object containing directory, name, and extension:
+`format()`, kwa upande mwingine, huunda njia kutoka kwa kitu chenye saraka, jina, na kiendelezi:
 
 ```js
 const formattedDirectory = path.format({
@@ -124,35 +124,35 @@ console.log(formattedDirectory); // /users/johndoe/docs/file.txt
 
 ## --text--
 
-What is the difference between `path.dirname()` and `path.extname()` in Node.js?
+Tofauti gani kati ya `path.dirname()` na `path.extname()` katika Node.js?
 
 ## --answers--
 
-`dirname()` removes the file extension, while `extname()` removes the directory name.
+`dirname()` huondoa kiendelezi cha faili, wakati `extname()` huondoa jina la saraka.
 
 ### --feedback--
 
-Focus on which one deals with directories and which one deals with file extensions.
+Makini ni ipi inayoshughulikia saraka na ipi inayoshughulikia viendelezi vya faili.
 
 ---
 
-`dirname()` returns the full file path, while `extname()` returns the directory name.
+`dirname()` inarudisha njia kamili ya faili, wakati `extname()` inarudisha jina la saraka.
 
 ### --feedback--
 
-Focus on which one deals with directories and which one deals with file extensions.
+Makini ni ipi inayoshughulikia saraka na ipi inayoshughulikia viendelezi vya faili.
 
 ---
 
-`dirname()` returns the directory name of a path, while `extname()` returns the file's extension.
+`dirname()` inarudisha jina la saraka la njia, wakati `extname()` inarudisha kiendelezi cha faili.
 
 ---
 
-`dirname()` and `extname()` both return the same value but in different formats.
+`dirname()` na `extname()` zote hurejesha thamani ile ile lakini kwa miundo tofauti.
 
 ### --feedback--
 
-Focus on which one deals with directories and which one deals with file extensions.
+Makini ni ipi inayoshughulikia saraka na ipi inayoshughulikia viendelezi vya faili.
 
 ## --video-solution--
 
@@ -160,7 +160,7 @@ Focus on which one deals with directories and which one deals with file extensio
 
 ## --text--
 
-Which `path` method builds a complete file path from an object containing directory, name, and extension properties?
+Ni njia gani ya `path` huunda njia kamili ya faili kutoka kwa kitu chenye vigezo vya saraka, jina, na kiendelezi?
 
 ## --answers--
 
@@ -168,7 +168,7 @@ Which `path` method builds a complete file path from an object containing direct
 
 ### --feedback--
 
-Think about what the opposite of `parse()` is.
+Fikiria ni nini kinyume cha `parse()`.
 
 ---
 
@@ -180,7 +180,7 @@ Think about what the opposite of `parse()` is.
 
 ### --feedback--
 
-Think about what the opposite of `parse()` is.
+Fikiria ni nini kinyume cha `parse()`.
 
 ---
 
@@ -188,7 +188,7 @@ Think about what the opposite of `parse()` is.
 
 ### --feedback--
 
-Think about what the opposite of `parse()` is.
+Fikiria ni nini kinyume cha `parse()`.
 
 ## --video-solution--
 
@@ -196,35 +196,35 @@ Think about what the opposite of `parse()` is.
 
 ## --text--
 
-What do the Node.js global variables `__filename` and `__dirname` provide access to?
+Vigezo vya kimataifa vya Node.js `__filename` na `__dirname` vinatoa upatikanaji wa nini?
 
 ## --answers--
 
-The absolute path of the current file and its containing directory.
+Njia kamili ya faili ya sasa na saraka inayoshikilia faili hiyo.
 
 ---
 
-The name of the current module and its dependencies.
+Jina la moduli ya sasa na utegemezi wake.
 
 ### --feedback--
 
-Think about which variables automatically give you full file and folder paths without using the path module.
+Fikiria ni vigezo gani vinakupa njia kamili za faili na saraka moja kwa moja bila kutumia moduli ya path.
 
 ---
 
-The relative path to the Node.js installation directory.
+Njia ya jamaa kuelekea saraka ya usakinishaji ya Node.js.
 
 ### --feedback--
 
-Think about which variables automatically give you full file and folder paths without using the path module.
+Fikiria ni vigezo gani vinakupa njia kamili za faili na saraka moja kwa moja bila kutumia moduli ya path.
 
 ---
 
-The URL of the running web server and its hostname.
+URL ya seva ya mtandao inayotumika na jina la mwenyeji wake.
 
 ### --feedback--
 
-Think about which variables automatically give you full file and folder paths without using the path module.
+Fikiria ni vigezo gani vinakupa njia kamili za faili na saraka moja kwa moja bila kutumia moduli ya path.
 
 ## --video-solution--
 

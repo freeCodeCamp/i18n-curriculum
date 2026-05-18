@@ -1,6 +1,6 @@
 ---
 id: 68249d79d4ddca45eff7fafd
-title: Task 144
+title: Zoezi la 144
 challengeType: 19
 dashedName: task-144
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Sikiliza sauti na jibu swali hapa chini.
 
 # --questions--
 
 ## --text--
 
-What does Jessica plan to do with the information?
+Jessica anapanga kufanya nini na taarifa hizo?
 
 ## --answers--
 
-Ignore it for now and wait for more feedback.
+Zisahau kwa sasa na subiri maoni zaidi.
 
 ### --feedback--
 
-Jessica says she will organize the information and share it, not ignore it.
+Jessica anasema atapanga taarifa na kuishirikisha, si kuisahau.
 
 ---
 
-Organize it into a report and discuss it with others.
+Panga taarifa hizo katika ripoti na zungumze na wengine.
 
 ---
 
-Ask users to test it again before making changes.
+Waombe watumizi kujaribu tena kabla ya kufanya mabadiliko.
 
 ### --feedback--
 
-She does not mention anything about retesting or user feedback.
+Hakusema chochote kuhusu kujaribu tena au maoni ya watumizi.
 
 ---
 
-Send it directly to the client without review.
+Tuma moja kwa moja kwa mteja bila kupitia ukaguzi.
 
 ### --feedback--
 
-Jessica plans to talk with her team first, not send it straight to a client.
+Jessica anapanga kuzungumza na timu yake kwanza, si kutuma moja kwa moja kwa mteja.
 
 ## --video-solution--
 
@@ -52,9 +52,9 @@ Jessica plans to talk with her team first, not send it straight to a client.
 
 # --explanation--
 
-Jessica says she will `put all this information into a report` and `talk about it with the team tomorrow`. This shows she plans to organize the details and have a discussion with her team.
+Jessica anasema atakuwa `put all this information into a report` na `talk about it with the team tomorrow`. Hii inaonyesha anapanga kupanga maelezo na kuzungumza na timu yake.
 
-She also says the feedback `should help`, meaning it will guide their next steps.
+Anasema pia maoni `should help`, ikimaanisha yatasaidia kuelekeza hatua zao zinazofuata.
 
 # --scene--
 

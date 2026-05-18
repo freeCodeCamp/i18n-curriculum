@@ -1,6 +1,6 @@
 ---
 id: 679aa5040bedaccedf33d6d8
-title: Task 45
+title: Zoezi la 45
 challengeType: 19
 dashedName: task-45
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Sikiliza sauti na jibu swali lililopo hapa chini.
 
 # --questions--
 
 ## --text--
 
-Why does Brian think it's not good when everyone thinks alike?
+Kwa nini Brian anadhani si nzuri wakati kila mtu anafikiri kwa njia ile ile?
 
 ## --answers--
 
-Because they might overlook important details.
+Kwa sababu wanaweza kupuuzia maelezo muhimu.
 
 ---
 
-Because it would make decision-making faster.
+Kwa sababu ingefanya maamuzi kuwa ya haraka zaidi.
 
 ### --feedback--
 
-Brian is not saying that agreement is beneficial.
+Brian hasemi kwamba makubaliano ni ya manufaa.
 
 ---
 
-Because disagreements always cause problems.
+Kwa sababu mizozo daima husababisha matatizo.
 
 ### --feedback--
 
-Brian is actually saying that some disagreement is useful, not that it causes problems.
+Brian anasema kwamba mizozo fulani ni ya manufaa, si kwamba husababisha matatizo.
 
 ---
 
-Because no one would share their opinions.
+Kwa sababu hakuna mtu angegawisha maoni yao.
 
 ### --feedback--
 
-Brian isn't talking about people refusing to share their opinions.
+Brian hasemi kuhusu watu kukataa kugawisha maoni yao.
 
 ## --video-solution--
 
@@ -52,11 +52,11 @@ Brian isn't talking about people refusing to share their opinions.
 
 # --explanation--
 
-The structure `if + verb in the Simple Past` followed by `might` in the consequence clause is used to describe a hypothetical situation with a possible outcome. For example:
+Muundo `if + verb in the Simple Past` ukifuatiwa na `might` katika kifungu cha matokeo hutumika kuelezea hali ya dhana yenye matokeo yanayowezekana. Kwa mfano:
 
-`If you studied more, you might pass the exam.` - This means there is a possibility of passing if the person studies more.
+`If you studied more, you might pass the exam.` - Hii ina maana kuna uwezekano wa kupita ikiwa mtu atajifunza zaidi.
 
-In this dialogue, `If we all agreed on everything, we might miss important details` expresses a possible negative consequence of complete agreement.
+Katika mazungumzo haya, `If we all agreed on everything, we might miss important details` inaonyesha matokeo mabaya yanayowezekana ya makubaliano kamili.
 
 # --scene--
 

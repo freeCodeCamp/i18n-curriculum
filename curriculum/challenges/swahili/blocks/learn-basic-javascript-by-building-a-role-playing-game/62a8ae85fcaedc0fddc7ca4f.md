@@ -1,43 +1,42 @@
 ---
 id: 62a8ae85fcaedc0fddc7ca4f
-title: Step 59
+title: Hatua 59
 challengeType: 0
 dashedName: step-59
 ---
 
 # --description--
 
-Add a second object to your `locations` array (remember to separate them with a comma). Following the pattern you used in the first object, create the same properties but use the values from the `goStore` function. Set the `name` property to `store`.
+Ongeza kitu cha pili kwenye safu ya data `locations` yako (kumbuka kuvitenganisha kwa koma). Kufuatia muundo uliotumia kwenye kitu cha kwanza, tengeneza sifa sawa lakini tumia thamani kutoka kwa kitendakazi `goStore`. Weka sifa ya `name` kuwa `store`.
 
 # --hints--
 
-Your `locations` array should have two values.
+Safu ya data `locations` inapaswa kuwa na thamani mbili.
 
 ```js
 assert.lengthOf(locations, 2);
 ```
 
-Both `locations` values should be objects.
-
+Thamani zote za `locations` zinapaswa kuwa vitu.
 
 ```js
 assert.isObject(locations[0]);
 assert.isObject(locations[1]);
 ```
 
-Your second `locations` object should have a `name` property with the value of `store`.
+Kitu chako cha pili cha `locations` kinapaswa kuwa na sifa ya `name` yenye thamani ya `store`.
 
 ```js
 assert.equal(locations[1].name, "store");
 ```
 
-Your second `locations` object should have a `button text` property which is an array.
+Kitu chako cha pili cha `locations` kinapaswa kuwa na sifa ya `button text` ambayo ni safu ya data.
 
 ```js
 assert.isArray(locations[1]["button text"]);
 ```
 
-Your `button text` property should have the string values `"Buy 10 health (10 gold)"`, `"Buy weapon (30 gold)"`, and `"Go to town square"`.
+Sifa yako ya `button text` inapaswa kuwa na mfuatano wa herufi wenye thamani `"Buy 10 health (10 gold)"`, `"Buy weapon (30 gold)"`, na `"Go to town square"`.
 
 ```js
 assert.equal(locations[1]["button text"][0], "Buy 10 health (10 gold)");
@@ -45,13 +44,13 @@ assert.equal(locations[1]["button text"][1], "Buy weapon (30 gold)");
 assert.equal(locations[1]["button text"][2], "Go to town square");
 ```
 
-Your second `locations` object should have a `button functions` property which is an array.
+Kitu chako cha pili cha `locations` kinapaswa kuwa na sifa ya `button functions` ambayo ni safu ya data.
 
 ```js
 assert.isArray(locations[1]["button functions"]);
 ```
 
-Your `button functions` property should have the function values `buyHealth`, `buyWeapon`, and `goTown`.
+Sifa yako ya `button functions` inapaswa kuwa na thamani za kitendakazi `buyHealth`, `buyWeapon`, na `goTown`.
 
 ```js
 assert.equal(locations[1]["button functions"][0], buyHealth);
@@ -59,19 +58,19 @@ assert.equal(locations[1]["button functions"][1], buyWeapon);
 assert.equal(locations[1]["button functions"][2], goTown);
 ```
 
-Your second `locations` object should have a `text` property which is a string.
+Kitu chako cha pili cha `locations` kinapaswa kuwa na sifa ya `text` ambayo ni mfuatano wa herufi.
 
 ```js
 assert.isString(locations[1].text);
 ```
 
-Your second `locations` object should have a `text` property with the value of `"You enter the store."`.
+Kitu chako cha pili cha `locations` kinapaswa kuwa na sifa ya `text` yenye thamani ya `"You enter the store."`.
 
 ```js
 assert.equal(locations[1].text, "You enter the store.");
 ```
 
-You should not modify the first `locations` object.
+Hupaswi kubadilisha kitu cha kwanza cha `locations`.
 
 ```js
 assert.deepEqual(locations[0], {

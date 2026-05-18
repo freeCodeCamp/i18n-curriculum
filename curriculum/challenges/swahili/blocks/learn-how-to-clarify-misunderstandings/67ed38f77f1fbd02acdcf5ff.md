@@ -1,6 +1,6 @@
 ---
 id: 67ed38f77f1fbd02acdcf5ff
-title: Task 53
+title: Zoezi la 53
 challengeType: 22
 dashedName: task-53
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Sikiliza sauti na ukamilishe sentensi iliyo hapa chini.
 
 # --fillInTheBlank--
 
@@ -24,13 +24,13 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This two-word phrase is used to ask about what is happening or what the situation is. The first word ends with `-ing`.
+Usemi huu wa maneno mawili hutumika kuuliza kuhusu kinachoendelea au hali ilivyo. Neno la kwanza linaishia na `-ing`.
 
 # --explanation--
 
-`What's going on?` is a common way to ask someone what is happening, what the situation is, or what problem or event is taking place. For example:
+`What's going on?` ni njia ya kawaida ya kumuuliza mtu kinachoendelea, hali ilivyo, au tatizo au tukio linalotokea. Kwa mfano:
 
-`What's going on at the meeting?` – Someone is asking what is happening during the meeting.
+`What's going on at the meeting?` – Mtu anauliza kinachoendelea wakati wa mkutano.
 
 # --scene--
 

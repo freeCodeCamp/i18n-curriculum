@@ -1,13 +1,13 @@
 ---
 id: 672bc4ff5e7a4bbdee8ba013
-title: What Are Named Colors in CSS, and When to Use Them?
+title: "Ni rangi gani zilizotajwa kwa jina katika CSS, na lini kuzitumia?"
 challengeType: 19
 dashedName: what-are-named-colors-in-css
 ---
 
 # --interactive--
 
-In CSS, colors play a crucial role in designing web pages, enhancing readability, setting the mood, and improving user experience. One of the simplest ways to define colors in CSS is by using named colors. Named colors are predefined color names recognized by browsers. Here is an example of using a named color for a paragraph element:
+Katika CSS, rangi zina jukumu muhimu katika kubuni ukurasa wa mtandao, kuboresha usomaji, kuweka hisia, na kuboresha uzoefu wa mtumizi. Njia moja rahisi ya kufafanua rangi katika CSS ni kwa kutumia rangi zilizotajwa kwa jina. Rangi zilizotajwa kwa jina ni majina ya rangi yaliyotangazwa awali yanayotambulika na vivinjari. Hapa kuna mfano wa kutumia rangi iliyotajwa kwa jina kwa kipengele cha aya:
 
 :::interactive_editor
 
@@ -24,11 +24,11 @@ p {
 
 :::
 
-In this example, we're using the named color `red` to style the text in a paragraph.
+Katika mfano huu, tunatumia rangi iliyotajwa kwa jina `red` kupamba maandishi katika aya.
 
-Named colors in CSS are a collection of 140 standard color names like `red`, `blue`, `yellow`, `aqua`, `fuchsia`, `black`, and so on. These names are simple to use and make your code more readable, and they are self-descriptive.
+Rangi zilizotajwa kwa jina katika CSS ni mkusanyiko wa majina 140 ya kawaida ya rangi kama `red`, `blue`, `yellow`, `aqua`, `fuchsia`, `black`, na kadhalika. Majina haya ni rahisi kutumia na hufanya msimbo wako usomeke zaidi, na pia yanaelezea yenyewe.
 
-Named colors are useful for quick prototyping, simple designs, and improving code readability. Here is an another example of using named colors for an `h1` selector:
+Rangi zilizotajwa kwa jina ni muhimu kwa ajili ya kuunda mfano wa haraka, miundo rahisi, na kuboresha usomaji wa msimbo. Hapa kuna mfano mwingine wa kutumia rangi zilizotajwa kwa jina kwa kichaguzi cha `h1`:
 
 :::interactive_editor
 
@@ -46,47 +46,47 @@ h1 {
 
 :::
 
-In this example, the heading text will be styled in navy, with a light gray background. The readability of the code improves since named colors provide an immediate visual understanding of the intended style.
+Katika mfano huu, maandishi ya kichwa cha sehemu yatapambwa kwa rangi ya navy, na nyuma kuwa na rangi ya kijivu nyepesi. Usomaji wa msimbo unaboreshwa kwa sababu rangi zilizotajwa kwa jina hutoa ufahamu wa haraka wa mtindo unaokusudiwa.
 
-Named colors in CSS are convenient but limited, with only 140 available options. They may not offer the precise shade needed for more detailed designs.
+Rangi zilizotajwa kwa jina katika CSS ni rahisi lakini zina mipaka, kwa kuwa kuna chaguzi 140 tu zinazopatikana. Huenda zisitoe kivuli sahihi kinachohitajika kwa miundo ya kina zaidi.
 
-Named colors in CSS are a great way to apply colors quickly and descriptively. While they are useful for basic designs, prototyping, and improving code readability, their limited range makes them less suitable for complex designs requiring precise color control.
+Rangi zilizotajwa kwa jina katika CSS ni njia nzuri ya kutumia rangi haraka na kwa kueleweka. Ingawa ni muhimu kwa miundo ya msingi, kuunda mfano, na kuboresha usomaji wa msimbo, wigo wao mdogo hufanya zisifae kwa miundo tata inayohitaji udhibiti wa rangi kwa usahihi.
 
-By understanding the strengths and limitations of named colors, you can determine when it’s best to use them over more detailed color models like RGB or HSL, which you will learn about in future lessons.
+Kwa kuelewa nguvu na mipaka ya rangi zilizotajwa kwa jina, unaweza kuamua ni lini ni bora kuzitumia badala ya mifano ya rangi ya kina kama RGB au HSL, ambayo utajifunza kuhusu katika funzo zijazo.
 
 # --questions--
 
 ## --text--
 
-What is a key benefit of using named colors in CSS?
+Ni faida gani kuu ya kutumia rangi zilizotajwa kwa jina katika CSS?
 
 ## --answers--
 
-Named colors allow you to create gradients.
+Rangi zilizotajwa kwa jina zinakuwezesha kuunda mchanganyiko wa rangi.
 
 ### --feedback--
 
-Think about the simplicity and readability aspect of named colors.
+Fikiria kuhusu urahisi na usomaji wa rangi zilizotajwa kwa jina.
 
 ---
 
-Named colors are simpler to write and make code more readable.
+Rangi zilizotajwa kwa jina ni rahisi kuandika na hufanya msimbo usomeke zaidi.
 
 ---
 
-Named colors provide a wider range of color options than hex codes.
+Rangi zilizotajwa kwa jina hutoa wigo mpana zaidi wa chaguzi za rangi kuliko nambari za hex.
 
 ### --feedback--
 
-Think about the simplicity and readability aspect of named colors.
+Fikiria kuhusu urahisi na usomaji wa rangi zilizotajwa kwa jina.
 
 ---
 
-Named colors are the most precise way to define colors in web design.
+Rangi zilizotajwa kwa jina ni njia sahihi zaidi ya kufafanua rangi katika muundo wa mtandao.
 
 ### --feedback--
 
-Think about the simplicity and readability aspect of named colors.
+Fikiria kuhusu urahisi na usomaji wa rangi zilizotajwa kwa jina.
 
 ## --video-solution--
 
@@ -94,35 +94,35 @@ Think about the simplicity and readability aspect of named colors.
 
 ## --text--
 
-In what scenario might named colors not be the best choice?
+Katika hali gani rangi zilizotajwa kwa jina huenda zisiwe chaguo bora?
 
 ## --answers--
 
-When you need to quickly prototype a design.
+Unapohitaji kuunda mfano wa haraka wa muundo.
 
 ### --feedback--
 
-Think about the limitations of named colors in more complex designs.
+Fikiria kuhusu mipaka ya rangi zilizotajwa kwa jina katika miundo tata zaidi.
 
 ---
 
-When your design requires very specific or nuanced shades of color.
+Unapokuwa na muundo unaohitaji kivuli maalum au cha kina cha rangi.
 
 ---
 
-When your design involves only primary colors.
+Unapokuwa na muundo unaohusisha rangi za msingi tu.
 
 ### --feedback--
 
-Think about the limitations of named colors in more complex designs.
+Fikiria kuhusu mipaka ya rangi zilizotajwa kwa jina katika miundo tata zaidi.
 
 ---
 
-When collaborating with others on a simple project.
+Unaposhirikiana na wengine katika mradi rahisi.
 
 ### --feedback--
 
-Think about the limitations of named colors in more complex designs.
+Fikiria kuhusu mipaka ya rangi zilizotajwa kwa jina katika miundo tata zaidi.
 
 ## --video-solution--
 
@@ -130,7 +130,7 @@ Think about the limitations of named colors in more complex designs.
 
 ## --text--
 
-Which of the following is an example of a named color in CSS?
+Ni ipi kati ya zifuatazo ni mfano wa rangi iliyotajwa kwa jina katika CSS?
 
 ## --answers--
 
@@ -138,7 +138,7 @@ Which of the following is an example of a named color in CSS?
 
 ### --feedback--
 
-Named colors are descriptive words, not numerical codes.
+Rangi zilizotajwa kwa jina ni maneno yanayoelezea, si nambari.
 
 ---
 
@@ -146,7 +146,7 @@ Named colors are descriptive words, not numerical codes.
 
 ### --feedback--
 
-Named colors are descriptive words, not numerical codes.
+Rangi zilizotajwa kwa jina ni maneno yanayoelezea, si nambari.
 
 ---
 
@@ -158,7 +158,7 @@ Named colors are descriptive words, not numerical codes.
 
 ### --feedback--
 
-Named colors are descriptive words, not numerical codes.
+Rangi zilizotajwa kwa jina ni maneno yanayoelezea, si nambari.
 
 ## --video-solution--
 

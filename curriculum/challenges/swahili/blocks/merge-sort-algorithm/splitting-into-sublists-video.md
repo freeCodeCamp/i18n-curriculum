@@ -1,6 +1,6 @@
 ---
 id: 698ddca77932b3cc4b19c936
-title: Splitting Into Sublists
+title: Kugawanya kuwa Orodha ndogo ndogo
 challengeType: 11
 videoId: HBzKVr-AwjQ
 dashedName: splitting-into-sublists
@@ -8,29 +8,29 @@ dashedName: splitting-into-sublists
 
 # --description--
 
-In this video, you will learn more about the merge sort algorithm and how to split a list into sublists.
+Katika video hii, utafundishwa zaidi kuhusu algoriti ya merge sort na jinsi ya kugawanya orodha kuwa orodha ndogo ndogo.
 
 # --questions--
 
 ## --text--
 
-What does splitting the list into sublists represent in the merge sort algorithm?
+Kugawanya orodha kuwa orodha ndogo ndogo kunawakilisha nini katika algoriti ya merge sort?
 
 ## --answers--
 
-It represents the sort step.
+Kunawakilisha hatua ya kupanga.
 
 ---
 
-It represents the merge step.
+Kunawakilisha hatua ya kuunganisha.
 
 ---
 
-It represents the conquer step.
+Kunawakilisha hatua ya kushinda.
 
 ---
 
-It represents the divide step.
+Kunawakilisha hatua ya kugawanya.
 
 ## --video-solution--
 

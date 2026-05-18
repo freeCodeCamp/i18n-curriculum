@@ -1,23 +1,23 @@
 ---
 id: 655b4bbff1dbf66cb2ed4dac
-title: Hatua ya 97
+title: Hatua 97
 challengeType: 0
 dashedName: step-97
 ---
 
 # --description--
 
-Use an `if` statement to check if `nextSongExists` exists, then call the `playNextSong()` function in the `if` block. This will automatically play the next song when the current song ends.
+Tumia tamko la `if` kuangalia kama `nextSongExists` ipo, kisha fanya wito wa kitendakazi cha `playNextSong()` ndani ya kipande cha `if`. Hii itacheza moja kwa moja wimbo unaofuata wakati wimbo wa sasa unapomalizika.
 
 # --hints--
 
-You should create an `if` statement with the condition `nextSongExists`.
+Unapaswa kuunda tamko la `if` lenye sharti la `nextSongExists`.
 
 ```js
 assert.match(code, /if\s*\(\s*nextSongExists\s*\)\s*\{\s*/)
 ```
 
-You should call the `playNextSong` function inside your `if` statement.
+Unapaswa kuita kitendakazi cha `playNextSong` ndani ya tamko lako la `if`.
 
 ```js
 assert.match(code, /if\s*\(\s*nextSongExists\s*\)\s*\{\s*playNextSong\(\s*\)\s*;?\s*\}/)
@@ -596,7 +596,7 @@ const playSong = (id) => {
 
 const pauseSong = () => {
   userData.songCurrentTime = audio.currentTime;
-
+  
   playButton.classList.remove("playing");
   audio.pause();
 };

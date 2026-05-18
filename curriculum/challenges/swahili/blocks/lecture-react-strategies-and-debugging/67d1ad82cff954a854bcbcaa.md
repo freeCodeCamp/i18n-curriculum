@@ -1,23 +1,23 @@
 ---
 id: 67d1ad82cff954a854bcbcaa
-title: What Is Prop Drilling?
+title: "Je, Prop Drilling ni Nini?"
 challengeType: 19
 dashedName: what-is-prop-drilling
 ---
 
 # --description--
 
-Prop drilling is the most basic approach to state management in React applications. It looks simple, but can get messy quickly, and is very hard to scale.
+Prop drilling ni njia ya msingi kabisa ya usimamizi wa state katika programu za React. Inaonekana rahisi, lakini inaweza kuwa ngumu haraka, na ni vigumu sana kuipanua.
 
-Let's look at what prop drilling is, why it's a problem, and a good replacement for it as an application grows.
+Tuchunguze ni nini prop drilling, kwa nini ni tatizo, na mbadala mzuri wa kutumia kadri programu inavyokua.
 
-Prop drilling is the process of passing props from a parent component to deeply nested child components, even when some of the child components don't need the props.
+Prop drilling ni mchakato wa kupitisha vigezo kutoka sehemu ya mzazi hadi sehemu za watoto zilizopangwa ndani kwa kina, hata wakati baadhi ya sehemu za watoto hazihitaji vigezo hivyo.
 
-For example, say you have three components named `Parent`, `Child`, and `Grandchild`. If you want to use some data in the `Grandchild` component, but it's in the `Parent` component, you'd need to pass it from the `Parent` to the `Child` component, then from the `Child` to the `Grandchild` component.
+Kwa mfano, sema una sehemu tatu zinazoitwa `Parent`, `Child`, na `Grandchild`. Ikiwa unataka kutumia data fulani katika sehemu ya `Grandchild`, lakini data hiyo iko katika sehemu ya `Parent`, unahitaji kuipitisha kutoka sehemu ya `Parent` hadi `Child`, kisha kutoka `Child` hadi `Grandchild`.
 
-Or if the data is even further up the chain, the data might have to be passed to the `Parent` component, too.
+Au kama data iko hata juu zaidi katika mnyororo, data hiyo inaweza kuhitajika kupitishwa hadi sehemu ya `Parent` pia.
 
-Here, the data I want to display is the string `Hello, Prop Drilling!`. It's assigned to the `greeting` variable in the root `App` component:
+Hapa, data ninayotaka kuonyesha ni mfuatano wa herufi `Hello, Prop Drilling!`. Imepewa thamani katika kigezo `greeting` katika sehemu ya mzizi `App`:
 
 ```jsx
 import "./App.css";
@@ -32,7 +32,7 @@ function App() {
 export default App;
 ```
 
-You can see the `Parent` component is also receiving the `greeting` variable as the value of a `greeting` prop. Here's the `Parent` component passing it into the `Child` component as the value of another `greeting` prop in the `Child`:
+Unaweza kuona sehemu ya `Parent` pia inapokea kigezo `greeting` kama thamani ya prop `greeting`. Hapa sehemu ya `Parent` inakipitisha ndani ya sehemu ya `Child` kama thamani ya prop nyingine `greeting` katika `Child`:
 
 ```jsx
 import Child from "./Child";
@@ -44,7 +44,7 @@ const Parent = ({ greeting }) => {
 export default Parent;
 ```
 
-And here's the `Child` component that passes it to the `Grandchild` component:
+Na hapa sehemu ya `Child` inakipitisha hadi sehemu ya `Grandchild`:
 
 ```jsx
 import Grandchild from "./Grandchild";
@@ -56,7 +56,7 @@ const Child = ({ greeting }) => {
 export default Child;
 ```
 
-And finally the `Grandchild` component receives the greeting and uses it as the content of an `h1` element:
+Na hatimaye sehemu ya `Grandchild` inapokea salamu na kuitumia kama maudhui ya kipengele cha `h1`:
 
 ```jsx
 const Grandchild = ({ greeting }) => {
@@ -66,13 +66,13 @@ const Grandchild = ({ greeting }) => {
 export default Grandchild;
 ```
 
-In the browser, you'll see a page with a single `h1` element that has the text `Hello, Prop Drilling!`.
+Kwenye kivinjari, utaona ukurasa wenye kipengele kimoja cha `h1` chenye maandishi `Hello, Prop Drilling!`.
 
-At first, prop drilling might not seem like such a big deal. But as your app grows, it gets harder to understand, debug, and maintain.
+Mwanzo, prop drilling huenda haionekani kama tatizo kubwa. Lakini kadri programu yako inavyokua, huwa vigumu kuelewa, kutafuta makosa, na kuitunza.
 
-If you need to pass props around, try to keep them all in a single parent component. This approach of centralizing all necessary data is called the "single source of truth".
+Ikiwa unahitaji kupitisha vigezo, jaribu kuviweka vyote katika sehemu moja ya mzazi. Njia hii ya kuweka data zote muhimu mahali pamoja huitwa "chanzo kimoja cha ukweli".
 
-For instance, say you want to add a new `response` to go with your `greeting`, and that you want to use both of them in the `Grandchild` component. Since `greeting` is already in the `App` component, it makes sense to put `response` there, too, and pass both of them down the chain:
+Kwa mfano, sema unataka kuongeza `response` mpya kuambatana na `greeting`, na unataka kutumia zote mbili katika sehemu ya `Grandchild`. Kwa kuwa `greeting` tayari iko katika sehemu ya `App`, ni busara kuweka `response` hapo pia, na kuzipitisha zote mbili mnyororo:
 
 ```jsx
 function App() {
@@ -102,45 +102,45 @@ const Grandchild = ({ greeting, response }) => {
 export default App;
 ```
 
-In the browser, you'll see a page with an `h1` element that has the text `Hello, Prop Drilling!` and an `h2` element that has the text `I'm not here to play!`.
+Kwenye kivinjari, utaona ukurasa wenye kipengele cha `h1` chenye maandishi `Hello, Prop Drilling!` na kipengele cha `h2` chenye maandishi `I'm not here to play!`.
 
-To avoid prop drilling, especially in large, complex applications, consider using the Context API or state management libraries like Redux and Redux Toolkit, Zustand, Recoil, and others.
+Ili kuepuka prop drilling, hasa katika programu kubwa na ngumu, fikiria kutumia Context API au maktaba za usimamizi wa state kama Redux na Redux Toolkit, Zustand, Recoil, na nyinginezo.
 
-You'll learn more about these in the coming lessons.
+Utajifunza zaidi kuhusu hizi katika mafundisho yajayo.
 
 # --questions--
 
 ## --text--
 
-How would a prop flow from a parent to a grandchild component?
+Je, prop hupitiaje kutoka kwa mzazi hadi sehemu ya mtoto wa mtoto?
 
 ## --answers--
 
-By defining the prop inside the grandchild component.
+Kwa kuainisha prop ndani ya sehemu ya mtoto wa mtoto.
 
 ### --feedback--
 
-The prop must go through the child before reaching the grandchild.
+Prop lazima ipitie sehemu ya mtoto kabla haijafika kwa mtoto wa mtoto.
 
 ---
 
-By passing it from parent to child, then from child to grandchild.
+Kwa kuipitisha kutoka kwa mzazi hadi mtoto, kisha kutoka mtoto hadi mtoto wa mtoto.
 
 ---
 
-By using the `useEffect` hook to fetch the prop dynamically.
+Kwa kutumia hook ya `useEffect` kupata prop kwa njia ya mabadiliko.
 
 ### --feedback--
 
-The prop must go through the child before reaching grandchild.
+Prop lazima ipitie sehemu ya mtoto kabla haijafika kwa mtoto wa mtoto.
 
 ---
 
-By using the `useState` hook in the grandchild.
+Kwa kutumia hook ya `useState` katika sehemu ya mtoto wa mtoto.
 
 ### --feedback--
 
-The prop must go through the child before reaching grandchild.
+Prop lazima ipitie sehemu ya mtoto kabla haijafika kwa mtoto wa mtoto.
 
 ## --video-solution--
 
@@ -148,35 +148,35 @@ The prop must go through the child before reaching grandchild.
 
 ## --text--
 
-What is prop drilling in React?
+Prop drilling ni nini katika React?
 
 ## --answers--
 
-Passing props directly to only the components that need them.
+Kupitisha vigezo moja kwa moja kwa sehemu zinazohitaji tu.
 
 ### --feedback--
 
-It happens when props are passed through multiple levels unnecessarily.
+Hutokea wakati vigezo vinapitishwa kupitia ngazi nyingi bila sababu.
 
 ---
 
-Using context to share state between components.
+Kutumia context kushirikisha state kati ya sehemu.
 
 ### --feedback--
 
-It happens when props are passed through multiple levels unnecessarily.
+Hutokea wakati vigezo vinapitishwa kupitia ngazi nyingi bila sababu.
 
 ---
 
-Passing props from a parent to deeply nested child components.
+Kupitisha vigezo kutoka kwa mzazi hadi sehemu za watoto zilizopangwa ndani kwa kina.
 
 ---
 
-Drilling down into component state using hooks.
+Kupitia ndani ya state ya sehemu kwa kutumia hooks.
 
 ### --feedback--
 
-It happens when props are passed through multiple levels unnecessarily.
+Hutokea wakati vigezo vinapitishwa kupitia ngazi nyingi bila sababu.
 
 ## --video-solution--
 
@@ -184,35 +184,35 @@ It happens when props are passed through multiple levels unnecessarily.
 
 ## --text--
 
-Why is prop drilling considered a problem in larger applications?
+Kwa nini prop drilling huonekana kama tatizo katika programu kubwa?
 
 ## --answers--
 
-It makes it easier to manage state.
+Hufanya iwe rahisi kusimamia state.
 
 ### --feedback--
 
-Too many props passing through multiple components can make the code messy.
+Kupitisha vigezo vingi kupitia sehemu nyingi kunaweza kufanya msimbo kuwa mchafu.
 
 ---
 
-It improves performance by reducing re-renders.
+Huboresha utendaji kwa kupunguza kuonyesha tena.
 
 ### --feedback--
 
-Too many props passing through multiple components can make the code messy.
+Kupitisha vigezo vingi kupitia sehemu nyingi kunaweza kufanya msimbo kuwa mchafu.
 
 ---
 
-It makes the code harder to read, debug, and maintain.
+Hufanya msimbo kuwa mgumu kusoma, kutafuta makosa, na kuitunza.
 
 ---
 
-It eliminates the need for state management libraries.
+Hutoa hitaji la maktaba za usimamizi wa state.
 
 ### --feedback--
 
-Too many props passing through multiple components can make the code messy.
+Kupitisha vigezo vingi kupitia sehemu nyingi kunaweza kufanya msimbo kuwa mchafu.
 
 ## --video-solution--
 

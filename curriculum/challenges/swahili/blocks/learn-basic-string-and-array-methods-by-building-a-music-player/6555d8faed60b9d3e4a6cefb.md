@@ -1,37 +1,37 @@
 ---
 id: 6555d8faed60b9d3e4a6cefb
-title: Step 72
+title: Hatua 72
 challengeType: 0
 dashedName: step-72
 ---
 
 # --description--
 
-To make the application more accessible, it is important that the play button describes the current song or the first song in the playlist.
+Ili kufanya programu iwe rahisi kupatikana zaidi, ni muhimu kwamba kitufe cha kucheza kielezee wimbo wa sasa au wimbo wa kwanza kwenye orodha ya nyimbo.
 
-Start by creating an empty arrow function called `setPlayButtonAccessibleText`.
+Anza kwa kuunda kitendakazi cha mshale tupu kinachoitwa `setPlayButtonAccessibleText`.
 
 # --hints--
 
-You should use `const` to create an empty function named `setPlayButtonAccessibleText`.
+Unapaswa kutumia `const` kuunda kitendakazi tupu kinachoitwa `setPlayButtonAccessibleText`.
 
 ```js
 assert.match(code, /const\s+setPlayButtonAccessibleText\s*=\s*/)
 ```
 
-`setPlayButtonAccessibleText` should be a function.
+`setPlayButtonAccessibleText` inapaswa kuwa kitendakazi.
 
 ```js
 assert.isFunction(setPlayButtonAccessibleText)
 ```
 
-Your `setPlayButtonAccessibleText` function should use an arrow syntax.
+Kitendakazi chako cha `setPlayButtonAccessibleText` kinapaswa kutumia sintaksia ya mshale.
 
 ```js
 assert.match(code, /const\s+setPlayButtonAccessibleText\s*=\s*\(\s*\)\s*=>\s*/)
 ```
 
-Your `setPlayButtonAccessibleText` function  should be empty.
+Kitendakazi chako cha `setPlayButtonAccessibleText` kinapaswa kuwa tupu.
 
 ```js
 assert.match(code, /const\s+setPlayButtonAccessibleText\s*=\s*\(\s*\)\s*=>\s*\{\n?\s*?\}\s*;?/)
@@ -644,7 +644,7 @@ const playSong = (id) => {
 
 const pauseSong = () => {
   userData.songCurrentTime = audio.currentTime;
-
+  
   playButton.classList.remove("playing");
   audio.pause();
 };

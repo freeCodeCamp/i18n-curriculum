@@ -1,6 +1,6 @@
 ---
 id: 67d7dcfb9afa344d0e95fa4f
-title: Task 122
+title: Zoezi la 122
 challengeType: 22
 dashedName: task-122
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Sikiliza sauti na ukamilishe sentensi ifuatayo.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This two-word phrase means to cause or result in something happening.
+Usemi huu wa maneno mawili unamaanisha kusababisha au kuleta matokeo ya jambo fulani kutokea.  
 
 ---
 
@@ -32,17 +32,17 @@ This two-word phrase means to cause or result in something happening.
 
 ### --feedback--
 
-This means to make something take longer than expected.
+Hii inamaanisha kufanya jambo kuchukua muda mrefu zaidi kuliko ilivyotarajiwa.  
 
 # --explanation--
 
-`Lead to` means to cause something to happen or result in a certain outcome. For example:
+`Lead to` inamaanisha kusababisha jambo fulani kutokea au kuleta matokeo fulani. Kwa mfano:
 
-`Poor planning can lead to missed deadlines.` – This means that if planning is not done well, deadlines may not be met.
+`Poor planning can lead to missed deadlines.` – Hii inamaanisha kwamba kama mipango haifanyiwi vizuri, tarehe za mwisho zinaweza kutoshindikana kufikiwa.  
 
-`Delay` means to make something take longer than expected or to postpone it. For example:
+`Delay` inamaanisha kufanya jambo kuchukua muda mrefu zaidi kuliko ilivyotarajiwa au kulichelewesha. Kwa mfano:
 
-`The software release was delayed due to unexpected bugs.` – This means the launch was pushed back because of technical issues.
+`The software release was delayed due to unexpected bugs.` – Hii inamaanisha uzinduzi ulicheleweshwa kwa sababu ya matatizo ya kiufundi.  
 
 # --scene--
 

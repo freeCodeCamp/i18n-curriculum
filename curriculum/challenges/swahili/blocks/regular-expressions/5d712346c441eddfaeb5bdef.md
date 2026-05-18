@@ -1,6 +1,6 @@
 ---
 id: 5d712346c441eddfaeb5bdef
-title: Match All Numbers
+title: Linganisha nambari zote
 challengeType: 1
 forumTopicId: 18181
 dashedName: match-all-numbers
@@ -8,59 +8,59 @@ dashedName: match-all-numbers
 
 # --description--
 
-You've learned shortcuts for common string patterns like alphanumerics. Another common pattern is looking for just digits or numbers.
+Umejifunza njia za mkato za mifumo ya kawaida ya mfuatano wa herufi kama herufi na nambari. Mfumo mwingine wa kawaida ni kutafuta tu tarakimu au nambari.
 
-The shortcut to look for digit characters is `\d`, with a lowercase `d`. This is equal to the character class `[0-9]`, which looks for a single character of any number between zero and nine.
+Njia ya mkato ya kutafuta herufi za tarakimu ni `\d`, kwa herufi ndogo `d`. Hii ni sawa na darasa la herufi `[0-9]`, ambalo linatafuta herufi moja ya nambari yoyote kati ya sifuri na tisa.
 
 # --instructions--
 
-Use the shorthand character class `\d` to count how many digits are in movie titles. Written out numbers ("six" instead of 6) do not count.
+Tumia darasa la herufi la njia ya mkato `\d` kuhesabu ni tarakimu ngapi zipo katika vichwa vya filamu. Nambari zilizoandikwa kwa maneno ("sita" badala ya 6) hazihesabiwi.
 
 # --hints--
 
-Your regex should use the shortcut character to match digit characters
+Usemi wako wa kawaida unapaswa kutumia njia ya mkato ya herufi kutafuta herufi za tarakimu
 
 ```js
 assert(/\\d/.test(numRegex.source));
 ```
 
-Your regex should use the global flag.
+Usemi wako wa kawaida unapaswa kutumia bendera ya global.
 
 ```js
 assert(numRegex.global);
 ```
 
-Your regex should find 1 digit in the string `9`.
+Usemi wako wa kawaida unapaswa kupata tarakimu 1 katika mfuatano `9`.
 
 ```js
 assert('9'.match(numRegex).length == 1);
 ```
 
-Your regex should find 2 digits in the string `Catch 22`.
+Usemi wako wa kawaida unapaswa kupata tarakimu 2 katika mfuatano `Catch 22`.
 
 ```js
 assert('Catch 22'.match(numRegex).length == 2);
 ```
 
-Your regex should find 3 digits in the string `101 Dalmatians`.
+Usemi wako wa kawaida unapaswa kupata tarakimu 3 katika mfuatano `101 Dalmatians`.
 
 ```js
 assert('101 Dalmatians'.match(numRegex).length == 3);
 ```
 
-Your regex should find no digits in the string `One, Two, Three`.
+Usemi wako wa kawaida unapaswa kupata tarakimu 0 katika mfuatano `One, Two, Three`.
 
 ```js
 assert('One, Two, Three'.match(numRegex) == null);
 ```
 
-Your regex should find 2 digits in the string `21 Jump Street`.
+Usemi wako wa kawaida unapaswa kupata tarakimu 2 katika mfuatano `21 Jump Street`.
 
 ```js
 assert('21 Jump Street'.match(numRegex).length == 2);
 ```
 
-Your regex should find 4 digits in the string `2001: A Space Odyssey`.
+Usemi wako wa kawaida unapaswa kupata tarakimu 4 katika mfuatano `2001: A Space Odyssey`.
 
 ```js
 assert('2001: A Space Odyssey'.match(numRegex).length == 4);

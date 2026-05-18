@@ -1,6 +1,6 @@
 ---
 id: 657b1a27dc6daf6ffd52ff1f
-title: Task 30
+title: Zoezi la 30
 challengeType: 19
 dashedName: task-30
 lang: en-US
@@ -11,43 +11,43 @@ Second Candidate: Yes. I have a master's degree in computer science. -->
 
 # --description--
 
-In English, the noun suffixed with `'s` followed by a second noun structure is used to show possession or belonging.
+Katika Kiingereza, nomino inayofuatiwa na `'s` ikifuatiwa na muundo wa nomino ya pili hutumika kuonyesha umiliki au uhusiano.
 
-If the first noun is singular, as in `Sarah's laptop`, it indicates that the laptop belongs to Sarah. However, if the first noun is plural, the structure changes to noun suffixed with `'`, as in `teachers' office`, indicating an office for teachers.
+Ikiwa nomino ya kwanza ni ya umoja, kama ilivyo katika `Sarah's laptop`, inaonyesha kuwa kompyuta mpakato ni ya Sarah. Hata hivyo, ikiwa nomino ya kwanza ni ya wingi, muundo hubadilika kuwa nomino inayofuatiwa na `'`, kama ilivyo katika `teachers' office`, ikionyesha ofisi ya walimu.
 
 # --questions--
 
 ## --text--
 
-What does `master's degree` in the context of the dialogue refer to?
+`master's degree` katika muktadha wa mazungumzo unarejelea nini?
 
 ## --answers--
 
-A degree for school teachers
+Digrii kwa walimu wa shule
 
 ### --feedback--
 
-`Master's degree` refers to an advanced academic degree, not specifically for teachers.
+`Master's degree` inarejelea digrii ya juu ya kitaaluma, si maalum kwa walimu pekee.
 
 ---
 
-A primary level educational degree
+Digrii ya elimu ya msingi
 
 ### --feedback--
 
-`Master's degree` is a higher education qualification, beyond the primary level.
+`Master's degree` ni sifa ya elimu ya juu, zaidi ya kiwango cha msingi.
 
 ---
 
-A degree in mastering skills
+Digrii ya ujuzi wa kitaalamu
 
 ### --feedback--
 
-While it implies expertise, `master's degree` specifically refers to an academic qualification.
+Ingawa inaashiria utaalamu, `master's degree` inahusu sifa ya kitaaluma hasa.
 
 ---
 
-An advanced academic degree
+Digrii ya juu ya kitaaluma
 
 ## --video-solution--
 

@@ -1,6 +1,6 @@
 ---
 id: 657fff0bfb6a28f1d70fa9ef
-title: Task 80
+title: Zoezi la 80
 challengeType: 22
 dashedName: task-80
 lang: en-US
@@ -10,9 +10,9 @@ lang: en-US
 
 # --description--
 
-`I appreciate it, but...` is used to express gratitude for an offer or gesture while politely declining or stating a personal limitation or preference.
+`I appreciate it, but...` hutumika kuonyesha shukrani kwa ofa au ishara huku ukikataa kwa heshima au kueleza kikomo au upendeleo binafsi.
 
-For example, if your friend offers to help you with coding challenge, and you're thankful but want to try it on your own first, you might say, `I appreciate it, but I want to give it a shot by myself first`.
+Kwa mfano, ikiwa rafiki yako anatoa kusaidia na changamoto ya kuandika programu, na unashukuru lakini unataka kujaribu mwenyewe kwanza, unaweza kusema, `I appreciate it, but I want to give it a shot by myself first`.
 
 # --fillInTheBlank--
 
@@ -26,7 +26,7 @@ For example, if your friend offers to help you with coding challenge, and you're
 
 ### --feedback--
 
-This word is often used to show thankfulness or gratitude.
+Neno hili hutumika mara nyingi kuonyesha shukrani au kuthamini.
 
 ---
 
@@ -34,7 +34,7 @@ This word is often used to show thankfulness or gratitude.
 
 ### --feedback--
 
-This word is used to introduce a phrase or clause contrasting with what has already been mentioned.
+Neno hili hutumika kuanzisha usemi au kifungu kinachopingana na kile kilichotajwa awali.
 
 # --scene--
 

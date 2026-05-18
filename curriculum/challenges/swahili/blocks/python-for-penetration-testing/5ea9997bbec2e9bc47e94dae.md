@@ -1,6 +1,6 @@
 ---
 id: 5ea9997bbec2e9bc47e94dae
-title: Introduction and Setup
+title: Utangulizi na usanidi
 challengeType: 11
 videoId: XeQ7ZKtb998
 bilibiliIds:
@@ -14,21 +14,20 @@ dashedName: introduction-and-setup
 
 ## --text--
 
-What code editor and extension does the instructor recommend for developing penetration testing tools in Python?
+Ni mhariri gani wa msimbo na kiendelezi gani anachopendekeza mwalimu kwa ajili ya kuendeleza zana za jaribio la uvamizi wa kimtandao kwa kutumia Python?
 
 ## --answers--
 
-Atom and the atom-python-run extension.
+Atom na kiendelezi cha atom-python-run.
 
 ---
 
-VSCode and Microsoft's Python extension.
+VSCode na kiendelezi cha Python cha Microsoft.
 
 ---
 
-Sublime Text and the Anaconda package.
+Sublime Text na kifurushi cha Anaconda.
 
 ## --video-solution--
 
 2
-

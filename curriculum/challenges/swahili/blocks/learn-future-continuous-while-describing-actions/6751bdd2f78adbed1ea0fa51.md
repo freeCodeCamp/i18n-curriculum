@@ -1,6 +1,6 @@
 ---
 id: 6751bdd2f78adbed1ea0fa51
-title: Task 24
+title: Zoezi la 24
 challengeType: 19
 dashedName: task-24
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Sikiliza sauti na jibu swali lililopo hapa chini.
 
 # --questions--
 
 ## --text--
 
-What is Brian's concern?
+Nini wasiwasi wa Brian?
 
 ## --answers--
 
-If users need to be informed about the downtime.
+Ikiwa watumizi wanahitaji kufahamishwa kuhusu muda wa kutofanya kazi.
 
 ---
 
-If the downtime will last too long.
+Ikiwa muda wa kutofanya kazi utaendelea kwa muda mrefu sana.
 
 ### --feedback--
 
-Brian is not asking about the length of the downtime.
+Brian haulizi kuhusu urefu wa muda wa kutofanya kazi.
 
 ---
 
-If the users will experience technical issues.
+Ikiwa watumizi wataathirika na matatizo ya kiufundi.
 
 ### --feedback--
 
-Brian does not mention technical issues in his concern.
+Brian hakutaja matatizo ya kiufundi katika wasiwasi wake.
 
 ---
 
-If the downtime will affect the server's performance.
+Ikiwa muda wa kutofanya kazi utaathiri utendaji wa seva.
 
 ### --feedback--
 
-Brian's concern is not about the server's performance.
+Wasiwasi wa Brian si kuhusu utendaji wa seva.
 
 ## --video-solution--
 
@@ -52,7 +52,7 @@ Brian's concern is not about the server's performance.
 
 # --explanation--
 
-Brian is asking if they should update users about the downtime, showing his concern is about communication with the users rather than the length of downtime, technical issues, or server performance.
+Brian anauliza kama wanapaswa kuwajulisha watumizi kuhusu muda wa kutofanya kazi, akionyesha kuwa wasiwasi wake ni kuhusu mawasiliano na watumizi badala ya urefu wa muda wa kutofanya kazi, matatizo ya kiufundi, au utendaji wa seva.
 
 # --scene--
 

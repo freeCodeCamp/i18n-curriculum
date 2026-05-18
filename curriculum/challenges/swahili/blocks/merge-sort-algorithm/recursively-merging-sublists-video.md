@@ -1,6 +1,6 @@
 ---
 id: 698ddfc37932b3cc4b19c937
-title: Recursively Merging Sublists
+title: Kuunganisha kwa kurudia kwa orodha ndogo ndogo
 challengeType: 11
 videoId: aLZglY5hO-A
 dashedName: recursively-merging-sublists
@@ -8,29 +8,29 @@ dashedName: recursively-merging-sublists
 
 # --description--
 
-In this video, you will learn more about the merge sort algorithm and see how to recursively merge sublists.
+Katika video hii, utafundishwa zaidi kuhusu algoriti ya merge sort na utaona jinsi ya kuunganisha kwa kurudia orodha ndogo ndogo.
 
 # --questions--
 
 ## --text--
 
-What is the purpose of the merge function in the merge sort algorithm?
+Nini kusudi la kitendakazi cha merge katika algoriti ya merge sort?
 
 ## --answers--
 
-It combines two sorted sublists into a single sorted list.
+Inachanganya orodha ndogo ndogo mbili zilizopangwa kuwa orodha moja iliyopangwa.
 
 ---
 
-It splits the list into smaller sublists.
+Inagawanya orodha kuwa orodha ndogo ndogo.
 
 ---
 
-It selects the largest element from the list.
+Huchagua kipengele kikubwa zaidi kutoka kwenye orodha.
 
 ---
 
-It reverses the order of the list.
+Inageuza mpangilio wa orodha.
 
 ## --video-solution--
 

@@ -1,6 +1,6 @@
 ---
 id: 65f6fc00be7facffe0898c6d
-title: Task 43
+title: Zoezi la 43
 challengeType: 22
 dashedName: task-43
 lang: en-US
@@ -10,13 +10,13 @@ lang: en-US
 
 # --description--
 
-This is a review of the entire dialogue you just studied.
+Hii ni ukaguzi wa mazungumzo yote uliyosoma sasa hivi.
 
 # --instructions--
 
-Write the following words or phrases in the correct spot:
+Andika maneno au misemo ifuatayo mahali sahihi:
 
-`symptoms of`, `may occur`, `start by`, `clearer picture`, `investigate`, and `a second pair of eyes`.
+`symptoms of`, `may occur`, `start by`, `clearer picture`, `investigate`, na `a second pair of eyes`.
 
 # --fillInTheBlank--
 
@@ -36,7 +36,7 @@ Write the following words or phrases in the correct spot:
 
 ### --feedback--
 
-Another person who checks your work to help find mistakes.
+Mtu mwingine anayekagua kazi yako kusaidia kugundua makosa.
 
 ---
 
@@ -44,7 +44,7 @@ Another person who checks your work to help find mistakes.
 
 ### --feedback--
 
-Begin with something as the first step.
+Anza na kitu kama hatua ya kwanza.
 
 ---
 
@@ -52,7 +52,7 @@ Begin with something as the first step.
 
 ### --feedback--
 
-Signs that show something might be wrong.
+Dalili zinazonyesha kunaweza kuwa na tatizo.
 
 ---
 
@@ -60,7 +60,7 @@ Signs that show something might be wrong.
 
 ### --feedback--
 
-This means something might happen.
+Hii ina maana kuna jambo linaweza kutokea.
 
 ---
 
@@ -68,7 +68,7 @@ This means something might happen.
 
 ### --feedback--
 
-To look carefully at something to understand what is happening.
+Kutazama kwa makini kitu ili kuelewa kinachoendelea.
 
 ---
 
@@ -76,4 +76,4 @@ To look carefully at something to understand what is happening.
 
 ### --feedback--
 
-A better understanding of a situation.
+Uelewa bora wa hali fulani.

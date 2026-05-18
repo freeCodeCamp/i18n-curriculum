@@ -1,6 +1,6 @@
 ---
 id: 69ae6a0eb4a814be6a4f2bdf
-title: Chunking
+title: Kugawanya vipande
 challengeType: 11
 videoId: tFUkvObOaHc
 dashedName: chunking
@@ -8,31 +8,30 @@ dashedName: chunking
 
 # --description--
 
-In this video, you will learn about chunking.
+Katika video hii, utafundishwa kuhusu kugawanya vipande.
 
 # --questions--
 
 ## --text--
 
-Which of the following is NOT a common type of chunking?
+Ni ipi kati ya zifuatazo SI aina ya kawaida ya kugawanya vipande?
 
 ## --answers--
 
-Fixed size chunking
+Kugawanya vipande vya ukubwa thabiti
 
 ---
 
-Semantic chunking
+Kugawanya vipande kwa maana
 
 ---
 
-Agentic chunking
+Kugawanya vipande kwa njia ya mawakala
 
 ---
 
-Objective chunking
+Kugawanya vipande kwa lengo
 
 ## --video-solution--
 
 4
-

@@ -1,6 +1,6 @@
 ---
 id: 67c03f86bccfec0be6de656b
-title: Task 113
+title: Zoezi la 113
 challengeType: 19
 dashedName: task-113
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Sikiliza sauti na jibu swali lililopo hapa chini.
 
 # --questions--
 
 ## --text--
 
-What is Anna communicating?
+Anna anawasilisha nini?
 
 ## --answers--
 
-She completely disagrees with Bob and rejects his concern.
+Anakataa kabisa maoni ya Bob na hafurahii wasiwasi wake.
 
 ### --feedback--
 
-Anna acknowledges Bob's point before giving her own opinion.
+Anna anakubali hoja ya Bob kabla ya kutoa maoni yake mwenyewe.
 
 ---
 
-She understands Bob's concern but still thinks flexibility is a better option.
+Anaelewa wasiwasi wa Bob lakini bado anaamini kubadilika ni chaguo bora zaidi.
 
 ---
 
-She does not understand Bob's concern.
+Hafahamu wasiwasi wa Bob.
 
 ### --feedback--
 
-Anna understands Bob's argument.
+Anna anaelewa hoja ya Bob.
 
 ---
 
-She agrees with Bob and changes her mind.
+Anakubaliana na Bob na kubadilisha mawazo yake.
 
 ### --feedback--
 
-Anna does not fully agree with Bob.
+Anna hakubaliani kabisa na Bob.
 
 ## --video-solution--
 
@@ -52,9 +52,9 @@ Anna does not fully agree with Bob.
 
 # --explanation--
 
-Anna uses `I see your point, but` to show that she understands Bob's concern while presenting a different opinion.
+Anna anatumia `I see your point, but` kuonyesha kwamba anaelewa wasiwasi wa Bob huku akitoa maoni tofauti.
 
-She believes that flexibility is a better solution than sticking with one category.
+Anaamini kwamba kubadilika ni suluhisho bora kuliko kubaki na kundi moja.
 
 # --scene--
 

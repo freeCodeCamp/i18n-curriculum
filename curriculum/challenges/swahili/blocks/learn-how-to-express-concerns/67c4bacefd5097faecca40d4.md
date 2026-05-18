@@ -1,6 +1,6 @@
 ---
 id: 67c4bacefd5097faecca40d4
-title: Task 22
+title: Zoezi la 22
 challengeType: 19
 dashedName: task-22
 lang: en-US
@@ -10,51 +10,51 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Sikiliza sauti na jibu swali lililopo hapa chini.
 
 # --questions--
 
 ## --text--
 
-What does Bob want to know?
+Bob anataka kujua nini?  
 
 ## --answers--
 
-If they should cancel the project.
+Je, wanapaswa kufuta mradi?  
 
 ### --feedback--
 
-Bob is not asking about canceling the project.
+Bob haulizi kuhusu kufuta mradi.  
 
 ---
 
-If working fewer hours would be better.
+Je, kufanya kazi masaa machache kutakuwa bora?  
 
 ### --feedback--
 
-Bob is suggesting working more hours, not fewer.
+Bob anapendekeza kufanya kazi masaa zaidi, si machache.  
 
 ---
 
-If the team has already solved the issue.
+Je, timu tayari imetatua tatizo?  
 
 ### --feedback--
 
-Bob is asking if his suggestion will help, not if the issue is already solved.
+Bob anauliza kama pendekezo lake litausaidia, si kama tatizo tayari limetatuliwa.  
 
 ---
 
-If working extra hours will improve the situation.
+Je, kufanya kazi masaa ya ziada kutaboresha hali?  
 
 ## --video-solution--
 
-4
+4  
 
 # --explanation--
 
-Using negatives in questions with auxiliary or modal verbs (such as `wouldn't`, `isn't`, `doesn't`), which require direct `yes`/`no` answers, suggests that the speaker expects the answer to be positive — Bob assumes, in this case, that working extra hours will help. Another example:
+Kutumia maneno hasi katika maswali yenye vitenzi vya msaada au modal (kama `wouldn't`, `isn't`, `doesn't`), ambavyo vinahitaji majibu ya moja kwa moja ya `yes`/`no`, inaonyesha kwamba msemaji anatarajia jibu liwe chanya — Bob anadhani, katika kesi hii, kwamba kufanya kazi masaa ya ziada kutasaidia. Mfano mwingine:
 
-`Doesn't this plan seem like a good idea?` - The speaker expects the listener to agree that the plan is good.
+`Doesn't this plan seem like a good idea?` - Msemaji anatarajia msikilizaji anakubaliana kwamba mpango ni mzuri.
 
 # --scene--
 

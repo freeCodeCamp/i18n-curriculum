@@ -1,6 +1,6 @@
 ---
 id: 656d1becadf67d05d5b27bab
-title: Task 149
+title: Zoezi la 149
 challengeType: 19
 dashedName: task-149
 lang: en-US
@@ -14,19 +14,19 @@ Brian: But it's true. She's the person to go to if you need help.
 
 # --description--
 
-Just like when you learned about the pronoun `he`, pronouns like `she` are used to refer to female individuals. They help avoid repetition in conversation. Look at this part of the dialogue:
+Kama ulivyojifunza kuhusu kitenzi cha `he`, vitenzi kama `she` hutumika kumrejelea mtu wa kike. Husaidia kuepuka kurudia maneno katika mazungumzo. Angalia sehemu hii ya mazungumzo:
 
 - Sophie: `Oh, come on, Brian.`
 
 - Brian: `But it's true. She's the person to go to if you need help.`
 
-Here, `she` is used by Brian to refer to Sophie. Instead of repeating Sophie's name, Brian uses the pronoun `she` to make the conversation smoother and avoid repetition.
+Hapa, `she` hutumika na Brian kumrejelea Sophie. Badala ya kurudia jina la Sophie, Brian anatumia kitenzi cha `she` kufanya mazungumzo yawe laini na kuepuka kurudia.
 
 # --questions--
 
 ## --text--
 
-In the dialogue, which word does Brian use to refer to Sophie without repeating her name?
+Katika mazungumzo haya, ni neno gani Brian anatumia kumrejelea Sophie bila kurudia jina lake?
 
 ## --answers--
 
@@ -34,7 +34,7 @@ In the dialogue, which word does Brian use to refer to Sophie without repeating 
 
 ### --feedback--
 
-`He` refers to a male.
+`He` hutumika kumrejelea mtu wa kiume.
 
 ---
 
@@ -42,7 +42,7 @@ In the dialogue, which word does Brian use to refer to Sophie without repeating 
 
 ### --feedback--
 
-`They` is plural and refers to more than one person.
+`They` ni wingi na hutumika kumrejelea watu zaidi ya mmoja.
 
 ---
 
@@ -50,7 +50,7 @@ In the dialogue, which word does Brian use to refer to Sophie without repeating 
 
 ### --feedback--
 
-`It` is usually used for things or animals.
+`It` kawaida hutumika kwa vitu au wanyama.
 
 ---
 

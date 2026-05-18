@@ -1,6 +1,6 @@
 ---
 id: 6620102deeab45aeeffa84ac
-title: Task 5
+title: Zoezi la 5
 challengeType: 22
 dashedName: task-5
 lang: en-US
@@ -10,13 +10,13 @@ lang: en-US
 
 # --description--
 
-When describing the color of a person's eyes, you normally identify them first by their color. Common eye colors are `black`, `brown`, `blue`, and `green`. Depending on the color if can have a tendency to `white` or to `black` (the color itself is stronger or weaker). In this case, you can add the words `light` (tending to `white`) and `dark` (tending to `black`) before the color to express it. Another characteristic that you normally use to identify another person's eyes is the shape - `round` when it is more like a circle and `narrow` when it is more similar to a line. Finally, you can refer to them in terms of their size, `large` (when they are big) or `small` (when they are not). Tom also expresses an opinion, saying Lisa's eyes are full of energy and vitality. In this case, you say one's eyes is `bright`.
+Unapokuwa unataja rangi ya macho ya mtu, kawaida huanza kwa kuwatambua kwa rangi yao. Rangi za macho zinazojulikana ni `black`, `brown`, `blue`, na `green`. Kulingana na rangi, inaweza kuwa na mwelekeo wa `white` au `black` (rangi yenyewe ni yenye nguvu zaidi au dhaifu zaidi). Katika hali hii, unaweza kuongeza maneno `light` (inayokaribia `white`) na `dark` (inayokaribia `black`) kabla ya rangi ili kuieleza. Sifa nyingine unayotumia kawaida kutambua macho ya mtu ni umbo - `round` wakati ni kama mduara na `narrow` wakati ni kama mstari. Mwishowe, unaweza kuzungumzia ukubwa wake, `large` (wakati ni makubwa) au `small` (wakati si makubwa). Tom pia anatoa maoni, akisema macho ya Lisa yamejaa nguvu na uhai. Katika hali hii, unasema macho ya mtu ni `bright`.
 
-As you do with `hair`, the adjectives to identify a person's eyes also follow an order in English. First, you express this opinion, then move on to the size, then the shape and finally the color (preceded or not by `light` or `dark`).
+Kama unavyofanya na `hair`, vivumishi vinavyotumika kutambua macho ya mtu pia hufuata mpangilio katika Kiingereza. Kwanza, unaeleza maoni haya, kisha unaelekea kwenye ukubwa, kisha umbo na mwishowe rangi (ikiwa imeongozwa au la na `light` au `dark`).
 
-Example: `Tom has beautiful, small, narrow, light green eyes.`
+Mfano: `Tom has beautiful, small, narrow, light green eyes.`
 
-Now listen and fill in the blanks with Tom's description of Lisa's eyes.
+Sasa sikiliza na ujaze mapengo kwa maelezo ya Tom kuhusu macho ya Lisa.
 
 # --fillInTheBlank--
 
@@ -30,7 +30,7 @@ Now listen and fill in the blanks with Tom's description of Lisa's eyes.
 
 ### --feedback--
 
-Tom expresses an opinion first. He says Lisa's eyes are full of energy.
+Tom anatoa maoni kwanza. Anasema macho ya Lisa yamejaa nguvu.
 
 ---
 
@@ -38,7 +38,7 @@ Tom expresses an opinion first. He says Lisa's eyes are full of energy.
 
 ### --feedback--
 
-Tom finally talks about Lisa's eye color. It is a shade close to `black`, and neither `blue` nor `green`.
+Tom hatimaye anazungumzia rangi ya macho ya Lisa. Ni kivuli kinachokaribia `black`, na si `blue` wala `green`.
 
 # --scene--
 

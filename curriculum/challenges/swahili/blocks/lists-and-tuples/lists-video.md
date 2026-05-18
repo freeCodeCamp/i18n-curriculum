@@ -1,6 +1,6 @@
 ---
 id: 39a400e9163c5a0b33587e18
-title: Lists
+title: Orodha
 challengeType: 11
 videoId: DtMPzGOHZ2M
 dashedName: lists
@@ -8,13 +8,13 @@ dashedName: lists
 
 # --description--
 
-In this video, you will learn about lists, list indexing, slicing, and basic list operations.
+Katika video hii, utafundishwa kuhusu orodha, kielezo cha orodha, kukata orodha, na shughuli za msingi za orodha.
 
 # --questions--
 
 ## --text--
 
-What will be the output for the following code?
+Nini kitakuwa matokeo ya msimbo ufuatao?
 
 ```python
 friends = ["Kevin", "Karen", "Jim"]

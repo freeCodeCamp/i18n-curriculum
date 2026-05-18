@@ -1,19 +1,19 @@
 ---
 id: 672bccae6e556cd81cef6af2
-title: What Is Margin Collapsing, and How Does It Work?
+title: "Je, Margin Collapsing ni Nini, na Inafanya Kazi Vipi?"
 challengeType: 19
 dashedName: what-is-margin-collapsing
 ---
 
 # --interactive--
 
-Margin collapsing is a fundamental concept in CSS that often confuses newcomers to web development.
+Margin collapsing ni dhana msingi katika CSS ambayo mara nyingi huwatatiza wanaoanza katika ukuzaji wa mtandao.
 
-This behavior occurs when the vertical margins of adjacent elements overlap, resulting in a single margin equal to the larger of the two.
+Tabia hii hutokea wakati kingo za wima za vipengele vinavyopakana zinaposhirikiana, na kusababisha kando moja tu sawa na kubwa zaidi kati ya hizo mbili.
 
-Understanding margin collapsing is important for precise control over spacing and layout in web design. So, let's get into how margin collapsing works and explore some common scenarios where it occurs.
+Kuelewa margin collapsing ni muhimu kwa udhibiti sahihi wa nafasi na mpangilio katika muundo wa mtandao. Hivyo, tuangalie jinsi margin collapsing inavyofanya kazi na kuchunguza baadhi ya hali za kawaida ambapo hutokea.
 
-In CSS when two vertical margins come into contact with each other they'll collapse, this means that instead of adding together, the larger margin wins and determines the space between the elements. This behavior applies only to vertical margins (top and bottom) and not to horizontal margins (left and right). So, here's an example to illustrate this concept:
+Katika CSS, wakati kingo mbili za wima zinapokutana, zitagongana, hii inamaanisha badala ya kujumlishwa, kando kubwa ndilo linalotawala na kuamua nafasi kati ya vipengele. Tabia hii inahusu tu kingo za wima (juu na chini) na si za usawa (kushoto na kulia). Hapa kuna mfano wa kuelezea dhana hii:
 
 :::interactive_editor
 
@@ -35,11 +35,11 @@ In CSS when two vertical margins come into contact with each other they'll colla
 
 :::
 
-In this example, you might expect the total space between `.box1` and `.box2` to be 50 pixels (20 pixels plus 30 pixels). However, due to margin collapsing the actual space will be 30 pixels, which is the larger of the two margins.
+Katika mfano huu, unaweza kutegemea nafasi jumla kati ya `.box1` na `.box2` iwe pikseli 50 (pikseli 20 pamoja na 30). Hata hivyo, kutokana na margin collapsing nafasi halisi itakuwa pikseli 30, ambayo ni kando kubwa zaidi kati ya hizo mbili.
 
-As we saw in the previous example, margins of the adjacent sibling elements will collapse. This is the most straight forward case of margin collapsing. Let's explore more cases where margin collapsing can occur.
+Kama tulivyoona katika mfano uliopita, kingo za vipengele vinavyopakana zitagongana. Hii ni kesi rahisi kabisa ya margin collapsing. Tuchunguze zaidi hali ambapo margin collapsing inaweza kutokea.
 
-Margins can also collapse between a parent element and its first or last child. If there's no border, padding, inline content, or clearance to separate the parent's margin from the child's, they will collapse.
+Kingo pia zinaweza kugongana kati ya kipengele mzazi na mtoto wake wa kwanza au wa mwisho. Ikiwa hakuna mpaka, nafasi ya ndani, maudhui ndani ya mstari, au utulivu wa kuwatenganisha kingo za mzazi na mtoto, zitagongana.
 
 :::interactive_editor
 
@@ -62,9 +62,9 @@ Margins can also collapse between a parent element and its first or last child. 
 
 :::
 
-In this case, you might expect the child to be 70 pixels from the top (40 pixels plus 30 pixels). However, the margins collapse and the larger margin of 40 pixels is used.
+Katika kesi hii, unaweza kutegemea mtoto awe na nafasi ya pikseli 70 kutoka juu (pikseli 40 pamoja na 30). Hata hivyo, kingo zinagongana na kando kubwa ya pikseli 40 ndilo linalotumika.
 
-If an element has no content, padding, or border, its top and bottom margins can collapse into a single margin.
+Kama kipengele hakina maudhui, nafasi ya ndani, au mpaka, kingo zake za juu na chini zinaweza kugongana na kuwa kando moja.
 
 :::interactive_editor
 
@@ -86,9 +86,9 @@ If an element has no content, padding, or border, its top and bottom margins can
 
 :::
 
-In this example, the `empty-block`'s top and bottom margins collapse into a single 20 pixels margin, the larger of the two.
+Katika mfano huu, kingo za juu na chini za `empty-block` zinagongana na kuwa kando moja ya pikseli 20, kubwa zaidi kati ya hizo mbili.
 
-Here's an example of preventing collapse using padding:
+Hapa kuna mfano wa kuzuia mgongano kwa kutumia nafasi ya ndani:
 
 :::interactive_editor
 
@@ -112,43 +112,43 @@ Here's an example of preventing collapse using padding:
 
 :::
 
-In this case, the one pixel padding on the parent prevents the margin from collapsing resulting in a total space of 71 pixels from the top of the parent to the top of the child content.
+Katika kesi hii, nafasi ya ndani ya pikseli moja kwenye mzazi inazuia mgongano wa kingo na kusababisha nafasi jumla ya pikseli 71 kutoka juu ya mzazi hadi juu ya maudhui ya mtoto.
 
-Understanding margin collapsing is important for precise control over layout and spacing in CSS. While it can sometimes lead to unexpected results, it's a feature designed to create more aesthetically pleasing and consistent spacing in documents. By knowing when margin collapsing occurs and how to prevent it when necessary, you can create more predictable and maintainable layouts in your web designs.
+Kuelewa margin collapsing ni muhimu kwa udhibiti sahihi wa mpangilio na nafasi katika CSS. Ingawa inaweza kusababisha matokeo yasiyotegemewa wakati mwingine, ni kipengele kilichoundwa kuleta nafasi nzuri na thabiti zaidi katika hati. Kwa kujua lini margin collapsing hutokea na jinsi ya kuizuia inapohitajika, unaweza kuunda mipangilio inayotarajiwa na rahisi kudumisha katika miundo yako ya mtandao.
 
 # --questions--
 
 ## --text--
 
-In which direction does margin collapsing occur?
+Mgongano wa kingo hutokea katika mwelekeo gani?
 
 ## --answers--
 
-Horizontal margins only.
+Kingo za usawa tu.
 
 ### --feedback--
 
-Think about which margins (top, bottom, left, right) are affected by this behavior.
+Fikiria ni kingo gani (juu, chini, kushoto, kulia) zinazoathiriwa na tabia hii.
 
 ---
 
-Vertical margins only.
+Kingo za wima tu.
 
 ---
 
-Both horizontal and vertical margins.
+Kingo za usawa na wima zote.
 
 ### --feedback--
 
-Think about which margins (top, bottom, left, right) are affected by this behavior.
+Fikiria ni kingo gani (juu, chini, kushoto, kulia) zinazoathiriwa na tabia hii.
 
 ---
 
-Diagonal margins.
+Kingo za mwinuko.
 
 ### --feedback--
 
-Think about which margins (top, bottom, left, right) are affected by this behavior.
+Fikiria ni kingo gani (juu, chini, kushoto, kulia) zinazoathiriwa na tabia hii.
 
 ## --video-solution--
 
@@ -156,35 +156,35 @@ Think about which margins (top, bottom, left, right) are affected by this behavi
 
 ## --text--
 
-What happens when two adjacent elements have different margin values?
+Nini hutokea wakati vipengele viwili vinavyopakana vina thamani tofauti za kingo?
 
 ## --answers--
 
-The margins add up.
+Kingo hujumlishwa.
 
 ### --feedback--
 
-Consider which margin "wins" when collapsing occurs.
+Fikiria ni kando gani "inayoshinda" wakati mgongano unapotokea.
 
 ---
 
-The smaller margin is used.
+Kando ndogo hutumika.
 
 ### --feedback--
 
-Consider which margin "wins" when collapsing occurs.
+Fikiria ni kando gani "inayoshinda" wakati mgongano unapotokea.
 
 ---
 
-The larger margin is used.
+Kando kubwa hutumika.
 
 ---
 
-The average of the two margins is used.
+Kando ya wastani ya kingo zote mbili hutumika.
 
 ### --feedback--
 
-Consider which margin "wins" when collapsing occurs.
+Fikiria ni kando gani "inayoshinda" wakati mgongano unapotokea.
 
 ## --video-solution--
 
@@ -192,35 +192,35 @@ Consider which margin "wins" when collapsing occurs.
 
 ## --text--
 
-Which of the following will NOT prevent margin collapsing between a parent and its first child?
+Ni ipi kati ya zifuatazo HAIZUZI kuzuia mgongano wa kingo kati ya mzazi na mtoto wake wa kwanza?
 
 ## --answers--
 
-Adding a `border` to the parent.
+Kuongeza `border` kwa mzazi.
 
 ### --feedback--
 
-Think about which properties create a separation between the parent and child margins.
+Fikiria ni vigezo gani vinavyounda utengano kati ya kingo za mzazi na mtoto.
 
 ---
 
-Setting `padding-top: 1px;` on the parent.
+Kuweka `padding-top: 1px;` kwa mzazi.
 
 ### --feedback--
 
-Think about which properties create a separation between the parent and child margins.
+Fikiria ni vigezo gani vinavyounda utengano kati ya kingo za mzazi na mtoto.
 
 ---
 
-Using `display: inline-block;` on the child.
+Kutumia `display: inline-block;` kwa mtoto.
 
 ### --feedback--
 
-Think about which properties create a separation between the parent and child margins.
+Fikiria ni vigezo gani vinavyounda utengano kati ya kingo za mzazi na mtoto.
 
 ---
 
-Setting `margin-top: 0;` on the child.
+Kuweka `margin-top: 0;` kwa mtoto.
 
 ## --video-solution--
 

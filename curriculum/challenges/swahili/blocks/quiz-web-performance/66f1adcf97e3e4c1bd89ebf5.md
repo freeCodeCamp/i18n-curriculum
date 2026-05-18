@@ -1,13 +1,13 @@
 ---
 id: 66f1adcf97e3e4c1bd89ebf5
-title: Web Performance Quiz
+title: Jaribio fupi la utendaji wa mtandao
 challengeType: 8
 dashedName: quiz-web-performance
 ---
 
 # --description--
 
-To pass the quiz, you must correctly answer at least 18 of the 20 questions below.
+Ili kupita jaribio fupi, lazima ujibu kwa usahihi angalau maswali 18 kati ya 20 yaliyo hapa chini.
 
 # --quizzes--
 
@@ -17,29 +17,29 @@ To pass the quiz, you must correctly answer at least 18 of the 20 questions belo
 
 #### --text--
 
-What is the key difference between real performance and perceived performance in web development?
+Tofauti kuu kati ya utendaji halisi na utendaji unaoonekana katika ukuzaji wa mtandao ni upi?
 
 #### --distractors--
 
-Real performance focuses on the number of HTTP requests made by the browser, while perceived performance is based on CSS rendering speed.
+Utendaji halisi unazingatia idadi ya maombi ya HTTP yanayotolewa na kivinjari, wakati utendaji unaoonekana unategemea kasi ya kuonyesha CSS.
 
 ---
 
-Real performance is only about load times, while perceived performance relates to visual elements like animations and loading indicators.
+Utendaji halisi ni kuhusu muda wa kupakia tu, wakati utendaji unaoonekana unahusiana na vipengele vya kuona kama michoro na viashiria vya upakiaji.
 
 ---
 
-Real performance only includes server-side processing times, while perceived performance is entirely client-side.
+Utendaji halisi unajumuisha tu muda wa usindikaji upande wa seva, wakati utendaji unaoonekana ni upande wa mteja pekee.
 
 #### --answer--
 
-Real performance is how fast content is loaded, while perceived performance is how quickly users believe the page loads.
+Utendaji halisi ni jinsi haraka maudhui yanavyopakiwa, wakati utendaji unaoonekana ni jinsi watumiaji wanavyodhani ukurasa unapakia haraka.
 
 ### --question--
 
 #### --text--
 
-Which metric best indicates how quickly content appears on a web page?
+Ni kipimo gani kinachoonyesha vyema jinsi maudhui yanavyoonekana haraka kwenye ukurasa wa mtandao?
 
 #### --distractors--
 
@@ -61,73 +61,73 @@ First Contentful Paint (FCP)
 
 #### --text--
 
-Which of the following is NOT a way to reduce page loading times?
+Ni ipi kati ya zifuatazo SI njia ya kupunguza muda wa upakiaji wa ukurasa?
 
 #### --distractors--
 
-Optimizing Media Assets.
+Kuboresha mali za vyombo vya habari.
 
 ---
 
-Leveraging Browser Caching.
+Kutumia uhifadhi wa kivinjari.
 
 ---
 
-Minifying and Compress Files.
+Kupunguza ukubwa na kusanifu mafaili.
 
 #### --answer--
 
-Using only JPEG files.
+Kutumia mafaili ya JPEG pekee.
 
 ### --question--
 
 #### --text--
 
-What is "time to usable"?
+"Time to usable" ni nini?
 
 #### --distractors--
 
-It is the interval from when a user requests a page to when they can interact with forms on the page.
+Ni muda kuanzia mtumiaji anapotoa ombi la ukurasa hadi anapoweza kuingiliana na fomu kwenye ukurasa.
 
 ---
 
-It is the time it takes for all images and animations to become available and usable.
+Ni muda unaochukua picha zote na michoro kuwa tayari na kutumika.
 
 ---
 
-This is the time it takes for all CSS and JavaScript animations to load on the screen.
+Huu ni muda unaochukua CSS zote na michoro ya JavaScript kupakia kwenye skrini.
 
 #### --answer--
 
-It is the interval from when a user requests a page to when they can meaningfully interact with it.
+Ni muda kuanzia mtumiaji anapotoa ombi la ukurasa hadi anapoweza kuingiliana nalo kwa maana.
 
 ### --question--
 
 #### --text--
 
-What does First Contentful Paint (FCP) measure?
+First Contentful Paint (FCP) hupima nini?
 
 #### --distractors--
 
-The overall load time for all JavaScript files on the page.
+Muda wa jumla wa kupakia mafaili yote ya JavaScript kwenye ukurasa.
 
 ---
 
-The delay before a user can interact with any elements on the page.
+Ucheleweshaji kabla mtumiaji aweze kuingiliana na vipengele vyovyote kwenye ukurasa.
 
 ---
 
-The time taken for all stylesheets to fully load and apply.
+Muda unaochukua majedwali yote ya mitindo kupakia kikamilifu na kutumika.
 
 #### --answer--
 
-The time it takes for the first piece of text or image to render.
+Muda unaochukua kipande cha kwanza cha maandishi au picha kuonyesha.
 
 ### --question--
 
 #### --text--
 
-Which of the following is NOT a commonly used performance measurement tool?
+Ni ipi kati ya zifuatazo SI chombo kinachotumika mara nyingi kupima utendaji?
 
 #### --distractors--
 
@@ -149,51 +149,51 @@ WebMeasure
 
 #### --text--
 
-What are Performance Web APIs used for?
+Performance Web APIs hutumika kwa ajili gani?
 
 #### --distractors--
 
-It is used to measure the performance for CSS animations only.
+Inatumika kupima utendaji wa michoro ya CSS pekee.
 
 ---
 
-It is used to automatically speed up the performance for a web page.
+Inatumika kuharakisha utendaji wa ukurasa wa mtandao moja kwa moja.
 
 ---
 
-It provides a detailed table of performance metrics for the user.
+Inatoa jedwali la kina la vipimo vya utendaji kwa mtumiaji.
 
 #### --answer--
 
-It lets developers track how efficiently a webpage loads and responds directly from code.
+Inamruhusu msanidi programu kufuatilia ufanisi wa upakiaji na majibu ya ukurasa wa mtandao moja kwa moja kutoka kwenye msimbo.
 
 ### --question--
 
 #### --text--
 
-Which strategy can effectively enhance perceived performance?
+Ni mkakati gani unaweza kuboresha kwa ufanisi utendaji unaoonekana?
 
 #### --distractors--
 
-Using large images to improve the overall visual quality.
+Kutumia picha kubwa kuboresha ubora wa jumla wa kuona.
 
 ---
 
-Loading CSS styles last to prioritize content rendering.
+Kupakia mitindo ya CSS mwishoni ili kuipa kipaumbele kuonyesha maudhui.
 
 ---
 
-Preloading all scripts to ensure they are ready when needed.
+Kupakia awali skiripti zote kuhakikisha ziko tayari zinapohitajika.
 
 #### --answer--
 
-Displaying a loading skeleton while content is being fetched.
+Kuonyesha muundo wa upakiaji wakati maudhui yanapopatikana.
 
 ### --question--
 
 #### --text--
 
-Which of the following refers to the time it takes for a request to travel between the browser and the server?
+Ni ipi kati ya zifuatazo inahusu muda unaochukua ombi kusafiri kati ya kivinjari na seva?
 
 #### --distractors--
 
@@ -215,29 +215,29 @@ latency
 
 #### --text--
 
-How does optimizing CSS impact page performance?
+Kuboresha CSS kunaathirije utendaji wa ukurasa?
 
 #### --distractors--
 
-It prevents the browser from executing unnecessary JavaScript.
+Inazuia kivinjari kutekeleza JavaScript zisizohitajika.
 
 ---
 
-It reduces the overall file size of images.
+Inapunguza ukubwa wa mafaili ya picha.
 
 ---
 
-It eliminates the need for lazy loading images.
+Inaboresha upakiaji wa picha kwa njia ya lazy loading.
 
 #### --answer--
 
-It speeds up the parsing of HTML.
+Inaharakisha uchambuzi wa HTML.
 
 ### --question--
 
 #### --text--
 
-Which of the following shows how long the main thread is blocked by heavy JavaScript tasks?
+Ni ipi kati ya zifuatazo inaonyesha muda ambao nyuzi kuu zimezuiwa na kazi nzito za JavaScript?
 
 #### --distractors--
 
@@ -259,29 +259,29 @@ Total Blocking Time
 
 #### --text--
 
-When measuring Interaction to Next Paint (INP), what is being evaluated?
+Unapopima Interaction to Next Paint (INP), ni nini kinachopimwa?
 
 #### --distractors--
 
-The time it takes for the page to fully load all styles and images after a user interaction.
+Muda unaochukua ukurasa kupakia mitindo na picha zote baada ya mwingiliano wa mtumiaji.
 
 ---
 
-The delay between a user's interaction and the browser's ability to register the next user input.
+Ucheleweshaji kati ya mwingiliano wa mtumiaji na uwezo wa kivinjari kurekodi ingizo lijalo la mtumiaji.
 
 ---
 
-The interval between JavaScript execution and the browser refreshing the page content.
+Muda kati ya utekelezaji wa JavaScript na kivinjari kuonyesha tena maudhui ya ukurasa.
 
 #### --answer--
 
-The time between a user's interaction and the browser responding by rendering the next frame.
+Muda kati ya mwingiliano wa mtumiaji na kivinjari kujibu kwa kuonyesha fremu ijayo.
 
 ### --question--
 
 #### --text--
 
-Which of the following APIs gives you high-precision timestamps (in milliseconds) to measure how long different parts of your site take to load?
+Ni ipi kati ya APIs zifuatazo inakupa alama za wakati za usahihi mkubwa (kwa millisekunde) kupima muda wa sehemu tofauti za tovuti yako kupakia?
 
 #### --distractors--
 
@@ -303,7 +303,7 @@ Which of the following APIs gives you high-precision timestamps (in milliseconds
 
 #### --text--
 
-Which of the following APIs gives you a breakdown of every stage of page loading from DNS lookup to `DOMContentLoaded`?
+Ni ipi kati ya APIs zifuatazo inakupa mgawanyo wa kila hatua ya upakiaji wa ukurasa kutoka DNS lookup hadi `DOMContentLoaded`?
 
 #### --distractors--
 
@@ -325,7 +325,7 @@ Performance Timing API
 
 #### --text--
 
-Which of the following listens for performance events such as layout shifts, long tasks, and user interactions?
+Ni ipi kati ya zifuatazo husikiliza matukio ya utendaji kama vile mabadiliko ya mpangilio, kazi ndefu, na mwingiliano wa mtumiaji?
 
 #### --distractors--
 
@@ -379,51 +379,51 @@ observer.observe({ type: "longtask", buffered: true });
 
 #### --text--
 
-How does lazy loading images enhance page performance?
+Lazy loading ya picha huongezaje utendaji wa ukurasa?
 
 #### --distractors--
 
-It ensures all images load immediately for a better user experience.
+Inahakikisha picha zote zinapakia mara moja kwa uzoefu bora wa mtumiaji.
 
 ---
 
-It reduces the size of image files to speed up loading.
+Inapunguza ukubwa wa mafaili ya picha kuharakisha upakiaji.
 
 ---
 
-It preloads images to prevent any loading delays.
+Inapakia awali picha kuzuia ucheleweshaji wowote wa upakiaji.
 
 #### --answer--
 
-It delays loading non-essential images until they are in view.
+Inachelewesha upakiaji wa picha zisizo za lazima hadi zipo kwenye mtazamo.
 
 ### --question--
 
 #### --text--
 
-What is code splitting?
+Code splitting ni nini?
 
 #### --distractors--
 
-It involves splitting your React code into modules that perform only critical tasks
+Inahusisha kugawanya msimbo wako wa React katika moduli zinazofanya kazi muhimu tu.
 
 ---
 
-It involves splitting your HTML code into modules that perform only non-critical tasks.
+Inahusisha kugawanya msimbo wako wa HTML katika moduli zinazofanya kazi zisizo muhimu tu.
 
 ---
 
-It involves splitting your CSS code into modules that perform critical and non-critical tasks.
+Inahusisha kugawanya msimbo wako wa CSS katika moduli zinazofanya kazi muhimu na zisizo muhimu.
 
 #### --answer--
 
-It involves splitting your JavaScript code into modules that perform critical and non-critical tasks.
+Inahusisha kugawanya msimbo wako wa JavaScript katika moduli zinazofanya kazi muhimu na zisizo muhimu.
 
 ### --question--
 
 #### --text--
 
-Which of the following is the correct way to lazy load an image?
+Ni ipi kati ya zifuatazo ni njia sahihi ya kupakia picha kwa lazy load?
 
 #### --distractors--
 
@@ -453,43 +453,42 @@ Which of the following is the correct way to lazy load an image?
 
 #### --text--
 
-Which of the following is NOT a way to improve INP?
+Ni ipi kati ya zifuatazo SI njia ya kuboresha INP?
 
 #### --distractors--
 
-Reducing the main thread work by breaking up long JavaScript tasks.
+Kupunguza kazi ya nyuzi kuu kwa kugawanya kazi ndefu za JavaScript.
 
 ---
 
-Optimizing event handlers.
+Kuboresha mshughulikiaji wa matukio.
 
 ---
 
-Deferring or lazy-loading heavy assets.
+Kuchelewesha au kupakia kwa lazy mali nzito.
 
 #### --answer--
 
-Using only PNG and JPEG images.
+Kutumia picha za PNG na JPEG pekee.
 
 ### --question--
 
 #### --text--
 
-Why is energy efficiency a crucial aspect of web performance?
+Kwa nini ufanisi wa nishati ni kipengele muhimu cha utendaji wa mtandao?
 
 #### --distractors--
 
-It enhances the overall visual appeal of the webpage.
+Huinua mvuto wa jumla wa kuona wa ukurasa wa mtandao.
 
 ---
 
-It minimizes the amount of JavaScript used on a webpage.
+Inapunguza idadi ya JavaScript inayotumika kwenye ukurasa wa mtandao.
 
 ---
 
-It decreases the number of CSS files needed and makes your CSS run faster.
+Inapunguza idadi ya mafaili ya CSS yanayohitajika na kufanya CSS yako ifanye kazi kwa kasi zaidi.
 
 #### --answer--
 
-It reduces the load on hardware, conserving energy and improving sustainability.
-
+Inapunguza mzigo kwenye vifaa, kuokoa nishati na kuboresha uendelevu.

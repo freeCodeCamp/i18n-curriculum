@@ -1,25 +1,25 @@
 ---
 id: 65823bbbdb4eaa4f9d20a0fb
-title: Step 25
+title: Hatua 25
 challengeType: 20
 dashedName: step-25
 ---
 
 # --description--
 
-In the `total_expenses` function, you'll now integrate a lambda function. Replace `pass` with a lambda function that has `expense` as its parameter.
+Katika kitendakazi cha `total_expenses`, sasa utaunganisha kitendakazi cha lambda. Badilisha `pass` na kitendakazi cha lambda chenye `expense` kama kigezo chake.
 
-`expense` is expected to be a dictionary, and your lambda function should return the value of the `'amount'` key in the `expense` dictionary.
+`expense` inatarajiwa kuwa kamusi, na kitendakazi chako cha lambda kinapaswa kurudisha thamani ya ufunguo wa `'amount'` katika kamusi ya `expense`.
 
 # --hints--
 
-You should create a `lambda` function that uses the parameter `expense` and returns `expense['amount']` in your `total_expenses` function.
+Unapaswa kuunda kitendakazi cha `lambda` kinachotumia kigezo cha `expense` na kurudisha `expense['amount']` katika kitendakazi chako cha `total_expenses`.
 
 ```js
 ({ test: () => assert(runPython(`_Node(_code).find_function("total_expenses").has_stmt("lambda expense: expense['amount']")`)) })
 ```
 
-You should not have `pass` in your `total_expenses` function.
+Haupasi kuwa na `pass` katika kitendakazi chako cha `total_expenses`.
 
 ```js
 ({ test: () => assert.isFalse(runPython(`_Node(_code).find_function("total_expenses").has_pass()`)) })
@@ -32,11 +32,11 @@ You should not have `pass` in your `total_expenses` function.
 ```py
 def add_expense(expenses, amount, category):
     expenses.append({'amount': amount, 'category': category})
-
+    
 def print_expenses(expenses):
     for expense in expenses:
         print(f'Amount: {expense["amount"]}, Category: {expense["category"]}')
-
+    
 --fcc-editable-region--
 def total_expenses(expenses):
     pass

@@ -1,6 +1,6 @@
 ---
 id: 67baf3ed288e8b06f4ab0dfb
-title: Task 76
+title: Zoezi la 76
 challengeType: 22
 dashedName: task-76
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Sikiliza sauti na ukamilishe sentensi ifuatayo.
 
 # --fillInTheBlank--
 
@@ -22,23 +22,23 @@ Listen to the audio and complete the sentence below.
 
 `team spirit`
 
-### --feedback--
+### --feedback--  
 
-These two words together refer to the sense of unity and cooperation among coworkers. The first word refers to a group working together, and the second word relates to shared enthusiasm or motivation.
+Maneno haya mawili pamoja yanahusu hisia ya umoja na ushirikiano kati ya wafanyakazi. Neno la kwanza linahusu kundi linalofanya kazi pamoja, na neno la pili linahusiana na hamasa au msukumo wa pamoja.
 
 ---
 
 `problem-solving`
 
-### --feedback--
+### --feedback--  
 
-This compound word refers to the process of finding solutions to challenges. The first part refers to an issue that needs to be fixed, and the second part is a verb meaning finding a solution. Remember to use `-` between the two parts.
+Neno hili mchanganyiko linahusu mchakato wa kupata suluhisho kwa changamoto. Sehemu ya kwanza inahusu tatizo linalohitaji kutatuliwa, na sehemu ya pili ni kitenzi kinachomaanisha kupata suluhisho. Kumbuka kutumia `-` kati ya sehemu hizi mbili.
 
 # --explanation--
 
-David believes that working in the office helps strengthen `team spirit` (a sense of connection and unity among coworkers) and improves `problem-solving` (finding solutions to challenges more efficiently).
+David anaamini kuwa kufanya kazi ofisini husaidia kuimarisha `team spirit` (hisia ya muunganiko na umoja kati ya wafanyakazi) na kuboresha `problem-solving` (kupata suluhisho kwa changamoto kwa ufanisi zaidi).
 
-He argues that being in the same physical space makes it easier for employees to collaborate and support one another.
+Anadai kuwa kuwa katika nafasi moja ya kimwili hufanya iwe rahisi kwa wafanyakazi kushirikiana na kusaidiana.
 
 # --scene--
 
