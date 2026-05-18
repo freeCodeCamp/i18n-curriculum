@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c443edefaeb5bdef
-title: Timestamp Microservice
+title: Zeitstempel-Microservice
 challengeType: 4
 forumTopicId: 301508
 dashedName: timestamp-microservice
@@ -8,16 +8,16 @@ dashedName: timestamp-microservice
 
 # --description--
 
-Build a full-stack JavaScript app that is functionally similar to this: <a href="https://timestamp-microservice.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://timestamp-microservice.freecodecamp.rocks</a>. Working on this project will involve you writing your code using one of the following methods:
+Erstellen Sie eine Full-Stack-JavaScript-App, die funktional ähnlich ist wie diese: <a href="https://timestamp-microservice.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://timestamp-microservice.freecodecamp.rocks</a>. Die Arbeit an diesem Projekt erfordert, dass Sie Ihren Code mit einer der folgenden Methoden schreiben:
 
--   Clone <a href="https://github.com/freeCodeCamp/boilerplate-project-timestamp/"  target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete your project locally.
--   Use a site builder of your choice to complete the project. Be sure to incorporate all the files from our GitHub repo.
+-   Klonen Sie <a href="https://github.com/freeCodeCamp/boilerplate-project-timestamp/"  target="_blank" rel="noopener noreferrer nofollow">dieses GitHub-Repository</a> und vervollständigen Sie Ihr Projekt lokal.
+-   Verwenden Sie einen Website-Builder Ihrer Wahl, um das Projekt abzuschließen. Stellen Sie sicher, dass Sie alle Dateien aus unserem GitHub-Repository einbinden.
 
-**Note:** Time zones conversion is not a purpose of this project, so assume all sent valid dates will be parsed with `new Date()` as GMT dates.
+**Hinweis:** Die Umrechnung von Zeitzonen ist nicht Zweck dieses Projekts, daher gehen Sie davon aus, dass alle gesendeten gültigen Daten mit `new Date()` als GMT-Daten geparst werden. 
 
 # --hints--
 
-You should provide your own project, not the example URL.
+Sie sollten Ihr eigenes Projekt bereitstellen, nicht die Beispiel-URL.
 
 ```js
   assert(
@@ -25,7 +25,7 @@ You should provide your own project, not the example URL.
   );
 ```
 
-A request to `/api/:date?` with a valid date should return a JSON object with a `unix` key that is a Unix timestamp of the input date in milliseconds (as type Number)
+Eine Anfrage an `/api/:date?` mit einem gültigen Datum sollte ein JSON-Objekt mit einem `unix`-Schlüssel zurückgeben, der ein Unix-Zeitstempel des Eingabedatums in Millisekunden ist (vom Typ Number)
 
 ```js
   const response = await fetch(code + '/api/2016-12-25');
@@ -40,7 +40,7 @@ A request to `/api/:date?` with a valid date should return a JSON object with a 
   );
 ```
 
-A request to `/api/:date?` with a valid date should return a JSON object with a `utc` key that is a string of the input date in the format: `Thu, 01 Jan 1970 00:00:00 GMT`
+Eine Anfrage an `/api/:date?` mit einem gültigen Datum sollte ein JSON-Objekt mit einem `utc`-Schlüssel zurückgeben, der ein String des Eingabedatums im Format ist: `Thu, 01 Jan 1970 00:00:00 GMT`
 
 ```js
   const response = await fetch(code + '/api/2016-12-25');
@@ -55,7 +55,7 @@ A request to `/api/:date?` with a valid date should return a JSON object with a 
   );
 ```
 
-A request to `/api/1451001600000` should return `{ unix: 1451001600000, utc: "Fri, 25 Dec 2015 00:00:00 GMT" }`
+Eine Anfrage an `/api/1451001600000` sollte `{ unix: 1451001600000, utc: "Fri, 25 Dec 2015 00:00:00 GMT" }` zurückgeben
 
 ```js
   const response = await fetch(code + '/api/1451001600000');
@@ -69,7 +69,7 @@ A request to `/api/1451001600000` should return `{ unix: 1451001600000, utc: "Fr
   );
 ```
 
-Your project can handle dates that can be successfully parsed by `new Date(date_string)`
+Ihr Projekt kann Daten verarbeiten, die erfolgreich von `new Date(date_string)` geparst werden können
 
 ```js
   const response = await fetch(code + '/api/05 October 2011, GMT');
@@ -83,7 +83,7 @@ Your project can handle dates that can be successfully parsed by `new Date(date_
   );
 ```
 
-If the input date string is invalid, the API returns an object having the structure `{ error : "Invalid Date" }`
+Wenn der Eingabe-Datum-String ungültig ist, gibt die API ein Objekt mit der Struktur `{ error : "Invalid Date" }` zurück
 
 ```js
   const response = await fetch(code + '/api/this-is-not-a-date');
@@ -96,7 +96,7 @@ If the input date string is invalid, the API returns an object having the struct
   }
 ```
 
-An empty date parameter should return the current time in a JSON object with a `unix` key
+Ein leerer Datumsparameter sollte die aktuelle Zeit in einem JSON-Objekt mit einem `unix`-Schlüssel zurückgeben
 
 ```js
   const response = await fetch(code + '/api');
@@ -108,7 +108,7 @@ An empty date parameter should return the current time in a JSON object with a `
   assert.approximately(data.unix, now, 20000);
 ```
 
-An empty date parameter should return the current time in a JSON object with a `utc` key
+Ein leerer Datumsparameter sollte die aktuelle Zeit in einem JSON-Objekt mit einem `utc`-Schlüssel zurückgeben
 
 ```js
   const response = await fetch(code + '/api');

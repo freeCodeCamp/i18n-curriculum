@@ -1,6 +1,6 @@
 ---
 id: c6c9dae4017830e187eeaf42
-title: Return Statement
+title: Return-Anweisung
 challengeType: 11
 videoId: Gx3VTsaMCHU
 dashedName: return-statement
@@ -8,13 +8,13 @@ dashedName: return-statement
 
 # --description--
 
-In this video, you will learn how to use the return statement in functions.
+In diesem Video lernen Sie, wie Sie die return-Anweisung in Funktionen verwenden.
 
 # --questions--
 
 ## --text--
 
-What will be the output for the following code?
+Was wird die Ausgabe für den folgenden Code sein?
 
 ```python
 def cube(num):

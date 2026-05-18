@@ -1,49 +1,49 @@
 ---
 id: 63eff98ffb1d5a0d24ec79cb
-title: Step 26
+title: Schritt 26
 challengeType: 0
 dashedName: step-26
 ---
 
 # --description--
 
-Du hast den Code für die HTML-Generierung noch nicht geschrieben, aber wenn ein Produkt bereits in den Einkaufswagen des Nutzers gelegt wurde, wird ein entsprechendes Element vorhanden sein, das du benötigst.
+Sie haben den Code zur Generierung des HTML noch nicht geschrieben, aber wenn ein Produkt bereits zum Warenkorb des Benutzers hinzugefügt wurde, gibt es ein passendes Element, das Sie benötigen.
 
-Verwende `.getElementById()`, um das passende Element zu erhalten - du wirst den Wert von `id` auf `product-count-for-id${product.id}` setzen, also verwende ein Template-Literal, um diesen Wert abzufragen.
+Verwenden Sie `.getElementById()`, um das passende Element zu erhalten – Sie werden den Wert von `id` auf `product-count-for-id${product.id}` setzen, also verwenden Sie eine Template-Literal, um diesen Wert abzufragen.
 
-Weise deine Query einer `currentProductCountSpan`-Variablen zu.
+Weisen Sie Ihre Abfrage einer `currentProductCountSpan`-Variablen zu.
 
 # --hints--
 
-Du solltest eine `currentProductCountSpan`-Variable deklarieren.
+Sie sollten eine `currentProductCountSpan`-Variable deklarieren.
 
 ```js
 const cart = new ShoppingCart();
 assert.match(cart.addItem.toString(), /currentProductCountSpan\s*=/);
 ```
 
-Du solltest `const` verwenden, um `currentProductCountSpan` zu deklarieren.
+Sie sollten `const` verwenden, um `currentProductCountSpan` zu deklarieren.
 
 ```js
 const afterAdd = code.split("addItem")[1];
 assert.match(afterAdd, /const\s+currentProductCountSpan\s*=/);
 ```
 
-Du solltest `document.getElementById()` verwenden, um das übereinstimmende Element zu erhalten.
+Sie sollten `document.getElementById()` verwenden, um das passende Element zu erhalten.
 
 ```js
 const cart = new ShoppingCart();
 assert.match(cart.addItem.toString(), /document\.getElementById\(/);
 ```
 
-Du solltest ein Template-Literal verwenden, um den `id`-Wert abzufragen.
+Sie sollten eine Template-Literal verwenden, um den `id`-Wert abzufragen.
 
 ```js
 const afterAdd = code.split("addItem")[1];
 assert.match(afterAdd, /document\.getElementById\(\s*`product-count-for-id\$\{(product\.)?id\}`\s*\)/);
 ```
 
-Du solltest den Wert von `document.getElementById()` dem `currentProductCountSpan` zuweisen.
+Sie sollten den Wert von `document.getElementById()` `currentProductCountSpan` zuweisen.
 
 ```js
 const cart = new ShoppingCart();

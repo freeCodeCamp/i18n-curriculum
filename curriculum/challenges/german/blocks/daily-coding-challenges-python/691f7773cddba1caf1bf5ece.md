@@ -7,15 +7,15 @@ dashedName: challenge-135
 
 # --description--
 
-Given a string representing the subject line of an email, determine how many times the email has been forwarded or replied to.
+Gegeben ist ein String, der die Betreffzeile einer E-Mail darstellt. Bestimmen Sie, wie oft die E-Mail weitergeleitet oder beantwortet wurde.
 
-For simplicity, consider an email forwarded or replied to if the string contains any of the following markers (case-insensitive):
+Zur Vereinfachung gilt eine E-Mail als weitergeleitet oder beantwortet, wenn der String einen der folgenden Marker enthält (Groß- und Kleinschreibung wird nicht beachtet):
 
 - `"fw:"`
 - `"fwd:"`
 - `"re:"`
 
-Return the total number of occurrences of these markers.
+Geben Sie die Gesamtanzahl der Vorkommen dieser Marker zurück.
 
 # --hints--
 

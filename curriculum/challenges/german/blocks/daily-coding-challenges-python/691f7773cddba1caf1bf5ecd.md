@@ -7,23 +7,23 @@ dashedName: challenge-134
 
 # --description--
 
-Given an amount of money you have, and an array of items you want to buy, determine how many of them you can afford.
+Gegeben ist ein Geldbetrag, den Sie haben, und ein Array von Artikeln, die Sie kaufen möchten. Bestimmen Sie, wie viele davon Sie sich leisten können.
 
-- The given amount will be in the format `["Amount", "Currency Code"]`. For example: `["150.00", "USD"]` or `["6000", "JPY"]`.
-- Each array item you want to purchase will be in the same format.
+- Der angegebene Betrag liegt im Format `["Amount", "Currency Code"]` vor. Zum Beispiel: `["150.00", "USD"]` oder `["6000", "JPY"]`.
+- Jeder Artikel im Array, den Sie kaufen möchten, liegt im gleichen Format vor.
 
-Use the following exchange rates to convert values:
+Verwenden Sie die folgenden Wechselkurse, um die Werte umzurechnen:
 
-| Currency | 1 Unit Equals |
-| -------- | ------------- |
-| USD      | 1.00 USD      |
-| EUR      | 1.10 USD      |
-| GBP      | 1.25 USD      |
-| JPY      | 0.0070 USD    |
-| CAD      | 0.75 USD      |
+|Währung|1 Einheit entspricht|
+|-|-|
+|USD|1,00 USD|
+|EUR|1,10 USD|
+|GBP|1,25 USD|
+|JPY|0,0070 USD|
+|CAD|0,75 USD|
 
-- If you can afford all the items in the list, return `"Buy them all!"`.
-- Otherwise, return `"Buy the first X items."`, where `X` is the number of items you can afford when purchased in the order given.
+- Wenn Sie sich alle Artikel in der Liste leisten können, geben Sie `"Buy them all!"` zurück.
+- Andernfalls geben Sie `"Buy the first X items."` zurück, wobei `X` die Anzahl der Artikel ist, die Sie sich leisten können, wenn Sie sie in der angegebenen Reihenfolge kaufen.
 
 
 # --hints--

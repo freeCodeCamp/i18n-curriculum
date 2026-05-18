@@ -1,6 +1,6 @@
 ---
 id: 657e4ec6dd27af9cc16addea
-title: Task 79
+title: Aufgabe 79
 challengeType: 19
 dashedName: task-79
 lang: en-US
@@ -10,43 +10,43 @@ lang: en-US
 
 # --description--
 
-`Regulations` are official rules made by a government or authority. They are designed to control how something works or how people act, especially in businesses. For example:
+`Regulations` sind offizielle Regeln, die von einer Regierung oder Behörde erlassen werden. Sie sollen steuern, wie etwas funktioniert oder wie Menschen sich verhalten, besonders in Unternehmen. Zum Beispiel:
 
-`Health and safety regulations ensure a safe workplace.` - This means health and safety rules help make the workplace safe for everyone.
+`Health and safety regulations ensure a safe workplace.` – Das bedeutet, dass Gesundheits- und Sicherheitsvorschriften dazu beitragen, den Arbeitsplatz für alle sicher zu machen.
 
 # --questions--
 
 ## --text--
 
-What are `regulations` usually in a business context?
+Was sind `regulations` üblicherweise im geschäftlichen Kontext?
 
 ## --answers--
 
-Personal preferences.
+Persönliche Vorlieben.
 
 ### --feedback--
 
-`Regulations` are formal rules, not personal preferences.
+`Regulations` sind formelle Regeln, keine persönlichen Vorlieben.
 
 ---
 
-Informal team agreements.
+Informelle Teamvereinbarungen.
 
 ### --feedback--
 
-`Regulations` are more formal than informal agreements.
+`Regulations` sind formeller als informelle Vereinbarungen.
 
 ---
 
-Official rules set by authorities.
+Offizielle Regeln, die von Behörden festgelegt werden.
 
 ---
 
-Suggestions for leisure activities.
+Vorschläge für Freizeitaktivitäten.
 
 ### --feedback--
 
-`Regulations` are about professional conduct, not leisure.
+`Regulations` betreffen professionelles Verhalten, nicht die Freizeit.
 
 ## --video-solution--
 

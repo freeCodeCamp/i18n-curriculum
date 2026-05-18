@@ -8,11 +8,11 @@ dashedName: add-two-numbers-with-javascript
 
 # --description--
 
-`Number` is a data type in JavaScript which represents numeric data.
+`Number` ist ein Datentyp in JavaScript, der numerische Daten darstellt.
 
-Lass uns versuchen, zwei Zahlen mit JavaScript zu addieren.
+Versuchen wir nun, mit JavaScript zwei Zahlen zu addieren.
 
-JavaScript verwendet das Symbol `+` als Additionsoperator, wenn es zwischen zwei Zahlen steht.
+JavaScript verwendet das `+`-Symbol als Additionsoperator, wenn es zwischen zwei Zahlen steht.
 
 **Beispiel:**
 
@@ -24,7 +24,7 @@ const myVar = 5 + 10;
 
 # --instructions--
 
-Ändere die `0` so, dass die Summe gleich `20` wird.
+Ändern Sie das `0`, sodass sum gleich `20` ist.
 
 # --hints--
 
@@ -34,7 +34,7 @@ const myVar = 5 + 10;
 assert(sum === 20);
 ```
 
-Du solltest den Operator `+` verwenden.
+Sie sollten den `+`-Operator verwenden.
 
 ```js
 assert(/\+/.test(__helpers.removeJSComments(code)));

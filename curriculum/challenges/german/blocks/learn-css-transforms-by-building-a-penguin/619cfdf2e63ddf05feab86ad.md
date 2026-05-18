@@ -1,23 +1,23 @@
 ---
 id: 619cfdf2e63ddf05feab86ad
-title: Step 47
+title: Schritt 47
 challengeType: 0
 dashedName: step-47
 ---
 
 # --description--
 
-Position the `.face` elements so that they are `15%` from the top.
+Positionieren Sie die `.face`-Elemente so, dass sie `15%` vom oberen Rand entfernt sind.
 
 # --hints--
 
-You should give `.face` a `top` property.
+Sie sollten `.face` eine `top`-Eigenschaft geben.
 
 ```js
 assert.notEmpty(new __helpers.CSSHelp(document).getStyle('.face')?.top);
 ```
 
-You should give `.face` a `top` of `--fcc-expected--`, but found `--fcc-actual--`.
+Sie sollten `.face` eine `top` von `--fcc-expected--` geben, aber es wurde `--fcc-actual--` gefunden.
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('.face')?.top, '15%');

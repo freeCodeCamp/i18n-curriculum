@@ -10,15 +10,15 @@ lang: en-US
 
 # --description--
 
-The preposition `at` indicates a point on a map. It tells you a specific location or position. It helps you understand where something is happening or where someone is.
+Die Präposition `at` gibt einen Punkt auf einer Karte an. Sie zeigt Ihnen einen bestimmten Ort oder eine Position. Sie hilft Ihnen zu verstehen, wo etwas passiert oder wo sich jemand befindet.
 
 Beispiele:
 
-`We'll meet at the coffee shop.` (in this sentence, `at` is used to specify the location where the meeting will take place - the coffee shop).
+`We'll meet at the coffee shop.` (in diesem Satz wird `at` verwendet, um den Ort anzugeben, an dem das Treffen stattfinden wird – das Café).
 
-`I'll be waiting for you at the bus stop.` (`at` is used here to indicate the location where someone will be waiting - the bus stop).
+`I'll be waiting for you at the bus stop.` (`at` wird hier verwendet, um den Ort anzugeben, an dem jemand warten wird – die Bushaltestelle).
 
-Listen to the sentence and fill in the blank.
+Hören Sie sich den Satz an und füllen Sie die Lücke aus.
 
 # --fillInTheBlank--
 
@@ -32,7 +32,7 @@ Listen to the sentence and fill in the blank.
 
 ### --feedback--
 
-The preposition used to help you understand where something is or happens.
+Die Präposition, die Ihnen hilft zu verstehen, wo etwas ist oder passiert.
 
 # --scene--
 

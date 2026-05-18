@@ -12,13 +12,13 @@ lang: en-US
 
 # --instructions--
 
-Höre dir die Audio an und beantworte die Frage unten.
+Hören Sie sich die Audioaufnahme an und beantworten Sie die folgende Frage.
 
 # --questions--
 
 ## --text--
 
-Jake doesn't mind discussing an issue with Jessica. What can he say?
+Jake hat nichts dagegen, das Problem mit Jessica zu besprechen. Was kann er sagen?
 
 ## --answers--
 
@@ -38,21 +38,21 @@ EN9d00ecb9
 
 ### --feedback--
 
-This answer does not match the prompt because Jake doesn't mind discussing the issue.
+Diese Antwort passt nicht zur Aufgabe, weil Jake nichts dagegen hat, das Problem zu besprechen.
 
 ## --video-solution--
 
 1
 
-# --explanation--
+# --explanation-- 
 
-Jessica asks, `Do you have any ideas?`, which is a way of inviting someone to share their thoughts or opinions.
+Jessica fragt, `Do you have any ideas?`, was eine Einladung ist, Gedanken oder Meinungen zu teilen.
 
-`Sure, Jessica` is a way to show that you're open to discussing the issue. Another example:
+`Sure, Jessica` ist eine Möglichkeit zu zeigen, dass man offen dafür ist, das Problem zu besprechen. Ein weiteres Beispiel:
 
-- **Noah:** `Do you have any ideas how to fix it?` - This person is asking for suggestions or solutions.
+- **Noah:** `Do you have any ideas how to fix it?` – Diese Person bittet um Vorschläge oder Lösungen.
 
-- **David:** `Sure. We could check the server logs and see what's wrong.` - This person is saying yes, and is ready to share a suggestion.
+- **David:** `Sure. We could check the server logs and see what's wrong.` – Diese Person sagt ja und ist bereit, einen Vorschlag zu machen.
 
 # --scene--
 

@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9aedf0887a
-title: Headline with the h2 Element
+title: Überschrift mit dem h2-Element
 challengeType: 0
 videoUrl: 'https://scrimba.com/p/pVMPUv/cE8Gqf3'
 forumTopicId: 18196
@@ -9,44 +9,44 @@ dashedName: headline-with-the-h2-element
 
 # --description--
 
-Over the next few lessons, we'll build an HTML5 cat photo web app piece-by-piece.
+In den nächsten Lektionen bauen wir Schritt für Schritt eine HTML5-Web-App für Katzenfotos.
 
-The `h2` element you will be adding in this step will add a level two heading to the web page.
+Das `h2`-Element, das Sie in diesem Schritt hinzufügen, fügt der Webseite eine Überschrift der Ebene zwei hinzu.
 
-This element tells the browser about the structure of your website. `h1` elements are often used for main headings, while `h2` elements are generally used for subheadings. There are also `h3`, `h4`, `h5` and `h6` elements to indicate different levels of subheadings.
+Dieses Element informiert den Browser über die Struktur Ihrer Webseite. `h1`-Elemente werden oft für Hauptüberschriften verwendet, während `h2`-Elemente in der Regel für Unterüberschriften genutzt werden. Es gibt außerdem `h3`-, `h4`-, `h5`- und `h6`-Elemente, um verschiedene Ebenen von Unterüberschriften anzuzeigen.
 
 # --instructions--
 
-Add an `h2` tag that says "CatPhotoApp" to create a second HTML element below your "Hello World" `h1` element.
+Fügen Sie ein `h2`-Tag hinzu, das „CatPhotoApp“ sagt, um ein zweites HTML-Element unter Ihrem „Hello World“-`h1`-Element zu erstellen.
 
 # --hints--
 
-You should create an `h2` element.
+Sie sollten ein `h2`-Element erstellen.
 
 ```js
 assert.lengthOf(document.querySelectorAll('h2'),1);
 ```
 
-Your `h2` element should have a closing tag.
+Ihr `h2`-Element sollte ein schließendes Tag haben.
 
 ```js
 assert.match(code,/<\/h2>/g);
 assert.strictEqual(code.match(/<\/h2>/g).length,code.match(/<h2>/g).length);
 ```
 
-Your `h2` element should have the text `CatPhotoApp`.
+Ihr `h2`-Element sollte den Text `CatPhotoApp` enthalten.
 
 ```js
 assert.match(document.querySelector('h2').textContent,/cat(\s)?photo(\s)?app/gi);
 ```
 
-Your `h1` element should have the text `Hello World`.
+Ihr `h1`-Element sollte den Text `Hello World` enthalten.
 
 ```js
 assert.match(document.querySelector('h1').textContent,/hello(\s)+world/gi);
 ```
 
-Your `h1` element should be before your `h2` element.
+Ihr `h1`-Element sollte vor Ihrem `h2`-Element stehen.
 
 ```js
 assert.match(code,/<h1>\s*?.*?\s*?<\/h1>\s*<h2>\s*?.*?\s*?<\/h2>/gi);

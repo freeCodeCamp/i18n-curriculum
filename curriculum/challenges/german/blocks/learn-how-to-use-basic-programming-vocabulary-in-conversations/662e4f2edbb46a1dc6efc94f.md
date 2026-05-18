@@ -1,6 +1,6 @@
 ---
 id: 662e4f2edbb46a1dc6efc94f
-title: Task 37
+title: Aufgabe 37
 challengeType: 22
 dashedName: task-37
 lang: en-US
@@ -10,9 +10,9 @@ lang: en-US
 
 # --description--
 
-`Common` is used to describe something that happens often or is widely shared among many people. For example, `Colds are a common illness during the winter.` This means it's a usual health issue many people face during that time of year.
+`Common` wird verwendet, um etwas zu beschreiben, das häufig vorkommt oder von vielen Menschen geteilt wird. Zum Beispiel `Colds are a common illness during the winter.`. Das bedeutet, dass es ein übliches Gesundheitsproblem ist, mit dem viele Menschen zu dieser Jahreszeit konfrontiert sind.
 
-`Challenge` refers to a task or situation that requires special effort to accomplish because it is difficult. For instance, `Learning to ride a bike was a big challenge for her at first.` This sentence describes how learning to ride a bike presented difficulties initially.
+`Challenge` bezeichnet eine Aufgabe oder Situation, die besondere Anstrengung erfordert, weil sie schwierig ist. Zum Beispiel `Learning to ride a bike was a big challenge for her at first.`. Dieser Satz beschreibt, wie das Fahrradfahren lernen anfangs Schwierigkeiten bereitete.
 
 # --fillInTheBlank--
 
@@ -26,7 +26,7 @@ lang: en-US
 
 ### --feedback--
 
-This adjective describes something that occurs frequently or is usual among a group.
+Dieses Adjektiv beschreibt etwas, das häufig vorkommt oder üblich ist in einer Gruppe.
 
 ---
 
@@ -34,7 +34,7 @@ This adjective describes something that occurs frequently or is usual among a gr
 
 ### --feedback--
 
-This noun refers to a difficult task or problem that requires effort to solve or overcome.
+Dieses Substantiv bezeichnet eine schwierige Aufgabe oder ein Problem, das Anstrengung erfordert, um es zu lösen oder zu überwinden.
 
 # --scene--
 

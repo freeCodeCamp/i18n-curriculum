@@ -7,13 +7,13 @@ dashedName: step-43
 
 # --description--
 
-Der nächste Schritt besteht darin, die Position des Spielers zu aktualisieren, wenn er sich während des Spiels bewegt.
+Der nächste Schritt besteht darin, die Position des Spielers zu aktualisieren, während er sich im Spiel bewegt.
 
-Rufe die `update()`-Methode für den Spieler unter deinem `ctx.clearRect()` auf.
+Rufen Sie unter Ihrem `ctx.clearRect()` die `update()`-Methode beim Spieler auf.
 
 # --hints--
 
-Du solltest die Methode `update()` für den Spieler aufrufen.
+Sie sollten die `update()`-Methode beim Spieler aufrufen.
 
 ```js
 assert.match(code, /\s*player\s*\.\s*update\s*\(\s*\)\s*;?/);
@@ -189,7 +189,7 @@ class Player {
     ctx.fillStyle = "#99c9ff";
     ctx.fillRect(this.position.x, this.position.y, this.width, this.height);
   }
-
+  
   update() {
     this.draw();
     this.position.x += this.velocity.x;

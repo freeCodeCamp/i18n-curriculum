@@ -1,6 +1,6 @@
 ---
 id: 68bb001c22f3bcbd1fdf38fa
-title: Task 1
+title: Aufgabe 1
 challengeType: 19
 dashedName: task-1
 lang: es
@@ -10,17 +10,18 @@ lang: es
 
 # --description--
 
-Elena wants to say "hi". You'll hear this word all the time in Spanish when people meet each other.
+Elena möchte „Hallo“ sagen. Dieses Wort hören Sie im Spanischen ständig, wenn sich Menschen begegnen.
 
 # --instructions--
 
-Listen to the audio and answer the question below. There's just **one** correct answer. If you need help, click on **explanation** at the bottom of the lesson.
+Hören Sie sich die Audioaufnahme an und beantworten Sie die folgende Frage.  
+Es gibt nur **eine** richtige Antwort. Wenn Sie Hilfe benötigen, klicken Sie unten in der Lektion auf **Erklärung**.
 
 # --questions--
 
 ## --text--
 
-What word does Elena use to say "hi"?
+Welches Wort verwendet Elena, um „Hallo“ zu sagen?
 
 ## --answers--
 
@@ -32,7 +33,7 @@ What word does Elena use to say "hi"?
 
 ### --feedback--
 
-This means the opposite of what the speaker says. Open the explanation section if you need further help.
+Das bedeutet das Gegenteil von dem, was die Sprecherin sagt. Öffnen Sie den Erklärungsabschnitt, wenn Sie weitere Hilfe benötigen.
 
 ---
 
@@ -40,7 +41,7 @@ This means the opposite of what the speaker says. Open the explanation section i
 
 ### --feedback--
 
-This means the opposite of what the speaker says. Open the explanation section if you need further help.
+Das bedeutet das Gegenteil von dem, was die Sprecherin sagt. Öffnen Sie den Erklärungsabschnitt, wenn Sie weitere Hilfe benötigen.
 
 ---
 
@@ -48,7 +49,7 @@ This means the opposite of what the speaker says. Open the explanation section i
 
 ### --feedback--
 
-This means "Good morning", but it's not what you hear in the audio.
+Das bedeutet „Guten Morgen“, aber es ist nicht das, was Sie in der Audioaufnahme hören.
 
 ## --video-solution--
 
@@ -56,9 +57,9 @@ This means "Good morning", but it's not what you hear in the audio.
 
 # --explanation--
 
-The word `Hola` is a greeting. It's used when you meet someone, similar to "Hello" or "Hi". For example:
+Das Wort `Hola` ist eine Begrüßung. Es wird verwendet, wenn man jemanden trifft, ähnlich wie „Hello“ oder „Hi“. Zum Beispiel:
 
-`¡Hola, buenos días!` – Hi, good morning!
+`¡Hola, buenos días!` – Hi, guten Morgen!
 
 # --scene--
 

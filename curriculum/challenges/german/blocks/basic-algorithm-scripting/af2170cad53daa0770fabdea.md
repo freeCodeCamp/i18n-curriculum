@@ -1,6 +1,6 @@
 ---
 id: af2170cad53daa0770fabdea
-title: Mutations
+title: Mutationen
 challengeType: 1
 forumTopicId: 16025
 dashedName: mutations
@@ -8,13 +8,13 @@ dashedName: mutations
 
 # --description--
 
-Return `true` if the string in the first element of the array contains all of the letters of the string in the second element of the array.
+Geben Sie `true` zurück, wenn der String im ersten Element des Arrays alle Buchstaben des Strings im zweiten Element des Arrays enthält.
 
-Zum Beispiel sollte `["hello", "Hello"]` den Wert `true` zurückgeben, weil unabhängig von der Groß- und Kleinschreibung, alle Buchstaben des zweiten Strings im ersten enthalten sind.
+Zum Beispiel sollte `["hello", "Hello"]` `true` zurückgeben, weil alle Buchstaben des zweiten Strings im ersten vorhanden sind, wobei die Groß- und Kleinschreibung ignoriert wird.
 
-Die Argumente `["hello", "hey"]` sollten `false` zurückgeben, weil der String `hello` kein `y` beinhaltet.
+Die Argumente `["hello", "hey"]` sollten `false` zurückgeben, weil der String `hello` kein `y` enthält.
 
-Schließlich sollte `["Alien", "line"]` den Wert `true` zurückgeben, weil alle Buchstaben von `line` in `Alien` vorhanden sind.
+Schließlich sollte `["Alien", "line"]` `true` zurückgeben, weil alle Buchstaben in `line` in `Alien` vorhanden sind.
 
 # --hints--
 

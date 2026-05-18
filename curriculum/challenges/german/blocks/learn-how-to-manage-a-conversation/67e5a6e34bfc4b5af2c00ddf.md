@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Höre dir die Audio an, um die unteren Sätze zu vervollständigen.
+Hören Sie sich das Audio an und vervollständigen Sie den Satz unten.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Höre dir die Audio an, um die unteren Sätze zu vervollständigen.
 
 ### --feedback--
 
-This means very serious or important. It is often used when something needs immediate attention.
+Das bedeutet sehr ernst oder wichtig. Es wird oft verwendet, wenn etwas sofortige Aufmerksamkeit benötigt.
 
 ---
 
@@ -32,17 +32,17 @@ This means very serious or important. It is often used when something needs imme
 
 ### --feedback--
 
-This means to change or influence something. It often describes how one thing causes a change in another.
+Das bedeutet, etwas zu verändern oder zu beeinflussen. Es beschreibt oft, wie eine Sache eine andere verändert.
 
 # --explanation--
 
-`Critical` means extremely important or serious. Zum Beispiel:
+`Critical` bedeutet äußerst wichtig oder ernst. Zum Beispiel:
 
-`We have a critical deadline tomorrow.` – This means the deadline is very important and cannot be missed.
+`We have a critical deadline tomorrow.` – Das bedeutet, die Frist ist sehr wichtig und darf nicht verpasst werden.
 
-`To affect` means to have an influence on something or cause a change. For example:
+`To affect` bedeutet, Einfluss auf etwas zu haben oder eine Veränderung zu bewirken. Zum Beispiel:
 
-`The new policy may affect employee performance.` – This means the policy might change how employees perform.
+`The new policy may affect employee performance.` – Das bedeutet, die Richtlinie könnte beeinflussen, wie Mitarbeitende arbeiten.
 
 # --scene--
 

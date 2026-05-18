@@ -1,6 +1,6 @@
 ---
 id: 679d62d4afabb9cb6f9ece23
-title: Task 106
+title: Aufgabe 106
 challengeType: 19
 dashedName: task-106
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Hören Sie sich die Audioaufnahme an und beantworten Sie die folgende Frage.
 
 # --questions--
 
 ## --text--
 
-What does Maria want to avoid doing, and why?
+Was möchte Maria vermeiden, und warum?
 
 ## --answers--
 
-She wants to avoid fixing the problem.
+Sie möchte vermeiden, das Problem zu beheben.
 
 ### --feedback--
 
-Maria is not saying they shouldn't fix the problem.
+Maria sagt nicht, dass sie das Problem nicht beheben sollten.
 
 ---
 
-She wants to avoid asking for help.
+Sie möchte vermeiden, um Hilfe zu bitten.
 
 ### --feedback--
 
-Maria does not mention asking for help.
+Maria erwähnt nicht, dass sie um Hilfe bitten sollten.
 
 ---
 
-She wants to avoid rushing because it could cause more problems.
+Sie möchte vermeiden, zu hetzen, weil das zu mehr Problemen führen könnte.
 
 ---
 
-She wants to avoid updating the software.
+Sie möchte vermeiden, die Software zu aktualisieren.
 
 ### --feedback--
 
-Maria does not say they should avoid updating.
+Maria sagt nicht, dass sie das Aktualisieren vermeiden sollten.
 
 ## --video-solution--
 
@@ -52,11 +52,11 @@ Maria does not say they should avoid updating.
 
 # --explanation--
 
-`To lead to problems` means that an action or decision could result in difficulties or negative consequences. For example:
+`To lead to problems` bedeutet, dass eine Handlung oder Entscheidung zu Schwierigkeiten oder negativen Folgen führen könnte. Zum Beispiel:
 
-`Skipping the testing phase can lead to serious problems in the software.` - This means that not testing properly might cause major technical issues.
+`Skipping the testing phase can lead to serious problems in the software.` – Das bedeutet, dass unzureichendes Testen zu großen technischen Problemen führen kann.
 
-In this dialogue, Maria is concerned that rushing could create additional issues.
+In diesem Dialog sorgt sich Maria, dass Hetzen zusätzliche Probleme verursachen könnte.
 
 # --scene--
 

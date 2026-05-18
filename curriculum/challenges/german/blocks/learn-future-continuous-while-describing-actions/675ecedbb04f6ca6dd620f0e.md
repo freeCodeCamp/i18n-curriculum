@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Höre dir die Audio an, um die unteren Sätze zu vervollständigen.
+Hören Sie sich die Audioaufnahme an und vervollständigen Sie den folgenden Satz.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Höre dir die Audio an, um die unteren Sätze zu vervollständigen.
 
 ### --feedback--
 
-This is a type of cyberattack where a hacker secretly gets in the middle of two people or systems talking to each other. The hacker can see, change, or steal information being shared without anyone knowing. This is a compound word, remember to use `-`. The first letters of the first and the forth word are capitalized.
+Dies ist eine Art von Cyberangriff, bei dem ein Hacker heimlich zwischen zwei Personen oder Systemen, die miteinander kommunizieren, eingeschleust wird. Der Hacker kann die geteilten Informationen sehen, ändern oder stehlen, ohne dass es jemand bemerkt. Dies ist ein zusammengesetztes Wort, denken Sie daran, `-` zu verwenden. Die ersten Buchstaben des ersten und des vierten Wortes sind großgeschrieben.
 
 ---
 
@@ -32,17 +32,17 @@ This is a type of cyberattack where a hacker secretly gets in the middle of two 
 
 ### --feedback--
 
-This word in the plural form means actions by hackers or criminals to harm a computer system, steal information, or cause problems.
+Dieses Wort im Plural bezeichnet Handlungen von Hackern oder Kriminellen, die darauf abzielen, ein Computersystem zu schädigen, Informationen zu stehlen oder Probleme zu verursachen.
 
 # --explanation--
 
-`Man-in-the-Middle` (or `MITM`) is a type of attack where a hacker secretly gets between two people or systems that are communicating. The hacker listens to or changes the information being shared without anyone knowing. Zum Beispiel:
+`Man-in-the-Middle` (oder `MITM`) ist eine Art Angriff, bei dem ein Hacker heimlich zwischen zwei Personen oder Systeme gerät, die kommunizieren. Der Hacker hört die geteilten Informationen ab oder ändert sie, ohne dass es jemand bemerkt. Zum Beispiel:
 
-`A Man-in-the-Middle attack (MITM) happened when a hacker intercepted the data sent between a user's computer and their bank.` - The hacker pretended to be the bank, intercepted the information, and stole the user's login credentials. This allowed the hacker to access the bank account without the user knowing.
+`A Man-in-the-Middle attack (MITM) happened when a hacker intercepted the data sent between a user's computer and their bank.` – Der Hacker gab vor, die Bank zu sein, fing die Informationen ab und stahl die Anmeldedaten des Nutzers. So konnte der Hacker auf das Bankkonto zugreifen, ohne dass der Nutzer es bemerkte.
 
-`Attacks` are actions by hackers to harm computer systems, steal information, or cause problems. For example:
+`Attacks` sind Handlungen von Hackern, um Computersysteme zu schädigen, Informationen zu stehlen oder Probleme zu verursachen. Zum Beispiel:
 
-`The website was unavailable for hours because of a cyber attack that overloaded its server.` - It indicates the hacker sent too much fake traffic to the website, making it crash or slow down. This stopped real users from accessing it, causing disruption.
+`The website was unavailable for hours because of a cyber attack that overloaded its server.` – Es zeigt an, dass der Hacker zu viel gefälschten Datenverkehr an die Website gesendet hat, wodurch diese abstürzte oder langsamer wurde. Dadurch konnten echte Nutzer nicht mehr zugreifen, was eine Störung verursachte.
 
 # --scene--
 

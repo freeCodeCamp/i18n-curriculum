@@ -1,6 +1,6 @@
 ---
 id: 6557dc1aa6be93c1eb4e9efb
-title: Task 29
+title: Aufgabe 29
 challengeType: 19
 dashedName: task-29
 lang: en-US
@@ -10,47 +10,47 @@ lang: en-US
 
 # --description--
 
-The word `if` means "whether or not". For example:
+Das Wort `if` bedeutet „ob oder nicht“. Zum Beispiel:
 
-`She checks her emails to see if there are any urgent updates.` - This means she is looking to find out whether updates exist.
+`She checks her emails to see if there are any urgent updates.` – Das bedeutet, sie möchte herausfinden, ob Updates vorliegen.
 
-`If` can also be part of a conditional statement, which shows a possible situation and its result. For example:
+`If` kann auch Teil einer Bedingung sein, die eine mögliche Situation und deren Ergebnis zeigt. Zum Beispiel:
 
-`If there are urgent updates, I will reply immediately.` - This means replying depends on the condition of having urgent updates.
+`If there are urgent updates, I will reply immediately.` – Das bedeutet, dass die Antwort davon abhängt, ob es dringende Updates gibt.
 
 # --questions--
 
 ## --text--
 
-What does Sarah imply by using `if` in her statement about checking emails and messages?
+Was möchte Sarah mit der Verwendung von `if` in ihrer Aussage über das Überprüfen von E-Mails und Nachrichten ausdrücken?
 
 ## --answers--
 
-She always finds urgent updates from her team.
+Sie findet immer dringende Updates von ihrem Team.
 
 ### --feedback--
 
-`If` doesn't suggest certainty of finding urgent updates.
+`If` deutet nicht darauf hin, dass sie mit Sicherheit dringende Updates findet.
 
 ---
 
-Sometimes there are urgent updates, sometimes not.
+Manchmal gibt es dringende Updates, manchmal nicht.
 
 ---
 
-She never checks her emails and messages.
+Sie überprüft ihre E-Mails und Nachrichten nie.
 
 ### --feedback--
 
-Sarah actually states that she does check her emails and messages.
+Sarah sagt tatsächlich, dass sie ihre E-Mails und Nachrichten überprüft.
 
 ---
 
-Checking emails is not part of her routine.
+Das Überprüfen von E-Mails gehört nicht zu ihrer Routine.
 
 ### --feedback--
 
-Sarah mentions that checking emails and messages is part of her routine.
+Sarah erwähnt, dass das Überprüfen von E-Mails und Nachrichten zu ihrer Routine gehört.
 
 ## --video-solution--
 

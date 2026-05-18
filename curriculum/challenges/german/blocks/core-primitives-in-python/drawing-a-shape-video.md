@@ -1,6 +1,6 @@
 ---
 id: 62baa9d28e8723f635a0093e
-title: Drawing a Shape
+title: Eine Form zeichnen
 challengeType: 11
 videoId: vcNZZSeyZkY
 dashedName: drawing-a-shape
@@ -8,13 +8,13 @@ dashedName: drawing-a-shape
 
 # --description--
 
-In this video, you will learn how to print a basic shape to the console using `print` statements.
+In diesem Video lernen Sie, wie Sie mit `print`-Anweisungen eine einfache Form in der Konsole ausgeben.
 
 # --questions--
 
 ## --text--
 
-Which of the following is the correct way to print a triangle to the console?
+Welche der folgenden Möglichkeiten ist der richtige Weg, um ein Dreieck in der Konsole auszugeben?
 
 ## --answers--
 

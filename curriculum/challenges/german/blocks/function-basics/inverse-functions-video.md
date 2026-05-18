@@ -1,6 +1,6 @@
 ---
 id: 699e0359138be64fa3131390
-title: Inverse Functions
+title: Inverse Funktionen
 challengeType: 11
 videoId: f9ph7m0zgD0
 dashedName: inverse-functions
@@ -8,29 +8,29 @@ dashedName: inverse-functions
 
 # --description--
 
-In this video, you will learn about inverse functions.
+In diesem Video lernen Sie etwas über inverse Funktionen.
 
 # --questions--
 
 ## --text--
 
-Do all functions have inverse functions?
+Haben alle Funktionen inverse Funktionen?
 
 ## --answers--
 
-No
+Nein
 
 ---
 
-Yes
+Ja
 
 ---
 
-Only for functions with a finite domain.
+Nur für Funktionen mit einem endlichen Definitionsbereich.
 
 ---
 
-Only for functions that are increasing or decreasing everywhere.
+Nur für Funktionen, die überall monoton steigend oder fallend sind.
 
 ## --video-solution--
 

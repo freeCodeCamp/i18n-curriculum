@@ -12,41 +12,41 @@ Sarah: Sure, I'm not busy. What's the problem? -->
 
 # --instructions--
 
-Höre dir die Audio an und beantworte die Frage unten.
+Hören Sie sich die Audioaufnahme an und beantworten Sie die folgende Frage.
 
 # --questions--
 
 ## --text--
 
-Is Sarah available to talk to Tom?
+Ist Sarah verfügbar, um mit Tom zu sprechen?
 
 ## --answers--
 
-No, she is busy and doesn't want to know about his problems.
+Nein, sie ist beschäftigt und möchte nichts von seinen Problemen wissen.
 
 ### --feedback--
 
-Sarah says she is not busy.
+Sarah sagt, dass sie nicht beschäftigt ist.
 
 ---
 
-Yes, she is available and wants to know what's the problem.
+Ja, sie ist verfügbar und möchte wissen, was das Problem ist.
 
 ---
 
-No, she cannot talk right now, she has her own problems.
+Nein, sie kann gerade nicht sprechen, da sie ihre eigenen Probleme hat.
 
 ### --feedback--
 
-Sarah mentions that she is not busy.
+Sarah erwähnt, dass sie nicht beschäftigt ist.
 
 ---
 
-Yes, but only for a moment because she has her own problems.
+Ja, aber nur für einen Moment, weil sie ihre eigenen Probleme hat.
 
 ### --feedback--
 
-Sarah doesn't limit the time; she simply states that she is not busy.
+Sarah begrenzt die Zeit nicht; sie sagt einfach, dass sie nicht beschäftigt ist.
 
 ## --video-solution--
 
@@ -54,11 +54,11 @@ Sarah doesn't limit the time; she simply states that she is not busy.
 
 # --explanation--
 
-Instead of directly saying she is free, Sarah uses the negative form `I'm not busy` to emphasize that she has time to help.
+Anstatt direkt zu sagen, dass sie frei ist, verwendet Sarah die Verneinung `I'm not busy`, um zu betonen, dass sie Zeit hat, zu helfen.
 
-This is a polite and indirect way to offer availability in English, commonly used to make the conversation more tactful.
+Dies ist eine höfliche und indirekte Art, Verfügbarkeit im Englischen anzubieten, die häufig verwendet wird, um das Gespräch taktvoller zu gestalten.
 
-Her follow-up sentence, `What's the problem?`, confirms she's willing to assist by inviting Tom to explain the issue.
+Ihr Folgesatz `What's the problem?` bestätigt, dass sie bereit ist zu helfen, indem sie Tom einlädt, das Problem zu erklären.
 
 # --scene--
 

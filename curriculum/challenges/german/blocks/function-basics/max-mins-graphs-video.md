@@ -1,6 +1,6 @@
 ---
 id: 699e033c138be64fa313138b
-title: Maximum and Minimum Values on a Graph
+title: Maximum- und Minimumwerte in einem Diagramm
 challengeType: 11
 videoId: E1JSGpO8i3w
 dashedName: maximum-and-minimum-values-on-a-graph
@@ -8,29 +8,29 @@ dashedName: maximum-and-minimum-values-on-a-graph
 
 # --description--
 
-In this video, you will learn about maximum and minimum values on a graph.
+In diesem Video lernen Sie etwas über Maximum- und Minimumwerte in einem Diagramm.
 
 # --questions--
 
 ## --text--
 
-What is another name for maximum and minimum values on a graph?
+Wie lautet ein anderer Name für Maximum- und Minimumwerte in einem Diagramm?
 
 ## --answers--
 
-Cosine maximums and minimum values.
+Cosinus-Maxima und Minimumwerte.
 
 ---
 
-Variable maximum and minimum values.
+Variable Maximum- und Minimumwerte.
 
 ---
 
-Sine maximum and minimum values.
+Sinus-Maxima und Minimumwerte.
 
 ---
 
-Global maximum and minimum values.
+Globale Maximum- und Minimumwerte.
 
 ## --video-solution--
 

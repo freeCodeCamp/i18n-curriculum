@@ -1,6 +1,6 @@
 ---
 id: 67b9becbb4fd3b0d7fc2411e
-title: Task 65
+title: Aufgabe 65
 challengeType: 22
 dashedName: task-65
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Hören Sie sich das Audio an und vervollständigen Sie den folgenden Satz.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This word refers to things taking longer than expected.
+Dieses Wort bezieht sich auf Dinge, die länger dauern als erwartet.
 
 ---
 
@@ -32,13 +32,13 @@ This word refers to things taking longer than expected.
 
 ### --feedback--
 
-This word refers to misunderstandings caused by unclear or incorrect information.
+Dieses Wort bezieht sich auf Missverständnisse, die durch unklare oder falsche Informationen entstehen.
 
 # --explanation--
 
-David is concerned that asynchronous remote work might cause `delays` (slower responses and progress) and `miscommunication` (people misunderstanding each other).
+David befürchtet, dass asynchrone Remote-Arbeit `delays` (langsamere Antworten und Fortschritte) und `miscommunication` (Missverständnisse zwischen den Personen) verursachen könnte.
 
-Since employees work at different times, messages may take longer to be answered, and misunderstandings may happen if communication isn't clear.
+Da Mitarbeitende zu unterschiedlichen Zeiten arbeiten, können Nachrichten länger unbeantwortet bleiben, und es können Missverständnisse auftreten, wenn die Kommunikation nicht klar ist.
 
 # --scene--
 

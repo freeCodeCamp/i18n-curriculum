@@ -1,6 +1,6 @@
 ---
 id: 67adad520eb3ba05f8a1af1b
-title: Task 33
+title: Aufgabe 33
 challengeType: 19
 dashedName: task-33
 lang: en-US
@@ -12,13 +12,13 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Hören Sie sich die Audioaufnahme an und beantworten Sie die folgende Frage.
 
 # --questions--
 
 ## --text--
 
-What should Anna say to agree with Bob?
+Was sollte Anna sagen, um Bob zuzustimmen?
 
 ## --answers--
 
@@ -30,7 +30,7 @@ ENd6da13d0
 
 ### --feedback--
 
-This phrase suggests confusion, but Anna needs to show agreement with Bob's idea.
+Dieser Satz drückt Verwirrung aus, aber Anna muss Bobs Idee zustimmen.
 
 ---
 
@@ -46,11 +46,11 @@ ENc50c4990
 
 # --explanation--
 
-`That makes sense` is a natural way to show agreement. People use this phrase in conversations when they accept or understand a suggestion. For example:
+`That makes sense` ist eine natürliche Art, Zustimmung zu zeigen. Menschen verwenden diesen Ausdruck in Gesprächen, wenn sie einen Vorschlag akzeptieren oder verstehen. Zum Beispiel:
 
-- **Developer:** `We should optimize the code before adding new features to avoid performance issues.`
+- **Entwickler:** `We should optimize the code before adding new features to avoid performance issues.`
 
-- **Manager:** `That makes sense. A slow app will frustrate users.` - This person agrees and understands why optimizing the code first is a good idea.
+- **Manager:** `That makes sense. A slow app will frustrate users.` – Diese Person stimmt zu und versteht, warum es eine gute Idee ist, zuerst den Code zu optimieren.
 
 # --scene--
 

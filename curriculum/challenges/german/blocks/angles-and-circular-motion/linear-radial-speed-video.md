@@ -1,6 +1,6 @@
 ---
 id: 699e56ba8f18cf77dfce5c0c
-title: Linear and Radial Speed
+title: Lineare und radiale Geschwindigkeit
 challengeType: 11
 videoId: nsZvoNqWCMo
 dashedName: linear-and-radial-speed
@@ -8,29 +8,29 @@ dashedName: linear-and-radial-speed
 
 # --description--
 
-In this video, you will learn about linear and radial speed for rotating circles.
+In diesem Video lernen Sie die lineare und radiale Geschwindigkeit bei rotierenden Kreisen kennen.
 
 # --questions--
 
 ## --text--
 
-What is linear speed?
+Was versteht man unter linearer Geschwindigkeit?
 
 ## --answers--
 
-The number of rotations completed in one minute.
+Die Anzahl der Umdrehungen, die in einer Minute ausgeführt werden.
 
 ---
 
-The distance from the center of a circle to its edge.
+Der Abstand vom Mittelpunkt eines Kreises zu seinem Rand.
 
 ---
 
-The distance a point travels in a unit of time.
+Die Strecke, die ein Punkt in einer Zeiteinheit zurücklegt.
 
 ---
 
-The angle a point rotates through in a unit of time.
+Der Winkel, den ein Punkt in einer Zeiteinheit durchläuft.
 
 ## --video-solution--
 

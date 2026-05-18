@@ -1,6 +1,6 @@
 ---
 id: 67ee6d7bcacdc02ff7d9beb2
-title: Task 69
+title: Aufgabe 69
 challengeType: 22
 dashedName: task-69
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Hören Sie sich das Audio an und vervollständigen Sie den Satz unten.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This word is used to talk about the existence of something or to say that something is present or happening. It's the contraction of `there is`.
+Dieses Wort wird verwendet, um über die Existenz von etwas zu sprechen oder zu sagen, dass etwas vorhanden ist oder passiert. Es ist die Kontraktion von `there is`.
 
 ---
 
@@ -32,7 +32,7 @@ This word is used to talk about the existence of something or to say that someth
 
 ### --feedback--
 
-This word refers to an issue or difficulty that needs to be solved or fixed.
+Dieses Wort bezeichnet ein Problem oder eine Schwierigkeit, die gelöst oder behoben werden muss.
 
 ---
 
@@ -40,7 +40,7 @@ This word refers to an issue or difficulty that needs to be solved or fixed.
 
 ### --feedback--
 
-This preposition shows the relationship or connection between two things.
+Diese Präposition zeigt die Beziehung oder Verbindung zwischen zwei Dingen an.
 
 ---
 
@@ -48,17 +48,17 @@ This preposition shows the relationship or connection between two things.
 
 ### --feedback--
 
-This two-word phrase refers to the way software or websites respond to actions, like clicks or keystrokes, performed by the user. The second word ends with `-ing`.
+Dieser zweiteilige Ausdruck bezieht sich darauf, wie Software oder Websites auf Aktionen reagieren, wie Klicks oder Tastatureingaben, die vom Benutzer ausgeführt werden. Das zweite Wort endet mit `-ing`.
 
 # --explanation--
 
-`There's a problem with` is used to describe that something is not working correctly. It means there is an issue or difficulty related to a specific thing. For example:
+`There's a problem with` wird verwendet, um zu beschreiben, dass etwas nicht richtig funktioniert. Es bedeutet, dass es ein Problem oder eine Schwierigkeit im Zusammenhang mit einer bestimmten Sache gibt. Zum Beispiel:
 
-`There's a problem with the network.` – This means the network is not functioning properly.
+`There's a problem with the network.` – Das bedeutet, dass das Netzwerk nicht richtig funktioniert.
 
-`Event handling` refers to how a program or website manages user actions like clicks, keyboard presses, or mouse movements. For example:
+`Event handling` bezieht sich darauf, wie ein Programm oder eine Website Benutzeraktionen wie Klicks, Tastatureingaben oder Mausbewegungen verwaltet. Zum Beispiel:
 
-`There's an issue with event handling.` - This mean the software isn't responding properly to user actions.
+`There's an issue with event handling.` – Das bedeutet, dass die Software nicht richtig auf Benutzeraktionen reagiert.
 
 # --scene--
 

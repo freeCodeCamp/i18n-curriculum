@@ -1,6 +1,6 @@
 ---
 id: 699e56b58f18cf77dfce5c0b
-title: Arclength and Areas of Sectors
+title: Bogenlänge und Flächen von Kreissektoren
 challengeType: 11
 videoId: hNtpuLx5i6Y
 dashedName: arclength-and-areas-of-sectors
@@ -8,29 +8,29 @@ dashedName: arclength-and-areas-of-sectors
 
 # --description--
 
-In this video, you will learn about arcs, sectors and areas of sectors.
+In diesem Video lernen Sie etwas über Bögen, Sektoren und Flächen von Kreissektoren.
 
 # --questions--
 
 ## --text--
 
-What is a sector?
+Was ist ein Sektor?
 
 ## --answers--
 
-A wedge of pi for a circle.
+Ein Keil von Pi für einen Kreis.
 
 ---
 
-A line that cuts a circle into two equal halves.
+Eine Linie, die einen Kreis in zwei gleiche Hälften teilt.
 
 ---
 
-The distance around the outside of a circle.
+Die Entfernung um den äußeren Rand eines Kreises.
 
 ---
 
-The center point of a circle.
+Der Mittelpunkt eines Kreises.
 
 ## --video-solution--
 

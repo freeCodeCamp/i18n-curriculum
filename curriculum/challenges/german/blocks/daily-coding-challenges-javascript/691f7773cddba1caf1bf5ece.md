@@ -1,49 +1,49 @@
 ---
 id: 691f7773cddba1caf1bf5ece
-title: "Challenge 135: Re: Fwd: Fw: Count"
+title: "Aufgabe 135: Re: Fwd: Fw: zählen"
 challengeType: 28
 dashedName: challenge-135
 ---
 
 # --description--
 
-Given a string representing the subject line of an email, determine how many times the email has been forwarded or replied to.
+Gegeben ist ein String, der die Betreffzeile einer E-Mail darstellt. Bestimmen Sie, wie oft die E-Mail weitergeleitet oder beantwortet wurde.
 
-For simplicity, consider an email forwarded or replied to if the string contains any of the following markers (case-insensitive):
+Zur Vereinfachung gilt eine E-Mail als weitergeleitet oder beantwortet, wenn der String einen der folgenden Marker enthält (Groß- und Kleinschreibung wird nicht beachtet):
 
 - `"fw:"`
 - `"fwd:"`
 - `"re:"`
 
-Return the total number of occurrences of these markers.
+Geben Sie die Gesamtanzahl der Vorkommen dieser Marker zurück.
 
 # --hints--
 
-`emailChainCount("Re: Meeting Notes")` should return `1`.
+`emailChainCount("Re: Meeting Notes")` sollte `1` zurückgeben.
 
 ```js
 assert.equal(emailChainCount("Re: Meeting Notes"), 1);
 ```
 
-`emailChainCount("Meeting Notes")` should return `0`.
+`emailChainCount("Meeting Notes")` sollte `0` zurückgeben.
 
 ```js
 assert.equal(emailChainCount("Meeting Notes"), 0);
 ```
 
-`emailChainCount("Re: re: RE: rE: Meeting Notes")` should return `4`.
+`emailChainCount("Re: re: RE: rE: Meeting Notes")` sollte `4` zurückgeben.
 
 ```js
 assert.equal(emailChainCount("Re: re: RE: rE: Meeting Notes"), 4);
 ```
 
-`emailChainCount("Re: Fwd: Re: Fw: Re: Meeting Notes")` should return `5`.
+`emailChainCount("Re: Fwd: Re: Fw: Re: Meeting Notes")` sollte `5` zurückgeben.
 
 ```js
 assert.equal(emailChainCount("Re: Fwd: Re: Fw: Re: Meeting Notes"), 5);
 ```
 
-`emailChainCount("re:Ref:fw:re:review:FW:Re:fw:report:Re:FW:followup:re:summary:Fwd:Re:fw:NextStep:RE:FW:re:Project:Fwd:Re:fw:Notes:RE:re:Update:FWD:Re:fw:Summary")` should return `23`.
+`emailChainCount("re:Ref:fw:re:review:FW:Re:fw:report:Re:FW:followup:re:summary:Fwd:Re:fw:NextStep:RE:FW:re:Project:Fwd:Re:fw:Notes:RE:re:Update:FWD:Re:fw:Summary")` sollte `23` zurückgeben.
 
 ```js
 assert.equal(emailChainCount("re:Ref:fw:re:review:FW:Re:fw:report:Re:FW:followup:re:summary:Fwd:Re:fw:NextStep:RE:FW:re:Project:Fwd:Re:fw:Notes:RE:re:Update:FWD:Re:fw:Summary"), 23);

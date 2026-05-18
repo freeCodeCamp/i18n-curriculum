@@ -1,6 +1,6 @@
 ---
 id: 68249d79d4ddca45eff7fafd
-title: Task 144
+title: Aufgabe 144
 challengeType: 19
 dashedName: task-144
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Hören Sie sich das Audio an und beantworten Sie die folgende Frage.
 
 # --questions--
 
 ## --text--
 
-What does Jessica plan to do with the information?
+Was plant Jessica mit den Informationen zu tun?
 
 ## --answers--
 
-Ignore it for now and wait for more feedback.
+Ignorieren Sie sie vorerst und warten Sie auf weiteres Feedback.
 
 ### --feedback--
 
-Jessica says she will organize the information and share it, not ignore it.
+Jessica sagt, sie wird die Informationen organisieren und teilen, nicht ignorieren.
 
 ---
 
-Organize it into a report and discuss it with others.
+Organisieren Sie sie in einem Bericht und besprechen Sie sie mit anderen.
 
 ---
 
-Ask users to test it again before making changes.
+Bitten Sie die Nutzer, es vor Änderungen erneut zu testen.
 
 ### --feedback--
 
-She does not mention anything about retesting or user feedback.
+Sie erwähnt nichts von erneutem Testen oder Nutzerfeedback.
 
 ---
 
-Send it directly to the client without review.
+Senden Sie es direkt an den Client ohne Überprüfung.
 
 ### --feedback--
 
-Jessica plans to talk with her team first, not send it straight to a client.
+Jessica plant, zuerst mit ihrem Team zu sprechen, nicht es direkt an einen Client zu senden.
 
 ## --video-solution--
 
@@ -52,9 +52,9 @@ Jessica plans to talk with her team first, not send it straight to a client.
 
 # --explanation--
 
-Jessica says she will `put all this information into a report` and `talk about it with the team tomorrow`. This shows she plans to organize the details and have a discussion with her team.
+Jessica sagt, sie wird `put all this information into a report` und `talk about it with the team tomorrow`. Das zeigt, dass sie die Details organisieren und mit ihrem Team besprechen will.
 
-She also says the feedback `should help`, meaning it will guide their next steps.
+Sie sagt auch, dass das Feedback `should help` ist, was bedeutet, dass es ihre nächsten Schritte leiten wird.
 
 # --scene--
 

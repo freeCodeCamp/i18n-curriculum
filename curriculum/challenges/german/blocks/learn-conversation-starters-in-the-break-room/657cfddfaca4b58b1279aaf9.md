@@ -1,6 +1,6 @@
 ---
 id: 657cfddfaca4b58b1279aaf9
-title: Task 74
+title: Aufgabe 74
 challengeType: 22
 dashedName: task-74
 lang: en-US
@@ -10,11 +10,11 @@ lang: en-US
 
 # --description--
 
-To `encourage` means to give support, confidence, or hope to someone. It's what a good coach does to motivate their team to do their best.
+Jemanden zu `encourage` bedeutet, ihm Unterstützung, Vertrauen oder Hoffnung zu geben. Genau das tut ein guter Coach, um sein Team zu motivieren, sein Bestes zu geben.
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Hören Sie sich die Audioaufnahme an und vervollständigen Sie den folgenden Satz.
 
 # --fillInTheBlank--
 
@@ -28,7 +28,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This verb is about motivating or inspiring someone to do something. It's similar to cheering someone on. Don't forget about the ending `-s`.
+Dieses Verb bedeutet, jemanden zu motivieren oder zu inspirieren, etwas zu tun. Es ist ähnlich wie jemanden anzufeuern. Vergessen Sie nicht die Endung `-s`.
 
 # --scene--
 

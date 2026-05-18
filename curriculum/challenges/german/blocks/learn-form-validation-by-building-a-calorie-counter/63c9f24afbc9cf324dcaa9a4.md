@@ -7,25 +7,25 @@ dashedName: step-95
 
 # --description--
 
-Du musst außerdem den Text des `output`-Elements löschen. Du kannst dies tun, indem du die `innerText`-Eigenschaft auf einen leeren String setzt.
+Sie müssen auch den Text des `output`-Elements löschen. Das können Sie tun, indem Sie die `innerText`-Eigenschaft auf einen leeren String setzen.
 
-Der Unterschied zwischen `innerText` und `innerHTML` besteht darin, dass `innerText` nicht HTML-Elemente rendert, sondern die Tags und Inhalte als Rohtext anzeigt.
+Der Unterschied zwischen `innerText` und `innerHTML` besteht darin, dass `innerText` keine HTML-Elemente rendert, sondern die Tags und Inhalte als reinen Text anzeigt.
 
 # --hints--
 
-Deine `clearForm`-Funktion sollte auf die `innerText`-Eigenschaft des `output`-Elements zugreifen.
+Ihre `clearForm`-Funktion sollte auf die `innerText`-Eigenschaft des `output`-Elements zugreifen.
 
 ```js
 assert.match(clearForm.toString(), /output\.innerText/);
 ```
 
-Deine `clearForm`-Funktion sollte die `innerText`-Eigenschaft des `output`-Elements auf einen leeren String setzen.
+Ihre `clearForm`-Funktion sollte die `innerText`-Eigenschaft des `output`-Elements auf einen leeren String setzen.
 
 ```js
 assert.match(clearForm.toString(), /output\.innerText\s*=\s*('|"|`)\1/);
 ```
 
-Du solltest `output` ändern, nachdem du `budgetNumberInput` geändert hast.
+Sie sollten `output` nach der Änderung von `budgetNumberInput` modifizieren.
 
 ```js
 assert.isAbove(clearForm.toString().indexOf('output'), clearForm.toString().indexOf('budgetNumberInput'));

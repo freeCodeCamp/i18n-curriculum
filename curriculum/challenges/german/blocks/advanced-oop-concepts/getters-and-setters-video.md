@@ -1,6 +1,6 @@
 ---
 id: 69ae9f3ca9e6da4eb0d5f7f9
-title: Getters and Setters
+title: Getter und Setter
 challengeType: 11
 videoId: o8zKHbpd87s
 dashedName: getters-and-setters
@@ -8,29 +8,29 @@ dashedName: getters-and-setters
 
 # --description--
 
-In this video, you will learn about getters and setters.
+In diesem Video lernen Sie etwas über Getter und Setter.
 
 # --questions--
 
 ## --text--
 
-What is a setter?
+Was ist ein Setter?
 
 ## --answers--
 
-A function that automatically deletes an object when it goes out of scope.
+Eine Funktion, die ein Objekt automatisch löscht, wenn es aus dem Gültigkeitsbereich herausfällt.
 
 ---
 
-A method that retrieves or reads the value of an attribute.
+Eine Methode, die den Wert eines Attributs abruft oder liest.
 
 ---
 
-A method in a class used to set or update the value of a private or protected attribute.
+Eine Methode in einer Klasse, die verwendet wird, um den Wert eines privaten oder geschützten Attributs zu setzen oder zu aktualisieren.
 
 ---
 
-A method that creates a new class instance without modifying any attributes.
+Eine Methode, die eine neue Klasseninstanz erstellt, ohne irgendwelche Attribute zu verändern.
 
 ## --video-solution--
 

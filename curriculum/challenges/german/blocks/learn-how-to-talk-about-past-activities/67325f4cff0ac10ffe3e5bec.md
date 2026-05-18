@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Höre dir die Audio an und beantworte die Frage unten.
+Hören Sie sich das Audio an und beantworten Sie die folgende Frage.
 
 # --questions--
 
 ## --text--
 
-What is James describing about his approach to coding?
+Was beschreibt James über seine Herangehensweise beim Programmieren?
 
 ## --answers--
 
-A habit he had in the past.
+Eine Gewohnheit, die er früher hatte.
 
 ---
 
-Something he plans to do in the future.
+Etwas, das er in Zukunft vorhat zu tun.
 
 ### --feedback--
 
-James isn't talking about future plans; he is reflecting on something he did before.
+James spricht nicht über zukünftige Pläne; er reflektiert über etwas, das er früher getan hat.
 
 ---
 
-A habit he continues now.
+Eine Gewohnheit, die er jetzt noch hat.
 
 ### --feedback--
 
-James uses the phrase `used to`, which shows he is describing something he did in the past, not currently.
+James verwendet den Ausdruck `used to`, der zeigt, dass er etwas beschreibt, das er in der Vergangenheit getan hat, nicht aktuell.
 
 ---
 
-A process he never followed.
+Ein Prozess, dem er nie gefolgt ist.
 
 ### --feedback--
 
-James describes a habit he once had, so it is not something he never did.
+James beschreibt eine Gewohnheit, die er einmal hatte, also ist es nichts, das er nie getan hat.
 
 ## --video-solution--
 
@@ -52,11 +52,11 @@ James describes a habit he once had, so it is not something he never did.
 
 # --explanation--
 
-James says, `I used to just write code without thinking much about the end user.`
+James sagt, `I used to just write code without thinking much about the end user.`
 
-`Used to` indicates a past habit or action that is no longer true.
+`Used to` weist auf eine frühere Gewohnheit oder Handlung hin, die nicht mehr zutrifft.
 
-This sentence shows that he previously wrote code without considering the end user but has since changed his approach.
+Dieser Satz zeigt, dass er früher Code schrieb, ohne an den Endnutzer zu denken, sich aber inzwischen geändert hat.
 
 # --scene--
 

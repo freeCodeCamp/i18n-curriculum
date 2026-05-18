@@ -1,6 +1,6 @@
 ---
 id: 660684bfc24bf48cfaaf9cfa
-title: Task 8
+title: Aufgabe 8
 challengeType: 22
 dashedName: task-8
 lang: en-US
@@ -10,9 +10,9 @@ lang: en-US
 
 # --description--
 
-`Give it a shot` means to try doing something. It's like saying `Try it`.
+`Give it a shot` bedeutet, etwas auszuprobieren. Es ist so, als würde man sagen `Try it`.
 
-For example, if your friend is hesitant about joining a coding class because they think it might be too difficult, you could say `Why not give it a shot? You might enjoy it more than you think.` to encourage them to try joining this class.
+Zum Beispiel, wenn Ihr Freund zögert, an einem Programmierkurs teilzunehmen, weil er denkt, dass es zu schwierig sein könnte, könnten Sie sagen `Why not give it a shot? You might enjoy it more than you think.`, um ihn zu ermutigen, es mit diesem Kurs zu versuchen.
 
 # --fillInTheBlank--
 
@@ -26,7 +26,7 @@ For example, if your friend is hesitant about joining a coding class because the
 
 ### --feedback--
 
-It is short for `I will`. Sophie is expressing her decision to try what Brian suggested.
+Es ist die Kurzform von `I will`. Sophie drückt damit aus, dass sie den Vorschlag von Brian ausprobieren möchte.
 
 ---
 
@@ -34,7 +34,7 @@ It is short for `I will`. Sophie is expressing her decision to try what Brian su
 
 ### --feedback--
 
-In this context, it means an attempt or try at doing something. Sophie is saying she will try what Brian has recommended.
+In diesem Zusammenhang bedeutet es einen Versuch oder das Ausprobieren von etwas. Sophie sagt, dass sie versuchen wird, was Brian empfohlen hat.
 
 # --scene--
 

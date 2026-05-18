@@ -1,6 +1,6 @@
 ---
 id: 680aef568ac1bd591eceb0dc
-title: Task 98
+title: Aufgabe 98
 challengeType: 22
 dashedName: task-98
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Hören Sie sich die Audiodatei an und vervollständigen Sie den Satz unten.
 
 # --fillInTheBlank--
 
@@ -24,15 +24,15 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This is a short form for something that means messages or content created to promote a product, service, or event. Use the plural form.
+Dies ist eine Kurzform für etwas, das Nachrichten oder Inhalte bedeutet, die erstellt wurden, um ein Produkt, eine Dienstleistung oder ein Ereignis zu bewerben. Verwenden Sie die Pluralform.
 
 # --explanation--
 
-An `ad` (short for `advertisement`) is a piece of content designed to get people's attention and encourage them to buy something, use a service, or take action. Ads can appear on social media, websites, TV, radio, and more. For example:
+Ein `ad` (Kurzform für `advertisement`) ist ein Inhalt, der dazu dient, die Aufmerksamkeit der Menschen zu gewinnen und sie zu ermutigen, etwas zu kaufen, eine Dienstleistung zu nutzen oder aktiv zu werden. Anzeigen können in sozialen Medien, auf Websites, im Fernsehen, Radio und mehr erscheinen. Zum Beispiel:
 
-- `They launched a new ad campaign for their latest product.` – This means the company created and shared promotional content to raise interest in a product.
+- `They launched a new ad campaign for their latest product.` – Das bedeutet, dass das Unternehmen Werbeinhalte erstellt und geteilt hat, um Interesse an einem Produkt zu wecken.
 
-- `We saw a lot of online ads for the holiday sale.` – This means there were many promotional messages about the sale on websites or apps.
+- `We saw a lot of online ads for the holiday sale.` – Das bedeutet, dass es viele Werbebotschaften über den Verkauf auf Websites oder Apps gab.
 
 # --scene--
 

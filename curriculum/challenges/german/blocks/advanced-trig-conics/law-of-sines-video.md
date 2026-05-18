@@ -1,6 +1,6 @@
 ---
 id: 699e855a8f18cf77dfce5c21
-title: Law of Sines
+title: Sinussatz
 challengeType: 11
 videoId: Arm0baqLKTo
 dashedName: law-of-sines
@@ -8,29 +8,29 @@ dashedName: law-of-sines
 
 # --description--
 
-In this video, you will learn about the Law of Sines.
+In diesem Video lernen Sie den Sinussatz kennen.
 
 # --questions--
 
 ## --text--
 
-What can the Law of Sines be used to find?
+Wofür kann der Sinussatz verwendet werden?
 
 ## --answers--
 
-To solve triangles that are right triangles.
+Um Dreiecke zu lösen, die rechtwinklige Dreiecke sind.
 
 ---
 
-To solve triangles that are not necessarily right triangles.
+Um Dreiecke zu lösen, die nicht unbedingt rechtwinklig sind.
 
 ---
 
-To solve triangles that are equilateral triangles.
+Um Dreiecke zu lösen, die gleichseitige Dreiecke sind.
 
 ---
 
-To solve triangles that are isosceles triangles.
+Um Dreiecke zu lösen, die gleichschenklige Dreiecke sind.
 
 ## --video-solution--
 

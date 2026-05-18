@@ -1,6 +1,6 @@
 ---
 id: 699e85518f18cf77dfce5c1f
-title: Law of Cosines
+title: Satz des Kosinus
 challengeType: 11
 videoId: KGF52g-s4Rs
 dashedName: law-of-cosines
@@ -8,29 +8,29 @@ dashedName: law-of-cosines
 
 # --description--
 
-In this video, you will learn about the Law of Cosines.
+In diesem Video lernen Sie den Satz des Kosinus kennen.
 
 # --questions--
 
 ## --text--
 
-What is the Law of Cosines?
+Was besagt der Satz des Kosinus?
 
 ## --answers--
 
-For any triangle with sides of length a, b, and c, and angle C opposite side c, the Law of Cosines states that $c^2 = a^2 + b^2 + 2ab\cos(C)$.
+Für jedes Dreieck mit den Seitenlängen a, b und c und dem Winkel C gegenüber der Seite c besagt der Satz des Kosinus, dass $c^2 = a^2 + b^2 + 2ab\cos(C)$ gilt.
 
 ---
 
-For any triangle with sides of length a, b, and c, and angle C opposite side c, the Law of Cosines states that $c = a + b - 2\cos(C)$.
+Für jedes Dreieck mit den Seitenlängen a, b und c und dem Winkel C gegenüber der Seite c besagt der Satz des Kosinus, dass $c = a + b - 2\cos(C)$ gilt.
 
 ---
 
-For any triangle with sides of length a, b, and c, and angle C opposite side c, the Law of Cosines states that $c^2 = a^2 + b^2 - 2ab\cos(C)$.
+Für jedes Dreieck mit den Seitenlängen a, b und c und dem Winkel C gegenüber der Seite c besagt der Satz des Kosinus, dass $c^2 = a^2 + b^2 - 2ab\cos(C)$ gilt.
 
 ---
 
-For any triangle with sides of length a, b, and c, and angle C opposite side c, the Law of Cosines states that $c = a \cdot b \cdot 2\cos(C)$.
+Für jedes Dreieck mit den Seitenlängen a, b und c und dem Winkel C gegenüber der Seite c besagt der Satz des Kosinus, dass $c = a \cdot b \cdot 2\cos(C)$ gilt.
 
 ## --video-solution--
 

@@ -1,6 +1,6 @@
 ---
 id: 67ddb67d2bbf41bb5dce0fb3
-title: Task 36
+title: Aufgabe 36
 challengeType: 19
 dashedName: task-36
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Hören Sie sich die Audioaufnahme an und beantworten Sie die folgende Frage.
 
 # --questions--
 
 ## --text--
 
-What can we conclude from James's answer?
+Was können wir aus James’ Antwort schließen?
 
 ## --answers--
 
-He needs to solve a problem first.
+Er muss zuerst ein Problem lösen.
 
 ### --feedback--
 
-James does not say anything about another issue.
+James erwähnt kein anderes Problem.
 
 ---
 
-He is ending the conversation in a friendly way.
+Er beendet das Gespräch auf freundliche Weise.
 
 ---
 
-He wants to schedule a meeting now.
+Er möchte jetzt ein Treffen vereinbaren.
 
 ### --feedback--
 
-There's no mention of scheduling anything.
+Es wird nichts von einer Terminvereinbarung erwähnt.
 
 ---
 
-He is asking for more help.
+Er bittet um weitere Hilfe.
 
 ### --feedback--
 
-James is not making a request.
+James stellt keine Anfrage.
 
 ## --video-solution--
 
@@ -52,9 +52,9 @@ James is not making a request.
 
 # --explanation--
 
-In conversation, you often omit words when the meaning is clear. In `Talk to you later`, the subject `I'll` (contraction of `I will`) is left out. The full sentence would be `I'll talk to you later`. This kind of omission is common in casual speech. Another example:
+Im Gespräch lassen Sie oft Wörter weg, wenn die Bedeutung klar ist. In `Talk to you later` wird das Subjekt `I'll` (Kontraktion von `I will`) ausgelassen. Der vollständige Satz wäre `I'll talk to you later`. Solche Auslassungen sind in der Umgangssprache üblich. Ein weiteres Beispiel:
 
-`See you tomorrow!` - This is a shorter way of saying `I'll see you tomorrow`.
+`See you tomorrow!` – Das ist eine kürzere Art zu sagen `I'll see you tomorrow`.
 
 # --scene--
 

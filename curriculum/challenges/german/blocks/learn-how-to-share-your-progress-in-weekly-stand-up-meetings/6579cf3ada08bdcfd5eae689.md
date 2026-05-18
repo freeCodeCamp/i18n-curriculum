@@ -1,6 +1,6 @@
 ---
 id: 6579cf3ada08bdcfd5eae689
-title: Task 5
+title: Aufgabe 5
 challengeType: 19
 dashedName: task-5
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --description--
 
-In this dialogue, Sophie is making a request to Bob. Understanding the nature of her request is essential for effective team communication and collaboration, especially in technical environments where solving problems together is common.
+In diesem Dialog bittet Sophie Bob um Unterstützung. Das Verständnis der Art ihrer Anfrage ist entscheidend für eine effektive Teamkommunikation und Zusammenarbeit, besonders in technischen Umgebungen, in denen das gemeinsame Lösen von Problemen üblich ist.
 
 # --questions--
 
 ## --text--
 
-What is Sophie asking for in her conversation with Bob?
+Worum bittet Sophie Bob in ihrem Gespräch?
 
 ## --answers--
 
-She's asking for help with a coding problem
+Sie bittet um Hilfe bei einem Programmierproblem
 
 ---
 
-She wants Bob to solve the problem for her
+Sie möchte, dass Bob das Problem für sie löst
 
 ### --feedback--
 
-Sophie is asking for help, not necessarily for Bob to solve it entirely on his own.
+Sophie bittet um Hilfe, nicht unbedingt darum, dass Bob das Problem vollständig allein löst.
 
 ---
 
-She is offering to help Bob with a problem
+Sie bietet Bob an, ihm bei einem Problem zu helfen
 
 ### --feedback--
 
-Sophie is the one requesting assistance, not offering it.
+Sophie ist diejenige, die um Unterstützung bittet, nicht diejenige, die sie anbietet.
 
 ---
 
-She's discussing a future project
+Sie spricht über ein zukünftiges Projekt
 
 ### --feedback--
 
-Sophie's request is about a current coding issue she's facing, not a future project.
+Sophies Anfrage betrifft ein aktuelles Programmierproblem, mit dem sie konfrontiert ist, nicht ein zukünftiges Projekt.
 
 ## --video-solution--
 

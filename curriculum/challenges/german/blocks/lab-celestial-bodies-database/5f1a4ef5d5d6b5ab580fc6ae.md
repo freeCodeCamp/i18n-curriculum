@@ -1,6 +1,6 @@
 ---
 id: 5f1a4ef5d5d6b5ab580fc6ae
-title: Build a Celestial Bodies Database
+title: Erstellen Sie eine Datenbank für Himmelskörper
 challengeType: 13
 url: freeCodeCamp/learn-celestial-bodies-database
 dashedName: lab-celestial-bodies-database
@@ -9,15 +9,15 @@ saveSubmissionToDB: true
 
 # --description--
 
-For this project, you will build a database of celestial bodies using PostgreSQL.
+Für dieses Projekt erstellen Sie eine Datenbank für Himmelskörper mit PostgreSQL.
 
 # --instructions--
 
-**Important:** After you pass all the project tests, save a dump of your database into a `universe.sql` file so you can complete step 2. There will be instructions on how to do that within the virtual machine.
+**Wichtig:** Nachdem Sie alle Tests des Projekts bestanden haben, speichern Sie einen Dump Ihrer Datenbank in einer `universe.sql` Datei, damit Sie Schritt 2 abschließen können. Innerhalb der virtuellen Maschine finden Sie Anweisungen, wie Sie das machen.
 
 # --notes--
 
-Required files: `universe.sql`
+Erforderliche Dateien: `universe.sql`
 
 # --hints--
 

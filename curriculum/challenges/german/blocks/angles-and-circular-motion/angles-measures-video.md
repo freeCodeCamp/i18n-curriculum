@@ -1,6 +1,6 @@
 ---
 id: 699e54288f18cf77dfce5c0a
-title: Angles and Their Measures
+title: Winkel und ihre Maße
 challengeType: 11
 videoId: Ycu5Xn5rFuc
 dashedName: angles-and-their-measures
@@ -8,29 +8,29 @@ dashedName: angles-and-their-measures
 
 # --description--
 
-In this video, you will learn about the different ways to describe angles.
+In diesem Video lernen Sie die verschiedenen Möglichkeiten kennen, Winkel zu beschreiben.
 
 # --questions--
 
 ## --text--
 
-How are angles usually measured?
+Wie werden Winkel üblicherweise gemessen?
 
 ## --answers--
 
-They are measured by lines or curves.
+Sie werden durch Linien oder Kurven gemessen.
 
 ---
 
-They are measured by degrees or radians.
+Sie werden in Grad oder Radiant gemessen.
 
 ---
 
-They are measured by feet or meters.
+Sie werden in Fuß oder Metern gemessen.
 
 ---
 
-They are measured by miles or kilometers.
+Sie werden in Meilen oder Kilometern gemessen.
 
 ## --video-solution--
 

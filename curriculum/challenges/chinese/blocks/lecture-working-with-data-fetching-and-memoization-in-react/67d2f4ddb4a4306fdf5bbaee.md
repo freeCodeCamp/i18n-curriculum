@@ -124,9 +124,7 @@ function ExpensiveSquare({ num }) {
 export default ExpensiveSquare;
 ```
 
-这将确保函数通过缓存结果实现记忆化，因此只有当 `num` 变量发生变化时才会进行计算，而不是当它所在的组件中的任何内容发生变化时。
-
-`calculateSquare` 函数调用不再在每次 `timer` 变化时运行，而只在初始渲染和 `num` 变化时运行。
+这将确保函数通过缓存结果实现记忆化。即使 `ExpensiveSquare` 组件在父组件的 `timer` 状态更新时仍然重新渲染，`calculateSquare` 的计算只会在初始渲染和 `num` 变化时重新运行。
 
 # --questions--
 

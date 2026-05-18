@@ -1,35 +1,35 @@
 ---
 id: 5efae16e3cbd2bbdab94e334
-title: Step 33
+title: Schritt 33
 challengeType: 0
 dashedName: step-33
 ---
 
 # --description--
 
-After the last `img` element, add a `figcaption` element with the text `Cats hate other cats.`
+Fügen Sie nach dem letzten `img`-Element ein `figcaption`-Element mit dem Text `Cats hate other cats.` hinzu.
 
 # --hints--
 
-Your `figcaption` element should have an opening tag. Opening tags have the following syntax: `<elementName>`.
+Ihr `figcaption`-Element sollte ein öffnendes Tag haben. Öffnende Tags haben folgende Syntax: `<elementName>`.
 
 ```js
 assert(document.querySelectorAll('figcaption').length === 2);
 ```
 
-Your `figcaption` element should have a closing tag. Closing tags have a `/` just after the `<` character.
+Ihr `figcaption`-Element sollte ein schließendes Tag haben. Schließende Tags haben ein `/` direkt nach dem `<`-Zeichen.
 
 ```js
 assert(code.match(/<\/figcaption\>/g).length === 2);
 ```
 
-There should be a `figure` element right above the second `section` element's closing tag.
+Es sollte ein `figure`-Element direkt über dem schließenden Tag des zweiten `section`-Elements stehen.
 
 ```js
 assert.strictEqual(document.querySelectorAll('main > section')?.[1]?.lastElementChild?.nodeName, 'FIGURE');
 ```
 
-The last `img` element should be nested in the `figure` element.
+Das letzte `img`-Element sollte im `figure`-Element verschachtelt sein.
 
 ```js
 const catsImg = document.querySelectorAll('figure > img')[1];
@@ -39,25 +39,25 @@ assert(
 );
 ```
 
-Your `figure` element should have an opening tag. Opening tags have the following syntax: `<elementName>`.
+Ihr `figure`-Element sollte ein öffnendes Tag haben. Öffnende Tags haben folgende Syntax: `<elementName>`.
 
 ```js
 assert(document.querySelectorAll('figure').length === 2);
 ```
 
-Your `figure` element should have a closing tag. Closing tags have a `/` just after the `<` character.
+Ihr `figure`-Element sollte ein schließendes Tag haben. Schließende Tags haben ein `/` direkt nach dem `<`-Zeichen.
 
 ```js
 assert(code.match(/<\/figure\>/g).length === 2);
 ```
 
-The `figcaption` element should be nested in the `figure` element.
+Das `figcaption`-Element sollte im `figure`-Element verschachtelt sein.
 
 ```js
 assert(document.querySelectorAll('figure > figcaption').length === 2);
 ```
 
-The `figcaption` element nested in the `figure` element should be below the `img` element. You have the `img` element and the `figcaption` element in the wrong order.
+Das `figcaption`-Element, verschachtelt im `figure`-Element, sollte unter dem `img`-Element stehen. Sie haben das `img`-Element und das `figcaption`-Element in der falschen Reihenfolge.
 
 ```js
 assert(
@@ -66,7 +66,7 @@ assert(
 );
 ```
 
-The `figcaption` element should have the text `Cats hate other cats.` You have omitted a word or have a typo.
+Das `figcaption`-Element sollte den Text `Cats hate other cats.` haben. Sie haben ein Wort ausgelassen oder einen Tippfehler gemacht.
 
 ```js
 assert(

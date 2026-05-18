@@ -1,6 +1,6 @@
 ---
 id: 699e0333138be64fa313138a
-title: Increasing and Decreasing Functions
+title: Zunehmende und abnehmende Funktionen
 challengeType: 11
 videoId: GRYrrT_aQ1U
 dashedName: increasing-and-decreasing-functions
@@ -8,29 +8,29 @@ dashedName: increasing-and-decreasing-functions
 
 # --description--
 
-In this video, you will learn about increasing and decreasing functions on a graph.
+In diesem Video lernen Sie etwas über zunehmende und abnehmende Funktionen in einem Diagramm.
 
 # --questions--
 
 ## --text--
 
-What is an increasing function?
+Was ist eine zunehmende Funktion?
 
 ## --answers--
 
-This is where the x values are increasing and the y values are increasing.
+Das ist, wenn die x-Werte zunehmen und die y-Werte zunehmen.
 
 ---
 
-This is where the x values are increasing and the y values are decreasing.
+Das ist, wenn die x-Werte zunehmen und die y-Werte abnehmen.
 
 ---
 
-This is where the x values are decreasing and the y values are increasing.
+Das ist, wenn die x-Werte abnehmen und die y-Werte zunehmen.
 
 ---
 
-This is where the x values are decreasing and the y values are decreasing.
+Das ist, wenn die x-Werte abnehmen und die y-Werte abnehmen.
 
 ## --video-solution--
 

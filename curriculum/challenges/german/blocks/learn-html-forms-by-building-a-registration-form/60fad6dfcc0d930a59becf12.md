@@ -1,31 +1,31 @@
 ---
 id: 60fad6dfcc0d930a59becf12
-title: Step 43
+title: Schritt 43
 challengeType: 0
 dashedName: step-43
 ---
 
 # --description--
 
-The HTML for the registration form is finished. Now, you can spruce it up a bit.
+Das HTML für das Registrierungsformular ist fertig. Jetzt können Sie es ein wenig aufpeppen.
 
-Start by adding `Tahoma` as the font with a font size of `16px` in the `body` selector.
+Beginnen Sie damit, `Tahoma` als Schriftart mit einer Schriftgröße von `16px` im `body`-Selektor hinzuzufügen.
 
 # --hints--
 
-You should use the `font-family` property to change the font.
+Sie sollten die Eigenschaft `font-family` verwenden, um die Schriftart zu ändern.
 
 ```js
 assert.isNotEmpty(new __helpers.CSSHelp(document).getStyle('body')?.fontFamily);
 ```
 
-You should set the `font-family` property to `Tahoma`.
+Sie sollten die Eigenschaft `font-family` auf `Tahoma` setzen.
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('body')?.fontFamily, 'Tahoma');
 ```
 
-You should set the `font-size` property to `16px`.
+Sie sollten die Eigenschaft `font-size` auf `16px` setzen.
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('body')?.fontSize, '16px');

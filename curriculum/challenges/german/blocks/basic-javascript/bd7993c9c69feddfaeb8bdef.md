@@ -1,6 +1,6 @@
 ---
 id: bd7993c9c69feddfaeb8bdef
-title: Speichern mehrerer Werte in einer Variablen mithilfe von JavaScript-Arrays
+title: Mehrere Werte in einer Variable mit JavaScript-Arrays speichern
 challengeType: 1
 forumTopicId: 18309
 dashedName: store-multiple-values-in-one-variable-using-javascript-arrays
@@ -8,9 +8,9 @@ dashedName: store-multiple-values-in-one-variable-using-javascript-arrays
 
 # --description--
 
-With JavaScript `array` variables, we can store several pieces of data in one place.
+Mit JavaScript `array` Variablen können wir mehrere Daten an einem Ort speichern.
 
-Du beginnst eine Array-Deklaration mit einer öffnenden eckigen Klammer, beendest sie mit einer schließenden eckigen Klammer und setzt ein Komma zwischen jeden Eintrag, etwa so:
+Sie beginnen eine Array-Deklaration mit einer öffnenden eckigen Klammer, beenden sie mit einer schließenden eckigen Klammer und setzen ein Komma zwischen jede Eintragung, so:
 
 ```js
 const sandwich = ["peanut butter", "jelly", "bread"];
@@ -18,7 +18,7 @@ const sandwich = ["peanut butter", "jelly", "bread"];
 
 # --instructions--
 
-Ändere das neue Array `myArray` so, dass es sowohl einen String als auch eine Zahl enthält (in dieser Reihenfolge).
+Ändern Sie das neue Array `myArray` so, dass es sowohl einen String als auch eine Zahl (in dieser Reihenfolge) enthält.
 
 # --hints--
 

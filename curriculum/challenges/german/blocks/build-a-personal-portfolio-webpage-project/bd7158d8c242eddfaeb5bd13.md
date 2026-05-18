@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c242eddfaeb5bd13
-title: Eine persönliche Portfolio-Webseite erstellen
+title: Persönliche Portfolio-Webseite erstellen
 challengeType: 14
 saveSubmissionToDB: true
 forumTopicId: 301143
@@ -9,36 +9,36 @@ dashedName: build-a-personal-portfolio-webpage
 
 # --description--
 
-**Ziel:** Erstelle eine Applikation, die eine ähnliche Funktionalität wie <a href="https://personal-portfolio.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://personal-portfolio.freecodecamp.rocks</a> aufweist. **Bitte kopiere nicht dieses Demo-Projekt **.
+**Ziel:** Erstellen Sie eine App, die funktional ähnlich ist wie <a href="https://personal-portfolio.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://personal-portfolio.freecodecamp.rocks</a>. **Kopieren Sie dieses Demo-Projekt nicht**.
 
 **User Stories:**
 
-1. Dein Portfolio sollte einen Begrüßungsbereich mit einer `id` von `welcome-section` besitzen
-1. Der Begrüßungsbereich sollte ein `h1`-Element mit Text enthalten
-1. Dein Portfolio sollte einen Projektabschnitt mit einer `id` von `projects` besitzen
-1. Der Projektabschnitt sollte mindestens ein Element mit einer `class` von `project-tile` besitzen, um das Projekt zu halten
+1. Ihr Portfolio sollte einen Willkommensabschnitt mit einem `id` von `welcome-section` haben
+1. Der Willkommensabschnitt sollte ein `h1`-Element enthalten, das Text beinhaltet
+1. Ihr Portfolio sollte einen Projektabschnitt mit einem `id` von `projects` haben
+1. Der Projektabschnitt sollte mindestens ein Element mit einer `class` von `project-tile` enthalten, um ein Projekt zu halten
 1. Der Projektabschnitt sollte mindestens einen Link zu einem Projekt enthalten
-1. Dein Portfolio sollte eine Navigationsleiste mit einer ID von `navbar` haben
-1. Die Navigationsleiste sollte mindestens einen klickbaren Link beinhalten, der zu verschiedenen Sektionen auf der Seite navigiert
-1. Dein Portfolio sollte einen Link mit der ID `profile-link` haben, der dein GitHub- oder freeCodeCamp-Profil in einem neuen Tab öffnet
-1. Dein Portfolio sollte mindestens eine Media Query (Medienabfrage) enthalten
-1. Die Höhe des Begrüßungsabschnitts sollte der Höhe des Ansichtsfensters entsprechen
-1. Die Navigationsleiste sollte sich immer am oberen Rand des Ansichtsfensters befinden
+1. Ihr Portfolio sollte eine Navigationsleiste mit einer ID von `navbar` haben
+1. Die Navigationsleiste sollte mindestens einen Link enthalten, auf den Sie klicken können, um zu verschiedenen Abschnitten der Seite zu navigieren
+1. Ihr Portfolio sollte einen Link mit einer ID von `profile-link` haben, der Ihr GitHub- oder freeCodeCamp-Profil in einem neuen Tab öffnet
+1. Ihr Portfolio sollte mindestens eine Media Query enthalten
+1. Die Höhe des Willkommensabschnitts sollte der Höhe des Viewports entsprechen
+1. Die Navigationsleiste sollte immer oben im Viewport bleiben
 
-Erfülle die folgenden User Stories und bestehe alle Tests, um dieses Projekt abzuschließen. Gib dem Ganzen deinen persönlichen Stil. Viel Spaß beim Programmieren!
+Erfüllen Sie die User Stories und bestehen Sie alle untenstehenden Tests, um dieses Projekt abzuschließen. Verleihen Sie ihm Ihren eigenen persönlichen Stil. Viel Spaß beim Programmieren!
 
-**Hinweis:** Achte darauf, `<link rel="stylesheet" href="styles.css">` in deinen HTML-Code einzufügen, um dein Stylesheet zu verknüpfen und deinen CSS-Code anwenden zu können
+**Hinweis:** Stellen Sie sicher, dass Sie `<link rel="stylesheet" href="styles.css">` in Ihrem HTML hinzufügen, um Ihr Stylesheet zu verknüpfen und Ihr CSS anzuwenden
 
 # --hints--
 
-Dein Portfolio sollte einen Begrüßungsbereich mit einer `id` von `welcome-section` beinhalten.
+Ihr Portfolio sollte einen „Willkommen“-Abschnitt mit einem `id` von `welcome-section` haben.
 
 ```js
 const el = document.getElementById('welcome-section');
 assert.isNotNull(el);
 ```
 
-Dein `#welcome-section`-Element sollte ein `h1`-Element enthalten.
+Ihr `#welcome-section`-Element sollte ein `h1`-Element enthalten.
 
 ```js
 assert.isAbove(
@@ -48,7 +48,7 @@ assert.isAbove(
 );
 ```
 
-Du solltest keine leeren `h1`-Elemente innerhalb des `#welcome-section`-Elements haben.
+Sie sollten keine leeren `h1`-Elemente innerhalb eines `#welcome-section`-Elements haben.
 
 ```js
 assert.isAbove(
@@ -58,33 +58,33 @@ assert.isAbove(
 );
 ```
 
-Du solltest einen Projektabschnitt mit einer `id` von `projects` haben.
+Sie sollten einen „Projekte“-Abschnitt mit einem `id` von `projects` haben.
 
 ```js
 const el = document.getElementById('projects');
 assert.isNotNull(el);
 ```
 
-Dein Portfolio sollte mindestens ein Element mit einer Klasse von `project-tile` haben.
+Ihr Portfolio sollte mindestens ein Element mit einer Klasse von `project-tile` enthalten.
 
 ```js
 assert.isAbove(document.querySelectorAll('#projects .project-tile').length, 0);
 ```
 
-Dein `#projects`-Element sollte mindestens ein `a`-Element beinhalten.
+Ihr `#projects`-Element sollte mindestens ein `a`-Element enthalten.
 
 ```js
 assert.isAbove(document.querySelectorAll('#projects a').length, 0);
 ```
 
-Dein Portfolio sollte eine Navigationsleiste mit der `id` von `navbar` besitzen.
+Ihr Portfolio sollte eine Navigationsleiste mit einem `id` von `navbar` haben.
 
 ```js
 const el = document.getElementById('navbar');
 assert.isNotNull(el);
 ```
 
-Dein `#navbar`-Element sollte mindestens ein `a`-Element, dessen `href`-Attribut mit `#` beginnt, haben.
+Ihr `#navbar`-Element sollte mindestens ein `a`-Element enthalten, dessen `href`-Attribut mit `#` beginnt.
 
 ```js
 const links = [...document.querySelectorAll('#navbar a')].filter(
@@ -94,7 +94,7 @@ const links = [...document.querySelectorAll('#navbar a')].filter(
 assert.isAbove(links.length, 0, 'Navbar should contain an anchor link ');
 ```
 
-Dein Portfolio sollte ein `a`-Element mit einer `id` von `profile-link` haben.
+Ihr Portfolio sollte ein `a`-Element mit einer `id` von `profile-link` haben.
 
 ```js
 const el = document.getElementById('profile-link');
@@ -102,7 +102,7 @@ assert.isNotNull(el);
 assert.strictEqual(el.tagName, 'A');
 ```
 
-Dein `#profile-link`-Element sollte ein `target`-Attribut von `_blank` haben.
+Ihr `#profile-link`-Element sollte ein `target`-Attribut von `_blank` haben.
 
 ```js
 const el = document.getElementById('profile-link');
@@ -110,7 +110,7 @@ assert.isNotNull(el);
 assert.strictEqual(el.target, '_blank');
 ```
 
-Dein Portfolio sollte mindestens eine Media Query (Medienabfrage) enthalten.
+Ihr Portfolio sollte mindestens eine Media Query verwenden.
 
 ```js
 const htmlSourceAttr = Array.from(document.querySelectorAll('source')).map(el => el.getAttribute('media'))
@@ -118,7 +118,7 @@ const cssCheck = new __helpers.CSSHelp(document).getCSSRules('media')
 assert.isTrue(cssCheck.length > 0 || htmlSourceAttr.length > 0);
 ```
 
-Dein `#navbar`-Element sollte immer oben im Viewport liegen.
+Ihr `#navbar`-Element sollte immer oben im Viewport sein.
 
 ```js
   const timeout = milliseconds =>

@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Höre dir die Audio an, um die unteren Sätze zu vervollständigen.
+Hören Sie sich die Audioaufnahme an und vervollständigen Sie den Satz unten.
 
 # --fillInTheBlank--
 
@@ -24,15 +24,15 @@ Höre dir die Audio an, um die unteren Sätze zu vervollständigen.
 
 ### --feedback--
 
-This is used to show that something happens earlier in time than something else.
+Dies wird verwendet, um zu zeigen, dass etwas zeitlich früher passiert als etwas anderes.
 
 # --explanation--
 
-`Before` is used to show that one action happens earlier than another. Zum Beispiel:
+`Before` wird verwendet, um zu zeigen, dass eine Handlung früher als eine andere stattfindet. Zum Beispiel:
 
-- `Please save your work before you close the program.` – This means saving should happen earlier than closing the program.
+- `Please save your work before you close the program.` – Das bedeutet, dass das Speichern vor dem Schließen des Programms erfolgen sollte.
 
-- `He always checks his code carefully before submitting it.` – This means checking happens first, before the action of submitting.
+- `He always checks his code carefully before submitting it.` – Das bedeutet, dass das Überprüfen zuerst passiert, bevor die Aktion des Absenden erfolgt.
 
 # --scene--
 

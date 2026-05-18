@@ -1,34 +1,34 @@
 ---
 id: 681dbcca65bbda5f286dc0ca
-title: Implement the Quicksort Algorithm
+title: Implementieren Sie den Quicksort-Algorithmus
 challengeType: 27
 dashedName: implement-the-quicksort-algorithm
 ---
 
 # --description--
 
-**Objective:** Fulfill the user stories below and get all the tests to pass to complete the lab.
+**Ziel:** Erfüllen Sie die untenstehenden User Stories und bringen Sie alle Tests zum Bestehen, um das Labor abzuschließen.
 
 **User Stories:**
 
-1. You should define a function named `quick_sort` to implement the quicksort algorithm.
+1. Sie sollten eine Funktion namens `quick_sort` definieren, um den Quicksort-Algorithmus zu implementieren.
 
-1. The `quick_sort` function should take a list of integers as input and return a new list of these integers in sorted order from least to greatest.
+1. Die Funktion `quick_sort` sollte eine Liste ganzer Zahlen als Eingabe nehmen und eine neue Liste dieser Zahlen in aufsteigender Reihenfolge zurückgeben.
 
-1. To implement the algorithm, you should:
-   - Choose a pivot value from the elements of the input list (use the first or the last element of the list).
-   - Partition the input list into three sublists: one with elements less than the pivot, one with elements equal to the pivot, and one with elements greater than the pivot.
-   - Recursively call `quick_sort` to sort the sublists and concatenate the sorted sublists to produce the final sorted list.
+1. Um den Algorithmus zu implementieren, sollten Sie:
+   - Einen Pivot-Wert aus den Elementen der Eingabeliste auswählen (verwenden Sie das erste oder das letzte Element der Liste).
+   - Die Eingabeliste in drei Teillisten aufteilen: eine mit Elementen kleiner als der Pivot, eine mit Elementen gleich dem Pivot und eine mit Elementen größer als der Pivot.
+   - `quick_sort` rekursiv aufrufen, um die Teillisten zu sortieren, und die sortierten Teillisten zusammenfügen, um die endgültige sortierte Liste zu erzeugen.
 
 # --hints--
 
-You should have a function named `quick_sort`.
+Sie sollten eine Funktion namens `quick_sort` haben.
 
 ```js
 ({ test: () => runPython(`assert _Node(_code).has_function("quick_sort")`) })
 ```
 
-Your `quick_sort` function should take a single parameter.
+Ihre Funktion `quick_sort` sollte einen einzelnen Parameter haben.
 
 ```js
 ({ test: () => runPython(`
@@ -38,13 +38,13 @@ assert len(sig.parameters) == 1
 `) })
 ```
 
-`quick_sort([])` should return an empty list.
+`quick_sort([])` sollte eine leere Liste zurückgeben.
 
 ```js
 ({ test: () => runPython(`assert quick_sort([]) == []`) })
 ```
 
-Your `quick_sort` function should not modify the list passed to it as the argument.
+Ihre Funktion `quick_sort` sollte die als Argument übergebene Liste nicht verändern.
 
 ```js
 ({ test: () => runPython(`
@@ -54,31 +54,31 @@ assert _test_list == [20, 3, 14, 1, 5]
 `) })
 ```
 
-`quick_sort([20, 3, 14, 1, 5])` should return `[1, 3, 5, 14, 20]`.
+`quick_sort([20, 3, 14, 1, 5])` sollte `[1, 3, 5, 14, 20]` zurückgeben.
 
 ```js
 ({ test: () => runPython(`assert quick_sort([20, 3, 14, 1, 5]) == [1, 3, 5, 14, 20]`) })
 ```
 
-`quick_sort([83, 4, 24, 2])` should return `[2, 4, 24, 83]`.
+`quick_sort([83, 4, 24, 2])` sollte `[2, 4, 24, 83]` zurückgeben.
 
 ```js
 ({ test: () => runPython(`assert quick_sort([83, 4, 24, 2]) == [2, 4, 24, 83]`) })
 ```
 
-`quick_sort([4, 42, 16, 23, 15, 8])` should return `[4, 8, 15, 16, 23, 42]`.
+`quick_sort([4, 42, 16, 23, 15, 8])` sollte `[4, 8, 15, 16, 23, 42]` zurückgeben.
 
 ```js
 ({ test: () => runPython(`assert quick_sort([4, 42, 16, 23, 15, 8]) == [4, 8, 15, 16, 23, 42]`) })
 ```
 
-`quick_sort([87, 11, 23, 18, 18, 23, 11, 56, 87, 56])` should return `[11, 11, 18, 18, 23, 23, 56, 56, 87, 87]`.
+`quick_sort([87, 11, 23, 18, 18, 23, 11, 56, 87, 56])` sollte `[11, 11, 18, 18, 23, 23, 56, 56, 87, 87]` zurückgeben.
 
 ```js
 ({ test: () => runPython(`assert quick_sort([87, 11, 23, 18, 18, 23, 11, 56, 87, 56]) == [11, 11, 18, 18, 23, 23, 56, 56, 87, 87]`) })
 ```
 
-You should not import any module or use built-in sorting methods in your code.
+Sie sollten kein Modul importieren oder eingebaute Sortiermethoden in Ihrem Code verwenden.
 
 ```js
 ({ test: () => runPython(`

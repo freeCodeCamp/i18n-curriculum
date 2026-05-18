@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Höre dir die Audio an, um die unteren Sätze zu vervollständigen.
+Hören Sie sich die Audioaufnahme an und vervollständigen Sie den folgenden Satz.
 
 # --fillInTheBlank--
 
@@ -24,13 +24,13 @@ Höre dir die Audio an, um die unteren Sätze zu vervollständigen.
 
 ### --feedback--
 
-Followed by `down`, this means making something move or happen more slowly than normal. Verwende die `-ing`-Form.
+Gefolgt von `down` bedeutet dies, etwas langsamer als normal zu bewegen oder geschehen zu lassen. Verwenden Sie die `-ing`-Form.
 
 # --explanation--
 
-`To slow down` means to reduce speed or to make something happen more slowly. In work or project contexts, it can refer to anything that delays progress. Zum Beispiel:
+`To slow down` bedeutet, die Geschwindigkeit zu verringern oder etwas langsamer geschehen zu lassen. In Arbeits- oder Projektkontexten kann es sich auf alles beziehen, was den Fortschritt verzögert. Zum Beispiel:
 
-`Traffic is slowing down the delivery.` – This means the delivery is taking longer because of traffic.
+`Traffic is slowing down the delivery.` – Das bedeutet, dass die Lieferung wegen des Verkehrs länger dauert.  
 
 # --scene--
 

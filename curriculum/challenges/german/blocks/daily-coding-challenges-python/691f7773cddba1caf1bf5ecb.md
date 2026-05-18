@@ -7,10 +7,10 @@ dashedName: challenge-132
 
 # --description--
 
-Given an array of values, remove all occurrences of the most frequently occurring element and return the resulting array.
+Gegeben ist ein Array von Werten. Entfernen Sie alle Vorkommen des am häufigsten auftretenden Elements und geben Sie das resultierende Array zurück.
 
-- If multiple values are tied for most frequent, remove all of them.
-- Do not change any of the other elements or their order.
+- Wenn mehrere Werte gleich häufig sind, entfernen Sie alle diese Werte.
+- Ändern Sie keine der anderen Elemente oder deren Reihenfolge.
 
 # --hints--
 

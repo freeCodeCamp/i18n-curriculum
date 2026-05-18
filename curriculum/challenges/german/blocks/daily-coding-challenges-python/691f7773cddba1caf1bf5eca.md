@@ -7,14 +7,14 @@ dashedName: challenge-131
 
 # --description--
 
-Given an array of integers and a target number, find all pairs of elements in the array whose values add up to the target and return the sum of their indices.
+Gegeben ist ein Array aus ganzen Zahlen und eine Zielzahl. Finden Sie alle Paare von Elementen im Array, deren Werte zusammen die Zielzahl ergeben, und geben Sie die Summe ihrer Indizes zurück.
 
-For example, given `[2, 3, 4, 6, 8]` and `10`, you will find two valid pairs:
+Zum Beispiel finden Sie bei `[2, 3, 4, 6, 8]` und `10` zwei gültige Paare:
 
-- `2` and `8` (2 + 8 = 10), whose indices are `0` and `4`
-- `4` and `6` (4 + 6 = 10), whose indices are `2` and `3`
+- `2` und `8` (2 + 8 = 10), deren Indizes `0` und `4` sind
+- `4` und `6` (4 + 6 = 10), deren Indizes `2` und `3` sind
 
-Add all the indices together to get a return value of `9`.
+Addieren Sie alle Indizes, um einen Rückgabewert von `9` zu erhalten.
 
 # --hints--
 

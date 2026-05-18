@@ -1,6 +1,6 @@
 ---
 id: cf1111c1c12feddfaeb3bdef
-title: Verwende bedingte Logik mit If-Anweisungen
+title: Bedingte Logik mit if-Anweisungen verwenden
 challengeType: 1
 forumTopicId: 18348
 dashedName: use-conditional-logic-with-if-statements
@@ -8,9 +8,9 @@ dashedName: use-conditional-logic-with-if-statements
 
 # --description--
 
-`if` statements are used to make decisions in code. The keyword `if` tells JavaScript to execute the code in the curly braces under certain conditions, defined in the parentheses. These conditions are known as `Boolean` conditions and they may only be `true` or `false`.
+`if` Anweisungen werden verwendet, um Entscheidungen im Code zu treffen. Das Schlüsselwort `if` sagt JavaScript, den Code in den geschweiften Klammern unter bestimmten Bedingungen auszuführen, die in den runden Klammern definiert sind. Diese Bedingungen sind als `Boolean` Bedingungen bekannt und sie können nur `true` oder `false` sein.
 
-Wenn die Bedingung als `true` ausgewertet wird, führt das Programm die Anweisung innerhalb der geschweiften Klammern aus. Wenn die boolesche Bedingung als `false` ausgewertet wird, wird die Anweisung innerhalb der geschweiften Klammern nicht ausgeführt.
+Wenn die Bedingung zu `true` ausgewertet wird, führt das Programm die Anweisung innerhalb der geschweiften Klammern aus. Wenn die Boolean-Bedingung zu `false` ausgewertet wird, wird die Anweisung innerhalb der geschweiften Klammern nicht ausgeführt.
 
 **Pseudocode**
 
@@ -32,11 +32,11 @@ test(false);
 
 `test(true)` gibt den String `It was true` zurück, und `test(false)` gibt den String `It was false` zurück.
 
-Wenn `test` mit einem Wert von `true` aufgerufen wird, wertet die `if`-Anweisung `myCondition` aus, um zu sehen, ob sie `true` ist oder nicht. Da es `true` ist, gibt die Funktion `It was true` zurück. Wenn wir `test` mit einem Wert von `false` aufrufen, ist `myCondition` *nicht* `true` und die Anweisung in den geschweiften Klammern wird nicht ausgeführt und die Funktion gibt `It was false` zurück.
+Wenn `test` mit dem Wert `true` aufgerufen wird, bewertet die `if` Anweisung `myCondition`, um zu prüfen, ob es `true` ist oder nicht. Da es `true` ist, gibt die Funktion `It was true` zurück. Wenn wir `test` mit dem Wert `false` aufrufen, ist `myCondition` *nicht* `true` und die Anweisung in den geschweiften Klammern wird nicht ausgeführt, und die Funktion gibt `It was false` zurück.
 
 # --instructions--
 
-Erstelle eine `if`-Anweisung innerhalb der Funktion, um `Yes, that was true` zurückzugeben, wenn der Parameter `wasThatTrue` gleich `true` ist und ansonsten `No, that was false`.
+Erstellen Sie eine `if` Anweisung innerhalb der Funktion, die `Yes, that was true` zurückgibt, wenn der Parameter `wasThatTrue` `true` ist, und andernfalls `No, that was false` zurückgibt.
 
 # --hints--
 

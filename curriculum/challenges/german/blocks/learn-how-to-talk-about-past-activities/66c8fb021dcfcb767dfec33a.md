@@ -1,62 +1,61 @@
 ---
 id: 66c8fb021dcfcb767dfec33a
-title: Task 16
+title: Aufgabe 16
 challengeType: 19
 dashedName: task-16
 lang: en-US
 ---
-
 <!-- (Audio) Linda: No, we haven't. But we've solved similar issues on other projects. -->
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Hören Sie sich die Audioaufnahme an und beantworten Sie die folgende Frage.
 
 # --questions--
 
 ## --text--
 
-Which statement below is true?
+Welche Aussage unten ist richtig?
 
 ## --answers--
 
-They have never fixed any issues like this before.
+Sie haben noch nie Probleme wie dieses behoben.
 
 ### --feedback--
 
-Think about whether Linda mentions any experience with similar issues.
+Überlegen Sie, ob Linda irgendeine Erfahrung mit ähnlichen Problemen erwähnt.
 
 ---
 
-They have already fixed this exact issue on another project.
+Sie haben dieses genaue Problem bereits in einem anderen Projekt behoben.
 
 ### --feedback--
 
-Consider whether Linda says they have experience with this specific issue or something similar.
+Überlegen Sie, ob Linda sagt, dass sie Erfahrung mit genau diesem Problem oder mit etwas Ähnlichem haben.
 
 ---
 
-They haven't fixed this exact issue, but they have fixed similar ones before.
+Sie haben dieses genaue Problem nicht behoben, aber ähnliche schon.
 
 ---
 
-They have fixed this issue many times before.
+Sie haben dieses Problem schon oft behoben.
 
 ### --feedback--
 
-Reflect on whether Linda is talking about having fixed this exact issue or something similar.
-
+Überlegen Sie, ob Linda davon spricht, genau dieses Problem oder etwas Ähnliches behoben zu haben.
+  
 ## --video-solution--
 
 3
 
 # --explanation--
 
-To find the correct answer, focus on whether Linda is talking about fixing the `exact issue` or `similar issues`.
+Um die richtige Antwort zu finden, konzentrieren Sie sich darauf, ob Linda davon spricht, das `exact issue` oder `similar issues` behoben zu haben.
 
-Linda makes it clear that they haven't fixed this exact problem before, but she also mentions that they have solved similar issues in the past.
+Linda macht deutlich, dass sie dieses genaue Problem noch nicht behoben haben, aber sie erwähnt auch, dass sie ähnliche Probleme in der Vergangenheit gelöst haben.
 
-The correct answer should show this balance—acknowledging no exact match but confirming past experience with related problems.
+Die richtige Antwort sollte dieses Gleichgewicht zeigen – kein exaktes Beispiel, aber Bestätigung von Erfahrung mit verwandten Problemen.
 
 # --scene--
 

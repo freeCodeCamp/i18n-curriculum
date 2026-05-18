@@ -1,6 +1,6 @@
 ---
 id: 699e0353138be64fa313138f
-title: Piecewise Functions
+title: Stückweise definierte Funktionen
 challengeType: 11
 videoId: C9hCmH9nj4o
 dashedName: piecewise-functions
@@ -8,29 +8,29 @@ dashedName: piecewise-functions
 
 # --description--
 
-In this video, you will learn about piecewise functions.
+In diesem Video lernen Sie etwas über stückweise definierte Funktionen.
 
 # --questions--
 
 ## --text--
 
-What is a piecewise function?
+Was ist eine stückweise definierte Funktion?
 
 ## --answers--
 
-A function that is defined by multiple sub-functions on the y-axis.
+Eine Funktion, die durch mehrere Teilfunktionen auf der y-Achse definiert ist.
 
 ---
 
-A function that is defined by a single formula for all values of x.
+Eine Funktion, die durch eine einzige Formel für alle Werte von x definiert ist.
 
 ---
 
-A function that is defined by the x and y values of a set of points.
+Eine Funktion, die durch die x- und y-Werte einer Menge von Punkten definiert ist.
 
 ---
 
-A function that is defined by multiple sub-functions.
+Eine Funktion, die durch mehrere Teilfunktionen definiert ist.
 
 ## --video-solution--
 

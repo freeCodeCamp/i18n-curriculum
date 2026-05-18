@@ -1,34 +1,33 @@
 ---
 id: 699cc94ffc3ee628dfae74bf
-title: Task 31
+title: Aufgabe 31
 challengeType: 22
 dashedName: task-31
 lang: es
 ---
-
 <!-- (Audio) Mateo: Es m-a-t-e-o punto d-e-l-g-a-d-o arroba s-a-n-j-u-a-n punto p-r. -->
 
 # --description--
 
-`Es` comes from the verb `ser` and is used to identify or present something. For example:
+`Es` stammt vom Verb `ser` ab und wird verwendet, um etwas zu identifizieren oder darzustellen. Zum Beispiel:
 
-- `Es mi número.` - It is my number.
+- `Es mi número.` – Das ist meine Nummer.
+  
+- `Es mi correo.` – Das ist meine E-Mail.
 
-- `Es mi correo.` - It is my email.
+Beim Buchstabieren einer E-Mail-Adresse werden bestimmte Symbole laut ausgesprochen:
 
-When spelling an email address, certain symbols are said aloud:
+`Punto` wird für das Symbol `.` verwendet. Zum Beispiel:
 
-`Punto` is used for the symbol `.` For example:
+`ana.lopez` wird als `ana punto lopez` gelesen.
 
-`ana.lopez` is read as `ana punto lopez`.
+`Arroba` wird für das Symbol `@` verwendet. Zum Beispiel:
 
-`Arroba` is used for the symbol `@`. For example:
-
-`ana.lopez@ejemplo.com` is read as `ana punto lopez arroba ejemplo punto com`.
+`ana.lopez@ejemplo.com` wird als `ana punto lopez arroba ejemplo punto com` gelesen.
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Hören Sie sich die Audioaufnahme an und vervollständigen Sie den folgenden Satz.
 
 # --fillInTheBlank--
 
@@ -42,7 +41,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This form of `ser` is used to present or identify something.
+Diese Form von `ser` wird verwendet, um etwas darzustellen oder zu identifizieren.
 
 ---
 
@@ -50,7 +49,7 @@ This form of `ser` is used to present or identify something.
 
 ### --feedback--
 
-This word is used when saying the symbol `.` in an email address.
+Dieses Wort wird verwendet, wenn das Symbol `.` in einer E-Mail-Adresse ausgesprochen wird.
 
 ---
 
@@ -58,7 +57,7 @@ This word is used when saying the symbol `.` in an email address.
 
 ### --feedback--
 
-This word is used when saying the symbol `@`.
+Dieses Wort wird verwendet, wenn das Symbol `@` ausgesprochen wird.
 
 ---
 
@@ -66,21 +65,21 @@ This word is used when saying the symbol `@`.
 
 ### --feedback--
 
-This word appears again before the final letters `p r`.
+Dieses Wort erscheint erneut vor den letzten Buchstaben `p r`.
 
 # --explanation--
 
-The complete sentence is:
+Der vollständige Satz lautet:
 
 `Es m-a-t-e-o punto d-e-l-g-a-d-o arroba s-a-n-j-u-a-n punto p-r.`
 
-`Es` introduces the information.
+`Es` leitet die Information ein.
 
-`Punto` represents the symbol `.`
+`Punto` stellt das Symbol `.` dar.
 
-`Arroba` represents the symbol `@`
+`Arroba` stellt das Symbol `@` dar.
 
-These words are commonly used when spelling an email address aloud.
+Diese Wörter werden häufig verwendet, wenn man eine E-Mail-Adresse laut buchstabiert.
 
 # --scene--
 

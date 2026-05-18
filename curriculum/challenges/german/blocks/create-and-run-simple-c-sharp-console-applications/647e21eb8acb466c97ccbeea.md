@@ -1,38 +1,38 @@
 ---
 id: 647e21eb8acb466c97ccbeea
-title: 'Challenge Projekt - Entwickle foreach- und if-elseif-else-Strukturen zur Verarbeitung von Array-Daten in C#'
+title: Geführtes Projekt – Entwickeln von foreach- und if-elseif-else-Strukturen zur Verarbeitung von Array-Daten in C#
 challengeType: 19
 dashedName: guided-project-develop-foreach-and-if-elseif-else-structures-to-process-array-data-in-c-sharp
 ---
 
 # --description--
 
-Diese Aufgabe wird teilweise auf der Microsoft Learn Plattform erledigt. Folge diesen Anweisungen, um die Aufgabe zu lösen:
+Diese Aufgabe wird teilweise auf der Microsoft Learn-Plattform bearbeitet. Folgen Sie diesen Anweisungen, um die Aufgabe abzuschließen:
 
-1. Gehe auf <a href="https://learn.microsoft.com/training/modules/guided-project-arrays-iteration-selection/" target="_blank" rel="noreferrer">https://learn.microsoft.com/training/modules/guided-project-arrays-iteration-selection/</a> und löse alle Aufgaben für das Modul "Geführtes Projekt - Entwicklung von foreach- und if-elseif-else-Strukturen zur Verarbeitung von Array-Daten in C#". Dies ist **erforderlich**, um die "Create und Run Simple C# Console Applicaions"-Trophäe auf Microsoft Learn zu erwerben und sich für die Zertifizierungsprüfung zu qualifizieren.
-1. Wenn du damit fertig bist, komme zurück und beantworte die folgende Frage richtig.
+1. Gehen Sie zu <a href="https://learn.microsoft.com/training/modules/guided-project-arrays-iteration-selection/" target="_blank" rel="noreferrer">https://learn.microsoft.com/training/modules/guided-project-arrays-iteration-selection/</a> und erledigen Sie alle Aufgaben des Moduls „Geführtes Projekt – Entwickeln von foreach- und if-elseif-else-Strukturen zur Verarbeitung von Array-Daten in C#“. Dies ist **erforderlich**, um die Trophäe „Create and Run Simple C# Console Applications“ auf Microsoft Learn zu erhalten und sich für die Zertifizierungsprüfung zu qualifizieren.
+1. Wenn Sie fertig sind, kehren Sie zurück und beantworten Sie die folgende Frage korrekt.
 
 # --assignment--
 
-Schließe das geführte Projekt <a href="https://learn.microsoft.com/training/modules/guided-project-arrays-iteration-selection/" target="_blank" rel="noreferrer">Entwickle `foreach` und `if`-`elseif`-`else`-Strukturen zur Verarbeitung von Array-Daten in C#</a> auf Microsoft Learn ab. Beantworte dann die Frage unten.
+Schließen Sie das <a href="https://learn.microsoft.com/training/modules/guided-project-arrays-iteration-selection/" target="_blank" rel="noreferrer">Geführte Projekt „Develop `foreach` and `if`-`elseif`-`else` Structures to Process Array Data in C#“</a> auf Microsoft Learn ab. Beantworten Sie anschließend die untenstehende Frage.
 
 # --questions--
 
 ## --text--
 
-Ein Entwickler schreibt eine Anwendung, die eine `foreach`-Schleife verwendet, um durch ein Array zu iterieren, das 20 Elemente enthält. Nachdem die Anwendung abgeschlossen ist, stellt der Entwickler fest, dass das Array aktualisiert werden muss, um 40 Elemente zu enthalten. Die Anwendung muss alle 40 Array-Elemente untersuchen. Welche der folgenden Elemente beschreibt die erforderliche Code-Aktualisierung?
+Ein Entwickler schreibt eine Anwendung, die eine `foreach`-Schleife verwendet, um ein Array mit 20 Elementen zu durchlaufen. Nachdem die Anwendung fertiggestellt ist, erfährt der Entwickler, dass das Array auf 40 Elemente erweitert werden muss. Die Anwendung soll alle 40 Array-Elemente untersuchen. Welcher der folgenden Punkte beschreibt die erforderliche Codeänderung?
 
 ## --answers--
 
-Erstelle eine zweite `foreach`-Schleife, die die zusätzlichen Elemente durchläuft.
+Erstellen Sie eine zweite `foreach`-Schleife, die die zusätzlichen Elemente durchläuft.
 
 ---
 
-An der `foreach`-Schleife sind keine Änderungen erforderlich.
+Es sind keine Änderungen an der `foreach`-Schleife erforderlich.
 
 ---
 
-Platziere die originale `foreach`-Schleife in den Code-Block einer zweiten `foreach`-Schleife, die zweimal iteriert wird.
+Platzieren Sie die ursprüngliche `foreach`-Schleife innerhalb eines zweiten `foreach`-Schleifen-Codeblocks, der zweimal durchläuft.
 
 ## --video-solution--
 

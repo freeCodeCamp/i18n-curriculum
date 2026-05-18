@@ -1,6 +1,6 @@
 ---
 id: 6751bdd2f78adbed1ea0fa51
-title: Task 24
+title: Aufgabe 24
 challengeType: 19
 dashedName: task-24
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Hören Sie sich das Audio an und beantworten Sie die folgende Frage.
 
 # --questions--
 
 ## --text--
 
-What is Brian's concern?
+Was ist Brians Sorge?
 
 ## --answers--
 
-If users need to be informed about the downtime.
+Ob die Benutzer über die Ausfallzeit informiert werden müssen.
 
 ---
 
-If the downtime will last too long.
+Ob die Ausfallzeit zu lange dauern wird.
 
 ### --feedback--
 
-Brian is not asking about the length of the downtime.
+Brian fragt nicht nach der Dauer der Ausfallzeit.
 
 ---
 
-If the users will experience technical issues.
+Ob die Benutzer technische Probleme haben werden.
 
 ### --feedback--
 
-Brian does not mention technical issues in his concern.
+Brian erwähnt technische Probleme in seiner Sorge nicht.
 
 ---
 
-If the downtime will affect the server's performance.
+Ob die Ausfallzeit die Leistung des Servers beeinträchtigen wird.
 
 ### --feedback--
 
-Brian's concern is not about the server's performance.
+Brians Sorge betrifft nicht die Leistung des Servers.
 
 ## --video-solution--
 
@@ -52,7 +52,7 @@ Brian's concern is not about the server's performance.
 
 # --explanation--
 
-Brian is asking if they should update users about the downtime, showing his concern is about communication with the users rather than the length of downtime, technical issues, or server performance.
+Brian fragt, ob sie die Benutzer über die Ausfallzeit informieren sollten. Seine Sorge gilt also der Kommunikation mit den Benutzern und nicht der Dauer der Ausfallzeit, technischen Problemen oder der Serverleistung.
 
 # --scene--
 

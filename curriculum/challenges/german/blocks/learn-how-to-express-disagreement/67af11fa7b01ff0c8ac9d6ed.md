@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Read the text and answer the question below.
+Lesen Sie den Text und beantworten Sie die folgende Frage.
 
 # --questions--
 
@@ -30,7 +30,7 @@ After reviewing the survey results for the remote work stipend, Bob decided to w
 
 `As remote work grows, companies need to support their workers in the best way possible. A well-equipped home office isn't just a nice extra — it's key to doing great work.`
 
-Why do some workers prefer to use the stipend for office furniture?
+Warum bevorzugen einige Mitarbeitende, den Zuschuss für Büromöbel zu verwenden?
 
 ## --answers--
 
@@ -38,7 +38,7 @@ Because they don't like working remotely.
 
 ### --feedback--
 
-The article does not suggest that these workers dislike remote work.
+Der Artikel legt nicht nahe, dass diese Mitarbeitenden die Fernarbeit nicht mögen.
 
 ---
 
@@ -50,7 +50,7 @@ To buy decorations for their home office.
 
 ### --feedback--
 
-The article doesn't discuss furniture that improves decorations.
+Im Artikel wird nicht über Möbel gesprochen, die der Dekoration dienen.
 
 ---
 
@@ -58,7 +58,7 @@ To impress their coworkers.
 
 ### --feedback--
 
-The reason given in the article isn't appearances.
+Der im Artikel genannte Grund ist nicht das Erscheinungsbild.
 
 ## --video-solution--
 
@@ -66,6 +66,6 @@ The reason given in the article isn't appearances.
 
 # --explanation--
 
-The article explains that `a bad chair and desk can cause health problems` and make it harder to focus. This is why some workers prioritize using the stipend for office furniture instead of technology.
+Der Artikel erklärt, dass `a bad chair and desk can cause health problems` und es dadurch schwieriger wird, den Fokus zu halten. Deshalb priorisieren einige Mitarbeitende die Verwendung des Zuschusses für Büromöbel statt für Technik.
 
-Focus on how the article highlights ergonomics and well-being as key reasons for choosing furniture over computers.
+Konzentrieren Sie sich darauf, wie der Artikel Ergonomie und Wohlbefinden als Hauptgründe hervorhebt, Möbel Computern vorzuziehen.

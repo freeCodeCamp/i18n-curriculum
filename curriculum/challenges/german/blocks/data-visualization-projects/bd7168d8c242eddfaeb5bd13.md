@@ -1,6 +1,6 @@
 ---
 id: bd7168d8c242eddfaeb5bd13
-title: Datenvisualisierung mit einem Balkendiagramm
+title: Daten mit einem Balkendiagramm visualisieren
 challengeType: 3
 forumTopicId: 301464
 dashedName: visualize-data-with-a-bar-chart
@@ -8,43 +8,43 @@ dashedName: visualize-data-with-a-bar-chart
 
 # --description--
 
-**Objective:** Build an app that is functionally similar to this: <a href="https://bar-chart.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://bar-chart.freecodecamp.rocks</a>.
+**Ziel:** Erstellen Sie eine App, die funktional ähnlich ist wie diese: <a href="https://bar-chart.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://bar-chart.freecodecamp.rocks</a>.
 
-Erfülle die untenstehenden User Stories und bringe alle Tests zum Bestehen. Verwende die Bibliotheken oder APIs deiner Wahl. Gib dem Ganzen deinen persönlichen Stil.
+Erfüllen Sie die untenstehenden User Stories und bestehen Sie alle Tests. Verwenden Sie beliebige Bibliotheken oder APIs, die Sie benötigen. Verleihen Sie der App Ihren eigenen Stil.
 
-Du kannst HTML, JavaScript, CSS und die D3-Svg-basierte Visualisierungsbibliothek verwenden. Für die Tests müssen die Achsen mit Hilfe der D3-Achseneigenschaft erzeugt werden, die automatisch Markierungen entlang der Achse erzeugt. Diese Achsenmarkierungen sind notwendig, um die D3-Tests zu erfüllen, da diese zur Bestimmung der Ausrichtung von grafischen Elementen verwendet werden. Die Informationen zur Erstellung von Achsen findest du unter <https://d3js.org/d3-axis>. Erforderliche DOM-Elemente werden zum Zeitpunkt eines jeden Tests abgefragt. If you use a front-end framework (like Vue for example), the test results may be inaccurate for dynamic content. Wir hoffen, dass wir diese irgendwann berücksichtigen können, aber derzeit werden diese Frameworks nicht für D3-Projekte unterstützt.
+Sie können HTML, JavaScript, CSS und die D3 svg-basierte Visualisierungsbibliothek verwenden. Die Tests erfordern, dass Achsen mit der D3-Achsen-Eigenschaft generiert werden, die automatisch Ticks entlang der Achse erzeugt. Diese Ticks sind für das Bestehen der D3-Tests erforderlich, da ihre Positionen zur Bestimmung der Ausrichtung der dargestellten Elemente verwendet werden. Informationen zur Achsenerstellung finden Sie unter <https://d3js.org/d3-axis>. Die erforderlichen DOM-Elemente werden zum Zeitpunkt jedes Tests abgefragt. Wenn Sie ein Frontend-Framework (wie zum Beispiel Vue) verwenden, können die Testergebnisse für dynamische Inhalte ungenau sein. Wir hoffen, diese in Zukunft zu unterstützen, aber derzeit werden diese Frameworks für D3-Projekte nicht unterstützt.
 
-**User Story #1:** Mein Diagramm sollte einen Titel mit einer passenden `id="title"` haben.
+**User Story #1:** Mein Diagramm sollte einen Titel mit einer entsprechenden `id="title"` haben.
 
-**User Story #2:** Mein Diagramm sollte eine `g`-Element X-Achse mit einer passenden `id="x-axis"` haben.
+**User Story #2:** Mein Diagramm sollte eine `g`-Element x-Achse mit einer entsprechenden `id="x-axis"` haben.
 
-**User Story #2:** Mein Diagramm sollte eine `g`-Element Y-Achse mit einer passenden `id="y-axis"` haben.
+**User Story #3:** Mein Diagramm sollte eine `g`-Element y-Achse mit einer entsprechenden `id="y-axis"` haben.
 
-**User Story #4:** Beide Achsen sollten mehrere Markierungen enthalten, jede mit einer entsprechenden `class="tick"`.
+**User Story #4:** Beide Achsen sollten mehrere Tick-Bezeichnungen enthalten, jede mit einer entsprechenden `class="tick"`.
 
-**User Story #5:** Mein Diagramm sollte ein `rect` Element für jeden Datenpunkt mit einer entsprechenden `class="bar"` haben, welche die Daten anzeigt.
+**User Story #5:** Mein Diagramm sollte für jeden Datenpunkt ein `rect`-Element mit einer entsprechenden `class="bar"` haben, die die Daten anzeigt.
 
-**User Story #6:** Jede `.bar` sollte die `data-date`- und `data-gdp`-Eigenschaften haben, welche die `date`- und `GDP`-Werte beinhalten.
+**User Story #6:** Jedes `.bar` sollte die Eigenschaften `data-date` und `data-gdp` mit `date` und `GDP` Werten haben.
 
-**User Story #7:** Die `data-date`-Eigenschaften des `.bar`-Elements sollten mit der Reihenfolge der angegebenen Daten übereinstimmen.
+**User Story #7:** Die `.bar`-Elemente sollten `data-date`-Eigenschaften haben, die der Reihenfolge der bereitgestellten Daten entsprechen.
 
-**User Story #8:** Die `data-gdp`-Eigenschaften des `.bar`-Elements sollten mit der Reihenfolge der angegebenen Daten übereinstimmen.
+**User Story #8:** Die `.bar`-Elemente sollten `data-gdp`-Eigenschaften haben, die der Reihenfolge der bereitgestellten Daten entsprechen.
 
-**User Story #9:** Die Höhe jedes `.bar`-Elements sollte das entsprechende `GDP` der Daten exakt darstellen.
+**User Story #9:** Die Höhe jedes `.bar`-Elements sollte die entsprechende `GDP` der Daten genau darstellen.
 
-**User Story #10:** Das `data-date`-Attribut und sein zugehöriges `.bar`-Element sollten sich mit dem entsprechenden Wert auf der x-Achse ausrichten.
+**User Story #10:** Das `data-date`-Attribut und das entsprechende `.bar`-Element sollten mit dem entsprechenden Wert auf der x-Achse ausgerichtet sein.
 
-**User Story #11:** Das `data-gdp`-Attribut und sein zugehöriges `.bar`-Element sollten sich mit dem entsprechenden Wert auf der y-Achse ausrichten.
+**User Story #11:** Das `data-gdp`-Attribut und das entsprechende `.bar`-Element sollten mit dem entsprechenden Wert auf der y-Achse ausgerichtet sein.
 
-**User Story #12:** Ich kann mit meiner Maus über einen Bereich fahren und einen Tooltip mit einem entsprechenden `id="tooltip"` sehen, das mir mehr Informationen über den Bereich anzeigt.
+**User Story #12:** Ich kann mit der Maus über einen Bereich fahren und einen Tooltip mit einer entsprechenden `id="tooltip"` sehen, der weitere Informationen über den Bereich anzeigt.
 
-**User Story #13:** Mein Tooltip sollte eine `data-date` Eigenschaft haben, die dem `data-date` des aktiven Bereichs entspricht.
+**User Story #13:** Mein Tooltip sollte eine `data-date`-Eigenschaft haben, die der `data-date` des aktiven Bereichs entspricht.
 
-Hier ist der Datensatz, den du benötigst, um dieses Projekt abzuschließen: `https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/GDP-data.json`
+Hier ist der Datensatz, den Sie für dieses Projekt benötigen: `https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/GDP-data.json`
 
-Du kannst dein Projekt erstellen, indem du <a href='https://codepen.io/pen?template=MJjpwO' target="_blank" rel="noopener noreferrer nofollow">diese CodePen-Vorlage</a> verwendest und auf `Save` klickst, um deinen eigenen Pen zu erstellen. Oder du kannst diesen CDN-Link verwenden, um die Tests in jeder beliebigen Umgebung auszuführen: `https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js`.
+Sie können Ihr Projekt erstellen, indem Sie <a href='https://codepen.io/pen?template=MJjpwO' target="_blank" rel="noopener noreferrer nofollow">diese CodePen-Vorlage verwenden</a> und auf `Save` klicken, um Ihren eigenen Pen zu erstellen. Oder Sie können diesen CDN-Link verwenden, um die Tests in jeder beliebigen Umgebung auszuführen: `https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js`.
 
-Sobald du fertig bist, übermittle die URL an dein Arbeitsprojekt, wenn alle Tests bestanden sind.
+Wenn Sie fertig sind, senden Sie die URL Ihres funktionierenden Projekts mit allen bestandenen Tests ein.
 
 # --solutions--
 

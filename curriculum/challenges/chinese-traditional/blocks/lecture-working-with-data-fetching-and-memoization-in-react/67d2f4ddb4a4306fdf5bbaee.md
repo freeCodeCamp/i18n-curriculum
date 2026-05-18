@@ -124,9 +124,7 @@ function ExpensiveSquare({ num }) {
 export default ExpensiveSquare;
 ```
 
-這將確保函式（程式）透過快取結果來進行記憶化，因此只有當 `num` 變數改變時才會進行計算，而不是當它被使用的組件中任何東西改變時。
-
-`calculateSquare` 函式的呼叫不會在 `timer` 變更時執行，只會在初始呈現和 `num` 變更時執行。
+這將確保函式是透過快取結果來進行記憶化。即使 `ExpensiveSquare` 組件在父組件的 `timer` 狀態更新時仍會重新呈現，`calculateSquare` 的計算只會在初始呈現和 `num` 變更時重新執行。
 
 # --questions--
 

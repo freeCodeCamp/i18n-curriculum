@@ -1,6 +1,6 @@
 ---
 id: 3625fbc38b9428ae98d98f23
-title: Dictionaries
+title: Wörterbücher
 challengeType: 11
 videoId: FBfYADu3CIo
 dashedName: dictionaries
@@ -8,13 +8,13 @@ dashedName: dictionaries
 
 # --description--
 
-In this video, you will learn how to work with dictionaries in Python to store key-value pairs.
+In diesem Video lernen Sie, wie Sie in Python mit Wörterbüchern arbeiten, um Schlüssel-Wert-Paare zu speichern.
 
 # --questions--
 
 ## --text--
 
-Which of the following will correctly output the string `"March"` to the console?
+Welche der folgenden Optionen gibt den String `"March"` korrekt in der Konsole aus?
 
 ## --answers--
 

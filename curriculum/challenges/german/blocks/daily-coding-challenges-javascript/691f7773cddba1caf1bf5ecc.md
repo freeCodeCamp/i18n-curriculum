@@ -1,79 +1,79 @@
 ---
 id: 691f7773cddba1caf1bf5ecc
-title: "Challenge 133: Daylight Hours"
+title: "Aufgabe 133: Tageslichtstunden"
 challengeType: 28
 dashedName: challenge-133
 ---
 
 # --description--
 
-December 21st is the winter solstice for the northern hemisphere and the summer solstice for the southern hemisphere. That means it's the day with the least daylight in the north and the most daylight in the south.
+Der 21. Dezember ist die Wintersonnenwende auf der Nordhalbkugel und die Sommersonnenwende auf der Südhalbkugel. Das bedeutet, dass es der Tag mit der geringsten Tageslichtdauer im Norden und der längsten Tageslichtdauer im Süden ist.
 
-Given a latitude number from -90 to 90, return a rough approximation of daylight hours on the solstice using the following table:
+Gegeben ist eine Breitengradzahl von -90 bis 90. Geben Sie eine grobe Schätzung der Tageslichtstunden an der Sonnenwende zurück, basierend auf der folgenden Tabelle:
 
-| Latitude | Daylight Hours |
-| -------- | -------------- |
-| -90      | 24             |
-| -75      | 23             |
-| -60      | 21             |
-| -45      | 15             |
-| -30      | 13             |
-| -15      | 12             |
-| 0        | 12             |
-| 15       | 11             |
-| 30       | 10             |
-| 45       | 9              |
-| 60       | 6              |
-| 75       | 2              |
-| 90       | 0              |
+|Breitengrad|Tageslichtstunden|
+|-|-|
+|-90|24|
+|-75|23|
+|-60|21|
+|-45|15|
+|-30|13|
+|-15|12|
+|0|12|
+|15|11|
+|30|10|
+|45|9|
+|60|6|
+|75|2|
+|90|0|
 
-- If the given latitude does not exactly match a table entry, use the value of the closest latitude.
+- Wenn der angegebene Breitengrad nicht genau mit einem Eintrag in der Tabelle übereinstimmt, verwenden Sie den Wert des nächstgelegenen Breitengrads.
 
 # --hints--
 
-`daylightHours(45)` should return `9`.
+`daylightHours(45)` sollte `9` zurückgeben.
 
 ```js
 assert.equal(daylightHours(45), 9);
 ```
 
-`daylightHours(0)` should return `12`.
+`daylightHours(0)` sollte `12` zurückgeben.
 
 ```js
 assert.equal(daylightHours(0), 12);
 ```
 
-`daylightHours(-90)` should return `24`.
+`daylightHours(-90)` sollte `24` zurückgeben.
 
 ```js
 assert.equal(daylightHours(-90), 24);
 ```
 
-`daylightHours(-10)` should return `12`.
+`daylightHours(-10)` sollte `12` zurückgeben.
 
 ```js
 assert.equal(daylightHours(-10), 12);
 ```
 
-`daylightHours(23)` should return `10`.
+`daylightHours(23)` sollte `10` zurückgeben.
 
 ```js
 assert.equal(daylightHours(23), 10);
 ```
 
-`daylightHours(88)` should return `0`.
+`daylightHours(88)` sollte `0` zurückgeben.
 
 ```js
 assert.equal(daylightHours(88), 0);
 ```
 
-`daylightHours(-33)` should return `13`.
+`daylightHours(-33)` sollte `13` zurückgeben.
 
 ```js
 assert.equal(daylightHours(-33), 13);
 ```
 
-`daylightHours(70)` should return `2`.
+`daylightHours(70)` sollte `2` zurückgeben.
 
 ```js
 assert.equal(daylightHours(70), 2);

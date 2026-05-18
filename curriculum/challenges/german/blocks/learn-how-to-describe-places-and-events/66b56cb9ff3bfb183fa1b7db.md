@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Höre dir die Audio an, um den unteren Satz zu vervollständigen.
+Hören Sie sich die Audioaufnahme an, um den Satz unten zu vervollständigen.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Höre dir die Audio an, um den unteren Satz zu vervollständigen.
 
 ### --feedback--
 
-This word is used to specify the module that is currently being discussed.
+Dieses Wort wird verwendet, um das Modul zu benennen, über das gerade gesprochen wird.
 
 ---
 
@@ -32,7 +32,7 @@ This word is used to specify the module that is currently being discussed.
 
 ### --feedback--
 
-Something recent.
+Etwas Aktuelles.
 
 ---
 
@@ -40,15 +40,15 @@ Something recent.
 
 ### --feedback--
 
-A specific part or section of the training program.
+Ein bestimmter Teil oder Abschnitt des Trainingsprogramms.
 
 # --explanation--
 
-`Module` refers to a unit or section of a course or training program. For example:
+`Module` bezeichnet eine Einheit oder einen Abschnitt eines Kurses oder Trainingsprogramms. Zum Beispiel:
 
-- `The new module on cybersecurity will be added next week.` - Here, `module` refers to a specific part of the training focused on cybersecurity.
+- `The new module on cybersecurity will be added next week.` – Hier bezieht sich `module` auf einen bestimmten Teil des Trainings, der sich auf Cybersicherheit konzentriert.
 
-Pay attention to how the words `this`, `new`, and `module` are used. `This` is used to specify the module they are talking about, `new` shows that it's a recent addition, and `module` refers to a section of the training.
+Achten Sie darauf, wie die Wörter `this`, `new` und `module` verwendet werden. `This` wird genutzt, um das Modul zu spezifizieren, über das gesprochen wird, `new` zeigt, dass es sich um eine aktuelle Ergänzung handelt, und `module` bezieht sich auf einen Abschnitt des Trainings.
 
 # --scene--
 

@@ -11,41 +11,41 @@ lang: en-US
 
 # --description--
 
-Listen to Maria and answer the question.
+Hören Sie Maria zu und beantworten Sie die Frage.
 
 # --questions--
 
 ## --text--
 
-What can boost their motivation according to Maria?
+Was kann laut Maria ihre Motivation steigern?
 
 ## --answers--
 
-Having a big team
+Ein großes Team zu haben
 
 ### --feedback--
 
-Think about what specifically makes the team more motivated, not just the size of the team.
+Überlegen Sie, was genau das Team motivierter macht, nicht nur die Größe des Teams.
 
 ---
 
-Taking a long break
+Eine lange Pause machen
 
 ### --feedback--
 
-Consider if breaks are mentioned as a way to increase motivation.
+Überlegen Sie, ob Pausen als Mittel zur Steigerung der Motivation erwähnt werden.
 
 ---
 
-Seeing the team inspired
+Das Team inspiriert zu sehen
 
 ---
 
-Solving problems quickly
+Probleme schnell zu lösen
 
 ### --feedback--
 
-Reflect on whether the speed of solving problems is what Maria highlights as motivating.
+Reflektieren Sie, ob die Geschwindigkeit beim Lösen von Problemen das ist, was Maria als motivierend hervorhebt.
 
 ## --video-solution--
 

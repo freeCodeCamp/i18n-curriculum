@@ -1,6 +1,6 @@
 ---
 id: 67baf3ed288e8b06f4ab0dfb
-title: Task 76
+title: Aufgabe 76
 challengeType: 22
 dashedName: task-76
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Hören Sie sich die Audioaufnahme an und vervollständigen Sie den folgenden Satz.
 
 # --fillInTheBlank--
 
@@ -22,23 +22,23 @@ Listen to the audio and complete the sentence below.
 
 `team spirit`
 
-### --feedback--
+### --feedback--  
 
-These two words together refer to the sense of unity and cooperation among coworkers. The first word refers to a group working together, and the second word relates to shared enthusiasm or motivation.
+Diese beiden Wörter zusammen beziehen sich auf das Gefühl von Zusammenhalt und Zusammenarbeit unter Kolleginnen und Kollegen. Das erste Wort bezeichnet eine Gruppe, die zusammenarbeitet, und das zweite Wort steht für gemeinsame Begeisterung oder Motivation.
 
 ---
 
 `problem-solving`
 
-### --feedback--
+### --feedback--  
 
-This compound word refers to the process of finding solutions to challenges. The first part refers to an issue that needs to be fixed, and the second part is a verb meaning finding a solution. Remember to use `-` between the two parts.
+Dieses zusammengesetzte Wort beschreibt den Prozess, Lösungen für Aufgaben zu finden. Der erste Teil bezieht sich auf ein Problem, das behoben werden muss, und der zweite Teil ist ein Verb, das das Finden einer Lösung bedeutet. Denken Sie daran, `-` zwischen den beiden Teilen zu verwenden.
 
 # --explanation--
 
-David believes that working in the office helps strengthen `team spirit` (a sense of connection and unity among coworkers) and improves `problem-solving` (finding solutions to challenges more efficiently).
+David ist der Meinung, dass die Arbeit im Büro den `team spirit` (ein Gefühl der Verbindung und des Zusammenhalts unter Kolleginnen und Kollegen) stärkt und das `problem-solving` (das effizientere Finden von Lösungen für Aufgaben) verbessert.
 
-He argues that being in the same physical space makes it easier for employees to collaborate and support one another.
+Er argumentiert, dass es einfacher ist, zusammenzuarbeiten und sich gegenseitig zu unterstützen, wenn man sich im selben physischen Raum befindet.
 
 # --scene--
 

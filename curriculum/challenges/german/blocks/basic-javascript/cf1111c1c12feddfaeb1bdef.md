@@ -1,6 +1,6 @@
 ---
 id: cf1111c1c12feddfaeb1bdef
-title: Zufällige Ganzzahlen mit JavaScript generieren
+title: Zufällige ganze Zahlen mit JavaScript generieren
 challengeType: 1
 forumTopicId: 18186
 dashedName: generate-random-whole-numbers-with-javascript
@@ -8,25 +8,25 @@ dashedName: generate-random-whole-numbers-with-javascript
 
 # --description--
 
-You can generate random decimal numbers with `Math.random()`, but sometimes you need to generate random whole numbers. The following process will give you a random whole number less than `20`:
+Sie können mit `Math.random()` zufällige Dezimalzahlen erzeugen, aber manchmal müssen Sie zufällige ganze Zahlen generieren. Der folgende Prozess liefert Ihnen eine zufällige ganze Zahl, die kleiner als `20` ist:
 
-1. Use `Math.random()` to generate a random decimal number.
-2. Multipliziere diese zufällige Dezimalzahl mit `20`.
-3. Nutze `Math.floor()`, um auf die ganze Zahl abzurunden.
+1. Verwenden Sie `Math.random()`, um eine zufällige Dezimalzahl zu erzeugen.
+2. Multiplizieren Sie diese zufällige Dezimalzahl mit `20`.
+3. Verwenden Sie `Math.floor()`, um diese Zahl auf die nächstliegende ganze Zahl abzurunden.
 
-Denke daran, dass `Math.random()` nie genau eine `1` zurückgeben kann. Es ist also unmöglich, tatsächlich `20` zu erhalten, da du mit `Math.floor()` abrundest. Mit diesem Verfahren erhältst du eine zufällige ganze Zahl im Bereich von `0` bis `19`.
+Denken Sie daran, dass `Math.random()` niemals genau `1` zurückgeben kann, daher ist es unmöglich, tatsächlich `20` zu erhalten, da Sie mit `Math.floor()` abrunden. Dieser Prozess liefert Ihnen eine zufällige ganze Zahl im Bereich von `0` bis `19`.
 
-Alles zusammengenommen sieht dein Code folgendermaßen aus:
+Wenn Sie alles zusammenfügen, sieht Ihr Code so aus:
 
 ```js
 Math.floor(Math.random() * 20);
 ```
 
-Du rufst `Math.random()` auf, multiplizierst das Ergebnis mit 20 und übergibst den Wert dann an `Math.floor()`, um den Wert auf die nächste ganze Zahl abzurunden.
+Sie rufen `Math.random()` auf, multiplizieren das Ergebnis mit 20 und übergeben den Wert dann an `Math.floor()`, um ihn auf die nächstliegende ganze Zahl abzurunden.
 
 # --instructions--
 
-Verwende diese Technik, um eine zufällige ganze Zahl im Bereich von `0` bis `9` zu erzeugen und zurückzugeben.
+Verwenden Sie diese Technik, um eine zufällige ganze Zahl im Bereich von `0` bis `9` zu generieren und zurückzugeben.
 
 # --hints--
 
@@ -42,13 +42,13 @@ assert(
 );
 ```
 
-Du solltest `Math.random` verwenden, um eine Zufallszahl zu erzeugen.
+Sie sollten `Math.random` verwenden, um eine zufällige Zahl zu erzeugen.
 
 ```js
 assert(__helpers.removeJSComments(code).match(/Math.random/g).length >= 1);
 ```
 
-Du solltest das Ergebnis von `Math.random` mit 10 multiplizieren, damit es eine Zahl im Bereich von null bis neun ergibt.
+Sie sollten das Ergebnis von `Math.random` mit 10 multipliziert haben, um eine Zahl im Bereich von null bis neun zu erhalten.
 
 ```js
 assert(
@@ -57,7 +57,7 @@ assert(
 );
 ```
 
-Du solltest `Math.floor` verwenden, um den Dezimalteil der Zahl zu entfernen.
+Sie sollten `Math.floor` verwenden, um den Dezimalteil der Zahl zu entfernen.
 
 ```js
 assert(__helpers.removeJSComments(code).match(/Math.floor/g).length >= 1);

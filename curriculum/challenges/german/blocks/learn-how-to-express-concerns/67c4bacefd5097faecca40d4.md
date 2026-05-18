@@ -1,6 +1,6 @@
 ---
 id: 67c4bacefd5097faecca40d4
-title: Task 22
+title: Aufgabe 22
 challengeType: 19
 dashedName: task-22
 lang: en-US
@@ -10,51 +10,51 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Hören Sie sich die Audioaufnahme an und beantworten Sie die folgende Frage.
 
 # --questions--
 
 ## --text--
 
-What does Bob want to know?
+Was möchte Bob wissen?  
 
 ## --answers--
 
-If they should cancel the project.
+Ob sie das Projekt abbrechen sollten.  
 
 ### --feedback--
 
-Bob is not asking about canceling the project.
+Bob fragt nicht, ob das Projekt abgebrochen werden soll.  
 
 ---
 
-If working fewer hours would be better.
+Ob es besser wäre, weniger Stunden zu arbeiten.  
 
 ### --feedback--
 
-Bob is suggesting working more hours, not fewer.
+Bob schlägt vor, mehr Stunden zu arbeiten, nicht weniger.  
 
 ---
 
-If the team has already solved the issue.
+Ob das Team das Problem bereits gelöst hat.  
 
 ### --feedback--
 
-Bob is asking if his suggestion will help, not if the issue is already solved.
+Bob fragt, ob sein Vorschlag helfen wird, nicht, ob das Problem schon gelöst ist.  
 
 ---
 
-If working extra hours will improve the situation.
+Ob das Arbeiten von Überstunden die Situation verbessern wird.  
 
 ## --video-solution--
 
-4
+4  
 
 # --explanation--
 
-Using negatives in questions with auxiliary or modal verbs (such as `wouldn't`, `isn't`, `doesn't`), which require direct `yes`/`no` answers, suggests that the speaker expects the answer to be positive — Bob assumes, in this case, that working extra hours will help. Another example:
+Die Verwendung von Verneinungen in Fragen mit Hilfs- oder Modalverben (wie `wouldn't`, `isn't`, `doesn't`), die direkte `yes`/`no` Antworten erfordern, deutet darauf hin, dass der Sprecher eine positive Antwort erwartet – Bob geht in diesem Fall davon aus, dass Überstunden helfen werden. Ein weiteres Beispiel:
 
-`Doesn't this plan seem like a good idea?` - The speaker expects the listener to agree that the plan is good.
+`Doesn't this plan seem like a good idea?` – Der Sprecher erwartet, dass der Zuhörer zustimmt, dass der Plan gut ist.
 
 # --scene--
 

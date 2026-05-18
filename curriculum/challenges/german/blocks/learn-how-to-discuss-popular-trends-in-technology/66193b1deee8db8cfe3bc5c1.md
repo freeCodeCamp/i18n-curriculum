@@ -10,41 +10,41 @@ lang: en-US
 
 # --description--
 
-Höre dir die Audio an und beantworte die Frage.
+Hören Sie sich das Audio an und beantworten Sie die Frage.
 
 # --questions--
 
 ## --text--
 
-What collaboration tools does Alice mention?
+Welche Kollaborationstools nennt Alice?
 
 ## --answers--
 
-`Project management tools` and `cloud storage services`
+`Project management tools` und `cloud storage services`
 
 ---
 
-`The internet` and `computer networks`
+`The internet` und `computer networks`
 
 ### --feedback--
 
-Although these are important tools in today's world, they are not the tools Alice mentions.
+Obwohl dies wichtige Werkzeuge in der heutigen Zeit sind, nennt Alice diese nicht.
 
 ---
 
-`Screwdrivers` and `hammers`
+`Screwdrivers` und `hammers`
 
 ### --feedback--
 
-These are manual tools, not collaboration tools.
+Dies sind manuelle Werkzeuge, keine Kollaborationstools.
 
 ---
 
-`Chat apps` and `email`
+`Chat apps` und `email`
 
 ### --feedback--
 
-These can be considered collaboration tools in a virtual environment, but Alice does not mention them.
+Diese können in einer virtuellen Umgebung als Kollaborationstools betrachtet werden, aber Alice erwähnt sie nicht.
 
 ## --video-solution--
 

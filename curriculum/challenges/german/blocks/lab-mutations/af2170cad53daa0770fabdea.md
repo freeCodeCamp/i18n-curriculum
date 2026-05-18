@@ -1,91 +1,91 @@
 ---
 id: af2170cad53daa0770fabdea
-title: Implement the Mutations Algorithm
+title: Implementieren Sie den Mutationsalgorithmus
 challengeType: 26
 dashedName: implement-the-mutations-algorithm
 ---
 
 # --description--
 
-**Objective:** Fulfill the user stories below and get all the tests to pass to complete the lab.
+**Ziel:** Erfüllen Sie die untenstehenden User Stories und bestehen Sie alle Tests, um das Labor abzuschließen.
 
 **User Stories:**
 
-1. Create a function named `mutation` that takes an array as its argument.
-1. `mutation` should return `true` if the string in the first element of the array contains all of the letters of the string in the second element of the array, and `false` otherwise. For example:
-    - `mutation(["hello", "Hello"])`, should return `true` because all of the letters in the second string are present in the first, ignoring case.
-    - `mutation(["hello", "hey"])` should return `false` because the string `hello` does not contain a `y`.
-    - `mutation(["Alien", "line"])`, should return `true` because all of the letters in `line` are present in `Alien`.
+1. Erstellen Sie eine Funktion namens `mutation`, die ein Array als Argument erhält.
+1. `mutation` soll `true` zurückgeben, wenn der String im ersten Element des Arrays alle Buchstaben des Strings im zweiten Element des Arrays enthält, und `false` andernfalls. Zum Beispiel:
+    - `mutation(["hello", "Hello"])` soll `true` zurückgeben, weil alle Buchstaben des zweiten Strings im ersten vorhanden sind, ohne Berücksichtigung der Groß- und Kleinschreibung.
+    - `mutation(["hello", "hey"])` soll `false` zurückgeben, weil der String `hello` kein `y` enthält.
+    - `mutation(["Alien", "line"])` soll `true` zurückgeben, weil alle Buchstaben in `line` in `Alien` enthalten sind.
 
 # --hints--
 
-`mutation(["hello", "hey"])` should return `false`.
+`mutation(["hello", "hey"])` soll `false` zurückgeben.
 
 ```js
 assert.isFalse(mutation(['hello', 'hey']));
 ```
 
-`mutation(["hello", "Hello"])` should return `true`.
+`mutation(["hello", "Hello"])` soll `true` zurückgeben.
 
 ```js
 assert.isTrue(mutation(['hello', 'Hello']));
 ```
 
-`mutation(["zyxwvutsrqponmlkjihgfedcba", "qrstu"])` should return `true`.
+`mutation(["zyxwvutsrqponmlkjihgfedcba", "qrstu"])` soll `true` zurückgeben.
 
 ```js
 assert.isTrue(mutation(['zyxwvutsrqponmlkjihgfedcba', 'qrstu']));
 ```
 
-`mutation(["Mary", "Army"])` should return `true`.
+`mutation(["Mary", "Army"])` soll `true` zurückgeben.
 
 ```js
 assert.isTrue(mutation(['Mary', 'Army']));
 ```
 
-`mutation(["Mary", "Aarmy"])` should return `true`.
+`mutation(["Mary", "Aarmy"])` soll `true` zurückgeben.
 
 ```js
 assert.isTrue(mutation(['Mary', 'Aarmy']));
 ```
 
-`mutation(["Alien", "line"])` should return `true`.
+`mutation(["Alien", "line"])` soll `true` zurückgeben.
 
 ```js
 assert.isTrue(mutation(['Alien', 'line']));
 ```
 
-`mutation(["floor", "for"])` should return `true`.
+`mutation(["floor", "for"])` soll `true` zurückgeben.
 
 ```js
 assert.isTrue(mutation(['floor', 'for']));
 ```
 
-`mutation(["hello", "neo"])` should return `false`.
+`mutation(["hello", "neo"])` soll `false` zurückgeben.
 
 ```js
 assert.isFalse(mutation(['hello', 'neo']));
 ```
 
-`mutation(["voodoo", "no"])` should return `false`.
+`mutation(["voodoo", "no"])` soll `false` zurückgeben.
 
 ```js
 assert.isFalse(mutation(['voodoo', 'no']));
 ```
 
-`mutation(["ate", "date"])` should return `false`.
+`mutation(["ate", "date"])` soll `false` zurückgeben.
 
 ```js
 assert.isFalse(mutation(['ate', 'date']));
 ```
 
-`mutation(["Tiger", "Zebra"])` should return `false`.
+`mutation(["Tiger", "Zebra"])` soll `false` zurückgeben.
 
 ```js
 assert.isFalse(mutation(['Tiger', 'Zebra']));
 ```
 
-`mutation(["Noel", "Ole"])` should return `true`.
+`mutation(["Noel", "Ole"])` soll `true` zurückgeben.
 
 ```js
 assert.isTrue(mutation(['Noel', 'Ole']));
@@ -94,6 +94,7 @@ assert.isTrue(mutation(['Noel', 'Ole']));
 # --seed--
 
 ## --seed-contents--
+
 ```js
 ```
 

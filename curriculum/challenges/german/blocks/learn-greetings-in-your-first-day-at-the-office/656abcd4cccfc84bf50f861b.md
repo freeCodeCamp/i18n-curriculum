@@ -8,13 +8,13 @@ lang: en-US
 
 # --description--
 
-In an office setting, it's common to point out items using `these` and `those`. Remember, `these` points to items near you, while `those` points to items further away.
+In einem Büro ist es üblich, auf Gegenstände mit `these` und `those` zu zeigen. Denken Sie daran, dass `these` auf Gegenstände in Ihrer Nähe zeigt, während `those` auf weiter entfernte Gegenstände zeigt.
 
 # --questions--
 
 ## --text--
 
-Which sentence correctly differentiates between `these` and `those`?
+Welcher Satz unterscheidet korrekt zwischen `these` und `those`?
 
 ## --answers--
 
@@ -22,7 +22,7 @@ Which sentence correctly differentiates between `these` and `those`?
 
 ### --feedback--
 
-Look for a sentence that uses `these` for multiple items nearby and `those` for multiple items at a distance or not being directly addressed.
+Achten Sie auf einen Satz, der `these` für mehrere Gegenstände in der Nähe und `those` für mehrere Gegenstände in der Entfernung oder nicht direkt Angesprochene verwendet.
 
 ---
 
@@ -30,7 +30,7 @@ Look for a sentence that uses `these` for multiple items nearby and `those` for 
 
 ### --feedback--
 
-Look for a sentence that uses `these` for multiple items nearby and `those` for multiple items at a distance or not being directly addressed.
+Achten Sie auf einen Satz, der `these` für mehrere Gegenstände in der Nähe und `those` für mehrere Gegenstände in der Entfernung oder nicht direkt Angesprochene verwendet.
 
 ---
 
@@ -42,7 +42,7 @@ Look for a sentence that uses `these` for multiple items nearby and `those` for 
 
 ### --feedback--
 
-Look for a sentence that uses `these` for multiple items nearby and `those` for multiple items at a distance or not being directly addressed.
+Achten Sie auf einen Satz, der `these` für mehrere Gegenstände in der Nähe und `those` für mehrere Gegenstände in der Entfernung oder nicht direkt Angesprochene verwendet.
 
 ## --video-solution--
 

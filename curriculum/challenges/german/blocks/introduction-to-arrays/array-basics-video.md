@@ -1,6 +1,6 @@
 ---
 id: 698dd3547932b3cc4b19c92d
-title: Array Basics
+title: Array-Grundlagen
 challengeType: 11
 videoId: G_kHMzPOwG8
 dashedName: array-basics
@@ -8,29 +8,29 @@ dashedName: array-basics
 
 # --description--
 
-In this video, you will learn about arrays.
+In diesem Video lernen Sie Arrays kennen.
 
 # --questions--
 
 ## --text--
 
-What is an array?
+Was ist ein Array?
 
 ## --answers--
 
-A collection of unrelated data stored randomly in memory.
+Eine Sammlung von nicht zusammenhängenden Daten, die zufällig im Speicher abgelegt sind.
 
 ---
 
-A function that stores numbers temporarily.
+Eine Funktion, die Zahlen vorübergehend speichert.
 
 ---
 
-An ordered collection of values where each element can be referenced by an index.
+Eine geordnete Sammlung von Werten, bei der jedes Element über einen Index referenziert werden kann.
 
 ---
 
-A type of loop used to iterate over numbers.
+Eine Art von Schleife, die verwendet wird, um Zahlen zu iterieren.
 
 ## --video-solution--
 

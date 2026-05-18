@@ -1,6 +1,6 @@
 ---
 id: 67caf4fe6a781dcd6059ceda
-title: Task 131
+title: Aufgabe 131
 challengeType: 22
 dashedName: task-131
 lang: en-US
@@ -10,39 +10,39 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Hören Sie sich die Audioaufnahme an und vervollständigen Sie den Satz unten.  
 
 # --fillInTheBlank--
 
 ## --sentence--
 
-`It'd be BLANK if we had more BLANK check-ins.`
+`It'd be BLANK if we had more BLANK check-ins.`  
 
 ## --blanks--
 
-`helpful`
+`helpful`  
 
 ### --feedback--
 
-This means providing assistance or making something easier.
+Das bedeutet, Unterstützung zu bieten oder etwas zu erleichtern.  
 
----
+---  
 
-`regular`
+`regular`  
 
 ### --feedback--
 
-This means happening consistently or at set intervals.
+Das bedeutet, dass etwas regelmäßig oder in festgelegten Abständen geschieht.  
 
 # --explanation--
 
-`Helpful` means providing assistance or making something easier. For example:
+`Helpful` bedeutet, Unterstützung zu bieten oder etwas zu erleichtern. Zum Beispiel:
 
-`It was helpful to have clear instructions before starting the task.` - This means the instructions made the task easier to complete.
+`It was helpful to have clear instructions before starting the task.` – Das bedeutet, die Anweisungen haben die Aufgabe leichter zu erledigen gemacht.
 
-`Regular` means happening consistently or at set intervals. For example:
+`Regular` bedeutet, dass etwas regelmäßig oder in festgelegten Abständen geschieht. Zum Beispiel:
 
-`We have regular meetings every Monday.` - This means the meetings happen consistently on Mondays.
+`We have regular meetings every Monday.` – Das bedeutet, die Treffen finden regelmäßig montags statt.
 
 # --scene--
 

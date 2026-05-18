@@ -1,6 +1,6 @@
 ---
 id: 698dd4cd7932b3cc4b19c92f
-title: Array Search, Insert and Delete
+title: "Suchen, Einfügen und Löschen in Arrays"
 challengeType: 11
 videoId: QvBI-LH2OMw
 dashedName: array-search-insert-delete
@@ -8,13 +8,13 @@ dashedName: array-search-insert-delete
 
 # --description--
 
-In this video, you will learn how to search, insert, and delete elements from arrays.
+In diesem Video lernen Sie, wie Sie Elemente in Arrays suchen, einfügen und löschen.
 
 # --questions--
 
 ## --text--
 
-Which method is used in Python to append an item at the end of a list?
+Welche Methode wird in Python verwendet, um ein Element am Ende einer Liste anzufügen?
 
 ## --answers--
 

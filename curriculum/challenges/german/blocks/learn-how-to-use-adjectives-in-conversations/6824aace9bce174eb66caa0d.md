@@ -1,6 +1,6 @@
 ---
 id: 6824aace9bce174eb66caa0d
-title: Task 149
+title: Aufgabe 149
 challengeType: 19
 dashedName: task-149
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Read the text and answer the question below.
+Lesen Sie den Text und beantworten Sie die folgende Frage.
 
 # --questions--
 
@@ -50,7 +50,7 @@ Jessica sent an email to the team the next day, summarizing her conversation wit
 
 `Jessica`
 
-What did Jessica report about the software's stability?
+Was berichtete Jessica über die Stabilität der Software?
 
 ## --answers--
 
@@ -58,7 +58,7 @@ It now requires more updates to stay stable.
 
 ### --feedback--
 
-Jessica does not mention the need for more updates.
+Jessica erwähnt nicht die Notwendigkeit weiterer Updates.
 
 ---
 
@@ -70,7 +70,7 @@ It works the same as the old version in terms of stability.
 
 ### --feedback--
 
-She clearly says the new version is `much more stable`.
+Sie sagt eindeutig, dass die neue Version `much more stable` ist.
 
 ---
 
@@ -78,7 +78,7 @@ It still has many large bugs and stops working often.
 
 ### --feedback--
 
-Jessica reports fewer problems and less crashing, not frequent bugs.
+Jessica berichtet von weniger Problemen und weniger Abstürzen, nicht von häufigen Bugs.
 
 ## --video-solution--
 
@@ -86,6 +86,6 @@ Jessica reports fewer problems and less crashing, not frequent bugs.
 
 # --explanation--
 
-In the `Stability` section, Jessica says the new version `doesn't crash as often` and they've seen `fewer serious problems`.
+Im `Stability`-Abschnitt sagt Jessica, dass die neue Version `doesn't crash as often` ist und sie `fewer serious problems` beobachtet haben.
 
-This means it is more reliable and stable than before.
+Das bedeutet, dass sie zuverlässiger und stabiler als zuvor ist.

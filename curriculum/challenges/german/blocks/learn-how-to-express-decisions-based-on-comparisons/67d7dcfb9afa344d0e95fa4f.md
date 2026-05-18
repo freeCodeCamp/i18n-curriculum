@@ -1,6 +1,6 @@
 ---
 id: 67d7dcfb9afa344d0e95fa4f
-title: Task 122
+title: Aufgabe 122
 challengeType: 22
 dashedName: task-122
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Hören Sie sich die Audioaufnahme an und vervollständigen Sie den folgenden Satz.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This two-word phrase means to cause or result in something happening.
+Dieser zweiteilige Ausdruck bedeutet, etwas zu verursachen oder dazu zu führen, dass etwas passiert.
 
 ---
 
@@ -32,17 +32,17 @@ This two-word phrase means to cause or result in something happening.
 
 ### --feedback--
 
-This means to make something take longer than expected.
+Das bedeutet, etwas länger dauern zu lassen als erwartet.
 
 # --explanation--
 
-`Lead to` means to cause something to happen or result in a certain outcome. For example:
+`Lead to` bedeutet, etwas zu verursachen oder zu einem bestimmten Ergebnis zu führen. Zum Beispiel:
 
-`Poor planning can lead to missed deadlines.` – This means that if planning is not done well, deadlines may not be met.
+`Poor planning can lead to missed deadlines.` – Das bedeutet, dass wenn die Planung nicht gut gemacht wird, Termine möglicherweise nicht eingehalten werden.
 
-`Delay` means to make something take longer than expected or to postpone it. For example:
+`Delay` bedeutet, etwas länger dauern zu lassen als erwartet oder zu verschieben. Zum Beispiel:
 
-`The software release was delayed due to unexpected bugs.` – This means the launch was pushed back because of technical issues.
+`The software release was delayed due to unexpected bugs.` – Das bedeutet, dass der Start wegen technischer Probleme verschoben wurde.
 
 # --scene--
 

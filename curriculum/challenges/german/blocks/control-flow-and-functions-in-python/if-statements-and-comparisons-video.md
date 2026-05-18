@@ -1,6 +1,6 @@
 ---
 id: 8314d0bbddb0aa027a144705
-title: If Statements and Comparisons
+title: If-Anweisungen und Vergleiche
 challengeType: 11
 videoId: frb0CCrS9X8
 dashedName: if-statements-and-comparisons
@@ -8,13 +8,13 @@ dashedName: if-statements-and-comparisons
 
 # --description--
 
-In this video, you will learn about comparison operators.
+In diesem Video lernen Sie Vergleichsoperatoren kennen.
 
 # --questions--
 
 ## --text--
 
-Which of the following operators is used to check if one number is greater than or equal to another number?
+Welcher der folgenden Operatoren wird verwendet, um zu prüfen, ob eine Zahl größer oder gleich einer anderen Zahl ist?
 
 ## --answers--
 

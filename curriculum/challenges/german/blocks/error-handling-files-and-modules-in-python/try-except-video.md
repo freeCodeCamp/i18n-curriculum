@@ -8,13 +8,13 @@ dashedName: try-except
 
 # --description--
 
-In this video, you will learn how to handle exceptions using try/except blocks to make your programs more robust.
+In diesem Video lernen Sie, wie Sie Ausnahmen mit try/except-Blöcken behandeln, um Ihre Programme robuster zu machen.
 
 # --questions--
 
 ## --text--
 
-What will be the result for the following code if the user provides the string `"random"`?
+Was wird das Ergebnis für den folgenden Code sein, wenn der Benutzer den String `"random"` eingibt?
 
 ```python
 try:
@@ -26,19 +26,19 @@ except:
 
 ## --answers--
 
-Nothing will be output to the console.
+Es wird nichts in der Konsole ausgegeben.
 
 ---
 
-The string `"random"` will be output to the console.
+Der String `"random"` wird in der Konsole ausgegeben.
 
 ---
 
-The string `"Invalid Input"` will be output to the console.
+Der String `"Invalid Input"` wird in der Konsole ausgegeben.
 
 ---
 
-The program will crash.
+Das Programm stürzt ab.
 
 ## --video-solution--
 

@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Höre dir die Audio an und beantworte die Frage unten.
+Hören Sie sich die Audioaufnahme an und beantworten Sie die folgende Frage.
 
 # --questions--
 
 ## --text--
 
-What does James know about the issue with the latest update?
+Was weiß James über das Problem mit dem neuesten Update?
 
 ## --answers--
 
-He knows exactly what the issue is.
+Er weiß genau, worin das Problem besteht.
 
 ### --feedback--
 
-James clearly says he didn't hear anything.
+James sagt deutlich, dass er nichts gehört hat.
 
 ---
 
-He doesn't know anything about it.
+Er weiß nichts darüber.
 
 ---
 
-He already talked to the client.
+Er hat bereits mit dem Client gesprochen.
 
 ### --feedback--
 
-James does not mention speaking to the client.
+James erwähnt nicht, mit dem Client gesprochen zu haben.
 
 ---
 
-He received an email about the issue.
+Er hat eine E-Mail über das Problem erhalten.
 
 ### --feedback--
 
-James states that he didn't hear anything.
+James sagt, dass er nichts gehört hat.
 
 ## --video-solution--
 
@@ -52,7 +52,7 @@ James states that he didn't hear anything.
 
 # --explanation--
 
-Short answers with auxiliary verbs repeat the auxiliary from the question to confirm or deny something. In this case, Maria asks, `Did you hear anything?`, and James responds, `No, I didn't.` instead of just saying `No.` Here are some other examples:
+Kurze Antworten mit Hilfsverben wiederholen das Hilfsverb aus der Frage, um etwas zu bestätigen oder zu verneinen. In diesem Fall fragt Maria `Did you hear anything?` und James antwortet `No, I didn't.` anstatt nur `No.` zu sagen. Hier sind einige weitere Beispiele:
 
 - `Are you coming to the meeting?` → `Yes, I am.`
 
@@ -60,7 +60,7 @@ Short answers with auxiliary verbs repeat the auxiliary from the question to con
 
 - `Will she be here on time?` → `Yes, she will.`
 
-Short answers make responses sound natural and complete while avoiding repetition of the full sentence.
+Kurze Antworten lassen Antworten natürlich und vollständig klingen, während sie die Wiederholung des ganzen Satzes vermeiden.
 
 # --scene--
 

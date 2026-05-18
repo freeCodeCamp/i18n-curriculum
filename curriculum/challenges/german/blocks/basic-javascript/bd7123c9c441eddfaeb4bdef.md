@@ -1,6 +1,6 @@
 ---
 id: bd7123c9c441eddfaeb4bdef
-title: Kommentiere deinen JavaScript-Code
+title: Kommentieren Sie Ihren JavaScript-Code
 challengeType: 1
 forumTopicId: 16783
 dashedName: comment-your-javascript-code
@@ -8,38 +8,38 @@ dashedName: comment-your-javascript-code
 
 # --description--
 
-Comments are lines of code that JavaScript will intentionally ignore. Comments are a great way to leave notes to yourself and to other people who will later need to figure out what that code does.
+Kommentare sind Codezeilen, die JavaScript absichtlich ignoriert. Kommentare sind eine großartige Möglichkeit, sich selbst und anderen Personen, die später verstehen müssen, was der Code macht, Notizen zu hinterlassen.
 
-Es gibt zwei Varianten, Kommentare in JavaScript zu schreiben:
+Es gibt zwei Möglichkeiten, Kommentare in JavaScript zu schreiben:
 
-Mit `//` wird JavaScript angewiesen, den Rest des Textes in der aktuellen Zeile zu ignorieren. Dies ist ein Inline-Kommentar:
+Die Verwendung von `//` weist JavaScript an, den Rest des Textes in der aktuellen Zeile zu ignorieren. Dies ist ein einzeiliger Kommentar:
 
 ```js
 // This is an in-line comment.
 ```
 
-Du kannst einen mehrzeiligen Kommentar schreiben, der mit `/*` beginnt und mit `*/` endet. Dies ist ein mehrzeiliger Kommentar:
+Sie können einen mehrzeiligen Kommentar beginnen mit `/*` und beenden mit `*/`. Dies ist ein mehrzeiliger Kommentar:
 
 ```js
 /* This is a
 multi-line comment */
 ```
 
-**HINWEIS:** Wenn du Code schreibst, solltest du regelmäßig Kommentare hinzufügen, um die Funktion von Teilen deines Codes zu erläutern. Eine gute Kommentierung kann dazu beitragen, den Zweck deines Codes zu erklären - sowohl für andere *als auch* für dein zukünftiges Ich.
+**HINWEIS:** Während Sie Code schreiben, sollten Sie regelmäßig Kommentare hinzufügen, um die Funktion der einzelnen Teile Ihres Codes zu erläutern. Gute Kommentare helfen dabei, die Absicht Ihres Codes zu vermitteln – sowohl für andere *als auch* für Ihr zukünftiges Ich.
 
 # --instructions--
 
-Versuche einen Kommentar von jeder Variante zu erstellen.
+Versuchen Sie, jeweils eine Art von Kommentar zu erstellen.
 
 # --hints--
 
-Du solltest einen Kommentar im Stil von `//` erstellen, der mindestens fünf Buchstaben enthält.
+Sie sollten einen Kommentar im `//`-Stil erstellen, der mindestens fünf Buchstaben enthält.
 
 ```js
 assert(code.match(/(\/\/)...../g));
 ```
 
-Du solltest einen Kommentar im Stil von `/* */` erstellen, der mindestens fünf Buchstaben enthält.
+Sie sollten einen Kommentar im `/* */`-Stil erstellen, der mindestens fünf Buchstaben enthält.
 
 ```js
 assert(code.match(/(\/\*)([^\/]{5,})(?=\*\/)/gm));

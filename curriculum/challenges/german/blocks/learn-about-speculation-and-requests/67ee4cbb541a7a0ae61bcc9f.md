@@ -1,6 +1,6 @@
 ---
 id: 67ee4cbb541a7a0ae61bcc9f
-title: Task 4
+title: Aufgabe 4
 challengeType: 19
 dashedName: task-4
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Hören Sie sich die Audioaufnahme an und beantworten Sie die folgende Frage.
 
 # --questions--
 
 ## --text--
 
-Is this small error serious?
+Ist dieser kleine Fehler ernsthaft?
 
 ## --answers--
 
-No, and they don't need to do anything about it.
+Nein, und sie müssen nichts dagegen unternehmen.
 
 ### --feedback--
 
-Sophie doesn't say it's a major issue, but they should fix it.
+Sophie sagt nicht, dass es ein großes Problem ist, aber sie sollten es beheben.
 
 ---
 
-Yes, it will break the whole system.
+Ja, es wird das ganze System zum Absturz bringen.
 
 ### --feedback--
 
-Sophie doesn't say it's a major issue, just something they should fix.
+Sophie sagt nicht, dass es ein großes Problem ist, nur dass sie es beheben sollten.
 
 ---
 
-Yes, Sophie is very worried about it.
+Ja, Sophie ist sehr besorgt darüber.
 
 ### --feedback--
 
-Sophie is not very worried, but she still thinks they should fix it.
+Sophie ist nicht sehr besorgt, aber sie denkt trotzdem, dass sie es beheben sollten.
 
 ---
 
-No, but it should still be fixed.
+Nein, aber es sollte trotzdem behoben werden.
 
 ## --video-solution--
 
@@ -52,13 +52,13 @@ No, but it should still be fixed.
 
 # --explanation--
 
-`It's not a big deal` means the problem is not serious. For example:
+`It's not a big deal` bedeutet, dass das Problem nicht ernst ist. Zum Beispiel:
 
 - **Monica:** `I can't join the meeting today.`
 
-- **Eva:** `It's not a big deal. I'll take notes for you.` - Missing the meeting is okay, and this person can help.
+- **Eva:** `It's not a big deal. I'll take notes for you.` – Es ist in Ordnung, das Treffen zu verpassen, und diese Person kann helfen.
 
-Sophie also says `we should fix it before it causes problems`, meaning it's better to fix it now before it becomes serious.
+Sophie sagt auch `we should fix it before it causes problems`, was bedeutet, dass es besser ist, es jetzt zu beheben, bevor es ernst wird.
 
 # --scene--
 

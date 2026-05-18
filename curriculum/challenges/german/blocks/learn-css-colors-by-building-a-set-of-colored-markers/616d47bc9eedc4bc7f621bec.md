@@ -1,35 +1,35 @@
 ---
 id: 616d47bc9eedc4bc7f621bec
-title: Step 10
+title: Schritt 10
 challengeType: 0
 dashedName: step-10
 ---
 
 # --description--
 
-Next, within the `div` element, add another `div` element and give it a class of `marker`.
+Fügen Sie als Nächstes innerhalb des `div`-Elements ein weiteres `div`-Element hinzu und geben Sie ihm die Klasse `marker`.
 
 # --hints--
 
-Your new `div` element should have an opening tag.
+Ihr neues `div`-Element sollte ein öffnendes Tag haben.
 
 ```js
 assert([...code.matchAll(/<div.*?>/gi)][1]);
 ```
 
-Your new `div` element should have a closing tag.
+Ihr neues `div`-Element sollte ein schließendes Tag haben.
 
 ```js
 assert([...code.matchAll(/<\/div\s*>/gi)][1]);
 ```
 
-You should nest your new `div` element within the `div` with the class `container`.
+Sie sollten Ihr neues `div`-Element innerhalb des `div` mit der Klasse `container` verschachteln.
 
 ```js
 assert(document.querySelector('.container')?.children[0]?.localName === 'div');
 ```
 
-You should give your new `div` element a class of `marker`.
+Sie sollten Ihrem neuen `div`-Element die Klasse `marker` geben.
 
 ```js
 const containerChildren = [...document.querySelector('.container')?.children];

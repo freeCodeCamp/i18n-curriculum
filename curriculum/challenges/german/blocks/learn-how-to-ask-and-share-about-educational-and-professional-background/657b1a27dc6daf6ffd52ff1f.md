@@ -1,6 +1,6 @@
 ---
 id: 657b1a27dc6daf6ffd52ff1f
-title: Task 30
+title: Aufgabe 30
 challengeType: 19
 dashedName: task-30
 lang: en-US
@@ -11,43 +11,43 @@ Second Candidate: Yes. I have a master's degree in computer science. -->
 
 # --description--
 
-In English, the noun suffixed with `'s` followed by a second noun structure is used to show possession or belonging.
+Im Englischen wird das Substantiv mit dem Suffix `'s` gefolgt von einer zweiten Substantivstruktur verwendet, um Besitz oder Zugehörigkeit auszudrücken.
 
-If the first noun is singular, as in `Sarah's laptop`, it indicates that the laptop belongs to Sarah. However, if the first noun is plural, the structure changes to noun suffixed with `'`, as in `teachers' office`, indicating an office for teachers.
+Wenn das erste Substantiv im Singular steht, wie bei `Sarah's laptop`, zeigt es an, dass der Laptop Sarah gehört. Wenn das erste Substantiv jedoch im Plural steht, ändert sich die Struktur zu einem Substantiv mit dem Suffix `'`, wie bei `teachers' office`, was auf ein Büro für Lehrer hinweist.
 
 # --questions--
 
 ## --text--
 
-What does `master's degree` in the context of the dialogue refer to?
+Worauf bezieht sich `master's degree` im Kontext des Dialogs?
 
 ## --answers--
 
-A degree for school teachers
+Ein Abschluss für Schullehrkräfte
 
 ### --feedback--
 
-`Master's degree` refers to an advanced academic degree, not specifically for teachers.
+`Master's degree` bezeichnet einen fortgeschrittenen akademischen Abschluss, nicht speziell für Lehrkräfte.
 
 ---
 
-A primary level educational degree
+Ein Abschluss auf Grundschulniveau
 
 ### --feedback--
 
-`Master's degree` is a higher education qualification, beyond the primary level.
+`Master's degree` ist eine Qualifikation für höhere Bildung, über das Grundschulniveau hinaus.
 
 ---
 
-A degree in mastering skills
+Ein Abschluss im Beherrschen von Fähigkeiten
 
 ### --feedback--
 
-While it implies expertise, `master's degree` specifically refers to an academic qualification.
+Obwohl es Fachkenntnisse impliziert, bezieht sich `master's degree` speziell auf eine akademische Qualifikation.
 
 ---
 
-An advanced academic degree
+Ein fortgeschrittener akademischer Abschluss
 
 ## --video-solution--
 

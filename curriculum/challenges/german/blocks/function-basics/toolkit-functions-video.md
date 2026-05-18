@@ -1,6 +1,6 @@
 ---
 id: 699e0347138be64fa313138d
-title: Toolkit Functions
+title: Toolkit-Funktionen
 challengeType: 11
 videoId: 3DbEglxB1HY
 dashedName: toolkit-functions
@@ -8,13 +8,13 @@ dashedName: toolkit-functions
 
 # --description--
 
-In this video, you will learn about toolkit functions.
+In diesem Video lernen Sie Toolkit-Funktionen kennen.
 
 # --questions--
 
 ## --text--
 
-Which of the following is NOT an example of a toolkit function?
+Welche der folgenden ist KEIN Beispiel für eine Toolkit-Funktion?
 
 ## --answers--
 

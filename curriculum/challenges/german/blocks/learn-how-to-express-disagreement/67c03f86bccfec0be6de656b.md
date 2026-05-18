@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Höre dir die Audio an und beantworte die Frage unten.
+Hören Sie sich die Audioaufnahme an und beantworten Sie die folgende Frage.
 
 # --questions--
 
 ## --text--
 
-What is Anna communicating?
+Was kommuniziert Anna?
 
 ## --answers--
 
-She completely disagrees with Bob and rejects his concern.
+Sie ist völlig anderer Meinung als Bob und weist seine Sorge zurück.
 
 ### --feedback--
 
-Anna acknowledges Bob's point before giving her own opinion.
+Anna erkennt Bobs Standpunkt an, bevor sie ihre eigene Meinung äußert.
 
 ---
 
-She understands Bob's concern but still thinks flexibility is a better option.
+Sie versteht Bobs Sorge, hält aber Flexibilität dennoch für die bessere Option.
 
 ---
 
-She does not understand Bob's concern.
+Sie versteht Bobs Sorge nicht.
 
 ### --feedback--
 
-Anna understands Bob's argument.
+Anna versteht Bobs Argument.
 
 ---
 
-She agrees with Bob and changes her mind.
+Sie stimmt Bob zu und ändert ihre Meinung.
 
 ### --feedback--
 
-Anna does not fully agree with Bob.
+Anna stimmt Bob nicht vollständig zu.
 
 ## --video-solution--
 
@@ -52,9 +52,9 @@ Anna does not fully agree with Bob.
 
 # --explanation--
 
-Anna uses `I see your point, but` to show that she understands Bob's concern while presenting a different opinion.
+Anna verwendet `I see your point, but`, um zu zeigen, dass sie Bobs Sorge versteht, während sie eine andere Meinung präsentiert.
 
-She believes that flexibility is a better solution than sticking with one category.
+Sie glaubt, dass Flexibilität eine bessere Lösung ist, als sich an eine Kategorie zu halten.
 
 # --scene--
 

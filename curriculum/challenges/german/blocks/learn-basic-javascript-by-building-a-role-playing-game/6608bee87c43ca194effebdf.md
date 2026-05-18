@@ -1,25 +1,25 @@
 ---
 id: 6608bee87c43ca194effebdf
-title: Step 53
+title: Schritt 53
 challengeType: 0
 dashedName: step-53
 ---
 
 # --description--
 
-Later on in the curriculum, you will dive deeper into objects. But for now, it is time to apply what you have learned to your role playing game.
+Später im Curriculum werden Sie tiefer in Objekte eintauchen. Aber jetzt ist es an der Zeit, das Gelernte in Ihrem Rollenspiel anzuwenden.
 
-Start by deleting your `cat` object and console statement.
+Beginnen Sie damit, Ihr `cat`-Objekt und die Konsolenausgabe zu löschen.
 
 # --hints--
 
-You should remove your `cat` object.
+Sie sollten Ihr `cat`-Objekt entfernen.
 
 ```js
 assert.notInclude(code, "const cat = {");
 ```
 
-You should remove your console statement.
+Sie sollten Ihre Konsolenausgabe entfernen.
 
 ```js
 assert.notInclude(code, "console.log(cat[\"Number of legs\"]);");

@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Höre dir die Audio an, um die unteren Sätze zu vervollständigen.
+Hören Sie sich die Audioaufnahme an und vervollständigen Sie den Satz unten.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Höre dir die Audio an, um die unteren Sätze zu vervollständigen.
 
 ### --feedback--
 
-This two-word phrase means introduced or caused something to appear or become an issue. The first word is the past tense form of `bring`.
+Diese zwei Wörter bedeuten, dass etwas eingeführt oder verursacht wurde, sodass es zu einem Problem wurde. Das erste Wort ist die Vergangenheitsform von `bring`.
 
 ---
 
@@ -32,17 +32,17 @@ This two-word phrase means introduced or caused something to appear or become an
 
 ### --feedback--
 
-This word means something happened that was not planned or predicted. It ends with `-ed`.
+Dieses Wort bedeutet, dass etwas passiert ist, das nicht geplant oder vorhergesagt wurde. Es endet auf `-ed`.
 
 # --explanation--
 
-`Brought up` means caused something to appear, especially a problem or issue. Here, `brought` is the past tense form of `bring`. Zum Beispiel:
+`Brought up` bedeutet, dass etwas verursacht wurde, das aufgetaucht ist, besonders ein Problem oder eine Schwierigkeit. Hier ist `brought` die Vergangenheitsform von `bring`. Zum Beispiel:
 
-`The new feature brought up several bugs.` – This means the feature caused the bugs to be noticed.
+`The new feature brought up several bugs.` – Das bedeutet, die Funktion hat dazu geführt, dass die Bugs bemerkt wurden.
 
-`Unexpected` describes something that happens without warning or planning. For example:
+`Unexpected` beschreibt etwas, das ohne Vorwarnung oder Planung passiert. Zum Beispiel:
 
-`We had an unexpected delay due to server issues.` – This means the delay was not anticipated.
+`We had an unexpected delay due to server issues.` – Das bedeutet, die Verzögerung war nicht erwartet worden.
 
 # --scene--
 

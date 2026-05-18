@@ -1,37 +1,37 @@
 ---
 id: bd7157d8c242eddfaeb5bd13
-title: Build a Markdown Previewer
+title: Einen Markdown-Previewer erstellen
 challengeType: 3
 forumTopicId: 301372
 dashedName: build-a-markdown-previewer
 ---
 
 # --description--
-**Note:** **React 18 has known incompatibilities with the tests for this project (see [issue](https://github.com/freeCodeCamp/freeCodeCamp/issues/45922))**
+**Hinweis:** **React 18 ist mit den Tests für dieses Projekt nicht kompatibel (siehe [issue](https://github.com/freeCodeCamp/freeCodeCamp/issues/45922))**
 
-**Objective:** Build an app that is functionally similar to this: <a href="https://markdown-previewer.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://markdown-previewer.freecodecamp.rocks/</a>.
+**Ziel:** Erstellen Sie eine App, die funktional ähnlich ist wie diese: <a href="https://markdown-previewer.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://markdown-previewer.freecodecamp.rocks/</a>.
 
-Fulfill the below user stories and get all of the tests to pass. Use whichever libraries or APIs you need. Give it your own personal style.
+Erfüllen Sie die untenstehenden User Stories und bestehen Sie alle Tests. Verwenden Sie beliebige Bibliotheken oder APIs, die Sie benötigen. Verleihen Sie dem Projekt Ihren eigenen Stil.
 
-You can use any mix of HTML, JavaScript, CSS, Bootstrap, SASS, React, Redux, and jQuery to complete this project. You should use a front-end framework (like React for example) because this section is about learning front-end frameworks. Additional technologies not listed above are not recommended and using them is at your own risk. We are looking at supporting other front-end frameworks like Angular and Vue, but they are not currently supported. We will accept and try to fix all issue reports that use the suggested technology stack for this project. Happy coding!
+Sie können jede Kombination aus HTML, JavaScript, CSS, Bootstrap, SASS, React, Redux und jQuery verwenden, um dieses Projekt abzuschließen. Sie sollten ein Front-End-Framework verwenden (zum Beispiel React), da es in diesem Abschnitt darum geht, Front-End-Frameworks zu lernen. Weitere Technologien, die nicht oben aufgeführt sind, werden nicht empfohlen und deren Verwendung erfolgt auf eigenes Risiko. Wir planen, weitere Front-End-Frameworks wie Angular und Vue zu unterstützen, aber aktuell sind diese nicht unterstützt. Wir akzeptieren und versuchen, alle Fehlerberichte zu beheben, die den vorgeschlagenen Technologie-Stack für dieses Projekt verwenden. Viel Erfolg beim Programmieren!
 
-**User Story #1:** I can see a `textarea` element with a corresponding `id="editor"`.
+**User Story #1:** Ich kann ein `textarea`-Element mit einem entsprechenden `id="editor"` sehen.
 
-**User Story #2:** I can see an element with a corresponding `id="preview"`.
+**User Story #2:** Ich kann ein Element mit einem entsprechenden `id="preview"` sehen.
 
-**User Story #3:** When I enter text into the `#editor` element, the `#preview` element is updated as I type to display the content of the textarea.
+**User Story #3:** Wenn ich Text in das `#editor`-Element eingebe, wird das `#preview`-Element beim Tippen aktualisiert, um den Inhalt des Textbereichs anzuzeigen.
 
-**User Story #4:** When I enter GitHub flavored markdown into the `#editor` element, the text is rendered as HTML in the `#preview` element as I type (HINT: You don't need to parse Markdown yourself - you can import the Marked library for this: <https://cdnjs.com/libraries/marked>).
+**User Story #4:** Wenn ich GitHub-flavored Markdown in das `#editor`-Element eingebe, wird der Text beim Tippen als HTML im `#preview`-Element gerendert (HINWEIS: Sie müssen Markdown nicht selbst parsen – Sie können die Marked-Bibliothek importieren: <https://cdnjs.com/libraries/marked>).
 
-**User Story #5:** When my markdown previewer first loads, the default text in the `#editor` field should contain valid markdown that represents at least one of each of the following elements: a heading element (H1 size), a sub heading element (H2 size), a link, inline code, a code block, a list item, a blockquote, an image, and bolded text.
+**User Story #5:** Wenn mein Markdown-Previewer zum ersten Mal geladen wird, sollte der Standardtext im `#editor`-Feld gültiges Markdown enthalten, das mindestens eines von jedem der folgenden Elemente darstellt: ein Überschriftenelement (H1-Größe), ein Unterüberschriftenelement (H2-Größe), einen Link, inline Code, einen Codeblock, ein Listenelement, ein Zitat, ein Bild und fettgedruckten Text.
 
-**User Story #6:** When my markdown previewer first loads, the default markdown in the `#editor` field should be rendered as HTML in the `#preview` element.
+**User Story #6:** Wenn mein Markdown-Previewer zum ersten Mal geladen wird, sollte das Standard-Markdown im `#editor`-Feld als HTML im `#preview`-Element gerendert werden.
 
-**Optional Bonus (you do not need to make this test pass):** My markdown previewer interprets carriage returns and renders them as `br` (line break) elements.
+**Optionale Bonusaufgabe (Sie müssen diesen Test nicht bestehen):** Mein Markdown-Previewer interpretiert Zeilenumbrüche und rendert sie als `br`-Elemente (Zeilenumbruch).
 
-You can build your project by <a href='https://codepen.io/pen?template=MJjpwO' target='_blank' rel="noopener noreferrer nofollow">using this CodePen template</a> and clicking `Save` to create your own pen. If you prefer to use another environment, then put this `<script>` tag into the body of your `index.html` file: `<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>`
+Sie können Ihr Projekt erstellen, indem Sie <a href='https://codepen.io/pen?template=MJjpwO' target='_blank' rel="noopener noreferrer nofollow">diese CodePen-Vorlage verwenden</a> und auf `Save` klicken, um Ihren eigenen Pen zu erstellen. Wenn Sie eine andere Umgebung bevorzugen, fügen Sie diesen `<script>`-Tag in den Body Ihrer `index.html`-Datei ein: `<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>`
 
-Once you're done, submit the URL to your working project with all its tests passing.
+Wenn Sie fertig sind, senden Sie die URL Ihres funktionierenden Projekts mit allen bestandenen Tests ein.
 
 # --solutions--
 

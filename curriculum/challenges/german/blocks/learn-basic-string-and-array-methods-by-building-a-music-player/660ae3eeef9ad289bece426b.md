@@ -1,23 +1,23 @@
 ---
 id: 660ae3eeef9ad289bece426b
-title: Schitt 11
+title: Schritt 11
 challengeType: 0
 dashedName: step-11
 ---
 
 # --description--
 
-In the previous projects, you used regular functions. But in the rest of the projects, you will be working with <dfn>arrow functions</dfn>. The next few steps will focus on teaching you the basics of arrow functions.
+In den vorherigen Projekten haben Sie reguläre Funktionen verwendet. In den restlichen Projekten werden Sie jedoch mit <dfn>Pfeilfunktionen</dfn> arbeiten. Die nächsten Schritte konzentrieren sich darauf, Ihnen die Grundlagen der Pfeilfunktionen beizubringen.
 
-An arrow function is an anonymous function expression and a shorter way to write functions. Anonymous means that the function does not have a name. Arrow functions are always anonymous.
+Eine Pfeilfunktion ist ein anonymer Funktionsausdruck und eine kürzere Möglichkeit, Funktionen zu schreiben. Anonym bedeutet, dass die Funktion keinen Namen hat. Pfeilfunktionen sind immer anonym.
 
-Hier ist der grundlegende Syntax:
+Hier ist die grundlegende Syntax:
 
 ```js
 () => {}
 ```
 
-By assigning the arrow function definition to a variable, you bind it to an identifier.
+Indem Sie die Definition der Pfeilfunktion einer Variablen zuweisen, binden Sie sie an einen Bezeichner.
 
 ```js
 const exampleFunction = () => {
@@ -25,23 +25,23 @@ const exampleFunction = () => {
 }
 ```
 
-Create a new arrow function and assign it to the variable `printGreeting`. Inside the function body, use the `console.log()` method to print the string `Hello there!`.
+Erstellen Sie eine neue Pfeilfunktion und weisen Sie sie der Variablen `printGreeting` zu. Verwenden Sie im Funktionskörper die `console.log()`-Methode, um den String `Hello there!` auszugeben.
 
 # --hints--
 
-You should have a variable named `printGreeting` and assign it an arrow function.
+Sie sollten eine Variable mit dem Namen `printGreeting` haben und ihr eine Pfeilfunktion zuweisen.
 
 ```js
 assert.isFunction(printGreeting);
 ```
 
-You should create an arrow function and assign it to the `printGreeting` variable.
+Sie sollten eine Pfeilfunktion erstellen und sie der Variablen `printGreeting` zuweisen.
 
 ```js
 assert.match(code, /(let|const)\s+printGreeting\s*=\s*\(.*\)\s*=>\s*{\s*[\s\S]*}\s*;?/)
 ```
 
-Your `printGreeting` function should log `Hello there!` to the console.
+Ihre `printGreeting`-Funktion sollte `Hello there!` in der Konsole ausgeben.
 
 ```js
 assert.match(printGreeting.toString(), /console\.log\(['"]Hello\s+there!['"]\)/);

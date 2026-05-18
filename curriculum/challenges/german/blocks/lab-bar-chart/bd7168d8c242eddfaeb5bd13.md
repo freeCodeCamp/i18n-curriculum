@@ -1,6 +1,6 @@
 ---
 id: bd7168d8c242eddfaeb5bd13
-title: Build a Bar Chart
+title: Balkendiagramm erstellen
 challengeType: 25
 dashedName: build-a-bar-chart
 demoType: onClick
@@ -8,27 +8,27 @@ demoType: onClick
 
 # --description--
 
-In this project you will use the data from `https://cdn.freecodecamp.org/curriculum/labs/data/bar-chart/GDP-data.json` to build a bar chart.
+In diesem Projekt verwenden Sie die Daten aus `https://cdn.freecodecamp.org/curriculum/labs/data/bar-chart/GDP-data.json`, um ein Balkendiagramm zu erstellen.
 
-The tests require axes to be generated using the D3 axis property, which automatically generates ticks along the axis. These ticks are required for passing the D3 tests because their positions are used to determine alignment of graphed elements.
+Die Tests erfordern, dass die Achsen mit der D3-Achsen-Eigenschaft generiert werden, die automatisch Ticks entlang der Achse erzeugt. Diese Ticks sind für das Bestehen der D3-Tests erforderlich, da ihre Positionen zur Bestimmung der Ausrichtung der dargestellten Elemente verwendet werden.
 
-**Objective:** Fulfill the user stories below and get all the tests to pass to complete the lab.
+**Ziel:** Erfüllen Sie die untenstehenden User Stories und bestehen Sie alle Tests, um das Labor abzuschließen.
 
 **User Stories:**
 
-1. Your chart should have a title with a corresponding `id="title"`.
-1. Your chart should have a `g` element x-axis with a corresponding `id="x-axis"`.
-1. Your chart should have a `g` element y-axis with a corresponding `id="y-axis"`.
-1. Both axes should contain multiple tick labels, each with a corresponding `class="tick"`.
-1. Your chart should have a `rect` element for each data point with a corresponding `class="bar"` displaying the data.
-1. Each `.bar` should have the attributes `data-date` and `data-gdp` containing `date` and `GDP` values.
-1. The `.bar` elements' `data-date` attributes should match the order of the provided data.
-1. The `.bar` elements' `data-gdp` attributes should match the order of the provided data.
-1. Each `.bar` element's height should accurately represent the data's corresponding `GDP`.
-1. The `data-date` attribute and its corresponding `.bar` element should align with the corresponding value on the x-axis.
-1. The `data-gdp` attribute and its corresponding `.bar` element should align with the corresponding value on the y-axis.
-1. You should be able to mouse over an area and see a tooltip with a corresponding `id="tooltip"` which displays more information about the area.
-1. Your tooltip should have a `data-date` attribute that corresponds to the `data-date` of the active area.
+1. Ihr Diagramm sollte einen Titel mit einer entsprechenden `id="title"` haben.
+1. Ihr Diagramm sollte eine `g`-Element x-Achse mit einer entsprechenden `id="x-axis"` haben.
+1. Ihr Diagramm sollte eine `g`-Element y-Achse mit einer entsprechenden `id="y-axis"` haben.
+1. Beide Achsen sollten mehrere Tick-Bezeichnungen enthalten, jeweils mit einer entsprechenden `class="tick"`.
+1. Ihr Diagramm sollte für jeden Datenpunkt ein `rect`-Element mit einer entsprechenden `class="bar"` haben, die die Daten anzeigt.
+1. Jedes `.bar` sollte die Attribute `data-date` und `data-gdp` mit `date`- und `GDP`-Werten enthalten.
+1. Die `.bar`-Elemente sollten `data-date`-Attribute haben, die der Reihenfolge der bereitgestellten Daten entsprechen.
+1. Die `.bar`-Elemente sollten `data-gdp`-Attribute haben, die der Reihenfolge der bereitgestellten Daten entsprechen.
+1. Die Höhe jedes `.bar`-Elements sollte die entsprechende `GDP` der Daten genau darstellen.
+1. Das `data-date`-Attribut und das entsprechende `.bar`-Element sollten mit dem entsprechenden Wert auf der x-Achse ausgerichtet sein.
+1. Das `data-gdp`-Attribut und das entsprechende `.bar`-Element sollten mit dem entsprechenden Wert auf der y-Achse ausgerichtet sein.
+1. Sie sollten mit der Maus über einen Bereich fahren können und einen Tooltip mit einer entsprechenden `id="tooltip"` sehen, der weitere Informationen über den Bereich anzeigt.
+1. Ihr Tooltip sollte ein `data-date`-Attribut haben, das der `data-date` des aktiven Bereichs entspricht.
 
 # --before-all--
 
@@ -1401,43 +1401,43 @@ const timeout = (milliseconds) =>
 
 # --hints--
 
-The chart should have an element with the `id` of `title` to contain the title.
+Das Diagramm sollte ein Element mit dem `id` von `title` enthalten, um den Titel aufzunehmen.
 
 ```js
 assert.exists(document.getElementById('title'));
 ```
 
-The chart should have a `g` element x-axis with a corresponding id `x-axis`.
+Das Diagramm sollte eine `g`-Element x-Achse mit einer entsprechenden ID `x-axis` haben.
 
 ```js
 assert.isNotEmpty(document.querySelector('g#x-axis'))
 ```
 
-The chart should have a `g` element y-axis with a corresponding id `y-axis`.
+Das Diagramm sollte eine `g`-Element y-Achse mit einer entsprechenden ID `y-axis` haben.
 
 ```js
 assert.isNotEmpty(document.querySelector('g#y-axis'))
 ```
 
-The x axis should contain multiple tick labels, each with the corresponding `class="tick"`.
+Die x-Achse sollte mehrere Tick-Bezeichnungen enthalten, jeweils mit dem entsprechenden `class="tick"`.
 
 ```js
 assert.isNotEmpty(document.querySelectorAll('#x-axis .tick'));
 ```
 
-The y axis should contain multiple tick labels, each with the corresponding `class="tick"`.
+Die y-Achse sollte mehrere Tick-Bezeichnungen enthalten, jeweils mit dem entsprechenden `class="tick"`.
 
 ```js
 assert.isNotEmpty(document.querySelectorAll('#y-axis .tick'));
 ```
 
-Your chart should have a `rect` element for each data point with a corresponding `class="bar"` displaying the data.
+Ihr Diagramm sollte für jeden Datenpunkt ein `rect`-Element mit einer entsprechenden `class="bar"` haben, die die Daten anzeigt.
 
 ```js
 assert.lengthOf(document.querySelectorAll('rect.bar'), GDPDataJson.data.length);
 ```
 
-Each bar should have the attributes `data-date` and `data-gdp` containing date and GDP values.
+Jeder Balken sollte die Attribute `data-date` und `data-gdp` mit Datum- und BIP-Werten enthalten.
 
 ```js
 const bars = document.querySelectorAll('rect.bar');
@@ -1449,7 +1449,7 @@ bars.forEach(function (bar) {
 });
 ```
 
-The bar elements' `data-date` attributes should match the order of the provided data.
+Die `data-date`-Attribute der Balkenelemente sollten der Reihenfolge der bereitgestellten Daten entsprechen.
 
 ```js
 const bars = document.querySelectorAll('rect.bar');
@@ -1464,7 +1464,7 @@ const currentBarDate = bar.getAttribute('data-date');
 
 ```
 
-The bar elements' `data-gdp` attributes should match the order of the provided data.
+Die `data-gdp`-Attribute der Balkenelemente sollten der Reihenfolge der bereitgestellten Daten entsprechen.
 
 ```js
 const bars = document.querySelectorAll('rect.bar');
@@ -1478,7 +1478,7 @@ bars.forEach(function (bar, i) {
 });
 ```
 
-Each bar element's height should accurately represent the data's corresponding GDP
+Die Höhe jedes Balkenelements sollte das entsprechende BIP der Daten genau darstellen.
 
 ```js
 const bars = document.querySelectorAll('rect.bar');
@@ -1501,7 +1501,7 @@ bars.forEach(function (bar) {
 });
 ```
 
-The `data-date` attribute and its corresponding bar element should align with the corresponding value on the x-axis. You can use `d3.scaleTime()` to create a time scale for the x-axis.
+Das `data-date`-Attribut und das entsprechende Balkenelement sollten mit dem entsprechenden Wert auf der x-Achse ausgerichtet sein. Sie können `d3.scaleTime()` verwenden, um eine Zeitskala für die x-Achse zu erstellen.
 
 ```js
 const axis = document.querySelector('#x-axis');
@@ -1531,7 +1531,7 @@ assert.isTrue(
 );
 ```
 
-The `data-gdp` attribute and its corresponding bar element should align with the corresponding value on the y-axis. You can use `d3.scaleLinear()` to create a linear scale for the y-axis.
+Das `data-gdp`-Attribut und das entsprechende Balkenelement sollten mit dem entsprechenden Wert auf der y-Achse ausgerichtet sein. Sie können `d3.scaleLinear()` verwenden, um eine lineare Skala für die y-Achse zu erstellen.
 
 ```js
 const axis = document.querySelector('#y-axis');
@@ -1558,7 +1558,7 @@ assert.isTrue(
 );
 ```
 
-When hovering over an area your bar chart should have a tooltip with a corresponding `id="tooltip"` which displays more information about the area.
+Wenn Sie mit der Maus über einen Bereich fahren, sollte Ihr Balkendiagramm einen Tooltip mit einer entsprechenden `id="tooltip"` haben, der weitere Informationen über den Bereich anzeigt.
 
 ```js
 const areas = document.querySelectorAll('.bar');
@@ -1604,7 +1604,7 @@ assert.isTrue(
 );
 ```
 
-The tooltip should have a `data-date` attribute that corresponds to the `data-date` of the active area.
+Der Tooltip sollte ein `data-date`-Attribut haben, das der `data-date` des aktiven Bereichs entspricht.
 
 ```js
 const areas = document.querySelectorAll('.bar');
