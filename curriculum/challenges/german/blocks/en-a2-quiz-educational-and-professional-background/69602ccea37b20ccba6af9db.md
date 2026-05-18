@@ -1,6 +1,6 @@
 ---
 id: 69602ccea37b20ccba6af9db
-title: Educational and Professional Background Quiz
+title: Quiz zu Bildungs- und Berufshintergrund
 challengeType: 8
 dashedName: en-a2-quiz-educational-and-professional-background
 lang: en-US
@@ -8,13 +8,13 @@ lang: en-US
 
 # --description--
 
-This quiz checks your understanding of job interviews, education, and the `past simple` tense.
+Dieses Quiz überprüft Ihr Verständnis von Vorstellungsgesprächen, Bildung und der `past simple`-Zeitform.
 
-To pass the quiz, you must correctly answer at least 18 of the 20 questions below.
+Um das Quiz zu bestehen, müssen Sie mindestens 18 der 20 untenstehenden Fragen richtig beantworten.
 
-Read each question and choose the correct answer. There's only one correct answer for each question.
+Lesen Sie jede Frage und wählen Sie die richtige Antwort aus. Es gibt nur eine richtige Antwort pro Frage.
 
-For accessibility, transcripts are available for learners with hearing impairments; we recommend using them only if needed.
+Für Barrierefreiheit sind Transkripte für Lernende mit Hörbeeinträchtigungen verfügbar; wir empfehlen, diese nur bei Bedarf zu verwenden.
 
 # --quizzes--
 
@@ -24,73 +24,73 @@ For accessibility, transcripts are available for learners with hearing impairmen
 
 #### --text--
 
-Which of the following is true about this sentence: `I studied computer science at college`?
+Welche der folgenden Aussagen trifft auf diesen Satz zu: `I studied computer science at college`?
 
 #### --distractors--
 
-The action is happening now.
+Die Handlung findet jetzt statt.
 
 ---
 
-The action will happen soon.
+Die Handlung wird bald stattfinden.
 
 ---
 
-The action happens every day.
+Die Handlung findet jeden Tag statt.
 
 #### --answer--
 
-The action happened in the past.
+Die Handlung fand in der Vergangenheit statt.
 
 ### --question--
 
 #### --text--
 
-Which of the following is NOT an example of someone's `background`?
+Welche der folgenden ist KEIN Beispiel für die `background` einer Person?
 
 #### --distractors--
 
-Their past job experience
+Ihre frühere Berufserfahrung
 
 ---
 
-Their education history
+Ihre Bildungsgeschichte
 
 ---
 
-Their learned skills
+Ihre erlernten Fähigkeiten
 
 #### --answer--
 
-Their favorite hobby
+Ihr Lieblingshobby
 
 ### --question--
 
 #### --text--
 
-What is an `interview`?
+Was ist ein `interview`?
 
 #### --distractors--
 
-A casual talk between coworkers
+Ein lockeres Gespräch zwischen Kollegen
 
 ---
 
-A written test at school
+Ein schriftlicher Test in der Schule
 
 ---
 
-A team meeting at work
+Ein Teammeeting bei der Arbeit
 
 #### --answer--
 
-A formal meeting with questions
+Ein formelles Treffen mit Fragen
 
 ### --question--
 
 #### --text--
 
-Listen to the audio. What is the best answer to this question? <!-- (quiz audio) Anna: Can you tell me about your previous job experiences? -->
+Hören Sie sich die Audioaufnahme an. Was ist die beste Antwort auf diese Frage? <!-- (quiz audio) Anna: Can you tell me about your previous job experiences? -->
 
 #### --audio--
 
@@ -130,7 +130,7 @@ Listen to the audio. What is the best answer to this question? <!-- (quiz audio)
 
 #### --text--
 
-Which sentence uses `to be` correctly in the past?
+Welcher Satz verwendet `to be` korrekt in der Vergangenheit?
 
 #### --distractors--
 
@@ -152,7 +152,7 @@ Which sentence uses `to be` correctly in the past?
 
 #### --text--
 
-What is the correct question form of this sentence: `He was responsible for maintaining the database`?
+Wie lautet die korrekte Frageform dieses Satzes: `He was responsible for maintaining the database`?
 
 #### --distractors--
 
@@ -174,7 +174,7 @@ What is the correct question form of this sentence: `He was responsible for main
 
 #### --text--
 
-How would you ask about someone's educational background?
+Wie würden Sie nach dem Bildungsweg einer Person fragen?
 
 #### --distractors--
 
@@ -196,29 +196,29 @@ How would you ask about someone's educational background?
 
 #### --text--
 
-What does this question ask about: `Could you tell me about your previous roles and responsibilities?`
+Worauf bezieht sich diese Frage: `Could you tell me about your previous roles and responsibilities?`
 
 #### --distractors--
 
-Your future career plans
+Ihre zukünftigen Karrierepläne
 
 ---
 
-Your personal interests
+Ihre persönlichen Interessen
 
 ---
 
-Your current daily tasks
+Ihre aktuellen täglichen Aufgaben
 
 #### --answer--
 
-Your past jobs and duties
+Ihre früheren Jobs und Aufgaben
 
 ### --question--
 
 #### --text--
 
-Which phrase shows possession incorrectly?
+Welche Phrase zeigt den Besitz falsch an?
 
 #### --distractors--
 
@@ -240,7 +240,7 @@ Which phrase shows possession incorrectly?
 
 #### --text--
 
-What is the correct negative form of this sentence: `He studied data science`?
+Wie lautet die korrekte Verneinung dieses Satzes: `He studied data science`?
 
 #### --distractors--
 
@@ -262,7 +262,7 @@ What is the correct negative form of this sentence: `He studied data science`?
 
 #### --text--
 
-How do you say your main area of study?
+Wie sagt man „Ihr Hauptstudienbereich“?
 
 #### --distractors--
 
@@ -284,7 +284,7 @@ How do you say your main area of study?
 
 #### --text--
 
-What is the correct question form of this sentence: `She worked with them for five years`?
+Wie lautet die korrekte Frageform dieses Satzes: `She worked with them for five years`?
 
 #### --distractors--
 
@@ -306,7 +306,7 @@ What is the correct question form of this sentence: `She worked with them for fi
 
 #### --text--
 
-Listen to the audio. How would you answer this question? <!-- (quiz audio) Tom: Did you work on any projects during your self-study? -->
+Hören Sie sich die Audioaufnahme an. Wie würden Sie diese Frage beantworten? <!-- (quiz audio) Tom: Did you work on any projects during your self-study? -->
 
 #### --audio--
 
@@ -346,7 +346,7 @@ Listen to the audio. How would you answer this question? <!-- (quiz audio) Tom: 
 
 #### --text--
 
-Which pair of irregular verbs is incorrect?
+Welches Paar unregelmäßiger Verben ist falsch?
 
 #### --distractors--
 
@@ -368,29 +368,29 @@ Which pair of irregular verbs is incorrect?
 
 #### --text--
 
-What does `to wear too many hats` mean?
+Was bedeutet `to wear too many hats`?
 
 #### --distractors--
 
-To dress very formally
+Sich sehr formell kleiden
 
 ---
 
-To change jobs often
+Oft den Job wechseln
 
 ---
 
-To manage one task
+Eine Aufgabe managen
 
 #### --answer--
 
-To have many roles or duties
+Viele Rollen oder Aufgaben haben
 
 ### --question--
 
 #### --text--
 
-How do you describe learning without a teacher or school?
+Wie beschreibt man das Lernen ohne Lehrer oder Schule?
 
 #### --distractors--
 
@@ -412,7 +412,7 @@ How do you describe learning without a teacher or school?
 
 #### --text--
 
-Which sentence uses `actual` or `actually` correctly?
+Welcher Satz verwendet `actual` oder `actually` korrekt?
 
 #### --distractors--
 
@@ -434,29 +434,29 @@ Which sentence uses `actual` or `actually` correctly?
 
 #### --text--
 
-Who is a `recruiter`?
+Wer ist ein `recruiter`?
 
 #### --distractors--
 
-A person who manages a team
+Eine Person, die ein Team leitet
 
 ---
 
-A person who trains employees
+Eine Person, die Mitarbeitende schult
 
 ---
 
-A person who writes code
+Eine Person, die Code schreibt
 
 #### --answer--
 
-A person who hires candidates
+Eine Person, die Kandidaten einstellt
 
 ### --question--
 
 #### --text--
 
-What do you call a person who works for a company?
+Wie nennt man eine Person, die für ein Unternehmen arbeitet?
 
 #### --distractors--
 
@@ -478,7 +478,7 @@ What do you call a person who works for a company?
 
 #### --text--
 
-Which tag question is correct?
+Welche Frage mit Anhängsel ist korrekt?
 
 #### --distractors--
 

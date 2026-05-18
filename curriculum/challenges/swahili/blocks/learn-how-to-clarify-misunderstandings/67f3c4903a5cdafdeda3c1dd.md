@@ -1,6 +1,6 @@
 ---
 id: 67f3c4903a5cdafdeda3c1dd
-title: Task 143
+title: Zoezi la 143
 challengeType: 22
 dashedName: task-143
 lang: en-US
@@ -10,13 +10,13 @@ lang: en-US
 
 # --description--
 
-This is a review of the entire dialogue you just studied.
+Hii ni ukaguzi wa mazungumzo yote uliyosoma sasa hivi.
 
 # --instructions--
 
-Write the following words or phrases in the correct spot:
+Andika maneno au misemo ifuatayo mahali sahihi:
 
-`mix-up`, `on track`, `ironing out`, `misunderstanding`, `supposed`, `the confusion`, and `on the same page`.
+`mix-up`, `on track`, `ironing out`, `misunderstanding`, `supposed`, `the confusion`, na `on the same page`.
 
 # --fillInTheBlank--
 
@@ -52,7 +52,7 @@ Write the following words or phrases in the correct spot:
 
 ### --feedback--
 
-This noun refers to a failure to understand something correctly.
+Nomino hii inahusu kushindwa kuelewa jambo kwa usahihi.
 
 ---
 
@@ -60,7 +60,7 @@ This noun refers to a failure to understand something correctly.
 
 ### --feedback--
 
-These two words together indicate a lack of clarity or understanding. The first is an article the second is a noun.
+Maneno haya mawili pamoja yanaonyesha ukosefu wa uwazi au uelewa. Neno la kwanza ni kiambatisho, la pili ni nomino.
 
 ---
 
@@ -68,7 +68,7 @@ These two words together indicate a lack of clarity or understanding. The first 
 
 ### --feedback--
 
-These two words together describe something progressing as planned.
+Maneno haya mawili pamoja yanaelezea jambo linaloendelea kama lilivyopangwa.
 
 ---
 
@@ -76,7 +76,7 @@ These two words together describe something progressing as planned.
 
 ### --feedback--
 
-These two words describe resolving small problems or details. The first word ends with `-ing`.
+Maneno haya mawili yanaelezea kutatua matatizo madogo au maelezo. Neno la kwanza linaishia na `-ing`.
 
 ---
 
@@ -84,7 +84,7 @@ These two words describe resolving small problems or details. The first word end
 
 ### --feedback--
 
-This is a `Past Participle` used to express expectation or intention.
+Hii ni `Past Participle` inayotumika kuonyesha matarajio au nia.
 
 ---
 
@@ -92,7 +92,7 @@ This is a `Past Participle` used to express expectation or intention.
 
 ### --feedback--
 
-This noun describes a mistake or confusion due to things being confused. This is a compound word. Remember to use `-`.
+Nomino hii inaelezea kosa au mkanganyiko unaotokana na vitu kuchanganywa. Huu ni usemi wa mchanganyiko. Kumbuka kutumia `-`.
 
 ---
 
@@ -100,4 +100,4 @@ This noun describes a mistake or confusion due to things being confused. This is
 
 ### --feedback--
 
-These four words together mean having a mutual understanding. The first word is a preposition.
+Maneno haya manne pamoja yanamaanisha kuwa na uelewa wa pamoja. Neno la kwanza ni kiambatisho.

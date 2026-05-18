@@ -1,6 +1,6 @@
 ---
 id: cf1391c1c11feddfaeb4bdef
-title: Create Decimal Numbers with JavaScript
+title: Dezimalzahlen mit JavaScript erstellen
 challengeType: 1
 forumTopicId: 16826
 dashedName: create-decimal-numbers-with-javascript
@@ -8,23 +8,23 @@ dashedName: create-decimal-numbers-with-javascript
 
 # --description--
 
-We can store decimal numbers in variables too. Decimal numbers are sometimes referred to as <dfn>floating point</dfn> numbers or <dfn>floats</dfn>.
+Wir können Dezimalzahlen auch in Variablen speichern. Dezimalzahlen werden manchmal als <dfn>Gleitkommazahlen</dfn> oder <dfn>Floats</dfn> bezeichnet.
 
-**Note:** when you compute numbers, they are computed with finite precision. Operations using floating points may lead to different results than the desired outcome. If you are getting one of these results, open a topic on the <a href="https://forum.freecodecamp.org/" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp forum</a>.
+**Hinweis:** Wenn Sie Zahlen berechnen, erfolgt dies mit endlicher Genauigkeit. Operationen mit Gleitkommazahlen können zu anderen Ergebnissen führen als gewünscht. Wenn Sie eines dieser Ergebnisse erhalten, eröffnen Sie bitte ein Thema im <a href="https://forum.freecodecamp.org/" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp-Forum</a>.
 
 # --instructions--
 
-Create a variable `myDecimal` and give it a decimal value with a fractional part (e.g. `5.7`).
+Erstellen Sie eine Variable `myDecimal` und weisen Sie ihr einen Dezimalwert mit einem Bruchteil zu (z. B. `5.7`).
 
 # --hints--
 
-`myDecimal` should be a number.
+`myDecimal` sollte eine Zahl sein.
 
 ```js
 assert(typeof myDecimal === 'number');
 ```
 
-`myDecimal` should have a decimal point
+`myDecimal` sollte einen Dezimalpunkt enthalten.
 
 ```js
 assert(myDecimal % 1 != 0);

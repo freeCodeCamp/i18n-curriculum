@@ -1,21 +1,21 @@
 ---
 id: 66c748ffdfbe4f2ede268be2
-title: Step 20
+title: Hatua 20
 challengeType: 1
 dashedName: step-20
 ---
 
 # --description--
 
-In this final step of the workshop, log the final grocery list to the console.
+Katika hatua hii ya mwisho ya warsha, andika orodha ya mwisho ya vitu vya dukani kwenye konsoli.
 
-To do this, call the `getShoppingListMsg` function with the `shoppingList` array as an argument inside `console.log`.
+Ili kufanya hivyo, fanya wito wa kitendakazi cha `getShoppingListMsg` ukiwa na safu ya data ya `shoppingList` kama hoja ndani ya `console.log`.
 
-And with this last step your grocery list is complete!
+Na kwa hatua hii ya mwisho, orodha yako ya vitu vya dukani itakuwa imekamilika!
 
 # --hints--
 
-You should call `getShoppingListMsg(shoppingList)` inside of the `console.log`.
+Unapaswa kufanya wito wa `getShoppingListMsg(shoppingList)` ndani ya `console.log`.
 
 ```js
 assert.lengthOf(code.match(/console\.log\(\s*getShoppingListMsg\(\s*shoppingList\s*\)\s*\)/g), 7);

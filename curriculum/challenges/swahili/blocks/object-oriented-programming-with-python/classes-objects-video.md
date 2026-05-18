@@ -1,6 +1,6 @@
 ---
 id: a0339c4075344cbfc2cd939c
-title: Classes and Objects
+title: Madarasa la vitu na vitu
 challengeType: 11
 videoId: fR3dh5_MPJs
 dashedName: classes-and-objects
@@ -8,29 +8,29 @@ dashedName: classes-and-objects
 
 # --description--
 
-In this video, you will learn how to create classes and objects in Python to write object-oriented programs.
+Katika video hii, utafundishwa jinsi ya kuunda madarasa la vitu na vitu katika Python kuandika programu zinazotumia mbinu ya vitu.
 
 # --questions--
 
 ## --text--
 
-What is the role of `def __init__(self):` inside of a class?
+Jukumu la `def __init__(self):` ndani ya darasa la vitu ni lipi?
 
 ## --answers--
 
-It represents a function for calling the method.
+Inawakilisha kitendakazi cha kuita njia.
 
 ---
 
-It specifies the type of the class.
+Inaelezea aina ya darasa la vitu.
 
 ---
 
-It allows a class to inherit methods from another class.
+Inaruhusu darasa la vitu kurithi njia kutoka kwa darasa lingine.
 
 ---
 
-It represents an initializer method.
+Inawakilisha njia ya kuanzisha.
 
 ## --video-solution--
 

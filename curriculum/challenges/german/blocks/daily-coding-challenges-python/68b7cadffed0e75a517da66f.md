@@ -7,10 +7,10 @@ dashedName: challenge-50
 
 # --description--
 
-Given a sentence, return the longest word in the sentence.
+Gegeben ist ein Satz. Geben Sie das längste Wort in diesem Satz zurück.
 
-- Ignore periods (`.`) when determining word length.
-- If multiple words are ties for the longest, return the first one that occurs.
+- Ignorieren Sie Punkte (`.`), wenn Sie die Wortlänge bestimmen.
+- Wenn mehrere Wörter die gleiche Länge haben, geben Sie das zuerst vorkommende zurück.
 
 # --hints--
 

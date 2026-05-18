@@ -1,6 +1,6 @@
 ---
 id: 9d7123c8c441eeafaeb5bdef
-title: Remove Elements from an Array Using slice Instead of splice
+title: Elemente aus einem Array mit slice statt splice entfernen
 challengeType: 1
 forumTopicId: 301236
 dashedName: remove-elements-from-an-array-using-slice-instead-of-splice
@@ -8,38 +8,38 @@ dashedName: remove-elements-from-an-array-using-slice-instead-of-splice
 
 # --description--
 
-A common pattern while working with arrays is when you want to remove items and keep the rest of the array. JavaScript offers the `splice` method for this, which takes arguments for the index of where to start removing items, then the number of items to remove. If the second argument is not provided, the default is to remove items through the end. However, the `splice` method mutates the original array it is called on. Here's an example:
+Ein häufiges Muster bei der Arbeit mit Arrays ist, dass Sie Elemente entfernen und den Rest des Arrays behalten möchten. JavaScript bietet die `splice`-Methode dafür an, die Argumente für den Index enthält, ab dem Elemente entfernt werden sollen, und dann die Anzahl der zu entfernenden Elemente. Wenn das zweite Argument nicht angegeben wird, ist der Standard, Elemente bis zum Ende zu entfernen. Allerdings verändert die `splice`-Methode das ursprüngliche Array, auf dem sie aufgerufen wird. Hier ist ein Beispiel:
 
 ```js
 const cities = ["Chicago", "Delhi", "Islamabad", "London", "Berlin"];
 cities.splice(3, 1);
 ```
 
-Here `splice` returns the string `London` and deletes it from the cities array. `cities` will have the value `["Chicago", "Delhi", "Islamabad", "Berlin"]`.
+Hier gibt `splice` den String `London` zurück und löscht ihn aus dem cities-Array. `cities` wird den Wert `["Chicago", "Delhi", "Islamabad", "Berlin"]` haben.
 
-As we saw in the last challenge, the `slice` method does not mutate the original array, but returns a new one which can be saved into a variable. Recall that the `slice` method takes two arguments for the indices to begin and end the slice (the end is non-inclusive), and returns those items in a new array. Using the `slice` method instead of `splice` helps to avoid any array-mutating side effects.
+Wie wir in der letzten Aufgabe gesehen haben, verändert die `slice`-Methode das ursprüngliche Array nicht, sondern gibt ein neues zurück, das in einer Variablen gespeichert werden kann. Denken Sie daran, dass die `slice`-Methode zwei Argumente für die Indizes zum Beginnen und Beenden des Ausschnitts nimmt (das Ende ist nicht eingeschlossen) und diese Elemente in einem neuen Array zurückgibt. Die Verwendung der `slice`-Methode anstelle von `splice` hilft, unerwünschte Nebeneffekte durch das Verändern des Arrays zu vermeiden.
 
 # --instructions--
 
-Rewrite the function `nonMutatingSplice` by using `slice` instead of `splice`. It should limit the provided `cities` array to a length of 3, and return a new array with only the first three items.
+Schreiben Sie die Funktion `nonMutatingSplice` so um, dass sie `slice` anstelle von `splice` verwendet. Sie soll das übergebene `cities`-Array auf eine Länge von 3 begrenzen und ein neues Array mit nur den ersten drei Elementen zurückgeben.
 
-Do not mutate the original array provided to the function.
+Verändern Sie das ursprüngliche Array, das an die Funktion übergeben wird, nicht.
 
 # --hints--
 
-Your code should use the `slice` method.
+Ihr Code sollte die `slice`-Methode verwenden.
 
 ```js
 assert(__helpers.removeJSComments(code).match(/\.slice/g));
 ```
 
-Your code should not use the `splice` method.
+Ihr Code sollte die `splice`-Methode nicht verwenden.
 
 ```js
 assert(!__helpers.removeJSComments(code).match(/\.?[\s\S]*?splice/g));
 ```
 
-You should not mutate the original array passed to the function.
+Sie sollten das ursprüngliche Array, das an die Funktion übergeben wird, nicht verändern.
 
 ```js
 assert(
@@ -54,7 +54,7 @@ assert(
 );
 ```
 
-`nonMutatingSplice(["Chicago", "Delhi", "Islamabad", "London", "Berlin"])` should return `["Chicago", "Delhi", "Islamabad"]`.
+`nonMutatingSplice(["Chicago", "Delhi", "Islamabad", "London", "Berlin"])` sollte `["Chicago", "Delhi", "Islamabad"]` zurückgeben.
 
 ```js
 assert.deepEqual(

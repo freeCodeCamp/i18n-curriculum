@@ -1,6 +1,6 @@
 ---
 id: 6973dae19a1d3a4ca3cb3ddd
-title: 30 to 59 Pronunciation Review
+title: Ukaguzi wa matamshi ya nambari 30 hadi 59
 challengeType: 24
 dashedName: 30-to-59-pronunciation-review
 lang: es
@@ -10,11 +10,11 @@ lang: es
 
 # --description--
 
-Practice pronouncing the numbers from 30 to 59.
+Fanya mazoezi ya kutamka nambari kutoka 30 hadi 59.
 
 # --assignment--
 
-I've practiced pronouncing the numbers from 30 to 59.
+Nimefanya mazoezi ya kutamka nambari kutoka 30 hadi 59.
 
 # --scene--
 

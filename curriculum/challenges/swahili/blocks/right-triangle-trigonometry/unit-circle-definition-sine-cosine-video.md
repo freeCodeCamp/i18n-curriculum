@@ -1,6 +1,6 @@
 ---
 id: 699e5ba28f18cf77dfce5c0f
-title: Unit Circle Definition of Sine and Cosine
+title: Ufafanuzi wa mduara wa kitengo wa sine na cosine
 challengeType: 11
 videoId: zt4bkQc1nSw
 dashedName: unit-circle-definition-sine-cosine
@@ -8,31 +8,30 @@ dashedName: unit-circle-definition-sine-cosine
 
 # --description--
 
-In this video, you will learn how to use the unit circle to find the sine and cosine of angles.
+Katika video hii, utafundishwa jinsi ya kutumia mduara wa kitengo kupata sine na cosine za pembe.
 
 # --questions--
 
 ## --text--
 
-What is a unit circle?
+Mduara wa kitengo ni nini?
 
 ## --answers--
 
-A circle with a radius of 0 units.
+Mduara wenye mduara wa nambari 0.
 
 ---
 
-A circle with a radius of 1 unit.
+Mduara wenye mduara wa nambari 1.
 
 ---
 
-A circle with a radius of 2 units.
+Mduara wenye mduara wa nambari 2.
 
 ---
 
-A circle with a radius of 0.5 units.
+Mduara wenye mduara wa nambari 0.5.
 
 ## --video-solution--
 
 2
-

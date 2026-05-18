@@ -1,25 +1,25 @@
 ---
 id: 62a3bb9aeefe4b3fc43c6d7b
-title: Step 17
+title: Hatua 17
 challengeType: 0
 dashedName: step-17
 ---
 
 # --description--
 
-`button1` is a variable that is not going to be reassigned. If you are not going to assign a new value to a variable, it is best practice to use the `const` keyword to declare it instead of the `let` keyword. This will tell JavaScript to throw an error if you accidentally reassign it.
+`button1` ni kigezo ambacho hakitapewa thamani mpya. Ikiwa hutapewa thamani mpya kigezo, ni mbinu bora kutumia neno kuu la `const` kutangaza badala ya neno kuu la `let`. Hii itaambia JavaScript kutupa kosa ikiwa kwa bahati mbaya utajitahidi kuwekea thamani mpya.
 
-Change your `button1` variable to be declared with the `const` keyword.
+Badilisha kigezo chako cha `button1` kitangazwe kwa neno kuu la `const`.
 
 # --hints--
 
-Your `button1` variable should be declared with `const`.
+Kigezo chako cha `button1` kinapaswa kutangazwa kwa `const`.
 
 ```js
 assert.match(code, /const\s+button1/);
 ```
 
-Your `button1` variable should still have the value of your `#button1` element.
+Kigezo chako cha `button1` kinapaswa bado kuwa na thamani ya kipengele chako cha `#button1`.
 
 ```js
 assert.deepEqual(button1, document.querySelector("#button1"));

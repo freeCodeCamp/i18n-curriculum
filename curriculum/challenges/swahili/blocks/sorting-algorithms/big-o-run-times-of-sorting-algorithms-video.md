@@ -1,6 +1,6 @@
 ---
 id: 698dea1c7932b3cc4b19c948
-title: Big-O Run Times of Sorting Algorithms
+title: Muda wa Kukimbia wa Big-O wa Algoriti za Kupanga
 challengeType: 11
 videoId: DQ1lQ0IxNgE
 dashedName: big-o-run-times-of-sorting-algorithms
@@ -8,29 +8,29 @@ dashedName: big-o-run-times-of-sorting-algorithms
 
 # --description--
 
-In this video, you will learn about the different Big O runtimes for the sorting algorithms covered so far.
+Katika video hii, utafundishwa kuhusu muda tofauti wa Big O wa algoriti za kupanga ulizojifunza hadi sasa.
 
 # --questions--
 
 ## --text--
 
-What is the worst case scenario for quicksort?
+Ni hali gani mbaya zaidi kwa quicksort?
 
 ## --answers--
 
-quadratic time
+muda wa mstatili
 
 ---
 
-linear time
+muda wa mstari
 
 ---
 
-constant time
+muda wa thabiti
 
 ---
 
-exponential time
+muda wa mwinuko
 
 ## --video-solution--
 

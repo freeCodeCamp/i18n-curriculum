@@ -1,6 +1,6 @@
 ---
 id: 698dc79f7932b3cc4b19c924
-title: Exponential Time
+title: Muda wa mfululizo wa eksponenti
 challengeType: 11
 videoId: GNnxIIYwYFM
 dashedName: exponential-time
@@ -8,13 +8,13 @@ dashedName: exponential-time
 
 # --description--
 
-In this video, you will learn about exponential runtimes.
+Katika video hii, utafundishwa kuhusu muda wa mfululizo wa eksponenti. 
 
 # --questions--
 
 ## --text--
 
-Which of the following popular problems is an example of an exponential algorithm?
+Ni miongoni mwa matatizo maarufu yafuatayo ni mfano wa algoriti ya mfululizo wa eksponenti?
 
 ## --answers--
 

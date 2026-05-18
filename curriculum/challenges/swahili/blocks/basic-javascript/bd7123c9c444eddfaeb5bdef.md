@@ -1,6 +1,6 @@
 ---
 id: bd7123c9c444eddfaeb5bdef
-title: Declare String Variables
+title: Tangaza vigezo vya mfuatano wa herufi
 challengeType: 1
 forumTopicId: 17557
 dashedName: declare-string-variables
@@ -8,27 +8,27 @@ dashedName: declare-string-variables
 
 # --description--
 
-Previously you used the following code to declare a variable:
+Hapo awali ulitumia msimbo ufuatao kutangaza kigezo:
 
 ```js
 var myName;
 ```
 
-But you can also declare a string variable like this:
+Lakini pia unaweza kutangaza kigezo cha mfuatano wa herufi kama hii:
 
 ```js
 var myName = "your name";
 ```
 
-`"your name"` is called a <dfn>string</dfn> <dfn>literal</dfn>. A string literal, or string, is a series of zero or more characters enclosed in single or double quotes.
+`"your name"` huitwa <dfn>mfuatano wa herufi</dfn> <dfn>literal</dfn>. Mfuatano wa herufi literal, au mfuatano wa herufi, ni mfululizo wa herufi sifuri au zaidi uliofungwa ndani ya alama za nukuu moja au alama za nukuu maradufu.
 
 # --instructions--
 
-Create two new string variables: `myFirstName` and `myLastName` and assign them the values of your first and last name, respectively.
+Tengeneza vigezo viwili vipya vya mfuatano wa herufi: `myFirstName` na `myLastName` na weka thamani zao kuwa majina yako ya kwanza na ya mwisho, mtawalia.
 
 # --hints--
 
-`myFirstName` should be a string with at least one character in it.
+`myFirstName` inapaswa kuwa mfuatano wa herufi wenye angalau herufi moja ndani yake.
 
 ```js
 assert(
@@ -46,7 +46,7 @@ assert(
 );
 ```
 
-`myLastName` should be a string with at least one character in it.
+`myLastName` inapaswa kuwa mfuatano wa herufi wenye angalau herufi moja ndani yake.
 
 ```js
 assert(

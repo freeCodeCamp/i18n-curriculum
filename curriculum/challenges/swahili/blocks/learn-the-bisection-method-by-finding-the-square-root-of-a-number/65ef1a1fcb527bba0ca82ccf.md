@@ -1,17 +1,17 @@
 ---
 id: 65ef1a1fcb527bba0ca82ccf
-title: Step 6
+title: Hatua 6
 challengeType: 20
 dashedName: step-6
 ---
 
 # --description--
 
-If the `square_target` is equal to  `1`, declare a variable `root` and assign it the value `1` . Also, print the message `'The square root of {square_target} is 1'`. Remember to format the message using an f-string.
+Ikiwa `square_target` ni sawa na `1`, tangaza kigezo `root` na weka thamani `1` . Pia, chapisha ujumbe `'The square root of {square_target} is 1'`. Kumbuka kuunda ujumbe kwa kutumia mfuatano wa herufi wa f-string.
 
 # --hints--
 
-You should remove the `pass` keyword.
+Unapaswa kuondoa neno kuu `pass`.
 
 ```js
 ({
@@ -22,7 +22,7 @@ You should remove the `pass` keyword.
 })
 ```
 
-You should assign the value `1` to the `root` variable and print the message `'The square root of {square_target} is 1'` inside the `if` body.
+Unapaswa kuweka thamani `1` kwa kigezo `root` na kuchapisha ujumbe `'The square root of {square_target} is 1'` ndani ya mwili wa `if`.
 
 ```js
 

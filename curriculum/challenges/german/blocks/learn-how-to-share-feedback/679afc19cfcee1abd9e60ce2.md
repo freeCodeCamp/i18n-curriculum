@@ -1,6 +1,6 @@
 ---
 id: 679afc19cfcee1abd9e60ce2
-title: Task 61
+title: Aufgabe 61
 challengeType: 19
 dashedName: task-61
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Hören Sie sich die Audioaufnahme an und beantworten Sie die folgende Frage.
 
 # --questions--
 
 ## --text--
 
-What does Brian think might happen if we don't listen to those in the team who disagree?
+Was glaubt Brian, könnte passieren, wenn wir nicht auf diejenigen im Team hören, die anderer Meinung sind?
 
 ## --answers--
 
-They might lose motivation.
+Sie könnten die Motivation verlieren.
 
 ---
 
-They will stop having disagreements.
+Sie werden aufhören, Meinungsverschiedenheiten zu haben.
 
 ### --feedback--
 
-Ignoring people's opinions does not stop disagreements; it might just make people less engaged.
+Die Meinungen von Menschen zu ignorieren, beendet keine Meinungsverschiedenheiten; es kann nur dazu führen, dass Menschen weniger engagiert sind.
 
 ---
 
-They will work harder to prove their point.
+Sie werden härter arbeiten, um ihren Standpunkt zu beweisen.
 
 ### --feedback--
 
-Brian does not suggest that feeling undervalued makes people work harder.
+Brian schlägt nicht vor, dass sich Menschen durch das Gefühl, nicht wertgeschätzt zu werden, mehr anstrengen.
 
 ---
 
-They will automatically agree with everything.
+Sie werden automatisch allem zustimmen.
 
 ### --feedback--
 
-Not listening to people doesn't make them agree with everything — it can make them disengage instead.
+Menschen nicht zuzuhören führt nicht dazu, dass sie allem zustimmen – stattdessen kann es dazu führen, dass sie sich zurückziehen.
 
 ## --video-solution--
 
@@ -52,13 +52,13 @@ Not listening to people doesn't make them agree with everything — it can make 
 
 # --explanation--
 
-`To feel valued` describes the sensation you have when you believe that your thoughts, efforts, and contributions are appreciated. For example:
+`To feel valued` beschreibt das Gefühl, das Sie haben, wenn Sie glauben, dass Ihre Gedanken, Anstrengungen und Beiträge geschätzt werden. Zum Beispiel:
 
-`The project manager always dedicates some time during the meeting to hear what we have to say. This makes everyone in the team feel valued.` - This means the attitude of the project manager is bringing good results to the team.
+`The project manager always dedicates some time during the meeting to hear what we have to say. This makes everyone in the team feel valued.` – Das bedeutet, dass die Einstellung des Projektmanagers gute Ergebnisse für das Team bringt.
 
-What Brian suggests is that if team members' opinions are ignored, they may feel unimportant. If team members feel valued, they are more likely to stay engaged and contribute new ideas.
+Brian schlägt vor, dass, wenn die Meinungen der Teammitglieder ignoriert werden, sie sich unwichtig fühlen könnten. Wenn Teammitglieder sich wertgeschätzt fühlen, bleiben sie eher engagiert und tragen neue Ideen bei.
 
-On the other hand, if people feel like their opinions don't matter, they might become disengaged and lose motivation to contribute, which can harm overall teamwork and productivity.
+Andererseits, wenn Menschen das Gefühl haben, dass ihre Meinungen nicht zählen, könnten sie sich zurückziehen und die Motivation verlieren, beizutragen, was die Teamarbeit und Produktivität insgesamt beeinträchtigen kann.
 
 # --scene--
 

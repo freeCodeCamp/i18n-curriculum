@@ -1,46 +1,46 @@
 ---
 id: afd15382cdfb22c9efe8b7de
-title: Implement a DNA Pair Generator
+title: Tekeleza kizalishaji cha jozi za DNA
 challengeType: 26
 dashedName: implement-a-dna-pair-generator
 ---
 
 # --description--
 
-In the double helix of the DNA, the bases are always paired together: if on one strand there is an <em>A</em> base, on the other strand directly in front there is a <em>T</em> base, the other pair is <em>C</em> and <em>G</em>.
+Katika heliksi mara mbili ya DNA, misingi huwa imeunganishwa pamoja kila wakati: ikiwa kwenye tawi moja kuna msingi wa <em>A</em>, kwenye tawi lingine moja kwa moja mbele kuna msingi wa <em>T</em>, jozi nyingine ni <em>C</em> na <em>G</em>.
 
-In this lab, you will write a function to match the missing base pairs for the provided DNA strand. For each character in the provided string, find the base pair character.
+Katika maabara hii, utaandika kitendakazi cha kuoanisha misingi iliyokosekana ya jozi kwa tawi la DNA lililotolewa. Kwa kila herufi katika mfuatano wa herufi uliotolewa, tafuta msingi wa jozi.
 
-For example, for the input `ATCG`, return `[["A", "T"], ["T", "A"], ["C", "G"], ["G", "C"]]`
+Kwa mfano, kwa ingizo `ATCG`, rudisha `[["A", "T"], ["T", "A"], ["C", "G"], ["G", "C"]]`
 
-The <em>A</em> base gets paired with a <em>T</em> base, the <em>T</em> base is paired with a <em>A</em> base, the <em>C</em> is paired with the <em>G</em> base, and finally the <em>G</em> base is paired with a <em>C</em> base.
+Msingi wa <em>A</em> unaoanishwa na msingi wa <em>T</em>, msingi wa <em>T</em> unaoanishwa na msingi wa <em>A</em>, <em>C</em> unaoanishwa na msingi wa <em>G</em>, na hatimaye msingi wa <em>G</em> unaoanishwa na msingi wa <em>C</em>.
 
-**Objective**: Fulfill the user stories below and get all the tests to pass to complete the lab.
+**Lengo**: Timiza hadithi za watumizi zilizo hapa chini na upite vipimo vyote ili kumaliza maabara.
 
-**User Stories:**
+**Hadithi za watumizi:**
 
-1. You should have a `pairElement` function that takes a string of any length as an argument.
-1. The `pairElement` function should return a 2d array, where each inner array has two strings inside, the first string is one base from the input, and the second string the paired base.
-1. When given `A`, the function should pair it with `T`.
-1. When given `T`, the function should pair it with `A`.
-1. When given `C`, the function should pair it with `G`.
-1. When given `G`, the function should pair it with `C`.
+1. Unapaswa kuwa na kitendakazi cha `pairElement` kinachopokea mfuatano wa herufi wa urefu wowote kama hoja.
+1. Kitendakazi cha `pairElement` kinapaswa kurudisha safu ya data ya 2d, ambapo kila safu ndogo ina mfuatano wa herufi mbili ndani, mfuatano wa kwanza ni msingi mmoja kutoka kwenye ingizo, na mfuatano wa pili ni msingi wa jozi.
+1. Ukipokea `A`, kitendakazi kinapaswa kuoanisha na `T`.
+1. Ukipokea `T`, kitendakazi kinapaswa kuoanisha na `A`.
+1. Ukipokea `C`, kitendakazi kinapaswa kuoanisha na `G`.
+1. Ukipokea `G`, kitendakazi kinapaswa kuoanisha na `C`.
 
 # --hints--
 
-You should create a function named `pairElement`.
+Unapaswa kuunda kitendakazi kinachoitwa `pairElement`.
 
 ```js
 assert.isFunction(pairElement);
 ```
 
-`pairElement` should take a single argument.
+`pairElement` inapaswa kupokea hoja moja.
 
 ```js
 assert.lengthOf(pairElement, 1);
 ```
 
-`pairElement("ATCGA")` should return `[["A","T"],["T","A"],["C","G"],["G","C"],["A","T"]]`.
+`pairElement("ATCGA")` inapaswa kurudisha `[["A","T"],["T","A"],["C","G"],["G","C"],["A","T"]]`.
 
 ```js
 assert.deepEqual(pairElement('ATCGA'), [
@@ -52,7 +52,7 @@ assert.deepEqual(pairElement('ATCGA'), [
 ]);
 ```
 
-`pairElement("TTGAG")` should return `[["T","A"],["T","A"],["G","C"],["A","T"],["G","C"]]`.
+`pairElement("TTGAG")` inapaswa kurudisha `[["T","A"],["T","A"],["G","C"],["A","T"],["G","C"]]`.
 
 ```js
 assert.deepEqual(pairElement('TTGAG'), [
@@ -64,7 +64,7 @@ assert.deepEqual(pairElement('TTGAG'), [
 ]);
 ```
 
-`pairElement("CTCTA")` should return `[["C","G"],["T","A"],["C","G"],["T","A"],["A","T"]]`.
+`pairElement("CTCTA")` inapaswa kurudisha `[["C","G"],["T","A"],["C","G"],["T","A"],["A","T"]]`.
 
 ```js
 assert.deepEqual(pairElement('CTCTA'), [

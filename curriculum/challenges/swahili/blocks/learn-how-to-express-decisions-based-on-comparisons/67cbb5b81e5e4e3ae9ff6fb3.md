@@ -1,6 +1,6 @@
 ---
 id: 67cbb5b81e5e4e3ae9ff6fb3
-title: Task 42
+title: Zoezi la 42
 challengeType: 19
 dashedName: task-42
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Sikiliza sauti na jibu swali lililopo hapa chini.
 
 # --questions--
 
 ## --text--
 
-What does Jake mean?
+Jake anamaanisha nini?
 
 ## --answers--
 
-SafeGuard is easy to integrate with other tools.
-
+SafeGuard ni rahisi kuunganishwa na zana nyingine.
+  
 ### --feedback--
 
-What Jake says implies it is not easy.
+Anachosema Jake kinaonyesha si rahisi.
 
 ---
 
-SafeGuard costs more when integrated.
+Gharama ya SafeGuard huongezeka wakati inapounganishwa.
 
 ### --feedback--
 
-Jake doesn't mention the cost.
+Jake hakutaja gharama.
 
 ---
 
-Integration with SafeGuard may require additional effort.
+Muunganisho na SafeGuard unaweza kuhitaji juhudi za ziada.
 
 ---
 
-SafeGuard is not flexible with integration.
+SafeGuard haiko na unyumbufu katika muunganisho.
 
 ### --feedback--
 
-Jake doesn't mention flexibility but focuses on the need for extra work.
+Jake hakutaja unyumbufu bali anakazia hitaji la kazi ya ziada.
 
 ## --video-solution--
 
@@ -52,9 +52,9 @@ Jake doesn't mention flexibility but focuses on the need for extra work.
 
 # --explanation--
 
-`Extra work` means additional effort or time needed to achieve a goal.
+`Extra work` inamaanisha juhudi au muda wa ziada unaohitajika kufanikisha lengo.
 
-Jake is suggesting that `if integration is crucial` (very important), Sophie might face challenges with SafeGuard, and therefore, additional work or effort will be required to integrate it with other platforms.
+Jake anapendekeza kwamba `if integration is crucial` (muhimu sana), Sophie anaweza kukumbana na changamoto na SafeGuard, na kwa hiyo, kazi au juhudi za ziada zitahitajika kuunganisha na majukwaa mengine.
 
 # --scene--
 

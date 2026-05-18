@@ -1,6 +1,6 @@
 ---
 id: 678e5a7c4de8c4ccf4ed6ca9
-title: Task 66
+title: Zoezi la 66
 challengeType: 22
 dashedName: task-66
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Sikiliza sauti na ukamilishe sentensi ifuatayo.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This word means to have the same opinion or to reach a mutual understanding.
+Neno hili linamaanisha kuwa na maoni sawa au kufikia uelewa wa pamoja.
 
 ---
 
@@ -32,17 +32,17 @@ This word means to have the same opinion or to reach a mutual understanding.
 
 ### --feedback--
 
-This word means to have a different opinion or to not be in agreement.
+Neno hili linamaanisha kuwa na maoni tofauti au kutokubaliana.
 
 # --explanation--
 
-`Agree` means to be in agreement or have the same opinion as someone. For example:
+`Agree` linamaanisha kukubaliana au kuwa na maoni sawa na mtu mwingine. Kwa mfano:  
 
-`We both agree that improving security is important.` - This means you share the same opinion about security with other person.
+`We both agree that improving security is important.` - Hii ina maana kwamba unashiriki maoni sawa kuhusu usalama na mtu mwingine.
 
-`Disagree` means to have a different opinion or not be in agreement. For example:
+`Disagree` linamaanisha kuwa na maoni tofauti au kutokubaliana. Kwa mfano:  
 
-`Jake and Maria disagree on which software to use.` - This shows that Jake and Maria have different opinions on the choice of software.
+`Jake and Maria disagree on which software to use.` - Hii inaonyesha kwamba Jake na Maria wana maoni tofauti kuhusu uchaguzi wa programu.
 
 # --scene--
 

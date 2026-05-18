@@ -1,25 +1,25 @@
 ---
 id: 6723cc7a8e7aa3b9befd4bac
-title: DOM Manipulation and Click Events with JavaScript Review
+title: Ukaguzi wa uendeshaji wa DOM na matukio ya bofya kwa kutumia JavaScript
 challengeType: 31
 dashedName: review-dom-manipulation-and-click-events-with-javascript
 ---
 
 # --interactive--
 
-## Working with the DOM and Web APIs
+## Kufanya kazi na DOM na API za mtandao
 
-- **API**: An API (Application Programming Interface) is a set of rules and protocols that allow software applications to communicate with each other and exchange data efficiently.
-- **Web API**: Web APIs are specifically designed for web applications. These types of APIs are often divided into two main categories: browser APIs and third-party APIs.
-- **Browser APIs**: These APIs expose data from the browser. As a web developer, you can access and manipulate this data using JavaScript.
-- **Third-Party APIs**: These are not built into the browser by default. You have to retrieve their code in some way. Usually, they will have detailed documentation explaining how to use their services. An example is the Google Maps API, which you can use to display interactive maps on your website.
-- **DOM**: The DOM stands for Document Object Model. It's a programming interface that lets you interact with HTML documents. With the DOM, you can add, modify, or delete elements on a webpage. The root of the DOM tree is the `html` element. It's the top-level container for all the content of an HTML document. All other nodes are descendants of this root node. Then, below the root node, we find other nodes in the hierarchy. A parent node is an element that contains other elements. A child node is an element that is contained within another element.
-- **`navigator` Interface**: This provides information about the browser environment, such as the user agent string, the platform, and the version of the browser. A user agent string is a text string that identifies the browser and operating system being used.
-- **`window` Interface**: This represents the browser window that contains the DOM document. It provides methods and properties for interacting with the browser window, such as resizing the window, opening new windows, and navigating to different URLs.
+- **API**: API (Application Programming Interface) ni seti ya sheria na itifaki zinazoruhusu programu za kompyuta kuwasiliana na kubadilishana data kwa ufanisi.
+- **Web API**: API za mtandao zimeundwa mahsusi kwa programu za mtandao. Aina hizi za API mara nyingi hugawanywa katika makundi mawili makuu: API za kivinjari na API za wahusika wengine.
+- **API za kivinjari**: API hizi zinaweka wazi data kutoka kwa kivinjari. Kama msanidi programu wa mtandao, unaweza kupata upatikanaji na kuendesha data hii kwa kutumia JavaScript.
+- **API za wahusika wengine**: Hizi hazijajengwa ndani ya kivinjari kwa chaguo-msingi. Lazima upate msimbo wao kwa njia fulani. Kawaida, zitakuwa na nyaraka za kina zinazoelezea jinsi ya kutumia huduma zao. Mfano ni API ya Google Maps, ambayo unaweza kuitumia kuonyesha ramani za mwingiliano kwenye tovuti yako.
+- **DOM**: DOM inasimama kwa Document Object Model. Ni kiolesura cha programu kinachokuwezesha kuingiliana na nyaraka za HTML. Kwa DOM, unaweza kuongeza, kubadilisha, au kufuta vipengele kwenye ukurasa wa mtandao. Mzizi wa mti wa DOM ni kipengele cha `html`. Ni kontena la ngazi ya juu kwa maudhui yote ya hati ya HTML. Nodi zote nyingine ni mzao wa nodi hii ya mzizi. Kisha, chini ya nodi ya mzizi, tunapata nodi nyingine katika mfuatano wa ngazi. Nodi ya mzazi ni kipengele kinachojumuisha vipengele vingine. Nodi ya mtoto ni kipengele kilichomo ndani ya kipengele kingine.
+- **Kiolesura cha `navigator`**: Hiki hutoa taarifa kuhusu mazingira ya kivinjari, kama mfuatano wa user agent, jukwaa, na toleo la kivinjari. Mfuatano wa user agent ni mfuatano wa maandishi unaotambulisha kivinjari na mfumo wa uendeshaji unaotumika.
+- **Kiolesura cha `window`**: Huu unawakilisha dirisha la kivinjari linalojumuisha hati ya DOM. Hutoa njia na sifa za kuingiliana na dirisha la kivinjari, kama kubadilisha ukubwa wa dirisha, kufungua madirisha mapya, na kuvinjari URL tofauti.
 
-## Working with the `querySelector()`, `querySelectorAll()` and `getElementById()` Methods
+## Kufanya kazi na Njia za `querySelector()`, `querySelectorAll()` na `getElementById()`
 
-- **`getElementById()` Method**: This method is used to get an object that represents the HTML element with the specified `id`. Remember that ids must be unique in every HTML document, so this method will only return one Element object.
+- **Njia ya `getElementById()`**: Njia hii hutumika kupata kitu kinacho wakilisha kipengele cha HTML chenye `id` iliyotajwa. Kumbuka kuwa ids lazima ziwe za kipekee katika kila hati ya HTML, hivyo njia hii itarudisha kitu kimoja cha Element tu.
 
 :::interactive_editor
 
@@ -35,7 +35,7 @@ console.log(container)
 
 :::
 
-- **`querySelector()` Method**: This method is used to get the first element in the HTML document that matches the CSS selector passed as an argument.
+- **Njia ya `querySelector()`**: Njia hii hutumika kupata kipengele cha kwanza katika hati ya HTML kinacholingana na kichaguzi cha CSS kilichotumwa kama hoja.
 
 :::interactive_editor
 
@@ -51,7 +51,7 @@ console.log(section)
 
 :::
 
-- **`querySelectorAll()` Method**: You can use this method to get a list of all the DOM elements that match a specific CSS selector.
+- **Njia ya `querySelectorAll()`**: Unaweza kutumia njia hii kupata orodha ya vipengele vyote vya DOM vinavyolingana na kichaguzi maalum cha CSS.
 
 :::interactive_editor
 
@@ -71,9 +71,9 @@ console.log(ingredients)
 
 :::
 
-## Working with the `innerText()`, `innerHTML()`, `createElement()` and `textContent()` Methods
+## Kufanya kazi na Njia za `innerText()`, `innerHTML()`, `createElement()` na `textContent()`
 
-- **`innerHTML` Property**: This is a property of the `Element` that is used to set or update parts of the HTML markup.
+- **Sifa ya `innerHTML`**: Hii ni sifa ya `Element` inayotumika kuweka au kusahihisha sehemu za alama za uandishi za HTML.
 
 :::interactive_editor
 
@@ -91,13 +91,13 @@ container.innerHTML = '<ul><li>Cheese</li><li>Tomato</li></ul>';
 
 :::
 
-- **`createElement` Method**: This is used to create an HTML element.
+- **Njia ya `createElement`**: Hii hutumika kuunda kipengele cha HTML.
 
 ```js
 const img = document.createElement("img");
 ```
 
-- **`innerText`**: This represents the visible text content of the HTML element and its descendants.
+- **`innerText`**: Huu unawakilisha maudhui ya maandishi yanayoonekana ya kipengele cha HTML na mzao wake.
 
 :::interactive_editor
 
@@ -116,7 +116,7 @@ console.log(container.innerText);
 
 :::
 
-- **`textContent`**: This returns the plain text content of an element, including all the text within its descendants.
+- **`textContent`**: Huu hurudisha maudhui ya maandishi ya kawaida ya kipengele, ikiwa ni pamoja na maandishi yote ndani ya mzao wake.
 
 :::interactive_editor
 
@@ -135,9 +135,9 @@ console.log(container.textContent);
 
 :::
 
-## Working with the `appendChild()` and `removeChild()` Methods
+## Kufanya kazi na Njia za `appendChild()` na `removeChild()`
 
-- **`appendChild()` Method**: This method is used to add a node to the end of the list of children of a specified parent node.
+- **Njia ya `appendChild()`**: Njia hii hutumika kuongeza nodi mwishoni mwa orodha ya watoto wa nodi ya mzazi iliyotajwa.
 
 :::interactive_editor
 
@@ -159,7 +159,7 @@ dessertsList.appendChild(listItem);
 
 :::
 
-- **`removeChild()` Method**: This method is used to remove a node from the DOM.
+- **Njia ya `removeChild()`**: Njia hii hutumika kufuta nodi kutoka kwenye DOM.
 
 :::interactive_editor
 
@@ -181,9 +181,9 @@ sectionEl.removeChild(lastParagraph);
 
 :::
 
-## Work with the `setAttribute()` Method
+## Kufanya kazi na Njia ya `setAttribute()`
 
-- **Definition**: This method is used to set the attribute for a given element. If the attribute already exists, then the value is updated. Otherwise, a new attribute is added with a value.
+- **Ufafanuzi**: Njia hii hutumika kuweka sifa ya kipengele fulani. Ikiwa sifa tayari ipo, basi thamani yake husahihishwa. Vinginevyo, sifa mpya inaongezwa na thamani yake.
 
 :::interactive_editor
 
@@ -199,13 +199,13 @@ para.setAttribute("class", "my-class");
 
 :::
 
-## Event Object
+## Kitu cha Tukio
 
-- **Definition**: The `Event` object is a payload that triggers when a user interacts with your web page in some way. These interactions can be anything from clicking on a button or focusing an input to shaking their mobile device. All `Event` objects will have the `type` property. This property reveals the type of event that triggered the payload, such as keydown or click. These values will correspond to the same values you might pass to `addEventListener()`, where you can capture and utilize the `Event` object.
+- **Ufafanuzi**: Kitu cha `Event` ni mzigo unaochochea tukio linapotokea wakati mtumizi anavyoshirikiana na ukurasa wako wa mtandao kwa njia fulani. Mwingiliano huu unaweza kuwa chochote kuanzia kubofya kitufe au kuweka makini kwenye ingizo hadi kutetemesha kifaa cha mkononi. Vitu vyote vya `Event` vitakuwa na sifa ya `type`. Sifa hii inaonyesha aina ya tukio lililochochea mzigo, kama vile keydown au click. Thamani hizi zitahusiana na zile unazoweza kutuma kwa `addEventListener()`, ambapo unaweza kunasa na kutumia kitu cha `Event`.
 
-## `addEventListener()` and `removeEventListener()` Methods
+## Njia za `addEventListener()` na `removeEventListener()`
 
-- **`addEventListener` Method**: This method is used to listen for events. It takes two arguments: the event you want to listen for and a function that will be called when the event occurs. Some common examples of events would be click events, input events, and change events.
+- **Njia ya `addEventListener`**: Njia hii hutumika kusikiliza matukio. Inachukua hoja mbili: tukio unalotaka kusikiliza na kitendakazi ambacho kitaitwa tukio litakapotokea. Mifano ya kawaida ya matukio ni matukio ya bofya, matukio ya ingizo, na matukio ya mabadiliko.
 
 :::interactive_editor
 
@@ -222,7 +222,7 @@ btn.addEventListener("click", () => alert("You clicked the button"));
 
 :::
 
-- **`removeEventListener()` Method**: This method is used to remove an event listener that was previously added to an element using the `addEventListener()` method. This is useful when you want to stop listening for a particular event on an element.
+- **Njia ya `removeEventListener()`**: Njia hii hutumika kuondoa mshughulikiaji wa tukio aliyeongezwa awali kwa kipengele kwa kutumia njia ya `addEventListener()`. Hii ni muhimu unapotaka kuacha kusikiliza tukio fulani kwenye kipengele.
 
 :::interactive_editor
 
@@ -255,8 +255,7 @@ para.addEventListener("mouseover", () => {
 
 :::
 
-- **Inline Event Handlers**: Inline event handlers are special attributes on an HTML element that are used to execute JavaScript code when an event occurs. In modern JavaScript, inline event handlers are not considered best practice. It is preferred to use the `addEventListener` method instead.
-
+- **Mshughulikiaji wa Matukio ndani ya mstari**: Mshughulikiaji wa matukio ndani ya mstari ni sifa maalum kwenye kipengele cha HTML zinazotumika kutekeleza msimbo wa JavaScript wakati tukio linapotokea. Katika JavaScript ya kisasa, mshughulikiaji wa matukio ndani ya mstari hauzingatiwi kama mbinu bora. Inapendekezwa kutumia njia ya `addEventListener` badala yake.
 
 :::interactive_editor
 
@@ -266,9 +265,9 @@ para.addEventListener("mouseover", () => {
 
 :::
 
-## The Change Event
+## Tukio la Mabadiliko
 
-- **Definition**: The change event is a special event which is fired when the user modifies the value of certain input elements. Examples would include when a checkbox or a radio button is ticked. Or when the user makes a selection from something like a date picker or dropdown menu.
+- **Ufafanuzi**: Tukio la mabadiliko ni tukio maalum linalochochewa wakati mtumizi anapobadilisha thamani ya vipengele fulani vya ingizo. Mifano ni kama wakati kisanduku cha kuchagua au kitufe cha radio kinapochaguliwa. Au wakati mtumizi anachagua kitu kutoka kwa chaguo kama chaguo la tarehe au menyu ya kushuka.
 
 :::interactive_editor
 
@@ -298,22 +297,22 @@ selectEl.addEventListener("change", (e) => {
 
 :::
 
-## Event Bubbling
+## Kuinuka kwa Tukio
 
-- **Definition**: Event bubbling, or propagation, refers to how an event "bubbles up" to parent objects when triggered.
-- **`stopPropagation()` Method**: This method prevents further propagation for an event.
+- **Ufafanuzi**: Kuinuka kwa tukio, au usambazaji, kunahusu jinsi tukio linavyoinuka hadi kwa vitu vya mzazi linapochochewa.
+- **Njia ya `stopPropagation()`**: Njia hii huzuia usambazaji zaidi wa tukio.
 
-## Event Delegation
+## Ugawaji wa Tukio
 
-- **Definition**: Event delegation is the process of listening to events that have bubbled up to a parent, rather than handling them directly on the element that triggered them.
+- **Ufafanuzi**: Ugawaji wa tukio ni mchakato wa kusikiliza matukio ambayo yameinuka hadi kwa mzazi, badala ya kuyashughulikia moja kwa moja kwenye kipengele kilichochochea tukio.
 
 ## DOMContentLoaded
 
-- **Definition**: The `DOMContentLoaded` event is fired when everything in the HTML document has been loaded and parsed. If you have external stylesheets, or images, the `DOMContentLoaded` event will not wait for those to be loaded. It will only wait for the HTML to be loaded.
+- **Ufafanuzi**: Tukio la `DOMContentLoaded` linachochewa wakati kila kitu katika hati ya HTML limepakuliwa na kuchambuliwa. Ikiwa una majalada ya mitindo ya nje, au picha, tukio la `DOMContentLoaded` halitasubiri yale yapelekewe. Litangojea tu HTML ipakwe.
 
-## Working with `style` and `classList`
+## Kufanya kazi na `style` na `classList`
 
-- **`Element.style` Property**: This property is a read-only property that represents the inline style of an element. You can use this property to get or set the style of an element.
+- **Sifa ya `Element.style`**: Sifa hii ni ya kusoma tu inayowakilisha mtindo wa ndani ya mstari wa kipengele. Unaweza kutumia sifa hii kupata au kuweka mtindo wa kipengele.
 
 :::interactive_editor
 
@@ -329,7 +328,7 @@ paraEl.style.color = "red";
 
 :::
 
-- **`Element.classList` Property**: This property is a read-only property that can be used to add, remove, or toggle classes on an element.
+- **Sifa ya `Element.classList`**: Sifa hii ni ya kusoma tu inayoweza kutumika kuongeza, kuondoa, au kubadili madarasa kwenye kipengele.
 
 :::interactive_editor
 
@@ -378,10 +377,9 @@ toggleBtn.addEventListener("click", () => menu.classList.toggle("show"));
 
 :::
 
+## Kufanya kazi na Njia za `setTimeout()` na `setInterval()`
 
-## Working with the `setTimeout()` and `setInterval()` Methods
-
-- **`setTimeout()` Method**: This method lets you delay an action for a specified time.
+- **Njia ya `setTimeout()`**: Njia hii inakuwezesha kuchelewesha kitendo kwa muda uliotajwa.
 
 :::interactive_editor
 
@@ -393,7 +391,7 @@ setTimeout(() => {
 
 :::
 
-- **`setInterval()` Method**: This method keeps runs a piece of code repeatedly at a set interval. Since `setInterval()` keeps executing the provided function at the specified interval, you might want to stop it. For this, you have to use the `clearInterval()` method.
+- **Njia ya `setInterval()`**: Njia hii inaendesha kipande cha msimbo mara kwa mara kwa muda uliowekwa. Kwa kuwa `setInterval()` inaendelea kutekeleza kitendakazi kilichotolewa kwa muda uliotajwa, unaweza kutaka kuizuia. Kwa hili, unapaswa kutumia njia ya `clearInterval()`.
 
 :::interactive_editor
 
@@ -414,9 +412,9 @@ setTimeout(() => {
 
 :::
 
-## The `requestAnimationFrame()` Method
+## Njia ya `requestAnimationFrame()`
 
-- **Definition**: This method allows you to schedule the next step of your animation before the next screen repaint, resulting in a fluid and visually appealing experience. The next screen repaint refers to the moment when the browser refreshes the visual display of the web page. This happens multiple times per second, typically around 60 times (or 60 frames per second) on most displays.
+- **Ufafanuzi**: Njia hii inakuwezesha kupanga hatua inayofuata ya uhuishaji wako kabla ya skrini kupakwa upya, na hivyo kutoa uzoefu laini na wa kuvutia kwa macho. Kupakwa upya kwa skrini kunahusu wakati kivinjari kinapoonyesha tena maonyesho ya ukurasa wa mtandao. Hii hutokea mara nyingi kwa sekunde, kawaida takriban mara 60 (au fremu 60 kwa sekunde) kwenye maonyesho mengi.
 
 ```js
 function animate() {
@@ -428,9 +426,9 @@ function animate() {
 }
 ```
 
-## Web Animations API
+## API ya Uhuishaji wa Mtandao
 
-- **Definition**: The Web Animations API lets you create and control animations directly inside JavaScript. 
+- **Ufafanuzi**: API ya Uhuishaji wa Mtandao inakuwezesha kuunda na kudhibiti uhuishaji moja kwa moja ndani ya JavaScript.
 
 :::interactive_editor
 
@@ -465,9 +463,9 @@ const animation = square.animate(
 
 :::
 
-## The Canvas API
+## API ya Turubai ya Kuchora
 
-- **Definition**: The Canvas API is a powerful tool that lets you manipulate graphics right inside your JavaScript file. To work with the Canvas API, you first need to provide a `canvas` element in HTML. This element acts as a drawing surface you can manipulate with the instance methods and properties of the interfaces in the Canvas API. This API has interfaces like `HTMLCanvasElement`, `CanvasRenderingContext2D`, `CanvasGradient`, `CanvasPattern`, and `TextMetrics` which contain methods and properties you can use to create graphics in your JavaScript file.
+- **Ufafanuzi**: API ya Turubai ya Kuchora ni chombo chenye nguvu kinachokuwezesha kuendesha michoro ndani ya faili lako la JavaScript. Ili kufanya kazi na API ya Turubai ya Kuchora, kwanza unahitaji kutoa kipengele cha `canvas` katika HTML. Kipengele hiki hufanya kazi kama uso wa kuchora unaoweza kuendeshwa kwa njia na sifa za kiolesura katika API ya Turubai ya Kuchora. API hii ina kiolesura kama `HTMLCanvasElement`, `CanvasRenderingContext2D`, `CanvasGradient`, `CanvasPattern`, na `TextMetrics` ambavyo vina njia na sifa unazoweza kutumia kuunda michoro katika faili lako la JavaScript.
 
 :::interactive_editor
 
@@ -492,10 +490,10 @@ ctx.fillRect(1, 1, 150, 100);
 
 :::
 
-## Opening and Closing Dialogs and Modals with JavaScript
+## Kufungua na Kufunga Madialogu na Modal kwa kutumia JavaScript
 
-- **Modal and Dialog Definitions**: Dialogs let you display important information or actions to users. With the HTML built-in dialog element, you can easily create these dialogs (both modal and non-modal dialogs) in your web apps. A modal dialog is a type of dialog that forces the user to interact with it before they can access the rest of the application or webpage. In contrast, a non-modal dialog allows the user to continue interacting with other parts of the page or application even when the dialog is open. It doesn't prevent access to the rest of the content.
-- **`showModal()` Method**: This method is used to open a modal.
+- **Ufafanuzi wa Modal na Dialog**: Madialogu hukuwezesha kuonyesha taarifa muhimu au vitendo kwa watumizi. Kwa kipengele cha dialog kilichojengwa ndani ya HTML, unaweza kwa urahisi kuunda madialogu haya (modal na yasiyo ya modal) katika programu zako za mtandao. Dialogu ya modal ni aina ya dialogu inayolazimisha mtumizi kuingiliana nayo kabla ya kupata upatikanaji wa sehemu nyingine za programu au ukurasa wa mtandao. Kinyume chake, dialogu isiyo ya modal inaruhusu mtumizi kuendelea kuingiliana na sehemu nyingine za ukurasa au programu hata wakati dialogu iko wazi. Hainizuizi upatikanaji wa maudhui mengine.
+- **Njia ya `showModal()`**: Njia hii hutumika kufungua modal.
 
 :::interactive_editor
 
@@ -518,7 +516,7 @@ openButton.addEventListener('click', () => {
 
 :::
 
-- **`close()` Method**: This method is used to close the modal.
+- **Njia ya `close()`**: Njia hii hutumika kufunga modal.
 
 :::interactive_editor
 
@@ -549,4 +547,4 @@ closeButton.addEventListener('click', () => {
 
 # --assignment--
 
-Review the DOM Manipulation and Click Events with JavaScript topics and concepts.
+Kagua mada na dhana za uendeshaji wa DOM na matukio ya bofya kwa kutumia JavaScript.

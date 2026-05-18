@@ -1,19 +1,19 @@
 ---
 id: 6852ea0c3cadb54e897acdac
-title: Step 1
+title: Hatua 1
 challengeType: 20
 dashedName: step-1
 ---
 
 # --description--
 
-In this workshop, you are going to build an *Email Simulator* that simulates sending, receiving, and managing emails between different users. You'll learn about classes, objects, and how to organize code in an object-oriented way.
+Katika warsha hii, utaunda *Msimulizi wa Barua Pepe* unaosimuliza kutuma, kupokea, na kusimamia barua pepe kati ya watumizi tofauti. Utajifunza kuhusu madarasa ya vitu, vitu, na jinsi ya kupanga msimbo kwa njia ya kuzingatia vitu.
 
-Begin by creating a class named `Email` using the `class` keyword.
+Anza kwa kuunda darasa la vitu linaloitwa `Email` kwa kutumia neno kuu la `class`.
 
 # --hints--
 
-You should create a class named `Email`.
+Unapaswa kuunda darasa la vitu linaloitwa `Email`.
 
 ```js
 ({

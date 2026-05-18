@@ -10,13 +10,13 @@ lang: en-US
 
 # --description--
 
-Höre dir die Audio an und beantworte die Frage unten.
+Hören Sie sich das Audio an und beantworten Sie die folgende Frage.
 
 # --questions--
 
 ## --text--
 
-Warum dankt Tom Sophie?
+Warum bedankt sich Tom bei Sophie?
 
 ## --answers--
 
@@ -24,7 +24,7 @@ For giving him a time management app.
 
 ### --feedback--
 
-Tom is thanking Sophie for tips, not for giving him an app.
+Tom bedankt sich für Tipps, nicht dafür, dass sie ihm eine App gegeben hat.
 
 ---
 
@@ -36,7 +36,7 @@ For inviting him to lunch.
 
 ### --feedback--
 
-He is thanking her for the advice, not for a lunch invitation.
+Er bedankt sich für den Rat, nicht für eine Einladung zum Mittagessen.
 
 ---
 
@@ -44,7 +44,7 @@ For helping him with a project.
 
 ### --feedback--
 
-Tom's gratitude is related to the tips about organization, not specific project help.
+Toms Dank bezieht sich auf die Tipps zur Organisation, nicht auf konkrete Projektunterstützung.
 
 ## --video-solution--
 

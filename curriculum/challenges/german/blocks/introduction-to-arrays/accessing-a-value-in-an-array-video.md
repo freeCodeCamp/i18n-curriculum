@@ -1,6 +1,6 @@
 ---
 id: 698dd3ea7932b3cc4b19c92e
-title: Accessing a Value in an Array
+title: Zugriff auf einen Wert in einem Array
 challengeType: 11
 videoId: yN6_wlaNvHo
 dashedName: accessing-a-value-in-an-array
@@ -8,13 +8,13 @@ dashedName: accessing-a-value-in-an-array
 
 # --description--
 
-In this video, you will learn how to access elements from an array.
+In diesem Video lernen Sie, wie Sie auf Elemente eines Arrays zugreifen.
 
 # --questions--
 
 ## --text--
 
-Which of the following is the correct way to access the first element from a Python list?
+Welche der folgenden Möglichkeiten ist der richtige Weg, um auf das erste Element einer Python-Liste zuzugreifen?
 
 ## --answers--
 

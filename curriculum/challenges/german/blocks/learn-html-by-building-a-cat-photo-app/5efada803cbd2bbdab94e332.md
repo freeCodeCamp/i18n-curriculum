@@ -7,29 +7,29 @@ dashedName: step-31
 
 # --description--
 
-Bette innerhalb des `figure`-Elements, das du eben hinzugefügt hast, ein `img`-Element mit einem `src`-Attribut ein, das auf `https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg` gesetzt ist.
+Verschachteln Sie innerhalb des gerade hinzugefügten `figure`-Elements ein `img`-Element mit einem `src`-Attribut, das auf `https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg` gesetzt ist.
 
 # --hints--
 
-Dein zweites `figure`-Element sollte ein öffnendes Tag haben. Opening tags have this syntax: `<elementName>`.
+Ihr zweites `figure`-Element sollte ein öffnendes Tag haben. Öffnende Tags haben diese Syntax: `<elementName>`.
 
 ```js
 assert(document.querySelectorAll('figure').length >= 2);
 ```
 
-Dein zweites `figure`-Element sollte ein schließendes Tag haben. Closing tags have a `/` just after the `<` character.
+Ihr zweites `figure`-Element sollte ein schließendes Tag haben. Schließende Tags haben direkt nach dem `/`-Zeichen ein `<`.
 
 ```js
 assert(code.match(/<\/figure>/g).length >= 2);
 ```
 
-Es sollte ein zweites `figure`-Element genau über dem zweiten schließenden Tag des `section`-Elements geben. Sie sind in falscher Reihenfolge.
+Es sollte ein zweites `figure`-Element direkt über dem schließenden Tag des zweiten `section`-Elements stehen. Sie haben sie in der falschen Reihenfolge.
 
 ```js
 assert.strictEqual(document.querySelectorAll('main > section')?.[1]?.lastElementChild?.nodeName, 'FIGURE');
 ```
 
-Du solltest ein drittes `img`-Element in dem `figure`-Element einbetten.
+Sie sollten ein drittes `img`-Element im `figure`-Element verschachteln.
 
 ```js
 const catsImg = document.querySelectorAll('figure > img')[1];
@@ -38,7 +38,7 @@ assert(
 );
 ```
 
-Beim dritten Bild sollte das `src` Attribut auf `https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg` gesetzt sein.
+Das dritte Bild sollte ein `src`-Attribut haben, das auf `https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg` gesetzt ist.
 
 ```js
 const catsImg = document.querySelectorAll('figure > img')[1];
@@ -47,7 +47,7 @@ assert.strictEqual(
 );
 ```
 
-Obwohl du den `src` des neuen Bilds auf die richtige URL gesetzt hast, wird empfohlen, den Wert immer zwischen Anführungszeichen anzugeben.
+Obwohl Sie das `src`-Attribut des neuen Bildes auf die korrekte URL gesetzt haben, wird empfohlen, den Wert eines Attributs immer in Anführungszeichen zu setzen.
 
 ```js
 assert.notMatch(code, /\<img\s+.+\s+src\s*=\s*https:\/\/cdn\.freecodecamp\.org\/curriculum\/cat-photo-app\/cats\.jpg/);
@@ -88,7 +88,7 @@ assert.notMatch(code, /\<img\s+.+\s+src\s*=\s*https:\/\/cdn\.freecodecamp\.org\/
         </ol>
 --fcc-editable-region--
         <figure>
-
+          
         </figure>
 --fcc-editable-region--
       </section>

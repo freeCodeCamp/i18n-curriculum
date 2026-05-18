@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Höre dir die Audio an, um die unteren Sätze zu vervollständigen.
+Hören Sie sich die Audioaufnahme an und vervollständigen Sie den folgenden Satz.
 
 # --fillInTheBlank--
 
@@ -24,13 +24,13 @@ Höre dir die Audio an, um die unteren Sätze zu vervollständigen.
 
 ### --feedback--
 
-This means at the present time and shows the situation could change later.
+Das bedeutet „im Moment“ und zeigt, dass sich die Situation später ändern könnte.
 
 # --explanation--
 
-`For now` means at this moment or for the time being. It suggests that things are complete at the moment, but more might happen later. Zum Beispiel:
+`For now` bedeutet „im Moment“ oder „vorerst“. Es deutet darauf hin, dass die Dinge momentan abgeschlossen sind, aber später noch etwas passieren könnte. Zum Beispiel:
 
-`Let's stop working here for now and continue tomorrow.` - This means they are pausing at the moment, but will continue later.
+`Let's stop working here for now and continue tomorrow.` – Das bedeutet, dass sie gerade eine Pause machen, aber später weitermachen werden.
 
 # --scene--
 

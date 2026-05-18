@@ -1,13 +1,13 @@
 ---
 id: 672bc4ff5e7a4bbdee8ba013
-title: What Are Named Colors in CSS, and When to Use Them?
+title: Was sind benannte Farben in CSS und wann verwendet man sie?
 challengeType: 19
 dashedName: what-are-named-colors-in-css
 ---
 
 # --interactive--
 
-In CSS, colors play a crucial role in designing web pages, enhancing readability, setting the mood, and improving user experience. One of the simplest ways to define colors in CSS is by using named colors. Named colors are predefined color names recognized by browsers. Here is an example of using a named color for a paragraph element:
+In CSS spielen Farben eine entscheidende Rolle beim Gestalten von Webseiten, verbessern die Lesbarkeit, setzen die Stimmung und steigern die Benutzererfahrung. Eine der einfachsten Methoden, Farben in CSS zu definieren, ist die Verwendung von benannten Farben. Benannte Farben sind vordefinierte Farbnamen, die von Browsern erkannt werden. Hier ist ein Beispiel für die Verwendung einer benannten Farbe für ein Absatz-Element:
 
 :::interactive_editor
 
@@ -24,11 +24,11 @@ p {
 
 :::
 
-In this example, we're using the named color `red` to style the text in a paragraph.
+In diesem Beispiel verwenden wir die benannte Farbe `red`, um den Text in einem Absatz zu gestalten.
 
-Named colors in CSS are a collection of 140 standard color names like `red`, `blue`, `yellow`, `aqua`, `fuchsia`, `black`, and so on. These names are simple to use and make your code more readable, and they are self-descriptive.
+Benannte Farben in CSS sind eine Sammlung von 140 standardisierten Farbnamen wie `red`, `blue`, `yellow`, `aqua`, `fuchsia`, `black` und so weiter. Diese Namen sind einfach zu verwenden, machen Ihren Code lesbarer und sind selbsterklärend.
 
-Named colors are useful for quick prototyping, simple designs, and improving code readability. Here is an another example of using named colors for an `h1` selector:
+Benannte Farben sind nützlich für schnelles Prototyping, einfache Designs und zur Verbesserung der Lesbarkeit des Codes. Hier ist ein weiteres Beispiel für die Verwendung benannter Farben für einen `h1`-Selektor:
 
 :::interactive_editor
 
@@ -46,47 +46,47 @@ h1 {
 
 :::
 
-In this example, the heading text will be styled in navy, with a light gray background. The readability of the code improves since named colors provide an immediate visual understanding of the intended style.
+In diesem Beispiel wird der Überschriftentext in Navy gestylt, mit einem hellgrauen Hintergrund. Die Lesbarkeit des Codes verbessert sich, da benannte Farben sofort ein visuelles Verständnis des beabsichtigten Stils vermitteln.
 
-Named colors in CSS are convenient but limited, with only 140 available options. They may not offer the precise shade needed for more detailed designs.
+Benannte Farben in CSS sind praktisch, aber begrenzt, da nur 140 Optionen verfügbar sind. Sie bieten möglicherweise nicht den genauen Farbton, der für detailliertere Designs benötigt wird.
 
-Named colors in CSS are a great way to apply colors quickly and descriptively. While they are useful for basic designs, prototyping, and improving code readability, their limited range makes them less suitable for complex designs requiring precise color control.
+Benannte Farben in CSS sind eine großartige Möglichkeit, Farben schnell und beschreibend anzuwenden. Während sie für einfache Designs, Prototyping und zur Verbesserung der Lesbarkeit nützlich sind, sind sie aufgrund ihres begrenzten Spektrums weniger geeignet für komplexe Designs, die eine präzise Farbsteuerung erfordern.
 
-By understanding the strengths and limitations of named colors, you can determine when it’s best to use them over more detailed color models like RGB or HSL, which you will learn about in future lessons.
+Indem Sie die Stärken und Grenzen benannter Farben verstehen, können Sie entscheiden, wann es besser ist, sie anstelle detaillierterer Farbmodelle wie RGB oder HSL zu verwenden, die Sie in zukünftigen Lektionen kennenlernen werden.
 
 # --questions--
 
 ## --text--
 
-What is a key benefit of using named colors in CSS?
+Was ist ein wesentlicher Vorteil der Verwendung benannter Farben in CSS?
 
 ## --answers--
 
-Named colors allow you to create gradients.
+Benannte Farben ermöglichen es Ihnen, Farbverläufe zu erstellen.
 
 ### --feedback--
 
-Think about the simplicity and readability aspect of named colors.
+Denken Sie an die Einfachheit und Lesbarkeit benannter Farben.
 
 ---
 
-Named colors are simpler to write and make code more readable.
+Benannte Farben sind einfacher zu schreiben und machen den Code lesbarer.
 
 ---
 
-Named colors provide a wider range of color options than hex codes.
+Benannte Farben bieten eine größere Auswahl an Farboptionen als Hex-Codes.
 
 ### --feedback--
 
-Think about the simplicity and readability aspect of named colors.
+Denken Sie an die Einfachheit und Lesbarkeit benannter Farben.
 
 ---
 
-Named colors are the most precise way to define colors in web design.
+Benannte Farben sind die präziseste Methode, Farben im Webdesign zu definieren.
 
 ### --feedback--
 
-Think about the simplicity and readability aspect of named colors.
+Denken Sie an die Einfachheit und Lesbarkeit benannter Farben.
 
 ## --video-solution--
 
@@ -94,35 +94,35 @@ Think about the simplicity and readability aspect of named colors.
 
 ## --text--
 
-In what scenario might named colors not be the best choice?
+In welchem Szenario sind benannte Farben möglicherweise nicht die beste Wahl?
 
 ## --answers--
 
-When you need to quickly prototype a design.
+Wenn Sie schnell ein Design prototypisieren müssen.
 
 ### --feedback--
 
-Think about the limitations of named colors in more complex designs.
+Denken Sie an die Einschränkungen benannter Farben bei komplexeren Designs.
 
 ---
 
-When your design requires very specific or nuanced shades of color.
+Wenn Ihr Design sehr spezifische oder nuancierte Farbtöne erfordert.
 
 ---
 
-When your design involves only primary colors.
+Wenn Ihr Design nur Primärfarben verwendet.
 
 ### --feedback--
 
-Think about the limitations of named colors in more complex designs.
+Denken Sie an die Einschränkungen benannter Farben bei komplexeren Designs.
 
 ---
 
-When collaborating with others on a simple project.
+Wenn Sie mit anderen an einem einfachen Projekt zusammenarbeiten.
 
 ### --feedback--
 
-Think about the limitations of named colors in more complex designs.
+Denken Sie an die Einschränkungen benannter Farben bei komplexeren Designs.
 
 ## --video-solution--
 
@@ -130,7 +130,7 @@ Think about the limitations of named colors in more complex designs.
 
 ## --text--
 
-Which of the following is an example of a named color in CSS?
+Welches der folgenden Beispiele ist eine benannte Farbe in CSS?
 
 ## --answers--
 
@@ -138,7 +138,7 @@ Which of the following is an example of a named color in CSS?
 
 ### --feedback--
 
-Named colors are descriptive words, not numerical codes.
+Benannte Farben sind beschreibende Wörter, keine numerischen Codes.
 
 ---
 
@@ -146,7 +146,7 @@ Named colors are descriptive words, not numerical codes.
 
 ### --feedback--
 
-Named colors are descriptive words, not numerical codes.
+Benannte Farben sind beschreibende Wörter, keine numerischen Codes.
 
 ---
 
@@ -158,7 +158,7 @@ Named colors are descriptive words, not numerical codes.
 
 ### --feedback--
 
-Named colors are descriptive words, not numerical codes.
+Benannte Farben sind beschreibende Wörter, keine numerischen Codes.
 
 ## --video-solution--
 

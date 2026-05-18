@@ -1,6 +1,6 @@
 ---
 id: 315017f4457c19d45c2be034
-title: Variables and Data Types
+title: Variablen und Datentypen
 challengeType: 11
 videoId: sIw317W39X0
 dashedName: variables-and-data-types
@@ -8,29 +8,29 @@ dashedName: variables-and-data-types
 
 # --description--
 
-In this video, you will learn about the different data types in Python including integers, strings and booleans.
+In diesem Video lernen Sie die verschiedenen Datentypen in Python kennen, darunter ganze Zahlen, Strings und Booleans.
 
 # --questions--
 
 ## --text--
 
-What is a boolean?
+Was ist ein Boolean?
 
 ## --answers--
 
-It is a data type that represents an `undefined` value.
+Es ist ein Datentyp, der einen `undefined`-Wert darstellt.
 
 ---
 
-It is a data type that represents a sequence of characters.
+Es ist ein Datentyp, der eine Folge von Zeichen darstellt.
 
 ---
 
-It is a data type that represents `True` or `False`.
+Es ist ein Datentyp, der `True` oder `False` darstellt.
 
 ---
 
-It is a data type that represents a float.
+Es ist ein Datentyp, der eine Fließkommazahl darstellt.
 
 ## --video-solution--
 

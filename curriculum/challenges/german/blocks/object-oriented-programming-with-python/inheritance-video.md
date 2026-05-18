@@ -1,6 +1,6 @@
 ---
 id: 697fe5c032baa3841ab62a64
-title: Inheritance
+title: Vererbung
 challengeType: 11
 videoId: uHdNSULVpgY
 dashedName: inheritance
@@ -8,29 +8,29 @@ dashedName: inheritance
 
 # --description--
 
-In this video, you will learn about inheritance in object oriented programming.
+In diesem Video lernen Sie die Vererbung in der objektorientierten Programmierung kennen.
 
 # --questions--
 
 ## --text--
 
-What is inheritance in object oriented programming?
+Was ist Vererbung in der objektorientierten Programmierung?
 
 ## --answers--
 
-This is when a class reuses code from a function.
+Das ist, wenn eine Klasse Code von einer Funktion wiederverwendet.
 
 ---
 
-This is when a class creates a copy of another class.
+Das ist, wenn eine Klasse eine Kopie einer anderen Klasse erstellt.
 
 ---
 
-This is when a class inherits properties and behaviors from another class.
+Das ist, wenn eine Klasse Eigenschaften und Verhalten von einer anderen Klasse erbt.
 
 ---
 
-This is when a class hides its methods and variables from other classes.
+Das ist, wenn eine Klasse ihre Methoden und Variablen vor anderen Klassen verbirgt.
 
 ## --video-solution--
 

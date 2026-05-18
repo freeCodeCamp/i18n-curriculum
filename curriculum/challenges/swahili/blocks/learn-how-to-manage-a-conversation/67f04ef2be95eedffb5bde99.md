@@ -1,6 +1,6 @@
 ---
 id: 67f04ef2be95eedffb5bde99
-title: Task 103
+title: Zoezi la 103
 challengeType: 22
 dashedName: task-103
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Sikiliza sauti na ukamilishe sentensi iliyo hapa chini.
 
 # --fillInTheBlank--
 
@@ -24,13 +24,13 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-Followed by `down`, this means making something move or happen more slowly than normal. Use the `-ing` form.
+Ikifuatiwa na `down`, hii inamaanisha kufanya kitu kiende au kitokee polepole zaidi kuliko kawaida. Tumia fomu ya `-ing`.
 
 # --explanation--
 
-`To slow down` means to reduce speed or to make something happen more slowly. In work or project contexts, it can refer to anything that delays progress. For example:
+`To slow down` inamaanisha kupunguza mwendo au kufanya kitu kitokee polepole zaidi. Katika muktadha wa kazi au mradi, inaweza kumaanisha chochote kinachochelewesha maendeleo. Kwa mfano:
 
-`Traffic is slowing down the delivery.` – This means the delivery is taking longer because of traffic.
+`Traffic is slowing down the delivery.` – Hii inamaanisha utoaji unachukua muda mrefu zaidi kwa sababu ya msongamano wa magari.  
 
 # --scene--
 

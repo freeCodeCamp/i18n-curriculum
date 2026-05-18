@@ -1,6 +1,6 @@
 ---
 id: 5e601bf95ac9d0ecd8b94afd
-title: Sudoku Solver
+title: Sudoku-Löser
 challengeType: 4
 forumTopicId: 462357
 dashedName: sudoku-solver
@@ -8,64 +8,64 @@ dashedName: sudoku-solver
 
 # --description--
 
-Build a full-stack JavaScript app that is functionally similar to this: <a href="https://sudoku-solver.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://sudoku-solver.freecodecamp.rocks/</a>. Working on this project will involve you writing your code using one of the following methods:
+Erstellen Sie eine Full-Stack-JavaScript-Anwendung, die funktional ähnlich ist wie diese: <a href="https://sudoku-solver.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://sudoku-solver.freecodecamp.rocks/</a>. Die Arbeit an diesem Projekt beinhaltet, dass Sie Ihren Code mit einer der folgenden Methoden schreiben:
 
--   Clone <a href="https://github.com/freecodecamp/boilerplate-project-sudoku-solver" target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete your project locally.
--   Use a site builder of your choice to complete the project. Be sure to incorporate all the files from our GitHub repo.
+-   Klonen Sie <a href="https://github.com/freecodecamp/boilerplate-project-sudoku-solver" target="_blank" rel="noopener noreferrer nofollow">dieses GitHub-Repository</a> und vervollständigen Sie Ihr Projekt lokal.
+-   Verwenden Sie einen Website-Builder Ihrer Wahl, um das Projekt abzuschließen. Stellen Sie sicher, dass Sie alle Dateien aus unserem GitHub-Repository einbinden.
 
 # --instructions--
 
-- All puzzle logic can go into `/controllers/sudoku-solver.js`
-  - The `validate` function should take a given puzzle string and check it to see if it has 81 valid characters for the input.
-  - The `check` functions should be validating against the *current* state of the board.
-  - The `solve` function should handle solving any given valid puzzle string, not just the test inputs and solutions. You are expected to write out the logic to solve this.
-- All routing logic can go into `/routes/api.js`
-- See the `puzzle-strings.js` file in `/controllers` for some sample puzzles your application should solve
-- To run the challenge tests on this page, set `NODE_ENV` to `test` without quotes in the `.env` file
-- To run the tests in the console, use the command `npm run test`.
+- Alle Logik für das Puzzle kann in `/controllers/sudoku-solver.js` geschrieben werden
+  - Die `validate`-Funktion soll einen gegebenen Puzzle-String entgegennehmen und prüfen, ob er 81 gültige Zeichen für die Eingabe enthält.
+  - Die `check`-Funktionen sollen gegen den *aktuellen* Zustand des Spielfelds validieren.
+  - Die `solve`-Funktion soll das Lösen eines beliebigen gültigen Puzzle-Strings übernehmen, nicht nur der Testeingaben und Lösungen. Sie sollen die Logik zum Lösen selbst schreiben.
+- Alle Routing-Logik kann in `/routes/api.js` geschrieben werden
+- Sehen Sie sich die `puzzle-strings.js`-Datei in `/controllers` für einige Beispielpuzzles an, die Ihre Anwendung lösen soll
+- Um die Tests für diese Aufgabe auf dieser Seite auszuführen, setzen Sie `NODE_ENV` in der `test`-Datei auf `.env` ohne Anführungszeichen
+- Um die Tests in der Konsole auszuführen, verwenden Sie den Befehl `npm run test`.
 
-Write the following tests in `tests/1_unit-tests.js`:
+Schreiben Sie die folgenden Tests in `tests/1_unit-tests.js`:
 
--   Logic handles a valid puzzle string of 81 characters
--   Logic handles a puzzle string with invalid characters (not 1-9 or `.`)
--   Logic handles a puzzle string that is not 81 characters in length
--   Logic handles a valid row placement
--   Logic handles an invalid row placement
--   Logic handles a valid column placement
--   Logic handles an invalid column placement
--   Logic handles a valid region (3x3 grid) placement
--   Logic handles an invalid region (3x3 grid) placement
--   Valid puzzle strings pass the solver
--   Invalid puzzle strings fail the solver
--   Solver returns the expected solution for an incomplete puzzle
+-   Die Logik verarbeitet einen gültigen Puzzle-String mit 81 Zeichen
+-   Die Logik verarbeitet einen Puzzle-String mit ungültigen Zeichen (nicht 1-9 oder `.`)
+-   Die Logik verarbeitet einen Puzzle-String, der nicht 81 Zeichen lang ist
+-   Die Logik verarbeitet eine gültige Zeilenplatzierung
+-   Die Logik verarbeitet eine ungültige Zeilenplatzierung
+-   Die Logik verarbeitet eine gültige Spaltenplatzierung
+-   Die Logik verarbeitet eine ungültige Spaltenplatzierung
+-   Die Logik verarbeitet eine gültige Region (3x3-Gitter) Platzierung
+-   Die Logik verarbeitet eine ungültige Region (3x3-Gitter) Platzierung
+-   Gültige Puzzle-Strings bestehen den Löser
+-   Ungültige Puzzle-Strings schlagen beim Löser fehl
+-   Der Löser liefert die erwartete Lösung für ein unvollständiges Puzzle
 
-Write the following tests in `tests/2_functional-tests.js`
+Schreiben Sie die folgenden Tests in `tests/2_functional-tests.js`
 
--   Solve a puzzle with valid puzzle string: POST request to `/api/solve`
--   Solve a puzzle with missing puzzle string: POST request to `/api/solve`
--   Solve a puzzle with invalid characters: POST request to `/api/solve`
--   Solve a puzzle with incorrect length: POST request to `/api/solve`
--   Solve a puzzle that cannot be solved: POST request to `/api/solve`
--   Check a puzzle placement with all fields: POST request to `/api/check`
--   Check a puzzle placement with single placement conflict: POST request to `/api/check`
--   Check a puzzle placement with multiple placement conflicts: POST request to `/api/check`
--   Check a puzzle placement with all placement conflicts: POST request to `/api/check`
--   Check a puzzle placement with missing required fields: POST request to `/api/check`
--   Check a puzzle placement with invalid characters: POST request to `/api/check`
--   Check a puzzle placement with incorrect length: POST request to `/api/check`
--   Check a puzzle placement with invalid placement coordinate: POST request to `/api/check`
--   Check a puzzle placement with invalid placement value: POST request to `/api/check`
+-   Lösen eines Puzzles mit gültigem Puzzle-String: POST-Anfrage an `/api/solve`
+-   Lösen eines Puzzles mit fehlendem Puzzle-String: POST-Anfrage an `/api/solve`
+-   Lösen eines Puzzles mit ungültigen Zeichen: POST-Anfrage an `/api/solve`
+-   Lösen eines Puzzles mit falscher Länge: POST-Anfrage an `/api/solve`
+-   Lösen eines Puzzles, das nicht gelöst werden kann: POST-Anfrage an `/api/solve`
+-   Überprüfen einer Puzzle-Platzierung mit allen Feldern: POST-Anfrage an `/api/check`
+-   Überprüfen einer Puzzle-Platzierung mit einem einzelnen Konflikt: POST-Anfrage an `/api/check`
+-   Überprüfen einer Puzzle-Platzierung mit mehreren Konflikten: POST-Anfrage an `/api/check`
+-   Überprüfen einer Puzzle-Platzierung mit allen Konflikten: POST-Anfrage an `/api/check`
+-   Überprüfen einer Puzzle-Platzierung mit fehlenden Pflichtfeldern: POST-Anfrage an `/api/check`
+-   Überprüfen einer Puzzle-Platzierung mit ungültigen Zeichen: POST-Anfrage an `/api/check`
+-   Überprüfen einer Puzzle-Platzierung mit falscher Länge: POST-Anfrage an `/api/check`
+-   Überprüfen einer Puzzle-Platzierung mit ungültiger Platzierungskoordinate: POST-Anfrage an `/api/check`
+-   Überprüfen einer Puzzle-Platzierung mit ungültigem Platzierungswert: POST-Anfrage an `/api/check`
 
 # --hints--
 
-You should provide your own project, not the example URL.
+Sie sollten Ihr eigenes Projekt bereitstellen, nicht die Beispiel-URL.
 
 ```js
   const url = code;
   assert(!/.*\/sudoku-solver\.freecodecamp\.rocks/.test(code));
 ```
 
-You can `POST` `/api/solve` with form data containing `puzzle` which will be a string containing a combination of numbers (1-9) and periods `.` to represent empty spaces. The returned object will contain a `solution` property with the solved puzzle.
+Sie können `POST` `/api/solve` mit Formulardaten verwenden, die `puzzle` enthalten, welcher ein String mit einer Kombination aus Zahlen (1-9) und Punkten `.` zur Darstellung leerer Felder ist. Das zurückgegebene Objekt enthält eine `solution`-Eigenschaft mit dem gelösten Puzzle.
 
 ```js
   const input =
@@ -82,7 +82,7 @@ You can `POST` `/api/solve` with form data containing `puzzle` which will be a s
   assert.equal(parsed.solution, output);
 ```
 
-If the object submitted to `/api/solve` is missing `puzzle`, the returned value will be `{ error: 'Required field missing' }`
+Wenn das an `/api/solve` übergebene Objekt `puzzle` fehlt, ist der zurückgegebene Wert `{ error: 'Required field missing' }`
 
 ```js
   const input =
@@ -98,7 +98,7 @@ If the object submitted to `/api/solve` is missing `puzzle`, the returned value 
   assert.equal(parsed.error, output);
 ```
 
-If the puzzle submitted to `/api/solve` contains values which are not numbers or periods, the returned value will be `{ error: 'Invalid characters in puzzle' }`
+Wenn das an `/api/solve` übergebene Puzzle Werte enthält, die keine Zahlen oder Punkte sind, ist der zurückgegebene Wert `{ error: 'Invalid characters in puzzle' }`
 
 ```js
   const input =
@@ -114,7 +114,7 @@ If the puzzle submitted to `/api/solve` contains values which are not numbers or
   assert.equal(parsed.error, output);
 ```
 
-If the puzzle submitted to `/api/solve` is greater or less than 81 characters, the returned value will be `{ error: 'Expected puzzle to be 81 characters long' }`
+Wenn das an `/api/solve` übergebene Puzzle mehr oder weniger als 81 Zeichen enthält, ist der zurückgegebene Wert `{ error: 'Expected puzzle to be 81 characters long' }`
 
 ```js
   const inputs = [
@@ -134,7 +134,7 @@ If the puzzle submitted to `/api/solve` is greater or less than 81 characters, t
   }
 ```
 
-If the puzzle submitted to `/api/solve` is invalid or cannot be solved, the returned value will be `{ error: 'Puzzle cannot be solved' }`
+Wenn das an `/api/solve` übergebene Puzzle ungültig ist oder nicht gelöst werden kann, ist der zurückgegebene Wert `{ error: 'Puzzle cannot be solved' }`
 
 ```js
   const input =
@@ -150,7 +150,7 @@ If the puzzle submitted to `/api/solve` is invalid or cannot be solved, the retu
   assert.equal(parsed.error, output);
 ```
 
-You can `POST` to `/api/check` an object containing `puzzle`, `coordinate`, and `value` where the `coordinate` is the letter A-I indicating the row, followed by a number 1-9 indicating the column, and `value` is a number from 1-9.
+Sie können `POST` an `/api/check` ein Objekt übergeben, das `puzzle`, `coordinate` und `value` enthält, wobei `coordinate` der Buchstabe A-I ist, der die Zeile angibt, gefolgt von einer Zahl 1-9, die die Spalte angibt, und `value` eine Zahl von 1-9 ist.
 
 ```js
   const input =
@@ -167,7 +167,7 @@ You can `POST` to `/api/check` an object containing `puzzle`, `coordinate`, and 
   assert.isTrue(parsed.valid);
 ```
 
-The return value from the `POST` to `/api/check` will be an object containing a `valid` property, which is `true` if the number may be placed at the provided coordinate and `false` if the number may not. If false, the returned object will also contain a `conflict` property which is an array containing the strings `"row"`, `"column"`, and/or `"region"` depending on which makes the placement invalid.
+Der Rückgabewert von `POST` an `/api/check` ist ein Objekt mit einer `valid`-Eigenschaft, die `true` ist, wenn die Zahl an der angegebenen Koordinate platziert werden darf, und `false`, wenn die Zahl nicht platziert werden darf. Falls false, enthält das zurückgegebene Objekt außerdem eine `conflict`-Eigenschaft, die ein Array mit den Strings `"row"`, `"column"` und/oder `"region"` enthält, je nachdem, was die Platzierung ungültig macht.
 
 ```js
   const input =
@@ -188,7 +188,7 @@ The return value from the `POST` to `/api/check` will be an object containing a 
   assert.include(parsed.conflict, 'column');
 ```
 
-If `value` submitted to `/api/check` is already placed in `puzzle` on that `coordinate`, the returned value will be an object containing a `valid` property with `true` if `value` is not conflicting.
+Wenn `value`, das an `/api/check` übergeben wurde, bereits in `puzzle` auf diesem `coordinate` platziert ist, enthält der zurückgegebene Wert ein Objekt mit einer `valid`-Eigenschaft mit `true`, falls `value` nicht im Konflikt steht.
 
 ```js
   const input =
@@ -205,7 +205,7 @@ If `value` submitted to `/api/check` is already placed in `puzzle` on that `coor
   assert.isTrue(parsed.valid);
 ```
 
-If the puzzle submitted to `/api/check` contains values which are not numbers or periods, the returned value will be `{ error: 'Invalid characters in puzzle' }`
+Wenn das an `/api/check` übergebene Puzzle Werte enthält, die keine Zahlen oder Punkte sind, ist der zurückgegebene Wert `{ error: 'Invalid characters in puzzle' }`
 
 ```js
   const input =
@@ -223,7 +223,7 @@ If the puzzle submitted to `/api/check` contains values which are not numbers or
   assert.equal(parsed.error, output);
 ```
 
-If the puzzle submitted to `/api/check` is greater or less than 81 characters, the returned value will be `{ error: 'Expected puzzle to be 81 characters long' }`
+Wenn das an `/api/check` übergebene Puzzle mehr oder weniger als 81 Zeichen enthält, ist der zurückgegebene Wert `{ error: 'Expected puzzle to be 81 characters long' }`
 
 ```js
   const inputs = [
@@ -245,7 +245,7 @@ If the puzzle submitted to `/api/check` is greater or less than 81 characters, t
   }
 ```
 
-If the object submitted to `/api/check` is missing `puzzle`, `coordinate` or `value`, the returned value will be `{ error: 'Required field(s) missing' }`
+Wenn das an `/api/check` übergebene Objekt `puzzle`, `coordinate` oder `value` fehlt, ist der zurückgegebene Wert `{ error: 'Required field(s) missing' }`
 
 ```js
   const inputs = [
@@ -275,7 +275,7 @@ If the object submitted to `/api/check` is missing `puzzle`, `coordinate` or `va
   }
 ```
 
-If the coordinate submitted to `api/check` does not point to an existing grid cell, the returned value will be `{ error: 'Invalid coordinate'}`
+Wenn die an `api/check` übergebene Koordinate nicht auf eine existierende Gitterzelle zeigt, ist der zurückgegebene Wert `{ error: 'Invalid coordinate'}`
 
 ```js
   const input =
@@ -295,7 +295,7 @@ If the coordinate submitted to `api/check` does not point to an existing grid ce
   }
 ```
 
-If the `value` submitted to `/api/check` is not a number between 1 and 9, the returned value will be `{ error: 'Invalid value' }`
+Wenn der an `value` übergebene `/api/check` keine Zahl zwischen 1 und 9 ist, ist der zurückgegebene Wert `{ error: 'Invalid value' }`
 
 ```js
   const input =
@@ -315,7 +315,7 @@ If the `value` submitted to `/api/check` is not a number between 1 and 9, the re
   }
 ```
 
-All 12 unit tests are complete and passing.
+Alle 12 Unit-Tests sind abgeschlossen und bestanden.
 
 ```js
   try {
@@ -342,7 +342,7 @@ All 12 unit tests are complete and passing.
   }
 ```
 
-All 14 functional tests are complete and passing.
+Alle 14 Funktionstests sind abgeschlossen und bestanden.
 
 ```js
   try {

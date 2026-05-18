@@ -1,6 +1,6 @@
 ---
 id: 657ce0bbf16c312c8dcc8dff
-title: Task 63
+title: Zoezi la 63
 challengeType: 19
 dashedName: task-63
 lang: en-US
@@ -8,19 +8,19 @@ lang: en-US
 
 # --description--
 
-There are some words you can use in your sentence to express how often something happens. They are called **adverbs of frequency**.
+Kuna maneno fulani unayoweza kutumia katika sentensi yako kuonyesha mara ngapi jambo fulani hutokea. Huyaitwa **viashiria vya mara kwa mara**.
 
-`Usually` is a word that suggests that something happens often but is not constant.
+`Usually` ni neno linalopendekeza kwamba jambo fulani hutokea mara nyingi lakini si kila wakati.
 
-When `usually` is used with the verb `to be`, it is placed after the verb. For example, `She is usually on time for meetings`.
+Wakati `usually` inapotumika na kitenzi `to be`, huwekwa baada ya kitenzi. Kwa mfano, `She is usually on time for meetings`.
 
-With other verbs, `usually` comes before the main verb. For example, `He usually works late`.
+Kwa vitenzi vingine, `usually` huja kabla ya kitenzi kikuu. Kwa mfano, `He usually works late`.
 
 # --questions--
 
 ## --text--
 
-Choose the sentence that correctly uses the adverb `usually`.
+Chagua sentensi inayotumia kwa usahihi kiashiria `usually`.
 
 ## --answers--
 
@@ -28,7 +28,7 @@ Choose the sentence that correctly uses the adverb `usually`.
 
 ### --feedback--
 
-`Usually` should come before the main verb when not using `to be`. The correct sentence is `She is usually very careful with her work.`
+`Usually` inapaswa kuja kabla ya kitenzi kikuu wakati `to be` haijatumiwa. Sentensi sahihi ni `She is usually very careful with her work.`
 
 ---
 
@@ -40,7 +40,7 @@ Choose the sentence that correctly uses the adverb `usually`.
 
 ### --feedback--
 
-`Usually` should come before the main verb in standard sentences. The correct sentence is `They usually play together on weekends.`
+`Usually` inapaswa kuja kabla ya kitenzi kikuu katika sentensi za kawaida. Sentensi sahihi ni `They usually play together on weekends.`
 
 ---
 
@@ -48,7 +48,7 @@ Choose the sentence that correctly uses the adverb `usually`.
 
 ### --feedback--
 
-With the verb `to be`, `usually` comes after it. The correct sentence is `We are usually happy to help out with new projects.`
+Kwa kitenzi `to be`, `usually` huja baada yake. Sentensi sahihi ni `We are usually happy to help out with new projects.`
 
 ## --video-solution--
 

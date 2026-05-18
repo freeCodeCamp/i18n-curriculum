@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c443edefaeb5bdff
-title: Request Header Parser Microservice
+title: Request header parser Microservice
 challengeType: 4
 forumTopicId: 301507
 dashedName: request-header-parser-microservice
@@ -8,14 +8,14 @@ dashedName: request-header-parser-microservice
 
 # --description--
 
-Build a full-stack JavaScript app that is functionally similar to this: <a href="https://request-header-parser-microservice.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://request-header-parser-microservice.freecodecamp.rocks/</a>. Working on this project will involve you writing your code using one of the following methods:
+Erstellen Sie eine Full-Stack-JavaScript-App, die funktional ähnlich ist wie diese: <a href="https://request-header-parser-microservice.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://request-header-parser-microservice.freecodecamp.rocks/</a>. Die Arbeit an diesem Projekt erfordert, dass Sie Ihren Code mit einer der folgenden Methoden schreiben:
 
--   Clone <a href="https://github.com/freeCodeCamp/boilerplate-project-headerparser/" target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete your project locally.
--   Use a site builder of your choice to complete the project. Be sure to incorporate all the files from our GitHub repo.
+-   Klonen Sie <a href="https://github.com/freeCodeCamp/boilerplate-project-headerparser/" target="_blank" rel="noopener noreferrer nofollow">dieses GitHub-Repository</a> und vervollständigen Sie Ihr Projekt lokal.
+-   Verwenden Sie einen Website-Builder Ihrer Wahl, um das Projekt abzuschließen. Stellen Sie sicher, dass Sie alle Dateien aus unserem GitHub-Repository einbinden.
 
 # --hints--
 
-You should provide your own project, not the example URL.
+Sie sollten Ihr eigenes Projekt bereitstellen, nicht die Beispiel-URL.
 
 ```js
   assert(
@@ -25,7 +25,7 @@ You should provide your own project, not the example URL.
   );
 ```
 
-A request to `/api/whoami` should return a JSON object with your IP address in the `ipaddress` key.
+Eine Anfrage an `/api/whoami` sollte ein JSON-Objekt mit Ihrer IP-Adresse im `ipaddress`-Schlüssel zurückgeben.
 
 ```js
   const response = await fetch(code + '/api/whoami');
@@ -36,7 +36,7 @@ A request to `/api/whoami` should return a JSON object with your IP address in t
   assert(data.ipaddress && data.ipaddress.length > 0);
 ```
 
-A request to `/api/whoami` should return a JSON object with your preferred language in the `language` key.
+Eine Anfrage an `/api/whoami` sollte ein JSON-Objekt mit Ihrer bevorzugten Sprache im `language`-Schlüssel zurückgeben.
 
 ```js
   const response = await fetch(code + '/api/whoami');
@@ -47,7 +47,7 @@ A request to `/api/whoami` should return a JSON object with your preferred langu
   assert(data.language && data.language.length > 0);
 ```
 
-A request to `/api/whoami` should return a JSON object with your software in the `software` key.
+Eine Anfrage an `/api/whoami` sollte ein JSON-Objekt mit Ihrer Software im `software`-Schlüssel zurückgeben.
 
 ```js
   const response = await fetch(code + '/api/whoami');

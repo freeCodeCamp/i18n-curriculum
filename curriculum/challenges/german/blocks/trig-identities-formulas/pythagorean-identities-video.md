@@ -1,6 +1,6 @@
 ---
 id: 699e782a8f18cf77dfce5c19
-title: Pythagorean Identities
+title: Pythagoreische Identitäten
 challengeType: 11
 videoId: C1i_FlxW_uE
 dashedName: pythagorean-identities
@@ -8,13 +8,13 @@ dashedName: pythagorean-identities
 
 # --description--
 
-In this video, you will learn about the Pythagorean identities.
+In diesem Video lernen Sie die pythagoreischen Identitäten kennen.
 
 # --questions--
 
 ## --text--
 
-Which of the following is an example of a Pythagorean identity?
+Welche der folgenden Gleichungen ist ein Beispiel für eine pythagoreische Identität?
 
 ## --answers--
 

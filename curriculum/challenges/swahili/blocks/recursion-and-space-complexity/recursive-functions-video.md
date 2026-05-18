@@ -1,6 +1,6 @@
 ---
 id: 698dcf297932b3cc4b19c929
-title: Recursive Functions
+title: Kitendakazi za kurudia
 challengeType: 11
 videoId: nRK4wRqKe1k
 dashedName: recursive-functions
@@ -8,29 +8,29 @@ dashedName: recursive-functions
 
 # --description--
 
-In this video, you will learn about recursion.
+Katika video hii, utafundishwa kuhusu kurudia (recursion).
 
 # --questions--
 
 ## --text--
 
-What is an important aspect that all recursive functions should have?
+Ni kipengele gani muhimu ambacho vitendakazi vyote vya kurudia vinapaswa kuwa navyo?
 
 ## --answers--
 
-They must run in a loop indefinitely.
+Vinapaswa kuendesha mzunguko usio na kikomo.
 
 ---
 
-They must not use any variables.
+Havipaswi kutumia vigezo vyovyote.
 
 ---
 
-A base case.
+Kesi ya msingi.
 
 ---
 
-They must always print output.
+Vinapaswa kila mara kuchapisha matokeo.
 
 ## --video-solution--
 

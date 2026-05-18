@@ -7,9 +7,9 @@ dashedName: step-23
 
 # --description--
 
-The `li` element is used to create a list item in an ordered or unordered list.
+Das `li`-Element wird verwendet, um ein Listenelement in einer geordneten oder ungeordneten Liste zu erstellen.
 
-Here is an example of list items in an unordered list:
+Hier ist ein Beispiel für Listenelemente in einer ungeordneten Liste:
 
 ```html
 <ul>
@@ -18,24 +18,24 @@ Here is an example of list items in an unordered list:
 </ul>
 ```
 
-Within the `ul` element nest three list items to display three things cats love:
+Verschachteln Sie innerhalb des `ul`-Elements drei Listenelemente, um drei Dinge anzuzeigen, die Katzen lieben:
 
 `catnip`
 
 `laser pointers`
 
-`lasagna`
+`lasagna` 
 
 # --hints--
 
-You should have three `li` elements. Each `li` element should have its own opening and closing tag.
+Sie sollten drei `li`-Elemente haben. Jedes `li`-Element sollte sein eigenes öffnendes und schließendes Tag haben.
 
 ```js
 assert.lengthOf(document.querySelectorAll('li'), 3);
 assert.lengthOf(code.match(/<\/li\>/g), 3);
 ```
 
-You should have three `li` elements with the text `catnip`, `laser pointers` and `lasagna` in any order. You have either omitted some text or have a typo.
+Sie sollten drei `li`-Elemente mit dem Text `catnip`, `laser pointers` und `lasagna` in beliebiger Reihenfolge haben. Sie haben entweder Text ausgelassen oder einen Tippfehler.
 
 ```js
 assert.deepStrictEqual(
@@ -46,7 +46,7 @@ assert.deepStrictEqual(
 );
 ```
 
-The three `li` elements should be located between the `ul` element's opening and closing tags.
+Die drei `li`-Elemente sollten sich zwischen den öffnenden und schließenden Tags des `ul`-Elements befinden.
 
 ```js
 assert.lengthOf(
@@ -76,7 +76,7 @@ assert.lengthOf(
         <h3>Things cats love:</h3>
         <ul>
 --fcc-editable-region--
-
+          
 --fcc-editable-region--
         </ul>
       </section>

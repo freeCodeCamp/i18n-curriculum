@@ -1,42 +1,42 @@
 ---
 id: 691f7773cddba1caf1bf5eca
-title: "Challenge 131: Pairwise"
+title: "Aufgabe 131: Paare bilden"
 challengeType: 28
 dashedName: challenge-131
 ---
 
 # --description--
 
-Given an array of integers and a target number, find all pairs of elements in the array whose values add up to the target and return the sum of their indices.
+Gegeben ist ein Array aus ganzen Zahlen und eine Zielzahl. Finden Sie alle Paare von Elementen im Array, deren Werte zusammen die Zielzahl ergeben, und geben Sie die Summe ihrer Indizes zurück.
 
-For example, given `[2, 3, 4, 6, 8]` and `10`, you will find two valid pairs:
+Zum Beispiel finden Sie bei `[2, 3, 4, 6, 8]` und `10` zwei gültige Paare:
 
-- `2` and `8` (2 + 8 = 10), whose indices are `0` and `4`
-- `4` and `6` (4 + 6 = 10), whose indices are `2` and `3`
+- `2` und `8` (2 + 8 = 10), deren Indizes `0` und `4` sind
+- `4` und `6` (4 + 6 = 10), deren Indizes `2` und `3` sind
 
-Add all the indices together to get a return value of `9`.
+Addieren Sie alle Indizes, um einen Rückgabewert von `9` zu erhalten.
 
 # --hints--
 
-`pairwise([2, 3, 4, 6, 8], 10)` should return `9`.
+`pairwise([2, 3, 4, 6, 8], 10)` sollte `9` zurückgeben.
 
 ```js
 assert.equal(pairwise([2, 3, 4, 6, 8], 10), 9);
 ```
 
-`pairwise([4, 1, 5, 2, 6, 3], 7)` should return `15`.
+`pairwise([4, 1, 5, 2, 6, 3], 7)` sollte `15` zurückgeben.
 
 ```js
 assert.equal(pairwise([4, 1, 5, 2, 6, 3], 7), 15);
 ```
 
-`pairwise([-30, -15, 5, 10, 15, -5, 20, -40], -20)` should return `22`.
+`pairwise([-30, -15, 5, 10, 15, -5, 20, -40], -20)` sollte `22` zurückgeben.
 
 ```js
 assert.equal(pairwise([-30, -15, 5, 10, 15, -5, 20, -40], -20), 22);
 ```
 
-`pairwise([7, 9, 13, 19, 21, 6, 3, 1, 4, 8, 12, 22], 24)` should return `10`.
+`pairwise([7, 9, 13, 19, 21, 6, 3, 1, 4, 8, 12, 22], 24)` sollte `10` zurückgeben.
 
 ```js
 assert.equal(pairwise([7, 9, 13, 19, 21, 6, 3, 1, 4, 8, 12, 22], 24), 10);

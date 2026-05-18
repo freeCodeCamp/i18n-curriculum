@@ -1,6 +1,6 @@
 ---
 id: 698dbbd47932b3cc4b19c91b
-title: What is an Algorithm?
+title: Algoriti ni nini?
 challengeType: 11
 videoId: FUeqQSciTNI
 dashedName: what-is-an-algorithm
@@ -8,29 +8,29 @@ dashedName: what-is-an-algorithm
 
 # --description--
 
-In this video, you will learn what an algorithm is.
+Katika video hii, utafundishwa algoriti ni nini.
 
 # --questions--
 
 ## --text--
 
-What is an algorithm?
+Algoriti ni nini?
 
 ## --answers--
 
-A special JavaScript framework.
+Mfumo wa kazi maalum wa JavaScript.
 
 ---
 
-A commonly used linter.
+Kipima makosa kinachotumika sana.
 
 ---
 
-A set of steps for completing a task.
+Seti ya hatua za kukamilisha zoezi.
 
 ---
 
-A special type of compiler.
+Aina maalum ya compiler.
 
 ## --video-solution--
 

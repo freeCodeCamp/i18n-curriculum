@@ -1,6 +1,6 @@
 ---
 id: bd7198d8c242eddfaeb5bd13
-title: Show National Contiguity with a Force Directed Graph
+title: Onyesha Ukaribu wa Kitaifa kwa Grafu Inayoongozwa na Nguvu
 challengeType: 3
 forumTopicId: 302367
 dashedName: show-national-contiguity-with-a-force-directed-graph
@@ -8,21 +8,21 @@ dashedName: show-national-contiguity-with-a-force-directed-graph
 
 # --description--
 
-**Objective:** Build an app that is functionally similar to this: <https://codepen.io/freeCodeCamp/full/XWEONRz>.
+**Lengo:** Jenga programu inayofanya kazi kwa njia inayofanana na hii: <https://codepen.io/freeCodeCamp/full/XWEONRz>.
 
-Fulfill the below user stories and get all of the tests to pass. Use whichever libraries or APIs you need. Give it your own personal style.
+Kamilisha hadithi za mtumiaji zilizo hapa chini na upite vipimo vyote. Tumia maktaba au API yoyote unayohitaji. Toa mtindo wako binafsi.
 
-**User Story:** I can see a Force-directed Graph that shows which countries share borders.
+**Hadithi ya mtumiaji:** Naweza kuona grafu inayoongozwa na nguvu inayoonyesha ni nchi zipi zinazoshirikiana mipaka.
 
-**User Story:** I can see each country's flag on its node.
+**Hadithi ya mtumiaji:** Naweza kuona bendera ya kila nchi kwenye nodi yake.
 
-**Hint:** Here's a dataset you can use to build this: <https://raw.githubusercontent.com/DealPete/forceDirected/master/countries.json>
+**Kidokezo:** Hapa kuna seti ya data unayoweza kutumia kujenga hii: <https://raw.githubusercontent.com/DealPete/forceDirected/master/countries.json>
 
-**Hint:** You can create a spritesheet of national flags at <https://www.flag-sprites.com>.
+**Kidokezo:** Unaweza kutengeneza spritesheet ya bendera za kitaifa kwenye <https://www.flag-sprites.com>.
 
-When you are finished, include a link to your project on CodePen and click the "I've completed this challenge" button.
+Ukipomaliza, jumuisha kiungo cha mradi wako kwenye CodePen na bofya kitufe cha "Nimemaliza changamoto hii".
 
-You can get feedback on your project by sharing it on the <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp forum</a>.
+Unaweza kupata maoni kuhusu mradi wako kwa kuushiriki kwenye <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">jukwaa la freeCodeCamp</a>.
 
 # --solutions--
 

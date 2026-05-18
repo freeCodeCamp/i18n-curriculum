@@ -1,6 +1,6 @@
 ---
 id: 699e0342138be64fa313138c
-title: Even and Odd Functions
+title: Gerade und ungerade Funktionen
 challengeType: 11
 videoId: OCGl-6nrCtM
 dashedName: even-and-odd-functions
@@ -8,29 +8,29 @@ dashedName: even-and-odd-functions
 
 # --description--
 
-In this video, you will learn about even and odd functions.
+In diesem Video lernen Sie gerade und ungerade Funktionen kennen.
 
 # --questions--
 
 ## --text--
 
-What makes a graph symmetric with respect to the origin?
+Was macht einen Graphen symmetrisch bezüglich des Ursprungs?
 
 ## --answers--
 
-If it has a 30 degree rotational symmetry about the origin.
+Wenn er eine Rotationssymmetrie von 30 Grad um den Ursprung hat.
 
 ---
 
-If it has a 180 degree rotational symmetry about the origin.
+Wenn er eine Rotationssymmetrie von 180 Grad um den Ursprung hat.
 
 ---
 
-If it has a 90 degree rotational symmetry about the origin.
+Wenn er eine Rotationssymmetrie von 90 Grad um den Ursprung hat.
 
 ---
 
-If it has a 360 degree rotational symmetry about the origin.
+Wenn er eine Rotationssymmetrie von 360 Grad um den Ursprung hat.
 
 ## --video-solution--
 

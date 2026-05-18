@@ -1,6 +1,6 @@
 ---
 id: 678e4878f7df13bbcdbcdee4
-title: Task 54
+title: Zoezi la 54
 challengeType: 22
 dashedName: task-54
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Sikiliza sauti na ukamilishe sentensi ifuatayo.
 
 # --fillInTheBlank--
 
@@ -24,13 +24,13 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This word means that something can be changed or adjusted to meet individual preferences or needs.
+Neno hili lina maana kwamba kitu kinaweza kubadilishwa au kusawazishwa ili kukidhi mapendeleo au mahitaji binafsi.
 
 # --explanation--
 
-`Customizable` refers to something that can be changed or modified to suit different preferences, needs, or requirements. For example:
+`Customizable` linahusu kitu ambacho kinaweza kubadilishwa au kurekebishwa ili kufaa mapendeleo, mahitaji, au masharti tofauti. Kwa mfano:
 
-`The dashboard in this project management tool is customizable, allowing each team to organize their tasks in their preferred way.` - This means that the dashboard can be modified according to each team's needs, helping them organize their work more efficiently.
+`The dashboard in this project management tool is customizable, allowing each team to organize their tasks in their preferred way.` - Hii ina maana kwamba dashibodi inaweza kubadilishwa kulingana na mahitaji ya kila timu, kuwasaidia kupanga kazi zao kwa ufanisi zaidi.
 
 # --scene--
 

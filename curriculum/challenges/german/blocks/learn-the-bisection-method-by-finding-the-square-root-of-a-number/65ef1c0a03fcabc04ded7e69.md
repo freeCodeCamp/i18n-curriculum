@@ -7,44 +7,44 @@ dashedName: step-12
 
 # --description--
 
-Inside the for loop, calculate the midpoint of the interval ranging from `low` to `high`. Assign this value to a variable `mid`.
+Berechnen Sie innerhalb der for-Schleife den Mittelpunkt des Intervalls von `low` bis `high`. Weisen Sie diesen Wert einer Variablen `mid` zu.
 
-Also, calculate the square of the midpoint (`mid`) and store it in the variable `square_mid`.
-
+Berechnen Sie außerdem das Quadrat des Mittelpunkts (`mid`) und speichern Sie es in der Variablen `square_mid`.
+    
 # --hints--
 
-You should remove the `pass` keyword.
+Sie sollten das Schlüsselwort `pass` entfernen.
 
 ```js
 ({
     test: () => 
     {
         assert.isFalse(runPython(`_Node(_code).find_function("square_root_bisection").find_ifs()[1].find_bodies()[2].find_for_loops()[0].find_bodies()[0].has_pass()`))
-
+        
     }
 
 })
 
 ```
 
-You should declare a variable `mid` and assign it `(low + high) / 2` inside the body of the `for` loop.
+Sie sollten eine Variable `mid` deklarieren und ihr innerhalb des Körpers der `(low + high) / 2`-Schleife `for` zuweisen.
 
 ```js
 ({
     test: () => 
     {
         assert(runPython(`
-    node = _Node(_code).find_function("square_root_bisection").find_ifs()[1].find_bodies()[2].find_for_loops()[0].find_bodies()[0].find_variable("mid")
-    values = ["mid = (low + high) / 2", "mid = (high + low) / 2"]
-    any(node.is_equivalent(val) for val in values)
-    `))
-
+	node = _Node(_code).find_function("square_root_bisection").find_ifs()[1].find_bodies()[2].find_for_loops()[0].find_bodies()[0].find_variable("mid")
+	values = ["mid = (low + high) / 2", "mid = (high + low) / 2"]
+	any(node.is_equivalent(val) for val in values)
+	`))
+        
     }
 
 })
 ```
 
-You should declare a variable `square_mid` and assign it `mid**2` inside the body of the for loop.
+Sie sollten eine Variable `square_mid` deklarieren und ihr innerhalb des Körpers der for-Schleife `mid**2` zuweisen.
 
 ```js
 ({ test: () => assert(runPython(`_Node(_code).find_function("square_root_bisection").find_ifs()[1].find_bodies()[2].find_for_loops()[0].find_bodies()[0].find_variable("square_mid").is_equivalent("square_mid = mid**2")`)) })
@@ -69,7 +69,7 @@ def square_root_bisection(square_target, tolerance=1e-7, max_iterations=100):
         low = 0
         high = max(1, square_target)
         root = None
-
+        
 --fcc-editable-region--
         for _ in range(max_iterations):
             pass

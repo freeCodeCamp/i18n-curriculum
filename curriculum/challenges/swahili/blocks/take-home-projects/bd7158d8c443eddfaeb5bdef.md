@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c443eddfaeb5bdef
-title: Build a Voting App
+title: Tengeneza programu ya kupigia kura
 challengeType: 4
 forumTopicId: 302359
 dashedName: build-a-voting-app
@@ -8,27 +8,27 @@ dashedName: build-a-voting-app
 
 # --description--
 
-Build a full-stack JavaScript app that is functionally similar to this: <a href="https://voting-app.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://voting-app.freecodecamp.rocks/</a>. Use a site builder of your choice to complete the project.
+Tengeneza programu ya JavaScript ya full-stack ambayo inaendeshwa kwa njia inayofanana na hii: <a href="https://voting-app.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://voting-app.freecodecamp.rocks/</a>. Tumia kivinjari cha tovuti unachotaka kukamilisha mradi huu.
 
-Here are the specific user stories you should implement for this project:
+Hapa kuna hadithi za mtumiaji maalum unazopaswa kutekeleza kwa mradi huu:
 
-**User Story:** As an authenticated user, you can keep my polls and come back later to access them.
+**Hadithi ya mtumiaji:** Kama mtumiaji aliye imethibitishwa, unaweza kuhifadhi kura zangu na kurudi baadaye kupata upatikanaji wake.
 
-**User Story:** As an authenticated user, you can share my polls with my friends.
+**Hadithi ya mtumiaji:** Kama mtumiaji aliye imethibitishwa, unaweza kushiriki kura zangu na marafiki zangu.
 
-**User Story:** As an authenticated user, you can see the aggregate results of my polls.
+**Hadithi ya mtumiaji:** Kama mtumiaji aliye imethibitishwa, unaweza kuona matokeo ya jumla ya kura zangu.
 
-**User Story:** As an authenticated user, you can delete polls that I decide I don't want anymore.
+**Hadithi ya mtumiaji:** Kama mtumiaji aliye imethibitishwa, unaweza futa kura ambazo nimeamua sitaki tena.
 
-**User Story:** As an authenticated user, you can create a poll with any number of possible items.
+**Hadithi ya mtumiaji:** Kama mtumiaji aliye imethibitishwa, unaweza tengeneza kura yenye idadi yoyote ya vitu vinavyowezekana.
 
-**User Story:** As an unauthenticated or authenticated user, you can see and vote on everyone's polls.
+**Hadithi ya mtumiaji:** Kama mtumiaji asiye imethibitishwa au aliye imethibitishwa, unaweza kuona na kupiga kura kwenye kura za kila mtu.
 
-**User Story:** As an unauthenticated or authenticated user, you can see the results of polls in chart form. (This could be implemented using Chart.js or Google Charts.)
+**Hadithi ya mtumiaji:** Kama mtumiaji asiye imethibitishwa au aliye imethibitishwa, unaweza kuona matokeo ya kura kwa njia ya chati. (Hii inaweza kutekelezwa kwa kutumia Chart.js au Google Charts.)
 
-**User Story:** As an authenticated user, if you don't like the options on a poll, you can create a new option.
+**Hadithi ya mtumiaji:** Kama mtumiaji aliye imethibitishwa, ikiwa hupendi chaguzi kwenye kura, unaweza tengeneza chaguo jipya.
 
-When you are done, make sure a working demo of your project is hosted somewhere public. Then submit the URL to it in the Solution Link field. Optionally, also submit a link to your project's source code in the GitHub Link field.
+Ukipata kazi, hakikisha kuna onyesho linalofanya kazi la mradi wako limehifadhiwa mahali pa umma. Kisha wasilisha URL yake kwenye sehemu ya Kiungo cha Suluhisho. Kwa hiari, pia wasilisha kiungo cha msimbo wa chanzo wa mradi wako kwenye sehemu ya Kiungo cha GitHub.
 
 # --solutions--
 

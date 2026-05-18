@@ -1,6 +1,6 @@
 ---
 id: 66b56cb9ff3bfb183fa1b7db
-title: Task 83
+title: Zoezi la 83
 challengeType: 22
 dashedName: task-83
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio to complete the sentence below.
+Sikiliza sauti ili ukamilishe sentensi ifuatayo.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio to complete the sentence below.
 
 ### --feedback--
 
-This word is used to specify the module that is currently being discussed.
+Neno hili hutumika kubainisha moduli inayojadiliwa kwa sasa.
 
 ---
 
@@ -32,7 +32,7 @@ This word is used to specify the module that is currently being discussed.
 
 ### --feedback--
 
-Something recent.
+Kitu kilichotokea hivi karibuni.
 
 ---
 
@@ -40,15 +40,15 @@ Something recent.
 
 ### --feedback--
 
-A specific part or section of the training program.
+Sehemu maalum au sehemu ya mpango wa mafunzo.
 
 # --explanation--
 
-`Module` refers to a unit or section of a course or training program. For example:
+`Module` inarejelea kitengo au sehemu ya kozi au mpango wa mafunzo. Kwa mfano:
 
-- `The new module on cybersecurity will be added next week.` - Here, `module` refers to a specific part of the training focused on cybersecurity.
+- `The new module on cybersecurity will be added next week.` - Hapa, `module` inarejelea sehemu maalum ya mafunzo inayolenga usalama wa mtandao.
 
-Pay attention to how the words `this`, `new`, and `module` are used. `This` is used to specify the module they are talking about, `new` shows that it's a recent addition, and `module` refers to a section of the training.
+Lipa makini jinsi maneno `this`, `new`, na `module` yanavyotumika. `This` hutumika kubainisha moduli wanayozungumzia, `new` inaonyesha kuwa ni nyongeza ya hivi karibuni, na `module` inarejelea sehemu ya mafunzo.
 
 # --scene--
 

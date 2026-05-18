@@ -10,9 +10,9 @@ lang: en-US
 
 # --description--
 
-`I appreciate it, but...` is used to express gratitude for an offer or gesture while politely declining or stating a personal limitation or preference.
+`I appreciate it, but...` wird verwendet, um Dankbarkeit für ein Angebot oder eine Geste auszudrücken und gleichzeitig höflich abzulehnen oder eine persönliche Einschränkung oder Vorliebe zu nennen.
 
-For example, if your friend offers to help you with coding challenge, and you're thankful but want to try it on your own first, you might say, `I appreciate it, but I want to give it a shot by myself first`.
+Wenn Ihnen zum Beispiel ein Freund anbietet, Ihnen bei einer Programmieraufgabe zu helfen, und Sie dankbar sind, aber zuerst selbst versuchen möchten, könnten Sie `I appreciate it, but I want to give it a shot by myself first` sagen.
 
 # --fillInTheBlank--
 
@@ -26,7 +26,7 @@ For example, if your friend offers to help you with coding challenge, and you're
 
 ### --feedback--
 
-This word is often used to show thankfulness or gratitude.
+Dieses Wort wird oft verwendet, um Dankbarkeit oder Anerkennung zu zeigen.
 
 ---
 
@@ -34,7 +34,7 @@ This word is often used to show thankfulness or gratitude.
 
 ### --feedback--
 
-This word is used to introduce a phrase or clause contrasting with what has already been mentioned.
+Dieses Wort wird verwendet, um eine Phrase oder Klausel einzuleiten, die im Gegensatz zu dem steht, was bereits erwähnt wurde.
 
 # --scene--
 

@@ -1,30 +1,30 @@
 ---
 id: 67fe85a3db9bad35f2b6a2bd
-title: How Do Conditional Statements and Logical Operators Work?
+title: Wie funktionieren bedingte Anweisungen und logische Operatoren?
 challengeType: 19
 dashedName: how-do-conditional-statements-and-logical-operators-work
 ---
 
 # --description--
 
-Conditional statements, or conditionals, let you control the flow of your program based on whether certain conditions are true or false.
+Bedingte Anweisungen, oder Konditionale, ermöglichen es Ihnen, den Ablauf Ihres Programms basierend darauf zu steuern, ob bestimmte Bedingungen wahr oder falsch sind.
 
-But before we get into all that, let's go over the basic building blocks of conditional statements, starting with comparison operators. Comparison operators are operators that let you compare two or more values, and return a boolean value.
+Bevor wir jedoch darauf eingehen, sehen wir uns die grundlegenden Bausteine bedingter Anweisungen an, beginnend mit Vergleichsoperatoren. Vergleichsoperatoren sind Operatoren, mit denen Sie zwei oder mehr Werte vergleichen und einen Boolean-Wert zurückgeben können.
 
-In a previous lesson, you learned that booleans are one of the data types in Python, and can only be `True` or `False`.
+In einer vorherigen Lektion haben Sie gelernt, dass Booleans einer der Datentypen in Python sind und nur `True` oder `False` sein können.
 
-Here's a table with the comparison operators in Python:
+Hier ist eine Tabelle mit den Vergleichsoperatoren in Python:
 
-| Operator | Name                  | Description                                                                        |
-| -------- | --------------------- | ---------------------------------------------------------------------------------- |
-| `==`     | Equal                 | Checks if two values are equal                                                     |
-| `!=`     | Not equal             | Checks if two values are not equal                                                 |
-| `>`   | Greater than          | Checks if the value on the left is greater than the value on the right             |
-| `<`   | Less than             | Checks if the value on the left is less than the value on the right                |
-| `>=`  | Greater than or equal | Checks if the value on the left is greater than or equal to the value on the right |
-| `<=`  | Less than or equal    | Checks if the value on the left is less than or equal to the value on the right    |
+| Operator | Name | Beschreibung |
+| --- | --- | --- |
+| `==` | Gleich | Prüft, ob zwei Werte gleich sind |
+| `!=` | Ungleich | Prüft, ob zwei Werte ungleich sind |
+| `>` | Größer als | Prüft, ob der Wert links größer ist als der Wert rechts |
+| `<` | Kleiner als | Prüft, ob der Wert links kleiner ist als der Wert rechts |
+| `>=` | Größer oder gleich | Prüft, ob der Wert links größer oder gleich dem Wert rechts ist |
+| `<=` | Kleiner oder gleich | Prüft, ob der Wert links kleiner oder gleich dem Wert rechts ist |
 
-Here are some of those expressions that evaluate to `True` or `False`:
+Hier sind einige dieser Ausdrücke, die zu `True` oder `False` ausgewertet werden:
 
 ```python
 print(3 > 4) # False
@@ -36,24 +36,24 @@ print(3 >= 4) # False
 print(3 <= 4) # True
 ```
 
-These operators can be used in conditionals to compare values and run certain code based on whether the conditional evaluates to `True` or `False`.
+Diese Operatoren können in Konditionalen verwendet werden, um Werte zu vergleichen und bestimmten Code auszuführen, je nachdem, ob die Bedingung zu `True` oder `False` ausgewertet wird.
 
-In Python, the most basic conditional is the `if` statement. Here's the basic syntax:
+In Python ist die grundlegendste bedingte Anweisung die `if`-Anweisung. Hier ist die grundlegende Syntax:
 
 ```python
 if condition:
     pass # Code to execute if condition is True
 ```
 
-* `if` statements start with the `if` keyword.
+* `if`-Anweisungen beginnen mit dem Schlüsselwort `if`.
+    
+* `condition` ist ein Ausdruck, der zu `True` oder `False` ausgewertet wird, gefolgt von einem Doppelpunkt (`:`).
 
-* `condition` is an expression that evaluates to `True` or `False`, followed by a colon (`:`).
+* Der Körper der `if`-Anweisung bildet einen <dfn>Codeblock</dfn>, eine Gruppe von Anweisungen, die zusammengehören. In Python definiert die Einrückungsebene einen Codeblock.
+    
+Im obigen Beispiel enthält der Körper der `if`-Anweisung eine `pass`-Anweisung. Wenn eine `pass`-Anweisung ausgeführt wird, passiert nichts. Dies ist ein spezielles Schlüsselwort, das als Platzhalter für zukünftigen Code verwendet werden kann und nützlich ist, wenn leere Codeblöcke nicht erlaubt sind.
 
-* The body of the `if` statement constitutes a <dfn>code block</dfn>, which is a group of statements that belong together. In Python, the level of indentation is what defines a code block.
-
-In the example above, the body of the `if` statement contains a `pass` statement. When a `pass` statement is executed, nothing happens. This is a special keyword that can be used as a placeholder for future code and it is useful when empty code blocks are not allowed.
-
-The code within the body of the `if` statement runs only when the condition evaluates to `True`. For example:
+Der Code im Körper der `if`-Anweisung wird nur ausgeführt, wenn die Bedingung zu `True` ausgewertet wird. Zum Beispiel:
 
 ```python
 age = 18
@@ -62,9 +62,9 @@ if age >= 18:
     print('You are an adult') # You are an adult
 ```
 
-Notice the indentation before `print('You are an adult')`. While other programming languages use characters like curly braces to define code blocks, and just use indentation for readability, in Python, code blocks are determined by indentation.
+Beachten Sie die Einrückung vor `print('You are an adult')`. Während andere Programmiersprachen Zeichen wie geschweifte Klammern verwenden, um Codeblöcke zu definieren, und Einrückungen nur zur Lesbarkeit nutzen, werden in Python Codeblöcke durch Einrückung bestimmt.
 
-The following code would raise an `IndentationError`, which is Python's way to signal that indentation is required at a certain point of the code:
+Der folgende Code würde einen `IndentationError` auslösen, was in Python bedeutet, dass an einer bestimmten Stelle im Code eine Einrückung erforderlich ist:
 
 ```py
 age = 18
@@ -73,11 +73,11 @@ if age >= 18:
 print('You are an adult') # IndentationError: expected an indented block after 'if' statement on line 3
 ```
 
-Though you can use any number spaces (as long as you are consistent) to determine each level of indentation, the Python style guide recommends using four spaces.
+Obwohl Sie jede Anzahl von Leerzeichen (solange Sie konsistent sind) zur Bestimmung jeder Einrückungsebene verwenden können, empfiehlt der Python-Stil-Guide die Verwendung von vier Leerzeichen.
 
-Blocks are also found in loops and functions, which you'll learn about in future lessons.
+Blöcke finden sich auch in Schleifen und Funktionen, die Sie in zukünftigen Lektionen kennenlernen werden.
 
-Going back to our example, if `age` is anything less than `18`, nothing is printed in the terminal:
+Zurück zu unserem Beispiel: Wenn `age` kleiner als `18` ist, wird nichts im Terminal ausgegeben:
 
 ```python
 age = 12
@@ -86,7 +86,7 @@ if age >= 18:
     print('You are an adult') # Nothing shows up in the terminal
 ```
 
-But what if you also want to print something if `age` is less than `18`? That's where the `else` clause comes in. The `else` clause runs when the `if` condition is false. Here's the syntax for an `if…else` statement:
+Aber was, wenn Sie auch etwas ausgeben möchten, wenn `age` kleiner als `18` ist? Hier kommt die `else`-Klausel ins Spiel. Die `else`-Klausel wird ausgeführt, wenn die `if`-Bedingung falsch ist. Hier ist die Syntax für eine `if…else`-Anweisung:
 
 ```python
 if condition:
@@ -95,7 +95,7 @@ else:
    pass # Code to execute if condition is False
 ```
 
-For example:
+Zum Beispiel:
 
 ```python
 age = 12
@@ -106,7 +106,7 @@ else:
     print('You are not an adult yet') # You are not an adult yet
 ```
 
-Note that you cannot place any statements between the `if` block and the `else` clause. The following code would raise a `SyntaxError`:
+Beachten Sie, dass Sie keine Anweisungen zwischen dem `if`-Block und der `else`-Klausel platzieren können. Der folgende Code würde einen `SyntaxError` auslösen:
 
 ```python
 age = 12
@@ -118,9 +118,9 @@ else: # SyntaxError: invalid syntax
     print('You are not an adult yet')
 ```
 
-There might be situations in which you want to account for multiple conditions. To do that, Python lets you extend your if statement with the `elif` (else if) keyword.
+Es kann Situationen geben, in denen Sie mehrere Bedingungen berücksichtigen möchten. Dafür erlaubt Python, Ihre if-Anweisung mit dem Schlüsselwort `elif` (else if) zu erweitern.
 
-Here's the syntax:
+Hier ist die Syntax:
 
 ```python
 if condition1:
@@ -131,7 +131,7 @@ else:
    pass # Code to execute if all conditions are False
 ```
 
-For example:
+Zum Beispiel:
 
 ```python
 age = 12
@@ -144,7 +144,7 @@ else:
     print('You are a child') # You are a child
 ```
 
-Note that you can use as many `elif` clauses as you want:
+Beachten Sie, dass Sie beliebig viele `elif`-Klauseln verwenden können:
 
 ```python
 age = 2
@@ -163,41 +163,41 @@ else:
     print('You are a toddler or an infant') # You are a toddler or an infant
 ```
 
-Now that you understand how comparison operators and conditional statements work in Python, you can start writing programs that make decisions based on logic and input. Whether you’re comparing values or branching through multiple conditions, these tools are the foundation to writing flexible, responsive code.
+Jetzt, da Sie verstanden haben, wie Vergleichsoperatoren und bedingte Anweisungen in Python funktionieren, können Sie Programme schreiben, die Entscheidungen basierend auf Logik und Eingaben treffen. Ob Sie Werte vergleichen oder durch mehrere Bedingungen verzweigen – diese Werkzeuge sind die Grundlage für das Schreiben flexibler, responsiver Programme.
 
 # --questions--
 
 ## --text--
 
-What do comparison operators do?
+Was machen Vergleichsoperatoren?
 
 ## --answers--
 
-Perform mathematical calculations with boolean values
+Führen mathematische Berechnungen mit Boolean-Werten durch
 
 ### --feedback--
 
-These operators check things like equality or which value is greater, and the result is either `True` or `False`.
+Diese Operatoren prüfen Dinge wie Gleichheit oder welcher Wert größer ist, und das Ergebnis ist entweder `True` oder `False`.
 
 ---
 
-Convert strings to boolean values.
+Konvertieren Strings in Boolean-Werte.
 
 ### --feedback--
 
-These operators check things like equality or which value is greater, and the result is either `True` or `False`.
+Diese Operatoren prüfen Dinge wie Gleichheit oder welcher Wert größer ist, und das Ergebnis ist entweder `True` oder `False`.
 
 ---
 
-Compare two values and return a boolean value.
+Vergleichen zwei Werte und geben einen Boolean-Wert zurück.
 
 ---
 
-Create loops and iterations.
+Erstellen Schleifen und Iterationen.
 
 ### --feedback--
 
-These operators check things like equality or which value is greater, and the result is either `True` or `False`.
+Diese Operatoren prüfen Dinge wie Gleichheit oder welcher Wert größer ist, und das Ergebnis ist entweder `True` oder `False`.
 
 ## --video-solution--
 
@@ -205,7 +205,7 @@ These operators check things like equality or which value is greater, and the re
 
 ## --text--
 
-What will be the result for the following code?
+Was wird das Ergebnis für den folgenden Code sein?
 
 ```python
 age = 12
@@ -220,31 +220,31 @@ else:
 
 ## --answers--
 
-`You are an adult` will be printed to the console.
+`You are an adult` wird in der Konsole ausgegeben.
 
 ### --feedback--
 
-Review the last part of the lesson for the correct answer.
+Überprüfen Sie den letzten Teil der Lektion für die richtige Antwort.
 
 ---
 
-`You are a teenager` will be printed to the console.
+`You are a teenager` wird in der Konsole ausgegeben.
 
 ### --feedback--
 
-Review the last part of the lesson for the correct answer.
+Überprüfen Sie den letzten Teil der Lektion für die richtige Antwort.
 
 ---
 
-`You are a child` will be printed to the console.
+`You are a child` wird in der Konsole ausgegeben.
 
 ---
 
-An error will be printed to the console.
+Ein Fehler wird in der Konsole ausgegeben.
 
 ### --feedback--
 
-Review the last part of the lesson for the correct answer.
+Überprüfen Sie den letzten Teil der Lektion für die richtige Antwort.
 
 ## --video-solution--
 
@@ -252,7 +252,7 @@ Review the last part of the lesson for the correct answer.
 
 ## --text--
 
-What will the expression `3 >= 4` evaluate to?
+Was wird der Ausdruck `3 >= 4` auswerten?
 
 ## --answers--
 
@@ -260,7 +260,7 @@ What will the expression `3 >= 4` evaluate to?
 
 ### --feedback--
 
-3 is not greater than or equal to 4.
+3 ist nicht größer oder gleich 4.
 
 ---
 
@@ -268,7 +268,7 @@ What will the expression `3 >= 4` evaluate to?
 
 ### --feedback--
 
-3 is not greater than or equal to 4.
+3 ist nicht größer oder gleich 4.
 
 ---
 
@@ -276,7 +276,7 @@ What will the expression `3 >= 4` evaluate to?
 
 ### --feedback--
 
-3 is not greater than or equal to 4.
+3 ist nicht größer oder gleich 4.
 
 ---
 

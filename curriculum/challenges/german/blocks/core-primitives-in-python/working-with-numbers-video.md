@@ -1,6 +1,6 @@
 ---
 id: 8ad37ddb7a23050f71cc9cc9
-title: Working with Numbers
+title: Arbeiten mit Zahlen
 challengeType: 11
 videoId: C7sxe5GAArQ
 dashedName: working-with-numbers
@@ -8,13 +8,13 @@ dashedName: working-with-numbers
 
 # --description--
 
-In this video, you will learn how to work with basic arithmetic operations and built-in number functions.
+In diesem Video lernen Sie, wie Sie mit grundlegenden arithmetischen Operationen und eingebauten Zahlenfunktionen arbeiten.
 
 # --questions--
 
 ## --text--
 
-Which of the following built-in functions is used to return the base number raised to a power?
+Welche der folgenden eingebauten Funktionen wird verwendet, um eine Basiszahl potenziert zurückzugeben?
 
 ## --answers--
 

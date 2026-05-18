@@ -1,6 +1,6 @@
 ---
 id: 69ae6fd0b4a814be6a4f2be0
-title: RAG Architecture
+title: RAG-Architektur
 challengeType: 11
 videoId: OVn_ykvG4LE
 dashedName: rag-architecture
@@ -8,13 +8,13 @@ dashedName: rag-architecture
 
 # --description--
 
-In this video, you will learn about the architecture of a RAG system.
+In diesem Video lernen Sie die Architektur eines RAG-Systems kennen.
 
 # --questions--
 
 ## --text--
 
-Which of the following is the correct pipeline flow for a RAG system?
+Welche der folgenden Reihenfolgen beschreibt den korrekten Ablauf einer Pipeline für ein RAG-System?
 
 ## --answers--
 

@@ -1,6 +1,6 @@
 ---
 id: 698dd14c7932b3cc4b19c92c
-title: Introduction to Data Structures
+title: Einführung in Datenstrukturen
 challengeType: 11
 videoId: QIZSbUquPdY
 dashedName: introduction-to-data-structures
@@ -8,29 +8,29 @@ dashedName: introduction-to-data-structures
 
 # --description--
 
-In this video, Treehouse instructor Pasan will talk about what to expect in the data structures portion of this course.
+In diesem Video erklärt der Treehouse-Lehrende Pasan, was Sie im Abschnitt über Datenstrukturen dieses Kurses erwartet.
 
 # --questions--
 
 ## --text--
 
-What are the four common operations that will be studied when working with data structures?
+Was sind die vier häufigsten Operationen, die beim Arbeiten mit Datenstrukturen untersucht werden?
 
 ## --answers--
 
-Accessing values, deleting values, traversing, and sorting.
+Auf Werte zugreifen, Werte löschen, durchlaufen und sortieren.
 
 ---
 
-Accessing values, searching, inserting values, and deleting values.
+Auf Werte zugreifen, suchen, Werte einfügen und löschen.
 
 ---
 
-Searching, merging, splitting, and iterating values.
+Suchen, zusammenführen, aufteilen und Werte iterieren.
 
 ---
 
-Inserting values, updating values, printing values, and counting elements.
+Werte einfügen, Werte aktualisieren, Werte ausgeben und Elemente zählen.
 
 ## --video-solution--
 

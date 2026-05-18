@@ -1,6 +1,6 @@
 ---
 id: 679d3cfdaca2eb81f8d81cf7
-title: Task 97
+title: Zoezi la 97
 challengeType: 19
 dashedName: task-97
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Sikiliza sauti na jibu swali lililopo hapa chini.
 
 # --questions--
 
 ## --text--
 
-What is Maria asking James to do?
+Maria anamuomba James afanye nini?
 
 ## --answers--
 
-To fix the problem immediately.
+Kurekebisha tatizo mara moja.
 
 ### --feedback--
 
-Maria is not asking James to fix the issue right away.
+Maria haumuombi James kurekebisha tatizo mara moja.
 
 ---
 
-To report the issue to the client.
+Kuripoti tatizo kwa mteja.
 
 ### --feedback--
 
-Maria does not mention informing the client.
+Maria hakutaja kumjulisha mteja.
 
 ---
 
-To investigate the problem.
+Kuchunguza tatizo.
 
 ---
 
-To ignore the problem for now.
+Kupuuzia tatizo kwa sasa.
 
 ### --feedback--
 
-Maria is not asking James to ignore the issue.
+Maria haumuombi James kupuuza tatizo.
 
 ## --video-solution--
 
@@ -52,11 +52,11 @@ Maria is not asking James to ignore the issue.
 
 # --explanation--
 
-`Can` is commonly used to make polite requests, asking someone to do something in an informal way. For example:
+`Can` hutumika sana kuomba kwa heshima, kuomba mtu afanye jambo kwa njia isiyo rasmi. Kwa mfano:
 
-`Can you send me the report by noon?` - This is a polite way to ask someone to send a report.
+`Can you send me the report by noon?` - Hii ni njia ya heshima ya kumuomba mtu atume ripoti.
 
-In this dialogue, Maria is requesting James to investigate the problem.
+Katika mazungumzo haya, Maria anamuomba James achunguze tatizo.
 
 # --scene--
 

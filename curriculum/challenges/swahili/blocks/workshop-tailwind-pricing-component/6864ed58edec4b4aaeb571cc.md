@@ -1,19 +1,19 @@
 ---
 id: 6864ed58edec4b4aaeb571cc
-title: Step 17
+title: Hatua 17
 challengeType: 0
 dashedName: step-17
 ---
 
 # --description--
 
-Moving to the inner `div` in the **Listener plan**, give it the classes `grid`, `grid-rows-[auto_auto_auto_1fr]`, and `gap-y-2`.
+Hamishe kwenye `div` ya ndani katika **mpango wa msikilizaji**, mpe madarasa `grid`, `grid-rows-[auto_auto_auto_1fr]`, na `gap-y-2`.
 
-These classes will make the inner `div` a grid container, define four rows that stack on top of each other, with the first three set to `auto` and the last taking up the remaining spaces, and finally add a spacing of `0.5rem` between the rows.
+Madarasa haya yatafanya `div` ya ndani kuwa chombo cha gridi, yaeleze safu nne zinazopangwa juu ya kila moja, ambapo tatu za kwanza zitawekwa kuwa `auto` na ya mwisho kuchukua nafasi zilizobaki, na hatimaye ongeza nafasi ya `0.5rem` kati ya safu hizo.
 
 # --hints--
 
-Your inner `div` element should have the class `grid`.
+Kipengele chako cha `div` cha ndani kinapaswa kuwa na darasa la `grid`.
 
 ```js
 const listenerPlanInnerDiv = document.querySelectorAll("div")[2]
@@ -21,7 +21,7 @@ const listenerPlanInnerDiv = document.querySelectorAll("div")[2]
 assert.isTrue(listenerPlanInnerDiv.classList.contains("grid"))
 ```
 
-Your inner `div` element should have the class `grid-rows-[auto_auto_auto_1fr]`.
+Kipengele chako cha `div` cha ndani kinapaswa kuwa na darasa la `grid-rows-[auto_auto_auto_1fr]`.
 
 ```js
 const listenerPlanInnerDiv = document.querySelectorAll("div")[2]
@@ -29,7 +29,7 @@ const listenerPlanInnerDiv = document.querySelectorAll("div")[2]
 assert.isTrue(listenerPlanInnerDiv.classList.contains("grid-rows-[auto_auto_auto_1fr]"))
 ```
 
-Your inner `div` element should have the class `gap-y-2`.
+Kipengele chako cha `div` cha ndani kinapaswa kuwa na darasa la `gap-y-2`.
 
 ```js
 const listenerPlanInnerDiv = document.querySelectorAll("div")[2]

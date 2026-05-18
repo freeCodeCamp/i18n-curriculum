@@ -1,6 +1,6 @@
 ---
 id: 69399bbb6d7a7bfeedaddd96
-title: Task 13
+title: Aufgabe 13
 challengeType: 22
 dashedName: task-13
 lang: es
@@ -10,17 +10,17 @@ lang: es
 
 # --description--
 
-The verb `escribir` means "to write". When Spanish speakers want to explain how a word is written or spelled, they often use the expression `se escribe`.
+Das Verb `escribir` bedeutet „schreiben“. Wenn spanische Sprecher erklären möchten, wie ein Wort geschrieben oder buchstabiert wird, verwenden sie oft den Ausdruck `se escribe`.
 
-This form comes from the verb `escribir` and is commonly used before spelling names, emails, or other words letter by letter. For example:
+Diese Form stammt vom Verb `escribir` und wird häufig verwendet, bevor man Namen, E-Mails oder andere Wörter Buchstabe für Buchstabe buchstabiert. Zum Beispiel:
 
-- `Carlos se escribe C-a-r-l-o-s.` – Carlos is spelled C-a-r-l-o-s.
+- `Carlos se escribe C-a-r-l-o-s.` – Carlos wird C-a-r-l-o-s buchstabiert.
 
-- `Mi apellido se escribe con z.` – My last name is spelled with z.
+- `Mi apellido se escribe con z.` – Mein Nachname wird mit z buchstabiert.
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Hören Sie sich die Audioaufnahme an und vervollständigen Sie den folgenden Satz.
 
 # --fillInTheBlank--
 
@@ -38,7 +38,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This small word is part of a common expression used when explaining how something is written.
+Dieses kleine Wort ist Teil eines gebräuchlichen Ausdrucks, der verwendet wird, wenn erklärt wird, wie etwas geschrieben wird.
 
 ---
 
@@ -46,13 +46,13 @@ This small word is part of a common expression used when explaining how somethin
 
 ### --feedback--
 
-This verb form comes from `escribir` and is used when spelling a word.
+Diese Verbform stammt von `escribir` und wird beim Buchstabieren eines Wortes verwendet.
 
 # --explanation--
 
-`Se escribe` is used when explaining how a word or name is written.
+`Se escribe` wird verwendet, wenn erklärt wird, wie ein Wort oder Name geschrieben wird.
 
-It comes from the verb `escribir` and is commonly used before spelling something letter by letter.
+Es stammt vom Verb `escribir` und wird häufig verwendet, bevor man etwas Buchstabe für Buchstabe buchstabiert.
 
 # --scene--
 

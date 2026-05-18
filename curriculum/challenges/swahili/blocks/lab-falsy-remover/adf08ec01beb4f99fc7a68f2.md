@@ -1,59 +1,59 @@
 ---
 id: adf08ec01beb4f99fc7a68f2
-title: Implement a Falsy Remover
+title: Tekeleza kitendakazi cha kuondoa thamani za uongo
 challengeType: 26
 dashedName: implement-a-falsy-remover
 ---
 
 # --description--
 
-In this lab you will create a function that removes all falsy values from an array.
+Katika maabara hii utaunda kitendakazi kinachoondoa thamani zote za uongo kutoka kwenye safu ya data.
 
-Falsy values in JavaScript are `false`, `null`, `0`, `""`, `undefined`, and `NaN`.
+Thamani za uongo katika JavaScript ni `false`, `null`, `0`, `""`, `undefined`, na `NaN`.
 
-**Objective**: Fulfill the user stories below and get all the tests to pass to complete the lab.
+**Lengo**: Timiza hadithi za watumizi zilizo hapa chini na upite vipimo vyote ili kumaliza maabara hii.
 
-**User Stories:**
+**Hadithi za watumizi:**
 
-1. You should have a `bouncer` function that takes an array as argument.
-1. The `bouncer` function should return a new array that contains the same elements as the array passed in as argument with the falsy elements removed.
-1. The `bouncer` function should not change the array passed in as an argument.
+1. Unapaswa kuwa na kitendakazi `bouncer` kinachopokea safu ya data kama hoja.
+1. Kitendakazi `bouncer` kinapaswa kurudisha safu mpya yenye vitu sawa na safu iliyotolewa kama hoja lakini thamani za uongo zimetolewa.
+1. Kitendakazi `bouncer` hakipaswi kubadilisha safu iliyotolewa kama hoja.
 
-Hint: Try converting each value to a Boolean.
+Kidokezo: Jaribu kubadilisha kila thamani kuwa Thamani ya kweli au siyo kweli.
 
 # --hints--
 
-You should have a `bouncer` function.
+Unapaswa kuwa na kitendakazi `bouncer`.
 
 ```js
 assert.isFunction(bouncer);
 ```
 
-`bouncer([7, "ate", "", false, 9])` should return `[7, "ate", 9]`.
+`bouncer([7, "ate", "", false, 9])` inapaswa kurudisha `[7, "ate", 9]`.
 
 ```js
 assert.deepEqual(bouncer([7, 'ate', '', false, 9]), [7, 'ate', 9]);
 ```
 
-`bouncer(["a", "b", "c"])` should return `["a", "b", "c"]`.
+`bouncer(["a", "b", "c"])` inapaswa kurudisha `["a", "b", "c"]`.
 
 ```js
 assert.deepEqual(bouncer(['a', 'b', 'c']), ['a', 'b', 'c']);
 ```
 
-`bouncer([false, null, 0, NaN, undefined, ""])` should return `[]`.
+`bouncer([false, null, 0, NaN, undefined, ""])` inapaswa kurudisha `[]`.
 
 ```js
 assert.deepEqual(bouncer([false, null, 0, NaN, undefined, '']), []);
 ```
 
-`bouncer([null, NaN, 1, 2, undefined])` should return `[1, 2]`.
+`bouncer([null, NaN, 1, 2, undefined])` inapaswa kurudisha `[1, 2]`.
 
 ```js
 assert.deepEqual(bouncer([null, NaN, 1, 2, undefined]), [1, 2]);
 ```
 
-The `bouncer` function should not mutate the array passed in as argument.
+Kitendakazi `bouncer` hakipaswi kubadilisha safu iliyotolewa kama hoja.
 
 ```js
 const arr = ['a', false, 0, 'Naomi'];
@@ -61,11 +61,11 @@ bouncer(arr);
 assert.deepEqual(arr, ['a', false, 0, 'Naomi']);
 ```
 
-`bouncer([])` should return `[]`.
+`bouncer([])` inapaswa kurudisha `[]`.  
 
 ```js  
 assert.deepEqual(bouncer([]), []);  
-```
+```  
 
 # --seed--
 

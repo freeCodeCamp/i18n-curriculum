@@ -1,6 +1,6 @@
 ---
 id: 58d5d031e969765037c1bebb
-title: Functions
+title: Funktionen
 challengeType: 11
 videoId: QN3UNoJVS9g
 dashedName: functions
@@ -8,13 +8,13 @@ dashedName: functions
 
 # --description--
 
-In this video, you will learn how to define and call a function.
+In diesem Video lernen Sie, wie Sie eine Funktion definieren und aufrufen.
 
 # --questions--
 
 ## --text--
 
-Which of the following is the correct way to call a function?
+Welche der folgenden Möglichkeiten ist der korrekte Weg, eine Funktion aufzurufen?
 
 ## --answers--
 

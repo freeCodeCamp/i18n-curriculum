@@ -7,27 +7,27 @@ dashedName: challenge-133
 
 # --description--
 
-December 21st is the winter solstice for the northern hemisphere and the summer solstice for the southern hemisphere. That means it's the day with the least daylight in the north and the most daylight in the south.
+Der 21. Dezember ist die Wintersonnenwende auf der Nordhalbkugel und die Sommersonnenwende auf der Südhalbkugel. Das bedeutet, dass es der Tag mit der geringsten Tageslichtdauer im Norden und der längsten Tageslichtdauer im Süden ist.
 
-Given a latitude number from -90 to 90, return a rough approximation of daylight hours on the solstice using the following table:
+Gegeben ist eine Breitengradzahl von -90 bis 90. Geben Sie eine grobe Schätzung der Tageslichtstunden an der Sonnenwende zurück, basierend auf der folgenden Tabelle:
 
-| Latitude | Daylight Hours |
-| -------- | -------------- |
-| -90      | 24             |
-| -75      | 23             |
-| -60      | 21             |
-| -45      | 15             |
-| -30      | 13             |
-| -15      | 12             |
-| 0        | 12             |
-| 15       | 11             |
-| 30       | 10             |
-| 45       | 9              |
-| 60       | 6              |
-| 75       | 2              |
-| 90       | 0              |
+|Breitengrad|Tageslichtstunden|
+|-|-|
+|-90|24|
+|-75|23|
+|-60|21|
+|-45|15|
+|-30|13|
+|-15|12|
+|0|12|
+|15|11|
+|30|10|
+|45|9|
+|60|6|
+|75|2|
+|90|0|
 
-- If the given latitude does not exactly match a table entry, use the value of the closest latitude.
+- Wenn der angegebene Breitengrad nicht genau mit einem Eintrag in der Tabelle übereinstimmt, verwenden Sie den Wert des nächstgelegenen Breitengrads.
 
 # --hints--
 

@@ -1,6 +1,6 @@
 ---
 id: 698de9fa7932b3cc4b19c942
-title: Getting the Run Time of a Program
+title: Laufzeit eines Programms ermitteln
 challengeType: 11
 videoId: mc0l9RHWjT0
 dashedName: getting-the-run-time-of-a-program
@@ -8,13 +8,13 @@ dashedName: getting-the-run-time-of-a-program
 
 # --description--
 
-In this video, you will learn how to measure runtimes for the selection sort algorithm.
+In diesem Video lernen Sie, wie Sie die Laufzeiten des Auswahl-Sortieralgorithmus messen.
 
 # --questions--
 
 ## --text--
 
-What is the unix command the instructor uses to run the program and check the times for the selection sort algorithm?
+Welchen Unix-Befehl verwendet die Lehrkraft, um das Programm auszuführen und die Zeiten für den Auswahl-Sortieralgorithmus zu überprüfen?
 
 ## --answers--
 

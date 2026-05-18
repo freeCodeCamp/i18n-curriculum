@@ -1,6 +1,6 @@
 ---
 id: bd7188d8c242eddfaeb5bd13
-title: Visualize Data with a Heat Map
+title: Onyesha data kwa ramani ya joto
 challengeType: 3
 forumTopicId: 301466
 dashedName: visualize-data-with-a-heat-map
@@ -8,51 +8,51 @@ dashedName: visualize-data-with-a-heat-map
 
 # --description--
 
-**Objective:** Build an app that is functionally similar to this: <a href="https://heat-map.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://heat-map.freecodecamp.rocks</a>.
+**Lengo:** Jenga programu inayofanya kazi kama hii: <a href="https://heat-map.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://heat-map.freecodecamp.rocks</a>.
 
-Fulfill the below user stories and get all of the tests to pass. Use whichever libraries or APIs you need. Give it your own personal style.
+Kamilisha hadithi za mtumiaji zilizo hapa chini na upite vipimo vyote. Tumia maktaba au API yoyote unayohitaji. Toa mtindo wako binafsi.
 
-You can use HTML, JavaScript, CSS, and the D3 svg-based visualization library. Required DOM elements are queried on the moment of each test. If you use a front-end framework (like Vue for example), the test results may be inaccurate for dynamic content. We hope to accommodate them eventually, but these frameworks are not currently supported for D3 projects.
+Unaweza kutumia HTML, JavaScript, CSS, na maktaba ya D3 ya uchoraji wa svg. Vipengele vinavyotakiwa vya DOM vinatafutwa wakati wa kila mtihani. Ikiwa utatumia mfumo wa kazi wa mbele (mfano Vue), matokeo ya mtihani yanaweza kuwa si sahihi kwa maudhui yanayobadilika. Tunatarajia kuunga mkono hivi karibuni, lakini mifumo hii haijaungwa mkono kwa miradi ya D3 kwa sasa.
 
-**User Story #1:** My heat map should have a title with a corresponding `id="title"`.
+**Hadithi ya mtumiaji #1:** Ramani yangu ya joto inapaswa kuwa na kichwa chenye `id="title"` inayolingana.
 
-**User Story #2:** My heat map should have a description with a corresponding `id="description"`.
+**Hadithi ya mtumiaji #2:** Ramani yangu ya joto inapaswa kuwa na maelezo yenye `id="description"` inayolingana.
 
-**User Story #3:** My heat map should have an x-axis with a corresponding `id="x-axis"`.
+**Hadithi ya mtumiaji #3:** Ramani yangu ya joto inapaswa kuwa na mhimili wa x wenye `id="x-axis"` inayolingana.
 
-**User Story #4:** My heat map should have a y-axis with a corresponding `id="y-axis"`.
+**Hadithi ya mtumiaji #4:** Ramani yangu ya joto inapaswa kuwa na mhimili wa y wenye `id="y-axis"` inayolingana.
 
-**User Story #5:** My heat map should have `rect` elements with a `class="cell"` that represent the data.
+**Hadithi ya mtumiaji #5:** Ramani yangu ya joto inapaswa kuwa na vipengele vya `rect` vyenye `class="cell"` vinavyowakilisha data.
 
-**User Story #6:** There should be at least 4 different fill colors used for the cells.
+**Hadithi ya mtumiaji #6:** Inapaswa kuwepo na angalau rangi 4 tofauti za kujaza kwa seli.
 
-**User Story #7:** Each cell will have the properties `data-month`, `data-year`, `data-temp` containing their corresponding `month`, `year`, and `temperature` values.
+**Hadithi ya mtumiaji #7:** Kila seli itakuwa na sifa za `data-month`, `data-year`, `data-temp` zenye thamani zao za `month`, `year`, na `temperature` zinazolingana.
 
-**User Story #8:** The `data-month`, `data-year` of each cell should be within the range of the data.
+**Hadithi ya mtumiaji #8:** `data-month`, `data-year` za kila seli zinapaswa kuwa ndani ya wigo wa data.
 
-**User Story #9:** My heat map should have cells that align with the corresponding month on the y-axis.
+**Hadithi ya mtumiaji #9:** Ramani yangu ya joto inapaswa kuwa na seli zinazolingana na mwezi husika kwenye mhimili wa y.
 
-**User Story #10:** My heat map should have cells that align with the corresponding year on the x-axis.
+**Hadithi ya mtumiaji #10:** Ramani yangu ya joto inapaswa kuwa na seli zinazolingana na mwaka husika kwenye mhimili wa x.
 
-**User Story #11:** My heat map should have multiple tick labels on the y-axis with the full month name.
+**Hadithi ya mtumiaji #11:** Ramani yangu ya joto inapaswa kuwa na lebo nyingi za alama kwenye mhimili wa y zenye majina kamili ya miezi.
 
-**User Story #12:** My heat map should have multiple tick labels on the x-axis with the years between 1754 and 2015.
+**Hadithi ya mtumiaji #12:** Ramani yangu ya joto inapaswa kuwa na lebo nyingi za alama kwenye mhimili wa x zenye miaka kati ya 1754 na 2015.
 
-**User Story #13:** My heat map should have a legend with a corresponding `id="legend"`.
+**Hadithi ya mtumiaji #13:** Ramani yangu ya joto inapaswa kuwa na lebo yenye `id="legend"` inayolingana.
 
-**User Story #14:** My legend should contain `rect` elements.
+**Hadithi ya mtumiaji #14:** Lebo yangu inapaswa kuwa na vipengele vya `rect`.
 
-**User Story #15:** The `rect` elements in the legend should use at least 4 different fill colors.
+**Hadithi ya mtumiaji #15:** Vipengele vya `rect` kwenye lebo vinapaswa kutumia angalau rangi 4 tofauti za kujaza.
 
-**User Story #16:** I can mouse over an area and see a tooltip with a corresponding `id="tooltip"` which displays more information about the area.
+**Hadithi ya mtumiaji #16:** Naweza kupeleka kipanya juu ya eneo na kuona kidokezo cha muda chenye `id="tooltip"` kinachoonyesha taarifa zaidi kuhusu eneo hilo.
 
-**User Story #17:** My tooltip should have a `data-year` property that corresponds to the `data-year` of the active area.
+**Hadithi ya mtumiaji #17:** Kidokezo changu cha muda kinapaswa kuwa na sifa ya `data-year` inayolingana na `data-year` ya eneo linalofanya kazi.
 
-Here is the dataset you will need to complete this project: `https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/global-temperature.json`
+Hapa kuna seti ya data utakayohitaji kukamilisha mradi huu: `https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/global-temperature.json`
 
-You can build your project by <a href='https://codepen.io/pen?template=MJjpwO' target="_blank" rel="noopener noreferrer nofollow">using this CodePen template</a> and clicking `Save` to create your own pen. Or you can use this CDN link to run the tests in any environment you like: `https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js`
+Unaweza kujenga mradi wako kwa <a href='https://codepen.io/pen?template=MJjpwO' target="_blank" rel="noopener noreferrer nofollow">kutumia kiolezo hiki cha CodePen</a> na kubofya `Save` kuunda pen yako mwenyewe. Au unaweza kutumia kiungo hiki cha CDN kuendesha vipimo katika mazingira yoyote unayopendelea: `https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js`
 
-Once you're done, submit the URL to your working project with all its tests passing.
+Ukiisha kumaliza, wasilisha URL ya mradi wako unaofanya kazi na vipimo vyote vikipita.
 
 # --solutions--
 

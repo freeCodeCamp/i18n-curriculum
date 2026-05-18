@@ -1,24 +1,25 @@
 ---
 id: 65c4f3aee69d11dcfdbcfc00
-title: Hatua ya 18
+title: Hatua 18
 challengeType: 20
 dashedName: step-18
 ---
 
 # --description--
 
-Now, inside the `insert` method, you need to call the helper method `_insert()` that we defined earlier. Here, `_insert` has encapsulated the implementation of the insertion logic. This is useful for recursion and for keeping the implementation details hidden from the user.
+Sasa, ndani ya njia ya `insert`, unahitaji kuita njia ya msaada `_insert()` ambayo tuliitekeleza awali.  
+Hapa, `_insert` imejifunga utekelezaji wa mantiki ya kuingiza. Hii ni muhimu kwa ajili ya kurudia na kwa kuweka maelezo ya utekelezaji yakiwa yamefichwa kutoka kwa mtumizi.
 
-Delete `pass` and assign `self._insert(self.root, key)` to `self.root`.
+Futa `pass` na weka thamani ya `self._insert(self.root, key)` kwa `self.root`.
 
-Note that:
+Kumbuka kwamba:
 
-- `self.root` passes the root node of the tree as the first argument. This is the starting point for the insertion process.
-- `key`: passes the `key` value you want to insert as the second argument.
+- `self.root` hupitisha nodi mzizi wa mti kama hoja ya kwanza. Hii ni mwanzo wa mchakato wa kuingiza.
+- `key`: hupitisha thamani ya `key` unayotaka kuingiza kama hoja ya pili.
 
 # --hints--
 
-You should remove the `pass` keyword from the `insert` method.
+Unapaswa kuondoa neno la `pass` kutoka kwenye njia ya `insert`.
 
 ```js
 ({
@@ -33,7 +34,7 @@ You should remove the `pass` keyword from the `insert` method.
 
 ```
 
-You should recursively call the `_insert()` method using `self._insert()`
+Unapaswa kuita njia ya `_insert()` kwa kurudia ukitumia `self._insert()`
 
 ```js
 ({ test: () =>
@@ -46,7 +47,7 @@ You should recursively call the `_insert()` method using `self._insert()`
 })
 ```
 
-You should pass `self.root` and `key` to your `_insert()` call.
+Unapaswa kupitisha `self.root` na `key` kwenye wito wako wa `_insert()`.
 
 ```js
 ({ test: () =>
@@ -59,7 +60,7 @@ You should pass `self.root` and `key` to your `_insert()` call.
 })
 ```
 
-You should assign the return value of your `_insert()` call to `self.root`.
+Unapaswa kuweka thamani ya return ya wito wako wa `_insert()` kwa `self.root`.
 
 ```js
 ({ test: () =>

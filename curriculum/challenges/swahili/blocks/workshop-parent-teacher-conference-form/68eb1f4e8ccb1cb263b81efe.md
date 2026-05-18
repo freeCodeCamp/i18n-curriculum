@@ -1,23 +1,23 @@
 ---
 id: 68eb1f4e8ccb1cb263b81efe
-title: Step 22
+title: Hatua 22
 challengeType: 0
 dashedName: step-22
 ---
 
 # --description--
 
-The description text needs to be a bit larger. Select the element with the class `description` and set its `font-size` to `1.2rem`.
+Maandishi ya maelezo yanahitaji kuwa makubwa kidogo. Chagua kipengele chenye darasa la `description` na weka `font-size` yake kuwa `1.2rem`.
 
 # --hints--
 
-You should target the element with the class `description`.
+Unapaswa kulenga kipengele chenye darasa la `description`.
 
 ```js
 assert.exists(new __helpers.CSSHelp(document).getStyle('.description'));
 ```
 
-Set the `font-size` property to `1.2rem`.
+Weka sifa ya `font-size` kuwa `1.2rem`.
 
 ```js
 const style = new __helpers.CSSHelp(document).getStyle('.description')
@@ -139,4 +139,3 @@ body {
 
 --fcc-editable-region--
 ```
-

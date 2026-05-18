@@ -1,6 +1,6 @@
 ---
 id: 699e034d138be64fa313138e
-title: Transformations of Functions
+title: Transformationen von Funktionen
 challengeType: 11
 videoId: xSPh80M3f84
 dashedName: transformations-of-functions
@@ -8,29 +8,29 @@ dashedName: transformations-of-functions
 
 # --description--
 
-In this video, you will learn about transformations of functions.
+In diesem Video lernen Sie etwas über Transformationen von Funktionen.
 
 # --questions--
 
 ## --text--
 
-Which of the following is a valid rule for a transformation of a function?
+Welche der folgenden Aussagen ist eine gültige Regel für die Transformation einer Funktion?
 
 ## --answers--
 
-Numbers on the inside of the function result in a vertical shift.
+Zahlen innerhalb der Funktion führen zu einer Verschiebung in vertikaler Richtung.
 
 ---
 
-Numbers on the outside of the function result in a horizontal shift.
+Zahlen außerhalb der Funktion führen zu einer Verschiebung in horizontaler Richtung.
 
 ---
 
-A negative sign results in a reflection.
+Ein negatives Vorzeichen führt zu einer Spiegelung.
 
 ---
 
-A negative sign results in a vertical shift.
+Ein negatives Vorzeichen führt zu einer Verschiebung in vertikaler Richtung.
 
 ## --video-solution--
 

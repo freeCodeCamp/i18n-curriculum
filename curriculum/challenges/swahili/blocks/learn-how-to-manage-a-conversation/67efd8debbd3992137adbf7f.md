@@ -1,6 +1,6 @@
 ---
 id: 67efd8debbd3992137adbf7f
-title: Task 91
+title: Zoezi la 91
 challengeType: 22
 dashedName: task-91
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Sikiliza sauti na ukamilishe sentensi iliyo hapa chini.
 
 # --fillInTheBlank--
 
@@ -24,13 +24,13 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-Preceded by `on your`, this refers to a specific person's situation, side, or location.
+Iliyoongozwa na `on your`, hii inahusu hali, upande, au mahali pa mtu fulani.
 
 # --explanation--
 
-`On your end` is used to refer to someone's situation or what is happening with them, often in a conversation or work context. For example:
+`On your end` hutumika kurejelea hali ya mtu au kinachomtokea, mara nyingi katika mazungumzo au muktadha wa kazi. Kwa mfano:
 
-`Let me know if you need any help on your end.` – This means the speaker wants to know if the other person needs help on their work or situation.
+`Let me know if you need any help on your end.` – Hii ina maana msemaji anataka kujua kama mtu mwingine anahitaji msaada katika kazi au hali yake.
 
 # --scene--
 

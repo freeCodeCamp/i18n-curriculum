@@ -1,6 +1,6 @@
 ---
 id: 699e85568f18cf77dfce5c20
-title: Law of Cosines - Old Version
+title: Sheria ya Kosaini - Toleo la Kale
 challengeType: 11
 videoId: 3BMPsNLtcmA
 dashedName: law-of-cosines-old-version
@@ -8,13 +8,13 @@ dashedName: law-of-cosines-old-version
 
 # --description--
 
-In this video, you will continue to learn about the Law of Cosines.
+Katika video hii, utaendelea kujifunza kuhusu Sheria ya Kosaini.
 
 # --questions--
 
 ## --text--
 
-How many forms can the Law of Cosines be written in?
+Sheria ya Kosaini inaweza kuandikwa katika aina ngapi?
 
 ## --answers--
 
@@ -35,4 +35,3 @@ How many forms can the Law of Cosines be written in?
 ## --video-solution--
 
 4
-

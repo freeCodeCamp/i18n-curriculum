@@ -1,6 +1,6 @@
 ---
 id: 677d3b8fac17ba6cbf3d8afa
-title: Task 3
+title: Aufgabe 3
 challengeType: 22
 dashedName: task-3
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Hören Sie sich die Audioaufnahme an und vervollständigen Sie den Satz unten.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This is the `-ing` form of the verb `say`, used after the preposition `by` to indicate the method of starting.
+Dies ist die `-ing`-Form des Verbs `say`, die nach der Präposition `by` verwendet wird, um die Methode des Beginnens anzugeben.
 
 ---
 
@@ -32,17 +32,17 @@ This is the `-ing` form of the verb `say`, used after the preposition `by` to in
 
 ### --feedback--
 
-This stands for `Quality Assurance`, referring to the process of ensuring products meet required standards.
+Dies steht für `Quality Assurance` und bezieht sich auf den Prozess, bei dem sichergestellt wird, dass Produkte die erforderlichen Standards erfüllen.
 
 # --explanation--
 
-When a verb follows a preposition, it must take the `-ing` form (gerund). In this sentence, `saying` follows the preposition `by`, indicating the method Bob uses to start his statement. For example:
+Wenn einem Verb eine Präposition folgt, muss es die `-ing`-Form (Gerundium) annehmen. In diesem Satz folgt `saying` der Präposition `by` und zeigt die Methode, mit der Bob seine Aussage beginnt. Zum Beispiel:
 
-`She improved her skills by practicing regularly.` - Here, `practicing` follows the preposition `by`, showing how she improved her skills.
+`She improved her skills by practicing regularly.` – Hier folgt `practicing` der Präposition `by` und zeigt, wie sie ihre Fähigkeiten verbessert hat.
 
-Bob compliments Jessica for her work in `QA`. `QA` stands for `Quality Assurance`. It refers to the process of ensuring that products or services meet specific quality standards and function correctly. Another example:
+Bob lobt Jessica für ihre Arbeit im Bereich `QA`. `QA` steht für `Quality Assurance`. Es bezeichnet den Prozess, bei dem sichergestellt wird, dass Produkte oder Dienstleistungen bestimmte Qualitätsstandards erfüllen und korrekt funktionieren. Ein weiteres Beispiel:
 
-`The QA team identified several bugs during testing.` - This means that the people responsible for making sure the quality of the software is good managed to detect bugs in the software before its release.
+`The QA team identified several bugs during testing.` – Das bedeutet, dass die Verantwortlichen, die für die Qualität der Software zuständig sind, es geschafft haben, Bugs in der Software vor der Veröffentlichung zu erkennen.
 
 # --scene--
 

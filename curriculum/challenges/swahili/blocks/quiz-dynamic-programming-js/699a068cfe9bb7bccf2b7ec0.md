@@ -1,13 +1,13 @@
 ---
 id: 699a068cfe9bb7bccf2b7ec0
-title: Dynamic Programming Quiz
+title: Jaribio fupi la programu inayobadilika
 challengeType: 8
 dashedName: quiz-dynamic-programming-js
 ---
 
 # --description--
 
-To pass the quiz, you must correctly answer at least 9 of the 10 questions below.
+Ili kupita jaribio fupi, lazima ujibu kwa usahihi angalau maswali 9 kati ya 10 yaliyo hapa chini.
 
 # --quizzes--
 
@@ -17,218 +17,218 @@ To pass the quiz, you must correctly answer at least 9 of the 10 questions below
 
 #### --text--
 
-What are the two essential properties that must be present in a problem for dynamic programming to be an effective solution approach?
+Ni sifa gani mbili muhimu lazima ziwepo katika tatizo ili programu inayobadilika iwe njia bora ya kutatua?
 
 #### --distractors--
 
-Fast execution time and minimal memory usage
+Muda wa utekelezaji wa haraka na matumizi madogo ya kumbukumbu
 
 ---
 
-Recursion capability and iterative loops
+Uwezo wa kurudia na mizunguko ya kurudia
 
 ---
 
-Sequential processing and parallel computation
+Usindikaji mfululizo na kompyuta sambamba
 
 #### --answer--
 
-Overlapping subproblems and optimal substructure
+Matatizo yanayojirudia na muundo bora wa sehemu ndogo
 
 ### --question--
 
 #### --text--
 
-What is the primary difference between the memoization and tabulation approaches in dynamic programming?
+Tofauti kuu kati ya mbinu za memoization na tabulation katika programu inayobadilika ni ipi?
 
 #### --distractors--
 
-Memoization uses hash tables while tabulation uses arrays, making it more efficient.
+Memoization hutumia jedwali za hash wakati tabulation hutumia safu za data, na kufanya iwe bora zaidi.
 
 ---
 
-Memoization is faster but uses more memory and CPU cycles than tabulation.
+Memoization ni ya haraka lakini hutumia kumbukumbu na mizunguko ya prosesa (CPU) zaidi kuliko tabulation.
 
 ---
 
-Memoization can only solve simpler problems than tabulation.
+Memoization inaweza kutatua matatizo rahisi zaidi kuliko tabulation.
 
 #### --answer--
 
-Memoization is a top-down approach using recursion, while tabulation is a bottom-up approach using iteration.
+Memoization ni mbinu ya juu-chini inayotumia kurudia, wakati tabulation ni mbinu ya chini-juu inayotumia mizunguko.
 
 ### --question--
 
 #### --text--
 
-Why do naive recursive solutions to dynamic programming problems typically have exponential time complexity?
+Kwa nini suluhisho za kurudia zisizo na ufanisi kwa matatizo ya programu inayobadilika kawaida huwa na ugumu wa muda wa mzunguko wa eksponentiali?
 
 #### --distractors--
 
-Because they use exponential amounts of memory to store variables.
+Kwa sababu hutumia kiasi cha kumbukumbu cha eksponentiali kuhifadhi vigezo.
 
 ---
 
-Because they require sorting data in exponential time.
+Kwa sababu zinahitaji kupanga data kwa muda wa eksponentiali.
 
 ---
 
-Because they must check all possible permutations of the input.
+Kwa sababu lazima zikague mchanganyiko wote unaowezekana wa ingizo.
 
 #### --answer--
 
-Because each recursive call branches multiple times, causing the same subproblems to be recalculated repeatedly.
+Kwa sababu kila wito wa kurudia hugawanyika mara nyingi, na kusababisha matatizo yanayojirudia kukaguliwa tena mara kwa mara.
 
 ### --question--
 
 #### --text--
 
-What does optimal substructure mean in the context of dynamic programming?
+Nini maana ya muundo bora wa sehemu ndogo katika muktadha wa programu inayobadilika?
 
 #### --distractors--
 
-The algorithm must use the most efficient data structure available.
+Algoriti lazima itumie muundo wa data bora zaidi uliopo.
 
 ---
 
-The solution must minimize both time and space complexity simultaneously.
+Suluhisho lazima lipunguze ugumu wa muda na nafasi kwa wakati mmoja.
 
 ---
 
-The problem must have a unique, single optimal solution.
+Tatizo lazima liwe na suluhisho moja la kipekee na bora.
 
 #### --answer--
 
-The optimal solution can be constructed from optimal solutions to its subproblems.
+Suluhisho bora linaweza kujengwa kutoka kwa suluhisho bora za matatizo yake madogo.
 
 ### --question--
 
 #### --text--
 
-When implementing memoization, what happens when a function is called with arguments that have already been computed?
+Unapotekeleza memoization, nini hutokea wakati kitendakazi kinapoitwa na vigezo ambavyo tayari vimehesabiwa?
 
 #### --distractors--
 
-The function recalculates the result to ensure accuracy.
+Kitendakazi kinahesabu tena matokeo ili kuhakikisha usahihi.
 
 ---
 
-The function averages the old and new results for better precision.
+Kitendakazi kinachukua wastani wa matokeo ya zamani na mapya kwa usahihi bora.
 
 ---
 
-An error is thrown because duplicate calculations are not allowed.
+Hitilafu hutupwa kwa sababu mahesabu rudufu hayaruhusiwi.
 
 #### --answer--
 
-The cached result is returned immediately without recomputation.
+Matokeo yaliyohifadhiwa hurudishwa mara moja bila kuhesabu tena.
 
 ### --question--
 
 #### --text--
 
-What is a key advantage of using tabulation instead of memoization?
+Nini faida kuu ya kutumia tabulation badala ya memoization?
 
 #### --distractors--
 
-Tabulation always requires less memory than memoization.
+Tabulation daima inahitaji kumbukumbu kidogo kuliko memoization.
 
 ---
 
-Tabulation can solve a broader class of problems.
+Tabulation inaweza kutatua darasa pana zaidi la matatizo.
 
 ---
 
-Tabulation is always easier to implement and understand.
+Tabulation daima ni rahisi zaidi kutekeleza na kuelewa.
 
 #### --answer--
 
-Tabulation avoids recursion overhead and provides predictable sequential execution.
+Tabulation huzuia mzigo wa kurudia na hutoa utekelezaji wa mfululizo unaoweza kutabirika.
 
 ### --question--
 
 #### --text--
 
-In a bottom-up dynamic programming solution, why are base cases initialized first?
+Katika suluhisho la programu inayobadilika la chini-juu, kwa nini kesi za msingi huanzishwa kwanza?
 
 #### --distractors--
 
-To allocate memory for the data structure efficiently.
+Ili kugawa kumbukumbu kwa ufanisi kwa muundo wa data.
 
 ---
 
-To prevent infinite loops in the algorithm.
+Kuzuia mizunguko isiyoisha katika algoriti.
 
 ---
 
-To improve the time complexity of the algorithm.
+Kuboresha ugumu wa muda wa algoriti.
 
 #### --answer--
 
-To provide foundational values upon which all larger subproblems are built.
+Ili kutoa thamani za msingi ambazo matatizo makubwa zaidi yote yanajengwa juu yake.
 
 ### --question--
 
 #### --text--
 
-How does dynamic programming transform the time complexity of problems that exhibit overlapping subproblems?
+Programu inayobadilika hubadilishaje ugumu wa muda wa matatizo yanayoonyesha matatizo yanayojirudia?
 
 #### --distractors--
 
-From polynomial to logarithmic by dividing the problem efficiently.
+Kutoka polynomial hadi logarithmic kwa kugawanya tatizo kwa ufanisi.
 
 ---
 
-From quadratic to linear by optimizing loop structures.
+Kutoka quadratic hadi linear kwa kuboresha miundo ya mizunguko.
 
 ---
 
-From linear to constant by using hash tables.
+Kutoka linear hadi constant kwa kutumia jedwali za hash.
 
 #### --answer--
 
-From exponential to polynomial by storing and reusing subproblem solutions.
+Kutoka eksponentiali hadi polynomial kwa kuhifadhi na kutumia tena suluhisho za matatizo madogo.
 
 ### --question--
 
 #### --text--
 
-What trade-off does dynamic programming typically make to achieve better time complexity?
+Ni mabadiliko gani ambayo programu inayobadilika kawaida hufanya ili kufanikisha ugumu bora wa muda?
 
 #### --distractors--
 
-It sacrifices code readability for faster execution.
+Inakataa usomaji wa msimbo kwa ajili ya utekelezaji wa haraka.
 
 ---
 
-It requires more complex algorithms that are harder to maintain.
+Inahitaji algoriti ngumu zaidi ambazo ni vigumu kudumisha.
 
 ---
 
-It limits the size of problems that can be solved.
+Inapunguza ukubwa wa matatizo yanayoweza kutatuliwa.
 
 #### --answer--
 
-It uses additional space to store intermediate results.
+Inatumia nafasi ya ziada kuhifadhi matokeo ya kati.
 
 ### --question--
 
 #### --text--
 
-In which scenario would dynamic programming NOT be the appropriate algorithmic approach?
+Katika hali gani programu inayobadilika HAIFAI kuwa njia sahihi ya algoriti?
 
 #### --distractors--
 
-When the problem requires finding an optimal solution.
+Wakati tatizo linahitaji kupata suluhisho bora.
 
 ---
 
-When the problem can be broken into smaller subproblems.
+Wakati tatizo linaweza kugawanywa kuwa matatizo madogo.
 
 ---
 
-When space complexity must be minimized.
+Wakati ugumu wa nafasi lazima upunguzwe.
 
 #### --answer--
 
-When subproblems are independent and don't overlap.
+Wakati matatizo madogo ni huru na hayajirudii.

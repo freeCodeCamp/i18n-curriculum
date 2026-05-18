@@ -1,6 +1,6 @@
 ---
 id: 04e25c4fdc9ee0e71a844fd6
-title: Reading Files
+title: Dateien lesen
 challengeType: 11
 videoId: enOW7u6LWyg
 dashedName: reading-files
@@ -8,29 +8,29 @@ dashedName: reading-files
 
 # --description--
 
-In this video, you will learn how to read files in Python and process their contents.
+In diesem Video lernen Sie, wie Sie Dateien in Python lesen und deren Inhalte verarbeiten.
 
 # --questions--
 
 ## --text--
 
-What is the role of the `"r"` in the `open()` function?
+Welche Rolle hat das `"r"` in der `open()`-Funktion?
 
 ## --answers--
 
-It specifies the range mode.
+Es legt den Bereichsmodus fest.
 
 ---
 
-It specifies the rename mode.
+Es legt den Umbenennungsmodus fest.
 
 ---
 
-It specifies the random access mode.
+Es legt den Modus für den zufälligen Zugriff fest.
 
 ---
 
-It specifies the read mode.
+Es legt den Lesemodus fest.
 
 ## --video-solution--
 

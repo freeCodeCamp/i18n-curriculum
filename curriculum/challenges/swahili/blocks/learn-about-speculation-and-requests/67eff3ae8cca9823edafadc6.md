@@ -1,6 +1,6 @@
 ---
 id: 67eff3ae8cca9823edafadc6
-title: Task 59
+title: Zoezi la 59
 challengeType: 19
 dashedName: task-59
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Sikiliza sauti na jibu swali lililopo hapa chini.
 
 # --questions--
 
 ## --text--
 
-What is Jake asking about?
+Jake anauliza kuhusu nini?
 
 ## --answers--
 
-If the updates were applied.
+Je, masasisho yote yalitumika.
 
 ---
 
-If new security updates were released.
+Je, masasisho mapya ya usalama yalitolewa.
 
 ### --feedback--
 
-Jake is not asking if new updates exist.
+Jake hanauliza kama masasisho mapya yapo.
 
 ---
 
-Who is responsible for security updates.
+Nani anahusika na masasisho ya usalama.
 
 ### --feedback--
 
-Jake is not asking about a specific person.
+Jake hanauliza kuhusu mtu fulani.
 
 ---
 
-How security updates work.
+Jinsi masasisho ya usalama yanavyofanya kazi.
 
 ### --feedback--
 
-Jake assumes Jessica knows about security updates.
+Jake anadhani Jessica anajua kuhusu masasisho ya usalama.
 
 ## --video-solution--
 
@@ -52,11 +52,11 @@ Jake assumes Jessica knows about security updates.
 
 # --explanation--
 
-Jake wants to know if someone has verified that all updates have been installed.
+Jake anataka kujua kama mtu amethibitisha kwamba masasisho yote yamewekwa.
 
-By `Have you checked...?` he asks if Jessica has looked into something.
+Kwa `Have you checked...?` anauliza kama Jessica amechunguza jambo fulani.
 
-By `whether all security updates were applied` he asks if updates were successfully installed.
+Kwa `whether all security updates were applied` anauliza kama masasisho yamewekwa kwa mafanikio.
 
 # --scene--
 

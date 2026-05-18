@@ -1,6 +1,6 @@
 ---
 id: 28119f9dc5f93e3ac5d7c58a
-title: 2D Lists and Nested Loops
+title: Orodha za 2D na Mizunguko Zilizopangwa Ndani
 challengeType: 11
 videoId: 2lKgjX3gzmM
 dashedName: 2d-lists-and-nested-loops
@@ -8,13 +8,13 @@ dashedName: 2d-lists-and-nested-loops
 
 # --description--
 
-In this video, you will learn how to create 2D lists and use nested loops to work with multi-dimensional data structures.
+Katika video hii, utafundishwa jinsi ya kuunda orodha za 2D na kutumia mizunguko zilizopangwa ndani kufanya kazi na miundo ya data yenye vipimo vingi.
 
 # --questions--
 
 ## --text--
 
-What will be the output for the following code?
+Nini kitakuwa matokeo kwa msimbo ufuatao?
 
 ```python
 number_grid = [

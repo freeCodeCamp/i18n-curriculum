@@ -1,51 +1,51 @@
 ---
 id: 68eab45aceb7c00fd8de4fed
-title: Step 11
+title: Hatua 11
 challengeType: 0
 dashedName: step-11
 ---
 
 # --description--
 
-Inside the second `section` element, nest an `h2` element with the text `Importance of Networking`.
+Ndani ya kipengele cha pili cha `section`, panga ndani kipengele cha `h2` chenye maandishi ya `Importance of Networking`.
 
-Below this heading, add a block quotation element with a `cite` attribute with the value `https://www.freecodecamp.org/news/learn-to-code-book/`.
+Chini ya kichwa hiki cha sehemu, ongeza kipengele cha nukuu ya kipande chenye sifa ya `cite` yenye thamani ya `https://www.freecodecamp.org/news/learn-to-code-book/`.
 
 # --hints--
 
-You should have an `h2` element nested inside the second section.
+Unapaswa kuwa na kipengele cha `h2` kilichopangwa ndani ya sehemu ya pili.
 
 ```js
 assert.exists(document.querySelector('main > section:nth-of-type(2) > h2'));
 ```
 
-Your `h2` element should have the text `Importance of Networking`.
+Kipengele chako cha `h2` kinapaswa kuwa na maandishi ya `Importance of Networking`.
 
 ```js
 const h2El = document.querySelector('main > section:nth-of-type(2) > h2');
 assert.equal(h2El?.innerText.trim(), 'Importance of Networking');
 ```
 
-You should have a `blockquote` element nested inside the second section.
+Unapaswa kuwa na kipengele cha `blockquote` kilichopangwa ndani ya sehemu ya pili.
 
 ```js
 assert.exists(document.querySelector('main > section:nth-of-type(2) > blockquote'));
 ```
 
-Your `blockquote` element should be below your `h2` element.
+Kipengele chako cha `blockquote` kinapaswa kuwa chini ya kipengele chako cha `h2`.
 
 ```js
 assert.exists(document.querySelector('main > section:nth-of-type(2) > h2 + blockquote'));
 ```
 
-Your `blockquote` element should have a `cite` attribute.
+Kipengele chako cha `blockquote` kinapaswa kuwa na sifa ya `cite`.
 
 ```js
 const blockquoteEl = document.querySelector('main > section:nth-of-type(2) > blockquote');
 assert.exists(blockquoteEl?.getAttribute('cite'));
 ```
 
-The `cite` attribute of your `blockquote` element should have the value `https://www.freecodecamp.org/news/learn-to-code-book/`.
+Sifa ya `cite` ya kipengele chako cha `blockquote` inapaswa kuwa na thamani ya `https://www.freecodecamp.org/news/learn-to-code-book/`.
 
 ```js
 const blockquoteEl = document.querySelector('main > section:nth-of-type(2) > blockquote');
@@ -83,7 +83,7 @@ assert.equal(blockquoteEl?.getAttribute('cite'), 'https://www.freecodecamp.org/n
       </section>
       <section>
 --fcc-editable-region--
-
+        
 --fcc-editable-region--
       </section>
       <section>

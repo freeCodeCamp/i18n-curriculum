@@ -1,30 +1,30 @@
 ---
 id: 697a7f71ebfcd9e4cacd69c2
-title: Step 8
+title: Schritt 8
 challengeType: 20
 dashedName: step-8
 ---
 
 # --description--
 
-The bill is split, but division often results in long decimal numbers. Since money is typically represented with two decimal places, you should round the final result.
+Die Rechnung wird aufgeteilt, aber Division führt oft zu langen Dezimalzahlen. Da Geld normalerweise mit zwei Dezimalstellen dargestellt wird, sollten Sie das Endergebnis runden.
 
-In an earlier lesson, you learned about the `round()` function which takes two arguments: the number you want to round and the number of decimal places to keep. Here's an example:
+In einer früheren Lektion haben Sie die `round()`-Funktion kennengelernt, die zwei Argumente nimmt: die Zahl, die Sie runden möchten, und die Anzahl der Dezimalstellen, die beibehalten werden sollen. Hier ist ein Beispiel:
 
 ```py
 num = 4.815162342
 round(num, 3) # 4.815
 ```
 
-Use the `round()` function to round `final_bill` to two decimal places and assign the result to a new variable named `each_pays`.
+Verwenden Sie die `round()`-Funktion, um `final_bill` auf zwei Dezimalstellen zu runden, und weisen Sie das Ergebnis einer neuen Variablen namens `each_pays` zu.
 
-Finally, use `print()` to display the string `Each person pays:` followed by a space and your `each_pays` variable.
+Verwenden Sie abschließend `print()`, um den String `Each person pays:` gefolgt von einem Leerzeichen und Ihrer `each_pays`-Variablen anzuzeigen.
 
-With that, the bill splitter workshop is complete.
+Damit ist der Workshop zum Aufteilen der Rechnung abgeschlossen.
 
 # --hints--
 
-You should define a variable named `each_pays`.
+Sie sollten eine Variable namens `each_pays` definieren.
 
 ```js
 ({
@@ -34,7 +34,7 @@ You should define a variable named `each_pays`.
 })
 ```
 
-You should use the `round()` function to round `final_bill` to two decimal places and assign the result to your `each_pays` variable.
+Sie sollten die `round()`-Funktion verwenden, um `final_bill` auf zwei Dezimalstellen zu runden und das Ergebnis Ihrer `each_pays`-Variablen zuzuweisen.
 
 ```js
 ({
@@ -44,7 +44,7 @@ You should use the `round()` function to round `final_bill` to two decimal place
 })
 ```
 
-You should use `print()` to display the string `Each person pays:` followed by a space and your `each_pays` variable.
+Sie sollten `print()` verwenden, um den String `Each person pays:` gefolgt von einem Leerzeichen und Ihrer `each_pays`-Variablen anzuzeigen.
 
 ```js
 ({

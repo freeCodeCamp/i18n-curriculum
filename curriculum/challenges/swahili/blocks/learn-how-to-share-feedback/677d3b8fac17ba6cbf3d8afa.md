@@ -1,6 +1,6 @@
 ---
 id: 677d3b8fac17ba6cbf3d8afa
-title: Task 3
+title: Zoezi la 3
 challengeType: 22
 dashedName: task-3
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Sikiliza sauti na ukamilishe sentensi iliyo hapa chini.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This is the `-ing` form of the verb `say`, used after the preposition `by` to indicate the method of starting.
+Hii ni aina ya `-ing` ya kitenzi `say`, inayotumika baada ya kiambishi `by` kuonyesha njia ya kuanza.
 
 ---
 
@@ -32,17 +32,17 @@ This is the `-ing` form of the verb `say`, used after the preposition `by` to in
 
 ### --feedback--
 
-This stands for `Quality Assurance`, referring to the process of ensuring products meet required standards.
+Hii inasimama kwa `Quality Assurance`, ikimaanisha mchakato wa kuhakikisha bidhaa zinakidhi viwango vinavyotakiwa.
 
 # --explanation--
 
-When a verb follows a preposition, it must take the `-ing` form (gerund). In this sentence, `saying` follows the preposition `by`, indicating the method Bob uses to start his statement. For example:
+Kitenzi kinapofuata kiambishi, lazima kiwe katika aina ya `-ing` (gerund). Katika sentensi hii, `saying` inafuata kiambishi `by`, ikionyesha njia ambayo Bob anatumia kuanza kauli yake. Kwa mfano:
 
-`She improved her skills by practicing regularly.` - Here, `practicing` follows the preposition `by`, showing how she improved her skills.
+`She improved her skills by practicing regularly.` - Hapa, `practicing` inafuata kiambishi `by`, ikionyesha jinsi alivyoboresha ujuzi wake.
 
-Bob compliments Jessica for her work in `QA`. `QA` stands for `Quality Assurance`. It refers to the process of ensuring that products or services meet specific quality standards and function correctly. Another example:
+Bob anamsifu Jessica kwa kazi yake katika `QA`. `QA` inasimama kwa `Quality Assurance`. Inahusu mchakato wa kuhakikisha bidhaa au huduma zinakidhi viwango maalum vya ubora na zinafanya kazi ipasavyo. Mfano mwingine:
 
-`The QA team identified several bugs during testing.` - This means that the people responsible for making sure the quality of the software is good managed to detect bugs in the software before its release.
+`The QA team identified several bugs during testing.` - Hii ina maana kwamba watu wanaohusika kuhakikisha ubora wa programu ni mzuri waliweza kugundua hitilafu katika programu kabla ya kutolewa kwake.
 
 # --scene--
 

@@ -1,6 +1,6 @@
 ---
 id: 69032acee355bfd2ac9aaa8b
-title: Task 13
+title: Zoezi la 13
 challengeType: 24
 dashedName: task-13
 lang: zh-CN
@@ -8,23 +8,23 @@ lang: zh-CN
 
 # --description--
 
-## Tone Sandhi of `不 (bù)`
+## Mabadiliko ya sauti ya `不 (bù)`
 
-`不 (bù)` means "no" or "not". When it is followed by a syllable which is in the first, second or the third tone, it remains in the fourth tone.
+`不 (bù)` inamaanisha "hapana" au "siyo". Inapofuatiwa na silabi ambayo iko katika sauti ya kwanza, ya pili, au ya tatu, inabaki katika sauti ya nne.
 
-However, when `不 (bù)` is followed by a syllable which is in the fourth tone, it changes to the second tone.
+Hata hivyo, wakati `不 (bù)` inafuatiwa na silabi ambayo iko katika sauti ya nne, hubadilika kuwa sauti ya pili.
 
-This tone change is a natural adjustment in speech to make pronunciation smoother.
+Marekebisho haya ya sauti ni marekebisho ya asili katika hotuba ili kufanya matamshi kuwa laini zaidi.
 
-### Examples
+### Mifano
 
-| Written    | Pronounced as |
-| ---------- | ------------- |
-| `bù néng`  | `bù néng`     |
-| `bù xiǎng` | `bù xiǎng`    |
-| `bù shì`   | `bú shì`      |
-| `bù huì`   | `bú huì`      |
+| Imeandikwa    | Inatamkwa kama |
+|------------|----------------|
+| `bù néng`   | `bù néng`      |
+| `bù xiǎng`   | `bù xiǎng`      |
+| `bù shì`    | `bú shì`       |
+| `bù huì`  | `bú huì`   |
 
 # --assignment--
 
-I've read this Pinyin rule.
+Nimesoma kanuni hii ya Pinyin.

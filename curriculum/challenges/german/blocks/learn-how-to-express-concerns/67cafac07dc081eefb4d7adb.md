@@ -1,6 +1,6 @@
 ---
 id: 67cafac07dc081eefb4d7adb
-title: Task 135
+title: Aufgabe 135
 challengeType: 19
 dashedName: task-135
 lang: en-US
@@ -10,51 +10,51 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Hören Sie sich die Audioaufnahme an und beantworten Sie die folgende Frage.  
 
 # --questions--
 
 ## --text--
 
-What is the objective of having weekly meetings?
+Was ist das Ziel von wöchentlichen Meetings?
 
 ## --answers--
 
-To reduce the number of tasks the team has.
+Um die Anzahl der Aufgaben im Team zu reduzieren.
 
 ### --feedback--
 
-Bob does not mention reducing tasks.
+Bob erwähnt nicht, dass die Aufgaben reduziert werden sollen.  
 
 ---
 
-To avoid making any changes to the project.
+Um zu vermeiden, Änderungen am Projekt vorzunehmen.
 
 ### --feedback--
 
-Bob does not suggest that they avoid making changes.
+Bob schlägt nicht vor, Änderungen zu vermeiden.
 
 ---
 
-To increase the number of meetings without a clear goal.
+Um die Anzahl der Meetings ohne klares Ziel zu erhöhen.
 
 ### --feedback--
 
-Bob has a specific goal and he mentions it.
+Bob verfolgt ein konkretes Ziel und erwähnt es.
 
 ---
 
-To make sure everyone stays updated on the project.
+Um sicherzustellen, dass alle über das Projekt auf dem Laufenden bleiben.
 
 ## --video-solution--
 
-4
+4  
 
 # --explanation--
 
-`To keep someone in the loop` means to keep them informed about important updates and decisions. For example:
+`To keep someone in the loop` bedeutet, sie über wichtige Updates und Entscheidungen informiert zu halten. Zum Beispiel:
 
-`Please keep me in the loop about any changes to the schedule.` - This means the speaker wants to be updated if anything changes.
+`Please keep me in the loop about any changes to the schedule.` – Das bedeutet, der Sprecher möchte informiert werden, falls sich etwas ändert.
 
 # --scene--
 

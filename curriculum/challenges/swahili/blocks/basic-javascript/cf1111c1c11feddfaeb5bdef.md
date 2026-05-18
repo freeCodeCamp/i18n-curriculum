@@ -1,6 +1,6 @@
 ---
 id: cf1111c1c11feddfaeb5bdef
-title: Iterate with JavaScript For Loops
+title: Rudia kwa kutumia for loops za JavaScript
 challengeType: 1
 forumTopicId: 18219
 dashedName: iterate-with-javascript-for-loops
@@ -8,21 +8,21 @@ dashedName: iterate-with-javascript-for-loops
 
 # --description--
 
-You can run the same code multiple times by using a loop.
+Unaweza kuendesha msimbo uleule mara nyingi kwa kutumia mzunguko.
 
-The most common type of JavaScript loop is called a `for` loop because it runs for a specific number of times.
+Aina ya kawaida zaidi ya mzunguko katika JavaScript huitwa mzunguko wa `for` kwa sababu unaendeshwa mara nambari maalum ya nyakati.
 
-For loops are declared with three optional expressions separated by semicolons:
+Mizunguko ya for hutangazwa na usemi wa hiari tatu uliozuiwa na alama za semikolon:
 
-`for (a; b; c)`, where `a` is the initialization statement, `b` is the condition statement, and `c` is the final expression.
+`for (a; b; c)`, ambapo `a` ni usemi wa uanzishaji, `b` ni usemi wa hali, na `c` ni usemi wa mwisho.
 
-The initialization statement is executed one time only before the loop starts. It is typically used to define and setup your loop variable.
+Usemi wa uanzishaji hufanyika mara moja tu kabla mzunguko haujaanza. Kwa kawaida hutumika kutangaza na kuandaa kigezo cha mzunguko wako.
 
-The condition statement is evaluated at the beginning of every loop iteration and will continue as long as it evaluates to `true`. When the condition is `false` at the start of the iteration, the loop will stop executing. This means if the condition starts as false, your loop will never execute.
+Usemi wa hali huhakikiwa mwanzoni mwa kila kurudia mzunguko na utaendelea mradi tu unapotathminiwa kuwa `true`. Mzunguko utaacha kuendelea wakati hali itakapokuwa `false` mwanzoni mwa kurudia mzunguko. Hii inamaanisha ikiwa hali inaanza kuwa false, mzunguko wako hautatekelezwa hata mara moja.
 
-The final expression is executed at the end of each loop iteration, prior to the next condition check and is usually used to increment or decrement your loop counter.
+Usemi wa mwisho hufanyika mwishoni mwa kila kurudia mzunguko, kabla ya ukaguzi mwingine wa hali na kwa kawaida hutumika kuongeza au kupunguza kielekezi cha mzunguko wako.
 
-In the following example we initialize with `i = 0` and iterate while our condition `i < 5` is true. We'll increment `i` by `1` in each loop iteration with `i++` as our final expression.
+Katika mfano ufuatao tunaanzisha na `i = 0` na kurudia mzunguko mradi tu hali yetu `i < 5` iwe kweli. Tutazidisha `i` kwa `1` kila kurudia mzunguko kwa kutumia `i++` kama usemi wetu wa mwisho.
 
 ```js
 const ourArray = [];
@@ -32,21 +32,21 @@ for (let i = 0; i < 5; i++) {
 }
 ```
 
-`ourArray` will now have the value `[0, 1, 2, 3, 4]`.
+`ourArray` sasa itakuwa na thamani ya `[0, 1, 2, 3, 4]`.
 
 # --instructions--
 
-Use a `for` loop to push the values 1 through 5 onto `myArray`.
+Tumia mzunguko wa `for` kusukuma thamani za 1 hadi 5 kwenye `myArray`.
 
 # --hints--
 
-You should be using a `for` loop for this.
+Unapaswa kutumia mzunguko wa `for` kwa hili.
 
 ```js
 assert(/for\s*\([^)]+?\)/.test(__helpers.removeJSComments(code)));
 ```
 
-`myArray` should equal `[1, 2, 3, 4, 5]`.
+`myArray` inapaswa kuwa sawa na `[1, 2, 3, 4, 5]`.
 
 ```js
 assert.deepEqual(myArray, [1, 2, 3, 4, 5]);

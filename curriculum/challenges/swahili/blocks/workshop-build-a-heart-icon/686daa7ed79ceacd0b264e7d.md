@@ -1,19 +1,19 @@
 ---
 id: 686daa7ed79ceacd0b264e7d
-title: Step 2
+title: Hatua 2
 challengeType: 0
 dashedName: step-2
 ---
 
 # --description--
 
-You should nest one `path` element inside your `svg` element to give the image shape.
+Unapaswa kupanga ndani kipengele kimoja cha `path` ndani ya kipengele chako cha `svg` ili kutoa umbo la picha.
 
-Create a `path` element.
+Unda kipengele cha `path`.
 
 # --hints--
 
-You should have a `path` element nested inside of your `svg` element.
+Unapaswa kuwa na kipengele cha `path` kilichopangwa ndani ya kipengele chako cha `svg`.
 
 ```js
 const path = document.querySelector('svg path');
@@ -34,7 +34,7 @@ assert.exists(path);
   <body>
     <svg>
     --fcc-editable-region--
-
+      
     --fcc-editable-region--
     </svg>
   </body>

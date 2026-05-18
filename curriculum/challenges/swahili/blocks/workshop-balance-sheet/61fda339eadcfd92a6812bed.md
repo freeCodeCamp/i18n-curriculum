@@ -1,17 +1,17 @@
 ---
 id: 61fda339eadcfd92a6812bed
-title: Hatua ya 30
+title: Hatua 30
 challengeType: 0
 dashedName: step-30
 ---
 
 # --description--
 
-Before you get too far into your styling, you should make use of the `sr-only` class. You can use CSS to make elements with this class completely hidden from the visual page, but still be announced by screen readers.
+Kabla hujaingia sana katika mtindo wako, unapaswa kutumia darasa la `sr-only`. Unaweza kutumia CSS kuficha kabisa vipengele vyenye darasa hili kutoka kwenye ukurasa wa kuona, lakini bado vitatangazwa na visomaji vya skrini.
 
-CSS unayokaribia kuandika ni seti ya kawaida ya sifa zinazotumiwa kuhakikisha vipengele vimefichwa kabisa kimwonekano.
+CSS unayotarajia kuandika ni seti ya kawaida ya sifa zinazotumika kuhakikisha vipengele vimefichwa kabisa kwa macho.
 
-The `span[class~="sr-only"]` selector will select any `span` element whose `class` _includes_ `sr-only`. Unda kichaguzi hicho na ukipe sifa ya `border` iliyowekwa kuwa `0`.
+Kichaguzi cha `span[class~="sr-only"]` kitachagua kipengele chochote cha `span` ambacho sifa ya `class` _inajumuisha_ `sr-only`. Unda kichaguzi hicho, na kipa sifa ya `border` yenye thamani ya `0`.
 
 # --hints--
 
@@ -23,7 +23,7 @@ assert.isNotNull(
 );
 ```
 
-Kichaguzi chako cha `span[class~="sr-only"]` kinafaa kuwa na sifa ya `border` iliyowekwa kuwa `0`.
+Kichaguzi chako cha `span[class~="sr-only"]` kinapaswa kuwa na sifa ya `border` yenye thamani ya `0`.
 
 ```js
 assert.strictEqual(

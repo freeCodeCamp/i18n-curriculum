@@ -1,37 +1,37 @@
 ---
 id: bd7157d8c242eddfaeb5bd13
-title: Build a Markdown Previewer
+title: Jenga mtazamaji wa Markdown
 challengeType: 3
 forumTopicId: 301372
 dashedName: build-a-markdown-previewer
 ---
 
 # --description--
-**Note:** **React 18 has known incompatibilities with the tests for this project (see [issue](https://github.com/freeCodeCamp/freeCodeCamp/issues/45922))**
+**Kumbuka:** **React 18 ina matatizo yanayojulikana na vipimo vya mradi huu (angalia [issue](https://github.com/freeCodeCamp/freeCodeCamp/issues/45922))**
 
-**Objective:** Build an app that is functionally similar to this: <a href="https://markdown-previewer.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://markdown-previewer.freecodecamp.rocks/</a>.
+**Lengo:** Jenga programu inayofanya kazi kama hii: <a href="https://markdown-previewer.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://markdown-previewer.freecodecamp.rocks/</a>.
 
-Fulfill the below user stories and get all of the tests to pass. Use whichever libraries or APIs you need. Give it your own personal style.
+Timiza hadithi za mtumiaji zilizo hapa chini na upite vipimo vyote. Tumia maktaba au API yoyote unayohitaji. Toa mtindo wako binafsi.
 
-You can use any mix of HTML, JavaScript, CSS, Bootstrap, SASS, React, Redux, and jQuery to complete this project. You should use a front-end framework (like React for example) because this section is about learning front-end frameworks. Additional technologies not listed above are not recommended and using them is at your own risk. We are looking at supporting other front-end frameworks like Angular and Vue, but they are not currently supported. We will accept and try to fix all issue reports that use the suggested technology stack for this project. Happy coding!
+Unaweza kutumia mchanganyiko wowote wa HTML, JavaScript, CSS, Bootstrap, SASS, React, Redux, na jQuery kumaliza mradi huu. Unapaswa kutumia mfumo wa kazi wa mbele (mfano React) kwa sababu sehemu hii ni kuhusu kujifunza mifumo ya kazi ya mbele. Teknolojia nyingine zisizotajwa hapo juu hazipendekezwi na kuzitumia ni kwa hatari yako mwenyewe. Tunatazamia kusaidia mifumo mingine ya kazi ya mbele kama Angular na Vue, lakini hazijaungwa mkono kwa sasa. Tutakubali na kujaribu kurekebisha ripoti zote za matatizo zinazotumia teknolojia iliyopendekezwa kwa mradi huu. K coding yenye furaha!
 
-**User Story #1:** I can see a `textarea` element with a corresponding `id="editor"`.
+**Hadithi ya mtumiaji #1:** Naona kipengele cha `textarea` chenye `id="editor"` kinacholingana nacho.
 
-**User Story #2:** I can see an element with a corresponding `id="preview"`.
+**Hadithi ya mtumiaji #2:** Naona kipengele chenye `id="preview"` kinacholingana nacho.
 
-**User Story #3:** When I enter text into the `#editor` element, the `#preview` element is updated as I type to display the content of the textarea.
+**Hadithi ya mtumiaji #3:** Ninapoingiza maandishi kwenye kipengele cha `#editor`, kipengele cha `#preview` kinasasishwa ninapoandika kuonyesha yaliyomo kwenye eneo la maandishi.
 
-**User Story #4:** When I enter GitHub flavored markdown into the `#editor` element, the text is rendered as HTML in the `#preview` element as I type (HINT: You don't need to parse Markdown yourself - you can import the Marked library for this: <https://cdnjs.com/libraries/marked>).
+**Hadithi ya mtumiaji #4:** Ninapoingiza markdown yenye ladha ya GitHub kwenye kipengele cha `#editor`, maandishi yanaonyeshwa kama HTML kwenye kipengele cha `#preview` ninapoandika (KUNGA: Huna haja ya kuchambua Markdown mwenyewe - unaweza import maktaba ya Marked kwa hili: <https://cdnjs.com/libraries/marked>).
 
-**User Story #5:** When my markdown previewer first loads, the default text in the `#editor` field should contain valid markdown that represents at least one of each of the following elements: a heading element (H1 size), a sub heading element (H2 size), a link, inline code, a code block, a list item, a blockquote, an image, and bolded text.
+**Hadithi ya mtumiaji #5:** Mtazamaji wangu wa markdown anapozinduliwa kwa mara ya kwanza, maandishi ya chaguo-msingi kwenye uwanja wa `#editor` yanapaswa kuwa na markdown halali inayowakilisha angalau moja ya kila kipengele kinachofuata: kipengele cha kichwa cha sehemu (ukubwa wa H1), kichwa kidogo cha sehemu (ukubwa wa H2), kiungo, msimbo ndani ya mstari, kipande cha msimbo, kipengele cha orodha, nukuu ya sehemu, picha, na maandishi yenye herufi nzito.
 
-**User Story #6:** When my markdown previewer first loads, the default markdown in the `#editor` field should be rendered as HTML in the `#preview` element.
+**Hadithi ya mtumiaji #6:** Mtazamaji wangu wa markdown anapozinduliwa kwa mara ya kwanza, markdown ya chaguo-msingi kwenye uwanja wa `#editor` inapaswa kuonyeshwa kama HTML kwenye kipengele cha `#preview`.
 
-**Optional Bonus (you do not need to make this test pass):** My markdown previewer interprets carriage returns and renders them as `br` (line break) elements.
+**Ziada ya hiari (huna haja ya kufanikisha kipimo hiki):** Mtazamaji wangu wa markdown huelewa kurudi kwa mstari na kuonyesha kama vipengele vya `br` (kupitia mstari).
 
-You can build your project by <a href='https://codepen.io/pen?template=MJjpwO' target='_blank' rel="noopener noreferrer nofollow">using this CodePen template</a> and clicking `Save` to create your own pen. If you prefer to use another environment, then put this `<script>` tag into the body of your `index.html` file: `<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>`
+Unaweza kujenga mradi wako kwa <a href='https://codepen.io/pen?template=MJjpwO' target='_blank' rel="noopener noreferrer nofollow">kutumia kiolezo hiki cha CodePen</a> na kubofya `Save` kuunda pen yako mwenyewe. Ikiwa unapendelea kutumia mazingira mengine, basi weka lebo ya `<script>` ndani ya mwili wa faili yako ya `index.html`: `<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>`
 
-Once you're done, submit the URL to your working project with all its tests passing.
+Ukiisha kumaliza, wasilisha URL ya mradi wako unaofanya kazi na vipimo vyake vyote vikipita.
 
 # --solutions--
 

@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Höre dir die Audio an, um die unteren Sätze zu vervollständigen.
+Hören Sie sich die Audioaufnahme an und vervollständigen Sie den folgenden Satz.
 
 # --fillInTheBlank--
 
@@ -24,15 +24,15 @@ Höre dir die Audio an, um die unteren Sätze zu vervollständigen.
 
 ### --feedback--
 
-This word means being alert and watching carefully for potential dangers or problems.
+Dieses Wort bedeutet, wachsam zu sein und sorgfältig nach möglichen Gefahren oder Problemen Ausschau zu halten.
 
 # --explanation--
 
-`Vigilant` means being watchful and cautious to detect possible threats. Zum Beispiel:
+`Vigilant` bedeutet, aufmerksam und vorsichtig zu sein, um mögliche Bedrohungen zu erkennen. Zum Beispiel:
 
-- `The IT team is always vigilant when monitoring the network.` - The IT team stays alert and careful while checking the network.
+- `The IT team is always vigilant when monitoring the network.` – Das IT-Team bleibt wachsam und vorsichtig, während es das Netzwerk überprüft.
 
-- `You should be vigilant when clicking on unknown links in emails.` - You need to be careful and pay attention to suspicious email links.
+- `You should be vigilant when clicking on unknown links in emails.` – Sie müssen vorsichtig sein und auf verdächtige E-Mail-Links achten.
 
 # --scene--
 

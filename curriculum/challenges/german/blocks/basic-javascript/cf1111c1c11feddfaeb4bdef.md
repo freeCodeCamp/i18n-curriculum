@@ -1,6 +1,6 @@
 ---
 id: cf1111c1c11feddfaeb4bdef
-title: Subtract One Number from Another with JavaScript
+title: Eine Zahl mit JavaScript von einer anderen subtrahieren
 challengeType: 1
 forumTopicId: 18314
 dashedName: subtract-one-number-from-another-with-javascript
@@ -8,30 +8,30 @@ dashedName: subtract-one-number-from-another-with-javascript
 
 # --description--
 
-We can also subtract one number from another.
+Wir können auch eine Zahl von einer anderen subtrahieren.
 
-JavaScript uses the `-` symbol for subtraction.
+JavaScript verwendet das Symbol `-` für die Subtraktion.
 
-**Example**
+**Beispiel**
 
 ```js
 const myVar = 12 - 6;
 ```
 
-`myVar` would have the value `6`.
+`myVar` hätte den Wert `6`.
 # --instructions--
 
-Change the `0` so the difference is `12`.
+Ändern Sie die `0`, sodass die Differenz `12` ist.
 
 # --hints--
 
-The variable `difference` should be equal to `12`.
+Die Variable `difference` sollte gleich `12` sein.
 
 ```js
 assert(difference === 12);
 ```
 
-You should only subtract one number from `45`.
+Sie sollten nur eine Zahl von `45` subtrahieren.
 
 ```js
 assert(/difference=45-33;?/.test(__helpers.removeWhiteSpace(__helpers.removeJSComments(code))));

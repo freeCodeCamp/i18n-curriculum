@@ -1,6 +1,6 @@
 ---
 id: 698dea3f7932b3cc4b19c94b
-title: Binary Search
+title: Binäre Suche
 challengeType: 11
 videoId: VZ1u8vgVJwo
 dashedName: binary-search
@@ -8,29 +8,29 @@ dashedName: binary-search
 
 # --description--
 
-In this video, you will revisit the binary search algorithm and how it works in searching through a list of names.
+In diesem Video wiederholen Sie den binären Suchalgorithmus und wie er bei der Suche in einer Liste von Namen funktioniert.
 
 # --questions--
 
 ## --text--
 
-When might you use the binary search algorithm over the linear search algorithm?
+Wann würden Sie den binären Suchalgorithmus anstelle des linearen Suchalgorithmus verwenden?
 
 ## --answers--
 
-When the list is unsorted and frequently changing.
+Wenn die Liste unsortiert ist und sich häufig ändert.
 
 ---
 
-When you need to check every element one by one.
+Wenn Sie jedes Element einzeln überprüfen müssen.
 
 ---
 
-When you know you are searching through a large list of sorted results.
+Wenn Sie wissen, dass Sie in einer großen Liste sortierter Ergebnisse suchen.
 
 ---
 
-When the dataset is very small and performance does not matter.
+Wenn der Datensatz sehr klein ist und die Leistung keine Rolle spielt.
 
 ## --video-solution--
 

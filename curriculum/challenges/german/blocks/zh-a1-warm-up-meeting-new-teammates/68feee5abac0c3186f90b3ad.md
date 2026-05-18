@@ -1,6 +1,6 @@
 ---
 id: 68feee5abac0c3186f90b3ad
-title: Task 9
+title: Aufgabe 9
 challengeType: 19
 dashedName: task-9
 lang: zh-CN
@@ -10,13 +10,13 @@ lang: zh-CN
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Hören Sie sich die Audioaufnahme an und beantworten Sie die folgende Frage.
 
 # --questions--
 
 ## --text--
 
-Which option is the correct Pinyin for what Wang Hua says?
+Welche Option ist die korrekte Pinyin-Schreibweise für das, was Wang Hua sagt?
 
 ## --answers--
 
@@ -28,7 +28,7 @@ Which option is the correct Pinyin for what Wang Hua says?
 
 ### --feedback--
 
-The tone of the first syllable doesn't match what you hear in the audio.
+Der Ton der ersten Silbe stimmt nicht mit dem überein, was Sie in der Audioaufnahme hören.
 
 ---
 
@@ -36,7 +36,7 @@ The tone of the first syllable doesn't match what you hear in the audio.
 
 ### --feedback--
 
-The final of the first syllable is not what she says.
+Der Auslaut der ersten Silbe entspricht nicht dem, was sie sagt.
 
 ---
 
@@ -44,7 +44,7 @@ The final of the first syllable is not what she says.
 
 ### --feedback--
 
-The initial of the second syllable is different from what you hear in the audio.
+Der Anlaut der zweiten Silbe unterscheidet sich von dem, was Sie in der Audioaufnahme hören.
 
 ## --video-solution--
 
@@ -52,7 +52,7 @@ The initial of the second syllable is different from what you hear in the audio.
 
 # --explanation--
 
-Wang Hua is saying `míng zi`. The first syllable has a nasal final `ing` and a rising tone. The second syllable is a whole syllable with a neutral tone, pronounced lightly.
+Wang Hua sagt `míng zi`. Die erste Silbe hat einen nasalen Auslaut `ing` und einen steigenden Ton. Die zweite Silbe ist eine vollständige Silbe mit neutralem Ton, die leicht ausgesprochen wird.
 
 # --scene--
 

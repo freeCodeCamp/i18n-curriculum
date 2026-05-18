@@ -1,25 +1,25 @@
 ---
 id: 60ffe7d8aae62c05bcc9e7eb
-title: Hatua ya 58
+title: Hatua 58
 challengeType: 0
 dashedName: step-58
 ---
 
 # --description--
 
-With a `display` of `block` the submit button sits flush against the left edge of its parent.
+Kwa `display` ya `block` kitufe cha kuwasilisha kiko sambamba kabisa na kingo ya kushoto ya mzazi wake.
 
-Tumia mbinu ile ile inayotumika kuweka `form` katikati ili kuweka kitufe cha kuwasilisha katikati.
+Tumia mbinu ile ile iliyotumika kuweka `form` katikati ili kuweka kitufe cha kuwasilisha katikati.
 
 # --hints--
 
-Unapaswa kukipa kitufe cha kuwasilisha `margin` ya `0 auto`.
+Unapaswa kumpa kitufe cha kuwasilisha `margin` ya `0 auto`.
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('input[type="submit"]')?.margin, '0px auto');
 ```
 
-Unapaswa kukipa kitufe cha kuwasilisha `min-width` ya `max-width`.
+Haupasi kumpa kitufe cha kuwasilisha `min-width` au `max-width`.
 
 ```js
 assert.isEmpty(new __helpers.CSSHelp(document).getStyle('input[type="submit"]')?.minWidth);

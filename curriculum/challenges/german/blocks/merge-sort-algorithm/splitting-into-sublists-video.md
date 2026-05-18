@@ -1,6 +1,6 @@
 ---
 id: 698ddca77932b3cc4b19c936
-title: Splitting Into Sublists
+title: Aufteilen in Sublists
 challengeType: 11
 videoId: HBzKVr-AwjQ
 dashedName: splitting-into-sublists
@@ -8,29 +8,29 @@ dashedName: splitting-into-sublists
 
 # --description--
 
-In this video, you will learn more about the merge sort algorithm and how to split a list into sublists.
+In diesem Video lernen Sie mehr über den Merge-Sort-Algorithmus und wie man eine Liste in Sublists aufteilt.
 
 # --questions--
 
 ## --text--
 
-What does splitting the list into sublists represent in the merge sort algorithm?
+Was stellt das Aufteilen der Liste in Sublists im Merge-Sort-Algorithmus dar?
 
 ## --answers--
 
-It represents the sort step.
+Es stellt den Sortierschritt dar.
 
 ---
 
-It represents the merge step.
+Es stellt den Zusammenführungsschritt dar.
 
 ---
 
-It represents the conquer step.
+Es stellt den Eroberungsschritt dar.
 
 ---
 
-It represents the divide step.
+Es stellt den Aufteilungsschritt dar.
 
 ## --video-solution--
 

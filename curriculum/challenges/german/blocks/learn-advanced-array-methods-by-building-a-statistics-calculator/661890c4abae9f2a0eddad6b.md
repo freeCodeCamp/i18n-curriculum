@@ -7,11 +7,11 @@ dashedName: step-22
 
 # --description--
 
-In the next few steps, you'll learn how to determine if an array's length is even or odd, as well as how to find the median. You will then be able to apply what you learned to the `getMedian` function.
+In den nächsten Schritten lernen Sie, wie Sie feststellen, ob die Länge eines Arrays gerade oder ungerade ist, und wie Sie den Median finden. Anschließend können Sie das Gelernte auf die `getMedian`-Funktion anwenden.
 
-To check if a number is even or odd, you can use the <dfn>modulus operator</dfn> `%`. The modulus operator returns the remainder of the division of two numbers.
+Um zu überprüfen, ob eine Zahl gerade oder ungerade ist, können Sie den <dfn>Modulus-Operator</dfn> `%` verwenden. Der Modulus-Operator gibt den Rest der Division zweier Zahlen zurück.
 
-Here is an example checking if an array length is even or odd:
+Hier ist ein Beispiel, das überprüft, ob die Länge eines Arrays gerade oder ungerade ist:
 
 ```js
 // check if array length is even
@@ -23,27 +23,27 @@ arr.length % 2 === 1;
 
 Wenn der Rest `0` ist, ist die Zahl gerade. Wenn der Rest `1` ist, ist die Zahl ungerade.
 
-Create a variable called `isEven`. Then use the modulus operator to check if the length of the `testArr2` array is even. Assign that expression to the `isEven` variable.
+Erstellen Sie eine Variable namens `isEven`. Verwenden Sie dann den Modulus-Operator, um zu prüfen, ob die Länge des `testArr2`-Arrays gerade ist. Weisen Sie diesen Ausdruck der `isEven`-Variable zu.
 
-Below your `isEven` variable, log out the `isEven` variable to the console.
+Unterhalb Ihrer `isEven`-Variable geben Sie die `isEven`-Variable in der Konsole aus.
 
-Öffne die Konsole, um das Ergebnis zu sehen.
+Öffnen Sie die Konsole, um das Ergebnis zu sehen.
 
 # --hints--
 
-You should have an `isEven` variable.
+Sie sollten eine `isEven`-Variable haben.
 
 ```js
 assert.isDefined(isEven);
 ```
 
-You should check if the length of the `testArr2` array is even. Refer back to the example provided for you: `arr.length % 2 === 0;`
+Sie sollten prüfen, ob die Länge des `testArr2`-Arrays gerade ist. Orientieren Sie sich an dem für Sie bereitgestellten Beispiel: `arr.length % 2 === 0;`
 
 ```js
 assert.isTrue(isEven);
 ```
 
-You should have a `console.log` statement that logs the `isEven` variable.
+Sie sollten eine `console.log`-Anweisung haben, die die `isEven`-Variable ausgibt.
 
 ```js
 assert.match(code, /console\.log\(isEven\)/);
@@ -151,7 +151,7 @@ const calculate = () => {
   const value = document.querySelector("#numbers").value;
   const array = value.split(/,\s*/g);
   const numbers = array.map(el => Number(el)).filter(el => !isNaN(el));
-
+  
   const mean = getMean(numbers);
 
   document.querySelector("#mean").textContent = mean;

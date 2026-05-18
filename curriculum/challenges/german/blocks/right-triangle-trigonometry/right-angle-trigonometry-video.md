@@ -1,6 +1,6 @@
 ---
 id: 699e5b998f18cf77dfce5c0d
-title: Right Angle Trigonometry
+title: Rechtwinklige Trigonometrie
 challengeType: 11
 videoId: j81PeMJaju0
 dashedName: right-angle-trigonometry
@@ -8,29 +8,29 @@ dashedName: right-angle-trigonometry
 
 # --description--
 
-In this video, you will learn about common trig functions including sine, cosine, and tangent and how to calculate them for right triangles.
+In diesem Video lernen Sie die gebräuchlichen trigonometrischen Funktionen kennen, darunter Sinus, Kosinus und Tangens, und wie Sie diese für rechtwinklige Dreiecke berechnen.
 
 # --questions--
 
 ## --text--
 
-What is the sine of theta for a right triangle?
+Was ist der Sinus von Theta bei einem rechtwinkligen Dreieck?
 
 ## --answers--
 
-Adjacent over opposite
+Ankathete durch Gegenkathete
 
 ---
 
-Opposite over hypotenuse
+Gegenkathete durch Hypotenuse
 
 ---
 
-Hypotenuse over opposite
+Hypotenuse durch Gegenkathete
 
 ---
 
-Adjacent over hypotenuse
+Ankathete durch Hypotenuse
 
 ## --video-solution--
 

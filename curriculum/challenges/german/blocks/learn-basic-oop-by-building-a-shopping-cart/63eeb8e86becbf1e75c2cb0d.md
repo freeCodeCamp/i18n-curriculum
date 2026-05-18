@@ -7,25 +7,25 @@ dashedName: step-21
 
 # --description--
 
-Du brauchst jetzt die Gesamtzahl aller Produkte, die der Nutzer im Einkaufswagen hat. Deklariere eine `totalCountPerProduct`-Variable und weise ihr ein leeres Objekt zu.
+Sie benötigen jetzt eine Gesamtanzahl jedes Produkts, das der Benutzer im Warenkorb hat. Deklarieren Sie eine `totalCountPerProduct`-Variable und weisen Sie ihr ein leeres Objekt zu.
 
 # --hints--
 
-Du solltest eine `totalCountPerProduct`-Variable in deiner `addItem`-Funktion deklarieren.
+Sie sollten eine `totalCountPerProduct`-Variable in Ihrer `addItem`-Funktion deklarieren.
 
 ```js
 const cart = new ShoppingCart();
 assert.match(cart.addItem.toString(), /totalCountPerProduct\s*=/);
 ```
 
-Du solltest `const` verwenden, um `totalCountPerProduct` zu deklarieren.
+Sie sollten `const` verwenden, um `totalCountPerProduct` zu deklarieren.
 
 ```js
 const afterAdd = code.split("addItem")[1];
 assert.match(afterAdd, /const\s+totalCountPerProduct\s*=/);
 ```
 
-Du solltest `totalCountPerProduct` ein leeres Objekt zuweisen.
+Sie sollten `totalCountPerProduct` ein leeres Objekt zuweisen.
 
 ```js
 const afterAdd = code.split("addItem")[1];

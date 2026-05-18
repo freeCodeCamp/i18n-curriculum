@@ -1,6 +1,6 @@
 ---
 id: 474c23ec0df6e7af920e0526
-title: While Loop
+title: Mzunguko wa while
 challengeType: 11
 videoId: s6yz4Ew8dwQ
 dashedName: while-loop
@@ -8,13 +8,13 @@ dashedName: while-loop
 
 # --description--
 
-In this video, you will learn how to work with while loops to repeat code blocks as long as a condition is `True`.
+Katika video hii, utafundishwa jinsi ya kufanya kazi na mizunguko ya while kurudia sehemu za msimbo mradi tu hali ni `True`.
 
 # --questions--
 
 ## --text--
 
-What will be the output for the following code?
+Nini kitakuwa matokeo kwa msimbo ufuatao?
 
 ```python
 i = 1

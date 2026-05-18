@@ -1,6 +1,6 @@
 ---
 id: 67a75c6d5ea4deeee6ffb507
-title: Task 21
+title: Zoezi la 21
 challengeType: 19
 dashedName: task-21
 lang: en-US
@@ -10,55 +10,55 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Sikiliza sauti na ujibu swali lililopo hapa chini.
 
 # --questions--
 
 ## --text--
 
-What does Linda offer to do?
+Linda anatoa kufanya nini?  
 
-## --answers--
+## --answers--  
 
-Prepare user scenarios for testing.
+Tayarisha hali za mtumiaji kwa ajili ya majaribio.  
 
----
+---  
 
-Skip the testing phase.
+Ruka hatua ya majaribio.  
 
-### --feedback--
+### --feedback--  
 
-Linda does not suggest skipping testing; she is actively contributing to it.
+Linda hapendekezi kuruka majaribio; anachangia kikamilifu katika hilo.  
 
----
+---  
 
-Ask someone else to handle user testing.
+Muombe mtu mwingine ashughulikie majaribio ya mtumiaji.  
 
-### --feedback--
+### --feedback--  
 
-Linda does not delegate the task to someone else.
+Linda hahamishi zoezi hilo kwa mtu mwingine.  
 
----
+---  
 
-Redesign the user interface from scratch.
+Buni upya kiolesura cha mtumiaji kutoka mwanzo.  
 
-### --feedback--
+### --feedback--  
 
-Linda does not talk about redesigning the interface.
+Linda hasemi kuhusu kubuni upya kiolesura.  
 
-## --video-solution--
+## --video-solution--  
 
-1
+1  
 
-# --explanation--
+# --explanation--  
 
-Listen for key words that indicate what Linda is offering to do.
+Sikiliza maneno muhimu yanayoonyesha anachotaka Linda kufanya.  
 
-`I can also` – This shows she is volunteering to contribute.
+`I can also` – Hii inaonyesha anajitolea kuchangia.  
 
-`Prepare some user scenarios for testing` – This clearly states the task she is taking responsibility for.
+`Prepare some user scenarios for testing` – Hii inaeleza wazi zoezi analolichukua jukumu la kufanya.  
 
-`Ensure a smooth user experience` – This explains why testing is important and reinforces her commitment to the project.
+`Ensure a smooth user experience` – Hii inaeleza kwa nini majaribio ni muhimu na kuimarisha dhamira yake kwa mradi.  
 
 # --scene--
 

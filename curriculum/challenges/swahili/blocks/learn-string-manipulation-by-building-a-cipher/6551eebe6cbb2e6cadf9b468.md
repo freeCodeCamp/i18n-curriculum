@@ -1,13 +1,13 @@
 ---
 id: 6551eebe6cbb2e6cadf9b468
-title: Step 2
+title: Hatua 2
 challengeType: 20
 dashedName: step-2
 ---
 
 # --description--
 
-Variables can store values of different data types. You just assigned an integer value, but if you want to represent some text, you need to assign a string. Strings are sequences of characters enclosed by single or double quotes, but you cannot start a string with a single quote and end it with a double quote or vice versa:
+Vigezo vinaweza kuhifadhi thamani za aina tofauti za data. Umeweka thamani ya nambari kamili, lakini ikiwa unataka wakilisha maandishi, unahitaji kuweka thamani ya mfuatano wa herufi. Mfuatano wa herufi ni mfululizo wa herufi uliofungwa na alama za nukuu moja au alama za nukuu maradufu, lakini huwezi kuanza mfuatano wa herufi kwa alama moja za nukuu na kuumaliza kwa alama za nukuu maradufu au kinyume chake:
 
 ```py
 string_1 = "I am a string"
@@ -15,30 +15,30 @@ string_2 = 'I am also a string'
 string_3 = 'This is not valid"
 ```
 
-Delete your `number` variable and its value. Then, declare another variable called `text` and assign the string `'Hello World'` to this variable.
+Futa vigezo vyako vya `number` na thamani yake. Kisha, tangaza kigezo kingine kinachoitwa `text` na weka thamani ya mfuatano wa herufi `'Hello World'` katika kigezo hiki.
 
 # --hints--
 
-You should not have `number = 5` in your code.
+Haupaswi kuwa na `number = 5` katika msimbo wako.
 
 ```js
 const commentless_code = __helpers.python.removeComments(code);
 assert.isFalse(/number\s*=\s*5/.test(commentless_code))
 ```
 
-You should declare a variable called `text`. Pay attention to place the variable name at the beginning of the line.
+Unapaswa kutangaza kigezo kinachoitwa `text`. Zingatia kuweka jina la kigezo mwanzoni mwa mstari.
 
 ```js
 assert.match(code, /^text\s*=/m)
 ```
 
-You should assign the string `'Hello World'` to your `text` variable. Remember to use either single or double quotes to enclose the string and pay attention to the letter case.
+Unapaswa kuweka thamani ya mfuatano wa herufi `'Hello World'` katika kigezo chako cha `text`. Kumbuka kutumia alama moja za nukuu au alama za nukuu maradufu kufunga mfuatano wa herufi na zingatia herufi kubwa na ndogo.
 
 ```js
 assert.match(code, /^text\s*=\s*("|')Hello World\1\s*(#.*)?$/m)
 ```
 
-Your code contains invalid syntax and/or invalid indentation.
+Msimbo wako una sintaksia isiyo sahihi na/au uelekezaji usio sahihi.
 
 ```js
 ({test: () => assert(true) })

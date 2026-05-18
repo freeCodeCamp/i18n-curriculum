@@ -1,6 +1,6 @@
 ---
 id: 69ae5c728491ca1dcd31440d
-title: When Not To RAG
+title: Wann RAG nicht geeignet ist
 challengeType: 11
 videoId: 3HY38scJb54
 dashedName: when-not-to-rag
@@ -8,29 +8,29 @@ dashedName: when-not-to-rag
 
 # --description--
 
-In this video, you will learn when it is not appropriate to use RAG and the potential pitfalls of using RAG in certain scenarios.
+In diesem Video lernen Sie, wann es nicht angebracht ist, RAG zu verwenden, und welche potenziellen Fallstricke bei der Nutzung von RAG in bestimmten Szenarien auftreten können.
 
 # --questions--
 
 ## --text--
 
-What is another solution to get AI to give good responses when RAG is not appropriate?
+Was ist eine andere Lösung, um von der KI gute Antworten zu erhalten, wenn RAG nicht geeignet ist?
 
 ## --answers--
 
-Tuning the model
+Das Modell feinabstimmen
 
 ---
 
-Lint prompting
+Lint-Prompting
 
 ---
 
-Prompt engineering
+Prompt-Engineering
 
 ---
 
-Cascading prompts
+Kaskadierende Prompts
 
 ## --video-solution--
 

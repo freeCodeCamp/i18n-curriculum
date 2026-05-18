@@ -1,6 +1,6 @@
 ---
 id: 67caeb9a6a3aedb94bc912dd
-title: Task 129
+title: Zoezi la 129
 challengeType: 22
 dashedName: task-129
 lang: en-US
@@ -10,39 +10,39 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Sikiliza sauti na ukamilishe sentensi iliyo hapa chini.  
 
 # --fillInTheBlank--
 
 ## --sentence--
 
-`They BLANK said the communication isn't great because they BLANK don't hear about changes until it's too late.`
+`They BLANK said the communication isn't great because they BLANK don't hear about changes until it's too late.`  
 
 ## --blanks--
 
-`also`
+`also`  
 
 ### --feedback--
 
-This means in addition or as well.
+Hii ina maana ya pia au kwa kuongezea.
 
----
+---  
 
-`often`
+`often`  
 
 ### --feedback--
 
-This means frequently or many times.
+Hii ina maana ya mara nyingi au mara nyingi sana.
 
 # --explanation--
 
-`Also` means in addition to something previously mentioned. For example:
+`Also` ina maana ya kuongezea kitu kilichotajwa awali. Kwa mfano:
 
-`She speaks English and also knows French.` - This means she knows French in addition to English.
+`She speaks English and also knows French.` - Hii ina maana anajua Kifaransa pamoja na Kiingereza.  
 
-`Often` means frequently or regularly. For example:
+`Often` ina maana ya mara nyingi au kwa kawaida. Kwa mfano:
 
-`He often works late on Fridays.` - This means he works late many times or regularly on Fridays.
+`He often works late on Fridays.` - Hii ina maana anafanya kazi hadi usiku mara nyingi au kwa kawaida siku za Ijumaa.
 
 # --scene--
 

@@ -1,6 +1,6 @@
 ---
 id: 698dcc2c7932b3cc4b19c927
-title: Binary Search in Code
+title: Utafutaji wa binary katika msimbo
 challengeType: 11
 videoId: mg7F5D8Wk5o
 dashedName: binary-search-in-code
@@ -8,29 +8,29 @@ dashedName: binary-search-in-code
 
 # --description--
 
-In this video, you will code out the binary search algorithm using Python.
+Katika video hii, utaandika msimbo wa algoriti ya utafutaji wa binary kwa kutumia Python.
 
 # --questions--
 
 ## --text--
 
-Why was the `while first <= last:` condition used in the solution?
+Kwa nini hali ya `while first <= last:` ilitumika katika suluhisho?
 
 ## --answers--
 
-To ensure only the first half of the array is ever checked.
+Ili kuhakikisha kuwa nusu ya kwanza tu ya safu ya data inakaguliwa.
 
 ---
 
-To make the loop run forever until manually stopped.
+Ili kufanya mzunguko uendelee milele hadi ukatwe kwa mkono.
 
 ---
 
-To skip checking the last element in the search range.
+Ili kuruka ukaguzi wa kipengele cha mwisho katika eneo la utafutaji.
 
 ---
 
-To keep searching while there are still elements in the range and stop when the range is empty.
+Ili kuendelea kutafuta wakati bado kuna vipengele katika eneo na kuacha wakati eneo linapokuwa tupu.
 
 ## --video-solution--
 

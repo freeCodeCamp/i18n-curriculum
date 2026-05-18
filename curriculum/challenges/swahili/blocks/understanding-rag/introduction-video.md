@@ -1,6 +1,6 @@
 ---
 id: 69ae5c648491ca1dcd31440b
-title: Introduction
+title: Utangulizi
 challengeType: 11
 videoId: LxilAjoRybE
 dashedName: introduction
@@ -8,13 +8,13 @@ dashedName: introduction
 
 # --description--
 
-In this video, Beau Carnes will provide an introduction to this course.
+Katika video hii, Beau Carnes atatoa utangulizi wa kozi hii.
 
 # --questions--
 
 ## --text--
 
-Which of the following topics will NOT be covered in this course?
+Ni mada gani kati ya zifuatazo HAZITAJADILIWA katika kozi hii?
 
 ## --answers--
 
@@ -35,4 +35,3 @@ VectorDB
 ## --video-solution--
 
 2
-

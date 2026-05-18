@@ -1,6 +1,6 @@
 ---
 id: 698dc8ae7932b3cc4b19c925
-title: Determining Complexity
+title: Bestimmung der Komplexität
 challengeType: 11
 videoId: 8bglWlQYTPQ
 dashedName: determining-complexity
@@ -8,13 +8,13 @@ dashedName: determining-complexity
 
 # --description--
 
-In this video, you will learn how to determine the worst case complexity for an algorithm.
+In diesem Video lernen Sie, wie Sie die Worst-Case-Komplexität eines Algorithmus bestimmen.
 
 # --questions--
 
 ## --text--
 
-What is the worst case runtime for binary search?
+Wie lautet die Laufzeit im Worst Case für die binäre Suche?
 
 ## --answers--
 

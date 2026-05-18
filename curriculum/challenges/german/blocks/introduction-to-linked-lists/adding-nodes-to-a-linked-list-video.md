@@ -1,6 +1,6 @@
 ---
 id: 698dd6627932b3cc4b19c931
-title: Adding Nodes to a Linked List
+title: Knoten zu einer verketteten Liste hinzufügen
 challengeType: 11
 videoId: DcsHC78sfdk
 dashedName: adding-nodes-to-a-linked-list
@@ -8,13 +8,13 @@ dashedName: adding-nodes-to-a-linked-list
 
 # --description--
 
-In this video, you will learn how to add nodes to a linked list.
+In diesem Video lernen Sie, wie Sie Knoten zu einer verketteten Liste hinzufügen.
 
 # --questions--
 
 ## --text--
 
-What is a commonly used term for searching through a linked list?
+Wie lautet ein gebräuchlicher Begriff für die Suche durch eine verkettete Liste?
 
 ## --answers--
 

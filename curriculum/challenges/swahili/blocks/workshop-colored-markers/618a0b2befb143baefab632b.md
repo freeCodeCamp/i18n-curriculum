@@ -7,21 +7,21 @@ dashedName: step-32
 
 # --description--
 
-Notice that the red and cyan colors are very bright right next to each other. This contrast can be distracting if it's overused on a website, and can make text hard to read if it's placed on a complementary-colored background.
+Tambua kwamba rangi nyekundu na cyan ni angavu sana zikikumbatiana. Tofauti hii inaweza kuvuruga ikiwa itatumika kupita kiasi kwenye tovuti, na inaweza kufanya maandishi kuwa magumu kusoma ikiwa yamewekwa kwenye asili yenye rangi ya nyongeza.
 
-It's better practice to choose one color as the dominant color, and use its complementary color as an accent to bring attention to certain content on the page.
+Ni desturi bora kuchagua rangi moja kama rangi kuu, na kutumia rangi yake ya nyongeza kama msisitizo kuleta umakini kwa maudhui fulani kwenye ukurasa.
 
-First, in the `h1` rule, use the `rgb` function to set its `background-color` to cyan.
+Kwanza, katika kanuni ya `h1`, tumia kitendakazi cha `rgb` kuweka `background-color` yake kuwa cyan.
 
 # --hints--
 
-You should not remove or modify the `text-align` property or its value.
+Haupaswi kuondoa au kubadilisha sifa ya `text-align` au thamani yake.
 
 ```js
 assert.strictEqual(new __helpers.CSSHelp(document).getStyle('h1')?.textAlign, 'center');
 ```
 
-Your `h1` CSS rule should have a `background-color` property set to `rgb(0, 255, 255)`.
+Kanuni yako ya `h1` ya CSS inapaswa kuwa na sifa ya `background-color` iliyowekwa kuwa `rgb(0, 255, 255)`.
 
 ```js
 assert.strictEqual(new __helpers.CSSHelp(document).getStyle('h1')?.backgroundColor, 'rgb(0, 255, 255)');
@@ -58,7 +58,7 @@ assert.strictEqual(new __helpers.CSSHelp(document).getStyle('h1')?.backgroundCol
 h1 {
   text-align: center;
 --fcc-editable-region--
-
+  
 --fcc-editable-region--
 }
 

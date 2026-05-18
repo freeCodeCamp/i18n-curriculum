@@ -1,6 +1,6 @@
 ---
 id: 67ed38f77f1fbd02acdcf5ff
-title: Task 53
+title: Aufgabe 53
 challengeType: 22
 dashedName: task-53
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Hören Sie sich die Audioaufnahme an und vervollständigen Sie den folgenden Satz.
 
 # --fillInTheBlank--
 
@@ -24,13 +24,13 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This two-word phrase is used to ask about what is happening or what the situation is. The first word ends with `-ing`.
+Diese zweiteilige Phrase wird verwendet, um zu fragen, was gerade passiert oder wie die Lage ist. Das erste Wort endet mit `-ing`.
 
 # --explanation--
 
-`What's going on?` is a common way to ask someone what is happening, what the situation is, or what problem or event is taking place. For example:
+`What's going on?` ist eine gebräuchliche Art, jemanden zu fragen, was gerade passiert, wie die Lage ist oder welches Problem beziehungsweise Ereignis stattfindet. Zum Beispiel:
 
-`What's going on at the meeting?` – Someone is asking what is happening during the meeting.
+`What's going on at the meeting?` – Jemand fragt, was während der Besprechung passiert.
 
 # --scene--
 

@@ -1,6 +1,6 @@
 ---
 id: 680e2de44baaad7305adc8ee
-title: Task 46
+title: Zoezi la 46
 challengeType: 22
 dashedName: task-46
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Sikiliza sauti na ukamilishe sentensi ifuatayo.
 
 # --fillInTheBlank--
 
@@ -24,13 +24,13 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-These three words together are used to politely ask if a plan or suggestion is acceptable. The first letter of the first word is capitalized.
+Maneno haya matatu pamoja hutumika kwa heshima kuuliza kama mpango au pendekezo unakubalika. Herufi ya kwanza ya neno la kwanza imeandikwa kwa herufi kubwa.
 
 # --explanation--
 
-`Does that work` is a polite way to check if a suggestion or arrangement is okay for someone. For example:
+`Does that work` ni njia ya heshima ya kuangalia kama pendekezo au mpangilio unafaa kwa mtu. Kwa mfano:
 
-`We can meet at 3 PM. Does that work for you?` – This asks if the time is good or convenient for the other person.
+`We can meet at 3 PM. Does that work for you?` – Hii huuliza kama wakati ni mzuri au unaofaa kwa mtu mwingine.
 
 # --scene--
 

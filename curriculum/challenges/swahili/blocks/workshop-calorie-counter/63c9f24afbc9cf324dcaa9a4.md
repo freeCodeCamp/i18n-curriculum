@@ -7,25 +7,25 @@ dashedName: step-95
 
 # --description--
 
-You also need to clear the `output` element's text. You can do this by setting the `innerText` property to an empty string.
+Unahitaji pia kufuta maandishi ya kipengee cha `output`. Unaweza kufanya hivi kwa kuweka sifa ya `innerText` kuwa mfuatano wa herufi tupu.
 
-The difference between `innerText` and `innerHTML` is that `innerText` will not render HTML elements, but will display the tags and content as raw text.
+Tofauti kati ya `innerText` na `innerHTML` ni kwamba `innerText` haitonyesha vipengee vya HTML, bali itaonyesha lebo na maudhui kama maandishi ghafi.
 
 # --hints--
 
-Your `clearForm` function should access the `innerText` property of the `output` element.
+Kitendakazi chako cha `clearForm` kinapaswa kupata upatikanaji wa sifa ya `innerText` ya kipengee cha `output`.
 
 ```js
 assert.match(clearForm.toString(), /output\.innerText/);
 ```
 
-Your `clearForm` function should set the `innerText` property of the `output` element to an empty string.
+Kitendakazi chako cha `clearForm` kinapaswa kuweka sifa ya `innerText` ya kipengee cha `output` kuwa mfuatano wa herufi tupu.
 
 ```js
 assert.match(clearForm.toString(), /output\.innerText\s*=\s*('|"|`)\1/);
 ```
 
-You should modify `output` after modifying `budgetNumberInput`.
+Unapaswa kubadilisha `output` baada ya kubadilisha `budgetNumberInput`.
 
 ```js
 assert.isAbove(clearForm.toString().indexOf('output'), clearForm.toString().indexOf('budgetNumberInput'));

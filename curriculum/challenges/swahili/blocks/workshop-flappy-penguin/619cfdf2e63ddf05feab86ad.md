@@ -7,17 +7,17 @@ dashedName: step-47
 
 # --description--
 
-Position the `.face` elements so that they are `15%` from the top.
+Panga vipengele vya `.face` ili viwe `15%` kutoka juu.
 
 # --hints--
 
-You should give `.face` a `top` property.
+Unapaswa kumpa `.face` sifa ya `top`.
 
 ```js
 assert.notEmpty(new __helpers.CSSHelp(document).getStyle('.face')?.top);
 ```
 
-You should give `.face` a `top` of `--fcc-expected--`, but found `--fcc-actual--`.
+Unapaswa kumpa `.face` sifa ya `top` yenye thamani ya `--fcc-expected--`, lakini nilipata `--fcc-actual--`.
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('.face')?.top, '15%');

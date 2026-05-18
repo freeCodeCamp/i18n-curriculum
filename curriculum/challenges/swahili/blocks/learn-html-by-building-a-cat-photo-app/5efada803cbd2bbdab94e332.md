@@ -1,35 +1,35 @@
 ---
 id: 5efada803cbd2bbdab94e332
-title: Hatua ya 31
+title: Hatua 31
 challengeType: 0
 dashedName: step-31
 ---
 
 # --description--
 
-Inside the `figure` element you just added, nest an `img` element with a `src` attribute set to `https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg`.
+Ndani ya kipengele cha `figure` ulichojiongeza, panga ndani kipengele cha `img` chenye sifa ya kipengele cha `src` iliyowekwa kuwa `https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg`.
 
 # --hints--
 
-Kipengele chako cha pili cha `figure` kinafaa kuwa na tagi ya kufungua. Opening tags have this syntax: `<elementName>`.
+Kipengele chako cha `figure` cha pili kinapaswa kuwa na lebo ya kufungua. Lebo za kufungua zina sintaksia hii: `<elementName>`.
 
 ```js
 assert(document.querySelectorAll('figure').length >= 2);
 ```
 
-Kipengele chako cha pili cha `figure` kinafaa kuwa na tagi ya kufunga. Closing tags have a `/` just after the `<` character.
+Kipengele chako cha `figure` cha pili kinapaswa kuwa na lebo ya kufunga. Lebo za kufunga zina `/` mara tu baada ya herufi ya `<`.
 
 ```js
 assert(code.match(/<\/figure>/g).length >= 2);
 ```
 
-Kunapaswa kuwa na kipengele cha pili cha `figure` juu ya tagi ya kufunga ya kipengele cha pili cha `section`. Unazo katika mpangilio mbaya.
+Kipengele cha `figure` cha pili kinapaswa kuwepo juu ya lebo ya kufunga ya kipengele cha `section` cha pili. Umeviweka kwa mpangilio usio sahihi.
 
 ```js
 assert.strictEqual(document.querySelectorAll('main > section')?.[1]?.lastElementChild?.nodeName, 'FIGURE');
 ```
 
-Unapaswa kuwa na kipengele cha tatu cha `img` kilichowekwa katika kipengele cha `figure`.
+Unapaswa kuwa na kipengele cha `img` cha tatu kilichopangwa ndani ya kipengele cha `figure`.
 
 ```js
 const catsImg = document.querySelectorAll('figure > img')[1];
@@ -38,7 +38,7 @@ assert(
 );
 ```
 
-The third image should have a `src` attribute set to `https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg`.
+Picha ya tatu inapaswa kuwa na sifa ya kipengele cha `src` iliyowekwa kuwa `https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg`.
 
 ```js
 const catsImg = document.querySelectorAll('figure > img')[1];
@@ -47,7 +47,7 @@ assert.strictEqual(
 );
 ```
 
-Ingawa umeweka `src` ya picha mpya kwenye URL sahihi, inashauriwa kuzunguka thamani ya sifa kila wakati kwa alama za nukuu.
+Ingawa umeweka sifa ya kipengele cha `src` ya picha mpya kuwa URL sahihi, inashauriwa kila mara kuzunguka thamani ya sifa ya kipengele na alama za nukuu.
 
 ```js
 assert.notMatch(code, /\<img\s+.+\s+src\s*=\s*https:\/\/cdn\.freecodecamp\.org\/curriculum\/cat-photo-app\/cats\.jpg/);
@@ -88,7 +88,7 @@ assert.notMatch(code, /\<img\s+.+\s+src\s*=\s*https:\/\/cdn\.freecodecamp\.org\/
         </ol>
 --fcc-editable-region--
         <figure>
-
+          
         </figure>
 --fcc-editable-region--
       </section>
@@ -96,4 +96,3 @@ assert.notMatch(code, /\<img\s+.+\s+src\s*=\s*https:\/\/cdn\.freecodecamp\.org\/
   </body>
 </html>
 ```
-

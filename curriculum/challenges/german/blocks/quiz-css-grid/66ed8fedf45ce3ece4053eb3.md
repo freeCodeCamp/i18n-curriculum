@@ -1,13 +1,13 @@
 ---
 id: 66ed8fedf45ce3ece4053eb3
-title: CSS Grid Quiz
+title: CSS-Grid-Quiz
 challengeType: 8
 dashedName: quiz-css-grid
 ---
 
 # --description--
 
-To pass the quiz, you must correctly answer at least 18 of the 20 questions below.
+Um das Quiz zu bestehen, müssen Sie mindestens 18 der 20 Fragen unten richtig beantworten.
 
 # --quizzes--
 
@@ -17,29 +17,29 @@ To pass the quiz, you must correctly answer at least 18 of the 20 questions belo
 
 #### --text--
 
-What is CSS Grid?
+Was ist CSS Grid?
 
 #### --distractors--
 
-A method used for displaying tables on a website.
+Eine Methode, um Tabellen auf einer Website darzustellen.
 
 ---
 
-A method used for tiling images.
+Eine Methode, um Bilder zu kacheln.
 
 ---
 
-A way to display outlines around HTML elements.
+Eine Möglichkeit, Umrisse um HTML-Elemente anzuzeigen.
 
 #### --answer--
 
-A two-dimensional layout for HTML documents.
+Ein zweidimensionales Layout für HTML-Dokumente.
 
 ### --question--
 
 #### --text--
 
-Which of the following is the correct way to create a grid container?
+Welche der folgenden Möglichkeiten ist der richtige Weg, um einen Grid-Container zu erstellen?
 
 #### --distractors--
 
@@ -61,73 +61,73 @@ Which of the following is the correct way to create a grid container?
 
 #### --text--
 
-What does the `grid-template-columns` property do?
+Was bewirkt die `grid-template-columns`-Eigenschaft?
 
 #### --distractors--
 
-Defines two columns and three rows for a grid container.
+Definiert zwei Spalten und drei Reihen für einen Grid-Container.
 
 ---
 
-Sets all columns for the grid layout to a fixed length.
+Setzt alle Spalten für das Grid-Layout auf eine feste Länge.
 
 ---
 
-Creates a two column grid layout container.
+Erstellt einen Grid-Container mit zwei Spalten.
 
 #### --answer--
 
-Defines the number of columns in a grid layout.
+Definiert die Anzahl der Spalten in einem Grid-Layout.
 
 ### --question--
 
 #### --text--
 
-What does the `grid-template-rows` property do?
+Was bewirkt die `grid-template-rows`-Eigenschaft?
 
 #### --distractors--
 
-Specifies a grid item's size and location in a grid layout.
+Gibt die Größe und Position eines Grid-Elements in einem Grid-Layout an.
 
 ---
 
-Creates a template for creating new grid rows.
+Erstellt eine Vorlage für neue Grid-Reihen.
 
 ---
 
-Specifies a default row size in the grid container.
+Legt eine Standardreihengröße im Grid-Container fest.
 
 #### --answer--
 
-Specifies the number and height for each row in a grid layout.
+Gibt die Anzahl und Höhe jeder Reihe in einem Grid-Layout an.
 
 ### --question--
 
 #### --text--
 
-What does the `minmax()` function do?
+Was bewirkt die `minmax()`-Funktion?
 
 #### --distractors--
 
-Toggles between the first and second value, depending on available space.
+Wechselt zwischen dem ersten und zweiten Wert, abhängig vom verfügbaren Platz.
 
 ---
 
-Returns the average of the two inputs.
+Gibt den Durchschnitt der beiden Eingaben zurück.
 
 ---
 
-Sets the minimal size of the element for browser working in full-screen mode.
+Setzt die minimale Größe des Elements für den Browser im Vollbildmodus.
 
 #### --answer--
 
-Sets the minimum and maximum sizes for a track.
+Setzt die minimalen und maximalen Größen für eine Spur.
 
 ### --question--
 
 #### --text--
 
-What is the shorthand for the `column-gap` and `row-gap` properties?
+Was ist die Kurzschreibweise für die `column-gap`- und `row-gap`-Eigenschaften?
 
 #### --distractors--
 
@@ -149,29 +149,29 @@ What is the shorthand for the `column-gap` and `row-gap` properties?
 
 #### --text--
 
-What is the difference between an implicit and explicit grid?
+Was ist der Unterschied zwischen einem impliziten und einem expliziten Grid?
 
 #### --distractors--
 
-Implicit grids use the `grid-template-columns` property while explicit grids use the `grid-template-rows` property.
+Implizite Grids verwenden die `grid-template-columns`-Eigenschaft, während explizite Grids die `grid-template-rows`-Eigenschaft verwenden.
 
 ---
 
-Explicit grids use the `grid-template-columns` property while implicit grids use the `grid-template-rows` property.
+Explizite Grids verwenden die `grid-template-columns`-Eigenschaft, während implizite Grids die `grid-template-rows`-Eigenschaft verwenden.
 
 ---
 
-Implicit grids use the `grid-template-columns` or `grid-template-rows` properties to create columns while rows and columns are automatically created in explicit grids.
+Implizite Grids verwenden die `grid-template-columns`- oder `grid-template-rows`-Eigenschaften, um Spalten zu erstellen, während Reihen und Spalten in expliziten Grids automatisch erstellt werden.
 
 #### --answer--
 
-Explicit grids use the `grid-template-columns` or `grid-template-rows` properties to create columns while rows and columns are automatically created in implicit grids.
+Explizite Grids verwenden die `grid-template-columns`- oder `grid-template-rows`-Eigenschaften, um Spalten zu erstellen, während Reihen und Spalten in impliziten Grids automatisch erstellt werden.
 
 ### --question--
 
 #### --text--
 
-Which of the following units represents a fraction of the space within the grid container?
+Welche der folgenden Einheiten stellt einen Bruch des Raums innerhalb des Grid-Containers dar?
 
 #### --distractors--
 
@@ -193,51 +193,51 @@ Which of the following units represents a fraction of the space within the grid 
 
 #### --text--
 
-What are grid lines?
+Was sind Gitterlinien?
 
 #### --distractors--
 
-Shorthand for rows and columns.
+Kurzschreibweise für Reihen und Spalten.
 
 ---
 
-Outlines of a grid element.
+Umrisse eines Grid-Elements.
 
 ---
 
-Lines along which grid columns and rows are created.
+Linien, entlang derer Grid-Spalten und -Reihen erstellt werden.
 
 #### --answer--
 
-Lines on which each of the grid items begin and end.
+Linien, an denen jedes der Grid-Elemente beginnt und endet.
 
 ### --question--
 
 #### --text--
 
-What does the `grid-column` property do?
+Was bewirkt die `grid-column`-Eigenschaft?
 
 #### --distractors--
 
-Adds a new grid element as a child of the element it's applied to.
+Fügt ein neues Grid-Element als Kind des Elements hinzu, auf das sie angewendet wird.
 
 ---
 
-Aligns text in the grid item vertically.
+Richtet den Text im Grid-Element vertikal aus.
 
 ---
 
-Sets two columns for a grid container.
+Setzt zwei Spalten für einen Grid-Container.
 
 #### --answer--
 
-Tells the grid item on which grid line it should start and end at.
+Gibt dem Grid-Element an, an welcher Gitterlinie es beginnen und enden soll.
 
 ### --question--
 
 #### --text--
 
-How do you create four columns of equal width?
+Wie erstellen Sie vier Spalten mit gleicher Breite?
 
 #### --distractors--
 
@@ -259,51 +259,51 @@ How do you create four columns of equal width?
 
 #### --text--
 
-What does the `grid-template-areas` property do?
+Was bewirkt die `grid-template-areas`-Eigenschaft?
 
 #### --distractors--
 
-It is used to specify where the item begins on a line in the grid container.
+Sie wird verwendet, um anzugeben, wo das Element in einer Linie im Grid-Container beginnt.
 
 ---
 
-It is used to create gaps between tracks in the container.
+Sie wird verwendet, um Abstände zwischen Spuren im Container zu erzeugen.
 
 ---
 
-It is used to repeat sections in the track listing.
+Sie wird verwendet, um Abschnitte in der Spurauflistung zu wiederholen.
 
 #### --answer--
 
-It is used to provide a name for the items you are going to position on the grid.
+Sie wird verwendet, um den Elementenamen für die Positionierung im Grid zu vergeben.
 
 ### --question--
 
 #### --text--
 
-What does the `grid-auto-flow` property do?
+Was bewirkt die `grid-auto-flow`-Eigenschaft?
 
 #### --distractors--
 
-Controls the order in which grid items are displayed.
+Steuert die Reihenfolge, in der Grid-Elemente angezeigt werden.
 
 ---
 
-Adjusts the spacing between the grid elements.
+Passt den Abstand zwischen den Grid-Elementen an.
 
 ---
 
-Automatically adjusts the element to fit in the grid.
+Passt das Element automatisch an, um in das Grid zu passen.
 
 #### --answer--
 
-Controls how auto-placed elements get inserted to the grid.
+Steuert, wie automatisch platzierte Elemente in das Grid eingefügt werden.
 
 ### --question--
 
 #### --text--
 
-Which of the following is the correct way to use the `grid-template-areas` property?
+Welche der folgenden Möglichkeiten ist der richtige Weg, die `grid-template-areas`-Eigenschaft zu verwenden?
 
 #### --distractors--
 
@@ -368,7 +368,7 @@ Which of the following is the correct way to use the `grid-template-areas` prope
 
 #### --text--
 
-Which of the following is the correct way to work with the `grid-auto-flow` property?
+Welche der folgenden Möglichkeiten ist der richtige Weg, mit der `grid-auto-flow`-Eigenschaft zu arbeiten?
 
 #### --distractors--
 
@@ -418,7 +418,7 @@ Which of the following is the correct way to work with the `grid-auto-flow` prop
 
 #### --text--
 
-Which of the following is NOT a valid grid property?
+Welche der folgenden Eigenschaften ist KEINE gültige Grid-Eigenschaft?
 
 #### --distractors--
 
@@ -440,7 +440,7 @@ Which of the following is NOT a valid grid property?
 
 #### --text--
 
-Which of these properties can be used to center items inside a grid element?
+Welche dieser Eigenschaften kann verwendet werden, um Elemente innerhalb eines Grid-Elements zu zentrieren?
 
 #### --distractors--
 
@@ -462,7 +462,7 @@ Which of these properties can be used to center items inside a grid element?
 
 #### --text--
 
-Which of the following is a correct value to use with the `grid-auto-columns` property?
+Welcher der folgenden Werte ist ein korrekter Wert für die `grid-auto-columns`-Eigenschaft?
 
 #### --distractors--
 
@@ -484,29 +484,29 @@ Which of the following is a correct value to use with the `grid-auto-columns` pr
 
 #### --text--
 
-What are grid tracks?
+Was sind Grid-Spuren?
 
 #### --distractors--
 
-Shorthand for rows and columns.
+Kurzschreibweise für Reihen und Spalten.
 
 ---
 
-Lines along which you can animate movement of the grid items.
+Linien, entlang derer Sie die Bewegung der Grid-Elemente animieren können.
 
 ---
 
-Lines on which each of the grid items begins and ends.
+Linien, an denen jedes der Grid-Elemente beginnt und endet.
 
 #### --answer--
 
-Spaces between two adjacent grid lines.
+Bereiche zwischen zwei benachbarten Gitterlinien.
 
 ### --question--
 
 #### --text--
 
-Which of the following is the correct way to use the `minmax()` function?
+Wie verwenden Sie die `minmax()`-Funktion korrekt?
 
 #### --distractors--
 
@@ -554,51 +554,51 @@ Which of the following is the correct way to use the `minmax()` function?
 
 #### --text--
 
-How do you position a grid item within a layout defined by `grid-template-areas`?
+Wie positionieren Sie ein Grid-Element innerhalb eines Layouts, das durch `grid-template-areas` definiert ist?
 
 #### --distractors--
 
-By directly defining the item's size and location within the grid using `grid-template-rows` and `grid-template-columns`.
+Indem Sie die Größe und Position des Elements direkt im Grid mit `grid-template-rows` und `grid-template-columns` definieren.
 
 ---
 
-By using the `grid-area` property and specifying both row and column start and end positions.
+Indem Sie die `grid-area`-Eigenschaft verwenden und sowohl Start- als auch Endpositionen für Reihen und Spalten angeben.
 
 ---
 
-By setting both `grid-area` and explicit pixel coordinates.
+Indem Sie sowohl `grid-area` als auch explizite Pixelkoordinaten setzen.
 
 #### --answer--
 
-By assigning the named area to the item's `grid-area` property.
+Indem Sie den benannten Bereich der `grid-area`-Eigenschaft des Elements zuweisen.
 
 ### --question--
 
 #### --text--
 
-What does the `grid-auto-rows` property control?
+Was steuert die `grid-auto-rows`-Eigenschaft?
 
 #### --distractors--
 
-The height of explicitly defined rows.
+Die Höhe explizit definierter Reihen.
 
 ---
 
-The maximum width of grid columns.
+Die maximale Breite von Grid-Spalten.
 
 ---
 
-The spacing between rows.
+Den Abstand zwischen Reihen.
 
 #### --answer--
 
-The size of implicitly created rows.
+Die Größe implizit erstellter Reihen.
 
 ### --question--
 
 #### --text--
 
-Which property would you use to make a grid item span multiple rows?
+Welche Eigenschaft würden Sie verwenden, um ein Grid-Element mehrere Reihen überspannen zu lassen?
 
 #### --distractors--
 
@@ -620,29 +620,29 @@ Which property would you use to make a grid item span multiple rows?
 
 #### --text--
 
-What defines an explicit grid?
+Was definiert ein explizites Grid?
 
 #### --distractors--
 
-Tracks created automatically to fit content.
+Spuren, die automatisch erstellt werden, um den Inhalt anzupassen.
 
 ---
 
-Tracks defined by the `fr` unit.
+Spuren, die durch die `fr`-Einheit definiert sind.
 
 ---
 
-Tracks added with `grid-auto-flow`.
+Spuren, die mit `grid-auto-flow` hinzugefügt werden.
 
 #### --answer--
 
-Tracks explicitly set by `grid-template-columns` or `grid-template-rows`.
+Spuren, die explizit mit `grid-template-columns` oder `grid-template-rows` gesetzt werden.
 
 ### --question--
 
 #### --text--
 
-Which value for `grid-auto-flow` would make new items fill columns first?
+Welcher Wert für `grid-auto-flow` sorgt dafür, dass neue Elemente zuerst Spalten füllen?
 
 #### --distractors--
 
@@ -664,29 +664,29 @@ Which value for `grid-auto-flow` would make new items fill columns first?
 
 #### --text--
 
-What is the purpose of `grid-template-areas`?
+Was ist der Zweck von `grid-template-areas`?
 
 #### --distractors--
 
-To auto-generate implicit tracks.
+Automatisches Erzeugen impliziter Spuren.
 
 ---
 
-To replace the `fr` unit.
+Ersetzen der `fr`-Einheit.
 
 ---
 
-To set `z-index` values.
+Setzen von `z-index`-Werten.
 
 #### --answer--
 
-To visually map items to named grid areas.
+Visuelles Zuordnen von Elementen zu benannten Grid-Bereichen.
 
 ### --question--
 
 #### --text--
 
-How can you make a grid item start at column line 2 and end at column line 4?
+Wie können Sie ein Grid-Element so positionieren, dass es an der Spaltenlinie 2 beginnt und an der Spaltenlinie 4 endet?
 
 #### --distractors--
 
@@ -708,29 +708,29 @@ How can you make a grid item start at column line 2 and end at column line 4?
 
 #### --text--
 
-What is the effect of `grid-template-columns: 1fr 2fr 1fr`?
+Was bewirkt `grid-template-columns: 1fr 2fr 1fr`?
 
 #### --distractors--
 
-Creates three equal-width columns.
+Erstellt drei Spalten mit gleicher Breite.
 
 ---
 
-Makes the middle column three times as wide as the others.
+Macht die mittlere Spalte dreimal so breit wie die anderen.
 
 ---
 
-Forces all columns to be exactly `1fr` wide.
+Erzwingt, dass alle Spalten genau `1fr` breit sind.
 
 #### --answer--
 
-Creates three columns where the middle is twice as wide as the sides.
+Erstellt drei Spalten, wobei die mittlere doppelt so breit ist wie die seitlichen.
 
 ### --question--
 
 #### --text--
 
-How would you create a grid with 3 equal columns and a `20px` gap between them?
+Wie würden Sie ein Grid mit 3 gleichen Spalten und einem `20px`-Abstand zwischen ihnen erstellen?
 
 #### --distractors--
 
@@ -773,73 +773,73 @@ How would you create a grid with 3 equal columns and a `20px` gap between them?
 
 #### --text--
 
-What does `repeat(3, minmax(100px, 1fr))` create?
+Was erzeugt `repeat(3, minmax(100px, 1fr))`?
 
 #### --distractors--
 
-Three columns that can't shrink below `100px`.
+Drei Spalten, die nicht unter `100px` schrumpfen können.
 
 ---
 
-Three fixed `100px` columns.
+Drei feste `100px`-Spalten.
 
 ---
 
-Three rows with maximum height of `1fr`.
+Drei Reihen mit maximaler Höhe von `1fr`.
 
 #### --answer--
 
-Three columns that grow proportionally but won't shrink below `100px`.
+Drei Spalten, die proportional wachsen, aber nicht unter `100px` schrumpfen.
 
 ### --question--
 
 #### --text--
 
-Which statement about implicit grids is true?
+Welche Aussage über implizite Grids ist richtig?
 
 #### --distractors--
 
-Implicit grids ignore the `gap` property.
+Implizite Grids ignorieren die `gap`-Eigenschaft.
 
 ---
 
-Implicit tracks must be defined with `grid-template-areas`.
+Implizite Spuren müssen mit `grid-template-areas` definiert werden.
 
 ---
 
-Implicit tracks can only be created using the `grid-auto-flow` property.
+Implizite Spuren können nur mit der `grid-auto-flow`-Eigenschaft erstellt werden.
 
 #### --answer--
 
-Implicit tracks are created when content doesn't fit explicit tracks.
+Implizite Spuren werden erstellt, wenn der Inhalt nicht in explizite Spuren passt.
 
 ### --question--
 
 #### --text--
 
-What does the `place-items` property do in CSS Grid?
+Was bewirkt die `place-items`-Eigenschaft in CSS Grid?
 
 #### --distractors--
 
-It sets the size of grid items automatically based on available space.
+Sie setzt die Größe der Grid-Elemente automatisch basierend auf verfügbarem Platz.
 
 ---
 
-It controls the grid template's column and row definitions.
+Sie steuert die Spalten- und Reihen-Definitionen der Grid-Vorlage.
 
 ---
 
-It adjusts the order of grid items within the container.
+Sie passt die Reihenfolge der Grid-Elemente im Container an.
 
 #### --answer--
 
-It is a shorthand for aligning grid items in both the block and inline axes.
+Sie ist eine Kurzschreibweise, um Grid-Elemente sowohl in der Block- als auch in der Inline-Achse auszurichten.
 
 ### --question--
 
 #### --text--
 
-What does this CSS accomplish?
+Was bewirkt dieser CSS-Code?
 
 ```css
 .container {
@@ -849,69 +849,69 @@ What does this CSS accomplish?
 
 #### --distractors--
 
-Creates fixed `150px` columns that overflow the container.
+Erstellt feste `150px`-Spalten, die den Container überlaufen.
 
 ---
 
-Creates columns that are exactly `1fr` wide regardless of content.
+Erstellt Spalten, die unabhängig vom Inhalt genau `1fr` breit sind.
 
 ---
 
-Creates a maximum of one column per `150px` of available width.
+Erstellt maximal eine Spalte pro `150px` verfügbarer Breite.
 
 #### --answer--
 
-Creates flexible columns that are at least `150px` and collapse when space is limited.
+Erstellt flexible Spalten, die mindestens `150px` breit sind und bei Platzmangel zusammenfallen.
 
 ### --question--
 
 #### --text--
 
-How can you create asymmetric grid layouts?
+Wie können Sie asymmetrische Grid-Layouts erstellen?
 
 #### --distractors--
 
-By using only `fr` units.
+Indem Sie nur `fr`-Einheiten verwenden.
 
 ---
 
-By mixing different length units in `grid-template-columns`.
+Indem Sie verschiedene Längeneinheiten in `grid-template-columns` mischen.
 
 ---
 
-By setting `grid-asymmetric: true`.
+Indem Sie `grid-asymmetric: true` setzen.
 
 #### --answer--
 
-By defining different sizes for each track.
+Indem Sie für jede Spur unterschiedliche Größen definieren.
 
 ### --question--
 
 #### --text--
 
-What does `grid-column-start: 2` do to a grid item?
+Was bewirkt `grid-column-start: 2` bei einem Grid-Element?
 
 #### --distractors--
 
-Makes it span 2 columns.
+Lässt es 2 Spalten überspannen.
 
 ---
 
-Offsets it by 2 pixels.
+Versetzt es um 2 Pixel.
 
 ---
 
-Positions it starting at the second vertical grid line.
+Positioniert es beginnend an der zweiten vertikalen Gitterlinie.
 
 #### --answer--
 
-Makes it start at the second column line.
+Lässt es an der zweiten Spaltenlinie beginnen.
 
 ### --question--
 
 #### --text--
 
-Which property would you use to control overflow behavior in grid tracks?
+Welche Eigenschaft würden Sie verwenden, um das Überlaufverhalten in Grid-Spuren zu steuern?
 
 #### --distractors--
 
@@ -933,7 +933,7 @@ Which property would you use to control overflow behavior in grid tracks?
 
 #### --text--
 
-What will be the result for the following code?
+Was wird das Ergebnis des folgenden Codes sein?
 
 ```css
 .container {
@@ -946,25 +946,25 @@ What will be the result for the following code?
 
 #### --distractors--
 
-The container will have three columns of equal width, and two rows with `150px` height each.
+Der Container hat drei Spalten gleicher Breite und zwei Reihen mit jeweils `150px` Höhe.
 
 ---
 
-The container will have three columns, all with `100px` width, and two rows with `150px` height.
+Der Container hat drei Spalten, alle mit `100px` Breite, und zwei Reihen mit `150px` Höhe.
 
 ---
 
-The container will have two rows, each with a height of `1fr`.
+Der Container hat zwei Reihen, jeweils mit einer Höhe von `1fr`.
 
 #### --answer--
 
-The container will have three columns: 100px, `1fr` and `2fr` wide and two rows: one auto and one with `150px` height.
+Der Container hat drei Spalten: 100px, `1fr` und `2fr` breit und zwei Reihen: eine auto und eine mit `150px` Höhe.
 
 ### --question--
 
 #### --text--
 
-How would you make a grid item span all available rows?
+Wie lassen Sie ein Grid-Element alle verfügbaren Reihen überspannen?
 
 #### --distractors--
 
@@ -986,7 +986,7 @@ How would you make a grid item span all available rows?
 
 #### --text--
 
-Which property controls the alignment of grid items along the block axis?
+Welche Eigenschaft steuert die Ausrichtung von Grid-Elementen entlang der Block-Achse?
 
 #### --distractors--
 
@@ -1008,7 +1008,7 @@ Which property controls the alignment of grid items along the block axis?
 
 #### --text--
 
-How can you ensure a grid item stays in the first column regardless of grid changes?
+Wie stellen Sie sicher, dass ein Grid-Element immer in der ersten Spalte bleibt, unabhängig von Änderungen im Grid?
 
 #### --distractors--
 

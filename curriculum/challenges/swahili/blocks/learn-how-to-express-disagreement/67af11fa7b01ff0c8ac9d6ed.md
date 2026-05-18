@@ -1,6 +1,6 @@
 ---
 id: 67af11fa7b01ff0c8ac9d6ed
-title: Task 45
+title: Zoezi la 45
 challengeType: 19
 dashedName: task-45
 lang: en-US
@@ -10,13 +10,13 @@ lang: en-US
 
 # --instructions--
 
-Read the text and answer the question below.
+Soma maandishi na jibu swali lililopo hapa chini.
 
 # --questions--
 
 ## --text--
 
-After reviewing the survey results for the remote work stipend, Bob decided to write an article:
+Baada ya kukagua matokeo ya utafiti kuhusu ruzuku ya kazi ya mbali, Bob aliamua kuandika makala:
 
 `The Remote Work Stipend Debate: Comfort or Productivity?`
 
@@ -30,35 +30,35 @@ After reviewing the survey results for the remote work stipend, Bob decided to w
 
 `As remote work grows, companies need to support their workers in the best way possible. A well-equipped home office isn't just a nice extra — it's key to doing great work.`
 
-Why do some workers prefer to use the stipend for office furniture?
+Kwa nini baadhi ya wafanyakazi wanapendelea kutumia ruzuku hiyo kwa samani za ofisi?
 
 ## --answers--
 
-Because they don't like working remotely.
+Kwa sababu hawapendi kufanya kazi kwa mbali.
 
 ### --feedback--
 
-The article does not suggest that these workers dislike remote work.
+Makala haionyeshi kuwa wafanyakazi hawa hawapendi kazi ya mbali.
 
 ---
 
-To improve comfort and prevent back pain.
+Ili kuboresha faraja na kuzuia maumivu ya mgongo.
 
 ---
 
-To buy decorations for their home office.
+Kununua mapambo kwa ofisi yao ya nyumbani.
 
 ### --feedback--
 
-The article doesn't discuss furniture that improves decorations.
+Makala haijajadili samani zinazoboresha mapambo.
 
 ---
 
-To impress their coworkers.
+Kuvutia wenzake kazini.
 
 ### --feedback--
 
-The reason given in the article isn't appearances.
+Sababu iliyotolewa katika makala si kuhusu muonekano.
 
 ## --video-solution--
 
@@ -66,6 +66,6 @@ The reason given in the article isn't appearances.
 
 # --explanation--
 
-The article explains that `a bad chair and desk can cause health problems` and make it harder to focus. This is why some workers prioritize using the stipend for office furniture instead of technology.
+Makala inaeleza kuwa `a bad chair and desk can cause health problems` na kufanya iwe vigumu kuwa makini. Hii ndiyo sababu baadhi ya wafanyakazi wanapendelea kutumia ruzuku hiyo kwa samani za ofisi badala ya teknolojia.
 
-Focus on how the article highlights ergonomics and well-being as key reasons for choosing furniture over computers.
+Makini na jinsi makala inavyosisitiza ergonomics na ustawi kama sababu kuu za kuchagua samani badala ya kompyuta.

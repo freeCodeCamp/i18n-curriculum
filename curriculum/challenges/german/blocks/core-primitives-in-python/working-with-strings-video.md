@@ -1,6 +1,6 @@
 ---
 id: 0e2f4bd857b1edc70bfcd1f9
-title: Working with Strings
+title: Arbeiten mit Strings
 challengeType: 11
 videoId: OrejgL7kP3M
 dashedName: working-with-strings
@@ -8,13 +8,13 @@ dashedName: working-with-strings
 
 # --description--
 
-In this video, you will learn about string concatenation, indexing, and useful string methods.
+In diesem Video lernen Sie etwas über String-Verkettung, Indexierung und nützliche String-Methoden.
 
 # --questions--
 
 ## --text--
 
-Which of the following is the correct way to access the first character of a string?
+Welche der folgenden Möglichkeiten ist der richtige Weg, um auf das erste Zeichen eines Strings zuzugreifen?
 
 ## --answers--
 

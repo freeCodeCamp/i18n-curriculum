@@ -1,6 +1,6 @@
 ---
 id: 699e782f8f18cf77dfce5c1a
-title: Angle Sum and Difference Formulas
+title: Winkel-Summen- und Differenzformeln
 challengeType: 11
 videoId: cWSkoA9jshQ
 dashedName: angle-sum-and-difference-formulas
@@ -8,13 +8,13 @@ dashedName: angle-sum-and-difference-formulas
 
 # --description--
 
-In this video, you will learn about the angle sum and difference formulas.
+In diesem Video lernen Sie die Winkel-Summen- und Differenzformeln kennen.
 
 # --questions--
 
 ## --text--
 
-What is the exact value for $\sin(105°)$?
+Wie lautet der exakte Wert für $\sin(105°)$?
 
 ## --answers--
 

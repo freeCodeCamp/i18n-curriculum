@@ -1,24 +1,24 @@
 ---
 id: 68ed44cdcb4ff9d0caea0e84
-title: Step 23
+title: Schritt 23
 challengeType: 0
 dashedName: step-23
 ---
 
 # --description--
 
-Since you're calling `fetchCardsData` and `initializeEventListeners` inside the constructor, you now need to define them inside the class. Create both as `private` methods. Make sure `fetchCardsData` is asynchronous since it will handle API calls.
+Da Sie `fetchCardsData` und `initializeEventListeners` im Konstruktor aufrufen, müssen Sie diese jetzt innerhalb der Klasse definieren. Erstellen Sie beide als `private`-Methoden. Stellen Sie sicher, dass `fetchCardsData` asynchron ist, da es API-Aufrufe verarbeitet.
 
 # --hints--
 
-You should have a `private` method named `fetchCardsData`.
+Sie sollten eine `private`-Methode mit dem Namen `fetchCardsData` haben.
 
 ```js
 const explorer = await __helpers.Explorer(code);
 assert.isTrue(explorer.classes.Game.methods.fetchCardsData.isPrivate());
 ```
 
-Your `fetchCardsData` method should be `async`.
+Ihre `fetchCardsData`-Methode sollte `async` sein.
 
 ```js
 const explorer = await __helpers.Explorer(code);
@@ -26,7 +26,7 @@ const method = explorer.classes.Game.methods.fetchCardsData.toString();
 assert.match(method, /async/);
 ```
 
-You should have a `private` method named `initializeEventListeners`.
+Sie sollten eine `private`-Methode mit dem Namen `initializeEventListeners` haben.
 
 ```js
 const explorer = await __helpers.Explorer(code);

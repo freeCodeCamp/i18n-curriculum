@@ -1,6 +1,6 @@
 ---
 id: 662e4f2edbb46a1dc6efc94f
-title: Task 37
+title: Zoezi la 37
 challengeType: 22
 dashedName: task-37
 lang: en-US
@@ -10,9 +10,9 @@ lang: en-US
 
 # --description--
 
-`Common` is used to describe something that happens often or is widely shared among many people. For example, `Colds are a common illness during the winter.` This means it's a usual health issue many people face during that time of year.
+`Common` hutumika kuelezea jambo linalotokea mara kwa mara au linaloshirikishwa sana na watu wengi. Kwa mfano, `Colds are a common illness during the winter.` Hii ina maana ni tatizo la kiafya la kawaida ambalo watu wengi hukumbana nalo wakati huo wa mwaka.
 
-`Challenge` refers to a task or situation that requires special effort to accomplish because it is difficult. For instance, `Learning to ride a bike was a big challenge for her at first.` This sentence describes how learning to ride a bike presented difficulties initially.
+`Challenge` linahusu zoezi au hali inayohitaji juhudi maalum kufanikisha kwa sababu ni ngumu. Kwa mfano, `Learning to ride a bike was a big challenge for her at first.` Sentensi hii inaelezea jinsi kujifunza kuendesha baiskeli kulivyokuwa na changamoto mwanzoni.
 
 # --fillInTheBlank--
 
@@ -26,7 +26,7 @@ lang: en-US
 
 ### --feedback--
 
-This adjective describes something that occurs frequently or is usual among a group.
+Kivumishi hiki kinaelezea jambo linalotokea mara kwa mara au ni la kawaida miongoni mwa kundi.
 
 ---
 
@@ -34,7 +34,7 @@ This adjective describes something that occurs frequently or is usual among a gr
 
 ### --feedback--
 
-This noun refers to a difficult task or problem that requires effort to solve or overcome.
+Nomino hii inahusu zoezi au tatizo gumu linalohitaji juhudi kutatua au kushinda.
 
 # --scene--
 

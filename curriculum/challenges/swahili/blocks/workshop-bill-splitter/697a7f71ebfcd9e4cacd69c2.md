@@ -1,30 +1,30 @@
 ---
 id: 697a7f71ebfcd9e4cacd69c2
-title: Step 8
+title: Hatua 8
 challengeType: 20
 dashedName: step-8
 ---
 
 # --description--
 
-The bill is split, but division often results in long decimal numbers. Since money is typically represented with two decimal places, you should round the final result.
+Bili imegawanywa, lakini mgawanyo mara nyingi husababisha nambari ndefu za desimali. Kwa kuwa pesa kawaida huwakilishwa na sehemu mbili za desimali, unapaswa kuzungusha matokeo ya mwisho.
 
-In an earlier lesson, you learned about the `round()` function which takes two arguments: the number you want to round and the number of decimal places to keep. Here's an example:
+Katika funzo la awali, ulijifunza kuhusu kitendakazi cha `round()` ambacho kinachukua hoja mbili: nambari unayotaka kuzungusha na idadi ya sehemu za desimali za kuhifadhi. Hapa kuna mfano:
 
 ```py
 num = 4.815162342
 round(num, 3) # 4.815
 ```
 
-Use the `round()` function to round `final_bill` to two decimal places and assign the result to a new variable named `each_pays`.
+Tumia kitendakazi cha `round()` kuzungusha `final_bill` hadi sehemu mbili za desimali na weka thamani hiyo katika kigezo kipya kinachoitwa `each_pays`.
 
-Finally, use `print()` to display the string `Each person pays:` followed by a space and your `each_pays` variable.
+Mwishowe, tumia `print()` kuonyesha mfuatano wa herufi `Each person pays:` ukifuatiwa na nafasi na kigezo chako cha `each_pays`.
 
-With that, the bill splitter workshop is complete.
+Kwa hivyo, warsha ya kugawanya bili imekamilika.
 
 # --hints--
 
-You should define a variable named `each_pays`.
+Unapaswa kufafanua kigezo kinachoitwa `each_pays`.
 
 ```js
 ({
@@ -34,7 +34,7 @@ You should define a variable named `each_pays`.
 })
 ```
 
-You should use the `round()` function to round `final_bill` to two decimal places and assign the result to your `each_pays` variable.
+Unapaswa kutumia kitendakazi cha `round()` kuzungusha `final_bill` hadi sehemu mbili za desimali na weka thamani hiyo katika kigezo chako cha `each_pays`.
 
 ```js
 ({
@@ -44,7 +44,7 @@ You should use the `round()` function to round `final_bill` to two decimal place
 })
 ```
 
-You should use `print()` to display the string `Each person pays:` followed by a space and your `each_pays` variable.
+Unapaswa kutumia `print()` kuonyesha mfuatano wa herufi `Each person pays:` ukifuatiwa na nafasi na kigezo chako cha `each_pays`.
 
 ```js
 ({

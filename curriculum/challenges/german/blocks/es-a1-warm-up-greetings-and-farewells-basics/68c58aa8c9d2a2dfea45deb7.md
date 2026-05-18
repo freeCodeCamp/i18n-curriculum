@@ -1,26 +1,25 @@
 ---
 id: 68c58aa8c9d2a2dfea45deb7
-title: Task 7
+title: Aufgabe 7
 challengeType: 19
 dashedName: task-7
 lang: es
 ---
-
 <!-- (Audio) Elena: Hasta luego -->
 
 # --description--
 
-Elena is saying goodbye, but she expects to see you again.
+Elena verabschiedet sich, aber sie erwartet, Sie wiederzusehen.
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Hören Sie sich den Audioausschnitt an und beantworten Sie die folgende Frage.
 
 # --questions--
 
 ## --text--
 
-What phrase does Elena use to say "see you later"?
+Welche Phrase verwendet Elena, um „bis später“ zu sagen?
 
 ## --answers--
 
@@ -32,7 +31,7 @@ What phrase does Elena use to say "see you later"?
 
 ### --feedback--
 
-This is a goodbye, but it's more final. The speaker uses a different phrase.
+Dies ist ein Abschied, aber er klingt endgültiger. Die Sprecherin verwendet eine andere Phrase.
 
 ---
 
@@ -40,7 +39,7 @@ This is a goodbye, but it's more final. The speaker uses a different phrase.
 
 ### --feedback--
 
-This is also an informal way to say goodbye, but it's not the one in the audio.
+Dies ist ebenfalls eine informelle Verabschiedung, aber nicht die im Audio verwendete.
 
 ---
 
@@ -48,7 +47,7 @@ This is also an informal way to say goodbye, but it's not the one in the audio.
 
 ### --feedback--
 
-This means "Hi", a general greeting, but it's not what Elena says.
+Das bedeutet „Hallo“, eine allgemeine Begrüßung, aber nicht das, was Elena sagt.
 
 ## --video-solution--
 
@@ -56,11 +55,11 @@ This means "Hi", a general greeting, but it's not what Elena says.
 
 # --explanation--
 
-`Hasta luego` is a common way to say goodbye in Spanish. It translates to "See you later".
+`Hasta luego` ist eine gebräuchliche Art, sich auf Spanisch zu verabschieden. Es bedeutet „Bis später“.
 
-It's used when you expect to see the person again, but not necessarily soon. For example:
+Es wird verwendet, wenn Sie die Person wiedersehen wollen, aber nicht unbedingt bald. Zum Beispiel:  
 
-`Hasta luego, Marta.` – See you later, Marta.
+`Hasta luego, Marta.` – Bis später, Marta.
 
 # --scene--
 

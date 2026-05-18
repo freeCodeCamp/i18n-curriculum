@@ -1,60 +1,60 @@
 ---
 id: bd7158d8c442eddfaeb5bd17
-title: Build a JavaScript Calculator
+title: Jenga kalkuleta ya JavaScript
 challengeType: 3
 forumTopicId: 301371
 dashedName: build-a-javascript-calculator
 ---
 
 # --description--
-**Note:** **React 18 has known incompatibilities with the tests for this project (see [issue](https://github.com/freeCodeCamp/freeCodeCamp/issues/45922))**
+**Kumbuka:** **React 18 ina matatizo yanayojulikana na vipimo vya mradi huu (angalia [issue](https://github.com/freeCodeCamp/freeCodeCamp/issues/45922))**
 
-**Objective:** Build an app that is functionally similar to this: <a href="https://javascript-calculator.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://javascript-calculator.freecodecamp.rocks/</a>.
+**Lengo:** Jenga programu inayofanya kazi kama hii: <a href="https://javascript-calculator.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://javascript-calculator.freecodecamp.rocks/</a>.
 
-Fulfill the below user stories and get all of the tests to pass. Use whichever libraries or APIs you need. Give it your own personal style.
+Kamilisha hadithi za mtumiaji zilizo hapa chini na upite vipimo vyote. Tumia maktaba au API yoyote unayohitaji. Toa mtindo wako binafsi.
 
-You can use any mix of HTML, JavaScript, CSS, Bootstrap, SASS, React, Redux, and jQuery to complete this project. You should use a front-end framework (like React for example) because this section is about learning front-end frameworks. Additional technologies not listed above are not recommended and using them is at your own risk. We are looking at supporting other front-end frameworks like Angular and Vue, but they are not currently supported. We will accept and try to fix all issue reports that use the suggested technology stack for this project. Happy coding!
+Unaweza kutumia mchanganyiko wowote wa HTML, JavaScript, CSS, Bootstrap, SASS, React, Redux, na jQuery kukamilisha mradi huu. Inashauriwa kutumia mfumo wa kazi wa mbele (kama React kwa mfano) kwa sababu sehemu hii ni kuhusu kujifunza mifumo ya kazi ya mbele. Teknolojia nyingine zisizotajwa hapo juu hazipendekezwi na kuzitumia ni kwa hatari yako mwenyewe. Tunatazamia kusaidia mifumo mingine ya kazi ya mbele kama Angular na Vue, lakini hazijaungwa mkono kwa sasa. Tutakubali na kujaribu kurekebisha ripoti zote za matatizo zinazotumia teknolojia iliyopendekezwa kwa mradi huu. Furahia kuandika msimbo!
 
-**User Story #1:** My calculator should contain a clickable element containing an `=` (equal sign) with a corresponding `id="equals"`.
+**Hadithi ya mtumiaji #1:** Kalkuleta yangu inapaswa kuwa na kipengele kinachoweza kubofywa chenye `=` (ishara ya usawa) na `id="equals"` inayolingana.
 
-**User Story #2:** My calculator should contain 10 clickable elements containing one number each from 0-9, with the following corresponding IDs: `id="zero"`, `id="one"`, `id="two"`, `id="three"`, `id="four"`, `id="five"`, `id="six"`, `id="seven"`, `id="eight"`, and `id="nine"`.
+**Hadithi ya mtumiaji #2:** Kalkuleta yangu inapaswa kuwa na vipengele 10 vinavyoweza kubofywa kila kikiwa na nambari moja kutoka 0-9, na vitambulisho vifuatavyo vinavyolingana: `id="zero"`, `id="one"`, `id="two"`, `id="three"`, `id="four"`, `id="five"`, `id="six"`, `id="seven"`, `id="eight"`, na `id="nine"`.
 
-**User Story #3:** My calculator should contain 4 clickable elements each containing one of the 4 primary mathematical operators with the following corresponding IDs: `id="add"`, `id="subtract"`, `id="multiply"`, `id="divide"`.
+**Hadithi ya mtumiaji #3:** Kalkuleta yangu inapaswa kuwa na vipengele 4 vinavyoweza kubofywa kila kikiwa na mojawapo ya waendeshaji wakuu wa kihesabu wanne na vitambulisho vifuatavyo vinavyolingana: `id="add"`, `id="subtract"`, `id="multiply"`, `id="divide"`.
 
-**User Story #4:** My calculator should contain a clickable element containing a `.` (decimal point) symbol with a corresponding `id="decimal"`.
+**Hadithi ya mtumiaji #4:** Kalkuleta yangu inapaswa kuwa na kipengele kinachoweza kubofywa chenye alama ya `.` (alama ya desimali) na `id="decimal"` inayolingana.
 
-**User Story #5:** My calculator should contain a clickable element with an `id="clear"`.
+**Hadithi ya mtumiaji #5:** Kalkuleta yangu inapaswa kuwa na kipengele kinachoweza kubofywa chenye `id="clear"`.
 
-**User Story #6:** My calculator should contain an element to display values with a corresponding `id="display"`.
+**Hadithi ya mtumiaji #6:** Kalkuleta yangu inapaswa kuwa na kipengele cha kuonyesha thamani chenye `id="display"` inayolingana.
 
-**User Story #7:** At any time, pressing the `clear` button clears the input and output values, and returns the calculator to its initialized state; 0 should be shown in the element with the id of `display`.
+**Hadithi ya mtumiaji #7:** Wakati wowote, kubonyeza kitufe cha `clear` kunafuta thamani za ingizo na matokeo, na kurudisha kalkuleta katika hali yake ya awali; 0 inapaswa kuonyeshwa katika kipengele chenye kitambulisho cha `display`.
 
-**User Story #8:** As I input numbers, I should be able to see my input in the element with the id of `display`.
+**Hadithi ya mtumiaji #8:** Ninapoingiza nambari, ninapaswa kuona ingizo langu katika kipengele chenye kitambulisho cha `display`.
 
-**User Story #9:** In any order, I should be able to add, subtract, multiply and divide a chain of numbers of any length, and when I hit `=`, the correct result should be shown in the element with the id of `display`.
+**Hadithi ya mtumiaji #9:** Kwa mpangilio wowote, ninapaswa kuweza kuongeza, kutoa, kuzidisha na kugawanya mnyororo wa nambari za urefu wowote, na ninapobofya `=`, matokeo sahihi yanapaswa kuonyeshwa katika kipengele chenye kitambulisho cha `display`.
 
-**User Story #10:** When inputting numbers, my calculator should not allow a number to begin with multiple zeros.
+**Hadithi ya mtumiaji #10:** Wakati wa kuingiza nambari, kalkuleta yangu haipaswi kuruhusu nambari kuanza na sifuri nyingi.
 
-**User Story #11:** When the decimal element is clicked, a `.` should append to the currently displayed value; two `.` in one number should not be accepted.
+**Hadithi ya mtumiaji #11:** Wakati kipengele cha desimali kinapobofyiwa, `.` inapaswa kuongezwa kwenye thamani inayojitokeza; `.` mbili katika nambari moja hazipitwi.
 
-**User Story #12:** I should be able to perform any operation (`+`, `-`, `*`, `/`) on numbers containing decimal points.
+**Hadithi ya mtumiaji #12:** Ninapaswa kuweza kufanya operesheni yoyote (`+`, `-`, `*`, `/`) kwa nambari zenye alama za desimali.
 
-**User Story #13:** If 2 or more operators are entered consecutively, the operation performed should be the last operator entered (excluding the negative (`-`) sign). For example, if `5 + * 7 =` is entered, the result should be `35` (i.e. `5 * 7`); if `5 * - 5 =` is entered, the result should be `-25` (i.e. `5 * (-5)`).
+**Hadithi ya mtumiaji #13:** Ikiwa waendeshaji wawili au zaidi wanaingizwa mfululizo, operesheni inayofanywa inapaswa kuwa waendeshaji wa mwisho waliowekwa (isipokuwa alama ya hasi `-`). Kwa mfano, ikiwa `5 + * 7 =` inaingizwa, matokeo yanapaswa kuwa `35` (yaani `5 * 7`); ikiwa `5 * - 5 =` inaingizwa, matokeo yanapaswa kuwa `-25` (yaani `5 * (-5)`).
 
-**User Story #14:** Pressing an operator immediately following `=` should start a new calculation that operates on the result of the previous evaluation.
+**Hadithi ya mtumiaji #14:** Kubonyeza mwendeshaji mara moja baada ya `=` kunapaswa kuanzisha hesabu mpya inayofanya kazi kwa matokeo ya tathmini iliyopita.
 
-**User Story #15:** My calculator should have several decimal places of precision when it comes to rounding (note that there is no exact standard, but you should be able to handle calculations like `2 / 7` with reasonable precision to at least 4 decimal places).
+**Hadithi ya mtumiaji #15:** Kalkuleta yangu inapaswa kuwa na usahihi wa sehemu kadhaa za desimali linapokuja suala la kuzungusha (kumbuka hakuna kiwango kamili, lakini unapaswa kuweza kushughulikia mahesabu kama `2 / 7` kwa usahihi wa angalau sehemu 4 za desimali).
 
-**Note On Calculator Logic:** It should be noted that there are two main schools of thought on calculator input logic: <dfn>immediate execution logic</dfn> and <dfn>formula logic</dfn>. Our example utilizes formula logic and observes order of operation precedence, immediate execution does not. Either is acceptable, but please note that depending on which you choose, your calculator may yield different results than ours for certain equations (see below example). As long as your math can be verified by another production calculator, please do not consider this a bug.
+**Kumbuka kuhusu mantiki ya kalkuleta:** Inapaswa kutambuliwa kuwa kuna mitazamo miwili mikuu kuhusu mantiki ya ingizo la kalkuleta: <dfn>mantiki ya utekelezaji wa papo hapo</dfn> na <dfn>mantiki ya fomula</dfn>. Mfano wetu unatumia mantiki ya fomula na unazingatia kipaumbele cha mpangilio wa operesheni, utekelezaji wa papo hapo hauzingatii. Moja kati ya hizi ni sawa, lakini tafadhali fahamu kuwa kulingana na unachochagua, kalkuleta yako inaweza kutoa matokeo tofauti na yetu kwa baadhi ya hesabu (angalia mfano hapa chini). Mradi hesabu zako zinaweza kuthibitishwa na kalkuleta nyingine ya uzalishaji, tafadhali usichukulie hii kama hitilafu.
 
-**EXAMPLE:** `3 + 5 x 6 - 2 / 4 =`
+**MFANO:** `3 + 5 x 6 - 2 / 4 =`
 
--   **Immediate Execution Logic:** `11.5`
--   **Formula/Expression Logic:** `32.5`
+-   **Mantiki ya utekelezaji wa papo hapo:** `11.5`
+-   **Mantiki ya fomula/usemi wa kihesabu:** `32.5`
 
-You can build your project by <a href='https://codepen.io/pen?template=MJjpwO' target='_blank' rel="noopener noreferrer nofollow">using this CodePen template</a> and clicking `Save` to create your own pen. If you prefer to use another environment, then put this `<script>` tag into the body of your `index.html` file: `<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>`
+Unaweza kujenga mradi wako kwa <a href='https://codepen.io/pen?template=MJjpwO' target='_blank' rel="noopener noreferrer nofollow">kutumia kiolezo hiki cha CodePen</a> na kubofya `Save` kuunda pen yako mwenyewe. Ikiwa unapendelea kutumia mazingira mengine, basi weka lebo ya `<script>` ndani ya mwili wa faili yako ya `index.html`: `<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>`
 
-Once you're done, submit the URL to your working project with all its tests passing.
+Ukipata kazi, wasilisha URL ya mradi wako unaofanya kazi na vipimo vyote vikipita.
 
 # --solutions--
 

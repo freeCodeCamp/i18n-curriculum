@@ -1,6 +1,6 @@
 ---
 id: 69ae6a04b4a814be6a4f2bdd
-title: What are Embedding Models?
+title: Was sind Einbettungsmodelle?
 challengeType: 11
 videoId: _B6lL3WM_hQ
 dashedName: what-are-embedding-models
@@ -8,29 +8,29 @@ dashedName: what-are-embedding-models
 
 # --description--
 
-In this video, you will learn about embedding models.
+In diesem Video lernen Sie Einbettungsmodelle kennen.
 
 # --questions--
 
 ## --text--
 
-What is an embedding model?
+Was ist ein Einbettungsmodell?
 
 ## --answers--
 
-A model that compresses text files to make them smaller for faster downloads.
+Ein Modell, das Textdateien komprimiert, um sie für schnellere Downloads kleiner zu machen.
 
 ---
 
-A system that automatically translates text from one language into another.
+Ein System, das Text automatisch von einer Sprache in eine andere übersetzt.
 
 ---
 
-A model that takes text and converts it into a vector of numbers that represent meaning.
+Ein Modell, das Text nimmt und ihn in einen Zahlenvektor umwandelt, der die Bedeutung darstellt.
 
 ---
 
-A model that generates images based on a written description.
+Ein Modell, das Bilder basierend auf einer schriftlichen Beschreibung erzeugt.
 
 ## --video-solution--
 

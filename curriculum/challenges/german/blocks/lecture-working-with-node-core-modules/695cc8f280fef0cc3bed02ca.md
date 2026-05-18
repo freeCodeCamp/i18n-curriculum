@@ -1,27 +1,27 @@
 ---
 id: 695cc8f280fef0cc3bed02ca
-title: What Is the Path Module and How Does It Work?
+title: Was ist das Path-Modul und wie funktioniert es?
 challengeType: 19
 dashedName: what-is-the-path-module-and-how-does-it-work
 ---
 
 # --description--
 
-The Node.js `path` module lets you work with files and directory paths. It provides several useful methods for handling and transforming directories, including joining, normalizing, and resolving the directories across different platforms and operating systems.
+Das Node.js `path`-Modul ermöglicht es Ihnen, mit Dateien und Verzeichnispfaden zu arbeiten. Es stellt mehrere nützliche Methoden zum Verarbeiten und Transformieren von Verzeichnissen bereit, darunter das Zusammenführen, Normalisieren und Auflösen von Verzeichnissen über verschiedene Plattformen und Betriebssysteme hinweg.
 
-To use the `path` module, you can import it like this:
+Um das `path`-Modul zu verwenden, können Sie es so importieren:
 
 ```js
 const path = require("path");
 ```
 
-Let's look at some of the methods the `path` module provides and how they work.
+Schauen wir uns einige der Methoden an, die das `path`-Modul bereitstellt, und wie sie funktionieren.
 
-First, you should be aware of the Node.js global variables `__filename` and `__dirname`, AKA "common JS" variables. You don't need the `path` module to access them, which is why they are called global variables.
+Zuerst sollten Sie die Node.js globalen Variablen `__filename` und `__dirname` kennen, auch bekannt als „common JS“-Variablen. Sie benötigen das `path`-Modul nicht, um auf sie zuzugreifen, weshalb sie globale Variablen genannt werden.
 
-`__filename` is the absolute path of the current file and `__dirname` is the absolute path of the directory containing the current file.
+`__filename` ist der absolute Pfad der aktuellen Datei und `__dirname` ist der absolute Pfad des Verzeichnisses, das die aktuelle Datei enthält.
 
-For example, I have a `script.js` file I'm currently working with. Here's what the two methods return:
+Zum Beispiel arbeite ich gerade mit einer `script.js`-Datei. So geben die beiden Methoden zurück:
 
 ```js
 console.log(__filename);
@@ -31,55 +31,55 @@ console.log(__dirname);
 // /Users/user/Desktop/fCC/script-code/node/node-path
 ```
 
-You should also be aware of relative and absolute paths.
+Sie sollten auch relative und absolute Pfade kennen.
 
-A relative path points to a file or folder based on your current working directory. For example, `./assets/src/text-files`.
+Ein relativer Pfad verweist auf eine Datei oder einen Ordner basierend auf Ihrem aktuellen Arbeitsverzeichnis. Zum Beispiel `./assets/src/text-files`.
 
-An absolute path, on the other hand, gives the complete address of a file or folder from the root of your system, such as `/Users/johndoe/projects/app/assets/src/text-files.`
+Ein absoluter Pfad hingegen gibt die vollständige Adresse einer Datei oder eines Ordners vom Stamm Ihres Systems aus an, wie `/Users/johndoe/projects/app/assets/src/text-files.`.
 
-The `basename()` method shows the last part of the file, that is, the filename:
+Die `basename()`-Methode zeigt den letzten Teil der Datei an, also den Dateinamen:
 
 ```js
 console.log(path.basename(__filename)); // script.js
 ```
 
-`dirname()` returns the directory name of a path:
+`dirname()` gibt den Verzeichnisnamen eines Pfads zurück:
 
 ```js
 console.log(path.dirname(__dirname)); // node-path
 ```
 
-`extname()` returns the extension of the current file:
+`extname()` gibt die Erweiterung der aktuellen Datei zurück:
 
 ```js
 console.log(path.extname(__filename)); // .js
 ```
 
-You can also specify a different file to return the extension of:
+Sie können auch eine andere Datei angeben, um deren Erweiterung zurückzugeben:
 
 ```js
 console.log(path.extname('text-files/text1.txt')); // .txt
 ```
 
-The `join()` method takes all the path segments you pass in and joins them into one clean, normalized path. 
+Die `join()`-Methode nimmt alle übergebenen Pfadsegmente und fügt sie zu einem sauberen, normalisierten Pfad zusammen.
 
-This could be useful if you want to merge related files in different folders so you can work with them together:
+Das kann nützlich sein, wenn Sie verwandte Dateien in verschiedenen Ordnern zusammenführen möchten, um gemeinsam mit ihnen zu arbeiten:
 
 ```js
 const joinedPath = path.join("src", "assets", "text-files");
 console.log(joinedPath); // src/assets/text-files
 ```
 
-Windows uses backslashes to separate directories, so the result will be `src\assets\text-files`.
+Windows verwendet Backslashes zur Trennung von Verzeichnissen, daher ist das Ergebnis `src\assets\text-files`.
 
-In addition, the `join()` method automatically fixes wrong slashes and removes extra ones:
+Außerdem korrigiert die `join()`-Methode automatisch falsche Schrägstriche und entfernt überflüssige:
 
 ```js
 const wrongPath = path.join("/src//", "assets", "text-files");
 console.log(wrongPath); // /src/assets/text-files
 ```
 
-The `resolve()` method turns a sequence of path segments into an absolute path. It starts from your current working directory and results in a full path that points to the exact location on the device:
+Die `resolve()`-Methode wandelt eine Folge von Pfadsegmenten in einen absoluten Pfad um. Sie beginnt bei Ihrem aktuellen Arbeitsverzeichnis und ergibt einen vollständigen Pfad, der auf den genauen Speicherort auf dem Gerät zeigt:
 
 ```js
 const absolutePath = path.resolve("assets", "src", "text-files");
@@ -87,11 +87,11 @@ console.log(absolutePath);
 // /Users/user/Desktop/fCC/script-code/node/node-path/assets/src/text-files
 ```
 
-The difference between `join()` and `resolve()` is that `join()` creates a relative path, while `resolve()` returns an absolute path.
+Der Unterschied zwischen `join()` und `resolve()` besteht darin, dass `join()` einen relativen Pfad erstellt, während `resolve()` einen absoluten Pfad zurückgibt.
 
-Lastly, there are the `parse()` and `format()` methods.
+Zuletzt gibt es die Methoden `parse()` und `format()`.
 
-`parse()` takes a directory or file and returns an object that contains the breakdown of its parts, such as the system root, its directory, extension, and the filename:
+`parse()` nimmt ein Verzeichnis oder eine Datei und gibt ein Objekt zurück, das die Aufschlüsselung seiner Teile enthält, wie das Systemstammverzeichnis, das Verzeichnis, die Erweiterung und den Dateinamen:
 
 ```js
 const parsedFile = path.parse(__filename);
@@ -108,7 +108,7 @@ console.log(parsedFile);
 */
 ```
 
-`format()`, on the other hand, builds a path from an object containing directory, name, and extension:
+`format()` hingegen baut einen Pfad aus einem Objekt zusammen, das Verzeichnis, Name und Erweiterung enthält:
 
 ```js
 const formattedDirectory = path.format({
@@ -124,35 +124,35 @@ console.log(formattedDirectory); // /users/johndoe/docs/file.txt
 
 ## --text--
 
-What is the difference between `path.dirname()` and `path.extname()` in Node.js?
+Was ist der Unterschied zwischen `path.dirname()` und `path.extname()` in Node.js?
 
 ## --answers--
 
-`dirname()` removes the file extension, while `extname()` removes the directory name.
+`dirname()` entfernt die Dateierweiterung, während `extname()` den Verzeichnisnamen entfernt.
 
 ### --feedback--
 
-Focus on which one deals with directories and which one deals with file extensions.
+Achten Sie darauf, welche Methode sich mit Verzeichnissen und welche sich mit Dateierweiterungen beschäftigt.
 
 ---
 
-`dirname()` returns the full file path, while `extname()` returns the directory name.
+`dirname()` gibt den vollständigen Dateipfad zurück, während `extname()` den Verzeichnisnamen zurückgibt.
 
 ### --feedback--
 
-Focus on which one deals with directories and which one deals with file extensions.
+Achten Sie darauf, welche Methode sich mit Verzeichnissen und welche sich mit Dateierweiterungen beschäftigt.
 
 ---
 
-`dirname()` returns the directory name of a path, while `extname()` returns the file's extension.
+`dirname()` gibt den Verzeichnisnamen eines Pfads zurück, während `extname()` die Dateierweiterung zurückgibt.
 
 ---
 
-`dirname()` and `extname()` both return the same value but in different formats.
+`dirname()` und `extname()` geben beide denselben Wert zurück, jedoch in unterschiedlichen Formaten.
 
 ### --feedback--
 
-Focus on which one deals with directories and which one deals with file extensions.
+Achten Sie darauf, welche Methode sich mit Verzeichnissen und welche sich mit Dateierweiterungen beschäftigt.
 
 ## --video-solution--
 
@@ -160,7 +160,7 @@ Focus on which one deals with directories and which one deals with file extensio
 
 ## --text--
 
-Which `path` method builds a complete file path from an object containing directory, name, and extension properties?
+Welche `path`-Methode baut einen vollständigen Dateipfad aus einem Objekt zusammen, das Verzeichnis-, Name- und Erweiterungseigenschaften enthält?
 
 ## --answers--
 
@@ -168,7 +168,7 @@ Which `path` method builds a complete file path from an object containing direct
 
 ### --feedback--
 
-Think about what the opposite of `parse()` is.
+Denken Sie daran, was das Gegenteil von `parse()` ist.
 
 ---
 
@@ -180,7 +180,7 @@ Think about what the opposite of `parse()` is.
 
 ### --feedback--
 
-Think about what the opposite of `parse()` is.
+Denken Sie daran, was das Gegenteil von `parse()` ist.
 
 ---
 
@@ -188,7 +188,7 @@ Think about what the opposite of `parse()` is.
 
 ### --feedback--
 
-Think about what the opposite of `parse()` is.
+Denken Sie daran, was das Gegenteil von `parse()` ist.
 
 ## --video-solution--
 
@@ -196,35 +196,35 @@ Think about what the opposite of `parse()` is.
 
 ## --text--
 
-What do the Node.js global variables `__filename` and `__dirname` provide access to?
+Worauf geben die Node.js globalen Variablen `__filename` und `__dirname` Zugriff?
 
 ## --answers--
 
-The absolute path of the current file and its containing directory.
+Auf den absoluten Pfad der aktuellen Datei und ihres übergeordneten Verzeichnisses.
 
 ---
 
-The name of the current module and its dependencies.
+Auf den Namen des aktuellen Moduls und dessen Abhängigkeiten.
 
 ### --feedback--
 
-Think about which variables automatically give you full file and folder paths without using the path module.
+Denken Sie daran, welche Variablen Ihnen automatisch vollständige Datei- und Ordnerpfade geben, ohne das Path-Modul zu verwenden.
 
 ---
 
-The relative path to the Node.js installation directory.
+Auf den relativen Pfad zum Node.js-Installationsverzeichnis.
 
 ### --feedback--
 
-Think about which variables automatically give you full file and folder paths without using the path module.
+Denken Sie daran, welche Variablen Ihnen automatisch vollständige Datei- und Ordnerpfade geben, ohne das Path-Modul zu verwenden.
 
 ---
 
-The URL of the running web server and its hostname.
+Auf die URL des laufenden Webservers und dessen Hostnamen.
 
 ### --feedback--
 
-Think about which variables automatically give you full file and folder paths without using the path module.
+Denken Sie daran, welche Variablen Ihnen automatisch vollständige Datei- und Ordnerpfade geben, ohne das Path-Modul zu verwenden.
 
 ## --video-solution--
 

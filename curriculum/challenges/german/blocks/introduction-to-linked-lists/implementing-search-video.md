@@ -1,6 +1,6 @@
 ---
 id: 698dd7f67932b3cc4b19c932
-title: Implementing Search
+title: Suche implementieren
 challengeType: 11
 videoId: 2X7ysO7o-Kc
 dashedName: implementing-search
@@ -8,17 +8,17 @@ dashedName: implementing-search
 
 # --description--
 
-In this video, you will learn how to implement a search method for linked lists in code using the Python programming language.
+In diesem Video lernen Sie, wie Sie eine Suchmethode für verkettete Listen im Code mit der Programmiersprache Python implementieren.
 
 # --questions--
 
 ## --text--
 
-What is the worst case runtime for searching a linked list?
+Wie lautet die schlechteste Laufzeit für die Suche in einer verketteten Liste?
 
 ## --answers--
 
-constant
+konstant
 
 ---
 
@@ -26,11 +26,11 @@ linear
 
 ---
 
-quadratic
+quadratisch
 
 ---
 
-logarithmic
+logarithmisch
 
 ## --video-solution--
 

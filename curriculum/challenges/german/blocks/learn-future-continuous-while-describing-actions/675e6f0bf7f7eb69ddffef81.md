@@ -1,6 +1,6 @@
 ---
 id: 675e6f0bf7f7eb69ddffef81
-title: Task 68
+title: Aufgabe 68
 challengeType: 22
 dashedName: task-68
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Hören Sie sich die Audioaufnahme an und vervollständigen Sie den folgenden Satz.
 
 # --fillInTheBlank--
 
@@ -24,13 +24,13 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This phrase of three words means to solve a problem or deal with a difficult situation.
+Diese Phrase aus drei Wörtern bedeutet, ein Problem zu lösen oder mit einer schwierigen Situation umzugehen.
 
 # --explanation--
 
-`Sort this out` means to solve or fix a specific problem. It is a casual way of saying `figure out a solution` or `resolve an issue`. The general phrase `sort out` can also be used more broadly for organizing or dealing with problems. For example:
+`Sort this out` bedeutet, ein bestimmtes Problem zu lösen oder zu beheben. Es ist eine umgangssprachliche Art zu sagen `figure out a solution` oder `resolve an issue`. Der allgemeinere Ausdruck `sort out` kann auch weiter gefasst verwendet werden, um Probleme zu organisieren oder zu bewältigen. Zum Beispiel:
 
-`We need to sort out the issues with the payment system before launch.` - It means you need to fix or resolve the problems with the payment system to ensure everything works correctly before launching it.
+`We need to sort out the issues with the payment system before launch.` – Das bedeutet, dass Sie die Probleme mit dem Zahlungssystem beheben oder lösen müssen, damit alles vor dem Start korrekt funktioniert.
 
 # --scene--
 

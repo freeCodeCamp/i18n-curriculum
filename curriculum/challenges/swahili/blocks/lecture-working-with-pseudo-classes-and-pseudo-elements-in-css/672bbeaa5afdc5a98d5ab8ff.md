@@ -1,15 +1,15 @@
 ---
 id: 672bbeaa5afdc5a98d5ab8ff
-title: What Are Examples of Location Pseudo-classes?
+title: Ni mifano gani ya darasa la bandia la eneo?
 challengeType: 19
 dashedName: what-are-examples-of-location-pseudo-classes
 ---
 
 # --interactive--
 
-Location pseudo-classes are used for styling links and elements that are targeted within the current document. They offer a way to apply styles based on whether a link is visited or whether an element is currently in focus.
+Darasa la bandia la eneo hutumika kwa ajili ya kupamba viungo na vipengele vinavyolengwa ndani ya hati ya sasa. Hutoa njia ya kutumia mitindo kulingana na kama kiungo kimebofyanwa au kama kipengele kiko makini kwa sasa.
 
-Examples of location pseudo-classes are:
+Mifano ya darasa la bandia la eneo ni:
 
 - `:link`
 - `:visited`
@@ -17,9 +17,9 @@ Examples of location pseudo-classes are:
 - `:local-link`
 - `:target`
 
-Let's take a deeper look at each of these pseudo-classes.
+Tuchunguze kwa undani kila moja ya darasa la bandia haya.
 
-The `:link` pseudo-class allows you to target all unvisited links on a webpage. You can use it to style links differently before the user clicks on them. For example, you might want to make all unvisited links blue or your website's primary color:
+Darasa la bandia la `:link` linakuwezesha kulenga viungo vyote ambavyo havijabofyanwa kwenye ukurasa wa mtandao. Unaweza kulitumia kupamba viungo tofauti kabla mtumizi hajavibofya. Kwa mfano, unaweza kutaka kufanya viungo vyote visivyobofyanwa kuwa buluu au rangi kuu ya tovuti yako:
 
 :::interactive_editor
 
@@ -36,9 +36,9 @@ a:link {
 
 :::
 
-In this case, any link the user hasn't clicked yet will appear magenta. Once the user clicks the link, the `:link` style no longer applies, and the `:visited` pseudo-class takes over. The `:visited` pseudo-class comes into play after the user clicks the link, so you can use it to target links the user has already clicked.
+Katika kesi hii, kiungo chochote ambacho mtumizi hajakibofya bado kitaonekana rangi ya magenta. Mara mtumizi anapobofya kiungo, mtindo wa `:link` hautatumika tena, na darasa la bandia la `:visited` linaanza kutumika. Darasa la bandia la `:visited` linaanza kufanya kazi baada ya mtumizi kubofya kiungo, hivyo unaweza kulitumia kulenga viungo ambavyo mtumizi tayari amevibofya.
 
-Here is an example of changing the visited link state to the color `purple`:
+Hapa kuna mfano wa kubadilisha hali ya kiungo kilichobofyanwa kuwa rangi ya `purple`:
 
 :::interactive_editor
 
@@ -55,11 +55,11 @@ a:visited {
 
 :::
 
-The `:visited` pseudo-class helps users distinguish between links they have visited and those they have not.
+Darasa la bandia la `:visited` husaidia watumizi kutofautisha kati ya viungo ambavyo wamevitembelea na ambavyo hawajavitembelea.
 
-The `:any-link` pseudo-class is a combination of the `:link` and `:visited` pseudo-classes. So it matches any anchor element with an `href` attribute, regardless of whether it's visited or not.
+Darasa la bandia la `:any-link` ni mchanganyiko wa madarasa ya bandia ya `:link` na `:visited`. Hivyo linalingana na kipengele chochote cha nanga chenye sifa ya `href`, bila kujali kama kimebofyanwa au la.
 
-Here is an example of changing the link color for the `:any-link` pseudo-class to `crimson`:
+Hapa kuna mfano wa kubadilisha rangi ya kiungo kwa darasa la bandia la `:any-link` kuwa `crimson`:
 
 :::interactive_editor
 
@@ -76,11 +76,11 @@ a:any-link {
 
 :::
 
-The `:local-link` pseudo-class targets links that point to the same document. It can be useful when you want to differentiate internal links from external ones. Currently, no browser supports the `:local-link` pseudo-class.
+Darasa la bandia la `:local-link` linalenga viungo vinavyoelekeza kwenye hati ile ile. Linaweza kuwa na manufaa unapotaka kutofautisha viungo vya ndani na viungo vya nje. Kwa sasa, hakuna kivinjari kinachounga mkono darasa la bandia la `:local-link`.
 
-The `:target` pseudo-class selects an element that matches the current URL fragment identifier, for example, `#section1`. It's very useful for pages with in-page navigation.
+Darasa la bandia la `:target` huchagua kipengele kinacholingana na kitambulisho cha kipande cha URL ya sasa, kwa mfano, `#section1`. Ni muhimu sana kwa kurasa zilizo na urambazaji ndani ya ukurasa.
 
-Here's an HTML example that represents an in-page navigation. The CSS uses the `:target` pseudo-class to style the section that matches where the user navigates to:
+Hapa kuna mfano wa HTML unaowakilisha urambazaji ndani ya ukurasa. CSS inatumia darasa la bandia la `:target` kupamba sehemu inayolingana na mahali mtumizi anapoelekezwa:
 
 :::interactive_editor
 
@@ -114,13 +114,13 @@ section:target {
 
 :::
 
-When the user clicks on one of the navigation links, the background color for that respective section will change to green.
+Mtumizi anapobofya moja ya viungo vya urambazaji, rangi ya nyuma ya sehemu husika itabadilika kuwa kijani.
 
 # --questions--
 
 ## --text--
 
-Which pseudo-class allows you to style an element that matches the current URL fragment identifier, such as `#section1`?
+Ni darasa gani la bandia linaloruhusu kupamba kipengele kinacholingana na kitambulisho cha kipande cha URL ya sasa, kama `#section1`?
 
 ## --answers--
 
@@ -128,7 +128,7 @@ Which pseudo-class allows you to style an element that matches the current URL f
 
 ### --feedback--
 
-Think about how you can highlight a specific section when navigating through in-page links.
+Fikiria jinsi unavyoweza kuangazia sehemu maalum wakati wa kuvinjari kupitia viungo vya ndani ya ukurasa.
 
 ---
 
@@ -136,7 +136,7 @@ Think about how you can highlight a specific section when navigating through in-
 
 ### --feedback--
 
-Think about how you can highlight a specific section when navigating through in-page links.
+Fikiria jinsi unavyoweza kuangazia sehemu maalum wakati wa kuvinjari kupitia viungo vya ndani ya ukurasa.
 
 ---
 
@@ -148,7 +148,7 @@ Think about how you can highlight a specific section when navigating through in-
 
 ### --feedback--
 
-Think about how you can highlight a specific section when navigating through in-page links.
+Fikiria jinsi unavyoweza kuangazia sehemu maalum wakati wa kuvinjari kupitia viungo vya ndani ya ukurasa.
 
 ## --video-solution--
 
@@ -156,35 +156,35 @@ Think about how you can highlight a specific section when navigating through in-
 
 ## --text--
 
-When are location pseudo-classes particularly useful?
+Darasa la bandia hutumika lini hasa?
 
 ## --answers--
 
-When styling elements based on their sibling relationships.
+Wakati wa kupamba vipengele kulingana na uhusiano wao wa ndugu.
 
 ### --feedback--
 
-Think about how you can style links and targeted elements depending on user interaction.
+Fikiria jinsi unavyoweza kupamba viungo na vipengele vilivyolengwa kulingana na mwingiliano wa mtumizi.
 
 ---
 
-When applying styles based on whether a link is visited or an element is currently in focus.
+Wakati wa kutumia mitindo kulingana na kama kiungo kimebofyanwa au kipengele kiko makini kwa sasa.
 
 ---
 
-When styling elements based on their parent element's attributes.
+Wakati wa kupamba vipengele kulingana na sifa za kipengele cha mzazi.
 
 ### --feedback--
 
-Think about how you can style links and targeted elements depending on user interaction.
+Fikiria jinsi unavyoweza kupamba viungo na vipengele vilivyolengwa kulingana na mwingiliano wa mtumizi.
 
 ---
 
-When adjusting the layout of a webpage dynamically.
+Wakati wa kurekebisha mpangilio wa ukurasa wa mtandao kwa njia ya mabadiliko ya moja kwa moja.
 
 ### --feedback--
 
-Think about how you can style links and targeted elements depending on user interaction.
+Fikiria jinsi unavyoweza kupamba viungo na vipengele vilivyolengwa kulingana na mwingiliano wa mtumizi.
 
 ## --video-solution--
 
@@ -192,7 +192,7 @@ Think about how you can style links and targeted elements depending on user inte
 
 ## --text--
 
-Which pseudo-class is designed to target links that point to the same document but is not currently supported by any browser?
+Ni darasa gani la bandia lililoundwa kulenga viungo vinavyoelekeza kwenye hati ile ile lakini halijaungwa mkono na kivinjari chochote kwa sasa?
 
 ## --answers--
 
@@ -200,7 +200,7 @@ Which pseudo-class is designed to target links that point to the same document b
 
 ### --feedback--
 
-Consider the pseudo-class intended for distinguishing internal links from external ones, even though it's not yet supported.
+Fikiria darasa la bandia lililokusudiwa kutofautisha viungo vya ndani na viungo vya nje, ingawa bado halijaungwa mkono.
 
 ---
 
@@ -212,7 +212,7 @@ Consider the pseudo-class intended for distinguishing internal links from extern
 
 ### --feedback--
 
-Consider the pseudo-class intended for distinguishing internal links from external ones, even though it's not yet supported.
+Fikiria darasa la bandia lililokusudiwa kutofautisha viungo vya ndani na viungo vya nje, ingawa bado halijaungwa mkono.
 
 ---
 
@@ -220,7 +220,7 @@ Consider the pseudo-class intended for distinguishing internal links from extern
 
 ### --feedback--
 
-Consider the pseudo-class intended for distinguishing internal links from external ones, even though it's not yet supported.
+Fikiria darasa la bandia lililokusudiwa kutofautisha viungo vya ndani na viungo vya nje, ingawa bado halijaungwa mkono.
 
 ## --video-solution--
 

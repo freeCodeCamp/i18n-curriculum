@@ -1,6 +1,6 @@
 ---
 id: 67adad520eb3ba05f8a1af1b
-title: Task 33
+title: Zoezi la 33
 challengeType: 19
 dashedName: task-33
 lang: en-US
@@ -12,13 +12,13 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Sikiliza sauti na ujibu swali lililopo hapa chini.
 
 # --questions--
 
 ## --text--
 
-What should Anna say to agree with Bob?
+Anna anapaswa kusema nini ili kuonyesha anakubaliana na Bob?
 
 ## --answers--
 
@@ -30,7 +30,7 @@ ENd6da13d0
 
 ### --feedback--
 
-This phrase suggests confusion, but Anna needs to show agreement with Bob's idea.
+Usemi huu unaonyesha mkanganyiko, lakini Anna anahitaji kuonyesha anakubaliana na wazo la Bob.
 
 ---
 
@@ -46,11 +46,11 @@ ENc50c4990
 
 # --explanation--
 
-`That makes sense` is a natural way to show agreement. People use this phrase in conversations when they accept or understand a suggestion. For example:
+`That makes sense` ni njia ya kawaida ya kuonyesha makubaliano. Watu hutumia usemi huu katika mazungumzo wanapokubali au kuelewa pendekezo. Kwa mfano:
 
-- **Developer:** `We should optimize the code before adding new features to avoid performance issues.`
+- **Msanidi programu:** `We should optimize the code before adding new features to avoid performance issues.`
 
-- **Manager:** `That makes sense. A slow app will frustrate users.` - This person agrees and understands why optimizing the code first is a good idea.
+- **Msimamizi:** `That makes sense. A slow app will frustrate users.` - Mtu huyu anakubaliana na anaelewa kwa nini kuboresha msimbo kwanza ni wazo zuri.
 
 # --scene--
 

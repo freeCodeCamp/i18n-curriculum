@@ -1,32 +1,32 @@
 ---
 id: 60f85a62fb30c80bcea0cedb
-title: Step 20
+title: Schritt 20
 challengeType: 0
 dashedName: step-20
 ---
 
 # --description--
 
-Users will be able to choose whether their account is for `Personal` or `Business` purposes.
+Benutzer können auswählen, ob ihr Konto für `Personal` oder `Business` Zwecke ist.
 
-To do this, within each of the first two `label` elements, add one `input` element with `type="radio"`.
+Fügen Sie dazu in jedem der ersten beiden `label` Elemente ein `input` Element mit `type="radio"` hinzu.
 
 # --hints--
 
-You should add two `input` elements.
+Sie sollten zwei `input` Elemente hinzufügen.
 
 ```js
 assert.lengthOf(document.querySelectorAll('fieldset:nth-child(2) input'), 2);
 ```
 
-You should add one `input` to each of the first two `label` elements.
+Sie sollten jedem der ersten beiden `input` Elemente ein `label` hinzufügen.
 
 ```js
 assert.exists(document.querySelector('fieldset:nth-child(2) > label:nth-child(1) > input'));
 assert.exists(document.querySelector('fieldset:nth-child(2) > label:nth-child(2) > input'));
 ```
 
-You should give both `input` elements a `type` of `radio`.
+Beiden `input` Elementen sollten Sie ein `type` mit dem Wert `radio` geben.
 
 ```js
 assert.lengthOf(document.querySelectorAll('fieldset:nth-child(2) input[type="radio"]'), 2);

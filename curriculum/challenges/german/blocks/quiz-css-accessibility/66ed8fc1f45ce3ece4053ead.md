@@ -1,13 +1,13 @@
 ---
 id: 66ed8fc1f45ce3ece4053ead
-title: CSS Accessibility Quiz
+title: Quiz zur Barrierefreiheit von CSS
 challengeType: 8
 dashedName: quiz-css-accessibility
 ---
 
 # --description--
 
-To pass the quiz, you must correctly answer at least 9 of the 10 questions below.
+Um das Quiz zu bestehen, müssen Sie mindestens 9 der 10 untenstehenden Fragen richtig beantworten.
 
 # --quizzes--
 
@@ -17,29 +17,29 @@ To pass the quiz, you must correctly answer at least 9 of the 10 questions below
 
 #### --text--
 
-Why do you need to have good color contrast on your webpage?
+Warum benötigen Sie auf Ihrer Webseite einen guten Farbkontrast?
 
 #### --distractors--
 
-To make the page more vibrant.
+Um die Seite lebendiger zu gestalten.
 
 ---
 
-To meet requirements for search engine optimization (SEO).
+Um Anforderungen für Suchmaschinenoptimierung (SEO) zu erfüllen.
 
 ---
 
-To make important elements of the page stand out.
+Um wichtige Elemente der Seite hervorzuheben.
 
 #### --answer--
 
-To make the page content accessible and readable.
+Um den Seiteninhalt zugänglich und lesbar zu machen.
 
 ### --question--
 
 #### --text--
 
-Which of the following tools allows you to enter background and foreground colors and check their contrast ratio?
+Welches der folgenden Tools ermöglicht es Ihnen, Hintergrund- und Vordergrundfarben einzugeben und deren Kontrastverhältnis zu überprüfen?
 
 #### --distractors--
 
@@ -61,7 +61,7 @@ WebAIM's Color Contrast Checker
 
 #### --text--
 
-Which of the following tools allows you to pick background and foreground colors from content displayed on your screen and check for their contrast ratio?
+Welches der folgenden Tools ermöglicht es Ihnen, Hintergrund- und Vordergrundfarben von auf Ihrem Bildschirm angezeigten Inhalten auszuwählen und deren Kontrastverhältnis zu überprüfen?
 
 #### --distractors--
 
@@ -83,51 +83,51 @@ TPGi Colour Contrast Analyzer
 
 #### --text--
 
-Why should you NOT use `display: none` and `visibility: hidden` to visually hide content?
+Warum sollten Sie `display: none` und `visibility: hidden` NICHT verwenden, um Inhalte visuell zu verbergen?
 
 #### --distractors--
 
-These methods make it so that only assistive technologies like screen readers can access the hidden content.
+Diese Methoden sorgen dafür, dass nur unterstützende Technologien wie Screenreader auf die verborgenen Inhalte zugreifen können.
 
 ---
 
-These methods make it so that the content is only hidden until users move their mouse over the content.
+Diese Methoden sorgen dafür, dass die Inhalte nur verborgen sind, bis Nutzer mit der Maus über die Inhalte fahren.
 
 ---
 
-These methods do not work with some browsers.
+Diese Methoden funktionieren nicht mit einigen Browsern.
 
 #### --answer--
 
-These methods remove the content from the accessibility tree, making it impossible for screen readers to access the hidden content.
+Diese Methoden entfernen die Inhalte aus dem Barrierefreiheitsbaum, wodurch Screenreader nicht auf die verborgenen Inhalte zugreifen können.
 
 ### --question--
 
 #### --text--
 
-What is an accessibility tree?
+Was ist ein Barrierefreiheitsbaum?
 
 #### --distractors--
 
-A visual representation of the layout of a webpage.
+Eine visuelle Darstellung des Layouts einer Webseite.
 
 ---
 
-A structure used by screen readers to read the text content of a webpage.
+Eine Struktur, die von Screenreadern verwendet wird, um den Textinhalt einer Webseite vorzulesen.
 
 ---
 
-A copy of the DOM tree.
+Eine Kopie des DOM-Baums.
 
 #### --answer--
 
-A structure used by screen readers to interpret and interact with the content on a webpage.
+Eine Struktur, die von Screenreadern verwendet wird, um den Inhalt einer Webseite zu interpretieren und mit ihm zu interagieren.
 
 ### --question--
 
 #### --text--
 
-Which of the following ensures that an image has a minimum width of `400px`, but becomes wider when the viewport width is greater than `1000px`?
+Welche der folgenden Optionen stellt sicher, dass ein Bild eine Mindestbreite von `400px` hat, aber breiter wird, wenn die Viewport-Breite größer als `1000px` ist?
 
 #### --distractors--
 
@@ -165,7 +165,7 @@ img {
 
 #### --text--
 
-Which of the following `scroll-behavior` value allows a smooth scrolling behavior?
+Welcher der folgenden `scroll-behavior`-Werte ermöglicht ein sanftes Scrollverhalten?
 
 #### --distractors--
 
@@ -187,7 +187,7 @@ Which of the following `scroll-behavior` value allows a smooth scrolling behavio
 
 #### --text--
 
-Which of the following features is used to detect the user's animation preference?
+Welche der folgenden Funktionen wird verwendet, um die Animationspräferenz des Nutzers zu erkennen?
 
 #### --distractors--
 
@@ -209,42 +209,42 @@ Which of the following features is used to detect the user's animation preferenc
 
 #### --text--
 
-Which of the following is an accessibility issue of the `placeholder` attribute in an `input` element?
+Welches Barrierefreiheitsproblem besteht beim `placeholder`-Attribut in einem `input`-Element?
 
 #### --distractors--
 
-Placeholder text prevents screen readers from reading the input label text.
+Der Platzhaltertext verhindert, dass Screenreader die Bezeichnung der Eingabe vorlesen.
 
 ---
 
-Placeholder text prevents screen readers from reading the input value.
+Der Platzhaltertext verhindert, dass Screenreader den Eingabewert vorlesen.
 
 ---
 
-Placeholder text is too small to be readable.
+Der Platzhaltertext ist zu klein, um lesbar zu sein.
 
 #### --answer--
 
-Placeholder text can be confused with an actual input value.
+Der Platzhaltertext kann mit einem tatsächlichen Eingabewert verwechselt werden.
 
 ### --question--
 
 #### --text--
 
-What does the `hidden` attribute do?
+Was bewirkt das `hidden`-Attribut?
 
 #### --distractors--
 
-It hides content and reveals on hover.
+Es verbirgt Inhalte und zeigt sie beim Überfahren mit der Maus an.
 
 ---
 
-It hides content only from the accessibility tree.
+Es verbirgt Inhalte nur im Barrierefreiheitsbaum.
 
 ---
 
-It hides content visually, but the content is available in the accessibility tree.
+Es verbirgt Inhalte visuell, aber die Inhalte sind im Barrierefreiheitsbaum verfügbar.
 
 #### --answer--
 
-It hides content both visually and from the accessibility tree.
+Es verbirgt Inhalte sowohl visuell als auch im Barrierefreiheitsbaum.

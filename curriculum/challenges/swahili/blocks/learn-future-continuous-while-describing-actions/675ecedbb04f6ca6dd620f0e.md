@@ -1,6 +1,6 @@
 ---
 id: 675ecedbb04f6ca6dd620f0e
-title: Task 76
+title: Zoezi la 76
 challengeType: 22
 dashedName: task-76
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Sikiliza sauti na ukamilishe sentensi ifuatayo.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This is a type of cyberattack where a hacker secretly gets in the middle of two people or systems talking to each other. The hacker can see, change, or steal information being shared without anyone knowing. This is a compound word, remember to use `-`. The first letters of the first and the forth word are capitalized.
+Hii ni aina ya shambulio la mtandao ambapo mdukuhu huingia kwa siri katikati ya watu wawili au mifumo inayozungumza. Mdukuhu anaweza kuona, kubadilisha, au kuiba taarifa zinazoshirikiwa bila mtu yeyote kujua. Huu ni neno mchanganyiko, kumbuka kutumia `-`. Herufi za kwanza za neno la kwanza na la nne zinapaswa kuwa kubwa.
 
 ---
 
@@ -32,17 +32,17 @@ This is a type of cyberattack where a hacker secretly gets in the middle of two 
 
 ### --feedback--
 
-This word in the plural form means actions by hackers or criminals to harm a computer system, steal information, or cause problems.
+Neno hili kwa wingi linamaanisha vitendo vya wadukuzi au wahalifu vya kuharibu mfumo wa kompyuta, kuiba taarifa, au kusababisha matatizo.
 
 # --explanation--
 
-`Man-in-the-Middle` (or `MITM`) is a type of attack where a hacker secretly gets between two people or systems that are communicating. The hacker listens to or changes the information being shared without anyone knowing. For example:
+`Man-in-the-Middle` (au `MITM`) ni aina ya shambulio ambapo mdukuhu huingia kwa siri kati ya watu wawili au mifumo inayozungumza. Mdukuhu husikiliza au kubadilisha taarifa zinazoshirikiwa bila mtu yeyote kujua. Kwa mfano:
 
-`A Man-in-the-Middle attack (MITM) happened when a hacker intercepted the data sent between a user's computer and their bank.` - The hacker pretended to be the bank, intercepted the information, and stole the user's login credentials. This allowed the hacker to access the bank account without the user knowing.
+`A Man-in-the-Middle attack (MITM) happened when a hacker intercepted the data sent between a user's computer and their bank.` - Mdukuhu alijifanya kuwa benki, akakataza taarifa, na kuiba nywila za mtumiaji. Hii ilimruhusu mdukuhu kupata upatikanaji wa akaunti ya benki bila mtumiaji kujua.
 
-`Attacks` are actions by hackers to harm computer systems, steal information, or cause problems. For example:
+`Attacks` ni vitendo vya wadukuzi vya kuharibu mifumo ya kompyuta, kuiba taarifa, au kusababisha matatizo. Kwa mfano:
 
-`The website was unavailable for hours because of a cyber attack that overloaded its server.` - It indicates the hacker sent too much fake traffic to the website, making it crash or slow down. This stopped real users from accessing it, causing disruption.
+`The website was unavailable for hours because of a cyber attack that overloaded its server.` - Inaonyesha mdukuhu alituma trafiki bandia nyingi sana kwenye tovuti, ikasababisha kuvunjika au kupungua kasi. Hii ilizuia watumiaji halisi kupata upatikanaji, na kusababisha usumbufu.
 
 # --scene--
 

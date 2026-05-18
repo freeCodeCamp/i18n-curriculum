@@ -1,6 +1,6 @@
 ---
 id: 69ae9cdfa9e6da4eb0d5f7f7
-title: Class vs. Static Methods
+title: Njia za darasa la vitu dhidi ya njia za static
 challengeType: 11
 videoId: Vo84LQ14yI4
 dashedName: class-vs-static-methods
@@ -8,32 +8,30 @@ dashedName: class-vs-static-methods
 
 # --description--
 
-In this video, you will learn the difference between class and static methods.
+Katika video hii, utafundishwa tofauti kati ya njia za darasa la vitu na njia za static.
 
 # --questions--
 
 ## --text--
 
-What is a class method?
+Njia ya darasa la vitu ni nini?
 
 ## --answers--
 
-A method that only works with global variables and is unrelated to the class or its instances.
+Njia inayofanya kazi tu na vigezo vya kimataifa na haina uhusiano na darasa la vitu au mifano yake.
 
 ---
 
-A method that can only be called on an instance of a class and cannot access class-level attributes.
+Njia inayoweza kuitwa tu kwenye mfano wa darasa la vitu na haiwezi kupata sifa za darasa la vitu.
 
 ---
 
-A method that automatically runs when an object is deleted.
+Njia inayotekelezwa moja kwa moja wakati kitu kinapofutwa.
 
 ---
 
-A method that is bound to the class itself, rather than an instance of the class.
+Njia inayounganishwa na darasa la vitu lenyewe, badala ya mfano wa darasa la vitu.
 
 ## --video-solution--
 
 4
-
-

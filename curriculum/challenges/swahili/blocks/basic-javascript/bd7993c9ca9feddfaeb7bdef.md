@@ -1,6 +1,6 @@
 ---
 id: bd7993c9ca9feddfaeb7bdef
-title: Divide One Decimal by Another with JavaScript
+title: Gawanya desimali moja kwa nyingine kwa kutumia JavaScript
 challengeType: 1
 forumTopicId: 18255
 dashedName: divide-one-decimal-by-another-with-javascript
@@ -8,27 +8,27 @@ dashedName: divide-one-decimal-by-another-with-javascript
 
 # --description--
 
-Now let's divide one decimal by another.
+Sasa tugawanye desimali moja kwa nyingine.
 
 # --instructions--
 
-Change the `0.0` so that `quotient` will equal to `2.2`.
+Badilisha `0.0` ili `quotient` iwe sawa na `2.2`.
 
 # --hints--
 
-The variable `quotient` should equal `2.2`
+Kigezo `quotient` kinapaswa kuwa sawa na `2.2`
 
 ```js
 assert(quotient === 2.2);
 ```
 
-You should use the `/` operator to divide 4.4 by 2
+Unapaswa kutumia kiendeshaji `/` kugawanya 4.4 kwa 2
 
 ```js
 assert(/4\.40*\s*\/\s*2\.*0*/.test(__helpers.removeJSComments(code)));
 ```
 
-The quotient variable should only be assigned once
+Kigezo cha gawio kinapaswa kupewa thamani mara moja tu
 
 ```js
 assert(__helpers.removeJSComments(code).match(/quotient\s*=/g).length === 1);

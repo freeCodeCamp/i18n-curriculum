@@ -1,6 +1,6 @@
 ---
 id: 67a9f44e6dcabb0c402a9bfb
-title: Task 5
+title: Aufgabe 5
 challengeType: 19
 dashedName: task-5
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Hören Sie sich die Audioaufnahme an und beantworten Sie die folgende Frage.
 
 # --questions--
 
 ## --text--
 
-What does Bob want to know?
+Was möchte Bob wissen?
 
 ## --answers--
 
-If employees have already bought office furniture.
+Ob die Mitarbeitenden bereits Büromöbel gekauft haben.
 
 ### --feedback--
 
-Bob isn't asking for confirmation of purchases.
+Bob bittet nicht um eine Bestätigung von Käufen.
 
 ---
 
-How much office furniture costs.
+Wie viel Büromöbel kosten.
 
 ### --feedback--
 
-Bob does not ask about the price.
+Bob fragt nicht nach dem Preis.
 
 ---
 
-If the company will increase the stipend.
+Ob das Unternehmen die Pauschale erhöhen wird.
 
 ### --feedback--
 
-Bob is not discussing changes to the stipend.
+Bob spricht nicht über Änderungen der Pauschale.
 
 ---
 
-If Anna thinks using the stipend for office furniture is a good idea.
+Ob Anna denkt, dass es eine gute Idee ist, die Pauschale für Büromöbel zu verwenden.
 
 ## --video-solution--
 
@@ -52,7 +52,7 @@ If Anna thinks using the stipend for office furniture is a good idea.
 
 # --explanation--
 
-Bob asks, `Do you think that's a good idea?` This is a way to ask for someone's opinion about a suggestion or plan. Here's other ways to ask for an opinion:
+Bob fragt, `Do you think that's a good idea?` Das ist eine Möglichkeit, nach der Meinung von jemandem zu einer Vorschlag oder einem Plan zu fragen. Hier sind weitere Möglichkeiten, nach einer Meinung zu fragen:
 
 - `Do you think this will work?`
 
@@ -60,7 +60,7 @@ Bob asks, `Do you think that's a good idea?` This is a way to ask for someone's 
 
 - `How do you feel about this plan?`
 
-In this dialogue, Bob is referring to employees using the remote work stipend for office furniture. Instead of stating his own opinion, he is asking Anna what she thinks.
+In diesem Dialog bezieht sich Bob darauf, dass Mitarbeitende die Pauschale für das Arbeiten von zu Hause aus für Büromöbel verwenden. Anstatt seine eigene Meinung zu äußern, fragt er Anna, was sie davon hält.
 
 # --scene--
 

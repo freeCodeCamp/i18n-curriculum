@@ -1,6 +1,6 @@
 ---
 id: 698a5b056fac9afc70ef3cad
-title: Task 10
+title: Zoezi la 10
 challengeType: 22
 dashedName: task-10
 lang: es
@@ -10,25 +10,25 @@ lang: es
 
 # --description--
 
-Let's review a few of the countries you've learned so far.
+Tukague baadhi ya nchi ulizojifunza hadi sasa.
 
-| Country                | Nationality (Feminine) | Nationality (Masculine) |
-|:---------------------- |:---------------------- |:----------------------- |
-| `Brasil`               | `brasileña`            | `brasileño`             |
-| `Colombia`             | `colombiana`           | `colombiano`            |
-| `México`               | `mexicana`             | `mexicano`              |
-| `Panamá`               | `panameña`             | `panameño`              |
-| `República Dominicana` | `dominicana`           | `dominicano`            |
+| Nchi | Taifa (Kike) | Taifa (Kiume) |
+| :--- | :--- | :--- |
+| `Brasil` | `brasileña` | `brasileño` |
+| `Colombia` | `colombiana` | `colombiano` |
+| `México` | `mexicana` | `mexicano` |
+| `Panamá` | `panameña` | `panameño` |
+| `República Dominicana` | `dominicana` | `dominicano` |
 
-In Spanish, country names are proper nouns and always start with a capital letter.
+Katika Kihispania, majina ya nchi ni majina halisi na huanza kila mara kwa herufi kubwa.
 
-Note that the nationalities `brasileño`/`brasileña` and `panameño`/`panameña` use the unique letter `eñe` (`ñ`).
+Kumbuka kuwa taifa `brasileño`/`brasileña` na `panameño`/`panameña` hutumia herufi ya kipekee `eñe` (`ñ`).
 
-Camila is practicing a few of these countries. Can you identify them?
+Camila anazoea baadhi ya nchi hizi. Je, unaweza kuzitambua?
 
 # --instructions--
 
-Listen to the audio and complete the sequence below.
+Sikiliza sauti na ukamilishe mfululizo hapa chini.
 
 # --fillInTheBlank--
 
@@ -42,7 +42,7 @@ Listen to the audio and complete the sequence below.
 
 ### --feedback--
 
-This country is the largest in South America and starts with a capital letter.
+Nchi hii ni kubwa zaidi Amerika Kusini na huanza kwa herufi kubwa.
 
 ---
 
@@ -50,11 +50,11 @@ This country is the largest in South America and starts with a capital letter.
 
 ### --feedback--
 
-This country is known for its famous canal. Remember to include an accent mark on the last letter `a` and to capitalize the first letter.
+Nchi hii inajulikana kwa njia yake maarufu ya maji. Kumbuka kuweka alama ya nukta kwenye herufi ya mwisho `a` na kuandika herufi ya kwanza kwa herufi kubwa.
 
 # --explanation--
 
-The sequence is `Brasil` - `Colombia` - `Panamá`.
+Mfululizo ni `Brasil` - `Colombia` - `Panamá`.
 
 # --scene--
 

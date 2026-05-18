@@ -1,6 +1,6 @@
 ---
 id: 698a5b056fac9afc70ef3cad
-title: Task 10
+title: Aufgabe 10
 challengeType: 22
 dashedName: task-10
 lang: es
@@ -10,25 +10,25 @@ lang: es
 
 # --description--
 
-Let's review a few of the countries you've learned so far.
+Lassen Sie uns einige der Länder überprüfen, die Sie bisher gelernt haben.
 
-| Country                | Nationality (Feminine) | Nationality (Masculine) |
-|:---------------------- |:---------------------- |:----------------------- |
-| `Brasil`               | `brasileña`            | `brasileño`             |
-| `Colombia`             | `colombiana`           | `colombiano`            |
-| `México`               | `mexicana`             | `mexicano`              |
-| `Panamá`               | `panameña`             | `panameño`              |
-| `República Dominicana` | `dominicana`           | `dominicano`            |
+| Land | Staatsangehörigkeit (weiblich) | Staatsangehörigkeit (männlich) |
+| :--- | :--- | :--- |
+| `Brasil` | `brasileña` | `brasileño` |
+| `Colombia` | `colombiana` | `colombiano` |
+| `México` | `mexicana` | `mexicano` |
+| `Panamá` | `panameña` | `panameño` |
+| `República Dominicana` | `dominicana` | `dominicano` |
 
-In Spanish, country names are proper nouns and always start with a capital letter.
+Im Spanischen sind Ländernamen Eigennamen und beginnen immer mit einem Großbuchstaben.
 
-Note that the nationalities `brasileño`/`brasileña` and `panameño`/`panameña` use the unique letter `eñe` (`ñ`).
+Beachten Sie, dass die Staatsangehörigkeiten `brasileño`/`brasileña` und `panameño`/`panameña` den einzigartigen Buchstaben `eñe` (`ñ`) verwenden.
 
-Camila is practicing a few of these countries. Can you identify them?
+Camila übt einige dieser Länder. Können Sie sie erkennen?
 
 # --instructions--
 
-Listen to the audio and complete the sequence below.
+Hören Sie sich das Audio an und vervollständigen Sie die folgende Folge.
 
 # --fillInTheBlank--
 
@@ -42,7 +42,7 @@ Listen to the audio and complete the sequence below.
 
 ### --feedback--
 
-This country is the largest in South America and starts with a capital letter.
+Dieses Land ist das größte in Südamerika und beginnt mit einem Großbuchstaben.
 
 ---
 
@@ -50,11 +50,11 @@ This country is the largest in South America and starts with a capital letter.
 
 ### --feedback--
 
-This country is known for its famous canal. Remember to include an accent mark on the last letter `a` and to capitalize the first letter.
+Dieses Land ist bekannt für seinen berühmten Kanal. Denken Sie daran, auf dem letzten Buchstaben `a` einen Akzent zu setzen und den ersten Buchstaben großzuschreiben.
 
 # --explanation--
 
-The sequence is `Brasil` - `Colombia` - `Panamá`.
+Die Folge lautet `Brasil` - `Colombia` - `Panamá`.
 
 # --scene--
 

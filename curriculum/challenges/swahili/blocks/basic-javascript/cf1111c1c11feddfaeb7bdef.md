@@ -1,6 +1,6 @@
 ---
 id: cf1111c1c11feddfaeb7bdef
-title: Nest one Array within Another Array
+title: Panga safu ya data moja ndani ya safu nyingine ya data
 challengeType: 1
 forumTopicId: 18247
 dashedName: nest-one-array-within-another-array
@@ -8,21 +8,21 @@ dashedName: nest-one-array-within-another-array
 
 # --description--
 
-You can also nest arrays within other arrays, like below:
+Unaweza pia kupanga ndani safu za data ndani ya safu nyingine za data, kama ifuatavyo:
 
 ```js
 const teams = [["Bulls", 23], ["White Sox", 45]];
 ```
 
-This is also called a <dfn>multi-dimensional array</dfn>.
+Hii pia huitwa <dfn>safu ya data yenye vipimo vingi</dfn>.
 
 # --instructions--
 
-Create a nested array called `myArray`.
+Tengeneza safu ya data iliyopangwa ndani iitwayo `myArray`.
 
 # --hints--
 
-`myArray` should have at least one array nested within another array.
+`myArray` inapaswa kuwa na angalau safu moja ya data iliyopangwa ndani ya safu nyingine ya data.
 
 ```js
 assert(Array.isArray(myArray) && myArray.some(Array.isArray));

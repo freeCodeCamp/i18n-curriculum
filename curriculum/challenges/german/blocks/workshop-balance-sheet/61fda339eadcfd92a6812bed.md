@@ -7,15 +7,15 @@ dashedName: step-30
 
 # --description--
 
-Bevor du dich zu sehr in deiner Gestaltung vertiefst, solltest du von der `sr-only`-Klasse Gebrauch machen. Du kannst CSS verwenden, um Elemente mit dieser Klasse vollständig von der visuellen Seite auszublenden, aber dennoch von Screenreadern angezeigt werden zu lassen.
+Bevor Sie mit Ihrem Styling zu weit fortschreiten, sollten Sie die `sr-only`-Klasse verwenden. Sie können CSS nutzen, um Elemente mit dieser Klasse für die visuelle Seite vollständig zu verbergen, sie aber dennoch von Screenreadern ankündigen zu lassen.
 
-Das CSS, das du gleich schreiben wirst, ist ein allgemeines Set von Eigenschaften, mit denen sichergestellt wird, dass Elemente visuell vollständig ausgeblendet werden.
+Das CSS, das Sie gleich schreiben werden, ist eine gängige Eigenschaftskombination, um sicherzustellen, dass Elemente visuell komplett verborgen sind.
 
-The `span[class~="sr-only"]` selector will select any `span` element whose `class` _includes_ `sr-only`. Erstelle diesen Selektor und gib ihm eine `border`-Eigenschaft mit dem Wert `0`.
+Der `span[class~="sr-only"]`-Selektor wählt jedes `span`-Element aus, dessen `class` `sr-only` _enthält_. Erstellen Sie diesen Selektor und geben Sie ihm eine `border`-Eigenschaft mit dem Wert `0`.
 
 # --hints--
 
-Du solltest einen `span[class~="sr-only"]`-Selektor haben.
+Sie sollten einen `span[class~="sr-only"]`-Selektor haben.
 
 ```js
 assert.isNotNull(
@@ -23,7 +23,7 @@ assert.isNotNull(
 );
 ```
 
-Dein `span[class~="sr-only"]`-Selektor sollte eine `border`-Eigenschaft auf `0` gesetzt haben.
+Ihr `span[class~="sr-only"]`-Selektor sollte eine `border`-Eigenschaft mit dem Wert `0` haben.
 
 ```js
 assert.strictEqual(

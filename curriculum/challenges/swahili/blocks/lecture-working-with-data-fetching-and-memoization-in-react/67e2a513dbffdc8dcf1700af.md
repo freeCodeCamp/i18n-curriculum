@@ -1,45 +1,45 @@
 ---
 id: 67e2a513dbffdc8dcf1700af
-title: What Is the useOptimistic Hook, and How Does It Work?
+title: "Ni Nini `useOptimistic` Hook, na Inafanya Kazi Gani?"
 challengeType: 19
 dashedName: what-is-the-useoptimistic-hook-and-how-does-it-work
 ---
 
 # --description--
 
-Recent versions of React introduced server components and server actions to shift some of the rendering and logic responsibilities to the server.
+Toleo za hivi karibuni za React zilianzisha sehemu za seva na vitendo vya seva ili kuhamisha baadhi ya majukumu ya kuonyesha na mantiki kwa seva.
 
-Along with those updates, React added a new hook called `useOptimistic` to keep UIs responsive while waiting for an async action to complete in the background.
+Pamoja na masasisho hayo, React iliongeza hook mpya iitwayo `useOptimistic` ili kuweka UI zikiwa zinajibadilisha kulingana na kifaa wakati zinaposubiri kitendo cha async kukamilika nyuma ya pazia.
 
-While this is often used for fetching data from a server, it's not limited to that. The hook is generally useful for handling async operations, ensuring the UI remains smooth and interactive while the action runs.
+Ingawa mara nyingi hutumika kwa kupata data kutoka seva, haizuiliki kwa hilo tu. Hook hii kwa ujumla ni muhimu kwa kushughulikia operesheni za async, kuhakikisha UI inabaki laini na ya kuingiliana wakati kitendo kinaendelea.
 
-Let's take a look at what the `useOptimistic` hook is and how it contributes to making snappy and responsive UIs. 
+Tuchunguze ni nini hook ya `useOptimistic` na jinsi inavyosaidia kutengeneza UI zenye mwendo mzuri na zinazojibadilisha kulingana na kifaa.
 
-The `useOptimistic` hook helps manage "optimistic updates" in the UI, a strategy in which you provide immediate updates to the UI based on the expected outcome of an action, like waiting for a server response.
+Hook ya `useOptimistic` husaidia kusimamia "sasisho za matumaini" katika UI, mbinu ambayo unatoa sasisho za papo hapo kwa UI kulingana na matokeo yanayotarajiwa ya kitendo, kama vile kusubiri jibu kutoka seva.
 
-Here's the basic syntax of the `useOptimistic` hook:
+Hapa kuna sintaksia ya msingi ya hook ya `useOptimistic`:
 
 ```js
 const [optimisticState, addOptimistic] = useOptimistic(actualState, updateFunction);
 ```
 
-- `optimisticState` is the temporary state that updates right away for a better user experience.
+- `optimisticState` ni hali ya muda ambayo husasishwa mara moja kwa ajili ya uzoefu bora wa mtumiaji.
 
-- `addOptimistic` is the function that applies the optimistic update before the actual state changes.
+- `addOptimistic` ni kitendakazi kinachotekeleza sasisho la matumaini kabla ya hali halisi kubadilika.
 
-- `actualState` is the real state value that comes from the result of an action, like fetching data from a server.
+- `actualState` ni thamani halisi ya hali inayotokana na matokeo ya kitendo, kama vile kupata data kutoka seva.
 
-- `updateFunction` is the function that determines how the optimistic state should update when called.
+- `updateFunction` ni kitendakazi kinachoamua jinsi hali ya matumaini inavyopaswa kusasishwa inapoitwa.
 
-At first glance, it might seem like the `useOptimistic` hook is just another way to handle loading states in React. But it's more than that.
+Kwa mtazamo wa kwanza, inaweza kuonekana kama hook ya `useOptimistic` ni njia nyingine tu ya kushughulikia hali za upakiaji katika React. Lakini ni zaidi ya hapo.
 
-A loading state controls whether you see a spinner, message, or some other indicator in the UI while something happens in the background.
+Hali ya upakiaji hudhibiti kama utaona spinner, ujumbe, au kiashiria kingine katika UI wakati jambo linaendelea nyuma ya pazia.
 
-However, the `useOptimistic` hook updates the UI instantaneously based on an expected outcome, even before you, say, make a call to an API. This hook gives you a chance to show a loading indicator or message, handle potential errors gracefully, and show instant feedback to make the UI feel snappy.
+Hata hivyo, hook ya `useOptimistic` husasisha UI mara moja kulingana na matokeo yanayotarajiwa, hata kabla hujafanya wito kwa API. Hook hii inakupa nafasi ya kuonyesha kiashiria cha upakiaji au ujumbe, kushughulikia makosa yanayoweza kutokea kwa upole, na kuonyesha mrejesho wa papo hapo ili kufanya UI ihisi kuwa na mwendo mzuri.
 
-This will become clearer as we go through some examples showing how the `useOptimistic` hook works.
+Hii itakuwa wazi zaidi tunapopita kwenye mifano inayonyesha jinsi hook ya `useOptimistic` inavyofanya kazi.
 
-Here's an action that simulates saving a task to a server. It returns the task after a 1 second delay, as it could happen with a real-world API request:
+Hapa kuna kitendo kinachofanana na kuhifadhi zoezi kwa seva. Kinarejesha zoezi baada ya kuchelewa kwa sekunde 1, kama inavyoweza kutokea kwa ombi halisi la API:
 
 ```js
 export async function saveTask(task) {
@@ -49,7 +49,7 @@ export async function saveTask(task) {
 }
 ```
 
-Here's the code that sets up the `useOptimistic` hook by importing and initializing it, with an `handleSubmit` function that sends an input to the action:
+Hapa ni msimbo unaoweka hook ya `useOptimistic` kwa kuleta na kuanzisha, pamoja na kitendakazi cha `handleSubmit` kinachotuma ingizo kwa kitendo:
 
 ```jsx
 "use client";
@@ -76,13 +76,13 @@ export default function TaskList({ tasks, addTask }) {
 }
 ```
 
-In the code, the `useOptimistic` hook keeps a temporary list of tasks that updates immediately when you add a new task.
+Katika msimbo, hook ya `useOptimistic` inahifadhi orodha ya muda ya mazoezi ambayo husasishwa mara moja unapoongeza zoezi jipya.
 
-The line, `(state, newTask) => [...state, { text: newTask, pending: true }]` ensures that a new task appears with a pending status even before the server confirms something is coming from the form.
+Mstari wa `(state, newTask) => [...state, { text: newTask, pending: true }]` unahakikisha kuwa zoezi jipya linaonekana na hali ya kusubiri hata kabla seva kuthibitisha kitu kinatoka kwenye fomu.
 
-When the form is submitted, the `handleSubmit` function extracts the task and adds it "optimistically" with the `addOptimisticTask` parameter. Then `addTask` is passed as a prop which sends the task to the server. Finally, the form is reset by calling `e.target.reset()`.
+Wakati fomu inawasilishwa, kitendakazi cha `handleSubmit` huchukua zoezi na kuiongeza "kwa matumaini" kwa kigezo cha `addOptimisticTask`. Kisha `addTask` hupitishwa kama sifa inayotuma zoezi kwa seva. Mwisho, fomu inafutwa kwa kuita `e.target.reset()`.
 
-Here's the `TaskList` component:
+Hapa kuna sehemu ya `TaskList`:
 
 ```jsx
 "use client";
@@ -139,9 +139,9 @@ export default function TaskList({ tasks, addTask }) {
 }
 ```
 
-Here, we are looping through the `optimisticTask` parameter to display the task. When `task.pending` is `true`, the text `Adding Task...` is displayed next to the task, confirming that the task has been added optimistically before the server confirms it.
+Hapa, tunapitia kigezo cha `optimisticTask` kuonyesha zoezi. Wakati `task.pending` ni `true`, maandishi ya `Adding Task...` yanaonyeshwa kando ya zoezi, kuthibitisha kuwa zoezi limeongezwa kwa matumaini kabla seva kuthibitisha.
 
-Here's the `Task` component that manages the state for the form. It calls the `saveTask` function from the action so it can add the task, and appends the new task once it is received by the server:
+Hapa kuna sehemu ya `Task` inayosimamia hali ya fomu. Inaita kitendakazi cha `saveTask` kutoka kwa kitendo ili iweze kuongeza zoezi, na kuambatisha zoezi jipya mara linapopokelewa na seva:
 
 ```jsx
 "use client";
@@ -164,13 +164,13 @@ export default function Tasks() {
 }
 ```
 
-This ensures snappy UI updates by showing instant feedback instead of waiting for a response. Once the task is saved, the `pending` property is removed, and the final task list updates accordingly.
+Hii inahakikisha sasisho za UI zenye mwendo mzuri kwa kuonyesha mrejesho wa papo hapo badala ya kusubiri jibu. Mara zoezi linapohifadhiwa, sifa ya `pending` huondolewa, na orodha ya mwisho ya mazoezi husasishwa ipasavyo.
 
-In the UI, there are two things happening that are not supposed to happen. First, you can't see the `Adding Task...` text since it appears and disappears too quickly. Next, there's an error occurring after adding the task.
+Katika UI, kuna mambo mawili yanayotokea ambayo hayapaswi kutokea. Kwanza, huwezi kuona maandishi ya `Adding Task...` kwa sababu yanaonekana na kutoweka haraka sana. Pili, kuna kosa linalotokea baada ya kuongeza zoezi.
 
-There are two things we need to do to address those issues.
+Kuna mambo mawili tunayohitaji kufanya ili kushughulikia matatizo hayo.
 
-First, we need to import `startTransition` from React and use it to wrap the line `addOptimisticTask(formData.get('task'))`:
+Kwanza, tunahitaji kuleta `startTransition` kutoka React na kuitumia kufunika mstari wa `addOptimisticTask(formData.get('task'))`:
 
 ```js
 startTransition(() => {
@@ -178,9 +178,9 @@ startTransition(() => {
 });
 ```
 
-Second, we need to make the `Adding Task...` text visible for some time before it goes away.
+Pili, tunahitaji kufanya maandishi ya `Adding Task...` yaonekane kwa muda kabla hayatoweke.
 
-To do this, we can modify the `addTask` function with a pending state and simulate a delay of a few seconds before marking the task as completed. `setTimeout()` is ideal for this:
+Ili kufanya hivyo, tunaweza kubadilisha kitendakazi cha `addTask` kwa hali ya kusubiri na kuiga kuchelewa kwa sekunde chache kabla ya kuashiria zoezi limekamilika. `setTimeout()` ni chaguo bora kwa hili:
 
 ```js
 async function addTask(formData) {
@@ -205,41 +205,41 @@ async function addTask(formData) {
 }
 ```
 
-And once you do that, everything works fine.
+Na mara unafanya hivyo, kila kitu kinafanya kazi vizuri.
 
 # --questions--
 
 ## --text--
 
-What is the purpose of the `useOptimistic` hook?
+Lengo la hook ya `useOptimistic` ni nini?
 
 ## --answers--
 
-It allows components to fetch data from the server before rendering the UI.
+Inaruhusu sehemu kupata data kutoka seva kabla ya kuonyesha UI.
 
 ### --feedback--
 
-This hook ensures the UI reflects expected changes before an async operation completes.
+Hook hii inahakikisha UI inaonyesha mabadiliko yanayotarajiwa kabla ya operesheni ya async kukamilika.
 
 ---
 
-It helps manage optimistic updates by updating the UI immediately while waiting for an async operation, like a server response.
+Inasaidia kusimamia sasisho za matumaini kwa kusasisha UI mara moja wakati inasubiri operesheni ya async, kama jibu la seva.
 
 ---
 
-It enables automatic error handling and rollback for failed API requests in React applications.
+Inaruhusu kushughulikia makosa moja kwa moja na kurejesha hali kwa maombi ya API yaliyoshindwa katika programu za React.
 
 ### --feedback--
 
-This hook ensures the UI reflects expected changes before an async operation completes.
+Hook hii inahakikisha UI inaonyesha mabadiliko yanayotarajiwa kabla ya operesheni ya async kukamilika.
 
 ---
 
-It optimizes state updates by batching them together to improve performance.
+Inaboresha sasisho za hali kwa kuzichanganya pamoja ili kuboresha utendaji.
 
 ### --feedback--
 
-This hook ensures the UI reflects expected changes before an async operation completes.
+Hook hii inahakikisha UI inaonyesha mabadiliko yanayotarajiwa kabla ya operesheni ya async kukamilika.
 
 ## --video-solution--
 
@@ -247,35 +247,35 @@ This hook ensures the UI reflects expected changes before an async operation com
 
 ## --text--
 
-How is the `useOptimistic` hook different from a loading state?
+Je, hook ya `useOptimistic` inatofautianaje na hali ya upakiaji?
 
 ## --answers--
 
-A loading state shows UI feedback while waiting for a response, whereas `useOptimistic` updates the UI immediately based on an expected outcome.
+Hali ya upakiaji inaonyesha mrejesho wa UI wakati inasubiri jibu, wakati `useOptimistic` husasisha UI mara moja kulingana na matokeo yanayotarajiwa.
 
 ---
 
-A loading state modifies server data instantly while `useOptimistic` only updates the client UI.
+Hali ya upakiaji hubadilisha data ya seva mara moja wakati `useOptimistic` husasisha UI ya mteja tu.
 
 ### --feedback--
 
-One updates the UI before the server even knows about the request.
+Moja husasisha UI kabla seva hata hajajua kuhusu ombi.
 
 ---
 
-The `useOptimistic` hook is used for handling errors, whereas a loading state is only for showing spinners.
+Hook ya `useOptimistic` hutumika kushughulikia makosa, wakati hali ya upakiaji ni kwa kuonyesha spinner tu.
 
 ### --feedback--
 
-One updates the UI before the server even knows about the request.
+Moja husasisha UI kabla seva hata hajajua kuhusu ombi.
 
 ---
 
-Both are the same, but `useOptimistic` provides automatic retries for failed requests.
+Zote ni sawa, lakini `useOptimistic` hutoa jaribio la moja kwa moja kwa maombi yaliyoshindwa.
 
 ### --feedback--
 
-One updates the UI before the server even knows about the request.
+Moja husasisha UI kabla seva hata hajajua kuhusu ombi.
 
 ## --video-solution--
 
@@ -283,7 +283,7 @@ One updates the UI before the server even knows about the request.
 
 ## --text--
 
-What does `addOptimistic` do in the `useOptimistic` hook syntax below?
+`addOptimistic` hufanya nini katika sintaksia ya hook ya `useOptimistic` hapa chini?
 
 ```js
 const [optimisticState, addOptimistic] = useOptimistic(actualState, updateFunction);
@@ -291,31 +291,31 @@ const [optimisticState, addOptimistic] = useOptimistic(actualState, updateFuncti
 
 ## --answers--
 
-It applies the optimistic update before the actual state changes, providing a smoother user experience.
+Inatekeleza sasisho la matumaini kabla hali halisi kubadilika, ikitoa uzoefu laini wa mtumiaji.
 
 ---
 
-It fetches the real state from the server and updates the UI accordingly.
+Inapata hali halisi kutoka seva na kusasisha UI ipasavyo.
 
 ### --feedback--
 
-This function updates the UI before the actual state changes.
+Kitendakazi hiki husasisha UI kabla hali halisi kubadilika.
 
 ---
 
-It replaces the actual state with a temporary state after receiving a server response.
+Inabadilisha hali halisi na hali ya muda baada ya kupokea jibu kutoka seva.
 
 ### --feedback--
 
-This function updates the UI before the actual state changes.
+Kitendakazi hiki husasisha UI kabla hali halisi kubadilika.
 
 ---
 
-It validates server data before applying the optimistic update to the UI.
+Inathibitisha data ya seva kabla ya kutekeleza sasisho la matumaini kwa UI.
 
 ### --feedback--
 
-This function updates the UI before the actual state changes.
+Kitendakazi hiki husasisha UI kabla hali halisi kubadilika.
 
 ## --video-solution--
 

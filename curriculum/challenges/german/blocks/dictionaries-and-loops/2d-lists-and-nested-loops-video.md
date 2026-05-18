@@ -1,6 +1,6 @@
 ---
 id: 28119f9dc5f93e3ac5d7c58a
-title: 2D Lists and Nested Loops
+title: 2D-Listen und verschachtelte Schleifen
 challengeType: 11
 videoId: 2lKgjX3gzmM
 dashedName: 2d-lists-and-nested-loops
@@ -8,13 +8,13 @@ dashedName: 2d-lists-and-nested-loops
 
 # --description--
 
-In this video, you will learn how to create 2D lists and use nested loops to work with multi-dimensional data structures.
+In diesem Video lernen Sie, wie Sie 2D-Listen erstellen und verschachtelte Schleifen verwenden, um mit mehrdimensionalen Datenstrukturen zu arbeiten.
 
 # --questions--
 
 ## --text--
 
-What will be the output for the following code?
+Was wird die Ausgabe für den folgenden Code sein?
 
 ```python
 number_grid = [

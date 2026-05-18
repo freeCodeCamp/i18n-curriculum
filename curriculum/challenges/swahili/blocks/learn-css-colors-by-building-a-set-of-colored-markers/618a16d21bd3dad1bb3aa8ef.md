@@ -1,26 +1,26 @@
 ---
 id: 618a16d21bd3dad1bb3aa8ef
-title: Hatua ya 41
+title: Hatua 41
 challengeType: 0
 dashedName: step-41
 ---
 
 # --description--
 
-Now it's time to add other details to the markers, starting with the first one.
+Sasa ni wakati wa kuongeza maelezo mengine kwenye alama, kuanzia na ile ya kwanza.
 
-Katika kipengele cha `div` cha alama ya kwanza, badilisha class `one` hadi `red`.
+Katika kipengele cha alama ya kwanza `div`, badilisha darasa la vitu `one` kuwa `red`.
 
 # --hints--
 
-Alama yako ya kwanza ya `div` haipaswi kuwa na class ya `one`.
+Alama yako ya kwanza `div` haipaswi kuwa na darasa la vitu `one`.
 
 ```js
 const containerFirstChild = [...document.querySelector('.container')?.children][0];
 assert(!containerFirstChild?.classList?.contains('one'));
 ```
 
-Alama yako ya kwanza ya `div` inapaswa kuwa na classes za `marker` na `red`.
+Alama yako ya kwanza `div` inapaswa kuwa na madarasa ya vitu `marker` na `red`.
 
 ```js
 const containerFirstChild = [...document.querySelector('.container')?.children][0];

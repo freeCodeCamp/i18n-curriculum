@@ -1,15 +1,15 @@
 ---
 id: 686fdcfe055bcda9f651dd2e
-title: Build an Adjacency List to Matrix Converter
+title: Jenga Kigeuzi cha Orodha ya Ujirani kwa Matriki ya Ujirani
 challengeType: 27
 dashedName: build-an-adjacency-list-to-matrix-converter
 ---
 
 # --description--
 
-In this lab, you will build a function that converts an adjacency list representation of a graph into an adjacency matrix. An adjacency list is a dictionary where each key represents a node, and the corresponding value is a list of nodes that the key node is connected to. An adjacency matrix is a 2D array where the entry at position `[i][j]` is `1` if there's an edge from node `i` to node `j`, and `0` otherwise.
+Katika maabara hii, u-tajenga kitendakazi kinachobadilisha uwakilishi wa orodha ya ujirani ya grafu kuwa matriki ya ujirani. Orodha ya ujirani ni kamusi ambapo kila ufunguo unawakilisha nodi, na thamani inayolingana ni orodha ya nodi ambazo nodi ya ufunguo imeunganishwa nazo. Matriki ya ujirani ni safu ya data ya pande mbili ambapo kipengee kilichopo katika nafasi `[i][j]` ni `1` ikiwa kuna kiunganishi kutoka nodi `i` kwenda nodi `j`, na `0` vinginevyo.
 
-For example, given the adjacency list:
+Kwa mfano, ikitolewa orodha ya ujirani:
 
 ```py
 {
@@ -20,7 +20,7 @@ For example, given the adjacency list:
 }
 ```
 
-The corresponding adjacency matrix would be:
+Matriki ya ujirani inayolingana itakuwa:
 
 ```py
 [
@@ -31,18 +31,18 @@ The corresponding adjacency matrix would be:
 ]
 ```
 
-**Objective:** Fulfill the user stories below and get all the tests to pass to complete the lab.
+**Lengo:** Timiza hadithi za watumizi zilizo hapa chini na upite vipimo vyote ili kumaliza maabara hii.
 
-**User Stories:**
+**Hadithi za watumizi:**
 
-1. You should define a function named `adjacency_list_to_matrix` to convert an adjacency list to an adjacency matrix.
-2. The function should take a dictionary representing the adjacency list of an unweighted (either undirected or directed) graph as its argument.
-3. The function should:
-   - Convert the adjacency list to an adjacency matrix.
-   - Print each row in the adjacency matrix.
-   - Return the adjacency matrix.
+1. Unapaswa kufafanua kitendakazi kinachoitwa `adjacency_list_to_matrix` kubadilisha orodha ya ujirani kuwa matriki ya ujirani.
+2. Kitendakazi kinapaswa kuchukua kamusi inayowakilisha orodha ya ujirani ya grafu isiyo na uzito (iwe isiyo na mwelekeo au yenye mwelekeo) kama hoja yake.
+3. Kitendakazi kinapaswa:
+   - Badilisha orodha ya ujirani kuwa matriki ya ujirani.
+   - Chapisha kila safu katika matriki ya ujirani.
+   - Rudisha matriki ya ujirani.
 
-For example, `adjacency_list_to_matrix({0: [2], 1: [2, 3], 2: [0, 1, 3], 3: [1, 2]})` should print:
+Kwa mfano, `adjacency_list_to_matrix({0: [2], 1: [2, 3], 2: [0, 1, 3], 3: [1, 2]})` inapaswa kuchapisha:
 
 ```md
 [0, 0, 1, 0]
@@ -51,12 +51,12 @@ For example, `adjacency_list_to_matrix({0: [2], 1: [2, 3], 2: [0, 1, 3], 3: [1, 
 [0, 1, 1, 0]
 ```
 
-and return `[[0, 0, 1, 0], [0, 0, 1, 1], [1, 1, 0, 1], [0, 1, 1, 0]]`.
+na kurudisha `[[0, 0, 1, 0], [0, 0, 1, 1], [1, 1, 0, 1], [0, 1, 1, 0]]`.
 
 
 # --hints--
 
-You should define a function named `adjacency_list_to_matrix`.
+Unapaswa kufafanua kitendakazi kinachoitwa `adjacency_list_to_matrix`.
 
 ```js
 ({ 
@@ -66,7 +66,7 @@ You should define a function named `adjacency_list_to_matrix`.
 })
 ```
 
-The `adjacency_list_to_matrix` function should have one parameter.
+Kitendakazi `adjacency_list_to_matrix` kinapaswa kuwa na kigezo kimoja.
 
 ```js
 ({ test: () => assert(runPython(`
@@ -77,7 +77,7 @@ The `adjacency_list_to_matrix` function should have one parameter.
 })
 ```
 
-The function should correctly determine the number of nodes from the adjacency list.
+Kitendakazi kinapaswa kubaini idadi ya nodi kutoka orodha ya ujirani kwa usahihi.
 
 ```js
 ({ 
@@ -90,7 +90,7 @@ The function should correctly determine the number of nodes from the adjacency l
 })
 ```
 
-The function should correctly set matrix values to `1` for existing edges.
+Kitendakazi kinapaswa kuweka thamani za matriki kuwa `1` kwa viunganishi vilivyopo kwa usahihi.
 
 ```js
 ({ 
@@ -105,30 +105,30 @@ The function should correctly set matrix values to `1` for existing edges.
 })
 ```
 
-The function should print each row of the matrix.
+Kitendakazi kinapaswa kuchapisha kila safu ya matriki.
 
 ```js
 ({ 
     test: () => runPython(`
         import io
         import sys
-
+        
         captured_output = io.StringIO()
         sys.stdout = captured_output
-
+        
         adj_list = {0: [1], 1: []}
         adjacency_list_to_matrix(adj_list)
-
+        
         sys.stdout = sys.__stdout__
         output = captured_output.getvalue()
-
+        
         assert "[0, 1]" in output
         assert "[0, 0]" in output
     `) 
 })
 ```
 
-The function should return the adjacency matrix.
+Kitendakazi kinapaswa kurudisha matriki ya ujirani.
 
 ```js
 ({ 
@@ -140,7 +140,7 @@ The function should return the adjacency matrix.
 })
 ```
 
-When given the adjacency list `{0: [1, 2], 1: [2], 2: [0, 3], 3: [2]}`, the function should return `[[0, 1, 1, 0], [0, 0, 1, 0], [1, 0, 0, 1], [0, 0, 1, 0]]`.
+Ikipewa orodha ya ujirani `{0: [1, 2], 1: [2], 2: [0, 3], 3: [2]}`, kitendakazi kinapaswa kurudisha `[[0, 1, 1, 0], [0, 0, 1, 0], [1, 0, 0, 1], [0, 0, 1, 0]]`.
 
 ```js
 ({ 
@@ -153,7 +153,7 @@ When given the adjacency list `{0: [1, 2], 1: [2], 2: [0, 3], 3: [2]}`, the func
 })
 ```
 
-When given the adjacency list `{0: [1], 1: [0]}`, the function should return `[[0, 1], [1, 0]]`.
+Ikipewa orodha ya ujirani `{0: [1], 1: [0]}`, kitendakazi kinapaswa kurudisha `[[0, 1], [1, 0]]`.
 
 ```js
 ({ 
@@ -166,7 +166,7 @@ When given the adjacency list `{0: [1], 1: [0]}`, the function should return `[[
 })
 ```
 
-When given the adjacency list `{0: [], 1: [], 2: []}`, the function should return `[[0, 0, 0], [0, 0, 0], [0, 0, 0]]`.
+Ikipewa orodha ya ujirani `{0: [], 1: [], 2: []}`, kitendakazi kinapaswa kurudisha `[[0, 0, 0], [0, 0, 0], [0, 0, 0]]`.
 
 ```js
 ({ 
@@ -192,7 +192,7 @@ When given the adjacency list `{0: [], 1: [], 2: []}`, the function should retur
 ```py
 def adjacency_list_to_matrix(adj_list):
     n = len(adj_list)
-
+    
     adj_matrix = [[0] * n for _ in range(n)]
 
     for src_node, neighbors in adj_list.items(): 

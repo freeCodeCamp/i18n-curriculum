@@ -1,6 +1,6 @@
 ---
 id: 67ee802cf777fd1dcdeac13a
-title: Task 19
+title: Zoezi la 19
 challengeType: 19
 dashedName: task-19
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Sikiliza sauti na jibu swali lililopo hapa chini.
 
 # --questions--
 
 ## --text--
 
-What requirement does Sophie mention?
+Ni hitaji gani ambalo Sophie amelitaja?
 
 ## --answers--
 
-Mark should delete unnecessary lines of code.
+Mark anapaswaafuta mistari isiyo ya lazima ya msimbo.
 
 ### --feedback--
 
-Sophie doesn't talk about removing code.
+Sophie hakuzungumzia kuhusu kufuta msimbo.
 
 ---
 
-Mark should rewrite his code completely.
+Mark anapaswa kuandika upya msimbo wake kabisa.
 
 ### --feedback--
 
-Sophie doesn't suggest rewriting the entire code.
+Sophie hakupendekeza kuandika upya msimbo mzima.
 
 ---
 
-Mark should avoid using loops.
+Mark anapaswa kuepuka kutumia loops.
 
 ### --feedback--
 
-Sophie does not say anything about avoiding loops.
+Sophie hakusema chochote kuhusu kuepuka loops.
 
 ---
 
-Mark should use notes in his code.
+Mark anapaswa kutumia maoni katika msimbo wake.
 
 ## --video-solution--
 
@@ -52,13 +52,13 @@ Mark should use notes in his code.
 
 # --explanation--
 
-A `comment` is a note in the code that helps explain what it does. For example:
+`comment` ni maoni katika msimbo ambayo husaidia kuelezea kinachofanywa na msimbo huo. Kwa mfano:
 
-- `I added a comment to explain why this loop is necessary.` - You wrote a comment to describe why certain loop is used.
+- `I added a comment to explain why this loop is necessary.` - Umeandika maoni kuelezea kwa nini loop fulani imetumika.
 
-- `You can use comments to leave notes about issues that need fixing later.` - Comments can be added in the code as reminders for things that need to be fixed or improved.
+- `You can use comments to leave notes about issues that need fixing later.` - Maoni yanaweza kuongezwa katika msimbo kama vikumbusho vya mambo yanayohitaji kurekebishwa au kuboreshwa.
 
-Comments help others understand the code and remind you of important details when reviewing your code later.
+Maoni husaidia wengine kuelewa msimbo na hukukumbusha wewe kuhusu maelezo muhimu wakati wa kukagua msimbo wako baadaye.
 
 # --scene--
 

@@ -1,15 +1,15 @@
 ---
 id: 672bccc8ea33bad87abb3c56
-title: What Is the Difference Between content-box and border-box?
+title: Nini Tofauti Kati ya content-box na border-box?
 challengeType: 19
 dashedName: what-is-the-difference-between-content-box-and-border-box
 ---
 
 # --interactive--
 
-The `box-sizing` property can be set to either `content-box` or `border-box` to control how the width and height of elements are calculated.
+Sifa ya `box-sizing` inaweza kuwekwa kuwa `content-box` au `border-box` kudhibiti jinsi upana na urefu wa vipengele vinavyopimwa.
 
-This property can be set on the universal selector (`*`) to apply to all the elements in the document:
+Sifa hii inaweza kuwekwa kwenye kichaguzi cha ulimwengu (`*`) ili itumike kwa vipengele vyote katika hati:
 
 ```css
 * {
@@ -17,20 +17,20 @@ This property can be set on the universal selector (`*`) to apply to all the ele
 }
 ```
 
-The value of the `box-sizing` property is `content-box` by default, but you can choose `border-box` if you need to. We will explore `content-box` first and then we will go into `border-box`.
+Thamani ya sifa ya `box-sizing` ni `content-box` kwa chaguo-msingi, lakini unaweza kuchagua `border-box` ikiwa unahitaji. Tutachunguza `content-box` kwanza kisha tutaingia kwenye `border-box`.
 
-To understand how the models work, you need to be familiar with the four core concepts from the CSS box model. Let's review them quickly.
+Ili kuelewa jinsi mifano inavyofanya kazi, unahitaji kufahamu dhana kuu nne kutoka kwa mfano wa boksi wa CSS. Hebu tukague haraka.
 
-- The content area is the space occupied by the element's content.
-- The padding is the space between the content area and the border.
-- The border is the outline that surrounds the content area and the padding.
-- The margin is the space outside the border that separates the element from other elements.
+- Eneo la maudhui ni nafasi inayochukuliwa na maudhui ya kipengele.
+- Nafasi ya ndani ni nafasi kati ya eneo la maudhui na mpaka.
+- Mpaka ni mstari unaozunguka eneo la maudhui na nafasi ya ndani.
+- Ukingo ni nafasi nje ya mpaka inayotenganisha kipengele na vipengele vingine.
 
-In the `content-box` model, the width and height that you set for an element determine the dimensions of the content area, but they don't include the padding, border, or margin. Use `content-box` when you need precise control over the content area. When you set `width` and `height`, you're only setting the size of the content itself.
+Katika mfano wa `content-box`, upana na urefu unaoweka kwa kipengele huamua vipimo vya eneo la maudhui, lakini havijumuishi nafasi ya ndani, mpaka, au ukingo. Tumia `content-box` unapohitaji udhibiti sahihi wa eneo la maudhui. Unapoweka `width` na `height`, unakuwa umeweka ukubwa wa maudhui yenyewe tu.
 
-To find the total width of the element, you will need to add the left and right padding, and the left and right borders. Likewise, the total height of an element can be found by adding the content height, the top and bottom padding, and the top and bottom borders.
+Ili kupata upana wa jumla wa kipengele, utahitaji kuongeza nafasi ya ndani ya kushoto na kulia, na mipaka ya kushoto na kulia. Vivyo hivyo, urefu wa jumla wa kipengele unaweza kupatikana kwa kuongeza urefu wa maudhui, nafasi ya ndani ya juu na chini, na mipaka ya juu na chini.
 
-For example, here we have a CSS type selector for all the `div` elements.
+Kwa mfano, hapa tuna kichaguzi cha aina ya CSS kwa vipengele vyote vya `div`.
 
 :::interactive_editor
 
@@ -50,13 +50,13 @@ div {
 
 :::
 
-In this case, if `content-box` is used the content area will be 300px by 200px. The total rendered size includes padding and borders — for example, total width = 300px (content) + 40px (padding) + 8px (borders) = 348px; the total height is calculated in the same way.
+Katika kesi hii, ikiwa `content-box` itatumika eneo la maudhui litakuwa 300px kwa 200px. Ukubwa wa jumla unaonyeshwa unajumuisha nafasi ya ndani na mipaka — kwa mfano, upana wa jumla = 300px (maudhui) + 40px (nafasi ya ndani) + 8px (mipaka) = 348px; urefu wa jumla unahesabiwa kwa njia ile ile.
 
-Great! Now let's explore `border-box`. It's different because the width and height you set include the element's content, padding, and border (but not its margin). Use `border-box` when you want the element's total size to stay fixed even if padding or borders change — that's often helpful in responsive layouts.
+Nzuri! Sasa hebu tuchunguze `border-box`. Ni tofauti kwa sababu upana na urefu unaoweka unajumuisha maudhui ya kipengele, nafasi ya ndani, na mpaka (lakini si ukingo wake). Tumia `border-box` unapotaka ukubwa wa jumla wa kipengele ubaki thabiti hata kama nafasi ya ndani au mipaka itabadilika — hii mara nyingi husaidia katika mipangilio inayojibadilisha kulingana na kifaa.
 
-With `border-box`, padding and borders are included inside the element's specified size. The `width` and `height` you set become the element's total dimensions: content + padding + border; margins remain excluded.
+Kwa `border-box`, nafasi ya ndani na mipaka zinajumuishwa ndani ya ukubwa uliobainishwa wa kipengele. `width` na `height` unazoweka zinakuwa vipimo vya jumla vya kipengele: maudhui + nafasi ya ndani + mpaka; kingo hazijumuishwi.
 
-In the following example, there are two `div` elements with the same dimensions but different `box-sizing` values. Notice how this results in different total sizes when viewed in the browser:
+Katika mfano ufuatao, kuna vipengele viwili vya `div` vyenye vipimo sawa lakini thamani tofauti za `box-sizing`. Angalia jinsi hii inavyosababisha ukubwa tofauti wa jumla unapoangaliwa kwenye kivinjari:
 
 :::interactive_editor
 
@@ -89,15 +89,15 @@ In the following example, there are two `div` elements with the same dimensions 
 
 :::
 
-You can see that they both have the same `width`, `height`, `padding`, `border` and `margin`. The only differences are in the colors and the value of the `box-sizing` property. This small difference has a very important impact on the final dimensions.
+Unaweza kuona kuwa vyote vina `width`, `height`, `padding`, `border` na `margin` sawa. Tofauti pekee ni katika rangi na thamani ya sifa ya `box-sizing`. Tofauti hii ndogo ina athari muhimu sana kwa vipimo vya mwisho.
 
-Choosing between `content-box` and `border-box` really depends on the specific needs of your project. While `border-box` is becoming increasingly popular for its simplicity and flexibility, understanding both models is important for implementing effective CSS layouts.
+Kuchagua kati ya `content-box` na `border-box` kunategemea mahitaji maalum ya mradi wako. Wakati `border-box` inazidi kupendwa kwa urahisi na kubadilika kwake, kuelewa mifano yote miwili ni muhimu kwa kutekeleza mipangilio madhubuti ya CSS.
 
 # --questions--
 
 ## --text--
 
-Which of the following is the default value for the `box-sizing` property in most browsers?
+Ni ipi kati ya zifuatazo ndiyo thamani ya chaguo-msingi ya sifa ya `box-sizing` katika vivinjari vingi?
 
 ## --answers--
 
@@ -109,7 +109,7 @@ Which of the following is the default value for the `box-sizing` property in mos
 
 ### --feedback--
 
-Think about the default behavior for element sizing.
+Fikiria tabia ya chaguo-msingi kwa ukubwa wa vipengele.
 
 ---
 
@@ -117,7 +117,7 @@ Think about the default behavior for element sizing.
 
 ### --feedback--
 
-Think about the default behavior for element sizing.
+Fikiria tabia ya chaguo-msingi kwa ukubwa wa vipengele.
 
 ---
 
@@ -125,7 +125,7 @@ Think about the default behavior for element sizing.
 
 ### --feedback--
 
-Think about the default behavior for element sizing.
+Fikiria tabia ya chaguo-msingi kwa ukubwa wa vipengele.
 
 ## --video-solution--
 
@@ -133,35 +133,35 @@ Think about the default behavior for element sizing.
 
 ## --text--
 
-What is the primary advantage of using `border-box` for creating responsive layouts?
+Nini faida kuu ya kutumia `border-box` kwa kuunda mipangilio inayojibadilisha kulingana na kifaa?
 
 ## --answers--
 
-It makes the calculations more complicated.
+Inafanya mahesabu kuwa magumu zaidi.
 
 ### --feedback--
 
-Think about how the `border-box` model handles `padding` and `border` within the specified `width` and `height`.
+Fikiria jinsi mfano wa `border-box` unavyoshughulikia `padding` na `border` ndani ya `width` na `height` zilizobainishwa.
 
 ---
 
-It allows for more precise control over element dimensions.
+Inaruhusu udhibiti sahihi zaidi wa vipimo vya kipengele.
 
 ### --feedback--
 
-Think about how the `border-box` model handles `padding` and `border` within the specified `width` and `height`.
+Fikiria jinsi mfano wa `border-box` unavyoshughulikia `padding` na `border` ndani ya `width` na `height` zilizobainishwa.
 
 ---
 
-It ensures that elements maintain their specified dimensions regardless of changes in `padding` or `border`.
+Inahakikisha vipengele vinadumisha vipimo vilivyobainishwa bila kujali mabadiliko ya `padding` au `border`.
 
 ---
 
-It improves browser compatibility.
+Inaboresha ulinganifu wa kivinjari.
 
 ### --feedback--
 
-Think about how the `border-box` model handles `padding` and `border` within the specified `width` and `height`.
+Fikiria jinsi mfano wa `border-box` unavyoshughulikia `padding` na `border` ndani ya `width` na `height` zilizobainishwa.
 
 ## --video-solution--
 
@@ -169,35 +169,35 @@ Think about how the `border-box` model handles `padding` and `border` within the
 
 ## --text--
 
-In the `content-box` model, what does the specified `width` of an element represent?
+Katika mfano wa `content-box`, `width` iliyobainishwa ya kipengele inawakilisha nini?
 
 ## --answers--
 
-The total `width` of the element, including `padding`, `border`, and `margin`.
+Ukubwa wa jumla wa `width` wa kipengele, ikijumuisha `padding`, `border`, na `margin`.
 
 ### --feedback--
 
-Think about the relationship between the content area and the overall element dimensions in the `content-box` model.
+Fikiria uhusiano kati ya eneo la maudhui na vipimo vya jumla vya kipengele katika mfano wa `content-box`.
 
 ---
 
-The `width` of the content area only.
+Ukubwa wa `width` wa eneo la maudhui tu.
 
 ---
 
-The `width` of the `border`.
+Ukubwa wa `width` wa `border`.
 
 ### --feedback--
 
-Think about the relationship between the content area and the overall element dimensions in the `content-box` model.
+Fikiria uhusiano kati ya eneo la maudhui na vipimo vya jumla vya kipengele katika mfano wa `content-box`.
 
 ---
 
-The `width` of the `padding`.
+Ukubwa wa `width` wa `padding`.
 
 ### --feedback--
 
-Think about the relationship between the content area and the overall element dimensions in the `content-box` model.
+Fikiria uhusiano kati ya eneo la maudhui na vipimo vya jumla vya kipengele katika mfano wa `content-box`.
 
 ## --video-solution--
 

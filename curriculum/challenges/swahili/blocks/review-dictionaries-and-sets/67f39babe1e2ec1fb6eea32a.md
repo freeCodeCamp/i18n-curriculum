@@ -1,15 +1,15 @@
 ---
 id: 67f39babe1e2ec1fb6eea32a
-title: Dictionaries and Sets Review
+title: Ukaguzi wa Kamusi na Seti
 challengeType: 31
 dashedName: review-dictionaries-and-sets
 ---
 
 # --description--
 
-## Dictionaries
+## Kamusi
 
-- **Dictionaries**: Dictionaries are built-in data structures that store collections of key-value pairs. Keys need to be immutable data types. This is the general syntax of a Python dictionary:
+- **Kamusi**: Kamusi ni miundo ya data iliyojengwa ndani inayohifadhi makusanyo ya jozi za ufunguo-thamani. Funguo zinapaswa kuwa aina za data zisizobadilika. Hii ni sintaksia ya jumla ya kamusi ya Python:
 
 ```python
 dictionary = {
@@ -18,27 +18,27 @@ dictionary = {
 }
 ```
 
-- **`dict()` Constructor**: The `dict()` constructor is an alternative way to build the dictionary. You pass a list of tuples as an argument to the `dict()` constructor. These tuples contain the key as the first element and the value as the second element.
+- **`dict()` Kijenzi**: Kijenzi cha `dict()` ni njia mbadala ya kujenga kamusi. Unapita orodha ya tuple kama hoja kwa kijenzi cha `dict()`. Tuple hizi zinafunguo kama kipengele cha kwanza na thamani kama kipengele cha pili.
 
 ```python
 pizza = dict([('name', 'Margherita Pizza'), ('price', 8.9), ('calories_per_slice', 250), ('toppings', ['mozzarella', 'basil'])])
 ```
 
-- **Bracket Notation**: To access the value of a key-value pair, you can use the syntax known as bracket notation.
+- **Uandishi wa mabano**: Ili kupata thamani ya jozi ya ufunguo-thamani, unaweza kutumia sintaksia inayojulikana kama uandishi wa mabano.
 
 ```python
 dictionary[key]
 ```
 
-## Common Dictionary Methods
+## Njia za kawaida za kamusi
 
-- **`get()` Method**: The `get()` method retrieves the value associated with a key. It's similar to the bracket notation, but it lets you set a default value, preventing errors if the key doesn't exist.
+- **Njia ya `get()`**: Njia ya `get()` inarudisha thamani inayohusiana na ufunguo. Ni sawa na uandishi wa mabano, lakini inakuwezesha kuweka thamani ya chaguo-msingi, kuzuia makosa ikiwa ufunguo haupo.
 
 ```python
 dictionary.get(key, default)
 ```
 
-- **`keys()` and `values()` Methods**: The `keys()` and `values()` methods return a view object with all the keys and values in the dictionary, respectively. A view object is a way to see the content of a dictionary without creating a separate copy of the data.
+- **Njia za `keys()` na `values()`**: Njia za `keys()` na `values()` hurudisha kitu cha mtazamo chenye funguo zote na thamani zote katika kamusi, mtawalia. Kitu cha mtazamo ni njia ya kuona yaliyomo katika kamusi bila kuunda nakala tofauti ya data.
 
 ```python
 pizza = {
@@ -54,41 +54,41 @@ pizza.values()
 # dict_values(['Margherita Pizza', 8.9, 250])
 ```
 
-- **`items()` Method**: The `items()` method returns a view object with all the key-value pairs in the dictionary, including both the keys and the values.
+- **Njia ya `items()`**: Njia ya `items()` hurudisha kitu cha mtazamo chenye jozi zote za ufunguo-thamani katika kamusi, ikijumuisha funguo na thamani.
 
 ```python
 pizza.items()
 # dict_items([('name', 'Margherita Pizza'), ('price', 8.9), ('calories_per_slice', 250)])
 ```
 
-- **`clear()` Method**: The `clear()` method removes all the key-value pairs from the dictionary.
+- **Njia ya `clear()`**: Njia ya `clear()` huondoa jozi zote za ufunguo-thamani kutoka kamusi.
 
 ```python
 pizza.clear()
 ```
 
-- **`pop()` Method**: The `pop()` method removes the key-value pair with the key specified as the first argument and returns its value. If the key doesn't exist, it returns the default value specified as the second argument. If the key doesn't exist and the default value is not specified, a `KeyError` is raised.
+- **Njia ya `pop()`**: Njia ya `pop()` huondoa jozi ya ufunguo-thamani yenye ufunguo uliotajwa kama hoja ya kwanza na hurudisha thamani yake. Ikiwa ufunguo haupo, hurudisha thamani ya chaguo-msingi iliyotajwa kama hoja ya pili. Ikiwa ufunguo haupo na thamani ya chaguo-msingi haijatolewa, `KeyError` hutolewa.
 
 ```python
 pizza.pop('price', 10)
 pizza.pop('total_price') # KeyError
 ```
 
-- **`popitem()` Method**: In Python 3.7 and above, the `popitem()` method removes the last inserted item.
+- **Njia ya `popitem()`**: Katika Python 3.7 na zaidi, njia ya `popitem()` huondoa kipengele cha mwisho kilichowekwa.
 
 ```python
 pizza.popitem()
 ```
 
-- **`update()` Method**: The `update()` method updates the key-value pairs with the key-value pairs of another dictionary. If they have keys in common, their values are overwritten. New keys will be added to the dictionary as new key-value pairs.
+- **Njia ya `update()`**: Njia ya `update()` husahihisha jozi za ufunguo-thamani kwa jozi za ufunguo-thamani za kamusi nyingine. Ikiwa zinafunguo sawa, thamani zao hubadilishwa. Funguo mpya zitaongezwa kama jozi mpya za ufunguo-thamani.
 
 ```python
 pizza.update({ 'price': 15, 'total_time': 25 })
 ```
 
-## Looping Over a Dictionary
+## Kurudia juu ya kamusi
 
-- **Iterating Over Values**: If you need to iterate over the values in a dictionary, you can write a `for` loop with `values()` to get all the values of a dictionary.
+- **Kurudia juu ya thamani**: Ikiwa unahitaji kurudia juu ya thamani katika kamusi, unaweza kuandika mzunguko wa `for` na `values()` kupata thamani zote za kamusi.
 
 ```python
 products = {
@@ -102,7 +102,7 @@ for price in products.values():
     print(price)
 ```
 
-Output:
+Matokeo:
 
 ```md
 990
@@ -111,7 +111,7 @@ Output:
 70
 ```
 
-- **Iterating Over Keys**: If you need to iterate over the keys in the `products` dictionary above, you can write `products.keys()` or `products` directly.
+- **Kurudia juu ya funguo**: Ikiwa unahitaji kurudia juu ya funguo katika kamusi ya `products` hapo juu, unaweza kuandika `products.keys()` au `products` moja kwa moja.
 
 ```python
 for product in products.keys():
@@ -123,7 +123,7 @@ for product in products:
     print(product)
 ```
 
-Output:
+Matokeo:
 
 ```md
 Laptop
@@ -132,14 +132,14 @@ Tablet
 Headphones
 ```
 
-- **Iterating Over Key-Value Pairs**: If you need to iterate over the keys and their corresponding values simultaneously, you can iterate over `products.items()`. You get individual tuples with the keys and their corresponding values.
+- **Kurudia juu ya jozi za ufunguo-thamani**: Ikiwa unahitaji kurudia juu ya funguo na thamani zao kwa wakati mmoja, unaweza kurudia juu ya `products.items()`. Unapata tuple binafsi zenye funguo na thamani zao.
 
 ```python
 for product in products.items():
     print(product)
 ```
 
-Output:
+Matokeo:
 
 ```md
 ('Laptop', 990)
@@ -148,14 +148,14 @@ Output:
 ('Headphones', 70)
 ```
 
-To store the key and value in separate loop variables, you need to separate them with a comma. The first variable stores the key, and the second stores the value.
+Ili kuhifadhi ufunguo na thamani katika vigezo tofauti vya mzunguko, unahitaji kuvitenganisha kwa koma. Kigezo cha kwanza huhifadhi ufunguo, na cha pili huhifadhi thamani.
 
 ```python
 for product, price in products.items():
     print(product, price)
 ```
 
-Output:
+Matokeo:
 
 ```md
 Laptop 990
@@ -164,16 +164,16 @@ Tablet 250
 Headphones 70
 ```
 
-- **`enumerate()` Function**: If you need to iterate over a dictionary while keeping track of a counter, you can call the `enumerate()` function. The function returns an `enumerate` object, which assigns an integer to each item, like a counter. You can start the counter from any number, but by default, it starts from 0.
+- **Kitendakazi cha `enumerate()`**: Ikiwa unahitaji kurudia juu ya kamusi huku ukifuatilia kielezo, unaweza kuita kitendakazi cha `enumerate()`. Kitendakazi hurudisha kitu cha `enumerate`, ambacho huweka nambari kwa kila kipengele, kama kielezo. Unaweza kuanza kielezo kutoka nambari yoyote, lakini kwa chaguo-msingi huanza kutoka 0.
 
-Assigning the index and item to separate loop variables is the common way to use `enumerate()`. For example, with `products.items()`, you can get the entire key-value pair in addition to the index:
+Kuweka kielezo na kipengele katika vigezo tofauti vya mzunguko ni njia ya kawaida ya kutumia `enumerate()`. Kwa mfano, kwa `products.items()`, unaweza kupata jozi nzima ya ufunguo-thamani pamoja na kielezo:
 
 ```python
 for index, product in enumerate(products.items()):
     print(index, product)
 ```
 
-Output:
+Matokeo:
 
 ```md
 0 ('Laptop', 990)
@@ -182,14 +182,14 @@ Output:
 3 ('Headphones', 70)
 ```
 
-To customize the initial value of the count, you can pass a second argument to `enumerate()`. For example, here we are starting the count from 1.
+Ili kubadilisha thamani ya mwanzo ya hesabu, unaweza kupita hoja ya pili kwa `enumerate()`. Kwa mfano, hapa tunaanza hesabu kutoka 1.
 
 ```python
 for index, product in enumerate(products.items(), 1):
     print(index, product)
 ```
 
-Output:
+Matokeo:
 
 ```md
 1 ('Laptop', 990)
@@ -198,47 +198,47 @@ Output:
 4 ('Headphones', 70)
 ```
 
-## Sets
+## Seti
 
-- **Sets**: Sets are built-in data structures in Python that do not allow duplicate values. Sets are mutable and unordered, which means that their elements are not stored in any specific order, so you cannot use indices or keys to access them. Also, sets can only contain values of immutable data types, like numbers, strings, and tuples.
+- **Seti**: Seti ni miundo ya data iliyojengwa ndani katika Python ambayo hairuhusu thamani rudufu. Seti ni zinazobadilika na hazina mpangilio, maana yake vipengele vyake havihifadhiwi kwa mpangilio maalum, hivyo huwezi kutumia vielezo au funguo kuzipata. Pia, seti zinaweza kuwa na thamani za aina za data zisizobadilika tu, kama nambari, mfuatano wa herufi, na tuple.
 
-- **Defining a Set**: To define a set, you need to write its elements within curly brackets and separate them with commas.
+- **Kufafanua seti**: Ili kufafanua seti, unahitaji kuandika vipengele vyake ndani ya mabano ya mviringo na kuvitenganisha kwa koma.
 
 ```python
 my_set = {1, 2, 3, 4, 5}
 ```
 
-- **Defining an Empty Set**: If you need to define an empty set, you must use the `set()` function. Only writing empty curly braces will automatically create a dictionary.
+- **Kufafanua seti tupu**: Ikiwa unahitaji kufafanua seti tupu, lazima utumie kitendakazi cha `set()`. Kuandika mabano ya mviringo tupu pekee kutaunda kamusi moja kwa moja.
 
 ```python
 set() # Set
 {}    # Dictionary
 ```
 
-## Common Set Methods
+## Njia za kawaida za seti
 
-- **`add()` Method**: You can add an element to a set with the `add()` method, passing the new element as an argument.
+- **Njia ya `add()`**: Unaweza kuongeza kipengele kwenye seti kwa njia ya `add()`, ukipita kipengele kipya kama hoja.
 
 ```python
 my_set.add(6)
 ```
 
-- **`remove()` and `discard()` Methods**: To remove an element from a set, you can either use the `remove()` method or the `discard()` method, passing the element you want to remove as an argument. The `remove()` method will raise a `KeyError` if the element is not found while the `discard()` method will not.
+- **Njia za `remove()` na `discard()`**: Kuondoa kipengele kutoka seti, unaweza kutumia njia ya `remove()` au njia ya `discard()`, ukipita kipengele unachotaka kuondoa kama hoja. Njia ya `remove()` itatoa `KeyError` ikiwa kipengele hakipatikani, wakati njia ya `discard()` haitatoa.
 
 ```python
 my_set.remove(4)
 my_set.discard(4)
 ```
 
-- **`clear()` method**:  The `clear()` method removes all the elements from the set.
+- **Njia ya `clear()`**: Njia ya `clear()` huondoa vipengele vyote kutoka seti.
 
 ```python
 my_set.clear()
 ```
 
-## Mathematical Set Operations
+## Operesheni za kihesabu za seti
 
-- **`issubset()` and `issuperset()` Methods**: The `issubset()` and the `issuperset()` methods check if a set is a subset or superset of another set, respectively.
+- **Njia za `issubset()` na `issuperset()`**: Njia za `issubset()` na `issuperset()` huangalia kama seti ni seti ndogo au seti kubwa ya seti nyingine, mtawalia.
 
 ```python
 my_set = {1, 2, 3, 4, 5}
@@ -248,7 +248,7 @@ print(your_set.issubset(my_set)) # True
 print(my_set.issuperset(your_set)) # True
 ```
 
-- **`isdisjoint()` Method**: The `isdisjoint()` method checks if two sets are disjoint, if they don't have elements in common.
+- **Njia ya `isdisjoint()`**: Njia ya `isdisjoint()` huangalia kama seti mbili hazina vipengele vinavyofanana.
 
 ```python
 my_set = {1, 2, 3}
@@ -257,7 +257,7 @@ your_set = {4, 5, 6}
 print(my_set.isdisjoint(your_set)) # True
 ```
 
-- **Union Operator (`|`)**: The union operator `|` returns a new set with all the elements from both sets.
+- **Kipengele cha muungano (`|`)**: Kipengele cha muungano `|` hurudisha seti mpya yenye vipengele vyote kutoka seti zote mbili.
 
 ```python
 my_set = {1, 2, 3}
@@ -266,7 +266,7 @@ your_set = {4, 5, 6}
 my_set | your_set # {1, 2, 3, 4, 5, 6}
 ```
 
-- **Intersection Operator (`&`)**: The intersection operator `&` returns a new set with only the elements that the sets have in common.
+- **Kipengele cha mkusanyiko (`&`)**: Kipengele cha mkusanyiko `&` hurudisha seti mpya yenye vipengele vinavyopatikana katika seti zote.
 
 ```python
 my_set = {1, 2, 3, 4, 5}
@@ -275,7 +275,7 @@ your_set = {2, 3, 4, 6}
 my_set & your_set # {2, 3, 4}
 ```
 
-- **Difference Operator (`-`)**: The difference operator `-` returns a new set with the elements of the first set that are not in the other sets.
+- **Kipengele cha tofauti (`-`)**: Kipengele cha tofauti `-` hurudisha seti mpya yenye vipengele vya seti ya kwanza ambavyo havipo katika seti nyingine.
 
 ```python
 my_set = {1, 2, 3, 4, 5}
@@ -284,7 +284,7 @@ your_set = {2, 3, 4, 6}
 my_set - your_set # {1, 5}
 ```
 
-- **Symmetric Difference Operator (`^`)**: The symmetric difference operator `^` returns a new set with the elements that are either in the first or the second set, but not both.
+- **Kipengele cha tofauti ya usawa (`^`)**: Kipengele cha tofauti ya usawa `^` hurudisha seti mpya yenye vipengele vilivyoko katika seti ya kwanza au ya pili, lakini si zote mbili.
 
 ```python
 my_set = {1, 2, 3, 4, 5}
@@ -293,33 +293,33 @@ your_set = {2, 3, 4, 6}
 my_set ^ your_set # {1, 5, 6}
 ```
 
-- **`in` Operator**: You can check if an element is in a set or not with the `in` operator.
+- **Kipengele cha `in`**: Unaweza kuangalia kama kipengele kiko katika seti au la kwa kutumia kipengele cha `in`.
 
 ```python
 print(5 in my_set) # True
 ```
 
-## Python Standard Library
+## Maktaba ya kawaida ya Python
 
-- **Python Standard Library**: A library gives you pre-written and reusable code, like functions, classes, and data structures, that you can reuse in your projects. Python has an extensive standard library with built-in modules that implement standardized solutions for many problems and tasks. Some examples of popular built-in modules are `math`, `random`, `re` (short for "regular expressions"), and `datetime`.
+- **Maktaba ya kawaida ya Python**: Maktaba hukupa msimbo uliotangulia kuandikwa na unaoweza kutumika tena, kama vitendakazi, madarasa, na miundo ya data, ambayo unaweza kutumia tena katika miradi yako. Python ina maktaba pana ya kawaida yenye moduli zilizojengwa ndani zinazotekeleza suluhisho za viwango kwa changamoto na zoezi nyingi. Mifano ya moduli maarufu zilizojengwa ndani ni `math`, `random`, `re` (mfupi wa "usemi wa kawaida"), na `datetime`.
 
-## Import Statement
+## Kauli ya import
 
-- **Import Statement**: To access the elements defined in built-in modules, you use an import statement. Import statements are generally written at the top of the file. Import statements work the same for functions, classes, constants, variables, and any other elements defined in the module.
+- **Kauli ya import**: Ili kupata vipengele vilivyofafanuliwa katika moduli zilizojengwa ndani, unatumia kauli ya import. Kauli za import kwa kawaida huandikwa juu ya faili. Kauli za import hufanya kazi sawa kwa vitendakazi, madarasa, constants, vigezo, na vipengele vingine vyote vilivyofafanuliwa katika moduli.
 
-- **Basic Import Statement**: You can use the `import` keyword followed by the name of the module:
+- **Kauli ya msingi ya import**: Unaweza kutumia neno kuu la `import` ikifuatiwa na jina la moduli:
 
 ```python
 import module_name
 ```
 
-Then, if you need to call a function from that module, you would use dot notation, with the name of the module followed by the name of the function.
+Kisha, ikiwa unahitaji kuita kitendakazi kutoka moduli hiyo, utatumia uandishi wa nukta, na jina la moduli likifuatiwa na jina la kitendakazi.
 
 ```python
 module_name.function_name()
 ```
 
-For example, you would write the following in your code to import the `math` module and get the square root of 36:
+Kwa mfano, utaandika yafuatayo katika msimbo wako kuleta moduli ya `math` na kupata mzizi wa mraba wa 36:
 
 ```python
 import math
@@ -327,31 +327,31 @@ import math
 math.sqrt(36)
 ```
 
-- **Importing a Module with a Different Name**: If you need to import the module with a different name (also known as an "alias"), you can use `as` followed by the alias at the end of the import statement. This is often used for long module names or to avoid naming conflicts.
+- **Kuleta moduli kwa jina tofauti**: Ikiwa unahitaji kuleta moduli kwa jina tofauti (inayojulikana pia kama "jina la utani"), unaweza kutumia `as` ikifuatiwa na jina la utani mwishoni mwa kauli ya import. Hii hutumika mara nyingi kwa majina marefu ya moduli au kuepuka migongano ya majina.
 
 ```python
 import module_name as module_alias
 ```
 
-For example, to refer to the `math` module as `m` in your code, you can assign an alias like this:
+Kwa mfano, kurejelea moduli ya `math` kama `m` katika msimbo wako, unaweza kuweka jina la utani kama hii:
 
 ```python
 import math as m
 ```
 
-Then, you can access the elements of the module using the alias:
+Kisha, unaweza kupata vipengele vya moduli kwa kutumia jina la utani:
 
 ```python
 m.sqrt(36)
 ```
 
-- **Importing Specific Elements**: If you don't need everything from a module, you can import specific elements using `from`. In this case, the import statement starts with `from`, followed by the module name, then the `import` keyword, and finally the names of the elements you want to import.
+- **Kuleta vipengele maalum**: Ikiwa hautaji kila kitu kutoka moduli, unaweza kuleta vipengele maalum kwa kutumia `from`. Katika kesi hii, kauli ya import huanza na `from`, ikifuatiwa na jina la moduli, kisha neno kuu la `import` na hatimaye majina ya vipengele unavyotaka kuleta.
 
 ```python
 from module_name import name1, name2
 ```
 
-Then, you can use these names without the module prefix in your Python script. For example:
+Kisha, unaweza kutumia majina haya bila kiambishi awali cha moduli katika script yako ya Python. Kwa mfano:
 
 ```python
 from math import radians, sin, cos
@@ -365,35 +365,35 @@ cos_value = cos(angle_radians)
 print(sine_value) # 0.6427876096865393
 print(cos_value)  # 0.766044443118978
 ```
+ 
+Hii ni msaada, lakini inaweza kusababisha migongano ya majina ikiwa tayari una vitendakazi au vigezo vyenye majina sawa. Tafadhali zingatia hili unapoamua aina gani ya kauli ya import unayotaka kutumia.
 
-This is helpful, but it can result in naming conflicts if you already have functions or variables with the same name. Keep it in mind when choosing which type of import statement you want to use.
-
-If you need to assign aliases to these names, you can do so as well, using the `as` keyword followed by the alias.
+Ikiwa unahitaji kuweka majina haya na majina ya utani, unaweza pia kufanya hivyo, ukitumia neno kuu la `as` ikifuatiwa na jina la utani.
 
 ```python
 from module_name import name1 as alias1, name2 as alias2
 ```
 
-- **Import Statement with Asterisk (`*`)**: The asterisk tells Python that you want to import everything in that module, but you want to import it so that you don't need to use the name of the module as a prefix.
+- **Kauli ya import yenye nyota (`*`)**: Nyota inamwambia Python unataka kuleta kila kitu katika moduli hiyo, lakini unataka kuileta ili usihitaji kutumia jina la moduli kama kiambishi awali.
 
 ```python
 from module_name import *
 ```
 
-For example, if you use this to import the `math` module, you'll be able to call any function defined in that module without specifying the name of the module as a prefix.
+Kwa mfano, ikiwa utatumia hii kuleta moduli ya `math`, utaweza kuita kitendakazi chochote kilichofafanuliwa katika moduli hiyo bila kutaja jina la moduli kama kiambishi awali.
 
 ```python
 from math import *
 print(sqrt(36))  # 6.0
 ```
 
-However, this is generally discouraged because it can lead to namespace collisions and make it harder to know where names come from.
+Hata hivyo, hii kwa kawaida haipendekezwi kwa sababu inaweza kusababisha migongano ya majina na kufanya iwe vigumu kujua majina yanatoka wapi.
 
 ## `if __name__ == '__main__'`
 
-- **`__name__` Variable**: `__name__` is a special built-in variable in Python. When a Python file is executed directly, Python sets the value of this variable to the string `"__main__"`. But if the Python file is imported as a module into another Python script, the value of the `__name__` variable is set to the name of that module.
+- **Kigezo cha `__name__`**: `__name__` ni kigezo maalum kilichojengwa ndani katika Python. Wakati faili ya Python inatekelezwa moja kwa moja, Python huweka thamani ya kigezo hiki kuwa mfuatano wa herufi `"__main__"`. Lakini ikiwa faili ya Python inaletwa kama moduli katika script nyingine ya Python, thamani ya kigezo cha `__name__` huwekwa kuwa jina la moduli hiyo.
 
-This is why you'll often find this conditional in Python scripts. It contains the code that you only want to run **only** if the Python script is running as the main program.
+Hii ndiyo sababu mara nyingi utapata masharti haya katika script za Python. Yana msimbo unaotaka kuendeshwa **tu** ikiwa script ya Python inaendeshwa kama programu kuu.
 
 ```python
 if __name__ == '__main__': 
@@ -402,4 +402,4 @@ if __name__ == '__main__':
 
 # --assignment--
 
-Review the Dictionaries and Sets topics and concepts.
+Kagua mada na dhana za kamusi na seti.

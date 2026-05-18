@@ -1,6 +1,6 @@
 ---
 id: d4876f74547b26d5c330423e
-title: Building a Guessing Game
+title: Ein Ratespiel erstellen
 challengeType: 11
 videoId: sHyQCBFRoug
 dashedName: building-a-guessing-game
@@ -8,13 +8,13 @@ dashedName: building-a-guessing-game
 
 # --description--
 
-In this video, you will build a guessing game that uses loops and conditionals.
+In diesem Video erstellen Sie ein Ratespiel, das Schleifen und Bedingungen verwendet.
 
 # --questions--
 
 ## --text--
 
-What does the condition `guess != secret_word` mean in this code?
+Was bedeutet die Bedingung `guess != secret_word` in diesem Code?
 
 ```python
 secret_word = "giraffe"
@@ -26,19 +26,19 @@ while guess != secret_word:
 
 ## --answers--
 
-If `guess` is not equal to `secret_word`.
+Wenn `guess` nicht gleich `secret_word` ist.
 
 ---
 
-If `guess` is equal to `secret_word`.
+Wenn `guess` gleich `secret_word` ist.
 
 ---
 
-If `guess` is greater than `secret_word`.
+Wenn `guess` größer als `secret_word` ist.
 
 ---
 
-If `guess` is less than `secret_word`.
+Wenn `guess` kleiner als `secret_word` ist.
 
 ## --video-solution--
 

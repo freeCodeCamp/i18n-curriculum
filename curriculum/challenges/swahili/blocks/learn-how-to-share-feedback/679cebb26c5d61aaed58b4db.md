@@ -1,6 +1,6 @@
 ---
 id: 679cebb26c5d61aaed58b4db
-title: Task 79
+title: Zoezi la 79
 challengeType: 19
 dashedName: task-79
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Sikiliza sauti na jibu swali lililopo hapa chini.
 
 # --questions--
 
 ## --text--
 
-What does James know about the issue with the latest update?
+James anajua nini kuhusu tatizo la sasisho la hivi karibuni?
 
 ## --answers--
 
-He knows exactly what the issue is.
+Anajua hasa tatizo ni nini.
 
 ### --feedback--
 
-James clearly says he didn't hear anything.
+James anasema wazi kwamba hakusikia chochote.
 
 ---
 
-He doesn't know anything about it.
+Hajui chochote kuhusu hilo.
 
 ---
 
-He already talked to the client.
+Tayari amezungumza na mteja.
 
 ### --feedback--
 
-James does not mention speaking to the client.
+James hakutaja kuzungumza na mteja.
 
 ---
 
-He received an email about the issue.
+Alipokea barua pepe kuhusu tatizo hilo.
 
 ### --feedback--
 
-James states that he didn't hear anything.
+James anasema kwamba hakusikia chochote.
 
 ## --video-solution--
 
@@ -52,7 +52,7 @@ James states that he didn't hear anything.
 
 # --explanation--
 
-Short answers with auxiliary verbs repeat the auxiliary from the question to confirm or deny something. In this case, Maria asks, `Did you hear anything?`, and James responds, `No, I didn't.` instead of just saying `No.` Here are some other examples:
+Majibu mafupi yenye vitenzi vya msaada hurudia kitenzi cha msaada kutoka kwenye swali kuthibitisha au kukataa jambo fulani. Katika kesi hii, Maria anauliza, `Did you hear anything?`, na James anajibu, `No, I didn't.` badala ya kusema tu `No.` Hapa kuna mifano mingine:
 
 - `Are you coming to the meeting?` → `Yes, I am.`
 
@@ -60,7 +60,7 @@ Short answers with auxiliary verbs repeat the auxiliary from the question to con
 
 - `Will she be here on time?` → `Yes, she will.`
 
-Short answers make responses sound natural and complete while avoiding repetition of the full sentence.
+Majibu mafupi hufanya majibu yaonekane ya asili na kamili huku yakiepuka kurudia sentensi kamili.
 
 # --scene--
 

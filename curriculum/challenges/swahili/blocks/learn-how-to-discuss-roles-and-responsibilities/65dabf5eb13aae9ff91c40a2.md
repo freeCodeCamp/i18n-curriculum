@@ -1,6 +1,6 @@
 ---
 id: 65dabf5eb13aae9ff91c40a2
-title: Task 108
+title: Zoezi la 108
 challengeType: 22
 dashedName: task-108
 lang: en-US
@@ -10,13 +10,13 @@ lang: en-US
 
 # --description--
 
-The phrase `search for` means to look for something or try to find something through exploration. For example, `I need to search for my lost keys` means looking for the keys.
+Usemi `search for` unamaanisha kutafuta kitu au kujaribu kupata kitu kupitia uchunguzi. Kwa mfano, `I need to search for my lost keys` inamaanisha kutafuta funguo.
 
-The word `expensive` describes something that costs a lot of money. For example, `That car is too expensive for me` means the car costs a lot.
+Neno `expensive` linaelezea kitu kinachogharimu pesa nyingi. Kwa mfano, `That car is too expensive for me` inamaanisha gari linagharimu pesa nyingi.
 
-A `solution` is an answer to a problem or a way to fix an issue.
+`solution` ni jibu kwa tatizo au njia ya kutatua tatizo.
 
-`Doesn't/don't have to` is used to express that there is no need or requirement to do something.
+`Doesn't/don't have to` hutumika kuonyesha kwamba hakuna haja au sharti la kufanya jambo fulani.
 
 # --fillInTheBlank--
 
@@ -30,7 +30,7 @@ A `solution` is an answer to a problem or a way to fix an issue.
 
 ### --feedback--
 
-This word means to look for something carefully.
+Neno hili linamaanisha kutafuta kitu kwa makini.
 
 ---
 
@@ -38,7 +38,7 @@ This word means to look for something carefully.
 
 ### --feedback--
 
-This preposition is used with `search` to indicate what you are trying to find.
+Kiunganishi hiki hutumika pamoja na `search` kuonyesha unachojaribu kutafuta.
 
 ---
 
@@ -46,7 +46,7 @@ This preposition is used with `search` to indicate what you are trying to find.
 
 ### --feedback--
 
-This word describes something that costs a lot of money.
+Neno hili linaelezea kitu kinachogharimu pesa nyingi.
 
 ---
 
@@ -54,7 +54,7 @@ This word describes something that costs a lot of money.
 
 ### --feedback--
 
-These are answers or ways to solve a problem.
+Hizi ni majibu au njia za kutatua tatizo.
 
 # --scene--
 

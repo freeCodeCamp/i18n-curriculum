@@ -1,6 +1,6 @@
 ---
 id: 67f36533ffaeffe3ac2dad2b
-title: Task 131
+title: Aufgabe 131
 challengeType: 19
 dashedName: task-131
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Hören Sie sich die Audioaufnahme an und beantworten Sie die folgende Frage.
 
 # --questions--
 
 ## --text--
 
-What is Jessica explaining?
+Was erklärt Jessica?
 
 ## --answers--
 
-There was a problem with the current update's schedule.
+Es gab ein Problem mit dem Zeitplan des aktuellen Updates.
 
 ### --feedback--
 
-Jessica is talking about the feature's timing, not the schedule of the update itself.
+Jessica spricht über den Zeitpunkt der Funktion, nicht über den Zeitplan des Updates selbst.
 
 ---
 
-The budget tracking feature will be in the next update, not the current one.
+Die Budget-Tracking-Funktion wird im nächsten Update enthalten sein, nicht im aktuellen.
 
 ---
 
-The budget tracking feature has been removed from the current update.
+Die Budget-Tracking-Funktion wurde aus dem aktuellen Update entfernt.
 
 ### --feedback--
 
-Jessica doesn't mention that the feature has been removed.
+Jessica erwähnt nicht, dass die Funktion entfernt wurde.
 
 ---
 
-The feature was mistakenly included in this update.
+Die Funktion wurde versehentlich in dieses Update aufgenommen.
 
 ### --feedback--
 
-Jessica doesn't say the feature was mistakenly included.
+Jessica sagt nicht, dass die Funktion versehentlich aufgenommen wurde.
 
 ## --video-solution--
 
@@ -52,9 +52,9 @@ Jessica doesn't say the feature was mistakenly included.
 
 # --explanation--
 
-Jessica says, `The budget tracking feature is planned for the next update`, explaining that the feature is not included in the current update but will be added in the next one.
+Jessica sagt, `The budget tracking feature is planned for the next update`, und erklärt, dass die Funktion nicht im aktuellen Update enthalten ist, sondern im nächsten hinzugefügt wird.
 
-This clears up the confusion about the feature's timing.
+Das klärt die Verwirrung über den Zeitpunkt der Funktion.
 
 # --scene--
 

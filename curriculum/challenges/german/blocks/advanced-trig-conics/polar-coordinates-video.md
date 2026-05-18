@@ -1,6 +1,6 @@
 ---
 id: 699e856c8f18cf77dfce5c25
-title: Polar Coordinates
+title: Polarkoordinaten
 challengeType: 11
 videoId: T8_EJkpyPvM
 dashedName: polar-coordinates
@@ -8,29 +8,29 @@ dashedName: polar-coordinates
 
 # --description--
 
-In this video, you will learn about polar coordinates.
+In diesem Video lernen Sie Polarkoordinaten kennen.
 
 # --questions--
 
 ## --text--
 
-What are polar coordinates?
+Was sind Polarkoordinaten?
 
 ## --answers--
 
-Coordinates represented as (θ, φ), where θ is the angle from the y-axis and φ is the angle from the x-axis.
+Koordinaten, dargestellt als (θ, φ), wobei θ der Winkel zur y-Achse und φ der Winkel zur x-Achse ist.
 
 ---
 
-Coordinates represented as (r, s), where r is the distance from the origin and s is the slope of the line from the origin.
+Koordinaten, dargestellt als (r, s), wobei r der Abstand vom Ursprung und s die Steigung der Linie vom Ursprung ist.
 
 ---
 
-Coordinates represented as (x, y), where x and y are distances along the horizontal and vertical axes.
+Koordinaten, dargestellt als (x, y), wobei x und y Abstände entlang der horizontalen und vertikalen Achsen sind.
 
 ---
 
-Coordinates represented as (r, θ), where r is the distance from the origin and θ is the angle from the positive x-axis.
+Koordinaten, dargestellt als (r, θ), wobei r der Abstand vom Ursprung und θ der Winkel zur positiven x-Achse ist.
 
 ## --video-solution--
 

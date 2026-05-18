@@ -1,6 +1,6 @@
 ---
 id: 69ae5c768491ca1dcd31440e
-title: What Is RAG?
+title: RAG ni nini?
 challengeType: 11
 videoId: XIU4eBuFVgM
 dashedName: what-is-rag
@@ -8,31 +8,30 @@ dashedName: what-is-rag
 
 # --description--
 
-In this video, you will learn more about RAG.
+Katika video hii, utafundishwa zaidi kuhusu RAG.
 
 # --questions--
 
 ## --text--
 
-How does the retrieval portion of RAG work?
+Sehemu ya upokeaji habari ya RAG hufanya kazi vipi?
 
 ## --answers--
 
-It generates new context internally before answering the question.
+Inazalisha muktadha mpya ndani kabla ya kujibu swali.
 
 ---
 
-It retrieves information from the language model's training data to provide context for the language model.
+Inachukua taarifa kutoka kwenye data ya mafunzo ya mfano wa lugha kutoa muktadha kwa mfano wa lugha.
 
 ---
 
-It retrieves relevant documents from a knowledge base to provide context for the language model.
+Inachukua nyaraka zinazohusiana kutoka kwenye hifadhidata ya maarifa kutoa muktadha kwa mfano wa lugha.
 
 ---
 
-It retrieves relevant documents from the internet to provide context for the language model.
+Inachukua nyaraka zinazohusiana kutoka kwenye mtandao kutoa muktadha kwa mfano wa lugha.
 
 ## --video-solution--
 
 3
-

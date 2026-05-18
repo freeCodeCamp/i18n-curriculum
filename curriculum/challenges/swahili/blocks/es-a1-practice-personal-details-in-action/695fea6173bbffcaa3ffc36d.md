@@ -1,6 +1,6 @@
 ---
 id: 695fea6173bbffcaa3ffc36d
-title: Task 10
+title: Zoezi la 10
 challengeType: 19
 dashedName: task-10
 lang: es
@@ -10,19 +10,19 @@ lang: es
 
 # --description--
 
-There are two common ways to ask for someone's name in Spanish.
+Kuna njia mbili maarufu za kuuliza jina la mtu kwa Kihispania.
 
-Both are used in everyday Spanish and mean the same thing. They're just structured differently.
+Zote mbili hutumika katika Kihispania cha kila siku na zina maana sawa. Tofauti yao ni muundo tu.
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Sikiliza sauti na jibu swali lililopo hapa chini.
 
 # --questions--
 
 ## --text--
 
-Which of the following questions **is similar** to what you hear in the audio?
+Ni swali gani kati ya haya lifuatayo **linalofanana** na unalolisikia kwenye sauti?
 
 ## --answers--
 
@@ -34,7 +34,7 @@ Which of the following questions **is similar** to what you hear in the audio?
 
 ### --feedback--
 
-This question asks where someone lives.
+Swali hili linauliza mtu anaishi wapi.
 
 ---
 
@@ -42,7 +42,7 @@ This question asks where someone lives.
 
 ### --feedback--
 
-This asks for someone's last name.
+Hili linauliza jina la ukoo la mtu.
 
 ---
 
@@ -50,7 +50,7 @@ This asks for someone's last name.
 
 ### --feedback--
 
-This asks if someone has a nickname.
+Hili linauliza kama mtu ana jina la utani.
 
 ## --video-solution--
 
@@ -58,16 +58,16 @@ This asks if someone has a nickname.
 
 # --explanation--
 
-Esteban says `¿Cómo te llamas?`. This is one of the most common ways to ask for someone's name in Spanish. Another very common question with the same meaning is:
+Esteban anasema `¿Cómo te llamas?`. Hii ni mojawapo ya njia maarufu zaidi za kuuliza jina la mtu kwa Kihispania. Swali jingine maarufu lenye maana sawa ni:
 
 `¿Cuál es tu nombre?`
 
-Both questions are used in everyday Spanish to ask for a person's name. They are simply structured differently:
+Maswali yote mawili hutumika katika Kihispania cha kila siku kuuliza jina la mtu. Tofauti yao ni muundo tu:
 
-- `¿Cómo te llamas?` uses the verb `llamarse` (to be called).
-- `¿Cuál es tu nombre?` asks directly for the name as a noun.
+- `¿Cómo te llamas?` hutumia kitenzi `llamarse` (kuitwa).
+- `¿Cuál es tu nombre?` linauliza moja kwa moja jina kama nomino.
 
-In this task, the correct answer is the option that asks for someone's name.
+Katika zoezi hili, jibu sahihi ni chaguo linalouliza jina la mtu.
 
 # --scene--
 

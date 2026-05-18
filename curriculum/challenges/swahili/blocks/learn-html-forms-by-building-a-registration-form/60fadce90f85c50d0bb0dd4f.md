@@ -1,17 +1,17 @@
 ---
 id: 60fadce90f85c50d0bb0dd4f
-title: Hatua ya 47
+title: Hatua 47
 challengeType: 0
 dashedName: step-47
 ---
 
 # --description--
 
-To give the `fieldset` elements a bit of separation, select them and give them a `border-bottom` of `3px solid #3b3b4f`.
+Ili kutoa nafasi kidogo kati ya vipengele vya `fieldset`, chagua vipengele hivyo na uwape `border-bottom` ya `3px solid #3b3b4f`.
 
 # --hints--
 
-Unapaswa kuvipa vipengele vya `fieldset` `border-bottom` ya `3px solid #3b3b4f`.
+Unapaswa kuwapa vipengele vya `fieldset` `border-bottom` ya `3px solid #3b3b4f`.
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('fieldset')?.borderBottom, '3px solid rgb(59, 59, 79)');

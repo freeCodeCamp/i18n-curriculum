@@ -7,24 +7,24 @@ dashedName: step-15
 
 # --description--
 
-If you look in the console, you will see the `Infinity` value. `Infinity` is a special value in JavaScript that represents a number that is greater than any other number.
+Wenn Sie in der Konsole nachsehen, sehen Sie den Wert `Infinity`. `Infinity` ist ein spezieller Wert in JavaScript, der eine Zahl darstellt, die größer ist als jede andere Zahl.
 
-The division by zero is not a valid operation in mathematics.
+Die Division durch Null ist in der Mathematik keine gültige Operation.
 
-To account for this edge case, you should update your `calculateQuotient` function to instead check if `num2` is zero.
+Um diesen Sonderfall zu berücksichtigen, sollten Sie Ihre `calculateQuotient`-Funktion so aktualisieren, dass stattdessen geprüft wird, ob `num2` null ist.
 
-If it is, the function should return the string `"Error: Division by zero"`. Otherwise, it should return the result of dividing `num1` by `num2`.
+Wenn das der Fall ist, sollte die Funktion den String `"Error: Division by zero"` zurückgeben. Andernfalls sollte sie das Ergebnis der Division von `num1` durch `num2` zurückgeben.
 
 # --hints--
 
-Your `calculateQuotient` function should return the string `"Error: Division by zero"` if `num2` is zero.
+Ihre `calculateQuotient`-Funktion sollte den String `"Error: Division by zero"` zurückgeben, wenn `num2` null ist.
 
 ```js
 assert.strictEqual(calculateQuotient(10, 0), 'Error: Division by zero');
 assert.strictEqual(calculateQuotient(3, 0), 'Error: Division by zero');
 ```
 
-Your `calculateQuotient` function should return the result of dividing `num1` by `num2` if `num2` is not zero.
+Ihre `calculateQuotient`-Funktion sollte das Ergebnis der Division von `num1` durch `num2` zurückgeben, wenn `num2` nicht null ist.
 
 ```js
 assert.strictEqual(calculateQuotient(10, 2), 5);

@@ -1,23 +1,23 @@
 ---
 id: 67d1ad82cff954a854bcbcaa
-title: What Is Prop Drilling?
+title: Was ist Prop Drilling?
 challengeType: 19
 dashedName: what-is-prop-drilling
 ---
 
 # --description--
 
-Prop drilling is the most basic approach to state management in React applications. It looks simple, but can get messy quickly, and is very hard to scale.
+Prop Drilling ist der grundlegendste Ansatz zur Zustandsverwaltung in React-Anwendungen. Es sieht einfach aus, kann aber schnell unübersichtlich werden und ist sehr schwer zu skalieren.
 
-Let's look at what prop drilling is, why it's a problem, and a good replacement for it as an application grows.
+Schauen wir uns an, was Prop Drilling ist, warum es ein Problem darstellt und welche gute Alternative es gibt, wenn eine Anwendung wächst.
 
-Prop drilling is the process of passing props from a parent component to deeply nested child components, even when some of the child components don't need the props.
+Prop Drilling ist der Prozess, Props von einer übergeordneten Komponente an tief verschachtelte Kindkomponenten weiterzugeben, selbst wenn einige der Kindkomponenten die Props gar nicht benötigen.
 
-For example, say you have three components named `Parent`, `Child`, and `Grandchild`. If you want to use some data in the `Grandchild` component, but it's in the `Parent` component, you'd need to pass it from the `Parent` to the `Child` component, then from the `Child` to the `Grandchild` component.
+Zum Beispiel nehmen wir an, Sie haben drei Komponenten mit den Namen `Parent`, `Child` und `Grandchild`. Wenn Sie einige Daten in der `Grandchild`-Komponente verwenden möchten, diese sich aber in der `Parent`-Komponente befinden, müssten Sie sie von der `Parent`- zur `Child`-Komponente weitergeben, dann von der `Child`- zur `Grandchild`-Komponente.
 
-Or if the data is even further up the chain, the data might have to be passed to the `Parent` component, too.
+Oder wenn die Daten noch weiter oben in der Kette sind, müssten die Daten möglicherweise auch an die `Parent`-Komponente weitergereicht werden.
 
-Here, the data I want to display is the string `Hello, Prop Drilling!`. It's assigned to the `greeting` variable in the root `App` component:
+Hier sind die Daten, die ich anzeigen möchte, der String `Hello, Prop Drilling!`. Er ist der Variablen `greeting` in der Root-Komponente `App` zugewiesen:
 
 ```jsx
 import "./App.css";
@@ -32,7 +32,7 @@ function App() {
 export default App;
 ```
 
-You can see the `Parent` component is also receiving the `greeting` variable as the value of a `greeting` prop. Here's the `Parent` component passing it into the `Child` component as the value of another `greeting` prop in the `Child`:
+Sie sehen, dass die `Parent`-Komponente ebenfalls die Variable `greeting` als Wert einer `greeting`-Prop erhält. Hier übergibt die `Parent`-Komponente sie an die `Child`-Komponente als Wert einer weiteren `greeting`-Prop in der `Child`:
 
 ```jsx
 import Child from "./Child";
@@ -44,7 +44,7 @@ const Parent = ({ greeting }) => {
 export default Parent;
 ```
 
-And here's the `Child` component that passes it to the `Grandchild` component:
+Und hier ist die `Child`-Komponente, die sie an die `Grandchild`-Komponente weitergibt:
 
 ```jsx
 import Grandchild from "./Grandchild";
@@ -56,7 +56,7 @@ const Child = ({ greeting }) => {
 export default Child;
 ```
 
-And finally the `Grandchild` component receives the greeting and uses it as the content of an `h1` element:
+Und schließlich erhält die `Grandchild`-Komponente die Begrüßung und verwendet sie als Inhalt eines `h1`-Elements:
 
 ```jsx
 const Grandchild = ({ greeting }) => {
@@ -66,13 +66,13 @@ const Grandchild = ({ greeting }) => {
 export default Grandchild;
 ```
 
-In the browser, you'll see a page with a single `h1` element that has the text `Hello, Prop Drilling!`.
+Im Browser sehen Sie eine Seite mit einem einzelnen `h1`-Element, das den Text `Hello, Prop Drilling!` enthält.
 
-At first, prop drilling might not seem like such a big deal. But as your app grows, it gets harder to understand, debug, and maintain.
+Zunächst mag Prop Drilling nicht so schlimm erscheinen. Aber je größer Ihre App wird, desto schwieriger wird es, sie zu verstehen, zu debuggen und zu warten.
 
-If you need to pass props around, try to keep them all in a single parent component. This approach of centralizing all necessary data is called the "single source of truth".
+Wenn Sie Props weitergeben müssen, versuchen Sie, sie alle in einer einzigen übergeordneten Komponente zu halten. Dieser Ansatz, alle notwendigen Daten zu zentralisieren, wird als „single source of truth“ bezeichnet.
 
-For instance, say you want to add a new `response` to go with your `greeting`, and that you want to use both of them in the `Grandchild` component. Since `greeting` is already in the `App` component, it makes sense to put `response` there, too, and pass both of them down the chain:
+Zum Beispiel möchten Sie ein neues `response` zu Ihrem `greeting` hinzufügen und beide in der `Grandchild`-Komponente verwenden. Da `greeting` bereits in der `App`-Komponente ist, macht es Sinn, `response` ebenfalls dort zu platzieren und beide durch die Kette weiterzugeben:
 
 ```jsx
 function App() {
@@ -102,45 +102,45 @@ const Grandchild = ({ greeting, response }) => {
 export default App;
 ```
 
-In the browser, you'll see a page with an `h1` element that has the text `Hello, Prop Drilling!` and an `h2` element that has the text `I'm not here to play!`.
+Im Browser sehen Sie eine Seite mit einem `h1`-Element, das den Text `Hello, Prop Drilling!` enthält, und einem `h2`-Element, das den Text `I'm not here to play!` enthält.
 
-To avoid prop drilling, especially in large, complex applications, consider using the Context API or state management libraries like Redux and Redux Toolkit, Zustand, Recoil, and others.
+Um Prop Drilling zu vermeiden, besonders in großen, komplexen Anwendungen, sollten Sie die Context API oder Zustandsverwaltungsbibliotheken wie Redux und Redux Toolkit, Zustand, Recoil und andere in Betracht ziehen.
 
-You'll learn more about these in the coming lessons.
+Mehr dazu lernen Sie in den kommenden Lektionen.
 
 # --questions--
 
 ## --text--
 
-How would a prop flow from a parent to a grandchild component?
+Wie würde eine Prop von einer übergeordneten Komponente zu einer Enkelkomponente fließen?
 
 ## --answers--
 
-By defining the prop inside the grandchild component.
+Indem die Prop innerhalb der Enkelkomponente definiert wird.
 
 ### --feedback--
 
-The prop must go through the child before reaching the grandchild.
+Die Prop muss zuerst durch die Kindkomponente gehen, bevor sie die Enkelkomponente erreicht.
 
 ---
 
-By passing it from parent to child, then from child to grandchild.
+Indem sie von der übergeordneten zur Kindkomponente und dann von der Kind- zur Enkelkomponente weitergegeben wird.
 
 ---
 
-By using the `useEffect` hook to fetch the prop dynamically.
+Indem der `useEffect`-Hook verwendet wird, um die Prop dynamisch abzurufen.
 
 ### --feedback--
 
-The prop must go through the child before reaching grandchild.
+Die Prop muss zuerst durch die Kindkomponente gehen, bevor sie die Enkelkomponente erreicht.
 
 ---
 
-By using the `useState` hook in the grandchild.
+Indem der `useState`-Hook in der Enkelkomponente verwendet wird.
 
 ### --feedback--
 
-The prop must go through the child before reaching grandchild.
+Die Prop muss zuerst durch die Kindkomponente gehen, bevor sie die Enkelkomponente erreicht.
 
 ## --video-solution--
 
@@ -148,35 +148,35 @@ The prop must go through the child before reaching grandchild.
 
 ## --text--
 
-What is prop drilling in React?
+Was ist Prop Drilling in React?
 
 ## --answers--
 
-Passing props directly to only the components that need them.
+Props werden direkt nur an die Komponenten weitergegeben, die sie benötigen.
 
 ### --feedback--
 
-It happens when props are passed through multiple levels unnecessarily.
+Es passiert, wenn Props unnötig durch mehrere Ebenen weitergereicht werden.
 
 ---
 
-Using context to share state between components.
+Verwendung von Context, um Zustand zwischen Komponenten zu teilen.
 
 ### --feedback--
 
-It happens when props are passed through multiple levels unnecessarily.
+Es passiert, wenn Props unnötig durch mehrere Ebenen weitergereicht werden.
 
 ---
 
-Passing props from a parent to deeply nested child components.
+Props werden von einer übergeordneten Komponente an tief verschachtelte Kindkomponenten weitergegeben.
 
 ---
 
-Drilling down into component state using hooks.
+In den Komponentenstatus wird mit Hooks „hineingebohrt“.
 
 ### --feedback--
 
-It happens when props are passed through multiple levels unnecessarily.
+Es passiert, wenn Props unnötig durch mehrere Ebenen weitergereicht werden.
 
 ## --video-solution--
 
@@ -184,35 +184,35 @@ It happens when props are passed through multiple levels unnecessarily.
 
 ## --text--
 
-Why is prop drilling considered a problem in larger applications?
+Warum wird Prop Drilling in größeren Anwendungen als Problem angesehen?
 
 ## --answers--
 
-It makes it easier to manage state.
+Es macht die Zustandsverwaltung einfacher.
 
 ### --feedback--
 
-Too many props passing through multiple components can make the code messy.
+Zu viele Props, die durch mehrere Komponenten weitergereicht werden, können den Code unübersichtlich machen.
 
 ---
 
-It improves performance by reducing re-renders.
+Es verbessert die Leistung, indem es Neurenderings reduziert.
 
 ### --feedback--
 
-Too many props passing through multiple components can make the code messy.
+Zu viele Props, die durch mehrere Komponenten weitergereicht werden, können den Code unübersichtlich machen.
 
 ---
 
-It makes the code harder to read, debug, and maintain.
+Es macht den Code schwerer lesbar, zu debuggen und zu warten.
 
 ---
 
-It eliminates the need for state management libraries.
+Es eliminiert die Notwendigkeit von Zustandsverwaltungsbibliotheken.
 
 ### --feedback--
 
-Too many props passing through multiple components can make the code messy.
+Zu viele Props, die durch mehrere Komponenten weitergereicht werden, können den Code unübersichtlich machen.
 
 ## --video-solution--
 

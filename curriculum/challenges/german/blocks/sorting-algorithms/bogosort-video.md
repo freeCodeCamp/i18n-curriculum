@@ -8,29 +8,29 @@ dashedName: bogosort
 
 # --description--
 
-In this video, you will learn how to work with the bogosort algorithm.
+In diesem Video lernen Sie, wie Sie mit dem Bogosort-Algorithmus arbeiten.
 
 # --questions--
 
 ## --text--
 
-How does the bogosort algorithm work?
+Wie funktioniert der Bogosort-Algorithmus?
 
 ## --answers--
 
-It repeatedly swaps adjacent elements in a deterministic pattern until sorted.
+Er vertauscht wiederholt benachbarte Elemente in einem deterministischen Muster, bis die Liste sortiert ist.
 
 ---
 
-It splits the list into halves, sorts each recursively, then merges them.
+Er teilt die Liste in Hälften, sortiert jede rekursiv und führt sie dann zusammen.
 
 ---
 
-It randomly shuffles the list until it happens to be sorted.
+Er mischt die Liste zufällig, bis sie zufällig sortiert ist.
 
 ---
 
-It selects the smallest element and places it in order, like selection sort.
+Er wählt das kleinste Element aus und ordnet es ein, ähnlich wie Selection Sort.
 
 ## --video-solution--
 

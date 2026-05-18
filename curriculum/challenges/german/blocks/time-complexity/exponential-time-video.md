@@ -1,6 +1,6 @@
 ---
 id: 698dc79f7932b3cc4b19c924
-title: Exponential Time
+title: Exponentielle Laufzeit
 challengeType: 11
 videoId: GNnxIIYwYFM
 dashedName: exponential-time
@@ -8,13 +8,13 @@ dashedName: exponential-time
 
 # --description--
 
-In this video, you will learn about exponential runtimes.
+In diesem Video lernen Sie exponentielle Laufzeiten kennen.
 
 # --questions--
 
 ## --text--
 
-Which of the following popular problems is an example of an exponential algorithm?
+Welches der folgenden bekannten Probleme ist ein Beispiel für einen exponentiellen Algorithmus?
 
 ## --answers--
 
@@ -22,7 +22,7 @@ Traveling Salesman
 
 ---
 
-Dijkstra Algorithm
+Dijkstra-Algorithmus
 
 ---
 
@@ -30,7 +30,7 @@ Merge Sort
 
 ---
 
-Fibonacci Sequence
+Fibonacci-Folge
 
 ## --video-solution--
 

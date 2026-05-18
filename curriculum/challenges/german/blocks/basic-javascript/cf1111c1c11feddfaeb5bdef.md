@@ -1,6 +1,6 @@
 ---
 id: cf1111c1c11feddfaeb5bdef
-title: Iterieren mit JavaScript For-Schleifen
+title: Mit JavaScript-For-Schleifen iterieren
 challengeType: 1
 forumTopicId: 18219
 dashedName: iterate-with-javascript-for-loops
@@ -8,19 +8,19 @@ dashedName: iterate-with-javascript-for-loops
 
 # --description--
 
-You can run the same code multiple times by using a loop.
+Sie können denselben Code mehrfach ausführen, indem Sie eine Schleife verwenden.
 
-Die häufigste Art von JavaScript-Schleifen wird `for`-Schleife genannt, weil sie eine bestimmte Anzahl von Malen ausgeführt wird.
+Der gebräuchlichste Typ einer JavaScript-Schleife heißt `for`-Schleife, weil sie eine bestimmte Anzahl von Durchläufen ausführt.
 
 For-Schleifen werden mit drei optionalen Ausdrücken deklariert, die durch Semikolons getrennt sind:
 
-`for (a; b; c)`, wobei `a` die Initialisierungsanweisung, `b` die Bedingungsanweisung und `c` der endgültige Ausdruck ist.
+`for (a; b; c)`, wobei `a` die Initialisierung, `b` die Bedingung und `c` der abschließende Ausdruck ist.
 
-Die Initialisierungsanweisung wird nur einmal ausgeführt, bevor die Schleife beginnt. Sie wird normalerweise verwendet, um deine Schleifenvariable zu definieren und einzurichten.
+Die Initialisierung wird nur einmal ausgeführt, bevor die Schleife startet. Sie wird typischerweise verwendet, um Ihre Schleifenvariable zu definieren und einzurichten.
 
-Die Bedingungsanweisung wird zu Beginn jeder Schleifeniteration ausgewertet und wird so lange fortgesetzt, wie sie `true` ist. Wenn die Bedingung zu Beginn der Iteration `false` ist, wird die Schleife nicht weiter ausgeführt. Das bedeutet, dass deine Schleife nie ausgeführt wird, wenn die Bedingung als falsch beginnt.
+Die Bedingung wird zu Beginn jeder Schleifeniteration ausgewertet und die Schleife läuft weiter, solange sie `true` ergibt. Wenn die Bedingung zu Beginn der Iteration `false` ist, wird die Schleife nicht mehr ausgeführt. Das bedeutet, wenn die Bedingung von Anfang an false ist, wird Ihre Schleife niemals ausgeführt.
 
-Der abschließende Ausdruck wird am Ende jeder Schleifeniteration vor der nächsten Bedingungsprüfung ausgeführt und dient normalerweise dazu, deinen Schleifenzähler zu erhöhen (inkrementieren) oder zu verringern (dekrementieren).
+Der abschließende Ausdruck wird am Ende jeder Schleifeniteration ausgeführt, bevor die nächste Bedingungsprüfung erfolgt, und wird üblicherweise verwendet, um Ihren Schleifenzähler zu erhöhen oder zu verringern.
 
 Im folgenden Beispiel initialisieren wir mit `i = 0` und iterieren, solange unsere Bedingung `i < 5` wahr ist. Wir erhöhen `i` in jeder Schleifeniteration um `1` mit `i++` als abschließendem Ausdruck.
 
@@ -32,15 +32,15 @@ for (let i = 0; i < 5; i++) {
 }
 ```
 
-`ourArray` wird jetzt den Wert `[0, 1, 2, 3, 4]` haben.
+`ourArray` hat nun den Wert `[0, 1, 2, 3, 4]`.
 
 # --instructions--
 
-Verwende eine `for`-Schleife, um die Werte 1 bis 5 in `myArray` zu übertragen.
+Verwenden Sie eine `for`-Schleife, um die Werte 1 bis 5 in `myArray` einzufügen.
 
 # --hints--
 
-Du solltest dafür eine `for`-Schleife verwenden.
+Sie sollten hierfür eine `for`-Schleife verwenden.
 
 ```js
 assert(/for\s*\([^)]+?\)/.test(__helpers.removeJSComments(code)));

@@ -1,6 +1,6 @@
 ---
 id: bd7123c9c444eddfaeb5bdef
-title: Declare String Variables
+title: String-Variablen deklarieren
 challengeType: 1
 forumTopicId: 17557
 dashedName: declare-string-variables
@@ -8,27 +8,27 @@ dashedName: declare-string-variables
 
 # --description--
 
-Previously you used the following code to declare a variable:
+Zuvor haben Sie den folgenden Code verwendet, um eine Variable zu deklarieren:
 
 ```js
 var myName;
 ```
 
-But you can also declare a string variable like this:
+Sie können aber auch eine String-Variable so deklarieren:
 
 ```js
 var myName = "your name";
 ```
 
-`"your name"` is called a <dfn>string</dfn> <dfn>literal</dfn>. A string literal, or string, is a series of zero or more characters enclosed in single or double quotes.
+`"your name"` wird ein <dfn>String</dfn>-<dfn>Literal</dfn> genannt. Ein String-Literal, oder String, ist eine Folge von null oder mehr Zeichen, die in einfache oder doppelte Anführungszeichen eingeschlossen sind.
 
 # --instructions--
 
-Create two new string variables: `myFirstName` and `myLastName` and assign them the values of your first and last name, respectively.
+Erstellen Sie zwei neue String-Variablen: `myFirstName` und `myLastName` und weisen Sie ihnen die Werte Ihres Vor- bzw. Nachnamens zu.
 
 # --hints--
 
-`myFirstName` should be a string with at least one character in it.
+`myFirstName` sollte ein String mit mindestens einem Zeichen sein.
 
 ```js
 assert(
@@ -46,7 +46,7 @@ assert(
 );
 ```
 
-`myLastName` should be a string with at least one character in it.
+`myLastName` sollte ein String mit mindestens einem Zeichen sein.
 
 ```js
 assert(

@@ -1,13 +1,13 @@
 ---
 id: 66ed8ffcf45ce3ece4053eb5
-title: CSS Positioning Quiz
+title: CSS-Positionierungs-Quiz
 challengeType: 8
 dashedName: quiz-css-positioning
 ---
 
 # --description--
 
-To pass the quiz, you must correctly answer at least 18 of the 20 questions below.
+Um das Quiz zu bestehen, müssen Sie mindestens 18 der 20 folgenden Fragen richtig beantworten.
 
 # --quizzes--
 
@@ -17,7 +17,7 @@ To pass the quiz, you must correctly answer at least 18 of the 20 questions belo
 
 #### --text--
 
-Which of the following is NOT a valid value for the `position` property?
+Welcher der folgenden Werte ist KEIN gültiger Wert für die `position`-Eigenschaft?
 
 #### --distractors--
 
@@ -39,29 +39,29 @@ Which of the following is NOT a valid value for the `position` property?
 
 #### --text--
 
-What is the main purpose of the `float` property in CSS?
+Was ist der Hauptzweck der `float`-Eigenschaft in CSS?
 
 #### --distractors--
 
-Floats are used to remove an element from its normal flow on the page and automatically position it in the upper right hand side of the webpage.
+Floats werden verwendet, um ein Element aus seinem normalen Fluss auf der Seite zu entfernen und es automatisch oben rechts auf der Webseite zu positionieren.
 
 ---
 
-Floats are used to remove an element from its normal flow on the page and position it to the top of its container.
+Floats werden verwendet, um ein Element aus seinem normalen Fluss auf der Seite zu entfernen und es oben in seinem Container zu positionieren.
 
 ---
 
-Floats are used to remove an element from its normal flow on the page and automatically position it to the bottom right hand side of webpage.
+Floats werden verwendet, um ein Element aus seinem normalen Fluss auf der Seite zu entfernen und es automatisch unten rechts auf der Webseite zu positionieren.
 
 #### --answer--
 
-Floats are used to remove an element from its normal flow on the page and position it either on the left or right side of its container.
+Floats werden verwendet, um ein Element aus seinem normalen Fluss auf der Seite zu entfernen und es entweder links oder rechts in seinem Container zu positionieren.
 
 ### --question--
 
 #### --text--
 
-Which of the following is an example making a box element float to the left?
+Welches der folgenden Beispiele lässt ein Box-Element nach links floaten?
 
 #### --distractors--
 
@@ -115,29 +115,29 @@ Which of the following is an example making a box element float to the left?
 
 #### --text--
 
-What is the role of the `clear` property?
+Welche Rolle hat die `clear`-Eigenschaft?
 
 #### --distractors--
 
-It is used to determine if an element needs to be moved to the bottom of the page.
+Sie wird verwendet, um zu bestimmen, ob ein Element an den unteren Rand der Seite verschoben werden muss.
 
 ---
 
-It is used to determine if an element needs to be completely cleared from the page.
+Sie wird verwendet, um zu bestimmen, ob ein Element vollständig von der Seite gelöscht werden muss.
 
 ---
 
-It is used to determine if an element needs to be fixed to the top of the page.
+Sie wird verwendet, um zu bestimmen, ob ein Element oben auf der Seite fixiert werden muss.
 
 #### --answer--
 
-It is used to determine if an element needs to be moved below the floated content.
+Sie wird verwendet, um zu bestimmen, ob ein Element unter den gefloateten Inhalt verschoben werden muss.
 
 ### --question--
 
 #### --text--
 
-Which CSS property is used to control the vertical stacking order of positioned elements that overlap on the page?
+Welche CSS-Eigenschaft wird verwendet, um die vertikale Stapelreihenfolge von positionierten Elementen zu steuern, die sich auf der Seite überlappen?
 
 #### --distractors--
 
@@ -159,7 +159,7 @@ Which CSS property is used to control the vertical stacking order of positioned 
 
 #### --text--
 
-Which of the following is the correct syntax for relative positioning?
+Welche der folgenden Syntaxen ist korrekt für relative Positionierung?
 
 #### --distractors--
 
@@ -205,7 +205,7 @@ Which of the following is the correct syntax for relative positioning?
 
 #### --text--
 
-Which CSS property would you use to fix an element at a certain position on the page so that it does not move when scrolling occurs?
+Welche CSS-Eigenschaft würden Sie verwenden, um ein Element an einer bestimmten Position auf der Seite zu fixieren, sodass es sich beim Scrollen nicht bewegt?
 
 #### --distractors--
 
@@ -227,29 +227,29 @@ Which CSS property would you use to fix an element at a certain position on the 
 
 #### --text--
 
-What does absolute positioning do to an element?
+Was bewirkt absolute Positionierung bei einem Element?
 
 #### --distractors--
 
-Absolute positioning is used to determine if an element needs to be moved below the floated content.
+Absolute Positionierung wird verwendet, um zu bestimmen, ob ein Element unter den gefloateten Inhalt verschoben werden muss.
 
 ---
 
-Absolute positioning is used to position the element within the normal document flow.
+Absolute Positionierung wird verwendet, um das Element innerhalb des normalen Dokumentflusses zu positionieren.
 
 ---
 
-Absolute positioning is used to control the vertical stacking order of positioned elements that overlap on the page.
+Absolute Positionierung wird verwendet, um die vertikale Stapelreihenfolge von positionierten Elementen zu steuern, die sich auf der Seite überlappen.
 
 #### --answer--
 
-Absolute positioning allows you to take an element out of the normal document flow, making it behave independently from other elements.
+Absolute Positionierung ermöglicht es, ein Element aus dem normalen Dokumentfluss zu nehmen, sodass es unabhängig von anderen Elementen agiert.
 
 ### --question--
 
 #### --text--
 
-Which of the following is NOT a valid property that you can use for absolute positioning?
+Welche der folgenden Eigenschaften ist KEINE gültige Eigenschaft, die Sie für absolute Positionierung verwenden können?
 
 #### --distractors--
 
@@ -271,29 +271,29 @@ Which of the following is NOT a valid property that you can use for absolute pos
 
 #### --text--
 
-What is the key difference between relative and absolute positioning?
+Was ist der entscheidende Unterschied zwischen relativer und absoluter Positionierung?
 
 #### --distractors--
 
-Absolute positioning sets the element in a sticky position while relative positioning takes an element out of the normal document flow.
+Absolute Positionierung setzt das Element in eine sticky Position, während relative Positionierung ein Element aus dem normalen Dokumentfluss nimmt.
 
 ---
 
-Relative positioning sets the element in a fixed position while absolute positioning takes an element out of the normal document flow.
+Relative Positionierung setzt das Element in eine feste Position, während absolute Positionierung ein Element aus dem normalen Dokumentfluss nimmt.
 
 ---
 
-Absolute positioning positions the element within the normal document flow while relative positioning takes an element out of the normal document flow.
+Absolute Positionierung positioniert das Element innerhalb des normalen Dokumentflusses, während relative Positionierung ein Element aus dem normalen Dokumentfluss nimmt.
 
 #### --answer--
 
-Relative positioning positions the element within the normal document flow while absolute positioning takes an element out of the normal document flow.
+Relative Positionierung positioniert das Element innerhalb des normalen Dokumentflusses, während absolute Positionierung ein Element aus dem normalen Dokumentfluss nimmt.
 
 ### --question--
 
 #### --text--
 
-Which of the following is an example of positioning a box in the upper left hand corner of the page?
+Welches der folgenden Beispiele positioniert eine Box in der oberen linken Ecke der Seite?
 
 #### --distractors--
 
@@ -351,29 +351,29 @@ Which of the following is an example of positioning a box in the upper left hand
 
 #### --text--
 
-Which positioning method allows an element to stick to a defined position only when you scroll past a certain point?
+Welche Positionierungsmethode erlaubt es einem Element, nur dann an einer definierten Position zu haften, wenn Sie an einem bestimmten Punkt vorbeiscrollen?
 
 #### --distractors--
 
-Float positioning.
+Float-Positionierung.
 
 ---
 
-Fixed positioning.
+Fixed-Positionierung.
 
 ---
 
-Absolute positioning.
+Absolute Positionierung.
 
 #### --answer--
 
-Sticky positioning.
+Sticky-Positionierung.
 
 ### --question--
 
 #### --text--
 
-Which of the following is a correct example of using sticky positioning?
+Welches der folgenden Beispiele zeigt eine korrekte Verwendung von Sticky-Positionierung?
 
 #### --distractors--
 
@@ -430,51 +430,51 @@ Which of the following is a correct example of using sticky positioning?
 
 #### --text--
 
-What is the difference between sticky and fixed positioning?
+Was ist der Unterschied zwischen Sticky- und Fixed-Positionierung?
 
 #### --distractors--
 
-Sticky elements can only be used in table layouts while fixed elements can be used in any type of CSS layout.
+Sticky-Elemente können nur in Tabellenlayouts verwendet werden, während Fixed-Elemente in jedem CSS-Layout verwendet werden können.
 
 ---
 
-Sticky elements will always remain in the same position while fixed elements will stick to a certain point then behave like relative elements.
+Sticky-Elemente bleiben immer an derselben Position, während Fixed-Elemente an einem bestimmten Punkt haften und sich dann wie relative Elemente verhalten.
 
 ---
 
-Fixed elements will be positioned relative to its normal position while sticky elements will only stick to a certain point then behave like relative elements.
+Fixed-Elemente werden relativ zu ihrer normalen Position positioniert, während Sticky-Elemente nur an einem bestimmten Punkt haften und sich dann wie relative Elemente verhalten.
 
 #### --answer--
 
-Fixed elements will remain in the same position on the screen while sticky elements will only stick to a certain point then behave like relative elements.
+Fixed-Elemente bleiben an derselben Position auf dem Bildschirm, während Sticky-Elemente nur an einem bestimmten Punkt haften und sich dann wie relative Elemente verhalten.
 
 ### --question--
 
 #### --text--
 
-What problem did the `clearfix` hack solve when working with floats?
+Welches Problem löste der `clearfix`-Hack bei der Arbeit mit Floats?
 
 #### --distractors--
 
-The `clearfix` hack helped solve the issue of floated elements being removed from the normal document flow and being placed in a fixed position on the page.
+Der `clearfix`-Hack half, das Problem zu lösen, dass gefloatete Elemente aus dem normalen Dokumentfluss entfernt und an einer festen Position auf der Seite platziert wurden.
 
 ---
 
-The `clearfix` hack helped solve the issue of floated elements not being responsive in mobile and tablet layouts.
+Der `clearfix`-Hack half, das Problem zu lösen, dass gefloatete Elemente in mobilen und Tablet-Layouts nicht responsiv waren.
 
 ---
 
-The `clearfix` hack helped solve the issue of floated elements disappearing from the page.
+Der `clearfix`-Hack half, das Problem zu lösen, dass gefloatete Elemente von der Seite verschwanden.
 
 #### --answer--
 
-The `clearfix` hack helped solve the issue of overlaps and collapsing in the layouts when multiple floated elements were stacked next to each other.
+Der `clearfix`-Hack half, das Problem von Überlappungen und Zusammenbrüchen in Layouts zu lösen, wenn mehrere gefloatete Elemente nebeneinander gestapelt wurden.
 
 ### --question--
 
 #### --text--
 
-Which of the following is a correct example for using the `clearfix` hack?
+Welches der folgenden Beispiele zeigt eine korrekte Verwendung des `clearfix`-Hacks?
 
 #### --distractors--
 
@@ -521,29 +521,29 @@ Which of the following is a correct example for using the `clearfix` hack?
 
 #### --text--
 
-What is static positioning?
+Was ist statische Positionierung?
 
 #### --distractors--
 
-This is used to remove an element from its normal flow on the page and automatically position it in the upper right hand side of the webpage.
+Dies wird verwendet, um ein Element aus seinem normalen Fluss auf der Seite zu entfernen und es automatisch oben rechts auf der Webseite zu positionieren.
 
 ---
 
-This allows you to take an element out of the normal document flow, making it behave independently from other elements.
+Dies ermöglicht es, ein Element aus dem normalen Dokumentfluss zu nehmen, sodass es unabhängig von anderen Elementen agiert.
 
 ---
 
-This allows an element to stick to a defined position only when you scroll past a certain point.
+Dies erlaubt einem Element, nur dann an einer definierten Position zu haften, wenn Sie an einem bestimmten Punkt vorbeiscrollen.
 
 #### --answer--
 
-This is the normal flow for the document. Elements are positioned from top to bottom and left to right one after another.
+Dies ist der normale Fluss für das Dokument. Elemente werden von oben nach unten und von links nach rechts nacheinander positioniert.
 
 ### --question--
 
 #### --text--
 
-Which of the following is an example of setting the navbar to the top of the page using fixed positioning?
+Welches der folgenden Beispiele setzt die Navigationsleiste mit Fixed-Positionierung oben auf der Seite?
 
 #### --distractors--
 
@@ -588,7 +588,7 @@ Which of the following is an example of setting the navbar to the top of the pag
 
 #### --text--
 
-Which of the following is a valid value to use for the `z-index` property?
+Welcher der folgenden Werte ist ein gültiger Wert für die `z-index`-Eigenschaft?
 
 #### --distractors--
 
@@ -610,7 +610,7 @@ Which of the following is a valid value to use for the `z-index` property?
 
 #### --text--
 
-Which of the following is the default value of the `position` property?
+Welcher der folgenden Werte ist der Standardwert der `position`-Eigenschaft?
 
 #### --distractors--
 
@@ -634,7 +634,7 @@ Which of the following is the default value of the `position` property?
 
 #### --text--
 
-Which `position` value lets you adjust an element's position with `top` and `left` while keeping it within the normal document flow?
+Welcher `position`-Wert erlaubt es Ihnen, die Position eines Elements mit `top` und `left` anzupassen, während es im normalen Dokumentfluss bleibt?
 
 #### --distractors--
 
@@ -656,29 +656,29 @@ Which `position` value lets you adjust an element's position with `top` and `lef
 
 #### --text--
 
-How does an element with `position: sticky;` initially behave?
+Wie verhält sich ein Element mit `position: sticky;` anfangs?
 
 #### --distractors--
 
-It behaves like a `fixed` element until a scroll position is reached.
+Es verhält sich wie ein `fixed`-Element, bis eine Scrollposition erreicht wird.
 
 ---
 
-It is always removed from the normal document flow.
+Es wird immer aus dem normalen Dokumentfluss entfernt.
 
 ---
 
-It behaves like an `absolute` element within its parent.
+Es verhält sich wie ein `absolute`-Element innerhalb seines Elternteils.
 
 #### --answer--
 
-It behaves like a `relative` element until a specified scroll position is met.
+Es verhält sich wie ein `relative`-Element, bis eine bestimmte Scrollposition erreicht ist.
 
 ### --question--
 
 #### --text--
 
-Which of the following demonstrates a valid and effective use of the `z-index` property to make `.box-two` appear on top of `.box-one`?
+Welches der folgenden Beispiele zeigt eine gültige und effektive Verwendung der `z-index`-Eigenschaft, um `.box-two` über `.box-one` erscheinen zu lassen?
 
 #### --distractors--
 
@@ -736,51 +736,51 @@ Which of the following demonstrates a valid and effective use of the `z-index` p
 
 #### --text--
 
-What is the `z-index` property used for in CSS?
+Wofür wird die `z-index`-Eigenschaft in CSS verwendet?
 
 #### --distractors--
 
-It sets the zoom level of the page.
+Sie legt den Zoom-Level der Seite fest.
 
 ---
 
-It controls the horizontal alignment of elements within a flex container.
+Sie steuert die horizontale Ausrichtung von Elementen innerhalb eines Flex-Containers.
 
 ---
 
-It defines the spacing between an element's content and its border.
+Sie definiert den Abstand zwischen dem Inhalt eines Elements und seinem Rahmen.
 
 #### --answer--
 
-It controls the vertical stacking order of positioned elements that overlap.
+Sie steuert die vertikale Stapelreihenfolge von positionierten Elementen, die sich überlappen.
 
 ### --question--
 
 #### --text--
 
-When you apply `top: 10%;` to an element with `position: fixed;`, what is the `10%` calculated in relation to?
+Wenn Sie `top: 10%;` auf ein Element mit `position: fixed;` anwenden, worauf bezieht sich der `10%`?
 
 #### --distractors--
 
-The height of the element itself.
+Auf die Höhe des Elements selbst.
 
 ---
 
-The height of its parent container.
+Auf die Höhe seines übergeordneten Containers.
 
 ---
 
-The width of the viewport.
+Auf die Breite des Viewports.
 
 #### --answer--
 
-The height of the viewport.
+Auf die Höhe des Viewports.
 
 ### --question--
 
 #### --text--
 
-Which of the code examples is a correct use of the `z-index` property to place an overlay above other content?
+Welches der Codebeispiele zeigt eine korrekte Verwendung der `z-index`-Eigenschaft, um ein Overlay über anderen Inhalten zu platzieren?
 
 #### --distractors--
 
@@ -825,7 +825,7 @@ Which of the code examples is a correct use of the `z-index` property to place a
 
 #### --text--
 
-Which CSS property is used to control whether an element should be moved below floated elements?
+Welche CSS-Eigenschaft wird verwendet, um zu steuern, ob ein Element unter gefloateten Elementen verschoben werden soll?
 
 #### --distractors--
 
@@ -847,73 +847,73 @@ Which CSS property is used to control whether an element should be moved below f
 
 #### --text--
 
-How will an element with `position: relative;` and `bottom: 25px;` be moved?
+Wie wird ein Element mit `position: relative;` und `bottom: 25px;` verschoben?
 
 #### --distractors--
 
-It will move 25px down from its normal position.
+Es wird 25px nach unten von seiner normalen Position verschoben.
 
 ---
 
-It will move 25px to the right of its normal position.
+Es wird 25px nach rechts von seiner normalen Position verschoben.
 
 ---
 
-It will be positioned 25px from the bottom of the viewport.
+Es wird 25px vom unteren Rand des Viewports positioniert.
 
 #### --answer--
 
-It will move 25px up from its normal position.
+Es wird 25px nach oben von seiner normalen Position verschoben.
 
 ### --question--
 
 #### --text--
 
-The `z-index` property will only affect elements that have what CSS property applied?
+Die `z-index`-Eigenschaft wirkt sich nur auf Elemente aus, die welche CSS-Eigenschaft angewendet haben?
 
 #### --distractors--
 
-A `float` value other than `none`.
+Einen `float`-Wert außer `none`.
 
 ---
 
-A `display` value of `inline-block`.
+Einen `display`-Wert von `inline-block`.
 
 ---
 
-A `background-color` set.
+Ein `background-color`-Set.
 
 #### --answer--
 
-A `position` value other than `static`.
+Einen `position`-Wert außer `static`.
 
 ### --question--
 
 #### --text--
 
-What would be the effect of applying `float: right;` to a logo in a header?
+Welche Auswirkung hätte das Anwenden von `float: right;` auf ein Logo in einer Kopfzeile?
 
 #### --distractors--
 
-The logo would be aligned to the right, but would remain in the normal document flow, preventing other content from wrapping.
+Das Logo würde rechts ausgerichtet, bliebe aber im normalen Dokumentfluss, sodass anderer Inhalt nicht umfließt.
 
 ---
 
-The logo would be taken out of the flow and positioned on the right side of the entire browser viewport, not its container.
+Das Logo würde aus dem Fluss genommen und rechts im gesamten Browser-Viewport positioniert, nicht in seinem Container.
 
 ---
 
-The logo would become a block-level element that takes up the full width of the header, pushing other elements below it.
+Das Logo würde zu einem Block-Element, das die volle Breite der Kopfzeile einnimmt und andere Elemente darunter schiebt.
 
 #### --answer--
 
-The logo would be removed from its normal flow and placed on the right side of its container, with other content wrapping around it.
+Das Logo würde aus seinem normalen Fluss genommen und rechts in seinem Container positioniert, wobei anderer Inhalt darum herumfließt.
 
 ### --question--
 
 #### --text--
 
-Which CSS snippet will keep an element fixed to the top of the viewport once it is scrolled to?
+Welcher CSS-Schnipsel hält ein Element fixiert oben im Viewport, sobald es dorthin gescrollt wird?
 
 #### --distractors--
 
@@ -955,29 +955,29 @@ Which CSS snippet will keep an element fixed to the top of the viewport once it 
 
 #### --text--
 
-What is the specific purpose of `clear: both;` in CSS?
+Was ist der spezifische Zweck von `clear: both;` in CSS?
 
 #### --distractors--
 
-It cancels out the `float` property on the element itself, returning it to the normal document flow.
+Es hebt die `float`-Eigenschaft am Element selbst auf und bringt es zurück in den normalen Dokumentfluss.
 
 ---
 
-It removes any `clear` properties that were inherited from a parent element, restoring the default floating behavior.
+Es entfernt alle `clear`-Eigenschaften, die von einem übergeordneten Element geerbt wurden, und stellt das Standard-Float-Verhalten wieder her.
 
 ---
 
-It only clears floated elements that are on the right side, allowing left-floated elements to remain as they are.
+Es löscht nur gefloatete Elemente auf der rechten Seite, sodass links gefloatete Elemente unverändert bleiben.
 
 #### --answer--
 
-It ensures the element is moved below any floated elements that appear before it on both the left and right sides.
+Es stellt sicher, dass das Element unter allen gefloateten Elementen verschoben wird, die links und rechts vor ihm erscheinen.
 
 ### --question--
 
 #### --text--
 
-Given the following code, how will `.child` be positioned?
+Wie wird `.child` im folgenden Code positioniert?
 
 ```css
 .parent {
@@ -992,25 +992,25 @@ Given the following code, how will `.child` be positioned?
 
 #### --distractors--
 
-It will be positioned 10px from the top of the `.parent` element, as `absolute` positioning is always relative to the direct parent.
+Es wird 10px vom oberen Rand des `.parent`-Elements positioniert, da `absolute`-Positionierung immer relativ zum direkten Elternteil ist.
 
 ---
 
-It will remain in its default static position because the `absolute` value is invalid without a `z-index` property.
+Es bleibt in seiner Standard-Static-Position, weil der `absolute`-Wert ohne `z-index`-Eigenschaft ungültig ist.
 
 ---
 
-It will be positioned 10px from the top of the browser window, remaining fixed in place even when the user scrolls the page.
+Es wird 10px vom oberen Rand des Browserfensters positioniert und bleibt fixiert, auch wenn der Benutzer die Seite scrollt.
 
 #### --answer--
 
-It will be positioned 10px from the top of the initial containing block, such as the `<body>`, because its parent is not positioned.
+Es wird 10px vom oberen Rand des initialen Containing Blocks positioniert, wie z. B. des `<body>`, weil sein Elternteil nicht positioniert ist.
 
 ### --question--
 
 #### --text--
 
-What effect will the following CSS have on the `.box` element?
+Welche Auswirkung hat das folgende CSS auf das `.box`-Element?
 
 ```css
 .box {
@@ -1022,25 +1022,25 @@ What effect will the following CSS have on the `.box` element?
 
 #### --distractors--
 
-The element will remain in its normal flow but will be indented by 50px from the top and left, pushing other elements away.
+Das Element bleibt im normalen Fluss, wird aber 50px von oben und links eingerückt und drückt andere Elemente weg.
 
 ---
 
-The element will be fixed to the viewport and will stay 50px from the top and 50px from the left, even when the page is scrolled.
+Das Element wird am Viewport fixiert und bleibt 50px von oben und 50px von links, auch wenn die Seite gescrollt wird.
 
 ---
 
-The element will be positioned relative to its own starting point, moving 50px down and 50px to the right without leaving the document flow.
+Das Element wird relativ zu seinem eigenen Ausgangspunkt positioniert, bewegt sich 50px nach unten und 50px nach rechts, ohne den Dokumentfluss zu verlassen.
 
 #### --answer--
 
-The element will be taken out of the normal flow and placed 50px from the top and 50px from the left of its nearest positioned ancestor.
+Das Element wird aus dem normalen Fluss genommen und 50px von oben und 50px von links seines nächsten positionierten Vorfahren positioniert.
 
 ### --question--
 
 #### --text--
 
-Which of the following `position` values removes an element entirely from the document's normal flow?
+Welcher der folgenden `position`-Werte entfernt ein Element vollständig aus dem normalen Dokumentfluss?
 
 #### --distractors--
 
@@ -1062,7 +1062,7 @@ Which of the following `position` values removes an element entirely from the do
 
 #### --text--
 
-Given a `.parent` and a `.child` element, which CSS snippet will correctly position the `.child` 20px from the top left corner of the `.parent` element?
+Gegeben sind ein `.parent`- und ein `.child`-Element. Welcher CSS-Schnipsel positioniert `.child` korrekt 20px von der oberen linken Ecke des `.parent`-Elements?
 
 #### --distractors--
 
@@ -1120,29 +1120,29 @@ Given a `.parent` and a `.child` element, which CSS snippet will correctly posit
 
 #### --text--
 
-What is the difference between `static` and `relative` positioning?
+Was ist der Unterschied zwischen `static`- und `relative`-Positionierung?
 
 #### --distractors--
 
-`static` positioning removes an element from the document flow, while `relative` positioning keeps it in the flow.
+`static`-Positionierung entfernt ein Element aus dem Dokumentfluss, während `relative`-Positionierung es im Fluss hält.
 
 ---
 
-An element with `position: static;` can be offset with the `top` and `left` properties, while `position: relative;` cannot.
+Ein Element mit `position: static;` kann mit den Eigenschaften `top` und `left` versetzt werden, während `position: relative;` das nicht kann.
 
 ---
 
-`static` positioning is for block-level elements, while `relative` positioning is only intended for inline elements.
+`static`-Positionierung ist für Block-Elemente, während `relative`-Positionierung nur für Inline-Elemente gedacht ist.
 
 #### --answer--
 
-Both keep an element in the normal document flow, but `relative` allows the element to be offset from its original position.
+Beide halten ein Element im normalen Dokumentfluss, aber `relative` erlaubt es, das Element von seiner ursprünglichen Position zu versetzen.
 
 ### --question--
 
 #### --text--
 
-Which CSS snippet correctly floats an image to the left, allowing other content to wrap around it?
+Welcher CSS-Schnipsel lässt ein Bild nach links floaten, sodass anderer Inhalt darum herumfließt?
 
 #### --distractors--
 
@@ -1181,29 +1181,29 @@ Which CSS snippet correctly floats an image to the left, allowing other content 
 
 #### --text--
 
-What is the difference between `absolute` and `fixed` positioning?
+Was ist der Unterschied zwischen `absolute`- und `fixed`-Positionierung?
 
 #### --distractors--
 
-`absolute` positioning is relative to the viewport, while `fixed` positioning is relative to the nearest positioned ancestor.
+`absolute`-Positionierung ist relativ zum Viewport, während `fixed`-Positionierung relativ zum nächsten positionierten Vorfahren ist.
 
 ---
 
-`absolute` positioning keeps the element in the normal document flow, while `fixed` positioning removes it from the flow.
+`absolute`-Positionierung hält das Element im normalen Dokumentfluss, während `fixed`-Positionierung es aus dem Fluss nimmt.
 
 ---
 
-Both are positioned relative to the viewport, but `fixed` elements will scroll with the page while `absolute` elements will not.
+Beide sind relativ zum Viewport positioniert, aber `fixed`-Elemente scrollen mit der Seite, während `absolute`-Elemente das nicht tun.
 
 #### --answer--
 
-`absolute` positioning is relative to the nearest positioned ancestor, while `fixed` positioning is relative to the browser viewport.
+`absolute`-Positionierung ist relativ zum nächsten positionierten Vorfahren, während `fixed`-Positionierung relativ zum Browser-Viewport ist.
 
 ### --question--
 
 #### --text--
 
-Which `position` value places an element in the normal document flow and prevents offset properties like `top` and `left` from having any effect?
+Welcher `position`-Wert platziert ein Element im normalen Dokumentfluss und verhindert, dass Versatz-Eigenschaften wie `top` und `left` eine Wirkung haben?
 
 #### --distractors--
 

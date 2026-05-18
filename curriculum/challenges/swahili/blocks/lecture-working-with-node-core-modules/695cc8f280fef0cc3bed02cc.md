@@ -1,34 +1,34 @@
 ---
 id: 695cc8f280fef0cc3bed02cc
-title: What Is the Stream Module and How Does It Work?
+title: Moduli ya stream ni nini na inafanya kazi vipi?
 challengeType: 19
 dashedName: what-is-the-stream-module-and-how-does-it-work
 ---
 
 # --description--
 
-The last core Node.js module we'll look at is `stream`. This module helps you handle data efficiently, especially when the data is too large to load all at once, like reading a big text file or downloading a large video.
+Moduli ya mwisho ya msingi ya Node.js tutakayochunguza ni `stream`. Moduli hii inakusaidia kushughulikia data kwa ufanisi, hasa wakati data ni kubwa mno kusoma kwa mara moja, kama vile kusoma faili kubwa la maandishi au kupakua video kubwa.
 
-Instead of waiting to read or write all the data before doing anything, streams process chunks of data as they arrive, similar to how you can start watching a YouTube video before the whole video finishes loading.
+Badala ya kusubiri kusoma au kuandika data yote kabla ya kufanya kitu chochote, streams huchakata vipande vya data vinavyowasili, kama vile unavyoweza kuanza kutazama video ya YouTube kabla video nzima haijamalizika kupakia.
 
-There are four main types of streams in Node.js: readable, writable, duplex, and transform:
+Kuna aina nne kuu za streams katika Node.js: readable, writable, duplex, na transform:
 
-- Readable streams let you read data in chunks (for example, reading a large file).
-- Writable streams let you write data in chunks (for example, saving a file).
-- Duplex streams can both read and write data.
-- Transform streams are a special kind of duplex stream that can change or process the data as it flows through.
+- Readable streams hukuruhusu kusoma data kwa vipande (kwa mfano, kusoma faili kubwa).
+- Writable streams hukuruhusu kuandika data kwa vipande (kwa mfano, kuhifadhi faili).
+- Duplex streams zinaweza kusoma na kuandika data.
+- Transform streams ni aina maalum ya duplex stream inayoweza kubadilisha au kuchakata data inavyopita.
 
-You can import the stream classes you need by destructuring them from the stream module:
+Unaweza import madarasa ya stream unayohitaji kwa kuyafumbua kutoka moduli ya stream:
 
 ```js
 const { Readable, Writable, Transform } = require("stream");
 ```
 
-Most of the time, you don't need to create custom stream classes yourself. For everyday file operations, built-in methods like `fs.createReadStream()` and `fs.createWriteStream()` are usually all you need.
+Mara nyingi, huna haja ya kuunda madarasa ya stream maalum mwenyewe. Kwa shughuli za kawaida za faili, njia zilizojengwa ndani kama `fs.createReadStream()` na `fs.createWriteStream()` kawaida ndizo unazohitaji.
 
-These two methods take the path of the file to read or write. This means you also need the `fs` and `path` modules to implement streaming on many occasions.
+Njia hizi mbili zinachukua njia ya faili kusoma au kuandika. Hii inamaanisha pia unahitaji moduli za `fs` na `path` kutekeleza streaming mara nyingi.
 
-Here's how you can read data from a file, say an `input.txt` file:
+Hapa ni jinsi unavyoweza kusoma data kutoka kwa faili, sema faili la `input.txt`:
 
 ```js
 const fs = require("fs");
@@ -41,7 +41,7 @@ const readInputFileStream = fs.createReadStream(inputFilePath);
 console.log(readInputFileStream);
 ```
 
-This will not do anything yet, as you need to use the events from the stream to read the data. For example, you can listen to the `data` event this way:
+Hii bado haitafanya chochote, kwa sababu unahitaji kutumia matukio kutoka kwa stream kusoma data. Kwa mfano, unaweza kusikiliza tukio la `data` kwa njia hii:
 
 ```js
 readInputFileStream.on("data", (chunk) => {
@@ -49,7 +49,7 @@ readInputFileStream.on("data", (chunk) => {
 }); // Received 622 bytes of data
 ```
 
-You can also log the chunk of data to the console:
+Pia unaweza kuandika kipande cha data kwenye konsoli:
 
 ```js
 readInputFileStream.on("data", (chunk) => {
@@ -65,7 +65,7 @@ Received data: <Buffer 4c 6f 72 65 6d 20 69 70 73 75 6d
 */
 ```
 
-Since it returns a buffer, you can call the `toString()` method to convert it into readable text:
+Kwa kuwa inarudisha kihifadhi cha muda, unaweza kuita njia ya `toString()` kuibadilisha kuwa maandishi yanayosomwa:
 
 ```js
 const fs = require("fs");
@@ -93,7 +93,7 @@ eaque doloribus assumenda, minima fuga tempore, porro, debitis rem harum in
 */
 ```
 
-To implement a writable stream, particularly when you're reading from one file and writing to another, you need to create the read stream first, followed by the write stream:
+Ili kutekeleza writable stream, hasa unapokuwa unasoma kutoka faili moja na kuandika kwenye nyingine, unahitaji kuunda kwanza read stream, kisha write stream:
 
 ```js
 const fs = require("fs");
@@ -109,7 +109,7 @@ const readInputFileStream = fs.createReadStream(inputFilePath);
 const writeOutputFileStream = fs.createWriteStream(outputFilePath);
 ```
 
-Next, use the `.pipe()` method to connect the readable stream to the writable stream. This lets Node.js automatically read data from the source and write it to the destination, chunk by chunk:
+Kisha, tumia njia ya `.pipe()` kuunganisha readable stream na writable stream. Hii inaruhusu Node.js kusoma data kutoka chanzo na kuandika kwenye mahali pa mwisho, kipande kwa kipande:
 
 ```js
 const fs = require("fs");
@@ -128,7 +128,7 @@ const writeOutputFileStream = fs.createWriteStream(outputFilePath);
 readInputFileStream.pipe(writeOutputFileStream);
 ```
 
-Then you can listen for the `finish` and `error` events on the writable stream to know when the streaming is complete or if something goes wrong:
+Baadaye unaweza kusikiliza matukio ya `finish` na `error` kwenye writable stream ili kujua wakati streaming imekamilika au kama kuna tatizo:
 
 ```js
 const fs = require("fs");
@@ -154,41 +154,41 @@ writeOutputFileStream.on("error", (err) => {
 });
 ```
 
-The `finish` event tells you that the stream is complete and there is no more data to write, while the error event helps you catch problems that might happen during writing, like permissions issues or missing directories.
+Tukio la `finish` linakuambia kuwa stream imekamilika na hakuna data zaidi ya kuandika, wakati tukio la error linakusaidia kugundua matatizo yanayoweza kutokea wakati wa kuandika, kama vile matatizo ya ruhusa au saraka zilizokosekana.
 
 # --questions--
 
 ## --text--
 
-Which of these are the four main types of streams?
+Ni zipi kati ya hizi ni aina nne kuu za streams?
 
 ## --answers--
 
-Request, Response, Event, and Error streams.
+Streams za Request, Response, Event, na Error.
 
 ### --feedback--
 
-Think about how Node.js handles reading, writing, and transforming data.
+Fikiria jinsi Node.js inavyoshughulikia kusoma, kuandika, na kubadilisha data.
 
 ---
 
-Readable, Editable, Duplex, and Transform streams.
+Streams za Readable, Editable, Duplex, na Transform.
 
 ### --feedback--
 
-Think about how Node.js handles reading, writing, and transforming data.
+Fikiria jinsi Node.js inavyoshughulikia kusoma, kuandika, na kubadilisha data.
 
 ---
 
-Data, File, HTTP, and Buffer streams.
+Streams za Data, File, HTTP, na Buffer.
 
 ### --feedback--
 
-Think about how Node.js handles reading, writing, and transforming data.
+Fikiria jinsi Node.js inavyoshughulikia kusoma, kuandika, na kubadilisha data.
 
 ---
 
-Readable, Writable, Duplex, and Transform streams.
+Streams za Readable, Writable, Duplex, na Transform.
 
 ## --video-solution--
 
@@ -196,35 +196,35 @@ Readable, Writable, Duplex, and Transform streams.
 
 ## --text--
 
-What lets you implement a custom readable and writable stream?
+Nini hukuruhusu kutekeleza stream maalum ya readable na writable?
 
 ## --answers--
 
-The `stream` module using Readable and Writable classes.
+Moduli ya `stream` kwa kutumia madarasa ya Readable na Writable.
 
 ---
 
-The `http` module.
+Moduli ya `http`.
 
 ### --feedback--
 
-Think about the module that provides base classes for creating custom streams.
+Fikiria moduli inayotoa madarasa ya msingi kwa kuunda streams maalum.
 
 ---
 
-The `fs` module using `createReadStream()` and `createWriteStream()`.
+Moduli ya `fs` kwa kutumia `createReadStream()` na `createWriteStream()`.
 
 ### --feedback--
 
-Think about how Node.js handles reading, writing, and transforming data.
+Fikiria jinsi Node.js inavyoshughulikia kusoma, kuandika, na kubadilisha data.
 
 ---
 
-The events module.
+Moduli ya matukio.
 
 ### --feedback--
 
-Think about how Node.js handles reading, writing, and transforming data.
+Fikiria jinsi Node.js inavyoshughulikia kusoma, kuandika, na kubadilisha data.
 
 ## --video-solution--
 
@@ -232,35 +232,35 @@ Think about how Node.js handles reading, writing, and transforming data.
 
 ## --text--
 
-What events can you use on a writable stream to know when streaming completes or an error occurs?
+Ni matukio gani unaweza kutumia kwenye writable stream kujua wakati streaming imekamilika au tatizo limetokea?
 
 ## --answers--
 
-`end` and `close`.
+`end` na `close`.
 
 ### --feedback--
 
-Think about the writable stream events that signal completion and failure.
+Fikiria matukio ya writable stream yanayoashiria kukamilika na kushindwa.
 
 ---
 
-`finish` and `error`.
+`finish` na `error`.
 
 ---
 
-`start` and `stop`.
+`start` na `stop`.
 
 ### --feedback--
 
-Think about the writable stream events that signal completion and failure.
+Fikiria matukio ya writable stream yanayoashiria kukamilika na kushindwa.
 
 ---
 
-`done` and `fail`.
+`done` na `fail`.
 
 ### --feedback--
 
-Think about the writable stream events that signal completion and failure.
+Fikiria matukio ya writable stream yanayoashiria kukamilika na kushindwa.
 
 ## --video-solution--
 

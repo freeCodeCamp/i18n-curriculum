@@ -1,6 +1,6 @@
 ---
 id: 69ae6a09b4a814be6a4f2bde
-title: What are Vector Databases?
+title: Was sind Vektor-Datenbanken?
 challengeType: 11
 videoId: kCGgKYMam7o
 dashedName: what-are-vector-databases
@@ -8,13 +8,13 @@ dashedName: what-are-vector-databases
 
 # --description--
 
-In this video, you will learn about vector databases.
+In diesem Video lernen Sie Vektor-Datenbanken kennen.
 
 # --questions--
 
 ## --text--
 
-Which of the following is NOT an example of a popular indexing algorithm?
+Welche der folgenden Optionen ist KEIN Beispiel für einen beliebten Indexierungsalgorithmus?
 
 ## --answers--
 

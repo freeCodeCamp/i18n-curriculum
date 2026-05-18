@@ -1,6 +1,6 @@
 ---
 id: bd7123c9c549eddfaeb5bdef
-title: Use Bracket Notation to Find the First Character in a String
+title: "Klammernotation verwenden, um das erste Zeichen in einem String zu finden"
 challengeType: 1
 forumTopicId: 18341
 dashedName: use-bracket-notation-to-find-the-first-character-in-a-string
@@ -8,36 +8,36 @@ dashedName: use-bracket-notation-to-find-the-first-character-in-a-string
 
 # --description--
 
-<dfn>Bracket notation</dfn> is a way to get a character at a specific index within a string.
+<dfn>Klammernotation</dfn> ist eine Methode, um ein Zeichen an einem bestimmten Index innerhalb eines Strings zu erhalten.
 
-Most modern programming languages, like JavaScript, don't start counting at 1 like humans do. They start at 0. This is referred to as <dfn>Zero-based</dfn> indexing.
+Die meisten modernen Programmiersprachen, wie JavaScript, beginnen nicht bei 1 zu zählen, wie es Menschen tun. Sie beginnen bei 0. Das nennt man <dfn>nullbasiertes</dfn> Indexieren.
 
-For example, the character at index 0 in the word `Charles` is `C`. So if `const firstName = "Charles"`, you can get the value of the first letter of the string by using `firstName[0]`.
+Zum Beispiel ist das Zeichen am Index 0 im Wort `Charles` `C`. Wenn `const firstName = "Charles"`, können Sie den Wert des ersten Buchstabens des Strings erhalten, indem Sie `firstName[0]` verwenden.
 
-Example:
+Beispiel:
 
 ```js
 const firstName = "Charles";
 const firstLetter = firstName[0];
 ```
 
-`firstLetter` would have a value of the string `C`.
+`firstLetter` hätte den Wert des Strings `C`.
 
 # --instructions--
 
-Use bracket notation to find the first character in the `lastName` variable and assign it to `firstLetterOfLastName`.
+Verwenden Sie die Klammernotation, um das erste Zeichen in der Variablen `lastName` zu finden und weisen Sie es `firstLetterOfLastName` zu.
 
-**Hint:** Try looking at the example above if you get stuck.
+**Hinweis:** Schauen Sie sich das obige Beispiel an, wenn Sie nicht weiterkommen.
 
 # --hints--
 
-The `firstLetterOfLastName` variable should have the value of `L`.
+Die Variable `firstLetterOfLastName` sollte den Wert `L` haben.
 
 ```js
 assert(firstLetterOfLastName === 'L');
 ```
 
-You should use bracket notation.
+Sie sollten die Klammernotation verwenden.
 
 ```js
 assert(__helpers.removeJSComments(code).match(/firstLetterOfLastName\s*=\s*lastName\s*\[\s*\d\s*\]/));

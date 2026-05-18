@@ -124,9 +124,7 @@ function ExpensiveSquare({ num }) {
 export default ExpensiveSquare;
 ```
 
-Questo assicurerà che la funzione venga memoizzata memorizzando il risultato, così il calcolo avviene solo quando la variabile `num` cambia, non ogni volta che cambia qualcosa nel componente in cui viene usata.
-
-La chiamata alla funzione `calculateSquare` non viene più eseguita ogni volta che `timer` cambia, ma solo al render iniziale e quando `num` cambia.
+Questo assicurerà che la funzione venga memoizzata memorizzando il risultato. Anche se il componente `ExpensiveSquare` viene renderizzato di nuovo ogni volta che lo stato `timer` del genitore si aggiorna, il calcolo di `calculateSquare` viene eseguito solo al render iniziale e quando `num` cambia.
 
 # --questions--
 

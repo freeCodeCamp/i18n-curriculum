@@ -1,17 +1,17 @@
 ---
 id: 69babf2bf78bade75fda0326
-title: Step 6
+title: Hatua 6
 challengeType: 1
 dashedName: step-6
 ---
 
 # --description--
 
-Next, you need a way to track how many attendees are processed by the gate during the tick. Create a variable named `processed` and initialize it to `0`.
+Ifuatayo, unahitaji njia ya kufuatilia ni wangapi washiriki wanashughulikiwa na lango wakati wa tiketi. Unda kigezo kinachoitwa `processed` na uanze na thamani ya `0`.
 
 # --hints--
 
-You should create a variable named `processed` and assign it a value of `0`.
+Unapaswa kuunda kigezo kinachoitwa `processed` na ukaweke thamani ya `0`.
 
 ```js
 const rawFuncStr = __helpers.removeJSComments(processGateFlow.toString());

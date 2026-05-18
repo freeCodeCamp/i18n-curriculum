@@ -5,7 +5,6 @@ challengeType: 22
 dashedName: task-74
 lang: en-US
 ---
-
 <!--
 AUDIO REFERENCE:
 Linda: Not yet, but I anticipate we'll start receiving more detailed reports as more users navigate the updated interface.
@@ -13,7 +12,7 @@ Linda: Not yet, but I anticipate we'll start receiving more detailed reports as 
 
 # --instructions--
 
-Höre dir das Audio an und vervollständige die unteren Sätze.
+Hören Sie sich die Audioaufnahme an und vervollständigen Sie den folgenden Satz.
 
 # --fillInTheBlank--
 
@@ -27,7 +26,7 @@ Höre dir das Audio an und vervollständige die unteren Sätze.
 
 ### --feedback--
 
-A word that shows two actions happening at the same time or one action depending on another.
+Ein Wort, das zwei gleichzeitig ablaufende Handlungen oder eine Handlung, die von einer anderen abhängt, ausdrückt.
 
 ---
 
@@ -35,7 +34,7 @@ A word that shows two actions happening at the same time or one action depending
 
 ### --feedback--
 
-A word that indicates a greater quantity or number.
+Ein Wort, das eine größere Menge oder Anzahl angibt.
 
 ---
 
@@ -43,7 +42,7 @@ A word that indicates a greater quantity or number.
 
 ### --feedback--
 
-A word that refers to the people navigating the updated interface.
+Ein Wort, das sich auf die Personen bezieht, die die aktualisierte Benutzeroberfläche bedienen.
 
 ---
 
@@ -51,15 +50,15 @@ A word that refers to the people navigating the updated interface.
 
 ### --feedback--
 
-A word that means to move around or through something, such as a website or an app.
+Ein Wort, das bedeutet, sich durch etwas wie eine Website oder eine App zu bewegen.
 
 # --explanation--
 
-`As` can be used to mean "while" or "when", showing that one action will happen while another action is taking place. For example:
+`As` kann verwendet werden, um „während“ oder „wenn“ auszudrücken und zeigt, dass eine Handlung stattfindet, während eine andere abläuft. Zum Beispiel:
 
-- `As I was walking home, they called me.` - They called you while you were walking home.
+- `As I was walking home, they called me.` – Sie haben Sie angerufen, während Sie nach Hause gegangen sind.
 
-- `You will get better at coding as you practice more.` - You will improve while or when you practice more.
+- `You will get better at coding as you practice more.` – Sie werden besser, während oder wenn Sie mehr üben.
 
 # --scene--
 

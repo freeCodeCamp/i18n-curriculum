@@ -1,6 +1,6 @@
 ---
 id: bd7154d8c242eddfaeb5bd13
-title: Build the Game of Life
+title: Jenga mchezo wa maisha
 challengeType: 3
 forumTopicId: 302362
 dashedName: build-the-game-of-life
@@ -8,36 +8,36 @@ dashedName: build-the-game-of-life
 
 # --description--
 
-**Objective:** Build an app that is functionally similar to this: <a href="https://codepen.io/freeCodeCamp/full/BpwMZv/" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/BpwMZv/</a>.
+**Lengo:** Jenga programu inayofanana kiutendaji na hii: <a href="https://codepen.io/freeCodeCamp/full/BpwMZv/" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/BpwMZv/</a>.
 
-The Game of Life is a cellular automaton devised by the British mathematician John Horton Conway. It is a <em>zero-player game</em>, meaning that its evolution is determined by its initial state, requiring no further input. One interacts with the Game of Life by creating an initial configuration and observing how it evolves.
+Mchezo wa Maisha ni automaton ya seli iliyoundwa na mwanahesabu Mwingereza John Horton Conway. Ni <em>mchezo usio na mchezaji</em>, maana yake mabadiliko yake hutegemea hali yake ya awali, bila hitaji la ingizo zaidi. Unashirikiana na Mchezo wa Maisha kwa kuunda usanidi wa awali na kuangalia jinsi unavyobadilika.
 
-The universe of the Game of Life is an infinite, two-dimensional orthogonal grid of square cells, each of which is in one of two possible states, populated and unpopulated. Every cell interacts with its eight neighbors, which are the cells that are horizontally, vertically, or diagonally adjacent.
+Ulimwengu wa Mchezo wa Maisha ni gridi isiyo na kikomo, ya pande mbili, yenye seli za mstatili, kila moja ikiwa katika mojawapo ya hali mbili zinazowezekana, zenye watu au zisizo na watu. Kila seli hushirikiana na majirani zake nane, ambao ni seli zilizo wima, mlalo, au kidirisha.
 
-At each step in time, the following transitions occur:
+Kila hatua ya wakati, mabadiliko yafuatayo hutokea:
 
-- Any live cell with fewer than two live neighbors dies, as if by underpopulation.
-- Any live cell with two or three live neighbors lives on to the next generation.
-- Any live cell with more than three live neighbors dies, as if by overpopulation.
-- Any dead cell with exactly three live neighbors becomes a live cell, as if by reproduction.
+- Seli yoyote hai yenye majirani wachache kuliko wawili huaga dunia, kama vile kwa ukosefu wa watu.
+- Seli yoyote hai yenye majirani wawili au watatu huendelea kuishi hadi kizazi kinachofuata.
+- Seli yoyote hai yenye majirani zaidi ya watatu huaga dunia, kama vile kwa watu wengi sana.
+- Seli yoyote iliyokufa yenye majirani watatu hasa hugeuka kuwa seli hai, kama vile kwa uzazi.
 
-Fulfill the below user stories and get all of the tests to pass. Use whichever libraries or APIs you need. Give it your own personal style.
+Timiza hadithi za mtumiaji zilizo hapa chini na upite vipimo vyote. Tumia maktaba au API yoyote unayohitaji. Toa mtindo wako binafsi.
 
-**User Story:** When I first arrive at the game, it will randomly generate a board and start playing.
+**Hadithi ya mtumiaji:** Ninapofika kwa mara ya kwanza kwenye mchezo, utaanzisha bodi kwa bahati nasibu na kuanza kucheza.
 
-**User Story:** I can start and stop the board.
+**Hadithi ya mtumiaji:** Naweza kuanza na kusitisha bodi.
 
-**User Story:** I can set up the board.
+**Hadithi ya mtumiaji:** Naweza kuandaa bodi.
 
-**User Story:** I can clear the board.
+**Hadithi ya mtumiaji:** Naweza kufuta bodi.
 
-**User Story:** When I press start, the game will play out.
+**Hadithi ya mtumiaji:** Ninapobofya anza, mchezo utaendelea kucheza.
 
-**User Story:** Each time the board changes, I can see how many generations have gone by.
+**Hadithi ya mtumiaji:** Kila wakati bodi inapo badilika, naweza kuona ni vizazi vingapi vimepita.
 
-When you are finished, include a link to your project and click the "I've completed this challenge" button.
+Ukipomaliza, jumuisha kiungo cha mradi wako na bofya kitufe cha "Nimemaliza changamoto hii".
 
-You can get feedback on your project by sharing it on the <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp forum</a>.
+Unaweza kupata maoni kuhusu mradi wako kwa kuushirikisha kwenye <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">jukwaa la freeCodeCamp</a>.
 
 # --solutions--
 

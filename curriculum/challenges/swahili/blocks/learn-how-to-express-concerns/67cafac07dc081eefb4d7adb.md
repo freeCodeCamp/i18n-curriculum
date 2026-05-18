@@ -1,6 +1,6 @@
 ---
 id: 67cafac07dc081eefb4d7adb
-title: Task 135
+title: Zoezi la 135
 challengeType: 19
 dashedName: task-135
 lang: en-US
@@ -10,51 +10,51 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Sikiliza sauti na jibu swali lililopo hapa chini.  
 
 # --questions--
 
 ## --text--
 
-What is the objective of having weekly meetings?
+Lengo la kuwa na mikutano ya kila wiki ni lipi?
 
 ## --answers--
 
-To reduce the number of tasks the team has.
+Kupunguza idadi ya mazoezi ambayo timu ina.
 
 ### --feedback--
 
-Bob does not mention reducing tasks.
+Bob hakutaja kupunguza mazoezi.  
 
 ---
 
-To avoid making any changes to the project.
+Kuepuka kufanya mabadiliko yoyote kwenye mradi.
 
 ### --feedback--
 
-Bob does not suggest that they avoid making changes.
+Bob hakupendekeza kwamba waepuke kufanya mabadiliko.
 
 ---
 
-To increase the number of meetings without a clear goal.
+Kuongeza idadi ya mikutano bila lengo wazi.
 
 ### --feedback--
 
-Bob has a specific goal and he mentions it.
+Bob ana lengo maalum na alilitaja.
 
 ---
 
-To make sure everyone stays updated on the project.
+Kuhakikisha kila mtu anapata taarifa mpya kuhusu mradi.
 
 ## --video-solution--
 
-4
+4  
 
 # --explanation--
 
-`To keep someone in the loop` means to keep them informed about important updates and decisions. For example:
+`To keep someone in the loop` inamaanisha kuwafahamisha kuhusu masasisho na maamuzi muhimu. Kwa mfano:
 
-`Please keep me in the loop about any changes to the schedule.` - This means the speaker wants to be updated if anything changes.
+`Please keep me in the loop about any changes to the schedule.` - Hii ina maana msemaji anataka apate taarifa ikiwa kitu chochote kitabadilika.
 
 # --scene--
 

@@ -1,17 +1,17 @@
 ---
 id: 67329fbcfaf5ff5cdaa38a42
-title: What Is the var Keyword, and Why Is It No Longer Suggested to Use It?
+title: "Nini maana ya neno muhimu var, na kwa nini haipendekezwi tena kuitumia?"
 challengeType: 19
 dashedName: what-is-the-var-keyword-and-why-is-it-no-longer-suggested-to-use-it
 ---
 
 # --interactive--
 
-The `var` keyword in JavaScript is one of the original ways to declare variables. It has been part of the language since its inception and for many years it remained the primary method for creating variables. However as JavaScript evolved and developers gained more experience with the language, certain drawbacks of using `var` became apparent leading to the introduction of `let` and `const` in 2015.
+Neno muhimu la `var` katika JavaScript ni mojawapo ya njia za awali za kutangaza vigezo. Limekuwa sehemu ya lugha tangu ilipoanzishwa na kwa miaka mingi lilibaki kuwa njia kuu ya kuunda vigezo. Hata hivyo, kadri JavaScript ilivyokua na wasanidi programu kupata uzoefu zaidi na lugha hiyo, mapungufu fulani ya kutumia `var` yalionekana na kusababisha kuanzishwa kwa `let` na `const` mwaka 2015.
 
-When you declare a variable with `var`, it becomes function-scoped or globally-scoped. This means that if you declare a variable inside a function using `var` it's only accessible within that function. However if you declare it outside any function, it becomes a global variable accessible throughout your entire script. This behavior can sometimes lead to unexpected results and make your code harder to understand.
+Unapotangaza kigezo kwa `var`, kinakuwa na wigo wa kitendakazi au wigo wa kimataifa. Hii ina maana kwamba ukitangaza kigezo ndani ya kitendakazi kwa kutumia `var` kinapatikana tu ndani ya kitendakazi hicho. Hata hivyo, ukikitangaza nje ya kitendakazi chochote, kinakuwa kigezo cha kimataifa kinachopatikana katika msimbo wako mzima. Tabia hii inaweza kusababisha matokeo yasiyotegemewa na kufanya msimbo wako kuwa mgumu kueleweka.
 
-A problem with `var` is that it allows you to redeclare the same variable multiple times without throwing an error. This can lead to accidental overwrites and make debugging more difficult.
+Tatizo la `var` ni kwamba linakuwezesha kutangaza tena kigezo kile kile mara nyingi bila kutoa hitilafu. Hii inaweza kusababisha kufutwa kwa bahati mbaya na kufanya kutafuta makosa kuwa vigumu zaidi.
 
 :::interactive_editor
 
@@ -26,7 +26,7 @@ console.log(num); // 10
 
 :::
 
-The most significant issue with `var` is its lack of block scoping. Variables declared with `var` inside a block like an `if` statement or a `for` loop are still accessible outside that block.
+Tatizo kubwa zaidi la `var` ni ukosefu wa wigo wa block. Vigezo vilivyotangazwa kwa `var` ndani ya block kama tamko la `if` au mzunguko wa `for` bado vinapatikana nje ya block hiyo.
 
 :::interactive_editor
 
@@ -39,47 +39,47 @@ console.log(num); // 5
 
 :::
 
-This behavior can lead to unintended variable leaks and make your code more prone to bugs.
+Tabia hii inaweza kusababisha kuvuja kwa vigezo bila kusudi na kufanya msimbo wako uwe rahisi kuwa na hitilafu.
 
-Due to these issues, modern JavaScript development has largely moved away from `var` in favor of `let` and `const`. These keywords provide block scoping which aligns more closely with how scoping works in many other programming languages.
+Kutokana na matatizo haya, ukuzaji wa kisasa wa JavaScript umehamia mbali na `var` na kuipendelea `let` na `const`. Maneno haya muhimu yanatoa wigo wa block unaolingana zaidi na jinsi wigo unavyofanya kazi katika lugha nyingi za programu.
 
-They also don't allow redeclaration within the same scope helping to prevent accidental overrides.
+Pia hayaruhusu kutangaza tena ndani ya wigo uleule, kusaidia kuzuia kufutwa kwa bahati mbaya.
 
-While `var` is still part of JavaScript and works in all browsers, it's generally recommended to use `let` and `const` in modern JavaScript development. They provide clear scoping rules, help prevent common pitfalls, and make your code's behavior more predictable.
+Ingawa `var` bado ni sehemu ya JavaScript na hufanya kazi katika vivinjari vyote, kwa ujumla inashauriwa kutumia `let` na `const` katika ukuzaji wa kisasa wa JavaScript. Hutoa sheria wazi za wigo, husaidia kuzuia makosa ya kawaida, na kufanya tabia ya msimbo wako kuwa ya kutegemewa zaidi.
 
 # --questions--
 
 ## --text--
 
-What is the scope of a variable declared with `var` outside of any function?
+Ni wigo gani wa kigezo kilichotangazwa kwa `var` nje ya kitendakazi chochote?
 
 ## --answers--
 
-Block scope.
+Wigo wa block.
 
 ### --feedback--
 
-Think about where a `var` variable declared outside a function can be accessed.
+Fikiria wapi kigezo cha `var` kilichotangazwa nje ya kitendakazi kinaweza kufikiliwa.
 
 ---
 
-Function scope.
+Wigo wa kitendakazi.
 
 ### --feedback--
 
-Think about where a `var` variable declared outside a function can be accessed.
+Fikiria wapi kigezo cha `var` kilichotangazwa nje ya kitendakazi kinaweza kufikiliwa.
 
 ---
 
-Global scope.
+Wigo wa kimataifa.
 
 ---
 
-Module scope.
+Wigo wa moduli.
 
 ### --feedback--
 
-Think about where a `var` variable declared outside a function can be accessed.
+Fikiria wapi kigezo cha `var` kilichotangazwa nje ya kitendakazi kinaweza kufikiliwa.
 
 ## --video-solution--
 
@@ -87,7 +87,7 @@ Think about where a `var` variable declared outside a function can be accessed.
 
 ## --text--
 
-What will be the output of the following code?
+Nini kitakuwa matokeo ya msimbo ufuatao?
 
 ```js
 var x = 10;
@@ -109,7 +109,7 @@ console.log(x);
 
 ### --feedback--
 
-Remember that `var` is function-scoped or globally-scoped, and it allows redeclaration within the same scope.
+Kumbuka kwamba `var` ni na wigo wa kitendakazi au kimataifa, na inaruhusu kutangaza tena ndani ya wigo uleule.
 
 ---
 
@@ -127,7 +127,7 @@ Remember that `var` is function-scoped or globally-scoped, and it allows redecla
 
 ### --feedback--
 
-Remember that `var` is function-scoped or globally-scoped, and it allows redeclaration within the same scope.
+Kumbuka kwamba `var` ni na wigo wa kitendakazi au kimataifa, na inaruhusu kutangaza tena ndani ya wigo uleule.
 
 ---
 
@@ -138,7 +138,7 @@ Remember that `var` is function-scoped or globally-scoped, and it allows redecla
 
 ### --feedback--
 
-Remember that `var` is function-scoped or globally-scoped, and it allows redeclaration within the same scope.
+Kumbuka kwamba `var` ni na wigo wa kitendakazi au kimataifa, na inaruhusu kutangaza tena ndani ya wigo uleule.
 
 ## --video-solution--
 
@@ -146,35 +146,35 @@ Remember that `var` is function-scoped or globally-scoped, and it allows redecla
 
 ## --text--
 
-Which of the following is NOT a reason to avoid using `var` in modern JavaScript?
+Ni ipi kati ya zifuatazo SI sababu ya kuepuka kutumia `var` katika JavaScript ya kisasa?
 
 ## --answers--
 
-`var` allows redeclaration of variables in the same scope.
+`var` inaruhusu kutangaza tena vigezo katika wigo uleule.
 
 ### --feedback--
 
-Consider which statement is false about `var`'s behavior or support.
+Fikiria ni tamko gani si kweli kuhusu tabia au msaada wa `var`.
 
 ---
 
-`var` is not supported in modern browsers.
+`var` haitegemezwi katika vivinjari vya kisasa.
 
 ---
 
-`var` variables are function-scoped, not block-scoped.
+Vigezo vya `var` vina wigo wa kitendakazi, si wigo wa block.
 
 ### --feedback--
 
-Consider which statement is false about `var`'s behavior or support.
+Fikiria ni tamko gani si kweli kuhusu tabia au msaada wa `var`.
 
 ---
 
-`var` variables are hoisted.
+Vigezo vya `var` vinapandishwa juu (hoisted).
 
 ### --feedback--
 
-Consider which statement is false about `var`'s behavior or support.
+Fikiria ni tamko gani si kweli kuhusu tabia au msaada wa `var`.
 
 ## --video-solution--
 

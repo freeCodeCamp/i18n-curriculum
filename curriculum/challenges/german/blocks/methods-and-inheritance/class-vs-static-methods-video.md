@@ -1,6 +1,6 @@
 ---
 id: 69ae9cdfa9e6da4eb0d5f7f7
-title: Class vs. Static Methods
+title: Klassen- vs. statische Methoden
 challengeType: 11
 videoId: Vo84LQ14yI4
 dashedName: class-vs-static-methods
@@ -8,29 +8,29 @@ dashedName: class-vs-static-methods
 
 # --description--
 
-In this video, you will learn the difference between class and static methods.
+In diesem Video lernen Sie den Unterschied zwischen Klassen- und statischen Methoden kennen.
 
 # --questions--
 
 ## --text--
 
-What is a class method?
+Was ist eine Klassenmethode?
 
 ## --answers--
 
-A method that only works with global variables and is unrelated to the class or its instances.
+Eine Methode, die nur mit globalen Variablen arbeitet und nichts mit der Klasse oder ihren Instanzen zu tun hat.
 
 ---
 
-A method that can only be called on an instance of a class and cannot access class-level attributes.
+Eine Methode, die nur auf einer Instanz einer Klasse aufgerufen werden kann und keinen Zugriff auf klassenweite Attribute hat.
 
 ---
 
-A method that automatically runs when an object is deleted.
+Eine Methode, die automatisch ausgeführt wird, wenn ein Objekt gelöscht wird.
 
 ---
 
-A method that is bound to the class itself, rather than an instance of the class.
+Eine Methode, die an die Klasse selbst gebunden ist und nicht an eine Instanz der Klasse.
 
 ## --video-solution--
 

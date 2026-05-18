@@ -1,6 +1,6 @@
 ---
 id: bd7155d8c242eddfaeb5bd13
-title: Build a Recipe Box
+title: Jenga sanduku la mapishi
 challengeType: 3
 forumTopicId: 302354
 dashedName: build-a-recipe-box
@@ -8,27 +8,27 @@ dashedName: build-a-recipe-box
 
 # --description--
 
-**Objective:** Build an app that is functionally similar to this: <a href="https://codepen.io/freeCodeCamp/full/dNVazZ/" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/dNVazZ/</a>.
+**Lengo:** Jenga programu inayofanya kazi kwa njia inayofanana na hii: <a href="https://codepen.io/freeCodeCamp/full/dNVazZ/" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/dNVazZ/</a>.
 
-Fulfill the below user stories and get all of the tests to pass. Use whichever libraries or APIs you need. Give it your own personal style.
+Timiza hadithi za mtumiaji zilizo hapa chini na upite vipimo vyote. Tumia maktaba au API yoyote unayohitaji. Toa mtindo wako binafsi.
 
-**User Story:** I can create recipes that have names and ingredients.
+**Hadithi ya mtumiaji:** Naweza kuunda mapishi yenye majina na viungo.
 
-**User Story:** I can see an index view where the names of all the recipes are visible.
+**Hadithi ya mtumiaji:** Naweza kuona mtazamo wa kielezo ambapo majina ya mapishi yote yanaonekana.
 
-**User Story:** I can click into any of those recipes to view it.
+**Hadithi ya mtumiaji:** Naweza kubofya kwenye yoyote ya mapishi hayo ili kuyaangalia.
 
-**User Story:** I can edit these recipes.
+**Hadithi ya mtumiaji:** Naweza kuhariri mapishi haya.
 
-**User Story:** I can delete these recipes.
+**Hadithi ya mtumiaji:** Naweza kufuta mapishi haya.
 
-**User Story:** All new recipes I add are saved in my browser's local storage. If I refresh the page, these recipes will still be there.
+**Hadithi ya mtumiaji:** Mapishi yote mapya ninayoongeza yatahifadhiwa katika hifadhidata ya kivinjari changu. Ikiwa nionyesha upya ukurasa, mapishi haya bado yatakuwepo.
 
-**Hint:** You should prefix your local storage keys on CodePen, i.e. `_username_recipes`
+**Kidokezo:** Unapaswa kuweka kiambishi awali kwenye funguo zako za hifadhidata ya kivinjari kwenye CodePen, yaani `_username_recipes`
 
-When you are finished, include a link to your project on CodePen and click the "I've completed this challenge" button.
+Ukiisha, jumuisha kiungo cha mradi wako kwenye CodePen na bofya kitufe cha "Nimemaliza changamoto hii".
 
-You can get feedback on your project by sharing it on the <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp forum</a>.
+Unaweza kupata maoni kuhusu mradi wako kwa kuushiriki kwenye <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">jukwaa la freeCodeCamp</a>.
 
 # --solutions--
 

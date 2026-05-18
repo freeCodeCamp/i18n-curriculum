@@ -1,6 +1,6 @@
 ---
 id: 2ccc34bd3f7bb4ae97a67ea3
-title: Modules and pip
+title: Module und pip
 challengeType: 11
 videoId: HJ-dHUXmpcg
 dashedName: modules-and-pip
@@ -8,29 +8,29 @@ dashedName: modules-and-pip
 
 # --description--
 
-In this video, you will learn how to use modules and pip to extend Python's functionality with external packages.
+In diesem Video lernen Sie, wie Sie Module und pip verwenden, um die Funktionalität von Python mit externen Paketen zu erweitern.
 
 # --questions--
 
 ## --text--
 
-What is pip used for?
+Wofür wird pip verwendet?
 
 ## --answers--
 
-It is used to sort python modules.
+Es wird verwendet, um Python-Module zu sortieren.
 
 ---
 
-It is used to explain python modules.
+Es wird verwendet, um Python-Module zu erklären.
 
 ---
 
-It is used to install python modules.
+Es wird verwendet, um Python-Module zu installieren.
 
 ---
 
-It is used to lint Python programs.
+Es wird verwendet, um Python-Programme zu linten.
 
 ## --video-solution--
 

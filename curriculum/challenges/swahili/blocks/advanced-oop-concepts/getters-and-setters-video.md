@@ -1,6 +1,6 @@
 ---
 id: 69ae9f3ca9e6da4eb0d5f7f9
-title: Getters and Setters
+title: Vipata na Wapezaji
 challengeType: 11
 videoId: o8zKHbpd87s
 dashedName: getters-and-setters
@@ -8,32 +8,30 @@ dashedName: getters-and-setters
 
 # --description--
 
-In this video, you will learn about getters and setters.
+Katika video hii, utafundishwa kuhusu vipata na wapezaji.
 
 # --questions--
 
 ## --text--
 
-What is a setter?
+Je, mapezaji ni nini?
 
 ## --answers--
 
-A function that automatically deletes an object when it goes out of scope.
+Kitendakazi kinachofuta moja kwa moja kitu wakati kinapotoka katika wigo.
 
 ---
 
-A method that retrieves or reads the value of an attribute.
+Njia inayopata au kusoma thamani ya sifa ya kipengele.
 
 ---
 
-A method in a class used to set or update the value of a private or protected attribute.
+Njia katika darasa la vitu inayotumika kuweka au kusahihisha thamani ya sifa ya kipengele binafsi au iliyo na ulinzi.
 
 ---
 
-A method that creates a new class instance without modifying any attributes.
+Njia inayounda mfano mpya wa darasa la vitu bila kubadilisha sifa yoyote ya kipengele.
 
 ## --video-solution--
 
 3
-
-

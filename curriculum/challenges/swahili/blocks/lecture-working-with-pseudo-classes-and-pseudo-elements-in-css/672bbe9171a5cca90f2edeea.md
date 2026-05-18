@@ -1,21 +1,21 @@
 ---
 id: 672bbe9171a5cca90f2edeea
-title: What Are Examples of Element User Action Pseudo-classes?
+title: Ni mifano gani ya darasa la bandia la kitendo cha mtumizi kwa kipengele?
 challengeType: 19
 dashedName: what-are-examples-of-element-user-action-pseudo-classes
 ---
 
 # --interactive--
 
-User feedback is a crucial element of web design. For instance, it's important for users to receive visual cues when they interact with elements on a website, such as hovering over a button or clicking a link. This feedback helps users understand the state of interactive elements, like indicating whether a link has been visited or not.
+Maoni ya mtumizi ni kipengele muhimu katika muundo wa mtandao. Kwa mfano, ni muhimu kwa watumizi kupokea dalili za kuona wanaposhirikiana na vipengele kwenye tovuti, kama vile kuvinjari kitufe au kubofya kiungo. Maoni haya husaidia watumizi kuelewa hali ya vipengele vinavyoshirikiana, kama kuonyesha kama kiungo kimebofyanwa au la.
 
-User action pseudo-classes in CSS are special keywords that allow you to provide this kind of feedback without needing JavaScript or other programming languages.
+Darasa la bandia la kitendo cha mtumizi katika CSS ni maneno maalum yanayokuwezesha kutoa maoni haya bila haja ya JavaScript au lugha nyingine za programu.
 
-These pseudo-classes include `:hover`, `:active`, `:focus`, and `:visited`, among others. They enable you to change the appearance of elements based on user interactions, improving the overall user experience.
+Darasa hizi la bandia ni pamoja na `:hover`, `:active`, `:focus`, na `:visited`, miongoni mwa zingine. Zinakuwezesha kubadilisha muonekano wa vipengele kulingana na mwingiliano wa mtumizi, kuboresha uzoefu wa mtumizi kwa ujumla.
 
-Let's dive into some of the user action pseudo-classes we have and see how they work.
+Tuchunguze baadhi ya darasa la bandia la kitendo cha mtumizi tulizonazo na tuone jinsi zinavyofanya kazi.
 
-The `:active` pseudo-class applies styles when an element is activated by the user. For example, when the user clicks a button or a link, it provides immediate visual feedback, showing users that their actions are being recognized.
+Darasa la bandia la `:active` linaweka mitindo wakati kipengele kinapowashwa na mtumizi. Kwa mfano, mtumizi anapobofya kitufe au kiungo, hutoa maoni ya kuona mara moja, kuonyesha watumizi kuwa vitendo vyao vinatambuliwa.
 
 :::interactive_editor
 
@@ -32,7 +32,7 @@ a:active {
 
 :::
 
-The `:hover` pseudo-class is triggered when a user hovers over an element with their mouse or other pointing device. Developers often use it to create visual feedback for buttons, links, or any element that should respond to user attention. Here's a button a user would hover over before clicking:
+Darasa la bandia la `:hover` linaanzishwa mtumizi anapovinjari kipengele kwa panya au kifaa kingine cha kuonyesha. Wasanidi programu mara nyingi hulitumia kuunda maoni ya kuona kwa vitufe, viungo, au kipengele chochote kinachotakiwa kujibu makini ya mtumizi. Hapa kuna kitufe ambacho mtumizi atavinjari kabla ya kubofya:
 
 :::interactive_editor
 
@@ -51,9 +51,9 @@ The `:hover` pseudo-class is triggered when a user hovers over an element with t
 
 :::
 
-The `:focus` pseudo-class applies styles when an element gains focus, typically through keyboard navigation or when a user clicks into a form input. This is not just for feedback but also crucial for accessibility. It ensures that users who rely heavily on keyboards can easily identify which element they are interacting with.
+Darasa la bandia la `:focus` linaweka mitindo wakati kipengele kinapopata makini, kawaida kupitia urambazaji wa kibodi au mtumizi anapobofya sehemu ya ingizo ya fomu. Hii si kwa ajili ya maoni tu bali pia ni muhimu kwa Ufikikaji. Inahakikisha watumizi wanaotegemea sana kibodi wanaweza kutambua kwa urahisi kipengele wanachoshirikiana nacho.
 
-Here's an example of an input field that gains focus when clicked or navigated to via the keyboard:
+Hapa kuna mfano wa sehemu ya ingizo inayopata makini inapobofya au kupelekwa kupitia kibodi:
 
 :::interactive_editor
 
@@ -73,7 +73,7 @@ input:focus {
 
 :::
 
-The `:visited` pseudo-class targets a link the user has visited. This can be useful for helping users distinguish between pages they have already visited and the ones they are yet to visit. Here is an example of changing the anchor text color to cyan when the link is visited:
+Darasa la bandia la `:visited` linawalenga viungo ambavyo mtumizi amevitembelea. Hii inaweza kusaidia watumizi kutofautisha kati ya kurasa walizotembelea na zile ambazo bado hawajatembelea. Hapa kuna mfano wa kubadilisha rangi ya maandishi ya nanga kuwa cyan wakati kiungo kimebofyanwa:
 
 :::interactive_editor
 
@@ -90,11 +90,11 @@ a:visited {
 
 :::
 
-The `:checked` pseudo-class in CSS allows you to style form elements such as checkboxes and radio buttons when they are selected (checked). This pseudo-class is useful for customizing the appearance of these elements to enhance user experience, even though browsers provide default styles for them.
+Darasa la bandia la `:checked` katika CSS linakuwezesha kuweka mitindo kwa vipengele vya fomu kama kisanduku cha kuchagua na kitufe cha radio wakati vimechaguliwa (vimekaguliwa). Darasa hili la bandia ni muhimu kwa kubinafsisha muonekano wa vipengele hivi ili kuboresha uzoefu wa mtumizi, ingawa vivinjari hutoa mitindo ya msingi kwao.
 
-Here is an example with a checkbox to agree to terms on a website.
+Hapa kuna mfano wa kisanduku cha kuchagua kukubaliana na masharti kwenye tovuti.
 
-**NOTE**: Some of the CSS in this example uses properties that haven't been covered yet. This is just to give you an idea of how to create a custom checkbox. You will learn how all of this works in future lessons and workshops.
+**KUMBUKA**: Baadhi ya CSS katika mfano huu hutumia sifa ambazo bado hazijafundishwa. Hii ni kwa ajili ya kukupa wazo la jinsi ya kuunda kisanduku cha kuchagua kilichobinafsishwa. Utajifunza jinsi yote haya yanavyofanya kazi katika mafundisho na warsha zijazo.
 
 :::interactive_editor
 
@@ -151,48 +151,48 @@ Here is an example with a checkbox to agree to terms on a website.
 
 :::
 
-In this example, we are using the `appearance` property set to `none` to remove the default styling applied by the browser to checkbox inputs. When the user checks the box, it will have a background color of `green`.
+Katika mfano huu, tunatumia sifa ya `appearance` kuwekwa kuwa `none` kuondoa mtindo wa msingi unaotolewa na kivinjari kwa sehemu za ingizo za kisanduku cha kuchagua. Mtumizi anapokagua kisanduku, kitakuwa na rangi ya nyuma ya `green`.
 
-Other examples of action pseudo-classes are:
+Mifano mingine ya darasa la bandia la kitendo ni:
 
-- `:focus-within`: for applying styles to an element when it or any of its descendants have focus.
-- `:enabled`: for targeting form buttons or other elements that are currently enabled.
-- `:disabled`: for targeting form buttons or other elements that are disabled.
-- `:target`: for applying styles to an element that is the target of a URL fragment (the part of a URL after the `#` symbol).
+- `:focus-within`: kwa kuweka mitindo kwa kipengele wakati yeye au mzao wake wowote wanapopata makini.
+- `:enabled`: kwa kuwalenga vitufe vya fomu au vipengele vingine vilivyo hai kwa sasa.
+- `:disabled`: kwa kuwalenga vitufe vya fomu au vipengele vingine vilivyozimwa.
+- `:target`: kwa kuweka mitindo kwa kipengele kinacholengwa na kipande cha URL (sehemu ya URL baada ya alama ya `#`).
 
 # --questions--
 
 ## --text--
 
-What do user action pseudo-classes allow you to do?
+Darasa la bandia la kitendo cha mtumizi linakuwezesha kufanya nini?
 
 ## --answers--
 
-They enable animations and transitions.
+Zinawezesha michoro na mabadiliko ya mtindo.
 
 ### --feedback--
 
-Think about how you can interact with users purely with CSS.
+Fikiria jinsi unavyoweza kushirikiana na watumizi kwa kutumia CSS tu.
 
 ---
 
-They allow you to modify the DOM structure dynamically.
+Zinawezesha kubadilisha muundo wa DOM kwa njia ya mabadiliko ya wakati halisi.
 
 ### --feedback--
 
-Think about how you can interact with users purely with CSS.
+Fikiria jinsi unavyoweza kushirikiana na watumizi kwa kutumia CSS tu.
 
 ---
 
-They let you provide feedback to the user without relying on JavaScript.
+Zinafikisha maoni kwa mtumizi bila kutegemea JavaScript.
 
 ---
 
-They let you style the last element in a list.
+Zinawezesha kuweka mtindo kwa kipengele cha mwisho katika orodha.
 
 ### --feedback--
 
-Think about how you can interact with users purely with CSS.
+Fikiria jinsi unavyoweza kushirikiana na watumizi kwa kutumia CSS tu.
 
 ## --video-solution--
 
@@ -200,35 +200,35 @@ Think about how you can interact with users purely with CSS.
 
 ## --text--
 
-What does the `:checked` pseudo-class do in CSS?
+Darasa la bandia la `:checked` hufanya nini katika CSS?
 
 ## --answers--
 
-It selects an element when it is disabled.
+Huchagua kipengele wakati kimezimwa.
 
 ### --feedback--
 
-Think about how forms handle user selections.
+Fikiria jinsi fomu zinavyoshughulikia uchaguzi wa mtumizi.
 
 ---
 
-It selects an element when it is being hovered over.
+Huchagua kipengele wakati kinavinjariwa.
 
 ### --feedback--
 
-Think about how forms handle user selections.
+Fikiria jinsi fomu zinavyoshughulikia uchaguzi wa mtumizi.
 
 ---
 
-It styles elements like checkboxes or radio buttons that are checked.
+Huweka mitindo kwa vipengele kama kisanduku cha kuchagua au kitufe cha radio ambavyo vimekaguliwa.
 
 ---
 
-It styles an element when it gains focus.
+Huweka mtindo kwa kipengele kinapopata makini.
 
 ### --feedback--
 
-Think about how forms handle user selections.
+Fikiria jinsi fomu zinavyoshughulikia uchaguzi wa mtumizi.
 
 ## --video-solution--
 
@@ -236,35 +236,35 @@ Think about how forms handle user selections.
 
 ## --text--
 
-What does the `:focus` pseudo-class do?
+Darasa la bandia la `:focus` hufanya nini?
 
 ## --answers--
 
-It selects an element when it is hovered over by a mouse.
+Huchagua kipengele wakati kinavinjariwa na panya.
 
 ### --feedback--
 
-Think about how users navigate forms using a keyboard.
+Fikiria jinsi watumizi wanavyorambaza fomu kwa kutumia kibodi.
 
 ---
 
-It applies styles when an element gains focus, usually through keyboard navigation or a click.
+Huweka mitindo wakati kipengele kinapopata makini, kawaida kupitia urambazaji wa kibodi au bofya.
 
 ---
 
-It selects an element after a form is submitted.
+Huchagua kipengele baada ya fomu kuwasilishwa.
 
 ### --feedback--
 
-Think about how users navigate forms using a keyboard.
+Fikiria jinsi watumizi wanavyorambaza fomu kwa kutumia kibodi.
 
 ---
 
-It applies styles to an element when it is disabled.
+Huweka mitindo kwa kipengele kinapozimwa.
 
 ### --feedback--
 
-Think about how users navigate forms using a keyboard.
+Fikiria jinsi watumizi wanavyorambaza fomu kwa kutumia kibodi.
 
 ## --video-solution--
 

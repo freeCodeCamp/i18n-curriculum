@@ -1,28 +1,28 @@
 ---
 id: 68f1196f0fedc6f6ecc9aba6
-title: Step 4
+title: Hatua 4
 challengeType: 20
 dashedName: step-4
 ---
 
 # --description--
 
-In Python, a return type hint indicates the expected return type of a function or method. You do this by adding `-> return_type` after the parameter list in the method definition.
+Katika Python, kidokezo cha aina ya kurudisha kinaonyesha aina inayotarajiwa kurudishwa na kitendakazi au njia. Unafanya hivi kwa kuongeza `-> return_type` baada ya orodha ya vigezo katika ufafanuzi wa njia.
 
-Here is an example of a method with both parameter and return type hints whose return type is `bool`:
+Hapa kuna mfano wa njia yenye vidokezo vya aina ya kigezo na aina ya kurudisha ambapo aina ya kurudisha ni `bool`:
 
 ```py
 def example_method(self, value: int) -> bool:
   pass
 ```
 
-Other return type hints you might use include `str`, `None`, `float` and more.
+Vidokezo vingine vya aina ya kurudisha ambavyo unaweza kutumia ni pamoja na `str`, `None`, `float` na zaidi.
 
-In the existing `__init__` method, add a return type hint of `None` since constructors do not return a value.
+Katika njia ya `__init__` iliyopo, ongeza kidokezo cha aina ya kurudisha cha `None` kwa kuwa vijenzi havirudishi thamani.
 
 # --hints--
 
-Your `__init__` method should have a return type hint of `None`.
+Njia yako ya `__init__` inapaswa kuwa na kidokezo cha aina ya kurudisha cha `None`.
 
 ```js
 ({

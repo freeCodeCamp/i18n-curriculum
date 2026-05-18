@@ -1,6 +1,6 @@
 ---
 id: cf1111c1c11feddfaeb1bdef
-title: Iterate with JavaScript While Loops
+title: Mit JavaScript-While-Schleifen iterieren
 challengeType: 1
 forumTopicId: 18220
 dashedName: iterate-with-javascript-while-loops
@@ -8,9 +8,9 @@ dashedName: iterate-with-javascript-while-loops
 
 # --description--
 
-You can run the same code multiple times by using a loop.
+Sie können denselben Code mehrfach ausführen, indem Sie eine Schleife verwenden.
 
-The first type of loop we will learn is called a `while` loop because it runs while a specified condition is true and stops once that condition is no longer true.
+Der erste Schleifentyp, den wir lernen, heißt `while`-Schleife, weil sie läuft, solange eine bestimmte Bedingung wahr ist, und stoppt, sobald diese Bedingung nicht mehr wahr ist.
 
 ```js
 const ourArray = [];
@@ -22,23 +22,23 @@ while (i < 5) {
 }
 ```
 
-In the code example above, the `while` loop will execute 5 times and append the numbers 0 through 4 to `ourArray`.
+Im obigen Codebeispiel wird die `while`-Schleife 5-mal ausgeführt und fügt die Zahlen von 0 bis 4 zu `ourArray` hinzu.
 
-Let's try getting a while loop to work by pushing values to an array.
+Versuchen wir, eine while-Schleife zum Laufen zu bringen, indem wir Werte in ein Array einfügen.
 
 # --instructions--
 
-Add the numbers 5 through 0 (inclusive) in descending order to `myArray` using a `while` loop.
+Fügen Sie die Zahlen von 5 bis 0 (einschließlich) in absteigender Reihenfolge mit einer `myArray`-Schleife zu `while` hinzu.
 
 # --hints--
 
-You should be using a `while` loop for this.
+Sie sollten hierfür eine `while`-Schleife verwenden.
 
 ```js
 assert(__helpers.removeJSComments(code).match(/while/g));
 ```
 
-`myArray` should equal `[5, 4, 3, 2, 1, 0]`.
+`myArray` sollte gleich `[5, 4, 3, 2, 1, 0]` sein.
 
 ```js
 assert.deepEqual(myArray, [5, 4, 3, 2, 1, 0]);

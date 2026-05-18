@@ -1,6 +1,6 @@
 ---
 id: 657cfddfaca4b58b1279aaf9
-title: Task 74
+title: Zoezi la 74
 challengeType: 22
 dashedName: task-74
 lang: en-US
@@ -10,11 +10,11 @@ lang: en-US
 
 # --description--
 
-To `encourage` means to give support, confidence, or hope to someone. It's what a good coach does to motivate their team to do their best.
+Kutoa `encourage` inamaanisha kumpa mtu msaada, kujiamini, au matumaini. Hii ndicho kocha mzuri hufanya kuwahamasisha timu yake kufanya vizuri zaidi.
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Sikiliza sauti na ukamilishe sentensi iliyo hapa chini.
 
 # --fillInTheBlank--
 
@@ -28,7 +28,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This verb is about motivating or inspiring someone to do something. It's similar to cheering someone on. Don't forget about the ending `-s`.
+Kitenzi hiki kinahusu kuhamasisha au kuhamasisha mtu kufanya jambo fulani. Ni sawa na kumtia mtu moyo. Usisahau kuhusu mwisho `-s`.
 
 # --scene--
 

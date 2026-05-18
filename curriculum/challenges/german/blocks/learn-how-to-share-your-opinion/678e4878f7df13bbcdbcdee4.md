@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Höre dir die Audio an, um die unteren Sätze zu vervollständigen.
+Hören Sie sich die Audioaufnahme an und vervollständigen Sie den folgenden Satz.
 
 # --fillInTheBlank--
 
@@ -24,13 +24,13 @@ Höre dir die Audio an, um die unteren Sätze zu vervollständigen.
 
 ### --feedback--
 
-This word means that something can be changed or adjusted to meet individual preferences or needs.
+Dieses Wort bedeutet, dass etwas verändert oder angepasst werden kann, um individuellen Vorlieben oder Bedürfnissen gerecht zu werden.
 
 # --explanation--
 
-`Customizable` refers to something that can be changed or modified to suit different preferences, needs, or requirements. Zum Beispiel:
+`Customizable` bezeichnet etwas, das verändert oder modifiziert werden kann, um unterschiedlichen Vorlieben, Bedürfnissen oder Anforderungen zu entsprechen. Zum Beispiel:
 
-`The dashboard in this project management tool is customizable, allowing each team to organize their tasks in their preferred way.` - This means that the dashboard can be modified according to each team's needs, helping them organize their work more efficiently.
+`The dashboard in this project management tool is customizable, allowing each team to organize their tasks in their preferred way.` – Das bedeutet, dass das Dashboard entsprechend den Bedürfnissen jedes Teams angepasst werden kann, um ihnen zu helfen, ihre Arbeit effizienter zu organisieren.
 
 # --scene--
 

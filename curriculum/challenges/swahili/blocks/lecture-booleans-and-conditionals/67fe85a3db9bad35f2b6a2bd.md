@@ -1,30 +1,30 @@
 ---
 id: 67fe85a3db9bad35f2b6a2bd
-title: How Do Conditional Statements and Logical Operators Work?
+title: Jinsi taarifa za masharti na opereta za kimantiki zinavyofanya kazi
 challengeType: 19
 dashedName: how-do-conditional-statements-and-logical-operators-work
 ---
 
 # --description--
 
-Conditional statements, or conditionals, let you control the flow of your program based on whether certain conditions are true or false.
+Taarifa za masharti, au masharti, hukuruhusu kudhibiti mtiririko wa programu yako kulingana na kama masharti fulani ni kweli au si kweli.
 
-But before we get into all that, let's go over the basic building blocks of conditional statements, starting with comparison operators. Comparison operators are operators that let you compare two or more values, and return a boolean value.
+Lakini kabla hatujaingia katika yote hayo, hebu tuangalie vipengele vya msingi vya taarifa za masharti, kuanzia na opereta za kulinganisha. Opereta za kulinganisha ni opereta zinazokuruhusu kulinganisha thamani mbili au zaidi, na kurudisha thamani ya thamani ya kweli au siyo kweli.
 
-In a previous lesson, you learned that booleans are one of the data types in Python, and can only be `True` or `False`.
+Katika funzo lililopita, ulijifunza kwamba thamani za kweli au siyo kweli ni mojawapo ya aina za data katika Python, na zinaweza kuwa tu `True` au `False`.
 
-Here's a table with the comparison operators in Python:
+Hapa kuna jedwali lenye opereta za kulinganisha katika Python:
 
-| Operator | Name                  | Description                                                                        |
-| -------- | --------------------- | ---------------------------------------------------------------------------------- |
-| `==`     | Equal                 | Checks if two values are equal                                                     |
-| `!=`     | Not equal             | Checks if two values are not equal                                                 |
-| `>`   | Greater than          | Checks if the value on the left is greater than the value on the right             |
-| `<`   | Less than             | Checks if the value on the left is less than the value on the right                |
-| `>=`  | Greater than or equal | Checks if the value on the left is greater than or equal to the value on the right |
-| `<=`  | Less than or equal    | Checks if the value on the left is less than or equal to the value on the right    |
+| Operator | Jina | Maelezo |
+| --- | --- | --- |
+| `==` | Sawa | Hukagua kama thamani mbili ni sawa |
+| `!=` | Sio sawa | Hukagua kama thamani mbili si sawa |
+| `>` | Kubwa kuliko | Hukagua kama thamani upande wa kushoto ni kubwa kuliko thamani upande wa kulia |
+| `<` | Ndogo kuliko | Hukagua kama thamani upande wa kushoto ni ndogo kuliko thamani upande wa kulia |
+| `>=` | Kubwa kuliko au sawa na | Hukagua kama thamani upande wa kushoto ni kubwa kuliko au sawa na thamani upande wa kulia |
+| `<=` | Ndogo kuliko au sawa na | Hukagua kama thamani upande wa kushoto ni ndogo kuliko au sawa na thamani upande wa kulia |
 
-Here are some of those expressions that evaluate to `True` or `False`:
+Hapa kuna baadhi ya usemi wa kihesabu unaotathmini kuwa `True` au `False`:
 
 ```python
 print(3 > 4) # False
@@ -36,24 +36,24 @@ print(3 >= 4) # False
 print(3 <= 4) # True
 ```
 
-These operators can be used in conditionals to compare values and run certain code based on whether the conditional evaluates to `True` or `False`.
+Opereta hizi zinaweza kutumika katika masharti kulinganisha thamani na kuendesha msimbo fulani kulingana na kama taarifa ya masharti inatathmini kuwa `True` au `False`.
 
-In Python, the most basic conditional is the `if` statement. Here's the basic syntax:
+Katika Python, taarifa ya masharti ya msingi kabisa ni taarifa ya `if`. Hapa ni sintaksia ya msingi:
 
 ```python
 if condition:
     pass # Code to execute if condition is True
 ```
 
-* `if` statements start with the `if` keyword.
+* Taarifa za `if` huanza na neno kuu la `if`.
+    
+* `condition` ni usemi wa kihesabu unaotathmini kuwa `True` au `False`, ukifuatiwa na nukta mbili (`:`).
 
-* `condition` is an expression that evaluates to `True` or `False`, followed by a colon (`:`).
+* Mwili wa taarifa ya `if` ni kundi la taarifa zinazohusiana pamoja. Katika Python, kiwango cha kuingizwa (indentation) ndicho kinachobainisha kundi la msimbo.
+    
+Katika mfano hapo juu, mwili wa taarifa ya `if` una taarifa ya `pass`. Wakati taarifa ya `pass` inatekelezwa, hakuna kinachotokea. Hili ni neno kuu maalum linaloweza kutumika kama kiwakilishi cha msimbo wa baadaye na ni muhimu wakati mabano ya msimbo tupu hayaruhusiwi.
 
-* The body of the `if` statement constitutes a <dfn>code block</dfn>, which is a group of statements that belong together. In Python, the level of indentation is what defines a code block.
-
-In the example above, the body of the `if` statement contains a `pass` statement. When a `pass` statement is executed, nothing happens. This is a special keyword that can be used as a placeholder for future code and it is useful when empty code blocks are not allowed.
-
-The code within the body of the `if` statement runs only when the condition evaluates to `True`. For example:
+Msimbo ndani ya mwili wa taarifa ya `if` unatekelezwa tu wakati hali inapotathminiwa kuwa `True`. Kwa mfano:
 
 ```python
 age = 18
@@ -62,9 +62,9 @@ if age >= 18:
     print('You are an adult') # You are an adult
 ```
 
-Notice the indentation before `print('You are an adult')`. While other programming languages use characters like curly braces to define code blocks, and just use indentation for readability, in Python, code blocks are determined by indentation.
+Angalia kuingizwa kabla ya `print('You are an adult')`. Wakati lugha nyingine za programu hutumia herufi kama mabano ya mviringo kuainisha mabano ya msimbo, na hutumia kuingizwa tu kwa ajili ya urahisi wa kusoma, katika Python mabano ya msimbo huamuliwa kwa kuingizwa.
 
-The following code would raise an `IndentationError`, which is Python's way to signal that indentation is required at a certain point of the code:
+Msimbo ufuatao ungeleta `IndentationError`, ambayo ni njia ya Python kuashiria kwamba kuingizwa kunahitajika sehemu fulani ya msimbo:
 
 ```py
 age = 18
@@ -73,11 +73,11 @@ if age >= 18:
 print('You are an adult') # IndentationError: expected an indented block after 'if' statement on line 3
 ```
 
-Though you can use any number spaces (as long as you are consistent) to determine each level of indentation, the Python style guide recommends using four spaces.
+Ingawa unaweza kutumia idadi yoyote ya nafasi (mradi tu unakuwa thabiti) kuamua kila kiwango cha kuingizwa, mwongozo wa mtindo wa Python unashauri kutumia nafasi nne.
 
-Blocks are also found in loops and functions, which you'll learn about in future lessons.
+Mabano pia hupatikana katika mizunguko na vitendakazi, ambavyo utajifunza kuhusu katika masomo yajayo.
 
-Going back to our example, if `age` is anything less than `18`, nothing is printed in the terminal:
+Kurudi kwenye mfano wetu, ikiwa `age` ni chochote chini ya `18`, hakuna kinachochapishwa kwenye terminali:
 
 ```python
 age = 12
@@ -86,7 +86,7 @@ if age >= 18:
     print('You are an adult') # Nothing shows up in the terminal
 ```
 
-But what if you also want to print something if `age` is less than `18`? That's where the `else` clause comes in. The `else` clause runs when the `if` condition is false. Here's the syntax for an `if…else` statement:
+Lakini vipi ikiwa pia unataka kuchapisha kitu ikiwa `age` ni chini ya `18`? Hapo ndipo kifungu cha `else` kinapoingia. Kifungu cha `else` hufanya kazi wakati hali ya `if` ni si kweli. Hapa ni sintaksia ya taarifa ya `if…else`:
 
 ```python
 if condition:
@@ -95,7 +95,7 @@ else:
    pass # Code to execute if condition is False
 ```
 
-For example:
+Kwa mfano:
 
 ```python
 age = 12
@@ -106,7 +106,7 @@ else:
     print('You are not an adult yet') # You are not an adult yet
 ```
 
-Note that you cannot place any statements between the `if` block and the `else` clause. The following code would raise a `SyntaxError`:
+Kumbuka huwezi kuweka taarifa yoyote kati ya block ya `if` na kifungu cha `else`. Msimbo ufuatao ungeleta `SyntaxError`:
 
 ```python
 age = 12
@@ -118,9 +118,9 @@ else: # SyntaxError: invalid syntax
     print('You are not an adult yet')
 ```
 
-There might be situations in which you want to account for multiple conditions. To do that, Python lets you extend your if statement with the `elif` (else if) keyword.
+Huenda kuna hali ambapo unataka kuzingatia masharti mengi. Ili kufanya hivyo, Python inakuwezesha kuongeza taarifa yako ya if kwa neno kuu la `elif` (else if).
 
-Here's the syntax:
+Hapa ni sintaksia:
 
 ```python
 if condition1:
@@ -131,7 +131,7 @@ else:
    pass # Code to execute if all conditions are False
 ```
 
-For example:
+Kwa mfano:
 
 ```python
 age = 12
@@ -144,7 +144,7 @@ else:
     print('You are a child') # You are a child
 ```
 
-Note that you can use as many `elif` clauses as you want:
+Kumbuka unaweza kutumia vifungu vya `elif` kadri unavyotaka:
 
 ```python
 age = 2
@@ -163,41 +163,41 @@ else:
     print('You are a toddler or an infant') # You are a toddler or an infant
 ```
 
-Now that you understand how comparison operators and conditional statements work in Python, you can start writing programs that make decisions based on logic and input. Whether you’re comparing values or branching through multiple conditions, these tools are the foundation to writing flexible, responsive code.
+Sasa unapoelewa jinsi opereta za kulinganisha na taarifa za masharti zinavyofanya kazi katika Python, unaweza kuanza kuandika programu zinazofanya maamuzi kulingana na mantiki na ingizo. Iwe unalinganisha thamani au kuzunguka kupitia masharti mengi, zana hizi ni msingi wa kuandika msimbo unaojibadilisha kulingana na kifaa. 
 
 # --questions--
 
 ## --text--
 
-What do comparison operators do?
+Opereta za kulinganisha hufanya nini?
 
 ## --answers--
 
-Perform mathematical calculations with boolean values
+Fanya mahesabu ya kihesabu na thamani za boolean
 
 ### --feedback--
 
-These operators check things like equality or which value is greater, and the result is either `True` or `False`.
+Opereta hizi hukagua mambo kama usawa au ni thamani gani kubwa zaidi, na matokeo ni `True` au `False`.
 
 ---
 
-Convert strings to boolean values.
+Badilisha mfuatano wa herufi kuwa thamani za boolean.
 
 ### --feedback--
 
-These operators check things like equality or which value is greater, and the result is either `True` or `False`.
+Opereta hizi hukagua mambo kama usawa au ni thamani gani kubwa zaidi, na matokeo ni `True` au `False`.
 
 ---
 
-Compare two values and return a boolean value.
+Linganishwa thamani mbili na kurudisha thamani ya thamani ya kweli au siyo kweli.
 
 ---
 
-Create loops and iterations.
+Tengeneza mizunguko na marudio.
 
 ### --feedback--
 
-These operators check things like equality or which value is greater, and the result is either `True` or `False`.
+Opereta hizi hukagua mambo kama usawa au ni thamani gani kubwa zaidi, na matokeo ni `True` au `False`.
 
 ## --video-solution--
 
@@ -205,7 +205,7 @@ These operators check things like equality or which value is greater, and the re
 
 ## --text--
 
-What will be the result for the following code?
+Matokeo ya msimbo ufuatao yatakuwa yapi?
 
 ```python
 age = 12
@@ -220,31 +220,31 @@ else:
 
 ## --answers--
 
-`You are an adult` will be printed to the console.
+`You are an adult` itachapishwa kwenye konsoli.
 
 ### --feedback--
 
-Review the last part of the lesson for the correct answer.
+Kagua sehemu ya mwisho ya funzo kwa jibu sahihi.
 
 ---
 
-`You are a teenager` will be printed to the console.
+`You are a teenager` itachapishwa kwenye konsoli.
 
 ### --feedback--
 
-Review the last part of the lesson for the correct answer.
+Kagua sehemu ya mwisho ya funzo kwa jibu sahihi.
 
 ---
 
-`You are a child` will be printed to the console.
+`You are a child` itachapishwa kwenye konsoli.
 
 ---
 
-An error will be printed to the console.
+Hitilafu itachapishwa kwenye konsoli.
 
 ### --feedback--
 
-Review the last part of the lesson for the correct answer.
+Kagua sehemu ya mwisho ya funzo kwa jibu sahihi.
 
 ## --video-solution--
 
@@ -252,7 +252,7 @@ Review the last part of the lesson for the correct answer.
 
 ## --text--
 
-What will the expression `3 >= 4` evaluate to?
+Usemi wa kihesabu `3 >= 4` utatathminiwa kuwa nini?
 
 ## --answers--
 
@@ -260,7 +260,7 @@ What will the expression `3 >= 4` evaluate to?
 
 ### --feedback--
 
-3 is not greater than or equal to 4.
+3 si kubwa kuliko au sawa na 4.
 
 ---
 
@@ -268,7 +268,7 @@ What will the expression `3 >= 4` evaluate to?
 
 ### --feedback--
 
-3 is not greater than or equal to 4.
+3 si kubwa kuliko au sawa na 4.
 
 ---
 
@@ -276,7 +276,7 @@ What will the expression `3 >= 4` evaluate to?
 
 ### --feedback--
 
-3 is not greater than or equal to 4.
+3 si kubwa kuliko au sawa na 4.
 
 ---
 

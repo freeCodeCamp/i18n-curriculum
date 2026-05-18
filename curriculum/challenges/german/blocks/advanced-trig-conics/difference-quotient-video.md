@@ -1,6 +1,6 @@
 ---
 id: 699e8ca68f18cf77dfce5c27
-title: Difference Quotient
+title: Differenzenquotient
 challengeType: 11
 videoId: D5ajV73gC1k
 dashedName: difference-quotient
@@ -8,29 +8,29 @@ dashedName: difference-quotient
 
 # --description--
 
-In this video, you will learn about the difference quotient.
+In diesem Video lernen Sie den Differenzenquotienten kennen.
 
 # --questions--
 
 ## --text--
 
-What is a secant line?
+Was ist eine Sekante?
 
 ## --answers--
 
-A line that is always parallel to the x-axis.
+Eine Linie, die immer parallel zur x-Achse verläuft.
 
 ---
 
-A vertical line that intersects the y-axis.
+Eine vertikale Linie, die die y-Achse schneidet.
 
 ---
 
-A line that stretches between two points on the graph of a function.
+Eine Linie, die sich zwischen zwei Punkten im Graphen einer Funktion erstreckt.
 
 ---
 
-A line that touches the graph of a function at exactly one point.
+Eine Linie, die den Graphen einer Funktion genau an einem Punkt berührt.
 
 ## --video-solution--
 

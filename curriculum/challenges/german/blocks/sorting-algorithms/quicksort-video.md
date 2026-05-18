@@ -8,13 +8,13 @@ dashedName: quicksort
 
 # --description--
 
-In this video, you will learn how the quicksort algorithm works.
+In diesem Video lernen Sie, wie der Quicksort-Algorithmus funktioniert.
 
 # --questions--
 
 ## --text--
 
-Which technique is used in the quicksort algorithm?
+Welche Technik wird im Quicksort-Algorithmus verwendet?
 
 ## --answers--
 

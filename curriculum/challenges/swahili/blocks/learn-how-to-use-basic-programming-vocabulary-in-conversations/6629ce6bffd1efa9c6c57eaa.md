@@ -1,6 +1,6 @@
 ---
 id: 6629ce6bffd1efa9c6c57eaa
-title: Task 1
+title: Zoezi la 1
 challengeType: 22
 dashedName: task-1
 lang: en-US
@@ -10,9 +10,9 @@ lang: en-US
 
 # --description--
 
-The phrase `how's it going?` is a common way to ask someone how they are or what's happening in their life. It's often used as a friendly greeting.
+Usemi `how's it going?` ni njia ya kawaida ya kumuuliza mtu hali yake au kinachoendelea katika maisha yake. Mara nyingi hutumika kama salamu ya kirafiki.
 
-For example, when you see an old friend, you may say `Hey, how's it going? I haven't seen you for a while!` This is a casual way to ask them about their life. If you want to ask them about a specific thing, like their new job, you can say `How's it going with your new job?`
+Kwa mfano, unapoona rafiki wa zamani, unaweza kusema `Hey, how's it going? I haven't seen you for a while!` Hii ni njia ya kawaida ya kumuuliza kuhusu maisha yake. Ikiwa unataka kumuuliza kuhusu jambo maalum, kama kazi yake mpya, unaweza kusema `How's it going with your new job?`
 
 # --fillInTheBlank--
 
@@ -26,7 +26,7 @@ For example, when you see an old friend, you may say `Hey, how's it going? I hav
 
 ### --feedback--
 
-This contraction is commonly used in informal greetings. Capitalize the first word.
+Kifupisho hiki hutumika sana katika salamu zisizo rasmi. Andika herufi kubwa kwa neno la kwanza.
 
 ---
 
@@ -34,7 +34,7 @@ This contraction is commonly used in informal greetings. Capitalize the first wo
 
 ### --feedback--
 
-This word completes the common informal greeting asking about someone's general state.
+Neno hili linakamilisha salamu ya kawaida isiyo rasmi inayouliza kuhusu hali ya mtu kwa ujumla.
 
 # --scene--
 

@@ -1,25 +1,25 @@
 ---
 id: 65823bbbdb4eaa4f9d20a0fb
-title: Step 25
+title: Schritt 25
 challengeType: 20
 dashedName: step-25
 ---
 
 # --description--
 
-In the `total_expenses` function, you'll now integrate a lambda function. Replace `pass` with a lambda function that has `expense` as its parameter.
+In der `total_expenses`-Funktion integrieren Sie jetzt eine Lambda-Funktion. Ersetzen Sie `pass` durch eine Lambda-Funktion, die `expense` als Parameter hat.
 
-`expense` is expected to be a dictionary, and your lambda function should return the value of the `'amount'` key in the `expense` dictionary.
+`expense` soll ein Wörterbuch sein, und Ihre Lambda-Funktion soll den Wert des Schlüssels `'amount'` im Wörterbuch `expense` zurückgeben.
 
 # --hints--
 
-You should create a `lambda` function that uses the parameter `expense` and returns `expense['amount']` in your `total_expenses` function.
+Sie sollten eine `lambda`-Funktion erstellen, die den Parameter `expense` verwendet und `expense['amount']` in Ihrer `total_expenses`-Funktion zurückgibt.
 
 ```js
 ({ test: () => assert(runPython(`_Node(_code).find_function("total_expenses").has_stmt("lambda expense: expense['amount']")`)) })
 ```
 
-You should not have `pass` in your `total_expenses` function.
+Sie sollten kein `pass` in Ihrer `total_expenses`-Funktion haben.
 
 ```js
 ({ test: () => assert.isFalse(runPython(`_Node(_code).find_function("total_expenses").has_pass()`)) })
@@ -32,11 +32,11 @@ You should not have `pass` in your `total_expenses` function.
 ```py
 def add_expense(expenses, amount, category):
     expenses.append({'amount': amount, 'category': category})
-
+    
 def print_expenses(expenses):
     for expense in expenses:
         print(f'Amount: {expense["amount"]}, Category: {expense["category"]}')
-
+    
 --fcc-editable-region--
 def total_expenses(expenses):
     pass

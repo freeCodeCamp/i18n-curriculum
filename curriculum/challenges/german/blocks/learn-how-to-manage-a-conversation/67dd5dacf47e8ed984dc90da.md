@@ -12,13 +12,13 @@ lang: en-US
 
 # --instructions--
 
-Höre dir die Audio an und beantworte die Frage unten.
+Hören Sie sich die Audioaufnahme an und beantworten Sie die folgende Frage.
 
 # --questions--
 
 ## --text--
 
-How could Alice answer briefly that there is no decision concerning the deadline at the moment?
+Wie könnte Alice kurz antworten, dass es momentan keine Entscheidung bezüglich der Frist gibt?
 
 ## --answers--
 
@@ -38,7 +38,7 @@ EN391abad4
 
 ### --feedback--
 
-This doesn't relate to the question about setting the deadline.
+Das steht nicht im Zusammenhang mit der Frage zur Festlegung der Frist.
 
 ## --video-solution--
 
@@ -46,11 +46,11 @@ This doesn't relate to the question about setting the deadline.
 
 # --explanation--
 
-`Not yet` is a short and natural way to say that something hasn't happened or been completed up to the present moment, but it may happen in the future. Zum Beispiel:
+`Not yet` ist eine kurze und natürliche Art zu sagen, dass etwas bis zum jetzigen Zeitpunkt nicht passiert oder abgeschlossen ist, aber in der Zukunft passieren kann. Zum Beispiel:
 
-- **Manager:** `Have you sent the email?` - Here, the person is asking about an email that should be sent.
+- **Manager:** `Have you sent the email?` – Hier fragt die Person nach einer E-Mail, die gesendet werden sollte.
 
-- **Employee:** `Not yet.` – This means the email hasn't been sent, but that the person still plans to send it.
+- **Mitarbeiter:** `Not yet.` – Das bedeutet, die E-Mail wurde noch nicht gesendet, aber die Person plant es noch.
 
 # --scene--
 

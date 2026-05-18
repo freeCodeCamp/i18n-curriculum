@@ -1,6 +1,6 @@
 ---
 id: bd7178d8c242eddfaeb5bd13
-title: Build a Scatterplot Graph
+title: Streudiagramm erstellen
 challengeType: 25
 dashedName: build-a-scatterplot-graph
 demoType: onClick
@@ -8,31 +8,31 @@ demoType: onClick
 
 # --description--
 
-In this project you will use the data from `https://cdn.freecodecamp.org/curriculum/labs/data/scatterplot/cyclist-data.json` to build a scatterplot graph.
+In diesem Projekt verwenden Sie die Daten aus `https://cdn.freecodecamp.org/curriculum/labs/data/scatterplot/cyclist-data.json`, um ein Streudiagramm zu erstellen.
 
-The tests require axes to be generated using the D3 axis property, which automatically generates ticks along the axis. These ticks are required for passing the D3 tests because their positions are used to determine alignment of graphed elements.
+Die Tests erfordern, dass die Achsen mit der D3-Achsen-Eigenschaft generiert werden, die automatisch Ticks entlang der Achse erzeugt. Diese Ticks sind für das Bestehen der D3-Tests erforderlich, da ihre Positionen zur Bestimmung der Ausrichtung der dargestellten Elemente verwendet werden.
 
-**Objective:** Fulfill the user stories below and get all the tests to pass to complete the lab.
+**Ziel:** Erfüllen Sie die untenstehenden User Stories und bestehen Sie alle Tests, um das Labor abzuschließen.
 
 **User Stories:**
 
-1. Your chart should have a title with a corresponding `id="title"`.
-1. Your chart should have a `g` element x-axis with a corresponding `id="x-axis"`.
-1. Your chart should have a `g` element y-axis with a corresponding `id="y-axis"`.
-1. Both axes should contain multiple tick labels, each with a corresponding `class="tick"`.
-1. Your chart should have a `circle` element for each data point with a corresponding `class="dot"` displaying the data.
-1. Each `.dot` should have the attributes `data-xvalue` and `data-yvalue` containing `year` and `time` values. For `data-xvalue`, integers (full years) or Date objects are acceptable for test evaluation. For `data-yvalue` (minutes), use Date objects.
-1. The `.dot` elements' `data-xvalue` attributes should match the order of the provided data.
-1. The `.dot` elements' `data-yvalue` attributes should match the order of the provided data.
-1. Each `.dot` element should align with the corresponding value on the x-axis.
-1. Each `.dot` element should align with the corresponding value on the y-axis.
-1. There should be multiple tick labels on the y-axis with `%M:%S` time format.
-1. There should be multiple tick labels on the x-axis that show the year.
-1. The range of the x-axis labels should be within the range of the actual x-axis data.
-1. The range of the y-axis labels should be within the range of the actual y-axis data.
-1. There should be a legend containing descriptive text that has `id="legend"`.
-1. You should be able to mouse over an area and see a tooltip with a corresponding `id="tooltip"` which displays more information about the area.
-1. Your tooltip should have a `data-year` attribute that corresponds to the `data-xvalue` of the active area.
+1. Ihr Diagramm sollte einen Titel mit einer entsprechenden `id="title"` haben.
+1. Ihr Diagramm sollte eine `g`-Element x-Achse mit einer entsprechenden `id="x-axis"` haben.
+1. Ihr Diagramm sollte eine `g`-Element y-Achse mit einer entsprechenden `id="y-axis"` haben.
+1. Beide Achsen sollten mehrere Tick-Bezeichnungen enthalten, jeweils mit einer entsprechenden `class="tick"`.
+1. Ihr Diagramm sollte für jeden Datenpunkt ein `circle`-Element mit einer entsprechenden `class="dot"` haben, die die Daten anzeigt.
+1. Jedes `.dot` sollte die Attribute `data-xvalue` und `data-yvalue` mit `year`- und `time`-Werten enthalten. Für `data-xvalue` sind ganze Zahlen (vollständige Jahre) oder Datumsobjekte für die Testauswertung akzeptabel. Für `data-yvalue` (Minuten) verwenden Sie Datumsobjekte.
+1. Die `.dot`-Elemente sollten `data-xvalue`-Attribute haben, die der Reihenfolge der bereitgestellten Daten entsprechen.
+1. Die `.dot`-Elemente sollten `data-yvalue`-Attribute haben, die der Reihenfolge der bereitgestellten Daten entsprechen.
+1. Jedes `.dot`-Element sollte mit dem entsprechenden Wert auf der x-Achse ausgerichtet sein.
+1. Jedes `.dot`-Element sollte mit dem entsprechenden Wert auf der y-Achse ausgerichtet sein.
+1. Auf der y-Achse sollten mehrere Tick-Bezeichnungen im `%M:%S`-Zeitformat vorhanden sein.
+1. Auf der x-Achse sollten mehrere Tick-Bezeichnungen vorhanden sein, die das Jahr anzeigen.
+1. Der Bereich der x-Achsen-Beschriftungen sollte innerhalb des Bereichs der tatsächlichen x-Achsen-Daten liegen.
+1. Der Bereich der y-Achsen-Beschriftungen sollte innerhalb des Bereichs der tatsächlichen y-Achsen-Daten liegen.
+1. Es sollte eine Legende mit beschreibendem Text geben, der `id="legend"` enthält.
+1. Sie sollten mit der Maus über einen Bereich fahren können und einen Tooltip mit einer entsprechenden `id="tooltip"` sehen, der weitere Informationen über den Bereich anzeigt.
+1. Ihr Tooltip sollte ein `data-year`-Attribut haben, das dem `data-xvalue` des aktiven Bereichs entspricht.
 
 # --before-all--
 
@@ -633,13 +633,13 @@ const timeout = (milliseconds) =>
 
 # --hints--
 
-The chart should have an element with the `id` of `title` to contain the title.
+Das Diagramm sollte ein Element mit der `id` von `title` enthalten, um den Titel aufzunehmen.
 
 ```js
 assert.exists(document.getElementById('title'));
 ```
 
-The chart should have an `x-axis` with a corresponding `id="x-axis"`.
+Das Diagramm sollte eine `x-axis` mit einer entsprechenden `id="x-axis"` enthalten.
 
 ```js
 assert.isNotNull(
@@ -649,7 +649,7 @@ assert.isNotNull(
 assert.isNotEmpty(document.querySelectorAll('g#x-axis'));
 ```
 
-The chart should have a `y-axis` with a corresponding `id="y-axis"`.
+Das Diagramm sollte eine `y-axis` mit einer entsprechenden `id="y-axis"` enthalten.
 
 ```js
 assert.isNotNull(
@@ -659,25 +659,25 @@ assert.isNotNull(
 assert.isNotEmpty(document.querySelectorAll('g#y-axis'));
 ```
 
-The x axis should contain multiple tick labels, each with the corresponding `class="tick"`.
+Die x-Achse sollte mehrere Tick-Bezeichnungen enthalten, jeweils mit der entsprechenden `class="tick"`.
 
 ```js
 assert.isNotEmpty(document.querySelectorAll('#x-axis .tick'));
 ```
 
-The y axis should contain multiple tick labels, each with the corresponding `class="tick"`.
+Die y-Achse sollte mehrere Tick-Bezeichnungen enthalten, jeweils mit der entsprechenden `class="tick"`.
 
 ```js
 assert.isNotEmpty(document.querySelectorAll('#y-axis .tick'));
 ```
 
-Your chart should have dots, that each have a class of `dot`, which represent the data being plotted.
+Ihr Diagramm sollte Punkte haben, die jeweils eine Klasse von `dot` haben und die dargestellten Daten repräsentieren.
 
 ```js
 assert.isNotEmpty(document.querySelectorAll('circle.dot'));
 ```
 
-Each dot should have the properties `data-xvalue` and `data-yvalue` containing their corresponding x and y values.
+Jeder Punkt sollte die Eigenschaften `data-xvalue` und `data-yvalue` mit den entsprechenden x- und y-Werten haben.
 
 ```js
 const dots = document.getElementsByClassName('dot');
@@ -696,7 +696,7 @@ for (let i = 0; i < dots.length; i++) {
 }
 ```
 
-The `data-xvalue` and `data-yvalue` of each dot should be within the range of the actual data and in the correct data format. For `data-xvalue`, integers (full years) or Date objects are acceptable for test evaluation. For `data-yvalue` (minutes), use Date objects.
+Die `data-xvalue` und `data-yvalue` jedes Punktes sollten innerhalb des Bereichs der tatsächlichen Daten und im korrekten Datenformat liegen. Für `data-xvalue` sind ganze Zahlen (vollständige Jahre) oder Datumsobjekte für die Testauswertung akzeptabel. Für `data-yvalue` (Minuten) verwenden Sie Datumsobjekte.
 
 ```js
 const years = cyclistDataJson.map(d => d.Year);
@@ -740,7 +740,7 @@ dots.forEach((dot) => {
 });
 ```
 
-The `data-xvalue` and its corresponding dot should align with the corresponding point/value on the x-axis.
+Die `data-xvalue` und der entsprechende Punkt sollten mit dem entsprechenden Punkt/Wert auf der x-Achse ausgerichtet sein.
 
 ```js
 const axis = document.querySelector('#x-axis');
@@ -767,7 +767,7 @@ assert.isTrue(
 );
 ```
 
-The `data-yvalue` and its corresponding dot should align with the corresponding point/value on the y-axis.
+Die `data-yvalue` und der entsprechende Punkt sollten mit dem entsprechenden Punkt/Wert auf der y-Achse ausgerichtet sein.
 
 ```js
 const axis = document.querySelector('#y-axis');
@@ -794,7 +794,7 @@ assert.isTrue(
 );
 ```
 
-You can see multiple tick labels on the y-axis with `%M:%S` time format.
+Sie können mehrere Tick-Bezeichnungen auf der y-Achse im `%M:%S`-Zeitformat sehen.
 
 ```js
 const yAxisTickLabels = document.querySelectorAll('#y-axis .tick');
@@ -809,7 +809,7 @@ yAxisTickLabels.forEach((label) => {
 });
 ```
 
-You can see multiple tick labels on the x-axis that show the year.
+Sie können mehrere Tick-Bezeichnungen auf der x-Achse sehen, die das Jahr anzeigen.
 
 ```js
 const xAxisTickLabels = document.querySelectorAll('#x-axis .tick');
@@ -824,7 +824,7 @@ xAxisTickLabels.forEach((label) => {
 });
 ```
 
-The range of the x-axis labels are within the range of the actual x-axis data.
+Der Bereich der x-Achsen-Beschriftungen liegt innerhalb des Bereichs der tatsächlichen x-Achsen-Daten.
 
 ```js
 const xAxisTickLabels = document.querySelectorAll('#x-axis .tick');
@@ -848,7 +848,7 @@ xAxisTickLabels.forEach((label) => {
 });
 ```
 
-The range of the y-axis labels are within the range of the actual y-axis data.
+Der Bereich der y-Achsen-Beschriftungen liegt innerhalb des Bereichs der tatsächlichen y-Achsen-Daten.
 
 ```js
 const yAxisTickLabels = document.querySelectorAll('#y-axis .tick');
@@ -882,7 +882,7 @@ yAxisTickLabels.forEach((label) => {
 });
 ```
 
-You can see a legend containing descriptive text that has `id="legend"`.
+Sie können eine Legende mit beschreibendem Text sehen, der `id="legend"` enthält.
 
 ```js
 assert.isNotNull(document.getElementById('legend'));
@@ -896,7 +896,7 @@ if (document.querySelector('#legend text') !== null) {
 assert.isNotNull(legendText, 'The legend should contain text');
 ```
 
-When hovering over an area your scatter plot should have a tooltip with a corresponding `id="tooltip"` which displays more information about the area.
+Wenn Sie mit der Maus über einen Bereich fahren, sollte Ihr Streudiagramm einen Tooltip mit einer entsprechenden `id="tooltip"` haben, der weitere Informationen über den Bereich anzeigt.
 
 ```js
 const areas = document.querySelectorAll('.dot');
@@ -940,7 +940,7 @@ assert.isTrue(
 );
 ```
 
-The tooltip should have a `data-year` attribute that corresponds to the `data-xvalue` of the active area.
+Der Tooltip sollte ein `data-year`-Attribut haben, das dem `data-xvalue` des aktiven Bereichs entspricht.
 
 ```js
 const areas = document.querySelectorAll('.dot');
@@ -970,7 +970,7 @@ try {
 
   const tooltipYear = tooltip.getAttribute('data-year');
   const areaYear = new Date(randomArea.getAttribute('data-xvalue')).getFullYear();
-
+  
   assert.equal(
     tooltipYear,
     areaYear,

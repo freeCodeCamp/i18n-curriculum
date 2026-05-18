@@ -1,6 +1,6 @@
 ---
 id: 8ad37ddb7a23050f71cc9cc9
-title: Working with Numbers
+title: Kufanya kazi na nambari
 challengeType: 11
 videoId: C7sxe5GAArQ
 dashedName: working-with-numbers
@@ -8,13 +8,13 @@ dashedName: working-with-numbers
 
 # --description--
 
-In this video, you will learn how to work with basic arithmetic operations and built-in number functions.
+Katika video hii, utafundishwa jinsi ya kufanya kazi na operesheni za kihesabu za msingi na kitendakazi cha nambari kilichojengwa ndani. 
 
 # --questions--
 
 ## --text--
 
-Which of the following built-in functions is used to return the base number raised to a power?
+Ni kitendakazi gani kati ya vifuatavyo kilichojengwa ndani kinachotumika kurudisha nambari msingi iliyoinuliwa kwa nguvu?
 
 ## --answers--
 

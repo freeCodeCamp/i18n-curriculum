@@ -1,6 +1,6 @@
 ---
 id: 699e78348f18cf77dfce5c1b
-title: Proof of the Angle Sum Formulas
+title: Beweis der Winkelsummenformeln
 challengeType: 11
 videoId: lSJAegqvosg
 dashedName: proof-of-the-angle-sum-formulas
@@ -8,13 +8,13 @@ dashedName: proof-of-the-angle-sum-formulas
 
 # --description--
 
-In this video, you will learn about the proof of the angle sum formulas.
+In diesem Video lernen Sie den Beweis der Winkelsummenformeln kennen.
 
 # --questions--
 
 ## --text--
 
-What is the angle sum formula for sine?
+Wie lautet die Winkelsummenformel für den Sinus?
 
 ## --answers--
 

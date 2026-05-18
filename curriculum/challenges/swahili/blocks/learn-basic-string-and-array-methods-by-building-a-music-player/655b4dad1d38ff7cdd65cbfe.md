@@ -1,40 +1,40 @@
 ---
 id: 655b4dad1d38ff7cdd65cbfe
-title: Hatua ya 99
+title: Hatua 99
 challengeType: 0
 dashedName: step-99
 ---
 
 # --description--
 
-With everything set in place, call the `pauseSong()`, `setPlayerDisplay()`, `highlightCurrentSong()`, and `setPlayButtonAccessibleText()` functions to correctly update the player.
+Kwa kila kitu kikiwa kimewekwa mahali pake, fanya wito wa vitendakazi vya `pauseSong()`, `setPlayerDisplay()`, `highlightCurrentSong()`, na `setPlayButtonAccessibleText()` ili kusasisha mchezaji kwa usahihi.
 
-Congratulations on completing your music player! Now that we've finished testing and using the shorter songs, we've replaced them with the original tracks specially selected by Quincy for you to enjoy.
+Hongera kwa kumaliza mchezaji wako wa muziki! Sasa tumeisha kujaribu na kutumia nyimbo fupi, tumezibadilisha na nyimbo asilia zilizochaguliwa mahsusi na Quincy ili ufurahie.
 
 # --hints--
 
-You should call the `pauseSong` function.
+Unapaswa kufanya wito wa kitendakazi cha `pauseSong`.
 
 ```js
 const splitter = code.split('audio.addEventListener("ended", () => {')
 assert.match(splitter[1], /pauseSong\(\s*\)\s*;?/)
 ```
 
-You should call the `setPlayerDisplay` function.
+Unapaswa kufanya wito wa kitendakazi cha `setPlayerDisplay`.
 
 ```js
 const splitter = code.split('audio.addEventListener("ended", () => {')
 assert.match(splitter[1], /setPlayerDisplay\(\s*\)\s*;?/)
 ```
 
-You should call the `highlightCurrentSong` function.
+Unapaswa kufanya wito wa kitendakazi cha `highlightCurrentSong`.
 
 ```js
 const splitter = code.split('audio.addEventListener("ended", () => {')
 assert.match(splitter[1], /highlightCurrentSong\(\s*\)\s*;?/)
 ```
 
-You should call the `setPlayButtonAccessibleText` function.
+Unapaswa kufanya wito wa kitendakazi cha `setPlayButtonAccessibleText`.
 
 ```js
 const splitter = code.split('audio.addEventListener("ended", () => {')
@@ -649,7 +649,7 @@ const playSong = (id) => {
 
 const pauseSong = () => {
   userData.songCurrentTime = audio.currentTime;
-
+  
   playButton.classList.remove("playing");
   audio.pause();
 };
@@ -1436,7 +1436,7 @@ const playSong = (id) => {
 
 const pauseSong = () => {
   userData.songCurrentTime = audio.currentTime;
-
+  
   playButton.classList.remove("playing");
   audio.pause();
 };

@@ -1,6 +1,6 @@
 ---
 id: 69399bbb6d7a7bfeedaddd96
-title: Task 13
+title: Zoezi la 13
 challengeType: 22
 dashedName: task-13
 lang: es
@@ -10,17 +10,17 @@ lang: es
 
 # --description--
 
-The verb `escribir` means "to write". When Spanish speakers want to explain how a word is written or spelled, they often use the expression `se escribe`.
+Kitenzi `escribir` kinamaanisha "kuandika". Wazungumzaji wa Kihispania wanapotaka kueleza jinsi neno linaandikwa au kuandikwa herufi kwa herufi, mara nyingi hutumia usemi wa kihesabu `se escribe`.
 
-This form comes from the verb `escribir` and is commonly used before spelling names, emails, or other words letter by letter. For example:
+Fomu hii inatokana na kitenzi `escribir` na hutumika sana kabla ya kuandika majina, barua pepe, au maneno mengine herufi kwa herufi. Kwa mfano:
 
-- `Carlos se escribe C-a-r-l-o-s.` – Carlos is spelled C-a-r-l-o-s.
+- `Carlos se escribe C-a-r-l-o-s.` – Carlos huandikwa C-a-r-l-o-s.
 
-- `Mi apellido se escribe con z.` – My last name is spelled with z.
+- `Mi apellido se escribe con z.` – Jina langu la mwisho huandikwa kwa herufi z.
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Sikiliza sauti na ukamilishe sentensi iliyo hapa chini.
 
 # --fillInTheBlank--
 
@@ -38,7 +38,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This small word is part of a common expression used when explaining how something is written.
+Neno hili dogo ni sehemu ya usemi wa kawaida unaotumika wakati wa kueleza jinsi kitu kinaandikwa.
 
 ---
 
@@ -46,13 +46,13 @@ This small word is part of a common expression used when explaining how somethin
 
 ### --feedback--
 
-This verb form comes from `escribir` and is used when spelling a word.
+Fomu hii ya kitenzi inatokana na `escribir` na hutumika wakati wa kuandika neno herufi kwa herufi.
 
 # --explanation--
 
-`Se escribe` is used when explaining how a word or name is written.
+`Se escribe` hutumika wakati wa kueleza jinsi neno au jina linaandikwa.
 
-It comes from the verb `escribir` and is commonly used before spelling something letter by letter.
+Inatokana na kitenzi `escribir` na hutumika sana kabla ya kuandika kitu herufi kwa herufi.
 
 # --scene--
 

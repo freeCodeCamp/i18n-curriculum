@@ -1,6 +1,6 @@
 ---
 id: 675e6f0bf7f7eb69ddffef81
-title: Task 68
+title: Zoezi la 68
 challengeType: 22
 dashedName: task-68
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Sikiliza sauti na ukamilishe sentensi iliyo hapa chini.
 
 # --fillInTheBlank--
 
@@ -24,13 +24,13 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This phrase of three words means to solve a problem or deal with a difficult situation.
+Usemi huu wa maneno matatu unamaanisha kutatua tatizo au kushughulikia hali ngumu.
 
 # --explanation--
 
-`Sort this out` means to solve or fix a specific problem. It is a casual way of saying `figure out a solution` or `resolve an issue`. The general phrase `sort out` can also be used more broadly for organizing or dealing with problems. For example:
+`Sort this out` inamaanisha kutatua au kurekebisha tatizo maalum. Ni njia isiyo rasmi ya kusema `figure out a solution` au `resolve an issue`. Usemi wa jumla `sort out` pia unaweza kutumika kwa upana zaidi kwa kupanga au kushughulikia matatizo. Kwa mfano:
 
-`We need to sort out the issues with the payment system before launch.` - It means you need to fix or resolve the problems with the payment system to ensure everything works correctly before launching it.
+`We need to sort out the issues with the payment system before launch.` - Inamaanisha unahitaji kurekebisha au kutatua matatizo ya mfumo wa malipo ili kuhakikisha kila kitu kinafanya kazi vizuri kabla ya kuuzindua.
 
 # --scene--
 

@@ -1,6 +1,6 @@
 ---
 id: bd7123c9c452eddfaeb5bdef
-title: Use Bracket Notation to Find the Nth-to-Last Character in a String
+title: "Klammernotation verwenden, um das n‑letzte Zeichen in einem String zu finden"
 challengeType: 1
 forumTopicId: 18344
 dashedName: use-bracket-notation-to-find-the-nth-to-last-character-in-a-string
@@ -8,34 +8,34 @@ dashedName: use-bracket-notation-to-find-the-nth-to-last-character-in-a-string
 
 # --description--
 
-You can use the same principle we just used to retrieve the last character in a string to retrieve the Nth-to-last character.
+Sie können dasselbe Prinzip verwenden, das wir gerade benutzt haben, um das letzte Zeichen in einem String abzurufen, um das n‑letzte Zeichen zu finden.
 
-For example, you can get the value of the third-to-last letter of the `const firstName = "Augusta"` string by using `firstName[firstName.length - 3]`
+Zum Beispiel können Sie den Wert des drittletzten Buchstabens des `const firstName = "Augusta"` Strings mit `firstName[firstName.length - 3]` erhalten.
 
-Example:
+Beispiel:
 
 ```js
 const firstName = "Augusta";
 const thirdToLastLetter = firstName[firstName.length - 3];
 ```
 
-`thirdToLastLetter` would have a value of the string `s`.
+`thirdToLastLetter` hätte den Wert des Strings `s`.
 
 # --instructions--
 
-Use <dfn>bracket notation</dfn> to find the second-to-last character in the `lastName` string.
+Verwenden Sie <dfn>die Klammernotation</dfn>, um das vorletzte Zeichen im `lastName` String zu finden.
 
-**Hint:** Try looking at the example above if you get stuck.
+**Hinweis:** Schauen Sie sich das obige Beispiel an, wenn Sie nicht weiterkommen.
 
 # --hints--
 
-`secondToLastLetterOfLastName` should be the letter `c`.
+`secondToLastLetterOfLastName` sollte der Buchstabe `c` sein.
 
 ```js
 assert(secondToLastLetterOfLastName === 'c');
 ```
 
-You should use `.length` to get the second last letter.
+Sie sollten `.length` verwenden, um den vorletzten Buchstaben zu erhalten.
 
 ```js
 assert(__helpers.removeJSComments(code).match(/\.length/g).length > 0);

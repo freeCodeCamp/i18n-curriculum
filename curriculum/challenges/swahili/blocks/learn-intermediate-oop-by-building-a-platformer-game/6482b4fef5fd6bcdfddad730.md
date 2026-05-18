@@ -1,19 +1,19 @@
 ---
 id: 6482b4fef5fd6bcdfddad730
-title: Hatua ya 12
+title: Hatua 12
 challengeType: 0
 dashedName: step-12
 ---
 
 # --description--
 
-The next step is to define some characteristics for the main player of the game.
+Hatua inayofuata ni kufafanua baadhi ya sifa za mchezaji mkuu wa mchezo.
 
-Start by creating a new `class` called `Player`.
+Anza kwa kuunda `class` mpya inayoitwa `Player`.
 
 # --hints--
 
-`Player` should be a class.
+`Player` inapaswa kuwa darasa la vitu.
 
 ```js
 assert(
@@ -21,13 +21,13 @@ assert(
 );
 ```
 
-The `class` keyword should be used.
+Neno kuu la `class` linapaswa kutumika.
 
 ```js
 assert.match(code, /^\s*class/m);
 ```
 
-You should create a new class called `Player`
+Unapaswa kuunda darasa la vitu jipya linaloitwa `Player`
 
 ```js
 assert.match(code, /class\s+Player\s*{\s*}\s*/);

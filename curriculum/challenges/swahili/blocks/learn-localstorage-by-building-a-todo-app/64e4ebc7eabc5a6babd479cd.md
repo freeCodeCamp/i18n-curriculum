@@ -1,43 +1,43 @@
 ---
 id: 64e4ebc7eabc5a6babd479cd
-title: Hatua ya 9
+title: Hatua 9
 challengeType: 0
 dashedName: step-9
 ---
 
 # --description--
 
-If the user clicks the `Discard` button, you want to close the modal showing the `Cancel` and `Discard` buttons, then hide the form modal.
+Ikiwa mtumizi atabofya kitufe cha `Discard`, unataka kufunga modal inayonyesha vitufe vya `Cancel` na `Discard`, kisha kuficha modal ya fomu.
 
-Add a click event listener to `discardBtn`, then use the `close()` method on the `confirmCloseDialog` variable. Also, use `classList` to toggle the class `hidden` on `taskForm` so the form modal will close too.
+Ongeza msikilizaji wa tukio la kubofya kwenye `discardBtn`, kisha tumia njia ya `close()` kwenye mabadiliko ya `confirmCloseDialog`. Pia, tumia `classList` kubadili darasa la vitu `hidden` kwenye `taskForm` ili modal ya fomu ifungwe pia.
 
 # --hints--
 
-You should call the `addEventListener()` method on your `discardBtn` variable.
+Unapaswa kuita njia ya `addEventListener()` kwenye mabadiliko yako ya `discardBtn`.
 
 ```js
 assert.match(code, /discardBtn\.addEventListener\(/)
 ```
 
-Your event listener should listen for a `click` event.
+Msikilizaji wako wa tukio unapaswa kusikiliza tukio la `click`.
 
 ```js
 assert.match(code, /discardBtn\.addEventListener\(\s*('|"|`)click\1/)
 ```
 
-You should use arrow syntax to set your event listener to an empty pair of curly braces.
+Unapaswa kutumia sintaksia ya mshale kuweka msikilizaji wako wa tukio kuwa mabano ya mviringo tupu.
 
 ```js
 assert.match(code, /discardBtn\.addEventListener\(\s*('|"|`)click\1\s*,\s*\(\s*\)\s*=>\s*\{/)
 ```
 
-Your event listener should use the `close()` method on `confirmCloseDialog`.
+Msikilizaji wako wa tukio unapaswa kutumia njia ya `close()` kwenye `confirmCloseDialog`.
 
 ```js
 assert.match(code, /discardBtn\.addEventListener\(\s*('|"|`)click\1\s*,\s*\(\s*\)\s*=>\s*\{\s*confirmCloseDialog\.close\(\s*\)\s*;?/)
 ```
 
-Your event listener should use `classList` to toggle the class `hidden` on `taskForm`.
+Msikilizaji wako wa tukio unapaswa kutumia `classList` kubadili darasa la vitu `hidden` kwenye `taskForm`.
 
 ```js
 assert.match(code, /discardBtn\.addEventListener\(\s*('|"|`)click\1\s*,\s*\(\s*\)\s*=>\s*\{\s*confirmCloseDialog\.close\(\s*\)\s*;?\s*taskForm\.classList\.toggle\(\s*('|"|`)hidden\2\s*\)\s*;?\s*\}\s*\)\s*;?/)

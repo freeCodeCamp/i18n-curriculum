@@ -10,7 +10,7 @@ lang: en-US
 
 # --description--
 
-Höre das Audio und vervollständige den Satz.
+Hören Sie sich die Audioaufnahme an und vervollständigen Sie den Satz.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Höre das Audio und vervollständige den Satz.
 
 ### --feedback--
 
-`What` and `is` are in abbreviated form. Remember to capitalize `What`.
+`What` und `is` sind in abgekürzter Form. Denken Sie daran, `What` großzuschreiben.
 
 # --scene--
 

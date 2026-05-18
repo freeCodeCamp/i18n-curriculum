@@ -1,25 +1,25 @@
 ---
 id: 60ffe7d8aae62c05bcc9e7eb
-title: Schitt 58
+title: Schritt 58
 challengeType: 0
 dashedName: step-58
 ---
 
 # --description--
 
-Mit einem `display`, der auf `block` gesetzt ist, liegt der Bestätigungsbutton direkt an der linken Kante des Elternelements.
+Mit einem `display` von `block` sitzt die Absenden-Schaltfläche bündig am linken Rand ihres übergeordneten Elements.
 
-Verwende das gleiche Verfahren, dass beim Zentrieren der `form` verwendet wurde, um den Bestätigungsbutton zu zentrieren.
+Verwenden Sie die gleiche Technik, die zum Zentrieren des `form` verwendet wurde, um die Absenden-Schaltfläche zu zentrieren.
 
 # --hints--
 
-Du solltest dem Bestätigungsbutton eine `margin` von `0 auto` zuweisen.
+Sie sollten der Absenden-Schaltfläche einen `margin` von `0 auto` geben.
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('input[type="submit"]')?.margin, '0px auto');
 ```
 
-Du solltest dem Bestätigungsbutton keine `min-width` oder `max-width` zuweisen.
+Sie sollten der Absenden-Schaltfläche keinen `min-width` oder `max-width` geben.
 
 ```js
 assert.isEmpty(new __helpers.CSSHelp(document).getStyle('input[type="submit"]')?.minWidth);

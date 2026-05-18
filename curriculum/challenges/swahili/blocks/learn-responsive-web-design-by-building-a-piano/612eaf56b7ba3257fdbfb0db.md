@@ -1,15 +1,15 @@
 ---
 id: 612eaf56b7ba3257fdbfb0db
-title: Hatua ya 21
+title: Hatua 21
 challengeType: 0
 dashedName: step-21
 ---
 
 # --description--
 
-The piano needs the freeCodeCamp logo to make it official.
+Piano inahitaji nembo ya freeCodeCamp ili iwe rasmi.
 
-Ongeza kipengele cha `img` kabla ya kipengele chako cha `.keys`. Ipe `img` `class` ya `logo`, na uweke `src` kuwa `https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg`. Ipe maandishi ya `alt` ya `freeCodeCamp Logo`.
+Ongeza kipengele cha `img` kabla ya kipengele chako cha `.keys`. Mpe `img` `class` ya `logo`, na weka `src` kuwa `https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg`. Mpe maandishi ya `alt` ya `freeCodeCamp Logo`.
 
 # --hints--
 
@@ -19,7 +19,7 @@ Unapaswa kuongeza kipengele kipya cha `img`.
 assert(document.querySelectorAll('img')?.length === 1);
 ```
 
-Kipengele chako cha `img` kinafaa kuja kabla ya kipengee chako cha kwanza cha `.keys`.
+Kipengele chako cha `img` kinapaswa kuja kabla ya kipengele chako cha kwanza cha `.keys`.
 
 ```js
 const img = document.querySelector('img');
@@ -27,27 +27,27 @@ assert(img?.nextElementSibling?.className === 'keys');
 assert(img?.previousElementSibling === null);
 ```
 
-Kipengee chako kipya cha `img` kinapaswa kuwa na `class` ya `logo`.
+Kipengele chako cha `img` kinapaswa kuwa na `class` iliyowekwa kuwa `logo`.
 
 ```js
 const img = document.querySelector('img');
 assert(img?.className === 'logo');
 ```
 
-Kipengee chako cha `img` kinapaswa kuwa na `src` iliyowekwa kuwa `https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg`.
+Kipengele chako cha `img` kinapaswa kuwa na `src` iliyowekwa kuwa `https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg`.
 
 ```js
 const img = document.querySelector('img');
 assert(img?.getAttribute('src') === 'https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg');
 ```
 
-Kipengee chako cha `img` kinapaswa kuwa na sifa ya `alt` iliyowekwa kuwa `freeCodeCamp Logo`.
+Kipengele chako cha `img` kinapaswa kuwa na sifa ya `alt` iliyowekwa kuwa `freeCodeCamp Logo`.
 
 ```js
 assert(document.querySelector('img')?.getAttribute('alt')?.toLowerCase() === 'freecodecamp logo');
 ```
 
-Kumbuka kuwa tahajia na uandishi sahihi ni muhimu.
+Kumbuka kuwa herufi kubwa na tahajia ni muhimu.
 
 ```js
 assert(document.querySelector('img')?.getAttribute('alt') === 'freeCodeCamp Logo');

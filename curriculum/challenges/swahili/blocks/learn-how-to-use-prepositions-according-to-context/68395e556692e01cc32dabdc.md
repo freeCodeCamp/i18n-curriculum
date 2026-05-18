@@ -8,11 +8,11 @@ lang: en-US
 
 # --description--
 
-Watch the video below to understand the context of the upcoming lessons.
+Tazama video hapa chini ili kuelewa muktadha wa mafundisho yajayo.
 
 # --assignment--
 
-Watch the video.
+Tazama video.
 
 # --scene--
 

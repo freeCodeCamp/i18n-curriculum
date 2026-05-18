@@ -7,23 +7,23 @@ dashedName: step-47
 
 # --description--
 
-Füge ein `h2`-Element in den neuen Abschnitt hinzu und gib ihm den Text `Desserts`.
+Fügen Sie in dem neuen Abschnitt ein `h2`-Element hinzu und geben Sie ihm den Text `Desserts`.
 
 # --hints--
 
-Du solltest nicht das vorhandene `section`-Element ändern.
+Sie sollten Ihr bestehendes `section`-Element nicht verändern.
 
 ```js
 assert.lengthOf(document.querySelectorAll('section'), 2);
 ```
 
-Du solltest ein `h2`-Element innerhalb des zweiten `section`-Elements verschachteln.
+Sie sollten in Ihrem zweiten `h2`-Element ein `section`-Element hinzufügen.
 
 ```js
 assert.strictEqual(document.querySelectorAll('section')?.[1]?.children?.[0]?.tagName, 'H2');
 ```
 
-Dein neues `h2`-Element sollte den Text `Desserts` haben.
+Ihr neues `h2`-Element sollte den Text `Desserts` haben.
 
 ```js
 assert.match(document.querySelectorAll('h2')?.[1]?.innerText, /Desserts/i);

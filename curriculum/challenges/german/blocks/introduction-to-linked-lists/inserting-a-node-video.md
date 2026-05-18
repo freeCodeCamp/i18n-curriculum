@@ -1,6 +1,6 @@
 ---
 id: 698dd8b47932b3cc4b19c933
-title: Inserting a Node
+title: Einen Knoten einfügen
 challengeType: 11
 videoId: HKCIczy-v90
 dashedName: inserting-a-node
@@ -8,29 +8,29 @@ dashedName: inserting-a-node
 
 # --description--
 
-In this video, you will learn how to insert a node in a linked list.
+In diesem Video lernen Sie, wie Sie einen Knoten in eine verkettete Liste einfügen.
 
 # --questions--
 
 ## --text--
 
-What is the runtime for inserting a node at a known position in a linked list?
+Wie hoch ist die Laufzeit, um einen Knoten an einer bekannten Position in einer verketteten Liste einzufügen?
 
 ## --answers--
 
-constant time
+konstante Zeit
 
 ---
 
-linear time
+lineare Zeit
 
 ---
 
-quadratic time
+quadratische Zeit
 
 ---
 
-exponential time
+exponentielle Zeit
 
 ## --video-solution--
 

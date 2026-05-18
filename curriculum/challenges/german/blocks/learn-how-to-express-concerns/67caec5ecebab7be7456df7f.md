@@ -1,6 +1,6 @@
 ---
 id: 67caec5ecebab7be7456df7f
-title: Task 130
+title: Aufgabe 130
 challengeType: 19
 dashedName: task-130
 lang: en-US
@@ -10,53 +10,53 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Hören Sie sich die Audioaufnahme an und beantworten Sie die folgende Frage.  
 
 # --questions--
 
 ## --text--
 
-What other issue did the team raise?
+Welches weitere Problem hat das Team angesprochen?
 
 ## --answers--
 
-That they receive updates too early.
+Dass sie Updates zu früh erhalten.
 
 ### --feedback--
 
-Maria mentions the exact opposite.
+Maria erwähnt genau das Gegenteil.
 
 ---
 
-That they don't want to communicate as much.
+Dass sie nicht so viel kommunizieren wollen.
 
 ### --feedback--
 
-Maria doesn't mention the team's willingness to communicate.
+Maria erwähnt nicht, dass das Team weniger kommunizieren möchte.  
 
 ---
 
-That they often don't hear about changes in time.
+Dass sie oft nicht rechtzeitig von Änderungen erfahren.
 
 ---
 
-That they think too many people are involved in communication.
+Dass sie denken, dass zu viele Personen in die Kommunikation eingebunden sind.
 
 ### --feedback--
 
-Maria does not mention the number of people involved.
+Maria erwähnt nicht die Anzahl der beteiligten Personen.
 
 ## --video-solution--
 
-3
+3  
 
 # --explanation--
 
-When you say something `isn't great`, you are softening a negative message (instead of saying `it is bad`, for instance). It makes criticism sound more polite or indirect. Take a look at the following sentences:
+Wenn Sie etwas `isn't great` sagen, mildern Sie eine negative Botschaft ab (anstatt zum Beispiel `it is bad` zu sagen). Dadurch klingt Kritik höflicher oder indirekter. Schauen Sie sich die folgenden Sätze an:
 
-- `The design is bad.` - This is a strong negative statement, which often sounds impolite.
+- `The design is bad.` – Das ist eine starke negative Aussage, die oft unhöflich klingt.
 
-- `The design isn't great. Maybe we can improve it.` - Saying this sound less harsh and more constructive.
+- `The design isn't great. Maybe we can improve it.` – So klingt es weniger hart und konstruktiver.
 
 # --scene--
 

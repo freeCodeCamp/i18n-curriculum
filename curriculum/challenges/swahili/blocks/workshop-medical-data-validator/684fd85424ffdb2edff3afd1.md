@@ -1,15 +1,15 @@
 ---
 id: 684fd85424ffdb2edff3afd1
-title: Step 26
+title: Hatua 26
 challengeType: 20
 dashedName: step-26
 ---
 
 # --description--
 
-Now you can see `{'patient_id': None}` printed to the terminal because the lowercase `p` does not match `P1001` and the `and` operator returns the first falsy value of the expression.
+Sasa unaweza kuona `{'patient_id': None}` ikichapishwa kwenye terminal kwa sababu herufi ndogo `p` haifananishi na `P1001` na operator `and` inarudisha thamani ya uongo ya kwanza ya usemi wa kihesabu.
 
-You want to ensure that the patient ID starts with the letter `p`, but it can be either lowercase or uppercase. To modify the matching behavior of regular expressions, you can use flags. For example, `re.search` accepts a third argument to specify any flags:
+Unataka kuhakikisha kuwa kitambulisho cha mgonjwa kinaanza na herufi `p`, lakini kinaweza kuwa herufi ndogo au kubwa. Ili kubadilisha tabia ya ulinganifu wa usemi wa kawaida, unaweza kutumia bendera. Kwa mfano, `re.search` inakubali hoja ya tatu ili kubainisha bendera yoyote:
 
 ```py
 import re
@@ -21,13 +21,13 @@ print(re.search('hello', greeting, re.IGNORECASE))
 # <re.Match object; span=(0, 5), match='Hello'>
 ```
 
-Add `re.IGNORECASE` as the third argument to your `re.search` call. This will make your regex search case insensitive.
+Ongeza `re.IGNORECASE` kama hoja ya tatu kwenye wito wako wa `re.search`. Hii itafanya utafutaji wako wa regex usiwe na tofauti ya herufi ndogo au kubwa.
 
-After that, you'll see `None` replaced by the match object `<re.Match object; span=(0, 1), match='P'>`, where `match` indicates the match and `span` indicates its location in the string.
+Baada ya hapo, utaona `None` imebadilishwa na kitu cha ulinganifu `<re.Match object; span=(0, 1), match='P'>`, ambapo `match` inaonyesha ulinganifu na `span` inaonyesha mahali pake katika mfuatano wa herufi.
 
 # --hints--
 
-You should add `re.IGNORECASE` as the third argument to your `re.search` call.
+Unapaswa kuongeza `re.IGNORECASE` kama hoja ya tatu kwenye wito wako wa `re.search`.
 
 ```js
 ({ test: () => assert(runPython(`
@@ -96,7 +96,7 @@ def validate(data):
     if not is_sequence:
         print('Invalid format: expected a list or tuple.')
         return False
-
+        
     is_invalid = False
     key_set = set(
         ['patient_id', 'age', 'gender', 'diagnosis', 'medications', 'last_visit_id']

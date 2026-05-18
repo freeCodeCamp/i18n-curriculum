@@ -1,6 +1,6 @@
 ---
 id: 67e2ae1300a8edcdede767db
-title: Task 4
+title: Zoezi la 4
 challengeType: 22
 dashedName: task-4
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Sikiliza sauti na ukamilishe sentensi iliyo hapa chini.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This verb is used when someone wants to get information or permission.
+Kitenzi hiki hutumika mtu anapohitaji kupata taarifa au ruhusa.
 
 ---
 
@@ -32,17 +32,17 @@ This verb is used when someone wants to get information or permission.
 
 ### --feedback--
 
-This preposition connects related topic or subject.
+Kiunganishi hiki huunganisha mada au somo zinazohusiana.
 
 # --explanation--
 
-`Ask about` means to request information related to a specific topic. For example:
+`Ask about` inamaanisha kuomba taarifa zinazohusiana na mada fulani. Kwa mfano:
 
-`I asked about the new feature.` – You wanted information on the feature.
+`I asked about the new feature.` – Ulitaka taarifa kuhusu kipengele.
 
-`Can I ask you about...` is a polite way to start a question when you want information or help. It shows that you're asking for permission to talk about a specific topic. For example:
+`Can I ask you about...` ni njia ya heshima kuanzisha swali wakati unahitaji taarifa au msaada. Inaonyesha kuwa unaomba ruhusa ya kuzungumzia mada fulani. Kwa mfano:
 
-`Can I ask you about the project deadline?` – This means you want to talk about the deadline and get more details.
+`Can I ask you about the project deadline?` – Hii inamaanisha unataka kuzungumzia tarehe ya mwisho na kupata maelezo zaidi.
 
 # --scene--
 

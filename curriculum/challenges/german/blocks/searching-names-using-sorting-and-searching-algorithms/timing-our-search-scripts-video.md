@@ -1,6 +1,6 @@
 ---
 id: 698dea447932b3cc4b19c94c
-title: Timing Our Search Scripts
+title: Unsere Suchskripte zeitlich messen
 challengeType: 11
 videoId: F_YLFplzb94
 dashedName: timing-our-search-scripts
@@ -8,29 +8,29 @@ dashedName: timing-our-search-scripts
 
 # --description--
 
-In this video, you will see how the binary and linear search algorithms work with a list of names and how the results compare.
+In diesem Video sehen Sie, wie die binäre und die lineare Suchalgorithmen mit einer Liste von Namen arbeiten und wie die Ergebnisse im Vergleich ausfallen.
 
 # --questions--
 
 ## --text--
 
-What happened when the binary and linear search algorithm times were compared on a list of names?
+Was geschah, als die Zeiten der binären und linearen Suchalgorithmen bei einer Namensliste verglichen wurden?
 
 ## --answers--
 
-Linear search took half as long to complete as binary search.
+Die lineare Suche benötigte halb so lange wie die binäre Suche.
 
 ---
 
-Binary search took half as long to complete as linear search.
+Die binäre Suche benötigte halb so lange wie die lineare Suche.
 
 ---
 
-Both algorithms took the same amount of time to complete.
+Beide Algorithmen benötigten die gleiche Zeit zur Ausführung.
 
 ---
 
-Both algorithms timed out and no results were displayed.
+Beide Algorithmen liefen zeitlich aus und es wurden keine Ergebnisse angezeigt.
 
 ## --video-solution--
 

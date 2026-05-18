@@ -1,6 +1,6 @@
 ---
 id: 67c8cf7bbcc2fbe9b32c9ab2
-title: Task 92
+title: Aufgabe 92
 challengeType: 19
 dashedName: task-92
 lang: en-US
@@ -10,53 +10,53 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Hören Sie sich die Audioaufnahme an und beantworten Sie die folgende Frage.  
 
 # --questions--
 
 ## --text--
 
-What will Maria do with the comments she got from James?
+Was wird Maria mit den Kommentaren machen, die sie von James erhalten hat?  
 
 ## --answers--
 
-She will ignore them.
+Sie wird sie ignorieren.  
 
 ### --feedback--
 
-Maria acknowledges James's point and plans to take action.
+Maria erkennt James’ Punkt an und plant, Maßnahmen zu ergreifen.
 
 ---
 
-She will tell the team to stop worrying about communication.
+Sie wird dem Team sagen, sich keine Sorgen mehr um die Kommunikation zu machen.
 
 ### --feedback--
 
-Maria wants to improve communication, not dismiss concerns.
+Maria möchte die Kommunikation verbessern, nicht Bedenken abtun. 
 
 ---
 
-She will cancel the team's check-ins.
+Sie wird die Check-ins des Teams absagen.
 
 ### --feedback--
 
-Maria does not say she will cancel the check-ins.
+Maria sagt nicht, dass sie die Check-ins absagen wird.
 
 ---
 
-She will propose having more check-ins to improve communication.
+Sie wird vorschlagen, mehr Check-ins abzuhalten, um die Kommunikation zu verbessern.
 
 ## --video-solution--
 
-4
+4  
 
 # --explanation--
 
-When using the verb `suggest`, use the following verb in the `-ing` form instead of the infinitive. For example:
+Wenn Sie das Verb `suggest` verwenden, benutzen Sie das folgende Verb in der `-ing`-Form anstelle des Infinitivs. Zum Beispiel:
 
-- `She suggested taking a break.` - This means the idea proposed is to take a break.
+- `She suggested taking a break.` – Das bedeutet, die vorgeschlagene Idee ist, eine Pause einzulegen.
 
-- `He suggested starting the meeting earlier to avoid delays.` - This means he proposed beginning the meeting sooner.
+- `He suggested starting the meeting earlier to avoid delays.` – Das bedeutet, er schlug vor, das Treffen früher zu beginnen.
 
 # --scene--
 

@@ -1,6 +1,6 @@
 ---
 id: 693aebb31ed98f7aea7d1a5d
-title: Task 26
+title: Aufgabe 26
 challengeType: 19
 dashedName: task-26
 lang: es
@@ -10,17 +10,17 @@ lang: es
 
 # --description--
 
-In this task, you will hear Basti share his full phone number, including the country code. The number is spoken in grouped digits.
+In dieser Aufgabe hören Sie, wie Basti seine vollständige Telefonnummer inklusive der Landesvorwahl angibt. Die Nummer wird in gruppierten Ziffern gesprochen.
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Hören Sie sich die Audioaufnahme an und beantworten Sie die folgende Frage.
 
 # --questions--
 
 ## --text--
 
-Which of the following is Basti's phone number?
+Welche der folgenden Nummern ist Bastis Telefonnummer?
 
 ## --answers--
 
@@ -32,7 +32,7 @@ Which of the following is Basti's phone number?
 
 ### --feedback--
 
-The final digits are not what Basti says.
+Die letzten Ziffern stimmen nicht mit dem überein, was Basti sagt.
 
 ---
 
@@ -40,7 +40,7 @@ The final digits are not what Basti says.
 
 ### --feedback--
 
-The country code Basti says is not 520.
+Die von Basti genannte Landesvorwahl ist nicht 520.
 
 ---
 
@@ -48,7 +48,7 @@ The country code Basti says is not 520.
 
 ### --feedback--
 
-There is a small error in the middle four digits.
+In den mittleren vier Ziffern gibt es einen kleinen Fehler.
 
 ## --video-solution--
 
@@ -56,7 +56,7 @@ There is a small error in the middle four digits.
 
 # --explanation--
 
-`Y mi número es +502 4489 2201`, means "And my number is +502 4489 2201".
+`Y mi número es +502 4489 2201`, bedeutet „Und meine Nummer ist +502 4489 2201“.
 
 # --scene--
 

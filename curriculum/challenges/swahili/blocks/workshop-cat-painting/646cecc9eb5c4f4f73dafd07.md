@@ -1,29 +1,29 @@
 ---
 id: 646cecc9eb5c4f4f73dafd07
-title: Hatua ya 23
+title: Step 23
 challengeType: 0
 dashedName: step-23
 ---
 
 # --description--
 
-Sogeza sikio la kushoto hadi mahali kwa kuweka position kuwa `absolute`, `top` ya `-26px` na `left` ya `-31px`.
+Hamisha sikio la kushoto kwa kuweka sifa ya position kuwa `absolute`, sifa ya `top` kuwa `-26px`, na sifa ya `left` kuwa `-31px`.
 
 # --hints--
 
-Kichaguzi chako cha `.cat-left-ear` kinafaa kuwa na sifa ya `position` iliyowekwa kuwa `absolute`. Don't forget to add a semicolon.
+Kichaguzi chako cha `.cat-left-ear` kinapaswa kuwa na sifa ya `position` iliyowekwa kuwa `absolute`. Usisahau kuongeza nukta ya nusu.
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('.cat-left-ear')?.position, 'absolute')
 ```
 
-Kichaguzi chako cha `.cat-left-ear` kinafaa kuwa na sifa ya `top` iliyowekwa kuwa `-26px`
+Kichaguzi chako cha `.cat-left-ear` kinapaswa kuwa na sifa ya `top` iliyowekwa kuwa `-26px`
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('.cat-left-ear')?.top, '-26px')
 ```
 
-Kichaguzi chako cha `.cat-left-ear` kinafaa kuwa na sifa ya `left` iliyowekwa kuwa `-31px`
+Kichaguzi chako cha `.cat-left-ear` kinapaswa kuwa na sifa ya `left` iliyowekwa kuwa `-31px`
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('.cat-left-ear')?.left, '-31px')
@@ -83,7 +83,7 @@ body {
 
 --fcc-editable-region--
 .cat-left-ear {
-
+  
   border-left: 35px solid transparent;
   border-right: 35px solid transparent;
   border-bottom: 70px solid #5e5e5e;

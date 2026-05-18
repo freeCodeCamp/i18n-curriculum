@@ -1,6 +1,6 @@
 ---
 id: 685322cee8cbfeaacebe4e85
-title: Task 28
+title: Zoezi la 28
 challengeType: 22
 dashedName: task-28
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Sikiliza sauti na ukamilishe sentensi ifuatayo.
 
 # --fillInTheBlank--
 
@@ -24,13 +24,13 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This means progress or development, especially in skills or knowledge.
+Hii inamaanisha maendeleo au ukuzaji, hasa katika ujuzi au maarifa.
 
 # --explanation--
 
-`Growth` means improvement or development, often in knowledge, skills, or ability. For example:
+`Growth` inamaanisha kuboresha au ukuzaji, mara nyingi katika maarifa, ujuzi, au uwezo. Kwa mfano:
 
-`The company supports professional growth through regular training sessions.` – This means the company helps employees improve and develop their skills.
+`The company supports professional growth through regular training sessions.` – Hii inamaanisha kampuni husaidia wafanyakazi kuboresha na kukuza ujuzi wao.
 
 # --scene--
 

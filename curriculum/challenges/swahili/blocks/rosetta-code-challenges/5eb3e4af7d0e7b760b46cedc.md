@@ -1,6 +1,6 @@
 ---
 id: 5eb3e4af7d0e7b760b46cedc
-title: Set consolidation
+title: Muungano wa seti
 challengeType: 1
 forumTopicId: 385319
 dashedName: set-consolidation
@@ -8,58 +8,58 @@ dashedName: set-consolidation
 
 # --description--
 
-Given two sets of items then if any item is common to any set then the result of applying *consolidation* to those sets is a set of sets whose contents is:
+Ikiwa kuna seti mbili za vitu na ikiwa kitu chochote kiko katika seti yoyote ya hizo mbili, basi matokeo ya kutumia *muungano* kwa seti hizo ni seti ya seti ambazo zina:
 
 <ul>
-  <li>The two input sets if no common item exists between the two input sets of items.</li>
-  <li>The single set that is the union of the two input sets if they share a common item.</li>
+  <li>Seti mbili za ingizo ikiwa hakuna kitu chochote kinachoshirikiwa kati ya seti hizo mbili za vitu.</li>
+  <li>Seti moja ambayo ni muungano wa seti hizo mbili za ingizo ikiwa zinashiriki kitu chochote.</li>
 </ul>
 
-Given N sets of items where N > 2 then the result is the same as repeatedly replacing all combinations of two sets by their consolidation until no further consolidation between set pairs is possible. If N &lt; 2 then consolidation has no strict meaning and the input can be returned.
+Ikiwa kuna seti N za vitu ambapo N > 2 basi matokeo ni sawa na kubadilisha mara kwa mara mchanganyiko wote wa seti mbili kwa muungano wao hadi muungano zaidi kati ya jozi za seti hauwezekani tena. Ikiwa N &lt; 2 basi muungano haina maana kali na ingizo linaweza kurudishwa kama lilivyo.
 
-Here are some examples:
+Hapa kuna mifano:
 
-**Example 1:**
+**Mfano 1:**
 
-Given the two sets `{A,B}` and `{C,D}` then there is no common element between the sets and the result is the same as the input.
+Ikiwa seti mbili `{A,B}` na `{C,D}` basi hakuna kipengele chochote kinachoshirikiwa kati ya seti hizo na matokeo ni sawa na ingizo.
 
-**Example 2:**
+**Mfano 2:**
 
-Given the two sets `{A,B}` and `{B,D}` then there is a common element `B` between the sets and the result is the single set `{B,D,A}`. (Note that order of items in a set is immaterial: `{A,B,D}` is the same as `{B,D,A}` and `{D,A,B}`, etc).
+Ikiwa seti mbili `{A,B}` na `{B,D}` basi kuna kipengele kinachoshirikiwa `B` kati ya seti hizo na matokeo ni seti moja `{B,D,A}`. (Kumbuka kuwa mpangilio wa vitu katika seti hauna maana: `{A,B,D}` ni sawa na `{B,D,A}` na `{D,A,B}`, nk).
 
-**Example 3:**
+**Mfano 3:**
 
-Given the three sets `{A,B}` and `{C,D}` and `{D,B}` then there is no common element between the sets `{A,B}` and `{C,D}` but the sets `{A,B}` and `{D,B}` do share a common element that consolidates to produce the result `{B,D,A}`. On examining this result with the remaining set, `{C,D}`, they share a common element and so consolidate to the final output of the single set `{A,B,C,D}`
+Ikiwa seti tatu `{A,B}` na `{C,D}` na `{D,B}` basi hakuna kipengele kinachoshirikiwa kati ya seti `{A,B}` na `{C,D}` lakini seti `{A,B}` na `{D,B}` zinashiriki kipengele kinachounganisha kutoa matokeo `{B,D,A}`. Kwa kuchunguza matokeo haya na seti iliyobaki, `{C,D}`, zinashiriki kipengele na hivyo kuungana kuwa matokeo ya mwisho ya seti moja `{A,B,C,D}`
 
-**Example 4:**
+**Mfano 4:**
 
-The consolidation of the five sets:
+Muungano wa seti tano:
 
-`{H,I,K}`, `{A,B}`, `{C,D}`, `{D,B}`, and `{F,G,H}`
+`{H,I,K}`, `{A,B}`, `{C,D}`, `{D,B}`, na `{F,G,H}`
 
-Is the two sets:
+Ni seti mbili:
 
-`{A, C, B, D}`, and `{G, F, I, H, K}`
+`{A, C, B, D}`, na `{G, F, I, H, K}`
 
 # --instructions--
 
-Write a function that takes an array of strings as a parameter. Each string is represents a set with the characters representing the set elements. The function should return a 2D array containing the consolidated sets. Note: Each set should be sorted.
+Andika kitendakazi kinachopokea safu ya mfuatano wa herufi kama kigezo. Kila mfuatano wa herufi unawakilisha seti na herufi zinawakilisha vitu vya seti hiyo. Kitendakazi kinapaswa kurudisha safu ya safu za data zenye seti zilizounganishwa. Kumbuka: Kila seti inapaswa kupangwa kwa mpangilio.
 
 # --hints--
 
-`setConsolidation` should be a function.
+`setConsolidation` inapaswa kuwa kitendakazi.
 
 ```js
 assert(typeof setConsolidation === 'function');
 ```
 
-`setConsolidation(["AB", "CD"])` should return a array.
+`setConsolidation(["AB", "CD"])` inapaswa kurudisha safu ya data.
 
 ```js
 assert(Array.isArray(setConsolidation(['AB', 'CD'])));
 ```
 
-`setConsolidation(["AB", "CD"])` should return `[["C", "D"], ["A", "B"]]`.
+`setConsolidation(["AB", "CD"])` inapaswa kurudisha `[["C", "D"], ["A", "B"]]`.
 
 ```js
 assert.deepEqual(setConsolidation(['AB', 'CD']), [
@@ -68,19 +68,19 @@ assert.deepEqual(setConsolidation(['AB', 'CD']), [
 ]);
 ```
 
-`setConsolidation(["AB", "BD"])` should return `[["A", "B", "D"]]`.
+`setConsolidation(["AB", "BD"])` inapaswa kurudisha `[["A", "B", "D"]]`.
 
 ```js
 assert.deepEqual(setConsolidation(['AB', 'BD']), [['A', 'B', 'D']]);
 ```
 
-`setConsolidation(["AB", "CD", "DB"])` should return `[["A", "B", "C", "D"]]`.
+`setConsolidation(["AB", "CD", "DB"])` inapaswa kurudisha `[["A", "B", "C", "D"]]`.
 
 ```js
 assert.deepEqual(setConsolidation(['AB', 'CD', 'DB']), [['A', 'B', 'C', 'D']]);
 ```
 
-`setConsolidation(["HIK", "AB", "CD", "DB", "FGH"])` should return `[["F", "G", "H", "I", "K"], ["A", "B", "C", "D"]]`.
+`setConsolidation(["HIK", "AB", "CD", "DB", "FGH"])` inapaswa kurudisha `[["F", "G", "H", "I", "K"], ["A", "B", "C", "D"]]`.
 
 ```js
 assert.deepEqual(setConsolidation(['HIK', 'AB', 'CD', 'DB', 'FGH']), [

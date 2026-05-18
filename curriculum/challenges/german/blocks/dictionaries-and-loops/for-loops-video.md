@@ -1,6 +1,6 @@
 ---
 id: 030401977064585ddd4c7746
-title: For Loops
+title: For-Schleifen
 challengeType: 11
 videoId: x13V1UMMQeI
 dashedName: for-loops
@@ -8,13 +8,13 @@ dashedName: for-loops
 
 # --description--
 
-In this video, you will learn how to use for loops to iterate over sequences like lists and ranges.
+In diesem Video lernen Sie, wie Sie for-Schleifen verwenden, um Folgen wie Listen und Bereiche zu durchlaufen.
 
 # --questions--
 
 ## --text--
 
-Which of the following is the correct way to iterate over each letter in the string `"Giraffe Academy"`?
+Welche der folgenden Möglichkeiten ist der richtige Weg, um jeden Buchstaben im String `"Giraffe Academy"` zu durchlaufen?
 
 ## --answers--
 

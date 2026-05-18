@@ -1,23 +1,23 @@
 ---
 id: 64dceadec3c9cf2ca7b56de6
-title: Step 25
+title: Schritt 25
 challengeType: 20
 dashedName: step-25
 ---
 
 # --description--
 
-Next, below the nested `elif` statement, add another `if` statement that should be executed when `forward` is `True`. Inside this conditional, print the following f-string: `f'Moving disk {rods[source][-1]} from {source} to {target}'`.
+Fügen Sie als Nächstes unter der verschachtelten `elif`-Anweisung eine weitere `if`-Anweisung hinzu, die ausgeführt werden soll, wenn `forward` `True` ist. Geben Sie innerhalb dieser Bedingung den folgenden f-String aus: `f'Moving disk {rods[source][-1]} from {source} to {target}'`.
 
 # --hints--
 
-You should add an `if` statement to execute when `forward` is `True` after the `elif` block.
+Sie sollten eine `if`-Anweisung hinzufügen, die ausgeführt wird, wenn `forward` `True` ist, nach dem `elif`-Block.
 
 ```js
 ({ test: () => assert.match(code, /^\s{12}if\s+forward(\s*==\s*True)?\s*:/m) })
 ```
 
-You should print the provide string inside your new `if` statement.
+Sie sollten den angegebenen String innerhalb Ihrer neuen `if`-Anweisung ausgeben.
 
 ```js
 ({ test: () => assert.match(code, /if\s+forward(\s*==\s*True)?\s*:\s+print\s*\(\s*f('|")Moving\sdisk\s\{\s*rods\s*\[\s*source\s*\]\s*\[\s*-\s*1\s*\]\s*\}\sfrom\s\{\s*source\s*\}\sto\s\{\s*target\s*\}\2\s*\)/) })

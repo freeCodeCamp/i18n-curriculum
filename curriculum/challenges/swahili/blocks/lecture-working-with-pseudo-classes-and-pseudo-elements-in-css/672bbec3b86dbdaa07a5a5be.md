@@ -1,24 +1,24 @@
 ---
 id: 672bbec3b86dbdaa07a5a5be
-title: What Are Examples of Functional Pseudo-classes?
+title: Ni mifano gani ya darasa la bandia la kitendakazi?
 challengeType: 19
 dashedName: what-are-examples-of-functional-pseudo-classes
 ---
 
 # --interactive--
 
-Functional pseudo-classes allow you to select elements based on more complex conditions or relationships. Unlike regular pseudo-classes which target elements based on a state, for example, `:hover`, `:focus`, functional pseudo-classes accept arguments within parentheses, hence the name "functional pseudo-classes".
+Darasa la bandia la kitendakazi linakuwezesha kuchagua vipengele kulingana na masharti au uhusiano tata zaidi. Tofauti na darasa la bandia la kawaida ambalo hulenga vipengele kulingana na hali, kwa mfano, `:hover`, `:focus`, darasa la bandia la kitendakazi linakubali hoja ndani ya mabano ya kawaida, ndio maana linaitwa "darasa la bandia la kitendakazi".
 
-Examples of functional pseudo-classes are:
+Mifano ya darasa la bandia la kitendakazi ni:
 
 - `:is()`
 - `:where()`
 - `:has()`
 - `:not()`
 
-Let's take a deeper look at each of these functional pseudo-classes with examples.
+Tuchunguze kwa undani kila moja ya darasa la bandia la kitendakazi kwa mifano.
 
-The `:is()` pseudo-class is useful when you want to style a group of elements that share some, but not all, characteristics. For example, you might want to style different types of buttons on your website, including `button` elements, links styled as buttons, and `input` elements with types `submit` and `reset`. Here's an example representing that. Without the `:is()` function, you would have to write a complex selector like this:
+Darasa la bandia la `:is()` ni muhimu unapotaka kupamba kundi la vipengele vinavyoshiriki baadhi, lakini siyo sifa zote. Kwa mfano, unaweza kutaka kupamba aina tofauti za vitufe kwenye tovuti yako, ikiwa ni pamoja na vipengele vya `button`, viungo vilivyopambwa kama vitufe, na vipengele vya `input` vyenye aina `submit` na `reset`. Hapa kuna mfano unaowakilisha hilo. Bila kitendakazi cha `:is()`, ungehitaji kuandika kichaguzi tata kama hiki:
 
 :::interactive_editor
 
@@ -59,7 +59,7 @@ input[type='reset']:hover {
 
 :::
 
-With the `:is()` function, you can write a more compact and understandable selector like this:
+Kwa kutumia kitendakazi cha `:is()`, unaweza kuandika kichaguzi kifupi na kinachoweza kueleweka kama hiki:
 
 :::interactive_editor
 
@@ -94,9 +94,9 @@ With the `:is()` function, you can write a more compact and understandable selec
 
 :::
 
-The `:where()` pseudo-class functions similarly to `:is()`, but it doesn't increase the specificity of your selectors. This makes it ideal for applying styles without affecting the specificity of other rules.
+Darasa la bandia la `:where()` hufanya kazi kama `:is()`, lakini haliongezi umahiri wa kichaguzi chako. Hii inafanya iwe bora kwa kutumia mitindo bila kuathiri umahiri wa sheria nyingine.
 
-For example, you can use the `:where()` function to apply zero `margin` and `padding` to heading elements. This ensures that the reset won't interfere with more specific styles you might apply later. Here's an example for that:
+Kwa mfano, unaweza kutumia kitendakazi cha `:where()` kuweka upya `margin` na `padding` kwa vipengele vya kichwa cha sehemu. Hii inahakikisha upya hauathiri mitindo maalum unayoweza kutumia baadaye. Hapa kuna mfano wa hilo:
 
 :::interactive_editor
 
@@ -120,9 +120,9 @@ For example, you can use the `:where()` function to apply zero `margin` and `pad
 
 :::
 
-Styling a parent element based on its children's states was previously challenging until the `:has()` pseudo-class was introduced. It allows you to apply styles to a parent element based on the presence or state of its child elements.
+Kupamba kipengele cha mzazi kulingana na hali za watoto wake ilikuwa changamoto hapo awali hadi darasa la bandia la `:has()` lilipotambulishwa. Linakuwezesha kutumia mitindo kwa kipengele cha mzazi kulingana na uwepo au hali ya vipengele vya watoto wake.
 
-For example, the CSS below will only apply to any `article` element that has an `h2` in it:
+Kwa mfano, CSS ifuatayo itatumika tu kwa kipengele chochote cha `article` ambacho kina `h2` ndani yake:
 
 :::interactive_editor
 
@@ -148,7 +148,7 @@ article:has(h2) {
 
 :::
 
-The `:not()` pseudo-class is ideal for situations where you want to apply styles to a group of elements, excluding one or more specific exceptions. In the CSS below, any button that is not a primary button will have a grey background:
+Darasa la bandia la `:not()` ni bora kwa hali ambapo unataka kutumia mitindo kwa kundi la vipengele, ukiondoa moja au zaidi ya vipengele maalum. Katika CSS ifuatayo, kitufe chochote ambacho si kitufe cha msingi kitakuwa na rangi ya kijivu ya nyuma:
 
 :::interactive_editor
 
@@ -184,7 +184,7 @@ button:not(.primary) {
 
 ## --text--
 
-Which pseudo-class works like `:is()`, but doesn't add any specificity to your selectors?
+Ni darasa gani la bandia linalofanya kazi kama `:is()`, lakini haliongezi umahiri wowote kwa vichaguzi vyako?
 
 ## --answers--
 
@@ -192,7 +192,7 @@ Which pseudo-class works like `:is()`, but doesn't add any specificity to your s
 
 ### --feedback--
 
-This pseudo-class is great for applying broad, non-invasive styles.
+Darasa hili la bandia ni zuri kwa kutumia mitindo pana, isiyoingilia.
 
 ---
 
@@ -200,7 +200,7 @@ This pseudo-class is great for applying broad, non-invasive styles.
 
 ### --feedback--
 
-This pseudo-class is great for applying broad, non-invasive styles.
+Darasa hili la bandia ni zuri kwa kutumia mitindo pana, isiyoingilia.
 
 ---
 
@@ -212,7 +212,7 @@ This pseudo-class is great for applying broad, non-invasive styles.
 
 ### --feedback--
 
-This pseudo-class is great for applying broad, non-invasive styles.
+Darasa hili la bandia ni zuri kwa kutumia mitindo pana, isiyoingilia.
 
 ## --video-solution--
 
@@ -220,7 +220,7 @@ This pseudo-class is great for applying broad, non-invasive styles.
 
 ## --text--
 
-Which of these is not a functional pseudo-class?
+Ni ipi kati ya hizi si darasa la bandia la kitendakazi?
 
 ## --answers--
 
@@ -228,7 +228,7 @@ Which of these is not a functional pseudo-class?
 
 ### --feedback--
 
-Functional pseudo-classes use parentheses and accept arguments inside them.
+Darasa la bandia la kitendakazi hutumia mabano ya kawaida na hukubali hoja ndani yake.
 
 ---
 
@@ -240,7 +240,7 @@ Functional pseudo-classes use parentheses and accept arguments inside them.
 
 ### --feedback--
 
-Functional pseudo-classes use parentheses and accept arguments inside them.
+Darasa la bandia la kitendakazi hutumia mabano ya kawaida na hukubali hoja ndani yake.
 
 ---
 
@@ -248,7 +248,7 @@ Functional pseudo-classes use parentheses and accept arguments inside them.
 
 ### --feedback--
 
-Functional pseudo-classes use parentheses and accept arguments inside them.
+Darasa la bandia la kitendakazi hutumia mabano ya kawaida na hukubali hoja ndani yake.
 
 ## --video-solution--
 
@@ -256,7 +256,7 @@ Functional pseudo-classes use parentheses and accept arguments inside them.
 
 ## --text--
 
-Which pseudo-class is perfect for a situation in which you want to apply styles to a group of elements without one or two exceptions?
+Ni darasa gani la bandia linalofaa kwa hali ambapo unataka kutumia mitindo kwa kundi la vipengele bila moja au mbili kuingizwa?
 
 ## --answers--
 
@@ -264,7 +264,7 @@ Which pseudo-class is perfect for a situation in which you want to apply styles 
 
 ### --feedback--
 
-Think about how you can exclude specific elements from being styled.
+Fikiria jinsi unavyoweza kuondoa vipengele maalum kutoka kupambwa.
 
 ---
 
@@ -272,7 +272,7 @@ Think about how you can exclude specific elements from being styled.
 
 ### --feedback--
 
-Think about how you can exclude specific elements from being styled.
+Fikiria jinsi unavyoweza kuondoa vipengele maalum kutoka kupambwa.
 
 ---
 
@@ -284,7 +284,7 @@ Think about how you can exclude specific elements from being styled.
 
 ### --feedback--
 
-Think about how you can exclude specific elements from being styled.
+Fikiria jinsi unavyoweza kuondoa vipengele maalum kutoka kupambwa.
 
 ## --video-solution--
 

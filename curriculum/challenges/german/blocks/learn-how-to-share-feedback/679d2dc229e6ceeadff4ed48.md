@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Höre dir die Audio an, um die unteren Sätze zu vervollständigen.
+Hören Sie sich die Audioaufnahme an und vervollständigen Sie den Satz unten.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Höre dir die Audio an, um die unteren Sätze zu vervollständigen.
 
 ### --feedback--
 
-This word is used to avoid repeating the verb `update` from the previous sentence.
+Dieses Wort wird verwendet, um die Wiederholung des Verbs `update` aus dem vorherigen Satz zu vermeiden.
 
 ---
 
@@ -32,17 +32,17 @@ This word is used to avoid repeating the verb `update` from the previous sentenc
 
 ### --feedback--
 
-This word means to postpone or make something happen later than planned.
+Dieses Wort bedeutet, etwas zu verschieben oder später als geplant stattfinden zu lassen.
 
 # --explanation--
 
-Instead of saying `If we update the software, it might delay other projects.`, James shortens it to `If we do`. The word `do` is often used to avoid repeating the verb or a complete phrase used in from the previous sentence. Zum Beispiel:
+Anstatt `If we update the software, it might delay other projects.` zu sagen, kürzt James es zu `If we do` ab. Das Wort `do` wird oft verwendet, um die Wiederholung des Verbs oder einer vollständigen Phrase aus dem vorherigen Satz zu vermeiden. Zum Beispiel:
 
-`She wants to join the meeting, and if she does, she'll need the link.` - Instead of saying `if she joins the meeting`, you can use `does` to replace it and this way you can avoid the repetition.
+`She wants to join the meeting, and if she does, she'll need the link.` – Anstatt `if she joins the meeting` zu sagen, können Sie `does` verwenden, um es zu ersetzen, und so die Wiederholung vermeiden.
 
-`To delay` means to make something happen later than planned. For example:
+`To delay` bedeutet, etwas später als geplant stattfinden zu lassen. Zum Beispiel:
 
-`The flight was delayed due to bad weather.` - This means the flight was postponed and did not leave on time.
+`The flight was delayed due to bad weather.` – Das bedeutet, dass der Flug verschoben wurde und nicht pünktlich abgeflogen ist.
 
 # --scene--
 

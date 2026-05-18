@@ -7,13 +7,13 @@ dashedName: step-26
 
 # --description--
 
-To see the results from the `cleanInputString` function, you will need to add a `console.log()` statement. Inside that console statement, call the `cleanInputString` function with the string value of `"+-99"` as an argument.
+Ili kuona matokeo kutoka kwa kitendakazi cha `cleanInputString`, utahitaji kuongeza tamko la `console.log()`. Ndani ya tamko hilo la konsoli, fanya wito wa kitendakazi cha `cleanInputString` kwa kutumia thamani ya mfuatano wa herufi ya `"+-99"` kama hoja.
 
-Open up the console and you should see the original string followed by the cleaned string value with the `+-` removed.
+Fungua konsoli na unapaswa kuona mfuatano wa herufi wa awali ukifuatiwa na thamani ya mfuatano wa herufi iliyosafishwa na `+-` imeondolewa.
 
 # --hints--
 
-You should have a `console.log(cleanInputString("+-99"))` statement.
+Unapaswa kuwa na tamko la `console.log(cleanInputString("+-99"))`.
 
 ```js
 assert.match(code, /console\.log\(\s*cleanInputString\(\s*('|")\s*\+\-9\s*9\s*\1\s*\)\s*\);?/);

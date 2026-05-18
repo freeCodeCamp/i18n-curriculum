@@ -1,6 +1,6 @@
 ---
 id: 655b67f02eecf57fa75ceecf
-title: Task 8
+title: Zoezi la 8
 challengeType: 22
 dashedName: task-8
 lang: en-US
@@ -10,13 +10,13 @@ lang: en-US
 
 # --description--
 
-To `stay` is used to indicate remaining in a particular state or condition. It's often used in instructions or advice to keep oneself in a certain situation. For example:
+Kitenzi `stay` kinatumika kuonyesha kubaki katika hali fulani au sharti fulani. Mara nyingi hutumika katika maelekezo au ushauri wa kujilinda katika hali fulani. Kwa mfano:
 
-- `Stay safe online.` - Continue being safe while using the internet.
+- `Stay safe online.` - Endelea kuwa salama unapotumia intaneti.
 
-- `Stay calm during the test.` - Continue being calm.
+- `Stay calm during the test.` - Endelea kuwa mtulivu.
 
-- `Stay focused on your work.` - Continue paying attention to your work.
+- `Stay focused on your work.` - Endelea kuzingatia kazi yako.
 
 # --fillInTheBlank--
 
@@ -30,7 +30,7 @@ To `stay` is used to indicate remaining in a particular state or condition. It's
 
 ### --feedback--
 
-This verb indicates that Sophie is actively providing assistance or support to her team. It ends in `-ing`.
+Kitenzi hiki kinaonyesha kwamba Sophie anatoa msaada au usaidizi kwa timu yake kwa ufanisi. Kinaishia kwa `-ing`.
 
 ---
 
@@ -38,7 +38,7 @@ This verb indicates that Sophie is actively providing assistance or support to h
 
 ### --feedback--
 
-This word is used to suggest maintaining a certain state, in this case, being safe while online.
+Neno hili linatumika kupendekeza kudumisha hali fulani, katika kesi hii, kuwa salama wakati wa mtandao.
 
 # --scene--
 

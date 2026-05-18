@@ -1,6 +1,6 @@
 ---
 id: 67caefd11f4cf72cbf5bdd46
-title: Task 37
+title: Zoezi la 37
 challengeType: 22
 dashedName: task-37
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Sikiliza sauti na ukamilishe sentensi ifuatayo.
 
 # --fillInTheBlank--
 
@@ -24,15 +24,15 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This two-word phrase is a casual way of saying "no" or "not exactly". It's often used when you want to politely disagree or give a softer, less direct response. The first letter of the first word is capitalized.
+Usemi huu wa maneno mawili ni njia ya kawaida ya kusema "hapana" au "si kabisa". Mara nyingi hutumika unapotaka kukataa kwa heshima au kutoa jibu laini, lisilo la moja kwa moja. Herufi ya kwanza ya neno la kwanza imeandikwa kwa herufi kubwa.
 
 # --explanation--
 
-`Not really` is commonly used to give a negative answer, but in a softer tone. It's more casual than simply saying `No`. For example:
+`Not really` hutumika mara nyingi kutoa jibu hasi, lakini kwa sauti laini zaidi. Ni ya kawaida zaidi kuliko kusema tu `No`. Kwa mfano:
 
-- **Team lead:** `Do you think this software is user-friendly?`
+- **Kiongozi wa timu:** `Do you think this software is user-friendly?`
 
-- **Intern:** `Not really.` - This means it's not very user-friendly, but the speaker might not be completely certain.
+- **Mwanafunzi wa mafunzo:** `Not really.` - Hii ina maana kwamba si rahisi kutumia sana, lakini msemaji huenda asiyakuwa na uhakika kabisa.
 
 # --scene--
 

@@ -1,6 +1,6 @@
 ---
 id: 656bbfaf6cbc3f1418acca3c
-title: Task 6
+title: Zoezi la 6
 challengeType: 22
 dashedName: task-6
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --description--
 
-Listen to the audio and complete the sentence.
+Sikiliza sauti na ukamilishe sentensi.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence.
 
 ### --feedback--
 
-`What` and `is` are in abbreviated form. Remember to capitalize `What`.
+`What` na `is` ni kwa fomu fupi. Kumbuka kuandika `What` kwa herufi kubwa.
 
 # --scene--
 

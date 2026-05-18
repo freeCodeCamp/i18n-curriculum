@@ -1,62 +1,61 @@
 ---
 id: 66c8fb021dcfcb767dfec33a
-title: Task 16
+title: Zoezi la 16
 challengeType: 19
 dashedName: task-16
 lang: en-US
 ---
-
 <!-- (Audio) Linda: No, we haven't. But we've solved similar issues on other projects. -->
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Sikiliza sauti na ujibu swali lililopo hapa chini.
 
 # --questions--
 
 ## --text--
 
-Which statement below is true?
+Ni taarifa gani ifuatayo ni kweli?
 
 ## --answers--
 
-They have never fixed any issues like this before.
+Hawajawahi kutatua matatizo kama haya hapo awali.
 
 ### --feedback--
 
-Think about whether Linda mentions any experience with similar issues.
+Fikiria kama Linda anataja uzoefu wowote na matatizo yanayofanana.
 
 ---
 
-They have already fixed this exact issue on another project.
+Wamekwisha kutatua tatizo hili hasa kwenye mradi mwingine.
 
 ### --feedback--
 
-Consider whether Linda says they have experience with this specific issue or something similar.
+Fikiria kama Linda anasema kuwa na uzoefu na tatizo hili hasa au tatizo linalofanana.
 
 ---
 
-They haven't fixed this exact issue, but they have fixed similar ones before.
+Hawajatatua tatizo hili hasa, lakini wamewahi kutatua matatizo yanayofanana hapo awali.
 
 ---
 
-They have fixed this issue many times before.
+Wamewahi kutatua tatizo hili mara nyingi hapo awali.
 
 ### --feedback--
 
-Reflect on whether Linda is talking about having fixed this exact issue or something similar.
-
+Fikiria kama Linda anazungumzia kutatua tatizo hili hasa au tatizo linalofanana.
+  
 ## --video-solution--
 
 3
 
 # --explanation--
 
-To find the correct answer, focus on whether Linda is talking about fixing the `exact issue` or `similar issues`.
+Ili kupata jibu sahihi, makini kama Linda anazungumzia kutatua `exact issue` au `similar issues`. 
 
-Linda makes it clear that they haven't fixed this exact problem before, but she also mentions that they have solved similar issues in the past.
+Linda anafafanua wazi kuwa hawajatatua tatizo hili hasa hapo awali, lakini pia anataja kuwa wamewahi kutatua matatizo yanayofanana zamani. 
 
-The correct answer should show this balance—acknowledging no exact match but confirming past experience with related problems.
+Jibu sahihi linapaswa kuonyesha usawa huu—kukubali hakuna tatizo hasa lililotatuliwa lakini kuthibitisha uzoefu wa zamani na matatizo yanayohusiana.
 
 # --scene--
 

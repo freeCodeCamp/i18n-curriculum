@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c242eddfaeb5bd13
-title: Jenga Ukurasa wa Wavuti wa Kibinafsi
+title: Jenga ukurasa wa mtandao wa portfolio binafsi
 challengeType: 14
 saveSubmissionToDB: true
 forumTopicId: 301143
@@ -9,36 +9,36 @@ dashedName: build-a-personal-portfolio-webpage
 
 # --description--
 
-**Objective:** Build an app that is functionally similar to <a href="https://personal-portfolio.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://personal-portfolio.freecodecamp.rocks</a>. **Do not copy this demo project**.
+**Lengo:** Jenga programu inayofanana kiutendaji na <a href="https://personal-portfolio.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://personal-portfolio.freecodecamp.rocks</a>. **Usikopi mradi huu wa maonyesho**.
 
-**Maelekezo:**
+**Hadithi za mtumizi:**
 
-1. Your portfolio should have a welcome section with an `id` of `welcome-section`
-1. Sehemu ya kukaribisha inapaswa kuwa na kipengele cha `h1` ambacho kina maandishi
-1. Wavuti wako unapaswa kuwa na sehemu ya miradi yenye `id` ya `projects`
-1. Sehemu ya miradi inapaswa kuwa na angalau kipengele kimoja chenye `class` ya `project-tile` ili kushikilia mradi
-1. Sehemu ya miradi inapaswa kuwa na angalau link moja ya mradi
-1. Wavuti yako inapaswa kuwa na navbar yenye id `navbar`
-1. Sehemu ya navbar inapaswa kuwa na angalau link moja ambayo unaweza kubofya ili kuelekea sehemu tofauti za ukurasa
-1. Wavuti yako inapaswa kua na link yenye id `profile-link`, ambayo inafungua wasifu wako wa GitHub au freeCodeCamp katika kichupo kipya
-1. Wavuti yako inapaswa kuwa a angalau media query moja
-1. Urefu wa sehemu ya kukaribisha unapaswa kuwa sawa na urefu wa viewport
-1. Sehemu ya navbar inapaswa kuwa juu ya viewport kila wakati
+1. Portfolio yako inapaswa kuwa na sehemu ya kukaribisha yenye `id` ya `welcome-section`
+1. Sehemu ya kukaribisha inapaswa kuwa na kipengele cha `h1` chenye maandishi
+1. Portfolio yako inapaswa kuwa na sehemu ya miradi yenye `id` ya `projects`
+1. Sehemu ya miradi inapaswa kuwa na angalau kipengele kimoja chenye `class` ya `project-tile` kushikilia mradi
+1. Sehemu ya miradi inapaswa kuwa na angalau kiungo kimoja cha mradi
+1. Portfolio yako inapaswa kuwa na navbar yenye kitambulisho cha `navbar`
+1. Navbar inapaswa kuwa na angalau kiungo kimoja ambacho unaweza kubofya kuunganisha na sehemu tofauti za ukurasa
+1. Portfolio yako inapaswa kuwa na kiungo chenye kitambulisho cha `profile-link`, ambacho hufungua wasifu wako wa GitHub au freeCodeCamp kwenye kichupo kipya
+1. Portfolio yako inapaswa kuwa na angalau media query moja
+1. Urefu wa sehemu ya kukaribisha unapaswa kuwa sawa na urefu wa eneo la kuona
+1. Navbar inapaswa kuwa kila wakati juu ya eneo la kuona
 
-Timiza maelezo na upite majaribio yote hapa chini ili kukamilisha mradi huu. Ipe muundo wako wa kibinafsi. Happy Coding!
+Kamilisha hadithi za mtumizi na pita vipimo vyote hapa chini ili kumaliza mradi huu. Toa mtindo wako binafsi. Furahia kuandika msimbo!
 
-**Kumbuka:** Hakikisha umeongeza `<link rel="stylesheet" href="styles.css">` katika HTML yako ili kuunganisha stylesheet yako na utumie CSS yako
+**Kumbuka:** Hakikisha unaongeza `<link rel="stylesheet" href="styles.css">` katika HTML yako kuunganisha na karatasi yako ya mtindo na kutumia CSS yako
 
 # --hints--
 
-Wavuti yako inapaswa kua na sehemu ya "Welcome" yenye `id` ya `welcome-section`.
+Portfolio yako inapaswa kuwa na sehemu ya "Karibu" yenye `id` ya `welcome-section`.
 
 ```js
 const el = document.getElementById('welcome-section');
 assert.isNotNull(el);
 ```
 
-Kipengele chako cha `#welcome-section` lazima kiwe na kipengele cha `h1`.
+Kipengele chako cha `#welcome-section` kinapaswa kuwa na kipengele cha `h1` ndani yake.
 
 ```js
 assert.isAbove(
@@ -48,7 +48,7 @@ assert.isAbove(
 );
 ```
 
-Hupaswi kuwa na vipengele vyovyote tupu vya `h1` ndani ya kipengele cha `#welcome-section`.
+Hupaswi kuwa na vipengele vya `h1` vilivyo tupu ndani ya kipengele cha `#welcome-section`.
 
 ```js
 assert.isAbove(
@@ -58,33 +58,33 @@ assert.isAbove(
 );
 ```
 
-Unapaswa kuwa na sehemu ya "Projects" iliyo na `id` ya `projects`.
+Unapaswa kuwa na sehemu ya "Miradi" yenye `id` ya `projects`.
 
 ```js
 const el = document.getElementById('projects');
 assert.isNotNull(el);
 ```
 
-Wavuti yako inapaswa kua na angalau kipengele kimoja chenye class `project-tile`.
+Portfolio yako inapaswa kuwa na angalau kipengele kimoja chenye darasa la `project-tile`.
 
 ```js
 assert.isAbove(document.querySelectorAll('#projects .project-tile').length, 0);
 ```
 
-Kipengele chako cha `#projects` kinapaswa kuwa na angalau kipengele kimoja cha `a`.
+Kipengele chako cha `#projects` kinapaswa kuwa na angalau kipengele kimoja cha `a` ndani yake.
 
 ```js
 assert.isAbove(document.querySelectorAll('#projects a').length, 0);
 ```
 
-Wavuti yako inapaswa kuwa na navbar yenye `id` ya `navbar`.
+Portfolio yako inapaswa kuwa na navbar yenye `id` ya `navbar`.
 
 ```js
 const el = document.getElementById('navbar');
 assert.isNotNull(el);
 ```
 
-Kipengele chako cha `#navbar` lazima kiwe na angalau kipengele kimoja cha `a` ambacho sifa ya `href` inaanza na `#`.
+Kipengele chako cha `#navbar` kinapaswa kuwa na angalau kipengele kimoja cha `a` ambacho sifa ya kipengele `href` inaanza na `#`.
 
 ```js
 const links = [...document.querySelectorAll('#navbar a')].filter(
@@ -94,7 +94,7 @@ const links = [...document.querySelectorAll('#navbar a')].filter(
 assert.isAbove(links.length, 0, 'Navbar should contain an anchor link ');
 ```
 
-Wavuti yako inapaswa kuwa na kipengele cha `a` chenye `id` ya `profile-link`.
+Portfolio yako inapaswa kuwa na kipengele cha `a` chenye `id` ya `profile-link`.
 
 ```js
 const el = document.getElementById('profile-link');
@@ -102,7 +102,7 @@ assert.isNotNull(el);
 assert.strictEqual(el.tagName, 'A');
 ```
 
-Kipengele chako cha `#profile-link` kinapaswa kuwa na sifa ya `target` iliyo `_blank`.
+Kipengele chako cha `#profile-link` kinapaswa kuwa na sifa ya kipengele `target` yenye thamani ya `_blank`.
 
 ```js
 const el = document.getElementById('profile-link');
@@ -110,7 +110,7 @@ assert.isNotNull(el);
 assert.strictEqual(el.target, '_blank');
 ```
 
-Wavuti yako inapaswa kutumia angalau media query moja.
+Portfolio yako inapaswa kutumia angalau media query moja.
 
 ```js
 const htmlSourceAttr = Array.from(document.querySelectorAll('source')).map(el => el.getAttribute('media'))
@@ -118,7 +118,7 @@ const cssCheck = new __helpers.CSSHelp(document).getCSSRules('media')
 assert.isTrue(cssCheck.length > 0 || htmlSourceAttr.length > 0);
 ```
 
-Kipengele chako cha `#navbar` kinapaswa kuwa juu ya viewport kila wakati.
+Kipengele chako cha `#navbar` kinapaswa kuwa kila wakati juu ya eneo la kuona.
 
 ```js
   const timeout = milliseconds =>

@@ -1,6 +1,6 @@
 ---
 id: 703bcd12c0edae7773eeec64
-title: Building a Translator
+title: Einen Übersetzer bauen
 challengeType: 11
 videoId: 3Sa5rwlKdGQ
 dashedName: building-a-translator
@@ -8,13 +8,13 @@ dashedName: building-a-translator
 
 # --description--
 
-In this video, you will build a simple translator program using dictionaries and user input.
+In diesem Video bauen Sie ein einfaches Übersetzerprogramm mithilfe von Dictionaries und Benutzereingaben.
 
 # --questions--
 
 ## --text--
 
-Which of the following methods is used to check if all characters in a string are uppercase?
+Welche der folgenden Methoden wird verwendet, um zu prüfen, ob alle Zeichen in einem String Großbuchstaben sind?
 
 ## --answers--
 

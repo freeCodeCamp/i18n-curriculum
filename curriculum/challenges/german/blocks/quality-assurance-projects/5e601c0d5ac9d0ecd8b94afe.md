@@ -1,6 +1,6 @@
 ---
 id: 5e601c0d5ac9d0ecd8b94afe
-title: Amerikanisch-Britischer Übersetzer
+title: Amerikanisch-britischer Übersetzer
 challengeType: 4
 forumTopicId: 462358
 dashedName: american-british-translator
@@ -8,59 +8,59 @@ dashedName: american-british-translator
 
 # --description--
 
-Build a full-stack JavaScript app that is functionally similar to this: <a href="https://american-british-translator.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://american-british-translator.freecodecamp.rocks/</a>. Working on this project will involve you writing your code using one of the following methods:
+Erstellen Sie eine Full-Stack-JavaScript-Anwendung, die funktional ähnlich ist wie diese: <a href="https://american-british-translator.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://american-british-translator.freecodecamp.rocks/</a>. Die Arbeit an diesem Projekt beinhaltet, dass Sie Ihren Code mit einer der folgenden Methoden schreiben:
 
--   Clone <a href="https://github.com/freeCodeCamp/boilerplate-project-american-british-english-translator/" target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete your project locally.
--   Use a site builder of your choice to complete the project. Be sure to incorporate all the files from our GitHub repo.
+-   Klonen Sie <a href="https://github.com/freeCodeCamp/boilerplate-project-american-british-english-translator/" target="_blank" rel="noopener noreferrer nofollow">dieses GitHub-Repository</a> und vervollständigen Sie Ihr Projekt lokal.
+-   Verwenden Sie einen Website-Builder Ihrer Wahl, um das Projekt abzuschließen. Stellen Sie sicher, dass Sie alle Dateien aus unserem GitHub-Repository einbinden.
 
 # --instructions--
 
--   All logic can go into `/components/translator.js`
--   Vervollständige den `/api/translate` eingefügt in `/routes/api.js`
--   Erstelle alle unit/functional Tests in `tests/1_unit-tests.js` und `tests/2_functional-tests.js`
--   In den JavaScript-Dateien unter `/components` findest du verschiedene Schreibweisen und Begriffe, die deine App übersetzen soll
--   Um die Tests automatisch auszuführen, setze in der `.env`-Datei `NODE_ENV` auf `test` ohne Anführungszeichen
--   To run the tests in the console, use the command `npm run test`.
+-   Die gesamte Logik kann in `/components/translator.js` eingefügt werden
+-   Vervollständigen Sie die `/api/translate`-Route in `/routes/api.js`
+-   Erstellen Sie alle Unit-/funktionalen Tests in `tests/1_unit-tests.js` und `tests/2_functional-tests.js`
+-   Sehen Sie sich die JavaScript-Dateien in `/components` an für die verschiedenen Schreibweisen und Begriffe, die Ihre Anwendung übersetzen soll
+-   Um die Tests automatisch auszuführen, setzen Sie `NODE_ENV` in der `test`-Datei auf `.env` ohne Anführungszeichen
+-   Um die Tests in der Konsole auszuführen, verwenden Sie den Befehl `npm run test`
 
-Write the following tests in `tests/1_unit-tests.js`:
+Schreiben Sie die folgenden Tests in `tests/1_unit-tests.js`:
 
--   Translate `Mangoes are my favorite fruit.` to British English
--   Übersetze `I ate yogurt for breakfast.` in Britisches Englisch
--   Übersetze `We had a party at my friend's condo.` in Britisches Englisch
--   Übersetze `Can you toss this in the trashcan for me?` in Britisches Englisch
--   Übersetze `The parking lot was full.` in Britisches Englisch
--   Übersetze `Like a high tech Rube Goldberg machine.` in Britisches Englisch
--   Übersetze `To play hooky means to skip class or work.` in Britisches Englisch
--   Übersetze `No Mr. Bond, I expect you to die.` in Britisches Englisch
--   Übersetze `Dr. Grosh will see you now.` in Britisches Englisch
--   Übersetze `Lunch is at 12:15 today.` in Britisches Englisch
--   Übersetze `We watched the footie match for a while.` in Amerikanisches Englisch
--   Übersetze `Paracetamol takes up to an hour to work.` in Amerikanisches Englisch
--   Übersetze `First, caramelise the onions.` in Amerikanisches Englisch
--   Übersetze `I spent the bank holiday at the funfair.` in Amerikanisches Englisch
--   Übersetze `I had a bicky then went to the chippy.` in Amerikanisches Englisch
--   Übersetze `I've just got bits and bobs in my bum bag.` in Amerikanisches Englisch
--   Übersetze `The car boot sale at Boxted Airfield was called off.` in Amerikanisches Englisch
--   Übersetze `Have you met Mrs Kalyani?` in Amerikanisches Englisch
--   Übersetze `Prof Joyner of King's College, London.` in Amerikanisches Englisch
--   Übersetze ` die Tee-Zeit ist normalwerweise um 4 or 4.30.` in amerikanisches Englisch
--   Übersetzung hervorheben in `Mangos sind meine Lieblingsfrucht.`
--   Übersetzung hervorheben in `Ich habe Joghurt zum Frühstück gegessen.`
--   Übersetzung hervorheben in `Wir haben uns das Fußballspiel eine Weile angesehen.`
--   Übersetzung hervorheben in `Paracetamol braucht bis zu einer Stunde, um zu wirken.`
+-   Übersetzen Sie `Mangoes are my favorite fruit.` ins britische Englisch
+-   Übersetzen Sie `I ate yogurt for breakfast.` ins britische Englisch
+-   Übersetzen Sie `We had a party at my friend's condo.` ins britische Englisch
+-   Übersetzen Sie `Can you toss this in the trashcan for me?` ins britische Englisch
+-   Übersetzen Sie `The parking lot was full.` ins britische Englisch
+-   Übersetzen Sie `Like a high tech Rube Goldberg machine.` ins britische Englisch
+-   Übersetzen Sie `To play hooky means to skip class or work.` ins britische Englisch
+-   Übersetzen Sie `No Mr. Bond, I expect you to die.` ins britische Englisch
+-   Übersetzen Sie `Dr. Grosh will see you now.` ins britische Englisch
+-   Übersetzen Sie `Lunch is at 12:15 today.` ins britische Englisch
+-   Übersetzen Sie `We watched the footie match for a while.` ins amerikanische Englisch
+-   Übersetzen Sie `Paracetamol takes up to an hour to work.` ins amerikanische Englisch
+-   Übersetzen Sie `First, caramelise the onions.` ins amerikanische Englisch
+-   Übersetzen Sie `I spent the bank holiday at the funfair.` ins amerikanische Englisch
+-   Übersetzen Sie `I had a bicky then went to the chippy.` ins amerikanische Englisch
+-   Übersetzen Sie `I've just got bits and bobs in my bum bag.` ins amerikanische Englisch
+-   Übersetzen Sie `The car boot sale at Boxted Airfield was called off.` ins amerikanische Englisch
+-   Übersetzen Sie `Have you met Mrs Kalyani?` ins amerikanische Englisch
+-   Übersetzen Sie `Prof Joyner of King's College, London.` ins amerikanische Englisch
+-   Übersetzen Sie `Tea time is usually around 4 or 4.30.` ins amerikanische Englisch
+-   Markieren Sie die Übersetzung in `Mangoes are my favorite fruit.`
+-   Markieren Sie die Übersetzung in `I ate yogurt for breakfast.`
+-   Markieren Sie die Übersetzung in `We watched the footie match for a while.`
+-   Markieren Sie die Übersetzung in `Paracetamol takes up to an hour to work.`
 
-Schreibe die folgenden Tests in `tests/2_functional-tests.js`:
+Schreiben Sie die folgenden Tests in `tests/2_functional-tests.js`:
 
--   Translation with text and locale fields: POST request to `/api/translate`
--   Übersetzung mit Text und ungültigem lokalen Feld: POST-Anfrage an `/api/translate`
+-   Übersetzung mit Text- und Locale-Feldern: POST-Anfrage an `/api/translate`
+-   Übersetzung mit Text- und ungültigem Locale-Feld: POST-Anfrage an `/api/translate`
 -   Übersetzung mit fehlendem Textfeld: POST-Anfrage an `/api/translate`
--   Übersetzung mit fehlendem lokalen Feld: POST-Anfrage an `/api/translate`
--   Übersetzung mit Text, die keine Übersetzung erfordert: POST-Anfrage an `/api/translate`
--   Übersetzung mit Text, die keine Übersetzung erfordert: POST-Anfrage an `/api/translate`
+-   Übersetzung mit fehlendem Locale-Feld: POST-Anfrage an `/api/translate`
+-   Übersetzung mit leerem Text: POST-Anfrage an `/api/translate`
+-   Übersetzung mit Text, der keine Übersetzung benötigt: POST-Anfrage an `/api/translate`
 
 # --hints--
 
-Du solltest dein eigenes Projekt angeben und nicht die Beispiel-URL.
+Sie sollten Ihr eigenes Projekt bereitstellen, nicht die Beispiel-URL.
 
 ```js
   assert(
@@ -70,7 +70,7 @@ Du solltest dein eigenes Projekt angeben und nicht die Beispiel-URL.
   );
 ```
 
-You can `POST` to `/api/translate` with a body containing `text` with the text to translate and `locale` with either `american-to-british` or `british-to-american`. The returned object should contain the submitted `text` and `translation` with the translated text.
+Sie können `POST` an `/api/translate` senden mit einem Body, der `text` mit dem zu übersetzenden Text und `locale` mit entweder `american-to-british` oder `british-to-american` enthält. Das zurückgegebene Objekt sollte die übermittelten `text` und `translation` mit dem übersetzten Text enthalten.
 
 ```js
   try {
@@ -96,7 +96,7 @@ You can `POST` to `/api/translate` with a body containing `text` with the text t
   }
 ```
 
-The `/api/translate` route should handle the way time is written in American and British English. For example, ten thirty is written as "10.30" in British English and "10:30" in American English. The `span` element should wrap the entire time string, i.e. `<span class="highlight">10:30</span>`.
+Die `/api/translate`-Route sollte die unterschiedliche Schreibweise der Zeit im amerikanischen und britischen Englisch behandeln. Zum Beispiel wird zehn Uhr dreißig als „10.30“ im britischen Englisch und als „10:30“ im amerikanischen Englisch geschrieben. Das `span`-Element sollte den gesamten Zeitstring umschließen, also `<span class="highlight">10:30</span>`.
 
 ```js
   try {
@@ -121,7 +121,7 @@ The `/api/translate` route should handle the way time is written in American and
   }
 ```
 
-The `/api/translate` route should also handle the way titles/honorifics are abbreviated in American and British English. For example, Doctor Wright is abbreviated as "Dr Wright" in British English and "Dr. Wright" in American English. See `/components/american-to-british-titles.js` for the different titles your application should handle.
+Die `/api/translate`-Route sollte auch die unterschiedliche Abkürzung von Titeln/Honorifics im amerikanischen und britischen Englisch behandeln. Zum Beispiel wird Doctor Wright als „Dr Wright“ im britischen Englisch und als „Dr. Wright“ im amerikanischen Englisch abgekürzt. Siehe `/components/american-to-british-titles.js` für die verschiedenen Titel, die Ihre Anwendung behandeln soll.
 
 ```js
   try {
@@ -146,7 +146,7 @@ The `/api/translate` route should also handle the way titles/honorifics are abbr
   }
 ```
 
-Wrap any translated spelling or terms with `<span class="highlight">...</span>` tags so they appear in green.
+Umschließen Sie jede übersetzte Schreibweise oder jeden Begriff mit `<span class="highlight">...</span>`-Tags, damit sie grün angezeigt werden.
 
 ```js
   try {
@@ -172,7 +172,7 @@ Wrap any translated spelling or terms with `<span class="highlight">...</span>` 
   }
 ```
 
-If one or more of the required fields is missing, return `{ error: 'Required field(s) missing' }`.
+Wenn eines oder mehrere der Pflichtfelder fehlen, geben Sie `{ error: 'Required field(s) missing' }` zurück.
 
 ```js
   try {
@@ -191,7 +191,7 @@ If one or more of the required fields is missing, return `{ error: 'Required fie
   }
 ```
 
-If `text` is empty, return `{ error: 'No text to translate' }`
+Wenn `text` leer ist, geben Sie `{ error: 'No text to translate' }` zurück.
 
 ```js
   try {
@@ -210,7 +210,7 @@ If `text` is empty, return `{ error: 'No text to translate' }`
   }
 ```
 
-If `locale` does not match one of the two specified locales, return `{ error: 'Invalid value for locale field' }`.
+Wenn `locale` nicht mit einem der beiden angegebenen Locales übereinstimmt, geben Sie `{ error: 'Invalid value for locale field' }` zurück.
 
 ```js
   try {
@@ -230,7 +230,7 @@ If `locale` does not match one of the two specified locales, return `{ error: 'I
   }
 ```
 
-If `text` requires no translation, return `"Everything looks good to me!"` for the `translation` value.
+Wenn `text` keine Übersetzung benötigt, geben Sie `"Everything looks good to me!"` für den `translation`-Wert zurück.
 
 ```js
   try {
@@ -255,7 +255,7 @@ If `text` requires no translation, return `"Everything looks good to me!"` for t
   }
 ```
 
-All 24 unit tests are complete and passing.
+Alle 24 Unit-Tests sind vollständig und erfolgreich.
 
 ```js
   try {
@@ -282,7 +282,7 @@ All 24 unit tests are complete and passing.
   }
 ```
 
-All 6 functional tests are complete and passing.
+Alle 6 funktionalen Tests sind vollständig und erfolgreich.
 
 ```js
   try {

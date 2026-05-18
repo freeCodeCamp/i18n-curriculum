@@ -1,6 +1,6 @@
 ---
 id: 698de2547932b3cc4b19c939
-title: Evaluating the Runtime of Merge Sort
+title: Bewertung der Laufzeit von Merge Sort
 challengeType: 11
 videoId: QJoIVAzN1LM
 dashedName: evaluating-the-runtime-of-merge-sort
@@ -8,17 +8,17 @@ dashedName: evaluating-the-runtime-of-merge-sort
 
 # --description--
 
-In this video, you will learn about the runtimes for the merge sort algorithm.
+In diesem Video lernen Sie die Laufzeiten des Merge-Sort-Algorithmus kennen.
 
 # --questions--
 
 ## --text--
 
-What is the space complexity for merge sort?
+Wie hoch ist die Speicherkomplexität von Merge Sort?
 
 ## --answers--
 
-exponential
+exponentiell
 
 ---
 
@@ -26,11 +26,11 @@ linear
 
 ---
 
-quadratic
+quadratisch
 
 ---
 
-constant
+konstant
 
 ## --video-solution--
 

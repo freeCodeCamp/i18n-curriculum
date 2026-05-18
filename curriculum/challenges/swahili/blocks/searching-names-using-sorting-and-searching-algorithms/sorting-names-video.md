@@ -1,6 +1,6 @@
 ---
 id: 698dea3b7932b3cc4b19c94a
-title: Sorting Names
+title: Kupanga majina
 challengeType: 11
 videoId: DpuNKrUDr40
 dashedName: sorting-names
@@ -8,13 +8,13 @@ dashedName: sorting-names
 
 # --description--
 
-In this video, you will implement the quicksort algorithm in Python to sort a list of names.
+Katika video hii, uta tekeleza algoriti ya quicksort katika Python kupanga orodha ya majina.
 
 # --questions--
 
 ## --text--
 
-What symbol does the instructor use in the video the redirect the program's output to another file in linux?
+Ni alama gani mwalimu anayotumia katika video kuelekeza upya matokeo ya programu kwenda faili nyingine katika linux?
 
 ## --answers--
 

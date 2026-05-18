@@ -1,6 +1,6 @@
 ---
 id: 699e855e8f18cf77dfce5c22
-title: Parabolas - Vertex, Focus, Directrix
+title: "Parabeln – Scheitelpunkt, Fokus, Leitlinie"
 challengeType: 11
 videoId: fAXpgprNFq0
 dashedName: parabolas-vertex-focus-directrix
@@ -8,13 +8,13 @@ dashedName: parabolas-vertex-focus-directrix
 
 # --description--
 
-In this video, you will learn about special forms for equations of parabolas, and how to find the vertex, focus, and directrix of a parabola.
+In diesem Video lernen Sie spezielle Formen von Gleichungen für Parabeln kennen und wie Sie den Scheitelpunkt, den Fokus und die Leitlinie einer Parabel finden.
 
 # --questions--
 
 ## --text--
 
-Which of the following is a valid form for the equation of a parabola?
+Welche der folgenden Formen ist eine gültige Gleichung für eine Parabel?
 
 ## --answers--
 

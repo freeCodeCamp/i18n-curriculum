@@ -1,6 +1,6 @@
 ---
 id: 9afe5e8141b13e9f1d59d46e
-title: Building a Multiple Choice Quiz
+title: Kujenga jaribio fupi la chaguo nyingi
 challengeType: 11
 videoId: GJMmSaB8RN0
 dashedName: building-a-multiple-choice-quiz
@@ -8,13 +8,13 @@ dashedName: building-a-multiple-choice-quiz
 
 # --description--
 
-In this video, you will practice what you have learned about classes and objects by building a multiple choice quiz.
+Katika video hii, utafanya mazoezi ya kile ulichojifunza kuhusu madarasa ya vitu na vitu kwa kujenga jaribio fupi la chaguo nyingi.
 
 # --questions--
 
 ## --text--
 
-Which of the following is the correct way to import the `Question` class from the `Question` module?
+Ni ipi kati ya zifuatazo ndiyo njia sahihi ya ku-import darasa la `Question` kutoka moduli ya `Question`?
 
 ## --answers--
 

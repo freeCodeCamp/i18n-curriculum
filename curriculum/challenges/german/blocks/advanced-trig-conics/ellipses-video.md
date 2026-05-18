@@ -1,6 +1,6 @@
 ---
 id: 699e85648f18cf77dfce5c23
-title: Ellipses
+title: Ellipsen
 challengeType: 11
 videoId: AwBM2AMwfu8
 dashedName: ellipses
@@ -8,29 +8,29 @@ dashedName: ellipses
 
 # --description--
 
-In this video, you will learn about ellipses, their standard equations, and how to identify their key features.
+In diesem Video lernen Sie Ellipsen, ihre Standardgleichungen und wie Sie ihre wichtigsten Funktionen erkennen.
 
 # --questions--
 
 ## --text--
 
-What is an ellipse?
+Was ist eine Ellipse?
 
 ## --answers--
 
-The set of points such that the sum of the distances from two fixed points is constant.
+Die Menge der Punkte, bei denen die Summe der Abstände von zwei festen Punkten konstant ist.
 
 ---
 
-The set of points such that the distance from one fixed point is constant.
+Die Menge der Punkte, bei denen der Abstand von einem festen Punkt konstant ist.
 
 ---
 
-The set of points such that the product of the distances from two fixed points is constant.
+Die Menge der Punkte, bei denen das Produkt der Abstände von zwei festen Punkten konstant ist.
 
 ---
 
-The set of points equidistant from a line and a point.
+Die Menge der Punkte, die von einer Linie und einem Punkt gleich weit entfernt sind.
 
 ## --video-solution--
 

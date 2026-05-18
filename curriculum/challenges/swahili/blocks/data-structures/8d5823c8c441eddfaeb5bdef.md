@@ -1,6 +1,6 @@
 ---
 id: 8d5823c8c441eddfaeb5bdef
-title: Create a Map Data Structure
+title: Unda muundo wa data wa ramani
 challengeType: 1
 forumTopicId: 301629
 dashedName: create-a-map-data-structure
@@ -8,25 +8,25 @@ dashedName: create-a-map-data-structure
 
 # --description--
 
-The next few challenges will cover maps and hash tables. Maps are data structures that store key-value pairs. In JavaScript, these are available to us as objects. Maps provide rapid lookup of stored items based on key values and are very common and useful data structures.
+Changamoto chache zinazofuata zitahusu ramani na jedwali za hash. Ramani ni miundo ya data inayohifadhi jozi za ufunguo-thamani. Katika JavaScript, hizi zinapatikana kwetu kama vitu. Ramani hutoa upatikanaji wa haraka wa vitu vilivyohifadhiwa kulingana na thamani za ufunguo na ni miundo ya data inayopatikana sana na yenye manufaa.
 
 # --instructions--
 
-Let's get some practice creating our own map. Because JavaScript objects provide a much more efficient map structure than anything we could write here, this is intended primarily as a learning exercise. However, JavaScript objects only provide us with certain operations. What if we wanted to define custom operations? Use the `Map` object provided here as a wrapper around a JavaScript `object`. Create the following methods and operations on the Map object:
+Tuanze mazoezi ya kuunda ramani yetu wenyewe. Kwa sababu vitu vya JavaScript hutoa muundo wa ramani wenye ufanisi zaidi kuliko chochote tunachoweza kuandika hapa, hili lina kusudiwa zaidi kama zoezi la kujifunza. Hata hivyo, vitu vya JavaScript vinatupatia tu baadhi ya operesheni. Je, tungetaka kufafanua operesheni maalum? Tumia kitu cha `Map` kilichotolewa hapa kama kifuniko cha `object` cha JavaScript. Unda njia na operesheni zifuatazo kwenye kitu cha Ramani:
 
 <ul>
-<li><code>add</code> accepts a <code>key, value</code> pair to add to the map.</li>
-<li><code>remove</code> accepts a key and removes the associated <code>key, value</code> pair</li>
-<li><code>get</code> accepts a <code>key</code> and returns the stored <code>value</code></li>
-<li><code>has</code> accepts a <code>key</code> and returns <dfn>true</dfn> if the key exists or <dfn>false</dfn> if it doesn't.</li>
-<li><code>values</code> returns an array of all the values in the map</li>
-<li><code>size</code> returns the number of items in the map</li>
-<li><code>clear</code> empties the map</li>
+<li><code>add</code> inakubali jozi ya <code>ufunguo, thamani</code> kuongeza kwenye ramani.</li>
+<li><code>remove</code> inakubali ufunguo na inafuta jozi ya <code>ufunguo, thamani</code> inayohusiana</li>
+<li><code>get</code> inakubali <code>ufunguo</code> na inarudisha <code>thamani</code> iliyohifadhiwa</li>
+<li><code>has</code> inakubali <code>ufunguo</code> na inarudisha <dfn>true</dfn> ikiwa ufunguo upo au <dfn>false</dfn> ikiwa haupo.</li>
+<li><code>values</code> inarudisha safu ya data ya thamani zote zilizomo kwenye ramani</li>
+<li><code>size</code> inarudisha idadi ya vitu vilivyomo kwenye ramani</li>
+<li><code>clear</code> inafuta ramani yote</li>
 </ul>
 
 # --hints--
 
-The `Map` data structure should exist.
+Muundo wa data wa `Map` unapaswa kuwepo.
 
 ```js
 assert(
@@ -40,7 +40,7 @@ assert(
 );
 ```
 
-The `Map` object should have the following methods: `add`, `remove`, `get`, `has`, `values`, `clear`, and `size`.
+Kitu cha `Map` kinapaswa kuwa na njia zifuatazo: `add`, `remove`, `get`, `has`, `values`, `clear`, na `size`.
 
 ```js
 assert(
@@ -62,7 +62,7 @@ assert(
 );
 ```
 
-The `add` method should add items to the map.
+Njia ya `add` inapaswa kuongeza vitu kwenye ramani.
 
 ```js
 assert(
@@ -79,7 +79,7 @@ assert(
 );
 ```
 
-The `has` method should return `true` for added items and `false` for absent items.
+Njia ya `has` inapaswa kurudisha `true` kwa vitu vilivyoongezwa na `false` kwa vitu visivyo.
 
 ```js
 assert(
@@ -94,7 +94,7 @@ assert(
 );
 ```
 
-The `get` method should accept keys as input and should return the associated values.
+Njia ya `get` inapaswa kupokea funguo kama ingizo na inapaswa kurudisha thamani zinazohusiana.
 
 ```js
 assert(
@@ -109,7 +109,7 @@ assert(
 );
 ```
 
-The `values` method should return all the values stored in the map as strings in an array.
+Njia ya `values` inapaswa kurudisha thamani zote zilizohifadhiwa kwenye ramani kama mfuatano wa herufi katika safu ya data.
 
 ```js
 assert(
@@ -131,7 +131,7 @@ assert(
 );
 ```
 
-The `clear` method should empty the map and the `size` method should return the number of items present in the map.
+Njia ya `clear` inapaswa kufuta ramani na njia ya `size` inapaswa kurudisha idadi ya vitu vilivyopo kwenye ramani.
 
 ```js
 assert(
@@ -158,7 +158,7 @@ assert(
 var Map = function() {
   this.collection = {};
   // Only change code below this line
-
+  
   // Only change code above this line
 };
 ```

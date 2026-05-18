@@ -1,26 +1,26 @@
 ---
 id: 65b006efc74c675c2bdfccba
-title: Hatua ya 33
+title: Hatua 33
 challengeType: 0
 dashedName: step-33
 ---
 
 # --description--
 
-For the last condition, you will need to check if the player's `x` position has exceeded the right edge of the canvas. If it has, you will need to set the player's `x` position to the maximum value so the player does not accidentally go off screen to the right.
+Kwa hali ya mwisho, utahitaji kukagua kama mchezaji ana nafasi ya `x` ambayo imezidi ukingo wa kulia wa turubai ya kuchora. Ikiwa imezidi, utahitaji kuweka nafasi ya `x` ya mchezaji kuwa thamani ya juu kabisa ili mchezaji asiende kwa bahati mbaya nje ya skrini upande wa kulia.
 
-Inside your `update` method, create an `if` statement that checks if `this.position.x >= canvas.width - this.width * 2`.
+Ndani ya njia yako ya `update`, tengeneza usemi wa `if` unaokagua kama `this.position.x >= canvas.width - this.width * 2`.
 
 # --hints--
 
-You should have another `if` statement inside your `update` method.
+Unapaswa kuwa na usemi mwingine wa `if` ndani ya njia yako ya `update`.
 
 ```js
 const player = new Player();
 assert.lengthOf(player?.update?.toString().match(/if\s*\(\s*.*\s*\)\s*{/g), 4);
 ```
 
-Your `if` statement should check if `this.position.x >= canvas.width - this.width * 2`.
+Usemi wako wa `if` unapaswa kukagua kama `this.position.x >= canvas.width - this.width * 2`.
 
 ```js
 const player = new Player();
@@ -197,7 +197,7 @@ class Player {
     ctx.fillStyle = "#99c9ff";
     ctx.fillRect(this.position.x, this.position.y, this.width, this.height);
   }
-
+  
   update() {
     this.draw();
     this.position.x += this.velocity.x;

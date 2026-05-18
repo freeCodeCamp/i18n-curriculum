@@ -1,6 +1,6 @@
 ---
 id: 67eeb0a9bfe9ce2ab1cbffd2
-title: Task 29
+title: Aufgabe 29
 challengeType: 19
 dashedName: task-29
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Hören Sie sich das Audio an und beantworten Sie die folgende Frage.
 
 # --questions--
 
 ## --text--
 
-What else should Mark have done?
+Was hätte Mark sonst noch tun sollen?
 
 ## --answers--
 
-He should have rewritten his entire code.
+Er hätte seinen gesamten Code neu schreiben sollen.
 
 ### --feedback--
 
-Mark didn't need to rewrite everything.
+Mark musste nicht alles neu schreiben.
 
 ---
 
-He should have tested his code first.
+Er hätte seinen Code zuerst testen sollen.
 
 ---
 
-He should have removed all comments.
+Er hätte alle Kommentare entfernen sollen.
 
 ### --feedback--
 
-Comments are useful and should not be removed.
+Kommentare sind nützlich und sollten nicht entfernt werden.
 
 ---
 
-He should have skipped testing because it takes too long.
+Er hätte das Testen überspringen sollen, weil es zu lange dauert.
 
 ### --feedback--
 
-Testing is an important step before submitting code.
+Das Testen ist ein wichtiger Schritt, bevor Sie Code absenden.
 
 ## --video-solution--
 
@@ -52,11 +52,11 @@ Testing is an important step before submitting code.
 
 # --explanation--
 
-A `test suite` is a collection of tests that check if a program works correctly. For example:
+Eine `test suite` ist eine Sammlung von Tests, die überprüfen, ob ein Programm korrekt funktioniert. Zum Beispiel:
 
-- `We ran the test suite to check if the app works properly.` - The team executed all the tests to ensure the app functions as expected.
+- `We ran the test suite to check if the app works properly.` – Das Team führte alle Tests aus, um sicherzustellen, dass die App wie erwartet funktioniert.
 
-- `We need to add more tests to the test suite to check for edge cases.` - The team should include more tests to cover all possible situations.
+- `We need to add more tests to the test suite to check for edge cases.` – Das Team sollte mehr Tests hinzufügen, um alle möglichen Situationen abzudecken.
 
 # --scene--
 

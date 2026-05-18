@@ -1,6 +1,6 @@
 ---
 id: cf1111c1c11feddfaeb9bdef
-title: Generiere zufällige Brüche mit JavaScript
+title: Zufällige Brüche mit JavaScript erzeugen
 challengeType: 1
 forumTopicId: 18185
 dashedName: generate-random-fractions-with-javascript
@@ -8,19 +8,19 @@ dashedName: generate-random-fractions-with-javascript
 
 # --description--
 
-Random numbers are useful for creating random behavior.
+Zufallszahlen sind nützlich, um zufälliges Verhalten zu erzeugen.
 
-JavaScript hat eine Funktion `Math.random()`, die eine zufällige Dezimalzahl zwischen `0` (einschließlich) und `1` (ausschließlich) erzeugt. So kann `Math.random()` eine `0` zurückgeben, aber niemals eine `1`.
+JavaScript hat eine `Math.random()`-Funktion, die eine zufällige Dezimalzahl zwischen `0` (einschließlich) und `1` (exklusiv) erzeugt. Daher kann `Math.random()` einen `0` zurückgeben, aber niemals einen `1`.
 
-**Hinweis:** Wie bei <a href="/learn/javascript-algorithms-and-data-structures/basic-javascript/storing-values-with-the-assignment-operator" target="_blank" rel="noopener noreferrer nofollow">Speichern von Werten mit dem Zuweisungsoperator</a> werden alle Funktionsaufrufe aufgelöst, bevor `return` ausgeführt wird, sodass wir den Wert der `Math.random()`-Funktion mittels `return` zurückgeben können.
+**Hinweis:** Wie bei <a href="/learn/javascript-algorithms-and-data-structures/basic-javascript/storing-values-with-the-assignment-operator" target="_blank" rel="noopener noreferrer nofollow">Werte mit dem Zuweisungsoperator speichern</a> werden alle Funktionsaufrufe vor der Ausführung des `return` aufgelöst, sodass wir den Wert der `return`-Funktion `Math.random()` können.
 
 # --instructions--
 
-Ändere `randomFraction` so, dass es eine Zufallszahl zurückgibt, anstatt `0` zu liefern.
+Ändern Sie `randomFraction`, damit es eine zufällige Zahl zurückgibt, anstatt `0` zurückzugeben.
 
 # --hints--
 
-`randomFraction` sollte eine Zufallszahl zurückgeben.
+`randomFraction` sollte eine zufällige Zahl zurückgeben.
 
 ```js
 assert(typeof randomFraction() === 'number');
@@ -32,7 +32,7 @@ Die von `randomFraction` zurückgegebene Zahl sollte eine Dezimalzahl sein.
 assert((randomFraction() + '').match(/\./g));
 ```
 
-Du solltest `Math.random` verwenden, um die zufällige Dezimalzahl zu erzeugen.
+Sie sollten `Math.random` verwenden, um die zufällige Dezimalzahl zu erzeugen.
 
 ```js
 assert(__helpers.removeJSComments(code).match(/Math\.random/g).length >= 0);

@@ -1,6 +1,6 @@
 ---
 id: 698ddfc37932b3cc4b19c937
-title: Recursively Merging Sublists
+title: Rekursives Zusammenführen von Sublists
 challengeType: 11
 videoId: aLZglY5hO-A
 dashedName: recursively-merging-sublists
@@ -8,29 +8,29 @@ dashedName: recursively-merging-sublists
 
 # --description--
 
-In this video, you will learn more about the merge sort algorithm and see how to recursively merge sublists.
+In diesem Video lernen Sie mehr über den Merge-Sort-Algorithmus und sehen, wie man Sublists rekursiv zusammenführt.
 
 # --questions--
 
 ## --text--
 
-What is the purpose of the merge function in the merge sort algorithm?
+Was ist der Zweck der merge-Funktion im Merge-Sort-Algorithmus?
 
 ## --answers--
 
-It combines two sorted sublists into a single sorted list.
+Sie kombiniert zwei sortierte Sublists zu einer einzigen sortierten Liste.
 
 ---
 
-It splits the list into smaller sublists.
+Sie teilt die Liste in kleinere Sublists auf.
 
 ---
 
-It selects the largest element from the list.
+Sie wählt das größte Element aus der Liste aus.
 
 ---
 
-It reverses the order of the list.
+Sie kehrt die Reihenfolge der Liste um.
 
 ## --video-solution--
 

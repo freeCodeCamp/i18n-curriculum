@@ -1,6 +1,6 @@
 ---
 id: 698dc6f47932b3cc4b19c923
-title: Quasilinear Time
+title: Muda wa Quasilinear
 challengeType: 11
 videoId: p3UAfZZ3Nz0
 dashedName: quasilinear-time
@@ -8,13 +8,13 @@ dashedName: quasilinear-time
 
 # --description--
 
-In this video, you will about quasilinear times.
+Katika video hii, utajifunza kuhusu muda wa quasilinear.
 
 # --questions--
 
 ## --text--
 
-Which of the following is the correct way to represent quasilinear time in Big O notation?
+Ni ipi kati ya zifuatazo ndiyo njia sahihi ya kuwakilisha muda wa quasilinear katika noti ya Big O?
 
 ## --answers--
 

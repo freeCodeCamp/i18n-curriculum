@@ -1,36 +1,36 @@
 ---
 id: 697fe6c932baa3841ab62a65
-title: Python Interpreter
+title: Mfasiri wa Python
 challengeType: 11
-videoId: '-c1vFEsIod4'
+videoId: -c1vFEsIod4
 dashedName: python-interpreter
 ---
 
 # --description--
 
-In this video, you will learn how to work with the Python interpreter.
+Katika video hii, utafundishwa jinsi ya kufanya kazi na mfasiri wa Python.
 
 # --questions--
 
 ## --text--
 
-What is the Python interpreter?
+Mfasiri wa Python ni nini?
 
 ## --answers--
 
-This is a program that writes Python code for you.
+Hii ni programu inayosoma na kutekeleza msimbo wa Python.
 
 ---
 
-This is a tool that compiles Python into Java or C++.
+Hii ni programu inayotafsiri Python kuwa Java au C++.
 
 ---
 
-This is a library that stores Python functions.
+Hii ni maktaba inayohifadhi kitendakazi za Python.
 
 ---
 
-This is a program that reads and executes Python code.
+Hii ni programu inayotunga msimbo wa Python kwa niaba yako.
 
 ## --video-solution--
 

@@ -1,6 +1,6 @@
 ---
 id: 68555dfadef342c2db9b5abf
-title: Task 83
+title: Zoezi la 83
 challengeType: 22
 dashedName: task-83
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Sikiliza sauti na ukamilishe sentensi ifuatayo.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This two-word phrase means introduced or caused something to appear or become an issue. The first word is the past tense form of `bring`.
+Usemi huu wa maneno mawili unamaanisha kuanzisha au kusababisha jambo kuonekana au kuwa tatizo. Neno la kwanza ni umbo la wakati uliopita la `bring`.
 
 ---
 
@@ -32,17 +32,17 @@ This two-word phrase means introduced or caused something to appear or become an
 
 ### --feedback--
 
-This word means something happened that was not planned or predicted. It ends with `-ed`.
+Neno hili linamaanisha jambo lilitokea ambalo halikupangwa au kutabirika. Linaishia na `-ed`.
 
 # --explanation--
 
-`Brought up` means caused something to appear, especially a problem or issue. Here, `brought` is the past tense form of `bring`. For example:
+`Brought up` inamaanisha kusababisha jambo kuonekana, hasa tatizo au hitilafu. Hapa, `brought` ni umbo la wakati uliopita la `bring`. Kwa mfano:
 
-`The new feature brought up several bugs.` – This means the feature caused the bugs to be noticed.
+`The new feature brought up several bugs.` – Hii inamaanisha kipengele kilisababisha hitilafu kuonekana.
 
-`Unexpected` describes something that happens without warning or planning. For example:
+`Unexpected` inaelezea jambo linalotokea bila onyo au mpango. Kwa mfano:
 
-`We had an unexpected delay due to server issues.` – This means the delay was not anticipated.
+`We had an unexpected delay due to server issues.` – Hii inamaanisha kucheleweshwa hakukutabirika.
 
 # --scene--
 

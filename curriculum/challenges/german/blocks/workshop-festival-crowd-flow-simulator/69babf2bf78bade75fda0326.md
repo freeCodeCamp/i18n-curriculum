@@ -1,17 +1,17 @@
 ---
 id: 69babf2bf78bade75fda0326
-title: Step 6
+title: Schritt 6
 challengeType: 1
 dashedName: step-6
 ---
 
 # --description--
 
-Next, you need a way to track how many attendees are processed by the gate during the tick. Create a variable named `processed` and initialize it to `0`.
+Als Nächstes benötigen Sie eine Möglichkeit, nachzuverfolgen, wie viele Teilnehmer während des Ticks vom Tor verarbeitet werden. Erstellen Sie eine Variable namens `processed` und initialisieren Sie sie mit `0`.
 
 # --hints--
 
-You should create a variable named `processed` and assign it a value of `0`.
+Sie sollten eine Variable namens `processed` erstellen und ihr den Wert `0` zuweisen.
 
 ```js
 const rawFuncStr = __helpers.removeJSComments(processGateFlow.toString());

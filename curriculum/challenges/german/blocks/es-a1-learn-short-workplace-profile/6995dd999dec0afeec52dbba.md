@@ -1,6 +1,6 @@
 ---
 id: 6995dd999dec0afeec52dbba
-title: Task 13
+title: Aufgabe 13
 challengeType: 22
 dashedName: task-13
 lang: es
@@ -10,13 +10,13 @@ lang: es
 
 # --description--
 
-The word `oficina` means "office".
+Das Wort `oficina` bedeutet „Büro“.
 
-Luna is using this word to reply to Sebastián's question.
+Luna verwendet dieses Wort, um auf Sebastians Frage zu antworten.
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Hören Sie sich die Audioaufnahme an und vervollständigen Sie den Satz unten.
 
 # --fillInTheBlank--
 
@@ -30,15 +30,15 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This word refers to the place where people work.
+Dieses Wort bezeichnet den Ort, an dem Menschen arbeiten.
 
 # --explanation--
 
-Luna says that Carlos `trabaja en la oficina de Medellín`.
+Luna sagt, dass Carlos `trabaja en la oficina de Medellín`.
 
-This means that he works at the Medellín office.
+Das bedeutet, dass er im Büro von Medellín arbeitet.
 
-You should write the word `oficina` to complete the sentence.
+Sie sollten das Wort `oficina` schreiben, um den Satz zu vervollständigen.
 
 # --scene--
 

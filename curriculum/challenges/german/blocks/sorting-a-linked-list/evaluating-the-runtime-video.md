@@ -1,6 +1,6 @@
 ---
 id: 698de83d7932b3cc4b19c93d
-title: Evaluating the Runtime
+title: Laufzeit bewerten
 challengeType: 11
 videoId: 4eQyFkVtkvk
 dashedName: evaluating-the-runtime
@@ -8,13 +8,13 @@ dashedName: evaluating-the-runtime
 
 # --description--
 
-In this video, you will learn about how to evaluate runtimes for merge sort on linked lists.
+In diesem Video lernen Sie, wie man die Laufzeiten für Merge Sort bei verketteten Listen bewertet.
 
 # --questions--
 
 ## --text--
 
-What is the runtime of the `split` function in the implementation of merge sort?
+Wie hoch ist die Laufzeit der `split`-Funktion in der Implementierung von Merge Sort?
 
 ## --answers--
 

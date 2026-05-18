@@ -1,6 +1,6 @@
 ---
 id: 698dce727932b3cc4b19c928
-title: Recursive Binary Search
+title: Rekursive binäre Suche
 challengeType: 11
 videoId: RQNBzDoG_gA
 dashedName: recursive-binary-search
@@ -8,29 +8,29 @@ dashedName: recursive-binary-search
 
 # --description--
 
-In this video, you will learn how to create a recursive solution for binary search.
+In diesem Video lernen Sie, wie Sie eine rekursive Lösung für die binäre Suche erstellen.
 
 # --questions--
 
 ## --text--
 
-What is a recursive function?
+Was ist eine rekursive Funktion?
 
 ## --answers--
 
-A function that performs a calculation only once.
+Eine Funktion, die eine Berechnung nur einmal durchführt.
 
 ---
 
-A function that calls itself.
+Eine Funktion, die sich selbst aufruft.
 
 ---
 
-A function that never returns a value.
+Eine Funktion, die niemals einen Wert zurückgibt.
 
 ---
 
-A function that can only run in a loop.
+Eine Funktion, die nur in einer Schleife ausgeführt werden kann.
 
 ## --video-solution--
 

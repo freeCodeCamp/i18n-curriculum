@@ -1,6 +1,6 @@
 ---
 id: 67d3f4b1be72cc09bd3ac4be
-title: Task 4
+title: Zoezi la 4
 challengeType: 22
 dashedName: task-4
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Sikiliza sauti na ukamilishe sentensi ifuatayo.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This modal verb expresses necessity or obligation.
+Kitenzi hiki cha modal kinadhihirisha lazima au wajibu.
 
 ---
 
@@ -32,17 +32,17 @@ This modal verb expresses necessity or obligation.
 
 ### --feedback--
 
-This verb follows `must` to indicate an action that is required.
+Kitenzi hiki kinafuata `must` kuonyesha kitendo kinachohitajika.
 
 # --explanation--
 
-`Must` is a modal verb used to express necessity or obligation. For example:
+`Must` ni kitenzi cha modal kinachotumika kuonyesha lazima au wajibu. Kwa mfano:
 
-- `You must wear a seatbelt while driving.` - It is required.
+- `You must wear a seatbelt while driving.` - Inahitajika.
 
-- `We must submit the report by Friday.` - It is necessary.
+- `We must submit the report by Friday.` - Ni lazima.
 
-Modal verbs are always followed by the base form of the verb (without `to`).
+Vitenzi vya modal huambatana daima na aina ya msingi ya kitenzi (bila `to`).
 
 # --scene--
 

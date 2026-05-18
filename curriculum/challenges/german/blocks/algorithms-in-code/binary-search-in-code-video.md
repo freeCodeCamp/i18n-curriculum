@@ -1,6 +1,6 @@
 ---
 id: 698dcc2c7932b3cc4b19c927
-title: Binary Search in Code
+title: Binäre Suche im Code
 challengeType: 11
 videoId: mg7F5D8Wk5o
 dashedName: binary-search-in-code
@@ -8,29 +8,29 @@ dashedName: binary-search-in-code
 
 # --description--
 
-In this video, you will code out the binary search algorithm using Python.
+In diesem Video programmieren Sie den Algorithmus der binären Suche in Python.
 
 # --questions--
 
 ## --text--
 
-Why was the `while first <= last:` condition used in the solution?
+Warum wurde die `while first <= last:`-Bedingung in der Lösung verwendet?
 
 ## --answers--
 
-To ensure only the first half of the array is ever checked.
+Um sicherzustellen, dass nur die erste Hälfte des Arrays überprüft wird.
 
 ---
 
-To make the loop run forever until manually stopped.
+Damit die Schleife endlos läuft, bis sie manuell gestoppt wird.
 
 ---
 
-To skip checking the last element in the search range.
+Um zu vermeiden, dass das letzte Element im Suchbereich überprüft wird.
 
 ---
 
-To keep searching while there are still elements in the range and stop when the range is empty.
+Um weiterzusuchen, solange noch Elemente im Bereich sind, und anzuhalten, wenn der Bereich leer ist.
 
 ## --video-solution--
 

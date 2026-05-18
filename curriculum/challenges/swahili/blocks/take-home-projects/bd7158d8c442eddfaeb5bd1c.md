@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c442eddfaeb5bd1c
-title: Build a Memory Light Game
+title: Jenga mchezo wa kumbukumbu wa taa
 challengeType: 3
 forumTopicId: 302357
 dashedName: build-a-memory-light-game
@@ -8,36 +8,36 @@ dashedName: build-a-memory-light-game
 
 # --description--
 
-**Objective:** Build an app that is functionally similar to this: <a href="https://codepen.io/freeCodeCamp/full/obYBjE" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/obYBjE</a>.
+**Lengo:** Jenga programu inayofanana kiutendaji na hii: <a href="https://codepen.io/freeCodeCamp/full/obYBjE" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/obYBjE</a>.
 
-Fulfill the below user stories and get all of the tests to pass. Use whichever libraries or APIs you need. Give it your own personal style.
+Kamilisha hadithi za mtumiaji zilizo hapa chini na upite vipimo vyote. Tumia maktaba au API zozote unazohitaji. Toa mtindo wako binafsi.
 
-**User Story:** I am presented with a random series of button presses.
+**Hadithi ya mtumiaji:** Ninawasilishwa na mfululizo wa kubofya vifungo kwa mpangilio wa bahati nasibu.
 
-**User Story:** Each time I input a series of button presses correctly, I see the same series of button presses but with an additional step.
+**Hadithi ya mtumiaji:** Kila ninapoweka mfululizo wa kubofya vifungo kwa usahihi, ninaona mfululizo huo huo wa kubofya vifungo lakini ukiwa na hatua moja zaidi.
 
-**User Story:** I hear a sound that corresponds to each button both when the series of button presses plays, and when I personally press a button.
+**Hadithi ya mtumiaji:** Ninasikia sauti inayolingana na kila kitufe wakati mfululizo wa kubofya vifungo unapoonyeshwa, na pia ninapobofya kitufe binafsi.
 
-**User Story:** If I press the wrong button, I am notified that I have done so, and that series of button presses starts again to remind me of the pattern so I can try again.
+**Hadithi ya mtumiaji:** Ikiwa nitabofya kitufe kisicho sahihi, ninaarifiwa kuwa nimekosea, na mfululizo huo wa kubofya vifungo unaanza tena kunikumbusha muundo ili nijaribu tena.
 
-**User Story:** I can see how many steps are in the current series of button presses.
+**Hadithi ya mtumiaji:** Naona ni hatua ngapi ziko katika mfululizo wa sasa wa kubofya vifungo.
 
-**User Story:** If I want to restart, I can hit a button to do so, and the game will return to a single step.
+**Hadithi ya mtumiaji:** Ikiwa nataka kuanza upya, naweza kubofya kitufe cha kufanya hivyo, na mchezo utaanza tena na hatua moja tu.
 
-**User Story:** I can play in strict mode where if I get a button press wrong, it notifies me that I have done so, and the game restarts at a new random series of button presses.
+**Hadithi ya mtumiaji:** Naweza kucheza katika hali kali ambapo ikiwa nitakosea kubofya kitufe, ninaarifiwa, na mchezo unaanza upya na mfululizo mpya wa kubofya vifungo kwa bahati nasibu.
 
-**User Story:** I can win the game by getting a series of 20 steps correct. I am notified of my victory, then the game starts over.
+**Hadithi ya mtumiaji:** Naweza kushinda mchezo kwa kupata mfululizo wa hatua 20 kwa usahihi. Ninaripotiwa ushindi wangu, kisha mchezo unaanza tena.
 
-**Hint:** Here are mp3s you can use for each button:
+**Kidokezo:** Hapa kuna faili za mp3 unazoweza kutumia kwa kila kitufe:
 
 - `https://cdn.freecodecamp.org/curriculum/take-home-projects/memory-light-game/sound-1.mp3`
 - `https://cdn.freecodecamp.org/curriculum/take-home-projects/memory-light-game/sound-2.mp3`
 - `https://cdn.freecodecamp.org/curriculum/take-home-projects/memory-light-game/sound-3.mp3`
 - `https://cdn.freecodecamp.org/curriculum/take-home-projects/memory-light-game/sound-4.mp3`
 
-When you are finished, include a link to your project on CodePen and click the "I've completed this challenge" button.
+Ukiisha, jumuisha kiungo cha mradi wako kwenye CodePen na bofya kitufe cha "Nimemaliza changamoto hii".
 
-You can get feedback on your project by sharing it on the <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp forum</a>.
+Unaweza kupata maoni kuhusu mradi wako kwa kuushirikisha kwenye <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">jukwaa la freeCodeCamp</a>.
 
 # --solutions--
 

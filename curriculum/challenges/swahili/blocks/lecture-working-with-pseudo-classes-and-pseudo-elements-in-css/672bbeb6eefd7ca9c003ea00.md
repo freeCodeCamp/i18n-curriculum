@@ -1,15 +1,15 @@
 ---
 id: 672bbeb6eefd7ca9c003ea00
-title: What Are Examples of Tree-structural Pseudo-classes?
+title: Ni mifano gani ya darasa la bandia la muundo wa mti?
 challengeType: 19
 dashedName: what-are-examples-of-tree-structural-pseudo-classes
 ---
 
 # --interactive--
 
-Tree-structural pseudo-classes allow you to target and style elements based on their position within the document tree. The document tree refers to the hierarchical structure of elements in an HTML document.
+Darasa la bandia la muundo wa mti linakuwezesha kulenga na kupamba vipengele kulingana na nafasi yao ndani ya mti wa hati. Mti wa hati unarejelea muundo wa ngazi wa vipengele katika hati ya HTML.
 
-Here is a list of tree-structural pseudo-classes:
+Hapa kuna orodha ya madarasa ya bandia ya muundo wa mti:
 
 - `:root`
 - `:empty`
@@ -23,9 +23,9 @@ Here is a list of tree-structural pseudo-classes:
 - `:last-of-type`
 - `:only-of-type`
 
-Let's take a closer look at each of the tree-structural pseudo-classes, accompanied by examples.
+Tuchunguze kwa karibu kila darasa la bandia la muundo wa mti, tukifuatana na mifano.
 
-​​The `:root` pseudo-class is usually the root `html` element. It helps you target the highest level in the document so you can apply a common style to the entire document.
+Darasa la bandia la `:root` kawaida ni kipengele cha mzizi `html`. Linakusaidia kulenga ngazi ya juu kabisa katika hati ili uweze kutumia mtindo wa kawaida kwa hati nzima.
 
 :::interactive_editor
 
@@ -44,7 +44,7 @@ Let's take a closer look at each of the tree-structural pseudo-classes, accompan
 
 :::
 
-The `:root` pseudo-class is also commonly used in setting CSS variables:
+Darasa la bandia la `:root` pia hutumika sana katika kuweka vigezo vya CSS:
 
 ```css
 :root {
@@ -54,9 +54,9 @@ The `:root` pseudo-class is also commonly used in setting CSS variables:
 }
 ```
 
-With CSS variables, you get to store values and reuse them in your stylesheet. You will learn more about these later on.
+Kwa vigezo vya CSS, unapata kuhifadhi thamani na kuzitumia tena katika karatasi yako ya mtindo. Utajifunza zaidi kuhusu haya baadaye.
 
-Empty elements, that is, elements with no children other than white space, are also included in the document tree. That's why there's an `:empty` pseudo-class to target empty elements. For example, this HTML code has two empty list items. With the `:empty` pseudo-class, you can style the empty list items differently:
+Vipengele vilivyo tupu, yaani vipengele visivyo na watoto isipokuwa nafasi tupu, pia vinajumuishwa katika mti wa hati. Ndiyo maana kuna darasa la bandia la `:empty` la kulenga vipengele tupu. Kwa mfano, msimbo huu wa HTML una vitu viwili vya orodha tupu. Kwa darasa la bandia la `:empty`, unaweza kupamba vitu vya orodha tupu kwa njia tofauti:
 
 :::interactive_editor
 
@@ -79,7 +79,7 @@ Empty elements, that is, elements with no children other than white space, are a
 
 :::
 
-The most practical thing to do with the empty list items is probably not displaying them at all:
+Jambo la vitendo zaidi kufanya na vitu vya orodha tupu ni labda kutoonyesha kabisa:
 
 :::interactive_editor
 
@@ -102,9 +102,9 @@ The most practical thing to do with the empty list items is probably not display
 
 :::
 
-`:nth-child(n)` allows you to select elements based on their position within a parent, while `:nth-last-child(n)` enables you to select elements by counting from the end. The `n` can be a specific number or a keyword like `odd` or `even`. This is incredibly useful in styling table cells based on position: even and odd.
+`:nth-child(n)` inakuwezesha kuchagua vipengele kulingana na nafasi yao ndani ya mzazi, wakati `:nth-last-child(n)` inakuwezesha kuchagua vipengele kwa kuhesabu kutoka mwisho. `n` inaweza kuwa nambari maalum au neno kama `odd` au `even`. Hii ni muhimu sana katika kupamba seli za jedwali kulingana na nafasi: hata na isiyo hata.
 
-Here's an HTML example of a fruit price list table. The CSS is using the `:nth-child` pseudo-class to target the table cells based on odd and even positions:
+Hapa kuna mfano wa HTML wa jedwali la bei za matunda. CSS inatumia darasa la bandia la `:nth-child` kulenga seli za jedwali kulingana na nafasi za isiyo hata na hata:
 
 :::interactive_editor
 
@@ -148,13 +148,13 @@ tr:nth-child(odd) {
 
 :::
 
-The `:first-child`, `:last-child`, and `:only-child` pseudo-classes all act on items within a parent container or the entire document.
+Madarasa ya bandia ya `:first-child`, `:last-child`, na `:only-child` yote hufanya kazi kwa vitu ndani ya kontena la mzazi au hati nzima.
 
-- `:first-child` selects the first element in a parent element or the document.
-- `:last-child` selects the last element in a parent element or the document.
-- `:only-child` selects the only element in a parent element or the document.
+- `:first-child` huchagua kipengele cha kwanza katika kipengele cha mzazi au hati.
+- `:last-child` huchagua kipengele cha mwisho katika kipengele cha mzazi au hati.
+- `:only-child` huchagua kipengele pekee katika kipengele cha mzazi au hati.
 
-Using the `:first-child` and `:last-child` pseudo-classes will select both `Item 1` and `Item 3` in this example:
+Kutumia madarasa ya bandia ya `:first-child` na `:last-child` kutachagua `Item 1` na `Item 3` katika mfano huu:
 
 :::interactive_editor
 
@@ -179,9 +179,9 @@ li:last-child {
 
 :::
 
-If you have more unordered lists on the page, you have to be more specific with the selection:
+Ikiwa una orodha isiyopangwa zaidi kwenye ukurasa, lazima uwe maalum zaidi katika uteuzi:
 
-To show you how the `:only-child` pseudo-class works, here's an HTML example with two separate `div` elements. Using the `:only-child` pseudo-class ensures only the `div` element with a single child is selected:
+Ili kukuonyesha jinsi darasa la bandia la `:only-child` linavyofanya kazi, hapa kuna mfano wa HTML wenye vipengele viwili tofauti vya `div`. Kutumia darasa la bandia la `:only-child` kunahakikisha kipengele cha `div` chenye mtoto mmoja pekee kinachaguliwa:
 
 :::interactive_editor
 
@@ -207,9 +207,9 @@ To show you how the `:only-child` pseudo-class works, here's an HTML example wit
 
 :::
 
-The `:first-of-type` and `:last-of-type` pseudo-classes select the first and last occurrence of a specific element type within its parent. They are useful for applying unique styles to the first or last instance of that element type among its siblings.
+Madarasa ya bandia ya `:first-of-type` na `:last-of-type` huchagua tukio la kwanza na la mwisho la aina maalum ya kipengele ndani ya mzazi wake. Ni muhimu kwa kutumia mitindo ya kipekee kwa tukio la kwanza au la mwisho la aina hiyo ya kipengele kati ya ndugu zake.
 
-In the example below, `:first-of-type` and `:last-of-type` applies to the first element and last element within the `section` element:
+Katika mfano huu hapa chini, `:first-of-type` na `:last-of-type` hutumika kwa kipengele cha kwanza na kipengele cha mwisho ndani ya kipengele cha `section`:
 
 :::interactive_editor
 
@@ -240,7 +240,7 @@ section p:last-of-type {
 
 :::
 
-`:nth-of-type(n)` allows you to select a specific element within its parent based on its position among siblings of the same type. For instance, in the HTML below, `:nth-of-type(2)` targets the second element in the container:
+`:nth-of-type(n)` inakuwezesha kuchagua kipengele maalum ndani ya mzazi wake kulingana na nafasi yake kati ya ndugu wa aina hiyo. Kwa mfano, katika HTML ifuatayo, `:nth-of-type(2)` inalenga kipengele cha pili katika kontena:
 
 :::interactive_editor
 
@@ -263,9 +263,9 @@ p:nth-of-type(2) {
 
 :::
 
-`:only-of-type` selects an element if it's the only one of its type within its parent. This can be useful for emphasizing single items or ensuring that they are styled differently when they’re not part of a group.
+`:only-of-type` huchagua kipengele ikiwa ndicho pekee cha aina yake ndani ya mzazi wake. Hii inaweza kuwa muhimu kwa kusisitiza vitu vya pekee au kuhakikisha vinapambwa tofauti wakati si sehemu ya kundi.
 
-In the example below, there are two `div` elements with one having a single element. The CSS only applies to the first container:
+Katika mfano huu hapa chini, kuna vipengele viwili vya `div` ambavyo kimoja kina kipengele kimoja pekee. CSS inatumika tu kwa kontena la kwanza:
 
 :::interactive_editor
 
@@ -294,35 +294,35 @@ p:only-of-type {
 
 ## --text--
 
-What is the difference between the `:first-of-type` and `:last-of-type` pseudo-classes?
+Nini tofauti kati ya madarasa ya bandia ya `:first-of-type` na `:last-of-type`?
 
 ## --answers--
 
-`:first-of-type` targets the first element of a specific type within its parent, while `:last-of-type` targets the last element of a different type.
+`:first-of-type` inalenga kipengele cha kwanza cha aina maalum ndani ya mzazi wake, wakati `:last-of-type` inalenga kipengele cha mwisho cha aina tofauti.
 
 ### --feedback--
 
-Consider how these pseudo-classes help you style the first and last instances of a particular tag, like `p` or `h1`.
+Fikiria jinsi madarasa haya ya bandia yanavyokusaidia kupamba tukio la kwanza na la mwisho la lebo fulani, kama `p` au `h1`.
 
 ---
 
-`:first-of-type` and `:last-of-type` both target the first occurrence of an element but in different sections of the document.
+`:first-of-type` na `:last-of-type` zote huchagua tukio la kwanza la kipengele lakini katika sehemu tofauti za hati.
 
 ### --feedback--
 
-Consider how these pseudo-classes help you style the first and last instances of a particular tag, like `p` or `h1`.
+Fikiria jinsi madarasa haya ya bandia yanavyokusaidia kupamba tukio la kwanza na la mwisho la lebo fulani, kama `p` au `h1`.
 
 ---
 
-`:first-of-type` selects the first occurrence of a specific element type within its parent, while `:last-of-type` selects the last occurrence of that same element type within its parent.
+`:first-of-type` huchagua tukio la kwanza la aina maalum ya kipengele ndani ya mzazi wake, wakati `:last-of-type` huchagua tukio la mwisho la aina hiyo hiyo ya kipengele ndani ya mzazi wake.
 
 ---
 
-`:last-of-type` applies styles to the first and last elements within the document, while `:last-of-type` applies styles to all elements of a specific type.
+`:last-of-type` hutumia mitindo kwa vipengele vya kwanza na vya mwisho ndani ya hati, wakati `:last-of-type` hutumia mitindo kwa vipengele vyote vya aina maalum.
 
 ### --feedback--
 
-Consider how these pseudo-classes help you style the first and last instances of a particular tag, like `p` or `h1`.
+Fikiria jinsi madarasa haya ya bandia yanavyokusaidia kupamba tukio la kwanza na la mwisho la lebo fulani, kama `p` au `h1`.
 
 ## --video-solution--
 
@@ -330,35 +330,35 @@ Consider how these pseudo-classes help you style the first and last instances of
 
 ## --text--
 
-What is the difference between the `:first-child` and `:last-child` pseudo-classes?
+Nini tofauti kati ya madarasa ya bandia ya `:first-child` na `:last-child`?
 
 ## --answers--
 
-`:first-child` targets the first element within its parent, while `:last-child` targets the last element within a different parent.
+`:first-child` inalenga kipengele cha kwanza ndani ya mzazi wake, wakati `:last-child` inalenga kipengele cha mwisho ndani ya mzazi tofauti.
 
 ### --feedback--
 
-Think about how the two pseudo-classes help you style the first and last elements within the same parent container.
+Fikiria jinsi madarasa haya mawili ya bandia yanavyokusaidia kupamba vipengele vya kwanza na vya mwisho ndani ya kontena moja la mzazi.
 
 ---
 
-`:first-child` targets the first element within its parent, while `:last-child` targets the last element within the same parent.
+`:first-child` inalenga kipengele cha kwanza ndani ya mzazi wake, wakati `:last-child` inalenga kipengele cha mwisho ndani ya mzazi huo huo.
 
 ---
 
-`:first-child` targets the first element of a specific type within its parent, while `:last-child` targets the last element of a different type within its parent.
+`:first-child` inalenga kipengele cha kwanza cha aina maalum ndani ya mzazi wake, wakati `:last-child` inalenga kipengele cha mwisho cha aina tofauti ndani ya mzazi wake.
 
 ### --feedback--
 
-Think about how the two pseudo-classes help you style the first and last elements within the same parent container.
+Fikiria jinsi madarasa haya mawili ya bandia yanavyokusaidia kupamba vipengele vya kwanza na vya mwisho ndani ya kontena moja la mzazi.
 
 ---
 
-`:first-child` targets the first and last elements within a parent, while `:last-child` targets all other elements.
+`:first-child` inalenga vipengele vya kwanza na vya mwisho ndani ya mzazi, wakati `:last-child` inalenga vipengele vingine vyote.
 
 ### --feedback--
 
-Think about how the two pseudo-classes help you style the first and last elements within the same parent container.
+Fikiria jinsi madarasa haya mawili ya bandia yanavyokusaidia kupamba vipengele vya kwanza na vya mwisho ndani ya kontena moja la mzazi.
 
 ## --video-solution--
 
@@ -366,7 +366,7 @@ Think about how the two pseudo-classes help you style the first and last element
 
 ## --text--
 
-Which pseudo-class allows you to target elements that have no children, including those that contain only whitespace?
+Ni darasa gani la bandia linakuwezesha kulenga vipengele ambavyo havina watoto, ikiwa ni pamoja na vile vinavyobeba nafasi tupu tu?
 
 ## --answers--
 
@@ -378,7 +378,7 @@ Which pseudo-class allows you to target elements that have no children, includin
 
 ### --feedback--
 
-Think about how you can style elements that do not have content.
+Fikiria jinsi unavyoweza kupamba vipengele ambavyo havina maudhui.
 
 ---
 
@@ -386,7 +386,7 @@ Think about how you can style elements that do not have content.
 
 ### --feedback--
 
-Think about how you can style elements that do not have content.
+Fikiria jinsi unavyoweza kupamba vipengele ambavyo havina maudhui.
 
 ---
 
@@ -394,7 +394,7 @@ Think about how you can style elements that do not have content.
 
 ### --feedback--
 
-Think about how you can style elements that do not have content.
+Fikiria jinsi unavyoweza kupamba vipengele ambavyo havina maudhui.
 
 ## --video-solution--
 

@@ -1,6 +1,6 @@
 ---
 id: 69ae6a04b4a814be6a4f2bdd
-title: What are Embedding Models?
+title: "Je, modeli za kuingiza ni zipi?"
 challengeType: 11
 videoId: _B6lL3WM_hQ
 dashedName: what-are-embedding-models
@@ -8,31 +8,30 @@ dashedName: what-are-embedding-models
 
 # --description--
 
-In this video, you will learn about embedding models.
+Katika video hii, utafundishwa kuhusu modeli za kuingiza.
 
 # --questions--
 
 ## --text--
 
-What is an embedding model?
+Modeli ya kuingiza ni nini?
 
 ## --answers--
 
-A model that compresses text files to make them smaller for faster downloads.
+Modeli inayobana mafaili ya maandishi ili kuyafanya kuwa madogo kwa ajili ya kupakua kwa haraka zaidi.
 
 ---
 
-A system that automatically translates text from one language into another.
+Mfumo unaotafsiri maandishi moja kwa moja kutoka lugha moja kwenda nyingine.
 
 ---
 
-A model that takes text and converts it into a vector of numbers that represent meaning.
+Modeli inayochukua maandishi na kugeuza kuwa vector ya nambari zinazowakilisha maana.
 
 ---
 
-A model that generates images based on a written description.
+Modeli inayozalisha picha kulingana na maelezo yaliyoandikwa.
 
 ## --video-solution--
 
 3
-

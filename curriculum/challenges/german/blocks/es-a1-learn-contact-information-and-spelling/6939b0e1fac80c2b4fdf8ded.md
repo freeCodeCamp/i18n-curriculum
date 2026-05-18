@@ -1,6 +1,6 @@
 ---
 id: 6939b0e1fac80c2b4fdf8ded
-title: Task 17
+title: Aufgabe 17
 challengeType: 22
 dashedName: task-17
 lang: es
@@ -10,11 +10,11 @@ lang: es
 
 # --description--
 
-In this task, Basti spells out his nickname letter by letter.
+In dieser Aufgabe buchstabiert Basti seinen Spitznamen Buchstabe für Buchstabe.
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Hören Sie sich die Audioaufnahme an und ergänzen Sie den Satz unten.
 
 # --fillInTheBlank--
 
@@ -28,7 +28,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This is the first letter Basti uses to start spelling his nickname.
+Dies ist der erste Buchstabe, den Basti verwendet, um seinen Spitznamen zu buchstabieren.
 
 ---
 
@@ -36,7 +36,7 @@ This is the first letter Basti uses to start spelling his nickname.
 
 ### --feedback--
 
-This letter comes after the "s" in "Basti".
+Dieser Buchstabe folgt auf das „s“ in „Basti“.
 
 ---
 
@@ -44,11 +44,11 @@ This letter comes after the "s" in "Basti".
 
 ### --feedback--
 
-This is the final letter in "Basti". Listen for the vowel sound at the end.
+Dies ist der letzte Buchstabe in „Basti“. Hören Sie auf den Vokal am Ende.
 
 # --explanation--
 
-Basti spells his nickname as `B-a-s-t-i`.
+Basti buchstabiert seinen Spitznamen als `B-a-s-t-i`.
 
 # --scene--
 

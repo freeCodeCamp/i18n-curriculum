@@ -1,6 +1,6 @@
 ---
 id: 657fbde9a43e35ec1ebafe56
-title: Task 77
+title: Aufgabe 77
 challengeType: 19
 dashedName: task-77
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --description--
 
-Listen to the audio and answer the question below.
+Hören Sie sich das Audio an und beantworten Sie die folgende Frage.
 
 # --questions--
 
 ## --text--
 
-What does the phrase `Would you like to come?` convey in this context?
+Was drückt der Satz `Would you like to come?` in diesem Zusammenhang aus?
 
 ## --answers--
 
-Declining an invitation.
+Eine Einladung ablehnen.
 
 ### --feedback--
 
-The phrase doesn't mean saying "no". It is about offering an invitation.
+Der Satz bedeutet nicht „nein“ zu sagen. Es geht darum, eine Einladung auszusprechen.
 
 ---
 
-Extending an invitation.
+Eine Einladung aussprechen.
 
 ---
 
-Expressing gratitude.
+Dankbarkeit ausdrücken.
 
 ### --feedback--
 
-The phrase doesn't mean "thank you". It is about inviting someone.
+Der Satz bedeutet nicht „danke“. Es geht darum, jemanden einzuladen.
 
 ---
 
-Asking for information.
+Nach Informationen fragen.
 
 ### --feedback--
 
-The phrase isn't a question to get information, but a polite invitation to an event.
+Der Satz ist keine Frage, um Informationen zu erhalten, sondern eine höfliche Einladung zu einer Veranstaltung.
 
 ## --video-solution--
 

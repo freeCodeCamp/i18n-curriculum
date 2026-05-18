@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Höre dir die Audio an und beantworte die Frage unten.
+Hören Sie sich die Audioaufnahme an und beantworten Sie die folgende Frage.
 
 # --questions--
 
 ## --text--
 
-What is Jake asking about?
+Worauf bezieht sich Jakes Frage?
 
 ## --answers--
 
-If the updates were applied.
+Ob die Updates angewendet wurden.
 
 ---
 
-If new security updates were released.
+Ob neue Sicherheitsupdates veröffentlicht wurden.
 
 ### --feedback--
 
-Jake is not asking if new updates exist.
+Jake fragt nicht, ob neue Updates existieren.
 
 ---
 
-Who is responsible for security updates.
+Wer für Sicherheitsupdates verantwortlich ist.
 
 ### --feedback--
 
-Jake is not asking about a specific person.
+Jake fragt nicht nach einer bestimmten Person.
 
 ---
 
-How security updates work.
+Wie Sicherheitsupdates funktionieren.
 
 ### --feedback--
 
-Jake assumes Jessica knows about security updates.
+Jake geht davon aus, dass Jessica über Sicherheitsupdates Bescheid weiß.
 
 ## --video-solution--
 
@@ -52,11 +52,11 @@ Jake assumes Jessica knows about security updates.
 
 # --explanation--
 
-Jake wants to know if someone has verified that all updates have been installed.
+Jake möchte wissen, ob jemand überprüft hat, ob alle Updates installiert wurden.
 
-By `Have you checked...?` he asks if Jessica has looked into something.
+Mit `Have you checked...?` fragt er, ob Jessica etwas überprüft hat.
 
-By `whether all security updates were applied` he asks if updates were successfully installed.
+Mit `whether all security updates were applied` fragt er, ob die Updates erfolgreich installiert wurden.
 
 # --scene--
 

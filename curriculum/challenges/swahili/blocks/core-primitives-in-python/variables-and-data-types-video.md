@@ -1,6 +1,6 @@
 ---
 id: 315017f4457c19d45c2be034
-title: Variables and Data Types
+title: Mabadiliko na aina za data
 challengeType: 11
 videoId: sIw317W39X0
 dashedName: variables-and-data-types
@@ -8,29 +8,29 @@ dashedName: variables-and-data-types
 
 # --description--
 
-In this video, you will learn about the different data types in Python including integers, strings and booleans.
+Katika video hii, utafundishwa kuhusu aina tofauti za data katika Python ikiwa ni pamoja na nambari kamili, mfuatano wa herufi na thamani ya kweli au siyo kweli.
 
 # --questions--
 
 ## --text--
 
-What is a boolean?
+Thamani ya kweli au siyo kweli ni nini?
 
 ## --answers--
 
-It is a data type that represents an `undefined` value.
+Ni aina ya data inayowakilisha thamani ya `undefined`.
 
 ---
 
-It is a data type that represents a sequence of characters.
+Ni aina ya data inayowakilisha mfuatano wa herufi.
 
 ---
 
-It is a data type that represents `True` or `False`.
+Ni aina ya data inayowakilisha `True` au `False`.
 
 ---
 
-It is a data type that represents a float.
+Ni aina ya data inayowakilisha nambari ya desimali.
 
 ## --video-solution--
 

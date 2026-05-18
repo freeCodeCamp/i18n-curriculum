@@ -1,6 +1,6 @@
 ---
 id: bd7178d8c242eddfaeb5bd13
-title: Visualize Data with a Scatterplot Graph
+title: Onyesha data kwa kutumia chati ya kutawanyika
 challengeType: 3
 forumTopicId: 301467
 dashedName: visualize-data-with-a-scatterplot-graph
@@ -8,47 +8,47 @@ dashedName: visualize-data-with-a-scatterplot-graph
 
 # --description--
 
-**Objective:** Build an app that is functionally similar to this: <a href="https://scatterplot-graph.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://scatterplot-graph.freecodecamp.rocks</a>.
+**Lengo:** Jenga programu inayofanya kazi kwa njia inayofanana na hii: <a href="https://scatterplot-graph.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://scatterplot-graph.freecodecamp.rocks</a>.
 
-Fulfill the below user stories and get all of the tests to pass. Use whichever libraries or APIs you need. Give it your own personal style.
+Kamilisha hadithi za mtumiaji zilizo hapa chini na upite vipimo vyote. Tumia maktaba au API yoyote unayohitaji. Toa mtindo wako binafsi.
 
-You can use HTML, JavaScript, CSS, and the D3 svg-based visualization library. The tests require axes to be generated using the D3 axis property, which automatically generates ticks along the axis. These ticks are required for passing the D3 tests because their positions are used to determine alignment of graphed elements. You will find information about generating axes at <https://d3js.org/d3-axis>. Required DOM elements are queried on the moment of each test. If you use a front-end framework (like Vue for example), the test results may be inaccurate for dynamic content. We hope to accommodate them eventually, but these frameworks are not currently supported for D3 projects.
+Unaweza kutumia HTML, JavaScript, CSS, na maktaba ya D3 ya uonyesaji wa svg. Vipimo vinahitaji mihimili (axes) itengenezwe kwa kutumia sifa ya D3 axis, ambayo huunda alama za kupigia (ticks) moja kwa moja kando ya mhimili. Alama hizi za kupigia zinahitajika kwa kupita vipimo vya D3 kwa sababu nafasi zao hutumika kuamua ulinganifu wa vipengele vilivyo kwenye chati. Utapata taarifa kuhusu jinsi ya kutengeneza mihimili kwenye <https://d3js.org/d3-axis>. Vipengele vinavyohitajika vya DOM vinatafutwa wakati wa kila kipimo. Ikiwa utatumia mfumo wa kazi wa mbele (mfano Vue), matokeo ya vipimo yanaweza kuwa si sahihi kwa maudhui yanayobadilika. Tunatarajia kuweza kuunga mkono hivi karibuni, lakini mifumo hii haijaungwa mkono kwa miradi ya D3 kwa sasa.
 
-**User Story #1:** I can see a title element that has a corresponding `id="title"`.
+**Hadithi ya mtumiaji #1:** Naona kipengele cha kichwa chenye `id="title"` inayolingana.
 
-**User Story #2:** I can see an x-axis that has a corresponding `id="x-axis"`.
+**Hadithi ya mtumiaji #2:** Naona mhimili wa x wenye `id="x-axis"` inayolingana.
 
-**User Story #3:** I can see a y-axis that has a corresponding `id="y-axis"`.
+**Hadithi ya mtumiaji #3:** Naona mhimili wa y wenye `id="y-axis"` inayolingana.
 
-**User Story #4:** I can see dots, that each have a class of `dot`, which represent the data being plotted.
+**Hadithi ya mtumiaji #4:** Naona alama za mviringo, kila moja ikiwa na darasa la `dot`, zinazowakilisha data inayochorwa.
 
-**User Story #5:** Each dot should have the properties `data-xvalue` and `data-yvalue` containing their corresponding `x` and `y` values.
+**Hadithi ya mtumiaji #5:** Kila alama ya mviringo inapaswa kuwa na sifa za `data-xvalue` na `data-yvalue` zenye thamani zao za `x` na `y` zinazolingana.
 
-**User Story #6:** The `data-xvalue` and `data-yvalue` of each dot should be within the range of the actual data and in the correct data format. For `data-xvalue`, integers (full years) or `Date` objects are acceptable for test evaluation. For `data-yvalue` (minutes), use `Date` objects.
+**Hadithi ya mtumiaji #6:** `data-xvalue` na `data-yvalue` za kila alama ya mviringo zinapaswa kuwa ndani ya anuwai ya data halisi na katika muundo sahihi wa data. Kwa `data-xvalue`, nambari kamili (miaka kamili) au vitu vya `Date` vinakubalika kwa tathmini ya kipimo. Kwa `data-yvalue` (dakika), tumia vitu vya `Date`.
 
-**User Story #7:** The `data-xvalue` and its corresponding dot should align with the corresponding point/value on the x-axis.
+**Hadithi ya mtumiaji #7:** `data-xvalue` na alama yake ya mviringo inapaswa kuendana na sehemu/thamani inayolingana kwenye mhimili wa x.
 
-**User Story #8:** The `data-yvalue` and its corresponding dot should align with the corresponding point/value on the y-axis.
+**Hadithi ya mtumiaji #8:** `data-yvalue` na alama yake ya mviringo inapaswa kuendana na sehemu/thamani inayolingana kwenye mhimili wa y.
 
-**User Story #9:** I can see multiple tick labels on the y-axis with `%M:%S` time format.
+**Hadithi ya mtumiaji #9:** Naona lebo nyingi za alama za kupigia kwenye mhimili wa y zenye muundo wa wakati wa `%M:%S`.
 
-**User Story #10:** I can see multiple tick labels on the x-axis that show the year.
+**Hadithi ya mtumiaji #10:** Naona lebo nyingi za alama za kupigia kwenye mhimili wa x zinazoonyesha mwaka.
 
-**User Story #11:** I can see that the range of the x-axis labels are within the range of the actual x-axis data.
+**Hadithi ya mtumiaji #11:** Naona kuwa anuwai ya lebo za mhimili wa x iko ndani ya anuwai ya data halisi ya mhimili wa x.
 
-**User Story #12:** I can see that the range of the y-axis labels are within the range of the actual y-axis data.
+**Hadithi ya mtumiaji #12:** Naona kuwa anuwai ya lebo za mhimili wa y iko ndani ya anuwai ya data halisi ya mhimili wa y.
 
-**User Story #13:** I can see a legend containing descriptive text that has `id="legend"`.
+**Hadithi ya mtumiaji #13:** Naona hadithi yenye maandishi ya maelezo yenye `id="legend"`.
 
-**User Story #14:** I can mouse over an area and see a tooltip with a corresponding `id="tooltip"` which displays more information about the area.
+**Hadithi ya mtumiaji #14:** Naweza kuweka kipanya juu ya eneo na kuona kidokezo cha muda chenye `id="tooltip"` kinachoonyesha taarifa zaidi kuhusu eneo hilo.
 
-**User Story #15:** My tooltip should have a `data-year` property that corresponds to the `data-xvalue` of the active area.
+**Hadithi ya mtumiaji #15:** Kidokezo changu cha muda kinapaswa kuwa na sifa ya `data-year` inayolingana na `data-xvalue` ya eneo linalofanya kazi.
 
-Here is the dataset you will need to complete this project: `https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/cyclist-data.json`
+Huu ndio seti ya data utakayohitaji kukamilisha mradi huu: `https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/cyclist-data.json`
 
-You can build your project by <a href='https://codepen.io/pen?template=MJjpwO' target="_blank" rel="noopener noreferrer nofollow">using this CodePen template</a> and clicking `Save` to create your own pen. Or you can use this CDN link to run the tests in any environment you like: `https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js`
+Unaweza kujenga mradi wako kwa <a href='https://codepen.io/pen?template=MJjpwO' target="_blank" rel="noopener noreferrer nofollow">kutumia kiolezo hiki cha CodePen</a> na kubofya `Save` kuunda pen yako mwenyewe. Au unaweza kutumia kiungo hiki cha CDN kuendesha vipimo katika mazingira yoyote unayopendelea: `https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js`
 
-Once you're done, submit the URL to your working project with all its tests passing.
+Ukiisha, wasilisha URL ya mradi wako unaofanya kazi na vipimo vyote vikipita.
 
 # --solutions--
 

@@ -1,6 +1,6 @@
 ---
 id: 698de3bb7932b3cc4b19c93a
-title: The Merge Function
+title: Die merge-Funktion
 challengeType: 11
 videoId: nXhW8WE8rFU
 dashedName: the-merge-function
@@ -8,29 +8,29 @@ dashedName: the-merge-function
 
 # --description--
 
-In this video, you will learn how to implement the merge sort algorithm on a linked list.
+In diesem Video lernen Sie, wie Sie den Merge-Sort-Algorithmus auf einer verketteten Liste implementieren.
 
 # --questions--
 
 ## --text--
 
-What are the three functions that will be used in this merge sort implementation?
+Welche drei Funktionen werden in dieser Implementierung des Merge-Sort verwendet? 
 
 ## --answers--
 
-`merge_sort`, `split` and `merge`
+`merge_sort`, `split` und `merge`
 
 ---
 
-`merge_sort`, `insert` and `delete`
+`merge_sort`, `insert` und `delete`
 
 ---
 
-`sort`, `combine` and `partition`
+`sort`, `combine` und `partition`
 
 ---
 
-`search`, `split` and `merge`
+`search`, `split` und `merge`
 
 ## --video-solution--
 

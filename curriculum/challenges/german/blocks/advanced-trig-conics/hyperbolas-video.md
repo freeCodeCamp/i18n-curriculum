@@ -1,6 +1,6 @@
 ---
 id: 699e85688f18cf77dfce5c24
-title: Hyperbolas
+title: Hyperbeln
 challengeType: 11
 videoId: rQnuydK6bBE
 dashedName: hyperbolas
@@ -8,29 +8,29 @@ dashedName: hyperbolas
 
 # --description--
 
-In this video, you will learn about hyperbolas.
+In diesem Video lernen Sie etwas über Hyperbeln.
 
 # --questions--
 
 ## --text--
 
-What is a hyperbola?
+Was ist eine Hyperbel?
 
 ## --answers--
 
-The set of points such that the distance from one fixed point is constant.
+Die Menge der Punkte, bei denen der Abstand zu einem festen Punkt konstant ist.
 
 ---
 
-A set of points such that the difference of the distances from two fixed points is constant.
+Eine Menge von Punkten, bei denen die Differenz der Abstände zu zwei festen Punkten konstant ist.
 
 ---
 
-The set of points such that the sum of the distances from two fixed points is constant.
+Die Menge der Punkte, bei denen die Summe der Abstände zu zwei festen Punkten konstant ist.
 
 ---
 
-The set of points equidistant from a line and a point.
+Die Menge der Punkte, die von einer Geraden und einem Punkt gleich weit entfernt sind.
 
 ## --video-solution--
 

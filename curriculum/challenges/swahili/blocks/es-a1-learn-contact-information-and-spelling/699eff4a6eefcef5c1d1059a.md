@@ -1,26 +1,25 @@
 ---
 id: 699eff4a6eefcef5c1d1059a
-title: Task 24
+title: Zoezi la 24
 challengeType: 22
 dashedName: task-24
 lang: es
 ---
-
 <!-- (Audio) Basti: El dominio es q-u-e-t-z-a-l punto g-t. -->
 
 # --description--
 
-The word `dominio` refers to the main part of a web address, usually the section that comes after the `@` in an email or after `www` in a website.
+Neno `dominio` linarejelea sehemu kuu ya anwani ya mtandao, kawaida sehemu inayofuata `@` katika barua pepe au baada ya `www` kwenye tovuti.
 
-It is commonly used when giving or confirming email addresses and URLs. For example:
+Linatumika sana wakati wa kutoa au kuthibitisha anwani za barua pepe na URL. Kwa mfano:
 
-`El dominio es gmail punto com.` – The domain is gmail.com.
+`El dominio es gmail punto com.` – Sehemu kuu ni gmail.com.
 
-`¿Cuál es el dominio?` – What is the domain?
+`¿Cuál es el dominio?` – Sehemu kuu ni ipi?
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Sikiliza sauti na ukamilishe sentensi ifuatayo.
 
 # --fillInTheBlank--
 
@@ -34,13 +33,13 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This noun refers to the main part of a web or email address.
+Nomino hii inarejelea sehemu kuu ya anwani ya mtandao au barua pepe.
 
 # --explanation--
 
-`Dominio` is a noun used to name the domain portion of an email address or website.
+`Dominio` ni nomino inayotumika kwa jina la sehemu ya domain ya anwani ya barua pepe au tovuti.
 
-It commonly appears when people spell or confirm digital contact information.
+Mara nyingi huonekana wakati watu wanapobainisha au kuthibitisha taarifa za mawasiliano ya kidijitali.
 
 # --scene--
 

@@ -1,13 +1,13 @@
 ---
 id: 66ed8fa2f45ce3ece4053eab
-title: CSS Fundamentals Quiz
+title: Jaribio fupi la misingi ya CSS
 challengeType: 8
 dashedName: quiz-basic-css
 ---
 
 # --description--
 
-To pass the quiz, you must correctly answer at least 18 of the 20 questions below.
+Ili kupita jaribio fupi, lazima ujibu kwa usahihi angalau maswali 18 kati ya 20 yaliyo hapa chini.
 
 # --quizzes--
 
@@ -17,7 +17,7 @@ To pass the quiz, you must correctly answer at least 18 of the 20 questions belo
 
 #### --text--
 
-What does CSS stand for?
+CSS inasimamia nini?
 
 #### --distractors--
 
@@ -39,7 +39,7 @@ Cascading Style Sheets
 
 #### --text--
 
-Which of the following is a correct CSS rule?
+Ni ipi kati ya zifuatazo ni sheria sahihi ya CSS?
 
 #### --distractors--
 
@@ -61,29 +61,29 @@ Which of the following is a correct CSS rule?
 
 #### --text--
 
-What does `<meta name="viewport">` do?
+`<meta name="viewport">` hufanya nini?
 
 #### --distractors--
 
-It links external stylesheets to a webpage for responsive design.
+Inaunganisha majalada ya mitindo ya nje na ukurasa wa mtandao kwa muundo unaobadilika.
 
 ---
 
-It specifies the metadata used by search engines to index a webpage.
+Inaeleza metadata inayotumika na mashine za utafutaji kuorodhesha ukurasa wa mtandao.
 
 ---
 
-It specifies the character encoding used on the webpage.
+Inaeleza usimbaji wa herufi unaotumika kwenye ukurasa wa mtandao.
 
 #### --answer--
 
-It controls the shape and size of a web page on different screen sizes.
+Inadhibiti umbo na ukubwa wa ukurasa wa mtandao kwenye saizi tofauti za skrini.
 
 ### --question--
 
 #### --text--
 
-Which syntax is correct to use inline CSS?
+Sintaksia gani ni sahihi kutumia CSS ndani ya mstari?
 
 #### --distractors--
 
@@ -105,29 +105,29 @@ Which syntax is correct to use inline CSS?
 
 #### --text--
 
-When using internal CSS, where is the `style` element placed within the HTML?
+Unapotumia CSS ya ndani, kipengele cha `style` kimewekwa wapi ndani ya HTML?
 
 #### --distractors--
 
-In the `meta` element.
+Ndani ya kipengele cha `meta`.
 
 ---
 
-In the `script` element.
+Ndani ya kipengele cha `script`.
 
 ---
 
-In the `body` element.
+Ndani ya kipengele cha `body`.
 
 #### --answer--
 
-In the `head` element.
+Ndani ya kipengele cha `head`.
 
 ### --question--
 
 #### --text--
 
-Which rule is correct for setting the width and height in CSS?
+Ni sheria gani sahihi ya kuweka upana na urefu katika CSS?
 
 #### --distractors--
 
@@ -149,7 +149,7 @@ Which rule is correct for setting the width and height in CSS?
 
 #### --text--
 
-Which selector correctly targets `h1` elements only when inside a `div`?
+Kichaguzi gani kinawalenga vipengele vya `h1` tu wakati viko ndani ya `div`?
 
 #### --distractors--
 
@@ -171,7 +171,7 @@ Which selector correctly targets `h1` elements only when inside a `div`?
 
 #### --text--
 
-Which selector is correct to target direct children of a `footer`?
+Kichaguzi gani ni sahihi kuwafikia watoto wa moja kwa moja wa `footer`?
 
 #### --distractors--
 
@@ -193,7 +193,7 @@ Which selector is correct to target direct children of a `footer`?
 
 #### --text--
 
-Which selector is correct to target the next sibling of an `img`?
+Kichaguzi gani ni sahihi kuwafikia ndugu wa karibu wa `img`?
 
 #### --distractors--
 
@@ -215,7 +215,7 @@ Which selector is correct to target the next sibling of an `img`?
 
 #### --text--
 
-Which selector is correct to target all siblings preceded by an `img` element?
+Kichaguzi gani ni sahihi kuwafikia ndugu wote waliotanguliwa na kipengele cha `img`?
 
 #### --distractors--
 
@@ -237,51 +237,51 @@ Which selector is correct to target all siblings preceded by an `img` element?
 
 #### --text--
 
-What statement is TRUE about block-level elements?
+Ni tamko gani NI SAHIHI kuhusu vipengele vya ngazi ya block?
 
 #### --distractors--
 
-Block-level elements stack horizontally by default.
+Vipengele vya ngazi ya block huwekwa wima kwa chaguo-msingi.
 
 ---
 
-`width` and `height` properties usually do not apply to block-level elements unless you set their `display` property to `inline-block`.
+Sifa za `width` na `height` kawaida hazitumiki kwa vipengele vya ngazi ya block isipokuwa ukipanga sifa yao ya `display` kuwa `inline-block`.
 
 ---
 
-Block-level elements cannot contain inline elements inside them.
+Vipengele vya ngazi ya block haviwezi kuwa na vipengele vya mstari mmoja ndani yao.
 
 #### --answer--
 
-Block-level elements start on a new line and take up the full width of their container.
+Vipengele vya ngazi ya block huanza kwenye mstari mpya na huchukua upana mzima wa kontena lao.
 
 ### --question--
 
 #### --text--
 
-What statement is TRUE when using the `inline-block` value?
+Ni tamko gani NI SAHIHI unapotumia thamani ya `inline-block`?
 
 #### --distractors--
 
-Elements stack vertically, always taking up the full width of their container.
+Vipengele huwekwa wima, kila mara vikichukua upana mzima wa kontena lao.
 
 ---
 
-Elements align horizontally but cannot apply vertical padding or margin.
+Vipengele huunganishwa wima lakini haviwezi kutumia nafasi ya ndani au ukingo wima.
 
 ---
 
-Elements respect width and height settings but cannot contain other elements inside them.
+Vipengele hufuata mipangilio ya upana na urefu lakini haviwezi kuwa na vipengele vingine ndani yao.
 
 #### --answer--
 
-Elements retain inline flow but allow setting width and height.
+Vipengele huendelea kuwa ndani ya mstari mmoja lakini huruhusu kuweka upana na urefu.
 
 ### --question--
 
 #### --text--
 
-Given the following selectors, which has the highest specificity?
+Kichaguzi kipi kina sifa ya juu zaidi kati ya vifuatavyo?
 
 #### --distractors--
 
@@ -303,7 +303,7 @@ Given the following selectors, which has the highest specificity?
 
 #### --text--
 
-Given the following selectors, which has the lowest specificity?
+Kichaguzi kipi kina sifa ya chini zaidi kati ya vifuatavyo?
 
 #### --distractors--
 
@@ -325,73 +325,73 @@ Given the following selectors, which has the lowest specificity?
 
 #### --text--
 
-What does the `*` selector do?
+Kichaguzi cha `*` hufanya nini?
 
 #### --distractors--
 
-Targets some elements on the page.
+Hulenga baadhi ya vipengele kwenye ukurasa.
 
 ---
 
-Targets elements that have children on the page.
+Hulenga vipengele vyenye watoto kwenye ukurasa.
 
 ---
 
-Targets all `p` elements on the page.
+Hulenga vipengele vyote vya `p` kwenye ukurasa.
 
 #### --answer--
 
-Targets all elements on the page.
+Hulenga vipengele vyote kwenye ukurasa.
 
 ### --question--
 
 #### --text--
 
-What does `!important` do in CSS?
+`!important` hufanya nini katika CSS?
 
 #### --distractors--
 
-It makes the CSS rule work exclusively for inline styles and ignores styles defined in external or internal stylesheets.
+Hufanya sheria ya CSS ifanye kazi kwa kipekee kwa mitindo ya ndani ya mstari na kupuuza mitindo iliyotangazwa kwenye majalada ya mitindo ya nje au ya ndani.
 
 ---
 
-It disables all other CSS properties applied to the same element, effectively making it the only rule that affects the element's styling.
+Huzuia sifa nyingine zote za CSS zilizotumika kwa kipengele hicho, na kufanya sheria hii iwe pekee inayobadilisha mtindo wa kipengele.
 
 ---
 
-It applies on to a certain selector or group of elements.
+Hutumika kwa kichaguzi fulani au kundi la vipengele.
 
 #### --answer--
 
-It overrides any other values applied to the property for that selector.
+Hughairi thamani nyingine yoyote iliyotumika kwa sifa hiyo kwa kichaguzi hicho.
 
 ### --question--
 
 #### --text--
 
-How does the CSS Cascade algorithm work?
+Algoriti ya CSS Cascade hufanya kazi vipi?
 
 #### --distractors--
 
-It determines styles of the element based on order of declaration, regardless of other factors.
+Huamua mitindo ya kipengele kulingana na mpangilio wa tamko, bila kuzingatia mambo mengine.
 
 ---
 
-It applies styles based solely on the order they are written, ignoring specificity.
+Hutumia mitindo kulingana na mpangilio wa kuandikwa tu, bila kuzingatia sifa.
 
 ---
 
-It applies styles prioritizing specificity, ignoring origin and relevance.
+Hutumia mitindo kwa kuzingatia sifa pekee, bila kuzingatia asili na umuhimu.
 
 #### --answer--
 
-It determines styles of the element based on specificity and order of declaration.
+Huamua mitindo ya kipengele kulingana na sifa na mpangilio wa tamko.
 
 ### --question--
 
 #### --text--
 
-Which rule applies `32px` of margin to all sides?
+Ni sheria gani hutumia `32px` ya ukingo kwa pande zote?
 
 #### --distractors--
 
@@ -413,7 +413,7 @@ Which rule applies `32px` of margin to all sides?
 
 #### --text--
 
-Which rule applies `24px` padding to the top and bottom?
+Ni sheria gani hutumia `24px` ya nafasi ya ndani juu na chini?
 
 #### --distractors--
 
@@ -435,23 +435,23 @@ Which rule applies `24px` padding to the top and bottom?
 
 #### --text--
 
-For `padding: 10px 20px 30px 40px`, what is the correct order of values?
+Kwa `padding: 10px 20px 30px 40px`, ni mpangilio gani sahihi wa thamani?
 
 #### --distractors--
 
-Right, Top, Left, Bottom.
+Kulia, Juu, Kushoto, Chini.
 
 ---
 
-Top, Left, Bottom, Right.
+Juu, Kushoto, Chini, Kulia.
 
 ---
 
-Top, Bottom, Right, Left.
+Juu, Chini, Kulia, Kushoto.
 
 #### --answer--
 
-Top, Right, Bottom, Left.
+Juu, Kulia, Chini, Kushoto.
 
 ## --quiz--
 
@@ -459,29 +459,29 @@ Top, Right, Bottom, Left.
 
 #### --text--
 
-What are the main parts of a CSS rule?
+Sehemu kuu za sheria ya CSS ni zipi?
 
 #### --distractors--
 
-Elements and attributes
+Vipengele na sifa za kipengele
 
 ---
 
-Style and sheets
+Mitindo na majalada
 
 ---
 
-Scripts and values
+Scripts na thamani
 
 #### --answer--
 
-Selectors and declaration blocks
+Vichaguzi na sehemu za tamko
 
 ### --question--
 
 #### --text--
 
-Which of the following is the correct syntax for a CSS rule?
+Sintaksia gani sahihi kwa sheria ya CSS?
 
 #### --distractors--
 
@@ -519,29 +519,29 @@ body {
 
 #### --text--
 
-What are default browser styles?
+Mitindo ya kivinjari kwa chaguo-msingi ni nini?
 
 #### --distractors--
 
-HTML elements that have the same styling properties regardless of the browser.
+Vipengele vya HTML vyenye sifa za mtindo sawa bila kujali kivinjari.
 
 ---
 
-They are mandatory styles that you must use for specific HTML elements.
+Ni mitindo muhimu unayopaswa kutumia kwa vipengele maalum vya HTML.
 
 ---
 
-They are the color themes for the various browsers.
+Ni mandhari za rangi kwa vivinjari mbalimbali.
 
 #### --answer--
 
-The CSS rules that browsers apply automatically.
+Sheria za CSS ambazo vivinjari hutumia moja kwa moja.
 
 ### --question--
 
 #### --text--
 
-What is the default value for the `width` property?
+Thamani ya chaguo-msingi kwa sifa ya `width` ni ipi?
 
 #### --distractors--
 
@@ -563,51 +563,51 @@ What is the default value for the `width` property?
 
 #### --text--
 
-What does the `min-height` property specify?
+Sifa ya `min-height` inaeleza nini?
 
 #### --distractors--
 
-The starting height for an element.
+Urefu wa kuanzia kwa kipengele.
 
 ---
 
-The height for an element.
+Urefu wa kipengele.
 
 ---
 
-The maximum height for an element.
+Urefu wa juu zaidi kwa kipengele.
 
 #### --answer--
 
-The minimum height for an element.
+Kiwango cha chini cha urefu kwa kipengele.
 
 ### --question--
 
 #### --text--
 
-Which of the following is TRUE about the universal selector `*`?
+Ni ipi kati ya zifuatazo NI SAHIHI kuhusu kichaguzi cha ulimwengu `*`?
 
 #### --distractors--
 
-It has the highest specificity because it can style all the elements on a page.
+Ina sifa ya juu zaidi kwa sababu inaweza kutengeneza mitindo kwa vipengele vyote kwenye ukurasa.
 
 ---
 
-It contributes 1 to all parts of the specificity value.
+Inachangia 1 kwa sehemu zote za thamani ya sifa.
 
 ---
 
-It cannot reset styles across different browsers.
+Haiwezi kuweka upya mitindo katika vivinjari tofauti.
 
 #### --answer--
 
-It has the lowest specificity value of any selector.
+Ina thamani ya chini kabisa ya sifa kati ya vichaguzi vyote.
 
 ### --question--
 
 #### --text--
 
-Which selector correctly targets `li` elements for an ordered list?
+Kichaguzi gani kinawalenga vipengele vya `li` kwa ajili ya orodha iliyopangwa?
 
 #### --distractors--
 
@@ -629,7 +629,7 @@ Which selector correctly targets `li` elements for an ordered list?
 
 #### --text--
 
-Which selector targets the paragraph elements of a `div` element?
+Kichaguzi gani kinawalenga vipengele vya aya vya kipengele cha `div`?
 
 #### --distractors--
 
@@ -651,117 +651,117 @@ Which selector targets the paragraph elements of a `div` element?
 
 #### --text--
 
-Where does the `margin` apply styling properties?
+`margin` huweka sifa za mtindo wapi?
 
 #### --distractors--
 
-The space inside element.
+Nafasi ndani ya kipengele.
 
 ---
 
-Between the content and the border.
+Kati ya maudhui na mpaka.
 
 ---
 
-On the border of the element.
+Kwenye mpaka wa kipengele.
 
 #### --answer--
 
-The space outside the element.
+Nafasi nje ya kipengele.
 
 ### --question--
 
 #### --text--
 
-Where does the `padding` property apply styling?
+Sifa ya `padding` huweka mtindo wapi?
 
 #### --distractors--
 
-Between the elements border and the surrounding elements.
+Kati ya mpaka la kipengele na vipengele vinavyoizunguka.
 
 ---
 
-The space outside the element.
+Nafasi nje ya kipengele.
 
 ---
 
-On the border of the element.
+Kwenye mpaka wa kipengele.
 
 #### --answer--
 
-The space inside the element.
+Nafasi ndani ya kipengele.
 
 ### --question--
 
 #### --text--
 
-Which statement is FALSE about block-level elements?
+Ni tamko gani NI SI SAHIHI kuhusu vipengele vya ngazi ya block?
 
 #### --distractors--
 
-They can stretch to fit the width of their container.
+Vinaweza kunyoosha kufikia upana wa kontena lao.
 
 ---
 
-Common block level elements include `div`, `paragraph`, and `section`.
+Vipengele vya kawaida vya ngazi ya block ni `div`, `paragraph`, na `section`.
 
 ---
 
-Block-level elements start on a new line and take up the full width of their container.
+Vipengele vya ngazi ya block huanza kwenye mstari mpya na huchukua upana mzima wa kontena lao.
 
 #### --answer--
 
-They cannot take up the full width available as they are blocked from doing so.
+Haviwezi kuchukua upana mzima unaopatikana kwa sababu vimezuiwa kufanya hivyo.
 
 ### --question--
 
 #### --text--
 
-Which statement is FALSE when using the `inline-block` value?
+Ni tamko gani NI SI SAHIHI unapotumia thamani ya `inline-block`?
 
 #### --distractors--
 
-`inline-block` elements behave like inline elements.
+Vipengele vya `inline-block` hufanya kazi kama vipengele vya mstari mmoja.
 
 ---
 
-They can have `width` and `height` properties.
+Vinaweza kuwa na sifa za `width` na `height`.
 
 ---
 
-Elements retain inline flow but allow setting `width` and `height`.
+Vipengele huendelea kuwa ndani ya mstari mmoja lakini huruhusu kuweka `width` na `height`.
 
 #### --answer--
 
-They do not share properties with inline or block level elements.
+Hawashiriki sifa na vipengele vya mstari mmoja au vya ngazi ya block.
 
 ### --question--
 
 #### --text--
 
-Which is TRUE about the `!important` keyword?
+Ni ipi NI SAHIHI kuhusu neno kuu la `!important`?
 
 #### --distractors--
 
-They are used to make comments for an important CSS property.
+Zinatumika kutengeneza maoni kwa sifa muhimu ya CSS.
 
 ---
 
-They make sure a CSS property has the correct syntax.
+Huhakikisha sifa ya CSS ina sintaksia sahihi.
 
 ---
 
-They make CSS rules easier to maintain.
+Hufanya sheria za CSS ziwe rahisi kudumishwa.
 
 #### --answer--
 
-They override the specificity of other selectors.
+Hughairi sifa za vichaguzi vingine.
 
 ### --question--
 
 #### --text--
 
-What character precedes a class selector name?
+Ni tabia gani huandamana na jina la kichaguzi cha darasa la vitu?
 
 #### --distractors--
 
@@ -783,51 +783,51 @@ What character precedes a class selector name?
 
 #### --text--
 
-Which is FALSE about inline level elements?
+Ni ipi NI SI SAHIHI kuhusu vipengele vya ngazi ya mstari mmoja?
 
 #### --distractors--
 
-They take up only as much space as they need.
+Vinachukua nafasi tu wanayohitaji.
 
 ---
 
-They do not start on a new line.
+Haviwezi kuanza kwenye mstari mpya.
 
 ---
 
-Common inline elements include `span` and `img`.
+Vipengele vya kawaida vya mstari mmoja ni `span` na `img`.
 
 #### --answer--
 
-They always start on a new line.
+Huwaanza kila mara kwenye mstari mpya.
 
 ### --question--
 
 #### --text--
 
-Where are internal CSS styles accessed?
+Mitindo ya ndani ya CSS hupatikaje?
 
 #### --distractors--
 
-They are styles that are important to the project, so are not shared externally.
+Ni mitindo muhimu kwa mradi, hivyo haishirikiwa nje.
 
 ---
 
-Since they form the core styling of the project, they are saved in the `styles.css` file so other web pages can access them.
+Kwa kuwa ni msingi wa mtindo wa mradi, huhifadhiwa kwenye faili la `styles.css` ili kurasa nyingine za mtandao ziweze kuifikia.
 
 ---
 
-They are stored inside the `body` element when there is only one web page to style.
+Huhifadhiwa ndani ya kipengele cha `body` wakati kuna ukurasa mmoja tu wa mtandao wa kupangilia.
 
 #### --answer--
 
-They are written within the `style` section within the `head` element.
+Inaandikwa ndani ya sehemu ya `style` ndani ya kipengele cha `head`.
 
 ### --question--
 
 #### --text--
 
-What is the order for applying the `padding` property when using the shorthand syntax?
+Ni mpangilio gani wa sifa ya `padding` unapotumia sintaksia fupi?
 
 #### --distractors--
 
@@ -849,7 +849,7 @@ What is the order for applying the `padding` property when using the shorthand s
 
 #### --text--
 
-What is the order for applying the `margin` property when using the shorthand syntax?
+Ni mpangilio gani wa sifa ya `margin` unapotumia sintaksia fupi?
 
 #### --distractors--
 
@@ -871,29 +871,29 @@ What is the order for applying the `margin` property when using the shorthand sy
 
 #### --text--
 
-What are inline CSS styles used for?
+Mitindo ya ndani ya mstari wa CSS hutumika kwa nini?
 
 #### --distractors--
 
-They are used to style inline elements only.
+Hutumiwa kutengeneza mitindo kwa vipengele vya mstari mmoja tu.
 
 ---
 
-They are used to style elements only when they all appear on the same line of the browser viewport.
+Hutumiwa kutengeneza mitindo kwa vipengele tu wakati vyote viko kwenye mstari mmoja wa eneo la kuona la kivinjari.
 
 ---
 
-They are used to resolve the issue with separation of concerns.
+Hutumiwa kutatua tatizo la mgawanyiko wa majukumu.
 
 #### --answer--
 
-They are used to directly style within the element, instead of using internal or external CSS.
+Hutumiwa kutengeneza mitindo moja kwa moja ndani ya kipengele, badala ya kutumia CSS ya ndani au ya nje.
 
 ### --question--
 
 #### --text--
 
-What symbol precedes the ID selector?
+Ni alama gani huandamana na kichaguzi cha ID?
 
 #### --distractors--
 
@@ -910,4 +910,3 @@ What symbol precedes the ID selector?
 #### --answer--
 
 `#`
-

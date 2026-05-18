@@ -1,6 +1,6 @@
 ---
 id: 8d1323c8c441eddfaeb5bdef
-title: Create a Set Class
+title: Unda darasa la seti
 challengeType: 1
 forumTopicId: 301632
 dashedName: create-a-set-class
@@ -8,7 +8,7 @@ dashedName: create-a-set-class
 
 # --description--
 
-In this exercise we are going to create a class named `Set` to emulate an abstract data structure called "set". A set is like an array, but it cannot contain duplicate values. The typical use for a set is to simply check for the presence of an item. We can see how the ES6 `Set` object works in the example below:
+Katika zoezi hili tutaunda darasa la vitu linaloitwa `Set` kuiga muundo wa data wa abstrakti unaoitwa "seti". Seti ni kama safu ya data, lakini haiwezi kuwa na thamani zinazojirudia. Matumizi ya kawaida ya seti ni kuangalia tu uwepo wa kipengee. Tunaweza kuona jinsi kitu cha ES6 `Set` kinavyofanya kazi katika mfano hapa chini:
 
 ```js
 const set1 = new Set([1, 2, 3, 5, 5, 2, 0]);
@@ -20,17 +20,17 @@ console.log(set1.has(6));
 // output: false
 ```
 
-First, we will create an add method that adds a value to our set collection as long as the value does not already exist in the set. Then we will create a remove method that removes a value from the set collection if it already exists. And finally, we will create a size method that returns the number of elements inside the set collection.
+Kwanza, tutaunda njia ya add inayoongeza thamani kwenye mkusanyiko wetu wa seti mradi tu thamani hiyo haipo tayari katika seti. Kisha tutaunda njia ya remove inayotoa thamani kutoka kwenye mkusanyiko wa seti ikiwa tayari ipo. Na hatimaye, tutaunda njia ya size inayorejesha idadi ya vipengee ndani ya mkusanyiko wa seti.
 
 # --instructions--
 
-Create an `add` method that adds a unique value to the set collection and returns `true` if the value was successfully added and `false` otherwise.
+Unda njia ya `add` inayoongeza thamani ya kipekee kwenye mkusanyiko wa seti na kurejesha `true` ikiwa thamani iliongezwa kwa mafanikio na `false` vinginevyo.
 
-Create a `remove` method that accepts a value and checks if it exists in the set. If it does, then this method should remove it from the set collection, and return `true`. Otherwise, it should return `false`. Create a `size` method that returns the size of the set collection.
+Unda njia ya `remove` inayokubali thamani na kuangalia kama ipo katika seti. Ikiwa ipo, basi njia hii inapaswa kuiondoa kutoka kwenye mkusanyiko wa seti, na kurejesha `true`. Vinginevyo, inapaswa kurejesha `false`. Unda njia ya `size` inayorejesha ukubwa wa mkusanyiko wa seti.
 
 # --hints--
 
-Your `Set` class should have an `add` method.
+Darasa lako la `Set` linapaswa kuwa na njia ya `add`.
 
 ```js
 assert(
@@ -41,7 +41,7 @@ assert(
 );
 ```
 
-Your `add` method should not add duplicate values.
+Njia yako ya `add` haipaswi kuongeza thamani zinazojirudia.
 
 ```js
 assert(
@@ -56,7 +56,7 @@ assert(
 );
 ```
 
-Your `add` method should return `true` when a value has been successfully added.
+Njia yako ya `add` inapaswa kurejesha `true` wakati thamani imeongezwa kwa mafanikio.
 
 ```js
 assert(
@@ -68,7 +68,7 @@ assert(
 );
 ```
 
-Your `add` method should return `false` when a duplicate value is added.
+Njia yako ya `add` inapaswa kurejesha `false` wakati thamani inayojirudia inaongezwa.
 
 ```js
 assert(
@@ -81,7 +81,7 @@ assert(
 );
 ```
 
-Your `Set` class should have a `remove` method.
+Darasa lako la `Set` linapaswa kuwa na njia ya `remove`.
 
 ```js
 assert(
@@ -92,7 +92,7 @@ assert(
 );
 ```
 
-Your `remove` method should only remove items that are present in the set.
+Njia yako ya `remove` inapaswa kuondoa vitu vinavyopatikana tu katika seti.
 
 ```js
 assert.deepEqual(
@@ -107,7 +107,7 @@ assert.deepEqual(
 );
 ```
 
-Your `remove` method should remove the given item from the set.
+Njia yako ya `remove` inapaswa kuondoa kipengee kilichotolewa kutoka kwenye seti.
 
 ```js
 assert(
@@ -122,7 +122,7 @@ assert(
 );
 ```
 
-Your `Set` class should have a `size` method.
+Darasa lako la `Set` linapaswa kuwa na njia ya `size`.
 
 ```js
 assert(
@@ -133,7 +133,7 @@ assert(
 );
 ```
 
-The `size` method should return the number of elements in the collection.
+Njia ya `size` inapaswa kurejesha idadi ya vipengee katika mkusanyiko.
 
 ```js
 assert(
@@ -170,7 +170,7 @@ class Set {
   }
 
   // Only change code below this line
-
+  
   // Only change code above this line
 }
 ```

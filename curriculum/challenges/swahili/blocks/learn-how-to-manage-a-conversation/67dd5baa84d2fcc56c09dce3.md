@@ -1,6 +1,6 @@
 ---
 id: 67dd5baa84d2fcc56c09dce3
-title: Task 15
+title: Zoezi la 15
 challengeType: 22
 dashedName: task-15
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Sikiliza sauti na ukamilishe sentensi ifuatayo.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This means to make a choice or come to a conclusion about something.
+Hii inamaanisha kufanya uchaguzi au kufikia uamuzi kuhusu jambo fulani.
 
 ---
 
@@ -32,17 +32,17 @@ This means to make a choice or come to a conclusion about something.
 
 ### --feedback--
 
-This refers to a specific stage or part of a process or project.
+Hii inahusu hatua maalum au sehemu ya mchakato au mradi.
 
 # --explanation--
 
-`To decide` means to choose something after thinking about it. For example:
+`To decide` inamaanisha kuchagua kitu baada ya kufikiria. Kwa mfano:
 
-`We need to decide which tools to use for the project.` – This means choosing the tools after considering the options.
+`We need to decide which tools to use for the project.` – Hii inamaanisha kuchagua zana baada ya kuzingatia chaguzi.
 
-A `phase` refers to one part or step in a larger process. For example:
+`phase` inahusu sehemu moja au hatua katika mchakato mkubwa zaidi. Kwa mfano:
 
-`We just finished the testing phase of the software.` – This means the testing step in the development process is complete.
+`We just finished the testing phase of the software.` – Hii inamaanisha hatua ya majaribio katika mchakato wa ukuzaji imekamilika.
 
 # --scene--
 

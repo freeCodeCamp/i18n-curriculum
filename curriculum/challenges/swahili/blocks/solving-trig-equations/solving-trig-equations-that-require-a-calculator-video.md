@@ -1,6 +1,6 @@
 ---
 id: 699e71f98f18cf77dfce5c17
-title: Solving Trig Equations that Require a Calculator
+title: Kutatua mlinganyo wa trig unaohitaji kalkuleta
 challengeType: 11
 videoId: 8IwkABil9qQ
 dashedName: solving-trig-equations-that-require-a-calculator
@@ -8,32 +8,30 @@ dashedName: solving-trig-equations-that-require-a-calculator
 
 # --description--
 
-In this video, you will learn how to solve trig equations that require a calculator.
+Katika video hii, utafundishwa jinsi ya kutatua mlinganyo wa trig unaohitaji kalkuleta. 
 
 # --questions--
 
 ## --text--
 
-What is the main difference between solving basic trig equations with and without a calculator?
+Tofauti kuu kati ya kutatua mlinganyo rahisi wa trig kwa kutumia na bila kalkuleta ni ipi?
 
 ## --answers--
 
-You can only solve sine and cosine equations with a calculator, not tangent equations.
+Unaweza kutatua mlinganyo wa sine na cosine tu kwa kutumia kalkuleta, si mlinganyo wa tangent.
 
 ---
 
-Using a calculator gives only approximate solutions, while without a calculator you always get exact answers.
+Kutumia kalkuleta kunatoa suluhisho za makadirio tu, wakati bila kalkuleta daima unapata majibu halisi.
 
 ---
 
-Solving without a calculator requires multiplying all angles by 2.
+Kutatua bila kalkuleta kunahitaji kuzidisha pembe zote kwa 2.
 
 ---
 
-Using a calculator does not involve using the unit circle to find solutions.
+Kutumia kalkuleta hakuhusishi kutumia mduara wa kitengo kupata suluhisho.
 
 ## --video-solution--
 
 4
-
-

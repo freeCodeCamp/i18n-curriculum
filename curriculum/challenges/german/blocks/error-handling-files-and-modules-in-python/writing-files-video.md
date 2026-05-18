@@ -1,6 +1,6 @@
 ---
 id: bfab38e6a6c1165f7774514d
-title: Writing to Files
+title: In Dateien schreiben
 challengeType: 11
 videoId: QR95sRxsehY
 dashedName: writing-to-files
@@ -8,29 +8,29 @@ dashedName: writing-to-files
 
 # --description--
 
-In this video, you will learn how to write data to files in Python.
+In diesem Video lernen Sie, wie Sie Daten in Python in Dateien schreiben.
 
 # --questions--
 
 ## --text--
 
-What is the role of the `"a"` in the `open()` function?
+Welche Rolle spielt das `"a"` in der `open()`-Funktion?
 
 ## --answers--
 
-It specifies the append mode.
+Es gibt den Anhängemodus an.
 
 ---
 
-It specifies the alternate mode.
+Es gibt den Alternativmodus an.
 
 ---
 
-It specifies the access mode.
+Es gibt den Zugriffsmodus an.
 
 ---
 
-It specifies the apply mode.
+Es gibt den Anwendmodus an.
 
 ## --video-solution--
 

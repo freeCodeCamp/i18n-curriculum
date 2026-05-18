@@ -1,6 +1,6 @@
 ---
 id: 67e6a8ecaee3ff6cec47cc3e
-title: Task 75
+title: Zoezi la 75
 challengeType: 19
 dashedName: task-75
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Sikiliza sauti na jibu swali lililopo hapa chini.
 
 # --questions--
 
 ## --text--
 
-Why does Jessica want to explain the bug to the team quickly?
+Kwa nini Jessica anataka kuelezea hitilafu kwa timu haraka?
 
 ## --answers--
 
-Because she wants to return to the main topic of the meeting.
+Kwa sababu anataka kurudi kwenye mada kuu ya mkutano.
 
 ---
 
-Because she wants to leave the meeting early.
+Kwa sababu anataka kuondoka mkutanoni mapema.
 
 ### --feedback--
 
-Jessica doesn't mention leaving the meeting.
+Jessica hakutaja kuondoka mkutanoni.
 
 ---
 
-Because the team already knows about the bug.
+Kwa sababu timu tayari inajua kuhusu hitilafu hiyo.
 
 ### --feedback--
 
-Jessica is explaining the bug because it might affect the team.
+Jessica anaelezea hitilafu kwa sababu inaweza kuathiri timu.
 
 ---
 
-Because she doesn't think the bug is important.
+Kwa sababu hufikirii hitilafu hiyo ni muhimu.
 
 ### --feedback--
 
-Jessica thinks the issue is important, but she also wants to respect the meeting agenda.
+Jessica anadhani suala hilo ni muhimu, lakini pia anataka kuheshimu ajenda ya mkutano.
 
 ## --video-solution--
 
@@ -52,13 +52,13 @@ Jessica thinks the issue is important, but she also wants to respect the meeting
 
 # --explanation--
 
-`So we can` is used to show purpose — it means the next thing you mention is what you intend to do. It explains why someone is doing something. For example:
+`So we can` hutumika kuonyesha kusudi — ina maana kitu kinachofuata unachotaja ndicho unachokusudia kufanya. Hii inaelezea kwa nini mtu anafanya jambo fulani. Kwa mfano:
 
-`I'll finish this now so we can start the next task.` – This means the speaker wants to finish one thing to begin another soon.
+`I'll finish this now so we can start the next task.` – Hii ina maana msemaji anataka kumaliza jambo moja ili kuanza lingine hivi karibuni.
 
-`The main agenda` refers to the primary topics or plan of a meeting or event. For example:
+`The main agenda` inahusu mada kuu au mpango wa mkutano au tukio. Kwa mfano:
 
-`Let's stick to the main agenda and avoid side discussions.` – This means to stay focused on the most important items in the meeting.
+`Let's stick to the main agenda and avoid side discussions.` – Hii ina maana kubaki makini na vitu muhimu zaidi katika mkutano.
 
 # --scene--
 

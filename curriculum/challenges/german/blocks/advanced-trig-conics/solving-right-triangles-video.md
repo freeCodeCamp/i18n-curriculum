@@ -1,6 +1,6 @@
 ---
 id: 699e854b8f18cf77dfce5c1e
-title: Solving Right Triangles
+title: Rechtwinklige Dreiecke lösen
 challengeType: 11
 videoId: AkRnIZDdq04
 dashedName: solving-right-triangles
@@ -8,29 +8,29 @@ dashedName: solving-right-triangles
 
 # --description--
 
-In this video, you will learn how to solve right triangles.
+In diesem Video lernen Sie, wie man rechtwinklige Dreiecke löst.
 
 # --questions--
 
 ## --text--
 
-What does it mean to solve a right triangle?
+Was bedeutet es, ein rechtwinkliges Dreieck zu lösen?
 
 ## --answers--
 
-To solve a right triangle means to find the area of the triangle only.
+Ein rechtwinkliges Dreieck zu lösen bedeutet, nur die Fläche des Dreiecks zu berechnen.
 
 ---
 
-To solve a right triangle means to find only the length of the hypotenuse.
+Ein rechtwinkliges Dreieck zu lösen bedeutet, nur die Länge der Hypotenuse zu bestimmen.
 
 ---
 
-To solve a right triangle means to find the lengths of all sides and the measures of all angles.
+Ein rechtwinkliges Dreieck zu lösen bedeutet, die Längen aller Seiten und die Maße aller Winkel zu finden.
 
 ---
 
-To solve a right triangle means to draw the triangle without calculating any sides or angles.
+Ein rechtwinkliges Dreieck zu lösen bedeutet, das Dreieck zu zeichnen, ohne Seiten oder Winkel zu berechnen.
 
 ## --video-solution--
 

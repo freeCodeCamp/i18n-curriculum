@@ -1,6 +1,6 @@
 ---
 id: 67b5b3dfdec8df1a5f326bc0
-title: Task 110
+title: Zoezi la 110
 challengeType: 22
 dashedName: task-110
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Sikiliza sauti na ukamilishe sentensi ifuatayo.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This means something that is not strong or obvious. It's something gentle or soft that you might not notice right away.
+Hii inamaanisha kitu ambacho si kali au dhahiri. Ni kitu laini au cha upole ambacho huenda hukugundua mara moja.
 
 ---
 
@@ -32,17 +32,17 @@ This means something that is not strong or obvious. It's something gentle or sof
 
 ### --feedback--
 
-This refers to the range of colors used in a design or artwork. In this case, a `color palette` refers to the selection of colors chosen for the design of the app or project.
+Hii inahusu wigo wa rangi zinazotumika katika muundo au kazi ya sanaa. Katika kesi hii, `color palette` inahusu uteuzi wa rangi zilizochaguliwa kwa ajili ya muundo wa programu au mradi.
 
 # --explanation--
 
-`Subtle` refers to something that is delicate or not obvious. For example:
+`Subtle` inahusu kitu kilicho nyepesi au kisicho dhahiri. Kwa mfano:
 
-`The artist used subtle shades of blue in the painting.` - This means the artist used light or soft shades of blue that are not very strong or attention-grabbing.
+`The artist used subtle shades of blue in the painting.` - Hii inamaanisha msanii alitumia vivuli vya bluu vyepesi au laini ambavyo si kali au havivutii macho sana.
 
-`Palette` refers to the range of colors or materials an artist or designer uses. For example:
+`Palette` inahusu wigo wa rangi au vifaa vinavyotumika na msanii au mbunifu. Kwa mfano:
 
-`The designer chose a warm palette for the website, using reds, oranges, and yellows.` - This means the designer selected a set of warm colors, such as red, orange, and yellow, for the website's design.
+`The designer chose a warm palette for the website, using reds, oranges, and yellows.` - Hii inamaanisha mbunifu alichagua seti ya rangi za joto, kama nyekundu, machungwa, na manjano, kwa ajili ya muundo wa tovuti.
 
 # --scene--
 

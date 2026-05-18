@@ -1,6 +1,6 @@
 ---
 id: edeae16d4bf9505165740c75
-title: Installing Python and PyCharm
+title: Python und PyCharm installieren
 challengeType: 11
 videoId: RgGQJDOms1M
 dashedName: installing-python-and-pycharm
@@ -8,29 +8,29 @@ dashedName: installing-python-and-pycharm
 
 # --description--
 
-In this video, you will learn how to install Python and PyCharm onto your computer.
+In diesem Video lernen Sie, wie Sie Python und PyCharm auf Ihrem Computer installieren.
 
 # --questions--
 
 ## --text--
 
-What is PyCharm used for?
+Wofür wird PyCharm verwendet?
 
 ## --answers--
 
-It is a programming language similar to Python used for developing mobile apps.
+Es ist eine Programmiersprache ähnlich wie Python, die zur Entwicklung von mobilen Apps verwendet wird.
 
 ---
 
-It is a Python library used for data analysis.
+Es ist eine Python-Bibliothek, die für Datenanalysen genutzt wird.
 
 ---
 
-It is an IDE used to run Python programs.
+Es ist eine IDE, mit der Sie Python-Programme ausführen können.
 
 ---
 
-It is an operating system designed for developers.
+Es ist ein Betriebssystem, das für Entwickler entwickelt wurde.
 
 ## --video-solution--
 

@@ -1,6 +1,6 @@
 ---
 id: 6973dae19a1d3a4ca3cb3ddd
-title: 30 to 59 Pronunciation Review
+title: Ausspracheüberprüfung der Zahlen von 30 bis 59
 challengeType: 24
 dashedName: 30-to-59-pronunciation-review
 lang: es
@@ -10,11 +10,11 @@ lang: es
 
 # --description--
 
-Practice pronouncing the numbers from 30 to 59.
+Üben Sie die Aussprache der Zahlen von 30 bis 59.
 
 # --assignment--
 
-I've practiced pronouncing the numbers from 30 to 59.
+Ich habe die Aussprache der Zahlen von 30 bis 59 geübt.
 
 # --scene--
 

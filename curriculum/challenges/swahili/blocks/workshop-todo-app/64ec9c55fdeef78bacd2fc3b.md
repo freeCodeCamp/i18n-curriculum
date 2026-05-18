@@ -7,21 +7,21 @@ dashedName: step-30
 
 # --description--
 
-If you attempt to add another task now, you'll notice that the input fields retain the values you entered for the previous task. To resolve this, you need to clear the input fields after adding a task.
+Ikiwa utajaribu kuongeza zoezi lingine sasa, utaona kwamba sehemu za ingizo zinahifadhi maadili uliyoyaingiza kwa zoezi lililopita. Ili kutatua hili, unahitaji kufuta sehemu za ingizo baada ya kuongeza zoezi.
 
-Instead of clearing the input fields one by one, it's a good practice to create a function that handles clearing those fields. You can then call this function whenever you need to clear the input fields again.
+Badala ya kufuta sehemu za ingizo moja moja, ni desturi nzuri kuunda kitendakazi kinachoshughulikia kufuta sehemu hizo. Kisha unaweza kuita kitendakazi hiki kila unapotaka kufuta sehemu za ingizo tena.
 
-Use arrow syntax to create a `reset` function and set it to a pair of curly braces.
+Tumia sintaksia ya mshale kuunda kitendakazi cha `reset` na uweke kwenye mabano ya mviringo.
 
 # --hints--
 
-You should use `const` and arrow syntax to create a `reset` function.
+Unapaswa kutumia `const` na sintaksia ya mshale kuunda kitendakazi cha `reset`.
 
 ```js
 assert.match(code, /const\s+reset\s*=\s*\(\s*\)\s*=>\s*\{\s*/)
 ```
 
-Your `reset` function should be empty.
+Kitendakazi chako cha `reset` kinapaswa kuwa tupu.
 
 ```js
 assert.match(reset.toString(), /\(\s*\)\s*\{\s*\}/);

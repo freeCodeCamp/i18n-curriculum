@@ -1,6 +1,6 @@
 ---
 id: 67d78c94b686ce3bddcaf8ab
-title: Task 117
+title: Aufgabe 117
 challengeType: 22
 dashedName: task-117
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Hören Sie sich die Audioaufnahme an und vervollständigen Sie den folgenden Satz.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-These three words together mean to reduce the amount of time needed to complete a task.
+Diese drei Wörter zusammen bedeuten, die benötigte Zeit zur Erledigung einer Aufgabe zu verkürzen.
 
 ---
 
@@ -32,17 +32,17 @@ These three words together mean to reduce the amount of time needed to complete 
 
 ### --feedback--
 
-This word in the plural form refers to schedules or deadlines for completing a project.
+Dieses Wort im Plural bezieht sich auf Zeitpläne oder Fristen zur Fertigstellung eines Projekts.
 
 # --explanation--
 
-`Save us time` means to reduce the time required to complete something, making the process more efficient. For example:
+`Save us time` bedeutet, die benötigte Zeit zur Fertigstellung von etwas zu verkürzen und den Prozess effizienter zu gestalten. Zum Beispiel:
 
-`Using automation tools can save us time on repetitive tasks.` – This means automation tools help complete tasks faster.
+`Using automation tools can save us time on repetitive tasks.` – Das bedeutet, dass Automatisierungstools helfen, Aufgaben schneller zu erledigen.
 
-`Timelines` refer to schedules or deadlines that show when different parts of a project should be completed. For example:
+`Timelines` beziehen sich auf Zeitpläne oder Fristen, die zeigen, wann verschiedene Teile eines Projekts abgeschlossen sein sollten. Zum Beispiel:
 
-`We need to adjust our timelines to finish the project on schedule.` – This means changing the deadlines to ensure the project is completed on time.
+`We need to adjust our timelines to finish the project on schedule.` – Das bedeutet, die Fristen zu ändern, um sicherzustellen, dass das Projekt rechtzeitig fertiggestellt wird.
 
 # --scene--
 

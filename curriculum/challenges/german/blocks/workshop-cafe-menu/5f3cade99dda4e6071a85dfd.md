@@ -7,29 +7,29 @@ dashedName: step-42
 
 # --description--
 
-You will come back to styling the menu in a few steps, but for now, go ahead and add a second `section` element below the first for displaying the desserts offered by the cafe.
+Sie werden in einigen Schritten zum Styling des Menüs zurückkehren, aber fügen Sie jetzt ein zweites `section`-Element unter dem ersten hinzu, um die vom Café angebotenen Desserts anzuzeigen.
 
 # --hints--
 
-You should have an opening `section` tag.
+Sie sollten einen öffnenden `section`-Tag haben.
 
 ```js
 assert.lengthOf(code.match(/<section>/ig) ,2);
 ```
 
-You should have a closing `section` tag.
+Sie sollten einen schließenden `section`-Tag haben.
 
 ```js
 assert.lengthOf(code.match(/<\/section>/ig) ,2);
 ```
 
-You should not change the existing `main` element.
+Sie sollten das bestehende `main`-Element nicht ändern.
 
 ```js
 assert.lengthOf(document.querySelectorAll('main'), 1);
 ```
 
-Your new `section` element should be nested in the `main` element.
+Ihr neues `section`-Element sollte im `main`-Element verschachtelt sein.
 
 ```js
 const main = document.querySelector('main');
@@ -74,7 +74,7 @@ assert.lengthOf(sections,2);
           </article>
         </section>
 --fcc-editable-region--
-
+        
 --fcc-editable-region--
       </main>
     </div>

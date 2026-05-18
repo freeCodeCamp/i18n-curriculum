@@ -1,6 +1,6 @@
 ---
 id: 67d3fba28a7b770be2fef2ce
-title: Task 6
+title: Zoezi la 6
 challengeType: 19
 dashedName: task-6
 lang: en-US
@@ -12,13 +12,13 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Sikiliza sauti na jibu swali lililopo hapa chini.
 
 # --questions--
 
 ## --text--
 
-Mark doesn't mind talking with Jessica and wants to know what he needs to do. What would he say?
+Mark hapendi kuzungumza na Jessica na anataka kujua anapaswa kufanya nini. Atasema nini?
 
 ## --answers--
 
@@ -30,7 +30,7 @@ EN415e8cd4
 
 ### --feedback--
 
-This response does not match Mark's willingness to talk.
+Jibu hili halilingani na utayari wa Mark wa kuzungumza.
 
 ---
 
@@ -46,11 +46,11 @@ EN61f614de
 
 # --explanation--
 
-The correct answer shows that Mark is willing to talk and wants to know the necessary steps.
+Jibu sahihi linaonyesha kwamba Mark yuko tayari kuzungumza na anataka kujua hatua zinazohitajika.
 
-`Sure, Jessica` expresses agreement and openness to the conversation.
+`Sure, Jessica` inaonyesha kukubaliana na utayari wa kuzungumza.
 
-`What do I need to do?` shows that Mark is asking for instructions, which matches Jessica's statement about what he must do to ensure compliance.
+`What do I need to do?` inaonyesha kwamba Mark anauliza maelekezo, ambayo yanalingana na kauli ya Jessica kuhusu anachopaswa kufanya ili kuhakikisha ufuataji.
 
 # --scene--
 

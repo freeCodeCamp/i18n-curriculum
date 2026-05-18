@@ -1,6 +1,6 @@
 ---
 id: 6994ea79a4cface895ccb5ab
-title: Task 8
+title: Aufgabe 8
 challengeType: 22
 dashedName: task-8
 lang: es
@@ -10,13 +10,13 @@ lang: es
 
 # --description--
 
-Usernames may have special symbols.
+Benutzernamen können Sonderzeichen enthalten.
 
-Now you'll hear Luna saying Carlos' username. You'll notice that it has this symbol `-`, which is called `guión` in Spanish.
+Jetzt hören Sie Luna, wie sie Carlos’ Benutzernamen sagt. Sie werden bemerken, dass er dieses Symbol `-` enthält, das auf Spanisch `guión` genannt wird.
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Hören Sie sich die Audioaufnahme an und vervollständigen Sie den folgenden Satz.
 
 # --fillInTheBlank--
 
@@ -30,13 +30,13 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-Luna mentions that this is Carlos' username. Remember to include the hyphen (`-`) between the names.
+Luna erwähnt, dass dies Carlos’ Benutzername ist. Denken Sie daran, den Bindestrich (`-`) zwischen den Namen einzufügen.
 
 # --explanation--
 
-Luna says: `Su usuario es carlos-velez.`
+Luna sagt: `Su usuario es carlos-velez.`
 
-The symbol `-` is known as `guión` in Spanish. Remember to include the accent mark on the letter `o`.
+Das Symbol `-` ist auf Spanisch als `guión` bekannt. Denken Sie daran, das Akzentzeichen auf dem Buchstaben `o` zu setzen.
 
 # --scene--
 

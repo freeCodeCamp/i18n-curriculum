@@ -1,17 +1,17 @@
 ---
 id: 685118ddcad14fa5d62faaef
-title: Step 33
+title: Schritt 33
 challengeType: 20
 dashedName: step-33
 ---
 
 # --description--
 
-Now add a key `diagnosis` to the `constraints` dictionary. For its value, write an expression that checks that `diagnosis` is either an instance of `str` or is `None`.
+Fügen Sie nun dem `diagnosis`-Wörterbuch einen Schlüssel `constraints` hinzu. Schreiben Sie für dessen Wert einen Ausdruck, der überprüft, ob `diagnosis` entweder eine Instanz von `str` ist oder `None` entspricht.
 
 # --hints--
 
-Your `constraints` dictionary should have a key `diagnosis`.
+Ihr `constraints`-Wörterbuch sollte einen Schlüssel `diagnosis` enthalten.
 
 ```js
 ({ test: () => assert(runPython(`
@@ -21,7 +21,7 @@ _keys = [k.value for k in _ast_keys]
 `)) })
 ```
 
-The `diagnosis` key of your `constraints` dictionary should have the value of `isinstance(diagnosis, str) or diagnosis is None`.
+Der `diagnosis`-Schlüssel Ihres `constraints`-Wörterbuchs sollte den Wert `isinstance(diagnosis, str) or diagnosis is None` haben.
 
 ```js
 ({ test: () => assert(runPython(`
@@ -83,7 +83,7 @@ def find_invalid_records(
         'age': isinstance(age, int) and age >= 18,
 --fcc-editable-region--
         'gender': isinstance(gender, str) and gender.lower() in ('male', 'female')
-
+        
 --fcc-editable-region--
     }
     return constraints
@@ -94,7 +94,7 @@ def validate(data):
     if not is_sequence:
         print('Invalid format: expected a list or tuple.')
         return False
-
+        
     is_invalid = False
     key_set = set(
         ['patient_id', 'age', 'gender', 'diagnosis', 'medications', 'last_visit_id']

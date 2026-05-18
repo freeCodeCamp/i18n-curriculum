@@ -7,17 +7,17 @@ dashedName: step-13
 
 # --description--
 
-In the Tower of Hanoi puzzle, you can identify the three rods according to their purpose:
+Beim Turm von Hanoi können Sie die drei Stäbe nach ihrem Zweck unterscheiden:
 
-- The first rod is the source, where all the disks are stacked on top of each other at the beginning of the game.
-- The second rod is an auxiliary rod, and it helps in moving the disks to the target rod.
-- The third rod is the target, where all the disks should be placed in order at the end of the game.
+- Der erste Stab ist die Quelle, auf der zu Beginn des Spiels alle Scheiben übereinander gestapelt sind.
+- Der zweite Stab ist ein Hilfsstab, der beim Bewegen der Scheiben zum Zielstab hilft.
+- Der dritte Stab ist das Ziel, auf dem am Ende des Spiels alle Scheiben in der richtigen Reihenfolge liegen sollen.
 
-Currently, the `move()` function does not take any parameters. Change the function declaration to take 4 parameters: `n`, `source`, `auxiliary`, and `target`. Then, pass `NUMBER_OF_DISKS` and the strings `'A'`, `'B'`, and `'C'` as arguments to your function call. Die bestellung is wichtig.
+Derzeit nimmt die `move()`-Funktion keine Parameter entgegen. Ändern Sie die Funktionsdeklaration so, dass sie 4 Parameter annimmt: `n`, `source`, `auxiliary` und `target`. Übergeben Sie dann `NUMBER_OF_DISKS` und die Strings `'A'`, `'B'` und `'C'` als Argumente an Ihren Funktionsaufruf. Die Reihenfolge ist wichtig.
 
 # --hints--
 
-Your `move()` function should have `n`, `source`, `auxiliary`, and `target` as the parameters. Die bestellung is wichtig.
+Ihre `move()`-Funktion sollte `n`, `source`, `auxiliary` und `target` als Parameter haben. Die Reihenfolge ist wichtig.
 
 ```js
 ({ test: () => assert(runPython(`
@@ -27,7 +27,7 @@ Your `move()` function should have `n`, `source`, `auxiliary`, and `target` as t
 })
 ```
 
-You should pass `NUMBER_OF_DISKS` and the strings `'A'`, `'B'`, and `'C'` to `move()`. Die bestellung is wichtig.
+Sie sollten `NUMBER_OF_DISKS` und die Strings `'A'`, `'B'` und `'C'` an `move()` übergeben. Die Reihenfolge ist wichtig.
 
 ```js
 ({test: () => assert.match(code, /^move\(\s*NUMBER_OF_DISKS\s*,\s*('|")A\1\s*,\s*('|")B\2\s*,\s*('|")C\3\s*\)/m)

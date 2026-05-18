@@ -1,6 +1,6 @@
 ---
 id: 67a75a9acd71d2ed6eb9a6fa
-title: Task 20
+title: Zoezi la 20
 challengeType: 22
 dashedName: task-20
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Sikiliza sauti na ukamilishe sentensi ifuatayo.
 
 # --fillInTheBlank--
 
@@ -24,13 +24,13 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This two-word phrase refers to different situations that represent how a person might interact with a product.
+Usemi huu wa maneno mawili unahusu hali tofauti zinazowakilisha jinsi mtu anavyoweza kuingiliana na bidhaa.
 
 # --explanation--
 
-`User scenarios` refers to different situations that describe how users interact with a product to achieve a goal. It helps teams test and improve the user experience. For example:
+`User scenarios` inahusu hali tofauti zinazobainisha jinsi watumizi wanavyoshirikiana na bidhaa kufikia lengo. Husaidia timu kujaribu na kuboresha uzoefu wa mtumizi. Kwa mfano:
 
-`We created user scenarios to see how customers navigate the checkout process.` – This means the team simulated different ways users complete a purchase to identify any issues.
+`We created user scenarios to see how customers navigate the checkout process.` – Hii ina maana timu ilifanya majaribio ya njia tofauti ambazo watumizi wanamalizia ununuzi ili kubaini matatizo yoyote.
 
 # --scene--
 

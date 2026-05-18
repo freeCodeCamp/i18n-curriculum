@@ -1,29 +1,29 @@
 ---
 id: 646cecc9eb5c4f4f73dafd07
-title: Schritt 23
+title: Step 23
 challengeType: 0
 dashedName: step-23
 ---
 
 # --description--
 
-Bringe das linke Ohr in Position, indem du eine Position auf `absolute`, einen `top` auf `-26px` und einen `left` auf `-31px` setzt.
+Bewegen Sie das linke Ohr in Position, indem Sie eine Position von `absolute`, eine `top` von `-26px` und eine `left` von `-31px` festlegen.
 
 # --hints--
 
-Dein `.cat-left-ear`-Selektor sollte eine `position`-Eigenschaft auf `absolute` gesetzt haben. Vergiss nicht, ein Semikolon hinzuzfügen.
+Ihr `.cat-left-ear`-Selektor sollte eine `position`-Eigenschaft mit dem Wert `absolute` haben. Vergessen Sie nicht, ein Semikolon hinzuzufügen.
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('.cat-left-ear')?.position, 'absolute')
 ```
 
-Dein `.cat-left-ear`-Selektor sollte eine `top`-Eigenschaft auf `-26px` gesetzt haben.
+Ihr `.cat-left-ear`-Selektor sollte eine `top`-Eigenschaft mit dem Wert `-26px` haben.
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('.cat-left-ear')?.top, '-26px')
 ```
 
-Dein `.cat-left-ear`-Selektor sollte eine `left`-Eigenschaft auf `-31px` gesetzt haben.
+Ihr `.cat-left-ear`-Selektor sollte eine `left`-Eigenschaft mit dem Wert `-31px` haben.
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('.cat-left-ear')?.left, '-31px')
@@ -83,7 +83,7 @@ body {
 
 --fcc-editable-region--
 .cat-left-ear {
-
+  
   border-left: 35px solid transparent;
   border-right: 35px solid transparent;
   border-bottom: 70px solid #5e5e5e;

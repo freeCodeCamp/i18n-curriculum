@@ -1,6 +1,6 @@
 ---
 id: 69ae9f41a9e6da4eb0d5f7fa
-title: OOP Principles
+title: OOP-Grundsätze
 challengeType: 11
 videoId: rkOObSk6ApA
 dashedName: oop-principles
@@ -8,21 +8,21 @@ dashedName: oop-principles
 
 # --description--
 
-In this video, you will learn about common OOP principles.
+In diesem Video lernen Sie die gängigen OOP-Grundsätze kennen.
 
 # --questions--
 
 ## --text--
 
-Which of the following is NOT a core OOP principle?
+Welcher der folgenden Punkte ist KEIN zentraler OOP-Grundsatz?
 
 ## --answers--
 
-Polymorphism
+Polymorphismus
 
 ---
 
-Encapsulation
+Kapselung
 
 ---
 
@@ -30,7 +30,7 @@ Singleton
 
 ---
 
-Abstraction
+Abstraktion
 
 ## --video-solution--
 

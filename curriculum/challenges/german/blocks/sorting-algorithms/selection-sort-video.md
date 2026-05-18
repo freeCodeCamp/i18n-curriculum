@@ -8,29 +8,29 @@ dashedName: selection-sort
 
 # --description--
 
-In this video, you will learn about the selection sort algorithm.
+In diesem Video lernen Sie den Selection-Sort-Algorithmus kennen.
 
 # --questions--
 
 ## --text--
 
-How does the selection sort algorithm work?
+Wie funktioniert der Selection-Sort-Algorithmus?
 
 ## --answers--
 
-It repeatedly finds the smallest (or largest) element from the unsorted portion and moves it to the sorted portion.
+Er findet wiederholt das kleinste (oder größte) Element im unsortierten Bereich und verschiebt es in den sortierten Bereich.
 
 ---
 
-It repeatedly swaps adjacent elements until the entire list is sorted.
+Er tauscht wiederholt benachbarte Elemente, bis die gesamte Liste sortiert ist.
 
 ---
 
-It randomly shuffles the list until it becomes sorted.
+Er mischt die Liste zufällig, bis sie sortiert ist.
 
 ---
 
-It divides the list into halves, sorts each half recursively, and merges them.
+Er teilt die Liste in Hälften, sortiert jede Hälfte rekursiv und führt sie zusammen.
 
 ## --video-solution--
 

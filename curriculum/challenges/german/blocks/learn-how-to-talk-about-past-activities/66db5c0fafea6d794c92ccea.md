@@ -1,11 +1,10 @@
 ---
 id: 66db5c0fafea6d794c92ccea
-title: Task 58
+title: Aufgabe 58
 challengeType: 19
 dashedName: task-58
 lang: en-US
 ---
-
 <!--
 AUDIO REFERENCE:
 Linda: Yes. The navigation bar and footer adjustments have already made a big difference.
@@ -13,41 +12,41 @@ Linda: Yes. The navigation bar and footer adjustments have already made a big di
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Hören Sie sich die Audioaufnahme an und beantworten Sie die folgende Frage.
 
 # --questions--
 
 ## --text--
 
-How are the updated elements performing?
+Wie funktionieren die aktualisierten Elemente?
 
 ## --answers--
 
-They are not working correctly across all devices, and this has made a big difference.
+Sie funktionieren nicht auf allen Geräten richtig, und das hat einen großen Unterschied gemacht.
 
 ### --feedback--
 
-Linda did not mention any issues with the updates.
+Linda hat keine Probleme mit den Aktualisierungen erwähnt.
 
 ---
 
-They need further adjustments to work properly and this has made no difference.
+Sie benötigen weitere Anpassungen, um richtig zu funktionieren, und das hat keinen Unterschied gemacht.
 
 ### --feedback--
 
-Linda did not mention the need for further adjustments.
+Linda hat keinen Bedarf an weiteren Anpassungen erwähnt.
 
 ---
 
-They are causing new problems with the user interface and this has made a big difference.
+Sie verursachen neue Probleme mit der Benutzeroberfläche, und das hat einen großen Unterschied gemacht.
 
 ### --feedback--
 
-Linda did not say that the updates caused new problems.
+Linda hat nicht gesagt, dass die Aktualisierungen neue Probleme verursacht haben.
 
 ---
 
-They are performing well and the adjustments have made a big difference.
+Sie funktionieren gut, und die Anpassungen haben einen großen Unterschied gemacht.
 
 ## --video-solution--
 
@@ -55,13 +54,13 @@ They are performing well and the adjustments have made a big difference.
 
 # --explanation--
 
-To know if something is performing well, look for words or phrases that indicate a good result or improvement.
+Um zu erkennen, ob etwas gut funktioniert, achten Sie auf Wörter oder Ausdrücke, die ein gutes Ergebnis oder eine Verbesserung anzeigen.
 
-Linda uses the phrase `have already made a big difference`.
+Linda verwendet den Ausdruck `have already made a big difference`.
 
-`Made a big difference` suggests an important or noticeable change. When something has `made a big difference` in a positive context, it usually means that the change is helpful or effective.
+`Made a big difference` deutet auf eine wichtige oder bemerkenswerte Veränderung hin. Wenn etwas in einem positiven Kontext `made a big difference` hat, bedeutet das normalerweise, dass die Veränderung hilfreich oder effektiv ist.
 
-So, Linda's response indicates that the updated elements are working well and have improved the situation.
+Linda’s Antwort zeigt also, dass die aktualisierten Elemente gut funktionieren und die Situation verbessert haben.
 
 # --scene--
 

@@ -1,6 +1,6 @@
 ---
 id: 67ddafcebec26b8e5f46745b
-title: Task 31
+title: Zoezi la 31
 challengeType: 22
 dashedName: task-31
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Sikiliza sauti na ukamilishe sentensi ifuatayo.
 
 # --fillInTheBlank--
 
@@ -24,13 +24,13 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This means in addition to something or other than what has already been mentioned.
+Hii ina maana ya pamoja na kitu kingine au tofauti na kile kilichotajwa tayari.
 
 # --explanation--
 
-`Else` in the expression `anything else` is used to ask if there is something in addition to what has already been said or done. For example:
+`Else` katika usemi wa kihesabu `anything else` hutumika kuuliza kama kuna kitu kingine zaidi ya kile kilichosemwa au kufanywa tayari. Kwa mfano:
 
-`Would you like anything else with your order?` - Here, you are asking if the other person wants something in addition to what they already asked for.
+`Would you like anything else with your order?` - Hapa, unauliza kama mtu mwingine anataka kitu zaidi ya kile alichokiomba tayari.
 
 # --scene--
 

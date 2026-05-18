@@ -1,35 +1,35 @@
 ---
 id: 5efae16e3cbd2bbdab94e334
-title: Hatua ya 33
+title: Step 33
 challengeType: 0
 dashedName: step-33
 ---
 
 # --description--
 
-After the last `img` element, add a `figcaption` element with the text `Cats hate other cats.`
+Baada ya kipengele cha mwisho cha `img`, ongeza kipengele cha `figcaption` chenye maandishi ya `Cats hate other cats.`
 
 # --hints--
 
-Kipengee chako cha `figcaption` kinapaswa kuwa na tagi ya ufunguzi. Tagi za ufunguzi zina sintaksia ifuatayo: `<elementName>`.
+Kipengele chako cha `figcaption` kinapaswa kuwa na lebo ya kufungua. Lebo za kufungua zina sintaksia ifuatayo: `<elementName>`.
 
 ```js
 assert.lengthOf(document.querySelectorAll('figcaption'), 2);
 ```
 
-Kipengee chako cha `figcaption` kinapaswa kuwa na tagi ya kufunga. Closing tags have a `/` just after the `<` character.
+Kipengele chako cha `figcaption` kinapaswa kuwa na lebo ya kufunga. Lebo za kufunga zina `/` mara tu baada ya herufi ya `<`.
 
 ```js
 assert.lengthOf(code.match(/<\/figcaption\>/g), 2);
 ```
 
-Kunapaswa kuwa na kipengele cha `figure` juu ya tagi ya kufunga ya kipengele cha pili cha `section`.
+Kufuatia lebo ya kufunga ya kipengele cha pili cha `figure`, inapaswa kuwepo kipengele cha `section` juu yake.
 
 ```js
 assert.equal(document.querySelectorAll('main > section')[1]?.lastElementChild.nodeName, 'FIGURE');
 ```
 
-Kipengele cha mwisho cha `img` kinafaa kuwekwa kwenye kipengee cha `figure`.
+Kipengele cha mwisho cha `img` kinapaswa kupangwa ndani ya kipengele cha `figure`.
 
 ```js
 const catsImg = document.querySelectorAll('figure > img')[1];
@@ -38,25 +38,25 @@ assert.equal(
 );
 ```
 
-Kipengele chako cha `figure` kinafaa kuwa na tagi ya kufungua. Tagi za ufunguzi zina sintaksia ifuatayo: `<elementName>`.
+Kipengele chako cha `figure` kinapaswa kuwa na lebo ya kufungua. Lebo za kufungua zina sintaksia ifuatayo: `<elementName>`.
 
 ```js
 assert.lengthOf(document.querySelectorAll('figure'), 2);
 ```
 
-Kipengele chako cha `figure` kinapaswa kuwa na tagi ya kufunga. Closing tags have a `/` just after the `<` character.
+Kipengele chako cha `figure` kinapaswa kuwa na lebo ya kufunga. Lebo za kufunga zina `/` mara tu baada ya herufi ya `<`.
 
 ```js
 assert.lengthOf(code.match(/<\/figure\>/g), 2);
 ```
 
-Kipengee chako kipya cha `figcaption` kinapaswa kuwekwa katika kipengele cha `figure`.
+Kipengele cha `figcaption` kinapaswa kupangwa ndani ya kipengele cha `figure`.
 
 ```js
 assert.lengthOf(document.querySelectorAll('figure > figcaption'), 2);
 ```
 
-Kipengele cha `figcaption` kilichowekwa katika kipengele cha `figure` lazima kiwe chini ya kipengele cha `img`. Una kipengele cha `img` na kipengele cha `figcaption` katika mpangilio usio sahihi.
+Kipengele cha `figcaption` kilichopangwa ndani ya kipengele cha `figure` kinapaswa kuwa chini ya kipengele cha `img`. Umeweka kipengele cha `img` na kipengele cha `figcaption` kwa mpangilio usio sahihi.
 
 ```js
 assert.equal(
@@ -65,7 +65,7 @@ assert.equal(
 );
 ```
 
-The `figcaption` element should have the text `Cats hate other cats.` You have omitted a word or have a typo.
+Kipengele cha `figcaption` kinapaswa kuwa na maandishi ya `Cats hate other cats.`. Umeacha neno au umefanya makosa ya tahajia.
 
 ```js
 assert.match(
@@ -112,7 +112,7 @@ assert.match(
         <figure>
           <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" alt="Two tabby kittens sleeping together on a couch.">
 --fcc-editable-region--
-
+          
 --fcc-editable-region--
         </figure>
       </section>

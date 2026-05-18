@@ -1,6 +1,6 @@
 ---
 id: 680aef568ac1bd591eceb0dc
-title: Task 98
+title: Zoezi la 98
 challengeType: 22
 dashedName: task-98
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and complete the sentence below.
+Sikiliza sauti na ukamilishe sentensi ifuatayo.
 
 # --fillInTheBlank--
 
@@ -24,15 +24,15 @@ Listen to the audio and complete the sentence below.
 
 ### --feedback--
 
-This is a short form for something that means messages or content created to promote a product, service, or event. Use the plural form.
+Hii ni fomu fupi ya kitu kinachomaanisha ujumbe au maudhui yaliyotengenezwa kukuza bidhaa, huduma, au tukio. Tumia umbo la wingi.
 
 # --explanation--
 
-An `ad` (short for `advertisement`) is a piece of content designed to get people's attention and encourage them to buy something, use a service, or take action. Ads can appear on social media, websites, TV, radio, and more. For example:
+`ad` (fupi ya `advertisement`) ni kipande cha maudhui kilichoundwa kuvutia watu na kuwahamasisha kununua kitu, kutumia huduma, au kuchukua hatua. Matangazo yanaweza kuonekana kwenye mitandao ya kijamii, tovuti, runinga, redio, na zaidi. Kwa mfano:
 
-- `They launched a new ad campaign for their latest product.` – This means the company created and shared promotional content to raise interest in a product.
+- `They launched a new ad campaign for their latest product.` – Hii ina maana kampuni ilitengeneza na kushiriki maudhui ya kukuza ili kuongeza hamasa kwa bidhaa.
 
-- `We saw a lot of online ads for the holiday sale.` – This means there were many promotional messages about the sale on websites or apps.
+- `We saw a lot of online ads for the holiday sale.` – Hii ina maana kulikuwa na ujumbe mwingi wa matangazo kuhusu mauzo kwenye tovuti au programu.
 
 # --scene--
 

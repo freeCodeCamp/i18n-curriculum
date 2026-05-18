@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Höre dir die Audio an, um die unteren Sätze zu vervollständigen.
+Hören Sie sich die Audioaufnahme an und vervollständigen Sie den folgenden Satz.
 
 # --fillInTheBlank--
 
@@ -24,13 +24,13 @@ Höre dir die Audio an, um die unteren Sätze zu vervollständigen.
 
 ### --feedback--
 
-These three words together mean that SafeGuard prioritizes or pays more attention to security compared to other features.
+Diese drei Wörter zusammen bedeuten, dass SafeGuard Sicherheit gegenüber anderen Funktionen priorisiert oder mehr Aufmerksamkeit schenkt.
 
 # --explanation--
 
-`More focused on` is used to show what something or someone pays attention to the most. Zum Beispiel:
+`More focused on` wird verwendet, um zu zeigen, worauf etwas oder jemand am meisten achtet. Zum Beispiel:
 
-`This software is more focused on performance than on design.` - This means the software is mainly built for good performance, not necessarily for an attractive design.
+`This software is more focused on performance than on design.` – Das bedeutet, die Software ist hauptsächlich auf gute Leistung ausgelegt, nicht unbedingt auf ein attraktives Design.
 
 # --scene--
 

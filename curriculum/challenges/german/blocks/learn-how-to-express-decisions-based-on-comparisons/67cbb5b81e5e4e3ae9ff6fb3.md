@@ -1,6 +1,6 @@
 ---
 id: 67cbb5b81e5e4e3ae9ff6fb3
-title: Task 42
+title: Aufgabe 42
 challengeType: 19
 dashedName: task-42
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Hören Sie sich die Audioaufnahme an und beantworten Sie die folgende Frage.
 
 # --questions--
 
 ## --text--
 
-What does Jake mean?
+Was meint Jake?
 
 ## --answers--
 
-SafeGuard is easy to integrate with other tools.
-
+SafeGuard lässt sich leicht mit anderen Tools integrieren.
+  
 ### --feedback--
 
-What Jake says implies it is not easy.
+Was Jake sagt, deutet darauf hin, dass es nicht einfach ist.
 
 ---
 
-SafeGuard costs more when integrated.
+SafeGuard kostet mehr, wenn es integriert wird.
 
 ### --feedback--
 
-Jake doesn't mention the cost.
+Jake erwähnt die Kosten nicht.
 
 ---
 
-Integration with SafeGuard may require additional effort.
+Die Integration mit SafeGuard kann zusätzlichen Aufwand erfordern.
 
 ---
 
-SafeGuard is not flexible with integration.
+SafeGuard ist bei der Integration nicht flexibel.
 
 ### --feedback--
 
-Jake doesn't mention flexibility but focuses on the need for extra work.
+Jake erwähnt keine Flexibilität, sondern betont die Notwendigkeit zusätzlicher Arbeit.
 
 ## --video-solution--
 
@@ -52,9 +52,9 @@ Jake doesn't mention flexibility but focuses on the need for extra work.
 
 # --explanation--
 
-`Extra work` means additional effort or time needed to achieve a goal.
+`Extra work` bedeutet zusätzlichen Aufwand oder Zeit, die benötigt werden, um ein Ziel zu erreichen.
 
-Jake is suggesting that `if integration is crucial` (very important), Sophie might face challenges with SafeGuard, and therefore, additional work or effort will be required to integrate it with other platforms.
+Jake schlägt vor, dass `if integration is crucial` (sehr wichtig), Sophie bei SafeGuard auf Herausforderungen stoßen könnte und deshalb zusätzliche Arbeit oder Aufwand erforderlich sein wird, um es mit anderen Plattformen zu integrieren.
 
 # --scene--
 

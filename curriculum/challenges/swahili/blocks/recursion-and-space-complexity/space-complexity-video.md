@@ -1,6 +1,6 @@
 ---
 id: 698dcfd57932b3cc4b19c92a
-title: Space Complexity
+title: Ugumu wa nafasi
 challengeType: 11
 videoId: BFMvhQdqYgc
 dashedName: space-complexity
@@ -8,29 +8,29 @@ dashedName: space-complexity
 
 # --description--
 
-In this video, you will learn about space complexity.
+Katika video hii, utafundishwa kuhusu ugumu wa nafasi.
 
 # --questions--
 
 ## --text--
 
-What is space complexity?
+Ugumu wa nafasi ni nini?
 
 ## --answers--
 
-The amount of memory an algorithm uses relative to the input size.
+Kiasi cha kumbukumbu ambacho algoriti hutumia kulingana na ukubwa wa ingizo.
 
 ---
 
-The amount of time an algorithm takes to run.
+Kiasi cha muda ambacho algoriti huchukua kuendesha.
 
 ---
 
-The number of CPU cores used by an algorithm.
+Idadi ya prosesa (CPU) zinazotumiwa na algoriti.
 
 ---
 
-The number of input elements an algorithm can process per second.
+Idadi ya vipengele vya ingizo ambavyo algoriti inaweza kushughulikia kwa sekunde moja.
 
 ## --video-solution--
 

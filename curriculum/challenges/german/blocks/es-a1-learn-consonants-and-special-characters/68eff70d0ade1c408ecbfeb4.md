@@ -1,6 +1,6 @@
 ---
 id: 68eff70d0ade1c408ecbfeb4
-title: Task 6
+title: Aufgabe 6
 challengeType: 22
 dashedName: task-6
 lang: es
@@ -10,15 +10,15 @@ lang: es
 
 # --description--
 
-The letter `d` is called `de`.
+Der Buchstabe `d` wird `de` genannt.
 
-At the beginning of a word or after `l` or `n`, its sound is stronger, like in the word `dos` ("two"). However, it's softer between vowels, like in the word `idea` ("idea").
+Am Anfang eines Wortes oder nach `l` oder `n` ist sein Laut stärker, wie im Wort `dos` („two“). Dazwischen, zwischen Vokalen, ist er weicher, wie im Wort `idea` („idea“).
 
-An example is `doctor` ("doctor").
+Ein Beispiel ist `doctor` („doctor“).
 
 # --instructions--
 
-Listen to the audio and write the letter in the blank space below.
+Hören Sie sich die Audioaufnahme an und schreiben Sie den Buchstaben in das untenstehende Leerfeld.
 
 # --fillInTheBlank--
 
@@ -32,7 +32,7 @@ Listen to the audio and write the letter in the blank space below.
 
 ### --feedback--
 
-This is the fourth letter in the alphabet.
+Dies ist der vierte Buchstabe im Alphabet.
 
 # --scene--
 

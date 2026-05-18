@@ -1,6 +1,6 @@
 ---
 id: 67dd5dacf47e8ed984dc90da
-title: Task 17
+title: Zoezi la 17
 challengeType: 19
 dashedName: task-17
 lang: en-US
@@ -12,13 +12,13 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Sikiliza sauti na jibu swali lililopo hapa chini.
 
 # --questions--
 
 ## --text--
 
-How could Alice answer briefly that there is no decision concerning the deadline at the moment?
+Alice angeweza kujibu kwa kifupi vipi kwamba hakuna uamuzi kuhusu tarehe ya mwisho kwa sasa?
 
 ## --answers--
 
@@ -38,7 +38,7 @@ EN391abad4
 
 ### --feedback--
 
-This doesn't relate to the question about setting the deadline.
+Hii haina uhusiano na swali kuhusu kuweka tarehe ya mwisho.
 
 ## --video-solution--
 
@@ -46,11 +46,11 @@ This doesn't relate to the question about setting the deadline.
 
 # --explanation--
 
-`Not yet` is a short and natural way to say that something hasn't happened or been completed up to the present moment, but it may happen in the future. For example:
+`Not yet` ni njia fupi na ya asili ya kusema kwamba jambo halijatokea au kukamilika hadi sasa, lakini linaweza kutokea baadaye. Kwa mfano:
 
-- **Manager:** `Have you sent the email?` - Here, the person is asking about an email that should be sent.
+- **Meneja:** `Have you sent the email?` - Hapa, mtu anauliza kuhusu barua pepe ambayo inapaswa kutumwa.
 
-- **Employee:** `Not yet.` – This means the email hasn't been sent, but that the person still plans to send it.
+- **Mfanyakazi:** `Not yet.` – Hii ina maana barua pepe haijatumwa, lakini mtu bado anapanga kuituma.
 
 # --scene--
 

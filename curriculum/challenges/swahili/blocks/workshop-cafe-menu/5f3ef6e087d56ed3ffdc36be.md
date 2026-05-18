@@ -7,23 +7,23 @@ dashedName: step-57
 
 # --description--
 
-Now apply the `established` class to the `Est. 2020` text.
+Sasa tumia darasa la `established` kwa maandishi ya `Est. 2020`.
 
 # --hints--
 
-You should set the `class` of the `p` element to `established`.
+Unapaswa kuweka `class` ya kipengele cha `p` kuwa `established`.
 
 ```js
 assert.match(code,/<p class=('|")established\1>/i);
 ```
 
-Your `established` class should be on the element with the text `Est. 2020`.
+Darasa lako la `established` linapaswa kuwa kwenye kipengele chenye maandishi ya `Est. 2020`.
 
 ```js
 assert.match(document.querySelector('.established')?.innerText, /Est\.\s2020/i);
 ```
 
-Your `established` class element should have italic text.
+Kipengele chenye darasa la `established` kinapaswa kuwa na maandishi ya herufi za mviringo.
 
 ```js
 const establishElement = document.querySelector('.established');

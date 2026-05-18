@@ -1,6 +1,6 @@
 ---
 id: 67ddb67d2bbf41bb5dce0fb3
-title: Task 36
+title: Zoezi la 36
 challengeType: 19
 dashedName: task-36
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Sikiliza sauti na jibu swali lililopo hapa chini.
 
 # --questions--
 
 ## --text--
 
-What can we conclude from James's answer?
+Tunaweza kufikia hitimisho gani kutoka kwa jibu la James?
 
 ## --answers--
 
-He needs to solve a problem first.
+Anahitaji kutatua tatizo kwanza.
 
 ### --feedback--
 
-James does not say anything about another issue.
+James hasemi chochote kuhusu tatizo jingine.
 
 ---
 
-He is ending the conversation in a friendly way.
+Anamaliza mazungumzo kwa njia ya kirafiki.
 
 ---
 
-He wants to schedule a meeting now.
+Anataka kupanga mkutano sasa.
 
 ### --feedback--
 
-There's no mention of scheduling anything.
+Hakuna mazungumzo kuhusu kupanga kitu chochote.
 
 ---
 
-He is asking for more help.
+Anaomba msaada zaidi.
 
 ### --feedback--
 
-James is not making a request.
+James haombi msaada.
 
 ## --video-solution--
 
@@ -52,9 +52,9 @@ James is not making a request.
 
 # --explanation--
 
-In conversation, you often omit words when the meaning is clear. In `Talk to you later`, the subject `I'll` (contraction of `I will`) is left out. The full sentence would be `I'll talk to you later`. This kind of omission is common in casual speech. Another example:
+Katika mazungumzo, mara nyingi huachwa maneno wakati maana ni wazi. Katika `Talk to you later`, somo `I'll` (kifupisho cha `I will`) limeachwa. Sentensi kamili ingekuwa `I'll talk to you later`. Aina hii ya kuachwa maneno ni ya kawaida katika mazungumzo ya kawaida. Mfano mwingine:
 
-`See you tomorrow!` - This is a shorter way of saying `I'll see you tomorrow`.
+`See you tomorrow!` - Hii ni njia fupi ya kusema `I'll see you tomorrow`.
 
 # --scene--
 

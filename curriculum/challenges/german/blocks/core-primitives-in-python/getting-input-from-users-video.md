@@ -1,6 +1,6 @@
 ---
 id: 155ca30775751b78a860a79b
-title: Getting Input from Users
+title: Eingaben von Benutzern erhalten
 challengeType: 11
 videoId: C0L4cnqKqDw
 dashedName: getting-input-from-users
@@ -8,13 +8,13 @@ dashedName: getting-input-from-users
 
 # --description--
 
-In this video, you will learn how to get input from the user.
+In diesem Video lernen Sie, wie Sie Eingaben von Benutzern erhalten.
 
 # --questions--
 
 ## --text--
 
-Which of the following built-in functions is used to get input from the user?
+Welche der folgenden eingebauten Funktionen wird verwendet, um Eingaben von Benutzern zu erhalten?
 
 ## --answers--
 
