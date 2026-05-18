@@ -1,6 +1,6 @@
 ---
 id: 698dc20d7932b3cc4b19c91f
-title: Evaluating Binary Search
+title: Kutathmini utafutaji wa binary
 challengeType: 11
 videoId: dnVWNeBCOEA
 dashedName: evaluating-binary-search
@@ -8,29 +8,29 @@ dashedName: evaluating-binary-search
 
 # --description--
 
-In this video, you will learn more about the binary search algorithm.
+Katika video hii, utafundishwa zaidi kuhusu algoriti ya utafutaji wa binary.
 
 # --questions--
 
 ## --text--
 
-What condition needs to be true in order for binary search to work?
+Ni hali gani inapaswa kuwa kweli ili utafutaji wa binary ufanye kazi?
 
 ## --answers--
 
-The data must contain less than 1,000 entries.
+Data inapaswa kuwa na maingizo chini ya 1,000.
 
 ---
 
-The data must contain more than 1,000 entries.
+Data inapaswa kuwa na maingizo zaidi ya 1,000.
 
 ---
 
-The data must be unsorted.
+Data inapaswa kuwa haijapangwa.
 
 ---
 
-The data must be sorted.
+Data inapaswa kuwa imepangwa.
 
 ## --video-solution--
 

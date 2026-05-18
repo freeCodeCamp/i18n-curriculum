@@ -1,6 +1,6 @@
 ---
 id: 5ea8adfab628f68d805bfc5e
-title: Build a Boilerplate
+title: Jenga muundo wa msingi
 challengeType: 12
 url: freeCodeCamp/learn-bash-by-building-a-boilerplate
 dashedName: build-a-boilerplate
@@ -8,7 +8,7 @@ dashedName: build-a-boilerplate
 
 # --description--
 
-In this 170-lesson workshop, you will learn terminal commands by creating a website boilerplate using only the command line.
+Katika warsha hii yenye mafundisho 170, utafundishwa amri za terminal kwa kuunda muundo wa msingi wa tovuti ukitumia tu mstari wa amri.
 
 # --instructions--
 

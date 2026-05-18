@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c442eddfaeb5bd1f
-title: Use the Twitch JSON API
+title: Tumia API ya JSON ya Twitch
 challengeType: 3
 forumTopicId: 19541
 dashedName: use-the-twitch-json-api
@@ -8,25 +8,25 @@ dashedName: use-the-twitch-json-api
 
 # --description--
 
-**Objective:** Build an app that is functionally similar to this: <a href="https://codepen.io/freeCodeCamp/full/Myvqmo/" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/Myvqmo/</a>.
+**Lengo:** Jenga programu inayofanya kazi kwa njia inayofanana na hii: <a href="https://codepen.io/freeCodeCamp/full/Myvqmo/" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/Myvqmo/</a>.
 
-The Twitch API is a RESTful API that lets developers build creative integrations for the broader Twitch community.
+API ya Twitch ni API ya RESTful inayowezesha wasanidi programu kujenga muunganisho bunifu kwa ajili ya jamii kubwa ya Twitch.
 
-Fulfill the below user stories and get all of the tests to pass. Use whichever libraries or APIs you need. Ipe muundo wako wa kibinafsi.
+Kamilisha hadithi za mtumiaji zilizo hapa chini na upite vipimo vyote. Tumia maktaba au API yoyote unayohitaji. Toa mtindo wako binafsi.
 
-**User Story:** I can see whether freeCodeCamp is currently streaming on Twitch.tv.
+**Hadithi ya mtumiaji:** Naweza kuona kama freeCodeCamp kwa sasa inatiririsha moja kwa moja kwenye Twitch.tv.
 
-**User Story:** I can click the status output and be sent directly to the freeCodeCamp's Twitch.tv channel.
+**Hadithi ya mtumiaji:** Naweza kubofya matokeo ya hali na kupelekwa moja kwa moja kwenye kituo cha freeCodeCamp cha Twitch.tv.
 
-**User Story:** If a Twitch user is currently streaming, I can see additional details about what they are streaming.
+**Hadithi ya mtumiaji:** Ikiwa mtumiaji wa Twitch kwa sasa anatiririsha, naweza kuona maelezo zaidi kuhusu kile wanachotiririsha.
 
-**Hint:** Here's an array of the Twitch.tv usernames of people who regularly stream: `["ESL_SC2", "OgamingSC2", "cretetion", "freecodecamp", "storbeck", "habathcx", "RobotCaleb", "noobs2ninjas"]`
+**Kibukizi:** Hii ni safu ya majina ya watumiaji wa Twitch.tv ambao hutiririsha mara kwa mara: `["ESL_SC2", "OgamingSC2", "cretetion", "freecodecamp", "storbeck", "habathcx", "RobotCaleb", "noobs2ninjas"]`
 
-**UPDATE:** Due to a change in conditions on API usage, Twitch.tv requires an API key, but we've built a workaround. Use <a href="https://twitch-proxy.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://twitch-proxy.freecodecamp.rocks/</a> instead of Twitch's API base URL and you'll still be able to get account information, without needing to sign up for an API key.
+**SASISHA:** Kutokana na mabadiliko ya masharti ya matumizi ya API, Twitch.tv inahitaji ufunguo wa API, lakini tumetengeneza mbinu mbadala. Tumia <a href="https://twitch-proxy.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://twitch-proxy.freecodecamp.rocks/</a> badala ya URL ya msingi ya API ya Twitch na bado utaweza kupata taarifa za akaunti, bila haja ya kujiandikisha kwa ufunguo wa API.
 
-When you are finished, include a link to your project on CodePen and click the "I've completed this challenge" button.
+Ukiwa umemaliza, jumuisha kiungo cha mradi wako kwenye CodePen na bofya kitufe cha "Nimemaliza changamoto hii".
 
-You can get feedback on your project by sharing it on the <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp forum</a>.
+Unaweza kupata maoni kuhusu mradi wako kwa kuushiriki kwenye <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">jukwaa la freeCodeCamp</a>.
 
 # --solutions--
 

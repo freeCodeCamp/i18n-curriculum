@@ -1,19 +1,19 @@
 ---
 id: 6808baa8f8dcaf4f50a7acaa
-title: Hatua ya 17
+title: Hatua 17
 challengeType: 0
 dashedName: step-17
 ---
 
 # --description--
 
-For the truthy condition, if `prev` includes `item`, return a filtered array with `item` removed.
+Kwa hali ya kweli, ikiwa `prev` inajumuisha `item`, rudisha safu ya data iliyochujwa na `item` imeondolewa.
 
-Chain the `filter()` method to `prev` and pass it an anonymous function that takes `i` as an argument. Inside the function, check that `i` is not strictly equal to `item`. This will return a new array with all items except `item`.
+Unganisha njia ya `filter()` kwa `prev` na upitishe kitendakazi kisicho na jina kinachochukua `i` kama hoja. Ndani ya kitendakazi, hakikisha kwamba `i` si sawa kabisa na `item`. Hii itarudisha safu mpya ya data yenye vitu vyote isipokuwa `item`.
 
 # --hints--
 
-You should chain the `filter()` method to `prev` and pass it an anonymous function that takes `i` as an argument.
+Unapaswa kuunganisha njia ya `filter()` kwa `prev` na upitishe kitendakazi kisicho na jina kinachochukua `i` kama hoja.
 
 ```js
 const script = [...document.querySelectorAll("script")].find((s) => s.dataset.src ===  "index.jsx").innerText;
@@ -24,7 +24,7 @@ const shoppingListString = exports.ShoppingList.toString();
 assert.match(shoppingListString, /prev\.includes\s*\(\s*item\s*\)\s*\?\s*prev\.filter\s*\(function\s*\(\s*i\s*\)\s*{/);
 ```
 
-Inside the anonymous `filter()` function, you should check that `i` is not strictly equal to `item`. Remember to return the result of that check.
+Ndani ya kitendakazi kisicho na jina cha `filter()`, unapaswa kuhakikisha kwamba `i` si sawa kabisa na `item`. Kumbuka kurudisha matokeo ya ukaguzi huo.
 
 ```js
 const script = [...document.querySelectorAll("script")].find((s) => s.dataset.src ===  "index.jsx").innerText;

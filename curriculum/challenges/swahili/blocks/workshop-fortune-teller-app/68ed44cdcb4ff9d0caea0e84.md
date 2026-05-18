@@ -1,24 +1,24 @@
 ---
 id: 68ed44cdcb4ff9d0caea0e84
-title: Step 23
+title: Hatua 23
 challengeType: 0
 dashedName: step-23
 ---
 
 # --description--
 
-Since you're calling `fetchCardsData` and `initializeEventListeners` inside the constructor, you now need to define them inside the class. Create both as `private` methods. Make sure `fetchCardsData` is asynchronous since it will handle API calls.
+Kwa kuwa unafanya wito wa `fetchCardsData` na `initializeEventListeners` ndani ya kijenzi, sasa unahitaji kuvitaja ndani ya darasa la vitu. Unda zote mbili kama njia za `private`. Hakikisha `fetchCardsData` ni isiyo ya wakati mmoja kwa sababu itashughulikia wito za API.
 
 # --hints--
 
-You should have a `private` method named `fetchCardsData`.
+Unapaswa kuwa na njia ya `private` yenye jina `fetchCardsData`.
 
 ```js
 const explorer = await __helpers.Explorer(code);
 assert.isTrue(explorer.classes.Game.methods.fetchCardsData.isPrivate());
 ```
 
-Your `fetchCardsData` method should be `async`.
+Njia yako ya `fetchCardsData` inapaswa kuwa `async`.
 
 ```js
 const explorer = await __helpers.Explorer(code);
@@ -26,7 +26,7 @@ const method = explorer.classes.Game.methods.fetchCardsData.toString();
 assert.match(method, /async/);
 ```
 
-You should have a `private` method named `initializeEventListeners`.
+Unapaswa kuwa na njia ya `private` yenye jina `initializeEventListeners`.
 
 ```js
 const explorer = await __helpers.Explorer(code);

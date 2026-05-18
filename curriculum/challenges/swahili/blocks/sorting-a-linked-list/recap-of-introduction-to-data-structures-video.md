@@ -1,6 +1,6 @@
 ---
 id: 698de8fd7932b3cc4b19c93e
-title: Recap of Introduction to Data Structures
+title: Muhtasari wa Utangulizi wa Miundo ya Data
 challengeType: 11
 videoId: KUG1HNrchK0
 dashedName: recap-of-introduction-to-data-structures
@@ -8,13 +8,13 @@ dashedName: recap-of-introduction-to-data-structures
 
 # --description--
 
-In this video, you will recap the concepts you learned about data structures.
+Katika video hii, utakagua tena dhana ulizojifunza kuhusu miundo ya data.
 
 # --questions--
 
 ## --text--
 
-What is the name of the data structure in Python that is similar to arrays and can store a sequence of elements?
+Ni jina gani la muundo wa data katika Python ambalo linafanana na safu za data na linaweza kuhifadhi mfululizo wa vipengele?
 
 ## --answers--
 

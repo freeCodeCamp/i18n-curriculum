@@ -1,6 +1,6 @@
 ---
 id: 699e782f8f18cf77dfce5c1a
-title: Angle Sum and Difference Formulas
+title: Fomula za Jumla na Tofauti za Pembe
 challengeType: 11
 videoId: cWSkoA9jshQ
 dashedName: angle-sum-and-difference-formulas
@@ -8,13 +8,13 @@ dashedName: angle-sum-and-difference-formulas
 
 # --description--
 
-In this video, you will learn about the angle sum and difference formulas.
+Katika video hii, utafundishwa kuhusu fomula za jumla na tofauti za pembe.
 
 # --questions--
 
 ## --text--
 
-What is the exact value for $\sin(105°)$?
+Ni thamani gani halisi ya $\sin(105°)$?
 
 ## --answers--
 
@@ -35,5 +35,3 @@ $\sin(60° + 45°) = \sin(60°)\cos(45°) + \cos(60°)\sin(45°) = \frac{\sqrt{3
 ## --video-solution--
 
 4
-
-

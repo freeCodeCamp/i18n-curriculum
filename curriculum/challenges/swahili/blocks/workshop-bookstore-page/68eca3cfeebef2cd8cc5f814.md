@@ -1,24 +1,24 @@
 ---
 id: 68eca3cfeebef2cd8cc5f814
-title: Step 14
+title: Hatua 14
 challengeType: 0
 dashedName: step-14
 ---
 
 # --description--
 
-Add an `id` attribute to your second element having a class of `card` and set its value to `dave-cooking-book`. Remember that each `id` must be unique.
+Ongeza sifa ya kipengele ya `id` kwa kipengele chako cha pili chenye darasa la `card` na weka thamani yake kuwa `dave-cooking-book`. Kumbuka kwamba kila `id` lazima iwe ya kipekee.
 
 # --hints--
 
-Your second element having a class of `card` should have an `id` attribute.
+Kipengele chako cha pili chenye darasa la `card` kinapaswa kuwa na sifa ya kipengele ya `id`.
 
 ```js
 const cards = document.querySelectorAll('.card');
 assert.isTrue(cards[1]?.hasAttribute('id'));
 ```
 
-Your second element having a class of`card` should have an `id` with value of `dave-cooking-book`.
+Kipengele chako cha pili chenye darasa la `card` kinapaswa kuwa na `id` yenye thamani ya `dave-cooking-book`.
 
 ```js
 const cards = document.querySelectorAll('.card');
@@ -39,18 +39,18 @@ assert.equal(cards[1]?.id, 'dave-cooking-book');
 <body>
   <h1>XYZ Bookstore</h1>
   <p>Browse our collection of amazing books!</p>
-
+  
   <div class="card-container">
     <div class="card" id="sally-adventure-book">
       <h2>Sally's SciFi Adventure</h2>
       <p>This is an epic story of Sally and her dog Rex as they navigate through other worlds.</p>
       <button class="btn">Buy Now</button>
     </div>
-
+    
   --fcc-editable-region--
     <div class="card">
   --fcc-editable-region--
-
+      
     </div>
   </div>
 </body>

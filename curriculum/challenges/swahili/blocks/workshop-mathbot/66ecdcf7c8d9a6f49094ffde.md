@@ -1,72 +1,72 @@
 ---
 id: 66ecdcf7c8d9a6f49094ffde
-title: Step 13
+title: Hatua 13
 challengeType: 1
 dashedName: step-13
 ---
 
 # --description--
 
-In previous lessons, you learned that the `Math.round()` method rounds the value to the nearest whole integer.
+Katika mafundisho yaliyopita, ulijifunza kwamba njia ya `Math.round()` inazungusha thamani hadi nambari kamili iliyo karibu zaidi.
 
-Here are some examples:
+Hapa kuna mifano kadhaa:
 
 ```js
 Math.round(6.7); // 7
 Math.round(3.2); // 3
 ```
 
-This differs from the `Math.floor()` and `Math.ceil()` methods, which round down and up to the nearest whole integer, respectively.
+Hii ni tofauti na njia za `Math.floor()` na `Math.ceil()`, ambazo huzungusha chini na juu hadi nambari kamili iliyo karibu zaidi, mtawalia.
 
-Create a new variable called `numRounded` and assign the result of rounding the number `2.7`. Then, log the value of `numRounded` to the console.
+Tengeneza kigezo kipya kinachoitwa `numRounded` na weka thamani ya matokeo ya kuzungusha nambari `2.7`. Kisha, andika thamani ya `numRounded` kwenye konsoli.
 
-Below that, create another new variable called `numRounded2` and assign the result of rounding the number `11.2`. Then, log the value of `numRounded2` to the console.
+Chini ya hapo, tengeneza kigezo kingine kipya kinachoitwa `numRounded2` na weka thamani ya matokeo ya kuzungusha nambari `11.2`. Kisha, andika thamani ya `numRounded2` kwenye konsoli.
 
 # --hints--
 
-You should have a variable called `numRounded`.
+Unapaswa kuwa na kigezo kinachoitwa `numRounded`.
 
 ```js
 assert.isNotNull(numRounded);
 ```
 
-You should assign the result of rounding the number `2.7` to the variable `numRounded`.
+Unapaswa kuweka thamani ya matokeo ya kuzungusha nambari `2.7` kwenye kigezo `numRounded`.
 
 ```js
 assert.equal(numRounded, 3);
 ```
 
-You should not hardcode the value of `3` for the variable `numRounded`. Make sure you are using the `Math.round()` method.
+Usiweka thamani ya `3` moja kwa moja kwa kigezo `numRounded`. Hakikisha unatumia njia ya `Math.round()`.
 
 ```js
 assert.notMatch(code, /numRounded\s*=\s*3/);
 ```
 
-You should log the value of `numRounded` to the console.
+Unapaswa kuandika thamani ya `numRounded` kwenye konsoli.
 
 ```js
 assert.match(code, /console\.log\(\s*numRounded\s*\)/);
 ```
 
-You should have a variable called `numRounded2`.
+Unapaswa kuwa na kigezo kinachoitwa `numRounded2`.
 
 ```js
 assert.isNotNull(numRounded2);
 ```
 
-You should assign the result of rounding the number `11.2` to the variable `numRounded2`.
+Unapaswa kuweka thamani ya matokeo ya kuzungusha nambari `11.2` kwenye kigezo `numRounded2`.
 
 ```js
 assert.equal(numRounded2, 11);
 ```
 
-You should not hardcode the value of `11` for the variable `numRounded2`. Make sure you are using the `Math.round()` method.
+Usiweka thamani ya `11` moja kwa moja kwa kigezo `numRounded2`. Hakikisha unatumia njia ya `Math.round()`.
 
 ```js
 assert.notMatch(code, /numRounded2\s*=\s*11/);
 ```
 
-You should log the value of `numRounded2` to the console.
+Unapaswa kuandika thamani ya `numRounded2` kwenye konsoli.
 
 ```js
 assert.match(code, /console\.log\(\s*numRounded2\s*\)/);

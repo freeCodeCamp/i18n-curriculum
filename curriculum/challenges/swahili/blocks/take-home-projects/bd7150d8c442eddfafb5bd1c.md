@@ -1,6 +1,6 @@
 ---
 id: bd7150d8c442eddfafb5bd1c
-title: P2P Video Chat Application
+title: Programu ya mazungumzo ya video ya P2P
 challengeType: 4
 forumTopicId: 302366
 dashedName: p2p-video-chat-application
@@ -8,31 +8,31 @@ dashedName: p2p-video-chat-application
 
 # --description--
 
-**Objective:** Build an app that is functionally similar to this: <a href="https://p2p-video-chat-application.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://p2p-video-chat-application.freecodecamp.rocks/</a>.
+**Lengo:** Jenga programu inayofanya kazi kwa njia inayofanana na hii: <a href="https://p2p-video-chat-application.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://p2p-video-chat-application.freecodecamp.rocks/</a>.
 
-Fulfill the below user stories and get all of the tests to pass. Use whichever libraries or APIs you need. Give it your own personal style.
+Kamilisha hadithi za mtumiaji zilizo hapa chini na upite vipimo vyote. Tumia maktaba au API yoyote unayohitaji. Toa mtindo wako binafsi.
 
-**User Story:** Upon arriving, the browser will prompt me to access my camera and microphone.
+**Hadithi ya mtumiaji:** Ninapofika, kivinjari kitaniuliza ruhusa ya kupata kamera na kipaza sauti changu.
 
-**User Story:** After I give it permission, I am prompted to type in a room name.
+**Hadithi ya mtumiaji:** Baada ya kutoa ruhusa, nitalazimika kuandika jina la chumba.
 
-**User Story:** Once I type in the room name, a room will be created if no room of that name existed before.
+**Hadithi ya mtumiaji:** Mara nitakapoiandika jina la chumba, chumba kitaanzishwa ikiwa hakikuwepo chumba lenye jina hilo hapo awali.
 
-**User Story:** A friend of mine can subsequently go to the same website, type in the same room I entered, and join the same room, then enter into a video chat with me.
+**Hadithi ya mtumiaji:** Rafiki yangu anaweza baadaye kwenda kwenye tovuti ile ile, kuandika jina la chumba nililoingiza, na kujiunga na chumba hicho, kisha kuingia kwenye mazungumzo ya video nami.
 
-**User Story:** If I type in a room name, and there are already two people in that room, I get a notification that the room is full.
+**Hadithi ya mtumiaji:** Ikiwa nitaandika jina la chumba, na tayari kuna watu wawili katika chumba hicho, nitapokea taarifa kwamba chumba kimejaa.
 
-**User Story:** Anyone can create or join any room. And there can be any number of rooms, but all of them must have unique names.
+**Hadithi ya mtumiaji:** Kila mtu anaweza kuanzisha au kujiunga na chumba lolote. Na kunaweza kuwa na idadi yoyote ya vyumba, lakini vyote lazima viwe na majina ya kipekee.
 
-**User Story:** I can choose to not permit the site to access my microphone and webcam. If I choose not to do this, or if some other driver problem occurs, I see an error message saying these are required.
+**Hadithi ya mtumiaji:** Naweza kuchagua kuto ruhusu tovuti kupata kipaza sauti na kamera yangu. Ikiwa nitaamua kuto ruhusu, au ikiwa kuna tatizo lingine la dereva, nitaona ujumbe wa kosa unaosema haya ni muhimu.
 
-**User Story:** When I choose to cancel the room name input step, or if I type in no name, or just spaces, it should again ask me again to type in a valid room name.
+**Hadithi ya mtumiaji:** Ninapochagua kughairi hatua ya kuingiza jina la chumba, au ikiwa sitaandika jina lolote, au nitatoa nafasi tu, itaniuliza tena kuandika jina halali la chumba.
 
-**User Story:** If one of the two people in the room get disconnected, they can reconnect to the same room and continue chatting.
+**Hadithi ya mtumiaji:** Ikiwa mmoja wa watu wawili walioko chumbani atakatika, wanaweza kuunganishwa tena kwenye chumba hicho na kuendelea kuzungumza.
 
-Once you've finished implementing these user stories, enter the URL to your live app and, optionally, your GitHub repository. Then click the "I've completed this challenge" button.
+Mara tu utakapo maliza kutekeleza hadithi hizi za mtumiaji, ingiza URL ya programu yako iliyo hewani na, hiari, hifadhidata yako ya GitHub. Kisha bofya kitufe cha "Nimemaliza changamoto hii".
 
-You can get feedback on your project by sharing it on the <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp forum</a>.
+Unaweza kupata maoni kuhusu mradi wako kwa kuushiriki kwenye <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">jukwaa la freeCodeCamp</a>.
 
 # --solutions--
 

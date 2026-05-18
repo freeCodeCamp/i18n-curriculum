@@ -1,15 +1,15 @@
 ---
 id: 6999ad1cdc249e185aaeedbd
-title: Step 8
+title: Hatua 8
 challengeType: 1
 dashedName: step-8
 ---
 
 # --description--
 
-In this step, you will create a function that adds a new property to an object.
+Katika hatua hii, utaunda kitendakazi kinachoongeza sifa mpya kwa kitu.
 
-Here is an example of adding a property inside a function:
+Hapa kuna mfano wa kuongeza sifa ndani ya kitendakazi:
 
 ```js
 const cat = {
@@ -28,38 +28,38 @@ console.log(addColor(cat, "White"));
 // }
 ```
 
-In this example, the `color` property is added to the `cat` object.
+Katika mfano huu, sifa ya `color` inaongezwa kwa kitu cha `cat`.
 
-Now create a function called `addHabitat`. The function should take two parameters: `animal` and `habitat`.
+Sasa unda kitendakazi kinachoitwa `addHabitat`. Kitendakazi hicho kinapaswa kuchukua vigezo viwili: `animal` na `habitat`.
 
-Inside the function, add a new property called `habitat` to the `animal` object. Set its value equal to the `habitat` parameter.
+Ndani ya kitendakazi, ongeza sifa mpya inayoitwa `habitat` kwa kitu cha `animal`. Weka thamani yake sawa na kigezo cha `habitat`.
 
-Return the updated `animal` object.
+Rudisha kitu cha `animal` kilichosasishwa.
 
-After creating the function, use `console.log` to call `addHabitat(tiger, "Rainforest")` so you can see the updated `tiger` object in the console.
+Baada ya kuunda kitendakazi, tumia `console.log` kuita `addHabitat(tiger, "Rainforest")` ili uone kitu cha `tiger` kilichosasishwa kwenye konsoli.
 
 # --hints--
 
-You should create a function named `addHabitat`.
+Unapaswa kuunda kitendakazi kinachoitwa `addHabitat`.
 
 ```js
 assert.isFunction(addHabitat);
 ```
 
-The `addHabitat` function should have two parameters: `animal` and `habitat`.
+Kitendakazi cha `addHabitat` kinapaswa kuwa na vigezo viwili: `animal` na `habitat`.
 
 ```js
 const regex = __helpers.functionRegex('addHabitat', ['animal', 'habitat']);
 assert.match(__helpers.removeJSComments(code), regex);
 ```
 
-`addHabitat` should use dot notation to add the `habitat` property.
+`addHabitat` inapaswa kutumia uandishi wa nukta kuongeza sifa ya `habitat`.
 
 ```js
 assert.match(code, /animal\.habitat\s*=\s*habitat/);
 ```
 
-The `addHabitat` function should return the updated `animal` object.
+Kitendakazi cha `addHabitat` kinapaswa kurudisha kitu cha `animal` kilichosasishwa.
 
 ```js
 const testAnimal = { species: "Cat" };
@@ -67,7 +67,7 @@ const result = addHabitat(testAnimal, "Forest");
 assert.strictEqual(result, testAnimal);
 ```
 
-You should log `addHabitat(tiger, "Rainforest")` to the console.
+Unapaswa kuandika `addHabitat(tiger, "Rainforest")` kwenye konsoli.
 
 ```js
 assert.match(
@@ -76,7 +76,7 @@ assert.match(
 );
 ```
 
-Calling `addHabitat(tiger, "Rainforest")` should add a habitat property to tiger.
+Kuita `addHabitat(tiger, "Rainforest")` kunapaswa kuongeza sifa ya habitat kwa tiger.
 
 ```js
 const updatedTiger = addHabitat(tiger, "Rainforest");
@@ -89,7 +89,7 @@ assert.deepEqual(updatedTiger, {
 });
 ```
 
-`addHabitat` should use the function parameters and work with any object.
+`addHabitat` inapaswa kutumia vigezo vya kitendakazi na kufanya kazi na kitu chochote.
 
 ```js
 const lion = { species: "Lion" };

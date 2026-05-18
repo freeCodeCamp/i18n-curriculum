@@ -1,6 +1,6 @@
 ---
 id: 698dbbcf7932b3cc4b19c91a
-title: Introduction
+title: Utangulizi
 challengeType: 11
 videoId: 0tlFSgUJt4Q
 dashedName: introduction
@@ -8,13 +8,13 @@ dashedName: introduction
 
 # --description--
 
-Listen to Beau Carnes introduce this Algorithms and Data Structures course.
+Sikiliza Beau Carnes akitambulisha kozi hii ya Algoriti na Miundo ya Data.
 
 # --questions--
 
 ## --text--
 
-Who created this course?
+Nani aliyeunda kozi hii?
 
 ## --answers--
 
@@ -22,7 +22,7 @@ Treehouse
 
 ---
 
-CodeAcademy
+CodeAcademy 
 
 ---
 

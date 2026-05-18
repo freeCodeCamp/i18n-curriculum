@@ -1,25 +1,25 @@
 ---
 id: 699b58c5abecfda9dc81c4ec
-title: Step 3
+title: Hatua 3
 challengeType: 1
 dashedName: step-3
 ---
 
 # --description--
 
-Right now the `profile` object only has three properties. But it would be nice to have a few more.
+Kwa sasa kitu cha `profile` kina sifa tatu tu. Lakini itakuwa vizuri kuwa na sifa zaidi kidogo.
 
-Add a property called `mood` to the `profile` object. Its value should be `null`.
+Ongeza sifa iitwayo `mood` kwenye kitu cha `profile`. Thamani yake inapaswa kuwa `null`.
 
 # --hints--
 
-Your `profile` object should have a `mood` property.
+Kitu chako cha `profile` kinapaswa kuwa na sifa ya `mood`.
 
 ```js
 assert.property(profile, "mood");
 ```
 
-Your `mood` property should have a value of `null`.
+Sifa yako ya `mood` inapaswa kuwa na thamani ya `null`.
 
 ```js
 assert.isNull(profile?.mood);

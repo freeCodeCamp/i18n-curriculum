@@ -1,23 +1,23 @@
 ---
 id: 671fa93b5eee8737af8bafde
-title: Step 10
+title: Hatua 10
 challengeType: 0
 dashedName: step-10
 ---
 
 # --description--
 
-Create a function called `displayStory`. Inside the function, log `"You clicked the button"` to the console.
+Tengeneza kitendakazi kinachoitwa `displayStory`. Ndani ya kitendakazi hicho, andika `"You clicked the button"` kwenye konsoli.
 
 # --hints--
 
-You should have a function called `displayStory`.
+Unapaswa kuwa na kitendakazi kinachoitwa `displayStory`.
 
 ```js
 assert.isFunction(displayStory);
 ```
 
-You should log `"You clicked the button"` to the console inside the `displayStory` function.
+Unapaswa kuandika `"You clicked the button"` kwenye konsoli ndani ya kitendakazi cha `displayStory`.
 
 ```js
 assert.match(displayStory.toString(), /console\.log\(["']You clicked the button["']\)/);

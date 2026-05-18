@@ -1,28 +1,28 @@
 ---
 id: 5dfa371beacea3f48c6300af
-title: Step 21
+title: Hatua 21
 challengeType: 0
 dashedName: step-21
 ---
 
 # --description--
 
-When you add a lower-rank heading element to the page, it's implied that you're starting a new subsection.
+Unapoongeza kipengele cha kichwa cha sehemu cha daraja la chini kwenye ukurasa, inamaanisha kuwa unaanza sehemu ndogo mpya.
 
-After the last `h2` element of the second `section` element, add an `h3` element with this text:
+Baada ya kipengele cha `h2` cha pili cha `section`, ongeza kipengele cha `h3` chenye maandishi haya:
 
 `Things cats love:`
 
 # --hints--
 
-The second `section` element appears to be missing or does not have both an opening and closing tag.
+Kipengele cha `section` cha pili kinaonekana kukosekana au hakina lebo ya kufungua na lebo ya kufunga zote mbili.
 
 ```js
 assert.exists(document.querySelectorAll('main > section')[1]);
 assert.lengthOf(code.match(/\<\/section>/g), 2);
 ```
 
-There should be an `h3` element right above the second `section` element's closing tag.
+Inapaswa kuwepo kipengele cha `h3` juu kidogo ya lebo ya kufunga ya kipengele cha `section` cha pili.
 
 ```js
 assert.equal(
@@ -31,13 +31,13 @@ assert.equal(
 );
 ```
 
-Your `h3` element should have a closing tag. Closing tags have a `/` just after the `<` character.
+Kipengele chako cha `h3` kinapaswa kuwa na lebo ya kufunga. Lebo za kufunga zina `/` mara tu baada ya herufi ya `<`.
 
 ```js
 assert.lengthOf(code.match(/<\/h3>/g), 1);
 ```
 
-The `h3` element right above the second `section` element's closing tag should have the text `Things cats love:`. Make sure to include the colon at the end of the text.
+Kipengele cha `h3` kilicho juu kidogo ya lebo ya kufunga ya kipengele cha `section` cha pili kinapaswa kuwa na maandishi ya `Things cats love:`. Hakikisha unajumuisha nukta mwishoni mwa maandishi.
 
 ```js
 assert.equal(
@@ -48,7 +48,7 @@ assert.equal(
 );
 ```
 
-There should be an `h2` element with the text `Cat Lists` above the last `h3` element that is nested in the last `section` element'. You may have accidentally deleted the `h2` element.
+Inapaswa kuwepo kipengele cha `h2` chenye maandishi ya `Cat Lists` juu ya kipengele cha `h3` cha mwisho kilichopangwa ndani ya kipengele cha `section` cha mwisho. Huenda umefuta kipengele cha `h2` kwa bahati mbaya.
 
 ```js
 const secondSectionLastElemNode = document.querySelectorAll('main > section')[1]
@@ -79,7 +79,7 @@ assert.equal(
       <section>
         <h2>Cat Lists</h2>
 --fcc-editable-region--
-
+        
 --fcc-editable-region--
       </section>
     </main>

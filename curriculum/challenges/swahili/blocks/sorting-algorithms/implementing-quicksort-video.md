@@ -1,6 +1,6 @@
 ---
 id: 698dea0c7932b3cc4b19c945
-title: Implementing Quicksort
+title: Kutekeleza quicksort
 challengeType: 11
 videoId: 7k5rxhK3X_Y
 dashedName: implementing-quicksort
@@ -8,13 +8,13 @@ dashedName: implementing-quicksort
 
 # --description--
 
-In this video, you will learn how to implement the quicksort algorithm in Python.
+Katika video hii, utafundishwa jinsi ya kutekeleza algoriti ya quicksort kwa Python.
 
 # --questions--
 
 ## --text--
 
-What is the base case for this quicksort implementation in Python?
+Ni kesi gani ya msingi kwa utekelezaji huu wa quicksort katika Python?
 
 ## --answers--
 

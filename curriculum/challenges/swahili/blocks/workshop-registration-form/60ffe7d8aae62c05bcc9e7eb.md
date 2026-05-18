@@ -7,19 +7,19 @@ dashedName: step-54
 
 # --description--
 
-With a `display` of `block` the submit button sits flush against the left edge of its parent.
+Kwa `display` ya `block` kitufe cha kuwasilisha kiko sambamba kabisa na kingo ya kushoto ya mzazi wake.
 
-Use the same technique used to center the `form` to center the submit button.
+Tumia mbinu ile ile iliyotumika kuweka `form` katikati ili kuweka kitufe cha kuwasilisha katikati.
 
 # --hints--
 
-You should give the submit button a `margin` of `0 auto`.
+Unapaswa kumpa kitufe cha kuwasilisha `margin` ya `0 auto`.
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('input[type="submit"]')?.margin, '0px auto');
 ```
 
-You should not give the submit button a `min-width` or `max-width`.
+Haupasi kumpa kitufe cha kuwasilisha `min-width` au `max-width`.
 
 ```js
 assert.isEmpty(new __helpers.CSSHelp(document).getStyle('input[type="submit"]')?.minWidth);
@@ -142,7 +142,7 @@ input[type="submit"] {
   display: block;
   width: 60%;
 --fcc-editable-region--
-
+  
 --fcc-editable-region--
 }
 

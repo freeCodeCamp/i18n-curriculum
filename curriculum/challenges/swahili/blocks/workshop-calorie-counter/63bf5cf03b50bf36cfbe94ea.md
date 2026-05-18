@@ -7,25 +7,25 @@ dashedName: step-39
 
 # --description--
 
-Now that you have finished testing the value of `entryDropdown.value`, you can remove the `console.log` statement.
+Sasa umeisha jaribu thamani ya `entryDropdown.value`, unaweza kuondoa tamko la `console.log`.
 
-Your next step is to allow users to add entries to the calorie counter. Declare an empty function `addEntry`. This function should not take any parameters.
+Hatua yako inayofuata ni kuruhusu watumizi kuongeza maingizo kwenye kielekezi cha kalori. Tangaza kitendakazi tupu `addEntry`. Kitendakazi hiki hakipaswi kuchukua vigezo vyovyote.
 
 # --hints--
 
-You should remove the `console.log` statement.
+Unapaswa kuondoa tamko la `console.log`.
 
 ```js
 assert.notMatch(code, /console\.log\s*\(.*\)/)
 ```
 
-You should declare an `addEntry` function.
+Unapaswa kutangaza kitendakazi cha `addEntry`.
 
 ```js
 assert.isFunction(addEntry);
 ```
 
-Your `addEntry` function should not take any parameters.
+Kitendakazi chako cha `addEntry` hakipaswi kuchukua vigezo vyovyote.
 
 ```js
 assert.match(addEntry?.toString(), /\(\s*\)/);

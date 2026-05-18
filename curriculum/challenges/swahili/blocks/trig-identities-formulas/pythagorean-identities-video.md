@@ -1,6 +1,6 @@
 ---
 id: 699e782a8f18cf77dfce5c19
-title: Pythagorean Identities
+title: Utambulisho wa Pythagorean
 challengeType: 11
 videoId: C1i_FlxW_uE
 dashedName: pythagorean-identities
@@ -8,13 +8,13 @@ dashedName: pythagorean-identities
 
 # --description--
 
-In this video, you will learn about the Pythagorean identities.
+Katika video hii, utafundishwa kuhusu utambulisho wa Pythagorean.
 
 # --questions--
 
 ## --text--
 
-Which of the following is an example of a Pythagorean identity?
+Ni ipi kati ya zifuatazo ni mfano wa utambulisho wa Pythagorean?
 
 ## --answers--
 
@@ -35,5 +35,3 @@ $\cot^2(x) - 1 = \csc^2(x)$
 ## --video-solution--
 
 2
-
-

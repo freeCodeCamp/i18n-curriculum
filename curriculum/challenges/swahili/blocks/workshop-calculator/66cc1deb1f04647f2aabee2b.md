@@ -1,30 +1,30 @@
 ---
 id: 66cc1deb1f04647f2aabee2b
-title: Hatua ya 15
+title: Hatua 15
 challengeType: 1
 dashedName: step-15
 ---
 
 # --description--
 
-If you look in the console, you will see the `Infinity` value. `Infinity` is a special value in JavaScript that represents a number that is greater than any other number.
+Kama utaangalia kwenye konsoli, utaona thamani ya `Infinity`. `Infinity` ni thamani maalum katika JavaScript inayowakilisha nambari kubwa kuliko nambari nyingine yoyote.
 
-The division by zero is not a valid operation in mathematics.
+Mgawanyiko kwa sifuri si operesheni halali katika hisabati.
 
-To account for this edge case, you should update your `calculateQuotient` function to instead check if `num2` is zero.
+Ili kushughulikia kesi hii ya kipekee, unapaswa kusahihisha kitendakazi chako cha `calculateQuotient` badala yake kihakikishe kama `num2` ni sifuri.
 
-If it is, the function should return the string `"Error: Division by zero"`. Otherwise, it should return the result of dividing `num1` by `num2`.
+Kama ni hivyo, kitendakazi kinapaswa kurudisha mfuatano wa herufi `"Error: Division by zero"`. Vinginevyo, kinapaswa kurudisha matokeo ya kugawanya `num1` kwa `num2`.
 
 # --hints--
 
-Your `calculateQuotient` function should return the string `"Error: Division by zero"` if `num2` is zero.
+Kitendakazi chako cha `calculateQuotient` kinapaswa kurudisha mfuatano wa herufi `"Error: Division by zero"` ikiwa `num2` ni sifuri.
 
 ```js
 assert.strictEqual(calculateQuotient(10, 0), 'Error: Division by zero');
 assert.strictEqual(calculateQuotient(3, 0), 'Error: Division by zero');
 ```
 
-Your `calculateQuotient` function should return the result of dividing `num1` by `num2` if `num2` is not zero.
+Kitendakazi chako cha `calculateQuotient` kinapaswa kurudisha matokeo ya kugawanya `num1` kwa `num2` ikiwa `num2` si sifuri.
 
 ```js
 assert.strictEqual(calculateQuotient(10, 2), 5);

@@ -1,6 +1,6 @@
 ---
 id: 698dc4a27932b3cc4b19c920
-title: Efficiency of an Algorithm
+title: Ufanisi wa algoriti
 challengeType: 11
 videoId: EHxx4yawPT0
 dashedName: efficiency-of-an-algorithm
@@ -8,29 +8,29 @@ dashedName: efficiency-of-an-algorithm
 
 # --description--
 
-In this video, you will learn how to measure the efficiency of an algorithm.
+Katika video hii, utafundishwa jinsi ya kupima ufanisi wa algoriti.
 
 # --questions--
 
 ## --text--
 
-What is Big O notation?
+Nini maana ya noti ya Big O?
 
 ## --answers--
 
-A notation used to calculate the memory address of variables in a program.
+Noti inayotumika kuhesabu anwani ya kumbukumbu ya vigezo katika programu.
 
 ---
 
-The exact running time of a program measured in seconds.
+Muda halisi wa utekelezaji wa programu unaopimwa kwa sekunde.
 
 ---
 
-A method for debugging errors in large software systems.
+Njia ya kutafuta makosa katika mifumo mikubwa ya programu.
 
 ---
 
-Theoretical definition of the complexity of an algorithm as a function of the size.
+Ufafanuzi wa nadharia wa ugumu wa algoriti kama kitendakazi cha ukubwa.
 
 ## --video-solution--
 

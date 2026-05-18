@@ -1,31 +1,31 @@
 ---
 id: 68ec6e8d0caee3afaaf142ef
-title: Step 8
+title: Hatua 8
 challengeType: 0
 dashedName: step-8
 ---
 
 # --description--
 
-You can add multiple elements inside a `div` element to group related content. Inside the element having a `class` of `card-container`, create another `div` element. This `div` will represent the first book card.
+Unaweza kuongeza vipengele vingi ndani ya kipengele cha `div` ili kupanga pamoja maudhui yanayohusiana. Ndani ya kipengele chenye `class` ya `card-container`, tengeneza kipengele kingine cha `div`. `div` hii itawakilisha kadi ya kitabu cha kwanza.
 
-Add a `class` attribute to this new `div` element and set the value of the `class` attribute to `card`.
+Ongeza sifa ya kipengele ya `class` kwa kipengele hiki kipya cha `div` na weka thamani ya sifa ya kipengele ya `class` kuwa `card`.
 
 # --hints--
 
-You should have a `div` element nested inside the element with a class of `card-container`.
+Unapaswa kuwa na kipengele cha `div` kilichopangwa ndani ya kipengele chenye darasa la vitu la `card-container`.
 
 ```js
 assert.exists(document.querySelector('.card-container div'));
 ```
 
-Your new `div` element should have a `class` attribute.
+Kipengele chako kipya cha `div` kinapaswa kuwa na sifa ya kipengele ya `class`.
 
 ```js
 assert.isTrue(document.querySelector('.card-container div')?.hasAttribute('class'));
 ```
 
-Your new `div` element should have a `class` having the value of `card`.
+Kipengele chako kipya cha `div` kinapaswa kuwa na sifa ya kipengele ya `class` yenye thamani ya `card`.
 
 ```js
 assert.exists(document.querySelector('.card-container div.card'));
@@ -46,10 +46,10 @@ assert.exists(document.querySelector('.card-container div.card'));
 <body>
   <h1>XYZ Bookstore</h1>
   <p>Browse our collection of amazing books!</p>
-
+  
   <div class="card-container">
 --fcc-editable-region--
-
+    
 --fcc-editable-region--
   </div>
 </body>

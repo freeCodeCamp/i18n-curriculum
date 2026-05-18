@@ -7,11 +7,11 @@ dashedName: step-74
 
 # --description--
 
-Next, you are going to be styling the `footer` element. To keep the CSS organized, add a comment at the end of `styles.css` with the text `FOOTER`.
+Ifuatayo, utaanza kupamba kipengele cha `footer`. Ili kuweka CSS iwe imepangwa vizuri, ongeza maoni mwishoni mwa `styles.css` yenye maandishi `FOOTER`.
 
 # --hints--
 
-You should have a CSS comment with the text `FOOTER`.
+Unapaswa kuwa na maoni ya CSS yenye maandishi `FOOTER`.
 
 ```js
 assert.match(code, /\/\*\s*FOOTER\s*\*\//i);

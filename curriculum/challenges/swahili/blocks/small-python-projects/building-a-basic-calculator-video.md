@@ -1,6 +1,6 @@
 ---
 id: 6ec8578710ffa3471b74888e
-title: Building a Basic Calculator
+title: Kujenga kalkuleta ya msingi
 challengeType: 11
 videoId: vA10XU1O3QQ
 dashedName: building-a-basic-calculator
@@ -8,13 +8,13 @@ dashedName: building-a-basic-calculator
 
 # --description--
 
-In this video, you will build a basic calculator program that can perform addition, subtraction, multiplication, and division operations.
+Katika video hii, utaweka programu ya kalkuleta ya msingi inayoweza kufanya operesheni za kuongeza, kutoa, kuzidisha, na kugawanya.
 
 # --questions--
 
 ## --text--
 
-Which function is used to convert a string to an integer?
+Ni kitendakazi gani kinachotumika kubadilisha mfuatano wa herufi kuwa nambari kamili?
 
 ## --answers--
 

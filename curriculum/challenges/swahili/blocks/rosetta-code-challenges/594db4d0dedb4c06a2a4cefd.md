@@ -1,6 +1,6 @@
 ---
 id: 594db4d0dedb4c06a2a4cefd
-title: Babbage problem
+title: Tatizo la Babbage
 challengeType: 1
 forumTopicId: 302229
 dashedName: babbage-problem
@@ -8,30 +8,30 @@ dashedName: babbage-problem
 
 # --description--
 
-Charles Babbage, looking ahead to the sorts of problems his Analytical Engine would be able to solve, gave this example:
+Charles Babbage, akitazama mbele kwa aina za matatizo ambayo Mashine yake ya Uchambuzi (Analytical Engine) ingekuwa na uwezo wa kuyatatua, alitoa mfano huu:
 
 <blockquote>
-  What is the smallest positive integer whose square ends in the digits 269,696?
-  <footer style='margin-left: 2em;'>Babbage, letter to Lord Bowden, 1837; see Hollingdale and Tootill, <i>Electronic Computers</i>, second edition, 1970, p. 125.</footer>
+  Ni nambari kamili chanya ndogo kabisa ambayo mraba wake unaishia na tarakimu 269,696?
+  <footer style='margin-left: 2em;'>Babbage, barua kwa Lord Bowden, 1837; angalia Hollingdale na Tootill, <i>Electronic Computers</i>, toleo la pili, 1970, uk. 125.</footer>
 </blockquote>
 
-He thought the answer might be 99,736, whose square is 9,947,269,696; but he couldn't be certain.
+Alidhani jibu linaweza kuwa 99,736, ambalo mraba wake ni 9,947,269,696; lakini hakuweza kuwa na uhakika.
 
-The task is to find out if Babbage had the right answer.
+Zoezi ni kugundua kama Babbage alikuwa na jibu sahihi.
 
 # --instructions--
 
-Implement a function to return the lowest integer that satisfies the Babbage problem. If Babbage was right, return Babbage's number.
+Tekeleza kitendakazi kurudisha nambari kamili ndogo kabisa inayokidhi tatizo la Babbage. Ikiwa Babbage alikuwa sahihi, rudisha nambari ya Babbage.
 
 # --hints--
 
-`babbage` should be a function.
+`babbage` inapaswa kuwa kitendakazi.
 
 ```js
 assert(typeof babbage === 'function');
 ```
 
-`babbage(99736, 269696)` should not return 99736 (there is a smaller answer).
+`babbage(99736, 269696)` haipaswi kurudisha 99736 (kuna jibu ndogo zaidi).
 
 ```js
 const babbageAns = 99736;

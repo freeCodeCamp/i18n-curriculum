@@ -1,6 +1,6 @@
 ---
 id: 699e5b9e8f18cf77dfce5c0e
-title: Sine and Cosine of Special Angles
+title: Sine na Cosine za Pembe Maalum
 challengeType: 11
 videoId: X0Bh-NiQ3KQ
 dashedName: sine-cosine-special-angles
@@ -8,13 +8,13 @@ dashedName: sine-cosine-special-angles
 
 # --description--
 
-In this video, you will learn how to find the sine and cosine of special angles, such as 30°, 45°, and 60°.
+Katika video hii, utajifunza jinsi ya kupata sine na cosine za pembe maalum, kama vile 30°, 45°, na 60°.
 
 # --questions--
 
 ## --text--
 
-What is the cosine of 45° for a right triangle with the hypotenuse of length 5?
+Cosine ya 45° kwa pembetatu ya haki yenye urefu wa hypotenuse 5 ni gani?
 
 ## --answers--
 
@@ -35,5 +35,3 @@ $\frac{\sqrt{2}}{2}$
 ## --video-solution--
 
 4
-
-

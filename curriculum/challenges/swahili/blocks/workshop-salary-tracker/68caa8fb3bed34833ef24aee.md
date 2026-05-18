@@ -1,19 +1,19 @@
 ---
 id: 68caa8fb3bed34833ef24aee
-title: Step 33
+title: Hatua 33
 challengeType: 20
 dashedName: step-33
 ---
 
 # --description--
 
-When the level is modified, you need to update the salary as well.
+Unapobadilisha kiwango, unahitaji pia kusahihisha mshahara.
 
-Before setting `self._level`, set `self._salary` to the base salary for the new level.
+Kabla ya kuweka `self._level`, weka `self._salary` kuwa mshahara wa msingi kwa kiwango kipya.
 
 # --hints--
 
-You should set `self._salary` to the base salary for the new level.
+Unapaswa kuweka `self._salary` kuwa mshahara wa msingi kwa kiwango kipya.
 
 ```js
 ({ test: () => runPython(`
@@ -75,7 +75,7 @@ class Employee:
         if hasattr(self, '_level') and Employee._base_salaries[new_level] < Employee._base_salaries[self.level]:
             raise ValueError("Cannot change to lower level.")
 --fcc-editable-region--
-
+        
 --fcc-editable-region--
         self._level = new_level
 

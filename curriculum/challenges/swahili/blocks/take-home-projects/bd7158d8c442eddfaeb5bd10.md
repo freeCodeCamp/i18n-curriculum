@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c442eddfaeb5bd10
-title: Show the Local Weather
+title: Onyesha hali ya hewa ya eneo lako
 challengeType: 3
 forumTopicId: 302368
 dashedName: show-the-local-weather
@@ -8,23 +8,23 @@ dashedName: show-the-local-weather
 
 # --description--
 
-**Objective:** Build an app that is functionally similar to this: <a href="https://codepen.io/freeCodeCamp/full/bELRjV" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/bELRjV</a>.
+**Lengo:** Jenga programu inayofanya kazi kama hii: <a href="https://codepen.io/freeCodeCamp/full/bELRjV" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/bELRjV</a>.
 
-**Rule #1:** Don't look at the example project's code. Figure it out for yourself.
+**Sera #1:** Usitazame msimbo wa mradi wa mfano. Jifunze mwenyewe.
 
-**Rule #2:** Fulfill the below user stories and get all of the tests to pass. Use whichever libraries or APIs you need. Give it your own personal style.
+**Sera #2:** Timiza hadithi za mtumiaji zilizo hapa chini na upite mitihani yote. Tumia maktaba au API yoyote unayohitaji. Toa mtindo wako binafsi.
 
-**User Story:** I can see the weather in my current location.
+**Hadithi ya mtumiaji:** Naweza kuona hali ya hewa katika eneo langu la sasa.
 
-**User Story:** I can see a different icon or background image (e.g. snowy mountain, hot desert) depending on the weather.
+**Hadithi ya mtumiaji:** Naweza kuona ikoni tofauti au picha ya nyuma (mfano mlima wenye theluji, jangwa joto) kulingana na hali ya hewa.
 
-**User Story:** I can push a button to toggle between Fahrenheit and Celsius.
+**Hadithi ya mtumiaji:** Naweza bonyeza kitufe kubadilisha kati ya Fahrenheit na Celsius.
 
-**Note:** Many internet browsers now require an HTTP Secure (`https://`) connection to obtain a user's locale via HTML5 Geolocation. For this reason, we recommend using HTML5 Geolocation to get user location and then use the freeCodeCamp Weather API <a href="https://weather-proxy.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://weather-proxy.freecodecamp.rocks/</a> which uses an HTTP Secure connection for the weather. Also, be sure to connect to <a href="https://codepen.io" target="_blank" rel="noopener noreferrer nofollow">CodePen.io</a> via `https://`.
+**Kumbuka:** Vivinjari vingi vya intaneti sasa vinahitaji muunganisho wa HTTP Secure (`https://`) kupata eneo la mtumiaji kupitia HTML5 Geolocation. Kwa sababu hii, tunapendekeza kutumia HTML5 Geolocation kupata eneo la mtumiaji kisha tumia freeCodeCamp Weather API <a href="https://weather-proxy.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://weather-proxy.freecodecamp.rocks/</a> ambayo inatumia muunganisho wa HTTP Secure kwa hali ya hewa. Pia, hakikisha unajiunga na <a href="https://codepen.io" target="_blank" rel="noopener noreferrer nofollow">CodePen.io</a> kupitia `https://`.
 
-When you are finished, include a link to your project on CodePen and click the "I've completed this challenge" button.
+Ukipata kazi, jumuisha kiungo cha mradi wako kwenye CodePen na bofya kitufe cha "Nimemaliza changamoto hii".
 
-You can get feedback on your project by sharing it on the <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp forum</a>.
+Unaweza kupata maoni kuhusu mradi wako kwa kuushirikisha kwenye <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">jukwaa la freeCodeCamp</a>.
 
 # --solutions--
 

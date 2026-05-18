@@ -1,17 +1,17 @@
 ---
 id: 61fdaf9ff894b6a084ecdc1b
-title: Hatua ya 33
+title: Step 33
 challengeType: 0
 dashedName: step-33
 ---
 
 # --description--
 
-To prevent the text content from overflowing, give your `span[class~="sr-only"]` selector an `overflow` property set to `hidden` and a `white-space` property set to `nowrap`.
+Ili kuzuia maudhui ya maandishi kuzidi, mpe kichaguzi chako cha `span[class~="sr-only"]` sifa ya `overflow` iliyowekwa kuwa `hidden` na sifa ya `white-space` iliyowekwa kuwa `nowrap`.
 
 # --hints--
 
-Kichaguzi chako cha `span[class~="sr-only"]` kinafaa kuwa na sifa ya `overflow` iliyowekwa kuwa `hidden`.
+Kichaguzi chako cha `span[class~="sr-only"]` kinapaswa kuwa na sifa ya `overflow` iliyowekwa kuwa `hidden`.
 
 ```js
 assert.strictEqual(
@@ -22,7 +22,7 @@ assert.strictEqual(
 );
 ```
 
-Kichaguzi chako cha `span[class~="sr-only"]` kinafaa kuwa na sifa ya `white-space` iliyowekwa kuwa `nowrap`.
+Kichaguzi chako cha `span[class~="sr-only"]` kinapaswa kuwa na sifa ya `white-space` iliyowekwa kuwa `nowrap`.
 
 ```js
 assert.strictEqual(
@@ -175,7 +175,7 @@ span[class~="sr-only"] {
   clip-path: inset(50%);
   height: 1px;
   width: 1px;
-
+  
 }
 --fcc-editable-region--
 

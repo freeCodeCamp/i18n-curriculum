@@ -1,17 +1,17 @@
 ---
 id: 67f8eeab71f4f24ba1a3a7eb
-title: Hatua ya 11
+title: Hatua 11
 challengeType: 0
 dashedName: step-11
 ---
 
 # --description--
 
-After the form, add a `div` element with an `id` of `results` that will display the search results.
+Baada ya fomu, ongeza kipengele cha `div` chenye `id` ya `results` itakayowonyesha matokeo ya utafutaji.
 
 # --hints--
 
-You should have a `div` element with the `id` of `results` after the form.
+Unapaswa kuwa na kipengele cha `div` chenye `id` ya `results` baada ya fomu.
 
 ```js
 const searchContainer = document.getElementById("search-container");
@@ -122,7 +122,7 @@ export function FruitsSearch() {
           onChange={(e) => setQuery(e.target.value)}
         />
       </form>
-
+      
     --fcc-editable-region--
     </div>
   );

@@ -1,6 +1,6 @@
 ---
 id: 698dea447932b3cc4b19c94c
-title: Timing Our Search Scripts
+title: Kupima Muda wa Skripti Zetu za Utafutaji
 challengeType: 11
 videoId: F_YLFplzb94
 dashedName: timing-our-search-scripts
@@ -8,29 +8,29 @@ dashedName: timing-our-search-scripts
 
 # --description--
 
-In this video, you will see how the binary and linear search algorithms work with a list of names and how the results compare.
+Katika video hii, utaona jinsi algoriti za utafutaji wa binary na linear zinavyofanya kazi na orodha ya majina na jinsi matokeo yanavyolinganishwa.
 
 # --questions--
 
 ## --text--
 
-What happened when the binary and linear search algorithm times were compared on a list of names?
+Nini kilitokea wakati muda wa algoriti za utafutaji wa binary na linear ulipolinganishwa kwenye orodha ya majina?
 
 ## --answers--
 
-Linear search took half as long to complete as binary search.
+Utafutaji wa linear ulichukua nusu ya muda wa utafutaji wa binary kukamilika.
 
 ---
 
-Binary search took half as long to complete as linear search.
+Utafutaji wa binary ulichukua nusu ya muda wa utafutaji wa linear kukamilika.
 
 ---
 
-Both algorithms took the same amount of time to complete.
+Algoriti zote mbili zilichukua muda sawa kukamilika.
 
 ---
 
-Both algorithms timed out and no results were displayed.
+Algoriti zote mbili zilishindikana na hakuna matokeo yaliyoonyeshwa.
 
 ## --video-solution--
 

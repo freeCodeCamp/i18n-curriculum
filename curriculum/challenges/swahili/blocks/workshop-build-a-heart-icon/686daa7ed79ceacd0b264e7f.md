@@ -1,26 +1,26 @@
 ---
 id: 686daa7ed79ceacd0b264e7f
-title: Hatua ya 4
+title: Hatua 4
 challengeType: 0
 dashedName: step-4
 ---
 
 # --description--
 
-The next step is to set the `width` and `height` attributes for the `svg` element. As you are creating an icon, both values should be set small.
+Hatua inayofuata ni kuweka sifa za kipengele za `width` na `height` kwa kipengele cha `svg`. Kwa kuwa unaunda ikoni, thamani zote mbili zinapaswa kuwekwa ndogo.
 
-Set both values to `24`.
+Weka thamani zote mbili kuwa `24`.
 
 # --hints--
 
-Your `svg` element should have a `width` attribute of `24`.
+Kipengele chako cha `svg` kinapaswa kuwa na sifa ya kipengele ya `width` yenye thamani `24`.
 
 ```js
 const svg = document.querySelector('svg');
 assert.strictEqual(svg.getAttribute('width'), '24');
 ```
 
-Your `svg` element should have a `height` attribute of `24`.
+Kipengele chako cha `svg` kinapaswa kuwa na sifa ya kipengele ya `height` yenye thamani `24`.
 
 ```js
 const svg = document.querySelector('svg');

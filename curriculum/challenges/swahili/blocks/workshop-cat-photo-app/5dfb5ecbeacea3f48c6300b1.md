@@ -7,9 +7,9 @@ dashedName: step-23
 
 # --description--
 
-The `li` element is used to create a list item in an ordered or unordered list.
+Kipengele cha `li` kinatumika kuunda kipengee cha orodha katika orodha iliyopangwa au isiyopangwa.
 
-Here is an example of list items in an unordered list:
+Hapa kuna mfano wa vipengee vya orodha katika orodha isiyopangwa:
 
 ```html
 <ul>
@@ -18,24 +18,24 @@ Here is an example of list items in an unordered list:
 </ul>
 ```
 
-Within the `ul` element nest three list items to display three things cats love:
+Ndani ya kipengele cha `ul`, panga ndani vipengee vitatu vya orodha kuonyesha vitu vitatu vinavyopendwa na paka:
 
 `catnip`
 
 `laser pointers`
 
-`lasagna`
+`lasagna` 
 
 # --hints--
 
-You should have three `li` elements. Each `li` element should have its own opening and closing tag.
+Unapaswa kuwa na vipengele vitatu vya `li`. Kila kipengele cha `li` kinapaswa kuwa na lebo yake ya kufungua na lebo ya kufunga.
 
 ```js
 assert.lengthOf(document.querySelectorAll('li'), 3);
 assert.lengthOf(code.match(/<\/li\>/g), 3);
 ```
 
-You should have three `li` elements with the text `catnip`, `laser pointers` and `lasagna` in any order. You have either omitted some text or have a typo.
+Unapaswa kuwa na vipengele vitatu vya `li` vyenye maandishi `catnip`, `laser pointers` na `lasagna` kwa mpangilio wowote. Huenda umeacha baadhi ya maandishi au kuna makosa ya tahajia.
 
 ```js
 assert.deepStrictEqual(
@@ -46,7 +46,7 @@ assert.deepStrictEqual(
 );
 ```
 
-The three `li` elements should be located between the `ul` element's opening and closing tags.
+Vipengele vitatu vya `li` vinapaswa kuwekwa kati ya lebo ya kufungua na lebo ya kufunga ya kipengele cha `ul`.
 
 ```js
 assert.lengthOf(
@@ -76,7 +76,7 @@ assert.lengthOf(
         <h3>Things cats love:</h3>
         <ul>
 --fcc-editable-region--
-
+          
 --fcc-editable-region--
         </ul>
       </section>

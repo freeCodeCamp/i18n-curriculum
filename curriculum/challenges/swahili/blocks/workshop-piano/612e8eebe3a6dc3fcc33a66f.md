@@ -1,35 +1,35 @@
 ---
 id: 612e8eebe3a6dc3fcc33a66f
-title: Step 9
+title: Hatua 9
 challengeType: 0
 dashedName: step-9
 ---
 
 # --description--
 
-Now target your `#piano` element with an `id` selector. Set its `background-color` property to `#00471b`, the `width` property to `992px` and the `height` property to `290px`.
+Sasa lenga kipengele chako cha `#piano` kwa kutumia kichaguzi cha `id`. Weka sifa yake ya `background-color` kuwa `#00471b`, sifa ya `width` kuwa `992px` na sifa ya `height` kuwa `290px`.
 
 # --hints--
 
-You should have a `#piano` selector.
+Unapaswa kuwa na kichaguzi cha `#piano`.
 
 ```js
 assert.exists(new __helpers.CSSHelp(document).getStyle('#piano'));
 ```
 
-Your `#piano` selector should have the `background-color` property set to `#00471b`.
+Kichaguzi chako cha `#piano` kinapaswa kuwa na sifa ya `background-color` iliyowekwa kuwa `#00471b`.
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('#piano')?.backgroundColor, 'rgb(0, 71, 27)');
 ```
 
-Your `#piano` selector should have a `width` property set to `992px`.
+Kichaguzi chako cha `#piano` kinapaswa kuwa na sifa ya `width` iliyowekwa kuwa `992px`.
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('#piano')?.width, '992px');
 ```
 
-Your `#piano` selector should have the `height` set to `290px`.
+Kichaguzi chako cha `#piano` kinapaswa kuwa na `height` iliyowekwa kuwa `290px`.
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('#piano')?.height, '290px');

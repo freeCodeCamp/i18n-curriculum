@@ -1,6 +1,6 @@
 ---
 id: 698dbdec7932b3cc4b19c91c
-title: Guess the Number
+title: Kisia nambari
 challengeType: 11
 videoId: zNAzkdpIrqU
 dashedName: guess-the-number
@@ -8,13 +8,13 @@ dashedName: guess-the-number
 
 # --description--
 
-In this video, you will see a demonstration of individuals playing a guessing game to illustrate how algorithms work.
+Katika video hii, utaona maonyesho ya watu wakicheza mchezo wa kukisia ili kuonyesha jinsi algoriti zinavyofanya kazi.
 
 # --questions--
 
 ## --text--
 
-How many tries did it take Britney and John to guess the correct number?
+Ilitumia jaribio ngapi Britney na John kukisia nambari sahihi?
 
 ## --answers--
 

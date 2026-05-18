@@ -1,6 +1,6 @@
 ---
 id: 698de9ff7932b3cc4b19c943
-title: Recursion
+title: Kurudia
 challengeType: 11
 videoId: XPIF44IXf1I
 dashedName: recursion
@@ -8,29 +8,29 @@ dashedName: recursion
 
 # --description--
 
-In this video, you will review how recursive functions work.
+Katika video hii, utakagua jinsi vitendakazi vinavyofanya kazi kwa kurudia.
 
 # --questions--
 
 ## --text--
 
-What is recursion?
+Kurudia ni nini?
 
 ## --answers--
 
-A type of loop that never ends.
+Aina ya mzunguko usioisha.
 
 ---
 
-A function that calls itself.
+Kitendakazi kinachojitoa wito.
 
 ---
 
-A function that only runs once and then stops.
+Kitendakazi kinachotekelezwa mara moja tu kisha kusimama.
 
 ---
 
-A function that automatically sorts data.
+Kitendakazi kinachopanga data moja kwa moja.
 
 ## --video-solution--
 

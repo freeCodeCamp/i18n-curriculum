@@ -1,6 +1,6 @@
 ---
 id: 68da8dffcffd794e83de9d6c
-title: Task 10
+title: Zoezi la 10
 challengeType: 19
 dashedName: task-10
 lang: zh-CN
@@ -10,13 +10,13 @@ lang: zh-CN
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Sikiliza sauti na jibu swali lililopo hapa chini.
 
 # --questions--
 
 ## --text--
 
-What is Chen Na saying to greet a group of people?
+Chen Na anasema nini kuwapungia salamu kundi la watu?
 
 ## --answers--
 
@@ -24,7 +24,7 @@ What is Chen Na saying to greet a group of people?
 
 ### --feedback--
 
-This is a greeting to one person, but Chen Na is greeting more than one.
+Hii ni salamu kwa mtu mmoja, lakini Chen Na anapungia salamu watu zaidi ya mmoja.
 
 ---
 
@@ -32,7 +32,7 @@ This is a greeting to one person, but Chen Na is greeting more than one.
 
 ### --feedback--
 
-This form is not standard in Chinese.
+Fomu hii si ya kawaida katika Kichina.
 
 ---
 
@@ -44,7 +44,7 @@ This form is not standard in Chinese.
 
 ### --feedback--
 
-This also means "Hello, everyone", but Chen Na uses a different phrase.
+Hii pia inamaanisha "Habari, kila mtu", lakini Chen Na anatumia msemo tofauti.
 
 ## --video-solution--
 
@@ -52,11 +52,11 @@ This also means "Hello, everyone", but Chen Na uses a different phrase.
 
 # --explanation--
 
-The question is asking what Chen Na is saying to greet **a group of people**.
+Swali linauliza ni nini Chen Na anasema kuwapungia salamu **kundi la watu**.
 
-`你好 (nǐ hǎo)` is a greeting to one person, while `您好 (nín hǎo)` is a polite greeting to one person. `您们好 (nín men hǎo)` is not standard in Chinese; `您 (nín)` is polite singular, not usually pluralized.
+`你好 (nǐ hǎo)` ni salamu kwa mtu mmoja, wakati `您好 (nín hǎo)` ni salamu ya heshima kwa mtu mmoja. `您们好 (nín men hǎo)` si ya kawaida katika Kichina; `您 (nín)` ni heshima kwa mtu mmoja, si kawaida kwa wingi.
 
-The correct phrase for greeting a group is `你们好 (nǐ men hǎo)`, which is a common way to say "hello, everyone". `大家好 (dà jiā hǎo)` is another way to greet a group, which you'll learn as you progress.
+Msemo sahihi wa kuwapungia salamu kundi ni `你们好 (nǐ men hǎo)`, ambayo ni njia ya kawaida ya kusema "habari, kila mtu". `大家好 (dà jiā hǎo)` ni njia nyingine ya kuwapungia salamu kundi, ambayo utaijifunza kadri unavyoendelea.
 
 # --scene--
 

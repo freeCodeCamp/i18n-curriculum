@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c443eddfaeb5bd0e
-title: Chart the Stock Market
+title: Chati ya soko la hisa
 challengeType: 4
 forumTopicId: 302363
 dashedName: chart-the-stock-market
@@ -8,19 +8,19 @@ dashedName: chart-the-stock-market
 
 # --description--
 
-Build a full-stack JavaScript app that is functionally similar to this: <a href="https://chart-the-stock-market.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://chart-the-stock-market.freecodecamp.rocks/</a>. Use a site builder of your choice to complete the project.
+Jenga programu kamili ya JavaScript inayofanana kiutendaji na hii: <a href="https://chart-the-stock-market.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://chart-the-stock-market.freecodecamp.rocks/</a>. Tumia mtengenezaji wa tovuti unayempenda kukamilisha mradi huu.
 
-Here are the specific user stories you should implement for this project:
+Hapa kuna hadithi za mtumiaji maalum unazopaswa kutekeleza kwa mradi huu:
 
-**User Story:** You can view a graph displaying the recent trend lines for each added stock.
+**Hadithi ya mtumiaji:** Unaweza kuona chati inayoonyesha mwelekeo wa hivi karibuni wa kila hisa iliyoongezwa.
 
-**User Story:** You can add new stocks by their symbol name.
+**Hadithi ya mtumiaji:** Unaweza kuongeza hisa mpya kwa jina la alama yao.
 
-**User Story:** You can remove stocks.
+**Hadithi ya mtumiaji:** Unaweza kuondoa hisa.
 
-**User Story:** You can see changes in real-time when any other user adds or removes a stock. For this you will need to use Web Sockets.
+**Hadithi ya mtumiaji:** Unaweza kuona mabadiliko kwa wakati halisi wakati mtumiaji mwingine yeyote anaongeza au kuondoa hisa. Kwa hili utahitaji kutumia Web Sockets.
 
-When you are done, make sure a working demo of your project is hosted somewhere public. Then submit the URL to it in the Solution Link field. Optionally, also submit a link to your project's source code in the GitHub Link field.
+Ukipomaliza, hakikisha kuna onyesho linalofanya kazi la mradi wako limehifadhiwa mahali pa umma. Kisha wasilisha URL yake katika sehemu ya Kiungo cha Suluhisho. Kwa hiari, pia wasilisha kiungo cha msimbo wa chanzo wa mradi wako katika sehemu ya Kiungo cha GitHub.
 
 # --solutions--
 

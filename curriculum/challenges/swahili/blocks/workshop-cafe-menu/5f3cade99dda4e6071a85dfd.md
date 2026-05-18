@@ -7,29 +7,29 @@ dashedName: step-42
 
 # --description--
 
-You will come back to styling the menu in a few steps, but for now, go ahead and add a second `section` element below the first for displaying the desserts offered by the cafe.
+Utarudi tena kwenye mtindo wa menyu katika hatua chache zijazo, lakini kwa sasa, endelea na ongeza kipengele cha pili cha `section` chini ya cha kwanza kwa ajili ya kuonyesha vitafunwa vinavyotolewa na kafé.
 
 # --hints--
 
-You should have an opening `section` tag.
+Unapaswa kuwa na lebo ya ufunguzi ya `section`.
 
 ```js
 assert.lengthOf(code.match(/<section>/ig) ,2);
 ```
 
-You should have a closing `section` tag.
+Unapaswa kuwa na lebo ya kufunga ya `section`.
 
 ```js
 assert.lengthOf(code.match(/<\/section>/ig) ,2);
 ```
 
-You should not change the existing `main` element.
+Hupaswi kubadilisha kipengele kilichopo cha `main`.
 
 ```js
 assert.lengthOf(document.querySelectorAll('main'), 1);
 ```
 
-Your new `section` element should be nested in the `main` element.
+Kipengele chako kipya cha `section` kinapaswa kupangwa ndani ya kipengele cha `main`.
 
 ```js
 const main = document.querySelector('main');
@@ -74,7 +74,7 @@ assert.lengthOf(sections,2);
           </article>
         </section>
 --fcc-editable-region--
-
+        
 --fcc-editable-region--
       </main>
     </div>

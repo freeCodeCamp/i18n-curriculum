@@ -1,15 +1,15 @@
 ---
 id: 61fd986ddbcbd47ba8fbc5ec
-title: Hatua ya 23
+title: Step 23
 challengeType: 0
 dashedName: step-23
 ---
 
 # --description--
 
-Within the third `tr`, add a `th` element with the text `Credit The outstanding balance on our credit card.`. Wrap that text, except for `Credit`, within a `span` element with the `class` set to `description`.
+Ndani ya `tr` ya tatu, ongeza kipengele cha `th` chenye maandishi `Credit The outstanding balance on our credit card.`. Zungusha maandishi hayo, isipokuwa `Credit `, ndani ya kipengele cha `span` chenye sifa ya `class` iliyowekwa kuwa `description`.
 
-Ongeza vipengele vitatu vya `td` chini ya yake, na uipe maandishi yafuatayo, kwa mpangilio: `$50`, `$50` na `$75`. Kipe kipengele cha tatu cha `td` sifa ya `class` iliyowekwa kuwa `current`.
+Ongeza vipengele vitatu vya `td` chini ya hicho, na uwape maandishi yafuatayo kwa mpangilio: `$50`, `$50`, na `$75`. Toa sifa ya `td` yenye thamani ya `class` kwa kipengele cha tatu cha `current`.
 
 # --hints--
 
@@ -22,7 +22,7 @@ const tableRow = tbody?.querySelectorAll('tr')?.[2];
 assert.isNotNull(tableRow?.querySelector('th'));
 ```
 
-Kipengele chako cha`th` kinapaswa kuwa na maandishi`Credit The outstanding balance on our credit card.`.
+Kipengele chako cha `th` kinapaswa kuwa na maandishi ya `Credit The outstanding balance on our credit card.`.
 
 ```js
 const table = document.querySelectorAll('table')?.[1];
@@ -34,7 +34,7 @@ assert.strictEqual(
 );
 ```
 
-Unapaswa kufunga maandishi `The outstanding balance on our credit card.` katika kipengele cha `span`.
+Unapaswa kuzungusha maandishi ya `The outstanding balance on our credit card.` ndani ya kipengele cha `span`.
 
 ```js
 const table = document.querySelectorAll('table')?.[1];
@@ -46,7 +46,7 @@ assert.strictEqual(
 );
 ```
 
-Kipengele chako cha `span` kinafaa kuwa na sifa ya `class` iliyowekwa kuwa `description`.
+Kipengele chako cha `span` kinapaswa kuwa na sifa ya kipengele ya `class` iliyowekwa kuwa `description`.
 
 ```js
 const table = document.querySelectorAll('table')?.[1];
@@ -66,7 +66,7 @@ const tableRow = tbody?.querySelectorAll('tr')?.[2];
 assert.lengthOf(tableRow?.querySelectorAll('td'), 3);
 ```
 
-Kipengele chako cha kwanza cha `td` kinapaswa kuwa na maandishi `$50`.
+Kipengele chako cha kwanza cha `td` kinapaswa kuwa na maandishi ya `$50`.
 
 ```js
 const table = document.querySelectorAll('table')?.[1];
@@ -75,7 +75,7 @@ const tableRow = tbody?.querySelectorAll('tr')?.[2];
 assert.strictEqual(tableRow?.querySelectorAll('td')?.[0]?.textContent.trim(), '$50');
 ```
 
-Kipengele chako cha pili cha `td` kinapaswa kuwa na maandishi `$50`.
+Kipengele chako cha pili cha `td` kinapaswa kuwa na maandishi ya `$50`.
 
 ```js
 const table = document.querySelectorAll('table')?.[1];
@@ -84,7 +84,7 @@ const tableRow = tbody?.querySelectorAll('tr')?.[2];
 assert.strictEqual(tableRow?.querySelectorAll('td')?.[1]?.textContent.trim(), '$50');
 ```
 
-Kipengele chako cha tatu cha `td` kinapaswa kuwa na maandishi `$75`.
+Kipengele chako cha tatu cha `td` kinapaswa kuwa na maandishi ya `$75`.
 
 ```js
 const table = document.querySelectorAll('table')?.[1];

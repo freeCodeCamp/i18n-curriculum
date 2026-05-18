@@ -1,28 +1,28 @@
 ---
 id: 69ea1bb4a66dd6debb999c7f
-title: Step 49
+title: Hatua 49
 challengeType: 0
 dashedName: step-49
 ---
 
 # --description--
 
-Now you will handle the player position selection. You have to refactor the input to a select, then map over an array of valid football positions as the value of the select options.
+Sasa utashughulikia uchaguzi wa nafasi ya mchezaji. Lazima ubadilishe ingizo kuwa chaguo la kuchagua, kisha upitie safu ya data ya nafasi halali za mpira wa miguu kama thamani za chaguo la kuchagua.
 
-To start, create a `POSITIONS` array with the string values of `GK`, `CB`, `LB`, `RB`, `CDM`, `CM`, `CAM`, `LW`, `RW`, `ST`, and `CF`. Add `as const` right after the closing square brackets so Typescript narrows the type from a general `string[]` to a readonly tuple of those exact literal values.
+Kuanza, tengeneza safu ya data `POSITIONS` yenye mfuatano wa herufi wa `GK`, `CB`, `LB`, `RB`, `CDM`, `CM`, `CAM`, `LW`, `RW`, `ST`, na `CF`. Ongeza `as const` mara moja baada ya mabano ya mraba ya kufunga ili Typescript ipunguze aina kutoka `string[]` ya jumla kuwa tuple isiyobadilika ya thamani hizo halisi za mfuatano wa herufi.
 
-This means TypeScript knows precisely what strings are valid, rather than just knowing it's some array of strings.
+Hii inamaanisha TypeScript inajua kwa usahihi ni mfuatano gani wa herufi unaoruhusiwa, badala ya kujua tu ni safu fulani ya mfuatano wa herufi.
 
 # --hints--
 
-You should declare a `POSITIONS` constant.
+Unapaswa kutangaza thabiti `POSITIONS`.
 
 ```js
 const explorer = await __helpers.Explorer(code);
 assert.exists(explorer.variables.POSITIONS);
 ```
 
-Your `POSITIONS` array should contain all the required football position strings use `as const` to narrow its type to readonly string literals.
+Safu yako ya data `POSITIONS` inapaswa kuwa na mfuatano wote wa mfuatano wa herufi wa nafasi za mpira wa miguu zinazohitajika tumia `as const` kupunguza aina yake kuwa tuple isiyobadilika ya mfuatano wa herufi.
 
 ```js
 const explorer = await __helpers.Explorer(code);

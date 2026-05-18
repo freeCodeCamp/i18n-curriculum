@@ -1,19 +1,19 @@
 ---
 id: 68caaaef4afb18aab8a684d4
-title: Step 35
+title: Hatua 35
 challengeType: 20
 dashedName: step-35
 ---
 
 # --description--
 
-It's time to test your new setter. Try to assign invalid values such as a random string or the current level (`trainee`) to `charlie_brown.level` and see the error messages in the console.
+Ni wakati wa kujaribu setter yako mpya. Jaribu kuweka thamani zisizokubalika kama mfuatano wa herufi wa bahati nasibu au kiwango cha sasa (`trainee`) kwa `charlie_brown.level` na uone ujumbe wa makosa kwenye konsoli.
 
-Once you've done, remove the lines raising errors and set `charlie_brown.level` to the string `junior`.
+Mara tu utakapo maliza, ondoa mistari inayosababisha makosa na weka `charlie_brown.level` kuwa mfuatano wa herufi `junior`.
 
 # --hints--
 
-You should set `charlie_brown.level` to the string `junior`.
+Unapaswa kuweka `charlie_brown.level` kuwa mfuatano wa herufi `junior`.
 
 ```js
 ({ test: () => assert(runPython(`_Node(_code).has_stmt("charlie_brown.level = 'junior'")`)) })

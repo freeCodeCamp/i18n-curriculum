@@ -1,17 +1,17 @@
 ---
 id: 6920dae65fb8bb6949bcdaba
-title: Step 4
+title: Hatua 4
 challengeType: 1
 dashedName: step-4
 ---
 
 # --description--
 
-To see how the loop inside `printCharacters` behaves, call it with the argument `"hello"`.
+Ili kuona jinsi mzunguko ndani ya `printCharacters` unavyotenda, fanya wito wake ukiwa na hoja `"hello"`.
 
 # --hints--
 
-You should call the function `printCharacters` with `"hello"` as its argument.
+Unapaswa kufanya wito wa kitendakazi `printCharacters` ukiwa na `"hello"` kama hoja yake.
 
 ```js
 const codeWithoutJSComments = __helpers.removeJSComments(code);

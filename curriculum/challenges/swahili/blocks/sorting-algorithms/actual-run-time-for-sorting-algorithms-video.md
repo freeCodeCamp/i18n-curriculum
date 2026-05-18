@@ -1,6 +1,6 @@
 ---
 id: 698dea167932b3cc4b19c947
-title: Actual Run Time for Sorting Algorithms
+title: Muda halisi wa kuendesha algoriti za kupanga
 challengeType: 11
 videoId: AcHX25M4Cvk
 dashedName: actual-run-time-for-sorting-algorithms
@@ -8,29 +8,29 @@ dashedName: actual-run-time-for-sorting-algorithms
 
 # --description--
 
-In this video, you will compare the actual runtimes for the merge sort, quicksort and selection sort algorithms.
+Katika video hii, utaangalia muda halisi wa kuendesha algoriti za merge sort, quicksort na selection sort.
 
 # --questions--
 
 ## --text--
 
-What happened in the demo when the quicksort and merge sort algorithms were compared with a dataset of 1 million numbers?
+Nini kilitokea katika maonyesho wakati algoriti za quicksort na merge sort zilipolinganishwa na seti ya data yenye nambari milioni 1?
 
 ## --answers--
 
-Quicksort and merge sort were equal in their times.
+Quicksort na merge sort zilikuwa sawa kwa muda wao.
 
 ---
 
-Quicksort was slightly slower in sorting the numbers than merge sort.
+Quicksort ilikuwa polepole kidogo katika kupanga nambari kuliko merge sort.
 
 ---
 
-Quicksort was slightly faster in sorting the numbers than merge sort.
+Quicksort ilikuwa haraka kidogo katika kupanga nambari kuliko merge sort.
 
 ---
 
-Quicksort and merge sort both timed out and didn't provide any information.
+Quicksort na merge sort zote zilishindikana na hazikutoa taarifa yoyote.
 
 ## --video-solution--
 

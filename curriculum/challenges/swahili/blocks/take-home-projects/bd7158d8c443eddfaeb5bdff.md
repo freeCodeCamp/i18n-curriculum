@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c443eddfaeb5bdff
-title: Build a Nightlife Coordination App
+title: Tengeneza programu ya kuratibu maisha ya usiku
 challengeType: 4
 forumTopicId: 302351
 dashedName: build-a-nightlife-coordination-app
@@ -8,21 +8,21 @@ dashedName: build-a-nightlife-coordination-app
 
 # --description--
 
-Build a full-stack JavaScript app that is functionally similar to this: <a href="https://yoyo44.herokuapp.com/" target="_blank" rel="noopener noreferrer nofollow">https://yoyo44.herokuapp.com/</a>. Use a site builder of your choice to complete the project.
+Tengeneza programu kamili ya JavaScript inayofanya kazi kama ifuatavyo: <a href="https://yoyo44.herokuapp.com/" target="_blank" rel="noopener noreferrer nofollow">https://yoyo44.herokuapp.com/</a>. Tumia mtengenezaji wa tovuti unayempenda kukamilisha mradi huu.
 
-Here are the specific user stories you should implement for this project:
+Hapa kuna hadithi za mtumiaji maalum unazopaswa kutekeleza kwa mradi huu:
 
-**User Story:** As an unauthenticated user, you can view all bars in your area.
+**Hadithi ya mtumiaji:** Kama mtumiaji ambaye hajathibitishwa, unaweza kuona baa zote katika eneo lako.
 
-**User Story:** As an authenticated user, you can add yourself to a bar to indicate you are going there tonight.
+**Hadithi ya mtumiaji:** Kama mtumiaji aliye imethibitishwa, unaweza kujiongeza kwenye baa kuonyesha kuwa utaenda huko usiku wa leo.
 
-**User Story:** As an authenticated user, you can remove yourself from a bar if you no longer want to go there.
+**Hadithi ya mtumiaji:** Kama mtumiaji aliye imethibitishwa, unaweza kujiondoa kwenye baa ikiwa hutaki tena kwenda huko.
 
-**User Story:** As an unauthenticated user, when you login you should not have to search again.
+**Hadithi ya mtumiaji:** Kama mtumiaji ambaye hajathibitishwa, unapoingia kwenye akaunti, huna haja ya kutafuta tena.
 
-**Hint:** Try using the Yelp API to find venues in the cities your users search for. If you use Yelp's API, be sure to mention so in your app.
+**Kidokezo:** Jaribu kutumia API ya Yelp kupata maeneo katika miji ambayo watumiaji wako wanatafuta. Ukitumia API ya Yelp, hakikisha unaeleza hivyo katika programu yako.
 
-When you are done, make sure a working demo of your project is hosted somewhere public. Then submit the URL to it in the Solution Link field. Optionally, also submit a link to your project's source code in the GitHub Link field.
+Ukipomaliza, hakikisha kuna toleo linalofanya kazi la mradi wako limehifadhiwa mahali pa umma. Kisha wasilisha URL yake katika sehemu ya Kiungo cha Suluhisho. Kwa hiari, pia wasilisha kiungo cha msimbo wa chanzo wa mradi wako katika sehemu ya Kiungo cha GitHub.
 
 # --solutions--
 

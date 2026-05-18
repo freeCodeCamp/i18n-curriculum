@@ -1,6 +1,6 @@
 ---
 id: bd7153d8c242eddfaeb5bd13
-title: Build a Roguelike Dungeon Crawler Game
+title: Jenga mchezo wa roguelike wa kuchunguza ngome
 challengeType: 3
 forumTopicId: 302355
 dashedName: build-a-roguelike-dungeon-crawler-game
@@ -8,31 +8,31 @@ dashedName: build-a-roguelike-dungeon-crawler-game
 
 # --description--
 
-**Objective:** Build an app that is functionally similar to this: <a href="https://codepen.io/freeCodeCamp/full/apLXEJ/" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/apLXEJ/</a>.
+**Lengo:** Jenga programu inayofanya kazi kama hii: <a href="https://codepen.io/freeCodeCamp/full/apLXEJ/" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/apLXEJ/</a>.
 
-Fulfill the below user stories and get all of the tests to pass. Use whichever libraries or APIs you need. Give it your own personal style.
+Kamilisha hadithi za mtumiaji zilizo hapa chini na upite vipimo vyote. Tumia maktaba au API yoyote unayohitaji. Toa mtindo wako binafsi.
 
-**User Story:** I have health, a level, and a weapon. I can pick up a better weapon. I can pick up health items.
+**Hadithi ya mtumiaji:** Nina afya, ngazi, na silaha. Naweza kuchukua silaha bora zaidi. Naweza kuchukua vitu vya afya.
 
-**User Story:** All the items and enemies on the map are arranged at random.
+**Hadithi ya mtumiaji:** Vitu vyote na maadui kwenye ramani vimepangwa kwa bahati nasibu.
 
-**User Story:** I can move throughout a map, discovering items.
+**Hadithi ya mtumiaji:** Naweza kusogea kwenye ramani, kugundua vitu.
 
-**User Story:** I can move anywhere within the map's boundaries, but I can't move through an enemy until I've beaten it.
+**Hadithi ya mtumiaji:** Naweza kusogea popote ndani ya mipaka ya ramani, lakini siwezi kupita maadui hadi niwashinde.
 
-**User Story:** Much of the map is hidden. When I take a step, all spaces that are within a certain number of spaces from me are revealed.
+**Hadithi ya mtumiaji:** Sehemu kubwa ya ramani imefichwa. Ninapochukua hatua, nafasi zote zilizo ndani ya idadi fulani ya nafasi kutoka kwangu zinafunuliwa.
 
-**User Story:** When I beat an enemy, the enemy goes away and I get XP, which eventually increases my level.
+**Hadithi ya mtumiaji:** Ninapomshinda adui, adui huyo huondoka na ninapata XP, ambayo hatimaye huongeza ngazi yangu.
 
-**User Story:** When I fight an enemy, we take turns damaging each other until one of us loses. I do damage based off of my level and my weapon. The enemy does damage based off of its level. Damage is somewhat random within a range.
+**Hadithi ya mtumiaji:** Ninapopigana na adui, tunachukua zamu kuumizana hadi mmoja wetu apoteze. Mimi huumiza kulingana na ngazi yangu na silaha yangu. Adui huumiza kulingana na ngazi yake. Uumizaji ni wa bahati nasibu ndani ya kiwango fulani.
 
-**User Story:** When I find and beat the boss, I win.
+**Hadithi ya mtumiaji:** Ninapompata na kumshinda bosi, ninashinda.
 
-**User Story:** The game should be challenging, but theoretically winnable.
+**Hadithi ya mtumiaji:** Mchezo unapaswa kuwa na changamoto, lakini kwa nadharia unaweza kushindaniwa.
 
-When you are finished, include a link to your project on CodePen and click the "I've completed this challenge" button.
+Ukiisha, jumuisha kiungo cha mradi wako kwenye CodePen na bofya kitufe cha "Nimemaliza changamoto hii".
 
-You can get feedback on your project by sharing it on the <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp forum</a>.
+Unaweza kupata maoni kuhusu mradi wako kwa kuushirikisha kwenye <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">jukwaa la freeCodeCamp</a>.
 
 # --solutions--
 
