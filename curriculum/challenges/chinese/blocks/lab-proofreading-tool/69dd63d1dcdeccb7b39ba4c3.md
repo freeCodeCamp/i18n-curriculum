@@ -21,7 +21,7 @@ dashedName: build-a-proofreading-tool
 
 2. 你应该定义一个名为 `findPalindromeBreaks` 的函数，它接受一个 `words` 数组作为参数。它应返回一个包含非回文单词索引的数组。如果输入为空，则返回空数组。
 
-3. 你应该定义一个名为 `findRepeatedPhrases` 的函数，它接受一个 `words` 数组和一个 `phraseLength` 数字作为参数。它应返回一个数组，包含所有 `phraseLength` 个连续单词序列在数组中出现多次的起始索引——包括首次出现的索引。如果 `phraseLength` 大于或等于 `words` 的长度，则返回空数组。
+3. 你应该定义一个名为 `findRepeatedPhrases` 的函数，它接受一个 `words` 数组和一个 `phraseLength` 数字作为参数。它应返回一个数组，包含所有 `phraseLength` 个连续单词序列在数组中出现多次的起始索引——包括首次出现的索引。如果 `phraseLength` 大于或等于 `words` 的长度，则返回空数组。重叠的序列也应计入。
 
 4. 你应该定义一个名为 `analyzeTexts` 的函数，它接受一个 `texts` 数组和一个 `phraseLength` 数字作为参数。它应处理 `texts` 中的每个元素（每个元素都是一个单词数组），并返回一个包含 `repeatedPhrases` 和 `palindromeBreaks` 属性的对象数组。如果 `texts` 为空，则返回空数组。
 
@@ -98,6 +98,12 @@ assert.sameDeepOrderedMembers(findRepeatedPhrases(["the"], 2), []);
 
 ```js
 assert.sameDeepOrderedMembers(findRepeatedPhrases(["the", "cat", "sat", "the", "cat"], 2), [0, 3]);
+```
+
+`findRepeatedPhrases` 应该返回所有重叠重复短语的起始索引。
+
+```js
+assert.sameDeepOrderedMembers(findRepeatedPhrases(["ba", "ba", "ba"], 2), [0, 1]);
 ```
 
 `analyzeTexts` 应该是一个函数。

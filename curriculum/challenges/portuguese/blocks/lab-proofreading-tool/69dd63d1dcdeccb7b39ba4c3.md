@@ -21,7 +21,7 @@ Uma frase é uma sequência de palavras consecutivas. Por exemplo, em `["the", "
 
 2. Você deve definir uma função chamada `findPalindromeBreaks` que recebe um array `words` como argumento. Ela deve retornar um array com os índices das palavras que não são palíndromos. Deve retornar um array vazio se a entrada estiver vazia.
 
-3. Você deve definir uma função chamada `findRepeatedPhrases` que recebe um array `words` e um número `phraseLength` como argumentos. Ela deve retornar um array com todos os índices iniciais onde uma sequência de `phraseLength` palavras consecutivas aparece mais de uma vez no array — incluindo o índice da primeira ocorrência. Deve retornar um array vazio se `phraseLength` for maior ou igual ao comprimento de `words`.
+3. Você deve definir uma função chamada `findRepeatedPhrases` que recebe um array `words` e um número `phraseLength` como argumentos. Ela deve retornar um array com todos os índices iniciais onde uma sequência de `phraseLength` palavras consecutivas aparece mais de uma vez no array — incluindo o índice da primeira ocorrência. Deve retornar um array vazio se `phraseLength` for maior ou igual ao comprimento de `words`. Sequências sobrepostas também devem ser contadas.
 
 4. Você deve definir uma função chamada `analyzeTexts` que recebe um array `texts` e um número `phraseLength` como argumentos. Ela deve processar cada elemento de `texts` (cada um um array de palavras) e retornar um array de objetos, cada um com as propriedades `repeatedPhrases` e `palindromeBreaks`. Deve retornar um array vazio se `texts` estiver vazio.
 
@@ -98,6 +98,12 @@ assert.sameDeepOrderedMembers(findRepeatedPhrases(["the"], 2), []);
 
 ```js
 assert.sameDeepOrderedMembers(findRepeatedPhrases(["the", "cat", "sat", "the", "cat"], 2), [0, 3]);
+```
+
+`findRepeatedPhrases` deve retornar todos os índices iniciais para frases repetidas sobrepostas.
+
+```js
+assert.sameDeepOrderedMembers(findRepeatedPhrases(["ba", "ba", "ba"], 2), [0, 1]);
 ```
 
 `analyzeTexts` deve ser uma função.

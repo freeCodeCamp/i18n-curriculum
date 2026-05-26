@@ -21,7 +21,7 @@ Usemi ni mfululizo wa maneno yanayofuata mfululizo. Kwa mfano, katika `["the", "
 
 2. Unapaswa kufafanua kitendakazi kinachoitwa `findPalindromeBreaks` kinachopokea safu ya data ya `words` kama hoja yake. Kitendakazi hicho kinapaswa kurudisha safu ya vielezo vya maneno ambayo si palindromu. Kitapaswa kurudisha safu tupu ikiwa ingizo ni tupu.
 
-3. Unapaswa kufafanua kitendakazi kinachoitwa `findRepeatedPhrases` kinachopokea safu ya data ya `words` na nambari ya `phraseLength` kama hoja zake. Kitendakazi hicho kinapaswa kurudisha safu ya vielezo vyote vya kuanzia ambapo mfululizo wa maneno `phraseLength` unaofuata mfululizo huonekana zaidi ya mara moja katika safu — ikiwa ni pamoja na kielezo cha tukio la kwanza. Kitapaswa kurudisha safu tupu ikiwa `phraseLength` ni kubwa au sawa na urefu wa `words`.
+3. Unapaswa kufafanua kitendakazi kinachoitwa `findRepeatedPhrases` kinachopokea safu ya data ya `words` na nambari ya `phraseLength` kama hoja zake. Kitendakazi hicho kinapaswa kurudisha safu ya vielezo vyote vya kuanzia ambapo mfululizo wa maneno `phraseLength` unaofuata mfululizo huonekana zaidi ya mara moja katika safu — ikiwa ni pamoja na kielezo cha tukio la kwanza. Kitapaswa kurudisha safu tupu ikiwa `phraseLength` ni kubwa au sawa na urefu wa `words`. Mfululizo unaojirudia unaozunguka pia unapaswa kuhesabiwa.
 
 4. Unapaswa kufafanua kitendakazi kinachoitwa `analyzeTexts` kinachopokea safu ya data ya `texts` na nambari ya `phraseLength` kama hoja zake. Kitendakazi hicho kinapaswa kushughulikia kila kipengele cha `texts` (kila kikiwa safu ya maneno) na kurudisha safu ya vitu, kila kikiwa na vigezo vya `repeatedPhrases` na `palindromeBreaks`. Kitapaswa kurudisha safu tupu ikiwa `texts` ni tupu.
 
@@ -98,6 +98,12 @@ assert.sameDeepOrderedMembers(findRepeatedPhrases(["the"], 2), []);
 
 ```js
 assert.sameDeepOrderedMembers(findRepeatedPhrases(["the", "cat", "sat", "the", "cat"], 2), [0, 3]);
+```
+
+`findRepeatedPhrases` inapaswa kurudisha vielezo vyote vya kuanzia kwa misemo inayojirudia inayozunguka.
+
+```js
+assert.sameDeepOrderedMembers(findRepeatedPhrases(["ba", "ba", "ba"], 2), [0, 1]);
 ```
 
 `analyzeTexts` inapaswa kuwa kitendakazi.

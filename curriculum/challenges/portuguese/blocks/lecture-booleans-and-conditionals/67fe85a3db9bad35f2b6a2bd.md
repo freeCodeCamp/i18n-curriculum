@@ -1,6 +1,6 @@
 ---
 id: 67fe85a3db9bad35f2b6a2bd
-title: Como Funcionam as declarações condicionais e os operadores lógicos?
+title: Como funcionam as declarações condicionais e os operadores lógicos?
 challengeType: 19
 dashedName: how-do-conditional-statements-and-logical-operators-work
 ---
@@ -51,7 +51,7 @@ if condition:
 
 * O corpo da declaração `if` constitui um <dfn>bloco de código</dfn>, que é um grupo de instruções que pertencem juntas. Em Python, o nível de indentação é o que define um bloco de código.
     
-No exemplo acima, o corpo da instrução `if` contém uma instrução `pass`. Quando uma instrução `pass` é executada, nada acontece. Esta é uma palavra-chave especial que pode ser usada como um espaço reservado para código futuro e é útil quando blocos de código vazios não são permitidos.
+No exemplo acima, o corpo da instrução `if` contém uma instrução `pass`. Quando uma instrução `pass` é executada, nada acontece. Esta é uma palavra-chave especial que pode ser usada como um marcador de posição para código futuro e é útil quando blocos de código vazios não são permitidos.
 
 O código dentro do corpo da instrução `if` é executado somente quando a condição avalia para `True`. Por exemplo:
 
