@@ -21,7 +21,7 @@ Una frase es una secuencia de palabras consecutivas. Por ejemplo, en `["the", "c
 
 2. Debes definir una función llamada `findPalindromeBreaks` que reciba un arreglo `words` como argumento. Debe devolver un arreglo con los índices de las palabras que no son palíndromos. Debe devolver un arreglo vacío si la entrada está vacía.
 
-3. Debes definir una función llamada `findRepeatedPhrases` que reciba un arreglo `words` y un número `phraseLength` como argumentos. Debe devolver un arreglo con todos los índices iniciales donde una secuencia de `phraseLength` palabras consecutivas aparece más de una vez en el arreglo — incluyendo el índice de la primera aparición. Debe devolver un arreglo vacío si `phraseLength` es mayor o igual a la longitud de `words`.
+3. Debes definir una función llamada `findRepeatedPhrases` que reciba un arreglo `words` y un número `phraseLength` como argumentos. Debe devolver un arreglo con todos los índices iniciales donde una secuencia de `phraseLength` palabras consecutivas aparece más de una vez en el arreglo — incluyendo el índice de la primera aparición. Debe devolver un arreglo vacío si `phraseLength` es mayor o igual a la longitud de `words`. También deben contarse las secuencias superpuestas.
 
 4. Debes definir una función llamada `analyzeTexts` que reciba un arreglo `texts` y un número `phraseLength` como argumentos. Debe procesar cada elemento de `texts` (cada uno es un arreglo de palabras) y devolver un arreglo de objetos, cada uno con propiedades `repeatedPhrases` y `palindromeBreaks`. Debe devolver un arreglo vacío si `texts` está vacío.
 
@@ -98,6 +98,12 @@ assert.sameDeepOrderedMembers(findRepeatedPhrases(["the"], 2), []);
 
 ```js
 assert.sameDeepOrderedMembers(findRepeatedPhrases(["the", "cat", "sat", "the", "cat"], 2), [0, 3]);
+```
+
+`findRepeatedPhrases` debe devolver todos los índices iniciales para frases repetidas superpuestas.
+
+```js
+assert.sameDeepOrderedMembers(findRepeatedPhrases(["ba", "ba", "ba"], 2), [0, 1]);
 ```
 
 `analyzeTexts` debe ser una función.

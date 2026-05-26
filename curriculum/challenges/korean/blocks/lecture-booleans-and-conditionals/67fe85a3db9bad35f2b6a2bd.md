@@ -73,7 +73,7 @@ if age >= 18:
 print('You are an adult') # IndentationError: expected an indented block after 'if' statement on line 3
 ```
 
-들여쓰기 수준을 결정할 때 일관성만 유지한다면 공백 수는 얼마든지 사용할 수 있지만, Python 스타일 가이드는 네 칸 공백을 권장합니다.
+일관성만 유지한다면 들여쓰기 수준을 결정할 때 공백 수는 얼마든지 사용할 수 있지만, Python 스타일 가이드는 네 칸 공백을 권장합니다.
 
 블록은 앞으로 배울 반복문과 함수에서도 발견됩니다.
 

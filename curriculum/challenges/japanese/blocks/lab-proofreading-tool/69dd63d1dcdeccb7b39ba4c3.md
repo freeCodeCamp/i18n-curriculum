@@ -21,7 +21,7 @@ dashedName: build-a-proofreading-tool
 
 2. `findPalindromeBreaks` という名前の関数を定義してください。この関数は `words` 配列を引数に取り、回文でない単語のインデックスの配列を返す必要があります。入力が空の場合は空の配列を返してください。
 
-3. `findRepeatedPhrases` という名前の関数を定義してください。この関数は `words` 配列と `phraseLength` 数値を引数に取り、`phraseLength` 個の連続した単語のシーケンスが配列内で複数回現れるすべての開始インデックスの配列を返す必要があります。最初の出現のインデックスも含みます。`phraseLength` が `words` の長さ以上の場合は空の配列を返してください。
+3. `findRepeatedPhrases` という名前の関数を定義してください。この関数は `words` 配列と `phraseLength` 数値を引数に取り、`phraseLength` 個の連続した単語のシーケンスが配列内で複数回現れるすべての開始インデックスの配列を返す必要があります。最初の出現のインデックスも含みます。`phraseLength` が `words` の長さ以上の場合は空の配列を返してください。重複するシーケンスもカウントされます。
 
 4. `analyzeTexts` という名前の関数を定義してください。この関数は `texts` 配列と `phraseLength` 数値を引数に取り、`texts` の各要素（それぞれ単語の配列）を処理し、`repeatedPhrases` と `palindromeBreaks` プロパティを持つオブジェクトの配列を返す必要があります。`texts` が空の場合は空の配列を返してください。
 
@@ -98,6 +98,12 @@ assert.sameDeepOrderedMembers(findRepeatedPhrases(["the"], 2), []);
 
 ```js
 assert.sameDeepOrderedMembers(findRepeatedPhrases(["the", "cat", "sat", "the", "cat"], 2), [0, 3]);
+```
+
+`findRepeatedPhrases` は重複する繰り返しフレーズのすべての開始インデックスを返す必要があります。
+
+```js
+assert.sameDeepOrderedMembers(findRepeatedPhrases(["ba", "ba", "ba"], 2), [0, 1]);
 ```
 
 `analyzeTexts` は関数である必要があります。

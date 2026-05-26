@@ -21,7 +21,7 @@ dashedName: build-a-proofreading-tool
 
 2. 你應該定義一個名為 `findPalindromeBreaks` 的函式，接受一個 `words` 陣列作為引數。應傳回一個包含非回文字的字索引陣列。若輸入為空，應傳回空陣列。
 
-3. 你應該定義一個名為 `findRepeatedPhrases` 的函式，接受一個 `words` 陣列和一個 `phraseLength` 數字作為引數。應傳回一個陣列，包含所有出現超過一次的 `phraseLength` 個連續字的起始索引（包含第一次出現的索引）。若 `phraseLength` 大於或等於 `words` 的長度，應傳回空陣列。
+3. 你應該定義一個名為 `findRepeatedPhrases` 的函式，接受一個 `words` 陣列和一個 `phraseLength` 數字作為引數。應傳回一個陣列，包含所有出現超過一次的 `phraseLength` 個連續字的起始索引（包含第一次出現的索引）。若 `phraseLength` 大於或等於 `words` 的長度，應傳回空陣列。重疊的序列也應該被計算在內。
 
 4. 你應該定義一個名為 `analyzeTexts` 的函式，接受一個 `texts` 陣列和一個 `phraseLength` 數字作為引數。應處理 `texts` 中的每個元素（每個元素都是字陣列），並傳回一個物件陣列，每個物件包含 `repeatedPhrases` 和 `palindromeBreaks` 屬性。若 `texts` 為空，應傳回空陣列。
 
@@ -98,6 +98,12 @@ assert.sameDeepOrderedMembers(findRepeatedPhrases(["the"], 2), []);
 
 ```js
 assert.sameDeepOrderedMembers(findRepeatedPhrases(["the", "cat", "sat", "the", "cat"], 2), [0, 3]);
+```
+
+`findRepeatedPhrases` 應該傳回所有重疊重複片語的起始索引。
+
+```js
+assert.sameDeepOrderedMembers(findRepeatedPhrases(["ba", "ba", "ba"], 2), [0, 1]);
 ```
 
 `analyzeTexts` 應該是一個函式。

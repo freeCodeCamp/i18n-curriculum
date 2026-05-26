@@ -21,7 +21,7 @@ Eine Phrase ist eine Folge aufeinanderfolgender Wörter. Zum Beispiel erscheint 
 
 2. Sie sollen eine Funktion namens `findPalindromeBreaks` definieren, die ein `words` Array als Argument nimmt. Sie soll ein Array von Indizes der Wörter zurückgeben, die keine Palindrome sind. Sie soll ein leeres Array zurückgeben, wenn die Eingabe leer ist.
 
-3. Sie sollen eine Funktion namens `findRepeatedPhrases` definieren, die ein `words` Array und eine `phraseLength` Zahl als Argumente nimmt. Sie soll ein Array aller Startindizes zurückgeben, an denen eine Folge von `phraseLength` aufeinanderfolgenden Wörtern mehr als einmal im Array erscheint – einschließlich des Index der ersten Vorkommnis. Sie soll ein leeres Array zurückgeben, wenn `phraseLength` größer oder gleich der Länge von `words` ist.
+3. Sie sollen eine Funktion namens `findRepeatedPhrases` definieren, die ein `words` Array und eine `phraseLength` Zahl als Argumente nimmt. Sie soll ein Array aller Startindizes zurückgeben, an denen eine Folge von `phraseLength` aufeinanderfolgenden Wörtern mehr als einmal im Array erscheint – einschließlich des Index der ersten Vorkommnis. Sie soll ein leeres Array zurückgeben, wenn `phraseLength` größer oder gleich der Länge von `words` ist. Überlappende Folgen sollen ebenfalls gezählt werden.
 
 4. Sie sollen eine Funktion namens `analyzeTexts` definieren, die ein `texts` Array und eine `phraseLength` Zahl als Argumente nimmt. Sie soll jedes Element von `texts` (jeweils ein Array von Wörtern) verarbeiten und ein Array von Objekten zurückgeben, die jeweils `repeatedPhrases` und `palindromeBreaks` Eigenschaften haben. Sie soll ein leeres Array zurückgeben, wenn `texts` leer ist.
 
@@ -98,6 +98,12 @@ assert.sameDeepOrderedMembers(findRepeatedPhrases(["the"], 2), []);
 
 ```js
 assert.sameDeepOrderedMembers(findRepeatedPhrases(["the", "cat", "sat", "the", "cat"], 2), [0, 3]);
+```
+
+`findRepeatedPhrases` sollte alle Startindizes für überlappende wiederholte Phrasen zurückgeben.
+
+```js
+assert.sameDeepOrderedMembers(findRepeatedPhrases(["ba", "ba", "ba"], 2), [0, 1]);
 ```
 
 `analyzeTexts` sollte eine Funktion sein.

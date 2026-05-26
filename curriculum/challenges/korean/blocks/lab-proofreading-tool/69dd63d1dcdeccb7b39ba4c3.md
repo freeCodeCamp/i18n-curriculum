@@ -21,9 +21,9 @@ dashedName: build-a-proofreading-tool
 
 2. `findPalindromeBreaks`라는 이름의 함수를 정의하세요. 이 함수는 `words` 배열을 인수로 받습니다. 회문이 아닌 단어들의 인덱스 배열을 반환해야 합니다. 입력이 비어 있으면 빈 배열을 반환해야 합니다.
 
-3. `findRepeatedPhrases`라는 이름의 함수를 정의하세요. 이 함수는 `words` 배열과 `phraseLength` 숫자를 인수로 받습니다. `phraseLength` 개의 연속된 단어 수열이 배열 내에서 두 번 이상 나타나는 모든 시작 인덱스 배열을 반환해야 하며, 첫 번째 발생 인덱스도 포함해야 합니다. `phraseLength`가 `words` 길이 이상이면 빈 배열을 반환해야 합니다.
+3. `findRepeatedPhrases`라는 이름의 함수를 정의하세요. 이 함수는 `words` 배열과 `phraseLength` 숫자를 인수로 받습니다. `phraseLength` 개의 연속된 단어 수열이 배열 내에서 두 번 이상 나타나는 모든 시작 인덱스 배열을 반환해야 하며, 첫 번째 발생 인덱스도 포함해야 합니다. `phraseLength`가 `words` 길이 이상이면 빈 배열을 반환해야 합니다. 겹치는 수열도 포함해야 합니다.
 
-4. `analyzeTexts`라는 이름의 함수를 정의하세요. 이 함수는 `texts` 배열과 `phraseLength` 숫자를 인수로 받습니다. `texts`의 각 요소(각각 단어 배열)를 처리하여 `repeatedPhrases`와 `palindromeBreaks` 프로퍼티를 가진 객체 배열을 반환해야 합니다. `texts`이 비어 있으면 빈 배열을 반환해야 합니다.
+4. `analyzeTexts`라는 이름의 함수를 정의하세요. 이 함수는 `texts` 배열과 `phraseLength` 숫자를 인수로 받습니다. `texts`의 각 요소(각각 단어 배열)를 처리하여 `repeatedPhrases`와 `palindromeBreaks` 속성을 가진 객체 배열을 반환해야 합니다. `texts`가 비어 있으면 빈 배열을 반환해야 합니다.
 
 # --hints--
 
@@ -100,6 +100,12 @@ assert.sameDeepOrderedMembers(findRepeatedPhrases(["the"], 2), []);
 assert.sameDeepOrderedMembers(findRepeatedPhrases(["the", "cat", "sat", "the", "cat"], 2), [0, 3]);
 ```
 
+`findRepeatedPhrases`는 겹치는 반복 구문에 대한 모든 시작 인덱스를 반환해야 합니다.
+
+```js
+assert.sameDeepOrderedMembers(findRepeatedPhrases(["ba", "ba", "ba"], 2), [0, 1]);
+```
+
 `analyzeTexts`는 함수여야 합니다.
 
 ```js
@@ -112,7 +118,7 @@ assert.isFunction(analyzeTexts);
 assert.sameDeepOrderedMembers(analyzeTexts([], 2), []);
 ```
 
-`analyzeTexts` 결과 객체는 `repeatedPhrases`와 `palindromeBreaks` 프로퍼티를 가져야 합니다.
+`analyzeTexts` 결과 객체는 `repeatedPhrases`와 `palindromeBreaks` 속성을 가져야 합니다.
 
 ```js
 const result = analyzeTexts([["racecar", "hello"]], 2);
