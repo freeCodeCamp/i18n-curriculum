@@ -181,7 +181,7 @@ ol[type="I"] { border-color: black; }
 
 #### --answer--
 
-このカスタムデータ属性に基づいて要素にスタイルを適用するため。
+CSSやJavaScriptが利用できるように、HTML要素にカスタムデータをストアするため。
 
 ### --question--
 

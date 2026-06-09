@@ -503,7 +503,7 @@ PowerPointプレゼンテーションで使う伸縮式デバイス
 
 #### --text--
 
-ISPプロバイダーの種類はどれですか？
+ISPの種類はどれですか？
 
 #### --distractors--
 
@@ -621,7 +621,7 @@ Linux
 
 ---
 
-MacOS
+macOS
 
 ---
 
@@ -691,7 +691,7 @@ GitLab
 
 ---
 
-BitBucket
+Bitbucket
 
 #### --answer--
 
@@ -701,7 +701,7 @@ Ona
 
 #### --text--
 
-統合開発環境の主な部分でないものはどれですか？
+次のうち統合開発環境の主な部分でないものはどれですか？
 
 #### --distractors--
 

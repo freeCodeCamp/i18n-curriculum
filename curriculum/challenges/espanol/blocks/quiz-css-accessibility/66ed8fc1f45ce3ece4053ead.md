@@ -1,6 +1,6 @@
 ---
 id: 66ed8fc1f45ce3ece4053ead
-title: Cuestionario de Accesibilidad CSS
+title: Cuestionario de accesibilidad CSS
 challengeType: 8
 dashedName: quiz-css-accessibility
 ---
@@ -203,7 +203,7 @@ img {
 
 #### --answer--
 
-`prefers-reduce-motion`
+`prefers-reduced-motion`
 
 ### --question--
 

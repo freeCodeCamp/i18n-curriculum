@@ -703,7 +703,7 @@ Sie können sich ausdehnen, um die Breite ihres Containers auszufüllen.
 
 ---
 
-Gängige Block-Elemente sind `div`, `paragraph` und `section`.
+Gängige Block-Elemente sind `div`, `p` und `section`.
 
 ---
 
@@ -910,4 +910,3 @@ Welches Symbol steht vor dem ID-Selektor?
 #### --answer--
 
 `#`
-

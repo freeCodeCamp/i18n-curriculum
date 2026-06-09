@@ -43,10 +43,10 @@ dashedName: review-css-animations
 - **`animation`-Eigenschaft**: Dies ist die Kurzschreibweise-Eigenschaft, die verwendet wird, um Animationen anzuwenden.
 - **`animation-name`**: Diese Eigenschaft gibt den Namen der `@keyframes`-Regel an, die verwendet werden soll.
 - **`animation-duration`**: Diese Eigenschaft legt fest, wie lange die Animation dauern soll.
-- **`animation-timing-function`**: Diese Eigenschaft definiert, wie sich die Animation im Zeitverlauf verhält (z. B. ease, linear, ease-in-out).
+- **`animation-timing-function`**: Diese Eigenschaft definiert, wie sich die Animation im Zeitverlauf verhält (z. B. `ease`, `linear`, `ease-in-out`).
 - **`animation-delay`**: Diese Eigenschaft gibt eine Verzögerung an, bevor die Animation startet.
 - **`animation-iteration-count`**: Diese Eigenschaft legt fest, wie oft die Animation wiederholt werden soll.
-- **`animation-direction`**: Diese Eigenschaft bestimmt, ob die Animation vorwärts, rückwärts oder abwechselnd abgespielt wird.
+- **`animation-direction`**: Diese Eigenschaft bestimmt, ob die Animation in der `normal` Richtung, rückwärts (`reverse`) oder abwechselnd (`alternate`) abgespielt wird.
 - **`animation-fill-mode`**: Diese Eigenschaft gibt an, wie das Element vor und nach der Animation gestylt sein soll.
 - **`animation-play-state`**: Diese Eigenschaft ermöglicht es, die Animation anzuhalten und fortzusetzen.
 

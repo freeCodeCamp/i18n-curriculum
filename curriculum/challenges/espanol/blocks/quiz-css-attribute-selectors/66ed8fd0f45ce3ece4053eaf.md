@@ -181,7 +181,7 @@ Para establecer el idioma de un elemento basándose en su elemento padre.
 
 #### --answer--
 
-Para aplicar estilos a elementos basados en este atributo de datos personalizado.
+Para almacenar datos personalizados en un elemento HTML que luego CSS o JavaScript pueden usar.
 
 ### --question--
 
@@ -302,4 +302,3 @@ menu-item[data-special] { background-color: blue; }
 ```css
 .menu-item[data-special] { background-color: blue; }
 ```
-

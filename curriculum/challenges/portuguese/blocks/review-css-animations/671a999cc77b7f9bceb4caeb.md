@@ -1,13 +1,13 @@
 ---
 id: 671a999cc77b7f9bceb4caeb
-title: Revisão de Animações CSS
+title: revisão de animações css
 challengeType: 31
 dashedName: review-css-animations
 ---
 
 # --interactive--
 
-## Noções básicas de Animação CSS
+## Noções básicas de animação CSS
 
 - **Definição**: Animações CSS permitem que você crie efeitos dinâmicos e visualmente atraentes em páginas web sem a necessidade de JavaScript ou programação complexa. Elas fornecem uma maneira de transitar suavemente elementos entre diferentes estilos ao longo de uma duração especificada.
 - **A Regra `@keyframes`**: Esta regra define os estágios e estilos da animação. Ela especifica quais estilos o elemento deve ter em vários pontos durante a animação.
@@ -43,10 +43,10 @@ dashedName: review-css-animations
 - **Propriedade `animation`**: Esta é a propriedade abreviada usada para aplicar animações.
 - **`animation-name`**: Isso especifica o nome para a regra `@keyframes` a ser usada.
 - **`animation-duration`**: Isso define quanto tempo a animação deve levar para ser concluída.
-- **`animation-timing-function`**: Isso define como a animação progride ao longo do tempo (como ease, linear, ease-in-out).
+- **`animation-timing-function`**: Isso define como a animação progride ao longo do tempo (como `ease`, `linear`, `ease-in-out`).
 - **`animation-delay`**: Isso especifica um atraso antes de a animação começar.
 - **`animation-iteration-count`**: Isso define quantas vezes a animação deve se repetir.
-- **`animation-direction`**: Isso determina se a animação deve ser executada para frente, para trás ou alternadamente.
+- **`animation-direction`**: Isso determina se a animação deve ser executada na direção `normal`, em `reverse` ou alternar entre as duas.
 - **`animation-fill-mode`**: Isso especifica como o elemento deve ser estilizado antes e depois da animação.
 - **`animation-play-state`**: Isso permite que você pause e retome a animação.
 

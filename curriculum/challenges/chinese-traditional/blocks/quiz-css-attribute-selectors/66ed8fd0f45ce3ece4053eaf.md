@@ -75,7 +75,7 @@ CSS 屬性選擇器的用途是什麼？
 
 #### --text--
 
-哪一個 CSS 選擇器符合所有 `lang` 屬性設為 `"fr"` 的 `p` 元素？
+哪一個 CSS 選擇器符合所有 `p` 屬性設為 `lang` 的 `"fr"` 元素？
 
 #### --distractors--
 
@@ -105,7 +105,7 @@ p[lang="fr"] { color: blue; }
 
 #### --text--
 
-哪一個 CSS 選擇器符合所有具有 `href` 屬性的 `a` 元素？
+哪一個 CSS 選擇器符合所有具有 `a` 屬性的 `href` 元素？
 
 #### --distractors--
 
@@ -181,7 +181,7 @@ ol[type="I"] { border-color: black; }
 
 #### --answer--
 
-根據這個訂製資料屬性套用樣式到元素。
+用來在 HTML 元素上儲存訂製資料，CSS 或 JavaScript 隨後可以使用這些資料。
 
 ### --question--
 
@@ -247,7 +247,7 @@ ol[type="1"] { color: purple; }
 
 #### --text--
 
-你會使用下列哪一個 CSS 選擇器來為同時具有 `href` 和 `title` 屬性的 `a` 元素設定樣式？
+你會使用下列哪一個 CSS 選擇器來為同時具有 `a` 和 `href` 屬性的 `title` 元素設定樣式？
 
 #### --distractors--
 
@@ -277,7 +277,7 @@ a[href][title] { text-decoration: underline dotted; }
 
 #### --text--
 
-如果你正在為餐廳開發網站，並且想要為所有具有 `data-special` 屬性且擁有 `menu-item` 類別的元素設計樣式，你會使用哪個 CSS 選擇器？
+如果你正在為餐廳開發網站，並且想要為所有具有 `menu-item` 屬性且擁有 `data-special` 類別的元素設計樣式，你會使用哪個 CSS 選擇器？
 
 #### --distractors--
 
@@ -302,4 +302,3 @@ menu-item[data-special] { background-color: blue; }
 ```css
 .menu-item[data-special] { background-color: blue; }
 ```
-

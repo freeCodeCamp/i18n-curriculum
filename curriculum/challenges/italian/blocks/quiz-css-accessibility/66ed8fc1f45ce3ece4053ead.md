@@ -203,7 +203,7 @@ Quale delle seguenti funzionalità viene usata per rilevare la preferenza di ani
 
 #### --answer--
 
-`prefers-reduce-motion`
+`prefers-reduced-motion`
 
 ### --question--
 

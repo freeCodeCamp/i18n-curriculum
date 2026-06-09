@@ -179,7 +179,7 @@ Mettere un underscore o un trattino tra le parole.
 
 ---
 
-Usare uno stile di scrittura come camelCase e mantenerlo.
+Usare uno stile di scrittura coerente come camelCase.
 
 ---
 
@@ -515,7 +515,7 @@ Fibra ottica
 
 ---
 
-Dial up
+Dial-up
 
 #### --answer--
 
@@ -621,7 +621,7 @@ Linux
 
 ---
 
-MacOS
+macOS
 
 ---
 
@@ -691,7 +691,7 @@ GitLab
 
 ---
 
-BitBucket
+Bitbucket
 
 #### --answer--
 

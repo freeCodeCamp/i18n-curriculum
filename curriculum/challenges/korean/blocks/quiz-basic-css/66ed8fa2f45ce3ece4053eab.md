@@ -355,11 +355,11 @@ CSS에서 `!important`는 무엇을 하나요?
 
 ---
 
-같은 요소에 적용된 다른 모든 CSS 속성을 비활성화하여 해당 요소 스타일에 영향을 주는 유일한 규칙이 됩니다.
+It disables all other CSS properties applied to the same element, effectively making it the only rule that affects the element's styling.
 
 ---
 
-특정 선택자나 요소 그룹에만 적용됩니다.
+It applies only to a certain selector or group of elements.
 
 #### --answer--
 
@@ -589,15 +589,15 @@ body {
 
 #### --distractors--
 
-페이지의 모든 요소를 스타일링할 수 있어 가장 높은 특이성을 가집니다.
+It has the highest specificity because it can style all the elements on a page.
 
 ---
 
-특이성 값의 모든 부분에 1을 더합니다.
+It contributes 1 to all parts of the specificity value.
 
 ---
 
-다른 브라우저 간 스타일을 초기화할 수 없습니다.
+It cannot reset styles across different browsers.
 
 #### --answer--
 
@@ -655,7 +655,7 @@ body {
 
 #### --distractors--
 
-요소 내부 공간입니다.
+The space inside the element.
 
 ---
 
@@ -677,7 +677,7 @@ body {
 
 #### --distractors--
 
-요소 테두리와 주변 요소 사이입니다.
+Between the element's border and the surrounding elements.
 
 ---
 
@@ -703,7 +703,7 @@ body {
 
 ---
 
-일반적인 블록 레벨 요소에는 `div`, `paragraph`, `section`이 포함됩니다.
+Common block-level elements include `div`, `p`, and `section`.
 
 ---
 

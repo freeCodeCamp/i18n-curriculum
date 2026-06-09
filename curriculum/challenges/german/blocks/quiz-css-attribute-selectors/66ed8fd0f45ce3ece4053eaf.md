@@ -181,7 +181,7 @@ Um die Sprache eines Elements basierend auf seinem Elternelement festzulegen.
 
 #### --answer--
 
-Um Stile auf Elemente basierend auf diesem benutzerdefinierten Datenattribut anzuwenden.
+Um benutzerdefinierte Daten in einem HTML-Element zu speichern, die CSS oder JavaScript dann verwenden können.
 
 ### --question--
 
@@ -302,4 +302,3 @@ menu-item[data-special] { background-color: blue; }
 ```css
 .menu-item[data-special] { background-color: blue; }
 ```
-

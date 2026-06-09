@@ -359,7 +359,7 @@ Disabilita tutte le altre proprietà CSS applicate allo stesso elemento, rendend
 
 ---
 
-Si applica a un certo selettore o gruppo di elementi.
+Si applica solo a un certo selettore o gruppo di elementi.
 
 #### --answer--
 
@@ -703,7 +703,7 @@ Possono estendersi per adattarsi alla larghezza del loro contenitore.
 
 ---
 
-Gli elementi a blocco comuni includono `div`, `paragraph` e `section`.
+Gli elementi a blocco comuni includono `div`, `p` e `section`.
 
 ---
 

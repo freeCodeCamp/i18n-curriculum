@@ -181,7 +181,7 @@ ol[type="I"] { border-color: black; }
 
 #### --answer--
 
-이 사용자 정의 데이터 속성을 기준으로 요소에 스타일을 적용하는 데 사용합니다.
+CSS나 JavaScript가 사용할 수 있도록 HTML 요소에 사용자 정의 데이터를 저장하는 데 사용합니다.
 
 ### --question--
 

@@ -179,7 +179,7 @@ Einen Unterstrich oder Bindestrich zwischen Wörtern verwenden.
 
 ---
 
-Einen Schreibstil wie CamelCase verwenden und dabei bleiben.
+Verwendung eines konsistenten Schreibstils wie CamelCase.
 
 ---
 
@@ -503,7 +503,7 @@ Eine Maus oder ein Touchpad
 
 #### --text--
 
-Was ist eine Art von ISP-Anbieter?
+Was ist keine Art von ISP?
 
 #### --distractors--
 
@@ -621,7 +621,7 @@ Linux
 
 ---
 
-MacOS
+macOS
 
 ---
 
@@ -691,7 +691,7 @@ GitLab
 
 ---
 
-BitBucket
+Bitbucket
 
 #### --answer--
 
@@ -701,7 +701,7 @@ Ona
 
 #### --text--
 
-Welcher der folgenden ist nicht primär Teil einer integrierten Entwicklungsumgebung?
+Welcher der folgenden ist KEIN primär Teil einer integrierten Entwicklungsumgebung?
 
 #### --distractors--
 
@@ -894,4 +894,3 @@ Welches Dateiformat wird zum Komprimieren von Dateien verwendet?
 #### --answer--
 
 `ZIP`
-
