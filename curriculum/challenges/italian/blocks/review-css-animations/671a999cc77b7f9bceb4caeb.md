@@ -43,10 +43,10 @@ dashedName: review-css-animations
 - **Proprietà `animation`**: Questa è la proprietà abbreviata usata per applicare le animazioni.
 - **`animation-name`**: Specifica il nome della regola `@keyframes` da usare.
 - **`animation-duration`**: Imposta la durata necessaria per completare l'animazione.
-- **`animation-timing-function`**: Definisce come l'animazione procede nel tempo (ad esempio ease, linear, ease-in-out).
+- **`animation-timing-function`**: Definisce come l'animazione procede nel tempo (ad esempio `ease`, `linear`, `ease-in-out`).
 - **`animation-delay`**: Specifica un ritardo prima che l'animazione inizi.
 - **`animation-iteration-count`**: Imposta quante volte l'animazione deve ripetersi.
-- **`animation-direction`**: Determina se l'animazione deve andare avanti, indietro o alternare.
+- **`animation-direction`**: Determina se l'animazione deve andare avanti nella direzione `normal`, indietro in `reverse` o alternare tra le due.
 - **`animation-fill-mode`**: Specifica come l'elemento deve essere stilizzato prima e dopo l'animazione.
 - **`animation-play-state`**: Permette di mettere in pausa e riprendere l'animazione.
 

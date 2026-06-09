@@ -1,6 +1,6 @@
 ---
 id: 66ed8fa2f45ce3ece4053eab
-title: Cuestionario de Fundamentos de CSS
+title: Cuestionario de fundamentos de CSS
 challengeType: 8
 dashedName: quiz-basic-css
 ---
@@ -359,7 +359,7 @@ Desactiva todas las demás propiedades CSS aplicadas al mismo elemento, haciénd
 
 ---
 
-Se aplica a un selector determinado o grupo de elementos.
+Se aplica solo a un selector determinado o grupo de elementos.
 
 #### --answer--
 
@@ -593,7 +593,7 @@ Tiene la mayor especificidad porque puede aplicar estilo a todos los elementos d
 
 ---
 
-Contribuye con 1 a todas las partes del valor de especificidad. 
+Contribuye 1 a todas las partes del valor de especificidad.
 
 ---
 
@@ -703,7 +703,7 @@ Pueden estirarse para ajustarse al ancho de su contenedor.
 
 ---
 
-Los elementos de bloque comunes incluyen `div`, `párrafo` y `sección`.
+Los elementos de bloque comunes incluyen `div`, `p` y `section`.
 
 ---
 
@@ -831,19 +831,19 @@ Se escriben dentro de la sección `style` dentro del elemento `head`.
 
 #### --distractors--
 
-`arriba`, `abajo`, `izquierda`, `derecha`
+`top`, `bottom`, `left`, `right`
 
 ---
 
-`izquierda`, `derecha`, `arriba`, `abajo`
+`left`, `right`, `top`, `bottom`
 
 ---
 
-`derecha`, `arriba`, `izquierda`, `abajo`
+`right`, `top`, `left`, `bottom`
 
 #### --answer--
 
-`arriba`, `derecha`, `abajo`, `izquierda`
+`top`, `right`, `bottom`, `left`
 
 ### --question--
 
@@ -853,19 +853,19 @@ Se escriben dentro de la sección `style` dentro del elemento `head`.
 
 #### --distractors--
 
-`izquierda`, `derecha`, `arriba`, `abajo`
+`left`, `right`, `top`, `bottom`
 
 ---
 
-`derecha`, `arriba`, `izquierda`, `abajo`
+`right`, `top`, `left`, `bottom`
 
 ---
 
-`arriba`, `abajo`, `izquierda`, `derecha`
+`top`, `bottom`, `left`, `right`
 
 #### --answer--
 
-`arriba`, `derecha`, `abajo`, `izquierda`
+`top`, `right`, `bottom`, `left`
 
 ### --question--
 
@@ -910,4 +910,3 @@ Se utilizan para estilizar directamente dentro del elemento, en lugar de usar CS
 #### --answer--
 
 `#`
-

@@ -203,7 +203,7 @@ Welche der folgenden Funktionen wird verwendet, um die Animationspräferenz des 
 
 #### --answer--
 
-`prefers-reduce-motion`
+`prefers-reduced-motion`
 
 ### --question--
 

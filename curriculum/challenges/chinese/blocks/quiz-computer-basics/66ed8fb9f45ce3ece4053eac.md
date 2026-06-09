@@ -179,7 +179,7 @@ Windows 文件资源管理器
 
 ---
 
-使用驼峰式大小写等命名风格并坚持使用它。
+使用一致的命名风格，例如驼峰式大小写。
 
 ---
 
@@ -621,7 +621,7 @@ Linux
 
 ---
 
-MacOS
+macOS
 
 ---
 
@@ -691,7 +691,7 @@ GitLab
 
 ---
 
-BitBucket
+Bitbucket
 
 #### --answer--
 
@@ -894,4 +894,3 @@ Findex 或 Firefox
 #### --answer--
 
 `ZIP`
-

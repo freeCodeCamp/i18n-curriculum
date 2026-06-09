@@ -75,7 +75,7 @@ CSS 属性选择器用于做什么？
 
 #### --text--
 
-哪个 CSS 选择器可匹配所有 `lang` 属性设置为 `"fr"` 的 `p` 元素？
+哪个 CSS 选择器可匹配所有 `p` 属性设置为 `lang` 的 `"fr"` 元素？
 
 #### --distractors--
 
@@ -105,7 +105,7 @@ p[lang="fr"] { color: blue; }
 
 #### --text--
 
-哪个 CSS 选择器可匹配所有带有 `href` 属性的 `a` 元素？
+哪个 CSS 选择器可匹配所有带有 `a` 属性的 `href` 元素？
 
 #### --distractors--
 
@@ -181,7 +181,7 @@ ol[type="I"] { border-color: black; }
 
 #### --answer--
 
-根据此自定义数据属性为元素应用样式。
+用于在 HTML 元素上保存自定义数据，CSS 或 JavaScript 可以使用这些数据。
 
 ### --question--
 
@@ -247,7 +247,7 @@ ol[type="1"] { color: purple; }
 
 #### --text--
 
-以下哪个 CSS 选择器可以为同时具有 `href` 和 `title` 属性的 `a` 元素设计样式？
+以下哪个 CSS 选择器可以为同时具有 `a` 和 `href` 属性的 `title` 元素设计样式？
 
 #### --distractors--
 
@@ -277,7 +277,7 @@ a[href][title] { text-decoration: underline dotted; }
 
 #### --text--
 
-如果你正在为一家餐厅开发网站，希望为所有带有 `data-special` 属性的 `menu-item` 类元素设计样式，你会使用哪个 CSS 选择器？
+如果你正在为一家餐厅开发网站，希望为所有带有 `menu-item` 属性的 `data-special` 类元素设计样式，你会使用哪个 CSS 选择器？
 
 #### --distractors--
 
@@ -302,4 +302,3 @@ menu-item[data-special] { background-color: blue; }
 ```css
 .menu-item[data-special] { background-color: blue; }
 ```
-

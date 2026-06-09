@@ -43,10 +43,10 @@ dashedName: review-css-animations
 - **Sifa ya `animation`**: Hii ni sifa ya ufupisho inayotumika kutekeleza michoro.
 - **`animation-name`**: Hii inaeleza jina la kanuni ya `@keyframes` itakayotumika.
 - **`animation-duration`**: Hii inaweka muda ambao michoro inapaswa kuchukua kukamilika.
-- **`animation-timing-function`**: Hii inaeleza jinsi michoro inavyosogea kwa muda (kama ease, linear, ease-in-out).
+- **`animation-timing-function`**: Hii inaeleza jinsi michoro inavyosogea kwa muda (kama `ease`, `linear`, `ease-in-out`).
 - **`animation-delay`**: Hii inaeleza kuchelewa kabla michoro haijaanza.
 - **`animation-iteration-count`**: Hii inaweka ni mara ngapi michoro inapaswa kurudiwa.
-- **`animation-direction`**: Hii inaamua kama michoro itachezwa mbele, nyuma, au kubadilishana.
+- **`animation-direction`**: Hii inaamua kama michoro itachezwa katika mwelekeo wa `normal`, kwa `reverse`, au `alternate` kati ya yote mawili.
 - **`animation-fill-mode`**: Hii inaeleza jinsi kipengele kinapaswa kupambwa kabla na baada ya michoro.
 - **`animation-play-state`**: Hii inakuwezesha kusitisha na kuendelea na michoro.
 

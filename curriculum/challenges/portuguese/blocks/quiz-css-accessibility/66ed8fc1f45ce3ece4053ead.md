@@ -61,7 +61,7 @@ Verificador de Contraste de Cor do WebAIM
 
 #### --text--
 
-Qual das seguintes ferramentas permite que você escolha cores de fundo e primeiro plano do conteúdo exibido na sua tela e verifique a razão de contraste entre elas?
+Qual das seguintes ferramentas permite que você escolha cores de fundo e primeiro plano do conteúdo exibido na sua tela e verifique a taxa de contraste entre elas?
 
 #### --distractors--
 
@@ -203,7 +203,7 @@ Qual dos seguintes recursos é usado para detectar a preferência de animação 
 
 #### --answer--
 
-`prefers-reduce-motion`
+`prefers-reduced-motion`
 
 ### --question--
 

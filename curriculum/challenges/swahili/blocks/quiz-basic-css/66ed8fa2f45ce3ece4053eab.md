@@ -703,7 +703,7 @@ Vinaweza kunyoosha kufikia upana wa kontena lao.
 
 ---
 
-Vipengele vya kawaida vya ngazi ya block ni `div`, `paragraph`, na `section`.
+Vipengele vya kawaida vya ngazi ya block ni `div`, `p`, na `section`.
 
 ---
 

@@ -55,7 +55,7 @@ Software para gerenciar extensões e plug-ins de navegador.
 
 #### --answer--
 
-Recursos integrados nos navegadores que ajudam os desenvolvedores a depurar e inspecionar sites.
+Recursos embutidos nos navegadores que ajudam os desenvolvedores a depurar e inspecionar sites.
 
 ### --question--
 
@@ -179,7 +179,7 @@ Colocando um underscore ou hífen entre palavras.
 
 ---
 
-Use um estilo de escrita como camelCase e mantenha-o.
+Usando um estilo de escrita consistente como camelCase.
 
 ---
 
@@ -237,7 +237,7 @@ Clique com o botão direito nele e selecione a opção Delete/Move to trash.
 
 #### --text--
 
-O que é uma RAM?
+O que é RAM?
 
 #### --distractors--
 
@@ -503,7 +503,7 @@ Um mouse ou touchpad
 
 #### --text--
 
-O que é um tipo de provedor de ISP?
+O que é um tipo de ISP?
 
 #### --distractors--
 
@@ -621,7 +621,7 @@ Linux
 
 ---
 
-MacOS
+macOS
 
 ---
 
@@ -691,7 +691,7 @@ GitLab
 
 ---
 
-BitBucket
+Bitbucket
 
 #### --answer--
 
@@ -701,7 +701,7 @@ Ona
 
 #### --text--
 
-Qual dos seguintes não é principalmente parte de um ambiente de desenvolvimento integrado?
+Qual dos seguintes NÃO é principalmente parte de um ambiente de desenvolvimento integrado?
 
 #### --distractors--
 
@@ -894,4 +894,3 @@ Qual formato de arquivo é usado para comprimir arquivos?
 #### --answer--
 
 `ZIP`
-

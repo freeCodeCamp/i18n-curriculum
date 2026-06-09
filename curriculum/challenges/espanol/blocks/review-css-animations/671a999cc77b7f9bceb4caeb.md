@@ -1,6 +1,6 @@
 ---
 id: 671a999cc77b7f9bceb4caeb
-title: Revisión de Animaciones CSS
+title: Revisión de animaciones CSS
 challengeType: 31
 dashedName: review-css-animations
 ---
@@ -40,15 +40,15 @@ dashedName: review-css-animations
 
 :::
 
-- **`Propiedad de Animación`**: Esta es la propiedad abreviada utilizada para aplicar animaciones.
-- **`Nombre de Animación`**: Esto especifica el nombre de la regla `@keyframes` que se va a usar.
-- **`Duración de Animación`**: Esto establece cuánto tiempo debe durar la animación.
-- **`Función de Tiempo de Animación`**: Esto define cómo avanza la animación a lo largo del tiempo (como ease, linear, ease-in-out).
-- **`Retraso de Animación`**: Esto especifica un retraso antes de que comience la animación.
-- **`Conteo de Iteración de Animación`**: Esto establece cuántas veces debe repetirse la animación.
-- **`Dirección de Animación`**: Esto determina si la animación debería reproducirse hacia adelante, hacia atrás o alternar.
-- **`Modo de Relleno de Animación`**: Esto especifica cómo debe estar estilizado el elemento antes y después de la animación.
-- **`Estado de Reproducción de Animación`**: Esto te permite pausar y reanudar la animación.
+- **`Propiedad de animación`**: Esta es la propiedad abreviada utilizada para aplicar animaciones.
+- **`Nombre de animación`**: Esto especifica el nombre de la regla `@keyframes` que se va a usar.
+- **`Duración de animación`**: Esto establece cuánto tiempo debe durar la animación.
+- **`Función de tiempo de animación`**: Esto define cómo avanza la animación a lo largo del tiempo (como `ease`, `linear`, `ease-in-out`).
+- **`Retraso de animación`**: Esto especifica un retraso antes de que comience la animación.
+- **`Conteo de iteración de animación`**: Esto establece cuántas veces debe repetirse la animación.
+- **`Dirección de animación`**: Esto determina si la animación debería reproducirse en la dirección `normal`, en `reverse` o alternar entre ambas.
+- **`Modo de relleno de animación`**: Esto especifica cómo debe estar estilizado el elemento antes y después de la animación.
+- **`Estado de reproducción de animación`**: Esto te permite pausar y reanudar la animación.
 
 ## Accesibilidad y la Consulta de Medios `prefers-reduced-motion`
 

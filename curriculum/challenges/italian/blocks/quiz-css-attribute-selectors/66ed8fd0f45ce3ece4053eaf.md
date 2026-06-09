@@ -181,7 +181,7 @@ Per impostare la lingua di un elemento in base al suo elemento genitore.
 
 #### --answer--
 
-Per applicare stili agli elementi in base a questo attributo dati personalizzato.
+Per archiviare dati personalizzati su un elemento HTML che poi CSS o JavaScript possono usare.
 
 ### --question--
 

@@ -181,7 +181,7 @@ Kuweka lugha ya kipengele kulingana na kipengele mzazi wake.
 
 #### --answer--
 
-Kuweka mitindo kwa vipengele kulingana na sifa hii ya data maalum.
+Kuhifadhi data maalum kwenye kipengele cha HTML ambacho CSS au JavaScript vinaweza kutumia.
 
 ### --question--
 

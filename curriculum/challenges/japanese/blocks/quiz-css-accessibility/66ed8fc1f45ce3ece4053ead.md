@@ -203,7 +203,7 @@ img {
 
 #### --answer--
 
-`prefers-reduce-motion`
+`prefers-reduced-motion`
 
 ### --question--
 

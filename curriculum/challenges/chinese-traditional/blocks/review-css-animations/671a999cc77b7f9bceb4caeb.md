@@ -43,10 +43,10 @@ dashedName: review-css-animations
 - **`animation` 屬性**：這是用來套用動畫的縮寫屬性。
 - **`animation-name`**：這指定要使用的 `@keyframes` 規則名稱。
 - **`animation-duration`**：這設定動畫應該花費多長時間完成。
-- **`animation-timing-function`**：這定義動畫隨時間的進展方式（例如 ease、linear、ease-in-out）。
+- **`animation-timing-function`**：這定義動畫隨時間的進展方式（例如 `ease`、`linear`、`ease-in-out`）。
 - **`animation-delay`**：這指定動畫開始前的延遲時間。
 - **`animation-iteration-count`**：這設定動畫應該重複的次數。
-- **`animation-direction`**：這決定動畫應該向前播放、向後播放，或交替播放。
+- **`animation-direction`**：這決定動畫應該向 `normal` 播放、向 `reverse` 播放，或在兩者之間 `alternate` 播放。
 - **`animation-fill-mode`**：這指定元素在動畫開始前和結束後應該如何被樣式化。
 - **`animation-play-state`**：這讓你可以暫停和恢復動畫。
 

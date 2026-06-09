@@ -179,7 +179,7 @@ Poner un guion bajo o un guion entre palabras.
 
 ---
 
-Utilizar un estilo de mayúsculas y seguir con él.
+Usar un estilo de mayúsculas consistente como camelCase.
 
 ---
 
@@ -237,7 +237,7 @@ Hacer clic derecho sobre él y seleccionar la opción Eliminar/Mover a la papele
 
 #### --text--
 
-¿Qué es una RAM?
+¿Qué es RAM?
 
 #### --distractors--
 
@@ -503,7 +503,7 @@ Un mouse o touchpad
 
 #### --text--
 
-¿Cuál es un tipo de proveedor de ISP?
+¿Cuál es un tipo de ISP?
 
 #### --distractors--
 
@@ -621,7 +621,7 @@ Linux
 
 ---
 
-MacOS
+macOS
 
 ---
 
@@ -691,7 +691,7 @@ GitLab
 
 ---
 
-BitBucket
+Bitbucket
 
 #### --answer--
 
@@ -701,7 +701,7 @@ Ona
 
 #### --text--
 
-¿Cuál de los siguientes no forma parte principal de un entorno de desarrollo integrado?
+¿Cuál de los siguientes NO es principalmente una parte de un entorno de desarrollo integrado?
 
 #### --distractors--
 
@@ -894,4 +894,3 @@ Una ubicación de almacenamiento temporal para la unidad central de procesamient
 #### --answer--
 
 `ZIP`
-

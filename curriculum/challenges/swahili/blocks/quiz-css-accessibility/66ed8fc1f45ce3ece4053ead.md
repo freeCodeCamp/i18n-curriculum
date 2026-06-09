@@ -203,7 +203,7 @@ Ni kipengele gani kati ya zifuatazo kinatumika kugundua upendeleo wa mtumizi kuh
 
 #### --answer--
 
-`prefers-reduce-motion`
+`prefers-reduced-motion`
 
 ### --question--
 

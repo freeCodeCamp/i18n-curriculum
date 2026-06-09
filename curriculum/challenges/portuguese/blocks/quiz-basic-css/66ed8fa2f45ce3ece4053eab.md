@@ -1,6 +1,6 @@
 ---
 id: 66ed8fa2f45ce3ece4053eab
-title: Quiz de Fundamentos de CSS
+title: Quiz de fundamentos de CSS
 challengeType: 8
 dashedName: quiz-basic-css
 ---
@@ -33,7 +33,7 @@ Estilo Castor Sage
 
 #### --answer--
 
-Folhas de Estilo em Cascata
+Folhas de estilo em cascata
 
 ### --question--
 
@@ -359,7 +359,7 @@ Ele desativa todas as outras propriedades CSS aplicadas ao mesmo elemento, efeti
 
 ---
 
-Aplica-se a um determinado seletor ou grupo de elementos.
+Aplica-se apenas a um determinado seletor ou grupo de elementos.
 
 #### --answer--
 
@@ -593,7 +593,7 @@ Ele tem a maior especificidade porque pode estilizar todos os elementos em uma p
 
 ---
 
-Contribui com 1 para todas as partes do valor de especificidade. 
+Contribui com 1 para todas as partes do valor de especificidade.
 
 ---
 
@@ -703,7 +703,7 @@ Eles podem se esticar para caber na largura do seu contêiner.
 
 ---
 
-Elementos comuns de nível de bloco incluem `div`, `paragraph` e `section`.
+Elementos comuns de nível de bloco incluem `div`, `p` e `section`.
 
 ---
 
@@ -827,7 +827,7 @@ Eles são escritos dentro da seção `style` dentro do elemento `head`.
 
 #### --text--
 
-Qual é a ordem para aplicar a propriedade `padding` ao usar a sintaxe abreviada? 
+Qual é a ordem para aplicar a propriedade `padding` ao usar a sintaxe abreviada?
 
 #### --distractors--
 
@@ -843,13 +843,13 @@ Qual é a ordem para aplicar a propriedade `padding` ao usar a sintaxe abreviada
 
 #### --answer--
 
-`top`, `right`, `bottom` e `left`
+`top`, `right`, `bottom`, `left`
 
 ### --question--
 
 #### --text--
 
-Qual é a ordem para aplicar a propriedade `margin` ao usar a sintaxe abreviada? 
+Qual é a ordem para aplicar a propriedade `margin` ao usar a sintaxe abreviada?
 
 #### --distractors--
 
@@ -865,7 +865,7 @@ Qual é a ordem para aplicar a propriedade `margin` ao usar a sintaxe abreviada?
 
 #### --answer--
 
-`top`, `right`, `bottom` e `left`
+`top`, `right`, `bottom`, `left`
 
 ### --question--
 
@@ -910,4 +910,3 @@ Qual símbolo precede o seletor de ID?
 #### --answer--
 
 `#`
-

@@ -43,10 +43,10 @@ dashedName: review-css-animations
 - **`animation` 속성**: 애니메이션을 적용할 때 사용하는 단축 속성입니다.
 - **`animation-name`**: 사용할 `@keyframes` 규칙의 이름을 지정합니다.
 - **`animation-duration`**: 애니메이션이 완료되는 데 걸리는 시간을 설정합니다.
-- **`animation-timing-function`**: 애니메이션이 시간에 따라 어떻게 진행될지 정의합니다(예: ease, linear, ease-in-out).
+- **`animation-timing-function`**: 애니메이션이 시간에 따라 어떻게 진행될지 정의합니다(예: `ease`, `linear`, `ease-in-out`).
 - **`animation-delay`**: 애니메이션 시작 전에 지연 시간을 지정합니다.
 - **`animation-iteration-count`**: 애니메이션이 몇 번 반복될지 설정합니다.
-- **`animation-direction`**: 애니메이션이 앞으로, 뒤로, 또는 교대로 재생될지 결정합니다.
+- **`animation-direction`**: 애니메이션이 `normal` 방향, `reverse` 방향, 또는 두 방향을 교대로 재생할지 결정합니다.
 - **`animation-fill-mode`**: 애니메이션 전후에 요소가 어떻게 스타일링될지 지정합니다.
 - **`animation-play-state`**: 애니메이션을 일시 중지하거나 다시 시작할 수 있게 합니다.
 

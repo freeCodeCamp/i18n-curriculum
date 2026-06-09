@@ -43,10 +43,10 @@ dashedName: review-css-animations
 - **`animation` プロパティ**: アニメーションを適用するための省略形プロパティです。
 - **`animation-name`**: 使用する`@keyframes`ルールの名前を指定します。
 - **`animation-duration`**: アニメーションが完了するまでの時間を設定します。
-- **`animation-timing-function`**: アニメーションの進行方法（ease、linear、ease-in-outなど）を定義します。
+- **`animation-timing-function`**: アニメーションの進行方法（`ease`、`linear`、`ease-in-out`など）を定義します。
 - **`animation-delay`**: アニメーション開始前の遅延時間を指定します。
 - **`animation-iteration-count`**: アニメーションの繰り返し回数を設定します。
-- **`animation-direction`**: アニメーションの再生方向（前方、後方、交互）を決定します。
+- **`animation-direction`**: アニメーションの再生方向を、`normal`（通常）、`reverse`（逆方向）、または両者を交互に切り替える`alternate`のいずれかに決定します。
 - **`animation-fill-mode`**: アニメーションの前後で要素がどのようにスタイル付けされるかを指定します。
 - **`animation-play-state`**: アニメーションの一時停止と再開を可能にします。
 

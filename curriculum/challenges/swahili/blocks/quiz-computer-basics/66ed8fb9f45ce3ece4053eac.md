@@ -179,7 +179,7 @@ Kuweka mstari chini au alama ya mnyororo kati ya maneno.
 
 ---
 
-Kutumia mtindo wa camelCase na kuufuata.
+Kutumia mtindo thabiti wa camelCase.
 
 ---
 
@@ -503,7 +503,7 @@ Panya au touchpad
 
 #### --text--
 
-Ni aina gani ya mtoa huduma wa ISP?
+Ni aina gani ya ISP?
 
 #### --distractors--
 
@@ -515,7 +515,7 @@ Fiber optic
 
 ---
 
-Dial up
+Dial-up
 
 #### --answer--
 
@@ -621,7 +621,7 @@ Linux
 
 ---
 
-MacOS
+macOS
 
 ---
 
@@ -691,7 +691,7 @@ GitLab
 
 ---
 
-BitBucket
+Bitbucket
 
 #### --answer--
 
@@ -701,7 +701,7 @@ Ona
 
 #### --text--
 
-Ni ipi kati ya zifuatazo si sehemu kuu ya mazingira ya ukuzaji yaliyojumuishwa?
+Ni ipi kati ya zifuatazo SIyo sehemu kuu ya mazingira ya ukuzaji yaliyojumuishwa?
 
 #### --distractors--
 
