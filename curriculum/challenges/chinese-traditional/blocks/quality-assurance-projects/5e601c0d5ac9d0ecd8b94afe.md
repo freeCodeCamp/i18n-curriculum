@@ -26,25 +26,25 @@ dashedName: american-british-translator
 
 -   將 `Mangoes are my favorite fruit.` 翻譯成英式英語
 -   將 `I ate yogurt for breakfast.` 翻譯成英式英語
--   `We had a party at my friend's condo.`
+-   將 `We had a party at my friend's condo.` 翻譯成英式英語
 -   將 `Can you toss this in the trashcan for me?` 翻譯成英式英語
 -   將 `The parking lot was full.` 翻譯成英式英語
--   像高科技的魯布·戈德堡機械裝置。
--   跳課意指逃避上課或工作。
+-   將 `Like a high tech Rube Goldberg machine.` 翻譯成英式英語
+-   將 `To play hooky means to skip class or work.` 翻譯成英式英語
 -   將 `No Mr. Bond, I expect you to die.` 翻譯成英式英語
 -   將 `Dr. Grosh will see you now.` 翻譯成英式英語
 -   將 `Lunch is at 12:15 today.` 翻譯成英式英語
 -   將 `We watched the footie match for a while.` 翻譯成美式英語
--   `Paracetamol takes up to an hour to work.` 翻譯成美式英語
+-   將 `Paracetamol takes up to an hour to work.` 翻譯成美式英語
 -   將 `First, caramelise the onions.` 翻譯成美式英語
 -   將 `I spent the bank holiday at the funfair.` 翻譯成美式英語
--   Translate `I had a bicky then went to the chippy.` to American English
--   Translate `I've just got bits and bobs in my bum bag.` to American English
--   Translate `The car boot sale at Boxted Airfield was called off.` to American English
--   Translate `Have you met Mrs Kalyani?` to American English
+-   將 `I had a bicky then went to the chippy.` 翻譯成美式英語
+-   將 `I've just got bits and bobs in my bum bag.` 翻譯成美式英語
+-   將 `The car boot sale at Boxted Airfield was called off.` 翻譯成美式英語
+-   將 `Have you met Mrs Kalyani?` 翻譯成美式英語
 -   將 `Prof Joyner of King's College, London.` 翻譯成美式英語
--   `Tea time is usually around 4 or 4.30.`
--   凸顯標示 `Mangoes are my favorite fruit.` 的翻譯
+-   將 `Tea time is usually around 4 or 4.30.` 翻譯成美式英語
+-   在 `Mangoes are my favorite fruit.` 中凸顯標示翻譯
 -   在 `I ate yogurt for breakfast.` 中凸顯標示翻譯
 -   在 `We watched the footie match for a while.` 中凸顯標示翻譯
 -   在 `Paracetamol takes up to an hour to work.` 中凸顯標示翻譯
