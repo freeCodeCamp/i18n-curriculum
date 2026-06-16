@@ -21,7 +21,7 @@ const exports = {};
 const a = eval(script);
 const shoppingListString = exports.ShoppingList.toString();
 
-assert.match(shoppingListString, /prev\.includes\s*\(\s*item\s*\)\s*\?\s*prev\.filter\s*\(function\s*\(\s*i\s*\)\s*{/);
+assert.match(shoppingListString, /prev\.includes\s*\(\s*item\s*\)\s*\?\s*prev\.filter\(\s*(?:function\s*\(\s*i\s*\)|\(?\s*i\s*\)?\s*=>)/);
 ```
 
 在匿名的 `filter()` 函数内，你应该查看 `i` 是否不严格相等于 `item`。记住要返回该检查的结果。
@@ -32,7 +32,7 @@ const exports = {};
 const a = eval(script);
 const shoppingListString = exports.ShoppingList.toString();
 
-assert.match(shoppingListString, /prev\.includes\s*\(\s*item\s*\)\s*\?\s*prev\.filter\s*\(function\s*\(\s*i\s*\)\s*{\s*return\s+i\s*!==\s*item;?\s*}\s*\)/);
+assert.match(shoppingListString, /prev\.includes\s*\(\s*item\s*\)\s*\?[\s\S]*prev\.filter\(\s*(?:function\s*\(\s*i\s*\)\s*\{\s*return\s+|\(?\s*i\s*\)?\s*=>\s*)i\s*!==\s*item/);
 ```
 
 # --seed--

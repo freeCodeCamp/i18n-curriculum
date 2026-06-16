@@ -124,9 +124,7 @@ function ExpensiveSquare({ num }) {
 export default ExpensiveSquare;
 ```
 
-これにより、関数は結果をキャッシュしてメモ化され、`ExpensiveSquare` 変数が変わった時だけ計算が行われ、コンポーネント内の他の変更では計算されません。
-
-`timer` 関数呼び出しは `calculateSquare` が変わるたびに実行されるのではなく、初回レンダリング時と `num` が変わった時だけ実行されます。
+これにより、関数は結果をキャッシュしてメモ化され、`ExpensiveSquare` 変数が変わった時だけ計算が行われ、コンポーネント内の他の変更では計算されません。`timer` 関数呼び出しは `calculateSquare` が変わるたびに実行されるのではなく、初回レンダリング時と `num` が変わった時だけ実行されます。
 
 # --questions--
 

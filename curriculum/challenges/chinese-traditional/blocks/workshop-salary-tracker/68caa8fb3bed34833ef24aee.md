@@ -1,13 +1,13 @@
 ---
 id: 68caa8fb3bed34833ef24aee
-title: Step 33
+title: 步驟 33
 challengeType: 20
 dashedName: step-33
 ---
 
 # --description--
 
-當 `level` 被修改時，你需要同時更新薪資。
+當層級被修改時，你也需要更新薪水。
 
 在設定 `self._level` 之前，將 `self._salary` 設定為新層次的基本薪資。
 
@@ -86,4 +86,5 @@ class Employee:
 charlie_brown = Employee('Charlie Brown', 'trainee')
 print(charlie_brown)
 print(f'Base salary: ${charlie_brown.salary}')
+
 ```

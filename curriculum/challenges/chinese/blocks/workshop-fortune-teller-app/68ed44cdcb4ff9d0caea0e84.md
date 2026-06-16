@@ -1,6 +1,6 @@
 ---
 id: 68ed44cdcb4ff9d0caea0e84
-title: 第 23 步
+title: 步骤-23
 challengeType: 0
 dashedName: step-23
 ---
@@ -427,7 +427,7 @@ const index = Math.floor(Math.random() * items.length);
 return items[index];
 };
 
-const renderCard = (drawingType: string,isReversed: boolean,shortName: string, img: string): string => `
+const renderCard = (drawingType: string, isReversed: boolean, shortName: string, img: string): string => `
   <div>
     <h2>${drawingType}</h2>
       <figure class="card_container ${isReversed ? "reversed-card" : ""}" data-id="${shortName}">

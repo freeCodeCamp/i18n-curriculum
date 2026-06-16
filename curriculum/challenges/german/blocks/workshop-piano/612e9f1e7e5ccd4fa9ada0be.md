@@ -1,6 +1,6 @@
 ---
 id: 612e9f1e7e5ccd4fa9ada0be
-title: Step 15
+title: Schritt 15
 challengeType: 0
 dashedName: step-15
 ---
@@ -92,12 +92,13 @@ html {
   padding-left: 2px;
 }
 
---fcc-editable-region--
 .key {
   background-color: #ffffff;
   position: relative;
   width: 41px;
   height: 175px;
-}
 --fcc-editable-region--
+  
+--fcc-editable-region--
+}
 ```
