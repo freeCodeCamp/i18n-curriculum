@@ -1,6 +1,6 @@
 ---
 id: 64ec9c55fdeef78bacd2fc3b
-title: Step 30
+title: 30단계
 challengeType: 0
 dashedName: step-30
 ---
@@ -24,7 +24,7 @@ assert.match(code, /const\s+reset\s*=\s*\(\s*\)\s*=>\s*\{\s*/)
 `reset` 함수는 비워 두어야 합니다.
 
 ```js
-assert.match(reset.toString(), /\(\s*\)\s*\{\s*\}/);
+assert.match(reset.toString(), /\(\s*\)\s*=>\s*\{\s*\}/);
 ```
 
 # --seed--

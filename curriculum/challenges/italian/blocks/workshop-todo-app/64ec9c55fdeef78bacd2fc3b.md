@@ -24,7 +24,7 @@ assert.match(code, /const\s+reset\s*=\s*\(\s*\)\s*=>\s*\{\s*/)
 La tua funzione `reset` dovrebbe essere vuota.
 
 ```js
-assert.match(reset.toString(), /\(\s*\)\s*\{\s*\}/);
+assert.match(reset.toString(), /\(\s*\)\s*=>\s*\{\s*\}/);
 ```
 
 # --seed--

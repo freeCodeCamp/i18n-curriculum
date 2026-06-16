@@ -7,7 +7,7 @@ dashedName: step-22
 
 # --description--
 
-Використайте метод `.forEach()` для циклу через масив `items`. Передайте порожню функцію зворотного виклику, яка приймає один параметр `dessert`.
+Використайте метод `.forEach()`, щоб пройтися циклом по масиву `items`. Передайте порожню функцію зворотного виклику, яка приймає один параметр `dessert`.
 
 # --hints--
 
@@ -18,7 +18,7 @@ const cart = new ShoppingCart();
 assert.match(cart.addItem.toString(), /items\.forEach\(/);
 ```
 
-Пам’ятайте використовувати ключове слово `this` для доступу до масиву `items`.
+Пам’ятайте, що для доступу до масиву `this` потрібно використовувати ключове слово `items`.
 
 ```js
 const cart = new ShoppingCart();
@@ -29,21 +29,21 @@ assert.match(cart.addItem.toString(), /this\.items\.forEach\(/);
 
 ```js
 const cart = new ShoppingCart();
-assert.match(cart.addItem.toString(), /this\.items\.forEach\(\s*function\s*\(/);
+assert.match(cart.addItem.toString(), /this\.items\.forEach\(\s*(?:function\s*\(|\(?\s*dessert\s*\)?\s*=>)/);
 ```
 
-Ваша функція зворотного виклику повинна приймати один параметр.
+Ваша функція зворотного виклику має приймати один параметр.
 
 ```js
 const cart = new ShoppingCart();
-assert.match(cart.addItem.toString(), /this\.items\.forEach\(\s*function\s*\(\s*dessert\s*\)/);
+assert.match(cart.addItem.toString(), /this\.items\.forEach\(\s*(?:function\s*\(\s*dessert\s*\)|\(?\s*dessert\s*\)?\s*=>)/);
 ```
 
 Ваша функція зворотного виклику має бути порожньою.
 
 ```js
 const cart = new ShoppingCart();
-assert.match(cart.addItem.toString(), /this\.items\.forEach\(\s*function\s*\(\s*dessert\s*\)\s*\{\s*\}/);
+assert.match(cart.addItem.toString(), /this\.items\.forEach\(\s*(?:function\s*\(\s*dessert\s*\)\s*\{\s*\}|\(?\s*dessert\s*\)?\s*=>\s*\{\s*\})/);
 ```
 
 # --seed--

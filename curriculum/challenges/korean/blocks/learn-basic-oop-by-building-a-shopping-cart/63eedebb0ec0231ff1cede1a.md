@@ -29,21 +29,21 @@ assert.match(cart.addItem.toString(), /this\.items\.forEach\(/);
 
 ```js
 const cart = new ShoppingCart();
-assert.match(cart.addItem.toString(), /this\.items\.forEach\(\s*function\s*\(/);
+assert.match(cart.addItem.toString(), /this\.items\.forEach\(\s*(?:function\s*\(|\(?\s*dessert\s*\)?\s*=>)/);
 ```
 
 콜백 함수는 매개변수 하나를 받아야 합니다.
 
 ```js
 const cart = new ShoppingCart();
-assert.match(cart.addItem.toString(), /this\.items\.forEach\(\s*function\s*\(\s*dessert\s*\)/);
+assert.match(cart.addItem.toString(), /this\.items\.forEach\(\s*(?:function\s*\(\s*dessert\s*\)|\(?\s*dessert\s*\)?\s*=>)/);
 ```
 
-콜백 함수는 비워 두세요.
+콜백 함수는 비워 두어야 합니다.
 
 ```js
 const cart = new ShoppingCart();
-assert.match(cart.addItem.toString(), /this\.items\.forEach\(\s*function\s*\(\s*dessert\s*\)\s*\{\s*\}/);
+assert.match(cart.addItem.toString(), /this\.items\.forEach\(\s*(?:function\s*\(\s*dessert\s*\)\s*\{\s*\}|\(?\s*dessert\s*\)?\s*=>\s*\{\s*\})/);
 ```
 
 # --seed--

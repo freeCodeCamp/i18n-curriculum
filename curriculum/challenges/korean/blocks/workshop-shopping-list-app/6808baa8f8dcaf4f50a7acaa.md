@@ -21,7 +21,7 @@ const exports = {};
 const a = eval(script);
 const shoppingListString = exports.ShoppingList.toString();
 
-assert.match(shoppingListString, /prev\.includes\s*\(\s*item\s*\)\s*\?\s*prev\.filter\s*\(function\s*\(\s*i\s*\)\s*{/);
+assert.match(shoppingListString, /prev\.includes\s*\(\s*item\s*\)\s*\?\s*prev\.filter\(\s*(?:function\s*\(\s*i\s*\)|\(?\s*i\s*\)?\s*=>)/);
 ```
 
 익명 `filter()` 함수 내부에서 `i`가 `item`와 엄격히 같지 않은지 확인하세요. 그 확인 결과를 반환하는 것도 잊지 마세요.
@@ -32,7 +32,7 @@ const exports = {};
 const a = eval(script);
 const shoppingListString = exports.ShoppingList.toString();
 
-assert.match(shoppingListString, /prev\.includes\s*\(\s*item\s*\)\s*\?\s*prev\.filter\s*\(function\s*\(\s*i\s*\)\s*{\s*return\s+i\s*!==\s*item;?\s*}\s*\)/);
+assert.match(shoppingListString, /prev\.includes\s*\(\s*item\s*\)\s*\?[\s\S]*prev\.filter\(\s*(?:function\s*\(\s*i\s*\)\s*\{\s*return\s+|\(?\s*i\s*\)?\s*=>\s*)i\s*!==\s*item/);
 ```
 
 # --seed--

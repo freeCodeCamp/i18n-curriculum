@@ -57,7 +57,7 @@ assert.isTrue(
 );
 ```
 
-Вам потрібно мати три елементи `td`.
+Ви маєте створити три елементи `td`.
 
 ```js
 const table = document.querySelectorAll('table')?.[1];
@@ -93,7 +93,7 @@ const tableRow = tbody?.querySelectorAll('tr')?.[2];
 assert.strictEqual(tableRow?.querySelectorAll('td')?.[2]?.textContent.trim(), '$75');
 ```
 
-Третій елемент `td` має мати атрибут `class`, встановлений у `current`.
+Третій елемент `td` має мати множину `class`, встановлену на `current`.
 
 ```js
 const table = document.querySelectorAll('table')?.[1];
@@ -184,7 +184,6 @@ assert.isTrue(
               </tr>
             </thead>
             <tbody>
---fcc-editable-region--
               <tr class="data">
                 <th>Loans <span class="description">The outstanding balance on our startup loan.</span></th>
                 <td>$500</td>
@@ -198,10 +197,12 @@ assert.isTrue(
                 <td class="current">$400</td>
               </tr>
               <tr class="data">
+--fcc-editable-region--
+                
+--fcc-editable-region--
               </tr>
               <tr class="total">
               </tr>
---fcc-editable-region--
             </tbody>
           </table>
           <table></table>

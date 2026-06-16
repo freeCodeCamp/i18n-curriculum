@@ -1,6 +1,6 @@
 ---
 id: 63eedebb0ec0231ff1cede1a
-title: Step 23
+title: ステップ 23
 challengeType: 0
 dashedName: step-23
 ---
@@ -29,21 +29,21 @@ assert.match(cart.addItem.toString(), /this\.items\.forEach\(/);
 
 ```js
 const cart = new ShoppingCart();
-assert.match(cart.addItem.toString(), /this\.items\.forEach\(\s*function\s*\(/);
+assert.match(cart.addItem.toString(), /this\.items\.forEach\(\s*(?:function\s*\(|\(?\s*dessert\s*\)?\s*=>)/);
 ```
 
 コールバック関数はパラメータを1つ受け取るべきです。
 
 ```js
 const cart = new ShoppingCart();
-assert.match(cart.addItem.toString(), /this\.items\.forEach\(\s*function\s*\(\s*dessert\s*\)/);
+assert.match(cart.addItem.toString(), /this\.items\.forEach\(\s*(?:function\s*\(\s*dessert\s*\)|\(?\s*dessert\s*\)?\s*=>)/);
 ```
 
 コールバック関数は空であるべきです。
 
 ```js
 const cart = new ShoppingCart();
-assert.match(cart.addItem.toString(), /this\.items\.forEach\(\s*function\s*\(\s*dessert\s*\)\s*\{\s*\}/);
+assert.match(cart.addItem.toString(), /this\.items\.forEach\(\s*(?:function\s*\(\s*dessert\s*\)\s*\{\s*\}|\(?\s*dessert\s*\)?\s*=>\s*\{\s*\})/);
 ```
 
 # --seed--

@@ -1,6 +1,6 @@
 ---
 id: 63eedebb0ec0231ff1cede1a
-title: Step 23
+title: Passaggio 23
 challengeType: 0
 dashedName: step-23
 ---
@@ -29,21 +29,21 @@ Dovresti passare una funzione di callback al metodo `.forEach()`.
 
 ```js
 const cart = new ShoppingCart();
-assert.match(cart.addItem.toString(), /this\.items\.forEach\(\s*function\s*\(/);
+assert.match(cart.addItem.toString(), /this\.items\.forEach\(\s*(?:function\s*\(|\(?\s*dessert\s*\)?\s*=>)/);
 ```
 
 La tua funzione di callback dovrebbe prendere un singolo parametro.
 
 ```js
 const cart = new ShoppingCart();
-assert.match(cart.addItem.toString(), /this\.items\.forEach\(\s*function\s*\(\s*dessert\s*\)/);
+assert.match(cart.addItem.toString(), /this\.items\.forEach\(\s*(?:function\s*\(\s*dessert\s*\)|\(?\s*dessert\s*\)?\s*=>)/);
 ```
 
 La tua funzione di callback dovrebbe essere vuota.
 
 ```js
 const cart = new ShoppingCart();
-assert.match(cart.addItem.toString(), /this\.items\.forEach\(\s*function\s*\(\s*dessert\s*\)\s*\{\s*\}/);
+assert.match(cart.addItem.toString(), /this\.items\.forEach\(\s*(?:function\s*\(\s*dessert\s*\)\s*\{\s*\}|\(?\s*dessert\s*\)?\s*=>\s*\{\s*\})/);
 ```
 
 # --seed--

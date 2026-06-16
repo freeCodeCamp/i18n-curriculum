@@ -21,7 +21,7 @@ const exports = {};
 const a = eval(script);
 const shoppingListString = exports.ShoppingList.toString();
 
-assert.match(shoppingListString, /prev\.includes\s*\(\s*item\s*\)\s*\?\s*prev\.filter\s*\(function\s*\(\s*i\s*\)\s*{/);
+assert.match(shoppingListString, /prev\.includes\s*\(\s*item\s*\)\s*\?\s*prev\.filter\(\s*(?:function\s*\(\s*i\s*\)|\(?\s*i\s*\)?\s*=>)/);
 ```
 
 All'interno della funzione anonima `filter()`, dovresti verificare che `i` non sia strettamente uguale a `item`. Ricorda di restituire il risultato di questa verifica.
@@ -32,7 +32,7 @@ const exports = {};
 const a = eval(script);
 const shoppingListString = exports.ShoppingList.toString();
 
-assert.match(shoppingListString, /prev\.includes\s*\(\s*item\s*\)\s*\?\s*prev\.filter\s*\(function\s*\(\s*i\s*\)\s*{\s*return\s+i\s*!==\s*item;?\s*}\s*\)/);
+assert.match(shoppingListString, /prev\.includes\s*\(\s*item\s*\)\s*\?[\s\S]*prev\.filter\(\s*(?:function\s*\(\s*i\s*\)\s*\{\s*return\s+|\(?\s*i\s*\)?\s*=>\s*)i\s*!==\s*item/);
 ```
 
 # --seed--

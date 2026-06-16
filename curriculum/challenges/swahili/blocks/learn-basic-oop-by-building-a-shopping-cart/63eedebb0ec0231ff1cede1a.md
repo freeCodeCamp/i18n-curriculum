@@ -29,21 +29,21 @@ Unapaswa kupitisha kitendakazi cha mwitiko kwa njia ya `.forEach()`.
 
 ```js
 const cart = new ShoppingCart();
-assert.match(cart.addItem.toString(), /this\.items\.forEach\(\s*function\s*\(/);
+assert.match(cart.addItem.toString(), /this\.items\.forEach\(\s*(?:function\s*\(|\(?\s*dessert\s*\)?\s*=>)/);
 ```
 
 Kitendakazi chako cha mwitiko kinapaswa kuchukua kigezo kimoja.
 
 ```js
 const cart = new ShoppingCart();
-assert.match(cart.addItem.toString(), /this\.items\.forEach\(\s*function\s*\(\s*dessert\s*\)/);
+assert.match(cart.addItem.toString(), /this\.items\.forEach\(\s*(?:function\s*\(\s*dessert\s*\)|\(?\s*dessert\s*\)?\s*=>)/);
 ```
 
 Kitendakazi chako cha mwitiko kinapaswa kuwa tupu.
 
 ```js
 const cart = new ShoppingCart();
-assert.match(cart.addItem.toString(), /this\.items\.forEach\(\s*function\s*\(\s*dessert\s*\)\s*\{\s*\}/);
+assert.match(cart.addItem.toString(), /this\.items\.forEach\(\s*(?:function\s*\(\s*dessert\s*\)\s*\{\s*\}|\(?\s*dessert\s*\)?\s*=>\s*\{\s*\})/);
 ```
 
 # --seed--

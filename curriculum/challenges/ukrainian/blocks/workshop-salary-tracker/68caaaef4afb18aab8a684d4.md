@@ -1,6 +1,6 @@
 ---
 id: 68caaaef4afb18aab8a684d4
-title: Step 35
+title: Крок 35
 challengeType: 20
 dashedName: step-35
 ---
@@ -82,4 +82,5 @@ print(f'Base salary: ${charlie_brown.salary}')
 --fcc-editable-region--
 
 --fcc-editable-region--
+
 ```

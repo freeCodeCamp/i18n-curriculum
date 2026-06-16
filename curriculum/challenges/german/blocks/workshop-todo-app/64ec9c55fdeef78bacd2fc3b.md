@@ -1,6 +1,6 @@
 ---
 id: 64ec9c55fdeef78bacd2fc3b
-title: Step 30
+title: Schritt 30
 challengeType: 0
 dashedName: step-30
 ---
@@ -24,7 +24,7 @@ assert.match(code, /const\s+reset\s*=\s*\(\s*\)\s*=>\s*\{\s*/)
 Ihre `reset`-Funktion sollte leer sein.
 
 ```js
-assert.match(reset.toString(), /\(\s*\)\s*\{\s*\}/);
+assert.match(reset.toString(), /\(\s*\)\s*=>\s*\{\s*\}/);
 ```
 
 # --seed--

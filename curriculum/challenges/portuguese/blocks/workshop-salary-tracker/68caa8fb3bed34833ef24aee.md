@@ -1,6 +1,6 @@
 ---
 id: 68caa8fb3bed34833ef24aee
-title: Step 33
+title: Passo 33
 challengeType: 20
 dashedName: step-33
 ---
@@ -86,4 +86,5 @@ class Employee:
 charlie_brown = Employee('Charlie Brown', 'trainee')
 print(charlie_brown)
 print(f'Base salary: ${charlie_brown.salary}')
+
 ```
