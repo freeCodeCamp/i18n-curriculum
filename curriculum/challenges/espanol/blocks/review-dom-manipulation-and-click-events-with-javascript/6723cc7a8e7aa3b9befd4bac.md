@@ -9,13 +9,13 @@ dashedName: review-dom-manipulation-and-click-events-with-javascript
 
 ## Trabajar con el DOM y Web APIs
 
-- **API**: Una API (Interfaz de Programación de Aplicaciones) es un conjunto de reglas y protocolos que permite a las aplicaciones de software comunicarse entre sí e intercambiar datos de forma eficiente.
-- **Web API**: Las Web APIs están específicamente diseñadas para aplicaciones web. Estos tipos de API a menudo se dividen en dos categorías principales: API del navegador y API de terceros.
-- **API del navegador**: Estas API exponen datos del navegador. Como desarrollador web, puedes acceder y manipular estos datos utilizando JavaScript.
-- **APIs de terceros**: Estas no están incorporadas en el navegador por defecto. Tienes que recuperar su código de alguna manera. Por lo general, tendrán documentación detallada que explica cómo usar sus servicios. Un ejemplo es la API de Google Maps, que puedes usar para mostrar mapas interactivos en tu página web.
-- **DOM**: El DOM significa Modelo de Objeto Documental. Es una interfaz de programación que te permite interactuar con documentos HTML. Con el DOM, puedes añadir, modificar o eliminar elementos en una página web. La raíz del árbol DOM es el elemento `html`. Es el contenedor de nivel superior para todo el contenido de un documento HTML. Todos los demás nodos son descendientes de este nodo raíz. Luego, debajo del nodo raíz, encontramos otros nodos en la jerarquía. Un nodo padre es un elemento que contiene otros elementos. Un nodo hijo es un elemento que está contenido dentro de otro elemento.
-- **`navegador` Interfaz**: Esta proporciona información sobre el entorno del navegador, como la cadena del agente de usuario, la plataforma y la versión del navegador. Una cadena del agente de usuario es una cadena de texto que identifica el navegador y el sistema operativo que se está utilizando.
-- **`ventana` Interfaz**: Esta representa la ventana del navegador que contiene el documento DOM. Proporciona métodos y propiedades para interactuar con la ventana del navegador, como cambiar el tamaño de la ventana, abrir nuevas ventanas y navegar a diferentes URLs.
+- **API**: Una API (Interfaz de Programación de Aplicaciones) es un conjunto de reglas y protocolos que permiten que las aplicaciones de software se comuniquen entre sí y intercambien datos de manera eficiente.
+- **API web**: Las API web están diseñadas específicamente para aplicaciones web. Estos tipos de API suelen dividirse en dos categorías principales: API de navegador y API de terceros.
+- **API de navegador**: Estas API exponen datos del navegador. Como desarrollador web, puedes acceder y manipular estos datos usando JavaScript.
+- **API de terceros**: Estas no están integradas en el navegador por defecto. Tienes que obtener su código de alguna manera. Por lo general, cuentan con documentación detallada que explica cómo usar sus servicios. Un ejemplo es la API de Google Maps, que puedes usar para mostrar mapas interactivos en tu sitio web.
+- **DOM**: El DOM significa Modelo de Objetos del Documento. Es una interfaz de programación que te permite interactuar con documentos HTML. Con el DOM, puedes agregar, modificar o eliminar elementos en una página web. La raíz del árbol DOM es el elemento `html`. Es el contenedor de nivel superior para todo el contenido de un documento HTML. Todos los demás nodos son descendientes de este nodo raíz. Luego, debajo del nodo raíz, encontramos otros nodos en la jerarquía. Un nodo padre es un elemento que contiene otros elementos. Un nodo hijo es un elemento que está contenido dentro de otro elemento.
+- **Interfaz `navigator`**: Proporciona información sobre el entorno del navegador, como la cadena del agente de usuario, la plataforma y la versión del navegador. Una cadena de agente de usuario es una cadena de texto que identifica el navegador y el sistema operativo que se está usando.
+- **Interfaz `window`**: Representa la ventana del navegador que contiene el documento DOM. Proporciona métodos y propiedades para interactuar con la ventana del navegador, como cambiar el tamaño de la ventana, abrir nuevas ventanas y navegar a diferentes URLs.
 
 ## Trabajando con los métodos `querySelector()`, `querySelectorAll()` y `getElementById()`
 
@@ -73,7 +73,7 @@ console.log(ingredients)
 
 ## Trabajando con los métodos `innerText()`, `innerHTML()`, `createElement()` y `textContent()`
 
-- **`innerHTML` Propiedad**: Esta es una propiedad del `Elemento` que se utiliza para establecer o actualizar partes del marcado HTML.
+- **Propiedad `innerHTML`**: Esta es una propiedad del `Element` que se usa para establecer o actualizar partes del marcado HTML.
 
 :::interactive_editor
 
@@ -199,9 +199,9 @@ para.setAttribute("class", "my-class");
 
 :::
 
-## Objeto Evento
+## El objeto Event
 
-- **Definición**: El objeto `Evento` es un payload que se desencadena cuando un usuario interactúa con tu página web de alguna manera. Estas interacciones pueden ser cualquier cosa desde hacer clic en un botón o enfocar un input hasta sacudir su dispositivo móvil. Todos los objetos `Evento` tendrán la propiedad `tipo`. Esta propiedad revela el tipo de evento que desencadenó el payload, como presionar una tecla o hacer clic. Estos valores corresponderán a los mismos valores que puede pasar a `addEventListener()`, donde puede capturar y utilizar el objeto `Event`.
+- **Definición**: El objeto `Event` es una carga útil que se activa cuando un usuario interactúa con tu página web de alguna manera. Estas interacciones pueden ser desde hacer clic en un botón o enfocar una entrada hasta sacudir su dispositivo móvil. Todos los objetos `Event` tendrán la propiedad `type`. Esta propiedad revela el tipo de evento que activó la carga útil, como keydown o click. Estos valores corresponderán a los mismos valores que podrías pasar a `addEventListener()`, donde puedes capturar y usar el objeto `Event`.
 
 ## Métodos `addEventListener()` y `removeEventListener()`
 
@@ -298,12 +298,12 @@ selectEl.addEventListener("change", (e) => {
 
 :::
 
-## Propagación de Eventos
+## Burbuja de eventos
 
 - **Definición**: La burbuja de eventos, o propagación, se refiere a cómo un evento "sube" hacia los objetos padre cuando se activa.
 - **`stopPropagation()` Método**: Este método previene la propagación posterior de un evento.
 
-## Delegación de Eventos
+## Delegación de eventos
 
 - **Definición**: La delegación de eventos es el proceso de escuchar eventos que se han propagado a un elemento padre, en lugar de manejarlos directamente en el elemento que los activó.
 
@@ -455,7 +455,7 @@ const square = document.querySelector('#square');
 const animation = square.animate(
  [{ transform: 'translateX(0px)' }, { transform: 'translateX(100px)' }],
  {
-   duration: 2000, // makes animation lasts 2 seconds
+   duration: 2000, // makes the animation last 2 seconds
    iterations: Infinity, // loops indefinitely
    direction: 'alternate', // moves back and forth
    easing: 'ease-in-out', // smooth easing

@@ -7,7 +7,7 @@ dashedName: quiz-css-animations
 
 # --description--
 
-要通過測驗，你必須在以下 20 題中正確回答至少 18 題。
+要通過此測驗，你必須在以下 20 題中正確回答至少 18 題。
 
 # --quizzes--
 
@@ -175,11 +175,11 @@ CSS 中 `translateX()` 函式（程式）的用途是什麼？
 
 #### --distractors--
 
-在 HTML `file` 的 `body` 元素內。
+在 HTML 檔案的 `body` 元素內。
 
 ---
 
-在 HTML `file` 的 `head` 元素內。
+在 HTML 檔案的 `head` 元素內。
 
 ---
 
@@ -237,7 +237,7 @@ CSS 中 `translateX()` 函式（程式）的用途是什麼？
 
 #### --text--
 
-`@keyframe` 這個 at-rule 對動畫元素有什麼作用？
+這個 `@keyframes`  at-rule 對動畫元素做了什麼？
 
 ```css
 @keyframes animation {
@@ -322,7 +322,7 @@ animation-duration: 5s;
 
 #### --text--
 
-在以下 CSS `@keyframe` at-rule 中，`50%` 表述什麼？
+以下 CSS `@keyframes` at-rule 中的 `50%` 代表什麼？
 
 ```css
 @keyframes animation {
@@ -540,15 +540,15 @@ CSS 的 `animation-delay` 屬性有什麼作用？
 
 #### --distractors--
 
-過多的 CSS 動畫可能導致樣式破損以及不同瀏覽器間樣式不一致。 
+過多的 CSS 動畫可能導致樣式破損以及不同瀏覽器間樣式不一致。
 
 ---
 
-過多的 CSS 動畫可能導致搜尋引擎結果中的等級降低或不存在。
+過多的 CSS 動畫可能導致搜尋引擎排名降低或不存在。
 
 ---
 
-過多的 CSS 動畫會自動導致伺服器當機，並增加安全風險的可能性。 
+過多的 CSS 動畫會自動導致伺服器當機，並增加安全風險的可能性。
 
 #### --answer--
 
@@ -646,7 +646,7 @@ CSS 的 `animation-delay` 屬性有什麼作用？
 
 #### --text--
 
-在 `reduced‑motion` 媒體查詢中，哪個宣告會停用過渡效果？
+在 `prefers-reduced-motion` 媒體查詢中，哪個宣告會停用過渡效果？
 
 #### --distractors--
 
@@ -822,7 +822,7 @@ CSS 的 `animation-delay` 屬性有什麼作用？
 
 #### --text--
 
-`@keyframe` 這個 at-rule 對動畫元素有什麼作用？
+這個 `@keyframes`  at-rule 對動畫元素做了什麼？
 
 ```css
 @keyframes fade-in {

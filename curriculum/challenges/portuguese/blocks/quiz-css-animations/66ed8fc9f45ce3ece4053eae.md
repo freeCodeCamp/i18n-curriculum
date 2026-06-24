@@ -237,7 +237,7 @@ O nome da animação definido pelo `@keyframes`.
 
 #### --text--
 
-O que essa regra `@keyframe` faz no elemento animado?
+O que esta regra at `@keyframes` faz com o elemento animado?
 
 ```css
 @keyframes animation {
@@ -322,7 +322,7 @@ animation-duration: 5s;
 
 #### --text--
 
-O que `50%` representa na seguinte regra `@keyframe` do CSS?
+O que `50%` representa na seguinte regra at `@keyframes` do CSS?
 
 ```css
 @keyframes animation {
@@ -540,7 +540,7 @@ Por que as animações CSS devem ser usadas com moderação?
 
 #### --distractors--
 
-Muitas animações CSS podem causar falhas nos estilos e estilos inconsistentes entre diferentes navegadores. 
+Muitas animações CSS podem causar falhas nos estilos e estilos inconsistentes entre diferentes navegadores.
 
 ---
 
@@ -548,7 +548,7 @@ Muitas animações CSS podem levar a classificações mais baixas ou inexistente
 
 ---
 
-Muitas animações CSS irão automaticamente travar o servidor e aumentar a probabilidade de riscos de segurança. 
+Muitas animações CSS irão automaticamente travar o servidor e aumentar a probabilidade de riscos de segurança.
 
 #### --answer--
 
@@ -646,7 +646,7 @@ Qual regra CSS é usada para definir os estágios e estilos de uma animação em
 
 #### --text--
 
-Dentro da media query `reduced‑motion`, qual declaração desativa as transições?
+Dentro da media query `prefers-reduced-motion`, qual declaração desativa as transições?
 
 #### --distractors--
 
@@ -822,7 +822,7 @@ A sequência de estilos em diferentes pontos de uma animação.
 
 #### --text--
 
-O que essa regra `@keyframe` faz no elemento animado?
+O que esta regra at `@keyframes` faz com o elemento animado?
 
 ```css
 @keyframes fade-in {

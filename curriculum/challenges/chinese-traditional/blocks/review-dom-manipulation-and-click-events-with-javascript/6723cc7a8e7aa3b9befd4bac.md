@@ -9,17 +9,17 @@ dashedName: review-dom-manipulation-and-click-events-with-javascript
 
 ## 操作 DOM 和 Web API
 
-- **API**：API（應用程式設計介面）是一組規則和通訊協定，允許軟體應用程式彼此溝通並高效交換資料。
-- **Web API**：Web API 專為網頁應用程式設計。這類 API 通常分為兩大類別：瀏覽器 API 和第三方 API。
-- **瀏覽器 API**：這些 API 會揭露來自瀏覽器的資料。作為網頁開發者，你可以使用 JavaScript 存取並操作這些資料。
-- **第三方 API**：這些不是瀏覽器預設內建的。你必須以某種方式取得它們的程式碼。通常，它們會有詳細的文件說明如何使用它們的服務。舉例來說，Google Maps API 可以用來在你的網站上顯示互動式地圖。
-- **DOM**：DOM 代表文件物件模型。它是一個程式設計介面，讓你能與 HTML 文件互動。透過 DOM，你可以新增、修改或刪除網頁上的元素。DOM 樹的根節點是 `html` 元素。它是 HTML 文件所有內容的最高層級容器。所有其他節點都是此根節點的後代。接著，在根節點之下，我們會在階層體系中找到其他節點。父節點是包含其他元素的元素。子節點是被包含在另一個元素中的元素。
-- **`navigator` 介面**：此介面提供瀏覽器環境的資訊，例如使用者代理字串、平台以及瀏覽器版本。使用者代理字串是一個用來識別所使用瀏覽器和作業系統的文字字串。
-- **`window` 介面**：這表述包含 DOM 文件的瀏覽器視窗。它提供與瀏覽器視窗互動的行為和屬性，例如調整視窗大小、開啟新視窗以及導向不同的 URL。
+- **API**：API（應用程式介面）是一組規則和協定，讓軟體應用程式之間能夠彼此溝通並高效交換資料。
+- **Web API**：Web API 是專為網頁應用程式設計的 API。這類 API 通常分為兩大類：瀏覽器 API 和第三方 API。
+- **瀏覽器 API**：這些 API 會公開瀏覽器中的資料。身為網頁開發者，你可以用 JavaScript 存取並操作這些資料。
+- **第三方 API**：這些 API 並非預設內建於瀏覽器。你必須以某種方式取得它們的程式碼。通常這些 API 都會有詳細的文件說明如何使用其服務。例如 Google Maps API，你可以用它在網站上顯示互動地圖。
+- **DOM**：DOM 代表文件物件模型（Document Object Model）。它是一個讓你與 HTML 文件互動的程式設計介面。透過 DOM，你可以新增、修改或刪除網頁上的元素。DOM 樹的根節點是 `html` 元素。它是 HTML 文件所有內容的最上層容器。所有其他節點都是這個根節點的子孫。接著，在根節點下方，我們會看到階層中的其他節點。父節點是包含其他元素的元素；子節點則是被包含在其他元素內的元素。
+- **`navigator` 介面**：這個介面提供有關瀏覽器環境的資訊，例如使用者代理字串、平台和瀏覽器版本。使用者代理字串是一段用來識別瀏覽器和作業系統的文字。
+- **`window` 介面**：這個介面代表包含 DOM 文件的瀏覽器視窗。它提供與瀏覽器視窗互動的方法和屬性，例如調整視窗大小、開啟新視窗，以及導覽到不同的 URL。
 
 ## 使用 `querySelector()`、`querySelectorAll()` 和 `getElementById()` 方法
 
-- **`getElementById()` 方法**：此方法用於取得表述具有指定 `id` 的 HTML 元素的物件。請記得每個 HTML 文件中的 id 必須是唯一的，因此此方法只會傳回一個 Element 物件。
+- **`getElementById()` 方法**：這個方法用來取得具有指定 `id` 的 HTML 元素物件。請記得，每個 HTML 文件中的 id 必須是唯一的，所以這個方法只會傳回一個 Element 物件。
 
 :::interactive_editor
 
@@ -35,7 +35,7 @@ console.log(container)
 
 :::
 
-- **`querySelector()` 方法**：此方法用於取得 HTML 文件中第一個符合作為引數傳入的 CSS 選擇器的元素。
+- **`querySelector()` 方法**：這個方法用來取得 HTML 文件中第一個符合所傳入 CSS 選擇器的元素。
 
 :::interactive_editor
 
@@ -51,7 +51,7 @@ console.log(section)
 
 :::
 
-- **`querySelectorAll()` 方法**：你可以使用此方法取得符合特定 CSS 選擇器的所有 DOM 元素的列表。
+- **`querySelectorAll()` 方法**：你可以用這個方法取得所有符合特定 CSS 選擇器的 DOM 元素列表。
 
 :::interactive_editor
 
@@ -73,7 +73,7 @@ console.log(ingredients)
 
 ## 使用 `innerText()`、`innerHTML()`、`createElement()` 和 `textContent()` 方法
 
-- **`innerHTML` 屬性**：這是 `Element` 的一個屬性，用於設定或更新 HTML 標記的零件。
+- **`innerHTML` 屬性**：這是 `Element` 的一個屬性，用來設定或更新 HTML 標記的部分內容。
 
 :::interactive_editor
 
@@ -91,13 +91,13 @@ container.innerHTML = '<ul><li>Cheese</li><li>Tomato</li></ul>';
 
 :::
 
-- **`createElement` 方法**：這用於創建一個 HTML 元素。
+- **`createElement` 方法**：這個方法用來建立一個 HTML 元素。
 
 ```js
 const img = document.createElement("img");
 ```
 
-- **`innerText`**：這表述 HTML 元素及其子孫的可見文字內容。
+- **`innerText`**：這代表 HTML 元素及其所有子孫的可見文字內容。
 
 :::interactive_editor
 
@@ -116,7 +116,7 @@ console.log(container.innerText);
 
 :::
 
-- **`textContent`**：這會傳回元素的純文字內容，包括其所有子孫元素中的文字。
+- **`textContent`**：這會傳回元素內所有子孫的純文字內容。
 
 :::interactive_editor
 
@@ -137,7 +137,7 @@ console.log(container.textContent);
 
 ## 使用 `appendChild()` 和 `removeChild()` 方法
 
-- **`appendChild()` 方法**：此方法用於將節點添加到指定父節點的子節點列表末端。
+- **`appendChild()` 方法**：這個方法用來將一個節點新增到指定父節點的子節點清單末端。
 
 :::interactive_editor
 
@@ -159,7 +159,7 @@ dessertsList.appendChild(listItem);
 
 :::
 
-- **`removeChild()` 方法**：此方法用於從 DOM 中移除節點。
+- **`removeChild()` 方法**：這個方法用來從 DOM 中移除一個節點。
 
 :::interactive_editor
 
@@ -183,7 +183,7 @@ sectionEl.removeChild(lastParagraph);
 
 ## 使用 `setAttribute()` 方法
 
-- **定義**：此方法用於設定給定元素的屬性。如果屬性已存在，則會更新其值。否則，將新增一個帶有值的屬性。
+- **定義**：這個方法用來為指定元素設定屬性。如果該屬性已存在，則會更新其值；否則會新增一個具有指定值的新屬性。
 
 :::interactive_editor
 
@@ -201,11 +201,11 @@ para.setAttribute("class", "my-class");
 
 ## 事件物件
 
-- **定義**：`Event` 物件是當使用者以某種方式與你的網頁交談時所觸發的有效負載。這些交談可以是從點擊按鈕或聚焦輸入框到搖動他們的行動裝置。所有 `Event` 物件都會有 `type` 屬性。此屬性揭示觸發有效負載的事件型別，例如 keydown 或 click。這些值將對應到你可能傳遞給 `addEventListener()` 的相同值，在那裡你可以捕捉並使用 `Event` 物件。
+- **定義**：`Event` 物件是在使用者以某種方式與你的網頁互動時觸發的資料載體。這些互動可以是點擊按鈕、聚焦輸入框，甚至搖動行動裝置。所有 `Event` 物件都會有 `type` 屬性。這個屬性會顯示觸發該資料載體的事件型態，例如 keydown 或 click。這些值會對應到你在 `addEventListener()` 中可能傳入的值，讓你可以捕捉並運用 `Event` 物件。
 
 ## `addEventListener()` 和 `removeEventListener()` 方法
 
-- **`addEventListener` 方法**：此方法用於監聽事件。它接受兩個引數：你想監聽的事件以及當事件發生時會被呼叫的函式（程式）。一些常見的事件範例包括點擊事件、輸入事件和變更事件。
+- **`addEventListener` 方法**：這個方法用來監聽事件。它接受兩個引數：你想監聽的事件，以及事件發生時要呼叫的函式。一些常見的事件範例包括 click 事件、input 事件和 change 事件。
 
 :::interactive_editor
 
@@ -222,7 +222,7 @@ btn.addEventListener("click", () => alert("You clicked the button"));
 
 :::
 
-- **`removeEventListener()` 方法**：此方法用於移除先前使用 `addEventListener()` 方法添加到元素的事件監聽器。當你想停止監聽元素上的特定事件時，這非常有用。
+- **`removeEventListener()` 方法**：這個方法用來移除先前用 `addEventListener()` 方法加到元素上的事件監聽器。當你想停止監聽某個元素上的特定事件時，這個方法就很有用。
 
 :::interactive_editor
 
@@ -255,7 +255,7 @@ para.addEventListener("mouseover", () => {
 
 :::
 
-- **行內事件處理常式**：行內事件處理常式是 HTML 元素上的特殊屬性，用於在事件發生時執行 JavaScript 程式碼。在現代 JavaScript 中，行內事件處理常式不被視為最佳實務。建議改用 `addEventListener` 方法。
+- **行內事件處理常式**：行內事件處理常式是 HTML 元素上的特殊屬性，用來在事件發生時執行 JavaScript 程式碼。在現代 JavaScript 中，行內事件處理常式已不被視為最佳做法。建議改用 `addEventListener` 方法。
 
 
 :::interactive_editor
@@ -266,9 +266,9 @@ para.addEventListener("mouseover", () => {
 
 :::
 
-## 變更事件
+## Change 事件
 
-- **定義**：`change event` 是一種特殊的事件，當使用者修改某些輸入元素的值時會觸發。範例包括勾選核取方塊或圓鈕、單選按鈕，或使用者從日期選擇器或下拉選單中做出選擇時。
+- **定義**：change 事件是一種特殊事件，當使用者修改某些輸入元素的值時會被觸發。例如勾選核取方塊或單選按鈕，或是從日期選擇器或下拉選單中做出選擇時。
 
 :::interactive_editor
 
@@ -305,15 +305,15 @@ selectEl.addEventListener("change", (e) => {
 
 ## 事件委派
 
-- **定義**：事件委派是監聽已冒泡到父元素的事件的處理程序，而不是直接在觸發事件的元素上處理它們。
+- **定義**：事件委派是指監聽已經冒泡到父層的事件，而不是直接在觸發事件的元素上處理。
 
 ## DOMContentLoaded
 
-- **定義**：當 HTML 文件中的所有內容都已載入並解析時，會觸發 `DOMContentLoaded` 事件。如果你有外部樣式表或影像，`DOMContentLoaded` 事件不會等待那些載入。它只會等待 HTML 載入完成。
+- **定義**：`DOMContentLoaded` 事件會在 HTML 文件的所有內容都載入並解析完成時觸發。如果有外部樣式表或圖片，`DOMContentLoaded` 事件不會等待它們載入完成，只會等 HTML 載入完成。
 
-## 操作 `style` 和 `classList`
+## 使用 `style` 和 `classList`
 
-- **`Element.style` 屬性**：此屬性是一個唯讀屬性，表述元素的行內樣式。你可以使用此屬性來取得或設定元素的樣式。
+- **`Element.style` 屬性**：這個屬性是唯讀屬性，代表元素的行內樣式。你可以用這個屬性來取得或設定元素的樣式。
 
 :::interactive_editor
 
@@ -329,7 +329,7 @@ paraEl.style.color = "red";
 
 :::
 
-- **`Element.classList` 屬性**：此屬性為唯讀屬性，可用來為元素添加、移除或切換類別。
+- **`Element.classList` 屬性**：這個屬性是唯讀屬性，可以用來新增、移除或切換元素上的類別。
 
 :::interactive_editor
 
@@ -381,7 +381,7 @@ toggleBtn.addEventListener("click", () => menu.classList.toggle("show"));
 
 ## 使用 `setTimeout()` 和 `setInterval()` 方法
 
-- **`setTimeout()` 方法**：此方法讓你延遲指定時間後執行動作。
+- **`setTimeout()` 方法**：這個方法讓你可以延遲執行某個動作一段指定的時間。
 
 :::interactive_editor
 
@@ -416,7 +416,7 @@ setTimeout(() => {
 
 ## `requestAnimationFrame()` 方法
 
-- **定義**：此方法允許你在下一次螢幕重新整理之前排程動畫的下一步，從而產生流暢且視覺上吸引人的體驗。下一次螢幕重新整理是指瀏覽器重新整理網頁視覺顯示的時刻。這通常每秒發生多次，在大多數顯示器上約為 60 次（或每秒 60 個影格）。
+- **定義**：這個方法讓你可以在下一次螢幕重繪前排程動畫的下一步，帶來流暢且視覺效果佳的體驗。下一次螢幕重繪指的是瀏覽器重新整理網頁畫面的時刻。這個動作每秒會發生多次，通常在大多數顯示器上約為 60 次（即每秒 60 影格）。
 
 ```js
 function animate() {
@@ -430,7 +430,7 @@ function animate() {
 
 ## 網頁動畫 API
 
-- **定義**：Web Animations API 讓你能夠直接在 JavaScript 中創建並控制動畫。
+- **定義**：Web Animations API 讓你可以直接在 JavaScript 中建立和控制動畫。
 
 :::interactive_editor
 
@@ -455,7 +455,7 @@ const square = document.querySelector('#square');
 const animation = square.animate(
  [{ transform: 'translateX(0px)' }, { transform: 'translateX(100px)' }],
  {
-   duration: 2000, // makes animation lasts 2 seconds
+   duration: 2000, // makes the animation last 2 seconds
    iterations: Infinity, // loops indefinitely
    direction: 'alternate', // moves back and forth
    easing: 'ease-in-out', // smooth easing
@@ -467,7 +467,7 @@ const animation = square.animate(
 
 ## Canvas API
 
-- **定義**：Canvas API 是一個強大的工具，讓你能夠直接在你的 JavaScript 檔案中操作圖形。要使用 Canvas API，首先你需要在 HTML 中提供一個 `canvas` 元素。這個元素充當一個繪圖表面，你可以使用 Canvas API 中介面的實體方法和屬性來操作它。這個 API 包含像是 `HTMLCanvasElement`、`CanvasRenderingContext2D`、`CanvasGradient`、`CanvasPattern` 和 `TextMetrics` 等介面，這些介面包含你可以用來在你的 JavaScript 檔案中創建圖形的方法和屬性。
+- **定義**：Canvas API 是一個強大的工具，讓你可以直接在 JavaScript 檔案中操作圖形。要使用 Canvas API，首先需要在 HTML 中提供一個 `canvas` 元素。這個元素就像一個繪圖表面，你可以用 Canvas API 介面的實體方法和屬性來操作它。這個 API 包含像 `HTMLCanvasElement`、`CanvasRenderingContext2D`、`CanvasGradient`、`CanvasPattern` 和 `TextMetrics` 這些介面，你可以用它們的方法和屬性在 JavaScript 檔案中建立圖形。
 
 :::interactive_editor
 
@@ -492,10 +492,10 @@ ctx.fillRect(1, 1, 150, 100);
 
 :::
 
-## 使用 JavaScript 開啟和關閉對話與模態視窗
+## 用 JavaScript 開啟與關閉對話框和模態視窗
 
-- **模態與對話盒定義**：對話盒讓你向使用者顯示重要的資訊或操作。利用 HTML 內建的 `dialog` 元素，你可以輕鬆地在你的網頁應用程式中創建這些對話盒（包括模態與非模態對話盒）。模態對話盒是一種強制使用者在存取應用程式或網頁的其他部分之前，必須先與其互動的對話盒。相反地，非模態對話盒允許使用者在對話盒開啟時，繼續與頁面或應用程式的其他部分互動。它不會阻止存取其他內容。
-- **`showModal()` 方法**：此方法用於開啟一個模態視窗。
+- **模態與對話框定義**：對話框讓你可以向使用者顯示重要資訊或操作。利用 HTML 內建的 dialog 元素，你可以輕鬆在網頁應用程式中建立這些對話框（包含模態和非模態對話框）。模態對話框是一種強制使用者必須先與其互動，才能存取應用程式或網頁其他部分的對話框。相對地，非模態對話框則允許使用者即使對話框開啟時，仍可繼續與頁面或應用程式其他部分互動，不會阻止存取其他內容。
+- **`showModal()` 方法**：這個方法用來開啟模態視窗。
 
 :::interactive_editor
 
@@ -518,7 +518,7 @@ openButton.addEventListener('click', () => {
 
 :::
 
-- **`close()` 方法**：此方法用於關閉模態視窗。
+- **`close()` 方法**：這個方法用來關閉模態視窗。
 
 :::interactive_editor
 

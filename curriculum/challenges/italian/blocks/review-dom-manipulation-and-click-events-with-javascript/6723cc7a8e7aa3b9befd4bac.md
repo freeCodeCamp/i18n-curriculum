@@ -9,17 +9,17 @@ dashedName: review-dom-manipulation-and-click-events-with-javascript
 
 ## Lavorare con il DOM e le API web
 
-- **API**: Un’API (Application Programming Interface) è un insieme di regole e protocolli che permettono alle applicazioni software di comunicare tra loro e scambiare dati in modo efficiente.
+- **API**: Un'API (Application Programming Interface) è un insieme di regole e protocolli che permettono alle applicazioni software di comunicare tra loro e scambiare dati in modo efficiente.
 - **API web**: Le API web sono progettate specificamente per le applicazioni web. Questi tipi di API sono spesso divisi in due categorie principali: API del browser e API di terze parti.
 - **API del browser**: Queste API espongono dati dal browser. Come sviluppatore web, puoi consultare e manipolare questi dati usando JavaScript.
-- **API di terze parti**: Queste non sono integrate nel browser per impostazione predefinita. Devi recuperare il loro codice in qualche modo. Di solito, hanno una documentazione dettagliata che spiega come usare i loro servizi. Un esempio è l’API di Google Maps, che puoi usare per mostrare mappe interattive sul tuo sito web.
-- **DOM**: Il DOM sta per Document Object Model. È un’interfaccia di programmazione che ti permette di interagire con i documenti HTML. Con il DOM puoi aggiungere, modificare o eliminare elementi su una pagina web. La radice dell’albero DOM è l’elemento `html`. È il contenitore di livello superiore per tutto il contenuto di un documento HTML. Tutti gli altri nodi sono discendenti di questo nodo radice. Poi, sotto il nodo radice, troviamo altri nodi nella gerarchia. Un nodo genitore è un elemento che contiene altri elementi. Un nodo figlio è un elemento contenuto all’interno di un altro elemento.
-- **Interfaccia `navigator`**: Questa fornisce informazioni sull’ambiente del browser, come la stringa user agent, la piattaforma e la versione del browser. Una stringa user agent è una stringa di testo che identifica il browser e il sistema operativo in uso.
+- **API di terze parti**: Queste non sono integrate nel browser per impostazione predefinita. Devi recuperare il loro codice in qualche modo. Di solito, hanno una documentazione dettagliata che spiega come usare i loro servizi. Un esempio è l'API di Google Maps, che puoi usare per mostrare mappe interattive sul tuo sito web.
+- **DOM**: Il DOM sta per Document Object Model. È un'interfaccia di programmazione che ti permette di interagire con i documenti HTML. Con il DOM puoi aggiungere, modificare o eliminare elementi su una pagina web. La radice dell'albero DOM è l'elemento `html`. È il contenitore di livello superiore per tutto il contenuto di un documento HTML. Tutti gli altri nodi sono discendenti di questo nodo radice. Poi, sotto il nodo radice, troviamo altri nodi nella gerarchia. Un nodo genitore è un elemento che contiene altri elementi. Un nodo figlio è un elemento contenuto all'interno di un altro elemento.
+- **Interfaccia `navigator`**: Questa fornisce informazioni sull'ambiente del browser, come la stringa user agent, la piattaforma e la versione del browser. Una stringa user agent è una stringa di testo che identifica il browser e il sistema operativo in uso.
 - **Interfaccia `window`**: Questa rappresenta la finestra del browser che contiene il documento DOM. Fornisce metodi e proprietà per interagire con la finestra del browser, come ridimensionare la finestra, aprire nuove finestre e navigare verso URL diversi.
 
 ## Lavorare con i metodi `querySelector()`, `querySelectorAll()` e `getElementById()`
 
-- **Metodo `getElementById()`**: Questo metodo serve per ottenere un oggetto che rappresenta l’elemento HTML con l’`id` specificato. Ricorda che gli id devono essere unici in ogni documento HTML, quindi questo metodo restituirà solo un oggetto Element.
+- **Metodo `getElementById()`**: Questo metodo serve per ottenere un oggetto che rappresenta l'elemento HTML con il `id` specificato. Ricorda che gli id devono essere unici in ogni documento HTML, quindi questo metodo restituirà solo un oggetto Element.
 
 :::interactive_editor
 
@@ -97,7 +97,7 @@ container.innerHTML = '<ul><li>Cheese</li><li>Tomato</li></ul>';
 const img = document.createElement("img");
 ```
 
-- **`innerText`**: Rappresenta il contenuto testuale visibile dell’elemento HTML e dei suoi discendenti.
+- **`innerText`**: Rappresenta il contenuto testuale visibile dell'elemento HTML e dei suoi discendenti.
 
 :::interactive_editor
 
@@ -116,7 +116,7 @@ console.log(container.innerText);
 
 :::
 
-- **`textContent`**: Restituisce il contenuto testuale semplice di un elemento, inclusi tutti i testi all’interno dei suoi discendenti.
+- **`textContent`**: Restituisce il contenuto testuale semplice di un elemento, includendo tutto il testo all'interno dei suoi discendenti.
 
 :::interactive_editor
 
@@ -137,7 +137,7 @@ console.log(container.textContent);
 
 ## Lavorare con i metodi `appendChild()` e `removeChild()`
 
-- **Metodo `appendChild()`**: Questo metodo serve per aggiungere un nodo alla fine della lista dei figli di un nodo genitore specificato.
+- **Metodo `appendChild()`**: questo metodo serve per aggiungere un nodo alla fine della lista dei figli di un nodo genitore specificato.
 
 :::interactive_editor
 
@@ -159,7 +159,7 @@ dessertsList.appendChild(listItem);
 
 :::
 
-- **Metodo `removeChild()`**: Questo metodo serve per rimuovere un nodo dal DOM.
+- **Metodo `removeChild()`**: questo metodo serve per rimuovere un nodo dal DOM.
 
 :::interactive_editor
 
@@ -183,7 +183,7 @@ sectionEl.removeChild(lastParagraph);
 
 ## Lavorare con il metodo `setAttribute()`
 
-- **Definizione**: Questo metodo serve per impostare l’attributo di un dato elemento. Se l’attributo esiste già, allora il valore viene aggiornato. Altrimenti, viene aggiunto un nuovo attributo con un valore.
+- **Definizione**: Questo metodo serve per impostare l'attributo di un dato elemento. Se l'attributo esiste già, il valore viene aggiornato. Altrimenti, viene aggiunto un nuovo attributo con un valore.
 
 :::interactive_editor
 
@@ -201,11 +201,11 @@ para.setAttribute("class", "my-class");
 
 ## Oggetto evento
 
-- **Definizione**: L’oggetto `Event` è un payload che si attiva quando un utente interagisce in qualche modo con la tua pagina web. Queste interazioni possono essere qualsiasi cosa, dal cliccare un pulsante o mettere il focus su un input fino a scuotere il dispositivo mobile. Tutti gli oggetti `Event` avranno la proprietà `type`. Questa proprietà rivela il tipo di evento che ha attivato il payload, come keydown o click. Questi valori corrisponderanno agli stessi valori che potresti passare a `addEventListener()`, dove puoi catturare e utilizzare l’oggetto `Event`.
+- **Definizione**: L'oggetto `Event` è un payload che si attiva quando un utente interagisce in qualche modo con la tua pagina web. Queste interazioni possono essere qualsiasi cosa, dal cliccare un pulsante o mettere il focus su un input fino a scuotere il dispositivo mobile. Tutti gli oggetti `Event` avranno la proprietà `type`. Questa proprietà indica il tipo di evento che ha attivato il payload, come keydown o click. Questi valori corrisponderanno agli stessi valori che potresti passare a `addEventListener()`, dove puoi catturare e utilizzare l'oggetto `Event`.
 
 ## Metodi `addEventListener()` e `removeEventListener()`
 
-- **Metodo `addEventListener`**: Questo metodo serve per ascoltare gli eventi. Prende due argomenti: l’evento che vuoi ascoltare e una funzione che verrà chiamata quando l’evento si verifica. Alcuni esempi comuni di eventi sono eventi click, eventi input e eventi change.
+- **Metodo `addEventListener`**: Questo metodo serve per ascoltare gli eventi. Richiede due argomenti: l'evento a cui vuoi ascoltare e una funzione che verrà chiamata quando l'evento si verifica. Alcuni esempi comuni di eventi sono i clic, gli input e i cambiamenti.
 
 :::interactive_editor
 
@@ -222,7 +222,7 @@ btn.addEventListener("click", () => alert("You clicked the button"));
 
 :::
 
-- **Metodo `removeEventListener()`**: Questo metodo serve per rimuovere un event listener che era stato aggiunto precedentemente a un elemento usando il metodo `addEventListener()`. Questo è utile quando vuoi smettere di ascoltare un particolare evento su un elemento.
+- **Metodo `removeEventListener()`**: Questo metodo serve per rimuovere un listener di eventi che era stato aggiunto in precedenza a un elemento usando il metodo `addEventListener()`. È utile quando vuoi smettere di ascoltare un evento specifico su un elemento.
 
 :::interactive_editor
 
@@ -257,6 +257,7 @@ para.addEventListener("mouseover", () => {
 
 - **Gestori di eventi in linea**: I gestori di eventi in linea sono attributi speciali su un elemento HTML usati per eseguire codice JavaScript quando si verifica un evento. Nel JavaScript moderno, i gestori di eventi in linea non sono considerati una buona pratica. È preferibile usare invece il metodo `addEventListener`.
 
+
 :::interactive_editor
 
 ```html
@@ -265,9 +266,9 @@ para.addEventListener("mouseover", () => {
 
 :::
 
-## L’evento change
+## L'evento change
 
-- **Definizione**: L’evento change è un evento speciale che si attiva quando l’utente modifica il valore di certi elementi input. Esempi includono quando si seleziona una casella di spunta o un pulsante di opzione. Oppure quando l’utente fa una selezione da qualcosa come un selettore di data o un menu a discesa.
+- **Definizione**: L'evento change è un evento speciale che viene attivato quando l'utente modifica il valore di certi elementi input. Esempi includono quando si seleziona una casella di spunta o un pulsante di opzione. Oppure quando l'utente fa una selezione da qualcosa come un selettore di data o un menu a discesa.
 
 :::interactive_editor
 
@@ -304,15 +305,15 @@ selectEl.addEventListener("change", (e) => {
 
 ## Delegazione degli eventi
 
-- **Definizione**: La delegazione degli eventi è il processo di ascoltare eventi che sono risaliti a un genitore, invece di gestirli direttamente sull’elemento che li ha attivati.
+- **Definizione**: La delega degli eventi è il processo di ascoltare eventi che sono risaliti fino a un genitore, invece di gestirli direttamente sull’elemento che li ha scatenati.
 
 ## DOMContentLoaded
 
-- **Definizione**: L’evento `DOMContentLoaded` si attiva quando tutto il documento HTML è stato caricato e analizzato. Se hai fogli di stile esterni o immagini, l’evento `DOMContentLoaded` non aspetterà che questi siano caricati. Aspetterà solo che l’HTML sia caricato.
+- **Definizione**: L'evento `DOMContentLoaded` viene attivato quando tutto il contenuto del documento HTML è stato caricato e analizzato. Se hai fogli di stile esterni o immagini, l'evento `DOMContentLoaded` non aspetterà che questi vengano caricati. Aspetterà solo che l'HTML sia stato caricato.
 
 ## Lavorare con `style` e `classList`
 
-- **Proprietà `Element.style`**: Questa proprietà è di sola lettura e rappresenta lo stile in linea di un elemento. Puoi usare questa proprietà per ottenere o impostare lo stile di un elemento.
+- **Proprietà `Element.style`**: Questa proprietà è di sola lettura e rappresenta lo stile in linea di un elemento. Puoi usare questa proprietà per ottenere o definire lo stile di un elemento.
 
 :::interactive_editor
 
@@ -377,9 +378,10 @@ toggleBtn.addEventListener("click", () => menu.classList.toggle("show"));
 
 :::
 
+
 ## Lavorare con i metodi `setTimeout()` e `setInterval()`
 
-- **Metodo `setTimeout()`**: Questo metodo ti permette di ritardare un’azione per un tempo specificato.
+- **Metodo `setTimeout()`**: Questo metodo ti permette di ritardare un'azione per un tempo specificato.
 
 :::interactive_editor
 
@@ -414,7 +416,7 @@ setTimeout(() => {
 
 ## Il metodo `requestAnimationFrame()`
 
-- **Definizione**: Questo metodo ti permette di programmare il passaggio successivo della tua animazione prima del prossimo ridisegno dello schermo, ottenendo un’esperienza fluida e visivamente piacevole. Il prossimo ridisegno dello schermo si riferisce al momento in cui il browser aggiorna la visualizzazione visiva della pagina web. Questo avviene più volte al secondo, tipicamente circa 60 volte (o 60 frame al secondo) sulla maggior parte dei display.
+- **Definizione**: Questo metodo ti permette di programmare il passaggio successivo della tua animazione prima del prossimo aggiornamento dello schermo, ottenendo un’esperienza fluida e visivamente piacevole. Il prossimo aggiornamento dello schermo indica il momento in cui il browser aggiorna la visualizzazione della pagina web. Questo avviene più volte al secondo, tipicamente circa 60 volte (o 60 frame al secondo) sulla maggior parte dei display.
 
 ```js
 function animate() {
@@ -426,9 +428,9 @@ function animate() {
 }
 ```
 
-## Web Animations API
+## Web animations API
 
-- **Definizione**: La Web Animations API ti permette di creare e controllare animazioni direttamente dentro JavaScript.
+- **Definizione**: la Web Animations API ti permette di creare e controllare animazioni direttamente all’interno di JavaScript.
 
 :::interactive_editor
 
@@ -453,7 +455,7 @@ const square = document.querySelector('#square');
 const animation = square.animate(
  [{ transform: 'translateX(0px)' }, { transform: 'translateX(100px)' }],
  {
-   duration: 2000, // makes animation lasts 2 seconds
+   duration: 2000, // makes the animation last 2 seconds
    iterations: Infinity, // loops indefinitely
    direction: 'alternate', // moves back and forth
    easing: 'ease-in-out', // smooth easing
@@ -463,9 +465,9 @@ const animation = square.animate(
 
 :::
 
-## La Canvas API
+## L'API canvas
 
-- **Definizione**: La Canvas API è uno strumento potente che ti permette di manipolare grafica direttamente nel tuo file JavaScript. Per lavorare con la Canvas API, devi prima fornire un elemento `canvas` in HTML. Questo elemento funge da superficie di disegno che puoi manipolare con i metodi e le proprietà delle interfacce della Canvas API. Questa API ha interfacce come `HTMLCanvasElement`, `CanvasRenderingContext2D`, `CanvasGradient`, `CanvasPattern` e `TextMetrics` che contengono metodi e proprietà che puoi usare per creare grafica nel tuo file JavaScript.
+- **Definizione**: L'API canvas è uno strumento potente che ti permette di manipolare la grafica direttamente all'interno del tuo file JavaScript. Per lavorare con l'API canvas, devi prima fornire un elemento `canvas` in HTML. Questo elemento funge da superficie di disegno che puoi manipolare con i metodi e le proprietà delle istanze delle interfacce nell'API canvas. Questa API ha interfacce come `HTMLCanvasElement`, `CanvasRenderingContext2D`, `CanvasGradient`, `CanvasPattern` e `TextMetrics` che contengono metodi e proprietà che puoi usare per creare grafica nel tuo file JavaScript.
 
 :::interactive_editor
 
@@ -490,9 +492,9 @@ ctx.fillRect(1, 1, 150, 100);
 
 :::
 
-## Aprire e chiudere dialog e modali con JavaScript
+## Apertura e chiusura di dialoghi e modali con JavaScript
 
-- **Definizioni di modale e dialog**: I dialog ti permettono di mostrare informazioni o azioni importanti agli utenti. Con l’elemento dialog integrato in HTML, puoi creare facilmente questi dialog (sia modali che non modali) nelle tue app web. Un dialog modale è un tipo di dialog che obbliga l’utente a interagire con esso prima di poter accedere al resto dell’applicazione o della pagina web. Al contrario, un dialog non modale permette all’utente di continuare a interagire con altre parti della pagina o dell’applicazione anche quando il dialog è aperto. Non impedisce l’accesso al resto del contenuto.
+- **Definizioni di modale e dialogo**: I dialoghi ti permettono di mostrare informazioni o azioni importanti agli utenti. Con l'elemento dialog integrato in HTML, puoi creare facilmente questi dialoghi (sia modali che non modali) nelle tue app web. Un dialogo modale è un tipo di dialogo che obbliga l'utente a interagire con esso prima di poter consultare il resto dell'applicazione o della pagina web. Al contrario, un dialogo non modale permette all'utente di continuare a interagire con altre parti della pagina o dell'applicazione anche quando il dialogo è aperto. Non impedisce l'accesso al resto del contenuto.
 - **Metodo `showModal()`**: Questo metodo serve per aprire un modale.
 
 :::interactive_editor

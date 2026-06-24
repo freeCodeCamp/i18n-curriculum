@@ -237,7 +237,7 @@ Jina la michoro lililoelezwa na `@keyframes`.
 
 #### --text--
 
-Kanuni ya at ya `@keyframe` inafanyaje kwa kipengele kilichochorwa?
+Kanuni hii ya `@keyframes` inafanya nini kwa kipengele kilicho na uhuishaji?
 
 ```css
 @keyframes animation {
@@ -322,7 +322,7 @@ animation-duration: 5s;
 
 #### --text--
 
-`50%` inawakilisha nini katika kanuni ya at ya CSS `@keyframe` ifuatayo?
+Je, `50%` inawakilisha nini katika kanuni ifuatayo ya CSS ya `@keyframes`?
 
 ```css
 @keyframes animation {
@@ -544,7 +544,7 @@ Michoro mingi ya CSS inaweza kusababisha mitindo kuvunjika na mitindo isiyo thab
 
 ---
 
-Michoro mingi ya CSS inaweza kusababisha nafasi za chini au kutokuwepo kabisa katika matokeo ya injini za utafutaji.
+Uhuishaji mwingi wa CSS unaweza kusababisha kupungua au kutokuwepo kabisa kwa nafasi katika matokeo ya injini za utafutaji.
 
 ---
 
@@ -646,7 +646,7 @@ Ni kanuni gani ya CSS hutumika kufafanua hatua na mitindo ya michoro katika sehe
 
 #### --text--
 
-Ndani ya media query ya `reduced‑motion`, tamko gani linazima mabadiliko ya hatua?
+Ndani ya media query ya `prefers-reduced-motion`, tamko gani linazima mabadiliko ya hali?
 
 #### --distractors--
 
@@ -822,7 +822,7 @@ Mfululizo wa mitindo katika sehemu tofauti za michoro.
 
 #### --text--
 
-Kanuni ya at ya `@keyframe` inafanyaje kwa kipengele kilichochorwa?
+Kanuni hii ya `@keyframes` inafanya nini kwa kipengele kilicho na uhuishaji?
 
 ```css
 @keyframes fade-in {

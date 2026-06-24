@@ -237,7 +237,7 @@ Der Name der Animation, die durch die `@keyframes` definiert ist.
 
 #### --text--
 
-Was bewirkt diese `@keyframe`-At-Regel am animierten Element?
+Was bewirkt diese `@keyframes` At-Regel für das animierte Element?
 
 ```css
 @keyframes animation {
@@ -322,7 +322,7 @@ animation-duration: 5s;
 
 #### --text--
 
-Was stellt `50%` in der folgenden CSS-`@keyframe`-At-Regel dar?
+Was stellt `50%` in der folgenden CSS-`@keyframes` At-Regel dar?
 
 ```css
 @keyframes animation {
@@ -544,7 +544,7 @@ Zu viele CSS-Animationen können dazu führen, dass Styles fehlerhaft sind und i
 
 ---
 
-Zu viele CSS-Animationen können zu schlechteren oder fehlenden Platzierungen in Suchmaschinenergebnissen führen.
+Zu viele CSS-Animationen können zu niedrigeren oder gar keinen Platzierungen in Suchmaschinenergebnissen führen.
 
 ---
 
@@ -646,7 +646,7 @@ Welche CSS-Regel wird verwendet, um die Phasen und Stile einer Animation an vers
 
 #### --text--
 
-Innerhalb welcher `reduced‑motion`-Media-Query wird die Deklaration verwendet, die Übergänge deaktiviert?
+Welche Deklaration deaktiviert innerhalb der `prefers-reduced-motion` Media Query Übergänge?
 
 #### --distractors--
 
@@ -822,7 +822,7 @@ Die Folge von Stilen an verschiedenen Punkten einer Animation.
 
 #### --text--
 
-Was bewirkt diese `@keyframe`-At-Regel am animierten Element?
+Was bewirkt diese `@keyframes` At-Regel für das animierte Element?
 
 ```css
 @keyframes fade-in {

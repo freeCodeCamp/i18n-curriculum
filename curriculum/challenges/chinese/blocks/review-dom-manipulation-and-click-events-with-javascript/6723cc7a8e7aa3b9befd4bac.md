@@ -7,19 +7,19 @@ dashedName: review-dom-manipulation-and-click-events-with-javascript
 
 # --interactive--
 
-## 操作 DOM 和 Web API
+## 使用 DOM 和 Web API
 
-- **API**：API（应用编程接口）是一组规则和协议，允许软件应用程序彼此通信并高效交换数据。
-- **Web API**：Web API 专为网页应用设计。这些类型的 API 通常分为两大类：浏览器 API 和第三方 API。
-- **浏览器 API**：这些 API 公开浏览器中的数据。作为网页开发者，你可以使用 JavaScript 访问和操作这些数据。
-- **第三方 API**：这些不是浏览器默认内置的。你必须以某种方式获取它们的代码。通常，它们会有详细的文档说明如何使用它们的服务。一个例子是 Google Maps API，你可以用它在你的网站上显示交互式地图。
-- **DOM**：DOM 代表文档对象模型。它是一个编程接口，允许你与超文本标记语言文档交互。通过 DOM，你可以添加、修改或删除网页上的元素。DOM 树的根是 `html` 元素。它是 HTML 文档所有内容的顶层容器。所有其他节点都是该根节点的后代。然后，在根节点下，我们在层次结构中找到其他节点。父节点是包含其他元素的元素。子节点是包含在另一个元素内的元素。
-- **`navigator` 接口**：这提供有关浏览器环境的信息，例如用户代理字串、平台和浏览器版本。用户代理字串是一个文本字串，用于识别所使用的浏览器和操作系统。
-- **`window`接口**：它表现包含 DOM 文档的浏览器窗口。它提供与浏览器窗口交互的方法和属性，例如调整窗口大小、新建窗口以及导航到不同的 URL。
+- **API**：API（应用程序编程接口）是一组规则和协议，允许软件应用程序之间高效通信和数据交换。
+- **Web API**：Web API 专门为 Web 应用设计。这类 API 通常分为两大类：浏览器 API 和第三方 API。
+- **浏览器 API**：这些 API 暴露浏览器中的数据。作为 Web 开发者，你可以使用 JavaScript 访问和操作这些数据。
+- **第三方 API**：这些 API 默认不内置于浏览器中。你需要以某种方式获取它们的代码。通常，它们会有详细文档说明如何使用其服务。比如 Google Maps API，可以用来在你的网站上显示交互式地图。
+- **DOM**：DOM 代表文档对象模型。它是一个编程接口，允许你与 HTML 文档交互。通过 DOM，你可以添加、修改或删除网页上的元素。DOM 树的根节点是 `html` 元素。它是 HTML 文档所有内容的顶层容器。所有其他节点都是该根节点的后代。根节点下方是层次结构中的其他节点。父节点是包含其他元素的元素。子节点是被包含在另一个元素内的元素。
+- **`navigator` 接口**：该接口提供有关浏览器环境的信息，如用户代理字符串、平台和浏览器版本。用户代理字符串是一个文本字符串，用于标识正在使用的浏览器和操作系统。
+- **`window` 接口**：该接口表示包含 DOM 文档的浏览器窗口。它提供与浏览器窗口交互的方法和属性，如调整窗口大小、打开新窗口和导航到不同 URL。
 
 ## 使用 `querySelector()`、`querySelectorAll()` 和 `getElementById()` 方法
 
-- **`getElementById()` 方法**：此方法用于获取表现具有指定 `id` 的超文本标记语言元素的对象。请记住，id 在每个超文本标记语言文档中必须唯一，因此此方法只会返回一个元素对象。
+- **`getElementById()` 方法**：该方法用于获取表示具有指定 `id` 的 HTML 元素的对象。请记住，id 在每个 HTML 文档中必须唯一，因此该方法只会返回一个元素对象。
 
 :::interactive_editor
 
@@ -35,7 +35,7 @@ console.log(container)
 
 :::
 
-- **`querySelector()` 方法**：此方法用于获取超文本标记语言文档中第一个匹配作为参数传入的 CSS 选择器的元素。
+- **`querySelector()` 方法**：该方法用于获取 HTML 文档中第一个匹配传入的 CSS 选择器的元素。
 
 :::interactive_editor
 
@@ -51,7 +51,7 @@ console.log(section)
 
 :::
 
-- **`querySelectorAll()` 方法**：你可以使用此方法获取匹配特定 CSS 选择器的所有 DOM 元素的列表。
+- **`querySelectorAll()` 方法**：你可以使用该方法获取所有匹配特定 CSS 选择器的 DOM 元素列表。
 
 :::interactive_editor
 
@@ -73,7 +73,7 @@ console.log(ingredients)
 
 ## 使用 `innerText()`、`innerHTML()`、`createElement()` 和 `textContent()` 方法
 
-- **`innerHTML` 属性**：这是 `Element` 的一个属性，用于设置或更新超文本标记语言标记的部分内容。
+- **`innerHTML` 属性**：这是 `Element` 的一个属性，用于设置或更新 HTML 标记的部分内容。
 
 :::interactive_editor
 
@@ -91,13 +91,13 @@ container.innerHTML = '<ul><li>Cheese</li><li>Tomato</li></ul>';
 
 :::
 
-- **`createElement` 方法**：用于创建一个超文本标记语言元素。
+- **`createElement` 方法**：该方法用于创建 HTML 元素。
 
 ```js
 const img = document.createElement("img");
 ```
 
-- **`innerText`**：这表现了 HTML 元素及其子元素的可见文本内容。
+- **`innerText`**：表示 HTML 元素及其后代的可见文本内容。
 
 :::interactive_editor
 
@@ -116,7 +116,7 @@ console.log(container.innerText);
 
 :::
 
-- **`textContent`**：这会返回一个元素的纯文本内容，包括其所有子元素内的文本。
+- **`textContent`**：返回元素的纯文本内容，包括其所有后代中的文本。
 
 :::interactive_editor
 
@@ -137,7 +137,7 @@ console.log(container.textContent);
 
 ## 使用 `appendChild()` 和 `removeChild()` 方法
 
-- **`appendChild()` 方法**：此方法用于将节点添加到指定父节点的子节点列表末尾。
+- **`appendChild()` 方法**：该方法用于将节点添加到指定父节点的子节点列表末尾。
 
 :::interactive_editor
 
@@ -159,7 +159,7 @@ dessertsList.appendChild(listItem);
 
 :::
 
-- **`removeChild()` 方法**：此方法用于从 DOM 中移除节点。
+- **`removeChild()` 方法**：该方法用于从 DOM 中移除节点。
 
 :::interactive_editor
 
@@ -183,7 +183,7 @@ sectionEl.removeChild(lastParagraph);
 
 ## 使用 `setAttribute()` 方法
 
-- **定义**：此方法用于为给定的元素设置属性。如果属性已存在，则更新其值。否则，将添加一个带有值的新属性。
+- **定义**：该方法用于为给定元素设置属性。如果属性已存在，则更新其值。否则，添加一个带有值的新属性。
 
 :::interactive_editor
 
@@ -201,11 +201,11 @@ para.setAttribute("class", "my-class");
 
 ## 事件对象
 
-- **定义**：`Event` 对象是当用户以某种方式与你的网页交互时触发的负载。这些交互可以是点击按钮、聚焦输入框或摇动他们的移动设备。所有 `Event` 对象都会有 `type` 属性。该属性显示触发负载的事件类型，例如 keydown 或 click。这些值将对应于你可能传递给 `addEventListener()` 的相同值，在那里你可以捕捉并利用 `Event` 对象。
+- **定义**：`Event` 对象是当用户以某种方式与网页交互时触发的负载。这些交互可以是点击按钮、聚焦输入框，甚至摇动移动设备。所有 `Event` 对象都会有 `type` 属性。该属性显示触发负载的事件类型，如 keydown 或 click。这些值对应于你可能传递给 `addEventListener()` 的值，在那里你可以捕获并使用 `Event` 对象。
 
 ## `addEventListener()` 和 `removeEventListener()` 方法
 
-- **`addEventListener` 方法**：此方法用于监听事件。它接受两个参数：你想监听的事件和事件发生时将被调用的函数。一些常见的事件示例包括点击事件、输入事件和更改事件。
+- **`addEventListener` 方法**：该方法用于监听事件。它接受两个参数：你想监听的事件和事件发生时调用的函数。常见事件示例包括点击事件、输入事件和更改事件。
 
 :::interactive_editor
 
@@ -222,7 +222,7 @@ btn.addEventListener("click", () => alert("You clicked the button"));
 
 :::
 
-- **`removeEventListener()` 方法**：此方法用于移除之前通过 `addEventListener()` 方法添加到元素上的事件监听器。当你想停止监听元素上的特定事件时，这非常有用。
+- **`removeEventListener()` 方法**：该方法用于移除之前使用 `addEventListener()` 方法添加到元素上的事件监听器。当你想停止监听某个元素的特定事件时，这非常有用。
 
 :::interactive_editor
 
@@ -255,7 +255,7 @@ para.addEventListener("mouseover", () => {
 
 :::
 
-- **内联事件处理器**：内联事件处理器是 HTML 元素上的特殊属性，用于在事件发生时执行 JavaScript 代码。在现代 JavaScript 中，内联事件处理器不被视为最佳实践。更推荐使用 `addEventListener` 方法。
+- **内联事件处理程序**：内联事件处理程序是 HTML 元素上的特殊属性，用于在事件发生时执行 JavaScript 代码。在现代 JavaScript 中，内联事件处理程序不被视为最佳实践。更推荐使用 `addEventListener` 方法。
 
 
 :::interactive_editor
@@ -266,9 +266,9 @@ para.addEventListener("mouseover", () => {
 
 :::
 
-## 更改事件
+## Change 事件
 
-- **定义**：`change` 事件是一种特殊的事件，当用户修改某些输入元素的值时触发。示例包括选中复选框或单选按钮，或者用户从日期选择器或下拉菜单中进行选择时。
+- **定义**：change 事件是当用户修改某些输入元素的值时触发的特殊事件。例如，勾选复选框或单选按钮，或者用户从日期选择器或下拉菜单中做出选择。
 
 :::interactive_editor
 
@@ -305,15 +305,15 @@ selectEl.addEventListener("change", (e) => {
 
 ## 事件委托
 
-- **定义**：事件委托是监听已经冒泡到父元素的事件的进程，而不是直接在触发事件的元素上处理它们。
+- **定义**：事件委托是监听冒泡到父元素的事件，而不是直接在触发事件的元素上处理事件的过程。
 
 ## DOMContentLoaded
 
-- **定义**：当超文本标记语言文档中的所有内容都已装载并解析时，会触发 `DOMContentLoaded` 事件。如果你有外部样式表或图像，`DOMContentLoaded` 事件不会等待它们装载。它只会等待超文本标记语言装载完成。
+- **定义**：`DOMContentLoaded` 事件在 HTML 文档的所有内容加载和解析完成时触发。如果你有外部样式表或图像，`DOMContentLoaded` 事件不会等待它们加载完成，只会等待 HTML 加载完成。
 
 ## 使用 `style` 和 `classList`
 
-- **`Element.style` 属性**：此属性是一个只读属性，表现元素的内联样式。你可以使用此属性来获取或设置元素的样式。
+- **`Element.style` 属性**：这是一个只读属性，表示元素的内联样式。你可以使用该属性获取或设置元素的样式。
 
 :::interactive_editor
 
@@ -329,7 +329,7 @@ paraEl.style.color = "red";
 
 :::
 
-- **`Element.classList` 属性**：此属性是一个只读属性，可用于为元素添加、移除或切换类。
+- **`Element.classList` 属性**：这是一个只读属性，可用于添加、移除或切换元素的类。
 
 :::interactive_editor
 
@@ -381,7 +381,7 @@ toggleBtn.addEventListener("click", () => menu.classList.toggle("show"));
 
 ## 使用 `setTimeout()` 和 `setInterval()` 方法
 
-- **`setTimeout()` 方法**：此方法允许你延迟指定时间后执行一个操作。
+- **`setTimeout()` 方法**：该方法允许你延迟指定时间后执行某个操作。
 
 :::interactive_editor
 
@@ -416,7 +416,7 @@ setTimeout(() => {
 
 ## `requestAnimationFrame()` 方法
 
-- **定义**：此方法允许你在下一次屏幕重绘之前调度动画的下一步，从而实现流畅且视觉上吸引人的体验。下一次屏幕重绘指的是浏览器刷新网页视觉显示的时刻。这通常每秒发生多次，在大多数显示器上约为 60 次（或每秒 60 帧）。
+- **定义**：该方法允许你在下一次屏幕重绘之前安排动画的下一步，从而实现流畅且视觉上吸引人的体验。下一次屏幕重绘指的是浏览器刷新网页视觉显示的时刻。大多数显示器每秒刷新约 60 次（即 60 帧每秒）。
 
 ```js
 function animate() {
@@ -430,7 +430,7 @@ function animate() {
 
 ## Web 动画 API
 
-- **定义**：Web Animations API 让你可以直接在 JavaScript 中创建和控制动画。
+- **定义**：Web 动画 API 允许你直接在 JavaScript 中创建和控制动画。
 
 :::interactive_editor
 
@@ -455,7 +455,7 @@ const square = document.querySelector('#square');
 const animation = square.animate(
  [{ transform: 'translateX(0px)' }, { transform: 'translateX(100px)' }],
  {
-   duration: 2000, // makes animation lasts 2 seconds
+   duration: 2000, // makes the animation last 2 seconds
    iterations: Infinity, // loops indefinitely
    direction: 'alternate', // moves back and forth
    easing: 'ease-in-out', // smooth easing
@@ -467,7 +467,7 @@ const animation = square.animate(
 
 ## Canvas API
 
-- **定义**：Canvas API 是一个强大的工具，允许你直接在你的 JavaScript `file` 中操作图形。要使用 Canvas API，你首先需要在 `HTML` 中提供一个 `canvas` 元素。该元素充当一个绘图表面，你可以通过 Canvas API 中接口的实例方法和属性来操作它。该 API 包含诸如 `HTMLCanvasElement`、`CanvasRenderingContext2D`、`CanvasGradient`、`CanvasPattern` 和 `TextMetrics` 等接口，这些接口包含你可以用来在你的 JavaScript `file` 中创建图形的方法和属性。
+- **定义**：Canvas API 是一个强大的工具，允许你直接在 JavaScript 文件中操作图形。要使用 Canvas API，首先需要在 HTML 中提供一个 `canvas` 元素。该元素作为绘图表面，你可以通过 Canvas API 中接口的实例方法和属性来操作它。该 API 包含 `HTMLCanvasElement`、`CanvasRenderingContext2D`、`CanvasGradient`、`CanvasPattern` 和 `TextMetrics` 等接口，这些接口包含你可以用来在 JavaScript 文件中创建图形的方法和属性。
 
 :::interactive_editor
 
@@ -492,10 +492,10 @@ ctx.fillRect(1, 1, 150, 100);
 
 :::
 
-## 使用 JavaScript 打开和关闭对话及模态窗口
+## 使用 JavaScript 打开和关闭对话框和模态框
 
-- **模态和对话定义**：对话让你向用户显示重要的信息或操作。使用超文本标记语言内置的对话元素，你可以轻松地在你的网页应用中创建这些对话（包括模态和非模态对话）。模态对话是一种迫使用户在访问应用或网页的其他部分之前与其交互的对话。相比之下，非模态对话允许用户在对话打开时继续与页面或应用的其他部分交互。它不会阻止访问其余内容。
-- **`showModal()` 方法**：此方法用于打开模态框。
+- **模态框和对话框定义**：对话框允许你向用户显示重要信息或操作。借助 HTML 内置的 dialog 元素，你可以轻松在 Web 应用中创建这些对话框（包括模态和非模态对话框）。模态对话框是一种强制用户在访问应用或网页其他部分之前与其交互的对话框。相比之下，非模态对话框允许用户在对话框打开时继续与页面或应用的其他部分交互，不会阻止访问其余内容。
+- **`showModal()` 方法**：该方法用于打开模态框。
 
 :::interactive_editor
 
@@ -518,7 +518,7 @@ openButton.addEventListener('click', () => {
 
 :::
 
-- **`close()` 方法**：此方法用于关闭模态框。
+- **`close()` 方法**：该方法用于关闭模态框。
 
 :::interactive_editor
 

@@ -7,7 +7,7 @@ dashedName: quiz-css-animations
 
 # --description--
 
-要通过测验，你必须正确回答以下 20 道题中的至少 18 题。
+要通过测验，你必须正确回答下面 20 个问题中的至少 18 个。
 
 # --quizzes--
 
@@ -237,7 +237,7 @@ CSS 中的 `animation-name` 属性应赋值为什么？
 
 #### --text--
 
-这个 `@keyframe` @ 规则对动画元素有什么作用？
+这个 `@keyframes` 规则对动画元素做了什么？
 
 ```css
 @keyframes animation {
@@ -322,7 +322,7 @@ animation-duration: 5s;
 
 #### --text--
 
-在下面的 CSS `@keyframe` @ 规则中，`50%` 代表什么？
+在以下 CSS `@keyframes` 规则中，`50%` 代表什么？
 
 ```css
 @keyframes animation {
@@ -540,15 +540,15 @@ CSS `animation-delay` 属性有什么作用？
 
 #### --distractors--
 
-过多的 CSS 动画会导致样式破坏，不同浏览器的样式也会不一致。 
+过多的 CSS 动画会导致样式破坏，不同浏览器的样式也会不一致。
 
 ---
 
-过多的 CSS 动画会导致在搜索引擎结果中的排名降低或不存在。
+过多的 CSS 动画可能导致搜索引擎排名降低或不存在。
 
 ---
 
-过多的 CSS 动画会自动导致服务器崩溃，并增加安全风险的可能性。 
+过多的 CSS 动画会自动导致服务器崩溃，并增加安全风险的可能性。
 
 #### --answer--
 
@@ -646,7 +646,7 @@ CSS `animation-delay` 属性有什么作用？
 
 #### --text--
 
-在 `reduced‑motion` 媒体查询中，哪个声明会禁用过渡？
+在 `prefers-reduced-motion` 媒体查询中，哪个声明禁用了过渡？
 
 #### --distractors--
 
@@ -822,7 +822,7 @@ CSS `animation-delay` 属性有什么作用？
 
 #### --text--
 
-这个 `@keyframe` @ 规则对动画元素有什么作用？
+这个 `@keyframes` 规则对动画元素做了什么？
 
 ```css
 @keyframes fade-in {

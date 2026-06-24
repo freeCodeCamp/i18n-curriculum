@@ -1,6 +1,6 @@
 ---
 id: 6143a83fcc32c26bcfae3efa
-title: Step 17
+title: Hatua 17
 challengeType: 0
 dashedName: step-17
 ---
@@ -154,7 +154,7 @@ assert.equal(document.querySelector('.text-with-images aside')?.className, 'imag
         </p>
       </section>
 --fcc-editable-region--
-
+      
 --fcc-editable-region--
     </main>
   </body>
