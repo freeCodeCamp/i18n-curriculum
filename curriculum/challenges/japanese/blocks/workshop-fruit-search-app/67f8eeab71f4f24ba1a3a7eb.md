@@ -1,6 +1,6 @@
 ---
 id: 67f8eeab71f4f24ba1a3a7eb
-title: ステップ 11
+title: ステップ11
 challengeType: 0
 dashedName: step-11
 ---
@@ -112,7 +112,6 @@ export function FruitsSearch() {
 
   return (
     <div id="search-container">
-    --fcc-editable-region--
       <form onSubmit={handleSubmit}>
         <label htmlFor="search-input">Search for fruits:</label>
         <input
@@ -122,6 +121,7 @@ export function FruitsSearch() {
           onChange={(e) => setQuery(e.target.value)}
         />
       </form>
+    --fcc-editable-region--
       
     --fcc-editable-region--
     </div>

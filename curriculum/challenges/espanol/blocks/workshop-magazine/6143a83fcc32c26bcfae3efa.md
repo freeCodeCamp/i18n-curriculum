@@ -23,7 +23,7 @@ Tu nuevo elemento `section` debe venir después de tu elemento `.text`.
 assert.equal(document.querySelectorAll('section')?.[2]?.previousElementSibling?.className, 'text');
 ```
 
-Tu nuevo elemento `section` debe tener la `clase` establecida a `text text-with-images`.
+Tu nuevo elemento `section` debe tener la `class` establecida en `text text-with-images`.
 
 ```js
 assert.equal(document.querySelectorAll('section')?.[2]?.className, 'text text-with-images');
@@ -47,13 +47,13 @@ El elemento `article` debe venir antes del elemento `aside`.
 assert.equal(document.querySelector('.text-with-images article')?.nextElementSibling?.localName, 'aside');
 ```
 
-Tu elemento `article` debe tener la `clase` establecida a `brief-history`.
+Tu elemento `article` debe tener la `class` establecida en `brief-history`.
 
 ```js
 assert.equal(document.querySelector('.text-with-images article')?.className, 'brief-history');
 ```
 
-Tu elemento `aside` debe tener la `clase` establecida a `image-wrapper`.
+Tu elemento `aside` debe tener la `class` establecida en `image-wrapper`.
 
 ```js
 assert.equal(document.querySelector('.text-with-images aside')?.className, 'image-wrapper');
@@ -154,7 +154,7 @@ assert.equal(document.querySelector('.text-with-images aside')?.className, 'imag
         </p>
       </section>
 --fcc-editable-region--
-
+      
 --fcc-editable-region--
     </main>
   </body>

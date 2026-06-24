@@ -7,7 +7,7 @@ dashedName: quiz-css-animations
 
 # --description--
 
-Para aprobar el cuestionario, debe responder correctamente al menos 18 de las 20 preguntas a continuación.
+Para aprobar el quiz, debes responder correctamente al menos 18 de las 20 preguntas a continuación.
 
 # --quizzes--
 
@@ -237,7 +237,7 @@ El nombre de la animación definida por el `@keyframes`.
 
 #### --text--
 
-¿Qué hace esta regla `@keyframe` al elemento animado?
+¿Qué hace esta regla-at `@keyframes` al elemento animado?
 
 ```css
 @keyframes animation {
@@ -322,7 +322,7 @@ animation-duration: 5s;
 
 #### --text--
 
-¿Qué representa el `50%` en la siguiente regla `@keyframe` CSS?
+¿Qué representa `50%` en la siguiente regla-at `@keyframes` de CSS?
 
 ```css
 @keyframes animation {
@@ -540,15 +540,15 @@ Retrasa el inicio de la animación.
 
 #### --distractors--
 
-Demasiadas animaciones CSS pueden provocar roturas de estilo y estilos inconsistentes en diferentes navegadores. 
+Demasiadas animaciones CSS pueden provocar roturas de estilo y estilos inconsistentes en diferentes navegadores.
 
 ---
 
-Demasiadas animaciones CSS pueden llevar a posiciones bajas o inexistentes en los resultados de motores de búsqueda.
+Demasiadas animaciones CSS pueden llevar a un posicionamiento más bajo o inexistente en los resultados de los motores de búsqueda.
 
 ---
 
-Demasiadas animaciones CSS provocarán automáticamente una falla del servidor e incrementarán la probabilidad de riesgos de seguridad. 
+Demasiadas animaciones CSS provocarán automáticamente una falla del servidor e incrementarán la probabilidad de riesgos de seguridad.
 
 #### --answer--
 
@@ -602,7 +602,7 @@ Demasiadas animaciones CSS pueden llevar a un rendimiento deficiente y pueden di
 
 #### --text--
 
-¿Qué propiedad establece cuántas veces se repite una `animación`?
+¿Qué propiedad establece cuántas veces se repite una `animation`?
 
 #### --distractors--
 
@@ -646,7 +646,7 @@ Demasiadas animaciones CSS pueden llevar a un rendimiento deficiente y pueden di
 
 #### --text--
 
-Dentro de la consulta de medios `reduced-motion`, ¿cuál declaración deshabilita las transiciones?
+Dentro de la media query `prefers-reduced-motion`, ¿qué declaración desactiva las transiciones?
 
 #### --distractors--
 
@@ -822,7 +822,7 @@ La secuencia de estilos en diferentes puntos durante una animación.
 
 #### --text--
 
-¿Qué hace esta regla `@keyframe` al elemento animado?
+¿Qué hace esta regla-at `@keyframes` al elemento animado?
 
 ```css
 @keyframes fade-in {
@@ -877,7 +877,7 @@ El fin de la animación.
 
 #### --text--
 
-¿Qué propiedad controla el ritmo de una `animación` a lo largo de su duración?
+¿Qué propiedad controla el ritmo de una `animation` durante su duración?
 
 #### --distractors--
 

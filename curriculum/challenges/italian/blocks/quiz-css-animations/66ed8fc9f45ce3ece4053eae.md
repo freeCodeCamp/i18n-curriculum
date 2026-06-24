@@ -237,7 +237,7 @@ Il nome dell'animazione definita dalla `@keyframes`.
 
 #### --text--
 
-Cosa fa questa regola at `@keyframe` all'elemento animato?
+Cosa fa questa regola at `@keyframes` all'elemento animato?
 
 ```css
 @keyframes animation {
@@ -322,7 +322,7 @@ animation-duration: 5s;
 
 #### --text--
 
-Cosa rappresenta `50%` nella seguente regola at `@keyframe` CSS?
+Cosa rappresenta `50%` nella seguente regola at `@keyframes` CSS?
 
 ```css
 @keyframes animation {
@@ -544,7 +544,7 @@ Un numero eccessivo di animazioni CSS può causare rotture di stile e incoerenze
 
 ---
 
-Un numero eccessivo di animazioni CSS può portare a posizionamenti bassi o assenti nei risultati dei motori di ricerca.
+Un eccesso di animazioni CSS può portare a posizionamenti più bassi o inesistenti nei risultati dei motori di ricerca.
 
 ---
 
@@ -646,7 +646,7 @@ Quale regola CSS si usa per definire le fasi e gli stili di un'animazione in var
 
 #### --text--
 
-All'interno della media query `reduced‑motion`, quale dichiarazione disabilita le transizioni?
+All'interno della media query `prefers-reduced-motion`, quale dichiarazione disabilita le transizioni?
 
 #### --distractors--
 
@@ -822,7 +822,7 @@ La sequenza di stili in diversi punti di un'animazione.
 
 #### --text--
 
-Cosa fa questa regola at `@keyframe` all'elemento animato?
+Cosa fa questa regola at `@keyframes` all'elemento animato?
 
 ```css
 @keyframes fade-in {

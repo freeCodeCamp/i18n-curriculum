@@ -1,6 +1,6 @@
 ---
 id: 67f8eeab71f4f24ba1a3a7eb
-title: 步骤11
+title: 第 11 步
 challengeType: 0
 dashedName: step-11
 ---
@@ -11,7 +11,7 @@ dashedName: step-11
 
 # --hints--
 
-你应该在 `form` 之后有一个 `id` 为 `results` 的 `div` 元素。
+你应该在表单后添加一个 `id` 为 `results` 的 `div` 元素。
 
 ```js
 const searchContainer = document.getElementById("search-container");
@@ -112,7 +112,6 @@ export function FruitsSearch() {
 
   return (
     <div id="search-container">
-    --fcc-editable-region--
       <form onSubmit={handleSubmit}>
         <label htmlFor="search-input">Search for fruits:</label>
         <input
@@ -122,6 +121,7 @@ export function FruitsSearch() {
           onChange={(e) => setQuery(e.target.value)}
         />
       </form>
+    --fcc-editable-region--
       
     --fcc-editable-region--
     </div>

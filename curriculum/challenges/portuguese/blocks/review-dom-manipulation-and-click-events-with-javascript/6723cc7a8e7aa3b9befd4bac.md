@@ -7,19 +7,19 @@ dashedName: review-dom-manipulation-and-click-events-with-javascript
 
 # --interactive--
 
-## Trabalhando com o DOM e as Web APIs
+## Trabalhando com o DOM e APIs web
 
-- **API**: Uma API (Application Programming Interface) é um conjunto de regras e protocolos que permitem que aplicações de software se comuniquem entre si e troquem dados de forma eficiente.
-- **Web API**: Web APIs são projetadas especificamente para aplicações web. Esses tipos de APIs são frequentemente divididos em duas categorias principais: browser APIs e third-party APIs.
-- **Browser APIs**: Essas APIs expõem dados do navegador. Como desenvolvedor web, você pode acessar e manipular esses dados usando JavaScript.
-- **APIs de Terceiros**: Elas não são incorporadas ao navegador por padrão. Você precisa obter o código delas de alguma forma. Normalmente, elas terão documentação detalhada explicando como usar seus serviços. Um exemplo é a `Google Maps API`, que você pode usar para exibir mapas interativos no seu site.
-- **DOM**: O DOM significa Document Object Model. É uma interface de programação que permite interagir com documentos HTML. Com o DOM, você pode adicionar, modificar ou excluir elementos em uma página web. A raiz da árvore DOM é o elemento `html`. É o contêiner de nível superior para todo o conteúdo de um documento HTML. Todos os outros nós são descendentes desse nó raiz. Em seguida, abaixo do nó raiz, encontramos outros nós na hierarquia. Um nó pai é um elemento que contém outros elementos. Um nó filho é um elemento que está contido dentro de outro elemento.
-- **Interface `navigator`**: Isso fornece informações sobre o ambiente do navegador, como a string do agente do usuário, a plataforma e a versão do navegador. Uma string do agente do usuário é uma string de texto que identifica o navegador e o sistema operacional em uso.
-- **Interface `window`**: Isso representa a janela do navegador que contém o documento DOM. Ela fornece métodos e propriedades para interagir com a janela do navegador, como redimensionar a janela, abrir novas janelas e navegar para diferentes URLs.
+- **API**: Uma API (Interface de Programação de Aplicações) é um conjunto de regras e protocolos que permitem que aplicações de software se comuniquem entre si e troquem dados de forma eficiente.
+- **API web**: APIs web são especificamente projetadas para aplicações web. Esses tipos de APIs são frequentemente divididos em duas categorias principais: APIs do navegador e APIs de terceiros.
+- **APIs do navegador**: Essas APIs expõem dados do navegador. Como desenvolvedor web, você pode acessar e manipular esses dados usando JavaScript.
+- **APIs de terceiros**: Essas não são embutidas no navegador por padrão. Você precisa obter seu código de alguma forma. Normalmente, elas terão documentação detalhada explicando como usar seus serviços. Um exemplo é a API do Google Maps, que você pode usar para exibir mapas interativos no seu site.
+- **DOM**: O DOM significa Document Object Model. É uma interface de programação que permite interagir com documentos HTML. Com o DOM, você pode adicionar, modificar ou excluir elementos em uma página web. A raiz da árvore DOM é o elemento `html`. É o container de nível superior para todo o conteúdo de um documento HTML. Todos os outros nós são descendentes desse nó raiz. Abaixo do nó raiz, encontramos outros nós na hierarquia. Um nó pai é um elemento que contém outros elementos. Um nó filho é um elemento que está contido dentro de outro elemento.
+- **Interface `navigator`**: Fornece informações sobre o ambiente do navegador, como a string do agente do usuário, a plataforma e a versão do navegador. Uma string de agente do usuário é uma string de texto que identifica o navegador e o sistema operacional em uso.
+- **Interface `window`**: Representa a janela do navegador que contém o documento DOM. Ela fornece métodos e propriedades para interagir com a janela do navegador, como redimensionar a janela, abrir novas janelas e navegar para URLs diferentes.
 
 ## Trabalhando com os métodos `querySelector()`, `querySelectorAll()` e `getElementById()`
 
-- **Método `getElementById()`**: Este método é usado para obter um objeto que representa o elemento HTML com o `id` especificado. Lembre-se que os ids devem ser únicos em cada documento HTML, então este método retornará apenas um objeto Element.
+- **Método `getElementById()`**: Este método é usado para obter um objeto que representa o elemento HTML com o `id` especificado. Lembre-se que ids devem ser únicos em todo documento HTML, então este método retornará apenas um objeto Element.
 
 :::interactive_editor
 
@@ -73,7 +73,7 @@ console.log(ingredients)
 
 ## Trabalhando com os métodos `innerText()`, `innerHTML()`, `createElement()` e `textContent()`
 
-- **Propriedade `innerHTML`**: Esta é uma propriedade do `Element` que é usada para definir ou atualizar partes da marcação HTML.
+- **Propriedade `innerHTML`**: Esta é uma propriedade do `Element` usada para definir ou atualizar partes do markup HTML.
 
 :::interactive_editor
 
@@ -91,13 +91,13 @@ container.innerHTML = '<ul><li>Cheese</li><li>Tomato</li></ul>';
 
 :::
 
-- **Método `createElement`**: Isso é usado para criar um elemento HTML.
+- **Método `createElement`**: Este método é usado para criar um elemento HTML.
 
 ```js
 const img = document.createElement("img");
 ```
 
-- **`innerText`**: Isso representa o conteúdo de texto visível do elemento HTML e seus descendentes.
+- **`innerText`**: Representa o conteúdo de texto visível do elemento HTML e seus descendentes.
 
 :::interactive_editor
 
@@ -116,7 +116,7 @@ console.log(container.innerText);
 
 :::
 
-- **`textContent`**: Isso retorna o conteúdo de texto simples de um elemento, incluindo todo o texto dentro de seus descendentes.
+- **`textContent`**: Retorna o conteúdo de texto simples de um elemento, incluindo todo o texto dentro de seus descendentes.
 
 :::interactive_editor
 
@@ -135,7 +135,7 @@ console.log(container.textContent);
 
 :::
 
-## Trabalhando com os Métodos `appendChild()` e `removeChild()`
+## Trabalhando com os métodos `appendChild()` e `removeChild()`
 
 - **Método `appendChild()`**: Este método é usado para adicionar um nó ao final da lista de filhos de um nó pai especificado.
 
@@ -181,9 +181,9 @@ sectionEl.removeChild(lastParagraph);
 
 :::
 
-## Trabalhe com o Método `setAttribute()`
+## Trabalhando com o método `setAttribute()`
 
-- **Definição**: Este método é usado para definir o atributo para um determinado elemento. Se o atributo já existir, o valor é atualizado. Caso contrário, um novo atributo é adicionado com um valor.
+- **Definição**: Este método é usado para definir o atributo de um dado elemento. Se o atributo já existir, o valor é atualizado. Caso contrário, um novo atributo é adicionado com um valor.
 
 :::interactive_editor
 
@@ -199,13 +199,13 @@ para.setAttribute("class", "my-class");
 
 :::
 
-## Objeto de Evento
+## Objeto evento
 
-- **Definição**: O objeto `Event` é uma carga útil que é acionada quando um usuário interage com sua página web de alguma forma. Essas interações podem ser qualquer coisa, desde clicar em um botão ou focar em um input até sacudir o dispositivo móvel deles. Todos os objetos `Event` terão a propriedade `type`. Esta propriedade revela o tipo de evento que acionou o payload, como keydown ou click. Esses valores corresponderão aos mesmos valores que você pode passar para `addEventListener()`, onde você pode capturar e utilizar o objeto `Event`.
+- **Definição**: O objeto `Event` é um payload que é disparado quando um usuário interage com sua página web de alguma forma. Essas interações podem ser desde clicar em um botão ou focar uma entrada até sacudir o dispositivo móvel. Todos os objetos `Event` terão a propriedade `type`. Essa propriedade revela o tipo de evento que disparou o payload, como keydown ou click. Esses valores corresponderão aos mesmos valores que você pode passar para `addEventListener()`, onde pode capturar e utilizar o objeto `Event`.
 
 ## Métodos `addEventListener()` e `removeEventListener()`
 
-- **Método `addEventListener`**: Este método é usado para escutar eventos. Ele recebe dois argumentos: o evento que você quer escutar e uma função que será chamada quando o evento ocorrer. Alguns exemplos comuns de eventos seriam eventos de clique, eventos de entrada e eventos de alteração.
+- **Método `addEventListener`**: Este método é usado para escutar eventos. Ele recebe dois argumentos: o evento que você quer escutar e uma função que será chamada quando o evento ocorrer. Alguns exemplos comuns de eventos são eventos de clique, eventos de entrada e eventos de mudança.
 
 :::interactive_editor
 
@@ -222,7 +222,7 @@ btn.addEventListener("click", () => alert("You clicked the button"));
 
 :::
 
-- **Método `removeEventListener()`**: Este método é usado para remover um event listener que foi previamente adicionado a um elemento usando o método `addEventListener()`. Isso é útil quando você quer parar de escutar um evento específico em um elemento.
+- **Método `removeEventListener()`**: Este método é usado para remover um listener de evento que foi previamente adicionado a um elemento usando o método `addEventListener()`. Isso é útil quando você quer parar de escutar um evento específico em um elemento.
 
 :::interactive_editor
 
@@ -255,7 +255,7 @@ para.addEventListener("mouseover", () => {
 
 :::
 
-- **Manipuladores de Eventos Inline**: Manipuladores de eventos inline são atributos especiais em um elemento HTML usados para executar código JavaScript quando um evento ocorre. No JavaScript moderno, manipuladores de eventos inline não são considerados uma boa prática. É preferível usar o método `addEventListener`.
+- **Manipuladores de evento inline**: Manipuladores de evento inline são atributos especiais em um elemento HTML usados para executar código JavaScript quando um evento ocorre. No JavaScript moderno, manipuladores de evento inline não são considerados melhor prática. É preferível usar o método `addEventListener`.
 
 
 :::interactive_editor
@@ -266,9 +266,9 @@ para.addEventListener("mouseover", () => {
 
 :::
 
-## O Evento de Mudança
+## O evento change
 
-- **Definição**: O evento change é um evento especial que é disparado quando o usuário modifica o valor de certos elementos de entrada. Exemplos incluem quando uma caixa de seleção ou um botão de opção é marcado. Ou quando o usuário faz uma seleção em algo como um seletor de data ou menu suspenso.
+- **Definição**: O evento change é um evento especial que é disparado quando o usuário modifica o valor de certos elementos de entrada. Exemplos incluem quando uma caixa de seleção ou um botão de rádio é marcado. Ou quando o usuário faz uma seleção em algo como um seletor de data ou menu suspenso.
 
 :::interactive_editor
 
@@ -298,22 +298,22 @@ selectEl.addEventListener("change", (e) => {
 
 :::
 
-## Propagação de Eventos
+## Propagação de eventos (event bubbling)
 
 - **Definição**: Event bubbling, ou propagação, refere-se a como um evento "bubbles up" para objetos pai quando acionado.
 - **Método `stopPropagation()`**: Este método impede a propagação adicional de um evento.
 
-## Delegação de Eventos
+## Delegação de eventos
 
-- **Definição**: Delegação de eventos é o processo de escutar eventos que subiram para um elemento pai, em vez de tratá-los diretamente no elemento que os disparou.
+- **Definição**: Delegação de eventos é o processo de escutar eventos que borbulharam até um pai, em vez de tratá-los diretamente no elemento que os disparou.
 
 ## DOMContentLoaded
 
-- **Definição**: O evento `DOMContentLoaded` é disparado quando tudo no documento HTML foi carregado e analisado. Se você tiver folhas de estilo externas ou imagens, o evento `DOMContentLoaded` não esperará que elas sejam carregadas. Ele aguardará apenas o carregamento do HTML.
+- **Definição**: O evento `DOMContentLoaded` é disparado quando tudo no documento HTML foi carregado e analisado. Se você tiver folhas de estilo externas ou imagens, o evento `DOMContentLoaded` não esperará que elas sejam carregadas. Ele só espera o carregamento do HTML.
 
 ## Trabalhando com `style` e `classList`
 
-- **Propriedade `Element.style`**: Esta propriedade é uma propriedade somente leitura que representa o estilo inline de um elemento. Você pode usar esta propriedade para obter ou definir o estilo de um elemento.
+- **Propriedade `Element.style`**: Esta propriedade é somente leitura e representa o estilo inline de um elemento. Você pode usar essa propriedade para obter ou definir o estilo de um elemento.
 
 :::interactive_editor
 
@@ -414,9 +414,9 @@ setTimeout(() => {
 
 :::
 
-## O Método `requestAnimationFrame()`
+## O método `requestAnimationFrame()`
 
-- **Definição**: Este método permite que você agende a próxima etapa da sua animação antes da próxima repintura da tela, resultando em uma experiência fluida e visualmente atraente. A próxima repintura da tela refere-se ao momento em que o navegador atualiza a exibição visual da página web. Isso acontece várias vezes por segundo, tipicamente cerca de 60 vezes (ou 60 quadros por segundo) na maioria dos monitores.
+- **Definição**: Este método permite agendar o próximo passo da sua animação antes da próxima repintura da tela, resultando em uma experiência fluida e visualmente agradável. A próxima repintura da tela refere-se ao momento em que o navegador atualiza a exibição visual da página web. Isso acontece várias vezes por segundo, tipicamente cerca de 60 vezes (ou 60 quadros por segundo) na maioria dos displays.
 
 ```js
 function animate() {
@@ -430,7 +430,7 @@ function animate() {
 
 ## API de Animações Web
 
-- **Definição**: A Web Animations API permite que você crie e controle animações diretamente dentro do JavaScript.
+- **Definição**: A Web Animations API permite criar e controlar animações diretamente dentro do JavaScript.
 
 :::interactive_editor
 
@@ -455,7 +455,7 @@ const square = document.querySelector('#square');
 const animation = square.animate(
  [{ transform: 'translateX(0px)' }, { transform: 'translateX(100px)' }],
  {
-   duration: 2000, // makes animation lasts 2 seconds
+   duration: 2000, // makes the animation last 2 seconds
    iterations: Infinity, // loops indefinitely
    direction: 'alternate', // moves back and forth
    easing: 'ease-in-out', // smooth easing
@@ -465,9 +465,9 @@ const animation = square.animate(
 
 :::
 
-## A API Canvas
+## A Canvas API
 
-- **Definição**: A Canvas API é uma ferramenta poderosa que permite manipular gráficos diretamente dentro do seu arquivo JavaScript. Para trabalhar com a Canvas API, você primeiro precisa fornecer um elemento `canvas` no HTML. Esse elemento atua como uma superfície de desenho que você pode manipular com os métodos de instância e propriedades das interfaces da Canvas API. Essa API possui interfaces como `HTMLCanvasElement`, `CanvasRenderingContext2D`, `CanvasGradient`, `CanvasPattern` e `TextMetrics` que contêm métodos e propriedades que você pode usar para criar gráficos no seu arquivo JavaScript.
+- **Definição**: A Canvas API é uma ferramenta poderosa que permite manipular gráficos diretamente dentro do seu arquivo JavaScript. Para trabalhar com a Canvas API, você primeiro precisa fornecer um elemento `canvas` em HTML. Esse elemento atua como uma superfície de desenho que você pode manipular com os métodos e propriedades das interfaces da Canvas API. Essa API possui interfaces como `HTMLCanvasElement`, `CanvasRenderingContext2D`, `CanvasGradient`, `CanvasPattern` e `TextMetrics`, que contêm métodos e propriedades que você pode usar para criar gráficos no seu arquivo JavaScript.
 
 :::interactive_editor
 
@@ -492,9 +492,9 @@ ctx.fillRect(1, 1, 150, 100);
 
 :::
 
-## Abrindo e Fechando Diálogos e Modais com JavaScript
+## Abrindo e fechando diálogos e modais com JavaScript
 
-- **Definições de Modal e Diálogo**: Diálogos permitem que você exiba informações importantes ou ações para os usuários. Com o elemento de diálogo embutido no HTML, você pode facilmente criar esses diálogos (tanto modais quanto não modais) em suas aplicações web. Um diálogo modal é um tipo de diálogo que obriga o usuário a interagir com ele antes de poder acessar o restante da aplicação ou página web. Em contraste, um diálogo não modal permite que o usuário continue interagindo com outras partes da página ou aplicação mesmo quando o diálogo está aberto. Ele não impede o acesso ao restante do conteúdo.
+- **Definições de modal e diálogo**: Diálogos permitem exibir informações importantes ou ações para os usuários. Com o elemento dialog embutido no HTML, você pode criar facilmente esses diálogos (tanto modais quanto não modais) em seus apps web. Um diálogo modal é um tipo de diálogo que obriga o usuário a interagir com ele antes de acessar o restante da aplicação ou página web. Em contraste, um diálogo não modal permite que o usuário continue interagindo com outras partes da página ou aplicação mesmo quando o diálogo está aberto. Ele não impede o acesso ao restante do conteúdo.
 - **Método `showModal()`**: Este método é usado para abrir um modal.
 
 :::interactive_editor
