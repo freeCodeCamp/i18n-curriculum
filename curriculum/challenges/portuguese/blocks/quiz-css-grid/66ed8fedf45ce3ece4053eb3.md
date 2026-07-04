@@ -139,7 +139,7 @@ Qual é a forma abreviada para as propriedades `column-gap` e `row-gap`?
 
 ---
 
-`grid-gap`
+`grid-space`
 
 #### --answer--
 
@@ -271,7 +271,7 @@ O que a propriedade `grid-template-areas` faz?
 
 ---
 
-É usado para repetir seções na lista de faixas. 
+É usado para repetir seções na lista de faixas.
 
 #### --answer--
 
@@ -964,7 +964,7 @@ O container terá três colunas: 100px, `1fr` e `2fr` de largura e duas linhas: 
 
 #### --text--
 
-Como você faria para que um item da grade (`grid item`) ocupe todas as linhas disponíveis?
+Como você faria um item da grade ocupar todas as linhas disponíveis?
 
 #### --distractors--
 

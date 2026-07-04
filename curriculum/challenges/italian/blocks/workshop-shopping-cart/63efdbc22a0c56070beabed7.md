@@ -1,6 +1,6 @@
 ---
 id: 63efdbc22a0c56070beabed7
-title: Step 24
+title: Passaggio 24
 challengeType: 0
 dashedName: step-24
 ---
@@ -14,12 +14,12 @@ Quando provi a consultare una proprietà di un oggetto che non esiste, JavaScrip
 Per evitare questo, puoi usare l'operatore `||` (OR logico) per fornire un valore predefinito.
 
 ```js
-  let scores = {}; 
-  let players = ["Alice", "Bob", "Charlie"];
+let scores = {};
+let players = ["Alice", "Bob", "Charlie"];
 
-  players.forEach(player => {
-    scores[player] = scores[player] || 0;
-  });
+players.forEach(player => {
+  scores[player] = scores[player] || 0;
+});
 ```
 
 Ora, applichiamo questo concetto al tuo oggetto `totalCountPerProduct` nella callback `forEach`. Assicurati che ogni proprietà `dessert.id` sia inizializzata correttamente.
@@ -265,7 +265,6 @@ class ShoppingCart {
     this.taxRate = 8.25;
   }
 
---fcc-editable-region--
   addItem(id, products) {
     const product = products.find((item) => item.id === id);
     const { name, price } = product;
@@ -273,9 +272,10 @@ class ShoppingCart {
 
     const totalCountPerProduct = {};
     this.items.forEach((dessert) => {
-      
-    })
-  }
 --fcc-editable-region--
+      
+--fcc-editable-region--
+    });
+  }
 };
 ```

@@ -1,28 +1,28 @@
 ---
 id: 63efdbc22a0c56070beabed7
-title: Step 24
+title: ステップ 24
 challengeType: 0
 dashedName: step-24
 ---
 
 # --description--
 
-順調に進んでいますね！ただし、JavaScriptでオブジェクトを扱う際によくある問題について少し説明します。
+順調に進んでいます！ただし、JavaScriptでオブジェクトを扱う際によくある問題について少し説明します。
 
-存在しないオブジェクトのプロパティにアクセスしようとすると、JavaScriptは`undefined`を返します。もしその`undefined`に対して算術演算を行おうとすると、`NaN`のような予期しない結果になることがあります。
+存在しないオブジェクトのプロパティにアクセスしようとすると、JavaScriptは`undefined`を返します。その後、`undefined`に対して算術演算を行おうとすると、`NaN`のような予期しない結果になる場合があります。
 
 これを防ぐために、`||`（論理OR）演算子を使ってデフォルト値を設定できます。
 
 ```js
-  let scores = {}; 
-  let players = ["Alice", "Bob", "Charlie"];
+let scores = {};
+let players = ["Alice", "Bob", "Charlie"];
 
-  players.forEach(player => {
-    scores[player] = scores[player] || 0;
-  });
+players.forEach(player => {
+  scores[player] = scores[player] || 0;
+});
 ```
 
-では、この考え方を`totalCountPerProduct`のコールバック内の`forEach`オブジェクトに適用しましょう。各`dessert.id`プロパティが適切に初期化されていることを確認してください。
+では、この考え方を`forEach`のコールバック内の`totalCountPerProduct`オブジェクトに適用しましょう。各`dessert.id`プロパティが正しく初期化されていることを確認してください。
 
 `totalCountPerProduct[dessert.id]`演算子を使って、`0`を`||`のデフォルト値で初期化してください。
 
@@ -265,7 +265,6 @@ class ShoppingCart {
     this.taxRate = 8.25;
   }
 
---fcc-editable-region--
   addItem(id, products) {
     const product = products.find((item) => item.id === id);
     const { name, price } = product;
@@ -273,9 +272,10 @@ class ShoppingCart {
 
     const totalCountPerProduct = {};
     this.items.forEach((dessert) => {
-      
-    })
-  }
 --fcc-editable-region--
+      
+--fcc-editable-region--
+    });
+  }
 };
 ```

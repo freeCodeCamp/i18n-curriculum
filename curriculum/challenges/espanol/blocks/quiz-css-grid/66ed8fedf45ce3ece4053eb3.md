@@ -7,7 +7,7 @@ dashedName: quiz-css-grid
 
 # --description--
 
-Para aprobar el cuestionario, debe responder correctamente al menos 18 de las 20 preguntas a continuación.
+Para aprobar el quiz, debes responder correctamente al menos 18 de las 20 preguntas a continuación.
 
 # --quizzes--
 
@@ -139,7 +139,7 @@ Establece los tamaños mínimos y máximos para una pista.
 
 ---
 
-`grid-gap`
+`grid-space`
 
 #### --answer--
 
@@ -271,7 +271,7 @@ Se utiliza para crear huecos entre las pistas en el contenedor.
 
 ---
 
-Se utiliza para repetir secciones en la lista de pistas. 
+Se utiliza para repetir secciones en la lista de pistas.
 
 #### --answer--
 

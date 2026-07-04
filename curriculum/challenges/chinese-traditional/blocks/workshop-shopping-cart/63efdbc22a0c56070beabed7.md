@@ -1,28 +1,28 @@
 ---
 id: 63efdbc22a0c56070beabed7
-title: Step 24
+title: 第 24 步
 challengeType: 0
 dashedName: step-24
 ---
 
 # --description--
 
-你走在正確的道路上！不過，讓我們花點時間來處理在 JavaScript 中操作物件時常見的問題。
+你走在正確的路上！不過，讓我們花點時間來處理在 JavaScript 中操作物件時常見的一個問題。
 
-當你嘗試存取不存在的物件屬性時，JavaScript 會傳回 `undefined`。如果你接著嘗試對 `undefined` 執行算術操作，可能會導致意外的結果，例如 `NaN`。
+當你嘗試存取一個不存在的物件屬性時，JavaScript 會傳回 `undefined`。如果你接著嘗試對 `undefined` 進行算術運算，可能會導致意想不到的結果，例如 `NaN`。
 
 為了避免這種情況，你可以使用 `||`（邏輯 OR）運算子來提供預設值。
 
 ```js
-  let scores = {}; 
-  let players = ["Alice", "Bob", "Charlie"];
+let scores = {};
+let players = ["Alice", "Bob", "Charlie"];
 
-  players.forEach(player => {
-    scores[player] = scores[player] || 0;
-  });
+players.forEach(player => {
+  scores[player] = scores[player] || 0;
+});
 ```
 
-現在，讓我們將這個概念應用到你在 `forEach` 回呼中的 `totalCountPerProduct` 物件。請確保每個 `dessert.id` 屬性都已正確初始化。
+現在，讓我們將這個概念應用到你在 `forEach` 回呼中使用的 `totalCountPerProduct` 物件。確保每個 `dessert.id` 屬性都被正確初始化。
 
 使用 `||` 運算子將 `totalCountPerProduct[dessert.id]` 初始化為預設值 `0`。
 
@@ -265,7 +265,6 @@ class ShoppingCart {
     this.taxRate = 8.25;
   }
 
---fcc-editable-region--
   addItem(id, products) {
     const product = products.find((item) => item.id === id);
     const { name, price } = product;
@@ -273,9 +272,10 @@ class ShoppingCart {
 
     const totalCountPerProduct = {};
     this.items.forEach((dessert) => {
-      
-    })
-  }
 --fcc-editable-region--
+      
+--fcc-editable-region--
+    });
+  }
 };
 ```

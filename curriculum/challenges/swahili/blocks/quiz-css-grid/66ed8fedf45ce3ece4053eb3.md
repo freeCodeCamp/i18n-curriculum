@@ -139,7 +139,7 @@ Ni kifupi gani cha sifa za `column-gap` na `row-gap`?
 
 ---
 
-`grid-gap`
+`grid-space`
 
 #### --answer--
 
@@ -933,7 +933,7 @@ Ni sifa gani ungetumia kudhibiti tabia ya kuzidi katika mistari ya gridi?
 
 #### --text--
 
-Matokeo ya msimbo ufuatao yatakuwa yapi?
+Matokeo ya msimbo ufuatao yatakuwa nini?
 
 ```css
 .container {

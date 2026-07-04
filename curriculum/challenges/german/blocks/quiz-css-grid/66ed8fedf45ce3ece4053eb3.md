@@ -7,7 +7,7 @@ dashedName: quiz-css-grid
 
 # --description--
 
-Um das Quiz zu bestehen, müssen Sie mindestens 18 der 20 Fragen unten richtig beantworten.
+Um das Quiz zu bestehen, müssen Sie mindestens 18 der 20 untenstehenden Fragen richtig beantworten.
 
 # --quizzes--
 
@@ -139,7 +139,7 @@ Was ist die Kurzschreibweise für die `column-gap`- und `row-gap`-Eigenschaften?
 
 ---
 
-`grid-gap`
+`grid-space`
 
 #### --answer--
 

@@ -1,28 +1,28 @@
 ---
 id: 63efdbc22a0c56070beabed7
-title: Step 24
+title: Крок 24
 challengeType: 0
 dashedName: step-24
 ---
 
 # --description--
 
-Ви на правильному шляху! Однак давайте на мить зупинимося на загальній проблемі при роботі з об’єктами в JavaScript.
+Ви на правильному шляху! Однак давайте приділимо хвилину, щоб розглянути загальну проблему при роботі з об’єктами в JavaScript.
 
 Коли ви намагаєтеся отримати доступ до властивості об’єкта, якої не існує, JavaScript повертає `undefined`. Якщо потім ви спробуєте виконати арифметичні дії над `undefined`, це може призвести до несподіваних результатів, таких як `NaN`.
 
 Щоб уникнути цього, ви можете використати оператор `||` (логічне АБО), щоб надати значення за замовчуванням.
 
 ```js
-  let scores = {}; 
-  let players = ["Alice", "Bob", "Charlie"];
+let scores = {};
+let players = ["Alice", "Bob", "Charlie"];
 
-  players.forEach(player => {
-    scores[player] = scores[player] || 0;
-  });
+players.forEach(player => {
+  scores[player] = scores[player] || 0;
+});
 ```
 
-Тепер застосуємо цю ідею до вашого об’єкта `totalCountPerProduct` у функції зворотного виклику `forEach`. Переконайтеся, що кожна властивість `dessert.id` ініціалізована правильно.
+Тепер застосуємо цю концепцію до вашого об’єкта `totalCountPerProduct` у функції зворотного виклику `forEach`. Переконайтеся, що кожна властивість `dessert.id` ініціалізована правильно.
 
 Ініціалізуйте `totalCountPerProduct[dessert.id]` значенням за замовчуванням `0` за допомогою оператора `||`.
 
@@ -265,7 +265,6 @@ class ShoppingCart {
     this.taxRate = 8.25;
   }
 
---fcc-editable-region--
   addItem(id, products) {
     const product = products.find((item) => item.id === id);
     const { name, price } = product;
@@ -273,9 +272,10 @@ class ShoppingCart {
 
     const totalCountPerProduct = {};
     this.items.forEach((dessert) => {
-      
-    })
-  }
 --fcc-editable-region--
+      
+--fcc-editable-region--
+    });
+  }
 };
 ```
