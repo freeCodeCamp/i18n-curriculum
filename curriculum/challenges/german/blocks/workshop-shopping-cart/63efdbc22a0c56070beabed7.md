@@ -1,25 +1,25 @@
 ---
 id: 63efdbc22a0c56070beabed7
-title: Step 24
+title: Schritt 24
 challengeType: 0
 dashedName: step-24
 ---
 
 # --description--
 
-Sie sind auf dem richtigen Weg! Lassen Sie uns jedoch einen Moment nutzen, um ein häufiges Problem beim Arbeiten mit Objekten in JavaScript zu klären.
+Sie sind auf dem richtigen Weg! Lassen Sie uns jedoch einen Moment innehalten, um ein häufiges Problem beim Arbeiten mit Objekten in JavaScript zu klären.
 
-Wenn Sie versuchen, auf eine Eigenschaft eines Objekts zuzugreifen, die nicht existiert, gibt JavaScript `undefined` zurück. Wenn Sie dann versuchen, arithmetische Operationen auf `undefined` auszuführen, kann das zu unerwarteten Ergebnissen führen, wie zum Beispiel `NaN`.
+Wenn Sie versuchen, auf eine Objekteigenschaft zuzugreifen, die nicht existiert, gibt JavaScript `undefined` zurück. Wenn Sie dann versuchen, arithmetische Operationen auf `undefined` auszuführen, kann das zu unerwarteten Ergebnissen wie `NaN` führen.
 
 Um dies zu verhindern, können Sie den `||`-Operator (logisches ODER) verwenden, um einen Standardwert bereitzustellen.
 
 ```js
-  let scores = {}; 
-  let players = ["Alice", "Bob", "Charlie"];
+let scores = {};
+let players = ["Alice", "Bob", "Charlie"];
 
-  players.forEach(player => {
-    scores[player] = scores[player] || 0;
-  });
+players.forEach(player => {
+  scores[player] = scores[player] || 0;
+});
 ```
 
 Wenden wir dieses Konzept nun auf Ihr `totalCountPerProduct`-Objekt im `forEach`-Callback an. Stellen Sie sicher, dass jede `dessert.id`-Eigenschaft richtig initialisiert ist.
@@ -265,7 +265,6 @@ class ShoppingCart {
     this.taxRate = 8.25;
   }
 
---fcc-editable-region--
   addItem(id, products) {
     const product = products.find((item) => item.id === id);
     const { name, price } = product;
@@ -273,9 +272,10 @@ class ShoppingCart {
 
     const totalCountPerProduct = {};
     this.items.forEach((dessert) => {
-      
-    })
-  }
 --fcc-editable-region--
+      
+--fcc-editable-region--
+    });
+  }
 };
 ```

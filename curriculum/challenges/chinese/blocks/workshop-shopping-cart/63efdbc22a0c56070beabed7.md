@@ -1,28 +1,28 @@
 ---
 id: 63efdbc22a0c56070beabed7
-title: Step 24
+title: 步骤 24
 challengeType: 0
 dashedName: step-24
 ---
 
 # --description--
 
-你走在正确的道路上！ 但是，让我们花点时间来解决使用 JavaScript 对象时常见的一个问题。
+你走在正确的道路上！不过，让我们花点时间来解决在 JavaScript 中操作对象时的一个常见问题。
 
-当你尝试访问不存在的对象属性时，JavaScript 会返回 `undefined`。 如果你尝试对 `undefined` 执行算术运算，则可能会导致意外结果，例如 `NaN`。
+当你尝试访问一个不存在的对象属性时，JavaScript 会返回 `undefined`。如果你随后尝试对 `undefined` 执行算术操作，可能会导致意想不到的结果，比如 `NaN`。
 
 为了防止这种情况，你可以使用 `||`（逻辑或）运算符来提供默认值。
 
 ```js
-  let scores = {}; 
-  let players = ["Alice", "Bob", "Charlie"];
+let scores = {};
+let players = ["Alice", "Bob", "Charlie"];
 
-  players.forEach(player => {
-    scores[player] = scores[player] || 0;
-  });
+players.forEach(player => {
+  scores[player] = scores[player] || 0;
+});
 ```
 
-现在，让我们将这个概念应用到 `forEach` 回调中的 `totalCountPerProduct` 对象。 确保每个 `dessert.id` 属性都已正确初始化。
+现在，让我们将这个概念应用到你在 `forEach` 回调中的 `totalCountPerProduct` 对象。确保每个 `dessert.id` 属性都被正确初始化。
 
 使用 `||` 运算符将 `totalCountPerProduct[dessert.id]` 初始化为默认值 `0`。
 
@@ -265,7 +265,6 @@ class ShoppingCart {
     this.taxRate = 8.25;
   }
 
---fcc-editable-region--
   addItem(id, products) {
     const product = products.find((item) => item.id === id);
     const { name, price } = product;
@@ -273,9 +272,10 @@ class ShoppingCart {
 
     const totalCountPerProduct = {};
     this.items.forEach((dessert) => {
-      
-    })
-  }
 --fcc-editable-region--
+      
+--fcc-editable-region--
+    });
+  }
 };
 ```

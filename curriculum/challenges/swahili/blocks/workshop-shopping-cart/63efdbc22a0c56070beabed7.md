@@ -1,25 +1,25 @@
 ---
 id: 63efdbc22a0c56070beabed7
-title: Step 24
+title: Hatua 24
 challengeType: 0
 dashedName: step-24
 ---
 
 # --description--
 
-Uko kwenye njia sahihi! Hata hivyo, hebu tuchukue muda kushughulikia tatizo la kawaida linapokuja suala la kufanya kazi na vitu katika JavaScript.
+Uko kwenye njia sahihi! Hata hivyo, hebu tuchukue muda kidogo kushughulikia tatizo la kawaida linapokuja suala la kufanya kazi na vitu katika JavaScript.
 
-Unapojaribu kupata upatikanaji wa sifa ya kitu ambacho hakipo, JavaScript hurudisha `undefined`. Ikiwa kisha utajaribu kufanya operesheni za kihesabu kwenye `undefined`, inaweza kusababisha matokeo yasiyotarajiwa, kama vile `NaN`.
+Unapojaribu kupata upatikanaji wa sifa ya kitu ambayo haipo, JavaScript hurejesha `undefined`. Ikiwa kisha utajaribu kufanya operesheni za kihesabu kwenye `undefined`, inaweza kusababisha matokeo yasiyotegemewa, kama vile `NaN`.
 
 Ili kuzuia hili, unaweza kutumia opereta wa `||` (logical OR) kutoa thamani ya msingi.
 
 ```js
-  let scores = {}; 
-  let players = ["Alice", "Bob", "Charlie"];
+let scores = {};
+let players = ["Alice", "Bob", "Charlie"];
 
-  players.forEach(player => {
-    scores[player] = scores[player] || 0;
-  });
+players.forEach(player => {
+  scores[player] = scores[player] || 0;
+});
 ```
 
 Sasa, hebu tumia dhana hii kwenye kitu chako cha `totalCountPerProduct` katika wito wa kurudisha wa `forEach`. Hakikisha kila sifa ya `dessert.id` imeanzishwa ipasavyo.
@@ -265,7 +265,6 @@ class ShoppingCart {
     this.taxRate = 8.25;
   }
 
---fcc-editable-region--
   addItem(id, products) {
     const product = products.find((item) => item.id === id);
     const { name, price } = product;
@@ -273,9 +272,10 @@ class ShoppingCart {
 
     const totalCountPerProduct = {};
     this.items.forEach((dessert) => {
-      
-    })
-  }
 --fcc-editable-region--
+      
+--fcc-editable-region--
+    });
+  }
 };
 ```

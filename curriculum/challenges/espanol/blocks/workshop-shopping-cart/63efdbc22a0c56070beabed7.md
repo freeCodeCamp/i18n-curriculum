@@ -1,28 +1,28 @@
 ---
 id: 63efdbc22a0c56070beabed7
-title: Step 24
+title: Paso 24
 challengeType: 0
 dashedName: step-24
 ---
 
 # --description--
 
-¡Vas por el buen camino! Sin embargo, tomemos un momento para abordar un problema común al trabajar con objetos en JavaScript.
+¡Vas por buen camino! Sin embargo, tomemos un momento para abordar un problema común al trabajar con objetos en JavaScript.
 
-Cuando intentas acceder a una propiedad de objeto que no existe, JavaScript devuelve `undefined`. Si luego intentas realizar operaciones aritméticas sobre `undefined`, puede llevar a resultados inesperados, como `NaN`.
+Cuando intentas acceder a una propiedad de un objeto que no existe, JavaScript devuelve `undefined`. Si luego intentas realizar una operación aritmética sobre `undefined`, puede generar resultados inesperados, como `NaN`.
 
 Para prevenir esto, puedes usar el operador `||` (OR lógico) para proporcionar un valor por defecto.
 
 ```js
-  let scores = {}; 
-  let players = ["Alice", "Bob", "Charlie"];
+let scores = {};
+let players = ["Alice", "Bob", "Charlie"];
 
-  players.forEach(player => {
-    scores[player] = scores[player] || 0;
-  });
+players.forEach(player => {
+  scores[player] = scores[player] || 0;
+});
 ```
 
-Ahora, apliquemos este concepto a tu objeto `totalCountPerProduct` en la función de devolución de llamada `forEach`. Asegúrate de que cada propiedad `dessert.id` esté inicializada correctamente.
+Ahora, apliquemos este concepto a tu objeto `totalCountPerProduct` dentro del callback `forEach`. Asegúrate de que cada propiedad `dessert.id` esté inicializada correctamente.
 
 Inicializa `totalCountPerProduct[dessert.id]` con un valor por defecto de `0` usando el operador `||`.
 
@@ -265,7 +265,6 @@ class ShoppingCart {
     this.taxRate = 8.25;
   }
 
---fcc-editable-region--
   addItem(id, products) {
     const product = products.find((item) => item.id === id);
     const { name, price } = product;
@@ -273,9 +272,10 @@ class ShoppingCart {
 
     const totalCountPerProduct = {};
     this.items.forEach((dessert) => {
-      
-    })
-  }
 --fcc-editable-region--
+      
+--fcc-editable-region--
+    });
+  }
 };
 ```

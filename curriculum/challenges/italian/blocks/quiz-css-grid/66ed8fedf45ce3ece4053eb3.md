@@ -139,7 +139,7 @@ Qual è la scorciatoia per le proprietà `column-gap` e `row-gap`?
 
 ---
 
-`grid-gap`
+`grid-space`
 
 #### --answer--
 
@@ -933,7 +933,7 @@ Quale proprietà useresti per controllare il comportamento di overflow nelle tra
 
 #### --text--
 
-Quale sarà il risultato per il seguente codice?
+Quale sarà il risultato del seguente codice?
 
 ```css
 .container {

@@ -139,7 +139,7 @@ dashedName: quiz-css-grid
 
 ---
 
-`grid-gap`
+`grid-space`
 
 #### --answer--
 
@@ -933,7 +933,7 @@ dashedName: quiz-css-grid
 
 #### --text--
 
-Яким буде результат для такого коду?
+Яким буде результат для наступного коду?
 
 ```css
 .container {
