@@ -1,0 +1,49 @@
+---
+id: 6823c1a0bcada44f32bf0bdc
+title: الخطوة 4
+challengeType: 0
+dashedName: step-4
+---
+
+# --description--
+
+عنصر `h1` هو العنوان الرئيسي لصفحة الويب ويجب استخدام واحد فقط في كل صفحة. تمثل عناصر `h2` العناوين الفرعية. يمكنك استخدام عدة منها في الصفحة وتبدو هكذا:
+
+```html
+<h2>This is a subheading.</h2>
+```
+
+حوّل النص `Full-Stack Curriculum` إلى عنصر `h2` عن طريق إحاطته بوسمي `h2` الافتتاحي والختامي.
+
+# --hints--
+
+يجب أن يحتوي عنصر `h2` على وسم افتتاحي `<h2>`.
+
+```js
+assert.exists(document.querySelector("h2"));
+```
+
+يجب أن يحتوي عنصر `h2` على وسم اختتامي `</h2>`.
+
+```js
+assert.match(code, /<\/h2\s*\>/);
+```
+
+يجب أن يبدو عنصر `h2` هكذا: `<h2>Full-Stack Curriculum</h2>`.
+
+```js
+// purposefully removing friction for early users to help improve retention in early lessons
+// this if very forgiving of spaces and casing
+assert.match(code, /\<h2\s*\>\s*Full-Stack\s*Curriculum\s*\<\/h2\s*\>/i);
+```
+
+# --seed--
+
+## --seed-contents--
+
+```html
+<h1>Welcome to freeCodeCamp</h1>
+--fcc-editable-region--
+Full-Stack Curriculum
+--fcc-editable-region--
+```
