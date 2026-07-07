@@ -30,7 +30,7 @@ lang: en-US
 
 `Customizable` 指的是可以變更或修改以符合不同偏好、需求或要求的事物。例如：
 
-`The dashboard in this project management tool is customizable, allowing each team to organize their tasks in their preferred way。`－這表示儀表板可以依照每個團隊的需求進行修改，幫助他們更高效地組織工作。
+`The dashboard in this project management tool is customizable, allowing each team to organize their tasks in their preferred way.`－這表示儀表板可以依照每個團隊的需求進行修改，幫助他們更高效地組織工作。
 
 # --scene--
 

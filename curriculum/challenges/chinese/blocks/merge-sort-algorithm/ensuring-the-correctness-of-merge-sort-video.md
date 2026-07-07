@@ -8,7 +8,7 @@ dashedName: ensuring-the-correctness-of-merge-sort
 
 # --description--
 
-在这个 `video` 中，你将学习如何评估归并排序 `algorithm` 并确定其正确性。 
+在这个 video 中，你将学习如何评估归并排序 algorithm 并确定其正确性。
 
 # --questions--
 

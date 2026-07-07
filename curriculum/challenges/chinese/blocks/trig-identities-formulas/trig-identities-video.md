@@ -8,7 +8,7 @@ dashedName: trig-identities
 
 # --description--
 
-在这个 `video` 中，你将学习三角恒等式。
+在这个 video 中，你将学习三角恒等式。
 
 # --questions--
 

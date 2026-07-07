@@ -8,7 +8,7 @@ dashedName: class-vs-static-methods
 
 # --description--
 
-在这个 `video` 中，你将学习 `class` 和静态 `method` 之间的区别。
+在这个 video 中，你将学习 class 和静态 method 之间的区别。
 
 # --questions--
 
@@ -30,7 +30,7 @@ dashedName: class-vs-static-methods
 
 ---
 
-一个绑定到类本身而不是类的实例的 `method`。
+一个绑定到类本身而不是类的实例的 method。
 
 ## --video-solution--
 

@@ -8,13 +8,13 @@ dashedName: building-an-mcp-server
 
 # --description--
 
-在这个 `video` 中，你将学习如何构建一个 MCP `server`。
+在这个 video 中，你将学习如何构建一个 MCP server。
 
 # --questions--
 
 ## --text--
 
-MCP `server` 的三个 `component` 是什么？
+MCP server 的三个 component 是什么？
 
 ## --answers--
 

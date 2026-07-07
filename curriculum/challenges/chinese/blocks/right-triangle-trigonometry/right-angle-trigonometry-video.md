@@ -8,13 +8,13 @@ dashedName: right-angle-trigonometry
 
 # --description--
 
-在这个 `video` 中，你将学习常见的三角函数，包括正弦、余弦和正切，以及如何计算直角三角形的这些函数。
+在这个 video 中，你将学习常见的三角函数，包括正弦、余弦和正切，以及如何计算直角三角形的这些函数。
 
 # --questions--
 
 ## --text--
 
-直角三角形中角度 `theta` 的正弦值是多少？
+直角三角形中角度 theta 的正弦值是多少？
 
 ## --answers--
 

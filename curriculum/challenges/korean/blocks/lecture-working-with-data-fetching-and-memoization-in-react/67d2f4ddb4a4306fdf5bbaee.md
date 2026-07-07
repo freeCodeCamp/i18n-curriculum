@@ -124,7 +124,7 @@ function ExpensiveSquare({ num }) {
 export default ExpensiveSquare;
 ```
 
-이렇게 하면 함수가 결과를 캐시하여 메모이제이션되므로 `num` 변수가 변경될 때만 계산이 이루어지고, 컴포넌트 내 다른 변경 사항에는 영향을 받지 않습니다. `ExpensiveSquare` 컴포넌트는 부모 컴포넌트의 `timer` 상태가 업데이트될 때마다 계속 재렌더링되지만, `calculateSquare` 계산은 초기 렌더링 시와 `num`이 변경될 때만 다시 실행됩니다.
+이렇게 하면 함수가 결과를 캐시하여 메모이제이션되므로 `num` 변수가 변경될 때만 계산이 이루어지고, 컴포넌트 내 다른 변경 사항에는 영향을 받지 않습니다. `ExpensiveSquare` 컴포넌트는 부모 컴포넌트의 `timer` 상태가 업데이트될 때마다 계속 재렌더링되지만, `calculateSquare` 계산은 초기 렌더링 시와 num이 변경될 때만 다시 실행됩니다.
 
 # --questions--
 

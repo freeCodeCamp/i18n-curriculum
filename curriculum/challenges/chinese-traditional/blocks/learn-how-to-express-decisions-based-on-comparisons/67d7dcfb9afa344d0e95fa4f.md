@@ -42,7 +42,7 @@ lang: en-US
 
 `Delay` 是指使某事比預期花費更長時間或將其延後。例如：
 
-`The software release was delayed due to unexpected bugs。`－這表示因為技術問題，發布被延後了。  
+`The software release was delayed due to unexpected bugs.`－這表示因為技術問題，發布被延後了。
 
 # --scene--
 

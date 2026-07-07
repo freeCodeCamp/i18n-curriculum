@@ -42,7 +42,7 @@ lang: en-US
 
 `Disagree` 意味着有不同的观点或不一致。例如：  
 
-`Jake and Maria disagree on which software to use。` - 这表明 Jake 和 Maria 对软件的选择有不同的意见。
+`Jake and Maria disagree on which software to use.` - 这表明 Jake 和 Maria 对软件的选择有不同的意见。
 
 # --scene--
 

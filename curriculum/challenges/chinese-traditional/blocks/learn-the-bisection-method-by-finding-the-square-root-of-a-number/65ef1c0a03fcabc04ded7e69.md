@@ -7,7 +7,7 @@ dashedName: step-12
 
 # --description--
 
-在 `for` 迴圈中，計算從 `low` 到 `high` 區間的中點。將此值指定給變數 `mid`。
+在 for 迴圈中，計算從 `low` 到 `high` 區間的中點。將此值指定給變數 `mid`。
 
 此外，計算中點（`mid`）的平方並將其儲存在變數 `square_mid` 中。
     

@@ -209,7 +209,7 @@ img {
 
 #### --text--
 
-`placeholder`要素の`input`属性に関するアクセシビリティの問題はどれですか？
+`input`要素の`placeholder`属性に関するアクセシビリティの問題はどれですか？
 
 #### --distractors--
 

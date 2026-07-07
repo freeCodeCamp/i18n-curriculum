@@ -14,7 +14,7 @@ Neste vídeo, você aprenderá mais sobre o algoritmo de merge sort e verá como
 
 ## --text--
 
-Qual é o propósito da `merge function` no algoritmo de `merge sort`?
+Qual é o propósito da merge function no algoritmo de merge sort?
 
 ## --answers--
 
@@ -26,7 +26,7 @@ Ele divide a lista em sublistas menores.
 
 ---
 
-Ele seleciona o maior `element` da lista.
+Ele seleciona o maior element da lista.
 
 ---
 

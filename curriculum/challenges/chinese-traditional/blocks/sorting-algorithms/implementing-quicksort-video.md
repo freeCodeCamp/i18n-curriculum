@@ -14,7 +14,7 @@ dashedName: implementing-quicksort
 
 ## --text--
 
-這個 Python `quicksort` 實作的基本情況是什麼？
+這個 Python quicksort 實作的基本情況是什麼？
 
 ## --answers--
 

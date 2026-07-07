@@ -105,7 +105,7 @@ p[lang="fr"] { color: blue; }
 
 #### --text--
 
-哪个 CSS 选择器可匹配所有带有 `a` 属性的 `href` 元素？
+哪个 CSS 选择器可匹配所有带有 `href` 属性的 `a` 元素？
 
 #### --distractors--
 
@@ -277,7 +277,7 @@ a[href][title] { text-decoration: underline dotted; }
 
 #### --text--
 
-如果你正在为一家餐厅开发网站，希望为所有带有 `menu-item` 属性的 `data-special` 类元素设计样式，你会使用哪个 CSS 选择器？
+如果你正在为一家餐厅开发网站，希望为所有带有 `data-special` 属性的 `menu-item` 类元素设计样式，你会使用哪个 CSS 选择器？
 
 #### --distractors--
 

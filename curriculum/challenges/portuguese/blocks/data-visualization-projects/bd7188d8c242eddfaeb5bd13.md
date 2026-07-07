@@ -26,7 +26,7 @@ Você pode usar HTML, JavaScript, CSS e a biblioteca de visualização D3, basea
 
 **User Story #6:** Deve haver pelo menos 4 cores de preenchimento diferentes usadas para as células.
 
-**História de Usuário #7:** Cada célula terá as propriedades `data-month`, `data-year`, `data-temp` contendo seus respectivos valores de `mês`, `ano` e `temperatura`.
+**História de Usuário #7:** Cada célula terá as propriedades `data-month`, `data-year`, `data-temp` contendo seus respectivos valores de `month`, `year` e `temperature`.
 
 **História de Usuário #8:** O `data-month`, `data-year` de cada célula deve estar dentro do intervalo dos dados.
 

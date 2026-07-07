@@ -17,7 +17,7 @@ dashedName: headline-with-the-h2-element
 
 # --instructions--
 
-"Hello World" `h2` 요소 아래에 두 번째 HTML 요소로 "CatPhotoApp"이라는 텍스트를 가진 `h1` 태그를 추가하세요.
+"Hello World" `h1` 요소 아래에 두 번째 HTML 요소로 "CatPhotoApp"이라는 텍스트를 가진 `h2` 태그를 추가하세요.
 
 # --hints--
 

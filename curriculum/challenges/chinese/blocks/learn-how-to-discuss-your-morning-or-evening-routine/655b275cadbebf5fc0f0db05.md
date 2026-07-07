@@ -38,7 +38,7 @@ lang: en-US
 
 ### --feedback--
 
-这个词指的是一个虚拟 `environment`。
+这个词指的是一个虚拟 environment。
 
 # --scene--
 

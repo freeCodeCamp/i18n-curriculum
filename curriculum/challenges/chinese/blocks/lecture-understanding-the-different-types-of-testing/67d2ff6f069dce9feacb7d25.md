@@ -43,7 +43,7 @@ dashedName: what-is-compatibility-testing
 
 ---
 
-为了确保你的 `applications` 没有任何 linting 和格式化误差。
+为了确保你的 applications 没有任何 linting 和格式化误差。
 
 ### --feedback--
 
@@ -67,7 +67,7 @@ dashedName: what-is-compatibility-testing
 
 ## --text--
 
-以下哪项是指当前 `software` 与早期版本兼容？
+以下哪项是指当前 software 与早期版本兼容？
 
 ## --answers--
 

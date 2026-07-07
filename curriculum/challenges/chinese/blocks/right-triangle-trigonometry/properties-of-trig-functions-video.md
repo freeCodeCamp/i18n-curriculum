@@ -8,7 +8,7 @@ dashedName: properties-of-trig-functions
 
 # --description--
 
-在这个 `video` 中，你将学习三角函数的性质。
+在这个 video 中，你将学习三角函数的性质。
 
 # --questions--
 

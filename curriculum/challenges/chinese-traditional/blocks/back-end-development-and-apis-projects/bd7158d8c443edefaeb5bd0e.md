@@ -19,7 +19,7 @@ dashedName: url-shortener-microservice
 
 # --hints--
 
-將以下測試寫入 `tests/2_functional-tests.js`：
+將以下測試寫入 tests/2_functional-tests.js：
 
 ```js
   assert(

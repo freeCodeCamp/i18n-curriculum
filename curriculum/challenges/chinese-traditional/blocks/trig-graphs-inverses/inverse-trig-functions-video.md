@@ -18,11 +18,11 @@ dashedName: inverse-trig-functions
 
 ## --answers--
 
-將原始 `function` 的圖形先以直線 $y = 2x$ 對稱翻轉，再以直線 $y = x$ 對稱翻轉。
+將原始 function 的圖形先以直線 $y = 2x$ 對稱翻轉，再以直線 $y = x$ 對稱翻轉。
 
 ---
 
-將原始 `function` 的圖形先以直線 $y = x$ 對稱翻轉，再以直線 $y = -x$ 對稱翻轉。
+將原始 function 的圖形先以直線 $y = x$ 對稱翻轉，再以直線 $y = -x$ 對稱翻轉。
 
 ---
 
@@ -30,7 +30,7 @@ dashedName: inverse-trig-functions
 
 ---
 
-將原始 `function` 的圖形繞著直線 $y = -x$ 翻轉。
+將原始 function 的圖形繞著直線 $y = -x$ 翻轉。
 
 ## --video-solution--
 

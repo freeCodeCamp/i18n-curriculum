@@ -8,13 +8,13 @@ dashedName: merge-sort-revisited
 
 # --description--
 
-Neste vídeo, você revisitará o algoritmo de `merge sort`.
+Neste vídeo, você revisitará o algoritmo de merge sort.
 
 # --questions--
 
 ## --text--
 
-Qual é a principal diferença entre os algoritmos `merge sort` e `quicksort`?
+Qual é a principal diferença entre os algoritmos merge sort e quicksort?
 
 ## --answers--
 
@@ -26,11 +26,11 @@ Quicksort irá particionar a lista em torno de um pivot e ordenar recursivamente
 
 ---
 
-O `merge sort` usa uma `hash table` para contar elementos, enquanto o `quicksort` usa uma `deque` para reordenar elementos.
+O merge sort usa uma hash table para contar elementos, enquanto o quicksort usa uma deque para reordenar elementos.
 
 ---
 
-Quicksort sempre usa um `while loop` para ordenar, enquanto merge sort usa um `for loop`.
+Quicksort sempre usa um while loop para ordenar, enquanto merge sort usa um for loop.
 
 ## --video-solution--
 

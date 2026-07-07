@@ -51,11 +51,11 @@ dashedName: quiz-javascript-strings
 
 ---
 
-``Hello, {user}!``
+`` `Hello, {user}!` ``
 
 #### --answer--
 
-``Hello, ${user}!``
+`` `Hello, ${user}!` ``
 
 ### --question--
 
@@ -459,7 +459,7 @@ console.log(organization.indexOf("c"));
 
 #### --text--
 
-以下哪一項是正確的跳脫引號 `syntax`？
+以下哪一項是正確的跳脫引號 syntax？
 
 #### --distractors--
 

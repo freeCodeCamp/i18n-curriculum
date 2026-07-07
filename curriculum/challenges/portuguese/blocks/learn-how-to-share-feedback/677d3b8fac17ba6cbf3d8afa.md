@@ -38,7 +38,7 @@ Isso significa `Quality Assurance`, referindo-se ao processo de garantir que os 
 
 Quando um verbo segue uma preposição, ele deve estar na forma `-ing` (gerúndio). Nesta frase, `saying` segue a preposição `by`, indicando o método que Bob usa para iniciar sua declaração. Por exemplo:
 
-Ela melhorou suas habilidades praticando regularmente. - Aqui, `practicing` segue a preposição `by`, mostrando como ela melhorou suas habilidades.
+`She improved her skills by practicing regularly.` - Aqui, `practicing` segue a preposição `by`, mostrando como ela melhorou suas habilidades.
 
 Bob elogia Jessica pelo seu trabalho em `QA`. `QA` significa `Quality Assurance`. Refere-se ao processo de garantir que produtos ou serviços atendam a padrões específicos de qualidade e funcionem corretamente. Outro exemplo:
 

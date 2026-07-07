@@ -7,7 +7,7 @@ dashedName: step-53
 
 # --description--
 
-既然 `b()` 已經執行完畢，將它從呼叫堆疊中彈出。然後，將你的 `a()` 模擬呼叫更新為以下內容：「`a(): returns 'freeCodeCamp ' + 'is awesome!'`」。
+既然 `b()` 已經執行完畢，將它從呼叫堆疊中彈出。然後，將你的 `a()` 模擬呼叫更新為以下內容：「`"a(): returns 'freeCodeCamp ' + 'is awesome!'"`」。
 
 # --hints--
 

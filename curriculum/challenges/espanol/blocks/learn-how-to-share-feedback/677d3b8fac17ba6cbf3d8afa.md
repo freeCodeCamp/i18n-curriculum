@@ -42,7 +42,7 @@ Cuando un verbo sigue a una preposición, debe tomar la forma `-ing` (gerundio).
 
 Bob felicita a Jessica por su trabajo en `QA`. `QA` significa `Quality Assurance`. Se refiere al proceso de asegurar que los productos o servicios cumplan con estándares específicos de calidad y funcionen correctamente. Otro ejemplo:
 
-El equipo de QA identificó varios bugs durante las pruebas. Esto significa que las personas responsables de asegurar la calidad del software lograron detectar bugs en el software antes de su lanzamiento.
+`The QA team identified several bugs during testing.` - El equipo de QA identificó varios bugs durante las pruebas. Esto significa que las personas responsables de asegurar la calidad del software lograron detectar bugs en el software antes de su lanzamiento.
 
 # --scene--
 

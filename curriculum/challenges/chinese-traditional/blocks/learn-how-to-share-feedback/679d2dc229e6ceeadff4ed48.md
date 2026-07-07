@@ -38,11 +38,11 @@ lang: en-US
 
 詹姆斯沒有說 `If we update the software, it might delay other projects.`，而是簡化成 `If we do`。字 `do` 常用來避免重複前一句話中使用的動詞或完整片語。例如：
 
-`She wants to join the meeting`，如果她這麼做，她將需要 `link`。－ 與其說 `if she joins the meeting`，你可以使用 `does` 來取代，這樣你就可以避免重複。
+`She wants to join the meeting, and if she does, she'll need the link.` - 與其說 `if she joins the meeting`，你可以使用 `does` 來取代，這樣你就可以避免重複。
 
 `To delay` 是指使某事發生的時間比預定的晚。 例如：
 
-`The flight was delayed due to bad weather。`－這表示航班被延後，沒有準時起飛。
+`The flight was delayed due to bad weather.`－這表示航班被延後，沒有準時起飛。
 
 # --scene--
 

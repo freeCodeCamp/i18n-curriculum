@@ -14,7 +14,7 @@ dashedName: using-constructors
 
 ## --text--
 
-以下哪一種是撰寫 `constructor` 的正確方式？
+以下哪一種是撰寫 constructor 的正確方式？
 
 ## --answers--
 

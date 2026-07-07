@@ -14,9 +14,9 @@ lang: en-US
 
 範例：
 
-我們會在咖啡店見面。
+`We'll meet at the coffee shop.` （在這個句子中，`at` 用來指明會面將發生的地點——咖啡店）。
 
-我會在 `bus` 站等你。 
+`I'll be waiting for you at the bus stop.` （這裡用 `at` 來表示某人將要等待的地點——公車站）。
 
 聆聽句子並填寫空格。
 

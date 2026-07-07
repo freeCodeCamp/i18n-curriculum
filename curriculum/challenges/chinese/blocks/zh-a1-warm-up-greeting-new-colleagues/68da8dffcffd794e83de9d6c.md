@@ -32,7 +32,7 @@ lang: zh-CN
 
 ### --feedback--
 
-此 `form` 在中文中不是标准形式。
+此 form 在中文中不是标准形式。
 
 ---
 

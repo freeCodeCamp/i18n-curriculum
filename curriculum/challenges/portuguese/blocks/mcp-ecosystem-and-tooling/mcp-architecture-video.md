@@ -14,7 +14,7 @@ Neste vídeo, você aprenderá sobre a arquitetura do MCP.
 
 ## --text--
 
-Para que serve a parte de resources de um MCP `server`?
+Para que serve a parte de resources de um MCP server?
 
 ## --answers--
 
@@ -22,11 +22,11 @@ Isto é usado para executar os LLMs e processar consultas de IA em tempo real.
 
 ---
 
-Esta parte lida com conexões de rede e autenticação de usuário para o `server`.
+Esta parte lida com conexões de rede e autenticação de usuário para o server.
 
 ---
 
-Isto é usado para monitorar o desempenho do `server` e gerar logs do sistema.
+Isto é usado para monitorar o desempenho do server e gerar logs do sistema.
 
 ---
 

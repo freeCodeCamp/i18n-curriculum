@@ -8,7 +8,7 @@ dashedName: python-interpreter
 
 # --description--
 
-在这个 `video` 中，你将学习如何使用 Python 解释器。
+在这个 video 中，你将学习如何使用 Python 解释器。
 
 # --questions--
 
@@ -30,7 +30,7 @@ dashedName: python-interpreter
 
 ---
 
-这是一个读取并执行 Python `code` 的程序。
+这是一个读取并执行 Python code 的程序。
 
 ## --video-solution--
 

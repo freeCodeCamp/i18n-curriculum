@@ -8,7 +8,7 @@ dashedName: using-mcp-servers
 
 # --description--
 
-Neste vídeo, você aprenderá como usar MCP `servers`.
+Neste vídeo, você aprenderá como usar MCP servers.
 
 # --questions--
 
@@ -26,11 +26,11 @@ Você só precisa se preocupar com a velocidade de processamento e o uso de mem�
 
 ---
 
-Você precisa garantir que o `server` execute a última `version` do seu LLM localmente.
+Você precisa garantir que o server execute a última version do seu LLM localmente.
 
 ---
 
-Você precisa garantir que o `server` tenha espaço suficiente no disco para logs temporários.
+Você precisa garantir que o server tenha espaço suficiente no disco para logs temporários.
 
 ## --video-solution--
 

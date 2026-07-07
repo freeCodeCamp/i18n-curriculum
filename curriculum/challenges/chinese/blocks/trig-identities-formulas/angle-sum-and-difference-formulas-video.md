@@ -8,7 +8,7 @@ dashedName: angle-sum-and-difference-formulas
 
 # --description--
 
-在这个 `video` 中，你将学习角和差公式。
+在这个 video 中，你将学习角和差公式。
 
 # --questions--
 

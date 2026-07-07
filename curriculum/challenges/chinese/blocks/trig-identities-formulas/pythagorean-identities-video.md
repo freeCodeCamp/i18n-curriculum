@@ -8,7 +8,7 @@ dashedName: pythagorean-identities
 
 # --description--
 
-在这个 `video` 中，你将学习关于毕达哥拉斯恒等式。
+在这个 video 中，你将学习关于毕达哥拉斯恒等式。
 
 # --questions--
 

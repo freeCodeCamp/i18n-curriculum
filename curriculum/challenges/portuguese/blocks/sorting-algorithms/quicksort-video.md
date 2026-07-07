@@ -8,13 +8,13 @@ dashedName: quicksort
 
 # --description--
 
-Neste vídeo, você aprenderá como o algoritmo `quicksort` funciona.
+Neste vídeo, você aprenderá como o algoritmo quicksort funciona.
 
 # --questions--
 
 ## --text--
 
-Qual técnica é usada no algoritmo `quicksort`?
+Qual técnica é usada no algoritmo quicksort?
 
 ## --answers--
 
@@ -22,7 +22,7 @@ recursão
 
 ---
 
-iteração com `nested loops`
+iteração com nested loops
 
 ---
 

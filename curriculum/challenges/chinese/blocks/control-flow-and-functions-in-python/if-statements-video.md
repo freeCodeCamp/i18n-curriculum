@@ -8,7 +8,7 @@ dashedName: if-statements
 
 # --description--
 
-在本 `video` 中，你将学习如何使用 `if statements` 根据条件控制你的 Python `Program` 的流程。
+在本 video 中，你将学习如何使用 if statements 根据条件控制你的 Python Program 的流程。
 
 # --questions--
 

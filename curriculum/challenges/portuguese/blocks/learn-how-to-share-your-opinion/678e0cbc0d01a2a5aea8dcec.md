@@ -58,7 +58,7 @@ Ouça as palavras-chave que explicam a preferência de Jake.
 
 `Security features` – Isso mostra que Jake valoriza como a ferramenta ajuda a proteger contra riscos potenciais.  
 
-Essas palavras-chave ajudam você a ver que Jake prefere `Visual Studio Code` porque ele é leve e tem recursos fortes de segurança.
+Essas palavras-chave ajudam você a ver que Jake prefere Visual Studio Code porque ele é leve e tem recursos fortes de segurança.
 
 # --scene--
 

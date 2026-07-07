@@ -18,7 +18,7 @@ dashedName: class-vs-static-methods
 
 ## --answers--
 
-只對全域變數有效且與類別或其實體無關的 `method`。
+只對全域變數有效且與類別或其實體無關的 method。
 
 ---
 

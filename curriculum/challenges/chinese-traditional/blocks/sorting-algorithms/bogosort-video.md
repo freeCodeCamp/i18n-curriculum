@@ -8,7 +8,7 @@ dashedName: bogosort
 
 # --description--
 
-在這個影片中，你將學習如何使用 `bogosort` 演算法。
+在這個影片中，你將學習如何使用 bogosort 演算法。
 
 # --questions--
 

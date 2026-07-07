@@ -30,7 +30,7 @@ lang: en-US
 
 `setback` 是會延遲或阻礙進展的事情。緩慢或低效的電腦可能會使任務花費更長時間，降低效率。例如：
 
-- `The project faced a setback due to a critical bug。` - 專案因嚴重的軟體問題而延遲或出現問題。
+- `The project faced a setback due to a critical bug.` - 專案因嚴重的軟體問題而延遲或出現問題。
 
 - `Losing important data was a major setback for the team.`－遺失資料造成困難並減緩了團隊的工作。
 

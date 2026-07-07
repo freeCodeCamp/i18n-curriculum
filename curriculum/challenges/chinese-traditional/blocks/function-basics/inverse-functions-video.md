@@ -26,7 +26,7 @@ dashedName: inverse-functions
 
 ---
 
-僅適用於定義域有限的 `function`。
+僅適用於定義域有限的 function。
 
 ---
 

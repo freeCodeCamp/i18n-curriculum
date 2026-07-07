@@ -8,7 +8,7 @@ dashedName: why-mcp
 
 # --description--
 
-在这个 `video` 中，你将被介绍 MCP。
+在这个 video 中，你将被介绍 MCP。
 
 # --questions--
 

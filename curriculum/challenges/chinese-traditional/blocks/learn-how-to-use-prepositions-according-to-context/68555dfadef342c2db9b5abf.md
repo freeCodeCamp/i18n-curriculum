@@ -42,7 +42,7 @@ lang: en-US
 
 `Unexpected` 描述未經警告或計劃而發生的事情。例如：
 
-`We had an unexpected delay due to server issues。`－這表示延遲是未預期的。
+`We had an unexpected delay due to server issues.`－這表示延遲是未預期的。
 
 # --scene--
 

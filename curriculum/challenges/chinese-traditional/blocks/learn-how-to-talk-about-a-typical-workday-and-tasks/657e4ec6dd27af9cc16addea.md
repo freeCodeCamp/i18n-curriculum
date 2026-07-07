@@ -12,7 +12,7 @@ lang: en-US
 
 `Regulations` 是由政府或權威機構制定的官方規則。它們旨在控制某事的運作方式或人們的行為，特別是在商務中。<dfn>例如</dfn>：
 
-`Health and safety regulations` 確保工作場所安全。這表示健康與安全規則有助於為每個人打造安全的工作環境。
+`Health and safety regulations ensure a safe workplace.` 確保工作場所安全。這表示健康與安全規則有助於為每個人打造安全的工作環境。
 
 # --questions--
 

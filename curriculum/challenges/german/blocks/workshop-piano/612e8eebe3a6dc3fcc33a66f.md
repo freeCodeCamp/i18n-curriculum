@@ -7,7 +7,7 @@ dashedName: step-9
 
 # --description--
 
-Zielen Sie nun mit einem `#piano`-Selektor auf Ihr `id`-Element. Setzen Sie dessen `background-color`-Eigenschaft auf `#00471b`, die `width`-Eigenschaft auf `992px` und die `height`-Eigenschaft auf `290px`.
+Zielen Sie nun mit einem `id`-Selektor auf Ihr `#piano`-Element. Setzen Sie dessen `background-color`-Eigenschaft auf `#00471b`, die `width`-Eigenschaft auf `992px` und die `height`-Eigenschaft auf `290px`.
 
 # --hints--
 

@@ -8,7 +8,7 @@ dashedName: dictionaries
 
 # --description--
 
-在这个 `video` 中，你将学习如何使用 Python 中的字典来保存密钥-值点对。
+在这个 video 中，你将学习如何使用 Python 中的字典来保存密钥-值点对。
 
 # --questions--
 

@@ -56,7 +56,7 @@ lang: en-US
 
 `There's a problem with the network.` – 这意味着网络无法正常工作。
 
-`事件处理` 指的是程序或网站如何管理用户的操作，如点击、键盘按键或鼠标移动。例如：
+`Event handling` 指的是程序或网站如何管理用户的操作，如点击、键盘按键或鼠标移动。例如：
 
 `There's an issue with event handling.`——这意味着软件没有正确响应用户操作。
 

@@ -30,7 +30,7 @@ Precedido por `on your`, esto se refiere a la situación, lado o ubicación espe
 
 `On your end` se usa para referirse a la situación de alguien o a lo que está pasando con esa persona, a menudo en un contexto de conversación o trabajo. Por ejemplo:
 
-Avísame si necesitas ayuda en tu parte.
+`Let me know if you need any help on your end.` – Avísame si necesitas ayuda en tu parte.
 
 # --scene--
 

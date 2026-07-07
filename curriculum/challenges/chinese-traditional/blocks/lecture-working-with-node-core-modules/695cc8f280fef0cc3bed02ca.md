@@ -35,7 +35,7 @@ console.log(__dirname);
 
 相對路徑是根據你目前的工作目錄指向一個檔案或目錄。 例如，`./assets/src/text-files`。
 
-另一方面，絕對路徑會從系統根目錄給出檔案或資料夾的完整位址，例如 `/Users/johndoe/projects/app/assets/src/text-files`。
+另一方面，絕對路徑會從系統根目錄給出檔案或資料夾的完整位址，例如 `/Users/johndoe/projects/app/assets/src/text-files.`。
 
 `basename()` 方法顯示檔案的最後零件，也就是檔名：
 
@@ -200,7 +200,7 @@ Node.js 全域變數 `__filename` 和 `__dirname` 提供存取什麼？
 
 ## --answers--
 
-目前 `file` 的絕對路徑及其所包含的 `directory`。
+目前 file 的絕對路徑及其所包含的 directory。
 
 ---
 
@@ -208,7 +208,7 @@ Node.js 全域變數 `__filename` 和 `__dirname` 提供存取什麼？
 
 ### --feedback--
 
-思考哪些變數會自動提供完整的檔案和資料夾路徑，而不需要使用 `path` 模組。
+思考哪些變數會自動提供完整的檔案和資料夾路徑，而不需要使用 path 模組。
 
 ---
 
@@ -216,7 +216,7 @@ Node.js 安裝目錄的相對路徑。
 
 ### --feedback--
 
-思考哪些變數會自動提供完整的檔案和資料夾路徑，而不需要使用 `path` 模組。
+思考哪些變數會自動提供完整的檔案和資料夾路徑，而不需要使用 path 模組。
 
 ---
 
@@ -224,7 +224,7 @@ Node.js 安裝目錄的相對路徑。
 
 ### --feedback--
 
-思考哪些變數會自動提供完整的檔案和資料夾路徑，而不需要使用 `path` 模組。
+思考哪些變數會自動提供完整的檔案和資料夾路徑，而不需要使用 path 模組。
 
 ## --video-solution--
 

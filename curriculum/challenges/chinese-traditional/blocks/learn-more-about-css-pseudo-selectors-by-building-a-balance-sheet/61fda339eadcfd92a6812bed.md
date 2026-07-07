@@ -11,7 +11,7 @@ dashedName: step-30
 
 你即將撰寫的 CSS 是一組常用的屬性，用於確保元素在視覺上完全隱藏。
 
-`span[class~="sr-only"]` 選擇器會選取任何 `class` *包含* `sr-only` 的 `span` 元素。創建該選擇器，並給它一個設定為 `0` 的 `邊框` 屬性。
+`span[class~="sr-only"]` 選擇器會選取任何 `class` *包含* `sr-only` 的 `span` 元素。創建該選擇器，並給它一個設定為 `0` 的 `border` 屬性。
 
 # --hints--
 

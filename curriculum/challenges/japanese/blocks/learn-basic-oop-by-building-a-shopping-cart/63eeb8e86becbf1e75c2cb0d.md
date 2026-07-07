@@ -11,7 +11,7 @@ dashedName: step-21
 
 # --hints--
 
-`totalCountPerProduct` 関数内で `addItem` 変数を宣言する必要があります。
+`addItem` 関数内で `totalCountPerProduct` 変数を宣言する必要があります。
 
 ```js
 const cart = new ShoppingCart();

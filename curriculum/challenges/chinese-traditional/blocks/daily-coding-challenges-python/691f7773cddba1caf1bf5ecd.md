@@ -28,7 +28,7 @@ dashedName: challenge-134
 
 # --hints--
 
-`buy_items(["150.00", "USD"], [["50.00", "USD"], ["75.00", "USD"], ["30.00", "USD"]])` 應該傳回 `"購買前 2 個項目。"`。
+`buy_items(["150.00", "USD"], [["50.00", "USD"], ["75.00", "USD"], ["30.00", "USD"]])` 應該傳回 `"Buy the first 2 items."`。
 
 ```js
 ({test: () => { runPython(`
@@ -46,7 +46,7 @@ TestCase().assertEqual(buy_items(["200.00", "EUR"], [["50.00", "USD"], ["50.00",
 }})
 ```
 
-`buy_items(["100.00", "CAD"], [["20.00", "USD"], ["15.00", "EUR"], ["10.00", "GBP"], ["6000", "JPY"], ["5.00", "CAD"], ["10.00", "USD"]])` 應該傳回 `"購買前三個項目。"`。
+`buy_items(["100.00", "CAD"], [["20.00", "USD"], ["15.00", "EUR"], ["10.00", "GBP"], ["6000", "JPY"], ["5.00", "CAD"], ["10.00", "USD"]])` 應該傳回 `"Buy the first 3 items."`。
 
 ```js
 ({test: () => { runPython(`
@@ -64,7 +64,7 @@ TestCase().assertEqual(buy_items(["5000", "JPY"], [["3.00", "USD"], ["1000", "JP
 }})
 ```
 
-`buy_items(["200.00", "USD"], [["50.00", "USD"], ["40.00", "EUR"], ["30.00", "GBP"], ["5000", "JPY"], ["25.00", "CAD"], ["20.00", "USD"]])` 應該傳回 `"購買前 5 項項目。"`。
+`buy_items(["200.00", "USD"], [["50.00", "USD"], ["40.00", "EUR"], ["30.00", "GBP"], ["5000", "JPY"], ["25.00", "CAD"], ["20.00", "USD"]])` 應該傳回 `"Buy the first 5 items."`。
 
 ```js
 ({test: () => { runPython(`

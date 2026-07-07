@@ -8,7 +8,7 @@ dashedName: efficiency-of-an-algorithm
 
 # --description--
 
-在这个 `video` 中，你将学习如何衡量一个 `algorithm` 的效率。
+在这个 video 中，你将学习如何衡量一个 algorithm 的效率。
 
 # --questions--
 
@@ -26,7 +26,7 @@ dashedName: efficiency-of-an-algorithm
 
 ---
 
-一种用于调试大型 `software` 系统中 `errors` 的 `method`。
+一种用于调试大型 software 系统中 errors 的 method。
 
 ---
 

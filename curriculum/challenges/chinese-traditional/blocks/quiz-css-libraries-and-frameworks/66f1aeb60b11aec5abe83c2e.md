@@ -25,7 +25,7 @@ dashedName: quiz-css-libraries-and-frameworks
 
 ---
 
-一個用於檢查 CSS `files` 的工具。
+一個用於檢查 CSS files 的工具。
 
 ---
 
@@ -211,7 +211,7 @@ SCSS 的副檔名是什麼？
 
 #### --text--
 
-以下哪一種方式是在 SCSS 中定義 `variable` 的正確方法？
+以下哪一種方式是在 SCSS 中定義 variable 的正確方法？
 
 #### --distractors--
 

@@ -1,6 +1,6 @@
 ---
 id: 647e1f4e8acb466c97ccbedf
-title: "C# の `do-while` と `while` 文を使ってコードにループ処理を追加する"
+title: "C# の do-while と while 文を使ってコードにループ処理を追加する"
 challengeType: 19
 dashedName: add-looping-logic-to-your-code-using-the-do-while-and-while-statements-in-c-sharp
 ---
@@ -9,7 +9,7 @@ dashedName: add-looping-logic-to-your-code-using-the-do-while-and-while-statemen
 
 このチャレンジは Microsoft Learn プラットフォームで一部完了します。チャレンジを完了するには、以下の手順に従ってください。
 
-1. <a href="https://learn.microsoft.com/training/modules/csharp-do-while/" target="_blank" rel="noreferrer">https://learn.microsoft.com/training/modules/csharp-do-while/</a> にアクセスし、「C# の `do-while` と `while` 文を使ってコードにループ処理を追加する」モジュールのすべてのタスクを完了してください。これは Microsoft Learn で「C# コンソールアプリケーションにロジックを追加する」トロフィーを獲得し、認定試験の受験資格を得るために**必須**です。
+1. <a href="https://learn.microsoft.com/training/modules/csharp-do-while/" target="_blank" rel="noreferrer">https://learn.microsoft.com/training/modules/csharp-do-while/</a> にアクセスし、「C# の do-while と while 文を使ってコードにループ処理を追加する」モジュールのすべてのタスクを完了してください。これは Microsoft Learn で「C# コンソールアプリケーションにロジックを追加する」トロフィーを獲得し、認定試験の受験資格を得るために**必須**です。
 1. 完了したら戻ってきて、以下の質問に正しく答えてください。
 
 # --assignment--

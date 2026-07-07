@@ -40,7 +40,7 @@ Mark 应避免使用循环。
 
 ### --feedback--
 
-Sophie 没有说任何关于避免 `循环` 的内容。
+Sophie 没有说任何关于避免 循环 的内容。
 
 ---
 
@@ -56,7 +56,7 @@ Mark 应该在他的代码中使用注释。
 
 - `I added a comment to explain why this loop is necessary.` - 你写了一个评论来说明为什么使用某个循环。
 
-- 你可以使用评论来留下需要以后修复的问题的备注。- 评论可以添加到代码中，作为需要修复或改进事项的提醒。
+- `You can use comments to leave notes about issues that need fixing later.` － 评论可以添加到代码中，作为需要修复或改进事项的提醒。
 
 评论帮助其他人理解代码，并在你以后查看代码时提醒你重要细节。
 

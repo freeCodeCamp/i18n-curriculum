@@ -16,7 +16,7 @@ lang: es
   
 - `Es mi correo.` - 这是我的电子邮件。
 
-拼写电子邮件 `address` 时，某些 `symbol` 会被大声读出：
+拼写电子邮件 address 时，某些 symbol 会被大声读出：
 
 `Punto` 用于符号 `.` 例如： 
 
@@ -50,7 +50,7 @@ lang: es
 
 ### --feedback--
 
-这个词用于在电子邮件 `address` 中说出符号 `.`。
+这个词用于在电子邮件 address 中说出符号 `.`。
 
 ---
 
@@ -80,7 +80,7 @@ lang: es
 
 `Arroba` 表现符号 `@`
 
-这些词通常在拼读电子邮件 `address` 时使用。
+这些词通常在拼读电子邮件 address 时使用。
 
 # --scene--
 

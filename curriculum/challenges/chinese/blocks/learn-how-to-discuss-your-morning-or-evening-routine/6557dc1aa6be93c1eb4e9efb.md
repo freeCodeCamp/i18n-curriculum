@@ -16,7 +16,7 @@ lang: en-US
 
 `If` 也可以是条件式的一部分，用于显示一种可能的情况及其结果。例如：
 
-如果有紧急更新，我会立即回复。
+`If there are urgent updates, I will reply immediately.` － 这表示是否回复取决于是否有紧急更新这一条件。
 
 # --questions--
 

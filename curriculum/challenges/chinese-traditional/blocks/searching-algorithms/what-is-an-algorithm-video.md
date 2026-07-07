@@ -8,13 +8,13 @@ dashedName: what-is-an-algorithm
 
 # --description--
 
-在這個 `video` 中，你將學習什麼是演算法。
+在這個 video 中，你將學習什麼是演算法。
 
 # --questions--
 
 ## --text--
 
-什麼是 `algorithm`？
+什麼是 algorithm？
 
 ## --answers--
 

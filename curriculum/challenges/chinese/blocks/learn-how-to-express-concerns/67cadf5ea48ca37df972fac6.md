@@ -16,7 +16,7 @@ lang: en-US
 
 ## --text--
 
-Maria 提到团队最重要的 `request` 是什么？  
+Maria 提到团队最重要的 request 是什么？
 
 ## --answers--
 

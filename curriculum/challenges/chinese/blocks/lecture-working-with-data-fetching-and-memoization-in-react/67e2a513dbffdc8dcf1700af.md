@@ -78,7 +78,7 @@ export default function TaskList({ tasks, addTask }) {
 
 在代码中，`useOptimistic` 钩子保持一个临时的任务列表，当你添加新建任务时会立即更新。
 
-该行 `(state, newTask) => [...state, { text: newTask, pending: true }]` 确保新建的任务即使在服务器确认来自 `form` 的内容之前，也会以挂起状态出现。
+该行 `(state, newTask) => [...state, { text: newTask, pending: true }]` 确保新建的任务即使在服务器确认来自 form 的内容之前，也会以挂起状态出现。
 
 当表单提交时，`handleSubmit` 函数提取任务并使用 `addOptimisticTask` 参数“乐观地”添加它。然后将 `addTask` 作为属性传递，该属性将任务发送到服务器。最后，通过调用 `e.target.reset()` 重置表单。
 
@@ -219,11 +219,11 @@ async function addTask(formData) {
 
 ### --feedback--
 
-此钩子确保 UI 在异步 `operation` 完成之前反映预期的更改。
+此钩子确保 UI 在异步 operation 完成之前反映预期的更改。
 
 ---
 
-它通过在等待异步 `operation`（例如 `server` `Response`）时立即更新 UI 来帮助管理乐观更新。
+它通过在等待异步 operation（例如 server Response）时立即更新 UI 来帮助管理乐观更新。
 
 ---
 
@@ -231,7 +231,7 @@ async function addTask(formData) {
 
 ### --feedback--
 
-此钩子确保 UI 在异步 `operation` 完成之前反映预期的更改。
+此钩子确保 UI 在异步 operation 完成之前反映预期的更改。
 
 ---
 
@@ -239,7 +239,7 @@ async function addTask(formData) {
 
 ### --feedback--
 
-此钩子确保 UI 在异步 `operation` 完成之前反映预期的更改。
+此钩子确保 UI 在异步 operation 完成之前反映预期的更改。
 
 ## --video-solution--
 

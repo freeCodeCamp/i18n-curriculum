@@ -45,7 +45,7 @@ const blockquoteEl = document.querySelector('main > section:nth-of-type(2) > blo
 assert.exists(blockquoteEl?.getAttribute('cite'));
 ```
 
-`cite` 요소의 `blockquote` 속성은 값이 `https://www.freecodecamp.org/news/learn-to-code-book/`여야 합니다.
+`blockquote` 요소의 `cite` 속성은 값이 `https://www.freecodecamp.org/news/learn-to-code-book/`여야 합니다.
 
 ```js
 const blockquoteEl = document.querySelector('main > section:nth-of-type(2) > blockquote');

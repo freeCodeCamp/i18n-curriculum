@@ -65,7 +65,7 @@ dashedName: sudoku-solver
   assert(!/.*\/sudoku-solver\.freecodecamp\.rocks/.test(code));
 ```
 
-`POST` `/api/solve`を使って、`puzzle`を含むフォームデータを送信できます。`puzzle`は数字（1-9）と空白を表すピリオドの組み合わせの文字列です`.`。返されるオブジェクトには、解かれたパズルを含む`solution`プロパティがあります。
+`POST` `/api/solve`を使って、`puzzle`を含むフォームデータを送信できます。puzzleは数字（1-9）と空白を表すピリオドの組み合わせの文字列です`.`。返されるオブジェクトには、解かれたパズルを含む`solution`プロパティがあります。
 
 ```js
   const input =

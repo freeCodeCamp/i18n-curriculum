@@ -18,7 +18,7 @@ O que é herança?
 
 ## --answers--
 
-A capacidade de uma `child class` de adquirir as propriedades e os métodos de uma `parent class`.
+A capacidade de uma child class de adquirir as propriedades e os métodos de uma parent class.
 
 ---
 
@@ -26,7 +26,7 @@ Uma forma de um objeto excluir automaticamente os atributos da sua classe pai.
 
 ---
 
-Um mecanismo onde uma `class` pode usar apenas `global variable`.
+Um mecanismo onde uma class pode usar apenas global variable.
 
 ---
 

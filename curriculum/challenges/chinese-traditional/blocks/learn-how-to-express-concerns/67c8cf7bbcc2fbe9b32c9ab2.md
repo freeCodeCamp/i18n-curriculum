@@ -56,7 +56,7 @@ Maria 沒有說她會取消報到。
 
 - `She suggested taking a break.`－這表示提出的想法是休息一下。
 
-- `He suggested starting the meeting earlier to avoid delays。`－這表示他建議提早開始會議以避免延誤。
+- `He suggested starting the meeting earlier to avoid delays.`－這表示他建議提早開始會議以避免延誤。
 
 # --scene--
 

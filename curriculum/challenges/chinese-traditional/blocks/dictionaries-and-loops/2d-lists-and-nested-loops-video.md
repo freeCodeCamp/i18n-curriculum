@@ -14,7 +14,7 @@ dashedName: 2d-lists-and-nested-loops
 
 ## --text--
 
-以下 `code` 的輸出結果會是什麼？
+以下 code 的輸出結果會是什麼？
 
 ```python
 number_grid = [

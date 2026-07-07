@@ -21,7 +21,7 @@ dashedName: step-17
 
 # --hints--
 
-`img` 값이 `src`인 `https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg` 요소가 있어야 합니다. 실수로 삭제했을 수 있습니다.
+`https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg` 값이 `src`인 `img` 요소가 있어야 합니다. 실수로 삭제했을 수 있습니다.
 
 ```js
 assert(

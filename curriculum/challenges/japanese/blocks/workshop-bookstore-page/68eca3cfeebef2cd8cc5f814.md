@@ -7,7 +7,7 @@ dashedName: step-14
 
 # --description--
 
-クラスが `id` の2番目の要素に `card` 属性を追加し、その値を `dave-cooking-book` に設定してください。各 `id` は一意である必要があることを覚えておいてください。
+クラスが `card` の2番目の要素に `id` 属性を追加し、その値を `dave-cooking-book` に設定してください。各 `id` は一意である必要があることを覚えておいてください。
 
 # --hints--
 

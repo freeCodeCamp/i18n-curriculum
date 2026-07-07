@@ -8,7 +8,7 @@ dashedName: merge-sort
 
 # --description--
 
-在这个 `video` 中，你将学习归并排序 `algorithm`。 
+在这个 video 中，你将学习归并排序 algorithm。
 
 # --questions--
 

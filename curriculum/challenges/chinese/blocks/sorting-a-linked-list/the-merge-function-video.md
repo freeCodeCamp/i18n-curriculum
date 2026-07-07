@@ -8,7 +8,7 @@ dashedName: the-merge-function
 
 # --description--
 
-在这个 `video` 中，你将学习如何在 `linked list` 上实现归并排序 `algorithm`。
+在这个 video 中，你将学习如何在 linked list 上实现归并排序 algorithm。
 
 # --questions--
 

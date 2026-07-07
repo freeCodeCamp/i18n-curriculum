@@ -38,7 +38,7 @@ lang: en-US
 
 `Helpful` 意味着提供帮助或使某事更容易。例如：
 
-`It was helpful to have clear instructions before starting the task。` - 这意味着这些说明使完成任务更容易。
+`It was helpful to have clear instructions before starting the task.` - 这意味着这些说明使完成任务更容易。
 
 `Regular` 意味着持续发生或在设定间隔内发生。例如：
 

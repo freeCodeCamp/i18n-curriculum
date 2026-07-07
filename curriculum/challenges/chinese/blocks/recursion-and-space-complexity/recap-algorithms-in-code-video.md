@@ -8,7 +8,7 @@ dashedName: recap-algorithms-in-code
 
 # --description--
 
-在本 `video` 中，你将回顾迄今为止教授的关键 `concept`，包括算法思维和大 O 记法。 
+在本 video 中，你将回顾迄今为止教授的关键 concept，包括算法思维和大 O 记法。
 
 # --questions--
 
@@ -30,7 +30,7 @@ dashedName: recap-algorithms-in-code
 
 ---
 
-每次 `Run` 时都应产生随机结果。
+每次 Run 时都应产生随机结果。
 
 ## --video-solution--
 

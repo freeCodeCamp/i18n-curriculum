@@ -14,7 +14,7 @@ Multiplizieren wir zwei Dezimalzahlen miteinander, um ihr Produkt zu erhalten.
 
 # --instructions--
 
-Ändern Sie den `0.0`, sodass `product` gleich `5.0` ist.
+Ändern Sie den `0.0`, sodass product gleich `5.0` ist.
 
 # --hints--
 

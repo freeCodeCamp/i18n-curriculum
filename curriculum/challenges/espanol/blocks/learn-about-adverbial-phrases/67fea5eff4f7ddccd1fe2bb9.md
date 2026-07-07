@@ -30,7 +30,7 @@ Esto se refiere a algo que ocurre una vez a la semana.
 
 `Weekly` se usa para describir algo que ocurre solo una vez cada semana. Indica la frecuencia de un evento o acción que sucede semanalmente. Por ejemplo:
 
-El equipo tiene reuniones semanales para discutir el progreso del proyecto. – Esto significa que las reuniones ocurren cada semana.
+`The team has weekly meetings to discuss project progress.` – Esto significa que las reuniones ocurren cada semana.
 
 # --scene--
 

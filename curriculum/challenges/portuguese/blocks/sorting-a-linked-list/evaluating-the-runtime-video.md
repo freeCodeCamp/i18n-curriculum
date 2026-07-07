@@ -8,7 +8,7 @@ dashedName: evaluating-the-runtime
 
 # --description--
 
-Neste vídeo, você aprenderá como avaliar tempos de execução para `merge sort` em `linked lists`.
+Neste vídeo, você aprenderá como avaliar tempos de execução para merge sort em linked lists.
 
 # --questions--
 

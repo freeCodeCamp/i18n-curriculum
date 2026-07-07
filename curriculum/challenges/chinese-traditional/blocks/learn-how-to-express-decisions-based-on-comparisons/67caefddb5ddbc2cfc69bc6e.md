@@ -30,7 +30,7 @@ lang: en-US
 
 `More focused on` 用來表示某物或某人最關注的事物。 例如：
 
-`This software is more focused on performance than on design。`－這表示該軟體主要是為了良好的效率、性能而建置，而不一定是為了吸引人的設計。
+`This software is more focused on performance than on design.`－這表示該軟體主要是為了良好的效率、性能而建置，而不一定是為了吸引人的設計。
 
 # --scene--
 

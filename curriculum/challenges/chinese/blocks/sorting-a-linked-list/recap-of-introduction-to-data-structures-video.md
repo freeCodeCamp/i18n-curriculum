@@ -8,7 +8,7 @@ dashedName: recap-of-introduction-to-data-structures
 
 # --description--
 
-在这个 `video` 中，你将回顾你所学的关于数据结构的概念。
+在这个 video 中，你将回顾你所学的关于数据结构的概念。
 
 # --questions--
 

@@ -18,7 +18,7 @@ O que é complexidade de espaço?
 
 ## --answers--
 
-A quantidade de memória que um algoritmo usa em relação ao tamanho da `input`.
+A quantidade de memória que um algoritmo usa em relação ao tamanho da input.
 
 ---
 

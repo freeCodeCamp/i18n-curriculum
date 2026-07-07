@@ -8,7 +8,7 @@ dashedName: actual-run-time-for-sorting-algorithms
 
 # --description--
 
-Neste vídeo, você vai comparar os tempos reais de execução dos algoritmos `merge sort`, `quicksort` e `selection sort`.
+Neste vídeo, você vai comparar os tempos reais de execução dos algoritmos merge sort, quicksort e selection sort.
 
 # --questions--
 
@@ -22,11 +22,11 @@ Quicksort e merge sort foram iguais em seus tempos.
 
 ---
 
-Quicksort foi um pouco mais lento em ordenar os números do que `merge sort`.
+Quicksort foi um pouco mais lento em ordenar os números do que merge sort.
 
 ---
 
-Quicksort foi um pouco mais rápido em ordenar os números do que `merge sort`.
+Quicksort foi um pouco mais rápido em ordenar os números do que merge sort.
 
 ---
 

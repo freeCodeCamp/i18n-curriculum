@@ -14,7 +14,7 @@ dashedName: modules-and-pip
 
 ## --text--
 
-`pip` 用于什么？
+pip 用于什么？
 
 ## --answers--
 

@@ -26,11 +26,11 @@ dashedName: recursively-merging-sublists
 
 ---
 
-它从 `list` 中选择最大的 `Element`。
+它从 list 中选择最大的 Element。
 
 ---
 
-它会反转 `list` 的顺序。
+它会反转 list 的顺序。
 
 ## --video-solution--
 

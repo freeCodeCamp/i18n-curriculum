@@ -83,11 +83,11 @@ dashedName: quiz-web-performance
 
 #### --text--
 
-什么是 `"time to usable"`？
+什么是 "time to usable"？
 
 #### --distractors--
 
-这是从用户请求页面到他们可以与页面上的 `form` 交互之间的间隔。
+这是从用户请求页面到他们可以与页面上的 form 交互之间的间隔。
 
 ---
 
@@ -231,7 +231,7 @@ CDN
 
 #### --answer--
 
-它加快了对 `HTML` 的解析。
+它加快了对 HTML 的解析。
 
 ### --question--
 
@@ -259,7 +259,7 @@ WebPageTest
 
 #### --text--
 
-在测量 Interaction to Next Paint（`INP`）时，评估的是什么？
+在测量 Interaction to Next Paint（INP）时，评估的是什么？
 
 #### --distractors--
 
@@ -409,7 +409,7 @@ observer.observe({ type: "longtask", buffered: true });
 
 ---
 
-它涉及将你的 `HTML` 代码拆分成只执行非关键任务的模块。
+它涉及将你的 HTML 代码拆分成只执行非关键任务的模块。
 
 ---
 
@@ -423,7 +423,7 @@ observer.observe({ type: "longtask", buffered: true });
 
 #### --text--
 
-以下哪种方式是惰性装载 `Image` 的正确方法？
+以下哪种方式是惰性装载 Image 的正确方法？
 
 #### --distractors--
 

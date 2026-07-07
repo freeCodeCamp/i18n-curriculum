@@ -25,7 +25,7 @@ dashedName: quiz-css-libraries-and-frameworks
 
 ---
 
-一个用于检查 CSS `files` 的工具。
+一个用于检查 CSS files 的工具。
 
 ---
 
@@ -257,7 +257,7 @@ header {
 
 #### --text--
 
-以下哪种方式是正确的 `mixin` 定义？
+以下哪种方式是正确的 mixin 定义？
 
 #### --distractors--
 

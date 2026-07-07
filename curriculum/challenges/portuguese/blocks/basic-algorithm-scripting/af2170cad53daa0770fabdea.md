@@ -12,7 +12,7 @@ Retorne `true` se a string no primeiro elemento do array contém todas as letras
 
 Por exemplo, `["hello", "Hello"]`, deve retornar `true` porque todas as letras na segunda string estão presentes no primeiro, ignorando diferenças entre maiúsculos e minúsculos.
 
-Os argumentos `["hello","hey"]` deve retornar `false` porque a string `hello` não contém o caracter `y`.
+Os argumentos `["hello", "hey"]` deve retornar `false` porque a string `hello` não contém o caracter `y`.
 
 Por último, `["Alien", "line"]`, deve retornar `true` porque todas as letras em `line` estão presente em `Alien`.
 
@@ -24,7 +24,7 @@ Por último, `["Alien", "line"]`, deve retornar `true` porque todas as letras em
 assert.isFalse(mutation(['hello', 'hey']));
 ```
 
-`mutation(["hello","Hello"])` deve retornar `true`.
+`mutation(["hello", "Hello"])` deve retornar `true`.
 
 ```js
 assert.isTrue(mutation(['hello', 'Hello']));

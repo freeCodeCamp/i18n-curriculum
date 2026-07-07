@@ -14,7 +14,7 @@ dashedName: law-of-cosines-old-version
 
 ## --text--
 
-餘弦定理可以寫成多少種 `form`？
+餘弦定理可以寫成多少種 form？
 
 ## --answers--
 

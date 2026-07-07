@@ -8,13 +8,13 @@ dashedName: implementing-search
 
 # --description--
 
-在本 `video` 中，你将学习如何使用 Python `programming language` 在 `code` 中为 `Linked list` 实现一个 `search` `method`。
+在本 video 中，你将学习如何使用 Python programming language 在 code 中为 Linked list 实现一个 search method。
 
 # --questions--
 
 ## --text--
 
-查找 `linked list` 的最坏分支运行期是多少？
+查找 linked list 的最坏分支运行期是多少？
 
 ## --answers--
 

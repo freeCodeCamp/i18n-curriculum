@@ -8,7 +8,7 @@ dashedName: hyperbolas
 
 # --description--
 
-在这个 `video` 中，你将学习关于双曲线的内容。
+在这个 video 中，你将学习关于双曲线的内容。
 
 # --questions--
 

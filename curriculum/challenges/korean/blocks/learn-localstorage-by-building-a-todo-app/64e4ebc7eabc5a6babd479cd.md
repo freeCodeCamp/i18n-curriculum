@@ -9,11 +9,11 @@ dashedName: step-9
 
 사용자가 `Discard` 버튼을 클릭하면 `Cancel`과 `Discard` 버튼이 있는 모달을 닫고, 그다음에 폼 모달을 숨기고 싶습니다.
 
-`discardBtn`에 클릭 이벤트 리스너를 추가한 다음, `close()` 변수에서 `confirmCloseDialog` 메서드를 사용하세요. 또한, `classList`를 사용해 `hidden`에서 클래스 `taskForm`을 토글하여 폼 모달도 닫히도록 하세요.
+`discardBtn`에 클릭 이벤트 리스너를 추가한 다음, `confirmCloseDialog` 변수에서 `close()` 메서드를 사용하세요. 또한, `classList`를 사용해 `hidden`에서 클래스 `taskForm`을 토글하여 폼 모달도 닫히도록 하세요.
 
 # --hints--
 
-`addEventListener()` 변수에서 `discardBtn` 메서드를 호출해야 합니다.
+`discardBtn` 변수에서 `addEventListener()` 메서드를 호출해야 합니다.
 
 ```js
 assert.match(code, /discardBtn\.addEventListener\(/)

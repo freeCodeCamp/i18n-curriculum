@@ -8,7 +8,7 @@ dashedName: ellipses
 
 # --description--
 
-在这个 `video` 中，你将学习椭圆、它们的标准 `equation` 以及如何识别它们的关键 `feature`。
+在这个 video 中，你将学习椭圆、它们的标准 equation 以及如何识别它们的关键 feature。
 
 # --questions--
 

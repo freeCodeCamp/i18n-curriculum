@@ -8,7 +8,7 @@ dashedName: parametric-equations
 
 # --description--
 
-在这个 `video` 中，你将学习关于参数 `equation`。
+在这个 video 中，你将学习关于参数 equation。
 
 # --questions--
 

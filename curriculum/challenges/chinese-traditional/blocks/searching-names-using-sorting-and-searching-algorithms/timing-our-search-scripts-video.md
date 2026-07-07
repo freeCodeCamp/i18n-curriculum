@@ -26,7 +26,7 @@ dashedName: timing-our-search-scripts
 
 ---
 
-兩個 `algorithm` 都花費相同的時間完成。
+兩個 algorithm 都花費相同的時間完成。
 
 ---
 

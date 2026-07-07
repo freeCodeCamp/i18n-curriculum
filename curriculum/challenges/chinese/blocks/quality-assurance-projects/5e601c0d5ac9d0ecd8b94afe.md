@@ -146,7 +146,7 @@ dashedName: american-british-translator
   }
 ```
 
-为你的 `<span class="highlight">类</span>` 添加 `<span class="highlight">标签</span>`。
+用 `<span class="highlight">...</span>` 标签包裹任何翻译后的拼写或术语，使它们显示为绿色。
 
 ```js
   try {

@@ -22,13 +22,13 @@ dashedName: what-is-the-difference-between-content-box-and-border-box
 모델이 어떻게 작동하는지 이해하려면 CSS 박스 모델의 네 가지 핵심 개념에 익숙해야 합니다. 빠르게 검토해 보겠습니다.
 
 - 콘텐츠 영역은 요소의 콘텐츠가 차지하는 공간입니다.
-- `padding`은 콘텐츠 영역과 `border` 사이의 공간입니다.
-- `border`은 콘텐츠 영역과 `padding`을 둘러싼 윤곽선입니다.
-- `margin`은 `border` 바깥에 있어 요소와 다른 요소를 구분하는 공간입니다.
+- padding은 콘텐츠 영역과 border 사이의 공간입니다.
+- border은 콘텐츠 영역과 padding을 둘러싼 윤곽선입니다.
+- margin은 border 바깥에 있어 요소와 다른 요소를 구분하는 공간입니다.
 
-`content-box` 모델에서는 요소에 설정한 너비와 높이가 콘텐츠 영역의 크기를 결정하며 `padding`, `border`, `margin`는 포함하지 않습니다. 콘텐츠 영역을 정확히 제어해야 할 때 `content-box`을 사용하세요. `width`과 `height`를 설정하면 콘텐츠 자체 크기만 설정하는 것입니다.
+`content-box` 모델에서는 요소에 설정한 너비와 높이가 콘텐츠 영역의 크기를 결정하며 padding, border, margin는 포함하지 않습니다. 콘텐츠 영역을 정확히 제어해야 할 때 `content-box`을 사용하세요. `width`과 `height`를 설정하면 콘텐츠 자체 크기만 설정하는 것입니다.
 
-요소의 전체 너비를 구하려면 좌우 `padding`과 좌우 `border`를 더해야 합니다. 마찬가지로 요소의 전체 높이는 콘텐츠 높이, 상하 `padding`, 상하 `border`를 더해서 구합니다.
+요소의 전체 너비를 구하려면 좌우 padding과 좌우 border를 더해야 합니다. 마찬가지로 요소의 전체 높이는 콘텐츠 높이, 상하 padding, 상하 border를 더해서 구합니다.
 
 예를 들어, 여기 모든 `div` 요소에 대한 CSS 타입 선택자가 있습니다.
 
@@ -50,11 +50,11 @@ div {
 
 :::
 
-이 경우 `content-box`를 사용하면 콘텐츠 영역은 300px x 200px입니다. 전체 렌더링 크기는 `padding`과 `border`를 포함합니다 — 예를 들어, 전체 너비 = 300px(콘텐츠) + 40px(`padding`) + 8px(`border`) = 348px; 전체 높이도 같은 방식으로 계산됩니다.
+이 경우 `content-box`를 사용하면 콘텐츠 영역은 300px x 200px입니다. 전체 렌더링 크기는 padding과 border를 포함합니다 — 예를 들어, 전체 너비 = 300px(콘텐츠) + 40px(padding) + 8px(border) = 348px; 전체 높이도 같은 방식으로 계산됩니다.
 
-좋아요! 이제 `border-box`를 살펴보겠습니다. 이 모델은 설정한 너비와 높이에 요소의 콘텐츠, `padding`, `border`가 포함됩니다(단, `margin`는 제외). `border-box`은 `padding`이나 `border`가 변경되어도 요소의 전체 크기를 고정하고 싶을 때 유용하며, 반응형 레이아웃에서 자주 사용됩니다.
+좋아요! 이제 `border-box`를 살펴보겠습니다. 이 모델은 설정한 너비와 높이에 요소의 콘텐츠, padding, border가 포함됩니다(단, margin는 제외). `border-box`은 padding이나 border가 변경되어도 요소의 전체 크기를 고정하고 싶을 때 유용하며, 반응형 레이아웃에서 자주 사용됩니다.
 
-`border-box`에서는 `padding`과 `border`가 요소가 지정한 크기 안에 포함됩니다. 설정한 `width`과 `height`가 요소의 전체 크기(콘텐츠 + `padding` + `border`)가 되며, `margin`는 제외됩니다.
+`border-box`에서는 padding과 border가 요소가 지정한 크기 안에 포함됩니다. 설정한 `width`과 `height`가 요소의 전체 크기(콘텐츠 + padding + border)가 되며, margin는 제외됩니다.
 
 다음 예제에는 동일한 크기지만 `box-sizing` 값이 다른 두 `div` 요소가 있습니다. 브라우저에서 보면 전체 크기가 다르게 나타나는 것을 확인할 수 있습니다:
 

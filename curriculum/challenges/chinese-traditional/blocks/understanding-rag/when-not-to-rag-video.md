@@ -14,7 +14,7 @@ dashedName: when-not-to-rag
 
 ## --text--
 
-當 `RAG` 不適用時，還有什麼其他解法可以讓 AI 給出良好的回應？
+當 RAG 不適用時，還有什麼其他解法可以讓 AI 給出良好的回應？
 
 ## --answers--
 

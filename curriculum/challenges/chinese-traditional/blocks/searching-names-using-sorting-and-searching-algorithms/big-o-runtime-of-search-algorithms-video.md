@@ -14,7 +14,7 @@ dashedName: big-o-runtime-of-search-algorithms
 
 ## --text--
 
-線性 `search` 的大 O 執行期是什麼？
+線性 search 的大 O 執行期是什麼？
 
 ## --answers--
 

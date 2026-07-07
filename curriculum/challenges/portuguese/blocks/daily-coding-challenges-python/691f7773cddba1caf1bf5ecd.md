@@ -28,7 +28,7 @@ Use as seguintes taxas de câmbio para converter valores:
 
 # --hints--
 
-`buy_items(["150.00", "USD"], [["50.00", "USD"], ["75.00", "USD"], ["30.00", "USD"]])` deve retornar `"Compre os 2 primeiros itens."`.
+`buy_items(["150.00", "USD"], [["50.00", "USD"], ["75.00", "USD"], ["30.00", "USD"]])` deve retornar `"Buy the first 2 items."`.
 
 ```js
 ({test: () => { runPython(`

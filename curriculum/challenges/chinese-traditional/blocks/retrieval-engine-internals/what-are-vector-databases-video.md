@@ -8,13 +8,13 @@ dashedName: what-are-vector-databases
 
 # --description--
 
-在這個 `video` 中，你將學習關於 `vector` 資料庫。
+在這個 video 中，你將學習關於 vector 資料庫。
 
 # --questions--
 
 ## --text--
 
-以下哪一項不是熱門索引 `algorithm` 的範例？
+以下哪一項不是熱門索引 algorithm 的範例？
 
 ## --answers--
 

@@ -14,7 +14,7 @@ dashedName: parabolas-vertex-focus-directrix
 
 ## --text--
 
-下列哪一項是拋物線方程式的有效 `form`？
+下列哪一項是拋物線方程式的有效 form？
 
 ## --answers--
 

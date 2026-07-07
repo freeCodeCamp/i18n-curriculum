@@ -8,13 +8,13 @@ dashedName: introduction-to-object-oriented-programming
 
 # --description--
 
-在本 `video` 中，讲师 Jim 来自 `JimShapedCoding` 将讲解你可以从本课程中期待什么，课程内容是关于使用 Python 的面向对象编程。
+在本 video 中，讲师 Jim 来自 `JimShapedCoding` 将讲解你可以从本课程中期待什么，课程内容是关于使用 Python 的面向对象编程。
 
 # --questions--
 
 ## --text--
 
-以下哪项不是面向对象的 `concept`？
+以下哪项不是面向对象的 concept？
 
 ## --answers--
 
@@ -30,7 +30,7 @@ dashedName: introduction-to-object-oriented-programming
 
 ---
 
-抽象的 `class`
+抽象的 class
 
 ## --video-solution--
 

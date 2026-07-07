@@ -8,7 +8,7 @@ dashedName: binary-search-in-code
 
 # --description--
 
-在这个 `video` 中，你将使用 Python 编写 `binary search` `algorithm`。
+在这个 video 中，你将使用 Python 编写 binary search algorithm。
 
 # --questions--
 
@@ -22,7 +22,7 @@ dashedName: binary-search-in-code
 
 ---
 
-使 `loop` 永远运行，直到手动停止。
+使 loop 永远运行，直到手动停止。
 
 ---
 
@@ -30,7 +30,7 @@ dashedName: binary-search-in-code
 
 ---
 
-只要 `range` 中仍有元素，就继续 `search`，当 `range` 为空时停止。
+只要 range 中仍有元素，就继续 search，当 range 为空时停止。
 
 ## --video-solution--
 

@@ -1,6 +1,6 @@
 ---
 id: 698dd8b47932b3cc4b19c933
-title: "Inserindo um `Node`"
+title: "Inserindo um Node"
 challengeType: 11
 videoId: HKCIczy-v90
 dashedName: inserting-a-node
@@ -14,7 +14,7 @@ Neste vídeo, você aprenderá como inserir um nó em uma lista ligada.
 
 ## --text--
 
-Qual é o tempo de execução para inserir um `node` em uma posição conhecida em uma `linked list`?
+Qual é o tempo de execução para inserir um node em uma posição conhecida em uma linked list?
 
 ## --answers--
 

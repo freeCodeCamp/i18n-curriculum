@@ -38,7 +38,7 @@ a:link {
 
 En este caso, cualquier enlace que el usuario no haya hecho clic aún aparecerá magenta. Una vez que el usuario hace clic en el enlace, el estilo `:link` ya no se aplica, y la pseudo-clase `:visited` toma el relevo. La pseudo-clase `:visited` entra en juego después de que el usuario haga clic en el enlace, por lo que puedes usarla para direccionar enlaces que el usuario ya ha clicado. 
 
-Aquí hay un ejemplo de cambiar el estado de enlace visitado al color `púrpura`:
+Aquí hay un ejemplo de cambiar el estado de enlace visitado al color `purple`:
 
 :::interactive_editor
 
@@ -59,7 +59,7 @@ La pseudo-clase `:visited` ayuda a los usuarios a distinguir entre enlaces que h
 
 La pseudo-clase `:any-link` es una combinación de las pseudo-clases `:link` y `:visited`. Así que iguala cualquier elemento ancla con un atributo `href`, independientemente de si está visitado o no.
 
-Aquí hay un ejemplo de cambiar el color del enlace para la pseudo-clase `:any-link` a `carmesí`:
+Aquí hay un ejemplo de cambiar el color del enlace para la pseudo-clase `:any-link` a `crimson`:
 
 :::interactive_editor
 

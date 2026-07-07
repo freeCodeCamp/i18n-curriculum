@@ -8,13 +8,13 @@ dashedName: solving-trig-equations-that-require-a-calculator
 
 # --description--
 
-在这个 `video` 中，你将学习如何解决需要计算器的三角 `equations`。 
+在这个 video 中，你将学习如何解决需要计算器的三角 equations。
 
 # --questions--
 
 ## --text--
 
-使用计算器和不使用计算器解决基本三角 `equation` 的主要区别是什么？
+使用计算器和不使用计算器解决基本三角 equation 的主要区别是什么？
 
 ## --answers--
 
@@ -22,7 +22,7 @@ dashedName: solving-trig-equations-that-require-a-calculator
 
 ---
 
-使用计算器只能得到近似的 `solution`，而不使用计算器你总能得到精确的答案。
+使用计算器只能得到近似的 solution，而不使用计算器你总能得到精确的答案。
 
 ---
 

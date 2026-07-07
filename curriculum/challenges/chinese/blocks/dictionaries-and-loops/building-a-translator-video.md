@@ -8,7 +8,7 @@ dashedName: building-a-translator
 
 # --description--
 
-在这个视频中，你将使用字典和用户 `input` 构建一个简单的翻译器 `program`。
+在这个视频中，你将使用字典和用户 input 构建一个简单的翻译器 program。
 
 # --questions--
 

@@ -8,13 +8,13 @@ dashedName: inverse-trig-functions
 
 # --description--
 
-在这个 `video` 中，你将学习反三角函数。
+在这个 video 中，你将学习反三角函数。
 
 # --questions--
 
 ## --text--
 
-你如何查找一个函数的反函数的 `Graph`？
+你如何查找一个函数的反函数的 Graph？
 
 ## --answers--
 
@@ -22,7 +22,7 @@ dashedName: inverse-trig-functions
 
 ---
 
-将原始函数的 `Graph` 绕直线 $y = x$ 翻转，然后再绕直线 $y = -x$ 翻转。
+将原始函数的 Graph 绕直线 $y = x$ 翻转，然后再绕直线 $y = -x$ 翻转。
 
 ---
 

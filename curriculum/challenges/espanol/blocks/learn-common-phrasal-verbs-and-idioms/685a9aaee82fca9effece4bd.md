@@ -30,7 +30,7 @@ Esto se refiere a una persona que está presente en un evento o reunión.
 
 Un `attendee` es alguien que asiste o está presente en un evento, como una reunión, seminario o conferencia. Por ejemplo:
 
-Cada asistente recibió un paquete de bienvenida cuando llegó. – Esto significa que cada persona que vino al evento recibió un paquete.
+`Each attendee received a welcome packet when they arrived.` – Esto significa que cada persona que vino al evento recibió un paquete.
 
 # --scene--
 

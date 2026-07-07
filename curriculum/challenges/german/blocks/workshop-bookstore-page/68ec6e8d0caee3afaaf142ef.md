@@ -9,7 +9,7 @@ dashedName: step-8
 
 Sie können mehrere Elemente innerhalb eines `div`-Elements hinzufügen, um zusammengehörige Inhalte zu gruppieren. Erstellen Sie innerhalb des Elements mit einem `class` von `card-container` ein weiteres `div`-Element. Dieses `div` wird die erste Buchkarte darstellen.
 
-Fügen Sie diesem neuen `class`-Element ein `div`-Attribut hinzu und setzen Sie den Wert des `class`-Attributs auf `card`.
+Fügen Sie diesem neuen `div`-Element ein `class`-Attribut hinzu und setzen Sie den Wert des `class`-Attributs auf `card`.
 
 # --hints--
 

@@ -8,7 +8,7 @@ dashedName: getters-and-setters
 
 # --description--
 
-在这个 `video` 中，你将学习关于 getter 和 setter。
+在这个 video 中，你将学习关于 getter 和 setter。
 
 # --questions--
 
@@ -22,11 +22,11 @@ dashedName: getters-and-setters
 
 ---
 
-一种用于获取或读取 `attribute` 值的 `method`。
+一种用于获取或读取 attribute 值的 method。
 
 ---
 
-用于设置或更新私有或受保护 `attribute` 值的 `class` 中的 `method`。
+用于设置或更新私有或受保护 attribute 值的 class 中的 method。
 
 ---
 

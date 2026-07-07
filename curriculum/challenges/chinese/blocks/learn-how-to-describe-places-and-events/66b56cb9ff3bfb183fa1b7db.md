@@ -46,7 +46,7 @@ lang: en-US
 
 `Module` 指课程或培训程序的一个单元或部分。例如：
 
-- 下周将添加关于网络安全性的 `module`。这里，`module` 指的是专注于网络安全性的培训的特定部分。
+- `The new module on cybersecurity will be added next week.` - 这里，`module` 指的是培训中专注于网络安全的特定部分。
 
 注意 `this`、`new` 和 `module` 这几个词的用法。`This` 用于指定他们正在讨论的模块，`new` 表示这是一个新添加的内容，`module` 指的是培训的一个部分。
 

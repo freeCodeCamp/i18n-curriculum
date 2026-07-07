@@ -47,7 +47,7 @@ assert.strictEqual(
 );
 ```
 
-猫 `img` 元素应该有一个 `alt` 属性，值为 `Five cats looking around a field.`
+猫 `img` 元素应该有一个 `alt` 属性，值为 `Two tabby kittens sleeping together on a couch.`
 
 ```js
 const catsImg = document.querySelectorAll('figure > img')[1];

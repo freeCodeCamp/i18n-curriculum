@@ -8,7 +8,7 @@ dashedName: recursive-functions
 
 # --description--
 
-在這個 `video` 中，你將學習遞迴。 
+在這個 video 中，你將學習遞迴。
 
 # --questions--
 

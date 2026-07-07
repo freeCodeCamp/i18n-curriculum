@@ -54,9 +54,9 @@ Mark 應該在他的程式碼中使用註解。
 
 `comment` 是程式碼中的註解，有助於說明它的功能。例如：
 
-- 你寫了一個註解來說明為什麼需要這個迴圈。
+- `I added a comment to explain why this loop is necessary.` - 你寫了一個註解來說明為什麼需要這個迴圈。
 
-- 你可以使用註解來留下關於稍後需要修正問題的備註。- 註解可以添加在程式碼中，作為需要修正或改進事項的提醒。
+- `You can use comments to leave notes about issues that need fixing later.` - 註解可以添加在程式碼中，作為需要修正或改進事項的提醒。
 
 註解幫助其他人理解程式碼，並在你稍後檢視程式碼時提醒你重要的細節。
 

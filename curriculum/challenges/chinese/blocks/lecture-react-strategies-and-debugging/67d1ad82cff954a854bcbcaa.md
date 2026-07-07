@@ -32,7 +32,7 @@ function App() {
 export default App;
 ```
 
-你可以看到 `Parent` 组件也在接收 `greeting` 变量作为 `greeting` 属性的值。这里 `Parent` 组件将其作为另一个 `greeting` 属性的值传递给 `Child` 组件：
+你可以看到 `Parent` 组件也在接收 `greeting` 变量，作为 `greeting` 属性的值。 这里 `Parent` 组件将其作为 `Child` 中另一个 `greeting` 属性的值传递给 `Child` 组件：
 
 ```jsx
 import Child from "./Child";
@@ -184,7 +184,7 @@ export default App;
 
 ## --text--
 
-为什么在较大的 `application` 中，`prop drilling` 被认为是一个问题？
+为什么在较大的 application 中，prop drilling 被认为是一个问题？
 
 ## --answers--
 
@@ -204,7 +204,7 @@ export default App;
 
 ---
 
-这会使 `code` 更难以读取、调试和维护。
+这会使 code 更难以读取、调试和维护。
 
 ---
 

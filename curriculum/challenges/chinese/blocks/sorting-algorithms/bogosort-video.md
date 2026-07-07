@@ -8,7 +8,7 @@ dashedName: bogosort
 
 # --description--
 
-在这个 `video` 中，你将学习如何使用 bogosort `algorithm`。
+在这个 video 中，你将学习如何使用 bogosort algorithm。
 
 # --questions--
 
@@ -22,7 +22,7 @@ bogosort 算法是如何工作的？
 
 ---
 
-它将 `list` 分成两半，递归地排序每一半，然后合并它们。
+它将 list 分成两半，递归地排序每一半，然后合并它们。
 
 ---
 

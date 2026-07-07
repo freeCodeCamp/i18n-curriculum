@@ -46,7 +46,7 @@ dashedName: review-css-animations
 - **`animation-timing-function`**: Definisce come l'animazione procede nel tempo (ad esempio `ease`, `linear`, `ease-in-out`).
 - **`animation-delay`**: Specifica un ritardo prima che l'animazione inizi.
 - **`animation-iteration-count`**: Imposta quante volte l'animazione deve ripetersi.
-- **`animation-direction`**: Determina se l'animazione deve andare avanti nella direzione `normal`, indietro in `reverse` o alternare tra le due.
+- **`animation-direction`**: Determina se l'animazione deve andare avanti nella direzione `normal`, indietro in `reverse` o `alternate` tra le due.
 - **`animation-fill-mode`**: Specifica come l'elemento deve essere stilizzato prima e dopo l'animazione.
 - **`animation-play-state`**: Permette di mettere in pausa e riprendere l'animazione.
 

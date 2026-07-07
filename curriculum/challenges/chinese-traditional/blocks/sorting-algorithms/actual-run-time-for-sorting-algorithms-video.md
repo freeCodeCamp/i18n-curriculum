@@ -8,13 +8,13 @@ dashedName: actual-run-time-for-sorting-algorithms
 
 # --description--
 
-在這個影片中，你將比較 `merge sort`、`quicksort` 和 `selection sort` 演算法的實際執行期。
+在這個影片中，你將比較 merge sort、quicksort 和 selection sort 演算法的實際執行期。
 
 # --questions--
 
 ## --text--
 
-當使用包含 1 百萬個數字的資料集比較 `quicksort` 和 `merge sort` 演算法時，示範中發生了什麼？
+當使用包含 1 百萬個數字的資料集比較 quicksort 和 merge sort 演算法時，示範中發生了什麼？
 
 ## --answers--
 

@@ -105,7 +105,7 @@ p[lang="fr"] { color: blue; }
 
 #### --text--
 
-どのCSSセレクターが、`a`属性を持つすべての`href`要素にマッチしますか？
+どのCSSセレクターが、`href`属性を持つすべての`a`要素にマッチしますか？
 
 #### --distractors--
 
@@ -247,7 +247,7 @@ ol[type="1"] { color: purple; }
 
 #### --text--
 
-`a`属性と`href`属性の両方を持つ`title`要素をスタイルするには、次のうちどのCSSセレクターを使いますか？
+`title`属性と`href`属性の両方を持つ`a`要素をスタイルするには、次のうちどのCSSセレクターを使いますか？
 
 #### --distractors--
 
@@ -277,7 +277,7 @@ a[href][title] { text-decoration: underline dotted; }
 
 #### --text--
 
-レストランのウェブサイトを開発していて、`menu-item`属性を持つ`data-special`クラスのすべての要素をスタイルしたい場合、どのCSSセレクターを使いますか？
+レストランのウェブサイトを開発していて、`data-special`属性を持つ`menu-item`クラスのすべての要素をスタイルしたい場合、どのCSSセレクターを使いますか？
 
 #### --distractors--
 

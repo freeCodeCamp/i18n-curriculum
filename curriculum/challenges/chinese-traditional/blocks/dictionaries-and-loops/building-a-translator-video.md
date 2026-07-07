@@ -8,7 +8,7 @@ dashedName: building-a-translator
 
 # --description--
 
-在這個 `video` 中，你將使用字典和使用者輸入來建置一個簡單的翻譯程式。
+在這個 video 中，你將使用字典和使用者輸入來建置一個簡單的翻譯程式。
 
 # --questions--
 

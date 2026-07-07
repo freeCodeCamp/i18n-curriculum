@@ -7,7 +7,7 @@ dashedName: what-is-the-process-module-and-how-does-it-work
 
 # --description--
 
-`process` 是最重要的 Node.js 核心模組之一。它讓你存取目前 Node.js `process` 的資訊，並在你的應用程式執行時控制它。
+`process` 是最重要的 Node.js 核心模組之一。它讓你存取目前 Node.js process 的資訊，並在你的應用程式執行時控制它。
 
 當你在終端機中執行像是 `node script.js` 的指令時，Node.js 會啟動一個處理程序，這是一個執行 `script.js` 檔案的 Node 程式的執行中實體。這個處理程序有它自己的記憶體、環境和執行背景關係。 
 
@@ -139,7 +139,7 @@ process.emitWarning('This is a custom warning message', 'CustomWarning');
 
 ## --text--
 
-你如何使用 `process` 模組？
+你如何使用 process 模組？
 
 ## --answers--
 
@@ -151,7 +151,7 @@ process.emitWarning('This is a custom warning message', 'CustomWarning');
 
 ### --feedback--
 
-想想為什麼你可以在任何地方存取 `process` 而不需設定。
+想想為什麼你可以在任何地方存取 process 而不需設定。
 
 ---
 
@@ -159,7 +159,7 @@ process.emitWarning('This is a custom warning message', 'CustomWarning');
 
 ### --feedback--
 
-想想為什麼你可以在任何地方存取 `process` 而不需設定。
+想想為什麼你可以在任何地方存取 process 而不需設定。
 
 ---
 
@@ -167,7 +167,7 @@ process.emitWarning('This is a custom warning message', 'CustomWarning');
 
 ### --feedback--
 
-想想為什麼你可以在任何地方存取 `process` 而不需設定。
+想想為什麼你可以在任何地方存取 process 而不需設定。
 
 ## --video-solution--
 

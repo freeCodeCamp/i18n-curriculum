@@ -8,7 +8,7 @@ dashedName: actual-run-time-for-sorting-algorithms
 
 # --description--
 
-在这个 `video` 中，你将比较归并排序、快速排序和选择排序 `algorithm` 的实际运行期。
+在这个 video 中，你将比较归并排序、快速排序和选择排序 algorithm 的实际运行期。
 
 # --questions--
 

@@ -151,7 +151,7 @@ Habilitando-o no arquivo de configuração do Node.js.
 
 ### --feedback--
 
-Pense por que você pode acessar `process` em qualquer lugar sem configuração.
+Pense por que você pode acessar process em qualquer lugar sem configuração.
 
 ---
 
@@ -159,7 +159,7 @@ Instalando-o manualmente usando npm antes de chamá-lo.
 
 ### --feedback--
 
-Pense por que você pode acessar `process` em qualquer lugar sem configuração.
+Pense por que você pode acessar process em qualquer lugar sem configuração.
 
 ---
 
@@ -167,7 +167,7 @@ Importando-o usando require('process') antes de cada uso.
 
 ### --feedback--
 
-Pense por que você pode acessar `process` em qualquer lugar sem configuração.
+Pense por que você pode acessar process em qualquer lugar sem configuração.
 
 ## --video-solution--
 

@@ -8,7 +8,7 @@ dashedName: accessing-a-value-in-an-array
 
 # --description--
 
-在这个 `video` 中，你将学习如何从 `array` 中访问 `Element`。
+在这个 video 中，你将学习如何从 array 中访问 Element。
 
 # --questions--
 

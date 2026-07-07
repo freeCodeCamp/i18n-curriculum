@@ -8,7 +8,7 @@ dashedName: evaluating-linear-search
 
 # --description--
 
-在这个 `video` 中，你将学习更多关于线性 `search` `algorithm` 以及如何评估其 `runtime`。
+在这个 video 中，你将学习更多关于线性 search algorithm 以及如何评估其 runtime。
 
 # --questions--
 

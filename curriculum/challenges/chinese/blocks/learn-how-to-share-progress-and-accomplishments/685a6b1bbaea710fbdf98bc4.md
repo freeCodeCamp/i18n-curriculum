@@ -16,7 +16,7 @@ lang: en-US
 
 将以下单词或短语写在正确的位置：
 
-`上个月`、`有一段时间了`、`下一阶段`、`好消息`、`昨天` 和 `绿灯`。
+`last month`、`a while since`、`next phase`、`good news`、`yesterday` 和 `green light`。
 
 # --fillInTheBlank--
 

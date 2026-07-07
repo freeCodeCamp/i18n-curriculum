@@ -14,7 +14,7 @@ Para `take` pode significar coisas diferentes dependendo da situação. No conte
 
 - `I take online lessons at 7.` - Aqui, `take` significa assistir às aulas.
 
-- Ela está fazendo um curso de programação neste semestre. - Aqui, `taking` significa que ela está matriculada e frequentando o curso.
+- `She is taking a programming course this semester.` - Aqui, `taking` significa que ela está matriculada e frequentando o curso.
 
 Então, quando você diz `take lessons` ou `take a course`, você está falando sobre participar ou assistir a eles, não sobre pegar algo fisicamente.
 

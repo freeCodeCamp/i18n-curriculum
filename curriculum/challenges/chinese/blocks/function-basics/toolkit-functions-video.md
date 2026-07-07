@@ -8,7 +8,7 @@ dashedName: toolkit-functions
 
 # --description--
 
-在这个 `video` 中，你将学习工具包 `function`。
+在这个 video 中，你将学习工具包 function。
 
 # --questions--
 

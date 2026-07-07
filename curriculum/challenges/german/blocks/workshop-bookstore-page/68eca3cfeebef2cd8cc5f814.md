@@ -7,7 +7,7 @@ dashedName: step-14
 
 # --description--
 
-Fügen Sie Ihrem zweiten Element mit der Klasse `id` ein `card`-Attribut hinzu und setzen Sie dessen Wert auf `dave-cooking-book`. Denken Sie daran, dass jedes `id` einzigartig sein muss.
+Fügen Sie Ihrem zweiten Element mit der Klasse `card` ein `id`-Attribut hinzu und setzen Sie dessen Wert auf `dave-cooking-book`. Denken Sie daran, dass jedes `id` einzigartig sein muss.
 
 # --hints--
 

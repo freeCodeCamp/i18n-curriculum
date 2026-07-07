@@ -8,13 +8,13 @@ dashedName: what-are-embedding-models
 
 # --description--
 
-在这个 `video` 中，你将学习关于 `embedding` `models` 的内容。
+在这个 video 中，你将学习关于 embedding models 的内容。
 
 # --questions--
 
 ## --text--
 
-什么是 `embedding model`？
+什么是 embedding model？
 
 ## --answers--
 

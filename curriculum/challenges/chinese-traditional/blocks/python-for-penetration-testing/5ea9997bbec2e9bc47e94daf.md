@@ -14,7 +14,7 @@ dashedName: understanding-sockets-and-creating-a-tcp-server
 
 ## --text--
 
-以下哪一個函式（程式）會創建一個 `socket` 物件？
+以下哪一個函式（程式）會創建一個 socket 物件？
 
 ## --answers--
 

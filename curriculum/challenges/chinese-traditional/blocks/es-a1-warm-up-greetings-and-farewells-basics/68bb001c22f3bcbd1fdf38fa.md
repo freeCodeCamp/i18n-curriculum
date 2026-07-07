@@ -48,7 +48,7 @@ Elena 用什麼字來說「hi」？
 
 ### --feedback--
 
-這表示「早安」，但這不是你在 `audio` 中聽到的內容。
+這表示「早安」，但這不是你在 audio 中聽到的內容。
 
 ## --video-solution--
 

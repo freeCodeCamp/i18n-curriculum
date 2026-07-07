@@ -87,7 +87,7 @@ console.log(num); // 5
 
 ## --text--
 
-以下 `code` 的輸出結果會是什麼？
+以下 code 的輸出結果會是什麼？
 
 ```js
 var x = 10;

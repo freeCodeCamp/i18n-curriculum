@@ -15,7 +15,7 @@ dashedName: step-3
 
 # --hints--
 
-`d` 要素に `path` 属性があるはずです。
+`path` 要素に `d` 属性があるはずです。
 
 ```js
 const path = document.querySelector('path');

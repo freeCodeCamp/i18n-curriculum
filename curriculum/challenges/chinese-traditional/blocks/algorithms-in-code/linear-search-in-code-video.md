@@ -14,7 +14,7 @@ dashedName: linear-search-in-code
 
 ## --text--
 
-以下哪一種是撰寫線性 `search` `function` 的正確方式？
+以下哪一種是撰寫線性 search function 的正確方式？
 
 ## --answers--
 

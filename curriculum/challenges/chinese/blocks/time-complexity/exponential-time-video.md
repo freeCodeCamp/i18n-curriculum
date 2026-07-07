@@ -8,13 +8,13 @@ dashedName: exponential-time
 
 # --description--
 
-在这个 `video` 中，你将学习指数级 `runtime`。 
+在这个 video 中，你将学习指数级 runtime。
 
 # --questions--
 
 ## --text--
 
-以下哪个常见问题是指数 `algorithm` 的示例？
+以下哪个常见问题是指数 algorithm 的示例？
 
 ## --answers--
 

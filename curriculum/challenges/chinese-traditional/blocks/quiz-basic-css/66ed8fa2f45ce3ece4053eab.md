@@ -677,7 +677,7 @@ body {
 
 #### --distractors--
 
-在元素 `border` 和周圍元素之間。
+在元素 border 和周圍元素之間。
 
 ---
 
@@ -761,7 +761,7 @@ body {
 
 #### --text--
 
-在 `class` 選擇器名稱前面的是什麼字元？
+在 class 選擇器名稱前面的是什麼字元？
 
 #### --distractors--
 

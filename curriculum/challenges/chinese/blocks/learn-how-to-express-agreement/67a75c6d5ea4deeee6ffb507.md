@@ -58,7 +58,7 @@ Linda 不谈论重新设计接口。
 
 `Prepare some user scenarios for testing` – 这明确说明了她正在承担的任务。  
 
-确保流畅的用户体验——这解释了为什么测试很重要，并强化了她对项目的承诺。  
+`Ensure a smooth user experience`——这解释了为什么测试很重要，并强化了她对项目的承诺。
 
 # --scene--
 

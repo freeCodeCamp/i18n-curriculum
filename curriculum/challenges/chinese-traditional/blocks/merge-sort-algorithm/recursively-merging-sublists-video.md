@@ -8,13 +8,13 @@ dashedName: recursively-merging-sublists
 
 # --description--
 
-在這個影片中，你將學習更多關於合併排序 `algorithm`，並看到如何遞迴合併子 `list`。
+在這個影片中，你將學習更多關於合併排序 algorithm，並看到如何遞迴合併子 list。
 
 # --questions--
 
 ## --text--
 
-合併排序演算法中 `merge` 函式的目的為何？
+合併排序演算法中 merge 函式的目的為何？
 
 ## --answers--
 

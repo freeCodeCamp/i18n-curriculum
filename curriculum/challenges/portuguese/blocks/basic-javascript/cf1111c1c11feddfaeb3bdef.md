@@ -28,7 +28,7 @@ Modifique o `0` para que a soma seja igual a `20`.
 
 # --hints--
 
-`soma` deve ser igual a `20`.
+`sum` deve ser igual a `20`.
 
 ```js
 assert(sum === 20);

@@ -14,7 +14,7 @@ Neste vídeo, você aprenderá como criar uma solução recursiva para busca bin
 
 ## --text--
 
-O que é uma `recursive function`?
+O que é uma recursive function?
 
 ## --answers--
 
@@ -22,7 +22,7 @@ Uma função que realiza um cálculo apenas uma vez.
 
 ---
 
-Uma `function` que faz uma `call` para si mesma.
+Uma function que faz uma call para si mesma.
 
 ---
 
@@ -30,7 +30,7 @@ Uma função que nunca retorna um valor.
 
 ---
 
-Uma `function` que só pode `run` em um `loop`.
+Uma function que só pode run em um loop.
 
 ## --video-solution--
 

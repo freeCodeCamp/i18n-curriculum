@@ -277,7 +277,7 @@ a[href][title] { text-decoration: underline dotted; }
 
 #### --text--
 
-레스토랑 웹사이트를 개발 중이며 `menu-item` 속성이 있는 `data-special` 클래스를 가진 모든 요소에 스타일을 적용하려면 어떤 CSS 선택자를 사용해야 하나요?
+레스토랑 웹사이트를 개발 중이며 `data-special` 속성이 있는 `menu-item` 클래스를 가진 모든 요소에 스타일을 적용하려면 어떤 CSS 선택자를 사용해야 하나요?
 
 #### --distractors--
 

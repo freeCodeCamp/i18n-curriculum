@@ -8,7 +8,7 @@ dashedName: array-basics
 
 # --description--
 
-在這個 `video` 中，你將學習關於陣列。
+在這個 video 中，你將學習關於陣列。
 
 # --questions--
 

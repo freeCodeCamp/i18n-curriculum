@@ -26,7 +26,7 @@ dashedName: step-29
 - Excellent
 
 
-`selected` 要素に `option` 属性を、値 `"excellent"` で追加するのを忘れないでください。
+`option` 要素に `selected` 属性を、値 `"excellent"` で追加するのを忘れないでください。
 
 # --hints--
 

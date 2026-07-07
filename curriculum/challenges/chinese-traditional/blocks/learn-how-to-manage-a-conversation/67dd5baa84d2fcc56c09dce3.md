@@ -38,11 +38,11 @@ lang: en-US
 
 `To decide` 是指經過思考後選擇某事物。例如：
 
-`We need to decide which tools to use for the project。`－這表示在考慮選項後選擇工具。
+`We need to decide which tools to use for the project.`－這表示在考慮選項後選擇工具。
 
 `phase` 指的是較大處理程序中的一個零件或步驟。例如：
 
-`We just finished the testing phase of the software。`－這表示開發流程中的測試步驟已完成。
+`We just finished the testing phase of the software.`－這表示開發流程中的測試步驟已完成。
 
 # --scene--
 

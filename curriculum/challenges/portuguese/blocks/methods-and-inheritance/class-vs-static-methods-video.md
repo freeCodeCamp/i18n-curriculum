@@ -8,7 +8,7 @@ dashedName: class-vs-static-methods
 
 # --description--
 
-Neste vídeo, você aprenderá a diferença entre `class` e métodos estáticos.
+Neste vídeo, você aprenderá a diferença entre class e métodos estáticos.
 
 # --questions--
 
@@ -18,7 +18,7 @@ O que é um método de classe?
 
 ## --answers--
 
-Um `method` que funciona apenas com `global variables` e não está relacionado à `class` ou suas instâncias.
+Um method que funciona apenas com global variables e não está relacionado à class ou suas instâncias.
 
 ---
 
@@ -30,7 +30,7 @@ Um método que é executado automaticamente quando um objeto é excluído.
 
 ---
 
-Um método que está vinculado à `class` em si, e não a uma instância da `class`.
+Um método que está vinculado à class em si, e não a uma instância da class.
 
 ## --video-solution--
 

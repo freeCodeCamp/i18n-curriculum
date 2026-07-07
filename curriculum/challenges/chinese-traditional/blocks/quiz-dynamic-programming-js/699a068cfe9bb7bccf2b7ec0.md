@@ -153,7 +153,7 @@ dashedName: quiz-dynamic-programming-js
 
 #### --distractors--
 
-為 `data structure` 高效配置 `memory`。
+為 data structure 高效配置 memory。
 
 ---
 

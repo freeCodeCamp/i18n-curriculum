@@ -1,6 +1,6 @@
 ---
 id: bd7178d8c242eddfaeb5bd13
-title: "构建散点图 `Graph`"
+title: "构建散点图 Graph"
 challengeType: 25
 dashedName: build-a-scatterplot-graph
 demoType: onClick
@@ -28,8 +28,8 @@ demoType: onClick
 1. 每个 `.dot` 元素应与 y 轴上的对应值对齐。
 1. y 轴上应有多个刻度标签，时间格式为 `%M:%S`。
 1. x 轴上应有多个刻度标签显示年份。
-1. x 轴标签的范围应在实际 x 轴 `data` 的范围内。
-1. y 轴标签的范围应在实际 y 轴 `data` 的范围内。
+1. x 轴标签的范围应在实际 x 轴 data 的范围内。
+1. y 轴标签的范围应在实际 y 轴 data 的范围内。
 1. 应该有一个包含描述性文本且带有 `id="legend"` 的图例。
 1. 你应该能够将鼠标悬停在某个区域上，并看到带有相应 `id="tooltip"` 的工具提示，显示有关该区域的更多信息。
 1. 你的工具提示应具有一个 `data-year` 属性，该属性对应于活动区域的 `data-xvalue`。
@@ -671,7 +671,7 @@ y 轴应包含多个刻度标签，每个标签都带有相应的 `class="tick"`
 assert.isNotEmpty(document.querySelectorAll('#y-axis .tick'));
 ```
 
-你的图表应有点，每个点都有一个 `dot` 类，用于表现正在绘制的 `data`。
+你的图表应有点，每个点都有一个 `dot` 类，用于表现正在绘制的 data。
 
 ```js
 assert.isNotEmpty(document.querySelectorAll('circle.dot'));
@@ -824,7 +824,7 @@ xAxisTickLabels.forEach((label) => {
 });
 ```
 
-x 轴标签的范围在实际 x 轴 `data` 的范围内。
+x 轴标签的范围在实际 x 轴 data 的范围内。
 
 ```js
 const xAxisTickLabels = document.querySelectorAll('#x-axis .tick');
@@ -848,7 +848,7 @@ xAxisTickLabels.forEach((label) => {
 });
 ```
 
-y 轴标签的范围在实际 y 轴 `data` 的范围内。
+y 轴标签的范围在实际 y 轴 data 的范围内。
 
 ```js
 const yAxisTickLabels = document.querySelectorAll('#y-axis .tick');

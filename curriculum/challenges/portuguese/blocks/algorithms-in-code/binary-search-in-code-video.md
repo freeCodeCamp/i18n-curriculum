@@ -18,11 +18,11 @@ Por que a condição `while first <= last:` foi usada na solução?
 
 ## --answers--
 
-Para garantir que apenas a primeira metade do `array` seja verificada.
+Para garantir que apenas a primeira metade do array seja verificada.
 
 ---
 
-Para fazer o `loop` executar para sempre até ser parado manualmente.
+Para fazer o loop executar para sempre até ser parado manualmente.
 
 ---
 

@@ -14,7 +14,7 @@ La instructora Dra. Linda Green, profesora en la Universidad de North Carolina e
 
 ## --text--
 
-¿Cuál es el dominio de una `function`?
+¿Cuál es el dominio de una function?
 
 ## --answers--
 

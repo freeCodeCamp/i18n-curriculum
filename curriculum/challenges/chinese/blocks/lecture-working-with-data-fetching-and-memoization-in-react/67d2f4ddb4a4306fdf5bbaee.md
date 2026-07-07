@@ -1,6 +1,6 @@
 ---
 id: 67d2f4ddb4a4306fdf5bbaee
-title: "什么是记忆化，以及 `useMemo` 钩子如何工作？"
+title: "什么是记忆化，以及 useMemo 钩子如何工作？"
 challengeType: 19
 dashedName: what-is-memoization-and-how-does-the-usememo-hook-work
 ---
@@ -11,7 +11,7 @@ dashedName: what-is-memoization-and-how-does-the-usememo-hook-work
 
 这在具有复杂状态管理、大型列表、需要大量计算的函数以及许多具有单一父组件的组件的应用中尤其成问题。
 
-这就产生了通过最小化冗余 `computation` 并确保更流畅的交互来优化你的 React 应用以获得更好 `performance` 的需求。
+这就产生了通过最小化冗余 computation 并确保更流畅的交互来优化你的 React 应用以获得更好 performance 的需求。
 
 React 通过一种称为 memoization 的进程解决了这个问题，这是一种缓存值和函数以防止不必要重新计算的技术，因此你的应用可以更快且响应更灵敏。
 

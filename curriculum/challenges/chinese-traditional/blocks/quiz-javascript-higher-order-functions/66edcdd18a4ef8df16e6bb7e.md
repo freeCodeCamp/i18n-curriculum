@@ -25,7 +25,7 @@ dashedName: quiz-javascript-higher-order-functions
 
 ---
 
-像 `map`、`filter` 和 `reduce` 這類高階函式是操作陣列的強大工具，但它們並非函式式程式設計所獨有。
+像 map、filter 和 reduce 這類高階函式是操作陣列的強大工具，但它們並非函式式程式設計所獨有。
 
 ---
 
@@ -94,7 +94,7 @@ const mapRes = numbers.map(num => {
 
 #### --text--
 
-這段 `code` 的結果是什麼？
+這段 code 的結果是什麼？
 
 ```js
 [, undefined, 'a', 'b', { 20: 5 }].sort();
@@ -242,7 +242,7 @@ str.toLowerCase().trim().replace(' ', '_');
 
 #### --text--
 
-以下 `code` 的輸出是什麼？
+以下 code 的輸出是什麼？
 
 ```js
 let numbers = [2, 4, 8, 10];

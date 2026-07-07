@@ -30,7 +30,7 @@ lang: en-US
 
 `Before` 用來表示一個動作發生在另一個動作之前。 例如：
 
-- `Please save your work before you close the program。` – 這表示存檔應該在關閉程式之前進行。
+- `Please save your work before you close the program.` – 這表示存檔應該在關閉程式之前進行。
 
 - `He always checks his code carefully before submitting it.` – 這表示檢查會先於提交的動作發生。
 

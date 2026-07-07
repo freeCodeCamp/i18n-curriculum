@@ -8,7 +8,7 @@ dashedName: implementing-quicksort
 
 # --description--
 
-在这个 `video` 中，你将学习如何用 Python `implement` 快速排序 `algorithm`。
+在这个 video 中，你将学习如何用 Python implement 快速排序 algorithm。
 
 # --questions--
 

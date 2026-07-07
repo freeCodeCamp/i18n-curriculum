@@ -10,7 +10,7 @@ lang: en-US
 
 # --description--
 
-`To pique one's interest` significa far venire a qualcuno la voglia di sapere di più. Lo usi quando qualcosa attira la tua attenzione e ti interessa. Per esempio:
+To `pique one's interest` significa far venire a qualcuno la voglia di sapere di più. Lo usi quando qualcosa attira la tua attenzione e ti interessa. Per esempio:
 
 - `The new AI tool really piqued my interest.` - Ti ha fatto venire curiosità e volevi saperne di più.
 

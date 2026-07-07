@@ -48,7 +48,7 @@ Isso mostra falta de confiança e não empolgação com os resultados.
 
 `Impressive` significa que algo é digno de atenção, admiração ou respeito porque é incomumente bom, grande ou eficaz. Por exemplo:
 
-Sua apresentação foi realmente impressionante! Cobriu tudo de forma clara e confiante.` – Isso significa que a apresentação foi de alta qualidade e deixou um forte impacto positivo.
+`Your presentation was really impressive! It covered everything clearly and confidently.` – Isso significa que a apresentação foi de alta qualidade e deixou um forte impacto positivo.
 
 # --scene--
 

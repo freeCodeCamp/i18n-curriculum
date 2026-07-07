@@ -8,7 +8,7 @@ dashedName: tuples
 
 # --description--
 
-在这个 `video` 中，你将学习 Python 中的 `tuple` 及其与 `list` 的区别。
+在这个 video 中，你将学习 Python 中的 tuple 及其与 list 的区别。
 
 # --questions--
 

@@ -8,7 +8,7 @@ dashedName: create-a-complex-jsx-element
 
 # --description--
 
-最後一個挑戰是一個簡單的 `JSX` 範例，但 `JSX` 也可以表述更複雜的 `HTML`。
+最後一個挑戰是一個簡單的 JSX 範例，但 JSX 也可以表述更複雜的 HTML。
 
 關於巢狀 JSX，有一件重要的事要知道，那就是它必須傳回單一元素。
 

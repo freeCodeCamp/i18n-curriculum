@@ -22,11 +22,11 @@ Um tipo de loop que nunca termina.
 
 ---
 
-Uma `function` que faz uma `call` para si mesma.
+Uma function que faz uma call para si mesma.
 
 ---
 
-Uma `function` que só executa uma vez e depois para.
+Uma function que só executa uma vez e depois para.
 
 ---
 

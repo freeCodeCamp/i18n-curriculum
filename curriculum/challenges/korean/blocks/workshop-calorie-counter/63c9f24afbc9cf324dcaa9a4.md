@@ -13,13 +13,13 @@ dashedName: step-95
 
 # --hints--
 
-`clearForm` 함수는 `innerText` 요소의 `output` 속성에 접근해야 합니다.
+`clearForm` 함수는 `output` 요소의 `innerText` 속성에 접근해야 합니다.
 
 ```js
 assert.match(clearForm.toString(), /output\.innerText/);
 ```
 
-`clearForm` 함수는 `innerText` 요소의 `output` 속성을 빈 문자열로 설정해야 합니다.
+`clearForm` 함수는 `output` 요소의 `innerText` 속성을 빈 문자열로 설정해야 합니다.
 
 ```js
 assert.match(clearForm.toString(), /output\.innerText\s*=\s*('|"|`)\1/);

@@ -50,7 +50,7 @@ lang: es
 
 ### --feedback--
 
-這個字用於說出電子郵件 `address` 中的符號 `.`。
+這個字用於說出電子郵件 address 中的符號 `.`。
 
 ---
 
@@ -80,7 +80,7 @@ lang: es
 
 `Arroba` 表述符號 `@`
 
-這些字通常用於拼讀電子郵件 `address`。
+這些字通常用於拼讀電子郵件 address。
 
 # --scene--
 

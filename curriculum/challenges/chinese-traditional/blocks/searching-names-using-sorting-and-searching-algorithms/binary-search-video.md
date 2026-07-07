@@ -18,7 +18,7 @@ dashedName: binary-search
 
 ## --answers--
 
-當 `list` 未排序且經常變動時。
+當 list 未排序且經常變動時。
 
 ---
 

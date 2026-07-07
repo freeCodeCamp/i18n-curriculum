@@ -22,7 +22,7 @@ dashedName: graphs-of-sinusoidal-functions
 
 ---
 
-它們與 `secant` 和 `cosecant` 有關。
+它們與 secant 和 cosecant 有關。
 
 ---
 

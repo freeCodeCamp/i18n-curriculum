@@ -8,7 +8,7 @@ dashedName: lists
 
 # --description--
 
-在这个 `video` 中，你将学习关于列表、列表索引、切片和基本列表操作。
+在这个 video 中，你将学习关于列表、列表索引、切片和基本列表操作。
 
 # --questions--
 

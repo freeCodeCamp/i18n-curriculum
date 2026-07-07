@@ -8,7 +8,7 @@ dashedName: ensuring-the-correctness-of-merge-sort
 
 # --description--
 
-在這個 `video` 中，你將學習如何計算 `merge sort` `algorithm` 並判斷其正確性。 
+在這個 video 中，你將學習如何計算 merge sort algorithm 並判斷其正確性。
 
 # --questions--
 

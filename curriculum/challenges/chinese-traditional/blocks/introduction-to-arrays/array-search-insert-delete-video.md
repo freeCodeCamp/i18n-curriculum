@@ -8,7 +8,7 @@ dashedName: array-search-insert-delete
 
 # --description--
 
-在這個 `video` 中，你將學習如何從 `arrays` 中搜尋、插入和刪除元素。 
+在這個 video 中，你將學習如何從 arrays 中搜尋、插入和刪除元素。
 
 # --questions--
 

@@ -8,13 +8,13 @@ dashedName: transformations-of-functions
 
 # --description--
 
-在這個影片中，你將學習關於 `functions` 的轉換。
+在這個影片中，你將學習關於 functions 的轉換。
 
 # --questions--
 
 ## --text--
 
-以下哪一項是 `function` 轉換的有效規則？
+以下哪一項是 function 轉換的有效規則？
 
 ## --answers--
 

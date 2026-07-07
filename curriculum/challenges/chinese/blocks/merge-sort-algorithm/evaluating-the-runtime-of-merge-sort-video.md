@@ -8,7 +8,7 @@ dashedName: evaluating-the-runtime-of-merge-sort
 
 # --description--
 
-在本 `video` 中，你将学习归并排序 `algorithm` 的 `runtime`。
+在本 video 中，你将学习归并排序 algorithm 的 runtime。
 
 # --questions--
 

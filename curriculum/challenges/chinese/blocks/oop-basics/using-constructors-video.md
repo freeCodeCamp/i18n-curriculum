@@ -8,13 +8,13 @@ dashedName: using-constructors
 
 # --description--
 
-在这个 `video` 中，你将学习如何在 `class` 中使用 `constructors`。
+在这个 video 中，你将学习如何在 class 中使用 constructors。
 
 # --questions--
 
 ## --text--
 
-以下哪种是编写 `constructor` 的正确方式？
+以下哪种是编写 constructor 的正确方式？
 
 ## --answers--
 

@@ -8,7 +8,7 @@ dashedName: linear-and-quadratic-time
 
 # --description--
 
-在这个 `video` 中，你将学习线性时间和二次时间。 
+在这个 video 中，你将学习线性时间和二次时间。
 
 # --questions--
 
@@ -18,11 +18,11 @@ dashedName: linear-and-quadratic-time
 
 ## --answers--
 
-一个 `operation` 的一次方。
+一个 operation 的一次方。
 
 ---
 
-一个 `operation` 的三次方。
+一个 operation 的三次方。
 
 ---
 
@@ -30,7 +30,7 @@ dashedName: linear-and-quadratic-time
 
 ---
 
-一个 `operation` 的十次方。
+一个 operation 的十次方。
 
 ## --video-solution--
 

@@ -42,7 +42,7 @@ Tu `option` con el `value` de `"poor"` debería tener el texto `"Poor"`.
 assert.strictEqual(document.querySelector('fieldset:nth-of-type(4) select#food option[value="poor"]')?.textContent.trim(), 'Poor');
 ```
 
-Deberías tener un elemento `option` con el valor configurado a `"satisfactory"`.
+Deberías tener un elemento `option` con el `value` configurado a `"satisfactory"`.
 
 ```js
 assert.exists(document.querySelector('fieldset:nth-of-type(4) select#food option[value="satisfactory"]'));
@@ -54,7 +54,7 @@ Tu `option` con el `value` de `"satisfactory"` debería tener el texto `"Satisfa
 assert.strictEqual(document.querySelector('fieldset:nth-of-type(4) select#food option[value="satisfactory"]')?.textContent.trim(), 'Satisfactory');
 ```
 
-Deberías tener un elemento `option` con el valor configurado a `"good"`.
+Deberías tener un elemento `option` con el `value` configurado a `"good"`.
 
 ```js
 assert.exists(document.querySelector('fieldset:nth-of-type(4) select#food option[value="good"]'));

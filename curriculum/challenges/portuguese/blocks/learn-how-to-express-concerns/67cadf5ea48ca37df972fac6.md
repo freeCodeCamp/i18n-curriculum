@@ -54,7 +54,7 @@ Maria não menciona reuniões adicionais.
 
 `First` é usado quando você quer numerar ações em ordem de importância ou tempo. Neste caso, Maria está listando o que a equipe precisa, começando pelo que parece ser o pedido mais importante (ter mais suporte). Outro exemplo:
 
-Primeiro, devemos analisar o problema. Então, podemos discutir soluções.` - Isso significa que analisar o problema vem antes de qualquer outra coisa.
+`First, we should analyze the problem. Then, we can discuss solutions.` - Isso significa que analisar o problema vem antes de qualquer outra coisa.
 
 # --scene--
 

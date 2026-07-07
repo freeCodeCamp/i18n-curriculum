@@ -59,7 +59,7 @@ Una palabra que significa moverse alrededor o a través de algo, como un sitio w
 
 - `As I was walking home, they called me.` - Te llamaron mientras caminabas a casa.
 
-- Mejorarás en la codificación mientras practiques más.
+- `You will get better at coding as you practice more.` - Mejorarás en la codificación mientras practiques más.
 
 # --scene--
 

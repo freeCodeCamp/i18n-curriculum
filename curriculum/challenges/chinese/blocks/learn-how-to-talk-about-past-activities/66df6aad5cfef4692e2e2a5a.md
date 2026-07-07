@@ -59,7 +59,7 @@ Linda: Not yet, but I anticipate we'll start receiving more detailed reports as 
 
 - `As I was walking home, they called me.` - 他们在你走回家时调用了你。
 
-- 你在更多练习时会变得更擅长编码。
+- `You will get better at coding as you practice more.` － 随着你练习得越多，你会变得越好。
 
 # --scene--
 

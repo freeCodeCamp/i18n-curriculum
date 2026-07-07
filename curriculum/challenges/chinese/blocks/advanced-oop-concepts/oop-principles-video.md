@@ -8,7 +8,7 @@ dashedName: oop-principles
 
 # --description--
 
-在这个 `video` 中，你将学习常见的 OOP 原则。
+在这个 video 中，你将学习常见的 OOP 原则。
 
 # --questions--
 

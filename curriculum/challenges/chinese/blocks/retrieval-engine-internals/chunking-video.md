@@ -8,7 +8,7 @@ dashedName: chunking
 
 # --description--
 
-在这个 `video` 中，你将学习关于 `chunking` 的内容。
+在这个 video 中，你将学习关于 chunking 的内容。
 
 # --questions--
 

@@ -8,7 +8,7 @@ dashedName: reading-files
 
 # --description--
 
-在这个 `video` 中，你将学习如何在 Python 中读取 `files` 并处理它们的内容。
+在这个 video 中，你将学习如何在 Python 中读取 files 并处理它们的内容。
 
 # --questions--
 

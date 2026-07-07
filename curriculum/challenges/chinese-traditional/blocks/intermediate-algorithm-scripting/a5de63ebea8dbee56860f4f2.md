@@ -20,7 +20,7 @@ dashedName: diff-two-arrays
 assert(typeof diffArray([1, 2, 3, 5], [1, 2, 3, 4, 5]) === 'object');
 ```
 
-`["diorite", "andesite", "grass", "dirt", "pink wool", "dead shrub"]` 和 `["diorite", "andesite", "grass", "dirt", "dead shrub"]` 應該傳回 `["pink wool"]`。
+`["diorite", "andesite", "grass", "dirt", "pink wool", "dead shrub"], ["diorite", "andesite", "grass", "dirt", "dead shrub"]` 應該傳回 `["pink wool"]`.
 
 ```js
 assert.sameMembers(
@@ -32,7 +32,7 @@ assert.sameMembers(
 );
 ```
 
-`["diorite", "andesite", "grass", "dirt", "pink wool", "dead shrub"]`、`["diorite", "andesite", "grass", "dirt", "dead shrub"]` 應該傳回一個包含一個條款的陣列。
+`["diorite", "andesite", "grass", "dirt", "pink wool", "dead shrub"], ["diorite", "andesite", "grass", "dirt", "dead shrub"]` 應該傳回一個包含一個條款的陣列。
 
 ```js
 assert(
@@ -43,7 +43,7 @@ assert(
 );
 ```
 
-`["andesite", "grass", "dirt", "pink wool", "dead shrub"]`、`["diorite", "andesite", "grass", "dirt", "dead shrub"]` 應該傳回 `["diorite", "pink wool"]`。
+`["andesite", "grass", "dirt", "pink wool", "dead shrub"], ["diorite", "andesite", "grass", "dirt", "dead shrub"]` 應該傳回 `["diorite", "pink wool"]`。
 
 ```js
 assert.sameMembers(
@@ -55,7 +55,7 @@ assert.sameMembers(
 );
 ```
 
-`["andesite", "grass", "dirt", "pink wool", "dead shrub"]`、`["diorite", "andesite", "grass", "dirt", "dead shrub"]` 應該傳回一個有兩個條款的陣列。
+`["andesite", "grass", "dirt", "pink wool", "dead shrub"], ["diorite", "andesite", "grass", "dirt", "dead shrub"]` 應該傳回一個有兩個條款的陣列。
 
 ```js
 assert(
@@ -66,7 +66,7 @@ assert(
 );
 ```
 
-`["andesite", "grass", "dirt", "dead shrub"]`、`["andesite", "grass", "dirt", "dead shrub"]` 應該傳回 `[]`。
+`["andesite", "grass", "dirt", "dead shrub"], ["andesite", "grass", "dirt", "dead shrub"]` 應該傳回 `[]`。
 
 ```js
 assert.sameMembers(
@@ -78,7 +78,7 @@ assert.sameMembers(
 );
 ```
 
-`["andesite", "grass", "dirt", "dead shrub"]` 應該傳回一個空的陣列。
+`["andesite", "grass", "dirt", "dead shrub"], ["andesite", "grass", "dirt", "dead shrub"]` 應該傳回一個空的陣列。
 
 ```js
 assert(
@@ -89,19 +89,19 @@ assert(
 );
 ```
 
-`[1, 2, 3, 5]`、`[1, 2, 3, 4, 5]` 應該傳回 `[4]`。
+`[1, 2, 3, 5], [1, 2, 3, 4, 5]` 應該傳回 `[4]`。
 
 ```js
 assert.sameMembers(diffArray([1, 2, 3, 5], [1, 2, 3, 4, 5]), [4]);
 ```
 
-`[1, 2, 3, 5]`、`[1, 2, 3, 4, 5]` 應該傳回一個包含一個項目的陣列。
+`[1, 2, 3, 5], [1, 2, 3, 4, 5]` 應該傳回一個包含一個項目的陣列。
 
 ```js
 assert(diffArray([1, 2, 3, 5], [1, 2, 3, 4, 5]).length === 1);
 ```
 
-`[1, "calf", 3, "piglet"]`、`[1, "calf", 3, 4]` 應該傳回 `["piglet", 4]`。
+`[1, "calf", 3, "piglet"], [1, "calf", 3, 4]` 應該傳回 `["piglet", 4]`。
 
 ```js
 assert.sameMembers(diffArray([1, 'calf', 3, 'piglet'], [1, 'calf', 3, 4]), [
@@ -110,13 +110,13 @@ assert.sameMembers(diffArray([1, 'calf', 3, 'piglet'], [1, 'calf', 3, 4]), [
 ]);
 ```
 
-`[1, "calf", 3, "piglet"]`、`[1, "calf", 3, 4]` 應該傳回一個包含兩個條款的陣列。
+`[1, "calf", 3, "piglet"], [1, "calf", 3, 4]` 應該傳回一個包含兩個條款的陣列。
 
 ```js
 assert(diffArray([1, 'calf', 3, 'piglet'], [1, 'calf', 3, 4]).length === 2);
 ```
 
-`[]`、[`"snuffleupagus"`、`"cookie monster"`、`"elmo"`] 應該傳回 [`"snuffleupagus"`、`"cookie monster"`、`"elmo"`]。
+`[], ["snuffleupagus", "cookie monster", "elmo"]` 應該傳回 `["snuffleupagus", "cookie monster", "elmo"]`.
 
 ```js
 assert.sameMembers(diffArray([], ['snuffleupagus', 'cookie monster', 'elmo']), [
@@ -126,7 +126,7 @@ assert.sameMembers(diffArray([], ['snuffleupagus', 'cookie monster', 'elmo']), [
 ]);
 ```
 
-`[]`、`["snuffleupagus", "cookie monster", "elmo"]` 應該傳回一個有三個條款的陣列。
+`[], ["snuffleupagus", "cookie monster", "elmo"]` 應該傳回一個有三個條款的陣列。
 
 ```js
 assert(diffArray([], ['snuffleupagus', 'cookie monster', 'elmo']).length === 3);
@@ -145,7 +145,7 @@ assert.sameMembers(diffArray([1, 'calf', 3, 'piglet'], [7, 'filly']), [
 ]);
 ```
 
-`[1, "calf", 3, "piglet"]`、`[7, "filly"]` 應該傳回一個有六個條款的陣列。
+`[1, "calf", 3, "piglet"], [7, "filly"]` 應該傳回一個有六個條款的陣列。
 
 ```js
 assert(diffArray([1, 'calf', 3, 'piglet'], [7, 'filly']).length === 6);

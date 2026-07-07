@@ -38,11 +38,11 @@ lang: en-US
 
 `Agree` 意味著與某人達成共識或持有相同意見。 例如：  
 
-`We both agree that improving security is important。`－這表示你與其他人對安全性有相同的看法。
+`We both agree that improving security is important.`－這表示你與其他人對安全性有相同的看法。
 
 `Disagree` 意思是有不同的意見或不同意。 例如：  
 
-`Jake and Maria disagree on which software to use。` - 這表示 Jake 和 Maria 對軟體的選擇有不同的意見。
+`Jake and Maria disagree on which software to use.` - 這表示 Jake 和 Maria 對軟體的選擇有不同的意見。
 
 # --scene--
 

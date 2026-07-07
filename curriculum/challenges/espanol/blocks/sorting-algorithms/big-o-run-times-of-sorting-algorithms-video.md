@@ -14,7 +14,7 @@ En este video, aprenderás sobre los diferentes tiempos de ejecución Big O para
 
 ## --text--
 
-¿Cuál es el peor escenario para `quicksort`?
+¿Cuál es el peor escenario para quicksort?
 
 ## --answers--
 

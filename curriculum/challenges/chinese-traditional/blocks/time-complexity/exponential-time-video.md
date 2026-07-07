@@ -14,7 +14,7 @@ dashedName: exponential-time
 
 ## --text--
 
-以下哪一個熱門問題是指數型 `algorithm` 的範例？
+以下哪一個熱門問題是指數型 algorithm 的範例？
 
 ## --answers--
 

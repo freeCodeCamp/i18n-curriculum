@@ -8,13 +8,13 @@ dashedName: array-search-insert-delete
 
 # --description--
 
-在这个 `video` 中，你将学习如何从 `arrays` 中查找、插入和删除元素。 
+在这个 video 中，你将学习如何从 arrays 中查找、插入和删除元素。
 
 # --questions--
 
 ## --text--
 
-Python 中使用哪个 `method` 将一项追加到列表的末尾？
+Python 中使用哪个 method 将一项追加到列表的末尾？
 
 ## --answers--
 

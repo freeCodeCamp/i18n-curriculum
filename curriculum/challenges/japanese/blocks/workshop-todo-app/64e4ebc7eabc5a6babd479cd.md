@@ -9,11 +9,11 @@ dashedName: step-9
 
 ユーザーが `Discard` ボタンをクリックしたら、`Cancel` と `Discard` ボタンを表示しているモーダルを閉じてから、フォームモーダルを非表示にしたいです。
 
-`discardBtn` にクリックイベントリスナーを追加し、`close()` 変数に対して `confirmCloseDialog` メソッドを呼び出してください。また、`classList` に対して `hidden` を使って `taskForm` クラスを切り替え、フォームモーダルも閉じるようにしてください。
+`discardBtn` にクリックイベントリスナーを追加し、`confirmCloseDialog` 変数に対して `close()` メソッドを呼び出してください。また、`classList` に対して `hidden` を使って `taskForm` クラスを切り替え、フォームモーダルも閉じるようにしてください。
 
 # --hints--
 
-`addEventListener()` 変数に対して `discardBtn` メソッドを呼び出す必要があります。
+`discardBtn` 変数に対して `addEventListener()` メソッドを呼び出す必要があります。
 
 ```js
 assert.match(code, /discardBtn\.addEventListener\(/)

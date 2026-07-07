@@ -14,7 +14,7 @@ Neste vídeo, você aprenderá como trabalhar com construtores em classes.
 
 ## --text--
 
-Qual das seguintes é a maneira correta de escrever um `constructor`?
+Qual das seguintes é a maneira correta de escrever um constructor?
 
 ## --answers--
 

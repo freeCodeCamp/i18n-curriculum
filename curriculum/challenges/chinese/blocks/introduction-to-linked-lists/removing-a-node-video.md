@@ -8,13 +8,13 @@ dashedName: removing-a-node
 
 # --description--
 
-在这个 `video` 中，你将学习如何从 `linked list` 中移除一个节点。
+在这个 video 中，你将学习如何从 linked list 中移除一个节点。
 
 # --questions--
 
 ## --text--
 
-当你必须先在 `linked list` 中 `search` 节点时，删除该节点的最坏分支 `runtime` 是什么？
+当你必须先在 linked list 中 search 节点时，删除该节点的最坏分支 runtime 是什么？
 
 ## --answers--
 

@@ -14,7 +14,7 @@ lang: en-US
 
 - `The new AI tool really piqued my interest.`－它引起了你的好奇心，你想進一步了解它。
 
-- `Her presentation on cybersecurity piqued the team's interest。`－團隊變得更好奇並想了解更多。
+- `Her presentation on cybersecurity piqued the team's interest.`－團隊變得更好奇並想了解更多。
 
 # --fillInTheBlank--
 

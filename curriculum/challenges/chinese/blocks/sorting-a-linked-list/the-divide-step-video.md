@@ -8,7 +8,7 @@ dashedName: the-divide-step
 
 # --description--
 
-在本 `video` 中，你将继续学习如何在 `linked lists` 上实现归并排序 `algorithm` 的划分步骤。
+在本 video 中，你将继续学习如何在 linked lists 上实现归并排序 algorithm 的划分步骤。
 
 # --questions--
 

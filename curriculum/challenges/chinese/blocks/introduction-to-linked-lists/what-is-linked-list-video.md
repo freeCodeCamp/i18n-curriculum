@@ -1,6 +1,6 @@
 ---
 id: 698dd5a27932b3cc4b19c930
-title: "什么是 `Linked List`？"
+title: "什么是 Linked List？"
 challengeType: 11
 videoId: rnGKSsh97q0
 dashedName: what-is-a-linked-list
@@ -8,7 +8,7 @@ dashedName: what-is-a-linked-list
 
 # --description--
 
-在这个 `video` 中，你将学习关于 `linked lists` 的内容。
+在这个 video 中，你将学习关于 linked lists 的内容。
 
 # --questions--
 

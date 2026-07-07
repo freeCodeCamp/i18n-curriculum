@@ -40,7 +40,7 @@ Bob 不询问价格。
 
 ### --feedback--
 
-Bob 没有讨论对 `stipend` 的更改。
+Bob 没有讨论对 stipend 的更改。
 
 ---
 

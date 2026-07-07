@@ -209,7 +209,7 @@ img {
 
 #### --text--
 
-`placeholder` 요소의 `input` 속성에서 발생하는 접근성 문제는 무엇인가요?
+`input` 요소의 `placeholder` 속성에서 발생하는 접근성 문제는 무엇인가요?
 
 #### --distractors--
 

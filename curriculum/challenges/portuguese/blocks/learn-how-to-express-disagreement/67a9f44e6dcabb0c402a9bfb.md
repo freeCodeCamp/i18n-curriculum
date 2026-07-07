@@ -36,15 +36,15 @@ Bob não pergunta sobre o preço.
 
 ---
 
-Se a empresa aumentará o `stipend`.
+Se a empresa aumentará o stipend.
 
 ### --feedback--
 
-Bob não está discutindo mudanças no `stipend`.
+Bob não está discutindo mudanças no stipend.
 
 ---
 
-Se Anna acha que usar o `stipend` para móveis de escritório é uma boa ideia.
+Se Anna acha que usar o stipend para móveis de escritório é uma boa ideia.
 
 ## --video-solution--
 

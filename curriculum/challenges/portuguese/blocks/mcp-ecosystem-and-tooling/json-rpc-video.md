@@ -18,7 +18,7 @@ O que é o protocolo JSON-RPC?
 
 ## --answers--
 
-Um protocolo para armazenar grandes conjuntos de dados em um `vector database`.
+Um protocolo para armazenar grandes conjuntos de dados em um vector database.
 
 ---
 
@@ -26,7 +26,7 @@ Isso define uma forma padrão para clientes e servidores se comunicarem usando m
 
 ---
 
-Um formato de `file` para comprimir e criptografar pesos de modelo de IA.
+Um formato de file para comprimir e criptografar pesos de modelo de IA.
 
 ---
 

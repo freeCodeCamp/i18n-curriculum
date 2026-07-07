@@ -8,7 +8,7 @@ dashedName: getting-input-from-users
 
 # --description--
 
-在这个 `video` 中，你将学习如何从 `user` 获取 `input`。
+在这个 video 中，你将学习如何从 user 获取 input。
 
 # --questions--
 

@@ -17,7 +17,7 @@ dashedName: implement-the-quicksort-algorithm
 
 1. Para implementar o algoritmo, você deve:
    - Escolha um valor pivot dentre os elementos da lista de entrada (use o primeiro ou o último elemento da lista).
-   - Particione a lista de entrada em três sublistas: uma com elementos menores que o `pivot`, uma com elementos iguais ao `pivot` e uma com elementos maiores que o `pivot`.
+   - Particione a lista de entrada em três sublistas: uma com elementos menores que o pivot, uma com elementos iguais ao pivot e uma com elementos maiores que o pivot.
    - Chame recursivamente `quick_sort` para ordenar as sublistas e concatene as sublistas ordenadas para produzir a lista final ordenada.
 
 # --hints--

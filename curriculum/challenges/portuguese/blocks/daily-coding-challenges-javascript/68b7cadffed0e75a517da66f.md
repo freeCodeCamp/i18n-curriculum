@@ -20,13 +20,13 @@ Dada uma frase, retorne a palavra mais longa da frase.
 assert.equal(getLongestWord("coding is fun"), "coding");
 ```
 
-`getLongestWord("Desafios de programação são divertidos e educacionais.")` deve retornar `"educacionais"`.
+`getLongestWord("Coding challenges are fun and educational.")` deve retornar `"educational"`.
 
 ```js
 assert.equal(getLongestWord("Coding challenges are fun and educational."), "educational");
 ```
 
-`getLongestWord("Esta frase tem várias palavras longas.")` deve retornar `"frase"`.
+`getLongestWord("This sentence has multiple long words.")` deve retornar `"sentence"`.
 
 ```js
 assert.equal(getLongestWord("This sentence has multiple long words."), "sentence");

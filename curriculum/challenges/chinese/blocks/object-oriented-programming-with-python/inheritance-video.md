@@ -8,7 +8,7 @@ dashedName: inheritance
 
 # --description--
 
-在这个 `video` 中，你将学习面向对象 `programming` 中的 `inheritance`。
+在这个 video 中，你将学习面向对象 programming 中的 inheritance。
 
 # --questions--
 

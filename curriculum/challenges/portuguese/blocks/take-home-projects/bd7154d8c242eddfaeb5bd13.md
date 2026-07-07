@@ -25,9 +25,9 @@ Atenda às histórias de usuário abaixo e faça com que todos os testes passem.
 
 **História do Usuário:** Quando eu chegar ao jogo pela primeira vez, ele irá gerar aleatoriamente um tabuleiro e começar a jogar.
 
-**História do Usuário:** Eu posso iniciar e parar o `board`.
+**História do Usuário:** Eu posso iniciar e parar o board.
 
-**História do Usuário:** Eu posso configurar o `board`.
+**História do Usuário:** Eu posso configurar o board.
 
 **História do Usuário:** Eu posso limpar o quadro.
 

@@ -8,7 +8,7 @@ dashedName: binary-search
 
 # --description--
 
-Neste vídeo, você revisitará o algoritmo de `binary search` e como ele funciona na busca por uma lista de nomes.
+Neste vídeo, você revisitará o algoritmo de binary search e como ele funciona na busca por uma lista de nomes.
 
 # --questions--
 

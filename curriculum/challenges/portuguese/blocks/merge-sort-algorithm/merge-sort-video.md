@@ -8,13 +8,13 @@ dashedName: merge-sort
 
 # --description--
 
-Neste vídeo, você aprenderá sobre o algoritmo `merge sort`. 
+Neste vídeo, você aprenderá sobre o algoritmo merge sort.
 
 # --questions--
 
 ## --text--
 
-Qual estratégia algorítmica é usada para o algoritmo de `merge sort`? 
+Qual estratégia algorítmica é usada para o algoritmo de merge sort?
 
 ## --answers--
 

@@ -8,13 +8,13 @@ dashedName: getting-started-with-classes
 
 # --description--
 
-Neste vídeo, você aprenderá o básico de OOP começando a trabalhar com `classes` em Python.
+Neste vídeo, você aprenderá o básico de OOP começando a trabalhar com classes em Python.
 
 # --questions--
 
 ## --text--
 
-Qual das seguintes é a maneira correta de adicionar um `method` a uma `class`?
+Qual das seguintes é a maneira correta de adicionar um method a uma class?
 
 ## --answers--
 

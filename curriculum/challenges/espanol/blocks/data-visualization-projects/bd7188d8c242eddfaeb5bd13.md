@@ -48,7 +48,7 @@ Puedes utilizar HTML, JavaScript, CSS y la librería D3 de visualización basada
 
 **Historia de usuario #17:** Mi cuadro emergente debe tener una propiedad `data-year` que corresponda con el `data-year` del área activa.
 
-Aquí está el conjunto de datos que necesitarás para completar este proyecto:
+Aquí está el conjunto de datos que necesitarás para completar este proyecto: `https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/global-temperature.json`
 `https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/global-temperature.json`
 
 Puedes construir tu proyecto <a href='https://codepen.io/pen?template=MJjpwO' target="_blank" rel="noopener noreferrer nofollow">usando esta plantilla de CodePen</a> y haciendo clic en `Save` para crear tu propio pen. O puedes usar este enlace CDN para ejecutar las pruebas en cualquier entorno que prefieras: `https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js`

@@ -7,7 +7,7 @@ dashedName: step-9
 
 # --description--
 
-現在使用 `id` 選擇器將標的設定為你的 `#piano` 元素。將其 `background-color` 屬性設為 `#00471b`，`width` 屬性設為 992px，`height` 屬性設為 290px。
+現在使用 `id` 選擇器將標的設定為你的 `#piano` 元素。將其 `background-color` 屬性設為 `#00471b`，`width` 屬性設為 `992px`，`height` 屬性設為 `290px`。
 
 # --hints--
 

@@ -36,7 +36,7 @@ lang: es
 
 ### --feedback--
 
-這個字母位於 `"Basti"` 中的 "s" 之後。
+這個字母位於 "Basti" 中的 "s" 之後。
 
 ---
 
@@ -44,7 +44,7 @@ lang: es
 
 ### --feedback--
 
-這是 `"Basti"` 中的最後一個字母。聆聽結尾的母音音。
+這是 "Basti" 中的最後一個字母。聆聽結尾的母音音。
 
 # --explanation--
 

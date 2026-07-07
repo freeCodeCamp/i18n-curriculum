@@ -42,7 +42,7 @@ lang: en-US
 
 `Timelines` 是指显示项目不同部分应完成时间的调度或截止日期。例如：
 
-`We need to adjust our timelines to finish the project on schedule。` – 这意味着需要更改截止日期以确保项目按时完成。
+`We need to adjust our timelines to finish the project on schedule.` – 这意味着需要更改截止日期以确保项目按时完成。
 
 # --scene--
 

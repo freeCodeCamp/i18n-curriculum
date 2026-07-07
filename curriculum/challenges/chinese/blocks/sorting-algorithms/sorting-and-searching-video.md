@@ -8,7 +8,7 @@ dashedName: sorting-and-searching
 
 # --description--
 
-在本 `video` 中，讲师 Jay McGavren 将讲解在课程下一部分中关于排序和查找 `algorithms` 的内容预期。 
+在本 video 中，讲师 Jay McGavren 将讲解在课程下一部分中关于排序和查找 algorithms 的内容预期。
 
 # --questions--
 

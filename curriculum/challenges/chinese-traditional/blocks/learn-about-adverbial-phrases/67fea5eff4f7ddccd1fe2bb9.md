@@ -30,7 +30,7 @@ lang: en-US
 
 `Weekly` 用來描述每週只發生一次的事情。它顯示事件或動作以每週為頻率發生。例如：
 
-`The team has weekly meetings to discuss project progress。` – 這表示會議每週舉行。
+`The team has weekly meetings to discuss project progress.` – 這表示會議每週舉行。
 
 # --scene--
 

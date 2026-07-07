@@ -77,7 +77,7 @@ dashedName: quiz-dynamic-programming-js
 
 #### --answer--
 
-因为每个递归的 `call` 会多次分支，导致相同的子问题被重复计算。
+因为每个递归的 call 会多次分支，导致相同的子问题被重复计算。
 
 ### --question--
 
@@ -87,7 +87,7 @@ dashedName: quiz-dynamic-programming-js
 
 #### --distractors--
 
-该 `algorithm` 必须使用最 `efficient` 的 `data structure` 。
+该 algorithm 必须使用最 efficient 的 data structure 。
 
 ---
 
@@ -95,7 +95,7 @@ dashedName: quiz-dynamic-programming-js
 
 ---
 
-该问题必须有唯一的、单一的最优 `solution`。
+该问题必须有唯一的、单一的最优 solution。
 
 #### --answer--
 
@@ -187,7 +187,7 @@ dashedName: quiz-dynamic-programming-js
 
 #### --answer--
 
-通过存储和重用子问题 `solution`，将指数级转为多项式的。
+通过存储和重用子问题 solution，将指数级转为多项式的。
 
 ### --question--
 

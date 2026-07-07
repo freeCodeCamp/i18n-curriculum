@@ -15,7 +15,7 @@ const cities = ["Chicago", "Delhi", "Islamabad", "London", "Berlin"];
 cities.splice(3, 1);
 ```
 
-這裡 `splice` 傳回字串 `London` 並從 `cities` 陣列中刪除它。`cities` 將會有值 `["Chicago", "Delhi", "Islamabad", "Berlin"]`。
+這裡 `splice` 傳回字串 `London` 並從 `cities` 陣列中刪除它。cities 將會有值 `["Chicago", "Delhi", "Islamabad", "Berlin"]`。
 
 如同我們在上一個挑戰中看到的，`slice` 方法不會變更原始陣列，而是傳回一個新的陣列，可以將其存入變數。請記得，`slice` 方法接受兩個引數，分別為開始和結束的索引（結束索引不包含在內），並傳回這些項目組成的新陣列。使用 `slice` 方法取代 `splice` 有助於避免任何會變更陣列的副作用。
 

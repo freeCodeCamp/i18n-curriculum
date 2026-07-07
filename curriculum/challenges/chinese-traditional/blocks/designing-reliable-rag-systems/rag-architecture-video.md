@@ -8,7 +8,7 @@ dashedName: rag-architecture
 
 # --description--
 
-在這個 `video` 中，你將學習 RAG 系統的架構。
+在這個 video 中，你將學習 RAG 系統的架構。
 
 # --questions--
 

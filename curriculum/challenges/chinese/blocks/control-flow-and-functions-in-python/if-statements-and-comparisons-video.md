@@ -8,7 +8,7 @@ dashedName: if-statements-and-comparisons
 
 # --description--
 
-在这个 `video` 中，你将学习比较 `operator`。
+在这个 video 中，你将学习比较 operator。
 
 # --questions--
 

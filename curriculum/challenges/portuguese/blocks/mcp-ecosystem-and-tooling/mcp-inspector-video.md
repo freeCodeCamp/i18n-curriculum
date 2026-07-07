@@ -26,7 +26,7 @@ Um recurso que gera automaticamente prompts para aplicações de IA.
 
 ---
 
-Uma ferramenta usada para treinar novos LLMs diretamente no `MCP server`.
+Uma ferramenta usada para treinar novos LLMs diretamente no MCP server.
 
 ---
 

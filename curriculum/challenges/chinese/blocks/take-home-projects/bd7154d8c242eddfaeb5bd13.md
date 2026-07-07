@@ -12,7 +12,7 @@ dashedName: build-the-game-of-life
 
 生命游戏是英国数学家 John Horton Conway 设计的一种细胞自动机。  It is a <em>zero-player game</em>, meaning that its evolution is determined by its initial state, requiring no further input. 生命游戏的一个启动方式是，创建一个初始配置并观察它如何演变。
 
-生命游戏的宇宙是一个无限的、二维正交的 `Grid`，由平方单元格组成，每个单元格处于两种可能状态之一：有生命或无生命。每个单元格与其八个邻居交互，这些邻居是水平、垂直或对角相邻的单元格。
+生命游戏的宇宙是一个无限的、二维正交的 Grid，由平方单元格组成，每个单元格处于两种可能状态之一：有生命或无生命。每个单元格与其八个邻居交互，这些邻居是水平、垂直或对角相邻的单元格。
 
 在每个步骤中，都发生以下转换：
 

@@ -14,7 +14,7 @@ dashedName: increasing-and-decreasing-functions
 
 ## --text--
 
-什麼是遞增 `function`？
+什麼是遞增 function？
 
 ## --answers--
 

@@ -40,7 +40,7 @@ lang: en-US
 
 - `This new software is great for managing large projects.`——这意味着该软件非常适合且有效地管理大型项目。
 
-- `Cloud storage is good for backing up large volumes of data。`——这意味着云存储对于安全存储大量数据非常有效且非常适合。
+- `Cloud storage is good for backing up large volumes of data.`——这意味着云存储对于安全存储大量数据非常有效且非常适合。
 
 # --scene--
 

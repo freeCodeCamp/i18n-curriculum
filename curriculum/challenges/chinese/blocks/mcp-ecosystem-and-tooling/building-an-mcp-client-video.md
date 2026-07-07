@@ -8,13 +8,13 @@ dashedName: building-an-mcp-client
 
 # --description--
 
-在这个 `video` 中，你将学习如何构建一个 MCP `client`。
+在这个 video 中，你将学习如何构建一个 MCP client。
 
 # --questions--
 
 ## --text--
 
-以下哪项不是 MCP `client` 的示例特色？
+以下哪项不是 MCP client 的示例特色？
 
 ## --answers--
 
