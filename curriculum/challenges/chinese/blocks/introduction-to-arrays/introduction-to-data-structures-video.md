@@ -8,7 +8,7 @@ dashedName: introduction-to-data-structures
 
 # --description--
 
-在这个 `video` 中，Treehouse 教师 Pasan 将讲解本课程中 `data structure` 部分的内容预期。 
+在这个 video 中，Treehouse 教师 Pasan 将讲解本课程中 data structure 部分的内容预期。
 
 # --questions--
 

@@ -13,7 +13,7 @@ dashedName: step-4
 <h2>This is a subheading.</h2>
 ```
 
-`Full-Stack Curriculum` のテキストを、開く`h2`タグと閉じる`h2`タグで囲んで`h2` 要素にしてください。
+`Full-Stack Curriculum` のテキストを、開く`h2`タグと閉じる`h2`タグで囲んでh2 要素にしてください。
 
 # --hints--
 

@@ -64,7 +64,7 @@ assert.equal(locations[1]["button functions"][2], goTown);
 assert.isString(locations[1].text);
 ```
 
-두 번째 `locations` 객체에는 `text` 값을 가진 `"You enter the store."` 속성이 있어야 합니다.
+두 번째 `locations` 객체에는 `"You enter the store."` 값을 가진 `text` 속성이 있어야 합니다.
 
 ```js
 assert.equal(locations[1].text, "You enter the store.");

@@ -8,7 +8,7 @@ dashedName: ellipses
 
 # --description--
 
-在這個 `video` 中，你將學習關於簡略號、它們的標準方程式，以及如何識別它們的關鍵特性。
+在這個 video 中，你將學習關於簡略號、它們的標準方程式，以及如何識別它們的關鍵特性。
 
 # --questions--
 

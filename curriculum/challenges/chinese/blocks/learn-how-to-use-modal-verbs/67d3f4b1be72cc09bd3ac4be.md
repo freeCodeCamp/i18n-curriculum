@@ -38,7 +38,7 @@ lang: en-US
 
 `Must` 是一个情态动词，用于表达必要性或义务。例如：
 
-- `You must wear a seatbelt while driving。` - 这是必须的。
+- `You must wear a seatbelt while driving.` - 这是必须的。
 
 - `We must submit the report by Friday.` - 这是必要的。
 

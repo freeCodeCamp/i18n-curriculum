@@ -30,7 +30,7 @@ Sophie 喜欢哪种类型的吉他？
 
 ### --feedback--
 
-Sophie 非常明确她喜欢哪种 `type` 的吉他。她偏好的那种需要一个放大器才能响亮。
+Sophie 非常明确她喜欢哪种 type 的吉他。她偏好的那种需要一个放大器才能响亮。
 
 ## --video-solution--
 

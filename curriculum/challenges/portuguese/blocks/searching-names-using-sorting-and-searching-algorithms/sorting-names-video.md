@@ -14,7 +14,7 @@ Neste vídeo, você vai implementar o algoritmo quicksort em Python para ordenar
 
 ## --text--
 
-Qual símbolo o instrutor usa no vídeo para redirecionar a saída do programa para outro `file` no linux?
+Qual símbolo o instrutor usa no vídeo para redirecionar a saída do programa para outro file no linux?
 
 ## --answers--
 

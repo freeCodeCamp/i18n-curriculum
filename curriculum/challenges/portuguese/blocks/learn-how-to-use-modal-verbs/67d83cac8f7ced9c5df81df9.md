@@ -40,7 +40,7 @@ Este verbo está na forma `Past Perfect`, usada para falar sobre algo que poderi
 
 `Have taken` é a forma `Past Perfect` de `take`, usada para falar sobre uma possível ação passada. Por exemplo:
 
-O atacante pode ter levado arquivos sensíveis. - Você não sabe ao certo, mas é possível.
+`The attacker might have taken sensitive files.` - Você não sabe ao certo, mas é possível.
 
 # --scene--
 

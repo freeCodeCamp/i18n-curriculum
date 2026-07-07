@@ -8,13 +8,13 @@ dashedName: using-mcp-servers
 
 # --description--
 
-在这个 `video` 中，你将学习如何使用 MCP `servers`。
+在这个 video 中，你将学习如何使用 MCP servers。
 
 # --questions--
 
 ## --text--
 
-在使用远程 MCP `server` 时需要考虑哪些事项？
+在使用远程 MCP server 时需要考虑哪些事项？
 
 ## --answers--
 

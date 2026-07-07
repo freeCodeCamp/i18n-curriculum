@@ -38,7 +38,7 @@ lang: en-US
 
 `Set up` 是指為使用準備或安排某物。例如：
 
-`We need to set up the new computers before the meeting。`－這表示要將它們準備好。
+`We need to set up the new computers before the meeting.`－這表示要將它們準備好。
 
 `Break room` 是辦公室中供人休息、用餐或放鬆的地方。 例如：
 

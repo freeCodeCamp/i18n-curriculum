@@ -8,7 +8,7 @@ dashedName: understanding-inheritance
 
 # --description--
 
-在这个 `video` 中，你将学习关于 `inheritance` 的内容。
+在这个 video 中，你将学习关于 inheritance 的内容。
 
 # --questions--
 
@@ -26,7 +26,7 @@ dashedName: understanding-inheritance
 
 ---
 
-一种机制，使一个 `class` 只能使用全局的 `variable`。
+一种机制，使一个 class 只能使用全局的 variable。
 
 ---
 

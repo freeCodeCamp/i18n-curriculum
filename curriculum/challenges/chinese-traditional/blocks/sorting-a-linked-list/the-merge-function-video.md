@@ -14,7 +14,7 @@ dashedName: the-merge-function
 
 ## --text--
 
-在這個 `merge sort` 實作中會使用哪三個函式？ 
+在這個 merge sort 實作中會使用哪三個函式？
 
 ## --answers--
 

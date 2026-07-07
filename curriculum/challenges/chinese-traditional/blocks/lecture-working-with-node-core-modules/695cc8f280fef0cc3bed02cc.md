@@ -1,6 +1,6 @@
 ---
 id: 695cc8f280fef0cc3bed02cc
-title: "什麼是 `Stream` 模組以及它如何運作？"
+title: "什麼是 Stream 模組以及它如何運作？"
 challengeType: 19
 dashedName: what-is-the-stream-module-and-how-does-it-work
 ---
@@ -14,11 +14,11 @@ dashedName: what-is-the-stream-module-and-how-does-it-work
 Node.js 中有四種主要的資料流型別：可讀、可寫、雙工和轉換：
 
 - Readable 資料流讓你以區塊方式讀取資料（例如，讀取大型檔案）。
-- 可寫入的 `streams` 讓你以區塊方式寫入 `data`（例如，儲存一個 `file`）。
+- 可寫入的 streams 讓你以區塊方式寫入 data（例如，儲存一個 file）。
 - 雙工資料流可以同時讀取和寫入資料。
 - Transform streams 是一種特殊的雙工資料流，可以在資料流經時改變或處理資料。
 
-你可以從 `stream` 模組中解構匯入你需要的資料流類別：
+你可以從 stream 模組中解構匯入你需要的資料流類別：
 
 ```js
 const { Readable, Writable, Transform } = require("stream");
@@ -49,7 +49,7 @@ readInputFileStream.on("data", (chunk) => {
 }); // Received 622 bytes of data
 ```
 
-你也可以將這段 `data` 記錄到主控台：
+你也可以將這段 data 記錄到主控台：
 
 ```js
 readInputFileStream.on("data", (chunk) => {
@@ -220,7 +220,7 @@ Readable、Writable、Duplex 和 Transform 資料流。
 
 ---
 
-`events` 模組。
+events 模組。
 
 ### --feedback--
 
@@ -232,7 +232,7 @@ Readable、Writable、Duplex 和 Transform 資料流。
 
 ## --text--
 
-你可以在可寫入的 `stream` 上使用哪些 `event` 來知道何時串流完成或發生錯誤？
+你可以在可寫入的 stream 上使用哪些 event 來知道何時串流完成或發生錯誤？
 
 ## --answers--
 

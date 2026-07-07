@@ -14,7 +14,7 @@ dashedName: toolkit-functions
 
 ## --text--
 
-以下哪一項不是 toolkit `function` 的範例？
+以下哪一項不是 toolkit function 的範例？
 
 ## --answers--
 

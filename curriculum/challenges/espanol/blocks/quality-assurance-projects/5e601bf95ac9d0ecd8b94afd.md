@@ -17,7 +17,7 @@ Construye una aplicación JavaScript full-stack que sea funcionalmente similar a
 
 - Toda la lógica del rompecabezas puede ir dentro de `/controllers/sudoku-solver.js`
   - La función `validate` debe tomar una cadena de rompecabezas dada y revisarla para ver si tiene 81 caracteres válidos para la entrada.
-  - La `verifique` funciones debería validar contra el estado *actual* del foro.
+  - La `check` funciones debería validar contra el estado *actual* del foro.
   - La función `solve` debe manejar la resolución de cualquier cadena de rompecabezas válida, no solo las entradas de prueba y soluciones. Se espera que escribas la lógica para resolver esto.
 - Toda la lógica de enrutamiento puede ir a `/routes/api.js`
 - Mira el archivo `puzzle-strings.js` en `/controllers` para algunos puzzles de ejemplo que tu aplicación debería resolver

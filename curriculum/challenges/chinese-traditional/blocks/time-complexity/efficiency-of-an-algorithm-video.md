@@ -1,6 +1,6 @@
 ---
 id: 698dc4a27932b3cc4b19c920
-title: "`algorithm` 的效率"
+title: "algorithm 的效率"
 challengeType: 11
 videoId: EHxx4yawPT0
 dashedName: efficiency-of-an-algorithm
@@ -8,7 +8,7 @@ dashedName: efficiency-of-an-algorithm
 
 # --description--
 
-在這個 `video` 中，你將學習如何衡量演算法的效率。
+在這個 video 中，你將學習如何衡量演算法的效率。
 
 # --questions--
 

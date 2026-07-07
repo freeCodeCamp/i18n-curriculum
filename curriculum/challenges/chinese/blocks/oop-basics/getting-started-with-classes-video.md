@@ -1,6 +1,6 @@
 ---
 id: 69ae96daa9e6da4eb0d5f7f4
-title: "开始使用 `class`"
+title: "开始使用 class"
 challengeType: 11
 videoId: _066KcCuaYM
 dashedName: getting-started-with-classes
@@ -8,13 +8,13 @@ dashedName: getting-started-with-classes
 
 # --description--
 
-在这个 `video` 中，你将通过开始使用 Python 中的 `class` 来学习面向对象编程的基础知识。
+在这个 video 中，你将通过开始使用 Python 中的 class 来学习面向对象编程的基础知识。
 
 # --questions--
 
 ## --text--
 
-以下哪种方式是为 `class` 添加 `method` 的正确方法？
+以下哪种方式是为 class 添加 method 的正确方法？
 
 ## --answers--
 

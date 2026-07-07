@@ -8,13 +8,13 @@ dashedName: selection-sort
 
 # --description--
 
-Neste vídeo, você aprenderá sobre o algoritmo de `selection sort`.
+Neste vídeo, você aprenderá sobre o algoritmo de selection sort.
 
 # --questions--
 
 ## --text--
 
-Como o algoritmo de `selection sort` funciona?
+Como o algoritmo de selection sort funciona?
 
 ## --answers--
 

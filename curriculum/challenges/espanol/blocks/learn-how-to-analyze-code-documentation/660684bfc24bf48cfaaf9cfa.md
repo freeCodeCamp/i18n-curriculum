@@ -12,7 +12,7 @@ lang: en-US
 
 `Give it a shot` significa intentar hacer algo. Es como decir `Try it`.
 
-Por ejemplo, si tu amigo está dudando sobre unirse a una clase de codificación porque piensa que podría ser demasiado difícil, podrías decir <code>¿Por qué no lo intentas? Podrías disfrutarlo más de lo que piensas.</code> para animarlos a intentar unirse a esta clase.
+Por ejemplo, si tu amigo está dudando sobre unirse a una clase de codificación porque piensa que podría ser demasiado difícil, podrías decir `Why not give it a shot? You might enjoy it more than you think.` para animarlos a intentar unirse a esta clase.
 
 # --fillInTheBlank--
 

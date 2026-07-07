@@ -65,7 +65,7 @@ dashedName: sudoku-solver
   assert(!/.*\/sudoku-solver\.freecodecamp\.rocks/.test(code));
 ```
 
-你可以使用 `POST` `/api/solve` 搭配包含 `puzzle` 的表單資料，該 `puzzle` 將是一個包含數字（1-9）和句點 `.` 組合的字串，用來表述空白格。傳回的物件將包含一個帶有已解決謎題的 `solution` 屬性。
+你可以使用 `POST` `/api/solve` 搭配包含 `puzzle` 的表單資料，該 puzzle 將是一個包含數字（1-9）和句點 `.` 組合的字串，用來表述空白格。傳回的物件將包含一個帶有已解決謎題的 `solution` 屬性。
 
 ```js
   const input =
@@ -82,7 +82,7 @@ dashedName: sudoku-solver
   assert.equal(parsed.solution, output);
 ```
 
-如果提交到 `/api/solve` 的物件缺少 `puzzle`，傳回的值將是 `{ error: 'Required field missing' }`
+如果提交到 `/api/solve` 的物件缺少 `puzzle`，傳回的值將是 `{ error: 'Required field missing' }`
 
 ```js
   const input =
@@ -98,7 +98,7 @@ dashedName: sudoku-solver
   assert.equal(parsed.error, output);
 ```
 
-如果提交到 `/api/solve` 的謎題包含非數字或句點的值，傳回的值將會是 `{ error: 'Invalid characters in puzzle' }`
+如果提交到 `/api/solve` 的謎題包含非數字或句點的值，傳回的值將會是 `{ error: 'Invalid characters in puzzle' }`
 
 ```js
   const input =
@@ -114,7 +114,7 @@ dashedName: sudoku-solver
   assert.equal(parsed.error, output);
 ```
 
-如果提交到 `/api/solve` 的謎題字元數大於或小於 81 字元，傳回的值將會是 `{ error: 'Expected puzzle to be 81 characters long' }`
+如果提交到 `/api/solve` 的謎題字元數大於或小於 81 字元，傳回的值將會是 `{ error: 'Expected puzzle to be 81 characters long' }`
 
 ```js
   const inputs = [
@@ -134,7 +134,7 @@ dashedName: sudoku-solver
   }
 ```
 
-如果提交到 `/api/solve` 的謎題無效或無法解決，傳回的值將會是 `{ error: 'Puzzle cannot be solved' }`
+如果提交到 `/api/solve` 的謎題無效或無法解決，傳回的值將會是 `{ error: 'Puzzle cannot be solved' }`
 
 ```js
   const input =
@@ -205,7 +205,7 @@ dashedName: sudoku-solver
   assert.isTrue(parsed.valid);
 ```
 
-如果提交到 `/api/check` 的謎題包含非數字或句點的值，傳回的值將會是 `{ error: 'Invalid characters in puzzle' }`
+如果提交到 `/api/check` 的謎題包含非數字或句點的值，傳回的值將會是 `{ error: 'Invalid characters in puzzle' }`
 
 ```js
   const input =
@@ -245,7 +245,7 @@ dashedName: sudoku-solver
   }
 ```
 
-如果提交到 `/api/check` 的物件缺少 `puzzle`、`coordinate` 或 `value`，傳回的值將會是 `{ error: 'Required field(s) missing' }`
+如果提交到 `/api/check` 的物件缺少 `puzzle`、`coordinate` 或 `value`，傳回的值將會是 `{ error: 'Required field(s) missing' }`
 
 ```js
   const inputs = [
@@ -275,7 +275,7 @@ dashedName: sudoku-solver
   }
 ```
 
-如果提交到 `api/check` 的座標未指向現有的格子，傳回的值將會是 `{ error: 'Invalid coordinate'}`
+如果提交到 `api/check` 的座標未指向現有的格子，傳回的值將會是 `{ error: 'Invalid coordinate'}`
 
 ```js
   const input =
@@ -295,7 +295,7 @@ dashedName: sudoku-solver
   }
 ```
 
-如果提交到 `/api/check` 的 `value` 不是介於 1 和 9 之間的數字，傳回的值將會是 `{ error: 'Invalid value' }`
+如果提交到 `/api/check` 的 `value` 不是介於 1 和 9 之間的數字，傳回的值將會是 `{ error: 'Invalid value' }`
 
 ```js
   const input =

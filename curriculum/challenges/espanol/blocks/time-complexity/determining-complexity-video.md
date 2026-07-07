@@ -14,7 +14,7 @@ En este video, aprenderás cómo determinar la complejidad en el peor caso para 
 
 ## --text--
 
-¿Cuál es el tiempo de ejecución en el peor caso para `binary search`?
+¿Cuál es el tiempo de ejecución en el peor caso para binary search?
 
 ## --answers--
 

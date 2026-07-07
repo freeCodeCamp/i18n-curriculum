@@ -8,7 +8,7 @@ dashedName: json-rpc
 
 # --description--
 
-在這個 `video` 中，你將學習 `JSON-RPC protocol`。
+在這個 video 中，你將學習 JSON-RPC protocol。
 
 # --questions--
 

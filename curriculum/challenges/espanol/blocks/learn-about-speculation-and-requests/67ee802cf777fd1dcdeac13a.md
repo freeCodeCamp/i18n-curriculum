@@ -56,7 +56,7 @@ Un `comment` es una nota en el código que ayuda a explicar qué hace. Por ejemp
 
 - `I added a comment to explain why this loop is necessary.` - Escribiste un comentario para describir por qué se usa cierto ciclo.
 
-- Puedes usar comentarios para dejar notas sobre problemas que necesitan ser corregidos más adelante. - Los comentarios pueden añadirse en el código como recordatorios de cosas que deben ser arregladas o mejoradas.
+- `You can use comments to leave notes about issues that need fixing later.` - Los comentarios pueden añadirse en el código como recordatorios de cosas que deben ser arregladas o mejoradas.
 
 Los comentarios ayudan a otros a entender el código y te recuerdan detalles importantes cuando revisas tu código más tarde.
 

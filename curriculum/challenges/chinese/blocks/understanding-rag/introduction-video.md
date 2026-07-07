@@ -8,7 +8,7 @@ dashedName: introduction
 
 # --description--
 
-在这个 `video` 中，Beau Carnes 将介绍本课程。
+在这个 video 中，Beau Carnes 将介绍本课程。
 
 # --questions--
 

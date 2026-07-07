@@ -14,7 +14,7 @@ dashedName: while-loop
 
 ## --text--
 
-以下 `code` 的輸出結果會是什麼？
+以下 code 的輸出結果會是什麼？
 
 ```python
 i = 1

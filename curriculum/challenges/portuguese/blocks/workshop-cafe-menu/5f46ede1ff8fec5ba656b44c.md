@@ -7,7 +7,7 @@ dashedName: step-74
 
 # --description--
 
-Em seguida, você estilizará o estilo do elemento `FOOTER`. Para manter o CSS organizado, adicione um comentário ao final de `styles.css` com o texto `FOOTER`.
+Em seguida, você estilizará o elemento `footer`. Para manter o CSS organizado, adicione um comentário ao final de `styles.css` com o texto `FOOTER`.
 
 # --hints--
 

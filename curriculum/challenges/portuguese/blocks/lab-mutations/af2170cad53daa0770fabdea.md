@@ -25,7 +25,7 @@ dashedName: implement-the-mutations-algorithm
 assert.isFalse(mutation(['hello', 'hey']));
 ```
 
-`mutation(["hello","Hello"])` deve retornar `true`.
+`mutation(["hello", "Hello"])` deve retornar `true`.
 
 ```js
 assert.isTrue(mutation(['hello', 'Hello']));

@@ -8,7 +8,7 @@ dashedName: ensuring-the-correctness-of-merge-sort
 
 # --description--
 
-Neste vídeo, você aprenderá como avaliar o algoritmo de `merge sort` e determinar sua correção. 
+Neste vídeo, você aprenderá como avaliar o algoritmo de merge sort e determinar sua correção.
 
 # --questions--
 

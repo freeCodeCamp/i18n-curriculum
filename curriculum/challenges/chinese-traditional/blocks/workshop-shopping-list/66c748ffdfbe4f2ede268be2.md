@@ -7,7 +7,7 @@ dashedName: step-20
 
 # --description--
 
-在工作坊的最後一步，將最終的雜貨 `list` 記錄到主控台。
+在工作坊的最後一步，將最終的雜貨 list 記錄到主控台。
 
 為此，請在 `console.log` 內以 `shoppingList` 陣列作為引數呼叫 `getShoppingListMsg` 函式（程式）。
 

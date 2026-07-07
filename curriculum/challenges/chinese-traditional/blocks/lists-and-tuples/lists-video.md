@@ -14,7 +14,7 @@ dashedName: lists
 
 ## --text--
 
-以下 `code` 的輸出結果會是什麼？
+以下 code 的輸出結果會是什麼？
 
 ```python
 friends = ["Kevin", "Karen", "Jim"]

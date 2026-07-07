@@ -8,7 +8,7 @@ dashedName: mcp-architecture
 
 # --description--
 
-在这个 `video` 中，你将学习 MCP 的 `Architecture`。
+在这个 video 中，你将学习 MCP 的 Architecture。
 
 # --questions--
 
@@ -18,7 +18,7 @@ MCP 服务器的资源部分用于什么？
 
 ## --answers--
 
-这用于实时运行 `LLMs` 和处理 AI 查询。
+这用于实时运行 LLMs 和处理 AI 查询。
 
 ---
 
@@ -26,11 +26,11 @@ MCP 服务器的资源部分用于什么？
 
 ---
 
-这用于监控 `server` 性能并生成系统 `Log`。
+这用于监控 server 性能并生成系统 Log。
 
 ---
 
-这用于存储和管理 AI `applications` 可以 `access` 的资产或 `data`。
+这用于存储和管理 AI applications 可以 access 的资产或 data。
 
 ## --video-solution--
 

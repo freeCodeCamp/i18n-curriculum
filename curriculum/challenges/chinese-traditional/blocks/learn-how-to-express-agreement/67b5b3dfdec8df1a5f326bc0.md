@@ -42,7 +42,7 @@ lang: en-US
 
 `Palette` 指藝術家或設計師使用的顏色或材質範圍。 例如：
 
-`The designer chose a warm palette for the website, using reds, oranges, and yellows。`－這表示設計師為網站設計選擇了一組暖色調的顏色，例如紅色、橘色和黃色。
+`The designer chose a warm palette for the website, using reds, oranges, and yellows.`－這表示設計師為網站設計選擇了一組暖色調的顏色，例如紅色、橘色和黃色。
 
 # --scene--
 

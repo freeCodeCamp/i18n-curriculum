@@ -8,7 +8,7 @@ dashedName: big-o-run-times-of-sorting-algorithms
 
 # --description--
 
-在这个 `video` 中，你将学习到迄今为止所涵盖的排序 `algorithm` 的不同 Big O 运行期。
+在这个 video 中，你将学习到迄今为止所涵盖的排序 algorithm 的不同 Big O 运行期。
 
 # --questions--
 

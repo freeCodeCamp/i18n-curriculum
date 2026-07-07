@@ -30,7 +30,7 @@ Um método em uma classe usado para definir ou atualizar o valor de um atributo 
 
 ---
 
-Um `method` que cria uma nova instância de `class` sem modificar nenhum `attribute`.
+Um method que cria uma nova instância de class sem modificar nenhum attribute.
 
 ## --video-solution--
 

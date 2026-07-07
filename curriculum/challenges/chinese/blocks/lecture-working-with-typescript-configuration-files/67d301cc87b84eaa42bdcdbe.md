@@ -1,6 +1,6 @@
 ---
 id: 67d301cc87b84eaa42bdcdbe
-title: "什么是 `tsconfig` 文件，为什么在你的 TypeScript 项目中包含它很重要？"
+title: "什么是 tsconfig 文件，为什么在你的 TypeScript 项目中包含它很重要？"
 challengeType: 19
 dashedName: what-is-a-tsconfig-file-and-why-is-it-important-to-include-in-your-typescript-projects
 ---
@@ -54,7 +54,7 @@ TypeScript 的编译器设置可以配置以满足你的项目需求。该配置
 
 ### --feedback--
 
-此属性是一个包含 `compiler` 选项的对象。
+此属性是一个包含 compiler 选项的对象。
 
 ---
 
@@ -66,7 +66,7 @@ TypeScript 的编译器设置可以配置以满足你的项目需求。该配置
 
 ### --feedback--
 
-此属性是一个包含 `compiler` 选项的对象。
+此属性是一个包含 compiler 选项的对象。
 
 ---
 
@@ -74,7 +74,7 @@ TypeScript 的编译器设置可以配置以满足你的项目需求。该配置
 
 ### --feedback--
 
-此属性是一个包含 `compiler` 选项的对象。
+此属性是一个包含 compiler 选项的对象。
 
 ## --video-solution--
 
@@ -138,7 +138,7 @@ TypeScript 的编译器设置可以配置以满足你的项目需求。该配置
 
 ---
 
-在 `compilation` 期间忽略某些 `file`。
+在 compilation 期间忽略某些 file。
 
 ---
 

@@ -8,7 +8,7 @@ dashedName: using-mcp-servers
 
 # --description--
 
-在這個 `video` 中，你將學習如何使用 MCP `servers`。
+在這個 video 中，你將學習如何使用 MCP servers。
 
 # --questions--
 
@@ -30,7 +30,7 @@ dashedName: using-mcp-servers
 
 ---
 
-你需要確保 `server` 有足夠的 `disk` 空間來存放臨時日誌。
+你需要確保 server 有足夠的 disk 空間來存放臨時日誌。
 
 ## --video-solution--
 

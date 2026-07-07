@@ -205,7 +205,7 @@ else:
 
 ## --text--
 
-以下 `code` 的結果會是什麼？
+以下 code 的結果會是什麼？
 
 ```python
 age = 12

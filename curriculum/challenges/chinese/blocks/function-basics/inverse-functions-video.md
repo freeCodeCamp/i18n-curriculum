@@ -8,7 +8,7 @@ dashedName: inverse-functions
 
 # --description--
 
-在这个 `video` 中，你将学习关于逆 `function` 的内容。
+在这个 video 中，你将学习关于逆 function 的内容。
 
 # --questions--
 
@@ -26,7 +26,7 @@ dashedName: inverse-functions
 
 ---
 
-仅适用于具有有限 `Domain` 的函数。
+仅适用于具有有限 Domain 的函数。
 
 ---
 

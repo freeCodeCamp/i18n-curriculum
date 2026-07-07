@@ -38,7 +38,7 @@ lang: en-US
 
 `Need to` 用于询问必要的动作。它后面跟动词的原形（`do`）。例如：
 
-- `We need to do more testing before releasing the app。` - 在发布应用之前，有必要对其进行测试。
+- `We need to do more testing before releasing the app.` - 在发布应用之前，有必要对其进行测试。
 
 - `We need to do some updates to fix the bugs.` - 需要更新系统以解决问题。
 

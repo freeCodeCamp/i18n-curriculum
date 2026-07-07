@@ -8,7 +8,7 @@ dashedName: variables-and-data-types
 
 # --description--
 
-在这个 `video` 中，你将学习 Python 中的不同 `data type`，包括 `integer`、`string` 和 `boolean`。
+在这个 video 中，你将学习 Python 中的不同 data type，包括 integer、string 和 boolean。
 
 # --questions--
 

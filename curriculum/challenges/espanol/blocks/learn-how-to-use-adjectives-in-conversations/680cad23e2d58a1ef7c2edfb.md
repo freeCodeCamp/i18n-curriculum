@@ -38,7 +38,7 @@ Esta palabra compuesta significa algo que puede manejar una gran cantidad de tra
 
 `High-capacity` describe algo diseñado para manejar o contener una gran cantidad en comparación con las versiones estándar. Por ejemplo:
 
-Instalamos baterías de alta capacidad en los nuevos dispositivos. – Esto significa que las baterías pueden almacenar más energía y durar más, lo cual es útil en equipos tecnológicos.
+`We installed high-capacity batteries in the new devices.` – Esto significa que las baterías pueden almacenar más energía y durar más, lo cual es útil en equipos tecnológicos.
 
 # --scene--
 

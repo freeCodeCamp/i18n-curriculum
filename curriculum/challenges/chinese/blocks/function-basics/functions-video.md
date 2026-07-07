@@ -8,13 +8,13 @@ dashedName: functions
 
 # --description--
 
-导师 Dr. Linda Green，北卡罗来纳大学教堂山分校的讲师，将教你 `function` 的基础知识。
+导师 Dr. Linda Green，北卡罗来纳大学教堂山分校的讲师，将教你 function 的基础知识。
 
 # --questions--
 
 ## --text--
 
-函数的 `Domain` 是什么？
+函数的 Domain 是什么？
 
 ## --answers--
 

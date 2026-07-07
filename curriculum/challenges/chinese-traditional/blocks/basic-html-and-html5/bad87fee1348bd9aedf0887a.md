@@ -17,7 +17,7 @@ dashedName: headline-with-the-h2-element
 
 # --instructions--
 
-為你的 `h1` 元素「Hello World` 下方創建第二個 HTML 元素，並添加一個顯示「CatPhotoApp」的 `h2` 頁籤。
+在你的「Hello World」`h1` 元素下方，添加一個顯示「CatPhotoApp」的 `h2` 標籤，以創建第二個 HTML 元素。
 
 # --hints--
 

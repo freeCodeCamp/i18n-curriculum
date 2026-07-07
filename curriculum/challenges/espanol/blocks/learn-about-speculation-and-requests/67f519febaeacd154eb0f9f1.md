@@ -30,9 +30,9 @@ Esta palabra significa estar alerta y observar cuidadosamente posibles peligros 
 
 `Vigilant` significa estar atento y cauteloso para detectar posibles amenazas. Por ejemplo:
 
-- El equipo de TI siempre está alerta y cuidadoso al revisar la red.
+- `The IT team is always vigilant when monitoring the network.` - El equipo de TI siempre está alerta y cuidadoso al revisar la red.
 
-- Debes ser vigilante al hacer clic en enlaces desconocidos en correos electrónicos. Necesitas tener cuidado y prestar atención a los enlaces sospechosos en los correos.
+- `You should be vigilant when clicking on unknown links in emails.` - Debes ser vigilante al hacer clic en enlaces desconocidos en correos electrónicos. Necesitas tener cuidado y prestar atención a los enlaces sospechosos en los correos.
 
 # --scene--
 

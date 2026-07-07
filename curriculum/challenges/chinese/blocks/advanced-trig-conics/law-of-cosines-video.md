@@ -8,7 +8,7 @@ dashedName: law-of-cosines
 
 # --description--
 
-在这个 `video` 中，你将学习余弦定理。
+在这个 video 中，你将学习余弦定理。
 
 # --questions--
 

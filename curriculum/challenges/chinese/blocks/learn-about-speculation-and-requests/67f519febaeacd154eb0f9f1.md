@@ -32,7 +32,7 @@ lang: en-US
 
 - `The IT team is always vigilant when monitoring the network.` - IT 团队在查看网络时始终保持警惕和小心。
 
-- 你在点击电子邮件中的未知 `links` 时应保持警惕。
+- `You should be vigilant when clicking on unknown links in emails.` - 你需要小心并留意可疑的邮件链接。
 
 # --scene--
 

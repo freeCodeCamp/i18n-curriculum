@@ -8,7 +8,7 @@ dashedName: space-complexity
 
 # --description--
 
-在这个 `video` 中，你将学习空间 `complexity`。 
+在这个 video 中，你将学习空间 complexity。
 
 # --questions--
 
@@ -18,7 +18,7 @@ dashedName: space-complexity
 
 ## --answers--
 
-算法使用的内存量相对于 `input` 大小。
+算法使用的内存量相对于 input 大小。
 
 ---
 

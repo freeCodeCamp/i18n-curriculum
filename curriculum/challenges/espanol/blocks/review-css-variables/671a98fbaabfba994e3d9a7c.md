@@ -40,7 +40,7 @@ body {
 }
 ```
 
-- **`--nombre-propiedad`**: Este es el nombre de la propiedad personalizada que estás definiendo. Como todas las propiedades personalizadas, debe comenzar con dos guiones. 
+- **`--property-name`**: Este es el nombre de la propiedad personalizada que estás definiendo. Como todas las propiedades personalizadas, debe comenzar con dos guiones. 
 **`syntax`**: This defines the type of the property, which can be things like `<color>`, `<length>`, `<number>`, `<percentage>`, or more complex types.
 - **`inherits`**: Esto especifica si la propiedad debe heredar su valor del elemento padre.
 - **`initial-value`**: Esto establece el valor por defecto de la propiedad.

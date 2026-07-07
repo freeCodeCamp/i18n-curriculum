@@ -46,7 +46,7 @@ Uma parte ou seção específica do programa de treinamento.
 
 `Module` refere-se a uma unidade ou seção de um curso ou programa de treinamento. Por exemplo:
 
-- O novo `module` sobre cibersegurança será adicionado na próxima semana. - Aqui, `module` refere-se a uma parte específica do treinamento focada em cibersegurança.
+- `The new module on cybersecurity will be added next week.` - Aqui, `module` refere-se a uma parte específica do treinamento focada em cibersegurança.
 
 Preste atenção em como as palavras `this`, `new` e `module` são usadas. `This` é usado para especificar o módulo sobre o qual estão falando, `new` mostra que é uma adição recente e `module` se refere a uma seção do treinamento.
 

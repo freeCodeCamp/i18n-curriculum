@@ -24,7 +24,7 @@ Aqui estão as histórias de usuário que você deve implementar para este proje
 
 **História do Usuário:** Como um usuário não autenticado ou autenticado, você pode ver e votar nas enquetes de todos.
 
-**História do Usuário:** Como um usuário não autenticado ou autenticado, você pode ver os resultados das enquetes em forma de gráfico. (Isso pode ser implementado usando `Chart.js` ou `Google Charts`.)
+**História do Usuário:** Como um usuário não autenticado ou autenticado, você pode ver os resultados das enquetes em forma de gráfico. (Isso pode ser implementado usando Chart.js ou Google Charts.)
 
 **História do Usuário:** Como um usuário autenticado, se você não gostar das opções em uma enquete, você pode criar uma nova opção.
 

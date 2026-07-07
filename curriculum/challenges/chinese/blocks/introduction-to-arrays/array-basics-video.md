@@ -8,7 +8,7 @@ dashedName: array-basics
 
 # --description--
 
-在这个 `video` 中，你将学习关于数组。
+在这个 video 中，你将学习关于数组。
 
 # --questions--
 

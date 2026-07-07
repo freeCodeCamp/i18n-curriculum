@@ -8,7 +8,7 @@ dashedName: for-loops
 
 # --description--
 
-在這個影片中，你將學習如何使用 `for` 迴圈來迭代像是列表和範圍的序列。
+在這個影片中，你將學習如何使用 for 迴圈來迭代像是列表和範圍的序列。
 
 # --questions--
 

@@ -1,6 +1,6 @@
 ---
 id: 695cc8f280fef0cc3bed02cb
-title: "什么是 `Process` 模块及其工作原理？"
+title: "什么是 Process 模块及其工作原理？"
 challengeType: 19
 dashedName: what-is-the-process-module-and-how-does-it-work
 ---
@@ -139,7 +139,7 @@ process.emitWarning('This is a custom warning message', 'CustomWarning');
 
 ## --text--
 
-你如何使用 `process` 模块？
+你如何使用 process 模块？
 
 ## --answers--
 
@@ -151,7 +151,7 @@ process.emitWarning('This is a custom warning message', 'CustomWarning');
 
 ### --feedback--
 
-想想为什么你可以在任何地方访问 `process` 而无需设置。
+想想为什么你可以在任何地方访问 process 而无需设置。
 
 ---
 
@@ -159,7 +159,7 @@ process.emitWarning('This is a custom warning message', 'CustomWarning');
 
 ### --feedback--
 
-想想为什么你可以在任何地方访问 `process` 而无需设置。
+想想为什么你可以在任何地方访问 process 而无需设置。
 
 ---
 
@@ -167,7 +167,7 @@ process.emitWarning('This is a custom warning message', 'CustomWarning');
 
 ### --feedback--
 
-想想为什么你可以在任何地方访问 `process` 而无需设置。
+想想为什么你可以在任何地方访问 process 而无需设置。
 
 ## --video-solution--
 

@@ -8,7 +8,7 @@ dashedName: evaluating-the-runtime
 
 # --description--
 
-在这个 `video` 中，你将学习如何评估链表上归并排序的运行期。
+在这个 video 中，你将学习如何评估链表上归并排序的运行期。
 
 # --questions--
 

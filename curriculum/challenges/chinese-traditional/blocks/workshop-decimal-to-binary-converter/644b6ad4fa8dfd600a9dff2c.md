@@ -25,7 +25,7 @@ const quotient = 5 / 2; // 2.5
 assert.match(code, /while\s*\(\s*input\s*>\s*0\s*\)\s*\{\s*(var|let|const)\s+quotient\s*=/);
 ```
 
-你應該將 `quotient` 指定為 `input` 除以 2 的值。
+你應該將 `quotient` 指定為 `input` 除以 `2` 的值。
 
 ```js
 assert.match(String(decimalToBinary), /(var|let|const)\s+quotient\s*=\s*input\s*\/\s*2\s*/);

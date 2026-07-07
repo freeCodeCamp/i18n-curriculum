@@ -46,7 +46,7 @@ dashedName: review-css-animations
 - **`animation-timing-function`**：定义动画随时间变化的推进方式（如 `ease`、`linear`、`ease-in-out`）。
 - **`animation-delay`**：指定动画开始前的延迟时间。
 - **`animation-iteration-count`**：设置动画的重复次数。
-- **`animation-direction`**：决定动画是以 `normal` 方向播放、以 `reverse` 方向播放，还是在两者之间交替播放。
+- **`animation-direction`**：决定动画是以 `normal` 方向播放、以 `reverse` 方向播放，还是在两者之间 `alternate`（交替）播放。
 - **`animation-fill-mode`**：指定动画前后元素的样式。
 - **`animation-play-state`**：允许暂停和恢复动画。
 

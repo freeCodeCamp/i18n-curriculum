@@ -9,9 +9,9 @@ dashedName: step-14
 
 你的 `calculateQuotient` 似乎運作正常，但有一種情況你還沒有測試過。
 
-為你的程式碼添加一個 `console.log`，該 `console.log` 呼叫 `calculateQuotient` 函式（程式），並帶入引數 `3` 和 `0`。
+為你的程式碼添加一個 `console.log`，該 console.log 呼叫 `calculateQuotient` 函式（程式），並帶入引數 `3` 和 `0`。
 
-請務必仔細檢查此 `call` 的輸出。
+請務必仔細檢查此 call 的輸出。
 
 # --hints--
 

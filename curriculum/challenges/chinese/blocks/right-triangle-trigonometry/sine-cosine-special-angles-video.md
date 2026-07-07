@@ -8,7 +8,7 @@ dashedName: sine-cosine-special-angles
 
 # --description--
 
-在这个 `video` 中，你将学习如何查找特殊角度（如 30°、45° 和 60°）的正弦和余弦。 
+在这个 video 中，你将学习如何查找特殊角度（如 30°、45° 和 60°）的正弦和余弦。
 
 # --questions--
 

@@ -54,9 +54,9 @@ Mark 不需要重写所有内容。
 
 `test suite` 是一组用于查看程序是否正常工作的测试集合。例如：
 
-- `We ran the test suite to check if the app works properly。` - 团队执行了所有测试以确保应用程序按预期运行。
+- `We ran the test suite to check if the app works properly.` - 团队执行了所有测试以确保应用程序按预期运行。
 
-- 我们需要为测试套件添加更多测试以查看边缘分支。——团队应包含更多测试以覆盖所有可能的情况。
+- `We need to add more tests to the test suite to check for edge cases.`——团队应包含更多测试以覆盖所有可能的情况。
 
 # --scene--
 

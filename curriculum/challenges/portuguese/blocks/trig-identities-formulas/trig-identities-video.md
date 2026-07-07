@@ -14,7 +14,7 @@ Neste vídeo, você aprenderá sobre identidades trigonométricas.
 
 ## --text--
 
-Por que a segunda equação no primeiro `example` é chamada de identidade?
+Por que a segunda equação no primeiro example é chamada de identidade?
 
 ## --answers--
 

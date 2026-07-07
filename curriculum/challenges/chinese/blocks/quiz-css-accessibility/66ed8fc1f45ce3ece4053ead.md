@@ -209,7 +209,7 @@ img {
 
 #### --text--
 
-以下哪项是 `placeholder` 元素中 `input` 属性的可访问性问题？
+以下哪项是 `input` 元素中 `placeholder` 属性的可访问性问题？
 
 #### --distractors--
 

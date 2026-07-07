@@ -14,7 +14,7 @@ dashedName: merge-sort-revisited
 
 ## --text--
 
-`merge sort` 和快速排序 `algorithms` 之間的核心差異是什麼？
+merge sort 和快速排序 algorithms 之間的核心差異是什麼？
 
 ## --answers--
 

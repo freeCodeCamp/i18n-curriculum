@@ -8,7 +8,7 @@ dashedName: timing-our-search-scripts
 
 # --description--
 
-在这个 `video` 中，你将看到二分查找和线性查找 `algorithms` 如何在一个名字 `list` 上工作，以及结果如何比较。 
+在这个 video 中，你将看到二分查找和线性查找 algorithms 如何在一个名字 list 上工作，以及结果如何比较。
 
 # --questions--
 
@@ -18,11 +18,11 @@ dashedName: timing-our-search-scripts
 
 ## --answers--
 
-线性查找完成所用时间是 `binary search` 的一半。 
+线性查找完成所用时间是 binary search 的一半。
 
 ---
 
-`binary search` 完成所需时间是线性查找的一半。 
+binary search 完成所需时间是线性查找的一半。
 
 ---
 

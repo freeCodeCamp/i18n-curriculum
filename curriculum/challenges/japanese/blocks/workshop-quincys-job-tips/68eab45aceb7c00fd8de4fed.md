@@ -45,7 +45,7 @@ const blockquoteEl = document.querySelector('main > section:nth-of-type(2) > blo
 assert.exists(blockquoteEl?.getAttribute('cite'));
 ```
 
-`cite`要素の`blockquote`属性は値`https://www.freecodecamp.org/news/learn-to-code-book/`であるはずです。
+`blockquote`要素の`cite`属性は値`https://www.freecodecamp.org/news/learn-to-code-book/`であるはずです。
 
 ```js
 const blockquoteEl = document.querySelector('main > section:nth-of-type(2) > blockquote');

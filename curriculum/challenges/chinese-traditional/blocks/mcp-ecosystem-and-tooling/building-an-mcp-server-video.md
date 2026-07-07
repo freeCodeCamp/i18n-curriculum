@@ -8,7 +8,7 @@ dashedName: building-an-mcp-server
 
 # --description--
 
-在這個 `video` 中，你將學習如何建造一個 MCP `server`。
+在這個 video 中，你將學習如何建造一個 MCP server。
 
 # --questions--
 

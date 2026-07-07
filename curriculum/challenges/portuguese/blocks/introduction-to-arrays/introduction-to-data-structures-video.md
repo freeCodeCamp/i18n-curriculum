@@ -14,7 +14,7 @@ Neste vídeo, o instrutor da Treehouse Pasan falará sobre o que esperar na part
 
 ## --text--
 
-Quais são as quatro operações comuns que serão estudadas ao trabalhar com `data structures`?
+Quais são as quatro operações comuns que serão estudadas ao trabalhar com data structures?
 
 ## --answers--
 

@@ -22,7 +22,7 @@ dashedName: piecewise-functions
 
 ---
 
-由單一公式定義，適用於所有 x 值的 `function`。
+由單一公式定義，適用於所有 x 值的 function。
 
 ---
 

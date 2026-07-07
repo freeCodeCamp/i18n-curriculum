@@ -8,13 +8,13 @@ dashedName: recursive-binary-search
 
 # --description--
 
-在本 `video` 中，你将学习如何为 `binary search` 创建一个递归的 `solution`。
+在本 video 中，你将学习如何为 binary search 创建一个递归的 solution。
 
 # --questions--
 
 ## --text--
 
-什么是递归的 `function`？
+什么是递归的 function？
 
 ## --answers--
 
@@ -26,11 +26,11 @@ dashedName: recursive-binary-search
 
 ---
 
-一个永远不 `return` 值的 `function`。
+一个永远不 return 值的 function。
 
 ---
 
-只能在 `loop` 中 `run` 的 `function`。
+只能在 loop 中 run 的 function。
 
 ## --video-solution--
 

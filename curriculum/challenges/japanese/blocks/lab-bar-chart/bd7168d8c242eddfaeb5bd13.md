@@ -1407,13 +1407,13 @@ const timeout = (milliseconds) =>
 assert.exists(document.getElementById('title'));
 ```
 
-チャートには対応するid `g`を持つ`x-axis`要素のx軸が必要です。
+チャートには対応するid `x-axis`を持つ`g`要素のx軸が必要です。
 
 ```js
 assert.isNotEmpty(document.querySelector('g#x-axis'))
 ```
 
-チャートには対応するid `g`を持つ`y-axis`要素のy軸が必要です。
+チャートには対応するid `y-axis`を持つ`g`要素のy軸が必要です。
 
 ```js
 assert.isNotEmpty(document.querySelector('g#y-axis'))

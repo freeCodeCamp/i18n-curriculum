@@ -1,6 +1,6 @@
 ---
 id: 67e2a513dbffdc8dcf1700af
-title: "Ni Nini `useOptimistic` Hook, na Inafanya Kazi Gani?"
+title: "Ni Nini useOptimistic Hook, na Inafanya Kazi Gani?"
 challengeType: 19
 dashedName: what-is-the-useoptimistic-hook-and-how-does-it-work
 ---

@@ -8,7 +8,7 @@ dashedName: evaluating-the-runtime
 
 # --description--
 
-En este video, aprenderás cómo evaluar los tiempos de ejecución de `merge sort` en listas enlazadas.
+En este video, aprenderás cómo evaluar los tiempos de ejecución de merge sort en listas enlazadas.
 
 # --questions--
 

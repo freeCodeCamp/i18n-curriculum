@@ -30,7 +30,7 @@ lang: en-US
 
 `On your end` 用于参考某人的情况或他们正在发生的事情，通常在对话或工作上下文中。例如：
 
-如果你那边需要任何帮助，请告诉我。
+`Let me know if you need any help on your end.` － 这表示说话者想知道对方在其工作或情况上是否需要帮助。
 
 # --scene--
 

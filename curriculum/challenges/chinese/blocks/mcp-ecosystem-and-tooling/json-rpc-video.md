@@ -8,7 +8,7 @@ dashedName: json-rpc
 
 # --description--
 
-在这个 `video` 中，你将学习 `JSON-RPC protocol`。
+在这个 video 中，你将学习 JSON-RPC protocol。
 
 # --questions--
 
@@ -18,7 +18,7 @@ dashedName: json-rpc
 
 ## --answers--
 
-用于在向量数据库中存储大型 `datasets` 的 `protocol`。
+用于在向量数据库中存储大型 datasets 的 protocol。
 
 ---
 

@@ -30,7 +30,7 @@ MCP 伺服器的 resources 部分用於什麼？
 
 ---
 
-這用於儲存和管理 AI 應用程式可以 `access` 的資產或資料。
+這用於儲存和管理 AI 應用程式可以 access 的資產或資料。
 
 ## --video-solution--
 

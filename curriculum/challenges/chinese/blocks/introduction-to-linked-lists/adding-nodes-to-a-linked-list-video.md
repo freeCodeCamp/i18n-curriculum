@@ -1,6 +1,6 @@
 ---
 id: 698dd6627932b3cc4b19c931
-title: "为 `Linked list` 添加节点"
+title: "为 Linked list 添加节点"
 challengeType: 11
 videoId: DcsHC78sfdk
 dashedName: adding-nodes-to-a-linked-list
@@ -8,7 +8,7 @@ dashedName: adding-nodes-to-a-linked-list
 
 # --description--
 
-在这个 `video` 中，你将学习如何为 `linked list` 添加节点。
+在这个 video 中，你将学习如何为 linked list 添加节点。
 
 # --questions--
 

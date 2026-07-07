@@ -8,13 +8,13 @@ dashedName: graphs-sine-cosine
 
 # --description--
 
-在这个 `video` 中，你将学习正弦和余弦 `function` 的 `Graph`。
+在这个 video 中，你将学习正弦和余弦 function 的 Graph。
 
 # --questions--
 
 ## --text--
 
-正弦或余弦 `function` 的振幅是多少？
+正弦或余弦 function 的振幅是多少？
 
 ## --answers--
 

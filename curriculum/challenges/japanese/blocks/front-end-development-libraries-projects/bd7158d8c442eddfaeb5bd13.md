@@ -41,7 +41,7 @@ HTML、JavaScript、CSS、ブートストラップ、SASS、React、Redux、jQue
 
 完成したら、すべてのテストに合格した動作中のプロジェクトのURLを提出してください。
 
-**注意:** Twitterはiframe内でのリンク読み込みを許可していません。ツイートが読み込まれない場合は、`target="_blank"`要素に`target="_top"`または`#tweet-quote`属性を使ってみてください。`target="_top"`は現在のタブを置き換えるので、作業内容が保存されていることを確認してください。
+**注意:** Twitterはiframe内でのリンク読み込みを許可していません。ツイートが読み込まれない場合は、`#tweet-quote`要素に`target="_blank"`または`target="_top"`属性を使ってみてください。`target="_top"`は現在のタブを置き換えるので、作業内容が保存されていることを確認してください。
 
 # --solutions--
 

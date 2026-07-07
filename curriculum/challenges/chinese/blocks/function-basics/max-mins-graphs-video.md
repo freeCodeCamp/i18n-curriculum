@@ -8,13 +8,13 @@ dashedName: maximum-and-minimum-values-on-a-graph
 
 # --description--
 
-在这个 `video` 中，你将学习关于 `Graph` 上的最大值和最小值。
+在这个 video 中，你将学习关于 Graph 上的最大值和最小值。
 
 # --questions--
 
 ## --text--
 
-最大值和最小值在 `Graph` 上的另一个名称是什么？
+最大值和最小值在 Graph 上的另一个名称是什么？
 
 ## --answers--
 

@@ -8,7 +8,7 @@ dashedName: caching-monitoring-and-error-handling
 
 # --description--
 
-在这个 `video` 中，你将学习缓存、监控和误差处理在 RAG 系统中的重要性。 
+在这个 video 中，你将学习缓存、监控和误差处理在 RAG 系统中的重要性。
 
 # --questions--
 

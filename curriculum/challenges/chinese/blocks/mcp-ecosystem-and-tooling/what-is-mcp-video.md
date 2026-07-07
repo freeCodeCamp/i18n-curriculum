@@ -8,7 +8,7 @@ dashedName: what-is-mcp
 
 # --description--
 
-在这个 `video` 中，你将继续学习 MCP。
+在这个 video 中，你将继续学习 MCP。
 
 # --questions--
 
@@ -26,11 +26,11 @@ dashedName: what-is-mcp
 
 ---
 
-一套定义 AI `applications` 如何相互协作的标准。
+一套定义 AI applications 如何相互协作的标准。
 
 ---
 
-一种用于预测股票价格的机器学习 `model` `type`。
+一种用于预测股票价格的机器学习 model type。
 
 ## --video-solution--
 

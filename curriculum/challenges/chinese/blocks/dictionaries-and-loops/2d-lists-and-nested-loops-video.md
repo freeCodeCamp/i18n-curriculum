@@ -8,7 +8,7 @@ dashedName: 2d-lists-and-nested-loops
 
 # --description--
 
-在这个 `video` 中，你将学习如何 `create` 二维 `list` 并使用 `nested` `loop` 来处理多维 `data structure`。
+在这个 video 中，你将学习如何 create 二维 list 并使用 nested loop 来处理多维 data structure。
 
 # --questions--
 

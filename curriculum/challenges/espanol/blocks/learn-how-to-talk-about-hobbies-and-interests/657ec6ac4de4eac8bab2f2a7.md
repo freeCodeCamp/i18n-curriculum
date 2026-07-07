@@ -12,7 +12,7 @@ lang: en-US
 
 La palabra `date` puede usarse en diferentes contextos. Aunque a menudo se refiere a una cita romántica entre dos personas, también puede simplemente significar una cita o un evento planeado entre amigos o colegas. Por ejemplo:
 
-Vamos a fijar una `date` para nuestra próxima reunión.
+`Let's set a date for our next meeting.` - Vamos a fijar una `date` para nuestra próxima reunión.
 
 # --fillInTheBlank--
 

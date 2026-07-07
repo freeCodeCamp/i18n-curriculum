@@ -44,7 +44,7 @@ Tom 感谢 Sophie 的建议，而不是感谢她给他一个应用程序。
 
 ### --feedback--
 
-Tom 的感谢与有关组织的提示有关，而不是具体的 `project` 帮助。
+Tom 的感谢与有关组织的提示有关，而不是具体的 project 帮助。
 
 ## --video-solution--
 

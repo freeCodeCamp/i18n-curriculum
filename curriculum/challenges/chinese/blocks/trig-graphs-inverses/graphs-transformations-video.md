@@ -8,13 +8,13 @@ dashedName: graphs-of-transformations-of-tan-sec-cot-csc
 
 # --description--
 
-在这个 `video` 中，你将学习如何绘制正切、正割、余切和余割函数的变换 `Graph`。
+在这个 video 中，你将学习如何绘制正切、正割、余切和余割函数的变换 Graph。
 
 # --questions--
 
 ## --text--
 
-视频中显示的第二个 `Graph` 的形状是什么？
+视频中显示的第二个 Graph 的形状是什么？
 
 ## --answers--
 
@@ -30,7 +30,7 @@ dashedName: graphs-of-transformations-of-tan-sec-cot-csc
 
 ---
 
-余割 `Graph`。
+余割 Graph。
 
 ## --video-solution--
 

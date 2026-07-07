@@ -54,7 +54,7 @@ Anna 沒有提到任何關於調查問題的內容。
 
 `computer upgrade` 是指透過添加或更換零件來提升電腦，例如更多的記憶體（RAM）、更快的處理程序或更好的螢幕。例如：
 
-- `I need a computer upgrade to run the latest software。` - 說話者目前的電腦效能不足，所以他們需要一台更好的電腦。
+- `I need a computer upgrade to run the latest software.` - 說話者目前的電腦效能不足，所以他們需要一台更好的電腦。
 
 - `After the computer upgrade, everything runs much faster.` - 系統的效率在更新或更換組件後提升了。
 

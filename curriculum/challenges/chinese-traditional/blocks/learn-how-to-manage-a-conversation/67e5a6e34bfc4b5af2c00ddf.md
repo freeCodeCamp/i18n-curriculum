@@ -38,11 +38,11 @@ lang: en-US
 
 `Critical` 意味著極其重要或嚴重。 例如：
 
-`We have a critical deadline tomorrow。`－這表示截止日期非常重要且不可錯過。
+`We have a critical deadline tomorrow.`－這表示截止日期非常重要且不可錯過。
 
 `To affect` 意味著對某事物產生影響或引起變化。 例如：
 
-`The new policy may affect employee performance。`－這表示該政策可能會改變員工的表現方式。
+`The new policy may affect employee performance.`－這表示該政策可能會改變員工的表現方式。
 
 # --scene--
 

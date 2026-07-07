@@ -8,7 +8,7 @@ dashedName: solving-right-triangles
 
 # --description--
 
-在这个 `video` 中，你将学习如何解直角三角形。 
+在这个 video 中，你将学习如何解直角三角形。
 
 # --questions--
 

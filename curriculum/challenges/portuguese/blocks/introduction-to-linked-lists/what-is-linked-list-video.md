@@ -14,7 +14,7 @@ Neste vídeo, você aprenderá sobre listas ligadas.
 
 ## --text--
 
-Qual é o nome do `node` que é colocado no início de uma `linked list`?
+Qual é o nome do node que é colocado no início de uma linked list?
 
 ## --answers--
 

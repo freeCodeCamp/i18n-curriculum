@@ -8,7 +8,7 @@ dashedName: declare-string-variables
 
 # --description--
 
-之前你使用以下 `code` 宣告一個變數：
+之前你使用以下 code 宣告一個變數：
 
 ```js
 var myName;
@@ -20,7 +20,7 @@ var myName;
 var myName = "your name";
 ```
 
-「your name」稱為<dfn>字串</dfn><dfn>字面值</dfn>。字串字面值，或稱字串，是一系列零個或多個字元，包在單引號或雙引號中。
+`"your name"`稱為<dfn>字串</dfn><dfn>字面值</dfn>。字串字面值，或稱字串，是一系列零個或多個字元，包在單引號或雙引號中。
 
 # --instructions--
 

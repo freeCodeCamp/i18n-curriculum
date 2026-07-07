@@ -30,7 +30,7 @@ dashedName: binary-search-in-code
 
 ---
 
-只要 `range` 中仍有元素就繼續 `search`，當 `range` 為空時停止。
+只要 range 中仍有元素就繼續 search，當 range 為空時停止。
 
 ## --video-solution--
 

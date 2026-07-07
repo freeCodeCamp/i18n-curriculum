@@ -8,7 +8,7 @@ dashedName: recursion
 
 # --description--
 
-在这个 `video` 中，你将复习 `recursive` `function` 是如何工作的。
+在这个 video 中，你将复习 recursive function 是如何工作的。
 
 # --questions--
 
@@ -30,7 +30,7 @@ dashedName: recursion
 
 ---
 
-一个自动排序 `data` 的 `function`。
+一个自动排序 data 的 function。
 
 ## --video-solution--
 

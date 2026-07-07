@@ -32,7 +32,7 @@ function App() {
 export default App;
 ```
 
-你可以看到 `Parent` 組件也正在接收 `greeting` 變數作為 `greeting` prop 的值。這裡是 `Parent` 組件將它作為另一個 `greeting` prop 的值傳遞給 `Child` 組件：
+你可以看到 `Parent` 組件也正在接收 `greeting` 變數作為 `greeting` prop 的值。這裡是 `Parent` 組件將它作為 `Child` 中另一個 `greeting` prop 的值傳遞給 `Child` 組件：
 
 ```jsx
 import Child from "./Child";
@@ -156,7 +156,7 @@ export default App;
 
 ### --feedback--
 
-當 `props` 不必要地透過多個層次傳遞時，就會發生這種情況。
+當 props 不必要地透過多個層次傳遞時，就會發生這種情況。
 
 ---
 
@@ -164,7 +164,7 @@ export default App;
 
 ### --feedback--
 
-當 `props` 不必要地透過多個層次傳遞時，就會發生這種情況。
+當 props 不必要地透過多個層次傳遞時，就會發生這種情況。
 
 ---
 
@@ -176,7 +176,7 @@ export default App;
 
 ### --feedback--
 
-當 `props` 不必要地透過多個層次傳遞時，就會發生這種情況。
+當 props 不必要地透過多個層次傳遞時，就會發生這種情況。
 
 ## --video-solution--
 

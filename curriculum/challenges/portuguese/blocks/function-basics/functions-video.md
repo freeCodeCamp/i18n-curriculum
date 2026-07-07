@@ -8,13 +8,13 @@ dashedName: functions
 
 # --description--
 
-A instrutora Dra. Linda Green, uma palestrante da University of North Carolina at Chapel Hill, ensinará a você o básico de `functions`.
+A instrutora Dra. Linda Green, uma palestrante da University of North Carolina at Chapel Hill, ensinará a você o básico de functions.
 
 # --questions--
 
 ## --text--
 
-Qual é o domínio de uma `function`?
+Qual é o domínio de uma function?
 
 ## --answers--
 

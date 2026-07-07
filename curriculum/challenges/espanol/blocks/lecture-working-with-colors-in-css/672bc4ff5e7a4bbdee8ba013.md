@@ -24,11 +24,11 @@ p {
 
 :::
 
-En este ejemplo, estamos usando el color nombrado ` rojo ` para dar estilo al texto en un párrafo.
+En este ejemplo, estamos usando el color nombrado `red` para dar estilo al texto en un párrafo.
 
-Los colores nombrados en CSS son una colección de 140 nombres de colores estándar como ` rojo `, ` azul `, ` amarillo `, ` aqua `, ` fucsia `, ` negro ` y así sucesivamente. Estos nombres son simples de usar y hacen que tu código sea más legible, y son autodescriptivos. 
+Los colores nombrados en CSS son una colección de 140 nombres de colores estándar como `red`, `blue`, `yellow`, `aqua`, `fuchsia`, `black` y así sucesivamente. Estos nombres son simples de usar y hacen que tu código sea más legible, y son autodescriptivos.
 
-Los colores nombrados son útiles para prototipos rápidos, diseños simples y mejorar la legibilidad del código. Aquí hay otro ejemplo de uso de colores nombrados para un selector ` h1 `:
+Los colores nombrados son útiles para prototipos rápidos, diseños simples y mejorar la legibilidad del código. Aquí hay otro ejemplo de uso de colores nombrados para un selector `h1`:
 
 :::interactive_editor
 

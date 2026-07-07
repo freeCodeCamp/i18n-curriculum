@@ -8,7 +8,7 @@ dashedName: proof-of-the-angle-sum-formulas
 
 # --description--
 
-在这个 `video` 中，你将学习角和公式的证明。
+在这个 video 中，你将学习角和公式的证明。
 
 # --questions--
 

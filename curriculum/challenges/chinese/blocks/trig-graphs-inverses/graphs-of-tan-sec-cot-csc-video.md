@@ -8,13 +8,13 @@ dashedName: graphs-of-tan-sec-cot-csc
 
 # --description--
 
-在这个 `video` 中，你将学习如何绘制切线、割线、余切线和余割线 `function`。 
+在这个 video 中，你将学习如何绘制切线、割线、余切线和余割线 function。
 
 # --questions--
 
 ## --text--
 
-当视频中第一个示例 `Graph` 的角度为零时，斜率是多少？
+当视频中第一个示例 Graph 的角度为零时，斜率是多少？
 
 ## --answers--
 

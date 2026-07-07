@@ -8,7 +8,7 @@ dashedName: rag-in-production
 
 # --description--
 
-在这个 `video` 中，你将了解 RAG 在生产 `environment` 中的工作原理。
+在这个 video 中，你将了解 RAG 在生产 environment 中的工作原理。
 
 # --questions--
 

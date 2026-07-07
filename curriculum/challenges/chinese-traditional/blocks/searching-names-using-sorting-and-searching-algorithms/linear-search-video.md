@@ -18,7 +18,7 @@ dashedName: linear-search
 
 ## --answers--
 
-當 `list` 非常大且已排序時。
+當 list 非常大且已排序時。
 
 ---
 

@@ -56,7 +56,7 @@ Mark 不需要重寫所有內容。
 
 - `We ran the test suite to check if the app works properly.` - 團隊執行了所有測試，以確保應用程式如預期運作。
 
-- `We need to add more tests to the test suite to check for edge cases。`－團隊應該包含更多測試以涵蓋所有可能的情況。
+- `We need to add more tests to the test suite to check for edge cases.`－團隊應該包含更多測試以涵蓋所有可能的情況。
 
 # --scene--
 

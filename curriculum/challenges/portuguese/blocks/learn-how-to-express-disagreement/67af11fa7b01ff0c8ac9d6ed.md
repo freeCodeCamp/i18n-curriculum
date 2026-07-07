@@ -30,7 +30,7 @@ Após revisar os resultados da pesquisa sobre o subsídio para trabalho remoto, 
 
 `As remote work grows, companies need to support their workers in the best way possible. A well-equipped home office isn't just a nice extra — it's key to doing great work.`
 
-Por que alguns trabalhadores preferem usar o `stipend` para móveis de escritório?
+Por que alguns trabalhadores preferem usar o stipend para móveis de escritório?
 
 ## --answers--
 
@@ -66,6 +66,6 @@ A razão dada no artigo não são aparências.
 
 # --explanation--
 
-O artigo explica que `a bad chair and desk can cause health problems` e torna mais difícil focar. É por isso que alguns trabalhadores priorizam usar o `stipend` para móveis de escritório em vez de tecnologia.
+O artigo explica que `a bad chair and desk can cause health problems` e torna mais difícil focar. É por isso que alguns trabalhadores priorizam usar o stipend para móveis de escritório em vez de tecnologia.
 
 Foque em como o artigo destaca a ergonomia e o bem-estar como razões principais para escolher móveis em vez de computadores.

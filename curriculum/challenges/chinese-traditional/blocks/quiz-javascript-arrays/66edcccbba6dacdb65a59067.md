@@ -17,7 +17,7 @@ dashedName: quiz-javascript-arrays
 
 #### --text--
 
-以下 `code` 的輸出結果會是什麼？
+以下 code 的輸出結果會是什麼？
 
 ```js
 const numbers = [1, 2, 3];
@@ -106,7 +106,7 @@ console.log(index);
 
 #### --text--
 
-`rest syntax` 做什麼？
+rest syntax 做什麼？
 
 #### --distractors--
 
@@ -440,7 +440,7 @@ console.log(fruits);
 
 #### --text--
 
-以下 `code` 的輸出結果會是什麼？
+以下 code 的輸出結果會是什麼？
 
 ```js
 const arr = ["o", "l", "l", "e", "h"];

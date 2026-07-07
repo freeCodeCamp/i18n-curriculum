@@ -43,7 +43,7 @@ dashedName: quiz-computer-basics
 
 #### --distractors--
 
-用于编辑浏览器 `Settings` 和管理 `user` `profile` 的工具。
+用于编辑浏览器 Settings 和管理 user profile 的工具。
 
 ---
 
@@ -171,7 +171,7 @@ Windows 文件资源管理器
 
 #### --text--
 
-命名 `文件` 时什么做法是不好的？
+命名 文件 时什么做法是不好的？
 
 #### --distractors--
 
@@ -241,7 +241,7 @@ Windows 文件资源管理器
 
 #### --distractors--
 
-一种用于在设备之间传输 `files` 的 `network protocol`。
+一种用于在设备之间传输 files 的 network protocol。
 
 ---
 
@@ -285,7 +285,7 @@ Windows 文件资源管理器
 
 #### --distractors--
 
-一个用于部署和托管网页 `applications` 的 `platform`。
+一个用于部署和托管网页 applications 的 platform。
 
 ---
 
@@ -723,7 +723,7 @@ Ona
 
 #### --text--
 
-为你的 `文件` 命名的最佳实践是什么？
+为你的 文件 命名的最佳实践是什么？
 
 #### --distractors--
 
@@ -863,7 +863,7 @@ Findex 或 Firefox
 
 ---
 
-以易变的方式循序地访问 `data`。
+以易变的方式循序地访问 data。
 
 ---
 

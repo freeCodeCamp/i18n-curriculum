@@ -8,13 +8,13 @@ dashedName: increasing-and-decreasing-functions
 
 # --description--
 
-在这个 `video` 中，你将学习关于图上递增和递减的 `function`。
+在这个 video 中，你将学习关于图上递增和递减的 function。
 
 # --questions--
 
 ## --text--
 
-什么是递增 `function`？
+什么是递增 function？
 
 ## --answers--
 

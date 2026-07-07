@@ -27,8 +27,8 @@ Os testes requerem que os eixos sejam gerados usando a propriedade de eixos do D
 1. Cada elemento `.dot` deve alinhar com o valor correspondente no eixo x.
 1. Cada elemento `.dot` deve alinhar-se com o valor correspondente no eixo y.
 1. Deve haver múltiplos rótulos de marcação no eixo y com o formato de tempo `%M:%S`.
-1. Deve haver múltiplos `tick labels` no eixo x que mostram o ano.
-1. O intervalo dos `x-axis labels` deve estar dentro do intervalo dos dados reais do eixo x.
+1. Deve haver múltiplos tick labels no eixo x que mostram o ano.
+1. O intervalo dos x-axis labels deve estar dentro do intervalo dos dados reais do eixo x.
 1. O intervalo dos rótulos do eixo y deve estar dentro do intervalo dos dados reais do eixo y.
 1. Deve haver uma legenda contendo texto descritivo que tenha `id="legend"`.
 1. Você deve ser capaz de passar o mouse sobre uma área e ver um tooltip com um correspondente `id="tooltip"` que exibe mais informações sobre a área.
@@ -767,7 +767,7 @@ assert.isTrue(
 );
 ```
 
-O `data-yvalue` e seu ponto correspondente devem alinhar-se com o ponto/`value` correspondente no eixo y.
+O `data-yvalue` e seu ponto correspondente devem alinhar-se com o ponto/value correspondente no eixo y.
 
 ```js
 const axis = document.querySelector('#y-axis');
@@ -809,7 +809,7 @@ yAxisTickLabels.forEach((label) => {
 });
 ```
 
-Você pode ver múltiplos `tick labels` no eixo x que mostram o ano.
+Você pode ver múltiplos tick labels no eixo x que mostram o ano.
 
 ```js
 const xAxisTickLabels = document.querySelectorAll('#x-axis .tick');
@@ -824,7 +824,7 @@ xAxisTickLabels.forEach((label) => {
 });
 ```
 
-O intervalo dos `x-axis labels` está dentro do intervalo dos dados reais do eixo x.
+O intervalo dos x-axis labels está dentro do intervalo dos dados reais do eixo x.
 
 ```js
 const xAxisTickLabels = document.querySelectorAll('#x-axis .tick');
@@ -848,7 +848,7 @@ xAxisTickLabels.forEach((label) => {
 });
 ```
 
-O intervalo dos `y-axis labels` está dentro do intervalo dos dados reais do eixo y.
+O intervalo dos y-axis labels está dentro do intervalo dos dados reais do eixo y.
 
 ```js
 const yAxisTickLabels = document.querySelectorAll('#y-axis .tick');

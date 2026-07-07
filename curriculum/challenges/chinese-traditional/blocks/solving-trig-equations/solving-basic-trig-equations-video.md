@@ -18,7 +18,7 @@ dashedName: solving-basic-trig-equations
 
 ## --answers--
 
-將餘弦函式（`cosine function`）孤立出來。
+將餘弦函式（cosine function）孤立出來。
 
 ---
 
@@ -30,7 +30,7 @@ dashedName: solving-basic-trig-equations
 
 ---
 
-將 `cosine function` 替換為 `sine function`。
+將 cosine function 替換為 sine function。
 
 ## --video-solution--
 

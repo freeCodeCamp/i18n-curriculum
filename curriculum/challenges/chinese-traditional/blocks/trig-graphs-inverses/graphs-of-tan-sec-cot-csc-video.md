@@ -8,7 +8,7 @@ dashedName: graphs-of-tan-sec-cot-csc
 
 # --description--
 
-在這個影片中，你將學習如何繪製切線、割線、餘切線和餘割線的 `function`。 
+在這個影片中，你將學習如何繪製切線、割線、餘切線和餘割線的 function。
 
 # --questions--
 

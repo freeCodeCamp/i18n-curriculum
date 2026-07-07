@@ -23,7 +23,7 @@ Tu nuevo elemento `section` debe venir después de tu elemento `.text`.
 assert(document.querySelectorAll('section')?.[2]?.previousElementSibling?.className === 'text')
 ```
 
-Tu nuevo elemento `section` debe tener la `clase` establecida a `text text-with-images`.
+Tu nuevo elemento `section` debe tener la `class` establecida a `text text-with-images`.
 
 ```js
 assert(document.querySelectorAll('section')?.[2]?.className === 'text text-with-images')
@@ -47,13 +47,13 @@ El elemento `article` debe venir antes del elemento `aside`.
 assert(document.querySelector('.text-with-images article')?.nextElementSibling?.localName === 'aside');
 ```
 
-Tu elemento `article` debe tener la `clase` establecida a `brief-history`.
+Tu elemento `article` debe tener la `class` establecida a `brief-history`.
 
 ```js
 assert(document.querySelector('.text-with-images article')?.className === 'brief-history');
 ```
 
-Tu elemento `aside` debe tener la `clase` establecida a `image-wrapper`.
+Tu elemento `aside` debe tener la `class` establecida a `image-wrapper`.
 
 ```js
 assert(document.querySelector('.text-with-images aside')?.className === 'image-wrapper');

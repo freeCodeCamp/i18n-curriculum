@@ -8,13 +8,13 @@ dashedName: selection-sort
 
 # --description--
 
-在這個 `video` 中，你將學習選擇排序 `algorithm`。
+在這個 video 中，你將學習選擇排序 algorithm。
 
 # --questions--
 
 ## --text--
 
-選擇排序 `algorithm` 如何運作？
+選擇排序 algorithm 如何運作？
 
 ## --answers--
 

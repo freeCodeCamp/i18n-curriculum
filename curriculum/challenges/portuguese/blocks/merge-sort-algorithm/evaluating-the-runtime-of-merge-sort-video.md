@@ -8,13 +8,13 @@ dashedName: evaluating-the-runtime-of-merge-sort
 
 # --description--
 
-Neste vídeo, você aprenderá sobre os tempos de execução para o algoritmo de `merge sort`.
+Neste vídeo, você aprenderá sobre os tempos de execução para o algoritmo de merge sort.
 
 # --questions--
 
 ## --text--
 
-Qual é a complexidade de espaço para `merge sort`?
+Qual é a complexidade de espaço para merge sort?
 
 ## --answers--
 

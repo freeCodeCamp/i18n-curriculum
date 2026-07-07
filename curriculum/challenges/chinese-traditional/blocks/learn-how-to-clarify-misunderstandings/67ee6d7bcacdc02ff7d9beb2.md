@@ -58,7 +58,7 @@ lang: en-US
 
 `Event handling` 是指程式或網站如何管理使用者的動作，例如點擊、鍵盤按鍵或滑鼠移動。例如：
 
-`There's an issue with event handling。`－這表示軟體未能正確回應使用者操作。
+`There's an issue with event handling.`－這表示軟體未能正確回應使用者操作。
 
 # --scene--
 

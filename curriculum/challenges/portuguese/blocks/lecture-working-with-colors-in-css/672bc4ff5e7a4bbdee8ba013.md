@@ -52,7 +52,7 @@ Cores nomeadas em CSS são convenientes mas limitadas, com apenas 140 opções d
 
 Cores nomeadas em CSS são uma ótima maneira de aplicar cores de forma rápida e descritiva. Embora sejam úteis para designs básicos, prototipagem e melhoria da legibilidade do código, seu alcance limitado os torna menos adequados para designs complexos que exigem controle preciso de cores.
 
-Ao entender os pontos fortes e as limitações das cores nomeadas, você pode determinar quando é melhor usá-las em vez de modelos de cores mais detalhados como `RGB` ou `HSL`, que você aprenderá nas próximas aulas.
+Ao entender os pontos fortes e as limitações das cores nomeadas, você pode determinar quando é melhor usá-las em vez de modelos de cores mais detalhados como RGB ou HSL, que você aprenderá nas próximas aulas.
 
 # --questions--
 

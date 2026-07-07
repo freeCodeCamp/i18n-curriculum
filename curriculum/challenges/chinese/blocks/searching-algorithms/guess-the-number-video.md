@@ -8,7 +8,7 @@ dashedName: guess-the-number
 
 # --description--
 
-在这个 `video` 中，你将看到个人玩猜谜 `game` 的演示，以说明 `algorithm` 是如何工作的。
+在这个 video 中，你将看到个人玩猜谜 game 的演示，以说明 algorithm 是如何工作的。
 
 # --questions--
 

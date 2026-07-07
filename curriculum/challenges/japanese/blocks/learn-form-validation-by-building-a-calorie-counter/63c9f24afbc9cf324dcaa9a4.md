@@ -13,13 +13,13 @@ dashedName: step-95
 
 # --hints--
 
-`clearForm` 関数は `innerText` 要素の `output` プロパティにアクセスする必要があります。
+`clearForm` 関数は `output` 要素の `innerText` プロパティにアクセスする必要があります。
 
 ```js
 assert.match(clearForm.toString(), /output\.innerText/);
 ```
 
-`clearForm` 関数は `innerText` 要素の `output` プロパティを空の文字列に設定する必要があります。
+`clearForm` 関数は `output` 要素の `innerText` プロパティを空の文字列に設定する必要があります。
 
 ```js
 assert.match(clearForm.toString(), /output\.innerText\s*=\s*('|"|`)\1/);

@@ -54,7 +54,7 @@ Bob 有一個特定的目標，並且他提到了它。
 
 「`To keep someone in the loop`」意指讓他們隨時掌握重要的更新和決策。例如：
 
-`Please keep me in the loop about any changes to the schedule。`－這表示說話者希望如果排程有任何變更時能收到更新。
+`Please keep me in the loop about any changes to the schedule.`－這表示說話者希望如果排程有任何變更時能收到更新。
 
 # --scene--
 

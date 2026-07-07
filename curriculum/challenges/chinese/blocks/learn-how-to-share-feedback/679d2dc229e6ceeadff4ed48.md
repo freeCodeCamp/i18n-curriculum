@@ -38,7 +38,7 @@ lang: en-US
 
 詹姆斯没有说 `If we update the software, it might delay other projects.`，而是简化为 `If we do`。单词 `do` 通常用来避免重复前一句中使用的动词或完整短语。例如：
 
-`She wants to join the meeting，and if she does，she'll need the link。`——你可以用 `does` 来替代 `if she joins the meeting`，这样可以避免重复。
+`She wants to join the meeting, and if she does, she'll need the link.`——你可以用 `does` 来替代 `if she joins the meeting`，这样可以避免重复。
 
 `To delay` 意味着使某事发生得比计划的时间晚。例如：
 

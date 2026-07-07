@@ -1,6 +1,6 @@
 ---
 id: 698dbbd47932b3cc4b19c91b
-title: "什么是 `Algorithm`？"
+title: "什么是 Algorithm？"
 challengeType: 11
 videoId: FUeqQSciTNI
 dashedName: what-is-an-algorithm
@@ -8,13 +8,13 @@ dashedName: what-is-an-algorithm
 
 # --description--
 
-在这个 `video` 中，你将学习什么是 `algorithm`。
+在这个 video 中，你将学习什么是 algorithm。
 
 # --questions--
 
 ## --text--
 
-什么是 `algorithm`？
+什么是 algorithm？
 
 ## --answers--
 

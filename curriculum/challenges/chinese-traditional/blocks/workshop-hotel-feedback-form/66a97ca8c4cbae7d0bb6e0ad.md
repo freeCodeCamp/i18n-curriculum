@@ -7,7 +7,7 @@ dashedName: step-29
 
 # --description--
 
-在你的 `select` 元素內，為你的 `option` 元素添加以下五個 `option` 元素，並為 `option` 文字和 `value` 屬性設定相對應的值：
+在你的 `select` 元素內，為你的 `option` 元素添加以下五個 `option` 元素，並為 option 文字和 `value` 屬性設定相對應的值：
 
 **值屬性：**
 
@@ -36,7 +36,7 @@ dashedName: step-29
 assert.exists(document.querySelector('fieldset:nth-of-type(4) select#food option[value="poor"]'));
 ```
 
-你的 `option` 其 `value` 為 `"poor"` 應該有 `text` 為 `"Poor"`。
+你的 `option` 其 `value` 為 `"poor"` 應該有 text 為 `"Poor"`。
 
 ```js
 assert.strictEqual(document.querySelector('fieldset:nth-of-type(4) select#food option[value="poor"]')?.textContent.trim(), 'Poor');
@@ -48,7 +48,7 @@ assert.strictEqual(document.querySelector('fieldset:nth-of-type(4) select#food o
 assert.exists(document.querySelector('fieldset:nth-of-type(4) select#food option[value="satisfactory"]'));
 ```
 
-你的 `option` 其 `value` 為 `"satisfactory"` 應該有 `text` 為 `"Satisfactory"`。
+你的 `option` 其 `value` 為 `"satisfactory"` 應該有 text 為 `"Satisfactory"`。
 
 ```js
 assert.strictEqual(document.querySelector('fieldset:nth-of-type(4) select#food option[value="satisfactory"]')?.textContent.trim(), 'Satisfactory');
@@ -60,7 +60,7 @@ assert.strictEqual(document.querySelector('fieldset:nth-of-type(4) select#food o
 assert.exists(document.querySelector('fieldset:nth-of-type(4) select#food option[value="good"]'));
 ```
 
-你的 `option` 具有 `value` 為 `"good"` 的 `option` 應該有 `text` 為 `"Good"`。
+你的 `option` 具有 `value` 為 `"good"` 的 option 應該有 text 為 `"Good"`。
 
 ```js
 
@@ -85,7 +85,7 @@ assert.strictEqual(document.querySelector('fieldset:nth-of-type(4) select#food o
 assert.exists(document.querySelector('fieldset:nth-of-type(4) select#food option[value="excellent"]'));
 ```
 
-你的 `option` 其 `value` 為 `"excellent"` 應該有 `text` 為 `"Excellent"`。
+你的 `option` 其 `value` 為 `"excellent"` 應該有 text 為 `"Excellent"`。
 
 ```js
 assert.strictEqual(document.querySelector('fieldset:nth-of-type(4) select#food option[value="excellent"]')?.textContent.trim(), 'Excellent');

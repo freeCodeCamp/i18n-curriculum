@@ -13,7 +13,7 @@ dashedName: step-4
 <h2>This is a subheading.</h2>
 ```
 
-`Full-Stack Curriculum` 텍스트를 `h2` 요소로 바꾸려면, 여는 `h2` 태그와 닫는 `h2` 태그로 감싸세요.
+`Full-Stack Curriculum` 텍스트를 `h2` 요소로 바꾸려면, 여는 및 닫는 `h2` 태그로 감싸세요.
 
 # --hints--
 

@@ -14,7 +14,7 @@ dashedName: accessing-a-value-in-an-array
 
 ## --text--
 
-以下哪一種是從 Python `list` 中存取第一個元素的正確方法？
+以下哪一種是從 Python list 中存取第一個元素的正確方法？
 
 ## --answers--
 

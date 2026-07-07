@@ -8,13 +8,13 @@ dashedName: linear-search-in-code
 
 # --description--
 
-在这个 `video` 中，你将使用 Python 编写线性 `search` `algorithm`。
+在这个 video 中，你将使用 Python 编写线性 search algorithm。
 
 # --questions--
 
 ## --text--
 
-以下哪种是编写线性 `search` `function` 的正确方法？
+以下哪种是编写线性 search function 的正确方法？
 
 ## --answers--
 

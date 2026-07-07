@@ -40,15 +40,15 @@ dashedName: review-css-animations
 
 :::
 
-- **`Propiedad de animación`**: Esta es la propiedad abreviada utilizada para aplicar animaciones.
-- **`Nombre de animación`**: Esto especifica el nombre de la regla `@keyframes` que se va a usar.
-- **`Duración de animación`**: Esto establece cuánto tiempo debe durar la animación.
-- **`Función de tiempo de animación`**: Esto define cómo avanza la animación a lo largo del tiempo (como `ease`, `linear`, `ease-in-out`).
-- **`Retraso de animación`**: Esto especifica un retraso antes de que comience la animación.
-- **`Conteo de iteración de animación`**: Esto establece cuántas veces debe repetirse la animación.
-- **`Dirección de animación`**: Esto determina si la animación debería reproducirse en la dirección `normal`, en `reverse` o alternar entre ambas.
-- **`Modo de relleno de animación`**: Esto especifica cómo debe estar estilizado el elemento antes y después de la animación.
-- **`Estado de reproducción de animación`**: Esto te permite pausar y reanudar la animación.
+- **Propiedad `animation`**: Esta es la propiedad abreviada utilizada para aplicar animaciones.
+- **`animation-name`**: Esto especifica el nombre de la regla `@keyframes` que se va a usar.
+- **`animation-duration`**: Esto establece cuánto tiempo debe durar la animación.
+- **`animation-timing-function`**: Esto define cómo avanza la animación a lo largo del tiempo (como `ease`, `linear`, `ease-in-out`).
+- **`animation-delay`**: Esto especifica un retraso antes de que comience la animación.
+- **`animation-iteration-count`**: Esto establece cuántas veces debe repetirse la animación.
+- **`animation-direction`**: Esto determina si la animación debería reproducirse en la dirección `normal`, en `reverse` o `alternate` entre ambas.
+- **`animation-fill-mode`**: Esto especifica cómo debe estar estilizado el elemento antes y después de la animación.
+- **`animation-play-state`**: Esto te permite pausar y reanudar la animación.
 
 ## Accesibilidad y la Consulta de Medios `prefers-reduced-motion`
 

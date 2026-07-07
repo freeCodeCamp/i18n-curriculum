@@ -8,7 +8,7 @@ dashedName: evaluating-binary-search
 
 # --description--
 
-在这个 `video` 中，你将学习更多关于二分查找 `algorithm` 的内容。
+在这个 video 中，你将学习更多关于二分查找 algorithm 的内容。
 
 # --questions--
 
@@ -18,11 +18,11 @@ dashedName: evaluating-binary-search
 
 ## --answers--
 
-`data` 必须包含少于 1,000 条条目。
+data 必须包含少于 1,000 条条目。
 
 ---
 
-`data` 必须包含超过 1,000 条条目。 
+data 必须包含超过 1,000 条条目。
 
 ---
 

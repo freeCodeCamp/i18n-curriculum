@@ -56,7 +56,7 @@ El tiempo `Past Continuous` se usa para describir acciones que estaban en curso 
 
 En esta oración, Linda está describiendo cómo ella y su equipo estaban trabajando y actualizando continuamente la interfaz de usuario durante todo el proyecto. Esto muestra dos acciones que ocurrían al mismo tiempo en el pasado, proporcionando contexto o antecedentes entre sí. Por ejemplo: 
 
-Mientras yo preparaba el informe, ellos estaban probando las nuevas funciones. Esto significa que la acción de que yo preparara el informe y la prueba de las nuevas funciones ocurrieron al mismo tiempo.
+`While I was preparing the report, they were testing the new features.` - Mientras yo preparaba el informe, ellos estaban probando las nuevas funciones. Esto significa que la acción de que yo preparara el informe y la prueba de las nuevas funciones ocurrieron al mismo tiempo.
 
 # --scene--
 

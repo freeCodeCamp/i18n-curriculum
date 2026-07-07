@@ -8,7 +8,7 @@ dashedName: polar-coordinates
 
 # --description--
 
-在這個 `video` 中，你將學習極座標。
+在這個 video 中，你將學習極座標。
 
 # --questions--
 

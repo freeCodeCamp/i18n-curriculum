@@ -38,7 +38,7 @@ lang: en-US
 
 `High-capacity` 描述相較於標準版本設計用來管理或容納大量的東西。 例如：
 
-`We installed high-capacity batteries in the new devices。`－這表示電池可以儲存更多電力並持續更久，這在科技設備中非常有用。
+`We installed high-capacity batteries in the new devices.`－這表示電池可以儲存更多電力並持續更久，這在科技設備中非常有用。
 
 # --scene--
 

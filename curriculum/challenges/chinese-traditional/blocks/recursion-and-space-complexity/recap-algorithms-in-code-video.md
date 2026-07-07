@@ -8,17 +8,17 @@ dashedName: recap-algorithms-in-code
 
 # --description--
 
-在這個 `video` 中，你將複習迄今為止所教的關鍵概念，包括演算法思維和 Big O 符號。 
+在這個 video 中，你將複習迄今為止所教的關鍵概念，包括演算法思維和 Big O 符號。
 
 # --questions--
 
 ## --text--
 
-關於 `algorithms`，以下哪一項應該是正確的？
+關於 algorithms，以下哪一項應該是正確的？
 
 ## --answers--
 
-它應該始終使用可用的最大 `memory`。
+它應該始終使用可用的最大 memory。
 
 ---
 

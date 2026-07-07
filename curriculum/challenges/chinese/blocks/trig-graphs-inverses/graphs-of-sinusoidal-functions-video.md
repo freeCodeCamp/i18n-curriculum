@@ -8,7 +8,7 @@ dashedName: graphs-of-sinusoidal-functions
 
 # --description--
 
-在这个 `video` 中，你将学习关于正弦函数的 `graphs`。
+在这个 video 中，你将学习关于正弦函数的 graphs。
 
 # --questions--
 
@@ -22,7 +22,7 @@ dashedName: graphs-of-sinusoidal-functions
 
 ---
 
-它们与 `secant` 和 `cosecant` 相关。
+它们与 secant 和 cosecant 相关。
 
 ---
 

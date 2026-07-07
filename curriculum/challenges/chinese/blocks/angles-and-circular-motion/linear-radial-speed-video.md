@@ -8,7 +8,7 @@ dashedName: linear-and-radial-speed
 
 # --description--
 
-在这个 `video` 中，你将学习旋转圆的线速度和径向速度。
+在这个 video 中，你将学习旋转圆的线速度和径向速度。
 
 # --questions--
 

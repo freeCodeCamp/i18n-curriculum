@@ -12,11 +12,11 @@ lang: es
 
 单词 `dominio` 指的是网页地址的主要部分，通常是电子邮件中 `@` 后面或网站中 `www` 后面的部分。
 
-它通常用于提供或确认电子邮件 `address` 和 URL。例如：
+它通常用于提供或确认电子邮件 address 和 URL。例如：
 
 `El dominio es gmail punto com.` – 该域是 gmail.com。
 
-`¿Cuál es el dominio？` – 什么是域？
+`¿Cuál es el dominio?` – 什么是域？
 
 # --instructions--
 

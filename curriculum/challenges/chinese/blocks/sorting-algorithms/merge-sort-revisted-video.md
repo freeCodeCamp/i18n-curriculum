@@ -8,13 +8,13 @@ dashedName: merge-sort-revisited
 
 # --description--
 
-在这个 `video` 中，你将重新学习归并排序 `algorithm`。
+在这个 video 中，你将重新学习归并排序 algorithm。
 
 # --questions--
 
 ## --text--
 
-归并排序和快速排序 `algorithm` 之间的核心区别是什么？
+归并排序和快速排序 algorithm 之间的核心区别是什么？
 
 ## --answers--
 
@@ -30,7 +30,7 @@ dashedName: merge-sort-revisited
 
 ---
 
-快速排序总是使用 `while` 循环进行排序，而归并排序使用 `for` 循环。
+快速排序总是使用 while 循环进行排序，而归并排序使用 for 循环。
 
 ## --video-solution--
 

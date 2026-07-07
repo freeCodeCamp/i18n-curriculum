@@ -26,7 +26,7 @@ Fügen Sie innerhalb Ihres `select`-Elements die folgenden fünf `option`-Elemen
 - Excellent
 
 
-Vergessen Sie nicht, das `selected`-Attribut mit dem Wert `option` zum `"excellent"`-Element hinzuzufügen.
+Vergessen Sie nicht, das `selected`-Attribut mit dem Wert `"excellent"` zum `option`-Element hinzuzufügen.
 
 # --hints--
 

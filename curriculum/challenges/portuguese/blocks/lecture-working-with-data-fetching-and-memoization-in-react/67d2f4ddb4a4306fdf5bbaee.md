@@ -1,6 +1,6 @@
 ---
 id: 67d2f4ddb4a4306fdf5bbaee
-title: "O que é memoization e como o hook `useMemo` funciona?"
+title: "O que é memoization e como o hook useMemo funciona?"
 challengeType: 19
 dashedName: what-is-memoization-and-how-does-the-usememo-hook-work
 ---

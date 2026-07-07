@@ -12,7 +12,7 @@ lang: en-US
 
 La frase `how's it going?` es una manera común de preguntar a alguien cómo está o qué está sucediendo en su vida. A menudo se usa como un saludo amistoso.
 
-Por ejemplo, cuando ves a un viejo amigo, puedes decir <code>Hey, how's it going? ¡No te he visto desde hace tiempo!</code> Esta es una manera informal de preguntarles sobre su vida. Si quieres preguntarles sobre algo específico, como su nuevo trabajo, puedes decir `How's it going with your new job?`
+Por ejemplo, cuando ves a un viejo amigo, puedes decir `Hey, how's it going? I haven't seen you for a while!` Esta es una manera informal de preguntarles sobre su vida. Si quieres preguntarles sobre algo específico, como su nuevo trabajo, puedes decir `How's it going with your new job?`
 
 # --fillInTheBlank--
 

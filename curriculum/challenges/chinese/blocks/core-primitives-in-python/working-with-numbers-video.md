@@ -8,7 +8,7 @@ dashedName: working-with-numbers
 
 # --description--
 
-在这个 `video` 中，你将学习如何使用基本的算术操作和内置数字函数。
+在这个 video 中，你将学习如何使用基本的算术操作和内置数字函数。
 
 # --questions--
 

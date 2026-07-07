@@ -8,13 +8,13 @@ dashedName: solving-basic-trig-equations
 
 # --description--
 
-在这个 `video` 中，你将学习如何求解基本的三角函数方程。
+在这个 video 中，你将学习如何求解基本的三角函数方程。
 
 # --questions--
 
 ## --text--
 
-在第一个例子中解决三角 `equation` 的第一步是什么？
+在第一个例子中解决三角 equation 的第一步是什么？
 
 ## --answers--
 
@@ -30,7 +30,7 @@ dashedName: solving-basic-trig-equations
 
 ---
 
-将 `cosine function` 替换为 `sine function`。
+将 cosine function 替换为 sine function。
 
 ## --video-solution--
 

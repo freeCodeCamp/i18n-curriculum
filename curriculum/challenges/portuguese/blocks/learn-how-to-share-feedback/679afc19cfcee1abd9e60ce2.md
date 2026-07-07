@@ -54,7 +54,7 @@ Não ouvir as pessoas não faz com que elas concordem com tudo — pode fazer co
 
 `To feel valued` descreve a sensação que você tem quando acredita que seus pensamentos, esforços e contribuições são apreciados. Por exemplo:
 
-O gerente de projeto sempre dedica um tempo durante a reunião para ouvir o que temos a dizer. Isso faz com que todos na equipe se sintam valorizados.` - Isso significa que a atitude do gerente de projeto está trazendo bons resultados para a equipe.
+`The project manager always dedicates some time during the meeting to hear what we have to say. This makes everyone in the team feel valued.` - Isso significa que a atitude do gerente de projeto está trazendo bons resultados para a equipe.
 
 O que Brian sugere é que, se as opiniões dos membros da equipe forem ignoradas, eles podem se sentir sem importância. Se os membros da equipe se sentirem valorizados, é mais provável que permaneçam engajados e contribuam com novas ideias.
 

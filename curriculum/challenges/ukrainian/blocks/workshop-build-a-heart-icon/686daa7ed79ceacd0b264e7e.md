@@ -15,7 +15,7 @@ dashedName: step-3
 
 # --hints--
 
-У вашого елемента `d` має бути атрибут `path`.
+У вашого елемента `path` має бути атрибут `d`.
 
 ```js
 const path = document.querySelector('path');

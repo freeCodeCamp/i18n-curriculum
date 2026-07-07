@@ -59,7 +59,7 @@ Linda: Not yet, but I anticipate we'll start receiving more detailed reports as 
 
 - `As I was walking home, they called me.`－他們在你走回家的時候呼叫你。
 
-- 你在練習更多時會變得更擅長編碼。
+- `You will get better at coding as you practice more.` - 你在練習更多的同時或當你練習更多時會有所進步。
 
 # --scene--
 

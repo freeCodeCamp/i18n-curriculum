@@ -73,7 +73,7 @@ console.log(mixedArray.includes("2")); // true
 
 ## --text--
 
-以下 `code` 的輸出結果會是什麼？
+以下 code 的輸出結果會是什麼？
 
 ```js
 let arr = [1, 2, 3, 4, 5];
@@ -114,7 +114,7 @@ console.log(arr.includes(3, 3));
 
 ## --text--
 
-以下 `code` 的輸出結果會是什麼？
+以下 code 的輸出結果會是什麼？
 
 ```js
 let arr = ["a", "b", "c", "d", "e"];
@@ -155,7 +155,7 @@ console.log(arr.includes("C"));
 
 ## --text--
 
-以下 `code` 的輸出結果會是什麼？
+以下 code 的輸出結果會是什麼？
 
 ```js
 let arr = [1, "2", 3, "4", 5];

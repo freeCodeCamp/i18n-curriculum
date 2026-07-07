@@ -26,7 +26,7 @@ dashedName: create-a-map-data-structure
 
 # --hints--
 
-叫做 `HashTable` 的数据结构应当存在。
+叫做 `Map` 的数据结构应当存在。
 
 ```js
 assert(

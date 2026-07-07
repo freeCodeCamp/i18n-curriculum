@@ -8,7 +8,7 @@ dashedName: functions
 
 # --description--
 
-在这个 `video` 中，你将学习如何 `define` 和 `call` 一个 `function`。
+在这个 video 中，你将学习如何 define 和 call 一个 function。
 
 # --questions--
 

@@ -8,7 +8,7 @@ dashedName: recursion
 
 # --description--
 
-在這個影片中，你將回顧遞迴 `functions` 的運作方式。
+在這個影片中，你將回顧遞迴 functions 的運作方式。
 
 # --questions--
 
@@ -30,7 +30,7 @@ dashedName: recursion
 
 ---
 
-自動排序 `data` 的 `function`。
+自動排序 data 的 function。
 
 ## --video-solution--
 

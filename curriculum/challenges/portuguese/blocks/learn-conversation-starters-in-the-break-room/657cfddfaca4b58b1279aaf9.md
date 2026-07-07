@@ -10,7 +10,7 @@ lang: en-US
 
 # --description--
 
-Incentivar significa dar suporte, confiança ou esperança a alguém. É o que um bom treinador faz para motivar sua equipe a dar o seu melhor.
+O verbo `encourage` significa dar suporte, confiança ou esperança a alguém. É o que um bom treinador faz para motivar sua equipe a dar o seu melhor.
 
 # --instructions--
 

@@ -83,7 +83,7 @@ Porque cada chamada recursiva se ramifica várias vezes, causando o recálculo r
 
 #### --text--
 
-O que significa subestrutura ótima no contexto de `dynamic programming`?
+O que significa subestrutura ótima no contexto de dynamic programming?
 
 #### --distractors--
 

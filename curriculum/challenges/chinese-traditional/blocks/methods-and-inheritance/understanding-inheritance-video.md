@@ -8,7 +8,7 @@ dashedName: understanding-inheritance
 
 # --description--
 
-在這個 `video` 中，你將學習關於繼承。
+在這個 video 中，你將學習關於繼承。
 
 # --questions--
 

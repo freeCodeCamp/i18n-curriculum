@@ -16,7 +16,7 @@ Esta es una revisión de todo el diálogo que acabas de estudiar.
 
 Escribe las siguientes palabras o frases en el lugar correcto:
 
-`síntomas de`, `pueden ocurrir`, `comienza por`, `imagen más clara`, `investigar` y `un segundo par de ojos`.
+`symptoms of`, `may occur`, `start by`, `clearer picture`, `investigate` y `a second pair of eyes`.
 
 # --fillInTheBlank--
 

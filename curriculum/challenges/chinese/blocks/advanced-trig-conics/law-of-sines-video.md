@@ -8,7 +8,7 @@ dashedName: law-of-sines
 
 # --description--
 
-在这个 `video` 中，你将学习正弦定律。
+在这个 video 中，你将学习正弦定律。
 
 # --questions--
 

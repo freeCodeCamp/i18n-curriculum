@@ -324,7 +324,7 @@ numbers.forEach(function(number) {
 
 ---
 
-避免链式调用仅返回原语的 `method`。
+避免链式调用仅返回原语的 method。
 
 ---
 

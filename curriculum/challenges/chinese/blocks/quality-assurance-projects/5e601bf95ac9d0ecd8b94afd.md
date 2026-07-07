@@ -245,7 +245,7 @@ dashedName: sudoku-solver
   }
 ```
 
-如果提交给 `/api/check` 的对象参数中缺少 `puzzle` 、`coordinate` 或 `value` ，返回的值将是 `{ error: 'Required field(s) missing' }`
+如果提交给 `/api/check` 的对象参数中缺少 `puzzle` 、`coordinate` 或 `value` ，返回的值将是 `{ error: 'Required field(s) missing' }`
 
 ```js
   const inputs = [

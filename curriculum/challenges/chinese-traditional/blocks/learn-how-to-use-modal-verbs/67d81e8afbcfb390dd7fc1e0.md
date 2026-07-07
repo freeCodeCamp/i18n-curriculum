@@ -48,7 +48,7 @@ Jake 還沒有檢查過，所以他無法確認這個。
 
 在評估個別檔案之前，通常會先將保護關鍵系統視為首要優先權。
 
-「Not yet.」表示 Jake 尚未檢查哪些檔案遭到入侵。
+「`Not yet.`」表示 Jake 尚未檢查哪些檔案遭到入侵。
 
 `We should focus on the critical systems first.` 意味著團隊應該優先保護系統的關鍵零件，而不是查看檔案。
 

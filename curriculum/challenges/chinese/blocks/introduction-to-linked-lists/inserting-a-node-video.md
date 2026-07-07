@@ -8,7 +8,7 @@ dashedName: inserting-a-node
 
 # --description--
 
-在这个 `video` 中，你将学习如何在 `Linked list` 中插入一个节点。
+在这个 video 中，你将学习如何在 Linked list 中插入一个节点。
 
 # --questions--
 

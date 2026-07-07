@@ -30,7 +30,7 @@ Essas três palavras juntas são usadas para perguntar educadamente se um plano 
 
 `Does that work` é uma forma educada de verificar se uma sugestão ou arranjo está bom para alguém. Por exemplo:
 
-Podemos nos encontrar às 15h. Isso funciona para você?` – Isso pergunta se o horário é bom ou conveniente para a outra pessoa.
+`We can meet at 3 PM. Does that work for you?` – Isso pergunta se o horário é bom ou conveniente para a outra pessoa.
 
 # --scene--
 

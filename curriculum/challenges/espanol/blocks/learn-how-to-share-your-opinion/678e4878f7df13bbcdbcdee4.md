@@ -30,7 +30,7 @@ Esta palabra significa que algo puede ser cambiado o ajustado para cumplir con p
 
 `Customizable` se refiere a algo que puede ser cambiado o modificado para adaptarse a diferentes preferencias, necesidades o requisitos. Por ejemplo:
 
-El `dashboard` en esta herramienta de gestión de proyectos es personalizable, permitiendo que cada equipo organice sus tareas de la manera que prefiera. Esto significa que el `dashboard` puede modificarse según las necesidades de cada equipo, ayudándolos a organizar su trabajo de forma más eficiente.
+`The dashboard in this project management tool is customizable, allowing each team to organize their tasks in their preferred way.` - Esto significa que el dashboard puede modificarse según las necesidades de cada equipo, ayudándolos a organizar su trabajo de forma más eficiente.
 
 # --scene--
 

@@ -8,7 +8,7 @@ dashedName: working-with-strings
 
 # --description--
 
-在这个 `video` 中，你将学习关于字串串接、索引和有用的字串方法。
+在这个 video 中，你将学习关于字串串接、索引和有用的字串方法。
 
 # --questions--
 

@@ -8,21 +8,21 @@ dashedName: recursive-functions
 
 # --description--
 
-在这个 `video` 中，你将学习关于 `recursion` 的内容。 
+在这个 video 中，你将学习关于 recursion 的内容。
 
 # --questions--
 
 ## --text--
 
-所有递归的 `function` 都应具备的一个重要方面是什么？
+所有递归的 function 都应具备的一个重要方面是什么？
 
 ## --answers--
 
-它们必须无限期地在一个 `loop` 中运行。
+它们必须无限期地在一个 loop 中运行。
 
 ---
 
-他们不得使用任何 `variables`。
+他们不得使用任何 variables。
 
 ---
 

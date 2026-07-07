@@ -36,15 +36,15 @@ Maria 想要改善通信，而不是忽视担忧。
 
 ---
 
-她将取消团队的 `check-ins`。
+她将取消团队的 check-ins。
 
 ### --feedback--
 
-Maria 没有说她会取消 `check-ins`。
+Maria 没有说她会取消 check-ins。
 
 ---
 
-她将提议增加更多的 `check-ins` 以改善 `communication`。
+她将提议增加更多的 check-ins 以改善 communication。
 
 ## --video-solution--
 

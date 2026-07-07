@@ -8,7 +8,7 @@ dashedName: linear-search
 
 # --description--
 
-在这个 `video` 中，你将了解线性 `search` 如何在一个名字 `list` 上工作。
+在这个 video 中，你将了解线性 search 如何在一个名字 list 上工作。
 
 # --questions--
 

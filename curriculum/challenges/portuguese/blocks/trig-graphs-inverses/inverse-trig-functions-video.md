@@ -14,7 +14,7 @@ Neste vídeo, você aprenderá sobre funções trig inversas.
 
 ## --text--
 
-Como você pode buscar o gráfico do inverso de uma `function`?
+Como você pode buscar o gráfico do inverso de uma function?
 
 ## --answers--
 
@@ -22,7 +22,7 @@ Invertendo o gráfico da função original em relação à linha $y = 2x$ e depo
 
 ---
 
-Invertendo o gráfico da `função` original em relação à `linha` $y = x$ e depois em relação à `linha` $y = -x$.
+Invertendo o gráfico da função original em relação à linha $y = x$ e depois em relação à linha $y = -x$.
 
 ---
 

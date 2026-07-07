@@ -12,9 +12,9 @@ lang: en-US
 
 To `take` puede significar diferentes cosas dependiendo de la situación. En el contexto del aprendizaje, to `take` significa asistir o participar en una clase o curso. Por ejemplo:
 
-- Tomo clases en línea a las 7.
+- `I take online lessons at 7.` - Aquí, `take` significa asistir a las clases.
 
-- Ella está tomando un curso de programación este semestre. - Aquí, `taking` significa que está inscrita y asistiendo al curso.
+- `She is taking a programming course this semester.` - Aquí, `taking` significa que está inscrita y asistiendo al curso.
 
 Entonces, cuando dices `take lessons` o `take a course`, te refieres a unirte o asistir a ellos, no a tomar algo físicamente.
 

@@ -16,7 +16,7 @@ lang: en-US
 
 `We'll meet at the coffee shop.`（在这个句子中，`at` 用于指定会议发生的地点——咖啡店）。
 
-我会在公交车站等你。 
+`I'll be waiting for you at the bus stop.` （这里用 `at` 来表示某人将要等待的地点——公交车站）。
 
 听句子并填写空白。
 

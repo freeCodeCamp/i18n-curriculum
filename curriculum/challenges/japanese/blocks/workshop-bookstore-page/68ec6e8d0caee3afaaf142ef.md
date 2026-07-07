@@ -9,11 +9,11 @@ dashedName: step-8
 
 関連するコンテンツをグループ化するために、`div` 要素の中に複数の要素を追加できます。`class` の `card-container` を持つ要素の中に、別の `div` 要素を作成してください。この `div` は最初の本のカードを表します。
 
-この新しい `class` 要素に `div` 属性を追加し、`class` 属性の値を `card` に設定してください。
+この新しい `div` 要素に `class` 属性を追加し、`class` 属性の値を `card` に設定してください。
 
 # --hints--
 
-`div` クラスを持つ要素の中に `card-container` 要素がネストされているはずです。
+`card-container` クラスを持つ要素の中に `div` 要素がネストされているはずです。
 
 ```js
 assert.exists(document.querySelector('.card-container div'));

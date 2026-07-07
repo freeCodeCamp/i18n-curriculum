@@ -12,7 +12,7 @@ dashedName: create-a-map-data-structure
 
 # --instructions--
 
-讓我們練習創建自己的 map。因為 JavaScript 物件提供比我們在這裡能寫出的任何東西都高效得多的 map 結構，所以這主要是作為學習練習。然而，JavaScript 物件只提供我們某些操作行為。如果我們想定義訂製的操作行為怎麼辦？使用這裡提供的 `Map` 物件作為 JavaScript `object` 的外包。為 `Map` 物件創建以下方法和操作行為：
+讓我們練習創建自己的 map。因為 JavaScript 物件提供比我們在這裡能寫出的任何東西都高效得多的 map 結構，所以這主要是作為學習練習。然而，JavaScript 物件只提供我們某些操作行為。如果我們想定義訂製的操作行為怎麼辦？使用這裡提供的 `Map` 物件作為 JavaScript `object` 的外包。為 Map 物件創建以下方法和操作行為：
 
 <ul>
 <li><code>add</code> accepts a <code>key, value</code> pair to add to the map.</li>

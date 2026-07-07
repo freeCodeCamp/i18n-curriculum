@@ -33,7 +33,7 @@ dashedName: build-a-random-quote-machine
 
 **用户故事 #9：** 当点击 `#new-quote` 按钮时，我的引用生成器应该获取新引用的作者，并将其显示在 `#author` 元素中。
 
-**用户故事 #10：** 我可以通过点击 `#tweet-quote``a` 元素来发布当前引用。 此 `a` 元素应在其 `href` 属性中包含 `"twitter.com/intent/tweet"` 路径，以发布当前引言。
+**用户故事 #10：** 我可以通过点击 `#tweet-quote` `a` 元素来发布当前引用。 此 `a` 元素应在其 `href` 属性中包含 `"twitter.com/intent/tweet"` 路径，以发布当前引言。
 
 **用户故事 #11：** `#quote-box` 包装元素应水平居中。 请在浏览器缩放级别为 100% 且页面最大化的情况下运行测试。
 

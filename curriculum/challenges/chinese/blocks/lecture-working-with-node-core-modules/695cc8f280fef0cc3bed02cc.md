@@ -1,6 +1,6 @@
 ---
 id: 695cc8f280fef0cc3bed02cc
-title: "什么是 `Stream` 模块及其工作原理？"
+title: "什么是 Stream 模块及其工作原理？"
 challengeType: 19
 dashedName: what-is-the-stream-module-and-how-does-it-work
 ---
@@ -9,7 +9,7 @@ dashedName: what-is-the-stream-module-and-how-does-it-work
 
 我们将要看的最后一个核心 Node.js 模块是 `stream`。这个模块帮助你高效地处理数据，特别是在数据太大无法一次性装载时，比如读取一个大的文本文件或下载一个大型视频。
 
-流不是等待读取或写入所有数据后才开始操作，而是随着数据块的到达即时处理，就像你可以在整个 `video` 装载完成前开始观看 YouTube `video` 一样。
+流不是等待读取或写入所有数据后才开始操作，而是随着数据块的到达即时处理，就像你可以在整个 video 装载完成前开始观看 YouTube video 一样。
 
 Node.js 中有四种主要的流类型：可读取流、可写入流、双工流和转换流：
 
@@ -18,7 +18,7 @@ Node.js 中有四种主要的流类型：可读取流、可写入流、双工流
 - 双工流既可以读取也可以写入数据。
 - 转换流是一种特殊的双工流，可以在数据流经时更改或处理数据。
 
-你可以通过从 `stream` 模块解构导入你需要的流类：
+你可以通过从 stream 模块解构导入你需要的流类：
 
 ```js
 const { Readable, Writable, Transform } = require("stream");
@@ -154,13 +154,13 @@ writeOutputFileStream.on("error", (err) => {
 });
 ```
 
-`finish` 事件告诉你流已完成且没有更多数据可写，而 `error` 事件帮助你捕获写入过程中可能发生的问题，例如权限问题或缺少目录。
+`finish` 事件告诉你流已完成且没有更多数据可写，而 error 事件帮助你捕获写入过程中可能发生的问题，例如权限问题或缺少目录。
 
 # --questions--
 
 ## --text--
 
-以下哪些是四种主要的 `stream` 类型？
+以下哪些是四种主要的 stream 类型？
 
 ## --answers--
 

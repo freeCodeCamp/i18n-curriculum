@@ -7,7 +7,7 @@ dashedName: step-163
 
 # --description--
 
-在你的 `numbers` 陣列之後，創建一個 `while` 迴圈，只要 `numbers.length` 小於 10 就執行。
+在你的 `numbers` 陣列之後，創建一個 `while` 迴圈，只要 `numbers.length` 小於 `10` 就執行。
 
 在先前的專案中，你學會了如何使用像這樣的 `while` 迴圈：
 

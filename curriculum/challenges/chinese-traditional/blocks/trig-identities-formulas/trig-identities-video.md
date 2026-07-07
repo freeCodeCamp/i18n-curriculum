@@ -26,11 +26,11 @@ dashedName: trig-identities
 
 ---
 
-它保存了該 `variable` 的所有值。
+它保存了該 variable 的所有值。
 
 ---
 
-它不包含該 `variable` 的任何值。
+它不包含該 variable 的任何值。
 
 ## --video-solution--
 

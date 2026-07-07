@@ -8,7 +8,7 @@ dashedName: functions
 
 # --description--
 
-北卡羅來納大學教堂山分校的講師 Dr. Linda Green 將教你 `function` 的基礎知識。
+北卡羅來納大學教堂山分校的講師 Dr. Linda Green 將教你 function 的基礎知識。
 
 # --questions--
 

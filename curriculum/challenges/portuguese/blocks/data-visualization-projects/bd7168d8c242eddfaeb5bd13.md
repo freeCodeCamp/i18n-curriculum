@@ -30,7 +30,7 @@ Você pode usar HTML, JavaScript, CSS e a biblioteca de visualização D3, basea
 
 **História do Usuário #8:** As propriedades `data-gdp` dos elementos `.bar` devem corresponder à ordem dos dados fornecidos.
 
-**História de Usuário #9:** A altura de cada elemento `.bar` deve representar com precisão o `PIB` correspondente aos dados.
+**História de Usuário #9:** A altura de cada elemento `.bar` deve representar com precisão o `GDP` correspondente aos dados.
 
 **História de Usuário #10:** O atributo `data-date` e seu elemento `.bar` correspondente devem alinhar-se com o valor correspondente no eixo x.
 

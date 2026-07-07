@@ -22,13 +22,13 @@ dashedName: what-is-the-difference-between-content-box-and-border-box
 モデルの仕組みを理解するには、CSSボックスモデルの4つの基本概念に慣れている必要があります。さっと復習しましょう。
 
 - コンテンツエリアは要素の内容が占めるスペースです。
-- `padding` はコンテンツエリアと `border` の間のスペースです。
-- `border` はコンテンツエリアと `padding` を囲む枠線です。
-- `margin` は `border` の外側にあり、要素と他の要素を分けるスペースです。
+- padding はコンテンツエリアと border の間のスペースです。
+- border はコンテンツエリアと padding を囲む枠線です。
+- margin は border の外側にあり、要素と他の要素を分けるスペースです。
 
-`content-box` モデルでは、要素に設定した幅と高さはコンテンツエリアの寸法を決めますが、`padding`、`border`、`margin` は含まれません。コンテンツエリアを正確に制御したい場合は `content-box` を使います。`width` と `height` を設定すると、コンテンツ自体のサイズだけが決まります。
+`content-box` モデルでは、要素に設定した幅と高さはコンテンツエリアの寸法を決めますが、padding、border、margin は含まれません。コンテンツエリアを正確に制御したい場合は `content-box` を使います。`width` と `height` を設定すると、コンテンツ自体のサイズだけが決まります。
 
-要素の合計幅を求めるには、左右の `padding` と左右の `border` を加算する必要があります。同様に、要素の合計高さはコンテンツの高さに上下の `padding` と上下の `border` を加えたものです。
+要素の合計幅を求めるには、左右の padding と左右の border を加算する必要があります。同様に、要素の合計高さはコンテンツの高さに上下の padding と上下の border を加えたものです。
 
 例えば、ここにすべての `div` 要素に対する CSS 型セレクターがあります。
 
@@ -50,11 +50,11 @@ div {
 
 :::
 
-この場合、`content-box` が使われるとコンテンツエリアは 300px × 200px になります。合計のレンダリングサイズには `padding` と `border` が含まれます。例えば、合計幅 = 300px（コンテンツ）+ 40px（`padding`）+ 8px（`border`）= 348px、合計高さも同様に計算されます。
+この場合、`content-box` が使われるとコンテンツエリアは 300px × 200px になります。合計のレンダリングサイズには padding と border が含まれます。例えば、合計幅 = 300px（コンテンツ）+ 40px（padding）+ 8px（border）= 348px、合計高さも同様に計算されます。
 
-素晴らしいです！次に `border-box` を見てみましょう。これは設定した幅と高さに要素のコンテンツ、`padding`、`border` が含まれます（`margin` は含まれません）。`border-box` は、`padding` や `border` が変わっても要素の合計サイズを固定したい場合に便利で、レスポンシブレイアウトでよく使われます。
+素晴らしいです！次に `border-box` を見てみましょう。これは設定した幅と高さに要素のコンテンツ、padding、border が含まれます（margin は含まれません）。`border-box` は、padding や border が変わっても要素の合計サイズを固定したい場合に便利で、レスポンシブレイアウトでよく使われます。
 
-`border-box` では、`padding` と `border` が要素の指定サイズ内に含まれます。設定した `width` と `height` が要素の合計寸法になります：コンテンツ + `padding` + `border`。`margin` は除外されます。
+`border-box` では、padding と border が要素の指定サイズ内に含まれます。設定した `width` と `height` が要素の合計寸法になります：コンテンツ + padding + border。margin は除外されます。
 
 次の例では、同じ寸法で `div` 要素が2つありますが、`box-sizing` の値が異なります。ブラウザで見ると合計サイズが異なることに注目してください。
 

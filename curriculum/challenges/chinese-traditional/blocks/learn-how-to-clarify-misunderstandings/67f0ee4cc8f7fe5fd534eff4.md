@@ -42,7 +42,7 @@ lang: en-US
 
 `I appreciate` 是一種表達感謝或表示感激的方式。例如：
 
-我感謝你對專案的幫助。
+`I appreciate your help with the project.` – 這表示你很感激所得到的幫助。
 
 # --scene--
 

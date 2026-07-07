@@ -8,7 +8,7 @@ dashedName: comments
 
 # --description--
 
-在这个 `video` 中，你将学习如何在 Python 中编写 `comments` 来为你的 `code` 添加文档并使其更易读。
+在这个 video 中，你将学习如何在 Python 中编写 comments 来为你的 code 添加文档并使其更易读。
 
 # --questions--
 

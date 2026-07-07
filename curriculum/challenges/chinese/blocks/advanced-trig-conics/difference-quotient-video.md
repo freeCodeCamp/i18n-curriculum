@@ -8,7 +8,7 @@ dashedName: difference-quotient
 
 # --description--
 
-在这个 `video` 中，你将学习差商。
+在这个 video 中，你将学习差商。
 
 # --questions--
 
@@ -30,7 +30,7 @@ dashedName: difference-quotient
 
 ---
 
-一条仅在一个点上与函数的 `Graph` 相切的直线。
+一条仅在一个点上与函数的 Graph 相切的直线。
 
 ## --video-solution--
 

@@ -11,7 +11,7 @@ lang: en-US
 # --description--
 
 另一个人独特的特征是他们的身高。你可以说，例如，有人是 `tall` 或 `short`。  
-`Tall` 的人是指身高高于平均水平的人。相反，`short` 是指身高低于平均水平的人。
+`tall` 的人是指身高高于平均水平的人。相反，`short` 是指身高低于平均水平的人。
 
 # --fillInTheBlank--
 

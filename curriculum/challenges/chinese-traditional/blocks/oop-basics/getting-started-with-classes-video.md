@@ -8,13 +8,13 @@ dashedName: getting-started-with-classes
 
 # --description--
 
-在這個影片中，你將透過開始使用 Python 中的 `class` 來學習物件導向程式設計的基礎知識。
+在這個影片中，你將透過開始使用 Python 中的 class 來學習物件導向程式設計的基礎知識。
 
 # --questions--
 
 ## --text--
 
-以下哪一種是為 `class` 添加 `method` 的正確方式？
+以下哪一種是為 class 添加 method 的正確方式？
 
 ## --answers--
 

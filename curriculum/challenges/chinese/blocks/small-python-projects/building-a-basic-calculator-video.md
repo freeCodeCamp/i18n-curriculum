@@ -8,7 +8,7 @@ dashedName: building-a-basic-calculator
 
 # --description--
 
-在这个 `video` 中，你将构建一个基本的计算器 `Program`，能够执行加法、减法、乘法和除法 `operations`。
+在这个 video 中，你将构建一个基本的计算器 Program，能够执行加法、减法、乘法和除法 operations。
 
 # --questions--
 

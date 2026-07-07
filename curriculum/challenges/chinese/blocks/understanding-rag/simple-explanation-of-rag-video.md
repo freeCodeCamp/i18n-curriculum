@@ -8,7 +8,7 @@ dashedName: simple-explanation-of-rag
 
 # --description--
 
-在这个 `video` 中，你将被介绍 RAG 的 `concept`。
+在这个 video 中，你将被介绍 RAG 的 concept。
 
 # --questions--
 

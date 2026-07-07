@@ -18,7 +18,7 @@ Qual foi o primeiro passo para resolver a equação trigonométrica no primeiro 
 
 ## --answers--
 
-Isolando a `cosine function`.
+Isolando a cosine function.
 
 ---
 
@@ -30,7 +30,7 @@ Minimizando a função cosseno.
 
 ---
 
-Substituindo a `function` cosseno pela `function` seno.
+Substituindo a function cosseno pela function seno.
 
 ## --video-solution--
 

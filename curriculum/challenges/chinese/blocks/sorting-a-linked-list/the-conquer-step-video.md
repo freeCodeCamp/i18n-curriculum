@@ -8,7 +8,7 @@ dashedName: the-conquer-step
 
 # --description--
 
-在这个 `video` 中，你将通过练习 conquer 步骤来实现链表上的归并排序算法。
+在这个 video 中，你将通过练习 conquer 步骤来实现链表上的归并排序算法。
 
 # --questions--
 

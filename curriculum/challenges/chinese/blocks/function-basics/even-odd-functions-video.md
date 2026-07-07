@@ -8,7 +8,7 @@ dashedName: even-and-odd-functions
 
 # --description--
 
-在这个 `video` 中，你将学习偶函数和奇函数。
+在这个 video 中，你将学习偶函数和奇函数。
 
 # --questions--
 

@@ -8,7 +8,7 @@ dashedName: graphs-of-tan-sec-cot-csc
 
 # --description--
 
-En este video, aprenderás cómo graficar las funciones `tangent`, `secant`, `cotangent` y `cosecant`. 
+En este video, aprenderás cómo graficar las funciones tangent, secant, cotangent y cosecant.
 
 # --questions--
 

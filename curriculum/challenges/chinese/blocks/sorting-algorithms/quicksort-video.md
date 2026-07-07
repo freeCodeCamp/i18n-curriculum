@@ -8,7 +8,7 @@ dashedName: quicksort
 
 # --description--
 
-在这个 `video` 中，你将学习快速排序 `algorithm` 的工作原理。
+在这个 video 中，你将学习快速排序 algorithm 的工作原理。
 
 # --questions--
 

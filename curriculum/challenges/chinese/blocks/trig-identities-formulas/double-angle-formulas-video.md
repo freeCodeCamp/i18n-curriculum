@@ -8,7 +8,7 @@ dashedName: double-angle-formulas
 
 # --description--
 
-在这个 `video` 中，你将学习双角公式。
+在这个 video 中，你将学习双角公式。
 
 # --questions--
 

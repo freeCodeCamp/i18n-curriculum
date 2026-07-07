@@ -8,13 +8,13 @@ dashedName: getting-the-run-time-of-a-program
 
 # --description--
 
-在这个 `video` 中，你将学习如何测量选择排序 `algorithm` 的运行期。
+在这个 video 中，你将学习如何测量选择排序 algorithm 的运行期。
 
 # --questions--
 
 ## --text--
 
-讲师使用的 unix `Command` 是什么，用来 `Run` `Program` 并查看选择排序 `algorithm` 的时间？
+讲师使用的 unix Command 是什么，用来 Run Program 并查看选择排序 algorithm 的时间？
 
 ## --answers--
 

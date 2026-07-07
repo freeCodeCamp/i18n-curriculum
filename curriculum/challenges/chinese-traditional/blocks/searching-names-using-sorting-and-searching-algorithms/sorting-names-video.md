@@ -8,7 +8,7 @@ dashedName: sorting-names
 
 # --description--
 
-在這個 `video` 中，你將使用 Python 實作快速排序 `algorithm` 來排序一個名字的 `list`。 
+在這個 video 中，你將使用 Python 實作快速排序 algorithm 來排序一個名字的 list。
 
 # --questions--
 

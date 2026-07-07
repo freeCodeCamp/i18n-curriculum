@@ -51,11 +51,11 @@ dashedName: quiz-javascript-strings
 
 ---
 
-``Hello, {user}!``
+`` `Hello, {user}!` ``
 
 #### --answer--
 
-``Hello, ${user}!``
+`` `Hello, ${user}!` ``
 
 ### --question--
 

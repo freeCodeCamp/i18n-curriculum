@@ -8,7 +8,7 @@ dashedName: recursive-binary-search
 
 # --description--
 
-En este video, aprenderás cómo crear una solución recursiva para `binary search`.
+En este video, aprenderás cómo crear una solución recursiva para binary search.
 
 # --questions--
 

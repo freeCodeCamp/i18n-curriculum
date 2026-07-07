@@ -38,7 +38,7 @@ Esta palavra significa adiar ou fazer algo acontecer mais tarde do que o planeja
 
 Em vez de dizer `If we update the software, it might delay other projects.`, James encurta para `If we do`. A palavra `do` é frequentemente usada para evitar repetir o verbo ou uma frase completa usada na sentença anterior. Por exemplo:
 
-`She wants to join the meeting` e, se ela o fizer, precisará do link. - Em vez de dizer `if she joins the meeting`, você pode usar `does` para substituí-lo e assim evitar a repetição.
+`She wants to join the meeting, and if she does, she'll need the link.` e, se ela o fizer, precisará do link. - Em vez de dizer `if she joins the meeting`, você pode usar `does` para substituí-lo e assim evitar a repetição.
 
 `To delay` significa fazer algo acontecer mais tarde do que o planejado. Por exemplo:
 

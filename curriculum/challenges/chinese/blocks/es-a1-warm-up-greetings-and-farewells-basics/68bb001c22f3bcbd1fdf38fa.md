@@ -56,7 +56,7 @@ Elena 用什么词来说“hi”？
 
 # --explanation--
 
-单词 `Hola` 是一种问候语。它在你遇见某人时使用，类似于 `"Hello"` 或 `"Hi"`。例如：
+单词 `Hola` 是一种问候语。它在你遇见某人时使用，类似于 "Hello" 或 "Hi"。例如：
 
 `¡Hola, buenos días!` – 你好，早上好！ 
 

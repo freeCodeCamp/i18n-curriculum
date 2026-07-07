@@ -40,7 +40,7 @@ lang: en-US
 
 - `We need to do more testing before releasing the app.`－在發布應用程式之前，有必要進行更多測試。
 
-- `We need to do some updates to fix the bugs。`－ 必須更新系統以解決問題。
+- `We need to do some updates to fix the bugs.`－ 必須更新系統以解決問題。
 
 # --scene--
 

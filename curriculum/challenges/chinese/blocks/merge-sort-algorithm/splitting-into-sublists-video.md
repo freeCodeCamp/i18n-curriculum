@@ -8,13 +8,13 @@ dashedName: splitting-into-sublists
 
 # --description--
 
-在这个 `video` 中，你将学习更多关于归并排序 `algorithm` 以及如何将一个 `list` 拆分成子 `list`。
+在这个 video 中，你将学习更多关于归并排序 algorithm 以及如何将一个 list 拆分成子 list。
 
 # --questions--
 
 ## --text--
 
-在归并排序 `algorithm` 中，将 `list` 拆分成子 `list` 表现了什么？
+在归并排序 algorithm 中，将 list 拆分成子 list 表现了什么？
 
 ## --answers--
 

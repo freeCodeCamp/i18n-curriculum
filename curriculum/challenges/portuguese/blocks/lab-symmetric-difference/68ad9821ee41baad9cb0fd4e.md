@@ -11,11 +11,11 @@ Compare dois arrays e retorne um novo array com qualquer item encontrado em apen
 
 Exemplo:
 
-- Array A: `["diamante", "pau", "maçã"]`
+- Array A: `["diamond", "stick", "apple"]`
 
-- Array B: `["vara", "esmeralda", "pão"]`
+- Array B: `["stick", "emerald", "bread"]`
 
-Resultado: `["diamante", "maçã", "esmeralda", "pão"]`
+Resultado: `["diamond", "apple", "emerald", "bread"]`
 
 **Objetivo:** Cumprir as user stories abaixo e fazer todos os testes passarem para completar o laboratório.
 
@@ -42,7 +42,7 @@ A função `diffArray` deve usar o método `filter` para filtrar os itens que es
 assert(/\.filter\(/.test(diffArray.toString()));
 ```
 
-`diffArray(["diorito", "andesito", "grama", "terra", "lã rosa", "arbusto morto"], ["diorito", "andesito", "grama", "terra", "arbusto morto"])` deve retornar `["lã rosa"]`.
+`diffArray(["diorite", "andesite", "grass", "dirt", "pink wool", "dead shrub"], ["diorite", "andesite", "grass", "dirt", "dead shrub"])` deve retornar `["pink wool"]`.
 
 ```js
 assert.deepEqual(diffArray(

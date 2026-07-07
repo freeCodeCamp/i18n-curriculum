@@ -12,7 +12,7 @@ lang: en-US
 
 `Heard` es el pasado del verbo `to hear`, lo que significa tomar conciencia de algo a través de los oídos o ser informado de algo. Por ejemplo, `I heard the news yesterday` significa que te enteraste de las noticias el día anterior.
 
-Un `authentication module` en un contexto de software es una parte de un sistema responsable de verificar la identidad de los usuarios. A menudo se utiliza en sistemas de inicio de sesión. Por ejemplo, `the authentication module checks the username and password` significa que verifica las credenciales del usuario.
+Un `authentication module` en un contexto de software es una parte de un sistema responsable de verificar la identidad de los usuarios. A menudo se utiliza en sistemas de inicio de sesión. Por ejemplo, `The authentication module checks the username and password` significa que verifica las credenciales del usuario.
 
 # --fillInTheBlank--
 

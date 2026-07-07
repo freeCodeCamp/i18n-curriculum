@@ -17,7 +17,7 @@ dashedName: headline-with-the-h2-element
 
 # --instructions--
 
-「Hello World」`h2`要素の下に、"CatPhotoApp"と書かれた`h1`タグを追加して、2つ目のHTML要素を作成してください。
+「Hello World」`h1`要素の下に、"CatPhotoApp"と書かれた`h2`タグを追加して、2つ目のHTML要素を作成してください。
 
 # --hints--
 

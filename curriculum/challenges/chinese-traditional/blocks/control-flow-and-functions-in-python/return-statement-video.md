@@ -8,13 +8,13 @@ dashedName: return-statement
 
 # --description--
 
-在這部影片中，你將學習如何在函式（程式）中使用 `return` 述語。
+在這部影片中，你將學習如何在函式（程式）中使用 return 述語。
 
 # --questions--
 
 ## --text--
 
-以下 `code` 的輸出結果會是什麼？
+以下 code 的輸出結果會是什麼？
 
 ```python
 def cube(num):

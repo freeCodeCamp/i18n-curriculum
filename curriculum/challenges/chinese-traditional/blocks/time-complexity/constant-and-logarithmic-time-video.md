@@ -8,7 +8,7 @@ dashedName: constant-and-logarithmic-time
 
 # --description--
 
-在這個 `video` 中，你將學習關於演算法的常數時間和對數時間。 
+在這個 video 中，你將學習關於演算法的常數時間和對數時間。
 
 # --questions--
 

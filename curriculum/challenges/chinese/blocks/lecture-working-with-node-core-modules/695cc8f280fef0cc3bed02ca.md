@@ -1,6 +1,6 @@
 ---
 id: 695cc8f280fef0cc3bed02ca
-title: "什么是 `path` 模块及其工作原理？"
+title: "什么是 path 模块及其工作原理？"
 challengeType: 19
 dashedName: what-is-the-path-module-and-how-does-it-work
 ---
@@ -35,7 +35,7 @@ console.log(__dirname);
 
 相对路径是基于你当前工作目录指向一个文件或文件夹。例如，`./assets/src/text-files`。
 
-另一方面，绝对路径从系统根目录给出文件或文件夹的完整地址，例如 `/Users/johndoe/projects/app/assets/src/text-files`。
+另一方面，绝对路径从系统根目录给出文件或文件夹的完整地址，例如 `/Users/johndoe/projects/app/assets/src/text-files.`。
 
 `basename()` 方法显示文件的最后一部分，即文件名：
 
@@ -208,7 +208,7 @@ Node.js 全局的变量 `__filename` 和 `__dirname` 提供访问什么？
 
 ### --feedback--
 
-考虑哪些变量可以自动为你提供完整的文件和文件夹路径，而无需使用 `path` 模块。
+考虑哪些变量可以自动为你提供完整的文件和文件夹路径，而无需使用 path 模块。
 
 ---
 
@@ -216,7 +216,7 @@ Node.js 安装目录的相对路径。
 
 ### --feedback--
 
-考虑哪些变量可以自动为你提供完整的文件和文件夹路径，而无需使用 `path` 模块。
+考虑哪些变量可以自动为你提供完整的文件和文件夹路径，而无需使用 path 模块。
 
 ---
 
@@ -224,7 +224,7 @@ Node.js 安装目录的相对路径。
 
 ### --feedback--
 
-考虑哪些变量可以自动为你提供完整的文件和文件夹路径，而无需使用 `path` 模块。
+考虑哪些变量可以自动为你提供完整的文件和文件夹路径，而无需使用 path 模块。
 
 ## --video-solution--
 

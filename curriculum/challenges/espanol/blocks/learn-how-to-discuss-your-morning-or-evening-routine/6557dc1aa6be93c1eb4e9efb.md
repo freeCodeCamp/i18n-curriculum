@@ -12,7 +12,7 @@ lang: en-US
 
 La palabra `if` significa "si o no". Por ejemplo:
 
-Ella revisa sus correos electrónicos para ver si hay actualizaciones urgentes.
+`She checks her emails to see if there are any urgent updates.` - Ella revisa sus correos electrónicos para ver si hay actualizaciones urgentes.
 
 `If` también puede ser parte de una estructura condicional, que muestra una situación posible y su resultado. Por ejemplo:
 

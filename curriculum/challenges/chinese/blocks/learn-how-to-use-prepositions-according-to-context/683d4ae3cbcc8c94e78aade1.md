@@ -44,7 +44,7 @@ Bob 的句子中没有提到清理。
 
 ---
 
-那个东西位于紧急 `exit` 附近。
+那个东西位于紧急 exit 附近。
 
 ## --video-solution--
 
@@ -52,7 +52,7 @@ Bob 的句子中没有提到清理。
 
 # --explanation--
 
-Bob 说，`Exactly. It's in the back, next to the emergency exit`。这意味着他正在确认某物的位置——就在紧急 `exit` 旁边。
+Bob 说，`Exactly. It's in the back, next to the emergency exit`。这意味着他正在确认某物的位置——就在紧急 exit 旁边。
 
 他不谈论维修、清洁或问题。
 

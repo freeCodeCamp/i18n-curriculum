@@ -28,7 +28,7 @@ Aquí están los números del cero al nueve en los sistemas de numeración base 
 
 Observe que los números binarios se forman de izquierda a derecha, desde el dígito con el mayor valor posicional a la izquierda, hasta el menos significativo a la derecha. Por ejemplo, el número `3` en binario es `11`, o `1` en el lugar de las dos y `1` en el lugar de las unidades. Luego, para el número `4`, se incluye un dígito para representar el lugar de las cuatro a la izquierda y se establece en `1`, el lugar de las dos es `0` y el lugar de las unidades es `0`.
 
-En tu función `decimalToBinary`, convierte el número `10` al binario y `devuélvelo` como una cadena.
+En tu función `decimalToBinary`, convierte el número `10` al binario y `return` como una cadena.
 
 # --hints--
 

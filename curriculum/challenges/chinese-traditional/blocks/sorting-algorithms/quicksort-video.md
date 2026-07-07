@@ -14,7 +14,7 @@ dashedName: quicksort
 
 ## --text--
 
-`quicksort` 演算法使用了哪種技術？
+quicksort 演算法使用了哪種技術？
 
 ## --answers--
 

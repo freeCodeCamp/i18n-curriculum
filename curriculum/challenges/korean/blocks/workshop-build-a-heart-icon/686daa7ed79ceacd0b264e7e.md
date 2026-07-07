@@ -15,7 +15,7 @@ dashedName: step-3
 
 # --hints--
 
-`d` 요소에 `path` 속성이 있어야 합니다.
+`path` 요소에 `d` 속성이 있어야 합니다.
 
 ```js
 const path = document.querySelector('path');

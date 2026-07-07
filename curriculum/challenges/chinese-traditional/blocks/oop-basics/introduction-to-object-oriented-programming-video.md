@@ -14,7 +14,7 @@ dashedName: introduction-to-object-oriented-programming
 
 ## --text--
 
-以下哪一項不是物件導向程式設計的 `concept`？
+以下哪一項不是物件導向程式設計的 concept？
 
 ## --answers--
 

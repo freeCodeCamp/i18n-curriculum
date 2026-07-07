@@ -8,7 +8,7 @@ dashedName: when-not-to-rag
 
 # --description--
 
-在这个 `video` 中，你将学习何时不适合使用 RAG 以及在某些场景中使用 RAG 的潜在陷阱。
+在这个 video 中，你将学习何时不适合使用 RAG 以及在某些场景中使用 RAG 的潜在陷阱。
 
 # --questions--
 

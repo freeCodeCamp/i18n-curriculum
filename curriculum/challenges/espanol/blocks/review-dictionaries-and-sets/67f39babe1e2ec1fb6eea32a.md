@@ -391,7 +391,7 @@ Sin embargo, esto generalmente se desaconseja porque puede provocar colisiones d
 
 ## `if __name__ == '__main__'`
 
-- **Variable `__name__`**: `__name__` es una variable especial incorporada en Python. Cuando un archivo Python se ejecuta directamente, Python asigna el valor de esta variable a la cadena `__main__`. Pero si el archivo Python se importa como un módulo en otro script Python, el valor de la variable `__name__` se establece con el nombre de ese módulo.
+- **Variable `__name__`**: `__name__` es una variable especial incorporada en Python. Cuando un archivo Python se ejecuta directamente, Python asigna el valor de esta variable a la cadena `"__main__"`. Pero si el archivo Python se importa como un módulo en otro script Python, el valor de la variable `__name__` se establece con el nombre de ese módulo.
 
 Por eso a menudo encontrarás esta condicional en scripts de Python. Contiene el código que solo quieres ejecutar **solo** si el script de Python se está ejecutando como el programa principal.
 

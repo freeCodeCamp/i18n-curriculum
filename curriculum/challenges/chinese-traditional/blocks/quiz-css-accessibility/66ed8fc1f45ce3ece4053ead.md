@@ -209,7 +209,7 @@ img {
 
 #### --text--
 
-以下哪一項是 `placeholder` 元素中 `input` 屬性的存取性問題？
+以下哪一項是 `input` 元素中 `placeholder` 屬性的存取性問題？
 
 #### --distractors--
 

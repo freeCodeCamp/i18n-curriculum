@@ -9,7 +9,7 @@ dashedName: add-looping-logic-to-your-code-using-the-do-while-and-while-statemen
 
 这个挑战的一部分将在Microsoft Learn上完成 按照以下说明完成挑战：
 
-1. 访问 <a href="https://learn.microsoft.com/training/modules/csharp-do-while/" target="_blank" rel="noreferrer">https://learn.microsoft.com/training/modules/csharp-do-while/</a> 并完成 `"Add Looping Logic to Your Code Using the do-while and while Statements in C#"` 模块的所有任务。这是获得 Microsoft Learn 上 `"Add Logic to C# Console Applications"` 奖杯并有资格参加认证考试的**必需**条件。
+1. 访问 <a href="https://learn.microsoft.com/training/modules/csharp-do-while/" target="_blank" rel="noreferrer">https://learn.microsoft.com/training/modules/csharp-do-while/</a> 并完成 "Add Looping Logic to Your Code Using the do-while and while Statements in C#" 模块的所有任务。这是获得 Microsoft Learn 上 "Add Logic to C# Console Applications" 奖杯并有资格参加认证考试的**必需**条件。
 1. 完成后，返回并正确回答下面的问题。
 
 # --assignment--

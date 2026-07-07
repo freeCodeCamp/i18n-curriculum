@@ -8,7 +8,7 @@ dashedName: determining-complexity
 
 # --description--
 
-在这个 `video` 中，你将学习如何确定一个 `algorithm` 的最坏分支复杂度。
+在这个 video 中，你将学习如何确定一个 algorithm 的最坏分支复杂度。
 
 # --questions--
 

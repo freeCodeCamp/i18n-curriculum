@@ -30,7 +30,7 @@ Esta frase de dos palabras se refiere a diferentes situaciones que representan c
 
 `User scenarios` se refiere a diferentes situaciones que describen cómo los usuarios interactúan con un producto para lograr un objetivo. Ayuda a los equipos a probar y mejorar la experiencia del usuario. Por ejemplo:
 
-Creamos escenarios de usuario para ver cómo los clientes navegan el proceso de pago. – Esto significa que el equipo simuló diferentes formas en que los usuarios completan una compra para identificar cualquier problema.  
+`We created user scenarios to see how customers navigate the checkout process.` – Esto significa que el equipo simuló diferentes formas en que los usuarios completan una compra para identificar cualquier problema.
 
 # --scene--
 

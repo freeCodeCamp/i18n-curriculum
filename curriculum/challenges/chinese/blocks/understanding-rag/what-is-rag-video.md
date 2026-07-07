@@ -8,7 +8,7 @@ dashedName: what-is-rag
 
 # --description--
 
-在这个 `video` 中，你将更多地了解 RAG。
+在这个 video 中，你将更多地了解 RAG。
 
 # --questions--
 

@@ -14,7 +14,7 @@ dashedName: recursive-binary-search
 
 ## --text--
 
-什麼是遞迴 `function`？
+什麼是遞迴 function？
 
 ## --answers--
 
@@ -26,7 +26,7 @@ dashedName: recursive-binary-search
 
 ---
 
-一個永遠不會傳回值的 `function`。
+一個永遠不會傳回值的 function。
 
 ---
 

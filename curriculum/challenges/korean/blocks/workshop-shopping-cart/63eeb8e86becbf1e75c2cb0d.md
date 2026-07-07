@@ -11,7 +11,7 @@ dashedName: step-22
 
 # --hints--
 
-`totalCountPerProduct` 함수 안에 `addItem` 변수를 선언해야 합니다.
+`addItem` 함수 안에 `totalCountPerProduct` 변수를 선언해야 합니다.
 
 ```js
 const cart = new ShoppingCart();

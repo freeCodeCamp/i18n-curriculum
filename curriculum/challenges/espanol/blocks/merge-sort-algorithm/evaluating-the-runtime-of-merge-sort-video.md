@@ -14,7 +14,7 @@ En este video, aprenderás sobre los tiempos de ejecución para el algoritmo de 
 
 ## --text--
 
-¿Cuál es la complejidad espacial de `merge sort`?
+¿Cuál es la complejidad espacial de merge sort?
 
 ## --answers--
 

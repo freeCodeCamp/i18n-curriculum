@@ -8,7 +8,7 @@ dashedName: toolkit-functions
 
 # --description--
 
-Neste vídeo, você aprenderá sobre as `toolkit functions`.
+Neste vídeo, você aprenderá sobre as toolkit functions.
 
 # --questions--
 

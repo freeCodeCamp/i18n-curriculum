@@ -8,7 +8,7 @@ dashedName: splitting-into-sublists
 
 # --description--
 
-Neste vídeo, você aprenderá mais sobre o algoritmo de `merge sort` e como `split` uma lista em sublistas.
+Neste vídeo, você aprenderá mais sobre o algoritmo de merge sort e como split uma lista em sublistas.
 
 # --questions--
 

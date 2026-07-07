@@ -30,7 +30,7 @@ lang: en-US
 
 `Sort this out` 意思是解決或修復特定問題。這是表示 `figure out a solution` 或 `resolve an issue` 的非正式說法。一般用語 `sort out` 也可以更廣泛地用於組織或處理問題。 例如：
 
-`We need to sort out the issues with the payment system before launch。`－這表示你需要修復或決議支付系統的問題，以確保在啟動前一切正常運作。
+`We need to sort out the issues with the payment system before launch.`－這表示你需要修復或決議支付系統的問題，以確保在啟動前一切正常運作。
 
 # --scene--
 

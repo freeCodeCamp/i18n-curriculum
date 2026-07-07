@@ -12,9 +12,9 @@ lang: en-US
 
 `take` 可以根據情況有不同的意思。在學習的背景關係中，`take` 意味著參加或修習一個類別或課程。舉例來說：
 
-- 我在 7 點上 `online` 課程。
+- `I take online lessons at 7.` - 這裡，`take` 意味著參加課程。
 
-- `She is taking a programming course this semester。` - 這裡，`taking` 意味著她已註冊並正在上這門課。
+- `She is taking a programming course this semester.` - 這裡，`taking` 意味著她已註冊並正在上這門課。
 
 所以，當你說 `take lessons` 或 `take a course`，你是在談論加入或參加它們，而不是實體地拿取某物。
 

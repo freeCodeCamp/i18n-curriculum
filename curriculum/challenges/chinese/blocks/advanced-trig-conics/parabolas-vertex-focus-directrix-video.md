@@ -8,7 +8,7 @@ dashedName: parabolas-vertex-focus-directrix
 
 # --description--
 
-在这个 `video` 中，你将学习抛物线方程的特殊形式，以及如何查找抛物线的顶点、焦点和准线。
+在这个 video 中，你将学习抛物线方程的特殊形式，以及如何查找抛物线的顶点、焦点和准线。
 
 # --questions--
 

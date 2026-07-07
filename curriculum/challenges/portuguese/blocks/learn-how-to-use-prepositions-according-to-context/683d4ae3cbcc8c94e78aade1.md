@@ -52,7 +52,7 @@ Que algo está localizado perto da saída de emergência.
 
 # --explanation--
 
-Bob diz, `Exactly. Está na parte de trás, ao lado da saída de emergência`. Isso significa que ele está confirmando a localização de algo - bem ao lado da saída de emergência.
+Bob diz, `Exactly. It's in the back, next to the emergency exit`. Isso significa que ele está confirmando a localização de algo - bem ao lado da saída de emergência.
 
 Ele não fala sobre reparos, limpeza e problemas.
 

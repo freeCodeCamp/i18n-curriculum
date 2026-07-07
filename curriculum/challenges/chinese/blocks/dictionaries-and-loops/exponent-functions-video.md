@@ -8,7 +8,7 @@ dashedName: exponent-functions
 
 # --description--
 
-在这个视频中，你将学习如何编写一个计算指数和幂的 `function`，使用 Python。
+在这个视频中，你将学习如何编写一个计算指数和幂的 function，使用 Python。
 
 # --questions--
 

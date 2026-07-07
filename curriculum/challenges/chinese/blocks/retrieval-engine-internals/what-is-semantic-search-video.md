@@ -8,7 +8,7 @@ dashedName: what-is-semantic-search
 
 # --description--
 
-在这个 `video` 中，你将学习语义 `search`。
+在这个 video 中，你将学习语义 search。
 
 # --questions--
 
@@ -26,7 +26,7 @@ dashedName: what-is-semantic-search
 
 ---
 
-一种按单词长度和流行度而非相关性对结果进行字母顺序组织的 `search` 方法。
+一种按单词长度和流行度而非相关性对结果进行字母顺序组织的 search 方法。
 
 ---
 

@@ -8,13 +8,13 @@ dashedName: big-o-runtime-of-search-algorithms
 
 # --description--
 
-在这个 `video` 中，你将了解线性查找和二分查找的 Big O 运行期。
+在这个 video 中，你将了解线性查找和二分查找的 Big O 运行期。
 
 # --questions--
 
 ## --text--
 
-线性 `search` 的大 O `runtime` 是什么？
+线性 search 的大 O runtime 是什么？
 
 ## --answers--
 
