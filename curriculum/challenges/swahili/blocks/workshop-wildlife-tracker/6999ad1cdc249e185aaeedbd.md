@@ -19,7 +19,7 @@ const cat = {
 const addColor = (pet, color) => {
   pet.color = color; // add new property using dot notation
   return pet; // return the updated object
-}
+};
 
 console.log(addColor(cat, "White")); 
 // {
@@ -51,12 +51,6 @@ Kitendakazi cha `addHabitat` kinapaswa kuwa na vigezo viwili: `animal` na `habit
 ```js
 const regex = __helpers.functionRegex('addHabitat', ['animal', 'habitat']);
 assert.match(__helpers.removeJSComments(code), regex);
-```
-
-`addHabitat` inapaswa kutumia uandishi wa nukta kuongeza sifa ya `habitat`.
-
-```js
-assert.match(code, /animal\.habitat\s*=\s*habitat/);
 ```
 
 Kitendakazi cha `addHabitat` kinapaswa kurudisha kitu cha `animal` kilichosasishwa.

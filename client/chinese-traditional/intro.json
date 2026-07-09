@@ -8546,7 +8546,7 @@
         "title": "CSS 色彩複習",
         "intro": [
           "在你接受 CSS 色彩的測驗前，請先複習所學。",
-          "打開此頁面複習 <code>rgb()</code> 函式、<code>hsl()</code> 函式、<code>hex codes</code> 等概念。"
+          "打開此頁面以複習 <code>rgb()</code> 函式、<code>hsl()</code> 函式、十六進位色碼等概念。"
         ]
       },
       "quiz-css-colors": {
@@ -9854,7 +9854,7 @@
         "title": "CSS 色彩複習",
         "intro": [
           "在你接受 CSS 色彩測驗之前，先複習你所學的內容。",
-          "打開此頁面以複習 <code>rgb()</code> 函式、<code>hsl()</code> 函式、<code>hex codes</code> 等概念。"
+          "打開此頁面以複習 <code>rgb()</code> 函式、<code>hsl()</code> 函式、十六進位色碼等概念。"
         ]
       },
       "quiz-css-colors": {

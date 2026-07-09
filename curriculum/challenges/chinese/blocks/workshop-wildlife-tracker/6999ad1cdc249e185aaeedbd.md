@@ -19,7 +19,7 @@ const cat = {
 const addColor = (pet, color) => {
   pet.color = color; // add new property using dot notation
   return pet; // return the updated object
-}
+};
 
 console.log(addColor(cat, "White")); 
 // {
@@ -51,12 +51,6 @@ assert.isFunction(addHabitat);
 ```js
 const regex = __helpers.functionRegex('addHabitat', ['animal', 'habitat']);
 assert.match(__helpers.removeJSComments(code), regex);
-```
-
-`addHabitat` 应该使用点符号添加 `habitat` 属性。
-
-```js
-assert.match(code, /animal\.habitat\s*=\s*habitat/);
 ```
 
 `addHabitat` 函数应返回更新后的 `animal` 对象。

@@ -857,7 +857,7 @@ Cria colunas que têm exatamente `1fr` de largura independentemente do conteúdo
 
 ---
 
-Cria no máximo uma coluna por `150px` de largura disponível.
+Preenche cada linha com o máximo possível de colunas de `150px`, reservando faixas vazias quando não há itens suficientes para preenchê-las.
 
 #### --answer--
 

@@ -857,7 +857,7 @@ Crea colonne larghe esattamente `1fr` indipendentemente dal contenuto.
 
 ---
 
-Crea al massimo una colonna per `150px` di larghezza disponibile.
+Riempi ogni riga con quante più colonne da `150px` possibili, riservando tracce vuote quando non ci sono abbastanza elementi per riempirle.
 
 #### --answer--
 

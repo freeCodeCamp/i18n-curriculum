@@ -857,7 +857,7 @@ Huunda safu ambazo ni za upana wa `1fr` tu bila kujali maudhui.
 
 ---
 
-Huunda safu moja kwa kila `150px` ya upana uliopo.
+Hujaza kila safu na nguzo nyingi za `150px` iwezekanavyo, ukihifadhi njia tupu wakati vitu havitoshi kuzijaza.
 
 #### --answer--
 

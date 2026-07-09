@@ -19,7 +19,7 @@ const cat = {
 const addColor = (pet, color) => {
   pet.color = color; // add new property using dot notation
   return pet; // return the updated object
-}
+};
 
 console.log(addColor(cat, "White")); 
 // {
@@ -51,12 +51,6 @@ Die Funktion `addHabitat` sollte zwei Parameter haben: `animal` und `habitat`.
 ```js
 const regex = __helpers.functionRegex('addHabitat', ['animal', 'habitat']);
 assert.match(__helpers.removeJSComments(code), regex);
-```
-
-`addHabitat` sollte die Punktnotation verwenden, um die Eigenschaft `habitat` hinzuzufügen.
-
-```js
-assert.match(code, /animal\.habitat\s*=\s*habitat/);
 ```
 
 Die Funktion `addHabitat` sollte das aktualisierte Objekt `animal` zurückgeben.

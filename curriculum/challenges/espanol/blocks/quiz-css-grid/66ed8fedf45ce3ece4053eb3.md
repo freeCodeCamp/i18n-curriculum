@@ -857,7 +857,7 @@ Crea columnas que son exactamente `1fr` de ancho independientemente del contenid
 
 ---
 
-Crea un máximo de una columna por cada `150px` de ancho disponible.
+Llena cada fila con tantas columnas de `150px` como sea posible, reservando espacios vacíos cuando no hay suficientes elementos para llenarlos.
 
 #### --answer--
 

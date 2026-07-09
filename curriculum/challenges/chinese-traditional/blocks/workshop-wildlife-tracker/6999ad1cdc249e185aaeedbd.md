@@ -1,6 +1,6 @@
 ---
 id: 6999ad1cdc249e185aaeedbd
-title: 第 8 步驟
+title: 第 8 步
 challengeType: 1
 dashedName: step-8
 ---
@@ -19,7 +19,7 @@ const cat = {
 const addColor = (pet, color) => {
   pet.color = color; // add new property using dot notation
   return pet; // return the updated object
-}
+};
 
 console.log(addColor(cat, "White")); 
 // {
@@ -51,12 +51,6 @@ assert.isFunction(addHabitat);
 ```js
 const regex = __helpers.functionRegex('addHabitat', ['animal', 'habitat']);
 assert.match(__helpers.removeJSComments(code), regex);
-```
-
-`addHabitat` 應該使用點記法添加 `habitat` 屬性。
-
-```js
-assert.match(code, /animal\.habitat\s*=\s*habitat/);
 ```
 
 `addHabitat` 函式應該傳回更新後的 `animal` 物件。

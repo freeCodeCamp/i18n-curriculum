@@ -8546,7 +8546,7 @@
         "title": "CSS 颜色复习",
         "intro": [
           "在你参加 CSS 颜色测验之前，先复习相关内容。",
-          "打开此页面，复习 <code>rgb()</code> 函数、<code>hsl()</code> 函数、<code>hex codes</code> 等概念。"
+          "打开此页面复习 <code>rgb()</code> 函数、<code>hsl()</code> 函数、十六进制代码等概念。"
         ]
       },
       "quiz-css-colors": {
@@ -9854,7 +9854,7 @@
         "title": "CSS 颜色复习",
         "intro": [
           "在你接受关于 CSS 颜色的测验之前，应先复习所学内容。",
-          "打开此页面复习 <code>rgb()</code> 函数、<code>hsl()</code> 函数、<code>hex codes</code> 等概念。"
+          "打开此页面复习 <code>rgb()</code> 函数、<code>hsl()</code> 函数、十六进制代码等概念。"
         ]
       },
       "quiz-css-colors": {
