@@ -19,7 +19,7 @@ const cat = {
 const addColor = (pet, color) => {
   pet.color = color; // add new property using dot notation
   return pet; // return the updated object
-}
+};
 
 console.log(addColor(cat, "White")); 
 // {
@@ -51,12 +51,6 @@ assert.isFunction(addHabitat);
 ```js
 const regex = __helpers.functionRegex('addHabitat', ['animal', 'habitat']);
 assert.match(__helpers.removeJSComments(code), regex);
-```
-
-يجب أن تستخدم `addHabitat` ترميز النقطة لإضافة الخاصية `habitat`.
-
-```js
-assert.match(code, /animal\.habitat\s*=\s*habitat/);
 ```
 
 يجب أن تُرجع الدالة `addHabitat` الكائن `animal` المحدث.

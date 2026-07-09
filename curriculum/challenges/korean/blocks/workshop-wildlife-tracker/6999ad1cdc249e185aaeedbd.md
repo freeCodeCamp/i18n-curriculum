@@ -19,7 +19,7 @@ const cat = {
 const addColor = (pet, color) => {
   pet.color = color; // add new property using dot notation
   return pet; // return the updated object
-}
+};
 
 console.log(addColor(cat, "White")); 
 // {
@@ -51,12 +51,6 @@ assert.isFunction(addHabitat);
 ```js
 const regex = __helpers.functionRegex('addHabitat', ['animal', 'habitat']);
 assert.match(__helpers.removeJSComments(code), regex);
-```
-
-`addHabitat`는 점 표기법을 사용해 `habitat` 속성을 추가해야 합니다.
-
-```js
-assert.match(code, /animal\.habitat\s*=\s*habitat/);
 ```
 
 `addHabitat` 함수는 업데이트된 `animal` 객체를 반환해야 합니다.

@@ -857,7 +857,7 @@ Erstellt Spalten, die unabhängig vom Inhalt genau `1fr` breit sind.
 
 ---
 
-Erstellt maximal eine Spalte pro `150px` verfügbarer Breite.
+Füllt jede Reihe mit so vielen `150px` Spalten wie möglich und reserviert leere Spuren, wenn nicht genügend Elemente vorhanden sind, um sie zu füllen.
 
 #### --answer--
 

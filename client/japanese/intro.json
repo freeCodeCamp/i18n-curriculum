@@ -8546,7 +8546,7 @@
         "title": "CSSの色の復習",
         "intro": [
           "CSSの色に関するクイズを受ける前に、学んだことを復習してください。",
-          "このページを開いて、<code>rgb()</code> 関数、<code>hsl()</code> 関数、<code>hex codes</code> などの概念をレビューしてください。"
+          "このページを開いて、<code>rgb()</code>関数、<code>hsl()</code>関数、16進コードなどの概念を復習してください。"
         ]
       },
       "quiz-css-colors": {
@@ -9854,7 +9854,7 @@
         "title": "CSSカラーの復習",
         "intro": [
           "CSSカラーのクイズに挑戦する前に、学んだことを復習しましょう。",
-          "このページを開いて、<code>rgb()</code> 関数、<code>hsl()</code> 関数、<code>hex codes</code> などの概念をレビューしてください。"
+          "このページを開いて、<code>rgb()</code>関数、<code>hsl()</code>関数、16進コードなどの概念を復習してください。"
         ]
       },
       "quiz-css-colors": {

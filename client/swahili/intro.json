@@ -8546,7 +8546,7 @@
         "title": "Kagua rangi za CSS",
         "intro": [
           "Kabla ya kujaribiwa kuhusu rangi za CSS, unapaswa kukagua kile ulichojifunza kuhusu rangi hizo.",
-          "Fungua ukurasa huu ili ukague dhana kama <code>rgb()</code> kitendakazi, <code>hsl()</code> kitendakazi, <code>hex codes</code>, na zaidi."
+          "Fungua ukurasa huu ili ukague dhana kama kitendakazi cha <code>rgb()</code>, kitendakazi cha <code>hsl()</code>, nambari za hex, na zaidi."
         ]
       },
       "quiz-css-colors": {
@@ -9854,7 +9854,7 @@
         "title": "Ukaguzi wa Rangi za CSS",
         "intro": [
           "Kabla hujajibu jaribio kuhusu rangi za CSS, unapaswa kufanya ukaguzi wa kile ulichojifunza kuhusu rangi hizo.",
-          "Fungua ukurasa huu ili ukague dhana kama <code>rgb()</code> kitendakazi, <code>hsl()</code> kitendakazi, <code>hex codes</code>, na zaidi."
+          "Fungua ukurasa huu ili ukague dhana kama kitendakazi cha <code>rgb()</code>, kitendakazi cha <code>hsl()</code>, nambari za hex, na zaidi."
         ]
       },
       "quiz-css-colors": {

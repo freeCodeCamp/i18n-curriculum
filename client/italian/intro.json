@@ -8546,7 +8546,7 @@
         "title": "Revisione dei colori CSS",
         "intro": [
           "Prima di affrontare il quiz sui colori CSS, dovresti rivedere ciò che hai imparato su di essi.",
-          "Apri questa pagina per rivedere concetti come la <code>rgb()</code> function, la <code>hsl()</code> function, i <code>hex codes</code> e altro ancora."
+          "Apri questa pagina per rivedere concetti come la funzione <code>rgb()</code>, la funzione <code>hsl()</code>, i codici esadecimali e altro ancora."
         ]
       },
       "quiz-css-colors": {
@@ -9854,7 +9854,7 @@
         "title": "Revisione dei colori CSS",
         "intro": [
           "Prima di affrontare il quiz sui colori CSS, dovresti rivedere ciò che hai imparato.",
-          "Apri questa pagina per rivedere concetti come la <code>rgb()</code> function, la <code>hsl()</code> function, i <code>hex codes</code> e altro ancora."
+          "Apri questa pagina per rivedere concetti come la funzione <code>rgb()</code>, la funzione <code>hsl()</code>, i codici esadecimali e altro ancora."
         ]
       },
       "quiz-css-colors": {
