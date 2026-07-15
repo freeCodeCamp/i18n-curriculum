@@ -428,7 +428,7 @@ function animate() {
 }
 ```
 
-## Web Animations API
+## Web Animations API（ウェブアニメーションAPI）
 
 - **定義**: Web Animations APIは、JavaScript内で直接アニメーションを作成・制御できる機能です。
 

@@ -18,7 +18,7 @@ const cards = document.querySelectorAll('.card');
 assert.isTrue(cards[1]?.hasAttribute('id'));
 ```
 
-클래스가 `card`인 두 번째 요소에는 값이 `id`인 `dave-cooking-book`가 있어야 합니다.
+`card` 클래스를 가진 두 번째 요소에 `id` 속성을 추가하고 그 값을 `dave-cooking-book`으로 설정하세요.
 
 ```js
 const cards = document.querySelectorAll('.card');

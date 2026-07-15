@@ -18,7 +18,7 @@ Was beinhalten `physical or behavioral traits` in der Biometrie?
 
 ## --answers--
 
-Random objects
+Zufällige Objekte
 
 ### --feedback--
 
@@ -26,7 +26,7 @@ Zufällige Objekte passen nicht zum Konzept persönlicher Merkmale, die in der B
 
 ---
 
-Magical powers
+Magische Kräfte
 
 ### --feedback--
 
@@ -34,7 +34,7 @@ Magische Kräfte haben keinen Bezug zu einzigartigen persönlichen Merkmalen in 
 
 ---
 
-Colorful patterns
+Bunte Muster
 
 ### --feedback--
 
@@ -42,7 +42,7 @@ Bunte Muster stellen nicht die spezifischen Merkmale Ihres Körpers oder Verhalt
 
 ---
 
-Special characteristics of your body or behavior
+Besondere Merkmale Ihres Körpers oder Verhaltens
 
 ## --video-solution--
 

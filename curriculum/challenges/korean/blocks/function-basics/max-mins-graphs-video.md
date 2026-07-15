@@ -18,19 +18,19 @@ dashedName: maximum-and-minimum-values-on-a-graph
 
 ## --answers--
 
-Cosine maximums and minimum values.
+코사인 최댓값과 최솟값.
 
 ---
 
-Variable maximum and minimum values.
+변수 최댓값과 최솟값.
 
 ---
 
-Sine maximum and minimum values.
+사인 최댓값과 최솟값.
 
 ---
 
-Global maximum and minimum values.
+전역 최댓값과 최솟값.
 
 ## --video-solution--
 

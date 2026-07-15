@@ -1,6 +1,6 @@
 ---
 id: 698dda7a7932b3cc4b19c935
-title: Merge-Sort
+title: Zusammenführen sortieren
 challengeType: 11
 videoId: oqcS-Jw8JXM
 dashedName: merge-sort
@@ -18,7 +18,7 @@ Welche algorithmische Strategie wird beim Merge-Sort-Algorithmus verwendet?
 
 ## --answers--
 
-Greedy
+Gierig
 
 ---
 
@@ -30,7 +30,7 @@ Teile und herrsche
 
 ---
 
-Backtracking
+Zurückverfolgen
 
 ## --video-solution--
 

@@ -131,7 +131,7 @@ Unapohitaji kuhariri kipande cha msimbo, ni ipi kati ya zifuatazo unazotegemea k
 
 #### --distractors--
 
-Node Package Manager
+Msimamizi wa Pakiti wa Nodi
 
 ---
 
@@ -165,7 +165,7 @@ Google Drive
 
 #### --answer--
 
-Windows File Explorer
+Mchunguzi wa Faili wa Windows
 
 ### --question--
 
@@ -894,3 +894,4 @@ Ni muundo gani wa faili hutumika kubana mafaili?
 #### --answer--
 
 `ZIP`
+

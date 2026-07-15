@@ -7,7 +7,7 @@ dashedName: quiz-web-performance
 
 # --description--
 
-Um das Quiz zu bestehen, müssen Sie mindestens 18 der 20 Fragen unten richtig beantworten.
+Um das Quiz zu bestehen, müssen Sie mindestens 18 der 20 untenstehenden Fragen richtig beantworten.
 
 # --quizzes--
 
@@ -43,11 +43,11 @@ Welche Metrik zeigt am besten an, wie schnell Inhalte auf einer Webseite erschei
 
 #### --distractors--
 
-Time to Interactive (TTI)
+Zeit bis zur Interaktivität (TTI)
 
 ---
 
-Page Load Time (PLT)
+Seitenladezeit (PLT)
 
 ---
 
@@ -131,7 +131,7 @@ Welches der folgenden Tools ist KEIN häufig verwendetes Werkzeug zur Performanc
 
 #### --distractors--
 
-Chrome DevTools
+Chrome Entwicklerwerkzeuge
 
 ---
 
@@ -241,11 +241,11 @@ Welche der folgenden Metriken zeigt, wie lange der Hauptthread durch schwere Jav
 
 #### --distractors--
 
-Source order
+Quellreihenfolge
 
 ---
 
-Bounce rate
+Absprungrate
 
 ---
 
@@ -253,7 +253,7 @@ WebPageTest
 
 #### --answer--
 
-Total Blocking Time
+Gesamte Blockierzeit
 
 ### --question--
 

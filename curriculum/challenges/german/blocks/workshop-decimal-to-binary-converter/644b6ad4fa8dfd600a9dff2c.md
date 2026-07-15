@@ -1,6 +1,6 @@
 ---
 id: 644b6ad4fa8dfd600a9dff2c
-title: Step 25
+title: Schritt 25
 challengeType: 0
 dashedName: step-25
 ---
@@ -210,7 +210,7 @@ const decimalToBinary = (input) => {
 
   while (input > 0) {
     --fcc-editable-region--
-
+    
     --fcc-editable-region--
 
     input = 0;

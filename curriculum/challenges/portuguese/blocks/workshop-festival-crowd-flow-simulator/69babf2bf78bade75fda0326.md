@@ -1,6 +1,6 @@
 ---
 id: 69babf2bf78bade75fda0326
-title: passo 6
+title: Passo 6
 challengeType: 1
 dashedName: step-6
 ---
@@ -60,7 +60,7 @@ function initializeThroughput(gates) {
 function processGateFlow(gate, tickIndex) {
   let currentTickQueue = gate.queue[tickIndex];
 --fcc-editable-region--
-
+  
 --fcc-editable-region--
 }
 ```

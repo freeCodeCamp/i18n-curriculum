@@ -18,19 +18,19 @@ Wofür steht MCP?
 
 ## --answers--
 
-Model Cascade Protocol
+Modell-Kaskaden-Protokoll
 
 ---
 
-Model Control Protocol
+Modell-Steuerungsprotokoll
 
 ---
 
-Model Context Protocol
+Modell-Kontext-Protokoll
 
 ---
 
-Model Communication Protocol
+Modell-Kommunikationsprotokoll
 
 ## --video-solution--
 

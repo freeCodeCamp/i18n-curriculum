@@ -18,20 +18,22 @@ Ni ipi kati ya zifuatazo ndiyo mtiririko sahihi wa mchakato kwa mfumo wa RAG?
 
 ## --answers--
 
-LLM → Chunking → Embedding → Vector Database
+LLM → Kugawanya vipande → Kuingiza → Hifadhidata ya vector
 
 ---
 
-Chunking → Embedding → Vector Database → LLM
+Kugawanya vipande → Kuingiza → Hifadhidata ya vector → LLM
 
 ---
 
-Embedding → Chunking → Vector Database → LLM
+Kuingiza → Kugawanya vipande → Hifadhidata ya vector → LLM
 
 ---
 
-Chunking → LLM → Vector Database → Embedding
+Kugawanya vipande → LLM → Hifadhidata ya vector → Kuingiza
 
 ## --video-solution--
 
 2
+
+

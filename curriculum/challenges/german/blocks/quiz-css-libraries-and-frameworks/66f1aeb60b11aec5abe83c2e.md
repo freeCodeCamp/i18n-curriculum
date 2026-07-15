@@ -7,7 +7,7 @@ dashedName: quiz-css-libraries-and-frameworks
 
 # --description--
 
-Um das Quiz zu bestehen, müssen Sie mindestens 9 der 10 untenstehenden Fragen richtig beantworten.
+Um das Quiz zu bestehen, müssen Sie mindestens 9 der 10 Fragen unten richtig beantworten.
 
 # --quizzes--
 
@@ -121,7 +121,7 @@ Inline-CSS.
 
 #### --answer--
 
-Mixins
+Mixin
 
 ### --question--
 

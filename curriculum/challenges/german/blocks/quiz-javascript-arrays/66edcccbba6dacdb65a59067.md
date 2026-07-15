@@ -1,13 +1,13 @@
 ---
 id: 66edcccbba6dacdb65a59067
-title: JavaScript-Arrays-Quiz
+title: JavaScript Arrays Quiz
 challengeType: 8
 dashedName: quiz-javascript-arrays
 ---
 
 # --description--
 
-Um das Quiz zu bestehen, müssen Sie mindestens 18 der 20 Fragen unten richtig beantworten.
+Um das Quiz zu bestehen, müssen Sie mindestens 18 der 20 untenstehenden Fragen richtig beantworten.
 
 # --quizzes--
 
@@ -17,7 +17,7 @@ Um das Quiz zu bestehen, müssen Sie mindestens 18 der 20 Fragen unten richtig b
 
 #### --text--
 
-Was wird die Ausgabe für den folgenden Code sein?
+Was wird die Ausgabe des folgenden Codes sein?
 
 ```js
 const numbers = [1, 2, 3];
@@ -440,7 +440,7 @@ Welche der folgenden ist KEINE Array-Methode?
 
 #### --text--
 
-Was wird die Ausgabe für den folgenden Code sein?
+Was wird die Ausgabe des folgenden Codes sein?
 
 ```js
 const arr = ["o", "l", "l", "e", "h"];

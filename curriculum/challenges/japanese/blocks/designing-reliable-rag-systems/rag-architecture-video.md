@@ -18,20 +18,22 @@ RAGシステムの正しいパイプラインの流れはどれですか？
 
 ## --answers--
 
-LLM → Chunking → Embedding → Vector Database
+LLM → チャンク化 → 埋め込み → ベクターデータベース
 
 ---
 
-Chunking → Embedding → Vector Database → LLM
+チャンク化 → 埋め込み → ベクターデータベース → LLM
 
 ---
 
-Embedding → Chunking → Vector Database → LLM
+埋め込み → チャンク化 → ベクターデータベース → LLM
 
 ---
 
-Chunking → LLM → Vector Database → Embedding
+チャンク化 → LLM → ベクターデータベース → 埋め込み
 
 ## --video-solution--
 
 2
+
+

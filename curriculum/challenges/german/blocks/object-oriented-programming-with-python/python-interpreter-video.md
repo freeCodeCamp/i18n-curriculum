@@ -1,6 +1,6 @@
 ---
 id: 697fe6c932baa3841ab62a65
-title: Python-Interpreter
+title: Python Interpreter
 challengeType: 11
 videoId: -c1vFEsIod4
 dashedName: python-interpreter

@@ -48,7 +48,7 @@ assert.equal(
 );
 ```
 
-يجب أن يكون هناك عنصر `h2` بالنص `Cat Lists` فوق آخر عنصر `h3` المسكن في آخر عنصر `section`. ربما حذفت عنصر `h2` عن طريق الخطأ.
+يجب أن يكون هناك عنصر `h2` يحتوي على النص `Cat Lists` فوق آخر عنصر `h3` مسكن في آخر عنصر `section`. قد تكون حذفت عنصر `h2` عن طريق الخطأ.
 
 ```js
 const secondSectionLastElemNode = document.querySelectorAll('main > section')[1]

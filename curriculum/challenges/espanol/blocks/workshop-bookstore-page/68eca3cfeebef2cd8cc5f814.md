@@ -18,7 +18,7 @@ const cards = document.querySelectorAll('.card');
 assert.isTrue(cards[1]?.hasAttribute('id'));
 ```
 
-Tu segundo elemento que tenga una clase `card` debe tener un `id` con el valor `dave-cooking-book`.
+Tu segundo elemento con una clase `card` debe tener un atributo `id` con el valor `dave-cooking-book`.
 
 ```js
 const cards = document.querySelectorAll('.card');

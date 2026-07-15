@@ -18,7 +18,7 @@ const cards = document.querySelectorAll('.card');
 assert.isTrue(cards[1]?.hasAttribute('id'));
 ```
 
-你的第二个类为`card`的元素应有一个值为`dave-cooking-book`的`id`。
+你的第二个具有 `card` 类的元素应该有一个 `id`，其值为 `dave-cooking-book`。
 
 ```js
 const cards = document.querySelectorAll('.card');

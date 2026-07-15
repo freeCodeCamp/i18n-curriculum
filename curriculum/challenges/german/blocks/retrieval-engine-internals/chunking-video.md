@@ -18,19 +18,19 @@ Welche der folgenden Optionen ist KEINE gängige Art des Chunkings?
 
 ## --answers--
 
-Fixed size chunking
+Chunking mit fester Größe
 
 ---
 
-Semantic chunking
+Semantisches Chunking
 
 ---
 
-Agentic chunking
+Agentisches Chunking
 
 ---
 
-Objective chunking
+Objektives Chunking
 
 ## --video-solution--
 

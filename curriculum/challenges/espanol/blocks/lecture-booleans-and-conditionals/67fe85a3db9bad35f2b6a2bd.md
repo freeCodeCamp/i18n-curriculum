@@ -15,14 +15,14 @@ En una lección anterior, aprendiste que los booleanos son uno de los tipos de d
 
 Aquí hay una tabla con los operadores de comparación en Python:
 
-| Operator | Name | Description |
+| Operador | Nombre | Descripción |
 | --- | --- | --- |
-| `==` | Equal | Checks if two values are equal |
-| `!=` | Not equal | Checks if two values are not equal |
-| `>` | Greater than | Checks if the value on the left is greater than the value on the right |
-| `<` | Less than | Checks if the value on the left is less than the value on the right |
-| `>=` | Greater than or equal | Checks if the value on the left is greater than or equal to the value on the right |
-| `<=` | Less than or equal | Checks if the value on the left is less than or equal to the value on the right |
+| `==` | Igual | Verifica si dos valores son iguales |
+| `!=` | Distinto | Verifica si dos valores no son iguales |
+| `>` | Mayor que | Verifica si el valor de la izquierda es mayor que el valor de la derecha |
+| `<` | Menor que | Verifica si el valor de la izquierda es menor que el valor de la derecha |
+| `>=` | Mayor o igual que | Verifica si el valor de la izquierda es mayor o igual que el valor de la derecha |
+| `<=` | Menor o igual que | Verifica si el valor de la izquierda es menor o igual que el valor de la derecha |
 
 Aquí algunas de esas expresiones que evalúan a `True` o `False`:
 

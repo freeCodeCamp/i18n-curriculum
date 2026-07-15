@@ -18,19 +18,19 @@ Welche Technik wird im Quicksort-Algorithmus verwendet?
 
 ## --answers--
 
-recursion
+Rekursion
 
 ---
 
-iteration with nested loops
+Iteration mit verschachtelten Schleifen
 
 ---
 
-hashing
+Hashing
 
 ---
 
-dynamic programming
+dynamische Programmierung
 
 ## --video-solution--
 

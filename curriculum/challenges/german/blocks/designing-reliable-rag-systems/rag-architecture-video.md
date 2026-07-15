@@ -18,19 +18,19 @@ Welche der folgenden Reihenfolgen beschreibt den korrekten Ablauf einer Pipeline
 
 ## --answers--
 
-LLM → Chunking → Embedding → Vector Database
+LLM → Chunking → Einbetten → Vektor-Datenbank
 
 ---
 
-Chunking → Embedding → Vector Database → LLM
+Chunking → Einbetten → Vektor-Datenbank → LLM
 
 ---
 
-Embedding → Chunking → Vector Database → LLM
+Einbetten → Chunking → Vektor-Datenbank → LLM
 
 ---
 
-Chunking → LLM → Vector Database → Embedding
+Chunking → LLM → Vektor-Datenbank → Einbetten
 
 ## --video-solution--
 

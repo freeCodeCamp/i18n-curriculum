@@ -15,14 +15,14 @@ dashedName: how-do-conditional-statements-and-logical-operators-work
 
 以下是 Python 中比較運算子的表格：
 
-| Operator | Name | Description |
+| 運算子 | 名稱 | 說明 |
 | --- | --- | --- |
-| `==` | Equal | Checks if two values are equal |
-| `!=` | Not equal | Checks if two values are not equal |
-| `>` | Greater than | Checks if the value on the left is greater than the value on the right |
-| `<` | Less than | Checks if the value on the left is less than the value on the right |
-| `>=` | Greater than or equal | Checks if the value on the left is greater than or equal to the value on the right |
-| `<=` | Less than or equal | Checks if the value on the left is less than or equal to the value on the right |
+| `==` | 相等 | 檢查兩個值是否相等 |
+| `!=` | 不相等 | 檢查兩個值是否不相等 |
+| `>` | 大於 | 檢查左邊的值是否大於右邊的值 |
+| `<` | 小於 | 檢查左邊的值是否小於右邊的值 |
+| `>=` | 大於或相等 | 檢查左邊的值是否大於或相等於右邊的值 |
+| `<=` | 小於或相等 | 檢查左邊的值是否小於或相等於右邊的值 |
 
 以下是一些會評估為 `True` 或 `False` 的表達式：
 

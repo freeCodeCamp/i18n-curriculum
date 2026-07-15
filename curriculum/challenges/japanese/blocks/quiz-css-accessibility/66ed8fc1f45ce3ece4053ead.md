@@ -43,7 +43,7 @@ dashedName: quiz-css-accessibility
 
 #### --distractors--
 
-TPGi Colour Contrast Analyzer
+TPGi カラーコントラストアナライザー
 
 ---
 
@@ -55,7 +55,7 @@ Canva
 
 #### --answer--
 
-WebAIM's Color Contrast Checker
+WebAIMのColor Contrast Checker
 
 ### --question--
 
@@ -73,11 +73,11 @@ Canva
 
 ---
 
-WebAIM's Color Contrast Checker
+WebAIMのColor Contrast Checker
 
 #### --answer--
 
-TPGi Colour Contrast Analyzer
+TPGi カラーコントラストアナライザー
 
 ### --question--
 

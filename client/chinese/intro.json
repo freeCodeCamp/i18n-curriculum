@@ -6039,7 +6039,6 @@
         ]
       },
       "front-end-development-libraries-certification-exam": {
-        "note": "2026 年推出",
         "intro": [
           "通过此考试获得前端开发库认证。"
         ]
@@ -7176,6 +7175,7 @@
       "websockets": "WebSockets",
       "security-and-privacy": "安全性与隐私",
       "authentication": "认证",
+      "review-back-end-development-and-apis": "后端开发与 API 复习",
       "back-end-development-and-apis-certification-exam": "后端开发与 API 认证考试"
     },
     "module-intros": {
@@ -7250,6 +7250,12 @@
         "intro": [
           "通过此考试以获得后端开发与 API 认证。"
         ]
+      },
+      "review-back-end-development-and-apis": {
+        "note": "预计于 2026 年晚些时候推出",
+        "intro": [
+          "复习后端开发与 API 概念，为即将到来的考试做准备。"
+        ]
       }
     },
     "blocks": {
@@ -7281,10 +7287,10 @@
           "了解 Node.js 核心模块，如 fs、缓冲区、流、路径模块等，帮助你理解 Node 提供的内置功能，从而无需依赖第三方库即可创建高效应用。"
         ]
       },
-      "workshop-nodejs-common-modules": {
-        "title": "学习 Node.js 常用模块",
+      "workshop-build-a-file-processor": {
+        "title": "创建文件处理器",
         "intro": [
-          "你将通过文件操作和数据处理，学习 Node.js 内置模块如 <code>fs</code>、<code>path</code> 和 <code>crypto</code>。"
+          "你将通过使用 Node.js 内置模块 <code>fs</code>、<code>path</code> 和 <code>crypto</code> 来进行文件操作和数据处理。"
         ]
       },
       "review-node-js-core-modules": {
@@ -7311,10 +7317,10 @@
           "了解 npm 脚本、向 npm 注册表发布包，以及 CommonJS 和 ES 模块。这些课程涵盖了重要的 Node.js 开发工具和模块系统。"
         ]
       },
-      "workshop-how-to-build-an-npm-module": {
-        "title": "学习如何创建 NPM 模块",
+      "workshop-build-a-case-converter": {
+        "title": "创建大小写转换器",
         "intro": [
-          "你将通过创建一个大小写转换器，学习如何初始化、配置和发布 NPM 模块。"
+          "你将通过构建大小写转换器学习如何初始化、配置和发布 NPM 模块。"
         ]
       },
       "lab-prime-number-checker-module": {
@@ -7349,10 +7355,10 @@
           "在这些课程中，你将学习网络标准模型、标准机构、流程、生命周期以及网络标准背后的原则。"
         ]
       },
-      "workshop-nodejs-by-building-a-web-server": {
-        "title": "通过创建网络服务器学习 Node.js",
+      "workshop-build-a-web-server": {
+        "title": "创建网络服务器",
         "intro": [
-          "通过创建一个多页面客户端应用的网络服务器，学习 Node.js 的 <code>http</code> 模块。"
+          "你将通过构建一个为多页面客户应用提供服务的网络服务器来学习 Node.js 的 <code>http</code> 模块。"
         ]
       },
       "review-http-and-the-web-standards-model": {
@@ -7374,10 +7380,10 @@
           "在这些课程中，你将学习 REST API 和网络服务，以及它们如何让不同应用通过互联网相互通信。"
         ]
       },
-      "workshop-express-by-building-a-weather-service-api": {
-        "title": "通过创建天气服务 API 学习 Express",
+      "workshop-build-a-weather-service-api": {
+        "title": "创建天气服务 API",
         "intro": [
-          "通过创建天气服务 API，学习路由参数和使用 <code>express.Router</code> 进行模块化路由。"
+          "你将通过构建天气服务 API 学习路由参数和使用 <code>express.Router</code> 进行模块化路由。"
         ]
       },
       "lab-timestamp-microservice": {
@@ -7399,10 +7405,10 @@
           "在这些课程中，你将学习 ExpressJS 中的路由，即如何定义网络应用的不同端点以及它们如何响应客户请求。"
         ]
       },
-      "workshop-express-by-building-a-random-joke-app": {
-        "title": "通过创建随机笑话应用学习 Express",
+      "workshop-build-a-random-joke-app": {
+        "title": "创建随机笑话应用",
         "intro": [
-          "通过创建随机笑话应用，学习基本的 Express 路由和响应方法。"
+          "你将通过构建随机笑话应用学习基本的 Express 路由和响应方法。"
         ]
       },
       "lab-personal-profile-app": {
@@ -7429,10 +7435,10 @@
           "在这些课程中，你将学习 Express 中的错误处理和健康检查。"
         ]
       },
-      "workshop-error-handling-in-express-by-building-a-bank-api": {
-        "title": "通过创建银行 API 学习 Express 中的错误处理",
+      "workshop-build-a-bank-api": {
+        "title": "创建银行 API",
         "intro": [
-          "通过创建银行 API，学习 Express 5 的错误处理、健康检查和优雅关闭。"
+          "你将通过构建银行 API 学习 Express 5 的错误处理、健康检查和优雅关闭。"
         ]
       },
       "review-error-handling-in-express": {
@@ -7453,10 +7459,10 @@
           "在这些课程中，你将学习 Express 中间件的工作原理，包括应用级、中间件路由级和错误处理中间件，以及内置和第三方中间件的示例。"
         ]
       },
-      "workshop-express-middleware-by-building-a-submission-form": {
-        "title": "通过创建提交表单学习 Express 中间件",
+      "workshop-build-a-submission-form": {
+        "title": "创建提交表单",
         "intro": [
-          "通过创建结构化提交表单，学习应用级和路由级中间件。"
+          "你将通过构建结构化提交表单学习应用级和路由级中间件。"
         ]
       },
       "lab-data-sanitizer": {
@@ -7483,10 +7489,10 @@
           "学习 WebSockets 如何实现客户端和服务器之间的实时双向通信，以及发布/订阅消息架构如何在实时应用中将消息路由给正确的订阅者。"
         ]
       },
-      "workshop-websockets-by-building-a-resource-monitor": {
-        "title": "通过创建资源监控器学习 WebSockets",
+      "workshop-build-a-resource-monitor": {
+        "title": "创建资源监控器",
         "intro": [
-          "通过创建系统资源监控器，学习 Node.js WebSockets 和实时数据流。"
+          "你将通过构建系统资源监控器学习 Node.js 套接字和实时数据流。"
         ]
       },
       "lab-chat-app": {
@@ -7507,6 +7513,12 @@
           "通过此测验测试你对 WebSockets 和发布/订阅的知识。"
         ]
       },
+      "lecture-understanding-security-and-privacy-in-web-applications": {
+        "title": "理解网络应用中的安全性和隐私",
+        "intro": [
+          "了解网络应用中的安全性和隐私，包括超文本传输协议、Cookie、内容安全策略、常见威胁、隐私法规等内容。"
+        ]
+      },
       "review-security-and-privacy": {
         "title": "安全性和隐私审查",
         "intro": [
@@ -7525,6 +7537,18 @@
           "学习认证和授权的工作原理，JWT 如何保护你的 API 路由，如何防御 CSRF 攻击，以及如何使用 Passport.js 和 Helmet.js 保护你的 Node.js 应用。"
         ]
       },
+      "workshop-jwt-protected-routes": {
+        "title": "创建 JWT 保护路由",
+        "intro": [
+          "你将通过构建带有 JWT 保护路由的 Express 应用学习认证和基于角色的授权。"
+        ]
+      },
+      "lab-family-movie-watchlist-api": {
+        "title": "创建家庭电影观看列表 API",
+        "intro": [
+          "你将通过构建家庭电影观看列表 API 练习在 Express 应用中实现认证和授权。"
+        ]
+      },
       "review-authentication-and-authorization": {
         "title": "认证和授权复习",
         "intro": [
@@ -7537,16 +7561,16 @@
           "测试你对本模块涵盖的认证和授权概念的理解。"
         ]
       },
+      "review-back-end-development-and-apis": {
+        "title": "后端开发与 API 复习",
+        "intro": [
+          "复习后端开发与 API 概念，为即将到来的考试做准备。"
+        ]
+      },
       "exam-back-end-development-and-apis-certification": {
         "title": "后端开发和 API 认证考试",
         "intro": [
           "通过此考试获得后端开发和 API 认证"
-        ]
-      },
-      "lecture-understanding-security-and-privacy-in-web-applications": {
-        "title": "理解网络应用中的安全性和隐私",
-        "intro": [
-          "了解网络应用中的安全性和隐私，包括超文本传输协议、Cookie、内容安全策略、常见威胁、隐私法规等内容。"
         ]
       }
     }
@@ -9282,7 +9306,7 @@
       "lecture-understanding-the-html-boilerplate": {
         "title": "理解超文本标记语言公式化",
         "intro": [
-          "在这些讲座中，你将学习超文本标记语言公式化，它是网页的现成模板。",
+          "在这些讲座中，你将学习 HTML 公式化模板，它是网页的现成模板。",
           "你将学习如何使用<code>link</code>元素、<code>meta</code>元素等。"
         ]
       },
@@ -9302,13 +9326,13 @@
       "lecture-html-fundamentals": {
         "title": "超文本标记语言基础",
         "intro": [
-          "在这些讲座中，你将学习超文本标记语言基础知识，如<code>div</code>元素、<code>id</code>和<code>class</code>属性、超文本标记语言公式化、超文本标记语言实体等。"
+          "在这些讲座中，你将学习 HTML 基础知识，如 <code>div</code> 元素、<code>id</code> 和 <code>class</code> 属性、<code>script</code> 元素、HTML 实体等。"
         ]
       },
       "workshop-bookstore-page": {
         "title": "创建书店页面",
         "intro": [
-          "在本工作坊中，你将通过创建一个书店页面来练习使用类、id 和 <code>div</code> 元素。"
+          "在本工作坊中，你将通过构建书店页面练习使用类、id 和 <code>div</code> 元素。"
         ]
       },
       "lecture-understanding-how-html-affects-seo": {
@@ -9320,13 +9344,13 @@
       "lab-travel-agency-page": {
         "title": "创建旅行社页面",
         "intro": [
-          "在本实验中，你将通过创建一个旅行社网页来复习 HTML 基础知识。你将使用图像、<code>figure</code> 元素、<code>figcaption</code> 元素、<code>anchor</code> 元素等。"
+          "在本实验中，你将通过创建旅行社网页复习 HTML 基础知识。你将使用图像、<code>figure</code> 元素、<code>figcaption</code> 元素、<code>a</code> 元素等。"
         ]
       },
       "lecture-working-with-audio-and-video-elements": {
         "title": "使用音频和视频元素",
         "intro": [
-          "在这些讲座中，你将学习如何使用 <code>audio</code> 和 <code>video</code> 元素。"
+          "在本讲座中，你将学习如何使用 <code>audio</code> 和 <code>video</code> 元素。"
         ]
       },
       "workshop-html-music-player": {
@@ -9352,13 +9376,13 @@
       "lecture-working-with-images-and-svgs": {
         "title": "使用图像和 SVG",
         "intro": [
-          "在这些讲座中，你将学习如何使用 SVG，并了解优化图像的技巧。"
+          "在这些讲座中，你将学习如何使用 SVG 并探索优化图像的技巧。"
         ]
       },
       "workshop-build-a-heart-icon": {
         "title": "创建心形图标",
         "intro": [
-          "在本工作坊中，你将通过创建一个心形图标来练习使用 SVG。"
+          "在本工作坊中，你将通过构建心形图标练习使用 SVG。"
         ]
       },
       "lecture-working-with-media": {

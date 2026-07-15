@@ -6039,7 +6039,6 @@
         ]
       },
       "front-end-development-libraries-certification-exam": {
-        "note": "2026년 출시 예정",
         "intro": [
           "이 시험에 합격하면 프론트엔드 개발 라이브러리 인증서를 받습니다."
         ]
@@ -7176,6 +7175,7 @@
       "websockets": "웹소켓",
       "security-and-privacy": "보안과 개인정보 보호",
       "authentication": "인증",
+      "review-back-end-development-and-apis": "백엔드 개발 및 API 검토",
       "back-end-development-and-apis-certification-exam": "백엔드 개발 및 API 인증 시험"
     },
     "module-intros": {
@@ -7250,6 +7250,12 @@
         "intro": [
           "이 시험에 합격해 백엔드 개발 및 API 인증을 받으세요."
         ]
+      },
+      "review-back-end-development-and-apis": {
+        "note": "2026년 말 출시 예정",
+        "intro": [
+          "다가오는 시험 준비를 위해 백엔드 개발 및 API 개념을 복습하세요."
+        ]
       }
     },
     "blocks": {
@@ -7281,10 +7287,10 @@
           "fs, 버퍼, 스트림, path 모듈 등 Node.js 코어 모듈을 배우고, 타사 라이브러리에 의존하지 않고 효율적인 애플리케이션을 구축하는 데 Node가 기본으로 제공하는 기능을 이해하세요."
         ]
       },
-      "workshop-nodejs-common-modules": {
-        "title": "Node.js 공통 모듈 배우기",
+      "workshop-build-a-file-processor": {
+        "title": "파일 프로세서 만들기",
         "intro": [
-          "파일 작업과 데이터 처리에 <code>fs</code>, <code>path</code>, <code>crypto</code> 같은 Node.js 내장 모듈을 사용하며 배웁니다."
+          "파일 작업과 데이터 처리를 위해 <code>fs</code>, <code>path</code>, <code>crypto</code> 같은 노드 내장 모듈을 배우세요."
         ]
       },
       "review-node-js-core-modules": {
@@ -7311,10 +7317,10 @@
           "npm 스크립트, npm 레지스트리에 패키지 게시, CommonJS와 ES 모듈 작업을 배우세요. 이 수업은 필수 Node.js 개발 도구와 모듈 시스템을 다룹니다."
         ]
       },
-      "workshop-how-to-build-an-npm-module": {
-        "title": "NPM 모듈 만드는 법 배우기",
+      "workshop-build-a-case-converter": {
+        "title": "대소문자 변환기 만들기",
         "intro": [
-          "케이스 변환기를 만들어 NPM 모듈 초기화, 구성, 게시 방법을 배웁니다."
+          "대소문자 변환기를 만들어 npm 모듈 초기화, 구성, 게시 방법을 배우세요."
         ]
       },
       "lab-prime-number-checker-module": {
@@ -7349,10 +7355,10 @@
           "이 강의에서는 웹 표준 모델, 표준 기구, 프로세스, 생명주기, 그리고 웹 표준의 원칙에 대해 배웁니다."
         ]
       },
-      "workshop-nodejs-by-building-a-web-server": {
-        "title": "웹 서버를 만들어 Node.js 배우기",
+      "workshop-build-a-web-server": {
+        "title": "웹 서버 만들기",
         "intro": [
-          "멀티 페이지 클라이언트 애플리케이션을 제공하는 웹 서버를 만들어 Node.js <code>http</code> 모듈을 배우세요."
+          "멀티 페이지 클라이언트 애플리케이션을 제공하는 웹 서버를 만들어 노드 <code>http</code> 모듈을 배우세요."
         ]
       },
       "review-http-and-the-web-standards-model": {
@@ -7374,10 +7380,10 @@
           "이 수업에서는 REST API와 웹 서비스가 무엇이며, 인터넷을 통해 서로 다른 애플리케이션이 어떻게 통신하는지 배웁니다."
         ]
       },
-      "workshop-express-by-building-a-weather-service-api": {
-        "title": "날씨 서비스 API를 만들어 Express 배우기",
+      "workshop-build-a-weather-service-api": {
+        "title": "날씨 서비스 API 만들기",
         "intro": [
-          "<code>express.Router</code>를 사용해 라우트 매개변수와 모듈식 라우팅을 배우며 날씨 서비스 API를 만드세요."
+          "날씨 서비스 API를 만들어 <code>express.Router</code>로 라우트 매개변수와 모듈식 라우팅을 배우세요."
         ]
       },
       "lab-timestamp-microservice": {
@@ -7399,10 +7405,10 @@
           "이 수업에서는 ExpressJS 라우팅, 즉 웹 애플리케이션의 다양한 엔드포인트를 정의하고 클라이언트 요청에 어떻게 응답하는지 배웁니다."
         ]
       },
-      "workshop-express-by-building-a-random-joke-app": {
-        "title": "랜덤 농담 앱을 만들어 Express 배우기",
+      "workshop-build-a-random-joke-app": {
+        "title": "랜덤 농담 앱 만들기",
         "intro": [
-          "기본 Express 라우팅과 응답 메서드를 배우며 랜덤 농담 앱을 만드세요."
+          "랜덤 농담 앱을 만들어 기본 Express 라우팅과 응답 메서드를 배우세요."
         ]
       },
       "lab-personal-profile-app": {
@@ -7429,10 +7435,10 @@
           "이 수업에서는 Express에서 오류 처리와 상태 점검에 대해 배웁니다."
         ]
       },
-      "workshop-error-handling-in-express-by-building-a-bank-api": {
-        "title": "은행 API를 만들어 Express 오류 처리 배우기",
+      "workshop-build-a-bank-api": {
+        "title": "은행 API 만들기",
         "intro": [
-          "은행 API를 만들며 Express 5 오류 처리, 상태 점검, 정상 종료 방법을 배우세요."
+          "은행 API를 만들어 Express 5 오류 처리, 상태 점검, 정상 종료를 배우세요."
         ]
       },
       "review-error-handling-in-express": {
@@ -7453,10 +7459,10 @@
           "이 수업에서는 Express에서 미들웨어가 어떻게 작동하는지, 애플리케이션 수준, 라우터 수준, 오류 처리 미들웨어와 내장 및 서드파티 미들웨어 예제를 배웁니다."
         ]
       },
-      "workshop-express-middleware-by-building-a-submission-form": {
-        "title": "제출 폼을 만들어 Express 미들웨어 배우기",
+      "workshop-build-a-submission-form": {
+        "title": "제출 양식 만들기",
         "intro": [
-          "구조화된 제출 폼을 만들며 애플리케이션 수준과 라우터 수준 미들웨어를 배우세요."
+          "구조화된 제출 양식을 만들어 애플리케이션 수준과 라우터 수준 미들웨어를 배우세요."
         ]
       },
       "lab-data-sanitizer": {
@@ -7483,10 +7489,10 @@
           "WebSocket이 클라이언트와 서버 간 실시간 양방향 통신을 어떻게 가능하게 하는지, Pub/Sub 메시징 아키텍처가 실시간 애플리케이션에서 메시지를 올바른 구독자에게 어떻게 전달하는지 배우세요."
         ]
       },
-      "workshop-websockets-by-building-a-resource-monitor": {
-        "title": "리소스 모니터를 만들어 WebSocket 배우기",
+      "workshop-build-a-resource-monitor": {
+        "title": "자원 모니터 만들기",
         "intro": [
-          "시스템 리소스 모니터를 만들며 Node.js WebSocket과 실시간 데이터 스트리밍을 배우세요."
+          "시스템 자원 모니터를 만들어 노드 WebSocket과 실시간 데이터 스트리밍을 배우세요."
         ]
       },
       "lab-chat-app": {
@@ -7507,6 +7513,12 @@
           "WebSocket과 Pub/Sub에 대한 지식을 이 퀴즈로 테스트하세요."
         ]
       },
+      "lecture-understanding-security-and-privacy-in-web-applications": {
+        "title": "웹 애플리케이션의 보안 및 개인정보 보호 이해",
+        "intro": [
+          "HTTPS, 쿠키, CSP, 일반적인 위협, 개인정보 보호법 등 웹 애플리케이션에서 보안과 개인정보 보호가 어떻게 작동하는지 배우세요."
+        ]
+      },
       "review-security-and-privacy": {
         "title": "보안 및 개인정보 보호 검토",
         "intro": [
@@ -7525,6 +7537,18 @@
           "인증과 권한 부여가 어떻게 작동하는지, JWT가 API 라우트를 어떻게 보호하는지, CSRF 공격 방어 방법, Passport.js와 Helmet.js로 Node.js 애플리케이션을 안전하게 만드는 방법을 배우세요."
         ]
       },
+      "workshop-jwt-protected-routes": {
+        "title": "JWT 보호 라우트 만들기",
+        "intro": [
+          "JWT 보호 라우트를 가진 Express 애플리케이션을 만들어 인증과 역할 기반 권한 부여를 배우세요."
+        ]
+      },
+      "lab-family-movie-watchlist-api": {
+        "title": "가족 영화 시청 목록 API 만들기",
+        "intro": [
+          "가족 영화 시청 목록 API를 만들어 Express 애플리케이션에서 인증과 권한 부여 구현을 연습하세요."
+        ]
+      },
       "review-authentication-and-authorization": {
         "title": "인증과 권한 부여 복습",
         "intro": [
@@ -7537,16 +7561,16 @@
           "이 모듈에서 다룬 인증과 권한 부여 개념에 대한 지식을 테스트하세요."
         ]
       },
+      "review-back-end-development-and-apis": {
+        "title": "백엔드 개발 및 API 검토",
+        "intro": [
+          "다가오는 시험 준비를 위해 백엔드 개발 및 API 개념을 복습하세요."
+        ]
+      },
       "exam-back-end-development-and-apis-certification": {
         "title": "백엔드 개발 및 API 인증 시험",
         "intro": [
           "이 시험에 합격해 백엔드 개발 및 API 인증을 받으세요."
-        ]
-      },
-      "lecture-understanding-security-and-privacy-in-web-applications": {
-        "title": "웹 애플리케이션의 보안 및 개인정보 보호 이해",
-        "intro": [
-          "HTTPS, 쿠키, CSP, 일반적인 위협, 개인정보 보호법 등 웹 애플리케이션에서 보안과 개인정보 보호가 어떻게 작동하는지 배우세요."
         ]
       }
     }
@@ -9282,7 +9306,7 @@
       "lecture-understanding-the-html-boilerplate": {
         "title": "HTML 보일러플레이트 이해하기",
         "intro": [
-          "이 강의에서는 웹페이지용 준비된 템플릿인 HTML 보일러플레이트에 대해 배웁니다.",
+          "이 강의에서는 웹페이지용 HTML 보일러플레이트, 즉 미리 만들어진 템플릿에 대해 배우세요.",
           "<code>link</code> 요소, <code>meta</code> 요소 등 다루는 방법을 배우세요."
         ]
       },
@@ -9302,13 +9326,13 @@
       "lecture-html-fundamentals": {
         "title": "HTML 기초",
         "intro": [
-          "이 강의에서는 <code>div</code> 요소, <code>id</code>와 <code>class</code> 속성, HTML 보일러플레이트, HTML 엔티티 등 HTML 기초를 배웁니다."
+          "이 강의에서는 <code>div</code> 요소, <code>id</code>와 <code>class</code> 속성, <code>script</code> 요소, HTML 엔티티 등 HTML 기본을 배우세요."
         ]
       },
       "workshop-bookstore-page": {
         "title": "서점 페이지 만들기",
         "intro": [
-          "이 워크숍에서는 클래스를 사용하고 id와 <code>div</code> 요소를 다루며 서점 페이지를 만듭니다."
+          "이 워크숍에서는 클래스, 아이디, <code>div</code> 요소를 사용해 서점 페이지를 만들어 보세요."
         ]
       },
       "lecture-understanding-how-html-affects-seo": {
@@ -9320,13 +9344,13 @@
       "lab-travel-agency-page": {
         "title": "여행사 페이지 만들기",
         "intro": [
-          "이 실습에서는 여행사를 위한 웹 페이지를 만들어 HTML 기본을 복습합니다. 이미지, <code>figure</code> 요소, <code>figcaption</code> 요소, <code>anchor</code> 요소 등을 다룹니다."
+          "이 실습에서는 여행사 웹 페이지를 만들어 HTML 기본을 복습하세요. 이미지, <code>figure</code> 요소, <code>figcaption</code> 요소, <code>a</code> 요소 등을 다룹니다."
         ]
       },
       "lecture-working-with-audio-and-video-elements": {
         "title": "오디오 및 비디오 요소 다루기",
         "intro": [
-          "이 강의에서는 <code>audio</code>와 <code>video</code> 요소를 다루는 방법을 배웁니다."
+          "이 강의에서는 <code>audio</code>와 <code>video</code> 요소를 다루는 방법을 배우세요."
         ]
       },
       "workshop-html-music-player": {
@@ -9352,13 +9376,13 @@
       "lecture-working-with-images-and-svgs": {
         "title": "이미지 및 SVG 다루기",
         "intro": [
-          "이 강의에서는 SVG를 다루고 이미지 최적화 기법을 배웁니다."
+          "이 강의에서는 SVG 작업법과 이미지 최적화 기법을 배우세요."
         ]
       },
       "workshop-build-a-heart-icon": {
         "title": "하트 아이콘 만들기",
         "intro": [
-          "이 워크숍에서는 SVG를 사용해 하트 아이콘을 만듭니다."
+          "이 워크숍에서는 SVG를 사용해 하트 아이콘을 만들어 보세요."
         ]
       },
       "lecture-working-with-media": {
@@ -9382,7 +9406,7 @@
       "lecture-working-with-links": {
         "title": "링크 다루기",
         "intro": [
-          "이 강의에서는 링크, <code>target</code> 속성, 다양한 링크 상태, 절대 및 상대 경로 등을 배웁니다."
+          "이 강의에서는 링크, <code>target</code> 속성, 다양한 링크 상태, 절대 및 상대 경로 등을 배우세요."
         ]
       },
       "review-basic-html": {

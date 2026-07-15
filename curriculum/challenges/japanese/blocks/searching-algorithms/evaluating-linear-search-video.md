@@ -18,19 +18,19 @@ dashedName: evaluating-linear-search
 
 ## --answers--
 
-Linear and Space complexity
+線形時間計算量と空間計算量
 
 ---
 
-Time and Space complexity
+時間計算量と空間計算量
 
 ---
 
-Recursive and Space complexity
+再帰的計算量と空間計算量
 
 ---
 
-Binary and Space complexity
+二分探索と空間計算量
 
 ## --video-solution--
 

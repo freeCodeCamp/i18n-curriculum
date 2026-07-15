@@ -1,6 +1,6 @@
 ---
 id: 694afa3fcd55df0cbc49a3cf
-title: 步驟 2
+title: 第 2 步
 challengeType: 0
 dashedName: step-2
 ---
@@ -46,17 +46,17 @@ assert.match(linkHrefValue, /^(\.\/)?styles\.css$/);
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>Colored Boxes</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Colored Boxes</title>
 --fcc-editable-region--
-	
+  
 --fcc-editable-region-- 
 </head> 
 <body>
-	<header>
-		<h1>Colored Boxes Layout</h1>
-	</header>
+  <header>
+    <h1>Colored Boxes Layout</h1>
+  </header>
 </body>
 </html>
 ```

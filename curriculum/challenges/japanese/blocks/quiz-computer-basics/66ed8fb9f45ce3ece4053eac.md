@@ -131,7 +131,7 @@ Google Drive
 
 #### --distractors--
 
-Node Package Manager
+ノードパッケージマネージャー
 
 ---
 
@@ -894,3 +894,4 @@ Gitとは何ですか？
 #### --answer--
 
 `ZIP`
+

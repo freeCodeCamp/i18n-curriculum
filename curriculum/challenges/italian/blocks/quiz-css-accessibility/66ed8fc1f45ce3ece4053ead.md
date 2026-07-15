@@ -1,6 +1,6 @@
 ---
 id: 66ed8fc1f45ce3ece4053ead
-title: "quiz sull'accessibilità CSS"
+title: "Quiz sull'accessibilità CSS"
 challengeType: 8
 dashedName: quiz-css-accessibility
 ---

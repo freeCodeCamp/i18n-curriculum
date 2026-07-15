@@ -428,7 +428,7 @@ function animate() {
 }
 ```
 
-## Web animations API
+## API per le animazioni web
 
 - **Definizione**: la Web Animations API ti permette di creare e controllare animazioni direttamente all’interno di JavaScript.
 

@@ -7,7 +7,7 @@ dashedName: quiz-computer-basics
 
 # --description--
 
-Para aprobar el cuestionario, debe responder correctamente al menos 18 de las 20 preguntas a continuación.
+Para aprobar el quiz, debes responder correctamente al menos 18 de las 20 preguntas a continuación.
 
 # --quizzes--
 
@@ -894,3 +894,4 @@ Una ubicación de almacenamiento temporal para la unidad central de procesamient
 #### --answer--
 
 `ZIP`
+

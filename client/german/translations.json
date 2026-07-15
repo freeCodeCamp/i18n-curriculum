@@ -675,6 +675,40 @@
       "sub-step-5": "Fügen Sie im Feld <0>Geheimnis</0> Ihren Token ein",
       "summary": "Ona-Einrichtung"
     },
+    "freecodecamp-os": {
+      "token-modal": "Wenn Sie den Kurs starten, erscheint ein Modal, das nach Ihrem Benutzertoken fragt. Fügen Sie das oben kopierte Token dort ein. Dies müssen Sie pro Umgebung nur einmal tun.",
+      "local": {
+        "intro": "Dieser Kurs läuft in einem Entwicklungscontainer auf Ihrem Computer mit der freeCodeCamp - Courses VS Code-Erweiterung. Um den Kurs zu starten, müssen Sie zunächst die folgenden Programme herunterladen, falls Sie sie noch nicht haben:",
+        "heading": "Folgen Sie dann diesen Anweisungen, um den Kurs zu starten:",
+        "step-1": "Öffnen Sie ein Terminal und klonen Sie das Repository back-end-development-and-apis, falls Sie es noch nicht haben, mit <0>git clone https://github.com/freeCodeCamp/back-end-development-and-apis</0>",
+        "step-2": "Navigieren Sie im Terminal in das Verzeichnis <0>back-end-development-and-apis</0> mit <1>cd back-end-development-and-apis</1> und öffnen Sie VS Code mit <2>code .</2>",
+        "step-3": "Öffnen Sie die Befehlspalette in VS Code, indem Sie das Menü „Ansicht“ erweitern und auf „Befehlspalette...“ klicken, und geben Sie <0>Dev Containers: Rebuild and Reopen in Container</0> in die Eingabe ein.",
+        "step-4": "Ein neues VS Code-Fenster öffnet sich und beginnt mit dem Aufbau des Entwicklungscontainers. Dies dauert beim ersten Mal mehrere Minuten.",
+        "step-5": "Sobald der Aufbau abgeschlossen ist, öffnen Sie erneut die Befehlspalette und geben Sie <0>freeCodeCamp: Run Course</0> ein, um den Kurs zu starten.",
+        "step-6": "Der Simple Browser öffnet sich, wenn er fertig ist. Wenn die Seite weiß und leer ist, verwenden Sie die Aktualisieren-Schaltfläche, um sie zu aktualisieren und die Kurs-Startseite zu sehen.",
+        "step-7": "Klicken Sie auf eines der verfügbaren Projekte, um es zu starten, und folgen Sie dann den Anweisungen im Projekt, um es abzuschließen."
+      },
+      "codespaces": {
+        "intro": "Dieser Kurs läuft in einer virtuellen Linux-Maschine mit GitHub Codespaces und der freeCodeCamp - Courses VS Code-Erweiterung. Folgen Sie diesen Anweisungen, um den Kurs zu starten:",
+        "step-1": "<0>Erstellen Sie ein GitHub-Konto</0>, falls Sie noch keines haben",
+        "step-2": "Klicken Sie auf die Start-Schaltfläche unten",
+        "step-3": "Klicken Sie auf der geöffneten Seite auf die Erstellen-Schaltfläche",
+        "step-4": "Sobald die virtuelle Linux-Maschine geladen ist, öffnen Sie die Befehlspalette und führen Sie den Befehl <0>freeCodeCamp: Run Course</0> aus",
+        "step-5": "Der Simple Browser öffnet sich, wenn er fertig ist. Wenn die Seite weiß und leer ist, verwenden Sie die Aktualisieren-Schaltfläche, um sie zu aktualisieren und die Kurs-Startseite zu sehen.",
+        "step-6": "Klicken Sie auf eines der verfügbaren Projekte, um es zu starten, und folgen Sie dann den Anweisungen im Projekt, um es abzuschließen.",
+        "continue-project": "Wenn Sie unten auf die Start-Schaltfläche klicken, wird eine neue Maschine gestartet. Wenn Sie den {{title}}-Kurs bereits begonnen haben, gehen Sie zur <0>Repository-Seite</0>, um einen vorherigen Arbeitsbereich erneut zu öffnen."
+      },
+      "ona": {
+        "intro": "Dieser Kurs läuft in einer virtuellen Linux-Maschine mit Ona und der freeCodeCamp - Courses VS Code-Erweiterung. Folgen Sie diesen Anweisungen, um den Kurs zu starten:",
+        "step-1": "<0>Erstellen Sie ein Ona-Konto</0>, falls Sie noch keines haben",
+        "step-2": "Klicken Sie auf die Start-Schaltfläche unten",
+        "step-3": "Klicken Sie im erscheinenden Modal auf die Erstellen-Schaltfläche",
+        "step-4": "Sobald die virtuelle Linux-Maschine geladen ist, öffnen Sie die Befehlspalette und führen Sie den Befehl <0>freeCodeCamp: Run Course</0> aus",
+        "step-5": "Der Simple Browser öffnet sich, wenn er fertig ist. Wenn die Seite weiß und leer ist, verwenden Sie die Aktualisieren-Schaltfläche, um sie zu aktualisieren und die Kurs-Startseite zu sehen.",
+        "step-6": "Klicken Sie auf eines der verfügbaren Projekte, um es zu starten, und folgen Sie dann den Anweisungen im Projekt, um es abzuschließen.",
+        "continue-project": "Wenn Sie unten auf die Start-Schaltfläche klicken, wird eine neue Maschine gestartet. Wenn Sie den {{course}}-Kurs bereits begonnen haben, gehen Sie zu <0>Ihrem Ona-Dashboard</0>, um fortzufahren."
+      }
+    },
     "local": {
       "intro": "Dieser Kurs läuft in einer virtuellen Linux-Maschine auf Ihrem Computer. Um den Kurs auszuführen, müssen Sie zunächst die folgenden Programme herunterladen, falls Sie sie noch nicht haben:",
       "download-vscode": "<0>VS Code</0> und die Erweiterung <1>Dev Containers</1>",

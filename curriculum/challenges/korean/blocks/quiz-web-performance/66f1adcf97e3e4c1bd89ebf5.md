@@ -7,7 +7,7 @@ dashedName: quiz-web-performance
 
 # --description--
 
-퀴즈를 통과하려면 아래 20문제 중 최소 18문제를 올바르게 답해야 합니다.
+퀴즈를 통과하려면 아래 20문제 중 최소 18문제를 올바르게 답하세요.
 
 # --quizzes--
 
@@ -43,19 +43,19 @@ dashedName: quiz-web-performance
 
 #### --distractors--
 
-Time to Interactive (TTI)
+상호작용 가능 시간 (TTI)
 
 ---
 
-Page Load Time (PLT)
+페이지 로드 시간 (PLT)
 
 ---
 
-Last Contentful Paint (LCP)
+마지막 콘텐츠풀 페인트(LCP)
 
 #### --answer--
 
-First Contentful Paint (FCP)
+첫 번째 콘텐츠 페인트(FCP)
 
 ### --question--
 
@@ -131,7 +131,7 @@ First Contentful Paint (FCP)는 무엇을 측정하나요?
 
 #### --distractors--
 
-Chrome DevTools
+Chrome 개발자 도구
 
 ---
 
@@ -311,15 +311,15 @@ Permit Timing API
 
 ---
 
-Performance Text API
+성능 텍스트 API
 
 ---
 
-Perform Timing API
+Performance Timing API
 
 #### --answer--
 
-Performance Timing API
+성능 타이밍 API
 
 ### --question--
 
@@ -492,3 +492,4 @@ PNG와 JPEG 이미지만 사용하는 것.
 #### --answer--
 
 하드웨어 부하를 줄여 에너지를 절약하고 지속 가능성을 높입니다.
+

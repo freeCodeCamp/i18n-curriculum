@@ -1,6 +1,6 @@
 ---
 id: 619cfdf2e63ddf05feab86ad
-title: Step 47
+title: ステップ 47
 challengeType: 0
 dashedName: step-47
 ---
@@ -122,15 +122,15 @@ body {
   z-index: 1;
 }
 
---fcc-editable-region--
 .face {
   width: 60%;
   height: 70%;
   background-color: white;
   border-radius: 70% 70% 60% 60%;
-
-}
 --fcc-editable-region--
+  
+--fcc-editable-region--
+}
 
 .penguin-body {
   width: 53%;
@@ -166,4 +166,5 @@ body {
   position: absolute;
   margin-top: -58px;
 }
+
 ```

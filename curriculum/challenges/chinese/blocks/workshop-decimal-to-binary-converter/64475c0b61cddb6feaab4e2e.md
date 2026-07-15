@@ -1,6 +1,6 @@
 ---
 id: 64475c0b61cddb6feaab4e2e
-title: 步骤 13
+title: 第 13 步
 challengeType: 0
 dashedName: step-13
 ---
@@ -213,7 +213,7 @@ const checkUserInput = () => {
     parseInt(numberInput.value) < 0
   ) {
     --fcc-editable-region--
-
+    
     --fcc-editable-region--
   }
 

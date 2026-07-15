@@ -43,19 +43,19 @@ Ni kipimo gani kinachoonyesha vyema jinsi maudhui yanavyoonekana haraka kwenye u
 
 #### --distractors--
 
-Time to Interactive (TTI)
+Muda wa Kuingiliana (TTI)
 
 ---
 
-Page Load Time (PLT)
+Muda wa Kupakia Ukurasa (PLT)
 
 ---
 
-Last Contentful Paint (LCP)
+Rangi ya Mwisho ya Maudhui (LCP)
 
 #### --answer--
 
-First Contentful Paint (FCP)
+Rangi ya Kwanza ya Maudhui (FCP)
 
 ### --question--
 
@@ -131,7 +131,7 @@ Ni ipi kati ya zifuatazo SI chombo kinachotumika mara nyingi kupima utendaji?
 
 #### --distractors--
 
-Chrome DevTools
+Zana za msanidi za Chrome
 
 ---
 
@@ -197,7 +197,7 @@ Ni ipi kati ya zifuatazo inahusu muda unaochukua ombi kusafiri kati ya kivinjari
 
 #### --distractors--
 
-rendering
+onyesha
 
 ---
 
@@ -209,7 +209,7 @@ CDN
 
 #### --answer--
 
-latency
+ucheleweshaji
 
 ### --question--
 
@@ -241,11 +241,11 @@ Ni ipi kati ya zifuatazo inaonyesha muda ambao nyuzi kuu zimezuiwa na kazi nzito
 
 #### --distractors--
 
-Source order
+Mpangilio wa chanzo
 
 ---
 
-Bounce rate
+Kiwango cha kurudi
 
 ---
 
@@ -253,7 +253,7 @@ WebPageTest
 
 #### --answer--
 
-Total Blocking Time
+Jumla ya muda wa kuzuia
 
 ### --question--
 
@@ -307,19 +307,19 @@ Ni ipi kati ya APIs zifuatazo inakupa mgawanyo wa kila hatua ya upakiaji wa ukur
 
 #### --distractors--
 
-Permit Timing API
+API ya Kipimo cha Ruhusa
 
 ---
 
-Performance Text API
+API ya maandishi ya utendaji
 
 ---
 
-Perform Timing API
+API ya Performance Timing
 
 #### --answer--
 
-Performance Timing API
+API ya Muda wa Utendaji
 
 ### --question--
 
@@ -492,3 +492,4 @@ Inapunguza idadi ya mafaili ya CSS yanayohitajika na kufanya CSS yako ifanye kaz
 #### --answer--
 
 Inapunguza mzigo kwenye vifaa, kuokoa nishati na kuboresha uendelevu.
+

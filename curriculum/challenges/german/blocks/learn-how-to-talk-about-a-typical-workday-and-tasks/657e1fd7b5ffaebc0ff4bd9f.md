@@ -10,7 +10,7 @@ lang: en-US
 
 # --description--
 
-Hören Sie sich das Audio an und beantworten Sie die folgende Frage.
+Hören Sie sich die Audioaufnahme an und beantworten Sie die folgende Frage.
 
 # --questions--
 
@@ -20,7 +20,7 @@ Warum bedankt sich Tom bei Sophie?
 
 ## --answers--
 
-For giving him a time management app.
+Weil sie ihm eine Zeitmanagement-App gegeben hat.
 
 ### --feedback--
 
@@ -32,7 +32,7 @@ Weil er Sophies Tipps hilfreich findet.
 
 ---
 
-For inviting him to lunch.
+Weil sie ihn zum Mittagessen eingeladen hat.
 
 ### --feedback--
 
@@ -40,7 +40,7 @@ Er bedankt sich für den Rat, nicht für eine Einladung zum Mittagessen.
 
 ---
 
-For helping him with a project.
+Weil sie ihm bei einem Projekt geholfen hat.
 
 ### --feedback--
 

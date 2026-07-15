@@ -18,7 +18,7 @@ const cards = document.querySelectorAll('.card');
 assert.isTrue(cards[1]?.hasAttribute('id'));
 ```
 
-Kipengele chako cha pili chenye darasa la `card` kinapaswa kuwa na `id` yenye thamani ya `dave-cooking-book`.
+Kipengele chako cha pili chenye darasa la vitu `card` kinapaswa kuwa na sifa ya `id` yenye thamani ya `dave-cooking-book`.
 
 ```js
 const cards = document.querySelectorAll('.card');

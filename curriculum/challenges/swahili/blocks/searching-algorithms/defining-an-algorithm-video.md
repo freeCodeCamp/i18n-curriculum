@@ -18,19 +18,19 @@ Jina la algoriti inayozungumziwa katika video ni lipi?
 
 ## --answers--
 
-Optical Search 
+Utafutaji wa Optical
 
 ---
 
-Linear Search
+Utafutaji wa mstari
 
 ---
 
-Linked list Search
+Utafutaji wa orodha iliyounganishwa
 
 ---
 
-Triad Search
+Utafutaji wa Triad
 
 ## --video-solution--
 

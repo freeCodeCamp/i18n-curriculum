@@ -48,7 +48,7 @@ assert.equal(
 );
 ```
 
-最後の`h2`要素にネストされた最後の`Cat Lists`要素の上に、テキスト`h3`を持つ`section`要素があるはずです。`h2`要素を誤って削除した可能性があります。
+最後の`section`要素にネストされた最後の`h3`要素の上に、テキストが`Cat Lists`の`h2`要素がある必要があります。誤ってその`h2`要素を削除してしまった可能性があります。
 
 ```js
 const secondSectionLastElemNode = document.querySelectorAll('main > section')[1]

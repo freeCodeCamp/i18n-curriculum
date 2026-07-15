@@ -18,20 +18,21 @@ RAGは何の略ですか？
 
 ## --answers--
 
-Retrieval-Augmented Generation
+検索拡張生成
 
 ---
 
-Recursive Attention Generation
+再帰的注意生成
 
 ---
 
-Recurrent Adversarial Generation
+再帰的敵対生成
 
 ---
 
-Response-Action Generation
+レスポンスアクション生成
 
 ## --video-solution--
 
 1
+

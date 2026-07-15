@@ -18,19 +18,19 @@ MCP는 무엇의 약자인가요?
 
 ## --answers--
 
-Model Cascade Protocol
+모델 캐스케이드 프로토콜
 
 ---
 
-Model Control Protocol
+모델 제어 프로토콜
 
 ---
 
-Model Context Protocol
+모델 컨텍스트 프로토콜
 
 ---
 
-Model Communication Protocol
+모델 통신 프로토콜
 
 ## --video-solution--
 

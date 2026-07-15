@@ -22,7 +22,7 @@ dashedName: merge-sort-revisited
 
 ---
 
-Quicksort will partition the list around a pivot and recursively sort sublists, while merge sort splits the list in half and merges sorted halves.
+クイックソートはリストをピボットの周りで分割し、再帰的にサブリストをソートします。一方、マージソートはリストを半分に分割し、ソート済みの半分をマージします。
 
 ---
 

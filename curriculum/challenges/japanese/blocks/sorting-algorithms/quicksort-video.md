@@ -18,19 +18,19 @@ dashedName: quicksort
 
 ## --answers--
 
-recursion
+再帰
 
 ---
 
-iteration with nested loops
+ネストされたループによる反復
 
 ---
 
-hashing
+ハッシュ化
 
 ---
 
-dynamic programming
+動的計画法
 
 ## --video-solution--
 

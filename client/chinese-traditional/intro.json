@@ -6039,7 +6039,6 @@
         ]
       },
       "front-end-development-libraries-certification-exam": {
-        "note": "2026 年推出",
         "intro": [
           "通過此考試即可獲得你的前端開發函式庫證照。"
         ]
@@ -7176,6 +7175,7 @@
       "websockets": "WebSockets",
       "security-and-privacy": "安全性與隱私",
       "authentication": "身份驗證",
+      "review-back-end-development-and-apis": "後端開發與 API 複習",
       "back-end-development-and-apis-certification-exam": "後端開發與 API 認證考試"
     },
     "module-intros": {
@@ -7250,6 +7250,12 @@
         "intro": [
           "通過此考試以獲得你的後端開發與 API 認證。"
         ]
+      },
+      "review-back-end-development-and-apis": {
+        "note": "2026 年底推出",
+        "intro": [
+          "複習後端開發與 API 的概念，為即將到來的考試做準備。"
+        ]
       }
     },
     "blocks": {
@@ -7281,10 +7287,10 @@
           "了解 Node.js 核心模組，如 fs、buffer、stream、path 等，讓你能理解 Node 預設提供的功能，建置高效應用程式而不依賴第三方函式庫。"
         ]
       },
-      "workshop-nodejs-common-modules": {
-        "title": "學習 Node.js 常用模組",
+      "workshop-build-a-file-processor": {
+        "title": "建置檔案處理器",
         "intro": [
-          "你將使用 Node.js 內建模組如 <code>fs</code>、<code>path</code> 和 <code>crypto</code> 進行檔案操作和資料處理。"
+          "你將透過檔案操作和資料處理，學習 Node.js 內建模組如 <code>fs</code>、<code>path</code> 和 <code>crypto</code>。"
         ]
       },
       "review-node-js-core-modules": {
@@ -7311,10 +7317,10 @@
           "了解 npm 腳本、將套件發佈到 npm 登錄表，以及 CommonJS 和 ES 模組。這些課程涵蓋 Node.js 的重要開發工具和模組系統。"
         ]
       },
-      "workshop-how-to-build-an-npm-module": {
-        "title": "學習如何建置 NPM 模組",
+      "workshop-build-a-case-converter": {
+        "title": "建置大小寫轉換器",
         "intro": [
-          "你將學習如何初始化、組態和發佈 NPM 模組，並透過建置大小寫轉換器實作。"
+          "你將透過建置大小寫轉換器，學習如何初始化、組態和發佈 NPM 模組。"
         ]
       },
       "lab-prime-number-checker-module": {
@@ -7349,8 +7355,8 @@
           "在這些課程中，你將學習網頁標準模型、標準組織、流程、生命週期以及網頁標準背後的原則。"
         ]
       },
-      "workshop-nodejs-by-building-a-web-server": {
-        "title": "透過建置網頁伺服器學習 Node.js",
+      "workshop-build-a-web-server": {
+        "title": "建置網頁伺服器",
         "intro": [
           "你將透過建置一個多頁面客戶端應用程式的網頁伺服器，學習 Node.js 的 <code>http</code> 模組。"
         ]
@@ -7374,8 +7380,8 @@
           "在這些課程中，你將學習 REST API 和網路服務，以及它們如何讓不同應用程式透過網際網路互相通訊。"
         ]
       },
-      "workshop-express-by-building-a-weather-service-api": {
-        "title": "透過建置天氣服務 API 學習 Express",
+      "workshop-build-a-weather-service-api": {
+        "title": "建置天氣服務 API",
         "intro": [
           "你將透過建置天氣服務 API，學習路由參數和使用 <code>express.Router</code> 的模組化路由。"
         ]
@@ -7399,8 +7405,8 @@
           "在這些課程中，你將學習 ExpressJS 的路由，了解如何定義網頁應用程式的不同端點，以及它們如何回應客戶端請求。"
         ]
       },
-      "workshop-express-by-building-a-random-joke-app": {
-        "title": "透過建置隨機笑話應用程式學習 Express",
+      "workshop-build-a-random-joke-app": {
+        "title": "建置隨機笑話應用程式",
         "intro": [
           "你將透過建置隨機笑話應用程式，學習基本的 Express 路由和回應方法。"
         ]
@@ -7429,8 +7435,8 @@
           "在這些課程中，你將學習 Express 的錯誤處理和健康檢查。"
         ]
       },
-      "workshop-error-handling-in-express-by-building-a-bank-api": {
-        "title": "透過建置銀行 API 學習 Express 錯誤處理",
+      "workshop-build-a-bank-api": {
+        "title": "建置銀行 API",
         "intro": [
           "你將透過建置銀行 API，學習 Express 5 的錯誤處理、健康檢查和優雅關閉。"
         ]
@@ -7453,10 +7459,10 @@
           "在這些課程中，你將學習 Express 中介層的運作，包括應用程式層級、路由器層級和錯誤處理中介層，以及內建和第三方中介層的範例。"
         ]
       },
-      "workshop-express-middleware-by-building-a-submission-form": {
-        "title": "透過建置提交表單學習 Express 中介層",
+      "workshop-build-a-submission-form": {
+        "title": "建置提交表單",
         "intro": [
-          "你將透過建置結構化提交表單，學習應用程式層級和路由器層級的中介層。"
+          "你將透過建置結構化提交表單，學習應用層和路由層中介層。"
         ]
       },
       "lab-data-sanitizer": {
@@ -7483,8 +7489,8 @@
           "學習 WebSockets 如何實現客戶端與伺服器之間的即時雙向通訊，以及 Pub/Sub 訊息架構如何在即時應用程式中將訊息路由給正確的訂閱者。"
         ]
       },
-      "workshop-websockets-by-building-a-resource-monitor": {
-        "title": "透過建置資源監控器學習 WebSockets",
+      "workshop-build-a-resource-monitor": {
+        "title": "建置資源監控器",
         "intro": [
           "你將透過建置系統資源監控器，學習 Node.js WebSockets 和即時資料串流。"
         ]
@@ -7507,6 +7513,12 @@
           "透過此測驗測試你對 WebSockets 和 Pub/Sub 的知識。"
         ]
       },
+      "lecture-understanding-security-and-privacy-in-web-applications": {
+        "title": "理解網頁應用程式中的安全與隱私",
+        "intro": [
+          "學習網頁應用程式中安全與隱私的運作方式，涵蓋 HTTPS、cookies、CSP、常見威脅、隱私法規等。"
+        ]
+      },
       "review-security-and-privacy": {
         "title": "安全與隱私回顧",
         "intro": [
@@ -7525,6 +7537,18 @@
           "學習認證和授權的運作方式，JWT 如何保護你的 API 路由，如何防禦 CSRF 攻擊，以及如何使用 Passport.js 和 Helmet.js 來保護你的 Node.js 應用程式。"
         ]
       },
+      "workshop-jwt-protected-routes": {
+        "title": "建置 JWT 保護路由",
+        "intro": [
+          "你將透過建置帶有 JWT 保護路由的 Express 應用程式，學習身份驗證和基於角色的授權。"
+        ]
+      },
+      "lab-family-movie-watchlist-api": {
+        "title": "建置家庭電影清單 API",
+        "intro": [
+          "你將透過建置家庭電影清單 API，練習在 Express 應用程式中實作身份驗證和授權。"
+        ]
+      },
       "review-authentication-and-authorization": {
         "title": "認證與授權複習",
         "intro": [
@@ -7537,16 +7561,16 @@
           "測試你對本模組涵蓋的認證與授權概念的理解。"
         ]
       },
+      "review-back-end-development-and-apis": {
+        "title": "後端開發與 API 複習",
+        "intro": [
+          "複習後端開發與 API 的概念，為即將到來的考試做準備。"
+        ]
+      },
       "exam-back-end-development-and-apis-certification": {
         "title": "後端開發與 API 認證考試",
         "intro": [
           "通過此考試以獲得後端開發與 API 認證"
-        ]
-      },
-      "lecture-understanding-security-and-privacy-in-web-applications": {
-        "title": "理解網頁應用程式中的安全與隱私",
-        "intro": [
-          "學習網頁應用程式中安全與隱私的運作方式，涵蓋 HTTPS、cookies、CSP、常見威脅、隱私法規等。"
         ]
       }
     }
@@ -9282,7 +9306,7 @@
       "lecture-understanding-the-html-boilerplate": {
         "title": "理解 HTML 樣板",
         "intro": [
-          "在這些講座中，你將學習 HTML 樣板，它是為你的網頁準備好的模板。",
+          "在這些課程中，你將學習 HTML 樣板，這是為你的網頁準備好的範本。",
           "你將學習如何使用 <code>link</code> 元素、<code>meta</code> 元素等。"
         ]
       },
@@ -9302,13 +9326,13 @@
       "lecture-html-fundamentals": {
         "title": "HTML 基礎",
         "intro": [
-          "在這些講座中，你將學習 HTML 基礎知識，如 <code>div</code> 元素、<code>id</code> 和 <code>class</code> 屬性、HTML 樣板、HTML 實體等。"
+          "在這些課程中，你將學習 HTML 基礎，如 <code>div</code> 元素、<code>id</code> 和 <code>class</code> 屬性、<code>script</code> 元素、HTML 實體等。"
         ]
       },
       "workshop-bookstore-page": {
         "title": "建置書店頁面",
         "intro": [
-          "在這個工作坊中，你將透過建置書店頁面來練習使用類別、id 和 <code>div</code> 元素。"
+          "在這個工作坊中，你將透過建置書店頁面，練習使用類別、id 和 <code>div</code> 元素。"
         ]
       },
       "lecture-understanding-how-html-affects-seo": {
@@ -9320,13 +9344,13 @@
       "lab-travel-agency-page": {
         "title": "建置旅遊代理頁面",
         "intro": [
-          "在這個實驗中，你將透過建立旅遊代理的網頁來複習 HTML 基礎。你會使用圖片、<code>figure</code> 元素、<code>figcaption</code> 元素、<code>anchor</code> 元素等。"
+          "在這個實驗中，你將透過建立旅遊代理網頁，複習 HTML 基礎。你會使用影像、<code>figure</code> 元素、<code>figcaption</code> 元素、<code>a</code> 元素等。"
         ]
       },
       "lecture-working-with-audio-and-video-elements": {
         "title": "使用音訊與影片元素",
         "intro": [
-          "在這些課程中，你將學習如何使用 <code>audio</code> 和 <code>video</code> 元素。"
+          "在這堂課中，你將學習如何使用 <code>audio</code> 和 <code>video</code> 元素。"
         ]
       },
       "workshop-html-music-player": {
@@ -9352,13 +9376,13 @@
       "lecture-working-with-images-and-svgs": {
         "title": "使用圖片與 SVG",
         "intro": [
-          "在這些課程中，你將學習如何使用 SVG，並了解優化圖片的技巧。"
+          "在這些課程中，你將學習如何使用 SVG，並探索優化影像的技巧。"
         ]
       },
       "workshop-build-a-heart-icon": {
         "title": "建置愛心圖示",
         "intro": [
-          "在這個工作坊中，你將透過建置愛心圖示來練習使用 SVG。"
+          "在這個工作坊中，你將透過建置愛心圖示，練習使用 SVG。"
         ]
       },
       "lecture-working-with-media": {
@@ -9382,7 +9406,7 @@
       "lecture-working-with-links": {
         "title": "使用連結",
         "intro": [
-          "在這些課程中，你將學習連結、<code>target</code> 屬性、不同連結狀態、絕對與相對路徑等內容。"
+          "在這些課程中，你將學習連結、<code>target</code> 屬性、不同的連結狀態、絕對與相對路徑等。"
         ]
       },
       "review-basic-html": {

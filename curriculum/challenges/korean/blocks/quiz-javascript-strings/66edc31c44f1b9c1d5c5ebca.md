@@ -7,7 +7,7 @@ dashedName: quiz-javascript-strings
 
 # --description--
 
-퀴즈를 통과하려면 아래 20문제 중 최소 18문제를 올바르게 맞히세요.
+퀴즈를 통과하려면 아래 20문제 중 최소 18문제를 올바르게 답하세요.
 
 # --quizzes--
 
@@ -109,19 +109,19 @@ ASCII는 무엇의 약자인가요?
 
 #### --distractors--
 
-American Standard Code for Internet Information
+인터넷 정보를 위한 미국 표준 코드
 
 ---
 
-Advanced Systematic Code for Internal Interchange
+내부 교환을 위한 고급 체계 코드
 
 ---
 
-Automatic Standard Code for Internal Information
+내부 정보를 위한 자동 표준 코드
 
 #### --answer--
 
-American Standard Code for Information Interchange
+정보 교환을 위한 미국 표준 코드
 
 ### --question--
 
@@ -484,3 +484,4 @@ console.log(organization.indexOf("c"));
 ```js
 "She said, \"Hello!\""
 ```
+

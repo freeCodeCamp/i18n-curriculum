@@ -16,7 +16,7 @@ Lesen Sie den Text und beantworten Sie die folgende Frage.
 
 ## --text--
 
-After reviewing the survey results for the remote work stipend, Bob decided to write an article:
+Nach dem Überprüfen der Umfrageergebnisse zum Zuschuss für das Arbeiten im Homeoffice entschied sich Bob, einen Artikel zu schreiben:
 
 `The Remote Work Stipend Debate: Comfort or Productivity?`
 
@@ -34,7 +34,7 @@ Warum bevorzugen einige Mitarbeitende, den Zuschuss für Büromöbel zu verwende
 
 ## --answers--
 
-Because they don't like working remotely.
+Weil sie es nicht mögen, remote zu arbeiten.
 
 ### --feedback--
 
@@ -42,11 +42,11 @@ Der Artikel legt nicht nahe, dass diese Mitarbeitenden die Fernarbeit nicht mög
 
 ---
 
-To improve comfort and prevent back pain.
+Um den Komfort zu verbessern und Rückenschmerzen vorzubeugen.
 
 ---
 
-To buy decorations for their home office.
+Um Dekorationen für ihr Homeoffice zu kaufen.
 
 ### --feedback--
 
@@ -54,7 +54,7 @@ Im Artikel wird nicht über Möbel gesprochen, die der Dekoration dienen.
 
 ---
 
-To impress their coworkers.
+Um ihre Kolleginnen und Kollegen zu beeindrucken.
 
 ### --feedback--
 

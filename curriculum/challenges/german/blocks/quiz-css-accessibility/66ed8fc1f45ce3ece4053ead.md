@@ -7,7 +7,7 @@ dashedName: quiz-css-accessibility
 
 # --description--
 
-Um das Quiz zu bestehen, müssen Sie mindestens 9 der 10 untenstehenden Fragen richtig beantworten.
+Um das Quiz zu bestehen, müssen Sie mindestens 9 der 10 Fragen unten richtig beantworten.
 
 # --quizzes--
 
@@ -55,7 +55,7 @@ Canva
 
 #### --answer--
 
-WebAIM's Color Contrast Checker
+WebAIMs Color Contrast Checker
 
 ### --question--
 
@@ -73,7 +73,7 @@ Canva
 
 ---
 
-WebAIM's Color Contrast Checker
+WebAIMs Color Contrast Checker
 
 #### --answer--
 

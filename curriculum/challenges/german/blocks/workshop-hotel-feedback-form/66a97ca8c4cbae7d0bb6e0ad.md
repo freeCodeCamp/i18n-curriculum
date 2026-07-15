@@ -11,19 +11,19 @@ Fügen Sie innerhalb Ihres `select`-Elements die folgenden fünf `option`-Elemen
 
 **Value-Attribut:**
 
-- poor
-- satisfactory
-- good
-- very-good
-- excellent
+- schlecht
+- befriedigend
+- gut
+- sehr gut
+- ausgezeichnet
 
 **Option-Text:**
 
-- Poor
-- Satisfactory
-- Good
-- Very Good
-- Excellent
+- Schlecht
+- Befriedigend
+- Gut
+- Sehr gut
+- Ausgezeichnet
 
 
 Vergessen Sie nicht, das `selected`-Attribut mit dem Wert `"excellent"` zum `option`-Element hinzuzufügen.

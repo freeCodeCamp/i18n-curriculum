@@ -7,7 +7,7 @@ dashedName: quiz-web-performance
 
 # --description--
 
-このクイズに合格するには、以下の20問のうち少なくとも18問に正しく答える必要があります。
+クイズに合格するには、以下の20問のうち少なくとも18問に正しく答える必要があります。
 
 # --quizzes--
 
@@ -43,11 +43,11 @@ dashedName: quiz-web-performance
 
 #### --distractors--
 
-Time to Interactive (TTI)
+インタラクティブになるまでの時間（TTI）
 
 ---
 
-Page Load Time (PLT)
+ページ読み込み時間（PLT）
 
 ---
 
@@ -131,7 +131,7 @@ First Contentful Paint (FCP) は何を測定しますか？
 
 #### --distractors--
 
-Chrome DevTools
+Chrome開発者ツール
 
 ---
 
@@ -253,7 +253,7 @@ WebPageTest
 
 #### --answer--
 
-Total Blocking Time
+合計ブロッキング時間
 
 ### --question--
 
@@ -315,11 +315,11 @@ Performance Text API
 
 ---
 
-Perform Timing API
+Performance Timing API
 
 #### --answer--
 
-Performance Timing API
+パフォーマンス タイミング API
 
 ### --question--
 
@@ -492,3 +492,4 @@ PNGとJPEG画像のみを使用すること。
 #### --answer--
 
 ハードウェアへの負荷を減らし、エネルギーを節約して持続可能性を向上させるからです。
+

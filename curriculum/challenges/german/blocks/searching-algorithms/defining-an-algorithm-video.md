@@ -18,19 +18,19 @@ Wie heißt der im Video besprochene Algorithmus?
 
 ## --answers--
 
-Optical Search 
+Optische Suche
 
 ---
 
-Linear Search
+Lineare Suche
 
 ---
 
-Linked list Search
+Suche in verketteter Liste
 
 ---
 
-Triad Search
+Triadensuche
 
 ## --video-solution--
 

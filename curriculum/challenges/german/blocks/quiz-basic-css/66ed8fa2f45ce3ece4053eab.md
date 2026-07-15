@@ -7,7 +7,7 @@ dashedName: quiz-basic-css
 
 # --description--
 
-Um das Quiz zu bestehen, müssen Sie mindestens 18 der 20 Fragen unten richtig beantworten.
+Um das Quiz zu bestehen, müssen Sie mindestens 18 der 20 untenstehenden Fragen richtig beantworten.
 
 # --quizzes--
 
@@ -21,19 +21,19 @@ Wofür steht CSS?
 
 #### --distractors--
 
-Cascading Style Script
+Kaskadierendes Stylescript
 
 ---
 
-Concatenating Style Script
+Verkettendes Stylescript
 
 ---
 
-Castor Sage Style
+Castor-Salbei-Stil
 
 #### --answer--
 
-Cascading Style Sheets
+Kaskadierende Stylesheets
 
 ### --question--
 
@@ -910,3 +910,4 @@ Welches Symbol steht vor dem ID-Selektor?
 #### --answer--
 
 `#`
+

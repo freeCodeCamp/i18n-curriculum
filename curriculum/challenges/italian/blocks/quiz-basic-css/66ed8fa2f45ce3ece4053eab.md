@@ -1,6 +1,6 @@
 ---
 id: 66ed8fa2f45ce3ece4053eab
-title: quiz sui fondamenti di css
+title: Quiz sui fondamenti di css
 challengeType: 8
 dashedName: quiz-basic-css
 ---
@@ -21,19 +21,19 @@ Cosa significa CSS?
 
 #### --distractors--
 
-Cascading Style Script
+Script di stile a cascata
 
 ---
 
-Concatenating Style Script
+Script di stile concatenato
 
 ---
 
-Castor Sage Style
+Stile Castor Sage
 
 #### --answer--
 
-Cascading Style Sheets
+Fogli di stile a cascata
 
 ### --question--
 
@@ -910,3 +910,4 @@ Quale simbolo precede il selettore ID?
 #### --answer--
 
 `#`
+

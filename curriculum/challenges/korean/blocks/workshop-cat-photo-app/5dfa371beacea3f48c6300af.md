@@ -48,7 +48,7 @@ assert.equal(
 );
 ```
 
-마지막 `h2` 요소에 중첩된 마지막 `Cat Lists` 요소 위에 `h3` 요소가 `section` 텍스트와 함께 있어야 합니다. `h2` 요소를 실수로 삭제했을 수 있습니다.
+마지막 `section` 요소에 중첩된 마지막 `h3` 요소 위에 `Cat Lists`라는 텍스트를 가진 `h2` 요소가 있어야 합니다. 실수로 `h2` 요소를 삭제했을 수 있습니다.
 
 ```js
 const secondSectionLastElemNode = document.querySelectorAll('main > section')[1]
