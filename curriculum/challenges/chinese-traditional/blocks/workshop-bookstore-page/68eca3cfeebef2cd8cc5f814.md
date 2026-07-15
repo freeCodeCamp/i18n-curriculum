@@ -18,7 +18,7 @@ const cards = document.querySelectorAll('.card');
 assert.isTrue(cards[1]?.hasAttribute('id'));
 ```
 
-你的第二個元素擁有 `card` 類別，應該有一個值為 `dave-cooking-book` 的 `id`。
+你的第二個具有 `card` 類別的元素應該有一個 `id`，其值為 `dave-cooking-book`。
 
 ```js
 const cards = document.querySelectorAll('.card');

@@ -18,20 +18,21 @@ dashedName: chunking
 
 ## --answers--
 
-Fixed size chunking
+固定サイズチャンク
 
 ---
 
-Semantic chunking
+セマンティックチャンク
 
 ---
 
-Agentic chunking
+エージェニックチャンク
 
 ---
 
-Objective chunking
+オブジェクティブチャンク
 
 ## --video-solution--
 
 4
+

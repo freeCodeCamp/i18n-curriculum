@@ -7,7 +7,7 @@ dashedName: quiz-css-accessibility
 
 # --description--
 
-Щоб пройти тест, потрібно правильно відповісти щонайменше на 9 із 10 запитань нижче.
+Щоб пройти тест, ви повинні правильно відповісти щонайменше на 9 із 10 питань нижче.
 
 # --quizzes--
 
@@ -43,7 +43,7 @@ dashedName: quiz-css-accessibility
 
 #### --distractors--
 
-TPGi Colour Contrast Analyzer
+Аналізатор контрастності кольорів TPGi
 
 ---
 
@@ -55,7 +55,7 @@ Canva
 
 #### --answer--
 
-WebAIM's Color Contrast Checker
+Перевірка контрастності кольорів WebAIM
 
 ### --question--
 
@@ -73,11 +73,11 @@ Canva
 
 ---
 
-WebAIM's Color Contrast Checker
+Перевірка контрастності кольорів WebAIM
 
 #### --answer--
 
-TPGi Colour Contrast Analyzer
+Аналізатор контрастності кольорів TPGi
 
 ### --question--
 

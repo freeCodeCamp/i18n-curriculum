@@ -675,6 +675,40 @@
       "sub-step-5": "En el campo <0>Secreto</0>, pega tu token",
       "summary": "Configuración de Ona"
     },
+    "freecodecamp-os": {
+      "token-modal": "Cuando ejecutes el curso, aparecerá un modal pidiendo tu token de usuario. Pega el token que copiaste arriba. Solo necesitas hacerlo una vez por entorno.",
+      "local": {
+        "intro": "Este curso se ejecuta en un contenedor de desarrollo en tu computadora usando la extensión freeCodeCamp - Courses para VS Code. Para ejecutar el curso, primero necesitas descargar cada uno de los siguientes si no los tienes ya:",
+        "heading": "Luego, sigue estas instrucciones para iniciar el curso:",
+        "step-1": "Abre una terminal y clona el repositorio back-end-development-and-apis si no lo tienes con <0>git clone https://github.com/freeCodeCamp/back-end-development-and-apis</0>",
+        "step-2": "Navega al directorio <0>back-end-development-and-apis</0> en la terminal con <1>cd back-end-development-and-apis</1> y abre VS Code con <2>code .</2>",
+        "step-3": "Abre la paleta de comandos en VS Code expandiendo el menú \"Ver\" y haciendo clic en \"Paleta de comandos...\" y escribe <0>Dev Containers: Rebuild and Reopen in Container</0> en la entrada.",
+        "step-4": "Se abrirá una nueva ventana de VS Code y comenzará a construir el contenedor de desarrollo. Tomará varios minutos la primera vez.",
+        "step-5": "Cuando termine de construir, abre la paleta de comandos de nuevo y ejecuta <0>freeCodeCamp: Run Course</0> para iniciar el curso.",
+        "step-6": "Se abrirá el navegador Simple cuando termine. Si ves una página blanca en blanco, usa el botón de actualizar para verla y acceder a la página principal del curso.",
+        "step-7": "Haz clic en uno de los proyectos disponibles para iniciarlo y luego sigue las instrucciones del proyecto para completarlo."
+      },
+      "codespaces": {
+        "intro": "Este curso se ejecuta en una máquina virtual Linux usando GitHub Codespaces y la extensión freeCodeCamp - Courses para VS Code. Sigue estas instrucciones para iniciar el curso:",
+        "step-1": "<0>Crea una cuenta de GitHub</0> si no tienes una",
+        "step-2": "Haz clic en el botón de inicio abajo",
+        "step-3": "En la página que se abre, haz clic en el botón de crear",
+        "step-4": "Cuando la máquina virtual Linux termine de cargar, abre la paleta de comandos y ejecuta el comando <0>freeCodeCamp: Run Course</0>",
+        "step-5": "Se abrirá el navegador Simple cuando termine. Si ves una página blanca en blanco, usa el botón de actualizar para verla y acceder a la página principal del curso.",
+        "step-6": "Haz clic en uno de los proyectos disponibles para iniciarlo y luego sigue las instrucciones del proyecto para completarlo.",
+        "continue-project": "Hacer clic en el botón de inicio abajo iniciará una nueva máquina. Si ya comenzaste el curso {{title}}, ve a la <0>página del repositorio</0> para reabrir un espacio de trabajo anterior."
+      },
+      "ona": {
+        "intro": "Este curso se ejecuta en una máquina virtual Linux usando Ona y la extensión freeCodeCamp - Courses para VS Code. Sigue estas instrucciones para iniciar el curso:",
+        "step-1": "<0>Crea una cuenta de Ona</0> si no tienes una",
+        "step-2": "Haz clic en el botón de inicio abajo",
+        "step-3": "En el modal que aparece, haz clic en el botón de crear",
+        "step-4": "Cuando la máquina virtual Linux termine de cargar, abre la paleta de comandos y ejecuta el comando <0>freeCodeCamp: Run Course</0>",
+        "step-5": "Se abrirá el navegador Simple cuando termine. Si ves una página blanca en blanco, usa el botón de actualizar para verla y acceder a la página principal del curso.",
+        "step-6": "Haz clic en uno de los proyectos disponibles para iniciarlo y luego sigue las instrucciones del proyecto para completarlo.",
+        "continue-project": "Hacer clic en el botón de inicio abajo iniciará una nueva máquina. Si ya comenzaste el curso {{course}}, ve a <0>tu panel de Ona</0> para continuar."
+      }
+    },
     "local": {
       "intro": "Este curso se ejecuta en una máquina virtual Linux en tu computadora. Para ejecutar el curso, primero necesitas descargar cada uno de los siguientes si no los tienes ya:",
       "download-vscode": "<0>VS Code</0> y la extensión <1>Dev Containers</1>",

@@ -18,7 +18,7 @@ const cards = document.querySelectorAll('.card');
 assert.isTrue(cards[1]?.hasAttribute('id'));
 ```
 
-Ваш другий елемент з класом `card` повинен мати `id` зі значенням `dave-cooking-book`.
+Ваш другий елемент із класом `card` має мати атрибут `id` зі значенням `dave-cooking-book`.
 
 ```js
 const cards = document.querySelectorAll('.card');

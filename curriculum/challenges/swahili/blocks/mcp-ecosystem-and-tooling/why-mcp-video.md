@@ -18,19 +18,19 @@ MCP inasimamia nini?
 
 ## --answers--
 
-Model Cascade Protocol
+Itifaki ya Mfululizo wa Mfano
 
 ---
 
-Model Control Protocol
+Itifaki ya Udhibiti wa Mfano
 
 ---
 
-Model Context Protocol
+Itifaki ya Muktadha wa Mfano
 
 ---
 
-Model Communication Protocol
+Itifaki ya Mawasiliano ya Mfano
 
 ## --video-solution--
 

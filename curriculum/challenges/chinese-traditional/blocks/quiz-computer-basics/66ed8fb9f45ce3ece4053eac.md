@@ -7,7 +7,7 @@ dashedName: quiz-computer-basics
 
 # --description--
 
-要通過測驗，你必須在以下 20 題中正確回答至少 18 題。
+要通過此測驗，你必須在以下 20 題中正確回答至少 18 題。
 
 # --quizzes--
 
@@ -894,3 +894,4 @@ Findex 或 Firefox
 #### --answer--
 
 `ZIP`
+

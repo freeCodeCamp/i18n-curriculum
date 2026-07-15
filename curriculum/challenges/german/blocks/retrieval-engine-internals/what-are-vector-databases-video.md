@@ -18,19 +18,19 @@ Welche der folgenden Optionen ist KEIN Beispiel für einen beliebten Indexierung
 
 ## --answers--
 
-Database Indexing Algorithm (DIA)
+Datenbank-Indexierungsalgorithmus (DIA)
 
 ---
 
-Hierarchical Navigable Small World (HNSW)
+Hierarchisch navigierbare kleine Welt (HNSW)
 
 ---
 
-Inverted File Index (IVF)
+Invertierter Datei-Index (IVF)
 
 ---
 
-Locality-Sensitive Hashing (LSH)
+Lokalitätssensitives Hashing (LSH)
 
 ## --video-solution--
 

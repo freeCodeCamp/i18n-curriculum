@@ -18,19 +18,19 @@ dashedName: defining-an-algorithm
 
 ## --answers--
 
-Optical Search 
+光学探索
 
 ---
 
-Linear Search
+線形探索
 
 ---
 
-Linked list Search
+連結リスト探索
 
 ---
 
-Triad Search
+三元探索
 
 ## --video-solution--
 

@@ -18,19 +18,19 @@ dashedName: quicksort
 
 ## --answers--
 
-recursion
+재귀
 
 ---
 
-iteration with nested loops
+중첩된 반복문을 사용한 반복
 
 ---
 
-hashing
+해싱
 
 ---
 
-dynamic programming
+동적 프로그래밍
 
 ## --video-solution--
 

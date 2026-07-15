@@ -21,7 +21,7 @@ O que significa CSS?
 
 #### --distractors--
 
-Cascading Style Script
+Script de estilo em cascata
 
 ---
 
@@ -910,3 +910,4 @@ Qual símbolo precede o seletor de ID?
 #### --answer--
 
 `#`
+

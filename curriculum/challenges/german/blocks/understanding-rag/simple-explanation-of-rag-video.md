@@ -18,19 +18,19 @@ Wofür steht RAG?
 
 ## --answers--
 
-Retrieval-Augmented Generation
+Abruf-unterstützte Generierung
 
 ---
 
-Recursive Attention Generation
+Rekursive Aufmerksamkeitsgenerierung
 
 ---
 
-Recurrent Adversarial Generation
+Rekurrente adversarielle Generierung
 
 ---
 
-Response-Action Generation
+Antwort-Aktions-Generierung
 
 ## --video-solution--
 

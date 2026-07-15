@@ -55,7 +55,7 @@ Canva
 
 #### --answer--
 
-WebAIM's Color Contrast Checker
+Kipima Mwangaza wa Rangi cha WebAIM
 
 ### --question--
 
@@ -73,7 +73,7 @@ Canva
 
 ---
 
-WebAIM's Color Contrast Checker
+Kipima Mwangaza wa Rangi cha WebAIM
 
 #### --answer--
 

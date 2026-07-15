@@ -894,3 +894,4 @@ Welches Dateiformat wird zum Komprimieren von Dateien verwendet?
 #### --answer--
 
 `ZIP`
+

@@ -13,7 +13,7 @@ dashedName: step-25
 const quotient = 5 / 2; // 2.5
 ```
 
-在上面的例子中，`5` 是 <dfn>被除数</dfn>，即要被除的数，而 `2` 是 <dfn>除数</dfn>，即要除以的数。 结果 `2.5` 被称为<dfn>商</dfn>。 
+在上面的例子中，`5` 是 <dfn>被除数</dfn>，即要被除的数，而 `2` 是 <dfn>除数</dfn>，即要除以的数。 结果 `2.5` 被称为<dfn>商</dfn>。
 
 在 `while` 循环内，创建一个名为 `quotient` 的变量，并将 `input` 除以 `2` 的值赋给它。
 
@@ -210,7 +210,7 @@ const decimalToBinary = (input) => {
 
   while (input > 0) {
     --fcc-editable-region--
-
+    
     --fcc-editable-region--
 
     input = 0;

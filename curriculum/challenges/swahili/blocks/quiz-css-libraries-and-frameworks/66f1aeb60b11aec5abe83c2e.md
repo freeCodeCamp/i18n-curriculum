@@ -43,15 +43,15 @@ Ni ipi kati ya zifuatazo ni mfumo maarufu wa kazi wa CSS unaolenga matumizi ya h
 
 #### --distractors--
 
-Template CSS
+CSS ya templeti
 
 ---
 
-Loading CSS
+CSS ya kupakia
 
 ---
 
-Minimal CSS
+CSS ya chini kabisa
 
 #### --answer--
 
@@ -87,15 +87,15 @@ SCSS inasimama kwa nini?
 
 #### --distractors--
 
-Super Cascading Style Sheets.
+Mafaili ya mitindo ya super cascading.
 
 ---
 
-Structured CSS.
+CSS iliyopangwa.
 
 ---
 
-Simple CSS.
+CSS rahisi.
 
 #### --answer--
 
@@ -121,7 +121,7 @@ CSS ndani ya mstari.
 
 #### --answer--
 
-Mixins
+Mixin
 
 ### --question--
 
@@ -298,3 +298,4 @@ mixin center-flex {
   align-items: center;
 }
 ```
+

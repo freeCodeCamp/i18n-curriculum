@@ -18,19 +18,19 @@ dashedName: maximum-and-minimum-values-on-a-graph
 
 ## --answers--
 
-Cosine maximums and minimum values.
+余弦の最大値と最小値。
 
 ---
 
-Variable maximum and minimum values.
+変数の最大値と最小値。
 
 ---
 
-Sine maximum and minimum values.
+正弦の最大値と最小値。
 
 ---
 
-Global maximum and minimum values.
+全体の最大値と最小値。
 
 ## --video-solution--
 

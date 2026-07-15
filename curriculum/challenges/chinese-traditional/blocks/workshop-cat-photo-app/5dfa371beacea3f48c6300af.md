@@ -48,7 +48,7 @@ assert.equal(
 );
 ```
 
-在最後一個巢狀於最後一個 `section` 元素中的 `h3` 元素上方，應該有一個文字為 `Cat Lists` 的 `h2` 元素。你可能不小心刪除了該 `h2` 元素。
+在最後一個 `section` 元素中巢狀的最後一個 `h3` 元素上方，應該有一個文字為 `Cat Lists` 的 `h2` 元素。你可能不小心刪除了該 `h2` 元素。
 
 ```js
 const secondSectionLastElemNode = document.querySelectorAll('main > section')[1]

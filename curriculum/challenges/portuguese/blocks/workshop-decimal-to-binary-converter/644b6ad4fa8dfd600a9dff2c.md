@@ -13,7 +13,7 @@ Para dividir números em JavaScript, use o operador de divisão (`/`). Por exemp
 const quotient = 5 / 2; // 2.5
 ```
 
-No exemplo acima, `5` é o <dfn>dividendo</dfn>, ou o número a ser dividido e `2` é o <dfn>divisor</dfn>, ou o número pelo qual se divide. O resultado, `2.5`, é chamado de <dfn>quociente</dfn>. 
+No exemplo acima, `5` é o <dfn>dividendo</dfn>, ou o número a ser dividido e `2` é o <dfn>divisor</dfn>, ou o número pelo qual se divide. O resultado, `2.5`, é chamado de <dfn>quociente</dfn>.
 
 Dentro do seu loop `while`, crie uma variável chamada `quotient` e atribua a ela o valor de `input` dividido por `2`.
 
@@ -210,7 +210,7 @@ const decimalToBinary = (input) => {
 
   while (input > 0) {
     --fcc-editable-region--
-
+    
     --fcc-editable-region--
 
     input = 0;

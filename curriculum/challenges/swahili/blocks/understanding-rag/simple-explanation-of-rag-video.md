@@ -18,20 +18,21 @@ RAG inasimamia nini?
 
 ## --answers--
 
-Retrieval-Augmented Generation
+Uundaji ulioboreshwa kwa urejeshaji
 
 ---
 
-Recursive Attention Generation
+Uundaji wa umakini wa kurudia
 
 ---
 
-Recurrent Adversarial Generation
+Uundaji wa ushindani unaorudiwa
 
 ---
 
-Response-Action Generation
+Uundaji wa jibu-tendo
 
 ## --video-solution--
 
 1
+

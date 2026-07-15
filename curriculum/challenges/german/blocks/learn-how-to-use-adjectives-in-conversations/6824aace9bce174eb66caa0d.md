@@ -16,7 +16,7 @@ Lesen Sie den Text und beantworten Sie die folgende Frage.
 
 ## --text--
 
-Jessica sent an email to the team the next day, summarizing her conversation with James about the new software version.
+Jessica schickte am nächsten Tag eine E-Mail an das Team, in der sie ihr Gespräch mit James über die neue Softwareversion zusammenfasste.
 
 `Hi team,`
 
@@ -54,7 +54,7 @@ Was berichtete Jessica über die Stabilität der Software?
 
 ## --answers--
 
-It now requires more updates to stay stable.
+Es benötigt jetzt mehr Updates, um stabil zu bleiben.
 
 ### --feedback--
 
@@ -62,11 +62,11 @@ Jessica erwähnt nicht die Notwendigkeit weiterer Updates.
 
 ---
 
-It crashes less and has fewer serious problems.
+Es stürzt weniger ab und hat weniger ernsthafte Probleme.
 
 ---
 
-It works the same as the old version in terms of stability.
+Es funktioniert in Bezug auf Stabilität genauso wie die alte Version.
 
 ### --feedback--
 
@@ -74,7 +74,7 @@ Sie sagt eindeutig, dass die neue Version `much more stable` ist.
 
 ---
 
-It still has many large bugs and stops working often.
+Es hat immer noch viele große Bugs und hört oft auf zu funktionieren.
 
 ### --feedback--
 

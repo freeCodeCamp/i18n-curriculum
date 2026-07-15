@@ -7,7 +7,7 @@ dashedName: quiz-basic-css
 
 # --description--
 
-クイズに合格するには、以下の20問中少なくとも18問に正しく答える必要があります。
+クイズに合格するには、以下の20問のうち少なくとも18問に正しく答える必要があります。
 
 # --quizzes--
 
@@ -21,19 +21,19 @@ CSSは何の略ですか？
 
 #### --distractors--
 
-Cascading Style Script
+カスケーディングスタイルスクリプト
 
 ---
 
-Concatenating Style Script
+連結スタイルスクリプト
 
 ---
 
-Castor Sage Style
+キャスターセージスタイル
 
 #### --answer--
 
-Cascading Style Sheets
+カスケーディングスタイルシート
 
 ### --question--
 
@@ -910,3 +910,4 @@ IDセレクターの前に付く記号は何ですか？
 #### --answer--
 
 `#`
+

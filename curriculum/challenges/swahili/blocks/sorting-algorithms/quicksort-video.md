@@ -18,19 +18,19 @@ Ni mbinu gani inayotumika katika algoriti ya quicksort?
 
 ## --answers--
 
-recursion
+kurudia tena
 
 ---
 
-iteration with nested loops
+kurudia kwa kutumia mizunguko zilizopangwa ndani
 
 ---
 
-hashing
+kuficha taarifa
 
 ---
 
-dynamic programming
+mpango wa mabadiliko
 
 ## --video-solution--
 

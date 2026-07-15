@@ -675,6 +675,40 @@
       "sub-step-5": "Katika uwanja wa <0>Secret</0>, bandika tokeni yako",
       "summary": "Usanidi wa Ona"
     },
+    "freecodecamp-os": {
+      "token-modal": "Unapoendesha kozi, dirisha la modal litaonekana likiomba tokeni yako ya mtumizi. Bandika tokeni uliyoinakili hapo juu ndani yake. Hii unahitaji kufanya mara moja tu kwa kila mazingira.",
+      "local": {
+        "intro": "Kozi hii inaendeshwa katika kontena la ukuzaji kwenye kompyuta yako kwa kutumia ugani wa freeCodeCamp - Courses VS Code. Ili kuendesha kozi, kwanza unahitaji kupakua kila mojawapo ya yafuatayo ikiwa bado huna:",
+        "heading": "Kisha, fuata maelekezo haya kuanza kozi:",
+        "step-1": "Fungua terminali na nakili repo ya back-end-development-and-apis ikiwa bado huna kwa <0>git clone https://github.com/freeCodeCamp/back-end-development-and-apis</0>",
+        "step-2": "Elekea kwenye saraka ya <0>back-end-development-and-apis</0> katika terminali kwa <1>cd back-end-development-and-apis</1>, kisha fungua VS Code kwa <2>code .</2>",
+        "step-3": "Fungua orodha ya amri katika VS Code kwa kupanua menyu ya \"View\" na kubofya \"Command Palette...\" kisha ingiza <0>Dev Containers: Rebuild and Reopen in Container</0> katika ingizo.",
+        "step-4": "Dirisha jipya la VS Code litaonekana na kuanza kujenga kontena la ukuzaji. Hii itachukua dakika kadhaa mara ya kwanza.",
+        "step-5": "Mara itakapomaliza kujenga, fungua tena orodha ya amri na ingiza <0>freeCodeCamp: Run Course</0> kuanza kozi.",
+        "step-6": "Kivinjari Rahisi kitafunguka baada ya kumaliza. Ikiwa ni ukurasa mweupe tupu, tumia kitufe cha onyesha upya kuiboresha na kuona ukurasa wa nyumbani wa kozi.",
+        "step-7": "Bofya kwenye mojawapo ya miradi inayopatikana kuianza, kisha fuata maelekezo ya mradi kumaliza."
+      },
+      "codespaces": {
+        "intro": "Kozi hii inaendeshwa katika mashine pepe ya Linux kwa kutumia GitHub Codespaces na ugani wa freeCodeCamp - Courses VS Code. Fuata maelekezo haya kuanza kozi:",
+        "step-1": "<0>Tengeneza akaunti ya GitHub</0> ikiwa bado huna",
+        "step-2": "Bofya kitufe cha kuanza kilicho hapa chini",
+        "step-3": "Kwenye ukurasa unaofunguka, bofya kitufe cha tengeneza",
+        "step-4": "Mara mashine pepe ya Linux itakapomaliza kupakia, fungua orodha ya amri na endesha amri ya <0>freeCodeCamp: Run Course</0>",
+        "step-5": "Kivinjari Rahisi kitafunguka baada ya kumaliza. Ikiwa ni ukurasa mweupe tupu, tumia kitufe cha onyesha upya kuiboresha na kuona ukurasa wa nyumbani wa kozi.",
+        "step-6": "Bofya kwenye mojawapo ya miradi inayopatikana kuianza, kisha fuata maelekezo ya mradi kumaliza.",
+        "continue-project": "Kubofya kitufe cha kuanza kilicho hapa chini kutaanzisha mashine mpya. Ikiwa tayari umeanza kozi ya {{title}}, nenda kwenye <0>ukurasa wa hifadhidata</0> kufungua tena eneo la kazi la awali."
+      },
+      "ona": {
+        "intro": "Kozi hii inaendeshwa katika mashine pepe ya Linux kwa kutumia Ona na ugani wa freeCodeCamp - Courses VS Code. Fuata maelekezo haya kuanza kozi:",
+        "step-1": "<0>Tengeneza akaunti ya Ona</0> ikiwa bado huna",
+        "step-2": "Bofya kitufe cha kuanza kilicho hapa chini",
+        "step-3": "Katika dirisha la modal linalojitokeza, bofya kitufe cha tengeneza",
+        "step-4": "Mara mashine pepe ya Linux itakapomaliza kupakia, fungua orodha ya amri na endesha amri ya <0>freeCodeCamp: Run Course</0>",
+        "step-5": "Kivinjari Rahisi kitafunguka baada ya kumaliza. Ikiwa ni ukurasa mweupe tupu, tumia kitufe cha onyesha upya kuiboresha na kuona ukurasa wa nyumbani wa kozi.",
+        "step-6": "Bofya kwenye mojawapo ya miradi inayopatikana kuianza, kisha fuata maelekezo ya mradi kumaliza.",
+        "continue-project": "Kubofya kitufe cha kuanza kilicho hapa chini kutaanzisha mashine mpya. Ikiwa tayari umeanza kozi ya {{course}}, nenda <0>dashibodi yako ya Ona</0> kuendelea."
+      }
+    },
     "local": {
       "intro": "Kozi hii inaendeshwa kwenye mashine ya Linux ya mtandao kwenye kompyuta yako. Ili kuendesha kozi, kwanza unahitaji kupakua kila mojawapo ya yafuatayo ikiwa bado huna:",
       "download-vscode": "<0>VS Code</0> na ugani wa <1>Dev Containers</1>",

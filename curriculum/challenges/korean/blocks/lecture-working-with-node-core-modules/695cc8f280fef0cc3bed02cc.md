@@ -164,7 +164,7 @@ writeOutputFileStream.on("error", (err) => {
 
 ## --answers--
 
-Request, Response, Event, and Error streams.
+요청, 응답, 이벤트, 그리고 오류 스트림입니다.
 
 ### --feedback--
 
@@ -172,7 +172,7 @@ Node.js가 데이터를 읽고 쓰며 변환하는 방식을 생각해 보세요
 
 ---
 
-Readable, Editable, Duplex, and Transform streams.
+읽기 가능, 편집 가능, 이중, 그리고 변환 스트림입니다.
 
 ### --feedback--
 
@@ -180,7 +180,7 @@ Node.js가 데이터를 읽고 쓰며 변환하는 방식을 생각해 보세요
 
 ---
 
-Data, File, HTTP, and Buffer streams.
+데이터, 파일, HTTP, 그리고 버퍼 스트림입니다.
 
 ### --feedback--
 
@@ -188,7 +188,7 @@ Node.js가 데이터를 읽고 쓰며 변환하는 방식을 생각해 보세요
 
 ---
 
-Readable, Writable, Duplex, and Transform streams.
+읽기 가능, 쓰기 가능, 이중, 그리고 변환 스트림입니다.
 
 ## --video-solution--
 

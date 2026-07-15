@@ -43,7 +43,7 @@ dashedName: quiz-css-accessibility
 
 #### --distractors--
 
-TPGi Colour Contrast Analyzer
+TPGi 색상 대비 분석기
 
 ---
 
@@ -77,7 +77,7 @@ WebAIM의 Color Contrast Checker
 
 #### --answer--
 
-TPGi Colour Contrast Analyzer
+TPGi 색상 대비 분석기
 
 ### --question--
 

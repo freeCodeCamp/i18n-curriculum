@@ -18,20 +18,21 @@ dashedName: what-are-vector-databases
 
 ## --answers--
 
-Database Indexing Algorithm (DIA)
+데이터베이스 인덱싱 알고리즘 (DIA)
 
 ---
 
-Hierarchical Navigable Small World (HNSW)
+계층적 네비게이블 스몰 월드 (HNSW)
 
 ---
 
-Inverted File Index (IVF)
+역방향 파일 인덱스 (IVF)
 
 ---
 
-Locality-Sensitive Hashing (LSH)
+지역 민감 해싱 (LSH)
 
 ## --video-solution--
 
 1
+

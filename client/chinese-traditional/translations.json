@@ -675,6 +675,40 @@
       "sub-step-5": "在 <0>秘密</0> 欄位貼上你的 token",
       "summary": "Ona 設定"
     },
+    "freecodecamp-os": {
+      "token-modal": "當你執行課程時，會跳出一個視窗要求輸入你的使用者語彙單元。請將你剛才複製的語彙單元貼上。每個環境只需操作一次。",
+      "local": {
+        "intro": "此課程會在你的電腦中使用 freeCodeCamp - Courses VS Code 擴充套件的開發容器中執行。若你尚未擁有以下軟體，請先下載：",
+        "heading": "接著，請依照以下指示開始課程：",
+        "step-1": "打開終端機，若你尚未擁有，請用 <0>git clone https://github.com/freeCodeCamp/back-end-development-and-apis</0> 複製 back-end-development-and-apis 倉庫",
+        "step-2": "在終端機中切換到 <0>back-end-development-and-apis</0> 目錄，指令為 <1>cd back-end-development-and-apis</1>，然後用 <2>code .</2> 開啟 VS Code",
+        "step-3": "在 VS Code 中展開「檢視」選單並點選「指令面板...」，輸入 <0>Dev Containers: Rebuild and Reopen in Container</0>",
+        "step-4": "會開啟一個新的 VS Code 視窗並開始建置開發容器。第一次建置會花費幾分鐘。",
+        "step-5": "建置完成後，再次開啟指令面板並輸入 <0>freeCodeCamp: Run Course</0> 以開始課程。",
+        "step-6": "完成後會開啟 Simple Browser。如果是空白白頁，請使用重新整理按鈕更新，查看課程首頁。",
+        "step-7": "點選其中一個可用的專案開始，然後依照專案中的指示完成它。"
+      },
+      "codespaces": {
+        "intro": "此課程會在虛擬 Linux 機器中使用 GitHub Codespaces 和 freeCodeCamp - Courses VS Code 擴充套件執行。請依照以下指示開始課程：",
+        "step-1": "<0>如果你還沒有，請創建一個 GitHub 帳號</0>",
+        "step-2": "點擊下方的開始按鈕",
+        "step-3": "在開啟的頁面中，點擊建立按鈕",
+        "step-4": "虛擬 Linux 機器載入完成後，開啟指令面板並執行 <0>freeCodeCamp: Run Course</0> 指令",
+        "step-5": "完成後會開啟 Simple Browser。如果是空白白頁，請使用重新整理按鈕更新，查看課程首頁。",
+        "step-6": "點選其中一個可用的專案開始，然後依照專案中的指示完成它。",
+        "continue-project": "點擊下方開始按鈕會啟動一台新機器。若你之前已開始過 {{title}} 課程，請前往 <0>倉庫頁面</0> 重新開啟先前的工作區。"
+      },
+      "ona": {
+        "intro": "此課程會在虛擬 Linux 機器中使用 Ona 和 freeCodeCamp - Courses VS Code 擴充套件執行。請依照以下指示開始課程：",
+        "step-1": "<0>如果你還沒有，請創建一個 Ona 帳號</0>",
+        "step-2": "點擊下方的開始按鈕",
+        "step-3": "在跳出的視窗中，點擊建立按鈕",
+        "step-4": "虛擬 Linux 機器載入完成後，開啟指令面板並執行 <0>freeCodeCamp: Run Course</0> 指令",
+        "step-5": "完成後會開啟 Simple Browser。如果是空白白頁，請使用重新整理按鈕更新，查看課程首頁。",
+        "step-6": "點選其中一個可用的專案開始，然後依照專案中的指示完成它。",
+        "continue-project": "點擊下方開始按鈕會啟動一台新機器。若你之前已開始過 {{course}} 課程，請前往 <0>你的 Ona 儀表板</0> 繼續。"
+      }
+    },
     "local": {
       "intro": "本課程在你電腦上的虛擬 Linux 機器中執行。若你還沒有以下軟體，請先下載：",
       "download-vscode": "<0>VS Code</0> 和 <1>Dev Containers</1> 擴充套件",

@@ -1,13 +1,13 @@
 ---
 id: 66edc31c44f1b9c1d5c5ebca
-title: JavaScript-Strings-Quiz
+title: JavaScript Strings Quiz
 challengeType: 8
 dashedName: quiz-javascript-strings
 ---
 
 # --description--
 
-Um das Quiz zu bestehen, müssen Sie mindestens 18 der 20 Fragen unten richtig beantworten.
+Um das Quiz zu bestehen, müssen Sie mindestens 18 der 20 untenstehenden Fragen richtig beantworten.
 
 # --quizzes--
 
@@ -109,19 +109,19 @@ Wofür steht ASCII?
 
 #### --distractors--
 
-American Standard Code for Internet Information
+Amerikanischer Standardcode für Internetinformationen
 
 ---
 
-Advanced Systematic Code for Internal Interchange
+Fortgeschrittener systematischer Code für internen Austausch
 
 ---
 
-Automatic Standard Code for Internal Information
+Automatischer Standardcode für interne Informationen
 
 #### --answer--
 
-American Standard Code for Information Interchange
+Amerikanischer Standardcode für Informationsaustausch
 
 ### --question--
 

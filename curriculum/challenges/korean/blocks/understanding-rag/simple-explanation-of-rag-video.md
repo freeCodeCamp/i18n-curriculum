@@ -18,20 +18,21 @@ RAG는 무엇의 약자인가요?
 
 ## --answers--
 
-Retrieval-Augmented Generation
+검색 증강 생성
 
 ---
 
-Recursive Attention Generation
+재귀적 주의 생성
 
 ---
 
-Recurrent Adversarial Generation
+순환 적대 생성
 
 ---
 
-Response-Action Generation
+응답-행동 생성
 
 ## --video-solution--
 
 1
+

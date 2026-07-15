@@ -18,20 +18,22 @@ dashedName: rag-architecture
 
 ## --answers--
 
-LLM → Chunking → Embedding → Vector Database
+LLM → 청킹 → 임베딩 → 벡터 데이터베이스
 
 ---
 
-Chunking → Embedding → Vector Database → LLM
+청킹 → 임베딩 → 벡터 데이터베이스 → LLM
 
 ---
 
-Embedding → Chunking → Vector Database → LLM
+임베딩 → 청킹 → 벡터 데이터베이스 → LLM
 
 ---
 
-Chunking → LLM → Vector Database → Embedding
+청킹 → LLM → 벡터 데이터베이스 → 임베딩
 
 ## --video-solution--
 
 2
+
+

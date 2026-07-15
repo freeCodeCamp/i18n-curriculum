@@ -6039,7 +6039,6 @@
         ]
       },
       "front-end-development-libraries-certification-exam": {
-        "note": "2026年公開予定",
         "intro": [
           "この試験に合格してフロントエンド開発ライブラリ認定を取得してください。"
         ]
@@ -7176,6 +7175,7 @@
       "websockets": "WebSockets",
       "security-and-privacy": "セキュリティとプライバシー",
       "authentication": "認証",
+      "review-back-end-development-and-apis": "バックエンド開発とAPIの復習",
       "back-end-development-and-apis-certification-exam": "バックエンド開発とAPI認定試験"
     },
     "module-intros": {
@@ -7250,6 +7250,12 @@
         "intro": [
           "この試験に合格してバックエンド開発とAPI認定を取得しましょう。"
         ]
+      },
+      "review-back-end-development-and-apis": {
+        "note": "2026年後半公開予定",
+        "intro": [
+          "今後の試験に備えてバックエンド開発とAPIの概念を復習しましょう。"
+        ]
       }
     },
     "blocks": {
@@ -7281,10 +7287,10 @@
           "fs、buffer、stream、pathなどのNode.jsコアモジュールについて学び、サードパーティライブラリに頼らず効率的なアプリケーションを構築するためにNodeが提供する機能を理解します。"
         ]
       },
-      "workshop-nodejs-common-modules": {
-        "title": "Node.js組み込みモジュールを学ぶ",
+      "workshop-build-a-file-processor": {
+        "title": "ファイルプロセッサーを作る",
         "intro": [
-          "ファイル操作やデータ処理に使う<code>fs</code>、<code>path</code>、<code>crypto</code>などのNode.js組み込みモジュールを学びます。"
+          "ファイル操作やデータ処理に <code>fs</code>、<code>path</code>、<code>crypto</code> といったNode.jsの組み込みモジュールを使って学びます。"
         ]
       },
       "review-node-js-core-modules": {
@@ -7311,10 +7317,10 @@
           "npmスクリプト、npmレジストリへのパッケージ公開、CommonJSとESモジュールの扱いについて学びます。これらはNode.js開発に欠かせないツールとモジュールシステムです。"
         ]
       },
-      "workshop-how-to-build-an-npm-module": {
-        "title": "NPMモジュールの作り方を学ぶ",
+      "workshop-build-a-case-converter": {
+        "title": "ケースコンバーターを作る",
         "intro": [
-          "ケース変換ツールを作りながら、NPMモジュールの初期化、設定、公開方法を学びます。"
+          "ケースコンバーターを作りながら、NPMモジュールの初期化、設定、公開方法を学びます。"
         ]
       },
       "lab-prime-number-checker-module": {
@@ -7349,10 +7355,10 @@
           "この講義では、ウェブ標準モデル、標準化団体、そのプロセス、ライフサイクル、そしてウェブ標準の原則について学びます。"
         ]
       },
-      "workshop-nodejs-by-building-a-web-server": {
-        "title": "ウェブサーバーを作りながらNode.jsを学ぶ",
+      "workshop-build-a-web-server": {
+        "title": "ウェブサーバーを作る",
         "intro": [
-          "マルチページのクライアントアプリケーションを提供するウェブサーバーを作りながら、Node.jsの<code>http</code>モジュールを学びます。"
+          "マルチページクライアントアプリケーションを提供するウェブサーバーを作りながら、Node.jsの <code>http</code> モジュールを学びます。"
         ]
       },
       "review-http-and-the-web-standards-model": {
@@ -7374,10 +7380,10 @@
           "このレッスンでは、REST APIとウェブサービスについて学び、異なるアプリケーションがインターネットを介してどのように通信するかを理解します。"
         ]
       },
-      "workshop-express-by-building-a-weather-service-api": {
-        "title": "天気サービスAPIを作りながらExpressを学ぶ",
+      "workshop-build-a-weather-service-api": {
+        "title": "天気サービスAPIを作る",
         "intro": [
-          "<code>express.Router</code>を使ったルートパラメータとモジュール式ルーティングを学びながら、天気サービスAPIを作ります。"
+          "<code>express.Router</code> を使ったルートパラメータとモジュラー型ルーティングを学びながら天気サービスAPIを作ります。"
         ]
       },
       "lab-timestamp-microservice": {
@@ -7399,10 +7405,10 @@
           "このレッスンでは、ExpressJSのルーティングについて学びます。これはウェブアプリケーションのさまざまなエンドポイントを定義し、クライアントのリクエストにどう応答するかを決める方法です。"
         ]
       },
-      "workshop-express-by-building-a-random-joke-app": {
-        "title": "ランダムジョークアプリを作りながらExpressを学ぶ",
+      "workshop-build-a-random-joke-app": {
+        "title": "ランダムジョークアプリを作る",
         "intro": [
-          "基本的なExpressのルーティングとレスポンスメソッドを学びながら、ランダムジョークアプリを作ります。"
+          "ランダムジョークアプリを作りながら、基本的なExpressルーティングとレスポンスメソッドを学びます。"
         ]
       },
       "lab-personal-profile-app": {
@@ -7429,8 +7435,8 @@
           "このレッスンでは、Expressにおけるエラーハンドリングとヘルスチェックについて学びます。"
         ]
       },
-      "workshop-error-handling-in-express-by-building-a-bank-api": {
-        "title": "銀行APIを作りながらExpressのエラーハンドリングを学ぶ",
+      "workshop-build-a-bank-api": {
+        "title": "銀行APIを作る",
         "intro": [
           "銀行APIを作りながら、Express 5のエラーハンドリング、ヘルスチェック、グレースフルシャットダウンを学びます。"
         ]
@@ -7453,10 +7459,10 @@
           "このレッスンでは、Expressのミドルウェアの仕組みを学びます。アプリケーションレベル、ルーターレベル、エラーハンドリングミドルウェア、組み込みおよびサードパーティのミドルウェアの例も含みます。"
         ]
       },
-      "workshop-express-middleware-by-building-a-submission-form": {
-        "title": "提出フォームを作りながらExpressミドルウェアを学ぶ",
+      "workshop-build-a-submission-form": {
+        "title": "提出フォームを作る",
         "intro": [
-          "構造化された提出フォームを作りながら、アプリケーションレベルとルーターレベルのミドルウェアを学びます。"
+          "構造化された提出フォームを作りながら、アプリケーションレベルとルーター レベルのミドルウェアを学びます。"
         ]
       },
       "lab-data-sanitizer": {
@@ -7483,10 +7489,10 @@
           "WebSocketsがクライアントとサーバー間のリアルタイム双方向通信を可能にする仕組みと、Pub/Subメッセージングアーキテクチャがリアルタイムアプリケーションでメッセージを適切な購読者にルーティングする方法を学びます。"
         ]
       },
-      "workshop-websockets-by-building-a-resource-monitor": {
-        "title": "リソースモニターを作りながらWebSocketsを学ぶ",
+      "workshop-build-a-resource-monitor": {
+        "title": "リソースモニターを作る",
         "intro": [
-          "システムリソースモニターを作りながら、Node.jsのWebSocketsとリアルタイムデータストリーミングを学びます。"
+          "システムリソースモニターを作りながら、Node.jsのWebSocketとリアルタイムデータストリーミングを学びます。"
         ]
       },
       "lab-chat-app": {
@@ -7507,6 +7513,12 @@
           "WebSocketsとPub/Subの知識をこのクイズでテストしましょう。"
         ]
       },
+      "lecture-understanding-security-and-privacy-in-web-applications": {
+        "title": "ウェブアプリケーションにおけるセキュリティとプライバシーの理解",
+        "intro": [
+          "HTTPS、クッキー、CSP、一般的な脅威、プライバシー法などを含め、ウェブアプリケーションのセキュリティとプライバシーの仕組みを学びます。"
+        ]
+      },
       "review-security-and-privacy": {
         "title": "セキュリティとプライバシーのレビュー",
         "intro": [
@@ -7525,6 +7537,18 @@
           "認証と認可の仕組み、JWTがAPIルートを保護する方法、CSRF攻撃からの防御方法、Passport.jsとHelmet.jsを使ったNode.jsアプリケーションのセキュリティ強化方法を学びます。"
         ]
       },
+      "workshop-jwt-protected-routes": {
+        "title": "JWT保護ルートを作る",
+        "intro": [
+          "JWT保護ルートを持つExpressアプリケーションを作りながら、認証と役割ベースの認可を学びます。"
+        ]
+      },
+      "lab-family-movie-watchlist-api": {
+        "title": "家族用映画ウォッチリストAPIを作る",
+        "intro": [
+          "家族用映画ウォッチリストAPIを作りながら、Expressアプリケーションでの認証と認可の実装を練習します。"
+        ]
+      },
       "review-authentication-and-authorization": {
         "title": "認証と認可の復習",
         "intro": [
@@ -7537,16 +7561,16 @@
           "このモジュールで扱った認証と認可の概念の知識をテストしましょう。"
         ]
       },
+      "review-back-end-development-and-apis": {
+        "title": "バックエンド開発とAPIの復習",
+        "intro": [
+          "今後の試験に備えてバックエンド開発とAPIの概念を復習しましょう。"
+        ]
+      },
       "exam-back-end-development-and-apis-certification": {
         "title": "バックエンド開発とAPI認定試験",
         "intro": [
           "この試験に合格して、バックエンド開発とAPIの認定を取得しましょう。"
-        ]
-      },
-      "lecture-understanding-security-and-privacy-in-web-applications": {
-        "title": "ウェブアプリケーションにおけるセキュリティとプライバシーの理解",
-        "intro": [
-          "HTTPS、クッキー、CSP、一般的な脅威、プライバシー法などを含め、ウェブアプリケーションのセキュリティとプライバシーの仕組みを学びます。"
         ]
       }
     }
@@ -9282,7 +9306,7 @@
       "lecture-understanding-the-html-boilerplate": {
         "title": "HTMLボイラープレートの理解",
         "intro": [
-          "これらの講義では、ウェブページ用の既成テンプレートであるHTMLボイラープレートについて学びます。",
+          "この講義では、ウェブページのための既成テンプレートであるHTMLボイラープレートについて学びます。",
           "<code>link</code>要素、<code>meta</code>要素などの使い方を学びます。"
         ]
       },
@@ -9302,13 +9326,13 @@
       "lecture-html-fundamentals": {
         "title": "HTMLの基本",
         "intro": [
-          "これらの講義では、<code>div</code>要素、<code>id</code>と<code>class</code>属性、HTMLボイラープレート、HTMLエンティティなどのHTMLの基本を学びます。"
+          "この講義では、<code>div</code>要素、<code>id</code>と<code>class</code>属性、<code>script</code>要素、HTMLエンティティなど、HTMLの基本を学びます。"
         ]
       },
       "workshop-bookstore-page": {
         "title": "書店ページを作成する",
         "intro": [
-          "このワークショップでは、クラス、ID、<code>div</code>要素を使って書店ページを作成する練習をします。"
+          "このワークショップでは、クラス、id、<code>div</code>要素を使って書店ページを作りながら練習します。"
         ]
       },
       "lecture-understanding-how-html-affects-seo": {
@@ -9320,7 +9344,7 @@
       "lab-travel-agency-page": {
         "title": "旅行代理店ページを作成する",
         "intro": [
-          "このラボでは、旅行代理店のウェブページを作成しながら、HTMLの基本操作を復習します。画像、<code>figure</code>要素、<code>figcaption</code>要素、<code>anchor</code>要素などを扱います。"
+          "このラボでは、旅行代理店のウェブページを作成しながらHTMLの基本を復習します。画像、<code>figure</code>要素、<code>figcaption</code>要素、<code>a</code>要素などを扱います。"
         ]
       },
       "lecture-working-with-audio-and-video-elements": {
@@ -9352,13 +9376,13 @@
       "lecture-working-with-images-and-svgs": {
         "title": "画像とSVGの操作",
         "intro": [
-          "この講義では、SVGの使い方や画像の最適化手法について学びます。"
+          "この講義では、SVGの扱い方と画像最適化の手法を学びます。"
         ]
       },
       "workshop-build-a-heart-icon": {
         "title": "ハートアイコンを作成する",
         "intro": [
-          "このワークショップでは、SVGを使ってハートアイコンを作成する練習をします。"
+          "このワークショップでは、SVGを使ってハートアイコンを作りながら練習します。"
         ]
       },
       "lecture-working-with-media": {

@@ -1,6 +1,6 @@
 ---
 id: 64475c0b61cddb6feaab4e2e
-title: Step 13
+title: Hatua 13
 challengeType: 0
 dashedName: step-13
 ---
@@ -213,7 +213,7 @@ const checkUserInput = () => {
     parseInt(numberInput.value) < 0
   ) {
     --fcc-editable-region--
-
+    
     --fcc-editable-region--
   }
 

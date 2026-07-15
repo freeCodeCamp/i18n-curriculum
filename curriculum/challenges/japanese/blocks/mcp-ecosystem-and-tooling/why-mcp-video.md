@@ -18,19 +18,19 @@ MCPは何の略でしょうか？
 
 ## --answers--
 
-Model Cascade Protocol
+モデルカスケードプロトコル
 
 ---
 
-Model Control Protocol
+モデルコントロールプロトコル
 
 ---
 
-Model Context Protocol
+モデルコンテキストプロトコル
 
 ---
 
-Model Communication Protocol
+モデルコミュニケーションプロトコル
 
 ## --video-solution--
 

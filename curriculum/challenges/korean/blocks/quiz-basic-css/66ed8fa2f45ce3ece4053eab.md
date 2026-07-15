@@ -7,7 +7,7 @@ dashedName: quiz-basic-css
 
 # --description--
 
-퀴즈를 통과하려면 아래 20문제 중 최소 18문제를 올바르게 답해야 합니다.
+퀴즈를 통과하려면 아래 20문제 중 최소 18문제를 올바르게 답하세요.
 
 # --quizzes--
 
@@ -21,19 +21,19 @@ CSS는 무엇의 약자인가요?
 
 #### --distractors--
 
-Cascading Style Script
+계단식 스타일 스크립트
 
 ---
 
-Concatenating Style Script
+연결 스타일 스크립트
 
 ---
 
-Castor Sage Style
+캐스터 세이지 스타일
 
 #### --answer--
 
-Cascading Style Sheets
+계단식 스타일 시트
 
 ### --question--
 
@@ -355,11 +355,11 @@ CSS에서 `!important`는 무엇을 하나요?
 
 ---
 
-It disables all other CSS properties applied to the same element, effectively making it the only rule that affects the element's styling.
+같은 요소에 적용된 다른 모든 CSS 속성을 무효화하여 해당 요소 스타일에 영향을 주는 유일한 규칙이 되게 합니다.
 
 ---
 
-It applies only to a certain selector or group of elements.
+특정 선택자나 요소 그룹에만 적용됩니다.
 
 #### --answer--
 
@@ -589,15 +589,15 @@ body {
 
 #### --distractors--
 
-It has the highest specificity because it can style all the elements on a page.
+페이지의 모든 요소를 스타일링할 수 있기 때문에 가장 높은 특이성을 가집니다.
 
 ---
 
-It contributes 1 to all parts of the specificity value.
+특이성 값의 모든 부분에 1씩 기여합니다.
 
 ---
 
-It cannot reset styles across different browsers.
+다른 브라우저 간 스타일을 초기화할 수 없습니다.
 
 #### --answer--
 
@@ -655,7 +655,7 @@ It cannot reset styles across different browsers.
 
 #### --distractors--
 
-The space inside the element.
+요소 내부 공간입니다.
 
 ---
 
@@ -677,7 +677,7 @@ The space inside the element.
 
 #### --distractors--
 
-Between the element's border and the surrounding elements.
+요소의 테두리와 주변 요소 사이의 공간입니다.
 
 ---
 
@@ -703,7 +703,7 @@ Between the element's border and the surrounding elements.
 
 ---
 
-Common block-level elements include `div`, `p`, and `section`.
+일반적인 블록 레벨 요소에는 `div`, `p`, `section`이 포함됩니다.
 
 ---
 
@@ -910,3 +910,4 @@ ID 선택자 앞에 오는 기호는 무엇인가요?
 #### --answer--
 
 `#`
+

@@ -21,19 +21,19 @@ CSS inasimamia nini?
 
 #### --distractors--
 
-Cascading Style Script
+Skripti ya Mtindo wa Mfuatano
 
 ---
 
-Concatenating Style Script
+Skripti ya Muunganiko wa Mtindo
 
 ---
 
-Castor Sage Style
+Mtindo wa Castor Sage
 
 #### --answer--
 
-Cascading Style Sheets
+Mabamba ya Mtindo wa Mfuatano
 
 ### --question--
 
@@ -910,3 +910,4 @@ Ni alama gani huandamana na kichaguzi cha ID?
 #### --answer--
 
 `#`
+

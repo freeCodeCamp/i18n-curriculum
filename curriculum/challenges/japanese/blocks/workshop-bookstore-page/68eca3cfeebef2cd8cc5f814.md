@@ -18,7 +18,7 @@ const cards = document.querySelectorAll('.card');
 assert.isTrue(cards[1]?.hasAttribute('id'));
 ```
 
-クラスが `card` の2番目の要素には、値が `id` の `dave-cooking-book` が必要です。
+`card` クラスを持つ2番目の要素に `id` 属性を追加し、その値を `dave-cooking-book` にしてください。
 
 ```js
 const cards = document.querySelectorAll('.card');

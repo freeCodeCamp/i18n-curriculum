@@ -6039,7 +6039,6 @@
         ]
       },
       "front-end-development-libraries-certification-exam": {
-        "note": "In arrivo nel 2026",
         "intro": [
           "Supera questo esame per ottenere la certificazione sulle librerie per lo sviluppo front-end."
         ]
@@ -7176,6 +7175,7 @@
       "websockets": "WebSocket",
       "security-and-privacy": "Sicurezza e privacy",
       "authentication": "Autenticazione",
+      "review-back-end-development-and-apis": "Revisione dello sviluppo back-end e delle API",
       "back-end-development-and-apis-certification-exam": "Esame di certificazione in sviluppo back-end e API"
     },
     "module-intros": {
@@ -7250,6 +7250,12 @@
         "intro": [
           "Supera questo esame per ottenere la certificazione in sviluppo back-end e API."
         ]
+      },
+      "review-back-end-development-and-apis": {
+        "note": "In arrivo a fine 2026",
+        "intro": [
+          "Rivedi i concetti di sviluppo back-end e API per prepararti al prossimo esame."
+        ]
       }
     },
     "blocks": {
@@ -7281,10 +7287,10 @@
           "Scopri i moduli core di node.js come fs, buffer, stream, path e altri, per capire cosa Node ti offre integrato per costruire applicazioni efficienti senza dipendere da librerie di terze parti."
         ]
       },
-      "workshop-nodejs-common-modules": {
-        "title": "Impara i moduli comuni di Node.js",
+      "workshop-build-a-file-processor": {
+        "title": "Crea un processore di file",
         "intro": [
-          "Imparerai i moduli integrati di Node.js come <code>fs</code>, <code>path</code> e <code>crypto</code> usandoli per operazioni su file e elaborazione dati."
+          "Imparerai i moduli integrati di Node.js come <code>fs</code>, <code>path</code> e <code>crypto</code> usandoli per operazioni sui file e l'elaborazione dei dati."
         ]
       },
       "review-node-js-core-modules": {
@@ -7311,10 +7317,10 @@
           "Scopri gli script npm, come pubblicare pacchetti nel registro npm e come lavorare con CommonJS e moduli ES. Queste lezioni coprono strumenti essenziali per lo sviluppo Node.js e i sistemi di moduli."
         ]
       },
-      "workshop-how-to-build-an-npm-module": {
-        "title": "Impara come costruire un modulo NPM",
+      "workshop-build-a-case-converter": {
+        "title": "Crea un convertitore di maiuscole e minuscole",
         "intro": [
-          "Imparerai come inizializzare, configurare e pubblicare un modulo NPM costruendo un convertitore di maiuscole e minuscole."
+          "Imparerai come inizializzare, configurare e pubblicare un modulo npm creando un convertitore di maiuscole e minuscole."
         ]
       },
       "lab-prime-number-checker-module": {
@@ -7349,10 +7355,10 @@
           "In queste lezioni imparerai il modello degli standard web, gli enti di standardizzazione, il processo, il ciclo di vita e i principi alla base degli standard web."
         ]
       },
-      "workshop-nodejs-by-building-a-web-server": {
-        "title": "Impara Node.js costruendo un server web",
+      "workshop-build-a-web-server": {
+        "title": "Crea un server web",
         "intro": [
-          "Imparerai il modulo <code>http</code> di Node.js costruendo un server web per servire un'applicazione client multipagina."
+          "Imparerai il modulo <code>http</code> di Node.js costruendo un server web per servire un'app client multipagina."
         ]
       },
       "review-http-and-the-web-standards-model": {
@@ -7374,10 +7380,10 @@
           "In queste lezioni imparerai le API REST e i servizi web, e come permettono a diverse applicazioni di comunicare tra loro su internet."
         ]
       },
-      "workshop-express-by-building-a-weather-service-api": {
-        "title": "Impara Express costruendo un'API di servizio meteo",
+      "workshop-build-a-weather-service-api": {
+        "title": "Crea un'API per un servizio meteo",
         "intro": [
-          "Imparerai i parametri di rotta e il routing modulare con <code>express.Router</code> costruendo un'API di servizio meteo."
+          "Imparerai i parametri di rotta e il routing modulare con <code>express.Router</code> costruendo un'API per un servizio meteo."
         ]
       },
       "lab-timestamp-microservice": {
@@ -7399,8 +7405,8 @@
           "In queste lezioni imparerai il routing in ExpressJS, cioè come definire i diversi endpoint della tua applicazione web e come rispondono alle richieste del client."
         ]
       },
-      "workshop-express-by-building-a-random-joke-app": {
-        "title": "Impara Express costruendo un'app di barzellette casuali",
+      "workshop-build-a-random-joke-app": {
+        "title": "Crea un'app di barzellette casuali",
         "intro": [
           "Imparerai il routing base di Express e i metodi di risposta costruendo un'app di barzellette casuali."
         ]
@@ -7429,10 +7435,10 @@
           "In queste lezioni imparerai la gestione degli errori e i controlli di integrità in Express."
         ]
       },
-      "workshop-error-handling-in-express-by-building-a-bank-api": {
-        "title": "Impara la gestione degli errori in Express costruendo un'API bancaria",
+      "workshop-build-a-bank-api": {
+        "title": "Crea un'API bancaria",
         "intro": [
-          "Imparerai la gestione degli errori in Express 5, i controlli di integrità e le chiusure graduali costruendo un'API bancaria."
+          "Imparerai la gestione degli errori in Express 5, i controlli di salute e le chiusure graduali costruendo un'API bancaria."
         ]
       },
       "review-error-handling-in-express": {
@@ -7453,10 +7459,10 @@
           "In queste lezioni imparerai come funziona il middleware in Express, inclusi middleware a livello di applicazione, router e gestione degli errori, oltre a esempi di middleware integrati e di terze parti."
         ]
       },
-      "workshop-express-middleware-by-building-a-submission-form": {
-        "title": "Impara il middleware di Express costruendo un modulo di invio",
+      "workshop-build-a-submission-form": {
+        "title": "Crea un modulo di invio",
         "intro": [
-          "Imparerai il middleware a livello di applicazione e router costruendo un modulo di invio strutturato."
+          "Imparerai il middleware a livello di applicazione e di router costruendo un modulo di invio strutturato."
         ]
       },
       "lab-data-sanitizer": {
@@ -7483,8 +7489,8 @@
           "Impara come i WebSocket permettono una comunicazione bidirezionale in tempo reale tra client e server, e come l'architettura di messaggistica Pub/Sub instrada i messaggi ai giusti iscritti nelle applicazioni in tempo reale."
         ]
       },
-      "workshop-websockets-by-building-a-resource-monitor": {
-        "title": "Impara i WebSocket costruendo un monitor delle risorse",
+      "workshop-build-a-resource-monitor": {
+        "title": "Crea un monitor delle risorse",
         "intro": [
           "Imparerai i WebSocket di Node.js e lo streaming di dati in tempo reale costruendo un monitor delle risorse di sistema."
         ]
@@ -7507,6 +7513,12 @@
           "Metti alla prova le tue conoscenze su WebSocket e Pub/Sub con questo quiz."
         ]
       },
+      "lecture-understanding-security-and-privacy-in-web-applications": {
+        "title": "Comprendere la sicurezza e la privacy nelle applicazioni web",
+        "intro": [
+          "Scopri come funzionano la sicurezza e la privacy nelle applicazioni web, coprendo HTTPS, cookie, CSP, minacce comuni, leggi sulla privacy e altro."
+        ]
+      },
       "review-security-and-privacy": {
         "title": "Revisione sulla sicurezza e la privacy",
         "intro": [
@@ -7525,6 +7537,18 @@
           "Impara come funzionano autenticazione e autorizzazione, come i JWT proteggono le tue rotte API, come difendersi dagli attacchi CSRF e come usare Passport.js e Helmet.js per mettere in sicurezza le tue applicazioni Node.js."
         ]
       },
+      "workshop-jwt-protected-routes": {
+        "title": "Crea rotte protette da JWT",
+        "intro": [
+          "Imparerai l'autenticazione e l'autorizzazione basata sui ruoli costruendo un'app Express con rotte protette da JWT."
+        ]
+      },
+      "lab-family-movie-watchlist-api": {
+        "title": "Crea un'API per la lista film di famiglia",
+        "intro": [
+          "Metti in pratica l'implementazione di autenticazione e autorizzazione in un'app Express costruendo un'API per la lista film di famiglia."
+        ]
+      },
       "review-authentication-and-authorization": {
         "title": "Revisione di autenticazione e autorizzazione",
         "intro": [
@@ -7537,16 +7561,16 @@
           "Metti alla prova le tue conoscenze sui concetti di autenticazione e autorizzazione trattati in questo modulo."
         ]
       },
+      "review-back-end-development-and-apis": {
+        "title": "Revisione dello sviluppo back-end e delle API",
+        "intro": [
+          "Rivedi i concetti di sviluppo back-end e API per prepararti al prossimo esame."
+        ]
+      },
       "exam-back-end-development-and-apis-certification": {
         "title": "Esame di certificazione per sviluppo back-end e API",
         "intro": [
           "Supera questo esame per ottenere la certificazione in sviluppo back-end e API"
-        ]
-      },
-      "lecture-understanding-security-and-privacy-in-web-applications": {
-        "title": "Comprendere la sicurezza e la privacy nelle applicazioni web",
-        "intro": [
-          "Scopri come funzionano la sicurezza e la privacy nelle applicazioni web, coprendo HTTPS, cookie, CSP, minacce comuni, leggi sulla privacy e altro."
         ]
       }
     }
@@ -9282,7 +9306,7 @@
       "lecture-understanding-the-html-boilerplate": {
         "title": "Comprendere il codice boilerplate HTML",
         "intro": [
-          "In queste lezioni, imparerai il codice boilerplate HTML, un modello pronto all'uso per le tue pagine web.",
+          "In queste lezioni imparerai il codice boilerplate HTML, un modello pronto all'uso per le tue pagine web.",
           "Imparerai a lavorare con l'elemento <code>link</code>, l'elemento <code>meta</code> e altro ancora."
         ]
       },
@@ -9302,13 +9326,13 @@
       "lecture-html-fundamentals": {
         "title": "Fondamenti di HTML",
         "intro": [
-          "In queste lezioni, imparerai i fondamenti di HTML come l'elemento <code>div</code>, gli attributi <code>id</code> e <code>class</code>, il codice boilerplate HTML, le entità HTML e altro."
+          "In queste lezioni imparerai i fondamenti di HTML come l'elemento <code>div</code>, gli attributi <code>id</code> e <code>class</code>, l'elemento <code>script</code>, le entità HTML e altro."
         ]
       },
       "workshop-bookstore-page": {
         "title": "Crea una pagina per una libreria",
         "intro": [
-          "In questo workshop, praticherai l'uso di classi, id e dell'elemento <code>div</code> costruendo una pagina per una libreria."
+          "In questo workshop eserciterai l'uso di classi, id e l'elemento <code>div</code> costruendo una pagina per una libreria."
         ]
       },
       "lecture-understanding-how-html-affects-seo": {
@@ -9320,13 +9344,13 @@
       "lab-travel-agency-page": {
         "title": "Crea una pagina per un'agenzia di viaggi",
         "intro": [
-          "In questo laboratorio, rivedrai le basi di HTML creando una pagina web per un'agenzia di viaggi. Lavorerai con immagini, l'elemento <code>figure</code>, l'elemento <code>figcaption</code>, l'elemento <code>anchor</code> e altro ancora."
+          "In questo laboratorio rivedrai i fondamenti di HTML creando una pagina web per un'agenzia di viaggi. Lavorerai con immagini, l'elemento <code>figure</code>, il sottotitolo <code>figcaption</code>, l'elemento <code>a</code> e altro."
         ]
       },
       "lecture-working-with-audio-and-video-elements": {
         "title": "Lavorare con gli elementi audio e video",
         "intro": [
-          "In queste lezioni, imparerai a lavorare con gli elementi <code>audio</code> e <code>video</code>."
+          "In questa lezione imparerai a lavorare con gli elementi <code>audio</code> e <code>video</code>."
         ]
       },
       "workshop-html-music-player": {
@@ -9352,13 +9376,13 @@
       "lecture-working-with-images-and-svgs": {
         "title": "Lavorare con immagini e SVG",
         "intro": [
-          "In queste lezioni, imparerai a lavorare con SVG e tecniche per ottimizzare le tue immagini."
+          "In queste lezioni imparerai a lavorare con SVG e scoprirai tecniche per ottimizzare le tue immagini."
         ]
       },
       "workshop-build-a-heart-icon": {
         "title": "Crea un'icona a forma di cuore",
         "intro": [
-          "In questo workshop, praticherai l'uso degli SVG costruendo un'icona a forma di cuore."
+          "In questo workshop eserciterai l'uso degli SVG costruendo un'icona a forma di cuore."
         ]
       },
       "lecture-working-with-media": {
@@ -9382,7 +9406,7 @@
       "lecture-working-with-links": {
         "title": "Lavorare con i collegamenti",
         "intro": [
-          "In queste lezioni, imparerai sui collegamenti, l'attributo <code>target</code>, i diversi stati dei collegamenti, i percorsi assoluti e relativi e altro ancora."
+          "In queste lezioni imparerai i collegamenti, l'attributo <code>target</code>, i diversi stati dei collegamenti, i percorsi assoluti e relativi e altro."
         ]
       },
       "review-basic-html": {

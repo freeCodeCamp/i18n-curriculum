@@ -18,20 +18,21 @@ Ni ipi kati ya zifuatazo SI mfano wa algoriti maarufu ya kielezo?
 
 ## --answers--
 
-Database Indexing Algorithm (DIA)
+Algoriti ya Kielezo ya Hifadhidata (DIA)
 
 ---
 
-Hierarchical Navigable Small World (HNSW)
+Dunia Ndogo Inayoweza Kupitiwa Kihierarkia (HNSW)
 
 ---
 
-Inverted File Index (IVF)
+Kielezo cha Faili Kilichogeuzwa (IVF)
 
 ---
 
-Locality-Sensitive Hashing (LSH)
+Uchanganuzi wa msimbo unaozingatia ukaribu wa eneo (Locality-Sensitive Hashing - LSH)
 
 ## --video-solution--
 
 1
+

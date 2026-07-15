@@ -7,7 +7,7 @@ dashedName: quiz-javascript-strings
 
 # --description--
 
-このクイズに合格するには、以下の20問中少なくとも18問に正しく答える必要があります。
+クイズに合格するには、以下の20問のうち少なくとも18問に正しく答える必要があります。
 
 # --quizzes--
 
@@ -109,19 +109,19 @@ ASCIIは何の略ですか？
 
 #### --distractors--
 
-American Standard Code for Internet Information
+インターネット情報のためのアメリカ標準コード
 
 ---
 
-Advanced Systematic Code for Internal Interchange
+内部交換のための高度な体系的コード
 
 ---
 
-Automatic Standard Code for Internal Information
+内部情報のための自動標準コード
 
 #### --answer--
 
-American Standard Code for Information Interchange
+情報交換のためのアメリカ標準コード
 
 ### --question--
 
@@ -484,3 +484,4 @@ console.log(organization.indexOf("c"));
 ```js
 "She said, \"Hello!\""
 ```
+

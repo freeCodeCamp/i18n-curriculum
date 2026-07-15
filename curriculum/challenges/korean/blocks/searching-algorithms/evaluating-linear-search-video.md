@@ -18,19 +18,19 @@ dashedName: evaluating-linear-search
 
 ## --answers--
 
-Linear and Space complexity
+선형 복잡도와 공간 복잡도
 
 ---
 
-Time and Space complexity
+시간 복잡도와 공간 복잡도
 
 ---
 
-Recursive and Space complexity
+재귀 복잡도와 공간 복잡도
 
 ---
 
-Binary and Space complexity
+이진 복잡도와 공간 복잡도
 
 ## --video-solution--
 

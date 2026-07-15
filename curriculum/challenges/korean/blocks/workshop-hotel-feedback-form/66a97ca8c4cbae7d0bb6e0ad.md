@@ -19,11 +19,11 @@ dashedName: step-29
 
 **옵션 텍스트:**
 
-- Poor
-- Satisfactory
-- Good
-- Very Good
-- Excellent
+- 나쁨
+- 만족
+- 좋음
+- 매우 좋음
+- 우수함
 
 
 `option` 요소에 `selected` 속성을 `"excellent"` 값으로 추가하는 것을 잊지 마세요.

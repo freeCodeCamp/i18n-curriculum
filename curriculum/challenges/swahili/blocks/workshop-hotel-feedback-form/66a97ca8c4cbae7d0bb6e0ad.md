@@ -11,19 +11,19 @@ Ndani ya kipengele chako cha `select`, ongeza vipengele vitano vya `option` na t
 
 **Thamani ya sifa ya kipengele:**
 
-- poor
-- satisfactory
-- good
-- very-good
-- excellent
+- duni
+- ya kuridhisha
+- nzuri
+- nzuri sana
+- bora
 
 **Maandishi ya chaguo:**
 
-- Poor
-- Satisfactory
-- Good
-- Very Good
-- Excellent
+- Duni
+- Ya kuridhisha
+- Nzuri
+- Nzuri sana
+- Bora
 
 
 Usisahau kuongeza sifa ya `selected` kwenye kipengele cha `option` kwa thamani ya `"excellent"`.

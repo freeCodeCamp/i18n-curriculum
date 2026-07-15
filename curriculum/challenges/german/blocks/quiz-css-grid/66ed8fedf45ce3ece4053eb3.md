@@ -1,6 +1,6 @@
 ---
 id: 66ed8fedf45ce3ece4053eb3
-title: CSS-Grid-Quiz
+title: CSS Grid Quiz
 challengeType: 8
 dashedName: quiz-css-grid
 ---

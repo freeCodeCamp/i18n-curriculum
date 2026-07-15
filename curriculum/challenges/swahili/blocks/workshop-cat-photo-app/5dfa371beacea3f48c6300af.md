@@ -48,7 +48,7 @@ assert.equal(
 );
 ```
 
-Inapaswa kuwepo kipengele cha `h2` chenye maandishi ya `Cat Lists` juu ya kipengele cha `h3` cha mwisho kilichopangwa ndani ya kipengele cha `section` cha mwisho. Huenda umefuta kipengele cha `h2` kwa bahati mbaya.
+Kufaa kuwepo na kipengele cha `h2` chenye maandishi `Cat Lists` juu ya kipengele cha mwisho cha `h3` kilichopangwa ndani ya sehemu ya mwisho ya `section`. Huenda umefuta kipengele cha `h2` kwa bahati mbaya.
 
 ```js
 const secondSectionLastElemNode = document.querySelectorAll('main > section')[1]

@@ -131,7 +131,7 @@ Quando devi modificare un pezzo di codice, quale dei seguenti è più probabile 
 
 #### --distractors--
 
-Node Package Manager
+Gestore di pacchetti Node
 
 ---
 
@@ -894,3 +894,4 @@ Quale formato di file è usato per comprimere i file?
 #### --answer--
 
 `ZIP`
+

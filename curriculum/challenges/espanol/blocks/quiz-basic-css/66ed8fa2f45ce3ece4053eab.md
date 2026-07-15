@@ -7,7 +7,7 @@ dashedName: quiz-basic-css
 
 # --description--
 
-Para aprobar el cuestionario, debe responder correctamente al menos 18 de las 20 preguntas a continuación.
+Para aprobar el quiz, debes responder correctamente al menos 18 de las 20 preguntas a continuación.
 
 # --quizzes--
 
@@ -21,15 +21,15 @@ Para aprobar el cuestionario, debe responder correctamente al menos 18 de las 20
 
 #### --distractors--
 
-Cascading Style Script
+Script de estilo en cascada
 
 ---
 
-Concatenating Style Script
+Script de estilo concatenado
 
 ---
 
-Castor Sage Style
+Estilo Castor Sage
 
 #### --answer--
 
@@ -827,7 +827,7 @@ Se escriben dentro de la sección `style` dentro del elemento `head`.
 
 #### --text--
 
-¿Cuál es el orden para aplicar la propiedad `padding` cuando se usa la sintaxis corta? 
+¿Cuál es el orden para aplicar la propiedad `padding` cuando se usa la sintaxis corta?
 
 #### --distractors--
 
@@ -849,7 +849,7 @@ Se escriben dentro de la sección `style` dentro del elemento `head`.
 
 #### --text--
 
-¿Cuál es el orden para aplicar la propiedad `margin` cuando se usa la sintaxis corta? 
+¿Cuál es el orden para aplicar la propiedad `margin` cuando se usa la sintaxis corta?
 
 #### --distractors--
 
@@ -910,3 +910,4 @@ Se utilizan para estilizar directamente dentro del elemento, en lugar de usar CS
 #### --answer--
 
 `#`
+

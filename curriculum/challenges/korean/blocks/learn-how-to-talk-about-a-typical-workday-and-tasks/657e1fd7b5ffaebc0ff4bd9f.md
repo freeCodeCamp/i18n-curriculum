@@ -20,7 +20,7 @@ Tom이 Sophie에게 감사하는 이유는 무엇인가요?
 
 ## --answers--
 
-For giving him a time management app.
+시간 관리 앱을 줘서 고마워하고 있습니다.
 
 ### --feedback--
 
@@ -28,11 +28,11 @@ Tom은 앱을 준 것이 아니라 조언에 대해 감사하고 있습니다.
 
 ---
 
-Because he finds Sophie's tips helpful.
+Sophie의 조언이 도움이 되어서 고마워하고 있습니다.
 
 ---
 
-For inviting him to lunch.
+점심 식사에 초대해줘서.
 
 ### --feedback--
 
@@ -40,7 +40,7 @@ For inviting him to lunch.
 
 ---
 
-For helping him with a project.
+프로젝트를 도와줘서.
 
 ### --feedback--
 

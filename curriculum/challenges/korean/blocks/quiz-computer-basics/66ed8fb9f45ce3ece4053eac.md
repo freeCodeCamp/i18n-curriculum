@@ -7,7 +7,7 @@ dashedName: quiz-computer-basics
 
 # --description--
 
-퀴즈를 통과하려면 아래 20문제 중 최소 18문제를 올바르게 답해야 합니다.
+퀴즈를 통과하려면 아래 20문제 중 최소 18문제를 올바르게 답하세요.
 
 # --quizzes--
 
@@ -131,7 +131,7 @@ Google Drive
 
 #### --distractors--
 
-Node Package Manager
+노드 패키지 매니저
 
 ---
 
@@ -143,7 +143,7 @@ GitHub
 
 #### --answer--
 
-Visual Studio Code
+비주얼 스튜디오 코드
 
 ### --question--
 
@@ -894,3 +894,4 @@ Git이란 무엇인가요?
 #### --answer--
 
 `ZIP`
+

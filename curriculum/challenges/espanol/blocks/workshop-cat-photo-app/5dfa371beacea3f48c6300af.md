@@ -48,7 +48,7 @@ assert.equal(
 );
 ```
 
-Debe haber un elemento `h2` con el texto `Cat Lists` encima del elemento `h3` que está anidado en el último elemento `section`. Probablemente eliminaste el elemento `h2`.
+Debe haber un elemento `h2` con el texto `Cat Lists` encima del último elemento `h3` que está anidado en el último elemento `section`. Puede que hayas eliminado accidentalmente el elemento `h2`.
 
 ```js
 const secondSectionLastElemNode = document.querySelectorAll('main > section')[1]

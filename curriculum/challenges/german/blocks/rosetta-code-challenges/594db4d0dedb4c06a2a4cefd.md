@@ -1,6 +1,6 @@
 ---
 id: 594db4d0dedb4c06a2a4cefd
-title: Babbage-Problem
+title: Babbage problem
 challengeType: 1
 forumTopicId: 302229
 dashedName: babbage-problem
@@ -11,7 +11,7 @@ dashedName: babbage-problem
 Charles Babbage, der vorausblickte auf die Arten von Problemen, die seine Analytical Engine lösen könnte, gab dieses Beispiel:
 
 <blockquote>
-  Was ist die kleinste positive ganze Zahl, deren Quadrat mit den Ziffern 269.696 endet?
+Was ist die kleinste positive ganze Zahl, deren Quadrat mit den Ziffern 269.696 endet?
   <footer style='margin-left: 2em;'>Babbage, Brief an Lord Bowden, 1837; siehe Hollingdale und Tootill, <i>Electronic Computers</i>, zweite Auflage, 1970, S. 125.</footer>
 </blockquote>
 

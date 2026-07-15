@@ -109,19 +109,19 @@ ASCII inasimamia nini?
 
 #### --distractors--
 
-American Standard Code for Internet Information
+Msimbo wa Kawaida wa Marekani kwa Habari za Mtandao
 
 ---
 
-Advanced Systematic Code for Internal Interchange
+Msimbo wa Mfumo wa Juu kwa Kubadilishana Ndani
 
 ---
 
-Automatic Standard Code for Internal Information
+Msimbo wa Kawaida wa Kiotomatiki kwa Habari za Ndani
 
 #### --answer--
 
-American Standard Code for Information Interchange
+Msimbo wa Kawaida wa Marekani kwa Kubadilishana Habari
 
 ### --question--
 
@@ -427,7 +427,7 @@ Nini msimbo ufuatao utarudisha: `"abc".repeat(3)`?
 
 ---
 
-It will throw an error.
+Itatupa kosa.
 
 #### --answer--
 
@@ -484,3 +484,4 @@ Ni sintaksia gani sahihi ya kuepuka nukuu?
 ```js
 "She said, \"Hello!\""
 ```
+

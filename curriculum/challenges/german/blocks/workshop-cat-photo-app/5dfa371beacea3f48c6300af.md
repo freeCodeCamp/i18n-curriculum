@@ -48,7 +48,7 @@ assert.equal(
 );
 ```
 
-Es sollte ein `h2`-Element mit dem Text `Cat Lists` über dem letzten `h3`-Element stehen, das im letzten `section`-Element verschachtelt ist. Möglicherweise haben Sie versehentlich das `h2`-Element gelöscht.
+Es sollte ein `h2`-Element mit dem Text `Cat Lists` über dem letzten `h3`-Element geben, das im letzten `section`-Element verschachtelt ist. Möglicherweise haben Sie das `h2`-Element versehentlich gelöscht.
 
 ```js
 const secondSectionLastElemNode = document.querySelectorAll('main > section')[1]

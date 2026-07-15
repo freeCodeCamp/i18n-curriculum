@@ -6039,7 +6039,6 @@
         ]
       },
       "front-end-development-libraries-certification-exam": {
-        "note": "Inakuja 2026",
         "intro": [
           "Pita mtihani huu kupata cheti chako cha maktaba za ukuzaji wa mbele wa mtandao."
         ]
@@ -7176,6 +7175,7 @@
       "websockets": "WebSockets",
       "security-and-privacy": "Usalama na faragha",
       "authentication": "Uthibitisho wa utambulisho",
+      "review-back-end-development-and-apis": "Kagua ukuzaji wa nyuma na APIs",
       "back-end-development-and-apis-certification-exam": "Mtihani wa cheti cha ukuzaji wa nyuma na APIs"
     },
     "module-intros": {
@@ -7250,6 +7250,12 @@
         "intro": [
           "Pita mtihani huu ili kupata cheti chako cha ukuzaji wa nyuma na APIs."
         ]
+      },
+      "review-back-end-development-and-apis": {
+        "note": "Inakuja mwishoni mwa 2026",
+        "intro": [
+          "Kagua dhana za ukuzaji wa nyuma na APIs kujiandaa kwa mtihani ujao."
+        ]
       }
     },
     "blocks": {
@@ -7281,10 +7287,10 @@
           "Jifunze kuhusu moduli kuu za node.js, kama fs, buffer, stream, path, na zaidi, ili kuelewa kile Node kinachokupa moja kwa moja kujenga programu bora bila kutegemea maktaba za watu wengine."
         ]
       },
-      "workshop-nodejs-common-modules": {
-        "title": "Jifunze moduli za kawaida za Node.js",
+      "workshop-build-a-file-processor": {
+        "title": "Jenga mchakato wa faili",
         "intro": [
-          "Utajifunza moduli zilizojengwa ndani za Node.js kama <code>fs</code>, <code>path</code>, na <code>crypto</code> kwa kutumia kwa shughuli za faili na usindikaji wa data."
+          "Utajifunza moduli za nodi zilizojengwa ndani kama <code>fs</code>, <code>path</code>, na <code>crypto</code> kwa kutumia kwa shughuli za faili na usindikaji wa data."
         ]
       },
       "review-node-js-core-modules": {
@@ -7311,10 +7317,10 @@
           "Jifunze kuhusu misimbo ya npm, kuchapisha vifurushi kwenye rejista ya npm, na kufanya kazi na moduli za CommonJS na ES. Mafunzo haya yanashughulikia zana muhimu za ukuzaji wa Node.js na mifumo ya moduli."
         ]
       },
-      "workshop-how-to-build-an-npm-module": {
-        "title": "Jifunze jinsi ya kujenga moduli ya NPM",
+      "workshop-build-a-case-converter": {
+        "title": "Jenga mabadilishaji wa herufi",
         "intro": [
-          "Utajifunza jinsi ya kuanzisha, kusanidi, na kuchapisha moduli ya NPM kwa kujenga mabadilishaji wa kesi."
+          "Utajifunza jinsi ya kuanzisha, kusanidi, na kuchapisha moduli ya npm kwa kujenga mabadilishaji wa herufi."
         ]
       },
       "lab-prime-number-checker-module": {
@@ -7349,10 +7355,10 @@
           "Katika masomo haya, utajifunza kuhusu mfano wa kanuni za mtandao, taasisi za viwango, mchakato, mzunguko wa maisha, na kanuni nyuma ya viwango vya mtandao."
         ]
       },
-      "workshop-nodejs-by-building-a-web-server": {
-        "title": "Jifunze Node.js kwa kujenga seva ya mtandao",
+      "workshop-build-a-web-server": {
+        "title": "Jenga seva ya mtandao",
         "intro": [
-          "Utajifunza moduli ya Node.js <code>http</code> kwa kujenga seva ya mtandao inayotumikia programu ya mteja yenye kurasa nyingi."
+          "Utajifunza moduli ya nodi <code>http</code> kwa kujenga seva ya mtandao inayotumikia programu ya mteja yenye kurasa nyingi."
         ]
       },
       "review-http-and-the-web-standards-model": {
@@ -7374,8 +7380,8 @@
           "Katika masomo haya, utajifunza kuhusu REST APIs na huduma za mtandao, na jinsi zinavyoruhusu programu tofauti kuwasiliana kwa kila mmoja kupitia mtandao."
         ]
       },
-      "workshop-express-by-building-a-weather-service-api": {
-        "title": "Jifunze Express kwa kujenga API ya huduma ya hali ya hewa",
+      "workshop-build-a-weather-service-api": {
+        "title": "Jenga API ya huduma ya hali ya hewa",
         "intro": [
           "Utajifunza vigezo vya njia na upangaji njia wa moduli kwa kutumia <code>express.Router</code> kwa kujenga API ya huduma ya hali ya hewa."
         ]
@@ -7399,10 +7405,10 @@
           "Katika masomo haya, utajifunza kuhusu upangaji njia katika ExpressJS, ambayo ni jinsi unavyofafanua kiishio tofauti cha programu yako ya mtandao na jinsi zinavyotoa majibu kwa maombi ya mteja."
         ]
       },
-      "workshop-express-by-building-a-random-joke-app": {
-        "title": "Jifunze Express kwa kujenga programu ya vichekesho vya nasibu",
+      "workshop-build-a-random-joke-app": {
+        "title": "Jenga programu ya vichekesho vya nasibu",
         "intro": [
-          "Utajifunza upangaji njia wa msingi wa Express na njia za majibu kwa kujenga programu ya vichekesho vya nasibu."
+          "Utajifunza upangaji wa msingi wa Express na njia za majibu kwa kujenga programu ya vichekesho vya nasibu."
         ]
       },
       "lab-personal-profile-app": {
@@ -7429,10 +7435,10 @@
           "Katika masomo haya, utajifunza kuhusu usimamizi wa hitilafu na ukaguzi wa afya katika Express."
         ]
       },
-      "workshop-error-handling-in-express-by-building-a-bank-api": {
-        "title": "Jifunze usimamizi wa hitilafu katika Express kwa kujenga API ya benki",
+      "workshop-build-a-bank-api": {
+        "title": "Jenga API ya benki",
         "intro": [
-          "Utajifunza usimamizi wa hitilafu wa Express 5, ukaguzi wa afya, na kufunga kwa heshima kwa kujenga API ya benki."
+          "Utajifunza usimamizi wa makosa wa Express 5, ukaguzi wa afya, na kufunga kwa heshima kwa kujenga API ya benki."
         ]
       },
       "review-error-handling-in-express": {
@@ -7453,10 +7459,10 @@
           "Katika masomo haya, utajifunza jinsi programu ya kati inavyofanya kazi katika Express, ikiwa ni pamoja na programu ya kiwango cha programu, kiwango cha kipanga-njia, na usimamizi wa hitilafu, pamoja na mifano ya programu ya kati iliyojengwa ndani na ya wahusika wengine."
         ]
       },
-      "workshop-express-middleware-by-building-a-submission-form": {
-        "title": "Jifunze programu ya kati ya Express kwa kujenga fomu ya uwasilishaji",
+      "workshop-build-a-submission-form": {
+        "title": "Jenga fomu ya uwasilishaji",
         "intro": [
-          "Utajifunza programu ya kati ya kiwango cha programu na kiwango cha kipanga-njia kwa kujenga fomu ya uwasilishaji yenye muundo."
+          "Utajifunza programu ya kati ya ngazi ya programu na ngazi ya kipanga-njia kwa kujenga fomu ya uwasilishaji yenye muundo."
         ]
       },
       "lab-data-sanitizer": {
@@ -7483,10 +7489,10 @@
           "Jifunze jinsi WebSockets zinavyowezesha mawasiliano ya papo hapo, ya pande mbili kati ya wateja na seva, na jinsi usanifu wa ujumbe wa Pub/Sub unavyopanga ujumbe kwa wanachama sahihi katika programu za papo hapo."
         ]
       },
-      "workshop-websockets-by-building-a-resource-monitor": {
-        "title": "Jifunze WebSockets kwa kujenga kipimaji rasilimali",
+      "workshop-build-a-resource-monitor": {
+        "title": "Jenga kielezi cha rasilimali",
         "intro": [
-          "Utajifunza Node.js WebSockets na mtiririko wa data wa papo hapo kwa kujenga kipimaji cha rasilimali za mfumo."
+          "Utajifunza WebSockets za Node.js na mtiririko wa data wa wakati halisi kwa kujenga kielezi cha rasilimali za mfumo."
         ]
       },
       "lab-chat-app": {
@@ -7507,6 +7513,12 @@
           "Jaribu maarifa yako kuhusu WebSockets na Pub/Sub kwa jaribio hili."
         ]
       },
+      "lecture-understanding-security-and-privacy-in-web-applications": {
+        "title": "Kuelewa usalama na faragha katika programu za mtandao",
+        "intro": [
+          "Jifunze jinsi usalama na faragha vinavyofanya kazi katika programu za mtandao, ukijumuisha HTTPS, vidakuzi, CSP, vitisho vya kawaida, sheria za faragha, na zaidi."
+        ]
+      },
       "review-security-and-privacy": {
         "title": "Kagua usalama na faragha",
         "intro": [
@@ -7525,6 +7537,18 @@
           "Jifunze jinsi uthibitisho wa utambulisho na idhini zinavyofanya kazi, jinsi JWT zinavyolinda njia zako za API, jinsi ya kujilinda dhidi ya mashambulizi ya CSRF, na jinsi ya kutumia Passport.js na Helmet.js kulinda programu zako za Node.js."
         ]
       },
+      "workshop-jwt-protected-routes": {
+        "title": "Jenga njia zilizo na ulinzi wa JWT",
+        "intro": [
+          "Utajifunza uthibitisho wa utambulisho na idhini inayotegemea majukumu kwa kujenga programu ya Express yenye njia zilizo na ulinzi wa JWT."
+        ]
+      },
+      "lab-family-movie-watchlist-api": {
+        "title": "Jenga API ya orodha ya filamu za familia",
+        "intro": [
+          "Fanya mazoezi ya kutekeleza uthibitisho wa utambulisho na idhini katika programu ya Express kwa kujenga API ya orodha ya filamu za familia."
+        ]
+      },
       "review-authentication-and-authorization": {
         "title": "Kagua uthibitisho wa utambulisho na idhini",
         "intro": [
@@ -7537,16 +7561,16 @@
           "Jaribu maarifa yako kuhusu dhana za uthibitisho wa utambulisho na idhini zilizojadiliwa katika moduli hii."
         ]
       },
+      "review-back-end-development-and-apis": {
+        "title": "Kagua ukuzaji wa nyuma na APIs",
+        "intro": [
+          "Kagua dhana za ukuzaji wa nyuma na APIs kujiandaa kwa mtihani ujao."
+        ]
+      },
       "exam-back-end-development-and-apis-certification": {
         "title": "Mtihani wa cheti cha ukuzaji wa nyuma na APIs",
         "intro": [
           "Pita mtihani huu ili kupata cheti chako cha ukuzaji wa nyuma na APIs"
-        ]
-      },
-      "lecture-understanding-security-and-privacy-in-web-applications": {
-        "title": "Kuelewa usalama na faragha katika programu za mtandao",
-        "intro": [
-          "Jifunze jinsi usalama na faragha vinavyofanya kazi katika programu za mtandao, ukijumuisha HTTPS, vidakuzi, CSP, vitisho vya kawaida, sheria za faragha, na zaidi."
         ]
       }
     }
@@ -9282,7 +9306,7 @@
       "lecture-understanding-the-html-boilerplate": {
         "title": "Kuelewa muundo wa msingi wa HTML",
         "intro": [
-          "Katika masomo haya, utajifunza kuhusu muundo wa msingi wa HTML ambao ni kiolezo tayari kwa kurasa zako za mtandao.",
+          "Katika masomo haya, utajifunza kuhusu muundo wa msingi wa HTML, ambao ni kiolezo tayari kwa kurasa zako za mtandao.",
           "Utajifunza jinsi ya kutumia kipengele cha <code>link</code>, kipengele cha <code>meta</code> na zaidi."
         ]
       },
@@ -9302,13 +9326,13 @@
       "lecture-html-fundamentals": {
         "title": "Misingi ya HTML",
         "intro": [
-          "Katika masomo haya, utajifunza misingi ya HTML kama kipengele cha <code>div</code>, sifa za kipengele <code>id</code> na <code>class</code>, muundo wa msingi wa HTML, entiti za HTML, na zaidi."
+          "Katika masomo haya, utajifunza misingi ya HTML kama kipengele cha <code>div</code>, sifa za <code>id</code> na <code>class</code>, kipengele cha <code>script</code>, vitu vya HTML, na zaidi."
         ]
       },
       "workshop-bookstore-page": {
         "title": "Jenga ukurasa wa duka la vitabu",
         "intro": [
-          "Katika warsha hii, utatumia darasa la vitu, vitambulisho na kipengele cha <code>div</code> kwa kujenga ukurasa wa duka la vitabu."
+          "Katika warsha hii, utafanya mazoezi ya kutumia madarasa, vitambulisho, na kipengele cha <code>div</code> kwa kujenga ukurasa wa duka la vitabu."
         ]
       },
       "lecture-understanding-how-html-affects-seo": {
@@ -9320,13 +9344,13 @@
       "lab-travel-agency-page": {
         "title": "Jenga ukurasa wa wakala wa usafiri",
         "intro": [
-          "Katika maabara hii, utakagua kazi na misingi ya HTML kwa kuunda ukurasa wa mtandao wa wakala wa usafiri. Utatumia picha, kipengele cha <code>figure</code>, kipengele cha <code>figcaption</code>, kipengele cha <code>anchor</code>, na zaidi."
+          "Katika maabara hii, utakagua kazi na misingi ya HTML kwa kuunda ukurasa wa mtandao wa wakala wa usafiri. Utatumia picha, kipengele cha <code>figure</code>, kipengele cha <code>figcaption</code>, kipengele cha <code>a</code>, na zaidi."
         ]
       },
       "lecture-working-with-audio-and-video-elements": {
         "title": "Kufanya kazi na vipengele vya sauti na video",
         "intro": [
-          "Katika masomo haya, utajifunza jinsi ya kufanya kazi na vipengele vya <code>audio</code> na <code>video</code>."
+          "Katika somo hili, utajifunza jinsi ya kufanya kazi na vipengele vya <code>audio</code> na <code>video</code>."
         ]
       },
       "workshop-html-music-player": {
@@ -9352,13 +9376,13 @@
       "lecture-working-with-images-and-svgs": {
         "title": "Kufanya kazi na picha na SVG",
         "intro": [
-          "Katika masomo haya, utajifunza jinsi ya kufanya kazi na SVG na mbinu za kuboresha picha zako."
+          "Katika masomo haya, utajifunza jinsi ya kufanya kazi na SVGs na kuchunguza mbinu za kuboresha picha zako."
         ]
       },
       "workshop-build-a-heart-icon": {
         "title": "Jenga ikoni ya moyo",
         "intro": [
-          "Katika warsha hii, utatumia SVG kwa kujenga ikoni ya moyo."
+          "Katika warsha hii, utafanya mazoezi ya kutumia SVGs kwa kujenga ikoni ya moyo."
         ]
       },
       "lecture-working-with-media": {
@@ -9382,7 +9406,7 @@
       "lecture-working-with-links": {
         "title": "Kufanya kazi na viungo",
         "intro": [
-          "Katika masomo haya, utajifunza kuhusu viungo, sifa ya <code>target</code>, hali tofauti za viungo, njia kamili na njia za jamaa, na zaidi."
+          "Katika masomo haya, utajifunza kuhusu viungo, sifa ya <code>target</code>, hali tofauti za viungo, njia kamili na njia za uhusiano, na zaidi."
         ]
       },
       "review-basic-html": {
