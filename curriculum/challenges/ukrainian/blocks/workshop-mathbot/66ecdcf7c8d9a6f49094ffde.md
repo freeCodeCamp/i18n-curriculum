@@ -27,7 +27,8 @@ Math.round(3.2); // 3
 У вас має бути змінна з назвою `numRounded`.
 
 ```js
-assert.isNotNull(numRounded);
+const explorer = await __helpers.Explorer(code);
+assert.exists(explorer.variables.numRounded);
 ```
 
 Ви повинні призначити результат округлення числа `2.7` змінній `numRounded`.
@@ -39,7 +40,9 @@ assert.equal(numRounded, 3);
 Не слід жорстко кодувати значення `3` для змінної `numRounded`. Переконайтеся, що ви використовуєте метод `Math.round()`.
 
 ```js
-assert.notMatch(code, /numRounded\s*=\s*3/);
+const explorer = await __helpers.Explorer(code);
+const numRounded = explorer.variables.numRounded;
+assert.notEqual(numRounded?.value?.toString(), "3");
 ```
 
 Виведіть значення `numRounded` у консоль.
@@ -51,7 +54,8 @@ assert.match(code, /console\.log\(\s*numRounded\s*\)/);
 У вас має бути змінна з назвою `numRounded2`.
 
 ```js
-assert.isNotNull(numRounded2);
+const explorer = await __helpers.Explorer(code);
+assert.exists(explorer.variables.numRounded2);
 ```
 
 Ви повинні призначити результат округлення числа `11.2` змінній `numRounded2`.
@@ -63,7 +67,9 @@ assert.equal(numRounded2, 11);
 Не слід жорстко кодувати значення `11` для змінної `numRounded2`. Переконайтеся, що ви використовуєте метод `Math.round()`.
 
 ```js
-assert.notMatch(code, /numRounded2\s*=\s*11/);
+const explorer = await __helpers.Explorer(code);
+const numRounded2 = explorer.variables.numRounded2;
+assert.notEqual(numRounded2?.value?.toString(), "11");
 ```
 
 Виведіть значення `numRounded2` у консоль.

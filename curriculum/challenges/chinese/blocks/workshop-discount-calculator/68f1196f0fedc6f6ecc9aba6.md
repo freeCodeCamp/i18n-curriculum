@@ -1,6 +1,6 @@
 ---
 id: 68f1196f0fedc6f6ecc9aba6
-title: 步骤4
+title: 第 4 步
 challengeType: 20
 dashedName: step-4
 ---
@@ -35,12 +35,13 @@ def example_method(self, value: int) -> bool:
 ## --seed-contents--
 
 ```py
---fcc-editable-region--
 class Product:
+--fcc-editable-region--
     def __init__(self, name: str, price: float):
+--fcc-editable-region--
         self.name = name
         self.price = price
---fcc-editable-region--
+
     def __str__(self):
         return f'{self.name} - ${self.price}'
 ```

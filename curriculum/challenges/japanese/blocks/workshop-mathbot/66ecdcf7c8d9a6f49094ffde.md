@@ -27,7 +27,8 @@ Math.round(3.2); // 3
 `numRounded` という変数があるはずです。
 
 ```js
-assert.isNotNull(numRounded);
+const explorer = await __helpers.Explorer(code);
+assert.exists(explorer.variables.numRounded);
 ```
 
 `2.7` の数値を丸めた結果を `numRounded` という変数に代入してください。
@@ -39,7 +40,9 @@ assert.equal(numRounded, 3);
 `3` の変数に `numRounded` の値をハードコードしないでください。`Math.round()` メソッドを使っていることを確認してください。
 
 ```js
-assert.notMatch(code, /numRounded\s*=\s*3/);
+const explorer = await __helpers.Explorer(code);
+const numRounded = explorer.variables.numRounded;
+assert.notEqual(numRounded?.value?.toString(), "3");
 ```
 
 `numRounded` の値をコンソールに出力してください。
@@ -51,7 +54,8 @@ assert.match(code, /console\.log\(\s*numRounded\s*\)/);
 `numRounded2` という変数があるはずです。
 
 ```js
-assert.isNotNull(numRounded2);
+const explorer = await __helpers.Explorer(code);
+assert.exists(explorer.variables.numRounded2);
 ```
 
 `11.2` の数値を丸めた結果を `numRounded2` という変数に代入してください。
@@ -63,7 +67,9 @@ assert.equal(numRounded2, 11);
 `11` の変数に `numRounded2` の値をハードコードしないでください。`Math.round()` メソッドを使っていることを確認してください。
 
 ```js
-assert.notMatch(code, /numRounded2\s*=\s*11/);
+const explorer = await __helpers.Explorer(code);
+const numRounded2 = explorer.variables.numRounded2;
+assert.notEqual(numRounded2?.value?.toString(), "11");
 ```
 
 `numRounded2` の値をコンソールに出力してください。

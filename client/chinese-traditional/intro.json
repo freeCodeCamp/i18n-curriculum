@@ -1985,7 +1985,7 @@
         ]
       },
       "lab-n-queens-problem": {
-        "title": "實作 N 皇后問題",
+        "title": "實作 N 皇后演算法",
         "intro": [
           "在這個實驗中，你將實作 N 皇后問題的解法。"
         ]
@@ -5866,7 +5866,7 @@
         ]
       },
       "lab-n-queens-problem-js": {
-        "title": "實作 N 皇后問題",
+        "title": "實作 N 皇后演算法",
         "intro": [
           "在這個實驗中，你將實作 N 皇后問題的解法。"
         ]
@@ -6873,7 +6873,7 @@
         ]
       },
       "lab-n-queens-problem": {
-        "title": "實作 N 皇后問題",
+        "title": "實作 N 皇后演算法",
         "intro": [
           "在此實驗中，你將實作 N 皇后問題的解法。"
         ]
@@ -7167,14 +7167,19 @@
       "introduction-to-nodejs": "Node.js 入門",
       "nodejs-core-modules": "Node.js 核心模組",
       "node-package-manager": "Node 套件管理器",
+      "lab-prime-number-checker-module": "建置質數檢查模組",
       "http-and-the-web-standards-model": "HTTP 與網頁標準模型",
       "rest-api-and-web-services": "REST API 與網路服務",
+      "lab-timestamp-microservice": "建置時間戳記微服務",
       "introduction-to-express": "Express 入門",
+      "lab-personal-profile-app": "建置個人評測應用程式",
       "error-handling-in-express": "Express 錯誤處理",
       "express-middleware": "Express 中介層",
       "websockets": "WebSockets",
+      "lab-chat-app": "建置聊天應用程式",
       "security-and-privacy": "安全性與隱私",
       "authentication": "身份驗證",
+      "lab-family-movie-watchlist-api": "建置家庭電影清單 API",
       "review-back-end-development-and-apis": "後端開發與 API 複習",
       "back-end-development-and-apis-certification-exam": "後端開發與 API 認證考試"
     },
@@ -7197,6 +7202,12 @@
           "本模組介紹 Node 套件管理器，開發者用它來管理專案依賴和腳本。接著你將透過工作坊和實驗練習所學，並以短測驗檢驗你的知識。"
         ]
       },
+      "lab-prime-number-checker-module": {
+        "note": "2026 年底推出",
+        "intro": [
+          "透過建立質數檢查器練習建置與匯出 NPM 模組。"
+        ]
+      },
       "http-and-the-web-standards-model": {
         "note": "預計 2026 年底推出",
         "intro": [
@@ -7209,10 +7220,22 @@
           "本模組介紹 REST API（表述性狀態轉移應用程式介面）及微服務運作方式。接著你將以短測驗檢驗你的知識。"
         ]
       },
+      "lab-timestamp-microservice": {
+        "note": "2026 年底推出",
+        "intro": [
+          "透過建立時間戳記微服務練習建置具日期解析邏輯的 RESTful API。"
+        ]
+      },
       "introduction-to-express": {
         "note": "預計 2026 年底推出",
         "intro": [
           "本模組介紹 Express.js，一個用來建置 RESTful API 的框架。接著你將透過工作坊和實驗練習技能，並以短測驗檢驗你的知識。"
+        ]
+      },
+      "lab-personal-profile-app": {
+        "note": "2026 年底推出",
+        "intro": [
+          "透過建立個人評測應用程式練習建置 Express 伺服器與 JSON API。"
         ]
       },
       "error-handling-in-express": {
@@ -7233,6 +7256,12 @@
           "本模組介紹 WebSockets，一種用於客戶端與伺服器即時通訊的協定。你將在實驗和工作坊中練習所學，並以短測驗檢驗你的知識。"
         ]
       },
+      "lab-chat-app": {
+        "note": "2026 年底推出",
+        "intro": [
+          "透過使用 Node.js WebSockets 建置即時多客戶端聊天伺服器來練習。"
+        ]
+      },
       "security-and-privacy": {
         "note": "預計 2026 年底推出",
         "intro": [
@@ -7243,6 +7272,12 @@
         "note": "預計 2026 年底推出",
         "intro": [
           "本模組介紹網頁應用程式的身份驗證運作方式，以及 JWT、CSRF、Passport、Helmet、密碼學與加密等重要概念。你將在實驗和工作坊中練習所學，並以短測驗檢驗你的知識。"
+        ]
+      },
+      "lab-family-movie-watchlist-api": {
+        "note": "2026 年底推出",
+        "intro": [
+          "透過建置家庭電影清單 API 練習在 Express 應用程式中實作驗證與授權。"
         ]
       },
       "back-end-development-and-apis-certification-exam": {

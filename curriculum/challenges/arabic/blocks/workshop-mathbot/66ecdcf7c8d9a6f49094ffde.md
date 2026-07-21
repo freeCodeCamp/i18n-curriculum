@@ -27,7 +27,8 @@ Math.round(3.2); // 3
 يجب أن يكون لديك متغير اسمه `numRounded`.
 
 ```js
-assert.isNotNull(numRounded);
+const explorer = await __helpers.Explorer(code);
+assert.exists(explorer.variables.numRounded);
 ```
 
 يجب أن تعيّن نتيجة تقريب الرقم `2.7` إلى المتغير `numRounded`.
@@ -39,7 +40,9 @@ assert.equal(numRounded, 3);
 لا يجب أن تُدخل القيمة `3` مباشرةً للمتغير `numRounded`. تأكد من استخدام الطريقة `Math.round()`.
 
 ```js
-assert.notMatch(code, /numRounded\s*=\s*3/);
+const explorer = await __helpers.Explorer(code);
+const numRounded = explorer.variables.numRounded;
+assert.notEqual(numRounded?.value?.toString(), "3");
 ```
 
 يجب أن تسجل قيمة `numRounded` في وحدة التحكم.
@@ -51,7 +54,8 @@ assert.match(code, /console\.log\(\s*numRounded\s*\)/);
 يجب أن يكون لديك متغير اسمه `numRounded2`.
 
 ```js
-assert.isNotNull(numRounded2);
+const explorer = await __helpers.Explorer(code);
+assert.exists(explorer.variables.numRounded2);
 ```
 
 يجب أن تعيّن نتيجة تقريب الرقم `11.2` إلى المتغير `numRounded2`.
@@ -63,7 +67,9 @@ assert.equal(numRounded2, 11);
 لا يجب أن تُدخل القيمة `11` مباشرةً للمتغير `numRounded2`. تأكد من استخدام الطريقة `Math.round()`.
 
 ```js
-assert.notMatch(code, /numRounded2\s*=\s*11/);
+const explorer = await __helpers.Explorer(code);
+const numRounded2 = explorer.variables.numRounded2;
+assert.notEqual(numRounded2?.value?.toString(), "11");
 ```
 
 يجب أن تسجل قيمة `numRounded2` في وحدة التحكم.

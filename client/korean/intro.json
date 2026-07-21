@@ -1985,7 +1985,7 @@
         ]
       },
       "lab-n-queens-problem": {
-        "title": "N-퀸 문제 구현하기",
+        "title": "N-퀸 알고리즘 구현하기",
         "intro": [
           "이 실습에서 N-퀸 문제 해결책을 구현하세요."
         ]
@@ -5866,7 +5866,7 @@
         ]
       },
       "lab-n-queens-problem-js": {
-        "title": "N-퀸 문제 구현하기",
+        "title": "N-퀸 알고리즘 구현하기",
         "intro": [
           "이 실습에서는 N-퀸 문제 해결책을 구현합니다."
         ]
@@ -6873,7 +6873,7 @@
         ]
       },
       "lab-n-queens-problem": {
-        "title": "N-퀸 문제 구현",
+        "title": "N-퀸 알고리즘 구현하기",
         "intro": [
           "이 실습에서는 N-퀸 문제 해결 방법을 구현하세요."
         ]
@@ -7167,14 +7167,19 @@
       "introduction-to-nodejs": "Node.js 소개",
       "nodejs-core-modules": "Node.js 코어 모듈",
       "node-package-manager": "Node 패키지 관리자",
+      "lab-prime-number-checker-module": "소수 검사 모듈 만들기",
       "http-and-the-web-standards-model": "HTTP와 웹 표준 모델",
       "rest-api-and-web-services": "REST API와 웹 서비스",
+      "lab-timestamp-microservice": "타임스탬프 마이크로서비스 만들기",
       "introduction-to-express": "Express 소개",
+      "lab-personal-profile-app": "개인 프로필 애플리케이션 만들기",
       "error-handling-in-express": "Express에서의 오류 처리",
       "express-middleware": "Express 미들웨어",
       "websockets": "웹소켓",
+      "lab-chat-app": "채팅 애플리케이션 만들기",
       "security-and-privacy": "보안과 개인정보 보호",
       "authentication": "인증",
+      "lab-family-movie-watchlist-api": "가족 영화 목록 API 만들기",
       "review-back-end-development-and-apis": "백엔드 개발 및 API 검토",
       "back-end-development-and-apis-certification-exam": "백엔드 개발 및 API 인증 시험"
     },
@@ -7197,6 +7202,12 @@
           "이 모듈에서는 개발자가 프로젝트 의존성과 스크립트를 관리하는 데 사용하는 Node 패키지 관리자를 소개합니다. 이후 워크숍과 실습으로 배운 내용을 연습하고 짧은 퀴즈로 지식을 확인합니다."
         ]
       },
+      "lab-prime-number-checker-module": {
+        "note": "2026년 말 출시 예정",
+        "intro": [
+          "소수 검사기를 만들어 NPM 모듈을 빌드하고 내보내는 연습을 하세요."
+        ]
+      },
       "http-and-the-web-standards-model": {
         "note": "2026년 말 출시 예정",
         "intro": [
@@ -7209,10 +7220,22 @@
           "이 모듈에서는 REST API(표현 상태 전송 애플리케이션 프로그래밍 인터페이스)와 마이크로서비스 작동 방식을 배우고 짧은 퀴즈로 지식을 테스트합니다."
         ]
       },
+      "lab-timestamp-microservice": {
+        "note": "2026년 말 출시 예정",
+        "intro": [
+          "날짜 파싱 로직을 포함한 RESTful API를 만들어 타임스탬프 마이크로서비스를 빌드하는 연습을 하세요."
+        ]
+      },
       "introduction-to-express": {
         "note": "2026년 말 출시 예정",
         "intro": [
           "이 모듈에서는 RESTful API를 구축하는 데 사용하는 프레임워크인 Express.js를 소개하고 워크숍과 실습으로 기술을 연습한 뒤 짧은 퀴즈로 확인합니다."
+        ]
+      },
+      "lab-personal-profile-app": {
+        "note": "2026년 말 출시 예정",
+        "intro": [
+          "Express 서버와 JSON API를 만들어 개인 프로필 애플리케이션을 빌드하는 연습을 하세요."
         ]
       },
       "error-handling-in-express": {
@@ -7233,6 +7256,12 @@
           "이 모듈에서는 클라이언트와 서버 간 실시간 통신에 사용하는 프로토콜인 웹소켓을 소개하고 실습과 워크숍으로 배운 내용을 연습한 뒤 짧은 퀴즈로 테스트합니다."
         ]
       },
+      "lab-chat-app": {
+        "note": "2026년 말 출시 예정",
+        "intro": [
+          "Node.js WebSocket을 사용해 실시간 다중 클라이언트 채팅 서버를 빌드하는 연습을 하세요."
+        ]
+      },
       "security-and-privacy": {
         "note": "2026년 말 출시 예정",
         "intro": [
@@ -7243,6 +7272,12 @@
         "note": "2026년 말 출시 예정",
         "intro": [
           "이 모듈에서는 웹 애플리케이션에서 인증이 어떻게 작동하는지, JWT, CSRF, Passport, Helmet, 암호화 및 암호화 기술 등 중요한 개념을 배우고 실습과 워크숍으로 연습한 뒤 짧은 퀴즈로 확인합니다."
+        ]
+      },
+      "lab-family-movie-watchlist-api": {
+        "note": "2026년 말 출시 예정",
+        "intro": [
+          "Express 애플리케이션에서 인증과 권한 부여를 구현해 가족 영화 목록 API를 만드는 연습을 하세요."
         ]
       },
       "back-end-development-and-apis-certification-exam": {
