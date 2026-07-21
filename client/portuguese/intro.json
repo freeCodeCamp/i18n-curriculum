@@ -1985,7 +1985,7 @@
         ]
       },
       "lab-n-queens-problem": {
-        "title": "Implemente o problema das N-rainhas",
+        "title": "Implemente o algoritmo das N-rainhas",
         "intro": [
           "Neste laboratório, você implementará uma solução para o problema das N-rainhas."
         ]
@@ -5866,7 +5866,7 @@
         ]
       },
       "lab-n-queens-problem-js": {
-        "title": "Implemente o problema das N rainhas",
+        "title": "Implemente o algoritmo das N-rainhas",
         "intro": [
           "Neste laboratório, você vai implementar uma solução para o problema das N rainhas."
         ]
@@ -6873,7 +6873,7 @@
         ]
       },
       "lab-n-queens-problem": {
-        "title": "Implemente o problema das N rainhas",
+        "title": "Implemente o algoritmo das N-rainhas",
         "intro": [
           "Neste laboratório, você implementará uma solução para o problema das N rainhas."
         ]
@@ -7167,14 +7167,19 @@
       "introduction-to-nodejs": "Introdução ao Node.js",
       "nodejs-core-modules": "Módulos principais do Node.js",
       "node-package-manager": "Gerenciador de pacotes Node",
+      "lab-prime-number-checker-module": "Crie um módulo verificador de números primos",
       "http-and-the-web-standards-model": "HTTP e o modelo de padrões web",
       "rest-api-and-web-services": "API REST e serviços web",
+      "lab-timestamp-microservice": "Crie um microsserviço de timestamp",
       "introduction-to-express": "Introdução ao Express",
+      "lab-personal-profile-app": "Crie um app de perfil pessoal",
       "error-handling-in-express": "Tratamento de erros no Express",
       "express-middleware": "Middleware do Express",
       "websockets": "WebSockets",
+      "lab-chat-app": "Crie um app de chat",
       "security-and-privacy": "Segurança e privacidade",
       "authentication": "Autenticação",
+      "lab-family-movie-watchlist-api": "Crie uma API de lista de filmes para a família",
       "review-back-end-development-and-apis": "Revisão de desenvolvimento back-end e APIs",
       "back-end-development-and-apis-certification-exam": "Exame de certificação em desenvolvimento back-end e APIs"
     },
@@ -7197,6 +7202,12 @@
           "Neste módulo, você será apresentado ao Node Package Manager, que os desenvolvedores usam para gerenciar dependências e scripts do projeto. Depois, praticará o que aprendeu em oficinas e laboratórios e testará seu conhecimento com um quiz curto."
         ]
       },
+      "lab-prime-number-checker-module": {
+        "note": "Disponível no final de 2026",
+        "intro": [
+          "Pratique criar e exportar um módulo npm criando um verificador de números primos."
+        ]
+      },
       "http-and-the-web-standards-model": {
         "note": "Lançamento previsto para o final de 2026",
         "intro": [
@@ -7209,10 +7220,22 @@
           "Neste módulo, você aprenderá sobre a API REST (transferência de estado representacional) e como microserviços funcionam. Depois, fará um quiz curto para testar seu conhecimento."
         ]
       },
+      "lab-timestamp-microservice": {
+        "note": "Disponível no final de 2026",
+        "intro": [
+          "Pratique criar uma API RESTful com lógica de análise de datas criando um microsserviço de timestamp."
+        ]
+      },
       "introduction-to-express": {
         "note": "Lançamento previsto para o final de 2026",
         "intro": [
           "Neste módulo, você será apresentado ao Express.js, um framework usado para criar APIs RESTful. Depois, praticará suas habilidades em oficinas e laboratórios e testará seu conhecimento com um quiz curto."
+        ]
+      },
+      "lab-personal-profile-app": {
+        "note": "Disponível no final de 2026",
+        "intro": [
+          "Pratique criar um servidor Express e uma API JSON criando uma aplicação de perfil pessoal."
         ]
       },
       "error-handling-in-express": {
@@ -7233,6 +7256,12 @@
           "Neste módulo, você será apresentado aos websockets, um protocolo usado para comunicação em tempo real entre cliente e servidor. Depois, praticará o que aprendeu em laboratórios e oficinas e testará seu conhecimento com um quiz curto."
         ]
       },
+      "lab-chat-app": {
+        "note": "Disponível no final de 2026",
+        "intro": [
+          "Pratique criar um servidor de chat em tempo real para múltiplos clientes usando WebSockets do Node.js."
+        ]
+      },
       "security-and-privacy": {
         "note": "Lançamento previsto para o final de 2026",
         "intro": [
@@ -7243,6 +7272,12 @@
         "note": "Lançamento previsto para o final de 2026",
         "intro": [
           "Neste módulo, você aprenderá como funciona a autenticação em aplicações web, junto com outros conceitos importantes como JWTs, CSRFs, Passport, Helmet, criptografia e encriptação, e mais. Depois, praticará o que aprendeu em laboratórios e oficinas e testará seu conhecimento com um quiz curto."
+        ]
+      },
+      "lab-family-movie-watchlist-api": {
+        "note": "Disponível no final de 2026",
+        "intro": [
+          "Pratique implementar autenticação e autorização em uma aplicação Express criando uma API de lista de filmes para a família."
         ]
       },
       "back-end-development-and-apis-certification-exam": {

@@ -27,7 +27,8 @@ Chini ya hapo, tengeneza kigezo kingine kipya kinachoitwa `numRounded2` na weka 
 Unapaswa kuwa na kigezo kinachoitwa `numRounded`.
 
 ```js
-assert.isNotNull(numRounded);
+const explorer = await __helpers.Explorer(code);
+assert.exists(explorer.variables.numRounded);
 ```
 
 Unapaswa kuweka thamani ya matokeo ya kuzungusha nambari `2.7` kwenye kigezo `numRounded`.
@@ -39,7 +40,9 @@ assert.equal(numRounded, 3);
 Usiweka thamani ya `3` moja kwa moja kwa kigezo `numRounded`. Hakikisha unatumia njia ya `Math.round()`.
 
 ```js
-assert.notMatch(code, /numRounded\s*=\s*3/);
+const explorer = await __helpers.Explorer(code);
+const numRounded = explorer.variables.numRounded;
+assert.notEqual(numRounded?.value?.toString(), "3");
 ```
 
 Unapaswa kuandika thamani ya `numRounded` kwenye konsoli.
@@ -51,7 +54,8 @@ assert.match(code, /console\.log\(\s*numRounded\s*\)/);
 Unapaswa kuwa na kigezo kinachoitwa `numRounded2`.
 
 ```js
-assert.isNotNull(numRounded2);
+const explorer = await __helpers.Explorer(code);
+assert.exists(explorer.variables.numRounded2);
 ```
 
 Unapaswa kuweka thamani ya matokeo ya kuzungusha nambari `11.2` kwenye kigezo `numRounded2`.
@@ -63,7 +67,9 @@ assert.equal(numRounded2, 11);
 Usiweka thamani ya `11` moja kwa moja kwa kigezo `numRounded2`. Hakikisha unatumia njia ya `Math.round()`.
 
 ```js
-assert.notMatch(code, /numRounded2\s*=\s*11/);
+const explorer = await __helpers.Explorer(code);
+const numRounded2 = explorer.variables.numRounded2;
+assert.notEqual(numRounded2?.value?.toString(), "11");
 ```
 
 Unapaswa kuandika thamani ya `numRounded2` kwenye konsoli.

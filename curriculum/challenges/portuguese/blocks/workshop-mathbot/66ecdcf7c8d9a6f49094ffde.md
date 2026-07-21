@@ -27,7 +27,8 @@ Abaixo disso, crie outra nova variável chamada `numRounded2` e atribua o result
 Você deve ter uma variável chamada `numRounded`.
 
 ```js
-assert.isNotNull(numRounded);
+const explorer = await __helpers.Explorer(code);
+assert.exists(explorer.variables.numRounded);
 ```
 
 Você deve atribuir o resultado do arredondamento do número `2.7` à variável `numRounded`.
@@ -39,7 +40,9 @@ assert.equal(numRounded, 3);
 Você não deve codificar o valor `3` diretamente para a variável `numRounded`. Certifique-se de que está usando o método `Math.round()`.
 
 ```js
-assert.notMatch(code, /numRounded\s*=\s*3/);
+const explorer = await __helpers.Explorer(code);
+const numRounded = explorer.variables.numRounded;
+assert.notEqual(numRounded?.value?.toString(), "3");
 ```
 
 Você deve registrar o valor de `numRounded` no console.
@@ -51,7 +54,8 @@ assert.match(code, /console\.log\(\s*numRounded\s*\)/);
 Você deve ter uma variável chamada `numRounded2`.
 
 ```js
-assert.isNotNull(numRounded2);
+const explorer = await __helpers.Explorer(code);
+assert.exists(explorer.variables.numRounded2);
 ```
 
 Você deve atribuir o resultado do arredondamento do número `11.2` à variável `numRounded2`.
@@ -63,7 +67,9 @@ assert.equal(numRounded2, 11);
 Você não deve codificar o valor `11` diretamente para a variável `numRounded2`. Certifique-se de que está usando o método `Math.round()`.
 
 ```js
-assert.notMatch(code, /numRounded2\s*=\s*11/);
+const explorer = await __helpers.Explorer(code);
+const numRounded2 = explorer.variables.numRounded2;
+assert.notEqual(numRounded2?.value?.toString(), "11");
 ```
 
 Você deve registrar o valor de `numRounded2` no console.

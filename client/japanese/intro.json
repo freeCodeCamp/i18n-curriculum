@@ -1985,7 +1985,7 @@
         ]
       },
       "lab-n-queens-problem": {
-        "title": "Nクイーン問題を実装する",
+        "title": "Nクイーンアルゴリズムを実装する",
         "intro": [
           "このラボでは、Nクイーン問題の解法を実装します。"
         ]
@@ -5866,7 +5866,7 @@
         ]
       },
       "lab-n-queens-problem-js": {
-        "title": "Nクイーン問題を実装する",
+        "title": "Nクイーンアルゴリズムを実装する",
         "intro": [
           "このラボでは、Nクイーン問題の解法を実装します。"
         ]
@@ -6873,7 +6873,7 @@
         ]
       },
       "lab-n-queens-problem": {
-        "title": "Nクイーン問題を実装する",
+        "title": "Nクイーンアルゴリズムを実装する",
         "intro": [
           "このラボでは、Nクイーン問題の解法を実装します。"
         ]
@@ -7167,14 +7167,19 @@
       "introduction-to-nodejs": "Node.js入門",
       "nodejs-core-modules": "Node.jsコアモジュール",
       "node-package-manager": "Nodeパッケージマネージャー",
+      "lab-prime-number-checker-module": "素数チェッカーモジュールを作成する",
       "http-and-the-web-standards-model": "HTTPとウェブ標準モデル",
       "rest-api-and-web-services": "REST APIとウェブサービス",
+      "lab-timestamp-microservice": "タイムスタンプマイクロサービスを作成する",
       "introduction-to-express": "Express入門",
+      "lab-personal-profile-app": "個人プロフィールアプリケーションを作成する",
       "error-handling-in-express": "Expressのエラーハンドリング",
       "express-middleware": "Expressミドルウェア",
       "websockets": "WebSockets",
+      "lab-chat-app": "チャットアプリを作成する",
       "security-and-privacy": "セキュリティとプライバシー",
       "authentication": "認証",
+      "lab-family-movie-watchlist-api": "家族用映画ウォッチリストAPIを作成する",
       "review-back-end-development-and-apis": "バックエンド開発とAPIの復習",
       "back-end-development-and-apis-certification-exam": "バックエンド開発とAPI認定試験"
     },
@@ -7197,6 +7202,12 @@
           "このモジュールでは、開発者がプロジェクトの依存関係やスクリプトを管理するために使うNodeパッケージマネージャーを紹介します。その後、ワークショップやラボで学んだことを実践し、短いクイズで知識を確認します。"
         ]
       },
+      "lab-prime-number-checker-module": {
+        "note": "2026年後半公開予定",
+        "intro": [
+          "素数チェッカーを作成して、npmモジュールの構築とエクスポートを練習してください。"
+        ]
+      },
       "http-and-the-web-standards-model": {
         "note": "2026年後半公開予定",
         "intro": [
@@ -7209,10 +7220,22 @@
           "このモジュールでは、REST API（表現状態転送アプリケーションプログラミングインターフェース）とマイクロサービスの仕組みについて学びます。その後、短いクイズで知識を確認します。"
         ]
       },
+      "lab-timestamp-microservice": {
+        "note": "2026年後半公開予定",
+        "intro": [
+          "タイムスタンプマイクロサービスを作成して、日付解析ロジックを持つRESTful APIの構築を練習してください。"
+        ]
+      },
       "introduction-to-express": {
         "note": "2026年後半公開予定",
         "intro": [
           "このモジュールでは、RESTful APIを構築するためのフレームワークであるExpress.jsを紹介します。その後、ワークショップやラボでスキルを実践し、短いクイズで知識を確認します。"
+        ]
+      },
+      "lab-personal-profile-app": {
+        "note": "2026年後半公開予定",
+        "intro": [
+          "個人プロフィールアプリケーションを作成して、ExpressサーバーとJSON APIの構築を練習してください。"
         ]
       },
       "error-handling-in-express": {
@@ -7233,6 +7256,12 @@
           "このモジュールでは、クライアントとサーバー間のリアルタイム通信に使われるプロトコルであるWebSocketsを紹介します。その後、ラボやワークショップで学んだことを実践し、短いクイズで知識を確認します。"
         ]
       },
+      "lab-chat-app": {
+        "note": "2026年後半公開予定",
+        "intro": [
+          "Node.jsのWebSocketを使ってリアルタイムのマルチクライアントチャットサーバーの構築を練習してください。"
+        ]
+      },
       "security-and-privacy": {
         "note": "2026年後半公開予定",
         "intro": [
@@ -7243,6 +7272,12 @@
         "note": "2026年後半公開予定",
         "intro": [
           "このモジュールでは、ウェブアプリケーションの認証の仕組みやJWT、CSRF、Passport、Helmet、暗号化と暗号技術などの重要な概念について学びます。その後、ラボやワークショップで実践し、短いクイズで知識を確認します。"
+        ]
+      },
+      "lab-family-movie-watchlist-api": {
+        "note": "2026年後半公開予定",
+        "intro": [
+          "家族用映画ウォッチリストAPIを作成して、Expressアプリケーションでの認証と認可の実装を練習してください。"
         ]
       },
       "back-end-development-and-apis-certification-exam": {

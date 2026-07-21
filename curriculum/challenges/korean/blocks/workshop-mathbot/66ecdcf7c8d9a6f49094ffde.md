@@ -27,7 +27,8 @@ Math.round(3.2); // 3
 `numRounded`라는 변수가 있어야 합니다.
 
 ```js
-assert.isNotNull(numRounded);
+const explorer = await __helpers.Explorer(code);
+assert.exists(explorer.variables.numRounded);
 ```
 
 숫자 `2.7`를 반올림한 결과를 `numRounded` 변수에 할당해야 합니다.
@@ -39,7 +40,9 @@ assert.equal(numRounded, 3);
 `3` 변수에 `numRounded` 값을 하드코딩하지 마세요. `Math.round()` 메서드를 사용하고 있는지 확인하세요.
 
 ```js
-assert.notMatch(code, /numRounded\s*=\s*3/);
+const explorer = await __helpers.Explorer(code);
+const numRounded = explorer.variables.numRounded;
+assert.notEqual(numRounded?.value?.toString(), "3");
 ```
 
 `numRounded` 값을 콘솔에 출력해야 합니다.
@@ -51,7 +54,8 @@ assert.match(code, /console\.log\(\s*numRounded\s*\)/);
 `numRounded2`라는 변수가 있어야 합니다.
 
 ```js
-assert.isNotNull(numRounded2);
+const explorer = await __helpers.Explorer(code);
+assert.exists(explorer.variables.numRounded2);
 ```
 
 숫자 `11.2`를 반올림한 결과를 `numRounded2` 변수에 할당해야 합니다.
@@ -63,7 +67,9 @@ assert.equal(numRounded2, 11);
 `11` 변수에 `numRounded2` 값을 하드코딩하지 마세요. `Math.round()` 메서드를 사용하고 있는지 확인하세요.
 
 ```js
-assert.notMatch(code, /numRounded2\s*=\s*11/);
+const explorer = await __helpers.Explorer(code);
+const numRounded2 = explorer.variables.numRounded2;
+assert.notEqual(numRounded2?.value?.toString(), "11");
 ```
 
 `numRounded2` 값을 콘솔에 출력해야 합니다.

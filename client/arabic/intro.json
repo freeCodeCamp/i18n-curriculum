@@ -1985,7 +1985,7 @@
         ]
       },
       "lab-n-queens-problem": {
-        "title": "تنفيذ مشكلة الملكات N",
+        "title": "تنفيذ خوارزمية N-Queens",
         "intro": [
           "في هذه الورشة، ستنفذ حلاً لمشكلة الملكات N."
         ]
@@ -5866,7 +5866,7 @@
         ]
       },
       "lab-n-queens-problem-js": {
-        "title": "تنفيذ مشكلة N-Queens",
+        "title": "تنفيذ خوارزمية N-Queens",
         "intro": [
           "في هذا المختبر، ستنفذ حلاً لمشكلة N-Queens."
         ]
@@ -6873,7 +6873,7 @@
         ]
       },
       "lab-n-queens-problem": {
-        "title": "تنفيذ مشكلة N-Queens",
+        "title": "تنفيذ خوارزمية N-Queens",
         "intro": [
           "في هذه الورشة، ستنفذ حلاً لمشكلة N-Queens."
         ]
@@ -7167,14 +7167,19 @@
       "introduction-to-nodejs": "مقدمة إلى Node.js",
       "nodejs-core-modules": "الوحدات الأساسية في Node.js",
       "node-package-manager": "Node Package Manager",
+      "lab-prime-number-checker-module": "بناء وحدة فاحص الأعداد الأولية",
       "http-and-the-web-standards-model": "HTTP ونموذج معايير الويب",
       "rest-api-and-web-services": "REST API وخدمات الويب",
+      "lab-timestamp-microservice": "بناء خدمة مصغرة للطابع الزمني",
       "introduction-to-express": "مقدمة إلى Express",
+      "lab-personal-profile-app": "بناء تطبيق الملف الشخصي",
       "error-handling-in-express": "معالجة الأخطاء في Express",
       "express-middleware": "برمجيات وسيطة في Express",
       "websockets": "WebSockets",
+      "lab-chat-app": "بناء تطبيق دردشة",
       "security-and-privacy": "الأمان والخصوصية",
       "authentication": "توثيق",
+      "lab-family-movie-watchlist-api": "بناء واجهة برمجة تطبيقات لقائمة مشاهدة أفلام عائلية",
       "review-back-end-development-and-apis": "مراجعة تطوير الواجهة الخلفية وواجهات برمجة التطبيقات",
       "back-end-development-and-apis-certification-exam": "اختبار شهادة تطوير الواجهة الخلفية وواجهات برمجة التطبيقات"
     },
@@ -7197,6 +7202,12 @@
           "في هذه الوحدة، ستتعرف على مدير حزم Node، الذي يستخدمه المطوّرون لإدارة تبعيات المشروع والسكربتات. ثم ستتدرب على ما تعلمته من خلال ورش العمل والمختبرات وتختبر معرفتك في اختبار قصير."
         ]
       },
+      "lab-prime-number-checker-module": {
+        "note": "قادم أواخر 2026",
+        "intro": [
+          "تمرن على بناء وتصدير وحدة NPM بإنشاء فاحص أعداد أولية"
+        ]
+      },
       "http-and-the-web-standards-model": {
         "note": "قادم أواخر 2026",
         "intro": [
@@ -7209,10 +7220,22 @@
           "في هذه الوحدة، ستتعلم عن REST API (واجهة برمجة التطبيقات لنقل الحالة التمثيلية) وكيف تعمل الخدمات المصغرة. ثم ستجري اختبارًا قصيرًا لتقييم معرفتك."
         ]
       },
+      "lab-timestamp-microservice": {
+        "note": "قادم أواخر 2026",
+        "intro": [
+          "تمرن على بناء واجهة برمجة تطبيقات RESTful مع منطق تحليل التواريخ بإنشاء خدمة مصغرة للطابع الزمني"
+        ]
+      },
       "introduction-to-express": {
         "note": "قادم أواخر 2026",
         "intro": [
           "في هذه الوحدة، ستتعرف على Express.js، وهو إطار عمل يُستخدم لبناء واجهات RESTful. ثم ستتدرب على مهاراتك من خلال ورش العمل والمختبرات وتختبر معرفتك في اختبار قصير."
+        ]
+      },
+      "lab-personal-profile-app": {
+        "note": "قادم أواخر 2026",
+        "intro": [
+          "تمرن على بناء خادم Express وواجهة برمجة تطبيقات JSON بإنشاء تطبيق الملف الشخصي"
         ]
       },
       "error-handling-in-express": {
@@ -7233,6 +7256,12 @@
           "في هذه الوحدة، ستتعرف على WebSockets، وهو بروتوكول يُستخدم للتواصل الفوري بين العميل والخادم. ثم ستتدرب على ما تعلمته في المختبرات وورش العمل وتختبر معرفتك في اختبار قصير."
         ]
       },
+      "lab-chat-app": {
+        "note": "قادم أواخر 2026",
+        "intro": [
+          "تمرن على بناء خادم دردشة متعدد العملاء في الوقت الحقيقي باستخدام WebSockets في Node.js"
+        ]
+      },
       "security-and-privacy": {
         "note": "قادم أواخر 2026",
         "intro": [
@@ -7243,6 +7272,12 @@
         "note": "قادم أواخر 2026",
         "intro": [
           "في هذه الوحدة، ستتعلم كيف يعمل التوثيق في تطبيقات الويب إلى جانب مفاهيم مهمة أخرى مثل JWTs، CSRFs، Passport، Helmet، التشفير، والمزيد. ثم ستتدرب على ما تعلمته في المختبرات وورش العمل وتختبر معرفتك في اختبار قصير."
+        ]
+      },
+      "lab-family-movie-watchlist-api": {
+        "note": "قادم أواخر 2026",
+        "intro": [
+          "تمرن على تنفيذ التوثيق والتفويض في تطبيق Express ببناء واجهة برمجة تطبيقات لقائمة مشاهدة أفلام عائلية"
         ]
       },
       "back-end-development-and-apis-certification-exam": {

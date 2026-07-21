@@ -1985,7 +1985,7 @@
         ]
       },
       "lab-n-queens-problem": {
-        "title": "Tekeleza tatizo la malkia N",
+        "title": "Tekeleza algoriti ya N-Queens",
         "intro": [
           "Katika warsha hii, utatekeleza suluhisho la tatizo la malkia N."
         ]
@@ -5866,7 +5866,7 @@
         ]
       },
       "lab-n-queens-problem-js": {
-        "title": "Tekeleza tatizo la malkia N",
+        "title": "Tekeleza algoriti ya N-Queens",
         "intro": [
           "Katika maabara hii, utatekeleza suluhisho la tatizo la malkia N."
         ]
@@ -6873,7 +6873,7 @@
         ]
       },
       "lab-n-queens-problem": {
-        "title": "Tekeleza tatizo la malkia N",
+        "title": "Tekeleza algoriti ya N-Queens",
         "intro": [
           "Katika warsha hii, utatekeleza suluhisho la tatizo la malkia N."
         ]
@@ -7167,14 +7167,19 @@
       "introduction-to-nodejs": "Utangulizi wa Node.js",
       "nodejs-core-modules": "Moduli kuu za Node.js",
       "node-package-manager": "Msimamizi wa vifurushi wa Node",
+      "lab-prime-number-checker-module": "Jenga moduli ya kukagua namba msingi",
       "http-and-the-web-standards-model": "HTTP na mfano wa viwango vya mtandao",
       "rest-api-and-web-services": "REST API na huduma za mtandao",
+      "lab-timestamp-microservice": "Jenga huduma ndogo ya timestamp",
       "introduction-to-express": "Utangulizi wa Express",
+      "lab-personal-profile-app": "Jenga programu ya wasifu binafsi",
       "error-handling-in-express": "Ushughulikiaji wa hitilafu katika Express",
       "express-middleware": "Programu ya kati ya Express",
       "websockets": "WebSockets",
+      "lab-chat-app": "Jenga programu ya mazungumzo",
       "security-and-privacy": "Usalama na faragha",
       "authentication": "Uthibitisho wa utambulisho",
+      "lab-family-movie-watchlist-api": "Jenga API ya orodha ya filamu za familia",
       "review-back-end-development-and-apis": "Kagua ukuzaji wa nyuma na APIs",
       "back-end-development-and-apis-certification-exam": "Mtihani wa cheti cha ukuzaji wa nyuma na APIs"
     },
@@ -7197,6 +7202,12 @@
           "Katika moduli hii, utatambulishwa na Msimamizi wa vifurushi wa Node, ambao wasanidi programu hutumia kusimamia utegemezi wa miradi na misimbo. Kisha utafanya mazoezi kupitia warsha na maabara na kupima maarifa yako kwa jaribio fupi."
         ]
       },
+      "lab-prime-number-checker-module": {
+        "note": "Inakuja mwishoni mwa 2026",
+        "intro": [
+          "Jifunze kujenga na kusafirisha moduli ya npm kwa kuunda kipima namba msingi."
+        ]
+      },
       "http-and-the-web-standards-model": {
         "note": "Inakuja mwishoni mwa 2026",
         "intro": [
@@ -7209,10 +7220,22 @@
           "Katika moduli hii, utajifunza kuhusu REST API (uhamishaji wa hali ya uwakilishi (REST)) na jinsi microservices zinavyofanya kazi. Kisha utachukua jaribio fupi kupima maarifa yako."
         ]
       },
+      "lab-timestamp-microservice": {
+        "note": "Inakuja mwishoni mwa 2026",
+        "intro": [
+          "Jifunze kujenga API ya RESTful yenye mantiki ya kuchambua tarehe kwa kuunda huduma ndogo ya timestamp."
+        ]
+      },
       "introduction-to-express": {
         "note": "Inakuja mwishoni mwa 2026",
         "intro": [
           "Katika moduli hii, utatambulishwa na Express.js, ambayo ni mfumo wa kazi unaotumika kujenga RESTful APIs. Kisha utafanya mazoezi kupitia warsha na maabara na kupima maarifa yako kwa jaribio fupi."
+        ]
+      },
+      "lab-personal-profile-app": {
+        "note": "Inakuja mwishoni mwa 2026",
+        "intro": [
+          "Jifunze kujenga seva ya Express na API ya JSON kwa kuunda programu ya wasifu binafsi."
         ]
       },
       "error-handling-in-express": {
@@ -7233,6 +7256,12 @@
           "Katika moduli hii, utatambulishwa na websockets, ambayo ni itifaki inayotumika kwa mawasiliano ya wakati halisi kati ya mteja na seva. Kisha utafanya mazoezi katika maabara na warsha na kupima maarifa yako kwa jaribio fupi."
         ]
       },
+      "lab-chat-app": {
+        "note": "Inakuja mwishoni mwa 2026",
+        "intro": [
+          "Jifunze kujenga seva ya mazungumzo ya wakati halisi kwa wateja wengi ukitumia Node.js WebSockets."
+        ]
+      },
       "security-and-privacy": {
         "note": "Inakuja mwishoni mwa 2026",
         "intro": [
@@ -7243,6 +7272,12 @@
         "note": "Inakuja mwishoni mwa 2026",
         "intro": [
           "Katika moduli hii, utajifunza jinsi uthibitisho wa utambulisho unavyofanya kazi katika programu za mtandao pamoja na dhana nyingine muhimu ikiwemo JWTs, CSRFs, Passport, Helmet, usimbaji fiche na usimbaji, na zaidi. Kisha utafanya mazoezi katika maabara na warsha na kupima maarifa yako kwa jaribio fupi."
+        ]
+      },
+      "lab-family-movie-watchlist-api": {
+        "note": "Inakuja mwishoni mwa 2026",
+        "intro": [
+          "Jifunze kutekeleza uthibitisho wa utambulisho na idhini katika programu ya Express kwa kujenga API ya orodha ya filamu za familia."
         ]
       },
       "back-end-development-and-apis-certification-exam": {

@@ -35,12 +35,13 @@ Ihre `__init__`-Methode sollte einen Rückgabetyp-Hinweis von `None` haben.
 ## --seed-contents--
 
 ```py
---fcc-editable-region--
 class Product:
+--fcc-editable-region--
     def __init__(self, name: str, price: float):
+--fcc-editable-region--
         self.name = name
         self.price = price
---fcc-editable-region--
+
     def __str__(self):
         return f'{self.name} - ${self.price}'
 ```

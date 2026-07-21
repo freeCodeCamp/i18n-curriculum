@@ -1,6 +1,6 @@
 ---
 id: 66ecdcf7c8d9a6f49094ffde
-title: 步骤 13
+title: 第 13 步
 challengeType: 1
 dashedName: step-13
 ---
@@ -27,7 +27,8 @@ Math.round(3.2); // 3
 你应该有一个名为 `numRounded` 的变量。
 
 ```js
-assert.isNotNull(numRounded);
+const explorer = await __helpers.Explorer(code);
+assert.exists(explorer.variables.numRounded);
 ```
 
 你应将数字 `2.7` 的四舍五入结果赋值给变量 `numRounded`。
@@ -39,7 +40,9 @@ assert.equal(numRounded, 3);
 你不应将 `numRounded` 变量的值硬编码为 `3`。 确保你使用的是 `Math.round()` 方法。
 
 ```js
-assert.notMatch(code, /numRounded\s*=\s*3/);
+const explorer = await __helpers.Explorer(code);
+const numRounded = explorer.variables.numRounded;
+assert.notEqual(numRounded?.value?.toString(), "3");
 ```
 
 你应该将 `numRounded` 的值输出到控制台。
@@ -51,7 +54,8 @@ assert.match(code, /console\.log\(\s*numRounded\s*\)/);
 你应该有一个名为 `numRounded2` 的变量。
 
 ```js
-assert.isNotNull(numRounded2);
+const explorer = await __helpers.Explorer(code);
+assert.exists(explorer.variables.numRounded2);
 ```
 
 你应将数字 `11.2` 的四舍五入结果赋值给变量 `numRounded2`。
@@ -63,7 +67,9 @@ assert.equal(numRounded2, 11);
 你不应将 `numRounded2` 变量的值硬编码为 `11`。 确保你使用的是 `Math.round()` 方法。
 
 ```js
-assert.notMatch(code, /numRounded2\s*=\s*11/);
+const explorer = await __helpers.Explorer(code);
+const numRounded2 = explorer.variables.numRounded2;
+assert.notEqual(numRounded2?.value?.toString(), "11");
 ```
 
 你应该将 `numRounded2` 的值输出到控制台。

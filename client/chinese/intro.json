@@ -1985,7 +1985,7 @@
         ]
       },
       "lab-n-queens-problem": {
-        "title": "实现 N 皇后问题",
+        "title": "实现 N 皇后算法",
         "intro": [
           "在本实验中，你将实现 N 皇后问题的解决方案。"
         ]
@@ -5866,7 +5866,7 @@
         ]
       },
       "lab-n-queens-problem-js": {
-        "title": "实现 N 皇后问题",
+        "title": "实现 N 皇后算法",
         "intro": [
           "在本实验中，你将实现 N 皇后问题的解决方案。"
         ]
@@ -6873,7 +6873,7 @@
         ]
       },
       "lab-n-queens-problem": {
-        "title": "实现 N 皇后问题",
+        "title": "实现 N 皇后算法",
         "intro": [
           "在本实验中，你将实现 N 皇后问题的解决方案。"
         ]
@@ -7167,14 +7167,19 @@
       "introduction-to-nodejs": "Node.js 入门",
       "nodejs-core-modules": "Node.js 核心模块",
       "node-package-manager": "Node 包管理器",
+      "lab-prime-number-checker-module": "创建素数检测模块",
       "http-and-the-web-standards-model": "HTTP 与网络标准模型",
       "rest-api-and-web-services": "REST API 与网络服务",
+      "lab-timestamp-microservice": "创建时间戳微服务",
       "introduction-to-express": "Express 入门",
+      "lab-personal-profile-app": "创建个人评测应用",
       "error-handling-in-express": "Express 中的错误处理",
       "express-middleware": "Express 中间件",
       "websockets": "WebSockets",
+      "lab-chat-app": "创建聊天应用",
       "security-and-privacy": "安全性与隐私",
       "authentication": "认证",
+      "lab-family-movie-watchlist-api": "创建家庭电影观看列表 API",
       "review-back-end-development-and-apis": "后端开发与 API 复习",
       "back-end-development-and-apis-certification-exam": "后端开发与 API 认证考试"
     },
@@ -7197,6 +7202,12 @@
           "在本模块中，你将了解 Node 包管理器，它帮助开发者管理项目依赖和脚本。然后通过工作坊和实验练习所学内容，并通过简短测验检验知识。"
         ]
       },
+      "lab-prime-number-checker-module": {
+        "note": "2026 年底上线",
+        "intro": [
+          "通过创建素数检测器练习构建和导出 NPM 模块。"
+        ]
+      },
       "http-and-the-web-standards-model": {
         "note": "2026 年底上线",
         "intro": [
@@ -7209,10 +7220,22 @@
           "在本模块中，你将学习 REST API（表现层状态转移应用程序接口）及微服务的工作原理。然后通过简短测验检验知识。"
         ]
       },
+      "lab-timestamp-microservice": {
+        "note": "2026 年底上线",
+        "intro": [
+          "通过创建时间戳微服务练习构建带日期解析逻辑的 RESTful API。"
+        ]
+      },
       "introduction-to-express": {
         "note": "2026 年底上线",
         "intro": [
           "在本模块中，你将了解 Express.js，这是一个用于构建 RESTful API 的框架。然后通过工作坊和实验练习技能，并通过简短测验检验知识。"
+        ]
+      },
+      "lab-personal-profile-app": {
+        "note": "2026 年底上线",
+        "intro": [
+          "通过创建个人评测应用练习构建 Express 服务器和 JSON API。"
         ]
       },
       "error-handling-in-express": {
@@ -7233,6 +7256,12 @@
           "在本模块中，你将了解 WebSockets，这是一种用于客户与服务器实时通信的协议。然后通过实验和工作坊练习所学内容，并通过简短测验检验知识。"
         ]
       },
+      "lab-chat-app": {
+        "note": "2026 年底上线",
+        "intro": [
+          "通过使用 Node.js 套接字练习构建实时多客户聊天服务器。"
+        ]
+      },
       "security-and-privacy": {
         "note": "2026 年底上线",
         "intro": [
@@ -7243,6 +7272,12 @@
         "note": "2026 年底上线",
         "intro": [
           "在本模块中，你将学习网络应用中的认证机制，以及 JWT、CSRF、Passport、Helmet、密码学和加密等重要概念。然后通过实验和工作坊练习所学内容，并通过简短测验检验知识。"
+        ]
+      },
+      "lab-family-movie-watchlist-api": {
+        "note": "2026 年底上线",
+        "intro": [
+          "通过构建家庭电影观看列表 API 练习在 Express 应用中实现认证和授权。"
         ]
       },
       "back-end-development-and-apis-certification-exam": {
