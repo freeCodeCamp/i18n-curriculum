@@ -1,6 +1,6 @@
 ---
 id: 5f3ef6e087d56ed3ffdc36be
-title: Step 57
+title: 57단계
 challengeType: 0
 dashedName: step-57
 ---
@@ -14,7 +14,7 @@ dashedName: step-57
 `class` 요소의 `p`를 `established`로 설정하세요.
 
 ```js
-assert.match(code,/<p class=('|")established\1>/i);
+assert.exists(document.querySelector('p.established'));
 ```
 
 `established` 텍스트가 있는 요소에 `Est. 2020` 클래스를 지정해야 합니다.
@@ -43,7 +43,7 @@ assert.equal(establishedFont, "italic");
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cafe Menu</title>
-    <link href="styles.css" rel="stylesheet"/>
+    <link href="styles.css" rel="stylesheet" />
   </head>
   <body>
     <div class="menu">

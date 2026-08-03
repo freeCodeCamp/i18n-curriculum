@@ -7,7 +7,7 @@ dashedName: step-39
 
 # --description--
 
-既然你已經完成測試 `entryDropdown.value` 的值，你可以移除 `console.log` 述語。 
+既然你已經完成測試 `entryDropdown.value` 的值，你可以移除 `console.log` 述語。
 
 你的下一步是允許使用者為熱量計數器添加條目。宣告一個空的函式 `addEntry`。此函式不應接受任何參數。
 
@@ -215,6 +215,6 @@ function isInvalidInput(str) {
 }
 
 --fcc-editable-region--
-console.log(entryDropdown.value)
+console.log(entryDropdown.value);
 --fcc-editable-region--
 ```

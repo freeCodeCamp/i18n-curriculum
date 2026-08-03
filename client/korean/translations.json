@@ -132,7 +132,7 @@
     "title": "일일 코딩 도전 과제",
     "map-title": "오늘의 코딩 도전을 시도해 보세요:",
     "not-found": "일일 코딩 도전 과제를 찾을 수 없습니다.",
-    "release-note": "새 도전 과제는 미국 중부 시간 기준 자정에 공개됩니다."
+    "release-note": "일일 도전 과제는 미국 중부 시간 자정에 업데이트됩니다."
   },
   "weekdays": {
     "short": {
@@ -1169,6 +1169,7 @@
     "theme-updated": "테마가 업데이트되었습니다!",
     "username-used": "사용자 이름이 이미 이 계정에 연결되어 있습니다",
     "username-taken": "사용자 이름이 다른 계정에 이미 연결되어 있습니다",
+    "username-restricted": "해당 사용자 이름은 예약되어 있어 사용할 수 없습니다.",
     "username-updated": "사용자 이름을 {{username}}(으)로 업데이트했습니다",
     "privacy-updated": "개인정보 설정을 업데이트했습니다",
     "could-not-logout": "로그아웃할 수 없습니다. 잠시 후 다시 시도하세요",

@@ -132,7 +132,7 @@
     "title": "Desafios diários de programação",
     "map-title": "Experimente o desafio de programação do dia:",
     "not-found": "Desafio diário de programação não encontrado.",
-    "release-note": "Novos desafios são lançados à meia-noite no horário central dos EUA."
+    "release-note": "O desafio diário é atualizado à meia-noite no horário central dos EUA."
   },
   "weekdays": {
     "short": {
@@ -1169,6 +1169,7 @@
     "theme-updated": "Seu tema foi atualizado!",
     "username-used": "Nome de usuário já está associado a esta conta",
     "username-taken": "Nome de usuário já está associado a outra conta",
+    "username-restricted": "Esse nome de usuário está reservado e não pode ser usado.",
     "username-updated": "Atualizamos seu nome de usuário para {{username}}",
     "privacy-updated": "Atualizamos suas configurações de privacidade",
     "could-not-logout": "Não conseguimos desconectá-lo, por favor tente novamente em alguns instantes",

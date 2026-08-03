@@ -13,34 +13,21 @@ dashedName: step-9
 
 # --hints--
 
-يجب أن تستدعي الطريقة `addEventListener()` على متغير `discardBtn` الخاص بك.
+يجب أن يؤدي نقر `discardBtn` إلى إغلاق مربع حوار التأكيد.
 
 ```js
-assert.match(code, /discardBtn\.addEventListener\(/)
+confirmCloseDialog.showModal();
+discardBtn.click();
+assert.isFalse(confirmCloseDialog.open);
 ```
 
-يجب أن يستمع مستمع الحدث الخاص بك إلى حدث `click`.
+يجب أن يؤدي نقر `discardBtn` أيضًا إلى إخفاء نموذج المهمة.
 
 ```js
-assert.match(code, /discardBtn\.addEventListener\(\s*('|"|`)click\1/)
-```
-
-يجب أن تستخدم صيغة السهم لتعيين مستمع الحدث إلى زوج فارغ من الأقواس المتعرجة.
-
-```js
-assert.match(code, /discardBtn\.addEventListener\(\s*('|"|`)click\1\s*,\s*\(\s*\)\s*=>\s*\{/)
-```
-
-يجب أن يستخدم مستمع الحدث الخاص بك الطريقة `close()` على `confirmCloseDialog`.
-
-```js
-assert.match(code, /discardBtn\.addEventListener\(\s*('|"|`)click\1\s*,\s*\(\s*\)\s*=>\s*\{\s*confirmCloseDialog\.close\(\s*\)\s*;?/)
-```
-
-يجب أن يستخدم مستمع الحدث الخاص بك `classList` لتبديل الصنف `hidden` على `taskForm`.
-
-```js
-assert.match(code, /discardBtn\.addEventListener\(\s*('|"|`)click\1\s*,\s*\(\s*\)\s*=>\s*\{\s*confirmCloseDialog\.close\(\s*\)\s*;?\s*taskForm\.classList\.toggle\(\s*('|"|`)hidden\2\s*\)\s*;?\s*\}\s*\)\s*;?/)
+taskForm.classList.remove('hidden');
+confirmCloseDialog.showModal();
+discardBtn.click();
+assert.isTrue(taskForm.classList.contains('hidden'));
 ```
 
 # --seed--

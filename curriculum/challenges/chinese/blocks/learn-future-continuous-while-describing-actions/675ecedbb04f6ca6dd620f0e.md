@@ -24,7 +24,7 @@ lang: en-US
 
 ### --feedback--
 
-这是一种网络攻击类型，黑客秘密地介入两个正在相互通信的人或系统之间。黑客可以在无人知晓的情况下查看、更改或窃取共享的信息。这是一个复合词，记得使用 `-`。第一个和第四个单词的首字母大写。
+这是一种网络攻击，黑客秘密地介入两个正在通信的人或系统之间。黑客可以在双方不知情的情况下查看、更改或窃取共享的信息。这是一个复合词，所以记得使用 `-`。第一个和第四个单词的首字母大写。
 
 ---
 
@@ -79,7 +79,7 @@ lang: en-US
       "startTime": 1,
       "finishTime": 3.8,
       "dialogue": {
-        "text": "Hi, Brian. I've heard about these man in the middle attacks.",
+        "text": "Hi, Brian. I've heard about these Man-in-the-Middle attacks.",
         "align": "center"
       }
     },

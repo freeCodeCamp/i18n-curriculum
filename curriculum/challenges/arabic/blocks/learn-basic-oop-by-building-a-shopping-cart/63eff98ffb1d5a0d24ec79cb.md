@@ -1,13 +1,13 @@
 ---
 id: 63eff98ffb1d5a0d24ec79cb
-title: الخطوة 26
+title: خطوة 26
 challengeType: 0
 dashedName: step-26
 ---
 
 # --description--
 
-لم تكتب الشفرة لإنشاء HTML بعد، لكن إذا أُضيف منتج بالفعل إلى سلة المستخدم فسيكون هناك عنصر مطابق ستحتاج إليه.
+لم تكتب الشفرة لإنشاء HTML بعد، لكن إذا أُضيف منتج بالفعل إلى عربة المستخدم فسيكون هناك عنصر مطابق ستحتاجه.
 
 استخدم `.getElementById()` للحصول على العنصر المطابق - ستعيّن قيمة `id` إلى `product-count-for-id${product.id}`، لذا استخدم قالب نصي لاستعلام تلك القيمة.
 
@@ -326,7 +326,7 @@ class ShoppingCart {
     const totalCountPerProduct = {};
     this.items.forEach((dessert) => {
       totalCountPerProduct[dessert.id] = (totalCountPerProduct[dessert.id] || 0) + 1;
-    })
+    });
 
     const currentProductCount = totalCountPerProduct[product.id];
 

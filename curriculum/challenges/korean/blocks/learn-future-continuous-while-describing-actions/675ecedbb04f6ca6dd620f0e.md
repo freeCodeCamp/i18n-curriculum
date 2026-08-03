@@ -24,7 +24,7 @@ lang: en-US
 
 ### --feedback--
 
-이것은 해커가 두 사람 또는 시스템 사이에 몰래 끼어드는 사이버 공격 유형입니다. 해커는 아무도 모르게 공유되는 정보를 보고, 변경하거나 훔칠 수 있습니다. 복합어이므로 `-`를 사용하세요. 첫 번째와 네 번째 단어의 첫 글자는 대문자입니다.
+이것은 해커가 두 사람 또는 시스템이 서로 대화하는 중간에 몰래 끼어드는 사이버 공격 유형입니다. 해커는 양쪽 모두 모르게 공유되는 정보를 보고, 변경하거나 훔칠 수 있습니다. 이것은 복합어이므로 `-`를 사용해야 한다는 점을 기억하세요. 첫 번째와 네 번째 단어의 첫 글자는 대문자입니다.
 
 ---
 
@@ -79,7 +79,7 @@ lang: en-US
       "startTime": 1,
       "finishTime": 3.8,
       "dialogue": {
-        "text": "Hi, Brian. I've heard about these man in the middle attacks.",
+        "text": "Hi, Brian. I've heard about these Man-in-the-Middle attacks.",
         "align": "center"
       }
     },

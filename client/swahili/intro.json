@@ -1492,7 +1492,7 @@
       "lecture-introduction-to-python": {
         "title": "Utangulizi wa Python",
         "intro": [
-          "Katika mafundisho haya, utajifunza Python ni nini na jinsi ya kuandaa mazingira yako ya ukuzaji."
+          "Katika mafundisho haya, utajifunza Python ni nini na matumizi yake ya kawaida katika sekta."
         ]
       },
       "lecture-understanding-variables-and-data-types": {
@@ -2055,7 +2055,7 @@
       "lecture-introduction-to-strings": {
         "title": "Utangulizi wa mfuatano wa herufi",
         "intro": [
-          "Katika masomo haya, utajifunza jinsi ya kufanya kazi na mfuatano wa herufi na kuunganisha mfuatano wa herufi."
+          "Katika mafundisho haya, utajifunza jinsi ya kufanya kazi na mfuatano wa herufi, kuunganisha mfuatano wa herufi, na <code>console.log()</code>."
         ]
       },
       "lecture-understanding-code-clarity": {
@@ -5120,6 +5120,13 @@
           "Utafanya mazoezi ya masharti ili kubaini alama ya mwanafunzi kulingana na alama yake."
         ]
       },
+      "lab-story-fragment-restoration": {
+        "title": "Rejesha hadithi yenye muktadha kutoka kwa safu ya data ya vipande vya hadithi",
+        "intro": [
+          "Katika warsha hii, utarejesha hadithi yenye muktadha kutoka kwa safu ya data iliyoharibika ya vipande vya hadithi.",
+          "Utazoeza kufanya kazi na mizunguko kwa kutekeleza algoriti za msingi za safu ya data kutoka mwanzo."
+        ]
+      },
       "lecture-the-var-keyword-and-hoisting": {
         "title": "Neno la var na hoisting",
         "intro": [
@@ -5496,11 +5503,11 @@
           "Katika masomo haya, utajifunza kuhusu uthibitisho wa fomu katika JavaScript. Utajifunza njia mbalimbali za kuthibitisha fomu, jinsi njia ya <code>preventDefault()</code> inavyofanya kazi, na jinsi tukio la wasilisha linavyofanya kazi."
         ]
       },
-      "workshop-calorie-counter": {
-        "title": "Jenga Kihesabu cha Kalori",
+      "workshop-envelope-budget-app": {
+        "title": "Jenga programu ya bajeti ya mfuko",
         "intro": [
-          "Wakati mwingine unapotengeneza programu ya mtandao, utahitaji kupokea ingizo kutoka kwa mtumizi. Katika warsha hii ya kihesabu cha kalori, utajifunza jinsi ya kuthibitisha ingizo la mtumizi, kufanya mahesabu kulingana na ingizo hilo, na kusasisha kiolesura chako kwa nguvu kuonyesha matokeo.",
-          "Pia utajifunza usemi wa kawaida wa msingi, herufi za kiolezo, njia ya <code>addEventListener()</code>, na zaidi."
+          "Wakati mwingine unapotengeneza programu ya mtandao, utahitaji kupokea ingizo kutoka kwa mtumizi. Katika warsha hii ya programu ya bajeti ya mfuko, utazoeza jinsi ya kuthibitisha ingizo la mtumizi, kufanya mahesabu kulingana na ingizo hilo, na kusasisha kiolesura chako kwa nguvu kuonyesha matokeo.",
+          "Pia utazoeza usemi wa kawaida wa msingi, herufi za kiolezo, njia ya <code>addEventListener()</code>, na zaidi."
         ]
       },
       "lab-customer-complaint-form": {
@@ -7658,7 +7665,7 @@
         "title": "Jenga fomu ya maoni ya hoteli",
         "intro": [
           "Katika warsha hii, utajenga Fomu ya Maoni ya Hoteli.",
-          "Utajifunza kutumia lebo, ingizo, seti ya sehemu, hadithi, maeneo ya maandishi na vifungo."
+          "Utazoeza kufanya kazi na vipengele vya <code>label</code>, <code>input</code>, <code>fieldset</code>, <code>legend</code>, <code>textarea</code>, na <code>button</code>."
         ]
       },
       "lecture-working-with-tables": {
@@ -8189,13 +8196,13 @@
       "lecture-working-with-text-and-time-semantic-elements": {
         "title": "Kufanya kazi na vipengele vya maana vya maandishi na wakati",
         "intro": [
-          "Katika somo hili, utajifunza umuhimu wa maana katika kuwasilisha maana kwa maandishi na maudhui yanayohusiana na wakati ikiwa ni pamoja na vipengele vya <code>time</code>, <code>blockquote</code> na zaidi."
+          "Katika somo hili, utajifunza umuhimu wa semantiki katika kufikisha maana kwa maandishi na maudhui yanayohusiana na wakati ikiwa ni pamoja na vipengele vya <code>time</code> na <code>blockquote</code>, na zaidi."
         ]
       },
       "workshop-quincys-job-tips": {
         "title": "Jenga ukurasa wa vidokezo vya kazi vya Quincy",
         "intro": [
-          "Katika warsha hii, utatumia HTML ya maana kwa kutumia vipengele vya <code>q</code>, <code>blockquote</code> na <code>cite</code>."
+          "Katika warsha hii, utazoeza kufanya kazi na HTML ya semantiki kwa kutumia vipengele vya <code>q</code>, <code>blockquote</code>, na <code>cite</code>."
         ]
       },
       "lecture-working-with-specialized-semantic-elements": {
@@ -8207,7 +8214,7 @@
       "workshop-blog-page": {
         "title": "Jenga ukurasa wa blogu wa paka",
         "intro": [
-          "Katika warsha hii, utajenga ukurasa wa blogu wa HTML tu kwa kutumia vipengele vya maana ikiwa ni pamoja na <code>main</code>, <code>nav</code>, <code>article</code> na <code>footer</code>."
+          "Katika warsha hii, utajenga ukurasa wa blogu wa HTML tu kwa kutumia vipengele vya semantiki ikiwa ni pamoja na <code>main</code>, <code>nav</code>, <code>article</code>, na <code>footer</code>."
         ]
       },
       "lab-event-hub": {
@@ -8240,7 +8247,7 @@
         "title": "Jenga fomu ya maoni ya hoteli",
         "intro": [
           "Katika warsha hii, utajenga fomu ya maoni ya hoteli.",
-          "Utafanya mazoezi ya kufanya kazi na lebo, ingizo, seti za sehemu, hadithi, maeneo ya maandishi na vifungo."
+          "Utazoeza kufanya kazi na vipengele vya <code>label</code>, <code>input</code>, <code>fieldset</code>, <code>legend</code>, <code>textarea</code>, na <code>button</code>."
         ]
       },
       "lecture-working-with-tables": {
@@ -9490,13 +9497,13 @@
       "lecture-working-with-text-and-time-semantic-elements": {
         "title": "Kufanya kazi na vipengele vya maana vya maandishi na wakati",
         "intro": [
-          "Katika somo hili, utajifunza umuhimu wa maana katika kuwasilisha maana kwa maandishi na maudhui yanayohusiana na wakati ikiwa ni pamoja na vipengele vya <code>time</code>, <code>blockquote</code> na zaidi."
+          "Katika somo hili, utajifunza umuhimu wa semantiki katika kufikisha maana kwa maandishi na maudhui yanayohusiana na wakati ikiwa ni pamoja na vipengele vya <code>time</code> na <code>blockquote</code>, na zaidi."
         ]
       },
       "workshop-quincys-job-tips": {
         "title": "Jenga ukurasa wa vidokezo vya kazi vya Quincy",
         "intro": [
-          "Katika warsha hii, utatumia kufanya kazi na HTML ya maana kwa kutumia vipengele vya <code>q</code>, <code>blockquote</code> na <code>cite</code>."
+          "Katika warsha hii, utazoeza kufanya kazi na HTML ya semantiki kwa kutumia vipengele vya <code>q</code>, <code>blockquote</code>, na <code>cite</code>."
         ]
       },
       "lecture-working-with-specialized-semantic-elements": {
@@ -9508,7 +9515,7 @@
       "workshop-blog-page": {
         "title": "Jenga ukurasa wa blogu wa paka",
         "intro": [
-          "Katika warsha hii, utajenga ukurasa wa blogu wa HTML tu ukitumia vipengele vya maana ikiwa ni pamoja na <code>main</code>, <code>nav</code>, <code>article</code> na <code>footer</code>."
+          "Katika warsha hii, utajenga ukurasa wa blogu wa HTML tu kwa kutumia vipengele vya semantiki ikiwa ni pamoja na <code>main</code>, <code>nav</code>, <code>article</code>, na <code>footer</code>."
         ]
       },
       "lab-event-hub": {
@@ -10429,7 +10436,7 @@
       "workshop-blog-page": {
         "title": "Jenga ukurasa wa blogu wa paka",
         "intro": [
-          "Katika warsha hii, utajenga ukurasa wa blogu wa HTML tu kwa kutumia vipengele vya maana ikiwa ni pamoja na <code>main</code>, <code>nav</code>, <code>article</code> na <code>footer</code>."
+          "Katika warsha hii, utajenga ukurasa wa blogu wa HTML tu kwa kutumia vipengele vya semantiki ikiwa ni pamoja na <code>main</code>, <code>nav</code>, <code>article</code>, na <code>footer</code>."
         ]
       }
     },

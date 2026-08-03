@@ -9,7 +9,7 @@ dashedName: step-24
 
 `arr` contiene una serie de objetos que cada uno contiene una propiedad `name`, `position`, `number`, `isCaptain` y `nickname`. Para acceder a cada una de esas propiedades dentro de la función de callback, necesitarás usar desestructuración de objetos para desempacarlas en variables.
 
-Aquí hay un ejemplo:
+Aquí tienes un ejemplo:
 
 ```js
 function myExampleFunction({ name, age, job, city }) {
@@ -463,7 +463,7 @@ const setPlayerCards = (arr = players) => {
 
   playerCards.innerHTML += arr.map(() => {
 
-  })
+  });
 
 --fcc-editable-region--
 

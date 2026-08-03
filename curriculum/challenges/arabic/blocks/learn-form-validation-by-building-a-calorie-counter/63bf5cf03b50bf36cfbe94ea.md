@@ -7,19 +7,19 @@ dashedName: step-39
 
 # --description--
 
-الآن بعد أن انتهيت من اختبار قيمة `entryDropdown.value`، يمكنك إزالة عبارة `console.log`.
+بعد أن انتهيت من اختبار قيمة `entryDropdown.value`، يمكنك إزالة عبارة `console.log`.
 
 خطوتك التالية هي السماح للمستخدمين بإضافة مدخلات إلى عداد السعرات الحرارية. أعلن دالة فارغة باسم `addEntry`. يجب ألا تأخذ هذه الدالة أي معلمات.
 
 # --hints--
 
-يجب عليك إزالة عبارة `console.log`.
+يجب أن تزيل عبارة `console.log`.
 
 ```js
 assert.notMatch(code, /console\.log\s*\(.*\)/)
 ```
 
-يجب عليك إعلان دالة `addEntry`.
+يجب أن تعلن دالة `addEntry`.
 
 ```js
 assert.isFunction(addEntry);
@@ -215,6 +215,6 @@ function isInvalidInput(str) {
 }
 
 --fcc-editable-region--
-console.log(entryDropdown.value)
+console.log(entryDropdown.value);
 --fcc-editable-region--
 ```

@@ -24,7 +24,7 @@ lang: en-US
 
 ### --feedback--
 
-これは、ハッカーが2人または2つのシステムの間にこっそり入り込み、やり取りされている情報を誰にも気づかれずに見たり、変更したり、盗んだりするサイバー攻撃の一種です。複合語なので、`-`を使うことを忘れないでください。最初の単語と4番目の単語の頭文字は大文字です。
+これは、ハッカーが2人の人やシステムの間にこっそり入り込むサイバー攻撃の一種です。ハッカーは、どちらの側も気づかないうちに共有されている情報を見たり、変更したり、盗んだりできます。これは複合語なので、`-`を使うことを覚えておいてください。最初の単語と4番目の単語の最初の文字は大文字です。
 
 ---
 
@@ -79,7 +79,7 @@ lang: en-US
       "startTime": 1,
       "finishTime": 3.8,
       "dialogue": {
-        "text": "Hi, Brian. I've heard about these man in the middle attacks.",
+        "text": "Hi, Brian. I've heard about these Man-in-the-Middle attacks.",
         "align": "center"
       }
     },

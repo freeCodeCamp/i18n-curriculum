@@ -27,7 +27,7 @@ arr.length % 2 === 1;
 
 أسفل متغير `isEven`، سجّل المتغير `isEven` في وحدة التحكم.
 
-افتح وحدة التحكم لرؤية النتيجة.
+افتح وحدة التحكم لترى النتيجة.
 
 # --hints--
 
@@ -145,7 +145,7 @@ const testArr2 = [1, 2, 3, 4, 5, 6];
 --fcc-editable-region--
 const getMedian = (array) => {
   const sorted = array.sort((a, b) => a - b);
-}
+};
 
 const calculate = () => {
   const value = document.querySelector("#numbers").value;
@@ -155,5 +155,5 @@ const calculate = () => {
   const mean = getMean(numbers);
 
   document.querySelector("#mean").textContent = mean;
-}
+};
 ```

@@ -24,7 +24,7 @@ Escucha el audio para completar la oración de abajo.
 
 ### --feedback--
 
-Este es un tipo de ciberataque donde un hacker se mete secretamente en medio de dos personas o sistemas que están hablando entre sí. El hacker puede ver, cambiar o robar información que se comparte sin que nadie lo sepa. Esta es una palabra compuesta, recuerda usar `-`. Las primeras letras de la primera y la cuarta palabra están en mayúscula.
+Este es un tipo de ciberataque donde un hacker se coloca secretamente entre dos personas o sistemas que están comunicándose. El hacker puede ver, cambiar o robar la información que se comparte sin que ninguna de las partes lo sepa. Es una palabra compuesta, así que recuerda usar `-`. Las primeras letras de la primera y cuarta palabra están en mayúscula.
 
 ---
 
@@ -79,7 +79,7 @@ Esta palabra en plural significa acciones de hackers o criminales para dañar un
       "startTime": 1,
       "finishTime": 3.8,
       "dialogue": {
-        "text": "Hi, Brian. I've heard about these man in the middle attacks.",
+        "text": "Hi, Brian. I've heard about these Man-in-the-Middle attacks.",
         "align": "center"
       }
     },

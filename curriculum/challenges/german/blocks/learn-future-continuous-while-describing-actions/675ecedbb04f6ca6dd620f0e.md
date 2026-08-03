@@ -24,7 +24,7 @@ Hören Sie sich die Audioaufnahme an und vervollständigen Sie den folgenden Sat
 
 ### --feedback--
 
-Dies ist eine Art von Cyberangriff, bei dem ein Hacker heimlich zwischen zwei Personen oder Systemen, die miteinander kommunizieren, eingeschleust wird. Der Hacker kann die geteilten Informationen sehen, ändern oder stehlen, ohne dass es jemand bemerkt. Dies ist ein zusammengesetztes Wort, denken Sie daran, `-` zu verwenden. Die ersten Buchstaben des ersten und des vierten Wortes sind großgeschrieben.
+Dies ist eine Art von Cyberangriff, bei dem ein Hacker heimlich zwischen zwei Personen oder Systemen, die miteinander kommunizieren, gerät. Der Hacker kann die geteilten Informationen sehen, ändern oder stehlen, ohne dass eine der beiden Seiten es bemerkt. Dies ist ein zusammengesetztes Wort, daher denken Sie daran, `-` zu verwenden. Die ersten Buchstaben des ersten und vierten Wortes sind großgeschrieben.
 
 ---
 
@@ -79,7 +79,7 @@ Dieses Wort im Plural bezeichnet Handlungen von Hackern oder Kriminellen, die da
       "startTime": 1,
       "finishTime": 3.8,
       "dialogue": {
-        "text": "Hi, Brian. I've heard about these man in the middle attacks.",
+        "text": "Hi, Brian. I've heard about these Man-in-the-Middle attacks.",
         "align": "center"
       }
     },

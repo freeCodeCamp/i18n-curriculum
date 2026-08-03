@@ -9,7 +9,7 @@ dashedName: step-39
 
 Ora che hai finito di testare il valore di `entryDropdown.value`, puoi rimuovere l'istruzione `console.log`.
 
-Il passaggio successivo è permettere agli utenti di aggiungere elementi al contatore delle calorie. Dichiara una funzione vuota `addEntry`. Questa funzione non deve prendere alcun parametro.
+Il passaggio successivo è permettere agli utenti di aggiungere elementi al contatore delle calorie. Dichiara una funzione vuota `addEntry`. Questa funzione non deve prendere parametri.
 
 # --hints--
 
@@ -25,7 +25,7 @@ Dovresti dichiarare una funzione `addEntry`.
 assert.isFunction(addEntry);
 ```
 
-La tua funzione `addEntry` non deve prendere alcun parametro.
+La tua funzione `addEntry` non deve prendere parametri.
 
 ```js
 assert.match(addEntry?.toString(), /\(\s*\)/);
@@ -215,6 +215,6 @@ function isInvalidInput(str) {
 }
 
 --fcc-editable-region--
-console.log(entryDropdown.value)
+console.log(entryDropdown.value);
 --fcc-editable-region--
 ```

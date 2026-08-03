@@ -1492,7 +1492,7 @@
       "lecture-introduction-to-python": {
         "title": "Introduzione a Python",
         "intro": [
-          "In queste lezioni imparerai cos'è Python e come configurare il tuo ambiente di sviluppo."
+          "In queste lezioni imparerai cos'è Python e alcuni usi comuni nel settore."
         ]
       },
       "lecture-understanding-variables-and-data-types": {
@@ -2055,7 +2055,7 @@
       "lecture-introduction-to-strings": {
         "title": "Introduzione alle stringhe",
         "intro": [
-          "In queste lezioni imparerai a lavorare con le stringhe e la concatenazione di stringhe."
+          "In queste lezioni imparerai a lavorare con le stringhe, la concatenazione di stringhe e <code>console.log()</code>."
         ]
       },
       "lecture-understanding-code-clarity": {
@@ -5120,6 +5120,13 @@
           "Eserciterai i condizionali per determinare il voto dello studente in base al suo punteggio."
         ]
       },
+      "lab-story-fragment-restoration": {
+        "title": "Ricostruisci una narrazione coerente da un array di frammenti di storia",
+        "intro": [
+          "In questo laboratorio ricostruirai una narrazione coerente da un array corrotto di frammenti di storia.",
+          "Metterai in pratica il lavoro con i loop implementando da zero algoritmi fondamentali per gli array."
+        ]
+      },
       "lecture-the-var-keyword-and-hoisting": {
         "title": "La parola chiave var e l’hoisting",
         "intro": [
@@ -5496,11 +5503,11 @@
           "In queste lezioni imparerai la validazione dei moduli in JavaScript. Scoprirai i vari modi per validare i moduli, come funziona il metodo <code>preventDefault()</code> e come funziona l'evento submit."
         ]
       },
-      "workshop-calorie-counter": {
-        "title": "Crea un contacalorie",
+      "workshop-envelope-budget-app": {
+        "title": "Crea un'app per il budget a buste",
         "intro": [
-          "A volte, quando programmi un'applicazione web, devi poter accettare input da un utente. In questo workshop sul contacalorie, metterai in pratica la validazione degli input utente, eseguirai calcoli basati su quegli input e aggiornerai dinamicamente l'interfaccia per mostrare i risultati.",
-          "Metterai anche in pratica espressioni regolari di base, template literal, il metodo <code>addEventListener()</code> e altro."
+          "A volte, quando programmi un'applicazione web, devi poter accettare input da un utente. In questo workshop sull'app per il budget a buste, metterai in pratica come convalidare l'input dell'utente, eseguire calcoli basati su quell'input e aggiornare dinamicamente l'interfaccia per mostrare i risultati.",
+          "Metterai anche in pratica espressioni regolari di base, template literal, il metodo <code>addEventListener()</code> e altro ancora."
         ]
       },
       "lab-customer-complaint-form": {
@@ -7658,7 +7665,7 @@
         "title": "Costruisci un modulo di feedback per hotel",
         "intro": [
           "In questo workshop, costruirai un modulo di feedback per hotel.",
-          "Metterai in pratica l'uso di etichette, input, fieldset, legend, textarea e pulsanti."
+          "Metterai in pratica il lavoro con gli elementi <code>label</code>, <code>input</code>, <code>fieldset</code>, <code>legend</code>, <code>textarea</code> e <code>button</code>."
         ]
       },
       "lecture-working-with-tables": {
@@ -8189,13 +8196,13 @@
       "lecture-working-with-text-and-time-semantic-elements": {
         "title": "Lavorare con elementi semantici per testo e tempo",
         "intro": [
-          "In questa lezione, imparerai l'importanza della semantica nel trasmettere il significato per contenuti testuali e temporali, inclusi gli elementi <code>time</code>, <code>blockquote</code> e altro."
+          "In questa lezione imparerai l'importanza della semantica nel trasmettere il significato per contenuti testuali e temporali, inclusi gli elementi <code>time</code> e <code>blockquote</code>, e altro ancora."
         ]
       },
       "workshop-quincys-job-tips": {
         "title": "Crea la pagina con consigli di lavoro di Quincy",
         "intro": [
-          "In questo workshop, praticherai l'uso di HTML semantico usando gli elementi <code>q</code>, <code>blockquote</code> e <code>cite</code>."
+          "In questo workshop metterai in pratica il lavoro con l'HTML semantico usando gli elementi <code>q</code>, <code>blockquote</code> e <code>cite</code>."
         ]
       },
       "lecture-working-with-specialized-semantic-elements": {
@@ -8207,7 +8214,7 @@
       "workshop-blog-page": {
         "title": "Crea una pagina blog sui gatti",
         "intro": [
-          "In questo workshop, costruirai una pagina blog solo in HTML usando elementi semantici come <code>main</code>, <code>nav</code>, <code>article</code> e <code>footer</code>."
+          "In questo workshop costruirai una pagina blog solo HTML usando elementi semantici inclusi <code>main</code>, <code>nav</code>, <code>article</code> e <code>footer</code>."
         ]
       },
       "lab-event-hub": {
@@ -8240,7 +8247,7 @@
         "title": "Crea un modulo di feedback per hotel",
         "intro": [
           "In questo workshop, costruirai un modulo di feedback per hotel.",
-          "Praticherai l'uso di etichette, input, fieldset, legend, textarea e pulsanti."
+          "Metterai in pratica il lavoro con gli elementi <code>label</code>, <code>input</code>, <code>fieldset</code>, <code>legend</code>, <code>textarea</code> e <code>button</code>."
         ]
       },
       "lecture-working-with-tables": {
@@ -9490,13 +9497,13 @@
       "lecture-working-with-text-and-time-semantic-elements": {
         "title": "Lavorare con elementi semantici per testo e tempo",
         "intro": [
-          "In questa lezione, imparerai l'importanza della semantica nel trasmettere il significato per contenuti testuali e temporali, inclusi gli elementi <code>time</code>, <code>blockquote</code> e altro ancora."
+          "In questa lezione imparerai l'importanza della semantica nel trasmettere il significato per contenuti testuali e temporali, inclusi gli elementi <code>time</code> e <code>blockquote</code>, e altro ancora."
         ]
       },
       "workshop-quincys-job-tips": {
         "title": "Crea la pagina dei consigli di lavoro di Quincy",
         "intro": [
-          "In questo workshop, praticherai l'uso di HTML semantico usando gli elementi <code>q</code>, <code>blockquote</code> e <code>cite</code>."
+          "In questo workshop metterai in pratica il lavoro con l'HTML semantico usando gli elementi <code>q</code>, <code>blockquote</code> e <code>cite</code>."
         ]
       },
       "lecture-working-with-specialized-semantic-elements": {
@@ -9508,7 +9515,7 @@
       "workshop-blog-page": {
         "title": "Crea una pagina blog sui gatti",
         "intro": [
-          "In questo workshop, costruirai una pagina blog solo in HTML usando elementi semantici inclusi <code>main</code>, <code>nav</code>, <code>article</code> e <code>footer</code>."
+          "In questo workshop costruirai una pagina blog solo HTML usando elementi semantici inclusi <code>main</code>, <code>nav</code>, <code>article</code> e <code>footer</code>."
         ]
       },
       "lab-event-hub": {
@@ -10429,7 +10436,7 @@
       "workshop-blog-page": {
         "title": "Costruisci una pagina blog sui gatti",
         "intro": [
-          "In questo workshop, costruirai una pagina blog solo in HTML usando elementi semantici come <code>main</code>, <code>nav</code>, <code>article</code> e <code>footer</code>."
+          "In questo workshop costruirai una pagina blog solo HTML usando elementi semantici inclusi <code>main</code>, <code>nav</code>, <code>article</code> e <code>footer</code>."
         ]
       }
     },

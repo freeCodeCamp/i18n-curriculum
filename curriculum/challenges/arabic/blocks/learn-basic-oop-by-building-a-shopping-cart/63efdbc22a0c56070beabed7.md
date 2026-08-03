@@ -11,7 +11,7 @@ dashedName: step-23
 
 عندما تحاول الوصول إلى خاصية في كائن غير موجودة، تُرجع JavaScript القيمة `undefined`. إذا حاولت بعد ذلك إجراء العمليات الحسابية على `undefined`، فقد يؤدي ذلك إلى نتائج غير متوقعة، مثل `NaN`.
 
-لمنع ذلك، يمكنك استخدام العامل `||` (OR المنطقي) لتوفير قيمة افتراضية.
+لتجنب ذلك، يمكنك استخدام العامل `||` (OR المنطقي) لتوفير قيمة افتراضية.
 
 ```js
   let scores = {}; 
@@ -42,7 +42,7 @@ const cart = new ShoppingCart();
 assert.match(cart.addItem.toString(), /totalCountPerProduct\s*\[\s*dessert\.id\s*\]/);
 ```
 
-يجب تهيئة `totalCountPerProduct[dessert.id]` بقيمة `0` كقيمة افتراضية باستخدام العامل `||` في نهاية التعبير.
+يجب أن تهيئ `totalCountPerProduct[dessert.id]` بقيمة `0` كقيمة افتراضية باستخدام العامل `||` في نهاية التعبير.
 
 ```js
 const cart = new ShoppingCart();
@@ -325,7 +325,7 @@ class ShoppingCart {
     const totalCountPerProduct = {};
     this.items.forEach((dessert) => {
       
-    })
+    });
   }
 --fcc-editable-region--
 };

@@ -1,6 +1,6 @@
 ---
 id: 6406adbca6b41d3d7cef85ab
-title: 步骤5
+title: 第 5 步
 challengeType: 0
 dashedName: step-5
 ---
@@ -331,7 +331,7 @@ const sortInputArray = (event) => {
   event.preventDefault();
 
 
-}
+};
 --fcc-editable-region--
 
 sortButton.addEventListener("click", sortInputArray);

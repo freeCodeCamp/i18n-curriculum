@@ -11,13 +11,13 @@ Tornerai a occuparsi dello stile del menu tra qualche passaggio, ma per ora, pro
 
 # --hints--
 
-Dovresti avere un tag di apertura `section`.
+Dovresti aggiungere un secondo elemento `section`.
 
 ```js
-assert.lengthOf(code.match(/<section>/ig) ,2);
+assert.lengthOf(document.querySelectorAll('section'), 2);
 ```
 
-Dovresti avere un tag di chiusura `section`.
+Dovresti avere un secondo tag di chiusura `section`.
 
 ```js
 assert.lengthOf(code.match(/<\/section>/ig) ,2);
@@ -33,7 +33,7 @@ Il tuo nuovo elemento `section` dovrebbe essere annidato nell'elemento `main`.
 
 ```js
 const main = document.querySelector('main');
-const sections = main?.querySelectorAll(`:scope ${'section'}`);
+const sections = main?.querySelectorAll('section');
 assert.lengthOf(sections,2);
 ```
 
@@ -48,7 +48,7 @@ assert.lengthOf(sections,2);
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cafe Menu</title>
-    <link href="styles.css" rel="stylesheet"/>
+    <link href="styles.css" rel="stylesheet" />
   </head>
   <body>
     <div class="menu">
@@ -112,3 +112,4 @@ h1, h2, p {
   width: 25%
 }
 ```
+

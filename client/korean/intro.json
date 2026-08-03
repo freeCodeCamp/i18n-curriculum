@@ -1492,7 +1492,7 @@
       "lecture-introduction-to-python": {
         "title": "Python 소개",
         "intro": [
-          "이 수업에서 Python이 무엇인지와 개발 환경 설정 방법을 배우세요."
+          "이 수업들에서는 Python이 무엇인지와 업계에서의 일반적인 사용 사례를 배우세요."
         ]
       },
       "lecture-understanding-variables-and-data-types": {
@@ -2055,7 +2055,7 @@
       "lecture-introduction-to-strings": {
         "title": "문자열 소개",
         "intro": [
-          "이 수업에서 문자열과 문자열 연결 방법을 배우세요."
+          "이 수업들에서는 문자열, 문자열 연결, 그리고 <code>console.log()</code>를 다루는 방법을 배우세요."
         ]
       },
       "lecture-understanding-code-clarity": {
@@ -5120,6 +5120,13 @@
           "점수에 따라 학생의 성적을 결정하는 조건문을 연습합니다."
         ]
       },
+      "lab-story-fragment-restoration": {
+        "title": "배열에 담긴 이야기 조각에서 일관된 내러티브 복원하기",
+        "intro": [
+          "이 실습에서는 손상된 이야기 조각 배열에서 일관된 내러티브를 복원하세요.",
+          "기본 배열 알고리즘을 처음부터 구현하며 반복문 사용을 연습하세요."
+        ]
+      },
       "lecture-the-var-keyword-and-hoisting": {
         "title": "var 키워드와 호이스팅",
         "intro": [
@@ -5496,11 +5503,11 @@
           "이 강의에서는 JavaScript 폼 유효성 검사에 대해 배우세요. <code>preventDefault()</code> 메서드 작동 방식과 제출 이벤트 작동 방식을 익히세요."
         ]
       },
-      "workshop-calorie-counter": {
-        "title": "칼로리 계산기 만들기",
+      "workshop-envelope-budget-app": {
+        "title": "봉투 예산 애플리케이션 만들기",
         "intro": [
-          "웹 애플리케이션을 코딩할 때 사용자 입력을 받아야 할 때가 있습니다. 이 칼로리 계산기 워크숍에서 사용자 입력 유효성 검사, 입력 기반 계산 수행, 결과를 동적으로 표시하는 인터페이스 업데이트를 연습하세요.",
-          "기본 정규식, 템플릿 리터럴, <code>addEventListener()</code> 메서드 등도 연습합니다."
+          "웹 애플리케이션을 코딩할 때 사용자 입력을 받아야 할 때가 있습니다. 이 봉투 예산 앱 워크숍에서 사용자 입력 검증, 입력 기반 계산 수행, 그리고 결과를 동적으로 인터페이스에 업데이트하는 방법을 연습하세요.",
+          "기본 정규 표현식, 템플릿 리터럴, <code>addEventListener()</code> 메서드 등을 연습하세요."
         ]
       },
       "lab-customer-complaint-form": {
@@ -7658,7 +7665,7 @@
         "title": "호텔 피드백 폼 만들기",
         "intro": [
           "이 워크숍에서 호텔 피드백 폼을 만드세요.",
-          "레이블, 입력, 필드셋, 전설, 텍스트 영역, 버튼을 다루는 연습을 하세요."
+          "<code>label</code>, <code>input</code>, <code>fieldset</code>, <code>legend</code>, <code>textarea</code>, <code>button</code> 요소를 다루는 연습을 하세요."
         ]
       },
       "lecture-working-with-tables": {
@@ -8189,13 +8196,13 @@
       "lecture-working-with-text-and-time-semantic-elements": {
         "title": "텍스트 및 시간 시맨틱 요소 다루기",
         "intro": [
-          "이 강의에서는 텍스트와 시간 관련 내용을 전달하는 데 시맨틱이 왜 중요한지, <code>time</code>, <code>blockquote</code> 요소 등을 배웁니다."
+          "이 강의에서는 <code>time</code>과 <code>blockquote</code> 요소를 포함해 텍스트와 시간 관련 콘텐츠의 의미 전달에서 의미론의 중요성을 배우세요."
         ]
       },
       "workshop-quincys-job-tips": {
         "title": "퀸시의 취업 팁 페이지 만들기",
         "intro": [
-          "이 워크숍에서는 <code>q</code>, <code>blockquote</code>, <code>cite</code> 요소를 사용해 시맨틱 HTML을 연습합니다."
+          "이 워크숍에서는 <code>q</code>, <code>blockquote</code>, <code>cite</code> 요소를 사용해 의미론적 HTML 작업을 연습하세요."
         ]
       },
       "lecture-working-with-specialized-semantic-elements": {
@@ -8207,7 +8214,7 @@
       "workshop-blog-page": {
         "title": "고양이 블로그 페이지 만들기",
         "intro": [
-          "이 워크숍에서는 <code>main</code>, <code>nav</code>, <code>article</code>, <code>footer</code> 등 시맨틱 요소를 사용해 HTML 전용 블로그 페이지를 만듭니다."
+          "이 워크숍에서는 <code>main</code>, <code>nav</code>, <code>article</code>, <code>footer</code> 요소를 포함한 의미론적 요소를 사용해 HTML 전용 블로그 페이지를 만드세요."
         ]
       },
       "lab-event-hub": {
@@ -8240,7 +8247,7 @@
         "title": "호텔 피드백 폼 만들기",
         "intro": [
           "이 워크숍에서는 호텔 피드백 폼을 만듭니다.",
-          "레이블, 입력, 필드셋, 전설, 텍스트 영역, 버튼을 다루는 연습을 합니다."
+          "<code>label</code>, <code>input</code>, <code>fieldset</code>, <code>legend</code>, <code>textarea</code>, <code>button</code> 요소를 다루는 연습을 하세요."
         ]
       },
       "lecture-working-with-tables": {
@@ -9490,13 +9497,13 @@
       "lecture-working-with-text-and-time-semantic-elements": {
         "title": "텍스트 및 시간 시맨틱 요소 다루기",
         "intro": [
-          "이 강의에서는 <code>time</code>, <code>blockquote</code> 요소 등 텍스트와 시간 관련 내용의 의미 전달에서 시맨틱의 중요성을 배웁니다."
+          "이 강의에서는 <code>time</code>과 <code>blockquote</code> 요소를 포함해 텍스트와 시간 관련 콘텐츠의 의미 전달에서 의미론의 중요성을 배우세요."
         ]
       },
       "workshop-quincys-job-tips": {
         "title": "퀸시의 직장 팁 페이지 만들기",
         "intro": [
-          "이 워크숍에서는 <code>q</code>, <code>blockquote</code>, <code>cite</code> 요소를 사용해 시맨틱 HTML 작업을 연습합니다."
+          "이 워크숍에서는 <code>q</code>, <code>blockquote</code>, <code>cite</code> 요소를 사용해 의미론적 HTML 작업을 연습하세요."
         ]
       },
       "lecture-working-with-specialized-semantic-elements": {
@@ -9508,7 +9515,7 @@
       "workshop-blog-page": {
         "title": "고양이 블로그 페이지 만들기",
         "intro": [
-          "이 워크숍에서는 <code>main</code>, <code>nav</code>, <code>article</code>, <code>footer</code> 요소를 포함한 시맨틱 요소만 사용해 HTML 블로그 페이지를 만듭니다."
+          "이 워크숍에서는 <code>main</code>, <code>nav</code>, <code>article</code>, <code>footer</code> 요소를 포함한 의미론적 요소를 사용해 HTML 전용 블로그 페이지를 만드세요."
         ]
       },
       "lab-event-hub": {
@@ -10429,7 +10436,7 @@
       "workshop-blog-page": {
         "title": "고양이 블로그 페이지 만들기",
         "intro": [
-          "이 워크숍에서 <code>main</code>, <code>nav</code>, <code>article</code>, <code>footer</code> 같은 시맨틱 요소를 사용해 HTML 전용 블로그 페이지를 만듭니다."
+          "이 워크숍에서는 <code>main</code>, <code>nav</code>, <code>article</code>, <code>footer</code> 요소를 포함한 의미론적 요소를 사용해 HTML 전용 블로그 페이지를 만드세요."
         ]
       }
     },

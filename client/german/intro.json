@@ -1492,7 +1492,7 @@
       "lecture-introduction-to-python": {
         "title": "Einführung in Python",
         "intro": [
-          "In diesen Lektionen lernen Sie, was Python ist und wie Sie Ihre Entwicklungsumgebung einrichten."
+          "In diesen Lektionen lernen Sie, was Python ist und einige gängige Anwendungsbereiche in der Industrie."
         ]
       },
       "lecture-understanding-variables-and-data-types": {
@@ -2055,7 +2055,7 @@
       "lecture-introduction-to-strings": {
         "title": "Einführung in Strings",
         "intro": [
-          "In diesen Lektionen lernen Sie, wie Sie mit Strings und String-Verkettung arbeiten."
+          "In diesen Lektionen lernen Sie, wie Sie mit Strings, String-Verkettung und <code>console.log()</code> arbeiten."
         ]
       },
       "lecture-understanding-code-clarity": {
@@ -5120,6 +5120,13 @@
           "Sie üben Bedingungen, um die Note eines Schülers basierend auf seiner Punktzahl zu bestimmen."
         ]
       },
+      "lab-story-fragment-restoration": {
+        "title": "Stellen Sie eine zusammenhängende Erzählung aus einem Array von Storyfragmenten wieder her",
+        "intro": [
+          "In diesem Workshop stellen Sie aus einem beschädigten Array von Storyfragmenten eine zusammenhängende Erzählung wieder her.",
+          "Sie üben das Arbeiten mit Schleifen, indem Sie grundlegende Array-Algorithmen von Grund auf implementieren."
+        ]
+      },
       "lecture-the-var-keyword-and-hoisting": {
         "title": "Das var-Schlüsselwort und Hoisting",
         "intro": [
@@ -5496,11 +5503,11 @@
           "In diesen Vorlesungen lernen Sie die Formularvalidierung in JavaScript kennen. Sie erfahren, wie man Formulare auf verschiedene Arten validiert, wie die Methode <code>preventDefault()</code> funktioniert und wie das submit-Ereignis arbeitet."
         ]
       },
-      "workshop-calorie-counter": {
-        "title": "Erstellen Sie einen Kalorienzähler",
+      "workshop-envelope-budget-app": {
+        "title": "Erstellen Sie eine Budget-App mit Umschlägen",
         "intro": [
-          "Manchmal müssen Sie bei der Programmierung einer Webanwendung Benutzereingaben akzeptieren. In diesem Kalorienzähler-Workshop üben Sie, wie Sie Benutzereingaben validieren, Berechnungen basierend auf diesen Eingaben durchführen und Ihre Benutzeroberfläche dynamisch aktualisieren, um die Ergebnisse anzuzeigen.",
-          "Sie üben außerdem grundlegende reguläre Ausdrücke, Template-Literale, die Methode <code>addEventListener()</code> und mehr."
+          "Manchmal müssen Sie bei der Programmierung einer Webanwendung Eingaben von einem Benutzer akzeptieren können. In diesem Workshop zur Umschlag-Budget-App üben Sie, wie Sie Benutzereingaben validieren, Berechnungen basierend auf diesen Eingaben durchführen und Ihre Oberfläche dynamisch aktualisieren, um die Ergebnisse anzuzeigen.",
+          "Sie üben außerdem grundlegende reguläre Ausdrücke, Template-Literale, die <code>addEventListener()</code>-Methode und mehr."
         ]
       },
       "lab-customer-complaint-form": {
@@ -7658,7 +7665,7 @@
         "title": "Erstellen Sie ein Hotel-Feedback-Formular",
         "intro": [
           "In diesem Workshop erstellen Sie ein Hotel-Feedback-Formular.",
-          "Sie üben den Umgang mit Bezeichnungen, Eingaben, Fieldsets, Legenden, Textbereichen und Schaltflächen."
+          "Sie üben den Umgang mit den Elementen <code>label</code>, <code>input</code>, <code>fieldset</code>, <code>legend</code>, <code>textarea</code> und <code>button</code>."
         ]
       },
       "lecture-working-with-tables": {
@@ -8189,13 +8196,13 @@
       "lecture-working-with-text-and-time-semantic-elements": {
         "title": "Arbeiten mit semantischen Text- und Zeitelementen",
         "intro": [
-          "In dieser Vorlesung lernen Sie die Bedeutung von Semantik für die Vermittlung von Bedeutung bei text- und zeitbezogenen Inhalten, einschließlich der <code>time</code>-, <code>blockquote</code>-Elemente und mehr."
+          "In dieser Vorlesung lernen Sie die Bedeutung von Semantik für die Vermittlung von Bedeutung bei text- und zeitbezogenen Inhalten kennen, einschließlich der Elemente <code>time</code> und <code>blockquote</code> und mehr."
         ]
       },
       "workshop-quincys-job-tips": {
         "title": "Erstellen Sie Quincys Jobtipps-Seite",
         "intro": [
-          "In diesem Workshop üben Sie den Umgang mit semantischem HTML, indem Sie die <code>q</code>-, <code>blockquote</code>- und <code>cite</code>-Elemente verwenden."
+          "In diesem Workshop üben Sie den Umgang mit semantischem HTML durch die Verwendung der Elemente <code>q</code>, <code>blockquote</code> und <code>cite</code>."
         ]
       },
       "lecture-working-with-specialized-semantic-elements": {
@@ -8207,7 +8214,7 @@
       "workshop-blog-page": {
         "title": "Erstellen Sie eine Katzen-Blogseite",
         "intro": [
-          "In diesem Workshop erstellen Sie eine reine HTML-Blogseite mit semantischen Elementen, darunter die <code>main</code>-, <code>nav</code>-, <code>article</code>- und <code>footer</code>-Elemente."
+          "In diesem Workshop erstellen Sie eine rein HTML-basierte Blogseite mit semantischen Elementen, darunter <code>main</code>, <code>nav</code>, <code>article</code> und <code>footer</code>."
         ]
       },
       "lab-event-hub": {
@@ -8240,7 +8247,7 @@
         "title": "Erstellen Sie ein Hotel-Feedback-Formular",
         "intro": [
           "In diesem Workshop erstellen Sie ein Hotel-Feedback-Formular.",
-          "Sie üben den Umgang mit Bezeichnungen, Eingaben, Fieldsets, Legenden, Textbereichen und Schaltflächen."
+          "Sie üben den Umgang mit den Elementen <code>label</code>, <code>input</code>, <code>fieldset</code>, <code>legend</code>, <code>textarea</code> und <code>button</code>."
         ]
       },
       "lecture-working-with-tables": {
@@ -9490,13 +9497,13 @@
       "lecture-working-with-text-and-time-semantic-elements": {
         "title": "Arbeiten mit Text- und Zeit-Semantikelementen",
         "intro": [
-          "In dieser Vorlesung lernen Sie die Bedeutung der Semantik für die Vermittlung von Bedeutung bei text- und zeitbezogenen Inhalten kennen, einschließlich der Elemente <code>time</code>, <code>blockquote</code> und mehr."
+          "In dieser Vorlesung lernen Sie die Bedeutung von Semantik für die Vermittlung von Bedeutung bei text- und zeitbezogenen Inhalten kennen, einschließlich der Elemente <code>time</code> und <code>blockquote</code> und mehr."
         ]
       },
       "workshop-quincys-job-tips": {
         "title": "Erstellen Sie Quincys Job-Tipps-Seite",
         "intro": [
-          "In diesem Workshop üben Sie den Umgang mit semantischem HTML, indem Sie die Elemente <code>q</code>, <code>blockquote</code> und <code>cite</code> verwenden."
+          "In diesem Workshop üben Sie den Umgang mit semantischem HTML durch die Verwendung der Elemente <code>q</code>, <code>blockquote</code> und <code>cite</code>."
         ]
       },
       "lecture-working-with-specialized-semantic-elements": {
@@ -9508,7 +9515,7 @@
       "workshop-blog-page": {
         "title": "Erstellen Sie eine Katzen-Blog-Seite",
         "intro": [
-          "In diesem Workshop erstellen Sie eine reine HTML-Blogseite mit semantischen Elementen, darunter <code>main</code>, <code>nav</code>, <code>article</code> und <code>footer</code>."
+          "In diesem Workshop erstellen Sie eine rein HTML-basierte Blogseite mit semantischen Elementen, darunter <code>main</code>, <code>nav</code>, <code>article</code> und <code>footer</code>."
         ]
       },
       "lab-event-hub": {
@@ -10429,7 +10436,7 @@
       "workshop-blog-page": {
         "title": "Eine Katzen-Blog-Seite bauen",
         "intro": [
-          "In diesem Workshop bauen Sie eine HTML-only-Blog-Seite mit semantischen Elementen wie <code>main</code>, <code>nav</code>, <code>article</code> und <code>footer</code>."
+          "In diesem Workshop erstellen Sie eine rein HTML-basierte Blogseite mit semantischen Elementen, darunter <code>main</code>, <code>nav</code>, <code>article</code> und <code>footer</code>."
         ]
       }
     },

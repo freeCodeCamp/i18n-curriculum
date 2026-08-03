@@ -24,7 +24,7 @@ Ascolta l'audio e completa la frase qui sotto.
 
 ### --feedback--
 
-Si tratta di un tipo di attacco informatico in cui un hacker si inserisce di nascosto tra due persone o sistemi che comunicano tra loro. L'hacker può vedere, modificare o rubare le informazioni scambiate senza che nessuno se ne accorga. È una parola composta, ricorda di usare `-`. Le prime lettere della prima e della quarta parola sono maiuscole.
+Questo è un tipo di attacco informatico in cui un hacker si inserisce segretamente tra due persone o sistemi che comunicano tra loro. L'hacker può vedere, modificare o rubare le informazioni condivise senza che nessuna delle due parti lo sappia. È una parola composta, quindi ricorda di usare il `-`. Le prime lettere della prima e della quarta parola sono maiuscole.
 
 ---
 
@@ -79,7 +79,7 @@ Questa parola al plurale indica azioni compiute da hacker o criminali per danneg
       "startTime": 1,
       "finishTime": 3.8,
       "dialogue": {
-        "text": "Hi, Brian. I've heard about these man in the middle attacks.",
+        "text": "Hi, Brian. I've heard about these Man-in-the-Middle attacks.",
         "align": "center"
       }
     },

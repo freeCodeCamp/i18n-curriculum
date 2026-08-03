@@ -132,7 +132,7 @@
     "title": "Sfide quotidiane di coding",
     "map-title": "Prova la sfida di coding del giorno:",
     "not-found": "Sfida quotidiana di coding non trovata.",
-    "release-note": "Le nuove sfide vengono pubblicate a mezzanotte ora centrale USA."
+    "release-note": "La sfida giornaliera si aggiorna a mezzanotte ora centrale degli Stati Uniti."
   },
   "weekdays": {
     "short": {
@@ -1169,6 +1169,7 @@
     "theme-updated": "Il tuo tema è stato aggiornato!",
     "username-used": "Il nome utente è già associato a questo account",
     "username-taken": "Il nome utente è già associato a un account diverso",
+    "username-restricted": "Quel nome utente è riservato e non può essere usato.",
     "username-updated": "Abbiamo aggiornato il tuo nome utente in {{username}}",
     "privacy-updated": "Abbiamo aggiornato le tue impostazioni sulla privacy",
     "could-not-logout": "Non siamo riusciti a disconnetterti, riprova tra un momento",

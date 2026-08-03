@@ -17,7 +17,7 @@ dashedName: step-29
 - very-good
 - excellent
 
-**Option テキスト:**
+**Option 要素のテキスト:**
 
 - Poor
 - Satisfactory
@@ -30,13 +30,13 @@ dashedName: step-29
 
 # --hints--
 
-`option` 要素があり、その値が `"poor"` に設定されているはずです。
+`value` が `"poor"` に設定された `option` 要素が必要です。
 
 ```js
 assert.exists(document.querySelector('fieldset:nth-of-type(4) select#food option[value="poor"]'));
 ```
 
-`option` の `value` が `"poor"` のものは、テキストが `"Poor"` であるべきです。
+`value` が `"poor"` の `option` はテキストが `Poor` である必要があります。
 
 ```js
 assert.strictEqual(document.querySelector('fieldset:nth-of-type(4) select#food option[value="poor"]')?.textContent.trim(), 'Poor');
@@ -48,7 +48,7 @@ assert.strictEqual(document.querySelector('fieldset:nth-of-type(4) select#food o
 assert.exists(document.querySelector('fieldset:nth-of-type(4) select#food option[value="satisfactory"]'));
 ```
 
-`option` の `value` が `"satisfactory"` のものは、テキストが `"Satisfactory"` であるべきです。
+`value` が `"satisfactory"` の `option` はテキストが `Satisfactory` である必要があります。
 
 ```js
 assert.strictEqual(document.querySelector('fieldset:nth-of-type(4) select#food option[value="satisfactory"]')?.textContent.trim(), 'Satisfactory');
@@ -60,38 +60,37 @@ assert.strictEqual(document.querySelector('fieldset:nth-of-type(4) select#food o
 assert.exists(document.querySelector('fieldset:nth-of-type(4) select#food option[value="good"]'));
 ```
 
-`option` の `value` が `"good"` のものは、テキストが `"Good"` であるべきです。
+`value` が `"good"` の `option` はテキストが `Good` である必要があります。
 
 ```js
-
 assert.strictEqual(document.querySelector('fieldset:nth-of-type(4) select#food option[value="good"]')?.textContent.trim(), 'Good');
 ```
 
-`option` 要素があり、その値が `"very-good"` に設定されているはずです。
+`value` が `"very-good"` に設定された `option` 要素が必要です。
 
 ```js
 assert.exists(document.querySelector('fieldset:nth-of-type(4) select#food option[value="very-good"]'));
 ```
 
-`option` の `value` が `"very-good"` のものは、テキストが `"Very Good"` であるべきです。
+`value` が `"very-good"` の `option` はテキストが `Very Good` である必要があります。
 
 ```js
 assert.strictEqual(document.querySelector('fieldset:nth-of-type(4) select#food option[value="very-good"]')?.textContent.trim(), 'Very Good');
 ```
 
-`option` 要素があり、その値が `"excellent"` に設定されているはずです。
+`value` が `"excellent"` に設定された `option` 要素が必要です。
 
 ```js
 assert.exists(document.querySelector('fieldset:nth-of-type(4) select#food option[value="excellent"]'));
 ```
 
-`option` の `value` が `"excellent"` のものは、テキストが `"Excellent"` であるべきです。
+`value` が `"excellent"` の `option` はテキストが `Excellent` である必要があります。
 
 ```js
 assert.strictEqual(document.querySelector('fieldset:nth-of-type(4) select#food option[value="excellent"]')?.textContent.trim(), 'Excellent');
 ```
 
-`option` 要素があり、その `selected` 属性が `"excellent"` に設定されているはずです。
+`value` が `"excellent"` の `option` 要素には `selected` 属性が必要です。
 
 ```js
 assert.exists(document.querySelector('fieldset:nth-of-type(4) select#food option[value="excellent"][selected]'));

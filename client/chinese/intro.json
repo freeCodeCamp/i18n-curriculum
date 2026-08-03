@@ -1492,7 +1492,7 @@
       "lecture-introduction-to-python": {
         "title": "Python 入门",
         "intro": [
-          "在这些课程中，你将了解什么是 Python 以及如何设置你的开发环境。"
+          "在这些课程中，你将了解什么是 Python 以及它在行业中的一些常见用途。"
         ]
       },
       "lecture-understanding-variables-and-data-types": {
@@ -2055,7 +2055,7 @@
       "lecture-introduction-to-strings": {
         "title": "字串简介",
         "intro": [
-          "在这些课程中，你将学习如何操作字串和字串串接。"
+          "在这些课程中，你将学习如何处理字串、字串串接和 <code>console.log()</code>。"
         ]
       },
       "lecture-understanding-code-clarity": {
@@ -5120,6 +5120,13 @@
           "你将练习使用条件式，根据学生的分数确定成绩。"
         ]
       },
+      "lab-story-fragment-restoration": {
+        "title": "从一组故事片段数组中还原连贯叙事",
+        "intro": [
+          "在本实验中，你将从损坏的故事片段数组中还原连贯的叙事。",
+          "你将通过从零实现基本数组算法来练习使用循环。"
+        ]
+      },
       "lecture-the-var-keyword-and-hoisting": {
         "title": "var 关键字与提升机制",
         "intro": [
@@ -5496,11 +5503,11 @@
           "在这些讲座中，你将学习 JavaScript 中的表单验证。你将了解多种验证表单的方法，<code>preventDefault()</code> 方法的工作原理，以及提交事件的工作方式。"
         ]
       },
-      "workshop-calorie-counter": {
-        "title": "创建卡路里计算器",
+      "workshop-envelope-budget-app": {
+        "title": "构建信封预算应用",
         "intro": [
-          "有时在编写网页应用时，你需要接受用户输入。在这个卡路里计算器工作坊中，你将练习如何验证用户输入，基于输入执行计算，并动态更新用户界面以显示结果。",
-          "你还将练习基本正则表达式、模板字面值、<code>addEventListener()</code> 方法等。"
+          "有时在编写网页应用时，你需要能够接受用户输入。在这个信封预算应用工作坊中，你将练习如何验证用户输入、根据输入执行计算，并动态更新你的接口以显示结果。",
+          "你还将练习基本的正则表达式、模板字面值、<code>addEventListener()</code> 方法等。"
         ]
       },
       "lab-customer-complaint-form": {
@@ -7658,7 +7665,7 @@
         "title": "创建酒店反馈表单",
         "intro": [
           "在本次工作坊中，你将创建一个酒店反馈表单。",
-          "你将练习使用标签、输入、字段集、图例、文本区域和按钮。"
+          "你将练习使用 <code>label</code>、<code>input</code>、<code>fieldset</code>、<code>legend</code>、<code>textarea</code> 和 <code>button</code> 元素。"
         ]
       },
       "lecture-working-with-tables": {
@@ -8189,13 +8196,13 @@
       "lecture-working-with-text-and-time-semantic-elements": {
         "title": "使用文本和时间语义元素",
         "intro": [
-          "在本讲座中，你将学习语义在传达文本和时间相关内容中的重要性，包括<code>time</code>、<code>blockquote</code>元素等。"
+          "在本讲座中，你将了解语义在传达文本和时间相关内容（包括 <code>time</code> 和 <code>blockquote</code> 元素）意义中的重要性，以及更多内容。"
         ]
       },
       "workshop-quincys-job-tips": {
         "title": "创建 Quincy 的求职技巧页面",
         "intro": [
-          "在本工作坊中，你将通过使用<code>q</code>、<code>blockquote</code>和<code>cite</code>元素来练习语义超文本标记语言。"
+          "在本工作坊中，你将通过使用 <code>q</code>、<code>blockquote</code> 和 <code>cite</code> 元素来练习语义超文本标记语言。"
         ]
       },
       "lecture-working-with-specialized-semantic-elements": {
@@ -8207,7 +8214,7 @@
       "workshop-blog-page": {
         "title": "创建猫咪博客页面",
         "intro": [
-          "在本工作坊中，你将使用语义元素创建一个仅用超文本标记语言的博客页面，包括<code>main</code>、<code>nav</code>、<code>article</code>和<code>footer</code>元素。"
+          "在本工作坊中，你将使用包括 <code>main</code>、<code>nav</code>、<code>article</code> 和 <code>footer</code> 元素的语义元素构建一个纯超文本标记语言博客页面。"
         ]
       },
       "lab-event-hub": {
@@ -8240,7 +8247,7 @@
         "title": "创建酒店反馈表单",
         "intro": [
           "在本工作坊中，你将创建一个酒店反馈表单。",
-          "你将练习使用标签、输入、字段集、标题、文本区域和按钮。"
+          "你将练习使用 <code>label</code>、<code>input</code>、<code>fieldset</code>、<code>legend</code>、<code>textarea</code> 和 <code>button</code> 元素。"
         ]
       },
       "lecture-working-with-tables": {
@@ -9490,13 +9497,13 @@
       "lecture-working-with-text-and-time-semantic-elements": {
         "title": "使用文本和时间语义元素",
         "intro": [
-          "在本讲座中，你将学习语义在传达文本和时间相关内容中的重要性，包括 <code>time</code>、<code>blockquote</code> 元素等。"
+          "在本讲座中，你将了解语义在传达文本和时间相关内容（包括 <code>time</code> 和 <code>blockquote</code> 元素）意义中的重要性，以及更多内容。"
         ]
       },
       "workshop-quincys-job-tips": {
         "title": "创建 Quincy 的求职技巧页面",
         "intro": [
-          "在本工作坊中，你将通过使用 <code>q</code>、<code>blockquote</code> 和 <code>cite</code> 元素来练习语义 HTML。"
+          "在本工作坊中，你将通过使用 <code>q</code>、<code>blockquote</code> 和 <code>cite</code> 元素来练习语义超文本标记语言。"
         ]
       },
       "lecture-working-with-specialized-semantic-elements": {
@@ -9508,7 +9515,7 @@
       "workshop-blog-page": {
         "title": "创建猫咪博客页面",
         "intro": [
-          "在本工作坊中，你将使用语义元素创建一个纯 HTML 的博客页面，包括 <code>main</code>、<code>nav</code>、<code>article</code> 和 <code>footer</code> 元素。"
+          "在本工作坊中，你将使用包括 <code>main</code>、<code>nav</code>、<code>article</code> 和 <code>footer</code> 元素的语义元素构建一个纯超文本标记语言博客页面。"
         ]
       },
       "lab-event-hub": {
@@ -10429,7 +10436,7 @@
       "workshop-blog-page": {
         "title": "构建猫咪博客页面",
         "intro": [
-          "在本工作坊中，你将使用语义元素构建一个仅含 HTML 的博客页面，包括 <code>main</code>、<code>nav</code>、<code>article</code> 和 <code>footer</code> 元素。"
+          "在本工作坊中，你将使用包括 <code>main</code>、<code>nav</code>、<code>article</code> 和 <code>footer</code> 元素的语义元素构建一个纯超文本标记语言博客页面。"
         ]
       }
     },

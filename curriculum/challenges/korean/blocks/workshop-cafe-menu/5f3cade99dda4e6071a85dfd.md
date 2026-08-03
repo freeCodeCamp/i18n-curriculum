@@ -1,6 +1,6 @@
 ---
 id: 5f3cade99dda4e6071a85dfd
-title: Step 42
+title: 42단계
 challengeType: 0
 dashedName: step-42
 ---
@@ -11,13 +11,13 @@ dashedName: step-42
 
 # --hints--
 
-열린 `section` 태그가 있어야 합니다.
+두 번째 `section` 요소를 추가하세요.
 
 ```js
-assert.lengthOf(code.match(/<section>/ig) ,2);
+assert.lengthOf(document.querySelectorAll('section'), 2);
 ```
 
-닫힌 `section` 태그가 있어야 합니다.
+두 번째 닫는 `section` 태그가 있어야 합니다.
 
 ```js
 assert.lengthOf(code.match(/<\/section>/ig) ,2);
@@ -33,7 +33,7 @@ assert.lengthOf(document.querySelectorAll('main'), 1);
 
 ```js
 const main = document.querySelector('main');
-const sections = main?.querySelectorAll(`:scope ${'section'}`);
+const sections = main?.querySelectorAll('section');
 assert.lengthOf(sections,2);
 ```
 
@@ -48,7 +48,7 @@ assert.lengthOf(sections,2);
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cafe Menu</title>
-    <link href="styles.css" rel="stylesheet"/>
+    <link href="styles.css" rel="stylesheet" />
   </head>
   <body>
     <div class="menu">

@@ -9,7 +9,7 @@ dashedName: step-24
 
 يحتوي `arr` على سلسلة من الكائنات، كل منها يحتوي على خاصية `name` و`position` و`number` و`isCaptain` و`nickname`. للوصول إلى كل واحدة من هذه الخصائص داخل دالة الاستدعاء الراجع، يجب عليك استخدام التفكيك لاستخراجها إلى متغيرات.
 
-إليك مثالاً:
+إليك مثال:
 
 ```js
 function myExampleFunction({ name, age, job, city }) {
@@ -463,7 +463,7 @@ const setPlayerCards = (arr = players) => {
 
   playerCards.innerHTML += arr.map(() => {
 
-  })
+  });
 
 --fcc-editable-region--
 

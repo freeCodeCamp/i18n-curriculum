@@ -1,6 +1,6 @@
 ---
 id: 64e4ebc7eabc5a6babd479cd
-title: 步骤 9
+title: 第 9 步
 challengeType: 0
 dashedName: step-9
 ---
@@ -13,34 +13,21 @@ dashedName: step-9
 
 # --hints--
 
-你应该在 `discardBtn` 变量上调用 `addEventListener()` 方法。
+点击 `discardBtn` 应该关闭确认对话。
 
 ```js
-assert.match(code, /discardBtn\.addEventListener\(/)
+confirmCloseDialog.showModal();
+discardBtn.click();
+assert.isFalse(confirmCloseDialog.open);
 ```
 
-你的事件监听器应该监听 `click` 事件。
+点击 `discardBtn` 还应该隐藏任务形式。
 
 ```js
-assert.match(code, /discardBtn\.addEventListener\(\s*('|"|`)click\1/)
-```
-
-你应该使用箭头语法将事件监听器设置为空的一对花括号。
-
-```js
-assert.match(code, /discardBtn\.addEventListener\(\s*('|"|`)click\1\s*,\s*\(\s*\)\s*=>\s*\{/)
-```
-
-你的事件监听器应该在 `confirmCloseDialog` 上使用 `close()` 方法。
-
-```js
-assert.match(code, /discardBtn\.addEventListener\(\s*('|"|`)click\1\s*,\s*\(\s*\)\s*=>\s*\{\s*confirmCloseDialog\.close\(\s*\)\s*;?/)
-```
-
-你的事件监听器应该使用 `classList` 在 `taskForm` 上切换类 `hidden`。
-
-```js
-assert.match(code, /discardBtn\.addEventListener\(\s*('|"|`)click\1\s*,\s*\(\s*\)\s*=>\s*\{\s*confirmCloseDialog\.close\(\s*\)\s*;?\s*taskForm\.classList\.toggle\(\s*('|"|`)hidden\2\s*\)\s*;?\s*\}\s*\)\s*;?/)
+taskForm.classList.remove('hidden');
+confirmCloseDialog.showModal();
+discardBtn.click();
+assert.isTrue(taskForm.classList.contains('hidden'));
 ```
 
 # --seed--

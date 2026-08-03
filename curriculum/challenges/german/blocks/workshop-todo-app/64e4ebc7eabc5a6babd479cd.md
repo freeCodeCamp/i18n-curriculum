@@ -1,6 +1,6 @@
 ---
 id: 64e4ebc7eabc5a6babd479cd
-title: Step 9
+title: Schritt 9
 challengeType: 0
 dashedName: step-9
 ---
@@ -13,34 +13,21 @@ Fügen Sie einen Klick-Ereignislistener zu `discardBtn` hinzu und verwenden Sie 
 
 # --hints--
 
-Sie sollten die `addEventListener()`-Methode für Ihre `discardBtn`-Variable aufrufen.
+Das Klicken auf `discardBtn` sollte den Bestätigungsdialog schließen.
 
 ```js
-assert.match(code, /discardBtn\.addEventListener\(/)
+confirmCloseDialog.showModal();
+discardBtn.click();
+assert.isFalse(confirmCloseDialog.open);
 ```
 
-Ihr Ereignis-Listener sollte auf ein `click`-Ereignis hören.
+Das Klicken auf `discardBtn` sollte auch das Aufgabenformular ausblenden.
 
 ```js
-assert.match(code, /discardBtn\.addEventListener\(\s*('|"|`)click\1/)
-```
-
-Sie sollten Pfeilsyntax verwenden, um Ihren Ereignislistener auf ein leeres Paar geschweifter Klammern zu setzen.
-
-```js
-assert.match(code, /discardBtn\.addEventListener\(\s*('|"|`)click\1\s*,\s*\(\s*\)\s*=>\s*\{/)
-```
-
-Ihr Ereignislistener sollte die `close()`-Methode für `confirmCloseDialog` verwenden.
-
-```js
-assert.match(code, /discardBtn\.addEventListener\(\s*('|"|`)click\1\s*,\s*\(\s*\)\s*=>\s*\{\s*confirmCloseDialog\.close\(\s*\)\s*;?/)
-```
-
-Ihr Ereignislistener sollte `classList` verwenden, um die Klasse `hidden` auf `taskForm` umzuschalten.
-
-```js
-assert.match(code, /discardBtn\.addEventListener\(\s*('|"|`)click\1\s*,\s*\(\s*\)\s*=>\s*\{\s*confirmCloseDialog\.close\(\s*\)\s*;?\s*taskForm\.classList\.toggle\(\s*('|"|`)hidden\2\s*\)\s*;?\s*\}\s*\)\s*;?/)
+taskForm.classList.remove('hidden');
+confirmCloseDialog.showModal();
+discardBtn.click();
+assert.isTrue(taskForm.classList.contains('hidden'));
 ```
 
 # --seed--

@@ -9,7 +9,7 @@ dashedName: step-33
 
 Per l'ultima condizione, dovrai verificare se la posizione `x` del giocatore ha superato il bordo destro del canvas. Se è così, dovrai impostare la posizione `x` del giocatore al valore massimo in modo che il giocatore non esca accidentalmente dallo schermo a destra.
 
-All'interno del tuo metodo `update`, crea un'istruzione `if` che controlli se `this.position.x >= canvas.width - this.width * 2`. 
+All'interno del tuo metodo `update`, crea un'istruzione `if` che controlli se `this.position.x >= canvas.width - this.width * 2`.
 
 # --hints--
 
@@ -178,7 +178,7 @@ let isCheckpointCollisionDetectionActive = true;
 
 const proportionalSize = (size) => {
   return innerHeight < 500 ? Math.ceil((size / 500) * innerHeight) : size;
-}
+};
 
 class Player {
   constructor() {

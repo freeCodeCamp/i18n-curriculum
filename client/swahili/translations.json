@@ -132,7 +132,7 @@
     "title": "Changamoto za kila siku za kuandika msimbo",
     "map-title": "Jaribu changamoto ya kuandika msimbo ya leo:",
     "not-found": "Changamoto ya kila siku haikupatikana.",
-    "release-note": "Changamoto mpya hutolewa saa sita usiku kwa saa za Kati Marekani."
+    "release-note": "Changamoto za kila siku husasishwa saa sita usiku kwa saa ya Kati ya Marekani."
   },
   "weekdays": {
     "short": {
@@ -1169,6 +1169,7 @@
     "theme-updated": "Mandhari yako imesasishwa!",
     "username-used": "Jina la mtumiaji tayari limeunganishwa na akaunti hii",
     "username-taken": "Jina la mtumiaji tayari limeunganishwa na akaunti tofauti",
+    "username-restricted": "Jina hilo la mtumiaji limehifadhiwa na haliwezi kutumika.",
     "username-updated": "Tumesasisha jina lako la mtumiaji kuwa {{username}}",
     "privacy-updated": "Tumesasisha mipangilio yako ya faragha",
     "could-not-logout": "Hatuwezi kukuondoa kwenye akaunti, tafadhali jaribu tena baada ya muda",

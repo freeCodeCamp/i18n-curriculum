@@ -9,15 +9,15 @@ dashedName: step-29
 
 `select` 요소 안에 다음 다섯 개의 `option` 요소를 `option` 텍스트와 `value` 속성에 해당하는 값으로 추가하세요.
 
-**value 속성:**
+**값 속성:**
 
-- poor
-- satisfactory
-- good
-- very-good
-- excellent
+- 나쁨
+- 만족
+- 좋음
+- 매우 좋음
+- 우수함
 
-**옵션 텍스트:**
+**옵션 요소 텍스트:**
 
 - 나쁨
 - 만족
@@ -30,13 +30,13 @@ dashedName: step-29
 
 # --hints--
 
-`option` 요소가 `"poor"` 값으로 설정되어 있어야 합니다.
+`value`가 `"poor"`로 설정된 `option` 요소가 있어야 합니다.
 
 ```js
 assert.exists(document.querySelector('fieldset:nth-of-type(4) select#food option[value="poor"]'));
 ```
 
-`option`의 `value`가 `"poor"`인 요소는 `"Poor"` 텍스트를 가져야 합니다.
+`value`가 `"poor"`인 `option`의 텍스트는 `Poor`여야 합니다.
 
 ```js
 assert.strictEqual(document.querySelector('fieldset:nth-of-type(4) select#food option[value="poor"]')?.textContent.trim(), 'Poor');
@@ -48,7 +48,7 @@ assert.strictEqual(document.querySelector('fieldset:nth-of-type(4) select#food o
 assert.exists(document.querySelector('fieldset:nth-of-type(4) select#food option[value="satisfactory"]'));
 ```
 
-`option`의 `value`가 `"satisfactory"`인 요소는 `"Satisfactory"` 텍스트를 가져야 합니다.
+`value`가 `"satisfactory"`인 `option`의 텍스트는 `Satisfactory`여야 합니다.
 
 ```js
 assert.strictEqual(document.querySelector('fieldset:nth-of-type(4) select#food option[value="satisfactory"]')?.textContent.trim(), 'Satisfactory');
@@ -60,38 +60,37 @@ assert.strictEqual(document.querySelector('fieldset:nth-of-type(4) select#food o
 assert.exists(document.querySelector('fieldset:nth-of-type(4) select#food option[value="good"]'));
 ```
 
-`option`의 `value`가 `"good"`인 요소는 `"Good"` 텍스트를 가져야 합니다.
+`value`가 `"good"`인 `option`의 텍스트는 `Good`여야 합니다.
 
 ```js
-
 assert.strictEqual(document.querySelector('fieldset:nth-of-type(4) select#food option[value="good"]')?.textContent.trim(), 'Good');
 ```
 
-`option` 요소가 `"very-good"` 값으로 설정되어야 합니다.
+`value`가 `"very-good"`로 설정된 `option` 요소가 있어야 합니다.
 
 ```js
 assert.exists(document.querySelector('fieldset:nth-of-type(4) select#food option[value="very-good"]'));
 ```
 
-`option`의 `value`가 `"very-good"`인 요소는 `"Very Good"` 텍스트를 가져야 합니다.
+`value`가 `"very-good"`인 `option`의 텍스트는 `Very Good`여야 합니다.
 
 ```js
 assert.strictEqual(document.querySelector('fieldset:nth-of-type(4) select#food option[value="very-good"]')?.textContent.trim(), 'Very Good');
 ```
 
-`option` 요소가 `"excellent"` 값으로 설정되어야 합니다.
+`value`가 `"excellent"`로 설정된 `option` 요소가 있어야 합니다.
 
 ```js
 assert.exists(document.querySelector('fieldset:nth-of-type(4) select#food option[value="excellent"]'));
 ```
 
-`option`의 `value`가 `"excellent"`인 요소는 `"Excellent"` 텍스트를 가져야 합니다.
+`value`가 `"excellent"`인 `option`의 텍스트는 `Excellent`여야 합니다.
 
 ```js
 assert.strictEqual(document.querySelector('fieldset:nth-of-type(4) select#food option[value="excellent"]')?.textContent.trim(), 'Excellent');
 ```
 
-`option` 요소가 `selected` 속성을 `"excellent"`로 설정해야 합니다.
+`value`가 `"excellent"`인 `option` 요소에 `selected` 속성이 있어야 합니다.
 
 ```js
 assert.exists(document.querySelector('fieldset:nth-of-type(4) select#food option[value="excellent"][selected]'));

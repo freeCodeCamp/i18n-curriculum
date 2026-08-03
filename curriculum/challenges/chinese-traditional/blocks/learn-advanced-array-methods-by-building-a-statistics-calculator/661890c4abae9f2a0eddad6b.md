@@ -9,7 +9,7 @@ dashedName: step-22
 
 在接下來的幾個步驟中，你將學習如何判斷陣列的長度是偶數還是奇數，以及如何找到中位數。然後你將能夠將所學應用到 `getMedian` 函式中。
 
-要檢查一個數字是偶數還是奇數，你可以使用 <dfn>modulus operator</dfn> `%`。modulus operator 傳回兩個數字相除的餘數。 
+要檢查一個數字是偶數還是奇數，你可以使用 <dfn>modulus operator</dfn> `%`。modulus operator 傳回兩個數字相除的餘數。
 
 以下是一個檢查陣列長度是偶數還是奇數的範例：
 
@@ -27,7 +27,7 @@ arr.length % 2 === 1;
 
 在你的 `isEven` 變數下方，將 `isEven` 變數記錄到主控台。
 
-打開主控台以查看結果。 
+打開主控台以查看結果。
 
 # --hints--
 
@@ -145,7 +145,7 @@ const testArr2 = [1, 2, 3, 4, 5, 6];
 --fcc-editable-region--
 const getMedian = (array) => {
   const sorted = array.sort((a, b) => a - b);
-}
+};
 
 const calculate = () => {
   const value = document.querySelector("#numbers").value;
@@ -155,5 +155,5 @@ const calculate = () => {
   const mean = getMean(numbers);
 
   document.querySelector("#mean").textContent = mean;
-}
+};
 ```

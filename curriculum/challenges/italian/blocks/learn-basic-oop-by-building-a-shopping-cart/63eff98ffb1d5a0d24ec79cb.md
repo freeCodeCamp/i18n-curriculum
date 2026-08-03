@@ -9,7 +9,7 @@ dashedName: step-26
 
 Non hai ancora scritto il codice per generare l'HTML, ma se un prodotto è già stato aggiunto al carrello dell'utente, ci sarà un elemento corrispondente di cui avrai bisogno.
 
-Usa `.getElementById()` per ottenere l'elemento corrispondente — imposterai il valore `id` su `product-count-for-id${product.id}`, quindi usa un letterale template per interrogare quel valore.
+Usa `.getElementById()` per ottenere l'elemento corrispondente — imposterai il valore `id` su `product-count-for-id${product.id}`, quindi usa un letterale template per fare la query di quel valore.
 
 Assegna la tua query a una variabile `currentProductCountSpan`.
 
@@ -36,7 +36,7 @@ const cart = new ShoppingCart();
 assert.match(cart.addItem.toString(), /document\.getElementById\(/);
 ```
 
-Dovresti usare un letterale template per interrogare il valore `id`.
+Dovresti usare un letterale template per fare la query del valore `id`.
 
 ```js
 const afterAdd = code.split("addItem")[1];
@@ -326,7 +326,7 @@ class ShoppingCart {
     const totalCountPerProduct = {};
     this.items.forEach((dessert) => {
       totalCountPerProduct[dessert.id] = (totalCountPerProduct[dessert.id] || 0) + 1;
-    })
+    });
 
     const currentProductCount = totalCountPerProduct[product.id];
 

@@ -9,7 +9,7 @@ dashedName: step-53
 
 Más adelante en el currículo, te sumergirás más profundamente en los objetos. Pero por ahora, es momento de aplicar lo que has aprendido en tu juego de rol.
 
-Comienza eliminando tu objeto `cat` y la instrucción de consola. 
+Comienza eliminando tu objeto `cat` y la instrucción de consola.
 
 # --hints--
 
@@ -135,7 +135,7 @@ const locations = [];
 const cat = {
   name: "Whiskers",
   "Number of legs": 4,
-}
+};
 console.log(cat["Number of legs"]);
 --fcc-editable-region--
 // initialize buttons

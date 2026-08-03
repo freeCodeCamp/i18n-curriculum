@@ -14,7 +14,7 @@ dashedName: step-57
 你应该将 `p` 元素的 `class` 设置为 `established`
 
 ```js
-assert.match(code,/<p class=('|")established\1>/i);
+assert.exists(document.querySelector('p.established'));
 ```
 
 在具有文本 `Est. 2020` 的元素上应该有 `established` 类。
@@ -43,7 +43,7 @@ assert.equal(establishedFont, "italic");
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cafe Menu</title>
-    <link href="styles.css" rel="stylesheet"/>
+    <link href="styles.css" rel="stylesheet" />
   </head>
   <body>
     <div class="menu">

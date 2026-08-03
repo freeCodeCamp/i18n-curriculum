@@ -1,6 +1,6 @@
 ---
 id: 65b006efc74c675c2bdfccba
-title: 33단계
+title: 단계 33
 challengeType: 0
 dashedName: step-33
 ---
@@ -178,7 +178,7 @@ let isCheckpointCollisionDetectionActive = true;
 
 const proportionalSize = (size) => {
   return innerHeight < 500 ? Math.ceil((size / 500) * innerHeight) : size;
-}
+};
 
 class Player {
   constructor() {

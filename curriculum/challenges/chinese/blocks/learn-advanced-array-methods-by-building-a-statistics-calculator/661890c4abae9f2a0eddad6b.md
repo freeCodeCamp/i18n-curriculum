@@ -9,7 +9,7 @@ dashedName: step-22
 
 在接下来的几个步骤中，你将学习如何判断数组的长度是偶数还是奇数，以及如何求中位数。 然后，你就可以将所学知识应用到 `getMedian` 函数中。
 
-要检查一个数字是偶数还是奇数，可以使用<dfn>模运算符</dfn> `%`。 模运算符返回两个数相除的余数。 
+要检查一个数字是偶数还是奇数，可以使用<dfn>模运算符</dfn> `%`。 模运算符返回两个数相除的余数。
 
 下面是一个检查数组长度是奇数还是偶数的示例：
 
@@ -27,7 +27,7 @@ arr.length % 2 === 1;
 
 在你的 `isEven` 变量下方，将 `isEven` 变量记录到控制台。
 
-打开控制台查看结果。 
+打开控制台查看结果。
 
 # --hints--
 
@@ -145,7 +145,7 @@ const testArr2 = [1, 2, 3, 4, 5, 6];
 --fcc-editable-region--
 const getMedian = (array) => {
   const sorted = array.sort((a, b) => a - b);
-}
+};
 
 const calculate = () => {
   const value = document.querySelector("#numbers").value;
@@ -155,5 +155,5 @@ const calculate = () => {
   const mean = getMean(numbers);
 
   document.querySelector("#mean").textContent = mean;
-}
+};
 ```

@@ -132,7 +132,7 @@
     "title": "Tägliche Programmieraufgaben",
     "map-title": "Probieren Sie die Programmieraufgabe des Tages:",
     "not-found": "Tägliche Programmieraufgabe nicht gefunden.",
-    "release-note": "Neue Aufgaben werden um Mitternacht US Central Time veröffentlicht."
+    "release-note": "Die tägliche Aufgabe wird um Mitternacht US Central Time aktualisiert."
   },
   "weekdays": {
     "short": {
@@ -1169,6 +1169,7 @@
     "theme-updated": "Ihr Design wurde aktualisiert!",
     "username-used": "Der Benutzername ist bereits mit diesem Konto verknüpft.",
     "username-taken": "Der Benutzername ist bereits mit einem anderen Konto verknüpft.",
+    "username-restricted": "Dieser Benutzername ist reserviert und kann nicht verwendet werden.",
     "username-updated": "Wir haben Ihren Benutzernamen auf {{username}} aktualisiert.",
     "privacy-updated": "Wir haben Ihre Datenschutzeinstellungen aktualisiert.",
     "could-not-logout": "Wir konnten Sie nicht abmelden, bitte versuchen Sie es in einem Moment erneut.",

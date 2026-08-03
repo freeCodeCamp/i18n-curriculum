@@ -13,34 +13,21 @@ dashedName: step-9
 
 # --hints--
 
-你應該在你的 `discardBtn` 變數上呼叫 `addEventListener()` 方法。
+點擊 `discardBtn` 應該會關閉確認對話。
 
 ```js
-assert.match(code, /discardBtn\.addEventListener\(/)
+confirmCloseDialog.showModal();
+discardBtn.click();
+assert.isFalse(confirmCloseDialog.open);
 ```
 
-你的事件監聽器應該監聽 `click` 事件。
+點擊 `discardBtn` 也應該會隱藏任務表單。
 
 ```js
-assert.match(code, /discardBtn\.addEventListener\(\s*('|"|`)click\1/)
-```
-
-你應該使用箭頭語法將你的事件監聽器設置為一對空的大括號。
-
-```js
-assert.match(code, /discardBtn\.addEventListener\(\s*('|"|`)click\1\s*,\s*\(\s*\)\s*=>\s*\{/)
-```
-
-你的事件監聽器應該對 `confirmCloseDialog` 使用 `close()` 方法。
-
-```js
-assert.match(code, /discardBtn\.addEventListener\(\s*('|"|`)click\1\s*,\s*\(\s*\)\s*=>\s*\{\s*confirmCloseDialog\.close\(\s*\)\s*;?/)
-```
-
-你的事件監聽器應該使用 `classList` 來切換 `taskForm` 上的 `hidden` 類別。
-
-```js
-assert.match(code, /discardBtn\.addEventListener\(\s*('|"|`)click\1\s*,\s*\(\s*\)\s*=>\s*\{\s*confirmCloseDialog\.close\(\s*\)\s*;?\s*taskForm\.classList\.toggle\(\s*('|"|`)hidden\2\s*\)\s*;?\s*\}\s*\)\s*;?/)
+taskForm.classList.remove('hidden');
+confirmCloseDialog.showModal();
+discardBtn.click();
+assert.isTrue(taskForm.classList.contains('hidden'));
 ```
 
 # --seed--

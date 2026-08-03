@@ -24,7 +24,7 @@ lang: en-US
 
 ### --feedback--
 
-這是一種網路攻擊型別，駭客秘密地介入兩個人或系統之間的通訊。駭客可以在沒有人知道的情況下查看、更改或竊取被分享的資訊。這是一個複合字，記得使用 `-`。第一個字和第四個字的首字母要大寫。
+這是一種網路攻擊，駭客秘密地介入兩個人或系統之間的通訊。駭客可以在雙方不知情的情況下，查看、修改或竊取被分享的資訊。這是一個複合字，記得使用 `-` 連接。第一個和第四個字的首字母要大寫。
 
 ---
 
@@ -79,7 +79,7 @@ lang: en-US
       "startTime": 1,
       "finishTime": 3.8,
       "dialogue": {
-        "text": "Hi, Brian. I've heard about these man in the middle attacks.",
+        "text": "Hi, Brian. I've heard about these Man-in-the-Middle attacks.",
         "align": "center"
       }
     },

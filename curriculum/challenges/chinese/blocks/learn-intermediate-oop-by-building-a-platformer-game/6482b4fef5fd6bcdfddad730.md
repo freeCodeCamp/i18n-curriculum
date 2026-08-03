@@ -1,6 +1,6 @@
 ---
 id: 6482b4fef5fd6bcdfddad730
-title: 步骤 12
+title: 第 12 步
 challengeType: 0
 dashedName: step-12
 ---
@@ -184,7 +184,7 @@ let isCheckpointCollisionDetectionActive = true;
 
 const proportionalSize = (size) => {
   return innerHeight < 500 ? Math.ceil((size / 500) * innerHeight) : size;
-}
+};
 
 --fcc-editable-region--
 

@@ -9,7 +9,7 @@ dashedName: step-33
 
 對於最後一個條件，你需要檢查玩家的 `x` 位置是否已超過畫布的右邊緣。如果是，你需要將玩家的 `x` 位置設定為最大值，以免玩家意外地從右側離開螢幕。
 
-在你的 `update` 方法中，創建一個 `if` 述語來檢查 `this.position.x >= canvas.width - this.width * 2`。 
+在你的 `update` 方法中，創建一個 `if` 述語來檢查 `this.position.x >= canvas.width - this.width * 2`。
 
 # --hints--
 
@@ -178,7 +178,7 @@ let isCheckpointCollisionDetectionActive = true;
 
 const proportionalSize = (size) => {
   return innerHeight < 500 ? Math.ceil((size / 500) * innerHeight) : size;
-}
+};
 
 class Player {
   constructor() {

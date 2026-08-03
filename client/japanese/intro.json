@@ -1492,7 +1492,7 @@
       "lecture-introduction-to-python": {
         "title": "Python入門",
         "intro": [
-          "これらのレッスンで、Pythonとは何か、開発環境の設定方法を学びます。"
+          "このレッスンでは、Pythonとは何か、そして業界での一般的な使い方について学びます。"
         ]
       },
       "lecture-understanding-variables-and-data-types": {
@@ -2055,7 +2055,7 @@
       "lecture-introduction-to-strings": {
         "title": "文字列入門",
         "intro": [
-          "このレッスンでは、文字列の扱い方と文字列の連結について学びます。"
+          "このレッスンでは、文字列の扱い方、文字列の連結、<code>console.log()</code>の使い方を学びます。"
         ]
       },
       "lecture-understanding-code-clarity": {
@@ -5120,6 +5120,13 @@
           "条件分岐を使って、スコアに基づいて学生の成績を判定する練習をします。"
         ]
       },
+      "lab-story-fragment-restoration": {
+        "title": "配列のストーリー断片から一貫した物語を復元する",
+        "intro": [
+          "このラボでは、破損した配列のストーリー断片から一貫した物語を復元します。",
+          "基本的な配列アルゴリズムを一から実装しながら、ループの使い方を練習します。"
+        ]
+      },
       "lecture-the-var-keyword-and-hoisting": {
         "title": "varキーワードとホイスティング",
         "intro": [
@@ -5496,11 +5503,11 @@
           "この講義では、JavaScriptのフォームバリデーションについて学びます。フォームのさまざまなバリデーション方法、<code>preventDefault()</code> メソッドの動作、submitイベントの仕組みを学びます。"
         ]
       },
-      "workshop-calorie-counter": {
-        "title": "カロリーカウンターを作成する",
+      "workshop-envelope-budget-app": {
+        "title": "封筒予算アプリを作る",
         "intro": [
-          "ウェブアプリケーションをコーディングするとき、ユーザーからの入力を受け付ける必要があります。このカロリーカウンターのワークショップでは、ユーザー入力のバリデーション、入力に基づく計算、結果を表示するためのインターフェースの動的更新を練習します。",
-          "基本的な正規表現、テンプレートリテラル、<code>addEventListener()</code> メソッドなども練習します。"
+          "ウェブアプリケーションをコーディングするとき、ユーザーからの入力を受け付ける必要がある場合があります。この封筒予算アプリのワークショップでは、ユーザー入力の検証、入力に基づく計算、結果を表示するためのインターフェースの動的更新を練習します。",
+          "基本的な正規表現、テンプレートリテラル、<code>addEventListener()</code>メソッドなども練習します。"
         ]
       },
       "lab-customer-complaint-form": {
@@ -7658,7 +7665,7 @@
         "title": "ホテルフィードバックフォームを作る",
         "intro": [
           "このワークショップでは、ホテルのフィードバックフォームを作成します。",
-          "ラベル、入力、フィールドセット、レジェンド、テキストエリア、ボタンの操作を練習します。"
+          "<code>label</code>、<code>input</code>、<code>fieldset</code>、<code>legend</code>、<code>textarea</code>、<code>button</code>要素の扱い方を練習します。"
         ]
       },
       "lecture-working-with-tables": {
@@ -8189,13 +8196,13 @@
       "lecture-working-with-text-and-time-semantic-elements": {
         "title": "テキストと時間のセマンティック要素の操作",
         "intro": [
-          "この講義では、<code>time</code>、<code>blockquote</code>要素など、テキストや時間に関する意味を伝えるセマンティックの重要性を学びます。"
+          "この講義では、<code>time</code>や<code>blockquote</code>要素など、テキストや時間に関連するコンテンツの意味を伝える上でのセマンティクスの重要性について学びます。"
         ]
       },
       "workshop-quincys-job-tips": {
         "title": "Quincyの仕事のヒントページを作成する",
         "intro": [
-          "このワークショップでは、<code>q</code>、<code>blockquote</code>、<code>cite</code>要素を使ってセマンティックHTMLの練習をします。"
+          "このワークショップでは、<code>q</code>、<code>blockquote</code>、<code>cite</code>要素を使ってセマンティックHTMLの扱い方を練習します。"
         ]
       },
       "lecture-working-with-specialized-semantic-elements": {
@@ -8207,7 +8214,7 @@
       "workshop-blog-page": {
         "title": "猫のブログページを作成する",
         "intro": [
-          "このワークショップでは、<code>main</code>、<code>nav</code>、<code>article</code>、<code>footer</code>などのセマンティック要素を使ってHTMLのみのブログページを作成します。"
+          "このワークショップでは、<code>main</code>、<code>nav</code>、<code>article</code>、<code>footer</code>要素を含むセマンティック要素を使ってHTMLのみのブログページを作成します。"
         ]
       },
       "lab-event-hub": {
@@ -8240,7 +8247,7 @@
         "title": "ホテルのフィードバックフォームを作成する",
         "intro": [
           "このワークショップでは、ホテルのフィードバックフォームを作成します。",
-          "ラベル、入力、フィールドセット、レジェンド、テキストエリア、ボタンの操作を練習します。"
+          "<code>label</code>、<code>input</code>、<code>fieldset</code>、<code>legend</code>、<code>textarea</code>、<code>button</code>要素の扱い方を練習します。"
         ]
       },
       "lecture-working-with-tables": {
@@ -9490,13 +9497,13 @@
       "lecture-working-with-text-and-time-semantic-elements": {
         "title": "テキストと時間のセマンティック要素の操作",
         "intro": [
-          "この講義では、<code>time</code>、<code>blockquote</code>要素など、テキストや時間に関する意味を伝えるセマンティクスの重要性を学びます。"
+          "この講義では、<code>time</code>や<code>blockquote</code>要素など、テキストや時間に関連するコンテンツの意味を伝える上でのセマンティクスの重要性について学びます。"
         ]
       },
       "workshop-quincys-job-tips": {
         "title": "Quincyの仕事のヒントページを作成する",
         "intro": [
-          "このワークショップでは、<code>q</code>、<code>blockquote</code>、<code>cite</code>要素を使ってセマンティックHTMLの練習をします。"
+          "このワークショップでは、<code>q</code>、<code>blockquote</code>、<code>cite</code>要素を使ってセマンティックHTMLの扱い方を練習します。"
         ]
       },
       "lecture-working-with-specialized-semantic-elements": {
@@ -9508,7 +9515,7 @@
       "workshop-blog-page": {
         "title": "猫ブログページを作成する",
         "intro": [
-          "このワークショップでは、<code>main</code>、<code>nav</code>、<code>article</code>、<code>footer</code>要素などのセマンティック要素を使ってHTMLのみのブログページを作成します。"
+          "このワークショップでは、<code>main</code>、<code>nav</code>、<code>article</code>、<code>footer</code>要素を含むセマンティック要素を使ってHTMLのみのブログページを作成します。"
         ]
       },
       "lab-event-hub": {
@@ -10429,7 +10436,7 @@
       "workshop-blog-page": {
         "title": "猫のブログページを作る",
         "intro": [
-          "このワークショップでは<code>main</code>、<code>nav</code>、<code>article</code>、<code>footer</code>などのセマンティック要素を使ったHTMLのみのブログページを作ります。"
+          "このワークショップでは、<code>main</code>、<code>nav</code>、<code>article</code>、<code>footer</code>要素を含むセマンティック要素を使ってHTMLのみのブログページを作成します。"
         ]
       }
     },

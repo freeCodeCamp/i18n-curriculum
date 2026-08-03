@@ -9,7 +9,7 @@ dashedName: step-53
 
 在课程的后面，你将更深入地了解对象。 但是现在，是时候将你所学到的知识应用到你的角色扮演游戏中了。
 
-首先删除你的 `cat` 对象和控制台语句。 
+首先删除你的 `cat` 对象和控制台语句。
 
 # --hints--
 
@@ -135,7 +135,7 @@ const locations = [];
 const cat = {
   name: "Whiskers",
   "Number of legs": 4,
-}
+};
 console.log(cat["Number of legs"]);
 --fcc-editable-region--
 // initialize buttons

@@ -1,6 +1,6 @@
 ---
 id: 5f3ef6e087d56ed3ffdc36be
-title: Step 57
+title: ステップ 57
 challengeType: 0
 dashedName: step-57
 ---
@@ -14,7 +14,7 @@ dashedName: step-57
 `class` 要素の `p` を `established` に設定する必要があります。
 
 ```js
-assert.match(code,/<p class=('|")established\1>/i);
+assert.exists(document.querySelector('p.established'));
 ```
 
 `established` のテキストがある要素に `Est. 2020` クラスを付けてください。
@@ -43,7 +43,7 @@ assert.equal(establishedFont, "italic");
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cafe Menu</title>
-    <link href="styles.css" rel="stylesheet"/>
+    <link href="styles.css" rel="stylesheet" />
   </head>
   <body>
     <div class="menu">

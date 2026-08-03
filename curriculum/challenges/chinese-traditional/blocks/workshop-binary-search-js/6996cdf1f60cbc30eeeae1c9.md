@@ -1,6 +1,6 @@
 ---
 id: 6996cdf1f60cbc30eeeae1c9
-title: 第 12 步
+title: 第 12 步驟
 challengeType: 1
 dashedName: step-12
 ---
@@ -39,7 +39,7 @@ function binarySearch(searchList, value) {
     } else if (value > valueAtMiddle) {
 --fcc-editable-region--
       
---fcc-editable-region--     
+--fcc-editable-region--
     }
     break;
   }

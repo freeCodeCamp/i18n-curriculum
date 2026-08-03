@@ -11,17 +11,24 @@ dashedName: step-36
 
 # --hints--
 
-你應該使用 `const` 和箭頭語法來創建 `updateTaskContainer` 函式（程式）。
+`updateTaskContainer` 應該是一個函式（程式）。
 
 ```js
-assert.match(code, /const\s+updateTaskContainer\s*=\s*\(\s*\)\s*=>\s*\{/)
+assert.isFunction(updateTaskContainer);
 ```
 
-你應該將 `taskData.forEach()` 及其內容移動到 `updateTaskContainer()` 函式中。
+呼叫 `updateTaskContainer()` 後，`tasksContainer` 應該會顯示 `taskData` 中的任務。
 
 ```js
-assert.match(code, /const\s+updateTaskContainer\s*=\s*\(\s*\)\s*=>\s*\{\s*taskData\.forEach\(\s*\(\s*\{\s*id\s*,\s*title\s*,\s*date\s*,\s*description\s*\}\s*\)\s*=>\s*{\s*tasksContainer\.innerHTML\s*\+=\s*`\s*<div\s+class\s*=\s*('|")task\1\s*id\s*=\s*('|")\$\{id\}\2>\s*<p><strong>Title:<\/strong>\s*\$\{title\}<\/p>\s*<p><strong>Date:<\/strong>\s*\$\{date\}<\/p>\s*<p><strong>Description:<\/strong>\s*\$\{description\}<\/p>\s*<button\s+type\s*=\s*('|")button\3\s*class\s*=\s*('|")btn\4>Edit<\/button>\s*<button\s+type\s*=\s*('|")button\5\s*class\s*=\s*('|")btn\6>Delete<\/button>\s*<\/div>\s*`;?\s*}\s*\)\s*;?\s*\}\s*;?/)
+tasksContainer.innerHTML = "";
+taskData.length = 0;
+taskData.push({ id: "test-1", title: "Test Task", date: "2024-01-01", description: "A description" });
+updateTaskContainer();
+assert.isTrue(tasksContainer.innerHTML.includes("Test Task"));
+assert.isTrue(tasksContainer.innerHTML.includes("<strong>Title:</strong>"));
+taskData.length = 0; tasksContainer.innerHTML = "";
 ```
+
 
 # --seed--
 
@@ -307,7 +314,6 @@ const addOrUpdateTask = () => {
 
 --fcc-editable-region--
 
---fcc-editable-region--
 
 const reset = () => {
   titleInput.value = "";
@@ -315,7 +321,7 @@ const reset = () => {
   descriptionInput.value = "";
   taskForm.classList.toggle("hidden");
   currentTask = {};
-}
+};
 
 openTaskFormBtn.addEventListener("click", () =>
   taskForm.classList.toggle("hidden")
@@ -334,15 +340,14 @@ cancelBtn.addEventListener("click", () => confirmCloseDialog.close());
 
 discardBtn.addEventListener("click", () => {
   confirmCloseDialog.close();
-  reset()
+  reset();
 });
 
 taskForm.addEventListener("submit", (e) => {
   e.preventDefault();
 
-  taskData.forEach(
-    ({ id, title, date, description }) => {
-        tasksContainer.innerHTML += `
+  taskData.forEach(({id, title, date, description}) => {
+      tasksContainer.innerHTML += `
         <div class="task" id="${id}">
           <p><strong>Title:</strong> ${title}</p>
           <p><strong>Date:</strong> ${date}</p>
@@ -350,10 +355,11 @@ taskForm.addEventListener("submit", (e) => {
           <button type="button" class="btn">Edit</button>
           <button type="button" class="btn">Delete</button>
         </div>
-      `
+      `;
     }
   );
+--fcc-editable-region--
 
-  reset()
+  reset();
 });
 ```

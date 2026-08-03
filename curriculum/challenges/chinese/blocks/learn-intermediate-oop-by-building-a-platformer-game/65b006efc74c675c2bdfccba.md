@@ -9,7 +9,7 @@ dashedName: step-33
 
 对于最后一个条件，你需要检查玩家的 `x` 位置是否超出了画布的右边缘。 如果超出，你需要将玩家的 `x` 位置设置为最大值，以便玩家不会意外地向右偏离屏幕。
 
-在你的 `update` 方法内，创建一个 `if` 语句，用于查看 `this.position.x >= canvas.width - this.width * 2`。 
+在你的 `update` 方法内，创建一个 `if` 语句，用于查看 `this.position.x >= canvas.width - this.width * 2`。
 
 # --hints--
 
@@ -178,7 +178,7 @@ let isCheckpointCollisionDetectionActive = true;
 
 const proportionalSize = (size) => {
   return innerHeight < 500 ? Math.ceil((size / 500) * innerHeight) : size;
-}
+};
 
 class Player {
   constructor() {

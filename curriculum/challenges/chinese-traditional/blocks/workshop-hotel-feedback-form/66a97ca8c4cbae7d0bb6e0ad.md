@@ -17,7 +17,7 @@ dashedName: step-29
 - 非常好
 - 優秀
 
-**選項文字：**
+**選項元素文字：**
 
 - 差
 - 令人滿意
@@ -30,13 +30,13 @@ dashedName: step-29
 
 # --hints--
 
-你應該有一個 `option` 元素，其值設定為 `"poor"`。
+你應該有一個 `option` 元素，其 `value` 屬性設為 `"poor"`。
 
 ```js
 assert.exists(document.querySelector('fieldset:nth-of-type(4) select#food option[value="poor"]'));
 ```
 
-你的 `option` 其 `value` 為 `"poor"` 應該有 text 為 `"Poor"`。
+你的 `value` 為 `"poor"` 的 `option` 應該包含文字 `Poor`。
 
 ```js
 assert.strictEqual(document.querySelector('fieldset:nth-of-type(4) select#food option[value="poor"]')?.textContent.trim(), 'Poor');
@@ -48,7 +48,7 @@ assert.strictEqual(document.querySelector('fieldset:nth-of-type(4) select#food o
 assert.exists(document.querySelector('fieldset:nth-of-type(4) select#food option[value="satisfactory"]'));
 ```
 
-你的 `option` 其 `value` 為 `"satisfactory"` 應該有 text 為 `"Satisfactory"`。
+你的 `value` 為 `"satisfactory"` 的 `option` 應該包含文字 `Satisfactory`。
 
 ```js
 assert.strictEqual(document.querySelector('fieldset:nth-of-type(4) select#food option[value="satisfactory"]')?.textContent.trim(), 'Satisfactory');
@@ -60,38 +60,37 @@ assert.strictEqual(document.querySelector('fieldset:nth-of-type(4) select#food o
 assert.exists(document.querySelector('fieldset:nth-of-type(4) select#food option[value="good"]'));
 ```
 
-你的 `option` 具有 `value` 為 `"good"` 的 option 應該有 text 為 `"Good"`。
+你的 `value` 為 `"good"` 的 `option` 應該包含文字 `Good`。
 
 ```js
-
 assert.strictEqual(document.querySelector('fieldset:nth-of-type(4) select#food option[value="good"]')?.textContent.trim(), 'Good');
 ```
 
-你應該有一個 `option` 元素，其值設為 `"very-good"`。
+你應該有一個 `option` 元素，其 `value` 屬性設為 `"very-good"`。
 
 ```js
 assert.exists(document.querySelector('fieldset:nth-of-type(4) select#food option[value="very-good"]'));
 ```
 
-你的 `option` 其 `value` 為 `"very-good"` 應該有文字 `"Very Good"`。
+你的 `value` 為 `"very-good"` 的 `option` 應該包含文字 `Very Good`。
 
 ```js
 assert.strictEqual(document.querySelector('fieldset:nth-of-type(4) select#food option[value="very-good"]')?.textContent.trim(), 'Very Good');
 ```
 
-你應該有一個 `option` 元素，其值設定為 `"excellent"`。
+你應該有一個 `option` 元素，其 `value` 屬性設為 `"excellent"`。
 
 ```js
 assert.exists(document.querySelector('fieldset:nth-of-type(4) select#food option[value="excellent"]'));
 ```
 
-你的 `option` 其 `value` 為 `"excellent"` 應該有 text 為 `"Excellent"`。
+你的 `value` 為 `"excellent"` 的 `option` 應該包含文字 `Excellent`。
 
 ```js
 assert.strictEqual(document.querySelector('fieldset:nth-of-type(4) select#food option[value="excellent"]')?.textContent.trim(), 'Excellent');
 ```
 
-你應該有一個 `option` 元素，其 `selected` 屬性設為 `"excellent"`。
+你的 `value` 為 `"excellent"` 的 `option` 元素應該有 `selected` 屬性。
 
 ```js
 assert.exists(document.querySelector('fieldset:nth-of-type(4) select#food option[value="excellent"][selected]'));

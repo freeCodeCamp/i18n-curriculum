@@ -1,6 +1,6 @@
 ---
 id: 5f3cade99dda4e6071a85dfd
-title: Step 42
+title: Schritt 42
 challengeType: 0
 dashedName: step-42
 ---
@@ -11,13 +11,13 @@ Sie werden in einigen Schritten zum Styling des Menüs zurückkehren, aber füge
 
 # --hints--
 
-Sie sollten einen öffnenden `section`-Tag haben.
+Sie sollten ein zweites `section`-Element hinzufügen.
 
 ```js
-assert.lengthOf(code.match(/<section>/ig) ,2);
+assert.lengthOf(document.querySelectorAll('section'), 2);
 ```
 
-Sie sollten einen schließenden `section`-Tag haben.
+Sie sollten ein zweites schließendes `section`-Tag haben.
 
 ```js
 assert.lengthOf(code.match(/<\/section>/ig) ,2);
@@ -33,7 +33,7 @@ Ihr neues `section`-Element sollte im `main`-Element verschachtelt sein.
 
 ```js
 const main = document.querySelector('main');
-const sections = main?.querySelectorAll(`:scope ${'section'}`);
+const sections = main?.querySelectorAll('section');
 assert.lengthOf(sections,2);
 ```
 
@@ -48,7 +48,7 @@ assert.lengthOf(sections,2);
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cafe Menu</title>
-    <link href="styles.css" rel="stylesheet"/>
+    <link href="styles.css" rel="stylesheet" />
   </head>
   <body>
     <div class="menu">

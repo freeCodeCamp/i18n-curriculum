@@ -1,6 +1,6 @@
 ---
 id: 5f3ef6e087d56ed3ffdc36be
-title: خطوة 57
+title: الخطوة 57
 challengeType: 0
 dashedName: step-57
 ---
@@ -14,7 +14,7 @@ dashedName: step-57
 يجب تعيين `class` لعنصر `p` إلى `established`.
 
 ```js
-assert.match(code,/<p class=('|")established\1>/i);
+assert.exists(document.querySelector('p.established'));
 ```
 
 يجب أن يكون صنف `established` على العنصر الذي يحتوي على النص `Est. 2020`.
@@ -43,7 +43,7 @@ assert.equal(establishedFont, "italic");
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cafe Menu</title>
-    <link href="styles.css" rel="stylesheet"/>
+    <link href="styles.css" rel="stylesheet" />
   </head>
   <body>
     <div class="menu">

@@ -9,7 +9,7 @@ dashedName: step-53
 
 稍後在課程中，你將更深入探討物件。但現在，是時候將你所學應用到你的角色扮演遊戲中。
 
-首先刪除你的 `cat` 物件和主控台述語。 
+首先刪除你的 `cat` 物件和主控台述語。
 
 # --hints--
 
@@ -135,7 +135,7 @@ const locations = [];
 const cat = {
   name: "Whiskers",
   "Number of legs": 4,
-}
+};
 console.log(cat["Number of legs"]);
 --fcc-editable-region--
 // initialize buttons

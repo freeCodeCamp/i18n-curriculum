@@ -1492,7 +1492,7 @@
       "lecture-introduction-to-python": {
         "title": "مقدمة إلى Python",
         "intro": [
-          "في هذه الدروس، ستتعلم ما هو Python وكيفية إعداد بيئة العمل الخاصة بك."
+          "في هذه الدروس، ستتعلم ما هو Python وبعض الاستخدامات الشائعة له في الصناعة."
         ]
       },
       "lecture-understanding-variables-and-data-types": {
@@ -2055,7 +2055,7 @@
       "lecture-introduction-to-strings": {
         "title": "مقدمة إلى السلاسل النصية",
         "intro": [
-          "في هذه الدروس، ستتعلم كيفية التعامل مع السلاسل النصية وربطها."
+          "في هذه الدروس، ستتعلم كيفية العمل مع السلاسل النصية، ودمج السلاسل النصية، واستخدام <code>console.log()</code>."
         ]
       },
       "lecture-understanding-code-clarity": {
@@ -5120,6 +5120,13 @@
           "ستتمرن على الشرطيات لتحديد درجة الطالب بناءً على نتيجته."
         ]
       },
+      "lab-story-fragment-restoration": {
+        "title": "استعادة سرد متماسك من مصفوفة من أجزاء القصة",
+        "intro": [
+          "في هذه الورشة، ستستعيد سردًا متماسكًا من مصفوفة تالفة من أجزاء القصة.",
+          "ستتمرن على العمل مع الحلقات من خلال تنفيذ خوارزميات مصفوفة أساسية من الصفر."
+        ]
+      },
       "lecture-the-var-keyword-and-hoisting": {
         "title": "كلمة var والرفع",
         "intro": [
@@ -5496,11 +5503,11 @@
           "في هذه المحاضرات، ستتعلم عن التحقق من النماذج في JavaScript. ستتعرف على الطرق المختلفة للتحقق من النماذج، وكيف تعمل الطريقة <code>preventDefault()</code>، وكيف يعمل حدث الإرسال."
         ]
       },
-      "workshop-calorie-counter": {
-        "title": "بناء عداد للسعرات الحرارية",
+      "workshop-envelope-budget-app": {
+        "title": "بناء تطبيق ميزانية الظرف",
         "intro": [
-          "أحيانًا عند برمجة تطبيق ويب، تحتاج إلى قبول مُدخَل من المستخدم. في ورشة عداد السعرات هذه، ستتمرن على كيفية التحقق من مُدخَل المستخدم، وإجراء الحسابات بناءً على هذا المُدخَل، وتحديث واجهة المستخدم ديناميكيًا لعرض النتائج.",
-          "ستتمرن أيضًا على التعبيرات النمطية الأساسية، وقوالب حرفية، والطريقة <code>addEventListener()</code>، والمزيد."
+          "أحيانًا عند ترميز تطبيق ويب، ستحتاج إلى قبول مُدخَل من المستخدم. في ورشة عمل تطبيق ميزانية الظرف هذه، ستتمرن على التحقق من صحة مُدخَل المستخدم، وإجراء حسابات بناءً على هذا المُدخَل، وتحديث واجهتك ديناميكيًا لعرض النتائج.",
+          "ستتمرن أيضًا على التعبيرات النمطية الأساسية، وقوالب حرفية، وطريقة <code>addEventListener()</code>، والمزيد."
         ]
       },
       "lab-customer-complaint-form": {
@@ -7658,7 +7665,7 @@
         "title": "بناء نموذج ملاحظات الفندق",
         "intro": [
           "في ورشة العمل هذه، ستبني نموذج ملاحظات الفندق.",
-          "ستتمرن على العمل مع المُسميات، والمُدخَلات، ومجموعات الحقول، والأساطير، ومربعات النص، والأزرار."
+          "ستتمرن على العمل مع عناصر <code>label</code> و<code>input</code> و<code>fieldset</code> و<code>legend</code> و<code>textarea</code> و<code>button</code>."
         ]
       },
       "lecture-working-with-tables": {
@@ -8189,13 +8196,13 @@
       "lecture-working-with-text-and-time-semantic-elements": {
         "title": "العمل مع عناصر النص والوقت الدلالية",
         "intro": [
-          "في هذه المحاضرة، ستتعلم أهمية الدلالة في نقل المعنى للنص والمحتوى المرتبط بالوقت بما في ذلك عناصر <code>time</code>، <code>blockquote</code>، والمزيد."
+          "في هذه المحاضرة، ستتعلم أهمية الدلالات في نقل المعنى للنص والمحتوى المرتبط بالزمن، بما في ذلك عناصر <code>time</code> و<code>blockquote</code>، والمزيد."
         ]
       },
       "workshop-quincys-job-tips": {
         "title": "بناء صفحة نصائح عمل كوينسي",
         "intro": [
-          "في هذه الورشة، ستتمرن على العمل مع HTML الدلالي باستخدام عناصر <code>q</code>، <code>blockquote</code> و<code>cite</code>."
+          "في هذه الورشة، ستتمرن على العمل مع HTML الدلالي باستخدام عناصر <code>q</code> و<code>blockquote</code> و<code>cite</code>."
         ]
       },
       "lecture-working-with-specialized-semantic-elements": {
@@ -8207,7 +8214,7 @@
       "workshop-blog-page": {
         "title": "بناء صفحة مدونة قطط",
         "intro": [
-          "في هذه الورشة، ستبني صفحة مدونة HTML فقط باستخدام عناصر دلالية تشمل <code>main</code>، <code>nav</code>، <code>article</code> و<code>footer</code>."
+          "في هذه الورشة، ستبني صفحة مدونة باستخدام HTML فقط مع عناصر دلالية تشمل <code>main</code> و<code>nav</code> و<code>article</code> و<code>footer</code>."
         ]
       },
       "lab-event-hub": {
@@ -8240,7 +8247,7 @@
         "title": "إنشاء نموذج ملاحظات فندق",
         "intro": [
           "في ورشة العمل هذه، ستنشئ نموذج ملاحظات فندق.",
-          "ستتمرن على العمل مع المسميات، المُدخلات، مجموعات الحقول، الأساطير، مناطق النصوص والأزرار."
+          "ستتمرن على العمل مع عناصر <code>label</code> و<code>input</code> و<code>fieldset</code> و<code>legend</code> و<code>textarea</code> و<code>button</code>."
         ]
       },
       "lecture-working-with-tables": {
@@ -9490,13 +9497,13 @@
       "lecture-working-with-text-and-time-semantic-elements": {
         "title": "العمل مع العناصر الدلالية للنص والوقت",
         "intro": [
-          "في هذه المحاضرة، ستتعلم أهمية الدلالة في نقل المعنى للنص والمحتوى المرتبط بالوقت بما في ذلك عناصر <code>time</code>، <code>blockquote</code>، والمزيد."
+          "في هذه المحاضرة، ستتعلم أهمية الدلالات في نقل المعنى للنص والمحتوى المرتبط بالزمن، بما في ذلك عناصر <code>time</code> و<code>blockquote</code>، والمزيد."
         ]
       },
       "workshop-quincys-job-tips": {
         "title": "بناء صفحة نصائح عمل كوينسي",
         "intro": [
-          "في هذه الورشة، ستتدرب على العمل مع HTML الدلالي باستخدام عناصر <code>q</code>، <code>blockquote</code>، و<code>cite</code>."
+          "في هذه الورشة، ستتمرن على العمل مع HTML الدلالي باستخدام عناصر <code>q</code> و<code>blockquote</code> و<code>cite</code>."
         ]
       },
       "lecture-working-with-specialized-semantic-elements": {
@@ -9508,7 +9515,7 @@
       "workshop-blog-page": {
         "title": "بناء صفحة مدونة قطط",
         "intro": [
-          "في هذه الورشة، ستبني صفحة مدونة HTML فقط باستخدام العناصر الدلالية بما في ذلك عناصر <code>main</code>، <code>nav</code>، <code>article</code>، و<code>footer</code>."
+          "في هذه الورشة، ستبني صفحة مدونة باستخدام HTML فقط مع عناصر دلالية تشمل <code>main</code> و<code>nav</code> و<code>article</code> و<code>footer</code>."
         ]
       },
       "lab-event-hub": {
@@ -10429,7 +10436,7 @@
       "workshop-blog-page": {
         "title": "بناء صفحة مدونة قطط",
         "intro": [
-          "في ورشة العمل هذه، ستبني صفحة مدونة HTML فقط باستخدام عناصر معنوية تشمل <code>main</code>، <code>nav</code>، <code>article</code> و<code>footer</code>."
+          "في هذه الورشة، ستبني صفحة مدونة باستخدام HTML فقط مع عناصر دلالية تشمل <code>main</code> و<code>nav</code> و<code>article</code> و<code>footer</code>."
         ]
       }
     },

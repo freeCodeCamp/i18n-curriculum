@@ -1492,7 +1492,7 @@
       "lecture-introduction-to-python": {
         "title": "Python 入門",
         "intro": [
-          "在這些課程中，你將了解什麼是 Python 以及如何設定開發環境。"
+          "在這些課程中，你將學習什麼是 Python 以及它在業界的一些常見應用。"
         ]
       },
       "lecture-understanding-variables-and-data-types": {
@@ -2055,7 +2055,7 @@
       "lecture-introduction-to-strings": {
         "title": "字串入門",
         "intro": [
-          "在這些課程中，你將學習如何操作字串和字串串接。"
+          "在這些課程中，你將學習如何操作字串、字串串接，以及使用 <code>console.log()</code>。"
         ]
       },
       "lecture-understanding-code-clarity": {
@@ -5120,6 +5120,13 @@
           "你將練習使用條件語句，根據學生分數判斷成績。"
         ]
       },
+      "lab-story-fragment-restoration": {
+        "title": "從一組故事片段陣列還原連貫敘事",
+        "intro": [
+          "在這個實驗中，你將從一個損壞的故事片段陣列中還原出連貫的敘事。",
+          "你將透過從頭實作基本的陣列演算法來練習使用迴圈。"
+        ]
+      },
       "lecture-the-var-keyword-and-hoisting": {
         "title": "var 關鍵字與提升機制",
         "intro": [
@@ -5496,11 +5503,11 @@
           "在這些講座中，你將學習 JavaScript 中的表單驗證。你會了解各種驗證表單的方法、<code>preventDefault()</code> 方法的運作原理，以及提交事件的運作方式。"
         ]
       },
-      "workshop-calorie-counter": {
-        "title": "建置熱量計算器",
+      "workshop-envelope-budget-app": {
+        "title": "建置信封預算應用程式",
         "intro": [
-          "有時候在編寫網頁應用程式時，你需要能接受使用者輸入。在這個熱量計算器工作坊中，你將練習如何驗證使用者輸入、根據輸入執行計算，並動態更新介面以顯示結果。",
-          "你還會練習基本正規表達式、模板字串、<code>addEventListener()</code> 方法等。"
+          "有時候在編寫網頁應用程式時，你需要能夠接受使用者輸入。在這個信封預算應用程式工作坊中，你將練習如何驗證使用者輸入、根據輸入執行計算，並動態更新你的介面以顯示結果。",
+          "你還將練習基本的正規表達式、模板字串、<code>addEventListener()</code> 方法等。"
         ]
       },
       "lab-customer-complaint-form": {
@@ -7658,7 +7665,7 @@
         "title": "建置飯店回饋表單",
         "intro": [
           "在這個工作坊中，你將建置一個飯店回饋表單。",
-          "你將練習使用標籤、輸入欄位、欄位集、標題、文字區和按鈕。"
+          "你將練習操作 <code>label</code>、<code>input</code>、<code>fieldset</code>、<code>legend</code>、<code>textarea</code> 和 <code>button</code> 元素。"
         ]
       },
       "lecture-working-with-tables": {
@@ -8189,13 +8196,13 @@
       "lecture-working-with-text-and-time-semantic-elements": {
         "title": "使用文字與時間語意元素",
         "intro": [
-          "在這堂課中，你將學習語意在傳達文字與時間相關內容的重要性，包括 <code>time</code>、<code>blockquote</code> 元素等。"
+          "在這堂課中，你將學習語意在傳達文字和時間相關內容（包括 <code>time</code> 和 <code>blockquote</code> 元素）意義上的重要性，還有更多內容。"
         ]
       },
       "workshop-quincys-job-tips": {
         "title": "建置 Quincy 的求職技巧頁面",
         "intro": [
-          "在這個工作坊中，你將透過使用 <code>q</code>、<code>blockquote</code> 和 <code>cite</code> 元素來練習語意化 HTML。"
+          "在這個工作坊中，你將練習使用語意 HTML，透過 <code>q</code>、<code>blockquote</code> 和 <code>cite</code> 元素。"
         ]
       },
       "lecture-working-with-specialized-semantic-elements": {
@@ -8207,7 +8214,7 @@
       "workshop-blog-page": {
         "title": "建置貓咪部落格頁面",
         "intro": [
-          "在這個工作坊中，你將使用語意元素建置純 HTML 的部落格頁面，包括 <code>main</code>、<code>nav</code>、<code>article</code> 和 <code>footer</code> 元素。"
+          "在這個工作坊中，你將使用語意元素（包括 <code>main</code>、<code>nav</code>、<code>article</code> 和 <code>footer</code> 元素）建置一個純 HTML 的部落格頁面。"
         ]
       },
       "lab-event-hub": {
@@ -8240,7 +8247,7 @@
         "title": "建置飯店回饋表單",
         "intro": [
           "在這個工作坊中，你將建置飯店回饋表單。",
-          "你將練習使用標籤、輸入欄、欄位組、標題、文字區域和按鈕。"
+          "你將練習操作 <code>label</code>、<code>input</code>、<code>fieldset</code>、<code>legend</code>、<code>textarea</code> 和 <code>button</code> 元素。"
         ]
       },
       "lecture-working-with-tables": {
@@ -9490,13 +9497,13 @@
       "lecture-working-with-text-and-time-semantic-elements": {
         "title": "使用文字與時間語意元素",
         "intro": [
-          "在這堂課中，你將了解語意在傳達文字和時間相關內容的重要性，包括 <code>time</code>、<code>blockquote</code> 元素等。"
+          "在這堂課中，你將學習語意在傳達文字和時間相關內容（包括 <code>time</code> 和 <code>blockquote</code> 元素）意義上的重要性，還有更多內容。"
         ]
       },
       "workshop-quincys-job-tips": {
         "title": "建置 Quincy 的求職技巧頁面",
         "intro": [
-          "在這個工作坊中，你將透過使用 <code>q</code>、<code>blockquote</code> 和 <code>cite</code> 元素來練習語意 HTML。"
+          "在這個工作坊中，你將練習使用語意 HTML，透過 <code>q</code>、<code>blockquote</code> 和 <code>cite</code> 元素。"
         ]
       },
       "lecture-working-with-specialized-semantic-elements": {
@@ -9508,7 +9515,7 @@
       "workshop-blog-page": {
         "title": "建置貓咪部落格頁面",
         "intro": [
-          "在這個工作坊中，你將使用語意元素建置純 HTML 的部落格頁面，包括 <code>main</code>、<code>nav</code>、<code>article</code> 和 <code>footer</code> 元素。"
+          "在這個工作坊中，你將使用語意元素（包括 <code>main</code>、<code>nav</code>、<code>article</code> 和 <code>footer</code> 元素）建置一個純 HTML 的部落格頁面。"
         ]
       },
       "lab-event-hub": {
@@ -10429,7 +10436,7 @@
       "workshop-blog-page": {
         "title": "建置貓咪部落格頁面",
         "intro": [
-          "在這個工作坊中，你將使用語意元素建置純 HTML 的部落格頁面，包括 <code>main</code>、<code>nav</code>、<code>article</code> 和 <code>footer</code> 元素。"
+          "在這個工作坊中，你將使用語意元素（包括 <code>main</code>、<code>nav</code>、<code>article</code> 和 <code>footer</code> 元素）建置一個純 HTML 的部落格頁面。"
         ]
       }
     },

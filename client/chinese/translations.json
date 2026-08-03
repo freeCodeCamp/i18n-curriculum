@@ -132,7 +132,7 @@
     "title": "每日编程挑战",
     "map-title": "尝试今日的编程挑战：",
     "not-found": "未找到每日编程挑战。",
-    "release-note": "新挑战在美国中部时间午夜发布。"
+    "release-note": "每日挑战在美国中部时间午夜更新。"
   },
   "weekdays": {
     "short": {
@@ -1169,6 +1169,7 @@
     "theme-updated": "你的主题已更新！",
     "username-used": "用户名已关联此账户",
     "username-taken": "用户名已关联其他账户",
+    "username-restricted": "该用户名已被保留，无法使用。",
     "username-updated": "我们已将你的用户名更新为 {{username}}",
     "privacy-updated": "我们已更新你的隐私设置",
     "could-not-logout": "无法登出，请稍后重试",

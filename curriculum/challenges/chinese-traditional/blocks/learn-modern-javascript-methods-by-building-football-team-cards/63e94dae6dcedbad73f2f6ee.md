@@ -9,7 +9,7 @@ dashedName: step-24
 
 `arr` 包含一系列物件，每個物件都包含 `name`、`position`、`number`、`isCaptain` 和 `nickname` 屬性。為了在回呼函式中存取這些屬性，你需要使用物件解構將它們解包到變數中。
 
-這裡有一個範例：
+以下是一個範例：
 
 ```js
 function myExampleFunction({ name, age, job, city }) {
@@ -463,7 +463,7 @@ const setPlayerCards = (arr = players) => {
 
   playerCards.innerHTML += arr.map(() => {
 
-  })
+  });
 
 --fcc-editable-region--
 

@@ -1,6 +1,6 @@
 ---
 id: 64e4ebc7eabc5a6babd479cd
-title: Step 9
+title: ステップ 9
 challengeType: 0
 dashedName: step-9
 ---
@@ -13,34 +13,21 @@ dashedName: step-9
 
 # --hints--
 
-`discardBtn` 変数に対して `addEventListener()` メソッドを呼び出す必要があります。
+`discardBtn`をクリックすると、確認ダイアログが閉じるはずです。
 
 ```js
-assert.match(code, /discardBtn\.addEventListener\(/)
+confirmCloseDialog.showModal();
+discardBtn.click();
+assert.isFalse(confirmCloseDialog.open);
 ```
 
-イベントリスナーは `click` イベントを監視してください。
+`discardBtn`をクリックすると、タスクフォームも非表示になるはずです。
 
 ```js
-assert.match(code, /discardBtn\.addEventListener\(\s*('|"|`)click\1/)
-```
-
-イベントリスナーはアロー構文を使って空の波括弧で設定してください。
-
-```js
-assert.match(code, /discardBtn\.addEventListener\(\s*('|"|`)click\1\s*,\s*\(\s*\)\s*=>\s*\{/)
-```
-
-イベントリスナーは `close()` に対して `confirmCloseDialog` メソッドを使う必要があります。
-
-```js
-assert.match(code, /discardBtn\.addEventListener\(\s*('|"|`)click\1\s*,\s*\(\s*\)\s*=>\s*\{\s*confirmCloseDialog\.close\(\s*\)\s*;?/)
-```
-
-イベントリスナーは `classList` に対して `hidden` を使い、`taskForm` クラスを切り替えてください。
-
-```js
-assert.match(code, /discardBtn\.addEventListener\(\s*('|"|`)click\1\s*,\s*\(\s*\)\s*=>\s*\{\s*confirmCloseDialog\.close\(\s*\)\s*;?\s*taskForm\.classList\.toggle\(\s*('|"|`)hidden\2\s*\)\s*;?\s*\}\s*\)\s*;?/)
+taskForm.classList.remove('hidden');
+confirmCloseDialog.showModal();
+discardBtn.click();
+assert.isTrue(taskForm.classList.contains('hidden'));
 ```
 
 # --seed--

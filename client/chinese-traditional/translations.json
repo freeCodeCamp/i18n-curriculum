@@ -132,7 +132,7 @@
     "title": "每日程式挑戰",
     "map-title": "試試今天的程式挑戰：",
     "not-found": "找不到每日程式挑戰。",
-    "release-note": "新挑戰於美國中部時間午夜發布。"
+    "release-note": "每日挑戰會在美國中部時間午夜更新。"
   },
   "weekdays": {
     "short": {
@@ -1169,6 +1169,7 @@
     "theme-updated": "你的主題已更新！",
     "username-used": "使用者名稱已與此帳號相關聯",
     "username-taken": "使用者名稱已與其他帳號相關聯",
+    "username-restricted": "該使用者名稱已被保留，無法使用。",
     "username-updated": "我們已將你的使用者名稱更新為 {{username}}",
     "privacy-updated": "我們已更新你的隱私設定",
     "could-not-logout": "無法登出，請稍後再試",

@@ -27,7 +27,7 @@ arr.length % 2 === 1;
 
 `isEven` 변수 아래에 `isEven` 변수를 콘솔에 출력하세요.
 
-결과를 확인하려면 콘솔을 열어보세요.
+결과를 확인하려면 콘솔을 열어 보세요.
 
 # --hints--
 
@@ -145,7 +145,7 @@ const testArr2 = [1, 2, 3, 4, 5, 6];
 --fcc-editable-region--
 const getMedian = (array) => {
   const sorted = array.sort((a, b) => a - b);
-}
+};
 
 const calculate = () => {
   const value = document.querySelector("#numbers").value;
@@ -155,5 +155,5 @@ const calculate = () => {
   const mean = getMean(numbers);
 
   document.querySelector("#mean").textContent = mean;
-}
+};
 ```

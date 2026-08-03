@@ -7,7 +7,7 @@ dashedName: step-39
 
 # --description--
 
-现在你已经完成测试 `entryDropdown.value` 的值，你可以删除 `console.log` 语句。 
+现在你已经完成测试 `entryDropdown.value` 的值，你可以删除 `console.log` 语句。
 
 你的下一步是允许用户向卡路里计数器添加条目。 声明一个空函数 `addEntry`。 此函数不应接受任何参数。
 
@@ -215,6 +215,6 @@ function isInvalidInput(str) {
 }
 
 --fcc-editable-region--
-console.log(entryDropdown.value)
+console.log(entryDropdown.value);
 --fcc-editable-region--
 ```

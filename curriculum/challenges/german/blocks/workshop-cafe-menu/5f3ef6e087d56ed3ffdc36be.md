@@ -1,6 +1,6 @@
 ---
 id: 5f3ef6e087d56ed3ffdc36be
-title: Step 57
+title: Schritt 57
 challengeType: 0
 dashedName: step-57
 ---
@@ -14,7 +14,7 @@ Wenden Sie nun die Klasse `established` auf den Text `Est. 2020` an.
 Sie sollten die `class` des `p`-Elements auf `established` setzen.
 
 ```js
-assert.match(code,/<p class=('|")established\1>/i);
+assert.exists(document.querySelector('p.established'));
 ```
 
 Ihre `established`-Klasse sollte sich auf dem Element mit dem Text `Est. 2020` befinden.
@@ -43,7 +43,7 @@ assert.equal(establishedFont, "italic");
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cafe Menu</title>
-    <link href="styles.css" rel="stylesheet"/>
+    <link href="styles.css" rel="stylesheet" />
   </head>
   <body>
     <div class="menu">

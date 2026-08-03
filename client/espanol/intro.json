@@ -1492,7 +1492,7 @@
       "lecture-introduction-to-python": {
         "title": "Introducción a Python",
         "intro": [
-          "En estas lecciones, aprenderás qué es Python y cómo configurar tu entorno de desarrollo."
+          "En estas lecciones, aprenderás qué es Python y algunos usos comunes en la industria."
         ]
       },
       "lecture-understanding-variables-and-data-types": {
@@ -2055,7 +2055,7 @@
       "lecture-introduction-to-strings": {
         "title": "Introducción a las cadenas",
         "intro": [
-          "En estas lecciones aprenderás a trabajar con cadenas y concatenación de cadenas."
+          "En estas lecciones, aprenderás a trabajar con cadenas, concatenación de cadenas y <code>console.log()</code>."
         ]
       },
       "lecture-understanding-code-clarity": {
@@ -5120,6 +5120,13 @@
           "Practicarás condicionales para determinar la calificación del estudiante según su puntaje."
         ]
       },
+      "lab-story-fragment-restoration": {
+        "title": "Restaurar una narrativa coherente a partir de un arreglo de fragmentos de historia",
+        "intro": [
+          "En este laboratorio, restaurarás una narrativa coherente a partir de un arreglo corrupto de fragmentos de historia.",
+          "Practicarás trabajar con ciclos implementando algoritmos fundamentales de arreglos desde cero."
+        ]
+      },
       "lecture-the-var-keyword-and-hoisting": {
         "title": "La palabra clave var y hoisting",
         "intro": [
@@ -5496,10 +5503,10 @@
           "En estas clases, aprenderás sobre la validación de formularios en JavaScript. Verás las distintas formas de validar formularios, cómo funciona el método <code>preventDefault()</code> y cómo funciona el evento submit."
         ]
       },
-      "workshop-calorie-counter": {
-        "title": "Crear un contador de calorías",
+      "workshop-envelope-budget-app": {
+        "title": "Crear una app de presupuesto con sobres",
         "intro": [
-          "A veces, al programar una aplicación web, necesitarás aceptar entrada de un usuario. En este taller de contador de calorías, practicarás cómo validar la entrada del usuario, realizar cálculos basados en esa entrada y actualizar dinámicamente tu interfaz para mostrar los resultados.",
+          "A veces, al programar una aplicación web, necesitarás aceptar entrada de un usuario. En este taller de app de presupuesto con sobres, practicarás cómo validar la entrada del usuario, realizar cálculos basados en esa entrada y actualizar dinámicamente tu interfaz para mostrar los resultados.",
           "También practicarás expresiones regulares básicas, literales de plantilla, el método <code>addEventListener()</code> y más."
         ]
       },
@@ -7658,7 +7665,7 @@
         "title": "Construye un formulario de comentarios para hotel",
         "intro": [
           "En este taller, construirás un formulario de comentarios para un hotel.",
-          "Practicarás con etiquetas, entradas, conjuntos de campos, leyendas, áreas de texto y botones."
+          "Practicarás trabajar con los elementos <code>label</code>, <code>input</code>, <code>fieldset</code>, <code>legend</code>, <code>textarea</code> y <code>button</code>."
         ]
       },
       "lecture-working-with-tables": {
@@ -8189,13 +8196,13 @@
       "lecture-working-with-text-and-time-semantic-elements": {
         "title": "Trabajar con elementos semánticos de texto y tiempo",
         "intro": [
-          "En esta clase, aprenderás la importancia de la semántica para transmitir significado en contenido relacionado con texto y tiempo, incluyendo los elementos <code>time</code>, <code>blockquote</code> y más."
+          "En esta clase, aprenderás sobre la importancia de la semántica para transmitir significado en contenido de texto y relacionado con el tiempo, incluyendo los elementos <code>time</code> y <code>blockquote</code>, y más."
         ]
       },
       "workshop-quincys-job-tips": {
         "title": "Crear la página de consejos laborales de Quincy",
         "intro": [
-          "En este taller, practicarás el uso de HTML semántico usando los elementos <code>q</code>, <code>blockquote</code> y <code>cite</code>."
+          "En este taller, practicarás trabajar con HTML semántico usando los elementos <code>q</code>, <code>blockquote</code> y <code>cite</code>."
         ]
       },
       "lecture-working-with-specialized-semantic-elements": {
@@ -8207,7 +8214,7 @@
       "workshop-blog-page": {
         "title": "Crear una página de blog de gatos",
         "intro": [
-          "En este taller, construirás una página de blog solo con HTML usando elementos semánticos incluyendo los elementos <code>main</code>, <code>nav</code>, <code>article</code> y <code>footer</code>."
+          "En este taller, construirás una página de blog solo con HTML usando elementos semánticos, incluyendo los elementos <code>main</code>, <code>nav</code>, <code>article</code> y <code>footer</code>."
         ]
       },
       "lab-event-hub": {
@@ -8240,7 +8247,7 @@
         "title": "Crear un formulario de comentarios para hotel",
         "intro": [
           "En este taller, construirás un formulario de comentarios para hotel.",
-          "Practicarás el uso de etiquetas, entradas, conjuntos de campos, leyendas, áreas de texto y botones."
+          "Practicarás trabajar con los elementos <code>label</code>, <code>input</code>, <code>fieldset</code>, <code>legend</code>, <code>textarea</code> y <code>button</code>."
         ]
       },
       "lecture-working-with-tables": {
@@ -9490,7 +9497,7 @@
       "lecture-working-with-text-and-time-semantic-elements": {
         "title": "Trabajar con elementos semánticos de texto y tiempo",
         "intro": [
-          "En esta clase, aprenderás sobre la importancia de la semántica para transmitir significado en contenido de texto y tiempo, incluyendo los elementos <code>time</code>, <code>blockquote</code> y más."
+          "En esta clase, aprenderás sobre la importancia de la semántica para transmitir significado en contenido de texto y relacionado con el tiempo, incluyendo los elementos <code>time</code> y <code>blockquote</code>, y más."
         ]
       },
       "workshop-quincys-job-tips": {
@@ -9508,7 +9515,7 @@
       "workshop-blog-page": {
         "title": "Crear una página de blog de gatos",
         "intro": [
-          "En este taller, construirás una página de blog solo con HTML usando elementos semánticos incluyendo los elementos <code>main</code>, <code>nav</code>, <code>article</code> y <code>footer</code>."
+          "En este taller, construirás una página de blog solo con HTML usando elementos semánticos, incluyendo los elementos <code>main</code>, <code>nav</code>, <code>article</code> y <code>footer</code>."
         ]
       },
       "lab-event-hub": {
@@ -10429,7 +10436,7 @@
       "workshop-blog-page": {
         "title": "Construir una página de blog de gatos",
         "intro": [
-          "En este taller, construirás una página de blog solo con HTML usando elementos semánticos incluyendo los elementos <code>main</code>, <code>nav</code>, <code>article</code> y <code>footer</code>."
+          "En este taller, construirás una página de blog solo con HTML usando elementos semánticos, incluyendo los elementos <code>main</code>, <code>nav</code>, <code>article</code> y <code>footer</code>."
         ]
       }
     },
