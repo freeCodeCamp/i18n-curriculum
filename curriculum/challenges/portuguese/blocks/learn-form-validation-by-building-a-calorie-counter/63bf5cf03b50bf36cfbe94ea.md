@@ -7,7 +7,7 @@ dashedName: step-39
 
 # --description--
 
-Agora que você terminou de testar o valor de `entryDropdown.value`, você pode remover a instrução `console.log`. 
+Agora que você terminou de testar o valor de `entryDropdown.value`, você pode remover a instrução `console.log`.
 
 O próximo passo é permitir que os usuários adicionem entradas ao contador de calorias. Declare uma função vazia `addEntry`. A função não deve receber parâmetros.
 
@@ -215,6 +215,6 @@ function isInvalidInput(str) {
 }
 
 --fcc-editable-region--
-console.log(entryDropdown.value)
+console.log(entryDropdown.value);
 --fcc-editable-region--
 ```

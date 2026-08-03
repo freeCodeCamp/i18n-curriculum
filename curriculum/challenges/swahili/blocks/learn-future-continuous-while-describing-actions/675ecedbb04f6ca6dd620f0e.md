@@ -24,7 +24,7 @@ Sikiliza sauti na ukamilishe sentensi ifuatayo.
 
 ### --feedback--
 
-Hii ni aina ya shambulio la mtandao ambapo mdukuhu huingia kwa siri katikati ya watu wawili au mifumo inayozungumza. Mdukuhu anaweza kuona, kubadilisha, au kuiba taarifa zinazoshirikiwa bila mtu yeyote kujua. Huu ni neno mchanganyiko, kumbuka kutumia `-`. Herufi za kwanza za neno la kwanza na la nne zinapaswa kuwa kubwa.
+Huu ni aina ya shambulio la mtandao ambapo mdukuzi huingia kwa siri katikati ya watu wawili au mifumo inayozungumza kwa pamoja. Mdukuzi anaweza kuona, kubadilisha, au kuiba taarifa zinazoshirikiwa bila upande wowote kujua. Huu ni neno lenye maneno mawili, kwa hivyo kumbuka kutumia `-`. Herufi za kwanza za neno la kwanza na la nne zinapaswa kuwa kubwa.
 
 ---
 
@@ -79,7 +79,7 @@ Neno hili kwa wingi linamaanisha vitendo vya wadukuzi au wahalifu vya kuharibu m
       "startTime": 1,
       "finishTime": 3.8,
       "dialogue": {
-        "text": "Hi, Brian. I've heard about these man in the middle attacks.",
+        "text": "Hi, Brian. I've heard about these Man-in-the-Middle attacks.",
         "align": "center"
       }
     },

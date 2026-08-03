@@ -9,7 +9,7 @@ dashedName: step-53
 
 Baadaye katika mtaala, utaingia kwa undani zaidi kuhusu vitu. Lakini kwa sasa, ni wakati wa kutumia kile ulichojifunza katika mchezo wako wa kuigiza jukumu.
 
-Anza kwa kufuta kitu chako cha `cat` na usemi wa konsoli. 
+Anza kwa kufuta kitu chako cha `cat` na usemi wa konsoli.
 
 # --hints--
 
@@ -135,7 +135,7 @@ const locations = [];
 const cat = {
   name: "Whiskers",
   "Number of legs": 4,
-}
+};
 console.log(cat["Number of legs"]);
 --fcc-editable-region--
 // initialize buttons

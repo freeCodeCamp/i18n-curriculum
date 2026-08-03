@@ -9,7 +9,7 @@ dashedName: step-29
 
 Ndani ya kipengele chako cha `select`, ongeza vipengele vitano vya `option` na thamani zinazolingana za maandishi ya `option` na sifa ya `value`:
 
-**Thamani ya sifa ya kipengele:**
+**Sifa za thamani:**
 
 - duni
 - ya kuridhisha
@@ -17,7 +17,7 @@ Ndani ya kipengele chako cha `select`, ongeza vipengele vitano vya `option` na t
 - nzuri sana
 - bora
 
-**Maandishi ya chaguo:**
+**Maandishi ya kipengele cha chaguo:**
 
 - Duni
 - Ya kuridhisha
@@ -30,13 +30,13 @@ Usisahau kuongeza sifa ya `selected` kwenye kipengele cha `option` kwa thamani y
 
 # --hints--
 
-Unapaswa kuwa na kipengele cha `option` chenye thamani iliyowekwa kuwa `"poor"`.
+Unapaswa kuwa na kipengele cha `option` chenye `value` iliyowekwa kuwa `"poor"`.
 
 ```js
 assert.exists(document.querySelector('fieldset:nth-of-type(4) select#food option[value="poor"]'));
 ```
 
-`option` yako yenye `value` ya `"poor"` inapaswa kuwa na maandishi ya `"Poor"`.
+Kipengele chako cha `option` chenye `value` ya `"poor"` kinapaswa kuwa na maandishi `Poor`.
 
 ```js
 assert.strictEqual(document.querySelector('fieldset:nth-of-type(4) select#food option[value="poor"]')?.textContent.trim(), 'Poor');
@@ -48,7 +48,7 @@ Unapaswa kuwa na kipengele cha `option` chenye `value` iliyowekwa kuwa `"satisfa
 assert.exists(document.querySelector('fieldset:nth-of-type(4) select#food option[value="satisfactory"]'));
 ```
 
-`option` yako yenye `value` ya `"satisfactory"` inapaswa kuwa na maandishi ya `"Satisfactory"`.
+Kipengele chako cha `option` chenye `value` ya `"satisfactory"` kinapaswa kuwa na maandishi `Satisfactory`.
 
 ```js
 assert.strictEqual(document.querySelector('fieldset:nth-of-type(4) select#food option[value="satisfactory"]')?.textContent.trim(), 'Satisfactory');
@@ -60,38 +60,37 @@ Unapaswa kuwa na kipengele cha `option` chenye `value` iliyowekwa kuwa `"good"`.
 assert.exists(document.querySelector('fieldset:nth-of-type(4) select#food option[value="good"]'));
 ```
 
-`option` yako yenye `value` ya `"good"` inapaswa kuwa na maandishi ya `"Good"`.
+Kipengele chako cha `option` chenye `value` ya `"good"` kinapaswa kuwa na maandishi `Good`.
 
 ```js
-
 assert.strictEqual(document.querySelector('fieldset:nth-of-type(4) select#food option[value="good"]')?.textContent.trim(), 'Good');
 ```
 
-Unapaswa kuwa na kipengele cha `option` chenye thamani iliyowekwa kuwa `"very-good"`.
+Unapaswa kuwa na kipengele cha `option` chenye `value` iliyowekwa kuwa `"very-good"`.
 
 ```js
 assert.exists(document.querySelector('fieldset:nth-of-type(4) select#food option[value="very-good"]'));
 ```
 
-`option` yako yenye `value` ya `"very-good"` inapaswa kuwa na maandishi ya `"Very Good"`.
+Kipengele chako cha `option` chenye `value` ya `"very-good"` kinapaswa kuwa na maandishi `Very Good`.
 
 ```js
 assert.strictEqual(document.querySelector('fieldset:nth-of-type(4) select#food option[value="very-good"]')?.textContent.trim(), 'Very Good');
 ```
 
-Unapaswa kuwa na kipengele cha `option` chenye thamani iliyowekwa kuwa `"excellent"`.
+Unapaswa kuwa na kipengele cha `option` chenye `value` iliyowekwa kuwa `"excellent"`.
 
 ```js
 assert.exists(document.querySelector('fieldset:nth-of-type(4) select#food option[value="excellent"]'));
 ```
 
-`option` yako yenye `value` ya `"excellent"` inapaswa kuwa na maandishi ya `"Excellent"`.
+Kipengele chako cha `option` chenye `value` ya `"excellent"` kinapaswa kuwa na maandishi `Excellent`.
 
 ```js
 assert.strictEqual(document.querySelector('fieldset:nth-of-type(4) select#food option[value="excellent"]')?.textContent.trim(), 'Excellent');
 ```
 
-Unapaswa kuwa na kipengele cha `option` chenye sifa ya `selected` iliyowekwa kuwa `"excellent"`.
+Kipengele chako cha `option` chenye `value` ya `"excellent"` kinapaswa kuwa na sifa ya kipengele `selected`.
 
 ```js
 assert.exists(document.querySelector('fieldset:nth-of-type(4) select#food option[value="excellent"][selected]'));

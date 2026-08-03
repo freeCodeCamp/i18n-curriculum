@@ -1,6 +1,6 @@
 ---
 id: 64e4ebc7eabc5a6babd479cd
-title: Step 9
+title: 9단계
 challengeType: 0
 dashedName: step-9
 ---
@@ -13,34 +13,21 @@ dashedName: step-9
 
 # --hints--
 
-`discardBtn` 변수에서 `addEventListener()` 메서드를 호출해야 합니다.
+`discardBtn`을 클릭하면 확인 대화상자가 닫혀야 합니다.
 
 ```js
-assert.match(code, /discardBtn\.addEventListener\(/)
+confirmCloseDialog.showModal();
+discardBtn.click();
+assert.isFalse(confirmCloseDialog.open);
 ```
 
-이벤트 리스너는 `click` 이벤트를 들어야 합니다.
+`discardBtn`을 클릭하면 작업 폼도 숨겨져야 합니다.
 
 ```js
-assert.match(code, /discardBtn\.addEventListener\(\s*('|"|`)click\1/)
-```
-
-화살표 구문을 사용해 이벤트 리스너를 빈 중괄호 쌍으로 설정하세요.
-
-```js
-assert.match(code, /discardBtn\.addEventListener\(\s*('|"|`)click\1\s*,\s*\(\s*\)\s*=>\s*\{/)
-```
-
-이벤트 리스너는 `close()`에서 `confirmCloseDialog` 메서드를 사용해야 합니다.
-
-```js
-assert.match(code, /discardBtn\.addEventListener\(\s*('|"|`)click\1\s*,\s*\(\s*\)\s*=>\s*\{\s*confirmCloseDialog\.close\(\s*\)\s*;?/)
-```
-
-이벤트 리스너는 `classList`에서 클래스 `hidden`를 토글하기 위해 `taskForm`를 사용해야 합니다.
-
-```js
-assert.match(code, /discardBtn\.addEventListener\(\s*('|"|`)click\1\s*,\s*\(\s*\)\s*=>\s*\{\s*confirmCloseDialog\.close\(\s*\)\s*;?\s*taskForm\.classList\.toggle\(\s*('|"|`)hidden\2\s*\)\s*;?\s*\}\s*\)\s*;?/)
+taskForm.classList.remove('hidden');
+confirmCloseDialog.showModal();
+discardBtn.click();
+assert.isTrue(taskForm.classList.contains('hidden'));
 ```
 
 # --seed--

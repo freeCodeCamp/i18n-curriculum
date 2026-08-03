@@ -1,6 +1,6 @@
 ---
 id: 5f3cade99dda4e6071a85dfd
-title: Step 42
+title: Hatua 42
 challengeType: 0
 dashedName: step-42
 ---
@@ -11,13 +11,13 @@ Utarudi tena kwenye mtindo wa menyu katika hatua chache zijazo, lakini kwa sasa,
 
 # --hints--
 
-Unapaswa kuwa na lebo ya ufunguzi ya `section`.
+Unapaswa kuongeza kipengele cha pili cha `section`.
 
 ```js
-assert.lengthOf(code.match(/<section>/ig) ,2);
+assert.lengthOf(document.querySelectorAll('section'), 2);
 ```
 
-Unapaswa kuwa na lebo ya kufunga ya `section`.
+Unapaswa kuwa na lebo ya kufunga ya pili ya `section`.
 
 ```js
 assert.lengthOf(code.match(/<\/section>/ig) ,2);
@@ -33,7 +33,7 @@ Kipengele chako kipya cha `section` kinapaswa kupangwa ndani ya kipengele cha `m
 
 ```js
 const main = document.querySelector('main');
-const sections = main?.querySelectorAll(`:scope ${'section'}`);
+const sections = main?.querySelectorAll('section');
 assert.lengthOf(sections,2);
 ```
 
@@ -48,7 +48,7 @@ assert.lengthOf(sections,2);
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cafe Menu</title>
-    <link href="styles.css" rel="stylesheet"/>
+    <link href="styles.css" rel="stylesheet" />
   </head>
   <body>
     <div class="menu">

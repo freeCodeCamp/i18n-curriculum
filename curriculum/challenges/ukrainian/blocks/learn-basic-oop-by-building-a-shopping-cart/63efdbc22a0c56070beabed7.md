@@ -42,7 +42,7 @@ const cart = new ShoppingCart();
 assert.match(cart.addItem.toString(), /totalCountPerProduct\s*\[\s*dessert\.id\s*\]/);
 ```
 
-Ви повинні ініціалізувати `totalCountPerProduct[dessert.id]` значенням `0` за замовчуванням, використовуючи оператор `||` в кінці виразу.
+Ви повинні ініціалізувати `totalCountPerProduct[dessert.id]` значенням `0` за замовчуванням, використовуючи оператор `||` наприкінці виразу.
 
 ```js
 const cart = new ShoppingCart();
@@ -325,7 +325,7 @@ class ShoppingCart {
     const totalCountPerProduct = {};
     this.items.forEach((dessert) => {
       
-    })
+    });
   }
 --fcc-editable-region--
 };

@@ -1,6 +1,6 @@
 ---
 id: 64e4ebc7eabc5a6babd479cd
-title: Step 9
+title: Hatua 9
 challengeType: 0
 dashedName: step-9
 ---
@@ -13,34 +13,21 @@ Ongeza msikilizaji wa tukio la kubofya kwenye `discardBtn`, kisha tumia njia ya 
 
 # --hints--
 
-Unapaswa kuita njia ya `addEventListener()` kwenye mabadiliko yako ya `discardBtn`.
+Kubofya `discardBtn` kunapaswa kufunga kidirisha cha uthibitisho.
 
 ```js
-assert.match(code, /discardBtn\.addEventListener\(/)
+confirmCloseDialog.showModal();
+discardBtn.click();
+assert.isFalse(confirmCloseDialog.open);
 ```
 
-Msikilizaji wako wa tukio unapaswa kusikiliza tukio la `click`.
+Kubofya `discardBtn` kunapaswa pia kuficha fomu ya zoezi.
 
 ```js
-assert.match(code, /discardBtn\.addEventListener\(\s*('|"|`)click\1/)
-```
-
-Unapaswa kutumia sintaksia ya mshale kuweka msikilizaji wako wa tukio kuwa mabano ya mviringo tupu.
-
-```js
-assert.match(code, /discardBtn\.addEventListener\(\s*('|"|`)click\1\s*,\s*\(\s*\)\s*=>\s*\{/)
-```
-
-Msikilizaji wako wa tukio unapaswa kutumia njia ya `close()` kwenye `confirmCloseDialog`.
-
-```js
-assert.match(code, /discardBtn\.addEventListener\(\s*('|"|`)click\1\s*,\s*\(\s*\)\s*=>\s*\{\s*confirmCloseDialog\.close\(\s*\)\s*;?/)
-```
-
-Msikilizaji wako wa tukio unapaswa kutumia `classList` kubadili darasa la vitu `hidden` kwenye `taskForm`.
-
-```js
-assert.match(code, /discardBtn\.addEventListener\(\s*('|"|`)click\1\s*,\s*\(\s*\)\s*=>\s*\{\s*confirmCloseDialog\.close\(\s*\)\s*;?\s*taskForm\.classList\.toggle\(\s*('|"|`)hidden\2\s*\)\s*;?\s*\}\s*\)\s*;?/)
+taskForm.classList.remove('hidden');
+confirmCloseDialog.showModal();
+discardBtn.click();
+assert.isTrue(taskForm.classList.contains('hidden'));
 ```
 
 # --seed--

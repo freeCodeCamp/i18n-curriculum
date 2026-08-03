@@ -13,34 +13,21 @@ dashedName: step-9
 
 # --hints--
 
-Ви повинні викликати метод `addEventListener()` на вашій змінній `discardBtn`.
+Натиснення на `discardBtn` має закрити діалог підтвердження.
 
 ```js
-assert.match(code, /discardBtn\.addEventListener\(/)
+confirmCloseDialog.showModal();
+discardBtn.click();
+assert.isFalse(confirmCloseDialog.open);
 ```
 
-Ваш слухач події має слухати подію `click`.
+Натиснення на `discardBtn` також має приховати форму завдання.
 
 ```js
-assert.match(code, /discardBtn\.addEventListener\(\s*('|"|`)click\1/)
-```
-
-Використайте стрілковий синтаксис, щоб задати слухача події з порожніми фігурними дужками.
-
-```js
-assert.match(code, /discardBtn\.addEventListener\(\s*('|"|`)click\1\s*,\s*\(\s*\)\s*=>\s*\{/)
-```
-
-Ваш слухач події має використовувати метод `close()` на `confirmCloseDialog`.
-
-```js
-assert.match(code, /discardBtn\.addEventListener\(\s*('|"|`)click\1\s*,\s*\(\s*\)\s*=>\s*\{\s*confirmCloseDialog\.close\(\s*\)\s*;?/)
-```
-
-Ваш слухач події має використовувати `classList` для переключення класу `hidden` на `taskForm`.
-
-```js
-assert.match(code, /discardBtn\.addEventListener\(\s*('|"|`)click\1\s*,\s*\(\s*\)\s*=>\s*\{\s*confirmCloseDialog\.close\(\s*\)\s*;?\s*taskForm\.classList\.toggle\(\s*('|"|`)hidden\2\s*\)\s*;?\s*\}\s*\)\s*;?/)
+taskForm.classList.remove('hidden');
+confirmCloseDialog.showModal();
+discardBtn.click();
+assert.isTrue(taskForm.classList.contains('hidden'));
 ```
 
 # --seed--

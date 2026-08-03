@@ -1,6 +1,6 @@
 ---
 id: 5f46ede1ff8fec5ba656b44c
-title: Step 74
+title: Hatua 74
 challengeType: 0
 dashedName: step-74
 ---
@@ -28,7 +28,7 @@ assert.match(code, /\/\*\s*FOOTER\s*\*\//i);
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cafe Menu</title>
-    <link href="styles.css" rel="stylesheet"/>
+    <link href="styles.css" rel="stylesheet" />
   </head>
   <body>
     <div class="menu">

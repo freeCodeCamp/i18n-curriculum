@@ -7,7 +7,7 @@ dashedName: step-36
 
 # --description--
 
-Використайте стрілковий синтаксис, щоб створити `updateTaskContainer` функцію. Потім перемістіть `taskData.forEach()` та її вміст із слухача події `taskForm` об’єкта `submit` у щойно створену функцію.
+Використайте стрілковий синтаксис, щоб створити `updateTaskContainer` функцію. Потім перемістіть `taskData.forEach()` та її вміст із слухача події `taskForm` `submit` у щойно створену функцію.
 
 # --hints--
 
@@ -17,7 +17,7 @@ dashedName: step-36
 assert.match(code, /const\s+updateTaskContainer\s*=\s*\(\s*\)\s*=>\s*\{/)
 ```
 
-Ви повинні перемістити `taskData.forEach()` та її вміст у функцію `updateTaskContainer()`.
+Ви повинні перемістити `taskData.forEach()` та її вміст у `updateTaskContainer()` функцію.
 
 ```js
 assert.match(code, /const\s+updateTaskContainer\s*=\s*\(\s*\)\s*=>\s*\{\s*taskData\.forEach\(\s*\(\s*\{\s*id\s*,\s*title\s*,\s*date\s*,\s*description\s*\}\s*\)\s*=>\s*{\s*tasksContainer\.innerHTML\s*\+=\s*`\s*<div\s+class\s*=\s*('|")task\1\s*id\s*=\s*('|")\$\{id\}\2>\s*<p><strong>Title:<\/strong>\s*\$\{title\}<\/p>\s*<p><strong>Date:<\/strong>\s*\$\{date\}<\/p>\s*<p><strong>Description:<\/strong>\s*\$\{description\}<\/p>\s*<button\s+type\s*=\s*('|")button\3\s*class\s*=\s*('|")btn\4>Edit<\/button>\s*<button\s+type\s*=\s*('|")button\5\s*class\s*=\s*('|")btn\6>Delete<\/button>\s*<\/div>\s*`;?\s*}\s*\)\s*;?\s*\}\s*;?/)
@@ -315,7 +315,7 @@ const reset = () => {
   descriptionInput.value = "";
   taskForm.classList.toggle("hidden");
   currentTask = {};
-}
+};
 
 openTaskFormBtn.addEventListener("click", () =>
   taskForm.classList.toggle("hidden")
@@ -334,7 +334,7 @@ cancelBtn.addEventListener("click", () => confirmCloseDialog.close());
 
 discardBtn.addEventListener("click", () => {
   confirmCloseDialog.close();
-  reset()
+  reset();
 });
 
 taskForm.addEventListener("submit", (e) => {
@@ -350,10 +350,10 @@ taskForm.addEventListener("submit", (e) => {
           <button type="button" class="btn">Edit</button>
           <button type="button" class="btn">Delete</button>
         </div>
-      `
+      `;
     }
   );
 
-  reset()
+  reset();
 });
 ```

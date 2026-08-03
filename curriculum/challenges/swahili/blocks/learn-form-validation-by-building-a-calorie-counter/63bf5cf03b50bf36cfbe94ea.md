@@ -7,7 +7,7 @@ dashedName: step-39
 
 # --description--
 
-Sasa umeisha jaribu thamani ya `entryDropdown.value`, unaweza kuondoa tamko la `console.log`. 
+Sasa umeisha jaribu thamani ya `entryDropdown.value`, unaweza kuondoa tamko la `console.log`.
 
 Hatua yako inayofuata ni kuruhusu watumizi kuongeza maingizo kwenye kielekezi cha kalori. Tangaza kitendakazi tupu `addEntry`. Kitendakazi hiki hakipaswi kuchukua vigezo vyovyote.
 
@@ -215,6 +215,6 @@ function isInvalidInput(str) {
 }
 
 --fcc-editable-region--
-console.log(entryDropdown.value)
+console.log(entryDropdown.value);
 --fcc-editable-region--
 ```

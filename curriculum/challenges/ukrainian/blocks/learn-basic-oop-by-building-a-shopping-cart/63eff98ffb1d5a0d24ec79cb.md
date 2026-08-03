@@ -7,7 +7,7 @@ dashedName: step-26
 
 # --description--
 
-Ви ще не написали код для генерації HTML, але якщо продукт уже додано до кошика користувача, то буде відповідний елемент, який вам знадобиться.
+Ви ще не написали код для генерації HTML, але якщо продукт уже додано до кошика користувача, то існуватиме відповідний елемент, який вам знадобиться.
 
 Використайте `.getElementById()`, щоб отримати відповідний елемент — ви призначатимете значення `id` у `product-count-for-id${product.id}`, тому використайте шаблонний рядок для запиту цього значення.
 
@@ -36,7 +36,7 @@ const cart = new ShoppingCart();
 assert.match(cart.addItem.toString(), /document\.getElementById\(/);
 ```
 
-Ви повинні використати шаблонний рядок, щоб запитати значення `id`.
+Ви повинні використати шаблонний рядок для запиту значення `id`.
 
 ```js
 const afterAdd = code.split("addItem")[1];
@@ -326,7 +326,7 @@ class ShoppingCart {
     const totalCountPerProduct = {};
     this.items.forEach((dessert) => {
       totalCountPerProduct[dessert.id] = (totalCountPerProduct[dessert.id] || 0) + 1;
-    })
+    });
 
     const currentProductCount = totalCountPerProduct[product.id];
 

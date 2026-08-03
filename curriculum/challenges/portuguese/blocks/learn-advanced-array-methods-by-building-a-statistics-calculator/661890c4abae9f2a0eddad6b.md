@@ -9,7 +9,7 @@ dashedName: step-22
 
 Nos próximos passos, você aprenderá como determinar se o comprimento de um array é par ou ímpar e como encontrar a mediana. Você então poderá aplicar o que aprendeu na função `getMedian`.
 
-Para verificar se um número é par ou ímpar, você pode usar o <dfn>operador módulo</dfn> `%`. O operador de módulo retorna o resto da divisão de dois números. 
+Para verificar se um número é par ou ímpar, você pode usar o <dfn>operador módulo</dfn> `%`. O operador de módulo retorna o resto da divisão de dois números.
 
 Aqui está um exemplo verificando se o comprimento de um array é par ou ímpar:
 
@@ -27,7 +27,7 @@ Crie uma variável chamada `isEven`. Então use o operador módulo para verifica
 
 Abaixo da sua variável `isEven`, registre a variável `isEven` no console.
 
-Abra o console para ver o resultado. 
+Abra o console para ver o resultado.
 
 # --hints--
 
@@ -145,7 +145,7 @@ const testArr2 = [1, 2, 3, 4, 5, 6];
 --fcc-editable-region--
 const getMedian = (array) => {
   const sorted = array.sort((a, b) => a - b);
-}
+};
 
 const calculate = () => {
   const value = document.querySelector("#numbers").value;
@@ -155,5 +155,5 @@ const calculate = () => {
   const mean = getMean(numbers);
 
   document.querySelector("#mean").textContent = mean;
-}
+};
 ```
