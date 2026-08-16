@@ -62,7 +62,7 @@ assert.notMatch(code, /<\/input>/);
 O elemento `input` deve ter o `>` de fechamento.
 
 ```js
-assert.match(code, /HTMLString\s*=\s*`\n\s*<label\s+for\s*=\s*"\$\{category\}-\$\{entryNumber\}-name"\s*>Expense\s\$\{entryNumber\}\sName<\/label>\n\s*<input\s+[^>]*\/>/);
+assert.match(code, /HTMLString\s*=\s*`\n\s*<label\s+for\s*=\s*"\$\{category\}-\$\{entryNumber\}-name"\s*>Expense\s\$\{entryNumber\}\sName<\/label>\n\s*<input\s+[^>]*>/);
 ```
 
 # --seed--

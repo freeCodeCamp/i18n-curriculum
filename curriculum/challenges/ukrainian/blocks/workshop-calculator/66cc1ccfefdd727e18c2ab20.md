@@ -7,7 +7,7 @@ dashedName: step-14
 
 # --description--
 
-Ваш `calculateQuotient`, здається, працює правильно, але є один випадок, який ви ще не перевірили.
+Ваш `calculateQuotient`, здається, працює правильно, але є один випадок, який ви ще не протестували.
 
 Додайте `console.log`, який викликає функцію `calculateQuotient` з аргументами `3` та `0`.
 
@@ -18,7 +18,9 @@ dashedName: step-14
 У вас має бути `console.log`, який викликає функцію `calculateQuotient` з аргументами `3` та `0`.
 
 ```js
-assert.match(code, /console\.log\s*\(\s*calculateQuotient\s*\(\s*3\s*,\s*0\s*\)\s*\)\s*;?/);
+const strippedCode = __helpers.removeWhiteSpace(__helpers.removeJSComments(code));
+const expectedStatement = "console.log(calculateQuotient(3,0))";
+assert.include(strippedCode, expectedStatement);
 ```
 
 # --seed--

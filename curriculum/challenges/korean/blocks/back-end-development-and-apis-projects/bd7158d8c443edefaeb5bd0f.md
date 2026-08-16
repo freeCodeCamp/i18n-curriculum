@@ -19,7 +19,7 @@ dashedName: file-metadata-microservice
 
 # --hints--
 
-예시 URL이 아닌 직접 만든 프로젝트를 제출하세요.
+자신만의 프로젝트를 제공해야 하며, 예시 URL을 사용하지 마세요.
 
 ```js
   assert(
@@ -50,18 +50,22 @@ dashedName: file-metadata-microservice
 파일을 제출하면 JSON 응답 내에서 파일 `name`, `type`, `size`가 바이트 단위로 반환됩니다.
 
 ```js
-  const formData = new FormData();
-  const fileData = await fetch(
-    'https://cdn.freecodecamp.org/weather-icons/01d.png'
-  );
-  const file = await fileData.blob();
-  formData.append('upfile', file, 'icon');
+  const boundary = 'fccBoundary1234567890';
+  const head =
+    `--${boundary}\r\n` +
+    'Content-Disposition: form-data; name="upfile"; filename="icon"\r\n' +
+    'Content-Type: image/png\r\n\r\n';
+  const body = new Blob([head, new Uint8Array(70), `\r\n--${boundary}--\r\n`]);
   const data = await fetch(code + '/api/fileanalyse', {
     method: 'POST',
-    body: formData
+    headers: {
+      'Content-Type': `multipart/form-data; boundary=${boundary}`
+    },
+    body
   });
   const parsed = await data.json();
   assert.property(parsed, 'size');
   assert.equal(parsed.name, 'icon');
   assert.equal(parsed.type, 'image/png');
 ```
+

@@ -20,8 +20,8 @@ Se lo è, la funzione dovrebbe restituire la stringa `"Error: Division by zero"`
 La tua funzione `calculateQuotient` dovrebbe restituire la stringa `"Error: Division by zero"` se `num2` è zero.
 
 ```js
-assert.strictEqual(calculateQuotient(10, 0), 'Error: Division by zero');
-assert.strictEqual(calculateQuotient(3, 0), 'Error: Division by zero');
+assert.strictEqual(calculateQuotient(10, 0), "Error: Division by zero");
+assert.strictEqual(calculateQuotient(3, 0), "Error: Division by zero");
 ```
 
 La tua funzione `calculateQuotient` dovrebbe restituire il risultato della divisione di `num1` per `num2` se `num2` non è zero.

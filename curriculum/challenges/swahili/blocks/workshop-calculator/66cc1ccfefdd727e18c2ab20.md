@@ -7,7 +7,7 @@ dashedName: step-14
 
 # --description--
 
-`calculateQuotient` yako inaonekana inafanya kazi vizuri lakini kuna kesi moja ambayo bado hujajaribu.
+`calculateQuotient` yako inaonekana inafanya kazi vizuri, lakini kuna kesi moja ambayo bado hujajaribu.
 
 Ongeza `console.log` inayofanya wito wa kitendakazi cha `calculateQuotient` kwa hoja `3` na `0`.
 
@@ -18,7 +18,9 @@ Hakikisha unatazama kwa makini matokeo ya wito huu.
 Unapaswa kuwa na `console.log` inayofanya wito wa kitendakazi cha `calculateQuotient` kwa hoja `3` na `0`.
 
 ```js
-assert.match(code, /console\.log\s*\(\s*calculateQuotient\s*\(\s*3\s*,\s*0\s*\)\s*\)\s*;?/);
+const strippedCode = __helpers.removeWhiteSpace(__helpers.removeJSComments(code));
+const expectedStatement = "console.log(calculateQuotient(3,0))";
+assert.include(strippedCode, expectedStatement);
 ```
 
 # --seed--

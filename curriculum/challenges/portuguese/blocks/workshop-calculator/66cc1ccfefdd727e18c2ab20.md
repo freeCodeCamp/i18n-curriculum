@@ -7,7 +7,7 @@ dashedName: step-14
 
 # --description--
 
-Seu `calculateQuotient` parece estar funcionando corretamente mas há um caso que você ainda não testou.
+Sua função `calculateQuotient` parece estar funcionando corretamente, mas há um caso que você ainda não testou.
 
 Adicione um `console.log` que chama a função `calculateQuotient` com os argumentos `3` e `0`.
 
@@ -18,7 +18,9 @@ Certifique-se de examinar atentamente o resultado dessa chamada.
 Você deve ter um `console.log` que chama a função `calculateQuotient` com os argumentos `3` e `0`.
 
 ```js
-assert.match(code, /console\.log\s*\(\s*calculateQuotient\s*\(\s*3\s*,\s*0\s*\)\s*\)\s*;?/);
+const strippedCode = __helpers.removeWhiteSpace(__helpers.removeJSComments(code));
+const expectedStatement = "console.log(calculateQuotient(3,0))";
+assert.include(strippedCode, expectedStatement);
 ```
 
 # --seed--

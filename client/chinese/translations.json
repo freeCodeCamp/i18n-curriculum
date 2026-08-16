@@ -558,6 +558,12 @@
     "running-tests": "// 正在运行测试",
     "tests-completed": "// 测试完成",
     "console-output": "// 控制台输出",
+    "unavailable-local-resource": "装载资源失败：“{{source}}”不是可用的局部的{{resourceType}}文件。请使用：{{allowedSources}}。",
+    "unavailable-local-resource-no-allowed": "装载资源失败：“{{source}}”不是此挑战中可用的局部的{{resourceType}}文件。",
+    "local-resource-type": {
+      "stylesheet": "样式表",
+      "script": "脚本"
+    },
     "example-app": "构建一个功能上类似于<0>此示例项目</0>的应用。尽量不要拷贝示例项目，展现你自己的风格。",
     "syntax-error": "你的代码在测试运行前引起了误差。请修正后重试。",
     "indentation-error": "你的代码有缩排误差。你可能需要在新行添加<code>pass</code>以形成有效的代码块。",
@@ -656,25 +662,6 @@
       "sub-step-7": "点击 <0>添加密钥</0> 按钮",
       "summary": "Codespaces 设置"
     },
-    "ona": {
-      "intro": "本课程在使用 Ona 的虚拟 Linux 机器中运行。请按照以下说明开始课程：",
-      "step-1": "<0>创建一个 Ona 账号</0>（如果你还没有）",
-      "step-2": "点击下面的开始按钮",
-      "step-3": "在弹出的模态框中点击创建按钮",
-      "step-4": "虚拟 Linux 机器装载完成后，通过以下步骤启动 CodeRoad 扩展：",
-      "step-5": "点击 VSCode 窗口左上角附近的“汉堡”菜单，",
-      "step-6": "进入 <0>视图</0> 菜单，",
-      "step-7": "点击 <0>命令面板</0> 选项，",
-      "step-8": "运行 <0>CodeRoad: Start</0> 命令",
-      "step-9": "按照 CodeRoad 中的指示完成课程",
-      "continue-project": "点击下面的开始按钮将启动一个新项目。如果你之前开始过 {{course}} 课程，请前往 <0>你的 Ona 仪表盘</0>继续。",
-      "learn-more": "了解更多关于 <0>Ona 工作区</0> 的信息。",
-      "logout-warning": "如果你在完成整个 {{course}} 课程前退出 freeCodeCamp，进度将不会保存到你的 freeCodeCamp 账号。",
-      "sub-step-3": "导航到你的 <0>Ona 密钥页面</0>",
-      "sub-step-4": "创建一个名为 <0>CODEROAD_WEBHOOK_TOKEN</0> 的新密钥",
-      "sub-step-5": "在 <0>密钥</0> 字段中粘贴你的令牌",
-      "summary": "Ona 设置"
-    },
     "freecodecamp-os": {
       "token-modal": "当你运行课程时，会弹出一个模态窗口，要求输入你的用户令牌。将你上面复制的令牌粘贴进去。每个环境只需操作一次。",
       "local": {
@@ -697,16 +684,6 @@
         "step-5": "完成后会打开 Simple Browser。如果是空白白页，请使用刷新按钮更新，查看课程主页。",
         "step-6": "点击一个可用项目开始，然后按照项目中的说明完成它。",
         "continue-project": "点击下面的开始按钮将启动新机器。如果你之前启动过 {{title}} 课程，请前往 <0>仓库页面</0> 重新打开之前的工作区。"
-      },
-      "ona": {
-        "intro": "本课程在虚拟 Linux 机器中运行，使用 Ona 和 freeCodeCamp - Courses VS Code 扩展。按照以下说明开始课程：",
-        "step-1": "<0>如果你还没有，请创建一个 Ona 账户</0>",
-        "step-2": "点击下面的开始按钮",
-        "step-3": "在弹出的模态窗口中，点击创建按钮",
-        "step-4": "虚拟 Linux 机器装载完成后，打开命令面板，运行 <0>freeCodeCamp: Run Course</0> 命令",
-        "step-5": "完成后会打开 Simple Browser。如果是空白白页，请使用刷新按钮更新，查看课程主页。",
-        "step-6": "点击一个可用项目开始，然后按照项目中的说明完成它。",
-        "continue-project": "点击下面的开始按钮将启动新机器。如果你之前启动过 {{course}} 课程，请前往 <0>你的 Ona 仪表盘</0> 继续。"
       }
     },
     "local": {

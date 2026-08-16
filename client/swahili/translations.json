@@ -558,6 +558,12 @@
     "running-tests": "// kuendesha mitihani",
     "tests-completed": "// mitihani imemalizika",
     "console-output": "// matokeo ya konsoli",
+    "unavailable-local-resource": "Imeshindikana kupakia rasilimali: \"{{source}}\" si faili ya {{resourceType}} ya ndani inayopatikana. Tumia: {{allowedSources}}.",
+    "unavailable-local-resource-no-allowed": "Imeshindikana kupakia rasilimali: \"{{source}}\" si faili ya {{resourceType}} ya ndani inayopatikana katika changamoto hii.",
+    "local-resource-type": {
+      "stylesheet": "lahajedwali",
+      "script": "scripti"
+    },
     "example-app": "Jenga programu inayofanana kiutendaji na <0>mradi huu wa mfano</0>. Jaribu usikopi mradi wa mfano, toa mtindo wako binafsi.",
     "syntax-error": "Msimbo wako umeleta kosa kabla ya mitihani kuanza. Tafadhali rekebisha na ujaribu tena.",
     "indentation-error": "Msimbo wako una kosa la upangaji mistari. Huenda unahitaji kuongeza <code>pass</code> kwenye mstari mpya ili kuunda sehemu halali ya msimbo.",
@@ -656,25 +662,6 @@
       "sub-step-7": "Bofya kitufe cha <0>Add secret</0>",
       "summary": "Usanidi wa Codespaces"
     },
-    "ona": {
-      "intro": "Kozi hii inaendeshwa kwenye mashine ya Linux ya mtandao kwa kutumia Ona. Fuata maelekezo haya kuanza kozi:",
-      "step-1": "<0>Tengeneza akaunti ya Ona</0> ikiwa huna",
-      "step-2": "Bofya kitufe cha kuanza hapa chini",
-      "step-3": "Katika dirisha linalojitokeza, bofya kitufe cha tengeneza",
-      "step-4": "Mara mashine ya Linux ya mtandao itakapomaliza kupakia, anzisha ugani wa CodeRoad kwa:",
-      "step-5": "Kubofya menyu ya \"hamburger\" karibu juu kushoto ya dirisha la VSCode,",
-      "step-6": "Nenda kwenye menyu ya <0>View</0>,",
-      "step-7": "Bofya chaguo la <0>Command Palette</0>,",
-      "step-8": "na endesha amri ya <0>CodeRoad: Start</0>",
-      "step-9": "Fuata maelekezo katika CodeRoad kumaliza kozi",
-      "continue-project": "Kubofya kitufe cha kuanza hapa chini kutaanzisha mradi mpya. Ikiwa umewahi kuanza kozi ya {{course}}, nenda <0>kibodi chako cha Ona</0> kuendelea.",
-      "learn-more": "Jifunze zaidi kuhusu <0>eneo la kazi la Ona.</0>",
-      "logout-warning": "Ikiwa utaondoka kwenye freeCodeCamp kabla ya kumaliza kozi yote ya {{course}}, maendeleo yako hayatatazimwa kwenye akaunti yako ya freeCodeCamp.",
-      "sub-step-3": "Nenda kwenye <0>ukurasa wa siri za Ona</0>",
-      "sub-step-4": "Tengeneza siri mpya iitwayo <0>CODEROAD_WEBHOOK_TOKEN</0>",
-      "sub-step-5": "Katika uwanja wa <0>Secret</0>, bandika tokeni yako",
-      "summary": "Usanidi wa Ona"
-    },
     "freecodecamp-os": {
       "token-modal": "Unapoendesha kozi, dirisha la modal litaonekana likiomba tokeni yako ya mtumizi. Bandika tokeni uliyoinakili hapo juu ndani yake. Hii unahitaji kufanya mara moja tu kwa kila mazingira.",
       "local": {
@@ -697,16 +684,6 @@
         "step-5": "Kivinjari Rahisi kitafunguka baada ya kumaliza. Ikiwa ni ukurasa mweupe tupu, tumia kitufe cha onyesha upya kuiboresha na kuona ukurasa wa nyumbani wa kozi.",
         "step-6": "Bofya kwenye mojawapo ya miradi inayopatikana kuianza, kisha fuata maelekezo ya mradi kumaliza.",
         "continue-project": "Kubofya kitufe cha kuanza kilicho hapa chini kutaanzisha mashine mpya. Ikiwa tayari umeanza kozi ya {{title}}, nenda kwenye <0>ukurasa wa hifadhidata</0> kufungua tena eneo la kazi la awali."
-      },
-      "ona": {
-        "intro": "Kozi hii inaendeshwa katika mashine pepe ya Linux kwa kutumia Ona na ugani wa freeCodeCamp - Courses VS Code. Fuata maelekezo haya kuanza kozi:",
-        "step-1": "<0>Tengeneza akaunti ya Ona</0> ikiwa bado huna",
-        "step-2": "Bofya kitufe cha kuanza kilicho hapa chini",
-        "step-3": "Katika dirisha la modal linalojitokeza, bofya kitufe cha tengeneza",
-        "step-4": "Mara mashine pepe ya Linux itakapomaliza kupakia, fungua orodha ya amri na endesha amri ya <0>freeCodeCamp: Run Course</0>",
-        "step-5": "Kivinjari Rahisi kitafunguka baada ya kumaliza. Ikiwa ni ukurasa mweupe tupu, tumia kitufe cha onyesha upya kuiboresha na kuona ukurasa wa nyumbani wa kozi.",
-        "step-6": "Bofya kwenye mojawapo ya miradi inayopatikana kuianza, kisha fuata maelekezo ya mradi kumaliza.",
-        "continue-project": "Kubofya kitufe cha kuanza kilicho hapa chini kutaanzisha mashine mpya. Ikiwa tayari umeanza kozi ya {{course}}, nenda <0>dashibodi yako ya Ona</0> kuendelea."
       }
     },
     "local": {

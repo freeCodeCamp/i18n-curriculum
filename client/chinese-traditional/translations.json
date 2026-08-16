@@ -558,6 +558,12 @@
     "running-tests": "// 正在執行測試",
     "tests-completed": "// 測試完成",
     "console-output": "// 主控台輸出",
+    "unavailable-local-resource": "載入資源失敗：「{{source}}」不是可用的區域的 {{resourceType}} 檔案。請使用：{{allowedSources}}。",
+    "unavailable-local-resource-no-allowed": "載入資源失敗：「{{source}}」不是此挑戰中可用的區域的 {{resourceType}} 檔案。",
+    "local-resource-type": {
+      "stylesheet": "樣式表",
+      "script": "腳本"
+    },
     "example-app": "建置一個功能上類似於<0>此範例專案</0>的應用程式。盡量不要複製範例專案，展現你自己的風格。",
     "syntax-error": "你的程式碼在任何測試執行前就引發錯誤。請修正後再試。",
     "indentation-error": "你的程式碼有縮排錯誤。你可能需要在新行加入<code>pass</code>以形成有效的程式碼區塊。",
@@ -656,25 +662,6 @@
       "sub-step-7": "點擊 <0>新增秘密</0> 按鈕",
       "summary": "Codespaces 設定"
     },
-    "ona": {
-      "intro": "本課程在使用 Ona 的虛擬 Linux 機器中執行。請依照以下指示開始課程：",
-      "step-1": "<0>如果你還沒有，請創建 Ona 帳號</0>",
-      "step-2": "點擊下方開始按鈕",
-      "step-3": "在跳出的視窗中點擊建立按鈕",
-      "step-4": "虛擬 Linux 機器載入完成後，啟動 CodeRoad 擴充套件：",
-      "step-5": "點擊 VSCode 視窗左上方的「漢堡」選單，",
-      "step-6": "前往 <0>檢視</0> 選單，",
-      "step-7": "點擊 <0>指令面板</0> 選項，",
-      "step-8": "並執行 <0>CodeRoad: Start</0> 指令",
-      "step-9": "依照 CodeRoad 中的指示完成課程",
-      "continue-project": "點擊下方開始按鈕會啟動新專案。若你之前已開始 {{course}} 課程，請前往 <0>你的 Ona 儀表板</0> 繼續。",
-      "learn-more": "了解更多關於 <0>Ona 工作區。</0>",
-      "logout-warning": "如果你在完成整個 {{course}} 課程前登出 freeCodeCamp，你的進度將不會儲存到你的 freeCodeCamp 帳號。",
-      "sub-step-3": "前往你的 <0>Ona 秘密頁面</0>",
-      "sub-step-4": "建立名為 <0>CODEROAD_WEBHOOK_TOKEN</0> 的新秘密",
-      "sub-step-5": "在 <0>秘密</0> 欄位貼上你的 token",
-      "summary": "Ona 設定"
-    },
     "freecodecamp-os": {
       "token-modal": "當你執行課程時，會跳出一個視窗要求輸入你的使用者語彙單元。請將你剛才複製的語彙單元貼上。每個環境只需操作一次。",
       "local": {
@@ -697,16 +684,6 @@
         "step-5": "完成後會開啟 Simple Browser。如果是空白白頁，請使用重新整理按鈕更新，查看課程首頁。",
         "step-6": "點選其中一個可用的專案開始，然後依照專案中的指示完成它。",
         "continue-project": "點擊下方開始按鈕會啟動一台新機器。若你之前已開始過 {{title}} 課程，請前往 <0>倉庫頁面</0> 重新開啟先前的工作區。"
-      },
-      "ona": {
-        "intro": "此課程會在虛擬 Linux 機器中使用 Ona 和 freeCodeCamp - Courses VS Code 擴充套件執行。請依照以下指示開始課程：",
-        "step-1": "<0>如果你還沒有，請創建一個 Ona 帳號</0>",
-        "step-2": "點擊下方的開始按鈕",
-        "step-3": "在跳出的視窗中，點擊建立按鈕",
-        "step-4": "虛擬 Linux 機器載入完成後，開啟指令面板並執行 <0>freeCodeCamp: Run Course</0> 指令",
-        "step-5": "完成後會開啟 Simple Browser。如果是空白白頁，請使用重新整理按鈕更新，查看課程首頁。",
-        "step-6": "點選其中一個可用的專案開始，然後依照專案中的指示完成它。",
-        "continue-project": "點擊下方開始按鈕會啟動一台新機器。若你之前已開始過 {{course}} 課程，請前往 <0>你的 Ona 儀表板</0> 繼續。"
       }
     },
     "local": {

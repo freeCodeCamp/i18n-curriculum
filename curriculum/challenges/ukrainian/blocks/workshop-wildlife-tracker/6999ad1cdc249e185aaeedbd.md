@@ -49,8 +49,11 @@ assert.isFunction(addHabitat);
 Функція `addHabitat` має мати два параметри: `animal` і `habitat`.
 
 ```js
-const regex = __helpers.functionRegex('addHabitat', ['animal', 'habitat']);
-assert.match(__helpers.removeJSComments(code), regex);
+const explorer = await __helpers.Explorer(code);
+const { addHabitat } = explorer.allFunctions;
+assert.equal(addHabitat?.parameters.length, 2);
+assert.equal(addHabitat?.parameters[0].toString(), 'animal');
+assert.equal(addHabitat?.parameters[1].toString(), 'habitat');
 ```
 
 Функція `addHabitat` має повертати оновлений об’єкт `animal`.

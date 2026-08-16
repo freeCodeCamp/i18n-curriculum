@@ -1352,12 +1352,6 @@
           "在這個包含 140 課的工作坊中，你將完成你的學生資料庫，並深入學習 SQL 命令。"
         ]
       },
-      "lab-world-cup-database": {
-        "title": "建置世界盃資料庫",
-        "intro": [
-          "在這個專案中，你將創建一個 Bash 腳本，將世界盃比賽資訊輸入 PostgreSQL，然後查詢資料庫以取得有用的統計資料。"
-        ]
-      },
       "workshop-kitty-ipsum-translator": {
         "title": "建置 Kitty Ipsum 翻譯器",
         "intro": [
@@ -1369,6 +1363,12 @@
         "title": "建置自行車租賃店",
         "intro": [
           "在這個包含 210 課的工作坊中，你將建置一個互動式 Bash 程式，使用 PostgreSQL 儲存你的自行車租賃店的租賃資訊。"
+        ]
+      },
+      "lab-world-cup-database": {
+        "title": "建置世界盃資料庫",
+        "intro": [
+          "在這個專案中，你將創建一個 Bash 腳本，將世界盃比賽資訊輸入 PostgreSQL，然後查詢資料庫以取得有用的統計資料。"
         ]
       },
       "lab-salon-appointment-scheduler": {
@@ -2669,6 +2669,13 @@
           "你將練習使用條件判斷，根據學生分數決定成績。"
         ]
       },
+      "lab-story-fragment-restoration": {
+        "title": "從陣列故事片段還原連貫敘事",
+        "intro": [
+          "在這個實驗中，你將從損壞的故事片段陣列還原出連貫的敘事。",
+          "你將透過從頭實作基本陣列演算法來練習使用迴圈。"
+        ]
+      },
       "lecture-the-var-keyword-and-hoisting": {
         "title": "var 關鍵字與提升",
         "intro": [
@@ -3774,16 +3781,16 @@
           "透過本課程學習 CSS 盒模型。了解元素如何在網頁上呈現，並學會操作間距、邊框與內距，達成理想的版面與設計。"
         ]
       },
-      "top-introduction-to-flexbox": {
-        "title": "Flexbox 入門",
-        "intro": [
-          "探索 Flexbox 的強大功能，這是一種簡化彈性且響應式網頁版面設計的模型。學習輕鬆建立動態且適應性的頁面結構。"
-        ]
-      },
       "top-learn-block-and-inline": {
         "title": "學習區塊元素與行內元素的差異",
         "intro": [
           "探索 HTML 和 CSS 中區塊元素與行內元素的區別。本課程提供這些顯示類型如何影響版面與行為的見解，讓你做出明智的設計決策。"
+        ]
+      },
+      "top-introduction-to-flexbox": {
+        "title": "Flexbox 入門",
+        "intro": [
+          "探索 Flexbox 的強大功能，這是一種簡化彈性且響應式網頁版面設計的模型。學習輕鬆建立動態且適應性的頁面結構。"
         ]
       },
       "top-learn-variables-and-operators": {
@@ -6287,12 +6294,6 @@
           "你將練習使用 Tailwind CSS 的彈性盒布局、顏色、斷點等工具類別。"
         ]
       },
-      "lab-photography-exhibit": {
-        "title": "設計攝影展覽",
-        "intro": [
-          "在這個實驗中，你將透過設計攝影展覽網頁練習使用 Tailwind CSS。"
-        ]
-      },
       "review-css-libraries-and-frameworks": {
         "title": "CSS 函式庫與框架複習",
         "intro": [
@@ -6304,6 +6305,12 @@
         "title": "CSS 函式庫與框架測驗",
         "intro": [
           "透過此測驗測試你對 CSS 函式庫與框架的理解。"
+        ]
+      },
+      "lab-photography-exhibit": {
+        "title": "設計攝影展覽",
+        "intro": [
+          "在這個實驗中，你將透過設計攝影展覽網頁練習使用 Tailwind CSS。"
         ]
       },
       "lecture-introduction-to-typescript": {
@@ -6372,18 +6379,6 @@
           "在這個工作坊中，你將繼續透過建置占卜應用程式來練習 TypeScript。"
         ]
       },
-      "lab-flashcard-quiz-app": {
-        "title": "建置抽認卡測驗應用程式",
-        "intro": [
-          "在這個實驗中，你將透過建置抽認卡測驗應用程式來練習使用 TypeScript。"
-        ]
-      },
-      "lab-digital-pet-game": {
-        "title": "建置數位寵物遊戲",
-        "intro": [
-          "在這個實驗中，你將透過建置數位寵物遊戲來練習你學到的 TypeScript 和 React。"
-        ]
-      },
       "workshop-build-a-football-player-card-builder": {
         "title": "建置足球球員卡片建構器",
         "intro": [
@@ -6400,6 +6395,18 @@
       "quiz-typescript": {
         "title": "TypeScript 測驗",
         "intro": ["透過這個測驗測試你對 TypeScript 的學習成果。"]
+      },
+      "lab-flashcard-quiz-app": {
+        "title": "建置抽認卡測驗應用程式",
+        "intro": [
+          "在這個實驗中，你將透過建置抽認卡測驗應用程式來練習使用 TypeScript。"
+        ]
+      },
+      "lab-digital-pet-game": {
+        "title": "建置數位寵物遊戲",
+        "intro": [
+          "在這個實驗中，你將透過建置數位寵物遊戲來練習你學到的 TypeScript 和 React。"
+        ]
       },
       "review-front-end-libraries": {
         "title": "前端函式庫複習",
@@ -7176,12 +7183,12 @@
       "node-package-manager": "Node 套件管理器",
       "lab-prime-number-checker-module": "建置質數檢查模組",
       "http-and-the-web-standards-model": "HTTP 與網頁標準模型",
-      "rest-api-and-web-services": "REST API 與網路服務",
-      "lab-timestamp-microservice": "建置時間戳記微服務",
       "introduction-to-express": "Express 入門",
       "lab-personal-profile-app": "建置個人評測應用程式",
-      "error-handling-in-express": "Express 錯誤處理",
       "express-middleware": "Express 中介層",
+      "rest-api-and-web-services": "REST API 與網路服務",
+      "lab-timestamp-microservice": "建置時間戳記微服務",
+      "error-handling-in-express": "Express 錯誤處理",
       "websockets": "WebSockets",
       "lab-chat-app": "建置聊天應用程式",
       "security-and-privacy": "安全性與隱私",
@@ -7192,109 +7199,91 @@
     },
     "module-intros": {
       "introduction-to-nodejs": {
-        "note": "預計 2026 年底推出",
         "intro": [
           "在本模組中，你將學習 Node.js 的基礎操作。"
         ]
       },
       "nodejs-core-modules": {
-        "note": "預計 2026 年底推出",
         "intro": [
           "本模組介紹常見的 Node.js 核心模組，包括 fs、os、path 等。接著你將透過工作坊和實驗練習所學，並以短測驗檢驗你的知識。"
         ]
       },
       "node-package-manager": {
-        "note": "預計 2026 年底推出",
         "intro": [
           "本模組介紹 Node 套件管理器，開發者用它來管理專案依賴和腳本。接著你將透過工作坊和實驗練習所學，並以短測驗檢驗你的知識。"
         ]
       },
       "lab-prime-number-checker-module": {
-        "note": "2026 年底推出",
         "intro": [
           "透過建立質數檢查器練習建置與匯出 NPM 模組。"
         ]
       },
       "http-and-the-web-standards-model": {
-        "note": "預計 2026 年底推出",
         "intro": [
           "本模組介紹 HTTP（超文字傳輸協定）及其他重要概念，包括請求-回應模型、常見回應碼、DNS、TCP/IP 等。接著你將透過建置自己的網頁伺服器工作坊練習，並以短測驗檢驗你的知識。"
         ]
       },
-      "rest-api-and-web-services": {
-        "note": "預計 2026 年底推出",
-        "intro": [
-          "本模組介紹 REST API（表述性狀態轉移應用程式介面）及微服務運作方式。接著你將以短測驗檢驗你的知識。"
-        ]
-      },
-      "lab-timestamp-microservice": {
-        "note": "2026 年底推出",
-        "intro": [
-          "透過建立時間戳記微服務練習建置具日期解析邏輯的 RESTful API。"
-        ]
-      },
       "introduction-to-express": {
-        "note": "預計 2026 年底推出",
         "intro": [
           "本模組介紹 Express.js，一個用來建置 RESTful API 的框架。接著你將透過工作坊和實驗練習技能，並以短測驗檢驗你的知識。"
         ]
       },
       "lab-personal-profile-app": {
-        "note": "2026 年底推出",
         "intro": [
           "透過建立個人評測應用程式練習建置 Express 伺服器與 JSON API。"
         ]
       },
-      "error-handling-in-express": {
-        "note": "預計 2026 年底推出",
-        "intro": [
-          "本模組介紹 Express.js 中的錯誤處理、偵錯和健康檢查。你將在實驗中練習所學，並以短測驗檢驗你的知識。"
-        ]
-      },
       "express-middleware": {
-        "note": "預計 2026 年底推出",
         "intro": [
           "本模組介紹 Express.js 的中介層，用於控制客戶端與伺服器間的請求與回應。你將透過工作坊和實驗練習技能，並以短測驗檢驗你的知識。"
         ]
       },
+      "rest-api-and-web-services": {
+        "intro": [
+          "本模組介紹 REST API（表述性狀態轉移應用程式介面）及微服務運作方式。接著你將以短測驗檢驗你的知識。"
+        ]
+      },
+      "lab-timestamp-microservice": {
+        "intro": [
+          "透過建立時間戳記微服務練習建置具日期解析邏輯的 RESTful API。"
+        ]
+      },
+      "error-handling-in-express": {
+        "intro": [
+          "本模組介紹 Express.js 中的錯誤處理、偵錯和健康檢查。你將在實驗中練習所學，並以短測驗檢驗你的知識。"
+        ]
+      },
       "websockets": {
-        "note": "預計 2026 年底推出",
         "intro": [
           "本模組介紹 WebSockets，一種用於客戶端與伺服器即時通訊的協定。你將在實驗和工作坊中練習所學，並以短測驗檢驗你的知識。"
         ]
       },
       "lab-chat-app": {
-        "note": "2026 年底推出",
         "intro": [
           "透過使用 Node.js WebSockets 建置即時多客戶端聊天伺服器來練習。"
         ]
       },
       "security-and-privacy": {
-        "note": "預計 2026 年底推出",
         "intro": [
           "本模組介紹安全性與隱私的差異，以及 CSP、權限政策、個人識別資訊、CORS 操作等概念。接著你將以短測驗檢驗你的知識。"
         ]
       },
       "authentication": {
-        "note": "預計 2026 年底推出",
         "intro": [
           "本模組介紹網頁應用程式的身份驗證運作方式，以及 JWT、CSRF、Passport、Helmet、密碼學與加密等重要概念。你將在實驗和工作坊中練習所學，並以短測驗檢驗你的知識。"
         ]
       },
       "lab-family-movie-watchlist-api": {
-        "note": "2026 年底推出",
         "intro": [
           "透過建置家庭電影清單 API 練習在 Express 應用程式中實作驗證與授權。"
         ]
       },
       "back-end-development-and-apis-certification-exam": {
-        "note": "預計 2026 年底推出",
         "intro": [
           "通過此考試以獲得你的後端開發與 API 認證。"
         ]
       },
       "review-back-end-development-and-apis": {
-        "note": "2026 年底推出",
         "intro": [
           "複習後端開發與 API 的概念，為即將到來的考試做準備。"
         ]
@@ -7302,7 +7291,7 @@
     },
     "blocks": {
       "lecture-working-with-nodejs-and-event-driven-architecture": {
-        "title": "使用 NodeJS 與事件驅動架構",
+        "title": "使用 Node.js 與事件驅動架構",
         "intro": [
           "了解 Node.js 核心函式庫、如何在電腦安裝 Node.js，以及使用 Node.js 作為後端的優缺點。"
         ]
@@ -7416,24 +7405,6 @@
           ""
         ]
       },
-      "lecture-understanding-rest-api-and-web-services": {
-        "title": "理解 REST API 與網路服務",
-        "intro": [
-          "在這些課程中，你將學習 REST API 和網路服務，以及它們如何讓不同應用程式透過網際網路互相通訊。"
-        ]
-      },
-      "workshop-build-a-weather-service-api": {
-        "title": "建置天氣服務 API",
-        "intro": [
-          "你將透過建置天氣服務 API，學習路由參數和使用 <code>express.Router</code> 的模組化路由。"
-        ]
-      },
-      "lab-timestamp-microservice": {
-        "title": "建置時間戳記微服務",
-        "intro": [
-          "透過建置時間戳記微服務，練習使用日期解析邏輯建構 RESTful API。"
-        ]
-      },
       "lecture-working-with-express": {
         "title": "使用 Express",
         "intro": [
@@ -7453,16 +7424,10 @@
           "你將透過建置隨機笑話應用程式，學習基本的 Express 路由和回應方法。"
         ]
       },
-      "lab-personal-profile-app": {
-        "title": "建置個人資料應用程式",
-        "intro": [
-          "透過建置個人資料應用程式，練習建構 Express 伺服器和 JSON API。"
-        ]
-      },
       "review-introduction-to-express": {
         "title": "Express 入門複習",
         "intro": [
-          "在進行測驗前，複習網路服務、REST、微服務和 Express.js 路由。"
+          "在測驗前複習 Express.js、路由、回應方法與靜態檔案服務。"
         ]
       },
       "quiz-introduction-to-express": {
@@ -7471,28 +7436,10 @@
           "測試你對網路服務、REST、微服務、Express.js 和路由的知識。"
         ]
       },
-      "lecture-understanding-error-handling-and-health-checks": {
-        "title": "理解錯誤處理與健康檢查",
+      "lab-personal-profile-app": {
+        "title": "建置個人資料應用程式",
         "intro": [
-          "在這些課程中，你將學習 Express 的錯誤處理和健康檢查。"
-        ]
-      },
-      "workshop-build-a-bank-api": {
-        "title": "建置銀行 API",
-        "intro": [
-          "你將透過建置銀行 API，學習 Express 5 的錯誤處理、健康檢查和優雅關閉。"
-        ]
-      },
-      "review-error-handling-in-express": {
-        "title": "Express 錯誤處理複習",
-        "intro": [
-          "在進行測驗前，複習 HTTP 狀態碼、錯誤處理、偵錯、記錄、健康檢查和優雅關閉。"
-        ]
-      },
-      "quiz-error-handling-in-express": {
-        "title": "Express 錯誤處理測驗",
-        "intro": [
-          "測試你對 HTTP 狀態碼、錯誤處理、偵錯、記錄、健康檢查和優雅關閉的知識。"
+          "透過建置個人資料應用程式，練習建構 Express 伺服器和 JSON API。"
         ]
       },
       "lecture-express-middleware": {
@@ -7523,6 +7470,54 @@
         "title": "Express 中介層測驗",
         "intro": [
           "測試你對 Express 中介層的知識，包括應用程式層級、路由器層級、錯誤處理，以及內建和第三方中介層。"
+        ]
+      },
+      "lecture-understanding-rest-api-and-web-services": {
+        "title": "理解 REST API 與網路服務",
+        "intro": [
+          "在這些課程中，你將學習 REST API 和網路服務，以及它們如何讓不同應用程式透過網際網路互相通訊。"
+        ]
+      },
+      "workshop-build-a-weather-service-api": {
+        "title": "建置天氣服務 API",
+        "intro": [
+          "你將透過建置天氣服務 API，學習路由參數和使用 <code>express.Router</code> 的模組化路由。"
+        ]
+      },
+      "review-rest-api-and-web-services": {
+        "title": "REST API 與網路服務複習",
+        "intro": [
+          "複習網路服務、REST 架構、HTTP 狀態碼與微服務。"
+        ]
+      },
+      "lab-timestamp-microservice": {
+        "title": "建置時間戳記微服務",
+        "intro": [
+          "透過建置時間戳記微服務，練習使用日期解析邏輯建構 RESTful API。"
+        ]
+      },
+      "lecture-understanding-error-handling-and-health-checks": {
+        "title": "理解錯誤處理與健康檢查",
+        "intro": [
+          "在這些課程中，你將學習 Express 的錯誤處理和健康檢查。"
+        ]
+      },
+      "workshop-build-a-bank-api": {
+        "title": "建置銀行 API",
+        "intro": [
+          "你將透過建置銀行 API，學習 Express 5 的錯誤處理、健康檢查和優雅關閉。"
+        ]
+      },
+      "review-error-handling-in-express": {
+        "title": "Express 錯誤處理複習",
+        "intro": [
+          "在進行測驗前，複習 HTTP 狀態碼、錯誤處理、偵錯、記錄、健康檢查和優雅關閉。"
+        ]
+      },
+      "quiz-error-handling-in-express": {
+        "title": "Express 錯誤處理測驗",
+        "intro": [
+          "測試你對 HTTP 狀態碼、錯誤處理、偵錯、記錄、健康檢查和優雅關閉的知識。"
         ]
       },
       "lecture-understanding-websockets": {
@@ -8427,7 +8422,7 @@
         "title": "設計咖啡廳選單",
         "intro": [
           "CSS 告訴瀏覽器如何顯示你的網頁。你可以用 CSS 設定 HTML 元素的顏色、字型、大小和其他屬性。",
-          "在這個工作坊中，你將透過設計咖啡廳網頁的選單頁面來學習 CSS。"
+          "在這個工作坊中，你將透過設計咖啡廳的選單頁面來學習 CSS。"
         ]
       },
       "lab-business-card": {
@@ -9695,7 +9690,7 @@
         "title": "設計咖啡廳菜單",
         "intro": [
           "CSS 告訴瀏覽器如何顯示你的網頁。你可以用 CSS 設定 HTML 元素的顏色、字型、大小和其他屬性。",
-          "在這個工作坊中，你將透過設計咖啡廳網頁的菜單頁面來學習 CSS。"
+          "在這個工作坊中，你將透過設計咖啡廳的選單頁面來學習 CSS。"
         ]
       },
       "lab-business-card": {

@@ -1,6 +1,6 @@
 ---
 id: 66cc1deb1f04647f2aabee2b
-title: 步骤15
+title: 第 15 步
 challengeType: 1
 dashedName: step-15
 ---
@@ -11,17 +11,17 @@ dashedName: step-15
 
 除以零不是数学中的有效运算。
 
-为了考虑这种极端情况，你应该更新 `calculateQuotient` 函数，改为检查 `num2` 是否为零。 
+为了考虑这种极端情况，你应该更新 `calculateQuotient` 函数，改为检查 `num2` 是否为零。
 
 如果是，函数应返回字符串 `"Error: Division by zero"`。 否则，应返回 `num1` 除以 `num2` 的结果。
 
 # --hints--
 
-如果 `num2` 是零，你的 `calculateQuotient` 函数应返回字符串 `"Error: Division by zero"`。 
+如果 `num2` 是零，你的 `calculateQuotient` 函数应返回字符串 `"Error: Division by zero"`。
 
 ```js
-assert.strictEqual(calculateQuotient(10, 0), 'Error: Division by zero');
-assert.strictEqual(calculateQuotient(3, 0), 'Error: Division by zero');
+assert.strictEqual(calculateQuotient(10, 0), "Error: Division by zero");
+assert.strictEqual(calculateQuotient(3, 0), "Error: Division by zero");
 ```
 
 如果 `num2` 不是零，你的 `calculateQuotient` 函数应返回 `num1` 除以 `num2` 的结果。

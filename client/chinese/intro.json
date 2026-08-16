@@ -1352,12 +1352,6 @@
           "在这个包含 140 节课的工作坊中，你将完成学生数据库，同时深入学习 SQL 命令。"
         ]
       },
-      "lab-world-cup-database": {
-        "title": "构建世界杯数据库",
-        "intro": [
-          "在此项目中，你将创建一个 Bash 脚本，将世界杯比赛信息输入 PostgreSQL，然后查询数据库以获取有用的统计数据。"
-        ]
-      },
       "workshop-kitty-ipsum-translator": {
         "title": "构建 Kitty Ipsum 翻译器",
         "intro": [
@@ -1369,6 +1363,12 @@
         "title": "构建自行车租赁店",
         "intro": [
           "在这个包含 210 节课的工作坊中，你将构建一个交互式 Bash 程序，使用 PostgreSQL 保存自行车租赁店的租赁信息。"
+        ]
+      },
+      "lab-world-cup-database": {
+        "title": "构建世界杯数据库",
+        "intro": [
+          "在此项目中，你将创建一个 Bash 脚本，将世界杯比赛信息输入 PostgreSQL，然后查询数据库以获取有用的统计数据。"
         ]
       },
       "lab-salon-appointment-scheduler": {
@@ -2669,6 +2669,13 @@
           "你将练习使用条件式，根据学生的分数确定成绩。"
         ]
       },
+      "lab-story-fragment-restoration": {
+        "title": "从故事片段数组还原连贯叙事",
+        "intro": [
+          "在本实验中，你将从损坏的故事片段数组中还原连贯的叙事。",
+          "你将通过从零实现基本数组算法来练习使用循环。"
+        ]
+      },
       "lecture-the-var-keyword-and-hoisting": {
         "title": "var 关键字与提升机制",
         "intro": [
@@ -3774,16 +3781,16 @@
           "通过本课程学习 CSS 盒模型。了解网页元素如何渲染，学习调整间距、边框和内边距，实现理想的版型和设计。"
         ]
       },
-      "top-introduction-to-flexbox": {
-        "title": "弹性盒模型简介",
-        "intro": [
-          "发现弹性盒模型的强大功能，这是一种简化灵活响应式网页版型设计的模型。学习轻松创建动态且自适应的页面结构。"
-        ]
-      },
       "top-learn-block-and-inline": {
         "title": "学习块级元素和内联元素的区别",
         "intro": [
           "探索超文本标记语言和 CSS 中块级元素与内联元素的区别。本课程提供这些显示类型如何影响版型和行为的见解，助你做出明智的设计决策。"
+        ]
+      },
+      "top-introduction-to-flexbox": {
+        "title": "弹性盒模型简介",
+        "intro": [
+          "发现弹性盒模型的强大功能，这是一种简化灵活响应式网页版型设计的模型。学习轻松创建动态且自适应的页面结构。"
         ]
       },
       "top-learn-variables-and-operators": {
@@ -6287,12 +6294,6 @@
           "你将练习使用 Tailwind CSS 的弹性布局、颜色、断点等实用类。"
         ]
       },
-      "lab-photography-exhibit": {
-        "title": "设计摄影展览",
-        "intro": [
-          "在本实验中，你将通过设计摄影展览网页练习使用 Tailwind CSS。"
-        ]
-      },
       "review-css-libraries-and-frameworks": {
         "title": "CSS 库和框架复习",
         "intro": [
@@ -6304,6 +6305,12 @@
         "title": "CSS 库和框架测验",
         "intro": [
           "通过此测验测试你对 CSS 库和框架的掌握。"
+        ]
+      },
+      "lab-photography-exhibit": {
+        "title": "设计摄影展览",
+        "intro": [
+          "在本实验中，你将通过设计摄影展览网页练习使用 Tailwind CSS。"
         ]
       },
       "lecture-introduction-to-typescript": {
@@ -6372,18 +6379,6 @@
           "在本工作坊中，你将继续通过创建占卜应用来练习使用 TypeScript。"
         ]
       },
-      "lab-flashcard-quiz-app": {
-        "title": "创建抽认卡测验应用",
-        "intro": [
-          "在本实验中，你将通过创建抽认卡测验应用来练习使用 TypeScript。"
-        ]
-      },
-      "lab-digital-pet-game": {
-        "title": "创建数字宠物游戏",
-        "intro": [
-          "在本实验中，你将通过创建数字宠物游戏来练习你所学的 TypeScript 和 React 知识。"
-        ]
-      },
       "workshop-build-a-football-player-card-builder": {
         "title": "创建足球运动员卡片生成器",
         "intro": [
@@ -6400,6 +6395,18 @@
       "quiz-typescript": {
         "title": "TypeScript 测验",
         "intro": ["通过此测验测试你对 TypeScript 的掌握。"]
+      },
+      "lab-flashcard-quiz-app": {
+        "title": "创建抽认卡测验应用",
+        "intro": [
+          "在本实验中，你将通过创建抽认卡测验应用来练习使用 TypeScript。"
+        ]
+      },
+      "lab-digital-pet-game": {
+        "title": "创建数字宠物游戏",
+        "intro": [
+          "在本实验中，你将通过创建数字宠物游戏来练习你所学的 TypeScript 和 React 知识。"
+        ]
       },
       "review-front-end-libraries": {
         "title": "前端库复习",
@@ -7176,12 +7183,12 @@
       "node-package-manager": "Node 包管理器",
       "lab-prime-number-checker-module": "创建素数检测模块",
       "http-and-the-web-standards-model": "HTTP 与网络标准模型",
-      "rest-api-and-web-services": "REST API 与网络服务",
-      "lab-timestamp-microservice": "创建时间戳微服务",
       "introduction-to-express": "Express 入门",
       "lab-personal-profile-app": "创建个人评测应用",
-      "error-handling-in-express": "Express 中的错误处理",
       "express-middleware": "Express 中间件",
+      "rest-api-and-web-services": "REST API 与网络服务",
+      "lab-timestamp-microservice": "创建时间戳微服务",
+      "error-handling-in-express": "Express 中的错误处理",
       "websockets": "WebSockets",
       "lab-chat-app": "创建聊天应用",
       "security-and-privacy": "安全性与隐私",
@@ -7192,109 +7199,91 @@
     },
     "module-intros": {
       "introduction-to-nodejs": {
-        "note": "2026 年底上线",
         "intro": [
           "在本模块中，你将学习 Node.js 的基础知识。"
         ]
       },
       "nodejs-core-modules": {
-        "note": "2026 年底上线",
         "intro": [
           "在本模块中，你将学习常见的 Node.js 核心模块，包括 fs、os、path 等。然后通过工作坊和实验练习所学内容，并通过简短测验检验知识。"
         ]
       },
       "node-package-manager": {
-        "note": "2026 年底上线",
         "intro": [
           "在本模块中，你将了解 Node 包管理器，它帮助开发者管理项目依赖和脚本。然后通过工作坊和实验练习所学内容，并通过简短测验检验知识。"
         ]
       },
       "lab-prime-number-checker-module": {
-        "note": "2026 年底上线",
         "intro": [
           "通过创建素数检测器练习构建和导出 NPM 模块。"
         ]
       },
       "http-and-the-web-standards-model": {
-        "note": "2026 年底上线",
         "intro": [
           "在本模块中，你将学习 HTTP（超文本传输协议）及其他重要概念，包括请求-响应模型、常见响应码、DNS、TCP/IP 等。然后通过创建自己的网络服务器工作坊练习所学内容，并通过简短测验检验知识。"
         ]
       },
-      "rest-api-and-web-services": {
-        "note": "2026 年底上线",
-        "intro": [
-          "在本模块中，你将学习 REST API（表现层状态转移应用程序接口）及微服务的工作原理。然后通过简短测验检验知识。"
-        ]
-      },
-      "lab-timestamp-microservice": {
-        "note": "2026 年底上线",
-        "intro": [
-          "通过创建时间戳微服务练习构建带日期解析逻辑的 RESTful API。"
-        ]
-      },
       "introduction-to-express": {
-        "note": "2026 年底上线",
         "intro": [
           "在本模块中，你将了解 Express.js，这是一个用于构建 RESTful API 的框架。然后通过工作坊和实验练习技能，并通过简短测验检验知识。"
         ]
       },
       "lab-personal-profile-app": {
-        "note": "2026 年底上线",
         "intro": [
           "通过创建个人评测应用练习构建 Express 服务器和 JSON API。"
         ]
       },
-      "error-handling-in-express": {
-        "note": "2026 年底上线",
-        "intro": [
-          "在本模块中，你将学习 Express.js 中的错误处理、调试和健康检查。然后在实验中练习所学内容，并通过简短测验检验知识。"
-        ]
-      },
       "express-middleware": {
-        "note": "2026 年底上线",
         "intro": [
           "在本模块中，你将学习 Express.js 中的中间件，它用于处理客户与服务器之间的请求和响应。然后通过工作坊和实验练习技能，并通过简短测验检验知识。"
         ]
       },
+      "rest-api-and-web-services": {
+        "intro": [
+          "在本模块中，你将学习 REST API（表现层状态转移应用程序接口）及微服务的工作原理。然后通过简短测验检验知识。"
+        ]
+      },
+      "lab-timestamp-microservice": {
+        "intro": [
+          "通过创建时间戳微服务练习构建带日期解析逻辑的 RESTful API。"
+        ]
+      },
+      "error-handling-in-express": {
+        "intro": [
+          "在本模块中，你将学习 Express.js 中的错误处理、调试和健康检查。然后在实验中练习所学内容，并通过简短测验检验知识。"
+        ]
+      },
       "websockets": {
-        "note": "2026 年底上线",
         "intro": [
           "在本模块中，你将了解 WebSockets，这是一种用于客户与服务器实时通信的协议。然后通过实验和工作坊练习所学内容，并通过简短测验检验知识。"
         ]
       },
       "lab-chat-app": {
-        "note": "2026 年底上线",
         "intro": [
           "通过使用 Node.js 套接字练习构建实时多客户聊天服务器。"
         ]
       },
       "security-and-privacy": {
-        "note": "2026 年底上线",
         "intro": [
           "在本模块中，你将学习安全性与隐私的区别，以及 CSP、权限策略、个人身份信息、CORS 处理等其他概念。然后通过简短测验检验知识。"
         ]
       },
       "authentication": {
-        "note": "2026 年底上线",
         "intro": [
           "在本模块中，你将学习网络应用中的认证机制，以及 JWT、CSRF、Passport、Helmet、密码学和加密等重要概念。然后通过实验和工作坊练习所学内容，并通过简短测验检验知识。"
         ]
       },
       "lab-family-movie-watchlist-api": {
-        "note": "2026 年底上线",
         "intro": [
           "通过构建家庭电影观看列表 API 练习在 Express 应用中实现认证和授权。"
         ]
       },
       "back-end-development-and-apis-certification-exam": {
-        "note": "2026 年底上线",
         "intro": [
           "通过此考试以获得后端开发与 API 认证。"
         ]
       },
       "review-back-end-development-and-apis": {
-        "note": "预计于 2026 年晚些时候推出",
         "intro": [
           "复习后端开发与 API 概念，为即将到来的考试做准备。"
         ]
@@ -7302,7 +7291,7 @@
     },
     "blocks": {
       "lecture-working-with-nodejs-and-event-driven-architecture": {
-        "title": "使用 NodeJS 和事件驱动架构",
+        "title": "使用 Node.js 和事件驱动架构",
         "intro": [
           "了解 Node.js 核心库，如何在计算机上安装 Node.js，以及在后端使用 Node.js 的优缺点。"
         ]
@@ -7416,24 +7405,6 @@
           ""
         ]
       },
-      "lecture-understanding-rest-api-and-web-services": {
-        "title": "理解 REST API 和网络服务",
-        "intro": [
-          "在这些课程中，你将学习 REST API 和网络服务，以及它们如何让不同应用通过互联网相互通信。"
-        ]
-      },
-      "workshop-build-a-weather-service-api": {
-        "title": "创建天气服务 API",
-        "intro": [
-          "你将通过构建天气服务 API 学习路由参数和使用 <code>express.Router</code> 进行模块化路由。"
-        ]
-      },
-      "lab-timestamp-microservice": {
-        "title": "创建时间戳微服务",
-        "intro": [
-          "通过创建时间戳微服务，练习构建带有日期解析逻辑的 RESTful API。"
-        ]
-      },
       "lecture-working-with-express": {
         "title": "使用 Express",
         "intro": [
@@ -7453,16 +7424,10 @@
           "你将通过构建随机笑话应用学习基本的 Express 路由和响应方法。"
         ]
       },
-      "lab-personal-profile-app": {
-        "title": "创建个人资料应用",
-        "intro": [
-          "通过创建个人资料应用，练习构建 Express 服务器和 JSON API。"
-        ]
-      },
       "review-introduction-to-express": {
         "title": "Express 入门复习",
         "intro": [
-          "在参加测验前复习网络服务、REST、微服务和 Express.js 路由。"
+          "在参加测验前，复习 Express.js、路由、响应方法和静态文件服务。"
         ]
       },
       "quiz-introduction-to-express": {
@@ -7471,28 +7436,10 @@
           "测试你对网络服务、REST、微服务、Express.js 和路由的知识。"
         ]
       },
-      "lecture-understanding-error-handling-and-health-checks": {
-        "title": "理解错误处理和健康检查",
+      "lab-personal-profile-app": {
+        "title": "创建个人资料应用",
         "intro": [
-          "在这些课程中，你将学习 Express 中的错误处理和健康检查。"
-        ]
-      },
-      "workshop-build-a-bank-api": {
-        "title": "创建银行 API",
-        "intro": [
-          "你将通过构建银行 API 学习 Express 5 的错误处理、健康检查和优雅关闭。"
-        ]
-      },
-      "review-error-handling-in-express": {
-        "title": "Express 中的错误处理复习",
-        "intro": [
-          "在参加测验前复习 HTTP 状态码、错误处理、调试、日志记录、健康检查和优雅关闭。"
-        ]
-      },
-      "quiz-error-handling-in-express": {
-        "title": "Express 中的错误处理测验",
-        "intro": [
-          "测试你对 HTTP 状态码、错误处理、调试、日志记录、健康检查和优雅关闭的知识。"
+          "通过创建个人资料应用，练习构建 Express 服务器和 JSON API。"
         ]
       },
       "lecture-express-middleware": {
@@ -7523,6 +7470,54 @@
         "title": "Express 中间件测验",
         "intro": [
           "测试你对 Express 中间件的知识，包括应用级、路由级、错误处理以及内置和第三方中间件。"
+        ]
+      },
+      "lecture-understanding-rest-api-and-web-services": {
+        "title": "理解 REST API 和网络服务",
+        "intro": [
+          "在这些课程中，你将学习 REST API 和网络服务，以及它们如何让不同应用通过互联网相互通信。"
+        ]
+      },
+      "workshop-build-a-weather-service-api": {
+        "title": "创建天气服务 API",
+        "intro": [
+          "你将通过构建天气服务 API 学习路由参数和使用 <code>express.Router</code> 进行模块化路由。"
+        ]
+      },
+      "review-rest-api-and-web-services": {
+        "title": "REST API 和网络服务复习",
+        "intro": [
+          "复习网络服务、REST 架构、超文本传输协议状态码和微服务。"
+        ]
+      },
+      "lab-timestamp-microservice": {
+        "title": "创建时间戳微服务",
+        "intro": [
+          "通过创建时间戳微服务，练习构建带有日期解析逻辑的 RESTful API。"
+        ]
+      },
+      "lecture-understanding-error-handling-and-health-checks": {
+        "title": "理解错误处理和健康检查",
+        "intro": [
+          "在这些课程中，你将学习 Express 中的错误处理和健康检查。"
+        ]
+      },
+      "workshop-build-a-bank-api": {
+        "title": "创建银行 API",
+        "intro": [
+          "你将通过构建银行 API 学习 Express 5 的错误处理、健康检查和优雅关闭。"
+        ]
+      },
+      "review-error-handling-in-express": {
+        "title": "Express 中的错误处理复习",
+        "intro": [
+          "在参加测验前复习 HTTP 状态码、错误处理、调试、日志记录、健康检查和优雅关闭。"
+        ]
+      },
+      "quiz-error-handling-in-express": {
+        "title": "Express 中的错误处理测验",
+        "intro": [
+          "测试你对 HTTP 状态码、错误处理、调试、日志记录、健康检查和优雅关闭的知识。"
         ]
       },
       "lecture-understanding-websockets": {
@@ -8427,7 +8422,7 @@
         "title": "设计咖啡馆菜单",
         "intro": [
           "CSS告诉浏览器如何显示你的网页。你可以使用CSS设置HTML元素的颜色、字体、大小及其他方面。",
-          "在本工作坊中，你将通过设计咖啡馆网页的菜单页面来学习CSS。"
+          "在本工作坊中，你将通过设计咖啡馆菜单页面来学习 CSS。"
         ]
       },
       "lab-business-card": {
@@ -9695,7 +9690,7 @@
         "title": "设计咖啡馆菜单",
         "intro": [
           "CSS 告诉浏览器如何显示你的网页。你可以用 CSS 设置 HTML 元素的颜色、字体、大小等。",
-          "在本工作坊中，你将通过设计咖啡馆网页的菜单页面来学习 CSS。"
+          "在本工作坊中，你将通过设计咖啡馆菜单页面来学习 CSS。"
         ]
       },
       "lab-business-card": {

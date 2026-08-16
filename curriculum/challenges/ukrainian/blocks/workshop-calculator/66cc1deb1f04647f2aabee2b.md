@@ -20,8 +20,8 @@ dashedName: step-15
 Ваша функція `calculateQuotient` має повертати рядок `"Error: Division by zero"`, якщо `num2` дорівнює нулю.
 
 ```js
-assert.strictEqual(calculateQuotient(10, 0), 'Error: Division by zero');
-assert.strictEqual(calculateQuotient(3, 0), 'Error: Division by zero');
+assert.strictEqual(calculateQuotient(10, 0), "Error: Division by zero");
+assert.strictEqual(calculateQuotient(3, 0), "Error: Division by zero");
 ```
 
 Ваша функція `calculateQuotient` має повертати результат ділення `num1` на `num2`, якщо `num2` не дорівнює нулю.

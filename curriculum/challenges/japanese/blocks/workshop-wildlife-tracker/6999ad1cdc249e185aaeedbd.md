@@ -49,8 +49,11 @@ assert.isFunction(addHabitat);
 `addHabitat` 関数は2つのパラメータ、`animal` と `habitat` を持つべきです。
 
 ```js
-const regex = __helpers.functionRegex('addHabitat', ['animal', 'habitat']);
-assert.match(__helpers.removeJSComments(code), regex);
+const explorer = await __helpers.Explorer(code);
+const { addHabitat } = explorer.allFunctions;
+assert.equal(addHabitat?.parameters.length, 2);
+assert.equal(addHabitat?.parameters[0].toString(), 'animal');
+assert.equal(addHabitat?.parameters[1].toString(), 'habitat');
 ```
 
 `addHabitat` 関数は更新された `animal` オブジェクトを返すべきです。

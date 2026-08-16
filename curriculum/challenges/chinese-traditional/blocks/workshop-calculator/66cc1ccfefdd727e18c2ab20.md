@@ -7,7 +7,7 @@ dashedName: step-14
 
 # --description--
 
-你的 `calculateQuotient` 似乎運作正常，但有一種情況你還沒有測試過。
+你的 `calculateQuotient` 看起來運作正常，但有一種情況你還沒測試過。
 
 為你的程式碼添加一個 `console.log`，該 console.log 呼叫 `calculateQuotient` 函式（程式），並帶入引數 `3` 和 `0`。
 
@@ -18,7 +18,9 @@ dashedName: step-14
 你應該有一個 `console.log`，它以引數 `3` 和 `0` 呼叫 `calculateQuotient` 函式（程式）。
 
 ```js
-assert.match(code, /console\.log\s*\(\s*calculateQuotient\s*\(\s*3\s*,\s*0\s*\)\s*\)\s*;?/);
+const strippedCode = __helpers.removeWhiteSpace(__helpers.removeJSComments(code));
+const expectedStatement = "console.log(calculateQuotient(3,0))";
+assert.include(strippedCode, expectedStatement);
 ```
 
 # --seed--

@@ -19,6 +19,8 @@ Esta propriedade pode ser definida no seletor universal (`*`) para aplicar a tod
 
 O valor da propriedade `box-sizing` é `content-box` por padrão, mas você pode escolher `border-box` se precisar. Exploraremos primeiro `content-box` e depois entraremos em `border-box`.
 
+## Revisão do modelo de caixa CSS
+
 Para entender como os modelos funcionam, você precisa estar familiarizado com os quatro conceitos principais do modelo de caixa CSS. Vamos revisá-los rapidamente.
 
 - A área de conteúdo é o espaço ocupado pelo conteúdo do elemento.
@@ -26,11 +28,13 @@ Para entender como os modelos funcionam, você precisa estar familiarizado com o
 - A borda é o contorno que envolve a área de conteúdo e o padding.
 - A margem é o espaço fora da borda que separa o elemento de outros elementos.
 
+## Como funciona o `content-box`
+
 No modelo `content-box`, a largura e a altura que você define para um elemento determinam as dimensões da área de conteúdo, mas não incluem o padding, border ou margin. Use `content-box` quando precisar de controle preciso sobre a área de conteúdo. Quando você define `width` e `height`, está definindo apenas o tamanho do próprio conteúdo.
 
 Para encontrar a largura total do elemento, você precisará adicionar o padding esquerdo e direito e as bordas esquerda e direita. Da mesma forma, a altura total de um elemento pode ser encontrada adicionando a altura do conteúdo, o padding superior e inferior e as bordas superior e inferior.
 
-Por exemplo, aqui temos um seletor de tipo CSS para todos os elementos `div`. 
+Por exemplo, aqui temos um seletor de tipo CSS para todos os elementos `div`.
 
 :::interactive_editor
 
@@ -52,9 +56,13 @@ div {
 
 Neste caso, se `content-box` for usado a área de conteúdo será 300px por 200px. O tamanho total renderizado inclui padding e bordas — por exemplo, largura total = 300px (conteúdo) + 40px (padding) + 8px (bordas) = 348px; a altura total é calculada da mesma forma.
 
+## Como funciona o `border-box`
+
 Ótimo! Agora vamos explorar `border-box`.  It's different because the width and height you set include the element's content, padding, and border (but not its margin).  Use `border-box` when you want the element's total size to stay fixed even if padding or borders change — that's often helpful in responsive layouts.
 
 Com `border-box`, o padding e as bordas são incluídos dentro do tamanho especificado do elemento. O `width` e o `height` que você define se tornam as dimensões totais do elemento: conteúdo + padding + borda; as margens permanecem excluídas.
+
+## Comparando os dois modelos
 
 No exemplo a seguir, há dois elementos `div` com as mesmas dimensões mas valores diferentes de `box-sizing`. Observe como isso resulta em tamanhos totais diferentes quando visualizados no navegador:
 
@@ -89,7 +97,7 @@ No exemplo a seguir, há dois elementos `div` com as mesmas dimensões mas valor
 
 :::
 
-Você pode ver que ambos têm o mesmo `width`, `height`, `padding`, `border` e `margin`.  The only differences are in the colors and the value of the `box-sizing` property. Essa pequena diferença tem um impacto muito importante nas dimensões finais. 
+Você pode ver que ambos têm o mesmo `width`, `height`, `padding`, `border` e `margin`.  The only differences are in the colors and the value of the `box-sizing` property. Essa pequena diferença tem um impacto muito importante nas dimensões finais.
 
 Escolher entre `content-box` e `border-box` realmente depende das necessidades específicas do seu projeto. Embora `border-box` esteja se tornando cada vez mais popular por sua simplicidade e flexibilidade, entender ambos os modelos é importante para implementar layouts CSS eficazes.
 

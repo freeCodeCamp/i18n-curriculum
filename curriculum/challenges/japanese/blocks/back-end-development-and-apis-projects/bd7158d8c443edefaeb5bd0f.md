@@ -19,7 +19,7 @@ dashedName: file-metadata-microservice
 
 # --hints--
 
-自分のプロジェクトを用意し、例のURLは使わないでください。
+独自のプロジェクトを用意してください。例のURLは使わないでください。
 
 ```js
   assert(
@@ -50,18 +50,22 @@ dashedName: file-metadata-microservice
 ファイルを提出すると、JSONレスポンス内でファイルの`name`、`type`、`size`（バイト単位）を受け取ります。
 
 ```js
-  const formData = new FormData();
-  const fileData = await fetch(
-    'https://cdn.freecodecamp.org/weather-icons/01d.png'
-  );
-  const file = await fileData.blob();
-  formData.append('upfile', file, 'icon');
+  const boundary = 'fccBoundary1234567890';
+  const head =
+    `--${boundary}\r\n` +
+    'Content-Disposition: form-data; name="upfile"; filename="icon"\r\n' +
+    'Content-Type: image/png\r\n\r\n';
+  const body = new Blob([head, new Uint8Array(70), `\r\n--${boundary}--\r\n`]);
   const data = await fetch(code + '/api/fileanalyse', {
     method: 'POST',
-    body: formData
+    headers: {
+      'Content-Type': `multipart/form-data; boundary=${boundary}`
+    },
+    body
   });
   const parsed = await data.json();
   assert.property(parsed, 'size');
   assert.equal(parsed.name, 'icon');
   assert.equal(parsed.type, 'image/png');
 ```
+

@@ -20,8 +20,8 @@ dashedName: step-15
 يجب أن تُرجع دالة `calculateQuotient` السلسلة النصية `"Error: Division by zero"` إذا كان `num2` يساوي صفرًا.
 
 ```js
-assert.strictEqual(calculateQuotient(10, 0), 'Error: Division by zero');
-assert.strictEqual(calculateQuotient(3, 0), 'Error: Division by zero');
+assert.strictEqual(calculateQuotient(10, 0), "Error: Division by zero");
+assert.strictEqual(calculateQuotient(3, 0), "Error: Division by zero");
 ```
 
 يجب أن تُرجع دالة `calculateQuotient` نتيجة قسمة `num1` على `num2` إذا لم يكن `num2` صفرًا.

@@ -1352,12 +1352,6 @@
           "En este taller de 140 lecciones, completarás tu base de datos de estudiantes mientras profundizas en los comandos SQL."
         ]
       },
-      "lab-world-cup-database": {
-        "title": "Crear una base de datos de la Copa Mundial",
-        "intro": [
-          "Para este proyecto, crearás un script Bash que ingrese información de partidos de la Copa Mundial en PostgreSQL, luego consultarás la base de datos para obtener estadísticas útiles."
-        ]
-      },
       "workshop-kitty-ipsum-translator": {
         "title": "Crear un traductor de Kitty Ipsum",
         "intro": [
@@ -1369,6 +1363,12 @@
         "title": "Crear una tienda de alquiler de bicicletas",
         "intro": [
           "En este taller de 210 lecciones, crearás un programa Bash interactivo que almacena información de alquiler para tu tienda de bicicletas usando PostgreSQL."
+        ]
+      },
+      "lab-world-cup-database": {
+        "title": "Crear una base de datos de la Copa Mundial",
+        "intro": [
+          "Para este proyecto, crearás un script Bash que ingrese información de partidos de la Copa Mundial en PostgreSQL, luego consultarás la base de datos para obtener estadísticas útiles."
         ]
       },
       "lab-salon-appointment-scheduler": {
@@ -2669,6 +2669,13 @@
           "Practicarás condicionales para determinar la calificación del estudiante según su puntaje."
         ]
       },
+      "lab-story-fragment-restoration": {
+        "title": "Restaurar una narrativa coherente a partir de un arreglo de fragmentos de historia",
+        "intro": [
+          "En este laboratorio, restaurarás una narrativa coherente a partir de un arreglo corrupto de fragmentos de historia.",
+          "Practicarás el uso de ciclos implementando desde cero algoritmos fundamentales para arreglos."
+        ]
+      },
       "lecture-the-var-keyword-and-hoisting": {
         "title": "La palabra clave var y el hoisting",
         "intro": [
@@ -3774,16 +3781,16 @@
           "Aprende el modelo de caja CSS con este curso. Entiende cómo se renderizan los elementos en la web y aprende a manipular espacios, bordes y rellenos para lograr el diseño y estilo deseados."
         ]
       },
-      "top-introduction-to-flexbox": {
-        "title": "Introducción a flexbox",
-        "intro": [
-          "Descubre el poder de Flexbox, un modelo de diseño que simplifica la creación de diseños web flexibles y adaptables. Aprende a crear estructuras de página dinámicas y adaptativas con facilidad."
-        ]
-      },
       "top-learn-block-and-inline": {
         "title": "Aprender la diferencia entre bloque y en línea",
         "intro": [
           "Explora las diferencias entre elementos de bloque y en línea en HTML y CSS. Este curso ofrece perspectivas sobre cómo estos tipos de visualización afectan el diseño y comportamiento, dándote el poder de tomar decisiones informadas de diseño."
+        ]
+      },
+      "top-introduction-to-flexbox": {
+        "title": "Introducción a flexbox",
+        "intro": [
+          "Descubre el poder de Flexbox, un modelo de diseño que simplifica la creación de diseños web flexibles y adaptables. Aprende a crear estructuras de página dinámicas y adaptativas con facilidad."
         ]
       },
       "top-learn-variables-and-operators": {
@@ -6287,12 +6294,6 @@
           "Practicarás el uso de clases utilitarias de Tailwind CSS para diseños flexbox, colores, puntos de interrupción y más."
         ]
       },
-      "lab-photography-exhibit": {
-        "title": "Diseñar una exhibición de fotografía",
-        "intro": [
-          "En este laboratorio, practicarás el uso de Tailwind CSS diseñando una página web para una exhibición de fotografía."
-        ]
-      },
       "review-css-libraries-and-frameworks": {
         "title": "Revisión de librerías y frameworks CSS",
         "intro": [
@@ -6304,6 +6305,12 @@
         "title": "Quiz de librerías y frameworks CSS",
         "intro": [
           "Pon a prueba lo que has aprendido sobre librerías y frameworks CSS con este quiz."
+        ]
+      },
+      "lab-photography-exhibit": {
+        "title": "Diseñar una exhibición de fotografía",
+        "intro": [
+          "En este laboratorio, practicarás el uso de Tailwind CSS diseñando una página web para una exhibición de fotografía."
         ]
       },
       "lecture-introduction-to-typescript": {
@@ -6372,18 +6379,6 @@
           "En este taller, continuarás practicando con TypeScript construyendo una app de adivinación."
         ]
       },
-      "lab-flashcard-quiz-app": {
-        "title": "Construir una app de quiz con tarjetas",
-        "intro": [
-          "En este laboratorio, practicarás usando TypeScript construyendo una app de quiz con tarjetas."
-        ]
-      },
-      "lab-digital-pet-game": {
-        "title": "Construir un juego de mascota digital",
-        "intro": [
-          "En este laboratorio, practicarás lo que aprendiste sobre TypeScript y React construyendo un juego de mascota digital."
-        ]
-      },
       "workshop-build-a-football-player-card-builder": {
         "title": "Construir un creador de tarjetas de jugadores de fútbol",
         "intro": [
@@ -6400,6 +6395,18 @@
       "quiz-typescript": {
         "title": "Quiz de TypeScript",
         "intro": ["Pon a prueba lo que aprendiste sobre TypeScript con este quiz."]
+      },
+      "lab-flashcard-quiz-app": {
+        "title": "Construir una app de quiz con tarjetas",
+        "intro": [
+          "En este laboratorio, practicarás usando TypeScript construyendo una app de quiz con tarjetas."
+        ]
+      },
+      "lab-digital-pet-game": {
+        "title": "Construir un juego de mascota digital",
+        "intro": [
+          "En este laboratorio, practicarás lo que aprendiste sobre TypeScript y React construyendo un juego de mascota digital."
+        ]
       },
       "review-front-end-libraries": {
         "title": "Revisión de bibliotecas front-end",
@@ -7176,12 +7183,12 @@
       "node-package-manager": "Administrador de paquetes de Node",
       "lab-prime-number-checker-module": "Crear un módulo para verificar números primos",
       "http-and-the-web-standards-model": "HTTP y el modelo de estándares web",
-      "rest-api-and-web-services": "API REST y servicios web",
-      "lab-timestamp-microservice": "Crear un microservicio de marcas de tiempo",
       "introduction-to-express": "Introducción a Express",
       "lab-personal-profile-app": "Crear una app de perfil personal",
-      "error-handling-in-express": "Manejo de errores en Express",
       "express-middleware": "Middleware en Express",
+      "rest-api-and-web-services": "API REST y servicios web",
+      "lab-timestamp-microservice": "Crear un microservicio de marcas de tiempo",
+      "error-handling-in-express": "Manejo de errores en Express",
       "websockets": "WebSockets",
       "lab-chat-app": "Crear una app de chat",
       "security-and-privacy": "Seguridad y privacidad",
@@ -7192,109 +7199,91 @@
     },
     "module-intros": {
       "introduction-to-nodejs": {
-        "note": "Disponible a finales de 2026",
         "intro": [
           "En este módulo, aprenderás los conceptos básicos para trabajar con Node.js."
         ]
       },
       "nodejs-core-modules": {
-        "note": "Disponible a finales de 2026",
         "intro": [
           "En este módulo, aprenderás sobre los módulos principales comunes de Node.js, incluyendo fs, os, path y más. Luego practicarás lo aprendido mediante talleres y laboratorios y pondrás a prueba tus conocimientos con un quiz corto."
         ]
       },
       "node-package-manager": {
-        "note": "Disponible a finales de 2026",
         "intro": [
           "En este módulo, te presentarán el administrador de paquetes de Node, que los desarrolladores usan para gestionar las dependencias y scripts del proyecto. Luego practicarás lo aprendido con talleres y laboratorios y evaluarás tus conocimientos con un quiz corto."
         ]
       },
       "lab-prime-number-checker-module": {
-        "note": "Disponible a finales de 2026",
         "intro": [
           "Practica crear y exportar un módulo npm creando un verificador de números primos."
         ]
       },
       "http-and-the-web-standards-model": {
-        "note": "Disponible a finales de 2026",
         "intro": [
           "En este módulo, aprenderás sobre HTTP (Protocolo de transferencia de hipertexto) y otros conceptos importantes como el modelo solicitud-respuesta, códigos de respuesta comunes, DNS, TCP/IP y más. Luego practicarás lo aprendido construyendo tu propio servidor web en un taller y pondrás a prueba tus conocimientos con un quiz corto."
         ]
       },
-      "rest-api-and-web-services": {
-        "note": "Disponible a finales de 2026",
-        "intro": [
-          "En este módulo, aprenderás sobre la API REST (interfaz de programación de aplicaciones de transferencia de estado representacional) y cómo funcionan los microservicios. Luego realizarás un quiz corto para evaluar tus conocimientos."
-        ]
-      },
-      "lab-timestamp-microservice": {
-        "note": "Disponible a finales de 2026",
-        "intro": [
-          "Practica crear una API REST con lógica para analizar fechas creando un microservicio de marcas de tiempo."
-        ]
-      },
       "introduction-to-express": {
-        "note": "Disponible a finales de 2026",
         "intro": [
           "En este módulo, te presentarán Express.js, un framework usado para construir APIs RESTful. Luego practicarás tus habilidades con talleres y laboratorios y evaluarás tus conocimientos con un quiz corto."
         ]
       },
       "lab-personal-profile-app": {
-        "note": "Disponible a finales de 2026",
         "intro": [
           "Practica crear un servidor Express y una API JSON creando una aplicación de perfil personal."
         ]
       },
-      "error-handling-in-express": {
-        "note": "Disponible a finales de 2026",
-        "intro": [
-          "En este módulo, aprenderás cómo funciona el manejo de errores, la depuración y las comprobaciones de salud en Express.js. Luego practicarás lo aprendido en un laboratorio y evaluarás tus conocimientos con un quiz corto."
-        ]
-      },
       "express-middleware": {
-        "note": "Disponible a finales de 2026",
         "intro": [
           "En este módulo, aprenderás sobre middleware en Express.js, que se usa para manejar solicitudes y respuestas entre el cliente y el servidor. Luego practicarás tus habilidades mediante un taller y un laboratorio y evaluarás tus conocimientos con un quiz corto."
         ]
       },
+      "rest-api-and-web-services": {
+        "intro": [
+          "En este módulo, aprenderás sobre la API REST (interfaz de programación de aplicaciones de transferencia de estado representacional) y cómo funcionan los microservicios. Luego realizarás un quiz corto para evaluar tus conocimientos."
+        ]
+      },
+      "lab-timestamp-microservice": {
+        "intro": [
+          "Practica crear una API REST con lógica para analizar fechas creando un microservicio de marcas de tiempo."
+        ]
+      },
+      "error-handling-in-express": {
+        "intro": [
+          "En este módulo, aprenderás cómo funciona el manejo de errores, la depuración y las comprobaciones de salud en Express.js. Luego practicarás lo aprendido en un laboratorio y evaluarás tus conocimientos con un quiz corto."
+        ]
+      },
       "websockets": {
-        "note": "Disponible a finales de 2026",
         "intro": [
           "En este módulo, te presentarán los websockets, un protocolo usado para la comunicación en tiempo real entre cliente y servidor. Luego practicarás lo aprendido en laboratorios y talleres y evaluarás tus conocimientos con un quiz corto."
         ]
       },
       "lab-chat-app": {
-        "note": "Disponible a finales de 2026",
         "intro": [
           "Practica crear un servidor de chat en tiempo real para múltiples clientes usando WebSockets de Node.js."
         ]
       },
       "security-and-privacy": {
-        "note": "Disponible a finales de 2026",
         "intro": [
           "En este módulo, aprenderás las diferencias entre seguridad y privacidad, así como otros conceptos como CSPs, políticas de permisos, PII, trabajar con CORS y más. Luego realizarás un quiz corto para evaluar tus conocimientos."
         ]
       },
       "authentication": {
-        "note": "Disponible a finales de 2026",
         "intro": [
           "En este módulo, aprenderás cómo funciona la autenticación en aplicaciones web junto con otros conceptos importantes como JWTs, CSRFs, Passport, Helmet, criptografía y encriptación, y más. Luego practicarás lo aprendido en laboratorios y talleres y evaluarás tus conocimientos con un quiz corto."
         ]
       },
       "lab-family-movie-watchlist-api": {
-        "note": "Disponible a finales de 2026",
         "intro": [
           "Practica implementar autenticación y autorización en una aplicación Express creando una API para lista de películas familiar."
         ]
       },
       "back-end-development-and-apis-certification-exam": {
-        "note": "Disponible a finales de 2026",
         "intro": [
           "Aprueba este examen para obtener tu certificación en desarrollo back-end y APIs."
         ]
       },
       "review-back-end-development-and-apis": {
-        "note": "Disponible a finales de 2026",
         "intro": [
           "Revisa los conceptos de desarrollo back-end y APIs para prepararte para el próximo examen."
         ]
@@ -7302,7 +7291,7 @@
     },
     "blocks": {
       "lecture-working-with-nodejs-and-event-driven-architecture": {
-        "title": "Trabajando con NodeJS y arquitectura orientada a eventos",
+        "title": "Trabajar con Node.js y arquitectura orientada a eventos",
         "intro": [
           "Aprende sobre las bibliotecas principales de Node.js, cómo instalar Node.js en tu computadora y las ventajas y desventajas de usar Node.js en el back-end."
         ]
@@ -7416,24 +7405,6 @@
           ""
         ]
       },
-      "lecture-understanding-rest-api-and-web-services": {
-        "title": "Entendiendo la API REST y los servicios web",
-        "intro": [
-          "En estas lecciones, aprenderás sobre las APIs REST y los servicios web, y cómo permiten que diferentes aplicaciones se comuniquen entre sí a través de internet."
-        ]
-      },
-      "workshop-build-a-weather-service-api": {
-        "title": "Crear una API de servicio meteorológico",
-        "intro": [
-          "Aprenderás sobre parámetros de ruta y enrutamiento modular con <code>express.Router</code> creando una API de servicio meteorológico."
-        ]
-      },
-      "lab-timestamp-microservice": {
-        "title": "Construye un microservicio de marca de tiempo",
-        "intro": [
-          "Practica construir una API RESTful con lógica de análisis de fechas creando un microservicio de marca de tiempo."
-        ]
-      },
       "lecture-working-with-express": {
         "title": "Trabajando con Express",
         "intro": [
@@ -7453,16 +7424,10 @@
           "Aprenderás enrutamiento básico de Express y métodos de respuesta creando una app de chistes aleatorios."
         ]
       },
-      "lab-personal-profile-app": {
-        "title": "Construye una app de perfil personal",
-        "intro": [
-          "Practica construir un servidor Express y una API JSON creando una aplicación de perfil personal."
-        ]
-      },
       "review-introduction-to-express": {
         "title": "Revisión de introducción a Express",
         "intro": [
-          "Revisa servicios web, REST, microservicios y enrutamiento de Express.js antes de hacer el quiz."
+          "Revisa Express.js, el enrutamiento, los métodos de respuesta y cómo servir archivos estáticos antes de hacer el quiz."
         ]
       },
       "quiz-introduction-to-express": {
@@ -7471,28 +7436,10 @@
           "Pon a prueba tus conocimientos sobre servicios web, REST, microservicios, Express.js y enrutamiento."
         ]
       },
-      "lecture-understanding-error-handling-and-health-checks": {
-        "title": "Entendiendo el manejo de errores y chequeos de salud",
+      "lab-personal-profile-app": {
+        "title": "Construye una app de perfil personal",
         "intro": [
-          "En estas lecciones, aprenderás sobre el manejo de errores y chequeos de salud en Express."
-        ]
-      },
-      "workshop-build-a-bank-api": {
-        "title": "Crear una API bancaria",
-        "intro": [
-          "Aprenderás manejo de errores en Express 5, chequeos de estado y cierres ordenados creando una API bancaria."
-        ]
-      },
-      "review-error-handling-in-express": {
-        "title": "Revisión de manejo de errores en Express",
-        "intro": [
-          "Revisa códigos de estado HTTP, manejo de errores, depuración, registro, chequeos de salud y cierres ordenados antes de hacer el quiz."
-        ]
-      },
-      "quiz-error-handling-in-express": {
-        "title": "Quiz de manejo de errores en Express",
-        "intro": [
-          "Pon a prueba tus conocimientos sobre códigos de estado HTTP, manejo de errores, depuración, registro, chequeos de salud y cierres ordenados."
+          "Practica construir un servidor Express y una API JSON creando una aplicación de perfil personal."
         ]
       },
       "lecture-express-middleware": {
@@ -7523,6 +7470,54 @@
         "title": "Quiz de middleware de Express",
         "intro": [
           "Pon a prueba tus conocimientos sobre middleware de Express, incluyendo middleware a nivel de aplicación, a nivel de enrutador, para manejo de errores, y middleware integrado y de terceros."
+        ]
+      },
+      "lecture-understanding-rest-api-and-web-services": {
+        "title": "Entendiendo la API REST y los servicios web",
+        "intro": [
+          "En estas lecciones, aprenderás sobre las APIs REST y los servicios web, y cómo permiten que diferentes aplicaciones se comuniquen entre sí a través de internet."
+        ]
+      },
+      "workshop-build-a-weather-service-api": {
+        "title": "Crear una API de servicio meteorológico",
+        "intro": [
+          "Aprenderás sobre parámetros de ruta y enrutamiento modular con <code>express.Router</code> creando una API de servicio meteorológico."
+        ]
+      },
+      "review-rest-api-and-web-services": {
+        "title": "Revisión de API REST y servicios web",
+        "intro": [
+          "Revisa los servicios web, la arquitectura REST, los códigos de estado HTTP y los microservicios."
+        ]
+      },
+      "lab-timestamp-microservice": {
+        "title": "Construye un microservicio de marca de tiempo",
+        "intro": [
+          "Practica construir una API RESTful con lógica de análisis de fechas creando un microservicio de marca de tiempo."
+        ]
+      },
+      "lecture-understanding-error-handling-and-health-checks": {
+        "title": "Entendiendo el manejo de errores y chequeos de salud",
+        "intro": [
+          "En estas lecciones, aprenderás sobre el manejo de errores y chequeos de salud en Express."
+        ]
+      },
+      "workshop-build-a-bank-api": {
+        "title": "Crear una API bancaria",
+        "intro": [
+          "Aprenderás manejo de errores en Express 5, chequeos de estado y cierres ordenados creando una API bancaria."
+        ]
+      },
+      "review-error-handling-in-express": {
+        "title": "Revisión de manejo de errores en Express",
+        "intro": [
+          "Revisa códigos de estado HTTP, manejo de errores, depuración, registro, chequeos de salud y cierres ordenados antes de hacer el quiz."
+        ]
+      },
+      "quiz-error-handling-in-express": {
+        "title": "Quiz de manejo de errores en Express",
+        "intro": [
+          "Pon a prueba tus conocimientos sobre códigos de estado HTTP, manejo de errores, depuración, registro, chequeos de salud y cierres ordenados."
         ]
       },
       "lecture-understanding-websockets": {
@@ -8427,7 +8422,7 @@
         "title": "Diseñar un menú de café",
         "intro": [
           "CSS indica al navegador cómo mostrar tu página web. Puedes usar CSS para establecer el color, la fuente, el tamaño y otros aspectos de los elementos HTML.",
-          "En este taller aprenderás CSS diseñando una página de menú para una página web de café."
+          "En este taller, aprenderás CSS diseñando una página de menú para un café."
         ]
       },
       "lab-business-card": {
@@ -9695,7 +9690,7 @@
         "title": "Diseña un menú para un café",
         "intro": [
           "CSS le dice al navegador cómo mostrar tu página web. Puedes usar CSS para establecer el color, la fuente, el tamaño y otros aspectos de los elementos HTML.",
-          "En este taller aprenderás CSS diseñando una página de menú para un sitio web de un café."
+          "En este taller, aprenderás CSS diseñando una página de menú para un café."
         ]
       },
       "lab-business-card": {

@@ -50,15 +50,18 @@ dashedName: file-metadata-microservice
 当你提交一个文件时，在 JSON 响应中收到文件的 `name`、`type` 和 `size`，以 bytes（字节）为单位。
 
 ```js
-  const formData = new FormData();
-  const fileData = await fetch(
-    'https://cdn.freecodecamp.org/weather-icons/01d.png'
-  );
-  const file = await fileData.blob();
-  formData.append('upfile', file, 'icon');
+  const boundary = 'fccBoundary1234567890';
+  const head =
+    `--${boundary}\r\n` +
+    'Content-Disposition: form-data; name="upfile"; filename="icon"\r\n' +
+    'Content-Type: image/png\r\n\r\n';
+  const body = new Blob([head, new Uint8Array(70), `\r\n--${boundary}--\r\n`]);
   const data = await fetch(code + '/api/fileanalyse', {
     method: 'POST',
-    body: formData
+    headers: {
+      'Content-Type': `multipart/form-data; boundary=${boundary}`
+    },
+    body
   });
   const parsed = await data.json();
   assert.property(parsed, 'size');

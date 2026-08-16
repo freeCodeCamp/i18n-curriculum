@@ -1,6 +1,6 @@
 ---
 id: 69ea1bb4a66dd6debb999c7f
-title: 第 49 步
+title: 步骤 49
 challengeType: 0
 dashedName: step-49
 ---
@@ -473,7 +473,7 @@ export const PlayerCard = ({ player }: { player: PlayerData }) => {
       </div>
     </div>
   );
-}
+};
 
 const defaultPlayer: PlayerData = {
   name: "PELE",

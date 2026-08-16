@@ -49,8 +49,11 @@ assert.isFunction(addHabitat);
 `addHabitat` 函式應該有兩個參數：`animal` 和 `habitat`。
 
 ```js
-const regex = __helpers.functionRegex('addHabitat', ['animal', 'habitat']);
-assert.match(__helpers.removeJSComments(code), regex);
+const explorer = await __helpers.Explorer(code);
+const { addHabitat } = explorer.allFunctions;
+assert.equal(addHabitat?.parameters.length, 2);
+assert.equal(addHabitat?.parameters[0].toString(), 'animal');
+assert.equal(addHabitat?.parameters[1].toString(), 'habitat');
 ```
 
 `addHabitat` 函式應該傳回更新後的 `animal` 物件。

@@ -7,7 +7,7 @@ dashedName: step-14
 
 # --description--
 
-あなたの`calculateQuotient`は正しく動作しているようですが、まだテストしていないケースがあります。
+あなたの `calculateQuotient` は正しく動作しているようですが、まだテストしていないケースが1つあります。
 
 `console.log`を追加して、`calculateQuotient`関数を引数`3`と`0`で呼び出してください。
 
@@ -18,7 +18,9 @@ dashedName: step-14
 `console.log`を用意して、`calculateQuotient`関数を引数`3`と`0`で呼び出す必要があります。
 
 ```js
-assert.match(code, /console\.log\s*\(\s*calculateQuotient\s*\(\s*3\s*,\s*0\s*\)\s*\)\s*;?/);
+const strippedCode = __helpers.removeWhiteSpace(__helpers.removeJSComments(code));
+const expectedStatement = "console.log(calculateQuotient(3,0))";
+assert.include(strippedCode, expectedStatement);
 ```
 
 # --seed--

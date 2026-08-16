@@ -558,6 +558,12 @@
     "running-tests": "// ejecutando pruebas",
     "tests-completed": "// pruebas completadas",
     "console-output": "// salida de consola",
+    "unavailable-local-resource": "No se pudo cargar el recurso: \"{{source}}\" no es un archivo local {{resourceType}} disponible. Usa: {{allowedSources}}.",
+    "unavailable-local-resource-no-allowed": "No se pudo cargar el recurso: \"{{source}}\" no es un archivo local {{resourceType}} disponible en este desafío.",
+    "local-resource-type": {
+      "stylesheet": "hoja de estilos",
+      "script": "script"
+    },
     "example-app": "Construye una app que sea funcionalmente similar a <0>este proyecto de ejemplo</0>. Trata de no copiar el proyecto de ejemplo, dale tu propio estilo personal.",
     "syntax-error": "Tu código generó un error antes de que se pudieran ejecutar las pruebas. Por favor, corrígelo y vuelve a intentarlo.",
     "indentation-error": "Tu código tiene un error de indentación. Puede que necesites agregar <code>pass</code> en una nueva línea para formar un bloque de código válido.",
@@ -656,25 +662,6 @@
       "sub-step-7": "Haz clic en el botón <0>Agregar secreto</0>",
       "summary": "Configuración de Codespaces"
     },
-    "ona": {
-      "intro": "Este curso se ejecuta en una máquina virtual Linux usando Ona. Sigue estas instrucciones para comenzar el curso:",
-      "step-1": "<0>Crea una cuenta de Ona</0> si no tienes una",
-      "step-2": "Haz clic en el botón de inicio abajo",
-      "step-3": "En el modal que aparece, haz clic en el botón crear",
-      "step-4": "Una vez que la máquina virtual Linux termine de cargar, inicia la extensión CodeRoad haciendo lo siguiente:",
-      "step-5": "Haz clic en el menú \"hamburguesa\" cerca de la esquina superior izquierda de la ventana de VSCode,",
-      "step-6": "Ve al menú <0>Ver</0>,",
-      "step-7": "Haz clic en la opción <0>Paleta de comandos</0>,",
-      "step-8": "y ejecuta el comando <0>CodeRoad: Start</0>",
-      "step-9": "Sigue las instrucciones en CodeRoad para completar el curso",
-      "continue-project": "Hacer clic en el botón de inicio abajo iniciará un nuevo proyecto. Si ya comenzaste el curso {{course}}, ve a <0>tu panel de Ona</0> para continuar.",
-      "learn-more": "Aprende más sobre los <0>espacios de trabajo de Ona.</0>",
-      "logout-warning": "Si cierras sesión en freeCodeCamp antes de completar todo el curso {{course}}, tu progreso no se guardará en tu cuenta de freeCodeCamp.",
-      "sub-step-3": "Navega a tu <0>página de secretos de Ona</0>",
-      "sub-step-4": "Crea un nuevo secreto llamado <0>CODEROAD_WEBHOOK_TOKEN</0>",
-      "sub-step-5": "En el campo <0>Secreto</0>, pega tu token",
-      "summary": "Configuración de Ona"
-    },
     "freecodecamp-os": {
       "token-modal": "Cuando ejecutes el curso, aparecerá un modal pidiendo tu token de usuario. Pega el token que copiaste arriba. Solo necesitas hacerlo una vez por entorno.",
       "local": {
@@ -697,16 +684,6 @@
         "step-5": "Se abrirá el navegador Simple cuando termine. Si ves una página blanca en blanco, usa el botón de actualizar para verla y acceder a la página principal del curso.",
         "step-6": "Haz clic en uno de los proyectos disponibles para iniciarlo y luego sigue las instrucciones del proyecto para completarlo.",
         "continue-project": "Hacer clic en el botón de inicio abajo iniciará una nueva máquina. Si ya comenzaste el curso {{title}}, ve a la <0>página del repositorio</0> para reabrir un espacio de trabajo anterior."
-      },
-      "ona": {
-        "intro": "Este curso se ejecuta en una máquina virtual Linux usando Ona y la extensión freeCodeCamp - Courses para VS Code. Sigue estas instrucciones para iniciar el curso:",
-        "step-1": "<0>Crea una cuenta de Ona</0> si no tienes una",
-        "step-2": "Haz clic en el botón de inicio abajo",
-        "step-3": "En el modal que aparece, haz clic en el botón de crear",
-        "step-4": "Cuando la máquina virtual Linux termine de cargar, abre la paleta de comandos y ejecuta el comando <0>freeCodeCamp: Run Course</0>",
-        "step-5": "Se abrirá el navegador Simple cuando termine. Si ves una página blanca en blanco, usa el botón de actualizar para verla y acceder a la página principal del curso.",
-        "step-6": "Haz clic en uno de los proyectos disponibles para iniciarlo y luego sigue las instrucciones del proyecto para completarlo.",
-        "continue-project": "Hacer clic en el botón de inicio abajo iniciará una nueva máquina. Si ya comenzaste el curso {{course}}, ve a <0>tu panel de Ona</0> para continuar."
       }
     },
     "local": {

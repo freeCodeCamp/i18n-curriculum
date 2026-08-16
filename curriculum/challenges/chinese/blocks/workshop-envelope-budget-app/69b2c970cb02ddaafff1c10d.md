@@ -62,7 +62,7 @@ assert.notMatch(code, /<\/input>/);
 `input` 元素应有闭合的 `>`。
 
 ```js
-assert.match(code, /HTMLString\s*=\s*`\n\s*<label\s+for\s*=\s*"\$\{category\}-\$\{entryNumber\}-name"\s*>Expense\s\$\{entryNumber\}\sName<\/label>\n\s*<input\s+[^>]*\/>/);
+assert.match(code, /HTMLString\s*=\s*`\n\s*<label\s+for\s*=\s*"\$\{category\}-\$\{entryNumber\}-name"\s*>Expense\s\$\{entryNumber\}\sName<\/label>\n\s*<input\s+[^>]*>/);
 ```
 
 # --seed--

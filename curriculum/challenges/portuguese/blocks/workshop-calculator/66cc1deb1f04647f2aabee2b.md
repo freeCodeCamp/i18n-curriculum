@@ -11,17 +11,17 @@ Se você olhar no console, verá o valor `Infinity`. `Infinity` é um valor espe
 
 A divisão por zero não é uma operação válida na matemática.
 
-Para tratar este caso limite, você deve atualizar a função `calculateQuotient` para verificar se `num2` é zero. 
+Para tratar este caso limite, você deve atualizar a função `calculateQuotient` para verificar se `num2` é zero.
 
 Se for, a função deve retornar a string `"Error: Division by zero"`. Caso contrário, deve retornar o resultado da divisão de `num1` por `num2`.
 
 # --hints--
 
-Sua função `calculateQuotient` deve retornar a string `"Error: Division by zero"` se `num2` for zero. 
+Sua função `calculateQuotient` deve retornar a string `"Error: Division by zero"` se `num2` for zero.
 
 ```js
-assert.strictEqual(calculateQuotient(10, 0), 'Error: Division by zero');
-assert.strictEqual(calculateQuotient(3, 0), 'Error: Division by zero');
+assert.strictEqual(calculateQuotient(10, 0), "Error: Division by zero");
+assert.strictEqual(calculateQuotient(3, 0), "Error: Division by zero");
 ```
 
 A função `calculateQuotient` deve retornar o resultado da divisão de `num1` por `num2` se `num2` não for zero.

@@ -11,17 +11,17 @@ dashedName: step-15
 
 除以零在數學中不是有效的操作。
 
-為了處理這個邊緣案例，你應該更新你的 `calculateQuotient` 函式（程式），改為檢查 `num2` 是否為零。 
+為了處理這個邊緣案例，你應該更新你的 `calculateQuotient` 函式（程式），改為檢查 `num2` 是否為零。
 
 如果是，該函式（程式）應該傳回字串 `"Error: Division by zero"`。否則，應該傳回將 `num1` 除以 `num2` 的結果。
 
 # --hints--
 
-如果 `num2` 是零，你的 `calculateQuotient` 函式（程式）應該傳回字串 `"Error: Division by zero"`。 
+如果 `num2` 是零，你的 `calculateQuotient` 函式（程式）應該傳回字串 `"Error: Division by zero"`。
 
 ```js
-assert.strictEqual(calculateQuotient(10, 0), 'Error: Division by zero');
-assert.strictEqual(calculateQuotient(3, 0), 'Error: Division by zero');
+assert.strictEqual(calculateQuotient(10, 0), "Error: Division by zero");
+assert.strictEqual(calculateQuotient(3, 0), "Error: Division by zero");
 ```
 
 如果 `num2` 不為零，你的 `calculateQuotient` 函式（程式）應該傳回將 `num1` 除以 `num2` 的結果。

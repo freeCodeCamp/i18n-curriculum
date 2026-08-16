@@ -50,15 +50,18 @@ El campo de entrada del archivo de formulario tiene el atributo `name` estableci
 Cuando envíes un archivo, recibirá el `name` del archivo, `type` y `size` en bytes dentro de la respuesta JSON.
 
 ```js
-  const formData = new FormData();
-  const fileData = await fetch(
-    'https://cdn.freecodecamp.org/weather-icons/01d.png'
-  );
-  const file = await fileData.blob();
-  formData.append('upfile', file, 'icon');
+  const boundary = 'fccBoundary1234567890';
+  const head =
+    `--${boundary}\r\n` +
+    'Content-Disposition: form-data; name="upfile"; filename="icon"\r\n' +
+    'Content-Type: image/png\r\n\r\n';
+  const body = new Blob([head, new Uint8Array(70), `\r\n--${boundary}--\r\n`]);
   const data = await fetch(code + '/api/fileanalyse', {
     method: 'POST',
-    body: formData
+    headers: {
+      'Content-Type': `multipart/form-data; boundary=${boundary}`
+    },
+    body
   });
   const parsed = await data.json();
   assert.property(parsed, 'size');

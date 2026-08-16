@@ -19,12 +19,16 @@ Diese Eigenschaft kann auf den universellen Selektor (`*`) angewendet werden, um
 
 Der Wert der Eigenschaft `box-sizing` ist standardmäßig `content-box`, aber Sie können `border-box` wählen, wenn Sie es benötigen. Wir werden zuerst `content-box` untersuchen und dann auf `border-box` eingehen.
 
+## Überprüfung des CSS-Box-Modells
+
 Um zu verstehen, wie die Modelle funktionieren, müssen Sie mit den vier Kernkonzepten des CSS-Box-Modells vertraut sein. Lassen Sie uns diese schnell überprüfen.
 
 - Der Inhaltsbereich ist der Raum, den der Inhalt des Elements einnimmt.
 - Der padding ist der Abstand zwischen dem Inhaltsbereich und dem border.
 - Der border ist die Umrandung, die den Inhaltsbereich und den padding umgibt.
 - Der Außenabstand ist der Raum außerhalb des border, der das Element von anderen Elementen trennt.
+
+## Wie `content-box` funktioniert
 
 Im `content-box`-Modell bestimmen die von Ihnen festgelegte Breite und Höhe die Abmessungen des Inhaltsbereichs, schließen aber nicht den padding, border oder margin ein. Verwenden Sie `content-box`, wenn Sie eine präzise Kontrolle über den Inhaltsbereich benötigen. Wenn Sie `width` und `height` setzen, legen Sie nur die Größe des Inhalts selbst fest.
 
@@ -52,9 +56,13 @@ div {
 
 In diesem Fall beträgt bei Verwendung von `content-box` der Inhaltsbereich 300px mal 200px. Die insgesamt gerenderte Größe umfasst padding und border – zum Beispiel Gesamtbreite = 300px (Inhalt) + 40px (padding) + 8px (border) = 348px; die Gesamthöhe wird auf die gleiche Weise berechnet.
 
+## Wie `border-box` funktioniert
+
 Super! Nun untersuchen wir `border-box`. Es unterscheidet sich dadurch, dass die von Ihnen festgelegte Breite und Höhe den Inhalt, den padding und den border des Elements einschließen (aber nicht den Außenabstand). Verwenden Sie `border-box`, wenn die Gesamtgröße des Elements fest bleiben soll, auch wenn sich padding oder border ändern – das ist oft bei responsiven Layouts hilfreich.
 
 Bei `border-box` sind padding und border innerhalb der angegebenen Größe des Elements enthalten. Die von Ihnen gesetzten `width` und `height` werden zu den Gesamtabmessungen des Elements: Inhalt + padding + border; Außenabstände bleiben ausgeschlossen.
+
+## Vergleich der beiden Modelle
 
 Im folgenden Beispiel gibt es zwei `div`-Elemente mit denselben Abmessungen, aber unterschiedlichen `box-sizing`-Werten. Beachten Sie, wie dies zu unterschiedlichen Gesamtgrößen im Browser führt:
 

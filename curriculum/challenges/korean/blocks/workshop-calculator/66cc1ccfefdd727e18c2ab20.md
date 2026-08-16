@@ -7,7 +7,7 @@ dashedName: step-14
 
 # --description--
 
-`calculateQuotient`가 제대로 작동하는 것 같지만 아직 테스트하지 않은 경우가 하나 있습니다.
+`calculateQuotient` 함수가 제대로 작동하는 것 같지만, 아직 테스트하지 않은 경우가 하나 있습니다.
 
 `console.log`를 추가하여 `calculateQuotient` 함수를 인수 `3`과 `0`로 호출하세요.
 
@@ -18,7 +18,9 @@ dashedName: step-14
 `console.log`가 `calculateQuotient` 함수를 인수 `3`과 `0`로 호출해야 합니다.
 
 ```js
-assert.match(code, /console\.log\s*\(\s*calculateQuotient\s*\(\s*3\s*,\s*0\s*\)\s*\)\s*;?/);
+const strippedCode = __helpers.removeWhiteSpace(__helpers.removeJSComments(code));
+const expectedStatement = "console.log(calculateQuotient(3,0))";
+assert.include(strippedCode, expectedStatement);
 ```
 
 # --seed--

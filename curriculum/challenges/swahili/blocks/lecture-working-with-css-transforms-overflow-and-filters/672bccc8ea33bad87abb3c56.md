@@ -19,12 +19,16 @@ Sifa hii inaweza kuwekwa kwenye kichaguzi cha ulimwengu (`*`) ili itumike kwa vi
 
 Thamani ya sifa ya `box-sizing` ni `content-box` kwa chaguo-msingi, lakini unaweza kuchagua `border-box` ikiwa unahitaji. Tutachunguza `content-box` kwanza kisha tutaingia kwenye `border-box`.
 
+## Kukagua mfano wa kisanduku wa CSS
+
 Ili kuelewa jinsi mifano inavyofanya kazi, unahitaji kufahamu dhana kuu nne kutoka kwa mfano wa boksi wa CSS. Hebu tukague haraka.
 
 - Eneo la maudhui ni nafasi inayochukuliwa na maudhui ya kipengele.
 - Nafasi ya ndani ni nafasi kati ya eneo la maudhui na mpaka.
 - Mpaka ni mstari unaozunguka eneo la maudhui na nafasi ya ndani.
 - Ukingo ni nafasi nje ya mpaka inayotenganisha kipengele na vipengele vingine.
+
+## Jinsi `content-box` inavyofanya kazi
 
 Katika mfano wa `content-box`, upana na urefu unaoweka kwa kipengele huamua vipimo vya eneo la maudhui, lakini havijumuishi nafasi ya ndani, mpaka, au ukingo. Tumia `content-box` unapohitaji udhibiti sahihi wa eneo la maudhui. Unapoweka `width` na `height`, unakuwa umeweka ukubwa wa maudhui yenyewe tu.
 
@@ -52,9 +56,13 @@ div {
 
 Katika kesi hii, ikiwa `content-box` itatumika eneo la maudhui litakuwa 300px kwa 200px. Ukubwa wa jumla unaonyeshwa unajumuisha nafasi ya ndani na mipaka — kwa mfano, upana wa jumla = 300px (maudhui) + 40px (nafasi ya ndani) + 8px (mipaka) = 348px; urefu wa jumla unahesabiwa kwa njia ile ile.
 
+## Jinsi `border-box` inavyofanya kazi
+
 Nzuri! Sasa hebu tuchunguze `border-box`. Ni tofauti kwa sababu upana na urefu unaoweka unajumuisha maudhui ya kipengele, nafasi ya ndani, na mpaka (lakini si ukingo wake). Tumia `border-box` unapotaka ukubwa wa jumla wa kipengele ubaki thabiti hata kama nafasi ya ndani au mipaka itabadilika — hii mara nyingi husaidia katika mipangilio inayojibadilisha kulingana na kifaa.
 
 Kwa `border-box`, nafasi ya ndani na mipaka zinajumuishwa ndani ya ukubwa uliobainishwa wa kipengele. `width` na `height` unazoweka zinakuwa vipimo vya jumla vya kipengele: maudhui + nafasi ya ndani + mpaka; kingo hazijumuishwi.
+
+## Kulinganisha mifano miwili
 
 Katika mfano ufuatao, kuna vipengele viwili vya `div` vyenye vipimo sawa lakini thamani tofauti za `box-sizing`. Angalia jinsi hii inavyosababisha ukubwa tofauti wa jumla unapoangaliwa kwenye kivinjari:
 

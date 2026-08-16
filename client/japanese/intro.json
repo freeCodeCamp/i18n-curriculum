@@ -1352,12 +1352,6 @@
           "この140レッスンのワークショップでは、SQLコマンドをさらに深く学びながら学生データベースを完成させます。"
         ]
       },
-      "lab-world-cup-database": {
-        "title": "ワールドカップデータベースを作成する",
-        "intro": [
-          "このプロジェクトでは、ワールドカップの試合情報をPostgreSQLに入力するBashスクリプトを作成し、データベースから有用な統計をクエリします。"
-        ]
-      },
       "workshop-kitty-ipsum-translator": {
         "title": "キティイプサム翻訳機を作成する",
         "intro": [
@@ -1369,6 +1363,12 @@
         "title": "自転車レンタルショップを作成する",
         "intro": [
           "この210レッスンのワークショップでは、PostgreSQLを使ってレンタル情報を保存するインタラクティブなBashプログラムを作成します。"
+        ]
+      },
+      "lab-world-cup-database": {
+        "title": "ワールドカップデータベースを作成する",
+        "intro": [
+          "このプロジェクトでは、ワールドカップの試合情報をPostgreSQLに入力するBashスクリプトを作成し、データベースから有用な統計をクエリします。"
         ]
       },
       "lab-salon-appointment-scheduler": {
@@ -2669,6 +2669,13 @@
           "スコアに基づいて学生の成績を判定する条件分岐を練習します。"
         ]
       },
+      "lab-story-fragment-restoration": {
+        "title": "配列のストーリー断片から一貫した物語を復元する",
+        "intro": [
+          "このワークショップでは、破損したストーリー断片の配列から一貫した物語を復元します。",
+          "ループを使った基本的な配列アルゴリズムを一から実装して練習します。"
+        ]
+      },
       "lecture-the-var-keyword-and-hoisting": {
         "title": "varキーワードとホイスティング",
         "intro": [
@@ -3774,16 +3781,16 @@
           "このコースでCSSのボックスモデルを学びます。ウェブ上で要素がどのようにレンダリングされるかを理解し、スペース、ボーダー、パディングを操作して望むレイアウトとデザインを実現しましょう。"
         ]
       },
-      "top-introduction-to-flexbox": {
-        "title": "Flexbox入門",
-        "intro": [
-          "Flexboxの力を発見しましょう。これは柔軟でレスポンシブなウェブレイアウトの設計を簡単にするレイアウトモデルです。動的で適応的なページ構造を簡単に作成する方法を学びます。"
-        ]
-      },
       "top-learn-block-and-inline": {
         "title": "ブロックとインラインの違いを学ぶ",
         "intro": [
           "HTMLとCSSにおけるブロック要素とインライン要素の違いを探求しましょう。このコースはこれらの表示タイプがレイアウトや動作にどのように影響するかを解説し、情報に基づいたデザイン判断を可能にします。"
+        ]
+      },
+      "top-introduction-to-flexbox": {
+        "title": "Flexbox入門",
+        "intro": [
+          "Flexboxの力を発見しましょう。これは柔軟でレスポンシブなウェブレイアウトの設計を簡単にするレイアウトモデルです。動的で適応的なページ構造を簡単に作成する方法を学びます。"
         ]
       },
       "top-learn-variables-and-operators": {
@@ -6287,12 +6294,6 @@
           "Tailwind CSSのフレックスボックスレイアウト、カラー、ブレークポイントなどのユーティリティクラスを使う練習をします。"
         ]
       },
-      "lab-photography-exhibit": {
-        "title": "写真展のデザインをする",
-        "intro": [
-          "このラボではTailwind CSSを使って写真展のウェブページをデザインする練習をします。"
-        ]
-      },
       "review-css-libraries-and-frameworks": {
         "title": "CSSライブラリとフレームワークの復習",
         "intro": [
@@ -6304,6 +6305,12 @@
         "title": "CSSライブラリとフレームワークのクイズ",
         "intro": [
           "CSSライブラリとフレームワークについて学んだことをこのクイズで試しましょう。"
+        ]
+      },
+      "lab-photography-exhibit": {
+        "title": "写真展のデザインをする",
+        "intro": [
+          "このラボではTailwind CSSを使って写真展のウェブページをデザインする練習をします。"
         ]
       },
       "lecture-introduction-to-typescript": {
@@ -6372,18 +6379,6 @@
           "このワークショップでは、TypeScriptの扱いを続けて練習しながら占いアプリを作成します。"
         ]
       },
-      "lab-flashcard-quiz-app": {
-        "title": "フラッシュカードクイズアプリを作る",
-        "intro": [
-          "このラボでは、TypeScriptを使ってフラッシュカードクイズアプリを作成します。"
-        ]
-      },
-      "lab-digital-pet-game": {
-        "title": "デジタルペットゲームを作る",
-        "intro": [
-          "このラボでは、TypeScriptとReactで学んだことを活かしてデジタルペットゲームを作成します。"
-        ]
-      },
       "workshop-build-a-football-player-card-builder": {
         "title": "フットボール選手カードビルダーを作る",
         "intro": [
@@ -6400,6 +6395,18 @@
       "quiz-typescript": {
         "title": "TypeScriptクイズ",
         "intro": ["このクイズでTypeScriptの学習内容をテストしてください。"]
+      },
+      "lab-flashcard-quiz-app": {
+        "title": "フラッシュカードクイズアプリを作る",
+        "intro": [
+          "このラボでは、TypeScriptを使ってフラッシュカードクイズアプリを作成します。"
+        ]
+      },
+      "lab-digital-pet-game": {
+        "title": "デジタルペットゲームを作る",
+        "intro": [
+          "このラボでは、TypeScriptとReactで学んだことを活かしてデジタルペットゲームを作成します。"
+        ]
       },
       "review-front-end-libraries": {
         "title": "フロントエンドライブラリ復習",
@@ -7176,12 +7183,12 @@
       "node-package-manager": "Nodeパッケージマネージャー",
       "lab-prime-number-checker-module": "素数チェッカーモジュールを作成する",
       "http-and-the-web-standards-model": "HTTPとウェブ標準モデル",
-      "rest-api-and-web-services": "REST APIとウェブサービス",
-      "lab-timestamp-microservice": "タイムスタンプマイクロサービスを作成する",
       "introduction-to-express": "Express入門",
       "lab-personal-profile-app": "個人プロフィールアプリケーションを作成する",
-      "error-handling-in-express": "Expressのエラーハンドリング",
       "express-middleware": "Expressミドルウェア",
+      "rest-api-and-web-services": "REST APIとウェブサービス",
+      "lab-timestamp-microservice": "タイムスタンプマイクロサービスを作成する",
+      "error-handling-in-express": "Expressのエラーハンドリング",
       "websockets": "WebSockets",
       "lab-chat-app": "チャットアプリを作成する",
       "security-and-privacy": "セキュリティとプライバシー",
@@ -7192,109 +7199,91 @@
     },
     "module-intros": {
       "introduction-to-nodejs": {
-        "note": "2026年後半公開予定",
         "intro": [
           "このモジュールでは、Node.jsの基本的な使い方を学びます。"
         ]
       },
       "nodejs-core-modules": {
-        "note": "2026年後半公開予定",
         "intro": [
           "このモジュールでは、fs、os、pathなどの一般的なNode.jsコアモジュールについて学びます。その後、ワークショップやラボで学んだことを実践し、短いクイズで知識を確認します。"
         ]
       },
       "node-package-manager": {
-        "note": "2026年後半公開予定",
         "intro": [
           "このモジュールでは、開発者がプロジェクトの依存関係やスクリプトを管理するために使うNodeパッケージマネージャーを紹介します。その後、ワークショップやラボで学んだことを実践し、短いクイズで知識を確認します。"
         ]
       },
       "lab-prime-number-checker-module": {
-        "note": "2026年後半公開予定",
         "intro": [
           "素数チェッカーを作成して、npmモジュールの構築とエクスポートを練習してください。"
         ]
       },
       "http-and-the-web-standards-model": {
-        "note": "2026年後半公開予定",
         "intro": [
           "このモジュールでは、HTTP（ハイパーテキスト転送プロトコル）やリクエスト-レスポンスモデル、一般的なレスポンスコード、DNS、TCP/IPなどの重要な概念を学びます。その後、自分でウェブサーバーを構築するワークショップで実践し、短いクイズで知識を確認します。"
         ]
       },
-      "rest-api-and-web-services": {
-        "note": "2026年後半公開予定",
-        "intro": [
-          "このモジュールでは、REST API（表現状態転送アプリケーションプログラミングインターフェース）とマイクロサービスの仕組みについて学びます。その後、短いクイズで知識を確認します。"
-        ]
-      },
-      "lab-timestamp-microservice": {
-        "note": "2026年後半公開予定",
-        "intro": [
-          "タイムスタンプマイクロサービスを作成して、日付解析ロジックを持つRESTful APIの構築を練習してください。"
-        ]
-      },
       "introduction-to-express": {
-        "note": "2026年後半公開予定",
         "intro": [
           "このモジュールでは、RESTful APIを構築するためのフレームワークであるExpress.jsを紹介します。その後、ワークショップやラボでスキルを実践し、短いクイズで知識を確認します。"
         ]
       },
       "lab-personal-profile-app": {
-        "note": "2026年後半公開予定",
         "intro": [
           "個人プロフィールアプリケーションを作成して、ExpressサーバーとJSON APIの構築を練習してください。"
         ]
       },
-      "error-handling-in-express": {
-        "note": "2026年後半公開予定",
-        "intro": [
-          "このモジュールでは、Express.jsのエラーハンドリング、デバッグ、ヘルスチェックの仕組みについて学びます。その後、ラボで実践し、短いクイズで知識を確認します。"
-        ]
-      },
       "express-middleware": {
-        "note": "2026年後半公開予定",
         "intro": [
           "このモジュールでは、クライアントとサーバー間のリクエストとレスポンスを処理するために使われるExpress.jsのミドルウェアについて学びます。その後、ワークショップとラボでスキルを実践し、短いクイズで知識を確認します。"
         ]
       },
+      "rest-api-and-web-services": {
+        "intro": [
+          "このモジュールでは、REST API（表現状態転送アプリケーションプログラミングインターフェース）とマイクロサービスの仕組みについて学びます。その後、短いクイズで知識を確認します。"
+        ]
+      },
+      "lab-timestamp-microservice": {
+        "intro": [
+          "タイムスタンプマイクロサービスを作成して、日付解析ロジックを持つRESTful APIの構築を練習してください。"
+        ]
+      },
+      "error-handling-in-express": {
+        "intro": [
+          "このモジュールでは、Express.jsのエラーハンドリング、デバッグ、ヘルスチェックの仕組みについて学びます。その後、ラボで実践し、短いクイズで知識を確認します。"
+        ]
+      },
       "websockets": {
-        "note": "2026年後半公開予定",
         "intro": [
           "このモジュールでは、クライアントとサーバー間のリアルタイム通信に使われるプロトコルであるWebSocketsを紹介します。その後、ラボやワークショップで学んだことを実践し、短いクイズで知識を確認します。"
         ]
       },
       "lab-chat-app": {
-        "note": "2026年後半公開予定",
         "intro": [
           "Node.jsのWebSocketを使ってリアルタイムのマルチクライアントチャットサーバーの構築を練習してください。"
         ]
       },
       "security-and-privacy": {
-        "note": "2026年後半公開予定",
         "intro": [
           "このモジュールでは、セキュリティとプライバシーの違い、CSP、Permissions-Policies、PII、CORSの扱いなどの概念について学びます。その後、短いクイズで知識を確認します。"
         ]
       },
       "authentication": {
-        "note": "2026年後半公開予定",
         "intro": [
           "このモジュールでは、ウェブアプリケーションの認証の仕組みやJWT、CSRF、Passport、Helmet、暗号化と暗号技術などの重要な概念について学びます。その後、ラボやワークショップで実践し、短いクイズで知識を確認します。"
         ]
       },
       "lab-family-movie-watchlist-api": {
-        "note": "2026年後半公開予定",
         "intro": [
           "家族用映画ウォッチリストAPIを作成して、Expressアプリケーションでの認証と認可の実装を練習してください。"
         ]
       },
       "back-end-development-and-apis-certification-exam": {
-        "note": "2026年後半公開予定",
         "intro": [
           "この試験に合格してバックエンド開発とAPI認定を取得しましょう。"
         ]
       },
       "review-back-end-development-and-apis": {
-        "note": "2026年後半公開予定",
         "intro": [
           "今後の試験に備えてバックエンド開発とAPIの概念を復習しましょう。"
         ]
@@ -7302,7 +7291,7 @@
     },
     "blocks": {
       "lecture-working-with-nodejs-and-event-driven-architecture": {
-        "title": "NodeJSとイベント駆動アーキテクチャの活用",
+        "title": "Node.jsとイベント駆動アーキテクチャの活用",
         "intro": [
           "Node.jsのコアライブラリ、コンピューターへのNode.jsのインストール方法、バックエンドでNode.jsを使う利点と欠点について学びます。"
         ]
@@ -7416,24 +7405,6 @@
           ""
         ]
       },
-      "lecture-understanding-rest-api-and-web-services": {
-        "title": "REST APIとウェブサービスの理解",
-        "intro": [
-          "このレッスンでは、REST APIとウェブサービスについて学び、異なるアプリケーションがインターネットを介してどのように通信するかを理解します。"
-        ]
-      },
-      "workshop-build-a-weather-service-api": {
-        "title": "天気サービスAPIを作る",
-        "intro": [
-          "<code>express.Router</code> を使ったルートパラメータとモジュラー型ルーティングを学びながら天気サービスAPIを作ります。"
-        ]
-      },
-      "lab-timestamp-microservice": {
-        "title": "タイムスタンプマイクロサービスを作る",
-        "intro": [
-          "日付解析ロジックを使ったRESTful APIを作る練習として、タイムスタンプマイクロサービスを作成します。"
-        ]
-      },
       "lecture-working-with-express": {
         "title": "Expressの使い方",
         "intro": [
@@ -7453,16 +7424,10 @@
           "ランダムジョークアプリを作りながら、基本的なExpressルーティングとレスポンスメソッドを学びます。"
         ]
       },
-      "lab-personal-profile-app": {
-        "title": "個人プロフィールアプリを作る",
-        "intro": [
-          "ExpressサーバーとJSON APIを作る練習として、個人プロフィールアプリケーションを作成します。"
-        ]
-      },
       "review-introduction-to-express": {
         "title": "Express入門の復習",
         "intro": [
-          "クイズを受ける前に、ウェブサービス、REST、マイクロサービス、Express.jsのルーティングを復習しましょう。"
+          "クイズに挑戦する前に、Express.js、ルーティング、レスポンスメソッド、静的ファイルの提供を復習しましょう。"
         ]
       },
       "quiz-introduction-to-express": {
@@ -7471,28 +7436,10 @@
           "ウェブサービス、REST、マイクロサービス、Express.js、ルーティングの知識をテストしましょう。"
         ]
       },
-      "lecture-understanding-error-handling-and-health-checks": {
-        "title": "エラーハンドリングとヘルスチェックの理解",
+      "lab-personal-profile-app": {
+        "title": "個人プロフィールアプリを作る",
         "intro": [
-          "このレッスンでは、Expressにおけるエラーハンドリングとヘルスチェックについて学びます。"
-        ]
-      },
-      "workshop-build-a-bank-api": {
-        "title": "銀行APIを作る",
-        "intro": [
-          "銀行APIを作りながら、Express 5のエラーハンドリング、ヘルスチェック、グレースフルシャットダウンを学びます。"
-        ]
-      },
-      "review-error-handling-in-express": {
-        "title": "Expressのエラーハンドリング復習",
-        "intro": [
-          "クイズを受ける前に、HTTPステータスコード、エラーハンドリング、デバッグ、ログ記録、ヘルスチェック、グレースフルシャットダウンを復習しましょう。"
-        ]
-      },
-      "quiz-error-handling-in-express": {
-        "title": "Expressのエラーハンドリングクイズ",
-        "intro": [
-          "HTTPステータスコード、エラーハンドリング、デバッグ、ログ記録、ヘルスチェック、グレースフルシャットダウンの知識をテストしましょう。"
+          "ExpressサーバーとJSON APIを作る練習として、個人プロフィールアプリケーションを作成します。"
         ]
       },
       "lecture-express-middleware": {
@@ -7523,6 +7470,54 @@
         "title": "Expressミドルウェアクイズ",
         "intro": [
           "Expressのミドルウェア、アプリケーションレベル、ルーターレベル、エラーハンドリング、組み込みおよびサードパーティのミドルウェアの知識をテストしましょう。"
+        ]
+      },
+      "lecture-understanding-rest-api-and-web-services": {
+        "title": "REST APIとウェブサービスの理解",
+        "intro": [
+          "このレッスンでは、REST APIとウェブサービスについて学び、異なるアプリケーションがインターネットを介してどのように通信するかを理解します。"
+        ]
+      },
+      "workshop-build-a-weather-service-api": {
+        "title": "天気サービスAPIを作る",
+        "intro": [
+          "<code>express.Router</code> を使ったルートパラメータとモジュラー型ルーティングを学びながら天気サービスAPIを作ります。"
+        ]
+      },
+      "review-rest-api-and-web-services": {
+        "title": "REST APIとウェブサービスの復習",
+        "intro": [
+          "ウェブサービス、RESTアーキテクチャ、HTTPステータスコード、マイクロサービスを復習します。"
+        ]
+      },
+      "lab-timestamp-microservice": {
+        "title": "タイムスタンプマイクロサービスを作る",
+        "intro": [
+          "日付解析ロジックを使ったRESTful APIを作る練習として、タイムスタンプマイクロサービスを作成します。"
+        ]
+      },
+      "lecture-understanding-error-handling-and-health-checks": {
+        "title": "エラーハンドリングとヘルスチェックの理解",
+        "intro": [
+          "このレッスンでは、Expressにおけるエラーハンドリングとヘルスチェックについて学びます。"
+        ]
+      },
+      "workshop-build-a-bank-api": {
+        "title": "銀行APIを作る",
+        "intro": [
+          "銀行APIを作りながら、Express 5のエラーハンドリング、ヘルスチェック、グレースフルシャットダウンを学びます。"
+        ]
+      },
+      "review-error-handling-in-express": {
+        "title": "Expressのエラーハンドリング復習",
+        "intro": [
+          "クイズを受ける前に、HTTPステータスコード、エラーハンドリング、デバッグ、ログ記録、ヘルスチェック、グレースフルシャットダウンを復習しましょう。"
+        ]
+      },
+      "quiz-error-handling-in-express": {
+        "title": "Expressのエラーハンドリングクイズ",
+        "intro": [
+          "HTTPステータスコード、エラーハンドリング、デバッグ、ログ記録、ヘルスチェック、グレースフルシャットダウンの知識をテストしましょう。"
         ]
       },
       "lecture-understanding-websockets": {
@@ -8427,7 +8422,7 @@
         "title": "カフェメニューをデザインする",
         "intro": [
           "CSSはブラウザーにウェブページの表示方法を指示します。色、フォント、サイズなどHTML要素の様々なスタイルを設定できます。",
-          "このワークショップでは、カフェのウェブページ用メニューページをデザインしながらCSSを学びます。"
+          "このワークショップでは、カフェのメニューページをデザインしながらCSSを学びます。"
         ]
       },
       "lab-business-card": {
@@ -9695,7 +9690,7 @@
         "title": "カフェメニューをデザインする",
         "intro": [
           "CSSはブラウザにウェブページの表示方法を指示します。CSSを使ってHTML要素の色、フォント、サイズなどを設定できます。",
-          "このワークショップでは、カフェのウェブページのメニューページをデザインしながらCSSを学びます。"
+          "このワークショップでは、カフェのメニューページをデザインしながらCSSを学びます。"
         ]
       },
       "lab-business-card": {

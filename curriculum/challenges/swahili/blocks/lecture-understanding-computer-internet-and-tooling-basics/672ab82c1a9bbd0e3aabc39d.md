@@ -7,11 +7,11 @@ dashedName: how-to-effectively-work-with-your-keyboard-mouse-and-other-pointing-
 
 # --description--
 
-Wengi wenu mmezoea kufanya kazi na kibodi na panya kwa miaka mingi kwa shughuli mbalimbali kama michezo, kutekeleza kazi za ofisini, au kuvinjari mtandao.
+Wengi wenu mmekuwa mkifanya kazi na kibodi na panya kwa miaka mingi kwa shughuli mbalimbali kama michezo ya kubahatisha, kutekeleza majukumu ya kazi, au kuvinjari mtandao.
 
 Lakini matumizi mabaya ya muda mrefu ya vifaa hivi yanaweza kusababisha matatizo makubwa ya kiafya baadaye.
 
-Katika funzo hili, tutazungumzia njia za kufanya kazi na kibodi na panya ya kompyuta yako kwa njia za kiafya.
+Katika funzo hili, tutajadili njia za kutumia kibodi na panya ya kompyuta yako kwa njia za kiafya.
 
 Ushauri wa kwanza ni kuwa makini na jinsi unavyoshika panya. Unapofanya kazi za muhimu za ofisini au wakati wa michezo yenye msisimko mkubwa, unaweza kushika panya kwa nguvu sana. Hata hivyo, hili linaweza kusababisha matatizo makubwa ya mkono na kifundo cha mkono. Ili kuzuia hili, unapaswa kushika panya kwa upole na kuweka vidole vyako katika hali tulivu.
 
@@ -25,7 +25,7 @@ Pia unapaswa kuwa makini na mkao wako kwa ujumla unapo kaa mbele ya kompyuta kwa
 
 Ingawa kudumisha mkao mzuri ni muhimu, ergonomics ya kisasa inasisitiza umuhimu wa mwendo na kukaa kwa mabadiliko. Mwili wa binadamu umeundwa kwa ajili ya mwendo, na kukaa katika mkao wowote wa kudumu, hata mkao wa moja kwa moja, kwa muda mrefu kunaweza kuweka shinikizo endelevu kwenye mgongo. Kuchukua mapumziko ya mara kwa mara, kubadilisha mkao wako siku nzima, na kudumisha mkao wa asili wa kifundo cha mkono kunaweza kusaidia kuboresha mzunguko wa damu, kupunguza uchovu, na kuunga mkono afya ya mgongo kwa muda mrefu.
 
-Ushauri wa mwisho ni kutumia njia za mkato za kibodi inapowezekana kusaidia kupunguza kuandika. Kuna njia nyingi za mkato zinazopatikana kwa kazi kama kuvinjari mtandao, kuvinjari mfumo wako wa uendeshaji, kufanya kazi ndani ya mhariri wa msimbo, na zaidi. Kwa hivyo, ni vyema kufanya utafiti kuhusu baadhi ya njia hizi za mkato za kibodi na kuanza kuzitumia katika matumizi yako ya kila siku ya kompyuta.
+Ushauri wa mwisho ni kutumia njia za mkato za kibodi pale inapowezekana ili kupunguza kufikia panya. Kuna njia nyingi za mkato zinazopatikana kwa kazi kama kuvinjari mtandao, kuvinjari mfumo wako wa uendeshaji, kufanya kazi ndani ya mhariri wa msimbo, na zaidi. Kwa hivyo, ni vyema kufanya utafiti kuhusu baadhi ya njia hizi za mkato za kibodi na kuanza kuzitumia katika matumizi yako ya kila siku ya kompyuta.
 
 Unapoendelea kutumia panya na kibodi yako kwa miradi ya uandishi wa msimbo na shughuli nyingine zijazo, kumbuka kuweka haya maelekezo ya kiafya akilini.
 
@@ -109,7 +109,7 @@ Ni ushauri gani kuhusu urefu wa panya yako ikilinganishwa na kibodi?
 
 ## --answers--
 
-Panya inapaswa kuwa juu sana kuliko kibodi.
+Urefu wa panya hauna umuhimu.
 
 ### --feedback--
 

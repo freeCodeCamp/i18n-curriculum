@@ -558,6 +558,12 @@
     "running-tests": "// 테스트 실행 중",
     "tests-completed": "// 테스트 완료",
     "console-output": "// 콘솔 출력",
+    "unavailable-local-resource": "리소스를 불러오지 못했습니다: \"{{source}}\"는 사용 가능한 로컬 {{resourceType}} 파일이 아닙니다. 사용 가능한 소스: {{allowedSources}}.",
+    "unavailable-local-resource-no-allowed": "리소스를 불러오지 못했습니다: \"{{source}}\"는 이 도전 과제에서 사용 가능한 로컬 {{resourceType}} 파일이 아닙니다.",
+    "local-resource-type": {
+      "stylesheet": "스타일시트",
+      "script": "스크립트"
+    },
     "example-app": "<0>이 예제 프로젝트</0>와 기능적으로 유사한 앱을 만드세요. 예제 프로젝트를 복사하지 말고 자신만의 스타일을 적용해 보세요.",
     "syntax-error": "테스트를 실행하기 전에 코드에서 오류가 발생했습니다. 수정 후 다시 시도하세요.",
     "indentation-error": "코드에 들여쓰기 오류가 있습니다. 유효한 코드 블록을 만들려면 새 줄에 <code>pass</code>를 추가해야 할 수 있습니다.",
@@ -656,25 +662,6 @@
       "sub-step-7": "<0>비밀 추가</0> 버튼을 클릭하세요",
       "summary": "Codespaces 설정"
     },
-    "ona": {
-      "intro": "이 과정은 Ona를 사용하는 가상 Linux 머신에서 실행됩니다. 과정을 시작하려면 다음 지침을 따르세요:",
-      "step-1": "<0>Ona 계정 만들기</0>가 없으면 만드세요",
-      "step-2": "아래 시작 버튼을 클릭하세요",
-      "step-3": "팝업 모달에서 생성 버튼을 클릭하세요",
-      "step-4": "가상 Linux 머신이 로드되면 다음 방법으로 CodeRoad 확장 기능을 시작하세요:",
-      "step-5": "VSCode 창 왼쪽 상단 근처의 \"햄버거\" 메뉴를 클릭하세요,",
-      "step-6": "<0>보기</0> 메뉴로 이동하세요,",
-      "step-7": "<0>명령 팔레트</0> 옵션을 클릭하세요,",
-      "step-8": "<0>CodeRoad: 시작</0> 명령을 실행하세요",
-      "step-9": "CodeRoad의 지침을 따라 과정을 완료하세요",
-      "continue-project": "아래 시작 버튼을 클릭하면 새 프로젝트가 시작됩니다. 이전에 {{course}} 과정을 시작했다면 <0>Ona 대시보드</0>로 가서 계속하세요.",
-      "learn-more": "<0>Ona 작업 공간</0>에 대해 더 알아보세요.",
-      "logout-warning": "전체 {{course}} 과정을 완료하기 전에 freeCodeCamp에서 로그아웃하면 진행 상황이 freeCodeCamp 계정에 저장되지 않습니다.",
-      "sub-step-3": "<0>Ona 비밀 페이지</0>로 이동하세요",
-      "sub-step-4": "<0>CODEROAD_WEBHOOK_TOKEN</0>이라는 새 비밀을 만드세요",
-      "sub-step-5": "<0>비밀</0> 필드에 토큰을 붙여넣으세요",
-      "summary": "Ona 설정"
-    },
     "freecodecamp-os": {
       "token-modal": "과정을 실행하면 사용자 토큰을 묻는 모달이 나타납니다. 위에서 복사한 토큰을 붙여넣으세요. 환경별로 한 번만 하면 됩니다.",
       "local": {
@@ -697,16 +684,6 @@
         "step-5": "완료되면 Simple Browser가 열립니다. 빈 흰색 페이지가 나오면 새로 고침 버튼을 눌러 업데이트하고 과정 홈 페이지를 확인하세요.",
         "step-6": "사용 가능한 프로젝트 중 하나를 클릭해 시작한 뒤, 프로젝트 내 지침을 따라 완료하세요.",
         "continue-project": "아래 시작 버튼을 클릭하면 새 머신이 시작됩니다. 이전에 {{title}} 과정을 시작했다면 <0>저장소 페이지</0>로 가서 이전 작업 공간을 다시 여세요."
-      },
-      "ona": {
-        "intro": "이 과정은 Ona와 freeCodeCamp - Courses VS Code 확장 프로그램을 사용해 가상 Linux 머신에서 실행됩니다. 과정을 시작하려면 다음 지침을 따르세요:",
-        "step-1": "<0>Ona 계정을 만드세요</0> 없으면",
-        "step-2": "아래 시작 버튼을 클릭하세요",
-        "step-3": "팝업 모달에서 생성 버튼을 클릭하세요",
-        "step-4": "가상 Linux 머신이 로드되면 명령 팔레트를 열고 <0>freeCodeCamp: Run Course</0> 명령을 실행하세요",
-        "step-5": "완료되면 Simple Browser가 열립니다. 빈 흰색 페이지가 나오면 새로 고침 버튼을 눌러 업데이트하고 과정 홈 페이지를 확인하세요.",
-        "step-6": "사용 가능한 프로젝트 중 하나를 클릭해 시작한 뒤, 프로젝트 내 지침을 따라 완료하세요.",
-        "continue-project": "아래 시작 버튼을 클릭하면 새 머신이 시작됩니다. 이전에 {{course}} 과정을 시작했다면 <0>Ona 대시보드</0>로 가서 계속하세요."
       }
     },
     "local": {

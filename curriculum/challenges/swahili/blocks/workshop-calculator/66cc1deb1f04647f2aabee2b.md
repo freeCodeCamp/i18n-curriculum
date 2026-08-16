@@ -20,8 +20,8 @@ Kama ni hivyo, kitendakazi kinapaswa kurudisha mfuatano wa herufi `"Error: Divis
 Kitendakazi chako cha `calculateQuotient` kinapaswa kurudisha mfuatano wa herufi `"Error: Division by zero"` ikiwa `num2` ni sifuri.
 
 ```js
-assert.strictEqual(calculateQuotient(10, 0), 'Error: Division by zero');
-assert.strictEqual(calculateQuotient(3, 0), 'Error: Division by zero');
+assert.strictEqual(calculateQuotient(10, 0), "Error: Division by zero");
+assert.strictEqual(calculateQuotient(3, 0), "Error: Division by zero");
 ```
 
 Kitendakazi chako cha `calculateQuotient` kinapaswa kurudisha matokeo ya kugawanya `num1` kwa `num2` ikiwa `num2` si sifuri.

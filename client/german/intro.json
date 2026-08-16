@@ -1352,12 +1352,6 @@
           "In diesem 140-Lektionen-Workshop vervollständigen Sie Ihre Studentendatenbank und vertiefen Ihre Kenntnisse in SQL-Befehlen."
         ]
       },
-      "lab-world-cup-database": {
-        "title": "Erstellen einer Weltcup-Datenbank",
-        "intro": [
-          "Für dieses Projekt erstellen Sie ein Bash-Skript, das Informationen von Weltcup-Spielen in PostgreSQL eingibt und dann die Datenbank nach nützlichen Statistiken abfragt."
-        ]
-      },
       "workshop-kitty-ipsum-translator": {
         "title": "Erstellen eines Kitty-Ipsum-Übersetzers",
         "intro": [
@@ -1369,6 +1363,12 @@
         "title": "Erstellen eines Fahrradverleihshops",
         "intro": [
           "In diesem 210-Lektionen-Workshop erstellen Sie ein interaktives Bash-Programm, das Mietinformationen für Ihren Fahrradverleihshop mit PostgreSQL speichert."
+        ]
+      },
+      "lab-world-cup-database": {
+        "title": "Erstellen einer Weltcup-Datenbank",
+        "intro": [
+          "Für dieses Projekt erstellen Sie ein Bash-Skript, das Informationen von Weltcup-Spielen in PostgreSQL eingibt und dann die Datenbank nach nützlichen Statistiken abfragt."
         ]
       },
       "lab-salon-appointment-scheduler": {
@@ -2669,6 +2669,13 @@
           "Sie üben bedingte Anweisungen, um die Note eines Schülers basierend auf seiner Punktzahl zu bestimmen."
         ]
       },
+      "lab-story-fragment-restoration": {
+        "title": "Stellen Sie eine zusammenhängende Erzählung aus einem Array von Storyfragmenten wieder her",
+        "intro": [
+          "In diesem Workshop stellen Sie eine zusammenhängende Erzählung aus einem beschädigten Array von Storyfragmenten wieder her.",
+          "Sie üben den Umgang mit Schleifen, indem Sie grundlegende Array-Algorithmen von Grund auf implementieren."
+        ]
+      },
       "lecture-the-var-keyword-and-hoisting": {
         "title": "Das var-Schlüsselwort und Hoisting",
         "intro": [
@@ -3774,16 +3781,16 @@
           "Lernen Sie das CSS-Box-Modell mit diesem Kurs. Verstehen Sie, wie Elemente im Web gerendert werden, und lernen Sie, Abstände, Rahmen und Innenabstände zu manipulieren, um Ihr gewünschtes Layout und Design zu erreichen."
         ]
       },
-      "top-introduction-to-flexbox": {
-        "title": "Einführung in Flexbox",
-        "intro": [
-          "Entdecken Sie die Kraft von Flexbox, einem Layout-Modell, das das Design flexibler und responsiver Weblayouts vereinfacht. Lernen Sie, dynamische und adaptive Seitenstrukturen mühelos zu erstellen."
-        ]
-      },
       "top-learn-block-and-inline": {
         "title": "Den Unterschied zwischen Block und Inline lernen",
         "intro": [
           "Erkunden Sie die Unterschiede zwischen Block- und Inline-Elementen in HTML und CSS. Dieser Kurs bietet Einblicke, wie diese Anzeigearten Layout und Verhalten beeinflussen, sodass Sie fundierte Designentscheidungen treffen können."
+        ]
+      },
+      "top-introduction-to-flexbox": {
+        "title": "Einführung in Flexbox",
+        "intro": [
+          "Entdecken Sie die Kraft von Flexbox, einem Layout-Modell, das das Design flexibler und responsiver Weblayouts vereinfacht. Lernen Sie, dynamische und adaptive Seitenstrukturen mühelos zu erstellen."
         ]
       },
       "top-learn-variables-and-operators": {
@@ -6287,12 +6294,6 @@
           "Sie üben den Umgang mit Tailwind CSS Utility-Klassen für Flexbox-Layouts, Farben, Breakpoints und mehr."
         ]
       },
-      "lab-photography-exhibit": {
-        "title": "Gestalten Sie eine Fotografie-Ausstellung",
-        "intro": [
-          "In diesem Labor üben Sie den Umgang mit Tailwind CSS, indem Sie eine Webseite für eine Fotografie-Ausstellung gestalten."
-        ]
-      },
       "review-css-libraries-and-frameworks": {
         "title": "Überblick über CSS-Bibliotheken und Frameworks",
         "intro": [
@@ -6304,6 +6305,12 @@
         "title": "Quiz zu CSS-Bibliotheken und Frameworks",
         "intro": [
           "Testen Sie Ihr Wissen über CSS-Bibliotheken und Frameworks mit diesem Quiz."
+        ]
+      },
+      "lab-photography-exhibit": {
+        "title": "Gestalten Sie eine Fotografie-Ausstellung",
+        "intro": [
+          "In diesem Labor üben Sie den Umgang mit Tailwind CSS, indem Sie eine Webseite für eine Fotografie-Ausstellung gestalten."
         ]
       },
       "lecture-introduction-to-typescript": {
@@ -6372,18 +6379,6 @@
           "In diesem Workshop üben Sie weiterhin den Umgang mit TypeScript, indem Sie eine Wahrsage-App erstellen."
         ]
       },
-      "lab-flashcard-quiz-app": {
-        "title": "Erstellen Sie eine Lernkarten-Quiz-App",
-        "intro": [
-          "In diesem Labor üben Sie die Verwendung von TypeScript, indem Sie eine Lernkarten-Quiz-App erstellen."
-        ]
-      },
-      "lab-digital-pet-game": {
-        "title": "Erstellen Sie ein digitales Haustierspiel",
-        "intro": [
-          "In diesem Labor wenden Sie Ihr Wissen über TypeScript und React an, indem Sie ein digitales Haustierspiel erstellen."
-        ]
-      },
       "workshop-build-a-football-player-card-builder": {
         "title": "Erstellen Sie einen Fußballspieler-Karten-Generator",
         "intro": [
@@ -6400,6 +6395,18 @@
       "quiz-typescript": {
         "title": "TypeScript-Quiz",
         "intro": ["Testen Sie Ihr Wissen über TypeScript mit diesem Quiz."]
+      },
+      "lab-flashcard-quiz-app": {
+        "title": "Erstellen Sie eine Lernkarten-Quiz-App",
+        "intro": [
+          "In diesem Labor üben Sie die Verwendung von TypeScript, indem Sie eine Lernkarten-Quiz-App erstellen."
+        ]
+      },
+      "lab-digital-pet-game": {
+        "title": "Erstellen Sie ein digitales Haustierspiel",
+        "intro": [
+          "In diesem Labor wenden Sie Ihr Wissen über TypeScript und React an, indem Sie ein digitales Haustierspiel erstellen."
+        ]
       },
       "review-front-end-libraries": {
         "title": "Überblick über Front-End-Bibliotheken",
@@ -7176,12 +7183,12 @@
       "node-package-manager": "Node Package Manager",
       "lab-prime-number-checker-module": "Erstellen Sie ein Modul zum Prüfen von Primzahlen",
       "http-and-the-web-standards-model": "HTTP und das Web-Standards-Modell",
-      "rest-api-and-web-services": "REST API und Webservices",
-      "lab-timestamp-microservice": "Erstellen Sie einen Zeitstempel-Mikroservice",
       "introduction-to-express": "Einführung in Express",
       "lab-personal-profile-app": "Erstellen Sie eine persönliche Profil-Anwendung",
-      "error-handling-in-express": "Fehlerbehandlung in Express",
       "express-middleware": "Express-Middleware",
+      "rest-api-and-web-services": "REST API und Webservices",
+      "lab-timestamp-microservice": "Erstellen Sie einen Zeitstempel-Mikroservice",
+      "error-handling-in-express": "Fehlerbehandlung in Express",
       "websockets": "WebSockets",
       "lab-chat-app": "Erstellen Sie eine Chat-Anwendung",
       "security-and-privacy": "Sicherheit und Datenschutz",
@@ -7192,109 +7199,91 @@
     },
     "module-intros": {
       "introduction-to-nodejs": {
-        "note": "Verfügbar Ende 2026",
         "intro": [
           "In diesem Modul lernen Sie die Grundlagen der Arbeit mit Node.js."
         ]
       },
       "nodejs-core-modules": {
-        "note": "Verfügbar Ende 2026",
         "intro": [
           "In diesem Modul lernen Sie gängige Node.js-Kernmodule wie fs, os, path und weitere kennen. Anschließend üben Sie das Gelernte in Workshops und Laboren und testen Ihr Wissen mit einem kurzen Quiz."
         ]
       },
       "node-package-manager": {
-        "note": "Verfügbar Ende 2026",
         "intro": [
           "In diesem Modul lernen Sie den Node Package Manager kennen, mit dem Entwickler Projektabhängigkeiten und Skripte verwalten. Danach üben Sie das Gelernte in Workshops und Laboren und testen Ihr Wissen mit einem kurzen Quiz."
         ]
       },
       "lab-prime-number-checker-module": {
-        "note": "Verfügbar Ende 2026",
         "intro": [
           "Üben Sie das Erstellen und Exportieren eines npm-Moduls, indem Sie einen Primzahlprüfer erstellen."
         ]
       },
       "http-and-the-web-standards-model": {
-        "note": "Verfügbar Ende 2026",
         "intro": [
           "In diesem Modul lernen Sie HTTP (Hypertext Transfer Protocol) und weitere wichtige Konzepte wie das Anfrage-Antwort-Modell, gängige Antwortcodes, DNS, TCP/IP und mehr kennen. Anschließend bauen Sie in einem Workshop Ihren eigenen Webserver und testen Ihr Wissen mit einem kurzen Quiz."
         ]
       },
-      "rest-api-and-web-services": {
-        "note": "Verfügbar Ende 2026",
-        "intro": [
-          "In diesem Modul lernen Sie die REST API (Representational State Transfer Application Programming Interface) und die Funktionsweise von Microservices kennen. Danach absolvieren Sie ein kurzes Quiz zur Wissensüberprüfung."
-        ]
-      },
-      "lab-timestamp-microservice": {
-        "note": "Verfügbar Ende 2026",
-        "intro": [
-          "Üben Sie das Erstellen einer RESTful-API mit Datumsanalyse, indem Sie einen Zeitstempel-Mikroservice erstellen."
-        ]
-      },
       "introduction-to-express": {
-        "note": "Verfügbar Ende 2026",
         "intro": [
           "In diesem Modul lernen Sie Express.js kennen, ein Framework zum Erstellen von RESTful APIs. Anschließend üben Sie Ihre Fähigkeiten in Workshops und Laboren und testen Ihr Wissen mit einem kurzen Quiz."
         ]
       },
       "lab-personal-profile-app": {
-        "note": "Verfügbar Ende 2026",
         "intro": [
           "Üben Sie das Erstellen eines Express-Servers und einer JSON-API, indem Sie eine persönliche Profil-Anwendung erstellen."
         ]
       },
-      "error-handling-in-express": {
-        "note": "Verfügbar Ende 2026",
-        "intro": [
-          "In diesem Modul lernen Sie, wie Fehlerbehandlung, Debugging und Gesundheitschecks in Express.js funktionieren. Danach üben Sie das Gelernte in einem Labor und testen Ihr Wissen mit einem kurzen Quiz."
-        ]
-      },
       "express-middleware": {
-        "note": "Verfügbar Ende 2026",
         "intro": [
           "In diesem Modul lernen Sie Middleware in Express.js kennen, die Anfragen und Antworten zwischen Client und Server verarbeitet. Anschließend üben Sie Ihre Fähigkeiten in einem Workshop und Labor und testen Ihr Wissen mit einem kurzen Quiz."
         ]
       },
+      "rest-api-and-web-services": {
+        "intro": [
+          "In diesem Modul lernen Sie die REST API (Representational State Transfer Application Programming Interface) und die Funktionsweise von Microservices kennen. Danach absolvieren Sie ein kurzes Quiz zur Wissensüberprüfung."
+        ]
+      },
+      "lab-timestamp-microservice": {
+        "intro": [
+          "Üben Sie das Erstellen einer RESTful-API mit Datumsanalyse, indem Sie einen Zeitstempel-Mikroservice erstellen."
+        ]
+      },
+      "error-handling-in-express": {
+        "intro": [
+          "In diesem Modul lernen Sie, wie Fehlerbehandlung, Debugging und Gesundheitschecks in Express.js funktionieren. Danach üben Sie das Gelernte in einem Labor und testen Ihr Wissen mit einem kurzen Quiz."
+        ]
+      },
       "websockets": {
-        "note": "Verfügbar Ende 2026",
         "intro": [
           "In diesem Modul lernen Sie WebSockets kennen, ein Protokoll für die Echtzeitkommunikation zwischen Client und Server. Danach üben Sie das Gelernte in Laboren und Workshops und testen Ihr Wissen mit einem kurzen Quiz."
         ]
       },
       "lab-chat-app": {
-        "note": "Verfügbar Ende 2026",
         "intro": [
           "Üben Sie das Erstellen eines Echtzeit-Chatservers mit mehreren Clients unter Verwendung von Node.js-WebSockets."
         ]
       },
       "security-and-privacy": {
-        "note": "Verfügbar Ende 2026",
         "intro": [
           "In diesem Modul lernen Sie die Unterschiede zwischen Sicherheit und Datenschutz sowie weitere Konzepte wie CSPs, Permissions-Policies, PII, den Umgang mit CORS und mehr kennen. Anschließend absolvieren Sie ein kurzes Quiz zur Wissensüberprüfung."
         ]
       },
       "authentication": {
-        "note": "Verfügbar Ende 2026",
         "intro": [
           "In diesem Modul lernen Sie, wie Authentifizierung in Webanwendungen funktioniert, sowie weitere wichtige Konzepte wie JWTs, CSRFs, Passport, Helmet, Kryptografie und Verschlüsselung. Danach üben Sie das Gelernte in Laboren und Workshops und testen Ihr Wissen mit einem kurzen Quiz."
         ]
       },
       "lab-family-movie-watchlist-api": {
-        "note": "Verfügbar Ende 2026",
         "intro": [
           "Üben Sie die Implementierung von Authentifizierung und Autorisierung in einer Express-Anwendung, indem Sie eine API für eine Familien-Film-Watchlist erstellen."
         ]
       },
       "back-end-development-and-apis-certification-exam": {
-        "note": "Verfügbar Ende 2026",
         "intro": [
           "Bestehen Sie diese Prüfung, um Ihre Zertifizierung für Back-End-Entwicklung und APIs zu erhalten."
         ]
       },
       "review-back-end-development-and-apis": {
-        "note": "Verfügbar Ende 2026",
         "intro": [
           "Überprüfen Sie Konzepte der Back-End-Entwicklung und APIs, um sich auf die bevorstehende Prüfung vorzubereiten."
         ]
@@ -7302,7 +7291,7 @@
     },
     "blocks": {
       "lecture-working-with-nodejs-and-event-driven-architecture": {
-        "title": "Arbeiten mit NodeJS und ereignisgesteuerter Architektur",
+        "title": "Arbeiten mit Node.js und ereignisgesteuerter Architektur",
         "intro": [
           "Lernen Sie die Node.js-Kernbibliotheken kennen, wie Sie Node.js auf Ihrem Computer installieren und welche Vor- und Nachteile die Verwendung von Node.js im Back-End hat."
         ]
@@ -7416,24 +7405,6 @@
           ""
         ]
       },
-      "lecture-understanding-rest-api-and-web-services": {
-        "title": "Verstehen der REST-API und Webservices",
-        "intro": [
-          "In diesen Lektionen lernen Sie REST-APIs und Webservices kennen und wie sie verschiedenen Anwendungen ermöglichen, über das Internet miteinander zu kommunizieren."
-        ]
-      },
-      "workshop-build-a-weather-service-api": {
-        "title": "Erstellen Sie eine Wetterdienst-API",
-        "intro": [
-          "Sie lernen Routenparameter und modulare Routen mit <code>express.Router</code> kennen, indem Sie eine Wetterdienst-API erstellen."
-        ]
-      },
-      "lab-timestamp-microservice": {
-        "title": "Erstellen Sie einen Timestamp-Mikroservice",
-        "intro": [
-          "Üben Sie den Aufbau einer RESTful-API mit Datumsparselogik, indem Sie einen Timestamp-Mikroservice erstellen."
-        ]
-      },
       "lecture-working-with-express": {
         "title": "Arbeiten mit Express",
         "intro": [
@@ -7453,16 +7424,10 @@
           "Sie lernen grundlegendes Express-Routing und Antwortmethoden kennen, indem Sie eine App für zufällige Witze erstellen."
         ]
       },
-      "lab-personal-profile-app": {
-        "title": "Erstellen Sie eine persönliche Profil-App",
-        "intro": [
-          "Üben Sie den Aufbau eines Express-Servers und einer JSON-API, indem Sie eine persönliche Profilanwendung erstellen."
-        ]
-      },
       "review-introduction-to-express": {
         "title": "Überprüfung der Einführung in Express",
         "intro": [
-          "Überprüfen Sie Webservices, REST, Mikroservices und Express.js-Routing, bevor Sie das Quiz machen."
+          "Überprüfen Sie Express.js, Routing, Antwortmethoden und das Bereitstellen statischer Dateien, bevor Sie das Quiz absolvieren."
         ]
       },
       "quiz-introduction-to-express": {
@@ -7471,28 +7436,10 @@
           "Testen Sie Ihr Wissen über Webservices, REST, Mikroservices, Express.js und Routing."
         ]
       },
-      "lecture-understanding-error-handling-and-health-checks": {
-        "title": "Verstehen von Fehlerbehandlung und Gesundheitschecks",
+      "lab-personal-profile-app": {
+        "title": "Erstellen Sie eine persönliche Profil-App",
         "intro": [
-          "In diesen Lektionen lernen Sie Fehlerbehandlung und Gesundheitschecks in Express kennen."
-        ]
-      },
-      "workshop-build-a-bank-api": {
-        "title": "Erstellen Sie eine Bank-API",
-        "intro": [
-          "Sie lernen Express 5 Fehlerbehandlung, Gesundheitschecks und sauberes Herunterfahren kennen, indem Sie eine Bank-API erstellen."
-        ]
-      },
-      "review-error-handling-in-express": {
-        "title": "Überprüfung der Fehlerbehandlung in Express",
-        "intro": [
-          "Überprüfen Sie HTTP-Statuscodes, Fehlerbehandlung, Debugging, Protokollierung, Gesundheitschecks und sanfte Abschaltungen, bevor Sie das Quiz machen."
-        ]
-      },
-      "quiz-error-handling-in-express": {
-        "title": "Quiz zur Fehlerbehandlung in Express",
-        "intro": [
-          "Testen Sie Ihr Wissen über HTTP-Statuscodes, Fehlerbehandlung, Debugging, Protokollierung, Gesundheitschecks und sanfte Abschaltungen."
+          "Üben Sie den Aufbau eines Express-Servers und einer JSON-API, indem Sie eine persönliche Profilanwendung erstellen."
         ]
       },
       "lecture-express-middleware": {
@@ -7523,6 +7470,54 @@
         "title": "Quiz zur Express-Middleware",
         "intro": [
           "Testen Sie Ihr Wissen über Express-Middleware, einschließlich Middleware auf Anwendungs- und Router-Ebene, Fehlerbehandlung sowie eingebaute und Drittanbieter-Middleware."
+        ]
+      },
+      "lecture-understanding-rest-api-and-web-services": {
+        "title": "Verstehen der REST-API und Webservices",
+        "intro": [
+          "In diesen Lektionen lernen Sie REST-APIs und Webservices kennen und wie sie verschiedenen Anwendungen ermöglichen, über das Internet miteinander zu kommunizieren."
+        ]
+      },
+      "workshop-build-a-weather-service-api": {
+        "title": "Erstellen Sie eine Wetterdienst-API",
+        "intro": [
+          "Sie lernen Routenparameter und modulare Routen mit <code>express.Router</code> kennen, indem Sie eine Wetterdienst-API erstellen."
+        ]
+      },
+      "review-rest-api-and-web-services": {
+        "title": "Überprüfung von REST-API und Webservices",
+        "intro": [
+          "Überprüfen Sie Webservices, die REST-Architektur, HTTP-Statuscodes und Microservices."
+        ]
+      },
+      "lab-timestamp-microservice": {
+        "title": "Erstellen Sie einen Timestamp-Mikroservice",
+        "intro": [
+          "Üben Sie den Aufbau einer RESTful-API mit Datumsparselogik, indem Sie einen Timestamp-Mikroservice erstellen."
+        ]
+      },
+      "lecture-understanding-error-handling-and-health-checks": {
+        "title": "Verstehen von Fehlerbehandlung und Gesundheitschecks",
+        "intro": [
+          "In diesen Lektionen lernen Sie Fehlerbehandlung und Gesundheitschecks in Express kennen."
+        ]
+      },
+      "workshop-build-a-bank-api": {
+        "title": "Erstellen Sie eine Bank-API",
+        "intro": [
+          "Sie lernen Express 5 Fehlerbehandlung, Gesundheitschecks und sauberes Herunterfahren kennen, indem Sie eine Bank-API erstellen."
+        ]
+      },
+      "review-error-handling-in-express": {
+        "title": "Überprüfung der Fehlerbehandlung in Express",
+        "intro": [
+          "Überprüfen Sie HTTP-Statuscodes, Fehlerbehandlung, Debugging, Protokollierung, Gesundheitschecks und sanfte Abschaltungen, bevor Sie das Quiz machen."
+        ]
+      },
+      "quiz-error-handling-in-express": {
+        "title": "Quiz zur Fehlerbehandlung in Express",
+        "intro": [
+          "Testen Sie Ihr Wissen über HTTP-Statuscodes, Fehlerbehandlung, Debugging, Protokollierung, Gesundheitschecks und sanfte Abschaltungen."
         ]
       },
       "lecture-understanding-websockets": {
@@ -8427,7 +8422,7 @@
         "title": "Gestalten einer Café-Speisekarte",
         "intro": [
           "CSS sagt dem Browser, wie Ihre Webseite angezeigt wird. Sie können CSS verwenden, um Farbe, Schriftart, Größe und andere Aspekte von HTML-Elementen festzulegen.",
-          "In diesem Workshop lernen Sie CSS, indem Sie eine Speisekartenseite für eine Café-Webseite gestalten."
+          "In diesem Workshop lernen Sie CSS, indem Sie eine Menüseite für ein Café gestalten."
         ]
       },
       "lab-business-card": {
@@ -9695,7 +9690,7 @@
         "title": "Ein Café-Menü gestalten",
         "intro": [
           "CSS sagt dem Browser, wie Ihre Webseite angezeigt werden soll. Sie können CSS verwenden, um Farbe, Schriftart, Größe und andere Aspekte von HTML-Elementen festzulegen.",
-          "In diesem Workshop lernen Sie CSS, indem Sie eine Menüseite für eine Café-Webseite gestalten."
+          "In diesem Workshop lernen Sie CSS, indem Sie eine Menüseite für ein Café gestalten."
         ]
       },
       "lab-business-card": {

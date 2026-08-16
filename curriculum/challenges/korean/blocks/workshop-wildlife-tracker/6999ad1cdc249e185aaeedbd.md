@@ -49,8 +49,11 @@ assert.isFunction(addHabitat);
 `addHabitat` 함수는 두 개의 매개변수 `animal`와 `habitat`를 가져야 합니다.
 
 ```js
-const regex = __helpers.functionRegex('addHabitat', ['animal', 'habitat']);
-assert.match(__helpers.removeJSComments(code), regex);
+const explorer = await __helpers.Explorer(code);
+const { addHabitat } = explorer.allFunctions;
+assert.equal(addHabitat?.parameters.length, 2);
+assert.equal(addHabitat?.parameters[0].toString(), 'animal');
+assert.equal(addHabitat?.parameters[1].toString(), 'habitat');
 ```
 
 `addHabitat` 함수는 업데이트된 `animal` 객체를 반환해야 합니다.

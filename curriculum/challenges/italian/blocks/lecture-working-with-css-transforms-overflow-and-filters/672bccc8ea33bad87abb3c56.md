@@ -19,12 +19,16 @@ Questa proprietà può essere impostata sul selettore universale (`*`) per appli
 
 Il valore della proprietà `box-sizing` è `content-box` per impostazione predefinita, ma puoi scegliere `border-box` se necessario. Esploreremo prima `content-box` e poi passeremo a `border-box`.
 
+## Revisione del modello a riquadro CSS
+
 Per capire come funzionano i modelli, devi conoscere i quattro concetti fondamentali del modello a riquadro CSS. Facciamo una rapida revisione.
 
 - L'area contenuto è lo spazio occupato dal contenuto dell'elemento.
 - La spaziatura interna è lo spazio tra l'area contenuto e il bordo.
 - Il bordo è il contorno che circonda l'area contenuto e la spaziatura interna.
 - Il margine è lo spazio esterno al bordo che separa l'elemento dagli altri elementi.
+
+## Come funziona `content-box`
 
 Nel modello `content-box`, la larghezza e l'altezza che imposti per un elemento determinano le dimensioni dell'area contenuto, ma non includono la spaziatura interna, il bordo o il margine. Usa `content-box` quando ti serve un controllo preciso sull'area contenuto. Quando imposti `width` e `height`, stai definendo solo la dimensione del contenuto stesso.
 
@@ -52,9 +56,13 @@ div {
 
 In questo caso, se si usa `content-box` l'area contenuto sarà di 300px per 200px. La dimensione totale renderizzata include spaziatura interna e bordi — per esempio, larghezza totale = 300px (contenuto) + 40px (spaziatura interna) + 8px (bordi) = 348px; l'altezza totale si calcola allo stesso modo.
 
+## Come funziona `border-box`
+
 Ottimo! Ora esploriamo `border-box`. È diverso perché la larghezza e l'altezza che imposti includono il contenuto dell'elemento, la spaziatura interna e il bordo (ma non il margine). Usa `border-box` quando vuoi che la dimensione totale dell'elemento rimanga fissa anche se cambiano spaziatura interna o bordi — questo è spesso utile nei layout responsivi.
 
 Con `border-box`, spaziatura interna e bordi sono inclusi all'interno della dimensione specificata dell'elemento. La `width` e la `height` che imposti diventano le dimensioni totali dell'elemento: contenuto + spaziatura interna + bordo; i margini restano esclusi.
+
+## Confronto tra i due modelli
 
 Nell'esempio seguente, ci sono due elementi `div` con le stesse dimensioni ma valori diversi della proprietà `box-sizing`. Nota come questo comporti dimensioni totali diverse quando li vedi nel browser:
 

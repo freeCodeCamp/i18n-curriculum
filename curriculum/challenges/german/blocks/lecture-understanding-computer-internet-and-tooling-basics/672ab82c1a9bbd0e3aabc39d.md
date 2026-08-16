@@ -7,11 +7,11 @@ dashedName: how-to-effectively-work-with-your-keyboard-mouse-and-other-pointing-
 
 # --description--
 
-Viele von Ihnen sind es gewohnt, seit Jahren mit Ihrer Tastatur und Maus für verschiedene Aktivitäten zu arbeiten, wie zum Beispiel beim Spielen, bei der Erledigung von Aufgaben für die Arbeit oder beim Surfen im Web.
+Viele von Ihnen arbeiten seit Jahren mit Ihrer Tastatur und Maus für verschiedene Aktivitäten wie Gaming, das Erledigen von Aufgaben für die Arbeit oder das Surfen im Web.
 
 Aber eine längere falsche Nutzung dieser Geräte kann langfristig zu ernsthaften Gesundheitsproblemen führen.
 
-In dieser Lektion behandeln wir Möglichkeiten, wie Sie mit der Tastatur und Maus Ihres Computers gesundheitsbewusst arbeiten können.
+In dieser Lektion behandeln wir Möglichkeiten, wie Sie mit der Tastatur und Maus Ihres Computers auf gesunde Weise arbeiten können.
 
 Der erste Tipp ist, auf den Griff der Maus zu achten. Wenn Sie an wichtigen Aufgaben für die Arbeit oder während intensiver Spielsituationen arbeiten, neigen Sie möglicherweise dazu, die Maus zu fest zu halten. Das kann jedoch zu ernsthaften Problemen mit Hand und Handgelenk führen. Um das zu vermeiden, sollten Sie die Maus sanft halten und Ihre Finger entspannt lassen.
 
@@ -25,7 +25,7 @@ Sie sollten auch auf Ihre gesamte Körperhaltung achten, wenn Sie längere Zeit 
 
 Während eine gute Haltung wichtig ist, betont die moderne Ergonomie die Bedeutung von Bewegung und dynamischem Sitzen. Der menschliche Körper ist für Bewegung ausgelegt, und das Verharren in einer festen Position, selbst in einer geraden, über längere Zeit, kann kontinuierlichen Druck auf die Wirbelsäule ausüben. Regelmäßige Pausen, Positionswechsel im Tagesverlauf und eine natürliche Handgelenkhaltung können die Durchblutung verbessern, Ermüdung verringern und die langfristige Gesundheit der Wirbelsäule unterstützen.
 
-Der letzte Tipp ist, wann immer möglich Tastenkombinationen zu verwenden, um das Tippen zu minimieren. Es gibt Dutzende von Shortcuts für Aufgaben wie das Navigieren im Web, das Arbeiten im Betriebssystem, das Arbeiten in einem Code-Editor und mehr. Es ist also ratsam, einige dieser Tastenkombinationen zu recherchieren und in Ihre tägliche Computerarbeit einzubauen.
+Der letzte Tipp ist, wann immer möglich Tastenkombinationen zu verwenden, um das Greifen zur Maus zu reduzieren. Es gibt Dutzende von Shortcuts für Aufgaben wie das Navigieren im Web, das Navigieren im Betriebssystem, das Arbeiten in einem Code-Editor und mehr. Es ist also am besten, einige dieser Tastenkombinationen zu recherchieren und sie in Ihre tägliche Computernutzung zu integrieren.
 
 Wenn Sie weiterhin Ihre Maus und Tastatur für kommende Coding-Projekte und andere Aktivitäten verwenden, denken Sie daran, diese Gesundheitstipps zu beachten.
 
@@ -109,7 +109,7 @@ Was wird für die Höhe Ihrer Maus im Verhältnis zur Tastatur empfohlen?
 
 ## --answers--
 
-Die Maus sollte weit über der Tastatur sein.
+Die Höhe der Maus spielt keine Rolle.
 
 ### --feedback--
 

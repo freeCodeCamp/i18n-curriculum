@@ -1,6 +1,6 @@
 ---
 id: 672bccc8ea33bad87abb3c56
-title: content-box 和 border-box 有什么区别？
+title: Content-box 和 border-box 有什么区别？
 challengeType: 19
 dashedName: what-is-the-difference-between-content-box-and-border-box
 ---
@@ -19,6 +19,8 @@ dashedName: what-is-the-difference-between-content-box-and-border-box
 
 `box-sizing` 的默认值是 `content-box`，但如果需要，你可以选择 `border-box`。 下面我们先讲 `content-box`，再讲 `border-box`。
 
+## 回顾 CSS 盒模型
+
 要理解这些模型如何工作，你需要熟悉 CSS 盒模型中的四个核心概念。让我们快速回顾一下它们。
 
 - 内容区域是元素内容所占的空间。
@@ -26,11 +28,13 @@ dashedName: what-is-the-difference-between-content-box-and-border-box
 - 边框是环绕内容区域和内边距的轮廓。
 - 外边距是边框外的空间，用于将元素与其他元素分隔开来。
 
+## `content-box` 的工作原理
+
 在 `content-box` 模型中，你为一个元素设置的宽度和高度决定了内容区域的维度，但不包括内边距、边框或外边距。当你需要对内容区域进行精确控制时，使用 `content-box`。当你设置 `width` 和 `height` 时，你仅仅是在设置内容本身的大小。
 
 要查找元素的总宽度，你需要添加左侧和右侧的内边距，以及左侧和右侧的边框。同样，元素的总高度可以通过添加内容高度、顶部和底部的内边距，以及顶部和底部的边框来查找。
 
-例如，这里我们为所有 `div` 元素设置了一个 CSS 类型选择器。 
+例如，这里我们为所有 `div` 元素设置了一个 CSS 类型选择器。
 
 :::interactive_editor
 
@@ -52,9 +56,13 @@ div {
 
 在这种分支中，如果使用 `content-box`，内容区域将是 300px × 200px。总渲染大小包括内边距和边框——例如，总宽度 = 300px（内容）+ 40px（内边距）+ 8px（边框）= 348px；总高度的计算方式相同。
 
+## `border-box` 的工作原理
+
 很好！ 现在我们来看 `border-box`。  It's different because the width and height you set include the element's content, padding, and border (but not its margin).  Use `border-box` when you want the element's total size to stay fixed even if padding or borders change — that's often helpful in responsive layouts.
 
 使用 `border-box` 时，内边距和边框包含在元素指定的大小内。你设置的 `width` 和 `height` 成为元素的总维度：内容 + 内边距 + 边框；外边距仍然被排除。
+
+## 比较这两种模型
 
 在以下示例中，有两个具有相同维度但不同 `box-sizing` 值的 `div` 元素。注意这如何导致在浏览器中显示时总尺寸不同：
 
@@ -89,7 +97,7 @@ div {
 
 :::
 
-你可以看到，二者具有相同的 `width`、`height`、`padding`、`border` 和 `margin`。  The only differences are in the colors and the value of the `box-sizing` property. 这微小的差别对最终尺寸有着非常重要的影响。 
+你可以看到，二者具有相同的 `width`、`height`、`padding`、`border` 和 `margin`。  The only differences are in the colors and the value of the `box-sizing` property. 这微小的差别对最终尺寸有着非常重要的影响。
 
 `content-box` 和 `border-box` 之间的选择，实际上取决于项目的具体需求。 虽然 `border-box` 因其简单灵活而越来越受欢迎，但了解这两种模型对于实现有效的 CSS 布局非常重要。
 

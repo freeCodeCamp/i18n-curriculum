@@ -49,8 +49,11 @@ assert.isFunction(addHabitat);
 Kitendakazi cha `addHabitat` kinapaswa kuwa na vigezo viwili: `animal` na `habitat`.
 
 ```js
-const regex = __helpers.functionRegex('addHabitat', ['animal', 'habitat']);
-assert.match(__helpers.removeJSComments(code), regex);
+const explorer = await __helpers.Explorer(code);
+const { addHabitat } = explorer.allFunctions;
+assert.equal(addHabitat?.parameters.length, 2);
+assert.equal(addHabitat?.parameters[0].toString(), 'animal');
+assert.equal(addHabitat?.parameters[1].toString(), 'habitat');
 ```
 
 Kitendakazi cha `addHabitat` kinapaswa kurudisha kitu cha `animal` kilichosasishwa.

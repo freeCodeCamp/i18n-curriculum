@@ -62,7 +62,7 @@ assert.notMatch(code, /<\/input>/);
 Kipengele cha `input` kinapaswa kuwa na lebo ya kufunga ya `>`.
 
 ```js
-assert.match(code, /HTMLString\s*=\s*`\n\s*<label\s+for\s*=\s*"\$\{category\}-\$\{entryNumber\}-name"\s*>Expense\s\$\{entryNumber\}\sName<\/label>\n\s*<input\s+[^>]*\/>/);
+assert.match(code, /HTMLString\s*=\s*`\n\s*<label\s+for\s*=\s*"\$\{category\}-\$\{entryNumber\}-name"\s*>Expense\s\$\{entryNumber\}\sName<\/label>\n\s*<input\s+[^>]*>/);
 ```
 
 # --seed--

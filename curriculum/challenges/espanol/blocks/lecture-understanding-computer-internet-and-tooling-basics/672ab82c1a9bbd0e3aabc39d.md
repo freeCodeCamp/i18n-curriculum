@@ -7,7 +7,7 @@ dashedName: how-to-effectively-work-with-your-keyboard-mouse-and-other-pointing-
 
 # --description--
 
-Muchos de vosotros habéis estado acostumbrados a trabajar con vuestro teclado y ratón durante años para una variedad de actividades como jugar, realizar tareas para el trabajo o navegar por la web.
+Muchos de ustedes han estado trabajando con su teclado y mouse durante años para una variedad de actividades como jugar, realizar tareas para el trabajo o navegar por la web.
 
 Pero el uso prolongado incorrecto de estos dispositivos puede llevar a serios problemas de salud a largo plazo.
 
@@ -25,7 +25,7 @@ También debes tener en cuenta tu postura general cuando estés sentado frente a
 
 Aunque mantener una buena postura es importante, la ergonomía moderna enfatiza la importancia del movimiento y la postura dinámica. El cuerpo humano está diseñado para el movimiento, y permanecer en cualquier posición fija, incluso una recta, por mucho tiempo puede ejercer presión continua sobre la columna vertebral. Tomar descansos regulares, ajustar tu posición a lo largo del día y mantener una posición natural de la muñeca puede ayudar a mejorar la circulación, reducir la fatiga y apoyar la salud a largo plazo de la columna vertebral.
 
-El último consejo sería usar atajos de teclado siempre que sea posible para ayudar a minimizar la escritura. Hay docenas de atajos disponibles para tareas como navegar por la web, moverse por tu sistema operativo, trabajar dentro de un editor de código, y más.  So, it’s best to research some of these keyboard shortcuts and start incorporating them into your daily computer usage.
+El último consejo es usar atajos de teclado siempre que sea posible para reducir el alcance hacia el mouse. Hay docenas de atajos disponibles para tareas como navegar por la web, moverse por el sistema operativo, trabajar dentro de un editor de código y más. Por eso, es mejor investigar algunos de estos atajos de teclado y comenzar a incorporarlos en tu uso diario de la computadora.
 
 A medida que continúas utilizando tu ratón y teclado para próximos proyectos de codificación y otras actividades, recuerda tener en cuenta estos consejos de salud.
 
@@ -109,7 +109,7 @@ El segundo consejo en la lección menciona dispositivos ergonómicos como una fo
 
 ## --answers--
 
-El ratón debería estar muy por encima del teclado.
+La altura del mouse no importa.
 
 ### --feedback--
 

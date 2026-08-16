@@ -20,8 +20,8 @@ dashedName: step-15
 `calculateQuotient` 함수는 `"Error: Division by zero"`이 0일 때 문자열 `num2`를 반환해야 합니다.
 
 ```js
-assert.strictEqual(calculateQuotient(10, 0), 'Error: Division by zero');
-assert.strictEqual(calculateQuotient(3, 0), 'Error: Division by zero');
+assert.strictEqual(calculateQuotient(10, 0), "Error: Division by zero");
+assert.strictEqual(calculateQuotient(3, 0), "Error: Division by zero");
 ```
 
 `calculateQuotient` 함수는 `num1`이 0이 아닐 때 `num2`을 `num2`로 나눈 결과를 반환해야 합니다.

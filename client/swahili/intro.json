@@ -1352,12 +1352,6 @@
           "Katika warsha hii yenye mafundisho 140, utakamilisha hifadhidata yako ya wanafunzi huku ukichunguza kwa kina zaidi amri za SQL."
         ]
       },
-      "lab-world-cup-database": {
-        "title": "Jenga Hifadhidata ya Kombe la Dunia",
-        "intro": [
-          "Kwa mradi huu, utaunda skripti ya Bash inayoweka taarifa kutoka michezo ya Kombe la Dunia katika PostgreSQL, kisha utatumia hoja ya utafutaji kwenye hifadhidata kupata takwimu muhimu."
-        ]
-      },
       "workshop-kitty-ipsum-translator": {
         "title": "Jenga Tafsiri ya Kitty Ipsum",
         "intro": [
@@ -1369,6 +1363,12 @@
         "title": "Jenga Duka la Kukodisha Baiskeli",
         "intro": [
           "Katika warsha hii yenye mafundisho 210, utajenga programu ya Bash inayoshirikiana inayohifadhi taarifa za upangaji wa baiskeli kwa duka lako la kukodisha kwa kutumia PostgreSQL."
+        ]
+      },
+      "lab-world-cup-database": {
+        "title": "Jenga Hifadhidata ya Kombe la Dunia",
+        "intro": [
+          "Kwa mradi huu, utaunda skripti ya Bash inayoweka taarifa kutoka michezo ya Kombe la Dunia katika PostgreSQL, kisha utatumia hoja ya utafutaji kwenye hifadhidata kupata takwimu muhimu."
         ]
       },
       "lab-salon-appointment-scheduler": {
@@ -2669,6 +2669,13 @@
           "Utatumia masharti kuamua alama ya mwanafunzi kulingana na alama yake."
         ]
       },
+      "lab-story-fragment-restoration": {
+        "title": "Rejesha hadithi inayolingana kutoka kwenye safu ya vipande vya hadithi",
+        "intro": [
+          "Katika warsha hii, utarejesha hadithi inayolingana kutoka kwenye safu ya vipande vya hadithi vilivyoharibika.",
+          "Utajifunza kutumia mizunguko kwa kutekeleza algoriti za msingi za safu ya data kutoka mwanzo."
+        ]
+      },
       "lecture-the-var-keyword-and-hoisting": {
         "title": "Neno la var na Hoisting",
         "intro": [
@@ -3774,16 +3781,16 @@
           "Jifunze mfano wa sanduku wa CSS kupitia kozi hii. Elewa jinsi vipengele vinavyoonyeshwa mtandaoni, na jifunze kudhibiti nafasi, mipaka, na nafasi ya ndani ili kufanikisha mpangilio na muundo unaotaka."
         ]
       },
-      "top-introduction-to-flexbox": {
-        "title": "Utangulizi wa Flexbox",
-        "intro": [
-          "Gundua nguvu ya Flexbox, mfano wa mpangilio unaorahisisha muundo wa miundo ya mtandao inayojibadilisha kulingana na kifaa. Jifunze jinsi ya kuunda miundo ya kurasa inayobadilika na inayojibadilisha kwa urahisi."
-        ]
-      },
       "top-learn-block-and-inline": {
         "title": "Jifunze tofauti kati ya block na inline",
         "intro": [
           "Chunguza tofauti kati ya vipengele vya block na inline katika HTML na CSS. Kozi hii inatoa ufahamu wa jinsi aina hizi za maonyesho zinavyoathiri mpangilio na tabia, ikikupa uwezo wa kufanya maamuzi sahihi ya muundo."
+        ]
+      },
+      "top-introduction-to-flexbox": {
+        "title": "Utangulizi wa Flexbox",
+        "intro": [
+          "Gundua nguvu ya Flexbox, mfano wa mpangilio unaorahisisha muundo wa miundo ya mtandao inayojibadilisha kulingana na kifaa. Jifunze jinsi ya kuunda miundo ya kurasa inayobadilika na inayojibadilisha kwa urahisi."
         ]
       },
       "top-learn-variables-and-operators": {
@@ -6287,12 +6294,6 @@
           "Utazoeza kufanya kazi na madarasa ya msaada ya Tailwind CSS kwa mpangilio wa flexbox, rangi, viashiria vya kuvunja na zaidi."
         ]
       },
-      "lab-photography-exhibit": {
-        "title": "Tengeneza maonyesho ya picha",
-        "intro": [
-          "Katika maabara hii, utazoeza kufanya kazi na Tailwind CSS kwa kutengeneza ukurasa wa maonyesho ya picha mtandaoni."
-        ]
-      },
       "review-css-libraries-and-frameworks": {
         "title": "Kagua maktaba za CSS na mifumo ya kazi",
         "intro": [
@@ -6304,6 +6305,12 @@
         "title": "Jaribio fupi la maktaba za CSS na mifumo ya kazi",
         "intro": [
           "Jaribu kile ulichojifunza kuhusu maktaba za CSS na mifumo ya kazi kwa jaribio hili."
+        ]
+      },
+      "lab-photography-exhibit": {
+        "title": "Tengeneza maonyesho ya picha",
+        "intro": [
+          "Katika maabara hii, utazoeza kufanya kazi na Tailwind CSS kwa kutengeneza ukurasa wa maonyesho ya picha mtandaoni."
         ]
       },
       "lecture-introduction-to-typescript": {
@@ -6372,18 +6379,6 @@
           "Katika warsha hii, utaendelea kufanya mazoezi ya TypeScript kwa kujenga programu ya kutabiri hatima."
         ]
       },
-      "lab-flashcard-quiz-app": {
-        "title": "Jenga programu ya jaribio fupi la kadi za kumbukumbu",
-        "intro": [
-          "Katika maabara hii, utajifunza kutumia TypeScript kwa kujenga programu ya jaribio fupi la kadi za kumbukumbu."
-        ]
-      },
-      "lab-digital-pet-game": {
-        "title": "Jenga mchezo wa mnyama wa kidijitali",
-        "intro": [
-          "Katika maabara hii, utatumia kile ulichojifunza kuhusu TypeScript na React kwa kujenga mchezo wa mnyama wa kidijitali."
-        ]
-      },
       "workshop-build-a-football-player-card-builder": {
         "title": "Jenga mtengenezaji wa kadi za wachezaji wa mpira wa miguu",
         "intro": [
@@ -6400,6 +6395,18 @@
       "quiz-typescript": {
         "title": "Jaribio la TypeScript",
         "intro": ["Jaribu kile ulichojifunza kuhusu TypeScript kwa jaribio hili."]
+      },
+      "lab-flashcard-quiz-app": {
+        "title": "Jenga programu ya jaribio fupi la kadi za kumbukumbu",
+        "intro": [
+          "Katika maabara hii, utajifunza kutumia TypeScript kwa kujenga programu ya jaribio fupi la kadi za kumbukumbu."
+        ]
+      },
+      "lab-digital-pet-game": {
+        "title": "Jenga mchezo wa mnyama wa kidijitali",
+        "intro": [
+          "Katika maabara hii, utatumia kile ulichojifunza kuhusu TypeScript na React kwa kujenga mchezo wa mnyama wa kidijitali."
+        ]
       },
       "review-front-end-libraries": {
         "title": "Kagua maktaba za mbele",
@@ -7176,12 +7183,12 @@
       "node-package-manager": "Msimamizi wa vifurushi wa Node",
       "lab-prime-number-checker-module": "Jenga moduli ya kukagua namba msingi",
       "http-and-the-web-standards-model": "HTTP na mfano wa viwango vya mtandao",
-      "rest-api-and-web-services": "REST API na huduma za mtandao",
-      "lab-timestamp-microservice": "Jenga huduma ndogo ya timestamp",
       "introduction-to-express": "Utangulizi wa Express",
       "lab-personal-profile-app": "Jenga programu ya wasifu binafsi",
-      "error-handling-in-express": "Ushughulikiaji wa hitilafu katika Express",
       "express-middleware": "Programu ya kati ya Express",
+      "rest-api-and-web-services": "REST API na huduma za mtandao",
+      "lab-timestamp-microservice": "Jenga huduma ndogo ya timestamp",
+      "error-handling-in-express": "Ushughulikiaji wa hitilafu katika Express",
       "websockets": "WebSockets",
       "lab-chat-app": "Jenga programu ya mazungumzo",
       "security-and-privacy": "Usalama na faragha",
@@ -7192,109 +7199,91 @@
     },
     "module-intros": {
       "introduction-to-nodejs": {
-        "note": "Inakuja mwishoni mwa 2026",
         "intro": [
           "Katika moduli hii, utajifunza misingi ya kufanya kazi na Node.js."
         ]
       },
       "nodejs-core-modules": {
-        "note": "Inakuja mwishoni mwa 2026",
         "intro": [
           "Katika moduli hii, utajifunza kuhusu moduli kuu za Node.js kama fs, os, path na zaidi. Kisha utapata fursa ya kufanya mazoezi kupitia warsha na maabara na kupima maarifa yako kupitia jaribio fupi."
         ]
       },
       "node-package-manager": {
-        "note": "Inakuja mwishoni mwa 2026",
         "intro": [
           "Katika moduli hii, utatambulishwa na Msimamizi wa vifurushi wa Node, ambao wasanidi programu hutumia kusimamia utegemezi wa miradi na misimbo. Kisha utafanya mazoezi kupitia warsha na maabara na kupima maarifa yako kwa jaribio fupi."
         ]
       },
       "lab-prime-number-checker-module": {
-        "note": "Inakuja mwishoni mwa 2026",
         "intro": [
           "Jifunze kujenga na kusafirisha moduli ya npm kwa kuunda kipima namba msingi."
         ]
       },
       "http-and-the-web-standards-model": {
-        "note": "Inakuja mwishoni mwa 2026",
         "intro": [
           "Katika moduli hii, utajifunza kuhusu HTTP (Hypertext Transfer Protocol) na dhana nyingine muhimu ikiwemo mfano wa ombi-jibu, nambari za kawaida za jibu, DNS, TCP/IP, na zaidi. Kisha utafanya mazoezi ya kujenga seva yako mwenyewe kupitia warsha na kupima maarifa yako kwa jaribio fupi."
         ]
       },
-      "rest-api-and-web-services": {
-        "note": "Inakuja mwishoni mwa 2026",
-        "intro": [
-          "Katika moduli hii, utajifunza kuhusu REST API (uhamishaji wa hali ya uwakilishi (REST)) na jinsi microservices zinavyofanya kazi. Kisha utachukua jaribio fupi kupima maarifa yako."
-        ]
-      },
-      "lab-timestamp-microservice": {
-        "note": "Inakuja mwishoni mwa 2026",
-        "intro": [
-          "Jifunze kujenga API ya RESTful yenye mantiki ya kuchambua tarehe kwa kuunda huduma ndogo ya timestamp."
-        ]
-      },
       "introduction-to-express": {
-        "note": "Inakuja mwishoni mwa 2026",
         "intro": [
           "Katika moduli hii, utatambulishwa na Express.js, ambayo ni mfumo wa kazi unaotumika kujenga RESTful APIs. Kisha utafanya mazoezi kupitia warsha na maabara na kupima maarifa yako kwa jaribio fupi."
         ]
       },
       "lab-personal-profile-app": {
-        "note": "Inakuja mwishoni mwa 2026",
         "intro": [
           "Jifunze kujenga seva ya Express na API ya JSON kwa kuunda programu ya wasifu binafsi."
         ]
       },
-      "error-handling-in-express": {
-        "note": "Inakuja mwishoni mwa 2026",
-        "intro": [
-          "Katika moduli hii, utajifunza jinsi usimamizi wa hitilafu, kutafuta makosa, na ukaguzi wa afya unavyofanya kazi katika Express.js. Kisha utafanya mazoezi katika maabara na kupima maarifa yako kwa jaribio fupi."
-        ]
-      },
       "express-middleware": {
-        "note": "Inakuja mwishoni mwa 2026",
         "intro": [
           "Katika moduli hii, utajifunza kuhusu programu ya kati katika Express.js, inayotumika kushughulikia maombi na majibu kati ya mteja na seva. Kisha utafanya mazoezi kupitia warsha na maabara na kupima maarifa yako kwa jaribio fupi."
         ]
       },
+      "rest-api-and-web-services": {
+        "intro": [
+          "Katika moduli hii, utajifunza kuhusu REST API (uhamishaji wa hali ya uwakilishi (REST)) na jinsi microservices zinavyofanya kazi. Kisha utachukua jaribio fupi kupima maarifa yako."
+        ]
+      },
+      "lab-timestamp-microservice": {
+        "intro": [
+          "Jifunze kujenga API ya RESTful yenye mantiki ya kuchambua tarehe kwa kuunda huduma ndogo ya timestamp."
+        ]
+      },
+      "error-handling-in-express": {
+        "intro": [
+          "Katika moduli hii, utajifunza jinsi usimamizi wa hitilafu, kutafuta makosa, na ukaguzi wa afya unavyofanya kazi katika Express.js. Kisha utafanya mazoezi katika maabara na kupima maarifa yako kwa jaribio fupi."
+        ]
+      },
       "websockets": {
-        "note": "Inakuja mwishoni mwa 2026",
         "intro": [
           "Katika moduli hii, utatambulishwa na websockets, ambayo ni itifaki inayotumika kwa mawasiliano ya wakati halisi kati ya mteja na seva. Kisha utafanya mazoezi katika maabara na warsha na kupima maarifa yako kwa jaribio fupi."
         ]
       },
       "lab-chat-app": {
-        "note": "Inakuja mwishoni mwa 2026",
         "intro": [
           "Jifunze kujenga seva ya mazungumzo ya wakati halisi kwa wateja wengi ukitumia Node.js WebSockets."
         ]
       },
       "security-and-privacy": {
-        "note": "Inakuja mwishoni mwa 2026",
         "intro": [
           "Katika moduli hii, utajifunza tofauti kati ya usalama na faragha pamoja na dhana nyingine ikiwemo CSPs, Sera za Ruhusa, PII, kufanya kazi na CORS, na zaidi. Kisha utachukua jaribio fupi kupima maarifa yako."
         ]
       },
       "authentication": {
-        "note": "Inakuja mwishoni mwa 2026",
         "intro": [
           "Katika moduli hii, utajifunza jinsi uthibitisho wa utambulisho unavyofanya kazi katika programu za mtandao pamoja na dhana nyingine muhimu ikiwemo JWTs, CSRFs, Passport, Helmet, usimbaji fiche na usimbaji, na zaidi. Kisha utafanya mazoezi katika maabara na warsha na kupima maarifa yako kwa jaribio fupi."
         ]
       },
       "lab-family-movie-watchlist-api": {
-        "note": "Inakuja mwishoni mwa 2026",
         "intro": [
           "Jifunze kutekeleza uthibitisho wa utambulisho na idhini katika programu ya Express kwa kujenga API ya orodha ya filamu za familia."
         ]
       },
       "back-end-development-and-apis-certification-exam": {
-        "note": "Inakuja mwishoni mwa 2026",
         "intro": [
           "Pita mtihani huu ili kupata cheti chako cha ukuzaji wa nyuma na APIs."
         ]
       },
       "review-back-end-development-and-apis": {
-        "note": "Inakuja mwishoni mwa 2026",
         "intro": [
           "Kagua dhana za ukuzaji wa nyuma na APIs kujiandaa kwa mtihani ujao."
         ]
@@ -7302,7 +7291,7 @@
     },
     "blocks": {
       "lecture-working-with-nodejs-and-event-driven-architecture": {
-        "title": "Kufanya kazi na NodeJS na usanifu unaoendeshwa na matukio",
+        "title": "Kufanya kazi na Node.js na usanifu unaoendeshwa na matukio",
         "intro": [
           "Jifunze kuhusu maktaba kuu za Node.js, jinsi ya kusanidi Node.js kwenye kompyuta yako, na faida na hasara za kutumia Node.js upande wa nyuma."
         ]
@@ -7416,24 +7405,6 @@
           ""
         ]
       },
-      "lecture-understanding-rest-api-and-web-services": {
-        "title": "Kuelewa REST API na huduma za mtandao",
-        "intro": [
-          "Katika masomo haya, utajifunza kuhusu REST APIs na huduma za mtandao, na jinsi zinavyoruhusu programu tofauti kuwasiliana kwa kila mmoja kupitia mtandao."
-        ]
-      },
-      "workshop-build-a-weather-service-api": {
-        "title": "Jenga API ya huduma ya hali ya hewa",
-        "intro": [
-          "Utajifunza vigezo vya njia na upangaji njia wa moduli kwa kutumia <code>express.Router</code> kwa kujenga API ya huduma ya hali ya hewa."
-        ]
-      },
-      "lab-timestamp-microservice": {
-        "title": "Jenga huduma ndogo ya alama ya wakati",
-        "intro": [
-          "Fanya mazoezi ya kujenga RESTful API yenye mantiki ya uchambuzi wa tarehe kwa kuunda huduma ndogo ya alama ya wakati."
-        ]
-      },
       "lecture-working-with-express": {
         "title": "Kufanya kazi na Express",
         "intro": [
@@ -7453,16 +7424,10 @@
           "Utajifunza upangaji wa msingi wa Express na njia za majibu kwa kujenga programu ya vichekesho vya nasibu."
         ]
       },
-      "lab-personal-profile-app": {
-        "title": "Jenga programu ya wasifu binafsi",
-        "intro": [
-          "Fanya mazoezi ya kujenga seva ya Express na API ya JSON kwa kuunda programu ya wasifu binafsi."
-        ]
-      },
       "review-introduction-to-express": {
         "title": "Kagua utangulizi wa Express",
         "intro": [
-          "Kagua huduma za mtandao, REST, huduma ndogo, na upangaji njia wa Express.js kabla ya kuchukua jaribio fupi."
+          "Kagua Express.js, njia za kuongoza, njia za majibu, na kuhudumia mafaili ya statiki kabla ya kuchukua jaribio fupi."
         ]
       },
       "quiz-introduction-to-express": {
@@ -7471,28 +7436,10 @@
           "Jaribu maarifa yako kuhusu huduma za mtandao, REST, huduma ndogo, Express.js, na upangaji njia."
         ]
       },
-      "lecture-understanding-error-handling-and-health-checks": {
-        "title": "Kuelewa usimamizi wa hitilafu na ukaguzi wa afya",
+      "lab-personal-profile-app": {
+        "title": "Jenga programu ya wasifu binafsi",
         "intro": [
-          "Katika masomo haya, utajifunza kuhusu usimamizi wa hitilafu na ukaguzi wa afya katika Express."
-        ]
-      },
-      "workshop-build-a-bank-api": {
-        "title": "Jenga API ya benki",
-        "intro": [
-          "Utajifunza usimamizi wa makosa wa Express 5, ukaguzi wa afya, na kufunga kwa heshima kwa kujenga API ya benki."
-        ]
-      },
-      "review-error-handling-in-express": {
-        "title": "Kagua usimamizi wa hitilafu katika Express",
-        "intro": [
-          "Kagua nambari za hali za HTTP, usimamizi wa hitilafu, kurekebisha makosa, kuandika kumbukumbu, ukaguzi wa afya, na kufunga kwa heshima kabla ya kuchukua jaribio fupi."
-        ]
-      },
-      "quiz-error-handling-in-express": {
-        "title": "Jaribio fupi la usimamizi wa hitilafu katika Express",
-        "intro": [
-          "Jaribu maarifa yako kuhusu nambari za hali za HTTP, usimamizi wa hitilafu, kurekebisha makosa, kuandika kumbukumbu, ukaguzi wa afya, na kufunga kwa heshima."
+          "Fanya mazoezi ya kujenga seva ya Express na API ya JSON kwa kuunda programu ya wasifu binafsi."
         ]
       },
       "lecture-express-middleware": {
@@ -7523,6 +7470,54 @@
         "title": "Jaribio fupi la programu ya kati ya Express",
         "intro": [
           "Jaribu maarifa yako kuhusu programu ya kati ya Express, ikiwa ni pamoja na kiwango cha programu, kiwango cha kipanga-njia, usimamizi wa hitilafu, na programu ya kati iliyojengwa ndani na ya wahusika wengine."
+        ]
+      },
+      "lecture-understanding-rest-api-and-web-services": {
+        "title": "Kuelewa REST API na huduma za mtandao",
+        "intro": [
+          "Katika masomo haya, utajifunza kuhusu REST APIs na huduma za mtandao, na jinsi zinavyoruhusu programu tofauti kuwasiliana kwa kila mmoja kupitia mtandao."
+        ]
+      },
+      "workshop-build-a-weather-service-api": {
+        "title": "Jenga API ya huduma ya hali ya hewa",
+        "intro": [
+          "Utajifunza vigezo vya njia na upangaji njia wa moduli kwa kutumia <code>express.Router</code> kwa kujenga API ya huduma ya hali ya hewa."
+        ]
+      },
+      "review-rest-api-and-web-services": {
+        "title": "Kagua REST API na huduma za mtandao",
+        "intro": [
+          "Kagua huduma za mtandao, usanifu wa REST, nambari za hali za HTTP, na huduma ndogo ndogo."
+        ]
+      },
+      "lab-timestamp-microservice": {
+        "title": "Jenga huduma ndogo ya alama ya wakati",
+        "intro": [
+          "Fanya mazoezi ya kujenga RESTful API yenye mantiki ya uchambuzi wa tarehe kwa kuunda huduma ndogo ya alama ya wakati."
+        ]
+      },
+      "lecture-understanding-error-handling-and-health-checks": {
+        "title": "Kuelewa usimamizi wa hitilafu na ukaguzi wa afya",
+        "intro": [
+          "Katika masomo haya, utajifunza kuhusu usimamizi wa hitilafu na ukaguzi wa afya katika Express."
+        ]
+      },
+      "workshop-build-a-bank-api": {
+        "title": "Jenga API ya benki",
+        "intro": [
+          "Utajifunza usimamizi wa makosa wa Express 5, ukaguzi wa afya, na kufunga kwa heshima kwa kujenga API ya benki."
+        ]
+      },
+      "review-error-handling-in-express": {
+        "title": "Kagua usimamizi wa hitilafu katika Express",
+        "intro": [
+          "Kagua nambari za hali za HTTP, usimamizi wa hitilafu, kurekebisha makosa, kuandika kumbukumbu, ukaguzi wa afya, na kufunga kwa heshima kabla ya kuchukua jaribio fupi."
+        ]
+      },
+      "quiz-error-handling-in-express": {
+        "title": "Jaribio fupi la usimamizi wa hitilafu katika Express",
+        "intro": [
+          "Jaribu maarifa yako kuhusu nambari za hali za HTTP, usimamizi wa hitilafu, kurekebisha makosa, kuandika kumbukumbu, ukaguzi wa afya, na kufunga kwa heshima."
         ]
       },
       "lecture-understanding-websockets": {
@@ -8427,7 +8422,7 @@
         "title": "Tengeneza menyu ya kafé",
         "intro": [
           "CSS inaeleza kivinjari jinsi ya kuonyesha ukurasa wako wa wavuti. Unaweza kutumia CSS kuweka rangi, fonti, ukubwa, na vipengele vingine vya vipengele vya HTML.",
-          "Katika warsha hii, utajifunza CSS kwa kutengeneza ukurasa wa menyu kwa tovuti ya kafé."
+          "Katika warsha hii, utajifunza CSS kwa kubuni ukurasa wa menyu kwa ajili ya mkahawa."
         ]
       },
       "lab-business-card": {
@@ -9695,7 +9690,7 @@
         "title": "Tengeneza Menyu ya Kafe",
         "intro": [
           "CSS inaeleza kivinjari jinsi ya kuonyesha ukurasa wako wa mtandao. Unaweza kutumia CSS kuweka rangi, fonti, ukubwa, na vipengele vingine vya HTML.",
-          "Katika warsha hii, utajifunza CSS kwa kutengeneza ukurasa wa menyu kwa tovuti ya kafe."
+          "Katika warsha hii, utajifunza CSS kwa kubuni ukurasa wa menyu kwa ajili ya mkahawa."
         ]
       },
       "lab-business-card": {

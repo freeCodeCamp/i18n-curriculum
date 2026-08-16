@@ -7,11 +7,11 @@ dashedName: how-to-effectively-work-with-your-keyboard-mouse-and-other-pointing-
 
 # --description--
 
-Molti di voi sono abituati a lavorare con tastiera e mouse da anni per varie attività come giocare, svolgere compiti di lavoro o navigare sul web.
+Molti di voi usano la tastiera e il mouse da anni per una varietà di attività come giocare, svolgere compiti lavorativi o navigare sul web.
 
 Ma un uso prolungato e scorretto di questi dispositivi può portare a seri problemi di salute nel tempo.
 
-In questa lezione vedremo come usare tastiera e mouse del computer in modo sano.
+In questa lezione, vedremo come usare la tastiera e il mouse del computer in modo sano.
 
 Il primo consiglio è fare attenzione alla presa del mouse. Quando lavori a compiti importanti per lavoro o durante momenti intensi di gioco, potresti tendere a stringere troppo il mouse. Tuttavia, questo può causare seri problemi a mano e polso. Per evitarlo, devi assicurarti di tenere il mouse delicatamente e mantenere le dita rilassate.
 
@@ -25,7 +25,7 @@ Devi anche fare attenzione alla postura generale quando stai seduto al computer 
 
 Mantenere una buona postura è importante, ma l’ergonomia moderna sottolinea anche l’importanza del movimento e della seduta dinamica. Il corpo umano è fatto per muoversi, e restare in una posizione fissa, anche se dritta, per troppo tempo può esercitare una pressione continua sulla colonna vertebrale. Fare pause regolari, cambiare posizione durante la giornata e mantenere una posizione naturale dei polsi può aiutare a migliorare la circolazione, ridurre la stanchezza e sostenere la salute della colonna vertebrale nel lungo periodo.
 
-L’ultimo consiglio è usare le scorciatoie da tastiera ogni volta che puoi per ridurre la digitazione. Ci sono decine di scorciatoie disponibili per navigare sul web, muoverti nel sistema operativo, lavorare in un editor di codice e altro ancora. Quindi, è meglio informarti su alcune di queste scorciatoie e iniziare a usarle nella tua routine al computer.
+L'ultimo consiglio è di usare le scorciatoie da tastiera ogni volta che è possibile per ridurre il bisogno di raggiungere il mouse. Ci sono decine di scorciatoie disponibili per attività come navigare sul web, muoversi nel sistema operativo, lavorare in un editor di codice e altro ancora. Quindi, è meglio informarsi su alcune di queste scorciatoie e iniziare a integrarle nell'uso quotidiano del computer.
 
 Mentre continui a usare mouse e tastiera per i prossimi progetti di programmazione e altre attività, ricorda di tenere a mente questi consigli per la salute.
 
@@ -109,7 +109,7 @@ Qual è la raccomandazione per l’altezza del mouse rispetto alla tastiera?
 
 ## --answers--
 
-Il mouse dovrebbe essere molto più in alto della tastiera.
+L'altezza del mouse non è importante.
 
 ### --feedback--
 

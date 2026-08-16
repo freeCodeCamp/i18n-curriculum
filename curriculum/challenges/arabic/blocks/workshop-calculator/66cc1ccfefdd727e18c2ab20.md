@@ -7,7 +7,7 @@ dashedName: step-14
 
 # --description--
 
-تبدو دالة `calculateQuotient` تعمل بشكل صحيح لكن هناك حالة واحدة لم تختبرها بعد.
+تبدو دالتك `calculateQuotient` تعمل بشكل صحيح، لكن هناك حالة واحدة لم تختبرها بعد.
 
 أضف `console.log` يستدعي الدالة `calculateQuotient` بالمعلمتين `3` و `0`.
 
@@ -18,7 +18,9 @@ dashedName: step-14
 يجب أن يكون لديك `console.log` يستدعي الدالة `calculateQuotient` بالمعلمتين `3` و `0`.
 
 ```js
-assert.match(code, /console\.log\s*\(\s*calculateQuotient\s*\(\s*3\s*,\s*0\s*\)\s*\)\s*;?/);
+const strippedCode = __helpers.removeWhiteSpace(__helpers.removeJSComments(code));
+const expectedStatement = "console.log(calculateQuotient(3,0))";
+assert.include(strippedCode, expectedStatement);
 ```
 
 # --seed--

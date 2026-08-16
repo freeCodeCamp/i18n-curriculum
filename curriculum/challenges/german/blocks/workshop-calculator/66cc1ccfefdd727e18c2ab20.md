@@ -18,7 +18,9 @@ Achten Sie genau auf die Ausgabe dieses Aufrufs.
 Sie sollten einen `console.log` haben, der die `calculateQuotient`-Funktion mit den Argumenten `3` und `0` aufruft.
 
 ```js
-assert.match(code, /console\.log\s*\(\s*calculateQuotient\s*\(\s*3\s*,\s*0\s*\)\s*\)\s*;?/);
+const strippedCode = __helpers.removeWhiteSpace(__helpers.removeJSComments(code));
+const expectedStatement = "console.log(calculateQuotient(3,0))";
+assert.include(strippedCode, expectedStatement);
 ```
 
 # --seed--

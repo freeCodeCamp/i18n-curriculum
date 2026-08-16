@@ -20,8 +20,8 @@ dashedName: step-15
 `calculateQuotient` 関数は、`"Error: Division by zero"` がゼロの場合に文字列 `num2` を返すべきです。
 
 ```js
-assert.strictEqual(calculateQuotient(10, 0), 'Error: Division by zero');
-assert.strictEqual(calculateQuotient(3, 0), 'Error: Division by zero');
+assert.strictEqual(calculateQuotient(10, 0), "Error: Division by zero");
+assert.strictEqual(calculateQuotient(3, 0), "Error: Division by zero");
 ```
 
 `calculateQuotient` 関数は、`num1` がゼロでない場合に `num2` を `num2` で割った結果を返すべきです。
