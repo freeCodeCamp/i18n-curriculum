@@ -8,7 +8,7 @@ dashedName: declare-string-variables
 
 # --description--
 
-سبق أن استخدمت الشفرة التالية لإعلان متغير:
+سبق أن استخدمت الكود التالي لإعلان متغير:
 
 ```js
 var myName;

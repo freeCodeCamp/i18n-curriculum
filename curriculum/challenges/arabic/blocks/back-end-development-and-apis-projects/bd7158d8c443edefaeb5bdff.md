@@ -8,7 +8,7 @@ dashedName: request-header-parser-microservice
 
 # --description--
 
-ابنِ تطبيق جافاسكريبت متكامل يشبه وظيفيًا هذا: <a href="https://request-header-parser-microservice.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://request-header-parser-microservice.freecodecamp.rocks/</a>. يتطلب العمل على هذا المشروع كتابة شفرتك باستخدام إحدى الطرق التالية:
+ابنِ تطبيق JavaScript متكامل الوظائف يشبه هذا: <a href="https://request-header-parser-microservice.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://request-header-parser-microservice.freecodecamp.rocks/</a>. يتطلب العمل على هذا المشروع كتابة كودك باستخدام إحدى الطرق التالية:
 
 - استنسخ <a href="https://github.com/freeCodeCamp/boilerplate-project-headerparser/" target="_blank" rel="noopener noreferrer nofollow">مستودع GitHub هذا</a> وأكمل مشروعك محليًا.
 - استخدم منشئ مواقع من اختيارك لإكمال المشروع. تأكد من دمج جميع الملفات من مستودع GitHub الخاص بنا.

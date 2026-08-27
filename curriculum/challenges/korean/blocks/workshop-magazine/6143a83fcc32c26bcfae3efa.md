@@ -7,7 +7,7 @@ dashedName: step-17
 
 # --description--
 
-`.text` 요소 아래에 새로운 `section` 요소를 만들고 `class`의 `text text-with-images`를 지정하세요. 그 안에 `article`로 설정된 `class`를 가진 `brief-history` 요소와 `aside`로 설정된 `class`를 가진 `image-wrapper` 요소를 만드세요.
+`.text` 요소 아래에 새로운 `section` 요소를 만들고 `class`의 `text text-with-images`를 지정하세요. 그 안에 `brief-history`로 설정된 `class`를 가진 `article` 요소와 `image-wrapper`로 설정된 `class`를 가진 `aside` 요소를 만드세요.
 
 # --hints--
 

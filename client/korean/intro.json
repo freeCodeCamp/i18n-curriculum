@@ -1504,7 +1504,7 @@
       "workshop-report-card-printer": {
         "title": "성적표 출력기 만들기",
         "intro": [
-          "이 워크숍에서 Python의 원시 데이터 유형을 다루는 성적표 출력기를 만드세요."
+          "이 워크숍에서는 간단한 성적표 데이터를 만들고 출력하면서 Python의 기본 데이터 타입을 다루는 연습을 합니다."
         ]
       },
       "lecture-introduction-to-python-strings": {
@@ -6470,7 +6470,7 @@
       "workshop-report-card-printer": {
         "title": "성적표 출력기 만들기",
         "intro": [
-          "이 워크숍에서는 Python의 원시 데이터 타입을 다루는 성적표 출력기를 만듭니다."
+          "이 워크숍에서는 간단한 성적표 데이터를 만들고 출력하면서 Python의 기본 데이터 타입을 다루는 연습을 합니다."
         ]
       },
       "lecture-introduction-to-python-strings": {
@@ -7278,14 +7278,14 @@
           "Express 애플리케이션에서 인증과 권한 부여를 구현해 가족 영화 목록 API를 만드는 연습을 하세요."
         ]
       },
-      "back-end-development-and-apis-certification-exam": {
-        "intro": [
-          "이 시험에 합격해 백엔드 개발 및 API 인증을 받으세요."
-        ]
-      },
       "review-back-end-development-and-apis": {
         "intro": [
           "다가오는 시험 준비를 위해 백엔드 개발 및 API 개념을 복습하세요."
+        ]
+      },
+      "back-end-development-and-apis-certification-exam": {
+        "intro": [
+          "이 시험에 합격해 백엔드 개발 및 API 인증을 받으세요."
         ]
       }
     },
@@ -7354,12 +7354,6 @@
           "대소문자 변환기를 만들어 npm 모듈 초기화, 구성, 게시 방법을 배우세요."
         ]
       },
-      "lab-prime-number-checker-module": {
-        "title": "소수 판별기 모듈 만들기",
-        "intro": [
-          "소수 판별기를 만들어 NPM 모듈 빌드와 내보내기를 연습하세요."
-        ]
-      },
       "review-npm": {
         "title": "NPM 복습",
         "intro": ["다가오는 퀴즈 준비를 위해 npm 개념을 복습하세요."]
@@ -7367,6 +7361,12 @@
       "quiz-npm": {
         "title": "NPM 퀴즈",
         "intro": ["이 퀴즈로 npm에 대해 배운 내용을 테스트하세요."]
+      },
+      "lab-prime-number-checker-module": {
+        "title": "소수 판별기 모듈 만들기",
+        "intro": [
+          "소수 판별기를 만들어 NPM 모듈 빌드와 내보내기를 연습하세요."
+        ]
       },
       "lecture-understanding-how-http-dns-tcpip-work": {
         "title": "HTTP, DNS, TCP/IP 작동 원리 이해",
@@ -7532,12 +7532,6 @@
           "시스템 자원 모니터를 만들어 노드 WebSocket과 실시간 데이터 스트리밍을 배우세요."
         ]
       },
-      "lab-chat-app": {
-        "title": "채팅 앱 만들기",
-        "intro": [
-          "Node.js WebSocket을 사용해 실시간 다중 클라이언트 채팅 서버를 만드는 연습을 하세요."
-        ]
-      },
       "review-websockets": {
         "title": "WebSocket 복습",
         "intro": [
@@ -7548,6 +7542,12 @@
         "title": "WebSocket 퀴즈",
         "intro": [
           "WebSocket과 Pub/Sub에 대한 지식을 이 퀴즈로 테스트하세요."
+        ]
+      },
+      "lab-chat-app": {
+        "title": "채팅 앱 만들기",
+        "intro": [
+          "Node.js WebSocket을 사용해 실시간 다중 클라이언트 채팅 서버를 만드는 연습을 하세요."
         ]
       },
       "lecture-understanding-security-and-privacy-in-web-applications": {
@@ -7580,12 +7580,6 @@
           "JWT 보호 라우트를 가진 Express 애플리케이션을 만들어 인증과 역할 기반 권한 부여를 배우세요."
         ]
       },
-      "lab-family-movie-watchlist-api": {
-        "title": "가족 영화 시청 목록 API 만들기",
-        "intro": [
-          "가족 영화 시청 목록 API를 만들어 Express 애플리케이션에서 인증과 권한 부여 구현을 연습하세요."
-        ]
-      },
       "review-authentication-and-authorization": {
         "title": "인증과 권한 부여 복습",
         "intro": [
@@ -7596,6 +7590,12 @@
         "title": "인증과 권한 부여 퀴즈",
         "intro": [
           "이 모듈에서 다룬 인증과 권한 부여 개념에 대한 지식을 테스트하세요."
+        ]
+      },
+      "lab-family-movie-watchlist-api": {
+        "title": "가족 영화 시청 목록 API 만들기",
+        "intro": [
+          "가족 영화 시청 목록 API를 만들어 Express 애플리케이션에서 인증과 권한 부여 구현을 연습하세요."
         ]
       },
       "review-back-end-development-and-apis": {
@@ -9641,7 +9641,7 @@
       "lecture-understanding-computer-internet-and-tooling-basics": {
         "title": "컴퓨터, 인터넷, 도구 기초 이해하기",
         "intro": [
-          "이 수업에서 컴퓨터와 그 부품, 인터넷 서비스 제공자(ISP), 전문 개발자가 사용하는 도구에 대해 배우세요."
+          "이 수업들에서는 컴퓨터와 그 다양한 부품, 키보드와 마우스를 안전하게 사용하는 방법, 컴퓨터에 안전하게 로그인하는 방법, 인터넷 서비스 제공자(ISP), 그리고 전문 개발자가 사용하는 도구에 대해 배웁니다."
         ]
       },
       "lecture-working-with-file-systems": {

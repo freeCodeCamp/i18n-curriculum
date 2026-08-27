@@ -19,7 +19,7 @@ string_3 = 'This is not valid"
 
 # --hints--
 
-يجب ألا يحتوي شفرتك على `number = 5`.
+يجب ألا يحتوي كودك على `number = 5`.
 
 ```js
 const commentless_code = __helpers.python.removeComments(code);
@@ -38,7 +38,7 @@ assert.match(code, /^text\s*=/m)
 assert.match(code, /^text\s*=\s*("|')Hello World\1\s*(#.*)?$/m)
 ```
 
-تحتوي شفرتك على صيغة نحوية غير صحيحة و/أو مسافة بادئة غير صحيحة.
+يحتوي كودك على صيغة نحوية غير صحيحة و/أو تراجع غير صحيح.
 
 ```js
 ({test: () => assert(true) })

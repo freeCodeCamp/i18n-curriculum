@@ -7,6 +7,8 @@ dashedName: step-33
 
 # --description--
 
+`is` 和 `is not` 運算子用來檢查兩個值是否指向同一個物件。這稱為身分比較。你可以使用 `is None` 來檢查一個值是否為 `None` 物件，使用 `is not None` 來檢查它是否不是 `None` 物件。
+
 現在為 `constraints` 字典添加一個鍵 `diagnosis`。對於它的值，撰寫一個表達式，檢查 `diagnosis` 是否為 `str` 的實體或是 `None`。
 
 # --hints--

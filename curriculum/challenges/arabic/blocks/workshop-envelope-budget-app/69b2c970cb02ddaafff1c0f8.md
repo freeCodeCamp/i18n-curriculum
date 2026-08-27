@@ -11,13 +11,13 @@ dashedName: step-27
 
 # --hints--
 
-يجب ألا يحتوي شفرتك على `console.log(cleanInputString("+-99"));`.
+يجب ألا يحتوي كودك على `console.log(cleanInputString("+-99"));`.
 
 ```js
 assert.notMatch(code, /console\.log\(\s*cleanInputString\(\s*('|")\s*\+\-9\s*9\s*\1\s*\)\s*\);?/)
 ```
 
-يجب ألا يحتوي شفرتك على `console.log("original string: ", str);`.
+يجب ألا يحتوي كودك على `console.log("original string: ", str);`.
 
 ```js
 assert.notMatch(cleanInputString.toString(), /console\.log\(('|")original\s+string:\s+\1,\s*str\);?/);

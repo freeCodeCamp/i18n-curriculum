@@ -14,7 +14,7 @@ dashedName: 2d-lists-and-nested-loops
 
 ## --text--
 
-ما الناتج المتوقع للشفرة التالية؟
+ما هو الناتج للكود التالي؟
 
 ```python
 number_grid = [

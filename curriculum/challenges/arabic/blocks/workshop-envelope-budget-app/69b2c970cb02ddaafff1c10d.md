@@ -53,7 +53,7 @@ const inputAttributes = HTMLstring.match(/<input\s+.*/)[0];
 assert.match(inputAttributes, /id\s*=\s*"\${category}-\${entryNumber}-name"/);
 ```
 
-لا يجب أن يحتوي شفرتك على وسم إغلاق لعنصر `input`.
+يجب ألا يحتوي كودك على وسم إغلاق لـ `input`.
 
 ```js
 assert.notMatch(code, /<\/input>/);

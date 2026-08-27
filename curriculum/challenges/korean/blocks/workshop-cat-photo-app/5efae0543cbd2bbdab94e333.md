@@ -47,7 +47,7 @@ assert.strictEqual(
 );
 ```
 
-Cats `img` 요소에는 값이 `alt`인 `Two tabby kittens sleeping together on a couch.` 속성이 있어야 합니다.
+Cats `img` 요소에는 값이 `Two tabby kittens sleeping together on a couch.`인 `alt` 속성이 있어야 합니다.
 
 ```js
 const catsImg = document.querySelectorAll('figure > img')[1];

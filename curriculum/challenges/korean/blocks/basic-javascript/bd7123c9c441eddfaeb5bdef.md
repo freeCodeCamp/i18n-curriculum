@@ -14,7 +14,7 @@ dashedName: understanding-boolean-values
 
 # --instructions--
 
-`welcomeToBooleans` 함수를 수정하여 `true` 대신 `false`을 반환하게 하세요.
+`welcomeToBooleans` 함수를 수정하여 `false` 대신 `true`을 반환하게 하세요.
 
 # --hints--
 

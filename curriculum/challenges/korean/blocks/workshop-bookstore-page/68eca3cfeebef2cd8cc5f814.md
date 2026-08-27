@@ -7,7 +7,7 @@ dashedName: step-14
 
 # --description--
 
-클래스가 `id`인 두 번째 요소에 `card` 속성을 추가하고 그 값을 `dave-cooking-book`로 설정하세요. 각 `id`는 고유해야 한다는 점을 기억하세요.
+클래스가 `card`인 두 번째 요소에 `id` 속성을 추가하고 그 값을 `dave-cooking-book`로 설정하세요. 각 `id`는 고유해야 한다는 점을 기억하세요.
 
 # --hints--
 

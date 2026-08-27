@@ -1504,7 +1504,7 @@
       "workshop-report-card-printer": {
         "title": "成績表プリンターを作ろう",
         "intro": [
-          "このワークショップでは、Pythonのプリミティブデータ型を扱う成績表プリンターを作ります。"
+          "このワークショップでは、Pythonの基本データ型を使って、簡単な成績表のデータを作成し、出力する練習をします。"
         ]
       },
       "lecture-introduction-to-python-strings": {
@@ -6470,7 +6470,7 @@
       "workshop-report-card-printer": {
         "title": "成績表プリンターを作る",
         "intro": [
-          "このワークショップでは、Pythonのプリミティブデータ型を扱う成績表プリンターを作成します。"
+          "このワークショップでは、Pythonの基本データ型を使って、簡単な成績表のデータを作成し、出力する練習をします。"
         ]
       },
       "lecture-introduction-to-python-strings": {
@@ -7278,14 +7278,14 @@
           "家族用映画ウォッチリストAPIを作成して、Expressアプリケーションでの認証と認可の実装を練習してください。"
         ]
       },
-      "back-end-development-and-apis-certification-exam": {
-        "intro": [
-          "この試験に合格してバックエンド開発とAPI認定を取得しましょう。"
-        ]
-      },
       "review-back-end-development-and-apis": {
         "intro": [
           "今後の試験に備えてバックエンド開発とAPIの概念を復習しましょう。"
+        ]
+      },
+      "back-end-development-and-apis-certification-exam": {
+        "intro": [
+          "この試験に合格してバックエンド開発とAPI認定を取得しましょう。"
         ]
       }
     },
@@ -7354,12 +7354,6 @@
           "ケースコンバーターを作りながら、NPMモジュールの初期化、設定、公開方法を学びます。"
         ]
       },
-      "lab-prime-number-checker-module": {
-        "title": "素数判定モジュールを作る",
-        "intro": [
-          "素数判定モジュールを作成し、NPMモジュールの構築とエクスポートを練習します。"
-        ]
-      },
       "review-npm": {
         "title": "NPMの復習",
         "intro": ["次のクイズに備えてnpmの概念を復習しましょう。"]
@@ -7367,6 +7361,12 @@
       "quiz-npm": {
         "title": "NPMクイズ",
         "intro": ["このクイズでnpmについて学んだことを確認しましょう。"]
+      },
+      "lab-prime-number-checker-module": {
+        "title": "素数判定モジュールを作る",
+        "intro": [
+          "素数判定モジュールを作成し、NPMモジュールの構築とエクスポートを練習します。"
+        ]
       },
       "lecture-understanding-how-http-dns-tcpip-work": {
         "title": "HTTP、DNS、TCP/IPの仕組みを理解する",
@@ -7532,12 +7532,6 @@
           "システムリソースモニターを作りながら、Node.jsのWebSocketとリアルタイムデータストリーミングを学びます。"
         ]
       },
-      "lab-chat-app": {
-        "title": "チャットアプリを作る",
-        "intro": [
-          "Node.jsのWebSocketsを使ってリアルタイムのマルチクライアントチャットサーバーを作る練習をします。"
-        ]
-      },
       "review-websockets": {
         "title": "WebSocketsの復習",
         "intro": [
@@ -7548,6 +7542,12 @@
         "title": "WebSocketsクイズ",
         "intro": [
           "WebSocketsとPub/Subの知識をこのクイズでテストしましょう。"
+        ]
+      },
+      "lab-chat-app": {
+        "title": "チャットアプリを作る",
+        "intro": [
+          "Node.jsのWebSocketsを使ってリアルタイムのマルチクライアントチャットサーバーを作る練習をします。"
         ]
       },
       "lecture-understanding-security-and-privacy-in-web-applications": {
@@ -7580,12 +7580,6 @@
           "JWT保護ルートを持つExpressアプリケーションを作りながら、認証と役割ベースの認可を学びます。"
         ]
       },
-      "lab-family-movie-watchlist-api": {
-        "title": "家族用映画ウォッチリストAPIを作る",
-        "intro": [
-          "家族用映画ウォッチリストAPIを作りながら、Expressアプリケーションでの認証と認可の実装を練習します。"
-        ]
-      },
       "review-authentication-and-authorization": {
         "title": "認証と認可の復習",
         "intro": [
@@ -7596,6 +7590,12 @@
         "title": "認証と認可のクイズ",
         "intro": [
           "このモジュールで扱った認証と認可の概念の知識をテストしましょう。"
+        ]
+      },
+      "lab-family-movie-watchlist-api": {
+        "title": "家族用映画ウォッチリストAPIを作る",
+        "intro": [
+          "家族用映画ウォッチリストAPIを作りながら、Expressアプリケーションでの認証と認可の実装を練習します。"
         ]
       },
       "review-back-end-development-and-apis": {
@@ -9641,7 +9641,7 @@
       "lecture-understanding-computer-internet-and-tooling-basics": {
         "title": "コンピュータ、インターネット、ツールの基本を理解する",
         "intro": [
-          "これらのレッスンでは、コンピュータの各部、インターネットサービスプロバイダー（ISP）、プロの開発者が使うツールについて学びます。"
+          "このレッスンでは、コンピューターとその各部品、キーボードとマウスの安全な使い方、コンピューターへの安全なサインイン方法、インターネットサービスプロバイダー（ISP）、そしてプロの開発者が使うツールについて学びます。"
         ]
       },
       "lecture-working-with-file-systems": {

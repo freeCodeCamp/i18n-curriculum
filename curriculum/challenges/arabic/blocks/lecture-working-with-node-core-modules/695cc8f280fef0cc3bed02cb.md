@@ -70,7 +70,7 @@ process.on("exit", (code) => {
 // Process exiting with code: 0
 ```
 
-يُطلق حدث `uncaughtException` عندما لا يتم التقاط خطأ في شفرتك، مما يساعدك على منع تعطل التطبيق:
+يُفعّل حدث `uncaughtException` عندما لا يُلتقط خطأ في كودك، مما يساعدك على منع تعطل التطبيق:
 
 ```js
 process.on("uncaughtException", (err) => {

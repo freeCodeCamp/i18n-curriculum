@@ -7,7 +7,7 @@ dashedName: step-11
 
 # --description--
 
-2番目の`section`要素の中に、テキストが`h2`の`Importance of Networking`要素をネストしてください。
+2番目の`section`要素の中に、テキストが`Importance of Networking`の`h2`要素をネストしてください。
 
 この見出しの下に、属性`cite`が値`https://www.freecodecamp.org/news/learn-to-code-book/`のブロック引用要素を追加してください。
 

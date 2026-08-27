@@ -14,7 +14,7 @@ dashedName: return-statement
 
 ## --text--
 
-ما هي النتيجة التي ستُظهرها الشفرة التالية؟
+ما هو الناتج للكود التالي؟
 
 ```python
 def cube(num):

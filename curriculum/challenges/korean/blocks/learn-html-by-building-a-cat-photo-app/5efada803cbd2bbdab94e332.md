@@ -7,7 +7,7 @@ dashedName: step-31
 
 # --description--
 
-방금 추가한 `figure` 요소 안에 `img` 속성이 `src`로 설정된 `https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg` 요소를 중첩하세요.
+방금 추가한 `figure` 요소 안에 `src` 속성이 `https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg`로 설정된 `img` 요소를 중첩하세요.
 
 # --hints--
 

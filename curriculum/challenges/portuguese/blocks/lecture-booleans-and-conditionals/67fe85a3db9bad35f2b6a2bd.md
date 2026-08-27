@@ -49,7 +49,7 @@ if condition:
     
 * `condition` é uma expressão que avalia para `True` ou `False`, seguida por dois pontos (`:`).
 
-* O corpo da declaração `if` constitui um <dfn>bloco de código</dfn>, que é um grupo de instruções que pertencem juntas. Em Python, o nível de indentação é o que define um bloco de código.
+* O corpo da declaração `if` constitui um <dfn>bloco de código</dfn>, que é um grupo de declarações que pertencem juntas. Espaços no início de uma linha são chamados de indentação. Em Python, a indentação determina quais declarações pertencem a um bloco de código.
     
 No exemplo acima, o corpo da instrução `if` contém uma instrução `pass`. Quando uma instrução `pass` é executada, nada acontece. Esta é uma palavra-chave especial que pode ser usada como um marcador de posição para código futuro e é útil quando blocos de código vazios não são permitidos.
 
@@ -62,7 +62,7 @@ if age >= 18:
     print('You are an adult') # You are an adult
 ```
 
-Observe a indentação antes de `print('You are an adult')`. Enquanto outras linguagens de programação usam caracteres como chaves para definir blocos de código e usam a indentação apenas para legibilidade, em Python, os blocos de código são determinados pela indentação.
+Os quatro espaços antes de `print('You are an adult')` indentam essa linha e a colocam dentro do bloco `if`.
 
 O código a seguir geraria um `IndentationError`, que é a forma do Python indicar que a indentação é necessária em um determinado ponto do código:
 
@@ -220,7 +220,7 @@ else:
 
 ## --answers--
 
-`You are an adult` será impresso no console.
+`You are an adult` será impresso no terminal.
 
 ### --feedback--
 
@@ -228,7 +228,7 @@ Revise a última parte da lição para a resposta correta.
 
 ---
 
-`You are a teenager` será impresso no console.
+`You are a teenager` será impresso no terminal.
 
 ### --feedback--
 
@@ -236,11 +236,11 @@ Revise a última parte da lição para a resposta correta.
 
 ---
 
-`You are a child` será impresso no console.
+`You are a child` será impresso no terminal.
 
 ---
 
-Um erro será exibido no console.
+Um erro será impresso no terminal.
 
 ### --feedback--
 

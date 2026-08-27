@@ -1504,7 +1504,7 @@
       "workshop-report-card-printer": {
         "title": "Construir una impresora de boletas",
         "intro": [
-          "En este taller, construirás una impresora de boletas para trabajar con tipos de datos primitivos en Python."
+          "En este taller, practicarás trabajar con tipos de datos primitivos en Python creando e imprimiendo datos para una boleta de calificaciones sencilla."
         ]
       },
       "lecture-introduction-to-python-strings": {
@@ -6470,7 +6470,7 @@
       "workshop-report-card-printer": {
         "title": "Construir una impresora de boletas de calificaciones",
         "intro": [
-          "En este taller, construirás una impresora de boletas para trabajar con tipos de datos primitivos en Python."
+          "En este taller, practicarás trabajar con tipos de datos primitivos en Python creando e imprimiendo datos para una boleta de calificaciones sencilla."
         ]
       },
       "lecture-introduction-to-python-strings": {
@@ -7278,14 +7278,14 @@
           "Practica implementar autenticación y autorización en una aplicación Express creando una API para lista de películas familiar."
         ]
       },
-      "back-end-development-and-apis-certification-exam": {
-        "intro": [
-          "Aprueba este examen para obtener tu certificación en desarrollo back-end y APIs."
-        ]
-      },
       "review-back-end-development-and-apis": {
         "intro": [
           "Revisa los conceptos de desarrollo back-end y APIs para prepararte para el próximo examen."
+        ]
+      },
+      "back-end-development-and-apis-certification-exam": {
+        "intro": [
+          "Aprueba este examen para obtener tu certificación en desarrollo back-end y APIs."
         ]
       }
     },
@@ -7354,12 +7354,6 @@
           "Aprenderás a inicializar, configurar y publicar un módulo npm creando un convertidor de mayúsculas y minúsculas."
         ]
       },
-      "lab-prime-number-checker-module": {
-        "title": "Crear un módulo para verificar números primos",
-        "intro": [
-          "Practica construir y exportar un módulo NPM creando un verificador de números primos."
-        ]
-      },
       "review-npm": {
         "title": "Revisión de NPM",
         "intro": ["Revisa los conceptos de npm para prepararte para el quiz próximo."]
@@ -7367,6 +7361,12 @@
       "quiz-npm": {
         "title": "Quiz de NPM",
         "intro": ["Pon a prueba lo que has aprendido sobre npm en este quiz."]
+      },
+      "lab-prime-number-checker-module": {
+        "title": "Crear un módulo para verificar números primos",
+        "intro": [
+          "Practica construir y exportar un módulo NPM creando un verificador de números primos."
+        ]
       },
       "lecture-understanding-how-http-dns-tcpip-work": {
         "title": "Entendiendo cómo funcionan HTTP, DNS y TCP/IP",
@@ -7532,12 +7532,6 @@
           "Aprenderás WebSockets de Node.js y transmisión de datos en tiempo real creando un monitor de recursos del sistema."
         ]
       },
-      "lab-chat-app": {
-        "title": "Construye una app de chat",
-        "intro": [
-          "Practica construir un servidor de chat en tiempo real para múltiples clientes usando WebSockets de Node.js."
-        ]
-      },
       "review-websockets": {
         "title": "Revisión de WebSockets",
         "intro": [
@@ -7548,6 +7542,12 @@
         "title": "Quiz de WebSockets",
         "intro": [
           "Pon a prueba tus conocimientos sobre WebSockets y Pub/Sub con este quiz."
+        ]
+      },
+      "lab-chat-app": {
+        "title": "Construye una app de chat",
+        "intro": [
+          "Practica construir un servidor de chat en tiempo real para múltiples clientes usando WebSockets de Node.js."
         ]
       },
       "lecture-understanding-security-and-privacy-in-web-applications": {
@@ -7580,12 +7580,6 @@
           "Aprenderás autenticación y autorización basada en roles creando una aplicación Express con rutas protegidas por JWT."
         ]
       },
-      "lab-family-movie-watchlist-api": {
-        "title": "Crear una API de lista de películas familiar",
-        "intro": [
-          "Practica implementar autenticación y autorización en una aplicación Express creando una API de lista de películas familiar."
-        ]
-      },
       "review-authentication-and-authorization": {
         "title": "Revisión de autenticación y autorización",
         "intro": [
@@ -7596,6 +7590,12 @@
         "title": "Quiz de autenticación y autorización",
         "intro": [
           "Pon a prueba tus conocimientos sobre los conceptos de autenticación y autorización cubiertos en este módulo."
+        ]
+      },
+      "lab-family-movie-watchlist-api": {
+        "title": "Crear una API de lista de películas familiar",
+        "intro": [
+          "Practica implementar autenticación y autorización en una aplicación Express creando una API de lista de películas familiar."
         ]
       },
       "review-back-end-development-and-apis": {
@@ -9641,7 +9641,7 @@
       "lecture-understanding-computer-internet-and-tooling-basics": {
         "title": "Comprender los conceptos básicos de computadoras, internet y herramientas",
         "intro": [
-          "En estas lecciones aprenderás sobre la computadora, sus diferentes partes, proveedores de servicios de internet (ISP) y las herramientas que usan los desarrolladores profesionales."
+          "En estas lecciones aprenderás sobre las computadoras y sus diferentes partes, cómo usar de forma segura el teclado y el ratón, cómo iniciar sesión en tu computadora de manera segura, los proveedores de servicios de internet (ISP) y las herramientas que usan los desarrolladores profesionales."
         ]
       },
       "lecture-working-with-file-systems": {

@@ -10,7 +10,7 @@ demoType: onClick
 
 في هذا المختبر ستستخدم أحداث النقر في JavaScript لتبديل مظهر أيقونة المفضلة. عند نقر أيقونة القلب، يتغير مظهر القلب من فارغ إلى ممتلئ، والعكس صحيح.
 
-**الهدف:** نفذ قصص المستخدم أدناه واجعل جميع الاختبارات تنجح لإكمال المختبر.
+**الهدف:** إكمال قصص المستخدم أدناه واجتياز جميع الاختبارات لإتمام المختبر.
 
 **قصص المستخدم:**
 
@@ -56,7 +56,7 @@ assert.exists(document.querySelector('ul li').textContent);
 assert.exists(document.querySelector('ul li button.favorite-icon'));
 ```
 
-في البداية، يجب أن تحتوي عناصر `button` على الشفرة `&#9825;` لتمثيل قلب فارغ.
+في البداية، يجب أن تحتوي عناصر `button` على الكود `&#9825;` لتمثيل قلب فارغ.
 
 ```js
 const inputs = document.querySelectorAll('ul li button.favorite-icon');

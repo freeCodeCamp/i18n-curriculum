@@ -37,7 +37,7 @@ HTML、JavaScript、CSS、ブートストラップ、SASS、React、Redux、jQue
 
 **ユーザーストーリー #11:** `#quote-box`ラッパー要素は水平方向に中央揃えにしてください。ブラウザのズームレベルを100％、ページを最大化した状態でテストを実行してください。
 
-<a href='https://codepen.io/pen?template=MJjpwO' target='_blank' rel="noopener noreferrer nofollow">このCodePenテンプレート</a>を使ってプロジェクトを作成し、`Save`をクリックして自分のペンを作成できます。別の環境を使う場合は、`<script>`ファイルのbody内に`index.html`タグを入れてください：`<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>`
+<a href='https://codepen.io/pen?template=MJjpwO' target='_blank' rel="noopener noreferrer nofollow">このCodePenテンプレート</a>を使ってプロジェクトを作成し、`Save`をクリックして自分のペンを作成できます。別の環境を使う場合は、`index.html`ファイルのbody内に`<script>`タグを入れてください：`<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>`
 
 完成したら、すべてのテストに合格した動作中のプロジェクトのURLを提出してください。
 

@@ -25,7 +25,9 @@ dashedName: what-are-examples-of-tree-structural-pseudo-classes
 
 让我们仔细看看每个树结构伪类，并附带示例。
 
-`:root` 伪类通常是根 `html` 元素。它帮助你定位文档中的最高级别，以便你可以为整个文档应用通用样式。     
+## `:root` 伪类
+
+`:root` 伪类通常是根 `html` 元素。它帮助你定位文档中的最高级别，以便你可以为整个文档应用通用样式。
 
 :::interactive_editor
 
@@ -55,6 +57,8 @@ dashedName: what-are-examples-of-tree-structural-pseudo-classes
 ```
 
 使用 CSS 变量，你可以保存值并在样式表中重复使用它们。你稍后会学习更多相关内容。
+
+## `:empty` 伪类
 
 空元素，即除了空白之外没有子元素的元素，也包含在文档树中。这就是为什么有一个 `:empty` 伪类来定位空元素。例如，这段超文本标记语言代码有两个空的列表项。使用 `:empty` 伪类，你可以对空的列表项进行不同的样式设置：
 
@@ -102,6 +106,8 @@ dashedName: what-are-examples-of-tree-structural-pseudo-classes
 
 :::
 
+## `:nth-child(n)` 和 `:nth-last-child(n)` 伪类
+
 `:nth-child(n)` 允许你根据元素在父元素中的位置选择元素，而 `:nth-last-child(n)` 使你能够从末尾开始计数选择元素。`n` 可以是具体数字或像 `odd` 或 `even` 这样的关键字。这在根据位置为表格单元格设置样式时非常有用：偶数和奇数。
 
 这是一个水果价格列表表格的超文本标记语言示例。CSS 使用 `:nth-child` 伪类根据奇数和偶数位置定位表格单元格：
@@ -148,6 +154,8 @@ tr:nth-child(odd) {
 
 :::
 
+## `:first-child`、`:last-child` 和 `:only-child` 伪类
+
 `:first-child`、`:last-child` 和 `:only-child` 伪类都作用于父容器内或整个文档中的项。
 
 - `:first-child` 选择父元素或文档中的第一个元素。
@@ -179,7 +187,7 @@ li:last-child {
 
 :::
 
-如果页面上有更多无序列表，你必须更具体地选择： 
+如果页面上有更多无序列表，你必须更具体地选择：
 
 为了向你展示 `:only-child` 伪类的工作原理，这里有一个包含两个独立 `div` 元素的超文本标记语言示例。使用 `:only-child` 伪类可确保只选择具有单个子元素的 `div` 元素：
 
@@ -206,6 +214,8 @@ li:last-child {
 ```
 
 :::
+
+## `:first-of-type` 和 `:last-of-type` 伪类
 
 `:first-of-type` 和 `:last-of-type` 伪类选择其父元素内特定元素类型的第一个和最后一个出现。它们对于为该元素类型在其兄弟元素中第一个或最后一个实例应用独特样式非常有用。
 
@@ -240,6 +250,8 @@ section p:last-of-type {
 
 :::
 
+## `:nth-of-type(n)` 伪类
+
 `:nth-of-type(n)` 允许你根据同类型兄弟元素中的位置选择其父元素内的特定元素。例如，在下面的超文本标记语言中，`:nth-of-type(2)` 选择容器中的第二个元素：
 
 :::interactive_editor
@@ -262,6 +274,8 @@ p:nth-of-type(2) {
 ```
 
 :::
+
+## `:only-of-type` 伪类
 
 `:only-of-type` 选择一个元素，如果它是其父元素中唯一的该类型元素。这对于强调单个项或确保当它们不属于某个组时样式不同非常有用。
 

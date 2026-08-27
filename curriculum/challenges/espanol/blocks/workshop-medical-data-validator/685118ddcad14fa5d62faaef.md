@@ -7,6 +7,8 @@ dashedName: step-33
 
 # --description--
 
+Los operadores `is` y `is not` verifican si dos valores se refieren al mismo objeto. Esto se llama comparación de identidad. Puedes usar `is None` para comprobar si un valor es el objeto `None`, y `is not None` para comprobar si no es el objeto `None`.
+
 Ahora agrega una clave `diagnosis` al diccionario `constraints`. Para su valor, escribe una expresión que verifique que `diagnosis` sea una instancia de `str` o sea `None`.
 
 # --hints--

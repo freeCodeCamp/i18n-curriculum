@@ -7,9 +7,9 @@ dashedName: step-11
 
 # --description--
 
-두 번째 `section` 요소 안에 텍스트 `h2`를 가진 `Importance of Networking` 요소를 중첩하세요.
+두 번째 `section` 요소 안에 텍스트 `Importance of Networking`를 가진 `h2` 요소를 중첩하세요.
 
-이 제목 아래에 값이 `cite`인 `https://www.freecodecamp.org/news/learn-to-code-book/` 속성을 가진 인용 블록 요소를 추가하세요.
+이 제목 아래에 값이 `https://www.freecodecamp.org/news/learn-to-code-book/`인 `cite` 속성을 가진 인용 블록 요소를 추가하세요.
 
 # --hints--
 

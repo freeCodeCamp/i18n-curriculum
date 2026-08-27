@@ -50,7 +50,7 @@ ENc50c4990
 
 - **مطوِّر:** `We should optimize the code before adding new features to avoid performance issues.`
 
-- **مدير:** `That makes sense. A slow app will frustrate users.` - هذا الشخص يوافق ويفهم لماذا تحسين الشفرة أولًا فكرة جيدة.
+- **المدير:** `That makes sense. A slow app will frustrate users.` - هذا الشخص يوافق ويفهم لماذا تحسين الكود أولاً فكرة جيدة.
 
 # --scene--
 

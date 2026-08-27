@@ -1504,7 +1504,7 @@
       "workshop-report-card-printer": {
         "title": "构建成绩单打印机",
         "intro": [
-          "在本工作坊中，你将构建一个成绩单打印机，练习使用 Python 的原语数据类型。"
+          "在本次工作坊中，你将通过创建和打印简单成绩单的数据，练习使用 Python 中的原语数据类型。"
         ]
       },
       "lecture-introduction-to-python-strings": {
@@ -6470,7 +6470,7 @@
       "workshop-report-card-printer": {
         "title": "创建成绩单打印机",
         "intro": [
-          "在本工作坊中，你将创建一个成绩单打印机来练习 Python 中的原语数据类型。"
+          "在本次工作坊中，你将通过创建和打印简单成绩单的数据，练习使用 Python 中的原语数据类型。"
         ]
       },
       "lecture-introduction-to-python-strings": {
@@ -7278,14 +7278,14 @@
           "通过构建家庭电影观看列表 API 练习在 Express 应用中实现认证和授权。"
         ]
       },
-      "back-end-development-and-apis-certification-exam": {
-        "intro": [
-          "通过此考试以获得后端开发与 API 认证。"
-        ]
-      },
       "review-back-end-development-and-apis": {
         "intro": [
           "复习后端开发与 API 概念，为即将到来的考试做准备。"
+        ]
+      },
+      "back-end-development-and-apis-certification-exam": {
+        "intro": [
+          "通过此考试以获得后端开发与 API 认证。"
         ]
       }
     },
@@ -7354,12 +7354,6 @@
           "你将通过构建大小写转换器学习如何初始化、配置和发布 NPM 模块。"
         ]
       },
-      "lab-prime-number-checker-module": {
-        "title": "创建素数检测模块",
-        "intro": [
-          "通过创建素数检测器，练习构建和导出 NPM 模块。"
-        ]
-      },
       "review-npm": {
         "title": "NPM 复习",
         "intro": ["复习 npm 概念，为即将到来的测验做准备。"]
@@ -7367,6 +7361,12 @@
       "quiz-npm": {
         "title": "NPM 测验",
         "intro": ["通过此测验检验你对 npm 的学习成果。"]
+      },
+      "lab-prime-number-checker-module": {
+        "title": "创建素数检测模块",
+        "intro": [
+          "通过创建素数检测器，练习构建和导出 NPM 模块。"
+        ]
       },
       "lecture-understanding-how-http-dns-tcpip-work": {
         "title": "理解 HTTP、DNS 和 TCP/IP 的工作原理",
@@ -7532,12 +7532,6 @@
           "你将通过构建系统资源监控器学习 Node.js 套接字和实时数据流。"
         ]
       },
-      "lab-chat-app": {
-        "title": "创建聊天应用",
-        "intro": [
-          "练习使用 Node.js WebSockets 构建实时多客户端聊天服务器。"
-        ]
-      },
       "review-websockets": {
         "title": "WebSockets 复习",
         "intro": [
@@ -7548,6 +7542,12 @@
         "title": "WebSockets 测验",
         "intro": [
           "通过此测验测试你对 WebSockets 和发布/订阅的知识。"
+        ]
+      },
+      "lab-chat-app": {
+        "title": "创建聊天应用",
+        "intro": [
+          "练习使用 Node.js WebSockets 构建实时多客户端聊天服务器。"
         ]
       },
       "lecture-understanding-security-and-privacy-in-web-applications": {
@@ -7580,12 +7580,6 @@
           "你将通过构建带有 JWT 保护路由的 Express 应用学习认证和基于角色的授权。"
         ]
       },
-      "lab-family-movie-watchlist-api": {
-        "title": "创建家庭电影观看列表 API",
-        "intro": [
-          "你将通过构建家庭电影观看列表 API 练习在 Express 应用中实现认证和授权。"
-        ]
-      },
       "review-authentication-and-authorization": {
         "title": "认证和授权复习",
         "intro": [
@@ -7596,6 +7590,12 @@
         "title": "认证和授权测验",
         "intro": [
           "测试你对本模块涵盖的认证和授权概念的理解。"
+        ]
+      },
+      "lab-family-movie-watchlist-api": {
+        "title": "创建家庭电影观看列表 API",
+        "intro": [
+          "你将通过构建家庭电影观看列表 API 练习在 Express 应用中实现认证和授权。"
         ]
       },
       "review-back-end-development-and-apis": {
@@ -9641,7 +9641,7 @@
       "lecture-understanding-computer-internet-and-tooling-basics": {
         "title": "理解计算机、互联网和工具基础",
         "intro": [
-          "在这些课程中，你将了解计算机及其不同部件、互联网服务提供商（ISP）以及专业开发者使用的工具。"
+          "在这些课程中，你将了解计算机及其不同部件，如何安全使用键盘和鼠标，如何安全登录计算机，互联网服务提供商（ISP），以及专业开发者使用的工具。"
         ]
       },
       "lecture-working-with-file-systems": {

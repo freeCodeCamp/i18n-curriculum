@@ -18,7 +18,7 @@ const final = innerOne("A");
 
 `innerOne` は `inner` 関数で、`num` は `1` に設定され、`final` は `id` の `"A1"` セルの値を持ちます。これは関数が作成時に宣言されたすべての変数にアクセスできるため可能です。これを<dfn>クロージャ</dfn>と呼びます。
 
-この練習をさらに行います。`addCharacters` パラメータを取る `character1` という関数を宣言してください。
+この練習をさらに行います。`character1` パラメータを取る `addCharacters` という関数を宣言してください。
 
 # --hints--
 

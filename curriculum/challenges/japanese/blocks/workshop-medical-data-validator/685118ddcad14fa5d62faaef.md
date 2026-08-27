@@ -7,6 +7,8 @@ dashedName: step-33
 
 # --description--
 
+`is` と `is not` 演算子は、2つの値が同じオブジェクトを参照しているかどうかをチェックします。これは同一性比較と呼ばれます。`is None` を使うと値が `None` オブジェクトかどうかを確認でき、`is not None` を使うと値が `None` オブジェクトでないかどうかを確認できます。
+
 `diagnosis` 辞書に `constraints` というキーを追加してください。その値には、`diagnosis` が `str` のインスタンスであるか、または `None` であるかをチェックする式を書いてください。
 
 # --hints--

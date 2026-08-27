@@ -839,7 +839,7 @@ dashedName: quiz-css-grid
 
 #### --text--
 
-ما الذي تحققه هذه الشفرة CSS؟
+ماذا يحقق هذا الكود CSS؟
 
 ```css
 .container {

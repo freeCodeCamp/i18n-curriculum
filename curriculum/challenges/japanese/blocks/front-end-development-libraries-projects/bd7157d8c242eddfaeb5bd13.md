@@ -29,7 +29,7 @@ HTML、JavaScript、CSS、ブートストラップ、SASS、React、Redux、jQue
 
 **オプションのボーナス（このテストに合格する必要はありません）:** マークダウンプレビューアーはキャリッジリターンを解釈し、`br`（改行）要素としてレンダリングします。
 
-<a href='https://codepen.io/pen?template=MJjpwO' target='_blank' rel="noopener noreferrer nofollow">このCodePenテンプレート</a>を使ってプロジェクトを作成し、`Save` をクリックして自分のペンを作成できます。別の環境を使いたい場合は、`<script>` ファイルの本文に `index.html` タグを入れてください：`<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>`
+<a href='https://codepen.io/pen?template=MJjpwO' target='_blank' rel="noopener noreferrer nofollow">このCodePenテンプレート</a>を使ってプロジェクトを作成し、`Save` をクリックして自分のペンを作成できます。別の環境を使いたい場合は、`index.html` ファイルの本文に `<script>` タグを入れてください：`<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>`
 
 完成したら、すべてのテストに合格した動作中のプロジェクトのURLを提出してください。
 

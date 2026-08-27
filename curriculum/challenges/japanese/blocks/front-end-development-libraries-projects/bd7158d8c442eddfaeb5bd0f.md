@@ -72,7 +72,7 @@ HTML、JavaScript、CSS、ブートストラップ、SASS、React、Redux、jQue
 
 **ユーザーストーリー #28:** `beep` のIDを持つオーディオ要素は、`reset` のIDを持つ要素がクリックされると再生を停止し、先頭に巻き戻されること。
 
-<a href='https://codepen.io/pen?template=MJjpwO' target='_blank' rel="noopener noreferrer nofollow">このCodePenテンプレート</a>を使い、`Save` をクリックして自分のペンを作成してプロジェクトを構築できます。別の環境を使いたい場合は、`<script>` ファイルの本文にこの `index.html` タグを入れてください：`<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>`
+<a href='https://codepen.io/pen?template=MJjpwO' target='_blank' rel="noopener noreferrer nofollow">このCodePenテンプレート</a>を使い、`Save` をクリックして自分のペンを作成してプロジェクトを構築できます。別の環境を使いたい場合は、`index.html` ファイルの本文にこの `<script>` タグを入れてください：`<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>`
 
 完成したら、すべてのテストに合格した動作中のプロジェクトのURLを提出してください。
 

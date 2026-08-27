@@ -1,6 +1,6 @@
 ---
 id: 698dca057932b3cc4b19c926
-title: البحث الخطي في الشفرة
+title: البحث الخطي في الكود
 challengeType: 11
 videoId: bKkgjdPkL3A
 dashedName: linear-search-in-code
@@ -8,7 +8,7 @@ dashedName: linear-search-in-code
 
 # --description--
 
-في هذا الفيديو، ستكتب شفرة خوارزمية البحث الخطي باستخدام Python.
+في هذا الفيديو، ستكتب كود خوارزمية البحث الخطي باستخدام Python.
 
 # --questions--
 

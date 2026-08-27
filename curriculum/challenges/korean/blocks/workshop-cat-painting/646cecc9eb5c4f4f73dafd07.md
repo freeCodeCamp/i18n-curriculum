@@ -11,19 +11,19 @@ dashedName: step-23
 
 # --hints--
 
-`.cat-left-ear` 선택자에 `position`로 설정된 `absolute` 속성이 있어야 합니다. 세미콜론을 잊지 마세요.
+`.cat-left-ear` 선택자에 `absolute`로 설정된 `position` 속성이 있어야 합니다. 세미콜론을 잊지 마세요.
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('.cat-left-ear')?.position, 'absolute')
 ```
 
-`.cat-left-ear` 선택자에 `top`로 설정된 `-26px` 속성이 있어야 합니다.
+`.cat-left-ear` 선택자에 `-26px`로 설정된 `top` 속성이 있어야 합니다.
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('.cat-left-ear')?.top, '-26px')
 ```
 
-`.cat-left-ear` 선택자에 `left`로 설정된 `-31px` 속성이 있어야 합니다.
+`.cat-left-ear` 선택자에 `-31px`로 설정된 `left` 속성이 있어야 합니다.
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('.cat-left-ear')?.left, '-31px')

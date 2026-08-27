@@ -7,7 +7,7 @@ dashedName: step-7
 
 # --description--
 
-تحتاج إلى واحدة أخرى من كتل شفرة `fieldset` هذه لـ `entertainment`.
+تحتاج إلى واحدة أخرى من كتل كود `fieldset` لـ `entertainment`.
 
 # --hints--
 

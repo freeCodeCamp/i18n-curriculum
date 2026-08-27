@@ -49,7 +49,7 @@ if condition:
     
 * `condition`는 `True` 또는 `False`으로 평가되는 표현식이며, 콜론(`:`)으로 끝납니다.
 
-* `if` 문의 본문은 <dfn>코드 블록</dfn>으로, 함께 묶인 문장 그룹입니다. Python에서는 들여쓰기 수준이 코드 블록을 정의합니다.
+* `if` 문 본문은 함께 속하는 명령문 그룹인 <dfn>코드 블록</dfn>을 구성합니다. 한 줄의 시작 부분에 있는 공백을 들여쓰기라고 합니다. Python에서는 들여쓰기가 어떤 명령문이 코드 블록에 속하는지 결정합니다.
     
 위 예제에서 `if` 문의 본문에는 `pass` 문이 포함되어 있습니다. `pass` 문이 실행되면 아무 일도 일어나지 않습니다. 이는 미래 코드를 위한 자리 표시자로 사용할 수 있는 특별한 키워드이며, 빈 코드 블록이 허용되지 않을 때 유용합니다.
 
@@ -62,7 +62,7 @@ if age >= 18:
     print('You are an adult') # You are an adult
 ```
 
-`print('You are an adult')` 앞의 들여쓰기에 주목하세요. 다른 프로그래밍 언어들은 중괄호 같은 문자를 사용해 코드 블록을 정의하고 들여쓰기는 가독성을 위해 사용하지만, Python에서는 들여쓰기가 코드 블록을 결정합니다.
+`print('You are an adult')` 앞의 네 칸 공백이 그 줄을 들여쓰기하여 `if` 블록 안에 포함시킵니다.
 
 다음 코드는 `IndentationError`를 발생시키는데, 이는 Python이 코드의 특정 지점에서 들여쓰기가 필요함을 알리는 방식입니다:
 
@@ -220,7 +220,7 @@ else:
 
 ## --answers--
 
-`You are an adult`가 콘솔에 출력됩니다.
+`You are an adult`가 터미널에 출력됩니다.
 
 ### --feedback--
 
@@ -228,7 +228,7 @@ else:
 
 ---
 
-`You are a teenager`가 콘솔에 출력됩니다.
+`You are a teenager`가 터미널에 출력됩니다.
 
 ### --feedback--
 
@@ -236,11 +236,11 @@ else:
 
 ---
 
-`You are a child`가 콘솔에 출력됩니다.
+`You are a child`가 터미널에 출력됩니다.
 
 ---
 
-오류가 콘솔에 출력됩니다.
+오류가 터미널에 출력됩니다.
 
 ### --feedback--
 

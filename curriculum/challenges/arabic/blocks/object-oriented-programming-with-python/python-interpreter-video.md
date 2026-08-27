@@ -18,7 +18,7 @@ dashedName: python-interpreter
 
 ## --answers--
 
-هذا برنامج يكتب شفرة بايثون نيابة عنك.
+هذا برنامج يكتب كود Python نيابة عنك.
 
 ---
 
@@ -30,7 +30,7 @@ dashedName: python-interpreter
 
 ---
 
-هذا برنامج يقرأ وينفذ شفرة بايثون.
+هذا برنامج يقرأ وينفذ كود Python.
 
 ## --video-solution--
 

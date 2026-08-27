@@ -20,7 +20,7 @@ dashedName: build-a-freecodecamp-forum-homepage
 
 **تلميح:** للحصول على أحدث 30 منشورًا في المنتدى: <https://forum-proxy.freecodecamp.rocks/latest>.
 
-عند الانتهاء، أضف رابط مشروعك على CodePen وانقر على زر "لقد أكملت هذا التحدٍّ".
+عند الانتهاء، أضف رابط مشروعك على CodePen وانقر على زر "لقد أكملت هذا التحدي".
 
 يمكنك الحصول على ملاحظات حول مشروعك بمشاركته في <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">منتدى freeCodeCamp</a>.
 

@@ -25,7 +25,9 @@ dashedName: what-are-examples-of-tree-structural-pseudo-classes
 
 讓我們仔細看看每個樹狀結構的偽類別，並附上範例。
 
-`:root` 偽類通常是根 `html` 元素。它幫助你標的文件中最高的層級，讓你可以為整個文件套用共用樣式。     
+## `:root` 偽類別
+
+`:root` 偽類通常是根 `html` 元素。它幫助你標的文件中最高的層級，讓你可以為整個文件套用共用樣式。
 
 :::interactive_editor
 
@@ -55,6 +57,8 @@ dashedName: what-are-examples-of-tree-structural-pseudo-classes
 ```
 
 使用 CSS 變數，你可以儲存數值並在樣式表中重複使用它們。你稍後會學到更多關於這些的內容。
+
+## `:empty` 偽類別
 
 空元素，也就是除了空白字元外沒有子元素的元素，也包含在文件樹中。這就是為什麼有 `:empty` 偽類別來標的空元素。<dfn>例如</dfn>，這段 HTML 程式碼有兩個空的列表項目。使用 `:empty` 偽類別，你可以對空的列表項目做不同的樣式設定：
 
@@ -102,6 +106,8 @@ dashedName: what-are-examples-of-tree-structural-pseudo-classes
 
 :::
 
+## `:nth-child(n)` 和 `:nth-last-child(n)` 偽類別
+
 `:nth-child(n)` 允許你根據元素在父元素中的位置來選取元素，而 `:nth-last-child(n)` 則啟用你從末端開始計數來選取元素。`n` 可以是特定數字或像 `odd` 或 `even` 這樣的關鍵字。這在根據位置為表格儲存格設定樣式時非常有用：偶數和奇數。
 
 這是一個水果價格列表表格的 HTML 範例。CSS 使用 `:nth-child` 偽類別來根據奇數和偶數位置標的表格儲存格：
@@ -148,6 +154,8 @@ tr:nth-child(odd) {
 
 :::
 
+## `:first-child`、`:last-child` 和 `:only-child` 偽類別
+
 `:first-child`、`:last-child` 和 `:only-child` 偽類皆作用於父容器內的條款或整個文件中的條款。
 
 - `:first-child` 選取父元素或文件中的第一個元素。
@@ -179,7 +187,7 @@ li:last-child {
 
 :::
 
-如果你在頁面上有更多無序列表，你必須更具體地選擇： 
+如果你在頁面上有更多無序列表，你必須更具體地選擇：
 
 為了向你展示 `:only-child` 偽類別的運作方式，這裡有一個包含兩個獨立 `div` 元素的 HTML 範例。使用 `:only-child` 偽類別可確保只選取具有單一子元素的 `div` 元素：
 
@@ -206,6 +214,8 @@ li:last-child {
 ```
 
 :::
+
+## `:first-of-type` 和 `:last-of-type` 偽類別
 
 `:first-of-type` 和 `:last-of-type` 偽類別會選取其父元素中指定元素型別的第一個和最後一個出現。它們對於為該元素型別在兄弟元素中第一個或最後一個實體套用獨特樣式非常有用。
 
@@ -240,6 +250,8 @@ section p:last-of-type {
 
 :::
 
+## `:nth-of-type(n)` 偽類別
+
 `:nth-of-type(n)` 允許你根據同類型兄弟元素中的位置，選取其父元素內的特定元素。例如，在以下 HTML 中，`:nth-of-type(2)` 標的為容器中的第二個元素：
 
 :::interactive_editor
@@ -262,6 +274,8 @@ p:nth-of-type(2) {
 ```
 
 :::
+
+## `:only-of-type` 偽類別
 
 `:only-of-type` 選取元素，當它是其父元素中唯一的該型別時。這對於強調單一條款或確保當它們不屬於群組時有不同的樣式非常有用。
 

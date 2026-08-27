@@ -14,7 +14,7 @@ dashedName: if-statements
 
 ## --text--
 
-ما هو الناتج المتوقع للشفرة التالية؟
+ما هو الناتج للكود التالي؟
 
 ```python
 is_male = True

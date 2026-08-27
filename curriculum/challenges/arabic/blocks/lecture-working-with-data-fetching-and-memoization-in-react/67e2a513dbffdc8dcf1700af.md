@@ -49,7 +49,7 @@ export async function saveTask(task) {
 }
 ```
 
-إليك الشفرة التي تضبط الخطاف `useOptimistic` عن طريق استيراده وتهيئته، مع دالة `handleSubmit` التي ترسل مُدخَلًا إلى الإجراء:
+إليك الكود الذي يُعد `useOptimistic` عن طريق استيراده وتهيئته، مع دالة `handleSubmit` التي ترسل مُدخَلًا إلى الإجراء:
 
 ```jsx
 "use client";
@@ -76,7 +76,7 @@ export default function TaskList({ tasks, addTask }) {
 }
 ```
 
-في الشفرة، يحتفظ الخطاف `useOptimistic` بقائمة مؤقتة من المهام تتحدث فورًا عند إضافة مهمة جديدة.
+في الكود، يحتفظ `useOptimistic` بقائمة مؤقتة من المهام تتحدث فورًا عند إضافة مهمة جديدة.
 
 السطر `(state, newTask) => [...state, { text: newTask, pending: true }]` يضمن ظهور مهمة جديدة بحالة معلقة حتى قبل أن يؤكد الخادم استلام شيء من النموذج.
 

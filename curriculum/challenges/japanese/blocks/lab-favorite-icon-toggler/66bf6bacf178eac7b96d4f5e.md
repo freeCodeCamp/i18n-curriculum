@@ -50,7 +50,7 @@ assert.exists(document.querySelector('ul.item-list'));
 assert.exists(document.querySelector('ul li').textContent);
 ```
 
-各リスト項目にはクラス`button`を持つ`favorite-icon`要素を含めてください。
+各リスト項目にはクラス`favorite-icon`を持つ`button`要素を含めてください。
 
 ```js
 assert.exists(document.querySelector('ul li button.favorite-icon'));

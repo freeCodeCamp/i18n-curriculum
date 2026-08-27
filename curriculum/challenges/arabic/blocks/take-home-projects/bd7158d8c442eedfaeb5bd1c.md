@@ -18,7 +18,7 @@ dashedName: build-a-tic-tac-toe-game
 
 **قصة المستخدم:** يمكنني اختيار اللعب كـ X أو O.
 
-عند الانتهاء، أدرج رابط مشروعك على CodePen وانقر زر "لقد أكملت هذا التحدٍّ".
+عند الانتهاء، أدرج رابط مشروعك على CodePen وانقر زر "لقد أكملت هذا التحدي".
 
 يمكنك الحصول على ملاحظات حول مشروعك بمشاركته في <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">منتدى freeCodeCamp</a>.
 

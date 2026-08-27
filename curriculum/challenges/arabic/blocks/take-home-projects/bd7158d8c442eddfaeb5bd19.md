@@ -20,7 +20,7 @@ dashedName: build-a-wikipedia-viewer
 
 **قصة المستخدم:** يمكنني النقر على زر لرؤية مدخل ويكيبيديا عشوائي.
 
-عندما تنتهي، أدرج رابط مشروعك على CodePen وانقر على زر "لقد أكملت هذا التحدٍّ".
+عندما تنتهي، أدرج رابط مشروعك على CodePen وانقر على زر "لقد أكملت هذا التحدي".
 
 يمكنك الحصول على ملاحظات حول مشروعك بمشاركته في <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">منتدى freeCodeCamp</a>.
 

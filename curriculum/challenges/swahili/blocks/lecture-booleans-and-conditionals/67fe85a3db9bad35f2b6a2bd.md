@@ -49,7 +49,7 @@ if condition:
     
 * `condition` ni usemi wa kihesabu unaotathmini kuwa `True` au `False`, ukifuatiwa na nukta mbili (`:`).
 
-* Mwili wa taarifa ya `if` ni kundi la taarifa zinazohusiana pamoja. Katika Python, kiwango cha kuingizwa (indentation) ndicho kinachobainisha kundi la msimbo.
+* Mwili wa tamko la `if` unajumuisha <dfn>kundi la msimbo</dfn>, ambalo ni kundi la tamko zinazohusiana. Nafasi mwanzoni mwa mstari huitwa kivutio. Katika Python, kivutio kinaamua tamko zipi zinahusiana na kundi la msimbo.
     
 Katika mfano hapo juu, mwili wa taarifa ya `if` una taarifa ya `pass`. Wakati taarifa ya `pass` inatekelezwa, hakuna kinachotokea. Hili ni neno kuu maalum linaloweza kutumika kama kiwakilishi cha msimbo wa baadaye na ni muhimu wakati mabano ya msimbo tupu hayaruhusiwi.
 
@@ -62,7 +62,7 @@ if age >= 18:
     print('You are an adult') # You are an adult
 ```
 
-Angalia kuingizwa kabla ya `print('You are an adult')`. Wakati lugha nyingine za programu hutumia herufi kama mabano ya mviringo kuainisha mabano ya msimbo, na hutumia kuingizwa tu kwa ajili ya urahisi wa kusoma, katika Python mabano ya msimbo huamuliwa kwa kuingizwa.
+Nafasi nne kabla ya `print('You are an adult')` zinavutia mstari huo na kuuweka ndani ya kundi la `if`.
 
 Msimbo ufuatao ungeleta `IndentationError`, ambayo ni njia ya Python kuashiria kwamba kuingizwa kunahitajika sehemu fulani ya msimbo:
 
@@ -163,7 +163,7 @@ else:
     print('You are a toddler or an infant') # You are a toddler or an infant
 ```
 
-Sasa unapoelewa jinsi opereta za kulinganisha na taarifa za masharti zinavyofanya kazi katika Python, unaweza kuanza kuandika programu zinazofanya maamuzi kulingana na mantiki na ingizo. Iwe unalinganisha thamani au kuzunguka kupitia masharti mengi, zana hizi ni msingi wa kuandika msimbo unaojibadilisha kulingana na kifaa. 
+Sasa unapoelewa jinsi opereta za kulinganisha na taarifa za masharti zinavyofanya kazi katika Python, unaweza kuanza kuandika programu zinazofanya maamuzi kulingana na mantiki na ingizo. Iwe unalinganisha thamani au kuzunguka kupitia masharti mengi, zana hizi ni msingi wa kuandika msimbo unaojibadilisha kulingana na kifaa.
 
 # --questions--
 
@@ -205,7 +205,7 @@ Opereta hizi hukagua mambo kama usawa au ni thamani gani kubwa zaidi, na matokeo
 
 ## --text--
 
-Matokeo ya msimbo ufuatao yatakuwa yapi?
+Matokeo ya msimbo ufuatao yatakuwa nini?
 
 ```python
 age = 12
@@ -220,7 +220,7 @@ else:
 
 ## --answers--
 
-`You are an adult` itachapishwa kwenye konsoli.
+`You are an adult` itachapishwa kwenye terminali.
 
 ### --feedback--
 
@@ -228,7 +228,7 @@ Kagua sehemu ya mwisho ya funzo kwa jibu sahihi.
 
 ---
 
-`You are a teenager` itachapishwa kwenye konsoli.
+`You are a teenager` itachapishwa kwenye terminali.
 
 ### --feedback--
 
@@ -236,11 +236,11 @@ Kagua sehemu ya mwisho ya funzo kwa jibu sahihi.
 
 ---
 
-`You are a child` itachapishwa kwenye konsoli.
+`You are a child` itachapishwa kwenye terminali.
 
 ---
 
-Hitilafu itachapishwa kwenye konsoli.
+Hitilafu itachapishwa kwenye terminali.
 
 ### --feedback--
 

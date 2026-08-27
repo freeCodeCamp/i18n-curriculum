@@ -49,7 +49,7 @@ if condition:
     
 * `condition` ist ein Ausdruck, der zu `True` oder `False` ausgewertet wird, gefolgt von einem Doppelpunkt (`:`).
 
-* Der Körper der `if`-Anweisung bildet einen <dfn>Codeblock</dfn>, eine Gruppe von Anweisungen, die zusammengehören. In Python definiert die Einrückungsebene einen Codeblock.
+* Der Körper der `if`-Anweisung bildet einen <dfn>Codeblock</dfn>, also eine Gruppe von Anweisungen, die zusammengehören. Leerzeichen am Anfang einer Zeile nennt man Einrückung. In Python bestimmt die Einrückung, welche Anweisungen zu einem Codeblock gehören.
     
 Im obigen Beispiel enthält der Körper der `if`-Anweisung eine `pass`-Anweisung. Wenn eine `pass`-Anweisung ausgeführt wird, passiert nichts. Dies ist ein spezielles Schlüsselwort, das als Platzhalter für zukünftigen Code verwendet werden kann und nützlich ist, wenn leere Codeblöcke nicht erlaubt sind.
 
@@ -62,7 +62,7 @@ if age >= 18:
     print('You are an adult') # You are an adult
 ```
 
-Beachten Sie die Einrückung vor `print('You are an adult')`. Während andere Programmiersprachen Zeichen wie geschweifte Klammern verwenden, um Codeblöcke zu definieren, und Einrückungen nur zur Lesbarkeit nutzen, werden in Python Codeblöcke durch Einrückung bestimmt.
+Die vier Leerzeichen vor `print('You are an adult')` rücken diese Zeile ein und platzieren sie innerhalb des `if`-Blocks.
 
 Der folgende Code würde einen `IndentationError` auslösen, was in Python bedeutet, dass an einer bestimmten Stelle im Code eine Einrückung erforderlich ist:
 
@@ -205,7 +205,7 @@ Diese Operatoren prüfen Dinge wie Gleichheit oder welcher Wert größer ist, un
 
 ## --text--
 
-Was wird das Ergebnis für den folgenden Code sein?
+Was wird das Ergebnis des folgenden Codes sein?
 
 ```python
 age = 12
@@ -220,7 +220,7 @@ else:
 
 ## --answers--
 
-`You are an adult` wird in der Konsole ausgegeben.
+`You are an adult` wird im Terminal ausgegeben.
 
 ### --feedback--
 
@@ -228,7 +228,7 @@ else:
 
 ---
 
-`You are a teenager` wird in der Konsole ausgegeben.
+`You are a teenager` wird im Terminal ausgegeben.
 
 ### --feedback--
 
@@ -236,11 +236,11 @@ else:
 
 ---
 
-`You are a child` wird in der Konsole ausgegeben.
+`You are a child` wird im Terminal ausgegeben.
 
 ---
 
-Ein Fehler wird in der Konsole ausgegeben.
+Ein Fehler wird im Terminal ausgegeben.
 
 ### --feedback--
 

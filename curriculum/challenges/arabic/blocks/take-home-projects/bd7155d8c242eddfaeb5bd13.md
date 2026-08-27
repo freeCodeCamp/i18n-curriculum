@@ -26,7 +26,7 @@ dashedName: build-a-recipe-box
 
 **تلميح:** يجب أن تضع بادئة لمفاتيح التخزين المحلي على CodePen، مثل `_username_recipes`
 
-عند الانتهاء، أدرج رابط مشروعك على CodePen وانقر على زر "لقد أكملت هذا التحدٍّ".
+عند الانتهاء، أدرج رابط مشروعك على CodePen وانقر على زر "لقد أكملت هذا التحدي".
 
 يمكنك الحصول على ملاحظات حول مشروعك بمشاركته في <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">منتدى freeCodeCamp</a>.
 

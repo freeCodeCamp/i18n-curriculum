@@ -25,6 +25,8 @@ Hier ist eine Liste baumstrukturierter Pseudoklassen:
 
 Werfen wir einen genaueren Blick auf jede der baumstrukturierten Pseudoklassen, begleitet von Beispielen.
 
+## Die `:root`-Pseudoklasse
+
 Die `:root`-Pseudoklasse ist normalerweise das Wurzel-`html`-Element. Sie hilft Ihnen, die höchste Ebene im Dokument anzusprechen, damit Sie einen gemeinsamen Stil auf das gesamte Dokument anwenden können.
 
 :::interactive_editor
@@ -55,6 +57,8 @@ Die `:root`-Pseudoklasse wird auch häufig zum Setzen von CSS-Variablen verwende
 ```
 
 Mit CSS-Variablen können Sie Werte speichern und in Ihrem Stylesheet wiederverwenden. Mehr dazu lernen Sie später.
+
+## Die `:empty`-Pseudoklasse
 
 Leere Elemente, also Elemente ohne Kinder außer Leerraum, sind ebenfalls Teil des Dokumentbaums. Deshalb gibt es eine `:empty`-Pseudoklasse, um leere Elemente anzusprechen. Zum Beispiel enthält dieser HTML-Code zwei leere Listenelemente. Mit der `:empty`-Pseudoklasse können Sie die leeren Listenelemente anders stylen:
 
@@ -102,6 +106,8 @@ Das Praktischste bei den leeren Listenelementen ist wahrscheinlich, sie gar nich
 
 :::
 
+## Die `:nth-child(n)`- und `:nth-last-child(n)`-Pseudoklassen
+
 `:nth-child(n)` ermöglicht es Ihnen, Elemente basierend auf ihrer Position innerhalb eines Elternteils auszuwählen, während `:nth-last-child(n)` Elemente vom Ende her zählt. `n` kann eine bestimmte Zahl oder ein Schlüsselwort wie `odd` oder `even` sein. Das ist besonders nützlich, um Tabellenzellen basierend auf ihrer Position zu stylen: gerade und ungerade.
 
 Hier ist ein HTML-Beispiel einer Obstpreistabelle. Das CSS verwendet die `:nth-child`-Pseudoklasse, um die Tabellenzellen basierend auf ungeraden und geraden Positionen anzusprechen:
@@ -147,6 +153,8 @@ tr:nth-child(odd) {
 ```
 
 :::
+
+## Die `:first-child`-, `:last-child`- und `:only-child`-Pseudoklassen
 
 Die `:first-child`-, `:last-child`- und `:only-child`-Pseudoklassen wirken alle auf Elemente innerhalb eines übergeordneten Containers oder des gesamten Dokuments.
 
@@ -207,6 +215,8 @@ Um zu zeigen, wie die `:only-child`-Pseudoklasse funktioniert, hier ein HTML-Bei
 
 :::
 
+## Die `:first-of-type`- und `:last-of-type`-Pseudoklassen
+
 Die `:first-of-type`- und `:last-of-type`-Pseudoklassen wählen das erste und letzte Vorkommen eines bestimmten Elementtyps innerhalb seines Elternteils aus. Sie sind nützlich, um einzigartiges Styling auf das erste oder letzte Element dieses Typs unter seinen Geschwistern anzuwenden.
 
 Im folgenden Beispiel gelten `:first-of-type` und `:last-of-type` für das erste und letzte Element innerhalb des `section`-Elements:
@@ -240,6 +250,8 @@ section p:last-of-type {
 
 :::
 
+## Die `:nth-of-type(n)`-Pseudoklasse
+
 `:nth-of-type(n)` ermöglicht es Ihnen, ein bestimmtes Element innerhalb seines Elternteils basierend auf seiner Position unter Geschwistern desselben Typs auszuwählen. Zum Beispiel zielt `:nth-of-type(2)` im folgenden HTML auf das zweite Element im Container ab:
 
 :::interactive_editor
@@ -262,6 +274,8 @@ p:nth-of-type(2) {
 ```
 
 :::
+
+## Die `:only-of-type`-Pseudoklasse
 
 `:only-of-type` wählt ein Element aus, wenn es das einzige seiner Art innerhalb seines Elternteils ist. Das kann nützlich sein, um einzelne Elemente hervorzuheben oder sicherzustellen, dass sie anders gestylt werden, wenn sie nicht Teil einer Gruppe sind.
 

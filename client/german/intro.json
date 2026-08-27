@@ -1504,7 +1504,7 @@
       "workshop-report-card-printer": {
         "title": "Erstellen Sie einen Zeugnisdrucker",
         "intro": [
-          "In diesem Workshop bauen Sie einen Zeugnisdrucker, um mit primitiven Datentypen in Python zu arbeiten."
+          "In diesem Workshop üben Sie den Umgang mit primitiven Datentypen in Python, indem Sie Daten für ein einfaches Zeugnis erstellen und ausgeben."
         ]
       },
       "lecture-introduction-to-python-strings": {
@@ -6470,7 +6470,7 @@
       "workshop-report-card-printer": {
         "title": "Erstellen Sie einen Zeugnisdrucker",
         "intro": [
-          "In diesem Workshop erstellen Sie einen Zeugnisdrucker, um mit primitiven Datentypen in Python zu arbeiten."
+          "In diesem Workshop üben Sie den Umgang mit primitiven Datentypen in Python, indem Sie Daten für ein einfaches Zeugnis erstellen und ausgeben."
         ]
       },
       "lecture-introduction-to-python-strings": {
@@ -7278,14 +7278,14 @@
           "Üben Sie die Implementierung von Authentifizierung und Autorisierung in einer Express-Anwendung, indem Sie eine API für eine Familien-Film-Watchlist erstellen."
         ]
       },
-      "back-end-development-and-apis-certification-exam": {
-        "intro": [
-          "Bestehen Sie diese Prüfung, um Ihre Zertifizierung für Back-End-Entwicklung und APIs zu erhalten."
-        ]
-      },
       "review-back-end-development-and-apis": {
         "intro": [
           "Überprüfen Sie Konzepte der Back-End-Entwicklung und APIs, um sich auf die bevorstehende Prüfung vorzubereiten."
+        ]
+      },
+      "back-end-development-and-apis-certification-exam": {
+        "intro": [
+          "Bestehen Sie diese Prüfung, um Ihre Zertifizierung für Back-End-Entwicklung und APIs zu erhalten."
         ]
       }
     },
@@ -7354,12 +7354,6 @@
           "Sie lernen, wie Sie ein npm-Modul initialisieren, konfigurieren und veröffentlichen, indem Sie einen Groß-/Kleinschreibungs-Konverter erstellen."
         ]
       },
-      "lab-prime-number-checker-module": {
-        "title": "Erstellen Sie ein Modul zum Prüfen von Primzahlen",
-        "intro": [
-          "Üben Sie das Erstellen und Exportieren eines NPM-Moduls, indem Sie einen Primzahlprüfer erstellen."
-        ]
-      },
       "review-npm": {
         "title": "Überblick npm",
         "intro": ["Wiederholen Sie npm-Konzepte, um sich auf das kommende Quiz vorzubereiten."]
@@ -7367,6 +7361,12 @@
       "quiz-npm": {
         "title": "npm-Quiz",
         "intro": ["Testen Sie Ihr Wissen über npm in diesem Quiz."]
+      },
+      "lab-prime-number-checker-module": {
+        "title": "Erstellen Sie ein Modul zum Prüfen von Primzahlen",
+        "intro": [
+          "Üben Sie das Erstellen und Exportieren eines NPM-Moduls, indem Sie einen Primzahlprüfer erstellen."
+        ]
       },
       "lecture-understanding-how-http-dns-tcpip-work": {
         "title": "Verstehen, wie HTTP, DNS und TCP/IP funktionieren",
@@ -7532,12 +7532,6 @@
           "Sie lernen Node.js-WebSockets und Echtzeit-Datenstreaming kennen, indem Sie einen Systemressourcenmonitor erstellen."
         ]
       },
-      "lab-chat-app": {
-        "title": "Erstellen Sie eine Chat-App",
-        "intro": [
-          "Üben Sie den Aufbau eines Echtzeit-Mehrclient-Chatservers mit Node.js WebSockets."
-        ]
-      },
       "review-websockets": {
         "title": "Überprüfung der WebSockets",
         "intro": [
@@ -7548,6 +7542,12 @@
         "title": "WebSockets-Quiz",
         "intro": [
           "Testen Sie Ihr Wissen über WebSockets und Pub/Sub mit diesem Quiz."
+        ]
+      },
+      "lab-chat-app": {
+        "title": "Erstellen Sie eine Chat-App",
+        "intro": [
+          "Üben Sie den Aufbau eines Echtzeit-Mehrclient-Chatservers mit Node.js WebSockets."
         ]
       },
       "lecture-understanding-security-and-privacy-in-web-applications": {
@@ -7580,12 +7580,6 @@
           "Sie lernen Authentifizierung und rollenbasierte Autorisierung kennen, indem Sie eine Express-Anwendung mit JWT-geschützten Routen erstellen."
         ]
       },
-      "lab-family-movie-watchlist-api": {
-        "title": "Erstellen Sie eine Familien-Film-Watchlist-API",
-        "intro": [
-          "Üben Sie die Implementierung von Authentifizierung und Autorisierung in einer Express-Anwendung, indem Sie eine Familien-Film-Watchlist-API erstellen."
-        ]
-      },
       "review-authentication-and-authorization": {
         "title": "Überprüfung von Authentifizierung und Autorisierung",
         "intro": [
@@ -7596,6 +7590,12 @@
         "title": "Quiz zu Authentifizierung und Autorisierung",
         "intro": [
           "Testen Sie Ihr Wissen über die in diesem Modul behandelten Konzepte zu Authentifizierung und Autorisierung."
+        ]
+      },
+      "lab-family-movie-watchlist-api": {
+        "title": "Erstellen Sie eine Familien-Film-Watchlist-API",
+        "intro": [
+          "Üben Sie die Implementierung von Authentifizierung und Autorisierung in einer Express-Anwendung, indem Sie eine Familien-Film-Watchlist-API erstellen."
         ]
       },
       "review-back-end-development-and-apis": {
@@ -9641,7 +9641,7 @@
       "lecture-understanding-computer-internet-and-tooling-basics": {
         "title": "Grundlagen zu Computer, Internet und Werkzeugen verstehen",
         "intro": [
-          "In diesen Lektionen lernen Sie den Computer, seine verschiedenen Teile, Internetanbieter (ISPs) und die Werkzeuge, die professionelle Entwickler verwenden, kennen."
+          "In diesen Lektionen lernen Sie Computer und ihre verschiedenen Teile kennen, wie Sie sicher mit Tastatur und Maus arbeiten, sich sicher an Ihrem Computer anmelden, Internetdienstanbieter (ISPs) sowie die Werkzeuge, die professionelle Entwickler verwenden."
         ]
       },
       "lecture-working-with-file-systems": {

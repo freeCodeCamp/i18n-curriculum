@@ -47,7 +47,7 @@ assert.strictEqual(
 );
 ```
 
-Catsの`img`要素には値が`alt`の`Two tabby kittens sleeping together on a couch.`属性が必要です。
+Catsの`img`要素には値が`Two tabby kittens sleeping together on a couch.`の`alt`属性が必要です。
 
 ```js
 const catsImg = document.querySelectorAll('figure > img')[1];

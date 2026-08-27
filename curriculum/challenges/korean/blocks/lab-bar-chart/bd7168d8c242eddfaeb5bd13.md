@@ -1407,13 +1407,13 @@ const timeout = (milliseconds) =>
 assert.exists(document.getElementById('title'));
 ```
 
-차트에는 해당 id `g`가 있는 `x-axis` 요소 x축이 있어야 합니다.
+차트에는 해당 id `x-axis`가 있는 `g` 요소 x축이 있어야 합니다.
 
 ```js
 assert.isNotEmpty(document.querySelector('g#x-axis'))
 ```
 
-차트에는 해당 id `g`가 있는 `y-axis` 요소 y축이 있어야 합니다.
+차트에는 해당 id `y-axis`가 있는 `g` 요소 y축이 있어야 합니다.
 
 ```js
 assert.isNotEmpty(document.querySelector('g#y-axis'))

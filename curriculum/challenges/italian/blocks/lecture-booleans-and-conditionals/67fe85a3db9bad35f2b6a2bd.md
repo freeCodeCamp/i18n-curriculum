@@ -49,7 +49,7 @@ if condition:
     
 * `condition` è un’espressione che valuta a `True` o `False`, seguita da due punti (`:`).
 
-* Il corpo dell’istruzione `if` costituisce un <dfn>blocco di codice</dfn>, cioè un gruppo di istruzioni che stanno insieme. In Python, il livello di indentazione definisce un blocco di codice.
+* Il corpo dell'istruzione `if` costituisce un <dfn>blocco di codice</dfn>, che è un gruppo di istruzioni che appartengono insieme. Gli spazi all'inizio di una riga si chiamano indentazione. In Python, l'indentazione determina quali istruzioni appartengono a un blocco di codice.
     
 Nell’esempio sopra, il corpo dell’istruzione `if` contiene un’istruzione `pass`. Quando viene eseguita un’istruzione `pass`, non succede nulla. Questa è una parola chiave speciale che può essere usata come segnaposto per codice futuro ed è utile quando non sono permessi blocchi di codice vuoti.
 
@@ -62,7 +62,7 @@ if age >= 18:
     print('You are an adult') # You are an adult
 ```
 
-Nota l’indentazione prima di `print('You are an adult')`. Mentre altri linguaggi di programmazione usano caratteri come le parentesi graffe per definire i blocchi di codice e usano l’indentazione solo per leggibilità, in Python i blocchi di codice sono determinati dall’indentazione.
+I quattro spazi prima di `print('You are an adult')` indentano quella riga e la collocano all'interno del blocco `if`.
 
 Il codice seguente genererebbe un `IndentationError`, che è il modo di Python per segnalare che è richiesta l’indentazione in un certo punto del codice:
 
@@ -220,7 +220,7 @@ else:
 
 ## --answers--
 
-`You are an adult` verrà stampato nella console.
+`You are an adult` verrà stampato nel terminale.
 
 ### --feedback--
 
@@ -228,7 +228,7 @@ Rivedi l’ultima parte della lezione per la risposta corretta.
 
 ---
 
-`You are a teenager` verrà stampato nella console.
+`You are a teenager` verrà stampato nel terminale.
 
 ### --feedback--
 
@@ -236,11 +236,11 @@ Rivedi l’ultima parte della lezione per la risposta corretta.
 
 ---
 
-`You are a child` verrà stampato nella console.
+`You are a child` verrà stampato nel terminale.
 
 ---
 
-Verrà stampato un errore nella console.
+Un errore verrà stampato nel terminale.
 
 ### --feedback--
 

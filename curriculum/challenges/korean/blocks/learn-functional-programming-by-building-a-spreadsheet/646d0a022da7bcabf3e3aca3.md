@@ -18,7 +18,7 @@ const final = innerOne("A");
 
 `innerOne`는 `inner` 함수가 되고, `num`는 `1`로 설정되며, `final`는 `id`의 `"A1"` 셀 값을 갖게 됩니다. 이는 함수가 생성될 때 선언된 모든 변수에 접근할 수 있기 때문에 가능합니다. 이를 <dfn>클로저</dfn>라고 합니다.
 
-이것을 더 연습할 것입니다. `addCharacters` 매개변수를 받는 `character1` 함수를 선언하세요.
+이것을 더 연습할 것입니다. `character1` 매개변수를 받는 `addCharacters` 함수를 선언하세요.
 
 # --hints--
 

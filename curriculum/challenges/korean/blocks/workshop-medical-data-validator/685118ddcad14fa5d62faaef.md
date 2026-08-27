@@ -1,11 +1,13 @@
 ---
 id: 685118ddcad14fa5d62faaef
-title: 33단계
+title: 단계 33
 challengeType: 20
 dashedName: step-33
 ---
 
 # --description--
+
+`is`와 `is not` 연산자는 두 값이 같은 객체를 가리키는지 확인합니다. 이를 동일성 비교라고 합니다. `is None`을 사용해 값이 `None` 객체인지 확인할 수 있고, `is not None`을 사용해 값이 `None` 객체가 아닌지 확인할 수 있습니다.
 
 이제 `diagnosis` 딕셔너리에 `constraints` 키를 추가하세요. 그 값으로 `diagnosis`가 `str`의 인스턴스이거나 `None`인지 확인하는 표현식을 작성하세요.
 

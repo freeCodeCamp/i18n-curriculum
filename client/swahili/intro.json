@@ -1504,7 +1504,7 @@
       "workshop-report-card-printer": {
         "title": "Jenga Kifaa cha Kuchapisha Kadi ya Ripoti",
         "intro": [
-          "Katika warsha hii, utajenga kifaa cha kuchapisha kadi ya ripoti ili kufanya kazi na aina za data za msingi katika Python."
+          "Katika warsha hii, utajifunza kufanya kazi na aina za data za msingi katika Python kwa kuunda na kuchapisha data kwa ajili ya karatasi ya ripoti rahisi."
         ]
       },
       "lecture-introduction-to-python-strings": {
@@ -6470,7 +6470,7 @@
       "workshop-report-card-printer": {
         "title": "Jenga chapishaji wa kadi ya ripoti",
         "intro": [
-          "Katika warsha hii, utajenga chapishaji wa kadi ya ripoti kufanya kazi na aina za data za msingi katika Python."
+          "Katika warsha hii, utajifunza kufanya kazi na aina za data za msingi katika Python kwa kuunda na kuchapisha data kwa ajili ya karatasi ya ripoti rahisi."
         ]
       },
       "lecture-introduction-to-python-strings": {
@@ -7278,14 +7278,14 @@
           "Jifunze kutekeleza uthibitisho wa utambulisho na idhini katika programu ya Express kwa kujenga API ya orodha ya filamu za familia."
         ]
       },
-      "back-end-development-and-apis-certification-exam": {
-        "intro": [
-          "Pita mtihani huu ili kupata cheti chako cha ukuzaji wa nyuma na APIs."
-        ]
-      },
       "review-back-end-development-and-apis": {
         "intro": [
           "Kagua dhana za ukuzaji wa nyuma na APIs kujiandaa kwa mtihani ujao."
+        ]
+      },
+      "back-end-development-and-apis-certification-exam": {
+        "intro": [
+          "Pita mtihani huu ili kupata cheti chako cha ukuzaji wa nyuma na APIs."
         ]
       }
     },
@@ -7354,12 +7354,6 @@
           "Utajifunza jinsi ya kuanzisha, kusanidi, na kuchapisha moduli ya npm kwa kujenga mabadilishaji wa herufi."
         ]
       },
-      "lab-prime-number-checker-module": {
-        "title": "Jenga moduli ya kipimaji cha namba msingi",
-        "intro": [
-          "Fanya mazoezi ya kujenga na kusafirisha moduli ya NPM kwa kuunda kipimaji cha namba msingi."
-        ]
-      },
       "review-npm": {
         "title": "Kagua npm",
         "intro": ["Kagua dhana za npm kujiandaa kwa jaribio lijalo."]
@@ -7367,6 +7361,12 @@
       "quiz-npm": {
         "title": "Jaribio la npm",
         "intro": ["Jaribu kile ulichojifunza kuhusu npm katika jaribio hili."]
+      },
+      "lab-prime-number-checker-module": {
+        "title": "Jenga moduli ya kipimaji cha namba msingi",
+        "intro": [
+          "Fanya mazoezi ya kujenga na kusafirisha moduli ya NPM kwa kuunda kipimaji cha namba msingi."
+        ]
       },
       "lecture-understanding-how-http-dns-tcpip-work": {
         "title": "Elewa jinsi HTTP, DNS na TCP/IP zinavyofanya kazi",
@@ -7532,12 +7532,6 @@
           "Utajifunza WebSockets za Node.js na mtiririko wa data wa wakati halisi kwa kujenga kielezi cha rasilimali za mfumo."
         ]
       },
-      "lab-chat-app": {
-        "title": "Jenga programu ya mazungumzo",
-        "intro": [
-          "Fanya mazoezi ya kujenga seva ya mazungumzo ya papo hapo yenye wateja wengi kwa kutumia Node.js WebSockets."
-        ]
-      },
       "review-websockets": {
         "title": "Kagua WebSockets",
         "intro": [
@@ -7548,6 +7542,12 @@
         "title": "Jaribio fupi la WebSockets",
         "intro": [
           "Jaribu maarifa yako kuhusu WebSockets na Pub/Sub kwa jaribio hili."
+        ]
+      },
+      "lab-chat-app": {
+        "title": "Jenga programu ya mazungumzo",
+        "intro": [
+          "Fanya mazoezi ya kujenga seva ya mazungumzo ya papo hapo yenye wateja wengi kwa kutumia Node.js WebSockets."
         ]
       },
       "lecture-understanding-security-and-privacy-in-web-applications": {
@@ -7580,12 +7580,6 @@
           "Utajifunza uthibitisho wa utambulisho na idhini inayotegemea majukumu kwa kujenga programu ya Express yenye njia zilizo na ulinzi wa JWT."
         ]
       },
-      "lab-family-movie-watchlist-api": {
-        "title": "Jenga API ya orodha ya filamu za familia",
-        "intro": [
-          "Fanya mazoezi ya kutekeleza uthibitisho wa utambulisho na idhini katika programu ya Express kwa kujenga API ya orodha ya filamu za familia."
-        ]
-      },
       "review-authentication-and-authorization": {
         "title": "Kagua uthibitisho wa utambulisho na idhini",
         "intro": [
@@ -7596,6 +7590,12 @@
         "title": "Jaribio fupi la uthibitisho wa utambulisho na idhini",
         "intro": [
           "Jaribu maarifa yako kuhusu dhana za uthibitisho wa utambulisho na idhini zilizojadiliwa katika moduli hii."
+        ]
+      },
+      "lab-family-movie-watchlist-api": {
+        "title": "Jenga API ya orodha ya filamu za familia",
+        "intro": [
+          "Fanya mazoezi ya kutekeleza uthibitisho wa utambulisho na idhini katika programu ya Express kwa kujenga API ya orodha ya filamu za familia."
         ]
       },
       "review-back-end-development-and-apis": {
@@ -9641,7 +9641,7 @@
       "lecture-understanding-computer-internet-and-tooling-basics": {
         "title": "Kuelewa Misingi ya Kompyuta, Mtandao, na Zana",
         "intro": [
-          "Katika mafundisho haya, utajifunza kuhusu kompyuta, sehemu zake tofauti, watoa huduma za mtandao (ISP), na zana zinazotumiwa na wasanidi programu wa kitaalamu."
+          "Katika mafundisho haya, utajifunza kuhusu kompyuta na sehemu zake tofauti, jinsi ya kutumia kibodi na panya kwa usalama, jinsi ya kuingia kwenye kompyuta yako kwa usalama, watoa huduma za intaneti (ISP), na zana zinazotumiwa na wasanidi programu wa kitaalamu."
         ]
       },
       "lecture-working-with-file-systems": {

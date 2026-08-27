@@ -20,7 +20,7 @@ dashedName: show-national-contiguity-with-a-force-directed-graph
 
 **تلميح:** يمكنك إنشاء ورقة صور لأعلام الدول على <https://www.flag-sprites.com>.
 
-عند الانتهاء، أدرج رابط مشروعك على CodePen وانقر على زر "لقد أكملت هذا التحدٍّ".
+عند الانتهاء، أدرج رابط مشروعك على CodePen وانقر على زر "لقد أكملت هذا التحدي".
 
 يمكنك الحصول على ملاحظات حول مشروعك بمشاركته في <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">منتدى freeCodeCamp</a>.
 

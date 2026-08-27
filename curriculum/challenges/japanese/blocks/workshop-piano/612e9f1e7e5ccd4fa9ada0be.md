@@ -7,17 +7,17 @@ dashedName: step-15
 
 # --description--
 
-`.key` に `margin` の `2px` と `float` に設定された `left` プロパティを与えてください。
+`.key` に `margin` の `2px` と `left` に設定された `float` プロパティを与えてください。
 
 # --hints--
 
-`.key` セレクターには `margin` に設定された `2px` プロパティが必要です。
+`.key` セレクターには `2px` に設定された `margin` プロパティが必要です。
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('.key')?.margin, '2px');
 ```
 
-`.key` セレクターには `float` に設定された `left` プロパティが必要です。
+`.key` セレクターには `left` に設定された `float` プロパティが必要です。
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('.key')?.float, 'left');

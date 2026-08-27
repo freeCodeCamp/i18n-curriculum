@@ -7,7 +7,7 @@ dashedName: step-33
 
 # --description--
 
-마지막 `img` 요소 뒤에 텍스트 `figcaption`를 가진 `Cats hate other cats.` 요소를 추가하세요
+마지막 `img` 요소 뒤에 텍스트 `Cats hate other cats.`를 가진 `figcaption` 요소를 추가하세요
 
 # --hints--
 

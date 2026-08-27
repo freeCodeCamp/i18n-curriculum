@@ -7,7 +7,7 @@ dashedName: step-31
 
 # --description--
 
-先ほど追加した`figure`要素の中に、`img`属性が`src`に設定された`https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg`要素をネストしてください。
+先ほど追加した`figure`要素の中に、`src`属性が`https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg`に設定された`img`要素をネストしてください。
 
 # --hints--
 

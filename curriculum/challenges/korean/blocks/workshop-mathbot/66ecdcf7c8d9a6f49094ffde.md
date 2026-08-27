@@ -37,7 +37,7 @@ assert.exists(explorer.variables.numRounded);
 assert.equal(numRounded, 3);
 ```
 
-`3` 변수에 `numRounded` 값을 하드코딩하지 마세요. `Math.round()` 메서드를 사용하고 있는지 확인하세요.
+`numRounded` 변수에 `3` 값을 하드코딩하지 마세요. `Math.round()` 메서드를 사용하고 있는지 확인하세요.
 
 ```js
 const explorer = await __helpers.Explorer(code);
@@ -64,7 +64,7 @@ assert.exists(explorer.variables.numRounded2);
 assert.equal(numRounded2, 11);
 ```
 
-`11` 변수에 `numRounded2` 값을 하드코딩하지 마세요. `Math.round()` 메서드를 사용하고 있는지 확인하세요.
+`numRounded2` 변수에 `11` 값을 하드코딩하지 마세요. `Math.round()` 메서드를 사용하고 있는지 확인하세요.
 
 ```js
 const explorer = await __helpers.Explorer(code);

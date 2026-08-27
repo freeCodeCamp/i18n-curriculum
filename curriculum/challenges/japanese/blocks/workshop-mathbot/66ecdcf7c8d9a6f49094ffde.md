@@ -37,7 +37,7 @@ assert.exists(explorer.variables.numRounded);
 assert.equal(numRounded, 3);
 ```
 
-`3` の変数に `numRounded` の値をハードコードしないでください。`Math.round()` メソッドを使っていることを確認してください。
+`numRounded` の変数に `3` の値をハードコードしないでください。`Math.round()` メソッドを使っていることを確認してください。
 
 ```js
 const explorer = await __helpers.Explorer(code);
@@ -64,7 +64,7 @@ assert.exists(explorer.variables.numRounded2);
 assert.equal(numRounded2, 11);
 ```
 
-`11` の変数に `numRounded2` の値をハードコードしないでください。`Math.round()` メソッドを使っていることを確認してください。
+`numRounded2` の変数に `11` の値をハードコードしないでください。`Math.round()` メソッドを使っていることを確認してください。
 
 ```js
 const explorer = await __helpers.Explorer(code);

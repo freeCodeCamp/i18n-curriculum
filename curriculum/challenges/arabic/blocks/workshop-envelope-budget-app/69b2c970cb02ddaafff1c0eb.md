@@ -19,7 +19,7 @@ dashedName: step-14
 assert.isDefined(budgetForm);
 ```
 
-يجب أن يحتوي شفرتك على `document.getElementById('budget-form')`.
+يجب أن يحتوي كودك على `document.getElementById('budget-form')`.
 
 ```js
 assert.match(code, /document\.getElementById\(\s*('|")budget-form\1\s*\)/g);

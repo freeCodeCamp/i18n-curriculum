@@ -66,7 +66,7 @@ const Grandchild = ({ greeting }) => {
 export default Grandchild;
 ```
 
-ブラウザでは、テキストが`h1`の単一の`Hello, Prop Drilling!`要素が表示されます。
+ブラウザでは、テキストが`Hello, Prop Drilling!`の単一の`h1`要素が表示されます。
 
 最初はプロップドリリングはそれほど大きな問題に見えないかもしれません。しかしアプリが成長するにつれて、理解、デバッグ、メンテナンスが難しくなります。
 
@@ -102,7 +102,7 @@ const Grandchild = ({ greeting, response }) => {
 export default App;
 ```
 
-ブラウザでは、テキストが`h1`の`Hello, Prop Drilling!`要素と、テキストが`h2`の`I'm not here to play!`要素が表示されます。
+ブラウザでは、テキストが`Hello, Prop Drilling!`の`h1`要素と、テキストが`I'm not here to play!`の`h2`要素が表示されます。
 
 特に大規模で複雑なアプリケーションでは、プロップドリリングを避けるためにContext APIやRedux、Redux Toolkit、Zustand、Recoilなどの状態管理ライブラリを使うことを検討してください。
 

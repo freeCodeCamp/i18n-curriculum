@@ -1,6 +1,6 @@
 ---
 id: 698dd0707932b3cc4b19c92b
-title: مراجعة للخوارزميات في الشفرة
+title: ملخص عن الخوارزميات في الكود
 challengeType: 11
 videoId: paBfWYrScAg
 dashedName: recap-algorithms-in-code

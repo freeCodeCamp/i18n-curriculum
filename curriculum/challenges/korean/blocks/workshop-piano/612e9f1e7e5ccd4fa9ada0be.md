@@ -7,17 +7,17 @@ dashedName: step-15
 
 # --description--
 
-`.key`에 `margin` 값을 가진 `2px`과 `float`로 설정된 `left` 속성을 주세요.
+`.key`에 `margin` 값을 가진 `2px`과 `left`로 설정된 `float` 속성을 주세요.
 
 # --hints--
 
-`.key` 선택자에 `margin`로 설정된 `2px` 속성이 있어야 합니다.
+`.key` 선택자에 `2px`로 설정된 `margin` 속성이 있어야 합니다.
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('.key')?.margin, '2px');
 ```
 
-`.key` 선택자에 `float`로 설정된 `left` 속성이 있어야 합니다.
+`.key` 선택자에 `left`로 설정된 `float` 속성이 있어야 합니다.
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('.key')?.float, 'left');

@@ -25,6 +25,8 @@ Hapa kuna orodha ya madarasa ya bandia ya muundo wa mti:
 
 Tuchunguze kwa karibu kila darasa la bandia la muundo wa mti, tukifuatana na mifano.
 
+## Darasa la bandia la `:root`
+
 Darasa la bandia la `:root` kawaida ni kipengele cha mzizi `html`. Linakusaidia kulenga ngazi ya juu kabisa katika hati ili uweze kutumia mtindo wa kawaida kwa hati nzima.
 
 :::interactive_editor
@@ -55,6 +57,8 @@ Darasa la bandia la `:root` pia hutumika sana katika kuweka vigezo vya CSS:
 ```
 
 Kwa vigezo vya CSS, unapata kuhifadhi thamani na kuzitumia tena katika karatasi yako ya mtindo. Utajifunza zaidi kuhusu haya baadaye.
+
+## Darasa la bandia la `:empty`
 
 Vipengele vilivyo tupu, yaani vipengele visivyo na watoto isipokuwa nafasi tupu, pia vinajumuishwa katika mti wa hati. Ndiyo maana kuna darasa la bandia la `:empty` la kulenga vipengele tupu. Kwa mfano, msimbo huu wa HTML una vitu viwili vya orodha tupu. Kwa darasa la bandia la `:empty`, unaweza kupamba vitu vya orodha tupu kwa njia tofauti:
 
@@ -102,6 +106,8 @@ Jambo la vitendo zaidi kufanya na vitu vya orodha tupu ni labda kutoonyesha kabi
 
 :::
 
+## Madarasa ya bandia ya `:nth-child(n)` na `:nth-last-child(n)`
+
 `:nth-child(n)` inakuwezesha kuchagua vipengele kulingana na nafasi yao ndani ya mzazi, wakati `:nth-last-child(n)` inakuwezesha kuchagua vipengele kwa kuhesabu kutoka mwisho. `n` inaweza kuwa nambari maalum au neno kama `odd` au `even`. Hii ni muhimu sana katika kupamba seli za jedwali kulingana na nafasi: hata na isiyo hata.
 
 Hapa kuna mfano wa HTML wa jedwali la bei za matunda. CSS inatumia darasa la bandia la `:nth-child` kulenga seli za jedwali kulingana na nafasi za isiyo hata na hata:
@@ -147,6 +153,8 @@ tr:nth-child(odd) {
 ```
 
 :::
+
+## Madarasa ya bandia ya `:first-child`, `:last-child`, na `:only-child`
 
 Madarasa ya bandia ya `:first-child`, `:last-child`, na `:only-child` yote hufanya kazi kwa vitu ndani ya kontena la mzazi au hati nzima.
 
@@ -207,6 +215,8 @@ Ili kukuonyesha jinsi darasa la bandia la `:only-child` linavyofanya kazi, hapa 
 
 :::
 
+## Madarasa ya bandia ya `:first-of-type` na `:last-of-type`
+
 Madarasa ya bandia ya `:first-of-type` na `:last-of-type` huchagua tukio la kwanza na la mwisho la aina maalum ya kipengele ndani ya mzazi wake. Ni muhimu kwa kutumia mitindo ya kipekee kwa tukio la kwanza au la mwisho la aina hiyo ya kipengele kati ya ndugu zake.
 
 Katika mfano huu hapa chini, `:first-of-type` na `:last-of-type` hutumika kwa kipengele cha kwanza na kipengele cha mwisho ndani ya kipengele cha `section`:
@@ -240,6 +250,8 @@ section p:last-of-type {
 
 :::
 
+## Darasa la bandia la `:nth-of-type(n)`
+
 `:nth-of-type(n)` inakuwezesha kuchagua kipengele maalum ndani ya mzazi wake kulingana na nafasi yake kati ya ndugu wa aina hiyo. Kwa mfano, katika HTML ifuatayo, `:nth-of-type(2)` inalenga kipengele cha pili katika kontena:
 
 :::interactive_editor
@@ -262,6 +274,8 @@ p:nth-of-type(2) {
 ```
 
 :::
+
+## Darasa la bandia la `:only-of-type`
 
 `:only-of-type` huchagua kipengele ikiwa ndicho pekee cha aina yake ndani ya mzazi wake. Hii inaweza kuwa muhimu kwa kusisitiza vitu vya pekee au kuhakikisha vinapambwa tofauti wakati si sehemu ya kundi.
 

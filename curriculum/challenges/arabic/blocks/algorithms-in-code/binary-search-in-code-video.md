@@ -1,6 +1,6 @@
 ---
 id: 698dcc2c7932b3cc4b19c927
-title: البحث الثنائي في الشفرة
+title: البحث الثنائي في الكود
 challengeType: 11
 videoId: mg7F5D8Wk5o
 dashedName: binary-search-in-code
@@ -8,7 +8,7 @@ dashedName: binary-search-in-code
 
 # --description--
 
-في هذا الفيديو، ستكتب شفرة خوارزمية البحث الثنائي باستخدام Python.
+في هذا الفيديو، ستكتب كود خوارزمية البحث الثنائي باستخدام Python.
 
 # --questions--
 

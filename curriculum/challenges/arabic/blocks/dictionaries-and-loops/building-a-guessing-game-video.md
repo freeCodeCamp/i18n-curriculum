@@ -14,7 +14,7 @@ dashedName: building-a-guessing-game
 
 ## --text--
 
-ماذا يعني الشرط `guess != secret_word` في هذه الشفرة؟
+ماذا يعني الشرط `guess != secret_word` في هذا الكود؟
 
 ```python
 secret_word = "giraffe"

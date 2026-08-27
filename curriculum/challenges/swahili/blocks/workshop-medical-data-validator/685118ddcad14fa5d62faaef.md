@@ -7,6 +7,8 @@ dashedName: step-33
 
 # --description--
 
+Vendeshaji `is` na `is not` hukagua kama thamani mbili zinahusiana na kitu kimoja. Hii huitwa kulinganisha utambulisho. Unaweza kutumia `is None` kukagua kama thamani ni kitu cha `None`, na `is not None` kukagua kama si kitu cha `None`.
+
 Sasa ongeza ufunguo `diagnosis` katika kamusi ya `constraints`. Kwa thamani yake, andika usemi wa kihesabu unaothibitisha kuwa `diagnosis` ni mfano wa `str` au ni `None`.
 
 # --hints--

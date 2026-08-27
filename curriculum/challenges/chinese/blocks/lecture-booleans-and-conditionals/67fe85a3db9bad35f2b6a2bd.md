@@ -49,7 +49,7 @@ if condition:
     
 * `condition` 是一个求值为 `True` 或 `False` 的表达式，后跟冒号（`:`）。
 
-* `if` 语句的体构成一个 <dfn>代码块</dfn>，它是一组属于同一整体的语句。在 Python 中，缩排的级别决定了代码块。
+* `if` 语句的体构成一个<dfn>代码块</dfn>，它是一组属于同一整体的语句。行首的空格称为缩排。在 Python 中，缩排决定哪些语句属于同一个代码块。
     
 在上面的示例中，`if` 语句的体包含一个 `pass` 语句。当执行 `pass` 语句时，不会发生任何事情。这是一个特殊的关键字，可用作未来代码的占位符，当不允许空代码块时非常有用。
 
@@ -62,7 +62,7 @@ if age >= 18:
     print('You are an adult') # You are an adult
 ```
 
-注意 `print('You are an adult')` 之前的缩排。虽然其他编程语言使用花括弧等字符来定义代码块，并且仅将缩排用于可读性，但在 Python 中，代码块是由缩排决定的。
+`print('You are an adult')` 前的四个空格缩排了该行，并将其放入 `if` 代码块内。
 
 以下代码会引起一个 `IndentationError`，这是 Python 用来表示在代码某处需要缩排的方式：
 
@@ -220,7 +220,7 @@ else:
 
 ## --answers--
 
-`You are an adult` 将打印到控制台。
+`You are an adult` 会被打印到终端。
 
 ### --feedback--
 
@@ -228,7 +228,7 @@ else:
 
 ---
 
-`You are a teenager` 将打印到控制台。
+`You are a teenager` 会被打印到终端。
 
 ### --feedback--
 
@@ -236,11 +236,11 @@ else:
 
 ---
 
-`You are a child` 将打印到控制台。
+`You are a child` 会被打印到终端。
 
 ---
 
-误差将打印到控制台。
+终端会打印出一个误差。
 
 ### --feedback--
 

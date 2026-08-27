@@ -8,7 +8,7 @@ dashedName: american-british-translator
 
 # --description--
 
-ابنِ تطبيق جافاسكريبت متكامل الوظائف يشبه هذا: <a href="https://american-british-translator.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://american-british-translator.freecodecamp.rocks/</a>. يتطلب هذا المشروع كتابة شفرتك باستخدام إحدى الطرق التالية:
+ابنِ تطبيق JavaScript متكامل الوظائف يشبه هذا: <a href="https://american-british-translator.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://american-british-translator.freecodecamp.rocks/</a>. يتطلب العمل على هذا المشروع كتابة الكود باستخدام إحدى الطرق التالية:
 
 -   استنسخ <a href="https://github.com/freeCodeCamp/boilerplate-project-american-british-english-translator/" target="_blank" rel="noopener noreferrer nofollow">مستودع GitHub هذا</a> وأكمل مشروعك محليًا.
 -   استخدم منشئ مواقع من اختيارك لإكمال المشروع. تأكد من دمج جميع الملفات من مستودع GitHub الخاص بنا.

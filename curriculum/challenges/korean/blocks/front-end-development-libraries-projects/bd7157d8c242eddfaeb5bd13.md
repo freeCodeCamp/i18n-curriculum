@@ -29,7 +29,7 @@ HTML, JavaScript, CSS, 부트스트랩, SASS, React, Redux, jQuery를 혼합해 
 
 **선택 보너스 (이 테스트를 통과할 필요는 없습니다):** 마크다운 미리보기기가 캐리지 리턴을 해석하여 `br` (줄 바꿈) 요소로 렌더링합니다.
 
-<a href='https://codepen.io/pen?template=MJjpwO' target='_blank' rel="noopener noreferrer nofollow">이 CodePen 템플릿</a>을 사용해 프로젝트를 만들고 `Save`를 클릭해 자신만의 펜을 만드세요. 다른 환경을 선호한다면 `<script>` 파일 본문에 `index.html` 태그를 넣으세요: `<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>`
+<a href='https://codepen.io/pen?template=MJjpwO' target='_blank' rel="noopener noreferrer nofollow">이 CodePen 템플릿</a>을 사용해 프로젝트를 만들고 `Save`를 클릭해 자신만의 펜을 만드세요. 다른 환경을 선호한다면 `index.html` 파일 본문에 `<script>` 태그를 넣으세요: `<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>`
 
 완료하면 모든 테스트를 통과하는 작동하는 프로젝트 URL을 제출하세요.
 

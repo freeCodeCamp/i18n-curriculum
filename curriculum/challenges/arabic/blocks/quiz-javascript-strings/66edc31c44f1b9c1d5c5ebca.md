@@ -415,7 +415,7 @@ console.log(organization.indexOf("c"));
 
 #### --text--
 
-ماذا سترجع الشفرة التالية: `"abc".repeat(3)`؟
+ماذا سيرجع الكود التالي: `"abc".repeat(3)`؟
 
 #### --distractors--
 
@@ -427,7 +427,7 @@ console.log(organization.indexOf("c"));
 
 ---
 
-سيرمي خطأ.
+سيرجع خطأ.
 
 #### --answer--
 

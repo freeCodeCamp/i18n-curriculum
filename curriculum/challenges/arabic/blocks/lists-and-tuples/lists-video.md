@@ -14,7 +14,7 @@ dashedName: lists
 
 ## --text--
 
-ما الناتج عن الشفرة التالية؟
+ما هو الناتج للكود التالي؟
 
 ```python
 friends = ["Kevin", "Karen", "Jim"]

@@ -11,19 +11,19 @@ dashedName: step-23
 
 # --hints--
 
-`.cat-left-ear` セレクターには、`position` に設定された `absolute` プロパティが必要です。セミコロンを忘れないでください。
+`.cat-left-ear` セレクターには、`absolute` に設定された `position` プロパティが必要です。セミコロンを忘れないでください。
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('.cat-left-ear')?.position, 'absolute')
 ```
 
-`.cat-left-ear` セレクターには、`top` に設定された `-26px` プロパティが必要です。
+`.cat-left-ear` セレクターには、`-26px` に設定された `top` プロパティが必要です。
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('.cat-left-ear')?.top, '-26px')
 ```
 
-`.cat-left-ear` セレクターには、`left` に設定された `-31px` プロパティが必要です。
+`.cat-left-ear` セレクターには、`-31px` に設定された `left` プロパティが必要です。
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('.cat-left-ear')?.left, '-31px')

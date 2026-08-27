@@ -49,7 +49,7 @@ if condition:
     
 * `condition` 是一個會計算結果為 `True` 或 `False` 的運算式，後面接著冒號（`:`）。
 
-* `if` 述語的主體構成一個 <dfn>程式碼區塊</dfn>，該區塊是一組彼此相關的述語。在 Python 中，縮排層次決定了程式碼區塊。
+* `if` 述語的主體構成一個<dfn>程式碼區塊</dfn>，這是一組彼此相關的述語。行首的空白稱為縮排。在 Python 中，縮排決定哪些述語屬於同一個程式碼區塊。
     
 在上述範例中，`if` 述語的主體包含一個 `pass` 述語。當執行 `pass` 述語時，不會發生任何事情。這是一個特殊的關鍵字，可用作未來程式碼的佔位符，當不允許空的程式碼區塊時非常有用。
 
@@ -62,7 +62,7 @@ if age >= 18:
     print('You are an adult') # You are an adult
 ```
 
-請注意 `print('You are an adult')` 之前的縮排。雖然其他程式語言使用大括號等字元來定義區塊，並且僅將縮排用於可讀性，但在 Python 中，區塊是由縮排決定的。
+`print('You are an adult')` 前的四個空白將該行縮排，並將它放入 `if` 區塊中。
 
 以下程式碼會引發 `IndentationError`，這是 Python 用來表示在程式碼某個位置需要縮排的信號：
 
@@ -220,7 +220,7 @@ else:
 
 ## --answers--
 
-`You are an adult` 將會列印到主控台。
+`You are an adult` 將會列印到終端機。
 
 ### --feedback--
 
@@ -228,7 +228,7 @@ else:
 
 ---
 
-`You are a teenager` 將會列印到主控台。
+`You are a teenager` 將會列印到終端機。
 
 ### --feedback--
 
@@ -236,11 +236,11 @@ else:
 
 ---
 
-`You are a child` 將會列印到主控台。
+`You are a child` 將會列印到終端機。
 
 ---
 
-錯誤將會列印到主控台。
+錯誤訊息將會列印到終端機。
 
 ### --feedback--
 

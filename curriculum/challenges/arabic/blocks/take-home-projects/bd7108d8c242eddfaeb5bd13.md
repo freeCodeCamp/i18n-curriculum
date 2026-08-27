@@ -20,7 +20,7 @@ dashedName: map-data-across-the-globe
 
 **تلميح:** إليك مجموعة بيانات يمكنك استخدامها لبناء هذا: <https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/meteorite-strike-data.json>
 
-عند الانتهاء، أدرج رابط مشروعك على CodePen وانقر زر "لقد أكملت هذا التحدٍّ".
+عند الانتهاء، أدرج رابط مشروعك على CodePen وانقر زر "لقد أكملت هذا التحدي".
 
 يمكنك الحصول على ملاحظات حول مشروعك بمشاركته في <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">منتدى freeCodeCamp</a>.
 

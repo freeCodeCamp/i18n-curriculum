@@ -8,7 +8,7 @@ dashedName: sudoku-solver
 
 # --description--
 
-ابنِ تطبيق جافاسكريبت متكامل الوظائف مشابه لهذا: <a href="https://sudoku-solver.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://sudoku-solver.freecodecamp.rocks/</a>. يتطلب العمل على هذا المشروع كتابة شفرتك باستخدام إحدى الطرق التالية:
+ابنِ تطبيق JavaScript متكامل الوظائف يشبه هذا: <a href="https://sudoku-solver.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://sudoku-solver.freecodecamp.rocks/</a>. يتطلب العمل على هذا المشروع كتابة الكود باستخدام إحدى الطرق التالية:
 
 - استنسخ <a href="https://github.com/freecodecamp/boilerplate-project-sudoku-solver" target="_blank" rel="noopener noreferrer nofollow">مستودع GitHub هذا</a> وأكمل مشروعك محليًا.
 - استخدم منشئ مواقع من اختيارك لإكمال المشروع. تأكد من دمج جميع الملفات من مستودع GitHub الخاص بنا.

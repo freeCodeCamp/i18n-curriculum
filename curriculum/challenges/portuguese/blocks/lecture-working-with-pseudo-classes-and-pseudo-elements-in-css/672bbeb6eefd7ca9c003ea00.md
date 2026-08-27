@@ -25,7 +25,9 @@ Aqui está uma lista de pseudo-classes estruturais em árvore:
 
 Vamos dar uma olhada mais detalhada em cada uma das pseudo-classes estruturais de árvore, acompanhadas por exemplos.
 
-A pseudo-classe `:root` é geralmente o elemento raiz `html`. Ele ajuda você a direcionar o nível mais alto no documento para que possa aplicar um estilo comum a todo o documento.     
+## A pseudo-classe `:root`
+
+A pseudo-classe `:root` é geralmente o elemento raiz `html`. Ele ajuda você a direcionar o nível mais alto no documento para que possa aplicar um estilo comum a todo o documento.
 
 :::interactive_editor
 
@@ -55,6 +57,8 @@ A pseudo-classe `:root` também é comumente usada para definir variáveis CSS:
 ```
 
 Com variáveis CSS, você pode armazenar valores e reutilizá-los na sua folha de estilos. Você aprenderá mais sobre estes mais adiante.
+
+## A pseudo-classe `:empty`
 
 Elementos vazios, ou seja, elementos sem filhos além de espaços em branco, também estão incluídos na árvore do documento. É por isso que existe a pseudo-classe `:empty` para direcionar elementos vazios.  For example, this HTML code has two empty list items. Com a pseudo-classe `:empty`, você pode estilizar os itens de lista vazios de forma diferente:
 
@@ -102,6 +106,8 @@ A coisa mais prática a fazer com os itens da lista vazia provavelmente é não 
 
 :::
 
+## As pseudo-classes `:nth-child(n)` e `:nth-last-child(n)`
+
 `:nth-child(n)` permite que você selecione elementos com base na sua posição dentro de um pai, enquanto `:nth-last-child(n)` permite que você selecione elementos contando a partir do final. O `n` pode ser um número específico ou uma palavra-chave como `odd` ou `even`. Isto é incrivelmente útil para estilizar células de tabela com base na posição: even e odd.
 
 Aqui está um exemplo em HTML de uma tabela de lista de preços de frutas. O CSS está usando a pseudo-classe `:nth-child` para direcionar as células da tabela com base nas posições ímpares e pares:
@@ -148,6 +154,8 @@ tr:nth-child(odd) {
 
 :::
 
+## As pseudo-classes `:first-child`, `:last-child` e `:only-child`
+
 As pseudo-classes `:first-child`, `:last-child` e `:only-child` atuam em itens dentro de um contêiner pai ou no documento inteiro.
 
 - `:first-child` seleciona o primeiro elemento em um elemento pai ou no documento.
@@ -179,7 +187,7 @@ li:last-child {
 
 :::
 
-Se você tiver mais listas não ordenadas na página, precisa ser mais específico com a seleção: 
+Se você tiver mais listas não ordenadas na página, precisa ser mais específico com a seleção:
 
 Para mostrar como a pseudo-classe `:only-child` funciona, aqui está um exemplo em HTML com dois elementos `div` separados. Usar a pseudo-classe `:only-child` garante que apenas o elemento `div` com um único filho seja selecionado:
 
@@ -206,6 +214,8 @@ Para mostrar como a pseudo-classe `:only-child` funciona, aqui está um exemplo 
 ```
 
 :::
+
+## As pseudo-classes `:first-of-type` e `:last-of-type`
 
 As pseudo-classes `:first-of-type` e `:last-of-type` selecionam a primeira e a última ocorrência de um tipo específico de elemento dentro do seu elemento pai. Eles são úteis para aplicar estilos únicos à primeira ou última instância desse tipo de elemento entre seus irmãos.
 
@@ -240,6 +250,8 @@ section p:last-of-type {
 
 :::
 
+## A pseudo-classe `:nth-of-type(n)`
+
 `:nth-of-type(n)` permite que você selecione um elemento específico dentro de seu pai com base em sua posição entre irmãos do mesmo tipo. Por exemplo, no HTML abaixo, `:nth-of-type(2)` seleciona o segundo elemento no contêiner:
 
 :::interactive_editor
@@ -262,6 +274,8 @@ p:nth-of-type(2) {
 ```
 
 :::
+
+## A pseudo-classe `:only-of-type`
 
 `:only-of-type` seleciona um elemento se ele for o único do seu tipo dentro do seu pai. Isso pode ser útil para enfatizar itens únicos ou garantir que eles sejam estilizados de forma diferente quando não fazem parte de um grupo.
 

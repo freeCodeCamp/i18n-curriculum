@@ -8,7 +8,7 @@ dashedName: timestamp-microservice
 
 # --description--
 
-ابنِ تطبيق جافاسكريبت متكامل يشبه وظيفيًا هذا: <a href="https://timestamp-microservice.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://timestamp-microservice.freecodecamp.rocks</a>. يتطلب العمل على هذا المشروع كتابة شفرتك باستخدام إحدى الطرق التالية:
+ابنِ تطبيق جافاسكريبت متكامل الوظائف يشبه هذا: <a href="https://timestamp-microservice.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://timestamp-microservice.freecodecamp.rocks</a>. يتطلب العمل على هذا المشروع كتابة الكود باستخدام إحدى الطرق التالية:
 
 - استنسخ <a href="https://github.com/freeCodeCamp/boilerplate-project-timestamp/"  target="_blank" rel="noopener noreferrer nofollow">مستودع GitHub هذا</a> وأكمل مشروعك محليًا.
 - استخدم منشئ مواقع من اختيارك لإكمال المشروع. تأكد من دمج جميع الملفات من مستودع GitHub الخاص بنا.

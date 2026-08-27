@@ -52,7 +52,7 @@ HTML, JavaScript, CSS, 부트스트랩, SASS, React, Redux, jQuery 중 어떤 �
 -   **즉시 실행 로직:** `11.5`
 -   **수식/표현식 로직:** `32.5`
 
-<a href='https://codepen.io/pen?template=MJjpwO' target='_blank' rel="noopener noreferrer nofollow">이 CodePen 템플릿</a>을 사용해 프로젝트를 만들고 `Save`를 클릭해 자신만의 펜을 만드세요. 다른 환경을 선호한다면 `<script>` 파일 본문에 `index.html` 태그를 넣으세요: `<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>`
+<a href='https://codepen.io/pen?template=MJjpwO' target='_blank' rel="noopener noreferrer nofollow">이 CodePen 템플릿</a>을 사용해 프로젝트를 만들고 `Save`를 클릭해 자신만의 펜을 만드세요. 다른 환경을 선호한다면 `index.html` 파일 본문에 `<script>` 태그를 넣으세요: `<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>`
 
 완료하면 모든 테스트를 통과하는 작동하는 프로젝트 URL을 제출하세요.
 
