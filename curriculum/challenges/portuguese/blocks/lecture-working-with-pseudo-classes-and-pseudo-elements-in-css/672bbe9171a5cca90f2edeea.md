@@ -9,11 +9,17 @@ dashedName: what-are-examples-of-element-user-action-pseudo-classes
 
 O feedback do usuário é um elemento crucial do design web. Por exemplo, é importante que os usuários recebam indicações visuais quando interagem com elementos em um site, como passar o mouse sobre um botão ou clicar em um link. Esse feedback ajuda os usuários a entender o estado dos elementos interativos, como indicar se um link foi visitado ou não.
 
+## Entendendo pseudo-classes de ação do usuário
+
 Pseudo-classes de ação do usuário em CSS são palavras-chave especiais que permitem fornecer esse tipo de feedback sem precisar de JavaScript ou outras linguagens de programação.
 
 Essas pseudo-classes incluem `:hover`, `:active`, `:focus` e `:visited`, entre outras. Eles permitem que você altere a aparência dos elementos com base nas interações do usuário, melhorando a experiência geral do usuário.
 
 Vamos explorar algumas das pseudo-classes de ação do usuário que temos e ver como elas funcionam.
+
+## Pseudo-classes de ação do usuário comuns
+
+### `:active`
 
 A pseudo-classe `:active` aplica estilos quando um elemento é ativado pelo usuário. Por exemplo, quando o usuário clica em um botão ou em um link, ele fornece um feedback visual imediato, mostrando aos usuários que suas ações estão sendo reconhecidas.
 
@@ -31,6 +37,8 @@ a:active {
 ```
 
 :::
+
+### `:hover`
 
 A pseudo-classe `:hover` é acionada quando um usuário passa o mouse ou outro dispositivo apontador sobre um elemento. Desenvolvedores frequentemente o utilizam para criar feedback visual para botões, links ou qualquer elemento que deva responder à atenção do usuário. Aqui está um botão sobre o qual o usuário passaria o mouse antes de clicar:
 
@@ -51,7 +59,9 @@ A pseudo-classe `:hover` é acionada quando um usuário passa o mouse ou outro d
 
 :::
 
-A pseudo-classe `:focus` aplica estilos quando um elemento ganha foco, tipicamente através da navegação por teclado ou quando um usuário clica em um campo de formulário. Isso não é apenas para feedback mas também crucial para acessibilidade. Ele garante que usuários que dependem fortemente de teclados possam identificar facilmente com qual elemento estão interagindo. 
+### `:focus`
+
+A pseudo-classe `:focus` aplica estilos quando um elemento ganha foco, tipicamente através da navegação por teclado ou quando um usuário clica em um campo de formulário. Isso não é apenas para feedback mas também crucial para acessibilidade. Ele garante que usuários que dependem fortemente de teclados possam identificar facilmente com qual elemento estão interagindo.
 
 Aqui está um exemplo de um campo de entrada que ganha foco quando clicado ou acessado via teclado:
 
@@ -73,6 +83,8 @@ input:focus {
 
 :::
 
+### `:visited`
+
 A pseudo-classe `:visited` seleciona um link que o usuário já visitou. Isso pode ser útil para ajudar os usuários a distinguir entre as páginas que eles já visitaram e as que ainda precisam visitar. Aqui está um exemplo de como alterar a cor do texto do link para ciano quando o link é visitado:
 
 :::interactive_editor
@@ -90,11 +102,13 @@ a:visited {
 
 :::
 
+### `:checked`
+
 A pseudo-classe `:checked` no CSS permite que você estilize elementos de formulário como caixas de seleção e botões de rádio quando eles estão selecionados (checked). Esta pseudo-classe é útil para personalizar a aparência desses elementos para melhorar a experiência do usuário, mesmo que os navegadores forneçam estilos padrão para eles.
 
-Aqui está um exemplo com uma caixa de seleção para concordar com os termos em um site. 
+Aqui está um exemplo com uma caixa de seleção para concordar com os termos em um site.
 
-**NOTA**: Parte do CSS neste exemplo usa propriedades que ainda não foram abordadas. Isso é apenas para dar uma ideia de como criar uma checkbox personalizada. Você aprenderá como tudo isso funciona em futuras aulas e workshops. 
+**NOTA**: Parte do CSS neste exemplo usa propriedades que ainda não foram abordadas. Isso é apenas para dar uma ideia de como criar uma checkbox personalizada. Você aprenderá como tudo isso funciona em futuras aulas e workshops.
 
 :::interactive_editor
 
@@ -152,6 +166,8 @@ Aqui está um exemplo com uma caixa de seleção para concordar com os termos em
 :::
 
 Neste exemplo, estamos usando a propriedade `appearance` definida como `none` para remover a estilização padrão aplicada pelo navegador aos inputs do tipo checkbox. Quando o usuário marcar a caixa, ela terá uma cor de fundo `green`.
+
+## Outras pseudo-classes de ação
 
 Outros exemplos de pseudo-classes de ação são:
 

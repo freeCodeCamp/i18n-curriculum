@@ -40,11 +40,11 @@ body {
 }
 ```
 
-- **`--property-name`**：是你定义的自定义属性的名称。 像所有自定义属性一样，它必须以两个连字符开始。 
-**`syntax`**: This defines the type of the property, which can be things like `<color>`, `<length>`, `<number>`, `<percentage>`, or more complex types.
-- **`inherits`**：指定属性是否应该从父元素继承它的值。
-- **`initial-value`**：设置属性的默认值。
-- **使用 `@property` 规则的渐变的示例**：这个示例创建了一个渐变，当元素被悬停在上面时平滑地应用动画。
+- **`--property-name`**：这是你正在定义的自定义属性的名称。像所有自定义属性一样，它必须以两个短横线开头。
+**`syntax`**：这定义了属性的类型，可以是 `<color>`、`<length>`、`<number>`、`<percentage>` 或更复杂的类型。
+- **`inherits`**：这指定属性是否应该从其父元素继承值。
+- **`initial-value`**：这设置属性的默认值。
+- **使用 `@property` 规则的渐变示例**：此示例创建了一个在元素悬停时平滑动画的渐变。
 
 :::interactive_editor
 

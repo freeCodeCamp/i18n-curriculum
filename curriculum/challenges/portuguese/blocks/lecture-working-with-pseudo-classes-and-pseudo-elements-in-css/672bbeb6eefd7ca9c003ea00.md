@@ -60,7 +60,7 @@ Com variáveis CSS, você pode armazenar valores e reutilizá-los na sua folha d
 
 ## A pseudo-classe `:empty`
 
-Elementos vazios, ou seja, elementos sem filhos além de espaços em branco, também estão incluídos na árvore do documento. É por isso que existe a pseudo-classe `:empty` para direcionar elementos vazios.  For example, this HTML code has two empty list items. Com a pseudo-classe `:empty`, você pode estilizar os itens de lista vazios de forma diferente:
+Elementos vazios, ou seja, elementos sem filhos além de espaço em branco, também fazem parte da árvore do documento. Por isso existe a pseudo-classe `:empty` para selecionar elementos vazios. Por exemplo, este código HTML tem dois itens de lista vazios. Com a pseudo-classe `:empty`, você pode estilizar os itens de lista vazios de forma diferente:
 
 :::interactive_editor
 

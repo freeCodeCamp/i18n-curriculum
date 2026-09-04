@@ -58,7 +58,7 @@ div {
 
 ## `border-box` 的工作原理
 
-很好！ 现在我们来看 `border-box`。  It's different because the width and height you set include the element's content, padding, and border (but not its margin).  Use `border-box` when you want the element's total size to stay fixed even if padding or borders change — that's often helpful in responsive layouts.
+太好了！现在让我们来探索 `border-box`。它的不同之处在于你设置的宽度和高度包括了元素的内容、内边距和边框（但不包括外边距）。当你希望元素的总尺寸保持固定，即使内边距或边框发生变化时，也能保持不变，就使用 `border-box`——这在响应式版型中非常有用。
 
 使用 `border-box` 时，内边距和边框包含在元素指定的大小内。你设置的 `width` 和 `height` 成为元素的总维度：内容 + 内边距 + 边框；外边距仍然被排除。
 
@@ -97,7 +97,7 @@ div {
 
 :::
 
-你可以看到，二者具有相同的 `width`、`height`、`padding`、`border` 和 `margin`。  The only differences are in the colors and the value of the `box-sizing` property. 这微小的差别对最终尺寸有着非常重要的影响。
+你可以看到它们的 `width`、`height`、`padding`、`border` 和 `margin` 都相同。唯一的区别在于颜色和 `box-sizing` 属性的值。这个细微的差别对最终的维度有非常重要的影响。
 
 `content-box` 和 `border-box` 之间的选择，实际上取决于项目的具体需求。 虽然 `border-box` 因其简单灵活而越来越受欢迎，但了解这两种模型对于实现有效的 CSS 布局非常重要。
 

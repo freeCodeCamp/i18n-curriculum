@@ -9,7 +9,7 @@ dashedName: what-is-the-var-keyword-and-why-is-it-no-longer-suggested-to-use-it
 
 A palavra-chave `var` em JavaScript é uma das formas originais de declarar variáveis. Faz parte da linguagem desde o seu início e por muitos anos permaneceu o método principal para criar variáveis. No entanto, à medida que o JavaScript evoluiu e os desenvolvedores ganharam mais experiência com a linguagem, certas desvantagens de usar `var` tornaram-se aparentes, levando à introdução de `let` e `const` em 2015.
 
-Quando você declara uma variável com `var`, ela se torna com escopo de função ou escopo global. Isso significa que se você declarar uma variável dentro de uma função usando `var` ela será acessível apenas dentro dessa função. No entanto, se você declará-lo fora de qualquer função, ele se torna uma variável global acessível em todo o seu script.  This behavior can sometimes lead to unexpected results and make your code harder to understand.
+Quando você declara uma variável com `var`, ela fica com escopo de função ou escopo global. Isso significa que, se você declarar uma variável dentro de uma função usando `var`, ela será acessível apenas dentro dessa função. Porém, se você declará-la fora de qualquer função, ela se torna uma variável global acessível em todo o seu script. Esse comportamento pode às vezes levar a resultados inesperados e tornar seu código mais difícil de entender.
 
 Um problema com `var` é que ele permite que você redeclare a mesma variável várias vezes sem gerar um erro. Isso pode levar a sobrescritas acidentais e tornar a depuração mais difícil.
 
@@ -26,7 +26,7 @@ console.log(num); // 10
 
 :::
 
-O problema mais significativo com `var` é a falta de escopo de bloco. Variáveis declaradas com `var` dentro de um bloco como uma instrução `if` ou um loop `for` ainda são acessíveis fora desse bloco. 
+O problema mais significativo com `var` é a falta de escopo de bloco. Variáveis declaradas com `var` dentro de um bloco como uma instrução `if` ou um loop `for` ainda são acessíveis fora desse bloco.
 
 :::interactive_editor
 

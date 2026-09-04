@@ -37,7 +37,7 @@ No CSS, quando duas margens verticais entram em contato uma com a outra, elas co
 
 Neste exemplo, você pode esperar que o espaço total entre `.box1` e `.box2` seja 50 pixels (20 pixels mais 30 pixels). No entanto, devido ao colapso de margem o espaço real será de 30 pixels, que é a maior das duas margens.
 
-As we saw in the previous example, margins of the adjacent sibling elements will collapse. Este é o caso mais simples de colapso de margem. Vamos explorar mais casos onde o colapso de margem pode ocorrer. 
+Como vimos no exemplo anterior, as margens dos elementos irmãos adjacentes vão colapsar. Este é o caso mais simples de colapso de margem. Vamos explorar mais casos onde o colapso de margem pode ocorrer.
 
 As margens também podem colapsar entre um elemento pai e seu primeiro ou último filho. Se não houver borda, padding, conteúdo inline ou espaçamento para separar a margem do pai da do filho, elas irão colapsar.
 
@@ -64,7 +64,7 @@ As margens também podem colapsar entre um elemento pai e seu primeiro ou últim
 
 Neste caso, você pode esperar que o filho esteja a 70 pixels do topo (40 pixels mais 30 pixels). No entanto, as margens colapsam e a margem maior de 40 pixels é usada.
 
-Se um elemento não tiver conteúdo, padding ou borda, suas margens superior e inferior podem se fundir em uma única margem. 
+Se um elemento não tiver conteúdo, padding ou borda, suas margens superior e inferior podem se fundir em uma única margem.
 
 :::interactive_editor
 
@@ -88,7 +88,7 @@ Se um elemento não tiver conteúdo, padding ou borda, suas margens superior e i
 
 Neste exemplo, as margens superior e inferior do `empty-block` colapsam em uma única margem de 20 pixels, a maior das duas.
 
-Aqui está um exemplo de como evitar o colapso usando padding: 
+Aqui está um exemplo de como evitar o colapso usando padding:
 
 :::interactive_editor
 
@@ -114,7 +114,7 @@ Aqui está um exemplo de como evitar o colapso usando padding:
 
 Neste caso, o preenchimento de um pixel no elemento pai impede que a margem colapse, resultando em um espaço total de 71 pixels do topo do pai até o topo do conteúdo filho.
 
-Entender o colapso de margem é importante para o controle preciso do layout e do espaçamento em CSS.  While it can sometimes lead to unexpected results, it's a feature designed to create more aesthetically pleasing and consistent spacing in documents. Ao saber quando ocorre o colapso de margem e como evitá-lo quando necessário, você pode criar layouts mais previsíveis e fáceis de manter em seus designs web.
+Entender o colapso de margem é importante para ter controle preciso sobre o layout e o espaçamento em CSS. Embora às vezes possa causar resultados inesperados, é um recurso criado para gerar espaçamentos mais estéticos e consistentes nos documentos. Sabendo quando o colapso de margem ocorre e como evitá-lo quando necessário, você pode criar layouts mais previsíveis e fáceis de manter em seus projetos web.
 
 # --questions--
 

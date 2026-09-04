@@ -9,11 +9,17 @@ dashedName: what-are-examples-of-element-user-action-pseudo-classes
 
 Maoni ya mtumizi ni kipengele muhimu katika muundo wa mtandao. Kwa mfano, ni muhimu kwa watumizi kupokea dalili za kuona wanaposhirikiana na vipengele kwenye tovuti, kama vile kuvinjari kitufe au kubofya kiungo. Maoni haya husaidia watumizi kuelewa hali ya vipengele vinavyoshirikiana, kama kuonyesha kama kiungo kimebofyanwa au la.
 
+## Kuelewa Darasa la Bandia la Matendo ya Mtumizi
+
 Darasa la bandia la kitendo cha mtumizi katika CSS ni maneno maalum yanayokuwezesha kutoa maoni haya bila haja ya JavaScript au lugha nyingine za programu.
 
 Darasa hizi la bandia ni pamoja na `:hover`, `:active`, `:focus`, na `:visited`, miongoni mwa zingine. Zinakuwezesha kubadilisha muonekano wa vipengele kulingana na mwingiliano wa mtumizi, kuboresha uzoefu wa mtumizi kwa ujumla.
 
 Tuchunguze baadhi ya darasa la bandia la kitendo cha mtumizi tulizonazo na tuone jinsi zinavyofanya kazi.
+
+## Madarasa ya Bandia ya Matendo ya Mtumizi Yanayojulikana
+
+### `:active`
 
 Darasa la bandia la `:active` linaweka mitindo wakati kipengele kinapowashwa na mtumizi. Kwa mfano, mtumizi anapobofya kitufe au kiungo, hutoa maoni ya kuona mara moja, kuonyesha watumizi kuwa vitendo vyao vinatambuliwa.
 
@@ -31,6 +37,8 @@ a:active {
 ```
 
 :::
+
+### `:hover`
 
 Darasa la bandia la `:hover` linaanzishwa mtumizi anapovinjari kipengele kwa panya au kifaa kingine cha kuonyesha. Wasanidi programu mara nyingi hulitumia kuunda maoni ya kuona kwa vitufe, viungo, au kipengele chochote kinachotakiwa kujibu makini ya mtumizi. Hapa kuna kitufe ambacho mtumizi atavinjari kabla ya kubofya:
 
@@ -50,6 +58,8 @@ Darasa la bandia la `:hover` linaanzishwa mtumizi anapovinjari kipengele kwa pan
 ```
 
 :::
+
+### `:focus`
 
 Darasa la bandia la `:focus` linaweka mitindo wakati kipengele kinapopata makini, kawaida kupitia urambazaji wa kibodi au mtumizi anapobofya sehemu ya ingizo ya fomu. Hii si kwa ajili ya maoni tu bali pia ni muhimu kwa Ufikikaji. Inahakikisha watumizi wanaotegemea sana kibodi wanaweza kutambua kwa urahisi kipengele wanachoshirikiana nacho.
 
@@ -73,6 +83,8 @@ input:focus {
 
 :::
 
+### `:visited`
+
 Darasa la bandia la `:visited` linawalenga viungo ambavyo mtumizi amevitembelea. Hii inaweza kusaidia watumizi kutofautisha kati ya kurasa walizotembelea na zile ambazo bado hawajatembelea. Hapa kuna mfano wa kubadilisha rangi ya maandishi ya nanga kuwa cyan wakati kiungo kimebofyanwa:
 
 :::interactive_editor
@@ -90,11 +102,13 @@ a:visited {
 
 :::
 
+### `:checked`
+
 Darasa la bandia la `:checked` katika CSS linakuwezesha kuweka mitindo kwa vipengele vya fomu kama kisanduku cha kuchagua na kitufe cha radio wakati vimechaguliwa (vimekaguliwa). Darasa hili la bandia ni muhimu kwa kubinafsisha muonekano wa vipengele hivi ili kuboresha uzoefu wa mtumizi, ingawa vivinjari hutoa mitindo ya msingi kwao.
 
 Hapa kuna mfano wa kisanduku cha kuchagua kukubaliana na masharti kwenye tovuti.
 
-**KUMBUKA**: Baadhi ya CSS katika mfano huu hutumia sifa ambazo bado hazijafundishwa. Hii ni kwa ajili ya kukupa wazo la jinsi ya kuunda kisanduku cha kuchagua kilichobinafsishwa. Utajifunza jinsi yote haya yanavyofanya kazi katika mafundisho na warsha zijazo.
+**KUMBUKA**: Baadhi ya CSS katika mfano huu hutumia sifa ambazo bado hazijafundishwa. Hii ni kwa ajili ya kukupa wazo la jinsi ya kuunda kisanduku cha kuchagua maalum. Utajifunza jinsi yote haya yanavyofanya kazi katika mafundisho na warsha zijazo.
 
 :::interactive_editor
 
@@ -152,6 +166,8 @@ Hapa kuna mfano wa kisanduku cha kuchagua kukubaliana na masharti kwenye tovuti.
 :::
 
 Katika mfano huu, tunatumia sifa ya `appearance` kuwekwa kuwa `none` kuondoa mtindo wa msingi unaotolewa na kivinjari kwa sehemu za ingizo za kisanduku cha kuchagua. Mtumizi anapokagua kisanduku, kitakuwa na rangi ya nyuma ya `green`.
+
+## Madarasa ya Bandia ya Matendo Mengine
 
 Mifano mingine ya darasa la bandia la kitendo ni:
 

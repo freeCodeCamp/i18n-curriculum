@@ -10,7 +10,7 @@ dashedName: create-decimal-numbers-with-javascript
 
 我们也可以把小数存储到变量中。 小数有时候也被称作<dfn>浮点数</dfn>或者 <dfn>floats</dfn>。
 
-**注意：** 当你计算数字时，它们是以有限的精确度计算的。 使用浮点数的运算可能产生不同于预期结果的结果。  If you are getting one of these results, open a topic on the <a href="https://forum.freecodecamp.org/" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp forum</a>.
+**注意：** 当你计算数字时，它们是以有限精度计算的。使用浮点数的操作可能导致结果与预期不同。如果你遇到这种情况，请在<a href="https://forum.freecodecamp.org/" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp 论坛</a>发帖求助。
 
 # --instructions--
 

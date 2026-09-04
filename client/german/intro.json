@@ -4537,32 +4537,6 @@
       "review-javascript": "JavaScript-Überprüfung",
       "javascript-certification-exam": "JavaScript-Zertifizierungsprüfung"
     },
-    "module-intros": {
-      "data-structures": {
-        "note": "Verfügbar ab Frühjahr 2026",
-        "intro": [
-          "In diesem Modul lernen Sie verkettete Listen, Stacks, Queues und mehr kennen."
-        ]
-      },
-      "algorithms": {
-        "note": "Verfügbar ab Frühjahr 2026",
-        "intro": [
-          "In diesem Modul lernen Sie gängige Sortier- und Suchalgorithmen kennen, darunter Bubble Sort, Binärsuche und mehr."
-        ]
-      },
-      "graphs-and-trees": {
-        "note": "Verfügbar ab Frühjahr 2026",
-        "intro": [
-          "In diesem Modul lernen Sie Graphen, Bäume und Tries kennen."
-        ]
-      },
-      "dynamic-programming": {
-        "note": "Verfügbar ab Frühjahr 2026",
-        "intro": [
-          "In diesem Modul lernen Sie, wie dynamische Programmierung funktioniert."
-        ]
-      }
-    },
     "blocks": {
       "lecture-introduction-to-javascript": {
         "title": "Einführung in JavaScript",
@@ -6046,18 +6020,6 @@
       "review-front-end-libraries": "Überblick über Front-End-Bibliotheken",
       "front-end-development-libraries-certification-exam": "Zertifizierungsprüfung für Front-End-Entwicklungsbibliotheken"
     },
-    "module-intros": {
-      "typescript-fundamentals": {
-        "intro": [
-          "In diesem Modul werden Sie in TypeScript eingeführt, eine Obermenge von JavaScript, die es Ihnen ermöglicht, Ihrem JavaScript-Code statische Typisierung hinzuzufügen. Sie bauen mehrere Workshops und Labore, die Ihnen Übung im Umgang mit Generics, Typverengung, TSX und mehr geben. Anschließend testen Sie Ihr Wissen über die Grundlagen von TypeScript mit einem kurzen Quiz."
-        ]
-      },
-      "front-end-development-libraries-certification-exam": {
-        "intro": [
-          "Bestehen Sie diese Prüfung, um Ihre Zertifizierung für Front-End-Entwicklungsbibliotheken zu erhalten."
-        ]
-      }
-    },
     "blocks": {
       "lecture-introduction-to-javascript-libraries-and-frameworks": {
         "title": "Einführung in JavaScript-Bibliotheken und Frameworks",
@@ -6447,6 +6409,7 @@
       "lab-polygon-area-calculator": "Erstellen Sie einen Polygon-Flächenrechner",
       "python-linear-data-structures": "Lineare Datenstrukturen",
       "lab-hash-table": "Erstellen Sie eine Hashtabelle",
+      "python-recursion": "Rekursion",
       "python-algorithms": "Algorithmen",
       "lab-tower-of-hanoi": "Implementieren Sie den Tower-of-Hanoi-Algorithmus",
       "python-graphs-and-trees": "Graphen und Bäume",
@@ -6791,6 +6754,36 @@
         "intro": [
           "Eine Hashtabelle ist eine Datenstruktur, die zum Speichern von Schlüssel-Wert-Paaren verwendet wird und für schnelle Suchvorgänge optimiert ist.",
           "In diesem Workshop verwenden Sie Ihr Wissen über Datenstrukturen, um eine Hashtabelle zu erstellen."
+        ]
+      },
+      "lecture-understanding-recursion-and-the-call-stack-python": {
+        "title": "Rekursion und den Aufrufstapel verstehen",
+        "intro": [
+          "In dieser Vorlesung lernen Sie, wie rekursive Funktionen und der Aufrufstapel in Python funktionieren."
+        ]
+      },
+      "workshop-countup-python": {
+        "title": "Eine Countup-Funktion erstellen",
+        "intro": [
+          "In diesem Workshop erstellen Sie eine Funktion, die Rekursion verwendet, um eine Liste von Zahlen zu erzeugen."
+        ]
+      },
+      "lab-range-of-numbers-python": {
+        "title": "Einen Zahlenbereich-Generator erstellen",
+        "intro": [
+          "In diesem Labor verwenden Sie Rekursion, um eine Liste von Zahlen innerhalb eines bestimmten Bereichs zu erzeugen."
+        ]
+      },
+      "review-recursion-python": {
+        "title": "Rekursion überprüfen",
+        "intro": [
+          "Überprüfen Sie die Konzepte von Rekursion, Basisfällen und dem Aufrufstapel."
+        ]
+      },
+      "quiz-recursion-python": {
+        "title": "Rekursions-Quiz",
+        "intro": [
+          "Testen Sie Ihr Verständnis von Rekursion, Basisfällen und dem Aufrufstapel."
         ]
       },
       "lecture-searching-and-sorting-algorithms": {
@@ -7197,98 +7190,6 @@
       "review-back-end-development-and-apis": "Überblick über Back-End-Entwicklung und APIs",
       "back-end-development-and-apis-certification-exam": "Prüfung zur Zertifizierung Back-End-Entwicklung und APIs"
     },
-    "module-intros": {
-      "introduction-to-nodejs": {
-        "intro": [
-          "In diesem Modul lernen Sie die Grundlagen der Arbeit mit Node.js."
-        ]
-      },
-      "nodejs-core-modules": {
-        "intro": [
-          "In diesem Modul lernen Sie gängige Node.js-Kernmodule wie fs, os, path und weitere kennen. Anschließend üben Sie das Gelernte in Workshops und Laboren und testen Ihr Wissen mit einem kurzen Quiz."
-        ]
-      },
-      "node-package-manager": {
-        "intro": [
-          "In diesem Modul lernen Sie den Node Package Manager kennen, mit dem Entwickler Projektabhängigkeiten und Skripte verwalten. Danach üben Sie das Gelernte in Workshops und Laboren und testen Ihr Wissen mit einem kurzen Quiz."
-        ]
-      },
-      "lab-prime-number-checker-module": {
-        "intro": [
-          "Üben Sie das Erstellen und Exportieren eines npm-Moduls, indem Sie einen Primzahlprüfer erstellen."
-        ]
-      },
-      "http-and-the-web-standards-model": {
-        "intro": [
-          "In diesem Modul lernen Sie HTTP (Hypertext Transfer Protocol) und weitere wichtige Konzepte wie das Anfrage-Antwort-Modell, gängige Antwortcodes, DNS, TCP/IP und mehr kennen. Anschließend bauen Sie in einem Workshop Ihren eigenen Webserver und testen Ihr Wissen mit einem kurzen Quiz."
-        ]
-      },
-      "introduction-to-express": {
-        "intro": [
-          "In diesem Modul lernen Sie Express.js kennen, ein Framework zum Erstellen von RESTful APIs. Anschließend üben Sie Ihre Fähigkeiten in Workshops und Laboren und testen Ihr Wissen mit einem kurzen Quiz."
-        ]
-      },
-      "lab-personal-profile-app": {
-        "intro": [
-          "Üben Sie das Erstellen eines Express-Servers und einer JSON-API, indem Sie eine persönliche Profil-Anwendung erstellen."
-        ]
-      },
-      "express-middleware": {
-        "intro": [
-          "In diesem Modul lernen Sie Middleware in Express.js kennen, die Anfragen und Antworten zwischen Client und Server verarbeitet. Anschließend üben Sie Ihre Fähigkeiten in einem Workshop und Labor und testen Ihr Wissen mit einem kurzen Quiz."
-        ]
-      },
-      "rest-api-and-web-services": {
-        "intro": [
-          "In diesem Modul lernen Sie die REST API (Representational State Transfer Application Programming Interface) und die Funktionsweise von Microservices kennen. Danach absolvieren Sie ein kurzes Quiz zur Wissensüberprüfung."
-        ]
-      },
-      "lab-timestamp-microservice": {
-        "intro": [
-          "Üben Sie das Erstellen einer RESTful-API mit Datumsanalyse, indem Sie einen Zeitstempel-Mikroservice erstellen."
-        ]
-      },
-      "error-handling-in-express": {
-        "intro": [
-          "In diesem Modul lernen Sie, wie Fehlerbehandlung, Debugging und Gesundheitschecks in Express.js funktionieren. Danach üben Sie das Gelernte in einem Labor und testen Ihr Wissen mit einem kurzen Quiz."
-        ]
-      },
-      "websockets": {
-        "intro": [
-          "In diesem Modul lernen Sie WebSockets kennen, ein Protokoll für die Echtzeitkommunikation zwischen Client und Server. Danach üben Sie das Gelernte in Laboren und Workshops und testen Ihr Wissen mit einem kurzen Quiz."
-        ]
-      },
-      "lab-chat-app": {
-        "intro": [
-          "Üben Sie das Erstellen eines Echtzeit-Chatservers mit mehreren Clients unter Verwendung von Node.js-WebSockets."
-        ]
-      },
-      "security-and-privacy": {
-        "intro": [
-          "In diesem Modul lernen Sie die Unterschiede zwischen Sicherheit und Datenschutz sowie weitere Konzepte wie CSPs, Permissions-Policies, PII, den Umgang mit CORS und mehr kennen. Anschließend absolvieren Sie ein kurzes Quiz zur Wissensüberprüfung."
-        ]
-      },
-      "authentication": {
-        "intro": [
-          "In diesem Modul lernen Sie, wie Authentifizierung in Webanwendungen funktioniert, sowie weitere wichtige Konzepte wie JWTs, CSRFs, Passport, Helmet, Kryptografie und Verschlüsselung. Danach üben Sie das Gelernte in Laboren und Workshops und testen Ihr Wissen mit einem kurzen Quiz."
-        ]
-      },
-      "lab-family-movie-watchlist-api": {
-        "intro": [
-          "Üben Sie die Implementierung von Authentifizierung und Autorisierung in einer Express-Anwendung, indem Sie eine API für eine Familien-Film-Watchlist erstellen."
-        ]
-      },
-      "review-back-end-development-and-apis": {
-        "intro": [
-          "Überprüfen Sie Konzepte der Back-End-Entwicklung und APIs, um sich auf die bevorstehende Prüfung vorzubereiten."
-        ]
-      },
-      "back-end-development-and-apis-certification-exam": {
-        "intro": [
-          "Bestehen Sie diese Prüfung, um Ihre Zertifizierung für Back-End-Entwicklung und APIs zu erhalten."
-        ]
-      }
-    },
     "blocks": {
       "lecture-working-with-nodejs-and-event-driven-architecture": {
         "title": "Arbeiten mit Node.js und ereignisgesteuerter Architektur",
@@ -7488,6 +7389,12 @@
         "title": "Überprüfung von REST-API und Webservices",
         "intro": [
           "Überprüfen Sie Webservices, die REST-Architektur, HTTP-Statuscodes und Microservices."
+        ]
+      },
+      "quiz-rest-api-and-web-services": {
+        "title": "REST-API- und Webservices-Quiz",
+        "intro": [
+          "Testen Sie Ihr Wissen über Webservices, die REST-Architektur, HTTP-Statuscodes sowie Monolithen vs. Microservices."
         ]
       },
       "lab-timestamp-microservice": {

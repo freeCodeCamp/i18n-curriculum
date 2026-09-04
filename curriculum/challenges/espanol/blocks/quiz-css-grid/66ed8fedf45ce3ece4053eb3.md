@@ -773,11 +773,11 @@ Crea tres columnas donde la del medio es el doble de ancha que los lados.
 
 #### --text--
 
-¿Qué crea `repeat(3, minmax(100px, 1fr))`?
+¿Qué crea `repeat(3, minmax(100px, 1fr))` cuando se usa con `grid-template-columns`?
 
 #### --distractors--
 
-Tres columnas que no pueden reducirse a menos de `100px`.
+Tres columnas que no pueden crecer más de `100px`.
 
 ---
 
@@ -901,7 +901,7 @@ Lo desplaza 2 píxeles.
 
 ---
 
-Lo posiciona comenzando en la segunda línea vertical de la cuadrícula.
+Hace que comience en la segunda línea de fila.
 
 #### --answer--
 

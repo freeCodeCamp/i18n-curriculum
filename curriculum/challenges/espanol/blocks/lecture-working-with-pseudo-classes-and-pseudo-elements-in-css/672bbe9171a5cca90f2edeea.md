@@ -9,11 +9,17 @@ dashedName: what-are-examples-of-element-user-action-pseudo-classes
 
 La retroalimentación del usuario es un elemento crucial del diseño web. Por ejemplo, es importante que los usuarios reciban señales visuales cuando interactúan con elementos en un sitio web, como al pasar el ratón por encima de un botón o al hacer clic en un enlace. Esta retroalimentación ayuda a los usuarios a entender el estado de los elementos interactivos, como indicar si un enlace ha sido visitado o no.
 
+## Entender las pseudoclases de acción del usuario
+
 Las pseudoclases de acción del usuario en CSS son palabras clave especiales que te permiten proporcionar este tipo de retroalimentación sin necesidad de JavaScript u otros lenguajes de programación.
 
 Estas pseudoclases incluyen `:hover`, `:active`, `:focus` y `:visited`, entre otras. Te permiten cambiar la apariencia de elementos en función de las interacciones del usuario, mejorando la experiencia del usuario en general.
 
 Vamos a profundizar en algunas de las pseudoclases de acción del usuario que tenemos y ver cómo funcionan.
+
+## Pseudoclases comunes de acción del usuario
+
+### `:active`
 
 La pseudoclase `:active` aplica estilos cuando un elemento es activado por el usuario. Por ejemplo, cuando el usuario hace clic en un botón o un enlace, proporciona retroalimentación visual inmediata, mostrando a los usuarios que sus acciones están siendo reconocidas.
 
@@ -31,6 +37,8 @@ a:active {
 ```
 
 :::
+
+### `:hover`
 
 La pseudoclase `:hover` se activa cuando un usuario pasa el ratón por encima de un elemento con su ratón o dispositivo apuntador. Los desarrolladores a menudo la utilizan para crear retroalimentación visual para botones, enlaces o cualquier elemento que debe responder a la atención del usuario. Aquí hay un botón sobre el que un usuario podría pasar el ratón antes de hacer clic:
 
@@ -51,7 +59,9 @@ La pseudoclase `:hover` se activa cuando un usuario pasa el ratón por encima de
 
 :::
 
-La pseudoclase `:focus` aplica estilos cuando un elemento gana enfoque, normalmente a través de la navegación con teclado o cuando un usuario hace clic en una entrada de formulario. Esto no es solo para retroalimentación, sino también crucial para la accesibilidad. Asegura que los usuarios que dependen mucho de los teclados puedan identificar fácilmente con qué elemento están interactuando. 
+### `:focus`
+
+La pseudoclase `:focus` aplica estilos cuando un elemento gana enfoque, normalmente a través de la navegación con teclado o cuando un usuario hace clic en una entrada de formulario. Esto no es solo para retroalimentación, sino también crucial para la accesibilidad. Asegura que los usuarios que dependen mucho de los teclados puedan identificar fácilmente con qué elemento están interactuando.
 
 Aquí tienes un ejemplo de un campo de entrada que obtiene el foco cuando haces clic o navegas a él mediante el teclado:
 
@@ -73,6 +83,8 @@ input:focus {
 
 :::
 
+### `:visited`
+
 La pseudoclase `:visited` apunta a un enlace que el usuario ha visitado. Esto puede ser útil para ayudar a los usuarios a distinguir entre las páginas que ya han visitado y las que aún no han visitado. Aquí hay un ejemplo de cambiar el color del texto del enlace a cian cuando el enlace está visitado:
 
 :::interactive_editor
@@ -90,11 +102,13 @@ a:visited {
 
 :::
 
+### `:checked`
+
 La pseudoclase `:checked` en CSS te permite diseñar elementos de formulario como casillas de verificación y botones de opción cuando están seleccionados (marcados). Esta pseudoclase es útil para personalizar la apariencia de estos elementos para mejorar la experiencia del usuario, aunque los navegadores ya proporcionan estilos predeterminados para ellos.
 
-Aquí tienes un ejemplo con una casilla para aceptar los términos en un sitio web. 
+Aquí tienes un ejemplo con una casilla para aceptar los términos en un sitio web.
 
-**NOTA**: Parte del CSS en este ejemplo usa propiedades que aún no se han explicado. Esto es solo para darte una idea de cómo crear una casilla de verificación personalizada. Aprenderás cómo funciona todo esto en futuras lecciones y talleres. 
+**NOTA**: Parte del CSS en este ejemplo usa propiedades que aún no se han explicado. Esto es solo para darte una idea de cómo crear una casilla de verificación personalizada. Aprenderás cómo funciona todo esto en futuras lecciones y talleres.
 
 :::interactive_editor
 
@@ -152,6 +166,8 @@ Aquí tienes un ejemplo con una casilla para aceptar los términos en un sitio w
 :::
 
 En este ejemplo, estamos usando la propiedad `appearance` configurada en `none` para eliminar el estilo predeterminado que el navegador aplica a los inputs de casilla de verificación. Cuando el usuario marque la casilla, tendrá un color de fondo `green`.
+
+## Otras pseudoclases de acción
 
 Otros ejemplos de pseudoclases de acción son:
 

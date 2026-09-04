@@ -96,7 +96,7 @@ Puedes `POST` a `/api/translate` con un cuerpo que contenga `text` con el texto 
   }
 ```
 
-La ruta `/api/translate` debe manejar la forma en que se escribe la hora en inglés americano y británico. Por ejemplo, diez treinta se escribe como "10.30" en inglés británico y "10:30" en inglés americano.  The `span` element should wrap the entire time string, i.e. `<span class="highlight">10:30</span>`.
+La ruta `/api/translate` debe manejar la forma en que se escribe la hora en inglés americano y británico. Por ejemplo, las diez y media se escriben como "10.30" en inglés británico y "10:30" en inglés americano. El elemento `span` debe envolver toda la cadena de la hora, es decir, `<span class="highlight">10:30</span>`.
 
 ```js
   try {
@@ -121,7 +121,7 @@ La ruta `/api/translate` debe manejar la forma en que se escribe la hora en ingl
   }
 ```
 
-La ruta `/api/translate` también debe manejar la forma en que los títulos/honoríficos se abrevian en inglés americano y británico.  For example, Doctor Wright is abbreviated as "Dr Wright" in British English and "Dr.  Wright" in American English. Consulta `/components/american-to-british-titles.js` para los diferentes títulos que tu aplicación debe manejar.
+La ruta `/api/translate` también debe manejar la forma en que se abrevian los títulos/honoríficos en inglés americano y británico. Por ejemplo, Doctor Wright se abrevia como "Dr Wright" en inglés británico y "Dr. Wright" en inglés americano. Consulta `/components/american-to-british-titles.js` para los diferentes títulos que tu aplicación debe manejar.
 
 ```js
   try {

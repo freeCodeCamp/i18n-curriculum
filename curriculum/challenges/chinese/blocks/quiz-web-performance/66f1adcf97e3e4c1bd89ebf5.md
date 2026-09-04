@@ -21,7 +21,7 @@ dashedName: quiz-web-performance
 
 #### --distractors--
 
-真实性能关注浏览器发出的超文本传输协议请求数量，而感知性能则基于 CSS 渲染速度。
+真实性能关注浏览器发出的 HTTP 请求数量，而感知性能则基于 CSS 渲染速度。
 
 ---
 

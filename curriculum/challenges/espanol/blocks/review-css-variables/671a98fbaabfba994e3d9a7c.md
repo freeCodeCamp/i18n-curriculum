@@ -40,11 +40,11 @@ body {
 }
 ```
 
-- **`--property-name`**: Este es el nombre de la propiedad personalizada que estás definiendo. Como todas las propiedades personalizadas, debe comenzar con dos guiones. 
-**`syntax`**: This defines the type of the property, which can be things like `<color>`, `<length>`, `<number>`, `<percentage>`, or more complex types.
+- **`--property-name`**: Este es el nombre de la propiedad personalizada que estás definiendo. Como todas las propiedades personalizadas, debe comenzar con dos guiones.
+**`syntax`**: Esto define el tipo de la propiedad, que puede ser cosas como `<color>`, `<length>`, `<number>`, `<percentage>`, o tipos más complejos.
 - **`inherits`**: Esto especifica si la propiedad debe heredar su valor del elemento padre.
-- **`initial-value`**: Esto establece el valor por defecto de la propiedad.
-- **Ejemplo de Gradiente Usando la Regla `@property`**: Este ejemplo crea un gradiente que se anima suavemente cuando el elemento es desplazado.
+- **`initial-value`**: Esto establece el valor predeterminado de la propiedad.
+- **Ejemplo de degradado usando la regla `@property`**: Este ejemplo crea un degradado que se anima suavemente cuando se pasa el cursor sobre el elemento.
 
 :::interactive_editor
 

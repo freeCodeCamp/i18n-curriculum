@@ -10,7 +10,7 @@ lang: en-US
 
 # --description--
 
-`At least` is used when you want to say the smallest amount or number of something is okay or enough. Es como decir "no menos de esta cantidad". Por ejemplo:
+`At least` se usa cuando quieres decir que la cantidad o número más pequeño de algo está bien o es suficiente. Es como decir "no menos que esta cantidad". Por ejemplo:
 
 `I study English for at least 30 minutes every day.` - Esto significa que dedicas 30 minutos o más a estudiar inglés diariamente, pero nunca menos de 30 minutos.
 

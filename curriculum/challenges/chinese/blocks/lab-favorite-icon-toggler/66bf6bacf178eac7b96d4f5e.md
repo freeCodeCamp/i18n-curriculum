@@ -22,7 +22,7 @@ demoType: onClick
 6. 你应该有一个类选择器，目标为 `filled` 类并设置一些 CSS 属性。
 7. 当包含心形的 `button` 元素被点击时，心形符号应根据其当前状态在 `&#9825;`（空心）和 `&#10084;`（实心）之间切换。
 
-**注意：** 请确保在你的超文本标记语言中链接你的 JavaScript 文件。（例如 `<script src="script.js"></script>`）
+**注意：** 请确保在你的 HTML 中链接你的 JavaScript 文件。（例如 `<script src="script.js"></script>`）
 
 # --hints--
 

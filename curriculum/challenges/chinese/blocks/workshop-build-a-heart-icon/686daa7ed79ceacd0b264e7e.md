@@ -1,15 +1,15 @@
 ---
 id: 686daa7ed79ceacd0b264e7e
-title: 步骤 3
+title: 第 3 步
 challengeType: 0
 dashedName: step-3
 ---
 
 # --description--
 
-`path` 元素需要定义其形状。 这就该 `d` 属性发挥作用了。  It is used to create a series of command letters and numbers that draw a shape. 
+`path` 元素需要定义它的形状。这就是 `d` 属性的作用。它用于创建一串命令字母和数字来绘制一个形状。
 
-这些字母代表诸如移动至、绘制直线和闭合等命令，而数字则代表坐标。  
+这些字母代表诸如移动至、绘制直线和闭合等命令，而数字则代表坐标。
 
 将心形图标的 `d` 属性设置为 `M12 21s-6-4.35-9.33-8.22C-.5 7.39 3.24 1 8.4 4.28 10.08 5.32 12 7.5 12 7.5s1.92-2.18 3.6-3.22C20.76 1 24.5 7.39 21.33 12.78 18 16.65 12 21 12 21z`。
 

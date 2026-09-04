@@ -9,62 +9,50 @@ dashedName: step-10
 
 Menyu yako ya kuchagua inahitaji chaguo kwa kila moja ya vipengele vya `fieldset` vya barua pepe ulivyotengeneza katika hatua zilizopita. Tumia kipengele cha `option` kuunda chaguo jipya kwa kila `fieldset`. Sifa ya `value` ya kila chaguo inapaswa kuwa `id` ya `fieldset`, na maandishi ya kila chaguo yanapaswa kuwa maandishi ya `legend`.
 
-Weka chaguo la `Rent` kama chaguo lililochaguliwa (`selected`).
+Weka chaguo la `Food` kama chaguo lililochaguliwa (`selected`).
 
 # --hints--
 
-Unapaswa kuunda vipengele vinne vya `option` ndani ya kipengele chako cha `select`.
+Unapaswa kuunda vipengele vitatu vya `option` ndani ya kipengele chako cha `select`.
 
 ```js
-assert.equal(document.querySelectorAll('.controls select option')?.length, 4);
+assert.equal(document.querySelectorAll('.controls select option')?.length, 3);
 ```
 
-Chaguo lako la kwanza la `option` linapaswa kuwa na maandishi `Rent`.
+Chaguo lako la kwanza la `option` linapaswa kuwa na maandishi `Food`.
 
 ```js
-assert.equal(document.querySelectorAll('.controls select option')?.[0]?.textContent?.trim(), 'Rent');
+assert.equal(document.querySelectorAll('.controls select option')?.[0]?.textContent?.trim(), 'Food');
 ```
 
-Chaguo lako la kwanza la `option` linapaswa kuwa na sifa ya `value` iliyowekwa kuwa `rent`.
+Chaguo lako la kwanza la `option` linapaswa kuwa na sifa ya `value` iliyowekwa kuwa `food`.
 
 ```js
-assert.equal(document.querySelectorAll('.controls select option')?.[0]?.value, 'rent');
+assert.equal(document.querySelectorAll('.controls select option')?.[0]?.value, 'food');
 ```
 
-Chaguo lako la pili la `option` linapaswa kuwa na maandishi `Food`.
+Chaguo lako la pili la `option` linapaswa kuwa na maandishi `Utilities`.
 
 ```js
-assert.equal(document.querySelectorAll('.controls select option')?.[1]?.textContent?.trim(), 'Food');
+assert.equal(document.querySelectorAll('.controls select option')?.[1]?.textContent?.trim(), 'Utilities');
 ```
 
-Chaguo lako la pili la `option` linapaswa kuwa na sifa ya `value` iliyowekwa kuwa `food`.
+Chaguo lako la pili la `option` linapaswa kuwa na sifa ya `value` iliyowekwa kuwa `utilities`.
 
 ```js
-assert.equal(document.querySelectorAll('.controls select option')?.[1]?.value, 'food');
+assert.equal(document.querySelectorAll('.controls select option')?.[1]?.value, 'utilities');
 ```
 
-Chaguo lako la tatu la `option` linapaswa kuwa na maandishi `Utilities`.
+Chaguo lako la tatu la `option` linapaswa kuwa na maandishi `Entertainment`.
 
 ```js
-assert.equal(document.querySelectorAll('.controls select option')?.[2]?.textContent?.trim(), 'Utilities');
+assert.equal(document.querySelectorAll('.controls select option')?.[2]?.textContent?.trim(), 'Entertainment');
 ```
 
-Chaguo lako la tatu la `option` linapaswa kuwa na sifa ya `value` iliyowekwa kuwa `utilities`.
+Chaguo lako la tatu la `option` linapaswa kuwa na sifa ya `value` iliyowekwa kuwa `entertainment`.
 
 ```js
-assert.equal(document.querySelectorAll('.controls select option')?.[2]?.value, 'utilities');
-```
-
-Chaguo lako la nne la `option` linapaswa kuwa na maandishi `Entertainment`.
-
-```js
-assert.equal(document.querySelectorAll('.controls select option')?.[3]?.textContent?.trim(), 'Entertainment');
-```
-
-Chaguo lako la nne la `option` linapaswa kuwa na sifa ya `value` iliyowekwa kuwa `entertainment`.
-
-```js
-assert.equal(document.querySelectorAll('.controls select option')?.[3]?.value, 'entertainment');
+assert.equal(document.querySelectorAll('.controls select option')?.[2]?.value, 'entertainment');
 ```
 
 Chaguo lako la kwanza la `option` linapaswa kuwekwa kama chaguo lililochaguliwa.
@@ -93,7 +81,6 @@ assert.isTrue(isFirstOptionSelected && selectedOptions.length === 1);
     <main>
       <h1>Envelope Budgeter</h1>
       <div class="container">
-
         <form id="budget-form">
           <label for="income">Total Monthly Income</label>
           <input 
@@ -129,9 +116,9 @@ assert.isTrue(isFirstOptionSelected && selectedOptions.length === 1);
             <span>
               <label for="entry-dropdown">Add expense to:</label>
               <select id="entry-dropdown" name="options">
-                --fcc-editable-region--
+--fcc-editable-region--
                 
-                --fcc-editable-region--
+--fcc-editable-region--
               </select>
               <button type="button" id="add-entry">Add Entry</button>
             </span>

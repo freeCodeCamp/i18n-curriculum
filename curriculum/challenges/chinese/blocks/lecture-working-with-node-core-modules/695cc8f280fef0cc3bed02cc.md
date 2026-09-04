@@ -180,7 +180,7 @@ writeOutputFileStream.on("error", (err) => {
 
 ---
 
-数据、文件、超文本传输协议和缓冲区流。
+数据、文件、HTTP 和缓冲区流。
 
 ### --feedback--
 

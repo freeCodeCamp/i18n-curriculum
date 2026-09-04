@@ -9,62 +9,50 @@ dashedName: step-10
 
 前のステップで作成した封筒の各 `fieldset` 要素に対して、セレクトメニューにオプションが必要です。各 `fieldset` に対して新しいオプションを作成するには、`option` 要素を使ってください。各オプションの `value` 属性はその `fieldset` の `id` にし、オプションのテキストは `legend` のテキストにしてください。
 
-`Rent` のオプションを `selected` オプションに設定してください。
+`Food` のオプションを `selected` オプションに設定してください。
 
 # --hints--
 
-`select` 要素の中に4つの `option` 要素を作成してください。
+`select` 要素の中に3つの `option` 要素を作成してください。
 
 ```js
-assert.equal(document.querySelectorAll('.controls select option')?.length, 4);
+assert.equal(document.querySelectorAll('.controls select option')?.length, 3);
 ```
 
-最初の `option` のテキストは `Rent` にしてください。
+最初の `option` はテキストが `Food` であるべきです。
 
 ```js
-assert.equal(document.querySelectorAll('.controls select option')?.[0]?.textContent?.trim(), 'Rent');
+assert.equal(document.querySelectorAll('.controls select option')?.[0]?.textContent?.trim(), 'Food');
 ```
 
-最初の `option` の `value` 属性は `rent` に設定してください。
+最初の `option` の `value` 属性は `food` に設定してください。
 
 ```js
-assert.equal(document.querySelectorAll('.controls select option')?.[0]?.value, 'rent');
+assert.equal(document.querySelectorAll('.controls select option')?.[0]?.value, 'food');
 ```
 
-2番目の `option` のテキストは `Food` にしてください。
+2番目の `option` はテキストが `Utilities` であるべきです。
 
 ```js
-assert.equal(document.querySelectorAll('.controls select option')?.[1]?.textContent?.trim(), 'Food');
+assert.equal(document.querySelectorAll('.controls select option')?.[1]?.textContent?.trim(), 'Utilities');
 ```
 
-2番目の `option` の `value` 属性は `food` に設定してください。
+2番目の `option` の `value` 属性は `utilities` に設定してください。
 
 ```js
-assert.equal(document.querySelectorAll('.controls select option')?.[1]?.value, 'food');
+assert.equal(document.querySelectorAll('.controls select option')?.[1]?.value, 'utilities');
 ```
 
-3番目の `option` のテキストは `Utilities` にしてください。
+3番目の `option` はテキストが `Entertainment` であるべきです。
 
 ```js
-assert.equal(document.querySelectorAll('.controls select option')?.[2]?.textContent?.trim(), 'Utilities');
+assert.equal(document.querySelectorAll('.controls select option')?.[2]?.textContent?.trim(), 'Entertainment');
 ```
 
-3番目の `option` の `value` 属性は `utilities` に設定してください。
+3番目の `option` の `value` 属性は `entertainment` に設定してください。
 
 ```js
-assert.equal(document.querySelectorAll('.controls select option')?.[2]?.value, 'utilities');
-```
-
-4番目の `option` のテキストは `Entertainment` にしてください。
-
-```js
-assert.equal(document.querySelectorAll('.controls select option')?.[3]?.textContent?.trim(), 'Entertainment');
-```
-
-4番目の `option` の `value` 属性は `entertainment` に設定してください。
-
-```js
-assert.equal(document.querySelectorAll('.controls select option')?.[3]?.value, 'entertainment');
+assert.equal(document.querySelectorAll('.controls select option')?.[2]?.value, 'entertainment');
 ```
 
 最初の `option` を選択されたオプションに設定してください。
@@ -93,7 +81,6 @@ assert.isTrue(isFirstOptionSelected && selectedOptions.length === 1);
     <main>
       <h1>Envelope Budgeter</h1>
       <div class="container">
-
         <form id="budget-form">
           <label for="income">Total Monthly Income</label>
           <input 
@@ -129,9 +116,9 @@ assert.isTrue(isFirstOptionSelected && selectedOptions.length === 1);
             <span>
               <label for="entry-dropdown">Add expense to:</label>
               <select id="entry-dropdown" name="options">
-                --fcc-editable-region--
+--fcc-editable-region--
                 
-                --fcc-editable-region--
+--fcc-editable-region--
               </select>
               <button type="button" id="add-entry">Add Entry</button>
             </span>

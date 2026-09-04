@@ -9,62 +9,50 @@ dashedName: step-10
 
 Вашому меню вибору потрібен варіант для кожного з елементів конверта `fieldset`, які ви створили на попередніх кроках. Використайте елемент `option`, щоб створити новий варіант для кожного `fieldset`. Атрибут `value` кожного варіанта має бути ідентифікатором (`id`) відповідного `fieldset`, а текст варіанта має відповідати тексту `legend`.
 
-Встановіть варіант `Rent` як вибраний (`selected`).
+Встановіть опцію `Food` як опцію з атрибутом `selected`.
 
 # --hints--
 
-Ви маєте створити чотири елементи `option` всередині вашого елемента `select`.
+Ви повинні створити три елементи `option` всередині вашого елемента `select`.
 
 ```js
-assert.equal(document.querySelectorAll('.controls select option')?.length, 4);
+assert.equal(document.querySelectorAll('.controls select option')?.length, 3);
 ```
 
-Ваш перший варіант `option` має містити текст `Rent`.
+Ваш перший елемент `option` має містити текст `Food`.
 
 ```js
-assert.equal(document.querySelectorAll('.controls select option')?.[0]?.textContent?.trim(), 'Rent');
+assert.equal(document.querySelectorAll('.controls select option')?.[0]?.textContent?.trim(), 'Food');
 ```
 
-Атрибут `value` вашого першого варіанта `option` має бути встановлений у `rent`.
+Ваш перший елемент `option` має мати атрибут `value`, встановлений у `food`.
 
 ```js
-assert.equal(document.querySelectorAll('.controls select option')?.[0]?.value, 'rent');
+assert.equal(document.querySelectorAll('.controls select option')?.[0]?.value, 'food');
 ```
 
-Ваш другий варіант `option` має містити текст `Food`.
+Ваш другий елемент `option` має містити текст `Utilities`.
 
 ```js
-assert.equal(document.querySelectorAll('.controls select option')?.[1]?.textContent?.trim(), 'Food');
+assert.equal(document.querySelectorAll('.controls select option')?.[1]?.textContent?.trim(), 'Utilities');
 ```
 
-Атрибут `value` вашого другого варіанта `option` має бути встановлений у `food`.
+Ваш другий елемент `option` має мати атрибут `value`, встановлений у `utilities`.
 
 ```js
-assert.equal(document.querySelectorAll('.controls select option')?.[1]?.value, 'food');
+assert.equal(document.querySelectorAll('.controls select option')?.[1]?.value, 'utilities');
 ```
 
-Ваш третій варіант `option` має містити текст `Utilities`.
+Ваш третій елемент `option` має містити текст `Entertainment`.
 
 ```js
-assert.equal(document.querySelectorAll('.controls select option')?.[2]?.textContent?.trim(), 'Utilities');
+assert.equal(document.querySelectorAll('.controls select option')?.[2]?.textContent?.trim(), 'Entertainment');
 ```
 
-Атрибут `value` вашого третього варіанта `option` має бути встановлений у `utilities`.
+Ваш третій елемент `option` має мати атрибут `value`, встановлений у `entertainment`.
 
 ```js
-assert.equal(document.querySelectorAll('.controls select option')?.[2]?.value, 'utilities');
-```
-
-Ваш четвертий варіант `option` має містити текст `Entertainment`.
-
-```js
-assert.equal(document.querySelectorAll('.controls select option')?.[3]?.textContent?.trim(), 'Entertainment');
-```
-
-Атрибут `value` вашого четвертого варіанта `option` має бути встановлений у `entertainment`.
-
-```js
-assert.equal(document.querySelectorAll('.controls select option')?.[3]?.value, 'entertainment');
+assert.equal(document.querySelectorAll('.controls select option')?.[2]?.value, 'entertainment');
 ```
 
 Ваш перший варіант `option` має бути встановлений як вибраний.
@@ -93,7 +81,6 @@ assert.isTrue(isFirstOptionSelected && selectedOptions.length === 1);
     <main>
       <h1>Envelope Budgeter</h1>
       <div class="container">
-
         <form id="budget-form">
           <label for="income">Total Monthly Income</label>
           <input 
@@ -129,9 +116,9 @@ assert.isTrue(isFirstOptionSelected && selectedOptions.length === 1);
             <span>
               <label for="entry-dropdown">Add expense to:</label>
               <select id="entry-dropdown" name="options">
-                --fcc-editable-region--
+--fcc-editable-region--
                 
-                --fcc-editable-region--
+--fcc-editable-region--
               </select>
               <button type="button" id="add-entry">Add Entry</button>
             </span>

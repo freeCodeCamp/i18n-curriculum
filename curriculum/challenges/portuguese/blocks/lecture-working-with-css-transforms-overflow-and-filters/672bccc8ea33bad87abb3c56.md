@@ -58,7 +58,7 @@ Neste caso, se `content-box` for usado a área de conteúdo será 300px por 200p
 
 ## Como funciona o `border-box`
 
-Ótimo! Agora vamos explorar `border-box`.  It's different because the width and height you set include the element's content, padding, and border (but not its margin).  Use `border-box` when you want the element's total size to stay fixed even if padding or borders change — that's often helpful in responsive layouts.
+Ótimo! Agora vamos explorar o `border-box`. Ele é diferente porque a largura e altura que você define incluem o conteúdo do elemento, o preenchimento e a borda (mas não a margem). Use `border-box` quando quiser que o tamanho total do elemento permaneça fixo mesmo que o preenchimento ou as bordas mudem — isso é muito útil em layouts responsivos.
 
 Com `border-box`, o padding e as bordas são incluídos dentro do tamanho especificado do elemento. O `width` e o `height` que você define se tornam as dimensões totais do elemento: conteúdo + padding + borda; as margens permanecem excluídas.
 
@@ -97,7 +97,7 @@ No exemplo a seguir, há dois elementos `div` com as mesmas dimensões mas valor
 
 :::
 
-Você pode ver que ambos têm o mesmo `width`, `height`, `padding`, `border` e `margin`.  The only differences are in the colors and the value of the `box-sizing` property. Essa pequena diferença tem um impacto muito importante nas dimensões finais.
+Você pode ver que ambos têm a mesma `width`, `height`, `padding`, `border` e `margin`. As únicas diferenças estão nas cores e no valor da propriedade `box-sizing`. Essa pequena diferença tem um impacto muito importante nas dimensões finais.
 
 Escolher entre `content-box` e `border-box` realmente depende das necessidades específicas do seu projeto. Embora `border-box` esteja se tornando cada vez mais popular por sua simplicidade e flexibilidade, entender ambos os modelos é importante para implementar layouts CSS eficazes.
 

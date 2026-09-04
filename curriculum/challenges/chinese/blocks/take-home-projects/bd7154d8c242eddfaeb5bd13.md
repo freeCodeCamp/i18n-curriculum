@@ -10,7 +10,7 @@ dashedName: build-the-game-of-life
 
 **目标：** 构建一个功能上类似于此的应用程序：<a href="https://codepen.io/freeCodeCamp/full/BpwMZv/" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/BpwMZv/</a>。
 
-生命游戏是英国数学家 John Horton Conway 设计的一种细胞自动机。  It is a <em>zero-player game</em>, meaning that its evolution is determined by its initial state, requiring no further input. 生命游戏的一个启动方式是，创建一个初始配置并观察它如何演变。
+生命游戏是由英国数学家约翰·霍顿·康威设计的元胞自动机。它是一种<em>零玩家游戏</em>，意味着它的演变由初始状态决定，不需要额外的输入。人们通过创建初始配置并观察其演变来与生命游戏交互。
 
 生命游戏的宇宙是一个无限的、二维正交的 Grid，由平方单元格组成，每个单元格处于两种可能状态之一：有生命或无生命。每个单元格与其八个邻居交互，这些邻居是水平、垂直或对角相邻的单元格。
 

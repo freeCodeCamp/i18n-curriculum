@@ -773,11 +773,11 @@ HTML 文件的二維佈局。
 
 #### --text--
 
-`repeat(3, minmax(100px, 1fr))` 會創建什麼？
+當與 `grid-template-columns` 一起使用時，`repeat(3, minmax(100px, 1fr))` 會創建什麼？
 
 #### --distractors--
 
-三個行無法縮小到低於 `100px`。
+三個無法超過 `100px` 的行。
 
 ---
 
@@ -901,7 +901,7 @@ HTML 文件的二維佈局。
 
 ---
 
-將其定位在第二條垂直網格線起始處。
+使其從第二列線開始。
 
 #### --answer--
 

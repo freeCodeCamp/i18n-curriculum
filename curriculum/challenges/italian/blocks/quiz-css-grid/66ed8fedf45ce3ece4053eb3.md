@@ -773,11 +773,11 @@ Come creeresti una griglia con 3 colonne uguali e uno spazio `20px` tra di esse?
 
 #### --text--
 
-Cosa crea `repeat(3, minmax(100px, 1fr))`?
+Cosa crea `repeat(3, minmax(100px, 1fr))` quando usato con `grid-template-columns`?
 
 #### --distractors--
 
-Tre colonne che non possono ridursi sotto `100px`.
+Tre colonne che non possono crescere oltre `100px`.
 
 ---
 
@@ -901,7 +901,7 @@ Lo sposta di 2 pixel.
 
 ---
 
-Lo posiziona iniziando dalla seconda linea verticale della griglia.
+Lo fa iniziare alla seconda riga.
 
 #### --answer--
 

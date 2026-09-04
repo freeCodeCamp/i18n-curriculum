@@ -223,7 +223,7 @@ Windows ファイルエクスプローラー
 
 ---
 
-キーボードの`Backspace`キーを押すこと。
+キーボードの<kbd>Backspace</kbd>キーを押すこと。
 
 ---
 

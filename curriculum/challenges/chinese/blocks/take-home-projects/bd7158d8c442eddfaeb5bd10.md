@@ -20,7 +20,7 @@ dashedName: show-the-local-weather
 
 **用户故事：** 我可以按一个按钮在华氏温度和摄氏温度之间切换。
 
-**注意：** 许多互联网浏览器现在要求使用超文本传输协议安全连接（`https://`）来通过超文本标记语言 5 地理定位获取用户的局部的。基于此原因，我们建议使用超文本标记语言 5 地理定位获取用户位置，然后使用 freeCodeCamp 天气 API <a href="https://weather-proxy.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://weather-proxy.freecodecamp.rocks/</a>，该 API 使用超文本传输协议安全连接获取天气。同时，确保通过 `https://` 连接到 <a href="https://codepen.io" target="_blank" rel="noopener noreferrer nofollow">CodePen.io</a>。
+**注意：** 许多互联网浏览器现在要求使用 HTTP 安全连接（`https://`）来通过 HTML 5 地理定位获取用户的局部的。基于此原因，我们建议使用 HTML 5 地理定位获取用户位置，然后使用 freeCodeCamp 天气 API <a href="https://weather-proxy.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://weather-proxy.freecodecamp.rocks/</a>，该 API 使用 HTTP 安全连接获取天气。同时，确保通过 `https://` 连接到 <a href="https://codepen.io" target="_blank" rel="noopener noreferrer nofollow">CodePen.io</a>。
 
 完成后，单击“我已完成此挑战”按钮并添加一个指向 CodePen 的链接。
 

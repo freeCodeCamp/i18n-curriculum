@@ -4537,32 +4537,6 @@
       "review-javascript": "JavaScriptレビュー",
       "javascript-certification-exam": "JavaScript認定試験"
     },
-    "module-intros": {
-      "data-structures": {
-        "note": "2026年春公開予定",
-        "intro": [
-          "このモジュールでは、連結リスト、スタック、キューなどについて学びます。"
-        ]
-      },
-      "algorithms": {
-        "note": "2026年春公開予定",
-        "intro": [
-          "このモジュールでは、バブルソート、二分探索などの一般的なソートと検索のアルゴリズムについて学びます。"
-        ]
-      },
-      "graphs-and-trees": {
-        "note": "2026年春公開予定",
-        "intro": [
-          "このモジュールでは、グラフ、木構造、トライ木について学びます。"
-        ]
-      },
-      "dynamic-programming": {
-        "note": "2026年春公開予定",
-        "intro": [
-          "このモジュールでは、動的プログラミングの仕組みを学びます。"
-        ]
-      }
-    },
     "blocks": {
       "lecture-introduction-to-javascript": {
         "title": "JavaScript入門",
@@ -6046,18 +6020,6 @@
       "review-front-end-libraries": "フロントエンドライブラリの復習",
       "front-end-development-libraries-certification-exam": "フロントエンド開発ライブラリ認定試験"
     },
-    "module-intros": {
-      "typescript-fundamentals": {
-        "intro": [
-          "このモジュールでは、JavaScriptのスーパーセットであるTypeScriptを紹介します。TypeScriptはJavaScriptコードに静的型付けを追加できます。ジェネリクス、型絞り込み、TSXなどを扱うワークショップやラボを作成し、最後にTypeScriptの基本を短いクイズで確認します。"
-        ]
-      },
-      "front-end-development-libraries-certification-exam": {
-        "intro": [
-          "この試験に合格してフロントエンド開発ライブラリ認定を取得してください。"
-        ]
-      }
-    },
     "blocks": {
       "lecture-introduction-to-javascript-libraries-and-frameworks": {
         "title": "JavaScriptライブラリとフレームワークの紹介",
@@ -6447,6 +6409,7 @@
       "lab-polygon-area-calculator": "多角形面積計算機を作る",
       "python-linear-data-structures": "線形データ構造",
       "lab-hash-table": "ハッシュテーブルを作る",
+      "python-recursion": "再帰",
       "python-algorithms": "アルゴリズム",
       "lab-tower-of-hanoi": "ハノイの塔アルゴリズムを実装する",
       "python-graphs-and-trees": "グラフとツリー",
@@ -6791,6 +6754,36 @@
         "intro": [
           "ハッシュテーブルはキーと値のペアを格納し、高速な検索に最適化されたデータ構造です。",
           "このラボでは、データ構造の知識を使ってハッシュテーブルを作ります。"
+        ]
+      },
+      "lecture-understanding-recursion-and-the-call-stack-python": {
+        "title": "再帰とコールスタックの理解",
+        "intro": [
+          "この講義では、Pythonでの再帰関数とコールスタックの仕組みを学びます。"
+        ]
+      },
+      "workshop-countup-python": {
+        "title": "カウントアップ関数を作成する",
+        "intro": [
+          "このワークショップでは、再帰を使って数値のリストを作成する関数を作ります。"
+        ]
+      },
+      "lab-range-of-numbers-python": {
+        "title": "数値範囲ジェネレーターを作成する",
+        "intro": [
+          "このラボでは、指定した範囲内の数値リストを再帰で生成します。"
+        ]
+      },
+      "review-recursion-python": {
+        "title": "再帰のレビュー",
+        "intro": [
+          "再帰、基本ケース、コールスタックの概念を復習します。"
+        ]
+      },
+      "quiz-recursion-python": {
+        "title": "再帰クイズ",
+        "intro": [
+          "再帰、基本ケース、コールスタックの理解度をテストします。"
         ]
       },
       "lecture-searching-and-sorting-algorithms": {
@@ -7197,98 +7190,6 @@
       "review-back-end-development-and-apis": "バックエンド開発とAPIの復習",
       "back-end-development-and-apis-certification-exam": "バックエンド開発とAPI認定試験"
     },
-    "module-intros": {
-      "introduction-to-nodejs": {
-        "intro": [
-          "このモジュールでは、Node.jsの基本的な使い方を学びます。"
-        ]
-      },
-      "nodejs-core-modules": {
-        "intro": [
-          "このモジュールでは、fs、os、pathなどの一般的なNode.jsコアモジュールについて学びます。その後、ワークショップやラボで学んだことを実践し、短いクイズで知識を確認します。"
-        ]
-      },
-      "node-package-manager": {
-        "intro": [
-          "このモジュールでは、開発者がプロジェクトの依存関係やスクリプトを管理するために使うNodeパッケージマネージャーを紹介します。その後、ワークショップやラボで学んだことを実践し、短いクイズで知識を確認します。"
-        ]
-      },
-      "lab-prime-number-checker-module": {
-        "intro": [
-          "素数チェッカーを作成して、npmモジュールの構築とエクスポートを練習してください。"
-        ]
-      },
-      "http-and-the-web-standards-model": {
-        "intro": [
-          "このモジュールでは、HTTP（ハイパーテキスト転送プロトコル）やリクエスト-レスポンスモデル、一般的なレスポンスコード、DNS、TCP/IPなどの重要な概念を学びます。その後、自分でウェブサーバーを構築するワークショップで実践し、短いクイズで知識を確認します。"
-        ]
-      },
-      "introduction-to-express": {
-        "intro": [
-          "このモジュールでは、RESTful APIを構築するためのフレームワークであるExpress.jsを紹介します。その後、ワークショップやラボでスキルを実践し、短いクイズで知識を確認します。"
-        ]
-      },
-      "lab-personal-profile-app": {
-        "intro": [
-          "個人プロフィールアプリケーションを作成して、ExpressサーバーとJSON APIの構築を練習してください。"
-        ]
-      },
-      "express-middleware": {
-        "intro": [
-          "このモジュールでは、クライアントとサーバー間のリクエストとレスポンスを処理するために使われるExpress.jsのミドルウェアについて学びます。その後、ワークショップとラボでスキルを実践し、短いクイズで知識を確認します。"
-        ]
-      },
-      "rest-api-and-web-services": {
-        "intro": [
-          "このモジュールでは、REST API（表現状態転送アプリケーションプログラミングインターフェース）とマイクロサービスの仕組みについて学びます。その後、短いクイズで知識を確認します。"
-        ]
-      },
-      "lab-timestamp-microservice": {
-        "intro": [
-          "タイムスタンプマイクロサービスを作成して、日付解析ロジックを持つRESTful APIの構築を練習してください。"
-        ]
-      },
-      "error-handling-in-express": {
-        "intro": [
-          "このモジュールでは、Express.jsのエラーハンドリング、デバッグ、ヘルスチェックの仕組みについて学びます。その後、ラボで実践し、短いクイズで知識を確認します。"
-        ]
-      },
-      "websockets": {
-        "intro": [
-          "このモジュールでは、クライアントとサーバー間のリアルタイム通信に使われるプロトコルであるWebSocketsを紹介します。その後、ラボやワークショップで学んだことを実践し、短いクイズで知識を確認します。"
-        ]
-      },
-      "lab-chat-app": {
-        "intro": [
-          "Node.jsのWebSocketを使ってリアルタイムのマルチクライアントチャットサーバーの構築を練習してください。"
-        ]
-      },
-      "security-and-privacy": {
-        "intro": [
-          "このモジュールでは、セキュリティとプライバシーの違い、CSP、Permissions-Policies、PII、CORSの扱いなどの概念について学びます。その後、短いクイズで知識を確認します。"
-        ]
-      },
-      "authentication": {
-        "intro": [
-          "このモジュールでは、ウェブアプリケーションの認証の仕組みやJWT、CSRF、Passport、Helmet、暗号化と暗号技術などの重要な概念について学びます。その後、ラボやワークショップで実践し、短いクイズで知識を確認します。"
-        ]
-      },
-      "lab-family-movie-watchlist-api": {
-        "intro": [
-          "家族用映画ウォッチリストAPIを作成して、Expressアプリケーションでの認証と認可の実装を練習してください。"
-        ]
-      },
-      "review-back-end-development-and-apis": {
-        "intro": [
-          "今後の試験に備えてバックエンド開発とAPIの概念を復習しましょう。"
-        ]
-      },
-      "back-end-development-and-apis-certification-exam": {
-        "intro": [
-          "この試験に合格してバックエンド開発とAPI認定を取得しましょう。"
-        ]
-      }
-    },
     "blocks": {
       "lecture-working-with-nodejs-and-event-driven-architecture": {
         "title": "Node.jsとイベント駆動アーキテクチャの活用",
@@ -7488,6 +7389,12 @@
         "title": "REST APIとウェブサービスの復習",
         "intro": [
           "ウェブサービス、RESTアーキテクチャ、HTTPステータスコード、マイクロサービスを復習します。"
+        ]
+      },
+      "quiz-rest-api-and-web-services": {
+        "title": "REST APIとウェブサービスのクイズ",
+        "intro": [
+          "ウェブサービス、RESTアーキテクチャ、HTTPステータスコード、モノリスとマイクロサービスの知識をテストします。"
         ]
       },
       "lab-timestamp-microservice": {

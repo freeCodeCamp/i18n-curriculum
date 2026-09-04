@@ -4537,32 +4537,6 @@
       "review-javascript": "Kagua JavaScript",
       "javascript-certification-exam": "Mtihani wa Cheti cha JavaScript"
     },
-    "module-intros": {
-      "data-structures": {
-        "note": "Inakuja Msimu wa Machipuko 2026",
-        "intro": [
-          "Katika moduli hii, utajifunza kuhusu orodha zilizounganishwa, vikapu, foleni na zaidi."
-        ]
-      },
-      "algorithms": {
-        "note": "Inakuja Msimu wa Machipuko 2026",
-        "intro": [
-          "Katika moduli hii, utajifunza kuhusu algoriti za kawaida za kupanga na kutafuta ikiwa ni pamoja na bubble sort, binary search na zaidi."
-        ]
-      },
-      "graphs-and-trees": {
-        "note": "Inakuja Msimu wa Machipuko 2026",
-        "intro": [
-          "Katika moduli hii, utajifunza kuhusu grafu, miti na mti wa maneno."
-        ]
-      },
-      "dynamic-programming": {
-        "note": "Inakuja Msimu wa Machipuko 2026",
-        "intro": [
-          "Katika moduli hii, utajifunza jinsi programu ya mabadiliko inavyofanya kazi."
-        ]
-      }
-    },
     "blocks": {
       "lecture-introduction-to-javascript": {
         "title": "Utangulizi wa JavaScript",
@@ -6046,18 +6020,6 @@
       "review-front-end-libraries": "Kagua maktaba za mbele wa mtandao",
       "front-end-development-libraries-certification-exam": "Mtihani wa cheti cha maktaba za ukuzaji wa mbele wa mtandao"
     },
-    "module-intros": {
-      "typescript-fundamentals": {
-        "intro": [
-          "Katika moduli hii, utatambulishwa na TypeScript, ambayo ni toleo la juu la JavaScript linalokuwezesha kuongeza aina thabiti kwenye msimbo wako wa JavaScript. Utajenga warsha na maabara kadhaa zitakazokupa mazoezi ya kufanya kazi na generics, kupunguza aina, TSX, na zaidi. Kisha utajaribu maarifa yako ya misingi ya TypeScript kwa jaribio fupi."
-        ]
-      },
-      "front-end-development-libraries-certification-exam": {
-        "intro": [
-          "Pita mtihani huu kupata cheti chako cha maktaba za ukuzaji wa mbele wa mtandao."
-        ]
-      }
-    },
     "blocks": {
       "lecture-introduction-to-javascript-libraries-and-frameworks": {
         "title": "Utangulizi wa maktaba na mifumo wa kazi za JavaScript",
@@ -6447,6 +6409,7 @@
       "lab-polygon-area-calculator": "Jenga kipimo cha eneo la mstatili",
       "python-linear-data-structures": "Miundo ya data ya mstari",
       "lab-hash-table": "Jenga jedwali la hash",
+      "python-recursion": "Kurudia",
       "python-algorithms": "Algoriti",
       "lab-tower-of-hanoi": "Tekeleza algoriti ya Tower of Hanoi",
       "python-graphs-and-trees": "Michoro na miti",
@@ -6791,6 +6754,36 @@
         "intro": [
           "Jedwali la hash ni muundo wa data unaotumika kuhifadhi jozi za ufunguo-thamani na umeboreshwa kwa utambuzi wa haraka.",
           "Katika warsha hii, utatumia maarifa yako kuhusu miundo ya data kujenga jedwali la hash."
+        ]
+      },
+      "lecture-understanding-recursion-and-the-call-stack-python": {
+        "title": "Kuelewa kurudia na safu ya wito",
+        "intro": [
+          "Katika somo hili, utajifunza jinsi vitendakazi vinavyorudia na safu ya wito vinavyofanya kazi katika Python."
+        ]
+      },
+      "workshop-countup-python": {
+        "title": "Jenga kitendakazi cha kuhesabu kwa kuongezeka",
+        "intro": [
+          "Katika warsha hii, utajenga kitendakazi kinachotumia kurudia kuunda orodha ya nambari."
+        ]
+      },
+      "lab-range-of-numbers-python": {
+        "title": "Jenga kizalishaji cha orodha ya nambari",
+        "intro": [
+          "Katika maabara hii, utatumia kurudia kuzalisha orodha ya nambari ndani ya anuwai iliyobainishwa."
+        ]
+      },
+      "review-recursion-python": {
+        "title": "Kagua kurudia",
+        "intro": [
+          "Kagua dhana za kurudia, kesi za msingi, na safu ya wito."
+        ]
+      },
+      "quiz-recursion-python": {
+        "title": "Jaribio fupi la kurudia",
+        "intro": [
+          "Jaribu uelewa wako wa kurudia, kesi za msingi, na safu ya wito."
         ]
       },
       "lecture-searching-and-sorting-algorithms": {
@@ -7197,98 +7190,6 @@
       "review-back-end-development-and-apis": "Kagua ukuzaji wa nyuma na APIs",
       "back-end-development-and-apis-certification-exam": "Mtihani wa cheti cha ukuzaji wa nyuma na APIs"
     },
-    "module-intros": {
-      "introduction-to-nodejs": {
-        "intro": [
-          "Katika moduli hii, utajifunza misingi ya kufanya kazi na Node.js."
-        ]
-      },
-      "nodejs-core-modules": {
-        "intro": [
-          "Katika moduli hii, utajifunza kuhusu moduli kuu za Node.js kama fs, os, path na zaidi. Kisha utapata fursa ya kufanya mazoezi kupitia warsha na maabara na kupima maarifa yako kupitia jaribio fupi."
-        ]
-      },
-      "node-package-manager": {
-        "intro": [
-          "Katika moduli hii, utatambulishwa na Msimamizi wa vifurushi wa Node, ambao wasanidi programu hutumia kusimamia utegemezi wa miradi na misimbo. Kisha utafanya mazoezi kupitia warsha na maabara na kupima maarifa yako kwa jaribio fupi."
-        ]
-      },
-      "lab-prime-number-checker-module": {
-        "intro": [
-          "Jifunze kujenga na kusafirisha moduli ya npm kwa kuunda kipima namba msingi."
-        ]
-      },
-      "http-and-the-web-standards-model": {
-        "intro": [
-          "Katika moduli hii, utajifunza kuhusu HTTP (Hypertext Transfer Protocol) na dhana nyingine muhimu ikiwemo mfano wa ombi-jibu, nambari za kawaida za jibu, DNS, TCP/IP, na zaidi. Kisha utafanya mazoezi ya kujenga seva yako mwenyewe kupitia warsha na kupima maarifa yako kwa jaribio fupi."
-        ]
-      },
-      "introduction-to-express": {
-        "intro": [
-          "Katika moduli hii, utatambulishwa na Express.js, ambayo ni mfumo wa kazi unaotumika kujenga RESTful APIs. Kisha utafanya mazoezi kupitia warsha na maabara na kupima maarifa yako kwa jaribio fupi."
-        ]
-      },
-      "lab-personal-profile-app": {
-        "intro": [
-          "Jifunze kujenga seva ya Express na API ya JSON kwa kuunda programu ya wasifu binafsi."
-        ]
-      },
-      "express-middleware": {
-        "intro": [
-          "Katika moduli hii, utajifunza kuhusu programu ya kati katika Express.js, inayotumika kushughulikia maombi na majibu kati ya mteja na seva. Kisha utafanya mazoezi kupitia warsha na maabara na kupima maarifa yako kwa jaribio fupi."
-        ]
-      },
-      "rest-api-and-web-services": {
-        "intro": [
-          "Katika moduli hii, utajifunza kuhusu REST API (uhamishaji wa hali ya uwakilishi (REST)) na jinsi microservices zinavyofanya kazi. Kisha utachukua jaribio fupi kupima maarifa yako."
-        ]
-      },
-      "lab-timestamp-microservice": {
-        "intro": [
-          "Jifunze kujenga API ya RESTful yenye mantiki ya kuchambua tarehe kwa kuunda huduma ndogo ya timestamp."
-        ]
-      },
-      "error-handling-in-express": {
-        "intro": [
-          "Katika moduli hii, utajifunza jinsi usimamizi wa hitilafu, kutafuta makosa, na ukaguzi wa afya unavyofanya kazi katika Express.js. Kisha utafanya mazoezi katika maabara na kupima maarifa yako kwa jaribio fupi."
-        ]
-      },
-      "websockets": {
-        "intro": [
-          "Katika moduli hii, utatambulishwa na websockets, ambayo ni itifaki inayotumika kwa mawasiliano ya wakati halisi kati ya mteja na seva. Kisha utafanya mazoezi katika maabara na warsha na kupima maarifa yako kwa jaribio fupi."
-        ]
-      },
-      "lab-chat-app": {
-        "intro": [
-          "Jifunze kujenga seva ya mazungumzo ya wakati halisi kwa wateja wengi ukitumia Node.js WebSockets."
-        ]
-      },
-      "security-and-privacy": {
-        "intro": [
-          "Katika moduli hii, utajifunza tofauti kati ya usalama na faragha pamoja na dhana nyingine ikiwemo CSPs, Sera za Ruhusa, PII, kufanya kazi na CORS, na zaidi. Kisha utachukua jaribio fupi kupima maarifa yako."
-        ]
-      },
-      "authentication": {
-        "intro": [
-          "Katika moduli hii, utajifunza jinsi uthibitisho wa utambulisho unavyofanya kazi katika programu za mtandao pamoja na dhana nyingine muhimu ikiwemo JWTs, CSRFs, Passport, Helmet, usimbaji fiche na usimbaji, na zaidi. Kisha utafanya mazoezi katika maabara na warsha na kupima maarifa yako kwa jaribio fupi."
-        ]
-      },
-      "lab-family-movie-watchlist-api": {
-        "intro": [
-          "Jifunze kutekeleza uthibitisho wa utambulisho na idhini katika programu ya Express kwa kujenga API ya orodha ya filamu za familia."
-        ]
-      },
-      "review-back-end-development-and-apis": {
-        "intro": [
-          "Kagua dhana za ukuzaji wa nyuma na APIs kujiandaa kwa mtihani ujao."
-        ]
-      },
-      "back-end-development-and-apis-certification-exam": {
-        "intro": [
-          "Pita mtihani huu ili kupata cheti chako cha ukuzaji wa nyuma na APIs."
-        ]
-      }
-    },
     "blocks": {
       "lecture-working-with-nodejs-and-event-driven-architecture": {
         "title": "Kufanya kazi na Node.js na usanifu unaoendeshwa na matukio",
@@ -7488,6 +7389,12 @@
         "title": "Kagua REST API na huduma za mtandao",
         "intro": [
           "Kagua huduma za mtandao, usanifu wa REST, nambari za hali za HTTP, na huduma ndogo ndogo."
+        ]
+      },
+      "quiz-rest-api-and-web-services": {
+        "title": "Jaribio fupi la REST API na huduma za mtandao",
+        "intro": [
+          "Jaribu maarifa yako kuhusu huduma za mtandao, usanifu wa REST, nambari za hali za HTTP, na tofauti kati ya monoliths na microservices."
         ]
       },
       "lab-timestamp-microservice": {

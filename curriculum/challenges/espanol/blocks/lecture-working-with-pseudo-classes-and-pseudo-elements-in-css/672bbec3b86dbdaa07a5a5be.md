@@ -18,7 +18,7 @@ Ejemplos de pseudo-clases funcionales son:
 
 Veamos más a fondo cada una de estas pseudo-clases funcionales con ejemplos.
 
-La pseudo-clase `:is()` es útil cuando deseas aplicar estilos a un grupo de elementos que comparten algunas, pero no todas, características. Por ejemplo, podrías querer estilizar diferentes tipos de botones en tu sitio web, incluyendo elementos `button`, enlaces estilizados como botones, y elementos `input` con tipos `submit` y `reset`.  Here's an example representing that. Sin la función `:is()`, tendrías que escribir un selector complejo como este:
+La pseudoclase `:is()` es útil cuando quieres estilizar un grupo de elementos que comparten algunas, pero no todas, las características. Por ejemplo, podrías querer estilizar diferentes tipos de botones en tu sitio web, incluyendo elementos `button`, enlaces estilizados como botones y elementos `input` con tipos `submit` y `reset`. Aquí tienes un ejemplo que lo representa. Sin la función `:is()`, tendrías que escribir un selector complejo como este:
 
 :::interactive_editor
 
@@ -96,7 +96,7 @@ Con la función `:is()`, puedes escribir un selector más compacto y comprensibl
 
 La pseudo-clase `:where()` funciona de manera similar a `:is()`, pero no incrementa la especificidad de tus selectores. Esto lo hace ideal para aplicar estilos sin afectar la especificidad de otras reglas.
 
-Por ejemplo, puedes usar la función `:where()` para aplicar cero `margin` y `padding` a los elementos de encabezado. Esto asegura que el restablecimiento no interferirá con estilos más específicos que podrías aplicar más tarde.  Here's an example for that:
+Por ejemplo, puedes usar la función `:where()` para aplicar `margin` y `padding` cero a los elementos de título. Esto asegura que el reinicio no interfiera con estilos más específicos que puedas aplicar después. Aquí tienes un ejemplo para eso:
 
 :::interactive_editor
 

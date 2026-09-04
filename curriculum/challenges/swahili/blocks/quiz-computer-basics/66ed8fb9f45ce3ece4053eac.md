@@ -223,7 +223,7 @@ Chaguzi zote zingine.
 
 ---
 
-Kubofya kitufe cha `Backspace` kwenye kibodi.
+Kubofya kitufe cha <kbd>Backspace</kbd> kwenye kibodi.
 
 ---
 

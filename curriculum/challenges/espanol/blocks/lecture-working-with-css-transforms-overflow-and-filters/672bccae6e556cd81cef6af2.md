@@ -37,7 +37,7 @@ En CSS, cuando dos márgenes verticales entran en contacto, se colapsan; esto si
 
 En este ejemplo, podrías esperar que el espacio total entre `.box1` y `.box2` sea de 50 píxeles (20 píxeles más 30 píxeles). Sin embargo, debido al colapso de márgenes, el espacio real será de 30 píxeles, que es el mayor de los dos márgenes.
 
-As we saw in the previous example, margins of the adjacent sibling elements will collapse. Este es el caso más directo de colapso de márgenes. Exploremos más casos donde el colapso de márgenes puede ocurrir. 
+Como vimos en el ejemplo anterior, los márgenes de los elementos hermanos adyacentes se colapsan. Este es el caso más sencillo de colapso de márgenes. Exploremos más casos donde puede ocurrir el colapso de márgenes.
 
 Los márgenes también pueden colapsar entre un elemento principal y su primer o último hijo. Si no hay borde, relleno, contenido en línea o despeje para separar el margen del principal del del hijo, colapsarán.
 
@@ -64,7 +64,7 @@ Los márgenes también pueden colapsar entre un elemento principal y su primer o
 
 En este caso, podrías esperar que el hijo esté a 70 píxeles desde la parte superior (40 píxeles más 30 píxeles). Sin embargo, los márgenes colapsan y se usa el margen mayor de 40 píxeles.
 
-Si un elemento no tiene contenido, relleno o borde, sus márgenes superior e inferior pueden colapsar en un solo margen. 
+Si un elemento no tiene contenido, relleno o borde, sus márgenes superior e inferior pueden colapsar en un solo margen.
 
 :::interactive_editor
 
@@ -88,7 +88,7 @@ Si un elemento no tiene contenido, relleno o borde, sus márgenes superior e inf
 
 En este ejemplo, los márgenes superior e inferior de `empty-block` se colapsan en un único margen de 20 píxeles, el mayor de los dos.
 
-Aquí tienes un ejemplo de cómo evitar el colapso usando padding: 
+Aquí tienes un ejemplo de cómo evitar el colapso usando padding:
 
 :::interactive_editor
 
@@ -114,7 +114,7 @@ Aquí tienes un ejemplo de cómo evitar el colapso usando padding:
 
 En este caso, el relleno de un píxel en el elemento padre evita que el margen colapse, resultando en un espacio total de 71 píxeles desde la parte superior del padre hasta la parte superior del contenido hijo.
 
-Entender el colapso de márgenes es importante para tener un control preciso sobre el diseño y espaciado en CSS.  While it can sometimes lead to unexpected results, it's a feature designed to create more aesthetically pleasing and consistent spacing in documents. Sabiendo cuándo ocurre el colapso de márgenes y cómo prevenirlo cuando sea necesario, puedes crear diseños más predecibles y mantenibles en tus sitios web.
+Entender el colapso de márgenes es importante para tener un control preciso sobre el diseño y el espaciado en CSS. Aunque a veces puede generar resultados inesperados, es una funcionalidad diseñada para crear un espaciado más estético y consistente en los documentos. Al saber cuándo ocurre el colapso de márgenes y cómo evitarlo cuando sea necesario, puedes crear diseños web más predecibles y fáciles de mantener.
 
 # --questions--
 

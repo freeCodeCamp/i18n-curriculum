@@ -15,7 +15,7 @@ Los diferentes tipos de pruebas de compatibilidad incluyen compatibilidad hacia 
 
 Veamos cada uno de los tipos en más detalle comenzando con la compatibilidad hacia atrás y hacia adelante. La compatibilidad hacia atrás se refiere a cuando el software actual es compatible con versiones anteriores. La compatibilidad hacia adelante es cuando el software y los sistemas funcionarán con versiones futuras de sí mismos.
 
-El siguiente tipo de prueba es para hardware. La prueba de compatibilidad de hardware se centra en la capacidad del software para trabajar adecuadamente en diferentes configuraciones de hardware.  This includes different types of processors, memory, storage, and graphics cards.
+El siguiente tipo de prueba es para hardware. Las pruebas de compatibilidad de hardware se centran en la capacidad del software para funcionar correctamente en diferentes configuraciones de hardware. Esto incluye distintos tipos de procesadores, memoria, almacenamiento y tarjetas gráficas.
 
 Otro tipo de prueba de compatibilidad es para sistemas operativos. No quieres diseñar software que funcione sin problemas en dispositivos Mac pero tenga errores en Windows o viceversa. También necesitas considerar distribuciones de Linux como Ubuntu y Fedora.
 

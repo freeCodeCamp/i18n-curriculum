@@ -223,7 +223,7 @@ Tutte le altre opzioni.
 
 ---
 
-Premere il tasto `Backspace` sulla tastiera.
+Premere il tasto <kbd>Backspace</kbd> sulla tastiera.
 
 ---
 

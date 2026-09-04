@@ -10,7 +10,7 @@ dashedName: create-decimal-numbers-with-javascript
 
 También podemos almacenar números decimales en variables. Los números decimales a veces se denominan números de <dfn>coma flotante</dfn> o <dfn>flotantes</dfn>.
 
-**Nota:** cuando calculas números, se calculan con precisión finita. Las operaciones con puntos flotantes pueden producir resultados diferentes a los deseados.  If you are getting one of these results, open a topic on the <a href="https://forum.freecodecamp.org/" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp forum</a>.
+**Nota:** cuando calculas números, se calculan con precisión finita. Las operaciones con números de punto flotante pueden producir resultados diferentes a los deseados. Si obtienes uno de estos resultados, abre un tema en el <a href="https://forum.freecodecamp.org/" target="_blank" rel="noopener noreferrer nofollow">foro de freeCodeCamp</a>.
 
 # --instructions--
 

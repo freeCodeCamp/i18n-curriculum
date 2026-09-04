@@ -32,7 +32,7 @@ Essas duas palavras juntas referem-se ao senso de unidade e cooperação entre o
 
 ### --feedback--  
 
-Esta palavra composta refere-se ao processo de encontrar soluções para desafios. A primeira parte refere-se a um problema que precisa ser corrigido e a segunda parte é um verbo que significa encontrar uma solução.  Remember to use `-` between the two parts.
+Essa palavra composta se refere ao processo de buscar soluções para desafios. A primeira parte se refere a um issue que precisa ser resolvido, e a segunda parte é um verbo que significa buscar uma solução. Lembre-se de usar `-` entre as duas partes.
 
 # --explanation--
 

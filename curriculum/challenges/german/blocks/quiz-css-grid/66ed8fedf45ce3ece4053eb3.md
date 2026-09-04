@@ -1,6 +1,6 @@
 ---
 id: 66ed8fedf45ce3ece4053eb3
-title: CSS Grid Quiz
+title: CSS-Grid-Quiz
 challengeType: 8
 dashedName: quiz-css-grid
 ---
@@ -773,11 +773,11 @@ Wie würden Sie ein Grid mit 3 gleichen Spalten und einem `20px`-Abstand zwische
 
 #### --text--
 
-Was erzeugt `repeat(3, minmax(100px, 1fr))`?
+Was erzeugt `repeat(3, minmax(100px, 1fr))`, wenn es mit `grid-template-columns` verwendet wird?
 
 #### --distractors--
 
-Drei Spalten, die nicht unter `100px` schrumpfen können.
+Drei Spalten, die nicht größer als `100px` werden können.
 
 ---
 
@@ -901,7 +901,7 @@ Versetzt es um 2 Pixel.
 
 ---
 
-Positioniert es beginnend an der zweiten vertikalen Gitterlinie.
+Lässt es an der zweiten Zeilenlinie beginnen.
 
 #### --answer--
 

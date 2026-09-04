@@ -9,11 +9,17 @@ dashedName: what-are-examples-of-element-user-action-pseudo-classes
 
 Benutzerfeedback ist ein entscheidendes Element im Webdesign. Es ist zum Beispiel wichtig, dass Nutzer visuelle Hinweise erhalten, wenn sie mit Elementen auf einer Website interagieren, etwa wenn sie mit der Maus über einen Button fahren oder auf einen Link klicken. Dieses Feedback hilft den Nutzern, den Zustand interaktiver Elemente zu verstehen, zum Beispiel ob ein Link bereits besucht wurde oder nicht.
 
+## Verständnis von Benutzeraktions-Pseudoklassen
+
 Benutzeraktions-Pseudoklassen in CSS sind spezielle Schlüsselwörter, mit denen Sie diese Art von Feedback geben können, ohne JavaScript oder andere Programmiersprachen zu benötigen.
 
 Zu diesen Pseudoklassen gehören `:hover`, `:active`, `:focus` und `:visited` sowie weitere. Sie ermöglichen es Ihnen, das Aussehen von Elementen basierend auf Benutzerinteraktionen zu ändern und so die Benutzererfahrung zu verbessern.
 
 Lassen Sie uns einige der Benutzeraktions-Pseudoklassen ansehen und sehen, wie sie funktionieren.
+
+## Häufige Benutzeraktions-Pseudoklassen
+
+### `:active`
 
 Die `:active`-Pseudoklasse wendet Stile an, wenn ein Element vom Benutzer aktiviert wird. Zum Beispiel, wenn der Nutzer auf einen Button oder Link klickt, gibt sie sofortiges visuelles Feedback und zeigt den Nutzern, dass ihre Aktion erkannt wurde.
 
@@ -31,6 +37,8 @@ a:active {
 ```
 
 :::
+
+### `:hover`
 
 Die `:hover`-Pseudoklasse wird ausgelöst, wenn ein Nutzer mit der Maus oder einem anderen Zeigegerät über ein Element fährt. Entwickler verwenden sie oft, um visuelles Feedback für Buttons, Links oder andere Elemente zu erzeugen, die auf Benutzeraufmerksamkeit reagieren sollen. Hier ist ein Button, über den ein Nutzer vor dem Klicken fährt:
 
@@ -50,6 +58,8 @@ Die `:hover`-Pseudoklasse wird ausgelöst, wenn ein Nutzer mit der Maus oder ein
 ```
 
 :::
+
+### `:focus`
 
 Die `:focus`-Pseudoklasse wendet Stile an, wenn ein Element den Fokus erhält, typischerweise durch Tastaturnavigation oder wenn ein Nutzer in ein Formulareingabefeld klickt. Das dient nicht nur als Feedback, sondern ist auch entscheidend für die Barrierefreiheit. So können Nutzer, die stark auf die Tastatur angewiesen sind, leicht erkennen, mit welchem Element sie interagieren.
 
@@ -73,6 +83,8 @@ input:focus {
 
 :::
 
+### `:visited`
+
 Die `:visited`-Pseudoklasse zielt auf einen Link ab, den der Nutzer bereits besucht hat. Das ist nützlich, um Nutzern zu helfen, zwischen bereits besuchten Seiten und noch nicht besuchten zu unterscheiden. Hier ein Beispiel, bei dem sich die Farbe des Ankertexts auf Cyan ändert, wenn der Link besucht wurde:
 
 :::interactive_editor
@@ -90,11 +102,13 @@ a:visited {
 
 :::
 
+### `:checked`
+
 Die `:checked`-Pseudoklasse in CSS erlaubt es, Formularelemente wie Kontrollkästchen und Optionsschaltflächen zu stylen, wenn sie ausgewählt (angekreuzt) sind. Diese Pseudoklasse ist hilfreich, um das Aussehen dieser Elemente anzupassen und so die Benutzererfahrung zu verbessern, obwohl Browser bereits Standardstile dafür bereitstellen.
 
-Hier ein Beispiel mit einem Kontrollkästchen, um den Nutzungsbedingungen auf einer Website zuzustimmen.
+Hier ist ein Beispiel mit einem Kontrollkästchen, um den Nutzungsbedingungen auf einer Website zuzustimmen.
 
-**HINWEIS**: Einige CSS-Eigenschaften in diesem Beispiel wurden noch nicht behandelt. Es dient nur dazu, Ihnen eine Vorstellung davon zu geben, wie man ein benutzerdefiniertes Kontrollkästchen erstellt. Sie lernen, wie das alles funktioniert, in zukünftigen Lektionen und Workshops.
+**HINWEIS**: Einige CSS-Eigenschaften in diesem Beispiel wurden noch nicht behandelt. Dies soll Ihnen nur eine Vorstellung davon geben, wie man ein benutzerdefiniertes Kontrollkästchen erstellt. Sie lernen, wie das alles funktioniert, in zukünftigen Lektionen und Workshops.
 
 :::interactive_editor
 
@@ -152,6 +166,8 @@ Hier ein Beispiel mit einem Kontrollkästchen, um den Nutzungsbedingungen auf ei
 :::
 
 In diesem Beispiel verwenden wir die `appearance`-Eigenschaft mit dem Wert `none`, um die vom Browser standardmäßig auf Kontrollkästchen angewendeten Stile zu entfernen. Wenn der Nutzer das Kästchen aktiviert, erhält es eine Hintergrundfarbe von `green`.
+
+## Weitere Aktions-Pseudoklassen
 
 Weitere Beispiele für Aktions-Pseudoklassen sind:
 

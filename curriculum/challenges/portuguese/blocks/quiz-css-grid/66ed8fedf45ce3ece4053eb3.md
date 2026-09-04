@@ -773,11 +773,11 @@ Como você criaria uma grade com 3 colunas iguais e um espaçamento de `20px` en
 
 #### --text--
 
-O que `repeat(3, minmax(100px, 1fr))` cria?
+O que `repeat(3, minmax(100px, 1fr))` cria quando usado com `grid-template-columns`?
 
 #### --distractors--
 
-Três colunas que não podem encolher abaixo de `100px`.
+Três colunas que não podem crescer além de `100px`.
 
 ---
 
@@ -901,7 +901,7 @@ Desloca-o em 2 pixels.
 
 ---
 
-Posiciona-o começando na segunda linha da grade vertical.
+Faz com que comece na segunda linha da linha.
 
 #### --answer--
 

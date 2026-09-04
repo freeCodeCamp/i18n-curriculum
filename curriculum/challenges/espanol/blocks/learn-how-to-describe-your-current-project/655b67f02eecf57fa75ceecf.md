@@ -10,7 +10,7 @@ lang: en-US
 
 # --description--
 
-To `stay` is used to indicate remaining in a particular state or condition. A menudo se usa en instrucciones o consejos para mantenerse en cierta situación. Por ejemplo:
+El verbo `stay` se usa para indicar que se permanece en un estado o condición particular. A menudo se usa en instrucciones o consejos para mantener a alguien en una situación determinada. Por ejemplo:
 
 - `Stay safe online.` - Continúa estando seguro mientras usas internet.
 

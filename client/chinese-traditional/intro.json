@@ -4537,32 +4537,6 @@
       "review-javascript": "JavaScript 複習",
       "javascript-certification-exam": "JavaScript 認證考試"
     },
-    "module-intros": {
-      "data-structures": {
-        "note": "2026 年春季推出",
-        "intro": [
-          "在本模組中，你將學習鏈結串列、堆疊、佇列等資料結構。"
-        ]
-      },
-      "algorithms": {
-        "note": "2026 年春季推出",
-        "intro": [
-          "在本模組中，你將學習常見的排序與搜尋演算法，包括泡沫排序、二分搜尋法等。"
-        ]
-      },
-      "graphs-and-trees": {
-        "note": "2026 年春季推出",
-        "intro": [
-          "在本模組中，你將學習圖形、樹狀結構與字典樹。"
-        ]
-      },
-      "dynamic-programming": {
-        "note": "2026 年春季推出",
-        "intro": [
-          "在本模組中，你將學習動態規劃的運作原理。"
-        ]
-      }
-    },
     "blocks": {
       "lecture-introduction-to-javascript": {
         "title": "JavaScript 入門",
@@ -6046,18 +6020,6 @@
       "review-front-end-libraries": "前端函式庫複習",
       "front-end-development-libraries-certification-exam": "前端開發函式庫證照考試"
     },
-    "module-intros": {
-      "typescript-fundamentals": {
-        "intro": [
-          "在此模組中，你將被介紹 TypeScript，它是 JavaScript 的超集，允許你為 JavaScript 程式碼加入靜態型別。你將建置多個工作坊和實驗，練習泛型、型別縮小、TSX 等。接著你將透過一個短測驗檢驗 TypeScript 基礎知識。"
-        ]
-      },
-      "front-end-development-libraries-certification-exam": {
-        "intro": [
-          "通過此考試即可獲得你的前端開發函式庫證照。"
-        ]
-      }
-    },
     "blocks": {
       "lecture-introduction-to-javascript-libraries-and-frameworks": {
         "title": "JavaScript 函式庫與框架介紹",
@@ -6447,6 +6409,7 @@
       "lab-polygon-area-calculator": "建置多邊形面積計算器",
       "python-linear-data-structures": "線性資料結構",
       "lab-hash-table": "建置雜湊表",
+      "python-recursion": "遞迴",
       "python-algorithms": "演算法",
       "lab-tower-of-hanoi": "實作河內塔演算法",
       "python-graphs-and-trees": "圖形與樹狀結構",
@@ -6791,6 +6754,36 @@
         "intro": [
           "雜湊表是一種用於儲存鍵值對且最佳化快速查找的資料結構。",
           "在此實驗中，你將運用資料結構知識來建置雜湊表。"
+        ]
+      },
+      "lecture-understanding-recursion-and-the-call-stack-python": {
+        "title": "理解遞迴與呼叫堆疊",
+        "intro": [
+          "在本課程中，你將學習遞迴函式和呼叫堆疊在 Python 中的運作方式。"
+        ]
+      },
+      "workshop-countup-python": {
+        "title": "建置計數函式",
+        "intro": [
+          "在本工作坊中，你將建置一個使用遞迴來創建數字列表的函式。"
+        ]
+      },
+      "lab-range-of-numbers-python": {
+        "title": "建置數字範圍產生器",
+        "intro": [
+          "在本實驗中，你將使用遞迴來產生指定範圍內的數字列表。"
+        ]
+      },
+      "review-recursion-python": {
+        "title": "遞迴複習",
+        "intro": [
+          "複習遞迴、基底案例和呼叫堆疊的概念。"
+        ]
+      },
+      "quiz-recursion-python": {
+        "title": "遞迴測驗",
+        "intro": [
+          "測試你對遞迴、基底案例和呼叫堆疊的理解。"
         ]
       },
       "lecture-searching-and-sorting-algorithms": {
@@ -7197,98 +7190,6 @@
       "review-back-end-development-and-apis": "後端開發與 API 複習",
       "back-end-development-and-apis-certification-exam": "後端開發與 API 認證考試"
     },
-    "module-intros": {
-      "introduction-to-nodejs": {
-        "intro": [
-          "在本模組中，你將學習 Node.js 的基礎操作。"
-        ]
-      },
-      "nodejs-core-modules": {
-        "intro": [
-          "本模組介紹常見的 Node.js 核心模組，包括 fs、os、path 等。接著你將透過工作坊和實驗練習所學，並以短測驗檢驗你的知識。"
-        ]
-      },
-      "node-package-manager": {
-        "intro": [
-          "本模組介紹 Node 套件管理器，開發者用它來管理專案依賴和腳本。接著你將透過工作坊和實驗練習所學，並以短測驗檢驗你的知識。"
-        ]
-      },
-      "lab-prime-number-checker-module": {
-        "intro": [
-          "透過建立質數檢查器練習建置與匯出 NPM 模組。"
-        ]
-      },
-      "http-and-the-web-standards-model": {
-        "intro": [
-          "本模組介紹 HTTP（超文字傳輸協定）及其他重要概念，包括請求-回應模型、常見回應碼、DNS、TCP/IP 等。接著你將透過建置自己的網頁伺服器工作坊練習，並以短測驗檢驗你的知識。"
-        ]
-      },
-      "introduction-to-express": {
-        "intro": [
-          "本模組介紹 Express.js，一個用來建置 RESTful API 的框架。接著你將透過工作坊和實驗練習技能，並以短測驗檢驗你的知識。"
-        ]
-      },
-      "lab-personal-profile-app": {
-        "intro": [
-          "透過建立個人評測應用程式練習建置 Express 伺服器與 JSON API。"
-        ]
-      },
-      "express-middleware": {
-        "intro": [
-          "本模組介紹 Express.js 的中介層，用於控制客戶端與伺服器間的請求與回應。你將透過工作坊和實驗練習技能，並以短測驗檢驗你的知識。"
-        ]
-      },
-      "rest-api-and-web-services": {
-        "intro": [
-          "本模組介紹 REST API（表述性狀態轉移應用程式介面）及微服務運作方式。接著你將以短測驗檢驗你的知識。"
-        ]
-      },
-      "lab-timestamp-microservice": {
-        "intro": [
-          "透過建立時間戳記微服務練習建置具日期解析邏輯的 RESTful API。"
-        ]
-      },
-      "error-handling-in-express": {
-        "intro": [
-          "本模組介紹 Express.js 中的錯誤處理、偵錯和健康檢查。你將在實驗中練習所學，並以短測驗檢驗你的知識。"
-        ]
-      },
-      "websockets": {
-        "intro": [
-          "本模組介紹 WebSockets，一種用於客戶端與伺服器即時通訊的協定。你將在實驗和工作坊中練習所學，並以短測驗檢驗你的知識。"
-        ]
-      },
-      "lab-chat-app": {
-        "intro": [
-          "透過使用 Node.js WebSockets 建置即時多客戶端聊天伺服器來練習。"
-        ]
-      },
-      "security-and-privacy": {
-        "intro": [
-          "本模組介紹安全性與隱私的差異，以及 CSP、權限政策、個人識別資訊、CORS 操作等概念。接著你將以短測驗檢驗你的知識。"
-        ]
-      },
-      "authentication": {
-        "intro": [
-          "本模組介紹網頁應用程式的身份驗證運作方式，以及 JWT、CSRF、Passport、Helmet、密碼學與加密等重要概念。你將在實驗和工作坊中練習所學，並以短測驗檢驗你的知識。"
-        ]
-      },
-      "lab-family-movie-watchlist-api": {
-        "intro": [
-          "透過建置家庭電影清單 API 練習在 Express 應用程式中實作驗證與授權。"
-        ]
-      },
-      "review-back-end-development-and-apis": {
-        "intro": [
-          "複習後端開發與 API 的概念，為即將到來的考試做準備。"
-        ]
-      },
-      "back-end-development-and-apis-certification-exam": {
-        "intro": [
-          "通過此考試以獲得你的後端開發與 API 認證。"
-        ]
-      }
-    },
     "blocks": {
       "lecture-working-with-nodejs-and-event-driven-architecture": {
         "title": "使用 Node.js 與事件驅動架構",
@@ -7488,6 +7389,12 @@
         "title": "REST API 與網路服務複習",
         "intro": [
           "複習網路服務、REST 架構、HTTP 狀態碼與微服務。"
+        ]
+      },
+      "quiz-rest-api-and-web-services": {
+        "title": "REST API 與網路服務測驗",
+        "intro": [
+          "測試你對網路服務、REST 架構、HTTP 狀態碼，以及單體架構與微服務的知識。"
         ]
       },
       "lab-timestamp-microservice": {

@@ -773,11 +773,11 @@ Unawezaje kuunda gridi yenye safu 3 za upana sawa na pengo la `20px` kati yao?
 
 #### --text--
 
-`repeat(3, minmax(100px, 1fr))` huunda nini?
+Je, `repeat(3, minmax(100px, 1fr))` huunda nini wakati inatumiwa na `grid-template-columns`?
 
 #### --distractors--
 
-Safu tatu ambazo haziwezi kupungua chini ya `100px`.
+Safu tatu ambazo haziwezi kukua zaidi ya `100px`.
 
 ---
 
@@ -901,7 +901,7 @@ Hukiondoa kwa pikseli 2.
 
 ---
 
-Hukiweka kuanzia mstari wa pili wa gridi wima.
+Huinzisha kuanzia mstari wa pili wa safu.
 
 #### --answer--
 

@@ -16,23 +16,23 @@ demoType: onClick
 
 **用户故事：**
 
-1. 你的图表应有一个带有对应 `id="title"` 的标题。
-1. 你的图表应有一个带有对应 `id="x-axis"` 的 `g` 元素 x 轴。
-1. 你的图表应有一个带有对应 `id="y-axis"` 的 `g` 元素 y 轴。
-1. 两个轴都应包含多个刻度标签，每个标签对应一个 `class="tick"`。
-1. 你的图表应为每个数据点包含一个 `circle` 元素，并带有相应的 `class="dot"` 来显示数据。
-1. Each `.dot` should have the attributes `data-xvalue` and `data-yvalue` containing `year` and `time` values. 对于 `data-xvalue` 属性，可以接受整数（全年）或 Date 对象进行测试评估。 对于 `data-yvalue` 属性（分钟），请使用 Date 对象。
-1. `.dot` 元素的 `data-xvalue` 属性应与提供的数据顺序匹配。
-1. `.dot` 元素的 `data-yvalue` 属性应与提供的数据顺序匹配。
-1. 每个 `.dot` 元素应与 x 轴上的对应值对齐。
-1. 每个 `.dot` 元素应与 y 轴上的对应值对齐。
+1. 你的图表应有一个标题，并对应有 `id="title"`。
+1. 你的图表应有一个 `g` 元素作为 x 轴，并对应有 `id="x-axis"`。
+1. 你的图表应有一个 `g` 元素作为 y 轴，并对应有 `id="y-axis"`。
+1. 两个轴上都应包含多个刻度标签，每个标签对应有 `class="tick"`。
+1. 你的图表应为每个数据点有一个 `circle` 元素，并对应有 `class="dot"` 来显示数据。
+1. 每个 `.dot` 应有 `data-xvalue` 和 `data-yvalue` 属性，分别包含 `year` 和 `time` 值。对于 `data-xvalue`，整数（完整年份）或 Date 对象均可用于测试评估。对于 `data-yvalue`（分钟），请使用 Date 对象。
+1. `.dot` 元素的 `data-xvalue` 属性应与提供的数据顺序一致。
+1. `.dot` 元素的 `data-yvalue` 属性应与提供的数据顺序一致。
+1. 每个 `.dot` 元素应与 x 轴上对应的值对齐。
+1. 每个 `.dot` 元素应与 y 轴上对应的值对齐。
 1. y 轴上应有多个刻度标签，时间格式为 `%M:%S`。
-1. x 轴上应有多个刻度标签显示年份。
-1. x 轴标签的范围应在实际 x 轴 data 的范围内。
-1. y 轴标签的范围应在实际 y 轴 data 的范围内。
-1. 应该有一个包含描述性文本且带有 `id="legend"` 的图例。
-1. 你应该能够将鼠标悬停在某个区域上，并看到带有相应 `id="tooltip"` 的工具提示，显示有关该区域的更多信息。
-1. 你的工具提示应具有一个 `data-year` 属性，该属性对应于活动区域的 `data-xvalue`。
+1. x 轴上应有多个刻度标签，显示年份。
+1. x 轴标签的范围应在实际 x 轴数据的范围内。
+1. y 轴标签的范围应在实际 y 轴数据的范围内。
+1. 应有一个包含描述性文本的图例，并对应有 `id="legend"`。
+1. 你应能将鼠标悬停在某个区域，并看到一个对应有 `id="tooltip"` 的工具提示，显示该区域的更多信息。
+1. 你的工具提示应有一个 `data-year` 属性，对应于活动区域的 `data-xvalue`。
 
 # --before-all--
 
@@ -696,7 +696,7 @@ for (let i = 0; i < dots.length; i++) {
 }
 ```
 
-The `data-xvalue` and `data-yvalue` of each dot should be within the range of the actual data and in the correct data format. 对于 `data-xvalue` 属性，可以接受整数（全年）或 Date 对象进行测试评估。 对于 `data-yvalue` 属性（分钟），请使用 Date 对象。
+每个点的 `data-xvalue` 和 `data-yvalue` 应在实际数据的范围内，并且格式正确。对于 `data-xvalue`，整数（完整年份）或 Date 对象均可用于测试评估。对于 `data-yvalue`（分钟），请使用 Date 对象。
 
 ```js
 const years = cyclistDataJson.map(d => d.Year);

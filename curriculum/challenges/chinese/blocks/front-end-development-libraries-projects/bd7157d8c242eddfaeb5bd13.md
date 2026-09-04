@@ -13,7 +13,7 @@ dashedName: build-a-markdown-previewer
 
 完成以下需求，并且通过所有测试。 如有必要，可以引入第三方库或使用第三方 API。 赋予它你的个人风格.
 
-你可以使用 HTML、JavaScript、CSS、Bootstrap、SASS、React、Redux 和 jQuery 的任意组合来完成此项目。  You should use a front-end framework (like React for example) because this section is about learning front-end frameworks. 不推荐使用以上没有列出的其他技术，不然风险自担。  We are looking at supporting other front-end frameworks like Angular and Vue, but they are not currently supported. 我们将会接受并且努力修复所有使用推荐的技术栈在这个项目中出现的问题。 祝你编程愉快！
+你可以使用 HTML、JavaScript、CSS、Bootstrap、SASS、React、Redux 和 jQuery 的任意组合来完成这个项目。你应该使用一个前端框架（例如 React），因为本部分是关于学习前端框架的。不推荐使用上述未列出的其他技术，使用它们风险自负。我们正在考虑支持其他前端框架，如 Angular 和 Vue，但目前尚不支持。我们会接受并尝试修复所有使用本项目建议技术栈的问题报告。祝你编码愉快！
 
 **用户故事 #1：** 我可以看到 `textarea` 元素及其对应的 `id="editor"`。
 
@@ -21,7 +21,7 @@ dashedName: build-a-markdown-previewer
 
 **用户故事 #3：** 当我在 `#editor` 元素中输入文本时，`#preview` 元素会随着我的输入而更新，以显示文本区域的内容。
 
-**用户故事 #4：** 当我在 `#editor` 元素中输入 GitHub 风格的 markdown 时，文本会在我输入时作为超文本标记语言渲染到 `#preview` 元素中（提示：你不需要自己解析 Markdown —— 你可以为此导入 Marked 库：https://cdnjs.com/libraries/marked）。
+**用户故事 #4：** 当我在 `#editor` 元素中输入 GitHub 风格的 markdown 时，文本会在我输入时作为 HTML 渲染到 `#preview` 元素中（提示：你不需要自己解析 Markdown —— 你可以为此导入 Marked 库：https://cdnjs.com/libraries/marked）。
 
 **用户故事 #5：** 当我的 markdown 预览器首次加载时，`#editor` 字段中的默认文本应包含有效的 markdown，该 markdown 至少代表以下每个元素之一：标题元素（H1 大小）、子标题元素（H2 大小）、链接、内联代码、代码块、列表项、块引用、图像和粗体文本。
 

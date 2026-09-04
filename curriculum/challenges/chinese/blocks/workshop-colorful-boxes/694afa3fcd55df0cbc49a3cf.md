@@ -7,7 +7,7 @@ dashedName: step-2
 
 # --description--
 
-现在将你的 `styles.css` 文件链接到超文本标记语言文档。
+现在将你的 `styles.css` 文件链接到 HTML 文档。
 
 # --hints--
 

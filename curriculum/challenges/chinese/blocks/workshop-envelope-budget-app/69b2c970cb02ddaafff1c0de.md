@@ -10,9 +10,9 @@ demoType: onLoad
 
 在本次工作坊中，你将构建一个信封预算应用，帮助用户将每月收入分类为房租、食品、实用函数和娱乐等类别。用户将输入他们的收入和支出，应用会计算剩余金额或超出预算的金额。
 
-你已经获得了超文本标记语言的公式化代码和页面版型的所有 CSS。你的第一个任务是添加一个形式元素，包含预算计算器的输入和控件。
+你已经获得了 HTML 的公式化代码和页面版型的所有 CSS。你的第一个任务是添加一个形式元素，包含预算计算器的输入和控件。
 
-你可以自由探索超文本标记语言和 CSS，然后添加一个 `form` 元素，并将其 `id` 设置为 `budget-form`。
+你可以自由探索 HTML 和 CSS，然后添加一个 `form` 元素，并将其 `id` 设置为 `budget-form`。
 
 # --hints--
 
@@ -46,9 +46,9 @@ assert.equal(document.querySelector('form')?.id, 'budget-form');
     <main>
       <h1>Envelope Budgeter</h1>
       <div class="container">
-      --fcc-editable-region--
-
-      --fcc-editable-region--
+--fcc-editable-region--
+        
+--fcc-editable-region--
       </div>
     </main>
   </body>

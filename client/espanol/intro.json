@@ -4537,32 +4537,6 @@
       "review-javascript": "Revisión de JavaScript",
       "javascript-certification-exam": "Examen de certificación de JavaScript"
     },
-    "module-intros": {
-      "data-structures": {
-        "note": "Disponible en primavera de 2026",
-        "intro": [
-          "En este módulo, aprenderás sobre listas enlazadas, pilas, colas y más."
-        ]
-      },
-      "algorithms": {
-        "note": "Disponible en primavera de 2026",
-        "intro": [
-          "En este módulo, aprenderás sobre algoritmos comunes de ordenamiento y búsqueda, incluyendo bubble sort, búsqueda binaria y más."
-        ]
-      },
-      "graphs-and-trees": {
-        "note": "Disponible en primavera de 2026",
-        "intro": [
-          "En este módulo, aprenderás sobre grafos, árboles y tries."
-        ]
-      },
-      "dynamic-programming": {
-        "note": "Disponible en primavera de 2026",
-        "intro": [
-          "En este módulo, aprenderás cómo funciona la programación dinámica."
-        ]
-      }
-    },
     "blocks": {
       "lecture-introduction-to-javascript": {
         "title": "Introducción a JavaScript",
@@ -6046,18 +6020,6 @@
       "review-front-end-libraries": "Revisión de bibliotecas front-end",
       "front-end-development-libraries-certification-exam": "Examen de certificación en bibliotecas de desarrollo front-end"
     },
-    "module-intros": {
-      "typescript-fundamentals": {
-        "intro": [
-          "En este módulo, te introducirás a TypeScript, que es un superconjunto de JavaScript que te permite agregar tipado estático a tu código JavaScript. Construirás varios talleres y laboratorios que te darán práctica trabajando con genéricos, estrechamiento de tipos, TSX y más. Luego pondrás a prueba tu conocimiento de los fundamentos de TypeScript con un quiz corto."
-        ]
-      },
-      "front-end-development-libraries-certification-exam": {
-        "intro": [
-          "Aprueba este examen para obtener tu certificación en bibliotecas de desarrollo front-end."
-        ]
-      }
-    },
     "blocks": {
       "lecture-introduction-to-javascript-libraries-and-frameworks": {
         "title": "Introducción a las bibliotecas y frameworks de JavaScript",
@@ -6447,6 +6409,7 @@
       "lab-polygon-area-calculator": "Construir un calculador de área de polígonos",
       "python-linear-data-structures": "Estructuras de datos lineales",
       "lab-hash-table": "Construir una tabla hash",
+      "python-recursion": "Recursión",
       "python-algorithms": "Algoritmos",
       "lab-tower-of-hanoi": "Implementar el algoritmo de la torre de Hanoi",
       "python-graphs-and-trees": "Grafos y árboles",
@@ -6791,6 +6754,36 @@
         "intro": [
           "Una tabla hash es una estructura de datos que se usa para almacenar pares clave-valor y está optimizada para búsquedas rápidas.",
           "En este laboratorio, usarás tu conocimiento sobre estructuras de datos para construir una tabla hash."
+        ]
+      },
+      "lecture-understanding-recursion-and-the-call-stack-python": {
+        "title": "Entender la recursión y la pila de llamadas",
+        "intro": [
+          "En esta clase, aprenderás cómo funcionan las funciones recursivas y la pila de llamadas en Python."
+        ]
+      },
+      "workshop-countup-python": {
+        "title": "Crear una función de conteo ascendente",
+        "intro": [
+          "En este taller, crearás una función que usa recursión para generar una lista de números."
+        ]
+      },
+      "lab-range-of-numbers-python": {
+        "title": "Crear un generador de rango de números",
+        "intro": [
+          "En este laboratorio, usarás recursión para generar una lista de números dentro de un rango especificado."
+        ]
+      },
+      "review-recursion-python": {
+        "title": "Revisión de recursión",
+        "intro": [
+          "Revisa los conceptos de recursión, casos base y la pila de llamadas."
+        ]
+      },
+      "quiz-recursion-python": {
+        "title": "Quiz de recursión",
+        "intro": [
+          "Pon a prueba tu comprensión de la recursión, los casos base y la pila de llamadas."
         ]
       },
       "lecture-searching-and-sorting-algorithms": {
@@ -7197,98 +7190,6 @@
       "review-back-end-development-and-apis": "Revisión de desarrollo back-end y APIs",
       "back-end-development-and-apis-certification-exam": "Examen de certificación en desarrollo back-end y APIs"
     },
-    "module-intros": {
-      "introduction-to-nodejs": {
-        "intro": [
-          "En este módulo, aprenderás los conceptos básicos para trabajar con Node.js."
-        ]
-      },
-      "nodejs-core-modules": {
-        "intro": [
-          "En este módulo, aprenderás sobre los módulos principales comunes de Node.js, incluyendo fs, os, path y más. Luego practicarás lo aprendido mediante talleres y laboratorios y pondrás a prueba tus conocimientos con un quiz corto."
-        ]
-      },
-      "node-package-manager": {
-        "intro": [
-          "En este módulo, te presentarán el administrador de paquetes de Node, que los desarrolladores usan para gestionar las dependencias y scripts del proyecto. Luego practicarás lo aprendido con talleres y laboratorios y evaluarás tus conocimientos con un quiz corto."
-        ]
-      },
-      "lab-prime-number-checker-module": {
-        "intro": [
-          "Practica crear y exportar un módulo npm creando un verificador de números primos."
-        ]
-      },
-      "http-and-the-web-standards-model": {
-        "intro": [
-          "En este módulo, aprenderás sobre HTTP (Protocolo de transferencia de hipertexto) y otros conceptos importantes como el modelo solicitud-respuesta, códigos de respuesta comunes, DNS, TCP/IP y más. Luego practicarás lo aprendido construyendo tu propio servidor web en un taller y pondrás a prueba tus conocimientos con un quiz corto."
-        ]
-      },
-      "introduction-to-express": {
-        "intro": [
-          "En este módulo, te presentarán Express.js, un framework usado para construir APIs RESTful. Luego practicarás tus habilidades con talleres y laboratorios y evaluarás tus conocimientos con un quiz corto."
-        ]
-      },
-      "lab-personal-profile-app": {
-        "intro": [
-          "Practica crear un servidor Express y una API JSON creando una aplicación de perfil personal."
-        ]
-      },
-      "express-middleware": {
-        "intro": [
-          "En este módulo, aprenderás sobre middleware en Express.js, que se usa para manejar solicitudes y respuestas entre el cliente y el servidor. Luego practicarás tus habilidades mediante un taller y un laboratorio y evaluarás tus conocimientos con un quiz corto."
-        ]
-      },
-      "rest-api-and-web-services": {
-        "intro": [
-          "En este módulo, aprenderás sobre la API REST (interfaz de programación de aplicaciones de transferencia de estado representacional) y cómo funcionan los microservicios. Luego realizarás un quiz corto para evaluar tus conocimientos."
-        ]
-      },
-      "lab-timestamp-microservice": {
-        "intro": [
-          "Practica crear una API REST con lógica para analizar fechas creando un microservicio de marcas de tiempo."
-        ]
-      },
-      "error-handling-in-express": {
-        "intro": [
-          "En este módulo, aprenderás cómo funciona el manejo de errores, la depuración y las comprobaciones de salud en Express.js. Luego practicarás lo aprendido en un laboratorio y evaluarás tus conocimientos con un quiz corto."
-        ]
-      },
-      "websockets": {
-        "intro": [
-          "En este módulo, te presentarán los websockets, un protocolo usado para la comunicación en tiempo real entre cliente y servidor. Luego practicarás lo aprendido en laboratorios y talleres y evaluarás tus conocimientos con un quiz corto."
-        ]
-      },
-      "lab-chat-app": {
-        "intro": [
-          "Practica crear un servidor de chat en tiempo real para múltiples clientes usando WebSockets de Node.js."
-        ]
-      },
-      "security-and-privacy": {
-        "intro": [
-          "En este módulo, aprenderás las diferencias entre seguridad y privacidad, así como otros conceptos como CSPs, políticas de permisos, PII, trabajar con CORS y más. Luego realizarás un quiz corto para evaluar tus conocimientos."
-        ]
-      },
-      "authentication": {
-        "intro": [
-          "En este módulo, aprenderás cómo funciona la autenticación en aplicaciones web junto con otros conceptos importantes como JWTs, CSRFs, Passport, Helmet, criptografía y encriptación, y más. Luego practicarás lo aprendido en laboratorios y talleres y evaluarás tus conocimientos con un quiz corto."
-        ]
-      },
-      "lab-family-movie-watchlist-api": {
-        "intro": [
-          "Practica implementar autenticación y autorización en una aplicación Express creando una API para lista de películas familiar."
-        ]
-      },
-      "review-back-end-development-and-apis": {
-        "intro": [
-          "Revisa los conceptos de desarrollo back-end y APIs para prepararte para el próximo examen."
-        ]
-      },
-      "back-end-development-and-apis-certification-exam": {
-        "intro": [
-          "Aprueba este examen para obtener tu certificación en desarrollo back-end y APIs."
-        ]
-      }
-    },
     "blocks": {
       "lecture-working-with-nodejs-and-event-driven-architecture": {
         "title": "Trabajar con Node.js y arquitectura orientada a eventos",
@@ -7488,6 +7389,12 @@
         "title": "Revisión de API REST y servicios web",
         "intro": [
           "Revisa los servicios web, la arquitectura REST, los códigos de estado HTTP y los microservicios."
+        ]
+      },
+      "quiz-rest-api-and-web-services": {
+        "title": "Quiz de API REST y servicios web",
+        "intro": [
+          "Pon a prueba tus conocimientos sobre servicios web, la arquitectura REST, códigos de estado HTTP y monolitos vs. microservicios."
         ]
       },
       "lab-timestamp-microservice": {

@@ -14,7 +14,7 @@ dashedName: build-a-25--5-clock
 
 完成以下需求，并且通过所有测试。 如有必要，可以引入第三方库或使用第三方 API。 赋予它你的个人风格.
 
-你可以使用 HTML、JavaScript、CSS、Bootstrap、SASS、React、Redux 和 jQuery 的任意组合来完成此项目。  You should use a front-end framework (like React for example) because this section is about learning front-end frameworks. 不推荐使用以上没有列出的其他技术，不然风险自担。  We are looking at supporting other front-end frameworks like Angular and Vue, but they are not currently supported. 我们将会接受并且努力修复所有使用推荐的技术栈在这个项目中出现的问题。 祝你编程愉快！
+你可以使用 HTML、JavaScript、CSS、Bootstrap、SASS、React、Redux 和 jQuery 的任意组合来完成这个项目。你应该使用一个前端框架（例如 React），因为本部分是关于学习前端框架的。不推荐使用上述未列出的其他技术，使用它们风险自负。我们正在考虑支持其他前端框架，如 Angular 和 Vue，但目前尚未支持。我们会接受并尝试修复所有使用本项目建议技术栈的错误报告。祝你编码愉快！
 
 **用户故事 #1:** 我可以看到一个元素带有 `id="break-label"` 并且包含一个字符串 (例如 "Break Length").
 

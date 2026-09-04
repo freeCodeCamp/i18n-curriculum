@@ -60,7 +60,7 @@ Con variables CSS, puedes almacenar valores y reutilizarlos en tu hoja de estilo
 
 ## La pseudoclase `:empty`
 
-Los elementos vacíos, es decir, elementos sin hijos distintos del espacio en blanco, también se incluyen en el árbol del documento. Por eso existe una pseudo-clase `:empty` para apuntar a elementos vacíos.  For example, this HTML code has two empty list items. Con la pseudo-clase `:empty`, puedes estilizar los elementos de lista vacíos de manera diferente:
+Los elementos vacíos, es decir, los elementos que no tienen hijos más que espacio en blanco, también están incluidos en el árbol del documento. Por eso existe la pseudoclase `:empty` para seleccionar elementos vacíos. Por ejemplo, este código HTML tiene dos elementos de lista vacíos. Con la pseudoclase `:empty`, puedes aplicar estilos diferentes a los elementos de lista vacíos:
 
 :::interactive_editor
 

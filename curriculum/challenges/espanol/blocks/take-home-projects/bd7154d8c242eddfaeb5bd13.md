@@ -10,7 +10,7 @@ dashedName: build-the-game-of-life
 
 **Objetivo:** Construye una app que sea funcionalmente similar a esta: <a href="https://codepen.io/freeCodeCamp/full/BpwMZv/" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/BpwMZv/</a>.
 
-El Juego de la Vida es un autómata celular ideado por el matemático británico John Horton Conway.  It is a <em>zero-player game</em>, meaning that its evolution is determined by its initial state, requiring no further input. Uno interactúa con el Juego de la Vida creando una configuración inicial y observando cómo evoluciona.
+El juego de la vida es un autómata celular ideado por el matemático británico John Horton Conway. Es un <em>juego sin jugadores</em>, lo que significa que su evolución está determinada por su estado inicial, sin requerir más entrada. Se interactúa con el juego de la vida creando una configuración inicial y observando cómo evoluciona.
 
 El universo del juego de la vida es una cuadrícula ortogonal infinita y bidimensional de células cuadradas, cada uno de los cuales se encuentra en uno de los dos posibles estados, poblado y despoblado. Cada célula interactúa con sus ocho vecinas, que son las células adyacentes horizontal, vertical o diagonalmente.
 

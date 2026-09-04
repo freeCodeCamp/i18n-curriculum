@@ -96,7 +96,7 @@ dashedName: american-british-translator
   }
 ```
 
-`/api/translate` 路由应该可以处理用英美方式英语写的时间。 例如，十点半英式英语写为 “10.30”，而美式英语写为 “10:30”。  The `span` element should wrap the entire time string, i.e. `<span class="highlight">10:30</span>`.
+`/api/translate` 路由应处理美式英语和英式英语中时间的书写方式。例如，英式英语中十点三十分写作“10.30”，而美式英语写作“10:30”。`span` 元素应包裹整个时间字串，即 `<span class="highlight">10:30</span>`。
 
 ```js
   try {
@@ -121,7 +121,7 @@ dashedName: american-british-translator
   }
 ```
 
-`/api/translate` 路由也应该处理美式英语和英式英语中头衔/尊称的缩写方式。  For example, Doctor Wright is abbreviated as "Dr Wright" in British English and "Dr.  Wright" in American English. 请参阅 `/components/american-to-british-titles.js`，了解程序应当处理的不同标题。
+`/api/translate` 路由还应处理美式英语和英式英语中称谓/尊称的缩写方式。例如，Doctor Wright 在英式英语中缩写为“Dr Wright”，在美式英语中缩写为“Dr. Wright”。请参阅 `/components/american-to-british-titles.js` 了解你的应用应处理的不同称谓。
 
 ```js
   try {

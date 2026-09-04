@@ -9,62 +9,50 @@ dashedName: step-10
 
 你的选择菜单需要为之前步骤中创建的每个信封 `fieldset` 元素添加一个选项。使用 `option` 元素为每个 `fieldset` 创建一个新选项。每个选项的 `value` 属性应设置为该 `fieldset` 的 `id`，每个选项的文本应为 `legend` 的文本。
 
-将 `Rent` 选项设置为 `selected` 选中状态。
+将 `Food` 选项设置为 `selected` 选项。
 
 # --hints--
 
-你应该在你的 `select` 元素内创建四个 `option` 元素。
+你应该在你的 `select` 元素内创建三个 `option` 元素。
 
 ```js
-assert.equal(document.querySelectorAll('.controls select option')?.length, 4);
+assert.equal(document.querySelectorAll('.controls select option')?.length, 3);
 ```
 
-你的第一个 `option` 应该有文本 `Rent`。
+你的第一个 `option` 应该有文本 `Food`。
 
 ```js
-assert.equal(document.querySelectorAll('.controls select option')?.[0]?.textContent?.trim(), 'Rent');
+assert.equal(document.querySelectorAll('.controls select option')?.[0]?.textContent?.trim(), 'Food');
 ```
 
-你的第一个 `option` 应该将 `value` 属性设置为 `rent`。
+你的第一个 `option` 应该将 `value` 属性设置为 `food`。
 
 ```js
-assert.equal(document.querySelectorAll('.controls select option')?.[0]?.value, 'rent');
+assert.equal(document.querySelectorAll('.controls select option')?.[0]?.value, 'food');
 ```
 
-你的第二个 `option` 应该有文本 `Food`。
+你的第二个 `option` 应该有文本 `Utilities`。
 
 ```js
-assert.equal(document.querySelectorAll('.controls select option')?.[1]?.textContent?.trim(), 'Food');
+assert.equal(document.querySelectorAll('.controls select option')?.[1]?.textContent?.trim(), 'Utilities');
 ```
 
-你的第二个 `option` 应该将 `value` 属性设置为 `food`。
+你的第二个 `option` 应该将 `value` 属性设置为 `utilities`。
 
 ```js
-assert.equal(document.querySelectorAll('.controls select option')?.[1]?.value, 'food');
+assert.equal(document.querySelectorAll('.controls select option')?.[1]?.value, 'utilities');
 ```
 
-你的第三个 `option` 应该有文本 `Utilities`。
+你的第三个 `option` 应该有文本 `Entertainment`。
 
 ```js
-assert.equal(document.querySelectorAll('.controls select option')?.[2]?.textContent?.trim(), 'Utilities');
+assert.equal(document.querySelectorAll('.controls select option')?.[2]?.textContent?.trim(), 'Entertainment');
 ```
 
-你的第三个 `option` 应该将 `value` 属性设置为 `utilities`。
+你的第三个 `option` 应该将 `value` 属性设置为 `entertainment`。
 
 ```js
-assert.equal(document.querySelectorAll('.controls select option')?.[2]?.value, 'utilities');
-```
-
-你的第四个 `option` 应该有文本 `Entertainment`。
-
-```js
-assert.equal(document.querySelectorAll('.controls select option')?.[3]?.textContent?.trim(), 'Entertainment');
-```
-
-你的第四个 `option` 应该将 `value` 属性设置为 `entertainment`。
-
-```js
-assert.equal(document.querySelectorAll('.controls select option')?.[3]?.value, 'entertainment');
+assert.equal(document.querySelectorAll('.controls select option')?.[2]?.value, 'entertainment');
 ```
 
 你的第一个 `option` 应该被设置为选中状态。
@@ -93,7 +81,6 @@ assert.isTrue(isFirstOptionSelected && selectedOptions.length === 1);
     <main>
       <h1>Envelope Budgeter</h1>
       <div class="container">
-
         <form id="budget-form">
           <label for="income">Total Monthly Income</label>
           <input 
@@ -129,9 +116,9 @@ assert.isTrue(isFirstOptionSelected && selectedOptions.length === 1);
             <span>
               <label for="entry-dropdown">Add expense to:</label>
               <select id="entry-dropdown" name="options">
-                --fcc-editable-region--
+--fcc-editable-region--
                 
-                --fcc-editable-region--
+--fcc-editable-region--
               </select>
               <button type="button" id="add-entry">Add Entry</button>
             </span>

@@ -9,11 +9,17 @@ dashedName: what-are-examples-of-element-user-action-pseudo-classes
 
 Il feedback per l’utente è un elemento cruciale del design web. Per esempio, è importante che gli utenti ricevano segnali visivi quando interagiscono con elementi su un sito, come passare il mouse su un pulsante o cliccare un collegamento. Questo feedback aiuta gli utenti a capire lo stato degli elementi interattivi, ad esempio se un collegamento è già stato visitato o no.
 
+## Comprendere le pseudo-classi di azione dell'utente
+
 Le pseudo-classi di azione utente in CSS sono parole chiave speciali che ti permettono di fornire questo tipo di feedback senza dover usare JavaScript o altri linguaggi di programmazione.
 
 Queste pseudo-classi includono `:hover`, `:active`, `:focus` e `:visited`, tra le altre. Ti consentono di cambiare l’aspetto degli elementi in base alle interazioni dell’utente, migliorando l’esperienza complessiva.
 
 Vediamo alcune delle pseudo-classi di azione utente che abbiamo e come funzionano.
+
+## Pseudo-classi di azione dell'utente comuni
+
+### `:active`
 
 La pseudo-classe `:active` applica gli stili quando un elemento viene attivato dall’utente. Per esempio, quando l’utente clicca un pulsante o un collegamento, fornisce un feedback visivo immediato, mostrando che l’azione è stata riconosciuta.
 
@@ -31,6 +37,8 @@ a:active {
 ```
 
 :::
+
+### `:hover`
 
 La pseudo-classe `:hover` si attiva quando un utente passa il mouse su un elemento con il puntatore o altro dispositivo di puntamento. Gli sviluppatori la usano spesso per creare feedback visivi per pulsanti, collegamenti o qualsiasi elemento che dovrebbe rispondere all’attenzione dell’utente. Ecco un pulsante su cui l’utente passerebbe il mouse prima di cliccare:
 
@@ -50,6 +58,8 @@ La pseudo-classe `:hover` si attiva quando un utente passa il mouse su un elemen
 ```
 
 :::
+
+### `:focus`
 
 La pseudo-classe `:focus` applica gli stili quando un elemento riceve il focus, tipicamente tramite la navigazione da tastiera o quando un utente clicca in un campo di input di un modulo. Questo non serve solo come feedback ma è anche fondamentale per l’accessibilità. Garantisce che gli utenti che usano principalmente la tastiera possano identificare facilmente l’elemento con cui stanno interagendo.
 
@@ -73,6 +83,8 @@ input:focus {
 
 :::
 
+### `:visited`
+
 La pseudo-classe `:visited` si applica a un collegamento che l’utente ha già visitato. Questo può essere utile per aiutare gli utenti a distinguere tra le pagine già visitate e quelle ancora da visitare. Ecco un esempio che cambia il colore del testo dell’àncora in ciano quando il collegamento è stato visitato:
 
 :::interactive_editor
@@ -90,11 +102,13 @@ a:visited {
 
 :::
 
+### `:checked`
+
 La pseudo-classe `:checked` in CSS ti permette di definire lo stile degli elementi di modulo come caselle di spunta e pulsanti di opzione quando sono selezionati (checked). Questa pseudo-classe è utile per personalizzare l’aspetto di questi elementi e migliorare l’esperienza utente, anche se i browser forniscono stili predefiniti.
 
-Ecco un esempio con una casella di spunta per accettare i termini su un sito.
+Ecco un esempio con una casella di spunta per accettare i termini su un sito web.
 
-**NOTA**: Alcuni CSS in questo esempio usano proprietà che non sono ancora state trattate. Serve solo per darti un’idea di come creare una casella di spunta personalizzata. Imparerai come funziona tutto questo nelle prossime lezioni e workshop.
+**NOTA**: Alcune proprietà CSS in questo esempio non sono ancora state trattate. Questo serve solo per darti un'idea di come creare una casella di spunta personalizzata. Imparerai come funziona tutto questo nelle lezioni e workshop futuri.
 
 :::interactive_editor
 
@@ -152,6 +166,8 @@ Ecco un esempio con una casella di spunta per accettare i termini su un sito.
 :::
 
 In questo esempio usiamo la proprietà `appearance` impostata su `none` per rimuovere lo stile predefinito applicato dal browser agli input di tipo checkbox. Quando l’utente seleziona la casella, avrà uno sfondo di colore `green`.
+
+## Altre pseudo-classi di azione
 
 Altri esempi di pseudo-classi di azione sono:
 

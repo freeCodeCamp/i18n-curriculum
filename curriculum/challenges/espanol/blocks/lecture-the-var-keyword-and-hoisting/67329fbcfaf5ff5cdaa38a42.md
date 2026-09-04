@@ -9,7 +9,7 @@ dashedName: what-is-the-var-keyword-and-why-is-it-no-longer-suggested-to-use-it
 
 La palabra clave `var` en JavaScript es una de las formas originales de declarar variables. Ha sido parte del lenguaje desde su inicio y durante muchos años siguió siendo el método principal para crear variables. Sin embargo, a medida que JavaScript evolucionó y los desarrolladores ganaron más experiencia con el lenguaje, ciertos inconvenientes de usar `var` se hicieron evidentes, lo que llevó a la introducción de `let` y `const` en 2015.
 
-Cuando declaras una variable con `var`, se vuelve de alcance funcional o global. Esto significa que si declaras una variable dentro de una función usando `var`, solo es accesible dentro de esa función. Sin embargo, si la declaras fuera de cualquier función, se convierte en una variable global accesible a lo largo de todo tu script.  This behavior can sometimes lead to unexpected results and make your code harder to understand.
+Cuando declaras una variable con `var`, esta tiene ámbito de función o ámbito global. Esto significa que si declaras una variable dentro de una función usando `var`, solo es accesible dentro de esa función. Sin embargo, si la declaras afuera de cualquier función, se convierte en una variable global accesible en todo tu script. Este comportamiento a veces puede causar resultados inesperados y hacer que tu código sea más difícil de entender.
 
 Un problema con `var` es que te permite redeclarar la misma variable varias veces sin lanzar un error. Esto puede llevar a sobrescrituras accidentales y hacer que la depuración sea más difícil.
 
@@ -26,7 +26,7 @@ console.log(num); // 10
 
 :::
 
-El problema más significativo con `var` es su falta de alcance en bloque. Las variables declaradas con `var` dentro de un bloque como una declaración `if` o un bucle `for` siguen siendo accesibles fuera de ese bloque. 
+El problema más significativo con `var` es su falta de alcance en bloque. Las variables declaradas con `var` dentro de un bloque como una declaración `if` o un bucle `for` siguen siendo accesibles fuera de ese bloque.
 
 :::interactive_editor
 

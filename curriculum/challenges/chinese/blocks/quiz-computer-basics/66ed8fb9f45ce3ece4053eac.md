@@ -223,7 +223,7 @@ Windows 文件资源管理器
 
 ---
 
-按下键盘上的 `Backspace` 密钥。
+按键盘上的 <kbd>Backspace</kbd> 键。
 
 ---
 

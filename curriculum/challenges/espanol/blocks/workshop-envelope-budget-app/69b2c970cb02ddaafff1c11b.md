@@ -9,7 +9,7 @@ dashedName: step-62
 
 Recuerda que tu función `isInvalidInput` devuelve `String.match`, que es un arreglo de coincidencias o `null` si no se encuentran coincidencias.
 
-En JavaScript, los valores pueden ser <dfn>truthy</dfn> o <dfn>falsy</dfn>. Un valor es truthy si evalúa a `true` cuando se convierte a un Booleano.  A value is falsy if it evaluates to `false` when converted to a Boolean. `null` is an example of a falsy value.
+En JavaScript, los valores pueden ser <dfn>verdaderos</dfn> o <dfn>falsos</dfn>. Un valor es verdadero si se evalúa como `true` al convertirse en un booleano. Un valor es falso si se evalúa como `false` al convertirse en un booleano. `null` es un ejemplo de un valor falso.
 
 Necesitas verificar si `invalidInputMatch` es truthy — puedes hacer esto pasando la variable directamente a tu condición `if` (sin un operador de comparación). Aquí tienes un ejemplo de cómo verificar la truthiness de `helloWorld`.
 
@@ -99,8 +99,7 @@ assert.match(forCode, /if\s*\(\s*invalidInputMatch\s*\)/);
             <span>
               <label for="entry-dropdown">Add expense to:</label>
               <select id="entry-dropdown" name="options">
-                <option value="rent" selected>Rent</option>
-                <option value="food">Food</option>
+                <option value="food" selected>Food</option>
                 <option value="utilities">Utilities</option>
                 <option value="entertainment">Entertainment</option>
               </select>
@@ -117,7 +116,6 @@ assert.match(forCode, /if\s*\(\s*invalidInputMatch\s*\)/);
         </form>
 
         <div id="output" class="output hide"></div>
-        
       </div>
     </main>
     <script src="./script.js"></script>
@@ -274,18 +272,18 @@ button:hover {
 ```
 
 ```js
-const budgetForm = document.getElementById('budget-form');
+const budgetForm = document.getElementById("budget-form");
 const incomeInput = document.getElementById("income");
 const rentInput = document.getElementById("rent-amount");
 const entryDropdown = document.getElementById("entry-dropdown");
-const addEntryButton = document.getElementById('add-entry');
-const clearButton = document.getElementById('clear');
-const output = document.getElementById('output');
+const addEntryButton = document.getElementById("add-entry");
+const clearButton = document.getElementById("clear");
+const output = document.getElementById("output");
 let isError = false;
 
 function cleanInputString(str) {
   const regex = /[+-\s]/g;
-  return str.replace(regex, '');
+  return str.replace(regex, "");
 }
 
 function isInvalidInput(str) {
@@ -297,6 +295,7 @@ function addEntry() {
   const category = entryDropdown.value;
   const targetInputContainer = document.querySelector(`#${category} .input-container`);
   const entryNumber = targetInputContainer.querySelectorAll('input[type="text"]').length + 1;
+
   const HTMLString = `
   <label for="${category}-${entryNumber}-name">Expense ${entryNumber} Name</label>
   <input type="text" id="${category}-${entryNumber}-name" placeholder="Name" />
@@ -306,16 +305,17 @@ function addEntry() {
     min="0" 
     id="${category}-${entryNumber}-amount" placeholder="Amount" 
     />`;
-    targetInputContainer.insertAdjacentHTML('beforeend', HTMLString);
+  targetInputContainer.insertAdjacentHTML("beforeend", HTMLString);
 }
 
 function getTotalFromInputs(list) {
   let total = 0;
+
   for (const item of list) {
     const currVal = cleanInputString(item.value);
     const invalidInputMatch = isInvalidInput(currVal);
     --fcc-editable-region--
-
+    
     --fcc-editable-region--
   }
 }

@@ -9,62 +9,50 @@ dashedName: step-10
 
 Seu menu select precisa de uma opção para cada um dos elementos de `fieldset` do envelope que você criou nos passos anteriores. Use o elemento `option` para criar uma nova opção para cada `fieldset`. O atributo `value` de cada opção deve ser o `id` do `fieldset`, e o texto de cada opção deve ser o texto da `legend`.
 
-Defina a opção `Rent` como a opção `selected`.
+Defina a opção `Food` como a opção `selected`.
 
 # --hints--
 
-Você deve criar quatro elementos `option` dentro do seu elemento `select`.
+Você deve criar três elementos `option` dentro do seu elemento `select`.
 
 ```js
-assert.equal(document.querySelectorAll('.controls select option')?.length, 4);
+assert.equal(document.querySelectorAll('.controls select option')?.length, 3);
 ```
 
-Sua primeira `option` deve ter o texto `Rent`.
+Sua primeira `option` deve ter o texto `Food`.
 
 ```js
-assert.equal(document.querySelectorAll('.controls select option')?.[0]?.textContent?.trim(), 'Rent');
+assert.equal(document.querySelectorAll('.controls select option')?.[0]?.textContent?.trim(), 'Food');
 ```
 
-Sua primeira `option` deve ter o atributo `value` definido como `rent`.
+Sua primeira `option` deve ter o atributo `value` definido como `food`.
 
 ```js
-assert.equal(document.querySelectorAll('.controls select option')?.[0]?.value, 'rent');
+assert.equal(document.querySelectorAll('.controls select option')?.[0]?.value, 'food');
 ```
 
-Sua segunda `option` deve ter o texto `Food`.
+Sua segunda `option` deve ter o texto `Utilities`.
 
 ```js
-assert.equal(document.querySelectorAll('.controls select option')?.[1]?.textContent?.trim(), 'Food');
+assert.equal(document.querySelectorAll('.controls select option')?.[1]?.textContent?.trim(), 'Utilities');
 ```
 
-Sua segunda `option` deve ter o atributo `value` definido como `food`.
+Sua segunda `option` deve ter o atributo `value` definido como `utilities`.
 
 ```js
-assert.equal(document.querySelectorAll('.controls select option')?.[1]?.value, 'food');
+assert.equal(document.querySelectorAll('.controls select option')?.[1]?.value, 'utilities');
 ```
 
-Sua terceira `option` deve ter o texto `Utilities`.
+Sua terceira `option` deve ter o texto `Entertainment`.
 
 ```js
-assert.equal(document.querySelectorAll('.controls select option')?.[2]?.textContent?.trim(), 'Utilities');
+assert.equal(document.querySelectorAll('.controls select option')?.[2]?.textContent?.trim(), 'Entertainment');
 ```
 
-Sua terceira `option` deve ter o atributo `value` definido como `utilities`.
+Sua terceira `option` deve ter o atributo `value` definido como `entertainment`.
 
 ```js
-assert.equal(document.querySelectorAll('.controls select option')?.[2]?.value, 'utilities');
-```
-
-Sua quarta `option` deve ter o texto `Entertainment`.
-
-```js
-assert.equal(document.querySelectorAll('.controls select option')?.[3]?.textContent?.trim(), 'Entertainment');
-```
-
-Sua quarta `option` deve ter o atributo `value` definido como `entertainment`.
-
-```js
-assert.equal(document.querySelectorAll('.controls select option')?.[3]?.value, 'entertainment');
+assert.equal(document.querySelectorAll('.controls select option')?.[2]?.value, 'entertainment');
 ```
 
 Sua primeira `option` deve estar definida como a opção selecionada.
@@ -93,7 +81,6 @@ assert.isTrue(isFirstOptionSelected && selectedOptions.length === 1);
     <main>
       <h1>Envelope Budgeter</h1>
       <div class="container">
-
         <form id="budget-form">
           <label for="income">Total Monthly Income</label>
           <input 
@@ -129,9 +116,9 @@ assert.isTrue(isFirstOptionSelected && selectedOptions.length === 1);
             <span>
               <label for="entry-dropdown">Add expense to:</label>
               <select id="entry-dropdown" name="options">
-                --fcc-editable-region--
+--fcc-editable-region--
                 
-                --fcc-editable-region--
+--fcc-editable-region--
               </select>
               <button type="button" id="add-entry">Add Entry</button>
             </span>

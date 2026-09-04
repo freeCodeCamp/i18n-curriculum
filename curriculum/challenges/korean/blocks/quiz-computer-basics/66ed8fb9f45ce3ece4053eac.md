@@ -223,7 +223,7 @@ Windows 파일 탐색기
 
 ---
 
-키보드에서 `Backspace` 키 누르기.
+키보드에서 <kbd>Backspace</kbd> 키를 누르기.
 
 ---
 

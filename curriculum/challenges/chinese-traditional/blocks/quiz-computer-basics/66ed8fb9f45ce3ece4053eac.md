@@ -223,7 +223,7 @@ Windows 檔案總管
 
 ---
 
-按下鍵盤上的 `Backspace` 鍵。
+按鍵盤上的 <kbd>Backspace</kbd> 鍵。
 
 ---
 

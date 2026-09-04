@@ -4537,32 +4537,6 @@
       "review-javascript": "JavaScript 복습",
       "javascript-certification-exam": "JavaScript 인증 시험"
     },
-    "module-intros": {
-      "data-structures": {
-        "note": "2026년 봄 출시 예정",
-        "intro": [
-          "이 모듈에서는 연결 리스트, 스택, 큐 등을 배웁니다."
-        ]
-      },
-      "algorithms": {
-        "note": "2026년 봄 출시 예정",
-        "intro": [
-          "이 모듈에서는 버블 정렬, 이진 검색 등 일반적인 정렬 및 검색 알고리즘을 배웁니다."
-        ]
-      },
-      "graphs-and-trees": {
-        "note": "2026년 봄 출시 예정",
-        "intro": [
-          "이 모듈에서는 그래프, 트리, 트라이를 배웁니다."
-        ]
-      },
-      "dynamic-programming": {
-        "note": "2026년 봄 출시 예정",
-        "intro": [
-          "이 모듈에서는 동적 프로그래밍이 어떻게 작동하는지 배웁니다."
-        ]
-      }
-    },
     "blocks": {
       "lecture-introduction-to-javascript": {
         "title": "JavaScript 소개",
@@ -6046,18 +6020,6 @@
       "review-front-end-libraries": "프론트엔드 라이브러리 복습",
       "front-end-development-libraries-certification-exam": "프론트엔드 개발 라이브러리 인증 시험"
     },
-    "module-intros": {
-      "typescript-fundamentals": {
-        "intro": [
-          "이 모듈에서는 JavaScript의 상위 집합인 TypeScript를 소개합니다. TypeScript는 JavaScript 코드에 정적 타이핑을 추가할 수 있습니다. 제네릭, 타입 좁히기, TSX 등을 다루는 여러 워크숍과 실습을 진행하고, TypeScript 기본에 대한 짧은 퀴즈로 지식을 테스트합니다."
-        ]
-      },
-      "front-end-development-libraries-certification-exam": {
-        "intro": [
-          "이 시험에 합격하면 프론트엔드 개발 라이브러리 인증서를 받습니다."
-        ]
-      }
-    },
     "blocks": {
       "lecture-introduction-to-javascript-libraries-and-frameworks": {
         "title": "JavaScript 라이브러리와 프레임워크 소개",
@@ -6447,6 +6409,7 @@
       "lab-polygon-area-calculator": "다각형 넓이 계산기 만들기",
       "python-linear-data-structures": "선형 자료 구조",
       "lab-hash-table": "해시 테이블 만들기",
+      "python-recursion": "재귀",
       "python-algorithms": "알고리즘",
       "lab-tower-of-hanoi": "하노이 탑 알고리즘 구현하기",
       "python-graphs-and-trees": "그래프와 트리",
@@ -6791,6 +6754,36 @@
         "intro": [
           "해시 테이블은 키-값 쌍을 저장하고 빠른 검색에 최적화된 자료 구조입니다.",
           "이 실습에서는 자료 구조에 대한 지식을 활용해 해시 테이블을 만드세요."
+        ]
+      },
+      "lecture-understanding-recursion-and-the-call-stack-python": {
+        "title": "재귀와 호출 스택 이해하기",
+        "intro": [
+          "이 강의에서는 재귀 함수와 호출 스택이 Python에서 어떻게 작동하는지 배우세요."
+        ]
+      },
+      "workshop-countup-python": {
+        "title": "카운트업 함수 만들기",
+        "intro": [
+          "이 워크숍에서는 재귀를 사용해 숫자 목록을 만드는 함수를 만드세요."
+        ]
+      },
+      "lab-range-of-numbers-python": {
+        "title": "숫자 범위 생성기 만들기",
+        "intro": [
+          "이 실습에서는 재귀를 사용해 지정한 범위 내 숫자 목록을 생성하세요."
+        ]
+      },
+      "review-recursion-python": {
+        "title": "재귀 검토",
+        "intro": [
+          "재귀, 기본 사례, 호출 스택 개념을 검토하세요."
+        ]
+      },
+      "quiz-recursion-python": {
+        "title": "재귀 퀴즈",
+        "intro": [
+          "재귀, 기본 사례, 호출 스택에 대한 이해도를 테스트하세요."
         ]
       },
       "lecture-searching-and-sorting-algorithms": {
@@ -7197,98 +7190,6 @@
       "review-back-end-development-and-apis": "백엔드 개발 및 API 검토",
       "back-end-development-and-apis-certification-exam": "백엔드 개발 및 API 인증 시험"
     },
-    "module-intros": {
-      "introduction-to-nodejs": {
-        "intro": [
-          "이 모듈에서는 Node.js 작업의 기본을 배웁니다."
-        ]
-      },
-      "nodejs-core-modules": {
-        "intro": [
-          "이 모듈에서는 fs, os, path 등 일반적인 Node.js 코어 모듈을 배우고 워크숍과 실습으로 익힌 후 짧은 퀴즈로 지식을 테스트합니다."
-        ]
-      },
-      "node-package-manager": {
-        "intro": [
-          "이 모듈에서는 개발자가 프로젝트 의존성과 스크립트를 관리하는 데 사용하는 Node 패키지 관리자를 소개합니다. 이후 워크숍과 실습으로 배운 내용을 연습하고 짧은 퀴즈로 지식을 확인합니다."
-        ]
-      },
-      "lab-prime-number-checker-module": {
-        "intro": [
-          "소수 검사기를 만들어 NPM 모듈을 빌드하고 내보내는 연습을 하세요."
-        ]
-      },
-      "http-and-the-web-standards-model": {
-        "intro": [
-          "이 모듈에서는 HTTP(하이퍼텍스트 전송 프로토콜)와 요청-응답 모델, 일반 응답 코드, DNS, TCP/IP 등 중요한 개념을 배우고 웹 서버 구축 워크숍과 짧은 퀴즈로 실습합니다."
-        ]
-      },
-      "introduction-to-express": {
-        "intro": [
-          "이 모듈에서는 RESTful API를 구축하는 데 사용하는 프레임워크인 Express.js를 소개하고 워크숍과 실습으로 기술을 연습한 뒤 짧은 퀴즈로 확인합니다."
-        ]
-      },
-      "lab-personal-profile-app": {
-        "intro": [
-          "Express 서버와 JSON API를 만들어 개인 프로필 애플리케이션을 빌드하는 연습을 하세요."
-        ]
-      },
-      "express-middleware": {
-        "intro": [
-          "이 모듈에서는 클라이언트와 서버 간 요청과 응답을 처리하는 Express.js 미들웨어를 배우고 워크숍과 실습으로 연습한 뒤 짧은 퀴즈로 확인합니다."
-        ]
-      },
-      "rest-api-and-web-services": {
-        "intro": [
-          "이 모듈에서는 REST API(표현 상태 전송 애플리케이션 프로그래밍 인터페이스)와 마이크로서비스 작동 방식을 배우고 짧은 퀴즈로 지식을 테스트합니다."
-        ]
-      },
-      "lab-timestamp-microservice": {
-        "intro": [
-          "날짜 파싱 로직을 포함한 RESTful API를 만들어 타임스탬프 마이크로서비스를 빌드하는 연습을 하세요."
-        ]
-      },
-      "error-handling-in-express": {
-        "intro": [
-          "이 모듈에서는 Express.js에서 오류 처리, 디버깅, 상태 점검이 어떻게 작동하는지 배우고 실습과 짧은 퀴즈로 익힙니다."
-        ]
-      },
-      "websockets": {
-        "intro": [
-          "이 모듈에서는 클라이언트와 서버 간 실시간 통신에 사용하는 프로토콜인 웹소켓을 소개하고 실습과 워크숍으로 배운 내용을 연습한 뒤 짧은 퀴즈로 테스트합니다."
-        ]
-      },
-      "lab-chat-app": {
-        "intro": [
-          "Node.js WebSocket을 사용해 실시간 다중 클라이언트 채팅 서버를 빌드하는 연습을 하세요."
-        ]
-      },
-      "security-and-privacy": {
-        "intro": [
-          "이 모듈에서는 보안과 개인정보 보호의 차이점, CSP, 권한 정책, 개인 식별 정보(PII), CORS 작업 등 다양한 개념을 배우고 짧은 퀴즈로 지식을 확인합니다."
-        ]
-      },
-      "authentication": {
-        "intro": [
-          "이 모듈에서는 웹 애플리케이션에서 인증이 어떻게 작동하는지, JWT, CSRF, Passport, Helmet, 암호화 및 암호화 기술 등 중요한 개념을 배우고 실습과 워크숍으로 연습한 뒤 짧은 퀴즈로 확인합니다."
-        ]
-      },
-      "lab-family-movie-watchlist-api": {
-        "intro": [
-          "Express 애플리케이션에서 인증과 권한 부여를 구현해 가족 영화 목록 API를 만드는 연습을 하세요."
-        ]
-      },
-      "review-back-end-development-and-apis": {
-        "intro": [
-          "다가오는 시험 준비를 위해 백엔드 개발 및 API 개념을 복습하세요."
-        ]
-      },
-      "back-end-development-and-apis-certification-exam": {
-        "intro": [
-          "이 시험에 합격해 백엔드 개발 및 API 인증을 받으세요."
-        ]
-      }
-    },
     "blocks": {
       "lecture-working-with-nodejs-and-event-driven-architecture": {
         "title": "Node.js와 이벤트 기반 아키텍처 다루기",
@@ -7488,6 +7389,12 @@
         "title": "REST API 및 웹 서비스 검토",
         "intro": [
           "웹 서비스, REST 아키텍처, HTTP 상태 코드, 마이크로서비스를 검토하세요."
+        ]
+      },
+      "quiz-rest-api-and-web-services": {
+        "title": "REST API 및 웹 서비스 퀴즈",
+        "intro": [
+          "웹 서비스, REST 아키텍처, HTTP 상태 코드, 모놀리식과 마이크로서비스에 대한 지식을 테스트하세요."
         ]
       },
       "lab-timestamp-microservice": {

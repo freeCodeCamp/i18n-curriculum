@@ -9,62 +9,50 @@ dashedName: step-10
 
 تحتاج قائمة الاختيار إلى خيار لكل عنصر `fieldset` من الظرف الذي أنشأته في الخطوات السابقة. استخدم عنصر `option` لإنشاء خيار جديد لكل `fieldset`. يجب أن تكون الخاصية `value` لكل خيار هي `id` الخاص بـ `fieldset`، ونص كل خيار هو نص `legend`.
 
-عيّن خيار `Rent` كخيار `selected`.
+اجعل خيار `Food` هو الخيار `selected`.
 
 # --hints--
 
-يجب أن تنشئ أربعة عناصر `option` داخل عنصر `select` الخاص بك.
+يجب أن تنشئ ثلاثة عناصر `option` داخل عنصر `select` الخاص بك.
 
 ```js
-assert.equal(document.querySelectorAll('.controls select option')?.length, 4);
+assert.equal(document.querySelectorAll('.controls select option')?.length, 3);
 ```
 
-يجب أن يحتوي أول `option` على النص `Rent`.
+يجب أن يحتوي خيارك الأول `option` على النص `Food`.
 
 ```js
-assert.equal(document.querySelectorAll('.controls select option')?.[0]?.textContent?.trim(), 'Rent');
+assert.equal(document.querySelectorAll('.controls select option')?.[0]?.textContent?.trim(), 'Food');
 ```
 
-يجب أن تحتوي أول `option` على الخاصية `value` مضبوطة على `rent`.
+يجب أن يحتوي خيارك الأول `option` على الخاصية `value` مضبوطة على `food`.
 
 ```js
-assert.equal(document.querySelectorAll('.controls select option')?.[0]?.value, 'rent');
+assert.equal(document.querySelectorAll('.controls select option')?.[0]?.value, 'food');
 ```
 
-يجب أن يحتوي الخيار الثاني `option` على النص `Food`.
+يجب أن يحتوي خيارك الثاني `option` على النص `Utilities`.
 
 ```js
-assert.equal(document.querySelectorAll('.controls select option')?.[1]?.textContent?.trim(), 'Food');
+assert.equal(document.querySelectorAll('.controls select option')?.[1]?.textContent?.trim(), 'Utilities');
 ```
 
-يجب أن تحتوي `option` الثانية على الخاصية `value` مضبوطة على `food`.
+يجب أن يحتوي خيارك الثاني `option` على الخاصية `value` مضبوطة على `utilities`.
 
 ```js
-assert.equal(document.querySelectorAll('.controls select option')?.[1]?.value, 'food');
+assert.equal(document.querySelectorAll('.controls select option')?.[1]?.value, 'utilities');
 ```
 
-يجب أن يحتوي الخيار الثالث `option` على النص `Utilities`.
+يجب أن يحتوي خيارك الثالث `option` على النص `Entertainment`.
 
 ```js
-assert.equal(document.querySelectorAll('.controls select option')?.[2]?.textContent?.trim(), 'Utilities');
+assert.equal(document.querySelectorAll('.controls select option')?.[2]?.textContent?.trim(), 'Entertainment');
 ```
 
-يجب أن تحتوي ثالث `option` على الخاصية `value` مضبوطة على `utilities`.
+يجب أن يحتوي خيارك الثالث `option` على الخاصية `value` مضبوطة على `entertainment`.
 
 ```js
-assert.equal(document.querySelectorAll('.controls select option')?.[2]?.value, 'utilities');
-```
-
-يجب أن يحتوي الخيار الرابع `option` على النص `Entertainment`.
-
-```js
-assert.equal(document.querySelectorAll('.controls select option')?.[3]?.textContent?.trim(), 'Entertainment');
-```
-
-يجب أن تحتوي `option` الرابعة على الخاصية `value` مضبوطة على `entertainment`.
-
-```js
-assert.equal(document.querySelectorAll('.controls select option')?.[3]?.value, 'entertainment');
+assert.equal(document.querySelectorAll('.controls select option')?.[2]?.value, 'entertainment');
 ```
 
 يجب تعيين أول `option` كخيار محدد.
@@ -93,7 +81,6 @@ assert.isTrue(isFirstOptionSelected && selectedOptions.length === 1);
     <main>
       <h1>Envelope Budgeter</h1>
       <div class="container">
-
         <form id="budget-form">
           <label for="income">Total Monthly Income</label>
           <input 
@@ -129,9 +116,9 @@ assert.isTrue(isFirstOptionSelected && selectedOptions.length === 1);
             <span>
               <label for="entry-dropdown">Add expense to:</label>
               <select id="entry-dropdown" name="options">
-                --fcc-editable-region--
+--fcc-editable-region--
                 
-                --fcc-editable-region--
+--fcc-editable-region--
               </select>
               <button type="button" id="add-entry">Add Entry</button>
             </span>

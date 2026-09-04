@@ -9,62 +9,50 @@ dashedName: step-10
 
 이전 단계에서 만든 봉투 `fieldset` 요소 각각에 대해 선택 메뉴에 옵션이 필요합니다. 각 `fieldset`에 대해 새 옵션을 만들려면 `option` 요소를 사용하세요. 각 옵션의 `value` 속성은 해당 `fieldset`의 `id`여야 하며, 각 옵션의 텍스트는 `legend`의 텍스트여야 합니다.
 
-`Rent` 옵션을 `selected` 옵션으로 설정하세요.
+`Food` 옵션을 `selected` 옵션으로 설정하세요.
 
 # --hints--
 
-`select` 요소 안에 네 개의 `option` 요소를 만들어야 합니다.
+`select` 요소 안에 세 개의 `option` 요소를 만드세요.
 
 ```js
-assert.equal(document.querySelectorAll('.controls select option')?.length, 4);
+assert.equal(document.querySelectorAll('.controls select option')?.length, 3);
 ```
 
-첫 번째 `option`은 텍스트가 `Rent`여야 합니다.
+첫 번째 `option`의 텍스트는 `Food`여야 합니다.
 
 ```js
-assert.equal(document.querySelectorAll('.controls select option')?.[0]?.textContent?.trim(), 'Rent');
+assert.equal(document.querySelectorAll('.controls select option')?.[0]?.textContent?.trim(), 'Food');
 ```
 
-첫 번째 `option`의 `value` 속성은 `rent`로 설정해야 합니다.
+첫 번째 `option`의 `value` 속성은 `food`로 설정하세요.
 
 ```js
-assert.equal(document.querySelectorAll('.controls select option')?.[0]?.value, 'rent');
+assert.equal(document.querySelectorAll('.controls select option')?.[0]?.value, 'food');
 ```
 
-두 번째 `option`은 텍스트가 `Food`여야 합니다.
+두 번째 `option`의 텍스트는 `Utilities`여야 합니다.
 
 ```js
-assert.equal(document.querySelectorAll('.controls select option')?.[1]?.textContent?.trim(), 'Food');
+assert.equal(document.querySelectorAll('.controls select option')?.[1]?.textContent?.trim(), 'Utilities');
 ```
 
-두 번째 `option`의 `value` 속성은 `food`로 설정해야 합니다.
+두 번째 `option`의 `value` 속성은 `utilities`로 설정하세요.
 
 ```js
-assert.equal(document.querySelectorAll('.controls select option')?.[1]?.value, 'food');
+assert.equal(document.querySelectorAll('.controls select option')?.[1]?.value, 'utilities');
 ```
 
-세 번째 `option`은 텍스트가 `Utilities`여야 합니다.
+세 번째 `option`의 텍스트는 `Entertainment`여야 합니다.
 
 ```js
-assert.equal(document.querySelectorAll('.controls select option')?.[2]?.textContent?.trim(), 'Utilities');
+assert.equal(document.querySelectorAll('.controls select option')?.[2]?.textContent?.trim(), 'Entertainment');
 ```
 
-세 번째 `option`의 `value` 속성은 `utilities`로 설정해야 합니다.
+세 번째 `option`의 `value` 속성은 `entertainment`로 설정하세요.
 
 ```js
-assert.equal(document.querySelectorAll('.controls select option')?.[2]?.value, 'utilities');
-```
-
-네 번째 `option`은 텍스트가 `Entertainment`여야 합니다.
-
-```js
-assert.equal(document.querySelectorAll('.controls select option')?.[3]?.textContent?.trim(), 'Entertainment');
-```
-
-네 번째 `option`의 `value` 속성은 `entertainment`로 설정해야 합니다.
-
-```js
-assert.equal(document.querySelectorAll('.controls select option')?.[3]?.value, 'entertainment');
+assert.equal(document.querySelectorAll('.controls select option')?.[2]?.value, 'entertainment');
 ```
 
 첫 번째 `option`이 선택된 옵션으로 설정되어야 합니다.
@@ -93,7 +81,6 @@ assert.isTrue(isFirstOptionSelected && selectedOptions.length === 1);
     <main>
       <h1>Envelope Budgeter</h1>
       <div class="container">
-
         <form id="budget-form">
           <label for="income">Total Monthly Income</label>
           <input 
@@ -129,9 +116,9 @@ assert.isTrue(isFirstOptionSelected && selectedOptions.length === 1);
             <span>
               <label for="entry-dropdown">Add expense to:</label>
               <select id="entry-dropdown" name="options">
-                --fcc-editable-region--
+--fcc-editable-region--
                 
-                --fcc-editable-region--
+--fcc-editable-region--
               </select>
               <button type="button" id="add-entry">Add Entry</button>
             </span>

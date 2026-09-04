@@ -9,62 +9,50 @@ dashedName: step-10
 
 Tu menú select necesita una opción para cada uno de los elementos `fieldset` del sobre que creaste en los pasos anteriores. Usa el elemento `option` para crear una nueva opción para cada `fieldset`. El atributo `value` de cada opción debe ser el `id` del `fieldset`, y el texto de cada opción debe ser el texto de la `legend`.
 
-Establece la opción `Rent` como la opción `selected`.
+Establece la opción `Food` como la opción `selected`.
 
 # --hints--
 
-Debes crear cuatro elementos `option` dentro de tu elemento `select`.
+Debes crear tres elementos `option` dentro de tu elemento `select`.
 
 ```js
-assert.equal(document.querySelectorAll('.controls select option')?.length, 4);
+assert.equal(document.querySelectorAll('.controls select option')?.length, 3);
 ```
 
-Tu primera opción `option` debe tener el texto `Rent`.
+Tu primer `option` debe tener el texto `Food`.
 
 ```js
-assert.equal(document.querySelectorAll('.controls select option')?.[0]?.textContent?.trim(), 'Rent');
+assert.equal(document.querySelectorAll('.controls select option')?.[0]?.textContent?.trim(), 'Food');
 ```
 
-Tu primera opción `option` debe tener el atributo `value` establecido en `rent`.
+Tu primer `option` debe tener el atributo `value` establecido en `food`.
 
 ```js
-assert.equal(document.querySelectorAll('.controls select option')?.[0]?.value, 'rent');
+assert.equal(document.querySelectorAll('.controls select option')?.[0]?.value, 'food');
 ```
 
-Tu segunda opción `option` debe tener el texto `Food`.
+Tu segundo `option` debe tener el texto `Utilities`.
 
 ```js
-assert.equal(document.querySelectorAll('.controls select option')?.[1]?.textContent?.trim(), 'Food');
+assert.equal(document.querySelectorAll('.controls select option')?.[1]?.textContent?.trim(), 'Utilities');
 ```
 
-Tu segunda opción `option` debe tener el atributo `value` establecido en `food`.
+Tu segundo `option` debe tener el atributo `value` establecido en `utilities`.
 
 ```js
-assert.equal(document.querySelectorAll('.controls select option')?.[1]?.value, 'food');
+assert.equal(document.querySelectorAll('.controls select option')?.[1]?.value, 'utilities');
 ```
 
-Tu tercera opción `option` debe tener el texto `Utilities`.
+Tu tercer `option` debe tener el texto `Entertainment`.
 
 ```js
-assert.equal(document.querySelectorAll('.controls select option')?.[2]?.textContent?.trim(), 'Utilities');
+assert.equal(document.querySelectorAll('.controls select option')?.[2]?.textContent?.trim(), 'Entertainment');
 ```
 
-Tu tercera opción `option` debe tener el atributo `value` establecido en `utilities`.
+Tu tercer `option` debe tener el atributo `value` establecido en `entertainment`.
 
 ```js
-assert.equal(document.querySelectorAll('.controls select option')?.[2]?.value, 'utilities');
-```
-
-Tu cuarta opción `option` debe tener el texto `Entertainment`.
-
-```js
-assert.equal(document.querySelectorAll('.controls select option')?.[3]?.textContent?.trim(), 'Entertainment');
-```
-
-Tu cuarta opción `option` debe tener el atributo `value` establecido en `entertainment`.
-
-```js
-assert.equal(document.querySelectorAll('.controls select option')?.[3]?.value, 'entertainment');
+assert.equal(document.querySelectorAll('.controls select option')?.[2]?.value, 'entertainment');
 ```
 
 Tu primera opción `option` debe estar establecida como la opción seleccionada.
@@ -93,7 +81,6 @@ assert.isTrue(isFirstOptionSelected && selectedOptions.length === 1);
     <main>
       <h1>Envelope Budgeter</h1>
       <div class="container">
-
         <form id="budget-form">
           <label for="income">Total Monthly Income</label>
           <input 
@@ -129,9 +116,9 @@ assert.isTrue(isFirstOptionSelected && selectedOptions.length === 1);
             <span>
               <label for="entry-dropdown">Add expense to:</label>
               <select id="entry-dropdown" name="options">
-                --fcc-editable-region--
+--fcc-editable-region--
                 
-                --fcc-editable-region--
+--fcc-editable-region--
               </select>
               <button type="button" id="add-entry">Add Entry</button>
             </span>

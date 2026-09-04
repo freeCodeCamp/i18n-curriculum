@@ -773,11 +773,11 @@ HTML 文档的一种二维布局。
 
 #### --text--
 
-`repeat(3, minmax(100px, 1fr))` 能创建什么？
+当与 `grid-template-columns` 一起使用时，`repeat(3, minmax(100px, 1fr))` 会创建什么？
 
 #### --distractors--
 
-三个不能缩小到 `100px` 以下的列。
+三个不能大于 `100px` 的列。
 
 ---
 
@@ -901,7 +901,7 @@ CSS Grid 中的 `place-items` 属性有什么作用？
 
 ---
 
-使其从第二条垂直网格线开始定位。
+使其从第二行线开始。
 
 #### --answer--
 

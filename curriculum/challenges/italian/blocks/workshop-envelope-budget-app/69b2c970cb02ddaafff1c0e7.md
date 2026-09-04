@@ -9,62 +9,50 @@ dashedName: step-10
 
 Il tuo menu a discesa ha bisogno di un'opzione per ciascuno degli elementi `fieldset` della busta che hai creato nei passaggi precedenti. Usa l'elemento `option` per creare una nuova opzione per ogni `fieldset`. L'attributo `value` di ogni opzione dovrebbe essere l'`id` del `fieldset`, e il testo di ogni opzione dovrebbe essere il testo della `legend`.
 
-Imposta l'opzione `Rent` come opzione `selected`.
+Imposta l'opzione `Food` come opzione `selected`.
 
 # --hints--
 
-Dovresti creare quattro elementi `option` all'interno del tuo elemento `select`.
+Dovresti creare tre elementi `option` all'interno del tuo elemento `select`.
 
 ```js
-assert.equal(document.querySelectorAll('.controls select option')?.length, 4);
+assert.equal(document.querySelectorAll('.controls select option')?.length, 3);
 ```
 
-La tua prima `option` dovrebbe avere il testo `Rent`.
+La tua prima `option` dovrebbe avere il testo `Food`.
 
 ```js
-assert.equal(document.querySelectorAll('.controls select option')?.[0]?.textContent?.trim(), 'Rent');
+assert.equal(document.querySelectorAll('.controls select option')?.[0]?.textContent?.trim(), 'Food');
 ```
 
-La tua prima `option` dovrebbe avere l'attributo `value` impostato su `rent`.
+La tua prima `option` dovrebbe avere l'attributo `value` impostato su `food`.
 
 ```js
-assert.equal(document.querySelectorAll('.controls select option')?.[0]?.value, 'rent');
+assert.equal(document.querySelectorAll('.controls select option')?.[0]?.value, 'food');
 ```
 
-La tua seconda `option` dovrebbe avere il testo `Food`.
+La tua seconda `option` dovrebbe avere il testo `Utilities`.
 
 ```js
-assert.equal(document.querySelectorAll('.controls select option')?.[1]?.textContent?.trim(), 'Food');
+assert.equal(document.querySelectorAll('.controls select option')?.[1]?.textContent?.trim(), 'Utilities');
 ```
 
-La tua seconda `option` dovrebbe avere l'attributo `value` impostato su `food`.
+La tua seconda `option` dovrebbe avere l'attributo `value` impostato su `utilities`.
 
 ```js
-assert.equal(document.querySelectorAll('.controls select option')?.[1]?.value, 'food');
+assert.equal(document.querySelectorAll('.controls select option')?.[1]?.value, 'utilities');
 ```
 
-La tua terza `option` dovrebbe avere il testo `Utilities`.
+La tua terza `option` dovrebbe avere il testo `Entertainment`.
 
 ```js
-assert.equal(document.querySelectorAll('.controls select option')?.[2]?.textContent?.trim(), 'Utilities');
+assert.equal(document.querySelectorAll('.controls select option')?.[2]?.textContent?.trim(), 'Entertainment');
 ```
 
-La tua terza `option` dovrebbe avere l'attributo `value` impostato su `utilities`.
+La tua terza `option` dovrebbe avere l'attributo `value` impostato su `entertainment`.
 
 ```js
-assert.equal(document.querySelectorAll('.controls select option')?.[2]?.value, 'utilities');
-```
-
-La tua quarta `option` dovrebbe avere il testo `Entertainment`.
-
-```js
-assert.equal(document.querySelectorAll('.controls select option')?.[3]?.textContent?.trim(), 'Entertainment');
-```
-
-La tua quarta `option` dovrebbe avere l'attributo `value` impostato su `entertainment`.
-
-```js
-assert.equal(document.querySelectorAll('.controls select option')?.[3]?.value, 'entertainment');
+assert.equal(document.querySelectorAll('.controls select option')?.[2]?.value, 'entertainment');
 ```
 
 La tua prima `option` dovrebbe essere impostata come opzione selezionata.
@@ -93,7 +81,6 @@ assert.isTrue(isFirstOptionSelected && selectedOptions.length === 1);
     <main>
       <h1>Envelope Budgeter</h1>
       <div class="container">
-
         <form id="budget-form">
           <label for="income">Total Monthly Income</label>
           <input 
@@ -129,9 +116,9 @@ assert.isTrue(isFirstOptionSelected && selectedOptions.length === 1);
             <span>
               <label for="entry-dropdown">Add expense to:</label>
               <select id="entry-dropdown" name="options">
-                --fcc-editable-region--
+--fcc-editable-region--
                 
-                --fcc-editable-region--
+--fcc-editable-region--
               </select>
               <button type="button" id="add-entry">Add Entry</button>
             </span>
