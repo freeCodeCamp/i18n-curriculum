@@ -11,8 +11,8 @@ dashedName: set-consolidation
 Dado dois conjuntos de itens, se algum item for comum a qualquer conjunto, então o resultado da aplicação de *consolidation* a esses conjuntos é um conjunto de conjuntos cujo conteúdo é:
 
 <ul>
-  <li>The two input sets if no common item exists between the two input sets of items.</li>
-  <li>The single set that is the union of the two input sets if they share a common item.</li>
+  <li>Os dois conjuntos de entrada se não existir nenhum item comum entre os dois conjuntos de itens de entrada.</li>
+  <li>O conjunto único que é a união dos dois conjuntos de entrada se eles compartilharem um item comum.</li>
 </ul>
 
 Dados N conjuntos de itens em que N > 2, o resultado é o mesmo que substituir repetidamente todas as combinações de dois conjuntos por sua consolidação até que nenhuma consolidação adicional entre os pares de conjuntos seja possível. Se N &lt; 2, a consolidação não terá nenhum significado estrito e a entrada pode ser retornada.

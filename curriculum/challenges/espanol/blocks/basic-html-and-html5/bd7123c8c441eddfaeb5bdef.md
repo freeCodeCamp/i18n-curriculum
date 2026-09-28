@@ -2,7 +2,6 @@
 id: bd7123c8c441eddfaeb5bdef
 title: Di hola a los elementos HTML
 challengeType: 0
-videoUrl: 'https://scrimba.com/p/pVMPUv/cE8Gpt2'
 forumTopicId: 18276
 dashedName: say-hello-to-html-elements
 ---

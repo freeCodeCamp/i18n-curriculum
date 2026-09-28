@@ -833,12 +833,32 @@
           "通过构建此项目，你将获得数字计算和字串操作的实践经验。"
         ]
       },
+      "learn-lambda-functions-by-building-an-expense-tracker": {
+        "title": "通过构建支出追踪器学习 Lambda 函数",
+        "intro": [
+          "Lambda 函数为你提供了一种简洁的方式编写代码中的小型一次性函数。",
+          "在这个项目中，你将通过创建支出追踪器探索 Lambda 函数的强大功能。你的应用将展示如何使用 Lambda 函数实现高效、简洁的操作。"
+        ]
+      },
       "learn-list-comprehension-by-building-a-case-converter-program": {
         "title": "通过构建大小写转换程序学习 Python 列表推导式",
         "intro": [
           "列表推导式是一种从可迭代类型（列表、元组和字串）构造新 Python 列表的方法，无需使用 for 循环或 <code>.append()</code> 列表方法。",
           "在这个项目中，你将编写一个程序，将驼峰式或 Pascal 大小写格式的字串转换为蛇形大小写。",
           "项目分两个阶段：首先使用 for 循环实现程序，然后学习如何用列表推导式替代循环达到相同效果。"
+        ]
+      },
+      "learn-the-bisection-method-by-finding-the-square-root-of-a-number": {
+        "title": "通过求数的平方根学习二分法",
+        "intro": [
+          "数值方法用于近似解决难以或无法解析求解的数学问题。",
+          "在本项目中，你将探索二分法数值方法，通过迭代缩小包含平方根的可能值范围来求平方根。"
+        ]
+      },
+      "build-an-arithmetic-formatter-project": {
+        "title": "构建算术格式化器项目",
+        "intro": [
+          "这是申请认证所需完成的项目之一。"
         ]
       },
       "learn-regular-expressions-by-building-a-password-generator": {
@@ -869,6 +889,12 @@
           "在这个项目中，你将通过使用归并排序算法对随机数列表排序，学习如何操作数据结构。"
         ]
       },
+      "build-a-time-calculator-project": {
+        "title": "构建时间计算器项目",
+        "intro": [
+          "这是申请认证所需完成的项目之一。"
+        ]
+      },
       "learn-classes-and-objects-by-building-a-sudoku-solver": {
         "title": "通过构建数独求解器学习类和对象",
         "intro": [
@@ -883,48 +909,10 @@
           "在这个项目中，你将学习如何构建自己的 BST 并执行中序遍历。你还将学习插入、查找和删除等关键操作。"
         ]
       },
-      "learn-lambda-functions-by-building-an-expense-tracker": {
-        "title": "通过构建支出追踪器学习 Lambda 函数",
-        "intro": [
-          "Lambda 函数为你提供了一种简洁的方式编写代码中的小型一次性函数。",
-          "在这个项目中，你将通过创建支出追踪器探索 Lambda 函数的强大功能。你的应用将展示如何使用 Lambda 函数实现高效、简洁的操作。"
-        ]
-      },
-      "build-an-arithmetic-formatter-project": {
-        "title": "构建算术格式化器项目",
-        "intro": [
-          "这是申请认证所需完成的项目之一。"
-        ]
-      },
-      "build-a-time-calculator-project": {
-        "title": "构建时间计算器项目",
-        "intro": [
-          "这是申请认证所需完成的项目之一。"
-        ]
-      },
       "build-a-budget-app-project": {
         "title": "构建预算应用项目",
         "intro": [
           "这是申请认证所需完成的项目之一。"
-        ]
-      },
-      "build-a-polygon-area-calculator-project": {
-        "title": "构建多边形面积计算器项目",
-        "intro": [
-          "这是申请认证所需完成的项目之一。"
-        ]
-      },
-      "build-a-probability-calculator-project": {
-        "title": "构建概率计算器项目",
-        "intro": [
-          "这是申请认证所需完成的项目之一。"
-        ]
-      },
-      "learn-interfaces-by-building-an-equation-solver": {
-        "title": "通过构建方程求解器学习接口",
-        "intro": [
-          "抽象类使你能够定义正式接口——作为类蓝图的对象。",
-          "在这个项目中，你将学习如何在 Python 中实现接口，同时构建一个简单的方程求解器程序。"
         ]
       },
       "learn-special-methods-by-building-a-vector-space": {
@@ -934,6 +922,19 @@
           "在本项目中，你将通过构建一个向量空间来探索一些最常见的特殊方法，同时学习向量的相关知识。"
         ]
       },
+      "learn-interfaces-by-building-an-equation-solver": {
+        "title": "通过构建方程求解器学习接口",
+        "intro": [
+          "抽象类使你能够定义正式接口——作为类蓝图的对象。",
+          "在这个项目中，你将学习如何在 Python 中实现接口，同时构建一个简单的方程求解器程序。"
+        ]
+      },
+      "build-a-polygon-area-calculator-project": {
+        "title": "构建多边形面积计算器项目",
+        "intro": [
+          "这是申请认证所需完成的项目之一。"
+        ]
+      },
       "learn-encapsulation-by-building-a-projectile-trajectory-calculator": {
         "title": "通过构建弹道轨迹计算器学习封装",
         "intro": [
@@ -941,11 +942,10 @@
           "在本项目中，你将发现与封装相关的新概念，如 getter、setter 和名称改写，并将它们与你已学的内容结合，创建一个计算弹道轨迹的程序。"
         ]
       },
-      "learn-the-bisection-method-by-finding-the-square-root-of-a-number": {
-        "title": "通过求数的平方根学习二分法",
+      "build-a-probability-calculator-project": {
+        "title": "构建概率计算器项目",
         "intro": [
-          "数值方法用于近似解决难以或无法解析求解的数学问题。",
-          "在本项目中，你将探索二分法数值方法，通过迭代缩小包含平方根的可能值范围来求平方根。"
+          "这是申请认证所需完成的项目之一。"
         ]
       }
     }
@@ -1504,7 +1504,7 @@
       "workshop-report-card-printer": {
         "title": "构建成绩单打印机",
         "intro": [
-          "在本次工作坊中，你将通过创建和打印简单成绩单的数据，练习使用 Python 中的原语数据类型。"
+          "在本工作坊中，你将通过创建和打印简单成绩单的数据，练习使用 Python 的内置数据类型。"
         ]
       },
       "lecture-introduction-to-python-strings": {
@@ -1551,6 +1551,12 @@
         "title": "理解函数和作用域",
         "intro": [
           "在这些课程中，你将学习 Python 中的函数和作用域。"
+        ]
+      },
+      "workshop-kitchen-inventory-tracker": {
+        "title": "创建厨房库存追踪器",
+        "intro": [
+          "在本工作坊中，你将通过构建厨房库存追踪器，练习 Python 中的函数和作用域。"
         ]
       },
       "lab-discount-calculator": {
@@ -2472,6 +2478,12 @@
           "在本实验中，你将创建一个函数来管理唱片收藏。"
         ]
       },
+      "workshop-artifact-provenance-auditor": {
+        "title": "创建文物来源审计器",
+        "intro": [
+          "在本工作坊中，你将构建一个文物来源审计器，用于查找、标记、移动和汇总博物馆文物。"
+        ]
+      },
       "review-javascript-objects": {
         "title": "JavaScript 对象复习",
         "intro": [
@@ -2505,22 +2517,66 @@
           "在本工作坊中，你将通过创建一个函数来练习使用 <code>for...of</code> 循环，该函数统计字串数组中某个字串的出现次数。"
         ]
       },
+      "lab-factorial-calculator": {
+        "title": "创建阶乘计算器",
+        "intro": [
+          "在本实验中，你将创建一个阶乘计算器。",
+          "你将练习使用循环和条件式计算数字的阶乘。"
+        ]
+      },
+      "lab-repeat-a-string": {
+        "title": "创建字串重复函数",
+        "intro": [
+          "在本实验中，你将实现循环以重复字串指定次数。"
+        ]
+      },
       "workshop-sentence-analyzer": {
         "title": "创建句子分析器",
         "intro": [
           "在本工作坊中，你将通过创建句子分析器应用复习 JavaScript 循环的操作。"
         ]
       },
-      "lab-traffic-light-sequencer": {
-        "title": "创建交通信号灯序列器",
+      "lab-longest-word-in-a-string": {
+        "title": "创建最长单词查找应用",
         "intro": [
-          "在本实验中，你将使用 JavaScript 循环来创建一个交通信号灯序列器。"
+          "在本实验中，你将使用 JavaScript 循环查找给定句子中最长单词的长度。"
+        ]
+      },
+      "lab-mutations": {
+        "title": "实现变异算法",
+        "intro": [
+          "在本实验中，你将练习迭代两个不同的字串以比较它们的字符。"
+        ]
+      },
+      "lab-missing-letter-detector": {
+        "title": "创建缺失字母检测器",
+        "intro": [
+          "在本实验中，你将创建一个函数，找出给定连续字母范围内缺失的字母并返回它。"
+        ]
+      },
+      "lab-profile-lookup": {
+        "title": "创建评测查找",
+        "intro": [
+          "在本实验中，你将创建一个函数来查找评测信息。"
         ]
       },
       "workshop-space-mission-roster": {
         "title": "创建太空任务名单",
         "intro": [
           "在本工作坊中，你将利用 JavaScript 循环来创建一个太空任务名单。"
+        ]
+      },
+      "lab-chunky-monkey": {
+        "title": "实现 Chunky Monkey 算法",
+        "intro": [
+          "在本实验中，你将练习使用你选择的技术将数组拆分成更小的数组。"
+        ]
+      },
+      "lab-device-loan-ledger": {
+        "title": "创建设备借用账本",
+        "intro": [
+          "在本实验中，你将构建一个设备借用账本，用于管理公司服务台提供的 IT 硬件。",
+          "你将通过实现设备借出和归还、跟踪逾期借用以及在 JSON 字符串和 JavaScript 对象之间转换的函数，练习处理嵌套对象和 JSON。"
         ]
       },
       "workshop-heritage-library-catalog": {
@@ -2530,41 +2586,10 @@
           "你将练习使用循环、对象和字串方法来解析未经处理的文本数据，查找和分组条目，渲染格式化输出，并导出为 JSON 和 CSV。"
         ]
       },
-      "lab-longest-word-in-a-string": {
-        "title": "创建最长单词查找应用",
+      "lab-smart-pantry-restocker": {
+        "title": "创建智能储藏室补货程序",
         "intro": [
-          "在本实验中，你将使用 JavaScript 循环查找给定句子中最长单词的长度。"
-        ]
-      },
-      "lab-factorial-calculator": {
-        "title": "创建阶乘计算器",
-        "intro": [
-          "在本实验中，你将创建一个阶乘计算器。",
-          "你将练习使用循环和条件式计算数字的阶乘。"
-        ]
-      },
-      "lab-mutations": {
-        "title": "实现变异算法",
-        "intro": [
-          "在本实验中，你将练习迭代两个不同的字串以比较它们的字符。"
-        ]
-      },
-      "lab-chunky-monkey": {
-        "title": "实现 Chunky Monkey 算法",
-        "intro": [
-          "在本实验中，你将练习使用你选择的技术将数组拆分成更小的数组。"
-        ]
-      },
-      "lab-profile-lookup": {
-        "title": "创建评测查找",
-        "intro": [
-          "在本实验中，你将创建一个函数来查找评测信息。"
-        ]
-      },
-      "lab-repeat-a-string": {
-        "title": "创建字串重复函数",
-        "intro": [
-          "在本实验中，你将实现循环以重复字串指定次数。"
+          "在本实验中，你将使用数组、对象、循环和条件式等基础 JavaScript 概念来创建一个小型储藏室管理程序。"
         ]
       },
       "workshop-festival-crowd-flow-simulator": {
@@ -2573,16 +2598,10 @@
           "在本工作坊中，你将使用 JavaScript 模拟音乐节参加者的人群流动。"
         ]
       },
-      "lab-missing-letter-detector": {
-        "title": "创建缺失字母检测器",
+      "lab-traffic-light-sequencer": {
+        "title": "创建交通信号灯序列器",
         "intro": [
-          "在本实验中，你将创建一个函数，找出给定连续字母范围内缺失的字母并返回它。"
-        ]
-      },
-      "lab-smart-pantry-restocker": {
-        "title": "创建智能储藏室补货程序",
-        "intro": [
-          "在本实验中，你将使用数组、对象、循环和条件式等基础 JavaScript 概念来创建一个小型储藏室管理程序。"
+          "在本实验中，你将使用 JavaScript 循环来创建一个交通信号灯序列器。"
         ]
       },
       "lab-proofreading-tool": {
@@ -4924,6 +4943,12 @@
           "在本实验中，你将创建一个函数来管理唱片收藏。"
         ]
       },
+      "workshop-artifact-provenance-auditor": {
+        "title": "创建文物来源审计器",
+        "intro": [
+          "在本工作坊中，你将构建一个文物来源审计器，用于查找、标记、移动和汇总博物馆文物。"
+        ]
+      },
       "review-javascript-objects": {
         "title": "JavaScript 对象复习",
         "intro": [
@@ -4947,22 +4972,66 @@
           "在本工作坊中，你将通过创建一个函数练习使用 <code>for...of</code> 循环来统计数组中字串的出现次数。"
         ]
       },
+      "lab-factorial-calculator": {
+        "title": "创建阶乘计算器",
+        "intro": [
+          "在本实验中，你将创建一个阶乘计算器。",
+          "你将练习使用循环和条件式计算数字的阶乘。"
+        ]
+      },
+      "lab-repeat-a-string": {
+        "title": "创建字串重复函数",
+        "intro": [
+          "在本实验中，你将实现循环以重复字串指定次数。"
+        ]
+      },
       "workshop-sentence-analyzer": {
         "title": "创建句子分析器",
         "intro": [
           "在本工作坊中，你将通过创建句子分析应用复习操作 JavaScript 循环。"
         ]
       },
-      "lab-traffic-light-sequencer": {
-        "title": "创建交通信号灯序列器",
+      "lab-longest-word-in-a-string": {
+        "title": "创建最长字词查找应用",
         "intro": [
-          "在本实验中，你将使用 JavaScript 循环创建交通信号灯序列器。"
+          "在本实验中，你将使用 JavaScript 循环查找给定句子中最长字词的长度。"
+        ]
+      },
+      "lab-mutations": {
+        "title": "实现变异算法",
+        "intro": [
+          "在本实验中，你将练习迭代两个不同字串以比较它们的字符。"
+        ]
+      },
+      "lab-missing-letter-detector": {
+        "title": "创建缺失字母检测器",
+        "intro": [
+          "在本实验中，你将创建一个函数，用于查找给定连续字母范围内缺失的字母并返回它。"
+        ]
+      },
+      "lab-profile-lookup": {
+        "title": "创建评测查找功能",
+        "intro": [
+          "在本实验中，你将创建一个函数来查找评测信息。"
         ]
       },
       "workshop-space-mission-roster": {
         "title": "创建太空任务名单",
         "intro": [
           "在本工作坊中，你将利用 JavaScript 循环创建太空任务名单。"
+        ]
+      },
+      "lab-chunky-monkey": {
+        "title": "实现 Chunky Monkey 算法",
+        "intro": [
+          "在本实验中，你将练习使用任意技术将数组分割成更小的数组。"
+        ]
+      },
+      "lab-device-loan-ledger": {
+        "title": "创建设备借用账本",
+        "intro": [
+          "在本实验中，你将构建一个设备借用账本，用于管理公司服务台提供的 IT 硬件。",
+          "你将通过实现设备借出和归还、跟踪逾期借用以及在 JSON 字符串和 JavaScript 对象之间转换的函数，练习处理嵌套对象和 JSON。"
         ]
       },
       "workshop-heritage-library-catalog": {
@@ -4972,41 +5041,10 @@
           "你将练习使用循环、对象和字串方法来解析未经处理的文本数据，查找和分组条目，渲染格式化输出，并导出为 JSON 和 CSV。"
         ]
       },
-      "lab-longest-word-in-a-string": {
-        "title": "创建最长字词查找应用",
+      "lab-smart-pantry-restocker": {
+        "title": "创建智能储藏室补货程序",
         "intro": [
-          "在本实验中，你将使用 JavaScript 循环查找给定句子中最长字词的长度。"
-        ]
-      },
-      "lab-factorial-calculator": {
-        "title": "创建阶乘计算器",
-        "intro": [
-          "在本实验中，你将创建一个阶乘计算器。",
-          "你将练习使用循环和条件式计算数字的阶乘。"
-        ]
-      },
-      "lab-mutations": {
-        "title": "实现变异算法",
-        "intro": [
-          "在本实验中，你将练习迭代两个不同字串以比较它们的字符。"
-        ]
-      },
-      "lab-chunky-monkey": {
-        "title": "实现 Chunky Monkey 算法",
-        "intro": [
-          "在本实验中，你将练习使用任意技术将数组分割成更小的数组。"
-        ]
-      },
-      "lab-profile-lookup": {
-        "title": "创建评测查找功能",
-        "intro": [
-          "在本实验中，你将创建一个函数来查找评测信息。"
-        ]
-      },
-      "lab-repeat-a-string": {
-        "title": "创建字串重复函数",
-        "intro": [
-          "在本实验中，你将实现循环以重复字串指定次数。"
+          "在本实验中，你将使用数组、对象、循环和条件式等基本 JavaScript 概念，创建一个小型储藏室管理程序。"
         ]
       },
       "workshop-festival-crowd-flow-simulator": {
@@ -5015,16 +5053,10 @@
           "在本工作坊中，你将使用 JavaScript 模拟音乐节参与者的人群流动。"
         ]
       },
-      "lab-missing-letter-detector": {
-        "title": "创建缺失字母检测器",
+      "lab-traffic-light-sequencer": {
+        "title": "创建交通信号灯序列器",
         "intro": [
-          "在本实验中，你将创建一个函数，用于查找给定连续字母范围内缺失的字母并返回它。"
-        ]
-      },
-      "lab-smart-pantry-restocker": {
-        "title": "创建智能储藏室补货程序",
-        "intro": [
-          "在本实验中，你将使用数组、对象、循环和条件式等基本 JavaScript 概念，创建一个小型储藏室管理程序。"
+          "在本实验中，你将使用 JavaScript 循环创建交通信号灯序列器。"
         ]
       },
       "lab-proofreading-tool": {
@@ -6024,7 +6056,7 @@
       "lecture-introduction-to-javascript-libraries-and-frameworks": {
         "title": "JavaScript 库和框架简介",
         "intro": [
-          "在这些课程中，你将了解 JavaScript 库和框架。你将学习它们的作用、单页应用（SPA）及相关问题，以及最流行的前端 JavaScript 库 React。"
+          "在这些课程中，你将了解 JavaScript 库和框架。你将学习它们的作用、单页应用（SPA）及其相关问题，以及最流行的前端 JavaScript 库 React。"
         ]
       },
       "workshop-reusable-mega-navbar": {
@@ -6455,7 +6487,7 @@
       "workshop-bill-splitter": {
         "title": "创建账单分摊器",
         "intro": [
-          "在本工作坊中，你将创建一个账单分摊器来练习 Python 中的数字和数学运算。"
+          "在本工作坊中，你将构建一个账单分摊器，练习 Python 中的数字和数学运算。"
         ]
       },
       "lecture-booleans-and-conditionals": {
@@ -6480,6 +6512,12 @@
         "title": "理解函数和作用域",
         "intro": [
           "在这些课程中，你将学习 Python 中的函数和作用域。"
+        ]
+      },
+      "workshop-kitchen-inventory-tracker": {
+        "title": "创建厨房库存追踪器",
+        "intro": [
+          "在本工作坊中，你将通过构建厨房库存追踪器，练习 Python 中的函数和作用域。"
         ]
       },
       "lab-discount-calculator": {
@@ -6962,7 +7000,7 @@
       "lecture-working-with-code-editors-and-ides": {
         "title": "使用代码编辑器和集成开发环境",
         "intro": [
-          "在这些课程中，你将学习如何使用代码编辑器和集成开发环境。你将了解最流行的代码编辑器 VS Code 的各种概念，如安装方法、如何创建项目、键盘快捷键和扩展（程序、功能）。"
+          "在这些课程中，你将学习如何使用代码编辑器和集成开发环境。你将学习如何安装 VS Code、创建项目、使用快捷键以及使用扩展。"
         ]
       },
       "lecture-understanding-the-command-line-and-working-with-bash": {
@@ -7647,21 +7685,41 @@
       "es-a1-module-describing-a-company": "描述公司",
       "es-a1-module-describing-people-at-work": "描述职场人员"
     },
-    "module-intros": {
-      "es-a1-module-describing-a-company": {
-        "note": "2026 年推出",
-        "intro": [
-          "在本模块中，你将学习如何识别和描述公司的基本信息，如名称、网站、位置、员工数量和部门。"
-        ]
-      },
-      "es-a1-module-describing-people-at-work": {
-        "note": "2026 年推出",
-        "intro": [
-          "在本模块中，你将学习第三人称描述以及如何识别简短对话中的简单纠正。"
-        ]
-      }
-    },
     "blocks": {
+      "es-a1-learn-certification-introduction": {
+        "title": "认证简介",
+        "intro": ["", ""]
+      },
+      "es-a1-learn-vowels": { "title": "元音", "intro": ["", ""] },
+      "es-a1-learn-consonants-and-special-characters": {
+        "title": "辅音和特殊字符",
+        "intro": ["", ""]
+      },
+      "es-a1-practice-the-alphabet": {
+        "title": "西班牙语字母表练习",
+        "intro": ["", ""]
+      },
+      "es-a1-learn-the-first-ten-numbers": {
+        "title": "前十个数字",
+        "intro": ["", ""]
+      },
+      "es-a1-practice-the-first-ten-numbers": {
+        "title": "前十个数字练习",
+        "intro": ["", ""]
+      },
+      "es-a1-learn-alphabet-and-accents": {
+        "title": "字母表和重音符号",
+        "intro": ["", ""]
+      },
+      "es-a1-learn-punctuation": { "title": "标点符号", "intro": ["", ""] },
+      "es-a1-review-spanish-fundamentals": {
+        "title": "西班牙语基础复习",
+        "intro": ["", ""]
+      },
+      "es-a1-quiz-spanish-fundamentals": {
+        "title": "西班牙语基础测验",
+        "intro": ["", ""]
+      },
       "es-a1-warm-up-greetings-and-farewells-basics": {
         "title": "问候与告别基础",
         "intro": ["", ""]
@@ -7680,19 +7738,6 @@
       },
       "es-a1-quiz-greetings-and-farewells": {
         "title": "问候与告别测验",
-        "intro": ["", ""]
-      },
-      "es-a1-learn-certification-introduction": {
-        "title": "认证简介",
-        "intro": ["", ""]
-      },
-      "es-a1-learn-alphabet-and-accents": {
-        "title": "字母表和重音符号",
-        "intro": ["", ""]
-      },
-      "es-a1-learn-punctuation": { "title": "标点符号", "intro": ["", ""] },
-      "es-a1-quiz-spanish-fundamentals": {
-        "title": "西班牙语基础测验",
         "intro": ["", ""]
       },
       "es-a1-warm-up-introducing-yourself-basics": {
@@ -7735,19 +7780,6 @@
       },
       "es-a1-quiz-first-questions": {
         "title": "初步提问测验",
-        "intro": ["", ""]
-      },
-      "es-a1-learn-vowels": { "title": "元音", "intro": ["", ""] },
-      "es-a1-learn-consonants-and-special-characters": {
-        "title": "辅音和特殊字符",
-        "intro": ["", ""]
-      },
-      "es-a1-review-spanish-fundamentals": {
-        "title": "西班牙语基础复习",
-        "intro": ["", ""]
-      },
-      "es-a1-practice-the-alphabet": {
-        "title": "西班牙语字母表练习",
         "intro": ["", ""]
       },
       "es-a1-warm-up-remember-first-numbers": {
@@ -7794,20 +7826,8 @@
         "title": "分享你的个人信息测验",
         "intro": ["", ""]
       },
-      "es-a1-learn-the-first-ten-numbers": {
-        "title": "前十个数字",
-        "intro": ["", ""]
-      },
-      "es-a1-practice-the-first-ten-numbers": {
-        "title": "前十个数字练习",
-        "intro": ["", ""]
-      },
       "es-a1-learn-numbers-30-to-60": {
         "title": "数字 30 到 60",
-        "intro": ["", ""]
-      },
-      "es-a1-warm-up-describing-a-company-basics": {
-        "title": "描述公司的基础知识",
         "intro": ["", ""]
       },
       "es-a1-learn-numbers-61-to-100": {
@@ -7826,8 +7846,16 @@
         "title": "数字 30 到 100 测验",
         "intro": ["", ""]
       },
+      "es-a1-warm-up-describing-a-company-basics": {
+        "title": "描述公司的基础知识",
+        "intro": ["", ""]
+      },
       "es-a1-learn-what-the-company-does": {
         "title": "公司的业务",
+        "intro": ["", ""]
+      },
+      "es-a1-practice-what-departments-do": {
+        "title": "部门的职责",
         "intro": ["", ""]
       },
       "es-a1-learn-asking-about-a-company": {
@@ -7854,6 +7882,10 @@
         "title": "简短传记",
         "intro": ["", ""]
       },
+      "es-a1-learn-talking-about-colleagues": {
+        "title": "谈论同事",
+        "intro": ["", ""]
+      },
       "es-a1-practice-asking-about-mini-biographies": {
         "title": "询问简短传记",
         "intro": ["", ""]
@@ -7872,14 +7904,6 @@
       },
       "es-a1-quiz-describing-people-at-work": {
         "title": "描述工作中的人测验",
-        "intro": ["", ""]
-      },
-      "es-a1-learn-talking-about-colleagues": {
-        "title": "谈论同事",
-        "intro": ["", ""]
-      },
-      "es-a1-practice-what-departments-do": {
-        "title": "部门的职责",
         "intro": ["", ""]
       }
     }
@@ -7960,7 +7984,7 @@
       "lecture-understanding-the-html-boilerplate": {
         "title": "理解超文本标记语言公式化",
         "intro": [
-          "在这些讲座中，你将学习超文本标记语言公式化，它是网页的现成模板。",
+          "在这些讲座中，你将学习 HTML 公式化模板，它是网页的现成模板。",
           "你将学习如何使用 <code>link</code> 元素、<code>meta</code> 元素等。"
         ]
       },
@@ -7998,7 +8022,7 @@
       "lab-travel-agency-page": {
         "title": "创建旅行社页面",
         "intro": [
-          "在本实验中，你将通过创建一个旅行社网页来复习超文本标记语言基础。你将使用图像、<code>figure</code>元素、<code>figcaption</code>元素、<code>anchor</code>元素等。"
+          "在本实验中，你将通过创建一个旅行社网页，复习 HTML 基础。你将使用图像、<code>figure</code> 元素、<code>figcaption</code> 元素、<code>a</code> 元素等。"
         ]
       },
       "lecture-working-with-audio-and-video-elements": {
@@ -8036,13 +8060,13 @@
       "workshop-build-a-heart-icon": {
         "title": "创建心形图标",
         "intro": [
-          "在本工作坊中，你将通过创建一个心形图标来练习使用 SVG。"
+          "在本工作坊中，你将通过构建一个心形图标，练习使用 SVG。"
         ]
       },
       "lecture-working-with-media": {
         "title": "使用 iframe 元素",
         "intro": [
-          "在这些讲座中，你将学习如何使用<code>iframe</code>元素，该元素用于在网页中嵌入外部网站。"
+          "在这些讲座中，你将学习如何使用 <code>iframe</code> 元素，它用于在网页中嵌入外部网站。"
         ]
       },
       "workshop-build-a-video-display-using-iframe": {
@@ -8060,7 +8084,7 @@
       "lecture-working-with-links": {
         "title": "使用链接",
         "intro": [
-          "在这些讲座中，你将学习链接、<code>target</code>属性、不同的链接状态、绝对路径和相对路径等内容。"
+          "在这些讲座中，你将学习链接、<code>target</code> 属性、不同的链接状态、绝对路径和相对路径等内容。"
         ]
       },
       "review-basic-html": {
@@ -8086,7 +8110,7 @@
       "lecture-understanding-nuanced-semantic-elements": {
         "title": "理解细微的语义元素",
         "intro": [
-          "在这些讲座中，你将学习何时使用某些语义元素，如使用<code>em</code>元素而非<code>i</code>元素、描述列表等。"
+          "在这些讲座中，你将学习何时使用 <code>em</code> 元素替代 <code>i</code> 元素。你还将了解描述列表和其他语义 HTML 元素。"
         ]
       },
       "workshop-major-browsers-list": {
@@ -8110,7 +8134,7 @@
       "lecture-working-with-specialized-semantic-elements": {
         "title": "使用特化语义元素",
         "intro": [
-          "在本讲座中，你将学习特化语义元素，如<code>u</code>、<code>s</code>、<code>code</code>元素等。"
+          "在本讲座中，你将学习诸如 <code>u</code>、<code>s</code>、<code>code</code> 等专用语义元素。"
         ]
       },
       "workshop-blog-page": {
@@ -8322,7 +8346,7 @@
       "lecture-what-is-css": {
         "title": "什么是CSS？",
         "intro": [
-          "以下讲座全部关于CSS。你将学习CSS是什么及其在网页中的作用，CSS规则及其结构，三种编写CSS的方法及使用时机，内联和块元素等内容。"
+          "以下讲座全部关于 CSS。你将学习 CSS 是什么及其在网页中的作用，CSS 规则及其结构，三种书写 CSS 的方式及其使用时机，内联和块元素，以及更多内容。"
         ]
       },
       "workshop-cafe-menu": {
@@ -8995,18 +9019,6 @@
       "zh-a1-module-discussing-team-skills": "讨论团队技能"
     },
     "module-intros": {
-      "zh-a1-module-introducing-others": {
-        "note": "2026 年推出",
-        "intro": [
-          "在本模块中，你将练习理解介绍他人信息的简短独白，如姓名、角色、国籍和年龄。"
-        ]
-      },
-      "zh-a1-module-getting-to-know-the-team": {
-        "note": "2026 年推出",
-        "intro": [
-          "在本模块中，你将练习理解一段关于同事的简单问答对话。"
-        ]
-      },
       "zh-a1-module-communicating-personal-information": {
         "note": "2026 年推出",
         "intro": [
@@ -9044,6 +9056,14 @@
         "title": "鼻韵母",
         "intro": ["", ""]
       },
+      "zh-a1-learn-special-spelling-rules": {
+        "title": "特殊拼写规则",
+        "intro": ["", ""]
+      },
+      "zh-a1-practice-pinyin": {
+        "title": "拼音练习",
+        "intro": ["", ""]
+      },
       "zh-a1-warm-up-greeting-new-colleagues": {
         "title": "迎接新同事",
         "intro": ["", ""]
@@ -9064,20 +9084,12 @@
         "title": "问候和介绍测验",
         "intro": ["", ""]
       },
+      "zh-a1-warm-up-meeting-new-teammates": {
+        "title": "认识新队友",
+        "intro": ["", ""]
+      },
       "zh-a1-learn-understanding-questions-and-answers": {
         "title": "理解问题与答案",
-        "intro": ["", ""]
-      },
-      "zh-a1-practice-exchanging-basic-information": {
-        "title": "交换基本信息",
-        "intro": ["", ""]
-      },
-      "zh-a1-review-introduction-questions": {
-        "title": "介绍问题复习",
-        "intro": ["", ""]
-      },
-      "zh-a1-quiz-introduction-questions": {
-        "title": "介绍问题测验",
         "intro": ["", ""]
       },
       "zh-a1-warm-up-introducing-others-basics": {
@@ -9125,6 +9137,50 @@
         "title": "团队介绍测验",
         "intro": ["", ""]
       },
+      "zh-a1-practice-exchanging-basic-information": {
+        "title": "交换基本信息",
+        "intro": ["", ""]
+      },
+      "zh-a1-review-introduction-questions": {
+        "title": "介绍问题复习",
+        "intro": ["", ""]
+      },
+      "zh-a1-quiz-introduction-questions": {
+        "title": "介绍问题测验",
+        "intro": ["", ""]
+      },
+      "zh-a1-learn-numbers-0-to-10": {
+        "title": "数字 0 到 10",
+        "intro": ["", ""]
+      },
+      "zh-a1-practice-numbers-0-to-10": {
+        "title": "数字 0 到 10 练习",
+        "intro": ["", ""]
+      },
+      "zh-a1-learn-numbers-11-to-19": {
+        "title": "数字 11 到 19",
+        "intro": ["", ""]
+      },
+      "zh-a1-practice-numbers-11-to-19": {
+        "title": "数字 11 到 19 练习",
+        "intro": ["", ""]
+      },
+      "zh-a1-learn-numbers-20-to-99": {
+        "title": "数字 20 到 99",
+        "intro": ["", ""]
+      },
+      "zh-a1-practice-numbers-20-to-99": {
+        "title": "数字 20 到 99 练习",
+        "intro": ["", ""]
+      },
+      "zh-a1-review-numbers-below-100": {
+        "title": "100 以下数字复习",
+        "intro": ["", ""]
+      },
+      "zh-a1-quiz-numbers-below-100": {
+        "title": "100 以下数字测验",
+        "intro": ["", ""]
+      },
       "zh-a1-warm-up-personal-skills-basics": {
         "title": "个人技能基础",
         "intro": ["", ""]
@@ -9163,50 +9219,6 @@
       },
       "zh-a1-quiz-discussing-team-skills": {
         "title": "讨论团队技能测验",
-        "intro": ["", ""]
-      },
-      "zh-a1-warm-up-meeting-new-teammates": {
-        "title": "认识新队友",
-        "intro": ["", ""]
-      },
-      "zh-a1-learn-special-spelling-rules": {
-        "title": "特殊拼写规则",
-        "intro": ["", ""]
-      },
-      "zh-a1-practice-pinyin": {
-        "title": "拼音练习",
-        "intro": ["", ""]
-      },
-      "zh-a1-learn-numbers-0-to-10": {
-        "title": "数字 0 到 10",
-        "intro": ["", ""]
-      },
-      "zh-a1-practice-numbers-0-to-10": {
-        "title": "数字 0 到 10 练习",
-        "intro": ["", ""]
-      },
-      "zh-a1-learn-numbers-11-to-19": {
-        "title": "数字 11 到 19",
-        "intro": ["", ""]
-      },
-      "zh-a1-practice-numbers-11-to-19": {
-        "title": "数字 11 到 19 练习",
-        "intro": ["", ""]
-      },
-      "zh-a1-learn-numbers-20-to-99": {
-        "title": "数字 20 到 99",
-        "intro": ["", ""]
-      },
-      "zh-a1-practice-numbers-20-to-99": {
-        "title": "数字 20 到 99 练习",
-        "intro": ["", ""]
-      },
-      "zh-a1-review-numbers-below-100": {
-        "title": "100 以下数字复习",
-        "intro": ["", ""]
-      },
-      "zh-a1-quiz-numbers-below-100": {
-        "title": "100 以下数字测验",
         "intro": ["", ""]
       }
     }
@@ -9332,7 +9344,7 @@
       "lecture-working-with-media": {
         "title": "使用 iframe 元素",
         "intro": [
-          "在这些讲座中，你将学习如何使用 <code>iframe</code> 元素，该元素用于在网页中嵌入外部网站。"
+          "在这些讲座中，你将学习如何使用 <code>iframe</code> 元素，它用于在网页中嵌入外部网站。"
         ]
       },
       "workshop-build-a-video-display-using-iframe": {
@@ -9387,7 +9399,7 @@
       "lecture-understanding-nuanced-semantic-elements": {
         "title": "理解细微的语义元素",
         "intro": [
-          "在这些讲座中，你将学习何时使用某些语义元素，例如使用 <code>em</code> 元素而非 <code>i</code> 元素、描述列表等。"
+          "在这些讲座中，你将学习何时使用 <code>em</code> 元素替代 <code>i</code> 元素。你还将了解描述列表和其他语义 HTML 元素。"
         ]
       },
       "workshop-major-browsers-list": {
@@ -9411,7 +9423,7 @@
       "lecture-working-with-specialized-semantic-elements": {
         "title": "使用特化语义元素",
         "intro": [
-          "在本讲座中，你将学习特化语义元素，如 <code>u</code>、<code>s</code>、<code>code</code> 元素等。"
+          "在本讲座中，你将学习诸如 <code>u</code>、<code>s</code>、<code>code</code> 等专用语义元素。"
         ]
       },
       "workshop-blog-page": {
@@ -9590,7 +9602,7 @@
       "lecture-what-is-css": {
         "title": "什么是 CSS？",
         "intro": [
-          "以下课程全部关于 CSS。你将学习 CSS 是什么及其在网页中的作用，CSS 规则及其结构，三种编写 CSS 的方式及其使用时机，内联和块元素等内容。"
+          "以下课程全部关于 CSS。你将学习 CSS 是什么及其在网页中的作用，CSS 规则及其结构，三种书写 CSS 的方式及其使用时机，内联和块元素，以及更多内容。"
         ]
       },
       "workshop-cafe-menu": {
@@ -10394,5 +10406,235 @@
     "enable-cookies": "开始之前，你必须启用第三方 cookies。",
     "english-only": "本节课程仅提供英文版本。目前我们只能翻译标题和介绍，课程内容暂未翻译。",
     "exam-english-only": "请注意，认证考试目前仅提供英文版本。其他课程则有部分语言版本。"
+  },
+  "algorithms-and-data-structure": {
+    "title": "算法与数据结构认证",
+    "intro": [
+      "本课程涵盖 Python 中的数据结构和算法。",
+      "完成必修项目并通过考试，即可获得算法与数据结构认证。"
+    ],
+    "chapters": {
+      "algorithms-and-data-structure": "算法与数据结构"
+    },
+    "modules": {
+      "python-linear-data-structures": "线性数据结构",
+      "lab-hash-table": "构建哈希表",
+      "python-recursion": "递归",
+      "python-algorithms": "算法",
+      "lab-tower-of-hanoi": "实现河内塔算法",
+      "python-graphs-and-trees": "图和树",
+      "python-dynamic-programming": "动态规划",
+      "review-python": "Python 复习"
+    },
+    "module-intros": {
+      "python-recursion": {
+        "intro": [
+          "在本模块中，你将学习递归和调用栈在 Python 中的工作原理。"
+        ]
+      }
+    },
+    "blocks": {
+      "lecture-working-with-common-data-structures": {
+        "title": "使用常见数据结构",
+        "intro": [
+          "在这些课程中，学习如何使用常见数据结构。"
+        ]
+      },
+      "workshop-linked-list-class": {
+        "title": "构建链表",
+        "intro": [
+          "在本工作坊中，你将通过构建链表，练习使用数据结构。"
+        ]
+      },
+      "review-data-structures": {
+        "title": "数据结构复习",
+        "intro": [
+          "在进行数据结构测验前，你应该复习所学内容。",
+          "打开此页面，复习不同数据结构、算法、时间和空间复杂度以及大 O 表示法等概念。"
+        ]
+      },
+      "quiz-data-structures": {
+        "title": "数据结构测验",
+        "intro": [
+          "通过本测验测试你对 Python 中数据结构的理解。"
+        ]
+      },
+      "lab-hash-table": {
+        "title": "构建哈希表",
+        "intro": [
+          "哈希表是一种用于存储键值对的数据结构，优化了快速查找。",
+          "在本实验中，你将利用数据结构知识构建哈希表。"
+        ]
+      },
+      "lecture-understanding-recursion-and-the-call-stack-python": {
+        "title": "理解递归和调用栈",
+        "intro": [
+          "在本讲座中，你将学习递归函数和调用栈在 Python 中的工作原理。"
+        ]
+      },
+      "workshop-countup-python": {
+        "title": "构建计数函数",
+        "intro": [
+          "在本工作坊中，你将构建一个使用递归生成数字列表的函数。"
+        ]
+      },
+      "lab-range-of-numbers-python": {
+        "title": "构建数字范围生成器",
+        "intro": [
+          "在本实验中，你将使用递归生成指定范围内的数字列表。"
+        ]
+      },
+      "review-recursion-python": {
+        "title": "递归复习",
+        "intro": [
+          "复习递归、基本情形和调用栈的概念。"
+        ]
+      },
+      "quiz-recursion-python": {
+        "title": "递归测验",
+        "intro": [
+          "测试你对递归、基本情形和调用栈的理解。"
+        ]
+      },
+      "lecture-searching-and-sorting-algorithms": {
+        "title": "查找和排序算法",
+        "intro": [
+          "学习基础的查找和排序算法，包括线性查找、二分查找和归并排序。",
+          "这些课程涵盖算法实现、时间和空间复杂度分析，以及分治编程范式。"
+        ]
+      },
+      "workshop-binary-search": {
+        "title": "实现二分查找算法",
+        "intro": [
+          "二分查找算法是一种用于在有序列表中查找目标项的查找算法。",
+          "在本工作坊中，你将实现二分查找算法，并返回查找路径或返回“未找到值”。"
+        ]
+      },
+      "lab-bisection-method": {
+        "title": "实现二分法",
+        "intro": [
+          "在本实验中，你将实现二分法来求一个数的平方根。"
+        ]
+      },
+      "workshop-merge-sort": {
+        "title": "实现归并排序算法",
+        "intro": [
+          "归并排序算法是一种基于分治原则的排序算法。",
+          "在本工作坊中，你将实现归并排序算法，对随机数字列表进行排序。"
+        ]
+      },
+      "lab-quicksort": {
+        "title": "实现快速排序算法",
+        "intro": [
+          "在本实验中，你将实现快速排序算法，对整数列表进行排序。"
+        ]
+      },
+      "lab-selection-sort": {
+        "title": "实现选择排序算法",
+        "intro": [
+          "在本实验中，你将实现选择排序算法。"
+        ]
+      },
+      "lab-luhn-algorithm": {
+        "title": "实现 Luhn 算法",
+        "intro": [
+          "在本实验中，你将实现 Luhn 算法来验证身份证号码，如信用卡号码。"
+        ]
+      },
+      "review-searching-and-sorting-algorithms": {
+        "title": "查找和排序算法复习",
+        "intro": [
+          "在你参加查找和排序算法测验之前，应先复习你所学的内容。"
+        ]
+      },
+      "quiz-searching-and-sorting-algorithms": {
+        "title": "查找和排序算法测验",
+        "intro": [
+          "通过本测验测试你对 Python 中查找和排序算法的掌握。"
+        ]
+      },
+      "lab-tower-of-hanoi": {
+        "title": "实现汉诺塔算法",
+        "intro": [
+          "在本实验中，你将实现一个算法来解决汉诺塔难题。"
+        ]
+      },
+      "lecture-understanding-graphs-and-trees": {
+        "title": "理解图和树",
+        "intro": [
+          "在本课中，你将学习图、树等基础数据结构及其在计算机科学中的实际应用。"
+        ]
+      },
+      "workshop-shortest-path-algorithm": {
+        "title": "实现最短路径算法",
+        "intro": [
+          "在本工作坊中，你将实现一个算法来查找图中两个节点之间的最短路径。"
+        ]
+      },
+      "lab-adjacency-list-to-matrix-converter": {
+        "title": "构建邻接表到矩阵转换器",
+        "intro": [
+          "在本实验中，你将实现一个函数，将图的邻接表表现形式转换为邻接矩阵表现形式。"
+        ]
+      },
+      "workshop-breadth-first-search": {
+        "title": "实现广度优先搜索算法",
+        "intro": [
+          "在本工作坊中，你将使用广度优先搜索算法生成所有有效的括号组合。"
+        ]
+      },
+      "lab-depth-first-search": {
+        "title": "实现深度优先搜索算法",
+        "intro": [
+          "在本实验中，你将实现深度优先搜索算法。"
+        ]
+      },
+      "lab-n-queens-problem": {
+        "title": "实现 N 皇后算法",
+        "intro": [
+          "在本实验中，你将实现 N 皇后问题的解决方案。"
+        ]
+      },
+      "review-graphs-and-trees": {
+        "title": "图和树复习",
+        "intro": [
+          "在你参加图和树的测验之前，应先复习你所学的内容。"
+        ]
+      },
+      "quiz-graphs-and-trees": {
+        "title": "图和树测验",
+        "intro": [
+          "通过本测验测试你对 Python 中图和树的掌握。"
+        ]
+      },
+      "lecture-understanding-dynamic-programming": {
+        "title": "理解动态规划",
+        "intro": [
+          "在本课中，你将学习动态规划，这是一种通过将复杂问题分解为更简单子问题来高效解决问题的算法技术。"
+        ]
+      },
+      "lab-nth-fibonacci-number": {
+        "title": "构建第 N 个斐波那契数计算器",
+        "intro": [
+          "在本实验中，你将使用动态规划方法实现斐波那契数列计算器。"
+        ]
+      },
+      "review-dynamic-programming": {
+        "title": "动态规划复习",
+        "intro": [
+          "在你参加动态规划测验之前，应先复习你所学的内容。"
+        ]
+      },
+      "quiz-dynamic-programming": {
+        "title": "动态规划测验",
+        "intro": [
+          "通过本测验测试你对 Python 中动态规划的掌握。"
+        ]
+      },
+      "review-python": {
+        "title": "Python 复习",
+        "intro": ["复习 Python 概念，为即将到来的考试做准备。"]
+      }
+    }
   }
 }

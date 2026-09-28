@@ -17,7 +17,7 @@ Ikiwa kuna seti mbili za vitu na ikiwa kitu chochote kiko katika seti yoyote ya 
 
 Ikiwa kuna seti N za vitu ambapo N > 2 basi matokeo ni sawa na kubadilisha mara kwa mara mchanganyiko wote wa seti mbili kwa muungano wao hadi muungano zaidi kati ya jozi za seti hauwezekani tena. Ikiwa N &lt; 2 basi muungano haina maana kali na ingizo linaweza kurudishwa kama lilivyo.
 
-Hapa kuna mifano:
+Hapa kuna mifano kadhaa:
 
 **Mfano 1:**
 

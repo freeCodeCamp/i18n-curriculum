@@ -7,11 +7,11 @@ dashedName: step-11
 
 # --description--
 
-フォームの後に、検索結果を表示する`div`要素を、`id`の`results`で追加してください。
+`form`要素の後に、検索結果を表示する`id`が`results`の`div`要素を追加してください。
 
 # --hints--
 
-フォームの後に、`div`の`id`を持つ`results`要素があるはずです。
+`form`要素の後に`id`が`results`の`div`要素があるはずです。
 
 ```js
 const searchContainer = document.getElementById("search-container");

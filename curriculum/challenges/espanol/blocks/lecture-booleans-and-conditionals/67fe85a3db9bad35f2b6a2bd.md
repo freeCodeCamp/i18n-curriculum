@@ -1,6 +1,6 @@
 ---
 id: 67fe85a3db9bad35f2b6a2bd
-title: ¿Cómo funcionan las declaraciones condicionales y los operadores lógicos?
+title: Cómo funcionan las sentencias condicionales y los operadores de comparación
 challengeType: 19
 dashedName: how-do-conditional-statements-and-logical-operators-work
 ---
@@ -12,6 +12,8 @@ Las declaraciones condicionales, o condicionales, te permiten controlar el flujo
 Pero, antes de entrar en todo eso, repasemos los bloques de construcción básicos de las declaraciones condicionales, comenzando con los operadores de comparación. Los operadores de comparación son operadores que te permiten comparar dos o más valores y devolver un valor booleano.
 
 En una lección anterior, aprendiste que los booleanos son uno de los tipos de datos en Python, y solo pueden ser `True` o `False`.
+
+## Uso de operadores de comparación
 
 Aquí hay una tabla con los operadores de comparación en Python:
 
@@ -35,6 +37,8 @@ print(3 != 4) # True
 print(3 >= 4) # False
 print(3 <= 4) # True
 ```
+
+## Uso de sentencias `if`
 
 Estos operadores se pueden usar en condicionales para comparar valores y ejecutar cierto código basado en si el condicional evalúa a `True` o `False`.
 
@@ -86,6 +90,8 @@ if age >= 18:
     print('You are an adult') # Nothing shows up in the terminal
 ```
 
+## Agregar una cláusula `else`
+
 Pero, ¿qué pasa si también quieres imprimir algo si `age` es menor que `18`? Ahí es donde entra la cláusula `else`. La cláusula `else` se ejecuta cuando la condición `if` es falsa. Aquí está la sintaxis para una sentencia `if…else`:
 
 ```python
@@ -118,7 +124,9 @@ else: # SyntaxError: invalid syntax
     print('You are not an adult yet')
 ```
 
-Puede haber situaciones en las que quieras tener en cuenta múltiples condiciones. Para hacer eso, Python te permite extender tu declaración si con la palabra clave `elif` (else if).
+## Agregar cláusulas `elif`
+
+Puede haber situaciones en las que quieras considerar múltiples condiciones. Para eso, Python te permite extender tu sentencia `if` con la palabra clave `elif` (else if).
 
 Aquí está la sintaxis:
 
@@ -163,7 +171,7 @@ else:
     print('You are a toddler or an infant') # You are a toddler or an infant
 ```
 
-Ahora que entiendes cómo funcionan los operadores de comparación y las declaraciones condicionales en Python, puedes empezar a escribir programas que tomen decisiones basadas en la lógica y la entrada. Ya sea comparando valores o bifurcándose a través de múltiples condiciones, estas herramientas son la base para escribir código flexible y sensible.
+Ahora que entiendes cómo funcionan los operadores de comparación y las sentencias condicionales en Python, puedes empezar a escribir programas que tomen decisiones basadas en lógica y entrada. Ya sea que estés comparando valores o ramificando entre múltiples condiciones, estas herramientas son la base para escribir código flexible y adaptable.
 
 # --questions--
 

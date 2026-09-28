@@ -833,12 +833,32 @@
           "このプロジェクトを通じて、数値計算や文字列操作の経験を積みます。"
         ]
       },
+      "learn-lambda-functions-by-building-an-expense-tracker": {
+        "title": "支出管理アプリを作ってラムダ関数を学ぶ",
+        "intro": [
+          "ラムダ関数は、小さく使い捨ての関数を簡潔に書く方法を提供します。",
+          "このプロジェクトでは、支出管理アプリを作りながらラムダ関数の力を探求し、効率的でシンプルな操作にラムダ関数を使う方法を示します。"
+        ]
+      },
       "learn-list-comprehension-by-building-a-case-converter-program": {
         "title": "ケース変換プログラムを作ってPythonのリスト内包表記を学ぶ",
         "intro": [
           "リスト内包表記は、forループや<code>.append()</code>メソッドを使わずに、リスト、タプル、文字列などのイテラブルから新しいPythonリストを作る方法です。",
           "このプロジェクトでは、キャメルケースやパスカルケースで書かれた文字列をスネークケースに変換するプログラムを書きます。",
           "プロジェクトは2段階で、最初にforループを使って実装し、その後リスト内包表記を使って同じ結果を得る方法を学びます。"
+        ]
+      },
+      "learn-the-bisection-method-by-finding-the-square-root-of-a-number": {
+        "title": "数の平方根を求めて二分法を学ぶ",
+        "intro": [
+          "数値計算法は、解析的に解くのが難しいまたは不可能な数学問題の近似解を求めるために使われます。",
+          "このプロジェクトでは、二分法という数値計算法を使って、平方根を含む可能性のある値の範囲を反復的に絞り込みながら平方根を求めます。"
+        ]
+      },
+      "build-an-arithmetic-formatter-project": {
+        "title": "算術フォーマッターのプロジェクトを作る",
+        "intro": [
+          "これは認定取得に必要なプロジェクトの一つです。"
         ]
       },
       "learn-regular-expressions-by-building-a-password-generator": {
@@ -869,6 +889,12 @@
           "このプロジェクトでは、マージソートアルゴリズムを使ってランダムな数値のリストをソートし、データ構造とのやり取りを学びます。"
         ]
       },
+      "build-a-time-calculator-project": {
+        "title": "時間計算機のプロジェクトを作る",
+        "intro": [
+          "これは認定取得に必要なプロジェクトの一つです。"
+        ]
+      },
       "learn-classes-and-objects-by-building-a-sudoku-solver": {
         "title": "数独ソルバーを作ってクラスとオブジェクトを学ぶ",
         "intro": [
@@ -883,48 +909,10 @@
           "このプロジェクトでは、自分でBSTを構築し、中順走査を行う方法を学びます。また、挿入、検索、削除などの主要な操作も学びます。"
         ]
       },
-      "learn-lambda-functions-by-building-an-expense-tracker": {
-        "title": "支出管理アプリを作ってラムダ関数を学ぶ",
-        "intro": [
-          "ラムダ関数は、小さく使い捨ての関数を簡潔に書く方法を提供します。",
-          "このプロジェクトでは、支出管理アプリを作りながらラムダ関数の力を探求し、効率的でシンプルな操作にラムダ関数を使う方法を示します。"
-        ]
-      },
-      "build-an-arithmetic-formatter-project": {
-        "title": "算術フォーマッターのプロジェクトを作る",
-        "intro": [
-          "これは認定取得に必要なプロジェクトの一つです。"
-        ]
-      },
-      "build-a-time-calculator-project": {
-        "title": "時間計算機のプロジェクトを作る",
-        "intro": [
-          "これは認定取得に必要なプロジェクトの一つです。"
-        ]
-      },
       "build-a-budget-app-project": {
         "title": "予算管理アプリのプロジェクトを作る",
         "intro": [
           "これは認定取得に必要なプロジェクトの一つです。"
-        ]
-      },
-      "build-a-polygon-area-calculator-project": {
-        "title": "多角形の面積計算機のプロジェクトを作る",
-        "intro": [
-          "これは認定取得に必要なプロジェクトの一つです。"
-        ]
-      },
-      "build-a-probability-calculator-project": {
-        "title": "確率計算機のプロジェクトを作る",
-        "intro": [
-          "これは認定取得に必要なプロジェクトの一つです。"
-        ]
-      },
-      "learn-interfaces-by-building-an-equation-solver": {
-        "title": "方程式ソルバーを作ってインターフェースを学ぶ",
-        "intro": [
-          "抽象クラスは正式なインターフェースを定義でき、クラスの設計図として機能します。",
-          "このプロジェクトでは、Pythonでインターフェースを実装しながらシンプルな方程式ソルバーを作る方法を学びます。"
         ]
       },
       "learn-special-methods-by-building-a-vector-space": {
@@ -934,6 +922,19 @@
           "このプロジェクトでは、ベクトル空間を構築しながら、最も一般的な特殊メソッドのいくつかを探求し、ベクトルについて学びます。"
         ]
       },
+      "learn-interfaces-by-building-an-equation-solver": {
+        "title": "方程式ソルバーを作ってインターフェースを学ぶ",
+        "intro": [
+          "抽象クラスは正式なインターフェースを定義でき、クラスの設計図として機能します。",
+          "このプロジェクトでは、Pythonでインターフェースを実装しながらシンプルな方程式ソルバーを作る方法を学びます。"
+        ]
+      },
+      "build-a-polygon-area-calculator-project": {
+        "title": "多角形の面積計算機のプロジェクトを作る",
+        "intro": [
+          "これは認定取得に必要なプロジェクトの一つです。"
+        ]
+      },
       "learn-encapsulation-by-building-a-projectile-trajectory-calculator": {
         "title": "射出体の軌道計算機を作ってカプセル化を学ぶ",
         "intro": [
@@ -941,11 +942,10 @@
           "このプロジェクトでは、ゲッター、セッター、名前マングリングなどカプセル化に関連する新しい概念を発見し、これまでに学んだことと組み合わせて射出体の軌道を計算するプログラムを作成します。"
         ]
       },
-      "learn-the-bisection-method-by-finding-the-square-root-of-a-number": {
-        "title": "数の平方根を求めて二分法を学ぶ",
+      "build-a-probability-calculator-project": {
+        "title": "確率計算機のプロジェクトを作る",
         "intro": [
-          "数値計算法は、解析的に解くのが難しいまたは不可能な数学問題の近似解を求めるために使われます。",
-          "このプロジェクトでは、二分法という数値計算法を使って、平方根を含む可能性のある値の範囲を反復的に絞り込みながら平方根を求めます。"
+          "これは認定取得に必要なプロジェクトの一つです。"
         ]
       }
     }
@@ -1504,7 +1504,7 @@
       "workshop-report-card-printer": {
         "title": "成績表プリンターを作ろう",
         "intro": [
-          "このワークショップでは、Pythonの基本データ型を使って、簡単な成績表のデータを作成し、出力する練習をします。"
+          "このワークショップでは、Pythonの組み込みデータ型を使って、シンプルな成績表のデータを作成し、出力する練習をします。"
         ]
       },
       "lecture-introduction-to-python-strings": {
@@ -1551,6 +1551,12 @@
         "title": "関数とスコープの理解",
         "intro": [
           "これらのレッスンで、Pythonの関数とスコープについて学びます。"
+        ]
+      },
+      "workshop-kitchen-inventory-tracker": {
+        "title": "キッチン在庫管理アプリを作る",
+        "intro": [
+          "このワークショップでは、Pythonの関数とスコープを使ってキッチン在庫管理アプリを作る練習をします。"
         ]
       },
       "lab-discount-calculator": {
@@ -2472,6 +2478,12 @@
           "このラボでは、レコードコレクションを管理する関数を作成します。"
         ]
       },
+      "workshop-artifact-provenance-auditor": {
+        "title": "アーティファクト由来監査ツールを作る",
+        "intro": [
+          "このワークショップでは、博物館のアーティファクトを検索、タグ付け、移動、要約するアーティファクト由来監査ツールを作ります。"
+        ]
+      },
       "review-javascript-objects": {
         "title": "JavaScriptオブジェクトの復習",
         "intro": [
@@ -2505,22 +2517,66 @@
           "このワークショップでは、<code>for...of</code>ループを使って、文字列の配列内で特定の文字列の出現回数を数える関数を作ります。"
         ]
       },
+      "lab-factorial-calculator": {
+        "title": "階乗計算機を作成する",
+        "intro": [
+          "このラボでは、階乗計算機を作成します。",
+          "ループと条件分岐を使って数の階乗を計算する練習をします。"
+        ]
+      },
+      "lab-repeat-a-string": {
+        "title": "文字列繰り返し関数を作成する",
+        "intro": [
+          "このラボでは、指定した回数だけ文字列を繰り返すループを実装します。"
+        ]
+      },
       "workshop-sentence-analyzer": {
         "title": "文章解析器を作成する",
         "intro": [
           "このワークショップでは、JavaScriptのループの使い方を復習しながら文章解析器アプリを作成します。"
         ]
       },
-      "lab-traffic-light-sequencer": {
-        "title": "信号機シーケンサーを作る",
+      "lab-longest-word-in-a-string": {
+        "title": "最長単語検索アプリを作成する",
         "intro": [
-          "このラボでは、JavaScriptのループを使って信号機のシーケンサーを作ります。"
+          "このラボでは、JavaScriptのループを使って与えられた文章の中で最も長い単語の長さを見つけます。"
+        ]
+      },
+      "lab-mutations": {
+        "title": "ミューテーションアルゴリズムを実装する",
+        "intro": [
+          "このラボでは、2つの異なる文字列を繰り返し処理して文字を比較する練習をします。"
+        ]
+      },
+      "lab-missing-letter-detector": {
+        "title": "欠落文字検出器を作成する",
+        "intro": [
+          "このラボでは、連続した文字の範囲内で欠落している文字を見つけて返す関数を作成します。"
+        ]
+      },
+      "lab-profile-lookup": {
+        "title": "プロフィール検索を作成する",
+        "intro": [
+          "このラボでは、プロフィール情報を検索する関数を作成します。"
         ]
       },
       "workshop-space-mission-roster": {
         "title": "宇宙ミッション名簿を作る",
         "intro": [
           "このワークショップでは、JavaScriptのループを活用して宇宙ミッションの名簿を作ります。"
+        ]
+      },
+      "lab-chunky-monkey": {
+        "title": "チャンクモンキーアルゴリズムを実装する",
+        "intro": [
+          "このラボでは、配列を任意の手法で小さな配列に分割する練習をします。"
+        ]
+      },
+      "lab-device-loan-ledger": {
+        "title": "デバイス貸出台帳を作る",
+        "intro": [
+          "このラボでは、会社のサービスデスクが管理するITハードウェアの貸出台帳を作ります。",
+          "ネストされたオブジェクトとJSONを使い、デバイスの貸出・返却の管理、延滞貸出の追跡、JSON文字列とJavaScriptオブジェクトの変換を行う関数を実装する練習をします。"
         ]
       },
       "workshop-heritage-library-catalog": {
@@ -2530,41 +2586,10 @@
           "ループ、オブジェクト、文字列メソッドを使って、生のテキストデータを解析し、エントリーを検索・グループ化し、整形された出力をレンダリングし、JSONやCSVにエクスポートする練習をします。"
         ]
       },
-      "lab-longest-word-in-a-string": {
-        "title": "最長単語検索アプリを作成する",
+      "lab-smart-pantry-restocker": {
+        "title": "スマートパントリー補充プログラムを作る",
         "intro": [
-          "このラボでは、JavaScriptのループを使って与えられた文章の中で最も長い単語の長さを見つけます。"
-        ]
-      },
-      "lab-factorial-calculator": {
-        "title": "階乗計算機を作成する",
-        "intro": [
-          "このラボでは、階乗計算機を作成します。",
-          "ループと条件分岐を使って数の階乗を計算する練習をします。"
-        ]
-      },
-      "lab-mutations": {
-        "title": "ミューテーションアルゴリズムを実装する",
-        "intro": [
-          "このラボでは、2つの異なる文字列を繰り返し処理して文字を比較する練習をします。"
-        ]
-      },
-      "lab-chunky-monkey": {
-        "title": "チャンクモンキーアルゴリズムを実装する",
-        "intro": [
-          "このラボでは、配列を任意の手法で小さな配列に分割する練習をします。"
-        ]
-      },
-      "lab-profile-lookup": {
-        "title": "プロフィール検索を作成する",
-        "intro": [
-          "このラボでは、プロフィール情報を検索する関数を作成します。"
-        ]
-      },
-      "lab-repeat-a-string": {
-        "title": "文字列繰り返し関数を作成する",
-        "intro": [
-          "このラボでは、指定した回数だけ文字列を繰り返すループを実装します。"
+          "このラボでは、配列、オブジェクト、ループ、条件分岐などの基本的なJavaScriptの概念を使って、小さなパントリー管理プログラムを作ります。"
         ]
       },
       "workshop-festival-crowd-flow-simulator": {
@@ -2573,16 +2598,10 @@
           "このワークショップでは、JavaScriptを使って音楽フェスティバルの参加者の流れをシミュレーションします。"
         ]
       },
-      "lab-missing-letter-detector": {
-        "title": "欠落文字検出器を作成する",
+      "lab-traffic-light-sequencer": {
+        "title": "信号機シーケンサーを作る",
         "intro": [
-          "このラボでは、連続した文字の範囲内で欠落している文字を見つけて返す関数を作成します。"
-        ]
-      },
-      "lab-smart-pantry-restocker": {
-        "title": "スマートパントリー補充プログラムを作る",
-        "intro": [
-          "このラボでは、配列、オブジェクト、ループ、条件分岐などの基本的なJavaScriptの概念を使って、小さなパントリー管理プログラムを作ります。"
+          "このラボでは、JavaScriptのループを使って信号機のシーケンサーを作ります。"
         ]
       },
       "lab-proofreading-tool": {
@@ -4924,6 +4943,12 @@
           "このラボでは、レコードコレクションを管理する関数を作ります。"
         ]
       },
+      "workshop-artifact-provenance-auditor": {
+        "title": "アーティファクト由来監査ツールを作る",
+        "intro": [
+          "このワークショップでは、博物館のアーティファクトを検索、タグ付け、移動、要約するアーティファクト由来監査ツールを作ります。"
+        ]
+      },
       "review-javascript-objects": {
         "title": "JavaScriptオブジェクトの復習",
         "intro": [
@@ -4947,22 +4972,66 @@
           "このワークショップでは、<code>for...of</code>ループを使って、文字列の配列内で特定の文字列が何回出現するかを数える関数を作ります。"
         ]
       },
+      "lab-factorial-calculator": {
+        "title": "階乗計算機を作る",
+        "intro": [
+          "このラボでは、階乗計算機を作ります。",
+          "ループと条件文を使って数の階乗を計算する練習をします。"
+        ]
+      },
+      "lab-repeat-a-string": {
+        "title": "文字列繰り返し関数を作る",
+        "intro": [
+          "このラボでは、ループを使って文字列を指定回数繰り返す関数を実装します。"
+        ]
+      },
       "workshop-sentence-analyzer": {
         "title": "文章解析ツールを作る",
         "intro": [
           "このワークショップでは、JavaScriptのループの操作を復習しながら文章解析アプリを作ります。"
         ]
       },
-      "lab-traffic-light-sequencer": {
-        "title": "信号機シーケンサーを作る",
+      "lab-longest-word-in-a-string": {
+        "title": "最長単語検索アプリを作る",
         "intro": [
-          "このラボでは、JavaScriptのループを使って信号機のシーケンサーを作ります。"
+          "このラボでは、JavaScriptのループを使って与えられた文章の中で最も長い単語の長さを見つけます。"
+        ]
+      },
+      "lab-mutations": {
+        "title": "ミューテーションアルゴリズムを実装する",
+        "intro": [
+          "このラボでは、2つの異なる文字列を繰り返し処理して文字を比較する練習をします。"
+        ]
+      },
+      "lab-missing-letter-detector": {
+        "title": "欠落文字検出器を作る",
+        "intro": [
+          "このラボでは、連続した文字の範囲で欠落している文字を見つけて返す関数を作ります。"
+        ]
+      },
+      "lab-profile-lookup": {
+        "title": "プロフィール検索を作る",
+        "intro": [
+          "このラボでは、プロフィール情報を検索する関数を作ります。"
         ]
       },
       "workshop-space-mission-roster": {
         "title": "宇宙ミッション名簿を作る",
         "intro": [
           "このワークショップでは、JavaScriptのループを活用して宇宙ミッションの名簿を作ります。"
+        ]
+      },
+      "lab-chunky-monkey": {
+        "title": "チャンクモンキーアルゴリズムを実装する",
+        "intro": [
+          "このラボでは、配列を任意の手法で小さな配列に分割する練習をします。"
+        ]
+      },
+      "lab-device-loan-ledger": {
+        "title": "デバイス貸出台帳を作る",
+        "intro": [
+          "このラボでは、会社のサービスデスクが管理するITハードウェアの貸出台帳を作ります。",
+          "ネストされたオブジェクトとJSONを使い、デバイスの貸出・返却の管理、延滞貸出の追跡、JSON文字列とJavaScriptオブジェクトの変換を行う関数を実装する練習をします。"
         ]
       },
       "workshop-heritage-library-catalog": {
@@ -4972,41 +5041,10 @@
           "ループ、オブジェクト、文字列メソッドを使って生データを解析し、エントリーの検索・グループ化、整形された出力のレンダリング、JSONやCSVへのエクスポートを練習します。"
         ]
       },
-      "lab-longest-word-in-a-string": {
-        "title": "最長単語検索アプリを作る",
+      "lab-smart-pantry-restocker": {
+        "title": "スマートパントリー補充プログラムを作る",
         "intro": [
-          "このラボでは、JavaScriptのループを使って与えられた文章の中で最も長い単語の長さを見つけます。"
-        ]
-      },
-      "lab-factorial-calculator": {
-        "title": "階乗計算機を作る",
-        "intro": [
-          "このラボでは、階乗計算機を作ります。",
-          "ループと条件文を使って数の階乗を計算する練習をします。"
-        ]
-      },
-      "lab-mutations": {
-        "title": "ミューテーションアルゴリズムを実装する",
-        "intro": [
-          "このラボでは、2つの異なる文字列を繰り返し処理して文字を比較する練習をします。"
-        ]
-      },
-      "lab-chunky-monkey": {
-        "title": "チャンクモンキーアルゴリズムを実装する",
-        "intro": [
-          "このラボでは、配列を任意の手法で小さな配列に分割する練習をします。"
-        ]
-      },
-      "lab-profile-lookup": {
-        "title": "プロフィール検索を作る",
-        "intro": [
-          "このラボでは、プロフィール情報を検索する関数を作ります。"
-        ]
-      },
-      "lab-repeat-a-string": {
-        "title": "文字列繰り返し関数を作る",
-        "intro": [
-          "このラボでは、ループを使って文字列を指定回数繰り返す関数を実装します。"
+          "このラボでは、配列、オブジェクト、ループ、条件分岐などの基本的なJavaScriptの概念を使って、小さなパントリー管理プログラムを作ります。"
         ]
       },
       "workshop-festival-crowd-flow-simulator": {
@@ -5015,16 +5053,10 @@
           "このワークショップでは、JavaScriptを使って音楽フェスティバルの参加者の流れをシミュレートします。"
         ]
       },
-      "lab-missing-letter-detector": {
-        "title": "欠落文字検出器を作る",
+      "lab-traffic-light-sequencer": {
+        "title": "信号機シーケンサーを作る",
         "intro": [
-          "このラボでは、連続した文字の範囲で欠落している文字を見つけて返す関数を作ります。"
-        ]
-      },
-      "lab-smart-pantry-restocker": {
-        "title": "スマートパントリー補充プログラムを作る",
-        "intro": [
-          "このラボでは、配列、オブジェクト、ループ、条件分岐などの基本的なJavaScriptの概念を使って、小さなパントリー管理プログラムを作ります。"
+          "このラボでは、JavaScriptのループを使って信号機のシーケンサーを作ります。"
         ]
       },
       "lab-proofreading-tool": {
@@ -6024,7 +6056,7 @@
       "lecture-introduction-to-javascript-libraries-and-frameworks": {
         "title": "JavaScriptライブラリとフレームワークの紹介",
         "intro": [
-          "このレッスンでは、JavaScriptライブラリとフレームワークの役割、シングルページアプリケーション（SPA）とその問題点、そして最も人気のあるフロントエンドJavaScriptライブラリであるReactについて紹介します。"
+          "このレッスンでは、JavaScriptのライブラリとフレームワークの概要を学びます。JavaScriptライブラリとフレームワークの役割、シングルページアプリケーション（SPA）とその問題点、そして最も人気のあるフロントエンドJavaScriptライブラリであるReactについて学びます。"
         ]
       },
       "workshop-reusable-mega-navbar": {
@@ -6455,7 +6487,7 @@
       "workshop-bill-splitter": {
         "title": "割り勘計算機を作る",
         "intro": [
-          "このワークショップでは、Pythonの数値と数学的演算を扱う割り勘計算機を作成します。"
+          "このワークショップでは、Pythonで数値と数学演算を扱う練習として、割り勘計算アプリを作ります。"
         ]
       },
       "lecture-booleans-and-conditionals": {
@@ -6480,6 +6512,12 @@
         "title": "関数とスコープの理解",
         "intro": [
           "これらのレッスンでは、Pythonの関数とスコープについて学びます。"
+        ]
+      },
+      "workshop-kitchen-inventory-tracker": {
+        "title": "キッチン在庫管理アプリを作る",
+        "intro": [
+          "このワークショップでは、Pythonの関数とスコープを使ってキッチン在庫管理アプリを作る練習をします。"
         ]
       },
       "lab-discount-calculator": {
@@ -6962,7 +7000,7 @@
       "lecture-working-with-code-editors-and-ides": {
         "title": "コードエディターとIDEの使い方",
         "intro": [
-          "このレッスンでは、コードエディターとIDEの使い方を学びます。最も人気のあるコードエディターであるVS Codeのインストール方法、プロジェクトの作成方法、キーボードショートカット、拡張機能などのさまざまな概念を学びます。"
+          "このレッスンでは、コードエディターとIDEの使い方を学びます。VS Codeのインストール、プロジェクトの作成、キーボードショートカットの使用、拡張機能の活用方法を学びます。"
         ]
       },
       "lecture-understanding-the-command-line-and-working-with-bash": {
@@ -7647,21 +7685,41 @@
       "es-a1-module-describing-a-company": "会社の説明",
       "es-a1-module-describing-people-at-work": "職場の人々の説明"
     },
-    "module-intros": {
-      "es-a1-module-describing-a-company": {
-        "note": "2026年公開予定",
-        "intro": [
-          "このモジュールでは、会社名、ウェブサイト、所在地、従業員数、部署などの基本情報の特定と説明を学びます。"
-        ]
-      },
-      "es-a1-module-describing-people-at-work": {
-        "note": "2026年公開予定",
-        "intro": [
-          "このモジュールでは、三人称の説明と短い会話での簡単な訂正の識別方法を学びます。"
-        ]
-      }
-    },
     "blocks": {
+      "es-a1-learn-certification-introduction": {
+        "title": "認定の導入",
+        "intro": ["", ""]
+      },
+      "es-a1-learn-vowels": { "title": "母音", "intro": ["", ""] },
+      "es-a1-learn-consonants-and-special-characters": {
+        "title": "子音と特殊文字",
+        "intro": ["", ""]
+      },
+      "es-a1-practice-the-alphabet": {
+        "title": "スペイン語アルファベットの練習",
+        "intro": ["", ""]
+      },
+      "es-a1-learn-the-first-ten-numbers": {
+        "title": "最初の10の数字",
+        "intro": ["", ""]
+      },
+      "es-a1-practice-the-first-ten-numbers": {
+        "title": "最初の10の数字練習",
+        "intro": ["", ""]
+      },
+      "es-a1-learn-alphabet-and-accents": {
+        "title": "アルファベットとアクセント",
+        "intro": ["", ""]
+      },
+      "es-a1-learn-punctuation": { "title": "句読点", "intro": ["", ""] },
+      "es-a1-review-spanish-fundamentals": {
+        "title": "スペイン語基礎の復習",
+        "intro": ["", ""]
+      },
+      "es-a1-quiz-spanish-fundamentals": {
+        "title": "スペイン語基礎クイズ",
+        "intro": ["", ""]
+      },
       "es-a1-warm-up-greetings-and-farewells-basics": {
         "title": "挨拶と別れの基本",
         "intro": ["", ""]
@@ -7680,19 +7738,6 @@
       },
       "es-a1-quiz-greetings-and-farewells": {
         "title": "挨拶と別れのクイズ",
-        "intro": ["", ""]
-      },
-      "es-a1-learn-certification-introduction": {
-        "title": "認定の導入",
-        "intro": ["", ""]
-      },
-      "es-a1-learn-alphabet-and-accents": {
-        "title": "アルファベットとアクセント",
-        "intro": ["", ""]
-      },
-      "es-a1-learn-punctuation": { "title": "句読点", "intro": ["", ""] },
-      "es-a1-quiz-spanish-fundamentals": {
-        "title": "スペイン語基礎クイズ",
         "intro": ["", ""]
       },
       "es-a1-warm-up-introducing-yourself-basics": {
@@ -7735,19 +7780,6 @@
       },
       "es-a1-quiz-first-questions": {
         "title": "最初の質問のクイズ",
-        "intro": ["", ""]
-      },
-      "es-a1-learn-vowels": { "title": "母音", "intro": ["", ""] },
-      "es-a1-learn-consonants-and-special-characters": {
-        "title": "子音と特殊文字",
-        "intro": ["", ""]
-      },
-      "es-a1-review-spanish-fundamentals": {
-        "title": "スペイン語基礎の復習",
-        "intro": ["", ""]
-      },
-      "es-a1-practice-the-alphabet": {
-        "title": "スペイン語アルファベットの練習",
         "intro": ["", ""]
       },
       "es-a1-warm-up-remember-first-numbers": {
@@ -7794,20 +7826,8 @@
         "title": "個人情報共有クイズ",
         "intro": ["", ""]
       },
-      "es-a1-learn-the-first-ten-numbers": {
-        "title": "最初の10の数字",
-        "intro": ["", ""]
-      },
-      "es-a1-practice-the-first-ten-numbers": {
-        "title": "最初の10の数字練習",
-        "intro": ["", ""]
-      },
       "es-a1-learn-numbers-30-to-60": {
         "title": "30から60までの数字",
-        "intro": ["", ""]
-      },
-      "es-a1-warm-up-describing-a-company-basics": {
-        "title": "会社の説明の基本",
         "intro": ["", ""]
       },
       "es-a1-learn-numbers-61-to-100": {
@@ -7826,8 +7846,16 @@
         "title": "30から100までの数字クイズ",
         "intro": ["", ""]
       },
+      "es-a1-warm-up-describing-a-company-basics": {
+        "title": "会社の説明の基本",
+        "intro": ["", ""]
+      },
       "es-a1-learn-what-the-company-does": {
         "title": "会社の事業内容",
+        "intro": ["", ""]
+      },
+      "es-a1-practice-what-departments-do": {
+        "title": "部署の役割",
         "intro": ["", ""]
       },
       "es-a1-learn-asking-about-a-company": {
@@ -7854,6 +7882,10 @@
         "title": "ミニ伝記",
         "intro": ["", ""]
       },
+      "es-a1-learn-talking-about-colleagues": {
+        "title": "同僚について話す",
+        "intro": ["", ""]
+      },
       "es-a1-practice-asking-about-mini-biographies": {
         "title": "ミニ伝記について尋ねる",
         "intro": ["", ""]
@@ -7872,14 +7904,6 @@
       },
       "es-a1-quiz-describing-people-at-work": {
         "title": "職場の人の説明クイズ",
-        "intro": ["", ""]
-      },
-      "es-a1-learn-talking-about-colleagues": {
-        "title": "同僚について話す",
-        "intro": ["", ""]
-      },
-      "es-a1-practice-what-departments-do": {
-        "title": "部署の役割",
         "intro": ["", ""]
       }
     }
@@ -7960,7 +7984,7 @@
       "lecture-understanding-the-html-boilerplate": {
         "title": "HTMLボイラープレートの理解",
         "intro": [
-          "この講義では、ウェブページのための既成テンプレートであるHTMLボイラープレートについて学びます。",
+          "この講義では、ウェブページ用の既成テンプレートであるHTMLボイラープレートについて学びます。",
           "<code>link</code>要素、<code>meta</code>要素などの使い方を学びます。"
         ]
       },
@@ -7998,7 +8022,7 @@
       "lab-travel-agency-page": {
         "title": "旅行代理店ページを作成する",
         "intro": [
-          "このラボでは、旅行代理店のウェブページを作成しながらHTMLの基本を復習します。画像、<code>figure</code>要素、<code>figcaption</code>要素、<code>anchor</code>要素などを扱います。"
+          "このラボでは、旅行代理店のウェブページを作成しながらHTMLの基本を復習します。画像、<code>figure</code>要素、<code>figcaption</code>要素、<code>a</code>要素などを扱います。"
         ]
       },
       "lecture-working-with-audio-and-video-elements": {
@@ -8036,13 +8060,13 @@
       "workshop-build-a-heart-icon": {
         "title": "ハートアイコンを作成する",
         "intro": [
-          "このワークショップでは、SVGを使ってハートアイコンを作成する練習をします。"
+          "このワークショップでは、SVGを使ってハートアイコンを作る練習をします。"
         ]
       },
       "lecture-working-with-media": {
         "title": "iframe要素の操作",
         "intro": [
-          "この講義では、ウェブページに外部サイトを埋め込むための<code>iframe</code>要素の使い方を学びます。"
+          "この講義では、外部サイトをウェブページに埋め込むための<code>iframe</code>要素の使い方を学びます。"
         ]
       },
       "workshop-build-a-video-display-using-iframe": {
@@ -8086,7 +8110,7 @@
       "lecture-understanding-nuanced-semantic-elements": {
         "title": "微妙なセマンティック要素の理解",
         "intro": [
-          "この講義では、<code>i</code>要素より<code>em</code>要素を使うべき場合、説明リストなどのセマンティック要素の使い方を学びます。"
+          "この講義では、<code>i</code>要素の代わりに<code>em</code>要素を使う場合について学びます。また、説明リストやその他のセマンティックHTML要素についても学びます。"
         ]
       },
       "workshop-major-browsers-list": {
@@ -8110,7 +8134,7 @@
       "lecture-working-with-specialized-semantic-elements": {
         "title": "専門的なセマンティック要素の操作",
         "intro": [
-          "この講義では、<code>u</code>、<code>s</code>、<code>code</code>要素などの専門的なセマンティック要素について学びます。"
+          "この講義では、<code>u</code>、<code>s</code>、<code>code</code>などの専門的なセマンティック要素について学びます。"
         ]
       },
       "workshop-blog-page": {
@@ -8322,7 +8346,7 @@
       "lecture-what-is-css": {
         "title": "CSSとは何か？",
         "intro": [
-          "以下の講義ではCSSについて学びます。CSSの役割、CSSルールの構造、3つの書き方と使い分け、インラインとブロック要素など多くの内容を扱います。"
+          "以下の講義はすべてCSSについてです。CSSとは何か、そのウェブ上での役割、CSSルールとその構造、CSSの3つの書き方と使い分け、インライン要素とブロック要素などを学びます。"
         ]
       },
       "workshop-cafe-menu": {
@@ -8995,18 +9019,6 @@
       "zh-a1-module-discussing-team-skills": "チームスキルについて話す"
     },
     "module-intros": {
-      "zh-a1-module-introducing-others": {
-        "note": "2026年公開予定",
-        "intro": [
-          "このモジュールでは、名前、役割、国籍、年齢など他者の情報を紹介する短いモノローグの理解を練習します。"
-        ]
-      },
-      "zh-a1-module-getting-to-know-the-team": {
-        "note": "2026年公開予定",
-        "intro": [
-          "このモジュールでは、同僚についての簡単な質問を尋ねたり答えたりする短い会話を理解する練習をします。"
-        ]
-      },
       "zh-a1-module-communicating-personal-information": {
         "note": "2026年公開予定",
         "intro": [
@@ -9044,6 +9056,14 @@
         "title": "鼻音韻尾",
         "intro": ["", ""]
       },
+      "zh-a1-learn-special-spelling-rules": {
+        "title": "特別な綴りのルール",
+        "intro": ["", ""]
+      },
+      "zh-a1-practice-pinyin": {
+        "title": "ピンインの練習",
+        "intro": ["", ""]
+      },
       "zh-a1-warm-up-greeting-new-colleagues": {
         "title": "新しい同僚への挨拶",
         "intro": ["", ""]
@@ -9064,20 +9084,12 @@
         "title": "挨拶と自己紹介のクイズ",
         "intro": ["", ""]
       },
+      "zh-a1-warm-up-meeting-new-teammates": {
+        "title": "新しいチームメイトとの出会い",
+        "intro": ["", ""]
+      },
       "zh-a1-learn-understanding-questions-and-answers": {
         "title": "質問と答えの理解",
-        "intro": ["", ""]
-      },
-      "zh-a1-practice-exchanging-basic-information": {
-        "title": "基本情報の交換",
-        "intro": ["", ""]
-      },
-      "zh-a1-review-introduction-questions": {
-        "title": "紹介の質問の復習",
-        "intro": ["", ""]
-      },
-      "zh-a1-quiz-introduction-questions": {
-        "title": "紹介の質問のクイズ",
         "intro": ["", ""]
       },
       "zh-a1-warm-up-introducing-others-basics": {
@@ -9125,6 +9137,50 @@
         "title": "チーム紹介のクイズ",
         "intro": ["", ""]
       },
+      "zh-a1-practice-exchanging-basic-information": {
+        "title": "基本情報の交換",
+        "intro": ["", ""]
+      },
+      "zh-a1-review-introduction-questions": {
+        "title": "紹介の質問の復習",
+        "intro": ["", ""]
+      },
+      "zh-a1-quiz-introduction-questions": {
+        "title": "紹介の質問のクイズ",
+        "intro": ["", ""]
+      },
+      "zh-a1-learn-numbers-0-to-10": {
+        "title": "数字 0 から 10",
+        "intro": ["", ""]
+      },
+      "zh-a1-practice-numbers-0-to-10": {
+        "title": "数字 0 から 10 の練習",
+        "intro": ["", ""]
+      },
+      "zh-a1-learn-numbers-11-to-19": {
+        "title": "数字 11 から 19",
+        "intro": ["", ""]
+      },
+      "zh-a1-practice-numbers-11-to-19": {
+        "title": "数字 11 から 19 の練習",
+        "intro": ["", ""]
+      },
+      "zh-a1-learn-numbers-20-to-99": {
+        "title": "数字 20 から 99",
+        "intro": ["", ""]
+      },
+      "zh-a1-practice-numbers-20-to-99": {
+        "title": "数字 20 から 99 の練習",
+        "intro": ["", ""]
+      },
+      "zh-a1-review-numbers-below-100": {
+        "title": "100未満の数字の復習",
+        "intro": ["", ""]
+      },
+      "zh-a1-quiz-numbers-below-100": {
+        "title": "100未満の数字のクイズ",
+        "intro": ["", ""]
+      },
       "zh-a1-warm-up-personal-skills-basics": {
         "title": "個人スキルの基本",
         "intro": ["", ""]
@@ -9163,50 +9219,6 @@
       },
       "zh-a1-quiz-discussing-team-skills": {
         "title": "チームスキルの話し合いのクイズ",
-        "intro": ["", ""]
-      },
-      "zh-a1-warm-up-meeting-new-teammates": {
-        "title": "新しいチームメイトとの出会い",
-        "intro": ["", ""]
-      },
-      "zh-a1-learn-special-spelling-rules": {
-        "title": "特別な綴りのルール",
-        "intro": ["", ""]
-      },
-      "zh-a1-practice-pinyin": {
-        "title": "ピンインの練習",
-        "intro": ["", ""]
-      },
-      "zh-a1-learn-numbers-0-to-10": {
-        "title": "数字 0 から 10",
-        "intro": ["", ""]
-      },
-      "zh-a1-practice-numbers-0-to-10": {
-        "title": "数字 0 から 10 の練習",
-        "intro": ["", ""]
-      },
-      "zh-a1-learn-numbers-11-to-19": {
-        "title": "数字 11 から 19",
-        "intro": ["", ""]
-      },
-      "zh-a1-practice-numbers-11-to-19": {
-        "title": "数字 11 から 19 の練習",
-        "intro": ["", ""]
-      },
-      "zh-a1-learn-numbers-20-to-99": {
-        "title": "数字 20 から 99",
-        "intro": ["", ""]
-      },
-      "zh-a1-practice-numbers-20-to-99": {
-        "title": "数字 20 から 99 の練習",
-        "intro": ["", ""]
-      },
-      "zh-a1-review-numbers-below-100": {
-        "title": "100未満の数字の復習",
-        "intro": ["", ""]
-      },
-      "zh-a1-quiz-numbers-below-100": {
-        "title": "100未満の数字のクイズ",
         "intro": ["", ""]
       }
     }
@@ -9332,7 +9344,7 @@
       "lecture-working-with-media": {
         "title": "iframe要素の操作",
         "intro": [
-          "この講義では、ウェブページに外部サイトを埋め込むための<code>iframe</code>要素の使い方を学びます。"
+          "この講義では、外部サイトをウェブページに埋め込むための<code>iframe</code>要素の使い方を学びます。"
         ]
       },
       "workshop-build-a-video-display-using-iframe": {
@@ -9387,7 +9399,7 @@
       "lecture-understanding-nuanced-semantic-elements": {
         "title": "微妙なセマンティック要素の理解",
         "intro": [
-          "この講義では、<code>i</code>要素より<code>em</code>要素を使うべき場合、説明リストなど、特定のセマンティック要素の使い方を学びます。"
+          "この講義では、<code>i</code>要素の代わりに<code>em</code>要素を使う場合について学びます。また、説明リストやその他のセマンティックHTML要素についても学びます。"
         ]
       },
       "workshop-major-browsers-list": {
@@ -9411,7 +9423,7 @@
       "lecture-working-with-specialized-semantic-elements": {
         "title": "専門的なセマンティック要素の操作",
         "intro": [
-          "この講義では、<code>u</code>、<code>s</code>、<code>code</code>要素などの専門的なセマンティック要素について学びます。"
+          "この講義では、<code>u</code>、<code>s</code>、<code>code</code>などの専門的なセマンティック要素について学びます。"
         ]
       },
       "workshop-blog-page": {
@@ -9590,7 +9602,7 @@
       "lecture-what-is-css": {
         "title": "CSSとは何か？",
         "intro": [
-          "これらのレッスンではCSSについて学びます。CSSの役割、CSSルールの構造、3つの書き方と使い分け、インラインとブロック要素など多くのことを学びます。"
+          "以下のレッスンはすべてCSSについてです。CSSとは何か、そのウェブ上での役割、CSSルールとその構造、CSSの3つの書き方と使い分け、インライン要素とブロック要素などを学びます。"
         ]
       },
       "workshop-cafe-menu": {
@@ -10394,5 +10406,235 @@
     "enable-cookies": "開始する前にサードパーティのクッキーを有効にしてください。",
     "english-only": "このセクションのコースは英語のみで提供されています。現在、タイトルと紹介文のみ翻訳可能で、レッスン自体は翻訳されていません。",
     "exam-english-only": "認定試験は現在英語のみで提供されていることにご注意ください。他のコースは一部の言語で利用可能です。"
+  },
+  "algorithms-and-data-structure": {
+    "title": "アルゴリズムとデータ構造認定",
+    "intro": [
+      "このコースでは、Pythonのデータ構造とアルゴリズムを学びます。",
+      "必要なプロジェクトを完成させ、試験に合格するとアルゴリズムとデータ構造認定を取得できます。"
+    ],
+    "chapters": {
+      "algorithms-and-data-structure": "アルゴリズムとデータ構造"
+    },
+    "modules": {
+      "python-linear-data-structures": "線形データ構造",
+      "lab-hash-table": "ハッシュテーブルを作る",
+      "python-recursion": "再帰",
+      "python-algorithms": "アルゴリズム",
+      "lab-tower-of-hanoi": "ハノイの塔アルゴリズムを実装する",
+      "python-graphs-and-trees": "グラフと木構造",
+      "python-dynamic-programming": "動的計画法",
+      "review-python": "Python復習"
+    },
+    "module-intros": {
+      "python-recursion": {
+        "intro": [
+          "このモジュールでは、Pythonにおける再帰と呼び出しスタックの仕組みを学びます。"
+        ]
+      }
+    },
+    "blocks": {
+      "lecture-working-with-common-data-structures": {
+        "title": "よく使われるデータ構造の扱い方",
+        "intro": [
+          "これらのレッスンでよく使われるデータ構造の扱い方を学びます。"
+        ]
+      },
+      "workshop-linked-list-class": {
+        "title": "連結リストを作る",
+        "intro": [
+          "このワークショップでは、連結リストを作ることでデータ構造の扱いを練習します。"
+        ]
+      },
+      "review-data-structures": {
+        "title": "データ構造の復習",
+        "intro": [
+          "データ構造のクイズに挑戦する前に、学んだ内容を復習してください。",
+          "このページを開いて、さまざまなデータ構造、アルゴリズム、時間・空間計算量、ビッグO記法などの概念を復習しましょう。"
+        ]
+      },
+      "quiz-data-structures": {
+        "title": "データ構造クイズ",
+        "intro": [
+          "このクイズでPythonのデータ構造についての理解を試してください。"
+        ]
+      },
+      "lab-hash-table": {
+        "title": "ハッシュテーブルを作る",
+        "intro": [
+          "ハッシュテーブルはキーと値のペアを格納し、高速な検索に最適化されたデータ構造です。",
+          "このラボでは、データ構造の知識を使ってハッシュテーブルを作ります。"
+        ]
+      },
+      "lecture-understanding-recursion-and-the-call-stack-python": {
+        "title": "再帰と呼び出しスタックの理解",
+        "intro": [
+          "この講義では、Pythonにおける再帰関数と呼び出しスタックの仕組みを学びます。"
+        ]
+      },
+      "workshop-countup-python": {
+        "title": "カウントアップ関数を作る",
+        "intro": [
+          "このワークショップでは、再帰を使って数値のリストを作る関数を作ります。"
+        ]
+      },
+      "lab-range-of-numbers-python": {
+        "title": "数値範囲ジェネレーターを作る",
+        "intro": [
+          "このラボでは、再帰を使って指定範囲内の数値リストを生成します。"
+        ]
+      },
+      "review-recursion-python": {
+        "title": "再帰の復習",
+        "intro": [
+          "再帰、基本ケース、呼び出しスタックの概念を復習します。"
+        ]
+      },
+      "quiz-recursion-python": {
+        "title": "再帰クイズ",
+        "intro": [
+          "再帰、基本ケース、呼び出しスタックの理解度を試してください。"
+        ]
+      },
+      "lecture-searching-and-sorting-algorithms": {
+        "title": "探索とソートのアルゴリズム",
+        "intro": [
+          "線形探索、二分探索、マージソートなどの基本的な探索とソートのアルゴリズムについて学びます。",
+          "これらのレッスンでは、アルゴリズムの実装、時間・空間計算量の分析、分割統治法のプログラミングパラダイムを扱います。"
+        ]
+      },
+      "workshop-binary-search": {
+        "title": "二分探索アルゴリズムを実装する",
+        "intro": [
+          "二分探索アルゴリズムは、ソート済みリストから目的の項目を探す探索アルゴリズムです。",
+          "このワークショップでは、二分探索アルゴリズムを実装し、目的の項目を見つけるまでの経路を返すか、「Value not found」を返します。"
+        ]
+      },
+      "lab-bisection-method": {
+        "title": "二分法を実装する",
+        "intro": [
+          "このラボでは、二分法を使って数値の平方根を求めます。"
+        ]
+      },
+      "workshop-merge-sort": {
+        "title": "マージソートアルゴリズムを実装する",
+        "intro": [
+          "マージソートアルゴリズムは、分割統治法に基づくソートアルゴリズムです。",
+          "このワークショップでは、マージソートアルゴリズムを実装してランダムな数値のリストをソートします。"
+        ]
+      },
+      "lab-quicksort": {
+        "title": "クイックソートアルゴリズムを実装する",
+        "intro": [
+          "このラボでは、クイックソートアルゴリズムを実装して整数のリストをソートします。"
+        ]
+      },
+      "lab-selection-sort": {
+        "title": "選択ソートアルゴリズムを実装する",
+        "intro": [
+          "このラボでは、選択ソートアルゴリズムを実装します。"
+        ]
+      },
+      "lab-luhn-algorithm": {
+        "title": "Luhnアルゴリズムを実装する",
+        "intro": [
+          "このラボでは、クレジットカード番号などの識別番号を検証するためにLuhnアルゴリズムを実装します。"
+        ]
+      },
+      "review-searching-and-sorting-algorithms": {
+        "title": "検索とソートアルゴリズムのレビュー",
+        "intro": [
+          "検索とソートアルゴリズムのクイズを受ける前に、学んだ内容を復習してください。"
+        ]
+      },
+      "quiz-searching-and-sorting-algorithms": {
+        "title": "検索とソートアルゴリズムのクイズ",
+        "intro": [
+          "このクイズでPythonの検索とソートアルゴリズムについて学んだことを試してください。"
+        ]
+      },
+      "lab-tower-of-hanoi": {
+        "title": "ハノイの塔アルゴリズムを実装する",
+        "intro": [
+          "このラボでは、ハノイの塔パズルを解くアルゴリズムを実装します。"
+        ]
+      },
+      "lecture-understanding-graphs-and-trees": {
+        "title": "グラフとツリーの理解",
+        "intro": [
+          "このレッスンでは、グラフやツリーなどの基本的なデータ構造と、それらのコンピュータサイエンスにおける実用的な応用について学びます。"
+        ]
+      },
+      "workshop-shortest-path-algorithm": {
+        "title": "最短経路アルゴリズムを実装する",
+        "intro": [
+          "このワークショップでは、グラフ内の2つのノード間の最短経路を見つけるアルゴリズムを実装します。"
+        ]
+      },
+      "lab-adjacency-list-to-matrix-converter": {
+        "title": "隣接リストから隣接行列への変換器を作成する",
+        "intro": [
+          "このラボでは、グラフの隣接リスト表現を隣接行列表現に変換する関数を実装します。"
+        ]
+      },
+      "workshop-breadth-first-search": {
+        "title": "幅優先探索アルゴリズムを実装する",
+        "intro": [
+          "このワークショップでは、幅優先探索アルゴリズムを使って丸括弧のすべての有効な組み合わせを生成します。"
+        ]
+      },
+      "lab-depth-first-search": {
+        "title": "深さ優先探索アルゴリズムを実装する",
+        "intro": [
+          "このラボでは、深さ優先探索アルゴリズムを実装します。"
+        ]
+      },
+      "lab-n-queens-problem": {
+        "title": "Nクイーンアルゴリズムを実装する",
+        "intro": [
+          "このラボでは、Nクイーン問題の解決策を実装します。"
+        ]
+      },
+      "review-graphs-and-trees": {
+        "title": "グラフとツリーのレビュー",
+        "intro": [
+          "グラフとツリーのクイズを受ける前に、学んだ内容を復習してください。"
+        ]
+      },
+      "quiz-graphs-and-trees": {
+        "title": "グラフとツリーのクイズ",
+        "intro": [
+          "このクイズでPythonのグラフとツリーについて学んだことを試してください。"
+        ]
+      },
+      "lecture-understanding-dynamic-programming": {
+        "title": "動的計画法の理解",
+        "intro": [
+          "このレッスンでは、複雑な問題をより簡単な部分問題に分解して効率的に解くためのアルゴリズム手法である動的計画法について学びます。"
+        ]
+      },
+      "lab-nth-fibonacci-number": {
+        "title": "第N番目のフィボナッチ数計算機を作成する",
+        "intro": [
+          "このラボでは、動的計画法のアプローチを使ってフィボナッチ数列の計算機を実装します。"
+        ]
+      },
+      "review-dynamic-programming": {
+        "title": "動的計画法のレビュー",
+        "intro": [
+          "動的計画法のクイズを受ける前に、学んだ内容を復習してください。"
+        ]
+      },
+      "quiz-dynamic-programming": {
+        "title": "動的計画法のクイズ",
+        "intro": [
+          "このクイズでPythonの動的計画法について学んだことを試してください。"
+        ]
+      },
+      "review-python": {
+        "title": "Pythonのレビュー",
+        "intro": ["今後の試験に備えてPythonの概念を復習してください。"]
+      }
+    }
   }
 }

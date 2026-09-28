@@ -7,26 +7,26 @@ dashedName: lab-symmetric-difference
 
 # --description--
 
-두 배열을 비교해서 두 배열 중 하나에만 있고 둘 다에 없는 항목들로 새 배열을 반환하세요. 다시 말해, 두 배열의 대칭 차를 반환하세요.
+두 배열을 비교해서 두 배열 중 하나에만 있고 다른 배열에는 없는 항목들로 새 배열을 반환하세요. 다시 말해, 두 배열의 대칭 차집합을 반환하세요.
 
-예시:
+예:
 
 - 배열 A: `["diamond", "stick", "apple"]`
 
 - 배열 B: `["stick", "emerald", "bread"]`
 
-결과: `["diamond", "apple", "emerald", "bread"]`
+- 결과: `["diamond", "apple", "emerald", "bread"]`
 
-**목표:** 아래 사용자 스토리를 충족하고 모든 테스트를 통과하여 도전 과제를 완료하세요.
+**목표:** 아래 사용자 스토리를 충족하고 모든 테스트를 통과하여 실습을 완료하세요.
 
 **사용자 스토리:**
 
-1. 함수 `diffArray`는 배열을 반환해야 합니다.
-2. 함수는 두 개의 인수를 받아야 하며, 둘 다 배열이어야 합니다.
+1. `diffArray` 함수는 배열을 반환해야 합니다.
+2. 함수는 두 개의 인수를 받아야 하며, 두 인수 모두 배열이어야 합니다.
 3. 함수는 `filter` 메서드를 사용해야 합니다.
-4. 함수는 두 배열의 대칭 차를 반환해야 합니다.  
-5. 대칭 차가 없으면 빈 배열을 반환해야 합니다.
-
+4. 함수는 두 배열의 대칭 차집합을 반환해야 합니다.
+5. 대칭 차집합이 없으면 빈 배열을 반환해야 합니다.
+6. 첫 번째 배열에만 있는 항목을 두 번째 배열에만 있는 항목보다 먼저 나열하되, 각 배열 내에서 원래 순서를 유지해야 합니다.
 
 # --hints--
 
@@ -36,10 +36,16 @@ dashedName: lab-symmetric-difference
 assert.isFunction(diffArray);
 ```
 
-`diffArray` 함수는 `filter` 메서드를 사용해 두 배열 모두에 있는 항목을 걸러내야 합니다.
+`diffArray` 함수는 `filter` 메서드를 사용해야 합니다.
 
 ```js
-assert(/\.filter\(/.test(diffArray.toString()));
+const spy = __helpers.spyOn(Array.prototype, 'filter');
+try {
+  diffArray([1, 2], [2, 3]);
+  assert.isAbove(spy.calls.length, 0);
+} finally {
+  spy.restore();
+}
 ```
 
 `diffArray(["diorite", "andesite", "grass", "dirt", "pink wool", "dead shrub"], ["diorite", "andesite", "grass", "dirt", "dead shrub"])`는 `["pink wool"]`를 반환해야 합니다.
@@ -60,7 +66,7 @@ assert.deepEqual(diffArray(
 ), ["diorite", "pink wool"]);
 ```
 
-`diffArray`는 동일한 두 배열로 호출하면 빈 배열을 반환해야 합니다.
+`diffArray(["andesite", "grass", "dirt", "dead shrub"], ["andesite", "grass", "dirt", "dead shrub"])`는 `[]`를 반환해야 합니다.
 
 ```js
 assert.deepEqual(diffArray(
@@ -118,7 +124,7 @@ assert.deepEqual(diffArray(
 
 ```js
 assert.deepEqual(diffArray(
-  [], 
+  [],
   []
 ), []);
 ```

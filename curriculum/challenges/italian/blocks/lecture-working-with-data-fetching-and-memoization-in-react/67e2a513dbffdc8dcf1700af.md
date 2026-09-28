@@ -15,7 +15,11 @@ Anche se spesso viene usato per recuperare dati da un server, non è limitato a 
 
 Diamo un’occhiata a cos’è il hook `useOptimistic` e come contribuisce a creare interfacce rapide e responsivi.
 
+## Il hook `useOptimistic`
+
 Il hook `useOptimistic` aiuta a gestire gli “aggiornamenti ottimistici” nell’interfaccia, una strategia in cui fornisci aggiornamenti immediati all’interfaccia basati sull’esito previsto di un’azione, come aspettare una risposta dal server.
+
+### Sintassi di base
 
 Ecco la sintassi base del hook `useOptimistic`:
 
@@ -31,6 +35,8 @@ const [optimisticState, addOptimistic] = useOptimistic(actualState, updateFuncti
 
 - `updateFunction` è la funzione che determina come lo stato ottimistico deve aggiornarsi quando viene chiamata.
 
+## Aggiornamenti ottimistici vs stati di caricamento
+
 A prima vista, potrebbe sembrare che il hook `useOptimistic` sia solo un altro modo per gestire gli stati di caricamento in React. Ma è molto di più.
 
 Uno stato di caricamento controlla se vedi un indicatore di caricamento, un messaggio o qualche altro segnale nell’interfaccia mentre qualcosa accade in background.
@@ -38,6 +44,8 @@ Uno stato di caricamento controlla se vedi un indicatore di caricamento, un mess
 Tuttavia, il hook `useOptimistic` aggiorna l’interfaccia istantaneamente basandosi su un esito previsto, anche prima di, per esempio, fare una chiamata a un’API. Questo hook ti dà la possibilità di mostrare un indicatore di caricamento o un messaggio, gestire eventuali errori con eleganza e mostrare un feedback immediato per far sentire l’interfaccia reattiva.
 
 Questo diventerà più chiaro mentre vediamo alcuni esempi che mostrano come funziona il hook `useOptimistic`.
+
+## Costruire un esempio
 
 Ecco un’azione che simula il salvataggio di un’attività su un server. Restituisce l’attività dopo un ritardo di 1 secondo, come potrebbe succedere con una richiesta API reale:
 
@@ -48,6 +56,8 @@ export async function saveTask(task) {
   return task;
 }
 ```
+
+### Configurare il hook
 
 Ecco il codice che configura il hook `useOptimistic` importandolo e inizializzandolo, con una funzione `handleSubmit` che invia un input all’azione:
 
@@ -81,6 +91,8 @@ Nel codice, il hook `useOptimistic` mantiene una lista temporanea di attività c
 La riga `(state, newTask) => [...state, { text: newTask, pending: true }]` assicura che una nuova attività appaia con uno stato in sospeso anche prima che il server confermi qualcosa proveniente dal modulo.
 
 Quando il modulo viene inviato, la funzione `handleSubmit` estrae l’attività e la aggiunge “ottimisticamente” con il parametro `addOptimisticTask`. Poi `addTask` viene passato come prop che invia l’attività al server. Infine, il modulo viene resettato chiamando `e.target.reset()`.
+
+### Il componente `TaskList`
 
 Ecco il componente `TaskList`:
 
@@ -141,6 +153,8 @@ export default function TaskList({ tasks, addTask }) {
 
 Qui, stiamo iterando sul parametro `optimisticTask` per mostrare l’attività. Quando `task.pending` è `true`, il testo `Adding Task...` viene mostrato accanto all’attività, confermando che l’attività è stata aggiunta ottimisticamente prima che il server la confermi.
 
+### Il componente `Tasks`
+
 Ecco il componente `Task` che gestisce lo stato per il modulo. Chiama la funzione `saveTask` dall’azione così può aggiungere l’attività e aggiunge la nuova attività una volta ricevuta dal server:
 
 ```jsx
@@ -165,6 +179,8 @@ export default function Tasks() {
 ```
 
 Questo assicura aggiornamenti rapidi dell’interfaccia mostrando un feedback immediato invece di aspettare una risposta. Una volta che l’attività è salvata, la proprietà `pending` viene rimossa e la lista finale delle attività si aggiorna di conseguenza.
+
+## Risolvere problemi comuni
 
 Nell’interfaccia succedono due cose che non dovrebbero accadere. Primo, non puoi vedere il testo `Adding Task...` perché appare e scompare troppo velocemente. Poi, si verifica un errore dopo aver aggiunto l’attività.
 

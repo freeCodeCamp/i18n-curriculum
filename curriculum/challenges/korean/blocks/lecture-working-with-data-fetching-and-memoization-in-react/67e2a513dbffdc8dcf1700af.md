@@ -1,6 +1,6 @@
 ---
 id: 67e2a513dbffdc8dcf1700af
-title: useOptimistic 훅이란 무엇이며 어떻게 작동하나요?
+title: UseOptimistic 훅이란 무엇이며 어떻게 작동하나요?
 challengeType: 19
 dashedName: what-is-the-useoptimistic-hook-and-how-does-it-work
 ---
@@ -15,7 +15,11 @@ dashedName: what-is-the-useoptimistic-hook-and-how-does-it-work
 
 이제 `useOptimistic` 훅이 무엇인지, 그리고 어떻게 빠르고 반응형인 UI를 만드는 데 기여하는지 살펴보겠습니다.
 
+## `useOptimistic` 훅
+
 `useOptimistic` 훅은 UI에서 "낙관적 업데이트"를 관리하는 데 도움을 줍니다. 이는 서버 응답을 기다리는 것과 같은 작업의 예상 결과를 기반으로 UI를 즉시 업데이트하는 전략입니다.
+
+### 기본 구문
 
 다음은 `useOptimistic` 훅의 기본 구문입니다:
 
@@ -31,6 +35,8 @@ const [optimisticState, addOptimistic] = useOptimistic(actualState, updateFuncti
 
 - `updateFunction`는 호출될 때 낙관적 상태가 어떻게 업데이트되어야 하는지 결정하는 함수입니다.
 
+## 낙관적 업데이트와 로딩 상태 비교
+
 처음 보면 `useOptimistic` 훅이 React에서 로딩 상태를 처리하는 또 다른 방법처럼 보일 수 있습니다. 하지만 그것보다 더 많은 역할을 합니다.
 
 로딩 상태는 백그라운드에서 무언가가 진행되는 동안 UI에 스피너, 메시지 또는 다른 표시기를 보여줄지 여부를 제어합니다.
@@ -38,6 +44,8 @@ const [optimisticState, addOptimistic] = useOptimistic(actualState, updateFuncti
 그러나 `useOptimistic` 훅은 API 호출을 하기 전이라도 예상 결과를 기반으로 UI를 즉시 업데이트합니다. 이 훅은 로딩 표시기나 메시지를 보여주고, 잠재적 오류를 우아하게 처리하며, UI가 빠르게 느껴지도록 즉각적인 피드백을 제공할 기회를 줍니다.
 
 `useOptimistic` 훅이 어떻게 작동하는지 보여주는 몇 가지 예제를 통해 이 점이 더 명확해질 것입니다.
+
+## 예제 만들기
 
 다음은 작업을 서버에 저장하는 것을 시뮬레이션하는 액션입니다. 실제 API 요청처럼 1초 지연 후 작업을 반환합니다:
 
@@ -48,6 +56,8 @@ export async function saveTask(task) {
   return task;
 }
 ```
+
+### 훅 설정하기
 
 다음은 `useOptimistic` 훅을 가져와 초기화하고, 입력을 액션에 보내는 `handleSubmit` 함수를 포함한 코드입니다:
 
@@ -81,6 +91,8 @@ export default function TaskList({ tasks, addTask }) {
 `(state, newTask) => [...state, { text: newTask, pending: true }]` 줄은 서버가 폼에서 무언가를 확인하기 전에 새 작업이 대기 상태로 나타나도록 보장합니다.
 
 폼이 제출되면 `handleSubmit` 함수가 작업을 추출하고 `addOptimisticTask` 매개변수로 "낙관적으로" 추가합니다. 그런 다음 `addTask`가 프로프로 전달되어 작업을 서버에 보냅니다. 마지막으로 `e.target.reset()`를 호출해 폼을 초기화합니다.
+
+### `TaskList` 컴포넌트
 
 다음은 `TaskList` 컴포넌트입니다:
 
@@ -141,6 +153,8 @@ export default function TaskList({ tasks, addTask }) {
 
 여기서는 `optimisticTask` 매개변수를 반복하여 작업을 표시합니다. `task.pending`가 `true`일 때, 작업 옆에 `Adding Task...` 텍스트가 표시되어 서버 확인 전에 작업이 낙관적으로 추가되었음을 확인합니다.
 
+### `Tasks` 컴포넌트
+
 다음은 폼 상태를 관리하는 `Task` 컴포넌트입니다. 작업을 추가할 수 있도록 액션의 `saveTask` 함수를 호출하고, 서버에서 작업을 받으면 새 작업을 추가합니다:
 
 ```jsx
@@ -165,6 +179,8 @@ export default function Tasks() {
 ```
 
 이렇게 하면 응답을 기다리지 않고 즉각적인 피드백을 보여줘 UI 업데이트가 빠르게 느껴집니다. 작업이 저장되면 `pending` 속성이 제거되고 최종 작업 목록이 그에 맞게 업데이트됩니다.
+
+## 자주 발생하는 문제 해결하기
 
 UI에서는 두 가지 문제가 발생합니다. 첫째, `Adding Task...` 텍스트가 너무 빨리 나타났다가 사라져 볼 수 없습니다. 둘째, 작업을 추가한 후 오류가 발생합니다.
 

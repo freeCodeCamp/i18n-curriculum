@@ -7,7 +7,7 @@ dashedName: lab-symmetric-difference
 
 # --description--
 
-Compare dois arrays e retorne um novo array com qualquer item encontrado em apenas um dos dois arrays passados, mas não ambos. Em outras palavras, retorne a diferença simétrica de dois arrays.
+Compare dois arrays e retorne um novo array com os itens encontrados em apenas um dos dois arrays fornecidos, mas não em ambos. Em outras palavras, retorne a diferença simétrica dos dois arrays.
 
 Exemplo:
 
@@ -15,18 +15,18 @@ Exemplo:
 
 - Array B: `["stick", "emerald", "bread"]`
 
-Resultado: `["diamond", "apple", "emerald", "bread"]`
+- Resultado: `["diamond", "apple", "emerald", "bread"]`
 
 **Objetivo:** Cumprir as user stories abaixo e fazer todos os testes passarem para completar o laboratório.
 
 **Histórias de Usuário:**
 
 1. Sua função `diffArray` deve retornar um array.
-2. Sua função deve receber dois argumentos, ambos os quais são arrays.
-3. Sua função deve fazer uso do método `filter`.
+2. Sua função deve receber dois argumentos, ambos arrays.
+3. Sua função deve usar o método `filter`.
 4. Sua função deve retornar a diferença simétrica dos dois arrays.
 5. Sua função deve retornar um array vazio se não houver diferença simétrica.
-
+6. Sua função deve listar os itens encontrados apenas no primeiro array antes dos itens encontrados apenas no segundo array, preservando a ordem original dentro de cada array.
 
 # --hints--
 
@@ -36,10 +36,16 @@ Você deve ter uma função chamada `diffArray`.
 assert.isFunction(diffArray);
 ```
 
-A função `diffArray` deve usar o método `filter` para filtrar os itens que estão presentes em ambos os arrays.
+Sua função `diffArray` deve usar o método `filter`.
 
 ```js
-assert(/\.filter\(/.test(diffArray.toString()));
+const spy = __helpers.spyOn(Array.prototype, 'filter');
+try {
+  diffArray([1, 2], [2, 3]);
+  assert.isAbove(spy.calls.length, 0);
+} finally {
+  spy.restore();
+}
 ```
 
 `diffArray(["diorite", "andesite", "grass", "dirt", "pink wool", "dead shrub"], ["diorite", "andesite", "grass", "dirt", "dead shrub"])` deve retornar `["pink wool"]`.
@@ -60,7 +66,7 @@ assert.deepEqual(diffArray(
 ), ["diorite", "pink wool"]);
 ```
 
-`diffArray` deve retornar um array vazio quando chamado com dois arrays idênticos.
+`diffArray(["andesite", "grass", "dirt", "dead shrub"], ["andesite", "grass", "dirt", "dead shrub"])` deve retornar `[]`.
 
 ```js
 assert.deepEqual(diffArray(
@@ -118,7 +124,7 @@ assert.deepEqual(diffArray(
 
 ```js
 assert.deepEqual(diffArray(
-  [], 
+  [],
   []
 ), []);
 ```

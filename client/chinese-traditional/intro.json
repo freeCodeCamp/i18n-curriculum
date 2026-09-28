@@ -833,12 +833,32 @@
           "透過建置此專案，你將獲得數值計算和字串操作的實務經驗。"
         ]
       },
+      "learn-lambda-functions-by-building-an-expense-tracker": {
+        "title": "透過建置支出追蹤器學習 Lambda 函式",
+        "intro": [
+          "Lambda 函式讓你能以簡潔方式撰寫程式碼中小型、一次性使用的函式。",
+          "在此專案中，你將透過創建支出追蹤器探索 Lambda 函式的威力。你的應用程式將展示如何使用 Lambda 函式實現高效且精簡的操作。"
+        ]
+      },
       "learn-list-comprehension-by-building-a-case-converter-program": {
         "title": "透過建置大小寫轉換程式學習 Python 列表推導式",
         "intro": [
           "列表推導式是一種從可迭代類型（列表、元組和字串）構造新 Python 列表的方法，無需使用 for 迴圈或 <code>.append()</code> 方法。",
           "在此專案中，你將撰寫一個程式，將駝峰式大小寫（Camel Case）或帕斯卡大小寫（Pascal Case）格式的字串轉換為蛇形大小寫（Snake Case）。",
           "專案分兩階段：首先使用 for 迴圈實作程式，接著學習如何用列表推導式取代迴圈達成相同結果。"
+        ]
+      },
+      "learn-the-bisection-method-by-finding-the-square-root-of-a-number": {
+        "title": "透過尋找數字平方根學習二分法",
+        "intro": [
+          "數值方法用於近似解決難以或無法用解析法求解的數學問題。",
+          "在這個專案中，你將探索二分法這種數值方法，透過反覆縮小包含平方根的可能值範圍來尋找數字的平方根。"
+        ]
+      },
+      "build-an-arithmetic-formatter-project": {
+        "title": "建置算術格式化器專案",
+        "intro": [
+          "這是申請證書所需完成的專案之一。"
         ]
       },
       "learn-regular-expressions-by-building-a-password-generator": {
@@ -869,6 +889,12 @@
           "在此專案中，你將學習如何透過合併排序演算法對隨機數列表進行排序，並與資料結構互動。"
         ]
       },
+      "build-a-time-calculator-project": {
+        "title": "建置時間計算器專案",
+        "intro": [
+          "這是申請證書所需完成的專案之一。"
+        ]
+      },
       "learn-classes-and-objects-by-building-a-sudoku-solver": {
         "title": "透過建置數獨解題器學習類別與物件",
         "intro": [
@@ -883,48 +909,10 @@
           "在此專案中，你將學習如何構建自己的 BST 並執行中序遍歷，還會學習插入、搜尋和刪除等關鍵操作。"
         ]
       },
-      "learn-lambda-functions-by-building-an-expense-tracker": {
-        "title": "透過建置支出追蹤器學習 Lambda 函式",
-        "intro": [
-          "Lambda 函式讓你能以簡潔方式撰寫程式碼中小型、一次性使用的函式。",
-          "在此專案中，你將透過創建支出追蹤器探索 Lambda 函式的威力。你的應用程式將展示如何使用 Lambda 函式實現高效且精簡的操作。"
-        ]
-      },
-      "build-an-arithmetic-formatter-project": {
-        "title": "建置算術格式化器專案",
-        "intro": [
-          "這是申請證書所需完成的專案之一。"
-        ]
-      },
-      "build-a-time-calculator-project": {
-        "title": "建置時間計算器專案",
-        "intro": [
-          "這是申請證書所需完成的專案之一。"
-        ]
-      },
       "build-a-budget-app-project": {
         "title": "建置預算應用程式專案",
         "intro": [
           "這是申請證書所需完成的專案之一。"
-        ]
-      },
-      "build-a-polygon-area-calculator-project": {
-        "title": "建置多邊形面積計算器專案",
-        "intro": [
-          "這是申請證書所需完成的專案之一。"
-        ]
-      },
-      "build-a-probability-calculator-project": {
-        "title": "建置機率計算器專案",
-        "intro": [
-          "這是申請證書所需完成的專案之一。"
-        ]
-      },
-      "learn-interfaces-by-building-an-equation-solver": {
-        "title": "透過建置方程式解算器學習介面",
-        "intro": [
-          "抽象類別讓你定義正式介面——作為類別藍圖的物件。",
-          "在此專案中，你將發現如何在 Python 中實作介面，同時建置一個簡單的方程式解算器程式。"
         ]
       },
       "learn-special-methods-by-building-a-vector-space": {
@@ -934,6 +922,19 @@
           "在這個專案中，你將透過建造一個向量空間來探索一些最常見的特殊方法，同時學習向量的相關知識。"
         ]
       },
+      "learn-interfaces-by-building-an-equation-solver": {
+        "title": "透過建置方程式解算器學習介面",
+        "intro": [
+          "抽象類別讓你定義正式介面——作為類別藍圖的物件。",
+          "在此專案中，你將發現如何在 Python 中實作介面，同時建置一個簡單的方程式解算器程式。"
+        ]
+      },
+      "build-a-polygon-area-calculator-project": {
+        "title": "建置多邊形面積計算器專案",
+        "intro": [
+          "這是申請證書所需完成的專案之一。"
+        ]
+      },
       "learn-encapsulation-by-building-a-projectile-trajectory-calculator": {
         "title": "透過建造拋射物軌跡計算器學習封裝",
         "intro": [
@@ -941,11 +942,10 @@
           "在這個專案中，你將發現與封裝相關的新概念，例如取值函式、設值函式和名稱混淆，並將它們與你已學過的知識結合，創建一個計算拋射物軌跡的程式。"
         ]
       },
-      "learn-the-bisection-method-by-finding-the-square-root-of-a-number": {
-        "title": "透過尋找數字平方根學習二分法",
+      "build-a-probability-calculator-project": {
+        "title": "建置機率計算器專案",
         "intro": [
-          "數值方法用於近似解決難以或無法用解析法求解的數學問題。",
-          "在這個專案中，你將探索二分法這種數值方法，透過反覆縮小包含平方根的可能值範圍來尋找數字的平方根。"
+          "這是申請證書所需完成的專案之一。"
         ]
       }
     }
@@ -1504,7 +1504,7 @@
       "workshop-report-card-printer": {
         "title": "建造成績單列印機",
         "intro": [
-          "在這個工作坊中，你將透過建立和列印簡單成績單的資料，練習使用 Python 的原始資料型別。"
+          "在這個工作坊中，你將透過創建和列印簡單成績單的資料，練習使用 Python 內建的資料型別。"
         ]
       },
       "lecture-introduction-to-python-strings": {
@@ -1551,6 +1551,12 @@
         "title": "理解函式與作用域",
         "intro": [
           "在這些課程中，你將學習 Python 中的函式與作用域。"
+        ]
+      },
+      "workshop-kitchen-inventory-tracker": {
+        "title": "建置廚房庫存追蹤器",
+        "intro": [
+          "在這個工作坊中，你將透過建置廚房庫存追蹤器，練習使用 Python 的函式和作用域。"
         ]
       },
       "lab-discount-calculator": {
@@ -2472,6 +2478,12 @@
           "在這個實驗中，你將建置一個函式來管理唱片群集。"
         ]
       },
+      "workshop-artifact-provenance-auditor": {
+        "title": "建置文物來源稽核器",
+        "intro": [
+          "在這個工作坊中，你將建置一個文物來源稽核器，用來查詢、標記、移動和彙整博物館文物。"
+        ]
+      },
       "review-javascript-objects": {
         "title": "JavaScript 物件複習",
         "intro": [
@@ -2505,22 +2517,66 @@
           "在這個工作坊中，你將透過建置一個函式，使用 <code>for...of</code> 迴圈來計算字串陣列中某字串的出現次數。"
         ]
       },
+      "lab-factorial-calculator": {
+        "title": "建置階乘計算器",
+        "intro": [
+          "在這個實驗中，你將建置一個階乘計算器。",
+          "你將練習使用迴圈和條件判斷來計算數字的階乘。"
+        ]
+      },
+      "lab-repeat-a-string": {
+        "title": "建置字串重複函式",
+        "intro": [
+          "在這個實驗中，你將實作迴圈來重複字串指定次數。"
+        ]
+      },
       "workshop-sentence-analyzer": {
         "title": "建置句子分析器",
         "intro": [
           "在這個工作坊中，你將透過建置句子分析器應用程式複習 JavaScript 迴圈的操作。"
         ]
       },
-      "lab-traffic-light-sequencer": {
-        "title": "建置交通號誌序列器",
+      "lab-longest-word-in-a-string": {
+        "title": "建置最長字搜尋器應用程式",
         "intro": [
-          "在這個實驗室中，你將使用 JavaScript 迴圈建置交通號誌序列器。"
+          "在這個實驗中，你將使用 JavaScript 迴圈找出給定句子中最長字的長度。"
+        ]
+      },
+      "lab-mutations": {
+        "title": "實作字串突變演算法",
+        "intro": [
+          "在這個實驗中，你將練習迭代兩個不同字串以比較它們的字元。"
+        ]
+      },
+      "lab-missing-letter-detector": {
+        "title": "建造遺失字元偵測器",
+        "intro": [
+          "在此實驗中，你將建造一個函式，找出給定連續字元範圍中遺失的字元並傳回它。"
+        ]
+      },
+      "lab-profile-lookup": {
+        "title": "建置評測查詢器",
+        "intro": [
+          "在這個實驗中，你將創建一個函式來查詢評測資訊。"
         ]
       },
       "workshop-space-mission-roster": {
         "title": "建置太空任務名冊",
         "intro": [
           "在這個工作坊中，你將利用 JavaScript 迴圈建置太空任務名冊。"
+        ]
+      },
+      "lab-chunky-monkey": {
+        "title": "實作分塊猴子演算法",
+        "intro": [
+          "在這個實驗中，你將練習使用你選擇的技巧將陣列分割成較小的陣列。"
+        ]
+      },
+      "lab-device-loan-ledger": {
+        "title": "建置裝置借用帳本",
+        "intro": [
+          "在這個實驗室中，你將建置一個裝置借用帳本，以管理公司服務台提供的 IT 硬體。",
+          "你將透過實作函式來辦理裝置的借出與歸還、追蹤逾期借用，並在 JSON 字串與 JavaScript 物件間轉換，練習操作巢狀物件和 JSON。"
         ]
       },
       "workshop-heritage-library-catalog": {
@@ -2530,41 +2586,10 @@
           "你將練習使用迴圈、物件和字串方法來解析未經處理的文字資料、搜尋和群組條目、呈現格式化輸出，並匯出為 JSON 和 CSV。"
         ]
       },
-      "lab-longest-word-in-a-string": {
-        "title": "建置最長字搜尋器應用程式",
+      "lab-smart-pantry-restocker": {
+        "title": "建置智慧儲藏室補貨器",
         "intro": [
-          "在這個實驗中，你將使用 JavaScript 迴圈找出給定句子中最長字的長度。"
-        ]
-      },
-      "lab-factorial-calculator": {
-        "title": "建置階乘計算器",
-        "intro": [
-          "在這個實驗中，你將建置一個階乘計算器。",
-          "你將練習使用迴圈和條件判斷來計算數字的階乘。"
-        ]
-      },
-      "lab-mutations": {
-        "title": "實作字串突變演算法",
-        "intro": [
-          "在這個實驗中，你將練習迭代兩個不同字串以比較它們的字元。"
-        ]
-      },
-      "lab-chunky-monkey": {
-        "title": "實作分塊猴子演算法",
-        "intro": [
-          "在這個實驗中，你將練習使用你選擇的技巧將陣列分割成較小的陣列。"
-        ]
-      },
-      "lab-profile-lookup": {
-        "title": "建置評測查詢器",
-        "intro": [
-          "在這個實驗中，你將創建一個函式來查詢評測資訊。"
-        ]
-      },
-      "lab-repeat-a-string": {
-        "title": "建置字串重複函式",
-        "intro": [
-          "在這個實驗中，你將實作迴圈來重複字串指定次數。"
+          "在這個實驗室中，你將使用基本的 JavaScript 概念，如陣列、物件、迴圈和條件語句，建置一個小型儲藏室管理程式。"
         ]
       },
       "workshop-festival-crowd-flow-simulator": {
@@ -2573,16 +2598,10 @@
           "在這個工作坊中，你將使用 JavaScript 模擬音樂節參加者的人潮流動。"
         ]
       },
-      "lab-missing-letter-detector": {
-        "title": "建造遺失字元偵測器",
+      "lab-traffic-light-sequencer": {
+        "title": "建置交通號誌序列器",
         "intro": [
-          "在此實驗中，你將建造一個函式，找出給定連續字元範圍中遺失的字元並傳回它。"
-        ]
-      },
-      "lab-smart-pantry-restocker": {
-        "title": "建置智慧儲藏室補貨器",
-        "intro": [
-          "在這個實驗室中，你將使用基本的 JavaScript 概念，如陣列、物件、迴圈和條件語句，建置一個小型儲藏室管理程式。"
+          "在這個實驗室中，你將使用 JavaScript 迴圈建置交通號誌序列器。"
         ]
       },
       "lab-proofreading-tool": {
@@ -4924,6 +4943,12 @@
           "在此實驗中，你將建置一個函式來管理唱片收藏。"
         ]
       },
+      "workshop-artifact-provenance-auditor": {
+        "title": "建置文物來源稽核器",
+        "intro": [
+          "在這個工作坊中，你將建置一個文物來源稽核器，用來查詢、標記、移動和彙整博物館文物。"
+        ]
+      },
       "review-javascript-objects": {
         "title": "JavaScript 物件複習",
         "intro": [
@@ -4947,22 +4972,66 @@
           "在此工作坊中，你將透過建置一個函式來練習使用 <code>for...of</code> 迴圈，計算陣列中字串的出現次數。"
         ]
       },
+      "lab-factorial-calculator": {
+        "title": "建置階乘計算器",
+        "intro": [
+          "在此實驗中，你將建置一個階乘計算器。",
+          "你將練習使用迴圈和條件述語來計算數字的階乘。"
+        ]
+      },
+      "lab-repeat-a-string": {
+        "title": "建置字串重複函式",
+        "intro": [
+          "在此實驗中，你將實作迴圈以重複字串指定次數。"
+        ]
+      },
       "workshop-sentence-analyzer": {
         "title": "建置句子分析器",
         "intro": [
           "在此工作坊中，你將透過建置句子分析器應用程式來複習操作 JavaScript 迴圈。"
         ]
       },
-      "lab-traffic-light-sequencer": {
-        "title": "建置交通號誌序列器",
+      "lab-longest-word-in-a-string": {
+        "title": "建置最長字搜尋應用程式",
         "intro": [
-          "在此實驗中，你將使用 JavaScript 迴圈建置交通號誌序列器。"
+          "在此實驗中，你將使用 JavaScript 迴圈找出給定句子中最長字的長度。"
+        ]
+      },
+      "lab-mutations": {
+        "title": "實作突變演算法",
+        "intro": [
+          "在此實驗中，你將練習迭代兩個不同字串以比較它們的字元。"
+        ]
+      },
+      "lab-missing-letter-detector": {
+        "title": "建造缺字偵測器",
+        "intro": [
+          "在這個實驗中，你將建造一個函式，找出給定連續字母範圍中缺少的字母並傳回它。"
+        ]
+      },
+      "lab-profile-lookup": {
+        "title": "建置評測查詢",
+        "intro": [
+          "在此實驗中，你將建立一個函式來查詢評測資訊。"
         ]
       },
       "workshop-space-mission-roster": {
         "title": "建置太空任務名冊",
         "intro": [
           "在此工作坊中，你將利用 JavaScript 迴圈建置太空任務名冊。"
+        ]
+      },
+      "lab-chunky-monkey": {
+        "title": "實作 Chunky Monkey 演算法",
+        "intro": [
+          "在此實驗中，你將練習使用你選擇的技巧將陣列分割成較小的陣列。"
+        ]
+      },
+      "lab-device-loan-ledger": {
+        "title": "建置裝置借用帳本",
+        "intro": [
+          "在這個實驗室中，你將建置一個裝置借用帳本，以管理公司服務台提供的 IT 硬體。",
+          "你將透過實作函式來辦理裝置的借出與歸還、追蹤逾期借用，並在 JSON 字串與 JavaScript 物件間轉換，練習操作巢狀物件和 JSON。"
         ]
       },
       "workshop-heritage-library-catalog": {
@@ -4972,41 +5041,10 @@
           "你將練習使用迴圈、物件和字串方法來解析未經處理的文字資料、搜尋和群組條目、呈現格式化輸出，並匯出為 JSON 和 CSV。"
         ]
       },
-      "lab-longest-word-in-a-string": {
-        "title": "建置最長字搜尋應用程式",
+      "lab-smart-pantry-restocker": {
+        "title": "建造智慧儲藏室補貨程式",
         "intro": [
-          "在此實驗中，你將使用 JavaScript 迴圈找出給定句子中最長字的長度。"
-        ]
-      },
-      "lab-factorial-calculator": {
-        "title": "建置階乘計算器",
-        "intro": [
-          "在此實驗中，你將建置一個階乘計算器。",
-          "你將練習使用迴圈和條件述語來計算數字的階乘。"
-        ]
-      },
-      "lab-mutations": {
-        "title": "實作突變演算法",
-        "intro": [
-          "在此實驗中，你將練習迭代兩個不同字串以比較它們的字元。"
-        ]
-      },
-      "lab-chunky-monkey": {
-        "title": "實作 Chunky Monkey 演算法",
-        "intro": [
-          "在此實驗中，你將練習使用你選擇的技巧將陣列分割成較小的陣列。"
-        ]
-      },
-      "lab-profile-lookup": {
-        "title": "建置評測查詢",
-        "intro": [
-          "在此實驗中，你將建立一個函式來查詢評測資訊。"
-        ]
-      },
-      "lab-repeat-a-string": {
-        "title": "建置字串重複函式",
-        "intro": [
-          "在此實驗中，你將實作迴圈以重複字串指定次數。"
+          "在這個實驗中，你將使用基本的 JavaScript 概念，如陣列、物件、迴圈和條件語句，建造一個小型儲藏室管理程式。"
         ]
       },
       "workshop-festival-crowd-flow-simulator": {
@@ -5015,16 +5053,10 @@
           "在此工作坊中，你將使用 JavaScript 模擬音樂節參加者的人潮流動。"
         ]
       },
-      "lab-missing-letter-detector": {
-        "title": "建造缺字偵測器",
+      "lab-traffic-light-sequencer": {
+        "title": "建置交通號誌序列器",
         "intro": [
-          "在這個實驗中，你將建造一個函式，找出給定連續字母範圍中缺少的字母並傳回它。"
-        ]
-      },
-      "lab-smart-pantry-restocker": {
-        "title": "建造智慧儲藏室補貨程式",
-        "intro": [
-          "在這個實驗中，你將使用基本的 JavaScript 概念，如陣列、物件、迴圈和條件語句，建造一個小型儲藏室管理程式。"
+          "在此實驗中，你將使用 JavaScript 迴圈建置交通號誌序列器。"
         ]
       },
       "lab-proofreading-tool": {
@@ -6024,7 +6056,7 @@
       "lecture-introduction-to-javascript-libraries-and-frameworks": {
         "title": "JavaScript 函式庫與框架介紹",
         "intro": [
-          "在這些課程中，你將被介紹 JavaScript 函式庫與框架。你會了解它們的角色、單頁應用程式（SPA）及其相關問題，以及最受歡迎的前端 JavaScript 函式庫 React。"
+          "在這些課程中，你將初步認識 JavaScript 函式庫和框架。你會了解 JavaScript 函式庫和框架的角色、單頁應用程式（SPA）及其相關議題，以及最受歡迎的前端 JavaScript 函式庫 React。"
         ]
       },
       "workshop-reusable-mega-navbar": {
@@ -6455,7 +6487,7 @@
       "workshop-bill-splitter": {
         "title": "建置帳單分攤器",
         "intro": [
-          "在這個工作坊中，你將建置一個帳單分攤器，練習使用 Python 的數字與數學運算。"
+          "在這個工作坊中，你將建置一個帳單分攤器，練習使用 Python 處理數字和數學運算。"
         ]
       },
       "lecture-booleans-and-conditionals": {
@@ -6480,6 +6512,12 @@
         "title": "理解函式與作用域",
         "intro": [
           "在這些課程中，你將學習 Python 的函式和範圍。"
+        ]
+      },
+      "workshop-kitchen-inventory-tracker": {
+        "title": "建置廚房庫存追蹤器",
+        "intro": [
+          "在這個工作坊中，你將透過建置廚房庫存追蹤器，練習使用 Python 的函式和作用域。"
         ]
       },
       "lab-discount-calculator": {
@@ -6962,7 +7000,7 @@
       "lecture-working-with-code-editors-and-ides": {
         "title": "使用程式碼編輯器與整合開發環境",
         "intro": [
-          "在這些課程中，你將學習如何使用程式碼編輯器與整合開發環境。你會了解最受歡迎的程式碼編輯器 VS Code 的各種概念，例如安裝方法、如何在其中建立專案、鍵盤快速鍵和擴充套件。"
+          "在這些課程中，你將學習如何使用程式碼編輯器和整合開發環境。你會學會安裝 VS Code、建立專案、使用鍵盤快速鍵，以及操作擴充套件。"
         ]
       },
       "lecture-understanding-the-command-line-and-working-with-bash": {
@@ -7647,21 +7685,41 @@
       "es-a1-module-describing-a-company": "描述公司",
       "es-a1-module-describing-people-at-work": "描述工作中的人員"
     },
-    "module-intros": {
-      "es-a1-module-describing-a-company": {
-        "note": "2026 年推出",
-        "intro": [
-          "在此模組中，你將學習如何識別並描述公司的基本資訊，如名稱、網站、位置、員工數量和部門。"
-        ]
-      },
-      "es-a1-module-describing-people-at-work": {
-        "note": "2026 年推出",
-        "intro": [
-          "在此模組中，你將學習第三人稱描述，以及如何在短對話中識別簡單的修正。"
-        ]
-      }
-    },
     "blocks": {
+      "es-a1-learn-certification-introduction": {
+        "title": "認證介紹",
+        "intro": ["", ""]
+      },
+      "es-a1-learn-vowels": { "title": "母音", "intro": ["", ""] },
+      "es-a1-learn-consonants-and-special-characters": {
+        "title": "子音與特殊字元",
+        "intro": ["", ""]
+      },
+      "es-a1-practice-the-alphabet": {
+        "title": "西班牙語字母練習",
+        "intro": ["", ""]
+      },
+      "es-a1-learn-the-first-ten-numbers": {
+        "title": "前十個數字",
+        "intro": ["", ""]
+      },
+      "es-a1-practice-the-first-ten-numbers": {
+        "title": "前十個數字練習",
+        "intro": ["", ""]
+      },
+      "es-a1-learn-alphabet-and-accents": {
+        "title": "字母與重音符號",
+        "intro": ["", ""]
+      },
+      "es-a1-learn-punctuation": { "title": "標點符號", "intro": ["", ""] },
+      "es-a1-review-spanish-fundamentals": {
+        "title": "西班牙語基礎複習",
+        "intro": ["", ""]
+      },
+      "es-a1-quiz-spanish-fundamentals": {
+        "title": "西班牙語基礎測驗",
+        "intro": ["", ""]
+      },
       "es-a1-warm-up-greetings-and-farewells-basics": {
         "title": "問候與告別基礎",
         "intro": ["", ""]
@@ -7680,19 +7738,6 @@
       },
       "es-a1-quiz-greetings-and-farewells": {
         "title": "問候與告別測驗",
-        "intro": ["", ""]
-      },
-      "es-a1-learn-certification-introduction": {
-        "title": "認證介紹",
-        "intro": ["", ""]
-      },
-      "es-a1-learn-alphabet-and-accents": {
-        "title": "字母與重音符號",
-        "intro": ["", ""]
-      },
-      "es-a1-learn-punctuation": { "title": "標點符號", "intro": ["", ""] },
-      "es-a1-quiz-spanish-fundamentals": {
-        "title": "西班牙語基礎測驗",
         "intro": ["", ""]
       },
       "es-a1-warm-up-introducing-yourself-basics": {
@@ -7735,19 +7780,6 @@
       },
       "es-a1-quiz-first-questions": {
         "title": "第一批問題測驗",
-        "intro": ["", ""]
-      },
-      "es-a1-learn-vowels": { "title": "母音", "intro": ["", ""] },
-      "es-a1-learn-consonants-and-special-characters": {
-        "title": "子音與特殊字元",
-        "intro": ["", ""]
-      },
-      "es-a1-review-spanish-fundamentals": {
-        "title": "西班牙語基礎複習",
-        "intro": ["", ""]
-      },
-      "es-a1-practice-the-alphabet": {
-        "title": "西班牙語字母練習",
         "intro": ["", ""]
       },
       "es-a1-warm-up-remember-first-numbers": {
@@ -7794,20 +7826,8 @@
         "title": "分享你的個人資料測驗",
         "intro": ["", ""]
       },
-      "es-a1-learn-the-first-ten-numbers": {
-        "title": "前十個數字",
-        "intro": ["", ""]
-      },
-      "es-a1-practice-the-first-ten-numbers": {
-        "title": "前十個數字練習",
-        "intro": ["", ""]
-      },
       "es-a1-learn-numbers-30-to-60": {
         "title": "數字 30 到 60",
-        "intro": ["", ""]
-      },
-      "es-a1-warm-up-describing-a-company-basics": {
-        "title": "描述公司的基礎",
         "intro": ["", ""]
       },
       "es-a1-learn-numbers-61-to-100": {
@@ -7826,8 +7846,16 @@
         "title": "數字 30 到 100 測驗",
         "intro": ["", ""]
       },
+      "es-a1-warm-up-describing-a-company-basics": {
+        "title": "描述公司的基礎",
+        "intro": ["", ""]
+      },
       "es-a1-learn-what-the-company-does": {
         "title": "公司的業務內容",
+        "intro": ["", ""]
+      },
+      "es-a1-practice-what-departments-do": {
+        "title": "各部門職責",
         "intro": ["", ""]
       },
       "es-a1-learn-asking-about-a-company": {
@@ -7854,6 +7882,10 @@
         "title": "簡短傳記",
         "intro": ["", ""]
       },
+      "es-a1-learn-talking-about-colleagues": {
+        "title": "談論同事",
+        "intro": ["", ""]
+      },
       "es-a1-practice-asking-about-mini-biographies": {
         "title": "詢問簡短傳記",
         "intro": ["", ""]
@@ -7872,14 +7904,6 @@
       },
       "es-a1-quiz-describing-people-at-work": {
         "title": "描述工作中人物測驗",
-        "intro": ["", ""]
-      },
-      "es-a1-learn-talking-about-colleagues": {
-        "title": "談論同事",
-        "intro": ["", ""]
-      },
-      "es-a1-practice-what-departments-do": {
-        "title": "各部門職責",
         "intro": ["", ""]
       }
     }
@@ -7960,7 +7984,7 @@
       "lecture-understanding-the-html-boilerplate": {
         "title": "理解 HTML 標準模板",
         "intro": [
-          "在這些講座中，你將學習 HTML 標準模板，這是為你的網頁準備好的範本。",
+          "在這些課程中，你將了解 HTML 樣板，它是為你的網頁準備好的範本。",
           "你將學習如何使用 <code>link</code> 元素、<code>meta</code> 元素等。"
         ]
       },
@@ -7998,7 +8022,7 @@
       "lab-travel-agency-page": {
         "title": "建置旅行社頁面",
         "intro": [
-          "在這個實驗中，你將透過創建旅行社的網頁來複習 HTML 基礎。你會使用圖片、<code>figure</code> 元素、<code>figcaption</code> 元素、<code>anchor</code> 元素等。"
+          "在這個實驗室中，你將透過建立旅行社網頁，複習 HTML 基礎。你會使用圖片、<code>figure</code> 元素、<code>figcaption</code> 元素、<code>a</code> 元素等。"
         ]
       },
       "lecture-working-with-audio-and-video-elements": {
@@ -8036,13 +8060,13 @@
       "workshop-build-a-heart-icon": {
         "title": "建置愛心圖示",
         "intro": [
-          "在這個工作坊中，你將透過建置愛心圖示來練習使用 SVG。"
+          "在這個工作坊中，你將透過建置心形圖示，練習使用 SVG。"
         ]
       },
       "lecture-working-with-media": {
         "title": "使用 iframe 元素",
         "intro": [
-          "在這些講座中，你將學習如何使用 <code>iframe</code> 元素，該元素用於在你的網頁中嵌入外部網站。"
+          "在這些課程中，你將學習如何使用 <code>iframe</code> 元素，這個元素用來在你的網頁中嵌入外部網站。"
         ]
       },
       "workshop-build-a-video-display-using-iframe": {
@@ -8060,7 +8084,7 @@
       "lecture-working-with-links": {
         "title": "使用連結",
         "intro": [
-          "在這些講座中，你將學習連結、<code>target</code> 屬性、不同連結狀態、絕對與相對路徑等內容。"
+          "在這些課程中，你將了解連結、<code>target</code> 屬性、不同連結狀態、絕對與相對路徑等。"
         ]
       },
       "review-basic-html": {
@@ -8086,7 +8110,7 @@
       "lecture-understanding-nuanced-semantic-elements": {
         "title": "理解細微的語意元素",
         "intro": [
-          "在這些講座中，你將學習何時應使用特定語意元素，例如使用 <code>em</code> 元素而非 <code>i</code> 元素、描述列表等。"
+          "在這些課程中，你將學習何時使用 <code>em</code> 元素取代 <code>i</code> 元素。你也會了解描述列表和其他語意化 HTML 元素。"
         ]
       },
       "workshop-major-browsers-list": {
@@ -8110,7 +8134,7 @@
       "lecture-working-with-specialized-semantic-elements": {
         "title": "使用專門的語意元素",
         "intro": [
-          "在這堂課中，你將學習專門的語意元素，如 <code>u</code>、<code>s</code>、<code>code</code> 元素等。"
+          "在這堂課中，你將學習像是 <code>u</code>、<code>s</code>、<code>code</code> 等專用語意元素。"
         ]
       },
       "workshop-blog-page": {
@@ -8322,7 +8346,7 @@
       "lecture-what-is-css": {
         "title": "什麼是 CSS？",
         "intro": [
-          "以下課程全是關於 CSS。你將學習 CSS 是什麼及其在網頁上的角色、CSS 規則及其結構、三種撰寫 CSS 的方式及使用時機、行內與區塊元素，以及更多內容。"
+          "以下課程全都關於 CSS。你將學習 CSS 是什麼及其在網路上的角色、CSS 規則及其結構、三種撰寫 CSS 的方式及使用時機、行內元素和區塊元素，以及更多內容。"
         ]
       },
       "workshop-cafe-menu": {
@@ -8995,18 +9019,6 @@
       "zh-a1-module-discussing-team-skills": "討論團隊技能"
     },
     "module-intros": {
-      "zh-a1-module-introducing-others": {
-        "note": "2026 年推出",
-        "intro": [
-          "在此模組中，你將練習理解介紹他人資訊的短獨白，如姓名、職務、國籍和年齡。"
-        ]
-      },
-      "zh-a1-module-getting-to-know-the-team": {
-        "note": "2026 年推出",
-        "intro": [
-          "在本模組中，你將練習理解一段關於同事的簡短對話，內容涉及簡單的問答。"
-        ]
-      },
       "zh-a1-module-communicating-personal-information": {
         "note": "2026 年推出",
         "intro": [
@@ -9044,6 +9056,14 @@
         "title": "鼻音韻尾",
         "intro": ["", ""]
       },
+      "zh-a1-learn-special-spelling-rules": {
+        "title": "特殊拼寫規則",
+        "intro": ["", ""]
+      },
+      "zh-a1-practice-pinyin": {
+        "title": "拼音練習",
+        "intro": ["", ""]
+      },
       "zh-a1-warm-up-greeting-new-colleagues": {
         "title": "向新同事問候",
         "intro": ["", ""]
@@ -9064,20 +9084,12 @@
         "title": "問候與介紹測驗",
         "intro": ["", ""]
       },
+      "zh-a1-warm-up-meeting-new-teammates": {
+        "title": "認識新隊友",
+        "intro": ["", ""]
+      },
       "zh-a1-learn-understanding-questions-and-answers": {
         "title": "理解問題與答案",
-        "intro": ["", ""]
-      },
-      "zh-a1-practice-exchanging-basic-information": {
-        "title": "交換基本資訊",
-        "intro": ["", ""]
-      },
-      "zh-a1-review-introduction-questions": {
-        "title": "介紹問題複習",
-        "intro": ["", ""]
-      },
-      "zh-a1-quiz-introduction-questions": {
-        "title": "介紹問題測驗",
         "intro": ["", ""]
       },
       "zh-a1-warm-up-introducing-others-basics": {
@@ -9125,6 +9137,50 @@
         "title": "團隊介紹測驗",
         "intro": ["", ""]
       },
+      "zh-a1-practice-exchanging-basic-information": {
+        "title": "交換基本資訊",
+        "intro": ["", ""]
+      },
+      "zh-a1-review-introduction-questions": {
+        "title": "介紹問題複習",
+        "intro": ["", ""]
+      },
+      "zh-a1-quiz-introduction-questions": {
+        "title": "介紹問題測驗",
+        "intro": ["", ""]
+      },
+      "zh-a1-learn-numbers-0-to-10": {
+        "title": "數字 0 到 10",
+        "intro": ["", ""]
+      },
+      "zh-a1-practice-numbers-0-to-10": {
+        "title": "數字 0 到 10 練習",
+        "intro": ["", ""]
+      },
+      "zh-a1-learn-numbers-11-to-19": {
+        "title": "數字 11 到 19",
+        "intro": ["", ""]
+      },
+      "zh-a1-practice-numbers-11-to-19": {
+        "title": "數字 11 到 19 練習",
+        "intro": ["", ""]
+      },
+      "zh-a1-learn-numbers-20-to-99": {
+        "title": "數字 20 到 99",
+        "intro": ["", ""]
+      },
+      "zh-a1-practice-numbers-20-to-99": {
+        "title": "數字 20 到 99 練習",
+        "intro": ["", ""]
+      },
+      "zh-a1-review-numbers-below-100": {
+        "title": "100 以下數字複習",
+        "intro": ["", ""]
+      },
+      "zh-a1-quiz-numbers-below-100": {
+        "title": "100 以下數字測驗",
+        "intro": ["", ""]
+      },
       "zh-a1-warm-up-personal-skills-basics": {
         "title": "個人技能基礎",
         "intro": ["", ""]
@@ -9163,50 +9219,6 @@
       },
       "zh-a1-quiz-discussing-team-skills": {
         "title": "討論團隊技能測驗",
-        "intro": ["", ""]
-      },
-      "zh-a1-warm-up-meeting-new-teammates": {
-        "title": "認識新隊友",
-        "intro": ["", ""]
-      },
-      "zh-a1-learn-special-spelling-rules": {
-        "title": "特殊拼寫規則",
-        "intro": ["", ""]
-      },
-      "zh-a1-practice-pinyin": {
-        "title": "拼音練習",
-        "intro": ["", ""]
-      },
-      "zh-a1-learn-numbers-0-to-10": {
-        "title": "數字 0 到 10",
-        "intro": ["", ""]
-      },
-      "zh-a1-practice-numbers-0-to-10": {
-        "title": "數字 0 到 10 練習",
-        "intro": ["", ""]
-      },
-      "zh-a1-learn-numbers-11-to-19": {
-        "title": "數字 11 到 19",
-        "intro": ["", ""]
-      },
-      "zh-a1-practice-numbers-11-to-19": {
-        "title": "數字 11 到 19 練習",
-        "intro": ["", ""]
-      },
-      "zh-a1-learn-numbers-20-to-99": {
-        "title": "數字 20 到 99",
-        "intro": ["", ""]
-      },
-      "zh-a1-practice-numbers-20-to-99": {
-        "title": "數字 20 到 99 練習",
-        "intro": ["", ""]
-      },
-      "zh-a1-review-numbers-below-100": {
-        "title": "100 以下數字複習",
-        "intro": ["", ""]
-      },
-      "zh-a1-quiz-numbers-below-100": {
-        "title": "100 以下數字測驗",
         "intro": ["", ""]
       }
     }
@@ -9332,7 +9344,7 @@
       "lecture-working-with-media": {
         "title": "使用 iframe 元素",
         "intro": [
-          "在這些課程中，你將學習如何使用 <code>iframe</code> 元素，該元素用於在你的網頁中嵌入外部網站。"
+          "在這些課程中，你將學習如何使用 <code>iframe</code> 元素，這個元素用來在你的網頁中嵌入外部網站。"
         ]
       },
       "workshop-build-a-video-display-using-iframe": {
@@ -9387,7 +9399,7 @@
       "lecture-understanding-nuanced-semantic-elements": {
         "title": "理解細微的語意元素",
         "intro": [
-          "在這些課程中，你將學習何時應使用特定語意元素，例如使用 <code>em</code> 元素而非 <code>i</code> 元素、描述列表等。"
+          "在這些課程中，你將學習何時使用 <code>em</code> 元素取代 <code>i</code> 元素。你也會了解描述列表和其他語意化 HTML 元素。"
         ]
       },
       "workshop-major-browsers-list": {
@@ -9411,7 +9423,7 @@
       "lecture-working-with-specialized-semantic-elements": {
         "title": "使用專門的語意元素",
         "intro": [
-          "在這堂課中，你將學習專門的語意元素，如 <code>u</code>、<code>s</code>、<code>code</code> 元素等。"
+          "在這堂課中，你將學習像是 <code>u</code>、<code>s</code>、<code>code</code> 等專用語意元素。"
         ]
       },
       "workshop-blog-page": {
@@ -9590,7 +9602,7 @@
       "lecture-what-is-css": {
         "title": "什麼是 CSS？",
         "intro": [
-          "以下課程全是關於 CSS。你將學習 CSS 是什麼及其在網頁上的角色、CSS 規則及其結構、三種撰寫 CSS 的方式及使用時機、行內和區塊元素，還有更多內容。"
+          "以下課程全都關於 CSS。你將學習 CSS 是什麼及其在網路上的角色、CSS 規則及其結構、三種撰寫 CSS 的方式及使用時機、行內元素和區塊元素，以及更多內容。"
         ]
       },
       "workshop-cafe-menu": {
@@ -10394,5 +10406,235 @@
     "enable-cookies": "開始前請先啟用第三方 Cookie。",
     "english-only": "本區的課程僅提供英文版本。目前我們只能翻譯標題和介紹，課程內容尚未翻譯。",
     "exam-english-only": "請注意，認證考試目前僅提供英文版本。其他課程則有部分語言版本。"
+  },
+  "algorithms-and-data-structure": {
+    "title": "演算法與資料結構認證",
+    "intro": [
+      "本課程涵蓋 Python 的資料結構與演算法。",
+      "完成必須的專案並通過考試，即可獲得演算法與資料結構認證。"
+    ],
+    "chapters": {
+      "algorithms-and-data-structure": "演算法與資料結構"
+    },
+    "modules": {
+      "python-linear-data-structures": "線性資料結構",
+      "lab-hash-table": "建置雜湊表",
+      "python-recursion": "遞迴",
+      "python-algorithms": "演算法",
+      "lab-tower-of-hanoi": "實作河內塔演算法",
+      "python-graphs-and-trees": "圖形與樹狀結構",
+      "python-dynamic-programming": "動態規劃",
+      "review-python": "Python 複習"
+    },
+    "module-intros": {
+      "python-recursion": {
+        "intro": [
+          "在此模組中，你將學習遞迴和呼叫堆疊在 Python 中的運作方式。"
+        ]
+      }
+    },
+    "blocks": {
+      "lecture-working-with-common-data-structures": {
+        "title": "操作常見資料結構",
+        "intro": [
+          "在這些課程中，學習如何操作常見的資料結構。"
+        ]
+      },
+      "workshop-linked-list-class": {
+        "title": "建置鏈結串列",
+        "intro": [
+          "在這個工作坊中，你將透過建置鏈結串列，練習操作資料結構。"
+        ]
+      },
+      "review-data-structures": {
+        "title": "資料結構複習",
+        "intro": [
+          "在接受資料結構測驗前，請先複習你所學的內容。",
+          "打開此頁面，複習不同資料結構、演算法、時間與空間複雜度，以及大 O 符號等概念。"
+        ]
+      },
+      "quiz-data-structures": {
+        "title": "資料結構測驗",
+        "intro": [
+          "透過此測驗，測試你對 Python 資料結構的理解。"
+        ]
+      },
+      "lab-hash-table": {
+        "title": "建置雜湊表",
+        "intro": [
+          "雜湊表是一種用來儲存鍵值對的資料結構，並針對快速查找進行最佳化。",
+          "在這個實驗室中，你將運用資料結構知識建置雜湊表。"
+        ]
+      },
+      "lecture-understanding-recursion-and-the-call-stack-python": {
+        "title": "理解遞迴與呼叫堆疊",
+        "intro": [
+          "在這堂課中，你將學習遞迴函式和呼叫堆疊在 Python 中的運作方式。"
+        ]
+      },
+      "workshop-countup-python": {
+        "title": "建置計數函式",
+        "intro": [
+          "在這個工作坊中，你將建置一個使用遞迴來生成數字列表的函式。"
+        ]
+      },
+      "lab-range-of-numbers-python": {
+        "title": "建置數字範圍產生器",
+        "intro": [
+          "在這個實驗室中，你將使用遞迴來產生指定範圍內的數字列表。"
+        ]
+      },
+      "review-recursion-python": {
+        "title": "遞迴複習",
+        "intro": [
+          "複習遞迴、基底案例和呼叫堆疊的概念。"
+        ]
+      },
+      "quiz-recursion-python": {
+        "title": "遞迴測驗",
+        "intro": [
+          "測試你對遞迴、基底案例和呼叫堆疊的理解。"
+        ]
+      },
+      "lecture-searching-and-sorting-algorithms": {
+        "title": "搜尋與排序演算法",
+        "intro": [
+          "學習基本的搜尋與排序演算法，包括線性搜尋、二分搜尋法和合併排序。",
+          "這些課程涵蓋演算法實作、時間與空間複雜度分析，以及分而治之的程式設計範式。"
+        ]
+      },
+      "workshop-binary-search": {
+        "title": "實作二分搜尋演算法",
+        "intro": [
+          "二分搜尋演算法是一種用於在已排序列表中尋找標的項目的搜尋演算法。",
+          "在這個工作坊中，你將實作二分搜尋演算法，並傳回尋找標的的路徑，或傳回「找不到值」。"
+        ]
+      },
+      "lab-bisection-method": {
+        "title": "實作二分法",
+        "intro": [
+          "在這個實驗室中，你將實作二分法來尋找數字的平方根。"
+        ]
+      },
+      "workshop-merge-sort": {
+        "title": "實作合併排序演算法",
+        "intro": [
+          "合併排序演算法是一種基於分而治之原理的排序演算法。",
+          "在這個工作坊中，你將實作合併排序演算法來排序一串隨機數字。"
+        ]
+      },
+      "lab-quicksort": {
+        "title": "實作快速排序演算法",
+        "intro": [
+          "在這個實驗室中，你將實作快速排序演算法來排序整數列表。"
+        ]
+      },
+      "lab-selection-sort": {
+        "title": "實作選擇排序演算法",
+        "intro": [
+          "在這個實驗室中，你將實作選擇排序演算法。"
+        ]
+      },
+      "lab-luhn-algorithm": {
+        "title": "實作 Luhn 演算法",
+        "intro": [
+          "在此實驗中，你將實作 Luhn 演算法來驗證身份識別號碼，例如信用卡號碼。"
+        ]
+      },
+      "review-searching-and-sorting-algorithms": {
+        "title": "搜尋與排序演算法複習",
+        "intro": [
+          "在接受搜尋與排序演算法測驗前，你應該先複習相關內容。"
+        ]
+      },
+      "quiz-searching-and-sorting-algorithms": {
+        "title": "搜尋與排序演算法測驗",
+        "intro": [
+          "透過此測驗檢驗你對 Python 中搜尋與排序演算法的理解。"
+        ]
+      },
+      "lab-tower-of-hanoi": {
+        "title": "實作河內塔演算法",
+        "intro": [
+          "在此實驗中，你將實作一個演算法來解決河內塔謎題。"
+        ]
+      },
+      "lecture-understanding-graphs-and-trees": {
+        "title": "認識圖形與樹狀結構",
+        "intro": [
+          "本課程將介紹圖形、樹狀結構等基本資料結構，以及它們在計算機科學中的實際應用。"
+        ]
+      },
+      "workshop-shortest-path-algorithm": {
+        "title": "實作最短路徑演算法",
+        "intro": [
+          "在此工作坊中，你將實作一個演算法來尋找圖中兩個節點間的最短路徑。"
+        ]
+      },
+      "lab-adjacency-list-to-matrix-converter": {
+        "title": "建置鄰接列表轉矩陣轉換器",
+        "intro": [
+          "在此實驗中，你將實作一個函式，將圖的鄰接列表表述轉換為鄰接矩陣表述。"
+        ]
+      },
+      "workshop-breadth-first-search": {
+        "title": "實作廣度優先搜尋演算法",
+        "intro": [
+          "在此工作坊中，你將使用廣度優先搜尋演算法來產生所有有效的小括號組合。"
+        ]
+      },
+      "lab-depth-first-search": {
+        "title": "實作深度優先搜尋演算法",
+        "intro": [
+          "在此實驗中，你將實作深度優先搜尋演算法。"
+        ]
+      },
+      "lab-n-queens-problem": {
+        "title": "實作 N 皇后演算法",
+        "intro": [
+          "在此實驗中，你將實作 N 皇后問題的解法。"
+        ]
+      },
+      "review-graphs-and-trees": {
+        "title": "圖形與樹狀結構複習",
+        "intro": [
+          "在接受圖形與樹狀結構測驗前，你應該先複習相關內容。"
+        ]
+      },
+      "quiz-graphs-and-trees": {
+        "title": "圖形與樹狀結構測驗",
+        "intro": [
+          "透過此測驗檢驗你對 Python 中圖形與樹狀結構的理解。"
+        ]
+      },
+      "lecture-understanding-dynamic-programming": {
+        "title": "認識動態規劃",
+        "intro": [
+          "本課程將介紹動態規劃，一種透過將複雜問題拆解為較簡單子問題來高效解決問題的演算法技巧。"
+        ]
+      },
+      "lab-nth-fibonacci-number": {
+        "title": "建置第 N 個費氏數列計算器",
+        "intro": [
+          "在此實驗中，你將使用動態規劃方法實作費氏數列計算器。"
+        ]
+      },
+      "review-dynamic-programming": {
+        "title": "動態規劃複習",
+        "intro": [
+          "在接受動態規劃測驗前，你應該先複習相關內容。"
+        ]
+      },
+      "quiz-dynamic-programming": {
+        "title": "動態規劃測驗",
+        "intro": [
+          "透過此測驗檢驗你對 Python 中動態規劃的理解。"
+        ]
+      },
+      "review-python": {
+        "title": "Python 複習",
+        "intro": ["複習 Python 概念，為即將到來的考試做準備。"]
+      }
+    }
   }
 }

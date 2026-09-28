@@ -1,6 +1,6 @@
 ---
 id: 67fe85a3db9bad35f2b6a2bd
-title: Wie funktionieren bedingte Anweisungen und logische Operatoren?
+title: Wie funktionieren bedingte Anweisungen und Vergleichsoperatoren?
 challengeType: 19
 dashedName: how-do-conditional-statements-and-logical-operators-work
 ---
@@ -12,6 +12,8 @@ Bedingte Anweisungen, oder Konditionale, ermöglichen es Ihnen, den Ablauf Ihres
 Bevor wir jedoch darauf eingehen, sehen wir uns die grundlegenden Bausteine bedingter Anweisungen an, beginnend mit Vergleichsoperatoren. Vergleichsoperatoren sind Operatoren, mit denen Sie zwei oder mehr Werte vergleichen und einen Boolean-Wert zurückgeben können.
 
 In einer vorherigen Lektion haben Sie gelernt, dass Booleans einer der Datentypen in Python sind und nur `True` oder `False` sein können.
+
+## Verwendung von Vergleichsoperatoren
 
 Hier ist eine Tabelle mit den Vergleichsoperatoren in Python:
 
@@ -35,6 +37,8 @@ print(3 != 4) # True
 print(3 >= 4) # False
 print(3 <= 4) # True
 ```
+
+## Verwendung von `if`-Anweisungen
 
 Diese Operatoren können in Konditionalen verwendet werden, um Werte zu vergleichen und bestimmten Code auszuführen, je nachdem, ob die Bedingung zu `True` oder `False` ausgewertet wird.
 
@@ -86,6 +90,8 @@ if age >= 18:
     print('You are an adult') # Nothing shows up in the terminal
 ```
 
+## Hinzufügen einer `else`-Klausel
+
 Aber was, wenn Sie auch etwas ausgeben möchten, wenn `age` kleiner als `18` ist? Hier kommt die `else`-Klausel ins Spiel. Die `else`-Klausel wird ausgeführt, wenn die `if`-Bedingung falsch ist. Hier ist die Syntax für eine `if…else`-Anweisung:
 
 ```python
@@ -118,7 +124,9 @@ else: # SyntaxError: invalid syntax
     print('You are not an adult yet')
 ```
 
-Es kann Situationen geben, in denen Sie mehrere Bedingungen berücksichtigen möchten. Dafür erlaubt Python, Ihre if-Anweisung mit dem Schlüsselwort `elif` (else if) zu erweitern.
+## Hinzufügen von `elif`-Klauseln
+
+Es kann Situationen geben, in denen Sie mehrere Bedingungen berücksichtigen möchten. Dafür erlaubt Python, Ihre `if`-Anweisung mit dem Schlüsselwort `elif` (else if) zu erweitern.
 
 Hier ist die Syntax:
 
@@ -163,7 +171,7 @@ else:
     print('You are a toddler or an infant') # You are a toddler or an infant
 ```
 
-Jetzt, da Sie verstanden haben, wie Vergleichsoperatoren und bedingte Anweisungen in Python funktionieren, können Sie Programme schreiben, die Entscheidungen basierend auf Logik und Eingaben treffen. Ob Sie Werte vergleichen oder durch mehrere Bedingungen verzweigen – diese Werkzeuge sind die Grundlage für das Schreiben flexibler, responsiver Programme.
+Jetzt, da Sie verstanden haben, wie Vergleichsoperatoren und bedingte Anweisungen in Python funktionieren, können Sie Programme schreiben, die Entscheidungen basierend auf Logik und Eingaben treffen. Ob Sie Werte vergleichen oder durch mehrere Bedingungen verzweigen – diese Werkzeuge sind die Grundlage, um flexiblen, responsiven Code zu schreiben.
 
 # --questions--
 

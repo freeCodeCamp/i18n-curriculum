@@ -13,9 +13,13 @@ Junto com essas atualizações, o React adicionou um novo hook chamado `useOptim
 
 Embora isso seja frequentemente usado para buscar dados de um servidor, não se limita a isso. O hook é geralmente útil para lidar com operações assíncronas, garantindo que a UI permaneça fluida e interativa enquanto a ação é executada.
 
-Vamos dar uma olhada no que é o hook `useOptimistic` e como ele contribui para criar interfaces rápidas e responsivas. 
+Vamos dar uma olhada no que é o hook `useOptimistic` e como ele contribui para criar interfaces rápidas e responsivas.
+
+## O hook `useOptimistic`
 
 O hook `useOptimistic` ajuda a gerenciar "atualizações otimistas" na UI, uma estratégia na qual você fornece atualizações imediatas para a UI com base no resultado esperado de uma ação, como aguardar a resposta de um servidor.
+
+### Sintaxe básica
 
 Aqui está a sintaxe básica do hook `useOptimistic`:
 
@@ -31,13 +35,17 @@ const [optimisticState, addOptimistic] = useOptimistic(actualState, updateFuncti
 
 - `updateFunction` é a função que determina como o estado otimista deve ser atualizado quando chamada.
 
+## Atualizações otimistas vs. estados de carregamento
+
 À primeira vista, pode parecer que o hook `useOptimistic` é apenas mais uma forma de lidar com estados de carregamento no React. Mas é mais do que isso.
 
-Um estado de carregamento controla se você vê um spinner, mensagem ou algum outro indicador na UI enquanto algo acontece em segundo plano. 
+Um estado de carregamento controla se você vê um spinner, mensagem ou algum outro indicador na UI enquanto algo acontece em segundo plano.
 
 No entanto, o hook `useOptimistic` atualiza a UI instantaneamente com base em um resultado esperado, mesmo antes de você, por exemplo, fazer uma chamada para uma API. Este hook oferece a você a oportunidade de mostrar um indicador ou mensagem de carregamento, lidar com erros potenciais de forma elegante e mostrar um feedback instantâneo para tornar a interface do usuário mais ágil.
 
 Isso ficará mais claro à medida que passarmos por alguns exemplos mostrando como o hook `useOptimistic` funciona.
+
+## Construindo um exemplo
 
 Aqui está uma ação que simula salvar uma tarefa em um servidor. Ele retorna a tarefa após um atraso de 1 segundo, como poderia acontecer com uma requisição de API do mundo real:
 
@@ -48,6 +56,8 @@ export async function saveTask(task) {
   return task;
 }
 ```
+
+### Configurando o hook
 
 Aqui está o código que configura o hook `useOptimistic` importando e inicializando-o, com uma função `handleSubmit` que envia uma entrada para a action:
 
@@ -81,6 +91,8 @@ No código, o hook `useOptimistic` mantém uma lista temporária de tarefas que 
 A linha `(state, newTask) => [...state, { text: newTask, pending: true }]` garante que uma nova tarefa apareça com status pendente mesmo antes do servidor confirmar que algo está vindo do formulário.
 
 Quando o formulário é enviado, a função `handleSubmit` extrai a tarefa e a adiciona "otimisticamente" com o parâmetro `addOptimisticTask`. Então `addTask` é passado como uma prop que envia a tarefa para o servidor. Finalmente, o formulário é resetado chamando `e.target.reset()`.
+
+### O componente `TaskList`
 
 Aqui está o componente `TaskList`:
 
@@ -141,6 +153,8 @@ export default function TaskList({ tasks, addTask }) {
 
 Aqui, estamos percorrendo o parâmetro `optimisticTask` para exibir a tarefa. Quando `task.pending` é `true`, o texto `Adding Task...` é exibido ao lado da tarefa, confirmando que a tarefa foi adicionada de forma otimista antes do servidor confirmá-la.
 
+### O componente `Tasks`
+
 Aqui está o componente `Task` que gerencia o estado do formulário. Ele chama a função `saveTask` da action para que ela possa adicionar a tarefa e anexa a nova tarefa assim que ela for recebida pelo servidor:
 
 ```jsx
@@ -165,6 +179,8 @@ export default function Tasks() {
 ```
 
 Isso garante atualizações rápidas da UI mostrando feedback instantâneo em vez de esperar por uma resposta. Uma vez que a tarefa é salva, a propriedade `pending` é removida e a lista final de tarefas é atualizada de acordo.
+
+## Corrigindo problemas comuns
 
 Na interface do usuário, estão acontecendo duas coisas que não deveriam acontecer. Primeiro, você não consegue ver o texto `Adding Task...` porque ele aparece e desaparece rápido demais. Em seguida, ocorre um erro após adicionar a tarefa.
 

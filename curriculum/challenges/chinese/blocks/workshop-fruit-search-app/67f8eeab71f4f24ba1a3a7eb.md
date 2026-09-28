@@ -7,11 +7,11 @@ dashedName: step-11
 
 # --description--
 
-在表单后，添加一个 `div` 元素，其 `id` 为 `results`，用于显示查找结果。
+在 `form` 元素之后，添加一个 `div` 元素，`id` 为 `results`，用于显示查找结果。
 
 # --hints--
 
-你应该在表单后添加一个 `id` 为 `results` 的 `div` 元素。
+你应该在 `form` 元素之后有一个 `id` 为 `results` 的 `div` 元素。
 
 ```js
 const searchContainer = document.getElementById("search-container");

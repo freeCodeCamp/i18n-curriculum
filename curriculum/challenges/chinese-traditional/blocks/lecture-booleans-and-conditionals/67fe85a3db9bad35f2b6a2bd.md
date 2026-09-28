@@ -1,6 +1,6 @@
 ---
 id: 67fe85a3db9bad35f2b6a2bd
-title: 條件述語和邏輯運算子如何運作？
+title: 條件語句和比較運算子如何運作？
 challengeType: 19
 dashedName: how-do-conditional-statements-and-logical-operators-work
 ---
@@ -12,6 +12,8 @@ dashedName: how-do-conditional-statements-and-logical-operators-work
 但在進入這些之前，讓我們先來了解條件述語的基本建造區塊，從比較運算子開始。比較運算子是讓你比較兩個或多個值，並傳回布林值的運算子。
 
 在先前的課程中，你學到布林值是 Python 中的資料型別之一，且只能是 `True` 或 `False`。
+
+## 使用比較運算子
 
 以下是 Python 中比較運算子的表格：
 
@@ -35,6 +37,8 @@ print(3 != 4) # True
 print(3 >= 4) # False
 print(3 <= 4) # True
 ```
+
+## 使用 `if` 述語
 
 這些運算子可以用在條件判斷中，比較數值並根據條件判斷是否計算為 `True` 或 `False` 來執行特定的程式碼。
 
@@ -86,6 +90,8 @@ if age >= 18:
     print('You are an adult') # Nothing shows up in the terminal
 ```
 
+## 添加 `else` 語句
+
 但是如果你也想在 `age` 小於 `18` 時列印某些東西呢？這時候就會用到 `else` 語句。當 `if` 條件為假時，`else` 語句會被執行。以下是 `if…else` 述語的語法：
 
 ```python
@@ -118,7 +124,9 @@ else: # SyntaxError: invalid syntax
     print('You are not an adult yet')
 ```
 
-有時你可能想要考慮多個條件。為此，Python 允許你使用 `elif`（else if）關鍵字來擴充你的 if 述語。
+## 添加 `elif` 語句
+
+有時你可能需要考慮多個條件。為此，Python 允許你用 `elif`（else if）關鍵字擴充你的 `if` 述語。
 
 語法如下：
 
@@ -163,7 +171,7 @@ else:
     print('You are a toddler or an infant') # You are a toddler or an infant
 ```
 
-既然你了解了比較運算子和條件述語在 Python 中的運作方式，你就可以開始撰寫根據邏輯和輸入做出決策的程式。無論你是在比較數值還是透過多重條件分支，這些工具都是撰寫靈活且具回應性的程式碼的基礎。
+既然你已經了解比較運算子和條件語句在 Python 中的運作方式，你就可以開始撰寫根據邏輯和輸入做出決策的程式。無論是比較值還是根據多重條件分支，這些工具都是撰寫靈活且具回應性的程式碼的基礎。
 
 # --questions--
 

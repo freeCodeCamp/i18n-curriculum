@@ -7,26 +7,26 @@ dashedName: lab-symmetric-difference
 
 # --description--
 
-Compara dos arreglos y devuelve un nuevo arreglo con los elementos que sólo se encuentran en uno de los dos arreglos dados, pero no en ambos. En otras palabras, devuelve la diferencia simétrica de los dos arreglos.
+Compara dos arreglos y devuelve un nuevo arreglo con los elementos que se encuentran solo en uno de los dos arreglos dados, pero no en ambos. En otras palabras, devuelve la diferencia simétrica de los dos arreglos.
 
 Ejemplo:
 
-- Array A: `["diamond", "stick", "apple"]`
+- Arreglo A: `["diamond", "stick", "apple"]`
 
-- Array B: `["stick", "emerald", "bread"]`
+- Arreglo B: `["stick", "emerald", "bread"]`
 
-Resultado: `["diamond", "apple", "emerald", "bread"]`
+- Resultado: `["diamond", "apple", "emerald", "bread"]`
 
 **Objetivo:** Cumplir con las historias de usuario a continuación y pasar todas las pruebas para completar el laboratorio.
 
 **Historias de usuario:**
 
-1. Tu función `diffArray` debería devolver un array.
-2. Tu función debe tomar dos argumentos, ambos son arreglos.
-3. Tu función debe hacer uso del método `filter`.
-4. Tu función debe devolver la diferencia simétrica de los dos arrays.
-5. Tu función debería devolver un arreglo vacío si no hay diferencia simétrica.
-
+1. Tu función `diffArray` debe devolver un arreglo.
+2. Tu función debe recibir dos argumentos, ambos arreglos.
+3. Tu función debe usar el método `filter`.
+4. Tu función debe devolver la diferencia simétrica de los dos arreglos.
+5. Tu función debe devolver un arreglo vacío si no hay diferencia simétrica.
+6. Tu función debe listar los elementos que se encuentran solo en el primer arreglo antes que los que se encuentran solo en el segundo arreglo, preservando su orden original dentro de cada arreglo.
 
 # --hints--
 
@@ -36,10 +36,16 @@ Debes tener una función llamada `diffArray`.
 assert.isFunction(diffArray);
 ```
 
-La función `diffArray` debe usar el método `filter` para eliminar los elementos que están presentes en ambos arrays.
+Tu función `diffArray` debe usar el método `filter`.
 
 ```js
-assert(/\.filter\(/.test(diffArray.toString()));
+const spy = __helpers.spyOn(Array.prototype, 'filter');
+try {
+  diffArray([1, 2], [2, 3]);
+  assert.isAbove(spy.calls.length, 0);
+} finally {
+  spy.restore();
+}
 ```
 
 `diffArray(["diorite", "andesite", "grass", "dirt", "pink wool", "dead shrub"], ["diorite", "andesite", "grass", "dirt", "dead shrub"])` debería devolver `["pink wool"]`.
@@ -60,7 +66,7 @@ assert.deepEqual(diffArray(
 ), ["diorite", "pink wool"]);
 ```
 
-`diffArray` debería devolver un arreglo vacío cuando se llame con dos arreglos idénticos.
+`diffArray(["andesite", "grass", "dirt", "dead shrub"], ["andesite", "grass", "dirt", "dead shrub"])` debe devolver `[]`.
 
 ```js
 assert.deepEqual(diffArray(
@@ -118,7 +124,7 @@ assert.deepEqual(diffArray(
 
 ```js
 assert.deepEqual(diffArray(
-  [], 
+  [],
   []
 ), []);
 ```

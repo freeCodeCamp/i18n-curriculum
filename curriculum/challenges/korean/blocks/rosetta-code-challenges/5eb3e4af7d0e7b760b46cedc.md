@@ -17,7 +17,7 @@ dashedName: set-consolidation
 
 N > 2인 N개의 집합이 주어지면, 두 집합 조합을 반복적으로 통합하여 더 이상 통합할 수 없을 때까지 이 과정을 계속한 결과가 됩니다. N < 2이면 통합의 엄밀한 의미가 없으므로 입력을 그대로 반환할 수 있습니다.
 
-예시는 다음과 같습니다:
+다음은 몇 가지 예시입니다:
 
 **예시 1:**
 
@@ -53,7 +53,7 @@ N > 2인 N개의 집합이 주어지면, 두 집합 조합을 반복적으로 �
 assert(typeof setConsolidation === 'function');
 ```
 
-`setConsolidation(["AB", "CD"])` 는 배열을 반환해야 합니다.
+`setConsolidation(["AB", "CD"])`는 배열을 반환해야 합니다.
 
 ```js
 assert(Array.isArray(setConsolidation(['AB', 'CD'])));

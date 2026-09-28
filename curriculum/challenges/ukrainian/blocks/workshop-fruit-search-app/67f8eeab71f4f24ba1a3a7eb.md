@@ -7,11 +7,11 @@ dashedName: step-11
 
 # --description--
 
-Після форми додайте `div` елемент з `id` `results`, який відображатиме результати пошуку.
+Після елемента `form` додайте елемент `div` з `id` рівним `results`, який відображатиме результати пошуку.
 
 # --hints--
 
-Після форми має бути `div` елемент з `id` `results`.
+Після `form` елемента додайте `div` елемент з `id` рівним `results`, який відображатиме результати пошуку.
 
 ```js
 const searchContainer = document.getElementById("search-container");

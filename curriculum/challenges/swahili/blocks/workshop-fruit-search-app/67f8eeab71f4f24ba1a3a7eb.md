@@ -7,11 +7,11 @@ dashedName: step-11
 
 # --description--
 
-Baada ya fomu, ongeza kipengele cha `div` chenye `id` ya `results` itakayowonyesha matokeo ya utafutaji.
+Baada ya kipengele cha `form`, ongeza kipengele cha `div` chenye `id` ya `results` ambacho kitaonyesha matokeo ya utafutaji.
 
 # --hints--
 
-Unapaswa kuwa na kipengele cha `div` chenye `id` ya `results` baada ya fomu.
+Unapaswa kuwa na kipengele cha `div` chenye `id` ya `results` baada ya kipengele cha `form`.
 
 ```js
 const searchContainer = document.getElementById("search-container");

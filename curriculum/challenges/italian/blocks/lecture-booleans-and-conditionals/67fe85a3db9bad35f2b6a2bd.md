@@ -1,6 +1,6 @@
 ---
 id: 67fe85a3db9bad35f2b6a2bd
-title: Come funzionano le istruzioni condizionali e gli operatori logici?
+title: Come funzionano le istruzioni condizionali e gli operatori di confronto?
 challengeType: 19
 dashedName: how-do-conditional-statements-and-logical-operators-work
 ---
@@ -12,6 +12,8 @@ Le istruzioni condizionali, o condizionali, ti permettono di controllare il flus
 Ma prima di entrare nel dettaglio, vediamo i blocchi fondamentali delle istruzioni condizionali, a partire dagli operatori di confronto. Gli operatori di confronto sono operatori che ti permettono di confrontare due o più valori e restituiscono un valore booleano.
 
 In una lezione precedente, hai imparato che i booleani sono uno dei tipi di dato in Python e possono essere solo `True` o `False`.
+
+## Usare gli operatori di confronto
 
 Ecco una tabella con gli operatori di confronto in Python:
 
@@ -35,6 +37,8 @@ print(3 != 4) # True
 print(3 >= 4) # False
 print(3 <= 4) # True
 ```
+
+## Usare le istruzioni `if`
 
 Questi operatori possono essere usati nelle istruzioni condizionali per confrontare valori ed eseguire del codice in base al fatto che la condizione valuti a `True` o `False`.
 
@@ -86,6 +90,8 @@ if age >= 18:
     print('You are an adult') # Nothing shows up in the terminal
 ```
 
+## Aggiungere una clausola `else`
+
 Ma cosa succede se vuoi anche stampare qualcosa se `age` è minore di `18`? Qui entra in gioco la clausola `else`. La clausola `else` viene eseguita quando la condizione `if` è falsa. Ecco la sintassi per un’istruzione `if…else`:
 
 ```python
@@ -118,7 +124,9 @@ else: # SyntaxError: invalid syntax
     print('You are not an adult yet')
 ```
 
-Potrebbero esserci situazioni in cui vuoi considerare condizioni multiple. Per farlo, Python ti permette di estendere la tua istruzione if con la parola chiave `elif` (else if).
+## Aggiungere clausole `elif`
+
+Potrebbero esserci situazioni in cui vuoi considerare condizioni multiple. Per farlo, Python ti permette di estendere la tua istruzione `if` con la parola chiave `elif` (else if).
 
 Ecco la sintassi:
 
@@ -163,7 +171,7 @@ else:
     print('You are a toddler or an infant') # You are a toddler or an infant
 ```
 
-Ora che hai capito come funzionano gli operatori di confronto e le istruzioni condizionali in Python, puoi iniziare a scrivere programmi che prendono decisioni basate sulla logica e sugli input. Che tu stia confrontando valori o gestendo più condizioni, questi strumenti sono la base per scrivere codice flessibile e responsivo.
+Ora che hai capito come funzionano gli operatori di confronto e le istruzioni condizionali in Python, puoi iniziare a scrivere programmi che prendono decisioni basate sulla logica e sull'input. Che tu stia confrontando valori o gestendo più condizioni, questi strumenti sono la base per scrivere codice flessibile e responsivo.
 
 # --questions--
 

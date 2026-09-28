@@ -2,7 +2,6 @@
 id: bad87fee1348bd9aedf0887a
 title: عنوان باستخدام عنصر h2
 challengeType: 0
-videoUrl: 'https://scrimba.com/p/pVMPUv/cE8Gqf3'
 forumTopicId: 18196
 dashedName: headline-with-the-h2-element
 ---
@@ -27,7 +26,7 @@ dashedName: headline-with-the-h2-element
 assert.lengthOf(document.querySelectorAll('h2'),1);
 ```
 
-يجب أن يحتوي عنصر `h2` على وسم إغلاق.
+يجب أن يحتوي عنصر `h2` الخاص بك على وسم الإغلاق.
 
 ```js
 assert.match(code,/<\/h2>/g);

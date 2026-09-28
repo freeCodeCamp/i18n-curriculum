@@ -1,6 +1,6 @@
 ---
 id: 67fe85a3db9bad35f2b6a2bd
-title: 条件式语句和逻辑操作符如何工作？
+title: 条件语句和比较操作符如何工作？
 challengeType: 19
 dashedName: how-do-conditional-statements-and-logical-operators-work
 ---
@@ -12,6 +12,8 @@ dashedName: how-do-conditional-statements-and-logical-operators-work
 但在进入所有这些之前，让我们先了解条件式的基本创建块，从比较操作符开始。比较操作符是让你比较两个或多个值，并返回布尔值的操作符。
 
 在之前的课程中，你学习了布尔是 Python 中的一种数据类型，并且只能是 `True` 或 `False`。
+
+## 使用比较操作符
 
 这是一个包含 Python 中比较操作符的表格：
 
@@ -35,6 +37,8 @@ print(3 != 4) # True
 print(3 >= 4) # False
 print(3 <= 4) # True
 ```
+
+## 使用 `if` 语句
 
 这些操作符可以在条件式中使用，以比较值并根据条件式是否计算为 `True` 或 `False` 来运行特定代码。
 
@@ -86,6 +90,8 @@ if age >= 18:
     print('You are an adult') # Nothing shows up in the terminal
 ```
 
+## 添加 `else` 子句
+
 但是如果你还想在 `age` 小于 `18` 时打印一些内容呢？这就是 `else` 子句的作用。`else` 子句在 `if` 条件为假时运行。下面是 `if…else` 语句的语法：
 
 ```python
@@ -118,7 +124,9 @@ else: # SyntaxError: invalid syntax
     print('You are not an adult yet')
 ```
 
-可能会有你想要考虑多个条件的情况。为此，Python 允许你使用 `elif`（else if）关键字扩展你的 if 语句。
+## 添加 `elif` 子句
+
+有时你可能需要考虑多个条件。为此，Python 允许你用 `elif`（else if）关键字扩展你的 `if` 语句。
 
 语法如下：
 
@@ -163,7 +171,7 @@ else:
     print('You are a toddler or an infant') # You are a toddler or an infant
 ```
 
-既然你已经了解了比较操作符和条件式在 Python 中的工作原理，你就可以开始编写基于逻辑和输入做出决策的程序。无论你是在比较值还是通过多个条件分支，这些工具都是编写灵活、响应式代码的基础。
+既然你已经了解了比较操作符和条件语句在 Python 中的工作原理，你就可以开始编写基于逻辑和输入做出决策的程序了。无论是比较值还是通过多个条件分支，这些工具都是编写灵活、响应式代码的基础。
 
 # --questions--
 

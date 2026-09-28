@@ -7,7 +7,7 @@ dashedName: lab-symmetric-difference
 
 # --description--
 
-Confronta due array e restituisci un nuovo array con tutti gli elementi presenti solo in uno dei due array dati, ma non in entrambi. In altre parole, restituisci la differenza simmetrica dei due array.
+Confronta due array e restituisci un nuovo array con tutti gli elementi presenti in solo uno dei due array dati, ma non in entrambi. In altre parole, restituisci la differenza simmetrica dei due array.
 
 Esempio:
 
@@ -15,18 +15,18 @@ Esempio:
 
 - Array B: `["stick", "emerald", "bread"]`
 
-Risultato: `["diamond", "apple", "emerald", "bread"]`
+- Risultato: `["diamond", "apple", "emerald", "bread"]`
 
-**Obiettivo:** Completa le storie utente qui sotto e fai superare tutti i test per completare il laboratorio.
+**Obiettivo:** Completa le storie utente qui sotto e fai passare tutti i test per completare il laboratorio.
 
 **Storie utente:**
 
 1. La tua funzione `diffArray` dovrebbe restituire un array.
 2. La tua funzione dovrebbe prendere due argomenti, entrambi array.
 3. La tua funzione dovrebbe usare il metodo `filter`.
-4. La tua funzione dovrebbe restituire la differenza simmetrica dei due array.  
-5. La tua funzione dovrebbe restituire un array vuoto se non c’è differenza simmetrica.
-
+4. La tua funzione dovrebbe restituire la differenza simmetrica dei due array.
+5. La tua funzione dovrebbe restituire un array vuoto se non c'è differenza simmetrica.
+6. La tua funzione dovrebbe elencare gli elementi presenti solo nel primo array prima di quelli presenti solo nel secondo array, mantenendo il loro ordine originale all'interno di ciascun array.
 
 # --hints--
 
@@ -36,10 +36,16 @@ Dovresti avere una funzione chiamata `diffArray`.
 assert.isFunction(diffArray);
 ```
 
-La funzione `diffArray` dovrebbe usare il metodo `filter` per filtrare gli elementi presenti in entrambi gli array.
+La tua funzione `diffArray` dovrebbe usare il metodo `filter`.
 
 ```js
-assert(/\.filter\(/.test(diffArray.toString()));
+const spy = __helpers.spyOn(Array.prototype, 'filter');
+try {
+  diffArray([1, 2], [2, 3]);
+  assert.isAbove(spy.calls.length, 0);
+} finally {
+  spy.restore();
+}
 ```
 
 `diffArray(["diorite", "andesite", "grass", "dirt", "pink wool", "dead shrub"], ["diorite", "andesite", "grass", "dirt", "dead shrub"])` dovrebbe restituire `["pink wool"]`.
@@ -60,7 +66,7 @@ assert.deepEqual(diffArray(
 ), ["diorite", "pink wool"]);
 ```
 
-`diffArray` dovrebbe restituire un array vuoto se chiamata con due array identici.
+`diffArray(["andesite", "grass", "dirt", "dead shrub"], ["andesite", "grass", "dirt", "dead shrub"])` dovrebbe restituire `[]`.
 
 ```js
 assert.deepEqual(diffArray(
@@ -118,7 +124,7 @@ assert.deepEqual(diffArray(
 
 ```js
 assert.deepEqual(diffArray(
-  [], 
+  [],
   []
 ), []);
 ```

@@ -7,7 +7,7 @@ dashedName: lab-symmetric-difference
 
 # --description--
 
-Linganisheni safu mbili za data na rudisheni safu mpya yenye vitu vyovyote vinavyopatikana katika moja tu ya safu hizo mbili, lakini si zote mbili. Kwa maneno mengine, rudisheni tofauti ya usawa ya safu hizo mbili.
+Linganisheni safu mbili za data na rudisheni safu mpya yenye vitu vyovyote vilivyopatikana katika moja tu ya safu hizo mbili, lakini si zote mbili. Kwa maneno mengine, rudisheni tofauti ya usawa ya safu hizo mbili.
 
 Mfano:
 
@@ -15,18 +15,18 @@ Mfano:
 
 - Safu B: `["stick", "emerald", "bread"]`
 
-Matokeo: `["diamond", "apple", "emerald", "bread"]`
+- Matokeo: `["diamond", "apple", "emerald", "bread"]`
 
-**Lengo:** Timilieni hadithi za watumizi zilizo hapa chini na pokea mitihani yote ili kumaliza maabara hii.
+**Lengo:** Timiza hadithi za watumizi zilizo hapa chini na upite vipimo vyote ili kumaliza maabara.
 
 **Hadithi za watumizi:**
 
 1. Kitendakazi chako `diffArray` kinapaswa kurudisha safu ya data.
-2. Kitendakazi chako kinapaswa kupokea hoja mbili, zote zikiwa safu za data.
+2. Kitendakazi chako kinapaswa kuchukua hoja mbili, zote zikiwa safu za data.
 3. Kitendakazi chako kinapaswa kutumia njia ya `filter`.
-4. Kitendakazi chako kinapaswa kurudisha tofauti ya usawa ya safu hizo mbili.  
+4. Kitendakazi chako kinapaswa kurudisha tofauti ya usawa ya safu hizo mbili.
 5. Kitendakazi chako kinapaswa kurudisha safu tupu ikiwa hakuna tofauti ya usawa.
-
+6. Kitendakazi chako kinapaswa kuorodhesha vitu vilivyopatikana tu katika safu ya kwanza kabla ya vitu vilivyopatikana tu katika safu ya pili, huku vikihifadhi mpangilio wao wa awali ndani ya kila safu.
 
 # --hints--
 
@@ -36,10 +36,16 @@ Unapaswa kuwa na kitendakazi kinachoitwa `diffArray`.
 assert.isFunction(diffArray);
 ```
 
-Kitendakazi cha `diffArray` kinapaswa kutumia njia ya `filter` kuchuja vitu vilivyopo katika safu zote mbili.
+Kitendakazi chako `diffArray` kinapaswa kutumia njia ya `filter`.
 
 ```js
-assert(/\.filter\(/.test(diffArray.toString()));
+const spy = __helpers.spyOn(Array.prototype, 'filter');
+try {
+  diffArray([1, 2], [2, 3]);
+  assert.isAbove(spy.calls.length, 0);
+} finally {
+  spy.restore();
+}
 ```
 
 `diffArray(["diorite", "andesite", "grass", "dirt", "pink wool", "dead shrub"], ["diorite", "andesite", "grass", "dirt", "dead shrub"])` inapaswa kurudisha `["pink wool"]`.
@@ -60,7 +66,7 @@ assert.deepEqual(diffArray(
 ), ["diorite", "pink wool"]);
 ```
 
-`diffArray` inapaswa kurudisha safu tupu ikipigiwa wito na safu mbili zinazofanana.
+`diffArray(["andesite", "grass", "dirt", "dead shrub"], ["andesite", "grass", "dirt", "dead shrub"])` kinapaswa kurudisha `[]`.
 
 ```js
 assert.deepEqual(diffArray(
@@ -118,7 +124,7 @@ assert.deepEqual(diffArray(
 
 ```js
 assert.deepEqual(diffArray(
-  [], 
+  [],
   []
 ), []);
 ```

@@ -1,8 +1,7 @@
 ---
 id: bad87fee1348bd9aedf0887a
-title: h2要素による見出し
+title: H2要素による見出し
 challengeType: 0
-videoUrl: 'https://scrimba.com/p/pVMPUv/cE8Gqf3'
 forumTopicId: 18196
 dashedName: headline-with-the-h2-element
 ---
@@ -21,13 +20,13 @@ dashedName: headline-with-the-h2-element
 
 # --hints--
 
-`h2`要素を作成してください。
+`h2` 要素を作成してください。
 
 ```js
 assert.lengthOf(document.querySelectorAll('h2'),1);
 ```
 
-`h2`要素には終了タグが必要です。
+`h2` 要素には終了タグが必要です。
 
 ```js
 assert.match(code,/<\/h2>/g);
@@ -40,7 +39,7 @@ assert.strictEqual(code.match(/<\/h2>/g).length,code.match(/<h2>/g).length);
 assert.match(document.querySelector('h2').textContent,/cat(\s)?photo(\s)?app/gi);
 ```
 
-`h1`要素にはテキスト`Hello World`が含まれているべきです。
+`h1`要素のテキストは`Hello World`であるべきです。
 
 ```js
 assert.match(document.querySelector('h1').textContent,/hello(\s)+world/gi);

@@ -53,7 +53,7 @@ N > 2 のN個のセットが与えられた場合、結果は2つのセットの
 assert(typeof setConsolidation === 'function');
 ```
 
-`setConsolidation(["AB", "CD"])` は配列を返すべきです。
+`setConsolidation(["AB", "CD"])` は配列を返す必要があります。
 
 ```js
 assert(Array.isArray(setConsolidation(['AB', 'CD'])));

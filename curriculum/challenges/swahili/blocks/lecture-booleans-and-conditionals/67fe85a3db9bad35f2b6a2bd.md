@@ -1,6 +1,6 @@
 ---
 id: 67fe85a3db9bad35f2b6a2bd
-title: Jinsi taarifa za masharti na opereta za kimantiki zinavyofanya kazi
+title: Jinsi Kifungu cha Masharti na Viongozi wa Ulinganishaji Hufanya Kazi?
 challengeType: 19
 dashedName: how-do-conditional-statements-and-logical-operators-work
 ---
@@ -12,6 +12,8 @@ Taarifa za masharti, au masharti, hukuruhusu kudhibiti mtiririko wa programu yak
 Lakini kabla hatujaingia katika yote hayo, hebu tuangalie vipengele vya msingi vya taarifa za masharti, kuanzia na opereta za kulinganisha. Opereta za kulinganisha ni opereta zinazokuruhusu kulinganisha thamani mbili au zaidi, na kurudisha thamani ya thamani ya kweli au siyo kweli.
 
 Katika funzo lililopita, ulijifunza kwamba thamani za kweli au siyo kweli ni mojawapo ya aina za data katika Python, na zinaweza kuwa tu `True` au `False`.
+
+## Kutumia viongozi wa ulinganishaji
 
 Hapa kuna jedwali lenye opereta za kulinganisha katika Python:
 
@@ -35,6 +37,8 @@ print(3 != 4) # True
 print(3 >= 4) # False
 print(3 <= 4) # True
 ```
+
+## Kutumia vifungu vya `if`
 
 Opereta hizi zinaweza kutumika katika masharti kulinganisha thamani na kuendesha msimbo fulani kulingana na kama taarifa ya masharti inatathmini kuwa `True` au `False`.
 
@@ -86,6 +90,8 @@ if age >= 18:
     print('You are an adult') # Nothing shows up in the terminal
 ```
 
+## Kuongeza kifungu cha `else`
+
 Lakini vipi ikiwa pia unataka kuchapisha kitu ikiwa `age` ni chini ya `18`? Hapo ndipo kifungu cha `else` kinapoingia. Kifungu cha `else` hufanya kazi wakati hali ya `if` ni si kweli. Hapa ni sintaksia ya taarifa ya `if…else`:
 
 ```python
@@ -118,7 +124,9 @@ else: # SyntaxError: invalid syntax
     print('You are not an adult yet')
 ```
 
-Huenda kuna hali ambapo unataka kuzingatia masharti mengi. Ili kufanya hivyo, Python inakuwezesha kuongeza taarifa yako ya if kwa neno kuu la `elif` (else if).
+## Kuongeza vifungu vya `elif`
+
+Huenda ukakutana na hali ambapo unataka kuzingatia masharti mengi. Ili kufanya hivyo, Python inakuwezesha kuongeza kifungu chako cha `if` kwa kutumia neno kuu `elif` (else if).
 
 Hapa ni sintaksia:
 
@@ -163,7 +171,7 @@ else:
     print('You are a toddler or an infant') # You are a toddler or an infant
 ```
 
-Sasa unapoelewa jinsi opereta za kulinganisha na taarifa za masharti zinavyofanya kazi katika Python, unaweza kuanza kuandika programu zinazofanya maamuzi kulingana na mantiki na ingizo. Iwe unalinganisha thamani au kuzunguka kupitia masharti mengi, zana hizi ni msingi wa kuandika msimbo unaojibadilisha kulingana na kifaa.
+Sasa unapoelewa jinsi viongozi wa ulinganishaji na vifungu vya masharti vinavyofanya kazi katika Python, unaweza kuanza kuandika programu zinazofanya maamuzi kulingana na mantiki na ingizo. Iwe unalinganisha thamani au unagawanya kupitia masharti mengi, zana hizi ni msingi wa kuandika msimbo unaojibadilisha kulingana na kifaa na unaofanya kazi kwa ufanisi.
 
 # --questions--
 

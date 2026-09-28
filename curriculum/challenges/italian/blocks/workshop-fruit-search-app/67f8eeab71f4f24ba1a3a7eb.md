@@ -7,11 +7,11 @@ dashedName: step-11
 
 # --description--
 
-Dopo il modulo, aggiungi un elemento `div` con un `id` di `results` che mostrerà i risultati della ricerca.
+Dopo l'elemento `form`, aggiungi un elemento `div` con un `id` di `results` che mostrerà i risultati della ricerca.
 
 # --hints--
 
-Dovresti avere un elemento `div` con il `id` di `results` dopo il modulo.
+Dovresti avere un elemento `div` con l'`id` di `results` dopo l'elemento `form`.
 
 ```js
 const searchContainer = document.getElementById("search-container");

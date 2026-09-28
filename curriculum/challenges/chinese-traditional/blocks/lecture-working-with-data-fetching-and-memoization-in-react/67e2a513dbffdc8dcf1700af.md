@@ -13,9 +13,13 @@ React 的近期版本介紹了伺服端組件和伺服端動作，以將部分�
 
 雖然這通常用於從伺服器獲取資料，但並不限於此。這個掛鉤通常對處理非同步操作行為很有用，確保在操作執行時使用者介面保持流暢且可互動。
 
-讓我們來看看什麼是 `useOptimistic` 掛鉤，以及它如何幫助打造快速且反應靈敏的使用者介面。 
+讓我們來看看什麼是 `useOptimistic` 掛鉤，以及它如何幫助打造快速且反應靈敏的使用者介面。
+
+## `useOptimistic` 掛鉤
 
 `useOptimistic` 掛鉤有助於管理 UI 中的「樂觀更新」，這是一種策略，讓你根據動作的預期結果（例如等待伺服端回應）立即更新 UI。
+
+### 基本語法
 
 以下是 `useOptimistic` 掛鉤的基本語法：
 
@@ -31,13 +35,17 @@ const [optimisticState, addOptimistic] = useOptimistic(actualState, updateFuncti
 
 - `updateFunction` 是決定在被呼叫時樂觀狀態應如何更新的函式（程式）。
 
+## 樂觀更新與載入狀態的比較
+
 乍看之下，`useOptimistic` 掛鉤似乎只是 React 中處理載入狀態的另一種方式。但它不僅如此。
 
-載入狀態控制你是否在背景發生某些事情時，在使用者介面中看到旋轉指示器、訊息或其他指示器。 
+載入狀態控制你是否在背景發生某些事情時，在使用者介面中看到旋轉指示器、訊息或其他指示器。
 
 然而，`useOptimistic` 掛鉤會根據預期結果即時更新 UI，即使在你，例如，進行 API 呼叫之前。這個掛鉤讓你有機會顯示載入指示器或訊息、優雅地控制代碼潛在錯誤，並顯示即時回授，使 UI 感覺更流暢。
 
 隨著我們透過一些範例展示 `useOptimistic` 掛鉤的運作方式，這將變得更加清楚。
+
+## 建置範例
 
 這是一個模擬將任務儲存到伺服器的動作。它會在 1 秒延遲後傳回該任務，就像真實世界的 API 請求可能發生的情況一樣：
 
@@ -48,6 +56,8 @@ export async function saveTask(task) {
   return task;
 }
 ```
+
+### 設定掛鉤
 
 這是透過匯入並初始化 `useOptimistic` 掛鉤來設定的程式碼，並包含一個將輸入傳送到動作的 `handleSubmit` 函式。
 
@@ -81,6 +91,8 @@ export default function TaskList({ tasks, addTask }) {
 這行 `(state, newTask) => [...state, { text: newTask, pending: true }]` 確保新任務即使在伺端確認來自表單的內容之前，也會以待處理狀態出現。
 
 當表單提交時，`handleSubmit` 函式（程式）會擷取任務並使用 `addOptimisticTask` 參數「樂觀地」添加它。然後將 `addTask` 作為屬性傳遞，該屬性會將任務傳送到伺服器。最後，透過呼叫 `e.target.reset()` 重設表單。
+
+### `TaskList` 組件
 
 這是 `TaskList` 組件：
 
@@ -141,6 +153,8 @@ export default function TaskList({ tasks, addTask }) {
 
 在這裡，我們正在迴圈處理 `optimisticTask` 參數以顯示任務。當 `task.pending` 為 `true` 時，會在任務旁顯示文字 `Adding Task...`，以確認任務在伺服端確認之前已樂觀地被添加。
 
+### `Tasks` 組件
+
 這是管理表單狀態的 `Task` 組件。它會呼叫 action 中的 `saveTask` 函式（程式），以便為你的任務添加任務，並在伺服端接收到新任務後將其附加：
 
 ```jsx
@@ -165,6 +179,8 @@ export default function Tasks() {
 ```
 
 這確保了快速的使用者介面更新，透過顯示即時回授而非等待回應。任務一旦存檔，`pending` 屬性即會被移除，最終的任務列表也會相應更新。
+
+## 修正常見問題
 
 在使用者介面中，有兩件不應該發生的事情。首先，你看不到 `Adding Task...` 文字，因為它出現又消失得太快。接著，新增任務後發生了錯誤。
 

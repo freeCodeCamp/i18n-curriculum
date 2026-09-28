@@ -7,7 +7,7 @@ dashedName: lab-symmetric-difference
 
 # --description--
 
-比较两个数组并返回一个新数组，包含所有只在其中一个数组中出现的元素，排除两个数组都存在的元素。 换言之，我们需要返回两个数组的对称差。
+比较两个数组，返回一个新数组，其中包含只出现在两个给定数组之一中的项，但不同时出现在两个数组中。换句话说，返回两个数组的对称差集。
 
 例如：
 
@@ -15,18 +15,18 @@ dashedName: lab-symmetric-difference
 
 - 数组 B：`["stick", "emerald", "bread"]`
 
-结果：`["diamond", "apple", "emerald", "bread"]`
+- 结果：`["diamond", "apple", "emerald", "bread"]`
 
 **目标：**实现以下用户需求并通过所有测试以完成实验。
 
 **用户故事：**
 
 1. 你的函数 `diffArray` 应该返回一个数组。
-2. 你的函数应接受两个参数，这两个参数都是数组。
-3. 你的函数应使用 `filter` 方法。
-4. 你的函数应返回两个数组的对称差集。
-5. 如果没有对称差异，你的函数应返回一个空数组。
-
+2. 你的函数应该接受两个参数，这两个参数都是数组。
+3. 你的函数应该使用 `filter` 方法。
+4. 你的函数应该返回两个数组的对称差集。
+5. 如果没有对称差集，你的函数应该返回一个空数组。
+6. 你的函数应该先列出只出现在第一个数组中的项，再列出只出现在第二个数组中的项，并保持它们在各自数组中的原始顺序。
 
 # --hints--
 
@@ -36,10 +36,16 @@ dashedName: lab-symmetric-difference
 assert.isFunction(diffArray);
 ```
 
-`diffArray` 函数应使用 `filter` 方法过滤出两个数组中都存在的项。
+你的 `diffArray` 函数应该使用 `filter` 方法。
 
 ```js
-assert(/\.filter\(/.test(diffArray.toString()));
+const spy = __helpers.spyOn(Array.prototype, 'filter');
+try {
+  diffArray([1, 2], [2, 3]);
+  assert.isAbove(spy.calls.length, 0);
+} finally {
+  spy.restore();
+}
 ```
 
 `diffArray(["diorite", "andesite", "grass", "dirt", "pink wool", "dead shrub"], ["diorite", "andesite", "grass", "dirt", "dead shrub"])` 应该返回 `["pink wool"]`。
@@ -60,7 +66,7 @@ assert.deepEqual(diffArray(
 ), ["diorite", "pink wool"]);
 ```
 
-当使用两个一致的数组调用 `diffArray` 时，应返回一个空数组。
+`diffArray(["andesite", "grass", "dirt", "dead shrub"], ["andesite", "grass", "dirt", "dead shrub"])` 应该返回 `[]`。
 
 ```js
 assert.deepEqual(diffArray(
@@ -118,7 +124,7 @@ assert.deepEqual(diffArray(
 
 ```js
 assert.deepEqual(diffArray(
-  [], 
+  [],
   []
 ), []);
 ```

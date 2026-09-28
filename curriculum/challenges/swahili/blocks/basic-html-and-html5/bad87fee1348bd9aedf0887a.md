@@ -2,7 +2,6 @@
 id: bad87fee1348bd9aedf0887a
 title: Kichwa cha sehemu na kipengele cha h2
 challengeType: 0
-videoUrl: 'https://scrimba.com/p/pVMPUv/cE8Gqf3'
 forumTopicId: 18196
 dashedName: headline-with-the-h2-element
 ---
@@ -21,7 +20,7 @@ Ongeza lebo ya `h2` inayosema "CatPhotoApp" ili kuunda kipengele cha pili cha HT
 
 # --hints--
 
-Unapaswa kuunda kipengele cha `h2`.
+Unapaswa kutengeneza kipengele cha `h2`.
 
 ```js
 assert.lengthOf(document.querySelectorAll('h2'),1);

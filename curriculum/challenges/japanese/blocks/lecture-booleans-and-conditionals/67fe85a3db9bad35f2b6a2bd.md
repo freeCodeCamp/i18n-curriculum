@@ -1,6 +1,6 @@
 ---
 id: 67fe85a3db9bad35f2b6a2bd
-title: 条件文と論理演算子はどのように機能するのか？
+title: 条件文と比較演算子の仕組み
 challengeType: 19
 dashedName: how-do-conditional-statements-and-logical-operators-work
 ---
@@ -12,6 +12,8 @@ dashedName: how-do-conditional-statements-and-logical-operators-work
 しかし、その前に、条件文の基本的な構成要素である比較演算子から説明しましょう。比較演算子は、2つ以上の値を比較し、ブール値を返す演算子です。
 
 前のレッスンで、ブール値はPythonのデータ型の一つであり、`True`か`False`のどちらかしか取れないことを学びました。
+
+## 比較演算子の使い方
 
 以下はPythonの比較演算子の一覧です：
 
@@ -35,6 +37,8 @@ print(3 != 4) # True
 print(3 >= 4) # False
 print(3 <= 4) # True
 ```
+
+## `if` 文の使い方
 
 これらの演算子は条件文で使われ、条件が`True`か`False`かに基づいて特定のコードを実行します。
 
@@ -86,6 +90,8 @@ if age >= 18:
     print('You are an adult') # Nothing shows up in the terminal
 ```
 
+## `else` 節の追加
+
 しかし、`age`が`18`より小さい場合に何かを出力したい場合はどうでしょうか？その場合は`else`節が使えます。`else`節は`if`条件が偽のときに実行されます。`if…else`文の構文は以下の通りです：
 
 ```python
@@ -118,7 +124,9 @@ else: # SyntaxError: invalid syntax
     print('You are not an adult yet')
 ```
 
-複数の条件を考慮したい場合もあります。そのためにPythonはif文を`elif`（else if）キーワードで拡張できます。
+## `elif` 節の追加
+
+複数の条件を考慮したい場合があります。そのために、Pythonでは`if`文を`elif`（else if）キーワードで拡張できます。
 
 構文は以下の通りです：
 
@@ -163,7 +171,7 @@ else:
     print('You are a toddler or an infant') # You are a toddler or an infant
 ```
 
-これでPythonの比較演算子と条件文の仕組みが理解できたので、論理や入力に基づいて判断を行うプログラムを書き始めることができます。値を比較したり複数の条件で分岐したりする場合でも、これらのツールは柔軟でレスポンシブなコードを書くための基礎です。
+比較演算子と条件文の仕組みが理解できたので、論理や入力に基づいて判断を行うプログラムを書き始められます。値を比較したり複数の条件で分岐したりする場合でも、これらのツールは柔軟でレスポンシブなコードを書くための基礎です。
 
 # --questions--
 

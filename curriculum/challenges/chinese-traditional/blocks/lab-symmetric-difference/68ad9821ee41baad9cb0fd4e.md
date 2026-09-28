@@ -7,7 +7,7 @@ dashedName: lab-symmetric-difference
 
 # --description--
 
-比較兩個陣列並傳回一個新的陣列，其中包含只出現在兩個給定陣列其中一個中的任何項目，但不包含兩者皆有的項目。換句話說，傳回兩個陣列的對稱差集。
+比較兩個陣列並傳回一個新陣列，該陣列包含只出現在兩個給定陣列其中一個中，但不在兩者皆有的任何項目。換句話說，傳回這兩個陣列的對稱差集。
 
 範例：
 
@@ -15,18 +15,18 @@ dashedName: lab-symmetric-difference
 
 - 陣列 B：`["stick", "emerald", "bread"]`
 
-結果：`["diamond", "apple", "emerald", "bread"]`
+- 結果：`["diamond", "apple", "emerald", "bread"]`
 
 **目標：** 完成以下使用者故事並通過所有測試以完成實驗。
 
 **使用者故事：**
 
-1. 你的函式（程式）`diffArray` 應該傳回一個陣列。
-2. 你的函式（程式）應該接受兩個引數，兩者皆為陣列。
-3. 你的函式（程式）應該使用 `filter` 方法。
+1. 你的函式 `diffArray` 應該傳回一個陣列。
+2. 你的函式應該接受兩個引數，兩者皆為陣列。
+3. 你的函式應該使用 `filter` 方法。
 4. 你的函式應該傳回兩個陣列的對稱差集。
-5. 如果沒有對稱差異，你的函式應該傳回一個空陣列。
-
+5. 如果沒有對稱差集，函式應該傳回空陣列。
+6. 你的函式應該先列出只出現在第一個陣列的項目，再列出只出現在第二個陣列的項目，並保留它們在各自陣列中的原始順序。
 
 # --hints--
 
@@ -36,10 +36,16 @@ dashedName: lab-symmetric-difference
 assert.isFunction(diffArray);
 ```
 
-`diffArray` 函式應該使用 `filter` 方法來過濾出同時存在於兩個陣列中的項目。
+你的 `diffArray` 函式應該使用 `filter` 方法。
 
 ```js
-assert(/\.filter\(/.test(diffArray.toString()));
+const spy = __helpers.spyOn(Array.prototype, 'filter');
+try {
+  diffArray([1, 2], [2, 3]);
+  assert.isAbove(spy.calls.length, 0);
+} finally {
+  spy.restore();
+}
 ```
 
 `diffArray(["diorite", "andesite", "grass", "dirt", "pink wool", "dead shrub"], ["diorite", "andesite", "grass", "dirt", "dead shrub"])` 應該傳回 `["pink wool"]`。
@@ -60,7 +66,7 @@ assert.deepEqual(diffArray(
 ), ["diorite", "pink wool"]);
 ```
 
-當以兩個相同的陣列呼叫 `diffArray` 時，應傳回一個空陣列。
+`diffArray(["andesite", "grass", "dirt", "dead shrub"], ["andesite", "grass", "dirt", "dead shrub"])` 應該傳回 `[]`。
 
 ```js
 assert.deepEqual(diffArray(
@@ -118,7 +124,7 @@ assert.deepEqual(diffArray(
 
 ```js
 assert.deepEqual(diffArray(
-  [], 
+  [],
   []
 ), []);
 ```
