@@ -2,7 +2,6 @@
 id: bad87fee1348bd9aedf0887a
 title: Заголовок із елементом h2
 challengeType: 0
-videoUrl: 'https://scrimba.com/p/pVMPUv/cE8Gqf3'
 forumTopicId: 18196
 dashedName: headline-with-the-h2-element
 ---
@@ -21,13 +20,13 @@ dashedName: headline-with-the-h2-element
 
 # --hints--
 
-Вам слід створити елемент `h2`.
+Ви повинні створити елемент `h2`.
 
 ```js
 assert.lengthOf(document.querySelectorAll('h2'),1);
 ```
 
-Ваш елемент `h2` має мати кінцевий тег.
+Ваш `h2` елемент повинен мати кінцевий тег.
 
 ```js
 assert.match(code,/<\/h2>/g);
@@ -40,7 +39,7 @@ assert.strictEqual(code.match(/<\/h2>/g).length,code.match(/<h2>/g).length);
 assert.match(document.querySelector('h2').textContent,/cat(\s)?photo(\s)?app/gi);
 ```
 
-Ваш елемент `h1` має містити текст `Hello World`.
+Ваш `h1` елемент повинен містити текст `Hello World`.
 
 ```js
 assert.match(document.querySelector('h1').textContent,/hello(\s)+world/gi);

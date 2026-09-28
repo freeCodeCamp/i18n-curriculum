@@ -11,8 +11,8 @@ dashedName: set-consolidation
 給定兩組項目，若任一項目在任一組中共有，則對這些組套用 *consolidation* 的結果是一組組，其內容為：
 
 <ul>
-  <li>The two input sets if no common item exists between the two input sets of items.</li>
-  <li>The single set that is the union of the two input sets if they share a common item.</li>
+  <li>如果兩個輸入陣列之間沒有共同的項目，則結果為這兩個輸入陣列。</li>
+  <li>如果它們有共同的項目，則結果為這兩個輸入陣列的聯集（數學）單一陣列。</li>
 </ul>
 
 給定 N 組項目，其中 N > 2，結果與反覆將所有兩組項目的組合替換為其合併結果直到無法再進行組合合併相同。如果 N < 2，則合併沒有嚴格意義，且可以傳回輸入。

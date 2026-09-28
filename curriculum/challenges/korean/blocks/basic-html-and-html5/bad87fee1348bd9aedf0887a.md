@@ -1,8 +1,7 @@
 ---
 id: bad87fee1348bd9aedf0887a
-title: h2 요소로 제목 만들기
+title: H2 요소로 제목 만들기
 challengeType: 0
-videoUrl: 'https://scrimba.com/p/pVMPUv/cE8Gqf3'
 forumTopicId: 18196
 dashedName: headline-with-the-h2-element
 ---
@@ -27,7 +26,7 @@ dashedName: headline-with-the-h2-element
 assert.lengthOf(document.querySelectorAll('h2'),1);
 ```
 
-`h2` 요소에는 닫는 태그가 있어야 합니다.
+`h2` 요소는 닫는 태그가 있어야 합니다.
 
 ```js
 assert.match(code,/<\/h2>/g);
@@ -40,7 +39,7 @@ assert.strictEqual(code.match(/<\/h2>/g).length,code.match(/<h2>/g).length);
 assert.match(document.querySelector('h2').textContent,/cat(\s)?photo(\s)?app/gi);
 ```
 
-`h1` 요소에는 `Hello World` 텍스트가 있어야 합니다.
+`h1` 요소의 텍스트는 `Hello World`여야 합니다.
 
 ```js
 assert.match(document.querySelector('h1').textContent,/hello(\s)+world/gi);

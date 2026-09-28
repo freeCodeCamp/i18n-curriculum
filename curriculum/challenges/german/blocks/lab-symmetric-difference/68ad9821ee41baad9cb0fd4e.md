@@ -15,18 +15,18 @@ Beispiel:
 
 - Array B: `["stick", "emerald", "bread"]`
 
-Ergebnis: `["diamond", "apple", "emerald", "bread"]`
+- Ergebnis: `["diamond", "apple", "emerald", "bread"]`
 
-**Ziel:** Erfüllen Sie die untenstehenden User Stories und bestehen Sie alle Tests, um die Aufgabe abzuschließen.
+**Ziel:** Erfüllen Sie die untenstehenden User Stories und bestehen Sie alle Tests, um das Labor abzuschließen.
 
 **User Stories:**
 
 1. Ihre Funktion `diffArray` sollte ein Array zurückgeben.
 2. Ihre Funktion sollte zwei Argumente annehmen, von denen beide Arrays sind.
 3. Ihre Funktion sollte die Methode `filter` verwenden.
-4. Ihre Funktion sollte die symmetrische Differenz der beiden Arrays zurückgeben.  
-5. Ihre Funktion sollte ein leeres Array zurückgeben, wenn keine symmetrische Differenz vorliegt.
-
+4. Ihre Funktion sollte die symmetrische Differenz der beiden Arrays zurückgeben.
+5. Ihre Funktion sollte ein leeres Array zurückgeben, wenn es keine symmetrische Differenz gibt.
+6. Ihre Funktion sollte die Elemente, die nur im ersten Array vorkommen, vor denen auflisten, die nur im zweiten Array vorkommen, und dabei die ursprüngliche Reihenfolge innerhalb jedes Arrays beibehalten.
 
 # --hints--
 
@@ -36,10 +36,16 @@ Sie sollten eine Funktion mit dem Namen `diffArray` haben.
 assert.isFunction(diffArray);
 ```
 
-Die Funktion `diffArray` sollte die Methode `filter` verwenden, um Elemente herauszufiltern, die in beiden Arrays vorhanden sind.
+Ihre Funktion `diffArray` sollte die Methode `filter` verwenden.
 
 ```js
-assert(/\.filter\(/.test(diffArray.toString()));
+const spy = __helpers.spyOn(Array.prototype, 'filter');
+try {
+  diffArray([1, 2], [2, 3]);
+  assert.isAbove(spy.calls.length, 0);
+} finally {
+  spy.restore();
+}
 ```
 
 `diffArray(["diorite", "andesite", "grass", "dirt", "pink wool", "dead shrub"], ["diorite", "andesite", "grass", "dirt", "dead shrub"])` sollte `["pink wool"]` zurückgeben.
@@ -60,7 +66,7 @@ assert.deepEqual(diffArray(
 ), ["diorite", "pink wool"]);
 ```
 
-`diffArray` sollte ein leeres Array zurückgeben, wenn sie mit zwei identischen Arrays aufgerufen wird.
+`diffArray(["andesite", "grass", "dirt", "dead shrub"], ["andesite", "grass", "dirt", "dead shrub"])` sollte `[]` zurückgeben.
 
 ```js
 assert.deepEqual(diffArray(
@@ -118,7 +124,7 @@ assert.deepEqual(diffArray(
 
 ```js
 assert.deepEqual(diffArray(
-  [], 
+  [],
   []
 ), []);
 ```

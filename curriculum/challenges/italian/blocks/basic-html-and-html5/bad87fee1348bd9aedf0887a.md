@@ -2,7 +2,6 @@
 id: bad87fee1348bd9aedf0887a
 title: "Intestazione con l'elemento h2"
 challengeType: 0
-videoUrl: 'https://scrimba.com/p/pVMPUv/cE8Gqf3'
 forumTopicId: 18196
 dashedName: headline-with-the-h2-element
 ---
@@ -40,7 +39,7 @@ Il tuo elemento `h2` dovrebbe contenere il testo `CatPhotoApp`.
 assert.match(document.querySelector('h2').textContent,/cat(\s)?photo(\s)?app/gi);
 ```
 
-Il tuo elemento `h1` dovrebbe contenere il testo `Hello World`.
+Il tuo elemento `h1` dovrebbe avere il testo `Hello World`.
 
 ```js
 assert.match(document.querySelector('h1').textContent,/hello(\s)+world/gi);

@@ -11,8 +11,8 @@ dashedName: set-consolidation
 Dados dos conjuntos de elementos, y si cualquier elemento es común a cualquier conjunto entonces el resultado de aplicar *consolidación* a esos conjuntos es un conjunto de conjuntos cuyo contenido es:
 
 <ul>
-  <li>The two input sets if no common item exists between the two input sets of items.</li>
-  <li>The single set that is the union of the two input sets if they share a common item.</li>
+  <li>Los dos conjuntos de entrada si no existe ningún elemento común entre los dos conjuntos de entrada.</li>
+  <li>El conjunto único que es la unión de los dos conjuntos de entrada si comparten un elemento común.</li>
 </ul>
 
 Dado N conjuntos de elementos donde N > 2, el resultado es el mismo que reemplazar repetidamente todas las combinaciones de dos conjuntos por su consolidación hasta que no sea posible una consolidación adicional entre pares de conjuntos. Si N &lt; 2, entonces la consolidación no tiene un significado estricto y se puede devolver la entrada.
@@ -53,7 +53,7 @@ Escribe uná función que tome un arreglo de cadenas como parámetro. Cada caden
 assert(typeof setConsolidation === 'function');
 ```
 
-`setConsolidation(["AB", "CD"])` deberian devolver un arreglo.
+`setConsolidation(["AB", "CD"])` debe devolver un arreglo.
 
 ```js
 assert(Array.isArray(setConsolidation(['AB', 'CD'])));

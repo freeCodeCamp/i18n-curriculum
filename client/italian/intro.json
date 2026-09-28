@@ -833,12 +833,32 @@
           "Costruendo questo progetto acquisirai esperienza con calcoli numerici e manipolazione di stringhe."
         ]
       },
+      "learn-lambda-functions-by-building-an-expense-tracker": {
+        "title": "Impara le funzioni lambda costruendo un tracker di spese",
+        "intro": [
+          "Le funzioni lambda ti offrono un modo conciso per scrivere funzioni piccole e usa e getta nel tuo codice.",
+          "In questo progetto esplorerai la potenza delle funzioni lambda creando un tracker di spese. La tua app dimostrerà come usare le funzioni lambda per operazioni efficienti e snelle."
+        ]
+      },
       "learn-list-comprehension-by-building-a-case-converter-program": {
         "title": "Impara la list comprehension di Python costruendo un convertitore di maiuscole e minuscole",
         "intro": [
           "La list comprehension è un modo per costruire una nuova lista Python da tipi iterabili: liste, tuple e stringhe. Tutto senza usare un loop for o il metodo <code>.append()</code> della lista.",
           "In questo progetto scriverai un programma che prende una stringa formattata in Camel Case o Pascal Case e la converte in Snake Case.",
           "Il progetto ha due fasi: prima userai un loop for per implementare il programma. Poi imparerai a usare la list comprehension invece del loop per ottenere gli stessi risultati."
+        ]
+      },
+      "learn-the-bisection-method-by-finding-the-square-root-of-a-number": {
+        "title": "Impara il metodo della bisezione trovando la radice quadrata di un numero",
+        "intro": [
+          "I metodi numerici sono usati per approssimare soluzioni a problemi matematici difficili o impossibili da risolvere analiticamente.",
+          "In questo progetto esplorerai il metodo numerico della bisezione per trovare la radice quadrata di un numero restringendo iterativamente l'intervallo di valori che contiene la radice quadrata."
+        ]
+      },
+      "build-an-arithmetic-formatter-project": {
+        "title": "Costruisci un progetto di formattatore aritmetico",
+        "intro": [
+          "Questo è uno dei progetti richiesti per ottenere la certificazione."
         ]
       },
       "learn-regular-expressions-by-building-a-password-generator": {
@@ -869,6 +889,12 @@
           "In questo progetto imparerai a interagire con le strutture dati ordinando una lista di numeri casuali usando l'algoritmo di merge sort."
         ]
       },
+      "build-a-time-calculator-project": {
+        "title": "Costruisci un progetto di calcolatore del tempo",
+        "intro": [
+          "Questo è uno dei progetti richiesti per ottenere la certificazione."
+        ]
+      },
       "learn-classes-and-objects-by-building-a-sudoku-solver": {
         "title": "Impara classi e oggetti costruendo un risolutore di Sudoku",
         "intro": [
@@ -883,48 +909,10 @@
           "In questo progetto imparerai a costruire il tuo BST ed eseguire una traversata in ordine. Imparerai anche operazioni chiave come inserimento, ricerca ed eliminazione."
         ]
       },
-      "learn-lambda-functions-by-building-an-expense-tracker": {
-        "title": "Impara le funzioni lambda costruendo un tracker di spese",
-        "intro": [
-          "Le funzioni lambda ti offrono un modo conciso per scrivere funzioni piccole e usa e getta nel tuo codice.",
-          "In questo progetto esplorerai la potenza delle funzioni lambda creando un tracker di spese. La tua app dimostrerà come usare le funzioni lambda per operazioni efficienti e snelle."
-        ]
-      },
-      "build-an-arithmetic-formatter-project": {
-        "title": "Costruisci un progetto di formattatore aritmetico",
-        "intro": [
-          "Questo è uno dei progetti richiesti per ottenere la certificazione."
-        ]
-      },
-      "build-a-time-calculator-project": {
-        "title": "Costruisci un progetto di calcolatore del tempo",
-        "intro": [
-          "Questo è uno dei progetti richiesti per ottenere la certificazione."
-        ]
-      },
       "build-a-budget-app-project": {
         "title": "Costruisci un progetto di app per il budget",
         "intro": [
           "Questo è uno dei progetti richiesti per ottenere la certificazione."
-        ]
-      },
-      "build-a-polygon-area-calculator-project": {
-        "title": "Costruisci un progetto di calcolatore dell'area di un poligono",
-        "intro": [
-          "Questo è uno dei progetti richiesti per ottenere la certificazione."
-        ]
-      },
-      "build-a-probability-calculator-project": {
-        "title": "Costruisci un progetto di calcolatore di probabilità",
-        "intro": [
-          "Questo è uno dei progetti richiesti per ottenere la certificazione."
-        ]
-      },
-      "learn-interfaces-by-building-an-equation-solver": {
-        "title": "Impara le interfacce costruendo un risolutore di equazioni",
-        "intro": [
-          "Le classi astratte ti permettono di definire interfacce formali - oggetti che fungono da modelli per le classi.",
-          "In questo progetto scoprirai come implementare un'interfaccia in Python costruendo un semplice programma risolutore di equazioni."
         ]
       },
       "learn-special-methods-by-building-a-vector-space": {
@@ -934,6 +922,19 @@
           "In questo progetto esplorerai alcuni dei metodi speciali più comuni mentre impari i vettori costruendo uno spazio vettoriale."
         ]
       },
+      "learn-interfaces-by-building-an-equation-solver": {
+        "title": "Impara le interfacce costruendo un risolutore di equazioni",
+        "intro": [
+          "Le classi astratte ti permettono di definire interfacce formali - oggetti che fungono da modelli per le classi.",
+          "In questo progetto scoprirai come implementare un'interfaccia in Python costruendo un semplice programma risolutore di equazioni."
+        ]
+      },
+      "build-a-polygon-area-calculator-project": {
+        "title": "Costruisci un progetto di calcolatore dell'area di un poligono",
+        "intro": [
+          "Questo è uno dei progetti richiesti per ottenere la certificazione."
+        ]
+      },
       "learn-encapsulation-by-building-a-projectile-trajectory-calculator": {
         "title": "Impara l'incapsulamento costruendo un calcolatore di traiettoria di un proiettile",
         "intro": [
@@ -941,11 +942,10 @@
           "In questo progetto scoprirai nuovi concetti legati all'incapsulamento, come getter, setter e name mangling, e li userai insieme a ciò che hai già imparato per creare un programma che calcola la traiettoria di un proiettile."
         ]
       },
-      "learn-the-bisection-method-by-finding-the-square-root-of-a-number": {
-        "title": "Impara il metodo della bisezione trovando la radice quadrata di un numero",
+      "build-a-probability-calculator-project": {
+        "title": "Costruisci un progetto di calcolatore di probabilità",
         "intro": [
-          "I metodi numerici sono usati per approssimare soluzioni a problemi matematici difficili o impossibili da risolvere analiticamente.",
-          "In questo progetto esplorerai il metodo numerico della bisezione per trovare la radice quadrata di un numero restringendo iterativamente l'intervallo di valori che contiene la radice quadrata."
+          "Questo è uno dei progetti richiesti per ottenere la certificazione."
         ]
       }
     }
@@ -1504,7 +1504,7 @@
       "workshop-report-card-printer": {
         "title": "Costruisci una stampante di pagelle",
         "intro": [
-          "In questo workshop, eserciterai l'uso dei tipi di dati primitivi in Python creando e stampando dati per un semplice pagellino."
+          "In questo workshop, praticherai l'uso dei tipi di dati integrati in Python creando e stampando dati per un semplice pagellino."
         ]
       },
       "lecture-introduction-to-python-strings": {
@@ -1551,6 +1551,12 @@
         "title": "Comprendere funzioni e ambito",
         "intro": [
           "In queste lezioni imparerai funzioni e ambito in Python."
+        ]
+      },
+      "workshop-kitchen-inventory-tracker": {
+        "title": "Crea un tracciatore dell'inventario della cucina",
+        "intro": [
+          "In questo workshop, praticherai l'uso di funzioni e ambito in Python costruendo un tracciatore dell'inventario della cucina."
         ]
       },
       "lab-discount-calculator": {
@@ -2472,6 +2478,12 @@
           "In questo laboratorio costruirai una funzione per gestire una collezione di dischi."
         ]
       },
+      "workshop-artifact-provenance-auditor": {
+        "title": "Crea un auditor per la provenienza degli artefatti",
+        "intro": [
+          "In questo workshop, costruirai un auditor per la provenienza degli artefatti per cercare, taggare, spostare e riassumere gli artefatti museali."
+        ]
+      },
       "review-javascript-objects": {
         "title": "Revisione degli oggetti JavaScript",
         "intro": [
@@ -2505,22 +2517,66 @@
           "In questo workshop, eserciterai l'uso dei loop <code>for...of</code> costruendo una funzione che conta le occorrenze di una stringa in un array di stringhe."
         ]
       },
+      "lab-factorial-calculator": {
+        "title": "Costruisci un calcolatore di fattoriali",
+        "intro": [
+          "In questo laboratorio costruirai un calcolatore di fattoriali.",
+          "Metterai in pratica l'uso di loop e condizioni per calcolare il fattoriale di un numero."
+        ]
+      },
+      "lab-repeat-a-string": {
+        "title": "Costruisci una funzione per ripetere una stringa",
+        "intro": [
+          "In questo laboratorio implementerai loop per ripetere una stringa un numero specificato di volte."
+        ]
+      },
       "workshop-sentence-analyzer": {
         "title": "Costruisci un analizzatore di frasi",
         "intro": [
           "In questo workshop rivedrai come lavorare con i loop JavaScript costruendo un'app per analizzare frasi."
         ]
       },
-      "lab-traffic-light-sequencer": {
-        "title": "Crea un sequenziatore per semafori",
+      "lab-longest-word-in-a-string": {
+        "title": "Costruisci un'app per trovare la parola più lunga",
         "intro": [
-          "In questo laboratorio, userai i loop JavaScript per costruire un sequenziatore per semafori."
+          "In questo laboratorio userai i loop JavaScript per trovare la lunghezza della parola più lunga nella frase data."
+        ]
+      },
+      "lab-mutations": {
+        "title": "Implementa l'algoritmo delle mutazioni",
+        "intro": [
+          "In questo laboratorio metterai in pratica l'iterazione su due stringhe diverse per confrontarne i caratteri."
+        ]
+      },
+      "lab-missing-letter-detector": {
+        "title": "Crea un rilevatore di lettere mancanti",
+        "intro": [
+          "In questo laboratorio, creerai una funzione che trova la lettera mancante in un intervallo dato di lettere consecutive e la restituisce."
+        ]
+      },
+      "lab-profile-lookup": {
+        "title": "Costruisci una ricerca profili",
+        "intro": [
+          "In questo laboratorio creerai una funzione che cerca informazioni di profilo."
         ]
       },
       "workshop-space-mission-roster": {
         "title": "Crea un elenco per missioni spaziali",
         "intro": [
           "In questo workshop, sfrutterai i loop JavaScript per costruire un elenco per missioni spaziali."
+        ]
+      },
+      "lab-chunky-monkey": {
+        "title": "Implementa l'algoritmo Chunky Monkey",
+        "intro": [
+          "In questo laboratorio metterai in pratica la divisione di un array in array più piccoli con la tecnica che preferisci."
+        ]
+      },
+      "lab-device-loan-ledger": {
+        "title": "Crea un registro di prestito dispositivi",
+        "intro": [
+          "In questo laboratorio, costruirai un registro di prestito dispositivi per gestire l'hardware IT fornito dal Service Desk della tua azienda.",
+          "Praticherai l'uso di oggetti annidati e JSON implementando funzioni per registrare l'entrata e l'uscita dei dispositivi, tracciare i prestiti scaduti e convertire tra stringhe JSON e oggetti JavaScript."
         ]
       },
       "workshop-heritage-library-catalog": {
@@ -2530,41 +2586,10 @@
           "Metterai in pratica l'uso di loop, oggetti e metodi sulle stringhe per analizzare dati testuali grezzi, cercare e raggruppare elementi, renderizzare output formattati ed esportare in JSON e CSV."
         ]
       },
-      "lab-longest-word-in-a-string": {
-        "title": "Costruisci un'app per trovare la parola più lunga",
+      "lab-smart-pantry-restocker": {
+        "title": "Crea un rifornitore intelligente per dispensa",
         "intro": [
-          "In questo laboratorio userai i loop JavaScript per trovare la lunghezza della parola più lunga nella frase data."
-        ]
-      },
-      "lab-factorial-calculator": {
-        "title": "Costruisci un calcolatore di fattoriali",
-        "intro": [
-          "In questo laboratorio costruirai un calcolatore di fattoriali.",
-          "Metterai in pratica l'uso di loop e condizioni per calcolare il fattoriale di un numero."
-        ]
-      },
-      "lab-mutations": {
-        "title": "Implementa l'algoritmo delle mutazioni",
-        "intro": [
-          "In questo laboratorio metterai in pratica l'iterazione su due stringhe diverse per confrontarne i caratteri."
-        ]
-      },
-      "lab-chunky-monkey": {
-        "title": "Implementa l'algoritmo Chunky Monkey",
-        "intro": [
-          "In questo laboratorio metterai in pratica la divisione di un array in array più piccoli con la tecnica che preferisci."
-        ]
-      },
-      "lab-profile-lookup": {
-        "title": "Costruisci una ricerca profili",
-        "intro": [
-          "In questo laboratorio creerai una funzione che cerca informazioni di profilo."
-        ]
-      },
-      "lab-repeat-a-string": {
-        "title": "Costruisci una funzione per ripetere una stringa",
-        "intro": [
-          "In questo laboratorio implementerai loop per ripetere una stringa un numero specificato di volte."
+          "In questo laboratorio, costruirai un piccolo programma di gestione della dispensa usando concetti base di JavaScript come array, oggetti, loop e condizioni."
         ]
       },
       "workshop-festival-crowd-flow-simulator": {
@@ -2573,16 +2598,10 @@
           "In questo workshop, userai JavaScript per simulare il flusso dei partecipanti a un festival musicale."
         ]
       },
-      "lab-missing-letter-detector": {
-        "title": "Crea un rilevatore di lettere mancanti",
+      "lab-traffic-light-sequencer": {
+        "title": "Crea un sequenziatore per semafori",
         "intro": [
-          "In questo laboratorio, creerai una funzione che trova la lettera mancante in un intervallo dato di lettere consecutive e la restituisce."
-        ]
-      },
-      "lab-smart-pantry-restocker": {
-        "title": "Crea un rifornitore intelligente per dispensa",
-        "intro": [
-          "In questo laboratorio, costruirai un piccolo programma di gestione della dispensa usando concetti base di JavaScript come array, oggetti, loop e condizioni."
+          "In questo laboratorio, userai i loop JavaScript per costruire un sequenziatore per semafori."
         ]
       },
       "lab-proofreading-tool": {
@@ -4924,6 +4943,12 @@
           "In questo laboratorio costruirai una funzione per gestire una collezione di dischi."
         ]
       },
+      "workshop-artifact-provenance-auditor": {
+        "title": "Crea un auditor per la provenienza degli artefatti",
+        "intro": [
+          "In questo workshop, costruirai un auditor per la provenienza degli artefatti per cercare, taggare, spostare e riassumere gli artefatti museali."
+        ]
+      },
       "review-javascript-objects": {
         "title": "Revisione degli oggetti JavaScript",
         "intro": [
@@ -4947,22 +4972,66 @@
           "In questo workshop eserciterai l'uso dei loop <code>for...of</code> costruendo una funzione che conta le occorrenze di una stringa in un array di stringhe."
         ]
       },
+      "lab-factorial-calculator": {
+        "title": "Crea un calcolatore di fattoriali",
+        "intro": [
+          "In questo laboratorio costruirai un calcolatore di fattoriali.",
+          "Eserciterai l'uso di loop e istruzioni condizionali per calcolare il fattoriale di un numero."
+        ]
+      },
+      "lab-repeat-a-string": {
+        "title": "Crea una funzione per ripetere una stringa",
+        "intro": [
+          "In questo laboratorio implementerai loop per ripetere una stringa un numero specificato di volte."
+        ]
+      },
       "workshop-sentence-analyzer": {
         "title": "Crea un analizzatore di frasi",
         "intro": [
           "In questo workshop rivedrai come lavorare con i loop JavaScript costruendo un'app per analizzare frasi."
         ]
       },
-      "lab-traffic-light-sequencer": {
-        "title": "Crea un sequenziatore per semafori",
+      "lab-longest-word-in-a-string": {
+        "title": "Crea un'app per trovare la parola più lunga",
         "intro": [
-          "In questo laboratorio userai i loop JavaScript per costruire un sequenziatore per semafori."
+          "In questo laboratorio userai i loop JavaScript per trovare la lunghezza della parola più lunga nella frase data."
+        ]
+      },
+      "lab-mutations": {
+        "title": "Implementa l'algoritmo delle mutazioni",
+        "intro": [
+          "In questo laboratorio eserciterai l'iterazione su due stringhe diverse per confrontarne i caratteri."
+        ]
+      },
+      "lab-missing-letter-detector": {
+        "title": "Crea un rilevatore di lettere mancanti",
+        "intro": [
+          "In questo laboratorio, creerai una funzione che trova la lettera mancante in un intervallo dato di lettere consecutive e la restituisce."
+        ]
+      },
+      "lab-profile-lookup": {
+        "title": "Crea una ricerca di profili",
+        "intro": [
+          "In questo laboratorio creerai una funzione che cerca informazioni di profilo."
         ]
       },
       "workshop-space-mission-roster": {
         "title": "Crea un elenco per missioni spaziali",
         "intro": [
           "In questo workshop sfrutterai i loop JavaScript per costruire un elenco per missioni spaziali."
+        ]
+      },
+      "lab-chunky-monkey": {
+        "title": "Implementa l'algoritmo Chunky Monkey",
+        "intro": [
+          "In questo laboratorio eserciterai a dividere un array in array più piccoli con la tecnica che preferisci."
+        ]
+      },
+      "lab-device-loan-ledger": {
+        "title": "Crea un registro di prestito dispositivi",
+        "intro": [
+          "In questo laboratorio, costruirai un registro di prestito dispositivi per gestire l'hardware IT fornito dal Service Desk della tua azienda.",
+          "Praticherai l'uso di oggetti annidati e JSON implementando funzioni per registrare l'entrata e l'uscita dei dispositivi, tracciare i prestiti scaduti e convertire tra stringhe JSON e oggetti JavaScript."
         ]
       },
       "workshop-heritage-library-catalog": {
@@ -4972,41 +5041,10 @@
           "Eserciterai l'uso di loop, oggetti e metodi sulle stringhe per analizzare dati testuali grezzi, cercare e raggruppare elementi, renderizzare output formattato ed esportare in JSON e CSV."
         ]
       },
-      "lab-longest-word-in-a-string": {
-        "title": "Crea un'app per trovare la parola più lunga",
+      "lab-smart-pantry-restocker": {
+        "title": "Crea un sistema intelligente per rifornire la dispensa",
         "intro": [
-          "In questo laboratorio userai i loop JavaScript per trovare la lunghezza della parola più lunga nella frase data."
-        ]
-      },
-      "lab-factorial-calculator": {
-        "title": "Crea un calcolatore di fattoriali",
-        "intro": [
-          "In questo laboratorio costruirai un calcolatore di fattoriali.",
-          "Eserciterai l'uso di loop e istruzioni condizionali per calcolare il fattoriale di un numero."
-        ]
-      },
-      "lab-mutations": {
-        "title": "Implementa l'algoritmo delle mutazioni",
-        "intro": [
-          "In questo laboratorio eserciterai l'iterazione su due stringhe diverse per confrontarne i caratteri."
-        ]
-      },
-      "lab-chunky-monkey": {
-        "title": "Implementa l'algoritmo Chunky Monkey",
-        "intro": [
-          "In questo laboratorio eserciterai a dividere un array in array più piccoli con la tecnica che preferisci."
-        ]
-      },
-      "lab-profile-lookup": {
-        "title": "Crea una ricerca di profili",
-        "intro": [
-          "In questo laboratorio creerai una funzione che cerca informazioni di profilo."
-        ]
-      },
-      "lab-repeat-a-string": {
-        "title": "Crea una funzione per ripetere una stringa",
-        "intro": [
-          "In questo laboratorio implementerai loop per ripetere una stringa un numero specificato di volte."
+          "In questo laboratorio, costruirai un piccolo programma di gestione della dispensa usando concetti base di JavaScript come array, oggetti, loop e condizionali."
         ]
       },
       "workshop-festival-crowd-flow-simulator": {
@@ -5015,16 +5053,10 @@
           "In questo workshop userai JavaScript per simulare il flusso di partecipanti a un festival musicale."
         ]
       },
-      "lab-missing-letter-detector": {
-        "title": "Crea un rilevatore di lettere mancanti",
+      "lab-traffic-light-sequencer": {
+        "title": "Crea un sequenziatore per semafori",
         "intro": [
-          "In questo laboratorio, creerai una funzione che trova la lettera mancante in un intervallo dato di lettere consecutive e la restituisce."
-        ]
-      },
-      "lab-smart-pantry-restocker": {
-        "title": "Crea un sistema intelligente per rifornire la dispensa",
-        "intro": [
-          "In questo laboratorio, costruirai un piccolo programma di gestione della dispensa usando concetti base di JavaScript come array, oggetti, loop e condizionali."
+          "In questo laboratorio userai i loop JavaScript per costruire un sequenziatore per semafori."
         ]
       },
       "lab-proofreading-tool": {
@@ -6024,7 +6056,7 @@
       "lecture-introduction-to-javascript-libraries-and-frameworks": {
         "title": "Introduzione alle librerie e ai framework JavaScript",
         "intro": [
-          "In queste lezioni riceverai un'introduzione alle librerie e ai framework JavaScript. Imparerai i ruoli delle librerie e dei framework JavaScript, le applicazioni a pagina singola (SPA) e i problemi ad esse associati, e React, la libreria JavaScript front-end più popolare."
+          "In queste lezioni, riceverai un'introduzione alle librerie e ai framework JavaScript. Imparerai i ruoli delle librerie e dei framework JavaScript, le applicazioni a pagina singola (SPA) e i problemi ad esse associati, e React, la libreria JavaScript front-end più popolare."
         ]
       },
       "workshop-reusable-mega-navbar": {
@@ -6455,7 +6487,7 @@
       "workshop-bill-splitter": {
         "title": "Crea un divisore di conto",
         "intro": [
-          "In questo workshop costruirai un divisore di conto per praticare numeri e operazioni matematiche in Python"
+          "In questo workshop costruirai un divisore del conto per praticare l'uso di numeri e operazioni matematiche in Python."
         ]
       },
       "lecture-booleans-and-conditionals": {
@@ -6480,6 +6512,12 @@
         "title": "Comprendere funzioni e ambito",
         "intro": [
           "In queste lezioni imparerai le funzioni e l'ambito in Python."
+        ]
+      },
+      "workshop-kitchen-inventory-tracker": {
+        "title": "Crea un tracciatore dell'inventario della cucina",
+        "intro": [
+          "In questo workshop, praticherai l'uso di funzioni e ambito in Python costruendo un tracciatore dell'inventario della cucina."
         ]
       },
       "lab-discount-calculator": {
@@ -6962,7 +7000,7 @@
       "lecture-working-with-code-editors-and-ides": {
         "title": "Lavorare con editor di codice e IDE",
         "intro": [
-          "In queste lezioni imparerai a lavorare con editor di codice e IDE. Scoprirai vari concetti sul più popolare editor di codice, VS Code, come l'installazione, la creazione di un progetto, le scorciatoie da tastiera e le estensioni."
+          "In queste lezioni, imparerai a lavorare con editor di codice e IDE. Imparerai come installare VS Code, creare un progetto, usare scorciatoie da tastiera e lavorare con le estensioni."
         ]
       },
       "lecture-understanding-the-command-line-and-working-with-bash": {
@@ -7647,21 +7685,41 @@
       "es-a1-module-describing-a-company": "Descrivere un'azienda",
       "es-a1-module-describing-people-at-work": "Descrivere le persone al lavoro"
     },
-    "module-intros": {
-      "es-a1-module-describing-a-company": {
-        "note": "In arrivo nel 2026",
-        "intro": [
-          "In questo modulo, imparerai a identificare e descrivere informazioni di base su un'azienda, come nome, sito web, posizione, numero di dipendenti e reparti."
-        ]
-      },
-      "es-a1-module-describing-people-at-work": {
-        "note": "In arrivo nel 2026",
-        "intro": [
-          "In questo modulo, imparerai descrizioni in terza persona e come individuare correzioni semplici in brevi conversazioni."
-        ]
-      }
-    },
     "blocks": {
+      "es-a1-learn-certification-introduction": {
+        "title": "Introduzione alla certificazione",
+        "intro": ["", ""]
+      },
+      "es-a1-learn-vowels": { "title": "Vocali", "intro": ["", ""] },
+      "es-a1-learn-consonants-and-special-characters": {
+        "title": "Consonanti e caratteri speciali",
+        "intro": ["", ""]
+      },
+      "es-a1-practice-the-alphabet": {
+        "title": "Pratica dell'alfabeto spagnolo",
+        "intro": ["", ""]
+      },
+      "es-a1-learn-the-first-ten-numbers": {
+        "title": "I primi dieci numeri",
+        "intro": ["", ""]
+      },
+      "es-a1-practice-the-first-ten-numbers": {
+        "title": "Esercizi sui primi dieci numeri",
+        "intro": ["", ""]
+      },
+      "es-a1-learn-alphabet-and-accents": {
+        "title": "Alfabeto e accenti",
+        "intro": ["", ""]
+      },
+      "es-a1-learn-punctuation": { "title": "Punteggiatura", "intro": ["", ""] },
+      "es-a1-review-spanish-fundamentals": {
+        "title": "Revisione dei fondamenti di spagnolo",
+        "intro": ["", ""]
+      },
+      "es-a1-quiz-spanish-fundamentals": {
+        "title": "Quiz sui fondamenti di spagnolo",
+        "intro": ["", ""]
+      },
       "es-a1-warm-up-greetings-and-farewells-basics": {
         "title": "Basi di saluti e addii",
         "intro": ["", ""]
@@ -7680,19 +7738,6 @@
       },
       "es-a1-quiz-greetings-and-farewells": {
         "title": "Quiz su saluti e addii",
-        "intro": ["", ""]
-      },
-      "es-a1-learn-certification-introduction": {
-        "title": "Introduzione alla certificazione",
-        "intro": ["", ""]
-      },
-      "es-a1-learn-alphabet-and-accents": {
-        "title": "Alfabeto e accenti",
-        "intro": ["", ""]
-      },
-      "es-a1-learn-punctuation": { "title": "Punteggiatura", "intro": ["", ""] },
-      "es-a1-quiz-spanish-fundamentals": {
-        "title": "Quiz sui fondamenti di spagnolo",
         "intro": ["", ""]
       },
       "es-a1-warm-up-introducing-yourself-basics": {
@@ -7735,19 +7780,6 @@
       },
       "es-a1-quiz-first-questions": {
         "title": "Quiz sulle prime domande",
-        "intro": ["", ""]
-      },
-      "es-a1-learn-vowels": { "title": "Vocali", "intro": ["", ""] },
-      "es-a1-learn-consonants-and-special-characters": {
-        "title": "Consonanti e caratteri speciali",
-        "intro": ["", ""]
-      },
-      "es-a1-review-spanish-fundamentals": {
-        "title": "Revisione dei fondamenti di spagnolo",
-        "intro": ["", ""]
-      },
-      "es-a1-practice-the-alphabet": {
-        "title": "Pratica dell'alfabeto spagnolo",
         "intro": ["", ""]
       },
       "es-a1-warm-up-remember-first-numbers": {
@@ -7794,20 +7826,8 @@
         "title": "Quiz sulla condivisione dei tuoi dati personali",
         "intro": ["", ""]
       },
-      "es-a1-learn-the-first-ten-numbers": {
-        "title": "I primi dieci numeri",
-        "intro": ["", ""]
-      },
-      "es-a1-practice-the-first-ten-numbers": {
-        "title": "Esercizi sui primi dieci numeri",
-        "intro": ["", ""]
-      },
       "es-a1-learn-numbers-30-to-60": {
         "title": "Numeri da 30 a 60",
-        "intro": ["", ""]
-      },
-      "es-a1-warm-up-describing-a-company-basics": {
-        "title": "Nozioni di base per descrivere un'azienda",
         "intro": ["", ""]
       },
       "es-a1-learn-numbers-61-to-100": {
@@ -7826,8 +7846,16 @@
         "title": "Quiz sui numeri da 30 a 100",
         "intro": ["", ""]
       },
+      "es-a1-warm-up-describing-a-company-basics": {
+        "title": "Nozioni di base per descrivere un'azienda",
+        "intro": ["", ""]
+      },
       "es-a1-learn-what-the-company-does": {
         "title": "Cosa fa l'azienda",
+        "intro": ["", ""]
+      },
+      "es-a1-practice-what-departments-do": {
+        "title": "Cosa fanno i reparti",
         "intro": ["", ""]
       },
       "es-a1-learn-asking-about-a-company": {
@@ -7854,6 +7882,10 @@
         "title": "Mini biografie",
         "intro": ["", ""]
       },
+      "es-a1-learn-talking-about-colleagues": {
+        "title": "Parlare dei colleghi",
+        "intro": ["", ""]
+      },
       "es-a1-practice-asking-about-mini-biographies": {
         "title": "Chiedere informazioni sulle mini biografie",
         "intro": ["", ""]
@@ -7872,14 +7904,6 @@
       },
       "es-a1-quiz-describing-people-at-work": {
         "title": "Quiz sulla descrizione delle persone al lavoro",
-        "intro": ["", ""]
-      },
-      "es-a1-learn-talking-about-colleagues": {
-        "title": "Parlare dei colleghi",
-        "intro": ["", ""]
-      },
-      "es-a1-practice-what-departments-do": {
-        "title": "Cosa fanno i reparti",
         "intro": ["", ""]
       }
     }
@@ -7960,7 +7984,7 @@
       "lecture-understanding-the-html-boilerplate": {
         "title": "Comprendere il codice boilerplate HTML",
         "intro": [
-          "In queste lezioni imparerai il codice boilerplate HTML, un modello pronto per le tue pagine web.",
+          "In queste lezioni, imparerai il codice boilerplate HTML, che è un modello pronto per le tue pagine web.",
           "Imparerai a lavorare con l'elemento <code>link</code>, l'elemento <code>meta</code> e altro ancora."
         ]
       },
@@ -7998,7 +8022,7 @@
       "lab-travel-agency-page": {
         "title": "Crea una pagina per un'agenzia di viaggi",
         "intro": [
-          "In questo laboratorio, rivedrai le basi di HTML creando una pagina web per un'agenzia di viaggi. Lavorerai con immagini, l'elemento <code>figure</code>, l'elemento <code>figcaption</code>, l'elemento <code>anchor</code> e altro ancora."
+          "In questo laboratorio, rivedrai le basi di HTML creando una pagina web per un'agenzia di viaggi. Lavorerai con immagini, l'elemento <code>figure</code>, l'elemento <code>figcaption</code>, l'elemento <code>a</code> e altro ancora."
         ]
       },
       "lecture-working-with-audio-and-video-elements": {
@@ -8042,7 +8066,7 @@
       "lecture-working-with-media": {
         "title": "Lavorare con l'elemento iframe",
         "intro": [
-          "In queste lezioni, imparerai a lavorare con l'elemento <code>iframe</code> che serve a incorporare un sito esterno nella tua pagina web."
+          "In queste lezioni, imparerai a lavorare con l'elemento <code>iframe</code>, usato per incorporare un sito esterno nella tua pagina web."
         ]
       },
       "workshop-build-a-video-display-using-iframe": {
@@ -8060,7 +8084,7 @@
       "lecture-working-with-links": {
         "title": "Lavorare con i collegamenti",
         "intro": [
-          "In queste lezioni, imparerai sui collegamenti, l'attributo <code>target</code>, i diversi stati dei collegamenti, i percorsi assoluti e relativi e altro."
+          "In queste lezioni, imparerai i link, l'attributo <code>target</code>, i diversi stati dei link, i percorsi assoluti e relativi e altro ancora."
         ]
       },
       "review-basic-html": {
@@ -8086,7 +8110,7 @@
       "lecture-understanding-nuanced-semantic-elements": {
         "title": "Comprendere elementi semantici sfumati",
         "intro": [
-          "In queste lezioni, imparerai quando usare certi elementi semantici come l'elemento <code>em</code> invece di <code>i</code>, le liste di descrizione e altro."
+          "In queste lezioni, imparerai quando usare l'elemento <code>em</code> invece di <code>i</code>. Imparerai anche le liste di descrizione e altri elementi semantici HTML."
         ]
       },
       "workshop-major-browsers-list": {
@@ -8110,7 +8134,7 @@
       "lecture-working-with-specialized-semantic-elements": {
         "title": "Lavorare con elementi semantici specializzati",
         "intro": [
-          "In questa lezione, imparerai gli elementi semantici specializzati come <code>u</code>, <code>s</code>, <code>code</code> e altro."
+          "In questa lezione, imparerai gli elementi semantici specializzati come <code>u</code>, <code>s</code>, <code>code</code> e altri."
         ]
       },
       "workshop-blog-page": {
@@ -8322,7 +8346,7 @@
       "lecture-what-is-css": {
         "title": "Cos'è il CSS?",
         "intro": [
-          "Le lezioni seguenti parlano tutte di CSS. Imparerai cos'è il CSS e il suo ruolo sul web, una regola CSS e la sua anatomia, i tre modi per scrivere CSS e quando usare ciascuno, elementi in linea e di blocco e molto altro."
+          "Le seguenti lezioni riguardano il CSS. Imparerai cos'è il CSS e il suo ruolo sul web, una regola CSS e la sua anatomia, i tre modi per scrivere CSS e quando usarli, elementi in linea e di blocco e molto altro."
         ]
       },
       "workshop-cafe-menu": {
@@ -8995,18 +9019,6 @@
       "zh-a1-module-discussing-team-skills": "Discutere le competenze di squadra"
     },
     "module-intros": {
-      "zh-a1-module-introducing-others": {
-        "note": "In arrivo nel 2026",
-        "intro": [
-          "In questo modulo eserciterai la comprensione di brevi monologhi che presentano informazioni su altre persone, come nome, ruolo, nazionalità ed età."
-        ]
-      },
-      "zh-a1-module-getting-to-know-the-team": {
-        "note": "In arrivo nel 2026",
-        "intro": [
-          "In questo modulo, eserciterai la comprensione di una breve conversazione che fa e risponde a domande semplici sui colleghi."
-        ]
-      },
       "zh-a1-module-communicating-personal-information": {
         "note": "In arrivo nel 2026",
         "intro": [
@@ -9044,6 +9056,14 @@
         "title": "Finali nasali",
         "intro": ["", ""]
       },
+      "zh-a1-learn-special-spelling-rules": {
+        "title": "Regole speciali di ortografia",
+        "intro": ["", ""]
+      },
+      "zh-a1-practice-pinyin": {
+        "title": "Esercitazione sul pinyin",
+        "intro": ["", ""]
+      },
       "zh-a1-warm-up-greeting-new-colleagues": {
         "title": "Saluto ai nuovi colleghi",
         "intro": ["", ""]
@@ -9064,20 +9084,12 @@
         "title": "Quiz su saluti e presentazioni",
         "intro": ["", ""]
       },
+      "zh-a1-warm-up-meeting-new-teammates": {
+        "title": "Incontrare nuovi compagni di squadra",
+        "intro": ["", ""]
+      },
       "zh-a1-learn-understanding-questions-and-answers": {
         "title": "Comprendere domande e risposte",
-        "intro": ["", ""]
-      },
-      "zh-a1-practice-exchanging-basic-information": {
-        "title": "Scambio di informazioni di base",
-        "intro": ["", ""]
-      },
-      "zh-a1-review-introduction-questions": {
-        "title": "Revisione domande di presentazione",
-        "intro": ["", ""]
-      },
-      "zh-a1-quiz-introduction-questions": {
-        "title": "Quiz domande di presentazione",
         "intro": ["", ""]
       },
       "zh-a1-warm-up-introducing-others-basics": {
@@ -9125,6 +9137,50 @@
         "title": "Quiz presentazione del team",
         "intro": ["", ""]
       },
+      "zh-a1-practice-exchanging-basic-information": {
+        "title": "Scambio di informazioni di base",
+        "intro": ["", ""]
+      },
+      "zh-a1-review-introduction-questions": {
+        "title": "Revisione domande di presentazione",
+        "intro": ["", ""]
+      },
+      "zh-a1-quiz-introduction-questions": {
+        "title": "Quiz domande di presentazione",
+        "intro": ["", ""]
+      },
+      "zh-a1-learn-numbers-0-to-10": {
+        "title": "Numeri da 0 a 10",
+        "intro": ["", ""]
+      },
+      "zh-a1-practice-numbers-0-to-10": {
+        "title": "Esercitazione numeri da 0 a 10",
+        "intro": ["", ""]
+      },
+      "zh-a1-learn-numbers-11-to-19": {
+        "title": "Numeri da 11 a 19",
+        "intro": ["", ""]
+      },
+      "zh-a1-practice-numbers-11-to-19": {
+        "title": "Esercitazione numeri da 11 a 19",
+        "intro": ["", ""]
+      },
+      "zh-a1-learn-numbers-20-to-99": {
+        "title": "Numeri da 20 a 99",
+        "intro": ["", ""]
+      },
+      "zh-a1-practice-numbers-20-to-99": {
+        "title": "Esercitazione numeri da 20 a 99",
+        "intro": ["", ""]
+      },
+      "zh-a1-review-numbers-below-100": {
+        "title": "Revisione numeri sotto 100",
+        "intro": ["", ""]
+      },
+      "zh-a1-quiz-numbers-below-100": {
+        "title": "Quiz numeri sotto 100",
+        "intro": ["", ""]
+      },
       "zh-a1-warm-up-personal-skills-basics": {
         "title": "Nozioni di base sulle competenze personali",
         "intro": ["", ""]
@@ -9163,50 +9219,6 @@
       },
       "zh-a1-quiz-discussing-team-skills": {
         "title": "Quiz discussione sulle competenze di team",
-        "intro": ["", ""]
-      },
-      "zh-a1-warm-up-meeting-new-teammates": {
-        "title": "Incontrare nuovi compagni di squadra",
-        "intro": ["", ""]
-      },
-      "zh-a1-learn-special-spelling-rules": {
-        "title": "Regole speciali di ortografia",
-        "intro": ["", ""]
-      },
-      "zh-a1-practice-pinyin": {
-        "title": "Esercitazione sul pinyin",
-        "intro": ["", ""]
-      },
-      "zh-a1-learn-numbers-0-to-10": {
-        "title": "Numeri da 0 a 10",
-        "intro": ["", ""]
-      },
-      "zh-a1-practice-numbers-0-to-10": {
-        "title": "Esercitazione numeri da 0 a 10",
-        "intro": ["", ""]
-      },
-      "zh-a1-learn-numbers-11-to-19": {
-        "title": "Numeri da 11 a 19",
-        "intro": ["", ""]
-      },
-      "zh-a1-practice-numbers-11-to-19": {
-        "title": "Esercitazione numeri da 11 a 19",
-        "intro": ["", ""]
-      },
-      "zh-a1-learn-numbers-20-to-99": {
-        "title": "Numeri da 20 a 99",
-        "intro": ["", ""]
-      },
-      "zh-a1-practice-numbers-20-to-99": {
-        "title": "Esercitazione numeri da 20 a 99",
-        "intro": ["", ""]
-      },
-      "zh-a1-review-numbers-below-100": {
-        "title": "Revisione numeri sotto 100",
-        "intro": ["", ""]
-      },
-      "zh-a1-quiz-numbers-below-100": {
-        "title": "Quiz numeri sotto 100",
         "intro": ["", ""]
       }
     }
@@ -9332,7 +9344,7 @@
       "lecture-working-with-media": {
         "title": "Lavorare con l'elemento iframe",
         "intro": [
-          "In queste lezioni, imparerai a lavorare con l'elemento <code>iframe</code> che serve a incorporare un sito esterno nella tua pagina web."
+          "In queste lezioni, imparerai a lavorare con l'elemento <code>iframe</code>, usato per incorporare un sito esterno nella tua pagina web."
         ]
       },
       "workshop-build-a-video-display-using-iframe": {
@@ -9387,7 +9399,7 @@
       "lecture-understanding-nuanced-semantic-elements": {
         "title": "Capire gli elementi semantici sfumati",
         "intro": [
-          "In queste lezioni, imparerai quando usare certi elementi semantici come l'elemento <code>em</code> invece di <code>i</code>, le liste di descrizione e altro ancora."
+          "In queste lezioni, imparerai quando usare l'elemento <code>em</code> invece di <code>i</code>. Imparerai anche le liste di descrizione e altri elementi semantici HTML."
         ]
       },
       "workshop-major-browsers-list": {
@@ -9411,7 +9423,7 @@
       "lecture-working-with-specialized-semantic-elements": {
         "title": "Lavorare con elementi semantici specializzati",
         "intro": [
-          "In questa lezione, imparerai gli elementi semantici specializzati come <code>u</code>, <code>s</code>, <code>code</code> e altro ancora."
+          "In questa lezione, imparerai gli elementi semantici specializzati come <code>u</code>, <code>s</code>, <code>code</code> e altri."
         ]
       },
       "workshop-blog-page": {
@@ -9590,7 +9602,7 @@
       "lecture-what-is-css": {
         "title": "Cos'è il CSS?",
         "intro": [
-          "Le lezioni seguenti riguardano il CSS. Imparerai cos'è il CSS e il suo ruolo sul web, una regola CSS e la sua anatomia, i tre modi per scrivere CSS e quando usarli, elementi in linea e di blocco e molto altro."
+          "Le seguenti lezioni riguardano il CSS. Imparerai cos'è il CSS e il suo ruolo sul web, una regola CSS e la sua anatomia, i tre modi per scrivere CSS e quando usarli, elementi in linea e di blocco e molto altro."
         ]
       },
       "workshop-cafe-menu": {
@@ -10394,5 +10406,235 @@
     "enable-cookies": "Devi abilitare i cookie di terze parti prima di iniziare.",
     "english-only": "I corsi in questa sezione sono disponibili solo in inglese. Al momento possiamo tradurre solo titoli e introduzioni, non le lezioni.",
     "exam-english-only": "Nota che l'esame di certificazione è attualmente disponibile solo in inglese. Il resto dei corsi è disponibile in alcune lingue."
+  },
+  "algorithms-and-data-structure": {
+    "title": "Certificazione algoritmi e struttura dati",
+    "intro": [
+      "Questo corso tratta strutture dati e algoritmi in Python.",
+      "Completa i progetti richiesti e supera l'esame per ottenere la certificazione in algoritmi e struttura dati."
+    ],
+    "chapters": {
+      "algorithms-and-data-structure": "Algoritmi e struttura dati"
+    },
+    "modules": {
+      "python-linear-data-structures": "Strutture dati lineari",
+      "lab-hash-table": "Costruisci una tabella hash",
+      "python-recursion": "Ricorsione",
+      "python-algorithms": "Algoritmi",
+      "lab-tower-of-hanoi": "Implementa l'algoritmo della torre di Hanoi",
+      "python-graphs-and-trees": "Grafi e alberi",
+      "python-dynamic-programming": "Programmazione dinamica",
+      "review-python": "Revisione di Python"
+    },
+    "module-intros": {
+      "python-recursion": {
+        "intro": [
+          "In questo modulo, imparerai come funzionano la ricorsione e lo stack delle chiamate in Python."
+        ]
+      }
+    },
+    "blocks": {
+      "lecture-working-with-common-data-structures": {
+        "title": "Lavorare con strutture dati comuni",
+        "intro": [
+          "Impara a lavorare con strutture dati comuni in queste lezioni."
+        ]
+      },
+      "workshop-linked-list-class": {
+        "title": "Costruisci una lista concatenata",
+        "intro": [
+          "In questo workshop, praticherai l'uso delle strutture dati costruendo una lista concatenata."
+        ]
+      },
+      "review-data-structures": {
+        "title": "Revisione delle strutture dati",
+        "intro": [
+          "Prima di affrontare il quiz sulle strutture dati, dovresti rivedere ciò che hai imparato su di esse.",
+          "Apri questa pagina per rivedere concetti come le diverse strutture dati, algoritmi, complessità temporale e spaziale e notazione big O."
+        ]
+      },
+      "quiz-data-structures": {
+        "title": "Quiz sulle strutture dati",
+        "intro": [
+          "Metti alla prova ciò che hai imparato sulle strutture dati in Python con questo quiz."
+        ]
+      },
+      "lab-hash-table": {
+        "title": "Costruisci una tabella hash",
+        "intro": [
+          "Una tabella hash è una struttura dati usata per archiviare coppie chiave-valore ed è ottimizzata per ricerche rapide.",
+          "In questo laboratorio, userai le tue conoscenze sulle strutture dati per costruire una tabella hash."
+        ]
+      },
+      "lecture-understanding-recursion-and-the-call-stack-python": {
+        "title": "Comprendere la ricorsione e lo stack delle chiamate",
+        "intro": [
+          "In questa lezione, imparerai come funzionano le funzioni ricorsive e lo stack delle chiamate in Python."
+        ]
+      },
+      "workshop-countup-python": {
+        "title": "Costruisci una funzione countup",
+        "intro": [
+          "In questo workshop, costruirai una funzione che usa la ricorsione per creare una lista di numeri."
+        ]
+      },
+      "lab-range-of-numbers-python": {
+        "title": "Costruisci un generatore di intervalli di numeri",
+        "intro": [
+          "In questo laboratorio, userai la ricorsione per generare una lista di numeri in un intervallo specificato."
+        ]
+      },
+      "review-recursion-python": {
+        "title": "Revisione della ricorsione",
+        "intro": [
+          "Rivedi i concetti di ricorsione, casi base e stack delle chiamate."
+        ]
+      },
+      "quiz-recursion-python": {
+        "title": "Quiz sulla ricorsione",
+        "intro": [
+          "Metti alla prova la tua comprensione della ricorsione, dei casi base e dello stack delle chiamate."
+        ]
+      },
+      "lecture-searching-and-sorting-algorithms": {
+        "title": "Algoritmi di ricerca e ordinamento",
+        "intro": [
+          "Impara gli algoritmi fondamentali di ricerca e ordinamento, inclusi ricerca lineare, ricerca binaria e merge sort.",
+          "Queste lezioni coprono implementazioni di algoritmi, analisi della complessità temporale e spaziale e il paradigma di programmazione divide et impera."
+        ]
+      },
+      "workshop-binary-search": {
+        "title": "Implementa l'algoritmo di ricerca binaria",
+        "intro": [
+          "L'algoritmo di ricerca binaria è un algoritmo di ricerca usato per trovare un elemento obiettivo in una lista ordinata.",
+          "In questo workshop, implementerai l'algoritmo di ricerca binaria e restituirai il percorso seguito per trovare l'obiettivo o 'Valore non trovato'."
+        ]
+      },
+      "lab-bisection-method": {
+        "title": "Implementa il metodo della bisezione",
+        "intro": [
+          "In questo laboratorio, implementerai il metodo della bisezione per trovare la radice quadrata di un numero."
+        ]
+      },
+      "workshop-merge-sort": {
+        "title": "Implementa l'algoritmo di merge sort",
+        "intro": [
+          "L'algoritmo di merge sort è un algoritmo di ordinamento basato sul principio divide et impera.",
+          "In questo workshop, implementerai l'algoritmo di merge sort per ordinare una lista di numeri casuali."
+        ]
+      },
+      "lab-quicksort": {
+        "title": "Implementa l'algoritmo quicksort",
+        "intro": [
+          "In questo laboratorio implementerai l'algoritmo quicksort per ordinare una lista di numeri interi."
+        ]
+      },
+      "lab-selection-sort": {
+        "title": "Implementa l'algoritmo selection sort",
+        "intro": [
+          "In questo laboratorio implementerai l'algoritmo selection sort."
+        ]
+      },
+      "lab-luhn-algorithm": {
+        "title": "Implementa l'algoritmo di Luhn",
+        "intro": [
+          "In questo laboratorio implementerai l'algoritmo di Luhn per convalidare numeri identificativi come i numeri di carta di credito."
+        ]
+      },
+      "review-searching-and-sorting-algorithms": {
+        "title": "Revisione degli algoritmi di ricerca e ordinamento",
+        "intro": [
+          "Prima di affrontare il quiz sugli algoritmi di ricerca e ordinamento, rivedi ciò che hai imparato su di essi."
+        ]
+      },
+      "quiz-searching-and-sorting-algorithms": {
+        "title": "Quiz sugli algoritmi di ricerca e ordinamento",
+        "intro": [
+          "Metti alla prova ciò che hai imparato sugli algoritmi di ricerca e ordinamento in Python con questo quiz."
+        ]
+      },
+      "lab-tower-of-hanoi": {
+        "title": "Implementa l'algoritmo della torre di Hanoi",
+        "intro": [
+          "In questo laboratorio implementerai un algoritmo per risolvere il puzzle della torre di Hanoi."
+        ]
+      },
+      "lecture-understanding-graphs-and-trees": {
+        "title": "Comprendere grafi e alberi",
+        "intro": [
+          "In questa lezione imparerai le strutture dati fondamentali come grafi, alberi e le loro applicazioni pratiche nell'informatica."
+        ]
+      },
+      "workshop-shortest-path-algorithm": {
+        "title": "Implementa l'algoritmo del percorso più breve",
+        "intro": [
+          "In questo workshop implementerai un algoritmo per trovare il percorso più breve tra due nodi in un grafo."
+        ]
+      },
+      "lab-adjacency-list-to-matrix-converter": {
+        "title": "Crea un convertitore da lista di adiacenza a matrice",
+        "intro": [
+          "In questo laboratorio implementerai una funzione che converte una rappresentazione di un grafo da lista di adiacenza a matrice di adiacenza."
+        ]
+      },
+      "workshop-breadth-first-search": {
+        "title": "Implementa l'algoritmo di ricerca in ampiezza",
+        "intro": [
+          "In questo workshop userai l'algoritmo di ricerca in ampiezza per generare tutte le combinazioni valide di parentesi tonde."
+        ]
+      },
+      "lab-depth-first-search": {
+        "title": "Implementa l'algoritmo di ricerca in profondità",
+        "intro": [
+          "In questo laboratorio implementerai l'algoritmo di ricerca in profondità."
+        ]
+      },
+      "lab-n-queens-problem": {
+        "title": "Implementa l'algoritmo delle N regine",
+        "intro": [
+          "In questo laboratorio implementerai una soluzione per il problema delle N regine."
+        ]
+      },
+      "review-graphs-and-trees": {
+        "title": "Revisione di grafi e alberi",
+        "intro": [
+          "Prima di affrontare il quiz su grafi e alberi, rivedi ciò che hai imparato su di essi."
+        ]
+      },
+      "quiz-graphs-and-trees": {
+        "title": "Quiz su grafi e alberi",
+        "intro": [
+          "Metti alla prova ciò che hai imparato su grafi e alberi in Python con questo quiz."
+        ]
+      },
+      "lecture-understanding-dynamic-programming": {
+        "title": "Comprendere la programmazione dinamica",
+        "intro": [
+          "In questa lezione imparerai la programmazione dinamica, una tecnica algoritmica usata per risolvere problemi complessi in modo efficiente scomponendoli in sottoproblemi più semplici."
+        ]
+      },
+      "lab-nth-fibonacci-number": {
+        "title": "Crea un calcolatore del numero di Fibonacci N-esimo",
+        "intro": [
+          "In questo laboratorio implementerai un calcolatore della sequenza di Fibonacci usando un approccio di programmazione dinamica."
+        ]
+      },
+      "review-dynamic-programming": {
+        "title": "Revisione della programmazione dinamica",
+        "intro": [
+          "Prima di affrontare il quiz sulla programmazione dinamica, rivedi ciò che hai imparato su di essa."
+        ]
+      },
+      "quiz-dynamic-programming": {
+        "title": "Quiz sulla programmazione dinamica",
+        "intro": [
+          "Metti alla prova ciò che hai imparato sulla programmazione dinamica in Python con questo quiz."
+        ]
+      },
+      "review-python": {
+        "title": "Revisione di Python",
+        "intro": ["Rivedi i concetti di Python per prepararti all'esame imminente."]
+      }
+    }
   }
 }

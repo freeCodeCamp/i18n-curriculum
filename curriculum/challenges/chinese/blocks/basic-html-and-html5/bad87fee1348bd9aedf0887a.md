@@ -2,7 +2,6 @@
 id: bad87fee1348bd9aedf0887a
 title: 用 h2 元素代表副标题
 challengeType: 0
-videoUrl: 'https://scrimba.com/p/pVMPUv/cE8Gqf3'
 forumTopicId: 18196
 dashedName: headline-with-the-h2-element
 ---

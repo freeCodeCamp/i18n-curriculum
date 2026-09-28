@@ -13,9 +13,13 @@ React 的最新版本引入了服务器组件和服务器操作，将部分渲�
 
 虽然这通常用于从服务器获取数据，但不限于此。该钩子通常用于处理异步操作，确保在操作运行时界面保持流畅和交互性。
 
-让我们来看看 `useOptimistic` 钩子是什么，以及它如何帮助实现快速响应的用户界面。 
+让我们来看看 `useOptimistic` 钩子是什么，以及它如何帮助实现快速响应的用户界面。
+
+## `useOptimistic` 钩子
 
 `useOptimistic` 钩子有助于管理 UI 中的“乐观更新”，这是一种策略，你基于操作的预期结果（例如等待服务器响应）立即向 UI 提供更新。
+
+### 基本语法
 
 这是 `useOptimistic` 钩子的基本语法：
 
@@ -31,13 +35,17 @@ const [optimisticState, addOptimistic] = useOptimistic(actualState, updateFuncti
 
 - `updateFunction` 是确定在调用时乐观状态应如何更新的函数。
 
+## 乐观更新与加载状态
+
 乍一看，`useOptimistic` 钩子似乎只是处理 React 中装载状态的另一种方式。但它不仅仅是这样。
 
-加载状态控件决定在后台发生某些操作时，你是否在界面中看到旋转图标、消息或其他指示器。 
+加载状态控件决定在后台发生某些操作时，你是否在界面中看到旋转图标、消息或其他指示器。
 
 然而，`useOptimistic` 钩子会基于预期结果即时更新 UI，即使你还没有，比如，进行对 API 的调用。该钩子让你有机会显示加载指示器或消息，优雅地处理潜在误差，并显示即时反馈，使 UI 感觉更流畅。
 
 随着我们通过一些示例展示 `useOptimistic` 钩子的工作原理，这将变得更加清晰。
+
+## 创建示例
 
 这是一个模拟将任务保存到服务器的操作。它在 1 秒延迟后返回任务，就像真实的 API 请求可能发生的那样：
 
@@ -48,6 +56,8 @@ export async function saveTask(task) {
   return task;
 }
 ```
+
+### 设置钩子
 
 这是通过导入和初始化 `useOptimistic` 钩子来设置它的代码，其中包含一个将输入发送到操作的 `handleSubmit` 函数：
 
@@ -81,6 +91,8 @@ export default function TaskList({ tasks, addTask }) {
 该行 `(state, newTask) => [...state, { text: newTask, pending: true }]` 确保新建的任务即使在服务器确认来自 form 的内容之前，也会以挂起状态出现。
 
 当表单提交时，`handleSubmit` 函数提取任务并使用 `addOptimisticTask` 参数“乐观地”添加它。然后将 `addTask` 作为属性传递，该属性将任务发送到服务器。最后，通过调用 `e.target.reset()` 重置表单。
+
+### `TaskList` 组件
 
 这是 `TaskList` 组件：
 
@@ -141,6 +153,8 @@ export default function TaskList({ tasks, addTask }) {
 
 这里，我们正在循环 `optimisticTask` 参数以显示任务。当 `task.pending` 为 `true` 时，任务旁边会显示文本 `Adding Task...`，确认任务已在服务器确认之前乐观地添加。
 
+### `Tasks` 组件
+
 这是管理表单状态的 `Task` 组件。它调用来自 action 的 `saveTask` 函数，以便添加任务，并在服务器接收新任务后追加该任务：
 
 ```jsx
@@ -165,6 +179,8 @@ export default function Tasks() {
 ```
 
 这通过显示即时反馈而不是等待响应，确保了快速的 UI 更新。一旦任务被储存，`pending` 属性将被移除，最终的任务列表将相应更新。
+
+## 解决常见问题
 
 在 UI 中，有两件不应该发生的事情。首先，你看不到 `Adding Task...` 文本，因为它出现和消失得太快。接下来，添加任务后出现了误差。
 

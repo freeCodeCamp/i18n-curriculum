@@ -7,7 +7,7 @@ dashedName: lab-symmetric-difference
 
 # --description--
 
-قارن بين مصفوفتين وأرجع مصفوفة جديدة تحتوي على العناصر الموجودة في إحداهما فقط، وليس في كلتيهما. بعبارة أخرى، أرجع الفرق المتماثل بين المصفوفتين.
+قارن بين مصفوفتين وأرجع مصفوفة جديدة تحتوي على أي عناصر موجودة في واحدة فقط من المصفوفتين المعطاة، وليس في كلتيهما. بعبارة أخرى، أرجع الفرق المتماثل بين المصفوفتين.
 
 مثال:
 
@@ -15,18 +15,18 @@ dashedName: lab-symmetric-difference
 
 - المصفوفة B: `["stick", "emerald", "bread"]`
 
-النتيجة: `["diamond", "apple", "emerald", "bread"]`
+- النتيجة: `["diamond", "apple", "emerald", "bread"]`
 
-**الهدف:** حقق قصص المستخدم أدناه واجعل جميع الاختبارات تنجح لإكمال المختبر.
+**الهدف:** إكمال قصص المستخدم أدناه واجتياز جميع الاختبارات لإتمام المختبر.
 
 **قصص المستخدم:**
 
 1. يجب أن تُرجع دالتك `diffArray` مصفوفة.
 2. يجب أن تأخذ دالتك معلمتين، كلاهما مصفوفات.
 3. يجب أن تستخدم دالتك طريقة `filter`.
-4. يجب أن تُرجع دالتك الفرق المتماثل بين المصفوفتين.  
+4. يجب أن تُرجع دالتك الفرق المتماثل بين المصفوفتين.
 5. يجب أن تُرجع دالتك مصفوفة فارغة إذا لم يكن هناك فرق متماثل.
-
+6. يجب أن تُدرج دالتك العناصر الموجودة فقط في المصفوفة الأولى قبل العناصر الموجودة فقط في المصفوفة الثانية، مع الحفاظ على ترتيبها الأصلي داخل كل مصفوفة.
 
 # --hints--
 
@@ -36,10 +36,16 @@ dashedName: lab-symmetric-difference
 assert.isFunction(diffArray);
 ```
 
-يجب أن تستخدم دالة `diffArray` طريقة `filter` لتصفية العناصر الموجودة في كلتا المصفوفتين.
+يجب أن تستخدم دالتك `diffArray` طريقة `filter`.
 
 ```js
-assert(/\.filter\(/.test(diffArray.toString()));
+const spy = __helpers.spyOn(Array.prototype, 'filter');
+try {
+  diffArray([1, 2], [2, 3]);
+  assert.isAbove(spy.calls.length, 0);
+} finally {
+  spy.restore();
+}
 ```
 
 `diffArray(["diorite", "andesite", "grass", "dirt", "pink wool", "dead shrub"], ["diorite", "andesite", "grass", "dirt", "dead shrub"])` يجب أن تُرجع `["pink wool"]`.
@@ -60,7 +66,7 @@ assert.deepEqual(diffArray(
 ), ["diorite", "pink wool"]);
 ```
 
-يجب أن تُرجع `diffArray` مصفوفة فارغة عند استدعائها بمصفوفتين متطابقتين.
+`diffArray(["andesite", "grass", "dirt", "dead shrub"], ["andesite", "grass", "dirt", "dead shrub"])` يجب أن تُرجع `[]`.
 
 ```js
 assert.deepEqual(diffArray(
@@ -118,7 +124,7 @@ assert.deepEqual(diffArray(
 
 ```js
 assert.deepEqual(diffArray(
-  [], 
+  [],
   []
 ), []);
 ```

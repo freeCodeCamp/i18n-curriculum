@@ -7,11 +7,11 @@ dashedName: step-11
 
 # --description--
 
-폼 뒤에 `div` 요소를 추가하고, `id`의 `results`을 넣어 검색 결과를 표시하세요.
+`form` 요소 다음에 검색 결과를 표시할 `id`가 `results`인 `div` 요소를 추가하세요.
 
 # --hints--
 
-폼 뒤에 `div`의 `id`인 `results` 요소가 있어야 합니다.
+`form` 요소 다음에 `id`가 `results`인 `div` 요소가 있어야 합니다.
 
 ```js
 const searchContainer = document.getElementById("search-container");

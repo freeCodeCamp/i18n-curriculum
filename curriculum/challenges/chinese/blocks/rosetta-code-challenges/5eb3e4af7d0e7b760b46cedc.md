@@ -11,8 +11,8 @@ dashedName: set-consolidation
 给定两组项目，那么如果任何项目对于任何集合都是共同的，那么对这些集合应用*合并*的结果是一组集合，其内容是：
 
 <ul>
-  <li>The two input sets if no common item exists between the two input sets of items.</li>
-  <li>The single set that is the union of the two input sets if they share a common item.</li>
+  <li>如果两个输入集合之间没有共同的项，则返回这两个输入集合。</li>
+  <li>如果它们有共同的项，则返回这两个输入集合的并集组成的单个集合。</li>
 </ul>
 
 给定 N 组项，其中 N > 2，则结果与反复将所有两组的组合替换为它们的合并，直到不再可能对组点对进行合并相同。如果 N < 2，则合并没有严格意义，可以返回输入。

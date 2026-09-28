@@ -15,7 +15,11 @@ Obwohl dieser Hook oft zum Abrufen von Daten von einem Server verwendet wird, is
 
 Schauen wir uns an, was der `useOptimistic`-Hook ist und wie er dazu beiträgt, schnelle und responsive UIs zu erstellen.
 
+## Der `useOptimistic`-Hook
+
 Der `useOptimistic`-Hook hilft dabei, „optimistische Updates“ in der UI zu verwalten, eine Strategie, bei der Sie sofortige Updates in der UI basierend auf dem erwarteten Ergebnis einer Aktion bereitstellen, zum Beispiel während Sie auf eine Server-Antwort warten.
+
+### Grundlegende Syntax
 
 Hier ist die grundlegende Syntax des `useOptimistic`-Hooks:
 
@@ -31,6 +35,8 @@ const [optimisticState, addOptimistic] = useOptimistic(actualState, updateFuncti
 
 - `updateFunction` ist die Funktion, die bestimmt, wie der optimistische Zustand aktualisiert werden soll, wenn sie aufgerufen wird.
 
+## Optimistische Updates vs. Ladezustände
+
 Auf den ersten Blick könnte der `useOptimistic`-Hook wie eine weitere Möglichkeit erscheinen, Ladezustände in React zu handhaben. Aber er ist mehr als das.
 
 Ein Ladezustand steuert, ob Sie einen Spinner, eine Nachricht oder einen anderen Indikator in der UI sehen, während im Hintergrund etwas passiert.
@@ -38,6 +44,8 @@ Ein Ladezustand steuert, ob Sie einen Spinner, eine Nachricht oder einen anderen
 Der `useOptimistic`-Hook aktualisiert die UI jedoch sofort basierend auf einem erwarteten Ergebnis, noch bevor Sie beispielsweise einen API-Aufruf tätigen. Dieser Hook gibt Ihnen die Möglichkeit, einen Ladeindikator oder eine Nachricht anzuzeigen, potenzielle Fehler elegant zu behandeln und sofortiges Feedback zu geben, damit sich die UI schnell anfühlt.
 
 Das wird klarer, wenn wir uns einige Beispiele ansehen, die zeigen, wie der `useOptimistic`-Hook funktioniert.
+
+## Ein Beispiel erstellen
 
 Hier ist eine Aktion, die das Speichern einer Aufgabe auf einem Server simuliert. Sie gibt die Aufgabe nach einer Verzögerung von 1 Sekunde zurück, so wie es bei einer echten API-Anfrage passieren könnte:
 
@@ -48,6 +56,8 @@ export async function saveTask(task) {
   return task;
 }
 ```
+
+### Den Hook einrichten
 
 Hier ist der Code, der den `useOptimistic`-Hook einrichtet, indem er importiert und initialisiert wird, mit einer `handleSubmit`-Funktion, die eine Eingabe an die Aktion sendet:
 
@@ -81,6 +91,8 @@ Im Code hält der `useOptimistic`-Hook eine temporäre Liste von Aufgaben, die s
 Die Zeile `(state, newTask) => [...state, { text: newTask, pending: true }]` sorgt dafür, dass eine neue Aufgabe mit einem ausstehenden Status erscheint, noch bevor der Server bestätigt, dass etwas vom Formular kommt.
 
 Wenn das Formular abgesendet wird, extrahiert die `handleSubmit`-Funktion die Aufgabe und fügt sie „optimistisch“ mit dem `addOptimisticTask`-Parameter hinzu. Dann wird `addTask` als Prop übergeben, die die Aufgabe an den Server sendet. Schließlich wird das Formular durch Aufruf von `e.target.reset()` zurückgesetzt.
+
+### Die `TaskList`-Komponente
 
 Hier ist die `TaskList`-Komponente:
 
@@ -141,6 +153,8 @@ export default function TaskList({ tasks, addTask }) {
 
 Hier durchlaufen wir den `optimisticTask`-Parameter, um die Aufgabe anzuzeigen. Wenn `task.pending` `true` ist, wird der Text `Adding Task...` neben der Aufgabe angezeigt, was bestätigt, dass die Aufgabe optimistisch hinzugefügt wurde, bevor der Server dies bestätigt.
 
+### Die `Tasks`-Komponente
+
 Hier ist die `Task`-Komponente, die den Zustand für das Formular verwaltet. Sie ruft die `saveTask`-Funktion aus der Aktion auf, damit sie die Aufgabe hinzufügen kann, und fügt die neue Aufgabe hinzu, sobald sie vom Server empfangen wird:
 
 ```jsx
@@ -165,6 +179,8 @@ export default function Tasks() {
 ```
 
 Das sorgt für schnelle UI-Updates, indem sofortiges Feedback gezeigt wird, anstatt auf eine Antwort zu warten. Sobald die Aufgabe gespeichert ist, wird die `pending`-Eigenschaft entfernt und die endgültige Aufgabenliste entsprechend aktualisiert.
+
+## Häufige Probleme beheben
 
 In der UI passieren zwei Dinge, die nicht passieren sollten. Erstens können Sie den `Adding Task...`-Text nicht sehen, da er zu schnell erscheint und verschwindet. Zweitens tritt nach dem Hinzufügen der Aufgabe ein Fehler auf.
 

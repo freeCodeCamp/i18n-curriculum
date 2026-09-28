@@ -7,11 +7,11 @@ dashedName: step-11
 
 # --description--
 
-Fügen Sie nach dem Formular ein `div`-Element mit einem `id` von `results` hinzu, das die Suchergebnisse anzeigt.
+Fügen Sie nach dem `form`-Element ein `div`-Element mit der `id` von `results` hinzu, das die Suchergebnisse anzeigt.
 
 # --hints--
 
-Sie sollten ein `div`-Element mit dem `id` von `results` nach dem Formular haben.
+Sie sollten ein `div`-Element mit der `id` von `results` nach dem `form`-Element haben.
 
 ```js
 const searchContainer = document.getElementById("search-container");

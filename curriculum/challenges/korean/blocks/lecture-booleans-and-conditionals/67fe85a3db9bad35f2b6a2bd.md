@@ -1,6 +1,6 @@
 ---
 id: 67fe85a3db9bad35f2b6a2bd
-title: 조건문과 논리 연산자는 어떻게 작동할까요?
+title: 조건문과 비교 연산자는 어떻게 작동할까요?
 challengeType: 19
 dashedName: how-do-conditional-statements-and-logical-operators-work
 ---
@@ -12,6 +12,8 @@ dashedName: how-do-conditional-statements-and-logical-operators-work
 하지만 그 전에, 조건문의 기본 구성 요소부터 살펴보겠습니다. 비교 연산자부터 시작할게요. 비교 연산자는 두 개 이상의 값을 비교하고 불리언 값을 반환하는 연산자입니다.
 
 이전 수업에서 불리언이 Python의 데이터 타입 중 하나이며, `True` 또는 `False`만 가질 수 있다는 것을 배웠습니다.
+
+## 비교 연산자 사용하기
 
 다음은 Python의 비교 연산자 표입니다:
 
@@ -35,6 +37,8 @@ print(3 != 4) # True
 print(3 >= 4) # False
 print(3 <= 4) # True
 ```
+
+## `if` 문 사용하기
 
 이 연산자들은 조건문에서 값을 비교하고 조건이 `True` 또는 `False`으로 평가되는지에 따라 특정 코드를 실행하는 데 사용할 수 있습니다.
 
@@ -86,6 +90,8 @@ if age >= 18:
     print('You are an adult') # Nothing shows up in the terminal
 ```
 
+## `else` 절 추가하기
+
 그런데 `age`이 `18`보다 작을 때도 무언가 출력하고 싶다면 어떻게 할까요? 그럴 때 `else` 절이 필요합니다. `else` 절은 `if` 조건이 거짓일 때 실행됩니다. `if…else` 문의 구문은 다음과 같습니다:
 
 ```python
@@ -118,7 +124,9 @@ else: # SyntaxError: invalid syntax
     print('You are not an adult yet')
 ```
 
-여러 조건을 고려해야 하는 상황이 있을 수 있습니다. 이를 위해 Python은 if 문을 `elif` (else if) 키워드로 확장할 수 있게 합니다.
+## `elif` 절 추가하기
+
+여러 조건을 고려해야 하는 상황이 있을 수 있습니다. 이를 위해 Python은 `if` 문에 `elif`(else if) 키워드를 추가할 수 있게 합니다.
 
 구문은 다음과 같습니다:
 
@@ -163,7 +171,7 @@ else:
     print('You are a toddler or an infant') # You are a toddler or an infant
 ```
 
-이제 비교 연산자와 조건문이 Python에서 어떻게 작동하는지 이해했으니, 논리와 입력에 따라 결정을 내리는 프로그램을 작성할 수 있습니다. 값을 비교하거나 여러 조건을 분기하는 등, 이 도구들은 유연하고 반응형 코드를 작성하는 기초입니다.
+이제 Python에서 비교 연산자와 조건문이 어떻게 작동하는지 이해했으니, 논리와 입력에 따라 결정을 내리는 프로그램을 작성할 수 있습니다. 값을 비교하든 여러 조건을 분기하든, 이 도구들은 유연하고 반응형 코드를 작성하는 기초입니다.
 
 # --questions--
 

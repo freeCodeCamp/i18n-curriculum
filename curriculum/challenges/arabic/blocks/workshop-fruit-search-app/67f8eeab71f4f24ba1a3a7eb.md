@@ -1,17 +1,17 @@
 ---
 id: 67f8eeab71f4f24ba1a3a7eb
-title: خطوة 11
+title: الخطوة 11
 challengeType: 0
 dashedName: step-11
 ---
 
 # --description--
 
-بعد النموذج، أضف عنصر `div` مع `id` يساوي `results` ليعرض نتائج البحث.
+بعد عنصر `form`، أضف عنصر `div` يحمل `id` باسم `results` ليعرض نتائج البحث.
 
 # --hints--
 
-يجب أن يكون لديك عنصر `div` مع `id` يساوي `results` بعد النموذج.
+يجب أن يكون لديك عنصر `div` يحمل `id` باسم `results` بعد عنصر `form`.
 
 ```js
 const searchContainer = document.getElementById("search-container");

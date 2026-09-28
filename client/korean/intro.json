@@ -833,12 +833,32 @@
           "이 프로젝트를 통해 수치 계산과 문자열 조작 경험을 쌓으세요."
         ]
       },
+      "learn-lambda-functions-by-building-an-expense-tracker": {
+        "title": "지출 추적기를 만들어 람다 함수 배우기",
+        "intro": [
+          "람다 함수는 코드에서 작고 일회성인 함수를 간결하게 작성할 수 있게 합니다.",
+          "이 프로젝트에서는 지출 추적기를 만들어 람다 함수의 강력함을 탐구하고, 효율적이고 간결한 작업에 람다 함수를 활용하는 방법을 보여줍니다."
+        ]
+      },
       "learn-list-comprehension-by-building-a-case-converter-program": {
         "title": "케이스 변환 프로그램을 만들어 Python 리스트 내포 배우기",
         "intro": [
           "리스트 내포는 for 루프나 <code>.append()</code> 메서드 없이 반복 가능한 타입(리스트, 튜플, 문자열)에서 새 리스트를 만드는 방법입니다.",
           "이 프로젝트에서는 카멜 케이스나 파스칼 케이스로 된 문자열을 받아 스네이크 케이스로 변환하는 프로그램을 작성합니다.",
           "프로젝트는 두 단계로 진행됩니다: 먼저 for 루프로 구현하고, 그다음 리스트 내포를 사용해 같은 결과를 얻는 방법을 배웁니다."
+        ]
+      },
+      "learn-the-bisection-method-by-finding-the-square-root-of-a-number": {
+        "title": "이분법으로 숫자의 제곱근을 구하며 배우는 이분법",
+        "intro": [
+          "수치해석 방법은 해석적으로 풀기 어렵거나 불가능한 수학 문제의 근사해를 구하는 데 사용됩니다.",
+          "이 프로젝트에서는 이분법 수치해석 방법을 사용해 제곱근을 포함하는 값의 범위를 반복적으로 좁혀가며 제곱근을 찾습니다."
+        ]
+      },
+      "build-an-arithmetic-formatter-project": {
+        "title": "산술 포맷터 프로젝트 만들기",
+        "intro": [
+          "이 프로젝트는 인증서를 받기 위한 필수 프로젝트 중 하나입니다."
         ]
       },
       "learn-regular-expressions-by-building-a-password-generator": {
@@ -869,6 +889,12 @@
           "이 프로젝트에서는 병합 정렬 알고리즘을 사용해 무작위 숫자 리스트를 정렬하며 자료 구조와 상호작용하는 방법을 배우세요."
         ]
       },
+      "build-a-time-calculator-project": {
+        "title": "시간 계산기 프로젝트 만들기",
+        "intro": [
+          "이 프로젝트는 인증서를 받기 위한 필수 프로젝트 중 하나입니다."
+        ]
+      },
       "learn-classes-and-objects-by-building-a-sudoku-solver": {
         "title": "스도쿠 해결기를 만들어 클래스와 객체 배우기",
         "intro": [
@@ -883,48 +909,10 @@
           "이 프로젝트에서는 직접 BST를 구성하고 중위 순서 순회를 수행하는 방법을 배우며, 삽입, 검색, 삭제 같은 주요 연산도 익히세요."
         ]
       },
-      "learn-lambda-functions-by-building-an-expense-tracker": {
-        "title": "지출 추적기를 만들어 람다 함수 배우기",
-        "intro": [
-          "람다 함수는 코드에서 작고 일회성인 함수를 간결하게 작성할 수 있게 합니다.",
-          "이 프로젝트에서는 지출 추적기를 만들어 람다 함수의 강력함을 탐구하고, 효율적이고 간결한 작업에 람다 함수를 활용하는 방법을 보여줍니다."
-        ]
-      },
-      "build-an-arithmetic-formatter-project": {
-        "title": "산술 포맷터 프로젝트 만들기",
-        "intro": [
-          "이 프로젝트는 인증서를 받기 위한 필수 프로젝트 중 하나입니다."
-        ]
-      },
-      "build-a-time-calculator-project": {
-        "title": "시간 계산기 프로젝트 만들기",
-        "intro": [
-          "이 프로젝트는 인증서를 받기 위한 필수 프로젝트 중 하나입니다."
-        ]
-      },
       "build-a-budget-app-project": {
         "title": "예산 앱 프로젝트 만들기",
         "intro": [
           "이 프로젝트는 인증서를 받기 위한 필수 프로젝트 중 하나입니다."
-        ]
-      },
-      "build-a-polygon-area-calculator-project": {
-        "title": "다각형 면적 계산기 프로젝트 만들기",
-        "intro": [
-          "이 프로젝트는 인증서를 받기 위한 필수 프로젝트 중 하나입니다."
-        ]
-      },
-      "build-a-probability-calculator-project": {
-        "title": "확률 계산기 프로젝트 만들기",
-        "intro": [
-          "이 프로젝트는 인증서를 받기 위한 필수 프로젝트 중 하나입니다."
-        ]
-      },
-      "learn-interfaces-by-building-an-equation-solver": {
-        "title": "방정식 해결기를 만들어 인터페이스 배우기",
-        "intro": [
-          "추상 클래스는 클래스의 청사진 역할을 하는 공식 인터페이스를 정의할 수 있게 합니다.",
-          "이 프로젝트에서는 간단한 방정식 해결기 프로그램을 만들면서 Python에서 인터페이스를 구현하는 방법을 배우세요."
         ]
       },
       "learn-special-methods-by-building-a-vector-space": {
@@ -934,6 +922,19 @@
           "이 프로젝트에서는 벡터 공간을 구축하면서 벡터에 대해 배우고 가장 일반적인 특수 메서드 몇 가지를 탐구합니다."
         ]
       },
+      "learn-interfaces-by-building-an-equation-solver": {
+        "title": "방정식 해결기를 만들어 인터페이스 배우기",
+        "intro": [
+          "추상 클래스는 클래스의 청사진 역할을 하는 공식 인터페이스를 정의할 수 있게 합니다.",
+          "이 프로젝트에서는 간단한 방정식 해결기 프로그램을 만들면서 Python에서 인터페이스를 구현하는 방법을 배우세요."
+        ]
+      },
+      "build-a-polygon-area-calculator-project": {
+        "title": "다각형 면적 계산기 프로젝트 만들기",
+        "intro": [
+          "이 프로젝트는 인증서를 받기 위한 필수 프로젝트 중 하나입니다."
+        ]
+      },
       "learn-encapsulation-by-building-a-projectile-trajectory-calculator": {
         "title": "투사체 궤적 계산기를 만들어 캡슐화를 배우세요",
         "intro": [
@@ -941,11 +942,10 @@
           "이 프로젝트에서는 getter, setter, 이름 맹글링과 같은 캡슐화 관련 새로운 개념을 배우고, 이를 기존에 배운 내용과 함께 사용해 투사체 궤적을 계산하는 프로그램을 만듭니다."
         ]
       },
-      "learn-the-bisection-method-by-finding-the-square-root-of-a-number": {
-        "title": "이분법으로 숫자의 제곱근을 구하며 배우는 이분법",
+      "build-a-probability-calculator-project": {
+        "title": "확률 계산기 프로젝트 만들기",
         "intro": [
-          "수치해석 방법은 해석적으로 풀기 어렵거나 불가능한 수학 문제의 근사해를 구하는 데 사용됩니다.",
-          "이 프로젝트에서는 이분법 수치해석 방법을 사용해 제곱근을 포함하는 값의 범위를 반복적으로 좁혀가며 제곱근을 찾습니다."
+          "이 프로젝트는 인증서를 받기 위한 필수 프로젝트 중 하나입니다."
         ]
       }
     }
@@ -1504,7 +1504,7 @@
       "workshop-report-card-printer": {
         "title": "성적표 출력기 만들기",
         "intro": [
-          "이 워크숍에서는 간단한 성적표 데이터를 만들고 출력하면서 Python의 기본 데이터 타입을 다루는 연습을 합니다."
+          "이 워크숍에서는 간단한 성적표 데이터를 생성하고 출력하면서 Python의 내장 자료형을 다루는 연습을 합니다."
         ]
       },
       "lecture-introduction-to-python-strings": {
@@ -1551,6 +1551,12 @@
         "title": "함수와 범위 이해하기",
         "intro": [
           "이 수업에서 Python의 함수와 범위에 대해 배우세요."
+        ]
+      },
+      "workshop-kitchen-inventory-tracker": {
+        "title": "주방 재고 추적기 만들기",
+        "intro": [
+          "이 워크숍에서는 Python에서 함수와 범위를 다루는 연습을 하며 주방 재고 추적기를 만듭니다."
         ]
       },
       "lab-discount-calculator": {
@@ -2472,6 +2478,12 @@
           "이 워크숍에서는 레코드 컬렉션을 관리하는 함수를 만듭니다."
         ]
       },
+      "workshop-artifact-provenance-auditor": {
+        "title": "유물 출처 감사기 만들기",
+        "intro": [
+          "이 워크숍에서는 박물관 유물을 조회, 태그, 이동, 요약하는 유물 출처 감사기를 만듭니다."
+        ]
+      },
       "review-javascript-objects": {
         "title": "JavaScript 객체 복습",
         "intro": [
@@ -2505,22 +2517,66 @@
           "이 워크숍에서는 <code>for...of</code> 루프를 사용해 문자열 배열에서 특정 문자열의 출현 횟수를 세는 함수를 만듭니다."
         ]
       },
+      "lab-factorial-calculator": {
+        "title": "팩토리얼 계산기 만들기",
+        "intro": [
+          "이 워크숍에서는 팩토리얼 계산기를 만듭니다.",
+          "반복문과 조건문을 사용해 숫자의 팩토리얼을 계산하는 연습을 합니다."
+        ]
+      },
+      "lab-repeat-a-string": {
+        "title": "문자열 반복 함수 만들기",
+        "intro": [
+          "이 워크숍에서는 반복문을 구현해 문자열을 지정한 횟수만큼 반복합니다."
+        ]
+      },
       "workshop-sentence-analyzer": {
         "title": "문장 분석기 만들기",
         "intro": [
           "이 워크숍에서는 JavaScript 반복문을 활용해 문장 분석기 앱을 만듭니다."
         ]
       },
-      "lab-traffic-light-sequencer": {
-        "title": "신호등 순서 제어기 만들기",
+      "lab-longest-word-in-a-string": {
+        "title": "가장 긴 단어 찾기 앱 만들기",
         "intro": [
-          "이 실습에서는 JavaScript 루프를 사용해 신호등 순서 제어기를 만듭니다."
+          "이 워크숍에서는 JavaScript 반복문을 사용해 주어진 문장에서 가장 긴 단어 길이를 찾습니다."
+        ]
+      },
+      "lab-mutations": {
+        "title": "변이 알고리즘 구현하기",
+        "intro": [
+          "이 워크숍에서는 두 문자열을 반복하며 문자들을 비교하는 연습을 합니다."
+        ]
+      },
+      "lab-missing-letter-detector": {
+        "title": "누락된 문자 감지기 만들기",
+        "intro": [
+          "이 워크숍에서는 연속된 문자 범위에서 누락된 문자를 찾아 반환하는 함수를 만듭니다."
+        ]
+      },
+      "lab-profile-lookup": {
+        "title": "프로필 조회 만들기",
+        "intro": [
+          "이 워크숍에서는 프로필 정보를 조회하는 함수를 만듭니다."
         ]
       },
       "workshop-space-mission-roster": {
         "title": "우주 임무 명단 만들기",
         "intro": [
           "이 워크숍에서는 JavaScript 루프를 활용해 우주 임무 명단을 만듭니다."
+        ]
+      },
+      "lab-chunky-monkey": {
+        "title": "청키 몽키 알고리즘 구현하기",
+        "intro": [
+          "이 워크숍에서는 배열을 원하는 기법으로 작은 배열들로 나누는 연습을 합니다."
+        ]
+      },
+      "lab-device-loan-ledger": {
+        "title": "장비 대여 장부 만들기",
+        "intro": [
+          "이 실습에서는 회사 서비스 데스크에서 제공하는 IT 하드웨어를 관리하는 장비 대여 장부를 만듭니다.",
+          "중첩 객체와 JSON을 다루는 연습으로 장비 대여 및 반납, 연체 대여 추적, JSON 문자열과 JavaScript 객체 간 변환 기능을 구현합니다."
         ]
       },
       "workshop-heritage-library-catalog": {
@@ -2530,41 +2586,10 @@
           "루프, 객체, 문자열 메서드를 사용해 원시 텍스트 데이터를 파싱하고, 항목을 검색 및 그룹화하며, 형식화된 출력을 렌더링하고 JSON과 CSV로 내보내는 연습을 합니다."
         ]
       },
-      "lab-longest-word-in-a-string": {
-        "title": "가장 긴 단어 찾기 앱 만들기",
+      "lab-smart-pantry-restocker": {
+        "title": "스마트 식료품 저장고 보충기 만들기",
         "intro": [
-          "이 워크숍에서는 JavaScript 반복문을 사용해 주어진 문장에서 가장 긴 단어 길이를 찾습니다."
-        ]
-      },
-      "lab-factorial-calculator": {
-        "title": "팩토리얼 계산기 만들기",
-        "intro": [
-          "이 워크숍에서는 팩토리얼 계산기를 만듭니다.",
-          "반복문과 조건문을 사용해 숫자의 팩토리얼을 계산하는 연습을 합니다."
-        ]
-      },
-      "lab-mutations": {
-        "title": "변이 알고리즘 구현하기",
-        "intro": [
-          "이 워크숍에서는 두 문자열을 반복하며 문자들을 비교하는 연습을 합니다."
-        ]
-      },
-      "lab-chunky-monkey": {
-        "title": "청키 몽키 알고리즘 구현하기",
-        "intro": [
-          "이 워크숍에서는 배열을 원하는 기법으로 작은 배열들로 나누는 연습을 합니다."
-        ]
-      },
-      "lab-profile-lookup": {
-        "title": "프로필 조회 만들기",
-        "intro": [
-          "이 워크숍에서는 프로필 정보를 조회하는 함수를 만듭니다."
-        ]
-      },
-      "lab-repeat-a-string": {
-        "title": "문자열 반복 함수 만들기",
-        "intro": [
-          "이 워크숍에서는 반복문을 구현해 문자열을 지정한 횟수만큼 반복합니다."
+          "이 실습에서는 배열, 객체, 루프, 조건문 같은 기본 JavaScript 개념을 활용해 작은 식료품 저장고 관리 프로그램을 만듭니다."
         ]
       },
       "workshop-festival-crowd-flow-simulator": {
@@ -2573,16 +2598,10 @@
           "이 워크숍에서는 JavaScript를 사용해 음악 축제 참석자의 흐름을 시뮬레이션합니다."
         ]
       },
-      "lab-missing-letter-detector": {
-        "title": "누락된 문자 감지기 만들기",
+      "lab-traffic-light-sequencer": {
+        "title": "신호등 순서 제어기 만들기",
         "intro": [
-          "이 워크숍에서는 연속된 문자 범위에서 누락된 문자를 찾아 반환하는 함수를 만듭니다."
-        ]
-      },
-      "lab-smart-pantry-restocker": {
-        "title": "스마트 식료품 저장고 보충기 만들기",
-        "intro": [
-          "이 실습에서는 배열, 객체, 루프, 조건문 같은 기본 JavaScript 개념을 활용해 작은 식료품 저장고 관리 프로그램을 만듭니다."
+          "이 실습에서는 JavaScript 루프를 사용해 신호등 순서 제어기를 만듭니다."
         ]
       },
       "lab-proofreading-tool": {
@@ -4924,6 +4943,12 @@
           "이 실습에서는 음반 컬렉션을 관리하는 함수를 만듭니다."
         ]
       },
+      "workshop-artifact-provenance-auditor": {
+        "title": "유물 출처 감사기 만들기",
+        "intro": [
+          "이 워크숍에서는 박물관 유물을 조회, 태그, 이동, 요약하는 유물 출처 감사기를 만듭니다."
+        ]
+      },
       "review-javascript-objects": {
         "title": "JavaScript 객체 복습",
         "intro": [
@@ -4947,22 +4972,66 @@
           "이 워크숍에서는 <code>for...of</code> 반복문을 사용해 문자열 배열에서 특정 문자열 출현 횟수를 세는 함수를 만듭니다."
         ]
       },
+      "lab-factorial-calculator": {
+        "title": "팩토리얼 계산기 만들기",
+        "intro": [
+          "이 실습에서는 팩토리얼 계산기를 만듭니다.",
+          "반복문과 조건문을 사용해 숫자의 팩토리얼을 계산하는 연습을 합니다."
+        ]
+      },
+      "lab-repeat-a-string": {
+        "title": "문자열 반복 함수 만들기",
+        "intro": [
+          "이 실습에서는 반복문을 구현해 문자열을 지정한 횟수만큼 반복합니다."
+        ]
+      },
       "workshop-sentence-analyzer": {
         "title": "문장 분석기 만들기",
         "intro": [
           "이 워크숍에서는 JavaScript 반복문을 복습하며 문장 분석기 앱을 만듭니다."
         ]
       },
-      "lab-traffic-light-sequencer": {
-        "title": "신호등 순서기 만들기",
+      "lab-longest-word-in-a-string": {
+        "title": "가장 긴 단어 찾기 앱 만들기",
         "intro": [
-          "이 실습에서는 JavaScript 반복문을 사용해 신호등 순서기를 만듭니다."
+          "이 실습에서는 JavaScript 반복문을 사용해 주어진 문장에서 가장 긴 단어의 길이를 찾습니다."
+        ]
+      },
+      "lab-mutations": {
+        "title": "변이 알고리즘 구현하기",
+        "intro": [
+          "이 실습에서는 두 문자열을 반복하며 문자들을 비교하는 연습을 합니다."
+        ]
+      },
+      "lab-missing-letter-detector": {
+        "title": "빠진 글자 감지기 만들기",
+        "intro": [
+          "이 실습에서는 연속된 글자 범위에서 빠진 글자를 찾아 반환하는 함수를 만듭니다."
+        ]
+      },
+      "lab-profile-lookup": {
+        "title": "프로필 조회 만들기",
+        "intro": [
+          "이 실습에서는 프로필 정보를 조회하는 함수를 만듭니다."
         ]
       },
       "workshop-space-mission-roster": {
         "title": "우주 임무 명단 만들기",
         "intro": [
           "이 워크숍에서는 JavaScript 반복문을 활용해 우주 임무 명단을 만듭니다."
+        ]
+      },
+      "lab-chunky-monkey": {
+        "title": "청키 몽키 알고리즘 구현하기",
+        "intro": [
+          "이 실습에서는 배열을 원하는 기법으로 작은 배열들로 나누는 연습을 합니다."
+        ]
+      },
+      "lab-device-loan-ledger": {
+        "title": "장비 대여 장부 만들기",
+        "intro": [
+          "이 실습에서는 회사 서비스 데스크에서 제공하는 IT 하드웨어를 관리하는 장비 대여 장부를 만듭니다.",
+          "중첩 객체와 JSON을 다루는 연습으로 장비 대여 및 반납, 연체 대여 추적, JSON 문자열과 JavaScript 객체 간 변환 기능을 구현합니다."
         ]
       },
       "workshop-heritage-library-catalog": {
@@ -4972,41 +5041,10 @@
           "반복문, 객체, 문자열 메서드를 사용해 원시 텍스트 데이터를 파싱하고, 항목을 검색 및 그룹화하며, 형식화된 출력을 렌더링하고 JSON과 CSV로 내보내는 연습을 합니다."
         ]
       },
-      "lab-longest-word-in-a-string": {
-        "title": "가장 긴 단어 찾기 앱 만들기",
+      "lab-smart-pantry-restocker": {
+        "title": "스마트 식료품 저장고 보충기 만들기",
         "intro": [
-          "이 실습에서는 JavaScript 반복문을 사용해 주어진 문장에서 가장 긴 단어의 길이를 찾습니다."
-        ]
-      },
-      "lab-factorial-calculator": {
-        "title": "팩토리얼 계산기 만들기",
-        "intro": [
-          "이 실습에서는 팩토리얼 계산기를 만듭니다.",
-          "반복문과 조건문을 사용해 숫자의 팩토리얼을 계산하는 연습을 합니다."
-        ]
-      },
-      "lab-mutations": {
-        "title": "변이 알고리즘 구현하기",
-        "intro": [
-          "이 실습에서는 두 문자열을 반복하며 문자들을 비교하는 연습을 합니다."
-        ]
-      },
-      "lab-chunky-monkey": {
-        "title": "청키 몽키 알고리즘 구현하기",
-        "intro": [
-          "이 실습에서는 배열을 원하는 기법으로 작은 배열들로 나누는 연습을 합니다."
-        ]
-      },
-      "lab-profile-lookup": {
-        "title": "프로필 조회 만들기",
-        "intro": [
-          "이 실습에서는 프로필 정보를 조회하는 함수를 만듭니다."
-        ]
-      },
-      "lab-repeat-a-string": {
-        "title": "문자열 반복 함수 만들기",
-        "intro": [
-          "이 실습에서는 반복문을 구현해 문자열을 지정한 횟수만큼 반복합니다."
+          "이 실습에서는 배열, 객체, 반복문, 조건문 같은 기본 JavaScript 개념을 사용해 작은 식료품 저장고 관리 프로그램을 만듭니다."
         ]
       },
       "workshop-festival-crowd-flow-simulator": {
@@ -5015,16 +5053,10 @@
           "이 워크숍에서는 JavaScript를 사용해 음악 축제 참석자 흐름을 시뮬레이션합니다."
         ]
       },
-      "lab-missing-letter-detector": {
-        "title": "빠진 글자 감지기 만들기",
+      "lab-traffic-light-sequencer": {
+        "title": "신호등 순서기 만들기",
         "intro": [
-          "이 실습에서는 연속된 글자 범위에서 빠진 글자를 찾아 반환하는 함수를 만듭니다."
-        ]
-      },
-      "lab-smart-pantry-restocker": {
-        "title": "스마트 식료품 저장고 보충기 만들기",
-        "intro": [
-          "이 실습에서는 배열, 객체, 반복문, 조건문 같은 기본 JavaScript 개념을 사용해 작은 식료품 저장고 관리 프로그램을 만듭니다."
+          "이 실습에서는 JavaScript 반복문을 사용해 신호등 순서기를 만듭니다."
         ]
       },
       "lab-proofreading-tool": {
@@ -6024,7 +6056,7 @@
       "lecture-introduction-to-javascript-libraries-and-frameworks": {
         "title": "JavaScript 라이브러리와 프레임워크 소개",
         "intro": [
-          "이 수업에서는 JavaScript 라이브러리와 프레임워크를 소개합니다. JavaScript 라이브러리와 프레임워크의 역할, 싱글 페이지 애플리케이션(SPA)과 관련 문제, 가장 인기 있는 프론트엔드 JavaScript 라이브러리인 React에 대해 배웁니다."
+          "이 수업들에서는 JavaScript 라이브러리와 프레임워크를 소개합니다. JavaScript 라이브러리와 프레임워크의 역할, 싱글 페이지 애플리케이션(SPA)과 관련 문제, 그리고 가장 인기 있는 프런트엔드 JavaScript 라이브러리인 React에 대해 배웁니다."
         ]
       },
       "workshop-reusable-mega-navbar": {
@@ -6455,7 +6487,7 @@
       "workshop-bill-splitter": {
         "title": "계산서 분할기 만들기",
         "intro": [
-          "이 워크숍에서는 Python의 숫자와 수학 연산을 연습하기 위해 계산서 분할기를 만듭니다."
+          "이 워크숍에서는 Python에서 숫자와 수학 연산을 다루는 연습으로 계산서 분할기를 만듭니다."
         ]
       },
       "lecture-booleans-and-conditionals": {
@@ -6480,6 +6512,12 @@
         "title": "함수와 범위 이해하기",
         "intro": [
           "이 수업들에서는 Python의 함수와 범위에 대해 배우세요."
+        ]
+      },
+      "workshop-kitchen-inventory-tracker": {
+        "title": "주방 재고 추적기 만들기",
+        "intro": [
+          "이 워크숍에서는 Python에서 함수와 범위를 다루는 연습을 하며 주방 재고 추적기를 만듭니다."
         ]
       },
       "lab-discount-calculator": {
@@ -6962,7 +7000,7 @@
       "lecture-working-with-code-editors-and-ides": {
         "title": "코드 편집기와 IDE 사용하기",
         "intro": [
-          "이 수업들에서 코드 편집기와 IDE를 사용하는 방법을 배우세요. 가장 인기 있는 코드 편집기인 VS Code의 설치, 프로젝트 생성, 단축키, 확장 기능 등 다양한 개념을 익히게 됩니다."
+          "이 수업들에서는 코드 편집기와 IDE를 다루는 방법을 배웁니다. VS Code 설치, 프로젝트 생성, 키보드 단축키 사용, 확장 기능 활용법을 익힙니다."
         ]
       },
       "lecture-understanding-the-command-line-and-working-with-bash": {
@@ -7647,21 +7685,41 @@
       "es-a1-module-describing-a-company": "회사 묘사하기",
       "es-a1-module-describing-people-at-work": "직장 내 사람들 묘사하기"
     },
-    "module-intros": {
-      "es-a1-module-describing-a-company": {
-        "note": "2026년 출시 예정",
-        "intro": [
-          "이 모듈에서는 회사 이름, 웹사이트, 위치, 직원 수, 부서 등 기본 정보를 식별하고 묘사하는 방법을 배우세요."
-        ]
-      },
-      "es-a1-module-describing-people-at-work": {
-        "note": "2026년 출시 예정",
-        "intro": [
-          "이 모듈에서는 3인칭 묘사와 짧은 대화에서 간단한 수정 사항을 식별하는 방법을 배우세요."
-        ]
-      }
-    },
     "blocks": {
+      "es-a1-learn-certification-introduction": {
+        "title": "자격증 소개",
+        "intro": ["", ""]
+      },
+      "es-a1-learn-vowels": { "title": "모음", "intro": ["", ""] },
+      "es-a1-learn-consonants-and-special-characters": {
+        "title": "자음과 특수 문자",
+        "intro": ["", ""]
+      },
+      "es-a1-practice-the-alphabet": {
+        "title": "스페인어 알파벳 연습",
+        "intro": ["", ""]
+      },
+      "es-a1-learn-the-first-ten-numbers": {
+        "title": "처음 열 개 숫자",
+        "intro": ["", ""]
+      },
+      "es-a1-practice-the-first-ten-numbers": {
+        "title": "처음 열 개 숫자 연습",
+        "intro": ["", ""]
+      },
+      "es-a1-learn-alphabet-and-accents": {
+        "title": "알파벳과 악센트",
+        "intro": ["", ""]
+      },
+      "es-a1-learn-punctuation": { "title": "구두점", "intro": ["", ""] },
+      "es-a1-review-spanish-fundamentals": {
+        "title": "스페인어 기초 복습",
+        "intro": ["", ""]
+      },
+      "es-a1-quiz-spanish-fundamentals": {
+        "title": "스페인어 기초 퀴즈",
+        "intro": ["", ""]
+      },
       "es-a1-warm-up-greetings-and-farewells-basics": {
         "title": "인사와 작별 인사 기초",
         "intro": ["", ""]
@@ -7680,19 +7738,6 @@
       },
       "es-a1-quiz-greetings-and-farewells": {
         "title": "인사와 작별 인사 퀴즈",
-        "intro": ["", ""]
-      },
-      "es-a1-learn-certification-introduction": {
-        "title": "자격증 소개",
-        "intro": ["", ""]
-      },
-      "es-a1-learn-alphabet-and-accents": {
-        "title": "알파벳과 악센트",
-        "intro": ["", ""]
-      },
-      "es-a1-learn-punctuation": { "title": "구두점", "intro": ["", ""] },
-      "es-a1-quiz-spanish-fundamentals": {
-        "title": "스페인어 기초 퀴즈",
         "intro": ["", ""]
       },
       "es-a1-warm-up-introducing-yourself-basics": {
@@ -7735,19 +7780,6 @@
       },
       "es-a1-quiz-first-questions": {
         "title": "첫 질문 퀴즈",
-        "intro": ["", ""]
-      },
-      "es-a1-learn-vowels": { "title": "모음", "intro": ["", ""] },
-      "es-a1-learn-consonants-and-special-characters": {
-        "title": "자음과 특수 문자",
-        "intro": ["", ""]
-      },
-      "es-a1-review-spanish-fundamentals": {
-        "title": "스페인어 기초 복습",
-        "intro": ["", ""]
-      },
-      "es-a1-practice-the-alphabet": {
-        "title": "스페인어 알파벳 연습",
         "intro": ["", ""]
       },
       "es-a1-warm-up-remember-first-numbers": {
@@ -7794,20 +7826,8 @@
         "title": "개인 정보 공유 퀴즈",
         "intro": ["", ""]
       },
-      "es-a1-learn-the-first-ten-numbers": {
-        "title": "처음 열 개 숫자",
-        "intro": ["", ""]
-      },
-      "es-a1-practice-the-first-ten-numbers": {
-        "title": "처음 열 개 숫자 연습",
-        "intro": ["", ""]
-      },
       "es-a1-learn-numbers-30-to-60": {
         "title": "30부터 60까지 숫자",
-        "intro": ["", ""]
-      },
-      "es-a1-warm-up-describing-a-company-basics": {
-        "title": "회사 설명 기본",
         "intro": ["", ""]
       },
       "es-a1-learn-numbers-61-to-100": {
@@ -7826,8 +7846,16 @@
         "title": "30부터 100까지 숫자 퀴즈",
         "intro": ["", ""]
       },
+      "es-a1-warm-up-describing-a-company-basics": {
+        "title": "회사 설명 기본",
+        "intro": ["", ""]
+      },
       "es-a1-learn-what-the-company-does": {
         "title": "회사가 하는 일",
+        "intro": ["", ""]
+      },
+      "es-a1-practice-what-departments-do": {
+        "title": "부서의 역할",
         "intro": ["", ""]
       },
       "es-a1-learn-asking-about-a-company": {
@@ -7854,6 +7882,10 @@
         "title": "미니 전기",
         "intro": ["", ""]
       },
+      "es-a1-learn-talking-about-colleagues": {
+        "title": "동료에 대해 말하기",
+        "intro": ["", ""]
+      },
       "es-a1-practice-asking-about-mini-biographies": {
         "title": "미니 전기에 대해 묻기",
         "intro": ["", ""]
@@ -7872,14 +7904,6 @@
       },
       "es-a1-quiz-describing-people-at-work": {
         "title": "직장 내 사람들 설명",
-        "intro": ["", ""]
-      },
-      "es-a1-learn-talking-about-colleagues": {
-        "title": "동료에 대해 말하기",
-        "intro": ["", ""]
-      },
-      "es-a1-practice-what-departments-do": {
-        "title": "부서의 역할",
         "intro": ["", ""]
       }
     }
@@ -7960,7 +7984,7 @@
       "lecture-understanding-the-html-boilerplate": {
         "title": "HTML 보일러플레이트 이해하기",
         "intro": [
-          "이 강의에서는 웹 페이지용 준비된 템플릿인 HTML 보일러플레이트에 대해 배웁니다.",
+          "이 강의들에서는 웹페이지용 보일러플레이트인 HTML 보일러플레이트에 대해 배웁니다.",
           "<code>link</code> 요소, <code>meta</code> 요소 등과 작업하는 방법을 배우세요."
         ]
       },
@@ -7998,7 +8022,7 @@
       "lab-travel-agency-page": {
         "title": "여행사 페이지 만들기",
         "intro": [
-          "이 실습에서는 여행사 웹 페이지를 만들어 HTML 기본을 복습합니다. 이미지, <code>figure</code> 요소, <code>figcaption</code> 요소, <code>anchor</code> 요소 등을 다룹니다."
+          "이 실습에서는 여행사 웹 페이지를 만들어 HTML 기본을 복습합니다. 이미지, <code>figure</code> 요소, <code>figcaption</code> 요소, <code>a</code> 요소 등을 다룹니다."
         ]
       },
       "lecture-working-with-audio-and-video-elements": {
@@ -8036,13 +8060,13 @@
       "workshop-build-a-heart-icon": {
         "title": "하트 아이콘 만들기",
         "intro": [
-          "이 워크숍에서는 SVG를 사용해 하트 아이콘을 만듭니다."
+          "이 워크숍에서는 SVG를 다루는 연습으로 하트 아이콘을 만듭니다."
         ]
       },
       "lecture-working-with-media": {
         "title": "iframe 요소 다루기",
         "intro": [
-          "이 강의에서는 웹 페이지에 외부 사이트를 임베드하는 데 쓰이는 <code>iframe</code> 요소를 다루는 방법을 배웁니다."
+          "이 강의들에서는 웹 페이지에 외부 사이트를 임베드하는 데 쓰이는 <code>iframe</code> 요소를 다루는 방법을 배웁니다."
         ]
       },
       "workshop-build-a-video-display-using-iframe": {
@@ -8060,7 +8084,7 @@
       "lecture-working-with-links": {
         "title": "링크 다루기",
         "intro": [
-          "이 강의에서는 링크, <code>target</code> 속성, 다양한 링크 상태, 절대 및 상대 경로 등을 배웁니다."
+          "이 강의들에서는 링크, <code>target</code> 속성, 다양한 링크 상태, 절대 경로와 상대 경로 등을 배웁니다."
         ]
       },
       "review-basic-html": {
@@ -8086,7 +8110,7 @@
       "lecture-understanding-nuanced-semantic-elements": {
         "title": "미묘한 시맨틱 요소 이해하기",
         "intro": [
-          "이 강의에서는 <code>i</code> 요소 대신 <code>em</code> 요소를 써야 할 때, 설명 목록 등 특정 시맨틱 요소 사용법을 배웁니다."
+          "이 강의들에서는 <code>i</code> 요소 대신 <code>em</code> 요소를 언제 사용하는지 배우고, 설명 목록과 기타 의미론적 HTML 요소에 대해 배웁니다."
         ]
       },
       "workshop-major-browsers-list": {
@@ -8110,7 +8134,7 @@
       "lecture-working-with-specialized-semantic-elements": {
         "title": "특수 시맨틱 요소 다루기",
         "intro": [
-          "이 강의에서는 <code>u</code>, <code>s</code>, <code>code</code> 요소 등 특수 시맨틱 요소를 배웁니다."
+          "이 강의에서는 <code>u</code>, <code>s</code>, <code>code</code> 등 특수 의미론적 요소에 대해 배웁니다."
         ]
       },
       "workshop-blog-page": {
@@ -8322,7 +8346,7 @@
       "lecture-what-is-css": {
         "title": "CSS란 무엇인가?",
         "intro": [
-          "다음 강의에서는 CSS가 무엇인지, 웹에서의 역할, CSS 규칙과 구조, CSS 작성 세 가지 방법과 각각의 사용 시기, 인라인과 블록 요소 등 다양한 내용을 배웁니다."
+          "다음 강의들은 모두 CSS에 관한 것입니다. CSS가 무엇이고 웹에서의 역할, CSS 규칙과 구조, CSS 작성 세 가지 방법과 사용 시기, 인라인과 블록 요소 등을 배웁니다."
         ]
       },
       "workshop-cafe-menu": {
@@ -8995,18 +9019,6 @@
       "zh-a1-module-discussing-team-skills": "팀 기술 논의하기"
     },
     "module-intros": {
-      "zh-a1-module-introducing-others": {
-        "note": "2026년 출시 예정",
-        "intro": [
-          "이 모듈에서 이름, 역할, 국적, 나이 등 다른 사람에 관한 정보를 소개하는 짧은 독백을 이해하는 연습을 합니다."
-        ]
-      },
-      "zh-a1-module-getting-to-know-the-team": {
-        "note": "2026년 출시 예정",
-        "intro": [
-          "이 모듈에서는 동료에 관한 간단한 질문을 묻고 답하는 짧은 대화를 이해하는 연습을 합니다."
-        ]
-      },
       "zh-a1-module-communicating-personal-information": {
         "note": "2026년 출시 예정",
         "intro": [
@@ -9044,6 +9056,14 @@
         "title": "비음 종성",
         "intro": ["", ""]
       },
+      "zh-a1-learn-special-spelling-rules": {
+        "title": "특별 철자 규칙",
+        "intro": ["", ""]
+      },
+      "zh-a1-practice-pinyin": {
+        "title": "병음 연습",
+        "intro": ["", ""]
+      },
       "zh-a1-warm-up-greeting-new-colleagues": {
         "title": "새 동료 인사하기",
         "intro": ["", ""]
@@ -9064,20 +9084,12 @@
         "title": "인사와 소개 퀴즈",
         "intro": ["", ""]
       },
+      "zh-a1-warm-up-meeting-new-teammates": {
+        "title": "새 팀원 만나기",
+        "intro": ["", ""]
+      },
       "zh-a1-learn-understanding-questions-and-answers": {
         "title": "질문과 답변 이해하기",
-        "intro": ["", ""]
-      },
-      "zh-a1-practice-exchanging-basic-information": {
-        "title": "기본 정보 교환하기",
-        "intro": ["", ""]
-      },
-      "zh-a1-review-introduction-questions": {
-        "title": "소개 질문 복습",
-        "intro": ["", ""]
-      },
-      "zh-a1-quiz-introduction-questions": {
-        "title": "소개 질문 퀴즈",
         "intro": ["", ""]
       },
       "zh-a1-warm-up-introducing-others-basics": {
@@ -9125,6 +9137,50 @@
         "title": "팀 소개 퀴즈",
         "intro": ["", ""]
       },
+      "zh-a1-practice-exchanging-basic-information": {
+        "title": "기본 정보 교환하기",
+        "intro": ["", ""]
+      },
+      "zh-a1-review-introduction-questions": {
+        "title": "소개 질문 복습",
+        "intro": ["", ""]
+      },
+      "zh-a1-quiz-introduction-questions": {
+        "title": "소개 질문 퀴즈",
+        "intro": ["", ""]
+      },
+      "zh-a1-learn-numbers-0-to-10": {
+        "title": "숫자 0부터 10까지",
+        "intro": ["", ""]
+      },
+      "zh-a1-practice-numbers-0-to-10": {
+        "title": "숫자 0부터 10까지 연습",
+        "intro": ["", ""]
+      },
+      "zh-a1-learn-numbers-11-to-19": {
+        "title": "숫자 11부터 19까지",
+        "intro": ["", ""]
+      },
+      "zh-a1-practice-numbers-11-to-19": {
+        "title": "숫자 11부터 19까지 연습",
+        "intro": ["", ""]
+      },
+      "zh-a1-learn-numbers-20-to-99": {
+        "title": "숫자 20부터 99까지",
+        "intro": ["", ""]
+      },
+      "zh-a1-practice-numbers-20-to-99": {
+        "title": "숫자 20부터 99까지 연습",
+        "intro": ["", ""]
+      },
+      "zh-a1-review-numbers-below-100": {
+        "title": "100 미만 숫자 복습",
+        "intro": ["", ""]
+      },
+      "zh-a1-quiz-numbers-below-100": {
+        "title": "100 미만 숫자 퀴즈",
+        "intro": ["", ""]
+      },
       "zh-a1-warm-up-personal-skills-basics": {
         "title": "개인 기술 기본",
         "intro": ["", ""]
@@ -9163,50 +9219,6 @@
       },
       "zh-a1-quiz-discussing-team-skills": {
         "title": "팀 기술 토론 퀴즈",
-        "intro": ["", ""]
-      },
-      "zh-a1-warm-up-meeting-new-teammates": {
-        "title": "새 팀원 만나기",
-        "intro": ["", ""]
-      },
-      "zh-a1-learn-special-spelling-rules": {
-        "title": "특별 철자 규칙",
-        "intro": ["", ""]
-      },
-      "zh-a1-practice-pinyin": {
-        "title": "병음 연습",
-        "intro": ["", ""]
-      },
-      "zh-a1-learn-numbers-0-to-10": {
-        "title": "숫자 0부터 10까지",
-        "intro": ["", ""]
-      },
-      "zh-a1-practice-numbers-0-to-10": {
-        "title": "숫자 0부터 10까지 연습",
-        "intro": ["", ""]
-      },
-      "zh-a1-learn-numbers-11-to-19": {
-        "title": "숫자 11부터 19까지",
-        "intro": ["", ""]
-      },
-      "zh-a1-practice-numbers-11-to-19": {
-        "title": "숫자 11부터 19까지 연습",
-        "intro": ["", ""]
-      },
-      "zh-a1-learn-numbers-20-to-99": {
-        "title": "숫자 20부터 99까지",
-        "intro": ["", ""]
-      },
-      "zh-a1-practice-numbers-20-to-99": {
-        "title": "숫자 20부터 99까지 연습",
-        "intro": ["", ""]
-      },
-      "zh-a1-review-numbers-below-100": {
-        "title": "100 미만 숫자 복습",
-        "intro": ["", ""]
-      },
-      "zh-a1-quiz-numbers-below-100": {
-        "title": "100 미만 숫자 퀴즈",
         "intro": ["", ""]
       }
     }
@@ -9332,7 +9344,7 @@
       "lecture-working-with-media": {
         "title": "iframe 요소 다루기",
         "intro": [
-          "이 강의에서는 웹 페이지에 외부 사이트를 임베드하는 데 쓰이는 <code>iframe</code> 요소를 다루는 방법을 배웁니다."
+          "이 강의들에서는 웹 페이지에 외부 사이트를 임베드하는 데 쓰이는 <code>iframe</code> 요소를 다루는 방법을 배웁니다."
         ]
       },
       "workshop-build-a-video-display-using-iframe": {
@@ -9387,7 +9399,7 @@
       "lecture-understanding-nuanced-semantic-elements": {
         "title": "미묘한 시맨틱 요소 이해하기",
         "intro": [
-          "이 강의에서는 <code>i</code> 요소 대신 <code>em</code> 요소를 써야 할 때, 설명 목록 등 특정 시맨틱 요소 사용 시기를 배웁니다."
+          "이 강의들에서는 <code>i</code> 요소 대신 <code>em</code> 요소를 언제 사용하는지 배우고, 설명 목록과 기타 의미론적 HTML 요소에 대해 배웁니다."
         ]
       },
       "workshop-major-browsers-list": {
@@ -9411,7 +9423,7 @@
       "lecture-working-with-specialized-semantic-elements": {
         "title": "특수 시맨틱 요소 다루기",
         "intro": [
-          "이 강의에서는 <code>u</code>, <code>s</code>, <code>code</code> 요소 등 특수 시맨틱 요소를 배웁니다."
+          "이 강의에서는 <code>u</code>, <code>s</code>, <code>code</code> 등 특수 의미론적 요소에 대해 배웁니다."
         ]
       },
       "workshop-blog-page": {
@@ -9590,7 +9602,7 @@
       "lecture-what-is-css": {
         "title": "CSS란 무엇인가?",
         "intro": [
-          "다음 수업은 모두 CSS에 관한 것입니다. CSS가 무엇이고 웹에서 어떤 역할을 하는지, CSS 규칙과 구조, CSS 작성 세 가지 방법과 각각의 사용 시기, 인라인과 블록 요소 등 다양한 내용을 배웁니다."
+          "다음 수업들은 모두 CSS에 관한 것입니다. CSS가 무엇이고 웹에서의 역할, CSS 규칙과 구조, CSS 작성 세 가지 방법과 사용 시기, 인라인과 블록 요소 등을 배웁니다."
         ]
       },
       "workshop-cafe-menu": {
@@ -10394,5 +10406,235 @@
     "enable-cookies": "시작하기 전에 타사 쿠키를 활성화해야 합니다.",
     "english-only": "이 섹션의 과정들은 영어로만 제공됩니다. 현재 제목과 소개만 번역할 수 있으며 수업 자체는 번역하지 못합니다.",
     "exam-english-only": "인증 시험은 현재 영어로만 제공됩니다. 나머지 과정들은 일부 언어로 제공됩니다."
+  },
+  "algorithms-and-data-structure": {
+    "title": "알고리즘과 자료 구조 인증서",
+    "intro": [
+      "이 과정에서는 Python의 자료 구조와 알고리즘을 다룹니다.",
+      "필수 프로젝트를 완료하고 시험에 합격하면 알고리즘과 자료 구조 인증서를 받습니다."
+    ],
+    "chapters": {
+      "algorithms-and-data-structure": "알고리즘과 자료 구조"
+    },
+    "modules": {
+      "python-linear-data-structures": "선형 자료 구조",
+      "lab-hash-table": "해시 테이블 만들기",
+      "python-recursion": "재귀",
+      "python-algorithms": "알고리즘",
+      "lab-tower-of-hanoi": "하노이 탑 알고리즘 구현하기",
+      "python-graphs-and-trees": "그래프와 트리",
+      "python-dynamic-programming": "동적 프로그래밍",
+      "review-python": "Python 복습"
+    },
+    "module-intros": {
+      "python-recursion": {
+        "intro": [
+          "이 모듈에서는 Python에서 재귀와 호출 스택이 어떻게 작동하는지 배웁니다."
+        ]
+      }
+    },
+    "blocks": {
+      "lecture-working-with-common-data-structures": {
+        "title": "일반 자료 구조 다루기",
+        "intro": [
+          "이 수업들에서 일반 자료 구조를 다루는 방법을 배웁니다."
+        ]
+      },
+      "workshop-linked-list-class": {
+        "title": "연결 리스트 만들기",
+        "intro": [
+          "이 워크숍에서는 자료 구조를 다루는 연습으로 연결 리스트를 만듭니다."
+        ]
+      },
+      "review-data-structures": {
+        "title": "자료 구조 복습",
+        "intro": [
+          "자료 구조 퀴즈 전에 배운 내용을 복습하세요.",
+          "이 페이지를 열어 다양한 자료 구조, 알고리즘, 시간 및 공간 복잡도, 빅오 표기법 같은 개념을 복습하세요."
+        ]
+      },
+      "quiz-data-structures": {
+        "title": "자료 구조 퀴즈",
+        "intro": [
+          "이 퀴즈로 Python 자료 구조에 대한 이해도를 테스트하세요."
+        ]
+      },
+      "lab-hash-table": {
+        "title": "해시 테이블 만들기",
+        "intro": [
+          "해시 테이블은 키-값 쌍을 저장하고 빠른 조회에 최적화된 자료 구조입니다.",
+          "이 실습에서는 자료 구조 지식을 활용해 해시 테이블을 만듭니다."
+        ]
+      },
+      "lecture-understanding-recursion-and-the-call-stack-python": {
+        "title": "재귀와 호출 스택 이해하기",
+        "intro": [
+          "이 강의에서는 Python에서 재귀 함수와 호출 스택이 어떻게 작동하는지 배웁니다."
+        ]
+      },
+      "workshop-countup-python": {
+        "title": "카운트업 함수 만들기",
+        "intro": [
+          "이 워크숍에서는 재귀를 사용해 숫자 목록을 만드는 함수를 만듭니다."
+        ]
+      },
+      "lab-range-of-numbers-python": {
+        "title": "숫자 범위 생성기 만들기",
+        "intro": [
+          "이 실습에서는 재귀를 사용해 지정한 범위 내 숫자 목록을 생성합니다."
+        ]
+      },
+      "review-recursion-python": {
+        "title": "재귀 복습",
+        "intro": [
+          "재귀, 기본 사례, 호출 스택 개념을 복습하세요."
+        ]
+      },
+      "quiz-recursion-python": {
+        "title": "재귀 퀴즈",
+        "intro": [
+          "재귀, 기본 사례, 호출 스택에 대한 이해도를 테스트하세요."
+        ]
+      },
+      "lecture-searching-and-sorting-algorithms": {
+        "title": "검색 및 정렬 알고리즘",
+        "intro": [
+          "선형 검색, 이진 검색, 병합 정렬 등 기본 검색 및 정렬 알고리즘에 대해 배웁니다.",
+          "이 수업들은 알고리즘 구현, 시간 및 공간 복잡도 분석, 분할 정복 프로그래밍 패러다임을 다룹니다."
+        ]
+      },
+      "workshop-binary-search": {
+        "title": "이진 검색 알고리즘 구현하기",
+        "intro": [
+          "이진 검색 알고리즘은 정렬된 목록에서 목표 항목을 찾는 검색 알고리즘입니다.",
+          "이 워크숍에서는 이진 검색 알고리즘을 구현하고 목표를 찾은 경로나 '값을 찾을 수 없음'을 반환합니다."
+        ]
+      },
+      "lab-bisection-method": {
+        "title": "이분법 구현하기",
+        "intro": [
+          "이 실습에서는 이분법을 구현해 숫자의 제곱근을 찾습니다."
+        ]
+      },
+      "workshop-merge-sort": {
+        "title": "병합 정렬 알고리즘 구현하기",
+        "intro": [
+          "병합 정렬 알고리즘은 분할 정복 원리에 기반한 정렬 알고리즘입니다.",
+          "이 워크숍에서는 병합 정렬 알고리즘을 구현해 무작위 숫자 목록을 정렬합니다."
+        ]
+      },
+      "lab-quicksort": {
+        "title": "퀵정렬 알고리즘 구현하기",
+        "intro": [
+          "이 실습에서는 퀵정렬 알고리즘을 구현해 정수 목록을 정렬합니다."
+        ]
+      },
+      "lab-selection-sort": {
+        "title": "선택 정렬 알고리즘 구현하기",
+        "intro": [
+          "이 실습에서는 선택 정렬 알고리즘을 구현합니다."
+        ]
+      },
+      "lab-luhn-algorithm": {
+        "title": "Luhn 알고리즘 구현하기",
+        "intro": [
+          "이 실습에서는 신용카드 번호와 같은 식별 번호를 검증하기 위해 Luhn 알고리즘을 구현합니다."
+        ]
+      },
+      "review-searching-and-sorting-algorithms": {
+        "title": "검색 및 정렬 알고리즘 검토",
+        "intro": [
+          "검색 및 정렬 알고리즘 퀴즈 전에 배운 내용을 검토하세요."
+        ]
+      },
+      "quiz-searching-and-sorting-algorithms": {
+        "title": "검색 및 정렬 알고리즘 퀴즈",
+        "intro": [
+          "이 퀴즈로 Python에서 검색 및 정렬 알고리즘에 대해 배운 내용을 테스트하세요."
+        ]
+      },
+      "lab-tower-of-hanoi": {
+        "title": "하노이 탑 알고리즘 구현하기",
+        "intro": [
+          "이 실습에서는 하노이 탑 퍼즐을 해결하는 알고리즘을 구현합니다."
+        ]
+      },
+      "lecture-understanding-graphs-and-trees": {
+        "title": "그래프와 트리 이해하기",
+        "intro": [
+          "이 수업에서는 그래프, 트리 같은 기본 자료 구조와 컴퓨터 과학에서의 실제 애플리케이션을 배웁니다."
+        ]
+      },
+      "workshop-shortest-path-algorithm": {
+        "title": "최단 경로 알고리즘 구현하기",
+        "intro": [
+          "이 워크숍에서는 그래프에서 두 노드 사이의 최단 경로를 찾는 알고리즘을 구현합니다."
+        ]
+      },
+      "lab-adjacency-list-to-matrix-converter": {
+        "title": "인접 리스트를 행렬로 변환기 만들기",
+        "intro": [
+          "이 실습에서는 그래프의 인접 리스트 표현을 인접 행렬 표현으로 변환하는 함수를 구현합니다."
+        ]
+      },
+      "workshop-breadth-first-search": {
+        "title": "너비 우선 탐색 알고리즘 구현하기",
+        "intro": [
+          "이 워크숍에서는 너비 우선 탐색 알고리즘을 사용해 모든 유효한 소괄호 조합을 생성합니다."
+        ]
+      },
+      "lab-depth-first-search": {
+        "title": "깊이 우선 탐색 알고리즘 구현하기",
+        "intro": [
+          "이 실습에서는 깊이 우선 탐색 알고리즘을 구현합니다."
+        ]
+      },
+      "lab-n-queens-problem": {
+        "title": "N-퀸 알고리즘 구현하기",
+        "intro": [
+          "이 실습에서는 N-퀸 문제에 대한 해결책을 구현합니다."
+        ]
+      },
+      "review-graphs-and-trees": {
+        "title": "그래프와 트리 검토",
+        "intro": [
+          "그래프와 트리 퀴즈 전에 배운 내용을 검토하세요."
+        ]
+      },
+      "quiz-graphs-and-trees": {
+        "title": "그래프와 트리 퀴즈",
+        "intro": [
+          "이 퀴즈로 Python에서 그래프와 트리에 대해 배운 내용을 테스트하세요."
+        ]
+      },
+      "lecture-understanding-dynamic-programming": {
+        "title": "동적 프로그래밍 이해하기",
+        "intro": [
+          "이 수업에서는 복잡한 문제를 더 단순한 하위 문제로 나누어 효율적으로 해결하는 알고리즘 기법인 동적 프로그래밍을 배웁니다."
+        ]
+      },
+      "lab-nth-fibonacci-number": {
+        "title": "Nth 피보나치 수 계산기 만들기",
+        "intro": [
+          "이 실습에서는 동적 프로그래밍 방식을 사용해 피보나치 수열 계산기를 구현합니다."
+        ]
+      },
+      "review-dynamic-programming": {
+        "title": "동적 프로그래밍 검토",
+        "intro": [
+          "동적 프로그래밍 퀴즈 전에 배운 내용을 검토하세요."
+        ]
+      },
+      "quiz-dynamic-programming": {
+        "title": "동적 프로그래밍 퀴즈",
+        "intro": [
+          "이 퀴즈로 Python에서 동적 프로그래밍에 대해 배운 내용을 테스트하세요."
+        ]
+      },
+      "review-python": {
+        "title": "Python 검토",
+        "intro": ["다가오는 시험을 준비하기 위해 Python 개념을 검토하세요."]
+      }
+    }
   }
 }

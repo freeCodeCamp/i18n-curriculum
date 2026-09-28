@@ -1,6 +1,6 @@
 ---
 id: 67e2a513dbffdc8dcf1700af
-title: useOptimistic フックとは何か、そしてどのように機能するのか？
+title: UseOptimistic フックとは何か、そしてどのように機能するのか？
 challengeType: 19
 dashedName: what-is-the-useoptimistic-hook-and-how-does-it-work
 ---
@@ -15,7 +15,11 @@ dashedName: what-is-the-useoptimistic-hook-and-how-does-it-work
 
 では、`useOptimistic` フックとは何か、そしてどのように素早くレスポンシブな UI を実現するのに役立つのかを見ていきましょう。
 
+## `useOptimistic` フック
+
 `useOptimistic` フックは UI の「楽観的更新」を管理するのに役立ちます。これは、サーバーからのレスポンスを待つようなアクションの予想結果に基づいて、即座に UI を更新する戦略です。
+
+### 基本構文
 
 `useOptimistic` フックの基本的な構文は以下の通りです：
 
@@ -31,6 +35,8 @@ const [optimisticState, addOptimistic] = useOptimistic(actualState, updateFuncti
 
 - `updateFunction` は、呼び出されたときに楽観的状態をどのように更新するかを決める関数です。
 
+## 楽観的更新とローディング状態の違い
+
 一見すると、`useOptimistic` フックは React のローディング状態を扱う別の方法のように思えるかもしれません。しかし、それ以上のものです。
 
 ローディング状態は、バックグラウンドで何かが起きている間にスピナーやメッセージなどのインジケーターを UI に表示するかどうかを制御します。
@@ -38,6 +44,8 @@ const [optimisticState, addOptimistic] = useOptimistic(actualState, updateFuncti
 しかし、`useOptimistic` フックは、例えば API を呼び出す前であっても、予想される結果に基づいて UI を即座に更新します。このフックは、ローディングインジケーターやメッセージを表示したり、潜在的なエラーを優雅に処理したり、即時のフィードバックを示して UI を素早く感じさせる機会を与えます。
 
 `useOptimistic` フックの動作を示すいくつかの例を通して、これがより明確になるでしょう。
+
+## 例を作ってみよう
 
 以下は、タスクをサーバーに保存する動作をシミュレートしたものです。実際の API リクエストのように 1 秒の遅延の後にタスクを返します：
 
@@ -48,6 +56,8 @@ export async function saveTask(task) {
   return task;
 }
 ```
+
+### フックのセットアップ
 
 次に、`useOptimistic` フックをインポートして初期化し、入力をアクションに送る `handleSubmit` 関数を設定したコードです：
 
@@ -81,6 +91,8 @@ export default function TaskList({ tasks, addTask }) {
 `(state, newTask) => [...state, { text: newTask, pending: true }]` の行は、サーバーがフォームから何かを受け取る前に、新しいタスクが保留中の状態で表示されることを保証しています。
 
 フォームが提出されると、`handleSubmit` 関数がタスクを抽出し、`addOptimisticTask` パラメータで「楽観的に」追加します。次に `addTask` がプロップとして渡され、タスクをサーバーに送信します。最後に `e.target.reset()` を呼び出してフォームをリセットします。
+
+### `TaskList` コンポーネント
 
 こちらが `TaskList` コンポーネントです：
 
@@ -141,6 +153,8 @@ export default function TaskList({ tasks, addTask }) {
 
 ここでは、`optimisticTask` パラメータをループしてタスクを表示しています。`task.pending` が `true` の場合、タスクの横に `Adding Task...` というテキストが表示され、サーバーの確認前に楽観的にタスクが追加されたことを示しています。
 
+### `Tasks` コンポーネント
+
 次に、フォームの状態を管理する `Task` コンポーネントです。アクションの `saveTask` 関数を呼び出してタスクを追加し、サーバーから受け取った新しいタスクを追加します：
 
 ```jsx
@@ -165,6 +179,8 @@ export default function Tasks() {
 ```
 
 これにより、レスポンスを待つ代わりに即時のフィードバックを表示して素早い UI 更新が保証されます。タスクが保存されると、`pending` プロパティは削除され、最終的なタスクリストが更新されます。
+
+## よくある問題の修正
 
 UI では、起きてはいけないことが二つ起きています。まず、`Adding Task...` テキストが表示されるとすぐに消えてしまい見えません。次に、タスク追加後にエラーが発生しています。
 

@@ -15,7 +15,11 @@ Ingawa mara nyingi hutumika kwa kupata data kutoka seva, haizuiliki kwa hilo tu.
 
 Tuchunguze ni nini hook ya `useOptimistic` na jinsi inavyosaidia kutengeneza UI zenye mwendo mzuri na zinazojibadilisha kulingana na kifaa.
 
+## Kifungo cha `useOptimistic`
+
 Hook ya `useOptimistic` husaidia kusimamia "sasisho za matumaini" katika UI, mbinu ambayo unatoa sasisho za papo hapo kwa UI kulingana na matokeo yanayotarajiwa ya kitendo, kama vile kusubiri jibu kutoka seva.
+
+### Sintaksia ya Msingi
 
 Hapa kuna sintaksia ya msingi ya hook ya `useOptimistic`:
 
@@ -31,6 +35,8 @@ const [optimisticState, addOptimistic] = useOptimistic(actualState, updateFuncti
 
 - `updateFunction` ni kitendakazi kinachoamua jinsi hali ya matumaini inavyopaswa kusasishwa inapoitwa.
 
+## Sasisho za Optimistic dhidi ya Hali za Kupakia
+
 Kwa mtazamo wa kwanza, inaweza kuonekana kama hook ya `useOptimistic` ni njia nyingine tu ya kushughulikia hali za upakiaji katika React. Lakini ni zaidi ya hapo.
 
 Hali ya upakiaji hudhibiti kama utaona spinner, ujumbe, au kiashiria kingine katika UI wakati jambo linaendelea nyuma ya pazia.
@@ -38,6 +44,8 @@ Hali ya upakiaji hudhibiti kama utaona spinner, ujumbe, au kiashiria kingine kat
 Hata hivyo, hook ya `useOptimistic` husasisha UI mara moja kulingana na matokeo yanayotarajiwa, hata kabla hujafanya wito kwa API. Hook hii inakupa nafasi ya kuonyesha kiashiria cha upakiaji au ujumbe, kushughulikia makosa yanayoweza kutokea kwa upole, na kuonyesha mrejesho wa papo hapo ili kufanya UI ihisi kuwa na mwendo mzuri.
 
 Hii itakuwa wazi zaidi tunapopita kwenye mifano inayonyesha jinsi hook ya `useOptimistic` inavyofanya kazi.
+
+## Kujenga Mfano
 
 Hapa kuna kitendo kinachofanana na kuhifadhi zoezi kwa seva. Kinarejesha zoezi baada ya kuchelewa kwa sekunde 1, kama inavyoweza kutokea kwa ombi halisi la API:
 
@@ -48,6 +56,8 @@ export async function saveTask(task) {
   return task;
 }
 ```
+
+### Kuweka Kifungo
 
 Hapa ni msimbo unaoweka hook ya `useOptimistic` kwa kuleta na kuanzisha, pamoja na kitendakazi cha `handleSubmit` kinachotuma ingizo kwa kitendo:
 
@@ -81,6 +91,8 @@ Katika msimbo, hook ya `useOptimistic` inahifadhi orodha ya muda ya mazoezi amba
 Mstari wa `(state, newTask) => [...state, { text: newTask, pending: true }]` unahakikisha kuwa zoezi jipya linaonekana na hali ya kusubiri hata kabla seva kuthibitisha kitu kinatoka kwenye fomu.
 
 Wakati fomu inawasilishwa, kitendakazi cha `handleSubmit` huchukua zoezi na kuiongeza "kwa matumaini" kwa kigezo cha `addOptimisticTask`. Kisha `addTask` hupitishwa kama sifa inayotuma zoezi kwa seva. Mwisho, fomu inafutwa kwa kuita `e.target.reset()`.
+
+### Sehemu ya `TaskList`
 
 Hapa kuna sehemu ya `TaskList`:
 
@@ -141,6 +153,8 @@ export default function TaskList({ tasks, addTask }) {
 
 Hapa, tunapitia kigezo cha `optimisticTask` kuonyesha zoezi. Wakati `task.pending` ni `true`, maandishi ya `Adding Task...` yanaonyeshwa kando ya zoezi, kuthibitisha kuwa zoezi limeongezwa kwa matumaini kabla seva kuthibitisha.
 
+### Sehemu ya `Tasks`
+
 Hapa kuna sehemu ya `Task` inayosimamia hali ya fomu. Inaita kitendakazi cha `saveTask` kutoka kwa kitendo ili iweze kuongeza zoezi, na kuambatisha zoezi jipya mara linapopokelewa na seva:
 
 ```jsx
@@ -165,6 +179,8 @@ export default function Tasks() {
 ```
 
 Hii inahakikisha sasisho za UI zenye mwendo mzuri kwa kuonyesha mrejesho wa papo hapo badala ya kusubiri jibu. Mara zoezi linapohifadhiwa, sifa ya `pending` huondolewa, na orodha ya mwisho ya mazoezi husasishwa ipasavyo.
+
+## Kurekebisha Masuala ya Kawaida
 
 Katika UI, kuna mambo mawili yanayotokea ambayo hayapaswi kutokea. Kwanza, huwezi kuona maandishi ya `Adding Task...` kwa sababu yanaonekana na kutoweka haraka sana. Pili, kuna kosa linalotokea baada ya kuongeza zoezi.
 

@@ -7,7 +7,7 @@ dashedName: lab-symmetric-difference
 
 # --description--
 
-2つの配列を比較し、どちらか一方の配列にのみ存在し、両方には存在しない要素を含む新しい配列を返してください。つまり、2つの配列の対称差を返します。
+2つの配列を比較し、どちらか一方の配列にのみ存在する要素を含む新しい配列を返してください。つまり、2つの配列の対称差を返します。
 
 例：
 
@@ -15,18 +15,18 @@ dashedName: lab-symmetric-difference
 
 - 配列B: `["stick", "emerald", "bread"]`
 
-結果: `["diamond", "apple", "emerald", "bread"]`
+- 結果: `["diamond", "apple", "emerald", "bread"]`
 
-**目的:** 以下のストーリーを満たし、すべてのテストに合格してチャレンジを完了してください。
+**目的：** 以下のユーザーストーリーを満たし、すべてのテストに合格してラボを完了してください。
 
-**ストーリー:**
+**ユーザーストーリー：**
 
-1. あなたの関数`diffArray`は配列を返す必要があります。
+1. あなたの関数 `diffArray` は配列を返す必要があります。
 2. あなたの関数は2つの引数を取り、どちらも配列である必要があります。
-3. あなたの関数は`filter`メソッドを使用する必要があります。
-4. あなたの関数は2つの配列の対称差を返す必要があります。  
-5. 対称差がない場合は空の配列を返す必要があります。
-
+3. あなたの関数は `filter` メソッドを使う必要があります。
+4. あなたの関数は2つの配列の対称差を返す必要があります。
+5. 対称差がない場合、あなたの関数は空の配列を返す必要があります。
+6. あなたの関数は、最初の配列にのみ存在する要素を先に、次に2番目の配列にのみ存在する要素を元の順序を保ったままリストにする必要があります。
 
 # --hints--
 
@@ -36,10 +36,16 @@ dashedName: lab-symmetric-difference
 assert.isFunction(diffArray);
 ```
 
-`diffArray`関数は`filter`メソッドを使って、両方の配列に存在する要素を除外する必要があります。
+あなたの `diffArray` 関数は `filter` メソッドを使う必要があります。
 
 ```js
-assert(/\.filter\(/.test(diffArray.toString()));
+const spy = __helpers.spyOn(Array.prototype, 'filter');
+try {
+  diffArray([1, 2], [2, 3]);
+  assert.isAbove(spy.calls.length, 0);
+} finally {
+  spy.restore();
+}
 ```
 
 `diffArray(["diorite", "andesite", "grass", "dirt", "pink wool", "dead shrub"], ["diorite", "andesite", "grass", "dirt", "dead shrub"])`は`["pink wool"]`を返す必要があります。
@@ -60,7 +66,7 @@ assert.deepEqual(diffArray(
 ), ["diorite", "pink wool"]);
 ```
 
-`diffArray`は、同じ配列2つを渡した場合に空の配列を返す必要があります。
+`diffArray(["andesite", "grass", "dirt", "dead shrub"], ["andesite", "grass", "dirt", "dead shrub"])` は `[]` を返す必要があります。
 
 ```js
 assert.deepEqual(diffArray(
@@ -118,7 +124,7 @@ assert.deepEqual(diffArray(
 
 ```js
 assert.deepEqual(diffArray(
-  [], 
+  [],
   []
 ), []);
 ```

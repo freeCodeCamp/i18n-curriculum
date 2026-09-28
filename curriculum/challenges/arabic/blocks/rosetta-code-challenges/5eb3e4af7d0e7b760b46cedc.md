@@ -53,7 +53,7 @@ dashedName: set-consolidation
 assert(typeof setConsolidation === 'function');
 ```
 
-`setConsolidation(["AB", "CD"])` يجب أن تُرجع مصفوفة.
+يجب أن تُرجع الدالة `setConsolidation(["AB", "CD"])` مصفوفة.
 
 ```js
 assert(Array.isArray(setConsolidation(['AB', 'CD'])));
