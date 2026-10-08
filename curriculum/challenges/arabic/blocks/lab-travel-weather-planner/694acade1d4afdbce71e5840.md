@@ -13,25 +13,26 @@ dashedName: build-a-travel-weather-planner
 
 **قصص المستخدم:**
 
-1. يجب عليك إنشاء المتغيرات التالية:
-   * `distance_mi` (رقم يُمثل المسافة التي يجب قطعها بالأميال)
-   * `is_raining` (قيمة منطقية تُمثل ما إذا كان المستخدم يواجه طقسًا ممطرًا حاليًا)
-   * `has_bike` (قيمة منطقية تُمثل ما إذا كان لدى المستخدم دراجة)
-   * `has_car` (قيمة منطقية تُمثل ما إذا كان لدى المستخدم سيارة)
-   * `has_ride_share_app` (قيمة منطقية تُمثل ما إذا كان لدى المستخدم تطبيق يسمح له بطلب رحلة)
-1. يجب عليك استخدام عبارات شرطية لتحديد ما إذا كان التنقل ممكنًا بناءً على قيم هذه المتغيرات.
-1. يجب عليك استخدام عبارات `if` و `elif` و `else` لتقييم فئات المسافة بترتيب تصاعدي.
-1. إذا كانت قيمة `distance_mi` قيمة خاطئة:
-   * يجب عليك طباعة `False`.
-1. إذا كانت المسافة **أقل من أو تساوي ميلًا واحدًا**:
-   * يجب عليك طباعة `True` فقط إذا لم يكن هناك مطر.
-   * وإلا، يجب طباعة `False`.
-1. إذا كانت المسافة **أكبر من ميل واحد وأقل من أو تساوي 6 أميال**:
-   * يجب عليك طباعة `True` فقط إذا كان لدى الشخص دراجة **و** لم يكن هناك مطر.
-   * وإلا، يجب طباعة `False`.
+1. عرّف المتغيرات التالية:
+   * `distance_mi` (رقم يمثل المسافة التي ستقطعها بالأميال)
+   * `is_raining` (قيمة منطقية تمثل ما إذا كان المستخدم يواجه طقسًا ممطرًا حاليًا)
+   * `has_bike` (قيمة منطقية تمثل ما إذا كان لدى المستخدم دراجة)
+   * `has_car` (قيمة منطقية تمثل ما إذا كان لدى المستخدم سيارة)
+   * `has_ride_share_app` (قيمة منطقية تمثل ما إذا كان لدى المستخدم تطبيق يسمح له بطلب رحلة)
+1. استخدم عبارات شرطية لتحديد ما إذا كان التنقل ممكنًا بناءً على قيم هذه المتغيرات.
+1. استخدم عبارات `if` و `elif` و `else` لتقييم فئات المسافة بترتيب تصاعدي.
+1. استخدم على الأقل عاملًا منطقيًا واحدًا (`and` أو `or` أو `not`) في كودك.
+1. إذا كانت قيمة `distance_mi` خاطئة:
+   * اطبع `False`.
+1. إذا كانت المسافة **أقل من أو تساوي 1 ميل**:
+   * اطبع `True` فقط إذا لم يكن هناك مطر.
+   * وإلا، اطبع `False`.
+1. إذا كانت المسافة **أكبر من 1 ميل وأقل من أو تساوي 6 أميال**:
+   * اطبع `True` فقط إذا كان لدى الشخص دراجة **و** لم يكن هناك مطر.
+   * وإلا، اطبع `False`.
 1. إذا كانت المسافة **أكبر من 6 أميال**:
-   * يجب عليك طباعة `True` إذا كان لدى الشخص سيارة **أو** تطبيق لطلب الرحلات.
-   * وإلا، يجب طباعة `False`.
+   * اطبع `True` إذا كان لدى الشخص سيارة **أو** تطبيق لطلب الرحلات.
+   * وإلا، اطبع `False`.
 
 # --hints--
 
@@ -44,7 +45,7 @@ dashedName: build-a-travel-weather-planner
 يجب تعيين رقم إلى متغير `distance_mi` الخاص بك.
 
 ```js
-({ test: () => runPython(`assert isinstance(distance_mi, (int, float))`) })
+({ test: () => runPython(`assert isinstance(distance_mi, (int, float)) and not isinstance(distance_mi, bool)`) })
 ```
 
 يجب أن يكون لديك متغير اسمه `is_raining`.
@@ -135,7 +136,8 @@ tree = ast.parse(_code)
 
 bool_ops = [
     node for node in ast.walk(tree)
-    if isinstance(node, (ast.BoolOp, ast.UnaryOp))
+    if isinstance(node, ast.BoolOp)
+    or (isinstance(node, ast.UnaryOp) and isinstance(node.op, ast.Not))
 ]
 
 assert len(bool_ops) >= 1
@@ -533,6 +535,54 @@ run_case(
 `) })
 ```
 
+عندما تكون المسافة بين `1` ميل (مستبعد) و `6` أميال (مشمولة)، وتتوفر دراجة، ويكون الطقس ممطرًا، يجب أن يطبع البرنامج `False`.
+
+```js
+({ test: () => runPython(`
+import ast, io, contextlib
+
+VARIABLES = {
+    "distance_mi",
+    "is_raining",
+    "has_bike",
+    "has_car",
+    "has_ride_share_app"
+}
+
+def run_case(env, expected):
+    tree = ast.parse(_code)
+
+    tree.body = [
+        node for node in tree.body
+        if not (
+            isinstance(node, ast.Assign)
+            and isinstance(node.targets[0], ast.Name)
+            and node.targets[0].id in VARIABLES
+        )
+    ]
+
+    clean_code = compile(tree, "<ast>", "exec")
+
+    buffer = io.StringIO()
+    with contextlib.redirect_stdout(buffer):
+        exec(clean_code, env)
+
+    assert buffer.getvalue().strip() == expected
+
+
+run_case(
+    {
+        "distance_mi": 2,
+        "is_raining": True,
+        "has_bike": True,
+        "has_car": False,
+        "has_ride_share_app": False
+    },
+    "False"
+)
+`) })
+```
+
 عندما تكون المسافة أكبر من `6` أميال ويتوفر تطبيق لطلب الرحلات، يجب أن يطبع البرنامج `True`.
 
 ```js
@@ -572,6 +622,17 @@ run_case(
     {
         "distance_mi": 12,
         "is_raining": False,
+        "has_bike": False,
+        "has_car": False,
+        "has_ride_share_app": True
+    },
+    "True"
+)
+
+run_case(
+    {
+        "distance_mi": 12,
+        "is_raining": True,
         "has_bike": False,
         "has_car": False,
         "has_ride_share_app": True
@@ -621,6 +682,17 @@ run_case(
         "distance_mi": 12,
         "is_raining": False,
         "has_bike": True,
+        "has_car": True,
+        "has_ride_share_app": False
+    },
+    "True"
+)
+
+run_case(
+    {
+        "distance_mi": 12,
+        "is_raining": True,
+        "has_bike": False,
         "has_car": True,
         "has_ride_share_app": False
     },

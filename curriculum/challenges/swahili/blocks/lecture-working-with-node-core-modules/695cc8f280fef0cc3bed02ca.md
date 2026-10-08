@@ -79,7 +79,7 @@ const wrongPath = path.join("/src//", "assets", "text-files");
 console.log(wrongPath); // /src/assets/text-files
 ```
 
-Njia ya `resolve()` hubadilisha mfululizo wa sehemu za njia kuwa njia kamili. Huanza kutoka saraka yako ya kazi ya sasa na matokeo yake ni njia kamili inayoweka alama mahali halisi kwenye kifaa:
+Njia ya `resolve()` hubadilisha mfululizo wa sehemu za njia kuwa njia kamili. Inashughulikia sehemu hizo kutoka kulia kwenda kushoto hadi itakapojenga njia kamili. Ikiwa inafikia mwanzo bila kujenga njia kamili, hutumia saraka ya kazi ya sasa:
 
 ```js
 const absolutePath = path.resolve("assets", "src", "text-files");
@@ -87,7 +87,7 @@ console.log(absolutePath);
 // /Users/user/Desktop/fCC/script-code/node/node-path/assets/src/text-files
 ```
 
-Tofauti kati ya `join()` na `resolve()` ni kwamba `join()` huunda njia ya jamaa, wakati `resolve()` inarudisha njia kamili.
+Tofauti na `join()`, ambayo huunganisha na kawaisha sehemu za njia na inaweza kurudisha njia ya jamaa au kamili, `resolve()` daima hurudisha njia kamili.
 
 Mwishowe, kuna njia za `parse()` na `format()`.
 

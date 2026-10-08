@@ -15,23 +15,24 @@ Kwa maabara hii, utatumia sentensi za masharti kuamua kama kusafiri kwa njia ya 
 
 1. Unapaswa kuunda vigezo vifuatavyo:
    * `distance_mi` (nambari inayowakilisha umbali wa kusafiri kwa maili)
-   * `is_raining` (thamani ya kweli au siyo kweli inayowakilisha kama mtumizi kwa sasa anakutana na mvua)
+   * `is_raining` (thamani ya kweli au siyo kweli inayowakilisha kama mtumizi kwa sasa anapata hali ya mvua)
    * `has_bike` (thamani ya kweli au siyo kweli inayowakilisha kama mtumizi ana baiskeli)
    * `has_car` (thamani ya kweli au siyo kweli inayowakilisha kama mtumizi ana gari)
    * `has_ride_share_app` (thamani ya kweli au siyo kweli inayowakilisha kama mtumizi ana programu inayomruhusu kuomba usafiri)
-1. Unapaswa kutumia sentensi za masharti kuamua kama kusafiri kunawezekana kulingana na thamani za vigezo hivi.
+1. Unapaswa kutumia sentensi za masharti ili kubaini kama kusafiri kunawezekana kulingana na thamani za vigezo hivi.
 1. Unapaswa kutumia sentensi za `if`, `elif`, na `else` kutathmini makundi ya umbali kwa mpangilio wa kuongezeka.
+1. Unapaswa kutumia angalau kigezo kimoja cha thamani ya kweli au siyo kweli (`and`, `or`, au `not`) katika msimbo wako.
 1. Ikiwa `distance_mi` ni thamani ya uongo:
-   * Unapaswa chapisha `False`.
+   * Unapaswa kuchapisha `False`.
 1. Ikiwa umbali ni **chini au sawa na maili 1**:
-   * Unapaswa chapisha `True` tu ikiwa **hakuna mvua**.
-   * Vinginevyo, unapaswa chapisha `False`.
-1. Ikiwa umbali ni **zaidi ya maili 1 na chini au sawa na maili 6**:
-   * Unapaswa chapisha `True` tu ikiwa mtu ana baiskeli **na** hakuna mvua.
-   * Vinginevyo, unapaswa chapisha `False`.
-1. Ikiwa umbali ni **zaidi ya maili 6**:
-   * Unapaswa chapisha `True` ikiwa mtu ana gari **au** ana programu ya kuomba usafiri.
-   * Vinginevyo, unapaswa chapisha `False`. 
+   * Unapaswa kuchapisha `True` tu ikiwa **hakuna mvua**.
+   * Vinginevyo, unapaswa kuchapisha `False`.
+1. Ikiwa umbali ni **juu ya maili 1 na chini au sawa na maili 6**:
+   * Unapaswa kuchapisha `True` tu ikiwa mtu ana baiskeli **na** hakuna mvua.
+   * Vinginevyo, unapaswa kuchapisha `False`.
+1. Ikiwa umbali ni **juu ya maili 6**:
+   * Unapaswa kuchapisha `True` ikiwa mtu ana gari **au** ana programu ya kuomba usafiri.
+   * Vinginevyo, unapaswa kuchapisha `False`.
 
 # --hints--
 
@@ -44,7 +45,7 @@ Unapaswa kuwa na kigezo kinachoitwa `distance_mi`.
 Unapaswa weka thamani ya nambari kwa kigezo chako cha `distance_mi`.
 
 ```js
-({ test: () => runPython(`assert isinstance(distance_mi, (int, float))`) })
+({ test: () => runPython(`assert isinstance(distance_mi, (int, float)) and not isinstance(distance_mi, bool)`) })
 ```
 
 Unapaswa kuwa na kigezo kinachoitwa `is_raining`.
@@ -135,7 +136,8 @@ tree = ast.parse(_code)
 
 bool_ops = [
     node for node in ast.walk(tree)
-    if isinstance(node, (ast.BoolOp, ast.UnaryOp))
+    if isinstance(node, ast.BoolOp)
+    or (isinstance(node, ast.UnaryOp) and isinstance(node.op, ast.Not))
 ]
 
 assert len(bool_ops) >= 1
@@ -533,6 +535,54 @@ run_case(
 `) })
 ```
 
+Wakati umbali uko kati ya maili `1` (haijajumuishwa) na maili `6` (imejumuishwa), baiskeli inapatikana, na mvua inanyesha, programu inapaswa kuchapisha `False`.
+
+```js
+({ test: () => runPython(`
+import ast, io, contextlib
+
+VARIABLES = {
+    "distance_mi",
+    "is_raining",
+    "has_bike",
+    "has_car",
+    "has_ride_share_app"
+}
+
+def run_case(env, expected):
+    tree = ast.parse(_code)
+
+    tree.body = [
+        node for node in tree.body
+        if not (
+            isinstance(node, ast.Assign)
+            and isinstance(node.targets[0], ast.Name)
+            and node.targets[0].id in VARIABLES
+        )
+    ]
+
+    clean_code = compile(tree, "<ast>", "exec")
+
+    buffer = io.StringIO()
+    with contextlib.redirect_stdout(buffer):
+        exec(clean_code, env)
+
+    assert buffer.getvalue().strip() == expected
+
+
+run_case(
+    {
+        "distance_mi": 2,
+        "is_raining": True,
+        "has_bike": True,
+        "has_car": False,
+        "has_ride_share_app": False
+    },
+    "False"
+)
+`) })
+```
+
 Wakati umbali ni zaidi ya `6` maili na programu ya kuomba usafiri inapatikana, programu inapaswa chapisha `True`.
 
 ```js
@@ -572,6 +622,17 @@ run_case(
     {
         "distance_mi": 12,
         "is_raining": False,
+        "has_bike": False,
+        "has_car": False,
+        "has_ride_share_app": True
+    },
+    "True"
+)
+
+run_case(
+    {
+        "distance_mi": 12,
+        "is_raining": True,
         "has_bike": False,
         "has_car": False,
         "has_ride_share_app": True
@@ -626,10 +687,21 @@ run_case(
     },
     "True"
 )
+
+run_case(
+    {
+        "distance_mi": 12,
+        "is_raining": True,
+        "has_bike": False,
+        "has_car": True,
+        "has_ride_share_app": False
+    },
+    "True"
+)
 `) })
 ```
 
-Wakati umbali ni zaidi ya `6` maili na hakuna gari wala programu ya kuomba usafiri inapatikana, programu inapaswa chapisha `False`.
+Wakati umbali ni zaidi ya maili `6` na hakuna gari wala programu ya kuomba usafiri inapatikana, programu inapaswa kuchapisha `False`.
 
 ```js
 ({ test: () => runPython(`
@@ -706,3 +778,4 @@ elif distance_mi <= 6:
 else:
     print(has_car or has_ride_share_app)
 ```
+

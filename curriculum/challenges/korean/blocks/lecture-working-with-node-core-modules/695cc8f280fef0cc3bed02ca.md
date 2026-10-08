@@ -79,7 +79,7 @@ const wrongPath = path.join("/src//", "assets", "text-files");
 console.log(wrongPath); // /src/assets/text-files
 ```
 
-`resolve()` 메서드는 경로 세그먼트 수열을 절대 경로로 변환합니다. 현재 작업 디렉터리에서 시작해 장치 내 정확한 위치를 가리키는 전체 경로를 만듭니다:
+`resolve()` 메서드는 경로 세그먼트 수열을 절대 경로로 변환합니다. 오른쪽에서 왼쪽으로 세그먼트를 처리하여 절대 경로를 구성할 때까지 진행합니다. 절대 경로를 구성하지 못하고 시작점에 도달하면 현재 작업 디렉터리를 사용합니다:
 
 ```js
 const absolutePath = path.resolve("assets", "src", "text-files");
@@ -87,7 +87,7 @@ console.log(absolutePath);
 // /Users/user/Desktop/fCC/script-code/node/node-path/assets/src/text-files
 ```
 
-`join()`와 `resolve()`의 차이는 `join()`이 상대 경로를 만들고 `resolve()`이 절대 경로를 반환한다는 점입니다.
+`join()`은 경로 세그먼트를 결합하고 표준화하여 상대 경로나 절대 경로를 반환할 수 있지만, `resolve()`는 항상 절대 경로를 반환합니다.
 
 마지막으로 `parse()`와 `format()` 메서드가 있습니다.
 

@@ -1,6 +1,6 @@
 ---
 id: 694acade1d4afdbce71e5840
-title: Build a Travel Weather Planner
+title: 旅行天気プランナーを作成する
 challengeType: 27
 dashedName: build-a-travel-weather-planner
 ---
@@ -11,27 +11,28 @@ dashedName: build-a-travel-weather-planner
 
 **目的：** 以下のユーザーストーリーを満たし、すべてのテストに合格してラボを完了してください。
 
-**User Stories:**
+**ユーザーストーリー：**
 
-1. 次の変数を作成してください：
+1. 次の変数を作成してください。
    * `distance_mi`（移動距離をマイルで表す数値）
    * `is_raining`（現在雨が降っているかを表すブール値）
    * `has_bike`（自転車を持っているかを表すブール値）
    * `has_car`（車を持っているかを表すブール値）
-   * `has_ride_share_app`（ライドリクエストができるアプリを持っているかを表すブール値）
-1. これらの変数の値に基づいて通勤が可能かどうかを条件分岐で判断してください。
-1. `if`、`elif`、`else` の文を使って、距離のカテゴリを昇順で評価してください。
+   * `has_ride_share_app`（ライドシェアをリクエストできるアプリを持っているかを表すブール値）
+1. これらの変数の値に基づいて通勤が可能かどうかを条件文で判断してください。
+1. `if`、`elif`、`else` 文を使って距離のカテゴリーを昇順で評価してください。
+1. コード内で少なくとも1つのブール演算子（`and`、`or`、`not`）を使ってください。
 1. `distance_mi` が偽値の場合：
    * `False` を出力してください。
 1. 距離が**1マイル以下**の場合：
-   * 雨が降っていなければ `True` を出力してください。
-   * そうでなければ `False` を出力してください。
+   * **雨が降っていない場合のみ** `True` を出力してください。
+   * それ以外は `False` を出力してください。
 1. 距離が**1マイルより大きく6マイル以下**の場合：
-   * 自転車を持っていてかつ雨が降っていなければ `True` を出力してください。
-   * そうでなければ `False` を出力してください。
+   * 自転車を持っていて**かつ**雨が降っていない場合のみ `True` を出力してください。
+   * それ以外は `False` を出力してください。
 1. 距離が**6マイルより大きい**場合：
-   * 車を持っているかライドシェアアプリを持っていれば `True` を出力してください。
-   * そうでなければ `False` を出力してください。
+   * 車を持っているか**または**ライドシェアアプリを持っている場合は `True` を出力してください。
+   * それ以外は `False` を出力してください。
 
 # --hints--
 
@@ -44,7 +45,7 @@ dashedName: build-a-travel-weather-planner
 `distance_mi` 変数に数値を代入してください。
 
 ```js
-({ test: () => runPython(`assert isinstance(distance_mi, (int, float))`) })
+({ test: () => runPython(`assert isinstance(distance_mi, (int, float)) and not isinstance(distance_mi, bool)`) })
 ```
 
 `is_raining` という名前の変数を用意してください。
@@ -135,7 +136,8 @@ tree = ast.parse(_code)
 
 bool_ops = [
     node for node in ast.walk(tree)
-    if isinstance(node, (ast.BoolOp, ast.UnaryOp))
+    if isinstance(node, ast.BoolOp)
+    or (isinstance(node, ast.UnaryOp) and isinstance(node.op, ast.Not))
 ]
 
 assert len(bool_ops) >= 1
@@ -533,6 +535,54 @@ run_case(
 `) })
 ```
 
+距離が `1` マイル（除く）から `6` マイル（含む）の間で、自転車があり雨が降っている場合、プログラムは `False` を出力してください。
+
+```js
+({ test: () => runPython(`
+import ast, io, contextlib
+
+VARIABLES = {
+    "distance_mi",
+    "is_raining",
+    "has_bike",
+    "has_car",
+    "has_ride_share_app"
+}
+
+def run_case(env, expected):
+    tree = ast.parse(_code)
+
+    tree.body = [
+        node for node in tree.body
+        if not (
+            isinstance(node, ast.Assign)
+            and isinstance(node.targets[0], ast.Name)
+            and node.targets[0].id in VARIABLES
+        )
+    ]
+
+    clean_code = compile(tree, "<ast>", "exec")
+
+    buffer = io.StringIO()
+    with contextlib.redirect_stdout(buffer):
+        exec(clean_code, env)
+
+    assert buffer.getvalue().strip() == expected
+
+
+run_case(
+    {
+        "distance_mi": 2,
+        "is_raining": True,
+        "has_bike": True,
+        "has_car": False,
+        "has_ride_share_app": False
+    },
+    "False"
+)
+`) })
+```
+
 距離が `6` マイルより大きく、ライドシェアアプリがあれば、プログラムは `True` を出力する必要があります。
 
 ```js
@@ -572,6 +622,17 @@ run_case(
     {
         "distance_mi": 12,
         "is_raining": False,
+        "has_bike": False,
+        "has_car": False,
+        "has_ride_share_app": True
+    },
+    "True"
+)
+
+run_case(
+    {
+        "distance_mi": 12,
+        "is_raining": True,
         "has_bike": False,
         "has_car": False,
         "has_ride_share_app": True
@@ -626,10 +687,21 @@ run_case(
     },
     "True"
 )
+
+run_case(
+    {
+        "distance_mi": 12,
+        "is_raining": True,
+        "has_bike": False,
+        "has_car": True,
+        "has_ride_share_app": False
+    },
+    "True"
+)
 `) })
 ```
 
-距離が `6` マイルより大きく、車もライドシェアアプリもなければ、プログラムは `False` を出力する必要があります。
+距離が `6` マイルより大きく、車もライドシェアアプリも利用できない場合、プログラムは `False` を出力してください。
 
 ```js
 ({ test: () => runPython(`

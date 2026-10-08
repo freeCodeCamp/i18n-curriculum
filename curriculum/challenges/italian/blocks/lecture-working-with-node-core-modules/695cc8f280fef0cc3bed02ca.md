@@ -79,7 +79,7 @@ const wrongPath = path.join("/src//", "assets", "text-files");
 console.log(wrongPath); // /src/assets/text-files
 ```
 
-Il metodo `resolve()` trasforma una sequenza di segmenti di percorso in un percorso assoluto. Parte dalla tua directory di lavoro corrente e restituisce un percorso completo che punta alla posizione esatta sul dispositivo:
+Il metodo `resolve()` trasforma una sequenza di segmenti di percorso in un percorso assoluto. Elabora i segmenti da destra a sinistra finché non costruisce un percorso assoluto. Se arriva all'inizio senza costruire un percorso assoluto, usa la directory di lavoro corrente:
 
 ```js
 const absolutePath = path.resolve("assets", "src", "text-files");
@@ -87,7 +87,7 @@ console.log(absolutePath);
 // /Users/user/Desktop/fCC/script-code/node/node-path/assets/src/text-files
 ```
 
-La differenza tra `join()` e `resolve()` è che `join()` crea un percorso relativo, mentre `resolve()` restituisce un percorso assoluto.
+A differenza di `join()`, che unisce e normalizza i segmenti di percorso e può restituire un percorso relativo o assoluto, `resolve()` restituisce sempre un percorso assoluto.
 
 Infine, ci sono i metodi `parse()` e `format()`.
 

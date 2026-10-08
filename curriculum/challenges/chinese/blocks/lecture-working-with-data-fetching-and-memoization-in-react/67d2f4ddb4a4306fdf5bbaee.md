@@ -15,6 +15,8 @@ dashedName: what-is-memoization-and-how-does-the-usememo-hook-work
 
 React 通过一种称为 memoization 的进程解决了这个问题，这是一种缓存值和函数以防止不必要重新计算的技术，因此你的应用可以更快且响应更灵敏。
 
+## 什么是记忆化？
+
 根据定义，记忆化是一种优化技术，其中基于特定参数缓存（记住）昂贵函数调用的结果。当再次提供相同参数时，将返回缓存的结果，而不是重新计算函数。
 
 记忆化进程按以下方式进行：
@@ -27,7 +29,9 @@ React 通过一种称为 memoization 的进程解决了这个问题，这是一�
 
 - 如果它不存在，计算结果，将其保存到缓存中，然后返回它。
 
-为了提升开发者在记忆化方面的体验，React 提供了三种工具——`React.memo`（或 `memo`）、`useMemo` 和 `useCallback`。 
+## React 中的记忆化工具
+
+为了提升开发者在记忆化方面的体验，React 提供了三种工具——`React.memo`（或 `memo`）、`useMemo` 和 `useCallback`。
 
 正如你可能猜到的，`useMemo` 和 `useCallback` 都是钩子，但 `React.memo` 是一个组件包装器，是一个高阶组件（HOC）。
 
@@ -36,6 +40,8 @@ React 通过一种称为 memoization 的进程解决了这个问题，这是一�
 `useMemo` 让你缓存计算值，而 `useCallback` 则对函数引用执行相同操作。
 
 如果你想知道计算值和函数引用是什么，计算值是指执行函数的结果，而函数引用是指向函数的指针——内存中的函数对象。
+
+## `useMemo` 钩子的语法
 
 让我们先看看如何使用 `useMemo` 钩子。以下是 `useMemo` 钩子的基本语法：
 
@@ -49,6 +55,8 @@ const memoizedValue = useMemo(
 ```
 
 你可以看到所需的只是将 `useMemo` 钩子包裹在函数周围。
+
+## 示例：`ExpensiveSquare` 组件
 
 这个 `ExpensiveSquare` 组件将接收一个 `num` 属性，它将用来计算平方：
 
@@ -97,6 +105,8 @@ export default App;
 ```
 
 `useEffect` 中每秒运行一次的 `timer` 会使 `calculateSquare` 函数在每次运行时执行，即使你没有增加 `num` 状态变量。
+
+## 使用 `useMemo` 避免重复计算
 
 为了解决这个问题，我们可以通过将函数调用包裹在 `useMemo` 钩子中并指定 `num` 变量作为依赖来实现：
 

@@ -1221,7 +1221,7 @@
       "lecture-understanding-the-command-line-and-working-with-bash": {
         "title": "Kuelewa Amri za Mstari na Kufanya kazi na Bash",
         "intro": [
-          "Jifunze kuhusu Amri za Mstari na Kufanya kazi na Bash katika mafundisho haya."
+          "Jifunze kuhusu mstari wa amri na kufanya kazi na Bash katika mafundisho haya."
         ]
       },
       "workshop-bash-boilerplate": {
@@ -1515,6 +1515,12 @@
         "title": "Jenga Kifaa cha Kutengeneza Wasifu wa Mfanyakazi",
         "intro": [
           "Katika warsha hii, utatumia misingi ya uendeshaji wa mfuatano wa herufi katika Python kwa kujenga chombo kinachotengeneza beji za mfanyakazi zilizo na muundo na kuchambua misimbo ya wafanyakazi."
+        ]
+      },
+      "workshop-employee-profile-validator": {
+        "title": "Jenga Kithibitishaji cha Wasifu wa Mfanyakazi",
+        "intro": [
+          "Katika warsha hii, utatumia njia za mfuatano wa herufi za Python kuthibitisha na kuunda data kutoka kwa wasifu wa mfanyakazi."
         ]
       },
       "lecture-numbers-and-mathematical-operations": {
@@ -6478,6 +6484,12 @@
           "Katika warsha hii, utajifunza misingi ya usindikaji wa mfuatano wa herufi katika Python kwa kujenga chombo kinachozalisha beji za mfanyakazi zilizoandaliwa na kuchambua misimbo ya wafanyakazi."
         ]
       },
+      "workshop-employee-profile-validator": {
+        "title": "Jenga Kithibitishaji cha Wasifu wa Mfanyakazi",
+        "intro": [
+          "Katika warsha hii, utatumia njia za mfuatano wa herufi za Python kuthibitisha na kuunda data kutoka kwa wasifu wa mfanyakazi."
+        ]
+      },
       "lecture-numbers-and-mathematical-operations": {
         "title": "Nambari na shughuli za kihesabu",
         "intro": [
@@ -6535,7 +6547,7 @@
       "lab-rpg-character": {
         "title": "Jenga mhusika wa RPG",
         "intro": [
-          "Katika warsha hii utatumia Python ya msingi kwa kujenga mhusika wa RPG."
+          "Katika maabara hii utatumia Python ya msingi kwa kujenga mhusika wa RPG."
         ]
       },
       "review-python-basics": {
@@ -10406,6 +10418,359 @@
     "enable-cookies": "Lazima uwezeshe vidakuzi vya wahudumu wa tatu kabla ya kuanza.",
     "english-only": "Kozi katika sehemu hii zinapatikana kwa Kiingereza tu. Kwa sasa tunaweza kutafsiri vichwa na utangulizi tu, si mafundisho yenyewe.",
     "exam-english-only": "Tafadhali kumbuka kuwa mtihani wa vyeti kwa sasa unapatikana kwa Kiingereza tu. Kozi zingine zinapatikana kwa baadhi ya lugha."
+  },
+  "python-programming-fundamentals": {
+    "title": "Misingi ya programu ya Python",
+    "intro": [
+      "Kozi hii inafundisha misingi ya programu ya Python.",
+      "Kamilisha miradi inayohitajika na pita mtihani ili kupata Cheti cha Misingi ya Programu ya Python."
+    ],
+    "chapters": {
+      "python-programming-fundamentals": "Misingi ya programu ya Python"
+    },
+    "modules": {
+      "python-basics": "Misingi ya Python",
+      "python-installation": "Sakinisha Python",
+      "python-loops-and-sequences": "Mizunguko na mfululizo",
+      "python-dictionaries-and-sets": "Kamusi na seti",
+      "lab-user-configuration-manager": "Jenga Meneja wa Usanidi wa Mtumizi",
+      "python-error-handling": "Kushughulikia makosa",
+      "python-classes-and-objects": "Darasa la vitu na vitu",
+      "lab-budget-app": "Jenga Programu ya Bajeti",
+      "python-object-oriented-programming": "Uandishi wa programu unaotegemea vitu (OOP)",
+      "lab-polygon-area-calculator": "Jenga Kihesabu cha Eneo la Mstatili",
+      "review-python-programming-fundamentals": "Kagua Python"
+    },
+    "blocks": {
+      "workshop-first-python-program": {
+        "title": "Jenga Programu Yako ya Kwanza ya Python",
+        "intro": [
+          "Kwa warsha hii, utajenga programu yako ya kwanza kwa Python."
+        ]
+      },
+      "lecture-introduction-to-python": {
+        "title": "Utangulizi wa Python",
+        "intro": [
+          "Katika mafundisho haya, utajifunza Python ni nini na matumizi yake ya kawaida katika sekta."
+        ]
+      },
+      "lecture-understanding-variables-and-data-types": {
+        "title": "Kuelewa vigezo na aina za data",
+        "intro": [
+          "Katika mafundisho haya, utajifunza kuhusu vigezo na aina za data katika Python."
+        ]
+      },
+      "workshop-report-card-printer": {
+        "title": "Jenga Kifaa cha Kuchapisha Kadi ya Ripoti",
+        "intro": [
+          "Katika warsha hii, utatumia kufanya kazi na aina za data za msingi katika Python kwa kuunda na kuchapisha data kwa kadi rahisi ya ripoti."
+        ]
+      },
+      "lecture-introduction-to-python-strings": {
+        "title": "Utangulizi wa mfuatano wa herufi",
+        "intro": ["Katika mafundisho haya, utajifunza kuhusu mfuatano wa herufi katika Python."]
+      },
+      "workshop-employee-profile-generator": {
+        "title": "Jenga Kizalishaji cha Wasifu wa Mfanyakazi",
+        "intro": [
+          "Katika warsha hii, utatumia misingi ya usindikaji wa mfuatano wa herufi katika Python kwa kujenga chombo kinachozalisha bango za mfanyakazi zilizoandaliwa na kuchambua misimbo ya mfanyakazi."
+        ]
+      },
+      "workshop-employee-profile-validator": {
+        "title": "Jenga Kithibitishaji cha Wasifu wa Mfanyakazi",
+        "intro": [
+          "Katika warsha hii, utatumia njia za mfuatano wa herufi za Python kuthibitisha na kuunda data kutoka kwa wasifu wa mfanyakazi."
+        ]
+      },
+      "lecture-numbers-and-mathematical-operations": {
+        "title": "Nambari na shughuli za kihesabu",
+        "intro": [
+          "Katika mafundisho haya, utajifunza kuhusu nambari na shughuli za kihesabu katika Python."
+        ]
+      },
+      "workshop-bill-splitter": {
+        "title": "Jenga Kifaa cha Kugawanya Bili",
+        "intro": [
+          "Katika warsha hii utajenga kifaa cha kugawanya bili ili kufanya mazoezi ya kufanya kazi na nambari na shughuli za kihesabu katika Python."
+        ]
+      },
+      "lecture-booleans-and-conditionals": {
+        "title": "Thamani ya kweli au siyo kweli na masharti",
+        "intro": [
+          "Katika mafundisho haya, utajifunza kuhusu thamani ya kweli au siyo kweli na masharti katika Python."
+        ]
+      },
+      "workshop-movie-ticket-booking-calculator": {
+        "title": "Jenga Kihesabu cha Kuweka Tiketi ya Sinema",
+        "intro": [
+          "Katika warsha hii, utatumia mazoezi ya jinsi ya kutumia thamani ya kweli au siyo kweli na taarifa za masharti katika Python kwa kujenga kihesabu cha kuweka tiketi ya sinema."
+        ]
+      },
+      "lab-travel-weather-planner": {
+        "title": "Jenga Mpangaji wa Hali ya Hewa ya Safari",
+        "intro": [
+          "Katika maabara hii, utajenga mpangaji wa hali ya hewa ya safari kwa kutumia masharti."
+        ]
+      },
+      "lecture-understanding-functions-and-scope": {
+        "title": "Kuelewa kitendakazi na wigo",
+        "intro": [
+          "Katika mafundisho haya, utajifunza kuhusu kitendakazi na wigo katika Python."
+        ]
+      },
+      "workshop-kitchen-inventory-tracker": {
+        "title": "Jenga Kifuatilia Orodha ya Jikoni",
+        "intro": [
+          "Katika warsha hii, utatumia mazoezi ya kufanya kazi na kitendakazi na wigo katika Python kwa kujenga kifuatilia orodha ya jikoni."
+        ]
+      },
+      "lab-discount-calculator": {
+        "title": "Jenga Kitendakazi cha Kutumia Punguzo",
+        "intro": [
+          "Katika maabara hii, utatumia Python ya msingi kwa kujenga kihesabu cha kutumia punguzo kwa bei."
+        ]
+      },
+      "workshop-caesar-cipher": {
+        "title": "Jenga Cipher ya Caesar",
+        "intro": [
+          "Katika warsha hii, utajenga cipher ya Caesar kwa kutumia dhana za msingi za Python kama mfuatano wa herufi, masharti, kitendakazi, na zaidi."
+        ]
+      },
+      "lab-rpg-character": {
+        "title": "Jenga Mhusika wa RPG",
+        "intro": [
+          "Katika maabara hii utatumia Python ya msingi kwa kujenga mhusika wa RPG."
+        ]
+      },
+      "review-python-basics": {
+        "title": "Kagua Misingi ya Python",
+        "intro": [
+          "Kabla ya kujaribiwa kuhusu misingi ya Python, unapaswa kukagua kile ulichojifunza kuhusu hiyo.",
+          "Katika ukurasa huu wa ukaguzi, utakagua kufanya kazi na mfuatano wa herufi, kitendakazi, waendeshaji wa kulinganisha na zaidi."
+        ]
+      },
+      "quiz-python-basics": {
+        "title": "Jaribio fupi la misingi ya Python",
+        "intro": [
+          "Jaribu kile ulichojifunza kuhusu misingi ya Python kwa jaribio hili."
+        ]
+      },
+      "lecture-python-installation": {
+        "title": "Kusakinisha Python na kuendesha msimbo kwa ndani",
+        "intro": [
+          "Katika mafundisho haya, utajifunza jinsi ya kusakinisha Python kwenye kifaa chako cha ndani na kuendesha msimbo kwa ndani."
+        ]
+      },
+      "review-python-installation": {
+        "title": "Kagua Usakinishaji wa Python",
+        "intro": [
+          "Kabla ya kujaribiwa kuhusu kufanya kazi na Python kwa ndani, unapaswa kukagua dhana zilizofundishwa katika mafundisho."
+        ]
+      },
+      "quiz-python-installation": {
+        "title": "Jaribio fupi la usakinishaji wa Python",
+        "intro": [
+          "Jaribu kile ulichojifunza kuhusu kusakinisha Python kwa ndani kwa jaribio hili."
+        ]
+      },
+      "lecture-working-with-loops-and-sequences": {
+        "title": "Kufanya kazi na mizunguko na mfululizo",
+        "intro": [
+          "Jifunze kuhusu kufanya kazi na mizunguko na mfululizo katika mafundisho haya."
+        ]
+      },
+      "workshop-pin-extractor": {
+        "title": "Jenga Kichimbaji cha Pin",
+        "intro": [
+          "Katika warsha hii utajenga kitendakazi cha kuchimba pin za siri zilizofichwa katika mashairi."
+        ]
+      },
+      "lab-number-pattern-generator": {
+        "title": "Jenga Kizalishaji cha Mchoro wa Nambari",
+        "intro": ["Katika maabara hii utajenga kizalishaji cha mchoro wa nambari."]
+      },
+      "review-loops-and-sequences": {
+        "title": "Kagua mizunguko na mfululizo",
+        "intro": [
+          "Kabla ya kujaribiwa kuhusu mizunguko na mfululizo, unapaswa kukagua kile ulichojifunza kuhusu hayo.",
+          "Fungua ukurasa huu kukagua dhana zinazohusu mizunguko, orodha, tuple na baadhi ya njia zao za kawaida."
+        ]
+      },
+      "quiz-loops-and-sequences": {
+        "title": "Jaribio fupi la mizunguko na mfululizo",
+        "intro": [
+          "Jaribu kile ulichojifunza kuhusu mizunguko na mfululizo katika Python kwa jaribio hili."
+        ]
+      },
+      "lecture-working-with-dictionaries-and-sets": {
+        "title": "Kufanya kazi na kamusi na seti",
+        "intro": [
+          "Jifunze kuhusu kufanya kazi na kamusi na seti katika mafundisho haya."
+        ]
+      },
+      "lecture-working-with-modules": {
+        "title": "Kufanya kazi na moduli",
+        "intro": ["Jifunze kuhusu kufanya kazi na moduli katika mafundisho haya."]
+      },
+      "workshop-medical-data-validator": {
+        "title": "Jenga kimsingi kinachothibitisha data za matibabu",
+        "intro": [
+          "Katika warsha hii, utatumia kufanya kazi na kamusi na seti huku ukithibitisha mkusanyiko wa data za matibabu."
+        ]
+      },
+      "review-dictionaries-and-sets": {
+        "title": "Kagua kamusi na seti",
+        "intro": [
+          "Kabla hujajibu jaribio kuhusu kamusi na seti, unapaswa kukagua kile ulichojifunza kuhusu hizo.",
+          "Fungua ukurasa huu kukagua dhana zinazohusu kamusi, seti, na jinsi ya import moduli."
+        ]
+      },
+      "quiz-dictionaries-and-sets": {
+        "title": "Jaribio la kamusi na seti",
+        "intro": [
+          "Jaribu kile ulichojifunza kuhusu kamusi na seti katika Python kwa jaribio hili."
+        ]
+      },
+      "lab-user-configuration-manager": {
+        "title": "Jenga msimamizi wa usanidi wa mtumizi",
+        "intro": [
+          "Katika maabara hii, utatumia kufanya kazi na kamusi katika Python."
+        ]
+      },
+      "lecture-understanding-error-handling": {
+        "title": "Kuelewa jinsi ya kushughulikia makosa",
+        "intro": [
+          "Katika mafundisho haya, utajifunza kuhusu jinsi ya kushughulikia makosa katika Python. Utajifunza aina tofauti za makosa, baadhi ya mbinu nzuri za kurekebisha makosa, ni nini exceptions, na jinsi ya kuzishughulikia."
+        ]
+      },
+      "lab-isbn-validator": {
+        "title": "Tafuta hitilafu katika kinathibitisha ISBN",
+        "intro": [
+          "Katika maabara hii, utaanza na programu yenye hitilafu, na utahitaji kutafuta makosa na kuyarekebisha hadi ifanye kazi vizuri."
+        ]
+      },
+      "review-error-handling": {
+        "title": "Kagua jinsi ya kushughulikia makosa",
+        "intro": [
+          "Kabla hujajibu jaribio kuhusu jinsi ya kushughulikia makosa, unapaswa kukagua kile ulichojifunza kuhusu hilo."
+        ]
+      },
+      "quiz-error-handling": {
+        "title": "Jaribio la kushughulikia makosa",
+        "intro": [
+          "Jaribu kile ulichojifunza kuhusu kushughulikia makosa katika Python kwa jaribio hili."
+        ]
+      },
+      "lecture-classes-and-objects": {
+        "title": "Darasa la vitu na vitu",
+        "intro": ["Jifunze kuhusu madarasa ya vitu na vitu katika mafundisho haya."]
+      },
+      "workshop-musical-instrument-inventory": {
+        "title": "Jenga orodha ya vyombo vya muziki",
+        "intro": [
+          "Katika warsha hii, utajifunza kuhusu madarasa ya vitu, vitu, na njia katika Python kwa kujenga orodha rahisi ya vyombo vya muziki."
+        ]
+      },
+      "lab-planet-class": {
+        "title": "Jenga darasa la sayari",
+        "intro": [
+          "Katika maabara hii utaunda darasa la vitu linalowakilisha sayari."
+        ]
+      },
+      "workshop-email-simulator": {
+        "title": "Jenga kielekezi cha barua pepe",
+        "intro": [
+          "Katika warsha hii utatekeleza madarasa ya vitu kwa kujenga kielekezi cha barua pepe kinachofanikisha kutuma, kupokea, na kusimamia barua pepe kati ya watumizi tofauti."
+        ]
+      },
+      "review-classes-and-objects": {
+        "title": "Kagua madarasa ya vitu na vitu",
+        "intro": [
+          "Kabla hujajibu jaribio kuhusu madarasa ya vitu na vitu, unapaswa kukagua kile ulichojifunza kuhusu hayo.",
+          "Fungua ukurasa huu kukagua dhana kama jinsi madarasa ya vitu yanavyofanya kazi, ni nini vitu, njia, sifa za vipengele, njia maalum na zaidi."
+        ]
+      },
+      "quiz-classes-and-objects": {
+        "title": "Jaribio la madarasa ya vitu na vitu",
+        "intro": [
+          "Jaribu kile ulichojifunza kuhusu madarasa ya vitu na vitu katika Python kwa jaribio hili."
+        ]
+      },
+      "lab-budget-app": {
+        "title": "Jenga programu ya bajeti",
+        "intro": [
+          "Katika maabara hii utajenga programu ya bajeti na utatumia kuunda darasa la vitu na njia za darasa hilo."
+        ]
+      },
+      "lecture-understanding-object-oriented-programming-and-encapsulation": {
+        "title": "Kuelewa uprogramaji unaozingatia vitu na kufunga data",
+        "intro": [
+          "Jifunze kuhusu kuelewa uprogramaji unaozingatia vitu na kufunga data katika mafundisho haya."
+        ]
+      },
+      "workshop-salary-tracker": {
+        "title": "Jenga kifuatilia mshahara",
+        "intro": [
+          "Katika warsha hii, utatumia kufunga data, mali, na dhana nyingine za uprogramaji unaozingatia vitu kwa kujenga mfumo wa kufuatilia mishahara ya wafanyakazi."
+        ]
+      },
+      "lab-game-character-stats": {
+        "title": "Jenga kifuatilia takwimu za mhusika wa mchezo",
+        "intro": [
+          "Katika maabara hii, utajenga mhusika wa mchezo mwenye takwimu tofauti kwa kutumia uprogramaji unaozingatia vitu."
+        ]
+      },
+      "lecture-understanding-inheritance-and-polymorphism": {
+        "title": "Kuelewa urithi na polymorphism",
+        "intro": [
+          "Jifunze kuhusu kuelewa urithi na polymorphism katika mafundisho haya."
+        ]
+      },
+      "workshop-media-catalogue": {
+        "title": "Jenga orodha ya vyombo vya habari",
+        "intro": [
+          "Katika warsha hii, utaunda programu ya orodha ya vyombo vya habari kwa kutumia kanuni za uprogramaji unaozingatia vitu."
+        ]
+      },
+      "lecture-understanding-abstraction": {
+        "title": "Kuelewa ufupishaji",
+        "intro": ["Jifunze kuhusu kuelewa ufupishaji katika mafundisho haya."]
+      },
+      "workshop-discount-calculator": {
+        "title": "Jenga kielekezi cha punguzo",
+        "intro": [
+          "Katika warsha hii utajenga kielekezi cha bei cha punguzo kinachobadilika kwa kutumia madarasa ya msingi ya ufupishaji, kuruhusu algoriti nyingi za punguzo kutumika badilika bila kubadilisha mantiki kuu."
+        ]
+      },
+      "lab-player-interface": {
+        "title": "Jenga kiolesura cha mchezaji",
+        "intro": [
+          "Katika maabara hii, utatumia moduli ya <code>abc</code> kujenga kiolesura cha mchezaji."
+        ]
+      },
+      "review-object-oriented-programming": {
+        "title": "Kagua uprogramaji unaozingatia vitu",
+        "intro": [
+          "Kabla hujajibu jaribio kuhusu uprogramaji unaozingatia vitu, unapaswa kukagua kile ulichojifunza kuhusu hilo."
+        ]
+      },
+      "quiz-object-oriented-programming": {
+        "title": "Jaribio la uprogramaji unaozingatia vitu",
+        "intro": [
+          "Jaribu kile ulichojifunza kuhusu uprogramaji unaozingatia vitu katika Python kwa jaribio hili."
+        ]
+      },
+      "lab-polygon-area-calculator": {
+        "title": "Jenga kielekezi cha eneo la mstatili",
+        "intro": [
+          "Katika maabara hii, utatumia uprogramaji unaozingatia vitu kukokotoa maeneo ya mstatili tofauti kama vile mraba na mstatili."
+        ]
+      },
+      "review-python": {
+        "title": "Kagua misingi ya uprogramaji wa Python",
+        "intro": ["Kagua dhana za Python kujiandaa kwa mtihani unaokuja."]
+      }
+    }
   },
   "algorithms-and-data-structure": {
     "title": "Cheti cha Algoriti na Muundo wa Data",

@@ -1,6 +1,6 @@
 ---
 id: 694acade1d4afdbce71e5840
-title: Build a Travel Weather Planner
+title: Створіть планувальник погоди для подорожей
 challengeType: 27
 dashedName: build-a-travel-weather-planner
 ---
@@ -11,7 +11,7 @@ dashedName: build-a-travel-weather-planner
 
 **Мета:** Виконайте наведені нижче історії користувача та пройдіть усі тести, щоб завершити лабораторну роботу.
 
-**User Stories:**
+**Історія користувача:**
 
 1. Ви повинні створити такі змінні:
    * `distance_mi` (число, що представляє відстань для подорожі в милях)
@@ -19,8 +19,9 @@ dashedName: build-a-travel-weather-planner
    * `has_bike` (булевий, що показує, чи має користувач велосипед)
    * `has_car` (булевий, що показує, чи має користувач автомобіль)
    * `has_ride_share_app` (булевий, що показує, чи має користувач застосунок для замовлення поїздки)
-1. Ви повинні використати умовні інструкції, щоб визначити, чи можливо дістатися до місця призначення, базуючись на значеннях цих змінних.
-1. Ви повинні використати інструкції `if`, `elif` та `else` для оцінки категорій відстані у зростаючому порядку.
+1. Ви повинні використовувати умовні інструкції, щоб визначити, чи можлива поїздка, базуючись на значеннях цих змінних.
+1. Ви повинні використовувати інструкції `if`, `elif` та `else` для оцінки категорій відстані за зростанням.
+1. Ви повинні використати принаймні один булевий оператор (`and`, `or` або `not`) у своєму коді.
 1. Якщо `distance_mi` є хибним значенням:
    * Ви повинні вивести `False`.
 1. Якщо відстань **менша або дорівнює 1 милі**:
@@ -44,7 +45,7 @@ dashedName: build-a-travel-weather-planner
 Ви повинні призначити число змінній `distance_mi`.
 
 ```js
-({ test: () => runPython(`assert isinstance(distance_mi, (int, float))`) })
+({ test: () => runPython(`assert isinstance(distance_mi, (int, float)) and not isinstance(distance_mi, bool)`) })
 ```
 
 Ви повинні мати змінну з іменем `is_raining`.
@@ -135,7 +136,8 @@ tree = ast.parse(_code)
 
 bool_ops = [
     node for node in ast.walk(tree)
-    if isinstance(node, (ast.BoolOp, ast.UnaryOp))
+    if isinstance(node, ast.BoolOp)
+    or (isinstance(node, ast.UnaryOp) and isinstance(node.op, ast.Not))
 ]
 
 assert len(bool_ops) >= 1
@@ -533,6 +535,54 @@ run_case(
 `) })
 ```
 
+Коли відстань між `1` милею (не включно) і `6` милями (включно), велосипед доступний, але йде дощ, програма повинна вивести `False`.
+
+```js
+({ test: () => runPython(`
+import ast, io, contextlib
+
+VARIABLES = {
+    "distance_mi",
+    "is_raining",
+    "has_bike",
+    "has_car",
+    "has_ride_share_app"
+}
+
+def run_case(env, expected):
+    tree = ast.parse(_code)
+
+    tree.body = [
+        node for node in tree.body
+        if not (
+            isinstance(node, ast.Assign)
+            and isinstance(node.targets[0], ast.Name)
+            and node.targets[0].id in VARIABLES
+        )
+    ]
+
+    clean_code = compile(tree, "<ast>", "exec")
+
+    buffer = io.StringIO()
+    with contextlib.redirect_stdout(buffer):
+        exec(clean_code, env)
+
+    assert buffer.getvalue().strip() == expected
+
+
+run_case(
+    {
+        "distance_mi": 2,
+        "is_raining": True,
+        "has_bike": True,
+        "has_car": False,
+        "has_ride_share_app": False
+    },
+    "False"
+)
+`) })
+```
+
 Коли відстань більша за `6` миль і є застосунок для замовлення поїздки, програма повинна вивести `True`.
 
 ```js
@@ -572,6 +622,17 @@ run_case(
     {
         "distance_mi": 12,
         "is_raining": False,
+        "has_bike": False,
+        "has_car": False,
+        "has_ride_share_app": True
+    },
+    "True"
+)
+
+run_case(
+    {
+        "distance_mi": 12,
+        "is_raining": True,
         "has_bike": False,
         "has_car": False,
         "has_ride_share_app": True
@@ -626,10 +687,21 @@ run_case(
     },
     "True"
 )
+
+run_case(
+    {
+        "distance_mi": 12,
+        "is_raining": True,
+        "has_bike": False,
+        "has_car": True,
+        "has_ride_share_app": False
+    },
+    "True"
+)
 `) })
 ```
 
-Коли відстань більша за `6` миль і немає ні автомобіля, ні застосунку для замовлення поїздки, програма повинна вивести `False`.
+Коли відстань більша за `6` миль і ні автомобіля, ні застосунку для замовлення поїздки немає, програма повинна вивести `False`.
 
 ```js
 ({ test: () => runPython(`

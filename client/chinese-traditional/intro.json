@@ -1221,7 +1221,7 @@
       "lecture-understanding-the-command-line-and-working-with-bash": {
         "title": "理解命令列與使用 Bash",
         "intro": [
-          "在這些課程中學習命令列與使用 Bash。"
+          "在這些課程中學習命令列和使用 Bash。"
         ]
       },
       "workshop-bash-boilerplate": {
@@ -1515,6 +1515,12 @@
         "title": "建造員工評測產生器",
         "intro": [
           "在這個工作坊中，你將透過建造一個產生格式化員工證件並分析員工代碼的工具，練習 Python 字串操作的基礎。"
+        ]
+      },
+      "workshop-employee-profile-validator": {
+        "title": "建置員工資料驗證器",
+        "intro": [
+          "在這個工作坊中，你將使用 Python 字串方法來驗證和格式化員工資料。"
         ]
       },
       "lecture-numbers-and-mathematical-operations": {
@@ -6478,6 +6484,12 @@
           "在這個工作坊中，你將透過建置一個產生格式化員工證件並分析員工代碼的工具，練習 Python 字串操作的基礎。"
         ]
       },
+      "workshop-employee-profile-validator": {
+        "title": "建置員工資料驗證器",
+        "intro": [
+          "在這個工作坊中，你將使用 Python 字串方法來驗證和格式化員工資料。"
+        ]
+      },
       "lecture-numbers-and-mathematical-operations": {
         "title": "數字與數學運算",
         "intro": [
@@ -6535,7 +6547,7 @@
       "lab-rpg-character": {
         "title": "建置一個 RPG 角色",
         "intro": [
-          "在這個實驗中，你將透過建置一個 RPG 角色來練習基本的 Python。"
+          "在這個實驗中，你將透過建置一個 RPG 角色來練習 Python 基礎。"
         ]
       },
       "review-python-basics": {
@@ -7006,7 +7018,7 @@
       "lecture-understanding-the-command-line-and-working-with-bash": {
         "title": "理解命令列與使用 Bash",
         "intro": [
-          "在這些課程中學習命令列與使用 Bash。"
+          "在這些課程中學習命令列和使用 Bash。"
         ]
       },
       "workshop-bash-boilerplate": {
@@ -10406,6 +10418,359 @@
     "enable-cookies": "開始前請先啟用第三方 Cookie。",
     "english-only": "本區的課程僅提供英文版本。目前我們只能翻譯標題和介紹，課程內容尚未翻譯。",
     "exam-english-only": "請注意，認證考試目前僅提供英文版本。其他課程則有部分語言版本。"
+  },
+  "python-programming-fundamentals": {
+    "title": "Python 程式設計基礎",
+    "intro": [
+      "本課程教授 Python 程式設計的基礎。",
+      "完成指定專案並通過考試，即可獲得 Python 程式設計基礎認證。"
+    ],
+    "chapters": {
+      "python-programming-fundamentals": "Python 程式設計基礎"
+    },
+    "modules": {
+      "python-basics": "Python 基礎",
+      "python-installation": "安裝 Python",
+      "python-loops-and-sequences": "迴圈與序列",
+      "python-dictionaries-and-sets": "字典與集合",
+      "lab-user-configuration-manager": "建置使用者設定管理器",
+      "python-error-handling": "錯誤處理",
+      "python-classes-and-objects": "類別與物件",
+      "lab-budget-app": "建置預算應用程式",
+      "python-object-oriented-programming": "物件導向程式設計（OOP）",
+      "lab-polygon-area-calculator": "建置多邊形面積計算器",
+      "review-python-programming-fundamentals": "Python 複習"
+    },
+    "blocks": {
+      "workshop-first-python-program": {
+        "title": "建置你的第一個 Python 程式",
+        "intro": [
+          "在這個工作坊中，你將建置你的第一個 Python 程式。"
+        ]
+      },
+      "lecture-introduction-to-python": {
+        "title": "Python 簡介",
+        "intro": [
+          "在這些課程中，你將了解 Python 是什麼以及其在業界的常見應用。"
+        ]
+      },
+      "lecture-understanding-variables-and-data-types": {
+        "title": "理解變數與資料型別",
+        "intro": [
+          "在這些課程中，你將學習 Python 中的變數與資料型別。"
+        ]
+      },
+      "workshop-report-card-printer": {
+        "title": "建置成績單列印器",
+        "intro": [
+          "在這個工作坊中，你將透過建立並列印簡單成績單的資料，練習使用 Python 的原始資料型別。"
+        ]
+      },
+      "lecture-introduction-to-python-strings": {
+        "title": "字串簡介",
+        "intro": ["在這些課程中，你將學習 Python 中的字串。"]
+      },
+      "workshop-employee-profile-generator": {
+        "title": "建置員工資料產生器",
+        "intro": [
+          "在這個工作坊中，你將透過建置一個產生格式化員工證件並分析員工代碼的工具，練習 Python 字串操作基礎。"
+        ]
+      },
+      "workshop-employee-profile-validator": {
+        "title": "建置員工資料驗證器",
+        "intro": [
+          "在這個工作坊中，你將使用 Python 字串方法來驗證和格式化員工資料。"
+        ]
+      },
+      "lecture-numbers-and-mathematical-operations": {
+        "title": "數字與數學運算",
+        "intro": [
+          "在這些課程中，你將學習 Python 中的數字與數學運算。"
+        ]
+      },
+      "workshop-bill-splitter": {
+        "title": "建置帳單分攤器",
+        "intro": [
+          "在這個工作坊中，你將建置一個帳單分攤器，練習使用 Python 處理數字與數學運算。"
+        ]
+      },
+      "lecture-booleans-and-conditionals": {
+        "title": "布林值與條件判斷",
+        "intro": [
+          "在這些課程中，你將學習 Python 中的布林值與條件判斷。"
+        ]
+      },
+      "workshop-movie-ticket-booking-calculator": {
+        "title": "建置電影票訂票計算器",
+        "intro": [
+          "在這個工作坊中，你將透過建置電影票訂票計算器，練習使用 Python 的布林值與條件敘述。"
+        ]
+      },
+      "lab-travel-weather-planner": {
+        "title": "建置旅遊天氣規劃器",
+        "intro": [
+          "在這個實驗中，你將使用條件判斷建置旅遊天氣規劃器。"
+        ]
+      },
+      "lecture-understanding-functions-and-scope": {
+        "title": "理解函式與作用域",
+        "intro": [
+          "在這些課程中，你將學習 Python 中的函式與作用域。"
+        ]
+      },
+      "workshop-kitchen-inventory-tracker": {
+        "title": "建置廚房庫存追蹤器",
+        "intro": [
+          "在這個工作坊中，你將透過建置廚房庫存追蹤器，練習使用 Python 的函式與作用域。"
+        ]
+      },
+      "lab-discount-calculator": {
+        "title": "建置折扣套用函式",
+        "intro": [
+          "在這個實驗中，你將透過建置一個折扣計算器來練習 Python 基礎。"
+        ]
+      },
+      "workshop-caesar-cipher": {
+        "title": "建置凱薩密碼",
+        "intro": [
+          "在這個工作坊中，你將使用字串、條件判斷、函式等 Python 基礎概念建置凱薩密碼。"
+        ]
+      },
+      "lab-rpg-character": {
+        "title": "建置 RPG 角色",
+        "intro": [
+          "在這個實驗中，你將透過建置一個 RPG 角色來練習 Python 基礎。"
+        ]
+      },
+      "review-python-basics": {
+        "title": "Python 基礎複習",
+        "intro": [
+          "在接受 Python 基礎測驗前，你應該先複習所學內容。",
+          "在這個複習頁面中，你將複習字串、函式、比較運算子等內容。"
+        ]
+      },
+      "quiz-python-basics": {
+        "title": "Python 基礎測驗",
+        "intro": [
+          "透過此測驗檢驗你對 Python 基礎的理解。"
+        ]
+      },
+      "lecture-python-installation": {
+        "title": "安裝 Python 並在本機執行程式碼",
+        "intro": [
+          "在這些課程中，你將學習如何在本機裝置安裝 Python 並執行程式碼。"
+        ]
+      },
+      "review-python-installation": {
+        "title": "Python 安裝複習",
+        "intro": [
+          "在接受本機 Python 操作測驗前，你應該先複習課程涵蓋的概念。"
+        ]
+      },
+      "quiz-python-installation": {
+        "title": "Python 安裝測驗",
+        "intro": [
+          "透過此測驗檢驗你對本機安裝 Python 的理解。"
+        ]
+      },
+      "lecture-working-with-loops-and-sequences": {
+        "title": "使用迴圈與序列",
+        "intro": [
+          "在這些課程中，學習如何使用迴圈與序列。"
+        ]
+      },
+      "workshop-pin-extractor": {
+        "title": "建置密碼提取器",
+        "intro": [
+          "在這個工作坊中，你將建置一個函式來提取詩中隱藏的秘密密碼。"
+        ]
+      },
+      "lab-number-pattern-generator": {
+        "title": "建置數字樣式產生器",
+        "intro": ["在這個實驗中，你將建置一個數字樣式產生器。"]
+      },
+      "review-loops-and-sequences": {
+        "title": "迴圈與序列複習",
+        "intro": [
+          "在接受迴圈與序列測驗前，你應該先複習所學內容。",
+          "打開此頁面複習迴圈、列表、元組及其常用方法的概念。"
+        ]
+      },
+      "quiz-loops-and-sequences": {
+        "title": "迴圈與序列測驗",
+        "intro": [
+          "透過此測驗檢驗你對 Python 迴圈與序列的理解。"
+        ]
+      },
+      "lecture-working-with-dictionaries-and-sets": {
+        "title": "使用字典與集合",
+        "intro": [
+          "在這些課程中，學習如何使用字典與集合。"
+        ]
+      },
+      "lecture-working-with-modules": {
+        "title": "模組操作",
+        "intro": ["在這些課程中學習如何操作模組。"]
+      },
+      "workshop-medical-data-validator": {
+        "title": "建置醫療資料驗證器",
+        "intro": [
+          "在這個工作坊中，你將練習操作字典和集合，同時驗證一組醫療資料。"
+        ]
+      },
+      "review-dictionaries-and-sets": {
+        "title": "字典與集合複習",
+        "intro": [
+          "在接受字典與集合測驗前，你應該先複習相關內容。",
+          "打開此頁面複習字典、集合以及如何匯入模組的概念。"
+        ]
+      },
+      "quiz-dictionaries-and-sets": {
+        "title": "字典與集合測驗",
+        "intro": [
+          "透過此測驗檢驗你對 Python 中字典與集合的理解。"
+        ]
+      },
+      "lab-user-configuration-manager": {
+        "title": "建置使用者設定管理器",
+        "intro": [
+          "在此實驗中，你將練習在 Python 中操作字典。"
+        ]
+      },
+      "lecture-understanding-error-handling": {
+        "title": "理解錯誤處理",
+        "intro": [
+          "在這些課程中，你將學習 Python 的錯誤處理。你會了解不同類型的錯誤、良好的偵錯習慣、什麼是例外，以及如何處理例外。"
+        ]
+      },
+      "lab-isbn-validator": {
+        "title": "除錯 ISBN 驗證器",
+        "intro": [
+          "在此實驗中，你將從一個有錯誤的應用程式開始，並需要除錯修正錯誤直到它正常運作。"
+        ]
+      },
+      "review-error-handling": {
+        "title": "錯誤處理複習",
+        "intro": [
+          "在接受錯誤處理測驗前，你應該先複習相關內容。"
+        ]
+      },
+      "quiz-error-handling": {
+        "title": "錯誤處理測驗",
+        "intro": [
+          "透過此測驗檢驗你對 Python 中錯誤處理的理解。"
+        ]
+      },
+      "lecture-classes-and-objects": {
+        "title": "類別與物件",
+        "intro": ["在這些課程中學習類別與物件。"]
+      },
+      "workshop-musical-instrument-inventory": {
+        "title": "建置樂器庫存系統",
+        "intro": [
+          "在這個工作坊中，你將透過建置簡單的樂器庫存系統，學習 Python 中的類別、物件和方法。"
+        ]
+      },
+      "lab-planet-class": {
+        "title": "建置行星類別",
+        "intro": [
+          "在此實驗中，你將創建一個代表行星的類別。"
+        ]
+      },
+      "workshop-email-simulator": {
+        "title": "建置電子郵件模擬器",
+        "intro": [
+          "在這個工作坊中，你將透過建置一個模擬不同使用者間發送、接收和管理電子郵件的模擬器，實作類別與物件。"
+        ]
+      },
+      "review-classes-and-objects": {
+        "title": "類別與物件複習",
+        "intro": [
+          "在接受類別與物件測驗前，你應該先複習相關內容。",
+          "打開此頁面複習類別如何運作、什麼是物件、方法、屬性、特殊方法等概念。"
+        ]
+      },
+      "quiz-classes-and-objects": {
+        "title": "類別與物件測驗",
+        "intro": [
+          "透過此測驗檢驗你對 Python 中類別與物件的理解。"
+        ]
+      },
+      "lab-budget-app": {
+        "title": "建置預算應用程式",
+        "intro": [
+          "在此實驗中，你將建置一個預算應用程式，並練習為該類別創建類別和方法。"
+        ]
+      },
+      "lecture-understanding-object-oriented-programming-and-encapsulation": {
+        "title": "理解物件導向程式設計與封裝",
+        "intro": [
+          "在這些課程中學習理解物件導向程式設計與封裝。"
+        ]
+      },
+      "workshop-salary-tracker": {
+        "title": "建置薪資追蹤系統",
+        "intro": [
+          "在這個工作坊中，你將透過建置員工薪資追蹤系統，練習封裝、屬性和其他物件導向程式設計概念。"
+        ]
+      },
+      "lab-game-character-stats": {
+        "title": "建置遊戲角色屬性追蹤器",
+        "intro": [
+          "在此實驗中，你將使用物件導向程式設計建置一個具有不同屬性的遊戲角色。"
+        ]
+      },
+      "lecture-understanding-inheritance-and-polymorphism": {
+        "title": "理解繼承與多型",
+        "intro": [
+          "在這些課程中學習理解繼承與多型。"
+        ]
+      },
+      "workshop-media-catalogue": {
+        "title": "建置媒體目錄",
+        "intro": [
+          "在這個工作坊中，你將使用物件導向程式設計原則創建一個媒體目錄應用程式。"
+        ]
+      },
+      "lecture-understanding-abstraction": {
+        "title": "理解抽象性",
+        "intro": ["在這些課程中學習理解抽象性。"]
+      },
+      "workshop-discount-calculator": {
+        "title": "建置折扣計算器",
+        "intro": [
+          "在這個工作坊中，你將透過抽象基礎類別建置一個靈活的折扣定價計算器，允許多種折扣演算法可互換使用，而無需修改核心邏輯。"
+        ]
+      },
+      "lab-player-interface": {
+        "title": "建置播放器介面",
+        "intro": [
+          "在此實驗中，你將使用 <code>abc</code> 模組建置播放器介面。"
+        ]
+      },
+      "review-object-oriented-programming": {
+        "title": "物件導向程式設計複習",
+        "intro": [
+          "在接受物件導向程式設計測驗前，你應該先複習相關內容。"
+        ]
+      },
+      "quiz-object-oriented-programming": {
+        "title": "物件導向程式設計測驗",
+        "intro": [
+          "透過此測驗檢驗你對 Python 中物件導向程式設計的理解。"
+        ]
+      },
+      "lab-polygon-area-calculator": {
+        "title": "建置多邊形面積計算器",
+        "intro": [
+          "在此實驗中，你將使用物件導向程式設計計算不同多邊形（如正方形和長方形）的面積。"
+        ]
+      },
+      "review-python": {
+        "title": "Python 程式設計基礎複習",
+        "intro": ["複習 Python 概念以準備即將到來的考試。"]
+      }
+    }
   },
   "algorithms-and-data-structure": {
     "title": "演算法與資料結構認證",

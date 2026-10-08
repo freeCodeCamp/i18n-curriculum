@@ -1,6 +1,6 @@
 ---
 id: 694acade1d4afdbce71e5840
-title: Build a Travel Weather Planner
+title: 建置旅遊天氣規劃器
 challengeType: 27
 dashedName: build-a-travel-weather-planner
 ---
@@ -11,26 +11,27 @@ dashedName: build-a-travel-weather-planner
 
 **目標：** 完成以下使用者故事並通過所有測試以完成實驗。
 
-**User Stories:**
+**使用者故事：**
 
 1. 你應該創建以下變數：
-   * `distance_mi`（一個表述要行駛英里數的數字）
-   * `is_raining`（一個布林值，表述使用者目前是否正經歷雨天）
-   * `has_bike`（一個表述使用者是否擁有自行車的布林值）
-   * `has_car`（一個表述使用者是否有車的布林值）
-   * `has_ride_share_app`（一個布林值，表述使用者是否有一個允許他們叫車的應用程式）
-1. 你應該使用條件述語來根據這些變數的值判斷是否可以通勤。
-1. 你應該使用 `if`、`elif` 和 `else` 述語，依距離類別的遞增順序進行評估。
+   * `distance_mi`（一個數字，代表要行駛的英里距離）
+   * `is_raining`（一個布林值，代表使用者目前是否正經歷下雨天氣）
+   * `has_bike`（一個布林值，代表使用者是否有自行車）
+   * `has_car`（一個布林值，代表使用者是否有汽車）
+   * `has_ride_share_app`（一個布林值，代表使用者是否有可叫車的應用程式）
+1. 你應該使用條件述語根據這些變數的值判斷是否能通勤。
+1. 你應該使用 `if`、`elif` 和 `else` 述語，依距離類別由小到大進行評估。
+1. 你應該在程式碼中至少使用一個布林運算子（`and`、`or` 或 `not`）。
 1. 如果 `distance_mi` 是假值：
    * 你應該列印 `False`。
-1. 如果距離**小於或相等於 1 英里**：
-   * 只有在**沒有下雨**時，你才應該列印 `True`。
+1. 如果距離是**小於或等於 1 英里**：
+   * 只有當**沒有下雨**時，你才應該列印 `True`。
    * 否則，你應該列印 `False`。
-1. 如果距離**大於 1 英里且小於或相等於 6 英里**：
-   * 只有當該人有腳踏車**且**沒有下雨時，你才應該列印 `True`。
+1. 如果距離是**大於 1 英里且小於或等於 6 英里**：
+   * 只有當使用者有自行車**且**沒有下雨時，你才應該列印 `True`。
    * 否則，你應該列印 `False`。
-1. 如果距離**大於 6 英里**：
-   * 如果此人有車 **或** 有共乘應用程式，你應該列印 `True`。
+1. 如果距離是**大於 6 英里**：
+   * 如果使用者有汽車**或**有叫車應用程式，你應該列印 `True`。
    * 否則，你應該列印 `False`。
 
 # --hints--
@@ -44,7 +45,7 @@ dashedName: build-a-travel-weather-planner
 你應該為你的 `distance_mi` 變數指定一個數字。
 
 ```js
-({ test: () => runPython(`assert isinstance(distance_mi, (int, float))`) })
+({ test: () => runPython(`assert isinstance(distance_mi, (int, float)) and not isinstance(distance_mi, bool)`) })
 ```
 
 你應該有一個名為 `is_raining` 的變數。
@@ -135,7 +136,8 @@ tree = ast.parse(_code)
 
 bool_ops = [
     node for node in ast.walk(tree)
-    if isinstance(node, (ast.BoolOp, ast.UnaryOp))
+    if isinstance(node, ast.BoolOp)
+    or (isinstance(node, ast.UnaryOp) and isinstance(node.op, ast.Not))
 ]
 
 assert len(bool_ops) >= 1
@@ -533,6 +535,54 @@ run_case(
 `) })
 ```
 
+當距離介於 `1` 英里（不含）和 `6` 英里（含）之間，且有自行車但正在下雨時，程式應該列印 `False`。
+
+```js
+({ test: () => runPython(`
+import ast, io, contextlib
+
+VARIABLES = {
+    "distance_mi",
+    "is_raining",
+    "has_bike",
+    "has_car",
+    "has_ride_share_app"
+}
+
+def run_case(env, expected):
+    tree = ast.parse(_code)
+
+    tree.body = [
+        node for node in tree.body
+        if not (
+            isinstance(node, ast.Assign)
+            and isinstance(node.targets[0], ast.Name)
+            and node.targets[0].id in VARIABLES
+        )
+    ]
+
+    clean_code = compile(tree, "<ast>", "exec")
+
+    buffer = io.StringIO()
+    with contextlib.redirect_stdout(buffer):
+        exec(clean_code, env)
+
+    assert buffer.getvalue().strip() == expected
+
+
+run_case(
+    {
+        "distance_mi": 2,
+        "is_raining": True,
+        "has_bike": True,
+        "has_car": False,
+        "has_ride_share_app": False
+    },
+    "False"
+)
+`) })
+```
+
 當距離大於 `6` 英里且共乘應用程式可用時，程式應該列印 `True`。
 
 ```js
@@ -572,6 +622,17 @@ run_case(
     {
         "distance_mi": 12,
         "is_raining": False,
+        "has_bike": False,
+        "has_car": False,
+        "has_ride_share_app": True
+    },
+    "True"
+)
+
+run_case(
+    {
+        "distance_mi": 12,
+        "is_raining": True,
         "has_bike": False,
         "has_car": False,
         "has_ride_share_app": True
@@ -626,10 +687,21 @@ run_case(
     },
     "True"
 )
+
+run_case(
+    {
+        "distance_mi": 12,
+        "is_raining": True,
+        "has_bike": False,
+        "has_car": True,
+        "has_ride_share_app": False
+    },
+    "True"
+)
 `) })
 ```
 
-當距離大於 `6` 英里且沒有車輛或共乘應用程式可用時，程式應該列印 `False`。
+當距離大於 `6` 英里且既沒有汽車也沒有叫車應用程式時，程式應該列印 `False`。
 
 ```js
 ({ test: () => runPython(`

@@ -1517,6 +1517,12 @@
           "In diesem Workshop üben Sie die Grundlagen der String-Manipulation in Python, indem Sie ein Tool erstellen, das formatierte Mitarbeiterausweise generiert und Mitarbeitercodes analysiert."
         ]
       },
+      "workshop-employee-profile-validator": {
+        "title": "Erstellen Sie einen Validator für Mitarbeiterprofile",
+        "intro": [
+          "In diesem Workshop verwenden Sie Python-String-Methoden, um Daten aus einem Mitarbeiterprofil zu validieren und zu formatieren."
+        ]
+      },
       "lecture-numbers-and-mathematical-operations": {
         "title": "Zahlen und mathematische Operationen",
         "intro": [
@@ -6478,6 +6484,12 @@
           "In diesem Workshop üben Sie die Grundlagen der String-Manipulation in Python, indem Sie ein Tool erstellen, das formatierte Mitarbeiterausweise generiert und Mitarbeitercodes analysiert."
         ]
       },
+      "workshop-employee-profile-validator": {
+        "title": "Erstellen Sie einen Validator für Mitarbeiterprofile",
+        "intro": [
+          "In diesem Workshop verwenden Sie Python-String-Methoden, um Daten aus einem Mitarbeiterprofil zu validieren und zu formatieren."
+        ]
+      },
       "lecture-numbers-and-mathematical-operations": {
         "title": "Zahlen und mathematische Operationen",
         "intro": [
@@ -6535,7 +6547,7 @@
       "lab-rpg-character": {
         "title": "Erstellen Sie einen RPG-Charakter",
         "intro": [
-          "In diesem Workshop üben Sie grundlegendes Python, indem Sie einen RPG-Charakter erstellen."
+          "In diesem Labor üben Sie grundlegendes Python, indem Sie einen RPG-Charakter erstellen."
         ]
       },
       "review-python-basics": {
@@ -7006,7 +7018,7 @@
       "lecture-understanding-the-command-line-and-working-with-bash": {
         "title": "Verstehen der Befehlszeile und Arbeiten mit Bash",
         "intro": [
-          "Lernen Sie in diesen Lektionen die Befehlszeile und das Arbeiten mit Bash kennen."
+          "Lernen Sie in diesen Lektionen die Befehlszeile und die Arbeit mit Bash kennen."
         ]
       },
       "workshop-bash-boilerplate": {
@@ -10406,6 +10418,359 @@
     "enable-cookies": "Sie müssen Drittanbieter-Cookies aktivieren, bevor Sie starten.",
     "english-only": "Die Kurse in diesem Abschnitt sind nur auf Englisch verfügbar. Momentan können wir nur die Titel und Einleitungen übersetzen, nicht jedoch die Lektionen selbst.",
     "exam-english-only": "Bitte beachten Sie, dass die Zertifizierungsprüfung derzeit nur auf Englisch verfügbar ist. Die übrigen Kurse sind in einigen Sprachen verfügbar."
+  },
+  "python-programming-fundamentals": {
+    "title": "Grundlagen der Python-Programmierung",
+    "intro": [
+      "Dieser Kurs vermittelt die Grundlagen der Python-Programmierung.",
+      "Schließen Sie die erforderlichen Projekte ab und bestehen Sie die Prüfung, um die Zertifizierung für Grundlagen der Python-Programmierung zu erhalten."
+    ],
+    "chapters": {
+      "python-programming-fundamentals": "Grundlagen der Python-Programmierung"
+    },
+    "modules": {
+      "python-basics": "Python-Grundlagen",
+      "python-installation": "Python installieren",
+      "python-loops-and-sequences": "Schleifen und Folgen",
+      "python-dictionaries-and-sets": "Wörterbücher und Sets",
+      "lab-user-configuration-manager": "Erstellen Sie einen Benutzerkonfigurationsmanager",
+      "python-error-handling": "Fehlerbehandlung",
+      "python-classes-and-objects": "Klassen und Objekte",
+      "lab-budget-app": "Erstellen Sie eine Budget-App",
+      "python-object-oriented-programming": "Objektorientierte Programmierung (OOP)",
+      "lab-polygon-area-calculator": "Erstellen Sie einen Polygon-Flächenrechner",
+      "review-python-programming-fundamentals": "Python-Überblick"
+    },
+    "blocks": {
+      "workshop-first-python-program": {
+        "title": "Erstellen Sie Ihr erstes Python-Programm",
+        "intro": [
+          "Für diesen Workshop erstellen Sie Ihr erstes Programm in Python."
+        ]
+      },
+      "lecture-introduction-to-python": {
+        "title": "Einführung in Python",
+        "intro": [
+          "In diesen Lektionen lernen Sie, was Python ist und wie es in der Branche verwendet wird."
+        ]
+      },
+      "lecture-understanding-variables-and-data-types": {
+        "title": "Variablen und Datentypen verstehen",
+        "intro": [
+          "In diesen Lektionen lernen Sie Variablen und Datentypen in Python kennen."
+        ]
+      },
+      "workshop-report-card-printer": {
+        "title": "Erstellen Sie einen Zeugnisdrucker",
+        "intro": [
+          "In diesem Workshop üben Sie den Umgang mit primitiven Datentypen in Python, indem Sie Daten für ein einfaches Zeugnis erstellen und ausgeben."
+        ]
+      },
+      "lecture-introduction-to-python-strings": {
+        "title": "Einführung in Strings",
+        "intro": ["In diesen Lektionen lernen Sie Strings in Python kennen."]
+      },
+      "workshop-employee-profile-generator": {
+        "title": "Erstellen Sie einen Generator für Mitarbeiterprofile",
+        "intro": [
+          "In diesem Workshop üben Sie die Grundlagen der String-Manipulation in Python, indem Sie ein Tool erstellen, das formatierte Mitarbeiterausweise generiert und Mitarbeitercodes analysiert."
+        ]
+      },
+      "workshop-employee-profile-validator": {
+        "title": "Erstellen Sie einen Validator für Mitarbeiterprofile",
+        "intro": [
+          "In diesem Workshop verwenden Sie Python-String-Methoden, um Daten aus einem Mitarbeiterprofil zu validieren und zu formatieren."
+        ]
+      },
+      "lecture-numbers-and-mathematical-operations": {
+        "title": "Zahlen und mathematische Operationen",
+        "intro": [
+          "In diesen Lektionen lernen Sie Zahlen und mathematische Operationen in Python kennen."
+        ]
+      },
+      "workshop-bill-splitter": {
+        "title": "Erstellen Sie einen Rechnungsteiler",
+        "intro": [
+          "In diesem Workshop erstellen Sie einen Rechnungsteiler, um den Umgang mit Zahlen und mathematischen Operationen in Python zu üben."
+        ]
+      },
+      "lecture-booleans-and-conditionals": {
+        "title": "Booleans und Bedingungen",
+        "intro": [
+          "In diesen Lektionen lernen Sie Booleans und Bedingungen in Python kennen."
+        ]
+      },
+      "workshop-movie-ticket-booking-calculator": {
+        "title": "Erstellen Sie einen Kinokartenrechner",
+        "intro": [
+          "In diesem Workshop üben Sie die Verwendung von Booleans und bedingten Anweisungen in Python, indem Sie einen Kinokartenrechner erstellen."
+        ]
+      },
+      "lab-travel-weather-planner": {
+        "title": "Erstellen Sie einen Reise-Wetterplaner",
+        "intro": [
+          "In diesem Labor erstellen Sie einen Reise-Wetterplaner mit Bedingungen."
+        ]
+      },
+      "lecture-understanding-functions-and-scope": {
+        "title": "Funktionen und Gültigkeitsbereich verstehen",
+        "intro": [
+          "In diesen Lektionen lernen Sie Funktionen und Gültigkeitsbereich in Python kennen."
+        ]
+      },
+      "workshop-kitchen-inventory-tracker": {
+        "title": "Erstellen Sie einen Kücheninventar-Tracker",
+        "intro": [
+          "In diesem Workshop üben Sie den Umgang mit Funktionen und Gültigkeitsbereich in Python, indem Sie einen Kücheninventar-Tracker erstellen."
+        ]
+      },
+      "lab-discount-calculator": {
+        "title": "Erstellen Sie eine Rabatt-Funktion",
+        "intro": [
+          "In diesem Labor üben Sie grundlegendes Python, indem Sie einen Rechner erstellen, der einen Rabatt auf einen Preis anwendet."
+        ]
+      },
+      "workshop-caesar-cipher": {
+        "title": "Erstellen Sie eine Caesar-Verschlüsselung",
+        "intro": [
+          "In diesem Workshop erstellen Sie eine Caesar-Verschlüsselung mit grundlegenden Python-Konzepten wie Strings, Bedingungen, Funktionen und mehr."
+        ]
+      },
+      "lab-rpg-character": {
+        "title": "Erstellen Sie einen RPG-Charakter",
+        "intro": [
+          "In diesem Labor üben Sie grundlegendes Python, indem Sie einen RPG-Charakter erstellen."
+        ]
+      },
+      "review-python-basics": {
+        "title": "Überblick über Python-Grundlagen",
+        "intro": [
+          "Bevor Sie im Quiz zu Python-Grundlagen geprüft werden, sollten Sie das Gelernte noch einmal überprüfen.",
+          "Auf dieser Übersichtsseite wiederholen Sie den Umgang mit Strings, Funktionen, Vergleichsoperatoren und mehr."
+        ]
+      },
+      "quiz-python-basics": {
+        "title": "Quiz zu Python-Grundlagen",
+        "intro": [
+          "Testen Sie Ihr Wissen zu Python-Grundlagen mit diesem Quiz."
+        ]
+      },
+      "lecture-python-installation": {
+        "title": "Python installieren und Code lokal ausführen",
+        "intro": [
+          "In diesen Lektionen lernen Sie, wie Sie Python auf Ihrem lokalen Gerät installieren und Code lokal ausführen."
+        ]
+      },
+      "review-python-installation": {
+        "title": "Überblick zur Python-Installation",
+        "intro": [
+          "Bevor Sie im Quiz zum lokalen Arbeiten mit Python geprüft werden, sollten Sie die in den Lektionen behandelten Konzepte wiederholen."
+        ]
+      },
+      "quiz-python-installation": {
+        "title": "Quiz zur Python-Installation",
+        "intro": [
+          "Testen Sie Ihr Wissen zur lokalen Python-Installation mit diesem Quiz."
+        ]
+      },
+      "lecture-working-with-loops-and-sequences": {
+        "title": "Arbeiten mit Schleifen und Folgen",
+        "intro": [
+          "Lernen Sie in diesen Lektionen den Umgang mit Schleifen und Folgen."
+        ]
+      },
+      "workshop-pin-extractor": {
+        "title": "Erstellen Sie einen Pin-Extraktor",
+        "intro": [
+          "In diesem Workshop erstellen Sie eine Funktion, um geheime Pins zu extrahieren, die in Gedichten versteckt sind."
+        ]
+      },
+      "lab-number-pattern-generator": {
+        "title": "Erstellen Sie einen Zahlenmuster-Generator",
+        "intro": ["In diesem Labor erstellen Sie einen Zahlenmuster-Generator."]
+      },
+      "review-loops-and-sequences": {
+        "title": "Überblick zu Schleifen und Folgen",
+        "intro": [
+          "Bevor Sie im Quiz zu Schleifen und Folgen geprüft werden, sollten Sie das Gelernte noch einmal überprüfen.",
+          "Öffnen Sie diese Seite, um Konzepte zu Schleifen, Listen, Tuples und einigen ihrer gängigen Methoden zu wiederholen."
+        ]
+      },
+      "quiz-loops-and-sequences": {
+        "title": "Quiz zu Schleifen und Folgen",
+        "intro": [
+          "Testen Sie Ihr Wissen zu Schleifen und Folgen in Python mit diesem Quiz."
+        ]
+      },
+      "lecture-working-with-dictionaries-and-sets": {
+        "title": "Arbeiten mit Wörterbüchern und Sets",
+        "intro": [
+          "Lernen Sie in diesen Lektionen den Umgang mit Wörterbüchern und Sets."
+        ]
+      },
+      "lecture-working-with-modules": {
+        "title": "Arbeiten mit Modulen",
+        "intro": ["Lernen Sie in diesen Lektionen, wie Sie mit Modulen arbeiten."]
+      },
+      "workshop-medical-data-validator": {
+        "title": "Erstellen Sie einen Validator für medizinische Daten",
+        "intro": [
+          "In diesem Workshop üben Sie den Umgang mit Dictionaries und Sets, während Sie eine Sammlung medizinischer Daten validieren."
+        ]
+      },
+      "review-dictionaries-and-sets": {
+        "title": "Überblick über Dictionaries und Sets",
+        "intro": [
+          "Bevor Sie im Quiz zu Dictionaries und Sets geprüft werden, sollten Sie das Gelernte noch einmal überprüfen.",
+          "Öffnen Sie diese Seite, um Konzepte zu Dictionaries, Sets und dem Importieren von Modulen zu wiederholen."
+        ]
+      },
+      "quiz-dictionaries-and-sets": {
+        "title": "Quiz zu Dictionaries und Sets",
+        "intro": [
+          "Testen Sie Ihr Wissen über Dictionaries und Sets in Python mit diesem Quiz."
+        ]
+      },
+      "lab-user-configuration-manager": {
+        "title": "Erstellen Sie einen Benutzerkonfigurationsmanager",
+        "intro": [
+          "In diesem Labor üben Sie den Umgang mit Dictionaries in Python."
+        ]
+      },
+      "lecture-understanding-error-handling": {
+        "title": "Fehlerbehandlung verstehen",
+        "intro": [
+          "In diesen Lektionen lernen Sie die Fehlerbehandlung in Python kennen. Sie erfahren etwas über verschiedene Fehlertypen, gute Debugging-Praktiken, was Ausnahmen sind und wie man sie behandelt."
+        ]
+      },
+      "lab-isbn-validator": {
+        "title": "Debuggen Sie einen ISBN-Validator",
+        "intro": [
+          "In diesem Labor starten Sie mit einer fehlerhaften Anwendung und müssen die Bugs debuggen und beheben, bis sie richtig funktioniert."
+        ]
+      },
+      "review-error-handling": {
+        "title": "Überblick zur Fehlerbehandlung",
+        "intro": [
+          "Bevor Sie im Quiz zur Fehlerbehandlung geprüft werden, sollten Sie das Gelernte noch einmal überprüfen."
+        ]
+      },
+      "quiz-error-handling": {
+        "title": "Quiz zur Fehlerbehandlung",
+        "intro": [
+          "Testen Sie Ihr Wissen über Fehlerbehandlung in Python mit diesem Quiz."
+        ]
+      },
+      "lecture-classes-and-objects": {
+        "title": "Klassen und Objekte",
+        "intro": ["Lernen Sie in diesen Lektionen Klassen und Objekte kennen."]
+      },
+      "workshop-musical-instrument-inventory": {
+        "title": "Erstellen Sie ein Inventar für Musikinstrumente",
+        "intro": [
+          "In diesem Workshop lernen Sie Klassen, Objekte und Methoden in Python kennen, indem Sie ein einfaches Inventar für Musikinstrumente erstellen."
+        ]
+      },
+      "lab-planet-class": {
+        "title": "Erstellen Sie eine Planetenklasse",
+        "intro": [
+          "In diesem Labor erstellen Sie eine Klasse, die einen Planeten darstellt."
+        ]
+      },
+      "workshop-email-simulator": {
+        "title": "Erstellen Sie einen E-Mail-Simulator",
+        "intro": [
+          "In diesem Workshop implementieren Sie Klassen und Objekte, indem Sie einen E-Mail-Simulator bauen, der das Senden, Empfangen und Verwalten von E-Mails zwischen verschiedenen Nutzenden simuliert."
+        ]
+      },
+      "review-classes-and-objects": {
+        "title": "Überblick zu Klassen und Objekten",
+        "intro": [
+          "Bevor Sie im Quiz zu Klassen und Objekten geprüft werden, sollten Sie das Gelernte noch einmal überprüfen.",
+          "Öffnen Sie diese Seite, um Konzepte wie Funktionsweise von Klassen, Objekte, Methoden, Attribute, spezielle Methoden und mehr zu wiederholen."
+        ]
+      },
+      "quiz-classes-and-objects": {
+        "title": "Quiz zu Klassen und Objekten",
+        "intro": [
+          "Testen Sie Ihr Wissen über Klassen und Objekte in Python mit diesem Quiz."
+        ]
+      },
+      "lab-budget-app": {
+        "title": "Erstellen Sie eine Budget-App",
+        "intro": [
+          "In diesem Labor erstellen Sie eine Budget-App und üben das Erstellen einer Klasse und von Methoden für diese Klasse."
+        ]
+      },
+      "lecture-understanding-object-oriented-programming-and-encapsulation": {
+        "title": "Objektorientierte Programmierung und Kapselung verstehen",
+        "intro": [
+          "Lernen Sie in diesen Lektionen die objektorientierte Programmierung und Kapselung kennen."
+        ]
+      },
+      "workshop-salary-tracker": {
+        "title": "Erstellen Sie einen Gehalts-Tracker",
+        "intro": [
+          "In diesem Workshop üben Sie Kapselung, Eigenschaften und andere Konzepte der OOP, indem Sie ein Gehaltsverfolgungssystem für Mitarbeitende erstellen."
+        ]
+      },
+      "lab-game-character-stats": {
+        "title": "Erstellen Sie einen Tracker für Spielfigur-Statistiken",
+        "intro": [
+          "In diesem Labor erstellen Sie eine Spielfigur mit verschiedenen Statistiken unter Verwendung objektorientierter Programmierung."
+        ]
+      },
+      "lecture-understanding-inheritance-and-polymorphism": {
+        "title": "Vererbung und Polymorphismus verstehen",
+        "intro": [
+          "Lernen Sie in diesen Lektionen Vererbung und Polymorphismus kennen."
+        ]
+      },
+      "workshop-media-catalogue": {
+        "title": "Erstellen Sie einen Medienkatalog",
+        "intro": [
+          "In diesem Workshop erstellen Sie eine Medienkatalog-Anwendung unter Verwendung objektorientierter Programmiergrundsätze."
+        ]
+      },
+      "lecture-understanding-abstraction": {
+        "title": "Abstraktion verstehen",
+        "intro": ["Lernen Sie in diesen Lektionen die Abstraktion kennen."]
+      },
+      "workshop-discount-calculator": {
+        "title": "Erstellen Sie einen Rabattrechner",
+        "intro": [
+          "In diesem Workshop erstellen Sie einen flexiblen Rabattpreisrechner durch abstrakte Basisklassen, der es ermöglicht, mehrere Rabattalgorithmen austauschbar anzuwenden, ohne die Kernlogik zu verändern."
+        ]
+      },
+      "lab-player-interface": {
+        "title": "Erstellen Sie ein Spieler-Interface",
+        "intro": [
+          "In diesem Labor verwenden Sie das <code>abc</code>-Modul, um ein Spieler-Interface zu erstellen."
+        ]
+      },
+      "review-object-oriented-programming": {
+        "title": "Überblick zur objektorientierten Programmierung",
+        "intro": [
+          "Bevor Sie im Quiz zur objektorientierten Programmierung geprüft werden, sollten Sie das Gelernte noch einmal überprüfen."
+        ]
+      },
+      "quiz-object-oriented-programming": {
+        "title": "Quiz zur objektorientierten Programmierung",
+        "intro": [
+          "Testen Sie Ihr Wissen über objektorientierte Programmierung in Python mit diesem Quiz."
+        ]
+      },
+      "lab-polygon-area-calculator": {
+        "title": "Erstellen Sie einen Flächenrechner für Polygone",
+        "intro": [
+          "In diesem Labor verwenden Sie objektorientierte Programmierung, um die Flächen verschiedener Polygone wie Quadrate und Rechtecke zu berechnen."
+        ]
+      },
+      "review-python": {
+        "title": "Überblick zu den Grundlagen der Python-Programmierung",
+        "intro": ["Wiederholen Sie Python-Konzepte, um sich auf die bevorstehende Prüfung vorzubereiten."]
+      }
+    }
   },
   "algorithms-and-data-structure": {
     "title": "Zertifizierung für Algorithmen und Datenstruktur",

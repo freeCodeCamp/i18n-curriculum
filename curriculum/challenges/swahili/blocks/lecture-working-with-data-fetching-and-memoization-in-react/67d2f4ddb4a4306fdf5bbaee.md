@@ -15,6 +15,8 @@ Hii huleta haja ya kuboresha programu yako ya React kwa utendaji bora kwa kupung
 
 React inatatua tatizo hili kwa mchakato unaoitwa memoization, mbinu inayohifadhi thamani na vitendakazi ili kuzuia mahesabu yasiyo ya lazima, ili programu yako iwe haraka na inayojibadilisha kulingana na kifaa.
 
+## Memoization ni nini?
+
 Kwa ufafanuzi, memoization ni mbinu ya kuboresha utendaji ambapo matokeo ya wito wa vitendakazi ghali huhifadhiwa (kumbukwa) kulingana na hoja maalum. Wakati hoja zile zile zinapotolewa tena, matokeo yaliyohifadhiwa hurudishwa badala ya kuhesabu tena kitendakazi hicho.
 
 Mchakato wa memoization hufanyika kwa njia hii:
@@ -27,7 +29,9 @@ Mchakato wa memoization hufanyika kwa njia hii:
 
 - Ikiwa hayapo, hesabu matokeo, uyahifadhi kwenye hifadhi, kisha uyarudishe.
 
-Ili kuboresha uzoefu wa msanidi programu na memoization, React hutoa zana tatu – `React.memo` (au `memo`), `useMemo` na `useCallback`. 
+## Vifaa vya memoization katika React
+
+Ili kuboresha uzoefu wa msanidi programu na memoization, React hutoa zana tatu – `React.memo` (au `memo`), `useMemo` na `useCallback`.
 
 Kama unavyoweza kubashiri, `useMemo` na `useCallback` zote ni hooks, lakini `React.memo` ni kifuniko cha sehemu, sehemu ya daraja la juu (HOC).
 
@@ -36,6 +40,8 @@ Katika funzo lijalo, tutaangalia jinsi hook ya `useCallback` na `React.memo` zin
 `useMemo` inakuwezesha kuhifadhi thamani zilizohesabiwa wakati `useCallback` hufanya vivyo hivyo kwa rejea za vitendakazi.
 
 Ikiwa unajiuliza thamani zilizohesabiwa na rejea za vitendakazi ni nini, thamani zilizohesabiwa zinahusu matokeo ya kutekeleza kitendakazi, wakati rejea za vitendakazi ni viashiria vya vitendakazi – kitu cha kitendakazi katika kumbukumbu.
+
+## Sintaksia ya `useMemo` hook
 
 Tuchunguze jinsi ya kutumia hook ya `useMemo` kwanza. Hii ndiyo sintaksia ya msingi ya hook ya `useMemo`:
 
@@ -49,6 +55,8 @@ const memoizedValue = useMemo(
 ```
 
 Unaweza kuona kinachohitajika ni kufunika hook ya `useMemo` karibu na kitendakazi.
+
+## Mfano: Sehemu ya `ExpensiveSquare`
 
 Sehemu hii ya `ExpensiveSquare` itapokea vigezo vya `num` ambavyo itatumia kuhesabu mraba:
 
@@ -97,6 +105,8 @@ export default App;
 ```
 
 `timer` katika `useEffect`, inayoendesha kila sekunde moja, itafanya kitendakazi cha `calculateSquare` kitekeke wakati wowote kinapoendeshwa, hata kama hauongezi thamani ya hali ya `num`.
+
+## Kutumia `useMemo` kuepuka kuhesabu tena
 
 Ili kutatua tatizo hili, tunaweza kutumia hook ya `useMemo` kwa kufunika wito wa kitendakazi ndani yake na kubainisha mabadiliko ya `num` kama utegemezi:
 

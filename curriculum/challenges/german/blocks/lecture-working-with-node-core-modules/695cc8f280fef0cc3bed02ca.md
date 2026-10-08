@@ -79,7 +79,7 @@ const wrongPath = path.join("/src//", "assets", "text-files");
 console.log(wrongPath); // /src/assets/text-files
 ```
 
-Die `resolve()`-Methode wandelt eine Folge von Pfadsegmenten in einen absoluten Pfad um. Sie beginnt bei Ihrem aktuellen Arbeitsverzeichnis und ergibt einen vollständigen Pfad, der auf den genauen Speicherort auf dem Gerät zeigt:
+Die `resolve()`-Methode wandelt eine Folge von Pfadsegmenten in einen absoluten Pfad um. Sie verarbeitet die Segmente von rechts nach links, bis sie einen absoluten Pfad erstellt hat. Wenn sie am Anfang ankommt, ohne einen absoluten Pfad zu erstellen, verwendet sie das aktuelle Arbeitsverzeichnis:
 
 ```js
 const absolutePath = path.resolve("assets", "src", "text-files");
@@ -87,7 +87,7 @@ console.log(absolutePath);
 // /Users/user/Desktop/fCC/script-code/node/node-path/assets/src/text-files
 ```
 
-Der Unterschied zwischen `join()` und `resolve()` besteht darin, dass `join()` einen relativen Pfad erstellt, während `resolve()` einen absoluten Pfad zurückgibt.
+Im Gegensatz zu `join()`, das Pfadsegmente zusammenfügt und normalisiert und entweder einen relativen oder absoluten Pfad zurückgeben kann, gibt `resolve()` immer einen absoluten Pfad zurück.
 
 Zuletzt gibt es die Methoden `parse()` und `format()`.
 

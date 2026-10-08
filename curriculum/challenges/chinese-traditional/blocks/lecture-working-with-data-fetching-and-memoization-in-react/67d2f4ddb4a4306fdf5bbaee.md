@@ -15,6 +15,8 @@ dashedName: what-is-memoization-and-how-does-the-usememo-hook-work
 
 React 使用一種稱為記憶化的處理程序來解決這個問題，這種技術會將值和函式快取起來，以防止不必要的重新計算，讓你的應用程式更快且更具回應性。
 
+## 什麼是記憶化？
+
 根據定義，記憶化是一種優化技術，透過根據特定引數快取（記住）昂貴函式呼叫的結果。當再次提供相同引數時，會傳回快取的結果，而非重新計算函式。
 
 備忘錄化的處理程序以此方式進行：
@@ -27,7 +29,9 @@ React 使用一種稱為記憶化的處理程序來解決這個問題，這種�
 
 - 如果不存在，計算結果，將其儲存在快取中，然後傳回。
 
-為了提升開發者使用快取記憶的體驗，React 提供了三種工具－`React.memo`（或 `memo`）、`useMemo` 和 `useCallback`。 
+## React 中的記憶化工具
+
+為了提升開發者使用快取記憶的體驗，React 提供了三種工具－`React.memo`（或 `memo`）、`useMemo` 和 `useCallback`。
 
 正如你可能猜到的，`useMemo` 和 `useCallback` 都是掛鉤，但 `React.memo` 是組件外覆，一種高階組件（HOC）。
 
@@ -36,6 +40,8 @@ React 使用一種稱為記憶化的處理程序來解決這個問題，這種�
 `useMemo` 讓你記憶計算後的值，而 `useCallback` 則對函式（程式）引用做相同的事。
 
 如果你想知道什麼是計算值和函式引用，計算值是指執行函式後的結果，而函式引用是指向函式的指標－記憶體中的函式物件。
+
+## `useMemo` 掛鉤語法
 
 讓我們先看看如何使用 `useMemo` 掛鉤。以下是 `useMemo` 掛鉤的基本語法：
 
@@ -49,6 +55,8 @@ const memoizedValue = useMemo(
 ```
 
 你可以看到所需的全部就是將 `useMemo` 掛鉤包裹在函式周圍。
+
+## 範例：`ExpensiveSquare` 組件
 
 這個 `ExpensiveSquare` 組件將接收一個 `num` prop，並使用它來計算平方：
 
@@ -97,6 +105,8 @@ export default App;
 ```
 
 `useEffect` 中每秒執行一次的 `timer`，會讓 `calculateSquare` 函式在每次執行時都執行，即使你沒有增加 `num` 狀態變數。
+
+## 使用 `useMemo` 避免重複計算
 
 為了解決這個問題，我們可以使用 `useMemo` 掛鉤，將函式呼叫包裹在其中，並指定 `num` 變數作為相依性：
 

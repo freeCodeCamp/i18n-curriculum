@@ -1,6 +1,6 @@
 ---
 id: 694acade1d4afdbce71e5840
-title: Build a Travel Weather Planner
+title: 여행 날씨 계획표 만들기
 challengeType: 27
 dashedName: build-a-travel-weather-planner
 ---
@@ -11,26 +11,27 @@ dashedName: build-a-travel-weather-planner
 
 **목표:** 아래 사용자 스토리를 충족하고 모든 테스트를 통과하여 실습을 완료하세요.
 
-**User Stories:**
+**사용자 스토리:**
 
 1. 다음 변수를 만들어야 합니다:
    * `distance_mi` (이동 거리를 마일 단위로 나타내는 숫자)
    * `is_raining` (사용자가 현재 비가 오는 날씨인지 나타내는 불리언)
    * `has_bike` (사용자가 자전거를 가지고 있는지 나타내는 불리언)
    * `has_car` (사용자가 자동차를 가지고 있는지 나타내는 불리언)
-   * `has_ride_share_app` (사용자가 호출 요청이 가능한 앱을 가지고 있는지 나타내는 불리언)
-1. 이 변수들의 값에 따라 조건문을 사용해 통근 가능 여부를 판단해야 합니다.
+   * `has_ride_share_app` (사용자가 호출 요청을 할 수 있는 앱을 가지고 있는지 나타내는 불리언)
+1. 이 변수들의 값을 기준으로 통근이 가능한지 조건문을 사용해 결정해야 합니다.
 1. `if`, `elif`, `else` 문을 사용해 거리에 따른 범주를 오름차순으로 평가해야 합니다.
+1. 코드에 적어도 하나 이상의 불리언 연산자(`and`, `or`, `not`)를 사용해야 합니다.
 1. `distance_mi`가 거짓 같은 값이라면:
    * `False`를 출력해야 합니다.
 1. 거리가 **1마일 이하**라면:
-   * 비가 오지 않을 때만 `True`을 출력해야 합니다.
-   * 그렇지 않으면 `False`을 출력해야 합니다.
+   * 비가 **오지 않는 경우에만** `True`를 출력해야 합니다.
+   * 그렇지 않으면 `False`를 출력해야 합니다.
 1. 거리가 **1마일 초과 6마일 이하**라면:
-   * 자전거가 있고 비가 오지 않을 때만 `True`를 출력해야 합니다.
-   * 그렇지 않으면 `False`을 출력해야 합니다.
+   * 자전거가 있고 **비가 오지 않는 경우에만** `True`를 출력해야 합니다.
+   * 그렇지 않으면 `False`를 출력해야 합니다.
 1. 거리가 **6마일 초과**라면:
-   * 자동차가 있거나 호출 앱이 있을 때 `True`를 출력해야 합니다.
+   * 자동차가 있거나 호출 앱이 있으면 `True`를 출력해야 합니다.
    * 그렇지 않으면 `False`를 출력해야 합니다.
 
 # --hints--
@@ -44,7 +45,7 @@ dashedName: build-a-travel-weather-planner
 `distance_mi` 변수에 숫자를 할당해야 합니다.
 
 ```js
-({ test: () => runPython(`assert isinstance(distance_mi, (int, float))`) })
+({ test: () => runPython(`assert isinstance(distance_mi, (int, float)) and not isinstance(distance_mi, bool)`) })
 ```
 
 `is_raining`라는 변수를 만들어야 합니다.
@@ -135,7 +136,8 @@ tree = ast.parse(_code)
 
 bool_ops = [
     node for node in ast.walk(tree)
-    if isinstance(node, (ast.BoolOp, ast.UnaryOp))
+    if isinstance(node, ast.BoolOp)
+    or (isinstance(node, ast.UnaryOp) and isinstance(node.op, ast.Not))
 ]
 
 assert len(bool_ops) >= 1
@@ -533,6 +535,54 @@ run_case(
 `) })
 ```
 
+거리가 `1`마일 초과 `6`마일 이하이고 자전거가 있으며 비가 오는 경우, 프로그램은 `False`를 출력해야 합니다.
+
+```js
+({ test: () => runPython(`
+import ast, io, contextlib
+
+VARIABLES = {
+    "distance_mi",
+    "is_raining",
+    "has_bike",
+    "has_car",
+    "has_ride_share_app"
+}
+
+def run_case(env, expected):
+    tree = ast.parse(_code)
+
+    tree.body = [
+        node for node in tree.body
+        if not (
+            isinstance(node, ast.Assign)
+            and isinstance(node.targets[0], ast.Name)
+            and node.targets[0].id in VARIABLES
+        )
+    ]
+
+    clean_code = compile(tree, "<ast>", "exec")
+
+    buffer = io.StringIO()
+    with contextlib.redirect_stdout(buffer):
+        exec(clean_code, env)
+
+    assert buffer.getvalue().strip() == expected
+
+
+run_case(
+    {
+        "distance_mi": 2,
+        "is_raining": True,
+        "has_bike": True,
+        "has_car": False,
+        "has_ride_share_app": False
+    },
+    "False"
+)
+`) })
+```
+
 거리가 `6` 마일 초과이고 호출 앱이 있을 때 프로그램은 `True`를 출력해야 합니다.
 
 ```js
@@ -572,6 +622,17 @@ run_case(
     {
         "distance_mi": 12,
         "is_raining": False,
+        "has_bike": False,
+        "has_car": False,
+        "has_ride_share_app": True
+    },
+    "True"
+)
+
+run_case(
+    {
+        "distance_mi": 12,
+        "is_raining": True,
         "has_bike": False,
         "has_car": False,
         "has_ride_share_app": True
@@ -626,10 +687,21 @@ run_case(
     },
     "True"
 )
+
+run_case(
+    {
+        "distance_mi": 12,
+        "is_raining": True,
+        "has_bike": False,
+        "has_car": True,
+        "has_ride_share_app": False
+    },
+    "True"
+)
 `) })
 ```
 
-거리가 `6` 마일 초과이고 자동차도 호출 앱도 없을 때 프로그램은 `False`를 출력해야 합니다.
+거리가 `6`마일 초과이고 자동차도 호출 앱도 없으면, 프로그램은 `False`를 출력해야 합니다.
 
 ```js
 ({ test: () => runPython(`

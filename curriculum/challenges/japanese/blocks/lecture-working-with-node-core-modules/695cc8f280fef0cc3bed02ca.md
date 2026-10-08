@@ -79,7 +79,7 @@ const wrongPath = path.join("/src//", "assets", "text-files");
 console.log(wrongPath); // /src/assets/text-files
 ```
 
-`resolve()` メソッドはパスセグメントのシーケンスを絶対パスに変換します。現在の作業ディレクトリから始まり、デバイス上の正確な場所を指す完全なパスを返します。
+`resolve()` メソッドは、シーケンスのパスセグメントを絶対パスに変換します。右から左へセグメントを処理し、絶対パスが構築されるまで続けます。絶対パスが構築されないまま先頭に到達した場合は、現在の作業ディレクトリを使用します。
 
 ```js
 const absolutePath = path.resolve("assets", "src", "text-files");
@@ -87,7 +87,7 @@ console.log(absolutePath);
 // /Users/user/Desktop/fCC/script-code/node/node-path/assets/src/text-files
 ```
 
-`join()` と `resolve()` の違いは、`join()` が相対パスを作成し、`resolve()` が絶対パスを返すことです。
+`join()` はパスセグメントを結合して正規化し、相対パスまたは絶対パスのいずれかを返す場合がありますが、`resolve()` は常に絶対パスを返します。
 
 最後に、`parse()` と `format()` メソッドがあります。
 

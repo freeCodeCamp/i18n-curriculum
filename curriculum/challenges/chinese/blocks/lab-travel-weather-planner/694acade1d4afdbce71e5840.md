@@ -1,6 +1,6 @@
 ---
 id: 694acade1d4afdbce71e5840
-title: Build a Travel Weather Planner
+title: 创建一个旅行天气规划器
 challengeType: 27
 dashedName: build-a-travel-weather-planner
 ---
@@ -11,26 +11,27 @@ dashedName: build-a-travel-weather-planner
 
 **目标：**实现以下用户需求并通过所有测试以完成实验。
 
-**User Stories:**
+**用户故事：**
 
 1. 你应该创建以下变量：
-   * `distance_mi`（表示要行驶的英里数的数字）
-   * `is_raining`（一个表现用户当前是否正在经历雨天的布尔值）
-   * `has_bike`（一个表现用户是否有自行车的布尔值）
-   * `has_car`（一个表现用户是否有车的布尔值）
-   * `has_ride_share_app`（一个表现用户是否拥有允许他们请求乘车的应用程序的布尔值）
-1. 你应该使用条件式语句根据这些变量的值来判断是否可以通勤。
-1. 你应该使用 `if`、`elif` 和 `else` 语句按距离类别的升序进行评估。
+   * `distance_mi`（一个数字，表示以英里为单位的旅行距离）
+   * `is_raining`（一个布尔值，表示用户当前是否遇到下雨天气）
+   * `has_bike`（一个布尔值，表示用户是否有自行车）
+   * `has_car`（一个布尔值，表示用户是否有汽车）
+   * `has_ride_share_app`（一个布尔值，表示用户是否有可以请求拼车的应用程序）
+1. 你应该使用条件式根据这些变量的值来判断是否可以通勤。
+1. 你应该使用 `if`、`elif` 和 `else` 语句按距离类别的升序进行判断。
+1. 你的代码中应至少使用一个布尔操作符（`and`、`or` 或 `not`）。
 1. 如果 `distance_mi` 是假值：
    * 你应该打印 `False`。
-1. 如果距离**小于或相等于 1 英里**：
+1. 如果距离**小于或等于 1 英里**：
    * 只有在**没有下雨**时你才应该打印 `True`。
    * 否则，你应该打印 `False`。
-1. 如果距离**大于 1 英里且小于或相等于 6 英里**：
-   * 你应该仅在此人有自行车**且**没有下雨时打印 `True`。
+1. 如果距离**大于 1 英里且小于或等于 6 英里**：
+   * 只有当用户有自行车**且**没有下雨时，你才应该打印 `True`。
    * 否则，你应该打印 `False`。
 1. 如果距离**大于 6 英里**：
-   * 如果此人有汽车**或**有拼车应用程序，你应该打印 `True`。
+   * 如果用户有汽车**或**有拼车应用程序，你应该打印 `True`。
    * 否则，你应该打印 `False`。
 
 # --hints--
@@ -44,7 +45,7 @@ dashedName: build-a-travel-weather-planner
 你应该为你的 `distance_mi` 变量赋值一个数字。
 
 ```js
-({ test: () => runPython(`assert isinstance(distance_mi, (int, float))`) })
+({ test: () => runPython(`assert isinstance(distance_mi, (int, float)) and not isinstance(distance_mi, bool)`) })
 ```
 
 你应该有一个名为 `is_raining` 的变量。
@@ -135,7 +136,8 @@ tree = ast.parse(_code)
 
 bool_ops = [
     node for node in ast.walk(tree)
-    if isinstance(node, (ast.BoolOp, ast.UnaryOp))
+    if isinstance(node, ast.BoolOp)
+    or (isinstance(node, ast.UnaryOp) and isinstance(node.op, ast.Not))
 ]
 
 assert len(bool_ops) >= 1
@@ -533,6 +535,54 @@ run_case(
 `) })
 ```
 
+当距离在 `1` 英里（不含）到 `6` 英里（含）之间，且有自行车但正在下雨时，程序应打印 `False`。
+
+```js
+({ test: () => runPython(`
+import ast, io, contextlib
+
+VARIABLES = {
+    "distance_mi",
+    "is_raining",
+    "has_bike",
+    "has_car",
+    "has_ride_share_app"
+}
+
+def run_case(env, expected):
+    tree = ast.parse(_code)
+
+    tree.body = [
+        node for node in tree.body
+        if not (
+            isinstance(node, ast.Assign)
+            and isinstance(node.targets[0], ast.Name)
+            and node.targets[0].id in VARIABLES
+        )
+    ]
+
+    clean_code = compile(tree, "<ast>", "exec")
+
+    buffer = io.StringIO()
+    with contextlib.redirect_stdout(buffer):
+        exec(clean_code, env)
+
+    assert buffer.getvalue().strip() == expected
+
+
+run_case(
+    {
+        "distance_mi": 2,
+        "is_raining": True,
+        "has_bike": True,
+        "has_car": False,
+        "has_ride_share_app": False
+    },
+    "False"
+)
+`) })
+```
+
 当距离大于 `6` 英里且有拼车应用可用时，程序应打印 `True`。
 
 ```js
@@ -572,6 +622,17 @@ run_case(
     {
         "distance_mi": 12,
         "is_raining": False,
+        "has_bike": False,
+        "has_car": False,
+        "has_ride_share_app": True
+    },
+    "True"
+)
+
+run_case(
+    {
+        "distance_mi": 12,
+        "is_raining": True,
         "has_bike": False,
         "has_car": False,
         "has_ride_share_app": True
@@ -626,10 +687,21 @@ run_case(
     },
     "True"
 )
+
+run_case(
+    {
+        "distance_mi": 12,
+        "is_raining": True,
+        "has_bike": False,
+        "has_car": True,
+        "has_ride_share_app": False
+    },
+    "True"
+)
 `) })
 ```
 
-当距离大于 `6` 英里且没有汽车或拼车应用可用时，程序应打印 `False`。
+当距离大于 `6` 英里且既没有汽车也没有拼车应用程序时，程序应打印 `False`。
 
 ```js
 ({ test: () => runPython(`

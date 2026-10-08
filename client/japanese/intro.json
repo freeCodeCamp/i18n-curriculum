@@ -1221,7 +1221,7 @@
       "lecture-understanding-the-command-line-and-working-with-bash": {
         "title": "コマンドラインの理解とBashの操作",
         "intro": [
-          "これらのレッスンでコマンドラインとBashの操作について学びます。"
+          "これらのレッスンでコマンドラインとBashの使い方を学びましょう。"
         ]
       },
       "workshop-bash-boilerplate": {
@@ -1515,6 +1515,12 @@
         "title": "従業員プロフィールジェネレーターを作ろう",
         "intro": [
           "このワークショップでは、フォーマットされた従業員バッジを生成し、従業員コードを分析するツールを作りながら、Pythonの文字列操作の基本を練習します。"
+        ]
+      },
+      "workshop-employee-profile-validator": {
+        "title": "従業員プロフィールバリデーターを作成する",
+        "intro": [
+          "このワークショップでは、Pythonの文字列メソッドを使って従業員プロフィールのデータを検証およびフォーマットします。"
         ]
       },
       "lecture-numbers-and-mathematical-operations": {
@@ -6478,6 +6484,12 @@
           "このワークショップでは、Pythonの文字列操作の基本を練習しながら、フォーマットされた従業員バッジを生成し、従業員コードを分析するツールを作成します。"
         ]
       },
+      "workshop-employee-profile-validator": {
+        "title": "従業員プロフィールバリデーターを作成する",
+        "intro": [
+          "このワークショップでは、Pythonの文字列メソッドを使って従業員プロフィールのデータを検証およびフォーマットします。"
+        ]
+      },
       "lecture-numbers-and-mathematical-operations": {
         "title": "数値と数学的演算",
         "intro": [
@@ -6535,7 +6547,7 @@
       "lab-rpg-character": {
         "title": "RPGキャラクターを作成する",
         "intro": [
-          "このラボでは、RPGキャラクターを作成して基本的なPythonを練習します。"
+          "このラボでは、RPGキャラクターを作成してPythonの基本を練習します。"
         ]
       },
       "review-python-basics": {
@@ -7006,7 +7018,7 @@
       "lecture-understanding-the-command-line-and-working-with-bash": {
         "title": "コマンドラインの理解とBashの操作",
         "intro": [
-          "このレッスンでコマンドラインとBashの使い方を学びます。"
+          "これらのレッスンでコマンドラインとBashの使い方を学びましょう。"
         ]
       },
       "workshop-bash-boilerplate": {
@@ -10406,6 +10418,359 @@
     "enable-cookies": "開始する前にサードパーティのクッキーを有効にしてください。",
     "english-only": "このセクションのコースは英語のみで提供されています。現在、タイトルと紹介文のみ翻訳可能で、レッスン自体は翻訳されていません。",
     "exam-english-only": "認定試験は現在英語のみで提供されていることにご注意ください。他のコースは一部の言語で利用可能です。"
+  },
+  "python-programming-fundamentals": {
+    "title": "Pythonプログラミング基礎",
+    "intro": [
+      "このコースではPythonプログラミングの基礎を学びます。",
+      "必要なプロジェクトを完成させ、試験に合格してPythonプログラミング基礎認定を取得してください。"
+    ],
+    "chapters": {
+      "python-programming-fundamentals": "Pythonプログラミング基礎"
+    },
+    "modules": {
+      "python-basics": "Python基礎",
+      "python-installation": "Pythonのインストール",
+      "python-loops-and-sequences": "ループとシーケンス",
+      "python-dictionaries-and-sets": "辞書とセット",
+      "lab-user-configuration-manager": "ユーザー設定マネージャーを作成する",
+      "python-error-handling": "エラー処理",
+      "python-classes-and-objects": "クラスとオブジェクト",
+      "lab-budget-app": "予算アプリを作成する",
+      "python-object-oriented-programming": "オブジェクト指向プログラミング（OOP）",
+      "lab-polygon-area-calculator": "多角形の面積計算機を作成する",
+      "review-python-programming-fundamentals": "Pythonレビュー"
+    },
+    "blocks": {
+      "workshop-first-python-program": {
+        "title": "最初のPythonプログラムを作成する",
+        "intro": [
+          "このワークショップでは、Pythonで最初のプログラムを作成します。"
+        ]
+      },
+      "lecture-introduction-to-python": {
+        "title": "Python入門",
+        "intro": [
+          "これらのレッスンでPythonとは何か、業界での一般的な使い方を学びます。"
+        ]
+      },
+      "lecture-understanding-variables-and-data-types": {
+        "title": "変数とデータ型の理解",
+        "intro": [
+          "これらのレッスンでPythonの変数とデータ型について学びます。"
+        ]
+      },
+      "workshop-report-card-printer": {
+        "title": "成績表プリンターを作成する",
+        "intro": [
+          "このワークショップでは、Pythonの基本データ型を使って簡単な成績表のデータを作成し、出力する練習をします。"
+        ]
+      },
+      "lecture-introduction-to-python-strings": {
+        "title": "文字列入門",
+        "intro": ["これらのレッスンでPythonの文字列について学びます。"]
+      },
+      "workshop-employee-profile-generator": {
+        "title": "従業員プロフィールジェネレーターを作成する",
+        "intro": [
+          "このワークショップでは、Pythonの文字列操作の基礎を練習し、フォーマットされた従業員バッジを生成し、従業員コードを分析するツールを作成します。"
+        ]
+      },
+      "workshop-employee-profile-validator": {
+        "title": "従業員プロフィールバリデーターを作成する",
+        "intro": [
+          "このワークショップでは、Pythonの文字列メソッドを使って従業員プロフィールのデータを検証およびフォーマットします。"
+        ]
+      },
+      "lecture-numbers-and-mathematical-operations": {
+        "title": "数値と数学的演算",
+        "intro": [
+          "これらのレッスンでPythonの数値と数学的演算について学びます。"
+        ]
+      },
+      "workshop-bill-splitter": {
+        "title": "割り勘計算機を作成する",
+        "intro": [
+          "このワークショップでは、Pythonの数値と数学的演算を使って割り勘計算機を作成します。"
+        ]
+      },
+      "lecture-booleans-and-conditionals": {
+        "title": "ブール値と条件分岐",
+        "intro": [
+          "これらのレッスンでPythonのブール値と条件分岐について学びます。"
+        ]
+      },
+      "workshop-movie-ticket-booking-calculator": {
+        "title": "映画チケット予約計算機を作成する",
+        "intro": [
+          "このワークショップでは、Pythonのブール値と条件文を使って映画チケット予約計算機を作成します。"
+        ]
+      },
+      "lab-travel-weather-planner": {
+        "title": "旅行天気プランナーを作成する",
+        "intro": [
+          "このラボでは、条件分岐を使って旅行天気プランナーを作成します。"
+        ]
+      },
+      "lecture-understanding-functions-and-scope": {
+        "title": "関数とスコープの理解",
+        "intro": [
+          "これらのレッスンでPythonの関数とスコープについて学びます。"
+        ]
+      },
+      "workshop-kitchen-inventory-tracker": {
+        "title": "キッチン在庫トラッカーを作成する",
+        "intro": [
+          "このワークショップでは、Pythonの関数とスコープを使ってキッチン在庫トラッカーを作成します。"
+        ]
+      },
+      "lab-discount-calculator": {
+        "title": "割引適用関数を作成する",
+        "intro": [
+          "このラボでは、価格に割引を適用する計算機を作成してPythonの基本を練習します。"
+        ]
+      },
+      "workshop-caesar-cipher": {
+        "title": "シーザー暗号を作成する",
+        "intro": [
+          "このワークショップでは、文字列、条件分岐、関数などの基本的なPythonの概念を使ってシーザー暗号を作成します。"
+        ]
+      },
+      "lab-rpg-character": {
+        "title": "RPGキャラクターを作成する",
+        "intro": [
+          "このラボでは、RPGキャラクターを作成してPythonの基本を練習します。"
+        ]
+      },
+      "review-python-basics": {
+        "title": "Python基礎レビュー",
+        "intro": [
+          "Python基礎のクイズを受ける前に、学んだ内容を復習してください。",
+          "このレビュー画面で、文字列、関数、比較演算子などの扱い方を復習します。"
+        ]
+      },
+      "quiz-python-basics": {
+        "title": "Python基礎クイズ",
+        "intro": [
+          "このクイズでPython基礎の理解度を試してください。"
+        ]
+      },
+      "lecture-python-installation": {
+        "title": "Pythonのインストールとローカルでのコード実行",
+        "intro": [
+          "これらのレッスンで、ローカルデバイスにPythonをインストールし、コードを実行する方法を学びます。"
+        ]
+      },
+      "review-python-installation": {
+        "title": "Pythonインストールレビュー",
+        "intro": [
+          "Pythonをローカルで使うクイズを受ける前に、レッスンで学んだ内容を復習してください。"
+        ]
+      },
+      "quiz-python-installation": {
+        "title": "Pythonインストールクイズ",
+        "intro": [
+          "このクイズでPythonのローカルインストールについての理解度を試してください。"
+        ]
+      },
+      "lecture-working-with-loops-and-sequences": {
+        "title": "ループとシーケンスの操作",
+        "intro": [
+          "これらのレッスンでループとシーケンスの操作について学びます。"
+        ]
+      },
+      "workshop-pin-extractor": {
+        "title": "ピン抽出器を作成する",
+        "intro": [
+          "このワークショップでは、詩に隠された秘密のピンを抽出する関数を作成します。"
+        ]
+      },
+      "lab-number-pattern-generator": {
+        "title": "数字パターンジェネレーターを作成する",
+        "intro": ["このラボでは、数字パターンジェネレーターを作成します。"]
+      },
+      "review-loops-and-sequences": {
+        "title": "ループとシーケンスレビュー",
+        "intro": [
+          "ループとシーケンスのクイズを受ける前に、学んだ内容を復習してください。",
+          "このページを開いて、ループ、リスト、タプル、およびそれらの一般的なメソッドに関する概念を復習します。"
+        ]
+      },
+      "quiz-loops-and-sequences": {
+        "title": "ループとシーケンスクイズ",
+        "intro": [
+          "このクイズでPythonのループとシーケンスの理解度を試してください。"
+        ]
+      },
+      "lecture-working-with-dictionaries-and-sets": {
+        "title": "辞書とセットの操作",
+        "intro": [
+          "これらのレッスンで辞書とセットの操作について学びます。"
+        ]
+      },
+      "lecture-working-with-modules": {
+        "title": "モジュールの操作",
+        "intro": ["これらのレッスンでモジュールの操作について学びましょう。"]
+      },
+      "workshop-medical-data-validator": {
+        "title": "医療データバリデーターを作成する",
+        "intro": [
+          "このワークショップでは、辞書とセットを使って医療データのコレクションを検証する練習をします。"
+        ]
+      },
+      "review-dictionaries-and-sets": {
+        "title": "辞書とセットの復習",
+        "intro": [
+          "辞書とセットのクイズを受ける前に、学んだ内容を復習してください。",
+          "このページを開いて、辞書、セット、モジュールのインポートに関する概念を復習しましょう。"
+        ]
+      },
+      "quiz-dictionaries-and-sets": {
+        "title": "辞書とセットのクイズ",
+        "intro": [
+          "このクイズでPythonの辞書とセットについて学んだことを試してください。"
+        ]
+      },
+      "lab-user-configuration-manager": {
+        "title": "ユーザー設定マネージャーを作成する",
+        "intro": [
+          "このラボでは、Pythonの辞書を使った操作を練習します。"
+        ]
+      },
+      "lecture-understanding-error-handling": {
+        "title": "エラー処理の理解",
+        "intro": [
+          "これらのレッスンでPythonのエラー処理について学びます。さまざまなエラーの種類、良いデバッグの方法、例外とは何か、それらの処理方法を学びます。"
+        ]
+      },
+      "lab-isbn-validator": {
+        "title": "ISBNバリデーターのデバッグ",
+        "intro": [
+          "このラボでは、バグのあるアプリから始めて、バグをデバッグして修正し、正常に動作するようにします。"
+        ]
+      },
+      "review-error-handling": {
+        "title": "エラー処理の復習",
+        "intro": [
+          "エラー処理のクイズを受ける前に、学んだ内容を復習してください。"
+        ]
+      },
+      "quiz-error-handling": {
+        "title": "エラー処理のクイズ",
+        "intro": [
+          "このクイズでPythonのエラー処理について学んだことを試してください。"
+        ]
+      },
+      "lecture-classes-and-objects": {
+        "title": "クラスとオブジェクト",
+        "intro": ["これらのレッスンでクラスとオブジェクトについて学びましょう。"]
+      },
+      "workshop-musical-instrument-inventory": {
+        "title": "楽器在庫管理を作成する",
+        "intro": [
+          "このワークショップでは、Pythonのクラス、オブジェクト、メソッドについて学びながら、簡単な楽器在庫管理を作成します。"
+        ]
+      },
+      "lab-planet-class": {
+        "title": "惑星クラスを作成する",
+        "intro": [
+          "このラボでは、惑星を表すクラスを作成します。"
+        ]
+      },
+      "workshop-email-simulator": {
+        "title": "メールシミュレーターを作成する",
+        "intro": [
+          "このワークショップでは、クラスとオブジェクトを実装し、異なるユーザー間でメールの送受信や管理をシミュレートするメールシミュレーターを作成します。"
+        ]
+      },
+      "review-classes-and-objects": {
+        "title": "クラスとオブジェクトの復習",
+        "intro": [
+          "クラスとオブジェクトのクイズを受ける前に、学んだ内容を復習してください。",
+          "このページを開いて、クラスの仕組み、オブジェクト、メソッド、属性、特殊メソッドなどの概念を復習しましょう。"
+        ]
+      },
+      "quiz-classes-and-objects": {
+        "title": "クラスとオブジェクトのクイズ",
+        "intro": [
+          "このクイズでPythonのクラスとオブジェクトについて学んだことを試してください。"
+        ]
+      },
+      "lab-budget-app": {
+        "title": "予算アプリを作成する",
+        "intro": [
+          "このラボでは、予算アプリを作成し、そのクラスとメソッドの作成を練習します。"
+        ]
+      },
+      "lecture-understanding-object-oriented-programming-and-encapsulation": {
+        "title": "オブジェクト指向プログラミングとカプセル化の理解",
+        "intro": [
+          "これらのレッスンでオブジェクト指向プログラミングとカプセル化の理解を深めましょう。"
+        ]
+      },
+      "workshop-salary-tracker": {
+        "title": "給与トラッカーを作成する",
+        "intro": [
+          "このワークショップでは、カプセル化、プロパティ、その他のOOP概念を使って従業員の給与追跡システムを作成します。"
+        ]
+      },
+      "lab-game-character-stats": {
+        "title": "ゲームキャラクターのステータストラッカーを作成する",
+        "intro": [
+          "このラボでは、オブジェクト指向プログラミングを使って異なるステータスを持つゲームキャラクターを作成します。"
+        ]
+      },
+      "lecture-understanding-inheritance-and-polymorphism": {
+        "title": "継承とポリモーフィズムの理解",
+        "intro": [
+          "これらのレッスンで継承とポリモーフィズムの理解を深めましょう。"
+        ]
+      },
+      "workshop-media-catalogue": {
+        "title": "メディアカタログを作成する",
+        "intro": [
+          "このワークショップでは、オブジェクト指向プログラミングの原則を使ってメディアカタログアプリケーションを作成します。"
+        ]
+      },
+      "lecture-understanding-abstraction": {
+        "title": "抽象化の理解",
+        "intro": ["これらのレッスンで抽象化の理解を深めましょう。"]
+      },
+      "workshop-discount-calculator": {
+        "title": "割引計算機を作成する",
+        "intro": [
+          "このワークショップでは、抽象基底クラスを使って柔軟な割引価格計算機を作成し、コアロジックを変更せずに複数の割引アルゴリズムを切り替えて適用できるようにします。"
+        ]
+      },
+      "lab-player-interface": {
+        "title": "プレイヤーインターフェースを作成する",
+        "intro": [
+          "このラボでは、<code>abc</code>モジュールを使ってプレイヤーインターフェースを作成します。"
+        ]
+      },
+      "review-object-oriented-programming": {
+        "title": "オブジェクト指向プログラミングの復習",
+        "intro": [
+          "オブジェクト指向プログラミングのクイズを受ける前に、学んだ内容を復習してください。"
+        ]
+      },
+      "quiz-object-oriented-programming": {
+        "title": "オブジェクト指向プログラミングのクイズ",
+        "intro": [
+          "このクイズでPythonのオブジェクト指向プログラミングについて学んだことを試してください。"
+        ]
+      },
+      "lab-polygon-area-calculator": {
+        "title": "多角形面積計算機を作成する",
+        "intro": [
+          "このラボでは、オブジェクト指向プログラミングを使って正方形や長方形などの多角形の面積を計算します。"
+        ]
+      },
+      "review-python": {
+        "title": "Pythonプログラミング基礎の復習",
+        "intro": ["今後の試験に備えてPythonの概念を復習しましょう。"]
+      }
+    }
   },
   "algorithms-and-data-structure": {
     "title": "アルゴリズムとデータ構造認定",
