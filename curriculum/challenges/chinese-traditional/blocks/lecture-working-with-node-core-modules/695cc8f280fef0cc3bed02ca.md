@@ -61,7 +61,7 @@ console.log(path.extname(__filename)); // .js
 console.log(path.extname('text-files/text1.txt')); // .txt
 ```
 
-`join()` 方法會將你傳入的所有路徑段連接成一個乾淨且標準化的路徑。 
+`join()` 方法會將你傳入的所有路徑段連接成一個乾淨且標準化的路徑。
 
 如果你想合併不同資料夾中相關的檔案，以便一起處理，這可能會很有用：
 
@@ -79,7 +79,7 @@ const wrongPath = path.join("/src//", "assets", "text-files");
 console.log(wrongPath); // /src/assets/text-files
 ```
 
-`resolve()` 方法將一連串的路徑片段轉換成絕對路徑。它從你目前的工作目錄開始，並產生一個指向裝置上精確位置的完整路徑：
+`resolve()` 方法會將一連串的路徑片段轉換成絕對路徑。它從右到左處理這些片段，直到構建出一個絕對路徑。如果到達開頭仍未構建出絕對路徑，則會使用目前的工作目錄：
 
 ```js
 const absolutePath = path.resolve("assets", "src", "text-files");
@@ -87,7 +87,7 @@ console.log(absolutePath);
 // /Users/user/Desktop/fCC/script-code/node/node-path/assets/src/text-files
 ```
 
-`join()` 和 `resolve()` 的差別在於 `join()` 會創建相對路徑，而 `resolve()` 則會傳回絕對路徑。
+與會連接並標準化路徑片段且可能傳回相對或絕對路徑的 `join()` 不同，`resolve()` 永遠傳回絕對路徑。
 
 最後，還有 `parse()` 和 `format()` 方法。
 

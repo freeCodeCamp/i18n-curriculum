@@ -1221,7 +1221,7 @@
       "lecture-understanding-the-command-line-and-working-with-bash": {
         "title": "명령줄 이해와 Bash 작업",
         "intro": [
-          "이 수업들에서 명령줄과 Bash 작업에 대해 배우세요."
+          "이 수업에서 명령줄과 Bash 사용법을 배우세요."
         ]
       },
       "workshop-bash-boilerplate": {
@@ -1515,6 +1515,12 @@
         "title": "직원 프로필 생성기 만들기",
         "intro": [
           "이 워크숍에서 형식화된 직원 배지를 생성하고 직원 코드를 분석하는 도구를 만들어 Python 문자열 조작 기초를 연습하세요."
+        ]
+      },
+      "workshop-employee-profile-validator": {
+        "title": "직원 프로필 검증기 만들기",
+        "intro": [
+          "이 워크숍에서는 Python 문자열 메서드를 사용해 직원 프로필 데이터를 검증하고 형식을 맞추는 방법을 배우세요."
         ]
       },
       "lecture-numbers-and-mathematical-operations": {
@@ -6478,6 +6484,12 @@
           "이 워크숍에서는 포맷된 직원 배지를 생성하고 직원 코드를 분석하는 도구를 만들어 Python 문자열 조작 기본을 연습합니다."
         ]
       },
+      "workshop-employee-profile-validator": {
+        "title": "직원 프로필 검증기 만들기",
+        "intro": [
+          "이 워크숍에서는 Python 문자열 메서드를 사용해 직원 프로필 데이터를 검증하고 형식을 맞추는 방법을 배우세요."
+        ]
+      },
       "lecture-numbers-and-mathematical-operations": {
         "title": "숫자와 수학 연산",
         "intro": [
@@ -6535,7 +6547,7 @@
       "lab-rpg-character": {
         "title": "RPG 캐릭터 만들기",
         "intro": [
-          "이 실습에서는 RPG 캐릭터를 만들어 기본 Python을 연습하세요."
+          "이 실습에서 RPG 캐릭터를 만들어 기본 Python을 연습하세요."
         ]
       },
       "review-python-basics": {
@@ -7006,7 +7018,7 @@
       "lecture-understanding-the-command-line-and-working-with-bash": {
         "title": "명령줄 이해와 배시 사용하기",
         "intro": [
-          "이 수업들에서 명령줄과 배시 사용법을 배우세요."
+          "이 수업에서 명령줄과 Bash 사용법을 배우세요."
         ]
       },
       "workshop-bash-boilerplate": {
@@ -10406,6 +10418,359 @@
     "enable-cookies": "시작하기 전에 타사 쿠키를 활성화해야 합니다.",
     "english-only": "이 섹션의 과정들은 영어로만 제공됩니다. 현재 제목과 소개만 번역할 수 있으며 수업 자체는 번역하지 못합니다.",
     "exam-english-only": "인증 시험은 현재 영어로만 제공됩니다. 나머지 과정들은 일부 언어로 제공됩니다."
+  },
+  "python-programming-fundamentals": {
+    "title": "Python 프로그래밍 기초",
+    "intro": [
+      "이 과정에서는 Python 프로그래밍의 기초를 배웁니다.",
+      "필수 프로젝트를 완료하고 시험에 합격하면 Python 프로그래밍 기초 인증서를 받으세요."
+    ],
+    "chapters": {
+      "python-programming-fundamentals": "Python 프로그래밍 기초"
+    },
+    "modules": {
+      "python-basics": "Python 기초",
+      "python-installation": "Python 설치",
+      "python-loops-and-sequences": "반복문과 수열",
+      "python-dictionaries-and-sets": "사전과 집합",
+      "lab-user-configuration-manager": "사용자 구성 관리자 만들기",
+      "python-error-handling": "오류 처리",
+      "python-classes-and-objects": "클래스와 객체",
+      "lab-budget-app": "예산 앱 만들기",
+      "python-object-oriented-programming": "객체지향 프로그래밍 (OOP)",
+      "lab-polygon-area-calculator": "다각형 넓이 계산기 만들기",
+      "review-python-programming-fundamentals": "Python 복습"
+    },
+    "blocks": {
+      "workshop-first-python-program": {
+        "title": "첫 Python 프로그램 만들기",
+        "intro": [
+          "이 워크숍에서 첫 Python 프로그램을 만드세요."
+        ]
+      },
+      "lecture-introduction-to-python": {
+        "title": "Python 소개",
+        "intro": [
+          "이 수업에서 Python이 무엇인지와 업계에서의 일반적인 용도를 배우세요."
+        ]
+      },
+      "lecture-understanding-variables-and-data-types": {
+        "title": "변수와 데이터 유형 이해하기",
+        "intro": [
+          "이 수업에서 Python의 변수와 데이터 유형에 대해 배우세요."
+        ]
+      },
+      "workshop-report-card-printer": {
+        "title": "성적표 출력기 만들기",
+        "intro": [
+          "이 워크숍에서 간단한 성적표 데이터를 만들고 출력하며 Python의 원시 데이터 유형을 연습하세요."
+        ]
+      },
+      "lecture-introduction-to-python-strings": {
+        "title": "문자열 소개",
+        "intro": ["이 수업에서 Python의 문자열에 대해 배우세요."]
+      },
+      "workshop-employee-profile-generator": {
+        "title": "직원 프로필 생성기 만들기",
+        "intro": [
+          "이 워크숍에서 Python 문자열 조작 기초를 연습하며 형식화된 직원 배지를 생성하고 직원 코드를 분석하는 도구를 만드세요."
+        ]
+      },
+      "workshop-employee-profile-validator": {
+        "title": "직원 프로필 검증기 만들기",
+        "intro": [
+          "이 워크숍에서는 Python 문자열 메서드를 사용해 직원 프로필 데이터를 검증하고 형식을 맞추는 방법을 배우세요."
+        ]
+      },
+      "lecture-numbers-and-mathematical-operations": {
+        "title": "숫자와 수학 연산",
+        "intro": [
+          "이 수업에서 Python의 숫자와 수학 연산에 대해 배우세요."
+        ]
+      },
+      "workshop-bill-splitter": {
+        "title": "계산서 분할기 만들기",
+        "intro": [
+          "이 워크숍에서 Python의 숫자와 수학 연산을 연습하기 위해 계산서 분할기를 만드세요."
+        ]
+      },
+      "lecture-booleans-and-conditionals": {
+        "title": "불리언과 조건문",
+        "intro": [
+          "이 수업에서 Python의 불리언과 조건문에 대해 배우세요."
+        ]
+      },
+      "workshop-movie-ticket-booking-calculator": {
+        "title": "영화 티켓 예약 계산기 만들기",
+        "intro": [
+          "이 워크숍에서 불리언과 조건문을 사용해 영화 티켓 예약 계산기를 만드세요."
+        ]
+      },
+      "lab-travel-weather-planner": {
+        "title": "여행 날씨 계획기 만들기",
+        "intro": [
+          "이 실습에서 조건문을 사용해 여행 날씨 계획기를 만드세요."
+        ]
+      },
+      "lecture-understanding-functions-and-scope": {
+        "title": "함수와 범위 이해하기",
+        "intro": [
+          "이 수업에서 Python의 함수와 범위에 대해 배우세요."
+        ]
+      },
+      "workshop-kitchen-inventory-tracker": {
+        "title": "주방 재고 추적기 만들기",
+        "intro": [
+          "이 워크숍에서 함수와 범위를 사용해 주방 재고 추적기를 만드세요."
+        ]
+      },
+      "lab-discount-calculator": {
+        "title": "할인 적용 함수 만들기",
+        "intro": [
+          "이 실습에서 가격에 할인을 적용하는 계산기를 만들어 기본 Python을 연습하세요."
+        ]
+      },
+      "workshop-caesar-cipher": {
+        "title": "시저 암호 만들기",
+        "intro": [
+          "이 워크숍에서 문자열, 조건문, 함수 등 기본 Python 개념을 사용해 시저 암호를 만드세요."
+        ]
+      },
+      "lab-rpg-character": {
+        "title": "RPG 캐릭터 만들기",
+        "intro": [
+          "이 실습에서 RPG 캐릭터를 만들어 기본 Python을 연습하세요."
+        ]
+      },
+      "review-python-basics": {
+        "title": "Python 기초 복습",
+        "intro": [
+          "Python 기초 퀴즈 전에 배운 내용을 복습하세요.",
+          "이 복습 페이지에서 문자열, 함수, 비교 연산자 등을 복습하세요."
+        ]
+      },
+      "quiz-python-basics": {
+        "title": "Python 기초 퀴즈",
+        "intro": [
+          "이 퀴즈로 Python 기초에 대해 배운 내용을 테스트하세요."
+        ]
+      },
+      "lecture-python-installation": {
+        "title": "Python 설치 및 로컬에서 코드 실행하기",
+        "intro": [
+          "이 수업에서 로컬 장치에 Python을 설치하고 코드를 실행하는 방법을 배우세요."
+        ]
+      },
+      "review-python-installation": {
+        "title": "Python 설치 복습",
+        "intro": [
+          "로컬에서 Python 작업에 대한 퀴즈 전에 수업 내용을 복습하세요."
+        ]
+      },
+      "quiz-python-installation": {
+        "title": "Python 설치 퀴즈",
+        "intro": [
+          "이 퀴즈로 로컬에 Python 설치에 대해 배운 내용을 테스트하세요."
+        ]
+      },
+      "lecture-working-with-loops-and-sequences": {
+        "title": "반복문과 수열 작업하기",
+        "intro": [
+          "이 수업에서 반복문과 수열 작업에 대해 배우세요."
+        ]
+      },
+      "workshop-pin-extractor": {
+        "title": "핀 추출기 만들기",
+        "intro": [
+          "이 워크숍에서 시에 숨겨진 비밀 핀을 추출하는 함수를 만드세요."
+        ]
+      },
+      "lab-number-pattern-generator": {
+        "title": "숫자 패턴 생성기 만들기",
+        "intro": ["이 실습에서 숫자 패턴 생성기를 만드세요."]
+      },
+      "review-loops-and-sequences": {
+        "title": "반복문과 수열 복습",
+        "intro": [
+          "반복문과 수열 퀴즈 전에 배운 내용을 복습하세요.",
+          "이 페이지를 열어 반복문, 리스트, 튜플과 그 일반 메서드 개념을 복습하세요."
+        ]
+      },
+      "quiz-loops-and-sequences": {
+        "title": "반복문과 수열 퀴즈",
+        "intro": [
+          "이 퀴즈로 Python의 반복문과 수열에 대해 배운 내용을 테스트하세요."
+        ]
+      },
+      "lecture-working-with-dictionaries-and-sets": {
+        "title": "사전과 집합 작업하기",
+        "intro": [
+          "이 수업에서 사전과 집합 작업에 대해 배우세요."
+        ]
+      },
+      "lecture-working-with-modules": {
+        "title": "모듈 작업하기",
+        "intro": ["이 수업에서 모듈 작업에 대해 배우세요."]
+      },
+      "workshop-medical-data-validator": {
+        "title": "의료 데이터 검증기 만들기",
+        "intro": [
+          "이 워크숍에서는 의료 데이터 모음을 검증하면서 딕셔너리와 세트를 다루는 연습을 하세요."
+        ]
+      },
+      "review-dictionaries-and-sets": {
+        "title": "딕셔너리와 세트 복습",
+        "intro": [
+          "딕셔너리와 세트에 대해 퀴즈를 보기 전에 배운 내용을 복습하세요.",
+          "이 페이지를 열어 딕셔너리, 세트, 모듈 가져오기 개념을 복습하세요."
+        ]
+      },
+      "quiz-dictionaries-and-sets": {
+        "title": "딕셔너리와 세트 퀴즈",
+        "intro": [
+          "이 퀴즈로 Python의 딕셔너리와 세트에 대해 배운 내용을 테스트하세요."
+        ]
+      },
+      "lab-user-configuration-manager": {
+        "title": "사용자 구성 관리자 만들기",
+        "intro": [
+          "이 실습에서 Python의 딕셔너리를 다루는 연습을 하세요."
+        ]
+      },
+      "lecture-understanding-error-handling": {
+        "title": "오류 처리 이해하기",
+        "intro": [
+          "이 수업에서 Python의 오류 처리에 대해 배우세요. 다양한 오류 유형, 좋은 디버깅 방법, 예외가 무엇인지, 그리고 예외를 처리하는 방법을 배웁니다."
+        ]
+      },
+      "lab-isbn-validator": {
+        "title": "ISBN 검증기 디버그하기",
+        "intro": [
+          "이 실습에서는 버그가 있는 애플리케이션으로 시작해 버그를 디버그하고 수정하여 제대로 작동하게 만드세요."
+        ]
+      },
+      "review-error-handling": {
+        "title": "오류 처리 복습",
+        "intro": [
+          "오류 처리에 대해 퀴즈를 보기 전에 배운 내용을 복습하세요."
+        ]
+      },
+      "quiz-error-handling": {
+        "title": "오류 처리 퀴즈",
+        "intro": [
+          "이 퀴즈로 Python의 오류 처리에 대해 배운 내용을 테스트하세요."
+        ]
+      },
+      "lecture-classes-and-objects": {
+        "title": "클래스와 객체",
+        "intro": ["이 수업에서 클래스와 객체에 대해 배우세요."]
+      },
+      "workshop-musical-instrument-inventory": {
+        "title": "악기 재고 만들기",
+        "intro": [
+          "이 워크숍에서는 간단한 악기 재고를 만들어 Python의 클래스, 객체, 메서드에 대해 배우세요."
+        ]
+      },
+      "lab-planet-class": {
+        "title": "행성 클래스 만들기",
+        "intro": [
+          "이 실습에서 행성을 나타내는 클래스를 만드세요."
+        ]
+      },
+      "workshop-email-simulator": {
+        "title": "이메일 시뮬레이터 만들기",
+        "intro": [
+          "이 워크숍에서는 서로 다른 사용자 간 이메일을 보내고 받고 관리하는 이메일 시뮬레이터를 만들어 클래스와 객체를 구현하세요."
+        ]
+      },
+      "review-classes-and-objects": {
+        "title": "클래스와 객체 복습",
+        "intro": [
+          "클래스와 객체에 대해 퀴즈를 보기 전에 배운 내용을 복습하세요.",
+          "이 페이지를 열어 클래스 작동 방식, 객체, 메서드, 속성, 특수 메서드 등 개념을 복습하세요."
+        ]
+      },
+      "quiz-classes-and-objects": {
+        "title": "클래스와 객체 퀴즈",
+        "intro": [
+          "이 퀴즈로 Python의 클래스와 객체에 대해 배운 내용을 테스트하세요."
+        ]
+      },
+      "lab-budget-app": {
+        "title": "예산 앱 만들기",
+        "intro": [
+          "이 실습에서 예산 앱을 만들고 해당 클래스와 메서드를 만드는 연습을 하세요."
+        ]
+      },
+      "lecture-understanding-object-oriented-programming-and-encapsulation": {
+        "title": "객체 지향 프로그래밍과 캡슐화 이해하기",
+        "intro": [
+          "이 수업에서 객체 지향 프로그래밍과 캡슐화에 대해 배우세요."
+        ]
+      },
+      "workshop-salary-tracker": {
+        "title": "급여 추적기 만들기",
+        "intro": [
+          "이 워크숍에서는 캡슐화, 프로퍼티, 기타 OOP 개념을 연습하며 직원 급여 추적 시스템을 만드세요."
+        ]
+      },
+      "lab-game-character-stats": {
+        "title": "게임 캐릭터 능력치 추적기 만들기",
+        "intro": [
+          "이 실습에서 객체 지향 프로그래밍을 사용해 다양한 능력치를 가진 게임 캐릭터를 만드세요."
+        ]
+      },
+      "lecture-understanding-inheritance-and-polymorphism": {
+        "title": "상속과 다형성 이해하기",
+        "intro": [
+          "이 수업에서 상속과 다형성에 대해 배우세요."
+        ]
+      },
+      "workshop-media-catalogue": {
+        "title": "미디어 카탈로그 만들기",
+        "intro": [
+          "이 워크숍에서는 객체 지향 프로그래밍 원칙을 사용해 미디어 카탈로그 애플리케이션을 만드세요."
+        ]
+      },
+      "lecture-understanding-abstraction": {
+        "title": "추상화 이해하기",
+        "intro": ["이 수업에서 추상화에 대해 배우세요."]
+      },
+      "workshop-discount-calculator": {
+        "title": "할인 계산기 만들기",
+        "intro": [
+          "이 워크숍에서는 추상 기본 클래스를 통해 유연한 할인 가격 계산기를 만들어 핵심 로직을 수정하지 않고 여러 할인 알고리즘을 교체하며 적용할 수 있게 하세요."
+        ]
+      },
+      "lab-player-interface": {
+        "title": "플레이어 인터페이스 만들기",
+        "intro": [
+          "이 실습에서 <code>abc</code> 모듈을 사용해 플레이어 인터페이스를 만드세요."
+        ]
+      },
+      "review-object-oriented-programming": {
+        "title": "객체 지향 프로그래밍 복습",
+        "intro": [
+          "객체 지향 프로그래밍에 대해 퀴즈를 보기 전에 배운 내용을 복습하세요."
+        ]
+      },
+      "quiz-object-oriented-programming": {
+        "title": "객체 지향 프로그래밍 퀴즈",
+        "intro": [
+          "이 퀴즈로 Python의 객체 지향 프로그래밍에 대해 배운 내용을 테스트하세요."
+        ]
+      },
+      "lab-polygon-area-calculator": {
+        "title": "다각형 면적 계산기 만들기",
+        "intro": [
+          "이 실습에서 객체 지향 프로그래밍을 사용해 정사각형, 직사각형 같은 다양한 다각형의 면적을 계산하세요."
+        ]
+      },
+      "review-python": {
+        "title": "Python 프로그래밍 기초 복습",
+        "intro": ["다가오는 시험을 준비하기 위해 Python 개념을 복습하세요."]
+      }
+    }
   },
   "algorithms-and-data-structure": {
     "title": "알고리즘과 자료 구조 인증서",

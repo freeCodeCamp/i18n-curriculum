@@ -9,28 +9,29 @@ dashedName: build-a-travel-weather-planner
 
 Für dieses Labor verwenden Sie bedingte Anweisungen, um zu bestimmen, ob das Pendeln möglich ist, basierend auf dem Wetter, der zu reisenden Entfernung und der Verfügbarkeit eines Fahrzeugs.
 
-**Ziel:** Erfüllen Sie die unten stehenden User Stories und bestehen Sie alle Tests, um das Labor abzuschließen.
+**Ziel:** Erfüllen Sie die untenstehenden User Stories und bestehen Sie alle Tests, um das Labor abzuschließen.
 
 **User Stories:**
 
 1. Sie sollten die folgenden Variablen erstellen:
    * `distance_mi` (eine Zahl, die die zu reisende Entfernung in Meilen darstellt)
-   * `is_raining` (ein Boolean, der darstellt, ob der Benutzer gerade Regenwetter hat)
-   * `has_bike` (ein Boolean, der darstellt, ob der Benutzer ein Fahrrad besitzt)
-   * `has_car` (ein Boolean, der darstellt, ob der Benutzer ein Auto besitzt)
-   * `has_ride_share_app` (ein Boolean, der darstellt, ob der Benutzer eine App hat, mit der er eine Mitfahrgelegenheit anfragen kann)
-1. Sie sollten bedingte Anweisungen verwenden, um zu bestimmen, ob das Pendeln möglich ist, basierend auf den Werten dieser Variablen.
-1. Sie sollten `if`, `elif` und `else` Anweisungen verwenden, um die Entfernungsbereiche aufsteigend zu bewerten.
+   * `is_raining` (ein Boolean, der angibt, ob der Benutzer gerade Regenwetter hat)
+   * `has_bike` (ein Boolean, der angibt, ob der Benutzer ein Fahrrad besitzt)
+   * `has_car` (ein Boolean, der angibt, ob der Benutzer ein Auto besitzt)
+   * `has_ride_share_app` (ein Boolean, der angibt, ob der Benutzer eine App hat, mit der er eine Fahrt anfragen kann)
+1. Sie sollten bedingte Anweisungen verwenden, um zu bestimmen, ob das Pendeln basierend auf den Werten dieser Variablen möglich ist.
+1. Sie sollten `if`, `elif` und `else` Anweisungen verwenden, um die Entfernungs-Kategorien in aufsteigender Reihenfolge zu bewerten.
+1. Sie sollten mindestens einen Boolean-Operator (`and`, `or` oder `not`) in Ihrem Code verwenden.
 1. Wenn `distance_mi` ein falsy-Wert ist:
    * Sie sollten `False` ausgeben.
 1. Wenn die Entfernung **kleiner oder gleich 1 Meile** ist:
-   * Sie sollten `True` nur ausgeben, wenn es **nicht regnet**.
+   * Sie sollten nur dann `True` ausgeben, wenn es **nicht regnet**.
    * Andernfalls sollten Sie `False` ausgeben.
 1. Wenn die Entfernung **größer als 1 Meile und kleiner oder gleich 6 Meilen** ist:
-   * Sie sollten `True` nur ausgeben, wenn die Person ein Fahrrad hat **und** es nicht regnet.
+   * Sie sollten nur dann `True` ausgeben, wenn die Person ein Fahrrad hat **und** es nicht regnet.
    * Andernfalls sollten Sie `False` ausgeben.
 1. Wenn die Entfernung **größer als 6 Meilen** ist:
-   * Sie sollten `True` ausgeben, wenn die Person ein Auto hat **oder** eine Mitfahr-App besitzt.
+   * Sie sollten `True` ausgeben, wenn die Person ein Auto hat **oder** eine Ride-Share-App besitzt.
    * Andernfalls sollten Sie `False` ausgeben.
 
 # --hints--
@@ -44,7 +45,7 @@ Sie sollten eine Variable namens `distance_mi` haben.
 Sie sollten Ihrer `distance_mi` Variable eine Zahl zuweisen.
 
 ```js
-({ test: () => runPython(`assert isinstance(distance_mi, (int, float))`) })
+({ test: () => runPython(`assert isinstance(distance_mi, (int, float)) and not isinstance(distance_mi, bool)`) })
 ```
 
 Sie sollten eine Variable namens `is_raining` haben.
@@ -135,7 +136,8 @@ tree = ast.parse(_code)
 
 bool_ops = [
     node for node in ast.walk(tree)
-    if isinstance(node, (ast.BoolOp, ast.UnaryOp))
+    if isinstance(node, ast.BoolOp)
+    or (isinstance(node, ast.UnaryOp) and isinstance(node.op, ast.Not))
 ]
 
 assert len(bool_ops) >= 1
@@ -533,6 +535,54 @@ run_case(
 `) })
 ```
 
+Wenn die Entfernung zwischen `1` Meile (ausgeschlossen) und `6` Meilen (eingeschlossen) liegt, ein Fahrrad verfügbar ist und es regnet, sollte das Programm `False` ausgeben.
+
+```js
+({ test: () => runPython(`
+import ast, io, contextlib
+
+VARIABLES = {
+    "distance_mi",
+    "is_raining",
+    "has_bike",
+    "has_car",
+    "has_ride_share_app"
+}
+
+def run_case(env, expected):
+    tree = ast.parse(_code)
+
+    tree.body = [
+        node for node in tree.body
+        if not (
+            isinstance(node, ast.Assign)
+            and isinstance(node.targets[0], ast.Name)
+            and node.targets[0].id in VARIABLES
+        )
+    ]
+
+    clean_code = compile(tree, "<ast>", "exec")
+
+    buffer = io.StringIO()
+    with contextlib.redirect_stdout(buffer):
+        exec(clean_code, env)
+
+    assert buffer.getvalue().strip() == expected
+
+
+run_case(
+    {
+        "distance_mi": 2,
+        "is_raining": True,
+        "has_bike": True,
+        "has_car": False,
+        "has_ride_share_app": False
+    },
+    "False"
+)
+`) })
+```
+
 Wenn die Entfernung größer als `6` Meilen ist und eine Mitfahr-App verfügbar ist, sollte das Programm `True` ausgeben.
 
 ```js
@@ -572,6 +622,17 @@ run_case(
     {
         "distance_mi": 12,
         "is_raining": False,
+        "has_bike": False,
+        "has_car": False,
+        "has_ride_share_app": True
+    },
+    "True"
+)
+
+run_case(
+    {
+        "distance_mi": 12,
+        "is_raining": True,
         "has_bike": False,
         "has_car": False,
         "has_ride_share_app": True
@@ -626,10 +687,21 @@ run_case(
     },
     "True"
 )
+
+run_case(
+    {
+        "distance_mi": 12,
+        "is_raining": True,
+        "has_bike": False,
+        "has_car": True,
+        "has_ride_share_app": False
+    },
+    "True"
+)
 `) })
 ```
 
-Wenn die Entfernung größer als `6` Meilen ist und weder ein Auto noch eine Mitfahr-App verfügbar sind, sollte das Programm `False` ausgeben.
+Wenn die Entfernung größer als `6` Meilen ist und weder ein Auto noch eine Ride-Share-App verfügbar sind, sollte das Programm `False` ausgeben.
 
 ```js
 ({ test: () => runPython(`

@@ -79,7 +79,7 @@ const wrongPath = path.join("/src//", "assets", "text-files");
 console.log(wrongPath); // /src/assets/text-files
 ```
 
-تحول طريقة `resolve()` متتالية من مقاطع المسار إلى مسار مطلق. تبدأ من مجلد العمل الحالي وتنتج مسارًا كاملاً يشير إلى الموقع الدقيق على الجهاز:
+تُحوّل الطريقة `resolve()` متتالية من مقاطع المسار إلى مسار مطلق. تعالج المقاطع من اليمين إلى اليسار حتى تُكوّن مسارًا مطلقًا. إذا وصلت إلى البداية دون تكوين مسار مطلق، تستخدم دليل العمل الحالي:
 
 ```js
 const absolutePath = path.resolve("assets", "src", "text-files");
@@ -87,7 +87,7 @@ console.log(absolutePath);
 // /Users/user/Desktop/fCC/script-code/node/node-path/assets/src/text-files
 ```
 
-الفرق بين `join()` و`resolve()` هو أن `join()` ينشئ مسارًا نسبيًا، بينما `resolve()` يرجع مسارًا مطلقًا.
+على عكس `join()` التي تجمع وتطبع مقاطع المسار ويمكن أن تُرجع مسارًا نسبيًا أو مطلقًا، تُرجع `resolve()` دائمًا مسارًا مطلقًا.
 
 أخيرًا، هناك طريقتا `parse()` و`format()`.
 

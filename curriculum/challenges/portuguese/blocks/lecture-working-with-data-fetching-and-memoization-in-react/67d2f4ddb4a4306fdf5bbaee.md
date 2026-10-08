@@ -15,6 +15,8 @@ Isso gera a necessidade de otimizar seu app React para melhor desempenho, minimi
 
 React resolve esse problema com um processo chamado memoization, uma técnica que armazena em cache valores e funções para evitar recálculos desnecessários, para que seu app possa ser mais rápido e responsivo.
 
+## O que é memoização?
+
 Por definição, memoization é uma técnica de otimização na qual o resultado de chamadas de função caras é armazenado em cache (lembrado) com base em argumentos específicos. Quando os mesmos argumentos são fornecidos novamente, o resultado em cache é retornado em vez de recalcular a função.
 
 O processo de memoização acontece desta forma:
@@ -27,7 +29,9 @@ O processo de memoização acontece desta forma:
 
 - Se não existir, calcule o resultado, armazene-o no cache e então retorne-o.
 
-Para melhorar a experiência do desenvolvedor com memoização, o React fornece três ferramentas – `React.memo` (ou `memo`), `useMemo` e `useCallback`. 
+## Ferramentas de memoização no React
+
+Para melhorar a experiência do desenvolvedor com memoização, o React fornece três ferramentas – `React.memo` (ou `memo`), `useMemo` e `useCallback`.
 
 Como você pode imaginar, tanto `useMemo` e `useCallback` são hooks, mas `React.memo` é um wrapper de componente, um componente de ordem superior (HOC).
 
@@ -36,6 +40,8 @@ Na próxima lição, vamos ver como o hook `useCallback` e `React.memo` funciona
 `useMemo` permite que você memorize valores computados enquanto `useCallback` faz o mesmo para referências de função.
 
 Se você está se perguntando o que são valores computados e referências de função, valores computados referem-se ao resultado da execução de uma função, enquanto referências de função são os ponteiros para funções – o objeto da função na memória.
+
+## A sintaxe do hook `useMemo`
 
 Vamos ver como usar o hook `useMemo` primeiro. Aqui está a sintaxe básica do hook `useMemo`:
 
@@ -49,6 +55,8 @@ const memoizedValue = useMemo(
 ```
 
 Você pode ver que tudo o que é necessário é envolver o hook `useMemo` em torno da função.
+
+## Exemplo: o componente `ExpensiveSquare`
 
 Este componente `ExpensiveSquare` receberá uma prop `num` que ele usará para calcular o quadrado:
 
@@ -97,6 +105,8 @@ export default App;
 ```
 
 O `timer` no `useEffect`, executando a cada segundo, fará com que a função `calculateSquare` seja executada toda vez que ele rodar, mesmo quando você não aumentar a variável de estado `num`.
+
+## Usando `useMemo` para evitar recálculos
 
 Para resolver esse problema, podemos usar o hook `useMemo` envolvendo a chamada da função nele e especificando a variável `num` como dependência:
 

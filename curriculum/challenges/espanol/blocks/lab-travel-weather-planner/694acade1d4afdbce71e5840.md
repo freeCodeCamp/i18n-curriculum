@@ -1,6 +1,6 @@
 ---
 id: 694acade1d4afdbce71e5840
-title: Build a Travel Weather Planner
+title: Crear un planificador de clima para viajes
 challengeType: 27
 dashedName: build-a-travel-weather-planner
 ---
@@ -11,27 +11,28 @@ Para este laboratorio, usarás sentencias condicionales para determinar si es po
 
 **Objetivo:** Cumplir con las historias de usuario a continuación y pasar todas las pruebas para completar el laboratorio.
 
-**User Stories:**
+**Historias de usuario:**
 
 1. Debes crear las siguientes variables:
    * `distance_mi` (un número que representa la distancia a recorrer en millas)
-   * `is_raining` (un booleano que representa si el usuario está experimentando clima lluvioso actualmente)
+   * `is_raining` (un booleano que representa si el usuario está experimentando lluvia actualmente)
    * `has_bike` (un booleano que representa si el usuario tiene una bicicleta)
    * `has_car` (un booleano que representa si el usuario tiene un coche)
    * `has_ride_share_app` (un booleano que representa si el usuario tiene una app que le permite solicitar un viaje)
-1. Debes usar sentencias condicionales para determinar si es posible el desplazamiento basado en los valores de estas variables.
+1. Debes usar sentencias condicionales para determinar si es posible desplazarse según los valores de estas variables.
 1. Debes usar las sentencias `if`, `elif` y `else` para evaluar las categorías de distancia en orden ascendente.
+1. Debes usar al menos un operador booleano (`and`, `or` o `not`) en tu código.
 1. Si `distance_mi` es un valor falso:
-   * Deberías imprimir `False`.
+   * Debes imprimir `False`.
 1. Si la distancia es **menor o igual a 1 milla**:
    * Debes imprimir `True` solo si **no está lloviendo**.
-   * De lo contrario, deberías imprimir `False`.
-1. Si la distancia es **mayor que 1 milla y menor o igual a 6 millas**:
-   * Debes imprimir `True` solo si la persona tiene una bicicleta **y** no está lloviendo.
-   * De lo contrario, deberías imprimir `False`.
+   * De lo contrario, debes imprimir `False`.
+1. Si la distancia es **mayor a 1 milla y menor o igual a 6 millas**:
+   * Debes imprimir `True` solo si la persona tiene bicicleta **y** no está lloviendo.
+   * De lo contrario, debes imprimir `False`.
 1. Si la distancia es **mayor a 6 millas**:
-   * Debes imprimir `True` si la persona tiene un coche **o** tiene una aplicación de viaje compartido.
-   * De lo contrario, deberías imprimir `False`.
+   * Debes imprimir `True` si la persona tiene coche **o** tiene una app para solicitar viaje.
+   * De lo contrario, debes imprimir `False`.
 
 # --hints--
 
@@ -44,7 +45,7 @@ Debes tener una variable llamada `distance_mi`.
 Debes asignar un número a tu variable `distance_mi`.
 
 ```js
-({ test: () => runPython(`assert isinstance(distance_mi, (int, float))`) })
+({ test: () => runPython(`assert isinstance(distance_mi, (int, float)) and not isinstance(distance_mi, bool)`) })
 ```
 
 Debes tener una variable llamada `is_raining`.
@@ -135,7 +136,8 @@ tree = ast.parse(_code)
 
 bool_ops = [
     node for node in ast.walk(tree)
-    if isinstance(node, (ast.BoolOp, ast.UnaryOp))
+    if isinstance(node, ast.BoolOp)
+    or (isinstance(node, ast.UnaryOp) and isinstance(node.op, ast.Not))
 ]
 
 assert len(bool_ops) >= 1
@@ -533,6 +535,54 @@ run_case(
 `) })
 ```
 
+Cuando la distancia está entre `1` milla (excluida) y `6` millas (incluida), hay una bicicleta disponible y está lloviendo, el programa debe imprimir `False`.
+
+```js
+({ test: () => runPython(`
+import ast, io, contextlib
+
+VARIABLES = {
+    "distance_mi",
+    "is_raining",
+    "has_bike",
+    "has_car",
+    "has_ride_share_app"
+}
+
+def run_case(env, expected):
+    tree = ast.parse(_code)
+
+    tree.body = [
+        node for node in tree.body
+        if not (
+            isinstance(node, ast.Assign)
+            and isinstance(node.targets[0], ast.Name)
+            and node.targets[0].id in VARIABLES
+        )
+    ]
+
+    clean_code = compile(tree, "<ast>", "exec")
+
+    buffer = io.StringIO()
+    with contextlib.redirect_stdout(buffer):
+        exec(clean_code, env)
+
+    assert buffer.getvalue().strip() == expected
+
+
+run_case(
+    {
+        "distance_mi": 2,
+        "is_raining": True,
+        "has_bike": True,
+        "has_car": False,
+        "has_ride_share_app": False
+    },
+    "False"
+)
+`) })
+```
+
 Cuando la distancia es mayor a `6` millas y hay una app de viaje compartido disponible, el programa debe imprimir `True`.
 
 ```js
@@ -572,6 +622,17 @@ run_case(
     {
         "distance_mi": 12,
         "is_raining": False,
+        "has_bike": False,
+        "has_car": False,
+        "has_ride_share_app": True
+    },
+    "True"
+)
+
+run_case(
+    {
+        "distance_mi": 12,
+        "is_raining": True,
         "has_bike": False,
         "has_car": False,
         "has_ride_share_app": True
@@ -626,10 +687,21 @@ run_case(
     },
     "True"
 )
+
+run_case(
+    {
+        "distance_mi": 12,
+        "is_raining": True,
+        "has_bike": False,
+        "has_car": True,
+        "has_ride_share_app": False
+    },
+    "True"
+)
 `) })
 ```
 
-Cuando la distancia es mayor a `6` millas y no hay ni un coche ni una app de viaje compartido disponible, el programa debe imprimir `False`.
+Cuando la distancia es mayor a `6` millas y no hay ni coche ni app para solicitar viaje disponible, el programa debe imprimir `False`.
 
 ```js
 ({ test: () => runPython(`

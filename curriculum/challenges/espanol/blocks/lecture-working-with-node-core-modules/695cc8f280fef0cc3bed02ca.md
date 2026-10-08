@@ -61,7 +61,7 @@ También puedes especificar un archivo diferente para devolver la extensión de:
 console.log(path.extname('text-files/text1.txt')); // .txt
 ```
 
-El método `join()` toma todos los segmentos de ruta que pases y los une en una ruta limpia y normalizada. 
+El método `join()` toma todos los segmentos de ruta que pases y los une en una ruta limpia y normalizada.
 
 Esto podría ser útil si quieres combinar archivos relacionados en diferentes carpetas para que puedas trabajar con ellos juntos:
 
@@ -79,7 +79,7 @@ const wrongPath = path.join("/src//", "assets", "text-files");
 console.log(wrongPath); // /src/assets/text-files
 ```
 
-El método `resolve()` convierte una secuencia de segmentos de ruta en una ruta absoluta. Comienza desde tu directorio de trabajo actual y resulta en una ruta completa que apunta a la ubicación exacta en el dispositivo:
+El método `resolve()` convierte una secuencia de segmentos de ruta en una ruta absoluta. Procesa los segmentos de derecha a izquierda hasta construir una ruta absoluta. Si llega al inicio sin construir una ruta absoluta, usa el directorio de trabajo actual:
 
 ```js
 const absolutePath = path.resolve("assets", "src", "text-files");
@@ -87,7 +87,7 @@ console.log(absolutePath);
 // /Users/user/Desktop/fCC/script-code/node/node-path/assets/src/text-files
 ```
 
-La diferencia entre `join()` y `resolve()` es que `join()` crea una ruta relativa, mientras que `resolve()` devuelve una ruta absoluta.
+A diferencia de `join()`, que une y normaliza segmentos de ruta y puede devolver una ruta relativa o absoluta, `resolve()` siempre devuelve una ruta absoluta.
 
 Por último, están los métodos `parse()` y `format()`.
 

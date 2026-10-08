@@ -1221,7 +1221,7 @@
       "lecture-understanding-the-command-line-and-working-with-bash": {
         "title": "理解命令行与 Bash 操作",
         "intro": [
-          "在这些课程中学习命令行和 Bash 的使用。"
+          "在这些课程中了解命令行和使用 Bash。"
         ]
       },
       "workshop-bash-boilerplate": {
@@ -1515,6 +1515,12 @@
         "title": "构建员工评测生成器",
         "intro": [
           "在本工作坊中，你将通过构建一个生成格式化员工徽章并分析员工代码的工具，练习 Python 字串操作基础。"
+        ]
+      },
+      "workshop-employee-profile-validator": {
+        "title": "创建员工资料验证器",
+        "intro": [
+          "在本工作坊中，你将使用 Python 字串方法来验证和格式化员工资料中的数据。"
         ]
       },
       "lecture-numbers-and-mathematical-operations": {
@@ -6478,6 +6484,12 @@
           "在本工作坊中，你将通过创建一个生成格式化员工徽章并分析员工代码的工具来练习 Python 字串操作的基础。"
         ]
       },
+      "workshop-employee-profile-validator": {
+        "title": "创建员工资料验证器",
+        "intro": [
+          "在本工作坊中，你将使用 Python 字串方法来验证和格式化员工资料中的数据。"
+        ]
+      },
       "lecture-numbers-and-mathematical-operations": {
         "title": "数字和数学运算",
         "intro": [
@@ -6535,7 +6547,7 @@
       "lab-rpg-character": {
         "title": "创建一个 RPG 角色",
         "intro": [
-          "在本实验中，你将通过创建一个 RPG 角色来练习基本的 Python。"
+          "在本实验中，你将通过创建一个 RPG 角色来练习基础 Python。"
         ]
       },
       "review-python-basics": {
@@ -7006,7 +7018,7 @@
       "lecture-understanding-the-command-line-and-working-with-bash": {
         "title": "理解命令行和使用 Bash",
         "intro": [
-          "在这些课程中学习命令行和 Bash 的使用。"
+          "在这些课程中了解命令行和使用 Bash。"
         ]
       },
       "workshop-bash-boilerplate": {
@@ -10406,6 +10418,359 @@
     "enable-cookies": "开始之前，你必须启用第三方 cookies。",
     "english-only": "本节课程仅提供英文版本。目前我们只能翻译标题和介绍，课程内容暂未翻译。",
     "exam-english-only": "请注意，认证考试目前仅提供英文版本。其他课程则有部分语言版本。"
+  },
+  "python-programming-fundamentals": {
+    "title": "Python 编程基础",
+    "intro": [
+      "本课程教授 Python 编程的基础知识。",
+      "完成必修项目并通过考试即可获得 Python 编程基础认证。"
+    ],
+    "chapters": {
+      "python-programming-fundamentals": "Python 编程基础"
+    },
+    "modules": {
+      "python-basics": "Python 基础",
+      "python-installation": "安装 Python",
+      "python-loops-and-sequences": "循环和序列",
+      "python-dictionaries-and-sets": "字典和集合",
+      "lab-user-configuration-manager": "创建用户配置管理器",
+      "python-error-handling": "误差处理",
+      "python-classes-and-objects": "类和对象",
+      "lab-budget-app": "创建预算应用",
+      "python-object-oriented-programming": "面向对象编程（OOP）",
+      "lab-polygon-area-calculator": "创建多边形面积计算器",
+      "review-python-programming-fundamentals": "Python 复习"
+    },
+    "blocks": {
+      "workshop-first-python-program": {
+        "title": "创建你的第一个 Python 程序",
+        "intro": [
+          "在本工作坊中，你将创建你的第一个 Python 程序。"
+        ]
+      },
+      "lecture-introduction-to-python": {
+        "title": "Python 入门",
+        "intro": [
+          "在这些课程中，你将了解 Python 是什么以及其在行业中的常见用途。"
+        ]
+      },
+      "lecture-understanding-variables-and-data-types": {
+        "title": "理解变量和数据类型",
+        "intro": [
+          "在这些课程中，你将学习 Python 中的变量和数据类型。"
+        ]
+      },
+      "workshop-report-card-printer": {
+        "title": "创建成绩单打印器",
+        "intro": [
+          "在本工作坊中，你将通过创建和打印简单成绩单的数据来练习使用 Python 的原语数据类型。"
+        ]
+      },
+      "lecture-introduction-to-python-strings": {
+        "title": "字串入门",
+        "intro": ["在这些课程中，你将学习 Python 中的字串。"]
+      },
+      "workshop-employee-profile-generator": {
+        "title": "创建员工资料生成器",
+        "intro": [
+          "在本工作坊中，你将通过创建一个生成格式化员工徽章并分析员工代码的工具，练习 Python 字串操作的基础知识。"
+        ]
+      },
+      "workshop-employee-profile-validator": {
+        "title": "创建员工资料验证器",
+        "intro": [
+          "在本工作坊中，你将使用 Python 字串方法来验证和格式化员工资料中的数据。"
+        ]
+      },
+      "lecture-numbers-and-mathematical-operations": {
+        "title": "数字和数学运算",
+        "intro": [
+          "在这些课程中，你将学习 Python 中的数字和数学运算。"
+        ]
+      },
+      "workshop-bill-splitter": {
+        "title": "创建账单分摊器",
+        "intro": [
+          "在本工作坊中，你将创建一个账单分摊器，练习使用 Python 处理数字和数学运算。"
+        ]
+      },
+      "lecture-booleans-and-conditionals": {
+        "title": "布尔值和条件式",
+        "intro": [
+          "在这些课程中，你将学习 Python 中的布尔值和条件式。"
+        ]
+      },
+      "workshop-movie-ticket-booking-calculator": {
+        "title": "创建电影票预订计算器",
+        "intro": [
+          "在本工作坊中，你将通过创建电影票预订计算器，练习使用 Python 的布尔值和条件语句。"
+        ]
+      },
+      "lab-travel-weather-planner": {
+        "title": "创建旅行天气规划器",
+        "intro": [
+          "在本实验中，你将使用条件式创建一个旅行天气规划器。"
+        ]
+      },
+      "lecture-understanding-functions-and-scope": {
+        "title": "理解函数和作用域",
+        "intro": [
+          "在这些课程中，你将学习 Python 中的函数和作用域。"
+        ]
+      },
+      "workshop-kitchen-inventory-tracker": {
+        "title": "创建厨房库存追踪器",
+        "intro": [
+          "在本工作坊中，你将通过创建厨房库存追踪器，练习使用 Python 的函数和作用域。"
+        ]
+      },
+      "lab-discount-calculator": {
+        "title": "创建应用折扣函数",
+        "intro": [
+          "在本实验中，你将通过创建一个计算器来应用价格折扣，练习基础 Python。"
+        ]
+      },
+      "workshop-caesar-cipher": {
+        "title": "创建凯撒密码",
+        "intro": [
+          "在本工作坊中，你将使用基础 Python 概念如字串、条件式、函数等，创建一个凯撒密码。"
+        ]
+      },
+      "lab-rpg-character": {
+        "title": "创建 RPG 角色",
+        "intro": [
+          "在本实验中，你将通过创建一个 RPG 角色来练习基础 Python。"
+        ]
+      },
+      "review-python-basics": {
+        "title": "Python 基础复习",
+        "intro": [
+          "在进行 Python 基础测验前，你应该复习已学内容。",
+          "在此复习页面中，你将复习字串、函数、比较操作符等内容。"
+        ]
+      },
+      "quiz-python-basics": {
+        "title": "Python 基础测验",
+        "intro": [
+          "通过此测验测试你对 Python 基础的掌握。"
+        ]
+      },
+      "lecture-python-installation": {
+        "title": "安装 Python 并在本地运行代码",
+        "intro": [
+          "在这些课程中，你将学习如何在本地设备安装 Python 并运行代码。"
+        ]
+      },
+      "review-python-installation": {
+        "title": "Python 安装复习",
+        "intro": [
+          "在进行本地 Python 操作测验前，你应该复习课程中涵盖的概念。"
+        ]
+      },
+      "quiz-python-installation": {
+        "title": "Python 安装测验",
+        "intro": [
+          "通过此测验测试你对本地安装 Python 的掌握。"
+        ]
+      },
+      "lecture-working-with-loops-and-sequences": {
+        "title": "使用循环和序列",
+        "intro": [
+          "在这些课程中，学习如何使用循环和序列。"
+        ]
+      },
+      "workshop-pin-extractor": {
+        "title": "创建密码提取器",
+        "intro": [
+          "在本工作坊中，你将创建一个函数来提取隐藏在诗歌中的秘密密码。"
+        ]
+      },
+      "lab-number-pattern-generator": {
+        "title": "创建数字模式生成器",
+        "intro": ["在本实验中，你将创建一个数字模式生成器。"]
+      },
+      "review-loops-and-sequences": {
+        "title": "循环和序列复习",
+        "intro": [
+          "在进行循环和序列测验前，你应该复习已学内容。",
+          "打开此页面复习循环、列表、元组及其常用方法的相关概念。"
+        ]
+      },
+      "quiz-loops-and-sequences": {
+        "title": "循环和序列测验",
+        "intro": [
+          "通过此测验测试你对 Python 中循环和序列的掌握。"
+        ]
+      },
+      "lecture-working-with-dictionaries-and-sets": {
+        "title": "使用字典和集合",
+        "intro": [
+          "在这些课程中，学习如何使用字典和集合。"
+        ]
+      },
+      "lecture-working-with-modules": {
+        "title": "使用模块",
+        "intro": ["在这些课程中学习如何使用模块。"]
+      },
+      "workshop-medical-data-validator": {
+        "title": "创建医疗数据验证器",
+        "intro": [
+          "在本工作坊中，你将练习使用字典和集合，同时验证一组医疗数据。"
+        ]
+      },
+      "review-dictionaries-and-sets": {
+        "title": "字典和集合复习",
+        "intro": [
+          "在进行字典和集合测验之前，你应该复习相关内容。",
+          "打开此页面复习有关字典、集合以及如何导入模块的概念。"
+        ]
+      },
+      "quiz-dictionaries-and-sets": {
+        "title": "字典和集合测验",
+        "intro": [
+          "通过此测验测试你对 Python 中字典和集合的理解。"
+        ]
+      },
+      "lab-user-configuration-manager": {
+        "title": "创建用户配置管理器",
+        "intro": [
+          "在本实验中，你将练习使用 Python 中的字典。"
+        ]
+      },
+      "lecture-understanding-error-handling": {
+        "title": "理解错误处理",
+        "intro": [
+          "在这些课程中，你将学习 Python 中的错误处理。你将了解不同类型的错误、一些良好的调试实践、什么是异常以及如何处理它们。"
+        ]
+      },
+      "lab-isbn-validator": {
+        "title": "调试 ISBN 验证器",
+        "intro": [
+          "在本实验中，你将从一个有错误的应用开始，调试并修复错误，直到它正常工作。"
+        ]
+      },
+      "review-error-handling": {
+        "title": "错误处理复习",
+        "intro": [
+          "在进行错误处理测验之前，你应该复习相关内容。"
+        ]
+      },
+      "quiz-error-handling": {
+        "title": "错误处理测验",
+        "intro": [
+          "通过此测验测试你对 Python 中错误处理的理解。"
+        ]
+      },
+      "lecture-classes-and-objects": {
+        "title": "类和对象",
+        "intro": ["在这些课程中学习类和对象。"]
+      },
+      "workshop-musical-instrument-inventory": {
+        "title": "创建乐器库存",
+        "intro": [
+          "在本工作坊中，你将通过创建一个简单的乐器库存，学习 Python 中的类、对象和方法。"
+        ]
+      },
+      "lab-planet-class": {
+        "title": "创建行星类",
+        "intro": [
+          "在本实验中，你将创建一个表现行星的类。"
+        ]
+      },
+      "workshop-email-simulator": {
+        "title": "创建电子邮件模拟器",
+        "intro": [
+          "在本工作坊中，你将通过构建一个模拟不同用户之间发送、接收和管理电子邮件的电子邮件模拟器，来实现类和对象。"
+        ]
+      },
+      "review-classes-and-objects": {
+        "title": "类和对象复习",
+        "intro": [
+          "在进行类和对象测验之前，你应该复习相关内容。",
+          "打开此页面复习类的工作原理、对象、方法、属性、特殊方法等概念。"
+        ]
+      },
+      "quiz-classes-and-objects": {
+        "title": "类和对象测验",
+        "intro": [
+          "通过此测验测试你对 Python 中类和对象的理解。"
+        ]
+      },
+      "lab-budget-app": {
+        "title": "创建预算应用",
+        "intro": [
+          "在本实验中，你将创建一个预算应用，并练习为该类创建类和方法。"
+        ]
+      },
+      "lecture-understanding-object-oriented-programming-and-encapsulation": {
+        "title": "理解面向对象编程和封装",
+        "intro": [
+          "在这些课程中学习理解面向对象编程和封装。"
+        ]
+      },
+      "workshop-salary-tracker": {
+        "title": "创建薪资跟踪器",
+        "intro": [
+          "在本工作坊中，你将通过创建一个员工薪资跟踪系统，练习封装、属性和其他面向对象编程概念。"
+        ]
+      },
+      "lab-game-character-stats": {
+        "title": "创建游戏角色属性跟踪器",
+        "intro": [
+          "在本实验中，你将使用面向对象编程创建一个具有不同属性的游戏角色。"
+        ]
+      },
+      "lecture-understanding-inheritance-and-polymorphism": {
+        "title": "理解继承和多态",
+        "intro": [
+          "在这些课程中学习理解继承和多态。"
+        ]
+      },
+      "workshop-media-catalogue": {
+        "title": "创建媒体目录",
+        "intro": [
+          "在本工作坊中，你将使用面向对象编程原则创建一个媒体目录应用。"
+        ]
+      },
+      "lecture-understanding-abstraction": {
+        "title": "理解抽象",
+        "intro": ["在这些课程中学习理解抽象。"]
+      },
+      "workshop-discount-calculator": {
+        "title": "创建折扣计算器",
+        "intro": [
+          "在本工作坊中，你将通过抽象基类创建一个灵活的折扣定价计算器，允许多种折扣算法可互换应用而无需修改核心逻辑。"
+        ]
+      },
+      "lab-player-interface": {
+        "title": "创建播放器接口",
+        "intro": [
+          "在本实验中，你将使用 <code>abc</code> 模块创建一个播放器接口。"
+        ]
+      },
+      "review-object-oriented-programming": {
+        "title": "面向对象编程复习",
+        "intro": [
+          "在进行面向对象编程测验之前，你应该复习相关内容。"
+        ]
+      },
+      "quiz-object-oriented-programming": {
+        "title": "面向对象编程测验",
+        "intro": [
+          "通过此测验测试你对 Python 中面向对象编程的理解。"
+        ]
+      },
+      "lab-polygon-area-calculator": {
+        "title": "创建多边形面积计算器",
+        "intro": [
+          "在本实验中，你将使用面向对象编程计算不同多边形（如正方形和矩形）的面积。"
+        ]
+      },
+      "review-python": {
+        "title": "Python 编程基础复习",
+        "intro": ["复习 Python 概念，为即将到来的考试做准备。"]
+      }
+    }
   },
   "algorithms-and-data-structure": {
     "title": "算法与数据结构认证",

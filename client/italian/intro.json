@@ -1221,7 +1221,7 @@
       "lecture-understanding-the-command-line-and-working-with-bash": {
         "title": "Comprendere la riga di comando e lavorare con Bash",
         "intro": [
-          "Impara a conoscere la riga di comando e a lavorare con Bash in queste lezioni."
+          "Impara la riga di comando e come lavorare con Bash in queste lezioni."
         ]
       },
       "workshop-bash-boilerplate": {
@@ -1515,6 +1515,12 @@
         "title": "Costruisci un generatore di profili dipendenti",
         "intro": [
           "In questo laboratorio metterai in pratica le basi della manipolazione delle stringhe in Python costruendo uno strumento che genera badge dipendenti formattati e analizza codici dipendenti."
+        ]
+      },
+      "workshop-employee-profile-validator": {
+        "title": "Crea un validatore di profili dipendenti",
+        "intro": [
+          "In questo workshop userai i metodi delle stringhe Python per convalidare e formattare i dati di un profilo dipendente."
         ]
       },
       "lecture-numbers-and-mathematical-operations": {
@@ -6478,6 +6484,12 @@
           "In questo workshop, praticherai le basi della manipolazione delle stringhe in Python costruendo uno strumento che genera badge formattati per dipendenti e analizza codici dipendenti."
         ]
       },
+      "workshop-employee-profile-validator": {
+        "title": "Crea un validatore di profili dipendenti",
+        "intro": [
+          "In questo workshop userai i metodi delle stringhe Python per convalidare e formattare i dati di un profilo dipendente."
+        ]
+      },
       "lecture-numbers-and-mathematical-operations": {
         "title": "Numeri e operazioni matematiche",
         "intro": [
@@ -6535,7 +6547,7 @@
       "lab-rpg-character": {
         "title": "Crea un personaggio RPG",
         "intro": [
-          "In questo laboratorio eserciterai le basi di Python creando un personaggio RPG."
+          "In questo laboratorio praticherai le basi di Python creando un personaggio RPG."
         ]
       },
       "review-python-basics": {
@@ -10406,6 +10418,359 @@
     "enable-cookies": "Devi abilitare i cookie di terze parti prima di iniziare.",
     "english-only": "I corsi in questa sezione sono disponibili solo in inglese. Al momento possiamo tradurre solo titoli e introduzioni, non le lezioni.",
     "exam-english-only": "Nota che l'esame di certificazione è attualmente disponibile solo in inglese. Il resto dei corsi è disponibile in alcune lingue."
+  },
+  "python-programming-fundamentals": {
+    "title": "Fondamenti di programmazione Python",
+    "intro": [
+      "Questo corso insegna i fondamenti della programmazione Python.",
+      "Completa i progetti richiesti e supera l'esame per ottenere la certificazione Fondamenti di programmazione Python."
+    ],
+    "chapters": {
+      "python-programming-fundamentals": "Fondamenti di programmazione Python"
+    },
+    "modules": {
+      "python-basics": "Basi di Python",
+      "python-installation": "Installa Python",
+      "python-loops-and-sequences": "Loop e sequenze",
+      "python-dictionaries-and-sets": "Dizionari e insiemi",
+      "lab-user-configuration-manager": "Crea un gestore di configurazione utente",
+      "python-error-handling": "Gestione degli errori",
+      "python-classes-and-objects": "Classi e oggetti",
+      "lab-budget-app": "Crea un'app per il budget",
+      "python-object-oriented-programming": "Programmazione orientata agli oggetti (OOP)",
+      "lab-polygon-area-calculator": "Crea un calcolatore dell'area di un poligono",
+      "review-python-programming-fundamentals": "Revisione di Python"
+    },
+    "blocks": {
+      "workshop-first-python-program": {
+        "title": "Crea il tuo primo programma Python",
+        "intro": [
+          "Per questo workshop costruirai il tuo primo programma in Python."
+        ]
+      },
+      "lecture-introduction-to-python": {
+        "title": "Introduzione a Python",
+        "intro": [
+          "In queste lezioni imparerai cos'è Python e i suoi usi comuni nell'industria."
+        ]
+      },
+      "lecture-understanding-variables-and-data-types": {
+        "title": "Comprendere variabili e tipi di dati",
+        "intro": [
+          "In queste lezioni imparerai variabili e tipi di dati in Python."
+        ]
+      },
+      "workshop-report-card-printer": {
+        "title": "Crea una stampante di pagelle",
+        "intro": [
+          "In questo workshop praticherai l'uso dei tipi di dati primitivi in Python creando e stampando dati per una semplice pagella."
+        ]
+      },
+      "lecture-introduction-to-python-strings": {
+        "title": "Introduzione alle stringhe",
+        "intro": ["In queste lezioni imparerai le stringhe in Python."]
+      },
+      "workshop-employee-profile-generator": {
+        "title": "Crea un generatore di profili dipendenti",
+        "intro": [
+          "In questo workshop praticherai i fondamenti della manipolazione delle stringhe in Python costruendo uno strumento che genera badge formattati per dipendenti e analizza codici dipendenti."
+        ]
+      },
+      "workshop-employee-profile-validator": {
+        "title": "Crea un validatore di profili dipendenti",
+        "intro": [
+          "In questo workshop userai i metodi delle stringhe Python per convalidare e formattare i dati di un profilo dipendente."
+        ]
+      },
+      "lecture-numbers-and-mathematical-operations": {
+        "title": "Numeri e operazioni matematiche",
+        "intro": [
+          "In queste lezioni imparerai numeri e operazioni matematiche in Python."
+        ]
+      },
+      "workshop-bill-splitter": {
+        "title": "Crea un divisore del conto",
+        "intro": [
+          "In questo workshop costruirai un divisore del conto per praticare l'uso di numeri e operazioni matematiche in Python."
+        ]
+      },
+      "lecture-booleans-and-conditionals": {
+        "title": "Booleani e condizionali",
+        "intro": [
+          "In queste lezioni imparerai booleani e condizionali in Python."
+        ]
+      },
+      "workshop-movie-ticket-booking-calculator": {
+        "title": "Crea un calcolatore per prenotazione biglietti cinema",
+        "intro": [
+          "In questo workshop praticherai l'uso di booleani e istruzioni condizionali in Python costruendo un calcolatore per prenotazione biglietti cinema."
+        ]
+      },
+      "lab-travel-weather-planner": {
+        "title": "Crea un pianificatore meteo per viaggi",
+        "intro": [
+          "In questo laboratorio costruirai un pianificatore meteo per viaggi usando condizionali."
+        ]
+      },
+      "lecture-understanding-functions-and-scope": {
+        "title": "Comprendere funzioni e ambito",
+        "intro": [
+          "In queste lezioni imparerai funzioni e ambito in Python."
+        ]
+      },
+      "workshop-kitchen-inventory-tracker": {
+        "title": "Crea un tracciatore di inventario cucina",
+        "intro": [
+          "In questo workshop praticherai l'uso di funzioni e ambito in Python costruendo un tracciatore di inventario cucina."
+        ]
+      },
+      "lab-discount-calculator": {
+        "title": "Crea una funzione per applicare sconti",
+        "intro": [
+          "In questo laboratorio praticherai le basi di Python costruendo un calcolatore per applicare uno sconto a un prezzo."
+        ]
+      },
+      "workshop-caesar-cipher": {
+        "title": "Crea un cifrario di Cesare",
+        "intro": [
+          "In questo workshop costruirai un cifrario di Cesare usando concetti base di Python come stringhe, condizionali, funzioni e altro."
+        ]
+      },
+      "lab-rpg-character": {
+        "title": "Crea un personaggio RPG",
+        "intro": [
+          "In questo laboratorio praticherai le basi di Python creando un personaggio RPG."
+        ]
+      },
+      "review-python-basics": {
+        "title": "Revisione delle basi di Python",
+        "intro": [
+          "Prima di affrontare il quiz sulle basi di Python, dovresti rivedere ciò che hai imparato.",
+          "In questa pagina di revisione rivedrai l'uso di stringhe, funzioni, operatori di confronto e altro."
+        ]
+      },
+      "quiz-python-basics": {
+        "title": "Quiz sulle basi di Python",
+        "intro": [
+          "Metti alla prova ciò che hai imparato sulle basi di Python con questo quiz."
+        ]
+      },
+      "lecture-python-installation": {
+        "title": "Installare Python ed eseguire codice localmente",
+        "intro": [
+          "In queste lezioni imparerai come installare Python sul tuo dispositivo locale ed eseguire codice localmente."
+        ]
+      },
+      "review-python-installation": {
+        "title": "Revisione dell'installazione di Python",
+        "intro": [
+          "Prima di affrontare il quiz sull'uso di Python localmente, dovresti rivedere i concetti trattati nelle lezioni."
+        ]
+      },
+      "quiz-python-installation": {
+        "title": "Quiz sull'installazione di Python",
+        "intro": [
+          "Metti alla prova ciò che hai imparato sull'installazione locale di Python con questo quiz."
+        ]
+      },
+      "lecture-working-with-loops-and-sequences": {
+        "title": "Lavorare con loop e sequenze",
+        "intro": [
+          "Impara a lavorare con loop e sequenze in queste lezioni."
+        ]
+      },
+      "workshop-pin-extractor": {
+        "title": "Crea un estrattore di pin",
+        "intro": [
+          "In questo workshop costruirai una funzione per estrarre pin segreti nascosti in poesie."
+        ]
+      },
+      "lab-number-pattern-generator": {
+        "title": "Crea un generatore di pattern numerici",
+        "intro": ["In questo laboratorio costruirai un generatore di pattern numerici."]
+      },
+      "review-loops-and-sequences": {
+        "title": "Revisione di loop e sequenze",
+        "intro": [
+          "Prima di affrontare il quiz su loop e sequenze, dovresti rivedere ciò che hai imparato su di essi.",
+          "Apri questa pagina per rivedere i concetti su loop, liste, tuple e alcuni dei loro metodi comuni."
+        ]
+      },
+      "quiz-loops-and-sequences": {
+        "title": "Quiz su loop e sequenze",
+        "intro": [
+          "Metti alla prova ciò che hai imparato su loop e sequenze in Python con questo quiz."
+        ]
+      },
+      "lecture-working-with-dictionaries-and-sets": {
+        "title": "Lavorare con dizionari e insiemi",
+        "intro": [
+          "Impara a lavorare con dizionari e insiemi in queste lezioni."
+        ]
+      },
+      "lecture-working-with-modules": {
+        "title": "Lavorare con i moduli",
+        "intro": ["Impara a lavorare con i moduli in queste lezioni."]
+      },
+      "workshop-medical-data-validator": {
+        "title": "Crea un validatore di dati medici",
+        "intro": [
+          "In questo workshop, esercitati a usare dizionari e insiemi mentre convalidi una raccolta di dati medici."
+        ]
+      },
+      "review-dictionaries-and-sets": {
+        "title": "Revisione di dizionari e insiemi",
+        "intro": [
+          "Prima di affrontare il quiz su dizionari e insiemi, rivedi ciò che hai imparato su di essi.",
+          "Apri questa pagina per rivedere i concetti su dizionari, insiemi e come importare moduli."
+        ]
+      },
+      "quiz-dictionaries-and-sets": {
+        "title": "Quiz su dizionari e insiemi",
+        "intro": [
+          "Metti alla prova ciò che hai imparato su dizionari e insiemi in Python con questo quiz."
+        ]
+      },
+      "lab-user-configuration-manager": {
+        "title": "Crea un gestore di configurazione utente",
+        "intro": [
+          "In questo laboratorio, esercitati a usare dizionari in Python."
+        ]
+      },
+      "lecture-understanding-error-handling": {
+        "title": "Comprendere la gestione degli errori",
+        "intro": [
+          "In queste lezioni, imparerai la gestione degli errori in Python. Scoprirai i diversi tipi di errori, alcune buone pratiche di debugging, cosa sono le eccezioni e come gestirle."
+        ]
+      },
+      "lab-isbn-validator": {
+        "title": "Esegui il debug di un validatore ISBN",
+        "intro": [
+          "In questo laboratorio, partirai da un'app con bug e dovrai eseguire il debug e correggere i bug finché non funziona correttamente."
+        ]
+      },
+      "review-error-handling": {
+        "title": "Revisione della gestione degli errori",
+        "intro": [
+          "Prima di affrontare il quiz sulla gestione degli errori, rivedi ciò che hai imparato a riguardo."
+        ]
+      },
+      "quiz-error-handling": {
+        "title": "Quiz sulla gestione degli errori",
+        "intro": [
+          "Metti alla prova ciò che hai imparato sulla gestione degli errori in Python con questo quiz."
+        ]
+      },
+      "lecture-classes-and-objects": {
+        "title": "Classi e oggetti",
+        "intro": ["Impara le classi e gli oggetti in queste lezioni."]
+      },
+      "workshop-musical-instrument-inventory": {
+        "title": "Crea un inventario di strumenti musicali",
+        "intro": [
+          "In questo workshop, imparerai classi, oggetti e metodi in Python costruendo un semplice inventario di strumenti musicali."
+        ]
+      },
+      "lab-planet-class": {
+        "title": "Crea una classe Pianeta",
+        "intro": [
+          "In questo laboratorio creerai una classe che rappresenta un pianeta."
+        ]
+      },
+      "workshop-email-simulator": {
+        "title": "Crea un simulatore di email",
+        "intro": [
+          "In questo workshop implementerai classi e oggetti costruendo un simulatore di email che simula l'invio, la ricezione e la gestione delle email tra diversi utenti."
+        ]
+      },
+      "review-classes-and-objects": {
+        "title": "Revisione di classi e oggetti",
+        "intro": [
+          "Prima di affrontare il quiz su classi e oggetti, rivedi ciò che hai imparato su di essi.",
+          "Apri questa pagina per rivedere concetti come il funzionamento delle classi, cosa sono gli oggetti, i metodi, gli attributi, i metodi speciali e altro."
+        ]
+      },
+      "quiz-classes-and-objects": {
+        "title": "Quiz su classi e oggetti",
+        "intro": [
+          "Metti alla prova ciò che hai imparato su classi e oggetti in Python con questo quiz."
+        ]
+      },
+      "lab-budget-app": {
+        "title": "Crea un'app per il budget",
+        "intro": [
+          "In questo laboratorio costruirai un'app per il budget ed eserciterai la creazione di una classe e dei metodi per quella classe."
+        ]
+      },
+      "lecture-understanding-object-oriented-programming-and-encapsulation": {
+        "title": "Comprendere la programmazione orientata agli oggetti e l'incapsulamento",
+        "intro": [
+          "Impara a comprendere la programmazione orientata agli oggetti e l'incapsulamento in queste lezioni."
+        ]
+      },
+      "workshop-salary-tracker": {
+        "title": "Crea un tracciatore di stipendi",
+        "intro": [
+          "In questo workshop eserciterai incapsulamento, proprietà e altri concetti OOP costruendo un sistema di monitoraggio degli stipendi per i dipendenti."
+        ]
+      },
+      "lab-game-character-stats": {
+        "title": "Crea un tracciatore di statistiche per personaggi di gioco",
+        "intro": [
+          "In questo laboratorio costruirai un personaggio di gioco con diverse statistiche usando la programmazione orientata agli oggetti."
+        ]
+      },
+      "lecture-understanding-inheritance-and-polymorphism": {
+        "title": "Comprendere ereditarietà e polimorfismo",
+        "intro": [
+          "Impara a comprendere ereditarietà e polimorfismo in queste lezioni."
+        ]
+      },
+      "workshop-media-catalogue": {
+        "title": "Crea un catalogo multimediale",
+        "intro": [
+          "In questo workshop creerai un'applicazione per catalogo multimediale usando i principi della programmazione orientata agli oggetti."
+        ]
+      },
+      "lecture-understanding-abstraction": {
+        "title": "Comprendere l'astrazione",
+        "intro": ["Impara a comprendere l'astrazione in queste lezioni."]
+      },
+      "workshop-discount-calculator": {
+        "title": "Crea un calcolatore di sconti",
+        "intro": [
+          "In questo workshop costruirai un calcolatore di prezzi scontati flessibile tramite classi base astratte, permettendo di applicare più algoritmi di sconto in modo intercambiabile senza modificare la logica centrale."
+        ]
+      },
+      "lab-player-interface": {
+        "title": "Crea un'interfaccia giocatore",
+        "intro": [
+          "In questo laboratorio userai il modulo <code>abc</code> per costruire un'interfaccia giocatore."
+        ]
+      },
+      "review-object-oriented-programming": {
+        "title": "Revisione della programmazione orientata agli oggetti",
+        "intro": [
+          "Prima di affrontare il quiz sulla programmazione orientata agli oggetti, rivedi ciò che hai imparato a riguardo."
+        ]
+      },
+      "quiz-object-oriented-programming": {
+        "title": "Quiz sulla programmazione orientata agli oggetti",
+        "intro": [
+          "Metti alla prova ciò che hai imparato sulla programmazione orientata agli oggetti in Python con questo quiz."
+        ]
+      },
+      "lab-polygon-area-calculator": {
+        "title": "Crea un calcolatore di area di poligoni",
+        "intro": [
+          "In questo laboratorio userai la programmazione orientata agli oggetti per calcolare le aree di diversi poligoni come quadrati e rettangoli."
+        ]
+      },
+      "review-python": {
+        "title": "Revisione dei fondamenti di programmazione Python",
+        "intro": ["Rivedi i concetti di Python per prepararti all'esame imminente."]
+      }
+    }
   },
   "algorithms-and-data-structure": {
     "title": "Certificazione algoritmi e struttura dati",

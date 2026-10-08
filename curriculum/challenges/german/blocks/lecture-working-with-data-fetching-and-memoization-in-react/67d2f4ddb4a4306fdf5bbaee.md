@@ -15,6 +15,8 @@ Daraus ergibt sich die Notwendigkeit, Ihre React-App für bessere Leistung zu op
 
 React löst dieses Problem mit einem Prozess namens Memoization, einer Technik, die Werte und Funktionen zwischenspeichert, um unnötige Neuberechnungen zu verhindern, sodass Ihre App schneller und responsiver wird.
 
+## Was ist Memoization?
+
 Memoization ist per Definition eine Optimierungstechnik, bei der das Ergebnis aufwändiger Funktionsaufrufe basierend auf bestimmten Argumenten zwischengespeichert (erinnert) wird. Wenn dieselben Argumente erneut übergeben werden, wird das zwischengespeicherte Ergebnis zurückgegeben, anstatt die Funktion erneut zu berechnen.
 
 Der Memoization-Prozess läuft folgendermaßen ab:
@@ -27,6 +29,8 @@ Der Memoization-Prozess läuft folgendermaßen ab:
 
 - Wenn es nicht vorhanden ist, berechnen Sie das Ergebnis, speichern es im Cache und geben es dann zurück.
 
+## Memoization-Werkzeuge in React
+
 Um die Entwicklererfahrung mit Memoization zu verbessern, stellt React drei Werkzeuge bereit – `React.memo` (oder `memo`), `useMemo` und `useCallback`.
 
 Wie Sie sich denken können, sind sowohl `useMemo` als auch `useCallback` Hooks, aber `React.memo` ist ein Komponenten-Wrapper, eine Komponente höherer Ordnung (HOC).
@@ -36,6 +40,8 @@ In der nächsten Lektion schauen wir uns an, wie der `useCallback`-Hook und `Rea
 `useMemo` ermöglicht es Ihnen, berechnete Werte zu memoizen, während `useCallback` dasselbe für Funktionsreferenzen tut.
 
 Falls Sie sich fragen, was berechnete Werte und Funktionsreferenzen sind: Berechnete Werte beziehen sich auf das Ergebnis der Ausführung einer Funktion, während Funktionsreferenzen die Zeiger auf Funktionen sind – das Funktionsobjekt im Speicher.
+
+## Die Syntax des `useMemo`-Hooks
 
 Sehen wir uns zuerst an, wie man den `useMemo`-Hook verwendet. Hier ist die grundlegende Syntax des `useMemo`-Hooks:
 
@@ -49,6 +55,8 @@ const memoizedValue = useMemo(
 ```
 
 Sie sehen, alles, was nötig ist, ist, den `useMemo`-Hook um die Funktion zu wickeln.
+
+## Beispiel: Die `ExpensiveSquare`-Komponente
 
 Diese `ExpensiveSquare`-Komponente erhält eine `num`-Prop, die sie verwendet, um das Quadrat zu berechnen:
 
@@ -97,6 +105,8 @@ export default App;
 ```
 
 Der `timer` im `useEffect`, der jede Sekunde läuft, sorgt dafür, dass die `calculateSquare`-Funktion jedes Mal ausgeführt wird, wenn er läuft, selbst wenn Sie die `num`-Zustandsvariable nicht erhöhen.
+
+## Verwendung von `useMemo`, um Neuberechnungen zu vermeiden
 
 Um dieses Problem zu lösen, können wir den `useMemo`-Hook verwenden, indem wir den Funktionsaufruf darin einwickeln und die `num`-Variable als Abhängigkeit angeben:
 

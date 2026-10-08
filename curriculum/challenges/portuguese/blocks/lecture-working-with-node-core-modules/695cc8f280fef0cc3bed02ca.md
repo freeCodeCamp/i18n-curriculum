@@ -61,7 +61,7 @@ Você também pode especificar um arquivo diferente para retornar a extensão de
 console.log(path.extname('text-files/text1.txt')); // .txt
 ```
 
-O método `join()` pega todos os segmentos de caminho que você passar e os une em um caminho limpo e normalizado. 
+O método `join()` pega todos os segmentos de caminho que você passar e os une em um caminho limpo e normalizado.
 
 Isso pode ser útil se você quiser mesclar arquivos relacionados em pastas diferentes para que possa trabalhar com eles juntos:
 
@@ -79,7 +79,7 @@ const wrongPath = path.join("/src//", "assets", "text-files");
 console.log(wrongPath); // /src/assets/text-files
 ```
 
-O método `resolve()` transforma uma sequência de segmentos de caminho em um caminho absoluto. Ele começa a partir do seu diretório de trabalho atual e resulta em um caminho completo que aponta para a localização exata no dispositivo:
+O método `resolve()` transforma uma sequência de segmentos de caminho em um caminho absoluto. Ele processa os segmentos da direita para a esquerda até construir um caminho absoluto. Se chegar ao início sem construir um caminho absoluto, usa o diretório de trabalho atual:
 
 ```js
 const absolutePath = path.resolve("assets", "src", "text-files");
@@ -87,7 +87,7 @@ console.log(absolutePath);
 // /Users/user/Desktop/fCC/script-code/node/node-path/assets/src/text-files
 ```
 
-A diferença entre `join()` e `resolve()` é que `join()` cria um caminho relativo, enquanto `resolve()` retorna um caminho absoluto.
+Diferente do `join()`, que junta e normaliza segmentos de caminho e pode retornar um caminho relativo ou absoluto, o `resolve()` sempre retorna um caminho absoluto.
 
 Por fim, existem os métodos `parse()` e `format()`.
 

@@ -61,7 +61,7 @@ console.log(path.extname(__filename)); // .js
 console.log(path.extname('text-files/text1.txt')); // .txt
 ```
 
-`join()` 方法将你传入的所有路径段连接成一个干净、规范化的路径。 
+`join()` 方法将你传入的所有路径段连接成一个干净、规范化的路径。
 
 如果你想合并不同文件夹中相关的文件，以便一起处理，这可能会很有用：
 
@@ -79,7 +79,7 @@ const wrongPath = path.join("/src//", "assets", "text-files");
 console.log(wrongPath); // /src/assets/text-files
 ```
 
-`resolve()` 方法将一系列路径段解析为绝对路径。它从你当前的工作目录开始，最终生成指向设备上确切位置的完整路径：
+`resolve()` 方法将一系列路径段转换为绝对路径。它从右向左处理这些路径段，直到构造出一个绝对路径。如果到达开头仍未构造出绝对路径，则使用当前工作目录：
 
 ```js
 const absolutePath = path.resolve("assets", "src", "text-files");
@@ -87,7 +87,7 @@ console.log(absolutePath);
 // /Users/user/Desktop/fCC/script-code/node/node-path/assets/src/text-files
 ```
 
-`join()` 和 `resolve()` 的区别在于 `join()` 创建相对路径，而 `resolve()` 返回绝对路径。
+与会连接并规范化路径段、可能返回相对路径或绝对路径的 `join()` 不同，`resolve()` 始终返回绝对路径。
 
 最后，还有 `parse()` 和 `format()` 方法。
 
