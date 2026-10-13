@@ -7,9 +7,13 @@ dashedName: what-is-compatibility-testing
 
 # --description--
 
+## 互換性テストの目的
+
 大規模にウェブアプリケーションを構築するときは、自分のパソコン環境だけでなく、さまざまなデバイスやオペレーティングシステム、ブラウザでどのように動作するかを考える必要があります。ここで重要になるのが互換性テストです。
 
 互換性テストの目的は、ソフトウェアがさまざまなコンピューティング環境でどれだけうまく動作するかを確認することです。これにより、バグが本番環境に到達する前に発見でき、よりスムーズな製品リリースに貢献します。
+
+## さまざまな互換性テストの種類
 
 互換性テストには、後方互換性と前方互換性、ハードウェアテスト、オペレーティングシステム、ネットワーク、ブラウザ、モバイルデバイスなど、さまざまな種類があります。
 
@@ -25,6 +29,8 @@ dashedName: what-is-compatibility-testing
 
 最後にモバイルテストです。かつては多くの開発者がモバイルデバイス向けのテストをあまり考慮していませんでした。2000年代初頭は、モバイルデバイスは今ほど強力でも広く使われてもいなかったからです。しかし今では、何千万もの人がスマートフォンやタブレットでウェブサイトを訪れています。したがって、AndroidやiOSのさまざまなデバイスでソフトウェアアプリケーションが動作することを確認することが重要です。
 
+## 互換性テストが重要な理由
+
 これらはアプリケーションを構築するときに考慮すべきテストの一部です。多くの追加作業に思えるかもしれませんが、さまざまなコンピューティング環境でアプリケーションが動作することを確実にするために、互換性テストを行うことが重要です。
 
 # --questions--
@@ -39,7 +45,7 @@ dashedName: what-is-compatibility-testing
 
 ### --feedback--
 
-この内容はレッスンの最初で説明されています。
+レッスンの最初の部分を参照してください。
 
 ---
 
@@ -47,7 +53,7 @@ dashedName: what-is-compatibility-testing
 
 ### --feedback--
 
-この内容はレッスンの最初で説明されています。
+レッスンの最初の部分を参照してください。
 
 ---
 
@@ -59,7 +65,7 @@ dashedName: what-is-compatibility-testing
 
 ### --feedback--
 
-この内容はレッスンの最初で説明されています。
+レッスンの最初の部分を参照してください。
 
 ## --video-solution--
 
@@ -71,7 +77,7 @@ dashedName: what-is-compatibility-testing
 
 ## --answers--
 
-CPU compatibility
+CPU互換性
 
 ### --feedback--
 
@@ -79,7 +85,7 @@ CPU compatibility
 
 ---
 
-Accessible compatibility
+アクセシブル互換性
 
 ### --feedback--
 
@@ -87,7 +93,7 @@ Accessible compatibility
 
 ---
 
-Forwards compatibility
+フォワード互換性
 
 ### --feedback--
 
@@ -95,7 +101,7 @@ Forwards compatibility
 
 ---
 
-Backwards compatibility
+後方互換性
 
 ## --video-solution--
 
@@ -115,7 +121,7 @@ Backwards compatibility
 
 ---
 
-RAM size
+RAMサイズ
 
 ---
 

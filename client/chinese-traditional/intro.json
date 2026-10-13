@@ -1125,7 +1125,7 @@
       "RAG 代表 Retrieval-Augmented Generation。MCP 代表 Model Context Protocol。這些是強大的框架，用於建構能從知識庫取用資訊、根據該資訊生成回應並規劃行動的 AI 代理。",
       "在本課程中，你將學習 RAG 和 MCP 的基礎，以及如何在自己的專案中實作。你將探索 RAG 和 MCP 的組件，包括取用、生成、記憶、背景關係和規劃。完成課程後，你將對 RAG 和 MCP 的運作有紮實理解，並知道如何用它們建構智慧代理。"
     ],
-    "note": "",
+    "note": "要存取本課程的所有實驗室，請前往 https://kode.wiki/4nzgBbW 並免費註冊。接著，前往 https://learn.kodekloud.com/learn/courses/rag-mcp-fundamentals-a-hands-on-crash-course 並免費報名課程。",
     "blocks": {
       "understanding-rag": {
         "title": "認識 RAG",
@@ -5435,6 +5435,13 @@
         "title": "偵錯技巧",
         "intro": [
           "在這些課程中，你將學習 JavaScript 常見錯誤及修正技巧，這個過程稱為偵錯。"
+        ]
+      },
+      "workshop-library-search": {
+        "title": "建置圖書館書籍搜尋",
+        "intro": [
+          "在這個工作坊中，你將練習如何在 JavaScript 中優雅地處理錯誤。",
+          "你將建置一個圖書館書籍搜尋應用程式，並使用 <code>try...catch...finally</code> 區塊以及 <code>throw</code> 述語來捕捉和管理訂製錯誤。"
         ]
       },
       "lab-random-background-color-changer": {
@@ -10999,6 +11006,98 @@
       "review-python": {
         "title": "Python 複習",
         "intro": ["複習 Python 概念，為即將到來的考試做準備。"]
+      }
+    }
+  },
+
+  "front-end-development": {
+    "title": "HTML、CSS 與 JavaScript 前端網頁開發認證",
+    "intro": [
+      "完成指定專案並通過考試，即可獲得 HTML、CSS 與 JavaScript 前端網頁開發認證。"
+    ],
+    "chapters": {
+      "front-end-web-development": "HTML、CSS 與 JavaScript 前端網頁開發"
+    },
+    "modules": {
+      "html": "HTML"
+    },
+    "blocks": {
+      "workshop-curriculum-outline": {
+        "title": "建置課程大綱",
+        "intro": [
+          "歡迎來到 freeCodeCamp！",
+          "這個工作坊將作為你對 HTML 和程式設計的一般介紹。你將學習標題和段落元素。"
+        ]
+      },
+      "lecture-html-introduction": {
+        "title": "HTML 入門",
+        "intro": [
+          "在這些講座中，你將深入了解 HTML（超文字標記語言），這是一種用於創建網頁的標記語言。",
+          "你將學習 HTML 在網路上的角色，以及什麼是 HTML 屬性。"
+        ]
+      },
+      "workshop-cat-photo-app": {
+        "title": "建置貓咪照片應用程式",
+        "intro": [
+          "HTML 代表超文字標記語言，它表述網頁的內容和結構。",
+          "在這個工作坊中，你將學習如何使用基本的 HTML 元素，如標題、段落、圖片、連結和列表。"
+        ]
+      },
+      "lab-recipe-page": {
+        "title": "建置食譜頁面",
+        "intro": [
+          "在這個實驗室中，你將透過創建你最喜愛的食譜網頁來複習 HTML 基礎。你將建立 HTML 樣板並使用標題、列表、圖片等元素。"
+        ]
+      },
+      "lecture-fundamental-html": {
+        "title": "HTML 基礎",
+        "intro": [
+          "在這些講座中，你將學習 HTML 基礎知識，如 <code>div</code> 元素、<code>id</code> 和 <code>class</code> 屬性、HTML 樣板、HTML 實體等。"
+        ]
+      },
+      "lecture-semantic-html": {
+        "title": "語意化 HTML 的重要性",
+        "intro": [
+          "在這些講座中，你將了解語意化 HTML 及其重要性，語意元素，語意化 HTML 與呈現性 HTML 的差異等。"
+        ]
+      },
+      "workshop-blog-page": {
+        "title": "建置貓咪部落格頁面",
+        "intro": [
+          "在這個工作坊中，你將使用語意元素，包括 <code>main</code>、<code>nav</code>、<code>article</code> 和 <code>footer</code> 元素，建置一個純 HTML 的部落格頁面。"
+        ]
+      },
+      "lab-event-hub": {
+        "title": "建置活動中心",
+        "intro": [
+          "在這個實驗室中，你將建置一個活動中心，並複習語意元素，如 <code>header</code>、<code>nav</code>、<code>article</code> 等。"
+        ]
+      },
+      "lecture-importance-of-accessibility": {
+        "title": "無障礙的重要性",
+        "intro": [
+          "在這些講座中，你將了解無障礙及其重要性，以及如何讓你的 HTML 程式碼更具無障礙性。"
+        ]
+      },
+      "workshop-hotel-feedback-form": {
+        "title": "建置飯店回饋表單",
+        "intro": [
+          "在這個工作坊中，你將建置一個飯店回饋表單。",
+          "你將練習使用 <code>label</code>、<code>input</code>、<code>fieldset</code>、<code>legend</code>、<code>textarea</code> 和 <code>button</code> 元素。"
+        ]
+      },
+      "lab-survey-form": {
+        "title": "建置調查表單",
+        "intro": [
+          "在這個實驗室中，你將透過創建調查表單來複習 HTML 表單。",
+          "你將練習使用 <code>label</code> 元素、不同的 <code>input</code> 元素、<code>required</code> 屬性等。"
+        ]
+      },
+      "workshop-final-exams-table": {
+        "title": "建置期末考試表格",
+        "intro": [
+          "在這個工作坊中，你將透過建置期末考試表格來練習使用 HTML 表格。"
+        ]
       }
     }
   }

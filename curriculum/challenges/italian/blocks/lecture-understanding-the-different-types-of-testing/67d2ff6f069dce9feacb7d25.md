@@ -7,9 +7,13 @@ dashedName: what-is-compatibility-testing
 
 # --description--
 
+## L'obiettivo del testing di compatibilità
+
 Quando sviluppi applicazioni web su larga scala, devi pensare oltre il tuo ambiente di calcolo personale. Come funzioneranno queste applicazioni su una varietà di dispositivi, sistemi operativi e browser? Ecco dove entra in gioco il testing di compatibilità.
 
 L’obiettivo del testing di compatibilità è verificare quanto bene il tuo software funzioni in diversi ambienti di calcolo. Questo permette al team di individuare bug prima che arrivino in produzione e contribuisce a un lancio del prodotto più fluido.
+
+## Diversi tipi di testing di compatibilità
 
 I diversi tipi di testing di compatibilità includono la compatibilità retroattiva e futura, il testing hardware, i sistemi operativi, le reti, i browser e i dispositivi mobili.
 
@@ -25,6 +29,8 @@ Poi c’è il testing di compatibilità dei browser. Sul mercato ci sono alcuni 
 
 L’ultimo tipo di testing è quello mobile. C’è stato un periodo nello sviluppo web in cui la maggior parte degli sviluppatori non pensava a testare i dispositivi mobili. Questo perché, nei primi anni 2000, i dispositivi mobili non erano né così potenti né così diffusi come oggi. Ma ora, decine di milioni di persone visitano siti web da telefoni e tablet. Quindi è importante assicurarsi che le tue applicazioni software funzionino su una varietà di dispositivi Android e iOS.
 
+## Perché i test di compatibilità sono importanti
+
 Questi sono solo alcuni tipi di testing che dovrai considerare quando sviluppi le tue applicazioni. Anche se può sembrare molto lavoro extra, è importante eseguire test di compatibilità perché vuoi assicurarti che le tue applicazioni funzionino in diversi ambienti di calcolo.
 
 # --questions--
@@ -39,7 +45,7 @@ Assicurarsi che le tue applicazioni non abbiano errori di accessibilità.
 
 ### --feedback--
 
-Riferisciti all’inizio della lezione dove questo è stato spiegato.
+Riferisciti all’inizio della lezione dove è stato spiegato.
 
 ---
 
@@ -47,7 +53,7 @@ Assicurarsi che le tue applicazioni siano prive di errori di linting e formattaz
 
 ### --feedback--
 
-Riferisciti all’inizio della lezione dove questo è stato spiegato.
+Riferisciti all’inizio della lezione dove è stato spiegato.
 
 ---
 
@@ -59,7 +65,7 @@ Assicurarsi che le tue applicazioni funzionino solo per diverse distribuzioni Li
 
 ### --feedback--
 
-Riferisciti all’inizio della lezione dove questo è stato spiegato.
+Riferisciti all’inizio della lezione dove è stato spiegato.
 
 ## --video-solution--
 

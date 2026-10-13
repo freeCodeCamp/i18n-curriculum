@@ -17,6 +17,8 @@ const path = require("path");
 
 Schauen wir uns einige der Methoden an, die das `path`-Modul bereitstellt, und wie sie funktionieren.
 
+## Globale Variablen in Node.js
+
 Zuerst sollten Sie die Node.js globalen Variablen `__filename` und `__dirname` kennen, auch bekannt als „common JS“-Variablen. Sie benötigen das `path`-Modul nicht, um auf sie zuzugreifen, weshalb sie globale Variablen genannt werden.
 
 `__filename` ist der absolute Pfad der aktuellen Datei und `__dirname` ist der absolute Pfad des Verzeichnisses, das die aktuelle Datei enthält.
@@ -31,11 +33,15 @@ console.log(__dirname);
 // /Users/user/Desktop/fCC/script-code/node/node-path
 ```
 
+## Relative und absolute Pfade
+
 Sie sollten auch relative und absolute Pfade kennen.
 
 Ein relativer Pfad verweist auf eine Datei oder einen Ordner basierend auf Ihrem aktuellen Arbeitsverzeichnis. Zum Beispiel `./assets/src/text-files`.
 
 Ein absoluter Pfad hingegen gibt die vollständige Adresse einer Datei oder eines Ordners vom Stamm Ihres Systems aus an, wie `/Users/johndoe/projects/app/assets/src/text-files.`.
+
+## Die Methoden `basename()`, `dirname()` und `extname()`
 
 Die `basename()`-Methode zeigt den letzten Teil der Datei an, also den Dateinamen:
 
@@ -61,6 +67,8 @@ Sie können auch eine andere Datei angeben, um deren Erweiterung zurückzugeben:
 console.log(path.extname('text-files/text1.txt')); // .txt
 ```
 
+## Die Methode `join()`
+
 Die `join()`-Methode nimmt alle übergebenen Pfadsegmente und fügt sie zu einem sauberen, normalisierten Pfad zusammen.
 
 Das kann nützlich sein, wenn Sie verwandte Dateien in verschiedenen Ordnern zusammenführen möchten, um gemeinsam mit ihnen zu arbeiten:
@@ -79,6 +87,8 @@ const wrongPath = path.join("/src//", "assets", "text-files");
 console.log(wrongPath); // /src/assets/text-files
 ```
 
+## Die Methode `resolve()`
+
 Die `resolve()`-Methode wandelt eine Folge von Pfadsegmenten in einen absoluten Pfad um. Sie verarbeitet die Segmente von rechts nach links, bis sie einen absoluten Pfad erstellt hat. Wenn sie am Anfang ankommt, ohne einen absoluten Pfad zu erstellen, verwendet sie das aktuelle Arbeitsverzeichnis:
 
 ```js
@@ -88,6 +98,8 @@ console.log(absolutePath);
 ```
 
 Im Gegensatz zu `join()`, das Pfadsegmente zusammenfügt und normalisiert und entweder einen relativen oder absoluten Pfad zurückgeben kann, gibt `resolve()` immer einen absoluten Pfad zurück.
+
+## Die Methoden `parse()` und `format()`
 
 Zuletzt gibt es die Methoden `parse()` und `format()`.
 

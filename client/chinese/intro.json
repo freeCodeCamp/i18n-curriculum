@@ -1125,7 +1125,7 @@
       "RAG 代表扩充检索生成。MCP 代表模型上下文协议。这些是构建能够从知识库检索信息、基于信息生成响应并据此规划行动的智能代理的强大框架。",
       "在本课程中，你将学习 RAG 和 MCP 的基础知识及其在项目中的实现。你将探索 RAG 和 MCP 的组件，包括检索、生成、记忆、上下文和规划。课程结束时，你将全面理解 RAG 和 MCP 的工作原理及其构建智能代理的应用。"
     ],
-    "note": "",
+    "note": "要访问本课程的所有实验，请访问 https://kode.wiki/4nzgBbW 并免费注册。然后，前往 https://learn.kodekloud.com/learn/courses/rag-mcp-fundamentals-a-hands-on-crash-course 并免费报名课程。",
     "blocks": {
       "understanding-rag": {
         "title": "理解 RAG",
@@ -5435,6 +5435,13 @@
         "title": "调试技巧",
         "intro": [
           "在这些讲座中，你将学习 JavaScript 中的常见错误以及修复它们的技巧——即调试过程。"
+        ]
+      },
+      "workshop-library-search": {
+        "title": "创建图书馆图书查找",
+        "intro": [
+          "在本工作坊中，你将练习如何优雅地处理 JavaScript 中的误差。",
+          "你将创建一个图书馆图书查找应用，并使用 <code>try...catch...finally</code> 块以及 <code>throw</code> 语句来捕获和管理自定义误差。"
         ]
       },
       "lab-random-background-color-changer": {
@@ -10999,6 +11006,98 @@
       "review-python": {
         "title": "Python 复习",
         "intro": ["复习 Python 概念，为即将到来的考试做准备。"]
+      }
+    }
+  },
+
+  "front-end-development": {
+    "title": "HTML、CSS 和 JavaScript 前端网页开发认证",
+    "intro": [
+      "完成必需的项目并通过考试，即可获得 HTML、CSS 和 JavaScript 前端网页开发认证。"
+    ],
+    "chapters": {
+      "front-end-web-development": "HTML、CSS 和 JavaScript 前端网页开发"
+    },
+    "modules": {
+      "html": "HTML"
+    },
+    "blocks": {
+      "workshop-curriculum-outline": {
+        "title": "创建课程大纲",
+        "intro": [
+          "欢迎来到 freeCodeCamp！",
+          "本工作坊将作为你对 HTML 和编码的入门介绍。你将学习标题和段落元素。"
+        ]
+      },
+      "lecture-html-introduction": {
+        "title": "HTML 入门",
+        "intro": [
+          "在这些讲座中，你将深入了解 HTML（超文本标记语言），这是一种用于创建网页的标记语言。",
+          "你将了解 HTML 在网页中的作用，以及什么是 HTML 属性。"
+        ]
+      },
+      "workshop-cat-photo-app": {
+        "title": "创建猫咪照片应用",
+        "intro": [
+          "HTML 代表超文本标记语言，它表现网页的内容和结构。",
+          "在本工作坊中，你将学习如何使用基本的 HTML 元素，如标题、段落、图像、链接和列表。"
+        ]
+      },
+      "lab-recipe-page": {
+        "title": "创建食谱页面",
+        "intro": [
+          "在本实验中，你将通过创建你最喜欢的食谱网页来复习 HTML 基础。你将创建 HTML 公式化代码，并使用标题、列表、图像等。"
+        ]
+      },
+      "lecture-fundamental-html": {
+        "title": "HTML 基础",
+        "intro": [
+          "在这些讲座中，你将学习 HTML 基础知识，如 <code>div</code> 元素、<code>id</code> 和 <code>class</code> 属性、HTML 公式化代码、HTML 实体等。"
+        ]
+      },
+      "lecture-semantic-html": {
+        "title": "语义化 HTML 的重要性",
+        "intro": [
+          "在这些讲座中，你将学习语义化 HTML 及其重要性，语义元素，语义化 HTML 与表现型 HTML 的区别等。"
+        ]
+      },
+      "workshop-blog-page": {
+        "title": "创建猫咪博客页面",
+        "intro": [
+          "在本工作坊中，你将使用语义元素创建一个纯 HTML 的博客页面，包括 <code>main</code>、<code>nav</code>、<code>article</code> 和 <code>footer</code> 元素。"
+        ]
+      },
+      "lab-event-hub": {
+        "title": "创建事件中心",
+        "intro": [
+          "在本实验中，你将创建一个事件中心，并复习语义元素，如 <code>header</code>、<code>nav</code>、<code>article</code> 等。"
+        ]
+      },
+      "lecture-importance-of-accessibility": {
+        "title": "无障碍的重要性",
+        "intro": [
+          "在这些讲座中，你将了解无障碍及其重要性，以及如何让你的 HTML 代码更具无障碍性。"
+        ]
+      },
+      "workshop-hotel-feedback-form": {
+        "title": "创建酒店反馈表单",
+        "intro": [
+          "在本工作坊中，你将创建一个酒店反馈表单。",
+          "你将练习使用 <code>label</code>、<code>input</code>、<code>fieldset</code>、<code>legend</code>、<code>textarea</code> 和 <code>button</code> 元素。"
+        ]
+      },
+      "lab-survey-form": {
+        "title": "创建调查表单",
+        "intro": [
+          "在本实验中，你将通过创建调查表单来复习 HTML 表单。",
+          "你将练习使用 <code>label</code> 元素、不同的 <code>input</code> 元素、<code>required</code> 属性等。"
+        ]
+      },
+      "workshop-final-exams-table": {
+        "title": "创建期末考试表格",
+        "intro": [
+          "在本工作坊中，你将通过创建期末考试表格来练习使用 HTML 表格。"
+        ]
       }
     }
   }

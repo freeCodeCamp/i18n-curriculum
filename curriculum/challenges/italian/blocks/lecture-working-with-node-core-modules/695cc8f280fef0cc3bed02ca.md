@@ -17,6 +17,8 @@ const path = require("path");
 
 Vediamo alcuni dei metodi che il modulo `path` offre e come funzionano.
 
+## Variabili globali in Node.js
+
 Prima di tutto, devi conoscere le variabili globali di Node.js `__filename` e `__dirname`, note anche come variabili "common JS". Non hai bisogno del modulo `path` per consultarle, ecco perché si chiamano variabili globali.
 
 `__filename` è il percorso assoluto del file corrente e `__dirname` è il percorso assoluto della directory che contiene il file corrente.
@@ -31,11 +33,15 @@ console.log(__dirname);
 // /Users/user/Desktop/fCC/script-code/node/node-path
 ```
 
+## Percorso relativo e assoluto
+
 Devi anche conoscere la differenza tra percorsi relativi e assoluti.
 
 Un percorso relativo punta a un file o una cartella basandosi sulla tua directory di lavoro corrente. Per esempio, `./assets/src/text-files`.
 
 Un percorso assoluto, invece, fornisce l’indirizzo completo di un file o una cartella a partire dalla radice del tuo sistema, come `/Users/johndoe/projects/app/assets/src/text-files.`.
+
+## I metodi `basename()`, `dirname()` e `extname()`
 
 Il metodo `basename()` mostra l’ultima parte del file, cioè il nome del file:
 
@@ -61,6 +67,8 @@ Puoi anche specificare un file diverso per ottenere la sua estensione:
 console.log(path.extname('text-files/text1.txt')); // .txt
 ```
 
+## Il metodo `join()`
+
 Il metodo `join()` prende tutti i segmenti di percorso che gli passi e li unisce in un percorso unico, pulito e normalizzato.
 
 Questo può essere utile se vuoi unire file correlati in cartelle diverse per lavorarci insieme:
@@ -79,6 +87,8 @@ const wrongPath = path.join("/src//", "assets", "text-files");
 console.log(wrongPath); // /src/assets/text-files
 ```
 
+## Il metodo `resolve()`
+
 Il metodo `resolve()` trasforma una sequenza di segmenti di percorso in un percorso assoluto. Elabora i segmenti da destra a sinistra finché non costruisce un percorso assoluto. Se arriva all'inizio senza costruire un percorso assoluto, usa la directory di lavoro corrente:
 
 ```js
@@ -88,6 +98,8 @@ console.log(absolutePath);
 ```
 
 A differenza di `join()`, che unisce e normalizza i segmenti di percorso e può restituire un percorso relativo o assoluto, `resolve()` restituisce sempre un percorso assoluto.
+
+## I metodi `parse()` e `format()`
 
 Infine, ci sono i metodi `parse()` e `format()`.
 

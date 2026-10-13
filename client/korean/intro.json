@@ -1125,7 +1125,7 @@
       "RAG는 Retrieval-Augmented Generation의 약자이고, MCP는 Model Context Protocol의 약자입니다. 이들은 지식 기반에서 정보를 검색하고, 그 정보를 바탕으로 응답을 생성하며, 계획을 세우는 AI 에이전트를 구축하는 강력한 프레임워크입니다.",
       "이 강의에서는 RAG와 MCP의 기본을 배우고 이를 직접 프로젝트에 구현하는 방법을 익힙니다. 검색, 생성, 메모리, 컨텍스트, 계획 등 RAG와 MCP의 구성 요소를 탐구하며, 강의가 끝나면 RAG와 MCP가 어떻게 작동하는지, 이를 활용해 지능형 에이전트를 만드는 방법을 확실히 이해하게 됩니다."
     ],
-    "note": "",
+    "note": "코스의 모든 실습에 접근하려면 https://kode.wiki/4nzgBbW 에서 무료로 가입하세요. 그런 다음 https://learn.kodekloud.com/learn/courses/rag-mcp-fundamentals-a-hands-on-crash-course 로 이동해 코스에 무료로 등록하세요.",
     "blocks": {
       "understanding-rag": {
         "title": "RAG 이해하기",
@@ -5435,6 +5435,13 @@
         "title": "디버깅 기법",
         "intro": [
           "이 강의에서는 JavaScript의 일반적인 오류와 이를 고치는 디버깅 기법을 배우세요."
+        ]
+      },
+      "workshop-library-search": {
+        "title": "도서관 도서 검색 만들기",
+        "intro": [
+          "이 워크숍에서 JavaScript에서 오류를 우아하게 처리하는 연습을 하세요.",
+          "도서관 도서 검색 애플리케이션을 만들고 <code>try...catch...finally</code> 블록과 <code>throw</code> 문을 사용해 사용자 정의 오류를 잡고 관리하세요."
         ]
       },
       "lab-random-background-color-changer": {
@@ -10999,6 +11006,98 @@
       "review-python": {
         "title": "Python 검토",
         "intro": ["다가오는 시험을 준비하기 위해 Python 개념을 검토하세요."]
+      }
+    }
+  },
+
+  "front-end-development": {
+    "title": "HTML, CSS, JavaScript를 이용한 프론트엔드 웹 개발 인증",
+    "intro": [
+      "필수 프로젝트를 완료하고 시험에 합격해 HTML, CSS, JavaScript를 이용한 프론트엔드 웹 개발 인증을 받으세요."
+    ],
+    "chapters": {
+      "front-end-web-development": "HTML, CSS, JavaScript를 이용한 프론트엔드 웹 개발"
+    },
+    "modules": {
+      "html": "HTML"
+    },
+    "blocks": {
+      "workshop-curriculum-outline": {
+        "title": "커리큘럼 개요 만들기",
+        "intro": [
+          "freeCodeCamp에 오신 것을 환영합니다!",
+          "이 워크숍은 HTML과 코딩 전반에 대한 소개입니다. 제목과 문단 요소에 대해 배우세요."
+        ]
+      },
+      "lecture-html-introduction": {
+        "title": "HTML 소개",
+        "intro": [
+          "이 강의에서 웹 페이지를 만드는 마크업 언어인 HTML(HyperText Markup Language)에 대해 자세히 배우세요.",
+          "웹에서 HTML의 역할과 HTML 속성이 무엇인지 배우세요."
+        ]
+      },
+      "workshop-cat-photo-app": {
+        "title": "고양이 사진 앱 만들기",
+        "intro": [
+          "HTML은 HyperText Markup Language의 약자로 웹 페이지의 내용과 구조를 나타냅니다.",
+          "이 워크숍에서 제목, 문단, 이미지, 링크, 목록 같은 기본 HTML 요소를 다루는 방법을 배우세요."
+        ]
+      },
+      "lab-recipe-page": {
+        "title": "레시피 페이지 만들기",
+        "intro": [
+          "이 실습에서 좋아하는 레시피 웹 페이지를 만들어 HTML 기본을 복습하세요. HTML 보일러플레이트를 만들고 제목, 목록, 이미지 등을 다루게 됩니다."
+        ]
+      },
+      "lecture-fundamental-html": {
+        "title": "HTML 기초",
+        "intro": [
+          "이 강의에서 <code>div</code> 요소, <code>id</code>와 <code>class</code> 속성, HTML 보일러플레이트, HTML 엔티티 등 HTML 기초를 배우세요."
+        ]
+      },
+      "lecture-semantic-html": {
+        "title": "시맨틱 HTML의 중요성",
+        "intro": [
+          "이 강의에서 시맨틱 HTML과 그 중요성, 시맨틱 요소, 시맨틱 HTML과 프레젠테이션 HTML의 차이 등을 배우세요."
+        ]
+      },
+      "workshop-blog-page": {
+        "title": "고양이 블로그 페이지 만들기",
+        "intro": [
+          "이 워크숍에서 <code>main</code>, <code>nav</code>, <code>article</code>, <code>footer</code> 요소를 포함한 시맨틱 요소를 사용해 HTML 전용 블로그 페이지를 만드세요."
+        ]
+      },
+      "lab-event-hub": {
+        "title": "이벤트 허브 만들기",
+        "intro": [
+          "이 실습에서 이벤트 허브를 만들고 <code>header</code>, <code>nav</code>, <code>article</code> 등 시맨틱 요소를 복습하세요."
+        ]
+      },
+      "lecture-importance-of-accessibility": {
+        "title": "접근성의 중요성",
+        "intro": [
+          "이 강의에서 접근성과 그 중요성, HTML 코드를 더 접근성 있게 만드는 방법을 배우세요."
+        ]
+      },
+      "workshop-hotel-feedback-form": {
+        "title": "호텔 피드백 폼 만들기",
+        "intro": [
+          "이 워크숍에서 호텔 피드백 폼을 만드세요.",
+          "<code>label</code>, <code>input</code>, <code>fieldset</code>, <code>legend</code>, <code>textarea</code>, <code>button</code> 요소를 다루는 연습을 하세요."
+        ]
+      },
+      "lab-survey-form": {
+        "title": "설문조사 폼 만들기",
+        "intro": [
+          "이 실습에서 설문조사 폼을 만들어 HTML 폼을 복습하세요.",
+          "<code>label</code> 요소, 다양한 <code>input</code> 요소, <code>required</code> 속성 등을 다루는 연습을 하세요."
+        ]
+      },
+      "workshop-final-exams-table": {
+        "title": "기말 시험 표 만들기",
+        "intro": [
+          "이 워크숍에서 기말 시험 표를 만들어 HTML 표를 다루는 연습을 하세요."
+        ]
       }
     }
   }

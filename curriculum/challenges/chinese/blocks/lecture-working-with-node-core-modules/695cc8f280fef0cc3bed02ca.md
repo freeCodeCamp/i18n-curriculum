@@ -17,6 +17,8 @@ const path = require("path");
 
 让我们来看一下 `path` 模块提供的一些方法以及它们的工作原理。
 
+## Node.js 中的全局变量
+
 首先，你应该了解 Node.js 全局的变量 `__filename` 和 `__dirname`，也称为“common JS”变量。你不需要 `path` 模块来访问它们，这就是它们被称为全局变量的原因。
 
 `__filename` 是当前文件的绝对路径，`__dirname` 是包含当前文件的目录的绝对路径。
@@ -31,11 +33,15 @@ console.log(__dirname);
 // /Users/user/Desktop/fCC/script-code/node/node-path
 ```
 
+## 相对路径和绝对路径
+
 你还应该了解相对路径和绝对路径。
 
 相对路径是基于你当前工作目录指向一个文件或文件夹。例如，`./assets/src/text-files`。
 
 另一方面，绝对路径从系统根目录给出文件或文件夹的完整地址，例如 `/Users/johndoe/projects/app/assets/src/text-files.`。
+
+## `basename()`、`dirname()` 和 `extname()` 方法
 
 `basename()` 方法显示文件的最后一部分，即文件名：
 
@@ -61,6 +67,8 @@ console.log(path.extname(__filename)); // .js
 console.log(path.extname('text-files/text1.txt')); // .txt
 ```
 
+## `join()` 方法
+
 `join()` 方法将你传入的所有路径段连接成一个干净、规范化的路径。
 
 如果你想合并不同文件夹中相关的文件，以便一起处理，这可能会很有用：
@@ -79,6 +87,8 @@ const wrongPath = path.join("/src//", "assets", "text-files");
 console.log(wrongPath); // /src/assets/text-files
 ```
 
+## `resolve()` 方法
+
 `resolve()` 方法将一系列路径段转换为绝对路径。它从右向左处理这些路径段，直到构造出一个绝对路径。如果到达开头仍未构造出绝对路径，则使用当前工作目录：
 
 ```js
@@ -88,6 +98,8 @@ console.log(absolutePath);
 ```
 
 与会连接并规范化路径段、可能返回相对路径或绝对路径的 `join()` 不同，`resolve()` 始终返回绝对路径。
+
+## `parse()` 和 `format()` 方法
 
 最后，还有 `parse()` 和 `format()` 方法。
 

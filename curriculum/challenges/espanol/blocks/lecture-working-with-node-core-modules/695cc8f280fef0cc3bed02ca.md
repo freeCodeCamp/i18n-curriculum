@@ -17,6 +17,8 @@ const path = require("path");
 
 Veamos algunos de los métodos que proporciona el módulo `path` y cómo funcionan.
 
+## Variables globales en Node.js
+
 Primero, debes estar al tanto de las variables globales de Node.js `__filename` y `__dirname`, también conocidas como variables "common JS". No necesitas el módulo `path` para acceder a ellas, por eso se llaman variables globales.
 
 `__filename` es la ruta absoluta del archivo actual y `__dirname` es la ruta absoluta del directorio que contiene el archivo actual.
@@ -31,11 +33,15 @@ console.log(__dirname);
 // /Users/user/Desktop/fCC/script-code/node/node-path
 ```
 
+## Ruta relativa y absoluta
+
 También debes estar al tanto de las rutas relativas y absolutas.
 
 Una ruta relativa apunta a un archivo o carpeta basado en tu directorio de trabajo actual. Por ejemplo, `./assets/src/text-files`.
 
 Una ruta absoluta, por otro lado, da la dirección completa de un archivo o carpeta desde la raíz de tu sistema, como `/Users/johndoe/projects/app/assets/src/text-files.`
+
+## Los métodos `basename()`, `dirname()` y `extname()`
 
 El método `basename()` muestra la última parte del archivo, es decir, el nombre del archivo:
 
@@ -61,6 +67,8 @@ También puedes especificar un archivo diferente para devolver la extensión de:
 console.log(path.extname('text-files/text1.txt')); // .txt
 ```
 
+## El método `join()`
+
 El método `join()` toma todos los segmentos de ruta que pases y los une en una ruta limpia y normalizada.
 
 Esto podría ser útil si quieres combinar archivos relacionados en diferentes carpetas para que puedas trabajar con ellos juntos:
@@ -79,6 +87,8 @@ const wrongPath = path.join("/src//", "assets", "text-files");
 console.log(wrongPath); // /src/assets/text-files
 ```
 
+## El método `resolve()`
+
 El método `resolve()` convierte una secuencia de segmentos de ruta en una ruta absoluta. Procesa los segmentos de derecha a izquierda hasta construir una ruta absoluta. Si llega al inicio sin construir una ruta absoluta, usa el directorio de trabajo actual:
 
 ```js
@@ -88,6 +98,8 @@ console.log(absolutePath);
 ```
 
 A diferencia de `join()`, que une y normaliza segmentos de ruta y puede devolver una ruta relativa o absoluta, `resolve()` siempre devuelve una ruta absoluta.
+
+## Los métodos `parse()` y `format()`
 
 Por último, están los métodos `parse()` y `format()`.
 

@@ -17,6 +17,8 @@ const path = require("path");
 
 Vamos analisar alguns dos métodos que o módulo `path` fornece e como eles funcionam.
 
+## Variáveis globais no Node.js
+
 Primeiro, você deve estar ciente das variáveis globais do Node.js `__filename` e `__dirname`, também conhecidas como variáveis "common JS". Você não precisa do módulo `path` para acessá-las, por isso elas são chamadas de variáveis globais.
 
 `__filename` é o caminho absoluto do arquivo atual e `__dirname` é o caminho absoluto do diretório que contém o arquivo atual.
@@ -31,11 +33,15 @@ console.log(__dirname);
 // /Users/user/Desktop/fCC/script-code/node/node-path
 ```
 
+## Caminho relativo e absoluto
+
 Você também deve estar ciente de caminhos relativos e absolutos.
 
 Um caminho relativo aponta para um arquivo ou pasta com base no seu diretório de trabalho atual. Por exemplo, `./assets/src/text-files`.
 
 Um caminho absoluto, por outro lado, fornece o endereço completo de um arquivo ou pasta a partir da raiz do seu sistema, como `/Users/johndoe/projects/app/assets/src/text-files.`
+
+## Os métodos `basename()`, `dirname()` e `extname()`
 
 O método `basename()` mostra a última parte do arquivo, ou seja, o nome do arquivo:
 
@@ -61,6 +67,8 @@ Você também pode especificar um arquivo diferente para retornar a extensão de
 console.log(path.extname('text-files/text1.txt')); // .txt
 ```
 
+## O método `join()`
+
 O método `join()` pega todos os segmentos de caminho que você passar e os une em um caminho limpo e normalizado.
 
 Isso pode ser útil se você quiser mesclar arquivos relacionados em pastas diferentes para que possa trabalhar com eles juntos:
@@ -79,6 +87,8 @@ const wrongPath = path.join("/src//", "assets", "text-files");
 console.log(wrongPath); // /src/assets/text-files
 ```
 
+## O método `resolve()`
+
 O método `resolve()` transforma uma sequência de segmentos de caminho em um caminho absoluto. Ele processa os segmentos da direita para a esquerda até construir um caminho absoluto. Se chegar ao início sem construir um caminho absoluto, usa o diretório de trabalho atual:
 
 ```js
@@ -88,6 +98,8 @@ console.log(absolutePath);
 ```
 
 Diferente do `join()`, que junta e normaliza segmentos de caminho e pode retornar um caminho relativo ou absoluto, o `resolve()` sempre retorna um caminho absoluto.
+
+## Os métodos `parse()` e `format()`
 
 Por fim, existem os métodos `parse()` e `format()`.
 
