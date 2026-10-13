@@ -17,6 +17,8 @@ const path = require("path");
 
 `path` モジュールが提供するいくつかのメソッドとその動作を見てみましょう。
 
+## Node.jsのグローバル変数
+
 まず、Node.js のグローバル変数 `__filename` と `__dirname`、別名「common JS」変数について知っておく必要があります。これらは `path` モジュールを使わなくてもアクセスできるため、グローバル変数と呼ばれています。
 
 `__filename` は現在のファイルの絶対パスで、`__dirname` は現在のファイルを含むディレクトリの絶対パスです。
@@ -31,11 +33,15 @@ console.log(__dirname);
 // /Users/user/Desktop/fCC/script-code/node/node-path
 ```
 
+## 相対パスと絶対パス
+
 相対パスと絶対パスについても知っておくべきです。
 
 相対パスは、現在の作業ディレクトリを基準にファイルやフォルダーを指します。例えば、`./assets/src/text-files` です。
 
 一方、絶対パスはシステムのルートからファイルやフォルダーの完全なアドレスを示します。例えば、`/Users/johndoe/projects/app/assets/src/text-files.` です。
+
+## `basename()`、`dirname()`、および`extname()`メソッド
 
 `basename()` メソッドはファイルの最後の部分、つまりファイル名を表示します。
 
@@ -61,6 +67,8 @@ console.log(path.extname(__filename)); // .js
 console.log(path.extname('text-files/text1.txt')); // .txt
 ```
 
+## `join()`メソッド
+
 `join()` メソッドは渡されたすべてのパスセグメントを結合し、きれいで正規化されたパスにします。
 
 これは、異なるフォルダーにある関連ファイルをマージして一緒に扱いたい場合に便利です。
@@ -79,6 +87,8 @@ const wrongPath = path.join("/src//", "assets", "text-files");
 console.log(wrongPath); // /src/assets/text-files
 ```
 
+## `resolve()`メソッド
+
 `resolve()` メソッドは、シーケンスのパスセグメントを絶対パスに変換します。右から左へセグメントを処理し、絶対パスが構築されるまで続けます。絶対パスが構築されないまま先頭に到達した場合は、現在の作業ディレクトリを使用します。
 
 ```js
@@ -88,6 +98,8 @@ console.log(absolutePath);
 ```
 
 `join()` はパスセグメントを結合して正規化し、相対パスまたは絶対パスのいずれかを返す場合がありますが、`resolve()` は常に絶対パスを返します。
+
+## `parse()`と`format()`メソッド
 
 最後に、`parse()` と `format()` メソッドがあります。
 

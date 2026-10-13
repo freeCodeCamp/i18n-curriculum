@@ -1125,7 +1125,7 @@
       "RAG sta per Retrieval-Augmented Generation. MCP sta per Model Context Protocol. Sono framework potenti per costruire agenti AI che possono consultare una base di conoscenza, generare risposte basate su quelle informazioni e pianificare le loro azioni di conseguenza.",
       "In questo corso imparerai le basi di RAG e MCP e come implementarli nei tuoi progetti. Esplorerai i componenti di RAG e MCP, inclusi retrieval, generazione, memoria, contesto e pianificazione. Alla fine del corso avrai una solida comprensione di come funzionano RAG e MCP e come usarli per costruire agenti intelligenti."
     ],
-    "note": "",
+    "note": "Per consultare tutti i laboratori del corso, devi andare su https://kode.wiki/4nzgBbW e registrarti gratuitamente. Da lì, vai su https://learn.kodekloud.com/learn/courses/rag-mcp-fundamentals-a-hands-on-crash-course e iscriviti gratuitamente al corso.",
     "blocks": {
       "understanding-rag": {
         "title": "Comprendere RAG",
@@ -5435,6 +5435,13 @@
         "title": "Tecniche di debugging",
         "intro": [
           "In queste lezioni imparerai gli errori comuni in JavaScript e le tecniche che puoi usare per correggerli, un processo chiamato debugging."
+        ]
+      },
+      "workshop-library-search": {
+        "title": "Crea una ricerca di libri in biblioteca",
+        "intro": [
+          "In questo workshop, eserciterai la gestione elegante degli errori in JavaScript.",
+          "Costruirai un'applicazione di ricerca libri in biblioteca e userai i blocchi <code>try...catch...finally</code>, insieme all'istruzione <code>throw</code>, per intercettare e gestire errori personalizzati."
         ]
       },
       "lab-random-background-color-changer": {
@@ -10999,6 +11006,98 @@
       "review-python": {
         "title": "Revisione di Python",
         "intro": ["Rivedi i concetti di Python per prepararti all'esame imminente."]
+      }
+    }
+  },
+
+  "front-end-development": {
+    "title": "Certificazione sviluppo web front-end con HTML, CSS e JavaScript",
+    "intro": [
+      "Completa i progetti richiesti e supera l'esame per ottenere la certificazione sviluppo web front-end con HTML, CSS e JavaScript."
+    ],
+    "chapters": {
+      "front-end-web-development": "Sviluppo web front-end con HTML, CSS e JavaScript"
+    },
+    "modules": {
+      "html": "HTML"
+    },
+    "blocks": {
+      "workshop-curriculum-outline": {
+        "title": "Crea un programma del corso",
+        "intro": [
+          "Benvenuto su freeCodeCamp!",
+          "Questo workshop sarà la tua introduzione a HTML e alla programmazione in generale. Imparerai gli elementi intestazione e paragrafo."
+        ]
+      },
+      "lecture-html-introduction": {
+        "title": "Introduzione a HTML",
+        "intro": [
+          "In queste lezioni, imparerai di più su HTML (HyperText Markup Language), un linguaggio di markup per creare pagine web.",
+          "Imparerai il ruolo di HTML nel web e cosa sono gli attributi HTML."
+        ]
+      },
+      "workshop-cat-photo-app": {
+        "title": "Crea un'app per foto di gatti",
+        "intro": [
+          "HTML sta per HyperText Markup Language e rappresenta il contenuto e la struttura di una pagina web.",
+          "In questo workshop, imparerai a lavorare con elementi HTML di base come intestazioni, paragrafi, immagini, collegamenti e liste."
+        ]
+      },
+      "lab-recipe-page": {
+        "title": "Crea una pagina di ricette",
+        "intro": [
+          "In questo laboratorio, rivedrai le basi di HTML creando una pagina web della tua ricetta preferita. Creerai un codice boilerplate HTML e lavorerai con intestazioni, liste, immagini e altro."
+        ]
+      },
+      "lecture-fundamental-html": {
+        "title": "Fondamenti di HTML",
+        "intro": [
+          "In queste lezioni, imparerai i fondamenti di HTML come l'elemento <code>div</code>, gli attributi <code>id</code> e <code>class</code>, il codice boilerplate HTML, le entità HTML e altro."
+        ]
+      },
+      "lecture-semantic-html": {
+        "title": "Importanza di HTML semantico",
+        "intro": [
+          "In queste lezioni, imparerai cos'è l'HTML semantico e perché è importante, gli elementi semantici, come l'HTML semantico differisce dall'HTML presentazionale e altro."
+        ]
+      },
+      "workshop-blog-page": {
+        "title": "Crea una pagina blog sui gatti",
+        "intro": [
+          "In questo workshop, costruirai una pagina blog solo in HTML usando elementi semantici come <code>main</code>, <code>nav</code>, <code>article</code> e <code>footer</code>."
+        ]
+      },
+      "lab-event-hub": {
+        "title": "Crea un hub di eventi",
+        "intro": [
+          "In questo laboratorio, costruirai un hub di eventi e rivedrai elementi semantici come <code>header</code>, <code>nav</code>, <code>article</code> e altro."
+        ]
+      },
+      "lecture-importance-of-accessibility": {
+        "title": "Importanza dell'accessibilità",
+        "intro": [
+          "In queste lezioni, imparerai cos'è l'accessibilità e perché è importante, e come rendere il tuo codice HTML più accessibile."
+        ]
+      },
+      "workshop-hotel-feedback-form": {
+        "title": "Crea un modulo di feedback per hotel",
+        "intro": [
+          "In questo workshop, costruirai un modulo di feedback per hotel.",
+          "Eserciterai l'uso degli elementi <code>label</code>, <code>input</code>, <code>fieldset</code>, <code>legend</code>, <code>textarea</code> e <code>button</code>."
+        ]
+      },
+      "lab-survey-form": {
+        "title": "Crea un modulo di sondaggio",
+        "intro": [
+          "In questo laboratorio, rivedrai i moduli HTML creando un modulo di sondaggio.",
+          "Eserciterai l'uso dell'elemento <code>label</code>, dei diversi elementi <code>input</code>, dell'attributo <code>required</code> e altro."
+        ]
+      },
+      "workshop-final-exams-table": {
+        "title": "Crea una tabella degli esami finali",
+        "intro": [
+          "In questo workshop, eserciterai l'uso delle tabelle HTML costruendo una tabella degli esami finali."
+        ]
       }
     }
   }

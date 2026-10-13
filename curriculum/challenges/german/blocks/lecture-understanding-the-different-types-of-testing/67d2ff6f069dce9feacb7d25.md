@@ -7,9 +7,13 @@ dashedName: what-is-compatibility-testing
 
 # --description--
 
+## Das Ziel von Kompatibilitätstests
+
 Wenn Sie Webanwendungen in großem Maßstab entwickeln, müssen Sie über Ihre persönliche Computerumgebung hinausdenken. Wie funktionieren diese Anwendungen auf verschiedenen Geräten, Betriebssystemen und Browsern? Genau hier kommt das Kompatibilitätstesten ins Spiel.
 
 Das Ziel des Kompatibilitätstestens ist es, zu prüfen, wie gut Ihre Software in unterschiedlichen Computerumgebungen funktioniert. Dadurch kann das Team Bugs erkennen, bevor sie in die Produktion gelangen, und es trägt zu einem reibungsloseren Produktstart bei.
+
+## Verschiedene Arten von Kompatibilitätstests
 
 Verschiedene Arten des Kompatibilitätstestens umfassen Abwärts- und Aufwärtskompatibilität, Hardwaretests, Betriebssysteme, Netzwerke, Browser und mobile Geräte.
 
@@ -25,6 +29,8 @@ Dann gibt es noch das Browser-Kompatibilitätstesten. Es gibt einige beliebte Br
 
 Die letzte Testart ist das Mobile Testing. Es gab eine Zeit in der Webentwicklung, in der die meisten Entwickler nicht daran dachten, für mobile Geräte zu testen. Das lag daran, dass mobile Geräte Anfang der 2000er Jahre bei weitem nicht so leistungsfähig oder weit verbreitet waren wie heute. Aber heute besuchen zig Millionen Menschen Websites auf Handys und Tablets. Deshalb ist es wichtig sicherzustellen, dass Ihre Softwareanwendungen auf verschiedenen Android- und iOS-Geräten funktionieren.
 
+## Warum Kompatibilitätstests wichtig sind
+
 Dies sind nur einige der Testarten, die Sie bei der Entwicklung Ihrer Anwendungen berücksichtigen müssen. Auch wenn das nach viel zusätzlicher Arbeit klingt, ist es wichtig, Kompatibilitätstests durchzuführen, weil Sie sicherstellen wollen, dass Ihre Anwendungen in verschiedenen Computerumgebungen funktionieren.
 
 # --questions--
@@ -39,7 +45,7 @@ Sicherzustellen, dass Ihre Anwendungen keine Barrierefreiheitsfehler aufweisen.
 
 ### --feedback--
 
-Sehen Sie sich den Anfang der Lektion an, wo dies besprochen wurde.
+Beziehen Sie sich auf den Anfang der Lektion, wo dies besprochen wurde.
 
 ---
 
@@ -47,7 +53,7 @@ Sicherzustellen, dass Ihre Anwendungen frei von Linting- und Formatierungsfehler
 
 ### --feedback--
 
-Sehen Sie sich den Anfang der Lektion an, wo dies besprochen wurde.
+Beziehen Sie sich auf den Anfang der Lektion, wo dies besprochen wurde.
 
 ---
 
@@ -59,7 +65,7 @@ Sicherzustellen, dass Ihre Anwendungen nur für verschiedene Linux-Distributione
 
 ### --feedback--
 
-Sehen Sie sich den Anfang der Lektion an, wo dies besprochen wurde.
+Beziehen Sie sich auf den Anfang der Lektion, wo dies besprochen wurde.
 
 ## --video-solution--
 

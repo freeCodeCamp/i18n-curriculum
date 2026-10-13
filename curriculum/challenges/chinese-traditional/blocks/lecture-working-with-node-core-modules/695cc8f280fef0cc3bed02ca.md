@@ -17,6 +17,8 @@ const path = require("path");
 
 讓我們來看看 `path` 模組提供的一些方法以及它們的運作方式。
 
+## Node.js 的全域變數
+
 首先，你應該知道 Node.js 的全域變數 `__filename` 和 `__dirname`，也就是所謂的「common JS」變數。你不需要 `path` 模組來存取它們，這就是為什麼它們被稱為全域變數。
 
 `__filename` 是目前檔案的絕對路徑，`__dirname` 是包含目前檔案的目錄的絕對路徑。
@@ -31,11 +33,15 @@ console.log(__dirname);
 // /Users/user/Desktop/fCC/script-code/node/node-path
 ```
 
+## 相對路徑與絕對路徑
+
 你也應該了解相對路徑和絕對路徑。
 
 相對路徑是根據你目前的工作目錄指向一個檔案或目錄。 例如，`./assets/src/text-files`。
 
 另一方面，絕對路徑會從系統根目錄給出檔案或資料夾的完整位址，例如 `/Users/johndoe/projects/app/assets/src/text-files.`。
+
+## `basename()`、`dirname()` 和 `extname()` 方法
 
 `basename()` 方法顯示檔案的最後零件，也就是檔名：
 
@@ -61,6 +67,8 @@ console.log(path.extname(__filename)); // .js
 console.log(path.extname('text-files/text1.txt')); // .txt
 ```
 
+## `join()` 方法
+
 `join()` 方法會將你傳入的所有路徑段連接成一個乾淨且標準化的路徑。
 
 如果你想合併不同資料夾中相關的檔案，以便一起處理，這可能會很有用：
@@ -79,6 +87,8 @@ const wrongPath = path.join("/src//", "assets", "text-files");
 console.log(wrongPath); // /src/assets/text-files
 ```
 
+## `resolve()` 方法
+
 `resolve()` 方法會將一連串的路徑片段轉換成絕對路徑。它從右到左處理這些片段，直到構建出一個絕對路徑。如果到達開頭仍未構建出絕對路徑，則會使用目前的工作目錄：
 
 ```js
@@ -88,6 +98,8 @@ console.log(absolutePath);
 ```
 
 與會連接並標準化路徑片段且可能傳回相對或絕對路徑的 `join()` 不同，`resolve()` 永遠傳回絕對路徑。
+
+## `parse()` 和 `format()` 方法
 
 最後，還有 `parse()` 和 `format()` 方法。
 

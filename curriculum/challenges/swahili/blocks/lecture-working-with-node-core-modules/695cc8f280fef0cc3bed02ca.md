@@ -17,6 +17,8 @@ const path = require("path");
 
 Tuchunguze baadhi ya njia ambazo moduli ya `path` inatoa na jinsi zinavyofanya kazi.
 
+## Vigezo vya Kimataifa katika Node.js
+
 Kwanza, unapaswa kujua kuhusu vigezo vya kimataifa vya Node.js `__filename` na `__dirname`, vinavyojulikana pia kama vigezo vya "common JS". Huhitaji moduli ya `path` kupata upatikanaji wake, ndiyo maana huitwa vigezo vya kimataifa.
 
 `__filename` ni njia kamili ya faili ya sasa na `__dirname` ni njia kamili ya saraka inayoshikilia faili ya sasa.
@@ -31,11 +33,15 @@ console.log(__dirname);
 // /Users/user/Desktop/fCC/script-code/node/node-path
 ```
 
+## Njia ya Kurejelea na Njia Kamili
+
 Pia unapaswa kujua kuhusu njia za jamaa na njia kamili.
 
 Njia ya jamaa inaelekeza faili au folda kulingana na saraka yako ya kazi ya sasa. Kwa mfano, `./assets/src/text-files`.
 
 Njia kamili, kwa upande mwingine, hutoa anwani kamili ya faili au folda kutoka mzizi wa mfumo wako, kama `/Users/johndoe/projects/app/assets/src/text-files.`
+
+## Njia za `basename()`, `dirname()`, na `extname()`
 
 Njia ya `basename()` inaonyesha sehemu ya mwisho ya faili, yaani, jina la faili:
 
@@ -61,6 +67,8 @@ Unaweza pia kubainisha faili tofauti ili kurudisha kiendelezi chake:
 console.log(path.extname('text-files/text1.txt')); // .txt
 ```
 
+## Njia ya `join()`
+
 Njia ya `join()` huchukua sehemu zote za njia unazozipatia na kuziunganisha kuwa njia moja safi, iliyokawaishwa.
 
 Hii inaweza kuwa muhimu ikiwa unataka kuunganisha mafaili yanayohusiana katika saraka tofauti ili uweze kufanya kazi nayo pamoja:
@@ -79,6 +87,8 @@ const wrongPath = path.join("/src//", "assets", "text-files");
 console.log(wrongPath); // /src/assets/text-files
 ```
 
+## Njia ya `resolve()`
+
 Njia ya `resolve()` hubadilisha mfululizo wa sehemu za njia kuwa njia kamili. Inashughulikia sehemu hizo kutoka kulia kwenda kushoto hadi itakapojenga njia kamili. Ikiwa inafikia mwanzo bila kujenga njia kamili, hutumia saraka ya kazi ya sasa:
 
 ```js
@@ -88,6 +98,8 @@ console.log(absolutePath);
 ```
 
 Tofauti na `join()`, ambayo huunganisha na kawaisha sehemu za njia na inaweza kurudisha njia ya jamaa au kamili, `resolve()` daima hurudisha njia kamili.
+
+## Njia za `parse()` na `format()`
 
 Mwishowe, kuna njia za `parse()` na `format()`.
 

@@ -1125,7 +1125,7 @@
       "RAG significa geração aumentada por recuperação. MCP significa protocolo de contexto de modelo. São frameworks poderosos para criar agentes de IA que podem recuperar informações de uma base de conhecimento, gerar respostas baseadas nessas informações e planejar suas ações de acordo.",
       "Neste curso, você vai aprender os fundamentos de RAG e MCP e como implementá-los em seus próprios projetos. Vai explorar os componentes de RAG e MCP, incluindo recuperação, geração, memória, contexto e planejamento. Ao final, terá uma compreensão sólida de como RAG e MCP funcionam e como usá-los para criar agentes inteligentes."
     ],
-    "note": "",
+    "note": "Para acessar todos os laboratórios do curso, você precisará acessar https://kode.wiki/4nzgBbW e se inscrever gratuitamente. Depois, vá para https://learn.kodekloud.com/learn/courses/rag-mcp-fundamentals-a-hands-on-crash-course e matricule-se no curso gratuitamente.",
     "blocks": {
       "understanding-rag": {
         "title": "Entendendo RAG",
@@ -5435,6 +5435,13 @@
         "title": "Técnicas de depuração",
         "intro": [
           "Nessas palestras, você aprenderá sobre os erros comuns em JavaScript e as técnicas que pode usar para corrigi-los – um processo chamado depuração."
+        ]
+      },
+      "workshop-library-search": {
+        "title": "Criar uma busca de livros para biblioteca",
+        "intro": [
+          "Neste workshop, você vai praticar como lidar com erros de forma elegante em JavaScript.",
+          "Você vai criar uma aplicação de busca de livros para biblioteca e usar blocos <code>try...catch...finally</code>, junto com a declaração <code>throw</code>, para capturar e gerenciar erros personalizados."
         ]
       },
       "lab-random-background-color-changer": {
@@ -10999,6 +11006,98 @@
       "review-python": {
         "title": "Revisão de Python",
         "intro": ["Revise conceitos de Python para se preparar para o próximo exame."]
+      }
+    }
+  },
+
+  "front-end-development": {
+    "title": "Certificação em desenvolvimento web front-end com HTML, CSS e Javascript",
+    "intro": [
+      "Complete os projetos obrigatórios e passe no exame para obter a certificação em desenvolvimento web front-end com HTML, CSS e JavaScript."
+    ],
+    "chapters": {
+      "front-end-web-development": "Desenvolvimento web front-end com HTML, CSS e JavaScript"
+    },
+    "modules": {
+      "html": "HTML"
+    },
+    "blocks": {
+      "workshop-curriculum-outline": {
+        "title": "Criar um contorno de currículo",
+        "intro": [
+          "Bem-vindo ao freeCodeCamp!",
+          "Este workshop será sua introdução ao HTML e à programação em geral. Você vai aprender sobre títulos e elementos de parágrafo."
+        ]
+      },
+      "lecture-html-introduction": {
+        "title": "Introdução ao HTML",
+        "intro": [
+          "Nessas palestras, você vai aprender mais sobre HTML (HyperText Markup Language), uma linguagem de marcação para criar páginas web.",
+          "Você vai aprender sobre o papel do HTML na web e o que são os atributos HTML."
+        ]
+      },
+      "workshop-cat-photo-app": {
+        "title": "Criar um app de fotos de gatos",
+        "intro": [
+          "HTML significa HyperText Markup Language e representa o conteúdo e a estrutura de uma página web.",
+          "Neste workshop, você vai aprender a trabalhar com elementos básicos de HTML como títulos, parágrafos, imagens, links e listas."
+        ]
+      },
+      "lab-recipe-page": {
+        "title": "Criar uma página de receita",
+        "intro": [
+          "Neste laboratório, você vai revisar o básico de HTML criando uma página web da sua receita favorita. Você vai criar um boilerplate HTML e trabalhar com títulos, listas, imagens e mais."
+        ]
+      },
+      "lecture-fundamental-html": {
+        "title": "Fundamentos do HTML",
+        "intro": [
+          "Nessas palestras, você vai aprender os fundamentos do HTML como o elemento <code>div</code>, os atributos <code>id</code> e <code>class</code>, o boilerplate HTML, entidades HTML e mais."
+        ]
+      },
+      "lecture-semantic-html": {
+        "title": "Importância do HTML semântico",
+        "intro": [
+          "Nessas palestras, você vai aprender sobre HTML semântico e por que ele é importante, elementos semânticos, como o HTML semântico difere do HTML de apresentação e mais."
+        ]
+      },
+      "workshop-blog-page": {
+        "title": "Criar uma página de blog sobre gatos",
+        "intro": [
+          "Neste workshop, você vai criar uma página de blog apenas com HTML usando elementos semânticos incluindo os elementos <code>main</code>, <code>nav</code>, <code>article</code> e <code>footer</code>."
+        ]
+      },
+      "lab-event-hub": {
+        "title": "Criar um hub de eventos",
+        "intro": [
+          "Neste laboratório, você vai criar um hub de eventos e revisar elementos semânticos como <code>header</code>, <code>nav</code>, <code>article</code> e mais."
+        ]
+      },
+      "lecture-importance-of-accessibility": {
+        "title": "Importância da acessibilidade",
+        "intro": [
+          "Nessas palestras, você vai aprender sobre acessibilidade e sua importância, e como tornar seu código HTML mais acessível."
+        ]
+      },
+      "workshop-hotel-feedback-form": {
+        "title": "Criar um formulário de feedback para hotel",
+        "intro": [
+          "Neste workshop, você vai criar um formulário de feedback para hotel.",
+          "Você vai praticar o uso dos elementos <code>label</code>, <code>input</code>, <code>fieldset</code>, <code>legend</code>, <code>textarea</code> e <code>button</code>."
+        ]
+      },
+      "lab-survey-form": {
+        "title": "Criar um formulário de pesquisa",
+        "intro": [
+          "Neste laboratório, você vai revisar formulários HTML criando um formulário de pesquisa.",
+          "Você vai praticar o uso do elemento <code>label</code>, dos diferentes elementos <code>input</code>, do atributo <code>required</code> e mais."
+        ]
+      },
+      "workshop-final-exams-table": {
+        "title": "Criar uma tabela de exames finais",
+        "intro": [
+          "Neste workshop, você vai praticar o uso de tabelas HTML criando uma tabela de exames finais."
+        ]
       }
     }
   }

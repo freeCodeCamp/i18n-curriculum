@@ -18,7 +18,7 @@ dictionary = {
 }
 ```
 
-- **`dict()` costruttore**: Il costruttore `dict()` è un modo alternativo per costruire il dizionario. Passi una lista di tuple come argomento al costruttore `dict()`. Queste tuple contengono la chiave come primo elemento e il valore come secondo elemento.
+- **Costruttore `dict()`**: Il costruttore `dict()` è un modo alternativo per costruire il dizionario. Passi una lista di tuple come argomento al costruttore `dict()`. Queste tuple contengono la chiave come primo elemento e il valore come secondo elemento.
 
 ```python
 pizza = dict([('name', 'Margherita Pizza'), ('price', 8.9), ('calories_per_slice', 250), ('toppings', ['mozzarella', 'basil'])])
@@ -30,7 +30,7 @@ pizza = dict([('name', 'Margherita Pizza'), ('price', 8.9), ('calories_per_slice
 dictionary[key]
 ```
 
-## Metodi comuni dei dizionari
+## Metodi comuni per i dizionari
 
 - **Metodo `get()`**: Il metodo `get()` recupera il valore associato a una chiave. È simile alla notazione a parentesi, ma ti permette di impostare un valore predefinito, evitando errori se la chiave non esiste.
 
@@ -67,7 +67,7 @@ pizza.items()
 pizza.clear()
 ```
 
-- **Metodo `pop()`**: Il metodo `pop()` rimuove la coppia chiave-valore con la chiave specificata come primo argomento e restituisce il suo valore. Se la chiave non esiste, restituisce il valore predefinito specificato come secondo argomento. Se la chiave non esiste e il valore predefinito non è specificato, viene sollevata un'eccezione `KeyError`.
+- **Metodo `pop()`**: Il metodo `pop()` rimuove la coppia chiave-valore con la chiave specificata come primo argomento e restituisce il suo valore. Se la chiave non esiste, restituisce il valore predefinito specificato come secondo argomento. Se la chiave non esiste e il valore predefinito non è specificato, viene sollevato un `KeyError`.
 
 ```python
 pizza.pop('price', 10)
@@ -132,7 +132,7 @@ Tablet
 Headphones
 ```
 
-- **Iterare sulle coppie chiave-valore**: Se hai bisogno di iterare contemporaneamente sulle chiavi e sui rispettivi valori, puoi iterare su `products.items()`. Ottieni tuple individuali con le chiavi e i rispettivi valori.
+- **Iterare sulle coppie chiave-valore**: Se hai bisogno di iterare simultaneamente sulle chiavi e sui loro valori corrispondenti, puoi iterare su `products.items()`. Ottieni tuple individuali con le chiavi e i loro valori corrispondenti.
 
 ```python
 for product in products.items():
@@ -148,7 +148,7 @@ Output:
 ('Headphones', 70)
 ```
 
-Per memorizzare la chiave e il valore in variabili separate nel loop, devi separarli con una virgola. La prima variabile memorizza la chiave, la seconda memorizza il valore.
+Per memorizzare la chiave e il valore in variabili separate nel loop, devi separarli con una virgola. La prima variabile memorizza la chiave, la seconda il valore.
 
 ```python
 for product, price in products.items():
@@ -164,9 +164,9 @@ Tablet 250
 Headphones 70
 ```
 
-- **Funzione `enumerate()`**: Se hai bisogno di iterare su un dizionario tenendo traccia di un contatore, puoi chiamare la funzione `enumerate()`. La funzione restituisce un oggetto `enumerate`, che assegna un intero a ogni elemento, come un contatore. Puoi iniziare il contatore da qualsiasi numero, ma per impostazione predefinita parte da 0.
+- **Funzione `enumerate()`**: Se hai bisogno di iterare su un dizionario tenendo traccia di un contatore, puoi chiamare la funzione `enumerate()`. La funzione restituisce un oggetto `enumerate`, che assegna un numero intero a ogni elemento, come un contatore. Puoi iniziare il contatore da qualsiasi numero, ma per impostazione predefinita inizia da 0.
 
-Assegnare l'indice e l'elemento a variabili separate nel loop è il modo comune di usare `enumerate()`. Per esempio, con `products.items()` puoi ottenere l'intera coppia chiave-valore oltre all'indice:
+Assegnare l'indice e l'elemento a variabili separate nel loop è il modo comune di usare `enumerate()`. Per esempio, con `products.items()`, puoi ottenere l'intera coppia chiave-valore oltre all'indice:
 
 ```python
 for index, product in enumerate(products.items()):
@@ -182,7 +182,7 @@ Output:
 3 ('Headphones', 70)
 ```
 
-Per personalizzare il valore iniziale del contatore, puoi passare un secondo argomento a `enumerate()`. Per esempio, qui iniziamo il conteggio da 1.
+Per personalizzare il valore iniziale del conteggio, puoi passare un secondo argomento a `enumerate()`. Per esempio, qui iniziamo il conteggio da 1.
 
 ```python
 for index, product in enumerate(products.items(), 1):
@@ -198,47 +198,47 @@ Output:
 4 ('Headphones', 70)
 ```
 
-## Insiemi
+## Set
 
-- **Insiemi**: Gli insiemi sono strutture dati integrate in Python che non permettono valori duplicati. Gli insiemi sono mutabili e non ordinati, il che significa che i loro elementi non sono archiviati in un ordine specifico, quindi non puoi usare indici o chiavi per consultarli. Inoltre, gli insiemi possono contenere solo valori di tipi di dati immutabili, come numeri, stringhe e tuple.
+- **Set**: I set sono strutture dati integrate in Python che non permettono valori duplicati. I set sono mutabili e non ordinati, il che significa che i loro elementi non sono memorizzati in un ordine specifico, quindi non puoi usare indici o chiavi per consultarli. Inoltre, i set possono contenere solo valori di tipi di dati immutabili, come numeri, stringhe e tuple.
 
-- **Definire un insieme**: Per definire un insieme, devi scrivere i suoi elementi tra parentesi graffe e separarli con virgole.
+- **Definire un set**: Per definire un set, devi scrivere i suoi elementi all'interno di parentesi graffe e separarli con virgole.
 
 ```python
 my_set = {1, 2, 3, 4, 5}
 ```
 
-- **Definire un insieme vuoto**: Se hai bisogno di definire un insieme vuoto, devi usare la funzione `set()`. Scrivere solo parentesi graffe vuote creerà automaticamente un dizionario.
+- **Definire un set vuoto**: Se hai bisogno di definire un set vuoto, devi usare la funzione `set()`. Scrivere solo parentesi graffe vuote creerà automaticamente un dizionario.
 
 ```python
 set() # Set
 {}    # Dictionary
 ```
 
-## Metodi comuni degli insiemi
+## Metodi comuni per i set
 
-- **Metodo `add()`**: Puoi aggiungere un elemento a un insieme con il metodo `add()`, passando il nuovo elemento come argomento.
+- **Metodo `add()`**: Puoi aggiungere un elemento a un set con il metodo `add()`, passando il nuovo elemento come argomento.
 
 ```python
 my_set.add(6)
 ```
 
-- **Metodi `remove()` e `discard()`**: Per rimuovere un elemento da un insieme, puoi usare il metodo `remove()` oppure il metodo `discard()`, passando l'elemento che vuoi rimuovere come argomento. Il metodo `remove()` solleverà un'eccezione `KeyError` se l'elemento non viene trovato, mentre il metodo `discard()` no.
+- **Metodi `remove()` e `discard()`**: Per rimuovere un elemento da un set, puoi usare il metodo `remove()` o il metodo `discard()`, passando l'elemento che vuoi rimuovere come argomento. Il metodo `remove()` solleverà un `KeyError` se l'elemento non viene trovato mentre il metodo `discard()` no.
 
 ```python
 my_set.remove(4)
 my_set.discard(4)
 ```
 
-- **Metodo `clear()`**: Il metodo `clear()` rimuove tutti gli elementi dall'insieme.
+- **Metodo `clear()`**: Il metodo `clear()` rimuove tutti gli elementi dal set.
 
 ```python
 my_set.clear()
 ```
 
-## Operazioni matematiche sugli insiemi
+## Operazioni matematiche sui set
 
-- **Metodi `issubset()` e `issuperset()`**: I metodi `issubset()` e `issuperset()` verificano se un insieme è un sottoinsieme o un sovrainsieme di un altro insieme, rispettivamente.
+- **Metodi `issubset()` e `issuperset()`**: I metodi `issubset()` e `issuperset()` verificano se un set è un sottoinsieme o un sovrainsieme di un altro set, rispettivamente.
 
 ```python
 my_set = {1, 2, 3, 4, 5}
@@ -248,7 +248,7 @@ print(your_set.issubset(my_set)) # True
 print(my_set.issuperset(your_set)) # True
 ```
 
-- **Metodo `isdisjoint()`**: Il metodo `isdisjoint()` verifica se due insiemi sono disgiunti, cioè se non hanno elementi in comune.
+- **Metodo `isdisjoint()`**: Il metodo `isdisjoint()` verifica se due set sono disgiunti, cioè se non hanno elementi in comune.
 
 ```python
 my_set = {1, 2, 3}
@@ -257,7 +257,7 @@ your_set = {4, 5, 6}
 print(my_set.isdisjoint(your_set)) # True
 ```
 
-- **Operatore unione (`|`)**: L'operatore unione `|` restituisce un nuovo insieme con tutti gli elementi di entrambi gli insiemi.
+- **Operatore unione (`|`)**: L'operatore di unione `|` restituisce un nuovo set con tutti gli elementi di entrambi i set.
 
 ```python
 my_set = {1, 2, 3}
@@ -266,7 +266,7 @@ your_set = {4, 5, 6}
 my_set | your_set # {1, 2, 3, 4, 5, 6}
 ```
 
-- **Operatore intersezione (`&`)**: L'operatore intersezione `&` restituisce un nuovo insieme con solo gli elementi che gli insiemi hanno in comune.
+- **Operatore intersezione (`&`)**: L'operatore di intersezione `&` restituisce un nuovo set con solo gli elementi che i set hanno in comune.
 
 ```python
 my_set = {1, 2, 3, 4, 5}
@@ -275,7 +275,7 @@ your_set = {2, 3, 4, 6}
 my_set & your_set # {2, 3, 4}
 ```
 
-- **Operatore differenza (`-`)**: L'operatore differenza `-` restituisce un nuovo insieme con gli elementi del primo insieme che non sono negli altri insiemi.
+- **Operatore differenza (`-`)**: L'operatore di differenza `-` restituisce un nuovo set con gli elementi del primo set che non sono nell'altro set.
 
 ```python
 my_set = {1, 2, 3, 4, 5}
@@ -284,7 +284,7 @@ your_set = {2, 3, 4, 6}
 my_set - your_set # {1, 5}
 ```
 
-- **Operatore differenza simmetrica (`^`)**: L'operatore differenza simmetrica `^` restituisce un nuovo insieme con gli elementi che sono nel primo o nel secondo insieme, ma non in entrambi.
+- **Operatore differenza simmetrica (`^`)**: L'operatore di differenza simmetrica `^` restituisce un nuovo set con gli elementi che sono nel primo o nel secondo set, ma non in entrambi.
 
 ```python
 my_set = {1, 2, 3, 4, 5}
@@ -293,7 +293,7 @@ your_set = {2, 3, 4, 6}
 my_set ^ your_set # {1, 5, 6}
 ```
 
-- **Operatore `in`**: Puoi verificare se un elemento è in un insieme o no con l'operatore `in`.
+- **Operatore `in`**: Puoi verificare se un elemento è in un set o meno con l'operatore `in`.
 
 ```python
 print(5 in my_set) # True
@@ -301,7 +301,7 @@ print(5 in my_set) # True
 
 ## Libreria standard di Python
 
-- **Libreria standard di Python**: Una libreria ti offre codice pre-scritto e riutilizzabile, come funzioni, classi e strutture dati, che puoi riusare nei tuoi progetti. Python ha una libreria standard estesa con moduli integrati che implementano soluzioni standardizzate per molti problemi e attività. Alcuni esempi di moduli integrati popolari sono `math`, `random`, `re` (abbreviazione di "espressioni regolari") e `datetime`.
+- **Libreria standard di Python**: Una libreria ti offre codice pre-scritto e riutilizzabile, come funzioni, classi e strutture dati, che puoi riusare nei tuoi progetti. Python ha una vasta libreria standard con moduli integrati che implementano soluzioni standardizzate per molti problemi e attività. Alcuni esempi di moduli integrati popolari sono `math`, `random`, `re` (abbreviazione di "espressioni regolari") e `datetime`.
 
 ## Istruzione import
 
@@ -387,13 +387,13 @@ from math import *
 print(sqrt(36))  # 6.0
 ```
 
-Tuttavia, questo è generalmente sconsigliato perché può portare a collisioni di nomi e rendere più difficile sapere da dove provengono i nomi.
+Tuttavia, questo è generalmente sconsigliato perché può portare a collisioni di namespace e rendere più difficile sapere da dove provengono i nomi.
 
 ## `if __name__ == '__main__'`
 
-- **Variabile `__name__`**: `__name__` è una variabile integrata speciale in Python. Quando un file Python viene eseguito direttamente, Python imposta il valore di questa variabile alla stringa `"__main__"`. Ma se il file Python viene importato come modulo in un altro script Python, il valore della variabile `__name__` viene impostato al nome di quel modulo.
+- **Variabile `__name__`**: `__name__` è una variabile integrata speciale in Python. Quando un file Python viene eseguito direttamente, Python imposta il valore di questa variabile sulla stringa `"__main__"`. Ma se il file Python viene importato come modulo in un altro script Python, il valore della variabile `__name__` viene impostato sul nome di quel modulo.
 
-Per questo motivo troverai spesso questa condizione negli script Python. Contiene il codice che vuoi eseguire **solo** se lo script Python viene eseguito come programma principale.
+Ecco perché spesso trovi questa condizione negli script Python. Contiene il codice che vuoi eseguire **solo** se lo script Python viene eseguito come programma principale.
 
 ```python
 if __name__ == '__main__': 

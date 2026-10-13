@@ -7,9 +7,13 @@ dashedName: what-is-compatibility-testing
 
 # --description--
 
+## Lengo la Upimaji wa Ulinganifu
+
 Unapojenga programu za mtandao kwa kiwango kikubwa, utahitaji kufikiria zaidi ya mazingira yako binafsi ya kompyuta. Je, programu hizi zitafanya kazi vipi kwenye vifaa mbalimbali, mifumo ya uendeshaji, na vivinjari? Hapa ndipo upimaji wa ulinganifu unapoingia.
 
 Lengo la upimaji wa ulinganifu ni kuona jinsi programu zako zinavyofanya kazi vizuri katika mazingira tofauti ya kompyuta. Hii huwapa timu uwezo wa kugundua hitilafu kabla hazijafika kwenye uzalishaji na itasaidia kuchangia uzinduzi laini wa bidhaa.
+
+## Aina Mbalimbali za Upimaji wa Ulinganifu
 
 Aina tofauti za upimaji wa ulinganifu ni pamoja na ulinganifu wa nyuma na wa mbele, upimaji wa vifaa, mifumo ya uendeshaji, mitandao, vivinjari, na vifaa vya mkononi.
 
@@ -24,6 +28,8 @@ Aina inayofuata ya upimaji ni upimaji wa ulinganifu wa mitandao. Utakuwa na watu
 Kisha, kuna upimaji wa ulinganifu wa vivinjari. Kuna vivinjari maarufu kadhaa sokoni kama Google Chrome, Safari, Firefox, na vingine. Kwa kuwa vivinjari vyote hufanya kazi kwa njia tofauti kidogo, ni muhimu kupima programu yako ya mtandao kwa kina na kuhakikisha programu zako za mtandao zinafanya kazi kwa uthabiti katika vivinjari vingi.
 
 Aina ya mwisho ya upimaji ni upimaji wa vifaa vya mkononi. Kulikuwa na wakati katika ukuzaji wa mtandao ambapo wasanidi programu wengi hawakufikiria kupima kwa ajili ya vifaa vya mkononi. Hii ilikuwa kwa sababu, mwanzoni mwa miaka ya 2000, vifaa vya mkononi havikuwa na nguvu au kutumika sana kama ilivyo leo. Lakini sasa, mamilioni ya watu hutembelea tovuti kwa kutumia simu na vidonge. Kwa hivyo, ni muhimu kuhakikisha kuwa programu zako zinafanya kazi kwenye aina mbalimbali za vifaa vya Android na iOS.
+
+## Kwa Nini Upimaji wa Ulinganifu ni Muhimu
 
 Hizo ni baadhi tu ya aina za upimaji utakazohitaji kuzingatia unapoendelea kujenga programu zako. Ingawa hii inaweza kuonekana kama kazi ya ziada, ni muhimu kufanya upimaji wa ulinganifu kwa sababu unataka kuhakikisha programu zako zinafanya kazi katika mazingira mbalimbali ya kompyuta.
 

@@ -1125,7 +1125,7 @@
       "RAG inasimama kwa Retrieval-Augmented Generation. MCP inasimama kwa Model Context Protocol. Hizi ni mifumo yenye nguvu ya kujenga mawakala wa AI wanaoweza kupata taarifa kutoka kwa hifadhidata ya maarifa, kuzalisha majibu kulingana na taarifa hiyo, na kupanga hatua zao ipasavyo.",
       "Katika kozi hii, utajifunza misingi ya RAG na MCP na jinsi ya kuitekeleza katika miradi yako mwenyewe. Utachunguza sehemu za RAG na MCP, ikiwa ni pamoja na upatikanaji, uzalishaji, kumbukumbu, muktadha, na upangaji. Mwisho wa kozi hii, utakuwa na uelewa thabiti wa jinsi RAG na MCP zinavyofanya kazi na jinsi ya kuzitumia kujenga mawakala wenye akili."
     ],
-    "note": "",
+    "note": "Ili kupata upatikanaji wa maabara zote za kozi hii, utahitaji kwenda https://kode.wiki/4nzgBbW na kujisajili bure. Kutoka hapo, nenda https://learn.kodekloud.com/learn/courses/rag-mcp-fundamentals-a-hands-on-crash-course na jiandikishe kwa kozi hii bure.",
     "blocks": {
       "understanding-rag": {
         "title": "Kuelewa RAG",
@@ -5435,6 +5435,13 @@
         "title": "Mbinu za Kurekebisha Makosa",
         "intro": [
           "Katika masomo haya, utajifunza kuhusu hitilafu za kawaida katika JavaScript na mbinu unazoweza kutumia kuzirekebisha – mchakato unaoitwa kurekebisha makosa."
+        ]
+      },
+      "workshop-library-search": {
+        "title": "Jenga utaftaji wa vitabu vya maktaba",
+        "intro": [
+          "Katika warsha hii, utajifunza kushughulikia makosa kwa ustadi katika JavaScript.",
+          "Utajenga programu ya utaftaji wa vitabu vya maktaba na utatumia <code>try...catch...finally</code> pamoja na tamko la <code>throw</code> kushika na kusimamia makosa maalum."
         ]
       },
       "lab-random-background-color-changer": {
@@ -10999,6 +11006,98 @@
       "review-python": {
         "title": "Kagua Python",
         "intro": ["Kagua dhana za Python kujiandaa kwa mtihani ujao."]
+      }
+    }
+  },
+
+  "front-end-development": {
+    "title": "Ukuzaji wa mtandao wa mbele na cheti cha HTML, CSS, na JavaScript",
+    "intro": [
+      "Kamilisha miradi inayohitajika na pita mtihani ili kupata cheti cha ukuzaji wa mtandao wa mbele kwa HTML, CSS, na JavaScript."
+    ],
+    "chapters": {
+      "front-end-web-development": "Ukuzaji wa mtandao wa mbele kwa HTML, CSS, na JavaScript"
+    },
+    "modules": {
+      "html": "HTML"
+    },
+    "blocks": {
+      "workshop-curriculum-outline": {
+        "title": "Jenga muhtasari wa mtaala",
+        "intro": [
+          "Karibu freeCodeCamp!",
+          "Warsha hii itakuwa utangulizi wako kwa HTML na uandishi wa msimbo kwa ujumla. Utajifunza kuhusu vichwa vya sehemu na vipengele vya aya."
+        ]
+      },
+      "lecture-html-introduction": {
+        "title": "Utangulizi wa HTML",
+        "intro": [
+          "Katika masomo haya, utajifunza zaidi kuhusu HTML (HyperText Markup Language), lugha ya alama kwa ajili ya kuunda ukurasa wa mtandao.",
+          "Utajifunza kuhusu jukumu la HTML kwenye mtandao, na sifa za kipengele za HTML."
+        ]
+      },
+      "workshop-cat-photo-app": {
+        "title": "Jenga programu ya picha za paka",
+        "intro": [
+          "HTML inasimamia HyperText Markup Language na inawakilisha maudhui na muundo wa ukurasa wa mtandao.",
+          "Katika warsha hii, utajifunza jinsi ya kufanya kazi na vipengele vya msingi vya HTML kama vichwa vya sehemu, aya, picha, viungo, na orodha."
+        ]
+      },
+      "lab-recipe-page": {
+        "title": "Jenga ukurasa wa mapishi",
+        "intro": [
+          "Katika maabara hii, utakagua misingi ya HTML kwa kuunda ukurasa wa mtandao wa mapishi yako unayopenda. Utaunda muundo wa msingi wa HTML na kufanya kazi na vichwa vya sehemu, orodha, picha, na zaidi."
+        ]
+      },
+      "lecture-fundamental-html": {
+        "title": "Misingi ya HTML",
+        "intro": [
+          "Katika masomo haya, utajifunza misingi ya HTML kama kipengele cha <code>div</code>, sifa za <code>id</code> na <code>class</code>, muundo wa msingi wa HTML, entiti za HTML, na zaidi."
+        ]
+      },
+      "lecture-semantic-html": {
+        "title": "Umuhimu wa HTML ya maana",
+        "intro": [
+          "Katika masomo haya, utajifunza kuhusu HTML ya maana na kwa nini ni muhimu, vipengele vya maana, jinsi HTML ya maana inavyotofautiana na HTML ya uwasilishaji, na zaidi."
+        ]
+      },
+      "workshop-blog-page": {
+        "title": "Jenga ukurasa wa blogu wa paka",
+        "intro": [
+          "Katika warsha hii, utajenga ukurasa wa blogu wa HTML tu ukitumia vipengele vya maana ikiwa ni pamoja na <code>main</code>, <code>nav</code>, <code>article</code>, na <code>footer</code>."
+        ]
+      },
+      "lab-event-hub": {
+        "title": "Jenga kitovu cha matukio",
+        "intro": [
+          "Katika maabara hii, utajenga kitovu cha matukio na ukague vipengele vya maana kama <code>header</code>, <code>nav</code>, <code>article</code>, na zaidi."
+        ]
+      },
+      "lecture-importance-of-accessibility": {
+        "title": "Umuhimu wa ufikikaji",
+        "intro": [
+          "Katika masomo haya, utajifunza kuhusu ufikikaji na umuhimu wake, na jinsi ya kufanya msimbo wako wa HTML uwe rahisi kufikiwa."
+        ]
+      },
+      "workshop-hotel-feedback-form": {
+        "title": "Jenga fomu ya maoni ya hoteli",
+        "intro": [
+          "Katika warsha hii, utajenga fomu ya maoni ya hoteli.",
+          "Utajifunza kufanya kazi na vipengele vya <code>label</code>, <code>input</code>, <code>fieldset</code>, <code>legend</code>, <code>textarea</code>, na <code>button</code>."
+        ]
+      },
+      "lab-survey-form": {
+        "title": "Jenga fomu ya utafiti",
+        "intro": [
+          "Katika maabara hii, utakagua fomu za HTML kwa kuunda fomu ya utafiti.",
+          "Utajifunza kufanya kazi na kipengele cha <code>label</code>, vipengele tofauti vya <code>input</code>, sifa ya <code>required</code>, na zaidi."
+        ]
+      },
+      "workshop-final-exams-table": {
+        "title": "Jenga jedwali la mitihani ya mwisho",
+        "intro": [
+          "Katika warsha hii, utajifunza kufanya kazi na meza za HTML kwa kujenga jedwali la mitihani ya mwisho."
+        ]
       }
     }
   }

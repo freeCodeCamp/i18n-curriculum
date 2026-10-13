@@ -7,9 +7,13 @@ dashedName: what-is-compatibility-testing
 
 # --description--
 
+## O objetivo do teste de compatibilidade
+
 Quando você desenvolve aplicações web em larga escala, precisará pensar além do seu ambiente pessoal de computação. Como esses aplicativos funcionarão em uma variedade de dispositivos, sistemas operacionais e navegadores? Bem, é aqui que entra o teste de compatibilidade.
 
 O objetivo do teste de compatibilidade é verificar quão bem seu software funciona em uma variedade de diferentes ambientes de computação. Isso fornece à equipe a capacidade de detectar bugs antes que eles cheguem à produção e ajudará a contribuir para um lançamento de produto mais suave.
+
+## Diferentes tipos de teste de compatibilidade
 
 Diferentes tipos de testes de compatibilidade incluem compatibilidade retroativa e futura, testes de hardware, sistemas operacionais, redes, navegadores e dispositivos móveis.
 
@@ -24,6 +28,8 @@ O próximo tipo de teste é o teste de compatibilidade de rede. Você terá usu�
 Então, há o teste de compatibilidade do navegador. Existem alguns navegadores populares no mercado como Google Chrome, Safari, Firefox e mais. Como todos os navegadores funcionam de maneira um pouco diferente, é importante testar sua aplicação web minuciosamente e garantir que suas aplicações web funcionem de forma consistente em vários navegadores.
 
 O último tipo de teste é o teste móvel. Houve um tempo no desenvolvimento web em que a maioria dos desenvolvedores não pensava em testar para dispositivos móveis. Isso aconteceu porque, no início dos anos 2000, os dispositivos móveis não eram nem de longe tão poderosos ou amplamente usados como são hoje. Mas agora, dezenas de milhões de pessoas visitam sites em telefones e tablets. Portanto, é importante garantir que suas aplicações de software funcionem em uma variedade de dispositivos Android e iOS.
+
+## Por que os testes de compatibilidade são importantes
 
 Esses são apenas alguns tipos de testes que você precisará considerar ao desenvolver suas aplicações. Embora isso possa parecer muito trabalho extra, é importante realizar testes de compatibilidade porque você quer garantir que suas aplicações funcionem em uma variedade de ambientes computacionais.
 

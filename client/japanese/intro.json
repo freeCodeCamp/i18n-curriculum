@@ -1125,7 +1125,7 @@
       "RAGはRetrieval-Augmented Generationの略です。MCPはModel Context Protocolの略です。これらは知識ベースから情報を取得し、その情報に基づいてレスポンスを生成し、行動を計画するAIエージェントを構築するための強力なフレームワークです。",
       "このコースでは、RAGとMCPの基本と、それらを自分のプロジェクトに実装する方法を学びます。RAGとMCPのコンポーネントである取得、生成、メモリ、コンテキスト、計画について探求します。コース終了時には、RAGとMCPの仕組みと、それらを使ってインテリジェントなエージェントを構築する方法をしっかり理解できます。"
     ],
-    "note": "",
+    "note": "コースのすべてのラボにアクセスするには、https://kode.wiki/4nzgBbW にアクセスして無料登録してください。次に、https://learn.kodekloud.com/learn/courses/rag-mcp-fundamentals-a-hands-on-crash-course に移動して、無料でコースに登録してください。",
     "blocks": {
       "understanding-rag": {
         "title": "RAGの理解",
@@ -5435,6 +5435,13 @@
         "title": "デバッグ手法",
         "intro": [
           "この講義では、JavaScriptの一般的なエラーと、それらを修正するための手法、つまりデバッグについて学びます。"
+        ]
+      },
+      "workshop-library-search": {
+        "title": "図書館の本検索を作成する",
+        "intro": [
+          "このワークショップでは、JavaScriptでエラーを適切に処理する練習をします。",
+          "図書館の本検索アプリケーションを作成し、<code>try...catch...finally</code>ブロックと<code>throw</code>文を使ってカスタムエラーをキャッチし管理します。"
         ]
       },
       "lab-random-background-color-changer": {
@@ -10999,6 +11006,98 @@
       "review-python": {
         "title": "Pythonのレビュー",
         "intro": ["今後の試験に備えてPythonの概念を復習してください。"]
+      }
+    }
+  },
+
+  "front-end-development": {
+    "title": "HTML、CSS、JavaScriptによるフロントエンドウェブ開発認定",
+    "intro": [
+      "必要なプロジェクトを完了し、試験に合格してHTML、CSS、JavaScriptによるフロントエンドウェブ開発認定を取得してください。"
+    ],
+    "chapters": {
+      "front-end-web-development": "HTML、CSS、JavaScriptによるフロントエンドウェブ開発"
+    },
+    "modules": {
+      "html": "HTML"
+    },
+    "blocks": {
+      "workshop-curriculum-outline": {
+        "title": "カリキュラム概要を作成する",
+        "intro": [
+          "freeCodeCampへようこそ！",
+          "このワークショップはHTMLとコーディングの入門です。見出しや段落要素について学びます。"
+        ]
+      },
+      "lecture-html-introduction": {
+        "title": "HTML入門",
+        "intro": [
+          "この講義では、ウェブページ作成のためのマークアップ言語であるHTML（HyperText Markup Language）について詳しく学びます。",
+          "HTMLのウェブ上での役割とHTML属性について学びます。"
+        ]
+      },
+      "workshop-cat-photo-app": {
+        "title": "猫の写真アプリを作成する",
+        "intro": [
+          "HTMLはHyperText Markup Languageの略で、ウェブページの内容と構造を表します。",
+          "このワークショップでは、見出し、段落、画像、リンク、リストなどの基本的なHTML要素の扱い方を学びます。"
+        ]
+      },
+      "lab-recipe-page": {
+        "title": "レシピページを作成する",
+        "intro": [
+          "このラボでは、お気に入りのレシピのウェブページを作成してHTMLの基本を復習します。HTMLのボイラープレートを作成し、見出し、リスト、画像などを扱います。"
+        ]
+      },
+      "lecture-fundamental-html": {
+        "title": "HTMLの基本",
+        "intro": [
+          "この講義では、<code>div</code>要素、<code>id</code>と<code>class</code>属性、HTMLボイラープレート、HTMLエンティティなどのHTMLの基本を学びます。"
+        ]
+      },
+      "lecture-semantic-html": {
+        "title": "セマンティックHTMLの重要性",
+        "intro": [
+          "この講義では、セマンティックHTMLとは何か、その重要性、セマンティック要素、セマンティックHTMLとプレゼンテーションHTMLの違いなどを学びます。"
+        ]
+      },
+      "workshop-blog-page": {
+        "title": "猫のブログページを作成する",
+        "intro": [
+          "このワークショップでは、<code>main</code>、<code>nav</code>、<code>article</code>、<code>footer</code>などのセマンティック要素を使ってHTMLのみのブログページを作成します。"
+        ]
+      },
+      "lab-event-hub": {
+        "title": "イベントハブを作成する",
+        "intro": [
+          "このラボでは、イベントハブを作成し、<code>header</code>、<code>nav</code>、<code>article</code>などのセマンティック要素を復習します。"
+        ]
+      },
+      "lecture-importance-of-accessibility": {
+        "title": "アクセシビリティの重要性",
+        "intro": [
+          "この講義では、アクセシビリティとその重要性、HTMLコードをよりアクセシブルにする方法を学びます。"
+        ]
+      },
+      "workshop-hotel-feedback-form": {
+        "title": "ホテルフィードバックフォームを作成する",
+        "intro": [
+          "このワークショップでは、ホテルフィードバックフォームを作成します。",
+          "<code>label</code>、<code>input</code>、<code>fieldset</code>、<code>legend</code>、<code>textarea</code>、<code>button</code>要素の扱いを練習します。"
+        ]
+      },
+      "lab-survey-form": {
+        "title": "アンケートフォームを作成する",
+        "intro": [
+          "このラボでは、アンケートフォームを作成してHTMLフォームを復習します。",
+          "<code>label</code>要素、さまざまな<code>input</code>要素、<code>required</code>属性などの扱いを練習します。"
+        ]
+      },
+      "workshop-final-exams-table": {
+        "title": "期末試験テーブルを作成する",
+        "intro": [
+          "このワークショップでは、期末試験のテーブルを作成してHTMLテーブルの扱いを練習します。"
+        ]
       }
     }
   }

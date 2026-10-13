@@ -7,9 +7,13 @@ dashedName: what-is-compatibility-testing
 
 # --description--
 
+## El objetivo de las pruebas de compatibilidad
+
 Cuando creas aplicaciones web a gran escala, necesitarás pensar más allá de tu entorno informático personal. ¿Cómo funcionarán estas aplicaciones en una variedad de dispositivos, sistemas operativos y navegadores? Bueno, aquí es donde entra la prueba de compatibilidad.
 
 El objetivo de la prueba de compatibilidad es ver qué tan bien funciona tu software en una variedad de entornos informáticos. Esto proporciona al equipo la capacidad de detectar errores antes de que lleguen a producción y ayudará a contribuir a un lanzamiento de producto más fluido.
+
+## Diferentes tipos de pruebas de compatibilidad
 
 Los diferentes tipos de pruebas de compatibilidad incluyen compatibilidad hacia atrás y hacia adelante, pruebas de hardware, sistemas operativos, redes, navegadores y dispositivos móviles.
 
@@ -24,6 +28,8 @@ El siguiente tipo de prueba es la prueba de compatibilidad de red. Tendrás usua
 Luego, está la prueba de compatibilidad de navegadores. Hay algunos navegadores populares en el mercado como Google Chrome, Safari, Firefox y más. Dado que todos los navegadores funcionan de manera ligeramente diferente, es importante probar tu aplicación web a fondo y asegurarte de que funcionan de manera consistente en muchos navegadores.
 
 El último tipo de prueba es la prueba móvil. Hubo un tiempo en el desarrollo web cuando la mayoría de los desarrolladores no pensaban en probar para dispositivos móviles. Esto se debía a que, a principios de la década de 2000, los dispositivos móviles no eran tan potentes o utilizados como lo son hoy en día. Pero ahora, decenas de millones de personas visitan sitios web en teléfonos y tabletas. Por lo tanto, es importante garantizar que tus aplicaciones de software funcionen en una variedad de dispositivos Android y iOS.
+
+## Por qué importan las pruebas de compatibilidad
 
 Estos son solo algunos tipos de pruebas que necesitarás considerar al desarrollar tus aplicaciones. Aunque esto pueda parecer mucho trabajo extra, es importante realizar pruebas de compatibilidad porque quieres asegurarte de que tus aplicaciones funcionen en una variedad de entornos informáticos.
 
