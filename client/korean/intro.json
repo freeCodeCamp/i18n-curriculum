@@ -1613,9 +1613,9 @@
         ]
       },
       "workshop-pin-extractor": {
-        "title": "핀 추출기 만들기",
+        "title": "PIN 추출기 만들기",
         "intro": [
-          "이 워크숍에서 시에 숨겨진 비밀 핀을 추출하는 함수를 만드세요."
+          "이 워크숍에서는 시에 숨겨진 비밀 PIN을 추출하는 함수를 만듭니다."
         ]
       },
       "lab-number-pattern-generator": {
@@ -1699,7 +1699,7 @@
       "lab-isbn-validator": {
         "title": "ISBN 검증기 디버그하기",
         "intro": [
-          "이 실습에서는 버그가 있는 애플리케이션으로 시작해 버그를 디버그하고 수정하여 제대로 작동하도록 만드세요."
+          "이 실습에서는 제공된 Python 코드를 수정하여 ISBN 검증기의 버그를 디버그합니다."
         ]
       },
       "review-error-handling": {
@@ -1809,7 +1809,9 @@
       },
       "lecture-understanding-abstraction": {
         "title": "추상화 이해하기",
-        "intro": ["이 수업에서 추상화에 대해 배우세요."]
+        "intro": [
+          "이 수업에서 추상화와 Python의 추상 클래스를 다루는 방법을 배우세요."
+        ]
       },
       "workshop-discount-calculator": {
         "title": "할인 계산기 만들기",
@@ -1836,9 +1838,9 @@
         ]
       },
       "quiz-object-oriented-programming": {
-        "title": "객체 지향 프로그래밍 퀴즈",
+        "title": "객체지향 프로그래밍 퀴즈",
         "intro": [
-          "이 퀴즈로 Python의 객체 지향 프로그래밍에 대해 배운 내용을 테스트하세요."
+          "이 퀴즈로 Python 객체지향 프로그래밍에 대해 배운 내용을 테스트하세요."
         ]
       }
     }
@@ -3034,6 +3036,13 @@
         "title": "디버깅 기법",
         "intro": [
           "이 강의에서는 JavaScript의 일반적인 오류와 이를 고치는 기법인 디버깅에 대해 배웁니다."
+        ]
+      },
+      "workshop-library-search": {
+        "title": "도서관 도서 검색 만들기",
+        "intro": [
+          "이 워크숍에서는 JavaScript에서 오류를 우아하게 처리하는 연습을 합니다.",
+          "도서관 도서 검색 애플리케이션을 만들고 <code>try...catch...finally</code> 블록과 <code>throw</code> 문을 사용해 사용자 정의 오류를 잡고 관리하세요."
         ]
       },
       "lab-random-background-color-changer": {
@@ -5065,6 +5074,12 @@
           "이 실습에서는 JavaScript 반복문을 사용해 신호등 순서기를 만듭니다."
         ]
       },
+      "workshop-campus-directory-normalizer": {
+        "title": "캠퍼스 디렉터리 표준화기 만들기",
+        "intro": [
+          "이 워크숍에서는 중첩된 데이터를 독립적이고 사용하기 쉬운 조회 표로 표준화합니다."
+        ]
+      },
       "lab-proofreading-tool": {
         "title": "교정 도구 만들기",
         "intro": [
@@ -6595,9 +6610,9 @@
         ]
       },
       "workshop-pin-extractor": {
-        "title": "핀 추출기 만들기",
+        "title": "PIN 추출기 만들기",
         "intro": [
-          "이 워크숍에서는 시에 숨겨진 비밀 핀을 추출하는 함수를 만드세요."
+          "이 워크숍에서는 시에 숨겨진 비밀 PIN을 추출하는 함수를 만듭니다."
         ]
       },
       "lab-number-pattern-generator": {
@@ -6661,7 +6676,7 @@
       "lab-isbn-validator": {
         "title": "ISBN 검증기 디버그하기",
         "intro": [
-          "이 실습에서는 버그가 있는 애플리케이션을 시작으로 버그를 디버그하고 수정해 제대로 작동하게 만드세요."
+          "이 실습에서는 제공된 Python 코드를 수정하여 ISBN 검증기의 버그를 디버그합니다."
         ]
       },
       "review-error-handling": {
@@ -6749,7 +6764,9 @@
       },
       "lecture-understanding-abstraction": {
         "title": "추상화 이해하기",
-        "intro": ["이 수업들에서 추상화에 대해 배우세요."]
+        "intro": [
+          "이 수업에서 추상화와 Python의 추상 클래스를 다루는 방법을 배우세요."
+        ]
       },
       "workshop-discount-calculator": {
         "title": "할인 계산기 만들기",
@@ -6770,9 +6787,9 @@
         ]
       },
       "quiz-object-oriented-programming": {
-        "title": "객체 지향 프로그래밍 퀴즈",
+        "title": "객체지향 프로그래밍 퀴즈",
         "intro": [
-          "이 퀴즈로 파이썬 객체 지향 프로그래밍에 대해 배운 내용을 테스트하세요."
+          "이 퀴즈로 Python 객체지향 프로그래밍에 대해 배운 내용을 테스트하세요."
         ]
       },
       "lab-polygon-area-calculator": {
@@ -6927,7 +6944,7 @@
       "workshop-breadth-first-search": {
         "title": "너비 우선 탐색 알고리즘 구현",
         "intro": [
-          "이 워크숍에서는 너비 우선 탐색 알고리즘을 사용해 모든 유효한 소괄호 조합을 생성하세요."
+          "이 워크숍에서는 너비 우선 탐색 알고리즘을 사용해 모든 유효한 소괄호 조합을 생성합니다."
         ]
       },
       "lab-depth-first-search": {
@@ -10587,9 +10604,9 @@
         ]
       },
       "workshop-pin-extractor": {
-        "title": "핀 추출기 만들기",
+        "title": "PIN 추출기 만들기",
         "intro": [
-          "이 워크숍에서 시에 숨겨진 비밀 핀을 추출하는 함수를 만드세요."
+          "이 워크숍에서는 시에 숨겨진 비밀 PIN을 추출하는 함수를 만듭니다."
         ]
       },
       "lab-number-pattern-generator": {
@@ -10653,7 +10670,7 @@
       "lab-isbn-validator": {
         "title": "ISBN 검증기 디버그하기",
         "intro": [
-          "이 실습에서는 버그가 있는 애플리케이션으로 시작해 버그를 디버그하고 수정하여 제대로 작동하게 만드세요."
+          "이 실습에서는 제공된 Python 코드를 수정하여 ISBN 검증기의 버그를 디버그합니다."
         ]
       },
       "review-error-handling": {
@@ -10741,7 +10758,9 @@
       },
       "lecture-understanding-abstraction": {
         "title": "추상화 이해하기",
-        "intro": ["이 수업에서 추상화에 대해 배우세요."]
+        "intro": [
+          "이 수업에서 추상화와 Python의 추상 클래스를 다루는 방법을 배우세요."
+        ]
       },
       "workshop-discount-calculator": {
         "title": "할인 계산기 만들기",
@@ -10762,9 +10781,9 @@
         ]
       },
       "quiz-object-oriented-programming": {
-        "title": "객체 지향 프로그래밍 퀴즈",
+        "title": "객체지향 프로그래밍 퀴즈",
         "intro": [
-          "이 퀴즈로 Python의 객체 지향 프로그래밍에 대해 배운 내용을 테스트하세요."
+          "이 퀴즈로 Python 객체지향 프로그래밍에 대해 배운 내용을 테스트하세요."
         ]
       },
       "lab-polygon-area-calculator": {
@@ -10779,69 +10798,131 @@
       }
     }
   },
-  "algorithms-and-data-structure": {
-    "title": "알고리즘과 자료 구조 인증서",
+  "algorithms-and-data-structures": {
+    "title": "알고리즘 및 자료 구조 인증서",
     "intro": [
       "이 과정에서는 Python의 자료 구조와 알고리즘을 다룹니다.",
-      "필수 프로젝트를 완료하고 시험에 합격하면 알고리즘과 자료 구조 인증서를 받습니다."
+      "필수 프로젝트를 완료하고 시험에 합격하면 알고리즘 및 자료 구조 인증서를 받습니다."
     ],
     "chapters": {
-      "algorithms-and-data-structure": "알고리즘과 자료 구조"
+      "algorithms-and-data-structures": "알고리즘 및 자료 구조"
     },
     "modules": {
-      "python-linear-data-structures": "선형 자료 구조",
-      "lab-hash-table": "해시 테이블 만들기",
-      "python-recursion": "재귀",
       "python-algorithms": "알고리즘",
+      "lab-bisection-method": "이분법 구현하기",
+      "python-linear-data-structures": "선형 자료 구조",
+      "lab-circular-queue": "원형 큐 만들기",
+      "python-recursion": "재귀",
       "lab-tower-of-hanoi": "하노이 탑 알고리즘 구현하기",
-      "python-graphs-and-trees": "그래프와 트리",
+      "non-linear-data-structures": "비선형 자료 구조",
+      "lab-paint-bucket-tool": "페인트 버킷 도구 만들기",
       "python-dynamic-programming": "동적 프로그래밍",
-      "review-python": "Python 복습"
+      "lab-knapsack-algorithm": "배낭 문제 알고리즘 구현하기",
+      "review-python-algorithms-and-data-structures": "알고리즘 및 자료 구조 복습"
     },
     "module-intros": {
+      "lab-circular-queue": {
+        "note": "2026년 출시 예정",
+        "intro": [
+          "이 실습에서는 빈 슬롯을 재사용하기 위해 감싸는 고정 크기 원형 큐를 만듭니다."
+        ]
+      },
       "python-recursion": {
         "intro": [
-          "이 모듈에서는 Python에서 재귀와 호출 스택이 어떻게 작동하는지 배웁니다."
+          "이 모듈에서는 재귀와 호출 스택이 Python에서 어떻게 작동하는지 배웁니다."
+        ]
+      },
+      "lab-paint-bucket-tool": {
+        "note": "2026년 출시 예정",
+        "intro": [
+          "이 실습에서는 그래프 탐색을 사용해 그리드의 연결된 영역을 채우는 페인트 버킷 도구를 만듭니다."
+        ]
+      },
+      "lab-knapsack-algorithm": {
+        "note": "2026년 출시 예정",
+        "intro": [
+          "이 실습에서는 동적 프로그래밍을 사용해 배낭 문제를 해결합니다."
         ]
       }
     },
     "blocks": {
-      "lecture-working-with-common-data-structures": {
+      "lecture-understanding-algorithms-and-big-o": {
+        "title": "알고리즘과 빅오 표기법 이해하기",
+        "intro": [
+          "이 수업에서 알고리즘이 무엇인지, 빅오 표기법으로 분석하는 방법, 알고리즘 문제에 접근하는 좋은 기법을 배웁니다."
+        ]
+      },
+      "lecture-searching-and-sorting-algorithms-v2": {
+        "title": "검색 및 정렬 알고리즘",
+        "intro": [
+          "이 수업에서 이진 검색이 어떻게 작동하는지, 선형 검색과 어떻게 다른지 배웁니다."
+        ]
+      },
+      "workshop-binary-search": {
+        "title": "이진 검색 알고리즘 구현하기",
+        "intro": [
+          "이진 검색 알고리즘은 정렬된 목록에서 목표 항목을 찾는 검색 알고리즘입니다.",
+          "이 워크숍에서는 이진 검색 알고리즘을 구현하고 목표를 찾은 경로를 반환하거나 '값을 찾을 수 없음'을 반환합니다."
+        ]
+      },
+      "lab-selection-sort": {
+        "title": "선택 정렬 알고리즘 구현하기",
+        "intro": [
+          "이 실습에서는 선택 정렬 알고리즘을 구현합니다."
+        ]
+      },
+      "review-python-algorithms": {
+        "title": "알고리즘 복습",
+        "intro": [
+          "퀴즈 전에 빅오 표기법, 문제 해결 기법, 검색 및 정렬 알고리즘에 대해 배운 내용을 복습하세요."
+        ]
+      },
+      "quiz-python-algorithms": {
+        "title": "알고리즘 퀴즈",
+        "intro": [
+          "이 퀴즈로 Python 알고리즘에 대해 배운 내용을 테스트하세요."
+        ]
+      },
+      "lab-bisection-method": {
+        "title": "이분법 구현하기",
+        "intro": [
+          "이 실습에서는 수의 제곱근을 찾기 위해 이분법을 구현합니다."
+        ]
+      },
+      "lecture-working-with-common-data-structures-v2": {
         "title": "일반 자료 구조 다루기",
         "intro": [
-          "이 수업들에서 일반 자료 구조를 다루는 방법을 배웁니다."
+          "이 수업에서 동적 및 정적 배열, 단일 및 이중 연결 리스트, 스택, 큐에 대해 배웁니다."
         ]
       },
       "workshop-linked-list-class": {
         "title": "연결 리스트 만들기",
         "intro": [
-          "이 워크숍에서는 자료 구조를 다루는 연습으로 연결 리스트를 만듭니다."
+          "이 워크숍에서는 연결 리스트를 만들어 자료 구조를 다루는 연습을 합니다."
         ]
       },
-      "review-data-structures": {
-        "title": "자료 구조 복습",
+      "review-linear-data-structures": {
+        "title": "선형 자료 구조 복습",
         "intro": [
-          "자료 구조 퀴즈 전에 배운 내용을 복습하세요.",
-          "이 페이지를 열어 다양한 자료 구조, 알고리즘, 시간 및 공간 복잡도, 빅오 표기법 같은 개념을 복습하세요."
+          "퀴즈 전에 배열, 연결 리스트, 스택, 큐에 대해 배운 내용을 복습하세요."
         ]
       },
-      "quiz-data-structures": {
-        "title": "자료 구조 퀴즈",
+      "quiz-linear-data-structures": {
+        "title": "선형 자료 구조 퀴즈",
         "intro": [
-          "이 퀴즈로 Python 자료 구조에 대한 이해도를 테스트하세요."
+          "이 퀴즈로 Python 선형 자료 구조에 대해 배운 내용을 테스트하세요."
         ]
       },
-      "lab-hash-table": {
-        "title": "해시 테이블 만들기",
+      "lab-circular-queue": {
+        "title": "원형 큐 만들기",
         "intro": [
-          "해시 테이블은 키-값 쌍을 저장하고 빠른 조회에 최적화된 자료 구조입니다.",
-          "이 실습에서는 자료 구조 지식을 활용해 해시 테이블을 만듭니다."
+          "이 실습에서는 빈 슬롯을 재사용하기 위해 감싸는 고정 크기 원형 큐를 만듭니다."
         ]
       },
       "lecture-understanding-recursion-and-the-call-stack-python": {
         "title": "재귀와 호출 스택 이해하기",
         "intro": [
-          "이 강의에서는 Python에서 재귀 함수와 호출 스택이 어떻게 작동하는지 배웁니다."
+          "이 강의에서 재귀 함수와 호출 스택이 Python에서 어떻게 작동하는지 배웁니다."
         ]
       },
       "workshop-countup-python": {
@@ -10853,76 +10934,38 @@
       "lab-range-of-numbers-python": {
         "title": "숫자 범위 생성기 만들기",
         "intro": [
-          "이 실습에서는 재귀를 사용해 지정한 범위 내 숫자 목록을 생성합니다."
+          "이 실습에서는 재귀를 사용해 지정된 범위 내 숫자 목록을 생성합니다."
         ]
       },
-      "review-recursion-python": {
-        "title": "재귀 복습",
+      "lecture-understanding-divide-and-conquer": {
+        "title": "분할 정복 이해하기",
         "intro": [
-          "재귀, 기본 사례, 호출 스택 개념을 복습하세요."
-        ]
-      },
-      "quiz-recursion-python": {
-        "title": "재귀 퀴즈",
-        "intro": [
-          "재귀, 기본 사례, 호출 스택에 대한 이해도를 테스트하세요."
-        ]
-      },
-      "lecture-searching-and-sorting-algorithms": {
-        "title": "검색 및 정렬 알고리즘",
-        "intro": [
-          "선형 검색, 이진 검색, 병합 정렬 등 기본 검색 및 정렬 알고리즘에 대해 배웁니다.",
-          "이 수업들은 알고리즘 구현, 시간 및 공간 복잡도 분석, 분할 정복 프로그래밍 패러다임을 다룹니다."
-        ]
-      },
-      "workshop-binary-search": {
-        "title": "이진 검색 알고리즘 구현하기",
-        "intro": [
-          "이진 검색 알고리즘은 정렬된 목록에서 목표 항목을 찾는 검색 알고리즘입니다.",
-          "이 워크숍에서는 이진 검색 알고리즘을 구현하고 목표를 찾은 경로나 '값을 찾을 수 없음'을 반환합니다."
-        ]
-      },
-      "lab-bisection-method": {
-        "title": "이분법 구현하기",
-        "intro": [
-          "이 실습에서는 이분법을 구현해 숫자의 제곱근을 찾습니다."
+          "이 수업에서는 분할 정복 패러다임과 병합 정렬 알고리즘이 어떻게 작동하는지 배웁니다."
         ]
       },
       "workshop-merge-sort": {
         "title": "병합 정렬 알고리즘 구현하기",
         "intro": [
           "병합 정렬 알고리즘은 분할 정복 원리에 기반한 정렬 알고리즘입니다.",
-          "이 워크숍에서는 병합 정렬 알고리즘을 구현해 무작위 숫자 목록을 정렬합니다."
+          "이 워크숍에서는 무작위 숫자 목록을 정렬하기 위해 병합 정렬 알고리즘을 구현합니다."
         ]
       },
       "lab-quicksort": {
         "title": "퀵정렬 알고리즘 구현하기",
         "intro": [
-          "이 실습에서는 퀵정렬 알고리즘을 구현해 정수 목록을 정렬합니다."
+          "이 실습에서는 정수 목록을 정렬하기 위해 퀵정렬 알고리즘을 구현합니다."
         ]
       },
-      "lab-selection-sort": {
-        "title": "선택 정렬 알고리즘 구현하기",
+      "review-recursion-python-v2": {
+        "title": "재귀 복습",
         "intro": [
-          "이 실습에서는 선택 정렬 알고리즘을 구현합니다."
+          "재귀, 기본 사례, 호출 스택 개념을 복습하세요."
         ]
       },
-      "lab-luhn-algorithm": {
-        "title": "Luhn 알고리즘 구현하기",
+      "quiz-recursion-python-v2": {
+        "title": "재귀 퀴즈",
         "intro": [
-          "이 실습에서는 신용카드 번호와 같은 식별 번호를 검증하기 위해 Luhn 알고리즘을 구현합니다."
-        ]
-      },
-      "review-searching-and-sorting-algorithms": {
-        "title": "검색 및 정렬 알고리즘 검토",
-        "intro": [
-          "검색 및 정렬 알고리즘 퀴즈 전에 배운 내용을 검토하세요."
-        ]
-      },
-      "quiz-searching-and-sorting-algorithms": {
-        "title": "검색 및 정렬 알고리즘 퀴즈",
-        "intro": [
-          "이 퀴즈로 Python에서 검색 및 정렬 알고리즘에 대해 배운 내용을 테스트하세요."
+          "재귀, 기본 사례, 호출 스택에 대한 이해도를 테스트하세요."
         ]
       },
       "lab-tower-of-hanoi": {
@@ -10931,16 +10974,23 @@
           "이 실습에서는 하노이 탑 퍼즐을 해결하는 알고리즘을 구현합니다."
         ]
       },
-      "lecture-understanding-graphs-and-trees": {
-        "title": "그래프와 트리 이해하기",
+      "lecture-working-with-hash-maps-and-sets": {
+        "title": "해시 맵과 세트 다루기",
         "intro": [
-          "이 수업에서는 그래프, 트리 같은 기본 자료 구조와 컴퓨터 과학에서의 실제 애플리케이션을 배웁니다."
+          "이 수업에서는 맵, 해시 맵, 세트가 어떻게 작동하는지 배웁니다."
         ]
       },
-      "workshop-shortest-path-algorithm": {
-        "title": "최단 경로 알고리즘 구현하기",
+      "lab-hash-table": {
+        "title": "해시 테이블 만들기",
         "intro": [
-          "이 워크숍에서는 그래프에서 두 노드 사이의 최단 경로를 찾는 알고리즘을 구현합니다."
+          "해시 테이블은 키-값 쌍을 저장하고 빠른 조회에 최적화된 자료 구조입니다.",
+          "이 실습에서는 자료 구조 지식을 활용해 해시 테이블을 만듭니다."
+        ]
+      },
+      "lecture-understanding-graphs": {
+        "title": "그래프 이해하기",
+        "intro": [
+          "이 수업들에서는 그래프, 깊이 우선 탐색, 너비 우선 탐색, 그리고 인접 행렬과 인접 리스트로 그래프를 나타내는 방법을 배웁니다."
         ]
       },
       "lab-adjacency-list-to-matrix-converter": {
@@ -10949,40 +10999,58 @@
           "이 실습에서는 그래프의 인접 리스트 표현을 인접 행렬 표현으로 변환하는 함수를 구현합니다."
         ]
       },
-      "workshop-breadth-first-search": {
-        "title": "너비 우선 탐색 알고리즘 구현하기",
-        "intro": [
-          "이 워크숍에서는 너비 우선 탐색 알고리즘을 사용해 모든 유효한 소괄호 조합을 생성합니다."
-        ]
-      },
       "lab-depth-first-search": {
         "title": "깊이 우선 탐색 알고리즘 구현하기",
         "intro": [
           "이 실습에서는 깊이 우선 탐색 알고리즘을 구현합니다."
         ]
       },
+      "workshop-shortest-path-algorithm": {
+        "title": "최단 경로 알고리즘 구현하기",
+        "intro": [
+          "이 워크숍에서는 그래프 내 두 노드 사이의 최단 경로를 찾는 알고리즘을 구현합니다."
+        ]
+      },
       "lab-n-queens-problem": {
         "title": "N-퀸 알고리즘 구현하기",
         "intro": [
-          "이 실습에서는 N-퀸 문제에 대한 해결책을 구현합니다."
+          "이 실습에서는 N-퀸 문제 해결 알고리즘을 구현합니다."
         ]
       },
-      "review-graphs-and-trees": {
-        "title": "그래프와 트리 검토",
+      "lecture-understanding-trees-and-tries": {
+        "title": "트리와 트라이 이해하기",
         "intro": [
-          "그래프와 트리 퀴즈 전에 배운 내용을 검토하세요."
+          "이 수업에서는 트리와 트라이가 무엇이며 어떻게 작동하는지 배웁니다."
         ]
       },
-      "quiz-graphs-and-trees": {
-        "title": "그래프와 트리 퀴즈",
+      "lecture-understanding-priority-queues-and-heaps": {
+        "title": "우선순위 큐와 힙 이해하기",
         "intro": [
-          "이 퀴즈로 Python에서 그래프와 트리에 대해 배운 내용을 테스트하세요."
+          "이 수업에서는 우선순위 큐와 힙이 어떻게 작동하는지 배웁니다."
+        ]
+      },
+      "review-non-linear-data-structures": {
+        "title": "비선형 자료 구조 복습",
+        "intro": [
+          "비선형 자료 구조 퀴즈 전에 해시 맵, 세트, 그래프, 트리, 트라이, 힙에 대해 배운 내용을 복습하세요."
+        ]
+      },
+      "quiz-non-linear-data-structures": {
+        "title": "비선형 자료 구조 퀴즈",
+        "intro": [
+          "이 퀴즈로 파이썬 비선형 자료 구조에 대해 배운 내용을 테스트하세요."
+        ]
+      },
+      "lab-paint-bucket-tool": {
+        "title": "페인트 버킷 도구 만들기",
+        "intro": [
+          "이 실습에서는 그래프 탐색을 사용해 그리드의 연결된 영역을 채우는 페인트 버킷 도구를 만듭니다."
         ]
       },
       "lecture-understanding-dynamic-programming": {
         "title": "동적 프로그래밍 이해하기",
         "intro": [
-          "이 수업에서는 복잡한 문제를 더 단순한 하위 문제로 나누어 효율적으로 해결하는 알고리즘 기법인 동적 프로그래밍을 배웁니다."
+          "이 수업에서는 복잡한 문제를 더 단순한 하위 문제로 나누어 효율적으로 해결하는 알고리즘 기법인 동적 프로그래밍에 대해 배웁니다."
         ]
       },
       "lab-nth-fibonacci-number": {
@@ -10992,34 +11060,42 @@
         ]
       },
       "review-dynamic-programming": {
-        "title": "동적 프로그래밍 검토",
+        "title": "동적 프로그래밍 복습",
         "intro": [
-          "동적 프로그래밍 퀴즈 전에 배운 내용을 검토하세요."
+          "동적 프로그래밍 퀴즈 전에 배운 내용을 복습하세요."
         ]
       },
       "quiz-dynamic-programming": {
         "title": "동적 프로그래밍 퀴즈",
         "intro": [
-          "이 퀴즈로 Python에서 동적 프로그래밍에 대해 배운 내용을 테스트하세요."
+          "이 퀴즈로 파이썬 동적 프로그래밍에 대해 배운 내용을 테스트하세요."
         ]
       },
-      "review-python": {
-        "title": "Python 검토",
-        "intro": ["다가오는 시험을 준비하기 위해 Python 개념을 검토하세요."]
+      "lab-knapsack-algorithm": {
+        "title": "배낭 문제 알고리즘 구현하기",
+        "intro": [
+          "이 실습에서는 동적 프로그래밍을 사용해 배낭 문제를 해결합니다."
+        ]
+      },
+      "review-python-algorithms-and-data-structures": {
+        "title": "알고리즘과 자료 구조 복습",
+        "intro": [
+          "다가오는 시험을 준비하기 위해 알고리즘과 자료 구조 개념을 복습하세요."
+        ]
       }
     }
   },
-
   "front-end-development": {
     "title": "HTML, CSS, JavaScript를 이용한 프론트엔드 웹 개발 인증",
     "intro": [
       "필수 프로젝트를 완료하고 시험에 합격해 HTML, CSS, JavaScript를 이용한 프론트엔드 웹 개발 인증을 받으세요."
     ],
     "chapters": {
-      "front-end-web-development": "HTML, CSS, JavaScript를 이용한 프론트엔드 웹 개발"
+      "front-end-development": "HTML, CSS, JavaScript를 활용한 프론트엔드 웹 개발"
     },
     "modules": {
-      "html": "HTML"
+      "html": "HTML",
+      "css": "CSS"
     },
     "blocks": {
       "workshop-curriculum-outline": {
@@ -11029,11 +11105,11 @@
           "이 워크숍은 HTML과 코딩 전반에 대한 소개입니다. 제목과 문단 요소에 대해 배우세요."
         ]
       },
-      "lecture-html-introduction": {
+      "lecture-understanding-html-attributes": {
         "title": "HTML 소개",
         "intro": [
-          "이 강의에서 웹 페이지를 만드는 마크업 언어인 HTML(HyperText Markup Language)에 대해 자세히 배우세요.",
-          "웹에서 HTML의 역할과 HTML 속성이 무엇인지 배우세요."
+          "이 강의들에서는 웹 페이지를 만들기 위한 마크업 언어인 HTML(HyperText Markup Language)에 대해 더 배웁니다.",
+          "웹에서 HTML의 역할과 HTML 속성에 대해 배웁니다."
         ]
       },
       "workshop-cat-photo-app": {
@@ -11086,17 +11162,236 @@
           "<code>label</code>, <code>input</code>, <code>fieldset</code>, <code>legend</code>, <code>textarea</code>, <code>button</code> 요소를 다루는 연습을 하세요."
         ]
       },
-      "lab-survey-form": {
-        "title": "설문조사 폼 만들기",
+      "lab-survey-form-v2": {
+        "title": "설문조사 양식 만들기",
         "intro": [
-          "이 실습에서 설문조사 폼을 만들어 HTML 폼을 복습하세요.",
-          "<code>label</code> 요소, 다양한 <code>input</code> 요소, <code>required</code> 속성 등을 다루는 연습을 하세요."
+          "이 실습에서는 설문조사 양식을 만들어 HTML 폼을 복습합니다.",
+          "<code>label</code> 요소, 다양한 <code>input</code> 요소, <code>required</code> 속성 등을 다루는 연습을 합니다."
         ]
       },
       "workshop-final-exams-table": {
         "title": "기말 시험 표 만들기",
         "intro": [
           "이 워크숍에서 기말 시험 표를 만들어 HTML 표를 다루는 연습을 하세요."
+        ]
+      },
+      "review-html-v2": {
+        "title": "HTML 복습",
+        "intro": [
+          "HTML 퀴즈 전에 이전 모듈에서 배운 개념을 먼저 복습하세요.",
+          "이 페이지를 열어 HTML 요소 기본, 시맨틱 HTML, 표, 폼, 접근성 관련 개념을 복습하세요."
+        ]
+      },
+      "quiz-html": {
+        "title": "HTML 퀴즈",
+        "intro": [
+          "다음 퀴즈로 지금까지 배운 HTML 개념을 테스트하세요."
+        ]
+      },
+      "lecture-introduction-to-css": {
+        "title": "CSS 소개",
+        "intro": [
+          "이 강의들에서는 CSS가 무엇인지, 웹에서의 역할, 인라인과 블록 레벨 요소의 차이, 인라인-블록 작동 방식을 배웁니다."
+        ]
+      },
+      "workshop-cafe-menu": {
+        "title": "카페 메뉴 디자인하기",
+        "intro": [
+          "CSS는 브라우저가 웹 페이지를 어떻게 표시할지 알려줍니다. CSS로 HTML 요소의 색상, 폰트, 크기 등을 설정할 수 있습니다.",
+          "이 워크숍에서는 카페 메뉴 페이지를 디자인하며 CSS를 배웁니다."
+        ]
+      },
+      "lab-business-card": {
+        "title": "명함 디자인하기",
+        "intro": [
+          "이 실습에서는 명함을 만들고 CSS로 스타일링합니다.",
+          "<code>color</code>, <code>font-size</code>, <code>text-align</code> 등 스타일 속성을 연습합니다."
+        ]
+      },
+      "lecture-understanding-css-specificity": {
+        "title": "CSS 특이성 이해하기",
+        "intro": [
+          "이 강의들에서는 CSS 특이성, 다양한 선택자의 특이성, <code>!important</code> 키워드 사용 모범 사례를 배웁니다."
+        ]
+      },
+      "lecture-working-with-backgrounds-and-borders-v2": {
+        "title": "배경과 테두리 다루기",
+        "intro": [
+          "이 강의들에서는 배경 이미지 크기, 반복, 위치, 고정 방식과 이미지 주변에 테두리를 추가하는 방법을 배웁니다."
+        ]
+      },
+      "lab-blog-post-card": {
+        "title": "블로그 게시물 카드 디자인하기",
+        "intro": [
+          "이 실습에서는 HTML과 CSS를 사용해 블로그 게시물 카드를 디자인합니다.",
+          "<code>background-color</code>, <code>border-radius</code>, 여백, 패딩 등을 연습합니다."
+        ]
+      },
+      "lecture-working-with-relative-and-absolute-units": {
+        "title": "상대 단위와 절대 단위 다루기",
+        "intro": [
+          "이 강의들에서는 상대 단위와 절대 단위가 무엇이며, 둘 다 브라우저에서 보이는 것에 어떻게 영향을 주는지 배웁니다."
+        ]
+      },
+      "lab-event-flyer-page": {
+        "title": "이벤트 전단지 페이지 만들기",
+        "intro": [
+          "이 실습에서 이벤트 전단지 페이지를 만드세요.",
+          "절대 위치와 상대 위치 CSS를 사용해 요소 정렬을 연습하세요."
+        ]
+      },
+      "lecture-working-with-pseudo-classes-and-pseudo-elements": {
+        "title": "CSS에서 가상 클래스와 가상 요소 다루기",
+        "intro": [
+          "이 강의들에서 가상 클래스와 가상 요소, 예제와 작동 방식을 배우세요."
+        ]
+      },
+      "workshop-greeting-card": {
+        "title": "인사 카드 디자인하기",
+        "intro": [
+          "이전 강의에서 다양한 가상 클래스 다루는 법을 배웠습니다.",
+          "이 워크숍에서 인사 카드를 디자인하며 배운 내용을 연습하세요."
+        ]
+      },
+      "lab-tribute-page": {
+        "title": "헌정 페이지 만들기",
+        "intro": [
+          "이 실습에서 가상의 주제나 실제 주제로 헌정 페이지를 만드세요."
+        ]
+      },
+      "workshop-colored-markers": {
+        "title": "컬러 마커 세트 만들기",
+        "intro": [
+          "이 워크숍에서 컬러 마커 세트를 만드세요. 색상 값을 설정하는 다양한 방법과 색상 조합을 연습합니다."
+        ]
+      },
+      "lab-colored-boxes": {
+        "title": "컬러 박스 세트 디자인하기",
+        "intro": [
+          "이 실습에서 색상 그리드를 만들고 16진수, RGB, 미리 정의된 색상 이름으로 그리드 항목에 배경색을 추가하는 연습을 하세요."
+        ]
+      },
+      "workshop-registration-form": {
+        "title": "등록 양식 디자인하기",
+        "intro": [
+          "이 워크숍에서 회원가입 페이지를 디자인하며 HTML 양식 디자인을 배우세요. 입력 가능한 데이터 유형 제어와 페이지 스타일링을 위한 새로운 CSS 도구도 익힙니다."
+        ]
+      },
+      "lab-contact-form": {
+        "title": "연락처 양식 디자인하기",
+        "intro": [
+          "이 실습에서 HTML로 연락처 양식을 디자인하고 CSS로 스타일링하세요."
+        ]
+      },
+      "lecture-introduction-to-the-box-model": {
+        "title": "박스 모델 소개",
+        "intro": [
+          "이 강의에서 CSS 박스 모델과 작동 방식을 배우세요."
+        ]
+      },
+      "workshop-rothko-painting": {
+        "title": "로스코 스타일 그림 디자인하기",
+        "intro": [
+          "모든 HTML 요소는 고유한 공간과 테두리를 가진 박스입니다. 이것을 박스 모델이라 합니다.",
+          "이 워크숍에서 CSS와 박스 모델을 사용해 로스코 스타일의 직사각형 작품을 만드세요."
+        ]
+      },
+      "lab-confidential-email-page": {
+        "title": "기밀 이메일 페이지 만들기",
+        "intro": [
+          "이 실습에서 HTML로 웹 페이지를 만들고 CSS 속성으로 내용을 가리세요."
+        ]
+      },
+      "lecture-working-with-css-flexbox": {
+        "title": "CSS 플렉스박스 다루기",
+        "intro": [
+          "이 강의들에서 CSS 플렉스박스 작동 원리, 속성, 사용 시기를 배우세요."
+        ]
+      },
+      "workshop-flexbox-photo-gallery": {
+        "title": "플렉스박스 사진 갤러리 만들기",
+        "intro": [
+          "이 워크숍에서 플렉스박스를 사용해 반응형 사진 갤러리 웹 페이지를 만드세요."
+        ]
+      },
+      "lab-page-of-playing-cards-v2": {
+        "title": "플레이 카드 페이지 만들기",
+        "intro": [
+          "이 실습에서 플렉스박스를 사용해 플레이 카드 웹 페이지를 만드세요.",
+          "<code>flex-direction</code>, <code>justify-content</code>, <code>align-self</code> 등 플렉스박스 속성으로 요소 정렬을 연습하세요."
+        ]
+      },
+      "workshop-nutritional-label": {
+        "title": "영양 성분표 만들기",
+        "intro": [
+          "타이포그래피는 텍스트를 읽기 쉽게 스타일링하고 목적에 맞게 꾸미는 기술입니다.",
+          "이 워크숍에서 타이포그래피를 사용해 영양 성분표 웹 페이지를 만드세요. 텍스트 스타일링, 줄 높이 조절, 위치 지정 연습을 합니다."
+        ]
+      },
+      "lab-newspaper-article": {
+        "title": "신문 기사 만들기",
+        "intro": [
+          "이 실습에서 HTML과 CSS로 신문 기사 페이지를 만드세요.",
+          "<code>font-family</code>, <code>font-size</code>, <code>font-weight</code> 등 속성으로 폰트를 스타일링하세요."
+        ]
+      },
+      "lecture-understanding-positioning-in-css": {
+        "title": "CSS 위치 지정 이해하기",
+        "intro": [
+          "이 강의들에서 CSS 위치 지정법을 배우세요. <code>absolute</code>, <code>relative</code>, <code>fixed</code>, <code>sticky</code> 위치 지정과 <code>z-index</code> 속성을 다룹니다."
+        ]
+      },
+      "workshop-cat-painting": {
+        "title": "고양이 그림 만들기",
+        "intro": [
+          "CSS 위치 지정 숙달은 시각적으로 매력적이고 반응형 웹 레이아웃을 만드는 데 필수입니다.",
+          "이 워크숍에서 고양이 그림을 만드세요. 절대 위치 지정, <code>z-index</code>, <code>transform</code> 속성 사용법을 배웁니다."
+        ]
+      },
+      "lab-house-painting": {
+        "title": "집 그림 만들기",
+        "intro": [
+          "이 실습에서 CSS로 집 그림을 만드세요.",
+          "<code>position</code>, <code>top</code>, <code>left</code> 등 CSS 속성으로 집의 각 요소를 디자인하고 위치를 지정하세요."
+        ]
+      },
+      "lecture-working-with-attribute-selectors-and-combinators": {
+        "title": "속성 선택자와 결합자 다루기",
+        "intro": [
+          "이 강의들에서 속성 선택자로 요소를 선택하는 법과 결합자를 사용해 요소 간 관계로 선택하는 법을 배우세요."
+        ]
+      },
+      "workshop-balance-sheet": {
+        "title": "대차대조표 만들기",
+        "intro": [
+          "이 워크숍에서 가상 선택자를 사용해 대차대조표를 만드세요. 마우스 오버 시 스타일 변경과 웹 페이지에서 다른 이벤트를 트리거하는 법을 배웁니다."
+        ]
+      },
+      "workshop-piano": {
+        "title": "피아노 디자인하기",
+        "intro": [
+          "반응형 디자인은 웹 페이지가 다양한 화면 크기에 맞게 보이도록 알려줍니다.",
+          "이 워크숍에서 CSS와 반응형 디자인을 사용해 피아노를 코딩하세요. 미디어 쿼리와 가상 선택자도 연습합니다."
+        ]
+      },
+      "lab-technical-documentation-page-v2": {
+        "title": "기술 문서 페이지 만들기",
+        "intro": [
+          "이 실습에서 주제에 대한 설명이나 참조용 기술 문서 페이지를 만드세요.",
+          "미디어 쿼리를 사용해 반응형 디자인을 만드는 연습도 합니다."
+        ]
+      },
+      "lecture-introduction-to-css-variables": {
+        "title": "CSS 변수 소개",
+        "intro": [
+          "이 강의에서 사용자 정의 속성(CSS 변수) 정의와 사용법을 배우세요."
+        ]
+      },
+      "workshop-magazine": {
+        "title": "잡지 만들기",
+        "intro": [
+          "CSS 그리드는 웹 페이지 디자인의 행과 열을 제어할 수 있게 합니다.",
+          "이 워크숍에서 잡지 기사를 만드세요. 그리드 행과 그리드 열 같은 CSS 그리드 개념을 연습합니다."
         ]
       }
     }

@@ -11,11 +11,15 @@ Prop drilling 是 React 應用程式中最基本的狀態管理方法。它看�
 
 讓我們來看看什麼是 prop drilling、為什麼它會是個問題，以及隨著應用程式成長時一個好的取代方案。
 
+## 什麼是 Prop Drilling？
+
 Prop drilling 是將 props 從父組件傳遞到深層巢狀子組件的處理程序，即使某些子組件不需要這些 props。
 
 例如，假設你有三個名為 `Parent`、`Child` 和 `Grandchild` 的組件。如果你想在 `Grandchild` 組件中使用一些資料，但這些資料在 `Parent` 組件中，你需要先將它從 `Parent` 傳遞到 `Child` 組件，再從 `Child` 傳遞到 `Grandchild` 組件。
 
 或者如果資料位於串鏈更上層，資料可能也必須傳遞給 `Parent` 組件。
+
+## Prop Drilling 範例
 
 這裡，我想顯示的資料是字串 `Hello, Prop Drilling!`。它被指定到根組件 `App` 中的 `greeting` 變數：
 
@@ -70,6 +74,8 @@ export default Grandchild;
 
 一開始，prop drilling 可能看起來不是什麼大問題。但隨著你的應用程式成長，它會變得更難理解、偵錯和維護。
 
+## 將 Props 保持在單一父組件中
+
 如果你需要傳遞 props，請嘗試將它們全部保存在單一的父組件中。這種將所有必要資料集中管理的方法稱為「單一資料來源」。
 
 例如，假設你想為你的 `greeting` 添加一個新的 `response`，並且你想在 `Grandchild` 組件中同時使用它們。由於 `greeting` 已經在 `App` 組件中，因此將 `response` 也放在那裡並將它們一起傳遞下串鏈是合理的：
@@ -103,6 +109,8 @@ export default App;
 ```
 
 在瀏覽器中，你會看到一個頁面，該頁面有一個 `h1` 元素，其文字為 `Hello, Prop Drilling!`，以及一個 `h2` 元素，其文字為 `I'm not here to play!`。
+
+## Prop Drilling 的替代方案
 
 為避免 prop drilling，特別是在大型且複雜的應用程式中，請考慮使用 Context API 或像 Redux 和 Redux Toolkit、Zustand、Recoil 等狀態管理函式庫。
 

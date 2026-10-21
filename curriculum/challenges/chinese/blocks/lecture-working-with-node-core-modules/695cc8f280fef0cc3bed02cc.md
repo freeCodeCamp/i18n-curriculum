@@ -7,9 +7,13 @@ dashedName: what-is-the-stream-module-and-how-does-it-work
 
 # --description--
 
+## 什么是 Stream 模块？
+
 我们将要看的最后一个核心 Node.js 模块是 `stream`。这个模块帮助你高效地处理数据，特别是在数据太大无法一次性装载时，比如读取一个大的文本文件或下载一个大型视频。
 
 流不是等待读取或写入所有数据后才开始操作，而是随着数据块的到达即时处理，就像你可以在整个 video 装载完成前开始观看 YouTube video 一样。
+
+## 流的类型
 
 Node.js 中有四种主要的流类型：可读取流、可写入流、双工流和转换流：
 
@@ -24,9 +28,13 @@ Node.js 中有四种主要的流类型：可读取流、可写入流、双工流
 const { Readable, Writable, Transform } = require("stream");
 ```
 
+## 使用内置文件流
+
 大多数情况下，你不需要自己创建自定义流类。对于日常文件操作，内置方法如 `fs.createReadStream()` 和 `fs.createWriteStream()` 通常就足够了。
 
 这两个方法都需要读取或写入的文件路径。这意味着你在许多情况下还需要 `fs` 和 `path` 模块来实现流操作。
+
+## 使用可读流读取数据
 
 下面是你如何从一个文件（例如 `input.txt` 文件）读取数据的方法：
 
@@ -65,6 +73,8 @@ Received data: <Buffer 4c 6f 72 65 6d 20 69 70 73 75 6d
 */
 ```
 
+## 将缓冲区转换为文本
+
 由于它返回一个缓冲区，你可以调用 `toString()` 方法将其转换为可读文本：
 
 ```js
@@ -93,6 +103,8 @@ eaque doloribus assumenda, minima fuga tempore, porro, debitis rem harum in
 */
 ```
 
+## 使用可写流写入数据
+
 要实现一个可写流，特别是当你从一个文件读取并写入另一个文件时，你需要先创建读取流，然后创建写入流：
 
 ```js
@@ -108,6 +120,8 @@ const readInputFileStream = fs.createReadStream(inputFilePath);
 // Create the write stream
 const writeOutputFileStream = fs.createWriteStream(outputFilePath);
 ```
+
+## 使用 `pipe()` 连接流
 
 接下来，使用 `.pipe()` 方法将可读流连接到可写流。这使得 Node.js 能够自动从源头读取数据并将其逐块写入目标。
 
@@ -127,6 +141,8 @@ const writeOutputFileStream = fs.createWriteStream(outputFilePath);
 // Pipe the read stream to the write stream
 readInputFileStream.pipe(writeOutputFileStream);
 ```
+
+## 处理 `finish` 和 `error` 事件
 
 然后你可以监听可写流上的 `finish` 和 `error` 事件，以便知道流何时完成或是否出现问题：
 

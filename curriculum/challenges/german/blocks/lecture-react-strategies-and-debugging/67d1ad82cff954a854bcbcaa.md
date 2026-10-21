@@ -11,11 +11,15 @@ Prop Drilling ist der grundlegendste Ansatz zur Zustandsverwaltung in React-Anwe
 
 Schauen wir uns an, was Prop Drilling ist, warum es ein Problem darstellt und welche gute Alternative es gibt, wenn eine Anwendung wächst.
 
+## Was ist Prop Drilling?
+
 Prop Drilling ist der Prozess, Props von einer übergeordneten Komponente an tief verschachtelte Kindkomponenten weiterzugeben, selbst wenn einige der Kindkomponenten die Props gar nicht benötigen.
 
 Zum Beispiel nehmen wir an, Sie haben drei Komponenten mit den Namen `Parent`, `Child` und `Grandchild`. Wenn Sie einige Daten in der `Grandchild`-Komponente verwenden möchten, diese sich aber in der `Parent`-Komponente befinden, müssten Sie sie von der `Parent`- zur `Child`-Komponente weitergeben, dann von der `Child`- zur `Grandchild`-Komponente.
 
 Oder wenn die Daten noch weiter oben in der Kette sind, müssten die Daten möglicherweise auch an die `Parent`-Komponente weitergereicht werden.
+
+## Beispiel für Prop Drilling
 
 Hier sind die Daten, die ich anzeigen möchte, der String `Hello, Prop Drilling!`. Er ist der Variablen `greeting` in der Root-Komponente `App` zugewiesen:
 
@@ -70,6 +74,8 @@ Im Browser sehen Sie eine Seite mit einem einzelnen `h1`-Element, das den Text `
 
 Zunächst mag Prop Drilling nicht so schlimm erscheinen. Aber je größer Ihre App wird, desto schwieriger wird es, sie zu verstehen, zu debuggen und zu warten.
 
+## Props in einer einzigen übergeordneten Komponente behalten
+
 Wenn Sie Props weitergeben müssen, versuchen Sie, sie alle in einer einzigen übergeordneten Komponente zu halten. Dieser Ansatz, alle notwendigen Daten zu zentralisieren, wird als „single source of truth“ bezeichnet.
 
 Zum Beispiel möchten Sie ein neues `response` zu Ihrem `greeting` hinzufügen und beide in der `Grandchild`-Komponente verwenden. Da `greeting` bereits in der `App`-Komponente ist, macht es Sinn, `response` ebenfalls dort zu platzieren und beide durch die Kette weiterzugeben:
@@ -103,6 +109,8 @@ export default App;
 ```
 
 Im Browser sehen Sie eine Seite mit einem `h1`-Element, das den Text `Hello, Prop Drilling!` enthält, und einem `h2`-Element, das den Text `I'm not here to play!` enthält.
+
+## Alternativen zum Prop Drilling
 
 Um Prop Drilling zu vermeiden, besonders in großen, komplexen Anwendungen, sollten Sie die Context API oder Zustandsverwaltungsbibliotheken wie Redux und Redux Toolkit, Zustand, Recoil und andere in Betracht ziehen.
 

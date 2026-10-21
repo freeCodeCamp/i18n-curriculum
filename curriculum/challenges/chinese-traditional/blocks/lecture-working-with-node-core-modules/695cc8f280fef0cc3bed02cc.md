@@ -7,9 +7,13 @@ dashedName: what-is-the-stream-module-and-how-does-it-work
 
 # --description--
 
+## 什麼是 Stream 模組？
+
 我們將要看的最後一個核心 Node.js 模組是 `stream`。這個模組幫助你高效地控制代碼，特別是在資料過大無法一次載入時，例如讀取大型程式本文檔或下載大型影片。
 
 串流會在資料塊抵達時即時處理，而不是等到讀取或寫入所有資料後才開始，就像你可以在整個 YouTube 影片載入完成前就開始觀看一樣。
+
+## Stream 的類型
 
 Node.js 中有四種主要的資料流型別：可讀、可寫、雙工和轉換：
 
@@ -24,9 +28,13 @@ Node.js 中有四種主要的資料流型別：可讀、可寫、雙工和轉換
 const { Readable, Writable, Transform } = require("stream");
 ```
 
+## 使用內建的檔案 Stream
+
 大多數時候，你不需要自己創建訂製的資料流類別。對於日常的檔案操作，內建的 `fs.createReadStream()` 和 `fs.createWriteStream()` 方法通常已經足夠。
 
 這兩個方法會接收要讀取或寫入的檔案路徑。這表示你在許多情況下也需要 `fs` 和 `path` 模組來實作串流。
+
+## 使用可讀取的 Stream 讀取資料
 
 以下是你如何從一個檔案（例如 `input.txt` 檔案）讀取資料的方法：
 
@@ -65,6 +73,8 @@ Received data: <Buffer 4c 6f 72 65 6d 20 69 70 73 75 6d
 */
 ```
 
+## 將 Buffer 轉換成文字
+
 由於它傳回一個緩衝區，你可以呼叫 `toString()` 方法將它轉換成可讀取的文字：
 
 ```js
@@ -93,6 +103,8 @@ eaque doloribus assumenda, minima fuga tempore, porro, debitis rem harum in
 */
 ```
 
+## 使用可寫入的 Stream 寫入資料
+
 要實作可寫入的資料流，特別是當你從一個檔案讀取並寫入到另一個檔案時，你需要先創建讀取資料流，接著創建寫入資料流：
 
 ```js
@@ -108,6 +120,8 @@ const readInputFileStream = fs.createReadStream(inputFilePath);
 // Create the write stream
 const writeOutputFileStream = fs.createWriteStream(outputFilePath);
 ```
+
+## 使用 `pipe()` 連接 Streams
 
 接著，使用 `.pipe()` 方法將可讀取的資料流連接到可寫入的資料流。這讓 Node.js 自動從原始碼讀取資料並逐塊寫入目的地：
 
@@ -127,6 +141,8 @@ const writeOutputFileStream = fs.createWriteStream(outputFilePath);
 // Pipe the read stream to the write stream
 readInputFileStream.pipe(writeOutputFileStream);
 ```
+
+## 處理 `finish` 和 `error` 事件
 
 然後你可以監聽可寫資料流上的 `finish` 和 `error` 事件，以知道何時串流完成或發生錯誤：
 

@@ -11,11 +11,15 @@ Prop drilling es el enfoque más básico para la gestión de estado en aplicacio
 
 Veamos qué es prop drilling, por qué es un problema y una buena alternativa a medida que una aplicación crece.
 
+## ¿Qué es el prop drilling?
+
 Prop drilling es el proceso de pasar props desde un componente padre a componentes hijos profundamente anidados, incluso cuando algunos de los componentes hijos no necesitan los props.
 
 Por ejemplo, supongamos que tienes tres componentes llamados `Parent`, `Child` y `Grandchild`. Si quieres usar algunos datos en el componente `Grandchild`, pero están en el componente `Parent`, necesitarías pasarlos desde el `Parent` al componente `Child`, y luego del `Child` al componente `Grandchild`.
 
 O si los datos están aún más arriba en la cadena, los datos podrían tener que ser pasados al componente `Parent` también.
+
+## Ejemplo de prop drilling
 
 Aquí, los datos que quiero mostrar son la cadena `Hello, Prop Drilling!`. Están asignados a la variable `greeting` en el componente raíz `App`:
 
@@ -70,6 +74,8 @@ En el navegador, verás una página con un solo elemento `h1` que tiene el texto
 
 Al principio, prop drilling podría no parecer un gran problema. Pero a medida que tu aplicación crece, se vuelve más difícil de entender, depurar y mantener.
 
+## Mantener las props en un solo componente padre
+
 Si necesitas pasar props, trata de mantenerlos todos en un solo componente padre. Este enfoque de centralizar todos los datos necesarios se llama "única fuente de verdad".
 
 Por ejemplo, supongamos que quieres añadir una nueva `response` junto con tu `greeting`, y que quieres usar ambos en el componente `Grandchild`. Dado que `greeting` ya está en el componente `App`, tiene sentido colocar `response` allí también, y pasarlos por la cadena:
@@ -103,6 +109,8 @@ export default App;
 ```
 
 En el navegador, verás una página con un elemento `h1` que tiene el texto `Hello, Prop Drilling!` y un elemento `h2` que tiene el texto `I'm not here to play!`.
+
+## Alternativas al prop drilling
 
 Para evitar prop drilling, especialmente en aplicaciones grandes y complejas, considera usar la API de Contexto o bibliotecas de gestión de estado como Redux y Redux Toolkit, Zustand, Recoil, y otras.
 

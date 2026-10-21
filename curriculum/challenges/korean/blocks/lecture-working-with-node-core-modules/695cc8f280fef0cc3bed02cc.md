@@ -7,9 +7,13 @@ dashedName: what-is-the-stream-module-and-how-does-it-work
 
 # --description--
 
+## 스트림 모듈이란?
+
 마지막으로 살펴볼 Node.js 핵심 모듈은 `stream`입니다. 이 모듈은 특히 데이터가 너무 커서 한 번에 모두 불러올 수 없을 때, 예를 들어 큰 텍스트 파일을 읽거나 큰 동영상을 다운로드할 때 데이터를 효율적으로 처리하는 데 도움을 줍니다.
 
 모든 데이터를 읽거나 쓰기 전에 기다리는 대신, 스트림은 데이터가 도착하는 대로 조각 단위로 처리합니다. 이는 전체 동영상이 다 로드되기 전에 유튜브 영상을 바로 볼 수 있는 것과 비슷합니다.
+
+## 스트림의 종류
 
 Node.js에는 네 가지 주요 스트림 유형이 있습니다: readable, writable, duplex, transform입니다.
 
@@ -24,9 +28,13 @@ Node.js에는 네 가지 주요 스트림 유형이 있습니다: readable, writ
 const { Readable, Writable, Transform } = require("stream");
 ```
 
+## 내장 파일 스트림 사용하기
+
 대부분의 경우, 직접 커스텀 스트림 클래스를 만들 필요가 없습니다. 일상적인 파일 작업에는 `fs.createReadStream()`과 `fs.createWriteStream()` 같은 내장 메서드만으로 충분한 경우가 많습니다.
 
 이 두 메서드는 읽거나 쓸 파일의 경로를 받습니다. 따라서 많은 경우 스트리밍을 구현하려면 `fs`과 `path` 모듈도 필요합니다.
+
+## 읽기 가능한 스트림으로 데이터 읽기
 
 예를 들어 `input.txt` 파일에서 데이터를 읽는 방법은 다음과 같습니다:
 
@@ -65,6 +73,8 @@ Received data: <Buffer 4c 6f 72 65 6d 20 69 70 73 75 6d
 */
 ```
 
+## 버퍼를 텍스트로 변환하기
+
 버퍼를 반환하므로 `toString()` 메서드를 호출해 읽을 수 있는 텍스트로 변환할 수 있습니다:
 
 ```js
@@ -93,6 +103,8 @@ eaque doloribus assumenda, minima fuga tempore, porro, debitis rem harum in
 */
 ```
 
+## 쓰기 가능한 스트림으로 데이터 쓰기
+
 쓰기 가능한 스트림을 구현하려면, 특히 한 파일에서 읽고 다른 파일에 쓸 때는 먼저 읽기 스트림을 만들고 그다음 쓰기 스트림을 만들어야 합니다:
 
 ```js
@@ -108,6 +120,8 @@ const readInputFileStream = fs.createReadStream(inputFilePath);
 // Create the write stream
 const writeOutputFileStream = fs.createWriteStream(outputFilePath);
 ```
+
+## `pipe()`로 스트림 연결하기
 
 다음으로 `.pipe()` 메서드를 사용해 읽기 스트림을 쓰기 스트림에 연결하세요. 이렇게 하면 Node.js가 자동으로 소스에서 데이터를 읽어 대상에 조각 단위로 씁니다:
 
@@ -127,6 +141,8 @@ const writeOutputFileStream = fs.createWriteStream(outputFilePath);
 // Pipe the read stream to the write stream
 readInputFileStream.pipe(writeOutputFileStream);
 ```
+
+## `finish`와 `error` 이벤트 처리하기
 
 그다음 쓰기 스트림에서 `finish`와 `error` 이벤트를 들어 스트리밍이 완료되었는지 또는 문제가 발생했는지 알 수 있습니다:
 

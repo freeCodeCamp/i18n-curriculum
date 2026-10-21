@@ -7,9 +7,13 @@ dashedName: what-is-the-stream-module-and-how-does-it-work
 
 # --description--
 
+## Moduli ya Stream ni nini?
+
 Moduli ya mwisho ya msingi ya Node.js tutakayochunguza ni `stream`. Moduli hii inakusaidia kushughulikia data kwa ufanisi, hasa wakati data ni kubwa mno kusoma kwa mara moja, kama vile kusoma faili kubwa la maandishi au kupakua video kubwa.
 
 Badala ya kusubiri kusoma au kuandika data yote kabla ya kufanya kitu chochote, streams huchakata vipande vya data vinavyowasili, kama vile unavyoweza kuanza kutazama video ya YouTube kabla video nzima haijamalizika kupakia.
+
+## Aina za Streams
 
 Kuna aina nne kuu za streams katika Node.js: readable, writable, duplex, na transform:
 
@@ -24,9 +28,13 @@ Unaweza import madarasa ya stream unayohitaji kwa kuyafumbua kutoka moduli ya st
 const { Readable, Writable, Transform } = require("stream");
 ```
 
+## Kutumia Streams za Faili Iliyojengwa Ndani
+
 Mara nyingi, huna haja ya kuunda madarasa ya stream maalum mwenyewe. Kwa shughuli za kawaida za faili, njia zilizojengwa ndani kama `fs.createReadStream()` na `fs.createWriteStream()` kawaida ndizo unazohitaji.
 
 Njia hizi mbili zinachukua njia ya faili kusoma au kuandika. Hii inamaanisha pia unahitaji moduli za `fs` na `path` kutekeleza streaming mara nyingi.
+
+## Kusoma Data kwa Stream Inayosomwa
 
 Hapa ni jinsi unavyoweza kusoma data kutoka kwa faili, sema faili la `input.txt`:
 
@@ -65,6 +73,8 @@ Received data: <Buffer 4c 6f 72 65 6d 20 69 70 73 75 6d
 */
 ```
 
+## Kubadilisha Kihifadhi cha Muda kuwa Maandishi
+
 Kwa kuwa inarudisha kihifadhi cha muda, unaweza kuita njia ya `toString()` kuibadilisha kuwa maandishi yanayosomwa:
 
 ```js
@@ -93,6 +103,8 @@ eaque doloribus assumenda, minima fuga tempore, porro, debitis rem harum in
 */
 ```
 
+## Kuandika Data kwa Stream Inayoandikwa
+
 Ili kutekeleza writable stream, hasa unapokuwa unasoma kutoka faili moja na kuandika kwenye nyingine, unahitaji kuunda kwanza read stream, kisha write stream:
 
 ```js
@@ -108,6 +120,8 @@ const readInputFileStream = fs.createReadStream(inputFilePath);
 // Create the write stream
 const writeOutputFileStream = fs.createWriteStream(outputFilePath);
 ```
+
+## Kuunganisha Streams kwa kutumia `pipe()`
 
 Kisha, tumia njia ya `.pipe()` kuunganisha readable stream na writable stream. Hii inaruhusu Node.js kusoma data kutoka chanzo na kuandika kwenye mahali pa mwisho, kipande kwa kipande:
 
@@ -127,6 +141,8 @@ const writeOutputFileStream = fs.createWriteStream(outputFilePath);
 // Pipe the read stream to the write stream
 readInputFileStream.pipe(writeOutputFileStream);
 ```
+
+## Kushughulikia Tukio la `finish` na `error`
 
 Baadaye unaweza kusikiliza matukio ya `finish` na `error` kwenye writable stream ili kujua wakati streaming imekamilika au kama kuna tatizo:
 

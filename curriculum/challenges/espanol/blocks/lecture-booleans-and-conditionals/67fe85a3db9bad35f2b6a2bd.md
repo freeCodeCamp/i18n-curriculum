@@ -11,7 +11,7 @@ Las declaraciones condicionales, o condicionales, te permiten controlar el flujo
 
 Pero, antes de entrar en todo eso, repasemos los bloques de construcción básicos de las declaraciones condicionales, comenzando con los operadores de comparación. Los operadores de comparación son operadores que te permiten comparar dos o más valores y devolver un valor booleano.
 
-En una lección anterior, aprendiste que los booleanos son uno de los tipos de datos en Python, y solo pueden ser `True` o `False`.
+En una lección anterior, aprendiste que los booleanos son uno de los tipos de datos en Python y solo pueden ser `True` o `False`.
 
 ## Uso de operadores de comparación
 
@@ -51,13 +51,13 @@ if condition:
 
 * Las sentencias `if` comienzan con la palabra clave `if`.
     
-* `condition` es una expresión que se evalúa como `True` o `False`, seguida de dos puntos (`:`).
+* `condition` es una expresión seguida de dos puntos (`:`).
 
 * El cuerpo de la sentencia `if` constituye un <dfn>bloque de código</dfn>, que es un grupo de sentencias que pertenecen juntas. Los espacios al inicio de una línea se llaman indentación. En Python, la indentación determina qué sentencias pertenecen a un bloque de código.
     
 En el ejemplo anterior, el cuerpo de la sentencia `if` contiene una sentencia `pass`. Cuando se ejecuta una sentencia `pass`, no sucede nada. Esta es una palabra clave especial que puede usarse como marcador de posición para código futuro y es útil cuando no se permiten bloques de código vacíos.
 
-El código dentro del cuerpo de la sentencia `if` se ejecuta solo cuando la condición evalúa a `True`. Por ejemplo:
+El código dentro del cuerpo de la sentencia `if` se ejecuta solo cuando Python considera que la condición es verdadera. Las comparaciones mostradas aquí devuelven `True` o `False`. En la siguiente lección, aprenderás cómo Python trata otros valores en las condiciones. Por ejemplo:
 
 ```python
 age = 18
@@ -92,13 +92,13 @@ if age >= 18:
 
 ## Agregar una cláusula `else`
 
-Pero, ¿qué pasa si también quieres imprimir algo si `age` es menor que `18`? Ahí es donde entra la cláusula `else`. La cláusula `else` se ejecuta cuando la condición `if` es falsa. Aquí está la sintaxis para una sentencia `if…else`:
+¿Pero qué pasa si también quieres imprimir algo si `age` es menor que `18`? Ahí es donde entra la cláusula `else`. La cláusula `else` se ejecuta cuando la condición del `if` es falsa. Aquí está la sintaxis para una sentencia `if...else`:
 
 ```python
 if condition:
-   pass # Code to execute if condition is True
+    pass # Code to execute if condition is True
 else:
-   pass # Code to execute if condition is False
+    pass # Code to execute if condition is False
 ```
 
 Por ejemplo:
@@ -132,11 +132,11 @@ Aquí está la sintaxis:
 
 ```python
 if condition1:
-   pass # Code to execute if condition1 is True
+    pass # Code to execute if condition1 is True
 elif condition2:
-   pass # Code to execute if condition1 is False and condition2 is True
+    pass # Code to execute if condition1 is False and condition2 is True
 else:
-   pass # Code to execute if all conditions are False
+    pass # Code to execute if all conditions are False
 ```
 
 Por ejemplo:
@@ -171,7 +171,7 @@ else:
     print('You are a toddler or an infant') # You are a toddler or an infant
 ```
 
-Ahora que entiendes cómo funcionan los operadores de comparación y las sentencias condicionales en Python, puedes empezar a escribir programas que tomen decisiones basadas en lógica y entrada. Ya sea que estés comparando valores o ramificando entre múltiples condiciones, estas herramientas son la base para escribir código flexible y adaptable.
+Ahora que entiendes cómo funcionan los operadores de comparación y las sentencias condicionales en Python, puedes empezar a escribir programas que tomen decisiones basadas en lógica y entrada. Ya sea que compares valores o ramifiques a través de múltiples condiciones, estas herramientas son la base para escribir código flexible y adaptable.
 
 # --questions--
 
@@ -181,7 +181,7 @@ Ahora que entiendes cómo funcionan los operadores de comparación y las sentenc
 
 ## --answers--
 
-Realizar cálculos matemáticos con valores booleanos
+Realizar cálculos matemáticos con valores booleanos.
 
 ### --feedback--
 

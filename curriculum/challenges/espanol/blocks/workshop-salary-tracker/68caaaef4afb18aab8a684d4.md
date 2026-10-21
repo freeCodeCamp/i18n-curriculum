@@ -9,7 +9,7 @@ dashedName: step-35
 
 Es hora de probar tu nuevo setter. Intenta asignar valores inválidos como una cadena aleatoria o el nivel actual (`trainee`) a `charlie_brown.level` y observa los mensajes de error en la consola.
 
-Una vez que hayas terminado, elimina las líneas que generan errores y establece `charlie_brown.level` en la cadena `junior`.
+Una vez que hayas hecho eso, elimina las líneas que generan errores y asigna a `charlie_brown.level` la cadena `junior`.
 
 # --hints--
 

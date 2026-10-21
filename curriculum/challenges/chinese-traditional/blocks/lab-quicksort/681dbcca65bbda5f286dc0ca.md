@@ -13,12 +13,14 @@ dashedName: implement-the-quicksort-algorithm
 
 1. 你應該定義一個名為 `quick_sort` 的函式（程式）來實作快速排序演算法。
 
-1. `quick_sort` 函式（程式）應該接受一個整數列表作為輸入，並傳回一個新的這些整數從小到大排序的列表。
+1. `quick_sort` 函式應該接受一個整數列表作為輸入，並傳回一個新的整數列表，該列表從小到大排序，且不修改輸入的列表。
 
 1. 要實作該演算法，你應該：
    - 從輸入列表的元素中選擇一個樞軸值（使用列表的第一個或最後一個元素）。
    - 將輸入列表分割成三個子列表：一個包含小於 pivot 的元素，一個包含與 pivot 相等的元素，還有一個包含大於 pivot 的元素。
    - 遞迴呼叫 `quick_sort` 來排序子列表，並串接排序後的子列表以產生最終排序的列表。
+
+**注意：** 你的程式碼中不應該匯入任何模組，也不應使用內建的 `sorted()` 函式或 `sort()` 方法。
 
 # --hints--
 
@@ -82,7 +84,9 @@ assert _test_list == [20, 3, 14, 1, 5]
 
 ```js
 ({ test: () => runPython(`
-    assert len(_Node(_code).find_imports()) == 0
+    import ast
+    _nodes = list(ast.walk(ast.parse(_code)))
+    assert not any(isinstance(n, (ast.Import, ast.ImportFrom)) for n in _nodes)
     assert not _Node(_code).block_has_call("sort")
     assert not _Node(_code).block_has_call("sorted")
 `)})

@@ -1,24 +1,26 @@
 ---
 id: 681dbcca65bbda5f286dc0ca
-title: "implementare l'algoritmo quicksort"
+title: "Implementare l'algoritmo quicksort"
 challengeType: 27
 dashedName: implement-the-quicksort-algorithm
 ---
 
 # --description--
 
-**Obiettivo:** Completa le storie utente qui sotto e fai superare tutti i test per completare il laboratorio.
+**Obiettivo:** Completa le storie utente qui sotto e fai passare tutti i test per completare il laboratorio.
 
 **Storie utente:**
 
 1. Devi definire una funzione chiamata `quick_sort` per implementare l'algoritmo quicksort.
 
-1. La funzione `quick_sort` deve prendere come input una lista di numeri interi e restituire una nuova lista di questi numeri ordinata dal più piccolo al più grande.
+1. La funzione `quick_sort` dovrebbe prendere una lista di numeri interi come input e restituire una nuova lista di questi numeri in ordine crescente dal più piccolo al più grande, senza modificare la lista di input.
 
 1. Per implementare l'algoritmo, devi:
    - Scegliere un valore pivot tra gli elementi della lista di input (usa il primo o l'ultimo elemento della lista).
    - Suddividere la lista di input in tre sotto-liste: una con gli elementi minori del pivot, una con gli elementi uguali al pivot e una con gli elementi maggiori del pivot.
    - Chiamare ricorsivamente `quick_sort` per ordinare le sotto-liste e concatenare le sotto-liste ordinate per ottenere la lista finale ordinata.
+
+**Nota:** Non dovresti importare moduli né usare la funzione integrata `sorted()` o il metodo `sort()` nel tuo codice.
 
 # --hints--
 
@@ -78,11 +80,13 @@ assert _test_list == [20, 3, 14, 1, 5]
 ({ test: () => runPython(`assert quick_sort([87, 11, 23, 18, 18, 23, 11, 56, 87, 56]) == [11, 11, 18, 18, 23, 23, 56, 56, 87, 87]`) })
 ```
 
-Non devi importare nessun modulo né usare metodi di ordinamento integrati nel tuo codice.
+Non dovresti importare nessun modulo né usare metodi di ordinamento integrati nel tuo codice.
 
 ```js
 ({ test: () => runPython(`
-    assert len(_Node(_code).find_imports()) == 0
+    import ast
+    _nodes = list(ast.walk(ast.parse(_code)))
+    assert not any(isinstance(n, (ast.Import, ast.ImportFrom)) for n in _nodes)
     assert not _Node(_code).block_has_call("sort")
     assert not _Node(_code).block_has_call("sorted")
 `)})

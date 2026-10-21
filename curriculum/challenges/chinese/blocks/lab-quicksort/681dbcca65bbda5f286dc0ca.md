@@ -13,12 +13,14 @@ dashedName: implement-the-quicksort-algorithm
 
 1. 你应该定义一个名为 `quick_sort` 的函数来实现快速排序算法。
 
-1. `quick_sort` 函数应接受一个整数列表作为输入，并返回一个按从小到大排序的新整数列表。
+1. `quick_sort` 函数应接受一个整数列表作为输入，并返回一个新的按从小到大排序的整数列表，同时不修改输入列表。
 
 1. 要实现该算法，你应该：
    - 从输入列表的元素中选择一个枢轴值（使用列表的第一个或最后一个元素）。
    - 将输入列表分区为三个子列表：一个包含小于枢轴的元素，一个包含与枢轴相等的元素，另一个包含大于枢轴的元素。
    - 递归地调用 `quick_sort` 对子列表进行排序，并连接排序后的子列表以生成最终排序的列表。
+
+**注意：** 你的代码中不应导入任何模块，也不应使用内置的 `sorted()` 函数或 `sort()` 方法。
 
 # --hints--
 
@@ -82,7 +84,9 @@ assert _test_list == [20, 3, 14, 1, 5]
 
 ```js
 ({ test: () => runPython(`
-    assert len(_Node(_code).find_imports()) == 0
+    import ast
+    _nodes = list(ast.walk(ast.parse(_code)))
+    assert not any(isinstance(n, (ast.Import, ast.ImportFrom)) for n in _nodes)
     assert not _Node(_code).block_has_call("sort")
     assert not _Node(_code).block_has_call("sorted")
 `)})

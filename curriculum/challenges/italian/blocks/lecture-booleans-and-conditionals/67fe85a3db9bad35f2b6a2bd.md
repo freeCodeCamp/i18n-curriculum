@@ -51,13 +51,13 @@ if condition:
 
 * Le istruzioni `if` iniziano con la parola chiave `if`.
     
-* `condition` è un’espressione che valuta a `True` o `False`, seguita da due punti (`:`).
+* `condition` è un'espressione seguita da due punti (`:`).
 
 * Il corpo dell'istruzione `if` costituisce un <dfn>blocco di codice</dfn>, che è un gruppo di istruzioni che appartengono insieme. Gli spazi all'inizio di una riga si chiamano indentazione. In Python, l'indentazione determina quali istruzioni appartengono a un blocco di codice.
     
 Nell’esempio sopra, il corpo dell’istruzione `if` contiene un’istruzione `pass`. Quando viene eseguita un’istruzione `pass`, non succede nulla. Questa è una parola chiave speciale che può essere usata come segnaposto per codice futuro ed è utile quando non sono permessi blocchi di codice vuoti.
 
-Il codice all’interno del corpo dell’istruzione `if` viene eseguito solo quando la condizione valuta a `True`. Per esempio:
+Il codice all'interno del corpo dell'istruzione `if` viene eseguito solo quando Python considera la condizione vera. Le comparazioni mostrate qui restituiscono `True` o `False`. Nella prossima lezione, imparerai come Python tratta altri valori nelle condizioni. Per esempio:
 
 ```python
 age = 18
@@ -92,13 +92,13 @@ if age >= 18:
 
 ## Aggiungere una clausola `else`
 
-Ma cosa succede se vuoi anche stampare qualcosa se `age` è minore di `18`? Qui entra in gioco la clausola `else`. La clausola `else` viene eseguita quando la condizione `if` è falsa. Ecco la sintassi per un’istruzione `if…else`:
+Ma cosa succede se vuoi anche stampare qualcosa se `age` è inferiore a `18`? È qui che entra in gioco la clausola `else`. La clausola `else` viene eseguita quando la condizione `if` è falsa. Ecco la sintassi per un'istruzione `if...else`:
 
 ```python
 if condition:
-   pass # Code to execute if condition is True
+    pass # Code to execute if condition is True
 else:
-   pass # Code to execute if condition is False
+    pass # Code to execute if condition is False
 ```
 
 Per esempio:
@@ -132,11 +132,11 @@ Ecco la sintassi:
 
 ```python
 if condition1:
-   pass # Code to execute if condition1 is True
+    pass # Code to execute if condition1 is True
 elif condition2:
-   pass # Code to execute if condition1 is False and condition2 is True
+    pass # Code to execute if condition1 is False and condition2 is True
 else:
-   pass # Code to execute if all conditions are False
+    pass # Code to execute if all conditions are False
 ```
 
 Per esempio:
@@ -171,7 +171,7 @@ else:
     print('You are a toddler or an infant') # You are a toddler or an infant
 ```
 
-Ora che hai capito come funzionano gli operatori di confronto e le istruzioni condizionali in Python, puoi iniziare a scrivere programmi che prendono decisioni basate sulla logica e sull'input. Che tu stia confrontando valori o gestendo più condizioni, questi strumenti sono la base per scrivere codice flessibile e responsivo.
+Ora che capisci come funzionano gli operatori di confronto e le istruzioni condizionali in Python, puoi iniziare a scrivere programmi che prendono decisioni basate sulla logica e sugli input. Che tu stia confrontando valori o gestendo più condizioni, questi strumenti sono la base per scrivere codice flessibile e responsivo.
 
 # --questions--
 
@@ -181,7 +181,7 @@ Cosa fanno gli operatori di confronto?
 
 ## --answers--
 
-Eseguono calcoli matematici con valori booleani
+Eseguire calcoli matematici con valori booleani.
 
 ### --feedback--
 

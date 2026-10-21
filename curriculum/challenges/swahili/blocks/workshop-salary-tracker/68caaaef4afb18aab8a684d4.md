@@ -9,7 +9,7 @@ dashedName: step-35
 
 Ni wakati wa kujaribu setter yako mpya. Jaribu kuweka thamani zisizokubalika kama mfuatano wa herufi wa bahati nasibu au kiwango cha sasa (`trainee`) kwa `charlie_brown.level` na uone ujumbe wa makosa kwenye konsoli.
 
-Mara tu utakapo maliza, ondoa mistari inayosababisha makosa na weka `charlie_brown.level` kuwa mfuatano wa herufi `junior`.
+Mara baada ya kufanya hivyo, ondoa mistari inayosababisha makosa na weka `charlie_brown.level` kuwa mfuatano wa herufi `junior`.
 
 # --hints--
 

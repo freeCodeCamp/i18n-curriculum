@@ -9,7 +9,7 @@ dashedName: step-35
 
 是时候测试你的新建 setter 了。尝试为 `charlie_brown.level` 赋值无效的值，例如随机字串或当前等级（`trainee`），并查看控制台中的错误信息。
 
-完成后，删除引发误差的行，并将 `charlie_brown.level` 设置为字串 `junior`。
+完成后，删除引发误差的代码行，并将 `charlie_brown.level` 设置为字串 `junior`。
 
 # --hints--
 

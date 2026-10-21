@@ -7,9 +7,13 @@ dashedName: what-is-the-stream-module-and-how-does-it-work
 
 # --description--
 
+## O que é o módulo stream?
+
 O último módulo principal do Node.js que vamos analisar é o `stream`. Este módulo ajuda você a lidar com dados de forma eficiente, especialmente quando os dados são grandes demais para serem carregados de uma vez, como ao ler um arquivo de texto grande ou baixar um vídeo grande.
 
 Ao invés de esperar para ler ou escrever todos os dados antes de fazer qualquer coisa, streams processam pedaços de dados conforme eles chegam, semelhante a como você pode começar a assistir a um vídeo no YouTube antes que o vídeo inteiro termine de carregar.
+
+## Tipos de streams
 
 Existem quatro tipos principais de streams no Node.js: readable, writable, duplex e transform:
 
@@ -24,9 +28,13 @@ Você pode importar as classes de stream que precisar desestruturando-as do mód
 const { Readable, Writable, Transform } = require("stream");
 ```
 
+## Usando streams de arquivo embutidos
+
 Na maioria das vezes, você não precisa criar classes de stream personalizadas. Para operações diárias com arquivos, métodos integrados como `fs.createReadStream()` e `fs.createWriteStream()` geralmente são tudo o que você precisa.
 
 Esses dois métodos recebem o caminho do arquivo para ler ou escrever. Isso significa que você também precisa dos módulos `fs` e `path` para implementar streaming em muitas ocasiões.
+
+## Lendo dados com um stream legível
 
 Aqui está como você pode ler dados de um arquivo, por exemplo um arquivo `input.txt`:
 
@@ -65,6 +73,8 @@ Received data: <Buffer 4c 6f 72 65 6d 20 69 70 73 75 6d
 */
 ```
 
+## Convertendo buffers em texto
+
 Como ele retorna um buffer, você pode chamar o método `toString()` para convertê-lo em texto legível:
 
 ```js
@@ -93,6 +103,8 @@ eaque doloribus assumenda, minima fuga tempore, porro, debitis rem harum in
 */
 ```
 
+## Escrevendo dados com um stream gravável
+
 Para implementar um stream gravável, especialmente quando você está lendo de um arquivo e escrevendo em outro, você precisa criar primeiro o read stream, seguido pelo write stream:
 
 ```js
@@ -108,6 +120,8 @@ const readInputFileStream = fs.createReadStream(inputFilePath);
 // Create the write stream
 const writeOutputFileStream = fs.createWriteStream(outputFilePath);
 ```
+
+## Conectando streams com `pipe()`
 
 Em seguida, use o método `.pipe()` para conectar o stream legível ao stream gravável. Isso permite que o Node.js leia automaticamente os dados da fonte e os escreva no destino, pedaço por pedaço:
 
@@ -127,6 +141,8 @@ const writeOutputFileStream = fs.createWriteStream(outputFilePath);
 // Pipe the read stream to the write stream
 readInputFileStream.pipe(writeOutputFileStream);
 ```
+
+## Lidando com os eventos `finish` e `error`
 
 Então você pode escutar os eventos `finish` e `error` na stream gravável para saber quando a transmissão estiver completa ou se algo der errado:
 

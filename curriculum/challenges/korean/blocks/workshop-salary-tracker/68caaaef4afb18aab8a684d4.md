@@ -9,7 +9,7 @@ dashedName: step-35
 
 새로운 setter를 테스트할 시간입니다. 임의의 문자열이나 현재 레벨(`trainee`) 같은 잘못된 값을 `charlie_brown.level`에 할당해 보고 콘솔에서 오류 메시지를 확인하세요.
 
-완료하면, 오류를 발생시키는 줄을 제거하고 `charlie_brown.level`에 문자열 `junior`을 할당하세요.
+그렇게 했으면, 오류를 발생시키는 줄을 제거하고 `charlie_brown.level`을 문자열 `junior`로 설정하세요.
 
 # --hints--
 

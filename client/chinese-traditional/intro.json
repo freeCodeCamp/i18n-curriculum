@@ -1613,9 +1613,9 @@
         ]
       },
       "workshop-pin-extractor": {
-        "title": "建造密碼提取器",
+        "title": "建置 PIN 擷取器",
         "intro": [
-          "在這個工作坊中，你將建造一個函式來提取藏在詩中的秘密密碼。"
+          "在這個工作坊中，你將建置一個函式來擷取藏在詩中的秘密 PIN。"
         ]
       },
       "lab-number-pattern-generator": {
@@ -1699,7 +1699,7 @@
       "lab-isbn-validator": {
         "title": "偵錯 ISBN 驗證器",
         "intro": [
-          "在此實驗室中，你將從一個有錯誤的應用程式開始，並需要偵錯修正錯誤直到它正常運作。"
+          "在這個實驗中，你將透過修正提供的 Python 程式碼中的錯誤來除錯 ISBN 驗證器。"
         ]
       },
       "review-error-handling": {
@@ -1711,7 +1711,7 @@
       "quiz-error-handling": {
         "title": "錯誤處理測驗",
         "intro": [
-          "透過此測驗檢驗你對 Python 錯誤處理的理解。"
+          "用這個測驗來測試你對 Python 錯誤處理的學習成果。"
         ]
       }
     }
@@ -1809,7 +1809,9 @@
       },
       "lecture-understanding-abstraction": {
         "title": "理解抽象性",
-        "intro": ["在這些課程中學習抽象性的理解。"]
+        "intro": [
+          "在這些課程中學習抽象性以及如何在 Python 中使用抽象類別。"
+        ]
       },
       "workshop-discount-calculator": {
         "title": "建置折扣計算器",
@@ -1838,7 +1840,7 @@
       "quiz-object-oriented-programming": {
         "title": "物件導向程式設計測驗",
         "intro": [
-          "透過此測驗檢驗你對 Python 物件導向程式設計的理解。"
+          "用這個測驗來測試你對 Python 物件導向程式設計的學習成果。"
         ]
       }
     }
@@ -3034,6 +3036,13 @@
         "title": "偵錯技巧",
         "intro": [
           "在這些講座中，你將了解 JavaScript 常見錯誤及修正技巧，這個過程稱為偵錯。"
+        ]
+      },
+      "workshop-library-search": {
+        "title": "建置圖書館書籍搜尋",
+        "intro": [
+          "在這個工作坊中，你將練習如何在 JavaScript 中優雅地處理錯誤。",
+          "你將建置一個圖書館書籍搜尋應用程式，並使用 <code>try...catch...finally</code> 區塊以及 <code>throw</code> 陳述式來捕捉和管理自訂錯誤。"
         ]
       },
       "lab-random-background-color-changer": {
@@ -5065,6 +5074,12 @@
           "在此實驗中，你將使用 JavaScript 迴圈建置交通號誌序列器。"
         ]
       },
+      "workshop-campus-directory-normalizer": {
+        "title": "建置校園目錄正規化工具",
+        "intro": [
+          "在這個工作坊中，你將把巢狀資料正規化成獨立且易於使用的查詢表。"
+        ]
+      },
       "lab-proofreading-tool": {
         "title": "建造校對工具",
         "intro": [
@@ -6595,9 +6610,9 @@
         ]
       },
       "workshop-pin-extractor": {
-        "title": "建置一個密碼提取器",
+        "title": "建置 PIN 擷取器",
         "intro": [
-          "在這個工作坊中，你將建置一個函式來提取藏在詩中的秘密密碼。"
+          "在這個工作坊中，你將建置一個函式來擷取藏在詩中的秘密 PIN。"
         ]
       },
       "lab-number-pattern-generator": {
@@ -6661,7 +6676,7 @@
       "lab-isbn-validator": {
         "title": "除錯 ISBN 驗證器",
         "intro": [
-          "在這個實驗中，你將從一個有錯誤的應用程式開始，並需要除錯修正錯誤直到它正常運作。"
+          "在這個實驗中，你將透過修正提供的 Python 程式碼中的錯誤來除錯 ISBN 驗證器。"
         ]
       },
       "review-error-handling": {
@@ -6673,7 +6688,7 @@
       "quiz-error-handling": {
         "title": "錯誤處理測驗",
         "intro": [
-          "透過這個測驗來測試你對 Python 錯誤處理的理解。"
+          "用這個測驗來測試你對 Python 錯誤處理的學習成果。"
         ]
       },
       "lecture-classes-and-objects": {
@@ -6749,7 +6764,9 @@
       },
       "lecture-understanding-abstraction": {
         "title": "理解抽象性",
-        "intro": ["在這些課程中，學習理解抽象性。"]
+        "intro": [
+          "在這些課程中學習抽象性以及如何在 Python 中使用抽象類別。"
+        ]
       },
       "workshop-discount-calculator": {
         "title": "建置折扣計算器",
@@ -6772,7 +6789,7 @@
       "quiz-object-oriented-programming": {
         "title": "物件導向程式設計測驗",
         "intro": [
-          "透過此測驗測試你對 Python 物件導向程式設計的理解。"
+          "用這個測驗來測試你對 Python 物件導向程式設計的學習成果。"
         ]
       },
       "lab-polygon-area-calculator": {
@@ -6927,7 +6944,7 @@
       "workshop-breadth-first-search": {
         "title": "實作廣度優先搜尋演算法",
         "intro": [
-          "在此工作坊中，你將使用廣度優先搜尋演算法來產生所有有效的小括號組合。"
+          "在這個工作坊中，你將使用廣度優先搜尋演算法來產生所有有效的小括號組合。"
         ]
       },
       "lab-depth-first-search": {
@@ -10587,9 +10604,9 @@
         ]
       },
       "workshop-pin-extractor": {
-        "title": "建置密碼提取器",
+        "title": "建置 PIN 擷取器",
         "intro": [
-          "在這個工作坊中，你將建置一個函式來提取詩中隱藏的秘密密碼。"
+          "在這個工作坊中，你將建置一個函式來擷取藏在詩中的秘密 PIN。"
         ]
       },
       "lab-number-pattern-generator": {
@@ -10653,7 +10670,7 @@
       "lab-isbn-validator": {
         "title": "除錯 ISBN 驗證器",
         "intro": [
-          "在此實驗中，你將從一個有錯誤的應用程式開始，並需要除錯修正錯誤直到它正常運作。"
+          "在這個實驗中，你將透過修正提供的 Python 程式碼中的錯誤來除錯 ISBN 驗證器。"
         ]
       },
       "review-error-handling": {
@@ -10665,7 +10682,7 @@
       "quiz-error-handling": {
         "title": "錯誤處理測驗",
         "intro": [
-          "透過此測驗檢驗你對 Python 中錯誤處理的理解。"
+          "用這個測驗來測試你對 Python 錯誤處理的學習成果。"
         ]
       },
       "lecture-classes-and-objects": {
@@ -10741,7 +10758,9 @@
       },
       "lecture-understanding-abstraction": {
         "title": "理解抽象性",
-        "intro": ["在這些課程中學習理解抽象性。"]
+        "intro": [
+          "在這些課程中學習抽象性以及如何在 Python 中使用抽象類別。"
+        ]
       },
       "workshop-discount-calculator": {
         "title": "建置折扣計算器",
@@ -10764,7 +10783,7 @@
       "quiz-object-oriented-programming": {
         "title": "物件導向程式設計測驗",
         "intro": [
-          "透過此測驗檢驗你對 Python 中物件導向程式設計的理解。"
+          "用這個測驗來測試你對 Python 物件導向程式設計的學習成果。"
         ]
       },
       "lab-polygon-area-calculator": {
@@ -10779,247 +10798,304 @@
       }
     }
   },
-  "algorithms-and-data-structure": {
+  "algorithms-and-data-structures": {
     "title": "演算法與資料結構認證",
     "intro": [
       "本課程涵蓋 Python 的資料結構與演算法。",
-      "完成必須的專案並通過考試，即可獲得演算法與資料結構認證。"
+      "完成必要的專案並通過考試，即可獲得演算法與資料結構認證。"
     ],
     "chapters": {
-      "algorithms-and-data-structure": "演算法與資料結構"
+      "algorithms-and-data-structures": "演算法與資料結構"
     },
     "modules": {
-      "python-linear-data-structures": "線性資料結構",
-      "lab-hash-table": "建置雜湊表",
-      "python-recursion": "遞迴",
       "python-algorithms": "演算法",
+      "lab-bisection-method": "實作二分法",
+      "python-linear-data-structures": "線性資料結構",
+      "lab-circular-queue": "建置環狀佇列",
+      "python-recursion": "遞迴",
       "lab-tower-of-hanoi": "實作河內塔演算法",
-      "python-graphs-and-trees": "圖形與樹狀結構",
+      "non-linear-data-structures": "非線性資料結構",
+      "lab-paint-bucket-tool": "建置油漆桶工具",
       "python-dynamic-programming": "動態規劃",
-      "review-python": "Python 複習"
+      "lab-knapsack-algorithm": "實作背包演算法",
+      "review-python-algorithms-and-data-structures": "演算法與資料結構複習"
     },
     "module-intros": {
+      "lab-circular-queue": {
+        "note": "2026 年推出",
+        "intro": [
+          "在這個實驗中，你將建置一個環狀佇列，一種固定大小且會環繞重複使用空槽的佇列。"
+        ]
+      },
       "python-recursion": {
         "intro": [
-          "在此模組中，你將學習遞迴和呼叫堆疊在 Python 中的運作方式。"
+          "在這個模組中，你將學習遞迴與呼叫堆疊在 Python 中的運作方式。"
+        ]
+      },
+      "lab-paint-bucket-tool": {
+        "note": "2026 年推出",
+        "intro": [
+          "在這個實驗中，你將建置一個使用圖形遍歷來填滿網格連通區域的油漆桶工具。"
+        ]
+      },
+      "lab-knapsack-algorithm": {
+        "note": "2026 年推出",
+        "intro": [
+          "在這個實驗中，你將使用動態規劃來解決背包問題。"
         ]
       }
     },
     "blocks": {
-      "lecture-working-with-common-data-structures": {
-        "title": "操作常見資料結構",
+      "lecture-understanding-algorithms-and-big-o": {
+        "title": "理解演算法與大 O 符號",
         "intro": [
-          "在這些課程中，學習如何操作常見的資料結構。"
+          "在這些課程中，你將學習什麼是演算法、如何用大 O 符號分析它們，以及解決演算法問題的好方法。"
         ]
       },
-      "workshop-linked-list-class": {
-        "title": "建置鏈結串列",
-        "intro": [
-          "在這個工作坊中，你將透過建置鏈結串列，練習操作資料結構。"
-        ]
-      },
-      "review-data-structures": {
-        "title": "資料結構複習",
-        "intro": [
-          "在接受資料結構測驗前，請先複習你所學的內容。",
-          "打開此頁面，複習不同資料結構、演算法、時間與空間複雜度，以及大 O 符號等概念。"
-        ]
-      },
-      "quiz-data-structures": {
-        "title": "資料結構測驗",
-        "intro": [
-          "透過此測驗，測試你對 Python 資料結構的理解。"
-        ]
-      },
-      "lab-hash-table": {
-        "title": "建置雜湊表",
-        "intro": [
-          "雜湊表是一種用來儲存鍵值對的資料結構，並針對快速查找進行最佳化。",
-          "在這個實驗室中，你將運用資料結構知識建置雜湊表。"
-        ]
-      },
-      "lecture-understanding-recursion-and-the-call-stack-python": {
-        "title": "理解遞迴與呼叫堆疊",
-        "intro": [
-          "在這堂課中，你將學習遞迴函式和呼叫堆疊在 Python 中的運作方式。"
-        ]
-      },
-      "workshop-countup-python": {
-        "title": "建置計數函式",
-        "intro": [
-          "在這個工作坊中，你將建置一個使用遞迴來生成數字列表的函式。"
-        ]
-      },
-      "lab-range-of-numbers-python": {
-        "title": "建置數字範圍產生器",
-        "intro": [
-          "在這個實驗室中，你將使用遞迴來產生指定範圍內的數字列表。"
-        ]
-      },
-      "review-recursion-python": {
-        "title": "遞迴複習",
-        "intro": [
-          "複習遞迴、基底案例和呼叫堆疊的概念。"
-        ]
-      },
-      "quiz-recursion-python": {
-        "title": "遞迴測驗",
-        "intro": [
-          "測試你對遞迴、基底案例和呼叫堆疊的理解。"
-        ]
-      },
-      "lecture-searching-and-sorting-algorithms": {
+      "lecture-searching-and-sorting-algorithms-v2": {
         "title": "搜尋與排序演算法",
         "intro": [
-          "學習基本的搜尋與排序演算法，包括線性搜尋、二分搜尋法和合併排序。",
-          "這些課程涵蓋演算法實作、時間與空間複雜度分析，以及分而治之的程式設計範式。"
+          "在這堂課中，你將學習二分搜尋的運作方式以及它與線性搜尋的差異。"
         ]
       },
       "workshop-binary-search": {
         "title": "實作二分搜尋演算法",
         "intro": [
-          "二分搜尋演算法是一種用於在已排序列表中尋找標的項目的搜尋演算法。",
-          "在這個工作坊中，你將實作二分搜尋演算法，並傳回尋找標的的路徑，或傳回「找不到值」。"
-        ]
-      },
-      "lab-bisection-method": {
-        "title": "實作二分法",
-        "intro": [
-          "在這個實驗室中，你將實作二分法來尋找數字的平方根。"
-        ]
-      },
-      "workshop-merge-sort": {
-        "title": "實作合併排序演算法",
-        "intro": [
-          "合併排序演算法是一種基於分而治之原理的排序演算法。",
-          "在這個工作坊中，你將實作合併排序演算法來排序一串隨機數字。"
-        ]
-      },
-      "lab-quicksort": {
-        "title": "實作快速排序演算法",
-        "intro": [
-          "在這個實驗室中，你將實作快速排序演算法來排序整數列表。"
+          "二分搜尋演算法是一種用於在排序列表中尋找標的項目的搜尋演算法。",
+          "在這個工作坊中，你將實作二分搜尋演算法，並傳回尋找標的所經過的路徑，或傳回「找不到值」。"
         ]
       },
       "lab-selection-sort": {
         "title": "實作選擇排序演算法",
         "intro": [
-          "在這個實驗室中，你將實作選擇排序演算法。"
+          "在這個實驗中，你將實作選擇排序演算法。"
         ]
       },
-      "lab-luhn-algorithm": {
-        "title": "實作 Luhn 演算法",
+      "review-python-algorithms": {
+        "title": "演算法複習",
         "intro": [
-          "在此實驗中，你將實作 Luhn 演算法來驗證身份識別號碼，例如信用卡號碼。"
+          "在接受演算法測驗前，你應該複習大 O 符號、問題解決技巧，以及搜尋與排序演算法的相關知識。"
         ]
       },
-      "review-searching-and-sorting-algorithms": {
-        "title": "搜尋與排序演算法複習",
+      "quiz-python-algorithms": {
+        "title": "演算法測驗",
         "intro": [
-          "在接受搜尋與排序演算法測驗前，你應該先複習相關內容。"
+          "用這個測驗來測試你對 Python 演算法的學習成果。"
         ]
       },
-      "quiz-searching-and-sorting-algorithms": {
-        "title": "搜尋與排序演算法測驗",
+      "lab-bisection-method": {
+        "title": "實作二分法",
         "intro": [
-          "透過此測驗檢驗你對 Python 中搜尋與排序演算法的理解。"
+          "在這個實驗中，你將實作二分法來尋找數字的平方根。"
+        ]
+      },
+      "lecture-working-with-common-data-structures-v2": {
+        "title": "操作常見資料結構",
+        "intro": [
+          "在這些課程中，你將學習動態與靜態陣列、單向與雙向鏈結串列、堆疊與佇列。"
+        ]
+      },
+      "workshop-linked-list-class": {
+        "title": "建置鏈結串列",
+        "intro": [
+          "在這個工作坊中，你將透過建置鏈結串列來練習操作資料結構。"
+        ]
+      },
+      "review-linear-data-structures": {
+        "title": "線性資料結構複習",
+        "intro": [
+          "在接受線性資料結構測驗前，你應該複習陣列、鏈結串列、堆疊與佇列的相關知識。"
+        ]
+      },
+      "quiz-linear-data-structures": {
+        "title": "線性資料結構測驗",
+        "intro": [
+          "用這個測驗來測試你對 Python 線性資料結構的學習成果。"
+        ]
+      },
+      "lab-circular-queue": {
+        "title": "建置環狀佇列",
+        "intro": [
+          "在這個實驗中，你將建置一個環狀佇列，一種固定大小且會環繞重複使用空槽的佇列。"
+        ]
+      },
+      "lecture-understanding-recursion-and-the-call-stack-python": {
+        "title": "理解遞迴與呼叫堆疊",
+        "intro": [
+          "在這堂課中，你將學習遞迴函式與呼叫堆疊在 Python 中的運作方式。"
+        ]
+      },
+      "workshop-countup-python": {
+        "title": "建置計數函式",
+        "intro": [
+          "在這個工作坊中，你將建置一個使用遞迴來產生數字列表的函式。"
+        ]
+      },
+      "lab-range-of-numbers-python": {
+        "title": "建置數字範圍產生器",
+        "intro": [
+          "在這個實驗中，你將使用遞迴來產生指定範圍內的數字列表。"
+        ]
+      },
+      "lecture-understanding-divide-and-conquer": {
+        "title": "理解分治法",
+        "intro": [
+          "在本課程中，你將學習分治法範式以及合併排序演算法的運作方式。"
+        ]
+      },
+      "workshop-merge-sort": {
+        "title": "實作合併排序演算法",
+        "intro": [
+          "合併排序演算法是一種基於分治法原理的排序演算法。",
+          "在這個工作坊中，你將實作合併排序演算法來排序一組隨機數字列表。"
+        ]
+      },
+      "lab-quicksort": {
+        "title": "實作快速排序演算法",
+        "intro": [
+          "在這個實驗室中，你將實作快速排序演算法來排序一組整數列表。"
+        ]
+      },
+      "review-recursion-python-v2": {
+        "title": "遞迴複習",
+        "intro": [
+          "複習遞迴、基底案例和呼叫堆疊的概念。"
+        ]
+      },
+      "quiz-recursion-python-v2": {
+        "title": "遞迴測驗",
+        "intro": [
+          "測試你對遞迴、基底案例和呼叫堆疊的理解。"
         ]
       },
       "lab-tower-of-hanoi": {
         "title": "實作河內塔演算法",
         "intro": [
-          "在此實驗中，你將實作一個演算法來解決河內塔謎題。"
+          "在這個實驗室中，你將實作一個演算法來解決河內塔謎題。"
         ]
       },
-      "lecture-understanding-graphs-and-trees": {
-        "title": "認識圖形與樹狀結構",
+      "lecture-working-with-hash-maps-and-sets": {
+        "title": "操作雜湊映射與集合",
         "intro": [
-          "本課程將介紹圖形、樹狀結構等基本資料結構，以及它們在計算機科學中的實際應用。"
+          "在本課程中，你將學習映射、雜湊映射和集合的運作方式。"
         ]
       },
-      "workshop-shortest-path-algorithm": {
-        "title": "實作最短路徑演算法",
+      "lab-hash-table": {
+        "title": "建置雜湊表",
         "intro": [
-          "在此工作坊中，你將實作一個演算法來尋找圖中兩個節點間的最短路徑。"
+          "雜湊表是一種用於儲存鍵值對且經過最佳化以快速搜尋的資料結構。",
+          "在這個實驗室中，你將運用對資料結構的知識來建置雜湊表。"
+        ]
+      },
+      "lecture-understanding-graphs": {
+        "title": "理解圖形結構",
+        "intro": [
+          "在這些課程中，你將學習圖形、深度優先與廣度優先搜尋，以及如何用鄰接矩陣和鄰接列表來表述圖形。"
         ]
       },
       "lab-adjacency-list-to-matrix-converter": {
         "title": "建置鄰接列表轉矩陣轉換器",
         "intro": [
-          "在此實驗中，你將實作一個函式，將圖的鄰接列表表述轉換為鄰接矩陣表述。"
-        ]
-      },
-      "workshop-breadth-first-search": {
-        "title": "實作廣度優先搜尋演算法",
-        "intro": [
-          "在此工作坊中，你將使用廣度優先搜尋演算法來產生所有有效的小括號組合。"
+          "在這個實驗室中，你將實作一個函式，將圖形的鄰接列表表示法轉換成鄰接矩陣表示法。"
         ]
       },
       "lab-depth-first-search": {
         "title": "實作深度優先搜尋演算法",
         "intro": [
-          "在此實驗中，你將實作深度優先搜尋演算法。"
+          "在這個實驗室中，你將實作深度優先搜尋演算法。"
+        ]
+      },
+      "workshop-shortest-path-algorithm": {
+        "title": "實作最短路徑演算法",
+        "intro": [
+          "在這個工作坊中，你將實作一個演算法來尋找圖形中兩個節點間的最短路徑。"
         ]
       },
       "lab-n-queens-problem": {
         "title": "實作 N 皇后演算法",
         "intro": [
-          "在此實驗中，你將實作 N 皇后問題的解法。"
+          "在這個實驗室中，你將實作 N 皇后問題的解法。"
         ]
       },
-      "review-graphs-and-trees": {
-        "title": "圖形與樹狀結構複習",
+      "lecture-understanding-trees-and-tries": {
+        "title": "理解樹與字典樹",
         "intro": [
-          "在接受圖形與樹狀結構測驗前，你應該先複習相關內容。"
+          "在本課程中，你將學習什麼是樹和字典樹，以及它們的運作方式。"
         ]
       },
-      "quiz-graphs-and-trees": {
-        "title": "圖形與樹狀結構測驗",
+      "lecture-understanding-priority-queues-and-heaps": {
+        "title": "理解優先佇列與堆積",
         "intro": [
-          "透過此測驗檢驗你對 Python 中圖形與樹狀結構的理解。"
+          "在本課程中，你將學習優先佇列和堆積的運作方式。"
+        ]
+      },
+      "review-non-linear-data-structures": {
+        "title": "非線性資料結構複習",
+        "intro": [
+          "在你接受非線性資料結構測驗前，應先複習你所學的雜湊映射、集合、圖形、樹、字典樹和堆積。"
+        ]
+      },
+      "quiz-non-linear-data-structures": {
+        "title": "非線性資料結構測驗",
+        "intro": [
+          "透過此測驗，測試你對 Python 非線性資料結構的理解。"
+        ]
+      },
+      "lab-paint-bucket-tool": {
+        "title": "建置油漆桶工具",
+        "intro": [
+          "在這個實驗室中，你將建置一個使用圖形遍歷來填滿網格連通區域的油漆桶工具。"
         ]
       },
       "lecture-understanding-dynamic-programming": {
-        "title": "認識動態規劃",
+        "title": "理解動態規劃",
         "intro": [
-          "本課程將介紹動態規劃，一種透過將複雜問題拆解為較簡單子問題來高效解決問題的演算法技巧。"
+          "在本課程中，你將學習動態規劃，一種透過將複雜問題拆解成較簡單子問題來高效解決問題的演算法技巧。"
         ]
       },
       "lab-nth-fibonacci-number": {
         "title": "建置第 N 個費氏數列計算器",
         "intro": [
-          "在此實驗中，你將使用動態規劃方法實作費氏數列計算器。"
+          "在這個實驗室中，你將使用動態規劃方法實作費氏數列計算器。"
         ]
       },
       "review-dynamic-programming": {
         "title": "動態規劃複習",
         "intro": [
-          "在接受動態規劃測驗前，你應該先複習相關內容。"
+          "在你接受動態規劃測驗前，應先複習你所學的內容。"
         ]
       },
       "quiz-dynamic-programming": {
         "title": "動態規劃測驗",
         "intro": [
-          "透過此測驗檢驗你對 Python 中動態規劃的理解。"
+          "透過此測驗，測試你對 Python 動態規劃的理解。"
         ]
       },
-      "review-python": {
-        "title": "Python 複習",
-        "intro": ["複習 Python 概念，為即將到來的考試做準備。"]
+      "lab-knapsack-algorithm": {
+        "title": "實作背包問題演算法",
+        "intro": [
+          "在這個實驗室中，你將使用動態規劃來解決背包問題。"
+        ]
+      },
+      "review-python-algorithms-and-data-structures": {
+        "title": "演算法與資料結構複習",
+        "intro": [
+          "複習演算法與資料結構的概念，為即將到來的考試做準備。"
+        ]
       }
     }
   },
-
   "front-end-development": {
     "title": "HTML、CSS 與 JavaScript 前端網頁開發認證",
     "intro": [
       "完成指定專案並通過考試，即可獲得 HTML、CSS 與 JavaScript 前端網頁開發認證。"
     ],
     "chapters": {
-      "front-end-web-development": "HTML、CSS 與 JavaScript 前端網頁開發"
+      "front-end-development": "使用 HTML、CSS 和 JavaScript 的前端網頁開發"
     },
     "modules": {
-      "html": "HTML"
+      "html": "HTML",
+      "css": "CSS"
     },
     "blocks": {
       "workshop-curriculum-outline": {
@@ -11029,10 +11105,10 @@
           "這個工作坊將作為你對 HTML 和程式設計的一般介紹。你將學習標題和段落元素。"
         ]
       },
-      "lecture-html-introduction": {
+      "lecture-understanding-html-attributes": {
         "title": "HTML 入門",
         "intro": [
-          "在這些講座中，你將深入了解 HTML（超文字標記語言），這是一種用於創建網頁的標記語言。",
+          "在這些課程中，你將深入了解 HTML（超文字標記語言），一種用於創建網頁的標記語言。",
           "你將學習 HTML 在網路上的角色，以及什麼是 HTML 屬性。"
         ]
       },
@@ -11086,7 +11162,7 @@
           "你將練習使用 <code>label</code>、<code>input</code>、<code>fieldset</code>、<code>legend</code>、<code>textarea</code> 和 <code>button</code> 元素。"
         ]
       },
-      "lab-survey-form": {
+      "lab-survey-form-v2": {
         "title": "建置調查表單",
         "intro": [
           "在這個實驗室中，你將透過創建調查表單來複習 HTML 表單。",
@@ -11097,6 +11173,225 @@
         "title": "建置期末考試表格",
         "intro": [
           "在這個工作坊中，你將透過建置期末考試表格來練習使用 HTML 表格。"
+        ]
+      },
+      "review-html-v2": {
+        "title": "HTML 複習",
+        "intro": [
+          "在你參加 HTML 測驗前，需先複習前面模組所教的概念。",
+          "打開此頁面，複習有關 HTML 元素基礎、語意化 HTML、表格、表單和無障礙性的概念。"
+        ]
+      },
+      "quiz-html": {
+        "title": "HTML 測驗",
+        "intro": [
+          "以下測驗將測試你迄今所學的 HTML 概念。"
+        ]
+      },
+      "lecture-introduction-to-css": {
+        "title": "CSS 入門",
+        "intro": [
+          "在這些課程中，你將學習 CSS 是什麼及其在網路上的角色，行內元素與區塊元素的差異，以及行內區塊的運作方式。"
+        ]
+      },
+      "workshop-cafe-menu": {
+        "title": "設計咖啡廳選單",
+        "intro": [
+          "CSS 告訴瀏覽器如何顯示你的網頁。你可以用 CSS 設定 HTML 元素的顏色、字型、大小和其他屬性。",
+          "在這個工作坊中，你將透過設計咖啡廳的選單頁面來學習 CSS。"
+        ]
+      },
+      "lab-business-card": {
+        "title": "設計名片",
+        "intro": [
+          "在這個實驗室中，你將創建名片並使用 CSS 進行樣式設計。",
+          "你將練習使用 <code>color</code>、<code>font-size</code>、<code>text-align</code> 等樣式屬性。"
+        ]
+      },
+      "lecture-understanding-css-specificity": {
+        "title": "理解 CSS 特異性",
+        "intro": [
+          "在這些課程中，你將學習 CSS 特異性、不同選擇器的特異性，以及使用 <code>!important</code> 關鍵字的最佳實踐。"
+        ]
+      },
+      "lecture-working-with-backgrounds-and-borders-v2": {
+        "title": "操作背景與邊框",
+        "intro": [
+          "在這些課程中，你將學習如何控制背景影像的大小、重複、位置和附著方式，以及如何為圖片添加邊框。"
+        ]
+      },
+      "lab-blog-post-card": {
+        "title": "設計部落格文章卡片",
+        "intro": [
+          "在這個實驗室中，你將使用 HTML 和 CSS 設計部落格文章卡片。",
+          "你將練習 <code>background-color</code>、<code>border-radius</code>、外距、內距等概念。"
+        ]
+      },
+      "lecture-working-with-relative-and-absolute-units": {
+        "title": "操作相對與絕對單位",
+        "intro": [
+          "在這些課程中，你將學習相對單位和絕對單位，以及它們如何影響瀏覽器中的顯示效果。"
+        ]
+      },
+      "lab-event-flyer-page": {
+        "title": "建置活動傳單頁面",
+        "intro": [
+          "在這個實驗中，你將創建一個活動傳單頁面。",
+          "你將練習使用絕對和相對 CSS 對齊元素。"
+        ]
+      },
+      "lecture-working-with-pseudo-classes-and-pseudo-elements": {
+        "title": "使用 CSS 偽類和偽元素",
+        "intro": [
+          "在這些課程中，你將學習偽類和偽元素，並了解它們的範例及運作方式。"
+        ]
+      },
+      "workshop-greeting-card": {
+        "title": "設計賀卡",
+        "intro": [
+          "在之前的課程中，你已學會如何使用不同類型的偽類。",
+          "在這個工作坊中，你將有機會透過設計賀卡來練習所學。"
+        ]
+      },
+      "lab-tribute-page": {
+        "title": "建置致敬頁面",
+        "intro": [
+          "在這個實驗中，你將為你選擇的主題（虛構或真實）建置一個致敬頁面。"
+        ]
+      },
+      "workshop-colored-markers": {
+        "title": "建置一組彩色標記筆",
+        "intro": [
+          "在這個工作坊中，你將建置一組彩色標記筆。你將練習不同的設定顏色值方式，以及如何將顏色彼此配對。"
+        ]
+      },
+      "lab-colored-boxes": {
+        "title": "設計一組彩色方塊",
+        "intro": [
+          "在這個實驗中，你將創建一個色彩網格，並練習使用十六進位、RGB 和預設色彩名稱為網格項目添加背景色。"
+        ]
+      },
+      "workshop-registration-form": {
+        "title": "設計註冊表單",
+        "intro": [
+          "在這個工作坊中，你將學習如何設計 HTML 表單，透過設計註冊頁面。你將學會如何控制使用者在表單中輸入的資料類型，以及一些用於頁面樣式的新 CSS 工具。"
+        ]
+      },
+      "lab-contact-form": {
+        "title": "設計聯絡表單",
+        "intro": [
+          "在這個實驗中，你將設計一個 HTML 聯絡表單並使用 CSS 進行樣式設計。"
+        ]
+      },
+      "lecture-introduction-to-the-box-model": {
+        "title": "盒模型介紹",
+        "intro": [
+          "在這堂課中，你將學習 CSS 盒模型及其運作方式。"
+        ]
+      },
+      "workshop-rothko-painting": {
+        "title": "設計羅斯科畫作",
+        "intro": [
+          "每個 HTML 元素都是一個獨立的盒子，擁有自己的間距和邊框。這稱為盒模型。",
+          "在這個工作坊中，你將使用 CSS 和盒模型創作羅斯科風格的矩形藝術作品。"
+        ]
+      },
+      "lab-confidential-email-page": {
+        "title": "建置機密電子郵件頁面",
+        "intro": [
+          "在這個實驗中，你將使用 HTML 建立網頁，並利用 CSS 屬性遮罩內容。"
+        ]
+      },
+      "lecture-working-with-css-flexbox": {
+        "title": "使用 CSS Flexbox",
+        "intro": [
+          "在這些課程中，你將學習 CSS flexbox 的運作方式、屬性，以及何時應該使用它。"
+        ]
+      },
+      "workshop-flexbox-photo-gallery": {
+        "title": "建置 Flexbox 相片畫廊",
+        "intro": [
+          "在這個工作坊中，你將使用 Flexbox 建置響應式相片畫廊網頁。"
+        ]
+      },
+      "lab-page-of-playing-cards-v2": {
+        "title": "建置一頁撲克牌",
+        "intro": [
+          "在這個實驗中，你將使用 flexbox 創建一個撲克牌網頁。",
+          "你將練習使用 <code>flex-direction</code>、<code>justify-content</code>、<code>align-self</code> 等 flexbox 屬性對齊元素。"
+        ]
+      },
+      "workshop-nutritional-label": {
+        "title": "建置營養標籤",
+        "intro": [
+          "排版是設計文字樣式，使其易讀且符合用途的藝術。",
+          "在這個工作坊中，你將使用排版建置營養標籤網頁。你將練習如何設計文字樣式、調整行高，以及使用 CSS 定位文字。"
+        ]
+      },
+      "lab-newspaper-article": {
+        "title": "建置報紙文章",
+        "intro": [
+          "在這個實驗中，你將使用 HTML 和 CSS 建置報紙文章頁面。",
+          "你將使用 <code>font-family</code>、<code>font-size</code>、<code>font-weight</code> 等屬性設計字型。"
+        ]
+      },
+      "lecture-understanding-positioning-in-css": {
+        "title": "理解 CSS 定位",
+        "intro": [
+          "在這些課程中，你將學習如何使用 CSS 定位。你將了解 <code>absolute</code>、<code>relative</code>、<code>fixed</code> 和 <code>sticky</code> 定位，並使用 <code>z-index</code> 屬性。"
+        ]
+      },
+      "workshop-cat-painting": {
+        "title": "建置貓咪畫作",
+        "intro": [
+          "掌握 CSS 定位對於創造視覺吸引且響應式的網頁版面至關重要。",
+          "在這個工作坊中，你將建置一幅貓咪畫作。你將學習如何使用絕對定位、<code>z-index</code> 屬性和 <code>transform</code> 屬性。"
+        ]
+      },
+      "lab-house-painting": {
+        "title": "建置房屋畫作",
+        "intro": [
+          "在這個實驗中，你將使用 CSS 建置房屋畫作。",
+          "你將設計房屋的各個元素，並使用 <code>position</code>、<code>top</code>、<code>left</code> 等 CSS 屬性定位它們。"
+        ]
+      },
+      "lecture-working-with-attribute-selectors-and-combinators": {
+        "title": "使用屬性選擇器和組合器",
+        "intro": [
+          "在這些課程中，你將學習如何使用屬性選擇器來標的元素，以及如何使用組合器根據元素間的關係標的元素。"
+        ]
+      },
+      "workshop-balance-sheet": {
+        "title": "建置資產負債表",
+        "intro": [
+          "在這個工作坊中，你將使用偽選擇器建置資產負債表。你將學習如何在滑鼠暫留時改變元素樣式，並觸發網頁上的其他事件。"
+        ]
+      },
+      "workshop-piano": {
+        "title": "設計鋼琴",
+        "intro": [
+          "響應式設計告訴你的網頁在不同尺寸的螢幕上應該如何呈現。",
+          "在這個工作坊中，你將使用 CSS 和響應式設計編寫鋼琴。你也將練習媒體查詢和偽選擇器。"
+        ]
+      },
+      "lab-technical-documentation-page-v2": {
+        "title": "建置技術文件頁面",
+        "intro": [
+          "在這個實驗中，你將建置一個技術文件頁面，作為某個主題的教學或參考。",
+          "你也將練習媒體查詢以創造響應式設計。"
+        ]
+      },
+      "lecture-introduction-to-css-variables": {
+        "title": "CSS 變數介紹",
+        "intro": [
+          "在這堂課中，你將學習如何定義和使用訂製屬性（也稱為 CSS 變數）。"
+        ]
+      },
+      "workshop-magazine": {
+        "title": "建置雜誌",
+        "intro": [
+          "CSS Grid 讓你能控制網頁設計的列和行。",
+          "在這個工作坊中，你將建置一篇雜誌文章。你將練習如何使用 CSS Grid，包括網格列和網格行等概念。"
         ]
       }
     }

@@ -9,7 +9,7 @@ dashedName: step-35
 
 Es ist Zeit, Ihren neuen Setter zu testen. Versuchen Sie, ungültige Werte wie einen zufälligen String oder das aktuelle Level (`trainee`) an `charlie_brown.level` zuzuweisen, und sehen Sie sich die Fehlermeldungen in der Konsole an.
 
-Nachdem Sie das gemacht haben, entfernen Sie die Zeilen, die Fehler auslösen, und setzen Sie `charlie_brown.level` auf den String `junior`.
+Nachdem Sie das getan haben, entfernen Sie die Zeilen, die Fehler auslösen, und setzen Sie `charlie_brown.level` auf den String `junior`.
 
 # --hints--
 

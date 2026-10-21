@@ -11,7 +11,7 @@ dashedName: how-do-conditional-statements-and-logical-operators-work
 
 但在進入這些之前，讓我們先來了解條件述語的基本建造區塊，從比較運算子開始。比較運算子是讓你比較兩個或多個值，並傳回布林值的運算子。
 
-在先前的課程中，你學到布林值是 Python 中的資料型別之一，且只能是 `True` 或 `False`。
+在之前的課程中，你已經學過布林值是 Python 的一種資料型別，且只能是 `True` 或 `False`。
 
 ## 使用比較運算子
 
@@ -51,13 +51,13 @@ if condition:
 
 * `if` 述語以 `if` 關鍵字開始。
     
-* `condition` 是一個會計算結果為 `True` 或 `False` 的運算式，後面接著冒號（`:`）。
+* `condition` 是一個表達式，後面接著冒號（`:`）。
 
 * `if` 述語的主體構成一個<dfn>程式碼區塊</dfn>，這是一組彼此相關的述語。行首的空白稱為縮排。在 Python 中，縮排決定哪些述語屬於同一個程式碼區塊。
     
 在上述範例中，`if` 述語的主體包含一個 `pass` 述語。當執行 `pass` 述語時，不會發生任何事情。這是一個特殊的關鍵字，可用作未來程式碼的佔位符，當不允許空的程式碼區塊時非常有用。
 
-`if` 述語主體內的程式碼僅在條件計算為 `True` 時執行。 例如：
+`if` 述語主體內的程式碼只有在 Python 將條件視為 true 時才會執行。這裡展示的比較會傳回 `True` 或 `False`。在下一課中，你將學習 Python 如何處理條件中的其他值。例如：
 
 ```python
 age = 18
@@ -92,13 +92,13 @@ if age >= 18:
 
 ## 添加 `else` 語句
 
-但是如果你也想在 `age` 小於 `18` 時列印某些東西呢？這時候就會用到 `else` 語句。當 `if` 條件為假時，`else` 語句會被執行。以下是 `if…else` 述語的語法：
+但如果你也想在 `age` 小於 `18` 時列印一些東西呢？這時就會用到 `else` 語句。當 `if` 條件為 false 時，`else` 語句會執行。以下是 `if...else` 述語的語法：
 
 ```python
 if condition:
-   pass # Code to execute if condition is True
+    pass # Code to execute if condition is True
 else:
-   pass # Code to execute if condition is False
+    pass # Code to execute if condition is False
 ```
 
 例如：
@@ -132,11 +132,11 @@ else: # SyntaxError: invalid syntax
 
 ```python
 if condition1:
-   pass # Code to execute if condition1 is True
+    pass # Code to execute if condition1 is True
 elif condition2:
-   pass # Code to execute if condition1 is False and condition2 is True
+    pass # Code to execute if condition1 is False and condition2 is True
 else:
-   pass # Code to execute if all conditions are False
+    pass # Code to execute if all conditions are False
 ```
 
 例如：
@@ -171,7 +171,7 @@ else:
     print('You are a toddler or an infant') # You are a toddler or an infant
 ```
 
-既然你已經了解比較運算子和條件語句在 Python 中的運作方式，你就可以開始撰寫根據邏輯和輸入做出決策的程式。無論是比較值還是根據多重條件分支，這些工具都是撰寫靈活且具回應性的程式碼的基礎。
+現在你已經了解比較運算子和條件述語在 Python 中的運作方式，你可以開始撰寫根據邏輯和輸入做出決策的程式。無論是比較值還是根據多重條件分支，這些工具都是撰寫靈活且有反應能力程式的基礎。
 
 # --questions--
 
@@ -181,7 +181,7 @@ else:
 
 ## --answers--
 
-對布林值執行數學運算
+對布林值執行數學計算。
 
 ### --feedback--
 

@@ -7,18 +7,20 @@ dashedName: implement-the-quicksort-algorithm
 
 # --description--
 
-**目的：** 以下のストーリーを満たし、すべてのテストに合格してラボを完了してください。
+**目的：** 以下のユーザーストーリーを満たし、すべてのテストに合格してラボを完了してください。
 
-**ストーリー：**
+**ユーザーストーリー：**
 
 1. クイックソートアルゴリズムを実装するために、`quick_sort` という名前の関数を定義してください。
 
-1. `quick_sort` 関数は整数のリストを入力として受け取り、これらの整数を最小から最大の順に並べ替えた新しいリストを返す必要があります。
+1. `quick_sort` 関数は整数のリストを入力として受け取り、入力リストを変更せずに、これらの整数を最小から最大の順に並べ替えた新しいリストを返す必要があります。
 
 1. アルゴリズムを実装するには、以下を行ってください：
    - 入力リストの要素からピボット値を選びます（リストの最初または最後の要素を使います）。
    - 入力リストを3つのサブリストに分割します：ピボットより小さい要素のリスト、ピボットと等しい要素のリスト、ピボットより大きい要素のリスト。
    - サブリストを再帰的に`quick_sort`でソートし、ソート済みのサブリストを連結して最終的なソート済みリストを作成します。
+
+**注意:** コード内でモジュールをインポートしたり、組み込みの `sorted()` 関数や `sort()` メソッドを使用したりしてはいけません。
 
 # --hints--
 
@@ -82,7 +84,9 @@ assert _test_list == [20, 3, 14, 1, 5]
 
 ```js
 ({ test: () => runPython(`
-    assert len(_Node(_code).find_imports()) == 0
+    import ast
+    _nodes = list(ast.walk(ast.parse(_code)))
+    assert not any(isinstance(n, (ast.Import, ast.ImportFrom)) for n in _nodes)
     assert not _Node(_code).block_has_call("sort")
     assert not _Node(_code).block_has_call("sorted")
 `)})

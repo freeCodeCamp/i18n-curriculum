@@ -11,7 +11,7 @@ dashedName: how-do-conditional-statements-and-logical-operators-work
 
 하지만 그 전에, 조건문의 기본 구성 요소부터 살펴보겠습니다. 비교 연산자부터 시작할게요. 비교 연산자는 두 개 이상의 값을 비교하고 불리언 값을 반환하는 연산자입니다.
 
-이전 수업에서 불리언이 Python의 데이터 타입 중 하나이며, `True` 또는 `False`만 가질 수 있다는 것을 배웠습니다.
+이전 수업에서 불리언이 Python의 데이터 유형 중 하나이며 `True` 또는 `False`만 될 수 있다는 것을 배웠습니다.
 
 ## 비교 연산자 사용하기
 
@@ -51,13 +51,13 @@ if condition:
 
 * `if` 문은 `if` 키워드로 시작합니다.
     
-* `condition`는 `True` 또는 `False`으로 평가되는 표현식이며, 콜론(`:`)으로 끝납니다.
+* `condition`은 콜론(`:`)이 뒤따르는 표현식입니다.
 
 * `if` 문 본문은 함께 속하는 명령문 그룹인 <dfn>코드 블록</dfn>을 구성합니다. 한 줄의 시작 부분에 있는 공백을 들여쓰기라고 합니다. Python에서는 들여쓰기가 어떤 명령문이 코드 블록에 속하는지 결정합니다.
     
 위 예제에서 `if` 문의 본문에는 `pass` 문이 포함되어 있습니다. `pass` 문이 실행되면 아무 일도 일어나지 않습니다. 이는 미래 코드를 위한 자리 표시자로 사용할 수 있는 특별한 키워드이며, 빈 코드 블록이 허용되지 않을 때 유용합니다.
 
-`if` 문의 본문 내 코드는 조건이 `True`로 평가될 때만 실행됩니다. 예를 들어:
+`if` 문 본문 내의 코드는 Python이 조건을 참으로 처리할 때만 실행됩니다. 여기서 보여준 비교는 `True` 또는 `False`를 반환합니다. 다음 수업에서는 Python이 조건에서 다른 값을 어떻게 처리하는지 배울 것입니다. 예를 들어:
 
 ```python
 age = 18
@@ -92,13 +92,13 @@ if age >= 18:
 
 ## `else` 절 추가하기
 
-그런데 `age`이 `18`보다 작을 때도 무언가 출력하고 싶다면 어떻게 할까요? 그럴 때 `else` 절이 필요합니다. `else` 절은 `if` 조건이 거짓일 때 실행됩니다. `if…else` 문의 구문은 다음과 같습니다:
+하지만 `age`가 `18`보다 작을 때도 무언가를 출력하고 싶다면 어떻게 할까요? 그럴 때 `else` 절이 필요합니다. `else` 절은 `if` 조건이 거짓일 때 실행됩니다. `if...else` 문의 구문은 다음과 같습니다:
 
 ```python
 if condition:
-   pass # Code to execute if condition is True
+    pass # Code to execute if condition is True
 else:
-   pass # Code to execute if condition is False
+    pass # Code to execute if condition is False
 ```
 
 예를 들어:
@@ -132,11 +132,11 @@ else: # SyntaxError: invalid syntax
 
 ```python
 if condition1:
-   pass # Code to execute if condition1 is True
+    pass # Code to execute if condition1 is True
 elif condition2:
-   pass # Code to execute if condition1 is False and condition2 is True
+    pass # Code to execute if condition1 is False and condition2 is True
 else:
-   pass # Code to execute if all conditions are False
+    pass # Code to execute if all conditions are False
 ```
 
 예를 들어:
@@ -171,7 +171,7 @@ else:
     print('You are a toddler or an infant') # You are a toddler or an infant
 ```
 
-이제 Python에서 비교 연산자와 조건문이 어떻게 작동하는지 이해했으니, 논리와 입력에 따라 결정을 내리는 프로그램을 작성할 수 있습니다. 값을 비교하든 여러 조건을 분기하든, 이 도구들은 유연하고 반응형 코드를 작성하는 기초입니다.
+이제 비교 연산자와 조건문이 Python에서 어떻게 작동하는지 이해했으니, 논리와 입력에 따라 결정을 내리는 프로그램을 작성할 수 있습니다. 값을 비교하든 여러 조건을 분기하든, 이 도구들은 유연하고 반응형 코드를 작성하는 기초입니다.
 
 # --questions--
 

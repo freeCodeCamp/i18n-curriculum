@@ -7,9 +7,13 @@ dashedName: what-is-the-stream-module-and-how-does-it-work
 
 # --description--
 
+## Was ist das Stream-Modul?
+
 Das letzte Kernmodul von Node.js, das wir uns ansehen, ist `stream`. Dieses Modul hilft Ihnen, Daten effizient zu verarbeiten, besonders wenn die Daten zu groß sind, um sie auf einmal zu laden, wie beim Lesen einer großen Textdatei oder beim Herunterladen eines langen Videos.
 
 Anstatt zu warten, bis alle Daten gelesen oder geschrieben sind, verarbeiten Streams Datenstücke, sobald sie eintreffen – ähnlich wie Sie ein YouTube-Video schon ansehen können, bevor es vollständig geladen ist.
+
+## Arten von Streams
 
 Es gibt vier Haupttypen von Streams in Node.js: lesbare, beschreibbare, duplex und Transformationsstreams:
 
@@ -24,9 +28,13 @@ Sie können die benötigten Stream-Klassen importieren, indem Sie sie aus dem St
 const { Readable, Writable, Transform } = require("stream");
 ```
 
+## Verwendung eingebauter Datei-Streams
+
 Meistens müssen Sie keine eigenen Stream-Klassen erstellen. Für alltägliche Dateioperationen reichen eingebaute Methoden wie `fs.createReadStream()` und `fs.createWriteStream()` normalerweise aus.
 
 Diese beiden Methoden nehmen den Pfad der Datei, die gelesen oder geschrieben werden soll. Das bedeutet, dass Sie in vielen Fällen auch die `fs` und `path` Module benötigen, um Streaming zu implementieren.
+
+## Daten mit einem lesbaren Stream lesen
 
 So können Sie Daten aus einer Datei lesen, zum Beispiel einer `input.txt` Datei:
 
@@ -65,6 +73,8 @@ Received data: <Buffer 4c 6f 72 65 6d 20 69 70 73 75 6d
 */
 ```
 
+## Puffer in Text umwandeln
+
 Da es einen Puffer zurückgibt, können Sie die `toString()` Methode aufrufen, um ihn in lesbaren Text umzuwandeln:
 
 ```js
@@ -93,6 +103,8 @@ eaque doloribus assumenda, minima fuga tempore, porro, debitis rem harum in
 */
 ```
 
+## Daten mit einem beschreibbaren Stream schreiben
+
 Um einen beschreibbaren Stream zu implementieren, besonders wenn Sie von einer Datei lesen und in eine andere schreiben, müssen Sie zuerst den lesbaren Stream erstellen, gefolgt vom beschreibbaren Stream:
 
 ```js
@@ -108,6 +120,8 @@ const readInputFileStream = fs.createReadStream(inputFilePath);
 // Create the write stream
 const writeOutputFileStream = fs.createWriteStream(outputFilePath);
 ```
+
+## Streams mit `pipe()` verbinden
 
 Verwenden Sie dann die `.pipe()` Methode, um den lesbaren Stream mit dem beschreibbaren Stream zu verbinden. So liest Node.js automatisch Daten von der Quelle und schreibt sie Stück für Stück ins Ziel:
 
@@ -127,6 +141,8 @@ const writeOutputFileStream = fs.createWriteStream(outputFilePath);
 // Pipe the read stream to the write stream
 readInputFileStream.pipe(writeOutputFileStream);
 ```
+
+## Umgang mit den `finish`- und `error`-Ereignissen
 
 Anschließend können Sie auf die `finish` und `error` Ereignisse des beschreibbaren Streams hören, um zu wissen, wann das Streaming abgeschlossen ist oder ob ein Fehler aufgetreten ist:
 
