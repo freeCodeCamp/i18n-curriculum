@@ -7,18 +7,20 @@ dashedName: implement-the-quicksort-algorithm
 
 # --description--
 
-**Ziel:** Erfüllen Sie die untenstehenden User Stories und bringen Sie alle Tests zum Bestehen, um das Labor abzuschließen.
+**Ziel:** Erfüllen Sie die untenstehenden User Stories und bestehen Sie alle Tests, um das Labor abzuschließen.
 
 **User Stories:**
 
 1. Sie sollten eine Funktion namens `quick_sort` definieren, um den Quicksort-Algorithmus zu implementieren.
 
-1. Die Funktion `quick_sort` sollte eine Liste ganzer Zahlen als Eingabe nehmen und eine neue Liste dieser Zahlen in aufsteigender Reihenfolge zurückgeben.
+1. Die `quick_sort`-Funktion soll eine Liste von ganzen Zahlen als Eingabe erhalten und eine neue Liste dieser Zahlen in aufsteigender Reihenfolge zurückgeben, ohne die Eingabeliste zu verändern.
 
 1. Um den Algorithmus zu implementieren, sollten Sie:
    - Einen Pivot-Wert aus den Elementen der Eingabeliste auswählen (verwenden Sie das erste oder das letzte Element der Liste).
    - Die Eingabeliste in drei Teillisten aufteilen: eine mit Elementen kleiner als der Pivot, eine mit Elementen gleich dem Pivot und eine mit Elementen größer als der Pivot.
    - `quick_sort` rekursiv aufrufen, um die Teillisten zu sortieren, und die sortierten Teillisten zusammenfügen, um die endgültige sortierte Liste zu erzeugen.
+
+**Hinweis:** Sie sollten keine Module importieren oder die eingebaute `sorted()`-Funktion oder die `sort()`-Methode in Ihrem Code verwenden.
 
 # --hints--
 
@@ -82,7 +84,9 @@ Sie sollten kein Modul importieren oder eingebaute Sortiermethoden in Ihrem Code
 
 ```js
 ({ test: () => runPython(`
-    assert len(_Node(_code).find_imports()) == 0
+    import ast
+    _nodes = list(ast.walk(ast.parse(_code)))
+    assert not any(isinstance(n, (ast.Import, ast.ImportFrom)) for n in _nodes)
     assert not _Node(_code).block_has_call("sort")
     assert not _Node(_code).block_has_call("sorted")
 `)})

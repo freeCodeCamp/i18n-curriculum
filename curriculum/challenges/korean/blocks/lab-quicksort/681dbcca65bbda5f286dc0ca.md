@@ -13,12 +13,14 @@ dashedName: implement-the-quicksort-algorithm
 
 1. 퀵소트 알고리즘을 구현하기 위해 `quick_sort`라는 이름의 함수를 정의해야 합니다.
 
-1. `quick_sort` 함수는 정수 리스트를 입력으로 받아 이 정수들을 오름차순으로 정렬한 새 리스트를 반환해야 합니다.
+1. `quick_sort` 함수는 정수 리스트를 입력으로 받아 입력 리스트를 수정하지 않고 가장 작은 값부터 가장 큰 값까지 정렬된 새로운 리스트를 반환해야 합니다.
 
 1. 알고리즘을 구현하려면 다음을 수행하세요:
    - 입력 리스트의 요소 중에서 피벗 값을 선택하세요(리스트의 첫 번째 또는 마지막 요소를 사용).
    - 입력 리스트를 세 개의 하위 리스트로 분할하세요: 피벗보다 작은 요소들, 피벗과 같은 요소들, 피벗보다 큰 요소들.
    - 하위 리스트들을 정렬하기 위해 재귀적으로 `quick_sort`를 호출하고, 정렬된 하위 리스트들을 연결하여 최종 정렬 리스트를 만드세요.
+
+**참고:** 코드에서 어떤 모듈도 가져오지 말고 내장된 `sorted()` 함수나 `sort()` 메서드를 사용하지 마세요.
 
 # --hints--
 
@@ -78,11 +80,13 @@ assert _test_list == [20, 3, 14, 1, 5]
 ({ test: () => runPython(`assert quick_sort([87, 11, 23, 18, 18, 23, 11, 56, 87, 56]) == [11, 11, 18, 18, 23, 23, 56, 56, 87, 87]`) })
 ```
 
-코드에서 어떤 모듈도 가져오지 말고 내장 정렬 메서드를 사용하지 마세요.
+코드에서 어떤 모듈도 가져오거나 내장 정렬 메서드를 사용하지 않아야 합니다.
 
 ```js
 ({ test: () => runPython(`
-    assert len(_Node(_code).find_imports()) == 0
+    import ast
+    _nodes = list(ast.walk(ast.parse(_code)))
+    assert not any(isinstance(n, (ast.Import, ast.ImportFrom)) for n in _nodes)
     assert not _Node(_code).block_has_call("sort")
     assert not _Node(_code).block_has_call("sorted")
 `)})

@@ -1613,9 +1613,9 @@
         ]
       },
       "workshop-pin-extractor": {
-        "title": "Jenga kifaa cha kuchukua nambari za siri",
+        "title": "Jenga kivutio cha PIN",
         "intro": [
-          "Katika warsha hii utajenga kitendakazi cha kuchukua nambari za siri zilizofichwa katika shairi."
+          "Katika warsha hii utajenga kitendakazi cha kutoa PIN za siri zilizofichwa katika mashairi."
         ]
       },
       "lab-number-pattern-generator": {
@@ -1699,7 +1699,7 @@
       "lab-isbn-validator": {
         "title": "Tafuta hitilafu katika kinathibitisha ISBN",
         "intro": [
-          "Katika maabara hii, utaanza na programu yenye hitilafu, na utahitaji kutafuta makosa na kuyarekebisha hadi ifanye kazi vizuri."
+          "Katika maabara hii, utatafuta makosa kwenye kikagua ISBN kwa kurekebisha hitilafu katika msimbo wa Python uliotolewa."
         ]
       },
       "review-error-handling": {
@@ -1711,7 +1711,7 @@
       "quiz-error-handling": {
         "title": "Jaribio fupi la jinsi ya kushughulikia makosa",
         "intro": [
-          "Jaribu kile ulichojifunza kuhusu jinsi ya kushughulikia makosa katika Python kwa jaribio hili fupi."
+          "Jaribu kile ulichojifunza kuhusu utunzaji wa hitilafu katika Python kwa jaribio fupi hili."
         ]
       }
     }
@@ -1809,7 +1809,9 @@
       },
       "lecture-understanding-abstraction": {
         "title": "Kuelewa ufupishaji",
-        "intro": ["Jifunze kuhusu kuelewa ufupishaji katika mafundisho haya."]
+        "intro": [
+          "Jifunze kuhusu abstraction na jinsi ya kufanya kazi na madarasa ya vitu ya abstraction katika Python katika mafundisho haya."
+        ]
       },
       "workshop-discount-calculator": {
         "title": "Jenga kikokotoo cha punguzo",
@@ -1836,9 +1838,9 @@
         ]
       },
       "quiz-object-oriented-programming": {
-        "title": "Jaribio fupi la uprogramaji unaozingatia vitu",
+        "title": "Jaribio fupi la programu ya vitu",
         "intro": [
-          "Jaribu kile ulichojifunza kuhusu uprogramaji unaozingatia vitu katika Python kwa jaribio hili fupi."
+          "Jaribu kile ulichojifunza kuhusu programu ya vitu katika Python kwa jaribio fupi hili."
         ]
       }
     }
@@ -3034,6 +3036,13 @@
         "title": "Mbinu za kurekebisha makosa",
         "intro": [
           "Katika masomo haya, utajifunza kuhusu hitilafu za kawaida katika JavaScript na mbinu unazoweza kutumia kuzirekebisha – mchakato unaoitwa kurekebisha makosa."
+        ]
+      },
+      "workshop-library-search": {
+        "title": "Jenga utaftaji wa vitabu vya maktaba",
+        "intro": [
+          "Katika warsha hii, utatumia mbinu za kutunza hitilafu kwa heshima katika JavaScript.",
+          "Utajenga programu ya utaftaji wa vitabu vya maktaba na kutumia <code>try...catch...finally</code>, pamoja na kauli ya <code>throw</code>, kushika na kusimamia hitilafu maalum."
         ]
       },
       "lab-random-background-color-changer": {
@@ -5065,6 +5074,12 @@
           "Katika warsha hii, utatumia mizunguko ya JavaScript kujenga mfululizo wa taa za trafiki."
         ]
       },
+      "workshop-campus-directory-normalizer": {
+        "title": "Jenga kawaisha ya orodha ya chuo",
+        "intro": [
+          "Katika warsha hii, utakawaisha data zilizopangwa ndani kuwa jedwali huru, rahisi kutumia kwa utaftaji."
+        ]
+      },
       "lab-proofreading-tool": {
         "title": "Jenga chombo cha ukaguzi wa makosa ya msimbo",
         "intro": [
@@ -6595,7 +6610,7 @@
         ]
       },
       "workshop-pin-extractor": {
-        "title": "Jenga kivunja PIN",
+        "title": "Jenga kivutio cha PIN",
         "intro": [
           "Katika warsha hii utajenga kitendakazi cha kutoa PIN za siri zilizofichwa katika mashairi."
         ]
@@ -6661,7 +6676,7 @@
       "lab-isbn-validator": {
         "title": "Tafuta hitilafu katika kithibitishaji cha ISBN",
         "intro": [
-          "Katika warsha hii, utaanza na programu yenye hitilafu, na utahitaji kutafuta makosa na kurekebisha hitilafu hadi ifanye kazi vizuri."
+          "Katika maabara hii, utatafuta makosa kwenye kikagua ISBN kwa kurekebisha hitilafu katika msimbo wa Python uliotolewa."
         ]
       },
       "review-error-handling": {
@@ -6673,7 +6688,7 @@
       "quiz-error-handling": {
         "title": "Jaribio fupi la utunzaji wa makosa",
         "intro": [
-          "Jaribu kile ulichojifunza kuhusu utunzaji wa makosa katika Python kwa jaribio hili."
+          "Jaribu kile ulichojifunza kuhusu utunzaji wa hitilafu katika Python kwa jaribio fupi hili."
         ]
       },
       "lecture-classes-and-objects": {
@@ -6749,7 +6764,9 @@
       },
       "lecture-understanding-abstraction": {
         "title": "Kuelewa ufupishaji",
-        "intro": ["Jifunze kuhusu ufupishaji katika mafundisho haya."]
+        "intro": [
+          "Jifunze kuhusu abstraction na jinsi ya kufanya kazi na madarasa ya vitu ya abstraction katika Python katika mafundisho haya."
+        ]
       },
       "workshop-discount-calculator": {
         "title": "Jenga kalkuleta ya punguzo",
@@ -6770,9 +6787,9 @@
         ]
       },
       "quiz-object-oriented-programming": {
-        "title": "Jaribio la uprogramaji unaozingatia vitu",
+        "title": "Jaribio fupi la programu ya vitu",
         "intro": [
-          "Jaribu kile ulichojifunza kuhusu uprogramaji unaozingatia vitu katika Python kwa jaribio hili."
+          "Jaribu kile ulichojifunza kuhusu programu ya vitu katika Python kwa jaribio fupi hili."
         ]
       },
       "lab-polygon-area-calculator": {
@@ -6927,7 +6944,7 @@
       "workshop-breadth-first-search": {
         "title": "Tekeleza algoriti ya utafutaji wa upana kwanza",
         "intro": [
-          "Katika warsha hii, utatumia algoriti ya utafutaji wa upana kwanza kuzalisha mchanganyiko wote halali wa mabano ya kawaida."
+          "Katika warsha hii, utatumia algoriti ya utafutaji wa upana kwanza kuunda mchanganyiko wote halali wa mabano ya kawaida."
         ]
       },
       "lab-depth-first-search": {
@@ -10587,9 +10604,9 @@
         ]
       },
       "workshop-pin-extractor": {
-        "title": "Jenga Kichimbaji cha Pin",
+        "title": "Jenga kivutio cha PIN",
         "intro": [
-          "Katika warsha hii utajenga kitendakazi cha kuchimba pin za siri zilizofichwa katika mashairi."
+          "Katika warsha hii utajenga kitendakazi cha kutoa PIN za siri zilizofichwa katika mashairi."
         ]
       },
       "lab-number-pattern-generator": {
@@ -10653,7 +10670,7 @@
       "lab-isbn-validator": {
         "title": "Tafuta hitilafu katika kinathibitisha ISBN",
         "intro": [
-          "Katika maabara hii, utaanza na programu yenye hitilafu, na utahitaji kutafuta makosa na kuyarekebisha hadi ifanye kazi vizuri."
+          "Katika maabara hii, utatafuta makosa kwenye kikagua ISBN kwa kurekebisha hitilafu katika msimbo wa Python uliotolewa."
         ]
       },
       "review-error-handling": {
@@ -10665,7 +10682,7 @@
       "quiz-error-handling": {
         "title": "Jaribio la kushughulikia makosa",
         "intro": [
-          "Jaribu kile ulichojifunza kuhusu kushughulikia makosa katika Python kwa jaribio hili."
+          "Jaribu kile ulichojifunza kuhusu utunzaji wa hitilafu katika Python kwa jaribio fupi hili."
         ]
       },
       "lecture-classes-and-objects": {
@@ -10741,7 +10758,9 @@
       },
       "lecture-understanding-abstraction": {
         "title": "Kuelewa ufupishaji",
-        "intro": ["Jifunze kuhusu kuelewa ufupishaji katika mafundisho haya."]
+        "intro": [
+          "Jifunze kuhusu abstraction na jinsi ya kufanya kazi na madarasa ya vitu ya abstraction katika Python katika mafundisho haya."
+        ]
       },
       "workshop-discount-calculator": {
         "title": "Jenga kielekezi cha punguzo",
@@ -10762,9 +10781,9 @@
         ]
       },
       "quiz-object-oriented-programming": {
-        "title": "Jaribio la uprogramaji unaozingatia vitu",
+        "title": "Jaribio fupi la programu ya vitu",
         "intro": [
-          "Jaribu kile ulichojifunza kuhusu uprogramaji unaozingatia vitu katika Python kwa jaribio hili."
+          "Jaribu kile ulichojifunza kuhusu programu ya vitu katika Python kwa jaribio fupi hili."
         ]
       },
       "lab-polygon-area-calculator": {
@@ -10779,162 +10798,211 @@
       }
     }
   },
-  "algorithms-and-data-structure": {
-    "title": "Cheti cha Algoriti na Muundo wa Data",
+  "algorithms-and-data-structures": {
+    "title": "Cheti cha Algoriti na Miundo ya Data",
     "intro": [
-      "Kozi hii inahusu mifumo ya data na algoriti katika Python.",
-      "Kamilisha miradi inayohitajika na pita mtihani ili kupata Cheti cha Algoriti na Muundo wa Data."
+      "Kozi hii inashughulikia miundo ya data na algoriti katika Python.",
+      "Kamilisha miradi inayohitajika na pita mtihani kupata Cheti cha Algoriti na Miundo ya Data."
     ],
     "chapters": {
-      "algorithms-and-data-structure": "Algoriti na Muundo wa Data"
+      "algorithms-and-data-structures": "Algoriti na miundo ya data"
     },
     "modules": {
-      "python-linear-data-structures": "Mifumo ya Data ya Mstari",
-      "lab-hash-table": "Jenga Jedwali la Hashi",
-      "python-recursion": "Kurudia",
       "python-algorithms": "Algoriti",
-      "lab-tower-of-hanoi": "Tekeleza Algoriti ya Mnara wa Hanoi",
-      "python-graphs-and-trees": "Michoro na Miti",
-      "python-dynamic-programming": "Programu Inayobadilika",
-      "review-python": "Kagua Python"
+      "lab-bisection-method": "Tekeleza mbinu ya bisection",
+      "python-linear-data-structures": "Miundo ya data ya mstari",
+      "lab-circular-queue": "Jenga foleni mviringo",
+      "python-recursion": "Kurudia",
+      "lab-tower-of-hanoi": "Tekeleza algoriti ya mnara wa Hanoi",
+      "non-linear-data-structures": "Miundo ya data isiyo ya mstari",
+      "lab-paint-bucket-tool": "Jenga chombo cha rangi ya ndoo",
+      "python-dynamic-programming": "Programu inayobadilika",
+      "lab-knapsack-algorithm": "Tekeleza algoriti ya mkoba",
+      "review-python-algorithms-and-data-structures": "Kagua algoriti na miundo ya data"
     },
     "module-intros": {
+      "lab-circular-queue": {
+        "note": "Inakuja 2026",
+        "intro": [
+          "Katika maabara hii, utajenga foleni mviringo, foleni yenye ukubwa thabiti inayozunguka kutumia tena nafasi tupu."
+        ]
+      },
       "python-recursion": {
         "intro": [
-          "Katika moduli hii, utajifunza jinsi kurudia na wito la stack vinavyofanya kazi katika Python."
+          "Katika moduli hii, utajifunza jinsi kurudia na staki ya wito vinavyofanya kazi katika Python."
+        ]
+      },
+      "lab-paint-bucket-tool": {
+        "note": "Inakuja 2026",
+        "intro": [
+          "Katika maabara hii, utajenga chombo cha ndoo ya rangi kinachotumia utambazaji wa grafu kujaza maeneo yaliounganishwa ya gridi."
+        ]
+      },
+      "lab-knapsack-algorithm": {
+        "note": "Inakuja 2026",
+        "intro": [
+          "Katika maabara hii, utatumia programu inayobadilika kutatua tatizo la mkoba."
         ]
       }
     },
     "blocks": {
-      "lecture-working-with-common-data-structures": {
-        "title": "Kufanya kazi na Mifumo ya Data ya Kawaida",
+      "lecture-understanding-algorithms-and-big-o": {
+        "title": "Kuelewa algoriti na alama kubwa O",
         "intro": [
-          "Jifunze kuhusu kufanya kazi na mifumo ya data ya kawaida katika mafundisho haya."
+          "Katika mafundisho haya, utajifunza algoriti ni nini, jinsi ya kuyachambua kwa alama kubwa O, na mbinu nzuri za kukabiliana na matatizo ya algoriti."
+        ]
+      },
+      "lecture-searching-and-sorting-algorithms-v2": {
+        "title": "Algoriti za utafutaji na upangaji",
+        "intro": [
+          "Katika funzo hili, utajifunza jinsi utafutaji wa binary unavyofanya kazi na tofauti yake na utafutaji wa mstari."
+        ]
+      },
+      "workshop-binary-search": {
+        "title": "Tekeleza algoriti ya utafutaji wa binary",
+        "intro": [
+          "Algoriti ya utafutaji wa binary ni algoriti ya utafutaji inayotumika kupata kipengee lengwa katika orodha iliyopangwa.",
+          "Katika warsha hii, utatekeleza algoriti ya utafutaji wa binary na kurudisha njia iliyoichukua kupata lengwa au kurudisha 'Thamani haikupatikana'."
+        ]
+      },
+      "lab-selection-sort": {
+        "title": "Tekeleza algoriti ya upangaji wa uchaguzi",
+        "intro": [
+          "Katika maabara hii utatekeleza algoriti ya upangaji wa uchaguzi."
+        ]
+      },
+      "review-python-algorithms": {
+        "title": "Kagua algoriti",
+        "intro": [
+          "Kabla ya kujaribiwa kuhusu algoriti, unapaswa kukagua kile ulichojifunza kuhusu alama kubwa O, mbinu za kutatua matatizo, na algoriti za utafutaji na upangaji."
+        ]
+      },
+      "quiz-python-algorithms": {
+        "title": "Jaribio fupi la algoriti",
+        "intro": [
+          "Jaribu kile ulichojifunza kuhusu algoriti katika Python kwa jaribio fupi hili."
+        ]
+      },
+      "lab-bisection-method": {
+        "title": "Tekeleza mbinu ya bisection",
+        "intro": [
+          "Katika maabara hii, utatekeleza mbinu ya bisection kupata mzizi wa mraba wa nambari."
+        ]
+      },
+      "lecture-working-with-common-data-structures-v2": {
+        "title": "Kufanya kazi na miundo ya kawaida ya data",
+        "intro": [
+          "Katika mafundisho haya, utajifunza kuhusu safu za data zinazobadilika na zisizobadilika, orodha zilizounganishwa mara moja na mara mbili, staki, na foleni."
         ]
       },
       "workshop-linked-list-class": {
-        "title": "Jenga Orodha Iliyounganishwa",
+        "title": "Jenga orodha iliyounganishwa",
         "intro": [
-          "Katika warsha hii, utajifunza kufanya kazi na mifumo ya data kwa kujenga orodha iliyounganishwa."
+          "Katika warsha hii, utatumia mazoezi ya kufanya kazi na miundo ya data kwa kujenga orodha iliyounganishwa."
         ]
       },
-      "review-data-structures": {
-        "title": "Kagua Mifumo ya Data",
+      "review-linear-data-structures": {
+        "title": "Kagua miundo ya data ya mstari",
         "intro": [
-          "Kabla ya kujaribiwa kuhusu mifumo ya data, unapaswa kukagua kile ulichojifunza kuhusu mifumo hiyo.",
-          "Fungua ukurasa huu kukagua dhana kama mifumo tofauti ya data, algoriti, ugumu wa wakati na nafasi, na noti ya big O."
+          "Kabla ya kujaribiwa kuhusu miundo ya data ya mstari, unapaswa kukagua kile ulichojifunza kuhusu safu za data, orodha zilizounganishwa, staki, na foleni."
         ]
       },
-      "quiz-data-structures": {
-        "title": "Jaribio fupi la Mifumo ya Data",
+      "quiz-linear-data-structures": {
+        "title": "Jaribio fupi la miundo ya data ya mstari",
         "intro": [
-          "Jaribu kile ulichojifunza kuhusu mifumo ya data katika Python kwa jaribio hili."
+          "Jaribu kile ulichojifunza kuhusu miundo ya data ya mstari katika Python kwa jaribio fupi hili."
         ]
       },
-      "lab-hash-table": {
-        "title": "Jenga Jedwali la Hashi",
+      "lab-circular-queue": {
+        "title": "Jenga foleni mviringo",
         "intro": [
-          "Jedwali la hashi ni mfumo wa data unaotumika kuhifadhi jozi za ufunguo-thamani na umeboreshwa kwa ajili ya utafutaji wa haraka.",
-          "Katika maabara hii, utatumia maarifa yako kuhusu mifumo ya data kujenga jedwali la hashi."
+          "Katika maabara hii, utajenga foleni mviringo, foleni yenye ukubwa thabiti inayozunguka kutumia tena nafasi tupu."
         ]
       },
       "lecture-understanding-recursion-and-the-call-stack-python": {
-        "title": "Kuelewa Kurudia na Wito la Stack",
+        "title": "Kuelewa kurudia na staki ya wito",
         "intro": [
-          "Katika somo hili, utajifunza jinsi vitendakazi vinavyorudia na wito la stack vinavyofanya kazi katika Python."
+          "Katika somo hili, utajifunza jinsi vitendakazi vinavyorudia na staki ya wito vinavyofanya kazi katika Python."
         ]
       },
       "workshop-countup-python": {
-        "title": "Jenga Kitendakazi cha Kuongeza Hesabu",
+        "title": "Jenga kitendakazi cha kuhesabu",
         "intro": [
           "Katika warsha hii, utajenga kitendakazi kinachotumia kurudia kuunda orodha ya nambari."
         ]
       },
       "lab-range-of-numbers-python": {
-        "title": "Jenga Kizalishaji cha Mzunguko wa Nambari",
+        "title": "Jenga kizalishaji cha safu ya nambari",
         "intro": [
-          "Katika maabara hii, utatumia kurudia kuzalisha orodha ya nambari ndani ya mzunguko uliobainishwa."
+          "Katika maabara hii, utatumia kurudia kuzalisha orodha ya nambari ndani ya safu iliyobainishwa."
         ]
       },
-      "review-recursion-python": {
-        "title": "Kagua Kurudia",
+      "lecture-understanding-divide-and-conquer": {
+        "title": "Kuelewa mgawanyo na ushindi",
         "intro": [
-          "Kagua dhana za kurudia, kesi za msingi, na wito la stack."
-        ]
-      },
-      "quiz-recursion-python": {
-        "title": "Jaribio fupi la Kurudia",
-        "intro": [
-          "Jaribu uelewa wako wa kurudia, kesi za msingi, na wito la stack."
-        ]
-      },
-      "lecture-searching-and-sorting-algorithms": {
-        "title": "Algoriti za Utafutaji na Upangaji",
-        "intro": [
-          "Jifunze kuhusu algoriti za msingi za utafutaji na upangaji, ikiwa ni pamoja na utafutaji wa mstari, utafutaji wa binary, na merge sort.",
-          "Mafundisho haya yanahusu utekelezaji wa algoriti, uchambuzi wa ugumu wa wakati na nafasi, na mtindo wa programu wa kugawanya na kushinda."
-        ]
-      },
-      "workshop-binary-search": {
-        "title": "Tekeleza Algoriti ya Utafutaji wa Binary",
-        "intro": [
-          "Algoriti ya utafutaji wa binary ni algoriti ya utafutaji inayotumika kutafuta kipengele lengwa katika orodha iliyopangwa.",
-          "Katika warsha hii, utatekeleza algoriti ya utafutaji wa binary na kurudisha njia iliyochukuliwa kutafuta kipengele lengwa au kurudisha 'Thamani haikupatikana'."
-        ]
-      },
-      "lab-bisection-method": {
-        "title": "Tekeleza Njia ya Bisection",
-        "intro": [
-          "Katika maabara hii, utatekeleza njia ya bisection kutafuta mzizi wa mraba wa nambari."
+          "Katika funzo hili, utajifunza kuhusu mtindo wa mgawanyo na ushindi na jinsi algoriti ya merge sort inavyofanya kazi."
         ]
       },
       "workshop-merge-sort": {
-        "title": "Tekeleza Algoriti ya Merge Sort",
+        "title": "Tekeleza algoriti ya merge sort",
         "intro": [
-          "Algoriti ya merge sort ni algoriti ya upangaji inayotegemea kanuni ya kugawanya na kushinda.",
-          "Katika warsha hii, utatekeleza algoriti ya merge sort kupanga orodha ya nambari za bahati nasibu."
+          "Algoriti ya merge sort ni algoriti ya kupanga inayotegemea kanuni ya mgawanyo na ushindi.",
+          "Katika warsha hii, utatekeleza algoriti ya merge sort kupanga orodha ya nambari za nasibu."
         ]
       },
       "lab-quicksort": {
-        "title": "Tekeleza Algoriti ya Quicksort",
+        "title": "Tekeleza algoriti ya quicksort",
         "intro": [
           "Katika maabara hii utatekeleza algoriti ya quicksort kupanga orodha ya nambari kamili."
         ]
       },
-      "lab-selection-sort": {
-        "title": "Tekeleza Algoriti ya Selection Sort",
+      "review-recursion-python-v2": {
+        "title": "Kagua urudiaji",
         "intro": [
-          "Katika maabara hii utatekeleza algoriti ya selection sort."
+          "Kagua dhana za urudiaji, kesi za msingi, na foleni ya wito."
         ]
       },
-      "lab-luhn-algorithm": {
-        "title": "Tekeleza algoriti ya Luhn",
+      "quiz-recursion-python-v2": {
+        "title": "Jaribio la urudiaji",
         "intro": [
-          "Katika warsha hii, utatekeleza algoriti ya Luhn kuthibitisha nambari za utambulisho kama nambari za kadi za mkopo."
-        ]
-      },
-      "review-searching-and-sorting-algorithms": {
-        "title": "Kagua algoriti za utafutaji na upangaji",
-        "intro": [
-          "Kabla hujajaribiwa kuhusu algoriti za utafutaji na upangaji, unapaswa kukagua kile ulichojifunza kuhusu hizo algoriti."
-        ]
-      },
-      "quiz-searching-and-sorting-algorithms": {
-        "title": "Jaribio fupi la algoriti za utafutaji na upangaji",
-        "intro": [
-          "Jaribu kile ulichojifunza kuhusu algoriti za utafutaji na upangaji katika Python kwa jaribio hili fupi."
+          "Jaribu uelewa wako wa urudiaji, kesi za msingi, na foleni ya wito."
         ]
       },
       "lab-tower-of-hanoi": {
         "title": "Tekeleza algoriti ya mnara wa Hanoi",
         "intro": [
-          "Katika warsha hii, utatekeleza algoriti kutatua fumbo la mnara wa Hanoi."
+          "Katika maabara hii, utatekeleza algoriti kutatua fumbo la mnara wa Hanoi."
         ]
       },
-      "lecture-understanding-graphs-and-trees": {
-        "title": "Kuelewa michoro na miti",
+      "lecture-working-with-hash-maps-and-sets": {
+        "title": "Kufanya kazi na ramani za hash na seti",
         "intro": [
-          "Katika funzo hili, utajifunza kuhusu miundo ya msingi ya data kama michoro, miti, na matumizi yake ya vitendo katika sayansi ya kompyuta."
+          "Katika funzo hili, utajifunza jinsi ramani, ramani za hash, na seti zinavyofanya kazi."
+        ]
+      },
+      "lab-hash-table": {
+        "title": "Jenga jedwali la hash",
+        "intro": [
+          "Jedwali la hash ni muundo wa data unaotumika kuhifadhi jozi za ufunguo-thamani na umeboreshwa kwa upatikanaji wa haraka.",
+          "Katika maabara hii, utatumia maarifa yako kuhusu miundo ya data kujenga jedwali la hash."
+        ]
+      },
+      "lecture-understanding-graphs": {
+        "title": "Kuelewa michoro",
+        "intro": [
+          "Katika masomo haya, utajifunza kuhusu michoro, utafutaji wa kina kwanza na utafutaji wa upana kwanza, na jinsi ya kuwakilisha michoro kwa matriki ya ujirani na orodha za ujirani."
+        ]
+      },
+      "lab-adjacency-list-to-matrix-converter": {
+        "title": "Jenga kivunja orodha ya ujirani hadi matriki",
+        "intro": [
+          "Katika maabara hii, utatekeleza kitendakazi kinachobadilisha uwakilishi wa orodha ya ujirani wa mchoro kuwa uwakilishi wa matriki ya ujirani."
+        ]
+      },
+      "lab-depth-first-search": {
+        "title": "Tekeleza algoriti ya utafutaji wa kina kwanza",
+        "intro": [
+          "Katika maabara hii, utatekeleza algoriti ya utafutaji wa kina kwanza."
         ]
       },
       "workshop-shortest-path-algorithm": {
@@ -10943,83 +11011,91 @@
           "Katika warsha hii utatekeleza algoriti ya kupata njia fupi zaidi kati ya nodi mbili katika mchoro."
         ]
       },
-      "lab-adjacency-list-to-matrix-converter": {
-        "title": "Jenga kivuta-badilisha kutoka orodha ya ujirani hadi matriki",
-        "intro": [
-          "Katika warsha hii, utatekeleza kitendakazi kinachobadilisha uwakilishi wa orodha ya ujirani wa mchoro kuwa uwakilishi wa matriki ya ujirani."
-        ]
-      },
-      "workshop-breadth-first-search": {
-        "title": "Tekeleza algoriti ya utafutaji wa upana kwanza",
-        "intro": [
-          "Katika warsha hii, utatumia algoriti ya utafutaji wa upana kwanza kuzalisha mchanganyiko wote halali wa mabano ya kawaida."
-        ]
-      },
-      "lab-depth-first-search": {
-        "title": "Tekeleza algoriti ya utafutaji wa kina kwanza",
-        "intro": [
-          "Katika warsha hii, utatekeleza algoriti ya utafutaji wa kina kwanza."
-        ]
-      },
       "lab-n-queens-problem": {
         "title": "Tekeleza algoriti ya malkia N",
         "intro": [
-          "Katika warsha hii, utatekeleza suluhisho la tatizo la malkia N."
+          "Katika maabara hii, utatekeleza suluhisho la tatizo la malkia N."
         ]
       },
-      "review-graphs-and-trees": {
-        "title": "Kagua michoro na miti",
+      "lecture-understanding-trees-and-tries": {
+        "title": "Kuelewa miti na miti ya maneno",
         "intro": [
-          "Kabla hujajaribiwa kuhusu michoro na miti, unapaswa kukagua kile ulichojifunza kuhusu hiyo."
+          "Katika funzo hili, utajifunza ni miti na miti ya maneno ni nini na jinsi zinavyofanya kazi."
         ]
       },
-      "quiz-graphs-and-trees": {
-        "title": "Jaribio fupi la michoro na miti",
+      "lecture-understanding-priority-queues-and-heaps": {
+        "title": "Kuelewa foleni za kipaumbele na rundo",
         "intro": [
-          "Jaribu kile ulichojifunza kuhusu michoro na miti katika Python kwa jaribio hili fupi."
+          "Katika funzo hili, utajifunza jinsi foleni za kipaumbele na rundo zinavyofanya kazi."
+        ]
+      },
+      "review-non-linear-data-structures": {
+        "title": "Kagua miundo isiyo ya mstari ya data",
+        "intro": [
+          "Kabla ya kujaribiwa kuhusu miundo isiyo ya mstari ya data, unapaswa kukagua kile ulichojifunza kuhusu ramani za hash, seti, michoro, miti, miti ya maneno, na rundo."
+        ]
+      },
+      "quiz-non-linear-data-structures": {
+        "title": "Jaribio la miundo isiyo ya mstari ya data",
+        "intro": [
+          "Jaribu kile ulichojifunza kuhusu miundo isiyo ya mstari ya data katika Python kwa jaribio hili."
+        ]
+      },
+      "lab-paint-bucket-tool": {
+        "title": "Jenga chombo cha ndoo ya rangi",
+        "intro": [
+          "Katika maabara hii, utajenga chombo cha ndoo ya rangi kinachotumia utambazaji wa mchoro kujaza maeneo yaliounganishwa ya gridi."
         ]
       },
       "lecture-understanding-dynamic-programming": {
         "title": "Kuelewa programu ya mabadiliko",
         "intro": [
-          "Katika funzo hili, utajifunza kuhusu programu ya mabadiliko, mbinu ya algoriti inayotumika kutatua matatizo magumu kwa ufanisi kwa kuyavunja kuwa matatizo madogo rahisi."
+          "Katika funzo hili, utajifunza kuhusu programu ya mabadiliko, mbinu ya algoriti inayotumika kutatua matatizo magumu kwa ufanisi kwa kuyagawa kuwa matatizo madogo rahisi."
         ]
       },
       "lab-nth-fibonacci-number": {
         "title": "Jenga kalkuleta ya nambari ya Fibonacci ya N",
         "intro": [
-          "Katika warsha hii utatekeleza kalkuleta ya mfululizo wa Fibonacci kwa kutumia mbinu ya programu ya mabadiliko."
+          "Katika maabara hii utatekeleza kalkuleta ya mfululizo wa Fibonacci kwa kutumia mbinu ya programu ya mabadiliko."
         ]
       },
       "review-dynamic-programming": {
         "title": "Kagua programu ya mabadiliko",
         "intro": [
-          "Kabla hujajaribiwa kuhusu programu ya mabadiliko, unapaswa kukagua kile ulichojifunza kuhusu hiyo."
+          "Kabla ya kujaribiwa kuhusu programu ya mabadiliko, unapaswa kukagua kile ulichojifunza kuhusu hiyo."
         ]
       },
       "quiz-dynamic-programming": {
-        "title": "Jaribio fupi la programu ya mabadiliko",
+        "title": "Jaribio la programu ya mabadiliko",
         "intro": [
-          "Jaribu kile ulichojifunza kuhusu programu ya mabadiliko katika Python kwa jaribio hili fupi."
+          "Jaribu kile ulichojifunza kuhusu programu ya mabadiliko katika Python kwa jaribio hili."
         ]
       },
-      "review-python": {
-        "title": "Kagua Python",
-        "intro": ["Kagua dhana za Python kujiandaa kwa mtihani ujao."]
+      "lab-knapsack-algorithm": {
+        "title": "Tekeleza algoriti ya knapsack",
+        "intro": [
+          "Katika maabara hii, utatumia programu ya mabadiliko kutatua tatizo la knapsack."
+        ]
+      },
+      "review-python-algorithms-and-data-structures": {
+        "title": "Kagua algoriti na miundo ya data",
+        "intro": [
+          "Kagua dhana za algoriti na miundo ya data kujiandaa kwa mtihani ujao."
+        ]
       }
     }
   },
-
   "front-end-development": {
     "title": "Ukuzaji wa mtandao wa mbele na cheti cha HTML, CSS, na JavaScript",
     "intro": [
       "Kamilisha miradi inayohitajika na pita mtihani ili kupata cheti cha ukuzaji wa mtandao wa mbele kwa HTML, CSS, na JavaScript."
     ],
     "chapters": {
-      "front-end-web-development": "Ukuzaji wa mtandao wa mbele kwa HTML, CSS, na JavaScript"
+      "front-end-development": "Ukuzaji wa mtandao wa mbele kwa HTML, CSS, na JavaScript"
     },
     "modules": {
-      "html": "HTML"
+      "html": "HTML",
+      "css": "CSS"
     },
     "blocks": {
       "workshop-curriculum-outline": {
@@ -11029,10 +11105,10 @@
           "Warsha hii itakuwa utangulizi wako kwa HTML na uandishi wa msimbo kwa ujumla. Utajifunza kuhusu vichwa vya sehemu na vipengele vya aya."
         ]
       },
-      "lecture-html-introduction": {
+      "lecture-understanding-html-attributes": {
         "title": "Utangulizi wa HTML",
         "intro": [
-          "Katika masomo haya, utajifunza zaidi kuhusu HTML (HyperText Markup Language), lugha ya alama kwa ajili ya kuunda ukurasa wa mtandao.",
+          "Katika masomo haya, utajifunza zaidi kuhusu HTML (Lugha ya alama za uandishi wa maandishi), lugha ya alama kwa kuunda kurasa za mtandao.",
           "Utajifunza kuhusu jukumu la HTML kwenye mtandao, na sifa za kipengele za HTML."
         ]
       },
@@ -11086,17 +11162,236 @@
           "Utajifunza kufanya kazi na vipengele vya <code>label</code>, <code>input</code>, <code>fieldset</code>, <code>legend</code>, <code>textarea</code>, na <code>button</code>."
         ]
       },
-      "lab-survey-form": {
+      "lab-survey-form-v2": {
         "title": "Jenga fomu ya utafiti",
         "intro": [
           "Katika maabara hii, utakagua fomu za HTML kwa kuunda fomu ya utafiti.",
-          "Utajifunza kufanya kazi na kipengele cha <code>label</code>, vipengele tofauti vya <code>input</code>, sifa ya <code>required</code>, na zaidi."
+          "Utafanya mazoezi ya kutumia kipengele cha <code>label</code>, vipengele tofauti vya <code>input</code>, sifa ya <code>required</code>, na zaidi."
         ]
       },
       "workshop-final-exams-table": {
         "title": "Jenga jedwali la mitihani ya mwisho",
         "intro": [
           "Katika warsha hii, utajifunza kufanya kazi na meza za HTML kwa kujenga jedwali la mitihani ya mwisho."
+        ]
+      },
+      "review-html-v2": {
+        "title": "Kagua HTML",
+        "intro": [
+          "Kabla ya kuchukua jaribio la HTML, unahitaji kwanza kukagua dhana zilizofundishwa katika moduli zilizopita.",
+          "Fungua ukurasa huu kukagua dhana kuhusu misingi ya vipengele vya HTML, HTML yenye maana, majedwali, fomu, na Ufikikaji."
+        ]
+      },
+      "quiz-html": {
+        "title": "Jaribio la HTML",
+        "intro": [
+          "Jaribio lifuatalo litajaribu maarifa yako ya dhana za HTML ulizojifunza hadi sasa."
+        ]
+      },
+      "lecture-introduction-to-css": {
+        "title": "Utangulizi wa CSS",
+        "intro": [
+          "Katika masomo haya, utajifunza CSS ni nini na jukumu lake kwenye mtandao, jinsi vipengele ndani ya mstari na vya kiwango cha blocki vinavyotofautiana, na jinsi inline-block inavyofanya kazi."
+        ]
+      },
+      "workshop-cafe-menu": {
+        "title": "Tengeneza menyu ya kafeni",
+        "intro": [
+          "CSS inaeleza kivinjari jinsi ya kuonyesha ukurasa wako wa mtandao. Unaweza kutumia CSS kuweka rangi, fonti, ukubwa, na vipengele vingine vya vipengele vya HTML.",
+          "Katika warsha hii, utajifunza CSS kwa kubuni ukurasa wa menyu kwa kafeni."
+        ]
+      },
+      "lab-business-card": {
+        "title": "Tengeneza kadi ya biashara",
+        "intro": [
+          "Katika maabara hii, utaunda kadi ya biashara na kuipamba kwa kutumia CSS.",
+          "Utafanya mazoezi ya mali za mtindo kama <code>color</code>, <code>font-size</code>, <code>text-align</code>, na zaidi."
+        ]
+      },
+      "lecture-understanding-css-specificity": {
+        "title": "Kuelewa uhalisia wa CSS",
+        "intro": [
+          "Katika masomo haya, utajifunza kuhusu uhalisia wa CSS, uhalisia wa wachaguzi tofauti, na mbinu bora za kutumia neno muhimu <code>!important</code>."
+        ]
+      },
+      "lecture-working-with-backgrounds-and-borders-v2": {
+        "title": "Kufanya kazi na mandhari na mipaka",
+        "intro": [
+          "Katika masomo haya, utajifunza jinsi ya kudhibiti ukubwa wa picha ya mandhari, kurudia, nafasi, na uambatanisho, na jinsi ya kuongeza mipaka kuzunguka picha."
+        ]
+      },
+      "lab-blog-post-card": {
+        "title": "Tengeneza kadi ya chapisho la blogu",
+        "intro": [
+          "Katika maabara hii, utabuni kadi ya chapisho la blogu kwa kutumia HTML na CSS",
+          "Utafanya mazoezi ya dhana kama <code>background-color</code>, <code>border-radius</code>, ukingo, nafasi za ndani, na zaidi."
+        ]
+      },
+      "lecture-working-with-relative-and-absolute-units": {
+        "title": "Kufanya kazi na vipimo vinavyohusiana na vipimo kamili",
+        "intro": [
+          "Katika masomo haya, utajifunza kuhusu vipimo vinavyohusiana na vipimo kamili, na jinsi vyote vinavyoathiri kile unachoona kwenye kivinjari."
+        ]
+      },
+      "lab-event-flyer-page": {
+        "title": "Jenga ukurasa wa tangazo la tukio",
+        "intro": [
+          "Katika warsha hii, utaunda ukurasa wa tangazo la tukio.",
+          "Utafundisha kupanga vipengele kwa kutumia CSS ya absolute na relative."
+        ]
+      },
+      "lecture-working-with-pseudo-classes-and-pseudo-elements": {
+        "title": "Kufanya kazi na darasa la bandia na kipengele cha bandia katika CSS",
+        "intro": [
+          "Katika masomo haya, utajifunza kuhusu darasa la bandia na kipengele cha bandia, pamoja na mifano yao na jinsi vinavyofanya kazi."
+        ]
+      },
+      "workshop-greeting-card": {
+        "title": "Tengeneza kadi ya salamu",
+        "intro": [
+          "Katika masomo yaliyopita, ulijifunza jinsi ya kufanya kazi na aina tofauti za darasa la bandia.",
+          "Katika warsha hii, utapata nafasi ya kufanya mazoezi ya kile ulichojifunza kwa kutengeneza kadi ya salamu."
+        ]
+      },
+      "lab-tribute-page": {
+        "title": "Jenga ukurasa wa heshima",
+        "intro": [
+          "Katika warsha hii, utajenga ukurasa wa heshima kwa mada unayochagua, ya kubuni au halisi."
+        ]
+      },
+      "workshop-colored-markers": {
+        "title": "Jenga seti ya alama za rangi",
+        "intro": [
+          "Katika warsha hii, utajenga seti ya alama za rangi. Utafanya mazoezi ya njia tofauti za kuweka thamani za rangi na jinsi ya kuoanisha rangi pamoja."
+        ]
+      },
+      "lab-colored-boxes": {
+        "title": "Tengeneza seti ya masanduku ya rangi",
+        "intro": [
+          "Katika warsha hii, utaunda gridi ya rangi na kufanya mazoezi ya kuongeza rangi za nyuma kwa vipande vya gridi kwa kutumia nambari za hex, RGB, na majina ya rangi yaliyotanguliwa."
+        ]
+      },
+      "workshop-registration-form": {
+        "title": "Tengeneza fomu ya usajili",
+        "intro": [
+          "Katika warsha hii, utajifunza jinsi ya kubuni fomu za HTML kwa kutengeneza ukurasa wa usajili. Utafahamu jinsi ya kudhibiti aina za data watu wanaweza kuingiza kwenye fomu yako, na zana mpya za CSS za kupamba ukurasa wako."
+        ]
+      },
+      "lab-contact-form": {
+        "title": "Tengeneza fomu ya mawasiliano",
+        "intro": [
+          "Katika warsha hii, utatengeneza fomu ya mawasiliano kwa HTML na kuipamba kwa kutumia CSS."
+        ]
+      },
+      "lecture-introduction-to-the-box-model": {
+        "title": "Utangulizi wa mfano wa sanduku",
+        "intro": [
+          "Katika somo hili, utajifunza kuhusu mfano wa sanduku wa CSS na jinsi unavyofanya kazi."
+        ]
+      },
+      "workshop-rothko-painting": {
+        "title": "Tengeneza picha ya Rothko",
+        "intro": [
+          "Kila kipengele cha HTML ni sanduku lake mwenyewe - lenye nafasi yake na mpaka. Hii huitwa mfano wa sanduku.",
+          "Katika warsha hii, utatumia CSS na mfano wa sanduku kutengeneza vipande vyako vya sanaa vya mstatili vya mtindo wa Rothko."
+        ]
+      },
+      "lab-confidential-email-page": {
+        "title": "Jenga ukurasa wa barua pepe wa siri",
+        "intro": [
+          "Katika warsha hii, utaunda ukurasa wa mtandao kwa kutumia HTML na kuficha maudhui kwa kutumia sifa za CSS."
+        ]
+      },
+      "lecture-working-with-css-flexbox": {
+        "title": "Kufanya kazi na CSS Flexbox",
+        "intro": [
+          "Katika masomo haya, utajifunza jinsi CSS flexbox inavyofanya kazi, sifa zake, na lini unapaswa kuitumia."
+        ]
+      },
+      "workshop-flexbox-photo-gallery": {
+        "title": "Jenga maktaba ya picha ya Flexbox",
+        "intro": [
+          "Katika warsha hii, utatumia Flexbox kujenga ukurasa wa mtandao wa maktaba ya picha inayojibadilisha kulingana na kifaa."
+        ]
+      },
+      "lab-page-of-playing-cards-v2": {
+        "title": "Jenga ukurasa wa kadi za kuchezea",
+        "intro": [
+          "Katika warsha hii, utatumia flexbox kutengeneza ukurasa wa mtandao wa kadi za kuchezea.",
+          "Utafanya mazoezi ya kupanga vipengele kwa kutumia sifa za flexbox kama <code>flex-direction</code>, <code>justify-content</code>, <code>align-self</code>, na zaidi."
+        ]
+      },
+      "workshop-nutritional-label": {
+        "title": "Jenga lebo ya lishe",
+        "intro": [
+          "Typography ni sanaa ya kupamba maandishi yako ili yasomeke kwa urahisi na yafae kusudi lake.",
+          "Katika warsha hii, utatumia typography kutengeneza ukurasa wa mtandao wa lebo ya lishe. Utafanya mazoezi ya jinsi ya kupamba maandishi, kurekebisha urefu wa mstari, na kuweka maandishi yako kwa kutumia CSS."
+        ]
+      },
+      "lab-newspaper-article": {
+        "title": "Jenga makala ya gazeti",
+        "intro": [
+          "Katika warsha hii, utajenga ukurasa wa makala ya gazeti kwa kutumia HTML na CSS.",
+          "Utaweka mtindo wa fonti kwa kutumia sifa kama <code>font-family</code>, <code>font-size</code>, <code>font-weight</code>, na zaidi."
+        ]
+      },
+      "lecture-understanding-positioning-in-css": {
+        "title": "Kuelewa upangaji katika CSS",
+        "intro": [
+          "Katika masomo haya, utajifunza jinsi ya kutumia upangaji wa CSS. Utajifunza kuhusu upangaji wa <code>absolute</code>, <code>relative</code>, <code>fixed</code>, na <code>sticky</code>. Pia utatumia sifa ya <code>z-index</code>."
+        ]
+      },
+      "workshop-cat-painting": {
+        "title": "Jenga picha ya paka",
+        "intro": [
+          "Kuwa mtaalamu wa upangaji wa CSS ni muhimu kwa kuunda muundo wa mtandao unaovutia na unaojibadilisha kulingana na kifaa.",
+          "Katika warsha hii, utajenga picha ya paka. Utafahamu jinsi ya kufanya kazi na upangaji wa absolute, sifa ya <code>z-index</code>, na sifa ya <code>transform</code>."
+        ]
+      },
+      "lab-house-painting": {
+        "title": "Jenga picha ya nyumba",
+        "intro": [
+          "Katika warsha hii, utajenga picha ya nyumba kwa kutumia CSS.",
+          "Utatengeneza vipengele vya nyumba moja moja na kuviweka kwa kutumia sifa za CSS kama <code>position</code>, <code>top</code>, <code>left</code>, na zaidi."
+        ]
+      },
+      "lecture-working-with-attribute-selectors-and-combinators": {
+        "title": "Kufanya kazi na wachaguaji wa sifa na wanachanganya",
+        "intro": [
+          "Katika masomo haya, utajifunza jinsi ya kutumia wachaguaji wa sifa kulenga vipengele, na jinsi ya kulenga vipengele kulingana na uhusiano wao na vipengele vingine kwa kutumia wanachanganya."
+        ]
+      },
+      "workshop-balance-sheet": {
+        "title": "Jenga taarifa ya usawa",
+        "intro": [
+          "Katika warsha hii, utajenga taarifa ya usawa kwa kutumia wachaguaji wa bandia. Utafahamu jinsi ya kubadilisha mtindo wa kipengele unapoelekezwa na panya, na kuanzisha matukio mengine kwenye ukurasa wako wa mtandao."
+        ]
+      },
+      "workshop-piano": {
+        "title": "Tengeneza piano",
+        "intro": [
+          "Muundo unaobadilika unaeleza ukurasa wako wa mtandao jinsi unavyopaswa kuonekana kwenye skrini za ukubwa tofauti.",
+          "Katika warsha hii, utatumia CSS na muundo unaobadilika kuandika msimbo wa piano. Pia utafanya mazoezi ya maswali ya media na wachaguaji wa bandia."
+        ]
+      },
+      "lab-technical-documentation-page-v2": {
+        "title": "Jenga ukurasa wa nyaraka za kiufundi",
+        "intro": [
+          "Katika warsha hii, utajenga ukurasa wa nyaraka za kiufundi utakaotumika kama maelekezo au rejea kwa mada fulani.",
+          "Pia utafanya mazoezi ya maswali ya media kuunda muundo unaobadilika."
+        ]
+      },
+      "lecture-introduction-to-css-variables": {
+        "title": "Utangulizi wa vigezo vya CSS",
+        "intro": [
+          "Katika somo hili, utajifunza jinsi ya kufafanua na kutumia sifa maalum (zinazoitwa pia vigezo vya CSS)."
+        ]
+      },
+      "workshop-magazine": {
+        "title": "Jenga jarida",
+        "intro": [
+          "CSS Grid inakupa udhibiti juu ya safu na nguzo za muundo wa ukurasa wako wa mtandao.",
+          "Katika warsha hii, utajenga makala ya jarida. Utafanya mazoezi ya jinsi ya kutumia CSS Grid, ikiwa ni pamoja na dhana kama safu za gridi na nguzo za gridi."
         ]
       }
     }

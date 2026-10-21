@@ -1613,9 +1613,9 @@
         ]
       },
       "workshop-pin-extractor": {
-        "title": "构建密码提取器",
+        "title": "创建 PIN 提取器",
         "intro": [
-          "在本工作坊中，你将构建一个函数，用于从诗歌中提取隐藏的秘密密码。"
+          "在本工作坊中，你将创建一个函数，从诗歌中提取隐藏的秘密 PIN。"
         ]
       },
       "lab-number-pattern-generator": {
@@ -1699,7 +1699,7 @@
       "lab-isbn-validator": {
         "title": "调试 ISBN 验证器",
         "intro": [
-          "在本实验中，你将从一个有错误的应用开始，需要调试并修复错误，直到它正常工作。"
+          "在本实验中，你将通过修复提供的 Python 代码中的错误来调试 ISBN 验证器。"
         ]
       },
       "review-error-handling": {
@@ -1711,7 +1711,7 @@
       "quiz-error-handling": {
         "title": "错误处理测验",
         "intro": [
-          "通过此测验测试你对 Python 中错误处理的理解。"
+          "通过此测验测试你对 Python 错误处理的掌握。"
         ]
       }
     }
@@ -1809,7 +1809,9 @@
       },
       "lecture-understanding-abstraction": {
         "title": "理解抽象",
-        "intro": ["通过这些课程学习抽象的理解。"]
+        "intro": [
+          "在这些课程中学习抽象以及如何在 Python 中使用抽象类。"
+        ]
       },
       "workshop-discount-calculator": {
         "title": "创建折扣计算器",
@@ -1838,7 +1840,7 @@
       "quiz-object-oriented-programming": {
         "title": "面向对象编程测验",
         "intro": [
-          "通过此测验测试你对 Python 面向对象编程的理解。"
+          "通过此测验测试你对 Python 面向对象编程的掌握。"
         ]
       }
     }
@@ -3034,6 +3036,13 @@
         "title": "调试技巧",
         "intro": [
           "在这些讲座中，你将学习 JavaScript 中的常见错误以及修复它们的技巧——即调试过程。"
+        ]
+      },
+      "workshop-library-search": {
+        "title": "创建图书馆图书查找",
+        "intro": [
+          "在本工作坊中，你将练习如何优雅地处理 JavaScript 中的错误。",
+          "你将创建一个图书馆图书查找应用，使用 <code>try...catch...finally</code> 块和 <code>throw</code> 语句来捕获和管理自定义错误。"
         ]
       },
       "lab-random-background-color-changer": {
@@ -5065,6 +5074,12 @@
           "在本实验中，你将使用 JavaScript 循环创建交通信号灯序列器。"
         ]
       },
+      "workshop-campus-directory-normalizer": {
+        "title": "创建校园目录规范化工具",
+        "intro": [
+          "在本工作坊中，你将把嵌套数据规范化为独立且易用的查找表。"
+        ]
+      },
       "lab-proofreading-tool": {
         "title": "创建校对工具",
         "intro": [
@@ -6595,9 +6610,9 @@
         ]
       },
       "workshop-pin-extractor": {
-        "title": "创建一个密码提取器",
+        "title": "创建 PIN 提取器",
         "intro": [
-          "在本工作坊中，你将创建一个函数，用于从诗歌中提取隐藏的秘密密码。"
+          "在本工作坊中，你将创建一个函数，从诗歌中提取隐藏的秘密 PIN。"
         ]
       },
       "lab-number-pattern-generator": {
@@ -6661,7 +6676,7 @@
       "lab-isbn-validator": {
         "title": "调试 ISBN 验证器",
         "intro": [
-          "在本实验中，你将从一个有错误的应用开始，调试并修复错误，直到它正常工作。"
+          "在本实验中，你将通过修复提供的 Python 代码中的错误来调试 ISBN 验证器。"
         ]
       },
       "review-error-handling": {
@@ -6673,7 +6688,7 @@
       "quiz-error-handling": {
         "title": "错误处理测验",
         "intro": [
-          "通过此测验测试你对 Python 中错误处理的掌握。"
+          "通过此测验测试你对 Python 错误处理的掌握。"
         ]
       },
       "lecture-classes-and-objects": {
@@ -6749,7 +6764,9 @@
       },
       "lecture-understanding-abstraction": {
         "title": "理解抽象",
-        "intro": ["在这些课程中，学习理解抽象。"]
+        "intro": [
+          "在这些课程中学习抽象以及如何在 Python 中使用抽象类。"
+        ]
       },
       "workshop-discount-calculator": {
         "title": "创建一个折扣计算器",
@@ -6927,7 +6944,7 @@
       "workshop-breadth-first-search": {
         "title": "实现广度优先搜索算法",
         "intro": [
-          "在本工作坊中，你将使用广度优先搜索算法生成所有有效的括号组合。"
+          "在本工作坊中，你将使用广度优先算法生成所有有效的括号组合。"
         ]
       },
       "lab-depth-first-search": {
@@ -10587,9 +10604,9 @@
         ]
       },
       "workshop-pin-extractor": {
-        "title": "创建密码提取器",
+        "title": "创建 PIN 提取器",
         "intro": [
-          "在本工作坊中，你将创建一个函数来提取隐藏在诗歌中的秘密密码。"
+          "在本工作坊中，你将创建一个函数，从诗歌中提取隐藏的秘密 PIN。"
         ]
       },
       "lab-number-pattern-generator": {
@@ -10653,7 +10670,7 @@
       "lab-isbn-validator": {
         "title": "调试 ISBN 验证器",
         "intro": [
-          "在本实验中，你将从一个有错误的应用开始，调试并修复错误，直到它正常工作。"
+          "在本实验中，你将通过修复提供的 Python 代码中的错误来调试 ISBN 验证器。"
         ]
       },
       "review-error-handling": {
@@ -10665,7 +10682,7 @@
       "quiz-error-handling": {
         "title": "错误处理测验",
         "intro": [
-          "通过此测验测试你对 Python 中错误处理的理解。"
+          "通过此测验测试你对 Python 错误处理的掌握。"
         ]
       },
       "lecture-classes-and-objects": {
@@ -10741,7 +10758,9 @@
       },
       "lecture-understanding-abstraction": {
         "title": "理解抽象",
-        "intro": ["在这些课程中学习理解抽象。"]
+        "intro": [
+          "在这些课程中学习抽象以及如何在 Python 中使用抽象类。"
+        ]
       },
       "workshop-discount-calculator": {
         "title": "创建折扣计算器",
@@ -10764,7 +10783,7 @@
       "quiz-object-oriented-programming": {
         "title": "面向对象编程测验",
         "intro": [
-          "通过此测验测试你对 Python 中面向对象编程的理解。"
+          "通过此测验测试你对 Python 面向对象编程的掌握。"
         ]
       },
       "lab-polygon-area-calculator": {
@@ -10779,63 +10798,125 @@
       }
     }
   },
-  "algorithms-and-data-structure": {
+  "algorithms-and-data-structures": {
     "title": "算法与数据结构认证",
     "intro": [
       "本课程涵盖 Python 中的数据结构和算法。",
       "完成必修项目并通过考试，即可获得算法与数据结构认证。"
     ],
     "chapters": {
-      "algorithms-and-data-structure": "算法与数据结构"
+      "algorithms-and-data-structures": "算法与数据结构"
     },
     "modules": {
-      "python-linear-data-structures": "线性数据结构",
-      "lab-hash-table": "构建哈希表",
-      "python-recursion": "递归",
       "python-algorithms": "算法",
-      "lab-tower-of-hanoi": "实现河内塔算法",
-      "python-graphs-and-trees": "图和树",
+      "lab-bisection-method": "实现二分法",
+      "python-linear-data-structures": "线性数据结构",
+      "lab-circular-queue": "创建循环队列",
+      "python-recursion": "递归",
+      "lab-tower-of-hanoi": "实现汉诺塔算法",
+      "non-linear-data-structures": "非线性数据结构",
+      "lab-paint-bucket-tool": "创建油漆桶工具",
       "python-dynamic-programming": "动态规划",
-      "review-python": "Python 复习"
+      "lab-knapsack-algorithm": "实现背包算法",
+      "review-python-algorithms-and-data-structures": "算法与数据结构复习"
     },
     "module-intros": {
+      "lab-circular-queue": {
+        "note": "2026 年推出",
+        "intro": [
+          "在本实验中，你将创建一个循环队列，这是一种固定大小的队列，可以循环利用空槽。"
+        ]
+      },
       "python-recursion": {
         "intro": [
           "在本模块中，你将学习递归和调用栈在 Python 中的工作原理。"
         ]
+      },
+      "lab-paint-bucket-tool": {
+        "note": "2026 年推出",
+        "intro": [
+          "在本实验中，你将创建一个油漆桶工具，使用图遍历填充网格中相连的区域。"
+        ]
+      },
+      "lab-knapsack-algorithm": {
+        "note": "2026 年推出",
+        "intro": [
+          "在本实验中，你将使用动态规划解决背包问题。"
+        ]
       }
     },
     "blocks": {
-      "lecture-working-with-common-data-structures": {
+      "lecture-understanding-algorithms-and-big-o": {
+        "title": "理解算法和大 O 记法",
+        "intro": [
+          "在这些课程中，你将学习算法是什么，如何用大 O 记法分析算法，以及解决算法问题的有效技巧。"
+        ]
+      },
+      "lecture-searching-and-sorting-algorithms-v2": {
+        "title": "查找和排序算法",
+        "intro": [
+          "在本课中，你将学习二分查找的工作原理及其与线性查找的区别。"
+        ]
+      },
+      "workshop-binary-search": {
+        "title": "实现二分查找算法",
+        "intro": [
+          "二分查找算法是一种用于在排序列表中查找目标项的查找算法。",
+          "在本工作坊中，你将实现二分查找算法，并返回找到目标的路径，或返回“未找到值”。"
+        ]
+      },
+      "lab-selection-sort": {
+        "title": "实现选择排序算法",
+        "intro": [
+          "在本实验中，你将实现选择排序算法。"
+        ]
+      },
+      "review-python-algorithms": {
+        "title": "算法复习",
+        "intro": [
+          "在参加算法测验前，你应该复习大 O 记法、问题解决技巧以及查找和排序算法的相关知识。"
+        ]
+      },
+      "quiz-python-algorithms": {
+        "title": "算法测验",
+        "intro": [
+          "通过此测验测试你对 Python 算法的掌握。"
+        ]
+      },
+      "lab-bisection-method": {
+        "title": "实现二分法",
+        "intro": [
+          "在本实验中，你将实现二分法来求一个数的平方根。"
+        ]
+      },
+      "lecture-working-with-common-data-structures-v2": {
         "title": "使用常见数据结构",
         "intro": [
-          "在这些课程中，学习如何使用常见数据结构。"
+          "在这些课程中，你将学习动态和静态数组、单链表和双链表、栈和队列。"
         ]
       },
       "workshop-linked-list-class": {
-        "title": "构建链表",
+        "title": "创建链表",
         "intro": [
-          "在本工作坊中，你将通过构建链表，练习使用数据结构。"
+          "在本工作坊中，你将通过创建链表来练习使用数据结构。"
         ]
       },
-      "review-data-structures": {
-        "title": "数据结构复习",
+      "review-linear-data-structures": {
+        "title": "线性数据结构复习",
         "intro": [
-          "在进行数据结构测验前，你应该复习所学内容。",
-          "打开此页面，复习不同数据结构、算法、时间和空间复杂度以及大 O 表示法等概念。"
+          "在参加线性数据结构测验前，你应该复习数组、链表、栈和队列的相关知识。"
         ]
       },
-      "quiz-data-structures": {
-        "title": "数据结构测验",
+      "quiz-linear-data-structures": {
+        "title": "线性数据结构测验",
         "intro": [
-          "通过本测验测试你对 Python 中数据结构的理解。"
+          "通过此测验测试你对 Python 线性数据结构的掌握。"
         ]
       },
-      "lab-hash-table": {
-        "title": "构建哈希表",
+      "lab-circular-queue": {
+        "title": "创建循环队列",
         "intro": [
-          "哈希表是一种用于存储键值对的数据结构，优化了快速查找。",
-          "在本实验中，你将利用数据结构知识构建哈希表。"
+          "在本实验中，你将创建一个循环队列，这是一种固定大小的队列，可以循环利用空槽。"
         ]
       },
       "lecture-understanding-recursion-and-the-call-stack-python": {
@@ -10845,84 +10926,46 @@
         ]
       },
       "workshop-countup-python": {
-        "title": "构建计数函数",
+        "title": "创建计数函数",
         "intro": [
-          "在本工作坊中，你将构建一个使用递归生成数字列表的函数。"
+          "在本工作坊中，你将创建一个使用递归生成数字列表的函数。"
         ]
       },
       "lab-range-of-numbers-python": {
-        "title": "构建数字范围生成器",
+        "title": "创建数字范围生成器",
         "intro": [
           "在本实验中，你将使用递归生成指定范围内的数字列表。"
         ]
       },
-      "review-recursion-python": {
-        "title": "递归复习",
+      "lecture-understanding-divide-and-conquer": {
+        "title": "理解分治法",
         "intro": [
-          "复习递归、基本情形和调用栈的概念。"
-        ]
-      },
-      "quiz-recursion-python": {
-        "title": "递归测验",
-        "intro": [
-          "测试你对递归、基本情形和调用栈的理解。"
-        ]
-      },
-      "lecture-searching-and-sorting-algorithms": {
-        "title": "查找和排序算法",
-        "intro": [
-          "学习基础的查找和排序算法，包括线性查找、二分查找和归并排序。",
-          "这些课程涵盖算法实现、时间和空间复杂度分析，以及分治编程范式。"
-        ]
-      },
-      "workshop-binary-search": {
-        "title": "实现二分查找算法",
-        "intro": [
-          "二分查找算法是一种用于在有序列表中查找目标项的查找算法。",
-          "在本工作坊中，你将实现二分查找算法，并返回查找路径或返回“未找到值”。"
-        ]
-      },
-      "lab-bisection-method": {
-        "title": "实现二分法",
-        "intro": [
-          "在本实验中，你将实现二分法来求一个数的平方根。"
+          "在本课中，你将学习分治范式以及归并排序算法的工作原理。"
         ]
       },
       "workshop-merge-sort": {
         "title": "实现归并排序算法",
         "intro": [
           "归并排序算法是一种基于分治原则的排序算法。",
-          "在本工作坊中，你将实现归并排序算法，对随机数字列表进行排序。"
+          "在本工作坊中，你将实现归并排序算法来排序一组随机数。"
         ]
       },
       "lab-quicksort": {
         "title": "实现快速排序算法",
         "intro": [
-          "在本实验中，你将实现快速排序算法，对整数列表进行排序。"
+          "在本实验中，你将实现快速排序算法来排序一组整数。"
         ]
       },
-      "lab-selection-sort": {
-        "title": "实现选择排序算法",
+      "review-recursion-python-v2": {
+        "title": "复习递归",
         "intro": [
-          "在本实验中，你将实现选择排序算法。"
+          "复习递归、基本情形和调用栈的概念。"
         ]
       },
-      "lab-luhn-algorithm": {
-        "title": "实现 Luhn 算法",
+      "quiz-recursion-python-v2": {
+        "title": "递归测验",
         "intro": [
-          "在本实验中，你将实现 Luhn 算法来验证身份证号码，如信用卡号码。"
-        ]
-      },
-      "review-searching-and-sorting-algorithms": {
-        "title": "查找和排序算法复习",
-        "intro": [
-          "在你参加查找和排序算法测验之前，应先复习你所学的内容。"
-        ]
-      },
-      "quiz-searching-and-sorting-algorithms": {
-        "title": "查找和排序算法测验",
-        "intro": [
-          "通过本测验测试你对 Python 中查找和排序算法的掌握。"
+          "测试你对递归、基本情形和调用栈的理解。"
         ]
       },
       "lab-tower-of-hanoi": {
@@ -10931,28 +10974,29 @@
           "在本实验中，你将实现一个算法来解决汉诺塔难题。"
         ]
       },
-      "lecture-understanding-graphs-and-trees": {
-        "title": "理解图和树",
+      "lecture-working-with-hash-maps-and-sets": {
+        "title": "使用哈希映射和集合",
         "intro": [
-          "在本课中，你将学习图、树等基础数据结构及其在计算机科学中的实际应用。"
+          "在本课中，你将学习映射、哈希映射和集合的工作原理。"
         ]
       },
-      "workshop-shortest-path-algorithm": {
-        "title": "实现最短路径算法",
+      "lab-hash-table": {
+        "title": "构建哈希表",
         "intro": [
-          "在本工作坊中，你将实现一个算法来查找图中两个节点之间的最短路径。"
+          "哈希表是一种用于保存键值对并优化快速查找的数据结构。",
+          "在本实验中，你将利用对数据结构的理解来构建哈希表。"
+        ]
+      },
+      "lecture-understanding-graphs": {
+        "title": "理解图",
+        "intro": [
+          "在这些课程中，你将学习图、深度优先和广度优先搜索，以及如何用邻接矩阵和邻接列表表现图。"
         ]
       },
       "lab-adjacency-list-to-matrix-converter": {
-        "title": "构建邻接表到矩阵转换器",
+        "title": "构建邻接列表到矩阵转换器",
         "intro": [
-          "在本实验中，你将实现一个函数，将图的邻接表表现形式转换为邻接矩阵表现形式。"
-        ]
-      },
-      "workshop-breadth-first-search": {
-        "title": "实现广度优先搜索算法",
-        "intro": [
-          "在本工作坊中，你将使用广度优先搜索算法生成所有有效的括号组合。"
+          "在本实验中，你将实现一个函数，将图的邻接列表表现转换为邻接矩阵表现。"
         ]
       },
       "lab-depth-first-search": {
@@ -10961,22 +11005,46 @@
           "在本实验中，你将实现深度优先搜索算法。"
         ]
       },
+      "workshop-shortest-path-algorithm": {
+        "title": "实现最短路径算法",
+        "intro": [
+          "在本工作坊中，你将实现一个算法，查找图中两个节点之间的最短路径。"
+        ]
+      },
       "lab-n-queens-problem": {
         "title": "实现 N 皇后算法",
         "intro": [
           "在本实验中，你将实现 N 皇后问题的解决方案。"
         ]
       },
-      "review-graphs-and-trees": {
-        "title": "图和树复习",
+      "lecture-understanding-trees-and-tries": {
+        "title": "理解树和字典树",
         "intro": [
-          "在你参加图和树的测验之前，应先复习你所学的内容。"
+          "在本课中，你将学习树和字典树是什么以及它们的工作原理。"
         ]
       },
-      "quiz-graphs-and-trees": {
-        "title": "图和树测验",
+      "lecture-understanding-priority-queues-and-heaps": {
+        "title": "理解优先队列和堆",
         "intro": [
-          "通过本测验测试你对 Python 中图和树的掌握。"
+          "在本课中，你将学习优先队列和堆的工作原理。"
+        ]
+      },
+      "review-non-linear-data-structures": {
+        "title": "非线性数据结构复习",
+        "intro": [
+          "在进行非线性数据结构测验前，你应复习哈希映射、集合、图、树、字典树和堆的知识。"
+        ]
+      },
+      "quiz-non-linear-data-structures": {
+        "title": "非线性数据结构测验",
+        "intro": [
+          "通过本测验测试你对 Python 中非线性数据结构的掌握。"
+        ]
+      },
+      "lab-paint-bucket-tool": {
+        "title": "构建油漆桶工具",
+        "intro": [
+          "在本实验中，你将构建一个使用图遍历填充网格连通区域的油漆桶工具。"
         ]
       },
       "lecture-understanding-dynamic-programming": {
@@ -10994,7 +11062,7 @@
       "review-dynamic-programming": {
         "title": "动态规划复习",
         "intro": [
-          "在你参加动态规划测验之前，应先复习你所学的内容。"
+          "在进行动态规划测验前，你应复习相关知识。"
         ]
       },
       "quiz-dynamic-programming": {
@@ -11003,23 +11071,31 @@
           "通过本测验测试你对 Python 中动态规划的掌握。"
         ]
       },
-      "review-python": {
-        "title": "Python 复习",
-        "intro": ["复习 Python 概念，为即将到来的考试做准备。"]
+      "lab-knapsack-algorithm": {
+        "title": "实现背包算法",
+        "intro": [
+          "在本实验中，你将使用动态规划解决背包问题。"
+        ]
+      },
+      "review-python-algorithms-and-data-structures": {
+        "title": "算法和数据结构复习",
+        "intro": [
+          "复习算法和数据结构概念，为即将到来的考试做准备。"
+        ]
       }
     }
   },
-
   "front-end-development": {
     "title": "HTML、CSS 和 JavaScript 前端网页开发认证",
     "intro": [
       "完成必需的项目并通过考试，即可获得 HTML、CSS 和 JavaScript 前端网页开发认证。"
     ],
     "chapters": {
-      "front-end-web-development": "HTML、CSS 和 JavaScript 前端网页开发"
+      "front-end-development": "使用 HTML、CSS 和 JavaScript 的前端网页开发"
     },
     "modules": {
-      "html": "HTML"
+      "html": "HTML",
+      "css": "CSS"
     },
     "blocks": {
       "workshop-curriculum-outline": {
@@ -11029,11 +11105,11 @@
           "本工作坊将作为你对 HTML 和编码的入门介绍。你将学习标题和段落元素。"
         ]
       },
-      "lecture-html-introduction": {
+      "lecture-understanding-html-attributes": {
         "title": "HTML 入门",
         "intro": [
-          "在这些讲座中，你将深入了解 HTML（超文本标记语言），这是一种用于创建网页的标记语言。",
-          "你将了解 HTML 在网页中的作用，以及什么是 HTML 属性。"
+          "在这些课程中，你将深入了解 HTML（超文本标记语言），这是一种用于创建网页的标记语言。",
+          "你将学习 HTML 在网页中的作用以及 HTML 属性是什么。"
         ]
       },
       "workshop-cat-photo-app": {
@@ -11086,10 +11162,10 @@
           "你将练习使用 <code>label</code>、<code>input</code>、<code>fieldset</code>、<code>legend</code>、<code>textarea</code> 和 <code>button</code> 元素。"
         ]
       },
-      "lab-survey-form": {
-        "title": "创建调查表单",
+      "lab-survey-form-v2": {
+        "title": "构建调查表单",
         "intro": [
-          "在本实验中，你将通过创建调查表单来复习 HTML 表单。",
+          "在本实验中，你将通过创建调查表单复习 HTML 表单。",
           "你将练习使用 <code>label</code> 元素、不同的 <code>input</code> 元素、<code>required</code> 属性等。"
         ]
       },
@@ -11097,6 +11173,225 @@
         "title": "创建期末考试表格",
         "intro": [
           "在本工作坊中，你将通过创建期末考试表格来练习使用 HTML 表格。"
+        ]
+      },
+      "review-html-v2": {
+        "title": "HTML 复习",
+        "intro": [
+          "在参加 HTML 测验前，你需要先复习之前模块中教授的概念。",
+          "打开此页面复习 HTML 元素基础、语义化 HTML、表格、表单和无障碍相关概念。"
+        ]
+      },
+      "quiz-html": {
+        "title": "HTML 测验",
+        "intro": [
+          "以下测验将测试你迄今为止学习的 HTML 概念。"
+        ]
+      },
+      "lecture-introduction-to-css": {
+        "title": "CSS 入门",
+        "intro": [
+          "在这些课程中，你将学习 CSS 是什么及其在网页中的作用，内联元素和块级元素的区别，以及内联块的工作原理。"
+        ]
+      },
+      "workshop-cafe-menu": {
+        "title": "设计咖啡馆菜单",
+        "intro": [
+          "CSS 告诉浏览器如何显示你的网页。你可以用 CSS 设置 HTML 元素的颜色、字体、大小等。",
+          "在本工作坊中，你将通过设计咖啡馆菜单页面来学习 CSS。"
+        ]
+      },
+      "lab-business-card": {
+        "title": "设计名片",
+        "intro": [
+          "在本实验中，你将创建一张名片并用 CSS 进行样式设计。",
+          "你将练习 <code>color</code>、<code>font-size</code>、<code>text-align</code> 等样式属性。"
+        ]
+      },
+      "lecture-understanding-css-specificity": {
+        "title": "理解 CSS 特异性",
+        "intro": [
+          "在这些课程中，你将学习 CSS 特异性、不同选择器的特异性，以及使用 <code>!important</code> 关键字的最佳实践。"
+        ]
+      },
+      "lecture-working-with-backgrounds-and-borders-v2": {
+        "title": "使用背景和边框",
+        "intro": [
+          "在这些课程中，你将学习如何控制背景图像的大小、重复、位置和附着方式，以及如何为图像添加边框。"
+        ]
+      },
+      "lab-blog-post-card": {
+        "title": "设计博客文章卡片",
+        "intro": [
+          "在本实验中，你将使用 HTML 和 CSS 设计博客文章卡片。",
+          "你将练习 <code>background-color</code>、<code>border-radius</code>、外边距、内边距等概念。"
+        ]
+      },
+      "lecture-working-with-relative-and-absolute-units": {
+        "title": "使用相对单位和绝对单位",
+        "intro": [
+          "在这些课程中，你将学习相对单位和绝对单位，以及它们如何影响浏览器中的显示效果。"
+        ]
+      },
+      "lab-event-flyer-page": {
+        "title": "创建活动传单页面",
+        "intro": [
+          "在本实验中，你将创建一个活动传单页面。",
+          "你将练习使用绝对定位和相对定位的 CSS 来对齐元素。"
+        ]
+      },
+      "lecture-working-with-pseudo-classes-and-pseudo-elements": {
+        "title": "使用 CSS 伪类和伪元素",
+        "intro": [
+          "在这些讲座中，你将学习伪类和伪元素，包括它们的示例及其工作原理。"
+        ]
+      },
+      "workshop-greeting-card": {
+        "title": "设计贺卡",
+        "intro": [
+          "在之前的讲座中，你学习了如何使用不同类型的伪类。",
+          "在本工作坊中，你将通过设计贺卡来练习所学内容。"
+        ]
+      },
+      "lab-tribute-page": {
+        "title": "创建致敬页面",
+        "intro": [
+          "在本实验中，你将为你选择的主题（虚构或真实）创建一个致敬页面。"
+        ]
+      },
+      "workshop-colored-markers": {
+        "title": "制作一套彩色标记笔",
+        "intro": [
+          "在本工作坊中，你将制作一套彩色标记笔。你将练习不同的颜色设置方法以及如何搭配颜色。"
+        ]
+      },
+      "lab-colored-boxes": {
+        "title": "设计一组彩色盒子",
+        "intro": [
+          "在本实验中，你将创建一个颜色网格，并练习使用十六进制代码、RGB 和预定义颜色名称为网格项添加背景色。"
+        ]
+      },
+      "workshop-registration-form": {
+        "title": "设计注册表单",
+        "intro": [
+          "在本工作坊中，你将学习如何设计 HTML 表单，通过设计注册页面。你将学习如何控制用户在表单中输入的数据类型，以及一些用于页面样式的新 CSS 工具。"
+        ]
+      },
+      "lab-contact-form": {
+        "title": "设计联系表单",
+        "intro": [
+          "在本实验中，你将设计一个 HTML 联系表单，并使用 CSS 进行样式设计。"
+        ]
+      },
+      "lecture-introduction-to-the-box-model": {
+        "title": "盒模型简介",
+        "intro": [
+          "在本讲座中，你将学习 CSS 盒模型及其工作原理。"
+        ]
+      },
+      "workshop-rothko-painting": {
+        "title": "设计罗斯科风格画作",
+        "intro": [
+          "每个 HTML 元素都是一个独立的盒子，拥有自己的间距和边框，这就是盒模型。",
+          "在本工作坊中，你将使用 CSS 和盒模型创建自己的罗斯科风格矩形艺术作品。"
+        ]
+      },
+      "lab-confidential-email-page": {
+        "title": "创建保密电子邮件页面",
+        "intro": [
+          "在本实验中，你将使用 HTML 创建网页，并使用 CSS 属性对内容进行遮罩。"
+        ]
+      },
+      "lecture-working-with-css-flexbox": {
+        "title": "使用 CSS Flexbox",
+        "intro": [
+          "在这些讲座中，你将学习 CSS flexbox 的工作原理、属性以及何时使用它。"
+        ]
+      },
+      "workshop-flexbox-photo-gallery": {
+        "title": "创建 Flexbox 照片画廊",
+        "intro": [
+          "在本工作坊中，你将使用 Flexbox 构建响应式照片画廊网页。"
+        ]
+      },
+      "lab-page-of-playing-cards-v2": {
+        "title": "创建一页扑克牌",
+        "intro": [
+          "在本实验中，你将使用 flexbox 创建一页扑克牌网页。",
+          "你将练习使用 <code>flex-direction</code>、<code>justify-content</code>、<code>align-self</code> 等 flexbox 属性对齐元素。"
+        ]
+      },
+      "workshop-nutritional-label": {
+        "title": "制作营养标签",
+        "intro": [
+          "排版是让文本易读且符合用途的艺术。",
+          "在本工作坊中，你将使用排版制作营养标签网页。你将练习如何使用 CSS 样式文本、调整行高和定位文本。"
+        ]
+      },
+      "lab-newspaper-article": {
+        "title": "创建报纸文章",
+        "intro": [
+          "在本实验中，你将使用 HTML 和 CSS 创建报纸文章页面。",
+          "你将使用 <code>font-family</code>、<code>font-size</code>、<code>font-weight</code> 等属性为字体设计样式。"
+        ]
+      },
+      "lecture-understanding-positioning-in-css": {
+        "title": "理解 CSS 定位",
+        "intro": [
+          "在这些讲座中，你将学习如何使用 CSS 定位。你将了解 <code>absolute</code>、<code>relative</code>、<code>fixed</code> 和 <code>sticky</code> 定位，并使用 <code>z-index</code> 属性。"
+        ]
+      },
+      "workshop-cat-painting": {
+        "title": "绘制猫咪画作",
+        "intro": [
+          "掌握 CSS 定位对于创建视觉吸引且响应式的网页布局至关重要。",
+          "在本工作坊中，你将绘制一幅猫咪画作。你将学习如何使用绝对定位、<code>z-index</code> 属性和 <code>transform</code> 属性。"
+        ]
+      },
+      "lab-house-painting": {
+        "title": "绘制房屋画作",
+        "intro": [
+          "在本实验中，你将使用 CSS 绘制房屋画作。",
+          "你将设计房屋的各个元素，并使用 <code>position</code>、<code>top</code>、<code>left</code> 等 CSS 属性定位它们。"
+        ]
+      },
+      "lecture-working-with-attribute-selectors-and-combinators": {
+        "title": "使用属性选择器和组合器",
+        "intro": [
+          "在这些讲座中，你将学习如何使用属性选择器定位元素，以及如何使用组合器根据元素之间的关系定位元素。"
+        ]
+      },
+      "workshop-balance-sheet": {
+        "title": "制作资产负债表",
+        "intro": [
+          "在本工作坊中，你将使用伪选择器制作资产负债表。你将学习如何在鼠标悬停时更改元素样式，并触发网页上的其他事件。"
+        ]
+      },
+      "workshop-piano": {
+        "title": "设计钢琴",
+        "intro": [
+          "响应式设计告诉你的网页在不同尺寸的屏幕上应该如何显示。",
+          "在本工作坊中，你将使用 CSS 和响应式设计编码钢琴。你还将练习媒体查询和伪选择器。"
+        ]
+      },
+      "lab-technical-documentation-page-v2": {
+        "title": "创建技术文档页面",
+        "intro": [
+          "在本实验中，你将创建一个技术文档页面，用作某个主题的说明或参考。",
+          "你还将练习媒体查询以创建响应式设计。"
+        ]
+      },
+      "lecture-introduction-to-css-variables": {
+        "title": "CSS 变量简介",
+        "intro": [
+          "在本讲座中，你将学习如何定义和使用自定义属性（也称为 CSS 变量）。"
+        ]
+      },
+      "workshop-magazine": {
+        "title": "制作杂志",
+        "intro": [
+          "CSS 网格让你控制网页设计的行和列。",
+          "在本工作坊中，你将制作一篇杂志文章。你将练习如何使用 CSS 网格，包括网格行和网格列等概念。"
         ]
       }
     }

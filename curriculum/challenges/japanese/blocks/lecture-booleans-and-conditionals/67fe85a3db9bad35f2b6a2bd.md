@@ -11,7 +11,7 @@ dashedName: how-do-conditional-statements-and-logical-operators-work
 
 しかし、その前に、条件文の基本的な構成要素である比較演算子から説明しましょう。比較演算子は、2つ以上の値を比較し、ブール値を返す演算子です。
 
-前のレッスンで、ブール値はPythonのデータ型の一つであり、`True`か`False`のどちらかしか取れないことを学びました。
+前のレッスンで、ブール値はPythonのデータ型の一つで、`True` または `False` のどちらかしか取れないことを学びました。
 
 ## 比較演算子の使い方
 
@@ -51,13 +51,13 @@ if condition:
 
 * `if`文は`if`キーワードで始まります。
     
-* `condition`は`True`か`False`に評価される式で、コロン（`:`）が続きます。
+* `condition` は式で、その後にコロン（`:`）が続きます。
 
 `if`文の本体は<dfn>コードブロック</dfn>を構成しており、これは一緒に属する文のグループです。行の先頭の空白はインデントと呼ばれます。Pythonでは、インデントによってどの文がコードブロックに属するかが決まります。
     
 上の例では、`if`文の本体に`pass`文が含まれています。`pass`文が実行されると何も起こりません。これは将来のコードのプレースホルダーとして使える特別なキーワードで、空のコードブロックが許されない場合に便利です。
 
-`if`文の本体内のコードは、条件が`True`に評価された場合のみ実行されます。例えば：
+`if` 文の本体内のコードは、Pythonが条件を真と判断した場合にのみ実行されます。ここで示した比較は `True` または `False` を返します。次のレッスンでは、Pythonが条件内の他の値をどのように扱うかを学びます。例えば：
 
 ```python
 age = 18
@@ -92,13 +92,13 @@ if age >= 18:
 
 ## `else` 節の追加
 
-しかし、`age`が`18`より小さい場合に何かを出力したい場合はどうでしょうか？その場合は`else`節が使えます。`else`節は`if`条件が偽のときに実行されます。`if…else`文の構文は以下の通りです：
+しかし、もし `age` が `18` 未満の場合にも何かを出力したいならどうでしょう？その場合は `else` 節を使います。`else` 節は `if` 条件が偽のときに実行されます。`if...else` 文の構文は次の通りです：
 
 ```python
 if condition:
-   pass # Code to execute if condition is True
+    pass # Code to execute if condition is True
 else:
-   pass # Code to execute if condition is False
+    pass # Code to execute if condition is False
 ```
 
 例えば：
@@ -132,11 +132,11 @@ else: # SyntaxError: invalid syntax
 
 ```python
 if condition1:
-   pass # Code to execute if condition1 is True
+    pass # Code to execute if condition1 is True
 elif condition2:
-   pass # Code to execute if condition1 is False and condition2 is True
+    pass # Code to execute if condition1 is False and condition2 is True
 else:
-   pass # Code to execute if all conditions are False
+    pass # Code to execute if all conditions are False
 ```
 
 例えば：
@@ -171,7 +171,7 @@ else:
     print('You are a toddler or an infant') # You are a toddler or an infant
 ```
 
-比較演算子と条件文の仕組みが理解できたので、論理や入力に基づいて判断を行うプログラムを書き始められます。値を比較したり複数の条件で分岐したりする場合でも、これらのツールは柔軟でレスポンシブなコードを書くための基礎です。
+比較演算子と条件文の仕組みが理解できたので、論理や入力に基づいて判断を行うプログラムを書き始めることができます。値を比較したり複数の条件で分岐したりする場合でも、これらのツールは柔軟でレスポンシブなコードを書くための基礎となります。
 
 # --questions--
 
@@ -181,7 +181,7 @@ else:
 
 ## --answers--
 
-ブール値を使って数学的計算を行う
+ブール値を使って数学的な計算を行う。
 
 ### --feedback--
 

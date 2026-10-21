@@ -11,7 +11,7 @@ dashedName: how-do-conditional-statements-and-logical-operators-work
 
 但在进入所有这些之前，让我们先了解条件式的基本创建块，从比较操作符开始。比较操作符是让你比较两个或多个值，并返回布尔值的操作符。
 
-在之前的课程中，你学习了布尔是 Python 中的一种数据类型，并且只能是 `True` 或 `False`。
+在之前的课程中，你已经学过布尔是 Python 中的一种数据类型，并且只能是 `True` 或 `False`。
 
 ## 使用比较操作符
 
@@ -51,13 +51,13 @@ if condition:
 
 * `if` 语句以 `if` 关键字开始。
     
-* `condition` 是一个求值为 `True` 或 `False` 的表达式，后跟冒号（`:`）。
+* `condition` 是一个表达式，后面跟着冒号（`:`）。
 
 * `if` 语句的体构成一个<dfn>代码块</dfn>，它是一组属于同一整体的语句。行首的空格称为缩排。在 Python 中，缩排决定哪些语句属于同一个代码块。
     
 在上面的示例中，`if` 语句的体包含一个 `pass` 语句。当执行 `pass` 语句时，不会发生任何事情。这是一个特殊的关键字，可用作未来代码的占位符，当不允许空代码块时非常有用。
 
-`if` 语句体内的代码仅在条件计算结果为 `True` 时运行。例如：
+`if` 语句体内的代码只有在 Python 将条件视为真时才会运行。这里展示的比较会返回 `True` 或 `False`。在下一课中，你将学习 Python 如何处理条件中的其他值。例如：
 
 ```python
 age = 18
@@ -92,13 +92,13 @@ if age >= 18:
 
 ## 添加 `else` 子句
 
-但是如果你还想在 `age` 小于 `18` 时打印一些内容呢？这就是 `else` 子句的作用。`else` 子句在 `if` 条件为假时运行。下面是 `if…else` 语句的语法：
+但是如果你还想在 `age` 小于 `18` 时打印一些内容呢？这时就用到 `else` 分支。`else` 分支在 `if` 条件为假时执行。下面是 `if...else` 语句的语法：
 
 ```python
 if condition:
-   pass # Code to execute if condition is True
+    pass # Code to execute if condition is True
 else:
-   pass # Code to execute if condition is False
+    pass # Code to execute if condition is False
 ```
 
 例如：
@@ -132,11 +132,11 @@ else: # SyntaxError: invalid syntax
 
 ```python
 if condition1:
-   pass # Code to execute if condition1 is True
+    pass # Code to execute if condition1 is True
 elif condition2:
-   pass # Code to execute if condition1 is False and condition2 is True
+    pass # Code to execute if condition1 is False and condition2 is True
 else:
-   pass # Code to execute if all conditions are False
+    pass # Code to execute if all conditions are False
 ```
 
 例如：
@@ -181,7 +181,7 @@ else:
 
 ## --answers--
 
-对布尔值执行数学计算
+对布尔值执行数学计算。
 
 ### --feedback--
 

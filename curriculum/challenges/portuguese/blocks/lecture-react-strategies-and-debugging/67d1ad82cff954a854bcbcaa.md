@@ -11,11 +11,15 @@ Prop drilling é a abordagem mais básica para gerenciamento de estado em aplica
 
 Vamos ver o que é prop drilling, por que é um problema e uma boa alternativa para ele conforme uma aplicação cresce.
 
+## O que é prop drilling?
+
 Prop drilling é o processo de passar props de um componente pai para componentes filhos profundamente aninhados, mesmo quando alguns dos componentes filhos não precisam dos props.
 
 Por exemplo, digamos que você tenha três componentes chamados `Parent`, `Child` e `Grandchild`. Se você quiser usar alguns dados no componente `Grandchild`, mas eles estiverem no componente `Parent`, você precisará passá-los do `Parent` para o componente `Child` e depois do `Child` para o componente `Grandchild`.
 
 Ou se os dados estiverem ainda mais acima na cadeia, os dados também podem ter que ser passados para o componente `Parent`.
+
+## Exemplo de prop drilling
 
 Aqui, os dados que quero exibir são a string `Hello, Prop Drilling!`. É atribuído à variável `greeting` no componente raiz `App`:
 
@@ -70,6 +74,8 @@ No navegador, você verá uma página com um único elemento `h1` que contém o 
 
 A princípio, prop drilling pode não parecer um problema tão grande. Mas à medida que seu app cresce, fica mais difícil de entender, depurar e manter.
 
+## Mantendo as props em um único componente pai
+
 Se você precisar passar props, tente mantê-los todos em um único componente pai. Essa abordagem de centralizar todos os dados necessários é chamada de "single source of truth".
 
 Por exemplo, digamos que você queira adicionar uma nova `response` para acompanhar seu `greeting` e que queira usar ambos no componente `Grandchild`. Como `greeting` já está no componente `App`, faz sentido colocar `response` lá também e passar ambos pela cadeia:
@@ -103,6 +109,8 @@ export default App;
 ```
 
 No navegador, você verá uma página com um elemento `h1` que tem o texto `Hello, Prop Drilling!` e um elemento `h2` que tem o texto `I'm not here to play!`.
+
+## Alternativas ao prop drilling
 
 Para evitar prop drilling, especialmente em aplicações grandes e complexas, considere usar a Context API ou bibliotecas de gerenciamento de estado como Redux e Redux Toolkit, Zustand, Recoil e outras.
 

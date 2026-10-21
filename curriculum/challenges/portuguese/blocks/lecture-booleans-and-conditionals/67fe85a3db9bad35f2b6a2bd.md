@@ -11,7 +11,7 @@ Instruções condicionais, ou condicionais, permitem que você controle o fluxo 
 
 Mas antes de entrarmos em tudo isso, vamos revisar os blocos básicos das declarações condicionais, começando pelos operadores de comparação. Operadores de comparação são operadores que permitem comparar dois ou mais valores e retornar um valor booleano.
 
-Em uma lição anterior, você aprendeu que booleanos são um dos tipos de dados em Python e podem ser apenas `True` ou `False`.
+Em uma lição anterior, você aprendeu que booleanos são um dos tipos de dados em Python e só podem ser `True` ou `False`.
 
 ## usando operadores de comparação
 
@@ -51,13 +51,13 @@ if condition:
 
 * As declarações `if` começam com a palavra-chave `if`.
     
-* `condition` é uma expressão que avalia para `True` ou `False`, seguida por dois pontos (`:`).
+* `condition` é uma expressão seguida por dois pontos (`:`).
 
 * O corpo da declaração `if` constitui um <dfn>bloco de código</dfn>, que é um grupo de declarações que pertencem juntas. Espaços no início de uma linha são chamados de indentação. Em Python, a indentação determina quais declarações pertencem a um bloco de código.
     
 No exemplo acima, o corpo da instrução `if` contém uma instrução `pass`. Quando uma instrução `pass` é executada, nada acontece. Esta é uma palavra-chave especial que pode ser usada como um marcador de posição para código futuro e é útil quando blocos de código vazios não são permitidos.
 
-O código dentro do corpo da instrução `if` é executado somente quando a condição avalia para `True`. Por exemplo:
+O código dentro do corpo da declaração `if` é executado apenas quando Python considera a condição verdadeira. As comparações mostradas aqui retornam `True` ou `False`. Na próxima lição, você vai aprender como Python trata outros valores em condições. Por exemplo:
 
 ```python
 age = 18
@@ -92,13 +92,13 @@ if age >= 18:
 
 ## adicionando uma cláusula `else`
 
-Mas e se você também quiser imprimir algo se `age` for menor que `18`? É aí que entra a cláusula `else`. A cláusula `else` é executada quando a condição `if` é falsa. Aqui está a sintaxe para uma declaração `if…else`:
+Mas e se você também quiser imprimir algo se `age` for menor que `18`? É aí que entra a cláusula `else`. A cláusula `else` é executada quando a condição do `if` é falsa. Aqui está a sintaxe para uma declaração `if...else`:
 
 ```python
 if condition:
-   pass # Code to execute if condition is True
+    pass # Code to execute if condition is True
 else:
-   pass # Code to execute if condition is False
+    pass # Code to execute if condition is False
 ```
 
 Por exemplo:
@@ -132,11 +132,11 @@ Aqui está a sintaxe:
 
 ```python
 if condition1:
-   pass # Code to execute if condition1 is True
+    pass # Code to execute if condition1 is True
 elif condition2:
-   pass # Code to execute if condition1 is False and condition2 is True
+    pass # Code to execute if condition1 is False and condition2 is True
 else:
-   pass # Code to execute if all conditions are False
+    pass # Code to execute if all conditions are False
 ```
 
 Por exemplo:
@@ -171,7 +171,7 @@ else:
     print('You are a toddler or an infant') # You are a toddler or an infant
 ```
 
-Agora que você entende como os operadores de comparação e as declarações condicionais funcionam em Python, pode começar a escrever programas que tomam decisões baseadas em lógica e entrada. Seja comparando valores ou ramificando por múltiplas condições, essas ferramentas são a base para escrever código flexível e responsivo.
+Agora que você entende como operadores de comparação e declarações condicionais funcionam em Python, pode começar a escrever programas que tomam decisões baseadas em lógica e entrada. Seja comparando valores ou ramificando por múltiplas condições, essas ferramentas são a base para escrever código flexível e responsivo.
 
 # --questions--
 
@@ -181,7 +181,7 @@ O que os operadores de comparação fazem?
 
 ## --answers--
 
-Realize cálculos matemáticos com valores booleanos
+Realizar cálculos matemáticos com valores booleanos.
 
 ### --feedback--
 

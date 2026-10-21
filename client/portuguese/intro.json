@@ -1613,9 +1613,9 @@
         ]
       },
       "workshop-pin-extractor": {
-        "title": "Construa um extrator de PIN",
+        "title": "Crie um extrator de PIN",
         "intro": [
-          "Neste laboratório, você construirá uma função para extrair PINs secretos escondidos em poemas."
+          "Neste workshop, você vai criar uma função para extrair PINs secretos escondidos em poemas."
         ]
       },
       "lab-number-pattern-generator": {
@@ -1699,7 +1699,7 @@
       "lab-isbn-validator": {
         "title": "Depure um validador de ISBN",
         "intro": [
-          "Neste laboratório, você começará com uma aplicação com bugs e precisará depurar e corrigir os bugs até que funcione adequadamente."
+          "Neste laboratório, você vai depurar um validador de ISBN corrigindo erros no código Python fornecido."
         ]
       },
       "review-error-handling": {
@@ -1711,7 +1711,7 @@
       "quiz-error-handling": {
         "title": "Quiz sobre tratamento de erros",
         "intro": [
-          "Teste o que você aprendeu sobre tratamento de erros em Python com este quiz."
+          "Teste o que aprendeu sobre tratamento de erros em Python com este quiz."
         ]
       }
     }
@@ -1809,7 +1809,9 @@
       },
       "lecture-understanding-abstraction": {
         "title": "Entendendo abstração",
-        "intro": ["Aprenda sobre abstração nestas lições."]
+        "intro": [
+          "Aprenda sobre abstração e como trabalhar com classes abstratas em Python nestas lições."
+        ]
       },
       "workshop-discount-calculator": {
         "title": "Construa uma calculadora de descontos",
@@ -1836,9 +1838,9 @@
         ]
       },
       "quiz-object-oriented-programming": {
-        "title": "Quiz sobre programação orientada a objetos",
+        "title": "Quiz de programação orientada a objetos",
         "intro": [
-          "Teste o que você aprendeu sobre programação orientada a objetos em Python com este quiz."
+          "Teste o que aprendeu sobre programação orientada a objetos em Python com este quiz."
         ]
       }
     }
@@ -3034,6 +3036,13 @@
         "title": "Técnicas de depuração",
         "intro": [
           "Nessas palestras, você vai aprender sobre erros comuns em JavaScript e as técnicas que pode usar para corrigi-los – um processo chamado depuração."
+        ]
+      },
+      "workshop-library-search": {
+        "title": "Crie uma busca de livros para biblioteca",
+        "intro": [
+          "Neste workshop, você vai praticar o tratamento elegante de erros em JavaScript.",
+          "Você vai criar uma aplicação de busca de livros para biblioteca e usar blocos <code>try...catch...finally</code>, junto com a declaração <code>throw</code>, para capturar e gerenciar erros personalizados."
         ]
       },
       "lab-random-background-color-changer": {
@@ -5065,6 +5074,12 @@
           "Neste laboratório, você usará loops JavaScript para criar um sequenciador de semáforo."
         ]
       },
+      "workshop-campus-directory-normalizer": {
+        "title": "Crie um normalizador de diretório do campus",
+        "intro": [
+          "Neste workshop, você vai normalizar dados aninhados em tabelas de consulta independentes e fáceis de usar."
+        ]
+      },
       "lab-proofreading-tool": {
         "title": "Criar uma ferramenta de revisão",
         "intro": [
@@ -6595,9 +6610,9 @@
         ]
       },
       "workshop-pin-extractor": {
-        "title": "Criar um extrator de PIN",
+        "title": "Crie um extrator de PIN",
         "intro": [
-          "Nesta oficina, você vai criar uma função para extrair PINs secretos escondidos em poemas."
+          "Neste workshop, você vai criar uma função para extrair PINs secretos escondidos em poemas."
         ]
       },
       "lab-number-pattern-generator": {
@@ -6661,7 +6676,7 @@
       "lab-isbn-validator": {
         "title": "Depurar um validador de ISBN",
         "intro": [
-          "Neste laboratório, você começará com um app com bugs e precisará depurar e corrigir os bugs até que funcione adequadamente."
+          "Neste laboratório, você vai depurar um validador de ISBN corrigindo erros no código Python fornecido."
         ]
       },
       "review-error-handling": {
@@ -6673,7 +6688,7 @@
       "quiz-error-handling": {
         "title": "Quiz sobre tratamento de erros",
         "intro": [
-          "Teste o que você aprendeu sobre tratamento de erros em Python com este quiz."
+          "Teste o que aprendeu sobre tratamento de erros em Python com este quiz."
         ]
       },
       "lecture-classes-and-objects": {
@@ -6749,7 +6764,9 @@
       },
       "lecture-understanding-abstraction": {
         "title": "Entendendo abstração",
-        "intro": ["Aprenda sobre abstração nessas lições."]
+        "intro": [
+          "Aprenda sobre abstração e como trabalhar com classes abstratas em Python nestas lições."
+        ]
       },
       "workshop-discount-calculator": {
         "title": "Criar uma calculadora de desconto",
@@ -6927,7 +6944,7 @@
       "workshop-breadth-first-search": {
         "title": "Implemente o algoritmo de busca em largura",
         "intro": [
-          "Nesta oficina, você usará o algoritmo de busca em largura para gerar todas as combinações válidas de parênteses."
+          "Neste workshop, você vai usar o algoritmo de busca em largura para gerar todas as combinações válidas de parênteses."
         ]
       },
       "lab-depth-first-search": {
@@ -10587,9 +10604,9 @@
         ]
       },
       "workshop-pin-extractor": {
-        "title": "Construa um extrator de PIN",
+        "title": "Crie um extrator de PIN",
         "intro": [
-          "Nesta oficina, você construirá uma função para extrair PINs secretos escondidos em poemas."
+          "Neste workshop, você vai criar uma função para extrair PINs secretos escondidos em poemas."
         ]
       },
       "lab-number-pattern-generator": {
@@ -10653,7 +10670,7 @@
       "lab-isbn-validator": {
         "title": "Depure um validador de ISBN",
         "intro": [
-          "Neste laboratório, você começará com uma aplicação com bugs e precisará depurar e corrigir os bugs até que funcione adequadamente."
+          "Neste laboratório, você vai depurar um validador de ISBN corrigindo erros no código Python fornecido."
         ]
       },
       "review-error-handling": {
@@ -10741,7 +10758,9 @@
       },
       "lecture-understanding-abstraction": {
         "title": "Entendendo abstração",
-        "intro": ["Aprenda sobre abstração nessas lições."]
+        "intro": [
+          "Aprenda sobre abstração e como trabalhar com classes abstratas em Python nestas lições."
+        ]
       },
       "workshop-discount-calculator": {
         "title": "Construa uma calculadora de descontos",
@@ -10779,150 +10798,174 @@
       }
     }
   },
-  "algorithms-and-data-structure": {
-    "title": "Certificação em algoritmos e estrutura de dados",
+  "algorithms-and-data-structures": {
+    "title": "Certificação em algoritmos e estruturas de dados",
     "intro": [
       "Este curso aborda estruturas de dados e algoritmos em Python.",
-      "Complete os projetos obrigatórios e passe no exame para obter a certificação em algoritmos e estrutura de dados."
+      "Complete os projetos obrigatórios e passe no exame para obter a certificação em algoritmos e estruturas de dados."
     ],
     "chapters": {
-      "algorithms-and-data-structure": "Algoritmos e estrutura de dados"
+      "algorithms-and-data-structures": "Algoritmos e estruturas de dados"
     },
     "modules": {
-      "python-linear-data-structures": "Estruturas de dados lineares",
-      "lab-hash-table": "Construa uma tabela hash",
-      "python-recursion": "Recursão",
       "python-algorithms": "Algoritmos",
+      "lab-bisection-method": "Implemente o método da bisseção",
+      "python-linear-data-structures": "Estruturas de dados lineares",
+      "lab-circular-queue": "Crie uma fila circular",
+      "python-recursion": "Recursão",
       "lab-tower-of-hanoi": "Implemente o algoritmo da torre de Hanoi",
-      "python-graphs-and-trees": "Grafos e árvores",
+      "non-linear-data-structures": "Estruturas de dados não lineares",
+      "lab-paint-bucket-tool": "Crie uma ferramenta balde de tinta",
       "python-dynamic-programming": "Programação dinâmica",
-      "review-python": "Revisão de Python"
+      "lab-knapsack-algorithm": "Implemente o algoritmo da mochila",
+      "review-python-algorithms-and-data-structures": "Revisão de algoritmos e estruturas de dados"
     },
     "module-intros": {
+      "lab-circular-queue": {
+        "note": "Lançamento em 2026",
+        "intro": [
+          "Neste laboratório, você vai criar uma fila circular, uma fila de tamanho fixo que reutiliza espaços vazios ao dar a volta."
+        ]
+      },
       "python-recursion": {
         "intro": [
-          "Neste módulo, você aprenderá como a recursão e a pilha de chamadas funcionam em Python."
+          "Neste módulo, você vai aprender como a recursão e a pilha de chamadas funcionam em Python."
+        ]
+      },
+      "lab-paint-bucket-tool": {
+        "note": "Lançamento em 2026",
+        "intro": [
+          "Neste laboratório, você vai criar uma ferramenta balde de tinta que usa travessia de grafos para preencher regiões conectadas de uma grade."
+        ]
+      },
+      "lab-knapsack-algorithm": {
+        "note": "Lançamento em 2026",
+        "intro": [
+          "Neste laboratório, você vai usar programação dinâmica para resolver o problema da mochila."
         ]
       }
     },
     "blocks": {
-      "lecture-working-with-common-data-structures": {
-        "title": "Trabalhando com estruturas de dados comuns",
+      "lecture-understanding-algorithms-and-big-o": {
+        "title": "Entendendo algoritmos e notação Big O",
         "intro": [
-          "Aprenda a trabalhar com estruturas de dados comuns nessas lições."
+          "Nestas lições, você vai aprender o que são algoritmos, como analisá-los com a notação Big O e boas técnicas para resolver problemas algorítmicos."
         ]
       },
-      "workshop-linked-list-class": {
-        "title": "Construa uma lista ligada",
-        "intro": [
-          "Neste laboratório, você praticará o uso de estruturas de dados construindo uma lista ligada."
-        ]
-      },
-      "review-data-structures": {
-        "title": "Revisão de estruturas de dados",
-        "intro": [
-          "Antes de fazer o quiz sobre estruturas de dados, revise o que aprendeu sobre elas.",
-          "Abra esta página para revisar conceitos como diferentes estruturas de dados, algoritmos, complexidade de tempo e espaço, e notação big O."
-        ]
-      },
-      "quiz-data-structures": {
-        "title": "Quiz sobre estruturas de dados",
-        "intro": [
-          "Teste o que aprendeu sobre estruturas de dados em Python com este quiz."
-        ]
-      },
-      "lab-hash-table": {
-        "title": "Construa uma tabela hash",
-        "intro": [
-          "Uma tabela hash é uma estrutura de dados usada para armazenar pares chave-valor e é otimizada para buscas rápidas.",
-          "Neste laboratório, você usará seu conhecimento sobre estruturas de dados para construir uma tabela hash."
-        ]
-      },
-      "lecture-understanding-recursion-and-the-call-stack-python": {
-        "title": "Entendendo recursão e a pilha de chamadas",
-        "intro": [
-          "Nesta palestra, você aprenderá como funções recursivas e a pilha de chamadas funcionam em Python."
-        ]
-      },
-      "workshop-countup-python": {
-        "title": "Construa uma função de contagem crescente",
-        "intro": [
-          "Neste laboratório, você construirá uma função que usa recursão para criar uma lista de números."
-        ]
-      },
-      "lab-range-of-numbers-python": {
-        "title": "Construa um gerador de intervalo de números",
-        "intro": [
-          "Neste laboratório, você usará recursão para gerar uma lista de números dentro de um intervalo especificado."
-        ]
-      },
-      "review-recursion-python": {
-        "title": "Revisão de recursão",
-        "intro": [
-          "Revise os conceitos de recursão, casos base e a pilha de chamadas."
-        ]
-      },
-      "quiz-recursion-python": {
-        "title": "Quiz de recursão",
-        "intro": [
-          "Teste seu entendimento sobre recursão, casos base e a pilha de chamadas."
-        ]
-      },
-      "lecture-searching-and-sorting-algorithms": {
+      "lecture-searching-and-sorting-algorithms-v2": {
         "title": "Algoritmos de busca e ordenação",
         "intro": [
-          "Aprenda sobre algoritmos fundamentais de busca e ordenação, incluindo busca linear, busca binária e merge sort.",
-          "Essas lições cobrem implementações de algoritmos, análise de complexidade de tempo e espaço, e o paradigma de programação dividir para conquistar."
+          "Nesta lição, você vai aprender como a busca binária funciona e como ela difere da busca linear."
         ]
       },
       "workshop-binary-search": {
         "title": "Implemente o algoritmo de busca binária",
         "intro": [
           "O algoritmo de busca binária é um algoritmo de busca usado para encontrar um item alvo em uma lista ordenada.",
-          "Neste laboratório, você implementará o algoritmo de busca binária e retornará o caminho que ele percorreu para encontrar o alvo ou retornará 'Valor não encontrado'."
+          "Neste workshop, você vai implementar o algoritmo de busca binária e retornar o caminho que ele percorreu para encontrar o alvo ou retornar 'Valor não encontrado'."
+        ]
+      },
+      "lab-selection-sort": {
+        "title": "Implemente o algoritmo de ordenação por seleção",
+        "intro": [
+          "Neste laboratório, você vai implementar o algoritmo de ordenação por seleção."
+        ]
+      },
+      "review-python-algorithms": {
+        "title": "Revisão de algoritmos",
+        "intro": [
+          "Antes de fazer o quiz sobre algoritmos, revise o que aprendeu sobre notação Big O, técnicas de resolução de problemas e algoritmos de busca e ordenação."
+        ]
+      },
+      "quiz-python-algorithms": {
+        "title": "Quiz de algoritmos",
+        "intro": [
+          "Teste o que aprendeu sobre algoritmos em Python com este quiz."
         ]
       },
       "lab-bisection-method": {
         "title": "Implemente o método da bisseção",
         "intro": [
-          "Neste laboratório, você implementará o método da bisseção para encontrar a raiz quadrada de um número."
+          "Neste laboratório, você vai implementar o método da bisseção para encontrar a raiz quadrada de um número."
+        ]
+      },
+      "lecture-working-with-common-data-structures-v2": {
+        "title": "Trabalhando com estruturas de dados comuns",
+        "intro": [
+          "Nestas lições, você vai aprender sobre arrays dinâmicos e estáticos, listas ligadas simples e duplas, pilhas e filas."
+        ]
+      },
+      "workshop-linked-list-class": {
+        "title": "Crie uma lista ligada",
+        "intro": [
+          "Neste workshop, você vai praticar trabalhar com estruturas de dados criando uma lista ligada."
+        ]
+      },
+      "review-linear-data-structures": {
+        "title": "Revisão de estruturas de dados lineares",
+        "intro": [
+          "Antes de fazer o quiz sobre estruturas de dados lineares, revise o que aprendeu sobre arrays, listas ligadas, pilhas e filas."
+        ]
+      },
+      "quiz-linear-data-structures": {
+        "title": "Quiz de estruturas de dados lineares",
+        "intro": [
+          "Teste o que aprendeu sobre estruturas de dados lineares em Python com este quiz."
+        ]
+      },
+      "lab-circular-queue": {
+        "title": "Crie uma fila circular",
+        "intro": [
+          "Neste laboratório, você vai criar uma fila circular, uma fila de tamanho fixo que reutiliza espaços vazios ao dar a volta."
+        ]
+      },
+      "lecture-understanding-recursion-and-the-call-stack-python": {
+        "title": "Entendendo recursão e a pilha de chamadas",
+        "intro": [
+          "Nesta palestra, você vai aprender como funções recursivas e a pilha de chamadas funcionam em Python."
+        ]
+      },
+      "workshop-countup-python": {
+        "title": "Crie uma função de contagem crescente",
+        "intro": [
+          "Neste workshop, você vai criar uma função que usa recursão para criar uma lista de números."
+        ]
+      },
+      "lab-range-of-numbers-python": {
+        "title": "Crie um gerador de intervalo de números",
+        "intro": [
+          "Neste laboratório, você vai usar recursão para gerar uma lista de números dentro de um intervalo especificado."
+        ]
+      },
+      "lecture-understanding-divide-and-conquer": {
+        "title": "Entendendo dividir para conquistar",
+        "intro": [
+          "Nesta lição, você vai aprender sobre o paradigma dividir para conquistar e como funciona o algoritmo merge sort."
         ]
       },
       "workshop-merge-sort": {
         "title": "Implemente o algoritmo merge sort",
         "intro": [
           "O algoritmo merge sort é um algoritmo de ordenação baseado no princípio dividir para conquistar.",
-          "Neste laboratório, você implementará o algoritmo merge sort para ordenar uma lista de números aleatórios."
+          "Neste workshop, você vai implementar o algoritmo merge sort para ordenar uma lista de números aleatórios."
         ]
       },
       "lab-quicksort": {
         "title": "Implemente o algoritmo quicksort",
         "intro": [
-          "Neste laboratório, você implementará o algoritmo quicksort para ordenar uma lista de inteiros."
+          "Neste laboratório, você vai implementar o algoritmo quicksort para ordenar uma lista de números inteiros."
         ]
       },
-      "lab-selection-sort": {
-        "title": "Implemente o algoritmo selection sort",
+      "review-recursion-python-v2": {
+        "title": "Revisão de recursão",
         "intro": [
-          "Neste laboratório, você implementará o algoritmo selection sort."
+          "Revise os conceitos de recursão, casos base e a pilha de chamadas."
         ]
       },
-      "lab-luhn-algorithm": {
-        "title": "Implemente o algoritmo de Luhn",
+      "quiz-recursion-python-v2": {
+        "title": "Quiz de recursão",
         "intro": [
-          "Neste laboratório, você vai implementar o algoritmo de Luhn para validar números de identificação como números de cartão de crédito."
-        ]
-      },
-      "review-searching-and-sorting-algorithms": {
-        "title": "Revisão de algoritmos de busca e ordenação",
-        "intro": [
-          "Antes de fazer o quiz sobre algoritmos de busca e ordenação, revise o que aprendeu sobre eles."
-        ]
-      },
-      "quiz-searching-and-sorting-algorithms": {
-        "title": "Quiz de algoritmos de busca e ordenação",
-        "intro": [
-          "Teste o que aprendeu sobre algoritmos de busca e ordenação em Python com este quiz."
+          "Teste seu entendimento sobre recursão, casos base e a pilha de chamadas."
         ]
       },
       "lab-tower-of-hanoi": {
@@ -10931,16 +10974,23 @@
           "Neste laboratório, você vai implementar um algoritmo para resolver o quebra-cabeça da torre de Hanoi."
         ]
       },
-      "lecture-understanding-graphs-and-trees": {
-        "title": "Entendendo grafos e árvores",
+      "lecture-working-with-hash-maps-and-sets": {
+        "title": "Trabalhando com mapas hash e conjuntos",
         "intro": [
-          "Nesta lição, você vai aprender sobre estruturas de dados fundamentais como grafos, árvores e suas aplicações práticas em ciência da computação."
+          "Nesta lição, você vai aprender como funcionam os mapas, mapas hash e conjuntos."
         ]
       },
-      "workshop-shortest-path-algorithm": {
-        "title": "Implemente o algoritmo do caminho mais curto",
+      "lab-hash-table": {
+        "title": "Construa uma tabela hash",
         "intro": [
-          "Nesta oficina, você vai implementar um algoritmo para encontrar o caminho mais curto entre dois nós em um grafo."
+          "Uma tabela hash é uma estrutura de dados usada para armazenar pares chave-valor e é otimizada para buscas rápidas.",
+          "Neste laboratório, você vai usar seu conhecimento sobre estruturas de dados para construir uma tabela hash."
+        ]
+      },
+      "lecture-understanding-graphs": {
+        "title": "Entendendo grafos",
+        "intro": [
+          "Nessas lições, você vai aprender sobre grafos, busca em profundidade e busca em largura, e como representar grafos com matrizes de adjacência e listas de adjacência."
         ]
       },
       "lab-adjacency-list-to-matrix-converter": {
@@ -10949,34 +10999,52 @@
           "Neste laboratório, você vai implementar uma função que converte uma representação de grafo em lista de adjacência para uma representação em matriz de adjacência."
         ]
       },
-      "workshop-breadth-first-search": {
-        "title": "Implemente o algoritmo de busca em largura",
-        "intro": [
-          "Nesta oficina, você vai usar o algoritmo de busca em largura para gerar todas as combinações válidas de parênteses."
-        ]
-      },
       "lab-depth-first-search": {
         "title": "Implemente o algoritmo de busca em profundidade",
         "intro": [
           "Neste laboratório, você vai implementar o algoritmo de busca em profundidade."
         ]
       },
+      "workshop-shortest-path-algorithm": {
+        "title": "Implemente o algoritmo do caminho mais curto",
+        "intro": [
+          "Neste workshop, você vai implementar um algoritmo para encontrar o caminho mais curto entre dois nós em um grafo."
+        ]
+      },
       "lab-n-queens-problem": {
-        "title": "Implemente o algoritmo das N-rainhas",
+        "title": "Implemente o algoritmo das N rainhas",
         "intro": [
-          "Neste laboratório, você vai implementar uma solução para o problema das N-rainhas."
+          "Neste laboratório, você vai implementar uma solução para o problema das N rainhas."
         ]
       },
-      "review-graphs-and-trees": {
-        "title": "Revisão de grafos e árvores",
+      "lecture-understanding-trees-and-tries": {
+        "title": "Entendendo árvores e tries",
         "intro": [
-          "Antes de fazer o quiz sobre grafos e árvores, revise o que aprendeu sobre eles."
+          "Nesta lição, você vai aprender o que são árvores e tries e como funcionam."
         ]
       },
-      "quiz-graphs-and-trees": {
-        "title": "Quiz de grafos e árvores",
+      "lecture-understanding-priority-queues-and-heaps": {
+        "title": "Entendendo filas de prioridade e heaps",
         "intro": [
-          "Teste o que aprendeu sobre grafos e árvores em Python com este quiz."
+          "Nesta lição, você vai aprender como funcionam filas de prioridade e heaps."
+        ]
+      },
+      "review-non-linear-data-structures": {
+        "title": "Revisão de estruturas de dados não lineares",
+        "intro": [
+          "Antes de fazer o quiz sobre estruturas de dados não lineares, revise o que aprendeu sobre mapas hash, conjuntos, grafos, árvores, tries e heaps."
+        ]
+      },
+      "quiz-non-linear-data-structures": {
+        "title": "Quiz de estruturas de dados não lineares",
+        "intro": [
+          "Teste o que aprendeu sobre estruturas de dados não lineares em Python com este quiz."
+        ]
+      },
+      "lab-paint-bucket-tool": {
+        "title": "Construa uma ferramenta balde de tinta",
+        "intro": [
+          "Neste laboratório, você vai construir uma ferramenta balde de tinta que usa travessia de grafos para preencher regiões conectadas de uma grade."
         ]
       },
       "lecture-understanding-dynamic-programming": {
@@ -10994,7 +11062,7 @@
       "review-dynamic-programming": {
         "title": "Revisão de programação dinâmica",
         "intro": [
-          "Antes de fazer o quiz sobre programação dinâmica, revise o que aprendeu sobre ela."
+          "Antes de fazer o quiz sobre programação dinâmica, revise o que aprendeu sobre o tema."
         ]
       },
       "quiz-dynamic-programming": {
@@ -11003,23 +11071,31 @@
           "Teste o que aprendeu sobre programação dinâmica em Python com este quiz."
         ]
       },
-      "review-python": {
-        "title": "Revisão de Python",
-        "intro": ["Revise conceitos de Python para se preparar para o próximo exame."]
+      "lab-knapsack-algorithm": {
+        "title": "Implemente o algoritmo da mochila",
+        "intro": [
+          "Neste laboratório, você vai usar programação dinâmica para resolver o problema da mochila."
+        ]
+      },
+      "review-python-algorithms-and-data-structures": {
+        "title": "Revisão de algoritmos e estruturas de dados",
+        "intro": [
+          "Revise conceitos de algoritmos e estruturas de dados para se preparar para o exame que vem aí."
+        ]
       }
     }
   },
-
   "front-end-development": {
     "title": "Certificação em desenvolvimento web front-end com HTML, CSS e Javascript",
     "intro": [
       "Complete os projetos obrigatórios e passe no exame para obter a certificação em desenvolvimento web front-end com HTML, CSS e JavaScript."
     ],
     "chapters": {
-      "front-end-web-development": "Desenvolvimento web front-end com HTML, CSS e JavaScript"
+      "front-end-development": "Desenvolvimento web front-end com HTML, CSS e JavaScript"
     },
     "modules": {
-      "html": "HTML"
+      "html": "HTML",
+      "css": "CSS"
     },
     "blocks": {
       "workshop-curriculum-outline": {
@@ -11029,11 +11105,11 @@
           "Este workshop será sua introdução ao HTML e à programação em geral. Você vai aprender sobre títulos e elementos de parágrafo."
         ]
       },
-      "lecture-html-introduction": {
+      "lecture-understanding-html-attributes": {
         "title": "Introdução ao HTML",
         "intro": [
           "Nessas palestras, você vai aprender mais sobre HTML (HyperText Markup Language), uma linguagem de marcação para criar páginas web.",
-          "Você vai aprender sobre o papel do HTML na web e o que são os atributos HTML."
+          "Você vai aprender sobre o papel do HTML na web e o que são atributos HTML."
         ]
       },
       "workshop-cat-photo-app": {
@@ -11086,8 +11162,8 @@
           "Você vai praticar o uso dos elementos <code>label</code>, <code>input</code>, <code>fieldset</code>, <code>legend</code>, <code>textarea</code> e <code>button</code>."
         ]
       },
-      "lab-survey-form": {
-        "title": "Criar um formulário de pesquisa",
+      "lab-survey-form-v2": {
+        "title": "Construa um formulário de pesquisa",
         "intro": [
           "Neste laboratório, você vai revisar formulários HTML criando um formulário de pesquisa.",
           "Você vai praticar o uso do elemento <code>label</code>, dos diferentes elementos <code>input</code>, do atributo <code>required</code> e mais."
@@ -11097,6 +11173,225 @@
         "title": "Criar uma tabela de exames finais",
         "intro": [
           "Neste workshop, você vai praticar o uso de tabelas HTML criando uma tabela de exames finais."
+        ]
+      },
+      "review-html-v2": {
+        "title": "Revisão de HTML",
+        "intro": [
+          "Antes de fazer o quiz de HTML, você precisa revisar os conceitos ensinados nos módulos anteriores.",
+          "Abra esta página para revisar conceitos básicos sobre elementos HTML, HTML semântico, tabelas, formulários e acessibilidade."
+        ]
+      },
+      "quiz-html": {
+        "title": "Quiz de HTML",
+        "intro": [
+          "O quiz a seguir vai testar seu conhecimento dos conceitos de HTML que você aprendeu até agora."
+        ]
+      },
+      "lecture-introduction-to-css": {
+        "title": "Introdução ao CSS",
+        "intro": [
+          "Nessas palestras, você vai aprender o que é CSS e seu papel na web, como elementos inline e em bloco diferem, e como funciona o inline-block."
+        ]
+      },
+      "workshop-cafe-menu": {
+        "title": "Desenhe um cardápio de café",
+        "intro": [
+          "O CSS diz ao navegador como exibir sua página web. Você pode usar CSS para definir cor, fonte, tamanho e outros aspectos dos elementos HTML.",
+          "Neste workshop, você vai aprender CSS desenhando uma página de cardápio para um café."
+        ]
+      },
+      "lab-business-card": {
+        "title": "Desenhe um cartão de visita",
+        "intro": [
+          "Neste laboratório, você vai criar um cartão de visita e estilizar usando CSS.",
+          "Você vai praticar propriedades de estilo como <code>color</code>, <code>font-size</code>, <code>text-align</code> e mais."
+        ]
+      },
+      "lecture-understanding-css-specificity": {
+        "title": "Entendendo a especificidade do CSS",
+        "intro": [
+          "Nessas palestras, você vai aprender sobre especificidade do CSS, a especificidade de diferentes seletores e melhores práticas para usar a palavra-chave <code>!important</code>."
+        ]
+      },
+      "lecture-working-with-backgrounds-and-borders-v2": {
+        "title": "Trabalhando com fundos e bordas",
+        "intro": [
+          "Nessas palestras, você vai aprender a controlar tamanho, repetição, posição e fixação de imagens de fundo, e como adicionar bordas em imagens."
+        ]
+      },
+      "lab-blog-post-card": {
+        "title": "Desenhe um cartão de post de blog",
+        "intro": [
+          "Neste laboratório, você vai desenhar um cartão de post de blog usando HTML e CSS.",
+          "Você vai praticar conceitos como <code>background-color</code>, <code>border-radius</code>, margens, preenchimentos e mais."
+        ]
+      },
+      "lecture-working-with-relative-and-absolute-units": {
+        "title": "Trabalhando com unidades relativas e absolutas",
+        "intro": [
+          "Nessas palestras, você vai aprender sobre unidades relativas e absolutas e como ambas impactam o que você vê no navegador."
+        ]
+      },
+      "lab-event-flyer-page": {
+        "title": "Crie uma página de flyer para evento",
+        "intro": [
+          "Neste laboratório, você vai criar uma página de flyer para evento.",
+          "Você vai praticar o alinhamento de elementos usando CSS absoluto e relativo."
+        ]
+      },
+      "lecture-working-with-pseudo-classes-and-pseudo-elements": {
+        "title": "Trabalhando com pseudo-classes e pseudo-elementos em CSS",
+        "intro": [
+          "Nessas palestras, você vai aprender sobre pseudo-classes e pseudo-elementos, seus exemplos e como funcionam."
+        ]
+      },
+      "workshop-greeting-card": {
+        "title": "Crie um cartão de felicitações",
+        "intro": [
+          "Nas palestras anteriores, você aprendeu a trabalhar com os diferentes tipos de pseudo-classes.",
+          "Nesta oficina, você terá a chance de praticar o que aprendeu criando um cartão de felicitações."
+        ]
+      },
+      "lab-tribute-page": {
+        "title": "Crie uma página de tributo",
+        "intro": [
+          "Neste laboratório, você vai criar uma página de tributo para um tema de sua escolha, fictício ou real."
+        ]
+      },
+      "workshop-colored-markers": {
+        "title": "Crie um conjunto de marcadores coloridos",
+        "intro": [
+          "Nesta oficina, você vai criar um conjunto de marcadores coloridos. Vai praticar diferentes formas de definir valores de cor e como combinar cores entre si."
+        ]
+      },
+      "lab-colored-boxes": {
+        "title": "Crie um conjunto de caixas coloridas",
+        "intro": [
+          "Neste laboratório, você vai criar uma grade de cores e praticar adicionar cores de fundo aos itens da grade usando códigos hexadecimais, RGB e nomes de cores predefinidos."
+        ]
+      },
+      "workshop-registration-form": {
+        "title": "Crie um formulário de inscrição",
+        "intro": [
+          "Nesta oficina, você vai aprender a criar formulários HTML projetando uma página de cadastro. Vai aprender a controlar os tipos de dados que as pessoas podem digitar no seu formulário e algumas ferramentas CSS novas para estilizar sua página."
+        ]
+      },
+      "lab-contact-form": {
+        "title": "Crie um formulário de contato",
+        "intro": [
+          "Neste laboratório, você vai criar um formulário de contato em HTML e estilizar usando CSS."
+        ]
+      },
+      "lecture-introduction-to-the-box-model": {
+        "title": "Introdução ao modelo de caixa",
+        "intro": [
+          "Nesta palestra, você vai aprender sobre o modelo de caixa CSS e como ele funciona."
+        ]
+      },
+      "workshop-rothko-painting": {
+        "title": "Crie uma pintura no estilo Rothko",
+        "intro": [
+          "Cada elemento HTML é sua própria caixa — com espaçamento e borda próprios. Isso é chamado de modelo de caixa.",
+          "Nesta oficina, você vai usar CSS e o modelo de caixa para criar suas próprias peças de arte retangulares no estilo Rothko."
+        ]
+      },
+      "lab-confidential-email-page": {
+        "title": "Crie uma página de e-mail confidencial",
+        "intro": [
+          "Neste laboratório, você vai criar uma página web usando HTML e mascarar o conteúdo usando propriedades CSS."
+        ]
+      },
+      "lecture-working-with-css-flexbox": {
+        "title": "Trabalhando com CSS flexbox",
+        "intro": [
+          "Nessas palestras, você vai aprender como o flexbox CSS funciona, suas propriedades e quando deve usá-lo."
+        ]
+      },
+      "workshop-flexbox-photo-gallery": {
+        "title": "Crie uma galeria de fotos com flexbox",
+        "intro": [
+          "Nesta oficina, você vai usar flexbox para criar uma página web responsiva de galeria de fotos."
+        ]
+      },
+      "lab-page-of-playing-cards-v2": {
+        "title": "Crie uma página de cartas de baralho",
+        "intro": [
+          "Neste laboratório, você vai usar flexbox para criar uma página web de cartas de baralho.",
+          "Você vai praticar o alinhamento de elementos usando propriedades flexbox como <code>flex-direction</code>, <code>justify-content</code>, <code>align-self</code> e outras."
+        ]
+      },
+      "workshop-nutritional-label": {
+        "title": "Crie um rótulo nutricional",
+        "intro": [
+          "Tipografia é a arte de estilizar seu texto para que seja fácil de ler e adequado ao seu propósito.",
+          "Nesta oficina, você vai usar tipografia para criar uma página web de rótulo nutricional. Vai praticar como estilizar texto, ajustar altura de linha e posicionar seu texto usando CSS."
+        ]
+      },
+      "lab-newspaper-article": {
+        "title": "Crie uma página de artigo de jornal",
+        "intro": [
+          "Neste laboratório, você vai criar uma página de artigo de jornal usando HTML e CSS.",
+          "Você vai estilizar as fontes usando propriedades como <code>font-family</code>, <code>font-size</code>, <code>font-weight</code> e outras."
+        ]
+      },
+      "lecture-understanding-positioning-in-css": {
+        "title": "Entendendo posicionamento em CSS",
+        "intro": [
+          "Nessas palestras, você vai aprender a usar posicionamento CSS. Vai aprender sobre posicionamento <code>absolute</code>, <code>relative</code>, <code>fixed</code> e <code>sticky</code>. Também vai usar a propriedade <code>z-index</code>."
+        ]
+      },
+      "workshop-cat-painting": {
+        "title": "Crie uma pintura de gato",
+        "intro": [
+          "Dominar o posicionamento CSS é essencial para criar layouts web visualmente atraentes e responsivos.",
+          "Nesta oficina, você vai criar uma pintura de gato. Vai aprender a trabalhar com posicionamento absoluto, a propriedade <code>z-index</code> e a propriedade <code>transform</code>."
+        ]
+      },
+      "lab-house-painting": {
+        "title": "Crie uma pintura de casa",
+        "intro": [
+          "Neste laboratório, você vai criar uma pintura de casa usando CSS.",
+          "Você vai projetar elementos individuais da casa e posicioná-los usando propriedades CSS como <code>position</code>, <code>top</code>, <code>left</code> e outras."
+        ]
+      },
+      "lecture-working-with-attribute-selectors-and-combinators": {
+        "title": "Trabalhando com seletores de atributo e combinadores",
+        "intro": [
+          "Nessas palestras, você vai aprender a usar seletores de atributo para selecionar elementos e como selecionar elementos com base na relação deles com outros elementos usando combinadores."
+        ]
+      },
+      "workshop-balance-sheet": {
+        "title": "Crie um balanço patrimonial",
+        "intro": [
+          "Nesta oficina, você vai criar um balanço patrimonial usando pseudo seletores. Vai aprender a mudar o estilo de um elemento quando passar o mouse sobre ele e a disparar outros eventos na sua página web."
+        ]
+      },
+      "workshop-piano": {
+        "title": "Crie um piano",
+        "intro": [
+          "Design responsivo diz à sua página web como ela deve aparecer em telas de diferentes tamanhos.",
+          "Nesta oficina, você vai usar CSS e design responsivo para programar um piano. Também vai praticar consultas de mídia e pseudo seletores."
+        ]
+      },
+      "lab-technical-documentation-page-v2": {
+        "title": "Crie uma página de documentação técnica",
+        "intro": [
+          "Neste laboratório, você vai criar uma página de documentação técnica para servir como instrução ou referência sobre um tema.",
+          "Você também vai praticar consultas de mídia para criar um design responsivo."
+        ]
+      },
+      "lecture-introduction-to-css-variables": {
+        "title": "Introdução às variáveis CSS",
+        "intro": [
+          "Nesta palestra, você vai aprender a definir e usar propriedades personalizadas (também conhecidas como variáveis CSS)."
+        ]
+      },
+      "workshop-magazine": {
+        "title": "Crie uma revista",
+        "intro": [
+          "CSS Grid dá controle sobre as linhas e colunas do layout da sua página web.",
+          "Nesta oficina, você vai criar um artigo de revista. Vai praticar como usar CSS Grid, incluindo conceitos como linhas e colunas da grade."
         ]
       }
     }

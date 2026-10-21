@@ -7,18 +7,20 @@ dashedName: implement-the-quicksort-algorithm
 
 # --description--
 
-**Lengo:** Timiza hadithi za watumizi zilizo hapa chini na upite vipimo vyote ili ukamilishe maabara.
+**Lengo:** Timiza hadithi za watumizi zilizo hapa chini na upite vipimo vyote ili kumaliza maabara.
 
 **Hadithi za watumizi:**
 
 1. Unapaswa kufafanua kitendakazi kinachoitwa `quick_sort` ili kutekeleza algoriti ya quicksort.
 
-1. Kitendakazi cha `quick_sort` kinapaswa kuchukua orodha ya nambari kamili kama ingizo na kurudisha orodha mpya ya nambari hizi zikiwa zimepangwa kutoka ndogo hadi kubwa.
+1. Kitendakazi cha `quick_sort` kinapaswa kuchukua orodha ya nambari kamili kama ingizo na kurudisha orodha mpya ya nambari hizi katika mpangilio wa kutoka ndogo hadi kubwa, bila kubadilisha orodha ya ingizo.
 
 1. Ili kutekeleza algoriti, unapaswa:
    - Chagua thamani ya pivot kutoka kwa vipengele vya orodha ya ingizo (tumia kipengele cha kwanza au cha mwisho cha orodha).
    - Gawanya orodha ya ingizo katika orodha ndogo tatu: moja yenye vipengele vidogo kuliko pivot, moja yenye vipengele sawa na pivot, na moja yenye vipengele vikubwa kuliko pivot.
    - Fanya wito wa kurudia wa `quick_sort` kupangilia orodha ndogo na kuunganisha orodha ndogo zilizopangwa ili kuzalisha orodha ya mwisho iliyopangwa.
+
+**Kumbuka:** Hupaswi ku-import moduli yoyote au kutumia kitendakazi cha `sorted()` kilicho ndani au njia ya `sort()` katika msimbo wako.
 
 # --hints--
 
@@ -78,11 +80,13 @@ assert _test_list == [20, 3, 14, 1, 5]
 ({ test: () => runPython(`assert quick_sort([87, 11, 23, 18, 18, 23, 11, 56, 87, 56]) == [11, 11, 18, 18, 23, 23, 56, 56, 87, 87]`) })
 ```
 
-Hupaswi kuleta moduli yoyote au kutumia njia zilizojengwa ndani za kupanga katika msimbo wako.
+Hupaswi kuleta moduli yoyote au kutumia njia za kupanga zilizojengwa ndani katika msimbo wako.
 
 ```js
 ({ test: () => runPython(`
-    assert len(_Node(_code).find_imports()) == 0
+    import ast
+    _nodes = list(ast.walk(ast.parse(_code)))
+    assert not any(isinstance(n, (ast.Import, ast.ImportFrom)) for n in _nodes)
     assert not _Node(_code).block_has_call("sort")
     assert not _Node(_code).block_has_call("sorted")
 `)})

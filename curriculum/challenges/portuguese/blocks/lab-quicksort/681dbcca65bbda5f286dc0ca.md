@@ -13,12 +13,14 @@ dashedName: implement-the-quicksort-algorithm
 
 1. Você deve definir uma função chamada `quick_sort` para implementar o algoritmo quicksort.
 
-1. A função `quick_sort` deve receber uma lista de inteiros como entrada e retornar uma nova lista desses inteiros em ordem crescente, do menor para o maior.
+1. A função `quick_sort` deve receber uma lista de inteiros como entrada e retornar uma nova lista desses inteiros em ordem crescente, sem modificar a lista de entrada.
 
 1. Para implementar o algoritmo, você deve:
    - Escolha um valor pivot dentre os elementos da lista de entrada (use o primeiro ou o último elemento da lista).
    - Particione a lista de entrada em três sublistas: uma com elementos menores que o pivot, uma com elementos iguais ao pivot e uma com elementos maiores que o pivot.
    - Chame recursivamente `quick_sort` para ordenar as sublistas e concatene as sublistas ordenadas para produzir a lista final ordenada.
+
+**Nota:** Você não deve importar nenhum módulo nem usar a função embutida `sorted()` ou o método `sort()` no seu código.
 
 # --hints--
 
@@ -82,7 +84,9 @@ Você não deve importar nenhum módulo ou usar métodos de ordenação embutido
 
 ```js
 ({ test: () => runPython(`
-    assert len(_Node(_code).find_imports()) == 0
+    import ast
+    _nodes = list(ast.walk(ast.parse(_code)))
+    assert not any(isinstance(n, (ast.Import, ast.ImportFrom)) for n in _nodes)
     assert not _Node(_code).block_has_call("sort")
     assert not _Node(_code).block_has_call("sorted")
 `)})

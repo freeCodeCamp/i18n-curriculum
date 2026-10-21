@@ -11,11 +11,15 @@ Prop drilling ni njia ya msingi kabisa ya usimamizi wa state katika programu za 
 
 Tuchunguze ni nini prop drilling, kwa nini ni tatizo, na mbadala mzuri wa kutumia kadri programu inavyokua.
 
+## Prop drilling ni nini?
+
 Prop drilling ni mchakato wa kupitisha vigezo kutoka sehemu ya mzazi hadi sehemu za watoto zilizopangwa ndani kwa kina, hata wakati baadhi ya sehemu za watoto hazihitaji vigezo hivyo.
 
 Kwa mfano, sema una sehemu tatu zinazoitwa `Parent`, `Child`, na `Grandchild`. Ikiwa unataka kutumia data fulani katika sehemu ya `Grandchild`, lakini data hiyo iko katika sehemu ya `Parent`, unahitaji kuipitisha kutoka sehemu ya `Parent` hadi `Child`, kisha kutoka `Child` hadi `Grandchild`.
 
 Au kama data iko hata juu zaidi katika mnyororo, data hiyo inaweza kuhitajika kupitishwa hadi sehemu ya `Parent` pia.
+
+## Mfano wa prop drilling
 
 Hapa, data ninayotaka kuonyesha ni mfuatano wa herufi `Hello, Prop Drilling!`. Imepewa thamani katika kigezo `greeting` katika sehemu ya mzizi `App`:
 
@@ -70,6 +74,8 @@ Kwenye kivinjari, utaona ukurasa wenye kipengele kimoja cha `h1` chenye maandish
 
 Mwanzo, prop drilling huenda haionekani kama tatizo kubwa. Lakini kadri programu yako inavyokua, huwa vigumu kuelewa, kutafuta makosa, na kuitunza.
 
+## Kuhifadhi vigezo vinavyopitishwa katika sehemu moja ya mzazi
+
 Ikiwa unahitaji kupitisha vigezo, jaribu kuviweka vyote katika sehemu moja ya mzazi. Njia hii ya kuweka data zote muhimu mahali pamoja huitwa "chanzo kimoja cha ukweli".
 
 Kwa mfano, sema unataka kuongeza `response` mpya kuambatana na `greeting`, na unataka kutumia zote mbili katika sehemu ya `Grandchild`. Kwa kuwa `greeting` tayari iko katika sehemu ya `App`, ni busara kuweka `response` hapo pia, na kuzipitisha zote mbili mnyororo:
@@ -103,6 +109,8 @@ export default App;
 ```
 
 Kwenye kivinjari, utaona ukurasa wenye kipengele cha `h1` chenye maandishi `Hello, Prop Drilling!` na kipengele cha `h2` chenye maandishi `I'm not here to play!`.
+
+## Mbadala wa prop drilling
 
 Ili kuepuka prop drilling, hasa katika programu kubwa na ngumu, fikiria kutumia Context API au maktaba za usimamizi wa state kama Redux na Redux Toolkit, Zustand, Recoil, na nyinginezo.
 

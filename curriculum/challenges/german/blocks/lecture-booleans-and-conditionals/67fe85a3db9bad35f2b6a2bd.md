@@ -51,13 +51,13 @@ if condition:
 
 * `if`-Anweisungen beginnen mit dem Schlüsselwort `if`.
     
-* `condition` ist ein Ausdruck, der zu `True` oder `False` ausgewertet wird, gefolgt von einem Doppelpunkt (`:`).
+* `condition` ist ein Ausdruck, gefolgt von einem Doppelpunkt (`:`).
 
 * Der Körper der `if`-Anweisung bildet einen <dfn>Codeblock</dfn>, also eine Gruppe von Anweisungen, die zusammengehören. Leerzeichen am Anfang einer Zeile nennt man Einrückung. In Python bestimmt die Einrückung, welche Anweisungen zu einem Codeblock gehören.
     
 Im obigen Beispiel enthält der Körper der `if`-Anweisung eine `pass`-Anweisung. Wenn eine `pass`-Anweisung ausgeführt wird, passiert nichts. Dies ist ein spezielles Schlüsselwort, das als Platzhalter für zukünftigen Code verwendet werden kann und nützlich ist, wenn leere Codeblöcke nicht erlaubt sind.
 
-Der Code im Körper der `if`-Anweisung wird nur ausgeführt, wenn die Bedingung zu `True` ausgewertet wird. Zum Beispiel:
+Der Code im Körper der `if`-Anweisung wird nur ausgeführt, wenn Python die Bedingung als wahr behandelt. Die hier gezeigten Vergleiche liefern `True` oder `False`. In der nächsten Lektion lernen Sie, wie Python andere Werte in Bedingungen behandelt. Zum Beispiel:
 
 ```python
 age = 18
@@ -92,13 +92,13 @@ if age >= 18:
 
 ## Hinzufügen einer `else`-Klausel
 
-Aber was, wenn Sie auch etwas ausgeben möchten, wenn `age` kleiner als `18` ist? Hier kommt die `else`-Klausel ins Spiel. Die `else`-Klausel wird ausgeführt, wenn die `if`-Bedingung falsch ist. Hier ist die Syntax für eine `if…else`-Anweisung:
+Aber was, wenn Sie auch etwas ausgeben möchten, wenn `age` kleiner als `18` ist? Hier kommt die `else`-Klausel ins Spiel. Die `else`-Klausel wird ausgeführt, wenn die `if`-Bedingung falsch ist. Hier ist die Syntax für eine `if...else`-Anweisung:
 
 ```python
 if condition:
-   pass # Code to execute if condition is True
+    pass # Code to execute if condition is True
 else:
-   pass # Code to execute if condition is False
+    pass # Code to execute if condition is False
 ```
 
 Zum Beispiel:
@@ -132,11 +132,11 @@ Hier ist die Syntax:
 
 ```python
 if condition1:
-   pass # Code to execute if condition1 is True
+    pass # Code to execute if condition1 is True
 elif condition2:
-   pass # Code to execute if condition1 is False and condition2 is True
+    pass # Code to execute if condition1 is False and condition2 is True
 else:
-   pass # Code to execute if all conditions are False
+    pass # Code to execute if all conditions are False
 ```
 
 Zum Beispiel:
@@ -171,7 +171,7 @@ else:
     print('You are a toddler or an infant') # You are a toddler or an infant
 ```
 
-Jetzt, da Sie verstanden haben, wie Vergleichsoperatoren und bedingte Anweisungen in Python funktionieren, können Sie Programme schreiben, die Entscheidungen basierend auf Logik und Eingaben treffen. Ob Sie Werte vergleichen oder durch mehrere Bedingungen verzweigen – diese Werkzeuge sind die Grundlage, um flexiblen, responsiven Code zu schreiben.
+Jetzt, da Sie verstanden haben, wie Vergleichsoperatoren und bedingte Anweisungen in Python funktionieren, können Sie Programme schreiben, die Entscheidungen basierend auf Logik und Eingaben treffen. Ob Sie Werte vergleichen oder durch mehrere Bedingungen verzweigen – diese Werkzeuge sind die Grundlage für das Schreiben von flexiblem, responsivem Code.
 
 # --questions--
 
@@ -181,7 +181,7 @@ Was machen Vergleichsoperatoren?
 
 ## --answers--
 
-Führen mathematische Berechnungen mit Boolean-Werten durch
+Führen Sie mathematische Berechnungen mit Boolean-Werten durch.
 
 ### --feedback--
 

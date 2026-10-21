@@ -7,9 +7,13 @@ dashedName: what-is-the-stream-module-and-how-does-it-work
 
 # --description--
 
+## ما هي وحدة Stream؟
+
 آخر وحدة أساسية في Node.js سنستعرضها هي `stream`. تساعدك هذه الوحدة على التعامل مع البيانات بكفاءة، خاصة عندما تكون البيانات كبيرة جدًا بحيث لا يمكن تحميلها دفعة واحدة، مثل قراءة ملف نصي كبير أو تحميل فيديو ضخم.
 
 بدلًا من الانتظار لقراءة أو كتابة كل البيانات قبل البدء، تعالج التدفقات أجزاء من البيانات أثناء وصولها، مثلما يمكنك بدء مشاهدة فيديو على YouTube قبل أن ينتهي تحميله بالكامل.
+
+## أنواع التدفقات
 
 هناك أربعة أنواع رئيسية من التدفقات في Node.js: قابلة للقراءة، قابلة للكتابة، ثنائية الاتجاه، وتحويلية:
 
@@ -24,9 +28,13 @@ dashedName: what-is-the-stream-module-and-how-does-it-work
 const { Readable, Writable, Transform } = require("stream");
 ```
 
+## استخدام تدفقات الملفات المدمجة
+
 في معظم الأحيان، لا تحتاج إلى إنشاء أصناف تدفق مخصصة بنفسك. للعمليات اليومية على الملفات، الطرق المدمجة مثل `fs.createReadStream()` و`fs.createWriteStream()` عادةً ما تكون كافية.
 
 هاتان الطريقتان تأخذان مسار الملف للقراءة أو الكتابة. هذا يعني أنك تحتاج أيضًا إلى وحدتي `fs` و`path` لتنفيذ التدفق في كثير من الحالات.
+
+## قراءة البيانات باستخدام تدفق قابل للقراءة
 
 إليك كيف يمكنك قراءة البيانات من ملف، مثل ملف `input.txt`:
 
@@ -65,6 +73,8 @@ Received data: <Buffer 4c 6f 72 65 6d 20 69 70 73 75 6d
 */
 ```
 
+## تحويل المخازن المؤقتة إلى نص
+
 بما أنه يعيد مخزنًا مؤقتًا، يمكنك استدعاء الطريقة `toString()` لتحويله إلى نص قابل للقراءة:
 
 ```js
@@ -93,6 +103,8 @@ eaque doloribus assumenda, minima fuga tempore, porro, debitis rem harum in
 */
 ```
 
+## كتابة البيانات باستخدام تدفق قابل للكتابة
+
 لتنفيذ تدفق قابل للكتابة، خصوصًا عندما تقرأ من ملف وتكتب إلى آخر، تحتاج إلى إنشاء تدفق القراءة أولًا، ثم تدفق الكتابة:
 
 ```js
@@ -108,6 +120,8 @@ const readInputFileStream = fs.createReadStream(inputFilePath);
 // Create the write stream
 const writeOutputFileStream = fs.createWriteStream(outputFilePath);
 ```
+
+## ربط التدفقات باستخدام `pipe()`
 
 بعد ذلك، استخدم الطريقة `.pipe()` لربط التدفق القابل للقراءة بالتدفق القابل للكتابة. هذا يسمح لـ Node.js بقراءة البيانات تلقائيًا من المصدر وكتابتها إلى الوجهة، جزءًا جزءًا:
 
@@ -127,6 +141,8 @@ const writeOutputFileStream = fs.createWriteStream(outputFilePath);
 // Pipe the read stream to the write stream
 readInputFileStream.pipe(writeOutputFileStream);
 ```
+
+## التعامل مع أحداث `finish` و `error`
 
 ثم يمكنك الاستماع إلى أحداث `finish` و`error` على التدفق القابل للكتابة لتعرف متى يكتمل التدفق أو إذا حدث خطأ:
 

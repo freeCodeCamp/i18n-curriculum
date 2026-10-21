@@ -1613,9 +1613,9 @@
         ]
       },
       "workshop-pin-extractor": {
-        "title": "ピン抽出器を作ろう",
+        "title": "PIN抽出器を作成する",
         "intro": [
-          "このワークショップでは、詩に隠された秘密のピンを抽出する関数を作ります。"
+          "このワークショップでは、詩に隠された秘密のPINを抽出する関数を作成します。"
         ]
       },
       "lab-number-pattern-generator": {
@@ -1699,7 +1699,7 @@
       "lab-isbn-validator": {
         "title": "ISBNバリデーターのデバッグ",
         "intro": [
-          "このラボでは、バグのあるアプリから始めて、バグをデバッグして修正し、正常に動作するようにします。"
+          "このラボでは、提供されたPythonコードのエラーを修正してISBNバリデーターをデバッグします。"
         ]
       },
       "review-error-handling": {
@@ -1711,7 +1711,7 @@
       "quiz-error-handling": {
         "title": "エラー処理のクイズ",
         "intro": [
-          "このクイズでPythonのエラー処理について学んだことをテストしましょう。"
+          "Pythonのエラー処理について学んだことをこのクイズでテストしましょう。"
         ]
       }
     }
@@ -1809,7 +1809,9 @@
       },
       "lecture-understanding-abstraction": {
         "title": "抽象化の理解",
-        "intro": ["これらのレッスンで抽象化の理解について学びます。"]
+        "intro": [
+          "これらのレッスンで抽象化とPythonの抽象クラスの扱い方を学びます。"
+        ]
       },
       "workshop-discount-calculator": {
         "title": "割引計算機を作る",
@@ -1836,9 +1838,9 @@
         ]
       },
       "quiz-object-oriented-programming": {
-        "title": "オブジェクト指向プログラミングのクイズ",
+        "title": "オブジェクト指向プログラミングクイズ",
         "intro": [
-          "このクイズでPythonのオブジェクト指向プログラミングについて学んだことをテストしましょう。"
+          "Pythonのオブジェクト指向プログラミングについて学んだことをこのクイズでテストしましょう。"
         ]
       }
     }
@@ -3034,6 +3036,13 @@
         "title": "デバッグ手法",
         "intro": [
           "これらの講義では、JavaScriptの一般的なエラーと、それらを修正するためのデバッグ手法について学びます。"
+        ]
+      },
+      "workshop-library-search": {
+        "title": "図書館の本検索を作成する",
+        "intro": [
+          "このワークショップでは、JavaScriptでエラーを適切に処理する練習をします。",
+          "図書館の本検索アプリケーションを作成し、<code>try...catch...finally</code>ブロックと<code>throw</code>文を使ってカスタムエラーをキャッチして管理します。"
         ]
       },
       "lab-random-background-color-changer": {
@@ -5065,6 +5074,12 @@
           "このラボでは、JavaScriptのループを使って信号機のシーケンサーを作ります。"
         ]
       },
+      "workshop-campus-directory-normalizer": {
+        "title": "キャンパスディレクトリ正規化ツールを作成する",
+        "intro": [
+          "このワークショップでは、ネストされたデータを独立した使いやすいルックアップテーブルに正規化します。"
+        ]
+      },
       "lab-proofreading-tool": {
         "title": "校正ツールを作る",
         "intro": [
@@ -6595,9 +6610,9 @@
         ]
       },
       "workshop-pin-extractor": {
-        "title": "ピン抽出器を作成する",
+        "title": "PIN抽出器を作成する",
         "intro": [
-          "このワークショップでは、詩に隠された秘密のピンを抽出する関数を作成します。"
+          "このワークショップでは、詩に隠された秘密のPINを抽出する関数を作成します。"
         ]
       },
       "lab-number-pattern-generator": {
@@ -6661,7 +6676,7 @@
       "lab-isbn-validator": {
         "title": "ISBNバリデーターのデバッグ",
         "intro": [
-          "このラボでは、バグのあるアプリから始めて、バグをデバッグして修正し、正常に動作させる必要があります。"
+          "このラボでは、提供されたPythonコードのエラーを修正してISBNバリデーターをデバッグします。"
         ]
       },
       "review-error-handling": {
@@ -6673,7 +6688,7 @@
       "quiz-error-handling": {
         "title": "エラー処理クイズ",
         "intro": [
-          "このクイズでPythonのエラー処理に関する理解度をテストしましょう。"
+          "Pythonのエラー処理について学んだことをこのクイズでテストしましょう。"
         ]
       },
       "lecture-classes-and-objects": {
@@ -6749,7 +6764,9 @@
       },
       "lecture-understanding-abstraction": {
         "title": "抽象化の理解",
-        "intro": ["これらのレッスンで抽象化の理解について学びます。"]
+        "intro": [
+          "これらのレッスンで抽象化とPythonの抽象クラスの扱い方を学びます。"
+        ]
       },
       "workshop-discount-calculator": {
         "title": "割引計算機を作成する",
@@ -6772,7 +6789,7 @@
       "quiz-object-oriented-programming": {
         "title": "オブジェクト指向プログラミングクイズ",
         "intro": [
-          "このクイズでPythonのオブジェクト指向プログラミングについて学んだことをテストしてください。"
+          "Pythonのオブジェクト指向プログラミングについて学んだことをこのクイズでテストしましょう。"
         ]
       },
       "lab-polygon-area-calculator": {
@@ -10587,9 +10604,9 @@
         ]
       },
       "workshop-pin-extractor": {
-        "title": "ピン抽出器を作成する",
+        "title": "PIN抽出器を作成する",
         "intro": [
-          "このワークショップでは、詩に隠された秘密のピンを抽出する関数を作成します。"
+          "このワークショップでは、詩に隠された秘密のPINを抽出する関数を作成します。"
         ]
       },
       "lab-number-pattern-generator": {
@@ -10653,7 +10670,7 @@
       "lab-isbn-validator": {
         "title": "ISBNバリデーターのデバッグ",
         "intro": [
-          "このラボでは、バグのあるアプリから始めて、バグをデバッグして修正し、正常に動作するようにします。"
+          "このラボでは、提供されたPythonコードのエラーを修正してISBNバリデーターをデバッグします。"
         ]
       },
       "review-error-handling": {
@@ -10665,7 +10682,7 @@
       "quiz-error-handling": {
         "title": "エラー処理のクイズ",
         "intro": [
-          "このクイズでPythonのエラー処理について学んだことを試してください。"
+          "Pythonのエラー処理について学んだことをこのクイズでテストしましょう。"
         ]
       },
       "lecture-classes-and-objects": {
@@ -10741,7 +10758,9 @@
       },
       "lecture-understanding-abstraction": {
         "title": "抽象化の理解",
-        "intro": ["これらのレッスンで抽象化の理解を深めましょう。"]
+        "intro": [
+          "これらのレッスンで抽象化とPythonの抽象クラスの扱い方を学びます。"
+        ]
       },
       "workshop-discount-calculator": {
         "title": "割引計算機を作成する",
@@ -10762,9 +10781,9 @@
         ]
       },
       "quiz-object-oriented-programming": {
-        "title": "オブジェクト指向プログラミングのクイズ",
+        "title": "オブジェクト指向プログラミングクイズ",
         "intro": [
-          "このクイズでPythonのオブジェクト指向プログラミングについて学んだことを試してください。"
+          "Pythonのオブジェクト指向プログラミングについて学んだことをこのクイズでテストしましょう。"
         ]
       },
       "lab-polygon-area-calculator": {
@@ -10779,126 +10798,71 @@
       }
     }
   },
-  "algorithms-and-data-structure": {
+  "algorithms-and-data-structures": {
     "title": "アルゴリズムとデータ構造認定",
     "intro": [
-      "このコースでは、Pythonのデータ構造とアルゴリズムを学びます。",
-      "必要なプロジェクトを完成させ、試験に合格するとアルゴリズムとデータ構造認定を取得できます。"
+      "このコースではPythonのデータ構造とアルゴリズムを扱います。",
+      "必要なプロジェクトを完了し試験に合格すると、アルゴリズムとデータ構造認定を取得できます。"
     ],
     "chapters": {
-      "algorithms-and-data-structure": "アルゴリズムとデータ構造"
+      "algorithms-and-data-structures": "アルゴリズムとデータ構造"
     },
     "modules": {
-      "python-linear-data-structures": "線形データ構造",
-      "lab-hash-table": "ハッシュテーブルを作る",
-      "python-recursion": "再帰",
       "python-algorithms": "アルゴリズム",
+      "lab-bisection-method": "二分法を実装する",
+      "python-linear-data-structures": "線形データ構造",
+      "lab-circular-queue": "循環キューを作成する",
+      "python-recursion": "再帰",
       "lab-tower-of-hanoi": "ハノイの塔アルゴリズムを実装する",
-      "python-graphs-and-trees": "グラフと木構造",
+      "non-linear-data-structures": "非線形データ構造",
+      "lab-paint-bucket-tool": "ペイントバケットツールを作成する",
       "python-dynamic-programming": "動的計画法",
-      "review-python": "Python復習"
+      "lab-knapsack-algorithm": "ナップサックアルゴリズムを実装する",
+      "review-python-algorithms-and-data-structures": "アルゴリズムとデータ構造のレビュー"
     },
     "module-intros": {
+      "lab-circular-queue": {
+        "note": "2026年公開予定",
+        "intro": [
+          "このラボでは、空きスロットを再利用するためにぐるりと回る固定サイズの循環キューを作成します。"
+        ]
+      },
       "python-recursion": {
         "intro": [
-          "このモジュールでは、Pythonにおける再帰と呼び出しスタックの仕組みを学びます。"
+          "このモジュールでは、Pythonの再帰と呼び出しスタックの仕組みを学びます。"
+        ]
+      },
+      "lab-paint-bucket-tool": {
+        "note": "2026年公開予定",
+        "intro": [
+          "このラボでは、グラフトラバーサルを使ってグリッドの連結領域を塗りつぶすペイントバケットツールを作成します。"
+        ]
+      },
+      "lab-knapsack-algorithm": {
+        "note": "2026年公開予定",
+        "intro": [
+          "このラボでは、動的計画法を使ってナップサック問題を解きます。"
         ]
       }
     },
     "blocks": {
-      "lecture-working-with-common-data-structures": {
-        "title": "よく使われるデータ構造の扱い方",
+      "lecture-understanding-algorithms-and-big-o": {
+        "title": "アルゴリズムとビッグO記法の理解",
         "intro": [
-          "これらのレッスンでよく使われるデータ構造の扱い方を学びます。"
+          "これらのレッスンでアルゴリズムとは何か、ビッグO記法による分析方法、アルゴリズム問題への効果的なアプローチ手法を学びます。"
         ]
       },
-      "workshop-linked-list-class": {
-        "title": "連結リストを作る",
+      "lecture-searching-and-sorting-algorithms-v2": {
+        "title": "検索とソートのアルゴリズム",
         "intro": [
-          "このワークショップでは、連結リストを作ることでデータ構造の扱いを練習します。"
-        ]
-      },
-      "review-data-structures": {
-        "title": "データ構造の復習",
-        "intro": [
-          "データ構造のクイズに挑戦する前に、学んだ内容を復習してください。",
-          "このページを開いて、さまざまなデータ構造、アルゴリズム、時間・空間計算量、ビッグO記法などの概念を復習しましょう。"
-        ]
-      },
-      "quiz-data-structures": {
-        "title": "データ構造クイズ",
-        "intro": [
-          "このクイズでPythonのデータ構造についての理解を試してください。"
-        ]
-      },
-      "lab-hash-table": {
-        "title": "ハッシュテーブルを作る",
-        "intro": [
-          "ハッシュテーブルはキーと値のペアを格納し、高速な検索に最適化されたデータ構造です。",
-          "このラボでは、データ構造の知識を使ってハッシュテーブルを作ります。"
-        ]
-      },
-      "lecture-understanding-recursion-and-the-call-stack-python": {
-        "title": "再帰と呼び出しスタックの理解",
-        "intro": [
-          "この講義では、Pythonにおける再帰関数と呼び出しスタックの仕組みを学びます。"
-        ]
-      },
-      "workshop-countup-python": {
-        "title": "カウントアップ関数を作る",
-        "intro": [
-          "このワークショップでは、再帰を使って数値のリストを作る関数を作ります。"
-        ]
-      },
-      "lab-range-of-numbers-python": {
-        "title": "数値範囲ジェネレーターを作る",
-        "intro": [
-          "このラボでは、再帰を使って指定範囲内の数値リストを生成します。"
-        ]
-      },
-      "review-recursion-python": {
-        "title": "再帰の復習",
-        "intro": [
-          "再帰、基本ケース、呼び出しスタックの概念を復習します。"
-        ]
-      },
-      "quiz-recursion-python": {
-        "title": "再帰クイズ",
-        "intro": [
-          "再帰、基本ケース、呼び出しスタックの理解度を試してください。"
-        ]
-      },
-      "lecture-searching-and-sorting-algorithms": {
-        "title": "探索とソートのアルゴリズム",
-        "intro": [
-          "線形探索、二分探索、マージソートなどの基本的な探索とソートのアルゴリズムについて学びます。",
-          "これらのレッスンでは、アルゴリズムの実装、時間・空間計算量の分析、分割統治法のプログラミングパラダイムを扱います。"
+          "このレッスンでは、二分探索の仕組みと線形探索との違いを学びます。"
         ]
       },
       "workshop-binary-search": {
         "title": "二分探索アルゴリズムを実装する",
         "intro": [
-          "二分探索アルゴリズムは、ソート済みリストから目的の項目を探す探索アルゴリズムです。",
-          "このワークショップでは、二分探索アルゴリズムを実装し、目的の項目を見つけるまでの経路を返すか、「Value not found」を返します。"
-        ]
-      },
-      "lab-bisection-method": {
-        "title": "二分法を実装する",
-        "intro": [
-          "このラボでは、二分法を使って数値の平方根を求めます。"
-        ]
-      },
-      "workshop-merge-sort": {
-        "title": "マージソートアルゴリズムを実装する",
-        "intro": [
-          "マージソートアルゴリズムは、分割統治法に基づくソートアルゴリズムです。",
-          "このワークショップでは、マージソートアルゴリズムを実装してランダムな数値のリストをソートします。"
-        ]
-      },
-      "lab-quicksort": {
-        "title": "クイックソートアルゴリズムを実装する",
-        "intro": [
-          "このラボでは、クイックソートアルゴリズムを実装して整数のリストをソートします。"
+          "二分探索アルゴリズムは、ソート済みリストから目的の項目を探す検索アルゴリズムです。",
+          "このワークショップでは、二分探索アルゴリズムを実装し、目的の項目を見つけるまでの経路を返すか「値が見つかりません」と返します。"
         ]
       },
       "lab-selection-sort": {
@@ -10907,22 +10871,101 @@
           "このラボでは、選択ソートアルゴリズムを実装します。"
         ]
       },
-      "lab-luhn-algorithm": {
-        "title": "Luhnアルゴリズムを実装する",
+      "review-python-algorithms": {
+        "title": "アルゴリズムレビュー",
         "intro": [
-          "このラボでは、クレジットカード番号などの識別番号を検証するためにLuhnアルゴリズムを実装します。"
+          "アルゴリズムのクイズを受ける前に、ビッグO記法、問題解決手法、検索とソートのアルゴリズムについて復習してください。"
         ]
       },
-      "review-searching-and-sorting-algorithms": {
-        "title": "検索とソートアルゴリズムのレビュー",
+      "quiz-python-algorithms": {
+        "title": "アルゴリズムクイズ",
         "intro": [
-          "検索とソートアルゴリズムのクイズを受ける前に、学んだ内容を復習してください。"
+          "Pythonのアルゴリズムについて学んだことをこのクイズでテストしましょう。"
         ]
       },
-      "quiz-searching-and-sorting-algorithms": {
-        "title": "検索とソートアルゴリズムのクイズ",
+      "lab-bisection-method": {
+        "title": "二分法を実装する",
         "intro": [
-          "このクイズでPythonの検索とソートアルゴリズムについて学んだことを試してください。"
+          "このラボでは、二分法を実装して数値の平方根を求めます。"
+        ]
+      },
+      "lecture-working-with-common-data-structures-v2": {
+        "title": "一般的なデータ構造の扱い方",
+        "intro": [
+          "これらのレッスンで動的配列と静的配列、単方向および双方向連結リスト、スタック、キューについて学びます。"
+        ]
+      },
+      "workshop-linked-list-class": {
+        "title": "連結リストを作成する",
+        "intro": [
+          "このワークショップでは、連結リストを作成してデータ構造の扱いを練習します。"
+        ]
+      },
+      "review-linear-data-structures": {
+        "title": "線形データ構造のレビュー",
+        "intro": [
+          "線形データ構造のクイズを受ける前に、配列、連結リスト、スタック、キューについて復習してください。"
+        ]
+      },
+      "quiz-linear-data-structures": {
+        "title": "線形データ構造クイズ",
+        "intro": [
+          "Pythonの線形データ構造について学んだことをこのクイズでテストしましょう。"
+        ]
+      },
+      "lab-circular-queue": {
+        "title": "循環キューを作成する",
+        "intro": [
+          "このラボでは、空きスロットを再利用するためにぐるりと回る固定サイズの循環キューを作成します。"
+        ]
+      },
+      "lecture-understanding-recursion-and-the-call-stack-python": {
+        "title": "再帰と呼び出しスタックの理解",
+        "intro": [
+          "この講義では、Pythonの再帰関数と呼び出しスタックの仕組みを学びます。"
+        ]
+      },
+      "workshop-countup-python": {
+        "title": "カウントアップ関数を作成する",
+        "intro": [
+          "このワークショップでは、再帰を使って数値のリストを作成する関数を作ります。"
+        ]
+      },
+      "lab-range-of-numbers-python": {
+        "title": "数値範囲ジェネレーターを作成する",
+        "intro": [
+          "このラボでは、再帰を使って指定範囲内の数値リストを生成します。"
+        ]
+      },
+      "lecture-understanding-divide-and-conquer": {
+        "title": "分割統治法の理解",
+        "intro": [
+          "このレッスンでは、分割統治法のパラダイムとマージソートアルゴリズムの仕組みを学びます。"
+        ]
+      },
+      "workshop-merge-sort": {
+        "title": "マージソートアルゴリズムを実装する",
+        "intro": [
+          "マージソートアルゴリズムは、分割統治法に基づくソートアルゴリズムです。",
+          "このワークショップでは、ランダムな数値のリストをソートするためにマージソートアルゴリズムを実装します。"
+        ]
+      },
+      "lab-quicksort": {
+        "title": "クイックソートアルゴリズムを実装する",
+        "intro": [
+          "このラボでは、整数のリストをソートするためにクイックソートアルゴリズムを実装します。"
+        ]
+      },
+      "review-recursion-python-v2": {
+        "title": "再帰の復習",
+        "intro": [
+          "再帰、基本ケース、コールスタックの概念を復習します。"
+        ]
+      },
+      "quiz-recursion-python-v2": {
+        "title": "再帰クイズ",
+        "intro": [
+          "再帰、基本ケース、コールスタックの理解度をテストします。"
         ]
       },
       "lab-tower-of-hanoi": {
@@ -10931,28 +10974,29 @@
           "このラボでは、ハノイの塔パズルを解くアルゴリズムを実装します。"
         ]
       },
-      "lecture-understanding-graphs-and-trees": {
-        "title": "グラフとツリーの理解",
+      "lecture-working-with-hash-maps-and-sets": {
+        "title": "ハッシュマップとセットの操作",
         "intro": [
-          "このレッスンでは、グラフやツリーなどの基本的なデータ構造と、それらのコンピュータサイエンスにおける実用的な応用について学びます。"
+          "このレッスンでは、マップ、ハッシュマップ、セットの仕組みを学びます。"
         ]
       },
-      "workshop-shortest-path-algorithm": {
-        "title": "最短経路アルゴリズムを実装する",
+      "lab-hash-table": {
+        "title": "ハッシュテーブルを作成する",
         "intro": [
-          "このワークショップでは、グラフ内の2つのノード間の最短経路を見つけるアルゴリズムを実装します。"
+          "ハッシュテーブルはキーと値のペアを格納し、高速な検索に最適化されたデータ構造です。",
+          "このラボでは、データ構造の知識を使ってハッシュテーブルを作成します。"
+        ]
+      },
+      "lecture-understanding-graphs": {
+        "title": "グラフの理解",
+        "intro": [
+          "このレッスンでは、グラフ、深さ優先探索と幅優先探索、隣接行列と隣接リストによるグラフの表し方を学びます。"
         ]
       },
       "lab-adjacency-list-to-matrix-converter": {
-        "title": "隣接リストから隣接行列への変換器を作成する",
+        "title": "隣接リストから隣接行列への変換器を作る",
         "intro": [
           "このラボでは、グラフの隣接リスト表現を隣接行列表現に変換する関数を実装します。"
-        ]
-      },
-      "workshop-breadth-first-search": {
-        "title": "幅優先探索アルゴリズムを実装する",
-        "intro": [
-          "このワークショップでは、幅優先探索アルゴリズムを使って丸括弧のすべての有効な組み合わせを生成します。"
         ]
       },
       "lab-depth-first-search": {
@@ -10961,65 +11005,97 @@
           "このラボでは、深さ優先探索アルゴリズムを実装します。"
         ]
       },
+      "workshop-shortest-path-algorithm": {
+        "title": "最短経路アルゴリズムを実装する",
+        "intro": [
+          "このワークショップでは、グラフの2つのノード間の最短経路を見つけるアルゴリズムを実装します。"
+        ]
+      },
       "lab-n-queens-problem": {
         "title": "Nクイーンアルゴリズムを実装する",
         "intro": [
           "このラボでは、Nクイーン問題の解決策を実装します。"
         ]
       },
-      "review-graphs-and-trees": {
-        "title": "グラフとツリーのレビュー",
+      "lecture-understanding-trees-and-tries": {
+        "title": "木とトライ木の理解",
         "intro": [
-          "グラフとツリーのクイズを受ける前に、学んだ内容を復習してください。"
+          "このレッスンでは、木とトライ木とは何か、その仕組みを学びます。"
         ]
       },
-      "quiz-graphs-and-trees": {
-        "title": "グラフとツリーのクイズ",
+      "lecture-understanding-priority-queues-and-heaps": {
+        "title": "優先キューとヒープの理解",
         "intro": [
-          "このクイズでPythonのグラフとツリーについて学んだことを試してください。"
+          "このレッスンでは、優先キューとヒープの仕組みを学びます。"
+        ]
+      },
+      "review-non-linear-data-structures": {
+        "title": "非線形データ構造の復習",
+        "intro": [
+          "非線形データ構造のクイズを受ける前に、ハッシュマップ、セット、グラフ、木、トライ木、ヒープについて学んだことを復習してください。"
+        ]
+      },
+      "quiz-non-linear-data-structures": {
+        "title": "非線形データ構造クイズ",
+        "intro": [
+          "このクイズでPythonの非線形データ構造について学んだことをテストします。"
+        ]
+      },
+      "lab-paint-bucket-tool": {
+        "title": "ペイントバケットツールを作る",
+        "intro": [
+          "このラボでは、グラフトラバーサルを使ってグリッドの連結領域を塗りつぶすペイントバケットツールを作成します。"
         ]
       },
       "lecture-understanding-dynamic-programming": {
         "title": "動的計画法の理解",
         "intro": [
-          "このレッスンでは、複雑な問題をより簡単な部分問題に分解して効率的に解くためのアルゴリズム手法である動的計画法について学びます。"
+          "このレッスンでは、複雑な問題をより簡単な部分問題に分割して効率的に解くアルゴリズム手法である動的計画法について学びます。"
         ]
       },
       "lab-nth-fibonacci-number": {
-        "title": "第N番目のフィボナッチ数計算機を作成する",
+        "title": "第N番目のフィボナッチ数計算機を作る",
         "intro": [
-          "このラボでは、動的計画法のアプローチを使ってフィボナッチ数列の計算機を実装します。"
+          "このラボでは、動的計画法を使ってフィボナッチ数列の計算機を実装します。"
         ]
       },
       "review-dynamic-programming": {
-        "title": "動的計画法のレビュー",
+        "title": "動的計画法の復習",
         "intro": [
-          "動的計画法のクイズを受ける前に、学んだ内容を復習してください。"
+          "動的計画法のクイズを受ける前に、学んだことを復習してください。"
         ]
       },
       "quiz-dynamic-programming": {
-        "title": "動的計画法のクイズ",
+        "title": "動的計画法クイズ",
         "intro": [
-          "このクイズでPythonの動的計画法について学んだことを試してください。"
+          "このクイズでPythonの動的計画法について学んだことをテストします。"
         ]
       },
-      "review-python": {
-        "title": "Pythonのレビュー",
-        "intro": ["今後の試験に備えてPythonの概念を復習してください。"]
+      "lab-knapsack-algorithm": {
+        "title": "ナップサックアルゴリズムを実装する",
+        "intro": [
+          "このラボでは、動的計画法を使ってナップサック問題を解きます。"
+        ]
+      },
+      "review-python-algorithms-and-data-structures": {
+        "title": "アルゴリズムとデータ構造の復習",
+        "intro": [
+          "今後の試験に備えてアルゴリズムとデータ構造の概念を復習します。"
+        ]
       }
     }
   },
-
   "front-end-development": {
     "title": "HTML、CSS、JavaScriptによるフロントエンドウェブ開発認定",
     "intro": [
       "必要なプロジェクトを完了し、試験に合格してHTML、CSS、JavaScriptによるフロントエンドウェブ開発認定を取得してください。"
     ],
     "chapters": {
-      "front-end-web-development": "HTML、CSS、JavaScriptによるフロントエンドウェブ開発"
+      "front-end-development": "HTML、CSS、JavaScriptによるフロントエンドウェブ開発"
     },
     "modules": {
-      "html": "HTML"
+      "html": "HTML",
+      "css": "CSS"
     },
     "blocks": {
       "workshop-curriculum-outline": {
@@ -11029,11 +11105,11 @@
           "このワークショップはHTMLとコーディングの入門です。見出しや段落要素について学びます。"
         ]
       },
-      "lecture-html-introduction": {
+      "lecture-understanding-html-attributes": {
         "title": "HTML入門",
         "intro": [
           "この講義では、ウェブページ作成のためのマークアップ言語であるHTML（HyperText Markup Language）について詳しく学びます。",
-          "HTMLのウェブ上での役割とHTML属性について学びます。"
+          "ウェブにおけるHTMLの役割とHTML属性について学びます。"
         ]
       },
       "workshop-cat-photo-app": {
@@ -11086,17 +11162,236 @@
           "<code>label</code>、<code>input</code>、<code>fieldset</code>、<code>legend</code>、<code>textarea</code>、<code>button</code>要素の扱いを練習します。"
         ]
       },
-      "lab-survey-form": {
-        "title": "アンケートフォームを作成する",
+      "lab-survey-form-v2": {
+        "title": "アンケートフォームを作る",
         "intro": [
           "このラボでは、アンケートフォームを作成してHTMLフォームを復習します。",
-          "<code>label</code>要素、さまざまな<code>input</code>要素、<code>required</code>属性などの扱いを練習します。"
+          "<code>label</code>要素、さまざまな<code>input</code>要素、<code>required</code>属性などの操作を練習します。"
         ]
       },
       "workshop-final-exams-table": {
         "title": "期末試験テーブルを作成する",
         "intro": [
           "このワークショップでは、期末試験のテーブルを作成してHTMLテーブルの扱いを練習します。"
+        ]
+      },
+      "review-html-v2": {
+        "title": "HTML復習",
+        "intro": [
+          "HTMLクイズを受ける前に、前のモジュールで学んだ概念を復習してください。",
+          "このページを開いて、HTML要素の基本、セマンティックHTML、テーブル、フォーム、アクセシビリティの概念を復習してください。"
+        ]
+      },
+      "quiz-html": {
+        "title": "HTMLクイズ",
+        "intro": [
+          "以下のクイズで、これまでに学んだHTMLの概念をテストします。"
+        ]
+      },
+      "lecture-introduction-to-css": {
+        "title": "CSS入門",
+        "intro": [
+          "この講義では、CSSとは何か、そのウェブでの役割、インライン要素とブロックレベル要素の違い、インラインブロックの仕組みを学びます。"
+        ]
+      },
+      "workshop-cafe-menu": {
+        "title": "カフェメニューをデザインする",
+        "intro": [
+          "CSSはブラウザにウェブページの表示方法を指示します。CSSを使ってHTML要素の色、フォント、サイズなどを設定できます。",
+          "このワークショップでは、カフェのメニューページをデザインしながらCSSを学びます。"
+        ]
+      },
+      "lab-business-card": {
+        "title": "名刺をデザインする",
+        "intro": [
+          "このラボでは、名刺を作成しCSSでスタイルを設定します。",
+          "<code>color</code>、<code>font-size</code>、<code>text-align</code>などのスタイルプロパティを練習します。"
+        ]
+      },
+      "lecture-understanding-css-specificity": {
+        "title": "CSSの特異性の理解",
+        "intro": [
+          "この講義では、CSSの特異性、さまざまなセレクターの特異性、<code>!important</code>キーワードのベストプラクティスについて学びます。"
+        ]
+      },
+      "lecture-working-with-backgrounds-and-borders-v2": {
+        "title": "背景とボーダーの操作",
+        "intro": [
+          "この講義では、背景画像のサイズ、繰り返し、位置、アタッチメントの制御方法と画像の周りにボーダーを追加する方法を学びます。"
+        ]
+      },
+      "lab-blog-post-card": {
+        "title": "ブログ投稿カードをデザインする",
+        "intro": [
+          "このラボでは、HTMLとCSSを使ってブログ投稿カードをデザインします。",
+          "<code>background-color</code>、<code>border-radius</code>、マージン、パディングなどの概念を練習します。"
+        ]
+      },
+      "lecture-working-with-relative-and-absolute-units": {
+        "title": "相対単位と絶対単位の操作",
+        "intro": [
+          "この講義では、相対単位と絶対単位について、それらがブラウザでの表示にどのように影響するかを学びます。"
+        ]
+      },
+      "lab-event-flyer-page": {
+        "title": "イベントフライヤーページを作成する",
+        "intro": [
+          "このラボでは、イベントフライヤーページを作成します。",
+          "絶対配置と相対配置のCSSを使って要素の配置を練習します。"
+        ]
+      },
+      "lecture-working-with-pseudo-classes-and-pseudo-elements": {
+        "title": "CSSの疑似クラスと疑似要素の使い方",
+        "intro": [
+          "この講義では、疑似クラスと疑似要素について、その例と動作方法を学びます。"
+        ]
+      },
+      "workshop-greeting-card": {
+        "title": "グリーティングカードをデザインする",
+        "intro": [
+          "前の講義で、さまざまな種類の疑似クラスの使い方を学びました。",
+          "このワークショップでは、学んだことを活かしてグリーティングカードをデザインします。"
+        ]
+      },
+      "lab-tribute-page": {
+        "title": "トリビュートページを作成する",
+        "intro": [
+          "このラボでは、架空または実在の対象のトリビュートページを作成します。"
+        ]
+      },
+      "workshop-colored-markers": {
+        "title": "カラーマーカーセットを作成する",
+        "intro": [
+          "このワークショップでは、カラーマーカーセットを作成します。色の指定方法や色の組み合わせ方を練習します。"
+        ]
+      },
+      "lab-colored-boxes": {
+        "title": "カラーボックスセットをデザインする",
+        "intro": [
+          "このラボでは、カラ―グリッドを作成し、グリッドアイテムに16進コード、RGB、定義済み色名で背景色を追加する練習をします。"
+        ]
+      },
+      "workshop-registration-form": {
+        "title": "登録フォームをデザインする",
+        "intro": [
+          "このワークショップでは、サインアップページをデザインし、HTMLフォームの作り方を学びます。入力できるデータの種類を制御し、ページのスタイルに使う新しいCSSツールも学びます。"
+        ]
+      },
+      "lab-contact-form": {
+        "title": "お問い合わせフォームをデザインする",
+        "intro": [
+          "このラボでは、HTMLでお問い合わせフォームをデザインし、CSSでスタイルを設定します。"
+        ]
+      },
+      "lecture-introduction-to-the-box-model": {
+        "title": "ボックスモデルの紹介",
+        "intro": [
+          "この講義では、CSSのボックスモデルとその仕組みを学びます。"
+        ]
+      },
+      "workshop-rothko-painting": {
+        "title": "ロスコ風の絵画をデザインする",
+        "intro": [
+          "すべてのHTML要素は独自のボックスで、独自の余白とボーダーがあります。これをボックスモデルと呼びます。",
+          "このワークショップでは、CSSとボックスモデルを使ってロスコ風の長方形アートを作成します。"
+        ]
+      },
+      "lab-confidential-email-page": {
+        "title": "機密メールページを作成する",
+        "intro": [
+          "このラボでは、HTMLでウェブページを作成し、CSSのプロパティで内容をマスクします。"
+        ]
+      },
+      "lecture-working-with-css-flexbox": {
+        "title": "CSS Flexboxの使い方",
+        "intro": [
+          "この講義では、CSS Flexboxの仕組み、プロパティ、使うべき場面を学びます。"
+        ]
+      },
+      "workshop-flexbox-photo-gallery": {
+        "title": "Flexboxで写真ギャラリーを作成する",
+        "intro": [
+          "このワークショップでは、Flexboxを使ってレスポンシブな写真ギャラリーのウェブページを作成します。"
+        ]
+      },
+      "lab-page-of-playing-cards-v2": {
+        "title": "トランプのページを作成する",
+        "intro": [
+          "このラボでは、Flexboxを使ってトランプのウェブページを作成します。",
+          "<code>flex-direction</code>、<code>justify-content</code>、<code>align-self</code>などのFlexboxプロパティを使って要素の配置を練習します。"
+        ]
+      },
+      "workshop-nutritional-label": {
+        "title": "栄養成分表示ラベルを作成する",
+        "intro": [
+          "タイポグラフィは、テキストを読みやすく目的に合ったスタイルにする技術です。",
+          "このワークショップでは、タイポグラフィを使って栄養成分表示ラベルのウェブページを作成します。テキストのスタイル設定、行間調整、位置調整をCSSで練習します。"
+        ]
+      },
+      "lab-newspaper-article": {
+        "title": "新聞記事を作成する",
+        "intro": [
+          "このラボでは、HTMLとCSSを使って新聞記事ページを作成します。",
+          "<code>font-family</code>、<code>font-size</code>、<code>font-weight</code>などのプロパティでフォントをスタイル設定します。"
+        ]
+      },
+      "lecture-understanding-positioning-in-css": {
+        "title": "CSSの位置指定の理解",
+        "intro": [
+          "この講義では、CSSの位置指定の使い方を学びます。<code>absolute</code>、<code>relative</code>、<code>fixed</code>、<code>sticky</code>の位置指定と、<code>z-index</code>プロパティを使います。"
+        ]
+      },
+      "workshop-cat-painting": {
+        "title": "猫の絵画を作成する",
+        "intro": [
+          "CSSの位置指定をマスターすることは、見た目が良くレスポンシブなウェブレイアウトを作るために重要です。",
+          "このワークショップでは、猫の絵画を作成します。絶対位置指定、<code>z-index</code>、<code>transform</code>プロパティの使い方を学びます。"
+        ]
+      },
+      "lab-house-painting": {
+        "title": "家の絵画を作成する",
+        "intro": [
+          "このラボでは、CSSを使って家の絵画を作成します。",
+          "<code>position</code>、<code>top</code>、<code>left</code>などのCSSプロパティで家の各要素をデザインし配置します。"
+        ]
+      },
+      "lecture-working-with-attribute-selectors-and-combinators": {
+        "title": "属性セレクターと結合子の使い方",
+        "intro": [
+          "この講義では、属性セレクターで要素を指定する方法と、結合子を使って他の要素との関係で要素を指定する方法を学びます。"
+        ]
+      },
+      "workshop-balance-sheet": {
+        "title": "貸借対照表を作成する",
+        "intro": [
+          "このワークショップでは、疑似セレクターを使って貸借対照表を作成します。マウスオーバー時に要素のスタイルを変えたり、他のイベントをウェブページで起動する方法を学びます。"
+        ]
+      },
+      "workshop-piano": {
+        "title": "ピアノをデザインする",
+        "intro": [
+          "レスポンシブデザインは、異なる画面サイズでのウェブページの見え方を指定します。",
+          "このワークショップでは、CSSとレスポンシブデザインを使ってピアノをコーディングします。メディアクエリと疑似セレクターも練習します。"
+        ]
+      },
+      "lab-technical-documentation-page-v2": {
+        "title": "技術ドキュメントページを作成する",
+        "intro": [
+          "このラボでは、トピックの説明や参照用の技術ドキュメントページを作成します。",
+          "レスポンシブデザインを作るためにメディアクエリも練習します。"
+        ]
+      },
+      "lecture-introduction-to-css-variables": {
+        "title": "CSS変数の紹介",
+        "intro": [
+          "この講義では、カスタムプロパティ（CSS変数）の定義と使い方を学びます。"
+        ]
+      },
+      "workshop-magazine": {
+        "title": "雑誌を作成する",
+        "intro": [
+          "CSS Gridは、ウェブページの行と列のデザインを制御できます。",
+          "このワークショップでは、雑誌記事を作成します。グリッドの行や列など、CSS Gridの使い方を練習します。"
         ]
       }
     }

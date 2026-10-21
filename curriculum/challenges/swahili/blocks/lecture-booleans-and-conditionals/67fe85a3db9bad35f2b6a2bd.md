@@ -11,7 +11,7 @@ Taarifa za masharti, au masharti, hukuruhusu kudhibiti mtiririko wa programu yak
 
 Lakini kabla hatujaingia katika yote hayo, hebu tuangalie vipengele vya msingi vya taarifa za masharti, kuanzia na opereta za kulinganisha. Opereta za kulinganisha ni opereta zinazokuruhusu kulinganisha thamani mbili au zaidi, na kurudisha thamani ya thamani ya kweli au siyo kweli.
 
-Katika funzo lililopita, ulijifunza kwamba thamani za kweli au siyo kweli ni mojawapo ya aina za data katika Python, na zinaweza kuwa tu `True` au `False`.
+Katika funzo lililopita, ulijifunza kwamba thamani za kweli au siyo kweli ni mojawapo ya aina za data katika Python na zinaweza kuwa tu `True` au `False`.
 
 ## Kutumia viongozi wa ulinganishaji
 
@@ -51,13 +51,13 @@ if condition:
 
 * Taarifa za `if` huanza na neno kuu la `if`.
     
-* `condition` ni usemi wa kihesabu unaotathmini kuwa `True` au `False`, ukifuatiwa na nukta mbili (`:`).
+* `condition` ni usemi wa kihesabu unaofuata na nukta mbili (`:`).
 
 * Mwili wa tamko la `if` unajumuisha <dfn>kundi la msimbo</dfn>, ambalo ni kundi la tamko zinazohusiana. Nafasi mwanzoni mwa mstari huitwa kivutio. Katika Python, kivutio kinaamua tamko zipi zinahusiana na kundi la msimbo.
     
 Katika mfano hapo juu, mwili wa taarifa ya `if` una taarifa ya `pass`. Wakati taarifa ya `pass` inatekelezwa, hakuna kinachotokea. Hili ni neno kuu maalum linaloweza kutumika kama kiwakilishi cha msimbo wa baadaye na ni muhimu wakati mabano ya msimbo tupu hayaruhusiwi.
 
-Msimbo ndani ya mwili wa taarifa ya `if` unatekelezwa tu wakati hali inapotathminiwa kuwa `True`. Kwa mfano:
+Msimbo ndani ya mwili wa tamko la `if` unaendeshwa tu wakati Python inachukulia hali hiyo kuwa kweli. Mlinganisho unaoonyeshwa hapa hurudisha `True` au `False`. Katika funzo lijalo, utajifunza jinsi Python inavyoshughulikia thamani nyingine katika masharti. Kwa mfano:
 
 ```python
 age = 18
@@ -92,13 +92,13 @@ if age >= 18:
 
 ## Kuongeza kifungu cha `else`
 
-Lakini vipi ikiwa pia unataka kuchapisha kitu ikiwa `age` ni chini ya `18`? Hapo ndipo kifungu cha `else` kinapoingia. Kifungu cha `else` hufanya kazi wakati hali ya `if` ni si kweli. Hapa ni sintaksia ya taarifa ya `if…else`:
+Lakini vipi kama pia unataka kuchapisha kitu ikiwa `age` ni chini ya `18`? Hapo ndipo kifungu cha `else` kinapoingia. Kifungu cha `else` kinaendeshwa wakati hali ya `if` ni siyo kweli. Hapa ni sintaksia ya tamko la `if...else`:
 
 ```python
 if condition:
-   pass # Code to execute if condition is True
+    pass # Code to execute if condition is True
 else:
-   pass # Code to execute if condition is False
+    pass # Code to execute if condition is False
 ```
 
 Kwa mfano:
@@ -132,11 +132,11 @@ Hapa ni sintaksia:
 
 ```python
 if condition1:
-   pass # Code to execute if condition1 is True
+    pass # Code to execute if condition1 is True
 elif condition2:
-   pass # Code to execute if condition1 is False and condition2 is True
+    pass # Code to execute if condition1 is False and condition2 is True
 else:
-   pass # Code to execute if all conditions are False
+    pass # Code to execute if all conditions are False
 ```
 
 Kwa mfano:
@@ -171,7 +171,7 @@ else:
     print('You are a toddler or an infant') # You are a toddler or an infant
 ```
 
-Sasa unapoelewa jinsi viongozi wa ulinganishaji na vifungu vya masharti vinavyofanya kazi katika Python, unaweza kuanza kuandika programu zinazofanya maamuzi kulingana na mantiki na ingizo. Iwe unalinganisha thamani au unagawanya kupitia masharti mengi, zana hizi ni msingi wa kuandika msimbo unaojibadilisha kulingana na kifaa na unaofanya kazi kwa ufanisi.
+Sasa unapoelewa jinsi wapangaji wa kulinganisha na tamko za masharti zinavyofanya kazi katika Python, unaweza kuanza kuandika programu zinazofanya maamuzi kulingana na mantiki na ingizo. Iwe unalinganisha thamani au kupita katika masharti mengi, zana hizi ni msingi wa kuandika msimbo unaojibadilisha kulingana na kifaa.
 
 # --questions--
 
@@ -181,7 +181,7 @@ Opereta za kulinganisha hufanya nini?
 
 ## --answers--
 
-Fanya mahesabu ya kihesabu na thamani za boolean
+Fanya mahesabu ya kihesabu kwa kutumia thamani za kweli au siyo kweli.
 
 ### --feedback--
 

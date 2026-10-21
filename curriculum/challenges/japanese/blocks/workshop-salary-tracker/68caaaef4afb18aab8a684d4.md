@@ -9,7 +9,7 @@ dashedName: step-35
 
 新しいセッターをテストする時間です。ランダムな文字列や現在のレベル（`trainee`）などの無効な値を`charlie_brown.level`に代入して、コンソールに表示されるエラーメッセージを確認してください。
 
-終わったら、エラーを発生させる行を削除し、`charlie_brown.level`に文字列`junior`を代入してください。
+それができたら、エラーを発生させている行を削除し、`charlie_brown.level` に文字列の `junior` を設定してください。
 
 # --hints--
 

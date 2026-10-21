@@ -11,7 +11,7 @@ dashedName: how-do-conditional-statements-and-logical-operators-work
 
 لكن قبل أن ندخل في التفاصيل، دعنا نستعرض اللبنات الأساسية لجمل الشرط، بدءًا من معاملات المقارنة. معاملات المقارنة هي معاملات تتيح لك مقارنة قيمتين أو أكثر، وتُرجع قيمة منطقية.
 
-في درس سابق، تعلمت أن القيم المنطقية هي أحد أنواع البيانات في Python، ويمكن أن تكون فقط `True` أو `False`.
+في درس سابق، تعلمت أن القيم المنطقية هي أحد أنواع البيانات في Python ولا يمكن أن تكون إلا `True` أو `False`.
 
 ## استخدام عوامل المقارنة
 
@@ -51,13 +51,13 @@ if condition:
 
 * تبدأ جمل `if` بالكلمة المفتاحية `if`.
     
-* `condition` هو تعبير يُقيّم إلى `True` أو `False`، يتبعه نقطتان رأسيتان (`:`).
+* `condition` هو تعبير يتبعه نقطتان رأسيتان (`:`).
 
 * يحتوي جسم جملة `if` على <dfn>كتلة كود</dfn>، وهي مجموعة من العبارات التي تنتمي معًا. المسافات في بداية السطر تُسمى المسافة البادئة. في بايثون، تحدد المسافة البادئة العبارات التي تنتمي إلى كتلة الكود.
     
 في المثال أعلاه، يحتوي جسم جملة `if` على عبارة `pass`. عند تنفيذ عبارة `pass`، لا يحدث شيء. هذه كلمة مفتاحية خاصة يمكن استخدامها كعنصر نائب للكود المستقبلي، وهي مفيدة عندما لا يُسمح بكتل كود فارغة.
 
-الكود داخل جسم جملة `if` يُنفذ فقط عندما تُقيّم الحالة إلى `True`. على سبيل المثال:
+الكود داخل جسم جملة `if` يُنفذ فقط عندما تعتبر Python الشرط صحيحًا. المقارنات المعروضة هنا تُرجع `True` أو `False`. في الدرس التالي، ستتعلم كيف تتعامل Python مع قيم أخرى في الشروط. على سبيل المثال:
 
 ```python
 age = 18
@@ -92,13 +92,13 @@ if age >= 18:
 
 ## إضافة بند `else`
 
-لكن ماذا لو أردت أيضًا طباعة شيء ما إذا كانت قيمة `age` أقل من `18`؟ هنا يأتي دور بند `else`. بند `else` يُنفذ عندما يكون شرط `if` خاطئًا. إليك الصيغة النحوية لجملة `if…else`:
+لكن ماذا لو أردت أيضًا طباعة شيء ما إذا كان `age` أقل من `18`؟ هنا يأتي دور بند `else`. بند `else` يُنفذ عندما يكون شرط `if` خاطئًا. هذه صيغة جملة `if...else`:
 
 ```python
 if condition:
-   pass # Code to execute if condition is True
+    pass # Code to execute if condition is True
 else:
-   pass # Code to execute if condition is False
+    pass # Code to execute if condition is False
 ```
 
 على سبيل المثال:
@@ -132,11 +132,11 @@ else: # SyntaxError: invalid syntax
 
 ```python
 if condition1:
-   pass # Code to execute if condition1 is True
+    pass # Code to execute if condition1 is True
 elif condition2:
-   pass # Code to execute if condition1 is False and condition2 is True
+    pass # Code to execute if condition1 is False and condition2 is True
 else:
-   pass # Code to execute if all conditions are False
+    pass # Code to execute if all conditions are False
 ```
 
 على سبيل المثال:
@@ -171,7 +171,7 @@ else:
     print('You are a toddler or an infant') # You are a toddler or an infant
 ```
 
-الآن بعد أن فهمت كيف تعمل عوامل المقارنة وعبارات الشرط في Python، يمكنك البدء بكتابة برامج تتخذ قرارات بناءً على المنطق والمُدخَل. سواء كنت تقارن القيم أو تتفرع عبر شروط متعددة، هذه الأدوات هي الأساس لكتابة كود مرن ومتجاوب.
+الآن بعد أن فهمت كيف تعمل عوامل المقارنة وجمل الشرط في Python، يمكنك البدء بكتابة برامج تتخذ قرارات بناءً على المنطق والمُدخَل. سواء كنت تقارن القيم أو تتفرع عبر شروط متعددة، هذه الأدوات هي الأساس لكتابة كود مرن ومتجاوب.
 
 # --questions--
 
@@ -181,7 +181,7 @@ else:
 
 ## --answers--
 
-تنفيذ عمليات حسابية رياضية باستخدام القيم المنطقية
+تنفيذ عمليات حسابية رياضية باستخدام القيم المنطقية.
 
 ### --feedback--
 

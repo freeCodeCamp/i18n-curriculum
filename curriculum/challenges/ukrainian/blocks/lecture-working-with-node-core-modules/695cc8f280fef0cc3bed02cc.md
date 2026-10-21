@@ -7,9 +7,13 @@ dashedName: what-is-the-stream-module-and-how-does-it-work
 
 # --description--
 
+## Що таке модуль stream?
+
 Останній основний модуль Node.js, який ми розглянемо, — це `stream`. Цей модуль допомагає ефективно обробляти дані, особливо коли дані занадто великі, щоб завантажити їх одразу, наприклад, читання великого текстового файлу або скачування великого відео.
 
 Замість того, щоб чекати, поки всі дані будуть прочитані або записані, потоки обробляють частини даних по мірі їх надходження, подібно до того, як ви можете почати дивитися відео на YouTube, поки воно ще завантажується.
+
+## Типи потоків
 
 У Node.js є чотири основні типи потоків: readable, writable, duplex і transform:
 
@@ -24,9 +28,13 @@ dashedName: what-is-the-stream-module-and-how-does-it-work
 const { Readable, Writable, Transform } = require("stream");
 ```
 
+## Використання вбудованих файлових потоків
+
 Зазвичай вам не потрібно створювати кастомні класи потоків самостійно. Для повсякденних операцій з файлами вбудованих методів, таких як `fs.createReadStream()` і `fs.createWriteStream()`, зазвичай достатньо.
 
 Ці два методи приймають шлях до файлу для читання або запису. Це означає, що вам також потрібні модулі `fs` і `path` для реалізації потокової обробки у багатьох випадках.
+
+## Читання даних за допомогою readable-потоку
 
 Ось як можна прочитати дані з файлу, наприклад, `input.txt` файлу:
 
@@ -65,6 +73,8 @@ Received data: <Buffer 4c 6f 72 65 6d 20 69 70 73 75 6d
 */
 ```
 
+## Конвертація буферів у текст
+
 Оскільки повертається буфер, можна викликати метод `toString()`, щоб перетворити його у читабельний текст:
 
 ```js
@@ -93,6 +103,8 @@ eaque doloribus assumenda, minima fuga tempore, porro, debitis rem harum in
 */
 ```
 
+## Запис даних за допомогою writable-потоку
+
 Щоб реалізувати writable потік, особливо коли ви читаєте з одного файлу і записуєте в інший, потрібно спочатку створити readable потік, а потім writable потік:
 
 ```js
@@ -108,6 +120,8 @@ const readInputFileStream = fs.createReadStream(inputFilePath);
 // Create the write stream
 const writeOutputFileStream = fs.createWriteStream(outputFilePath);
 ```
+
+## З’єднання потоків за допомогою `pipe()`
 
 Далі використайте метод `.pipe()`, щоб з’єднати readable потік із writable потоком. Це дозволяє Node.js автоматично читати дані з джерела і записувати їх у призначення частинами:
 
@@ -127,6 +141,8 @@ const writeOutputFileStream = fs.createWriteStream(outputFilePath);
 // Pipe the read stream to the write stream
 readInputFileStream.pipe(writeOutputFileStream);
 ```
+
+## Обробка подій `finish` та `error`
 
 Потім можна слухати події `finish` і `error` на writable потоці, щоб знати, коли потокова передача завершена або якщо сталася помилка:
 
@@ -164,7 +180,7 @@ writeOutputFileStream.on("error", (err) => {
 
 ## --answers--
 
-Request, Response, Event, and Error streams.
+Потоки Request, Response, Event і Error.
 
 ### --feedback--
 
@@ -172,7 +188,7 @@ Request, Response, Event, and Error streams.
 
 ---
 
-Readable, Editable, Duplex, and Transform streams.
+Потоки Readable, Editable, Duplex і Transform.
 
 ### --feedback--
 
@@ -180,7 +196,7 @@ Readable, Editable, Duplex, and Transform streams.
 
 ---
 
-Data, File, HTTP, and Buffer streams.
+Потоки Data, File, HTTP і Buffer.
 
 ### --feedback--
 
@@ -188,7 +204,7 @@ Data, File, HTTP, and Buffer streams.
 
 ---
 
-Readable, Writable, Duplex, and Transform streams.
+Потоки Readable, Writable, Duplex і Transform.
 
 ## --video-solution--
 
@@ -200,11 +216,11 @@ Readable, Writable, Duplex, and Transform streams.
 
 ## --answers--
 
-The `stream` module using Readable and Writable classes.
+Модуль `stream` із використанням класів Readable і Writable.
 
 ---
 
-The `http` module.
+Модуль `http`.
 
 ### --feedback--
 
@@ -212,7 +228,7 @@ The `http` module.
 
 ---
 
-The `fs` module using `createReadStream()` and `createWriteStream()`.
+Модуль `fs` із використанням `createReadStream()` і `createWriteStream()`.
 
 ### --feedback--
 
@@ -220,7 +236,7 @@ The `fs` module using `createReadStream()` and `createWriteStream()`.
 
 ---
 
-The events module.
+Модуль подій.
 
 ### --feedback--
 
@@ -236,7 +252,7 @@ The events module.
 
 ## --answers--
 
-`end` and `close`.
+`end` і `close`.
 
 ### --feedback--
 
@@ -244,11 +260,11 @@ The events module.
 
 ---
 
-`finish` and `error`.
+`finish` і `error`.
 
 ---
 
-`start` and `stop`.
+`start` і `stop`.
 
 ### --feedback--
 
@@ -256,7 +272,7 @@ The events module.
 
 ---
 
-`done` and `fail`.
+`done` і `fail`.
 
 ### --feedback--
 

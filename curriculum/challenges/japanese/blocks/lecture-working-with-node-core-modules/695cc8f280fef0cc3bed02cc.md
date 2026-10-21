@@ -7,9 +7,13 @@ dashedName: what-is-the-stream-module-and-how-does-it-work
 
 # --description--
 
+## Streamモジュールとは何ですか？
+
 最後に見ていくNode.jsのコアモジュールは`stream`です。このモジュールは、特に大きなテキストファイルを読む場合や大容量の動画をダウンロードする場合のように、一度にすべてのデータを読み込むには大きすぎるデータを効率的に扱うのに役立ちます。
 
 すべてのデータを読み書きし終わるのを待つのではなく、ストリームはデータのチャンクを受け取るたびに処理します。これは、YouTubeの動画が完全に読み込まれる前に視聴を始められるのと似ています。
+
+## ストリームの種類
 
 Node.jsには4つの主なストリームタイプがあります：読み取り可能、書き込み可能、デュプレックス、そしてトランスフォームです。
 
@@ -24,9 +28,13 @@ Node.jsには4つの主なストリームタイプがあります：読み取り
 const { Readable, Writable, Transform } = require("stream");
 ```
 
+## 組み込みのファイルストリームの使用
+
 ほとんどの場合、カスタムのストリームクラスを自分で作成する必要はありません。日常的なファイル操作には、`fs.createReadStream()`や`fs.createWriteStream()`のような組み込みメソッドで十分です。
 
 これら2つのメソッドは読み書きするファイルのパスを受け取ります。つまり、多くの場合ストリーミングを実装するには`fs`と`path`のモジュールも必要です。
+
+## 読み取り可能なストリームでデータを読む
 
 例えば、`input.txt`ファイルからデータを読み取る方法は次の通りです。
 
@@ -65,6 +73,8 @@ Received data: <Buffer 4c 6f 72 65 6d 20 69 70 73 75 6d
 */
 ```
 
+## バッファをテキストに変換する
+
 これはバッファを返すので、`toString()`メソッドを呼び出して読みやすいテキストに変換できます。
 
 ```js
@@ -93,6 +103,8 @@ eaque doloribus assumenda, minima fuga tempore, porro, debitis rem harum in
 */
 ```
 
+## 書き込み可能なストリームでデータを書く
+
 書き込み可能ストリームを実装するには、特に1つのファイルから読み取り別のファイルに書き込む場合、まず読み取りストリームを作成し、その後に書き込みストリームを作成します。
 
 ```js
@@ -108,6 +120,8 @@ const readInputFileStream = fs.createReadStream(inputFilePath);
 // Create the write stream
 const writeOutputFileStream = fs.createWriteStream(outputFilePath);
 ```
+
+## `pipe()`でストリームを接続する
 
 次に、`.pipe()`メソッドを使って読み取りストリームを書き込みストリームに接続します。これにより、Node.jsは自動的にソースからデータを読み取り、チャンク単位で宛先に書き込みます。
 
@@ -127,6 +141,8 @@ const writeOutputFileStream = fs.createWriteStream(outputFilePath);
 // Pipe the read stream to the write stream
 readInputFileStream.pipe(writeOutputFileStream);
 ```
+
+## `finish` と `error` イベントの処理
 
 そして、書き込みストリームで`finish`と`error`イベントを監視して、ストリーミングが完了したか、何か問題が起きたかを知ることができます。
 

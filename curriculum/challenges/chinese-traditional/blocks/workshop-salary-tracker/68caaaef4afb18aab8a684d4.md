@@ -9,7 +9,7 @@ dashedName: step-35
 
 是時候測試你的新設值函式了。嘗試為 `charlie_brown.level` 指定無效的值，例如隨機字串或目前的層次（`trainee`），並在主控台中查看錯誤訊息。
 
-完成後，移除引發錯誤的列，並將 `charlie_brown.level` 設定為字串 `junior`。
+完成後，移除引發錯誤的程式碼行，並將 `charlie_brown.level` 設為字串 `junior`。
 
 # --hints--
 
