@@ -3,6 +3,7 @@ id: 69dd63d1dcdeccb7b39ba4c3
 title: Jenga chombo cha ukaguzi wa makosa ya maandishi
 challengeType: 26
 dashedName: build-a-proofreading-tool
+saveSubmissionToDB: true
 ---
 
 # --description--
@@ -13,7 +14,7 @@ Palindrome ni neno linalosomwa sawa mbele na nyuma. Kwa mfano, `"racecar"` na `"
 
 Usemi ni mfululizo wa maneno yanayofuata mfululizo. Kwa mfano, katika `["the", "cat", "sat", "the", "cat"]`, usemi `"the cat"` (mfululizo wa maneno 2) unaonekana katika nafasi za 0 na 3.
 
-**Lengo:** Timiza hadithi za watumizi zilizo hapa chini na upite mitihani yote ili kumaliza maabara hii.
+**Lengo:** Timiza hadithi za watumizi zilizo hapa chini na upite vipimo vyote ili kumaliza maabara.
 
 **Hadithi za watumizi:**
 

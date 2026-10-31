@@ -1587,7 +1587,7 @@
         "title": "Python 基础复习",
         "intro": [
           "在进行 Python 基础测验前，你应该复习所学内容。",
-          "在此复习页面中，你将复习字串、函数、比较操作符等内容。"
+          "在此复习页面中，你将复习如何处理字串、函数、比较操作符等内容。"
         ]
       },
       "quiz-python-basics": {
@@ -1626,7 +1626,7 @@
         "title": "循环和序列复习",
         "intro": [
           "在进行循环和序列测验前，你应该复习所学内容。",
-          "打开此页面，复习循环、列表、元组及它们的一些常用方法的相关概念。"
+          "打开此页面，复习循环、列表、元组及它们的一些常用方法的概念。"
         ]
       },
       "quiz-loops-and-sequences": {
@@ -1756,7 +1756,7 @@
         "title": "类和对象复习",
         "intro": [
           "在进行类和对象测验前，你应该复习所学内容。",
-          "打开此页面复习类的工作原理、对象、方法、属性、特殊方法等概念。"
+          "打开此页面，复习类的工作原理、对象是什么、方法、属性、特殊方法等概念。"
         ]
       },
       "quiz-classes-and-objects": {
@@ -1780,7 +1780,7 @@
       "lecture-understanding-object-oriented-programming-and-encapsulation": {
         "title": "理解面向对象编程和封装",
         "intro": [
-          "通过这些课程学习面向对象编程和封装的理解。"
+          "在这些课程中，学习类和对象，封装的工作原理，以及如何使用 getter 和 setter 访问和验证属性。"
         ]
       },
       "workshop-salary-tracker": {
@@ -1798,7 +1798,7 @@
       "lecture-understanding-inheritance-and-polymorphism": {
         "title": "理解继承和多态",
         "intro": [
-          "通过这些课程学习继承和多态的理解。"
+          "在这些课程中，学习继承和多态如何促进代码复用，以及 Python 中名称重整的工作原理。"
         ]
       },
       "workshop-media-catalogue": {
@@ -6576,7 +6576,7 @@
         "title": "Python 基础复习",
         "intro": [
           "在进行 Python 基础测验之前，你应该复习所学内容。",
-          "在此复习页面中，你将复习字符串、函数、比较操作符等内容。"
+          "在此复习页面中，你将复习如何处理字串、函数、比较操作符等内容。"
         ]
       },
       "quiz-python-basics": {
@@ -6623,7 +6623,7 @@
         "title": "循环和序列复习",
         "intro": [
           "在进行循环和序列测验之前，你应该复习所学内容。",
-          "打开此页面，复习循环、列表、元组及其常用方法的相关概念。"
+          "打开此页面，复习循环、列表、元组及它们的一些常用方法的概念。"
         ]
       },
       "quiz-loops-and-sequences": {
@@ -6717,7 +6717,7 @@
         "title": "类和对象复习",
         "intro": [
           "在进行类和对象测验之前，你应该复习所学内容。",
-          "打开此页面，复习类的工作原理、对象、方法、属性、特殊方法等概念。"
+          "打开此页面，复习类的工作原理、对象是什么、方法、属性、特殊方法等概念。"
         ]
       },
       "quiz-classes-and-objects": {
@@ -6735,7 +6735,7 @@
       "lecture-understanding-object-oriented-programming-and-encapsulation": {
         "title": "理解面向对象编程和封装",
         "intro": [
-          "在这些课程中，学习理解面向对象编程和封装。"
+          "在这些课程中，学习类和对象，封装的工作原理，以及如何使用 getter 和 setter 访问和验证属性。"
         ]
       },
       "workshop-salary-tracker": {
@@ -6753,7 +6753,7 @@
       "lecture-understanding-inheritance-and-polymorphism": {
         "title": "理解继承和多态",
         "intro": [
-          "在这些课程中，学习理解继承和多态。"
+          "在这些课程中，学习继承和多态如何促进代码复用，以及 Python 中名称重整的工作原理。"
         ]
       },
       "workshop-media-catalogue": {
@@ -8445,7 +8445,7 @@
         ]
       },
       "review-css-backgrounds-and-borders": {
-        "title": "列表、链接、CSS背景和边框复习",
+        "title": "列表、链接、背景和边框复习",
         "intro": [
           "在接受CSS背景和边框测验前，你需要先复习。",
           "打开此页面复习包括<code>background-image</code>属性、<code>border</code>属性等概念。"
@@ -9701,7 +9701,7 @@
         ]
       },
       "review-css-backgrounds-and-borders": {
-        "title": "列表、链接、CSS 背景和边框复习",
+        "title": "列表、链接、背景和边框复习",
         "intro": [
           "在接受 CSS 背景和边框测验之前，你需要先复习。",
           "打开此页面复习包括<code>background-image</code>属性、<code>border</code>属性等概念。"
@@ -10454,7 +10454,6 @@
     },
     "modules": {
       "python-basics": "Python 基础",
-      "python-installation": "安装 Python",
       "python-loops-and-sequences": "循环和序列",
       "python-dictionaries-and-sets": "字典和集合",
       "lab-user-configuration-manager": "创建用户配置管理器",
@@ -10570,31 +10569,13 @@
         "title": "Python 基础复习",
         "intro": [
           "在进行 Python 基础测验前，你应该复习已学内容。",
-          "在此复习页面中，你将复习字串、函数、比较操作符等内容。"
+          "在此复习页面中，你将复习如何处理字串、函数、比较操作符等内容。"
         ]
       },
       "quiz-python-basics": {
         "title": "Python 基础测验",
         "intro": [
           "通过此测验测试你对 Python 基础的掌握。"
-        ]
-      },
-      "lecture-python-installation": {
-        "title": "安装 Python 并在本地运行代码",
-        "intro": [
-          "在这些课程中，你将学习如何在本地设备安装 Python 并运行代码。"
-        ]
-      },
-      "review-python-installation": {
-        "title": "Python 安装复习",
-        "intro": [
-          "在进行本地 Python 操作测验前，你应该复习课程中涵盖的概念。"
-        ]
-      },
-      "quiz-python-installation": {
-        "title": "Python 安装测验",
-        "intro": [
-          "通过此测验测试你对本地安装 Python 的掌握。"
         ]
       },
       "lecture-working-with-loops-and-sequences": {
@@ -10617,7 +10598,7 @@
         "title": "循环和序列复习",
         "intro": [
           "在进行循环和序列测验前，你应该复习已学内容。",
-          "打开此页面复习循环、列表、元组及其常用方法的相关概念。"
+          "打开此页面，复习循环、列表、元组及它们的一些常用方法的概念。"
         ]
       },
       "quiz-loops-and-sequences": {
@@ -10711,7 +10692,7 @@
         "title": "类和对象复习",
         "intro": [
           "在进行类和对象测验之前，你应该复习相关内容。",
-          "打开此页面复习类的工作原理、对象、方法、属性、特殊方法等概念。"
+          "打开此页面，复习类的工作原理、对象是什么、方法、属性、特殊方法等概念。"
         ]
       },
       "quiz-classes-and-objects": {
@@ -10729,7 +10710,7 @@
       "lecture-understanding-object-oriented-programming-and-encapsulation": {
         "title": "理解面向对象编程和封装",
         "intro": [
-          "在这些课程中学习理解面向对象编程和封装。"
+          "在这些课程中，学习类和对象，封装的工作原理，以及如何使用 getter 和 setter 访问和验证属性。"
         ]
       },
       "workshop-salary-tracker": {
@@ -10747,7 +10728,7 @@
       "lecture-understanding-inheritance-and-polymorphism": {
         "title": "理解继承和多态",
         "intro": [
-          "在这些课程中学习理解继承和多态。"
+          "在这些课程中，学习继承和多态如何促进代码复用，以及 Python 中名称重整的工作原理。"
         ]
       },
       "workshop-media-catalogue": {
@@ -10852,6 +10833,12 @@
           "在这些课程中，你将学习算法是什么，如何用大 O 记法分析算法，以及解决算法问题的有效技巧。"
         ]
       },
+      "lab-stock-profit-calculator": {
+        "title": "创建股票利润计算器",
+        "intro": [
+          "在此实验中，你将使用线性时间算法找到单笔股票交易的最佳利润。"
+        ]
+      },
       "lecture-searching-and-sorting-algorithms-v2": {
         "title": "查找和排序算法",
         "intro": [
@@ -10865,10 +10852,22 @@
           "在本工作坊中，你将实现二分查找算法，并返回找到目标的路径，或返回“未找到值”。"
         ]
       },
+      "lab-bubble-sort": {
+        "title": "实现冒泡排序算法",
+        "intro": [
+          "在此实验中，你将用 Python 实现冒泡排序算法。"
+        ]
+      },
       "lab-selection-sort": {
         "title": "实现选择排序算法",
         "intro": [
           "在本实验中，你将实现选择排序算法。"
+        ]
+      },
+      "lab-insertion-sort-py": {
+        "title": "实现插入排序算法",
+        "intro": [
+          "在此实验中，你将用 Python 实现插入排序算法。"
         ]
       },
       "review-python-algorithms": {
@@ -10899,6 +10898,30 @@
         "title": "创建链表",
         "intro": [
           "在本工作坊中，你将通过创建链表来练习使用数据结构。"
+        ]
+      },
+      "lab-linked-list-operations-python": {
+        "title": "实现链表操作",
+        "intro": [
+          "在此实验中，你将扩展链表类，添加按索引查找、访问、插入和删除元素的方法。"
+        ]
+      },
+      "lab-doubly-linked-list": {
+        "title": "创建双向链表",
+        "intro": [
+          "在此实验中，你将创建一个双向链表，每个节点都保存对列表中前后节点的引用。"
+        ]
+      },
+      "lab-build-a-stack": {
+        "title": "创建栈",
+        "intro": [
+          "在此实验中，你将用函数实现栈的推入、弹出和查看元素操作。"
+        ]
+      },
+      "lab-queue-python": {
+        "title": "创建队列",
+        "intro": [
+          "在此实验中，你将创建一个遵循先进先出原则的队列类。"
         ]
       },
       "review-linear-data-structures": {
@@ -10999,6 +11022,12 @@
           "在本实验中，你将实现一个函数，将图的邻接列表表现转换为邻接矩阵表现。"
         ]
       },
+      "lab-incidence-matrix": {
+        "title": "创建关联矩阵",
+        "intro": [
+          "在此实验中，你将创建一个函数，将有向图的边列表转换为关联矩阵。"
+        ]
+      },
       "lab-depth-first-search": {
         "title": "实现深度优先搜索算法",
         "intro": [
@@ -11021,6 +11050,12 @@
         "title": "理解树和字典树",
         "intro": [
           "在本课中，你将学习树和字典树是什么以及它们的工作原理。"
+        ]
+      },
+      "workshop-binary-search-tree": {
+        "title": "创建二叉搜索树",
+        "intro": [
+          "在此工作坊中，你将创建二叉搜索树，学习如何插入、查找、删除值，并用中序遍历遍历它。"
         ]
       },
       "lecture-understanding-priority-queues-and-heaps": {
@@ -11095,7 +11130,8 @@
     },
     "modules": {
       "html": "HTML",
-      "css": "CSS"
+      "css": "CSS",
+      "javascript": "JavaScript"
     },
     "blocks": {
       "workshop-curriculum-outline": {
@@ -11249,8 +11285,7 @@
       "workshop-greeting-card": {
         "title": "设计贺卡",
         "intro": [
-          "在之前的讲座中，你学习了如何使用不同类型的伪类。",
-          "在本工作坊中，你将通过设计贺卡来练习所学内容。"
+          "在此工作坊中，你将通过设计贺卡练习伪类的使用。"
         ]
       },
       "lab-tribute-page": {
@@ -11292,7 +11327,7 @@
       "workshop-rothko-painting": {
         "title": "设计罗斯科风格画作",
         "intro": [
-          "每个 HTML 元素都是一个独立的盒子，拥有自己的间距和边框，这就是盒模型。",
+          "每个 HTML 元素都是一个独立的盒子，拥有自己的间距和边框，这称为盒模型。",
           "在本工作坊中，你将使用 CSS 和盒模型创建自己的罗斯科风格矩形艺术作品。"
         ]
       },
@@ -11364,14 +11399,14 @@
       "workshop-balance-sheet": {
         "title": "制作资产负债表",
         "intro": [
-          "在本工作坊中，你将使用伪选择器制作资产负债表。你将学习如何在鼠标悬停时更改元素样式，并触发网页上的其他事件。"
+          "在此工作坊中，你将使用伪选择器创建资产负债表。你将学习如何在鼠标悬停时改变元素样式，并触发网页上的其他事件。"
         ]
       },
       "workshop-piano": {
         "title": "设计钢琴",
         "intro": [
           "响应式设计告诉你的网页在不同尺寸的屏幕上应该如何显示。",
-          "在本工作坊中，你将使用 CSS 和响应式设计编码钢琴。你还将练习媒体查询和伪选择器。"
+          "在此工作坊中，你将使用 CSS 和响应式设计编写钢琴代码，同时练习媒体查询和伪选择器。"
         ]
       },
       "lab-technical-documentation-page-v2": {
@@ -11387,11 +11422,346 @@
           "在本讲座中，你将学习如何定义和使用自定义属性（也称为 CSS 变量）。"
         ]
       },
+      "lecture-working-with-css-grid": {
+        "title": "使用 CSS 网格",
+        "intro": [
+          "在这些课程中，你将学习 CSS 网格及其多个属性的用法，以及 CSS 网格与 flexbox 的区别。"
+        ]
+      },
       "workshop-magazine": {
         "title": "制作杂志",
         "intro": [
           "CSS 网格让你控制网页设计的行和列。",
           "在本工作坊中，你将制作一篇杂志文章。你将练习如何使用 CSS 网格，包括网格行和网格列等概念。"
+        ]
+      },
+      "review-css-v2": {
+        "title": "CSS 复习",
+        "intro": [
+          "在参加 CSS 测验前，你需要先复习之前模块中教授的概念。",
+          "打开此页面，复习你所学的 CSS 概念。"
+        ]
+      },
+      "quiz-css": {
+        "title": "CSS 测验",
+        "intro": [
+          "以下测验将测试你迄今为止所学的 CSS 概念知识。"
+        ]
+      },
+      "lecture-introduction-to-javascript-v2": {
+        "title": "JavaScript 入门",
+        "intro": [
+          "在这些课程中，你将学习 JavaScript 的基础知识。涵盖的主题包括但不限于变量、数据类型、JavaScript 与 HTML 和 CSS 的交互、字串等。"
+        ]
+      },
+      "workshop-greeting-bot": {
+        "title": "创建问候机器人",
+        "intro": [
+          "在此工作坊中，你将通过创建问候机器人学习 JavaScript 基础。",
+          "你将学习变量、<code>let</code>、<code>const</code>、<code>console.log</code> 和基本的字串用法。"
+        ]
+      },
+      "lecture-working-with-strings": {
+        "title": "处理字串",
+        "intro": [
+          "在本课程中，你将学习如何使用模板字面值、插入变量和表达式，以及创建多行字串。"
+        ]
+      },
+      "workshop-teacher-chatbot": {
+        "title": "创建教师聊天机器人",
+        "intro": [
+          "在此工作坊中，你将通过创建聊天机器人继续学习 JavaScript 字串。",
+          "你将学习如何使用模板字面值和 <code>indexOf</code> 方法。"
+        ]
+      },
+      "lecture-working-with-data-types-v2": {
+        "title": "处理数据类型",
+        "intro": [
+          "在接下来的课程中，你将学习 JavaScript 中的数据类型和 <code>typeof</code> 操作符。"
+        ]
+      },
+      "workshop-string-inspector": {
+        "title": "创建字串检查器",
+        "intro": [
+          "在此工作坊中，你将通过创建字串检查器练习使用 <code>includes()</code> 和 <code>slice()</code> 方法。"
+        ]
+      },
+      "workshop-string-formatter": {
+        "title": "创建字串格式化器",
+        "intro": [
+          "在此工作坊中，你将练习使用多种字串方法，包括 <code>trim()</code>、<code>toUpperCase()</code> 和 <code>toLowerCase()</code>。"
+        ]
+      },
+      "workshop-string-transformer": {
+        "title": "创建字串转换器",
+        "intro": [
+          "在此工作坊中，你将练习使用 <code>replace()</code>、<code>replaceAll()</code> 和 <code>repeat()</code> 方法。"
+        ]
+      },
+      "lecture-working-with-conditional-logic": {
+        "title": "处理条件逻辑",
+        "intro": [
+          "在这些课程中，你将学习条件语句、二元逻辑操作符和 <code>switch</code> 语句。"
+        ]
+      },
+      "workshop-logic-checker-app": {
+        "title": "创建逻辑检查应用",
+        "intro": [
+          "在此工作坊中，你将通过创建逻辑检查应用练习条件语句和比较操作符。"
+        ]
+      },
+      "lecture-working-with-the-math-object": {
+        "title": "使用 Math 对象",
+        "intro": [
+          "在这些课程中，你将学习如何使用 JavaScript 中的 Math 对象，了解不同的 Math 方法及其用法。"
+        ]
+      },
+      "workshop-mathbot": {
+        "title": "创建数学机器人",
+        "intro": [
+          "在此工作坊中，你将通过创建数学机器人复习如何使用不同的 Math 方法。"
+        ]
+      },
+      "lab-fortune-teller": {
+        "title": "创建算命师",
+        "intro": [
+          "在此实验中，你将通过从可用的运势中随机选择一个来创建算命师。",
+          "你将练习如何使用 <code>Math.random()</code> 和 <code>Math.floor()</code> 方法生成随机数。"
+        ]
+      },
+      "lecture-working-with-numbers-and-common-number-methods": {
+        "title": "处理数字和常用数字方法",
+        "intro": [
+          "在这些讲座中，你将学习数字和常用的数字方法。这些包括 <code>isNaN()</code>、<code>parseInt()</code>、<code>parseFloat()</code> 和 <code>toFixed()</code>。"
+        ]
+      },
+      "lecture-working-with-functions": {
+        "title": "函数操作",
+        "intro": [
+          "在这些讲座中，你将学习如何通过函数重用一段代码。你将了解函数的目的及其工作原理，以及编程中的作用域如何运作。"
+        ]
+      },
+      "workshop-calculator": {
+        "title": "创建计算器",
+        "intro": [
+          "在这个工作坊中，你将通过创建计算器来复习函数的知识。"
+        ]
+      },
+      "lab-email-masker": {
+        "title": "创建邮箱遮罩器",
+        "intro": [
+          "在这个实验中，你将创建一个邮箱遮罩器，用来模糊邮箱地址。",
+          "你将练习字串切片、串接和使用函数。"
+        ]
+      },
+      "lecture-working-with-arrays-and-common-array-methods": {
+        "title": "数组操作及常用数组方法",
+        "intro": [
+          "在这些讲座中，你将学习如何操作 JavaScript 数组。你将了解数组的构成，如何访问和更新数组中的元素，以及更多内容。"
+        ]
+      },
+      "workshop-shopping-list": {
+        "title": "创建购物清单",
+        "intro": [
+          "在这个工作坊中，你将通过创建购物清单来练习数组操作。",
+          "你将复习如何使用 <code>push</code>、<code>pop</code>、<code>shift</code> 和 <code>unshift</code> 等方法添加和移除数组元素。"
+        ]
+      },
+      "lab-lunch-picker-program": {
+        "title": "创建午餐选择程序",
+        "intro": [
+          "在这个实验中，你将通过创建午餐选择程序来复习数组和随机数的使用。"
+        ]
+      },
+      "lecture-working-with-objects": {
+        "title": "JavaScript 对象及其属性简介",
+        "intro": [
+          "在这些讲座中，你将学习 JavaScript 对象的基础知识以及如何访问它们的属性。"
+        ]
+      },
+      "workshop-wildlife-tracker": {
+        "title": "创建野生动物追踪器",
+        "intro": [
+          "在这个工作坊中，你将使用 JavaScript 对象创建一个简单的野生动物追踪器。",
+          "你将练习创建对象、访问和更新属性、删除属性、检查属性是否存在，以及使用方括弧表示法。"
+        ]
+      },
+      "lecture-working-with-json": {
+        "title": "JSON 操作",
+        "intro": [
+          "在这些讲座中，你将学习 JavaScript 对象表示法（JSON），包括如何访问 JSON 数据以及使用 <code>JSON.parse()</code> 和 <code>JSON.stringify()</code> 方法。"
+        ]
+      },
+      "lecture-working-with-optional-chaining-and-object-destructuring": {
+        "title": "可选链和对象解构操作",
+        "intro": [
+          "在这些讲座中，你将学习 JavaScript 中的高级对象操作技巧，包括可选链操作符和对象解构语法。"
+        ]
+      },
+      "workshop-recipe-tracker": {
+        "title": "创建食谱追踪器",
+        "intro": [
+          "在这个工作坊中，你将通过创建食谱追踪器来复习 JavaScript 对象的使用。"
+        ]
+      },
+      "lab-quiz-game": {
+        "title": "创建测验游戏",
+        "intro": [
+          "在这个实验中，你将使用 JavaScript 数组和对象创建一个测验游戏。",
+          "你还将练习使用函数从数组中随机选择问题和答案并进行比较。"
+        ]
+      },
+      "lecture-working-with-loops": {
+        "title": "循环操作",
+        "intro": [
+          "循环是 JavaScript 的重要组成部分。为此，我们为你准备了以下讲座，介绍不同类型的循环及其工作原理，以及迭代的概念。"
+        ]
+      },
+      "workshop-word-counter": {
+        "title": "创建字数统计器",
+        "intro": [
+          "在这个工作坊中，你将通过创建一个函数，使用 <code>for...of</code> 循环统计数组中字串的出现次数。"
+        ]
+      },
+      "lab-profile-lookup": {
+        "title": "创建资料查询器",
+        "intro": [
+          "在这个实验中，你将创建一个函数来查询资料信息。"
+        ]
+      },
+      "workshop-campus-directory-normalizer": {
+        "title": "创建校园目录规范化工具",
+        "intro": [
+          "在这个工作坊中，你将把嵌套的数据规范化为独立且易用的查找表。"
+        ]
+      },
+      "lab-proofreading-tool-v2": {
+        "title": "创建校对工具",
+        "intro": [
+          "在这个认证项目中，你将创建一个校对工具，用于分析字串数组中的回文和重复短语。",
+          "你将练习使用循环和嵌套循环来检查回文并查找重复的字串序列。"
+        ]
+      },
+      "lecture-working-with-higher-order-functions-and-callbacks": {
+        "title": "高阶函数和回调操作",
+        "intro": [
+          "在这些讲座中，你将学习如何使用高阶函数和回调。你将学习的高阶函数包括 <code>map()</code>、<code>filter()</code>、<code>reduce()</code>、<code>sort()</code>、<code>every()</code> 和 <code>some()</code>。你还将学习如何将这些方法链式调用以实现所需结果。"
+        ]
+      },
+      "workshop-library-manager": {
+        "title": "创建图书馆管理器",
+        "intro": [
+          "在这个工作坊中，你将通过创建图书馆管理器来学习高阶数组方法。"
+        ]
+      },
+      "lab-book-organizer": {
+        "title": "创建图书整理器",
+        "intro": [
+          "在这个实验中，你将使用 JavaScript 的高阶函数创建一个图书整理器。"
+        ]
+      },
+      "lecture-introduction-to-the-dom": {
+        "title": "DOM 简介",
+        "intro": [
+          "在这些讲座中，你将学习文档对象模型（DOM）以及如何使用 JavaScript 与其交互。"
+        ]
+      },
+      "workshop-storytelling-app": {
+        "title": "创建故事讲述应用",
+        "intro": [
+          "在这个工作坊中，你将创建一个故事讲述应用，允许你根据类型列出不同的故事。"
+        ]
+      },
+      "workshop-emoji-reactor": {
+        "title": "创建表情符号反应器",
+        "intro": [
+          "在这个工作坊中，你将创建一个表情符号反应器，练习使用 <code>querySelector</code> 和 <code>querySelectorAll</code>。"
+        ]
+      },
+      "lab-favorite-icon-toggler": {
+        "title": "创建收藏图标切换器",
+        "intro": [
+          "在这个实验中，你将通过利用 JavaScript 点击事件创建一个收藏图标切换器。"
+        ]
+      },
+      "workshop-music-instrument-filter": {
+        "title": "创建乐器过滤器",
+        "intro": [
+          "在这个工作坊中，你将使用 JavaScript 创建一个乐器过滤器。"
+        ]
+      },
+      "lab-real-time-counter": {
+        "title": "创建实时计数器",
+        "intro": [
+          "在这个实验中，你将创建一个实时字符计数器。",
+          "你将练习如何在用户输入字段时处理 <code>input</code> 事件。"
+        ]
+      },
+      "lab-lightbox-viewer": {
+        "title": "创建灯箱查看器",
+        "intro": [
+          "在这个实验中，你将创建一个灯箱查看器，用于以聚焦模式查看图像。",
+          "你将练习点击事件和切换类。"
+        ]
+      },
+      "workshop-library-search": {
+        "title": "创建图书馆图书搜索",
+        "intro": [
+          "在这个工作坊中，你将练习如何优雅地处理 JavaScript 中的误差。",
+          "你将创建一个图书馆图书搜索应用，使用 <code>try...catch...finally</code> 块和 <code>throw</code> 语句捕获并管理自定义误差。"
+        ]
+      },
+      "lecture-working-with-regex": {
+        "title": "正则表达式操作",
+        "intro": [
+          "在这些讲座中，你将学习 JavaScript 中的正则表达式及其操作方法。"
+        ]
+      },
+      "workshop-spam-filter": {
+        "title": "创建垃圾邮件过滤器",
+        "intro": [
+          "正则表达式，简称“regex”或“regexp”，是帮助程序员匹配、查找和替换文本的模式。正则表达式功能强大，但由于使用了许多特殊字符，理解起来可能较难。",
+          "在这个工作坊中，你将使用捕捉组、正向预查、负向预查等技术来匹配任何你想要的文本。"
+        ]
+      },
+      "lecture-working-with-client-side-storage-and-crud-operations-v2": {
+        "title": "客户端存储和 CRUD 操作",
+        "intro": [
+          "在这些讲座中，你将学习 CRUD 操作，以及如何使用 <code>localStorage</code> 和 <code>sessionStorage</code> 存储、读取和删除数据。"
+        ]
+      },
+      "workshop-todo-app": {
+        "title": "使用本地存储创建待办事项应用",
+        "intro": [
+          "本地存储是浏览器功能，允许网页应用在用户浏览器中持久保存键值对。这使网页应用能在一次会话中保存数据，并在后续页面会话中读取。",
+          "在这个工作坊中，你将学习如何处理表单输入、管理本地存储、对任务执行 CRUD（创建、读取、更新、删除）操作、实现事件监听器和切换界面元素。"
+        ]
+      },
+      "lab-bookmark-manager-app": {
+        "title": "创建书签管理应用",
+        "intro": [
+          "在这个实验中，你将创建一个书签管理应用。",
+          "你将利用本地存储保存书签，并练习如何添加、删除和显示书签。"
+        ]
+      },
+      "lecture-understanding-asynchronous-programming-v2": {
+        "title": "理解异步编程",
+        "intro": [
+          "在这些讲座中，你将学习 JavaScript 中的异步编程。你将了解同步和异步编程的区别，<code>async</code> 关键字的工作原理，<code>Fetch</code> API、Promise、<code>async/await</code> 等内容。"
+        ]
+      },
+      "workshop-fcc-authors-page": {
+        "title": "构建 freeCodeCamp 作者页面",
+        "intro": [
+          "网页开发的一个常见方面是学习如何从外部 API 获取数据，然后使用异步的 JavaScript 处理这些数据。",
+          "在本工作坊中，你将练习如何使用 fetch 方法，动态更新 DOM 以显示获取的数据，并对数据进行分页，以便你可以批次装载结果。"
+        ]
+      },
+      "lab-weather-app-v2": {
+        "title": "构建天气应用",
+        "intro": [
+          "在此认证项目中，你将使用 API 构建一个天气应用。",
+          "你将练习如何从 API 获取数据，保存并在应用中显示这些数据。"
         ]
       }
     }

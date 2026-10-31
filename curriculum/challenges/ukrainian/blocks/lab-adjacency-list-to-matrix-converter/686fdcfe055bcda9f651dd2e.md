@@ -33,7 +33,7 @@ dashedName: build-an-adjacency-list-to-matrix-converter
 
 **Мета:** Виконайте наведені нижче історії користувача та пройдіть усі тести, щоб завершити лабораторну роботу.
 
-**Історії користувача:**
+**Історія користувача:**
 
 1. Ви повинні визначити функцію з іменем `adjacency_list_to_matrix`, яка конвертує список суміжності у матрицю суміжності.
 2. Функція має приймати словник, що представляє список суміжності неваженого (орієнтованого або неорієнтованого) графа, як свій параметр.
@@ -113,17 +113,18 @@ dashedName: build-an-adjacency-list-to-matrix-converter
         import io
         import sys
         
+        old_stdout = sys.stdout
         captured_output = io.StringIO()
         sys.stdout = captured_output
-        
-        adj_list = {0: [1], 1: []}
-        adjacency_list_to_matrix(adj_list)
-        
-        sys.stdout = sys.__stdout__
+        try:
+            adj_list = {0: [1], 1: []}
+            adjacency_list_to_matrix(adj_list)
+        finally:
+            sys.stdout = old_stdout
+            
         output = captured_output.getvalue()
         
-        assert "[0, 1]" in output
-        assert "[0, 0]" in output
+        assert output.splitlines() == ["[0, 1]", "[0, 0]"]
     `) 
 })
 ```

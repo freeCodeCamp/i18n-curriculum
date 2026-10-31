@@ -13,12 +13,12 @@ Python에서 반환 타입 힌트는 함수나 메서드가 반환할 것으로 
 
 ```py
 def example_method(self, value: int) -> bool:
-  pass
+    pass
 ```
 
 사용할 수 있는 다른 반환 타입 힌트로는 `str`, `None`, `float` 등이 있습니다.
 
-기존 `__init__` 메서드에 생성자는 값을 반환하지 않으므로 `None` 반환 타입 힌트를 추가하세요.
+기존 `__init__` 메서드에 반환 타입 힌트로 `None`을 추가하세요. `__init__` 메서드는 초기화 메서드이기 때문에 반환값이 반드시 `None`이어야 합니다.
 
 # --hints--
 

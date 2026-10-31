@@ -13,12 +13,12 @@ dashedName: step-4
 
 ```py
 def example_method(self, value: int) -> bool:
-  pass
+    pass
 ```
 
 你可能會使用的其他返回類型提示包括 `str`、`None`、`float` 等。
 
-在現有的 `__init__` 方法中，為返回類型添加 `None` 的提示，因為建構式不會傳回值。
+在現有的 `__init__` 方法中，添加返回型別提示為 `None`，因為 `__init__` 方法是初始化函式，其返回值必須是 `None`。
 
 # --hints--
 

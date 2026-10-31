@@ -52,7 +52,8 @@ console.log(path.basename(__filename)); // script.js
 `dirname()` повертає ім’я директорії шляху:
 
 ```js
-console.log(path.dirname(__dirname)); // node-path
+console.log(path.dirname(__dirname));
+// /Users/user/Desktop/fCC/script-code/node
 ```
 
 `extname()` повертає розширення поточного файлу:

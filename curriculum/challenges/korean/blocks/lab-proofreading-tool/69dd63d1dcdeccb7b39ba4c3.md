@@ -3,6 +3,7 @@ id: 69dd63d1dcdeccb7b39ba4c3
 title: 교정 도구 만들기
 challengeType: 26
 dashedName: build-a-proofreading-tool
+saveSubmissionToDB: true
 ---
 
 # --description--
@@ -13,7 +14,7 @@ dashedName: build-a-proofreading-tool
 
 구문은 연속된 단어들의 수열입니다. 예를 들어 `["the", "cat", "sat", "the", "cat"]`에서, `"the cat"` (2단어 수열) 구문이 위치 0과 3에 나타납니다.
 
-**목표:** 아래 사용자 스토리를 완성하고 모든 테스트를 통과하여 실습을 완료하세요.
+**목표:** 아래 사용자 스토리를 충족하고 모든 테스트를 통과하여 실습을 완료하세요.
 
 **사용자 스토리:**
 

@@ -1587,7 +1587,7 @@
         "title": "Revisión de fundamentos de Python",
         "intro": [
           "Antes de hacer el quiz sobre fundamentos de Python, deberías repasar lo que has aprendido.",
-          "En esta página de revisión, repasarás trabajar con cadenas, funciones, operadores de comparación y más."
+          "En esta página de revisión, repasarás cómo trabajar con cadenas, funciones, operadores de comparación y más."
         ]
       },
       "quiz-python-basics": {
@@ -1780,7 +1780,7 @@
       "lecture-understanding-object-oriented-programming-and-encapsulation": {
         "title": "Comprender la programación orientada a objetos y la encapsulación",
         "intro": [
-          "Aprende sobre programación orientada a objetos y encapsulación en estas lecciones."
+          "Aprende sobre clases y objetos, cómo funciona la encapsulación y cómo usar getters y setters para acceder y validar atributos en estas lecciones."
         ]
       },
       "workshop-salary-tracker": {
@@ -1798,7 +1798,7 @@
       "lecture-understanding-inheritance-and-polymorphism": {
         "title": "Comprender la herencia y el polimorfismo",
         "intro": [
-          "Aprende sobre herencia y polimorfismo en estas lecciones."
+          "Aprende cómo la herencia y el polimorfismo fomentan la reutilización de código, y cómo funciona el name mangling en Python en estas lecciones."
         ]
       },
       "workshop-media-catalogue": {
@@ -6735,7 +6735,7 @@
       "lecture-understanding-object-oriented-programming-and-encapsulation": {
         "title": "Comprender la programación orientada a objetos y la encapsulación",
         "intro": [
-          "Aprende a comprender la programación orientada a objetos y la encapsulación en estas lecciones."
+          "Aprende sobre clases y objetos, cómo funciona la encapsulación y cómo usar getters y setters para acceder y validar atributos en estas lecciones."
         ]
       },
       "workshop-salary-tracker": {
@@ -6753,7 +6753,7 @@
       "lecture-understanding-inheritance-and-polymorphism": {
         "title": "Comprender la herencia y el polimorfismo",
         "intro": [
-          "Aprende a comprender la herencia y el polimorfismo en estas lecciones."
+          "Aprende cómo la herencia y el polimorfismo fomentan la reutilización de código, y cómo funciona el name mangling en Python en estas lecciones."
         ]
       },
       "workshop-media-catalogue": {
@@ -8445,7 +8445,7 @@
         ]
       },
       "review-css-backgrounds-and-borders": {
-        "title": "Revisión de listas, enlaces, fondos y bordes CSS",
+        "title": "Revisión de listas, enlaces, fondos y bordes",
         "intro": [
           "Antes de hacer el quiz sobre fondos y bordes CSS, primero necesitas repasar.",
           "Abre esta página para repasar conceptos como la propiedad <code>background-image</code>, la propiedad <code>border</code> y más."
@@ -9701,7 +9701,7 @@
         ]
       },
       "review-css-backgrounds-and-borders": {
-        "title": "Revisión de listas, enlaces, fondos y bordes en CSS",
+        "title": "Revisión de listas, enlaces, fondos y bordes",
         "intro": [
           "Antes de hacer el quiz sobre fondos y bordes en CSS, primero necesitas repasar.",
           "Abre esta página para repasar conceptos como la propiedad <code>background-image</code>, la propiedad <code>border</code> y más."
@@ -10454,7 +10454,6 @@
     },
     "modules": {
       "python-basics": "Conceptos básicos de Python",
-      "python-installation": "Instalar Python",
       "python-loops-and-sequences": "Ciclos y secuencias",
       "python-dictionaries-and-sets": "Diccionarios y conjuntos",
       "lab-user-configuration-manager": "Construye un gestor de configuración de usuario",
@@ -10570,31 +10569,13 @@
         "title": "Revisión de conceptos básicos de Python",
         "intro": [
           "Antes de hacer el quiz sobre conceptos básicos de Python, deberías repasar lo que has aprendido.",
-          "En esta página de revisión repasarás el trabajo con cadenas, funciones, operadores de comparación y más."
+          "En esta página de revisión, repasarás cómo trabajar con cadenas, funciones, operadores de comparación y más."
         ]
       },
       "quiz-python-basics": {
         "title": "Quiz de conceptos básicos de Python",
         "intro": [
           "Pon a prueba lo que has aprendido sobre conceptos básicos de Python con este quiz."
-        ]
-      },
-      "lecture-python-installation": {
-        "title": "Instalación de Python y ejecución de código localmente",
-        "intro": [
-          "En estas lecciones aprenderás cómo instalar Python en tu dispositivo local y ejecutar código localmente."
-        ]
-      },
-      "review-python-installation": {
-        "title": "Revisión de instalación de Python",
-        "intro": [
-          "Antes de hacer el quiz sobre trabajar con Python localmente, deberías repasar los conceptos cubiertos en las lecciones."
-        ]
-      },
-      "quiz-python-installation": {
-        "title": "Quiz de instalación de Python",
-        "intro": [
-          "Pon a prueba lo que has aprendido sobre la instalación local de Python con este quiz."
         ]
       },
       "lecture-working-with-loops-and-sequences": {
@@ -10729,7 +10710,7 @@
       "lecture-understanding-object-oriented-programming-and-encapsulation": {
         "title": "Comprender la programación orientada a objetos y la encapsulación",
         "intro": [
-          "Aprende a comprender la programación orientada a objetos y la encapsulación en estas lecciones."
+          "Aprende sobre clases y objetos, cómo funciona la encapsulación y cómo usar getters y setters para acceder y validar atributos en estas lecciones."
         ]
       },
       "workshop-salary-tracker": {
@@ -10747,7 +10728,7 @@
       "lecture-understanding-inheritance-and-polymorphism": {
         "title": "Comprender la herencia y el polimorfismo",
         "intro": [
-          "Aprende a comprender la herencia y el polimorfismo en estas lecciones."
+          "Aprende cómo la herencia y el polimorfismo fomentan la reutilización de código, y cómo funciona el name mangling en Python en estas lecciones."
         ]
       },
       "workshop-media-catalogue": {
@@ -10852,6 +10833,12 @@
           "En estas lecciones aprenderás qué son los algoritmos, cómo analizarlos con la notación Big O y buenas técnicas para abordar problemas algorítmicos."
         ]
       },
+      "lab-stock-profit-calculator": {
+        "title": "Construir un calculador de ganancias de acciones",
+        "intro": [
+          "En este laboratorio, encontrarás la mejor ganancia de una sola operación de acciones usando un algoritmo de tiempo lineal."
+        ]
+      },
       "lecture-searching-and-sorting-algorithms-v2": {
         "title": "Algoritmos de búsqueda y ordenación",
         "intro": [
@@ -10865,10 +10852,22 @@
           "En este taller implementarás el algoritmo de búsqueda binaria y devolverás la ruta que tomó para encontrar el objetivo o devolverás 'Valor no encontrado'."
         ]
       },
+      "lab-bubble-sort": {
+        "title": "Implementar el algoritmo de ordenamiento burbuja",
+        "intro": [
+          "En este laboratorio, implementarás el algoritmo de ordenamiento burbuja en Python."
+        ]
+      },
       "lab-selection-sort": {
         "title": "Implementar el algoritmo de ordenación por selección",
         "intro": [
           "En este laboratorio implementarás el algoritmo de ordenación por selección."
+        ]
+      },
+      "lab-insertion-sort-py": {
+        "title": "Implementar el algoritmo de ordenamiento por inserción",
+        "intro": [
+          "En este laboratorio, implementarás el algoritmo de ordenamiento por inserción en Python."
         ]
       },
       "review-python-algorithms": {
@@ -10899,6 +10898,30 @@
         "title": "Construir una lista enlazada",
         "intro": [
           "En este taller practicarás trabajar con estructuras de datos construyendo una lista enlazada."
+        ]
+      },
+      "lab-linked-list-operations-python": {
+        "title": "Implementar operaciones en listas enlazadas",
+        "intro": [
+          "En este laboratorio, ampliarás una clase de lista enlazada con métodos para buscar, acceder, insertar y eliminar elementos por índice."
+        ]
+      },
+      "lab-doubly-linked-list": {
+        "title": "Construir una lista doblemente enlazada",
+        "intro": [
+          "En este laboratorio, construirás una lista doblemente enlazada, donde cada nodo mantiene una referencia tanto al nodo siguiente como al anterior en la lista."
+        ]
+      },
+      "lab-build-a-stack": {
+        "title": "Construir una pila",
+        "intro": [
+          "En este laboratorio, construirás una pila usando funciones para agregar, eliminar y consultar elementos."
+        ]
+      },
+      "lab-queue-python": {
+        "title": "Construir una cola",
+        "intro": [
+          "En este laboratorio, construirás una clase de cola que sigue el principio primero en entrar, primero en salir."
         ]
       },
       "review-linear-data-structures": {
@@ -10999,6 +11022,12 @@
           "En este laboratorio implementarás una función que convierte una representación de lista de adyacencia de un grafo en una representación de matriz de adyacencia."
         ]
       },
+      "lab-incidence-matrix": {
+        "title": "Construir una matriz de incidencia",
+        "intro": [
+          "En este laboratorio, construirás una función que convierte la lista de aristas de un grafo dirigido en una matriz de incidencia."
+        ]
+      },
       "lab-depth-first-search": {
         "title": "Implementar el algoritmo de búsqueda en profundidad",
         "intro": [
@@ -11021,6 +11050,12 @@
         "title": "Entendiendo árboles y tries",
         "intro": [
           "En esta lección aprenderás qué son los árboles y tries y cómo funcionan."
+        ]
+      },
+      "workshop-binary-search-tree": {
+        "title": "Construir un árbol de búsqueda binaria",
+        "intro": [
+          "En este taller, construirás un árbol de búsqueda binaria, aprenderás cómo insertar, buscar y eliminar valores, y recorrerlo con un recorrido inorder."
         ]
       },
       "lecture-understanding-priority-queues-and-heaps": {
@@ -11095,7 +11130,8 @@
     },
     "modules": {
       "html": "HTML",
-      "css": "CSS"
+      "css": "CSS",
+      "javascript": "JavaScript"
     },
     "blocks": {
       "workshop-curriculum-outline": {
@@ -11249,8 +11285,7 @@
       "workshop-greeting-card": {
         "title": "Diseñar una tarjeta de felicitación",
         "intro": [
-          "En las clases anteriores, aprendiste a trabajar con los diferentes tipos de pseudoclases.",
-          "En este taller, tendrás la oportunidad de practicar lo aprendido diseñando una tarjeta de felicitación."
+          "En este taller, tendrás la oportunidad de practicar el trabajo con pseudoclases diseñando una tarjeta de felicitación."
         ]
       },
       "lab-tribute-page": {
@@ -11292,7 +11327,7 @@
       "workshop-rothko-painting": {
         "title": "Diseñar una pintura al estilo Rothko",
         "intro": [
-          "Cada elemento HTML es su propia caja, con su propio espacio y un borde. Esto se llama modelo de caja.",
+          "Cada elemento HTML es su propia caja, con su propio espacio y un borde. Esto se llama el modelo de caja.",
           "En este taller, usarás CSS y el modelo de caja para crear tus propias piezas de arte rectangulares al estilo Rothko."
         ]
       },
@@ -11364,14 +11399,14 @@
       "workshop-balance-sheet": {
         "title": "Crear un balance general",
         "intro": [
-          "En este taller, crearás un balance general usando selectores pseudo. Aprenderás a cambiar el estilo de un elemento cuando pasas el mouse sobre él y a activar otros eventos en tu página web."
+          "En este taller, construirás un balance usando pseudo-selectores. Aprenderás cómo cambiar el estilo de un elemento cuando pasas el ratón sobre él y cómo activar otros eventos en tu página web."
         ]
       },
       "workshop-piano": {
         "title": "Diseñar un piano",
         "intro": [
           "El diseño adaptable indica a tu página web cómo debe verse en pantallas de diferentes tamaños.",
-          "En este taller, usarás CSS y diseño adaptable para programar un piano. También practicarás consultas de medios y selectores pseudo."
+          "En este taller, usarás CSS y diseño adaptable para programar un piano. También practicarás consultas de medios y pseudo-selectores."
         ]
       },
       "lab-technical-documentation-page-v2": {
@@ -11387,11 +11422,346 @@
           "En esta clase, aprenderás a definir y usar propiedades personalizadas (también conocidas como variables CSS)."
         ]
       },
+      "lecture-working-with-css-grid": {
+        "title": "Trabajar con rejilla CSS",
+        "intro": [
+          "En estas clases, aprenderás sobre la rejilla CSS, sus varias propiedades y cómo usarlas, y cómo la rejilla CSS difiere de flexbox."
+        ]
+      },
       "workshop-magazine": {
         "title": "Crear una revista",
         "intro": [
           "CSS Grid te da control sobre las filas y columnas del diseño de tu página web.",
           "En este taller, crearás un artículo de revista. Practicarás cómo usar CSS Grid, incluyendo conceptos como filas y columnas de rejilla."
+        ]
+      },
+      "review-css-v2": {
+        "title": "Revisión de CSS",
+        "intro": [
+          "Antes de hacer el quiz de CSS, primero necesitas repasar los conceptos enseñados en los módulos anteriores.",
+          "Abre esta página para repasar conceptos sobre el CSS que has aprendido."
+        ]
+      },
+      "quiz-css": {
+        "title": "Quiz de CSS",
+        "intro": [
+          "El siguiente quiz evaluará tus conocimientos sobre los conceptos de CSS que has aprendido hasta ahora."
+        ]
+      },
+      "lecture-introduction-to-javascript-v2": {
+        "title": "Introducción a JavaScript",
+        "intro": [
+          "En estas clases, aprenderás los fundamentos de JavaScript. Los temas incluyen, pero no se limitan a, variables, tipos de datos, cómo JavaScript interactúa con HTML y CSS, cadenas y mucho más."
+        ]
+      },
+      "workshop-greeting-bot": {
+        "title": "Construir un bot de saludos",
+        "intro": [
+          "En este taller, aprenderás los fundamentos de JavaScript construyendo un bot de saludos.",
+          "Aprenderás sobre variables, <code>let</code>, <code>const</code>, <code>console.log</code> y el uso básico de cadenas."
+        ]
+      },
+      "lecture-working-with-strings": {
+        "title": "Trabajar con cadenas",
+        "intro": [
+          "En esta clase, aprenderás a usar literales de plantilla, interpolar variables y expresiones, y crear cadenas multilínea en JavaScript."
+        ]
+      },
+      "workshop-teacher-chatbot": {
+        "title": "Construir un chatbot para profesores",
+        "intro": [
+          "En este taller, continuarás aprendiendo más sobre cadenas en JavaScript construyendo un chatbot.",
+          "Aprenderás a trabajar con literales de plantilla y el método <code>indexOf</code>."
+        ]
+      },
+      "lecture-working-with-data-types-v2": {
+        "title": "Trabajar con tipos de datos",
+        "intro": [
+          "En las siguientes clases, aprenderás los tipos de datos en JavaScript y el operador <code>typeof</code>."
+        ]
+      },
+      "workshop-string-inspector": {
+        "title": "Construir un inspector de cadenas",
+        "intro": [
+          "En este taller, practicarás el uso de los métodos <code>includes()</code> y <code>slice()</code> construyendo un inspector de cadenas."
+        ]
+      },
+      "workshop-string-formatter": {
+        "title": "Construir un formateador de cadenas",
+        "intro": [
+          "En este taller, practicarás el uso de varios métodos de cadenas incluyendo <code>trim()</code>, <code>toUpperCase()</code> y <code>toLowerCase()</code>."
+        ]
+      },
+      "workshop-string-transformer": {
+        "title": "Construir un transformador de cadenas",
+        "intro": [
+          "En este taller, practicarás el uso de los métodos <code>replace()</code>, <code>replaceAll()</code> y <code>repeat()</code>."
+        ]
+      },
+      "lecture-working-with-conditional-logic": {
+        "title": "Trabajar con lógica condicional",
+        "intro": [
+          "En estas clases, aprenderás sobre sentencias condicionales, operadores lógicos binarios y la sentencia <code>switch</code>."
+        ]
+      },
+      "workshop-logic-checker-app": {
+        "title": "Construir una app comprobadora de lógica",
+        "intro": [
+          "En este taller, practicarás el trabajo con sentencias condicionales y operadores de comparación construyendo una app comprobadora de lógica."
+        ]
+      },
+      "lecture-working-with-the-math-object": {
+        "title": "Trabajar con el objeto Math",
+        "intro": [
+          "En estas clases, aprenderás a trabajar con el objeto Math en JavaScript. Aprenderás sobre los diferentes métodos del objeto Math y cómo usarlos."
+        ]
+      },
+      "workshop-mathbot": {
+        "title": "Construir un Mathbot",
+        "intro": [
+          "En este taller, repasarás cómo trabajar con los diferentes métodos del objeto Math construyendo un Mathbot."
+        ]
+      },
+      "lab-fortune-teller": {
+        "title": "Construir un adivino",
+        "intro": [
+          "En este laboratorio, construirás un adivino seleccionando aleatoriamente una fortuna de las disponibles.",
+          "Practicarás cómo trabajar con el método <code>Math.random()</code> y el método <code>Math.floor()</code> para generar números aleatorios."
+        ]
+      },
+      "lecture-working-with-numbers-and-common-number-methods": {
+        "title": "Trabajar con números y métodos comunes para números",
+        "intro": [
+          "En estas clases, aprenderás sobre números y métodos comunes para números. Estos incluyen <code>isNaN()</code>, <code>parseInt()</code>, <code>parseFloat()</code> y <code>toFixed()</code>."
+        ]
+      },
+      "lecture-working-with-functions": {
+        "title": "Trabajar con funciones",
+        "intro": [
+          "En estas clases, aprenderás a reutilizar bloques de código con funciones. Entenderás cuál es el propósito de una función, cómo funcionan y cómo funciona el ámbito en la programación."
+        ]
+      },
+      "workshop-calculator": {
+        "title": "Construir una calculadora",
+        "intro": [
+          "En este taller, repasarás tus conocimientos sobre funciones construyendo una calculadora."
+        ]
+      },
+      "lab-email-masker": {
+        "title": "Construir un enmascarador de correo electrónico",
+        "intro": [
+          "En este laboratorio, construirás un enmascarador de correo electrónico que tomará una dirección de correo y la ocultará.",
+          "Practicarás el corte de cadenas, la concatenación y el uso de funciones."
+        ]
+      },
+      "lecture-working-with-arrays-and-common-array-methods": {
+        "title": "Trabajar con arreglos y métodos comunes de arreglos",
+        "intro": [
+          "En estas clases, aprenderás a trabajar con arreglos en JavaScript. Aprenderás qué define un arreglo, cómo acceder y actualizar los elementos en un arreglo y mucho más."
+        ]
+      },
+      "workshop-shopping-list": {
+        "title": "Construir una lista de compras",
+        "intro": [
+          "En este taller, practicarás cómo trabajar con arreglos construyendo una lista de compras.",
+          "Repasarás cómo agregar y eliminar elementos de un arreglo usando métodos como <code>push</code>, <code>pop</code>, <code>shift</code> y <code>unshift</code>."
+        ]
+      },
+      "lab-lunch-picker-program": {
+        "title": "Construir un programa selector de almuerzos",
+        "intro": [
+          "En este laboratorio, repasarás el trabajo con arreglos y números aleatorios construyendo un programa selector de almuerzos."
+        ]
+      },
+      "lecture-working-with-objects": {
+        "title": "Introducción a los objetos de JavaScript y sus propiedades",
+        "intro": [
+          "En estas clases, aprenderás los fundamentos de los objetos en JavaScript y cómo acceder a sus propiedades."
+        ]
+      },
+      "workshop-wildlife-tracker": {
+        "title": "Construir un rastreador de vida silvestre",
+        "intro": [
+          "En este taller, construirás un rastreador de vida silvestre simple usando objetos de JavaScript.",
+          "Practicarás crear objetos, acceder y actualizar propiedades, eliminar propiedades, verificar la existencia de propiedades y trabajar con notación de corchetes."
+        ]
+      },
+      "lecture-working-with-json": {
+        "title": "Trabajar con JSON",
+        "intro": [
+          "En estas clases, aprenderás sobre JavaScript Object Notation (JSON), incluyendo cómo acceder a datos JSON y usar los métodos <code>JSON.parse()</code> y <code>JSON.stringify()</code>."
+        ]
+      },
+      "lecture-working-with-optional-chaining-and-object-destructuring": {
+        "title": "Trabajar con encadenamiento opcional y desestructuración de objetos",
+        "intro": [
+          "En estas clases, aprenderás técnicas avanzadas de manipulación de objetos en JavaScript, incluyendo el operador de encadenamiento opcional y la sintaxis de desestructuración de objetos."
+        ]
+      },
+      "workshop-recipe-tracker": {
+        "title": "Construir un rastreador de recetas",
+        "intro": [
+          "En este taller, repasarás el trabajo con objetos de JavaScript construyendo un rastreador de recetas."
+        ]
+      },
+      "lab-quiz-game": {
+        "title": "Construir un juego de quiz",
+        "intro": [
+          "En este laboratorio, construirás un juego de quiz usando arreglos y objetos de JavaScript.",
+          "También practicarás usar funciones para seleccionar aleatoriamente una pregunta y una respuesta de un arreglo y compararlas."
+        ]
+      },
+      "lecture-working-with-loops": {
+        "title": "Trabajar con ciclos",
+        "intro": [
+          "Los ciclos son una parte esencial de JavaScript. Por eso, las siguientes clases han sido preparadas para que aprendas sobre los diferentes tipos de ciclos, cómo funcionan y también cómo funciona la iteración."
+        ]
+      },
+      "workshop-word-counter": {
+        "title": "Construir un contador de palabras",
+        "intro": [
+          "En este taller, practicarás usar ciclos <code>for...of</code> construyendo una función que cuenta las ocurrencias de una cadena en un arreglo de cadenas."
+        ]
+      },
+      "lab-profile-lookup": {
+        "title": "Construir una búsqueda de perfil",
+        "intro": [
+          "En este laboratorio, crearás una función que busca información de perfil."
+        ]
+      },
+      "workshop-campus-directory-normalizer": {
+        "title": "Construir un normalizador de directorio del campus",
+        "intro": [
+          "En este taller, normalizarás datos anidados en tablas de consulta independientes y fáciles de usar."
+        ]
+      },
+      "lab-proofreading-tool-v2": {
+        "title": "Construir una herramienta de corrección",
+        "intro": [
+          "En este proyecto de certificación, construirás una herramienta de corrección que analiza arreglos de palabras para palíndromos y frases repetidas.",
+          "Practicarás ciclos for y ciclos anidados para verificar palíndromos y encontrar secuencias de palabras repetidas."
+        ]
+      },
+      "lecture-working-with-higher-order-functions-and-callbacks": {
+        "title": "Trabajar con funciones de orden superior y callbacks",
+        "intro": [
+          "En estas clases, aprenderás a trabajar con funciones de orden superior y callbacks. Las funciones de orden superior que aprenderás incluyen <code>map()</code>, <code>filter()</code>, <code>reduce()</code>, <code>sort()</code>, <code>every()</code> y <code>some()</code>. También aprenderás a encadenar estos métodos para lograr los resultados deseados."
+        ]
+      },
+      "workshop-library-manager": {
+        "title": "Construir un gestor de biblioteca",
+        "intro": [
+          "En este taller, aprenderás métodos de arreglos de orden superior construyendo un gestor de biblioteca."
+        ]
+      },
+      "lab-book-organizer": {
+        "title": "Construir un organizador de libros",
+        "intro": [
+          "En este laboratorio, construirás un organizador de libros usando funciones de orden superior en JavaScript."
+        ]
+      },
+      "lecture-introduction-to-the-dom": {
+        "title": "Introducción al DOM",
+        "intro": [
+          "En estas clases, aprenderás sobre el Modelo de Objetos del Documento (DOM) y cómo interactuar con él usando JavaScript."
+        ]
+      },
+      "workshop-storytelling-app": {
+        "title": "Construir una app de narración de historias",
+        "intro": [
+          "En este taller, construirás una app de narración que te permitirá listar diferentes historias según el género."
+        ]
+      },
+      "workshop-emoji-reactor": {
+        "title": "Construir un reactor de emojis",
+        "intro": [
+          "En este taller, construirás un reactor de emojis para practicar <code>querySelector</code> y <code>querySelectorAll</code>."
+        ]
+      },
+      "lab-favorite-icon-toggler": {
+        "title": "Construir un conmutador de icono favorito",
+        "intro": [
+          "En este laboratorio, construirás un conmutador de icono favorito utilizando eventos de clic en JavaScript."
+        ]
+      },
+      "workshop-music-instrument-filter": {
+        "title": "Construir un filtro de instrumentos musicales",
+        "intro": [
+          "En este taller, construirás un filtro de instrumentos musicales con JavaScript."
+        ]
+      },
+      "lab-real-time-counter": {
+        "title": "Construir un contador en tiempo real",
+        "intro": [
+          "En este laboratorio, construirás un contador de caracteres en tiempo real.",
+          "Practicarás cómo trabajar con el evento <code>input</code> cuando el usuario escribe en el campo de entrada."
+        ]
+      },
+      "lab-lightbox-viewer": {
+        "title": "Construir un visor de lightbox",
+        "intro": [
+          "En este laboratorio, construirás un visor de lightbox para ver imágenes en modo enfocado.",
+          "Practicarás eventos de clic y alternar clases."
+        ]
+      },
+      "workshop-library-search": {
+        "title": "Construir una búsqueda de libros en la biblioteca",
+        "intro": [
+          "En este taller, practicarás manejar errores de forma elegante en JavaScript.",
+          "Construirás una aplicación de búsqueda de libros en la biblioteca y usarás bloques <code>try...catch...finally</code>, junto con la sentencia <code>throw</code>, para capturar y manejar errores personalizados."
+        ]
+      },
+      "lecture-working-with-regex": {
+        "title": "Trabajar con expresiones regulares",
+        "intro": [
+          "En estas clases, aprenderás sobre expresiones regulares en JavaScript y los métodos para trabajar con ellas."
+        ]
+      },
+      "workshop-spam-filter": {
+        "title": "Construir un filtro de spam",
+        "intro": [
+          "Las expresiones regulares, a menudo abreviadas como \"regex\" o \"regexp\", son patrones que ayudan a los programadores a coincidir, buscar y reemplazar texto. Las expresiones regulares son poderosas, pero pueden ser difíciles de entender porque usan muchos caracteres especiales.",
+          "En este taller, usarás grupos de captura, anticipaciones positivas, anticipaciones negativas y otras técnicas para coincidir con cualquier texto que desees."
+        ]
+      },
+      "lecture-working-with-client-side-storage-and-crud-operations-v2": {
+        "title": "Trabajar con almacenamiento del lado del cliente y operaciones CRUD",
+        "intro": [
+          "En estas clases, aprenderás sobre operaciones CRUD y cómo almacenar, recuperar y eliminar datos usando <code>localStorage</code> y <code>sessionStorage</code>."
+        ]
+      },
+      "workshop-todo-app": {
+        "title": "Construir una app de tareas usando almacenamiento local",
+        "intro": [
+          "El almacenamiento local es una funcionalidad del navegador web que permite a las aplicaciones web almacenar pares clave-valor de forma persistente dentro del navegador del usuario. Esto permite que las apps web guarden datos durante una sesión y luego los recuperen en una sesión posterior.",
+          "En este taller, aprenderás a manejar entradas de formularios, gestionar el almacenamiento local, realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) en tareas, implementar escuchas de eventos y alternar elementos de la interfaz."
+        ]
+      },
+      "lab-bookmark-manager-app": {
+        "title": "Construir una app de gestor de marcadores",
+        "intro": [
+          "Para este laboratorio, construirás una app de gestor de marcadores.",
+          "Utilizarás almacenamiento local para guardar marcadores y practicarás cómo agregar, eliminar y mostrar marcadores."
+        ]
+      },
+      "lecture-understanding-asynchronous-programming-v2": {
+        "title": "Entender la programación asíncrona",
+        "intro": [
+          "En estas clases, aprenderás sobre programación asíncrona en JavaScript. Aprenderás las diferencias entre programación síncrona y asíncrona, cómo funciona la palabra clave <code>async</code>, la API <code>Fetch</code>, promesas, <code>async/await</code> y mucho más."
+        ]
+      },
+      "workshop-fcc-authors-page": {
+        "title": "Crear una página de autores de fCC",
+        "intro": [
+          "Un aspecto común del desarrollo web es aprender a obtener datos de una API externa y luego trabajar con JavaScript asíncrono.",
+          "En este taller practicarás cómo usar el método fetch, actualizar dinámicamente el DOM para mostrar los datos obtenidos y paginar tus datos para cargar resultados en lotes."
+        ]
+      },
+      "lab-weather-app-v2": {
+        "title": "Crear una app del clima",
+        "intro": [
+          "En este proyecto de certificación, construirás una app del clima usando una API.",
+          "Practicarás cómo obtener datos de la API, almacenarlos y mostrarlos en tu app."
         ]
       }
     }

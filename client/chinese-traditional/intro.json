@@ -1587,7 +1587,7 @@
         "title": "Python 基礎複習",
         "intro": [
           "在接受 Python 基礎測驗前，你應該複習所學內容。",
-          "在這個複習頁面中，你將複習字串操作、函式、比較運算子等內容。"
+          "在此複習頁面，你將複習字串、函式、比較運算子等操作。"
         ]
       },
       "quiz-python-basics": {
@@ -1756,7 +1756,7 @@
         "title": "類別與物件複習",
         "intro": [
           "在接受類別與物件測驗前，你應該先複習所學內容。",
-          "打開此頁面複習類別如何運作、什麼是物件、方法、屬性、特殊方法等概念。"
+          "打開此頁面，複習類別運作方式、物件、方法、屬性、特殊方法等概念。"
         ]
       },
       "quiz-classes-and-objects": {
@@ -1780,7 +1780,7 @@
       "lecture-understanding-object-oriented-programming-and-encapsulation": {
         "title": "理解物件導向程式設計與封裝",
         "intro": [
-          "在這些課程中學習物件導向程式設計與封裝的理解。"
+          "在這些課程中，學習類別和物件、封裝的運作方式，以及如何使用取值函式和設值函式來存取和驗證屬性。"
         ]
       },
       "workshop-salary-tracker": {
@@ -1798,7 +1798,7 @@
       "lecture-understanding-inheritance-and-polymorphism": {
         "title": "理解繼承與多型",
         "intro": [
-          "在這些課程中學習繼承與多型的理解。"
+          "在這些課程中，學習繼承和多型如何促進程式碼重用，以及 Python 中名稱改寫的運作方式。"
         ]
       },
       "workshop-media-catalogue": {
@@ -6576,7 +6576,7 @@
         "title": "Python 基礎複習",
         "intro": [
           "在接受 Python 基礎測驗前，你應該先複習你所學的內容。",
-          "在這個複習頁面中，你將複習字串、函式、比較運算子等相關內容。"
+          "在此複習頁面，你將複習字串、函式、比較運算子等操作。"
         ]
       },
       "quiz-python-basics": {
@@ -6717,7 +6717,7 @@
         "title": "類別和物件複習",
         "intro": [
           "在接受類別和物件測驗前，你應該先複習相關內容。",
-          "打開此頁面，複習類別的運作方式、物件、方法、屬性、特殊方法等概念。"
+          "打開此頁面，複習類別運作方式、物件、方法、屬性、特殊方法等概念。"
         ]
       },
       "quiz-classes-and-objects": {
@@ -6735,7 +6735,7 @@
       "lecture-understanding-object-oriented-programming-and-encapsulation": {
         "title": "理解物件導向程式設計與封裝",
         "intro": [
-          "在這些課程中，學習理解物件導向程式設計與封裝。"
+          "在這些課程中，學習類別和物件、封裝的運作方式，以及如何使用取值函式和設值函式來存取和驗證屬性。"
         ]
       },
       "workshop-salary-tracker": {
@@ -6753,7 +6753,7 @@
       "lecture-understanding-inheritance-and-polymorphism": {
         "title": "理解繼承與多型",
         "intro": [
-          "在這些課程中，學習理解繼承與多型。"
+          "在這些課程中，學習繼承和多型如何促進程式碼重用，以及 Python 中名稱改寫的運作方式。"
         ]
       },
       "workshop-media-catalogue": {
@@ -8445,7 +8445,7 @@
         ]
       },
       "review-css-backgrounds-and-borders": {
-        "title": "列表、聯結、CSS 背景與邊框複習",
+        "title": "列表、連結、背景與邊框複習",
         "intro": [
           "在接受 CSS 背景與邊框測驗前，你需要先複習。",
           "打開此頁面複習 <code>background-image</code> 屬性、<code>border</code> 屬性等概念。"
@@ -9701,7 +9701,7 @@
         ]
       },
       "review-css-backgrounds-and-borders": {
-        "title": "列表、連結、CSS 背景與邊框複習",
+        "title": "列表、連結、背景與邊框複習",
         "intro": [
           "在接受 CSS 背景與邊框測驗前，你需要先複習。",
           "打開此頁面複習包括 <code>background-image</code> 屬性、<code>border</code> 屬性等概念。"
@@ -10454,7 +10454,6 @@
     },
     "modules": {
       "python-basics": "Python 基礎",
-      "python-installation": "安裝 Python",
       "python-loops-and-sequences": "迴圈與序列",
       "python-dictionaries-and-sets": "字典與集合",
       "lab-user-configuration-manager": "建置使用者設定管理器",
@@ -10570,31 +10569,13 @@
         "title": "Python 基礎複習",
         "intro": [
           "在接受 Python 基礎測驗前，你應該先複習所學內容。",
-          "在這個複習頁面中，你將複習字串、函式、比較運算子等內容。"
+          "在此複習頁面，你將複習字串、函式、比較運算子等操作。"
         ]
       },
       "quiz-python-basics": {
         "title": "Python 基礎測驗",
         "intro": [
           "透過此測驗檢驗你對 Python 基礎的理解。"
-        ]
-      },
-      "lecture-python-installation": {
-        "title": "安裝 Python 並在本機執行程式碼",
-        "intro": [
-          "在這些課程中，你將學習如何在本機裝置安裝 Python 並執行程式碼。"
-        ]
-      },
-      "review-python-installation": {
-        "title": "Python 安裝複習",
-        "intro": [
-          "在接受本機 Python 操作測驗前，你應該先複習課程涵蓋的概念。"
-        ]
-      },
-      "quiz-python-installation": {
-        "title": "Python 安裝測驗",
-        "intro": [
-          "透過此測驗檢驗你對本機安裝 Python 的理解。"
         ]
       },
       "lecture-working-with-loops-and-sequences": {
@@ -10617,7 +10598,7 @@
         "title": "迴圈與序列複習",
         "intro": [
           "在接受迴圈與序列測驗前，你應該先複習所學內容。",
-          "打開此頁面複習迴圈、列表、元組及其常用方法的概念。"
+          "打開此頁面，複習迴圈、列表、元組及其常用方法的概念。"
         ]
       },
       "quiz-loops-and-sequences": {
@@ -10711,7 +10692,7 @@
         "title": "類別與物件複習",
         "intro": [
           "在接受類別與物件測驗前，你應該先複習相關內容。",
-          "打開此頁面複習類別如何運作、什麼是物件、方法、屬性、特殊方法等概念。"
+          "打開此頁面，複習類別運作方式、物件、方法、屬性、特殊方法等概念。"
         ]
       },
       "quiz-classes-and-objects": {
@@ -10729,7 +10710,7 @@
       "lecture-understanding-object-oriented-programming-and-encapsulation": {
         "title": "理解物件導向程式設計與封裝",
         "intro": [
-          "在這些課程中學習理解物件導向程式設計與封裝。"
+          "在這些課程中，學習類別和物件、封裝的運作方式，以及如何使用取值函式和設值函式來存取和驗證屬性。"
         ]
       },
       "workshop-salary-tracker": {
@@ -10747,7 +10728,7 @@
       "lecture-understanding-inheritance-and-polymorphism": {
         "title": "理解繼承與多型",
         "intro": [
-          "在這些課程中學習理解繼承與多型。"
+          "在這些課程中，學習繼承和多型如何促進程式碼重用，以及 Python 中名稱改寫的運作方式。"
         ]
       },
       "workshop-media-catalogue": {
@@ -10852,6 +10833,12 @@
           "在這些課程中，你將學習什麼是演算法、如何用大 O 符號分析它們，以及解決演算法問題的好方法。"
         ]
       },
+      "lab-stock-profit-calculator": {
+        "title": "建置股票獲利計算器",
+        "intro": [
+          "在此實驗中，你將使用線性時間演算法找出單筆股票交易的最佳獲利。"
+        ]
+      },
       "lecture-searching-and-sorting-algorithms-v2": {
         "title": "搜尋與排序演算法",
         "intro": [
@@ -10865,10 +10852,22 @@
           "在這個工作坊中，你將實作二分搜尋演算法，並傳回尋找標的所經過的路徑，或傳回「找不到值」。"
         ]
       },
+      "lab-bubble-sort": {
+        "title": "實作泡沫排序演算法",
+        "intro": [
+          "在此實驗中，你將用 Python 實作泡沫排序演算法。"
+        ]
+      },
       "lab-selection-sort": {
         "title": "實作選擇排序演算法",
         "intro": [
           "在這個實驗中，你將實作選擇排序演算法。"
+        ]
+      },
+      "lab-insertion-sort-py": {
+        "title": "實作插入排序演算法",
+        "intro": [
+          "在此實驗中，你將用 Python 實作插入排序演算法。"
         ]
       },
       "review-python-algorithms": {
@@ -10899,6 +10898,30 @@
         "title": "建置鏈結串列",
         "intro": [
           "在這個工作坊中，你將透過建置鏈結串列來練習操作資料結構。"
+        ]
+      },
+      "lab-linked-list-operations-python": {
+        "title": "實作鏈結串列操作",
+        "intro": [
+          "在此實驗中，你將擴充鏈結串列類別，加入搜尋、存取、插入和依索引移除元素的方法。"
+        ]
+      },
+      "lab-doubly-linked-list": {
+        "title": "建置雙向鏈結串列",
+        "intro": [
+          "在此實驗中，你將建置雙向鏈結串列，每個節點都會參考串列中前後的節點。"
+        ]
+      },
+      "lab-build-a-stack": {
+        "title": "建置堆疊",
+        "intro": [
+          "在此實驗中，你將使用函式來實作堆疊的推入、彈出和窺視元素功能。"
+        ]
+      },
+      "lab-queue-python": {
+        "title": "建置佇列",
+        "intro": [
+          "在此實驗中，你將建置遵循先進先出原則的佇列類別。"
         ]
       },
       "review-linear-data-structures": {
@@ -10999,6 +11022,12 @@
           "在這個實驗室中，你將實作一個函式，將圖形的鄰接列表表示法轉換成鄰接矩陣表示法。"
         ]
       },
+      "lab-incidence-matrix": {
+        "title": "建置關聯矩陣",
+        "intro": [
+          "在此實驗中，你將建置一個函式，將有向圖的邊列表轉換成關聯矩陣。"
+        ]
+      },
       "lab-depth-first-search": {
         "title": "實作深度優先搜尋演算法",
         "intro": [
@@ -11021,6 +11050,12 @@
         "title": "理解樹與字典樹",
         "intro": [
           "在本課程中，你將學習什麼是樹和字典樹，以及它們的運作方式。"
+        ]
+      },
+      "workshop-binary-search-tree": {
+        "title": "建置二元搜尋樹",
+        "intro": [
+          "在此工作坊，你將建置二元搜尋樹，學習如何插入、搜尋和刪除值，並用中序巡訪遍歷樹。"
         ]
       },
       "lecture-understanding-priority-queues-and-heaps": {
@@ -11095,7 +11130,8 @@
     },
     "modules": {
       "html": "HTML",
-      "css": "CSS"
+      "css": "CSS",
+      "javascript": "JavaScript"
     },
     "blocks": {
       "workshop-curriculum-outline": {
@@ -11249,8 +11285,7 @@
       "workshop-greeting-card": {
         "title": "設計賀卡",
         "intro": [
-          "在之前的課程中，你已學會如何使用不同類型的偽類。",
-          "在這個工作坊中，你將有機會透過設計賀卡來練習所學。"
+          "在此工作坊，你將透過設計賀卡練習使用偽類。"
         ]
       },
       "lab-tribute-page": {
@@ -11292,7 +11327,7 @@
       "workshop-rothko-painting": {
         "title": "設計羅斯科畫作",
         "intro": [
-          "每個 HTML 元素都是一個獨立的盒子，擁有自己的間距和邊框。這稱為盒模型。",
+          "每個 HTML 元素都是獨立的盒子，擁有自己的間距和邊框，這稱為盒模型。",
           "在這個工作坊中，你將使用 CSS 和盒模型創作羅斯科風格的矩形藝術作品。"
         ]
       },
@@ -11364,14 +11399,14 @@
       "workshop-balance-sheet": {
         "title": "建置資產負債表",
         "intro": [
-          "在這個工作坊中，你將使用偽選擇器建置資產負債表。你將學習如何在滑鼠暫留時改變元素樣式，並觸發網頁上的其他事件。"
+          "在此工作坊，你將使用偽選擇器建置資產負債表，學習如何在滑鼠暫留時改變元素樣式，並觸發網頁上的其他事件。"
         ]
       },
       "workshop-piano": {
         "title": "設計鋼琴",
         "intro": [
           "響應式設計告訴你的網頁在不同尺寸的螢幕上應該如何呈現。",
-          "在這個工作坊中，你將使用 CSS 和響應式設計編寫鋼琴。你也將練習媒體查詢和偽選擇器。"
+          "在此工作坊，你將使用 CSS 和響應式設計編寫鋼琴，並練習媒體查詢和偽選擇器。"
         ]
       },
       "lab-technical-documentation-page-v2": {
@@ -11387,11 +11422,346 @@
           "在這堂課中，你將學習如何定義和使用訂製屬性（也稱為 CSS 變數）。"
         ]
       },
+      "lecture-working-with-css-grid": {
+        "title": "使用 CSS Grid",
+        "intro": [
+          "在這些課程中，你將學習 CSS Grid、其多種屬性及用法，以及 CSS Grid 與 Flexbox 的差異。"
+        ]
+      },
       "workshop-magazine": {
         "title": "建置雜誌",
         "intro": [
           "CSS Grid 讓你能控制網頁設計的列和行。",
           "在這個工作坊中，你將建置一篇雜誌文章。你將練習如何使用 CSS Grid，包括網格列和網格行等概念。"
+        ]
+      },
+      "review-css-v2": {
+        "title": "CSS 複習",
+        "intro": [
+          "在參加 CSS 測驗前，請先複習前面模組所教的概念。",
+          "打開此頁面，複習你所學的 CSS 概念。"
+        ]
+      },
+      "quiz-css": {
+        "title": "CSS 測驗",
+        "intro": [
+          "以下測驗將測試你對目前所學 CSS 概念的理解。"
+        ]
+      },
+      "lecture-introduction-to-javascript-v2": {
+        "title": "JavaScript 入門",
+        "intro": [
+          "在這些課程中，你將學習 JavaScript 基礎，涵蓋變數、資料型別、JavaScript 與 HTML 和 CSS 的互動、字串等主題。"
+        ]
+      },
+      "workshop-greeting-bot": {
+        "title": "建置問候機器人",
+        "intro": [
+          "在此工作坊，你將透過建置問候機器人學習 JavaScript 基礎。",
+          "你將學習變數、<code>let</code>、<code>const</code>、<code>console.log</code> 和基本字串用法。"
+        ]
+      },
+      "lecture-working-with-strings": {
+        "title": "操作字串",
+        "intro": [
+          "在此課程中，你將學習如何使用模板字串、插入變數和運算式，以及建立多行字串。"
+        ]
+      },
+      "workshop-teacher-chatbot": {
+        "title": "建置教師聊天機器人",
+        "intro": [
+          "在此工作坊，你將透過建置聊天機器人繼續學習 JavaScript 字串。",
+          "你將學習如何使用模板字串和 <code>indexOf</code> 方法。"
+        ]
+      },
+      "lecture-working-with-data-types-v2": {
+        "title": "操作資料型別",
+        "intro": [
+          "在接下來的課程中，你將學習 JavaScript 的資料型別和 <code>typeof</code> 運算子。"
+        ]
+      },
+      "workshop-string-inspector": {
+        "title": "建置字串檢查器",
+        "intro": [
+          "在此工作坊，你將透過建置字串檢查器練習使用 <code>includes()</code> 和 <code>slice()</code> 方法。"
+        ]
+      },
+      "workshop-string-formatter": {
+        "title": "建置字串格式化器",
+        "intro": [
+          "在此工作坊，你將練習使用多種字串方法，包括 <code>trim()</code>、<code>toUpperCase()</code> 和 <code>toLowerCase()</code>。"
+        ]
+      },
+      "workshop-string-transformer": {
+        "title": "建置字串轉換器",
+        "intro": [
+          "在此工作坊，你將練習使用 <code>replace()</code>、<code>replaceAll()</code> 和 <code>repeat()</code> 方法。"
+        ]
+      },
+      "lecture-working-with-conditional-logic": {
+        "title": "操作條件邏輯",
+        "intro": [
+          "在這些課程中，你將學習條件述語、二元邏輯運算子和 <code>switch</code> 述語。"
+        ]
+      },
+      "workshop-logic-checker-app": {
+        "title": "建置邏輯檢查應用程式",
+        "intro": [
+          "在此工作坊，你將透過建置邏輯檢查應用程式練習條件述語和比較運算子。"
+        ]
+      },
+      "lecture-working-with-the-math-object": {
+        "title": "操作 Math 物件",
+        "intro": [
+          "在這些課程中，你將學習如何使用 JavaScript 的 Math 物件，了解其各種方法及用法。"
+        ]
+      },
+      "workshop-mathbot": {
+        "title": "建置數學機器人",
+        "intro": [
+          "在此工作坊，你將透過建置數學機器人複習如何使用不同的 Math 物件方法。"
+        ]
+      },
+      "lab-fortune-teller": {
+        "title": "建置算命師",
+        "intro": [
+          "在此實驗中，你將建置一個算命師，隨機選擇可用的運勢。",
+          "你將練習如何使用 <code>Math.random()</code> 和 <code>Math.floor()</code> 方法來產生隨機數。"
+        ]
+      },
+      "lecture-working-with-numbers-and-common-number-methods": {
+        "title": "操作數字與常用數字方法",
+        "intro": [
+          "在這些課程中，你將學習數字和常用的數字方法，包括 <code>isNaN()</code>、<code>parseInt()</code>、<code>parseFloat()</code> 和 <code>toFixed()</code>。"
+        ]
+      },
+      "lecture-working-with-functions": {
+        "title": "使用函式",
+        "intro": [
+          "在這些課程中，你將學習如何使用函式重複利用程式碼區塊。你會了解函式的目的與運作方式，以及程式設計中的範圍（scope）如何運作。"
+        ]
+      },
+      "workshop-calculator": {
+        "title": "建置計算機",
+        "intro": [
+          "在這個工作坊中，你將透過建置計算機來複習函式的知識。"
+        ]
+      },
+      "lab-email-masker": {
+        "title": "建置電子郵件遮罩器",
+        "intro": [
+          "在這個實驗中，你將建置一個電子郵件遮罩器，用來遮蔽電子郵件位址。",
+          "你將練習字串切割、串接以及使用函式。"
+        ]
+      },
+      "lecture-working-with-arrays-and-common-array-methods": {
+        "title": "使用陣列與常用陣列方法",
+        "intro": [
+          "在這些課程中，你將學習如何操作 JavaScript 陣列。你會了解陣列的組成、如何存取和更新陣列中的元素，以及更多內容。"
+        ]
+      },
+      "workshop-shopping-list": {
+        "title": "建置購物清單",
+        "intro": [
+          "在這個工作坊中，你將透過建置購物清單來練習操作陣列。",
+          "你將複習如何使用 <code>push</code>、<code>pop</code>、<code>shift</code> 和 <code>unshift</code> 等方法來新增和移除陣列元素。"
+        ]
+      },
+      "lab-lunch-picker-program": {
+        "title": "建置午餐選擇程式",
+        "intro": [
+          "在這個實驗中，你將透過建置午餐選擇程式來複習操作陣列和隨機數。"
+        ]
+      },
+      "lecture-working-with-objects": {
+        "title": "JavaScript 物件與其屬性入門",
+        "intro": [
+          "在這些課程中，你將學習 JavaScript 物件的基礎，以及如何存取物件的屬性。"
+        ]
+      },
+      "workshop-wildlife-tracker": {
+        "title": "建置野生動物追蹤器",
+        "intro": [
+          "在這個工作坊中，你將使用 JavaScript 物件建置一個簡單的野生動物追蹤器。",
+          "你將練習創建物件、存取與更新屬性、移除屬性、檢查屬性是否存在，以及使用括號表示法。"
+        ]
+      },
+      "lecture-working-with-json": {
+        "title": "使用 JSON",
+        "intro": [
+          "在這些課程中，你將學習 JavaScript 物件表示法（JSON），包括如何存取 JSON 資料以及使用 <code>JSON.parse()</code> 和 <code>JSON.stringify()</code> 方法。"
+        ]
+      },
+      "lecture-working-with-optional-chaining-and-object-destructuring": {
+        "title": "使用選用串鏈與物件解構",
+        "intro": [
+          "在這些課程中，你將學習 JavaScript 中的進階物件操作技巧，包括選用串鏈運算子和物件解構語法。"
+        ]
+      },
+      "workshop-recipe-tracker": {
+        "title": "建置食譜追蹤器",
+        "intro": [
+          "在這個工作坊中，你將透過建置食譜追蹤器來複習操作 JavaScript 物件。"
+        ]
+      },
+      "lab-quiz-game": {
+        "title": "建置問答遊戲",
+        "intro": [
+          "在這個實驗中，你將使用 JavaScript 陣列和物件建置一個問答遊戲。",
+          "你還將練習使用函式從陣列中隨機選擇問題和答案並進行比較。"
+        ]
+      },
+      "lecture-working-with-loops": {
+        "title": "使用迴圈",
+        "intro": [
+          "迴圈是 JavaScript 的重要部分。因此，我們為你準備了以下課程，讓你學習不同類型的迴圈及其運作方式，以及迭代的原理。"
+        ]
+      },
+      "workshop-word-counter": {
+        "title": "建置字數計數器",
+        "intro": [
+          "在這個工作坊中，你將透過建置一個函式來計算字串陣列中某字串出現次數，練習使用 <code>for...of</code> 迴圈。"
+        ]
+      },
+      "lab-profile-lookup": {
+        "title": "建置評測查詢",
+        "intro": [
+          "在這個實驗中，你將創建一個函式來查詢評測資訊。"
+        ]
+      },
+      "workshop-campus-directory-normalizer": {
+        "title": "建置校園目錄正規化工具",
+        "intro": [
+          "在這個工作坊中，你將把巢狀資料正規化成獨立且易於使用的查詢表。"
+        ]
+      },
+      "lab-proofreading-tool-v2": {
+        "title": "建置校對工具",
+        "intro": [
+          "在這個認證專案中，你將建置一個校對工具，用來分析字串陣列中的回文和重複片語。",
+          "你將練習使用迴圈和巢狀迴圈來檢查回文並尋找重複字串序列。"
+        ]
+      },
+      "lecture-working-with-higher-order-functions-and-callbacks": {
+        "title": "使用高階函式與回呼",
+        "intro": [
+          "在這些課程中，你將學習如何使用高階函式與回呼。你會學到的高階函式包括 <code>map()</code>、<code>filter()</code>、<code>reduce()</code>、<code>sort()</code>、<code>every()</code> 和 <code>some()</code>。你還會學習如何串鏈這些方法以達成預期結果。"
+        ]
+      },
+      "workshop-library-manager": {
+        "title": "建置圖書館管理員",
+        "intro": [
+          "在這個工作坊中，你將透過建置圖書館管理員來學習高階陣列方法。"
+        ]
+      },
+      "lab-book-organizer": {
+        "title": "建置書籍整理器",
+        "intro": [
+          "在這個實驗中，你將使用 JavaScript 的高階函式建置書籍整理器。"
+        ]
+      },
+      "lecture-introduction-to-the-dom": {
+        "title": "DOM 入門",
+        "intro": [
+          "在這些課程中，你將學習文件物件模型（DOM）以及如何使用 JavaScript 與其互動。"
+        ]
+      },
+      "workshop-storytelling-app": {
+        "title": "建置故事敘述應用程式",
+        "intro": [
+          "在這個工作坊中，你將建置一個故事敘述應用程式，讓你能依類型列出不同故事。"
+        ]
+      },
+      "workshop-emoji-reactor": {
+        "title": "建置表情符號反應器",
+        "intro": [
+          "在這個工作坊中，你將建置一個表情符號反應器，練習使用 <code>querySelector</code> 和 <code>querySelectorAll</code>。"
+        ]
+      },
+      "lab-favorite-icon-toggler": {
+        "title": "建置收藏圖示切換器",
+        "intro": [
+          "在這個實驗中，你將利用 JavaScript 點擊事件建置收藏圖示切換器。"
+        ]
+      },
+      "workshop-music-instrument-filter": {
+        "title": "建置樂器篩選器",
+        "intro": [
+          "在這個工作坊中，你將使用 JavaScript 建置樂器篩選器。"
+        ]
+      },
+      "lab-real-time-counter": {
+        "title": "建置即時計數器",
+        "intro": [
+          "在這個實驗中，你將建置一個即時字元計數器。",
+          "你將練習當使用者在輸入欄位輸入時，如何處理 <code>input</code> 事件。"
+        ]
+      },
+      "lab-lightbox-viewer": {
+        "title": "建置燈箱檢視器",
+        "intro": [
+          "在這個實驗中，你將建置一個燈箱檢視器，用於專注模式下檢視圖片。",
+          "你將練習點擊事件和切換類別。"
+        ]
+      },
+      "workshop-library-search": {
+        "title": "建置圖書館書籍搜尋",
+        "intro": [
+          "在這個工作坊中，你將練習如何在 JavaScript 中優雅地處理錯誤。",
+          "你將建置一個圖書館書籍搜尋應用程式，並使用 <code>try...catch...finally</code> 區塊以及 <code>throw</code> 陳述式來捕捉和管理自訂錯誤。"
+        ]
+      },
+      "lecture-working-with-regex": {
+        "title": "使用正規表達式",
+        "intro": [
+          "在這些課程中，你將學習 JavaScript 中的正規表達式及其操作方法。"
+        ]
+      },
+      "workshop-spam-filter": {
+        "title": "建置垃圾郵件過濾器",
+        "intro": [
+          "正規表達式（常簡稱為「regex」或「regexp」）是幫助程式設計師匹配、搜尋和替換文字的樣式。正規表達式功能強大，但因使用許多特殊字元而較難理解。",
+          "在這個工作坊中，你將使用捕獲群組、正向先行斷言、負向先行斷言等技巧來匹配你想要的任何文字。"
+        ]
+      },
+      "lecture-working-with-client-side-storage-and-crud-operations-v2": {
+        "title": "使用客戶端儲存與 CRUD 操作",
+        "intro": [
+          "在這些課程中，你將學習 CRUD 操作，以及如何使用 <code>localStorage</code> 和 <code>sessionStorage</code> 來儲存、取用和移除資料。"
+        ]
+      },
+      "workshop-todo-app": {
+        "title": "使用本地儲存建置待辦事項應用程式",
+        "intro": [
+          "本地儲存是瀏覽器功能，允許網頁應用程式在使用者瀏覽器中持久儲存鍵值對。這讓網頁應用程式能在一次工作階段中存檔，並在後續頁面工作階段中取用。",
+          "在這個工作坊中，你將學習如何處理表單輸入、管理本地儲存、對任務執行 CRUD（創建、讀取、更新、刪除）操作、實作監聽器，以及切換 UI 元素。"
+        ]
+      },
+      "lab-bookmark-manager-app": {
+        "title": "建置書籤管理應用程式",
+        "intro": [
+          "在這個實驗中，你將建置一個書籤管理應用程式。",
+          "你將利用本地儲存來存放書籤，並練習如何新增、移除和顯示書籤。"
+        ]
+      },
+      "lecture-understanding-asynchronous-programming-v2": {
+        "title": "理解非同步程式設計",
+        "intro": [
+          "在這些課程中，你將學習 JavaScript 的非同步程式設計。你會了解同步與非同步程式設計的差異、<code>async</code> 關鍵字的運作、<code>Fetch</code> API、承諾（promises）、<code>async/await</code> 等更多內容。"
+        ]
+      },
+      "workshop-fcc-authors-page": {
+        "title": "建置 freeCodeCamp 作者頁面",
+        "intro": [
+          "網頁開發的一個常見面向是學習如何從外部 API 取得資料，然後使用非同步 JavaScript 進行處理。",
+          "在這個工作坊中，你將練習如何使用 fetch 方法，動態更新 DOM 以顯示取得的資料，並分頁你的資料，讓你可以批次載入結果。"
+        ]
+      },
+      "lab-weather-app-v2": {
+        "title": "建置天氣應用程式",
+        "intro": [
+          "在這個認證專案中，你將使用 API 建置一個天氣應用程式。",
+          "你將練習如何從 API 取得資料，並將其儲存與顯示在你的應用程式中。"
         ]
       }
     }

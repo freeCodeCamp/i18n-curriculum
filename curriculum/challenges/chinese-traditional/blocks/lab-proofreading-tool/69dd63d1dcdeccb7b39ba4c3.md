@@ -3,6 +3,7 @@ id: 69dd63d1dcdeccb7b39ba4c3
 title: 建置校對工具
 challengeType: 26
 dashedName: build-a-proofreading-tool
+saveSubmissionToDB: true
 ---
 
 # --description--
@@ -13,7 +14,7 @@ dashedName: build-a-proofreading-tool
 
 片語是一連串連續的字。例如，在 `["the", "cat", "sat", "the", "cat"]` 中，片語 `"the cat"`（由 2 個字組成）出現在位置 0 和 3。
 
-**目標：** 完成以下使用者故事並通過所有測試以完成此實驗。
+**目標：** 完成以下使用者故事並通過所有測試以完成實驗。
 
 **使用者故事：**
 

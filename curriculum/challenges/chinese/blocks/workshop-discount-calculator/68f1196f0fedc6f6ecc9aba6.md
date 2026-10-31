@@ -13,12 +13,12 @@ dashedName: step-4
 
 ```py
 def example_method(self, value: int) -> bool:
-  pass
+    pass
 ```
 
 你可能使用的其他返回类型提示包括 `str`、`None`、`float` 等。
 
-在现有的 `__init__` 方法中，添加返回类型提示 `None`，因为构造函数不返回值。
+在现有的 `__init__` 方法中，添加一个返回类型提示 `None`，因为 `__init__` 方法是一个初始化器，其返回值必须是 `None`。
 
 # --hints--
 

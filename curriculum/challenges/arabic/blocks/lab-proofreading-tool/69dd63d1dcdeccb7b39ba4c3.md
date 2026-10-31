@@ -3,6 +3,7 @@ id: 69dd63d1dcdeccb7b39ba4c3
 title: بناء أداة مراجعة
 challengeType: 26
 dashedName: build-a-proofreading-tool
+saveSubmissionToDB: true
 ---
 
 # --description--
@@ -13,7 +14,7 @@ dashedName: build-a-proofreading-tool
 
 العبارة هي متتالية من الكلمات المتتالية. على سبيل المثال، في `["the", "cat", "sat", "the", "cat"]`، تظهر العبارة `"the cat"` (متتالية من كلمتين) في المواضع 0 و3.
 
-**الهدف:** نفذ قصص المستخدم أدناه واجعل جميع الاختبارات تنجح لإكمال المختبر.
+**الهدف:** إكمال قصص المستخدم أدناه واجتياز جميع الاختبارات لإتمام المختبر.
 
 **قصص المستخدم:**
 

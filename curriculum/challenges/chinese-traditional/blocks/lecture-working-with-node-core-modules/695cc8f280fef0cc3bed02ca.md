@@ -52,7 +52,8 @@ console.log(path.basename(__filename)); // script.js
 `dirname()` 傳回路徑的目錄名稱：
 
 ```js
-console.log(path.dirname(__dirname)); // node-path
+console.log(path.dirname(__dirname));
+// /Users/user/Desktop/fCC/script-code/node
 ```
 
 `extname()` 傳回目前檔案的副檔名：

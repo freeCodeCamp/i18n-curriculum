@@ -13,12 +13,12 @@ Ecco un esempio di un metodo con suggerimenti sia per i parametri sia per il tip
 
 ```py
 def example_method(self, value: int) -> bool:
-  pass
+    pass
 ```
 
 Altri suggerimenti sul tipo di ritorno che potresti usare includono `str`, `None`, `float` e altri.
 
-Nel metodo `__init__` esistente, aggiungi un suggerimento sul tipo di ritorno `None` dato che i costruttori non restituiscono un valore.
+Nel metodo `__init__` esistente, aggiungi un hint sul tipo di ritorno `None` dato che il metodo `__init__` è un inizializzatore il cui valore di ritorno deve essere `None`.
 
 # --hints--
 

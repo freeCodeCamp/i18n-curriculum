@@ -13,12 +13,12 @@ Aqui está um exemplo de um método com dicas de tipo para parâmetro e tipo de 
 
 ```py
 def example_method(self, value: int) -> bool:
-  pass
+    pass
 ```
 
 Outros tipos de retorno que você pode usar incluem `str`, `None`, `float` e mais.
 
-No método `__init__` existente, adicione uma dica de tipo de retorno `None` já que construtores não retornam um valor.
+No método `__init__` existente, adicione uma dica de tipo de retorno `None` já que o método `__init__` é um inicializador cujo valor de retorno deve ser `None`.
 
 # --hints--
 

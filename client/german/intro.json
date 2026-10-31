@@ -1626,7 +1626,7 @@
         "title": "Überprüfung von Schleifen und Folgen",
         "intro": [
           "Bevor Sie ein Quiz zu Schleifen und Folgen machen, sollten Sie das Gelernte überprüfen.",
-          "Öffnen Sie diese Seite, um Konzepte zu Schleifen, Listen, Tuples und einigen ihrer gängigen Methoden zu wiederholen."
+          "Öffnen Sie diese Seite, um Konzepte zu Schleifen, Listen, Tuple und einige ihrer gängigen Methoden zu wiederholen."
         ]
       },
       "quiz-loops-and-sequences": {
@@ -1756,7 +1756,7 @@
         "title": "Überprüfung von Klassen und Objekten",
         "intro": [
           "Bevor Sie ein Quiz zu Klassen und Objekten machen, sollten Sie das Gelernte noch einmal überprüfen.",
-          "Öffnen Sie diese Seite, um Konzepte wie Funktionsweise von Klassen, Objekte, Methoden, Attribute, spezielle Methoden und mehr zu überprüfen."
+          "Öffnen Sie diese Seite, um Konzepte wie die Funktionsweise von Klassen, was Objekte sind, Methoden, Attribute, spezielle Methoden und mehr zu wiederholen."
         ]
       },
       "quiz-classes-and-objects": {
@@ -1780,7 +1780,7 @@
       "lecture-understanding-object-oriented-programming-and-encapsulation": {
         "title": "Objektorientierte Programmierung und Kapselung verstehen",
         "intro": [
-          "Lernen Sie in diesen Lektionen die objektorientierte Programmierung und Kapselung kennen."
+          "Lernen Sie in diesen Lektionen Klassen und Objekte kennen, wie Kapselung funktioniert und wie Sie Getter und Setter verwenden, um Attribute zuzugreifen und zu validieren."
         ]
       },
       "workshop-salary-tracker": {
@@ -1798,7 +1798,7 @@
       "lecture-understanding-inheritance-and-polymorphism": {
         "title": "Vererbung und Polymorphismus verstehen",
         "intro": [
-          "Lernen Sie in diesen Lektionen Vererbung und Polymorphismus kennen."
+          "Lernen Sie in diesen Lektionen, wie Vererbung und Polymorphismus die Wiederverwendung von Code fördern und wie Name Mangling in Python funktioniert."
         ]
       },
       "workshop-media-catalogue": {
@@ -6623,7 +6623,7 @@
         "title": "Überblick zu Schleifen und Folgen",
         "intro": [
           "Bevor Sie im Quiz zu Schleifen und Folgen geprüft werden, sollten Sie das Gelernte wiederholen.",
-          "Öffnen Sie diese Seite, um Konzepte zu Schleifen, Listen, Tuples und einigen ihrer gängigen Methoden zu wiederholen."
+          "Öffnen Sie diese Seite, um Konzepte zu Schleifen, Listen, Tuple und einige ihrer gängigen Methoden zu wiederholen."
         ]
       },
       "quiz-loops-and-sequences": {
@@ -6717,7 +6717,7 @@
         "title": "Überblick zu Klassen und Objekten",
         "intro": [
           "Bevor Sie im Quiz zu Klassen und Objekten geprüft werden, sollten Sie das Gelernte wiederholen.",
-          "Öffnen Sie diese Seite, um Konzepte wie Funktionsweise von Klassen, was Objekte sind, Methoden, Attribute, spezielle Methoden und mehr zu wiederholen."
+          "Öffnen Sie diese Seite, um Konzepte wie die Funktionsweise von Klassen, was Objekte sind, Methoden, Attribute, spezielle Methoden und mehr zu wiederholen."
         ]
       },
       "quiz-classes-and-objects": {
@@ -6735,7 +6735,7 @@
       "lecture-understanding-object-oriented-programming-and-encapsulation": {
         "title": "Objektorientierte Programmierung und Kapselung verstehen",
         "intro": [
-          "Lernen Sie in diesen Lektionen die objektorientierte Programmierung und Kapselung kennen."
+          "Lernen Sie in diesen Lektionen Klassen und Objekte kennen, wie Kapselung funktioniert und wie Sie Getter und Setter verwenden, um Attribute zuzugreifen und zu validieren."
         ]
       },
       "workshop-salary-tracker": {
@@ -6753,7 +6753,7 @@
       "lecture-understanding-inheritance-and-polymorphism": {
         "title": "Vererbung und Polymorphismus verstehen",
         "intro": [
-          "Lernen Sie in diesen Lektionen Vererbung und Polymorphismus kennen."
+          "Lernen Sie in diesen Lektionen, wie Vererbung und Polymorphismus die Wiederverwendung von Code fördern und wie Name Mangling in Python funktioniert."
         ]
       },
       "workshop-media-catalogue": {
@@ -8445,7 +8445,7 @@
         ]
       },
       "review-css-backgrounds-and-borders": {
-        "title": "Überprüfung von Listen, Links, CSS-Hintergründen und Rahmen",
+        "title": "Wiederholung zu Listen, Links, Hintergründen und Rahmen",
         "intro": [
           "Bevor Sie im Quiz zu CSS-Hintergründen und Rahmen geprüft werden, müssen Sie zuerst überprüfen.",
           "Öffnen Sie diese Seite, um Konzepte wie die Eigenschaft <code>background-image</code>, die Eigenschaft <code>border</code> und mehr zu überprüfen."
@@ -9701,7 +9701,7 @@
         ]
       },
       "review-css-backgrounds-and-borders": {
-        "title": "Listen, Links, CSS-Hintergründe und Rahmen überprüfen",
+        "title": "Wiederholung zu Listen, Links, Hintergründen und Rahmen",
         "intro": [
           "Bevor Sie zu CSS-Hintergründen und Rahmen abgefragt werden, müssen Sie diese zuerst überprüfen.",
           "Öffnen Sie diese Seite, um Konzepte wie die Eigenschaft <code>background-image</code>, die Eigenschaft <code>border</code> und mehr zu überprüfen."
@@ -10454,7 +10454,6 @@
     },
     "modules": {
       "python-basics": "Python-Grundlagen",
-      "python-installation": "Python installieren",
       "python-loops-and-sequences": "Schleifen und Folgen",
       "python-dictionaries-and-sets": "Wörterbücher und Sets",
       "lab-user-configuration-manager": "Erstellen Sie einen Benutzerkonfigurationsmanager",
@@ -10579,24 +10578,6 @@
           "Testen Sie Ihr Wissen zu Python-Grundlagen mit diesem Quiz."
         ]
       },
-      "lecture-python-installation": {
-        "title": "Python installieren und Code lokal ausführen",
-        "intro": [
-          "In diesen Lektionen lernen Sie, wie Sie Python auf Ihrem lokalen Gerät installieren und Code lokal ausführen."
-        ]
-      },
-      "review-python-installation": {
-        "title": "Überblick zur Python-Installation",
-        "intro": [
-          "Bevor Sie im Quiz zum lokalen Arbeiten mit Python geprüft werden, sollten Sie die in den Lektionen behandelten Konzepte wiederholen."
-        ]
-      },
-      "quiz-python-installation": {
-        "title": "Quiz zur Python-Installation",
-        "intro": [
-          "Testen Sie Ihr Wissen zur lokalen Python-Installation mit diesem Quiz."
-        ]
-      },
       "lecture-working-with-loops-and-sequences": {
         "title": "Arbeiten mit Schleifen und Folgen",
         "intro": [
@@ -10617,7 +10598,7 @@
         "title": "Überblick zu Schleifen und Folgen",
         "intro": [
           "Bevor Sie im Quiz zu Schleifen und Folgen geprüft werden, sollten Sie das Gelernte noch einmal überprüfen.",
-          "Öffnen Sie diese Seite, um Konzepte zu Schleifen, Listen, Tuples und einigen ihrer gängigen Methoden zu wiederholen."
+          "Öffnen Sie diese Seite, um Konzepte zu Schleifen, Listen, Tuple und einige ihrer gängigen Methoden zu wiederholen."
         ]
       },
       "quiz-loops-and-sequences": {
@@ -10711,7 +10692,7 @@
         "title": "Überblick zu Klassen und Objekten",
         "intro": [
           "Bevor Sie im Quiz zu Klassen und Objekten geprüft werden, sollten Sie das Gelernte noch einmal überprüfen.",
-          "Öffnen Sie diese Seite, um Konzepte wie Funktionsweise von Klassen, Objekte, Methoden, Attribute, spezielle Methoden und mehr zu wiederholen."
+          "Öffnen Sie diese Seite, um Konzepte wie die Funktionsweise von Klassen, was Objekte sind, Methoden, Attribute, spezielle Methoden und mehr zu wiederholen."
         ]
       },
       "quiz-classes-and-objects": {
@@ -10729,7 +10710,7 @@
       "lecture-understanding-object-oriented-programming-and-encapsulation": {
         "title": "Objektorientierte Programmierung und Kapselung verstehen",
         "intro": [
-          "Lernen Sie in diesen Lektionen die objektorientierte Programmierung und Kapselung kennen."
+          "Lernen Sie in diesen Lektionen Klassen und Objekte kennen, wie Kapselung funktioniert und wie Sie Getter und Setter verwenden, um Attribute zuzugreifen und zu validieren."
         ]
       },
       "workshop-salary-tracker": {
@@ -10747,7 +10728,7 @@
       "lecture-understanding-inheritance-and-polymorphism": {
         "title": "Vererbung und Polymorphismus verstehen",
         "intro": [
-          "Lernen Sie in diesen Lektionen Vererbung und Polymorphismus kennen."
+          "Lernen Sie in diesen Lektionen, wie Vererbung und Polymorphismus die Wiederverwendung von Code fördern und wie Name Mangling in Python funktioniert."
         ]
       },
       "workshop-media-catalogue": {
@@ -10852,6 +10833,12 @@
           "In diesen Lektionen lernen Sie, was Algorithmen sind, wie man sie mit der Big-O-Notation analysiert und gute Techniken für algorithmische Probleme anwendet."
         ]
       },
+      "lab-stock-profit-calculator": {
+        "title": "Einen Aktien-Gewinnrechner bauen",
+        "intro": [
+          "In diesem Labor finden Sie den besten Gewinn aus einem einzelnen Aktienhandel mit einem Algorithmus in linearer Zeit."
+        ]
+      },
       "lecture-searching-and-sorting-algorithms-v2": {
         "title": "Such- und Sortieralgorithmen",
         "intro": [
@@ -10865,10 +10852,22 @@
           "In diesem Workshop implementieren Sie den binären Suchalgorithmus und geben den Pfad zurück, den er genommen hat, um das Ziel zu finden, oder geben 'Wert nicht gefunden' zurück."
         ]
       },
+      "lab-bubble-sort": {
+        "title": "Den Bubble-Sort-Algorithmus implementieren",
+        "intro": [
+          "In diesem Labor implementieren Sie den Bubble-Sort-Algorithmus in Python."
+        ]
+      },
       "lab-selection-sort": {
         "title": "Implementieren Sie den Selection-Sort-Algorithmus",
         "intro": [
           "In diesem Labor implementieren Sie den Selection-Sort-Algorithmus."
+        ]
+      },
+      "lab-insertion-sort-py": {
+        "title": "Den Insertion-Sort-Algorithmus implementieren",
+        "intro": [
+          "In diesem Labor implementieren Sie den Insertion-Sort-Algorithmus in Python."
         ]
       },
       "review-python-algorithms": {
@@ -10899,6 +10898,30 @@
         "title": "Erstellen Sie eine verkettete Liste",
         "intro": [
           "In diesem Workshop üben Sie den Umgang mit Datenstrukturen, indem Sie eine verkettete Liste erstellen."
+        ]
+      },
+      "lab-linked-list-operations-python": {
+        "title": "Operationen an verketteten Listen implementieren",
+        "intro": [
+          "In diesem Labor erweitern Sie eine Klasse für verkettete Listen mit Methoden zum Suchen, Zugreifen, Einfügen und Entfernen von Elementen nach Index."
+        ]
+      },
+      "lab-doubly-linked-list": {
+        "title": "Eine doppelt verkettete Liste bauen",
+        "intro": [
+          "In diesem Labor bauen Sie eine doppelt verkettete Liste, bei der jeder Knoten eine Referenz sowohl auf den nächsten als auch auf den vorherigen Knoten in der Liste hält."
+        ]
+      },
+      "lab-build-a-stack": {
+        "title": "Einen Stapel bauen",
+        "intro": [
+          "In diesem Labor bauen Sie einen Stapel mit Funktionen zum Pushen, Poppen und Ansehen von Elementen."
+        ]
+      },
+      "lab-queue-python": {
+        "title": "Eine Warteschlange bauen",
+        "intro": [
+          "In diesem Labor bauen Sie eine Warteschlangenklasse, die dem First-in-first-out-Prinzip folgt."
         ]
       },
       "review-linear-data-structures": {
@@ -10999,6 +11022,12 @@
           "In diesem Labor implementieren Sie eine Funktion, die eine Adjazenzlisten-Darstellung eines Graphen in eine Adjazenzmatrix-Darstellung umwandelt."
         ]
       },
+      "lab-incidence-matrix": {
+        "title": "Eine Inzidenzmatrix bauen",
+        "intro": [
+          "In diesem Labor bauen Sie eine Funktion, die eine Kantenliste eines gerichteten Graphen in eine Inzidenzmatrix umwandelt."
+        ]
+      },
       "lab-depth-first-search": {
         "title": "Implementieren Sie den Tiefensuche-Algorithmus",
         "intro": [
@@ -11021,6 +11050,12 @@
         "title": "Verstehen von Bäumen und Tries",
         "intro": [
           "In dieser Lektion lernen Sie, was Bäume und Tries sind und wie sie funktionieren."
+        ]
+      },
+      "workshop-binary-search-tree": {
+        "title": "Einen binären Suchbaum bauen",
+        "intro": [
+          "In diesem Workshop bauen Sie einen binären Suchbaum, lernen, wie man Werte einfügt, sucht, löscht und ihn mit Inorder-Traversierung durchläuft."
         ]
       },
       "lecture-understanding-priority-queues-and-heaps": {
@@ -11095,7 +11130,8 @@
     },
     "modules": {
       "html": "HTML",
-      "css": "CSS"
+      "css": "CSS",
+      "javascript": "JavaScript"
     },
     "blocks": {
       "workshop-curriculum-outline": {
@@ -11249,8 +11285,7 @@
       "workshop-greeting-card": {
         "title": "Gestalten Sie eine Grußkarte",
         "intro": [
-          "In den vorherigen Vorlesungen haben Sie gelernt, wie man mit verschiedenen Arten von Pseudoklassen arbeitet.",
-          "In diesem Workshop haben Sie die Möglichkeit, das Gelernte anzuwenden, indem Sie eine Grußkarte gestalten."
+          "In diesem Workshop haben Sie die Möglichkeit, den Umgang mit Pseudoklassen zu üben, indem Sie eine Grußkarte gestalten."
         ]
       },
       "lab-tribute-page": {
@@ -11292,7 +11327,7 @@
       "workshop-rothko-painting": {
         "title": "Gestalten Sie ein Rothko-Gemälde",
         "intro": [
-          "Jedes HTML-Element ist eine eigene Box – mit eigenem Abstand und Rahmen. Das nennt man das Box-Modell.",
+          "Jedes HTML-Element ist seine eigene Box mit eigenem Abstand und Rahmen. Das nennt man das Box-Modell.",
           "In diesem Workshop verwenden Sie CSS und das Box-Modell, um eigene rechteckige Kunstwerke im Rothko-Stil zu erstellen."
         ]
       },
@@ -11364,14 +11399,14 @@
       "workshop-balance-sheet": {
         "title": "Erstellen Sie eine Bilanz",
         "intro": [
-          "In diesem Workshop erstellen Sie eine Bilanz mit Pseudoselektoren. Sie lernen, wie Sie den Stil eines Elements ändern, wenn Sie mit der Maus darüberfahren, und wie Sie andere Ereignisse auf Ihrer Webseite auslösen."
+          "In diesem Workshop bauen Sie eine Bilanz mit Pseudo-Selektoren. Sie lernen, wie Sie den Stil eines Elements ändern, wenn Sie mit der Maus darüberfahren, und andere Ereignisse auf Ihrer Webseite auslösen."
         ]
       },
       "workshop-piano": {
         "title": "Gestalten Sie ein Klavier",
         "intro": [
           "Responsives Design sagt Ihrer Webseite, wie sie auf Bildschirmen unterschiedlicher Größe aussehen soll.",
-          "In diesem Workshop verwenden Sie CSS und responsives Design, um ein Klavier zu programmieren. Sie üben auch Media Queries und Pseudoselektoren."
+          "In diesem Workshop verwenden Sie CSS und responsives Design, um ein Klavier zu programmieren. Sie üben auch Media Queries und Pseudo-Selektoren."
         ]
       },
       "lab-technical-documentation-page-v2": {
@@ -11387,11 +11422,346 @@
           "In dieser Vorlesung lernen Sie, wie Sie benutzerdefinierte Eigenschaften (auch CSS-Variablen genannt) definieren und verwenden."
         ]
       },
+      "lecture-working-with-css-grid": {
+        "title": "Arbeiten mit CSS Grid",
+        "intro": [
+          "In diesen Vorlesungen lernen Sie CSS Grid, seine verschiedenen Eigenschaften und deren Anwendung sowie die Unterschiede zu Flexbox kennen."
+        ]
+      },
       "workshop-magazine": {
         "title": "Erstellen Sie ein Magazin",
         "intro": [
           "CSS Grid gibt Ihnen Kontrolle über die Reihen und Spalten Ihres Webseiten-Designs.",
           "In diesem Workshop erstellen Sie einen Magazinartikel. Sie üben, wie man CSS Grid verwendet, einschließlich Konzepten wie Grid-Reihen und Grid-Spalten."
+        ]
+      },
+      "review-css-v2": {
+        "title": "CSS-Überblick",
+        "intro": [
+          "Bevor Sie das CSS-Quiz machen, müssen Sie zuerst die in den vorherigen Modulen vermittelten Konzepte wiederholen.",
+          "Öffnen Sie diese Seite, um die gelernten CSS-Konzepte zu wiederholen."
+        ]
+      },
+      "quiz-css": {
+        "title": "CSS-Quiz",
+        "intro": [
+          "Das folgende Quiz testet Ihr Wissen über die bisher gelernten CSS-Konzepte."
+        ]
+      },
+      "lecture-introduction-to-javascript-v2": {
+        "title": "Einführung in JavaScript",
+        "intro": [
+          "In diesen Vorlesungen lernen Sie die Grundlagen von JavaScript. Die behandelten Themen umfassen unter anderem Variablen, Datentypen, wie JavaScript mit HTML und CSS interagiert, Strings und vieles mehr."
+        ]
+      },
+      "workshop-greeting-bot": {
+        "title": "Einen Begrüßungs-Bot bauen",
+        "intro": [
+          "In diesem Workshop lernen Sie die Grundlagen von JavaScript, indem Sie einen Begrüßungs-Bot bauen.",
+          "Sie lernen Variablen, <code>let</code>, <code>const</code>, <code>console.log</code> und die grundlegende Verwendung von Strings kennen."
+        ]
+      },
+      "lecture-working-with-strings": {
+        "title": "Arbeiten mit Strings",
+        "intro": [
+          "In dieser Vorlesung lernen Sie, wie Sie Template-Literale verwenden, Variablen und Ausdrücke interpolieren und mehrzeilige Strings in JavaScript erstellen."
+        ]
+      },
+      "workshop-teacher-chatbot": {
+        "title": "Einen Lehrer-Chatbot bauen",
+        "intro": [
+          "In diesem Workshop lernen Sie mehr über JavaScript-Strings, indem Sie einen Chatbot bauen.",
+          "Sie lernen, wie Sie mit Template-Literalen und der <code>indexOf</code>-Methode arbeiten."
+        ]
+      },
+      "lecture-working-with-data-types-v2": {
+        "title": "Arbeiten mit Datentypen",
+        "intro": [
+          "In den folgenden Vorlesungen lernen Sie Datentypen in JavaScript und den <code>typeof</code>-Operator kennen."
+        ]
+      },
+      "workshop-string-inspector": {
+        "title": "Einen String-Inspektor bauen",
+        "intro": [
+          "In diesem Workshop üben Sie den Umgang mit den Methoden <code>includes()</code> und <code>slice()</code>, indem Sie einen String-Inspektor bauen."
+        ]
+      },
+      "workshop-string-formatter": {
+        "title": "Einen String-Formatter bauen",
+        "intro": [
+          "In diesem Workshop üben Sie verschiedene String-Methoden, darunter <code>trim()</code>, <code>toUpperCase()</code> und <code>toLowerCase()</code>."
+        ]
+      },
+      "workshop-string-transformer": {
+        "title": "Einen String-Transformer bauen",
+        "intro": [
+          "In diesem Workshop üben Sie die Methoden <code>replace()</code>, <code>replaceAll()</code> und <code>repeat()</code>."
+        ]
+      },
+      "lecture-working-with-conditional-logic": {
+        "title": "Arbeiten mit bedingter Logik",
+        "intro": [
+          "In diesen Vorlesungen lernen Sie bedingte Anweisungen, binäre logische Operatoren und die <code>switch</code>-Anweisung kennen."
+        ]
+      },
+      "workshop-logic-checker-app": {
+        "title": "Eine Logikprüfer-App bauen",
+        "intro": [
+          "In diesem Workshop üben Sie den Umgang mit bedingten Anweisungen und Vergleichsoperatoren, indem Sie eine Logikprüfer-App bauen."
+        ]
+      },
+      "lecture-working-with-the-math-object": {
+        "title": "Arbeiten mit dem Math-Objekt",
+        "intro": [
+          "In diesen Vorlesungen lernen Sie, wie Sie mit dem Math-Objekt in JavaScript arbeiten. Sie lernen die verschiedenen Methoden des Math-Objekts und deren Anwendung kennen."
+        ]
+      },
+      "workshop-mathbot": {
+        "title": "Einen Mathbot bauen",
+        "intro": [
+          "In diesem Workshop wiederholen Sie den Umgang mit den verschiedenen Methoden des Math-Objekts, indem Sie einen Mathbot bauen."
+        ]
+      },
+      "lab-fortune-teller": {
+        "title": "Einen Wahrsager bauen",
+        "intro": [
+          "In diesem Labor bauen Sie einen Wahrsager, indem Sie zufällig ein Schicksal aus den verfügbaren auswählen.",
+          "Sie üben, wie Sie mit der Methode <code>Math.random()</code> und der Methode <code>Math.floor()</code> Zufallszahlen erzeugen."
+        ]
+      },
+      "lecture-working-with-numbers-and-common-number-methods": {
+        "title": "Arbeiten mit Zahlen und gängigen Zahlenmethoden",
+        "intro": [
+          "In diesen Vorlesungen lernen Sie Zahlen und gängige Zahlenmethoden kennen. Dazu gehören <code>isNaN()</code>, <code>parseInt()</code>, <code>parseFloat()</code> und <code>toFixed()</code>."
+        ]
+      },
+      "lecture-working-with-functions": {
+        "title": "Arbeiten mit Funktionen",
+        "intro": [
+          "In diesen Vorlesungen lernen Sie, wie Sie einen Codeblock mit Funktionen wiederverwenden. Sie erfahren, welchen Zweck eine Funktion hat, wie sie funktioniert und wie der Gültigkeitsbereich in der Programmierung funktioniert."
+        ]
+      },
+      "workshop-calculator": {
+        "title": "Einen Taschenrechner bauen",
+        "intro": [
+          "In diesem Workshop wiederholen Sie Ihr Wissen über Funktionen, indem Sie einen Taschenrechner bauen."
+        ]
+      },
+      "lab-email-masker": {
+        "title": "Einen E-Mail-Maskierer bauen",
+        "intro": [
+          "In diesem Labor bauen Sie einen E-Mail-Maskierer, der eine E-Mail-Adresse nimmt und sie verschleiert.",
+          "Sie üben das Ausschneiden von Strings, das Verketten und die Verwendung von Funktionen."
+        ]
+      },
+      "lecture-working-with-arrays-and-common-array-methods": {
+        "title": "Arbeiten mit Arrays und gängigen Array-Methoden",
+        "intro": [
+          "In diesen Vorlesungen lernen Sie, wie Sie mit JavaScript-Arrays arbeiten. Sie erfahren, was ein Array ausmacht, wie Sie auf die Elemente eines Arrays zugreifen und diese aktualisieren und vieles mehr."
+        ]
+      },
+      "workshop-shopping-list": {
+        "title": "Eine Einkaufsliste bauen",
+        "intro": [
+          "In diesem Workshop üben Sie, wie Sie mit Arrays arbeiten, indem Sie eine Einkaufsliste erstellen.",
+          "Sie wiederholen, wie Sie Elemente mit Methoden wie <code>push</code>, <code>pop</code>, <code>shift</code> und <code>unshift</code> zu einem Array hinzufügen und daraus entfernen."
+        ]
+      },
+      "lab-lunch-picker-program": {
+        "title": "Ein Programm zum Auswählen des Mittagessens bauen",
+        "intro": [
+          "In diesem Labor wiederholen Sie das Arbeiten mit Arrays und Zufallszahlen, indem Sie ein Programm zum Auswählen des Mittagessens bauen."
+        ]
+      },
+      "lecture-working-with-objects": {
+        "title": "Einführung in JavaScript-Objekte und ihre Eigenschaften",
+        "intro": [
+          "In diesen Vorlesungen lernen Sie die Grundlagen von JavaScript-Objekten und wie Sie auf deren Eigenschaften zugreifen."
+        ]
+      },
+      "workshop-wildlife-tracker": {
+        "title": "Einen Wildtier-Tracker bauen",
+        "intro": [
+          "In diesem Workshop bauen Sie einen einfachen Wildtier-Tracker mit JavaScript-Objekten.",
+          "Sie üben das Erstellen von Objekten, das Zugreifen auf und Aktualisieren von Eigenschaften, das Löschen von Eigenschaften, das Überprüfen auf das Vorhandensein von Eigenschaften und das Arbeiten mit der Klammernotation."
+        ]
+      },
+      "lecture-working-with-json": {
+        "title": "Arbeiten mit JSON",
+        "intro": [
+          "In diesen Vorlesungen lernen Sie JavaScript Object Notation (JSON) kennen, einschließlich wie Sie auf JSON-Daten zugreifen und die Methoden <code>JSON.parse()</code> und <code>JSON.stringify()</code> verwenden."
+        ]
+      },
+      "lecture-working-with-optional-chaining-and-object-destructuring": {
+        "title": "Arbeiten mit optionaler Verkettung und Objekt-Destrukturierung",
+        "intro": [
+          "In diesen Vorlesungen lernen Sie fortgeschrittene Techniken zur Objektmanipulation in JavaScript kennen, darunter den optionalen Verkettungsoperator und die Syntax der Objekt-Destrukturierung."
+        ]
+      },
+      "workshop-recipe-tracker": {
+        "title": "Einen Rezept-Tracker bauen",
+        "intro": [
+          "In diesem Workshop wiederholen Sie das Arbeiten mit JavaScript-Objekten, indem Sie einen Rezept-Tracker bauen."
+        ]
+      },
+      "lab-quiz-game": {
+        "title": "Ein Quizspiel bauen",
+        "intro": [
+          "In diesem Labor bauen Sie ein Quizspiel mit JavaScript-Arrays und -Objekten.",
+          "Sie üben außerdem, wie Sie Funktionen verwenden, um zufällig eine Frage und eine Antwort aus einem Array auszuwählen und diese zu vergleichen."
+        ]
+      },
+      "lecture-working-with-loops": {
+        "title": "Arbeiten mit Schleifen",
+        "intro": [
+          "Schleifen sind ein wesentlicher Bestandteil von JavaScript. Deshalb wurden die folgenden Vorlesungen für Sie vorbereitet, um die verschiedenen Arten von Schleifen und deren Funktionsweise sowie das Iterieren kennenzulernen."
+        ]
+      },
+      "workshop-word-counter": {
+        "title": "Einen Wortzähler bauen",
+        "intro": [
+          "In diesem Workshop üben Sie die Verwendung von <code>for...of</code>-Schleifen, indem Sie eine Funktion bauen, die das Vorkommen eines Strings in einem Array von Strings zählt."
+        ]
+      },
+      "lab-profile-lookup": {
+        "title": "Eine Profilabfrage bauen",
+        "intro": [
+          "In diesem Labor erstellen Sie eine Funktion, die Profilinformationen abruft."
+        ]
+      },
+      "workshop-campus-directory-normalizer": {
+        "title": "Einen Campus-Verzeichnis-Normalisierer bauen",
+        "intro": [
+          "In diesem Workshop normalisieren Sie verschachtelte Daten in unabhängige, leicht zu verwendende Nachschlagetabellen."
+        ]
+      },
+      "lab-proofreading-tool-v2": {
+        "title": "Ein Korrekturlese-Tool bauen",
+        "intro": [
+          "In diesem Zertifizierungsprojekt bauen Sie ein Korrekturlese-Tool, das Arrays von Wörtern auf Palindrome und wiederholte Phrasen analysiert.",
+          "Sie üben for-Schleifen und verschachtelte Schleifen, um Palindrome zu überprüfen und wiederholte Wortfolgen zu finden."
+        ]
+      },
+      "lecture-working-with-higher-order-functions-and-callbacks": {
+        "title": "Arbeiten mit höherwertigen Funktionen und Callbacks",
+        "intro": [
+          "In diesen Vorlesungen lernen Sie, wie Sie mit höherwertigen Funktionen und Callbacks arbeiten. Die höherwertigen Funktionen, die Sie kennenlernen, umfassen <code>map()</code>, <code>filter()</code>, <code>reduce()</code>, <code>sort()</code>, <code>every()</code> und <code>some()</code>. Sie lernen auch, wie Sie diese Methoden verketten, um die gewünschten Ergebnisse zu erzielen."
+        ]
+      },
+      "workshop-library-manager": {
+        "title": "Einen Bibliotheksmanager bauen",
+        "intro": [
+          "In diesem Workshop lernen Sie höherwertige Array-Methoden, indem Sie einen Bibliotheksmanager bauen."
+        ]
+      },
+      "lab-book-organizer": {
+        "title": "Einen Buchorganisator bauen",
+        "intro": [
+          "In diesem Labor bauen Sie einen Buchorganisator mit höherwertigen Funktionen in JavaScript."
+        ]
+      },
+      "lecture-introduction-to-the-dom": {
+        "title": "Einführung in das DOM",
+        "intro": [
+          "In diesen Vorlesungen lernen Sie das Document Object Model (DOM) kennen und wie Sie mit JavaScript damit interagieren."
+        ]
+      },
+      "workshop-storytelling-app": {
+        "title": "Eine Storytelling-App bauen",
+        "intro": [
+          "In diesem Workshop bauen Sie eine Storytelling-App, mit der Sie verschiedene Geschichten nach Genre auflisten können."
+        ]
+      },
+      "workshop-emoji-reactor": {
+        "title": "Einen Emoji-Reaktor bauen",
+        "intro": [
+          "In diesem Workshop bauen Sie einen Emoji-Reaktor, um <code>querySelector</code> und <code>querySelectorAll</code> zu üben."
+        ]
+      },
+      "lab-favorite-icon-toggler": {
+        "title": "Einen Favoriten-Icon-Umschalter bauen",
+        "intro": [
+          "In diesem Labor bauen Sie einen Favoriten-Icon-Umschalter, indem Sie JavaScript-Klickereignisse nutzen."
+        ]
+      },
+      "workshop-music-instrument-filter": {
+        "title": "Einen Musik-Instrumentenfilter bauen",
+        "intro": [
+          "In diesem Workshop bauen Sie einen Musik-Instrumentenfilter mit JavaScript."
+        ]
+      },
+      "lab-real-time-counter": {
+        "title": "Einen Echtzeit-Zähler bauen",
+        "intro": [
+          "In diesem Labor bauen Sie einen Echtzeit-Zeichenzähler.",
+          "Sie üben, wie Sie mit dem <code>input</code>-Ereignis arbeiten, wenn der Benutzer im Eingabefeld tippt."
+        ]
+      },
+      "lab-lightbox-viewer": {
+        "title": "Einen Lightbox-Viewer bauen",
+        "intro": [
+          "In diesem Labor bauen Sie einen Lightbox-Viewer, um Bilder im Fokusmodus anzusehen.",
+          "Sie üben Klickereignisse und das Umschalten von Klassen."
+        ]
+      },
+      "workshop-library-search": {
+        "title": "Eine Bibliotheksbuchsuche bauen",
+        "intro": [
+          "In diesem Workshop üben Sie, wie Sie Fehler in JavaScript elegant behandeln.",
+          "Sie bauen eine Bibliotheksbuchsuche-Anwendung und verwenden <code>try...catch...finally</code>-Blöcke sowie die <code>throw</code>-Anweisung, um benutzerdefinierte Fehler abzufangen und zu verwalten."
+        ]
+      },
+      "lecture-working-with-regex": {
+        "title": "Arbeiten mit regulären Ausdrücken",
+        "intro": [
+          "In diesen Vorlesungen lernen Sie reguläre Ausdrücke in JavaScript und die Methoden zu deren Verwendung kennen."
+        ]
+      },
+      "workshop-spam-filter": {
+        "title": "Einen Spam-Filter bauen",
+        "intro": [
+          "Reguläre Ausdrücke, oft als \"regex\" oder \"regexp\" abgekürzt, sind Muster, die Programmierern helfen, Text zu finden, zu durchsuchen und zu ersetzen. Reguläre Ausdrücke sind mächtig, können aber schwer zu verstehen sein, weil sie viele Sonderzeichen verwenden.",
+          "In diesem Workshop verwenden Sie Capture-Gruppen, positive Vorausschau, negative Vorausschau und andere Techniken, um jeden gewünschten Text zu finden."
+        ]
+      },
+      "lecture-working-with-client-side-storage-and-crud-operations-v2": {
+        "title": "Arbeiten mit clientseitigem Speicher und CRUD-Operationen",
+        "intro": [
+          "In diesen Vorlesungen lernen Sie CRUD-Operationen und wie Sie Daten mit <code>localStorage</code> und <code>sessionStorage</code> speichern, abrufen und entfernen."
+        ]
+      },
+      "workshop-todo-app": {
+        "title": "Eine Todo-App mit lokalem Speicher bauen",
+        "intro": [
+          "Lokaler Speicher ist eine Funktion des Webbrowsers, die es Webanwendungen ermöglicht, Schlüssel-Wert-Paare dauerhaft im Browser eines Nutzers zu speichern. So können Web-Apps Daten während einer Sitzung speichern und in einer späteren Sitzung wieder abrufen.",
+          "In diesem Workshop lernen Sie, wie Sie Formulareingaben verarbeiten, lokalen Speicher verwalten, CRUD-Operationen (Erstellen, Lesen, Aktualisieren, Löschen) für Aufgaben durchführen, Ereignis-Listener implementieren und UI-Elemente umschalten."
+        ]
+      },
+      "lab-bookmark-manager-app": {
+        "title": "Eine Lesezeichen-Manager-App bauen",
+        "intro": [
+          "Für dieses Labor bauen Sie eine Lesezeichen-Manager-App.",
+          "Sie nutzen lokalen Speicher, um Lesezeichen zu speichern, und üben, wie Sie Lesezeichen hinzufügen, entfernen und anzeigen."
+        ]
+      },
+      "lecture-understanding-asynchronous-programming-v2": {
+        "title": "Asynchrone Programmierung verstehen",
+        "intro": [
+          "In diesen Vorlesungen lernen Sie asynchrone Programmierung in JavaScript kennen. Sie erfahren die Unterschiede zwischen synchroner und asynchroner Programmierung, wie das <code>async</code>-Schlüsselwort funktioniert, die <code>Fetch</code>-API, Promises, <code>async/await</code> und vieles mehr."
+        ]
+      },
+      "workshop-fcc-authors-page": {
+        "title": "Erstellen Sie eine fCC-Autoren-Seite",
+        "intro": [
+          "Ein häufiger Aspekt der Webentwicklung ist das Erlernen, wie man Daten von einer externen API abruft und dann mit asynchronem JavaScript arbeitet.",
+          "In diesem Workshop üben Sie, wie Sie die fetch-Methode verwenden, den DOM dynamisch aktualisieren, um die abgerufenen Daten anzuzeigen, und Ihre Daten paginieren, damit Sie Ergebnisse in Chargen laden können."
+        ]
+      },
+      "lab-weather-app-v2": {
+        "title": "Erstellen Sie eine Wetter-App",
+        "intro": [
+          "In diesem Zertifizierungsprojekt erstellen Sie eine Wetter-App mit einer API.",
+          "Sie üben, wie Sie Daten von der API abrufen, speichern und in Ihrer App anzeigen."
         ]
       }
     }

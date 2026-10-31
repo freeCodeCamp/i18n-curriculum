@@ -3,6 +3,7 @@ id: 69dd63d1dcdeccb7b39ba4c3
 title: Ein Korrekturlese-Tool bauen
 challengeType: 26
 dashedName: build-a-proofreading-tool
+saveSubmissionToDB: true
 ---
 
 # --description--
@@ -13,7 +14,7 @@ Ein Palindrom ist ein Wort, das vorwärts und rückwärts gleich gelesen wird. Z
 
 Eine Phrase ist eine Folge aufeinanderfolgender Wörter. Zum Beispiel erscheint in `["the", "cat", "sat", "the", "cat"]` die Phrase `"the cat"` (eine Folge von 2 Wörtern) an den Positionen 0 und 3.
 
-**Ziel:** Erfüllen Sie die untenstehenden User Stories und bringen Sie alle Tests zum Bestehen, um das Labor abzuschließen.
+**Ziel:** Erfüllen Sie die untenstehenden User Stories und bestehen Sie alle Tests, um das Labor abzuschließen.
 
 **User Stories:**
 

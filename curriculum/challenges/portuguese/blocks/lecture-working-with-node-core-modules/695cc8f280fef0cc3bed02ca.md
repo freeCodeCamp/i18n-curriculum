@@ -52,7 +52,8 @@ console.log(path.basename(__filename)); // script.js
 `dirname()` retorna o nome do diretório de um caminho:
 
 ```js
-console.log(path.dirname(__dirname)); // node-path
+console.log(path.dirname(__dirname));
+// /Users/user/Desktop/fCC/script-code/node
 ```
 
 `extname()` retorna a extensão do arquivo atual:
