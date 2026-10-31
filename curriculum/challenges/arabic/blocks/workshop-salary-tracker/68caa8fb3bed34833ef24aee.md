@@ -1,6 +1,6 @@
 ---
 id: 68caa8fb3bed34833ef24aee
-title: خطوة 33
+title: الخطوة 33
 challengeType: 20
 dashedName: step-33
 ---
@@ -47,7 +47,7 @@ class Employee:
         return f'{self.name}: {self.level}'
 
     def __repr__(self):
-        return f"Employee('{self.name}', '{self.level}')"
+        return f'Employee({self.name!r}, {self.level!r})'
 
     @property
     def name(self):

@@ -1,8 +1,9 @@
 ---
 id: 69dd63d1dcdeccb7b39ba4c3
-title: construir uma ferramenta de revisar texto
+title: Construir uma ferramenta de revisar texto
 challengeType: 26
 dashedName: build-a-proofreading-tool
+saveSubmissionToDB: true
 ---
 
 # --description--
@@ -13,9 +14,9 @@ Um palíndromo é uma palavra que se lê igual da frente para trás e de trás p
 
 Uma frase é uma sequência de palavras consecutivas. Por exemplo, em `["the", "cat", "sat", "the", "cat"]`, a frase `"the cat"` (uma sequência de 2 palavras) aparece nas posições 0 e 3.
 
-**Objetivo:** Atenda às user stories abaixo e faça todos os testes passarem para completar o laboratório.
+**Objetivo:** Cumprir as user stories abaixo e fazer todos os testes passarem para completar o laboratório.
 
-**User stories:**
+**Histórias de Usuário:**
 
 1. Você deve definir uma função chamada `isPalindrome` que recebe uma string `word` como argumento. Ela deve retornar `true` se a palavra for um palíndromo (ignorando maiúsculas e minúsculas) e `false` caso contrário.
 

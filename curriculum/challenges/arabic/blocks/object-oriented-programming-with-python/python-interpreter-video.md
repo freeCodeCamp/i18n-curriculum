@@ -1,6 +1,6 @@
 ---
 id: 697fe6c932baa3841ab62a65
-title: مفسر بايثون
+title: مفسر Python
 challengeType: 11
 videoId: -c1vFEsIod4
 dashedName: python-interpreter
@@ -8,13 +8,13 @@ dashedName: python-interpreter
 
 # --description--
 
-في هذا الفيديو، ستتعلم كيفية العمل مع مفسر بايثون.
+في هذا الفيديو، ستتعلم كيفية العمل مع مفسر Python.
 
 # --questions--
 
 ## --text--
 
-ما هو مفسر بايثون؟
+ما هو مفسر Python؟
 
 ## --answers--
 
@@ -22,11 +22,11 @@ dashedName: python-interpreter
 
 ---
 
-هذه أداة تُحوّل بايثون إلى جافا أو C++.
+هذه أداة تُحوّل Python إلى جافا أو C++.
 
 ---
 
-هذه مكتبة تخزن دوال بايثون.
+هذه مكتبة تخزن دوال Python.
 
 ---
 

@@ -3,6 +3,7 @@ id: 69dd63d1dcdeccb7b39ba4c3
 title: 构建校对工具
 challengeType: 26
 dashedName: build-a-proofreading-tool
+saveSubmissionToDB: true
 ---
 
 # --description--
@@ -13,7 +14,7 @@ dashedName: build-a-proofreading-tool
 
 短语是一段连续的单词序列。例如，在 `["the", "cat", "sat", "the", "cat"]` 中，短语 `"the cat"`（由 2 个单词组成的序列）出现在位置 0 和 3。
 
-**目标：** 完成以下用户故事并通过所有测试以完成本实验。
+**目标：**实现以下用户需求并通过所有测试以完成实验。
 
 **用户故事：**
 

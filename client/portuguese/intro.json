@@ -1756,7 +1756,7 @@
         "title": "Revisão de classes e objetos",
         "intro": [
           "Antes de fazer o quiz sobre classes e objetos, revise o que aprendeu sobre eles.",
-          "Abra esta página para revisar conceitos como funcionamento das classes, o que são objetos, métodos, atributos, métodos especiais e mais."
+          "Abra esta página para revisar conceitos como o funcionamento das classes, o que são objetos, métodos, atributos, métodos especiais e mais."
         ]
       },
       "quiz-classes-and-objects": {
@@ -1780,7 +1780,7 @@
       "lecture-understanding-object-oriented-programming-and-encapsulation": {
         "title": "Entendendo programação orientada a objetos e encapsulamento",
         "intro": [
-          "Aprenda sobre programação orientada a objetos e encapsulamento nestas lições."
+          "Aprenda sobre classes e objetos, como funciona o encapsulamento e como usar getters e setters para acessar e validar atributos nestas lições."
         ]
       },
       "workshop-salary-tracker": {
@@ -1798,7 +1798,7 @@
       "lecture-understanding-inheritance-and-polymorphism": {
         "title": "Entendendo herança e polimorfismo",
         "intro": [
-          "Aprenda sobre herança e polimorfismo nestas lições."
+          "Aprenda como herança e polimorfismo promovem o reuso de código e como funciona o name mangling em Python nestas lições."
         ]
       },
       "workshop-media-catalogue": {
@@ -6576,7 +6576,7 @@
         "title": "Revisão dos fundamentos de Python",
         "intro": [
           "Antes de fazer o quiz sobre os fundamentos de Python, você deve revisar o que aprendeu.",
-          "Nesta página de revisão, você vai revisar como trabalhar com strings, funções, operadores de comparação e mais."
+          "Nesta página de revisão, você revisará o trabalho com strings, funções, operadores de comparação e mais."
         ]
       },
       "quiz-python-basics": {
@@ -6717,7 +6717,7 @@
         "title": "Revisão de classes e objetos",
         "intro": [
           "Antes de fazer o quiz sobre classes e objetos, você deve revisar o que aprendeu sobre eles.",
-          "Abra esta página para revisar conceitos como funcionamento das classes, o que são objetos, métodos, atributos, métodos especiais e mais."
+          "Abra esta página para revisar conceitos como o funcionamento das classes, o que são objetos, métodos, atributos, métodos especiais e mais."
         ]
       },
       "quiz-classes-and-objects": {
@@ -6735,7 +6735,7 @@
       "lecture-understanding-object-oriented-programming-and-encapsulation": {
         "title": "Entendendo programação orientada a objetos e encapsulamento",
         "intro": [
-          "Aprenda sobre programação orientada a objetos e encapsulamento nessas lições."
+          "Aprenda sobre classes e objetos, como funciona o encapsulamento e como usar getters e setters para acessar e validar atributos nestas lições."
         ]
       },
       "workshop-salary-tracker": {
@@ -6753,7 +6753,7 @@
       "lecture-understanding-inheritance-and-polymorphism": {
         "title": "Entendendo herança e polimorfismo",
         "intro": [
-          "Aprenda sobre herança e polimorfismo nessas lições."
+          "Aprenda como herança e polimorfismo promovem o reuso de código e como funciona o name mangling em Python nestas lições."
         ]
       },
       "workshop-media-catalogue": {
@@ -8445,7 +8445,7 @@
         ]
       },
       "review-css-backgrounds-and-borders": {
-        "title": "Revisão de listas, links, fundos e bordas CSS",
+        "title": "Revisão de listas, links, fundos e bordas",
         "intro": [
           "Antes de fazer o quiz sobre fundos e bordas CSS, você precisa revisar.",
           "Abra esta página para revisar conceitos incluindo a propriedade <code>background-image</code>, a propriedade <code>border</code> e mais."
@@ -9701,7 +9701,7 @@
         ]
       },
       "review-css-backgrounds-and-borders": {
-        "title": "Revisão de listas, links, fundos e bordas em CSS",
+        "title": "Revisão de listas, links, fundos e bordas",
         "intro": [
           "Antes de fazer o quiz sobre fundos e bordas em CSS, você precisa revisar.",
           "Abra esta página para revisar conceitos como a propriedade <code>background-image</code>, propriedade <code>border</code> e mais."
@@ -10454,7 +10454,6 @@
     },
     "modules": {
       "python-basics": "Noções básicas de Python",
-      "python-installation": "Instalar Python",
       "python-loops-and-sequences": "Loops e sequências",
       "python-dictionaries-and-sets": "Dicionários e conjuntos",
       "lab-user-configuration-manager": "Construa um gerenciador de configuração de usuário",
@@ -10579,24 +10578,6 @@
           "Teste o que aprendeu sobre noções básicas de Python com este quiz."
         ]
       },
-      "lecture-python-installation": {
-        "title": "Instalando Python e executando código localmente",
-        "intro": [
-          "Nestas lições, você aprenderá como instalar Python no seu dispositivo local e executar código localmente."
-        ]
-      },
-      "review-python-installation": {
-        "title": "Revisão da instalação do Python",
-        "intro": [
-          "Antes de fazer o quiz sobre trabalhar com Python localmente, você deve revisar os conceitos abordados nas lições."
-        ]
-      },
-      "quiz-python-installation": {
-        "title": "Quiz de instalação do Python",
-        "intro": [
-          "Teste o que aprendeu sobre instalar Python localmente com este quiz."
-        ]
-      },
       "lecture-working-with-loops-and-sequences": {
         "title": "Trabalhando com loops e sequências",
         "intro": [
@@ -10711,7 +10692,7 @@
         "title": "Revisão de classes e objetos",
         "intro": [
           "Antes de fazer o quiz sobre classes e objetos, revise o que aprendeu sobre eles.",
-          "Abra esta página para revisar conceitos como funcionamento das classes, o que são objetos, métodos, atributos, métodos especiais e mais."
+          "Abra esta página para revisar conceitos como o funcionamento das classes, o que são objetos, métodos, atributos, métodos especiais e mais."
         ]
       },
       "quiz-classes-and-objects": {
@@ -10729,7 +10710,7 @@
       "lecture-understanding-object-oriented-programming-and-encapsulation": {
         "title": "Entendendo programação orientada a objetos e encapsulamento",
         "intro": [
-          "Aprenda sobre programação orientada a objetos e encapsulamento nessas lições."
+          "Aprenda sobre classes e objetos, como funciona o encapsulamento e como usar getters e setters para acessar e validar atributos nestas lições."
         ]
       },
       "workshop-salary-tracker": {
@@ -10747,7 +10728,7 @@
       "lecture-understanding-inheritance-and-polymorphism": {
         "title": "Entendendo herança e polimorfismo",
         "intro": [
-          "Aprenda sobre herança e polimorfismo nessas lições."
+          "Aprenda como herança e polimorfismo promovem o reuso de código e como funciona o name mangling em Python nestas lições."
         ]
       },
       "workshop-media-catalogue": {
@@ -10852,6 +10833,12 @@
           "Nestas lições, você vai aprender o que são algoritmos, como analisá-los com a notação Big O e boas técnicas para resolver problemas algorítmicos."
         ]
       },
+      "lab-stock-profit-calculator": {
+        "title": "Construa um calculador de lucro de ações",
+        "intro": [
+          "Neste laboratório, você encontrará o melhor lucro de uma única negociação de ações usando um algoritmo de tempo linear."
+        ]
+      },
       "lecture-searching-and-sorting-algorithms-v2": {
         "title": "Algoritmos de busca e ordenação",
         "intro": [
@@ -10865,10 +10852,22 @@
           "Neste workshop, você vai implementar o algoritmo de busca binária e retornar o caminho que ele percorreu para encontrar o alvo ou retornar 'Valor não encontrado'."
         ]
       },
+      "lab-bubble-sort": {
+        "title": "Implemente o algoritmo bubble sort",
+        "intro": [
+          "Neste laboratório, você implementará o algoritmo bubble sort em Python."
+        ]
+      },
       "lab-selection-sort": {
         "title": "Implemente o algoritmo de ordenação por seleção",
         "intro": [
           "Neste laboratório, você vai implementar o algoritmo de ordenação por seleção."
+        ]
+      },
+      "lab-insertion-sort-py": {
+        "title": "Implemente o algoritmo insertion sort",
+        "intro": [
+          "Neste laboratório, você implementará o algoritmo insertion sort em Python."
         ]
       },
       "review-python-algorithms": {
@@ -10899,6 +10898,30 @@
         "title": "Crie uma lista ligada",
         "intro": [
           "Neste workshop, você vai praticar trabalhar com estruturas de dados criando uma lista ligada."
+        ]
+      },
+      "lab-linked-list-operations-python": {
+        "title": "Implemente operações em lista ligada",
+        "intro": [
+          "Neste laboratório, você estenderá uma classe de lista ligada com métodos para buscar, acessar, inserir e remover elementos por índice."
+        ]
+      },
+      "lab-doubly-linked-list": {
+        "title": "Construa uma lista duplamente ligada",
+        "intro": [
+          "Neste laboratório, você construirá uma lista duplamente ligada, onde cada nó mantém uma referência tanto para o próximo quanto para o nó anterior na lista."
+        ]
+      },
+      "lab-build-a-stack": {
+        "title": "Construa uma pilha",
+        "intro": [
+          "Neste laboratório, você construirá uma pilha usando funções para empilhar, desempilhar e espiar elementos."
+        ]
+      },
+      "lab-queue-python": {
+        "title": "Construa uma fila",
+        "intro": [
+          "Neste laboratório, você construirá uma classe de fila que segue o princípio primeiro a entrar, primeiro a sair."
         ]
       },
       "review-linear-data-structures": {
@@ -10999,6 +11022,12 @@
           "Neste laboratório, você vai implementar uma função que converte uma representação de grafo em lista de adjacência para uma representação em matriz de adjacência."
         ]
       },
+      "lab-incidence-matrix": {
+        "title": "Construa uma matriz de incidência",
+        "intro": [
+          "Neste laboratório, você construirá uma função que converte a lista de arestas de um grafo direcionado em uma matriz de incidência."
+        ]
+      },
       "lab-depth-first-search": {
         "title": "Implemente o algoritmo de busca em profundidade",
         "intro": [
@@ -11021,6 +11050,12 @@
         "title": "Entendendo árvores e tries",
         "intro": [
           "Nesta lição, você vai aprender o que são árvores e tries e como funcionam."
+        ]
+      },
+      "workshop-binary-search-tree": {
+        "title": "Construa uma árvore binária de busca",
+        "intro": [
+          "Nesta oficina, você construirá uma árvore binária de busca, aprenderá como inserir, buscar e excluir valores, e percorrê-la com percurso inorder."
         ]
       },
       "lecture-understanding-priority-queues-and-heaps": {
@@ -11095,7 +11130,8 @@
     },
     "modules": {
       "html": "HTML",
-      "css": "CSS"
+      "css": "CSS",
+      "javascript": "JavaScript"
     },
     "blocks": {
       "workshop-curriculum-outline": {
@@ -11249,8 +11285,7 @@
       "workshop-greeting-card": {
         "title": "Crie um cartão de felicitações",
         "intro": [
-          "Nas palestras anteriores, você aprendeu a trabalhar com os diferentes tipos de pseudo-classes.",
-          "Nesta oficina, você terá a chance de praticar o que aprendeu criando um cartão de felicitações."
+          "Nesta oficina, você terá a chance de praticar o trabalho com pseudo-classes projetando um cartão de felicitações."
         ]
       },
       "lab-tribute-page": {
@@ -11292,7 +11327,7 @@
       "workshop-rothko-painting": {
         "title": "Crie uma pintura no estilo Rothko",
         "intro": [
-          "Cada elemento HTML é sua própria caixa — com espaçamento e borda próprios. Isso é chamado de modelo de caixa.",
+          "Cada elemento HTML é sua própria caixa, com seu próprio espaçamento e uma borda. Isso é chamado de modelo de caixa.",
           "Nesta oficina, você vai usar CSS e o modelo de caixa para criar suas próprias peças de arte retangulares no estilo Rothko."
         ]
       },
@@ -11364,14 +11399,14 @@
       "workshop-balance-sheet": {
         "title": "Crie um balanço patrimonial",
         "intro": [
-          "Nesta oficina, você vai criar um balanço patrimonial usando pseudo seletores. Vai aprender a mudar o estilo de um elemento quando passar o mouse sobre ele e a disparar outros eventos na sua página web."
+          "Nesta oficina, você construirá um balanço patrimonial usando pseudo-seletores. Você aprenderá como mudar o estilo de um elemento ao passar o mouse sobre ele e disparar outros eventos na sua página."
         ]
       },
       "workshop-piano": {
         "title": "Crie um piano",
         "intro": [
           "Design responsivo diz à sua página web como ela deve aparecer em telas de diferentes tamanhos.",
-          "Nesta oficina, você vai usar CSS e design responsivo para programar um piano. Também vai praticar consultas de mídia e pseudo seletores."
+          "Nesta oficina, você usará CSS e design responsivo para codificar um piano. Também praticará consultas de mídia e pseudo-seletores."
         ]
       },
       "lab-technical-documentation-page-v2": {
@@ -11387,11 +11422,346 @@
           "Nesta palestra, você vai aprender a definir e usar propriedades personalizadas (também conhecidas como variáveis CSS)."
         ]
       },
+      "lecture-working-with-css-grid": {
+        "title": "Trabalhando com grade CSS",
+        "intro": [
+          "Nestas palestras, você aprenderá sobre a grade CSS, suas várias propriedades e como usá-las, e como a grade CSS difere do flexbox."
+        ]
+      },
       "workshop-magazine": {
         "title": "Crie uma revista",
         "intro": [
           "CSS Grid dá controle sobre as linhas e colunas do layout da sua página web.",
           "Nesta oficina, você vai criar um artigo de revista. Vai praticar como usar CSS Grid, incluindo conceitos como linhas e colunas da grade."
+        ]
+      },
+      "review-css-v2": {
+        "title": "Revisão de CSS",
+        "intro": [
+          "Antes de fazer o quiz de CSS, você precisa revisar os conceitos ensinados nos módulos anteriores.",
+          "Abra esta página para revisar conceitos sobre o CSS que você aprendeu."
+        ]
+      },
+      "quiz-css": {
+        "title": "Quiz de CSS",
+        "intro": [
+          "O quiz a seguir testará seu conhecimento dos conceitos de CSS que você aprendeu até agora."
+        ]
+      },
+      "lecture-introduction-to-javascript-v2": {
+        "title": "Introdução ao JavaScript",
+        "intro": [
+          "Nestas palestras, você aprenderá os fundamentos do JavaScript. Os tópicos incluem, mas não se limitam a, variáveis, tipos de dados, como o JavaScript interage com HTML e CSS, strings e muito mais."
+        ]
+      },
+      "workshop-greeting-bot": {
+        "title": "Construa um bot de saudação",
+        "intro": [
+          "Nesta oficina, você aprenderá os fundamentos do JavaScript construindo um bot de saudação.",
+          "Você aprenderá sobre variáveis, <code>let</code>, <code>const</code>, <code>console.log</code> e uso básico de strings."
+        ]
+      },
+      "lecture-working-with-strings": {
+        "title": "Trabalhando com strings",
+        "intro": [
+          "Nesta palestra, você aprenderá a usar template literals, interpolar variáveis e expressões, e criar strings multilinha em JavaScript."
+        ]
+      },
+      "workshop-teacher-chatbot": {
+        "title": "Construa um chatbot para professor",
+        "intro": [
+          "Nesta oficina, você continuará aprendendo mais sobre strings em JavaScript construindo um chatbot.",
+          "Você aprenderá a trabalhar com template literals e o método <code>indexOf</code>."
+        ]
+      },
+      "lecture-working-with-data-types-v2": {
+        "title": "Trabalhando com tipos de dados",
+        "intro": [
+          "Nas próximas palestras, você aprenderá sobre tipos de dados em JavaScript e o operador <code>typeof</code>."
+        ]
+      },
+      "workshop-string-inspector": {
+        "title": "Construa um inspetor de strings",
+        "intro": [
+          "Nesta oficina, você praticará o uso dos métodos <code>includes()</code> e <code>slice()</code> construindo um inspetor de strings."
+        ]
+      },
+      "workshop-string-formatter": {
+        "title": "Construa um formatador de strings",
+        "intro": [
+          "Nesta oficina, você praticará o uso de vários métodos de string, incluindo <code>trim()</code>, <code>toUpperCase()</code> e <code>toLowerCase()</code>."
+        ]
+      },
+      "workshop-string-transformer": {
+        "title": "Construa um transformador de strings",
+        "intro": [
+          "Nesta oficina, você praticará o uso dos métodos <code>replace()</code>, <code>replaceAll()</code> e <code>repeat()</code>."
+        ]
+      },
+      "lecture-working-with-conditional-logic": {
+        "title": "Trabalhando com lógica condicional",
+        "intro": [
+          "Nestas palestras, você aprenderá sobre declarações condicionais, operadores lógicos binários e a declaração <code>switch</code>."
+        ]
+      },
+      "workshop-logic-checker-app": {
+        "title": "Construa um app verificador de lógica",
+        "intro": [
+          "Nesta oficina, você praticará o trabalho com declarações condicionais e operadores de comparação construindo um app verificador de lógica."
+        ]
+      },
+      "lecture-working-with-the-math-object": {
+        "title": "Trabalhando com o objeto Math",
+        "intro": [
+          "Nestas palestras, você aprenderá a trabalhar com o objeto Math em JavaScript. Você aprenderá sobre os diferentes métodos do objeto Math e como usá-los."
+        ]
+      },
+      "workshop-mathbot": {
+        "title": "Construa um Mathbot",
+        "intro": [
+          "Nesta oficina, você revisará como trabalhar com os diferentes métodos do objeto Math construindo um Mathbot."
+        ]
+      },
+      "lab-fortune-teller": {
+        "title": "Construa um vidente",
+        "intro": [
+          "Neste laboratório, você construirá um vidente selecionando aleatoriamente uma previsão entre as disponíveis.",
+          "Você praticará como trabalhar com o método <code>Math.random()</code> e o método <code>Math.floor()</code> para gerar números aleatórios."
+        ]
+      },
+      "lecture-working-with-numbers-and-common-number-methods": {
+        "title": "Trabalhando com números e métodos comuns de números",
+        "intro": [
+          "Nessas palestras, você aprenderá sobre números e métodos comuns para números. Isso inclui <code>isNaN()</code>, <code>parseInt()</code>, <code>parseFloat()</code> e <code>toFixed()</code>."
+        ]
+      },
+      "lecture-working-with-functions": {
+        "title": "Trabalhando com funções",
+        "intro": [
+          "Nessas palestras, você aprenderá como reutilizar um bloco de código com funções. Você entenderá qual é o propósito de uma função, como elas funcionam e como funciona o escopo na programação."
+        ]
+      },
+      "workshop-calculator": {
+        "title": "Construa uma calculadora",
+        "intro": [
+          "Neste workshop, você revisará seus conhecimentos sobre funções construindo uma calculadora."
+        ]
+      },
+      "lab-email-masker": {
+        "title": "Construa um mascarador de e-mail",
+        "intro": [
+          "Neste laboratório, você construirá um mascarador de e-mail que recebe um endereço de e-mail e o oculta.",
+          "Você praticará fatiamento de string, concatenação e uso de funções."
+        ]
+      },
+      "lecture-working-with-arrays-and-common-array-methods": {
+        "title": "Trabalhando com arrays e métodos comuns de array",
+        "intro": [
+          "Nessas palestras, você aprenderá como trabalhar com arrays em JavaScript. Você entenderá o que compõe um array, como acessar e atualizar os elementos em um array e muito mais."
+        ]
+      },
+      "workshop-shopping-list": {
+        "title": "Construa uma lista de compras",
+        "intro": [
+          "Neste workshop, você praticará como trabalhar com arrays construindo uma lista de compras.",
+          "Você revisará como adicionar e remover elementos de um array usando métodos como <code>push</code>, <code>pop</code>, <code>shift</code> e <code>unshift</code>."
+        ]
+      },
+      "lab-lunch-picker-program": {
+        "title": "Construa um programa de escolha de almoço",
+        "intro": [
+          "Neste laboratório, você revisará o trabalho com arrays e números aleatórios construindo um programa de escolha de almoço."
+        ]
+      },
+      "lecture-working-with-objects": {
+        "title": "Introdução a objetos JavaScript e suas propriedades",
+        "intro": [
+          "Nessas palestras, você aprenderá os fundamentos dos objetos JavaScript e como acessar suas propriedades."
+        ]
+      },
+      "workshop-wildlife-tracker": {
+        "title": "Construa um rastreador de vida selvagem",
+        "intro": [
+          "Neste workshop, você construirá um rastreador simples de vida selvagem usando objetos JavaScript.",
+          "Você praticará criar objetos, acessar e atualizar propriedades, remover propriedades, verificar a existência de propriedades e trabalhar com notação por colchetes."
+        ]
+      },
+      "lecture-working-with-json": {
+        "title": "Trabalhando com JSON",
+        "intro": [
+          "Nessas palestras, você aprenderá sobre JavaScript Object Notation (JSON), incluindo como acessar dados JSON e usar os métodos <code>JSON.parse()</code> e <code>JSON.stringify()</code>."
+        ]
+      },
+      "lecture-working-with-optional-chaining-and-object-destructuring": {
+        "title": "Trabalhando com encadeamento opcional e desestruturação de objetos",
+        "intro": [
+          "Nessas palestras, você aprenderá técnicas avançadas de manipulação de objetos em JavaScript, incluindo o operador de encadeamento opcional e a sintaxe de desestruturação de objetos."
+        ]
+      },
+      "workshop-recipe-tracker": {
+        "title": "Construa um rastreador de receitas",
+        "intro": [
+          "Neste workshop, você revisará o trabalho com objetos JavaScript construindo um rastreador de receitas."
+        ]
+      },
+      "lab-quiz-game": {
+        "title": "Construa um jogo de quiz",
+        "intro": [
+          "Neste laboratório, você construirá um jogo de quiz usando arrays e objetos JavaScript.",
+          "Você também praticará usar funções para selecionar aleatoriamente uma pergunta e uma resposta de um array e compará-las."
+        ]
+      },
+      "lecture-working-with-loops": {
+        "title": "Trabalhando com loops",
+        "intro": [
+          "Loops são parte essencial do JavaScript. Por isso, as palestras a seguir foram preparadas para você aprender sobre os diferentes tipos de loops, como eles funcionam e também como funciona a iteração."
+        ]
+      },
+      "workshop-word-counter": {
+        "title": "Construa um contador de palavras",
+        "intro": [
+          "Neste workshop, você praticará usar loops <code>for...of</code> construindo uma função que conta as ocorrências de uma string em um array de strings."
+        ]
+      },
+      "lab-profile-lookup": {
+        "title": "Construa uma busca de perfil",
+        "intro": [
+          "Neste laboratório, você criará uma função que busca informações de perfil."
+        ]
+      },
+      "workshop-campus-directory-normalizer": {
+        "title": "Construa um normalizador de diretório do campus",
+        "intro": [
+          "Neste workshop, você normalizará dados aninhados em tabelas de consulta independentes e fáceis de usar."
+        ]
+      },
+      "lab-proofreading-tool-v2": {
+        "title": "Construa uma ferramenta de revisão",
+        "intro": [
+          "Neste projeto de certificação, você construirá uma ferramenta de revisão que analisa arrays de palavras para palíndromos e frases repetidas.",
+          "Você praticará loops for e loops aninhados para verificar palíndromos e encontrar sequências repetidas de palavras."
+        ]
+      },
+      "lecture-working-with-higher-order-functions-and-callbacks": {
+        "title": "Trabalhando com funções de ordem superior e callbacks",
+        "intro": [
+          "Nessas palestras, você aprenderá a trabalhar com funções de ordem superior e callbacks. As funções de ordem superior que você aprenderá incluem <code>map()</code>, <code>filter()</code>, <code>reduce()</code>, <code>sort()</code>, <code>every()</code> e <code>some()</code>. Você também aprenderá a encadear esses métodos para alcançar os resultados desejados."
+        ]
+      },
+      "workshop-library-manager": {
+        "title": "Construa um gerenciador de biblioteca",
+        "intro": [
+          "Neste workshop, você aprenderá métodos de array de ordem superior construindo um gerenciador de biblioteca."
+        ]
+      },
+      "lab-book-organizer": {
+        "title": "Construa um organizador de livros",
+        "intro": [
+          "Neste laboratório, você construirá um organizador de livros usando funções de ordem superior em JavaScript."
+        ]
+      },
+      "lecture-introduction-to-the-dom": {
+        "title": "Introdução ao DOM",
+        "intro": [
+          "Nessas palestras, você aprenderá sobre o Document Object Model (DOM) e como interagir com ele usando JavaScript."
+        ]
+      },
+      "workshop-storytelling-app": {
+        "title": "Construa um app de contar histórias",
+        "intro": [
+          "Neste workshop, você construirá um app de contar histórias que permitirá listar diferentes histórias por gênero."
+        ]
+      },
+      "workshop-emoji-reactor": {
+        "title": "Construa um reator de emojis",
+        "intro": [
+          "Neste workshop, você construirá um reator de emojis para praticar <code>querySelector</code> e <code>querySelectorAll</code>."
+        ]
+      },
+      "lab-favorite-icon-toggler": {
+        "title": "Construa um alternador de ícone favorito",
+        "intro": [
+          "Neste laboratório, você construirá um alternador de ícone favorito utilizando eventos de clique em JavaScript."
+        ]
+      },
+      "workshop-music-instrument-filter": {
+        "title": "Construa um filtro de instrumentos musicais",
+        "intro": [
+          "Neste workshop, você construirá um filtro de instrumentos musicais com JavaScript."
+        ]
+      },
+      "lab-real-time-counter": {
+        "title": "Construa um contador em tempo real",
+        "intro": [
+          "Neste laboratório, você construirá um contador de caracteres em tempo real.",
+          "Você praticará como trabalhar com o evento <code>input</code> quando o usuário digitar no campo de entrada."
+        ]
+      },
+      "lab-lightbox-viewer": {
+        "title": "Construa um visualizador lightbox",
+        "intro": [
+          "Neste laboratório, você construirá um visualizador lightbox para visualizar imagens em modo focado.",
+          "Você praticará eventos de clique e alternância de classes."
+        ]
+      },
+      "workshop-library-search": {
+        "title": "Construa uma busca de livros na biblioteca",
+        "intro": [
+          "Neste workshop, você praticará como lidar com erros de forma elegante em JavaScript.",
+          "Você construirá uma aplicação de busca de livros na biblioteca e usará blocos <code>try...catch...finally</code>, junto com a declaração <code>throw</code>, para capturar e gerenciar erros personalizados."
+        ]
+      },
+      "lecture-working-with-regex": {
+        "title": "Trabalhando com expressões regulares",
+        "intro": [
+          "Nessas palestras, você aprenderá sobre expressões regulares em JavaScript e os métodos para trabalhar com elas."
+        ]
+      },
+      "workshop-spam-filter": {
+        "title": "Construa um filtro de spam",
+        "intro": [
+          "Expressões regulares, frequentemente abreviadas como \"regex\" ou \"regexp\", são padrões que ajudam programadores a combinar, buscar e substituir texto. Expressões regulares são poderosas, mas podem ser difíceis de entender porque usam muitos caracteres especiais.",
+          "Neste workshop, você usará grupos de captura, lookaheads positivos, lookaheads negativos e outras técnicas para combinar qualquer texto que desejar."
+        ]
+      },
+      "lecture-working-with-client-side-storage-and-crud-operations-v2": {
+        "title": "Trabalhando com armazenamento do lado do cliente e operações CRUD",
+        "intro": [
+          "Nessas palestras, você aprenderá sobre operações CRUD e como armazenar, recuperar e remover dados usando <code>localStorage</code> e <code>sessionStorage</code>."
+        ]
+      },
+      "workshop-todo-app": {
+        "title": "Construa um app de tarefas usando armazenamento local",
+        "intro": [
+          "O armazenamento local é um recurso do navegador que permite que aplicações web armazenem pares chave-valor de forma persistente no navegador do usuário. Isso permite que apps web salvem dados durante uma sessão e os recuperem em sessões posteriores.",
+          "Neste workshop, você aprenderá a lidar com entradas de formulário, gerenciar armazenamento local, realizar operações CRUD (Criar, Ler, Atualizar, Excluir) em tarefas, implementar ouvintes de eventos e alternar elementos da interface."
+        ]
+      },
+      "lab-bookmark-manager-app": {
+        "title": "Construa um app gerenciador de favoritos",
+        "intro": [
+          "Neste laboratório, você construirá um app gerenciador de favoritos.",
+          "Você utilizará armazenamento local para guardar favoritos e praticará como adicionar, remover e exibir favoritos."
+        ]
+      },
+      "lecture-understanding-asynchronous-programming-v2": {
+        "title": "Entendendo programação assíncrona",
+        "intro": [
+          "Nessas palestras, você aprenderá sobre programação assíncrona em JavaScript. Você entenderá as diferenças entre programação síncrona e assíncrona, como funciona a palavra-chave <code>async</code>, a API <code>Fetch</code>, promises, <code>async/await</code> e muito mais."
+        ]
+      },
+      "workshop-fcc-authors-page": {
+        "title": "Crie uma página de autores do fCC",
+        "intro": [
+          "Um aspecto comum do desenvolvimento web é aprender a buscar dados de uma API externa e trabalhar com JavaScript assíncrono.",
+          "Nesta oficina, você vai praticar como usar o método fetch, atualizar dinamicamente o DOM para exibir os dados buscados e paginar seus dados para carregar os resultados em lotes."
+        ]
+      },
+      "lab-weather-app-v2": {
+        "title": "Crie um app de clima",
+        "intro": [
+          "Neste projeto de certificação, você vai criar um app de clima usando uma API.",
+          "Você vai praticar como buscar dados da API, armazená-los e exibi-los no seu app."
         ]
       }
     }

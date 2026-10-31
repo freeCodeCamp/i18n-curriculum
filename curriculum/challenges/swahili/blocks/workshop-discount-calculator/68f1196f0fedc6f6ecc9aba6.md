@@ -13,12 +13,12 @@ Hapa kuna mfano wa njia yenye vidokezo vya aina ya kigezo na aina ya kurudisha a
 
 ```py
 def example_method(self, value: int) -> bool:
-  pass
+    pass
 ```
 
 Vidokezo vingine vya aina ya kurudisha ambavyo unaweza kutumia ni pamoja na `str`, `None`, `float` na zaidi.
 
-Katika njia ya `__init__` iliyopo, ongeza kidokezo cha aina ya kurudisha cha `None` kwa kuwa vijenzi havirudishi thamani.
+Katika njia ya `__init__` iliyopo, ongeza alama ya aina ya return ya `None` kwa sababu njia ya `__init__` ni manzilishi ambaye thamani yake ya return lazima iwe `None`.
 
 # --hints--
 

@@ -3,6 +3,7 @@ id: 69dd63d1dcdeccb7b39ba4c3
 title: 校正ツールを作成する
 challengeType: 26
 dashedName: build-a-proofreading-tool
+saveSubmissionToDB: true
 ---
 
 # --description--
@@ -13,9 +14,9 @@ dashedName: build-a-proofreading-tool
 
 フレーズとは、連続した単語のシーケンスです。例えば、`["the", "cat", "sat", "the", "cat"]` の中で、`"the cat"`（2語のシーケンス）が位置0と3に現れています。
 
-**目的:** 以下のストーリーを満たし、すべてのテストに合格してラボを完了してください。
+**目的：** 以下のユーザーストーリーを満たし、すべてのテストに合格してラボを完了してください。
 
-**ユーザーストーリー:**
+**ユーザーストーリー：**
 
 1. `isPalindrome` という名前の関数を定義してください。この関数は `word` 文字列を引数に取り、単語が前から読んでも後ろから読んでも同じ（大文字・小文字を区別しない）場合は `true` を返し、そうでなければ `false` を返す必要があります。
 

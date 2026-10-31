@@ -1587,7 +1587,7 @@
         "title": "Python基礎レビュー",
         "intro": [
           "Python基礎のクイズに備えて、学んだ内容を復習しましょう。",
-          "このレビュー画面で、文字列、関数、比較演算子などの扱いを復習します。"
+          "このレビュー画面では、文字列、関数、比較演算子などの操作を復習します。"
         ]
       },
       "quiz-python-basics": {
@@ -1626,7 +1626,7 @@
         "title": "ループとシーケンスのレビュー",
         "intro": [
           "ループとシーケンスのクイズに備えて、学んだ内容を復習しましょう。",
-          "このページを開いて、ループ、リスト、タプルやそれらの一般的なメソッドの概念を復習しましょう。"
+          "このページを開いて、ループ、リスト、タプル、およびそれらの一般的なメソッドに関する概念を復習してください。"
         ]
       },
       "quiz-loops-and-sequences": {
@@ -1756,7 +1756,7 @@
         "title": "クラスとオブジェクトの復習",
         "intro": [
           "クラスとオブジェクトのクイズを受ける前に、学んだことを復習してください。",
-          "このページを開いて、クラスの仕組み、オブジェクト、メソッド、属性、特殊メソッドなどの概念を復習しましょう。"
+          "このページを開いて、クラスの仕組み、オブジェクトとは何か、メソッド、属性、特殊メソッドなどの概念を復習してください。"
         ]
       },
       "quiz-classes-and-objects": {
@@ -1780,7 +1780,7 @@
       "lecture-understanding-object-oriented-programming-and-encapsulation": {
         "title": "オブジェクト指向プログラミングとカプセル化の理解",
         "intro": [
-          "これらのレッスンでオブジェクト指向プログラミングとカプセル化の理解について学びます。"
+          "この講義では、クラスとオブジェクト、カプセル化の仕組み、属性にアクセスして検証するためのゲッターとセッターの使い方を学びます。"
         ]
       },
       "workshop-salary-tracker": {
@@ -1798,7 +1798,7 @@
       "lecture-understanding-inheritance-and-polymorphism": {
         "title": "継承とポリモーフィズムの理解",
         "intro": [
-          "これらのレッスンで継承とポリモーフィズムの理解について学びます。"
+          "この講義では、継承とポリモーフィズムがコードの再利用を促進する方法、およびPythonの名前マングリングの仕組みを学びます。"
         ]
       },
       "workshop-media-catalogue": {
@@ -6576,7 +6576,7 @@
         "title": "Python基礎の復習",
         "intro": [
           "Python基礎のクイズを受ける前に、学んだ内容を復習してください。",
-          "この復習ページでは、文字列、関数、比較演算子などの操作を復習します。"
+          "このレビュー画面では、文字列、関数、比較演算子などの操作を復習します。"
         ]
       },
       "quiz-python-basics": {
@@ -6623,7 +6623,7 @@
         "title": "ループとシーケンスの復習",
         "intro": [
           "ループとシーケンスのクイズを受ける前に、学んだ内容を復習してください。",
-          "このページを開いて、ループ、リスト、タプル、およびそれらの一般的なメソッドに関する概念を復習しましょう。"
+          "このページを開いて、ループ、リスト、タプル、およびそれらの一般的なメソッドに関する概念を復習してください。"
         ]
       },
       "quiz-loops-and-sequences": {
@@ -6717,7 +6717,7 @@
         "title": "クラスとオブジェクトの復習",
         "intro": [
           "クラスとオブジェクトのクイズを受ける前に、学んだ内容を復習してください。",
-          "このページを開いて、クラスの仕組み、オブジェクト、メソッド、属性、特殊メソッドなどの概念を復習しましょう。"
+          "このページを開いて、クラスの仕組み、オブジェクトとは何か、メソッド、属性、特殊メソッドなどの概念を復習してください。"
         ]
       },
       "quiz-classes-and-objects": {
@@ -6735,7 +6735,7 @@
       "lecture-understanding-object-oriented-programming-and-encapsulation": {
         "title": "オブジェクト指向プログラミングとカプセル化の理解",
         "intro": [
-          "これらのレッスンでオブジェクト指向プログラミングとカプセル化の理解について学びます。"
+          "この講義では、クラスとオブジェクト、カプセル化の仕組み、属性にアクセスして検証するためのゲッターとセッターの使い方を学びます。"
         ]
       },
       "workshop-salary-tracker": {
@@ -6753,7 +6753,7 @@
       "lecture-understanding-inheritance-and-polymorphism": {
         "title": "継承とポリモーフィズムの理解",
         "intro": [
-          "これらのレッスンで継承とポリモーフィズムの理解について学びます。"
+          "この講義では、継承とポリモーフィズムがコードの再利用を促進する方法、およびPythonの名前マングリングの仕組みを学びます。"
         ]
       },
       "workshop-media-catalogue": {
@@ -8445,7 +8445,7 @@
         ]
       },
       "review-css-backgrounds-and-borders": {
-        "title": "リスト、リンク、CSSの背景とボーダーの復習",
+        "title": "リスト、リンク、背景、ボーダーの復習",
         "intro": [
           "CSSの背景とボーダーのクイズを受ける前に、まず復習してください。",
           "<code>background-image</code>プロパティ、<code>border</code>プロパティなどの概念をこのページで復習してください。"
@@ -9701,7 +9701,7 @@
         ]
       },
       "review-css-backgrounds-and-borders": {
-        "title": "リスト、リンク、CSS背景とボーダーの復習",
+        "title": "リスト、リンク、背景、ボーダーの復習",
         "intro": [
           "CSSの背景とボーダーの試験を受ける前に、まず復習してください。",
           "<code>background-image</code>プロパティ、<code>border</code>プロパティなどの概念を復習するためにこのページを開いてください。"
@@ -10454,7 +10454,6 @@
     },
     "modules": {
       "python-basics": "Python基礎",
-      "python-installation": "Pythonのインストール",
       "python-loops-and-sequences": "ループとシーケンス",
       "python-dictionaries-and-sets": "辞書とセット",
       "lab-user-configuration-manager": "ユーザー設定マネージャーを作成する",
@@ -10570,31 +10569,13 @@
         "title": "Python基礎レビュー",
         "intro": [
           "Python基礎のクイズを受ける前に、学んだ内容を復習してください。",
-          "このレビュー画面で、文字列、関数、比較演算子などの扱い方を復習します。"
+          "このレビュー画面では、文字列、関数、比較演算子などの操作を復習します。"
         ]
       },
       "quiz-python-basics": {
         "title": "Python基礎クイズ",
         "intro": [
           "このクイズでPython基礎の理解度を試してください。"
-        ]
-      },
-      "lecture-python-installation": {
-        "title": "Pythonのインストールとローカルでのコード実行",
-        "intro": [
-          "これらのレッスンで、ローカルデバイスにPythonをインストールし、コードを実行する方法を学びます。"
-        ]
-      },
-      "review-python-installation": {
-        "title": "Pythonインストールレビュー",
-        "intro": [
-          "Pythonをローカルで使うクイズを受ける前に、レッスンで学んだ内容を復習してください。"
-        ]
-      },
-      "quiz-python-installation": {
-        "title": "Pythonインストールクイズ",
-        "intro": [
-          "このクイズでPythonのローカルインストールについての理解度を試してください。"
         ]
       },
       "lecture-working-with-loops-and-sequences": {
@@ -10617,7 +10598,7 @@
         "title": "ループとシーケンスレビュー",
         "intro": [
           "ループとシーケンスのクイズを受ける前に、学んだ内容を復習してください。",
-          "このページを開いて、ループ、リスト、タプル、およびそれらの一般的なメソッドに関する概念を復習します。"
+          "このページを開いて、ループ、リスト、タプル、およびそれらの一般的なメソッドに関する概念を復習してください。"
         ]
       },
       "quiz-loops-and-sequences": {
@@ -10711,7 +10692,7 @@
         "title": "クラスとオブジェクトの復習",
         "intro": [
           "クラスとオブジェクトのクイズを受ける前に、学んだ内容を復習してください。",
-          "このページを開いて、クラスの仕組み、オブジェクト、メソッド、属性、特殊メソッドなどの概念を復習しましょう。"
+          "このページを開いて、クラスの仕組み、オブジェクトとは何か、メソッド、属性、特殊メソッドなどの概念を復習してください。"
         ]
       },
       "quiz-classes-and-objects": {
@@ -10729,7 +10710,7 @@
       "lecture-understanding-object-oriented-programming-and-encapsulation": {
         "title": "オブジェクト指向プログラミングとカプセル化の理解",
         "intro": [
-          "これらのレッスンでオブジェクト指向プログラミングとカプセル化の理解を深めましょう。"
+          "この講義では、クラスとオブジェクト、カプセル化の仕組み、属性にアクセスして検証するためのゲッターとセッターの使い方を学びます。"
         ]
       },
       "workshop-salary-tracker": {
@@ -10747,7 +10728,7 @@
       "lecture-understanding-inheritance-and-polymorphism": {
         "title": "継承とポリモーフィズムの理解",
         "intro": [
-          "これらのレッスンで継承とポリモーフィズムの理解を深めましょう。"
+          "この講義では、継承とポリモーフィズムがコードの再利用を促進する方法、およびPythonの名前マングリングの仕組みを学びます。"
         ]
       },
       "workshop-media-catalogue": {
@@ -10852,6 +10833,12 @@
           "これらのレッスンでアルゴリズムとは何か、ビッグO記法による分析方法、アルゴリズム問題への効果的なアプローチ手法を学びます。"
         ]
       },
+      "lab-stock-profit-calculator": {
+        "title": "株式利益計算機を作成する",
+        "intro": [
+          "このラボでは、線形時間アルゴリズムを使って単一の株取引から得られる最大利益を見つけます。"
+        ]
+      },
       "lecture-searching-and-sorting-algorithms-v2": {
         "title": "検索とソートのアルゴリズム",
         "intro": [
@@ -10865,10 +10852,22 @@
           "このワークショップでは、二分探索アルゴリズムを実装し、目的の項目を見つけるまでの経路を返すか「値が見つかりません」と返します。"
         ]
       },
+      "lab-bubble-sort": {
+        "title": "バブルソートアルゴリズムを実装する",
+        "intro": [
+          "このラボでは、Pythonでバブルソートアルゴリズムを実装します。"
+        ]
+      },
       "lab-selection-sort": {
         "title": "選択ソートアルゴリズムを実装する",
         "intro": [
           "このラボでは、選択ソートアルゴリズムを実装します。"
+        ]
+      },
+      "lab-insertion-sort-py": {
+        "title": "挿入ソートアルゴリズムを実装する",
+        "intro": [
+          "このラボでは、Pythonで挿入ソートアルゴリズムを実装します。"
         ]
       },
       "review-python-algorithms": {
@@ -10899,6 +10898,30 @@
         "title": "連結リストを作成する",
         "intro": [
           "このワークショップでは、連結リストを作成してデータ構造の扱いを練習します。"
+        ]
+      },
+      "lab-linked-list-operations-python": {
+        "title": "連結リストの操作を実装する",
+        "intro": [
+          "このラボでは、連結リストクラスを拡張して、インデックスによる検索、アクセス、挿入、削除のメソッドを追加します。"
+        ]
+      },
+      "lab-doubly-linked-list": {
+        "title": "双方向連結リストを作成する",
+        "intro": [
+          "このラボでは、各ノードがリスト内の次と前のノードの両方を参照する双方向連結リストを作成します。"
+        ]
+      },
+      "lab-build-a-stack": {
+        "title": "スタックを作成する",
+        "intro": [
+          "このラボでは、要素をプッシュ、ポップ、ピークする関数を使ってスタックを作成します。"
+        ]
+      },
+      "lab-queue-python": {
+        "title": "キューを作成する",
+        "intro": [
+          "このラボでは、先入れ先出しの原則に従うキュークラスを作成します。"
         ]
       },
       "review-linear-data-structures": {
@@ -10999,6 +11022,12 @@
           "このラボでは、グラフの隣接リスト表現を隣接行列表現に変換する関数を実装します。"
         ]
       },
+      "lab-incidence-matrix": {
+        "title": "接続行列を作成する",
+        "intro": [
+          "このラボでは、有向グラフのエッジリストを接続行列に変換する関数を作成します。"
+        ]
+      },
       "lab-depth-first-search": {
         "title": "深さ優先探索アルゴリズムを実装する",
         "intro": [
@@ -11021,6 +11050,12 @@
         "title": "木とトライ木の理解",
         "intro": [
           "このレッスンでは、木とトライ木とは何か、その仕組みを学びます。"
+        ]
+      },
+      "workshop-binary-search-tree": {
+        "title": "二分探索木を作成する",
+        "intro": [
+          "このワークショップでは、二分探索木を作成し、値の挿入、検索、削除、順序通りの走査を学びます。"
         ]
       },
       "lecture-understanding-priority-queues-and-heaps": {
@@ -11095,7 +11130,8 @@
     },
     "modules": {
       "html": "HTML",
-      "css": "CSS"
+      "css": "CSS",
+      "javascript": "JavaScript"
     },
     "blocks": {
       "workshop-curriculum-outline": {
@@ -11249,8 +11285,7 @@
       "workshop-greeting-card": {
         "title": "グリーティングカードをデザインする",
         "intro": [
-          "前の講義で、さまざまな種類の疑似クラスの使い方を学びました。",
-          "このワークショップでは、学んだことを活かしてグリーティングカードをデザインします。"
+          "このワークショップでは、疑似クラスを使ってグリーティングカードをデザインしながら練習します。"
         ]
       },
       "lab-tribute-page": {
@@ -11292,7 +11327,7 @@
       "workshop-rothko-painting": {
         "title": "ロスコ風の絵画をデザインする",
         "intro": [
-          "すべてのHTML要素は独自のボックスで、独自の余白とボーダーがあります。これをボックスモデルと呼びます。",
+          "すべてのHTML要素はそれぞれ独自のボックスで、独自の間隔とボーダーがあります。これをボックスモデルと呼びます。",
           "このワークショップでは、CSSとボックスモデルを使ってロスコ風の長方形アートを作成します。"
         ]
       },
@@ -11364,14 +11399,14 @@
       "workshop-balance-sheet": {
         "title": "貸借対照表を作成する",
         "intro": [
-          "このワークショップでは、疑似セレクターを使って貸借対照表を作成します。マウスオーバー時に要素のスタイルを変えたり、他のイベントをウェブページで起動する方法を学びます。"
+          "このワークショップでは、疑似セレクターを使ってバランスシートを作成します。マウスオーバー時に要素のスタイルを変えたり、ウェブページ上の他のイベントをトリガーしたりする方法を学びます。"
         ]
       },
       "workshop-piano": {
         "title": "ピアノをデザインする",
         "intro": [
           "レスポンシブデザインは、異なる画面サイズでのウェブページの見え方を指定します。",
-          "このワークショップでは、CSSとレスポンシブデザインを使ってピアノをコーディングします。メディアクエリと疑似セレクターも練習します。"
+          "このワークショップでは、CSSとレスポンシブデザインを使ってピアノをコーディングします。メディアクエリと疑似セレクターの練習もします。"
         ]
       },
       "lab-technical-documentation-page-v2": {
@@ -11387,11 +11422,346 @@
           "この講義では、カスタムプロパティ（CSS変数）の定義と使い方を学びます。"
         ]
       },
+      "lecture-working-with-css-grid": {
+        "title": "CSSグリッドの操作",
+        "intro": [
+          "この講義では、CSSグリッド、その複数のプロパティと使い方、CSSグリッドとフレックスボックスの違いを学びます。"
+        ]
+      },
       "workshop-magazine": {
         "title": "雑誌を作成する",
         "intro": [
           "CSS Gridは、ウェブページの行と列のデザインを制御できます。",
           "このワークショップでは、雑誌記事を作成します。グリッドの行や列など、CSS Gridの使い方を練習します。"
+        ]
+      },
+      "review-css-v2": {
+        "title": "CSS復習",
+        "intro": [
+          "CSSクイズを受ける前に、前のモジュールで学んだ概念を復習してください。",
+          "このページを開いて、学んだCSSの概念を復習してください。"
+        ]
+      },
+      "quiz-css": {
+        "title": "CSSクイズ",
+        "intro": [
+          "以下のクイズで、これまでに学んだCSSの概念の理解度をテストします。"
+        ]
+      },
+      "lecture-introduction-to-javascript-v2": {
+        "title": "JavaScript入門",
+        "intro": [
+          "この講義では、JavaScriptの基本を学びます。変数、データ型、JavaScriptとHTMLやCSSの連携、文字列など、多くのトピックを扱います。"
+        ]
+      },
+      "workshop-greeting-bot": {
+        "title": "グリーティングボットを作成する",
+        "intro": [
+          "このワークショップでは、グリーティングボットを作成しながらJavaScriptの基本を学びます。",
+          "変数、<code>let</code>、<code>const</code>、<code>console.log</code>、基本的な文字列の使い方を学びます。"
+        ]
+      },
+      "lecture-working-with-strings": {
+        "title": "文字列の操作",
+        "intro": [
+          "この講義では、テンプレートリテラルの使い方、変数や式の埋め込み、複数行文字列の作成方法を学びます。"
+        ]
+      },
+      "workshop-teacher-chatbot": {
+        "title": "教師用チャットボットを作成する",
+        "intro": [
+          "このワークショップでは、チャットボットを作成しながらJavaScriptの文字列操作をさらに学びます。",
+          "テンプレートリテラルの使い方と<code>indexOf</code>メソッドの使い方を学びます。"
+        ]
+      },
+      "lecture-working-with-data-types-v2": {
+        "title": "データ型の操作",
+        "intro": [
+          "この講義では、JavaScriptのデータ型と<code>typeof</code>演算子を学びます。"
+        ]
+      },
+      "workshop-string-inspector": {
+        "title": "文字列インスペクターを作成する",
+        "intro": [
+          "このワークショップでは、<code>includes()</code>と<code>slice()</code>メソッドを使って文字列インスペクターを作成しながら練習します。"
+        ]
+      },
+      "workshop-string-formatter": {
+        "title": "文字列フォーマッターを作成する",
+        "intro": [
+          "このワークショップでは、<code>trim()</code>、<code>toUpperCase()</code>、<code>toLowerCase()</code>などのさまざまな文字列メソッドを使って練習します。"
+        ]
+      },
+      "workshop-string-transformer": {
+        "title": "文字列トランスフォーマーを作成する",
+        "intro": [
+          "このワークショップでは、<code>replace()</code>、<code>replaceAll()</code>、<code>repeat()</code>メソッドを使って練習します。"
+        ]
+      },
+      "lecture-working-with-conditional-logic": {
+        "title": "条件付きロジックの操作",
+        "intro": [
+          "この講義では、条件文、二項論理演算子、<code>switch</code>文について学びます。"
+        ]
+      },
+      "workshop-logic-checker-app": {
+        "title": "ロジックチェッカーアプリを作成する",
+        "intro": [
+          "このワークショップでは、条件文と比較演算子を使ってロジックチェッカーアプリを作成しながら練習します。"
+        ]
+      },
+      "lecture-working-with-the-math-object": {
+        "title": "Mathオブジェクトの操作",
+        "intro": [
+          "この講義では、JavaScriptのMathオブジェクトの使い方を学びます。さまざまなMathオブジェクトのメソッドとその使い方を学びます。"
+        ]
+      },
+      "workshop-mathbot": {
+        "title": "Mathbotを作成する",
+        "intro": [
+          "このワークショップでは、Mathbotを作成しながらMathオブジェクトのさまざまなメソッドの使い方を復習します。"
+        ]
+      },
+      "lab-fortune-teller": {
+        "title": "占い師を作成する",
+        "intro": [
+          "このラボでは、利用可能な運勢からランダムに選んで占い師を作成します。",
+          "<code>Math.random()</code>メソッドと<code>Math.floor()</code>メソッドを使って乱数を生成する方法を練習します。"
+        ]
+      },
+      "lecture-working-with-numbers-and-common-number-methods": {
+        "title": "数値と一般的な数値メソッドの操作",
+        "intro": [
+          "これらの講義では、数値と一般的な数値メソッドについて学びます。<code>isNaN()</code>、<code>parseInt()</code>、<code>parseFloat()</code>、<code>toFixed()</code>などが含まれます。"
+        ]
+      },
+      "lecture-working-with-functions": {
+        "title": "関数の操作",
+        "intro": [
+          "これらの講義では、関数を使ってコードのブロックを再利用する方法を学びます。関数の目的や動作、プログラミングにおけるスコープの仕組みも理解します。"
+        ]
+      },
+      "workshop-calculator": {
+        "title": "電卓を作る",
+        "intro": [
+          "このワークショップでは、関数の知識を復習しながら電卓を作ります。"
+        ]
+      },
+      "lab-email-masker": {
+        "title": "メールマスカーを作る",
+        "intro": [
+          "このラボでは、メールアドレスを受け取り、それを隠すメールマスカーを作ります。",
+          "文字列のスライス、連結、関数の使用を練習します。"
+        ]
+      },
+      "lecture-working-with-arrays-and-common-array-methods": {
+        "title": "配列と一般的な配列メソッドの操作",
+        "intro": [
+          "これらの講義では、JavaScriptの配列の扱い方を学びます。配列の構成要素、要素のアクセスや更新方法などを理解します。"
+        ]
+      },
+      "workshop-shopping-list": {
+        "title": "買い物リストを作る",
+        "intro": [
+          "このワークショップでは、配列の操作を練習しながら買い物リストを作ります。",
+          "<code>push</code>、<code>pop</code>、<code>shift</code>、<code>unshift</code>などのメソッドを使って配列の要素を追加・削除する方法を復習します。"
+        ]
+      },
+      "lab-lunch-picker-program": {
+        "title": "ランチピッカープログラムを作る",
+        "intro": [
+          "このラボでは、配列と乱数の操作を復習しながらランチピッカープログラムを作ります。"
+        ]
+      },
+      "lecture-working-with-objects": {
+        "title": "JavaScriptオブジェクトとそのプロパティの入門",
+        "intro": [
+          "これらの講義では、JavaScriptオブジェクトの基本とプロパティへのアクセス方法を学びます。"
+        ]
+      },
+      "workshop-wildlife-tracker": {
+        "title": "野生動物トラッカーを作る",
+        "intro": [
+          "このワークショップでは、JavaScriptオブジェクトを使ってシンプルな野生動物トラッカーを作ります。",
+          "オブジェクトの作成、プロパティのアクセス・更新、プロパティの削除、存在確認、ブラケット記法の操作を練習します。"
+        ]
+      },
+      "lecture-working-with-json": {
+        "title": "JSONの操作",
+        "intro": [
+          "これらの講義では、JavaScript Object Notation（JSON）について学び、JSONデータへのアクセスや<code>JSON.parse()</code>、<code>JSON.stringify()</code>メソッドの使い方を理解します。"
+        ]
+      },
+      "lecture-working-with-optional-chaining-and-object-destructuring": {
+        "title": "オプショナルチェーンとオブジェクト分割代入の操作",
+        "intro": [
+          "これらの講義では、JavaScriptの高度なオブジェクト操作技術であるオプショナルチェーン演算子とオブジェクト分割代入構文について学びます。"
+        ]
+      },
+      "workshop-recipe-tracker": {
+        "title": "レシピトラッカーを作る",
+        "intro": [
+          "このワークショップでは、JavaScriptオブジェクトの操作を復習しながらレシピトラッカーを作ります。"
+        ]
+      },
+      "lab-quiz-game": {
+        "title": "クイズゲームを作る",
+        "intro": [
+          "このラボでは、JavaScriptの配列とオブジェクトを使ってクイズゲームを作ります。",
+          "配列からランダムに質問と回答を選び、関数を使って比較する練習もします。"
+        ]
+      },
+      "lecture-working-with-loops": {
+        "title": "ループの操作",
+        "intro": [
+          "ループはJavaScriptの重要な要素です。これらの講義では、さまざまなループの種類と動作、反復処理の仕組みを学べるように準備しました。"
+        ]
+      },
+      "workshop-word-counter": {
+        "title": "単語カウンターを作る",
+        "intro": [
+          "このワークショップでは、<code>for...of</code>ループを使って文字列の配列内で特定の文字列の出現回数を数える関数を作ります。"
+        ]
+      },
+      "lab-profile-lookup": {
+        "title": "プロフィール検索を作る",
+        "intro": [
+          "このラボでは、プロフィール情報を検索する関数を作ります。"
+        ]
+      },
+      "workshop-campus-directory-normalizer": {
+        "title": "キャンパスディレクトリ正規化ツールを作る",
+        "intro": [
+          "このワークショップでは、ネストされたデータを独立した使いやすい検索テーブルに正規化します。"
+        ]
+      },
+      "lab-proofreading-tool-v2": {
+        "title": "校正ツールを作る",
+        "intro": [
+          "この認定プロジェクトでは、単語の配列を分析して回文や繰り返しフレーズを検出する校正ツールを作ります。",
+          "回文のチェックや繰り返し単語のシーケンスを見つけるために、ループとネストされたループを練習します。"
+        ]
+      },
+      "lecture-working-with-higher-order-functions-and-callbacks": {
+        "title": "高階関数とコールバックの操作",
+        "intro": [
+          "これらの講義では、高階関数とコールバックの使い方を学びます。<code>map()</code>、<code>filter()</code>、<code>reduce()</code>、<code>sort()</code>、<code>every()</code>、<code>some()</code>などの高階関数を学び、これらのメソッドをチェーンして目的の結果を得る方法も理解します。"
+        ]
+      },
+      "workshop-library-manager": {
+        "title": "ライブラリマネージャーを作る",
+        "intro": [
+          "このワークショップでは、高階配列メソッドを使ってライブラリマネージャーを作ります。"
+        ]
+      },
+      "lab-book-organizer": {
+        "title": "ブックオーガナイザーを作る",
+        "intro": [
+          "このラボでは、JavaScriptの高階関数を使ってブックオーガナイザーを作ります。"
+        ]
+      },
+      "lecture-introduction-to-the-dom": {
+        "title": "DOMの入門",
+        "intro": [
+          "これらの講義では、Document Object Model（DOM）について学び、JavaScriptでの操作方法を理解します。"
+        ]
+      },
+      "workshop-storytelling-app": {
+        "title": "ストーリーテリングアプリを作る",
+        "intro": [
+          "このワークショップでは、ジャンル別にストーリーを一覧表示できるストーリーテリングアプリを作ります。"
+        ]
+      },
+      "workshop-emoji-reactor": {
+        "title": "絵文字リアクターを作る",
+        "intro": [
+          "このワークショップでは、<code>querySelector</code>と<code>querySelectorAll</code>を練習するために絵文字リアクターを作ります。"
+        ]
+      },
+      "lab-favorite-icon-toggler": {
+        "title": "お気に入りアイコントグルを作る",
+        "intro": [
+          "このラボでは、JavaScriptのクリックイベントを利用してお気に入りアイコントグルを作ります。"
+        ]
+      },
+      "workshop-music-instrument-filter": {
+        "title": "楽器フィルターを作る",
+        "intro": [
+          "このワークショップでは、JavaScriptで楽器フィルターを作ります。"
+        ]
+      },
+      "lab-real-time-counter": {
+        "title": "リアルタイムカウンターを作る",
+        "intro": [
+          "このラボでは、リアルタイム文字カウンターを作ります。",
+          "入力フィールドでユーザーが入力するときの<code>input</code>イベントの扱い方を練習します。"
+        ]
+      },
+      "lab-lightbox-viewer": {
+        "title": "ライトボックスビューアーを作る",
+        "intro": [
+          "このラボでは、画像をフォーカスモードで表示するライトボックスビューアーを作ります。",
+          "クリックイベントとクラスの切り替えを練習します。"
+        ]
+      },
+      "workshop-library-search": {
+        "title": "図書館の本検索を作る",
+        "intro": [
+          "このワークショップでは、JavaScriptでエラーを適切に処理する方法を練習します。",
+          "図書館の本検索アプリを作り、<code>try...catch...finally</code>ブロックと<code>throw</code>文を使ってカスタムエラーを捕捉・管理します。"
+        ]
+      },
+      "lecture-working-with-regex": {
+        "title": "正規表現の操作",
+        "intro": [
+          "これらの講義では、JavaScriptの正規表現とそれを操作するメソッドについて学びます。"
+        ]
+      },
+      "workshop-spam-filter": {
+        "title": "スパムフィルターを作る",
+        "intro": [
+          "正規表現（\"regex\"や\"regexp\"と略されることもあります）は、プログラマーがテキストをマッチ、検索、置換するのに役立つパターンです。正規表現は強力ですが、多くの特殊文字を使うため理解が難しい場合があります。",
+          "このワークショップでは、キャプチャグループ、肯定先読み、否定先読みなどの手法を使って、任意のテキストをマッチさせます。"
+        ]
+      },
+      "lecture-working-with-client-side-storage-and-crud-operations-v2": {
+        "title": "クライアントサイドストレージとCRUD操作の操作",
+        "intro": [
+          "これらの講義では、CRUD操作と<code>localStorage</code>、<code>sessionStorage</code>を使ったデータの保存、取得、削除方法を学びます。"
+        ]
+      },
+      "workshop-todo-app": {
+        "title": "ローカルストレージを使ったTodoアプリを作る",
+        "intro": [
+          "ローカルストレージは、ウェブブラウザの機能で、ウェブアプリがユーザーのブラウザ内にキーと値のペアを永続的に保存できます。これにより、ウェブアプリは1回のセッションでデータを保存し、後のページセッションで取得できます。",
+          "このワークショップでは、フォーム入力の処理、ローカルストレージの管理、タスクのCRUD（作成、読み取り、更新、削除）操作、イベントリスナーの実装、UI要素の切り替えを学びます。"
+        ]
+      },
+      "lab-bookmark-manager-app": {
+        "title": "ブックマークマネージャーアプリを作る",
+        "intro": [
+          "このラボでは、ブックマークマネージャーアプリを作ります。",
+          "ローカルストレージを利用してブックマークを保存し、追加、削除、表示の方法を練習します。"
+        ]
+      },
+      "lecture-understanding-asynchronous-programming-v2": {
+        "title": "非同期プログラミングの理解",
+        "intro": [
+          "これらの講義では、JavaScriptの非同期プログラミングについて学びます。同期と非同期の違い、<code>async</code>キーワードの動作、<code>Fetch</code> API、Promise、<code>async/await</code>などを理解します。"
+        ]
+      },
+      "workshop-fcc-authors-page": {
+        "title": "fCC著者ページを作成する",
+        "intro": [
+          "ウェブ開発でよくあるのは、外部APIからデータを取得し、非同期JavaScriptで処理する方法を学ぶことです。",
+          "このワークショップでは、fetchメソッドの使い方、取得したデータを表示するためにDOMを動的に更新する方法、そして結果をバッチで読み込むためにページネーションを実装する方法を練習します。"
+        ]
+      },
+      "lab-weather-app-v2": {
+        "title": "天気アプリを作成する",
+        "intro": [
+          "この認定プロジェクトでは、APIを使って天気アプリを作成します。",
+          "APIからデータを取得し、アプリに保存して表示する方法を練習します。"
         ]
       }
     }

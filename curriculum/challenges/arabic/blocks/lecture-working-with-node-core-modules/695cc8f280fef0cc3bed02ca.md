@@ -52,7 +52,8 @@ console.log(path.basename(__filename)); // script.js
 ترجع `dirname()` اسم المجلد لمسار معين:
 
 ```js
-console.log(path.dirname(__dirname)); // node-path
+console.log(path.dirname(__dirname));
+// /Users/user/Desktop/fCC/script-code/node
 ```
 
 ترجع `extname()` امتداد الملف الحالي:

@@ -52,7 +52,8 @@ console.log(path.basename(__filename)); // script.js
 `dirname()`는 경로의 디렉터리 이름을 반환합니다:
 
 ```js
-console.log(path.dirname(__dirname)); // node-path
+console.log(path.dirname(__dirname));
+// /Users/user/Desktop/fCC/script-code/node
 ```
 
 `extname()`는 현재 파일의 확장자를 반환합니다:

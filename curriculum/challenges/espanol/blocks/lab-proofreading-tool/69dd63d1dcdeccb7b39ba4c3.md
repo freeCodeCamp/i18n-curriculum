@@ -3,6 +3,7 @@ id: 69dd63d1dcdeccb7b39ba4c3
 title: Crear una herramienta de corrección
 challengeType: 26
 dashedName: build-a-proofreading-tool
+saveSubmissionToDB: true
 ---
 
 # --description--
@@ -13,7 +14,7 @@ Un palíndromo es una palabra que se lee igual de adelante hacia atrás y de atr
 
 Una frase es una secuencia de palabras consecutivas. Por ejemplo, en `["the", "cat", "sat", "the", "cat"]`, la frase `"the cat"` (una secuencia de 2 palabras) aparece en las posiciones 0 y 3.
 
-**Objetivo:** Cumple las historias de usuario a continuación y haz que todas las pruebas pasen para completar el laboratorio.
+**Objetivo:** Cumplir con las historias de usuario a continuación y pasar todas las pruebas para completar el laboratorio.
 
 **Historias de usuario:**
 

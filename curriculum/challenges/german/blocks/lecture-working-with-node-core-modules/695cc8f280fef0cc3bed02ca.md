@@ -52,7 +52,8 @@ console.log(path.basename(__filename)); // script.js
 `dirname()` gibt den Verzeichnisnamen eines Pfads zurück:
 
 ```js
-console.log(path.dirname(__dirname)); // node-path
+console.log(path.dirname(__dirname));
+// /Users/user/Desktop/fCC/script-code/node
 ```
 
 `extname()` gibt die Erweiterung der aktuellen Datei zurück:

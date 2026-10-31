@@ -13,12 +13,12 @@ Aquí tienes un ejemplo de un método con indicaciones de tipo tanto para el par
 
 ```py
 def example_method(self, value: int) -> bool:
-  pass
+    pass
 ```
 
 Otros indicios de tipo de retorno que podrías usar incluyen `str`, `None`, `float` y más.
 
-En el método existente `__init__`, agrega una pista de tipo de retorno de `None` ya que las estructuras no devuelven un valor.
+En el método `__init__` existente, agrega una pista de tipo de retorno de `None` ya que el método `__init__` es un inicializador cuyo valor de retorno debe ser `None`.
 
 # --hints--
 

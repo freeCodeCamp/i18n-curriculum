@@ -13,12 +13,12 @@ Hier ist ein Beispiel für eine Methode mit sowohl Parameter- als auch Rückgabe
 
 ```py
 def example_method(self, value: int) -> bool:
-  pass
+    pass
 ```
 
 Weitere Rückgabetyp-Hinweise, die Sie verwenden könnten, sind `str`, `None`, `float` und mehr.
 
-Fügen Sie in der bestehenden `__init__`-Methode einen Rückgabetyp-Hinweis von `None` hinzu, da Konstruktoren keinen Wert zurückgeben.
+Fügen Sie in der vorhandenen `__init__`-Methode einen Rückgabetyp-Hinweis von `None` hinzu, da die `__init__`-Methode ein Initialisierer ist, dessen Rückgabewert `None` sein muss.
 
 # --hints--
 

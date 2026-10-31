@@ -52,7 +52,8 @@ console.log(path.basename(__filename)); // script.js
 `dirname()` はパスのディレクトリ名を返します。
 
 ```js
-console.log(path.dirname(__dirname)); // node-path
+console.log(path.dirname(__dirname));
+// /Users/user/Desktop/fCC/script-code/node
 ```
 
 `extname()` は現在のファイルの拡張子を返します。
