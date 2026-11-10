@@ -1,6 +1,6 @@
 ---
 id: 691f7773cddba1caf1bf5ecb
-title: "Challenge 132: Purge Most Frequent"
+title: "チャレンジ132: 最頻出要素の削除"
 challengeType: 29
 dashedName: challenge-132
 ---
@@ -14,7 +14,7 @@ dashedName: challenge-132
 
 # --hints--
 
-`purge_most_frequent([1, 2, 2, 3])` should return `[1, 3]`.
+`purge_most_frequent([1, 2, 2, 3])` は `[1, 3]` を返すべきです。
 
 ```js
 ({test: () => { runPython(`
@@ -23,7 +23,7 @@ TestCase().assertEqual(purge_most_frequent([1, 2, 2, 3]), [1, 3])`)
 }})
 ```
 
-`purge_most_frequent(["a", "b", "d", "b", "c", "d", "c", "d", "c", "d"])` should return `["a", "b", "b", "c", "c", "c"]`.
+`purge_most_frequent(["a", "b", "d", "b", "c", "d", "c", "d", "c", "d"])` は `["a", "b", "b", "c", "c", "c"]` を返すべきです。
 
 ```js
 ({test: () => { runPython(`
@@ -32,7 +32,7 @@ TestCase().assertEqual(purge_most_frequent(["a", "b", "d", "b", "c", "d", "c", "
 }})
 ```
 
-`purge_most_frequent(["red", "blue", "green", "red", "blue", "green", "blue"])` should return `["red", "green", "red", "green"]`.
+`purge_most_frequent(["red", "blue", "green", "red", "blue", "green", "blue"])` は `["red", "green", "red", "green"]` を返すべきです。
 
 ```js
 ({test: () => { runPython(`
@@ -41,7 +41,7 @@ TestCase().assertEqual(purge_most_frequent(["red", "blue", "green", "red", "blue
 }})
 ```
 
-`purge_most_frequent([5, 5, 5, 5])` should return `[]`.
+`purge_most_frequent([5, 5, 5, 5])` は `[]` を返すべきです。
 
 ```js
 ({test: () => { runPython(`
@@ -50,7 +50,7 @@ TestCase().assertEqual(purge_most_frequent([5, 5, 5, 5]), [])`)
 }})
 ```
 
-`purgeMostFrequent([10, 12, 7, 3, 7, 7, 12, 12])` should return `[10, 3]`.
+`purge_most_frequent([10, 12, 7, 3, 7, 7, 12, 12])` は `[10, 3]` を返すべきです。
 
 ```js
 ({test: () => { runPython(`

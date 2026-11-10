@@ -1,6 +1,6 @@
 ---
 id: 691f7773cddba1caf1bf5ecb
-title: "Challenge 132: Purge Most Frequent"
+title: "Aufgabe 132: Entfernen der häufigsten Elemente"
 challengeType: 29
 dashedName: challenge-132
 ---
@@ -14,7 +14,7 @@ Gegeben ist ein Array von Werten. Entfernen Sie alle Vorkommen des am häufigste
 
 # --hints--
 
-`purge_most_frequent([1, 2, 2, 3])` should return `[1, 3]`.
+`purge_most_frequent([1, 2, 2, 3])` sollte `[1, 3]` zurückgeben.
 
 ```js
 ({test: () => { runPython(`
@@ -23,7 +23,7 @@ TestCase().assertEqual(purge_most_frequent([1, 2, 2, 3]), [1, 3])`)
 }})
 ```
 
-`purge_most_frequent(["a", "b", "d", "b", "c", "d", "c", "d", "c", "d"])` should return `["a", "b", "b", "c", "c", "c"]`.
+`purge_most_frequent(["a", "b", "d", "b", "c", "d", "c", "d", "c", "d"])` sollte `["a", "b", "b", "c", "c", "c"]` zurückgeben.
 
 ```js
 ({test: () => { runPython(`
@@ -32,7 +32,7 @@ TestCase().assertEqual(purge_most_frequent(["a", "b", "d", "b", "c", "d", "c", "
 }})
 ```
 
-`purge_most_frequent(["red", "blue", "green", "red", "blue", "green", "blue"])` should return `["red", "green", "red", "green"]`.
+`purge_most_frequent(["red", "blue", "green", "red", "blue", "green", "blue"])` sollte `["red", "green", "red", "green"]` zurückgeben.
 
 ```js
 ({test: () => { runPython(`
@@ -41,7 +41,7 @@ TestCase().assertEqual(purge_most_frequent(["red", "blue", "green", "red", "blue
 }})
 ```
 
-`purge_most_frequent([5, 5, 5, 5])` should return `[]`.
+`purge_most_frequent([5, 5, 5, 5])` sollte `[]` zurückgeben.
 
 ```js
 ({test: () => { runPython(`
@@ -50,7 +50,7 @@ TestCase().assertEqual(purge_most_frequent([5, 5, 5, 5]), [])`)
 }})
 ```
 
-`purgeMostFrequent([10, 12, 7, 3, 7, 7, 12, 12])` should return `[10, 3]`.
+`purge_most_frequent([10, 12, 7, 3, 7, 7, 12, 12])` sollte `[10, 3]` zurückgeben.
 
 ```js
 ({test: () => { runPython(`

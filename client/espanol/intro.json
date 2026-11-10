@@ -1834,7 +1834,7 @@
       "review-object-oriented-programming": {
         "title": "Revisión de programación orientada a objetos",
         "intro": [
-          "Antes de hacer el quiz sobre programación orientada a objetos, deberías repasar lo que has aprendido sobre ella."
+          "Antes de que hagas el quiz sobre programación orientada a objetos, deberías repasar lo que has aprendido sobre ella."
         ]
       },
       "quiz-object-oriented-programming": {
@@ -2610,6 +2610,12 @@
         "title": "Crear un secuenciador de semáforo",
         "intro": [
           "En este laboratorio, usarás ciclos de JavaScript para crear un secuenciador de semáforo."
+        ]
+      },
+      "workshop-campus-directory-normalizer": {
+        "title": "Crear un normalizador de directorio del campus",
+        "intro": [
+          "En este taller, normalizarás datos anidados en tablas de consulta independientes y fáciles de usar."
         ]
       },
       "lab-proofreading-tool": {
@@ -5030,6 +5036,12 @@
           "En este laboratorio crearás una función que busca información de perfil."
         ]
       },
+      "lab-data-sanitizer-sweep": {
+        "title": "Implementar el proceso de barrido del sanitizador de datos",
+        "intro": [
+          "En este laboratorio, practicarás el uso de manipulación de cadenas y ciclos para reemplazar caracteres en cadenas de registro y archivos de registro completos."
+        ]
+      },
       "workshop-space-mission-roster": {
         "title": "Construye un listado de misión espacial",
         "intro": [
@@ -6783,7 +6795,7 @@
       "review-object-oriented-programming": {
         "title": "Revisión de programación orientada a objetos",
         "intro": [
-          "Antes de hacer el quiz sobre programación orientada a objetos, deberías repasar lo que has aprendido."
+          "Antes de que hagas el quiz sobre programación orientada a objetos, deberías repasar lo que has aprendido sobre ella."
         ]
       },
       "quiz-object-oriented-programming": {
@@ -10454,6 +10466,7 @@
     },
     "modules": {
       "python-basics": "Conceptos básicos de Python",
+      "lab-rpg-character": "Crear un personaje de RPG",
       "python-loops-and-sequences": "Ciclos y secuencias",
       "python-dictionaries-and-sets": "Diccionarios y conjuntos",
       "lab-user-configuration-manager": "Construye un gestor de configuración de usuario",
@@ -10559,12 +10572,6 @@
           "En este taller construirás un cifrado César usando conceptos básicos de Python como cadenas, condicionales, funciones y más."
         ]
       },
-      "lab-rpg-character": {
-        "title": "Construye un personaje de RPG",
-        "intro": [
-          "En este laboratorio practicarás Python básico construyendo un personaje de RPG."
-        ]
-      },
       "review-python-basics": {
         "title": "Revisión de conceptos básicos de Python",
         "intro": [
@@ -10578,10 +10585,28 @@
           "Pon a prueba lo que has aprendido sobre conceptos básicos de Python con este quiz."
         ]
       },
-      "lecture-working-with-loops-and-sequences": {
-        "title": "Trabajo con ciclos y secuencias",
+      "lab-rpg-character": {
+        "title": "Construye un personaje de RPG",
         "intro": [
-          "Aprende sobre el trabajo con ciclos y secuencias en estas lecciones."
+          "En este laboratorio practicarás Python básico construyendo un personaje de RPG."
+        ]
+      },
+      "lecture-working-with-lists": {
+        "title": "Trabajar con listas",
+        "intro": ["Aprende a trabajar con listas en estas lecciones."]
+      },
+      "lecture-working-with-tuples": {
+        "title": "Trabajar con tuplas",
+        "intro": ["Aprende a trabajar con tuplas en estas lecciones."]
+      },
+      "lecture-working-with-loops-python": {
+        "title": "Trabajar con ciclos",
+        "intro": ["Aprende a trabajar con ciclos en estas lecciones."]
+      },
+      "lecture-understanding-list-comprehensions-and-lambda-functions": {
+        "title": "Entender las comprensiones de listas y funciones lambda",
+        "intro": [
+          "Aprende sobre comprensiones de listas y funciones lambda en estas lecciones."
         ]
       },
       "workshop-pin-extractor": {
@@ -10594,10 +10619,10 @@
         "title": "Construye un generador de patrones numéricos",
         "intro": ["En este laboratorio construirás un generador de patrones numéricos."]
       },
-      "review-loops-and-sequences": {
+      "review-loops-and-sequences-v2": {
         "title": "Revisión de ciclos y secuencias",
         "intro": [
-          "Antes de hacer el quiz sobre ciclos y secuencias, deberías repasar lo que has aprendido sobre ellos.",
+          "Antes de que hagas el quiz sobre ciclos y secuencias, deberías repasar lo que has aprendido sobre ellos.",
           "Abre esta página para repasar conceptos sobre ciclos, listas, tuplas y algunos de sus métodos comunes."
         ]
       },
@@ -10758,7 +10783,7 @@
       "review-object-oriented-programming": {
         "title": "Revisión de programación orientada a objetos",
         "intro": [
-          "Antes de hacer el quiz sobre programación orientada a objetos, deberías repasar lo que has aprendido sobre ello."
+          "Antes de que hagas el quiz sobre programación orientada a objetos, deberías repasar lo que has aprendido sobre ella."
         ]
       },
       "quiz-object-oriented-programming": {

@@ -728,8 +728,8 @@
     "challenges-completed": "{{completedCount}} von {{totalChallenges}} Aufgaben abgeschlossen",
     "season-greetings-fcc": "Frohe Feiertage von der freeCodeCamp-Community 🎉",
     "if-getting-value": "Wenn Sie viel von freeCodeCamp profitieren, ist jetzt ein guter Zeitpunkt, um unsere gemeinnützige Mission mit einer Spende zu unterstützen.",
-    "building-a-university": "Wir bauen ein kostenloses Informatik-Studienprogramm 🎉",
-    "if-help-university": "Wir haben bereits große Fortschritte gemacht. Spenden Sie jetzt, um unsere gemeinnützige Organisation auf dem weiteren Weg zu unterstützen.",
+    "building-a-curriculum": "Wir entwickeln einen kostenlosen Lehrplan für Mathematik und Naturwissenschaften 🎉",
+    "if-help-curriculum": "Helfen Sie uns, den weltweit besten kostenlosen Lehrplan für Mathematik und Naturwissenschaften zu erstellen, von Menschen gemacht, für neugierige Köpfe überall.",
     "preview-external-window": "Vorschau wird derzeit in einem externen Fenster angezeigt.",
     "fill-in-the-blank": {
       "heading": "Lückentext ausfüllen",

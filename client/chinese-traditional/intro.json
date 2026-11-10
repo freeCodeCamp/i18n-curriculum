@@ -1834,7 +1834,7 @@
       "review-object-oriented-programming": {
         "title": "物件導向程式設計複習",
         "intro": [
-          "在接受物件導向程式設計測驗前，你應該先複習所學內容。"
+          "在你接受物件導向程式設計測驗前，應先複習你所學的內容。"
         ]
       },
       "quiz-object-oriented-programming": {
@@ -2610,6 +2610,12 @@
         "title": "建置交通號誌序列器",
         "intro": [
           "在這個實驗室中，你將使用 JavaScript 迴圈建置交通號誌序列器。"
+        ]
+      },
+      "workshop-campus-directory-normalizer": {
+        "title": "建置校園目錄正規化工具",
+        "intro": [
+          "在這個工作坊中，你將把巢狀資料正規化為獨立且易於使用的查詢表。"
         ]
       },
       "lab-proofreading-tool": {
@@ -5030,6 +5036,12 @@
           "在此實驗中，你將建立一個函式來查詢評測資訊。"
         ]
       },
+      "lab-data-sanitizer-sweep": {
+        "title": "實作資料清理掃描程序",
+        "intro": [
+          "在這個實驗中，你將練習使用字串操作和迴圈來替換日誌字串和整個日誌檔案中的字元。"
+        ]
+      },
       "workshop-space-mission-roster": {
         "title": "建置太空任務名冊",
         "intro": [
@@ -6649,7 +6661,7 @@
         ]
       },
       "review-dictionaries-and-sets": {
-        "title": "字典和集合複習",
+        "title": "字典與集合複習",
         "intro": [
           "在接受字典和集合測驗前，你應該先複習相關內容。",
           "打開此頁面，複習字典、集合及如何匯入模組的概念。"
@@ -6783,7 +6795,7 @@
       "review-object-oriented-programming": {
         "title": "物件導向程式設計複習",
         "intro": [
-          "在接受物件導向程式設計測驗前，請先複習你所學的內容。"
+          "在你接受物件導向程式設計測驗前，應先複習你所學的內容。"
         ]
       },
       "quiz-object-oriented-programming": {
@@ -10454,6 +10466,7 @@
     },
     "modules": {
       "python-basics": "Python 基礎",
+      "lab-rpg-character": "建造 RPG 角色",
       "python-loops-and-sequences": "迴圈與序列",
       "python-dictionaries-and-sets": "字典與集合",
       "lab-user-configuration-manager": "建置使用者設定管理器",
@@ -10559,12 +10572,6 @@
           "在這個工作坊中，你將使用字串、條件判斷、函式等 Python 基礎概念建置凱薩密碼。"
         ]
       },
-      "lab-rpg-character": {
-        "title": "建置 RPG 角色",
-        "intro": [
-          "在這個實驗中，你將透過建置一個 RPG 角色來練習 Python 基礎。"
-        ]
-      },
       "review-python-basics": {
         "title": "Python 基礎複習",
         "intro": [
@@ -10578,10 +10585,28 @@
           "透過此測驗檢驗你對 Python 基礎的理解。"
         ]
       },
-      "lecture-working-with-loops-and-sequences": {
-        "title": "使用迴圈與序列",
+      "lab-rpg-character": {
+        "title": "建置 RPG 角色",
         "intro": [
-          "在這些課程中，學習如何使用迴圈與序列。"
+          "在這個實驗中，你將透過建置一個 RPG 角色來練習 Python 基礎。"
+        ]
+      },
+      "lecture-working-with-lists": {
+        "title": "操作列表",
+        "intro": ["在這些課程中學習如何操作列表。"]
+      },
+      "lecture-working-with-tuples": {
+        "title": "操作元組",
+        "intro": ["在這些課程中學習如何操作元組。"]
+      },
+      "lecture-working-with-loops-python": {
+        "title": "操作迴圈",
+        "intro": ["在這些課程中學習如何操作迴圈。"]
+      },
+      "lecture-understanding-list-comprehensions-and-lambda-functions": {
+        "title": "理解列表推導式與 Lambda 函式",
+        "intro": [
+          "在這些課程中學習列表推導式與 Lambda 函式。"
         ]
       },
       "workshop-pin-extractor": {
@@ -10594,11 +10619,11 @@
         "title": "建置數字樣式產生器",
         "intro": ["在這個實驗中，你將建置一個數字樣式產生器。"]
       },
-      "review-loops-and-sequences": {
+      "review-loops-and-sequences-v2": {
         "title": "迴圈與序列複習",
         "intro": [
-          "在接受迴圈與序列測驗前，你應該先複習所學內容。",
-          "打開此頁面，複習迴圈、列表、元組及其常用方法的概念。"
+          "在你接受迴圈與序列測驗前，應先複習你所學的內容。",
+          "打開此頁面複習迴圈、列表、元組及其常用方法的概念。"
         ]
       },
       "quiz-loops-and-sequences": {
@@ -10758,7 +10783,7 @@
       "review-object-oriented-programming": {
         "title": "物件導向程式設計複習",
         "intro": [
-          "在接受物件導向程式設計測驗前，你應該先複習相關內容。"
+          "在你接受物件導向程式設計測驗前，應先複習你所學的內容。"
         ]
       },
       "quiz-object-oriented-programming": {

@@ -2612,6 +2612,12 @@
           "In diesem Labor verwenden Sie JavaScript-Schleifen, um einen Ampel-Sequenzer zu erstellen."
         ]
       },
+      "workshop-campus-directory-normalizer": {
+        "title": "Erstellen Sie einen Campus-Verzeichnis-Normalisierer",
+        "intro": [
+          "In diesem Workshop normalisieren Sie verschachtelte Daten in unabhängige, leicht zu verwendende Nachschlagetabellen."
+        ]
+      },
       "lab-proofreading-tool": {
         "title": "Erstellen Sie ein Korrekturlese-Tool",
         "intro": [
@@ -5030,6 +5036,12 @@
           "In diesem Workshop erstellen Sie eine Funktion, die Profilinformationen abruft."
         ]
       },
+      "lab-data-sanitizer-sweep": {
+        "title": "Implementieren Sie den Prozess des Datenbereinigungsdurchlaufs",
+        "intro": [
+          "In diesem Labor üben Sie die Verwendung von String-Manipulation und Schleifen, um Zeichen in Protokoll-Strings und ganzen Protokolldateien zu ersetzen."
+        ]
+      },
       "workshop-space-mission-roster": {
         "title": "Erstellen Sie eine Besatzungsliste für eine Weltraummission",
         "intro": [
@@ -6649,7 +6661,7 @@
         ]
       },
       "review-dictionaries-and-sets": {
-        "title": "Überblick zu Dictionaries und Sets",
+        "title": "Überprüfung von Dictionaries und Sets",
         "intro": [
           "Bevor Sie im Quiz zu Dictionaries und Sets geprüft werden, sollten Sie das Gelernte wiederholen.",
           "Öffnen Sie diese Seite, um Konzepte zu Dictionaries, Sets und zum Importieren von Modulen zu wiederholen."
@@ -6781,9 +6793,9 @@
         ]
       },
       "review-object-oriented-programming": {
-        "title": "Überblick über objektorientierte Programmierung",
+        "title": "Überprüfung der objektorientierten Programmierung",
         "intro": [
-          "Bevor Sie im Bereich objektorientierte Programmierung geprüft werden, sollten Sie das Gelernte noch einmal überprüfen."
+          "Bevor Sie ein Quiz zur objektorientierten Programmierung machen, sollten Sie das Gelernte noch einmal überprüfen."
         ]
       },
       "quiz-object-oriented-programming": {
@@ -10454,6 +10466,7 @@
     },
     "modules": {
       "python-basics": "Python-Grundlagen",
+      "lab-rpg-character": "Erstellen Sie einen RPG-Charakter",
       "python-loops-and-sequences": "Schleifen und Folgen",
       "python-dictionaries-and-sets": "Wörterbücher und Sets",
       "lab-user-configuration-manager": "Erstellen Sie einen Benutzerkonfigurationsmanager",
@@ -10559,12 +10572,6 @@
           "In diesem Workshop erstellen Sie eine Caesar-Verschlüsselung mit grundlegenden Python-Konzepten wie Strings, Bedingungen, Funktionen und mehr."
         ]
       },
-      "lab-rpg-character": {
-        "title": "Erstellen Sie einen RPG-Charakter",
-        "intro": [
-          "In diesem Labor üben Sie grundlegendes Python, indem Sie einen RPG-Charakter erstellen."
-        ]
-      },
       "review-python-basics": {
         "title": "Überblick über Python-Grundlagen",
         "intro": [
@@ -10578,10 +10585,28 @@
           "Testen Sie Ihr Wissen zu Python-Grundlagen mit diesem Quiz."
         ]
       },
-      "lecture-working-with-loops-and-sequences": {
-        "title": "Arbeiten mit Schleifen und Folgen",
+      "lab-rpg-character": {
+        "title": "Erstellen Sie einen RPG-Charakter",
         "intro": [
-          "Lernen Sie in diesen Lektionen den Umgang mit Schleifen und Folgen."
+          "In diesem Labor üben Sie grundlegendes Python, indem Sie einen RPG-Charakter erstellen."
+        ]
+      },
+      "lecture-working-with-lists": {
+        "title": "Arbeiten mit Listen",
+        "intro": ["Lernen Sie in diesen Lektionen, wie Sie mit Listen arbeiten."]
+      },
+      "lecture-working-with-tuples": {
+        "title": "Arbeiten mit Tuples",
+        "intro": ["Lernen Sie in diesen Lektionen, wie Sie mit Tuples arbeiten."]
+      },
+      "lecture-working-with-loops-python": {
+        "title": "Arbeiten mit Schleifen",
+        "intro": ["Lernen Sie in diesen Lektionen, wie Sie mit Schleifen arbeiten."]
+      },
+      "lecture-understanding-list-comprehensions-and-lambda-functions": {
+        "title": "Verstehen von List Comprehensions und Lambda-Funktionen",
+        "intro": [
+          "Lernen Sie in diesen Lektionen List Comprehensions und Lambda-Funktionen kennen."
         ]
       },
       "workshop-pin-extractor": {
@@ -10594,11 +10619,11 @@
         "title": "Erstellen Sie einen Zahlenmuster-Generator",
         "intro": ["In diesem Labor erstellen Sie einen Zahlenmuster-Generator."]
       },
-      "review-loops-and-sequences": {
-        "title": "Überblick zu Schleifen und Folgen",
+      "review-loops-and-sequences-v2": {
+        "title": "Überprüfung von Schleifen und Folgen",
         "intro": [
-          "Bevor Sie im Quiz zu Schleifen und Folgen geprüft werden, sollten Sie das Gelernte noch einmal überprüfen.",
-          "Öffnen Sie diese Seite, um Konzepte zu Schleifen, Listen, Tuple und einige ihrer gängigen Methoden zu wiederholen."
+          "Bevor Sie ein Quiz zu Schleifen und Folgen machen, sollten Sie das Gelernte noch einmal überprüfen.",
+          "Öffnen Sie diese Seite, um Konzepte zu Schleifen, Listen, Tuples und einigen ihrer gängigen Methoden zu überprüfen."
         ]
       },
       "quiz-loops-and-sequences": {
@@ -10624,7 +10649,7 @@
         ]
       },
       "review-dictionaries-and-sets": {
-        "title": "Überblick über Dictionaries und Sets",
+        "title": "Überprüfung von Dictionaries und Sets",
         "intro": [
           "Bevor Sie im Quiz zu Dictionaries und Sets geprüft werden, sollten Sie das Gelernte noch einmal überprüfen.",
           "Öffnen Sie diese Seite, um Konzepte zu Dictionaries, Sets und dem Importieren von Modulen zu wiederholen."
@@ -10756,9 +10781,9 @@
         ]
       },
       "review-object-oriented-programming": {
-        "title": "Überblick zur objektorientierten Programmierung",
+        "title": "Überprüfung der objektorientierten Programmierung",
         "intro": [
-          "Bevor Sie im Quiz zur objektorientierten Programmierung geprüft werden, sollten Sie das Gelernte noch einmal überprüfen."
+          "Bevor Sie ein Quiz zur objektorientierten Programmierung machen, sollten Sie das Gelernte noch einmal überprüfen."
         ]
       },
       "quiz-object-oriented-programming": {

@@ -1834,7 +1834,7 @@
       "review-object-oriented-programming": {
         "title": "Revisione della programmazione orientata agli oggetti",
         "intro": [
-          "Prima di affrontare il quiz sulla programmazione orientata agli oggetti, dovresti rivedere ciò che hai imparato."
+          "Prima di affrontare il quiz sulla programmazione orientata agli oggetti, dovresti rivedere ciò che hai imparato a riguardo."
         ]
       },
       "quiz-object-oriented-programming": {
@@ -2610,6 +2610,12 @@
         "title": "Crea un sequenziatore per semafori",
         "intro": [
           "In questo laboratorio, userai i loop JavaScript per costruire un sequenziatore per semafori."
+        ]
+      },
+      "workshop-campus-directory-normalizer": {
+        "title": "Crea un normalizzatore per la directory del campus",
+        "intro": [
+          "In questo workshop, normalizzerai dati annidati in tabelle di ricerca indipendenti e facili da usare."
         ]
       },
       "lab-proofreading-tool": {
@@ -5030,6 +5036,12 @@
           "In questo laboratorio creerai una funzione che cerca informazioni di profilo."
         ]
       },
+      "lab-data-sanitizer-sweep": {
+        "title": "Implementa il processo di pulizia dei dati",
+        "intro": [
+          "In questo laboratorio, eserciterai l'uso della manipolazione delle stringhe e dei loop per sostituire caratteri nelle stringhe di log e in interi file di log."
+        ]
+      },
       "workshop-space-mission-roster": {
         "title": "Crea un elenco per missioni spaziali",
         "intro": [
@@ -6783,7 +6795,7 @@
       "review-object-oriented-programming": {
         "title": "Revisione della programmazione orientata agli oggetti",
         "intro": [
-          "Prima di affrontare il quiz sulla programmazione orientata agli oggetti, rivedi ciò che hai imparato."
+          "Prima di affrontare il quiz sulla programmazione orientata agli oggetti, dovresti rivedere ciò che hai imparato a riguardo."
         ]
       },
       "quiz-object-oriented-programming": {
@@ -10454,6 +10466,7 @@
     },
     "modules": {
       "python-basics": "Basi di Python",
+      "lab-rpg-character": "Crea un personaggio RPG",
       "python-loops-and-sequences": "Loop e sequenze",
       "python-dictionaries-and-sets": "Dizionari e insiemi",
       "lab-user-configuration-manager": "Crea un gestore di configurazione utente",
@@ -10559,12 +10572,6 @@
           "In questo workshop costruirai un cifrario di Cesare usando concetti base di Python come stringhe, condizionali, funzioni e altro."
         ]
       },
-      "lab-rpg-character": {
-        "title": "Crea un personaggio RPG",
-        "intro": [
-          "In questo laboratorio praticherai le basi di Python creando un personaggio RPG."
-        ]
-      },
       "review-python-basics": {
         "title": "Revisione delle basi di Python",
         "intro": [
@@ -10578,10 +10585,28 @@
           "Metti alla prova ciò che hai imparato sulle basi di Python con questo quiz."
         ]
       },
-      "lecture-working-with-loops-and-sequences": {
-        "title": "Lavorare con loop e sequenze",
+      "lab-rpg-character": {
+        "title": "Crea un personaggio RPG",
         "intro": [
-          "Impara a lavorare con loop e sequenze in queste lezioni."
+          "In questo laboratorio praticherai le basi di Python creando un personaggio RPG."
+        ]
+      },
+      "lecture-working-with-lists": {
+        "title": "Lavorare con le liste",
+        "intro": ["Impara a lavorare con le liste in queste lezioni."]
+      },
+      "lecture-working-with-tuples": {
+        "title": "Lavorare con le tuple",
+        "intro": ["Impara a lavorare con le tuple in queste lezioni."]
+      },
+      "lecture-working-with-loops-python": {
+        "title": "Lavorare con i loop",
+        "intro": ["Impara a lavorare con i loop in queste lezioni."]
+      },
+      "lecture-understanding-list-comprehensions-and-lambda-functions": {
+        "title": "Comprendere le list comprehension e le funzioni lambda",
+        "intro": [
+          "Impara le list comprehension e le funzioni lambda in queste lezioni."
         ]
       },
       "workshop-pin-extractor": {
@@ -10594,11 +10619,11 @@
         "title": "Crea un generatore di pattern numerici",
         "intro": ["In questo laboratorio costruirai un generatore di pattern numerici."]
       },
-      "review-loops-and-sequences": {
+      "review-loops-and-sequences-v2": {
         "title": "Revisione di loop e sequenze",
         "intro": [
-          "Prima di affrontare il quiz su loop e sequenze, dovresti rivedere ciò che hai imparato su di essi.",
-          "Apri questa pagina per ripassare i concetti su loop, liste, tuple e alcuni dei loro metodi comuni."
+          "Prima di affrontare il quiz su loop e sequenze, dovresti rivedere ciò che hai imparato a riguardo.",
+          "Apri questa pagina per rivedere i concetti su loop, liste, tuple e alcuni dei loro metodi comuni."
         ]
       },
       "quiz-loops-and-sequences": {
@@ -10758,7 +10783,7 @@
       "review-object-oriented-programming": {
         "title": "Revisione della programmazione orientata agli oggetti",
         "intro": [
-          "Prima di affrontare il quiz sulla programmazione orientata agli oggetti, rivedi ciò che hai imparato a riguardo."
+          "Prima di affrontare il quiz sulla programmazione orientata agli oggetti, dovresti rivedere ciò che hai imparato a riguardo."
         ]
       },
       "quiz-object-oriented-programming": {

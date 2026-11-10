@@ -9,7 +9,7 @@ dashedName: review-dictionaries-and-sets
 
 ## Dizionari
 
-- **Dizionari**: I dizionari sono strutture dati integrate che archiviano collezioni di coppie chiave-valore. Le chiavi devono essere tipi di dati immutabili. Questa è la sintassi generale di un dizionario Python:
+- **Dizionari**: I dizionari sono strutture dati integrate che archiviano collezioni di coppie chiave-valore. Le chiavi devono essere uniche. Numeri, stringhe e tuple di numeri e stringhe possono essere usati come chiavi, ma una tupla che contiene una lista non può. I valori possono essere ripetuti e possono essere di qualsiasi tipo di dato. I dizionari mantengono anche l'ordine in cui gli elementi sono stati aggiunti. Questa è la sintassi generale di un dizionario Python:
 
 ```python
 dictionary = {
@@ -28,6 +28,23 @@ pizza = dict([('name', 'Margherita Pizza'), ('price', 8.9), ('calories_per_slice
 
 ```python
 dictionary[key]
+```
+
+- **Assegnazione con notazione a parentesi**: Puoi aggiungere una nuova coppia chiave-valore o aggiornare il valore di una chiave esistente con la notazione a parentesi. Se la chiave non esiste, viene aggiunta. Se esiste già, il suo valore viene sostituito.
+
+```python
+dictionary[key] = value
+```
+
+- **Aggiornare i valori durante un loop**: Puoi aggiornare i valori delle chiavi esistenti all'interno di un loop su `items()` assegnando a ogni chiave.
+
+```python
+products = {'apple': 10, 'pear': 20}
+
+for product, price in products.items():
+    products[product] = round(price * 0.8)
+
+print(products)  # {'apple': 8, 'pear': 16}
 ```
 
 ## Metodi comuni per i dizionari
@@ -200,7 +217,7 @@ Output:
 
 ## Set
 
-- **Set**: I set sono strutture dati integrate in Python che non permettono valori duplicati. I set sono mutabili e non ordinati, il che significa che i loro elementi non sono memorizzati in un ordine specifico, quindi non puoi usare indici o chiavi per consultarli. Inoltre, i set possono contenere solo valori di tipi di dati immutabili, come numeri, stringhe e tuple.
+- **Insiemi**: Gli insiemi sono strutture dati integrate in Python che non permettono valori duplicati. Gli insiemi sono mutabili e non ordinati, il che significa che i loro elementi non sono archiviati in un ordine specifico, quindi non puoi usare indici o chiavi per consultarli. Numeri, stringhe e tuple di numeri e stringhe possono essere elementi di un insieme, ma una tupla che contiene una lista non può.
 
 - **Definire un set**: Per definire un set, devi scrivere i suoi elementi all'interno di parentesi graffe e separarli con virgole.
 
@@ -293,6 +310,17 @@ your_set = {2, 3, 4, 6}
 my_set ^ your_set # {1, 5, 6}
 ```
 
+- **Operatori composti per insiemi**: Gli operatori `|=`, `&=`, `-=`, e `^=` eseguono rispettivamente le operazioni di unione, intersezione, differenza e differenza simmetrica, ma aggiornano l'insieme esistente invece di crearne uno nuovo.
+
+```python
+my_set = {1, 2, 3}
+
+my_set |= {3, 4}          # {1, 2, 3, 4}
+my_set &= {2, 3, 4, 5}    # {2, 3, 4}
+my_set -= {4}             # {2, 3}
+my_set ^= {3, 5}          # {2, 5}
+```
+
 - **Operatore `in`**: Puoi verificare se un elemento è in un set o meno con l'operatore `in`.
 
 ```python
@@ -374,7 +402,7 @@ Se hai bisogno di assegnare alias a questi nomi, puoi farlo anche usando la paro
 from module_name import name1 as alias1, name2 as alias2
 ```
 
-- **Istruzione import con asterisco (`*`)**: L'asterisco dice a Python che vuoi importare tutto in quel modulo, ma vuoi farlo in modo da non dover usare il nome del modulo come prefisso.
+- **Istruzione di importazione con asterisco (`*`)**: L'asterisco indica a Python che vuoi importare i nomi pubblici del modulo così da non dover usare il nome del modulo come prefisso. Se il modulo definisce `__all__`, quella lista controlla quali nomi vengono importati. Altrimenti, i nomi che iniziano con un underscore sono esclusi.
 
 ```python
 from module_name import *
@@ -398,6 +426,77 @@ Ecco perché spesso trovi questa condizione negli script Python. Contiene il cod
 ```python
 if __name__ == '__main__': 
     # Code
+```
+
+## Validazione dei dati
+
+- **Creare un insieme da un iterabile**: Il costruttore `set()` accetta un iterabile, come una lista, una stringa o un dizionario (che fornisce le sue chiavi), a condizione che i suoi elementi possano essere archiviati in un insieme. Per esempio, una lista di numeri è valida, ma una lista che contiene altre liste no. Questo è utile per confrontare le chiavi che ti aspetti con quelle che hai effettivamente.
+
+```python
+expected_keys = {'name', 'age'}
+data = {'name': 'Jessica', 'age': 30}
+
+print(set(data) == expected_keys)  # True
+```
+
+- **Scompattamento di dizionari con `**`**: L'operatore `**` scompatta un dizionario in argomenti con nome, dove ogni chiave è usata come nome del parametro.
+
+```python
+def greet(name, age):
+    print(f'{name} is {age}')
+
+data = {'name': 'Jessica', 'age': 30}
+greet(**data)  # Jessica is 30
+```
+
+- **Espressioni regolari e `re.search()`**: Un'espressione regolare descrive un pattern di testo. La funzione `re.search()` cerca il pattern ovunque in una stringa. Restituisce un oggetto match se ne trova uno, o `None` se non lo trova.
+
+```python
+import re
+
+print(re.search('cat', 'concatenate'))  # <re.Match object; span=(3, 6), match='cat'>
+print(re.search('dog', 'concatenate'))  # None
+```
+
+- **Corrispondenza case-insensitive con `re.IGNORECASE`**: Passa `re.IGNORECASE` come terzo argomento per ignorare la differenza tra lettere maiuscole e minuscole.
+
+```python
+print(re.search('cat', 'CAT', re.IGNORECASE))  # <re.Match object; span=(0, 3), match='CAT'>
+```
+
+- **Stringhe raw e `\d`**: Una stringa raw inizia con `r` e tratta le barre rovesciate come caratteri letterali, mantenendo leggibili le espressioni regolari. In un pattern, `\d` corrisponde a una singola cifra.
+
+```python
+print(re.search(r'\d', 'room 5'))  # <re.Match object; span=(5, 6), match='5'>
+```
+
+- **Il quantificatore `+`**: Il quantificatore `+` corrisponde a una o più ripetizioni del pattern che lo precede.
+
+```python
+print(re.search(r'\d+', 'room 305'))  # <re.Match object; span=(5, 8), match='305'>
+```
+
+- **Funzione `re.fullmatch()`**: La funzione `re.fullmatch()` restituisce un oggetto match solo se l'intera stringa corrisponde al pattern. Altrimenti, restituisce `None`.
+
+```python
+print(re.fullmatch(r'\d+', '305'))      # <re.Match object; span=(0, 3), match='305'>
+print(re.fullmatch(r'\d+', 'room 305')) # None
+```
+
+- **Identità degli oggetti con `is` e `is not`**: L'operatore `is` verifica se due nomi si riferiscono allo stesso oggetto, mentre `is not` verifica che non sia così. Questi operatori sono il modo standard per verificare se un valore è `None`.
+
+```python
+result = None
+
+print(result is None)      # True
+print(result is not None)  # False
+```
+
+- **Funzione `all()`**: La funzione `all()` restituisce `True` se ogni elemento in un iterabile è truthy. Restituisce anche `True` per un iterabile vuoto.
+
+```python
+print(all([1, 'a', True]))  # True
+print(all([1, 0, True]))    # False
 ```
 
 # --assignment--

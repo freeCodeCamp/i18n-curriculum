@@ -1832,9 +1832,9 @@
         ]
       },
       "review-object-oriented-programming": {
-        "title": "객체 지향 프로그래밍 검토",
+        "title": "객체지향 프로그래밍 검토",
         "intro": [
-          "객체 지향 프로그래밍 퀴즈 전에 배운 내용을 검토하세요."
+          "객체지향 프로그래밍 퀴즈를 보기 전에 배운 내용을 검토하세요."
         ]
       },
       "quiz-object-oriented-programming": {
@@ -2610,6 +2610,12 @@
         "title": "신호등 순서 제어기 만들기",
         "intro": [
           "이 실습에서는 JavaScript 루프를 사용해 신호등 순서 제어기를 만듭니다."
+        ]
+      },
+      "workshop-campus-directory-normalizer": {
+        "title": "캠퍼스 디렉터리 표준화 도구 만들기",
+        "intro": [
+          "이 워크숍에서는 중첩된 데이터를 독립적이고 사용하기 쉬운 조회 표로 표준화할 것입니다."
         ]
       },
       "lab-proofreading-tool": {
@@ -5030,6 +5036,12 @@
           "이 실습에서는 프로필 정보를 조회하는 함수를 만듭니다."
         ]
       },
+      "lab-data-sanitizer-sweep": {
+        "title": "데이터 정리 스윕 프로세스 구현하기",
+        "intro": [
+          "이 실습에서는 문자열 조작과 반복문을 사용해 로그 문자열과 전체 로그 파일의 문자를 교체하는 연습을 합니다."
+        ]
+      },
       "workshop-space-mission-roster": {
         "title": "우주 임무 명단 만들기",
         "intro": [
@@ -6649,7 +6661,7 @@
         ]
       },
       "review-dictionaries-and-sets": {
-        "title": "딕셔너리와 세트 복습",
+        "title": "사전과 집합 검토",
         "intro": [
           "딕셔너리와 세트에 대한 퀴즈를 보기 전에 배운 내용을 복습하세요.",
           "이 페이지를 열어 딕셔너리, 세트, 모듈 가져오기 방법을 복습하세요."
@@ -6781,9 +6793,9 @@
         ]
       },
       "review-object-oriented-programming": {
-        "title": "객체 지향 프로그래밍 검토",
+        "title": "객체지향 프로그래밍 검토",
         "intro": [
-          "객체 지향 프로그래밍 퀴즈 전에 배운 내용을 검토하세요."
+          "객체지향 프로그래밍 퀴즈를 보기 전에 배운 내용을 검토하세요."
         ]
       },
       "quiz-object-oriented-programming": {
@@ -10454,6 +10466,7 @@
     },
     "modules": {
       "python-basics": "Python 기초",
+      "lab-rpg-character": "RPG 캐릭터 만들기",
       "python-loops-and-sequences": "반복문과 수열",
       "python-dictionaries-and-sets": "사전과 집합",
       "lab-user-configuration-manager": "사용자 구성 관리자 만들기",
@@ -10559,12 +10572,6 @@
           "이 워크숍에서 문자열, 조건문, 함수 등 기본 Python 개념을 사용해 시저 암호를 만드세요."
         ]
       },
-      "lab-rpg-character": {
-        "title": "RPG 캐릭터 만들기",
-        "intro": [
-          "이 실습에서 RPG 캐릭터를 만들어 기본 Python을 연습하세요."
-        ]
-      },
       "review-python-basics": {
         "title": "Python 기초 복습",
         "intro": [
@@ -10578,10 +10585,28 @@
           "이 퀴즈로 Python 기초에 대해 배운 내용을 테스트하세요."
         ]
       },
-      "lecture-working-with-loops-and-sequences": {
-        "title": "반복문과 수열 작업하기",
+      "lab-rpg-character": {
+        "title": "RPG 캐릭터 만들기",
         "intro": [
-          "이 수업에서 반복문과 수열 작업에 대해 배우세요."
+          "이 실습에서 RPG 캐릭터를 만들어 기본 Python을 연습하세요."
+        ]
+      },
+      "lecture-working-with-lists": {
+        "title": "리스트 다루기",
+        "intro": ["이 수업에서 리스트 다루는 방법을 배우세요."]
+      },
+      "lecture-working-with-tuples": {
+        "title": "튜플 다루기",
+        "intro": ["이 수업에서 튜플 다루는 방법을 배우세요."]
+      },
+      "lecture-working-with-loops-python": {
+        "title": "반복문 다루기",
+        "intro": ["이 수업에서 반복문 다루는 방법을 배우세요."]
+      },
+      "lecture-understanding-list-comprehensions-and-lambda-functions": {
+        "title": "리스트 내포와 람다 함수 이해하기",
+        "intro": [
+          "이 수업에서 리스트 내포와 람다 함수에 대해 배우세요."
         ]
       },
       "workshop-pin-extractor": {
@@ -10594,11 +10619,11 @@
         "title": "숫자 패턴 생성기 만들기",
         "intro": ["이 실습에서 숫자 패턴 생성기를 만드세요."]
       },
-      "review-loops-and-sequences": {
-        "title": "반복문과 수열 복습",
+      "review-loops-and-sequences-v2": {
+        "title": "반복문과 수열 검토",
         "intro": [
-          "반복문과 수열 퀴즈 전에 배운 내용을 복습하세요.",
-          "이 페이지를 열어 반복문, 리스트, 튜플 및 그들의 일반적인 메서드 개념을 복습하세요."
+          "반복문과 수열 퀴즈를 보기 전에 배운 내용을 검토하세요.",
+          "이 페이지를 열어 반복문, 리스트, 튜플, 그리고 그들의 일반적인 메서드에 관한 개념을 검토하세요."
         ]
       },
       "quiz-loops-and-sequences": {
@@ -10624,7 +10649,7 @@
         ]
       },
       "review-dictionaries-and-sets": {
-        "title": "딕셔너리와 세트 복습",
+        "title": "사전과 집합 검토",
         "intro": [
           "딕셔너리와 세트에 대해 퀴즈를 보기 전에 배운 내용을 복습하세요.",
           "이 페이지를 열어 딕셔너리, 세트, 모듈 가져오기 개념을 복습하세요."
@@ -10756,9 +10781,9 @@
         ]
       },
       "review-object-oriented-programming": {
-        "title": "객체 지향 프로그래밍 복습",
+        "title": "객체지향 프로그래밍 검토",
         "intro": [
-          "객체 지향 프로그래밍에 대해 퀴즈를 보기 전에 배운 내용을 복습하세요."
+          "객체지향 프로그래밍 퀴즈를 보기 전에 배운 내용을 검토하세요."
         ]
       },
       "quiz-object-oriented-programming": {

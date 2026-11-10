@@ -9,7 +9,7 @@ dashedName: review-dictionaries-and-sets
 
 ## 字典（Dictionaries）
 
-- **字典**：字典是內建的資料結構，用來儲存鍵值對集合。鍵必須是不可變的資料型別。以下是 Python 字典的一般語法：
+- **字典**：字典是內建的資料結構，用來儲存鍵值對的群集。鍵必須是唯一的。數字、字串，以及由數字和字串組成的元組可以用作鍵，但包含列表的元組不能。值可以重複，且可以是任何資料型別。字典也會保留項目被添加的順序。這是 Python 字典的一般語法：
 
 ```python
 dictionary = {
@@ -28,6 +28,23 @@ pizza = dict([('name', 'Margherita Pizza'), ('price', 8.9), ('calories_per_slice
 
 ```python
 dictionary[key]
+```
+
+- **括號指派**：你可以使用括號表示法新增一個鍵值對，或更新現有鍵的值。如果鍵不存在，則會新增該鍵；如果鍵已存在，則會替換其值。
+
+```python
+dictionary[key] = value
+```
+
+- **在迴圈中更新值**：你可以在對 `items()` 迴圈中，透過指定每個鍵來更新現有鍵的值。
+
+```python
+products = {'apple': 10, 'pear': 20}
+
+for product, price in products.items():
+    products[product] = round(price * 0.8)
+
+print(products)  # {'apple': 8, 'pear': 16}
 ```
 
 ## 常用字典方法
@@ -200,7 +217,7 @@ for index, product in enumerate(products.items(), 1):
 
 ## 集合（Sets）
 
-- **集合**：集合是 Python 內建的資料結構，不允許重複值。集合是可變且無序的，這表示元素沒有特定順序，因此無法用索引或鍵來存取。集合只能包含不可變資料型別的值，例如數字、字串和 tuple。
+- **集合**：集合是 Python 內建的資料結構，不允許重複的值。集合是可變的且無序，這表示其元素沒有特定的儲存順序，因此你無法使用索引或鍵來存取它們。數字、字串，以及由數字和字串組成的元組可以作為集合元素，但包含列表的元組不能。
 
 - **定義集合**：要定義集合，需要將元素寫在大括號內並用逗號分隔。
 
@@ -293,6 +310,17 @@ your_set = {2, 3, 4, 6}
 my_set ^ your_set # {1, 5, 6}
 ```
 
+- **複合集合運算子**：運算子 `|=`, `&=`, `-=`, 和 `^=` 分別執行聯集、交集、差集和對稱差集的操作，但它們會更新現有集合，而不是建立新的集合。
+
+```python
+my_set = {1, 2, 3}
+
+my_set |= {3, 4}          # {1, 2, 3, 4}
+my_set &= {2, 3, 4, 5}    # {2, 3, 4}
+my_set -= {4}             # {2, 3}
+my_set ^= {3, 5}          # {2, 5}
+```
+
 - **`in` 運算子**：你可以使用 `in` 運算子檢查元素是否存在於集合中。
 
 ```python
@@ -374,7 +402,7 @@ print(cos_value)  # 0.766044443118978
 from module_name import name1 as alias1, name2 as alias2
 ```
 
-- **使用星號（`*`）的匯入陳述式**：星號告訴 Python 你想匯入該模組的所有內容，但不想使用模組名稱作為前綴。
+- **帶星號（`*`）的匯入敘述**：星號告訴 Python 你想匯入模組的公開名稱，這樣就不需要使用模組名稱作為前綴。如果模組定義了 `__all__`，那個清單會控制匯入哪些名稱。否則，以下劃線開頭的名稱會被排除。
 
 ```python
 from module_name import *
@@ -393,11 +421,82 @@ print(sqrt(36))  # 6.0
 
 - **`__name__` 變數**：`__name__` 是 Python 中一個特殊的內建變數。當 Python 檔案被直接執行時，Python 會將此變數的值設為字串 `"__main__"`。但如果該 Python 檔案被匯入為另一個 Python 腳本的模組，`__name__` 變數的值會設為該模組的名稱。
 
-這就是為什麼你常在 Python 腳本中看到這個條件判斷。它包含了你只想在 Python 腳本作為主程式執行時才執行的程式碼。
+這就是為什麼你常會在 Python 腳本中看到這個條件判斷。它包含你只想在 Python 腳本作為主程式執行時才執行的程式碼。
 
 ```python
 if __name__ == '__main__': 
     # Code
+```
+
+## 驗證資料
+
+- **從可迭代物件建立集合**：`set()` 建構式接受一個可迭代物件，例如列表、字串或字典（會取其鍵），前提是其元素可以被儲存在集合中。舉例來說，數字列表是有效的，但包含其他列表的列表則無效。這對比對你預期的鍵和實際擁有的鍵很有用。
+
+```python
+expected_keys = {'name', 'age'}
+data = {'name': 'Jessica', 'age': 30}
+
+print(set(data) == expected_keys)  # True
+```
+
+- **使用 `**` 解包字典**：`**` 運算子會將字典解包成關鍵字引數，其中每個鍵用作參數名稱。
+
+```python
+def greet(name, age):
+    print(f'{name} is {age}')
+
+data = {'name': 'Jessica', 'age': 30}
+greet(**data)  # Jessica is 30
+```
+
+- **正規表達式和 `re.search()`**：正規表達式描述一個文字樣式。`re.search()` 函式會在字串中尋找該樣式的任何位置。如果找到，會傳回一個匹配物件；找不到則傳回 `None`。
+
+```python
+import re
+
+print(re.search('cat', 'concatenate'))  # <re.Match object; span=(3, 6), match='cat'>
+print(re.search('dog', 'concatenate'))  # None
+```
+
+- **使用 `re.IGNORECASE` 進行不區分大小寫的比對**：將 `re.IGNORECASE` 作為第三個引數傳入，可忽略大小寫差異。
+
+```python
+print(re.search('cat', 'CAT', re.IGNORECASE))  # <re.Match object; span=(0, 3), match='CAT'>
+```
+
+- **原始字串和 `\d`**：原始字串以 `r` 開頭，將反斜線視為字面字元，讓正規表達式更易讀。在樣式中，`\d` 匹配任一單一數字。
+
+```python
+print(re.search(r'\d', 'room 5'))  # <re.Match object; span=(5, 6), match='5'>
+```
+
+- **`+` 量詞**：`+` 量詞匹配前方樣式的一次或多次重複。
+
+```python
+print(re.search(r'\d+', 'room 305'))  # <re.Match object; span=(5, 8), match='305'>
+```
+
+- **`re.fullmatch()` 函式**：`re.fullmatch()` 函式只有在整個字串完全符合樣式時才傳回匹配物件，否則傳回 `None`。
+
+```python
+print(re.fullmatch(r'\d+', '305'))      # <re.Match object; span=(0, 3), match='305'>
+print(re.fullmatch(r'\d+', 'room 305')) # None
+```
+
+- **使用 `is` 和 `is not` 判斷物件身分**：`is` 運算子檢查兩個名稱是否指向同一個物件，而 `is not` 則檢查它們是否不同。這些運算子是判斷值是否為 `None` 的標準方式。
+
+```python
+result = None
+
+print(result is None)      # True
+print(result is not None)  # False
+```
+
+- **`all()` 函式**：`all()` 函式會在可迭代物件中所有元素皆為真值時傳回 `True`。對空的可迭代物件也會傳回 `True`。
+
+```python
+print(all([1, 'a', True]))  # True
+print(all([1, 0, True]))    # False
 ```
 
 # --assignment--

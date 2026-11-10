@@ -1,6 +1,6 @@
 ---
 id: 691f7773cddba1caf1bf5ecb
-title: "Challenge 132: Purge Most Frequent"
+title: "Zoezi la 132: Ondoa Zinazojirudia Zaidi"
 challengeType: 29
 dashedName: challenge-132
 ---
@@ -14,7 +14,7 @@ Ukitoa safu ya data yenye thamani mbalimbali, ondoa matukio yote ya kipengele ki
 
 # --hints--
 
-`purge_most_frequent([1, 2, 2, 3])` should return `[1, 3]`.
+`purge_most_frequent([1, 2, 2, 3])` inapaswa kurudisha `[1, 3]`.
 
 ```js
 ({test: () => { runPython(`
@@ -23,7 +23,7 @@ TestCase().assertEqual(purge_most_frequent([1, 2, 2, 3]), [1, 3])`)
 }})
 ```
 
-`purge_most_frequent(["a", "b", "d", "b", "c", "d", "c", "d", "c", "d"])` should return `["a", "b", "b", "c", "c", "c"]`.
+`purge_most_frequent(["a", "b", "d", "b", "c", "d", "c", "d", "c", "d"])` inapaswa kurudisha `["a", "b", "b", "c", "c", "c"]`.
 
 ```js
 ({test: () => { runPython(`
@@ -32,7 +32,7 @@ TestCase().assertEqual(purge_most_frequent(["a", "b", "d", "b", "c", "d", "c", "
 }})
 ```
 
-`purge_most_frequent(["red", "blue", "green", "red", "blue", "green", "blue"])` should return `["red", "green", "red", "green"]`.
+`purge_most_frequent(["red", "blue", "green", "red", "blue", "green", "blue"])` inapaswa kurudisha `["red", "green", "red", "green"]`.
 
 ```js
 ({test: () => { runPython(`
@@ -41,7 +41,7 @@ TestCase().assertEqual(purge_most_frequent(["red", "blue", "green", "red", "blue
 }})
 ```
 
-`purge_most_frequent([5, 5, 5, 5])` should return `[]`.
+`purge_most_frequent([5, 5, 5, 5])` inapaswa kurudisha `[]`.
 
 ```js
 ({test: () => { runPython(`
@@ -50,7 +50,7 @@ TestCase().assertEqual(purge_most_frequent([5, 5, 5, 5]), [])`)
 }})
 ```
 
-`purgeMostFrequent([10, 12, 7, 3, 7, 7, 12, 12])` should return `[10, 3]`.
+`purge_most_frequent([10, 12, 7, 3, 7, 7, 12, 12])` inapaswa kurudisha `[10, 3]`.
 
 ```js
 ({test: () => { runPython(`

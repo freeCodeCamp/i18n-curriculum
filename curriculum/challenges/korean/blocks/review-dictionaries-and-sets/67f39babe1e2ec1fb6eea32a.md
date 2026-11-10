@@ -9,7 +9,7 @@ dashedName: review-dictionaries-and-sets
 
 ## 딕셔너리
 
-- **딕셔너리**: 딕셔너리는 키-값 쌍을 저장하는 내장 자료 구조입니다. 키는 변경 불가능한 데이터 타입이어야 합니다. Python 딕셔너리의 일반 구문은 다음과 같습니다:
+- **딕셔너리**: 딕셔너리는 키-값 쌍을 저장하는 내장 자료 구조입니다. 키는 고유해야 합니다. 숫자, 문자열, 숫자와 문자열로 이루어진 튜플은 키로 사용할 수 있지만, 리스트를 포함하는 튜플은 사용할 수 없습니다. 값은 중복될 수 있고 어떤 데이터 타입도 가능합니다. 딕셔너리는 항목이 추가된 순서도 유지합니다. 이것이 파이썬 딕셔너리의 일반적인 구문입니다:
 
 ```python
 dictionary = {
@@ -28,6 +28,23 @@ pizza = dict([('name', 'Margherita Pizza'), ('price', 8.9), ('calories_per_slice
 
 ```python
 dictionary[key]
+```
+
+- **대괄호 할당**: 대괄호 표기법으로 새 키-값 쌍을 추가하거나 기존 키의 값을 업데이트할 수 있습니다. 키가 없으면 새로 추가되고, 이미 있으면 값이 교체됩니다.
+
+```python
+dictionary[key] = value
+```
+
+- **루프 내에서 값 업데이트하기**: `items()`를 반복하는 루프 안에서 각 키에 값을 할당하여 기존 키의 값을 업데이트할 수 있습니다.
+
+```python
+products = {'apple': 10, 'pear': 20}
+
+for product, price in products.items():
+    products[product] = round(price * 0.8)
+
+print(products)  # {'apple': 8, 'pear': 16}
 ```
 
 ## 딕셔너리의 일반적인 메서드
@@ -200,7 +217,7 @@ for index, product in enumerate(products.items(), 1):
 
 ## 집합
 
-- **집합**: 집합은 중복 값을 허용하지 않는 Python 내장 자료 구조입니다. 집합은 변경 가능하고 순서가 없으므로 인덱스나 키로 접근할 수 없습니다. 또한 집합은 숫자, 문자열, 튜플 같은 변경 불가능한 데이터 타입만 포함할 수 있습니다.
+- **셋**: 셋은 파이썬 내장 자료 구조로 중복 값을 허용하지 않습니다. 셋은 변경 가능하고 순서가 없어서 요소들이 특정 순서로 저장되지 않으므로 인덱스나 키로 접근할 수 없습니다. 숫자, 문자열, 숫자와 문자열로 이루어진 튜플은 셋 요소가 될 수 있지만, 리스트를 포함하는 튜플은 안 됩니다.
 
 - **집합 정의**: 집합을 정의하려면 중괄호 안에 요소를 작성하고 쉼표로 구분합니다.
 
@@ -293,6 +310,17 @@ your_set = {2, 3, 4, 6}
 my_set ^ your_set # {1, 5, 6}
 ```
 
+- **복합 셋 연산자**: 연산자 `|=`, `&=`, `-=`, `^=`는 합집합, 교집합, 차집합, 대칭 차집합 연산을 수행하지만, 새 셋을 만들지 않고 기존 셋을 업데이트합니다.
+
+```python
+my_set = {1, 2, 3}
+
+my_set |= {3, 4}          # {1, 2, 3, 4}
+my_set &= {2, 3, 4, 5}    # {2, 3, 4}
+my_set -= {4}             # {2, 3}
+my_set ^= {3, 5}          # {2, 5}
+```
+
 - **`in` 연산자**: 요소가 집합에 포함되어 있는지 여부는 `in` 연산자를 사용하여 확인할 수 있습니다.
 
 ```python
@@ -374,7 +402,7 @@ print(cos_value)  # 0.766044443118978
 from module_name import name1 as alias1, name2 as alias2
 ```
 
-- **별표(*)를 사용한 import (`*`)**: 별표는 해당 모듈의 모든 것을 import하지만 모듈 이름을 접두사로 사용하지 않아도 된다는 뜻입니다.
+- **별표(`*`)를 사용한 import 문**: 별표는 모듈의 공개 이름을 모두 가져와서 모듈 이름을 접두사로 쓰지 않아도 되게 합니다. 모듈이 `__all__`을 정의하면 그 목록이 가져올 이름을 제어합니다. 그렇지 않으면 밑줄로 시작하는 이름은 제외됩니다.
 
 ```python
 from module_name import *
@@ -393,11 +421,82 @@ print(sqrt(36))  # 6.0
 
 - **`__name__` 변수**: `__name__`는 Python의 특별한 내장 변수입니다. Python 파일을 직접 실행하면 이 변수의 값은 문자열 `"__main__"`로 설정됩니다. 하지만 Python 파일이 다른 스크립트에 모듈로 import되면 `__name__` 변수의 값은 그 모듈 이름으로 설정됩니다.
 
-이 때문에 Python 스크립트에서 이 조건문을 자주 볼 수 있습니다. 이 조건문 안에는 Python 스크립트가 메인 프로그램으로 실행될 때만 실행하고 싶은 코드가 들어 있습니다.
+이 때문에 파이썬 스크립트에서 이 조건문을 자주 볼 수 있습니다. 이 조건문은 파이썬 스크립트가 메인 프로그램으로 실행될 때만 실행할 코드를 포함합니다.
 
 ```python
 if __name__ == '__main__': 
     # Code
+```
+
+## 데이터 검증
+
+- **반복 가능한 객체로부터 셋 만들기**: `set()` 생성자는 리스트, 문자열, 딕셔너리(키를 제공) 같은 반복 가능한 객체를 받으며, 그 요소들이 셋에 저장될 수 있어야 합니다. 예를 들어 숫자 리스트는 유효하지만 리스트를 포함하는 리스트는 유효하지 않습니다. 이는 예상하는 키와 실제 가진 키를 비교할 때 유용합니다.
+
+```python
+expected_keys = {'name', 'age'}
+data = {'name': 'Jessica', 'age': 30}
+
+print(set(data) == expected_keys)  # True
+```
+
+- **`**`를 사용한 딕셔너리 언패킹**: `**` 연산자는 딕셔너리를 키를 매개변수 이름으로 하는 키워드 인수로 언패킹합니다.
+
+```python
+def greet(name, age):
+    print(f'{name} is {age}')
+
+data = {'name': 'Jessica', 'age': 30}
+greet(**data)  # Jessica is 30
+```
+
+- **정규 표현식과 `re.search()`**: 정규 표현식은 텍스트 패턴을 설명합니다. `re.search()` 함수는 문자열 어디에서든 패턴을 찾습니다. 찾으면 매치 객체를 반환하고, 없으면 `None`을 반환합니다.
+
+```python
+import re
+
+print(re.search('cat', 'concatenate'))  # <re.Match object; span=(3, 6), match='cat'>
+print(re.search('dog', 'concatenate'))  # None
+```
+
+- **`re.IGNORECASE`를 사용한 대소문자 구분 없는 매칭**: 세 번째 인수로 `re.IGNORECASE`를 전달하면 대문자와 소문자의 차이를 무시합니다.
+
+```python
+print(re.search('cat', 'CAT', re.IGNORECASE))  # <re.Match object; span=(0, 3), match='CAT'>
+```
+
+- **원시 문자열과 `\d`**: 원시 문자열은 `r`로 시작하며 역슬래시를 문자 그대로 처리해 정규 표현식을 읽기 쉽게 합니다. 패턴에서 `\d`는 하나의 숫자와 매치됩니다.
+
+```python
+print(re.search(r'\d', 'room 5'))  # <re.Match object; span=(5, 6), match='5'>
+```
+
+- **`+` 수량자**: `+` 수량자는 앞의 패턴이 한 번 이상 반복되는 것과 매치됩니다.
+
+```python
+print(re.search(r'\d+', 'room 305'))  # <re.Match object; span=(5, 8), match='305'>
+```
+
+- **`re.fullmatch()` 함수**: `re.fullmatch()` 함수는 문자열 전체가 패턴과 일치할 때만 매치 객체를 반환합니다. 그렇지 않으면 `None`을 반환합니다.
+
+```python
+print(re.fullmatch(r'\d+', '305'))      # <re.Match object; span=(0, 3), match='305'>
+print(re.fullmatch(r'\d+', 'room 305')) # None
+```
+
+- **`is`와 `is not`를 사용한 객체 동일성 검사**: `is` 연산자는 두 이름이 같은 객체를 가리키는지 확인하고, `is not`은 그렇지 않은지 확인합니다. 이 연산자들은 값이 `None`인지 검사할 때 표준으로 사용됩니다.
+
+```python
+result = None
+
+print(result is None)      # True
+print(result is not None)  # False
+```
+
+- **`all()` 함수**: `all()` 함수는 반복 가능한 객체의 모든 요소가 참일 때 `True`를 반환합니다. 빈 반복 가능한 객체에 대해서도 `True`를 반환합니다.
+
+```python
+print(all([1, 'a', True]))  # True
+print(all([1, 0, True]))    # False
 ```
 
 # --assignment--

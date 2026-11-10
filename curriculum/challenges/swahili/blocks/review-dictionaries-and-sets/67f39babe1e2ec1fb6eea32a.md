@@ -9,7 +9,7 @@ dashedName: review-dictionaries-and-sets
 
 ## Kamusi
 
-- **Kamusi**: Kamusi ni muundo wa data uliyojengwa ndani unaohifadhi makundi ya jozi za ufunguo-thamani. Funguo zinapaswa kuwa aina za data zisizobadilika. Huu ni sintaksia ya jumla ya kamusi ya Python:
+- **Kamusi**: Kamusi ni miundo ya data iliyojengwa ndani inayohifadhi makusanyo ya jozi za ufunguo-thamani. Funguo lazima ziwe za kipekee. Nambari, mfuatano wa herufi, na tuple za nambari na mfuatano wa herufi zinaweza kutumika kama funguo, lakini tuple inayojumuisha orodha haiwezi. Thamani zinaweza kurudiwa na zinaweza kuwa aina yoyote ya data. Kamusi pia huhifadhi mpangilio wa vitu vilivyoongezwa. Hii ni sintaksia ya jumla ya kamusi ya Python:
 
 ```python
 dictionary = {
@@ -28,6 +28,23 @@ pizza = dict([('name', 'Margherita Pizza'), ('price', 8.9), ('calories_per_slice
 
 ```python
 dictionary[key]
+```
+
+- **Mgawo wa mabano**: Unaweza kuongeza jozi mpya ya ufunguo-thamani au kusasisha thamani ya ufunguo uliopo kwa kutumia uandishi wa mabano. Ikiwa ufunguo haupo, huongezwa. Ikiwa tayari upo, thamani yake imebadilishwa.
+
+```python
+dictionary[key] = value
+```
+
+- **Kusasisisha thamani wakati wa kurudia**: Unaweza kusasisha thamani za funguo zilizopo ndani ya mzunguko unaotumia `items()` kwa kuweka thamani kwa kila ufunguo.
+
+```python
+products = {'apple': 10, 'pear': 20}
+
+for product, price in products.items():
+    products[product] = round(price * 0.8)
+
+print(products)  # {'apple': 8, 'pear': 16}
 ```
 
 ## Njia za kawaida za kamusi
@@ -200,7 +217,7 @@ Matokeo:
 
 ## Seti
 
-- **Sets**: Sets ni muundo wa data uliyojengwa ndani katika Python ambao haukuruhusu thamani rudufu. Sets ni zinazobadilika na hazina mpangilio, maana vipengele vyake havihifadhiwi kwa mpangilio maalum, hivyo huwezi kutumia viashiria au funguo kuzipata. Pia, sets zinaweza kuwa na thamani za aina zisizobadilika tu, kama nambari, mfuatano wa herufi, na tuple.
+- **Sets**: Sets ni miundo ya data iliyojengwa ndani katika Python ambayo hairuhusu thamani kurudiwa. Sets ni zinazobadilika na hazina mpangilio maalum, ambayo ina maana vipengele vyake havihifadhiwi kwa mpangilio wowote maalum, hivyo huwezi kutumia nambari za index au funguo kuzipata. Nambari, mfuatano wa herufi, na tuple za nambari na mfuatano wa herufi zinaweza kuwa vipengele vya seti, lakini tuple inayojumuisha orodha haiwezi.
 
 - **Kufafanua set**: Ili kufafanua set, unahitaji kuandika vipengele vyake ndani ya mabano ya mviringo na kuvitenganisha kwa koma.
 
@@ -293,6 +310,17 @@ your_set = {2, 3, 4, 6}
 my_set ^ your_set # {1, 5, 6}
 ```
 
+- **Vendeshaji changamano wa seti**: Vendeshaji `|=`, `&=`, `-=`, na `^=` hufanya operesheni za muungano, mkusanyiko, tofauti, na tofauti ya usawa, lakini husasisha seti iliyopo badala ya kuunda mpya.
+
+```python
+my_set = {1, 2, 3}
+
+my_set |= {3, 4}          # {1, 2, 3, 4}
+my_set &= {2, 3, 4, 5}    # {2, 3, 4}
+my_set -= {4}             # {2, 3}
+my_set ^= {3, 5}          # {2, 5}
+```
+
 - **Operator ya kuangalia uwepo (`in`)**: Unaweza kuangalia kama kipengele kiko katika set au la kwa operator ya `in`.
 
 ```python
@@ -374,7 +402,7 @@ Ikiwa unahitaji kuweka majina haya kuwa na alias, unaweza pia kufanya hivyo kwa 
 from module_name import name1 as alias1, name2 as alias2
 ```
 
-- **Kauli ya import yenye nyota (from module import `*`)**: Nyota inamwambia Python unataka kuleta kila kitu katika moduli hiyo, lakini unataka kuleta ili usihitaji kutumia jina la moduli kama kiambishi.
+- **Kauli ya import yenye nyota (`*`)**: Nyota inaambia Python kwamba unataka kuleta majina ya umma ya moduli ili usihitaji kutumia jina la moduli kama kiambishi awali. Ikiwa moduli inaeleza `__all__`, orodha hiyo hudhibiti majina yanayoletwa. Vinginevyo, majina yanayoanza na mstari chini hayajumuishwi.
 
 ```python
 from module_name import *
@@ -393,11 +421,82 @@ Hata hivyo, hii kwa kawaida haipendekezwi kwa sababu inaweza kusababisha migonga
 
 - **Kigezo cha `__name__`**: `__name__` ni kigezo maalum kilichojengwa ndani katika Python. Wakati faili ya Python inatekelezwa moja kwa moja, Python huweka thamani ya kigezo hiki kuwa mfuatano wa herufi `"__main__"`. Lakini ikiwa faili ya Python inaletiwa kama moduli katika script nyingine ya Python, thamani ya kigezo `__name__` huwekwa kuwa jina la moduli hiyo.
 
-Hii ndiyo sababu mara nyingi utapata masharti haya katika script za Python. Yana msimbo unaotaka kuendeshwa **tu** ikiwa script ya Python inaendeshwa kama programu kuu.
+Hii ndiyo sababu mara nyingi utapata masharti haya katika skiripti za Python. Yana msimbo unaotaka kuendesha **tu** ikiwa skiripti ya Python inaendeshwa kama programu kuu.
 
 ```python
 if __name__ == '__main__': 
     # Code
+```
+
+## Kuhakiki data
+
+- **Kutengeneza seti kutoka kwa inayoweza kurudiwa**: Kijenzi cha `set()` kinakubali kitu kinachoweza kurudiwa, kama orodha, mfuatano wa herufi, au kamusi (ambayo hutoa funguo zake), mradi vipengele vyake vinaweza kuhifadhiwa katika seti. Kwa mfano, orodha ya nambari ni halali, lakini orodha inayojumuisha orodha nyingine si halali. Hii ni muhimu kwa kulinganisha funguo unazotarajia na funguo ulizonazo kweli.
+
+```python
+expected_keys = {'name', 'age'}
+data = {'name': 'Jessica', 'age': 30}
+
+print(set(data) == expected_keys)  # True
+```
+
+- **Kufungua kamusi kwa `**`**: Opereta `**` hufungua kamusi kuwa hoja za kigezo, ambapo kila ufunguo hutumika kama jina la kigezo.
+
+```python
+def greet(name, age):
+    print(f'{name} is {age}')
+
+data = {'name': 'Jessica', 'age': 30}
+greet(**data)  # Jessica is 30
+```
+
+- **Usemi wa kawaida na `re.search()`**: Usemi wa kawaida unaelezea muundo wa maandishi. Kazi ya `re.search()` hutafuta muundo huo mahali popote katika mfuatano wa herufi. Hurejesha kitu cha mechi ikiwa inakuta moja, au `None` ikiwa haikupata.
+
+```python
+import re
+
+print(re.search('cat', 'concatenate'))  # <re.Match object; span=(3, 6), match='cat'>
+print(re.search('dog', 'concatenate'))  # None
+```
+
+- **Ulinganifu usiozingatia herufi kubwa na ndogo kwa `re.IGNORECASE`**: Pita `re.IGNORECASE` kama hoja ya tatu ili kupuuza tofauti kati ya herufi kubwa na ndogo.
+
+```python
+print(re.search('cat', 'CAT', re.IGNORECASE))  # <re.Match object; span=(0, 3), match='CAT'>
+```
+
+- **Mfuatano wa herufi ghafi na `\d`**: Mfuatano wa herufi ghafi huanza na `r` na hutumia mkwaju wa nyuma kama herufi halisi, ambayo hufanya usemi wa kawaida usomeke kwa urahisi. Katika muundo, `\d` inalingana na nambari moja yoyote.
+
+```python
+print(re.search(r'\d', 'room 5'))  # <re.Match object; span=(5, 6), match='5'>
+```
+
+- **Kihimarisha `+`**: Kihimarisha `+` hulinganisha kurudiwa moja au zaidi kwa muundo uliotangulia.
+
+```python
+print(re.search(r'\d+', 'room 305'))  # <re.Match object; span=(5, 8), match='305'>
+```
+
+- **Kazi ya `re.fullmatch()`**: Kazi ya `re.fullmatch()` hurudisha kitu cha mechi tu ikiwa mfuatano mzima unalingana na muundo. Vinginevyo, hurudisha `None`.
+
+```python
+print(re.fullmatch(r'\d+', '305'))      # <re.Match object; span=(0, 3), match='305'>
+print(re.fullmatch(r'\d+', 'room 305')) # None
+```
+
+- **Utambulisho wa kitu kwa `is` na `is not`**: Opereta `is` huthibitisha kama majina mawili yanarejelea kitu kimoja, wakati `is not` huthibitisha kuwa hayarejelei kitu kimoja. Vendeshaji hawa ni njia ya kawaida ya kuangalia kama thamani ni `None`.
+
+```python
+result = None
+
+print(result is None)      # True
+print(result is not None)  # False
+```
+
+- **Kazi ya `all()`**: Kazi ya `all()` hurudisha `True` ikiwa kila kipengele katika inayoweza kurudiwa ni kweli. Pia hurudisha `True` kwa inayoweza kurudiwa tupu.
+
+```python
+print(all([1, 'a', True]))  # True
+print(all([1, 0, True]))    # False
 ```
 
 # --assignment--

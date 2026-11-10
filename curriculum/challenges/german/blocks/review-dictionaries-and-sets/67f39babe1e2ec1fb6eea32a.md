@@ -9,7 +9,7 @@ dashedName: review-dictionaries-and-sets
 
 ## Dictionaries
 
-- **Dictionaries**: Dictionaries sind eingebaute Datenstrukturen, die Sammlungen von Schlüssel-Wert-Paaren speichern. Schlüssel müssen unveränderliche Datentypen sein. Dies ist die allgemeine Syntax eines Python-Dictionaries:
+- **Dictionaries**: Dictionaries sind eingebaute Datenstrukturen, die Sammlungen von Schlüssel-Wert-Paaren speichern. Schlüssel müssen eindeutig sein. Zahlen, Strings und Tuples aus Zahlen und Strings können als Schlüssel verwendet werden, aber ein Tuple, das eine Liste enthält, nicht. Werte können sich wiederholen und können jeden Datentyp haben. Dictionaries behalten außerdem die Reihenfolge bei, in der Elemente hinzugefügt wurden. Dies ist die allgemeine Syntax eines Python-Dictionaries:
 
 ```python
 dictionary = {
@@ -28,6 +28,23 @@ pizza = dict([('name', 'Margherita Pizza'), ('price', 8.9), ('calories_per_slice
 
 ```python
 dictionary[key]
+```
+
+- **Klammerzuweisung**: Sie können ein neues Schlüssel-Wert-Paar hinzufügen oder den Wert eines bestehenden Schlüssels mit der Klammernotation aktualisieren. Wenn der Schlüssel nicht existiert, wird er hinzugefügt. Existiert er bereits, wird sein Wert ersetzt.
+
+```python
+dictionary[key] = value
+```
+
+- **Werte während des Durchlaufens aktualisieren**: Sie können die Werte bestehender Schlüssel innerhalb einer Schleife über `items()` aktualisieren, indem Sie jedem Schlüssel einen neuen Wert zuweisen.
+
+```python
+products = {'apple': 10, 'pear': 20}
+
+for product, price in products.items():
+    products[product] = round(price * 0.8)
+
+print(products)  # {'apple': 8, 'pear': 16}
 ```
 
 ## Häufige Dictionary-Methoden
@@ -200,7 +217,7 @@ Ausgabe:
 
 ## Sets
 
-- **Sets**: Sets sind eingebaute Datenstrukturen in Python, die keine doppelten Werte zulassen. Sets sind veränderlich und ungeordnet, was bedeutet, dass ihre Elemente nicht in einer bestimmten Reihenfolge gespeichert werden, sodass Sie nicht mit Indizes oder Schlüsseln darauf zugreifen können. Außerdem können Sets nur Werte unveränderlicher Datentypen enthalten, wie Zahlen, Strings und Tuples.
+- **Sets**: Sets sind eingebaute Datenstrukturen in Python, die keine doppelten Werte zulassen. Sets sind veränderbar und ungeordnet, was bedeutet, dass ihre Elemente nicht in einer bestimmten Reihenfolge gespeichert sind, sodass Sie nicht mit Indizes oder Schlüsseln darauf zugreifen können. Zahlen, Strings und Tuples aus Zahlen und Strings können Set-Elemente sein, aber ein Tuple, das eine Liste enthält, nicht.
 
 - **Ein Set definieren**: Um ein Set zu definieren, schreiben Sie seine Elemente innerhalb geschweifter Klammern und trennen sie mit Kommas.
 
@@ -293,6 +310,17 @@ your_set = {2, 3, 4, 6}
 my_set ^ your_set # {1, 5, 6}
 ```
 
+- **Verbundene Set-Operatoren**: Die Operatoren `|=`, `&=`, `-=`, und `^=` führen die Vereinigungs-, Schnittmengen-, Differenz- und symmetrische Differenz-Operationen aus, aktualisieren dabei aber das bestehende Set, anstatt ein neues zu erstellen.
+
+```python
+my_set = {1, 2, 3}
+
+my_set |= {3, 4}          # {1, 2, 3, 4}
+my_set &= {2, 3, 4, 5}    # {2, 3, 4}
+my_set -= {4}             # {2, 3}
+my_set ^= {3, 5}          # {2, 5}
+```
+
 - **`in`-Operator**: Sie können mit dem `in`-Operator prüfen, ob ein Element in einem Set enthalten ist oder nicht.
 
 ```python
@@ -374,7 +402,7 @@ Wenn Sie diesen Namen Aliase zuweisen müssen, können Sie dies ebenfalls tun, i
 from module_name import name1 as alias1, name2 as alias2
 ```
 
-- **Import-Anweisung mit Sternchen (`*`)**: Das Sternchen sagt Python, dass Sie alles in diesem Modul importieren möchten, aber so, dass Sie den Namen des Moduls nicht als Präfix verwenden müssen.
+- **Import-Anweisung mit Asterisk (`*`)**: Der Asterisk sagt Python, dass Sie die öffentlichen Namen des Moduls importieren möchten, sodass Sie den Modulnamen nicht als Präfix verwenden müssen. Wenn das Modul `__all__` definiert, steuert diese Liste, welche Namen importiert werden. Andernfalls werden Namen, die mit einem Unterstrich beginnen, ausgeschlossen.
 
 ```python
 from module_name import *
@@ -398,6 +426,77 @@ Deshalb finden Sie diese Bedingung oft in Python-Skripten. Sie enthält den Code
 ```python
 if __name__ == '__main__': 
     # Code
+```
+
+## Daten validieren
+
+- **Ein Set aus einem Iterable erstellen**: Der `set()`-Konstruktor akzeptiert ein Iterable, wie eine Liste, einen String oder ein Dictionary (das seine Schlüssel liefert), vorausgesetzt, seine Elemente können in einem Set gespeichert werden. Zum Beispiel ist eine Liste von Zahlen gültig, aber eine Liste, die andere Listen enthält, nicht. Das ist nützlich, um die erwarteten Schlüssel mit den tatsächlich vorhandenen zu vergleichen.
+
+```python
+expected_keys = {'name', 'age'}
+data = {'name': 'Jessica', 'age': 30}
+
+print(set(data) == expected_keys)  # True
+```
+
+- **Dictionary-Unpacking mit `**`**: Der `**`-Operator entpackt ein Dictionary in Schlüsselwortargumente, wobei jeder Schlüssel als Parametername verwendet wird.
+
+```python
+def greet(name, age):
+    print(f'{name} is {age}')
+
+data = {'name': 'Jessica', 'age': 30}
+greet(**data)  # Jessica is 30
+```
+
+- **Reguläre Ausdrücke und `re.search()`**: Ein regulärer Ausdruck beschreibt ein Textmuster. Die Funktion `re.search()` sucht das Muster irgendwo in einem String. Sie gibt ein Match-Objekt zurück, wenn sie eines findet, oder `None`, wenn nicht.
+
+```python
+import re
+
+print(re.search('cat', 'concatenate'))  # <re.Match object; span=(3, 6), match='cat'>
+print(re.search('dog', 'concatenate'))  # None
+```
+
+- **Groß-/Kleinschreibungsunabhängiges Matching mit `re.IGNORECASE`**: Übergeben Sie `re.IGNORECASE` als dritten Parameter, um den Unterschied zwischen Groß- und Kleinbuchstaben zu ignorieren.
+
+```python
+print(re.search('cat', 'CAT', re.IGNORECASE))  # <re.Match object; span=(0, 3), match='CAT'>
+```
+
+- **Raw Strings und `\d`**: Ein Raw String beginnt mit `r` und behandelt Backslashes als literale Zeichen, was reguläre Ausdrücke lesbar hält. In einem Muster steht `\d` für eine einzelne Ziffer.
+
+```python
+print(re.search(r'\d', 'room 5'))  # <re.Match object; span=(5, 6), match='5'>
+```
+
+- **Der `+`-Quantifizierer**: Der `+`-Quantifizierer passt auf eine oder mehrere Wiederholungen des vorhergehenden Musters.
+
+```python
+print(re.search(r'\d+', 'room 305'))  # <re.Match object; span=(5, 8), match='305'>
+```
+
+- **`re.fullmatch()`-Funktion**: Die Funktion `re.fullmatch()` gibt nur dann ein Match-Objekt zurück, wenn der gesamte String dem Muster entspricht. Andernfalls gibt sie `None` zurück.
+
+```python
+print(re.fullmatch(r'\d+', '305'))      # <re.Match object; span=(0, 3), match='305'>
+print(re.fullmatch(r'\d+', 'room 305')) # None
+```
+
+- **Objektidentität mit `is` und `is not`**: Der Operator `is` prüft, ob zwei Namen auf dasselbe Objekt verweisen, während `is not` prüft, dass sie es nicht tun. Diese Operatoren sind der Standardweg, um zu überprüfen, ob ein Wert `None` ist.
+
+```python
+result = None
+
+print(result is None)      # True
+print(result is not None)  # False
+```
+
+- **Die `all()`-Funktion**: Die Funktion `all()` gibt `True` zurück, wenn jedes Element in einem Iterable wahrheitsgemäß ist. Sie gibt auch `True` für ein leeres Iterable zurück.
+
+```python
+print(all([1, 'a', True]))  # True
+print(all([1, 0, True]))    # False
 ```
 
 # --assignment--
