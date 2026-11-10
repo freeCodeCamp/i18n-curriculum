@@ -728,8 +728,8 @@
     "challenges-completed": "{{completedCount}} / {{totalChallenges}} 个挑战已完成",
     "season-greetings-fcc": "来自 freeCodeCamp 社区的节日问候 🎉",
     "if-getting-value": "如果你从 freeCodeCamp 获益良多，现在是支持我们慈善使命的好时机。",
-    "building-a-university": "我们正在创建一个免费的计算机科学大学学位课程 🎉",
-    "if-help-university": "我们已经取得了巨大进展。现在捐赠，帮助我们的慈善机构迎接未来挑战。",
+    "building-a-curriculum": "我们正在创建免费的数学和科学课程 🎉",
+    "if-help-curriculum": "帮助我们创建世界上最好的免费数学和科学课程，由人类为全球好奇的头脑打造。",
     "preview-external-window": "预览当前显示在外部窗口中。",
     "fill-in-the-blank": {
       "heading": "填空题",

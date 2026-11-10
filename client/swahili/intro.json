@@ -1832,9 +1832,9 @@
         ]
       },
       "review-object-oriented-programming": {
-        "title": "Kagua uprogramaji unaozingatia vitu",
+        "title": "Kagua programu inayotumia vitu",
         "intro": [
-          "Kabla ya kujaribiwa kuhusu uprogramaji unaozingatia vitu, unapaswa kukagua kile ulichojifunza kuhusu hilo."
+          "Kabla hujajaribiwa kuhusu programu inayotumia vitu, unapaswa kukagua kile ulichojifunza kuhusu hilo."
         ]
       },
       "quiz-object-oriented-programming": {
@@ -2610,6 +2610,12 @@
         "title": "Jenga mfuatizo wa taa za trafiki",
         "intro": [
           "Katika maabara hii, utatumia loops za JavaScript kujenga mfuatizo wa taa za trafiki."
+        ]
+      },
+      "workshop-campus-directory-normalizer": {
+        "title": "Jenga Kawaisha ya Orodha ya Chuo",
+        "intro": [
+          "Katika warsha hii, utakawaisha data zilizopangwa ndani kuwa jedwali huru, rahisi kutumia la kutafuta."
         ]
       },
       "lab-proofreading-tool": {
@@ -5030,6 +5036,12 @@
           "Katika warsha hii, utaunda kitendakazi kinachotafuta taarifa za wasifu."
         ]
       },
+      "lab-data-sanitizer-sweep": {
+        "title": "Tekeleza Mchakato wa Kusafisha Data",
+        "intro": [
+          "Katika maabara hii, utatumia uendeshaji wa mfuatano wa herufi na mizunguko kubadilisha herufi katika mfuatano wa kumbukumbu na mafaili yote ya kumbukumbu."
+        ]
+      },
       "workshop-space-mission-roster": {
         "title": "Jenga Orodha ya Wafanyakazi wa Misheni ya Anga",
         "intro": [
@@ -6649,7 +6661,7 @@
         ]
       },
       "review-dictionaries-and-sets": {
-        "title": "Kagua kamusi na seti",
+        "title": "Kagua Kamusi na Seti",
         "intro": [
           "Kabla hujajaribiwa kuhusu kamusi na seti, unapaswa kukagua kile ulichojifunza kuhusu hayo.",
           "Fungua ukurasa huu kukagua dhana kuhusu kamusi, seti, na jinsi ya import moduli."
@@ -6781,9 +6793,9 @@
         ]
       },
       "review-object-oriented-programming": {
-        "title": "Kagua programu inayozingatia vitu",
+        "title": "Kagua programu inayotumia vitu",
         "intro": [
-          "Kabla hujajibu jaribio kuhusu uprogramaji unaozingatia vitu, unapaswa kukagua kile ulichojifunza kuhusu hilo."
+          "Kabla hujajaribiwa kuhusu programu inayotumia vitu, unapaswa kukagua kile ulichojifunza kuhusu hilo."
         ]
       },
       "quiz-object-oriented-programming": {
@@ -10454,6 +10466,7 @@
     },
     "modules": {
       "python-basics": "Misingi ya Python",
+      "lab-rpg-character": "Jenga Mhusika wa RPG",
       "python-loops-and-sequences": "Mizunguko na mfululizo",
       "python-dictionaries-and-sets": "Kamusi na seti",
       "lab-user-configuration-manager": "Jenga Meneja wa Usanidi wa Mtumizi",
@@ -10559,12 +10572,6 @@
           "Katika warsha hii, utajenga cipher ya Caesar kwa kutumia dhana za msingi za Python kama mfuatano wa herufi, masharti, kitendakazi, na zaidi."
         ]
       },
-      "lab-rpg-character": {
-        "title": "Jenga Mhusika wa RPG",
-        "intro": [
-          "Katika maabara hii utatumia Python ya msingi kwa kujenga mhusika wa RPG."
-        ]
-      },
       "review-python-basics": {
         "title": "Kagua Misingi ya Python",
         "intro": [
@@ -10578,10 +10585,28 @@
           "Jaribu kile ulichojifunza kuhusu misingi ya Python kwa jaribio hili."
         ]
       },
-      "lecture-working-with-loops-and-sequences": {
-        "title": "Kufanya kazi na mizunguko na mfululizo",
+      "lab-rpg-character": {
+        "title": "Jenga Mhusika wa RPG",
         "intro": [
-          "Jifunze kuhusu kufanya kazi na mizunguko na mfululizo katika mafundisho haya."
+          "Katika maabara hii utatumia Python ya msingi kwa kujenga mhusika wa RPG."
+        ]
+      },
+      "lecture-working-with-lists": {
+        "title": "Kufanya kazi na Orodha",
+        "intro": ["Jifunze kuhusu kufanya kazi na orodha katika mafundisho haya."]
+      },
+      "lecture-working-with-tuples": {
+        "title": "Kufanya kazi na Tuple",
+        "intro": ["Jifunze kuhusu kufanya kazi na tuple katika mafundisho haya."]
+      },
+      "lecture-working-with-loops-python": {
+        "title": "Kufanya kazi na Mizunguko",
+        "intro": ["Jifunze kuhusu kufanya kazi na mizunguko katika mafundisho haya."]
+      },
+      "lecture-understanding-list-comprehensions-and-lambda-functions": {
+        "title": "Kuelewa Mifano ya Orodha na Kitendakazi cha Lambda",
+        "intro": [
+          "Jifunze kuhusu mifano ya orodha na vitendakazi vya lambda katika mafundisho haya."
         ]
       },
       "workshop-pin-extractor": {
@@ -10594,10 +10619,10 @@
         "title": "Jenga Kizalishaji cha Mchoro wa Nambari",
         "intro": ["Katika maabara hii utajenga kizalishaji cha mchoro wa nambari."]
       },
-      "review-loops-and-sequences": {
-        "title": "Kagua mizunguko na mfululizo",
+      "review-loops-and-sequences-v2": {
+        "title": "Kagua Mizunguko na Mfululizo",
         "intro": [
-          "Kabla ya kujaribiwa kuhusu mizunguko na mfululizo, unapaswa kukagua kile ulichojifunza kuhusu hayo.",
+          "Kabla hujajaribiwa kuhusu mizunguko na mfululizo, unapaswa kukagua kile ulichojifunza kuhusu hayo.",
           "Fungua ukurasa huu kukagua dhana zinazohusu mizunguko, orodha, tuple, na baadhi ya njia zao za kawaida."
         ]
       },
@@ -10624,7 +10649,7 @@
         ]
       },
       "review-dictionaries-and-sets": {
-        "title": "Kagua kamusi na seti",
+        "title": "Kagua Kamusi na Seti",
         "intro": [
           "Kabla hujajibu jaribio kuhusu kamusi na seti, unapaswa kukagua kile ulichojifunza kuhusu hizo.",
           "Fungua ukurasa huu kukagua dhana zinazohusu kamusi, seti, na jinsi ya import moduli."
@@ -10756,9 +10781,9 @@
         ]
       },
       "review-object-oriented-programming": {
-        "title": "Kagua uprogramaji unaozingatia vitu",
+        "title": "Kagua programu inayotumia vitu",
         "intro": [
-          "Kabla hujajibu jaribio kuhusu uprogramaji unaozingatia vitu, unapaswa kukagua kile ulichojifunza kuhusu hilo."
+          "Kabla hujajaribiwa kuhusu programu inayotumia vitu, unapaswa kukagua kile ulichojifunza kuhusu hilo."
         ]
       },
       "quiz-object-oriented-programming": {

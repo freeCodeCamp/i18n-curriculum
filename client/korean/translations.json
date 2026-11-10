@@ -728,8 +728,8 @@
     "challenges-completed": "{{totalChallenges}}개 도전 과제 중 {{completedCount}}개 완료",
     "season-greetings-fcc": "freeCodeCamp 커뮤니티에서 전하는 시즌 인사 🎉",
     "if-getting-value": "freeCodeCamp에서 많은 도움을 받고 있다면, 지금이 우리 자선단체의 사명을 지원하기 위해 기부할 좋은 시기입니다.",
-    "building-a-university": "무료 컴퓨터 과학 대학 학위 프로그램을 만들고 있습니다 🎉",
-    "if-help-university": "이미 많은 진전을 이루었습니다. 앞으로의 길을 위해 자선단체에 지금 기부하세요.",
+    "building-a-curriculum": "무료 수학 및 과학 교육 과정을 만들고 있습니다 🎉",
+    "if-help-curriculum": "호기심 많은 모든 이를 위해 사람이 직접 만든 세계 최고의 무료 수학 및 과학 교육 과정을 만드는 데 도움을 주세요.",
     "preview-external-window": "현재 미리보기가 외부 창에 표시되고 있습니다.",
     "fill-in-the-blank": {
       "heading": "빈칸 채우기",

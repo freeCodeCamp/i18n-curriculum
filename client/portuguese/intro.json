@@ -2612,6 +2612,12 @@
           "Neste laboratório, você vai usar loops JavaScript para criar um sequenciador de semáforo."
         ]
       },
+      "workshop-campus-directory-normalizer": {
+        "title": "Crie um normalizador de diretório do campus",
+        "intro": [
+          "Nesta oficina, você vai normalizar dados aninhados em tabelas de consulta independentes e fáceis de usar."
+        ]
+      },
       "lab-proofreading-tool": {
         "title": "Crie uma ferramenta de revisão",
         "intro": [
@@ -5028,6 +5034,12 @@
         "title": "Crie uma busca de perfil",
         "intro": [
           "Neste laboratório, você criará uma função que busca informações de perfil."
+        ]
+      },
+      "lab-data-sanitizer-sweep": {
+        "title": "Implemente o processo de varredura do sanitizador de dados",
+        "intro": [
+          "Neste laboratório, você vai praticar manipulação de strings e loops para substituir caracteres em strings de log e em arquivos de log inteiros."
         ]
       },
       "workshop-space-mission-roster": {
@@ -10454,6 +10466,7 @@
     },
     "modules": {
       "python-basics": "Noções básicas de Python",
+      "lab-rpg-character": "Crie um personagem de RPG",
       "python-loops-and-sequences": "Loops e sequências",
       "python-dictionaries-and-sets": "Dicionários e conjuntos",
       "lab-user-configuration-manager": "Construa um gerenciador de configuração de usuário",
@@ -10559,12 +10572,6 @@
           "Nesta oficina, você construirá uma cifra de César usando conceitos básicos de Python como strings, condicionais, funções e mais."
         ]
       },
-      "lab-rpg-character": {
-        "title": "Construa um personagem de RPG",
-        "intro": [
-          "Neste laboratório, você praticará o básico de Python construindo um personagem de RPG."
-        ]
-      },
       "review-python-basics": {
         "title": "Revisão de noções básicas de Python",
         "intro": [
@@ -10578,10 +10585,28 @@
           "Teste o que aprendeu sobre noções básicas de Python com este quiz."
         ]
       },
-      "lecture-working-with-loops-and-sequences": {
-        "title": "Trabalhando com loops e sequências",
+      "lab-rpg-character": {
+        "title": "Construa um personagem de RPG",
         "intro": [
-          "Aprenda sobre trabalhar com loops e sequências nestas lições."
+          "Neste laboratório, você praticará o básico de Python construindo um personagem de RPG."
+        ]
+      },
+      "lecture-working-with-lists": {
+        "title": "Trabalhando com listas",
+        "intro": ["Aprenda a trabalhar com listas nestas lições."]
+      },
+      "lecture-working-with-tuples": {
+        "title": "Trabalhando com tuplas",
+        "intro": ["Aprenda a trabalhar com tuplas nestas lições."]
+      },
+      "lecture-working-with-loops-python": {
+        "title": "Trabalhando com loops",
+        "intro": ["Aprenda a trabalhar com loops nestas lições."]
+      },
+      "lecture-understanding-list-comprehensions-and-lambda-functions": {
+        "title": "Entendendo compreensões de listas e funções lambda",
+        "intro": [
+          "Aprenda sobre compreensões de listas e funções lambda nestas lições."
         ]
       },
       "workshop-pin-extractor": {
@@ -10594,10 +10619,10 @@
         "title": "Construa um gerador de padrão numérico",
         "intro": ["Neste laboratório, você construirá um gerador de padrão numérico."]
       },
-      "review-loops-and-sequences": {
+      "review-loops-and-sequences-v2": {
         "title": "Revisão de loops e sequências",
         "intro": [
-          "Antes de fazer o quiz sobre loops e sequências, você deve revisar o que aprendeu sobre eles.",
+          "Antes de fazer o quiz sobre loops e sequências, revise o que aprendeu sobre eles.",
           "Abra esta página para revisar conceitos sobre loops, listas, tuplas e alguns de seus métodos comuns."
         ]
       },

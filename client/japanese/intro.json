@@ -1832,9 +1832,9 @@
         ]
       },
       "review-object-oriented-programming": {
-        "title": "オブジェクト指向プログラミングの復習",
+        "title": "オブジェクト指向プログラミングのレビュー",
         "intro": [
-          "オブジェクト指向プログラミングのクイズを受ける前に、学んだことを復習してください。"
+          "オブジェクト指向プログラミングのクイズを受ける前に、学んだ内容を復習してください。"
         ]
       },
       "quiz-object-oriented-programming": {
@@ -2610,6 +2610,12 @@
         "title": "信号機シーケンサーを作る",
         "intro": [
           "このラボでは、JavaScriptのループを使って信号機のシーケンサーを作ります。"
+        ]
+      },
+      "workshop-campus-directory-normalizer": {
+        "title": "キャンパスディレクトリ正規化ツールを作成する",
+        "intro": [
+          "このワークショップでは、ネストされたデータを独立した使いやすい参照テーブルに正規化します。"
         ]
       },
       "lab-proofreading-tool": {
@@ -5030,6 +5036,12 @@
           "このラボでは、プロフィール情報を検索する関数を作ります。"
         ]
       },
+      "lab-data-sanitizer-sweep": {
+        "title": "データサニタイザースイープ処理を実装する",
+        "intro": [
+          "このラボでは、文字列操作とループを使ってログ文字列やログファイル全体の文字を置き換える練習をします。"
+        ]
+      },
       "workshop-space-mission-roster": {
         "title": "宇宙ミッション名簿を作る",
         "intro": [
@@ -6649,7 +6661,7 @@
         ]
       },
       "review-dictionaries-and-sets": {
-        "title": "辞書とセットの復習",
+        "title": "辞書とセットのレビュー",
         "intro": [
           "辞書とセットのクイズを受ける前に、学んだ内容を復習してください。",
           "このページを開いて、辞書、セット、およびモジュールのインポート方法に関する概念を復習しましょう。"
@@ -6781,7 +6793,7 @@
         ]
       },
       "review-object-oriented-programming": {
-        "title": "オブジェクト指向プログラミングレビュー",
+        "title": "オブジェクト指向プログラミングのレビュー",
         "intro": [
           "オブジェクト指向プログラミングのクイズを受ける前に、学んだ内容を復習してください。"
         ]
@@ -10454,6 +10466,7 @@
     },
     "modules": {
       "python-basics": "Python基礎",
+      "lab-rpg-character": "RPGキャラクターを作成する",
       "python-loops-and-sequences": "ループとシーケンス",
       "python-dictionaries-and-sets": "辞書とセット",
       "lab-user-configuration-manager": "ユーザー設定マネージャーを作成する",
@@ -10559,12 +10572,6 @@
           "このワークショップでは、文字列、条件分岐、関数などの基本的なPythonの概念を使ってシーザー暗号を作成します。"
         ]
       },
-      "lab-rpg-character": {
-        "title": "RPGキャラクターを作成する",
-        "intro": [
-          "このラボでは、RPGキャラクターを作成してPythonの基本を練習します。"
-        ]
-      },
       "review-python-basics": {
         "title": "Python基礎レビュー",
         "intro": [
@@ -10578,10 +10585,28 @@
           "このクイズでPython基礎の理解度を試してください。"
         ]
       },
-      "lecture-working-with-loops-and-sequences": {
-        "title": "ループとシーケンスの操作",
+      "lab-rpg-character": {
+        "title": "RPGキャラクターを作成する",
         "intro": [
-          "これらのレッスンでループとシーケンスの操作について学びます。"
+          "このラボでは、RPGキャラクターを作成してPythonの基本を練習します。"
+        ]
+      },
+      "lecture-working-with-lists": {
+        "title": "リストの操作",
+        "intro": ["これらのレッスンでリストの操作について学びます。"]
+      },
+      "lecture-working-with-tuples": {
+        "title": "タプルの操作",
+        "intro": ["これらのレッスンでタプルの操作について学びます。"]
+      },
+      "lecture-working-with-loops-python": {
+        "title": "ループの操作",
+        "intro": ["これらのレッスンでループの操作について学びます。"]
+      },
+      "lecture-understanding-list-comprehensions-and-lambda-functions": {
+        "title": "リスト内包表記とラムダ関数の理解",
+        "intro": [
+          "これらのレッスンでリスト内包表記とラムダ関数について学びます。"
         ]
       },
       "workshop-pin-extractor": {
@@ -10594,8 +10619,8 @@
         "title": "数字パターンジェネレーターを作成する",
         "intro": ["このラボでは、数字パターンジェネレーターを作成します。"]
       },
-      "review-loops-and-sequences": {
-        "title": "ループとシーケンスレビュー",
+      "review-loops-and-sequences-v2": {
+        "title": "ループとシーケンスのレビュー",
         "intro": [
           "ループとシーケンスのクイズを受ける前に、学んだ内容を復習してください。",
           "このページを開いて、ループ、リスト、タプル、およびそれらの一般的なメソッドに関する概念を復習してください。"
@@ -10624,7 +10649,7 @@
         ]
       },
       "review-dictionaries-and-sets": {
-        "title": "辞書とセットの復習",
+        "title": "辞書とセットのレビュー",
         "intro": [
           "辞書とセットのクイズを受ける前に、学んだ内容を復習してください。",
           "このページを開いて、辞書、セット、モジュールのインポートに関する概念を復習しましょう。"
@@ -10756,7 +10781,7 @@
         ]
       },
       "review-object-oriented-programming": {
-        "title": "オブジェクト指向プログラミングの復習",
+        "title": "オブジェクト指向プログラミングのレビュー",
         "intro": [
           "オブジェクト指向プログラミングのクイズを受ける前に、学んだ内容を復習してください。"
         ]

@@ -728,8 +728,8 @@
     "challenges-completed": "{{completedCount}} kati ya changamoto {{totalChallenges}} zimekamilika",
     "season-greetings-fcc": "Salamu za msimu kutoka kwa jamii ya freeCodeCamp 🎉",
     "if-getting-value": "Ikiwa unapata mengi kutoka freeCodeCamp, sasa ni wakati mzuri wa kutoa mchango kusaidia dhamira ya shirika letu la hisani.",
-    "building-a-university": "Tunajenga programu ya shahada ya chuo kikuu ya sayansi ya kompyuta bure 🎉",
-    "if-help-university": "Tumefanya maendeleo makubwa tayari. Toa mchango sasa kusaidia shirika letu kwa safari inayokuja.",
+    "building-a-curriculum": "Tunajenga mtaala wa bure wa hisabati na sayansi 🎉",
+    "if-help-curriculum": "Tusaidie kujenga mtaala bora zaidi wa bure wa hisabati na sayansi duniani, uliotengenezwa na watu, kwa akili zenye hamu ya kujifunza kila mahali.",
     "preview-external-window": "Onyesho la awali linaonyeshwa sasa katika dirisha la nje.",
     "fill-in-the-blank": {
       "heading": "Jaza nafasi tupu",

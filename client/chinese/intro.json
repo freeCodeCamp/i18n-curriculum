@@ -1834,7 +1834,7 @@
       "review-object-oriented-programming": {
         "title": "面向对象编程复习",
         "intro": [
-          "在进行面向对象编程测验前，你应该复习所学内容。"
+          "在你接受面向对象编程测验之前，应该先复习你所学的内容。"
         ]
       },
       "quiz-object-oriented-programming": {
@@ -2610,6 +2610,12 @@
         "title": "创建交通信号灯序列器",
         "intro": [
           "在本实验中，你将使用 JavaScript 循环来创建一个交通信号灯序列器。"
+        ]
+      },
+      "workshop-campus-directory-normalizer": {
+        "title": "构建校园目录规范器",
+        "intro": [
+          "在本次工作坊中，你将把嵌套数据规范化为独立且易用的查找表。"
         ]
       },
       "lab-proofreading-tool": {
@@ -5030,6 +5036,12 @@
           "在本实验中，你将创建一个函数来查找评测信息。"
         ]
       },
+      "lab-data-sanitizer-sweep": {
+        "title": "实现数据清理扫描进程",
+        "intro": [
+          "在本实验中，你将练习使用字串操作和循环来替换日志字串和整个日志文件中的字符。"
+        ]
+      },
       "workshop-space-mission-roster": {
         "title": "创建太空任务名单",
         "intro": [
@@ -6783,7 +6795,7 @@
       "review-object-oriented-programming": {
         "title": "面向对象编程复习",
         "intro": [
-          "在参加面向对象编程测验前，你应该复习已学的内容。"
+          "在你接受面向对象编程测验之前，应该先复习你所学的内容。"
         ]
       },
       "quiz-object-oriented-programming": {
@@ -10454,6 +10466,7 @@
     },
     "modules": {
       "python-basics": "Python 基础",
+      "lab-rpg-character": "构建 RPG 角色",
       "python-loops-and-sequences": "循环和序列",
       "python-dictionaries-and-sets": "字典和集合",
       "lab-user-configuration-manager": "创建用户配置管理器",
@@ -10559,12 +10572,6 @@
           "在本工作坊中，你将使用基础 Python 概念如字串、条件式、函数等，创建一个凯撒密码。"
         ]
       },
-      "lab-rpg-character": {
-        "title": "创建 RPG 角色",
-        "intro": [
-          "在本实验中，你将通过创建一个 RPG 角色来练习基础 Python。"
-        ]
-      },
       "review-python-basics": {
         "title": "Python 基础复习",
         "intro": [
@@ -10578,10 +10585,28 @@
           "通过此测验测试你对 Python 基础的掌握。"
         ]
       },
-      "lecture-working-with-loops-and-sequences": {
-        "title": "使用循环和序列",
+      "lab-rpg-character": {
+        "title": "创建 RPG 角色",
         "intro": [
-          "在这些课程中，学习如何使用循环和序列。"
+          "在本实验中，你将通过创建一个 RPG 角色来练习基础 Python。"
+        ]
+      },
+      "lecture-working-with-lists": {
+        "title": "操作列表",
+        "intro": ["在这些课程中学习如何操作列表。"]
+      },
+      "lecture-working-with-tuples": {
+        "title": "操作元组",
+        "intro": ["在这些课程中学习如何操作元组。"]
+      },
+      "lecture-working-with-loops-python": {
+        "title": "操作循环",
+        "intro": ["在这些课程中学习如何操作循环。"]
+      },
+      "lecture-understanding-list-comprehensions-and-lambda-functions": {
+        "title": "理解列表推导和 Lambda 函数",
+        "intro": [
+          "在这些课程中学习列表推导和 Lambda 函数。"
         ]
       },
       "workshop-pin-extractor": {
@@ -10594,11 +10619,11 @@
         "title": "创建数字模式生成器",
         "intro": ["在本实验中，你将创建一个数字模式生成器。"]
       },
-      "review-loops-and-sequences": {
+      "review-loops-and-sequences-v2": {
         "title": "循环和序列复习",
         "intro": [
-          "在进行循环和序列测验前，你应该复习已学内容。",
-          "打开此页面，复习循环、列表、元组及它们的一些常用方法的概念。"
+          "在你接受循环和序列测验之前，应该先复习你所学的内容。",
+          "打开此页面复习有关循环、列表、元组及其常用方法的概念。"
         ]
       },
       "quiz-loops-and-sequences": {
@@ -10758,7 +10783,7 @@
       "review-object-oriented-programming": {
         "title": "面向对象编程复习",
         "intro": [
-          "在进行面向对象编程测验之前，你应该复习相关内容。"
+          "在你接受面向对象编程测验之前，应该先复习你所学的内容。"
         ]
       },
       "quiz-object-oriented-programming": {

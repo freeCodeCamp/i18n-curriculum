@@ -9,7 +9,7 @@ dashedName: review-dictionaries-and-sets
 
 ## Dicionários
 
-- **Dicionários**: Dicionários são estruturas de dados embutidas que armazenam coleções de pares chave-valor. As chaves precisam ser tipos de dados imutáveis. Esta é a sintaxe geral de um dicionário em Python:
+- **Dicionários**: Dicionários são estruturas de dados embutidas que armazenam coleções de pares chave-valor. As chaves devem ser únicas. Números, strings e tuplas de números e strings podem ser usadas como chaves, mas uma tupla que contém uma lista não pode. Os valores podem se repetir e podem ser de qualquer tipo de dado. Dicionários também mantêm a ordem em que os itens foram adicionados. Esta é a sintaxe geral de um dicionário em Python:
 
 ```python
 dictionary = {
@@ -28,6 +28,23 @@ pizza = dict([('name', 'Margherita Pizza'), ('price', 8.9), ('calories_per_slice
 
 ```python
 dictionary[key]
+```
+
+- **Atribuição por colchetes**: Você pode adicionar um novo par chave-valor ou atualizar o valor de uma chave existente usando a notação por colchetes. Se a chave não existir, ela é adicionada. Se já existir, seu valor é substituído.
+
+```python
+dictionary[key] = value
+```
+
+- **Atualizando valores durante um loop**: Você pode atualizar os valores das chaves existentes dentro de um loop sobre `items()` atribuindo a cada chave.
+
+```python
+products = {'apple': 10, 'pear': 20}
+
+for product, price in products.items():
+    products[product] = round(price * 0.8)
+
+print(products)  # {'apple': 8, 'pear': 16}
 ```
 
 ## Métodos comuns de dicionário
@@ -200,7 +217,7 @@ Resultado:
 
 ## Conjuntos
 
-- **Conjuntos**: Conjuntos ou sets são estruturas de dados embutidas em Python que não permitem valores duplicados. Conjuntos são mutáveis e não ordenados, o que significa que seus elementos não são armazenados em uma ordem específica, então você não pode usar índices ou chaves para acessá-los. Além disso, conjuntos só podem conter valores de tipos de dados imutáveis, como números, strings e tuplas.
+- **Conjuntos**: Conjuntos são estruturas de dados embutidas em Python que não permitem valores duplicados. Conjuntos são mutáveis e não ordenados, o que significa que seus elementos não são armazenados em uma ordem específica, então você não pode usar índices ou chaves para acessá-los. Números, strings e tuplas de números e strings podem ser elementos de um conjunto, mas uma tupla que contém uma lista não pode.
 
 - **Definindo um conjunto**: Para definir um conjunto, você precisa escrever seus elementos entre chaves e separá-los com vírgulas.
 
@@ -293,6 +310,17 @@ your_set = {2, 3, 4, 6}
 my_set ^ your_set # {1, 5, 6}
 ```
 
+- **Operadores compostos para conjuntos**: Os operadores `|=`, `&=`, `-=`, e `^=` realizam as operações de união, interseção, diferença e diferença simétrica, mas atualizam o conjunto existente em vez de criar um novo.
+
+```python
+my_set = {1, 2, 3}
+
+my_set |= {3, 4}          # {1, 2, 3, 4}
+my_set &= {2, 3, 4, 5}    # {2, 3, 4}
+my_set -= {4}             # {2, 3}
+my_set ^= {3, 5}          # {2, 5}
+```
+
 - **Operador `in`**: Você pode verificar se um elemento está em um conjunto ou não com o operador `in`.
 
 ```python
@@ -374,7 +402,7 @@ Se precisar atribuir aliases a esses nomes, também pode fazer isso, usando a pa
 from module_name import name1 as alias1, name2 as alias2
 ```
 
-- **Declaração de importação com asterisco (`*`)**: O asterisco indica ao Python que você quer importar tudo daquele módulo, mas quer importar de forma que não precise usar o nome do módulo como prefixo.
+- **Declaração de importação com asterisco (`*`)**: O asterisco indica ao Python que você quer importar os nomes públicos do módulo para não precisar usar o nome do módulo como prefixo. Se o módulo define `__all__`, essa lista controla quais nomes são importados. Caso contrário, nomes que começam com um underscore são excluídos.
 
 ```python
 from module_name import *
@@ -393,11 +421,82 @@ No entanto, isso geralmente é desencorajado porque pode causar colisões de nam
 
 - **Variável `__name__`**: `__name__` é uma variável embutida especial em Python. Quando um arquivo Python é executado diretamente, o Python define o valor dessa variável como a string `"__main__"`. Mas se o arquivo Python for importado como um módulo em outro script Python, o valor da variável `__name__` é definido como o nome desse módulo.
 
-É por isso que você frequentemente encontrará essa condicional em scripts Python. Ela contém o código que você quer executar **somente** se o script Python estiver rodando como o programa principal.
+É por isso que você frequentemente encontra essa condicional em scripts Python. Ela contém o código que você quer executar **somente** se o script Python estiver rodando como o programa principal.
 
 ```python
 if __name__ == '__main__': 
     # Code
+```
+
+## Validando dados
+
+- **Criando um conjunto a partir de um iterável**: O construtor `set()` aceita um iterável, como uma lista, uma string ou um dicionário (que fornece suas chaves), desde que seus elementos possam ser armazenados em um conjunto. Por exemplo, uma lista de números é válida, mas uma lista contendo outras listas não é. Isso é útil para comparar as chaves que você espera com as chaves que você realmente tem.
+
+```python
+expected_keys = {'name', 'age'}
+data = {'name': 'Jessica', 'age': 30}
+
+print(set(data) == expected_keys)  # True
+```
+
+- **Desempacotamento de dicionário com `**`**: O operador `**` desempacota um dicionário em argumentos nomeados, onde cada chave é usada como nome do parâmetro.
+
+```python
+def greet(name, age):
+    print(f'{name} is {age}')
+
+data = {'name': 'Jessica', 'age': 30}
+greet(**data)  # Jessica is 30
+```
+
+- **Expressões regulares e `re.search()`**: Uma expressão regular descreve um padrão de texto. A função `re.search()` busca o padrão em qualquer lugar dentro de uma string. Ela retorna um objeto de correspondência se encontrar um, ou `None` se não encontrar.
+
+```python
+import re
+
+print(re.search('cat', 'concatenate'))  # <re.Match object; span=(3, 6), match='cat'>
+print(re.search('dog', 'concatenate'))  # None
+```
+
+- **Correspondência sem diferenciar maiúsculas e minúsculas com `re.IGNORECASE`**: Passe `re.IGNORECASE` como terceiro argumento para ignorar a diferença entre letras maiúsculas e minúsculas.
+
+```python
+print(re.search('cat', 'CAT', re.IGNORECASE))  # <re.Match object; span=(0, 3), match='CAT'>
+```
+
+- **Strings raw e `\d`**: Uma string raw começa com `r` e trata as barras invertidas como caracteres literais, o que mantém as expressões regulares legíveis. Em um padrão, `\d` corresponde a qualquer dígito único.
+
+```python
+print(re.search(r'\d', 'room 5'))  # <re.Match object; span=(5, 6), match='5'>
+```
+
+- **O quantificador `+`**: O quantificador `+` corresponde a uma ou mais repetições do padrão anterior.
+
+```python
+print(re.search(r'\d+', 'room 305'))  # <re.Match object; span=(5, 8), match='305'>
+```
+
+- **Função `re.fullmatch()`**: A função `re.fullmatch()` retorna um objeto de correspondência somente se a string inteira corresponder ao padrão. Caso contrário, retorna `None`.
+
+```python
+print(re.fullmatch(r'\d+', '305'))      # <re.Match object; span=(0, 3), match='305'>
+print(re.fullmatch(r'\d+', 'room 305')) # None
+```
+
+- **Identidade de objeto com `is` e `is not`**: O operador `is` verifica se dois nomes referem-se ao mesmo objeto, enquanto `is not` verifica que não referem. Esses operadores são a forma padrão de verificar se um valor é `None`.
+
+```python
+result = None
+
+print(result is None)      # True
+print(result is not None)  # False
+```
+
+- **Função `all()`**: A função `all()` retorna `True` se todos os elementos em um iterável forem verdadeiros. Ela também retorna `True` para um iterável vazio.
+
+```python
+print(all([1, 'a', True]))  # True
+print(all([1, 0, True]))    # False
 ```
 
 # --assignment--
