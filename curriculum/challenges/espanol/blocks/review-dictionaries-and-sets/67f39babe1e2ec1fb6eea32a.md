@@ -47,6 +47,23 @@ for product, price in products.items():
 print(products)  # {'apple': 8, 'pear': 16}
 ```
 
+- **Desempaquetado de diccionarios con `**`**: El operador `**` desempaqueta un diccionario en argumentos con nombre, donde cada clave se usa como nombre de parámetro.
+
+```python
+def greet(name, age):
+    print(f'{name} is {age}')
+
+data = {'name': 'Jessica', 'age': 30}
+greet(**data)  # Jessica is 30
+```
+
+- **La función `all()`**: La función `all()` devuelve `True` si todos los elementos de un iterable son verdaderos. También devuelve `True` para un iterable vacío.
+
+```python
+print(all([1, 'a', True]))  # True
+print(all([1, 0, True]))    # False
+```
+
 ## Métodos comunes de diccionarios
 
 - **Método `get()`**: El método `get()` recupera el valor asociado con una clave. Es similar a la notación de corchetes, pero te permite establecer un valor predeterminado, evitando errores si la clave no existe.
@@ -230,6 +247,15 @@ my_set = {1, 2, 3, 4, 5}
 ```python
 set() # Set
 {}    # Dictionary
+```
+
+- **Crear un conjunto a partir de un iterable**: El constructor `set()` acepta un iterable, como una lista, una cadena o un diccionario (que proporciona sus claves), siempre que sus elementos puedan almacenarse en un conjunto. Por ejemplo, una lista de números es válida, pero una lista que contiene otras listas no. Esto es útil para comparar las claves que esperas con las que realmente tienes.
+
+```python
+expected_keys = {'name', 'age'}
+data = {'name': 'Jessica', 'age': 30}
+
+print(set(data) == expected_keys)  # True
 ```
 
 ## Métodos comunes de conjuntos
@@ -428,75 +454,54 @@ if __name__ == '__main__':
     # Code
 ```
 
-## Validación de datos
+## Expresiones regulares
 
-- **Crear un conjunto a partir de un iterable**: El constructor `set()` acepta un iterable, como una lista, una cadena o un diccionario (que proporciona sus claves), siempre que sus elementos puedan almacenarse en un conjunto. Por ejemplo, una lista de números es válida, pero una lista que contiene otras listas no. Esto es útil para comparar las claves que esperas con las que realmente tienes.
+- **Expresiones regulares**: Una expresión regular, o regex, es un patrón usado para encontrar una secuencia de caracteres en un texto. Para usarlas en Python, necesitas importar el módulo `re`.
 
-```python
-expected_keys = {'name', 'age'}
-data = {'name': 'Jessica', 'age': 30}
-
-print(set(data) == expected_keys)  # True
-```
-
-- **Desempaquetado de diccionarios con `**`**: El operador `**` desempaqueta un diccionario en argumentos con nombre, donde cada clave se usa como nombre de parámetro.
-
-```python
-def greet(name, age):
-    print(f'{name} is {age}')
-
-data = {'name': 'Jessica', 'age': 30}
-greet(**data)  # Jessica is 30
-```
-
-- **Expresiones regulares y `re.search()`**: Una expresión regular describe un patrón de texto. La función `re.search()` busca el patrón en cualquier parte de una cadena. Devuelve un objeto de coincidencia si encuentra uno, o `None` si no.
+- **Función `re.search()`**: La función `search()` busca un patrón en cualquier parte de una cadena. Devuelve un objeto match si lo encuentra, y `None` en caso contrario. Los métodos `group()` y `span()` de un objeto match devuelven el texto coincidente y sus índices de inicio y fin.
 
 ```python
 import re
 
-print(re.search('cat', 'concatenate'))  # <re.Match object; span=(3, 6), match='cat'>
-print(re.search('dog', 'concatenate'))  # None
+result = re.search('cat', 'The cat sat on the mat.')
+print(result)         # <re.Match object; span=(4, 7), match='cat'>
+print(result.group()) # cat
+print(result.span())  # (4, 7)
 ```
 
-- **Coincidencia sin distinguir mayúsculas y minúsculas con `re.IGNORECASE`**: Pasa `re.IGNORECASE` como tercer argumento para ignorar la diferencia entre mayúsculas y minúsculas.
+- **Banderas**: La coincidencia con regex es sensible a mayúsculas y minúsculas por defecto. La bandera `re.IGNORECASE` la hace insensible a mayúsculas, como en `re.search('Cat', 'The cat sat', re.IGNORECASE)`.
+
+- **Cadenas raw**: Una cadena raw, creada agregando `r` antes de la comilla de apertura, trata las barras invertidas como caracteres literales en lugar de secuencias de escape. Es buena práctica siempre escribir los patrones regex como cadenas raw, por ejemplo `r'\d'`.
+
+- **Secuencias especiales**: `\d` coincide con cualquier dígito, `\w` coincide con cualquier carácter de palabra (letras, dígitos y guion bajo), y `\s` coincide con cualquier carácter de espacio en blanco. `\D`, `\W` y `\S` coinciden con lo opuesto.
+
+- **Cuantificadores**: Los cuantificadores especifican cuántas veces se puede repetir el carácter anterior: `+` una o más veces, `*` cero o más veces, `?` cero o una vez, `{n}` exactamente `n` veces, y `{n,m}` de `n` a `m` veces.
 
 ```python
-print(re.search('cat', 'CAT', re.IGNORECASE))  # <re.Match object; span=(0, 3), match='CAT'>
+import re
+
+print(re.search(r'\d+', 'Room 42B'))    # <re.Match object; span=(5, 7), match='42'>
+print(re.search(r'colou?r', 'color'))   # <re.Match object; span=(0, 5), match='color'>
+print(re.search(r'\d{4}', 'Room 1987')) # <re.Match object; span=(5, 9), match='1987'>
 ```
 
-- **Cadenas crudas y `\d`**: Una cadena cruda comienza con `r` y trata las barras invertidas como caracteres literales, lo que mantiene legibles las expresiones regulares. En un patrón, `\d` coincide con cualquier dígito único.
+## Funciones útiles en el módulo `re`
+
+- **Función `re.match()`**: Similar a `search()`, pero solo busca el patrón al inicio de la cadena.
+
+- **Función `re.fullmatch()`**: Devuelve un objeto match solo cuando el patrón coincide con toda la cadena. Esto es útil para validar datos.
+
+- **Función `re.findall()`**: Devuelve una lista de cadenas con todas las coincidencias, o una lista vacía si no hay ninguna.
+
+- **Función `re.sub()`**: Reemplaza cada coincidencia de un patrón con otra cadena y devuelve la nueva cadena. Sus parámetros opcionales `count` y `flags` siempre deben pasarse como argumentos con palabra clave.
 
 ```python
-print(re.search(r'\d', 'room 5'))  # <re.Match object; span=(5, 6), match='5'>
-```
+import re
 
-- **El cuantificador `+`**: El cuantificador `+` coincide con una o más repeticiones del patrón anterior.
-
-```python
-print(re.search(r'\d+', 'room 305'))  # <re.Match object; span=(5, 8), match='305'>
-```
-
-- **Función `re.fullmatch()`**: La función `re.fullmatch()` solo devuelve un objeto de coincidencia si toda la cadena coincide con el patrón. De lo contrario, devuelve `None`.
-
-```python
-print(re.fullmatch(r'\d+', '305'))      # <re.Match object; span=(0, 3), match='305'>
-print(re.fullmatch(r'\d+', 'room 305')) # None
-```
-
-- **Identidad de objetos con `is` y `is not`**: El operador `is` verifica si dos nombres se refieren al mismo objeto, mientras que `is not` verifica que no sea así. Estos operadores son la forma estándar de comprobar si un valor es `None`.
-
-```python
-result = None
-
-print(result is None)      # True
-print(result is not None)  # False
-```
-
-- **La función `all()`**: La función `all()` devuelve `True` si todos los elementos de un iterable son verdaderos. También devuelve `True` para un iterable vacío.
-
-```python
-print(all([1, 'a', True]))  # True
-print(all([1, 0, True]))    # False
+print(re.match(r'\d+', 'apples: 42'))             # None
+print(re.fullmatch(r'\d+:\d+', '10:30pm'))        # None
+print(re.findall(r'\d+', 'Rooms 12, 7, and 105')) # ['12', '7', '105']
+print(re.sub(r'\d', '*', '555 0123', count=3))    # *** 0123
 ```
 
 # --assignment--

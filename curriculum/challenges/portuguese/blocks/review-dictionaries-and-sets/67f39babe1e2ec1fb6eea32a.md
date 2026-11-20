@@ -47,6 +47,23 @@ for product, price in products.items():
 print(products)  # {'apple': 8, 'pear': 16}
 ```
 
+- **Desempacotamento de dicionário com `**`**: O operador `**` desempacota um dicionário em argumentos nomeados, onde cada chave é usada como nome do parâmetro.
+
+```python
+def greet(name, age):
+    print(f'{name} is {age}')
+
+data = {'name': 'Jessica', 'age': 30}
+greet(**data)  # Jessica is 30
+```
+
+- **Função `all()`**: A função `all()` retorna `True` se todos os elementos em um iterável forem verdadeiros. Ela também retorna `True` para um iterável vazio.
+
+```python
+print(all([1, 'a', True]))  # True
+print(all([1, 0, True]))    # False
+```
+
 ## Métodos comuns de dicionário
 
 - **Método `get()`**: O método `get()` recupera o valor associado a uma chave. É semelhante à notação por colchetes, mas permite definir um valor padrão, evitando erros caso a chave não exista.
@@ -230,6 +247,15 @@ my_set = {1, 2, 3, 4, 5}
 ```python
 set() # Set
 {}    # Dictionary
+```
+
+- **Criando um conjunto a partir de um iterável**: O construtor `set()` aceita um iterável, como uma lista, uma string ou um dicionário (que fornece suas chaves), desde que seus elementos possam ser armazenados em um conjunto. Por exemplo, uma lista de números é válida, mas uma lista contendo outras listas não é. Isso é útil para comparar as chaves que você espera com as chaves que você realmente tem.
+
+```python
+expected_keys = {'name', 'age'}
+data = {'name': 'Jessica', 'age': 30}
+
+print(set(data) == expected_keys)  # True
 ```
 
 ## Métodos comuns de conjunto
@@ -428,75 +454,54 @@ if __name__ == '__main__':
     # Code
 ```
 
-## Validando dados
+## Expressões regulares
 
-- **Criando um conjunto a partir de um iterável**: O construtor `set()` aceita um iterável, como uma lista, uma string ou um dicionário (que fornece suas chaves), desde que seus elementos possam ser armazenados em um conjunto. Por exemplo, uma lista de números é válida, mas uma lista contendo outras listas não é. Isso é útil para comparar as chaves que você espera com as chaves que você realmente tem.
+- **Expressões regulares**: Uma expressão regular, ou regex, é um padrão usado para buscar uma sequência de caracteres em um texto. Para usá-las em Python, você precisa importar o módulo `re`.
 
-```python
-expected_keys = {'name', 'age'}
-data = {'name': 'Jessica', 'age': 30}
-
-print(set(data) == expected_keys)  # True
-```
-
-- **Desempacotamento de dicionário com `**`**: O operador `**` desempacota um dicionário em argumentos nomeados, onde cada chave é usada como nome do parâmetro.
-
-```python
-def greet(name, age):
-    print(f'{name} is {age}')
-
-data = {'name': 'Jessica', 'age': 30}
-greet(**data)  # Jessica is 30
-```
-
-- **Expressões regulares e `re.search()`**: Uma expressão regular descreve um padrão de texto. A função `re.search()` busca o padrão em qualquer lugar dentro de uma string. Ela retorna um objeto de correspondência se encontrar um, ou `None` se não encontrar.
+- **Função `re.search()`**: A função `search()` busca um padrão em qualquer lugar dentro de uma string. Ela retorna um objeto de correspondência se encontrar o padrão, e `None` caso contrário. Os métodos `group()` e `span()` de um objeto de correspondência retornam o texto encontrado e seus índices de início e fim.
 
 ```python
 import re
 
-print(re.search('cat', 'concatenate'))  # <re.Match object; span=(3, 6), match='cat'>
-print(re.search('dog', 'concatenate'))  # None
+result = re.search('cat', 'The cat sat on the mat.')
+print(result)         # <re.Match object; span=(4, 7), match='cat'>
+print(result.group()) # cat
+print(result.span())  # (4, 7)
 ```
 
-- **Correspondência sem diferenciar maiúsculas e minúsculas com `re.IGNORECASE`**: Passe `re.IGNORECASE` como terceiro argumento para ignorar a diferença entre letras maiúsculas e minúsculas.
+- **Flags**: A busca com regex é sensível a maiúsculas e minúsculas por padrão. A flag `re.IGNORECASE` torna a busca insensível a maiúsculas e minúsculas, como em `re.search('Cat', 'The cat sat', re.IGNORECASE)`.
+
+- **Strings raw**: Uma string raw, criada adicionando `r` antes da aspa de abertura, trata as barras invertidas como caracteres literais em vez de sequências de escape. É uma boa prática sempre escrever padrões regex como strings raw, como `r'\d'`.
+
+- **Sequências especiais**: `\d` corresponde a qualquer dígito, `\w` corresponde a qualquer caractere de palavra (letras, dígitos e o sublinhado), e `\s` corresponde a qualquer caractere de espaço em branco. `\D`, `\W` e `\S` correspondem ao oposto.
+
+- **Quantificadores**: Quantificadores especificam quantas vezes o caractere anterior pode ser repetido: `+` uma ou mais vezes, `*` zero ou mais vezes, `?` zero ou uma vez, `{n}` exatamente `n` vezes, e `{n,m}` de `n` a `m` vezes.
 
 ```python
-print(re.search('cat', 'CAT', re.IGNORECASE))  # <re.Match object; span=(0, 3), match='CAT'>
+import re
+
+print(re.search(r'\d+', 'Room 42B'))    # <re.Match object; span=(5, 7), match='42'>
+print(re.search(r'colou?r', 'color'))   # <re.Match object; span=(0, 5), match='color'>
+print(re.search(r'\d{4}', 'Room 1987')) # <re.Match object; span=(5, 9), match='1987'>
 ```
 
-- **Strings raw e `\d`**: Uma string raw começa com `r` e trata as barras invertidas como caracteres literais, o que mantém as expressões regulares legíveis. Em um padrão, `\d` corresponde a qualquer dígito único.
+## Funções úteis no módulo `re`
+
+- **Função `re.match()`**: Semelhante ao `search()`, mas busca o padrão apenas no início da string.
+
+- **Função `re.fullmatch()`**: Retorna um objeto de correspondência somente quando o padrão corresponde à string inteira. Isso é útil para validar dados.
+
+- **Função `re.findall()`**: Retorna uma lista de strings com todas as correspondências, ou uma lista vazia se não houver nenhuma.
+
+- **Função `re.sub()`**: Substitui todas as correspondências de um padrão por outra string e retorna a nova string. Seus parâmetros opcionais `count` e `flags` devem sempre ser passados como argumentos nomeados.
 
 ```python
-print(re.search(r'\d', 'room 5'))  # <re.Match object; span=(5, 6), match='5'>
-```
+import re
 
-- **O quantificador `+`**: O quantificador `+` corresponde a uma ou mais repetições do padrão anterior.
-
-```python
-print(re.search(r'\d+', 'room 305'))  # <re.Match object; span=(5, 8), match='305'>
-```
-
-- **Função `re.fullmatch()`**: A função `re.fullmatch()` retorna um objeto de correspondência somente se a string inteira corresponder ao padrão. Caso contrário, retorna `None`.
-
-```python
-print(re.fullmatch(r'\d+', '305'))      # <re.Match object; span=(0, 3), match='305'>
-print(re.fullmatch(r'\d+', 'room 305')) # None
-```
-
-- **Identidade de objeto com `is` e `is not`**: O operador `is` verifica se dois nomes referem-se ao mesmo objeto, enquanto `is not` verifica que não referem. Esses operadores são a forma padrão de verificar se um valor é `None`.
-
-```python
-result = None
-
-print(result is None)      # True
-print(result is not None)  # False
-```
-
-- **Função `all()`**: A função `all()` retorna `True` se todos os elementos em um iterável forem verdadeiros. Ela também retorna `True` para um iterável vazio.
-
-```python
-print(all([1, 'a', True]))  # True
-print(all([1, 0, True]))    # False
+print(re.match(r'\d+', 'apples: 42'))             # None
+print(re.fullmatch(r'\d+:\d+', '10:30pm'))        # None
+print(re.findall(r'\d+', 'Rooms 12, 7, and 105')) # ['12', '7', '105']
+print(re.sub(r'\d', '*', '555 0123', count=3))    # *** 0123
 ```
 
 # --assignment--

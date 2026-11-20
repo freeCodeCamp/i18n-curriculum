@@ -599,7 +599,9 @@
     "chapters": {
       "learn-data-visualization-with-d3": "Jifunze uwakilishi wa data kwa D3"
     },
-    "modules": { "introduction-to-d3": "Utangulizi wa D3" },
+    "modules": {
+      "introduction-to-d3": "Utangulizi wa D3"
+    },
     "module-intros": {
       "introduction-to-d3": {
         "note": "Inatarajiwa kufika mwishoni mwa 2026",
@@ -1655,6 +1657,12 @@
         "title": "Kufanya kazi na moduli",
         "intro": ["Jifunze kuhusu kufanya kazi na moduli katika mafundisho haya."]
       },
+      "lecture-working-with-regular-expressions-python": {
+        "title": "Kufanya kazi na usemi wa kawaida",
+        "intro": [
+          "Jifunze kuhusu kufanya kazi na usemi wa kawaida katika Python katika mafundisho haya."
+        ]
+      },
       "workshop-medical-data-validator": {
         "title": "Jenga kimsingi kinachothibitisha data za matibabu",
         "intro": [
@@ -2566,6 +2574,12 @@
         "title": "Jenga Kifaa cha Kutafuta Profaili",
         "intro": [
           "Katika warsha hii, utatengeneza kitendakazi kinachotafuta taarifa za profaili."
+        ]
+      },
+      "lab-data-sanitizer-sweep": {
+        "title": "Tekeleza mchakato wa kusafisha data",
+        "intro": [
+          "Katika warsha hii, utatumia uendeshaji wa mfuatano wa herufi na mizunguko kubadilisha herufi katika mfuatano wa kumbukumbu na mafaili yote ya kumbukumbu."
         ]
       },
       "workshop-space-mission-roster": {
@@ -6654,6 +6668,12 @@
         "title": "Kazi na moduli",
         "intro": ["Jifunze kuhusu kazi na moduli katika mafundisho haya."]
       },
+      "lecture-working-with-regular-expressions-python": {
+        "title": "Kufanya kazi na usemi wa kawaida",
+        "intro": [
+          "Jifunze kuhusu kufanya kazi na usemi wa kawaida katika Python katika mafundisho haya."
+        ]
+      },
       "workshop-medical-data-validator": {
         "title": "Jenga kithibitishaji cha data ya matibabu",
         "intro": [
@@ -7738,7 +7758,10 @@
         "title": "Utangulizi wa Cheti",
         "intro": ["", ""]
       },
-      "es-a1-learn-vowels": { "title": "Vowels", "intro": ["", ""] },
+      "es-a1-learn-vowels": {
+        "title": "Vowels",
+        "intro": ["", ""]
+      },
       "es-a1-learn-consonants-and-special-characters": {
         "title": "Consonants na herufi maalum",
         "intro": ["", ""]
@@ -7759,7 +7782,10 @@
         "title": "Alfabeti na Alama za Matamshi",
         "intro": ["", ""]
       },
-      "es-a1-learn-punctuation": { "title": "Alama za Uandishi", "intro": ["", ""] },
+      "es-a1-learn-punctuation": {
+        "title": "Alama za Uandishi",
+        "intro": ["", ""]
+      },
       "es-a1-review-spanish-fundamentals": {
         "title": "Ukaguzi wa Misingi ya Kihispania",
         "intro": ["", ""]
@@ -7792,8 +7818,14 @@
         "title": "Misingi ya Kujitambulisha",
         "intro": ["", ""]
       },
-      "es-a1-learn-meet-luna": { "title": "Kutana na Luna", "intro": ["", ""] },
-      "es-a1-learn-meet-mateo": { "title": "Kutana na Mateo", "intro": ["", ""] },
+      "es-a1-learn-meet-luna": {
+        "title": "Kutana na Luna",
+        "intro": ["", ""]
+      },
+      "es-a1-learn-meet-mateo": {
+        "title": "Kutana na Mateo",
+        "intro": ["", ""]
+      },
       "es-a1-learn-meet-julieta": {
         "title": "Kutana na Julieta",
         "intro": ["", ""]
@@ -9095,7 +9127,10 @@
         "title": "Mwisho rahisi",
         "intro": ["", ""]
       },
-      "zh-a1-learn-initials": { "title": "Herufi za mwanzo", "intro": ["", ""] },
+      "zh-a1-learn-initials": {
+        "title": "Herufi za mwanzo",
+        "intro": ["", ""]
+      },
       "zh-a1-learn-compound-finals": {
         "title": "Mwisho mchanganyiko",
         "intro": ["", ""]
@@ -9152,7 +9187,10 @@
         "title": "Mwenza kazi mpya",
         "intro": ["", ""]
       },
-      "zh-a1-learn-my-family": { "title": "Familia yangu", "intro": ["", ""] },
+      "zh-a1-learn-my-family": {
+        "title": "Familia yangu",
+        "intro": ["", ""]
+      },
       "zh-a1-practice-introducing-others": {
         "title": "Mazoezi ya kuwatambulisha wengine",
         "intro": ["", ""]
@@ -10418,7 +10456,9 @@
       "part-12": "Kontena",
       "part-13": "Kutumia hifadhidata ya uhusiano"
     },
-    "modules": { "basic-html": "HTML msingi" },
+    "modules": {
+      "basic-html": "HTML msingi"
+    },
     "module-intros": {
       "basic-html": {
         "title": "HTML msingi",
@@ -10431,7 +10471,9 @@
   "daily-coding-challenge": {
     "title": "Changamoto ya kila siku ya usimbaji",
     "blocks": {
-      "daily-coding-challenge": { "title": "Changamoto ya kila siku ya usimbaji" }
+      "daily-coding-challenge": {
+        "title": "Changamoto ya kila siku ya usimbaji"
+      }
     }
   },
   "misc-text": {
@@ -10469,8 +10511,10 @@
       "lab-rpg-character": "Jenga Mhusika wa RPG",
       "python-loops-and-sequences": "Mizunguko na mfululizo",
       "python-dictionaries-and-sets": "Kamusi na seti",
+      "python-modules-and-standard-library": "Moduli na maktaba ya kawaida",
       "lab-user-configuration-manager": "Jenga Meneja wa Usanidi wa Mtumizi",
       "python-error-handling": "Kushughulikia makosa",
+      "lab-order-processor": "Jenga mchakato wa maagizo",
       "python-classes-and-objects": "Darasa la vitu na vitu",
       "lab-budget-app": "Jenga Programu ya Bajeti",
       "python-object-oriented-programming": "Uandishi wa programu unaotegemea vitu (OOP)",
@@ -10595,19 +10639,25 @@
         "title": "Kufanya kazi na Orodha",
         "intro": ["Jifunze kuhusu kufanya kazi na orodha katika mafundisho haya."]
       },
+      "workshop-concert-program-planner": {
+        "title": "Jenga mpangaji wa programu ya tamasha",
+        "intro": [
+          "Katika warsha hii, utatumia kufanya kazi na orodha kwa kupanga programu ya tamasha la orkesta."
+        ]
+      },
       "lecture-working-with-tuples": {
         "title": "Kufanya kazi na Tuple",
         "intro": ["Jifunze kuhusu kufanya kazi na tuple katika mafundisho haya."]
       },
+      "workshop-version-checker": {
+        "title": "Jenga kagua toleo",
+        "intro": [
+          "Katika warsha hii, utatumia kufanya kazi na tuple kwa kujenga programu inayokagua kama programu inahitaji sasisho."
+        ]
+      },
       "lecture-working-with-loops-python": {
         "title": "Kufanya kazi na Mizunguko",
         "intro": ["Jifunze kuhusu kufanya kazi na mizunguko katika mafundisho haya."]
-      },
-      "lecture-understanding-list-comprehensions-and-lambda-functions": {
-        "title": "Kuelewa Mifano ya Orodha na Kitendakazi cha Lambda",
-        "intro": [
-          "Jifunze kuhusu mifano ya orodha na vitendakazi vya lambda katika mafundisho haya."
-        ]
       },
       "workshop-pin-extractor": {
         "title": "Jenga kivutio cha PIN",
@@ -10615,9 +10665,27 @@
           "Katika warsha hii utajenga kitendakazi cha kutoa PIN za siri zilizofichwa katika mashairi."
         ]
       },
+      "workshop-elevator-simulator": {
+        "title": "Jenga simuleta ya lifti",
+        "intro": [
+          "Katika warsha hii, utatumia mizunguko ya while kwa kujenga kitendakazi kinachosimulisha lifti ikihamia kati ya sakafu."
+        ]
+      },
       "lab-number-pattern-generator": {
         "title": "Jenga Kizalishaji cha Mchoro wa Nambari",
         "intro": ["Katika maabara hii utajenga kizalishaji cha mchoro wa nambari."]
+      },
+      "lecture-understanding-list-comprehensions-and-lambda-functions": {
+        "title": "Kuelewa Mifano ya Orodha na Kitendakazi cha Lambda",
+        "intro": [
+          "Jifunze kuhusu mifano ya orodha na vitendakazi vya lambda katika mafundisho haya."
+        ]
+      },
+      "workshop-sensor-data-cleaner": {
+        "title": "Jenga msafishaji wa data ya sensa",
+        "intro": [
+          "Katika warsha hii, utatumia orodha za kuelezea na vitendakazi vya lambda kusafisha vipimo vya sensa ya joto."
+        ]
       },
       "review-loops-and-sequences-v2": {
         "title": "Kagua Mizunguko na Mfululizo",
@@ -10632,33 +10700,41 @@
           "Jaribu kile ulichojifunza kuhusu mizunguko na mfululizo katika Python kwa jaribio hili."
         ]
       },
-      "lecture-working-with-dictionaries-and-sets": {
-        "title": "Kufanya kazi na kamusi na seti",
+      "lecture-working-with-dictionaries": {
+        "title": "Kufanya kazi na kamusi",
+        "intro": ["Jifunze kuhusu kufanya kazi na kamusi katika mafundisho haya."]
+      },
+      "lecture-working-with-sets": {
+        "title": "Kufanya kazi na seti",
+        "intro": ["Jifunze kuhusu kufanya kazi na seti katika funzo hili."]
+      },
+      "review-dictionaries-and-sets-v2": {
+        "title": "Kagua kamusi na seti",
         "intro": [
-          "Jifunze kuhusu kufanya kazi na kamusi na seti katika mafundisho haya."
+          "Kabla ya kujaribiwa kuhusu kamusi na seti, unapaswa kukagua kile ulichojifunza kuhusu hizo.",
+          "Fungua ukurasa huu kukagua dhana kuhusu kamusi, seti, na jinsi ya import moduli."
         ]
       },
-      "lecture-working-with-modules": {
+      "lecture-working-with-modules-v2": {
         "title": "Kufanya kazi na moduli",
         "intro": ["Jifunze kuhusu kufanya kazi na moduli katika mafundisho haya."]
+      },
+      "lecture-copying-nested-collections": {
+        "title": "Kukopa makusanyo yaliyopangwa ndani",
+        "intro": [
+          "Jifunze jinsi mgawo wa thamani, nakala ya kina, na nakala ya uso zinavyoathiri kamusi na orodha zilizopangwa ndani."
+        ]
+      },
+      "lecture-working-with-regular-expressions-python": {
+        "title": "Kufanya kazi na usemi wa kawaida",
+        "intro": [
+          "Jifunze kuhusu kufanya kazi na usemi wa kawaida katika Python katika mafundisho haya."
+        ]
       },
       "workshop-medical-data-validator": {
         "title": "Jenga kimsingi kinachothibitisha data za matibabu",
         "intro": [
           "Katika warsha hii, utatumia kufanya kazi na kamusi na seti huku ukithibitisha mkusanyiko wa data za matibabu."
-        ]
-      },
-      "review-dictionaries-and-sets": {
-        "title": "Kagua Kamusi na Seti",
-        "intro": [
-          "Kabla hujajibu jaribio kuhusu kamusi na seti, unapaswa kukagua kile ulichojifunza kuhusu hizo.",
-          "Fungua ukurasa huu kukagua dhana zinazohusu kamusi, seti, na jinsi ya import moduli."
-        ]
-      },
-      "quiz-dictionaries-and-sets": {
-        "title": "Jaribio la kamusi na seti",
-        "intro": [
-          "Jaribu kile ulichojifunza kuhusu kamusi na seti katika Python kwa jaribio hili."
         ]
       },
       "lab-user-configuration-manager": {
@@ -10691,6 +10767,12 @@
           "Jaribu kile ulichojifunza kuhusu utunzaji wa hitilafu katika Python kwa jaribio fupi hili."
         ]
       },
+      "lab-order-processor": {
+        "title": "Jenga mchakato wa maagizo",
+        "intro": [
+          "Katika maabara hii, utatumia kushughulikia makosa katika Python kwa kusindika maagizo ya biashara mtandaoni."
+        ]
+      },
       "lecture-classes-and-objects": {
         "title": "Darasa la vitu na vitu",
         "intro": ["Jifunze kuhusu madarasa ya vitu na vitu katika mafundisho haya."]
@@ -10705,6 +10787,12 @@
         "title": "Jenga darasa la sayari",
         "intro": [
           "Katika maabara hii utaunda darasa la vitu linalowakilisha sayari."
+        ]
+      },
+      "lecture-formatting-python-output": {
+        "title": "Kupanga matokeo ya Python",
+        "intro": [
+          "Katika funzo hili, utajifunza jinsi ya kupanga na kuongeza nafasi kwenye maandishi katika f-strings, ili uonyeshe thamani katika safu zilizo pangwa vizuri na kusomeka."
         ]
       },
       "workshop-email-simulator": {
@@ -10856,6 +10944,12 @@
         "title": "Kuelewa algoriti na alama kubwa O",
         "intro": [
           "Katika mafundisho haya, utajifunza algoriti ni nini, jinsi ya kuyachambua kwa alama kubwa O, na mbinu nzuri za kukabiliana na matatizo ya algoriti."
+        ]
+      },
+      "workshop-luhn-algorithm": {
+        "title": "Tekeleza algoriti ya Luhn",
+        "intro": [
+          "Katika warsha hii, utajenga kagua kwa kutumia hesabu za nambari na uendeshaji wa mfuatano wa herufi."
         ]
       },
       "lab-stock-profit-calculator": {

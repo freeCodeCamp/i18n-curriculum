@@ -7,7 +7,7 @@ dashedName: step-33
 
 # --description--
 
-`is`와 `is not` 연산자는 두 값이 같은 객체를 가리키는지 확인합니다. 이를 동일성 비교라고 합니다. `is None`을 사용해 값이 `None` 객체인지 확인할 수 있고, `is not None`을 사용해 값이 `None` 객체가 아닌지 확인할 수 있습니다.
+`is`와 `is not`는 객체 동일성을 비교한다는 점을 기억하세요. 여기서 `None`은 진단이 없음을 나타내므로, 특정 객체를 확인하려면 `diagnosis is None`을 사용하세요. 일반적인 거짓값 검사는 `0`이나 `False` 같은 값도 일치시키는데, 이들은 유효한 진단이 아닙니다.
 
 이제 `diagnosis` 딕셔너리에 `constraints` 키를 추가하세요. 그 값으로 `diagnosis`가 `str`의 인스턴스이거나 `None`인지 확인하는 표현식을 작성하세요.
 

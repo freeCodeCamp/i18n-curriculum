@@ -47,6 +47,23 @@ for product, price in products.items():
 print(products)  # {'apple': 8, 'pear': 16}
 ```
 
+- **Dictionary-Unpacking mit `**`**: Der `**`-Operator entpackt ein Dictionary in Schlüsselwortargumente, wobei jeder Schlüssel als Parametername verwendet wird.
+
+```python
+def greet(name, age):
+    print(f'{name} is {age}')
+
+data = {'name': 'Jessica', 'age': 30}
+greet(**data)  # Jessica is 30
+```
+
+- **Die `all()`-Funktion**: Die Funktion `all()` gibt `True` zurück, wenn jedes Element in einem Iterable wahrheitsgemäß ist. Sie gibt auch `True` für ein leeres Iterable zurück.
+
+```python
+print(all([1, 'a', True]))  # True
+print(all([1, 0, True]))    # False
+```
+
 ## Häufige Dictionary-Methoden
 
 - **`get()`-Methode**: Die `get()`-Methode ruft den Wert ab, der mit einem Schlüssel verknüpft ist. Sie ist ähnlich wie die Klammernotation, ermöglicht es Ihnen jedoch, einen Standardwert festzulegen, um Fehler zu vermeiden, falls der Schlüssel nicht existiert.
@@ -230,6 +247,15 @@ my_set = {1, 2, 3, 4, 5}
 ```python
 set() # Set
 {}    # Dictionary
+```
+
+- **Ein Set aus einem Iterable erstellen**: Der `set()`-Konstruktor akzeptiert ein Iterable, wie eine Liste, einen String oder ein Dictionary (das seine Schlüssel liefert), vorausgesetzt, seine Elemente können in einem Set gespeichert werden. Zum Beispiel ist eine Liste von Zahlen gültig, aber eine Liste, die andere Listen enthält, nicht. Das ist nützlich, um die erwarteten Schlüssel mit den tatsächlich vorhandenen zu vergleichen.
+
+```python
+expected_keys = {'name', 'age'}
+data = {'name': 'Jessica', 'age': 30}
+
+print(set(data) == expected_keys)  # True
 ```
 
 ## Häufige Set-Methoden
@@ -428,75 +454,54 @@ if __name__ == '__main__':
     # Code
 ```
 
-## Daten validieren
+## Reguläre Ausdrücke
 
-- **Ein Set aus einem Iterable erstellen**: Der `set()`-Konstruktor akzeptiert ein Iterable, wie eine Liste, einen String oder ein Dictionary (das seine Schlüssel liefert), vorausgesetzt, seine Elemente können in einem Set gespeichert werden. Zum Beispiel ist eine Liste von Zahlen gültig, aber eine Liste, die andere Listen enthält, nicht. Das ist nützlich, um die erwarteten Schlüssel mit den tatsächlich vorhandenen zu vergleichen.
+- **Reguläre Ausdrücke**: Ein regulärer Ausdruck oder Regex ist ein Muster, das verwendet wird, um eine Folge von Zeichen in einem Text zu finden. Um sie in Python zu verwenden, müssen Sie das `re`-Modul importieren.
 
-```python
-expected_keys = {'name', 'age'}
-data = {'name': 'Jessica', 'age': 30}
-
-print(set(data) == expected_keys)  # True
-```
-
-- **Dictionary-Unpacking mit `**`**: Der `**`-Operator entpackt ein Dictionary in Schlüsselwortargumente, wobei jeder Schlüssel als Parametername verwendet wird.
-
-```python
-def greet(name, age):
-    print(f'{name} is {age}')
-
-data = {'name': 'Jessica', 'age': 30}
-greet(**data)  # Jessica is 30
-```
-
-- **Reguläre Ausdrücke und `re.search()`**: Ein regulärer Ausdruck beschreibt ein Textmuster. Die Funktion `re.search()` sucht das Muster irgendwo in einem String. Sie gibt ein Match-Objekt zurück, wenn sie eines findet, oder `None`, wenn nicht.
+- **`re.search()`-Funktion**: Die Funktion `search()` sucht nach einem Muster irgendwo in einem String. Sie gibt ein Match-Objekt zurück, wenn sie etwas findet, und `None`, wenn nicht. Die Methoden `group()` und `span()` eines Match-Objekts geben den gefundenen Text sowie dessen Start- und Endposition zurück.
 
 ```python
 import re
 
-print(re.search('cat', 'concatenate'))  # <re.Match object; span=(3, 6), match='cat'>
-print(re.search('dog', 'concatenate'))  # None
+result = re.search('cat', 'The cat sat on the mat.')
+print(result)         # <re.Match object; span=(4, 7), match='cat'>
+print(result.group()) # cat
+print(result.span())  # (4, 7)
 ```
 
-- **Groß-/Kleinschreibungsunabhängiges Matching mit `re.IGNORECASE`**: Übergeben Sie `re.IGNORECASE` als dritten Parameter, um den Unterschied zwischen Groß- und Kleinbuchstaben zu ignorieren.
+- **Flags**: Regex-Suchen sind standardmäßig case-sensitiv. Das Flag `re.IGNORECASE` macht die Suche case-insensitiv, wie in `re.search('Cat', 'The cat sat', re.IGNORECASE)`.
+
+- **Raw Strings**: Ein Raw String wird erzeugt, indem man ein `r` vor das öffnende Anführungszeichen setzt. Dadurch werden Backslashes als normale Zeichen behandelt und nicht als Escape-Sequenzen. Es ist gute Praxis, Regex-Muster immer als Raw Strings zu schreiben, zum Beispiel `r'\d'`.
+
+- **Spezielle Sequenzen**: `\d` steht für eine beliebige Ziffer, `\w` für ein beliebiges Wortzeichen (Buchstaben, Ziffern und Unterstrich) und `\s` für ein beliebiges Leerzeichen. `\D`, `\W` und `\S` stehen jeweils für das Gegenteil.
+
+- **Quantifizierer**: Quantifizierer geben an, wie oft das vorhergehende Zeichen wiederholt werden kann: `+` einmal oder mehr, `*` null oder mehr, `?` null oder einmal, `{n}` genau `n`-mal und `{n,m}` von `n` bis `m`-mal.
 
 ```python
-print(re.search('cat', 'CAT', re.IGNORECASE))  # <re.Match object; span=(0, 3), match='CAT'>
+import re
+
+print(re.search(r'\d+', 'Room 42B'))    # <re.Match object; span=(5, 7), match='42'>
+print(re.search(r'colou?r', 'color'))   # <re.Match object; span=(0, 5), match='color'>
+print(re.search(r'\d{4}', 'Room 1987')) # <re.Match object; span=(5, 9), match='1987'>
 ```
 
-- **Raw Strings und `\d`**: Ein Raw String beginnt mit `r` und behandelt Backslashes als literale Zeichen, was reguläre Ausdrücke lesbar hält. In einem Muster steht `\d` für eine einzelne Ziffer.
+## Nützliche Funktionen im `re`-Modul
+
+- **`re.match()`-Funktion**: Ähnlich wie `search()`, aber sucht nur am Anfang des Strings nach dem Muster.
+
+- **`re.fullmatch()`-Funktion**: Gibt ein Match-Objekt nur zurück, wenn das Muster den gesamten String vollständig abdeckt. Das ist nützlich zur Datenvalidierung.
+
+- **`re.findall()`-Funktion**: Gibt eine Liste von Strings mit allen Übereinstimmungen zurück oder eine leere Liste, wenn keine gefunden wurden.
+
+- **`re.sub()`-Funktion**: Ersetzt jede Übereinstimmung eines Musters durch einen anderen String und gibt den neuen String zurück. Die optionalen Parameter `count` und `flags` sollten immer als Schlüsselwortargumente übergeben werden.
 
 ```python
-print(re.search(r'\d', 'room 5'))  # <re.Match object; span=(5, 6), match='5'>
-```
+import re
 
-- **Der `+`-Quantifizierer**: Der `+`-Quantifizierer passt auf eine oder mehrere Wiederholungen des vorhergehenden Musters.
-
-```python
-print(re.search(r'\d+', 'room 305'))  # <re.Match object; span=(5, 8), match='305'>
-```
-
-- **`re.fullmatch()`-Funktion**: Die Funktion `re.fullmatch()` gibt nur dann ein Match-Objekt zurück, wenn der gesamte String dem Muster entspricht. Andernfalls gibt sie `None` zurück.
-
-```python
-print(re.fullmatch(r'\d+', '305'))      # <re.Match object; span=(0, 3), match='305'>
-print(re.fullmatch(r'\d+', 'room 305')) # None
-```
-
-- **Objektidentität mit `is` und `is not`**: Der Operator `is` prüft, ob zwei Namen auf dasselbe Objekt verweisen, während `is not` prüft, dass sie es nicht tun. Diese Operatoren sind der Standardweg, um zu überprüfen, ob ein Wert `None` ist.
-
-```python
-result = None
-
-print(result is None)      # True
-print(result is not None)  # False
-```
-
-- **Die `all()`-Funktion**: Die Funktion `all()` gibt `True` zurück, wenn jedes Element in einem Iterable wahrheitsgemäß ist. Sie gibt auch `True` für ein leeres Iterable zurück.
-
-```python
-print(all([1, 'a', True]))  # True
-print(all([1, 0, True]))    # False
+print(re.match(r'\d+', 'apples: 42'))             # None
+print(re.fullmatch(r'\d+:\d+', '10:30pm'))        # None
+print(re.findall(r'\d+', 'Rooms 12, 7, and 105')) # ['12', '7', '105']
+print(re.sub(r'\d', '*', '555 0123', count=3))    # *** 0123
 ```
 
 # --assignment--

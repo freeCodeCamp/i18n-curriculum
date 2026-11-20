@@ -1,15 +1,15 @@
 ---
 id: 697a7f71ebfcd9e4cacd69c2
-title: Schritt 8
+title: Schritt 9
 challengeType: 20
-dashedName: step-8
+dashedName: step-9
 ---
 
 # --description--
 
-Die Rechnung wird aufgeteilt, aber Division führt oft zu langen Dezimalzahlen. Da Geld normalerweise mit zwei Dezimalstellen dargestellt wird, sollten Sie das Endergebnis runden.
+Der Formatbezeichner `:.2f`, den Sie verwendet haben, ändert nur, wie Zahlen angezeigt werden. Die Werte selbst behalten weiterhin alle ihre Dezimalstellen. Um eine Zahl zu erhalten, die tatsächlich gerundet ist und für weitere Berechnungen verwendet werden kann, können Sie die `round()`-Funktion nutzen.
 
-In einer früheren Lektion haben Sie die `round()`-Funktion kennengelernt, die zwei Argumente nimmt: die Zahl, die Sie runden möchten, und die Anzahl der Dezimalstellen, die beibehalten werden sollen. Hier ist ein Beispiel:
+In einer früheren Lektion haben Sie gelernt, dass die `round()`-Funktion zwei Argumente nimmt: die Zahl, die Sie runden möchten, und die Anzahl der Dezimalstellen, die beibehalten werden sollen. Hier ist ein Beispiel:
 
 ```py
 num = 4.815162342
@@ -18,9 +18,7 @@ round(num, 3) # 4.815
 
 Verwenden Sie die `round()`-Funktion, um `final_bill` auf zwei Dezimalstellen zu runden, und weisen Sie das Ergebnis einer neuen Variablen namens `each_pays` zu.
 
-Verwenden Sie abschließend `print()`, um den String `Each person pays:` gefolgt von einem Leerzeichen und Ihrer `each_pays`-Variablen anzuzeigen.
-
-Damit ist der Workshop zum Aufteilen der Rechnung abgeschlossen.
+Verwenden Sie dann `print()`, um den String `Each person pays:` gefolgt von einem Leerzeichen und Ihrer Variable `each_pays` auszugeben. Formatieren Sie die Zahl diesmal nicht.
 
 # --hints--
 
@@ -49,17 +47,12 @@ Sie sollten `print()` verwenden, um den String `Each person pays:` gefolgt von e
 ```js
 ({
     test: () => runPython(`
-import io, contextlib, re
-
-buffer = io.StringIO()
-with contextlib.redirect_stdout(buffer):
-    exec(_code)
-
-match = re.search(r"Each person pays: ([0-9]+(?:\\.[0-9]+)?)\\s*(?:\\n|$)", buffer.getvalue())
-
-assert match
-assert abs(float(match.group(1)) - 62.13) < 1e-6
-`)
+        import io, contextlib, re
+        buffer = io.StringIO()
+        with contextlib.redirect_stdout(buffer):
+            exec(_code)
+        assert re.search(r"^Each person pays: 62\\.1$", buffer.getvalue(), re.M)
+    `)
 })
 ```
 
@@ -75,49 +68,21 @@ num_of_friends = 4
 appetizers = 37.89
 main_courses = 57.34
 desserts = 39.39
-drinks = 64.21
+drinks = 64.11
 
 running_total += appetizers + main_courses + desserts + drinks
-print('Total bill so far:', running_total)
+print(f'Total bill so far: {running_total:.2f}')
 
 tip = running_total * 0.25
-print('Tip amount:', tip)
+print(f'Tip amount: {tip:.2f}')
 
 running_total += tip
-print('Total with tip:', running_total)
+print(f'Total with tip: {running_total:.2f}')
 
 final_bill = running_total / num_of_friends
-print('Bill per person:', final_bill)
+print(f'Bill per person: {final_bill:.2f}')
 
 --fcc-editable-region--
 
 --fcc-editable-region--
-```
-
-# --solutions--
-
-```py
-running_total = 0
-
-num_of_friends = 4
-
-appetizers = 37.89
-main_courses = 57.34
-desserts = 39.39
-drinks = 64.21
-
-running_total += appetizers + main_courses + desserts + drinks
-print('Total bill so far:', running_total)
-
-tip = running_total * 0.25
-print('Tip amount:', tip)
-
-running_total += tip
-print('Total with tip:', running_total)
-
-final_bill = running_total / num_of_friends
-print('Bill per person:', final_bill)
-
-each_pays = round(final_bill, 2)
-print('Each person pays:', each_pays)
 ```

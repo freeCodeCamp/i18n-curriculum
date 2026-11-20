@@ -1,15 +1,15 @@
 ---
 id: 697a7f71ebfcd9e4cacd69c2
-title: Passaggio 8
+title: Passaggio 9
 challengeType: 20
-dashedName: step-8
+dashedName: step-9
 ---
 
 # --description--
 
-Il conto è diviso, ma la divisione spesso produce numeri decimali lunghi. Poiché il denaro è solitamente rappresentato con due cifre decimali, dovresti arrotondare il risultato finale.
+Lo specificatore di formato `:.2f` che hai usato cambia solo il modo in cui i numeri vengono visualizzati. I valori stessi mantengono tutte le loro cifre decimali. Per ottenere un numero effettivamente arrotondato e che può essere usato in calcoli successivi, puoi usare la funzione `round()`.
 
-In una lezione precedente, hai imparato la funzione `round()` che prende due argomenti: il numero che vuoi arrotondare e il numero di cifre decimali da mantenere. Ecco un esempio:
+In una lezione precedente, hai imparato che la funzione `round()` prende due argomenti: il numero che vuoi arrotondare e il numero di cifre decimali da mantenere. Ecco un esempio:
 
 ```py
 num = 4.815162342
@@ -18,9 +18,7 @@ round(num, 3) # 4.815
 
 Usa la funzione `round()` per arrotondare `final_bill` a due cifre decimali e assegna il risultato a una nuova variabile chiamata `each_pays`.
 
-Infine, usa `print()` per mostrare la stringa `Each person pays:` seguita da uno spazio e dalla tua variabile `each_pays`.
-
-Con questo, il workshop per dividere il conto è completo.
+Poi, usa `print()` per mostrare la stringa `Each person pays:` seguita da uno spazio e dalla tua variabile `each_pays`. Questa volta non formattare il numero.
 
 # --hints--
 
@@ -49,17 +47,12 @@ Dovresti usare `print()` per mostrare la stringa `Each person pays:` seguita da 
 ```js
 ({
     test: () => runPython(`
-import io, contextlib, re
-
-buffer = io.StringIO()
-with contextlib.redirect_stdout(buffer):
-    exec(_code)
-
-match = re.search(r"Each person pays: ([0-9]+(?:\\.[0-9]+)?)\\s*(?:\\n|$)", buffer.getvalue())
-
-assert match
-assert abs(float(match.group(1)) - 62.13) < 1e-6
-`)
+        import io, contextlib, re
+        buffer = io.StringIO()
+        with contextlib.redirect_stdout(buffer):
+            exec(_code)
+        assert re.search(r"^Each person pays: 62\\.1$", buffer.getvalue(), re.M)
+    `)
 })
 ```
 
@@ -75,49 +68,21 @@ num_of_friends = 4
 appetizers = 37.89
 main_courses = 57.34
 desserts = 39.39
-drinks = 64.21
+drinks = 64.11
 
 running_total += appetizers + main_courses + desserts + drinks
-print('Total bill so far:', running_total)
+print(f'Total bill so far: {running_total:.2f}')
 
 tip = running_total * 0.25
-print('Tip amount:', tip)
+print(f'Tip amount: {tip:.2f}')
 
 running_total += tip
-print('Total with tip:', running_total)
+print(f'Total with tip: {running_total:.2f}')
 
 final_bill = running_total / num_of_friends
-print('Bill per person:', final_bill)
+print(f'Bill per person: {final_bill:.2f}')
 
 --fcc-editable-region--
 
 --fcc-editable-region--
-```
-
-# --solutions--
-
-```py
-running_total = 0
-
-num_of_friends = 4
-
-appetizers = 37.89
-main_courses = 57.34
-desserts = 39.39
-drinks = 64.21
-
-running_total += appetizers + main_courses + desserts + drinks
-print('Total bill so far:', running_total)
-
-tip = running_total * 0.25
-print('Tip amount:', tip)
-
-running_total += tip
-print('Total with tip:', running_total)
-
-final_bill = running_total / num_of_friends
-print('Bill per person:', final_bill)
-
-each_pays = round(final_bill, 2)
-print('Each person pays:', each_pays)
 ```

@@ -47,6 +47,23 @@ for product, price in products.items():
 print(products)  # {'apple': 8, 'pear': 16}
 ```
 
+- **`**`를 사용한 딕셔너리 언패킹**: `**` 연산자는 딕셔너리를 키를 매개변수 이름으로 하는 키워드 인수로 언패킹합니다.
+
+```python
+def greet(name, age):
+    print(f'{name} is {age}')
+
+data = {'name': 'Jessica', 'age': 30}
+greet(**data)  # Jessica is 30
+```
+
+- **`all()` 함수**: `all()` 함수는 반복 가능한 객체의 모든 요소가 참일 때 `True`를 반환합니다. 빈 반복 가능한 객체에 대해서도 `True`를 반환합니다.
+
+```python
+print(all([1, 'a', True]))  # True
+print(all([1, 0, True]))    # False
+```
+
 ## 딕셔너리의 일반적인 메서드
 
 - **`get()` 메서드**: `get()` 메서드는 키에 연결된 값을 가져옵니다. 대괄호 표기법과 비슷하지만, 키가 없을 때 기본값을 설정해 오류를 방지할 수 있습니다.
@@ -230,6 +247,15 @@ my_set = {1, 2, 3, 4, 5}
 ```python
 set() # Set
 {}    # Dictionary
+```
+
+- **반복 가능한 객체로부터 셋 만들기**: `set()` 생성자는 리스트, 문자열, 딕셔너리(키를 제공) 같은 반복 가능한 객체를 받으며, 그 요소들이 셋에 저장될 수 있어야 합니다. 예를 들어 숫자 리스트는 유효하지만 리스트를 포함하는 리스트는 유효하지 않습니다. 이는 예상하는 키와 실제 가진 키를 비교할 때 유용합니다.
+
+```python
+expected_keys = {'name', 'age'}
+data = {'name': 'Jessica', 'age': 30}
+
+print(set(data) == expected_keys)  # True
 ```
 
 ## 집합의 일반적인 메서드
@@ -428,75 +454,54 @@ if __name__ == '__main__':
     # Code
 ```
 
-## 데이터 검증
+## 정규 표현식
 
-- **반복 가능한 객체로부터 셋 만들기**: `set()` 생성자는 리스트, 문자열, 딕셔너리(키를 제공) 같은 반복 가능한 객체를 받으며, 그 요소들이 셋에 저장될 수 있어야 합니다. 예를 들어 숫자 리스트는 유효하지만 리스트를 포함하는 리스트는 유효하지 않습니다. 이는 예상하는 키와 실제 가진 키를 비교할 때 유용합니다.
+- **정규 표현식**: 정규 표현식 또는 정규식은 텍스트에서 문자 수열과 일치시키는 데 사용하는 패턴입니다. Python에서 사용하려면 `re` 모듈을 가져와야 합니다.
 
-```python
-expected_keys = {'name', 'age'}
-data = {'name': 'Jessica', 'age': 30}
-
-print(set(data) == expected_keys)  # True
-```
-
-- **`**`를 사용한 딕셔너리 언패킹**: `**` 연산자는 딕셔너리를 키를 매개변수 이름으로 하는 키워드 인수로 언패킹합니다.
-
-```python
-def greet(name, age):
-    print(f'{name} is {age}')
-
-data = {'name': 'Jessica', 'age': 30}
-greet(**data)  # Jessica is 30
-```
-
-- **정규 표현식과 `re.search()`**: 정규 표현식은 텍스트 패턴을 설명합니다. `re.search()` 함수는 문자열 어디에서든 패턴을 찾습니다. 찾으면 매치 객체를 반환하고, 없으면 `None`을 반환합니다.
+- **`re.search()` 함수**: `search()` 함수는 문자열 어디에서나 패턴을 찾습니다. 찾으면 매치 객체를 반환하고, 그렇지 않으면 `None`을 반환합니다. 매치 객체의 `group()`과 `span()` 메서드는 일치한 텍스트와 시작 및 끝 인덱스를 반환합니다.
 
 ```python
 import re
 
-print(re.search('cat', 'concatenate'))  # <re.Match object; span=(3, 6), match='cat'>
-print(re.search('dog', 'concatenate'))  # None
+result = re.search('cat', 'The cat sat on the mat.')
+print(result)         # <re.Match object; span=(4, 7), match='cat'>
+print(result.group()) # cat
+print(result.span())  # (4, 7)
 ```
 
-- **`re.IGNORECASE`를 사용한 대소문자 구분 없는 매칭**: 세 번째 인수로 `re.IGNORECASE`를 전달하면 대문자와 소문자의 차이를 무시합니다.
+- **플래그**: 정규식 매칭은 기본적으로 대소문자를 구분합니다. `re.IGNORECASE` 플래그는 대소문자를 구분하지 않게 만듭니다. 예를 들어 `re.search('Cat', 'The cat sat', re.IGNORECASE)`처럼 사용합니다.
+
+- **로우 문자열**: 로우 문자열은 시작 따옴표 앞에 `r`을 붙여 만듭니다. 이 문자열은 역슬래시를 이스케이프 시퀀스가 아닌 문자 그대로 취급합니다. 정규식 패턴을 항상 로우 문자열로 작성하는 것이 좋은 습관입니다. 예: `r'\d'`.
+
+- **특수 수열**: `\d`는 모든 숫자와 일치하고, `\w`는 모든 단어 문자(문자, 숫자, 밑줄)와 일치하며, `\s`는 모든 공백 문자와 일치합니다. `\D`, `\W`, `\S`는 각각 반대에 해당합니다.
+
+- **수량자**: 수량자는 앞선 문자가 몇 번 반복될 수 있는지 지정합니다: `+` 한 번 이상, `*` 0번 이상, `?` 0번 또는 1번, `{n}` 정확히 `n`번, `{n,m}` `n`번부터 `m`번까지.
 
 ```python
-print(re.search('cat', 'CAT', re.IGNORECASE))  # <re.Match object; span=(0, 3), match='CAT'>
+import re
+
+print(re.search(r'\d+', 'Room 42B'))    # <re.Match object; span=(5, 7), match='42'>
+print(re.search(r'colou?r', 'color'))   # <re.Match object; span=(0, 5), match='color'>
+print(re.search(r'\d{4}', 'Room 1987')) # <re.Match object; span=(5, 9), match='1987'>
 ```
 
-- **원시 문자열과 `\d`**: 원시 문자열은 `r`로 시작하며 역슬래시를 문자 그대로 처리해 정규 표현식을 읽기 쉽게 합니다. 패턴에서 `\d`는 하나의 숫자와 매치됩니다.
+## `re` 모듈의 유용한 함수들
+
+- **`re.match()` 함수**: `search()`와 비슷하지만 문자열의 시작 부분에서만 패턴을 찾습니다.
+
+- **`re.fullmatch()` 함수**: 패턴이 문자열 전체와 일치할 때만 매치 객체를 반환합니다. 데이터 검증에 유용합니다.
+
+- **`re.findall()` 함수**: 모든 일치하는 부분을 문자열 리스트로 반환하며, 일치하는 것이 없으면 빈 리스트를 반환합니다.
+
+- **`re.sub()` 함수**: 패턴과 일치하는 모든 부분을 다른 문자열로 바꾸고 새 문자열을 반환합니다. 선택적 매개변수인 `count`와 `flags`는 항상 키워드 인수로 전달하세요.
 
 ```python
-print(re.search(r'\d', 'room 5'))  # <re.Match object; span=(5, 6), match='5'>
-```
+import re
 
-- **`+` 수량자**: `+` 수량자는 앞의 패턴이 한 번 이상 반복되는 것과 매치됩니다.
-
-```python
-print(re.search(r'\d+', 'room 305'))  # <re.Match object; span=(5, 8), match='305'>
-```
-
-- **`re.fullmatch()` 함수**: `re.fullmatch()` 함수는 문자열 전체가 패턴과 일치할 때만 매치 객체를 반환합니다. 그렇지 않으면 `None`을 반환합니다.
-
-```python
-print(re.fullmatch(r'\d+', '305'))      # <re.Match object; span=(0, 3), match='305'>
-print(re.fullmatch(r'\d+', 'room 305')) # None
-```
-
-- **`is`와 `is not`를 사용한 객체 동일성 검사**: `is` 연산자는 두 이름이 같은 객체를 가리키는지 확인하고, `is not`은 그렇지 않은지 확인합니다. 이 연산자들은 값이 `None`인지 검사할 때 표준으로 사용됩니다.
-
-```python
-result = None
-
-print(result is None)      # True
-print(result is not None)  # False
-```
-
-- **`all()` 함수**: `all()` 함수는 반복 가능한 객체의 모든 요소가 참일 때 `True`를 반환합니다. 빈 반복 가능한 객체에 대해서도 `True`를 반환합니다.
-
-```python
-print(all([1, 'a', True]))  # True
-print(all([1, 0, True]))    # False
+print(re.match(r'\d+', 'apples: 42'))             # None
+print(re.fullmatch(r'\d+:\d+', '10:30pm'))        # None
+print(re.findall(r'\d+', 'Rooms 12, 7, and 105')) # ['12', '7', '105']
+print(re.sub(r'\d', '*', '555 0123', count=3))    # *** 0123
 ```
 
 # --assignment--

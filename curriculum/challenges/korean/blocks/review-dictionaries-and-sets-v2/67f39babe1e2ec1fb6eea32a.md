@@ -1,0 +1,552 @@
+---
+id: 67f39babe1e2ec1fb6eea32a
+title: 딕셔너리와 세트 검토
+challengeType: 31
+dashedName: review-dictionaries-and-sets
+---
+
+# --description--
+
+## 딕셔너리
+
+- **딕셔너리**: 딕셔너리는 키-값 쌍을 저장하는 내장 자료 구조입니다. 키는 고유해야 합니다. 숫자, 문자열, 숫자와 문자열로 이루어진 튜플은 키로 사용할 수 있지만, 리스트를 포함하는 튜플은 사용할 수 없습니다. 값은 중복될 수 있고 어떤 데이터 타입도 가능합니다. 딕셔너리는 항목이 추가된 순서도 유지합니다. 이것이 파이썬 딕셔너리의 일반적인 구문입니다:
+
+```python
+dictionary = {
+    key1: value1,
+    key2: value2
+}
+```
+
+- **`dict()` 생성자**: `dict()` 생성자는 딕셔너리를 만드는 또 다른 방법입니다. `dict()` 생성자에 튜플 리스트를 인수로 전달하세요. 각 튜플은 첫 번째 요소가 키, 두 번째 요소가 값입니다.
+
+```python
+pizza = dict([('name', 'Margherita Pizza'), ('price', 8.9), ('calories_per_slice', 250), ('toppings', ['mozzarella', 'basil'])])
+```
+
+- **대괄호 표기법**: 키-값 쌍의 값을 접근할 때 대괄호 표기법을 사용할 수 있습니다.
+
+```python
+dictionary[key]
+```
+
+- **대괄호 할당**: 대괄호 표기법으로 새 키-값 쌍을 추가하거나 기존 키의 값을 업데이트할 수 있습니다. 키가 없으면 새로 추가되고, 이미 있으면 값이 교체됩니다.
+
+```python
+dictionary[key] = value
+```
+
+- **루프 내에서 값 업데이트하기**: `items()`를 반복하는 루프 안에서 각 키에 값을 할당하여 기존 키의 값을 업데이트할 수 있습니다.
+
+```python
+products = {'apple': 10, 'pear': 20}
+
+for product, price in products.items():
+    products[product] = round(price * 0.8)
+
+print(products)  # {'apple': 8, 'pear': 16}
+```
+
+## 딕셔너리의 일반적인 메서드
+
+- **`get()` 메서드**: `get()` 메서드는 키에 연결된 값을 가져옵니다. 대괄호 표기법과 비슷하지만, 키가 없을 때 기본값을 설정해 오류를 방지할 수 있습니다.
+
+```python
+dictionary.get(key, default)
+```
+
+- **`keys()` 와 `values()` 메서드**: `keys()` 와 `values()` 메서드는 각각 딕셔너리의 모든 키와 값을 포함하는 뷰 객체를 반환합니다. 뷰 객체는 딕셔너리 내용을 별도의 복사본 없이 볼 수 있는 방법입니다.
+
+```python
+pizza = {
+    'name': 'Margherita Pizza',
+    'price': 8.9,
+    'calories_per_slice': 250
+}
+
+pizza.keys()
+# dict_keys(['name', 'price', 'calories_per_slice'])
+
+pizza.values()
+# dict_values(['Margherita Pizza', 8.9, 250])
+```
+
+- **`items()` 메서드**: `items()` 메서드는 딕셔너리의 모든 키-값 쌍을 포함하는 뷰 객체를 반환합니다.
+
+```python
+pizza.items()
+# dict_items([('name', 'Margherita Pizza'), ('price', 8.9), ('calories_per_slice', 250)])
+```
+
+- **`clear()` 메서드**: `clear()` 메서드는 딕셔너리의 모든 키-값 쌍을 제거합니다.
+
+```python
+pizza.clear()
+```
+
+- **`pop()` 메서드**: `pop()` 메서드는 첫 번째 인수로 지정한 키-값 쌍을 제거하고 그 값을 반환합니다. 키가 없으면 두 번째 인수로 지정한 기본값을 반환합니다. 기본값이 없으면 `KeyError`가 발생합니다.
+
+```python
+pizza.pop('price', 10)
+pizza.pop('total_price') # KeyError
+```
+
+- **`popitem()` 메서드**: Python 3.7 이상에서 `popitem()` 메서드는 마지막에 삽입된 항목을 제거합니다.
+
+```python
+pizza.popitem()
+```
+
+- **`update()` 메서드**: `update()` 메서드는 다른 딕셔너리의 키-값 쌍으로 현재 딕셔너리를 업데이트합니다. 공통 키가 있으면 값이 덮어쓰이고, 새 키는 새 키-값 쌍으로 추가됩니다.
+
+```python
+pizza.update({ 'price': 15, 'total_time': 25 })
+```
+
+## 딕셔너리 순회
+
+- **값 순회**: 딕셔너리의 값을 순회하려면 `for` 루프와 `values()`를 사용해 딕셔너리의 모든 값을 얻을 수 있습니다.
+
+```python
+products = {
+    'Laptop': 990,
+    'Smartphone': 600,
+    'Tablet': 250,
+    'Headphones': 70,
+}
+
+for price in products.values():
+    print(price)
+```
+
+출력:
+
+```md
+990
+600
+250
+70
+```
+
+- **키 순회**: 위 `products` 딕셔너리의 키를 순회하려면 `products.keys()` 또는 `products`를 직접 작성할 수 있습니다.
+
+```python
+for product in products.keys():
+    print(product)
+
+# Or
+
+for product in products:
+    print(product)
+```
+
+출력:
+
+```md
+Laptop
+Smartphone
+Tablet
+Headphones
+```
+
+- **키-값 쌍 순회**: 키와 해당 값을 동시에 순회하려면 `products.items()`를 순회할 수 있습니다. 각 키와 값이 포함된 튜플을 개별적으로 얻습니다.
+
+```python
+for product in products.items():
+    print(product)
+```
+
+출력:
+
+```md
+('Laptop', 990)
+('Smartphone', 600)
+('Tablet', 250)
+('Headphones', 70)
+```
+
+키와 값을 별도의 반복 변수에 저장하려면 쉼표로 구분해야 합니다. 첫 번째 변수는 키를, 두 번째 변수는 값을 저장합니다.
+
+```python
+for product, price in products.items():
+    print(product, price)
+```
+
+출력:
+
+```md
+Laptop 990
+Smartphone 600
+Tablet 250
+Headphones 70
+```
+
+- **`enumerate()` 함수**: 카운터를 추적하며 딕셔너리를 순회하려면 `enumerate()` 함수를 호출할 수 있습니다. 이 함수는 각 항목에 정수를 할당하는 `enumerate` 객체를 반환합니다. 카운터는 기본적으로 0부터 시작하지만 원하는 숫자부터 시작할 수 있습니다.
+
+인덱스와 항목을 별도의 반복 변수에 할당하는 것이 `enumerate()`를 사용하는 일반적인 방법입니다. 예를 들어 `products.items()`를 사용하면 인덱스뿐 아니라 전체 키-값 쌍도 얻을 수 있습니다:
+
+```python
+for index, product in enumerate(products.items()):
+    print(index, product)
+```
+
+출력:
+
+```md
+0 ('Laptop', 990)
+1 ('Smartphone', 600)
+2 ('Tablet', 250)
+3 ('Headphones', 70)
+```
+
+카운트의 초기값을 사용자 지정하려면 `enumerate()`에 두 번째 인수를 전달할 수 있습니다. 다음은 1부터 카운트를 시작하는 예입니다:
+
+```python
+for index, product in enumerate(products.items(), 1):
+    print(index, product)
+```
+
+출력:
+
+```md
+1 ('Laptop', 990)
+2 ('Smartphone', 600)
+3 ('Tablet', 250)
+4 ('Headphones', 70)
+```
+
+## 집합
+
+- **셋**: 셋은 파이썬 내장 자료 구조로 중복 값을 허용하지 않습니다. 셋은 변경 가능하고 순서가 없어서 요소들이 특정 순서로 저장되지 않으므로 인덱스나 키로 접근할 수 없습니다. 숫자, 문자열, 숫자와 문자열로 이루어진 튜플은 셋 요소가 될 수 있지만, 리스트를 포함하는 튜플은 안 됩니다.
+
+- **집합 정의**: 집합을 정의하려면 중괄호 안에 요소를 작성하고 쉼표로 구분합니다.
+
+```python
+my_set = {1, 2, 3, 4, 5}
+```
+
+- **빈 집합 정의**: 빈 집합을 정의하려면 `set()` 함수를 사용해야 합니다. 빈 중괄호만 쓰면 자동으로 딕셔너리가 생성됩니다.
+
+```python
+set() # Set
+{}    # Dictionary
+```
+
+## 집합의 일반적인 메서드
+
+- **`add()` 메서드**: `add()` 메서드를 사용해 집합에 요소를 추가할 수 있으며, 새 요소를 인수로 전달합니다.
+
+```python
+my_set.add(6)
+```
+
+- **`remove()` 와 `discard()` 메서드**: 집합에서 요소를 제거하려면 `remove()` 또는 `discard()` 메서드를 사용할 수 있으며, 제거할 요소를 인수로 전달합니다. `remove()` 메서드는 요소가 없으면 `KeyError`를 발생시키지만 `discard()` 메서드는 발생시키지 않습니다.
+
+```python
+my_set.remove(4)
+my_set.discard(4)
+```
+
+- **`clear()` 메서드**: `clear()` 메서드는 집합의 모든 요소를 제거합니다.
+
+```python
+my_set.clear()
+```
+
+## 집합의 수학적 연산
+
+- **`issubset()` 와 `issuperset()` 메서드**: `issubset()` 과 `issuperset()` 메서드는 각각 집합이 다른 집합의 부분집합인지 또는 상위집합인지 확인합니다.
+
+```python
+my_set = {1, 2, 3, 4, 5}
+your_set = {2, 3, 4, 5}
+
+print(your_set.issubset(my_set)) # True
+print(my_set.issuperset(your_set)) # True
+```
+
+- **`isdisjoint()` 메서드**: `isdisjoint()` 메서드는 두 집합이 공통 요소가 없으면 참을 반환합니다.
+
+```python
+my_set = {1, 2, 3}
+your_set = {4, 5, 6}
+
+print(my_set.isdisjoint(your_set)) # True
+```
+
+- **합집합 연산자 (`|`)**: 합집합 연산자 `|`는 두 집합의 모든 요소를 포함하는 새 집합을 반환합니다.
+
+```python
+my_set = {1, 2, 3}
+your_set = {4, 5, 6}
+
+my_set | your_set # {1, 2, 3, 4, 5, 6}
+```
+
+- **교집합 연산자 (`&`)**: 교집합 연산자 `&`는 두 집합에 공통으로 있는 요소만 포함하는 새 집합을 반환합니다.
+
+```python
+my_set = {1, 2, 3, 4, 5}
+your_set = {2, 3, 4, 6}
+
+my_set & your_set # {2, 3, 4}
+```
+
+- **차집합 연산자 (`-`)**: 차집합 연산자 `-`는 첫 번째 집합에만 있고 두 번째 집합에는 없는 요소를 포함하는 새 집합을 반환합니다.
+
+```python
+my_set = {1, 2, 3, 4, 5}
+your_set = {2, 3, 4, 6}
+
+my_set - your_set # {1, 5}
+```
+
+- **대칭 차집합 연산자 (`^`)**: 대칭 차집합 연산자 `^`는 첫 번째 또는 두 번째 집합 중 하나에만 있는 요소를 포함하는 새 집합을 반환합니다.
+
+```python
+my_set = {1, 2, 3, 4, 5}
+your_set = {2, 3, 4, 6}
+
+my_set ^ your_set # {1, 5, 6}
+```
+
+- **복합 셋 연산자**: 연산자 `|=`, `&=`, `-=`, `^=`는 합집합, 교집합, 차집합, 대칭 차집합 연산을 수행하지만, 새 셋을 만들지 않고 기존 셋을 업데이트합니다.
+
+```python
+my_set = {1, 2, 3}
+
+my_set |= {3, 4}          # {1, 2, 3, 4}
+my_set &= {2, 3, 4, 5}    # {2, 3, 4}
+my_set -= {4}             # {2, 3}
+my_set ^= {3, 5}          # {2, 5}
+```
+
+- **`in` 연산자**: 요소가 집합에 포함되어 있는지 여부는 `in` 연산자를 사용하여 확인할 수 있습니다.
+
+```python
+print(5 in my_set) # True
+```
+
+## import 문
+
+- **모듈**: 모듈은 함수, 클래스, 상수 등 관련된 코드를 그룹화하여 다른 Python 파일에서 재사용할 수 있게 합니다.
+
+- **가져오기 문장**: 모듈에 정의된 요소에 접근하려면 가져오기 문장을 사용하세요. 가져오기 문장은 일반적으로 파일 상단에 작성합니다. 함수, 클래스, 상수, 변수 및 모듈에 정의된 다른 모든 요소에 대해 동일하게 작동합니다.
+
+- **기본 import 문**: `import` 키워드 뒤에 모듈 이름을 작성합니다:
+
+```python
+import module_name
+```
+
+그런 다음 해당 모듈의 함수를 호출하려면 점 표기법을 사용해 모듈 이름 뒤에 함수 이름을 붙입니다.
+
+```python
+module_name.function_name()
+```
+
+예를 들어, `math` 모듈을 import하고 36의 제곱근을 구하려면 다음과 같이 작성합니다:
+
+```python
+import math
+
+math.sqrt(36)
+```
+
+- **별칭으로 모듈 import**: 모듈 이름이 길거나 이름 충돌을 피하려면 import 문 끝에 `as` 뒤에 별칭을 지정할 수 있습니다.
+
+```python
+import module_name as module_alias
+```
+
+예를 들어, `math` 모듈을 코드에서 `m`로 참조하려면 다음과 같이 별칭을 지정합니다:
+
+```python
+import math as m
+```
+
+그런 다음 별칭을 사용해 모듈의 요소에 접근할 수 있습니다:
+
+```python
+m.sqrt(36)
+```
+
+- **특정 요소 import**: 모듈 전체가 필요 없으면 `from`를 사용해 특정 요소만 import할 수 있습니다. 이 경우 import 문은 `from`로 시작하고 모듈 이름, `import` 키워드, import할 요소 이름 순입니다.
+
+```python
+from module_name import name1, name2
+```
+
+그런 다음 Python 스크립트에서 모듈 접두사 없이 이 이름들을 사용할 수 있습니다. 예를 들어:
+
+```python
+from math import radians, sin, cos
+
+angle_degrees = 40
+angle_radians = radians(angle_degrees)
+
+sine_value = sin(angle_radians)
+cos_value = cos(angle_radians)
+
+print(sine_value) # 0.6427876096865393
+print(cos_value)  # 0.766044443118978
+```
+ 
+이 방법은 편리하지만, 이미 같은 이름의 함수나 변수가 있으면 이름 충돌이 발생할 수 있으니 주의하세요.
+
+별칭을 지정하려면 `as` 키워드 뒤에 별칭을 작성하면 됩니다.
+
+```python
+from module_name import name1 as alias1, name2 as alias2
+```
+
+- **별표(`*`)를 사용한 import 문**: 별표는 모듈의 공개 이름을 모두 가져와서 모듈 이름을 접두사로 쓰지 않아도 되게 합니다. 모듈이 `__all__`을 정의하면 그 목록이 가져올 이름을 제어합니다. 그렇지 않으면 밑줄로 시작하는 이름은 제외됩니다.
+
+```python
+from module_name import *
+```
+
+예를 들어, `math` 모듈을 이렇게 import하면 모듈 이름 접두사 없이 그 모듈의 모든 함수를 호출할 수 있습니다.
+
+```python
+from math import *
+print(sqrt(36))  # 6.0
+```
+
+하지만 일반적으로 권장하지 않습니다. 네임스페이스 충돌이 발생하고 이름 출처를 알기 어려워질 수 있기 때문입니다.
+
+## 로컬 모듈
+
+- **로컬 모듈 만들기**: 관련 함수나 상수를 `.py` 파일에 저장하세요. 같은 폴더 내 다른 파일에서 `.py` 확장자를 제외한 파일명으로 가져올 수 있습니다.
+
+```python
+# temperature.py
+def celsius_to_fahrenheit(celsius):
+    return celsius * 9 / 5 + 32
+
+if __name__ == '__main__':
+    print(celsius_to_fahrenheit(100))
+```
+
+```python
+# main.py
+import temperature
+
+print(temperature.celsius_to_fahrenheit(0))  # 32.0
+```
+
+- **`__name__` 변수**: `__name__`는 Python의 특별한 내장 변수입니다. Python 파일을 직접 실행하면 이 변수의 값은 문자열 `"__main__"`로 설정됩니다. 하지만 Python 파일이 다른 스크립트에 모듈로 import되면 `__name__` 변수의 값은 그 모듈 이름으로 설정됩니다.
+
+- **메인 가드**: `if __name__ == '__main__':` 내부 코드는 파일을 직접 실행할 때만 실행됩니다. 위 예시에서 `temperature.py`를 직접 실행하면 `212.0`이 출력됩니다. `main.py`에서 가져오면 이 가드된 호출은 건너뜁니다. 가드 밖의 최상위 코드는 모듈이 처음 Python 세션에 임포트될 때 실행됩니다.
+
+## Python 표준 라이브러리
+
+- **표준 라이브러리와 서드파티 패키지**: Python 표준 라이브러리는 Python에 포함된 모듈과 패키지 모음입니다. 서드파티 패키지는 별도로 개발되며 보통 사용 전에 설치해야 합니다.
+
+- **일반적인 모듈**: `math`는 수학 연산을 제공하고, `random`은 난수를 생성하며, `re`는 정규 표현식을 다루고, `datetime`은 날짜와 시간을 처리합니다.
+
+- **모듈 클래스 사용하기**: 모듈은 함수와 상수뿐 아니라 클래스를 제공할 수도 있습니다. 예를 들어, `datetime.date`는 날짜 객체를 생성하며, 이 객체의 `day`, `month`, `year` 속성은 점 표기법으로 접근할 수 있습니다.
+
+```python
+import datetime
+
+birthday = datetime.date(1959, 7, 15)
+print(birthday.day)    # 15
+print(birthday.month)  # 7
+print(birthday.year)   # 1959
+```
+
+- **모듈 찾기**: [Python 표준 라이브러리 참조](https://docs.python.org/3/library/index.html)를 살펴보세요. 주제별로 모듈이 그룹화되어 있으며, 각 모듈 문서에는 제공하는 기능과 사용법이 설명되어 있습니다.
+
+- **`help()` 함수**: 모듈이나 특정 함수에 대한 문서를 표시합니다. 현재 freeCodeCamp 환경에서는 사용할 수 없습니다.
+
+```python
+import math
+
+help(math)
+help(math.comb)
+```
+
+- **`dir()` 함수**: 모듈의 함수와 상수 같은 객체에서 사용할 수 있는 이름 목록을 반환합니다.
+
+```python
+import math
+
+print('sqrt' in dir(math))  # True
+print('pi' in dir(math))    # True
+```
+
+## 데이터 검증
+
+- **반복 가능한 객체로부터 셋 만들기**: `set()` 생성자는 리스트, 문자열, 딕셔너리(키를 제공) 같은 반복 가능한 객체를 받으며, 그 요소들이 셋에 저장될 수 있어야 합니다. 예를 들어 숫자 리스트는 유효하지만 리스트를 포함하는 리스트는 유효하지 않습니다. 이는 예상하는 키와 실제 가진 키를 비교할 때 유용합니다.
+
+```python
+expected_keys = {'name', 'age'}
+data = {'name': 'Jessica', 'age': 30}
+
+print(set(data) == expected_keys)  # True
+```
+
+- **`**`를 사용한 딕셔너리 언패킹**: `**` 연산자는 딕셔너리를 키를 매개변수 이름으로 하는 키워드 인수로 언패킹합니다.
+
+```python
+def greet(name, age):
+    print(f'{name} is {age}')
+
+data = {'name': 'Jessica', 'age': 30}
+greet(**data)  # Jessica is 30
+```
+
+- **정규 표현식과 `re.search()`**: 정규 표현식은 텍스트 패턴을 설명합니다. `re.search()` 함수는 문자열 어디에서든 패턴을 찾습니다. 찾으면 매치 객체를 반환하고, 없으면 `None`을 반환합니다.
+
+```python
+import re
+
+print(re.search('cat', 'concatenate'))  # <re.Match object; span=(3, 6), match='cat'>
+print(re.search('dog', 'concatenate'))  # None
+```
+
+- **`re.IGNORECASE`를 사용한 대소문자 구분 없는 매칭**: 세 번째 인수로 `re.IGNORECASE`를 전달하면 대문자와 소문자의 차이를 무시합니다.
+
+```python
+print(re.search('cat', 'CAT', re.IGNORECASE))  # <re.Match object; span=(0, 3), match='CAT'>
+```
+
+- **원시 문자열과 `\d`**: 원시 문자열은 `r`로 시작하며 역슬래시를 문자 그대로 처리해 정규 표현식을 읽기 쉽게 합니다. 패턴에서 `\d`는 하나의 숫자와 매치됩니다.
+
+```python
+print(re.search(r'\d', 'room 5'))  # <re.Match object; span=(5, 6), match='5'>
+```
+
+- **`+` 수량자**: `+` 수량자는 앞의 패턴이 한 번 이상 반복되는 것과 매치됩니다.
+
+```python
+print(re.search(r'\d+', 'room 305'))  # <re.Match object; span=(5, 8), match='305'>
+```
+
+- **`re.fullmatch()` 함수**: `re.fullmatch()` 함수는 문자열 전체가 패턴과 일치할 때만 매치 객체를 반환합니다. 그렇지 않으면 `None`을 반환합니다.
+
+```python
+print(re.fullmatch(r'\d+', '305'))      # <re.Match object; span=(0, 3), match='305'>
+print(re.fullmatch(r'\d+', 'room 305')) # None
+```
+
+- **`is`와 `is not`를 사용한 객체 동일성 검사**: `is` 연산자는 두 이름이 같은 객체를 가리키는지 확인하고, `is not`은 그렇지 않은지 확인합니다. 이 연산자들은 값이 `None`인지 검사할 때 표준으로 사용됩니다.
+
+```python
+result = None
+
+print(result is None)      # True
+print(result is not None)  # False
+```
+
+- **`all()` 함수**: `all()` 함수는 반복 가능한 객체의 모든 요소가 참일 때 `True`를 반환합니다. 빈 반복 가능한 객체에 대해서도 `True`를 반환합니다.
+
+```python
+print(all([1, 'a', True]))  # True
+print(all([1, 0, True]))    # False
+```
+
+# --assignment--
+
+딕셔너리와 세트 주제 및 개념을 검토하세요.

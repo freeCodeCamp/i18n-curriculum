@@ -7,7 +7,7 @@ dashedName: step-33
 
 # --description--
 
-`is` 和 `is not` 操作符用于检查两个值是否引用同一个对象。这称为同一性比较。你可以使用 `is None` 来检查一个值是否是 `None` 对象，使用 `is not None` 来检查它是否不是 `None` 对象。
+回想一下，`is` 和 `is not` 用于比较对象的同一性。这里，`None` 表示没有诊断，因此使用 `diagnosis is None` 来检查该特定对象。通用的假值检查也会匹配诸如 `0` 和 `False` 这样的值，而它们并不是有效的诊断。
 
 现在为 `constraints` 字典添加一个密钥 `diagnosis`。对于它的值，编写一个表达式，查看 `diagnosis` 是 `str` 的实例还是 `None`。
 
