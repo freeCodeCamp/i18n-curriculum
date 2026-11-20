@@ -599,7 +599,9 @@
     "chapters": {
       "learn-data-visualization-with-d3": "学习使用 D3 进行数据可视化"
     },
-    "modules": { "introduction-to-d3": "D3 入门" },
+    "modules": {
+      "introduction-to-d3": "D3 入门"
+    },
     "module-intros": {
       "introduction-to-d3": {
         "note": "预计 2026 年晚些时候发布",
@@ -1655,6 +1657,12 @@
         "title": "使用模块",
         "intro": ["通过这些课程学习如何使用模块。"]
       },
+      "lecture-working-with-regular-expressions-python": {
+        "title": "使用正则表达式",
+        "intro": [
+          "在这些课程中学习如何在 Python 中使用正则表达式。"
+        ]
+      },
       "workshop-medical-data-validator": {
         "title": "创建医疗数据验证器",
         "intro": [
@@ -2566,6 +2574,12 @@
         "title": "创建评测查找",
         "intro": [
           "在本实验中，你将创建一个函数来查找评测信息。"
+        ]
+      },
+      "lab-data-sanitizer-sweep": {
+        "title": "实现数据清理扫描流程",
+        "intro": [
+          "在本实验中，你将练习使用字串操作和循环来替换日志字串和整个日志文件中的字符。"
         ]
       },
       "workshop-space-mission-roster": {
@@ -6654,6 +6668,12 @@
         "title": "模块操作",
         "intro": ["在这些课程中，学习如何操作模块。"]
       },
+      "lecture-working-with-regular-expressions-python": {
+        "title": "使用正则表达式",
+        "intro": [
+          "在这些课程中学习如何在 Python 中使用正则表达式。"
+        ]
+      },
       "workshop-medical-data-validator": {
         "title": "创建一个医疗数据验证器",
         "intro": [
@@ -7738,7 +7758,10 @@
         "title": "认证简介",
         "intro": ["", ""]
       },
-      "es-a1-learn-vowels": { "title": "元音", "intro": ["", ""] },
+      "es-a1-learn-vowels": {
+        "title": "元音",
+        "intro": ["", ""]
+      },
       "es-a1-learn-consonants-and-special-characters": {
         "title": "辅音和特殊字符",
         "intro": ["", ""]
@@ -7759,7 +7782,10 @@
         "title": "字母表和重音符号",
         "intro": ["", ""]
       },
-      "es-a1-learn-punctuation": { "title": "标点符号", "intro": ["", ""] },
+      "es-a1-learn-punctuation": {
+        "title": "标点符号",
+        "intro": ["", ""]
+      },
       "es-a1-review-spanish-fundamentals": {
         "title": "西班牙语基础复习",
         "intro": ["", ""]
@@ -7792,8 +7818,14 @@
         "title": "自我介绍基础",
         "intro": ["", ""]
       },
-      "es-a1-learn-meet-luna": { "title": "认识 Luna", "intro": ["", ""] },
-      "es-a1-learn-meet-mateo": { "title": "认识 Mateo", "intro": ["", ""] },
+      "es-a1-learn-meet-luna": {
+        "title": "认识 Luna",
+        "intro": ["", ""]
+      },
+      "es-a1-learn-meet-mateo": {
+        "title": "认识 Mateo",
+        "intro": ["", ""]
+      },
       "es-a1-learn-meet-julieta": {
         "title": "认识 Julieta",
         "intro": ["", ""]
@@ -9095,7 +9127,10 @@
         "title": "简单韵母",
         "intro": ["", ""]
       },
-      "zh-a1-learn-initials": { "title": "声母", "intro": ["", ""] },
+      "zh-a1-learn-initials": {
+        "title": "声母",
+        "intro": ["", ""]
+      },
       "zh-a1-learn-compound-finals": {
         "title": "复合韵母",
         "intro": ["", ""]
@@ -9152,7 +9187,10 @@
         "title": "新同事",
         "intro": ["", ""]
       },
-      "zh-a1-learn-my-family": { "title": "我的家庭", "intro": ["", ""] },
+      "zh-a1-learn-my-family": {
+        "title": "我的家庭",
+        "intro": ["", ""]
+      },
       "zh-a1-practice-introducing-others": {
         "title": "介绍他人练习",
         "intro": ["", ""]
@@ -10418,7 +10456,9 @@
       "part-12": "容器",
       "part-13": "使用关系数据库"
     },
-    "modules": { "basic-html": "基础超文本标记语言" },
+    "modules": {
+      "basic-html": "基础超文本标记语言"
+    },
     "module-intros": {
       "basic-html": {
         "title": "基础超文本标记语言",
@@ -10431,7 +10471,9 @@
   "daily-coding-challenge": {
     "title": "每日编程挑战",
     "blocks": {
-      "daily-coding-challenge": { "title": "每日编程挑战" }
+      "daily-coding-challenge": {
+        "title": "每日编程挑战"
+      }
     }
   },
   "misc-text": {
@@ -10469,8 +10511,10 @@
       "lab-rpg-character": "构建 RPG 角色",
       "python-loops-and-sequences": "循环和序列",
       "python-dictionaries-and-sets": "字典和集合",
+      "python-modules-and-standard-library": "模块和标准函数库",
       "lab-user-configuration-manager": "创建用户配置管理器",
       "python-error-handling": "误差处理",
+      "lab-order-processor": "创建订单处理器",
       "python-classes-and-objects": "类和对象",
       "lab-budget-app": "创建预算应用",
       "python-object-oriented-programming": "面向对象编程（OOP）",
@@ -10595,19 +10639,25 @@
         "title": "操作列表",
         "intro": ["在这些课程中学习如何操作列表。"]
       },
+      "workshop-concert-program-planner": {
+        "title": "创建音乐会节目计划器",
+        "intro": [
+          "在本工作坊中，你将通过计划管弦乐队音乐会的节目来练习操作列表。"
+        ]
+      },
       "lecture-working-with-tuples": {
         "title": "操作元组",
         "intro": ["在这些课程中学习如何操作元组。"]
       },
+      "workshop-version-checker": {
+        "title": "创建版本检查器",
+        "intro": [
+          "在本工作坊中，你将通过创建一个检查应用是否需要更新的程序来练习操作元组。"
+        ]
+      },
       "lecture-working-with-loops-python": {
         "title": "操作循环",
         "intro": ["在这些课程中学习如何操作循环。"]
-      },
-      "lecture-understanding-list-comprehensions-and-lambda-functions": {
-        "title": "理解列表推导和 Lambda 函数",
-        "intro": [
-          "在这些课程中学习列表推导和 Lambda 函数。"
-        ]
       },
       "workshop-pin-extractor": {
         "title": "创建 PIN 提取器",
@@ -10615,9 +10665,27 @@
           "在本工作坊中，你将创建一个函数，从诗歌中提取隐藏的秘密 PIN。"
         ]
       },
+      "workshop-elevator-simulator": {
+        "title": "创建电梯模拟器",
+        "intro": [
+          "在本工作坊中，你将通过创建一个模拟电梯在楼层间移动的函数来练习使用 while 循环。"
+        ]
+      },
       "lab-number-pattern-generator": {
         "title": "创建数字模式生成器",
         "intro": ["在本实验中，你将创建一个数字模式生成器。"]
+      },
+      "lecture-understanding-list-comprehensions-and-lambda-functions": {
+        "title": "理解列表推导和 Lambda 函数",
+        "intro": [
+          "在这些课程中学习列表推导和 Lambda 函数。"
+        ]
+      },
+      "workshop-sensor-data-cleaner": {
+        "title": "创建传感器数据清理器",
+        "intro": [
+          "在本工作坊中，你将通过清理温度传感器的读数来练习列表推导和 lambda 函数。"
+        ]
       },
       "review-loops-and-sequences-v2": {
         "title": "循环和序列复习",
@@ -10632,33 +10700,41 @@
           "通过此测验测试你对 Python 中循环和序列的掌握。"
         ]
       },
-      "lecture-working-with-dictionaries-and-sets": {
-        "title": "使用字典和集合",
+      "lecture-working-with-dictionaries": {
+        "title": "使用字典",
+        "intro": ["在这些课程中学习如何使用字典。"]
+      },
+      "lecture-working-with-sets": {
+        "title": "使用集合",
+        "intro": ["在本课程中学习如何使用集合。"]
+      },
+      "review-dictionaries-and-sets-v2": {
+        "title": "字典和集合复习",
         "intro": [
-          "在这些课程中，学习如何使用字典和集合。"
+          "在接受字典和集合测验前，你应该复习相关内容。",
+          "打开此页面复习字典、集合及模块导入的相关概念。"
         ]
       },
-      "lecture-working-with-modules": {
+      "lecture-working-with-modules-v2": {
         "title": "使用模块",
         "intro": ["在这些课程中学习如何使用模块。"]
+      },
+      "lecture-copying-nested-collections": {
+        "title": "拷贝嵌套集合",
+        "intro": [
+          "学习赋值、浅拷贝和深拷贝如何影响嵌套字典和列表。"
+        ]
+      },
+      "lecture-working-with-regular-expressions-python": {
+        "title": "使用正则表达式",
+        "intro": [
+          "在这些课程中学习如何在 Python 中使用正则表达式。"
+        ]
       },
       "workshop-medical-data-validator": {
         "title": "创建医疗数据验证器",
         "intro": [
           "在本工作坊中，你将练习使用字典和集合，同时验证一组医疗数据。"
-        ]
-      },
-      "review-dictionaries-and-sets": {
-        "title": "字典和集合复习",
-        "intro": [
-          "在进行字典和集合测验之前，你应该复习相关内容。",
-          "打开此页面复习有关字典、集合以及如何导入模块的概念。"
-        ]
-      },
-      "quiz-dictionaries-and-sets": {
-        "title": "字典和集合测验",
-        "intro": [
-          "通过此测验测试你对 Python 中字典和集合的理解。"
         ]
       },
       "lab-user-configuration-manager": {
@@ -10691,6 +10767,12 @@
           "通过此测验测试你对 Python 错误处理的掌握。"
         ]
       },
+      "lab-order-processor": {
+        "title": "创建订单处理器",
+        "intro": [
+          "在本实验中，你将通过处理电子商务订单来练习 Python 中的误差处理。"
+        ]
+      },
       "lecture-classes-and-objects": {
         "title": "类和对象",
         "intro": ["在这些课程中学习类和对象。"]
@@ -10705,6 +10787,12 @@
         "title": "创建行星类",
         "intro": [
           "在本实验中，你将创建一个表现行星的类。"
+        ]
+      },
+      "lecture-formatting-python-output": {
+        "title": "格式化 Python 输出",
+        "intro": [
+          "在本课程中，你将学习如何在 f-string 中对齐和填充文本，以便将数值以整齐易读的列形式显示。"
         ]
       },
       "workshop-email-simulator": {
@@ -10856,6 +10944,12 @@
         "title": "理解算法和大 O 记法",
         "intro": [
           "在这些课程中，你将学习算法是什么，如何用大 O 记法分析算法，以及解决算法问题的有效技巧。"
+        ]
+      },
+      "workshop-luhn-algorithm": {
+        "title": "实现 Luhn 算法",
+        "intro": [
+          "在本工作坊中，你将通过数值计算和字串操作创建一个验证器。"
         ]
       },
       "lab-stock-profit-calculator": {

@@ -1,15 +1,15 @@
 ---
 id: 697a7f71ebfcd9e4cacd69c2
-title: Крок 8
+title: Крок 9
 challengeType: 20
-dashedName: step-8
+dashedName: step-9
 ---
 
 # --description--
 
-Рахунок розділено, але ділення часто дає довгі десяткові числа. Оскільки гроші зазвичай представляють з двома десятковими знаками, слід округлити фінальний результат.
+Специфікатор формату `:.2f`, який ви використовували, змінює лише спосіб відображення чисел. Самі значення все ще мають усі свої десяткові знаки. Щоб отримати число, яке дійсно округлене і може бути використане в подальших обчисленнях, ви можете використати функцію `round()`.
 
-У попередньому уроці ви дізналися про функцію `round()`, яка приймає два аргументи: число, яке потрібно округлити, і кількість десяткових знаків, які слід зберегти. Ось приклад:
+У попередньому уроці ви дізналися, що функція `round()` приймає два аргументи: число, яке ви хочете округлити, і кількість десяткових знаків, які потрібно зберегти. Ось приклад:
 
 ```py
 num = 4.815162342
@@ -18,9 +18,7 @@ round(num, 3) # 4.815
 
 Використайте функцію `round()` щоб округлити `final_bill` до двох десяткових знаків і призначте результат новій змінній з ім’ям `each_pays`.
 
-Нарешті, використайте `print()` щоб вивести рядок `Each person pays:`, за яким іде пробіл і ваша змінна `each_pays`.
-
-На цьому практичне заняття з розділення рахунку завершено.
+Потім використайте `print()`, щоб вивести рядок `Each person pays:` з пробілом і вашою змінною `each_pays`. Цього разу не форматуй число.
 
 # --hints--
 
@@ -49,17 +47,12 @@ round(num, 3) # 4.815
 ```js
 ({
     test: () => runPython(`
-import io, contextlib, re
-
-buffer = io.StringIO()
-with contextlib.redirect_stdout(buffer):
-    exec(_code)
-
-match = re.search(r"Each person pays: ([0-9]+(?:\\.[0-9]+)?)\\s*(?:\\n|$)", buffer.getvalue())
-
-assert match
-assert abs(float(match.group(1)) - 62.13) < 1e-6
-`)
+        import io, contextlib, re
+        buffer = io.StringIO()
+        with contextlib.redirect_stdout(buffer):
+            exec(_code)
+        assert re.search(r"^Each person pays: 62\\.1$", buffer.getvalue(), re.M)
+    `)
 })
 ```
 
@@ -75,49 +68,21 @@ num_of_friends = 4
 appetizers = 37.89
 main_courses = 57.34
 desserts = 39.39
-drinks = 64.21
+drinks = 64.11
 
 running_total += appetizers + main_courses + desserts + drinks
-print('Total bill so far:', running_total)
+print(f'Total bill so far: {running_total:.2f}')
 
 tip = running_total * 0.25
-print('Tip amount:', tip)
+print(f'Tip amount: {tip:.2f}')
 
 running_total += tip
-print('Total with tip:', running_total)
+print(f'Total with tip: {running_total:.2f}')
 
 final_bill = running_total / num_of_friends
-print('Bill per person:', final_bill)
+print(f'Bill per person: {final_bill:.2f}')
 
 --fcc-editable-region--
 
 --fcc-editable-region--
-```
-
-# --solutions--
-
-```py
-running_total = 0
-
-num_of_friends = 4
-
-appetizers = 37.89
-main_courses = 57.34
-desserts = 39.39
-drinks = 64.21
-
-running_total += appetizers + main_courses + desserts + drinks
-print('Total bill so far:', running_total)
-
-tip = running_total * 0.25
-print('Tip amount:', tip)
-
-running_total += tip
-print('Total with tip:', running_total)
-
-final_bill = running_total / num_of_friends
-print('Bill per person:', final_bill)
-
-each_pays = round(final_bill, 2)
-print('Each person pays:', each_pays)
 ```

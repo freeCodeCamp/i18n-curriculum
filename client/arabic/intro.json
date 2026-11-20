@@ -599,7 +599,9 @@
     "chapters": {
       "learn-data-visualization-with-d3": "تعلم تمثيل البيانات باستخدام D3"
     },
-    "modules": { "introduction-to-d3": "مقدمة إلى D3" },
+    "modules": {
+      "introduction-to-d3": "مقدمة إلى D3"
+    },
     "module-intros": {
       "introduction-to-d3": {
         "note": "قادم أواخر 2026",
@@ -1655,6 +1657,12 @@
         "title": "العمل مع الوحدات",
         "intro": ["تعلم عن العمل مع الوحدات في هذه الدروس."]
       },
+      "lecture-working-with-regular-expressions-python": {
+        "title": "العمل مع التعبيرات النمطية",
+        "intro": [
+          "تعلم العمل مع التعبيرات النمطية في Python في هذه الدروس."
+        ]
+      },
       "workshop-medical-data-validator": {
         "title": "بناء مدقق بيانات طبية",
         "intro": [
@@ -2566,6 +2574,12 @@
         "title": "بناء وظيفة بحث في الملف الشخصي",
         "intro": [
           "في هذا المختبر، ستنشئ دالة تبحث عن معلومات الملف الشخصي."
+        ]
+      },
+      "lab-data-sanitizer-sweep": {
+        "title": "تنفيذ عملية تنظيف البيانات",
+        "intro": [
+          "في هذه المختبر، ستتمرن على استخدام معالجة السلاسل النصية والحلقات لاستبدال الأحرف في سجلات النصوص وملفات السجلات كاملة."
         ]
       },
       "workshop-space-mission-roster": {
@@ -6654,6 +6668,12 @@
         "title": "العمل مع الوحدات",
         "intro": ["تعلم عن العمل مع الوحدات في هذه الدروس."]
       },
+      "lecture-working-with-regular-expressions-python": {
+        "title": "العمل مع التعبيرات النمطية",
+        "intro": [
+          "تعلم العمل مع التعبيرات النمطية في Python في هذه الدروس."
+        ]
+      },
       "workshop-medical-data-validator": {
         "title": "بناء مدقق بيانات طبية",
         "intro": [
@@ -7738,7 +7758,10 @@
         "title": "مقدمة الشهادة",
         "intro": ["", ""]
       },
-      "es-a1-learn-vowels": { "title": "الحروف المتحركة", "intro": ["", ""] },
+      "es-a1-learn-vowels": {
+        "title": "الحروف المتحركة",
+        "intro": ["", ""]
+      },
       "es-a1-learn-consonants-and-special-characters": {
         "title": "الحروف الساكنة والحروف الخاصة",
         "intro": ["", ""]
@@ -7759,7 +7782,10 @@
         "title": "الأبجدية واللكِنات",
         "intro": ["", ""]
       },
-      "es-a1-learn-punctuation": { "title": "علامات الترقيم", "intro": ["", ""] },
+      "es-a1-learn-punctuation": {
+        "title": "علامات الترقيم",
+        "intro": ["", ""]
+      },
       "es-a1-review-spanish-fundamentals": {
         "title": "مراجعة أساسيات اللغة الإسبانية",
         "intro": ["", ""]
@@ -7792,8 +7818,14 @@
         "title": "أساسيات تقديم نفسك",
         "intro": ["", ""]
       },
-      "es-a1-learn-meet-luna": { "title": "تعرف على لونا", "intro": ["", ""] },
-      "es-a1-learn-meet-mateo": { "title": "تعرف على ماتيو", "intro": ["", ""] },
+      "es-a1-learn-meet-luna": {
+        "title": "تعرف على لونا",
+        "intro": ["", ""]
+      },
+      "es-a1-learn-meet-mateo": {
+        "title": "تعرف على ماتيو",
+        "intro": ["", ""]
+      },
       "es-a1-learn-meet-julieta": {
         "title": "تعرف على جولييتا",
         "intro": ["", ""]
@@ -9095,7 +9127,10 @@
         "title": "النهائيات البسيطة",
         "intro": ["", ""]
       },
-      "zh-a1-learn-initials": { "title": "الحروف الأولية", "intro": ["", ""] },
+      "zh-a1-learn-initials": {
+        "title": "الحروف الأولية",
+        "intro": ["", ""]
+      },
       "zh-a1-learn-compound-finals": {
         "title": "النهائيات المركبة",
         "intro": ["", ""]
@@ -9152,7 +9187,10 @@
         "title": "زميل جديد",
         "intro": ["", ""]
       },
-      "zh-a1-learn-my-family": { "title": "عائلتي", "intro": ["", ""] },
+      "zh-a1-learn-my-family": {
+        "title": "عائلتي",
+        "intro": ["", ""]
+      },
       "zh-a1-practice-introducing-others": {
         "title": "ممارسة تقديم الآخرين",
         "intro": ["", ""]
@@ -10418,7 +10456,9 @@
       "part-12": "الحاويات",
       "part-13": "استخدام قواعد البيانات العلائقية"
     },
-    "modules": { "basic-html": "HTML الأساسي" },
+    "modules": {
+      "basic-html": "HTML الأساسي"
+    },
     "module-intros": {
       "basic-html": {
         "title": "HTML الأساسي",
@@ -10431,7 +10471,9 @@
   "daily-coding-challenge": {
     "title": "تحدي الترميز اليومي",
     "blocks": {
-      "daily-coding-challenge": { "title": "تحدي الترميز اليومي" }
+      "daily-coding-challenge": {
+        "title": "تحدي الترميز اليومي"
+      }
     }
   },
   "misc-text": {
@@ -10469,8 +10511,10 @@
       "lab-rpg-character": "بناء شخصية لعبة تقمص أدوار",
       "python-loops-and-sequences": "الحلقات والمتتاليات",
       "python-dictionaries-and-sets": "القواميس والمجموعات",
+      "python-modules-and-standard-library": "الوحدات والمكتبة القياسية",
       "lab-user-configuration-manager": "بناء مدير تكوين المستخدم",
       "python-error-handling": "معالجة الأخطاء",
+      "lab-order-processor": "بناء معالج طلبات",
       "python-classes-and-objects": "الأصناف والكائنات",
       "lab-budget-app": "بناء تطبيق ميزانية",
       "python-object-oriented-programming": "البرمجة كائنية التوجه (OOP)",
@@ -10595,19 +10639,25 @@
         "title": "العمل مع القوائم",
         "intro": ["تعلم العمل مع القوائم في هذه الدروس."]
       },
+      "workshop-concert-program-planner": {
+        "title": "بناء مخطط برنامج الحفل الموسيقي",
+        "intro": [
+          "في هذه ورشة العمل، ستتمرن على العمل مع القوائم من خلال تخطيط برنامج حفل أوركسترا."
+        ]
+      },
       "lecture-working-with-tuples": {
         "title": "العمل مع الصفوف المرتبة",
         "intro": ["تعلم العمل مع الصفوف المرتبة في هذه الدروس."]
       },
+      "workshop-version-checker": {
+        "title": "بناء مدقق الإصدارات",
+        "intro": [
+          "في هذه ورشة العمل، ستتمرن على العمل مع الصفوف المرتبة من خلال بناء برنامج يتحقق مما إذا كان التطبيق يحتاج إلى تحديث."
+        ]
+      },
       "lecture-working-with-loops-python": {
         "title": "العمل مع الحلقات",
         "intro": ["تعلم العمل مع الحلقات في هذه الدروس."]
-      },
-      "lecture-understanding-list-comprehensions-and-lambda-functions": {
-        "title": "فهم تراكيب القوائم والدوال اللامبدا",
-        "intro": [
-          "تعلم عن تراكيب القوائم والدوال اللامبدا في هذه الدروس."
-        ]
       },
       "workshop-pin-extractor": {
         "title": "بناء مستخرج رمز PIN",
@@ -10615,9 +10665,27 @@
           "في ورشة العمل هذه، ستبني دالة لاستخراج رموز PIN السرية المخفية في القصائد."
         ]
       },
+      "workshop-elevator-simulator": {
+        "title": "بناء محاكي المصعد",
+        "intro": [
+          "في هذه ورشة العمل، ستتمرن على العمل مع حلقات while من خلال بناء دالة تحاكي حركة المصعد بين الطوابق."
+        ]
+      },
       "lab-number-pattern-generator": {
         "title": "بناء مولد نمط أرقام",
         "intro": ["في هذا المختبر، ستبني مولد نمط أرقام."]
+      },
+      "lecture-understanding-list-comprehensions-and-lambda-functions": {
+        "title": "فهم تراكيب القوائم والدوال اللامبدا",
+        "intro": [
+          "تعلم عن تراكيب القوائم والدوال اللامبدا في هذه الدروس."
+        ]
+      },
+      "workshop-sensor-data-cleaner": {
+        "title": "بناء منظف بيانات المستشعر",
+        "intro": [
+          "في هذه ورشة العمل، ستتمرن على تراكيب القوائم والدوال اللامبدا من خلال تنظيف قراءات مستشعر درجة الحرارة."
+        ]
       },
       "review-loops-and-sequences-v2": {
         "title": "مراجعة الحلقات والمتتاليات",
@@ -10632,33 +10700,41 @@
           "اختبر ما تعلمته عن الحلقات والمتتاليات في Python بهذا الاختبار."
         ]
       },
-      "lecture-working-with-dictionaries-and-sets": {
-        "title": "العمل مع القواميس والمجموعات",
+      "lecture-working-with-dictionaries": {
+        "title": "العمل مع القواميس",
+        "intro": ["تعلم العمل مع القواميس في هذه الدروس."]
+      },
+      "lecture-working-with-sets": {
+        "title": "العمل مع المجموعات",
+        "intro": ["تعلم العمل مع المجموعات في هذا الدرس."]
+      },
+      "review-dictionaries-and-sets-v2": {
+        "title": "مراجعة القواميس والمجموعات",
         "intro": [
-          "تعلم عن العمل مع القواميس والمجموعات في هذه الدروس."
+          "قبل أن تخضع لاختبار قصير حول القواميس والمجموعات، يجب مراجعة ما تعلمته عنها.",
+          "افتح هذه الصفحة لمراجعة المفاهيم المتعلقة بالقواميس والمجموعات وكيفية استيراد الوحدات."
         ]
       },
-      "lecture-working-with-modules": {
+      "lecture-working-with-modules-v2": {
         "title": "العمل مع الوحدات",
         "intro": ["تعلم العمل مع الوحدات في هذه الدروس."]
+      },
+      "lecture-copying-nested-collections": {
+        "title": "نسخ المجموعات المسكنة",
+        "intro": [
+          "تعلم كيف يؤثر التعيين والنسخ السطحي والنسخة العميقة على القواميس والقوائم المسكنة."
+        ]
+      },
+      "lecture-working-with-regular-expressions-python": {
+        "title": "العمل مع التعبيرات النمطية",
+        "intro": [
+          "تعلم العمل مع التعبيرات النمطية في Python في هذه الدروس."
+        ]
       },
       "workshop-medical-data-validator": {
         "title": "بناء مدقق بيانات طبية",
         "intro": [
           "في ورشة العمل هذه، ستتمرن على التعامل مع القواميس والمجموعات أثناء التحقق من صحة مجموعة من البيانات الطبية."
-        ]
-      },
-      "review-dictionaries-and-sets": {
-        "title": "مراجعة القواميس والمجموعات",
-        "intro": [
-          "قبل أن تخضع لاختبار حول القواميس والمجموعات، يجب أن تراجع ما تعلمته عنها.",
-          "افتح هذه الصفحة لمراجعة مفاهيم القواميس والمجموعات وكيفية استيراد الوحدات."
-        ]
-      },
-      "quiz-dictionaries-and-sets": {
-        "title": "اختبار القواميس والمجموعات",
-        "intro": [
-          "اختبر ما تعلمته عن القواميس والمجموعات في بايثون بهذا الاختبار."
         ]
       },
       "lab-user-configuration-manager": {
@@ -10691,6 +10767,12 @@
           "اختبر ما تعلمته عن معالجة الأخطاء في Python من خلال هذا الاختبار القصير."
         ]
       },
+      "lab-order-processor": {
+        "title": "بناء معالج طلبات",
+        "intro": [
+          "في هذا المختبر، ستتمرن على التعامل مع الأخطاء في Python من خلال معالجة طلبات التجارة الإلكترونية."
+        ]
+      },
       "lecture-classes-and-objects": {
         "title": "الصنف والكائنات",
         "intro": ["تعلم عن الأصناف والكائنات في هذه الدروس."]
@@ -10705,6 +10787,12 @@
         "title": "بناء صنف كوكب",
         "intro": [
           "في هذا المختبر، ستنشئ صنفًا يمثل كوكبًا."
+        ]
+      },
+      "lecture-formatting-python-output": {
+        "title": "تنسيق مخرجات Python",
+        "intro": [
+          "في هذا الدرس، ستتعلم كيفية محاذاة النص وتعبئته في f-strings، لتتمكن من عرض القيم في أعمدة مرتبة وسهلة القراءة."
         ]
       },
       "workshop-email-simulator": {
@@ -10856,6 +10944,12 @@
         "title": "فهم الخوارزميات وترميز Big O",
         "intro": [
           "في هذه الدروس، ستتعلم ما هي الخوارزميات، وكيف تحللها باستخدام ترميز Big O، وتقنيات جيدة للتعامل مع مشاكل الخوارزميات."
+        ]
+      },
+      "workshop-luhn-algorithm": {
+        "title": "تنفيذ خوارزمية Luhn",
+        "intro": [
+          "في هذه ورشة العمل، ستبني مدققًا باستخدام الحسابات العددية ومعالجة السلاسل النصية."
         ]
       },
       "lab-stock-profit-calculator": {

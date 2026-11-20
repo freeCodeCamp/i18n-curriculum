@@ -1,17 +1,17 @@
 ---
 id: 6af4aeb7797b2df1a68aecbd
-title: Step 25
+title: الخطوة 25
 challengeType: 20
 dashedName: step-25
 ---
 
 # --description--
 
-Now that you've seen the header in the console, remove the object creations and the method calls you added for testing.
+الآن بعد أن رأيت القسم العلوي في وحدة التحكم، احذف إنشاءات الكائنات واستدعاءات الطرق التي أضفتها للاختبار.
 
 # --hints--
 
-You should not have `tory = User('Tory')` in your code.
+يجب ألا يحتوي كودك على `tory = User('Tory')`.
 
 ```js
 ({
@@ -21,7 +21,7 @@ You should not have `tory = User('Tory')` in your code.
 })
 ```
 
-You should not have `ramy = User('Ramy')` in your code.
+يجب ألا يحتوي كودك على `ramy = User('Ramy')`.
 
 ```js
 ({
@@ -31,7 +31,7 @@ You should not have `ramy = User('Ramy')` in your code.
 })
 ```
 
-You should not have `tory.send_email(ramy, 'Hello', 'Hi Ramy, just saying hello!')` in your code.
+يجب ألا يحتوي كودك على `tory.send_email(ramy, 'Hello', 'Hi Ramy, just saying hello!')`.
 
 ```js
 ({
@@ -41,7 +41,7 @@ You should not have `tory.send_email(ramy, 'Hello', 'Hi Ramy, just saying hello!
 })
 ```
 
-You should not have `ramy.inbox.emails[0].display_full_email()` in your code.
+يجب ألا يحتوي كودك على `ramy.inbox.emails[0].display_full_email()`.
 
 ```js
 ({

@@ -599,7 +599,9 @@
     "chapters": {
       "learn-data-visualization-with-d3": "Aprende visualización de datos con D3"
     },
-    "modules": { "introduction-to-d3": "Introducción a D3" },
+    "modules": {
+      "introduction-to-d3": "Introducción a D3"
+    },
     "module-intros": {
       "introduction-to-d3": {
         "note": "Disponible a finales de 2026",
@@ -1655,6 +1657,12 @@
         "title": "Trabajo con módulos",
         "intro": ["Aprende a trabajar con módulos en estas lecciones."]
       },
+      "lecture-working-with-regular-expressions-python": {
+        "title": "Trabajar con expresiones regulares",
+        "intro": [
+          "Aprende a trabajar con expresiones regulares en Python en estas lecciones."
+        ]
+      },
       "workshop-medical-data-validator": {
         "title": "Construye un validador de datos médicos",
         "intro": [
@@ -2566,6 +2574,12 @@
         "title": "Construye una búsqueda de perfil",
         "intro": [
           "En este laboratorio crearás una función que busca información de perfil."
+        ]
+      },
+      "lab-data-sanitizer-sweep": {
+        "title": "Implementar el proceso de limpieza de datos",
+        "intro": [
+          "En este laboratorio, practicarás el uso de manipulación de cadenas y ciclos para reemplazar caracteres en cadenas de registro y archivos de registro completos."
         ]
       },
       "workshop-space-mission-roster": {
@@ -6654,6 +6668,12 @@
         "title": "Trabajo con módulos",
         "intro": ["Aprende a trabajar con módulos en estas lecciones."]
       },
+      "lecture-working-with-regular-expressions-python": {
+        "title": "Trabajar con expresiones regulares",
+        "intro": [
+          "Aprende a trabajar con expresiones regulares en Python en estas lecciones."
+        ]
+      },
       "workshop-medical-data-validator": {
         "title": "Crear un validador de datos médicos",
         "intro": [
@@ -7738,7 +7758,10 @@
         "title": "Introducción a la certificación",
         "intro": ["", ""]
       },
-      "es-a1-learn-vowels": { "title": "Vocales", "intro": ["", ""] },
+      "es-a1-learn-vowels": {
+        "title": "Vocales",
+        "intro": ["", ""]
+      },
       "es-a1-learn-consonants-and-special-characters": {
         "title": "Consonantes y caracteres especiales",
         "intro": ["", ""]
@@ -7759,7 +7782,10 @@
         "title": "Alfabeto y acentos",
         "intro": ["", ""]
       },
-      "es-a1-learn-punctuation": { "title": "Puntuación", "intro": ["", ""] },
+      "es-a1-learn-punctuation": {
+        "title": "Puntuación",
+        "intro": ["", ""]
+      },
       "es-a1-review-spanish-fundamentals": {
         "title": "Repaso de fundamentos del español",
         "intro": ["", ""]
@@ -7792,8 +7818,14 @@
         "title": "Fundamentos para presentarte",
         "intro": ["", ""]
       },
-      "es-a1-learn-meet-luna": { "title": "Conoce a Luna", "intro": ["", ""] },
-      "es-a1-learn-meet-mateo": { "title": "Conoce a Mateo", "intro": ["", ""] },
+      "es-a1-learn-meet-luna": {
+        "title": "Conoce a Luna",
+        "intro": ["", ""]
+      },
+      "es-a1-learn-meet-mateo": {
+        "title": "Conoce a Mateo",
+        "intro": ["", ""]
+      },
       "es-a1-learn-meet-julieta": {
         "title": "Conoce a Julieta",
         "intro": ["", ""]
@@ -9095,7 +9127,10 @@
         "title": "Finales simples",
         "intro": ["", ""]
       },
-      "zh-a1-learn-initials": { "title": "Iniciales", "intro": ["", ""] },
+      "zh-a1-learn-initials": {
+        "title": "Iniciales",
+        "intro": ["", ""]
+      },
       "zh-a1-learn-compound-finals": {
         "title": "Finales compuestos",
         "intro": ["", ""]
@@ -9152,7 +9187,10 @@
         "title": "Un nuevo colega",
         "intro": ["", ""]
       },
-      "zh-a1-learn-my-family": { "title": "Mi familia", "intro": ["", ""] },
+      "zh-a1-learn-my-family": {
+        "title": "Mi familia",
+        "intro": ["", ""]
+      },
       "zh-a1-practice-introducing-others": {
         "title": "Práctica de presentar a otros",
         "intro": ["", ""]
@@ -10418,7 +10456,9 @@
       "part-12": "Contenedores",
       "part-13": "Uso de bases de datos relacionales"
     },
-    "modules": { "basic-html": "HTML básico" },
+    "modules": {
+      "basic-html": "HTML básico"
+    },
     "module-intros": {
       "basic-html": {
         "title": "HTML básico",
@@ -10431,7 +10471,9 @@
   "daily-coding-challenge": {
     "title": "Desafío diario de programación",
     "blocks": {
-      "daily-coding-challenge": { "title": "Desafío diario de programación" }
+      "daily-coding-challenge": {
+        "title": "Desafío diario de programación"
+      }
     }
   },
   "misc-text": {
@@ -10469,8 +10511,10 @@
       "lab-rpg-character": "Crear un personaje de RPG",
       "python-loops-and-sequences": "Ciclos y secuencias",
       "python-dictionaries-and-sets": "Diccionarios y conjuntos",
+      "python-modules-and-standard-library": "Módulos y biblioteca estándar",
       "lab-user-configuration-manager": "Construye un gestor de configuración de usuario",
       "python-error-handling": "Manejo de errores",
+      "lab-order-processor": "Construir un procesador de pedidos",
       "python-classes-and-objects": "Clases y objetos",
       "lab-budget-app": "Construye una app de presupuesto",
       "python-object-oriented-programming": "Programación orientada a objetos (POO)",
@@ -10595,19 +10639,25 @@
         "title": "Trabajar con listas",
         "intro": ["Aprende a trabajar con listas en estas lecciones."]
       },
+      "workshop-concert-program-planner": {
+        "title": "Construir un planificador de programa de concierto",
+        "intro": [
+          "En este taller, practicarás trabajar con listas planificando el programa de un concierto de orquesta."
+        ]
+      },
       "lecture-working-with-tuples": {
         "title": "Trabajar con tuplas",
         "intro": ["Aprende a trabajar con tuplas en estas lecciones."]
       },
+      "workshop-version-checker": {
+        "title": "Construir un verificador de versión",
+        "intro": [
+          "En este taller, practicarás trabajar con tuplas construyendo un programa que verifica si una app necesita una actualización."
+        ]
+      },
       "lecture-working-with-loops-python": {
         "title": "Trabajar con ciclos",
         "intro": ["Aprende a trabajar con ciclos en estas lecciones."]
-      },
-      "lecture-understanding-list-comprehensions-and-lambda-functions": {
-        "title": "Entender las comprensiones de listas y funciones lambda",
-        "intro": [
-          "Aprende sobre comprensiones de listas y funciones lambda en estas lecciones."
-        ]
       },
       "workshop-pin-extractor": {
         "title": "Construye un extractor de PIN",
@@ -10615,9 +10665,27 @@
           "En este taller construirás una función para extraer PINs secretos ocultos en poemas."
         ]
       },
+      "workshop-elevator-simulator": {
+        "title": "Construir un simulador de ascensor",
+        "intro": [
+          "En este taller, practicarás trabajar con ciclos while construyendo una función que simula un ascensor moviéndose entre pisos."
+        ]
+      },
       "lab-number-pattern-generator": {
         "title": "Construye un generador de patrones numéricos",
         "intro": ["En este laboratorio construirás un generador de patrones numéricos."]
+      },
+      "lecture-understanding-list-comprehensions-and-lambda-functions": {
+        "title": "Entender las comprensiones de listas y funciones lambda",
+        "intro": [
+          "Aprende sobre comprensiones de listas y funciones lambda en estas lecciones."
+        ]
+      },
+      "workshop-sensor-data-cleaner": {
+        "title": "Construir un limpiador de datos de sensores",
+        "intro": [
+          "En este taller, practicarás comprensiones de listas y funciones lambda limpiando las lecturas de un sensor de temperatura."
+        ]
       },
       "review-loops-and-sequences-v2": {
         "title": "Revisión de ciclos y secuencias",
@@ -10632,33 +10700,41 @@
           "Pon a prueba lo que has aprendido sobre ciclos y secuencias en Python con este quiz."
         ]
       },
-      "lecture-working-with-dictionaries-and-sets": {
-        "title": "Trabajo con diccionarios y conjuntos",
-        "intro": [
-          "Aprende sobre el trabajo con diccionarios y conjuntos en estas lecciones."
-        ]
+      "lecture-working-with-dictionaries": {
+        "title": "Trabajar con diccionarios",
+        "intro": ["Aprende a trabajar con diccionarios en estas lecciones."]
       },
-      "lecture-working-with-modules": {
-        "title": "Trabajar con módulos",
-        "intro": ["Aprende a trabajar con módulos en estas lecciones."]
+      "lecture-working-with-sets": {
+        "title": "Trabajar con conjuntos",
+        "intro": ["Aprende a trabajar con conjuntos en esta lección."]
       },
-      "workshop-medical-data-validator": {
-        "title": "Construye un validador de datos médicos",
-        "intro": [
-          "En este taller, practicarás con diccionarios y conjuntos mientras validas una colección de datos médicos."
-        ]
-      },
-      "review-dictionaries-and-sets": {
+      "review-dictionaries-and-sets-v2": {
         "title": "Revisión de diccionarios y conjuntos",
         "intro": [
           "Antes de hacer el quiz sobre diccionarios y conjuntos, deberías repasar lo que has aprendido sobre ellos.",
           "Abre esta página para repasar conceptos sobre diccionarios, conjuntos y cómo importar módulos."
         ]
       },
-      "quiz-dictionaries-and-sets": {
-        "title": "Quiz de diccionarios y conjuntos",
+      "lecture-working-with-modules-v2": {
+        "title": "Trabajar con módulos",
+        "intro": ["Aprende a trabajar con módulos en estas lecciones."]
+      },
+      "lecture-copying-nested-collections": {
+        "title": "Copiar colecciones anidadas",
         "intro": [
-          "Pon a prueba lo que has aprendido sobre diccionarios y conjuntos en Python con este quiz."
+          "Aprende cómo la asignación, la copia superficial y la copia profunda afectan a diccionarios y listas anidados."
+        ]
+      },
+      "lecture-working-with-regular-expressions-python": {
+        "title": "Trabajar con expresiones regulares",
+        "intro": [
+          "Aprende a trabajar con expresiones regulares en Python en estas lecciones."
+        ]
+      },
+      "workshop-medical-data-validator": {
+        "title": "Construye un validador de datos médicos",
+        "intro": [
+          "En este taller, practicarás con diccionarios y conjuntos mientras validas una colección de datos médicos."
         ]
       },
       "lab-user-configuration-manager": {
@@ -10691,6 +10767,12 @@
           "Pon a prueba lo que aprendiste sobre manejo de errores en Python con este quiz."
         ]
       },
+      "lab-order-processor": {
+        "title": "Construir un procesador de pedidos",
+        "intro": [
+          "En este laboratorio, practicarás manejar errores en Python procesando pedidos de comercio electrónico."
+        ]
+      },
       "lecture-classes-and-objects": {
         "title": "Clases y objetos",
         "intro": ["Aprende sobre clases y objetos en estas lecciones."]
@@ -10705,6 +10787,12 @@
         "title": "Construye una clase planeta",
         "intro": [
           "En este laboratorio crearás una clase que representa un planeta."
+        ]
+      },
+      "lecture-formatting-python-output": {
+        "title": "Formatear la salida en Python",
+        "intro": [
+          "En esta lección, aprenderás a alinear y rellenar texto en f-strings para mostrar valores en columnas ordenadas y legibles."
         ]
       },
       "workshop-email-simulator": {
@@ -10856,6 +10944,12 @@
         "title": "Comprender algoritmos y la notación Big O",
         "intro": [
           "En estas lecciones aprenderás qué son los algoritmos, cómo analizarlos con la notación Big O y buenas técnicas para abordar problemas algorítmicos."
+        ]
+      },
+      "workshop-luhn-algorithm": {
+        "title": "Implementar el algoritmo de Luhn",
+        "intro": [
+          "En este taller, construirás un validador usando cálculos numéricos y manipulación de cadenas."
         ]
       },
       "lab-stock-profit-calculator": {

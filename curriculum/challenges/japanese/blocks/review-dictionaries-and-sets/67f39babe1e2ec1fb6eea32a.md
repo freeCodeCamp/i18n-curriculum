@@ -47,6 +47,23 @@ for product, price in products.items():
 print(products)  # {'apple': 8, 'pear': 16}
 ```
 
+- **`**` を使った辞書のアンパック**: `**` 演算子は辞書をキーワード引数にアンパックします。各キーがパラメータ名として使われます。
+
+```python
+def greet(name, age):
+    print(f'{name} is {age}')
+
+data = {'name': 'Jessica', 'age': 30}
+greet(**data)  # Jessica is 30
+```
+
+- **`all()` 関数**: `all()` 関数はイテラブルのすべての要素が真であれば `True` を返します。空のイテラブルでも `True` を返します。
+
+```python
+print(all([1, 'a', True]))  # True
+print(all([1, 0, True]))    # False
+```
+
 ## 辞書の一般的なメソッド
 
 - **`get()` メソッド**: `get()` メソッドはキーに関連付けられた値を取得します。ブラケット記法に似ていますが、キーが存在しない場合にエラーを防ぐためのデフォルト値を設定できます。
@@ -230,6 +247,15 @@ my_set = {1, 2, 3, 4, 5}
 ```python
 set() # Set
 {}    # Dictionary
+```
+
+- **イテラブルからセットを作成する**: `set()` コンストラクタはリスト、文字列、辞書（キーを返す）などのイテラブルを受け入れます。ただし、その要素がセットに格納可能である必要があります。例えば、数値のリストは有効ですが、リストを含むリストは無効です。これは期待するキーと実際に持っているキーを比較するのに便利です。
+
+```python
+expected_keys = {'name', 'age'}
+data = {'name': 'Jessica', 'age': 30}
+
+print(set(data) == expected_keys)  # True
 ```
 
 ## セットの一般的なメソッド
@@ -428,75 +454,54 @@ if __name__ == '__main__':
     # Code
 ```
 
-## データの検証
+## 正規表現
 
-- **イテラブルからセットを作成する**: `set()` コンストラクタはリスト、文字列、辞書（キーを返す）などのイテラブルを受け入れます。ただし、その要素がセットに格納可能である必要があります。例えば、数値のリストは有効ですが、リストを含むリストは無効です。これは期待するキーと実際に持っているキーを比較するのに便利です。
+- **正規表現**: 正規表現（regex）は、テキスト内の文字のシーケンスにマッチするパターンです。Pythonで使うには、`re` モジュールをインポートする必要があります。
 
-```python
-expected_keys = {'name', 'age'}
-data = {'name': 'Jessica', 'age': 30}
-
-print(set(data) == expected_keys)  # True
-```
-
-- **`**` を使った辞書のアンパック**: `**` 演算子は辞書をキーワード引数にアンパックします。各キーがパラメータ名として使われます。
-
-```python
-def greet(name, age):
-    print(f'{name} is {age}')
-
-data = {'name': 'Jessica', 'age': 30}
-greet(**data)  # Jessica is 30
-```
-
-- **正規表現と `re.search()`**: 正規表現はテキストパターンを表します。`re.search()` 関数は文字列のどこかにパターンがあるか探します。見つかればマッチオブジェクトを返し、なければ `None` を返します。
+- **`re.search()` 関数**: `search()` 関数は文字列のどこかでパターンを探します。見つかればマッチオブジェクトを返し、見つからなければ `None` を返します。マッチオブジェクトの `group()` と `span()` メソッドは、マッチしたテキストとその開始・終了インデックスを返します。
 
 ```python
 import re
 
-print(re.search('cat', 'concatenate'))  # <re.Match object; span=(3, 6), match='cat'>
-print(re.search('dog', 'concatenate'))  # None
+result = re.search('cat', 'The cat sat on the mat.')
+print(result)         # <re.Match object; span=(4, 7), match='cat'>
+print(result.group()) # cat
+print(result.span())  # (4, 7)
 ```
 
-- **`re.IGNORECASE` を使った大文字小文字を区別しないマッチング**: 3番目の引数に `re.IGNORECASE` を渡すと、大文字と小文字の違いを無視します。
+- **フラグ**: 正規表現のマッチングはデフォルトでは大文字小文字を区別します。`re.IGNORECASE` フラグを使うと大文字小文字を区別しなくなります。例: `re.search('Cat', 'The cat sat', re.IGNORECASE)`。
+
+- **生文字列**: 開始クォートの前に `r` を付けて作る生文字列は、バックスラッシュをエスケープシーケンスとしてではなく文字通り扱います。正規表現パターンは常に生文字列で書くのが良い習慣です。例: `r'\d'`。
+
+- **特殊シーケンス**: `\d` は任意の数字にマッチし、`\w` は任意の単語文字（文字、数字、アンダースコア）にマッチし、`\s` は任意の空白文字にマッチします。`\D`、`\W`、`\S` はそれぞれこれらの逆にマッチします。
+
+- **量指定子**: 量指定子は、直前の文字が何回繰り返されるかを指定します。`+` は1回以上、`*` は0回以上、`?` は0回または1回、`{n}` はちょうど `n` 回、`{n,m}` は `n` 回から `m` 回までの繰り返しを表します。
 
 ```python
-print(re.search('cat', 'CAT', re.IGNORECASE))  # <re.Match object; span=(0, 3), match='CAT'>
+import re
+
+print(re.search(r'\d+', 'Room 42B'))    # <re.Match object; span=(5, 7), match='42'>
+print(re.search(r'colou?r', 'color'))   # <re.Match object; span=(0, 5), match='color'>
+print(re.search(r'\d{4}', 'Room 1987')) # <re.Match object; span=(5, 9), match='1987'>
 ```
 
-- **生文字列と `\d`**: 生文字列は `r` で始まり、バックスラッシュを文字通り扱うため正規表現が読みやすくなります。パターン中の `\d` は任意の1桁の数字にマッチします。
+## `re` モジュールの便利な関数
+
+- **`re.match()` 関数**: `search()` と似ていますが、文字列の先頭でのみパターンを探します。
+
+- **`re.fullmatch()` 関数**: パターンが文字列全体にマッチした場合にのみマッチオブジェクトを返します。データの検証に便利です。
+
+- **`re.findall()` 関数**: マッチしたすべての部分文字列のリストを返します。マッチがなければ空リストを返します。
+
+- **`re.sub()` 関数**: パターンにマッチしたすべての部分を別の文字列に置き換え、新しい文字列を返します。オプションの `count` と `flags` パラメータはキーワード引数として渡す必要があります。
 
 ```python
-print(re.search(r'\d', 'room 5'))  # <re.Match object; span=(5, 6), match='5'>
-```
+import re
 
-- **`+` 量指定子**: `+` 量指定子は直前のパターンが1回以上繰り返される部分にマッチします。
-
-```python
-print(re.search(r'\d+', 'room 305'))  # <re.Match object; span=(5, 8), match='305'>
-```
-
-- **`re.fullmatch()` 関数**: `re.fullmatch()` 関数は文字列全体がパターンにマッチした場合のみマッチオブジェクトを返します。そうでなければ `None` を返します。
-
-```python
-print(re.fullmatch(r'\d+', '305'))      # <re.Match object; span=(0, 3), match='305'>
-print(re.fullmatch(r'\d+', 'room 305')) # None
-```
-
-- **`is` と `is not` によるオブジェクト同一性の判定**: `is` 演算子は2つの名前が同じオブジェクトを指しているかをチェックし、`is not` はそうでないことをチェックします。これらは値が `None` かどうかを判定する標準的な方法です。
-
-```python
-result = None
-
-print(result is None)      # True
-print(result is not None)  # False
-```
-
-- **`all()` 関数**: `all()` 関数はイテラブルのすべての要素が真であれば `True` を返します。空のイテラブルでも `True` を返します。
-
-```python
-print(all([1, 'a', True]))  # True
-print(all([1, 0, True]))    # False
+print(re.match(r'\d+', 'apples: 42'))             # None
+print(re.fullmatch(r'\d+:\d+', '10:30pm'))        # None
+print(re.findall(r'\d+', 'Rooms 12, 7, and 105')) # ['12', '7', '105']
+print(re.sub(r'\d', '*', '555 0123', count=3))    # *** 0123
 ```
 
 # --assignment--

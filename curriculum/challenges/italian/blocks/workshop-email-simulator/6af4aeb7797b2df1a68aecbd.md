@@ -1,17 +1,17 @@
 ---
 id: 6af4aeb7797b2df1a68aecbd
-title: Step 25
+title: Passaggio 25
 challengeType: 20
 dashedName: step-25
 ---
 
 # --description--
 
-Now that you've seen the header in the console, remove the object creations and the method calls you added for testing.
+Ora che hai visto l'intestazione nella console, rimuovi le creazioni degli oggetti e le chiamate ai metodi che hai aggiunto per i test.
 
 # --hints--
 
-You should not have `tory = User('Tory')` in your code.
+Non dovresti avere `tory = User('Tory')` nel tuo codice.
 
 ```js
 ({
@@ -21,7 +21,7 @@ You should not have `tory = User('Tory')` in your code.
 })
 ```
 
-You should not have `ramy = User('Ramy')` in your code.
+Non dovresti avere `ramy = User('Ramy')` nel tuo codice.
 
 ```js
 ({
@@ -31,7 +31,7 @@ You should not have `ramy = User('Ramy')` in your code.
 })
 ```
 
-You should not have `tory.send_email(ramy, 'Hello', 'Hi Ramy, just saying hello!')` in your code.
+Non dovresti avere `tory.send_email(ramy, 'Hello', 'Hi Ramy, just saying hello!')` nel tuo codice.
 
 ```js
 ({
@@ -41,7 +41,7 @@ You should not have `tory.send_email(ramy, 'Hello', 'Hi Ramy, just saying hello!
 })
 ```
 
-You should not have `ramy.inbox.emails[0].display_full_email()` in your code.
+Non dovresti avere `ramy.inbox.emails[0].display_full_email()` nel tuo codice.
 
 ```js
 ({

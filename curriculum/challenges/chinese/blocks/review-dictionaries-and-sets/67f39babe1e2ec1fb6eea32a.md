@@ -47,6 +47,23 @@ for product, price in products.items():
 print(products)  # {'apple': 8, 'pear': 16}
 ```
 
+- **使用 `**` 解包字典**：`**` 操作符将字典解包为关键字参数，其中每个键用作参数名。
+
+```python
+def greet(name, age):
+    print(f'{name} is {age}')
+
+data = {'name': 'Jessica', 'age': 30}
+greet(**data)  # Jessica is 30
+```
+
+- **`all()` 函数**：`all()` 函数在可迭代对象的所有元素都为真值时返回 `True`。对于空的可迭代对象，也返回 `True`。
+
+```python
+print(all([1, 'a', True]))  # True
+print(all([1, 0, True]))    # False
+```
+
 ## 常用字典方法
 
 - **`get()` 方法**：`get()` 方法用于获取与键关联的值。它类似于方括弧表示法，但允许你设置默认值，避免键不存在时出现错误。
@@ -230,6 +247,15 @@ my_set = {1, 2, 3, 4, 5}
 ```python
 set() # Set
 {}    # Dictionary
+```
+
+- **从可迭代对象创建集合**：`set()` 构造函数接受一个可迭代对象，比如列表、字串或字典（字典会取其键），前提是其元素可以存储在集合中。例如，数字列表是有效的，但包含其他列表的列表则无效。这对于比较你期望的键和实际拥有的键很有用。
+
+```python
+expected_keys = {'name', 'age'}
+data = {'name': 'Jessica', 'age': 30}
+
+print(set(data) == expected_keys)  # True
 ```
 
 ## 常用集合方法
@@ -428,75 +454,54 @@ if __name__ == '__main__':
     # Code
 ```
 
-## 验证数据
+## 正则表达式
 
-- **从可迭代对象创建集合**：`set()` 构造函数接受一个可迭代对象，比如列表、字串或字典（字典会取其键），前提是其元素可以存储在集合中。例如，数字列表是有效的，但包含其他列表的列表则无效。这对于比较你期望的键和实际拥有的键很有用。
+- **正则表达式**：正则表达式（regex）是一种用于匹配文本中字符序列的模式。要在 Python 中使用它们，你需要导入 `re` 模块。
 
-```python
-expected_keys = {'name', 'age'}
-data = {'name': 'Jessica', 'age': 30}
-
-print(set(data) == expected_keys)  # True
-```
-
-- **使用 `**` 解包字典**：`**` 操作符将字典解包为关键字参数，其中每个键用作参数名。
-
-```python
-def greet(name, age):
-    print(f'{name} is {age}')
-
-data = {'name': 'Jessica', 'age': 30}
-greet(**data)  # Jessica is 30
-```
-
-- **正则表达式和 `re.search()`**：正则表达式描述文本模式。`re.search()` 函数在字串中查找该模式的任意位置。如果找到，返回匹配对象；否则返回 `None`。
+- **`re.search()` 函数**：`search()` 函数在字符串的任意位置查找模式。如果找到，返回一个匹配对象，否则返回 `None`。匹配对象的 `group()` 和 `span()` 方法分别返回匹配的文本及其起始和结束索引。
 
 ```python
 import re
 
-print(re.search('cat', 'concatenate'))  # <re.Match object; span=(3, 6), match='cat'>
-print(re.search('dog', 'concatenate'))  # None
+result = re.search('cat', 'The cat sat on the mat.')
+print(result)         # <re.Match object; span=(4, 7), match='cat'>
+print(result.group()) # cat
+print(result.span())  # (4, 7)
 ```
 
-- **使用 `re.IGNORECASE` 进行不区分大小写匹配**：将 `re.IGNORECASE` 作为第三个参数传入，以忽略大小写差异。
+- **标记**：正则匹配默认区分大小写。`re.IGNORECASE` 标记使匹配不区分大小写，例如 `re.search('Cat', 'The cat sat', re.IGNORECASE)`。
+
+- **未经处理的字串**：未经处理的字串通过在开头引号前添加 `r` 创建，将反斜线视为字面字符而非转义序列。编写正则表达式时，最好总是使用未经处理的字串，比如 `r'\d'`。
+
+- **特殊序列**：`\d` 匹配任意数字，`\w` 匹配任意单词字符（字母、数字和下划线），`\s` 匹配任意空白字符。`\D`、`\W` 和 `\S` 匹配它们的反义。
+
+- **量词**：量词指定前述的字符可以重复的次数：`+` 表示一次或多次，`*` 表示零次或多次，`?` 表示零次或一次，`{n}` 表示恰好 `n` 次，`{n,m}` 表示从 `n` 次到 `m` 次。
 
 ```python
-print(re.search('cat', 'CAT', re.IGNORECASE))  # <re.Match object; span=(0, 3), match='CAT'>
+import re
+
+print(re.search(r'\d+', 'Room 42B'))    # <re.Match object; span=(5, 7), match='42'>
+print(re.search(r'colou?r', 'color'))   # <re.Match object; span=(0, 5), match='color'>
+print(re.search(r'\d{4}', 'Room 1987')) # <re.Match object; span=(5, 9), match='1987'>
 ```
 
-- **原始字串和 `\d`**：原始字串以 `r` 开头，将反斜线视为字面字符，使正则表达式更易读。在模式中，`\d` 匹配任意单个数字。
+## `re` 模块中的实用函数
+
+- **`re.match()` 函数**：类似于 `search()`，但只在字符串开头查找模式。
+
+- **`re.fullmatch()` 函数**：仅当模式匹配整个字符串时返回匹配对象。这对于验证数据非常有用。
+
+- **`re.findall()` 函数**：返回所有匹配项的字串列表，如果没有匹配则返回空列表。
+
+- **`re.sub()` 函数**：用另一个字串替换模式的每个匹配项，并返回新的字串。它的可选参数 `count` 和 `flags` 应始终作为关键字参数传入。
 
 ```python
-print(re.search(r'\d', 'room 5'))  # <re.Match object; span=(5, 6), match='5'>
-```
+import re
 
-- **`+` 量词**：`+` 量词匹配前面模式的一次或多次重复。
-
-```python
-print(re.search(r'\d+', 'room 305'))  # <re.Match object; span=(5, 8), match='305'>
-```
-
-- **`re.fullmatch()` 函数**：`re.fullmatch()` 仅在整个字串完全匹配模式时返回匹配对象，否则返回 `None`。
-
-```python
-print(re.fullmatch(r'\d+', '305'))      # <re.Match object; span=(0, 3), match='305'>
-print(re.fullmatch(r'\d+', 'room 305')) # None
-```
-
-- **使用 `is` 和 `is not` 判断对象同一性**：`is` 操作符检查两个名称是否引用同一个对象，`is not` 检查它们是否不同。这些操作符是判断值是否为 `None` 的标准方式。
-
-```python
-result = None
-
-print(result is None)      # True
-print(result is not None)  # False
-```
-
-- **`all()` 函数**：`all()` 函数在可迭代对象的所有元素都为真值时返回 `True`。对于空的可迭代对象，也返回 `True`。
-
-```python
-print(all([1, 'a', True]))  # True
-print(all([1, 0, True]))    # False
+print(re.match(r'\d+', 'apples: 42'))             # None
+print(re.fullmatch(r'\d+:\d+', '10:30pm'))        # None
+print(re.findall(r'\d+', 'Rooms 12, 7, and 105')) # ['12', '7', '105']
+print(re.sub(r'\d', '*', '555 0123', count=3))    # *** 0123
 ```
 
 # --assignment--

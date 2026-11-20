@@ -47,6 +47,23 @@ for product, price in products.items():
 print(products)  # {'apple': 8, 'pear': 16}
 ```
 
+- **使用 `**` 解包字典**：`**` 運算子會將字典解包成關鍵字引數，其中每個鍵用作參數名稱。
+
+```python
+def greet(name, age):
+    print(f'{name} is {age}')
+
+data = {'name': 'Jessica', 'age': 30}
+greet(**data)  # Jessica is 30
+```
+
+- **`all()` 函式**：`all()` 函式會在可迭代物件中所有元素皆為真值時傳回 `True`。對空的可迭代物件也會傳回 `True`。
+
+```python
+print(all([1, 'a', True]))  # True
+print(all([1, 0, True]))    # False
+```
+
 ## 常用字典方法
 
 - **`get()` 方法**：`get()` 方法用來取得與鍵相關聯的值。它類似中括號表示法，但允許你設定預設值，避免鍵不存在時發生錯誤。
@@ -230,6 +247,15 @@ my_set = {1, 2, 3, 4, 5}
 ```python
 set() # Set
 {}    # Dictionary
+```
+
+- **從可迭代物件建立集合**：`set()` 建構式接受一個可迭代物件，例如列表、字串或字典（會取其鍵），前提是其元素可以被儲存在集合中。舉例來說，數字列表是有效的，但包含其他列表的列表則無效。這對比對你預期的鍵和實際擁有的鍵很有用。
+
+```python
+expected_keys = {'name', 'age'}
+data = {'name': 'Jessica', 'age': 30}
+
+print(set(data) == expected_keys)  # True
 ```
 
 ## 常用集合方法
@@ -428,75 +454,54 @@ if __name__ == '__main__':
     # Code
 ```
 
-## 驗證資料
+## 正規表達式
 
-- **從可迭代物件建立集合**：`set()` 建構式接受一個可迭代物件，例如列表、字串或字典（會取其鍵），前提是其元素可以被儲存在集合中。舉例來說，數字列表是有效的，但包含其他列表的列表則無效。這對比對你預期的鍵和實際擁有的鍵很有用。
+- **正規表達式**：正規表達式（regex）是一種用來匹配文字中一連串字元的樣式。要在 Python 中使用它們，你需要匯入 `re` 模組。
 
-```python
-expected_keys = {'name', 'age'}
-data = {'name': 'Jessica', 'age': 30}
-
-print(set(data) == expected_keys)  # True
-```
-
-- **使用 `**` 解包字典**：`**` 運算子會將字典解包成關鍵字引數，其中每個鍵用作參數名稱。
-
-```python
-def greet(name, age):
-    print(f'{name} is {age}')
-
-data = {'name': 'Jessica', 'age': 30}
-greet(**data)  # Jessica is 30
-```
-
-- **正規表達式和 `re.search()`**：正規表達式描述一個文字樣式。`re.search()` 函式會在字串中尋找該樣式的任何位置。如果找到，會傳回一個匹配物件；找不到則傳回 `None`。
+- **`re.search()` 函式**：`search()` 函式會在字串中尋找任意位置的樣式。如果找到，會傳回一個匹配物件，否則傳回 `None`。匹配物件的 `group()` 和 `span()` 方法分別傳回匹配的文字及其起始和結束索引。
 
 ```python
 import re
 
-print(re.search('cat', 'concatenate'))  # <re.Match object; span=(3, 6), match='cat'>
-print(re.search('dog', 'concatenate'))  # None
+result = re.search('cat', 'The cat sat on the mat.')
+print(result)         # <re.Match object; span=(4, 7), match='cat'>
+print(result.group()) # cat
+print(result.span())  # (4, 7)
 ```
 
-- **使用 `re.IGNORECASE` 進行不區分大小寫的比對**：將 `re.IGNORECASE` 作為第三個引數傳入，可忽略大小寫差異。
+- **旗標**：正規表達式的匹配預設是區分大小寫的。`re.IGNORECASE` 旗標會讓匹配不區分大小寫，例如 `re.search('Cat', 'The cat sat', re.IGNORECASE)`。
+
+- **未經處理的字串**：未經處理的字串是透過在開頭引號前加上 `r` 來建立，會將反斜線視為字面字元，而非跳脫字元。建議總是將正規表達式樣式寫成未經處理的字串，例如 `r'\d'`。
+
+- **特殊序列**：`\d` 匹配任意數字，`\w` 匹配任意字元（字母、數字和底線），`\s` 匹配任意空白字元。`\D`、`\W` 和 `\S` 則匹配相反的字元。
+
+- **量詞**：量詞用來指定前一個字元可以重複出現的次數：`+` 表示一次或多次，`*` 表示零次或多次，`?` 表示零次或一次，`{n}` 表示恰好出現 `n` 次，`{n,m}` 表示出現次數介於 `n` 到 `m` 次之間。
 
 ```python
-print(re.search('cat', 'CAT', re.IGNORECASE))  # <re.Match object; span=(0, 3), match='CAT'>
+import re
+
+print(re.search(r'\d+', 'Room 42B'))    # <re.Match object; span=(5, 7), match='42'>
+print(re.search(r'colou?r', 'color'))   # <re.Match object; span=(0, 5), match='color'>
+print(re.search(r'\d{4}', 'Room 1987')) # <re.Match object; span=(5, 9), match='1987'>
 ```
 
-- **原始字串和 `\d`**：原始字串以 `r` 開頭，將反斜線視為字面字元，讓正規表達式更易讀。在樣式中，`\d` 匹配任一單一數字。
+## `re` 模組中的實用函式
+
+- **`re.match()` 函式**：類似 `search()`，但只會在字串開頭尋找樣式。
+
+- **`re.fullmatch()` 函式**：只有當樣式完全匹配整個字串時，才會傳回匹配物件。這對驗證資料非常有用。
+
+- **`re.findall()` 函式**：傳回一個包含所有匹配字串的列表，如果沒有匹配則傳回空列表。
+
+- **`re.sub()` 函式**：將樣式的每個匹配替換成另一個字串，並傳回新的字串。其選用的 `count` 和 `flags` 參數應該總是以關鍵字引數方式傳入。
 
 ```python
-print(re.search(r'\d', 'room 5'))  # <re.Match object; span=(5, 6), match='5'>
-```
+import re
 
-- **`+` 量詞**：`+` 量詞匹配前方樣式的一次或多次重複。
-
-```python
-print(re.search(r'\d+', 'room 305'))  # <re.Match object; span=(5, 8), match='305'>
-```
-
-- **`re.fullmatch()` 函式**：`re.fullmatch()` 函式只有在整個字串完全符合樣式時才傳回匹配物件，否則傳回 `None`。
-
-```python
-print(re.fullmatch(r'\d+', '305'))      # <re.Match object; span=(0, 3), match='305'>
-print(re.fullmatch(r'\d+', 'room 305')) # None
-```
-
-- **使用 `is` 和 `is not` 判斷物件身分**：`is` 運算子檢查兩個名稱是否指向同一個物件，而 `is not` 則檢查它們是否不同。這些運算子是判斷值是否為 `None` 的標準方式。
-
-```python
-result = None
-
-print(result is None)      # True
-print(result is not None)  # False
-```
-
-- **`all()` 函式**：`all()` 函式會在可迭代物件中所有元素皆為真值時傳回 `True`。對空的可迭代物件也會傳回 `True`。
-
-```python
-print(all([1, 'a', True]))  # True
-print(all([1, 0, True]))    # False
+print(re.match(r'\d+', 'apples: 42'))             # None
+print(re.fullmatch(r'\d+:\d+', '10:30pm'))        # None
+print(re.findall(r'\d+', 'Rooms 12, 7, and 105')) # ['12', '7', '105']
+print(re.sub(r'\d', '*', '555 0123', count=3))    # *** 0123
 ```
 
 # --assignment--

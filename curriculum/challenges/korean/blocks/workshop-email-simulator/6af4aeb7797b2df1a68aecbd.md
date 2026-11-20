@@ -1,17 +1,17 @@
 ---
 id: 6af4aeb7797b2df1a68aecbd
-title: Step 25
+title: 25단계
 challengeType: 20
 dashedName: step-25
 ---
 
 # --description--
 
-Now that you've seen the header in the console, remove the object creations and the method calls you added for testing.
+콘솔에서 헤더를 확인했으니, 테스트를 위해 추가한 객체 생성과 메서드 호출을 제거하세요.
 
 # --hints--
 
-You should not have `tory = User('Tory')` in your code.
+코드에 `tory = User('Tory')`가 없어야 합니다.
 
 ```js
 ({
@@ -21,7 +21,7 @@ You should not have `tory = User('Tory')` in your code.
 })
 ```
 
-You should not have `ramy = User('Ramy')` in your code.
+코드에 `ramy = User('Ramy')`가 없어야 합니다.
 
 ```js
 ({
@@ -31,7 +31,7 @@ You should not have `ramy = User('Ramy')` in your code.
 })
 ```
 
-You should not have `tory.send_email(ramy, 'Hello', 'Hi Ramy, just saying hello!')` in your code.
+코드에 `tory.send_email(ramy, 'Hello', 'Hi Ramy, just saying hello!')`가 없어야 합니다.
 
 ```js
 ({
@@ -41,7 +41,7 @@ You should not have `tory.send_email(ramy, 'Hello', 'Hi Ramy, just saying hello!
 })
 ```
 
-You should not have `ramy.inbox.emails[0].display_full_email()` in your code.
+코드에 `ramy.inbox.emails[0].display_full_email()`가 없어야 합니다.
 
 ```js
 ({
