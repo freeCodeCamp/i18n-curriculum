@@ -1,30 +1,28 @@
 ---
 id: 697a7f71ebfcd9e4cacd69c2
-title: ステップ 8
+title: Step 9
 challengeType: 20
-dashedName: step-8
+dashedName: step-9
 ---
 
 # --description--
 
-請求額は分割されますが、割り算はしばしば長い小数点以下の数字になります。お金は通常、小数点以下2桁で表されるため、最終結果を四捨五入する必要があります。
+The `:.2f` format specifier you've been using only changes how numbers are displayed. The values themselves still have all their decimal places. To get a number that is actually rounded and can be used in further calculations, you can use the `round()` function.
 
-以前のレッスンで、`round()` 関数について学びました。この関数は2つの引数を取ります：四捨五入したい数値と保持したい小数点以下の桁数です。例を示します。
+In an earlier lesson, you learned that the `round()` function takes two arguments: the number you want to round and the number of decimal places to keep. Here's an example:
 
 ```py
 num = 4.815162342
 round(num, 3) # 4.815
 ```
 
-`round()` 関数を使って `final_bill` を小数点以下2桁に四捨五入し、その結果を `each_pays` という新しい変数に代入してください。
+Use the `round()` function to round `final_bill` to two decimal places and assign the result to a new variable named `each_pays`.
 
-最後に、`print()` を使って文字列 `Each person pays:` とスペース、その後に `each_pays` 変数を表示してください。
-
-これで請求額分割のワークショップは完了です。
+Then, use `print()` to display the string `Each person pays:` followed by a space and your `each_pays` variable. Don't format the number this time.
 
 # --hints--
 
-`each_pays` という名前の変数を定義してください。
+You should define a variable named `each_pays`.
 
 ```js
 ({
@@ -34,7 +32,7 @@ round(num, 3) # 4.815
 })
 ```
 
-`round()` 関数を使って `final_bill` を小数点以下2桁に四捨五入し、その結果を `each_pays` 変数に代入してください。
+You should use the `round()` function to round `final_bill` to two decimal places and assign the result to your `each_pays` variable.
 
 ```js
 ({
@@ -44,22 +42,17 @@ round(num, 3) # 4.815
 })
 ```
 
-`print()` を使って文字列 `Each person pays:` とスペース、その後に `each_pays` 変数を表示してください。
+You should use `print()` to display the string `Each person pays:` followed by a space and your `each_pays` variable.
 
 ```js
 ({
     test: () => runPython(`
-import io, contextlib, re
-
-buffer = io.StringIO()
-with contextlib.redirect_stdout(buffer):
-    exec(_code)
-
-match = re.search(r"Each person pays: ([0-9]+(?:\\.[0-9]+)?)\\s*(?:\\n|$)", buffer.getvalue())
-
-assert match
-assert abs(float(match.group(1)) - 62.13) < 1e-6
-`)
+        import io, contextlib, re
+        buffer = io.StringIO()
+        with contextlib.redirect_stdout(buffer):
+            exec(_code)
+        assert re.search(r"^Each person pays: 62\\.1$", buffer.getvalue(), re.M)
+    `)
 })
 ```
 
@@ -75,49 +68,21 @@ num_of_friends = 4
 appetizers = 37.89
 main_courses = 57.34
 desserts = 39.39
-drinks = 64.21
+drinks = 64.11
 
 running_total += appetizers + main_courses + desserts + drinks
-print('Total bill so far:', running_total)
+print(f'Total bill so far: {running_total:.2f}')
 
 tip = running_total * 0.25
-print('Tip amount:', tip)
+print(f'Tip amount: {tip:.2f}')
 
 running_total += tip
-print('Total with tip:', running_total)
+print(f'Total with tip: {running_total:.2f}')
 
 final_bill = running_total / num_of_friends
-print('Bill per person:', final_bill)
+print(f'Bill per person: {final_bill:.2f}')
 
 --fcc-editable-region--
 
 --fcc-editable-region--
-```
-
-# --solutions--
-
-```py
-running_total = 0
-
-num_of_friends = 4
-
-appetizers = 37.89
-main_courses = 57.34
-desserts = 39.39
-drinks = 64.21
-
-running_total += appetizers + main_courses + desserts + drinks
-print('Total bill so far:', running_total)
-
-tip = running_total * 0.25
-print('Tip amount:', tip)
-
-running_total += tip
-print('Total with tip:', running_total)
-
-final_bill = running_total / num_of_friends
-print('Bill per person:', final_bill)
-
-each_pays = round(final_bill, 2)
-print('Each person pays:', each_pays)
 ```
